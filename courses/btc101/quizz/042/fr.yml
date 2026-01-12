@@ -1,13 +1,9 @@
-question: Quel est un inconvénient potentiel des monnaies numériques émises par les banques centrales (CBDCs) ?
-answer: Elles pourraient entraver la liberté financière des individus et faciliter les abus autoritaires.
+question: Quelle est la première phase du phénomène d'hyperinflation ?
+answer: Perte de confiance.
 wrong_answers:
-  - Elles pourraient entraîner une diminution de l'offre monétaire.
-  - Elles pourraient entraîner une diminution de la valeur du Bitcoin.
-  - Elles pourraient entraîner une diminution de la valeur de l'or.
+  - Effondrement de la monnaie et augmentation des prix.
+  - Le cercle vicieux de l'impression monétaire.
+  - Émergence d'une nouvelle monnaie.
 explanation: |
-  Les monnaies numériques émises par les banques centrales (CBDCs) pourraient potentiellement
-  entraver la liberté financière des individus et faciliter
-  les abus autoritaires. Cela est dû au fait qu'elles offriraient
-  une économie plus planifiée centralement, avec la banque centrale
-  ayant encore plus de contrôle sur l'offre monétaire.
+  La première phase de l'hyperinflation est la perte de confiance dans une monnaie.
 reviewed: true

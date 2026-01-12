@@ -3,6 +3,8 @@ name: Bitcoin Core (macOS & Windows)
 description: Bitcoin Core auf Mac oder Windows installieren
 ---
 
+![cover](assets/cover.webp)
+
 Bitcoin Core auf deinem regulären Computer zu installieren ist möglich, aber nicht ideal. Wenn es dir nichts ausmacht, deinen Computer rund um die Uhr eingeschaltet zu lassen, funktioniert das gut. Wenn du den Computer ausschalten musst, ist es lästig, jedes Mal auf die Synchronisierung der Software warten zu müssen, wenn du ihn wieder einschaltest.
 
 Diese Anleitung gilt für Mac- oder Windows-Benutzer. Linux-Benutzer benötigen wahrscheinlich keine Hilfe, aber die Anweisungen für Linux sind sehr ähnlich wie für Mac.
@@ -17,7 +19,7 @@ Du kannst entweder einen alten Computer bereinigen und ihn als dedizierten Bitco
 
 Bitcoin Core benötigt etwa 400 Gigabyte an Speicherplatz auf deiner Festplatte und wird weiter wachsen. Du kannst deine interne Festplatte verwenden, aber du kannst auch eine externe Festplatte anschließen. Ich werde beide Optionen erklären. Idealerweise solltest du eine Solid-State-Festplatte verwenden. Wenn du einen alten Computer hast, hat dieser wahrscheinlich keine interne SSD. Kaufe einfach eine externe SSD mit 1 oder 2 Terabyte und verwende diese. Die normale Festplatte funktioniert wahrscheinlich, aber es können Probleme auftreten und sie wird viel langsamer sein.
 
-![image](assets/1.webp)
+![image](assets/fr/01.webp)
 
 ## Bitcoin Core herunterladen
 
@@ -25,15 +27,15 @@ Gehe zu bitcoin.org (stelle sicher, dass du nicht zu bitcoin.com gehst, das ist 
 
 Sobald du dort bist, ist es seltsamerweise nicht offensichtlich, wo du die Software herunterladen kannst. Gehe zum Ressourcen-Menü und klicke auf "Bitcoin Core", wie unten gezeigt:
 
-![image](assets/2.webp)
+![image](assets/fr/02.webp)
 
 Das bringt dich zur Download-Seite:
 
-![image](assets/3.webp)
+![image](assets/fr/03.webp)
 
 Klicke auf den orangefarbenen "Download Bitcoin Core"-Button:
 
-![image](assets/4.webp)
+![image](assets/fr/04.webp)
 
 Es gibt mehrere Optionen zur Auswahl, abhängig von deinem Computer. Die ersten beiden sind für diese Anleitung relevant; wähle Windows oder Mac in der linken Leiste. Der Download beginnt, nachdem du darauf geklickt hast, wahrscheinlich in deinem Download-Verzeichnis.
 
@@ -41,7 +43,7 @@ Es gibt mehrere Optionen zur Auswahl, abhängig von deinem Computer. Die ersten 
 
 Du benötigst die Datei, die die Hashes verschiedener Versionen enthält. Diese Datei befand sich früher auf der Download-Seite von bitcoin.org, ist aber jetzt unter bitcoincore.org/en/download zu finden:
 
-![image](assets/5.webp)
+![image](assets/fr/05.webp)
 
 Du benötigst die Datei mit den SHA256-Binärhashes. Diese Datei enthält die SHA256-Hashes der verschiedenen Download-Pakete von Bitcoin Core.
 
@@ -64,7 +66,7 @@ Um das zu tun, sehen Sie sich meinen SHA256/gpg-Leitfaden an und scrollen Sie et
 
 Gehen Sie zurück zur Download-Seite und holen Sie sich die Datei mit den SHA256-Hash-Signaturen
 
-![image](assets/6.webp)
+![image](assets/fr/06.webp)
 
 Klicken Sie darauf und speichern Sie die Datei auf der Festplatte, vorzugsweise im Verzeichnis "Downloads".
 
@@ -99,7 +101,7 @@ Die zuerst aufgeführte Datei ist die genaue Schreibweise der Signaturdatei. Die
 
 Dies ist die Ausgabe, die Sie erhalten sollten
 
-![image](assets/7.webp)
+![image](assets/fr/07.webp)
 
 Sie können die WARNUNG ignorieren - das erinnert Sie nur daran, dass Sie Wladimir an einem wichtigen Punkt nicht persönlich getroffen und ihn nach seinem öffentlichen Schlüssel gefragt haben und dann Ihren Computer angewiesen haben, diesem Schlüssel vollständig zu vertrauen.
 
@@ -109,33 +111,33 @@ Wenn Sie diese Nachricht erhalten haben, wissen Sie nun, dass die Datei SHA256SU
 
 Sie sollten keine detaillierten Anweisungen zur Installation des Programms benötigen.
 
-![image](assets/8.webp)
+![image](assets/fr/08.webp)
 
 ## Bitcoin Core ausführen
 
 Auf einem Mac erhalten Sie möglicherweise eine Warnung (Apple ist immer noch gegen Bitcoin)
 
-![image](assets/9.webp)
+![image](assets/fr/09.webp)
 
 Klicken Sie auf OK und öffnen Sie dann Ihre Systemeinstellungen
 
-![image](assets/10.webp)
+![image](assets/fr/10.webp)
 
 Klicken Sie auf das Symbol "Sicherheit und Datenschutz":
 
-![image](assets/11.webp)
+![image](assets/fr/11.webp)
 
 Klicken Sie dann auf "Trotzdem öffnen":
 
-![image](assets/12.webp)
+![image](assets/fr/12.webp)
 
 Die Fehlermeldung wird erneut angezeigt, aber diesmal steht Ihnen eine SCHALTFLÄCHE "Öffnen" zur Verfügung. Klicken Sie darauf.
 
-![image](assets/13.webp)
+![image](assets/fr/13.webp)
 
 Bitcoin Core sollte geladen werden und Sie werden einige Optionen angezeigt bekommen:
 
-![image](assets/14.webp)
+![image](assets/fr/14.webp)
 
 Hier können Sie wählen, ob Sie den Standardpfad für den Download der Blockchain verwenden möchten oder ob Sie Ihr externes Laufwerk auswählen möchten. Wenn Sie das interne Laufwerk verwenden möchten, empfehle ich, den Standardpfad nicht zu ändern, da es einfacher ist, andere Software zu installieren, um mit Bitcoin Core zu kommunizieren.
 
@@ -143,7 +145,8 @@ Sie können wählen, ob Sie einen beschnittenen Knoten ausführen möchten. Dadu
 
 Sobald Sie bestätigt haben, beginnt der Download der Blockchain. Es wird mehrere Tage dauern.
 
-![image](assets/15.webp)
+![image](assets/fr/15.webp)
 
 Sie können den Computer ausschalten und später mit dem Download fortfahren, es wird keinen Schaden verursachen.
+
 

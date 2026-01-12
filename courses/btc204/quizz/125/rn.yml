@@ -1,0 +1,10 @@
+question: Ni iyihe ntumbero nyamukuru y’uguhindura amafaranga?
+answer: Kugira ngo ushire mu mpisho Ownership ya bitcoins
+wrong_answers:
+  - Kwongera umuvuduko w'ibikorwa
+  - Vanga ama bitcoins
+  - Mu mpisho Exchange na Altcoin kubera Bitcoin.
+explanation: |
+  Coinswap ikoresha amasezerano y’ubwenge kugira ngo ishobore gutanga Bitcoin Ownership hagati y’abakoresha babiri, ata kwizigira kandi ataco kwimurira kugaragara neza kuri Blockchain.
+  
+reviewed: false

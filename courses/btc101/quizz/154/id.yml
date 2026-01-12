@@ -1,12 +1,9 @@
-question: Apa peran ASIC dalam penambangan Bitcoin?
-answer: ASIC adalah mesin yang dirancang khusus untuk menerapkan algoritma SHA256 dalam proses penambangan.
+question: Apa kekhawatiran utama mengenai biaya lingkungan dari penambangan Bitcoin?
+answer: Konsumsi energi
 wrong_answers:
-  - ASIC digunakan untuk memverifikasi transaksi Bitcoin.
-  - ASIC digunakan untuk menciptakan bitcoin baru.
-  - ASIC digunakan untuk mengamankan jaringan Bitcoin.
+  - Produksi ASIC
+  - Daur ulang ASIC
+  - Biaya listrik
 explanation: >-
-  ASIC (Application-Specific Integrated Circuits) adalah perangkat keras khusus
-  yang dirancang secara spesifik untuk penambangan Bitcoin. Mereka dioptimalkan untuk melakukan fungsi hashing SHA256,
-  yang merupakan masalah matematika yang harus diselesaikan oleh penambang dalam
-  Proof of Work.
+  Kekhawatiran lingkungan utama dari penambangan Bitcoin adalah konsumsi energi. Meskipun ASIC sebagian besar terbuat dari aluminium dan dapat didaur ulang atau digunakan kembali, energi yang diperlukan untuk mengoperasikan mesin-mesin ini signifikan.
 reviewed: false

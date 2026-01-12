@@ -1,0 +1,10 @@
+question: Ni ingaruka izihe inflation ya 20% ku bushobozi bwo kugura mu myaka 3?
+answer: Utakaza 50% vy’ubushobozi bwo kugura.
+wrong_answers:
+  - Utakaza 100% vy’ubushobozi bwo kugura.
+  - Utakaza 60% vy’ubushobozi bwo kugura.
+  - Utakaza 30% vy’ubushobozi bwo kugura.
+explanation: |
+  Iyo ufise 20% vy’inflation, uratakaza hafi igice c’ivyo ugura
+  ububasha mu myaka 3.
+reviewed: true

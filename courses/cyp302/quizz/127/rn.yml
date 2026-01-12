@@ -1,0 +1,9 @@
+question: Ni iciyumviro ikihe c’imibare gishingiye ku rufunguzo rwa Diffie-Hellman Exchange?
+answer: Umurimo w'inzira imwe ufise umuryango w'inyuma
+wrong_answers:
+  - Umukozi w'inyongera
+  - Ubuhinga bwo gupima Hash
+  - Ugucapura kworoshe kw'ibice
+explanation: |
+  Diffie-Hellman yizigira igikorwa c’inzira imwe coroshe guharura mu nzira imwe ariko mu vy’ukuri kidashoboka gusubira inyuma ata makuru y’ibanga, yitwa backdoor.
+reviewed: false

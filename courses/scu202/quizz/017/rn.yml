@@ -1,0 +1,9 @@
+question: Ni iyihe distribution ibonwa ko ari iya kera kuruta izindi zose ikibungabungwa?
+answer: Slackware
+wrong_answers:
+  - Fedora
+  - Gentoo
+  - Manjaro
+explanation: |
+  Slackware, yaremwe mu mwaka w’1993 na Patrick Volkerding, ni yo distribution ya Linux ya kera igikora n’ubu.
+reviewed: true

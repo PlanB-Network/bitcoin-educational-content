@@ -1,0 +1,12 @@
+question: Ni igiki gisobanura Lightning Network mu bijanye n’ivyo Bitcoin Mining ivuga?
+answer: Lightning Network irafise ubushobozi bwo kugabanya cane amafaranga y’ugucuruza, ivyo bikaba bigira ingaruka ku mahera abacukuzi baronka mu mabuye y’agaciro.
+wrong_answers:
+  - Lightning Network yongera ubunini bw’ibarabara, gutyo igatuma abacukuzi b’amabuye y’agaciro bongera amahera.
+  - Lightning Network igabanya inguvu zikoreshwa na Bitcoin Mining.
+  - Lightning Network yongera umuvuduko wa Bitcoin Mining.
+explanation: |
+  Lightning Network iremesha kwihuta kandi ku giciro gito .
+  ibikorwa vyo hanze y’uruzitiro rwa Bitcoin. Ivyo bifise
+  ubushobozi bwo kugabanya cane amafaranga y’ugucuruza,
+  ivyo bishobora kugira ico bikoze ku mahera abacukuzi baronka.
+reviewed: true

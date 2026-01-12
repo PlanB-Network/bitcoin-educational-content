@@ -48,13 +48,13 @@ Når du åpner esken, bør du finne følgende elementer i den:
 - En USB-C til USB-A-kabel;
 - En brukerhåndbok;
 - Kort til å skrive ned minnefrasen din.
-For denne opplæringen trenger du to programmer: Ledger Live for å initialisere Ledger, og Sparrow Wallet for å administrere Bitcoin-lommeboken din. Last ned [Ledger Live] (https://www.ledger.com/ledger-live) og [Sparrow Wallet] (https://sparrowwallet.com/download/) fra deres offisielle nettsider.
+For denne opplæringen trenger du to programmer: Ledger Live for å initialisere Ledger, og Sparrow Wallet for å administrere Bitcoin-lommeboken din. Last ned [Ledger Live](https://www.ledger.com/ledger-live) og [Sparrow Wallet](https://sparrowwallet.com/download/) fra deres offisielle nettsider.
 
 ![NANO S PLUS LEDGER](assets/notext/03.webp)
 
 For disse to programmene anbefaler jeg på det sterkeste at du kontrollerer både ektheten (med GnuPG) og integriteten (via hashen) før du installerer dem på maskinen din. Hvis du ikke er sikker på hvordan du gjør dette, kan du følge denne andre veiledningen:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Hvordan initialiserer jeg en Ledger Nano?
 
@@ -96,7 +96,7 @@ Du kan bla gjennom disse instruksjonene og hoppe over sider ved å klikke på h�
 
 Hovedboken vil lage minnefrasen din ved hjelp av en tilfeldig tallgenerator. Forsikre deg om at du ikke blir observert under denne operasjonen. Skriv ned ordene du får fra Ledger på det fysiske mediet du ønsker. Avhengig av sikkerhetsstrategien din, kan du vurdere å lage flere fullstendige fysiske kopier av frasen (men det er viktig at du ikke deler den opp). Det er viktig å holde ordene nummerert og i sekvensiell rekkefølge.
 
-***Du bør selvsagt aldri dele disse ordene på internett, i motsetning til hva jeg gjør i denne veiledningen. Dette eksemplet på lommebok vil kun bli brukt på Testnet og vil bli slettet etter opplæringen
+**Du bør selvsagt aldri dele disse ordene på internett, i motsetning til hva jeg gjør i denne veiledningen. Dette eksemplet på lommebok vil kun bli brukt på Testnet og vil bli slettet etter opplæringen**
 
 ![NANO S PLUS LEDGER](assets/notext/11.webp)
 
@@ -158,7 +158,7 @@ Passordfrasen må ikke forveksles med PIN-koden. Den spiller en rolle i utlednin
 
 Passordfrasen er et veldig kraftig verktøy for å øke sikkerheten til bitcoinsene dine. Det er imidlertid veldig viktig å forstå hvordan det fungerer før du implementerer det, for å unngå å miste tilgangen til lommeboken din. Derfor anbefaler jeg deg å lese denne andre veiledningen hvis du ønsker å sette opp en passordfrase på din Ledger:
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 I menyen "*PIN-lås*" kan du konfigurere og aktivere automatisk låsing av hovedboken etter en bestemt periode med inaktivitet.
 
@@ -252,11 +252,11 @@ Og der har du det, lommeboken din er nå opprettet!
 
 ![NANO S PLUS LEDGER](assets/notext/43.webp)
 
-Før du mottar dine første bitcoins i lommeboken din, anbefaler jeg deg på det sterkeste å utføre en gjenopprettingstest**. Noter ned en referanseinformasjon, for eksempel xpub, og tilbakestill deretter Ledger Nano mens lommeboken fortsatt er tom. Prøv deretter å gjenopprette lommeboken på Ledger ved hjelp av papirsikkerhetskopiene dine. Sjekk at xpuben som genereres etter gjenopprettingen, stemmer overens med den du først noterte. Hvis det stemmer, kan du være sikker på at papirbackupene dine er pålitelige.
+Før du mottar dine første bitcoins i lommeboken din, anbefaler jeg deg på det sterkeste å utføre en **gjenopprettingstest**. Noter ned en referanseinformasjon, for eksempel xpub, og tilbakestill deretter Ledger Nano mens lommeboken fortsatt er tom. Prøv deretter å gjenopprette lommeboken på Ledger ved hjelp av papirsikkerhetskopiene dine. Sjekk at xpuben som genereres etter gjenopprettingen, stemmer overens med den du først noterte. Hvis det stemmer, kan du være sikker på at papirbackupene dine er pålitelige.
 
 Hvis du vil lære mer om hvordan du utfører en gjenopprettingstest, anbefaler jeg at du leser denne andre veiledningen:
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Hvordan motta bitcoins med Ledger Nano?
 
@@ -288,7 +288,7 @@ Du kan legge til en "*Label*" for å beskrive kilden til bitcoinsene som skal si
 
 Hvis du vil ha mer informasjon om merking, anbefaler jeg deg også å ta en titt på denne andre veiledningen:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Du kan deretter bruke denne adressen til å motta bitcoins.
 
@@ -358,5 +358,4 @@ Hvis du fant denne opplæringen nyttig, vil jeg sette pris på det hvis du kan l
 
 Jeg anbefaler også at du sjekker ut denne komplette veiledningen om Ledger Flex:
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
-
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a

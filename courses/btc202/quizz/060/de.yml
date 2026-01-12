@@ -1,0 +1,9 @@
+question: Welche Rolle spielt ein auf Umbrel installiertes Nostr-Relay?
+answer: Lokales Hosten deiner Veröffentlichungen
+wrong_answers:
+  - Prüfung von Bitcoin-Transaktionen
+  - Erstellung von Nostr-Kanälen mit deinen Kontakten
+  - Lokale Sicherung der Nostr Blockchain
+explanation: |
+  Ein Nostr-Relay auf Umbrel ermöglicht es, Daten lokal zu hosten, wodurch Verfügbarkeit und Souveränität garantiert werden.
+reviewed: true

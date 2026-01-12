@@ -1,9 +1,8 @@
-question: Satoshi ناکاموتو چه زمانی ناپدید شد؟
-answer: در سال 2010
+question: نسخه اولین نرم‌افزار Bitcoin که منتشر شد چیست؟
+answer: Bitcoin-0.1.0.
 wrong_answers:
-  - در سال 2008
-  - در سال ۲۰۰۹
-  - در سال ۲۰۲۳
-explanation: |
-  Satoshi ناکاموتو در سال 2010 ناپدید شد و خلقت خود را به دست جامعه سپرد.
+  - Bitcoin-0.0.1.
+  - Bitcoin-1.0.0.
+  - Bitcoin-0.1.1.
+explanation: >-
 reviewed: true

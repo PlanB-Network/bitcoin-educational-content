@@ -1,0 +1,9 @@
+question: Ni gute igiharuro c’igenzura giharurwa ku ma aderesi ya SegWit v0 akodeshejwe muri bech32?
+answer: Gukoresha amakode ya BCH
+wrong_answers:
+  - Mu gukoresha HASH256 incuro zibiri
+  - Mu kwongerako RIPEMD160 Hash00.
+  - Mu gushiramwo amakuru ataco akora muri base64
+explanation: |
+  Aderesi za Bech32 zikoresha amakode ya BCH kugira ngo ziharure umubare w’ibintu bigenzurwa.
+reviewed: false

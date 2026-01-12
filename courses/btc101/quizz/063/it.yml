@@ -1,12 +1,10 @@
-question: Qual è il concetto matematico che si basa sulla razionalità umana ed è utilizzato in Bitcoin?
-answer: Teoria dei giochi.
+question: Quanto è la ricompensa in BTC dopo il quarto halving?
+answer: 3.125 BTC.
 wrong_answers:
-  - Teoria della probabilità.
-  - Teoria dei numeri.
-  - Teoria degli insiemi.
+  - 1.5625 BTC.
+  - 6.25 BTC.
+  - 12.5 BTC.
 explanation: |
-  La teoria dei giochi è un concetto matematico che si basa
-  sulla razionalità umana. In Bitcoin, i cambiamenti al protocollo sono
-  applicati dagli utenti, rendendo qualsiasi modifica al protocollo
-  estremamente complessa.
-reviewed: true
+  Dopo il quarto halving, che si verificato all'altezza del blocco
+  840,000, la ricompensa in BTC per il mining è di 3.125 BTC.
+reviewed: vero

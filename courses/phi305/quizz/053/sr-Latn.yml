@@ -1,0 +1,9 @@
+question: Šta predstavlja Satoshi Nakamotova Bela knjiga?
+answer: Decentralizovano sredstvo Exchange na Internetu.
+wrong_answers:
+  - Nova liberalna politika.
+  - Centralizovani Exchange protokol.
+  - Politički program.
+explanation: |
+  Satoshi White Paper Nakamoto predstavlja Bitcoin kao decentralizovani medijum Exchange na Internetu. Predlaže peer-to-peer elektronski platni sistem bez centralne vlasti.
+reviewed: false

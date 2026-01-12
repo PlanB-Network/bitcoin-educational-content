@@ -1,5 +1,5 @@
 ---
-name: Rotulagem de UTXO
+name: Labelling UTXO
 description: Como rotular corretamente seu UTXO?
 ---
 ![cover](assets/cover.webp)

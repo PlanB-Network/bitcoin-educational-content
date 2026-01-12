@@ -1,0 +1,9 @@
+question: Ni igiki kiba mu gihe c’urugendo rwo gufatanya muri SHA256?
+answer: Impinduka za Leta zivugururwa kuva ku majambo y'ubutumwa n'ibidahinduka
+wrong_answers:
+  - Hash ya nyuma iratera imbere buhoro buhoro inyuma y'urugendo rwose
+  - Ubutumwa burasubirwamwo
+  - Agaciro k'intango k'ibihinduka kaguma kadahindutse
+explanation: |
+  Igizunguruko cose gihindura ibihinduka vy’intara hakoreshejwe amajambo, ibidahinduka, n’ibikorwa vy’ubwenge kugira ngo amakuru akwiragizwe.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Apa pendekatan bermasalah yang digunakan Satoshi ketika mengimplementasikan fork yang sulit yang tidak akan pernah digunakan oleh pengembang Bitcoin saat ini?
+answer: Menyembunyikan perubahan yang melanggar dalam sebuah commit dengan deskripsi yang menyesatkan yang tidak memberikan indikasi modifikasi aturan konsensus
+wrong_answers:
+  - Menerapkan hard fork tanpa pengumuman publik atau komunikasi kepada komunitas Bitcoin sebelumnya
+  - Menggabungkan beberapa hard fork ke dalam satu rilis tanpa proses pengujian atau tinjauan komunitas yang tepat
+  - Mengaktifkan hard fork dengan segera tanpa memberikan waktu yang cukup bagi pengguna untuk meningkatkan perangkat lunak node mereka
+explanation: |
+  Menurut analisis Eric Lombrozo, pendekatan Satoshi yang bermasalah adalah menyamarkan perubahan yang melanggar konsensus dalam sebuah komit dengan deskripsi yang menyesatkan yang hanya menyebutkan 'reverted makefile.unix wx-config version 0.3.6' tanpa indikasi perubahan yang melanggar. Praktik menyembunyikan modifikasi konsensus yang penting dalam komit yang terlihat tidak berbahaya akan dianggap tidak dapat diterima oleh standar saat ini, di mana transparansi dan komunikasi yang jelas tentang perubahan konsensus adalah prinsip dasar pengembangan Bitcoin.
+reviewed: false

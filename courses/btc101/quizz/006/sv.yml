@@ -1,0 +1,10 @@
+question: Vad är Cypherpunk-manifestet?
+answer: En text skriven av Eric Hughes där han hävdar att privatlivet är en grundläggande rättighet.
+wrong_answers:
+  - En bok skriven av Julian Assange om teknikens framtid.
+  - Ett dokument som beskriver principerna för Bitcoin.
+  - Ett manifest skrivet av David Chaum om vikten av digital valuta.
+explanation: |
+  Cypherpunk-manifestet skrevs av Eric Hughes 1993
+  och hävdar att integritet är en grundläggande rättighet.
+reviewed: true

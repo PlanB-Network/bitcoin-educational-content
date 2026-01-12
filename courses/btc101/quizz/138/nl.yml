@@ -1,8 +1,11 @@
-question: Wat is de primaire functie van knooppunten in het Bitcoin netwerk?
-answer: Een kopie van Bitcoin Blockchain bijhouden, transacties valideren, informatie naar andere knooppunten sturen en de regels van het Bitcoin protocol afdwingen.
+question: Waar ging de blokkenoorlog in 2017 over?
+answer: Een conflict over het al dan niet vergroten van de blokgrootte om de transactiecapaciteit uit te breiden.
 wrong_answers:
-  - Het bijhouden van een kopie van het Bitcoin Blockchain, het valideren van transacties, het verzenden van informatie naar de overheid en het wijzigen van de regels van het Bitcoin protocol.
-  - Alleen een kopie van de Bitcoin Blockchain bijhouden.
-  - Alleen informatie verzenden naar andere knooppunten.
-explanation: >-
+  - Een conflict over het al dan niet verkleinen van de blokgrootte om de transactiecapaciteit te verminderen.
+  - Een conflict over het al dan niet verhogen van de Block reward om mijnwerkers te stimuleren.
+  - Een conflict over de vraag of de Block reward verlaagd moet worden om mijnwerkers te ontmoedigen.
+explanation: |
+  De blokoorlog in 2017 was een conflict over de vraag of we
+  gW-2 aan te passen door de blokgrootte te vergroten om de
+  transactiecapaciteit.
 reviewed: true

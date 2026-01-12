@@ -1,8 +1,14 @@
 ---
-name: Wallet ya Satoshi
+name: Wallet of Satoshi
 description: Wallet rahisi zaidi ya uhifadhi ili kuanza
 ---
 ![cover](assets/cover.webp)
+
+---
+
+*Tahadhari: tangu mwanzo wa mwaka 2026, Wallet of Satoshi katika hali ya custodial (kama ilivyoelezwa katika mwongozo huu) haipatikani tena ndani ya Umoja wa Ulaya. Ikiwa unaishi katika eneo hili na ungependa kuendelea kutumia zana hii, utahitaji kutumia VPN iliyo nje ya EU. Chaguo jingine ni kutumia Wallet of Satoshi katika hali ya self-custodial. Mwongozo maalum utachapishwa hivi karibuni kwenye Plan ₿ Academy.*
+
+---
 
 _Mafunzo haya yameandikwa na_ [Kampasi ya Bitcoin](https://linktr.ee/bitcoincampus_)
 
@@ -12,7 +18,7 @@ _Mafunzo haya yameandikwa na_ [Kampasi ya Bitcoin](https://linktr.ee/bitcoincamp
 
 Wallet ya Satoshi ni Lightning Network Wallet, iliyohifadhiwa, na ni rahisi sana kutumia.
 
-Kwa madhumuni ya kozi [BTC105 - Finding Now](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), inatumika kwa vocha za Redeem Lightning Network.
+Kwa madhumuni ya kozi [BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), inatumika kwa vocha za Redeem Lightning Network.
 
 
 **Kumbuka kila wakati**: _sio funguo zako, si sarafu zako_
@@ -79,8 +85,8 @@ Wallet ya Satoshi imetuma ujumbe kwa kikasha cha barua pepe kilichoonyeshwa.
 Katika sanduku la barua, tutapata maneno mawili, ambayo tunahitaji kuingia, kuandika tena, katika nafasi iliyotolewa na programu.
 
 
-- usiamsha mfasiri: maneno ni na lazima yabaki katika Kiingereza **
-- andika upya maneno mawili ukizingatia herufi kubwa/chini**
+- usiamsha mfasiri: maneno ni na lazima yabaki katika Kiingereza
+- andika upya maneno mawili ukizingatia herufi kubwa/chini
 
 
 ![image](assets/it/10.webp)

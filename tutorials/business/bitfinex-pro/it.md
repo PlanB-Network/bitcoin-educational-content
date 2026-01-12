@@ -12,7 +12,7 @@ In questo tutorial, affronteremo il processo di creazione di un conto commercial
 
 Se siete interessati all'integrazione del bitcoin nella vostra attività, vi consiglio di scoprire anche il nostro corso di formazione teorico completo sull'argomento:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Creare un conto Bitfinex
 
@@ -26,11 +26,11 @@ Completate le informazioni richieste: inserite il vostro indirizzo e-mail aziend
 
 Per suggerimenti sull'uso e la salvaguardia di password forti e uniche, vedere anche questo tutorial:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Ora configureremo il 2FA per proteggere l'account. Utilizzate un'applicazione di autenticazione sul vostro smartphone, come ad esempio Google Authenticator o Authy. Troverete un tutorial su questo strumento qui:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Scansionate il codice QR con la vostra app e inserite le 6 cifre fornite.
 
@@ -64,7 +64,7 @@ In "*Tipo di account*", selezionare "*Azienda*". Nel mio caso, sto passando a "*
 
 ![BITFINEX](assets/fr/09.webp)
 
-Completare i passaggi fornendo :
+Completare i passaggi fornendo:
 
 
 - Informazioni sull'azienda (nome dell'azienda, dati di contatto, settore di attività, ecc;
@@ -77,14 +77,14 @@ Una volta completata e inviata la domanda, la piattaforma potrebbe impiegare alc
 
 ## 3 - Rapida introduzione all'interfaccia di Bitfinex
 
-Una volta effettuato l'accesso, vedrete una barra di navigazione nella parte superiore dell'interfaccia con: "*Trading*", "*Derivati*", "*Fondi*", "*OTC*", "*P2P*", "*Portafoglio*", ecc. Bitfinex offre un'ampia gamma di funzionalità, tra cui :
+Una volta effettuato l'accesso, vedrete una barra di navigazione nella parte superiore dell'interfaccia con: "*Trading*", "*Derivati*", "*Fondi*", "*OTC*", "*P2P*", "*Portafoglio*", ecc. Bitfinex offre un'ampia gamma di funzionalità, tra cui:
 
 
-- Trading**: mercato "*classico*" dove è possibile inserire ordini di acquisto e vendita di criptovalute (incluso bitcoin);
-- OTC**: Servizio Over-The-Counter per la negoziazione di grandi volumi direttamente con un altro operatore, al di fuori dei libri degli ordini pubblici;
-- Finanziamenti**: Area dedicata ai prestiti e al finanziamento dei margini;
-- Derivati**: Sezione per i derivati (futures, ecc.), destinata ai trader esperti;
-- P2P**: Permette di acquistare o vendere criptovalute da altri utenti su base peer-to-peer.
+- **Trading**: mercato "*classico*" dove è possibile inserire ordini di acquisto e vendita di criptovalute (incluso bitcoin);
+- **OTC**: Servizio Over-The-Counter per la negoziazione di grandi volumi direttamente con un altro operatore, al di fuori dei libri degli ordini pubblici;
+- **Finanziamenti**: Area dedicata ai prestiti e al finanziamento dei margini;
+- **Derivati**: Sezione per i derivati (futures, ecc.), destinata ai trader esperti;
+- **P2P**: Permette di acquistare o vendere criptovalute da altri utenti su base peer-to-peer.
 
 Per l'uso standard (acquisto/vendita di bitcoin, depositi/prelievi e gestione del contante), si utilizzerà principalmente la scheda "*Trading*", nonché le sezioni "*Wallet*", "*Deposit*" e "*Withdraw*".
 
@@ -160,7 +160,7 @@ Bitfinex offre anche opzioni di deposito e prelievo tramite la rete Lightning, c
 
 Se siete interessati alla rete Lightning, abbiamo anche un corso di formazione completo per aiutarvi a capire come funziona:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## 6 - Comprare e vendere bitcoin su Bitfinex
 
@@ -216,7 +216,7 @@ A seconda degli obiettivi e della struttura della vostra azienda, l'uso di Bitfi
 
 ### Acquistare bitcoin in cambio di contanti
 
-**Obiettivo: diversificare il flusso di cassa dell'azienda investendo in bitcoin.
+**Obiettivo: diversificare il flusso di cassa dell'azienda investendo in bitcoin.**
 
 **Passi da seguire:**
 
@@ -241,4 +241,4 @@ A seconda degli obiettivi e della struttura della vostra azienda, l'uso di Bitfi
 
 Per uno sguardo più approfondito su questo argomento, vi consiglio questo corso di formazione completo sull'integrazione di bitcoin nelle aziende, che tratta in dettaglio l'aggiunta al flusso di cassa, l'accettazione di pagamenti in bitcoin e la contabilità:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

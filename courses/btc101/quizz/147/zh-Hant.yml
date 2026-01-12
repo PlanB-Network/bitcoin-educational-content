@@ -1,16 +1,13 @@
-question: 如果區塊重了 100 倍，對 Bitcoin 使用者會有什麼影響？
-answer: 一般人無法運行 Bitcoin 節點，這會損害協定的分散性，以及交易和共識規則的不可變性。
+question: ASIC 在 Bitcoin Mining 中扮演什麼角色？
+answer: ASIC 是專為在 Mining 程序中應用 SHA256 演算法而設計的機器。
 wrong_answers:
-  - 運行 Bitcoin 節點對一般人來說更容易，可增強協定的分散性以及交易和共識規則的不可變性。
-  - 網路的交易容量將會降低。
-  - 礦工的 Block reward 將會增加。
+  - ASIC 用於驗證 Bitcoin 交易，在驗證過程中應用 SHA256 演算法。
+  - ASIC 用來任意創造新的比特幣。
+  - ASIC 用於保護 Bitcoin 網路的安全。
 explanation: |
-  如果區塊重量增加 100 倍，執行 Bitcoin
-  節點將需要 50TB Hard 磁碟、超過
-  500 GB/月，以及能夠在 10 分鐘內驗證成百上千筆交易的硬體。
-  成千上萬的交易。這
-  這將使一般人無法執行 Bitcoin 節點。
-  這將使一般人無法運行 Bitcoin 節點，並影響該
-  協定的分散性，以及交易和共識規則的不可變性。
-  規則。
+  ASIC (特定應用集成電路) 是專為 Bitcoin 設計的特殊硬體。
+  專為 Bitcoin
+  Mining 的專用硬體。它們經過最佳化，可執行 SHA256 散列
+  函數，這是礦工
+  必須在 Proof of Work 程序中解決的數學問題。
 reviewed: true

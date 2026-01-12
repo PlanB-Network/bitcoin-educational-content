@@ -1,0 +1,8 @@
+question: Mikä on tärkein etu, kun Bitcoin:n julkisia avaimia varten käytetään pakattua SEC-muotoa pakkaamattomaan SEC-muotoon verrattuna?
+answer: Se pienentää tallennuskokoa 65 tavusta 33 tavuun säilyttäen saman salausvarmuuden
+wrong_answers:
+  - Se tarjoaa vahvemman salausturvan käyttämällä ylimääräisiä salaustasoja
+  - Se mahdollistaa nopeammat pistekerroinoperaatiot allekirjoitusten todentamisprosessien aikana
+  - Sen avulla voidaan johtaa useita julkisia avaimia yhdestä pakatusta muodosta
+explanation: |
+  Pakattu SEC-muoto pienentää julkisen avaimen koon 65 tavusta (pakkaamattomana) 33 tavuun tallentamalla vain x-koordinaatin ja pariteettibitin (0x02- tai 0x03-etuliite) molempien täydellisten koordinaattien sijasta. Y-koordinaatti voidaan rekonstruoida matemaattisesti x-koordinaatista ja pariteettitiedoista, koska elliptisillä käyrillä on korkeintaan kaksi y-arvoa mille tahansa x:lle. Tämä pakkaus säästää merkittävästi tallennustilaa ilman tietoturvan heikkenemistä, minkä vuoksi Bitcoin suosii nykyään pakattuja avaimia tehokkuuden vuoksi.

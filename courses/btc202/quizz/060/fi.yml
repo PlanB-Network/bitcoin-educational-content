@@ -1,0 +1,9 @@
+question: Mikä on Umbreliin asennetun Nostr-releen rooli?
+answer: Isännöi julkaisujasi paikallisesti
+wrong_answers:
+  - Tarkista Bitcoin-tapahtumat
+  - Luo Nostr-kanavia yhteystietojesi kanssa
+  - Blockchain Nostrin paikallinen varmuuskopiointi
+explanation: |
+  Umbrelissa oleva Nostr-rele mahdollistaa tietojen paikallisen isännöinnin, mikä takaa saatavuuden ja riippumattomuuden.
+reviewed: true

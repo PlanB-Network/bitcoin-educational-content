@@ -1,0 +1,9 @@
+question: Liệu lạm phát cơ cấu có phải là kết quả?
+answer: Sự gia tăng tiền Supply.
+wrong_answers:
+  - Giá tăng
+  - Chính sách tài khóa.
+  - Các biện pháp chống lại chủ nghĩa tự do.
+explanation: |
+  Lạm phát cơ cấu là kết quả của sự gia tăng lượng tiền Supply. Khi lượng tiền lưu thông tăng nhanh hơn sản lượng hàng hóa và dịch vụ, điều này dẫn đến giá cả chung tăng.
+reviewed: false

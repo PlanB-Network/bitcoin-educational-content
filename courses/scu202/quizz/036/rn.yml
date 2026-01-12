@@ -1,0 +1,9 @@
+question: Ni kubera iki uhanuriwe gukuramwo porogarame zidakoreshwa canke zataye igihe mu nyabwonko yawe?
+answer: Kugira ngo ugabanye imvo canke amahirwa yo gutegwa (attack surface)
+wrong_answers:
+  - Kugira ngo wihutishe Interineti
+  - Kugira ngo utere imbere mu bijanye n’umutekano
+  - Kugira ngo wongere ubuzima bwa bateri
+explanation: |
+  Uko porogarama zishirwamwo zigabanuka, ni ko n’ibintu bishobora gutuma abatera bashobora kuguhungabanya bigabanuka.
+reviewed: true

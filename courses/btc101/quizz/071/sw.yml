@@ -1,12 +1,12 @@
-question: Halving ya 7 itafanyika mwaka gani?
-answer: 2036
+question: Ni ipi kati ya chaguo hizi ambayo ni ya uwongo kuhusu kupoteza kifaa ambacho una Bitcoin Wallet yako?
+answer: Unaweza kuunda upya Wallet yako na kutumia Bitcoin yako kwa kuweka upya nenosiri lako.
 wrong_answers:
-  - 2032
-  - 2028
-  - 2048
+  - Unapoteza Bitcoins zako zote ikiwa huna maneno ya Mnemonic.
+  - Unaweza kuthibitisha kwa funguo zako za umma kuwa bitcoins zako hazijatumika.
+  - Unaweza kuunda upya Wallet yako na kutumia Bitcoin yako kwa kutumia maneno ya Mnemonic.
 explanation: |
-  Halving ya 7 inapaswa kutokea mwaka wa 2036, na inakadiriwa
-  idadi ya Bitcoin katika mzunguko itakuwa 20,835,937.5,
-  ambayo italingana na 99.22% ya jumla
-  Supply.
+  Kupoteza kifaa ambacho una Wallet yako haifanyi
+  lazima inamaanisha upotezaji wa Bitcoins zako. Ni nini kinakuruhusu
+  kuunda upya Wallet yako na kutumia Bitcoin yako ndio
+  Maneno ya Mnemonic.
 reviewed: true

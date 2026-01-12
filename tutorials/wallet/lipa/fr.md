@@ -10,7 +10,7 @@ Les portefeuilles Lightning, comme tous les portefeuilles mobiles, sont considé
 
 Si vous souhaitez approfondir vos connaissances sur le réseau Lightning et comprendre son fonctionnement technique, je vous conseille de suivre ce cours :
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Dans ce tutoriel, nous allons découvrir **Lipa**, un portefeuille Lightning simple et efficace développé en Suisse.
 
@@ -49,7 +49,7 @@ L'application présente ensuite ses principales fonctionnalités à travers une 
 
 - **Contrôle des données analytiques** : La transparence et la confidentialité étant primordiales, les utilisateurs peuvent consulter les types de données collectées et choisir leurs préférences de partage.
 
-- **Envoi via numéro de téléphone** : Plus besoin d'adresses complexes - sélectionnez simplement un contact, entrez le montant, et envoyez des bitcoins directement vers leur numéro de téléphone.
+- **Envoi via numéro de téléphone** : Plus besoin d'adresses complexes, sélectionnez simplement un contact, entrez le montant, et envoyez des bitcoins directement vers leur numéro de téléphone.
 
 L'application bénéficie également d'améliorations continues en termes de stabilité, de sécurité et de fiabilité pour garantir une expérience utilisateur optimale.
 
@@ -82,7 +82,7 @@ Pour sauvegarder votre portefeuille, rendez-vous dans l'onglet "Paramètres" pui
 
 Pour plus d'informations sur la manière adéquate de sauvegarder et de gérer votre phrase de récupération, je vous recommande vivement de suivre cet autre tutoriel, particulièrement si vous êtes débutant :
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ## Recevoir des bitcoins
 
@@ -118,7 +118,7 @@ Après l'écran de chargement, vous allez retrouver la référence qu'il faudra 
 
 ![Sélection du montant](assets/fr/09.webp)
 
-Enfin vous n'avez plus qu'à utiliser votre banque pour effectuer le virement du montant désiré, paramétrer le transfert en indiquant le RIB précédemment récupéré ainsi que d'indiquer la référence au moment de la transaction pour que Lipa puisse associer ce mouvement bancaire à votre wallet Lipa.
+Enfin vous n'avez plus qu'à utiliser votre banque pour effectuer le virement du montant désiré, paramétrer le transfert en indiquant le RIB précédemment récupéré ainsi qu'indiquer la référence au moment de la transaction pour que Lipa puisse associer ce mouvement bancaire à votre wallet Lipa.
 
 ![Confirmation d'achat](assets/fr/10.webp)
 

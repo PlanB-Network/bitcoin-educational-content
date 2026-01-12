@@ -1,0 +1,9 @@
+question: Ni sisiteme iyihe iganza canke y’ihariye isoko rya PC uyu musi?
+answer: Windows
+wrong_answers:
+  - macOS
+  - GNU/Linux
+  - Chrome  OS
+explanation: |
+  Windows ifise umugabane w’isoko ungana na 71% ku nyabwonko z’abantu, bivuye ku buryo kenshi usanga ugura inyabwonko isanzwe irimwo be n’ubwinshi bwa porogarame zayikorewe.
+reviewed: true

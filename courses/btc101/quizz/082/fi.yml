@@ -1,11 +1,9 @@
-question: Mikä teknologiaa käytetään varojen turvalliseen käyttämiseen Bitcoin-lompakossa?
-answer: Elliptinen käyrä kryptografia.
+question: Mikä on riski monimutkaistaa liikaa bitcoinien turvallisuutta ja saavutettavuutta?
+answer: Voit vahingoittaa itseäsi, jos käsittelet varmuuskopio-lompakoita väärin.
 wrong_answers:
-  - Symmetrinen kryptografia.
-  - Kvanttikryptografia.
-  - RSA-kryptografia.
+  - Voit vahingoittaa itseäsi, jos käsittelet fyysisiä lompakoita väärin.
+  - Voit vahingoittaa itseäsi, jos käsittelet digitaalisia lompakoita väärin.
+  - Voit vahingoittaa itseäsi, jos käsittelet multisig-lompakoita väärin.
 explanation: |
-  Bitcoinien käyttäminen vaatii omistajalta Elliptisen käyrän
-  digitaalisen allekirjoitus algoritmin (ECDSA) käyttämistä allekirjoituksen
-  luomiseen Bitcoin-siirron levittämiseksi.
+  Bitcoinien turvallisuuden ja saavutettavuuden liiallinen monimutkaistaminen voi vahingoittaa sinua, esimerkiksi jos käsittelet lompakkojesi varmuuskopioita väärin. Tämä johtuu siitä, että yksinkertaiset varmuuskopiointimenettelyt ovat ratkaisevan tärkeitä varojen uudelleensaamiseksi, jos menetät puhelimesi tai tietokoneesi.
 reviewed: true

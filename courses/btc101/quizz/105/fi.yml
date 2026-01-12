@@ -1,11 +1,15 @@
-question: Miksi yksityisyys on tärkeää Bitcoinin kontekstissa?
-answer: Minimoidaksesi riskin, että varojasi voidaan jäljittää.
+question: Miksi sinun pitäisi ostaa ei-KYC bitcoineja?
+answer: Yksityisyytesi varmistamiseksi.
 wrong_answers:
-  - Vähentääksesi bitcoiniesi arvoa.
-  - Estääksesi bitcoiniesi varastamisen.
-  - Maksaa veroja bitcoineistasi.
+  - Varmistaaksesi kaikkien Bitcoin-käyttäjien rekisteröinnin.
+  - Ostaaksesi alhaiseen hintaan.
+  - Myydäksesi alhaiseen hintaan.
 explanation: |
-  Yksityisyys on tärkeää Bitcoinin kontekstissa, jotta voidaan minimoida
-  riskit varojesi jäljittämisestä, mikä voi helpottaa
-  valvontaasi.
+  Ei-KYC bitcoinien ostaminen tarkoittaa bitcoinien hankkimista ilman
+  standardin Tunne asiakkaasi
+  varmennusmenettelyjä, joita monet pörssit ja alustat
+  vaativat. Yksi pääsyy, miksi yksilöt saattavat valita tämän
+  tien, on yksityisyyden ylläpitäminen, varmistaen, että heidän
+  henkilökohtaiset tiedot ja taloudelliset toimet pysyvät
+  paljastamattomina.
 reviewed: true

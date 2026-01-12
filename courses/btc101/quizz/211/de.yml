@@ -1,12 +1,11 @@
-question: Welche Aktion zwingt Bitcoin Unternehmen, Universitäten, Regulierungsbehörden und Einzelpersonen zu unternehmen?
-answer: Es zu berücksichtigen.
+question: Wie wird die Art der Bitcoin-Adoption in diesem Kurs beschrieben?
+answer: Viral.
 wrong_answers:
-  - Es zu ignorieren.
-  - Es zu verbieten.
-  - Es zu kriminalisieren.
-explanation: >
-  Der Aufstieg von Bitcoin zwingt Unternehmen, Universitäten, Regulierungsbehörden und
-  Einzelpersonen dazu, diese neue Technologie zu berücksichtigen. Neue Werkzeuge müssen
-  geschaffen werden, Dienstleistungen müssen angepasst werden, und Innovation muss
-  weitergehen, um ihr Überleben zu sichern.
+  - Langsam und stetig.
+  - Schnell und unkontrollierbar.
+  - Sporadisch und unvorhersehbar.
+explanation: |
+  Der Kurstext beschreibt die Adoption von Bitcoin als viral,
+  was darauf hindeutet, dass sie sich schnell und weit von einer
+  Person zur anderen verbreitet, ähnlich wie ein Virus, aber ein guter. 
 reviewed: true

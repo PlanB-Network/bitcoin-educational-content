@@ -1,5 +1,5 @@
 ---
-name: Brzoskwinia
+name: Peach
 description: Kompletny przewodnik po korzystaniu z Peach i wymianie bitcoinów P2P
 ---
 ![cover](assets/cover.webp)
@@ -14,7 +14,7 @@ description: Kompletny przewodnik po korzystaniu z Peach i wymianie bitcoinów P
 Pozbawione KYC giełdy peer-to-peer (P2P) mają zasadnicze znaczenie dla zachowania poufności i autonomii finansowej użytkowników. Umożliwiają one bezpośrednie transakcje między osobami fizycznymi bez konieczności weryfikacji tożsamości, co ma kluczowe znaczenie dla tych, którzy cenią sobie prywatność. Aby uzyskać bardziej dogłębne zrozumienie koncepcji teoretycznych, zapoznaj się z kursem BTC204:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### 1. Co to jest Peach?
 
@@ -25,7 +25,7 @@ Peach to platforma P2P Exchange, która pozwala użytkownikom kupować i sprzeda
 ### 2. Prywatność i gromadzenie danych
 
 
-**Jakie informacje gromadzi Peach?
+**Jakie informacje gromadzi Peach?**
 
 
 Peach stara się przechowywać absolutne minimum danych o swoich użytkownikach. Oto przegląd danych przechowywanych na serwerach firmy:
@@ -47,9 +47,9 @@ Dla przypomnienia, Hash to dane, które stają się nierozpoznawalne, podobnie j
 *Więcej informacji na temat hashowania można znaleźć w tym kursie:*
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-**Kto może zobaczyć moje dane dotyczące płatności?
+**Kto może zobaczyć moje dane dotyczące płatności?**
 
 
 
@@ -70,7 +70,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- Pobierz aplikację ze strony [Peach Bitcoin] (https://peachbitcoin.com/fr/quick-start/).
+- Pobierz aplikację ze strony [Peach Bitcoin](https://peachbitcoin.com/fr/quick-start/).
 - Postępuj zgodnie z instrukcjami instalacji na urządzeniu.
 - Podczas instalacji zostaniesz poproszony o wybranie, czy chcesz udostępnić określone dane w celu ulepszenia aplikacji Peach (obrazek 1)
 - Na następnym ekranie (obrazek 2) dostępne są dwie opcje:
@@ -93,17 +93,17 @@ Aplikacja Peach jest zorganizowana wokół czterech głównych ekranów dostępn
 
 
 
-- Strona główna** : Główny ekran do kupowania i sprzedawania bitcoinów. W tym miejscu można tworzyć nowe transakcje i uzyskiwać dostęp do dostępnych ofert.
-- Wallet**: Zintegrowany Bitcoin Wallet, który umożliwia :
+- **Strona główna**: Główny ekran do kupowania i sprzedawania bitcoinów. W tym miejscu można tworzyć nowe transakcje i uzyskiwać dostęp do dostępnych ofert.
+- **Wallet**: Zintegrowany Bitcoin Wallet, który umożliwia :
  - Sprawdź saldo
  - Odbieranie bitcoinów
  - Wysyłanie bitcoinów
  - Wyświetlanie historii transakcji
-- Transakcje** : Twoje centrum zarządzania handlem, w którym znajdziesz :
+- **Transakcje**: Twoje centrum zarządzania handlem, w którym znajdziesz :
  - Bieżące transakcje
  - Pełna historia wymian
  - Status każdej transakcji
-- Ustawienia** : Centrum konfiguracji konta dla :
+- **Ustawienia**: Centrum konfiguracji konta dla :
  - Zarządzanie metodami płatności
  - Konfiguracja kopii zapasowych
  - Dostosuj swoje preferencje
@@ -119,7 +119,7 @@ Aplikacja Peach jest zorganizowana wokół czterech głównych ekranów dostępn
 Dostęp do metod płatności można uzyskać w zakładce Ustawienia (obrazek 8)
 
 
-**Płatności online
+**Płatności online**
 
 
 ![Configuration des paiements en ligne](assets/fr/04.webp)
@@ -205,7 +205,7 @@ Krajowe systemy płatności :
 ### 4. Jak zabezpieczyć Wallet
 
 
-**Zrozumienie konta Peach
+**Zrozumienie konta Peach**
 
 
 Konto Peach nie jest tradycyjnym kontem z loginem i hasłem. Jest to plik przechowywany lokalnie w telefonie, co oznacza, że Peach nie musi przechowywać twoich danych ani znać twojej tożsamości: masz kontrolę. Plik ten zawiera wszystkie dane użytkownika, od kluczy Bitcoin Wallet po szczegóły płatności.
@@ -378,10 +378,10 @@ W celu zapewnienia optymalnego bezpieczeństwa zalecamy wykonywanie obu typów k
 
 
 
-- Nie jest wymagany KYC**: Zachowuje poufność użytkownika.
-- Brak dostępu do danych bankowych**: Peach nie ma dostępu do danych bankowych ani tożsamości użytkownika.
-- Intuicyjny Interface**: Łatwy w użyciu dla średnio zaawansowanych użytkowników.
-- Open Source** : Kod źródłowy jest publiczny i weryfikowalny przez społeczność.
+- **Nie jest wymagany KYC**: Zachowuje poufność użytkownika.
+- **Brak dostępu do danych bankowych**: Peach nie ma dostępu do danych bankowych ani tożsamości użytkownika.
+- **Intuicyjny Interface**: Łatwy w użyciu dla średnio zaawansowanych użytkowników.
+- **Open Source**: Kod źródłowy jest publiczny i weryfikowalny przez społeczność.
 
 
 ### Wady brzoskwini
@@ -389,8 +389,8 @@ W celu zapewnienia optymalnego bezpieczeństwa zalecamy wykonywanie obu typów k
 
 
 
-- Ograniczona płynność**: Mniejszy wolumen obrotu niż w przypadku bardziej ugruntowanych platform.
-- Ryzyko regulacyjne** : Aplikacja jest zarządzana przez szwajcarską firmę. Podlega zatem szwajcarskim przepisom, które mogą ewoluować i potencjalnie cenzurować aplikację.
+- **Ograniczona płynność**: Mniejszy wolumen obrotu niż w przypadku bardziej ugruntowanych platform.
+- **Ryzyko regulacyjne**: Aplikacja jest zarządzana przez szwajcarską firmę. Podlega zatem szwajcarskim przepisom, które mogą ewoluować i potencjalnie cenzurować aplikację.
 
 
 ## Przydatne zasoby

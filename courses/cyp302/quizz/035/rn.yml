@@ -1,0 +1,9 @@
+question: Ni iyihe ntumbero nyamukuru y’inyigisho y’imibare?
+answer: Kwiga imiterere y'imibare yose n'imikorere ikorana na yo
+wrong_answers:
+  - Gusesangura amahinduka y'ubuhinga
+  - Iga imiterere y'ibiharuro vy'ubuhinga bw'ubuhinga bw'ubuhinga bw'ubuhinga bw'ubuhinga bw'ubuhinga bw'ubuhinga bw'ubuhinga bw'ubuhinga bw'ubuhinga bw'ubuhinga bw'ubuhinga bw'ubuhinga
+  - Gutegura ubuhinga bwo gupfuka amakuru
+explanation: |
+  Ivyiyumviro vy'imibare vyibanda ku mico y'imibare yose n'ibikorwa bikoreshwa ku mibare yose, kenshi ku bikorwa mu buhinga bwo gukingira amakuru, cane cane mu bijanye n'ubuhinga bwo gukingira amakuru y'urufunguzo rwa bose.
+reviewed: false

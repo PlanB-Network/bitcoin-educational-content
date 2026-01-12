@@ -1,0 +1,10 @@
+question: None Satoshi Nakamoto yazimiye ryari?
+answer: Muri 2010
+wrong_answers:
+  - Muri 2008
+  - Muri 2009
+  - Muri 2023
+explanation: |
+  Satoshi Nakamoto yazimiye mu 2010, asiga ivyo yaremye .
+  mu maboko y’abanyagihugu.
+reviewed: true

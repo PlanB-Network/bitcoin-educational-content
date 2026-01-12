@@ -1,0 +1,12 @@
+question: Je, b-pesa ya Wei Dai ni nini?
+answer: Wazo la sarafu ya kidijitali isiyojulikana ambapo ugunduzi wa ulaghai ulitekelezwa na jumuiya ya wakaguzi badala ya mamlaka kuu.
+wrong_answers:
+  - Sarafu ya kidijitali ambayo ilitumika sana kabla ya Bitcoin na ilidhibitiwa na kundi la cypherpunks.
+  - Aina ya pesa ya kidijitali ambayo iliundwa na CIA na kutumiwa na jeshi.
+  - Sarafu ya kidijitali ambayo iliundwa na Wei Dai kama mshindani wa Bitcoin ili kukuzwa zaidi.
+explanation: |
+  B-pesa ya Wei Dai ilikuwa wazo la dijiti isiyojulikana
+  sarafu isiyo na huluki kuu ambayo ilivutia sana
+  uundaji wa Bitcoin. Kwa kweli, imetajwa katika Bitcoin
+  karatasi nyeupe.
+reviewed: true

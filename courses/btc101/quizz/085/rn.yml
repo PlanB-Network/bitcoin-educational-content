@@ -1,0 +1,13 @@
+question: Ni igiki gikenewe gukoresha Multisig Wallet?
+answer: Kubika amahera menshi kugira ngo akoreshwe n’amashirahamwe.
+wrong_answers:
+  - Kubika utuntu dutoduto kugira ngo umuntu akoreshe.
+  - Kubika amafaranga ari hagati kugira ngo akoreshe ata nyungu.
+  - Kubika amahera y’umusi ku musi kugira ngo umuntu akoreshe.
+explanation: |
+  Multisig Wallet ni nziza kugira ngo ubike ibintu vyinshi .
+  kandi ku bijanye n’ikoreshwa ry’amashirahamwe kuko bisaba incuro nyinshi .
+  imikono kugira ngo ukore igikorwa. Iyi nzira yongerako
+  extra Layer y’umutekano, kuko umuntu umwe ntashobora
+  gukora igikorwa c’ubudandaji ata kwemererwa n’abandi.
+reviewed: true

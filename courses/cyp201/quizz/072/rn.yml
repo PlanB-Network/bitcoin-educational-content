@@ -1,0 +1,9 @@
+question: Apostrophe (’) canke h mu nzira y’inkomoko bisobanura iki?
+answer: Inkomoko ikomeye
+wrong_answers:
+  - Inkomoko isanzwe
+  - Inkomoko y'inyuma
+  - Inkomoko idasanzwe
+explanation: |
+  Astrophe yerekana ko derivation ikomeye, bisaba urufunguzo rw’ibanga rw’umuvyeyi kugira ngo generate urufunguzo rw’umwana.
+reviewed: false

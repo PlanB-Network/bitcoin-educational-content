@@ -1,0 +1,10 @@
+question: Muri ibi bikurikira, ni ikihe kitari kimwe mu bikorwa bitatu vy’ingenzi vy’amahera?
+answer: Inkomoko y'inguvu
+wrong_answers:
+  - Ububiko bw'agaciro
+  - Uburinganire bwa Exchange.
+  - Igice ca konti
+explanation: |
+  Ivyo bikorwa bitatu vy’ingenzi vy’amahera ni ububiko bw’agaciro, hagati ya Exchange, . 
+  n’igice c’ikonti. Isoko y’inguvu si igikorwa c’amahera.
+reviewed: true

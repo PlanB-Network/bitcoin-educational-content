@@ -1,0 +1,9 @@
+question: Koje mere bezbednosti se snažno preporučuju za zaštitu pristupa vašem Umbrelu?
+answer: Dugačka lozinka i aktivacija 2FA
+wrong_answers:
+  - Dual SSD skladištenje
+  - Otvorite RPC port u običnom tekstu
+  - Dugačka lozinka i aktivacija SSH-a
+explanation: |
+  Kombinacija jake lozinke i dvofaktorske autentifikacije (2FA) efikasno štiti pristup Interface Umbrel.
+reviewed: true

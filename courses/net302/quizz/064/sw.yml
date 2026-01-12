@@ -6,4 +6,4 @@ wrong_answers:
   - 256-bit
 explanation: |
   IPv6 Address ina urefu wa biti 128, ikilinganishwa na biti 32 kwa IPv4 Address.
-reviewed: false
+reviewed: true

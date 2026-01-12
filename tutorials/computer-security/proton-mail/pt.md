@@ -1,5 +1,5 @@
 ---
-name: Correio Proton
+name: Proton Mail
 description: Configurar uma caixa de correio segura
 ---
 ![cover](assets/cover.webp)
@@ -90,7 +90,7 @@ A utilização de um gestor de palavras-passe é uma excelente prática. Não s�
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![proton](assets/notext/07.webp)
 
@@ -224,7 +224,7 @@ Para mais informações, consulte o nosso tutorial sobre como utilizar uma aplic
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 No separador "*Language and time*" (Idioma e hora), pode alterar o idioma e o fuso horário do Interface.
 
@@ -306,7 +306,7 @@ O separador "*Filtros*" permite-lhe gerir filtros para as mensagens de correio e
 
 
 
-O separador "Reencaminhamento e resposta automática*" permite-lhe gerir o reencaminhamento e a resposta automática das suas mensagens de correio eletrónico.
+O separador "Reencaminhamento e resposta automática" permite-lhe gerir o reencaminhamento e a resposta automática das suas mensagens de correio eletrónico.
 
 
 

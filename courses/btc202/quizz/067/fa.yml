@@ -1,0 +1,9 @@
+question: کدام پشتیبان‌گیری‌ها برای بازیابی یک نود لایتنینگ مورد نیاز است؟
+answer: seed و SCB
+wrong_answers:
+  - seed و فایل txindex
+  - seed و IP عمومی Address
+  - seed و 2FA
+explanation: |
+  بازیابی یک نود لایتنینگ نیاز به هر دو seed و SCB (پشتیبان‌گیری استاتیک کانال) دارد، بدون آن‌ها وجوه کانال قابل بازیابی نیستند.
+reviewed: true

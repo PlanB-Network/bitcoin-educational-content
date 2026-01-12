@@ -1,0 +1,11 @@
+question: Ni iyihe mpamvu nyamukuru ituma ibiciro vy’amahera bihinduka mu kiringo gito?
+answer: Ingero nto z'amahera ku masoko
+wrong_answers:
+  - Kubura amafaranga yo gukuraho amafaranga
+  - Hacks zitera ingorane igiceri gikomeye
+  - Gukuraho amafaranga y'ibiceri
+explanation: |
+  Igiciro c'igihe gito gihinduka mu bice vy'amahera bihoraho akenshi ni ingaruka 
+  y’ibibazo vy’amahera, aho amashirahamwe mato mato yoshobora kubura ubushobozi 
+  kugira ngo abakiriya bashobore gushitsa ivyo basaba, ivyo bikaba bituma ibiciro bihinduka mu gihe gito.
+reviewed: true

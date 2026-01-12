@@ -1,0 +1,9 @@
+question: Ni itandukaniro irihe rikomeye hagati y’umuhari wa porogarame z’ubuntu n’isoko y’uguruye (open-source)?
+answer: Agaciro gahabwa umwidegemvyo canke ukwikwiza mu vy’ubuhinga
+wrong_answers:
+  - Gukoresha C canke ururimi rw’ikoraniro
+  - Gutegurwa kwa porogarame z’umwimerere canke za PC ngendanwa
+  - Ukubaho canke ukutabaho kw’umuryango wagutse mpuzamakungu.
+explanation: |
+  Porogarame z’ubuntu ni ivyerekeye umwidegemvyo w’abakoresha; open source ni ivyerekeye ugukorera mu muco be ukwikwiza muvy’ubuhinga.
+reviewed: true

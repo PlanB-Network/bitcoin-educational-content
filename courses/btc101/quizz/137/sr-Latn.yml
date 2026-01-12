@@ -1,12 +1,8 @@
-question: Kako korisnici prenose vlasništvo svog novca u Bitkoin mreži?
-answer: Digitalnim potpisivanjem transakcija svojim privatnim ključevima.
+question: Koji je zahtev za propusni opseg za pokretanje Bitkoin čvora, uzimajući u obzir 1 blok od 1MB svakih 10 minuta?
+answer: Otprilike 5GB mesečno.
 wrong_answers:
-  - Fizičkim predavanjem svojih Bitkoina.
-  - Slanjem e-pošte primaocu.
-  - Pružanjem njihove Bitkoin adrese primaocu.
-explanation: |
-  Korisnici u Bitkoin mreži prenose vlasništvo svog
-  novca digitalnim potpisivanjem transakcija svojim privatnim
-  ključevima. Ovo potvrđuje da su oni vlasnici
-  bitkoina koje žele preneti.
+  - Otprilike 1GB mesečno.
+  - Otprilike 10GB mesečno.
+  - Otprilike 20GB mesečno.
+explanation: >-
 reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - Die Verwendung von öffentlichen Schlüsseln komplett vermeiden
 explanation: |
   HD-Wallets leiten alle privaten Schlüssel von einem einzigartigen Seed ab, was das Backup vereinfacht und indirekt die Privatsphäre verbessert.
-reviewed: false
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - Ein erweiterter öffentlicher Schlüssel für SegWit V2 im Testnet
 explanation: |
   Das Präfix zpub kennzeichnet einen erweiterten öffentlichen Schlüssel für SegWit V0-Skripte im Mainnet.
-reviewed: false
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: passphrase BIP39
+name: BIP-39 Passphrase
 description: Förstå hur en passphrase fungerar
 ---
 ![cover](assets/cover.webp)
@@ -20,7 +20,7 @@ Det är här passphrase kommer in i bilden. Det är ett valfritt lösenord som d
 ![PASSPHRASE BIP39](assets/notext/02.webp)
 
 
-Var noga med att inte förväxla passphrase med din Hardware Wallet:s PIN-kod eller det lösenord som används för att låsa upp åtkomsten till din Wallet på datorn. Till skillnad från alla dessa Elements spelar passphrase en roll i härledningen av din Wallet:s nycklar. **Detta innebär att utan den kommer du aldrig att kunna återfå dina bitcoins
+Var noga med att inte förväxla passphrase med din Hardware Wallet:s PIN-kod eller det lösenord som används för att låsa upp åtkomsten till din Wallet på datorn. Till skillnad från alla dessa Elements spelar passphrase en roll i härledningen av din Wallet:s nycklar. **Detta innebär att utan den kommer du aldrig att kunna återfå dina bitcoins.**
 
 passphrase fungerar tillsammans med Mnemonic-frasen och ändrar seed från vilken nycklarna genereras. Även om någon får tag på din 12- eller 24-ordsfras kan de alltså inte komma åt dina pengar utan passphrase. **Genom att använda en passphrase skapas i princip en ny Wallet med olika nycklar. Om du ändrar (även lite) passphrase kommer generate att bli en annan Wallet.**
 
@@ -46,20 +46,27 @@ Det är också viktigt att spara denna passphrase på rätt sätt, på samma sä
 
 För att konfigurera en passphrase på en Ledger-enhet (Stax, Flex eller Nano) kan du läsa denna handledning:
 
-https://planb.network/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
+https://planb.academy/tutorials/wallet/backup/passphrase-ledger-9ae6d9a2-7293-438a-8fe0-e59147ef2f49
 
 På ett COLDCARD:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 På en Jade Plus:
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
+https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
 
 On a Passport (batch-2):
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 På en Trezor-enhet (Safe 3, Safe 5 eller Model One):
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+På en SeedSigner:
+https://planb.academy/tutorials/wallet/backup/seedsigner-passphrase-7a61f64d-aa03-4bcf-8308-00c89a74cffe
+På en SeedSigner med en Seedkeeper:
+https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
+
+
+

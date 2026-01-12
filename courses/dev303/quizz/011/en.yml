@@ -1,0 +1,8 @@
+question: What is the primary advantage of Rust's compile-time memory safety approach compared to garbage collection?
+answer: It eliminates runtime overhead and unpredictable performance pauses
+wrong_answers:
+  - It uses more memory but provides better security guarantees
+  - It requires less code to write but runs slower than garbage collection
+  - It prevents all runtime errors but uses more CPU during execution
+explanation: |
+  Rust's compile-time memory safety approach analyzes code during compilation to ensure memory safety without any runtime cost. Unlike garbage collection used in languages like Java and Go, which introduces performance overhead and can cause unpredictable pauses during program execution, Rust's system has zero runtime impact. The other options are incorrect because Rust actually uses memory more efficiently (not more), doesn't run slower (it runs faster without runtime checks), and doesn't use more CPU during execution (the work is done at compile time).

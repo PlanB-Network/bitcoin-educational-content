@@ -1,0 +1,9 @@
+question: Ni igiki urufunguruzo rwo gukuraho rwemerera gukora mu gihe habayeho ubuhendanyi?
+answer: Gusubiza amafranga yose mu guhana uwabeshe
+wrong_answers:
+  - Gukuraho Commitment Transaction.
+  - Gukubita kabiri ubushobozi bw'umurongo
+  - Buza ibindi bicuruzwa vyose mu muhora
+explanation: |
+  Urufunguzo rwo gukuraho amahera rutuma uwubabajwe ashobora gusubirana amahera yose iyo uwundi agerageje guhenda.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni igikorwa ikihe c’ugucuruza Bitcoin ku UTXOs z’inyungu?
+answer: Irazirya kugira ngo zihaze ivyo zisohoka.
+wrong_answers:
+  - Irazibika muri Blockchain kugira ngo zizozikoreshe mu gihe kizoza.
+  - Irazipfuka kugira ngo zikingire ivy’ugucuruza.
+  - Irazisubiramwo kugira ngo ireme UTXO nshasha.
+explanation: |
+  Ivyo UTXO vyinjizwa mu gucuruza birakoreshwa kugira ngo bishobore gutanga amahera y’ibisohoka. Ni co, mu buryo bumwe, isoko y’ayo mahera.
+reviewed: false

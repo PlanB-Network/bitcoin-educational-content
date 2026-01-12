@@ -5,5 +5,5 @@ wrong_answers:
   - Bitcoin solutions are proprietary and locked to a single vendor.
   - Changing providers requires government approval and a lengthy legal process.
 explanation: |
-  Since Bitcoin is built on open protocols, merchants are free to move their funds or adopt new solutions as they grow or their needs change. This flexibility ensures businesses can select the best tools without vendor lock-in.
-reviewed: false
+  Since Bitcoin is built on open protocols, merchants are free to move their funds or adopt new solutions as their needs change or they grow. This flexibility ensures that businesses can select the best tools without being locked into a vendor.
+reviewed: true

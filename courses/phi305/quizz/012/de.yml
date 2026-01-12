@@ -1,0 +1,9 @@
+question: Was ist Moral für Gilles Deleuze?
+answer: Ein System der Beurteilung zwischen dem Guten und dem Moralischen.
+wrong_answers:
+  - Eine religiöse Initiative.
+  - Das Ergebnis des Gesetzes.
+  - Ein dauerhafter Grundsatz.
+explanation: |
+  Für Gilles Deleuze ist die Moral ein System der Beurteilung, das Handlungen nach transzendenten Werten in gut und böse einteilt. Dem stellt er die spinozistische Ethik gegenüber, die die Existenzweisen nach ihrer Handlungsfähigkeit bewertet.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Ni ibihe bikorwa muri ibi bikurikira bishobora gufasha abashaka gukoresha Bitcoin mu buzima bwa misi yose?
+answer: Ugire urutonde rw’abadandaza bose bemera Bitcoin.
+wrong_answers:
+  - Wongere igiciro ca Bitcoin.
+  - Gabanya igitigiri c’ama Bitcoins.
+  - Guhagarika ikoreshwa rya Bitcoin.
+explanation: >-
+reviewed: true

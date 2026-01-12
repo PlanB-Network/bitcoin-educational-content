@@ -1,0 +1,9 @@
+question: Orijinal Bitcoin yazılımı 2009 yılında neyi birleştirdi?
+answer: Wallet, yay ve minör
+wrong_answers:
+  - Düğüm, Miner ve Block explorer
+  - Wallet, chopper ve Miner
+  - Miner ve Mining pool
+explanation: |
+  Orijinal Bitcoin yazılımı Wallet, node ve Miner işlevlerini tek bir programda birleştirmiştir.
+reviewed: true

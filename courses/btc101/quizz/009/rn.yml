@@ -1,0 +1,12 @@
+question: None b-amahera ya Wei Dai ni ayahe?
+answer: Iciyumviro c’amahera y’ubuhinga bwa none atazwi aho gutahura ubusuma vyakorwa n’umuryango w’abagenzuzi aho gukorwa n’ubuyobozi bukuru.
+wrong_answers:
+  - Ifaranga ry’ubuhinga bwa none ryakoreshwa cane imbere ya Bitcoin kandi ryari rigenzurwa n’umugwi w’abanyabwenge b’abanyabwenge (cypherpunks).
+  - Uburyo bw’amahera ya digitale yaremwe na CIA kandi akoreshwa n’igisirikare.
+  - Ifaranga ry’ubuhinga bwa none ryaremwe na Wei Dai nk’umuhiganwa na Bitcoin kugira ngo ribe ryiza cane.
+explanation: |
+  Amahera ya b ya Wei Dai yari iciyumviro c'umuntu atazwi .
+  amafaranga ata kigo nyamukuru catumye
+  iremwa rya Bitcoin. Nkako, ryaravuzwe muri Bitcoin.
+  urupapuro rwera.
+reviewed: true

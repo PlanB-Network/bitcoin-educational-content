@@ -1,0 +1,9 @@
+question: Yêu cầu cơ bản nào cho phép người dùng xác minh rằng phần mềm Bitcoin 'hoạt động như quảng cáo' theo các nguyên tắc nguồn mở đã thảo luận?
+answer: Người dùng phải có quyền truy cập không hạn chế vào mã nguồn của phần mềm mà họ muốn xác minh
+wrong_answers:
+  - Người dùng phải xin phép người bảo trì Bitcoin Core trước khi truy cập các công cụ xác minh
+  - Người dùng phải trả một khoản phí hợp lý để truy cập các tệp nhị phân xác minh đã biên dịch từ các nguồn chính thức
+  - Người dùng phải dựa vào chữ ký mã hóa từ các nhà phát triển đáng tin cậy để xác thực hành vi của phần mềm
+explanation: |
+  Chương này nêu rõ rằng để người dùng xác minh phần mềm Bitcoin "hoạt động như quảng cáo", họ phải có quyền truy cập không giới hạn vào mã nguồn. Điều này liên quan trực tiếp đến nguyên tắc "Đừng tin tưởng, hãy xác minh" và yêu cầu về tính khả dụng của mã nguồn trong định nghĩa nguồn mở. Các câu trả lời sai trái ngược với các nguyên tắc cốt lõi của nguồn mở: việc yêu cầu cấp phép vi phạm nguyên tắc truy cập miễn phí, việc trả phí trái ngược với yêu cầu phân phối miễn phí, và việc chỉ dựa vào chữ ký làm suy yếu khả năng xác minh thông qua kiểm tra mà nguồn mở cung cấp.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni uruhe rugero rw’amakuru rukoreshwa muri Internet Layer y’akarorero ka TCP/IP?
+answer: Datagram
+wrong_answers:
+  - Igice
+  - Ishusho
+  - Ubutumwa
+explanation: |
+  Internet Layer ikoresha amakuru, igashiramwo ibice bivuye mu Layer y'Ivy'Itwara.
+reviewed: false

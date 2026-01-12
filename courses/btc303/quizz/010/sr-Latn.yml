@@ -1,0 +1,9 @@
+question: Šta je potrebno za korišćenje Bitcoin na način bez poverenja prema dizajnu protokola?
+answer: Pokretanje potpuno validirajućeg Bitcoin čvora za samostalnu verifikaciju svih blokova i transakcija
+wrong_answers:
+  - Korišćenje ugledne kripto berze sa snažnim merama bezbednosti i osiguranjem
+  - Oslanjanje na više pouzdanih usluga trećih strana za unakrsnu proveru informacija o transakcijama
+  - Instaliranje verifikovanog wallet softvera iz zvaničnih izvora sa digitalnim potpisima
+explanation: |
+  Da biste koristili Bitcoin bez poverenja, morate pokrenuti potpuno validirajući Bitcoin čvor koji nezavisno proverava da svi blokovi prate pravila konsenzusa, proverava raspored izdavanja novčića i sprečava dvostruko trošenje. Ovo osigurava da ne prepuštate verifikaciju drugima, održavajući svojstvo bez poverenja. Korišćenje berzi ili usluga trećih strana znači da verujete drugima da vam kažu istinu o stanju blokčejna. Iako je verifikovani softver važan za sigurnost, on ne eliminiše potrebu za vašim sopstvenim validacionim čvorom kako biste postigli pravu bezbednost bez poverenja u Bitcoin sistemu.
+reviewed: false

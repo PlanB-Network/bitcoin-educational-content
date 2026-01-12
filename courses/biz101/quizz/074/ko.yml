@@ -1,0 +1,9 @@
+question: 엔터프라이즈 수준에서는 일반적으로 Bitcoin에 어떤 고급 보안 기능이 구현되나요?
+answer: 타임록이 있는 다중 서명
+wrong_answers:
+  - 모바일 Lightning Wallet의 비밀번호 보호
+  - BIP39 passphrase 보호 기능을 갖춘 싱글 시그니처
+  - 24단어 seed 문구가 포함된 단일 서명
+explanation: |
+  많은 금액을 관리하려면 타임록이 있는 다중 서명 구성과 같은 높은 수준의 보안 조치가 중요합니다.
+reviewed: true

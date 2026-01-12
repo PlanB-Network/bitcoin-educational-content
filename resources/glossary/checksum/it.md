@@ -8,4 +8,4 @@ Il checksum è un valore calcolato da un insieme di dati, utilizzato per verific
 Sul Bitcoin, le somme di controllo sono utilizzate a livello di applicazione per garantire l'integrità degli indirizzi di ricezione. Una somma di controllo viene calcolata dal carico utile del Address di un utente e poi aggiunta a tale Address per rilevare eventuali errori in ingresso. Un checksum è presente anche nelle frasi di recupero (mnemoniche).
 
 
-> ► *È generalmente accettato l'uso del termine inglese "checksum" direttamente in francese
+> ► *È generalmente accettato l'uso del termine inglese "checksum" direttamente in francese*

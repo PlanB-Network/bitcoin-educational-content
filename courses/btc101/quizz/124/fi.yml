@@ -1,9 +1,12 @@
-question: Mikä oli ensimmäisen julkaistun Bitcoin-ohjelmiston versio?
-answer: Bitcoin-0.1.0.
+question: Mikä on Bitcoin-solmun rooli Bitcoin-verkossa?
+answer: Se validoi uudet lohkot ja niihin sisältyvät transaktiot.
 wrong_answers:
-  - Bitcoin-0.0.1.
-  - Bitcoin-1.0.0.
-  - Bitcoin-0.1.1.
-explanation: >-
-  Ensimmäinen julkaistu Bitcoin-ohjelmisto oli Bitcoin-0.1.0. Sen julkaisusta ilmoitti Satoshi Nakamoto 8. tammikuuta 2009.
+  - Se luo uusia Bitcoineja ja sijoittaa ne lohkoihin.
+  - Se säätelee Bitcoinin hintaa.
+  - Se hallinnoi Bitcoin-verkkoa.
+explanation: |
+  Bitcoin-solmu Bitcoin-verkossa käsittelee
+  uusien lohkojen ja niihin sisältyvien transaktioiden validoinnin. Juuri
+  tämä Bitcoin-solmujen verkosto tekee siitä todella
+  hajautetun.
 reviewed: true

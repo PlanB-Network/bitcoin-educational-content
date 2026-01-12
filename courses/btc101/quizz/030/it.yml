@@ -1,12 +1,12 @@
-question: Qual è il principale vantaggio delle valute fiat?
-answer: Sono facilmente divisibili.
+question: Quali sono le entità incaricate dell'emissione di valute fiduciarie?
+answer: Banche centrali.
 wrong_answers:
-  - Sono controllate da una parte centrale.
-  - Non sono facilmente trasportabili.
-  - Sono efficaci nel mantenere il valore nel tempo.
+  - Banche commerciali.
+  - Governi.
+  - Istituzioni private.
 explanation: |
-  Le valute fiat, come il dollaro e l'euro, sono molto
-  liquide e facilmente trasportabili perché ora sono per lo più
-  digitali. Tuttavia, il loro valore è costantemente eroso dall'
-  inflazione monetaria.
+  Le banche centrali sono le entità incaricate dell'emissione di
+  una valuta fiduciaria. Decidono la politica monetaria e
+  determinano quanta moneta debba essere messa in circolazione o
+  stampata.
 reviewed: true

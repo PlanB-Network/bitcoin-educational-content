@@ -1,0 +1,10 @@
+question: Mu nyishu zikurikira, ni iyihe idaserukira ingorane igihe wohereje ama bitcoins yaciye mu CoinJoin ku rubuga rutegekanijwe?
+answer: Urubuga rushobora kwongera amafaranga y'ugucuruza
+wrong_answers:
+  - Urubuga rushobora guhagarika ayo mahera
+  - Urubuga rushobora guhagarika konti y'uwukoresha
+  - Urubuga rushobora kumenyesha abategetsi inyifato iteye amakenga
+explanation: |
+  Iyo wohereje Coin yawe ku rubuga rwa Exchange rutegekanijwe, ariko ikaba iherutse guca muri CoinJoin, igikoresho co gusesangura uruzitiro rw’urwo rubuga kizomenya ico kintu. Iryo koraniro ryoshobora rero kwanka kwemera UTXO yawe yaciyemwo CoinJoin, canke mbere rikagusaba insobanuro, n’ingorane yo kubona konti yawe ihagaritswe canke amahera yawe ahagaze. Mu bihe bimwebimwe, iyo nzira irashobora kandi kumenyesha abategetsi ba Leta inyifato yawe.
+  
+reviewed: false

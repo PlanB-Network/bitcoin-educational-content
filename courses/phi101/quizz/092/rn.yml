@@ -1,0 +1,9 @@
+question: None umuntu ku giti ciwe ni iki nk’uko Tocqueville abivuga?
+answer: Umuntu ku giti ciwe ni inyiyumvo yo kwitunga bituma abanyagihugu bitandukanya n’abandi, bakikuramwo.
+wrong_answers:
+  - Umuntu ku giti ciwe ni ikintu kiriho mu bihe vyose.
+  - Umuntu ku giti ciwe ni inyigisho ya politike ivuga ko umuntu yosubira mu buzima bwa ba sogokuruza.
+  - Umuntu ku giti ciwe ni ijambo riranga ubwikunzi bw’umuntu.
+explanation: |
+  Ku bwa Tocqueville, ubwigenge bw’umuntu ku giti ciwe ni impengamiro yo muri iki gihe yo kwitunga ituma abanyagihugu birengagiza amabanga rusangi, gutyo bikaba bituma haba ukwigungira ukwawe bigoyagoya umurongo w’imibano.
+reviewed: true

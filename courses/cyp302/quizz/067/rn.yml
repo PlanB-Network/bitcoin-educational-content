@@ -1,0 +1,9 @@
+question: Bigenda gute iyo umuterabwoba afashe ubutumwa bushizwe mu buryo bubereye?
+answer: Ntibakwiye kwiga ikintu na kimwe gihambaye ku butumwa bw’intango .
+wrong_answers:
+  - Bashobora kwama bafungura ubutumwa ata rufunguzo
+  - Bakwiye kuba bashoboye kuyifungura bakoresheje urufunguzo rwa bose .
+  - Bakwiye kuba bashoboye guteba ibirimwo ubutumwa .
+explanation: |
+  Mu mugambi wo gupfuka ubutumwa buhuye neza, uwutera ubutumwa bupfutse ntashobora gushobora gukura amakuru akwiriye yerekeye ibirimwo ubutumwa ata rufunguzo rwo gufungura.
+reviewed: false

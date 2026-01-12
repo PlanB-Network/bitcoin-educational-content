@@ -1,0 +1,9 @@
+question: Umbrel'e uzaktan erişim için Tailscale'in Tor'a göre temel avantajı nedir?
+answer: Daha hızlı bir bağlantı
+wrong_answers:
+  - WireGuard'dan daha güçlü şifreleme
+  - Kurumsal yönlendiricilerle uyumluluk
+  - Electrs'i çevrimdışı kullanma yeteneği
+explanation: |
+  Tailscale, WireGuard'ın güvenliğini sunar, ancak daha yavaş olan Tor'un aksine, bir clearnet bağlantısının hızıyla.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ni akamaro akahe nyamukuru ka VPN?
+answer: Kunyegeza uruja n’uruza rwa interineti
+wrong_answers:
+  - Kwihutisha uruja n’uruza rwawe rwa interineti
+  - Kwongera ubushobozi bwo kubika ibintu
+  - Porogarame ikingira umugera nyabwonko
+explanation: |
+  VPN irema inzira itekanye kandi ikanyegeza amakuru ahana hanwa hagati y’igikoresho cawe na seriveri iri hagati, gutyo igakomeza ibanga.
+reviewed: true

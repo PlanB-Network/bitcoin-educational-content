@@ -1,0 +1,8 @@
+question: Welk script moet worden gebruikt bij het genereren van handtekeningen voor een P2SH invoer tijdens het maken van transacties?
+answer: Het script redeem moet worden gebruikt in plaats van de scriptPubKey
+wrong_answers:
+  - De originele scriptPubKey met de hash moet direct worden gebruikt
+  - Er moet een combinatie van zowel de scriptPubKey als het afkoopscript worden gebruikt
+  - In plaats daarvan moet het ScriptSig met de ontgrendelingsgegevens worden gebruikt
+explanation: |
+  Tijdens het genereren van P2SH handtekeningen vereist het sighash proces het redeem script in plaats van de scriptPubKey. Dit is cruciaal omdat de scriptPubKey alleen de hash van het redeem script bevat, niet de werkelijke bestedingsvoorwaarden. Het redeem-script bevat de echte logica (zoals multisig-vereisten) die bepaalt hoe de uitvoer kan worden uitgegeven, dus handtekeningen moeten tegen dit onderliggende script worden gegenereerd om geldig te zijn. Het rechtstreeks gebruiken van de scriptPubKey zou mislukken omdat het alleen een hash-vergelijking bevat, niet de werkelijke bestedingsvoorwaarden waaraan moet worden voldaan.

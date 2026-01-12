@@ -1,9 +1,9 @@
-question: Jaký je problém škálovatelnosti Bitcoinu?
-answer: Výzva implementace měnového systému schopného poskytovat stále rostoucí počet transakcí za sekundu, jak je přijímán.
+question: Jaký je ústřední princip RGB?
+answer: Validace na straně klienta
 wrong_answers:
-  - Obtížnost těžby nových Bitcoinů s rostoucí hodnotou v čase.
-  - Volatilita ceny Bitcoinu, která se zvýší po každém halvingu.
-  - Nedostatek regulace pro Bitcoin, který způsobí, že transakce budou nelegální.
-explanation: >-
-  Problém škálovatelnosti odkazuje na výzvu implementace měnového systému schopného poskytovat stále rostoucí počet transakcí za sekundu, jak je přijímán.
-reviewed: true
+  - Globální provádění na blockchainu
+  - Federovaný konsensus
+  - Proof-of-Work
+explanation: |
+  RGB je založeno na lokální validaci stavů, přičemž blockchain slouží pouze jako kryptografické ukotvení a ochrana proti dvojímu utrácení.
+reviewed: false

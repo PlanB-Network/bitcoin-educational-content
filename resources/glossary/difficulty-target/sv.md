@@ -14,4 +14,4 @@ Detta mål justeras varje 2016 block (ungefär varannan vecka), under en händel
 ![](../../dictionnaire/assets/34.webp)
 
 
-> ► *Svårighetsmålet kallas ibland också för "svårighetsfaktorn" I förlängningen kan den refereras till med sin kodning i blockrubrikerna med termen "nBits"
+> ► *Svårighetsmålet kallas ibland också för "svårighetsfaktorn"* I förlängningen kan den refereras till med sin kodning i blockrubrikerna med termen "nBits"

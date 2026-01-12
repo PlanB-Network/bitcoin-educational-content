@@ -6,7 +6,7 @@ description: Ledgeri konfigureerimine ilma Ledger Live'i tarkvarata
 
 Kui kasutate Ledgeri, olete tõenäoliselt avastanud, et peate vähemalt seadme algse konfiguratsiooni jaoks läbima Ledger Live'i tarkvara, et kontrollida selle autentsust ja paigaldada sellele Bitcoini rakendus. Pärast seda konfigureerimist eelistavad paljud bitcoin'i kasutajad siiski Ledger Live'i asemel kasutada spetsiaalset Bitcoini rahakoti haldustarkvara, näiteks Sparrow või Liana. Kuigi Ledger toodab suurepäraseid riistvaralisi rahakotte, mis sisaldavad kiiresti uusimaid Bitcoini funktsioone, ei ole nende tarkvara tingimata kohandatud bitcoin'i kasutajate erivajadustele. Ledger Live sisaldab tõepoolest palju funktsioone, mis on mõeldud altcoinide jaoks, samas kui Bitcoini rahakoti haldamisele pühendatud võimalused on piiratud. Kuid Sparrow ja Liana puhul on (hetkel) probleemiks see, et nad ei võimalda Ledgerile Bitcoini rakendust paigaldada.
 
-Selleks, et vältida Ledger Live'i kasutamist Ledgeri esmase konfigureerimise ajal, võite kasutada Bacca tööriista (või "Ledgeri paigaldaja"). See tarkvara võimaldab teil paigaldada ja uuendada Bitcoini rakendust, kontrollida oma Ledgeri autentsust ja isegi hiljem uuendada seadme püsivara. Bacca on loodud Antoine Poinsot (Darosior), Bitcoin Core'i arendaja Chaincode Labsis, [Revault'i ja Liana] (https://wizardsardine.com/) kaasasutaja ja Pythcoiner.
+Selleks, et vältida Ledger Live'i kasutamist Ledgeri esmase konfigureerimise ajal, võite kasutada Bacca tööriista (või "Ledgeri paigaldaja"). See tarkvara võimaldab teil paigaldada ja uuendada Bitcoini rakendust, kontrollida oma Ledgeri autentsust ja isegi hiljem uuendada seadme püsivara. Bacca on loodud Antoine Poinsot (Darosior), Bitcoin Core'i arendaja Chaincode Labsis, [Revault'i ja Liana](https://wizardsardine.com/) kaasasutaja ja Pythcoiner.
 
 Selles õpetuses näitan teile, kuidas seda tööriista kasutada, nii et saate lõplikult ilma Ledger Live'i tarkvarata hakkama saada ja siiski Ledgeri seadmeid nautida. See töötab kõigis seadmetes: Nano S Classic, Nano S Plus, Nano X, Flex ja Stax.
 
@@ -98,11 +98,11 @@ Nüüd on teil juurdepääs tarkvaraliidesele.
 
 Kui teie Ledger on uus, veenduge enne alustamist, et olete seadistanud PIN-koodi ja salvestanud taastamislauset. Nende esialgsete sammude jaoks ei ole teil vaja Ledger Live'i. Lihtsalt ühendage oma Ledger USB-kaabli kaudu, et see saaks voolu. Kui te ei ole kindel, kuidas nende kahe sammuga edasi minna, võite vaadata oma mudelile vastava õpetuse algust:
 
-https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
 ## Bacca kasutamine
 
@@ -140,5 +140,5 @@ Kui leidsid selle õpetuse kasulikuks, oleksin tänulik, kui jätaksid alla rohe
 
 Samuti soovitan vaadata seda GnuPG õpetust, mis selgitab, kuidas kontrollida tarkvara terviklikkust ja autentsust enne selle paigaldamist. See on oluline tava, eriti kui paigaldate portfellihaldustarkvara nagu Liana või Sparrow :
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 

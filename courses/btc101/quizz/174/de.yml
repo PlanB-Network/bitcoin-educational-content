@@ -1,10 +1,13 @@
-question: Was sind die typischen Kosten für einen Miner?
-answer: Stromverbrauch und Hardwarekauf.
+question: Wie hat sich Bitcoin weiter in den traditionellen Markt integriert?
+answer: Die Einführung von Bitcoin ETFs.
 wrong_answers:
-  - Nur Hardwarekauf.
-  - Transaktionsgebühren.
-  - Stromverbrauch und Transaktionsgebühren.
-explanation: >-
-  Das Mining von Bitcoin erfordert erhebliche Rechenleistung, was wiederum Strom verbraucht.
-  Außerdem müssen Miner in spezialisierte Hardware investieren, um effektiv minen zu können.
-reviewed: false
+  - Das Verbot von Bitcoin.
+  - Das Verschwinden aller Kryptowährungen.
+  - Die Schaffung von Bitcoin.
+explanation: |
+  Bitcoin überlebt weiterhin und wächst sogar noch mehr, indem
+  es sich immer weiter in den traditionellen Markt integriert.
+  Die Ankunft von Bitcoin ETFs, klarere Regulierungen und
+  bessere Erwerbung von Speicherwerkzeugen fördern nur diesen
+  Trend.
+reviewed: true

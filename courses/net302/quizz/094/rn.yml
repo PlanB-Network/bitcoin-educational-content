@@ -1,0 +1,9 @@
+question: Ni itegeko irihe rishobora gukoreshwa mu kubaza umukozi wa DNS kugira ngo uronke IP Address y’itongo?
+answer: gushaka
+wrong_answers:
+  - urusenga
+  - ikarita
+  - ss
+explanation: |
+  nslookup ni igikoresho c'ibibazo vya DNS co gutorera umuti amazina y'indangarubuga mu ma aderesi ya IP.
+reviewed: false

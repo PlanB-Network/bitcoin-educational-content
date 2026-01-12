@@ -1,4 +1,4 @@
-question: Jakie informacje może zawrzeć Bob w Invoice, aby ułatwić routing?
+question: Jakie informacje może zawrzeć w swojej fakturze Bob, aby ułatwić routing?
 answer: Pobliskie kanały o wystarczającej płynności lub istnienie kanałów prywatnych
 wrong_answers:
   - Klucz prywatny węzłów pośrednich
@@ -6,4 +6,4 @@ wrong_answers:
   - Dokładna ilość dostępnej płynności dla każdego kanału
 explanation: |
   Wskazując pobliskie kanały z płynnością lub ujawniając kanały prywatne, Bob pomaga Alicji wybrać trasy z większym prawdopodobieństwem sukcesu.
-reviewed: false
+reviewed: true

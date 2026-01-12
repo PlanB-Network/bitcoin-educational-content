@@ -1,0 +1,9 @@
+question: Qual è lo scopo principale di far rivedere a sviluppatori esperti una patch di vulnerabilità senza essere informati della vulnerabilità specifica?
+answer: Per verificare se la patch nasconde adeguatamente la vulnerabilità ai potenziali aggressori
+wrong_answers:
+  - "Per garantire che la patch non introduca nuovi bug nella base di codice"
+  - Per verificare che la patch segua gli standard e le convenzioni di codifica corretti
+  - Per confermare che la patch fornisce un miglioramento sufficiente delle prestazioni
+explanation: |
+  Secondo le pratiche di divulgazione responsabile, gli sviluppatori verificano se una patch è stata mascherata abbastanza bene fornendola a sviluppatori esperti che non sono stati informati della vulnerabilità, chiedendo loro di identificare ciò che essa risolve. Se questi esperti non riescono a individuare la vulnerabilità, pur sapendo che una patch la risolve, è probabile che sia ben nascosta ai potenziali aggressori. Questo è un aspetto cruciale perché le patch stesse possono rivelare le vulnerabilità, consentendo potenzialmente lo sfruttamento da parte di malintenzionati. Le altre opzioni, pur essendo aspetti importanti della revisione del codice, non sono lo scopo principale di questa pratica specifica di gestione delle vulnerabilità.
+reviewed: false

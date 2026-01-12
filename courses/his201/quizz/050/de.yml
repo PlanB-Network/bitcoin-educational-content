@@ -1,4 +1,4 @@
-question: Wer hat die Mt. Gox Exchange-Plattform am 18. Juli 2010, eine Woche nach dem großen Slashdotting von Bitcoin, erstellt?
+question: Wer hat die Mt. Gox Tauschbörse am 18. Juli 2010, eine Woche nach dem großen Slashdotting von Bitcoin, erstellt?
 answer: Jed McCaleb
 wrong_answers:
   - Mark Karpelès
@@ -6,4 +6,4 @@ wrong_answers:
   - Gavin Andresen
 explanation: |
   Er erstellte diesen effizienten Marktplatz aus einer Laune heraus, da ihm bewusst wurde, wie schwierig es war, Bitcoin im Austausch gegen Dollar zu erhalten (besonders auf Bitcoin Market).
-reviewed: false
+reviewed: true

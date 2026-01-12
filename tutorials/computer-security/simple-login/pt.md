@@ -1,5 +1,5 @@
 ---
-name: Início de sessão simples
+name: Simple Login
 description: Identidade protegida com pseudónimos
 ---
 ![cover](assets/cover.webp)
@@ -18,7 +18,7 @@ Quando se utiliza o Address do correio eletrónico pessoal para cada início de 
 Os criadores de ferramentas de código aberto criaram uma série de conjuntos de aplicações, nascidos precisamente para que os utilizadores recuperem um pouco de privacidade: continuarão a iniciar sessão, mas utilizando um pseudónimo em vez da ferramenta que revela a sua identidade privada.
 
 
-O mais simples dos que experimentei pessoalmente e que ainda estou a testar é o [Simple Login] (https://simplelogin.io/).
+O mais simples, entre os que testei pessoalmente e que ainda estou testando, é justamente o [Simple Login](https://simplelogin.io/).
 
 
 ## Apelido
@@ -99,7 +99,7 @@ Ao adicionar um novo Address, especialmente se pertencer ao fornecedor Proton, o
 ![image](assets/it/12.webp)
 
 
-**É melhor aceder à caixa de correio eletrónico -> copiar a ligação para verificação e colá-la na barra de URL -> e obter a verificação sem revelar a palavra-passe
+**É melhor aceder à caixa de correio eletrónico -> copiar a ligação para verificação e colá-la na barra de URL -> e obter a verificação sem revelar a palavra-passe**
 
 
 ![image](assets/it/13.webp)

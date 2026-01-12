@@ -1,4 +1,4 @@
-question: Je, kuna washiriki wangapi katika pembejeo katika shughuli ya PayJoin?
+question: Je, kuna washiriki wangapi katika pembejeo ya shughuli ya PayJoin?
 answer: 2
 wrong_answers:
   - 1
@@ -7,4 +7,4 @@ wrong_answers:
 explanation: |
   Kuna washiriki 2: mlipaji na mpokeaji wa malipo.
   
-reviewed: false
+reviewed: true

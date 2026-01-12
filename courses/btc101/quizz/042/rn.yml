@@ -1,0 +1,9 @@
+question: Ni igice ca mbere ikihe kiba mu gihe c’ugutera imbere cane kw’ibiciro?
+answer: Gutakaza icizigiro mu mafaranga.
+wrong_answers:
+  - Amafaranga arasenyuka & igiciro kiduga.
+  - Uruziga rw’ububisha rwo gucapura amahera.
+  - Ifaranga rishasha rirasohoka.
+explanation: |
+  Iciyumviro ca mbere c’ugutera imbere kw’ibiciro ni ugutakaza icizigiro mu mafaranga.
+reviewed: true

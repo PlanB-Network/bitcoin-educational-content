@@ -1,11 +1,11 @@
-question: Que se passerait-il si un utilisateur de nœud décidait de suivre des règles différentes qui contredisent les règles de consensus existantes ?
-answer: Le nœud ne ferait plus partie du réseau Bitcoin.
+question: Quel est le rôle des mineurs dans le réseau Bitcoin ?
+answer: Les mineurs sécurisent le réseau et ajoutent des transactions aux blocs.
 wrong_answers:
-  - Le nœud deviendrait une partie d'un réseau Bitcoin différent.
-  - Le nœud serait pénalisé par le réseau Bitcoin.
-  - Le nœud serait récompensé par le réseau Bitcoin.
-explanation: |
-  Si un utilisateur de nœud décidait de suivre d'autres règles qui
-  invalident les règles de consensus actuelles, alors ce nœud
-  ne ferait plus partie du réseau Bitcoin.
+  - Les mineurs créent de nouveaux bitcoins.
+  - Les mineurs vérifient l'identité des utilisateurs de Bitcoin.
+  - Les mineurs fixent le prix du Bitcoin.
+explanation: >-
+  Les mineurs utilisent leur puissance de calcul pour résoudre des problèmes mathématiques complexes,
+  ce qui leur permet d'ajouter de nouvelles transactions à la blockchain. Ce processus sécurise
+  le réseau et maintient son intégrité.
 reviewed: true

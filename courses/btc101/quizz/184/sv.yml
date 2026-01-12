@@ -1,8 +1,8 @@
-question: Vad är en av anledningarna till att Bitcoin inte är en bubbla som kommer att försvinna?
-answer: För det är en valuta som faktiskt används överallt i världen.
+question: Vad är en faktor att tänka på när du väljer en lösning för att acceptera Bitcoin för ditt företag?
+answer: Den förväntade transaktionsvolymen.
 wrong_answers:
-  - Eftersom det faktiskt inte används någonstans.
-  - Eftersom den styrs av en central myndighet.
-  - Eftersom det är lätt att förfalska.
+  - Färgen på din logotyp.
+  - Antal anställda.
+  - Platsen för ditt huvudkontor.
 explanation: >-
 reviewed: true

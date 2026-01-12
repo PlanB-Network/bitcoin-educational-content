@@ -6,12 +6,12 @@ description: Configuração de um ledger sem o software Ledger Live
 
 Se utiliza um Ledger, provavelmente já descobriu que tem de passar pelo software Ledger Live, pelo menos para a configuração inicial do dispositivo, para verificar a sua autenticidade e instalar a aplicação Bitcoin no mesmo. No entanto, após esta configuração, muitos bitcoiners preferem utilizar um software especializado de gestão de carteiras Bitcoin, como o Sparrow ou o Liana, em vez do Ledger Live. Embora a Ledger produza excelentes carteiras de hardware que incluem rapidamente os últimos recursos do Bitcoin, seu software não é necessariamente adaptado às necessidades específicas dos bitcoiners. De facto, o Ledger Live inclui muitas funcionalidades concebidas para altcoins, enquanto as opções dedicadas à gestão de carteiras Bitcoin são limitadas. Mas o problema do Sparrow e do Liana (de momento) é que não permitem instalar a aplicação Bitcoin no Ledger.
 
-Para contornar a necessidade de utilizar o Ledger Live durante a configuração inicial do seu Ledger, pode utilizar a ferramenta Bacca, (ou "Ledger Installer"). Este software permite-lhe instalar e atualizar a aplicação Bitcoin, verificar a autenticidade do seu Ledger e até atualizar posteriormente o firmware do dispositivo. Bacca foi criado por Antoine Poinsot (Darosior), desenvolvedor do Bitcoin Core no Chaincode Labs, cofundador [de Revault e Liana] (https://wizardsardine.com/), e Pythcoiner.
+Para contornar a necessidade de utilizar o Ledger Live durante a configuração inicial do seu Ledger, pode utilizar a ferramenta Bacca, (ou "Ledger Installer"). Este software permite-lhe instalar e atualizar a aplicação Bitcoin, verificar a autenticidade do seu Ledger e até atualizar posteriormente o firmware do dispositivo. Bacca foi criado por Antoine Poinsot (Darosior), desenvolvedor do Bitcoin Core no Chaincode Labs, cofundador [de Revault e Liana](https://wizardsardine.com/), e Pythcoiner.
 
 Neste tutorial, vou mostrar-lhe como utilizar esta ferramenta, para que possa prescindir definitivamente do software Ledger Live e continuar a desfrutar dos dispositivos Ledger. Funciona em todos os dispositivos: Nano S Classic, Nano S Plus, Nano X, Flex e Stax.
 
 ---
-*Tenha em atenção que esta ferramenta é bastante recente e os seus criadores especificam que ainda se encontra **em fase de teste**. Recomendam a sua utilização apenas para fins de teste, e não para um dispositivo destinado a alojar uma carteira Bitcoin real, embora seja possível fazê-lo. A este respeito, recomendo que siga as recomendações dos criadores desta ferramenta, que estão especificadas [no README do seu repositório GitHub] (https://github.com/darosior/ledger_installer).*
+*Tenha em atenção que esta ferramenta é bastante recente e os seus criadores especificam que ainda se encontra **em fase de teste**. Recomendam a sua utilização apenas para fins de teste, e não para um dispositivo destinado a alojar uma carteira Bitcoin real, embora seja possível fazê-lo. A este respeito, recomendo que siga as recomendações dos criadores desta ferramenta, que estão especificadas [no README do seu repositório GitHub](https://github.com/darosior/ledger_installer).*
 
 ---
 ## Pré-requisitos
@@ -46,11 +46,11 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 **Windows:**
 
-Para instalar o Git, vá para [o sítio Web oficial do projeto] (https://git-scm.com/). Descarregue o software e siga as instruções de instalação.
+Para instalar o Git, vá para [o sítio Web oficial do projeto](https://git-scm.com/). Descarregue o software e siga as instruções de instalação.
 
 ![BACCA](assets/fr/01.webp)
 
-Proceda da mesma forma para instalar o Rust a partir do [sítio Web oficial] (https://www.rust-lang.org/tools/install).
+Proceda da mesma forma para instalar o Rust a partir do [sítio Web oficial](https://www.rust-lang.org/tools/install).
 
 ![BACCA](assets/fr/02.webp)
 
@@ -98,11 +98,11 @@ Tem agora acesso à interface do software.
 
 Antes de começar, se o seu Ledger for novo, certifique-se de que configurou o código PIN e guardou a frase de recuperação. Não precisa do Ledger Live para estes passos iniciais. Basta ligar o Ledger através do cabo USB para o alimentar. Se não tiver a certeza de como proceder com estes dois passos, pode consultar o início do tutorial específico para o seu modelo:
 
-https://planb.network/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
 
-https://planb.network/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 
-https://planb.network/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
+https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
+
+https://planb.academy/tutorials/wallet/hardware/ledger-flex-3728773e-74d4-4177-b39f-bd923700c76a
 
 ## Utilização de Bacca
 
@@ -140,5 +140,5 @@ Se achou este tutorial útil, agradecia que deixasse um polegar verde abaixo. Si
 
 Também recomendo que dê uma vista de olhos neste tutorial sobre GnuPG, que explica como verificar a integridade e autenticidade do seu software antes de o instalar. Esta é uma prática importante, especialmente quando se instala software de gestão de portefólio como o Liana ou o Sparrow :
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 

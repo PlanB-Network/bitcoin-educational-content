@@ -1,0 +1,9 @@
+question: Ni gute Lightning Network yemera kohereza amahera ku nzira idahuye ataco ihuriyeko?
+answer: Mu kurungika ukwishyura biciye ku nzira z'ubuhuza
+wrong_answers:
+  - Mu gukoresha amafaranga On-Chain hagati y'uruzitiro rumwe rumwe
+  - Mu gushinga umurongo w'igihe gito
+  - Mu kohereza ayo mahera ataco akoresheje amaderesi menshi
+explanation: |
+  Lightning Network ishobora gutuma umuntu ashobora kwishura biciye mu nzira nyinshi zihuza, ataco bisaba ko haba umurongo utaziguye hagati y’uwurungitse n’uwuyakira.
+reviewed: false

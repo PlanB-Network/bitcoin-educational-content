@@ -1,0 +1,9 @@
+question: ¿Qué comando recupera la IP Address local de su Umbrel si falla el acceso a través de umbrel.local?
+answer: hostname -I
+wrong_answers:
+  - ifconfig -usb
+  - umbrel-ip --mostrar
+  - netstat -umbrel
+explanation: |
+  En caso de problemas de detección, puede utilizar el comando hostname -I en la máquina Umbrel para averiguar su IP local.
+reviewed: true

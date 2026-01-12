@@ -1,0 +1,9 @@
+question: Ni ubuhe bwoko bwa Address butangura na `1` kandi bukaba buri mu rugero rwa Legacy?
+answer: P2PKH
+wrong_answers:
+  - P2WPKH.
+  - P2SH.
+  - P2TR.
+explanation: |
+  Aderesi za P2PKH, zishizwe muri base58check, ziva ku rugero rwa Legacy kandi zitangura n'umubare `1`.
+reviewed: false

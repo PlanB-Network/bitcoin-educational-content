@@ -1,0 +1,9 @@
+question: Mis on moraalsus Gilles Deleuze'i jaoks?
+answer: Süsteem, mille alusel otsustatakse hea ja moraalse vahel.
+wrong_answers:
+  - Religioosne algatus.
+  - Seaduse tulemus.
+  - Püsiv põhimõte.
+explanation: |
+  Gilles Deleuze'i jaoks on moraalsus hinnangusüsteem, mis liigitab teod headeks ja kurjadeks vastavalt transtsendentaalsetele väärtustele. Ta vastandab seda spinozistlikule eetikale, mis hindab eksistentsi viise vastavalt nende tegevusvõimele.
+reviewed: false

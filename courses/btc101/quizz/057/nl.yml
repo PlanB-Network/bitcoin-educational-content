@@ -1,9 +1,12 @@
-question: Wat was de inflatie in Zimbabwe in november 2008?
-answer: 79,600,000,000%
+question: Wat is het commando om de hoeveelheid bitcoins in omloop op een Bitcoin knooppunt te verifiëren?
+answer: bitcoin-cli gettxoutsetinfo.
 wrong_answers:
-  - 796%
-  - 79,600,000,000,000,000%
-  - 100%
+  - bitcoin-cli getblockchaininfo.
+  - bitcoin-cli getwalletinfo.
+  - bitcoin-cli getnetworkinfo.
 explanation: |
-  In november 2008 bereikte de maandelijkse inflatie van de Zimbabwaanse munteenheid een piek van 79.600.000.000%, waardoor de waarde van de Zimbabwaanse dollar tot 0 daalde.
+  Het commando om de hoeveelheid bitcoins in
+  circulatie op een Bitcoin knooppunt is bitcoin-cli
+  gettxoutsetinfo. Dit commando biedt transparantie en
+  en controleerbaarheid, waardoor het vertrouwen in het Bitcoin systeem wordt versterkt.
 reviewed: true

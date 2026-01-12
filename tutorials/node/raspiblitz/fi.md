@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: Opas RaspiBlitzin pystyttämiseen
 ---
 
-![kuva](assets/0.webp)
+![kuva](assets/cover.webp)
 
 RaspiBlitz on tee-se-itse Lightning Node (LND ja/tai Core Lightning), joka toimii yhdessä Bitcoin-Fullnoden kanssa RaspberryPillä (1TB SSD) ja mukavalla näytöllä helppoa asetusta & seurantaa varten.
 
@@ -12,17 +12,17 @@ RaspiBlitz on suunnattu pääasiassa oppimaan, miten pyörittää omaa nodia haj
 ![video](https://youtu.be/DTHlSPMz3ns)
 RASPIBLITZ - Kuinka Pyörittää Lightning ja Bitcoin Full Nodea BTC sessionin toimesta
 
-# Parmanin Raspiblitzin asennusopas
+## Parmanin Raspiblitzin asennusopas
 
-Raspiblitz on erinomainen järjestelmä Bitcoin Noden ja siihen liittyvien sovellusten ajamiseen. Suosittelen tätä ja My Node -nodea useimmille käyttäjille (Ideaalitilanteessa kaksi nodea redundanssin vuoksi.) Yksi merkittävä etu on, että Raspiblitz-node on "Vapaa Avoin Lähdekoodi Ohjelmisto", toisin kuin MyNode tai Umbrel. Miksi se on tärkeää? Vlad Costa selittää. Voit myös ajaa RaspbiBlitzin WiFi-yhteydellä ethernetin sijaan – tässä on lisäopas siihen. (En ole löytänyt tapaa tehdä tätä MyNoden kanssa).
+Raspiblitz on erinomainen järjestelmä Bitcoin-noden ja siihen liittyvien sovellusten ajamiseen. Suosittelen tätä ja MyNode-nodia useimmille käyttäjille (ihanteellisesti kaksi nodia redundanssin vuoksi). Yksi suuri etu on, että Raspiblitz-node on "Free Open Source Software", toisin kuin MyNode tai Umbrel. [Miksi se on tärkeää? Vlad Costa selittää.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Voit myös käyttää Raspiblitziä WiFi-yhteydellä ethernetin sijaan – tässä on [lisäopas](https://armantheparman.com/headless-wifi/) siihen. (En ole löytänyt tapaa tehdä tätä MyNode:n kanssa).
 
 Voit ostaa valmiin noden kiinnitetyllä mininäytöllä, tai voit rakentaa sen itse (et tarvitse näyttöä).
 
-Github-sivun opas on erinomainen, mutta mahdollisesti liian yksityiskohtainen kohtalaisen kokeneelle käyttäjälle. Ohjeeni ovat ytimekkäämmät ja toivottavasti helpommat seurata.
+[Opas GitHub-sivulla](https://github.com/rootzoll/raspiblitz) on erinomainen, mutta mahdollisesti liian yksityiskohtainen kohtalaisen kokeneelle käyttäjälle. Ohjeeni ovat tiiviimmät ja toivottavasti helpommin seurattavat.
 
-Käytännössä prosessi on hyvin samanlainen kuin MyNode-noden asettaminen Raspberry Pi 4:lle. Raspiblitzin opas ehdottaa monitorin ostamista, mutta todellisuudessa et tarvitse sitä, enkä suosittelisi. Et tarvitse edes ylimääräistä näppäimistöä tai hiirtä. Pääset vain laitteen terminaalivalikkoon tietokoneella samassa kotiverkossa ja käytät ssh-komentoa terminaalissa. Tämä on mahdollista Linux/Macilla (helppo) ja hieman vaikeampaa Windowsilla.
+Periaatteessa prosessi on hyvin samanlainen kuin [MyNode-solmun](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) asettaminen Raspberry Pi 4:llä. Raspiblitz-opas ehdottaa monitorin ostamista, mutta et oikeasti tarvitse sellaista, enkä suosittelisi sitä. Et tarvitse edes ylimääräistä näppäimistöä tai hiirtä. Pääset vain laitteen terminaalivalikkoon tietokoneelta, joka on samassa kotiverkossa, ja käytät ssh-komentoa terminaalissa. Tämä onnistuu Linuxilla/Macilla (helppoa) ja hieman vaikeampaa Windowsilla.
 
-## Vaihe 1: Osta laitteet.
+### Vaihe 1: Osta laitteet.
 
 Tarvitset täsmälleen samat laitteet, joita tarvitset MyNode-noden ajamiseen. Voit kokeilla toista tai toista, ainoa ero on mikro SD-kortin tiedoissa.
 
@@ -48,21 +48,22 @@ Tämä on nopeampi, mutta tarpeettoman kallis:
 
 ![kuva](assets/3.webp)
 
-## Vaihe 2: Lataa Raspiblitz-kuva
-Siirry Raspiblitzin GitHub-sivustolle ja etsi "lataa kuva" -linkki:
+### Vaihe 2: Lataa Raspiblitz-kuva
+Siirry [Raspiblitzin GitHub-sivustolle](https://github.com/rootzoll/raspiblitz) ja etsi linkki ”download image”:
 ![kuva](assets/4.webp)
 
-Ladatun tiedoston sha-256-tiiviste on annettu verkkosivustolla. Se muuttuu jokaisen päivityksen yhteydessä. Jos et ymmärrä, mistä tässä on kyse, sinun pitäisi, joten kirjoitin oppaan, jonka voit lukea täältä.
+Ladatun tiedoston sha-256-hajautus on saatavilla verkkosivustolla. Se muuttuu jokaisen päivityksen myötä. Jos et ymmärrä, mistä on kyse, sinun pitäisi, joten kirjoitin [oppaan, jonka voit lukea täältä.](https://armantheparman.com/gpg/)
 
 ![kuva](assets/5.webp)
 
-## Vaihe 3: Vahvista kuva
+### Vaihe 3: Vahvista kuva
 
 Ennen kuin jatkat, jos et tunne tiedostojärjestelmää komentorivillä, on helppo oppia, ja sinun pitäisi.
 
-Tässä on hyödyllinen video Linuxille, mutta se pätee myös Maciin.
+Tässä on [hyödyllinen video Linuxille, mutta se pätee myös Maciin](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
-Windowsille, tässä on yksinkertainen opas.
+Windowsille tässä on [yksinkertainen opetusohjelma](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
+_PÄIVITYS: pgp/gpg-varmennus on nyt saatavilla. Tarvitset Openomsin julkisen avaimen. [Tässä](http://parman.org/downloadable/openoms.txt) se on (saatat tarvita incognito-tilaa, jotta linkki toimii – http, ei https)_
 Mac/Linux
 
 Odota, että tiedosto on valmis latautumaan (tärkeää!), ja avaa sitten terminaali, siirry kansioon, johon latasit tiedoston, ja kirjoita seuraava komento...
@@ -86,9 +87,9 @@ missä xxxxxxxxxxxxxx on juuri lataamasi tiedoston nimi. Jos et ole hakemistossa
 
 Tietokone ajattelee noin 20 sekuntia. Tarkista, että tulosteen tiiviste vastaa verkkosivustolta edellisessä vaiheessa ladattua tiivistettä. Jos se on identtinen, voit jatkaa.
 
-## Vaihe 4: Flashaa SD-kortti
+### Vaihe 4: Flashaa SD-kortti
 
-Voit käyttää tähän Balena Etcheria. Lataa se täältä.
+Voit käyttää tähän Balena Etcheriä. [Lataa se täältä](https://www.balena.io/etcher/).
 
 Etcher on itsestään selvä käyttää. Aseta micro SD -korttisi ja flashaa Raspiblitz-ohjelmisto (.img-tiedosto) SD-kortille.
 
@@ -102,7 +103,7 @@ Etcher on itsestään selvä käyttää. Aseta micro SD -korttisi ja flashaa Ras
 
 Kun se on valmis, asema ei ole enää luettavissa. Saatat saada käyttöjärjestelmältä virheilmoituksen, ja aseman pitäisi kadota työpöydältä. Vedä kortti ulos.
 
-## Vaihe 5: Aseta Pi paikoilleen ja aseta SD-kortti
+### Vaihe 5: Aseta Pi paikoilleen ja aseta SD-kortti
 
 Osat (kotelo ei näy):
 
@@ -122,7 +123,7 @@ Lopuksi, yhdistä virta:
 
 ![kuva](assets/14.webp)
 
-## Vaihe 6: Etsi Pin IP-osoite
+### Vaihe 6: Etsi Pin IP-osoite
 
 Raspiblitzin kanssa et tarvitse näyttöä. Tarvitset kuitenkin toisen tietokoneen kotiverkossa. Jos Pi ei ole yhdistetty ethernetillä ja haluat luottaa WiFiin, IP-osoitteen löytäminen vaatii jonkin verran tietokonetaitoja. Valitettavasti en voi auttaa tässä. Tarvitset ethernet-yhteyden. (Ongelma johtuu tarpeesta päästä käsiksi näyttöön ja käyttöjärjestelmään WiFiin yhdistämiseksi ja salasanan syöttämiseksi.)
 
@@ -132,7 +133,7 @@ IP-osoitteen löytäminen on ratkaisevan tärkeää.
 
 > PÄIVITYS: voit käyttää terminaalia Mac- tai Linux-koneella löytääksesi kaikkien Ethernetillä yhdistettyjen laitteiden IP-osoitteet kotiverkossa komennolla “arp -a”. Tuloste ei ole yhtä selkeä kuin mitä reititin näyttää, mutta kaikki tarvittava tieto on siellä. Jos ei ole ilmeistä, mikä on Pi, suorita kokeilu ja virhe -menetelmää.
 
-## Vaihe 7: SSH-yhteys Pi:hin
+### Vaihe 7: SSH-yhteys Pi:hin
 
 Muista laittaa SD-kortti Pi:hin ennen sen päälle kytkemistä. Odota muutama minuutti, ja sitten toisella Linux/Mac-koneella, avaa terminaali.
 
@@ -142,7 +143,7 @@ Mac/Linuxille, terminaalissa kirjoita:
 ssh admin@Sinun_Pi:n_IP_osoite
 ```
 
-Windowsille, sinun täytyy asentaa putty, jotta voit muodostaa ssh-yhteyden Pi:hin. Kirjoita sama komento kuin yllä.
+Windowsille sinun täytyy asentaa [putty](http://putty.org/) yhdistääksesi Pi:hin ssh:n kautta. Kirjoita sama komento kuin yllä.
 
 Ensimmäisellä kerralla, tai aina kun vaihdat Pi:n käyttöjärjestelmää vaihtamalla SD-korttia, saatat saada tämän virheen...
 

@@ -1,4 +1,4 @@
-question: Je! ni jina gani la kitabu cha katuni kinachopendekezwa kwa wale wanaotaka kujua kuhusu uzoefu wa Ujerumani baada ya Vita vya Kwanza vya Kidunia?
+question: Je! ni jina lipi la kitabu cha katuni kinachopendekezwa kwa wale wanaotaka kujua kuhusu uzoefu wa Ujerumani baada ya Vita vya Kwanza vya Kidunia?
 answer: Benki ya Reich
 wrong_answers:
   - Dola ya Reich
@@ -6,6 +6,6 @@ wrong_answers:
   - Uchumi wa Reich
 explanation: |
   Kwa wale wanaotamani kujua uzoefu wa Wajerumani baada ya Vita vya Kwanza vya Kidunia, the
-  hotuba inapendekeza kitabu cha vichekesho The Reich's Banker. Inasimulia jinsi Ujerumani
+  hotuba inapendekeza kitabu cha vichekesho The Reich's Banker. Kinachosimulia jinsi Ujerumani
   iliweza kushinda mfumuko wa bei, haswa kupitia uundaji wa Rentenmark.
-reviewed: false
+reviewed: true

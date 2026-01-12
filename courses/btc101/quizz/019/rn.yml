@@ -1,0 +1,13 @@
+question: Ni kuki inzahabu idashobora gukora neza mw’isi y’isi yose n’iy’ubuhinga bwa none?
+answer: Kuko rikeneye ikintu nyamukuru kugira ngo rigabanuke kandi rihindurwe bitagoranye.
+wrong_answers:
+  - Kuko nta gaciro bihagije bifise.
+  - Kuko si gake bihagije.
+  - Kubera ko rigenda risenyuka uko igihe kigenda kirarenga.
+explanation: |
+  Inzahabu ntishobora gukurikirana isi y'isi yose n'iy'ubuhinga bwa none .
+  kuko rikeneye ikintu nyamukuru kugira ngo ribe rishobora kugabanywa kandi .
+  bishobora guhindurwa bitagoranye. Ivyo bituma bidashoboka cane gukoresha mu .
+  isi aho amafaranga agenda arushirizaho gukoreshwa mu buryo bwa digitale kandi
+  ry’inzego zitandukanye.
+reviewed: true

@@ -1,0 +1,12 @@
+question: Ni ingingo ngenderwako izihe z’ubutunzi Bitcoin ihuye na zo?
+answer: Ingingo ngenderwako z’ubutunzi bwa Otirishiya.
+wrong_answers:
+  - Ingingo ngenderwako z’ubutunzi bwa Keynes.
+  - Ingingo ngenderwako z’ubutunzi bwa Marx.
+  - Ingingo ngenderwako z’ubutunzi bw’igihe ca kera.
+explanation: |
+  Bitcoin ihuye n’ingingo ngenderwako z’ubutunzi bwa Otirishiya.
+  Ubwinshi bwayo bufise urugero n'ukubura kw'ikigo nyamukuru birayikingira .
+  kuva ku bibazo vy’ugutera imbere kw’ibiciro biboneka mu 2019.
+  amafaranga y’imigenzo.
+reviewed: true

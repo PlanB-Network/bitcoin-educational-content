@@ -10,7 +10,7 @@ Mise PlanB je poskytovat špičkové vzdělávací zdroje o Bitcoinu v co nejví
 ![book](assets/01.webp)
 - Nejprve potřebujete mít účet na GitHubu. Pokud nevíte, jak vytvořit účet, připravili jsme podrobný tutoriál, který vás provede.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Přejděte na [GitHubový repozitář PlanB věnovaný datům](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) v sekci `resources/books/`:
@@ -67,7 +67,7 @@ tags:
 - Klikněte na zelené tlačítko `Propose changes` (Navrhnout změny): ![book](assets/12.webp)
 - Poté se dostanete na stránku shrnující všechny vaše změny: ![book](assets/13.webp)
 - Klikněte na obrázek vašeho profilu GitHub v pravém horním rohu, poté na `Your Repositories` (Vaše repozitáře): ![book](assets/14.webp)
-- Vyberte svůj fork repozitáře PlanB Network: ![book](assets/15.webp)
+- Vyberte svůj fork repozitáře Plan ₿ Academy: ![book](assets/15.webp)
 - Na vrchu okna byste měli vidět oznámení s vaší novou větví. Pravděpodobně se jmenuje `patch-1`. Klikněte na ni: ![book](assets/16.webp)
 - Nyní jste ve své pracovní větvi: ![book](assets/17.webp)
 - Vraťte se do složky `resources/books/` a vyberte složku vaší knihy, kterou jste právě vytvořili v předchozím commitu: ![book](assets/18.webp)
@@ -78,7 +78,7 @@ tags:
 - Nechte název commitu ve výchozím nastavení a ujistěte se, že je zaškrtnuto políčko `Commit directly to the patch-1 branch` (Potvrdit přímo do větve patch-1), poté klikněte na `Commit changes` (Potvrdit změny): ![book](assets/23.webp)
 - Vraťte se do složky `assets`: ![book](assets/24.webp)
 - Klikněte na tlačítko `Add file` (Přidat soubor), poté na `Upload files` (Nahrát soubory): ![book](assets/25.webp)
-- Otevře se nová stránka. Přetáhněte obrázek obálky vaší knihy do oblasti. Tento obrázek bude zobrazen na webu PlanB Network: ![book](assets/26.webp)
+- Otevře se nová stránka. Přetáhněte obrázek obálky vaší knihy do oblasti. Tento obrázek bude zobrazen na webu Plan ₿ Academy: ![book](assets/26.webp)
 - Buďte opatrní, obrázek musí být ve formátu knihy, aby co nejlépe odpovídal našemu webu, například: ![book](assets/27.webp)
 - Jakmile je obrázek nahrán, ujistěte se, že je zaškrtnuto políčko `Commit directly to the patch-1 branch` (Potvrdit přímo do větve patch-1), poté klikněte na `Commit changes` (Potvrdit změny): ![book](assets/28.webp)- Vezměte prosím na vědomí, že váš obrázek musí být pojmenován `cover_en`, pokud je obálka v angličtině a musí být ve formátu `.webp`. Tedy úplný název souboru by měl být `cover_en.webp`, `cover_fr.webp`, `cover_it.webp` atd. Pokud si přejete použít různé obrázky obálek pro každý jazyk, například v případě překladu knihy, můžete je umístit na stejné místo ve složce `assets`: ![book](assets/29.webp)
 - Vraťte se do vaší složky `assets` a klikněte na mezi soubor `.gitkeep`: ![book](assets/30.webp)
@@ -137,7 +137,7 @@ contributors:
 ![book](assets/43.webp)
 - Klikněte na tlačítko `Vytvořit pull request`:
 ![book](assets/44.webp)
-Gratulujeme! Váš PR byl úspěšně vytvořen. Administrátor jej nyní zkontroluje a pokud je vše v pořádku, sloučí ho do hlavního repozitáře PlanB Network. Vaši knihu byste měli na webu vidět o několik dní později.
+Gratulujeme! Váš PR byl úspěšně vytvořen. Administrátor jej nyní zkontroluje a pokud je vše v pořádku, sloučí ho do hlavního repozitáře Plan ₿ Academy. Vaši knihu byste měli na webu vidět o několik dní později.
 
-Nezapomeňte sledovat průběh vašeho PR. Administrátor může zanechat komentář s žádostí o dodatečné informace. Dokud váš PR není ověřen, můžete jej zobrazit na záložce `Pull requests` na GitHub repozitáři PlanB Network.
+Nezapomeňte sledovat průběh vašeho PR. Administrátor může zanechat komentář s žádostí o dodatečné informace. Dokud váš PR není ověřen, můžete jej zobrazit na záložce `Pull requests` na GitHub repozitáři Plan ₿ Academy.
 Děkujeme vám velice za váš cenný příspěvek! :)

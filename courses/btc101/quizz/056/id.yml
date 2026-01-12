@@ -1,10 +1,11 @@
-question: Berapa tingkat inflasi di Hongaria pada Juli 1946?
-answer: 41,900,000,000,000,000%
+question: Apa konsep matematika yang mengandalkan rasionalitas manusia dan digunakan dalam Bitcoin?
+answer: Teori permainan
 wrong_answers:
-  - 207%
-  - 50%
-  - 100%
+  - Teori probabilitas
+  - Teori bilangan
+  - Teori himpunan
 explanation: |
-  Bulan dengan inflasi tertinggi di Hongaria adalah Juli 1946, dengan rekor
-  inflasi harga sebesar 41,900,000,000,000,000%.
+  Teori permainan adalah konsep matematika yang mengandalkan rasionalitas manusia.
+  Dalam Bitcoin, para pengguna yang menerapkan perubahan protokol, membuat setiap modifikasi
+  pada protokol Bitcoin menjadi sangat kompleks. 
 reviewed: true

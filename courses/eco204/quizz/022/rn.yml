@@ -1,0 +1,10 @@
+question: Ni igiki nyamukuru kiranga ugutera imbere kw’ibiciro nk’uko Cagan abisobanura?
+answer: Igitigiri c'inflation kiri hejuru cane ku kwezi
+wrong_answers:
+  - Igitigiri c'inflation kiri hejuru cane ku mwaka
+  - Igitigiri c'inflation kiri hejuru cane mu ndwi
+  - Igitigiri c'inflation kiri hejuru cane ku musi
+explanation: |
+  Dushingiye ku nsobanuro ya Cagan, ugutera imbere cane kw’ibiciro kurangwa n’ugutera imbere kw’ibiciro .
+  igipimo c’ugutera imbere kw’ibiciro ku kwezi kirenze 50%.
+reviewed: false

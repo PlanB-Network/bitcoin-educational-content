@@ -1,0 +1,9 @@
+question: Hva er forskjellen mellom konsensusregler og stafettregler?
+answer: Konsensus definerer gyldighet, videreformidler spredning av transaksjoner
+wrong_answers:
+  - Konsensus definerer avgifter, relé definerer adresser
+  - Konsensus administrerer Blockchain, relé administrerer private nøkler
+  - Konsensus velger utvinnere, relé velger selgere
+explanation: |
+  Konsensusregler bestemmer hva som er gyldig i Bitcoin, mens reléregler styrer transaksjoner mellom noder.
+reviewed: true

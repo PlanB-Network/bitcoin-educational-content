@@ -1,5 +1,5 @@
 ---
-name: Criptomante
+name: Cryptomator
 description: Crittografia dei file nel cloud
 ---
 ![cover](assets/cover.webp)
@@ -10,7 +10,7 @@ ___
 
 
 
-*Questa esercitazione si basa su un contenuto originale di Florian BURNEL pubblicato su [IT-Connect](https://www.it-connect.fr/). Licenza [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Possono essere state apportate modifiche al testo originale
+*Questa esercitazione si basa su un contenuto originale di Florian BURNEL pubblicato su [IT-Connect](https://www.it-connect.fr/). Licenza [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Possono essere state apportate modifiche al testo originale.*
 
 
 
@@ -42,7 +42,7 @@ Cryptomator è un'alternativa ad altre applicazioni, in particolare Picocrypt pr
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 L'applicazione Cryptomator è disponibile su **Windows** (exe / msi), **Linux**, **macOS,** ma anche **Android** e **iOS**. Tra l'altro, tutte le applicazioni sono gratuite, tranne quella per Android, che è a pagamento (14,99 euro).
 
@@ -114,7 +114,7 @@ Successivamente, è possibile regolare un'opzione in Impostazioni esperto.
 
 
 
-Successivamente, è necessario definire **una password corrispondente alla chiave di crittografia**. Questa password vi permetterà di **sbloccare la vostra cassaforte Cryptomator** e di accedere ai suoi dati. **Se la perdete, perdete l'accesso ai vostri dati**. Infine, avete ancora la possibilità di **creare una chiave di backup** selezionando l'opzione "**Sì, meglio prevenire che curare**", nello stesso spirito della chiave di ripristino [BitLocker] (https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). È consigliabile, ma non memorizzate la chiave di backup nella root di OneDrive!
+Successivamente, è necessario definire **una password corrispondente alla chiave di crittografia**. Questa password vi permetterà di **sbloccare la vostra cassaforte Cryptomator** e di accedere ai suoi dati. **Se la perdete, perdete l'accesso ai vostri dati**. Infine, avete ancora la possibilità di **creare una chiave di backup** selezionando l'opzione "**Sì, meglio prevenire che curare**", nello stesso spirito della chiave di ripristino [BitLocker](https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). È consigliabile, ma non memorizzate la chiave di backup nella root di OneDrive!
 
 
 
@@ -162,7 +162,7 @@ Per sbloccare la cassaforte è necessario inserire la password. Quindi fare clic
 
 
 
-**Questa unità, che in questo caso eredita la lettera E, consente di accedere ai dati (in chiaro, poiché la cassaforte è sbloccata).
+**Questa unità, che in questo caso eredita la lettera E, consente di accedere ai dati (in chiaro, poiché la cassaforte è sbloccata).**
 
 
 
@@ -170,7 +170,7 @@ Per sbloccare la cassaforte è necessario inserire la password. Quindi fare clic
 
 
 
-Sul lato OneDrive, non possiamo sfogliare direttamente il vault di Cryptomator. Non possiamo vedere i dati (né i nomi dei file né i contenuti). Questo significa che non è necessario aggiungere i dati al vostro caveau Cryptomator tramite la solita scorciatoia di OneDrive. **Dovete aggiungere i vostri dati utilizzando l'unità virtuale di Cryptomator
+Sul lato OneDrive, non possiamo sfogliare direttamente il vault di Cryptomator. Non possiamo vedere i dati (né i nomi dei file né i contenuti). Questo significa che non è necessario aggiungere i dati al vostro caveau Cryptomator tramite la solita scorciatoia di OneDrive. **Dovete aggiungere i vostri dati utilizzando l'unità virtuale di Cryptomator.**
 
 
 

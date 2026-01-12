@@ -1,11 +1,13 @@
-question: Wat moet de belangrijkste zorg zijn als je Bitcoin bezit?
-answer: De veiligheid van je geld.
+question: Wat is het aanbevolen gebruik van een offline, of Cold, fysieke Wallet?
+answer: Grote hoeveelheden opslaan.
 wrong_answers:
-  - De waarde van Bitcoin in dollars.
-  - De legaliteit van het bezitten van bitcoins.
-  - De toestemming om je geld uit te geven.
+  - Dagelijkse uitgaven opslaan.
+  - Kleine hoeveelheden bewaren.
+  - Sparen op korte termijn.
 explanation: |
-  Als je bitcoins bezit, is de belangrijkste zorg de veiligheid
-  van je fondsen. Dit komt omdat Bitcoin, net als elke andere vorm van
-  valuta, gestolen of verloren kan worden als het niet goed beveiligd is.
+  Een offline, of Cold, fysieke Wallet wordt aanbevolen voor
+  voor het opslaan van grote bedragen, omdat deze minder kwetsbaar is voor
+  online bedreigingen dan Hot portemonnees. Het is echter niet
+  aanbevolen voor dagelijkse uitgaven, omdat het minder
+  toegankelijk is voor dagelijkse transacties.
 reviewed: true

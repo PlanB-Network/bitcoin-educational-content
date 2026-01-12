@@ -1,8 +1,8 @@
-question: BTCMap nedir?
-answer: Bitcoin kabul eden tüm tüccarları listeleyen bir platform.
+question: Aşağıdaki eylemlerden hangisi Bitcoin'ı günlük yaşamda kullanmak isteyenlere yardımcı olabilir?
+answer: Bitcoin kabul eden tüm tüccarların bir listesine sahip olun.
 wrong_answers:
-  - Dünyadaki tüm Bitcoin madenlerinin bir haritası.
-  - Dünyadaki tüm Bitcoin borsalarının bir haritası.
-  - Dünyadaki tüm Bitcoin kullanıcılarının bir haritası.
+  - Bitcoin'nin fiyatını artırın.
+  - Bitcoin sayısını azaltın.
+  - Bitcoin kullanımını sınırlandırın.
 explanation: >-
 reviewed: true

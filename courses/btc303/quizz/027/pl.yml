@@ -1,0 +1,9 @@
+question: Zgodnie z tym rozdziałem, co się dzieje, gdy nie dbasz o własne praktyki prywatności Bitcoin?
+answer: Może to również ograniczyć prywatność innych użytkowników Bitcoin
+wrong_answers:
+  - Wpływa to tylko na twoje własne transakcje i nie ma wpływu na innych
+  - Dzięki temu cała sieć Bitcoin jest bezpieczniejsza dla wszystkich
+  - Pomaga to poprawić ogólną anonimowość systemu Bitcoin
+explanation: |
+  Prywatność Bitcoin jest powiązana między użytkownikami. Gdy jedna osoba nie przestrzega swoich praktyk w zakresie prywatności, może to negatywnie wpłynąć na prywatność innych użytkowników, z którymi dokonuje transakcji. Dzieje się tak, ponieważ wzorce transakcji, grupowanie adresów i inne techniki analizy blockchain mogą ujawniać informacje o wielu stronach zaangażowanych w transakcje. Rozdział ten podkreśla, że podejmowane środki ochrony prywatności nie chronią tylko ciebie - pomagają również chronić szerszą społeczność Bitcoin, czyniąc prywatność zbiorową odpowiedzialnością, a nie tylko indywidualną troską.
+reviewed: false

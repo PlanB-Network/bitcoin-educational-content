@@ -1,13 +1,13 @@
-question: Wat is de Onafhankelijkheidsverklaring van Cyberspace?
-answer: Een tekst die beweert dat cyberspace een ander domein is dan de fysieke sfeer en niet aan dezelfde wetten moet worden onderworpen.
+question: Waarom werd goud het standaardmedium van Exchange?
+answer: Vanwege zijn zeldzaamheid, duurzaamheid en deelbaarheid.
 wrong_answers:
-  - Een verklaring dat Bitcoin onafhankelijk is van traditionele financiële systemen.
-  - Een tekst die beweert dat cyberspace moet worden gecontroleerd door overheidsregulering.
-  - Een verklaring die staat voor de onafhankelijkheid van de piratenbeweging van elke regelgeving.
+  - Vanwege de overvloed, duurzaamheid en ondeelbaarheid.
+  - Vanwege de zeldzaamheid, bederfelijkheid en deelbaarheid.
+  - Vanwege de overvloed, bederfelijkheid en ondeelbaarheid.
 explanation: |
-  De Onafhankelijkheidsverklaring van Cyberspace werd
-  geschreven door John Perry Barlow in 1996. Dit document stelt
-  dat cyberspace een aparte ruimte is ten opzichte van de fysieke
-  gebied is, zodat industriële overheden daar hun
-  autoriteit daar niet kunnen afdwingen.
+  Goud werd het standaardmedium van Exchange vanwege zijn
+  zeldzaamheid, duurzaamheid en deelbaarheid: de zeldzaamheid voorkwam
+  devaluatie door productie; de duurzaamheid
+  zorgde ervoor dat het na verloop van tijd niet zou eroderen, en de deelbaarheid
+  maakte het gebruik in transacties van verschillende grootte mogelijk.
 reviewed: true

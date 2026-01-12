@@ -1,9 +1,11 @@
-question: Co znamená absence mnemonické fráze v peněžence?
-answer: To znamená, že peněženka není bezpečná pro dlouhodobé uchovávání Bitcoinu.
+question: Jaká je role notáře v kontextu dědictví Bitcoinů?
+answer: Zajišťují dodržování daňových předpisů.
 wrong_answers:
-  - To znamená, že peněženka je plně bezpečná a nevyžaduje žádnou zálohu.
-  - To znamená, že peněženka může držet mnoho různých dluhopisů.
-  - Naznačuje to, že peněženka je automaticky zálohována vaším zařízením.
+  - Spravují vaše bitcoiny po vaší smrti.
+  - Modifikují váš plán dědictví.
+  - Zabezpečují vaše bitcoiny v trezoru.
 explanation: |
-  Absence seznamu 12 nebo 24 slov, což je mnemonická fráze, v peněžence by vás měla upozornit na to, že peněženka není bezpečná, protože nedodržuje standardní postupy zálohování.
-reviewed: true
+  V kontextu dědictví Bitcoinů je důležité
+  diskutovat o dědictví bitcoinů s notářem, aby bylo zajištěno
+  dodržování daňových předpisů.
+reviewed: false

@@ -1,78 +1,150 @@
 ---
-name: Breez bod prodeje
-
-description: Průvodce začátkem přijímání bitcoinů pomocí Breez POS
+name: Breez - POS
+description: Breez usnadňuje vybírání plateb v bitcoinech pro vaši firmu.
 ---
 
-![obálka](assets/cover.webp)
+![cover](assets/cover.webp)
 
-_Tento text pochází z webové dokumentace Breez: https://doc.breez.technology/How-to-Get-Started-with-Breez-POS.html_
 
-## Co je Breez POS?
 
-**Breez** je kompletní, nezákonná aplikace Lightning. Pojďme to rozložit:
+Od pandemie COVID-19 se bezkontaktní digitální platby rozšířily i v těch nejmenších obchodech. Během tohoto období mnoho podniků objevilo praktičnost řešení bitcoin cash, které jim umožňuje přijímat platby z celého světa. Tato řešení jsou však někdy obtížně použitelná nebo nevhodná pro malé podniky. V tomto návodu se podíváme na platební terminál Breez, řešení, které vyniká snadným používáním a zároveň poskytuje úplnou kontrolu nad správou bitcoinů.
 
-- **Lightning** je platební síť bitcoinu, která snižuje dobu transakcí z minut na milisekundy a poplatky za transakce z několika dolarů na několik centů nebo méně. Lightning proměňuje bitcoin z digitálního zlata na digitální měnu, přičemž zachovává všechny výhody, které dělají bitcoin skvělým.
-- **Nezákonný** znamená, že Breez nepřebírá držení peněz uživatelů. Mnoho aplikací Lightning přebírá držení peněz svých uživatelů. Jsou to v podstatě bitcoinové banky. S nezákonnou aplikací jako je Breez jsou všichni uživatelé svými vlastními bankami.
-- **Kompletní služba** znamená, že Breez se automaticky a na pozadí stará o téměř veškerou technickou operaci. Věci jako vytváření kanálů, příchozí likvidita a směrování zůstávají skryté. (Ale Breez je také open source, takže ti, kteří mají zájem o audit technologie, jsou vítáni!)
 
-**Breez POS** je zkratka pro náš režim bodu prodeje. Jinými slovy, Breez funguje jako digitální pokladna pro podniky a obchodníky, kteří chtějí přijímat platby Lightning (kromě svého "standardního" režimu, který je jako digitální verze kožené peněženky pro bitcoin, a přehrávač podcastů nové generace). Nyní se podívejme, jak nastavit Breez jako Lightning pokladnu pro váš podnik.
 
-## Jak začít s Breezem?
+## Instalace systému Breez POS
 
-1. Prvním krokem je stáhnout aplikaci. Je dostupná pro Android a iOS (nainstalujte TestFlight a klikněte na odkaz ze svého zařízení).
-2. Breez se může automaticky zálohovat na Google Drive, iCloud nebo na jakýkoliv server WebDav.
-   > Všimněte si, že každé zařízení provozuje vlastní Lightning uzl. Režim POS můžete provozovat na libovolném počtu zařízení, ale zůstatky zůstanou oddělené.
-3. S otevřenou aplikací klikněte na ikonu v levém horním rohu a najděte režim Bodu prodeje.
 
-## Nastavení POS
 
-1. Klikněte na tuto ikonu v levém horním rohu a klikněte na Bod prodeje > Nastavení POS.
+Breez POS je služba vlastní úschovy poskytovaná zařízením Breez wallet. Užitečnost této služby spočívá v tom, že umožňuje obchodníkům vybírat platby prostřednictvím Bitcoin, přičemž zůstává na jednoduchém rozhraní, velmi podobném různým peněženkám Lightning. Služba Breez POS je k dispozici ke stažení na platformách [Google Play Store](https://play.google.com/store/apps/details?id=com.breez.client) (Android) a [App Store](https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS).
 
-### Heslo manažera
 
-V nastavení POS máte možnost vytvořit heslo manažera. Heslo manažera znemožňuje odesílání odchozích plateb z aplikace Breez bez autorizace. Prodejní personál bude moci přijímat platby pouze z zařízení. Všimněte si, že pokud používáte tuto možnost, můžete také chtít zabránit přístupu k záloze Breez, takže použití externího účtu WebDav (např. Nextcloud) se doporučuje pro tento případ použití.
 
-### Seznam položek
+![download](assets/fr/01.webp)
 
-Seznam položek je katalog položek na prodej a jejich cen. Existují dva způsoby, jak přidat položky do seznamu:
 
-- Pro vložení položek jednu po druhé klikněte na Položky v horní části hlavního pohledu POS, poté na znaménko "+" v pravém dolním rohu. Zde můžete zadat název jednoho typu položky, cenu (zobrazenou v ekvivalentu měny dle vašeho výběru) a SKU (unikátní interní identifikátor pro tento typ položky; je volitelný).
-- Pro zadání více položek najednou klikněte na ikonu kalkulačky v levém horním rohu, poté na Bod prodeje > Předvolby > Nastavení POS a poté klikněte na tři tečky napravo od Seznamu položek a poté na Importovat z CSV. To vám umožní importovat připravený CSV soubor obsahující názvy, ceny a SKU vašich položek.
 
-### Zobrazení Fiat
+![setup](assets/fr/12.webp)
 
-Breez posílá a přijímá pouze bitcoin a u většiny transakcí na Lightning, které bývají za menší částky, je suma obvykle zobrazena v Satoshis, známých také jako sats (1 BTC = 100,000,000 sats). Mnoho obchodníků však považuje za praktické vidět (a sdělit zákazníkům) hodnotu nákupu zobrazenou v místní fiat měně.
 
-V hlavním zobrazení POS je měna, která je aktuálně zobrazena, viditelná na pravé straně (výchozí je SAT). K dispozici je také rozbalovací seznam dalších měn, které lze zobrazit. Pro přidání nebo odebrání měn z tohoto rozbalovacího seznamu klikněte na Bod prodeje > Předvolby > Fiat měny. Poté jednoduše zaškrtněte měny, které byste chtěli mít ve svém rozbalovacím menu, a odškrtněte ty, které byste chtěli vynechat.
 
-Zobrazené hodnoty pocházejí z yadio, respektovaného zdroje údajů o směnných kurzech, a jsou aktualizovány téměř v reálném čase. Ale pamatujte: bez ohledu na to, jaká hodnota měny je aktuálně zobrazena, platba sama je v bitcoinech.
+⚠️ Je třeba upozornit, že tyto aplikace jsou stále ve vývoji a že se v nich mohou vyskytovat chyby v používání funkcí. Doporučujeme umírněné používání.
 
-### Účtování objednávky
 
-Pro sestavení objednávky buď přidejte položky ze seznamu položek, nebo jednoduše zadejte sumu na klávesnici. Poté klikněte na Účtovat v horní části hlavního zobrazení POS. Uvidíte QR kód, který může zákazník naskenovat svou aplikací Lightning, který můžete přímo sdílet z jiné aplikace na vašem zařízení, nebo který můžete kopírovat a vkládat tam, kde je to potřeba.
 
-Po naskenování tohoto kódu nebo kliknutí na sdílenou/vloženou fakturu uvidí zákazník fakturu ve své aplikaci Lightning a bude mít možnost ji zaplatit a okamžitě uzavřít transakci.
+S touto aplikací vám Breez poskytuje úplnou kontrolu nad konfigurací sítě a nastavením poplatků a zároveň zaručuje vaši suverenitu při správě vašich bitcoinů.
 
-Jakmile uvidíte animaci Platba schválena! v aplikaci Breez na zařízení obchodníka, můžete kliknout na ikonu tiskárny, abyste vygenerovali účtenku pro zákazníka. Pro použití tiskárny účtenek v Androidu zkuste použít tento ovladač. Všimněte si, že můžete také tisknout předchozí transakce prostřednictvím obrazovky Transakce.
 
-### Zpráva o prodeji
 
-Pro zobrazení denního/týdenního/měsíčního reportu vašich prodejů (pro účely účetnictví nebo jiné), klikněte na ikonu v levém horním rohu a poté klikněte na Transakce. Klikněte na ikonu Reportu pro zobrazení reportu a na ikonu Kalendáře pro změnu vybraného časového rozmezí.
+Různé možnosti zařízení Breez wallet můžete prozkoumat podle našeho níže uvedeného návodu. Tento krok vám pomůže lépe porozumět ekosystému prodejních míst a osvojit si osvědčené postupy pro efektivní zabezpečení bitcoinů spojených s vaším seed.
 
-### Export transakcí
 
-Pro zobrazení seznamu přijatých plateb v Breez, klikněte na ikonu v levém horním rohu a poté klikněte na Transakce. Klikněte na tři tečky v pravém horním rohu, poté na Export pro export seznamu příchozích plateb ve formátu CSV. Pro omezení seznamu na určité časové období klikněte na ikonu kalendáře a nastavte časový rozsah.
 
-### Tisk účtenek
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-Pro tisk prodejní účtenky klikněte na ikonu tiskárny v pravém horním rohu dialogu potvrzení platby. Alternativně klikněte na ikonu v levém horním rohu a poté klikněte na Transakce. Najděte prodej, který chcete vytisknout, otevřete ho a klikněte na ikonu tiskárny v pravém horním rohu.
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-> Poznámka: použijte tento ovladač pro tisk na přenosnou 58mm/80mm Bluetooth/USB termální tiskárnu.
 
-## Chci se dozvědět více
+## Používání systému Breez POS
 
-- Pro více informací o Lightning a Breez, navštivte náš [blog](https://breez.technology/blog).
-- Pro další technické tipy, jak z aplikace získat maximum a provádět běžné operace, si prohlédněte naši [dokumentaci](https://breez.technology/documentation).
-- Pokud narazíte na problém a nenajdete odpověď v žádné z našich pomocných materiálů, můžete nás najít na [Telegramu](https://t.me/breez_labs) nebo nám poslat [email](mailto:support@breez.technology).
-- Pokud chcete vidět některá demonstrační videa režimu Breez POS v akci, která vytvořili naši fanoušci a uživatelé, [zde](https://www.youtube.com/watch?v=xxxx) je skvělé krátké video a [zde](https://www.youtube.com/watch?v=xxxx) je delší, podrobnější video.
+
+
+V tomto návodu se zaměříme na část "*Point-of-Sale*", abychom vám pomohli pochopit, jak ji integrovat jako platební prostředek ve vaší firmě.
+
+
+
+Prodejní místo je nedílnou součástí portfolia Breez a při výběru plateb se spoléhá především na Lightning Network.
+
+
+
+V nabídce "*Místo prodeje*" máte k dispozici přímé rozhraní pro výběr plateb. Je rozděleno na dvě části:
+
+
+
+### Přímé inkaso
+
+
+
+První částí je klávesnice pro přímé inkaso. Toto rozhraní se hodí pro inkaso platby v plné výši, pokud znáte celkové nákupy svých zákazníků nebo pokud ve svém podnikání nepotřebujete pevný katalog produktů (např. služby na volné noze).
+
+
+
+![keyboard](assets/fr/02.webp)
+
+
+
+Chcete-li poprvé použít pokladnu Breez, musíte zaplatit více než 2 500 satošů (podle dnešního kurzu asi 3 eura). Tato částka, kterou zaplatíte pouze při prvním výběru peněz, představuje náklady na vytvoření platebního kanálu, abyste mohli komunikovat s ostatními uzly Lightning Network a odesílat a přijímat satoši.
+
+
+
+![channel_fee](assets/fr/03.webp)
+
+
+### Katalog produktů
+
+
+
+Druhou částí je katalog produktů. Toto rozhraní je ideální, pokud máte katalog produktů s předem definovanými cenami. Zde si můžete přednastavit produkty a následně je použít pro faktury generate a zlepšit tak sledovatelnost vašich pokladních dokladů.
+
+
+
+![items](assets/fr/04.webp)
+
+
+
+V tomto rozhraní můžete ručně konfigurovat každou položku kliknutím na tlačítko "**Plus**" a následným definováním názvu, ceny a identifikátoru této položky.
+
+
+
+![add_items](assets/fr/05.webp)
+
+
+
+Poté jej můžete přidat a definovat jeho množství a vybrat související platbu.
+
+
+
+Pokud je váš katalog poměrně rozsáhlý, může být složité přidávat produkty jeden po druhém. Za tímto účelem můžete v sekci **Předvolby > Nastavení prodejního místa** v nabídce "Seznam položek" automaticky importovat a exportovat seznam položek ze souborů CSV.
+
+
+
+![import](assets/fr/07.webp)
+
+
+
+Ve stejné sekci můžete definovat dobu platnosti faktur Lightning. Od této chvíle mají vaši zákazníci u všech vašich faktur `N` sekund na provedení platby, jinak budete muset vygenerovat novou fakturu Lightning.
+
+
+
+![invoice_time](assets/fr/08.webp)
+
+
+
+Jako správce můžete posílit zabezpečení svých bitcoinů přidáním hesla, které bude vyžadováno pro všechny odchozí platby z vašeho účtu wallet. Tato funkce je užitečná zejména v případě, že nejste jediným správcem své pobočky.
+
+
+
+![manager](assets/fr/09.webp)
+
+
+
+V nabídce **Transakce** najdete seznam všech plateb, které jste inkasovali. Výsledky můžete také filtrovat za určité období kliknutím na tlačítko **Kalendář**.
+
+
+
+![transactions](assets/fr/10.webp)
+
+
+
+Kliknutím na tlačítko **Dokument** si také můžete zobrazit denní přehled svých tržeb a celkovou vybranou částku.
+
+
+
+![summary](assets/fr/11.webp)
+
+
+
+Nyní máte kompletní přehled o prodejním místě, které nabízí aplikace Breez pro bezproblémovou integraci Bitcoin do vašeho podnikání. Pokud pro vás byl tento návod užitečný, doporučujeme vám náš návod na be-BOP, platformu pro elektronické obchodování, která vám umožní přijímat platby v bitcoinech a zpeněžit vaše podnikání.
+
+
+
+https://planb.academy/tutorials/business/point-of-sale/be-bop-d8c40a3b-9090-48e7-9ba7-235d0c17e5fa

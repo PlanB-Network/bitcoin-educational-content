@@ -1,9 +1,9 @@
-question: Mis on esimese Bitcoin'i tehingu ploki number?
-answer: Plokk 170
+question: Mis on Bitcoin tehingu kinnituste arvu tähtsus?
+answer: Mida rohkem kinnitused tehingul on, seda muutumatumaks see muutub.
 wrong_answers:
-  - Plokk 1
-  - Plokk 17
-  - Plokk 1700
-explanation: |
-  Esimene Bitcoin'i tehing, mis oli 10 BTC ülekanne Satoshi Nakamoto ja Hal Finney vahel, on salvestatud plokis 170.
-reviewed: true
+  - Mida rohkem kinnitused tehingul on, seda väärtuslikumaks see muutub.
+  - Mida rohkem kinnitused tehingul on, seda kiiremini see töödeldakse.
+  - Mida rohkem kinnitused tehingul on, seda vähem turvaline see on.
+explanation: >-
+  Bitcoin tehingu kinnituste arv näitab, mitu plokki on kaevandatud tehingut sisaldava ploki peale. Mida rohkem kinnitused tehingul on, seda muutumatumaks see muutub.
+reviewed: false

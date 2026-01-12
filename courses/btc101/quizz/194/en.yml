@@ -1,12 +1,12 @@
-question: What is one tool for accepting Bitcoin for large organizations or passionate Bitcoin enthusiasts?
-answer: BTCpay Server.
+question: What is the purpose of KYC regulations?
+answer: To combat terrorism financing, tax evasion, and money laundering.
 wrong_answers:
-  - Bitcoin Wallet.
-  - Bitcoin Exchange.
-  - BTCpay Mining.
+  - To increase the price of Bitcoin and have the user pay more taxes.
+  - To control the supply of Bitcoin.
+  - To prevent people from buying Bitcoin.
 explanation: |
-  BTCpay Server is a tool for accepting Bitcoin for large
-  structures or passionate bitcoiners. Other solutions
-  include OpenNode for simple online businesses and Swiss
-  Bitcoin Pay for amateur merchants.
+  The course text explains that Know Your Customer (KYC)
+  regulations require users to provide identification to
+  combat terrorism financing, tax evasion, and money
+  laundering.
 reviewed: true

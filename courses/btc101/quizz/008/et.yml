@@ -1,10 +1,9 @@
-question: Mida tähendab see, et Bitcoin on neutraalne valuuta?
-answer: Seda ei kontrolli ükski üksus ega institutsioon.
+question: Mis on Küberruumi Iseseisvusdeklaratsioon?
+answer: Tekst, mis väidab, et küberruum on eraldiseisev valdkond füüsilisest sfäärist ja ei peaks alluma samadele seadustele.
 wrong_answers:
-  - Seda kontrollib üksik üksus või institutsioon.
-  - Seda reguleerib valitsus.
-  - Seda kasutatakse ainult neutraalsete tehingute jaoks.
+  - Iseseisvusdeklaratsioon Bitcoin'i eraldumisest traditsioonilistest finantssüsteemidest.
+  - Tekst, mis väidab, et internet peaks olema vaba valitsuse regulatsioonist.
+  - Iseseisvusdeklaratsioon piraatliikumise eraldumisest igasugusest regulatsioonist.
 explanation: |
-  Bitcoin on neutraalne valuuta, mis tähendab, et seda ei kontrolli ükski üksus
-  ega institutsioon ja iga kasutaja omab samu õigusi. See on selle detsentraliseerituse võtmeaspekt.
+  Küberruumi Iseseisvusdeklaratsiooni kirjutas John Perry Barlow 1996. aastal, väites, et küberruum on eraldiseisev valdkond füüsilisest sfäärist, mille üle tööstusriikide valitsused ei saa oma autoriteeti kehtestada.
 reviewed: true

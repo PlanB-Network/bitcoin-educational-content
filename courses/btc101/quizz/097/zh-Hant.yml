@@ -1,11 +1,12 @@
-question: 如果您的私人密碼匙暴露給第三方，會發生什麼情況？
-answer: 第三方可以花費您的 bitcoins。
+question: 在 Bitcoin 的上下文中，什麼不是 Mnemonic 詞組？
+answer: 您的 Bitcoin Wallet 的密碼。
 wrong_answers:
-  - 第三方只能查看您的交易記錄。
-  - 第三方可以變更您的私人密碼匙。
-  - 第三方可以存取您的個人資訊。
+  - 特定字典中的 12 個單字清單。
+  - 特定字典中的 24 個單字清單。
+  - 存取 Bitcoin 基金的秘訣。
 explanation: |
-  如果您的私人密碼匙透露給第三方，則相關的
-  相關的資金就不再安全，因為私密金鑰允許他們存取您的資金。
-  金鑰允許他們存取您的資金。
+  在 Bitcoin 的情況下，Mnemonic 詞組是由 12 或 24 個字組成的清單。
+  或 24 個單詞，可讓您在任何 Wallet
+  Bitcoin Wallet 應用程式。任何可以存取此清單的人
+  也可以存取您的 bitcoins。
 reviewed: true

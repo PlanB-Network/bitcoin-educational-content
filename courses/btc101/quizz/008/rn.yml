@@ -1,0 +1,13 @@
+question: Itangazo ry’Ukwikukira kw’Ikibanza c’Ikoranabuhanga ni irihe?
+answer: Icanditswe cemeza ko ikirere co kuri Internet ari ikibanza gitandukanye n’ikirere c’umubiri kandi ko kitakwiye gukurikizwa n’amategeko amwe.
+wrong_answers:
+  - Itangazo rivuga ko Bitcoin yigenga ku mice y’ivy’ubutunzi ya kera.
+  - Icanditswe cemeza ko urubuga rwa interineti rukwiye kugenzurwa n’amategeko ya leta.
+  - Itangazo ryemeza ko umuhari w’abasuma w’amato wigenga ku mategeko yose.
+explanation: |
+  Itangazo ry’Ukwikukira kw’Ivy’Ikoranabuhanga ryari 1990.
+  yanditswe na John Perry Barlow mu 1996. Iyi nyandiko yemeza ko .
+  ko ikibanza co kuri interineti ari ikibanza gitandukanye n’ikibanza c’umubiri .
+  n’uruzitiro, rero intwaro z’inganda ntizishobora gushitsa amategeko yazo .
+  ubukuru ng’aho.
+reviewed: true

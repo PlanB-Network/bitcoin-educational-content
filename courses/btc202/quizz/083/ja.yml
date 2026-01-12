@@ -1,0 +1,9 @@
+question: ビットコインコアをTorネットワーク経由でのみ接続させる設定はどれですか？
+answer: onlynet=onion
+wrong_answers:
+  - listenonion=1
+  - toronly=1
+  - net=tor
+explanation: |
+  onlynet=onionオプションは、Torネットワークへのすべての送信接続を制限し、listenonion=1は、受信Tor接続のみを許可できるようにします。
+reviewed: true

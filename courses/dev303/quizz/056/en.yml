@@ -1,0 +1,8 @@
+question: Which macro pattern syntax would correctly match zero or more expressions separated by commas in a custom function-like macro?
+answer: $($x:expr),*
+wrong_answers:
+  - $($x:expr)*,
+  - $[x:expr],*
+  - ${$x:expr},*
+explanation: |
+  The correct syntax $($x:expr),* uses Rust's repetition pattern where the dollar sign introduces a repetition group, $x:expr matches each expression with the expr fragment specifier, the comma acts as the separator between expressions, and the asterisk (*) indicates zero or more repetitions. The wrong answers contain syntax errors: $($x:expr)*, places the comma outside the repetition group, $[x:expr],* uses square brackets instead of parentheses and omits the dollar sign before x, and ${$x:expr},* uses curly braces instead of parentheses for the repetition group.

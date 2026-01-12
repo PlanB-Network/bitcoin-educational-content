@@ -1,0 +1,9 @@
+question: Jaký je hlavní důvod, proč je podle přístupu založeného na kontradiktorním myšlení nutné řešit všechny známé nedostatky v systému Bitcoin, a nikoli přijmout určitou míru rizika?
+answer: Bitcoin působí v pseudonymním online prostředí, kde mohou protivníci využívat slabých míst, aniž by byli přistiženi nebo pohnáni k odpovědnosti
+wrong_answers:
+  - "Formální bezpečnostní model Bitcoin vyžaduje matematický důkaz, že všechny potenciální vektory útoku byly eliminovány."
+  - Distribuovaná povaha systému Bitcoin znamená, že i malé nedostatky mohou vést k selhání celého systému ve všech uzlech
+  - "Pevná nabídka Bitcoin způsobuje, že na rozdíl od tradičních finančních systémů je ekonomicky neúnosné absorbovat ztráty z úspěšných útoků."
+explanation: |
+  Správná odpověď odráží klíčový poznatek Andrewa Poelstry o online systémech oproti fyzickým. Na rozdíl od budov, kde akceptujeme určité riziko a spoléháme se na vymáhání práva, Bitcoin funguje v pseudonymním prostředí, kde mohou útočníci jednat bez viditelnosti a následků. Tento zásadní rozdíl znamená, že každá známá slabina bude nevyhnutelně zneužita, takže komplexní zabezpečení je spíše nezbytné než volitelné řízení rizik.
+reviewed: false

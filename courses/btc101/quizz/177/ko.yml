@@ -1,0 +1,8 @@
+question: Bitcoin이 사라질 거품이 아닌 이유는 무엇인가요?
+answer: 실제로 전 세계 모든 곳에서 사용되는 화폐이기 때문입니다.
+wrong_answers:
+  - 실제로는 어디에도 사용되지 않기 때문입니다.
+  - 중앙 기관에 의해 통제되기 때문입니다.
+  - 위조하기 쉽기 때문입니다.
+explanation: >-
+reviewed: true

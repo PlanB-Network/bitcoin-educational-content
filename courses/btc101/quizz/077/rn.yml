@@ -1,0 +1,11 @@
+question: Ni igiki gikwiye kuba ikintu nyamukuru co kwitwararika iyo ufise Bitcoin?
+answer: Umutekano w’amahera yawe.
+wrong_answers:
+  - Agaciro ka Bitcoin mu madolari.
+  - Ivyemewe n’amategeko vyo kugira ama bitcoins.
+  - Uruhusha rwo gukoresha amahera yawe.
+explanation: |
+  Iyo ufise ama bitcoins, ikintu nyamukuru kiguhagaritse umutima ni umutekano .
+  y’amahera yawe. Ivyo ni kubera ko Bitcoin, cokimwe n’iyindi nzira yose .
+  y’amahera, ashobora kwibwa canke gutakazwa iyo ataco akora neza.
+reviewed: true

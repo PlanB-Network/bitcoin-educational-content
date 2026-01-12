@@ -1,9 +1,10 @@
-question: Qual è il principale vantaggio delle macchine specializzate SHA256, o ASIC, nel mining di Bitcoin?
-answer: Aumentano il tasso di hash per joule.
+question: Qual è stato un evento significativo nel mondo delle criptovalute nel 2017?
+answer: Il lancio di migliaia di Initial Coin Offerings (ICO).
 wrong_answers:
-  - Riducono il consumo energetico.
-  - Aumentano la velocità delle transazioni.
-  - Aumentano la sicurezza della rete.
+  - Il divieto di Bitcoin.
+  - La creazione di Bitcoin.
+  - La scomparsa di tutte le criptovalute.
 explanation: >-
-  Le macchine specializzate SHA256, o ASIC, aumentano il tasso di hash per joule nel mining di Bitcoin. Ciò equivale al numero di tentativi al secondo per energia consumata.
+  L'anno 2017 è stato segnato da una significativa bolla speculativa nel
+  mondo delle criptovalute, in particolare con il lancio di migliaia di Initial Coin Offerings (ICO).
 reviewed: true

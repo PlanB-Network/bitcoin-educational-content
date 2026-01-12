@@ -1,0 +1,9 @@
+question: 어떤 프로필이 비 KYC 획득과 보안성이 높은 지갑 사용을 선호하나요?
+answer: 편집증
+wrong_answers:
+  - 호들러
+  - 스태커
+  - 활성 사용자
+explanation: |
+  편집증 환자는 보안성이 높은 수집 및 저장 방법을 사용하여 개인 정보 보호와 보안을 우선시합니다.
+reviewed: false

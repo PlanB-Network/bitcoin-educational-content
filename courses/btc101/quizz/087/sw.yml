@@ -1,13 +1,14 @@
-question: Multisig Wallet ni nini?
-answer: Seti ya pochi inayohitaji saini nyingi ili kufanya muamala.
+question: Kuna hatari gani ya kutumia Multisig Wallet?
+answer: Kutokuwa na ufikiaji wa funguo za kibinafsi za kutosha au vipengee vya chelezo.
 wrong_answers:
-  - Wallet inayohitaji saini moja ili kufanya muamala.
-  - Wallet ambayo haihitaji saini ili kufanya muamala.
-  - Wallet ambayo inahitaji saini halisi ili kufanya shughuli.
+  - Kuwa na ufikiaji wa funguo za kibinafsi za kutosha au vipengee vya chelezo.
+  - Kushiriki funguo zako za faragha na wahusika wengine.
+  - Kushiriki funguo zako za umma na wahusika wengine.
 explanation: |
-  Multisig Wallet ni aina ya Bitcoin Wallet ambayo inahitaji
-  sahihi nyingi ili kufanya shughuli. Hii inaongeza
-  ziada Layer ya usalama, kama ina maana kwamba mtu mmoja
-  haiwezi kufanya shughuli bila idhini ya
-  wengine.
+  Unapotumia Multisig Wallet, kila ufunguo wa kibinafsi wa
+  Multisig inapaswa kuhifadhiwa katika maeneo tofauti. Hii ni
+  kwa sababu Multisig inahitaji saini nyingi kubeba
+  nje ya shughuli, hivyo idadi fulani ya pochi ni
+  inahitajika. Kwa hivyo, kuhifadhi kila sehemu katika eneo tofauti
+  inaongeza Layer ya ziada ya usalama.
 reviewed: true

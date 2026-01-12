@@ -1,0 +1,11 @@
+question: None AMF ni iki?
+answer: Ububasha bw’abahinga mu vy’amahera.
+wrong_answers:
+  - Ikigega c’amahera c’Abanyamerika.
+  - Ishirahamwe ry’Ibibanza vya Mining.
+  - Amahera Agenda Agenda.
+explanation: |
+  AMF, canke Ubutegetsi bw'Abakuru b'Ivy'Imari, ni igifaransa .
+  Ishirahamwe rigenzura ama platforms aho bitcoins zishobora kuba
+  yaguze.
+reviewed: true

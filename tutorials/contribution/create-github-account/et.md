@@ -27,7 +27,7 @@ Esmalt on oluline mõista, et GitHub on ehitatud Git'i peale (millest me eelmise
 
 Kujutage Git'i ette omamoodi logiraamatuna, mida iga arendaja kasutab oma arvutis kõigi oma projekti muudatuste salvestamiseks. GitHub seevastu on nagu avalik raamatukogu, kus kõiki neid logiraamatuid saab jagada, võrrelda ja ühendada.
 Git'i ja GitHub'i põhimõtteline erinevus seisneb nende funktsioonis: Git on tööriist, mida iga arendaja kasutab kohalikult oma koodiversioonide haldamiseks, samas kui GitHub on veebiplatvorm, mis majutab neid versioone ja hõlbustab koostööd.
-GitHub on palju enamat kui lihtsalt koodi majutamise teenus. See on koostööplatvorm, mis võimaldab arendajatel tõhusalt koos töötada. Ja tõepoolest, PlanB Network kasutab seda platvormi mitte ainult kogu veebisaidi jõustava koodi, vaid ka, ja see on meie jaoks huvipakkuv, kogu sisu (õpetused, koolitused, ressursid...) majutamiseks.
+GitHub on palju enamat kui lihtsalt koodi majutamise teenus. See on koostööplatvorm, mis võimaldab arendajatel tõhusalt koos töötada. Ja tõepoolest, Plan ₿ Academy kasutab seda platvormi mitte ainult kogu veebisaidi jõustava koodi, vaid ka, ja see on meie jaoks huvipakkuv, kogu sisu (õpetused, koolitused, ressursid...) majutamiseks.
 
 ## Mõned Tehnilised Terminid
 
@@ -57,8 +57,8 @@ Git'i ja GitHub'i kasutades kohtate käsklusi ja funktsioone, mille nimed võiva
 
 See nimekiri ei ole kaugeltki ammendav. On palju muid tehnilisi termineid, mis on spetsiifilised Git'ile ja GitHub'ile. Siiski mainitud siin on peamised, millega te sageli kokku puutute.
 Pärast selle artikli lugemist võib olla, et mõned aspektid Git'ist ja GitHub'ist on teile endiselt ebaselged. Julgustan teid neid tööriistu ise kasutama hakkama. Praktika on tihti parim viis mõista, kuidas masin töötab! Alustamiseks võite avastada need 2 teist õpetust:
-- **[Loo oma GitHubi konto](https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
-- **[Seadista oma kohalik keskkond, et panustada PlanB võrgustikku](https://planb.network/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
+- **[Loo oma GitHubi konto](https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)**
+- **[Seadista oma kohalik keskkond, et panustada PlanB võrgustikku](https://planb.academy/tutorials/contribution/others/github-desktop-work-environment-5862003b-9d76-47f5-a9e0-5ec74256a8ba)**
 
 ## Kuidas luua GitHubi kontot
 

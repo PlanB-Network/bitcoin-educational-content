@@ -1,0 +1,10 @@
+question: Ni gute ama aderesi akoreshwa mu gufunga ama UTXO?
+answer: Bishizwe muri ScriptPubKey .
+wrong_answers:
+  - Bishizwe muri ScriptSig .
+  - Bishirwa mu gice c’amahera.
+  - Nta hantu na hamwe bihuriye.
+explanation: |
+  Iyo umuntu yishuye, iyo nzira irema UTXO nshasha nk’umusaruro uva mu ma UTXO akoreshwa nk’ibintu vyinjizwa. Kuri iyo nsohoka, hashirwaho inyandiko isobanura ingene iyo UTXO ishobora gukoreshwa mu nyuma. Iyi nyandiko izwi nka ScriptPubKey. Address yakira iri muri iyi nyandiko.
+  
+reviewed: false

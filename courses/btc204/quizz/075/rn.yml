@@ -1,0 +1,10 @@
+question: Ni iyihe ntumbero nyamukuru y’ugucuruza CoinJoin?
+answer: Kugira ngo uce amateka ya Coin.
+wrong_answers:
+  - Kugira ngo amafaranga y’ugucuruza agabanuke.
+  - Kugira ngo bitcoins ntizimenyekane.
+  - Kugira ngo wongere umuvuduko wo kwemeza.
+explanation: |
+  Intumbero y'ugucuruza CoinJoin ni uguca amateka ya Coin. Ubu buhinga ntibutanga ubudasiba ubudasiba canke ngo bubuze ata gukeka gukurikirana ama bitcoins, bitandukanye n’ivyo umuntu yokwiyumvira. CoinJoin igamije gusa guca amateka ku ntumbero aho igikorwa ca CoinJoin gikorerwa.
+  
+reviewed: false

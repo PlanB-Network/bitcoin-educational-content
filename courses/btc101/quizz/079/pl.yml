@@ -1,11 +1,11 @@
-question: Jak wzmocnić domyślne zabezpieczenia Bitcoin Wallet?
-answer: Dodając passphrase do Bitcoin Wallet.
+question: Co to jest zimny portfel?
+answer: Wallet to fizyczne urządzenie, które przechowuje klucze i nie jest połączone z Internetem.
 wrong_answers:
-  - Dodając drugi klucz prywatny do Bitcoin Wallet.
-  - Dodając drugi klucz publiczny do Bitcoin Wallet.
-  - Dodając drugą frazę Mnemonic do Bitcoin Wallet.
+  - Portfel, który jest zimny w dotyku.
+  - Portfel, który jest niepopularny wśród użytkowników Bitcoina.
+  - Portfel, który jest zalecany do przechowywania niewielkich ilości bitcoinów.
 explanation: |
-  Jeśli nie jesteś zadowolony z domyślnego zabezpieczenia swojego
-  Bitcoin Wallet, zawsze można je wzmocnić, dodając moduł
-  passphrase do Bitcoin Wallet.
+  Zimny portfel to termin używany do opisania portfela,
+  który jest przechowywany na urządzeniu, które nie jest podłączone do Internetu. Dzięki temu jest mniej podatny na zagrożenia online,
+  ale oznacza to również, że jest on mniej dostępny do wykonywania codziennych transakcji.
 reviewed: true

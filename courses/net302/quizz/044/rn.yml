@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe nyamukuru DNS ifise mu bijanye n’ubwubatsi bwa Internet?
+answer: Gushushanya amazina y'indangarubuga kuri aderesi za IP
+wrong_answers:
+  - Gushiramwo amakuru hagati y'abarongozi
+  - Gutanga aderesi za MAC ku bikoresho
+  - Kugenzura ukwinjira kuri serveri z'urubuga
+explanation: |
+  DNS (Domain Name System) ihindura amazina y’indangarubuga ashobora gusomwa n’abantu mu ma aderesi IP y’imibare asabwa kugira ngo umuntu ashobore gukoresha inzira.
+reviewed: false

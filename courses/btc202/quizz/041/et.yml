@@ -1,0 +1,9 @@
+question: Milliseid isehostitavaid rakendusi saab Umbreli kaudu paigaldada?
+answer: Nextcloud
+wrong_answers:
+  - Google Drive
+  - Dropbox
+  - OneDrive
+explanation: |
+  Umbrel pakub App Store'i koos isehostivate teenustega, nagu Nextcloud, et faile ise salvestada ja sünkroonida.
+reviewed: true

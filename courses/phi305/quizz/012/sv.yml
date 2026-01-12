@@ -1,0 +1,9 @@
+question: Vad är moral för Gilles Deleuze?
+answer: Ett system för bedömning mellan det goda och det moraliska.
+wrong_answers:
+  - Ett religiöst initiativ.
+  - Resultatet av lagen.
+  - En bestående princip.
+explanation: |
+  För Gilles Deleuze är moral ett system av omdömen som klassificerar handlingar i gott och ont enligt transcendenta värden. Han kontrasterar detta mot den spinozistiska etiken, som utvärderar existensmodeller utifrån deras förmåga att agera.
+reviewed: false

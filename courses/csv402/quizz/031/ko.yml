@@ -1,0 +1,9 @@
+question: RGB 전송에서 Invoice으로 무엇을 할 수 있나요?
+answer: 거래 유형, 필요한 자산 수량, 수취인의 Seal Definition를 표시합니다
+wrong_answers:
+  - 에셋에 대한 새 Genesis 생성
+  - generate 에셋의 Business Logic를 수정하기 위해 새로운 Schema을 추가합니다
+  - Bitcoin 트랜잭션을 대체하기 위한 PSBT 구축
+explanation: |
+  Invoice은 거래 유형, 양도할 자산의 수량, 목적지(Seal Definition)를 발행자에게 알리는 데 사용됩니다.
+reviewed: false

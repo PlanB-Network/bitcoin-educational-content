@@ -1,13 +1,13 @@
-question: Wat is een Hot Wallet?
-answer: Een Bitcoin Wallet op je telefoon of computer met internetverbinding.
+question: Wat is het aanbevolen gebruik van een Multisig Wallet?
+answer: Grote hoeveelheden opslaan voor zakelijk gebruik.
 wrong_answers:
-  - Een Wallet die fysiek Hot is om aan te raken.
-  - Een Wallet die populair is onder Bitcoin gebruikers.
-  - Een Wallet die wordt aanbevolen voor het opslaan van grote hoeveelheden bitcoins.
+  - Kleine hoeveelheden opslaan voor persoonlijk gebruik.
+  - Middelgrote hoeveelheden opslaan voor gebruik zonder winstoogmerk.
+  - Dagelijkse uitgaven opslaan voor individueel gebruik.
 explanation: |
-  Een Hot Wallet is een term die gebruikt wordt om een Bitcoin Wallet te beschrijven
-  dat is opgeslagen op een apparaat met internettoegang, zoals een
-  telefoon of computer. Op deze manier is het gemakkelijk om
-  transacties uit te voeren, maar het betekent ook dat de Wallet
-  potentieel kwetsbaar is voor online bedreigingen.
+  Een Multisig Wallet wordt aanbevolen voor het opslaan van grote hoeveelheden
+  en voor zakelijk gebruik, omdat er meerdere
+  handtekeningen nodig zijn om een transactie uit te voeren. Dit proces voegt een
+  extra Layer beveiliging toe, omdat één persoon geen
+  transactie uitvoeren zonder de goedkeuring van anderen.
 reviewed: true

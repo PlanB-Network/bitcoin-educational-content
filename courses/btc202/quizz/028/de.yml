@@ -1,0 +1,9 @@
+question: Wodurch unterscheidet sich eine Pruned Node von einer Full Node?
+answer: Sie beseitigt nach und nach die alten Blöcke
+wrong_answers:
+  - Ältere Transaktionen werden nicht validiert
+  - Sie kann keine ganzen Blöcke weiterleiten
+  - Sie behält keine lokale Kopie der Blockchain, sondern nur das UTXO-Set
+explanation: |
+  Die Pruned Node validiert die gesamte Blockchain, behält aber nur einen Teil der jüngsten Blöcke bei, um den Speicherbedarf zu begrenzen.
+reviewed: true

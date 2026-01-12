@@ -1,8 +1,11 @@
-question: İsviçre Bitcoin Maaşı nedir?
-answer: Amatör tüccarların Bitcoin kabul etmesi için bir çözüm.
+question: Exchange platformunda Bitcoin satın aldıktan sonra ne yapmalısınız?
+answer: Bitcoinleri çekin ve Wallet'nize gönderin.
 wrong_answers:
-  - Bitcoin kabul eden bir İsviçre bankası.
-  - İsviçre'den bir Bitcoin Exchange.
-  - İsviçre'de çalışan bir Mining şirketi.
-explanation: >-
+  - Bitcoinleri platformda bırakın.
+  - Hemen bitcoin sat.
+  - Bitcoinleri başka bir Exchange platformuna aktarın.
+explanation: |
+  Kurs metni, Bitcoin'i satın aldıktan sonra
+  uTXO'ları Exchange platformlarından derhal geri çekmelidir
+  hackleme ve fon engelleme risklerini en aza indirmek için.
 reviewed: true

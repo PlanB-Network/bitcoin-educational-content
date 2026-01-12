@@ -31,7 +31,7 @@ In short, "spend" & "replace" seem to be the way forward. Participate in the dev
 **The Bitcoin Company** is like its competitor Bitrefill: it's a way of exchanging bitcoins for retail gift cards. You can practically live on a "standard Bitcoin" thanks to this type of solution, by creating a simple account.
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 The message couldn't be clearer: "Spend your Bitcoins Everywhere".
 
@@ -89,9 +89,9 @@ You then have several options for logging in. Either the classic email/password 
 If you're old school and want to find out how to easily create a secure mailbox and manage your passwords, I recommend you check out these 2 other tutorials:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 For our part, let's opt for "Sign in with Lightning".
 
@@ -118,7 +118,7 @@ So let's open our Wallet Phoenix, and scan the QR code shown. Once scanned, clic
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 Instantly, you're identified via your Wallet Lightning, which can be Phoenix or another of course, as most wallets on the market support this feature.
 
@@ -221,4 +221,4 @@ And there you have it, you now know how to spend your bitcoins without KYC at ma
 If you'd like to help popularize Bitcoin and encourage an independent merchant to adopt this payment method, I recommend you take a look at our comprehensive tutorial on Swiss Bitcoin Pay. It's an all-in-one solution for BTC payment processors, easy to install and manage on a day-to-day basis:
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

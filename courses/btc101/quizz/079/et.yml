@@ -1,10 +1,11 @@
-question: Kuidas saate tugevdada oma Bitcoini rahakoti vaikimisi turvalisust?
-answer: Lisades oma Bitcoini rahakotile paroolilause
+question: Mis on külm rahakott?
+answer: Füüsiline rahakott, kus sinu võtmed on salvestatud seadmesse, mis ei ole ühendatud internetiga
 wrong_answers:
-  - Lisades oma Bitcoini rahakotile teise privaatvõtme
-  - Lisades oma Bitcoini rahakotile teise avaliku võtme
-  - Lisades oma Bitcoini rahakotile teise mnemoonilise fraasi
+  - Rahakott, mis on füüsiliselt külm puudutada
+  - Rahakott, mis ei ole populaarne Bitcoin'i kasutajate seas
+  - Rahakott, mida soovitatakse väikeste koguste bitcoinide hoidmiseks
 explanation: |
-  Kui te ei ole rahul oma Bitcoini rahakoti vaikimisi turvalisusega,
-  saate seda alati tugevdada, lisades oma Bitcoini rahakotile paroolilause.
+  Külm rahakott on termin, mida kasutatakse Bitcoin'i rahakoti kirjeldamiseks, mis on salvestatud
+  seadmesse, mis ei ole ühendatud internetiga. See teeb selle vähem haavatavaks
+  online-ohtudele, kuid see tähendab ka, et rahakott on igapäevasteks tehinguteks vähem kättesaadav.
 reviewed: true

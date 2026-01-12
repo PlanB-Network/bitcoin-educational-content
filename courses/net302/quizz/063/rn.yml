@@ -1,0 +1,9 @@
+question: Ni iyihe ntumbero nyamukuru yo gushiramwo IPv6?
+answer: Tanga umwanya utagira aho ugarukira Address
+wrong_answers:
+  - Yongera ubushobozi bwa Ethernet n'incuro 4
+  - Buhoro buhoro usubirize TCP na UDP
+  - Kugabanya umubare wa bytes ku mpapuro
+explanation: |
+  Intumbero nyamukuru ya IPv6 ni ugutorera umuti ubukene bw’amaderesi ya IP mu kwagura cane ikibanza ca Address.
+reviewed: false

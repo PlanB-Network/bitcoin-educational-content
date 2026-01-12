@@ -30,7 +30,7 @@ ___
 
 
 
-Da biste pratili ovaj vodič, trebat će vam :
+Da biste pratili ovaj vodič, trebat će vam:
 
 
 
@@ -131,7 +131,7 @@ Sada ćemo obrisati sve podatke na našem USB stiku. Operacija se sastoji u popu
 
 
 
-**Uverite se da ciljate pravi uređajski fajl!
+**Uverite se da ciljate pravi uređajski fajl!**
 
 
 
@@ -173,7 +173,7 @@ Verify passphrase:
 
 
 
-Ovde, podkomanda "`luksFormat`" inicijalizuje i formatira uređaj za korišćenje LUKS enkripcije. Bićete upitani da potvrdite ovu operaciju tako što ćete uneti `YES` velikim slovima, zatim definišite *passphrase*. **Izaberite robustan *passphrase* kako biste osigurali da, u slučaju gubitka, napadač ne može da ga otkrije putem brute-force napada.
+Ovde, podkomanda "`luksFormat`" inicijalizuje i formatira uređaj za korišćenje LUKS enkripcije. Bićete upitani da potvrdite ovu operaciju tako što ćete uneti `YES` velikim slovima, zatim definišite *passphrase*. **Izaberite robustan** *passphrase* **kako biste osigurali da, u slučaju gubitka, napadač ne može da ga otkrije putem brute-force napada.**
 
 
 
@@ -213,7 +213,7 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 
 
 
-Ovde, "**usbkey1**" je ime koje dajem montiranoj particiji u mom kontekstu. Možete izabrati koje god želite. Zatim treba da formatiramo ovu particiju sadržanu u LUKS particiji, na primer, ovde kao **ext4** :
+Ovde, "**usbkey1**" je ime koje dajem montiranoj particiji u mom kontekstu. Možete izabrati koje god želite. Zatim treba da formatiramo ovu particiju sadržanu u LUKS particiji, na primer, ovde kao **ext4**:
 
 
 
@@ -353,7 +353,7 @@ To znači da možemo slobodno i transparentno pristupiti podacima na našem USB 
 
 
 
-Kada naša operacija bude završena, ne zaboravite da sve pravilno zatvorite kako bismo bili sigurni da ne oštetimo naš volumen. Prvi korak je demontiranje :
+Kada naša operacija bude završena, ne zaboravite da sve pravilno zatvorite kako bismo bili sigurni da ne oštetimo naš volumen. Prvi korak je demontiranje:
 
 
 

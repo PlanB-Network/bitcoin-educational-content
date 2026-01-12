@@ -1,0 +1,9 @@
+question: Mihin full node:n hajauttaminen viittaa Bitcoin:ssä?
+answer: Lohkojen validoinnin suorittavat verkon reunalla käyttäjät, eivät luotetut viranomaiset
+wrong_answers:
+  - Tapahtumien käsittely on hajautettu useiden mining-poolien kesken yhden yksikön sijaan
+  - Bitcoin-protokollan säännöistä päättää hajautettu ydinkehittäjien ryhmä
+  - Yksityiset avaimet tallennetaan useisiin eri laitteisiin yhden wallet:n sijasta
+explanation: |
+  Full node:n hajauttaminen tarkoittaa sitä, että lohkojen (louhijoiden tuottamien tietojen) validointi tapahtuu verkon reunalla yksittäisten käyttäjien toimesta, jotka käyttävät omia solmujaan, sen sijaan, että luotettaisiin muutamaan luotettuun viranomaiseen tapahtumien varmentamisessa. Tämä eroaa kaivostoiminnan hajauttamisesta, joka koskee transaktioiden tilaamista ja käsittelyä. Muut vaihtoehdot sekoittavat full node:n hajauttamisen mining:n jakeluun, hallintorakenteisiin tai turvallisuuskäytäntöihin, mutta mikään niistä ei tavoita verkon osallistujien suorittaman lohkojen hajautetun validoinnin ydinkonseptia.
+reviewed: false

@@ -1,12 +1,10 @@
-question: Apa perbedaan utama antara ide ekonomi Keynesian dan ekonomi Austria terkait dengan sistem moneter?
-answer: Ekonomi Keynesian tidak memperhitungkan aspek temporal dan dinamis dari situasi dan sumber daya
+question: Apa salah satu alasan Bitcoin mengalami begitu banyak gelembung spekulatif?
+answer: Karena Bitcoin adalah mata uang yang sebenarnya digunakan di seluruh dunia.
 wrong_answers:
-  - Ekonomi Keynesian mendorong konsumsi berlebihan dan utang
-  - Ekonomi Keynesian tidak mencerminkan kelangkaan sumber daya
-  - Ekonomi Keynesian mendorong inflasi
+  - Karena Bitcoin sebenarnya tidak digunakan di mana pun.
+  - Karena Bitcoin adalah gelembung yang akan hilang.
+  - Karena Bitcoin tidak terpengaruh oleh siklus ekonomi.
 explanation: >-
-  Perbedaan utama antara ide ekonomi Keynesian dan ekonomi Austria terkait dengan sistem moneter adalah bahwa ekonomi Keynesian tidak
-  memperhitungkan aspek temporal dan dinamis dari situasi dan sumber daya.
-  Dengan kata lain, mata uang yang tidak terbatas tidak dapat secara efektif mencerminkan sumber daya terbatas
-  dari planet kita.
+  Bitcoin mengalami banyak gelembung spekulatif karena merupakan mata uang
+  yang sebenarnya digunakan di seluruh dunia.
 reviewed: false

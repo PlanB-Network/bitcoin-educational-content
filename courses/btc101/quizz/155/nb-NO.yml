@@ -1,11 +1,10 @@
-question: Hvordan blir gruvearbeidere kompensert for sitt arbeid?
-answer: Gruvearbeidere blir kompensert gjennom belønningen inkludert i blokken og gjennom transaksjonsgebyrer.
+question: Hva er rollen til gruvearbeidere i Bitcoin-protokollen?
+answer: De sikrer det nåværende og historiske nettverket
 wrong_answers:
-  - Gruvearbeidere blir betalt av Bitcoin-nettverket.
-  - Gruvearbeidere mottar en fast lønn for sitt arbeid.
-  - Gruvearbeidere blir kompensert med nye bitcoins.
+  - De regulerer prisen på Bitcoin
+  - De kontrollerer tilbudet av Bitcoin
+  - De håndterer transaksjoner mellom brukere
 explanation: >-
-  Når en gruvearbeider lykkes med å utvinne en blokk, mottar de en belønning i
-  form av nye bitcoins. Denne belønningen er inkludert i blokken de utvant. I tillegg
-  mottar gruvearbeidere også transaksjonsgebyrer fra transaksjonene som er inkludert i blokken.
-reviewed: false
+  Gruvearbeidere i Bitcoin-protokollen sikrer både det nåværende og det historiske
+  nettverket. De regulerer ikke prisen på Bitcoin, kontrollerer ikke tilbudet, eller håndterer
+  transaksjoner mellom brukere.

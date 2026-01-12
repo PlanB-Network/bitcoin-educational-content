@@ -1,10 +1,10 @@
-question: Qual è una caratteristica unica del protocollo Bitcoin?
-answer: Funziona su scala globale, 24 ore su 24, 7 giorni su 7.
+question: Qual è una delle ragioni per cui il prezzo di Bitcoin può scendere del 10%, 20% o addirittura del 50% in pochi giorni?
+answer: Fasi di mercato rialziste e ribassiste.
 wrong_answers:
-  - Funziona solo durante l'orario d'ufficio.
-  - È controllato da un'autorità centrale.
-  - Può essere facilmente hackerato.
+  - Il numero di persone che utilizzano internet.
+  - Il meteo.
+  - Il prezzo dell'oro.
 explanation: >-
-  Il protocollo Bitcoin è unico nel suo funzionamento su scala globale,
-  24 ore su 24, 7 giorni su 7, rendendo difficile la regolamentazione da parte delle autorità finanziarie.
-reviewed: vero
+  Il prezzo di Bitcoin è spesso caratterizzato da una significativa volatilità,
+  che può essere influenzata dalle variazioni di mercato e dalle fasi di mercato rialziste e ribassiste.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ni ubuhe bugoyagoye bwavuzwe na ArtForz ku wa 28 Nyakanga 2010, bwatumye umuntu akoresha amafaranga y’ama bitcoins avuye kuri Address iyo ari yo yose akoresheje inyandiko yihariye?
+answer: The 1 RETURN bug
+wrong_answers:
+  - The value overflow bug
+  - The OP_NOP bug
+  - The LSHIFT bug
+explanation: |
+  Iryo kosa ntiryakoreshejwe nabi. Satoshi yaciye yihuta gushiramwo iyo nzira muri porogarama maze isaba ko abayikoresha bose boyisubiramwo.
+reviewed: true

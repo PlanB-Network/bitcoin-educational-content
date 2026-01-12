@@ -1,10 +1,10 @@
-question: What is a pruned node in the context of Bitcoin?
-answer: A node that only keeps the last N blocks in memory.
+question: What is the Lightning Network?
+answer: An instant Bitcoin payment network based on the Bitcoin blockchain.
 wrong_answers:
-  - A node that only validates transactions.
-  - A node that only transmits information to other nodes.
-  - A node that only enforces the rules of the Bitcoin protocol.
-explanation: >-
-  A pruned node in the context of Bitcoin is a node that only keeps the
-  last N blocks in memory.
+  - A separate blockchain network from the Bitcoin blockchain.
+  - A network of Bitcoin miners.
+  - A network of Bitcoin exchanges.
+explanation: |
+  The Lightning Network is an instant Bitcoin payment network
+  that is based on the Bitcoin blockchain.
 reviewed: true

@@ -1,77 +1,115 @@
 ---
-name: Breez point of sales
-
-description: Guide to start accepting bitcoin using Breez POS
+name: Breez - POS
+description: Breez makes it easy to collect bitcoin payments for your business.
 ---
 
 ![cover](assets/cover.webp)
-_This text comes from the Breez documentation website: https://doc.breez.technology/How-to-Get-Started-with-Breez-POS.html_
 
-## What is Breez POS?
 
-**Breez** is a full-service, non-custodial Lightning app. Let’s break that down:
+Since the COVID-19 pandemic, contactless digital payments have become widespread, even in the smallest shops. During this period, many businesses have discovered the practicality of bitcoin cash solutions, enabling them to receive payments from all over the world. However, these solutions are sometimes difficult to use or unsuitable for small businesses. In this tutorial, we'll be taking a look at the Breez payment terminal, a solution that stands out for its ease of use, while giving you total control over the management of your bitcoins.
 
-- **Lightning** is a bitcoin payment network that reduces transaction times from minutes to milliseconds and transaction fees from several dollars to a few cents or less. Lightning turns bitcoin from digital gold into digital currency while preserving all of the benefits that make bitcoin great.
-- **Non-custodial** means that Breez doesn’t take possession of users’ money. Many Lightning apps do take possession of their users’ money. They’re basically bitcoin banks. With a non-custodial app like Breez, all users are their own banks.
-- **Full-service** means that Breez takes care of almost all the technical operations automatically and in the background. Things like channel creation, inbound liquidity, and routing stay under the hood. (But Breez is also open source, so those interested in auditing the technology are welcome to do so!)
 
-**Breez POS** is short for our point-of-sale mode. In other words, Breez works like a digital cash register for businesses and merchants who want to accept Lightning payments (in addition to its "standard" mode, which is like the digital version of a leather wallet for bitcoin, and a next-generation podcast player). Now let’s look at how to set Breez up as a Lightning cash register for your business.
+## Install Breez POS
 
-## How to get started with Breez?
 
-1. The first step is to download the app. It’s available for Android and iOS (install TestFlight and click the link from your device).
-2. Breez can back itself up automatically to Google Drive, iCloud, or any WebDav server.
-   **Note:** each device runs its own Lightning node. You can run POS mode on as many devices as you’d like, but the balances will remain separate.
-3. With the app open, click on the icon at the top left to find the Point of Sale mode.
+Breez POS is a self-custody service provided by the Breez wallet. The utility of this service is to enable merchants to collect payments via Bitcoin while remaining on a simple interface, very similar to the various Lightning wallets. Breez POS is available on the [Google Play Store](https://play.google.com/store/apps/details?id=com.breez.client) (Android) and [App Store](https://apps.apple.com/app/breez-lightning-client-pos/id1463604142) (iOS) download platforms.
 
-## Setting up POS
 
-In order to set up the POS, click the icon at the top left, then click Point of Sale > POS Settings.
+![download](assets/fr/01.webp)
 
-### The Manager Password
 
-In the POS Settings, you have the option to create a manager password. The manager password makes it impossible to send outgoing payments from the Breez app without authorization. Sales staff will only be able to receive payments from the device. Note that if you're using this option, you might also want to prevent access to Breez's backup, so using an external WebDav account (e.g. Nextcloud) is recommended for this use case.
+![setup](assets/fr/12.webp)
 
-### The Items List
 
-The items list is a catalog of items for sale and their prices. There are two ways to add items to the list:
+⚠️ It is important to note that these applications are still under development and that there may be some errors in the use of the functionalities. We recommend moderate use.
 
-- To enter items one at a time, click on Items near the top of the main POS view, then on the "+" sign at the bottom right. Here you can enter the name of a single type of item, the price (displayed in the currency equivalent of your choice), and the SKU (a unique internal identifier for that type of item; it’s optional).
-- To enter many items at once, click on the calculator icon at the top left, then Point of Sale > Preferences > POS Settings, and then click on the three dots to the right of Items List, and then on Import from CSV. This will allow you to import a CSV file that you prepared in advance containing your items’ names, prices, and SKUs.
 
-### Fiat Display
+With this application, Breez gives you complete control over network configurations and fee settings, while guaranteeing your sovereignty in managing your bitcoins.
 
-Breez only sends and receives bitcoin, and for most transactions on Lightning, which tend to be for smaller amounts, the sum is usually displayed in Satoshis, a.k.a. sats (1 BTC = 100,000,000 sats). However, many merchants find it practical to be able to see (and tell customers) the value of the purchase displayed in the local fiat currency.
 
-In the main POS view, the currency currently being displayed is visible on the right side (default is SAT). There is also a drop-down list of other currencies available to display. To add or remove currencies from this drop-down list, click on Point of Sale > Preferences > Fiat Currencies. Then simply check the currencies you would like to have in your drop-down menu and uncheck those you would like to omit.
+You can explore the various Breez wallet options by following our tutorial below. This step will help you better understand the point-of-sale ecosystem and adopt best practices to effectively secure the bitcoins associated with your seed.
 
-The values displayed are from yadio, a respected outlet for exchange-rate data, and they’re updated in near real-time. But remember: whatever currency value is currently being displayed, the payment itself is in bitcoin.
 
-### Charging an Order
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-To compose the order, either add items from the item list or simply enter a sum in the keypad. Then click on Charge at the top of the main POS view. You will then see a QR code that the customer can scan with their Lightning app, that you can share directly from another app on your device, or that you can copy and paste where necessary.
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-On scanning that code or clicking on the shared/pasted invoice, the customer will see the invoice in their Lightning app and have the option to pay it and settle the transaction immediately.
 
-Once you see the Payment approved! animation in the Breez app on the merchant’s device, you can click on the printer icon to generate a receipt for the customer. To use a receipt printer in Android, try using this driver. Note that you can also print past transactions via the Transactions screen.
+## Using Breez POS
 
-### Sales Report
 
-To view a daily, weekly and/or monthly report of your sales (for accounting purposes or others), click on the icon in the top left, and then click on Transactions. Click on the Report icon to display the report and the Calendar icon to change the selected date range.
+In this tutorial, we'll focus on the "*Point-of-Sale*" section to help you understand how to integrate it as a means of payment in your business.
 
-### Exporting Transactions
 
-To view a list of the payments received in Breez, click on the icon in the top left, and then click on Transactions. Click on the three dots on the top right, then on Export to export a list of incoming payments in CSV format. To restrict the list to a certain period of time, click on the calendar icon to set a date range.
+The point of sale is an integral part of the Breez portfolio and relies primarily on the Lightning Network to collect payments.
 
-### Printing Receipts
 
-To print a sale receipt, click on the print icon on the top right of the payment confirmation dialog. Alternatively, click on the icon in the top left, and then click on Transactions. Locate the sale to print, open it, and click the top right print icon.
+In the "*Point of Sale*" menu, you have a direct interface for collecting payments. It is divided into two parts:
 
-**Note:** use this driver to print on a portable 58mm/80mm Bluetooth/USB thermal printer.
 
-## I want to learn more
+### Direct debit
 
-- For more information on Lightning and Breez, check out our [blog](https://breez.technology/blog).
-- For more technical tips on how to get the most out of the app and perform common operations, check out our [documentation](https://breez.technology/documentation).
-- If you get stuck and can’t find the answer in any of our help literature, you can find us on [Telegram](https://t.me/breez_labs) or send us an [email](mailto:support@breez.technology).
-- If you want to see some demonstration videos of the Breez POS mode in action made by our fans and users, [here](https://www.youtube.com/watch?v=xxxx) is a great short one, and [here](https://www.youtube.com/watch?v=xxxx) is a longer, more detailed one.
+
+The first part is the direct debit keyboard. This interface is handy for collecting a payment in full when you know your customer's total purchases, or when you don't need a fixed product catalog in your business (e.g. freelance services).
+
+
+![keyboard](assets/fr/02.webp)
+
+
+To use the Breez POS for the first time, you'll need to collect a payment of over 2,500 satoshis (around 3 euros at today's exchange rate). This amount, paid only on your first cash-out, represents the cost of creating a payment channel so that you can communicate with other Lightning Network nodes and send and receive satoshis.
+
+
+![channel_fee](assets/fr/03.webp)
+
+### Product catalog
+
+
+The second part is the product catalog. This interface is ideal when you have a product catalog with pre-defined prices. Here you can pre-configure your products and then use them to generate invoices to improve the traceability of your cash receipts.
+
+
+![items](assets/fr/04.webp)
+
+
+You can manually configure each item from this interface by clicking on the "**Plus**" button and then defining the name, price and an identifier for this item.
+
+
+![add_items](assets/fr/05.webp)
+
+
+You can then add it and define its quantity to collect the associated payment.
+
+
+When your catalog is quite large, it can become complicated to add your products one by one. For this purpose, in the **Preferences > Point of Sale Settings** section, from the "Item list" menu, you can automatically import and export your item list from CSV files.
+
+
+![import](assets/fr/07.webp)
+
+
+In this same section, you can define the validity period of your Lightning invoices. From now on, for all your invoices, your customers have `N` seconds to make their payment, failing which you'll have to regenerate a new Lightning invoice.
+
+
+![invoice_time](assets/fr/08.webp)
+
+
+As a manager, you can strengthen the security of your bitcoins by adding a password that will be required for all outgoing payments from your wallet. This feature is particularly useful when you're not the only one managing your outlet.
+
+
+![manager](assets/fr/09.webp)
+
+
+In the **Transactions** menu, you'll find a list of all the payments you've collected. You can also filter the results over a specific period by clicking on the **Calendar** button.
+
+
+![transactions](assets/fr/10.webp)
+
+
+You can also view a daily summary of your sales and the total amount collected by clicking on the **Document** button.
+
+
+![summary](assets/fr/11.webp)
+
+
+You now have a complete grasp of the point-of-sale offered by the Breez application for seamless integration of Bitcoin into your business. If you found this tutorial useful, we recommend our tutorial on be-BOP, an e-commerce platform that lets you take payments in bitcoins and monetize your business.
+
+
+https://planb.academy/tutorials/business/point-of-sale/be-bop-d8c40a3b-9090-48e7-9ba7-235d0c17e5fa

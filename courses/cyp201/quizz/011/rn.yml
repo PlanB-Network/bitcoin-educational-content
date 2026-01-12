@@ -1,0 +1,9 @@
+question: Ni igikorwa ikihe ca Hash gikoreshwa na HMAC mu bijanye na Bitcoin?
+answer: SHA512
+wrong_answers:
+  - SHA256
+  - RIPEMD160
+  - HASH160
+explanation: |
+  HMAC ikoresha SHA512 kugira ngo ikore Hash y'ibice 512 itekanye.
+reviewed: false

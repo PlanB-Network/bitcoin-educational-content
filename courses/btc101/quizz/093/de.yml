@@ -1,13 +1,12 @@
-question: Was müssen Sie sichern, wenn Sie eine Wallet mit einem Passwort verwenden?
-answer: Sie müssen sowohl die Liste der 12 oder 24 Wörter als auch Ihr Passwort sichern.
+question: Was deutet das Fehlen einer mnemonischen Phrase in einer Wallet an?
+answer: Es deutet darauf hin, dass die Wallet nicht sicher für die langfristige Aufbewahrung von Bitcoin ist.
 wrong_answers:
-  - Sie müssen nur die Liste der 12 oder 24 Wörter sichern.
-  - Sie müssen nur Ihr Passwort sichern.
-  - Sie müssen weder die Liste der 12 oder 24 Wörter noch Ihr Passwort sichern.
+  - Es deutet darauf hin, dass die Wallet vollständig sicher ist und keine Sicherung benötigt.
+  - Es bedeutet, dass die Wallet viele verschiedene Anleihen halten kann.
+  - Es legt nahe, dass die Wallet automatisch durch Ihr Gerät gesichert wird.
 explanation: |
-  Wenn Sie eine Wallet mit einem Passwort verwenden, müssen Sie
-  sowohl die Liste der 12 oder 24 Wörter als auch Ihr Passwort sichern,
-  da sowohl die Liste der Wörter als auch das Passwort notwendig sind,
-  um im Falle des Verlusts Ihres Telefons oder Computers wieder Zugang zu Ihren Mitteln zu erhalten. Ohne das eine oder das andere
-  sind die Mittel nicht zugänglich.
+  Das Fehlen einer Liste von 12 oder 24 Wörtern, das ist die
+  mnemonische Phrase, in einer Wallet sollte Sie alarmieren, dass die
+  Wallet nicht sicher ist, da sie nicht den Standard-Backup-
+  Verfahren folgt.
 reviewed: true

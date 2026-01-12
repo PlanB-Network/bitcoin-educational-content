@@ -1,0 +1,8 @@
+question: Ni irihe tandukaniro ry’intango ry’ubwubatsi hagati ya Blockstream AMP Version 1 na Version 2 ku bijanye n’ubwubatsi bw’ugucuruza n’ibisabwa ku nzira?
+answer: Verisiyo ya 2 ihindura ubugoyagoye kuri server ikora ivy’ubwubatsi bw’amafaranga kandi igaragaza abatanga amafaranga PSETs, igakuraho ivy’uguhuza full node
+wrong_answers:
+  - Verisiyo ya 2 isaba abatanga amakuru gukoresha ama node menshi ya Elements kugira ngo haboneke redundancy mu gihe Verisiyo ya 1 yasaba gusa guhuza node imwe
+  - Verisiyo ya 2 yimurira ibikorwa vyose vy'ububiko bw'amakuru mu bikoresho vy'umukiriya mu gihe Verisiyo ya 1 yakoze ibikorwa vyose vyo gusinya ku bikorwa remezo vya server
+  - Verisiyo ya 2 irakuraho igisabwa co gusinya hamwe burundu kandi iremeza ko umuntu ashobora gutanga amakuru ataco akora mu gihe Verisiyo ya 1 yasaba uruhusha rwa server ku bijanye n’ugucuruza kwose .
+explanation: |
+  Iterambere kuva kuri AMP Version 1 gushika kuri Verisiyo 2 rigereranya uguhinduka kw’ishimikiro kuva ku nzira y’‘umukiriya w’ubwenge, ibikorwa remezo bikomeye’ gushika ku buryo bw’‘umukiriya w’ubwenge, umukiriya woroshe’. Verisiyo 1 yasaba ko abatanga amakuru bagumana ama node ya Elements akora neza kandi bakizigira cane Green SDK, ivyo bikaba vyatuma haba intambamyi nyinshi mu vy’ubuhinga. Verisiyo ya 2 ijana uruhande rwa server y’uburemere, aho server ya AMP ikora ivy’ubwubatsi bw’ibikorwa, uguhitamwo UTXO, n’uguharura amafaranga, hanyuma igatanga abatanga amafaranga y’ibikorwa vya Elements vyashizweko umukono (PSETs) bisaba gusa imikono. Ivyo bikuraho ivy’uko hakenewe ama node yuzuye kandi bikaba bishoboka ko habaho ubufatanye bwa wallet busanzwe.

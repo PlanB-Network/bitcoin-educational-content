@@ -1,0 +1,11 @@
+question: 누구나 Bitcoin 코드를 복제할 수 있나요?
+answer: 예, 하지만 Bitcoin 네트워크의 값을 복사할 수 없습니다
+wrong_answers:
+  - 예, 그리고 Bitcoin 네트워크의 값도 복사합니다
+  - 아니요로 설정하면 Bitcoin 네트워크의 값을 복사할 수 있습니다
+  - 아니요, Bitcoin 코드는 비공개 소스이므로
+explanation: |
+  Bitcoin의 코드는 오픈 소스이며 복사가 가능하지만,
+  gW-5의 가치는 해당 코드에서 파생된 것이 아닙니다. 그것은 다음과 같은 것에서 파생됩니다
+  사용자 네트워크와 오랜 시간 동안 쌓아온 신뢰와 채택에서 비롯됩니다.
+reviewed: true

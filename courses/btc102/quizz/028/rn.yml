@@ -1,0 +1,9 @@
+question: Ni izihe mbuga uhamagariwe gukoresha mu kwirinda KYC igihe ugura bitcoins?
+answer: Imbuga zo guhanahana hagati y'abantu babiri
+wrong_answers:
+  - Imbuga zo guhanahana muri rusangi
+  - Imbuga zo guhanahana bitcoin-gusa
+  - Imbuga zo guhanahana zijanye n'ivy'ukudandaza
+explanation: |
+  Imbuga za P2P zituma abakoresha bagura ama bitcoins batiriwe barasabwa KYC.
+reviewed: false

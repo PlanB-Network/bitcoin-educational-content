@@ -1,0 +1,9 @@
+question: Who thinks that man can disturb Nature rather than be subjected to it?
+answer: Descartes.
+wrong_answers:
+  - Spinoza.
+  - Einstein.
+  - Saint-Augustin.
+explanation: |
+  Descartes believed that man can disturb Nature rather than undergo it. This dualistic vision pits man against nature, and suggests that we can rise above natural laws through our will.
+reviewed: false

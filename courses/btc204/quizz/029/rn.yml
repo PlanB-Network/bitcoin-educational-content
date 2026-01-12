@@ -1,0 +1,9 @@
+question: Muri ubwo buryo 4 bwo kuronka ama bitcoins, ni ubuhe bugutera ingorane zo kumenya urufunguzo?
+answer: Gugura muri P2P n'amahera
+wrong_answers:
+  - Gugura biciye ku rubuga rutegekanijwe ata KYC
+  - Gugura biciye ku rubuga rutegekanijwe na KYC
+  - Gugura biciye kuri PayPal biciye ku rubuga rwa P2P rwo gushaka abagenzi
+explanation: |
+  Gugura bitcoins peer-to-peer n’amahera ni uburyo bugutera ingorane nkeyi zo kumenya urufunguzo kuko bitasaba guca muri sosiyete itegekanijwe kandi nta n’akarongo bisiga muri sisitemu ya banki. Vyongeye, muri rusangi ubwo buryo ntibusaba ko umuntu atangaza amakuru yerekeye umuntu.
+reviewed: false

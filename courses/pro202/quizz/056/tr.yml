@@ -1,0 +1,8 @@
+question: P2SH ile sarılmış SegWit işlemlerinin doğrulama sırasında üç doğrulama kuralı katmanı kullanmasının temel nedeni nedir?
+answer: Fikir birliğini korurken BIP16 öncesi, BIP16 sonrası ve SegWit düğümleri arasında geriye dönük uyumluluğu sağlamak için
+wrong_answers:
+  - İşlemi kabul etmeden önce üç ayrı kriptografik kanıt gerektirerek güvenliği üç katına çıkarmak
+  - Ağ performansını ve ölçeklenebilirliği iyileştirmek için doğrulama iş yükünü farklı düğüm türlerine dağıtmak
+  - Aynı işlem verilerini üç bağımsız yöntemle doğrulayarak double-spending saldırılarını önlemek için
+explanation: |
+  P2SH ile sarılmış SegWit özellikle geriye dönük uyumluluk için üç doğrulama katmanı kullanır: BIP16 öncesi düğümler redeemScript'i geçerli olarak kabul eder, BIP16 sonrası düğümler OP_0 + hash'i yığında bırakarak değerlendirir ve SegWit düğümleri tam tanık doğrulaması yapar. Bu katmanlı yaklaşım, birincil motivasyon olarak güvenlik çarpımı, performans dağıtımı veya çift harcama önleme öneren yanlış cevapların aksine, tüm düğüm türlerinin bozulmadan fikir birliğine katılabilmesini sağlar.

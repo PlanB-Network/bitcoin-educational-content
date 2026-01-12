@@ -1,0 +1,10 @@
+question: Whirlpool CoinJoin 풀에 들어갈 수 없는 UTXO에 사용되는 계정 이름은 무엇인가요?
+answer: 독성 변경 계정.
+wrong_answers:
+  - 포스트믹스 계정.
+  - 프리믹스 계정.
+  - 입금 계좌.
+explanation: |
+  풀에 참여하지 못한 변경 사항은 Wallet의 다른 UTXO와 엄격하게 분리하기 위해 'doxxic 변경 계정'에 격리됩니다.
+  
+reviewed: true

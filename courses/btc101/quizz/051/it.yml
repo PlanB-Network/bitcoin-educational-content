@@ -1,10 +1,11 @@
-question: Qual è l'impatto di un'inflazione del 2% sul potere d'acquisto in 5 anni?
-answer: Si perde il 10% del proprio potere d'acquisto.
+question: Cosa è successo al dollaro dello Zimbabwe nell'aprile 2009?
+answer: Il Ministro delle Finanze ha annunciato la sospensione del dollaro dello Zimbabwe e ha autorizzato l'uso di diverse valute estere per il commercio.
 wrong_answers:
-  - Si perde il 2% del proprio potere d'acquisto.
-  - Si perde il 5% del proprio potere d'acquisto.
-  - Si perde il 20% del proprio potere d'acquisto.
+  - Il dollaro dello Zimbabwe è crollato di oltre il 72%.
+  - Il governo ha accettato di compensare i veterani di guerra per un importo equivalente a 450 milioni di dollari USA.
+  - Il governo ha dovuto ricorrere all'uso della stampante per la produzione di denaro.
 explanation: |
-  Con un'inflazione del 2%, si perde il 2% del proprio potere d'acquisto
-  annualmente, il che equivale al 10% in 5 anni.
+  Nell'aprile 2009, il Ministro delle Finanze ha annunciato la
+  sospensione del dollaro dello Zimbabwe e ha autorizzato l'uso
+  di diverse valute estere per il commercio.
 reviewed: true

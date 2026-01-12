@@ -1,0 +1,9 @@
+question: Jaké je podle výpočtů Pietera Wuilleho maximální teoretické množství Bitcoin, které kdy bude existovat po vytěžení všech mincí?
+answer: 20 999 999,9769 BTC
+wrong_answers:
+  - přesně 21 000 000,0000 BTC
+  - 20 999 817,3131 BTC
+  - 20 500 000,0000 BTC přibližně
+explanation: |
+  Pieter Wuille vypočítal, že teoretická maximální nabídka je 20 999 999,9769 BTC, což je o něco méně než běžně uváděných 21 milionů. Je to způsobeno specifickým rozpisem půlení a zaokrouhlováním v kódu Bitcoin. Údaj 21 milionů je zaokrouhlenou aproximací. Číslo 20 999 817,3131 představuje skutečnou nabídku v oběhu po započtení ztracených mincí a chyb mining až do konkrétního bloku, nikoli teoretické maximum.
+reviewed: false

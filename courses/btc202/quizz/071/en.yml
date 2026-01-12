@@ -1,0 +1,9 @@
+question: Which files does a node consult first to find its old peers on reboot?
+answer: anchors.dat and peers.dat
+wrong_answers:
+  - Mempool.dat and peers.dat
+  - Mempool.dat and ip.dat
+  - ip.dat and anchors.dat
+explanation: |
+  Bitcoin Core first consults anchors.dat (previous outgoing peers), then peers.dat (known address book) to reconnect.
+reviewed: true

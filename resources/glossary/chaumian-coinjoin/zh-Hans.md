@@ -12,7 +12,7 @@ term: CHAUMIAN COINJOIN
 
 很难确定是谁最先在比特币上提出了 “混币”（coinjoin）的概念，也很难确定是谁最先想到在比特币上使用 David Chaum 的盲签名（blind signatures）。人们通常认为 Gregory Maxwell 在[2013 年 BitcoinTalk 上的一条消息](https://bitcointalk.org/index.php?topic=279249.0)中首先讨论了这个问题：
 
-> *"通过使用Chaum盲签名：用户连接并提供输入（和更改地址）以及他们想要发送私人硬币的地址的加密盲版；服务器签署代币并将其返回。用户以匿名方式重新连接，解除对输出地址的屏蔽，并将其返回给服务器。服务器可以看到所有输出都已由他签名，因此所有输出都来自有效的参与者。之后，人们重新连接并签名。
+> *"通过使用Chaum盲签名：用户连接并提供输入（和更改地址）以及他们想要发送私人硬币的地址的加密盲版；服务器签署代币并将其返回。用户以匿名方式重新连接，解除对输出地址的屏蔽，并将其返回给服务器。服务器可以看到所有输出都已由他签名，因此所有输出都来自有效的参与者。之后，人们重新连接并签名。"*
 Maxwell, G. (2013, August 22). *CoinJoin：现实世界的比特币隐私*.BitcoinTalk Forum. https://bitcointalk.org/index.php?topic=279249.0
 
 不过，还有其他更早的说法，既有在混合中使用Chaum签名的，也有使用硬币接合的。[2011年6月，Duncan Townsend 在 BitcoinTalk](https://bitcointalk.org/index.php?topic=12751.0)上引进了一种混合器，它使用 Chaum 签名的方式与现代的 Chaumian coinjoin 十分相似。在同一主题中，有[一条来自哈希币的回复Duncan Townsend的信息](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793)来改进他的混币器。这条信息恰恰提出了与硬币接合最相似的地方。在 [Alex Mizrahi 2012 年的一条信息](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry) 中也提到了类似的系统，当时他正在为 Tenebrix 的创建者提供建议。coinjoin 这一词本身并不是 Greg Maxwell 发明的，而是来自 Peter Todd 的一个想法。

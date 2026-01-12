@@ -1,5 +1,5 @@
 ---
-name: Bitcoin कंपनी
+name: The Bitcoin Company
 description: मैं Bitcoin कंपनी के साथ BTC में सामान और सेवाएं कैसे खरीद सकता हूं?
 ---
 ![cover](assets/cover.webp)
@@ -40,7 +40,7 @@ Bitcoin का यही मतलब है, बिना किसी की �
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 संदेश इससे अधिक स्पष्ट नहीं हो सकता था: "अपने बिटकॉइन हर जगह खर्च करें"।
 
@@ -117,9 +117,9 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 हमारी ओर से, आइए "लाइटनिंग के साथ साइन इन करें" का विकल्प चुनें।
 
@@ -154,7 +154,7 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 तुरन्त ही, आपकी पहचान आपके Wallet लाइटनिंग के माध्यम से हो जाती है, जो कि फीनिक्स या कोई अन्य हो सकता है, क्योंकि बाजार में अधिकांश वॉलेट इस सुविधा का समर्थन करते हैं।
 
@@ -291,4 +291,4 @@ Invoice का भुगतान हो जाने के बाद, आप�
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

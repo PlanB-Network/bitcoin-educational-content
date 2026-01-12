@@ -6,15 +6,15 @@ description: Cài đặt và sử dụng ví Muun
 
 ![cover](assets/cover.webp)
 
-Muun (https://muun.com/) là một ví tự quản lý (self - custodial) dùng cho Bitcoin và Lightning.
+[Muun](https://muun.com/) là ví tự lưu ký cho bitcoin và lightning.
 
-## video hướng dẫn
+## Hướng dẫn video
 
 ![video tutorial](https://youtu.be/t1rxp8InZW8)
 
 ## Hướng dẫn sử dụng ví Muun toàn tập
 
-Hướng dẫn sử dụng đầy đủ (kèm ảnh chụp màn hình) cho ứng dụng Muun; một ví Bitcoin trên di động thân thiện với người dùng, cho phép bạn thực hiện giao dịch trên Lightning Network.
+Hướng dẫn sử dụng đầy đủ (có ảnh chụp màn hình) cho ứng dụng Muun; một ví Bitcoin di động thân thiện với người dùng cho phép bạn giao dịch trên Mạng Lightning.
 
 ![image](assets/0.5.webp)
 
@@ -117,15 +117,15 @@ Dưới đây là hướng dẫn:
 
 Thủ tục khẩn cấp này sẽ giúp bạn khôi phục số tiền của mình nếu bạn không thể sử dụng Muun trên thiết bị của mình.
 
-1. Tìm mã khôi phục của bạn (Recovery Code)
+- Tìm mã khôi phục của bạn
 
 Bạn đã viết mã này trên một tờ giấy trước khi tạo bộ dụng cụ khẩn cấp của mình. Bạn sẽ cần nó sau này.
 
-2. Tải công cụ khôi phục
+- Tải xuống công cụ khôi phục
 
 Truy cập trang https://github.com/muun/recovery và tải công cụ này về máy tính của bạn.
 
-3. Khôi phục số tiền của bạn
+- Khôi phục tiền của bạn
 
 Chạy công cụ khôi phục và làm theo các bước. Công cụ sẽ chuyển số tiền của bạn đến một địa chỉ Bitcoin theo lựa chọn của bạn.
 

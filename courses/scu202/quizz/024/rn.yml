@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe nyamukuru rw’ikibanza c’ibiro ca Linux?
+answer: Gutanga Interface y’ibicapo
+wrong_answers:
+  - Gucungera gutangura kwa sisiteme
+  - Gukoranya kernel ya Linux
+  - Gukingira imigera nyabwonko
+explanation: |
+  Ikibanza c’ibiro gikoranya ibintu bigaragara n’ibikoreshwa (amadirisha, menu, ibicapo, ibipande, n’ibindi) kugira ngo bishobore gutuma uwukoresha ashobora kubikoresha mu kuganira na sisiteme mu buryo bugaragara.
+reviewed: true

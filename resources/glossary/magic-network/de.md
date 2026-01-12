@@ -25,4 +25,4 @@ f9beb4d9
 fabfb5da
 ```
 
-> ► *Diese 4 Bytes werden manchmal auch als "Magic Number", "Magic Bytes" oder "Start String" bezeichnet
+> ► *Diese 4 Bytes werden manchmal auch als "Magic Number", "Magic Bytes" oder "Start String" bezeichnet*

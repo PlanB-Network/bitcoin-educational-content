@@ -30,7 +30,7 @@ WireGuard je relativno nedavno rešenje, dostupno kao stabilna verzija od marta 
 
 
 
-Neke ključne tačke o WireGuard-u :
+Neke ključne tačke o WireGuard-u:
 
 
 
@@ -95,15 +95,15 @@ U ovom primeru, fokusiraću se na sledeći slučaj: **sa mog Windows Peer 1 pove
 
 
 
-U smislu IP adresa, ovo daje :
+U smislu IP adresa, ovo daje:
 
 
 
 
 
-- Kućna mreža**: 192.168.1.0/24
-- Korporativna mreža**: 192.168.100.0/24
-- WireGuard tunnel network**: 192.168.110.0/24
+- **Kućna mreža**: 192.168.1.0/24
+- **Korporativna mreža**: 192.168.100.0/24
+- **WireGuard tunnel network**: 192.168.110.0/24
 
 
 + IP Address Peera 1 (Windows) u tunelu: 192.168.110.2/24
@@ -117,7 +117,7 @@ To je sve što treba uraditi! Hajde da pređemo na konfiguraciju!
 
 
 
-**Napomena: po defaultu, WireGuard radi u UDP modu na **portu 51820**.
+**Napomena: po defaultu, WireGuard radi u UDP modu na portu 51820.**
 
 
 
@@ -219,10 +219,10 @@ Sekcija `[Interface]` se koristi za deklarisanje serverskog dela. Ovde su neke i
 
 
 
-- Address**: IP Address WireGuard-a Interface unutar VPN tunela (drugačija podmreža od udaljenog LAN-a)
-- SaveConfig**: konfiguracija se čuva (i zaštićena je) sve dok je Interface aktivan
-- ListenPort**: WireGuard-ov port za slušanje. U ovom slučaju, 51820 je podrazumevani port, ali ga možete prilagoditi po želji.
-- PrivateKey**: vrednost privatnog ključa našeg servera (*wg-private.key*)
+- **Address**: IP Address WireGuard-a Interface unutar VPN tunela (drugačija podmreža od udaljenog LAN-a)
+- **SaveConfig**: konfiguracija se čuva (i zaštićena je) sve dok je Interface aktivan
+- **ListenPort**: WireGuard-ov port za slušanje. U ovom slučaju, 51820 je podrazumevani port, ali ga možete prilagoditi po želji.
+- **PrivateKey**: vrednost privatnog ključa našeg servera (*wg-private.key*)
 
 
 
@@ -236,7 +236,7 @@ sudo wg-quick up wg0
 
 
 
-Ako navedete IP adrese vašeg Debian 11 servera, videćete novi Interface nazvan "wg0" sa IP Address definisanim u konfiguracionoj datoteci :
+Ako navedete IP adrese vašeg Debian 11 servera, videćete novi Interface nazvan "wg0" sa IP Address definisanim u konfiguracionoj datoteci:
 
 
 
@@ -264,7 +264,7 @@ sudo wg show wg0
 
 
 
-Konačno, treba da aktiviramo automatsko pokretanje našeg Interface wg0 WireGuard :
+Konačno, treba da aktiviramo automatsko pokretanje našeg Interface wg0 WireGuard:
 
 
 
@@ -286,7 +286,7 @@ Da bi naš Debian 11 mašina mogla **rutirati pakete između različitih mreža 
 
 
 
-Izmenite ovu konfiguracionu datoteku :
+Izmenite ovu konfiguracionu datoteku:
 
 
 
@@ -296,7 +296,7 @@ sudo nano /etc/sysctl.conf
 
 
 
-Dodajte sledeću direktivu na kraj datoteke i sačuvajte :
+Dodajte sledeću direktivu na kraj datoteke i sačuvajte:
 
 
 
@@ -318,7 +318,7 @@ Da bi naš server ispravno rutirao pakete i da bi udaljeni LAN bio dostupan Wind
 
 
 
-Ako već nemate UFW i želite da ga postavite (takođe možete koristiti Nftables), počnite instaliranjem :
+Ako već nemate UFW i želite da ga postavite (takođe možete koristiti Nftables), počnite instaliranjem:
 
 
 
@@ -372,7 +372,7 @@ Dodajte ove linije na kraj datoteke da **omogućite IP maskiranje na Interface e
 
 ```
 # NAT - IP masquerade
-*nat
+*nat*
 :POSTROUTING ACCEPT [0:0]
 -A POSTROUTING -o ens192 -j MASQUERADE
 
@@ -382,7 +382,7 @@ COMMIT
 
 
 
-Slika prikazuje :
+Slika prikazuje:
 
 
 
@@ -490,7 +490,7 @@ Moramo dovršiti ovu konfiguraciju, posebno da deklariramo IP Address na ovom In
 
 
 
-Hajde da počnemo sa blokom `[Interface]`, dodajući IP Address "**192.168.110.2**"; zapamti da server ima IP Address "**192.168.110.121**" na ovom segmentu mreže. Ovo daje :
+Hajde da počnemo sa blokom `[Interface]`, dodajući IP Address "**192.168.110.2**"; zapamti da server ima IP Address "**192.168.110.121**" na ovom segmentu mreže. Ovo daje:
 
 
 
@@ -515,7 +515,7 @@ Endpoint = <ip-serveur-debian>:51820
 
 
 
-Na slikama :
+Na slikama:
 
 
 
@@ -523,15 +523,15 @@ Na slikama :
 
 
 
-**Nekoliko objašnjenja o [Peer] bloku:
+**Nekoliko objašnjenja o [Peer] bloku:**
 
 
 
 
 
-- PublicKey**: ovo je javni ključ WireGuard Debian 11 servera (možete dobiti njegovu vrednost pomoću "*sudo wg*" komande)
-- AllowedIPs**: ovo su IP adrese / podmreže dostupne putem ove WireGuard VPN mreže, u ovom slučaju podmreža specifična za moj WireGuard VPN (*192.168.110.0/24*) i moja udaljena LAN mreža (*192.168.100.0/24*)
-- Endpoint**: ovo je IP Address Debian 11 hosta, pošto je ovo naša WireGuard tačka povezivanja (moraćete da navedete javni IP Address)
+- **PublicKey**: ovo je javni ključ WireGuard Debian 11 servera (možete dobiti njegovu vrednost pomoću "*sudo wg*" komande)
+- **AllowedIPs**: ovo su IP adrese / podmreže dostupne putem ove WireGuard VPN mreže, u ovom slučaju podmreža specifična za moj WireGuard VPN (*192.168.110.0/24*) i moja udaljena LAN mreža (*192.168.100.0/24*)
+- **Endpoint**: ovo je IP Address Debian 11 hosta, pošto je ovo naša WireGuard tačka povezivanja (moraćete da navedete javni IP Address)
 
 
 
@@ -663,7 +663,7 @@ Sa mog udaljenog računara mogu pingovati IP Address mog Interface WireGuard na 
 
 
 
-Sa mog udaljenog računara povezanog na moj WireGuard VPN, uspeo sam da pristupim fajl serveru i prenesem fajl putem [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/), da vidim brzinu prenosa. **Sa WireGuard-om, dostižem maksimalno oko 45 Mb/s, što je odlično, s obzirom da sam na WiFi-u.
+Sa mog udaljenog računara povezanog na moj WireGuard VPN, uspeo sam da pristupim fajl serveru i prenesem fajl putem [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/), da vidim brzinu prenosa. **Sa WireGuard-om, dostižem maksimalno oko 45 Mb/s, što je odlično, s obzirom da sam na WiFi-u.**
 
 
 
@@ -691,7 +691,7 @@ Sa trenutnom konfiguracijom, deo saobraćaja prolazi kroz VPN, a ostatak kroz ko
 
 
 
-Prvo, treba da instalirate paket "resolvconf" na :
+Prvo, treba da instalirate paket "resolvconf" na:
 
 
 
@@ -722,7 +722,7 @@ DNS = 192.168.100.11
 
 
 
-Sačuvaj datoteku, zatim ponovo pokreni Interface :
+Sačuvaj datoteku, zatim ponovo pokreni Interface:
 
 
 
@@ -742,7 +742,7 @@ AllowedIPs = 192.168.110.0/24, 192.168.100.0/24
 
 
 
-Od :
+Od:
 
 
 
@@ -752,7 +752,7 @@ AllowedIPs = 0.0.0.0/0
 
 
 
-Možete videti da ovo takođe omogućava opciju "**Kill switch*".
+Možete videti da ovo takođe omogućava opciju "**Kill switch**".
 
 
 
@@ -772,7 +772,7 @@ WireGuardova konfiguracija je prilično jednostavna i laka za razumevanje, a pre
 
 
 
-Dodatna dokumentacija :
+Dodatna dokumentacija:
 
 
 
@@ -783,4 +783,4 @@ Dodatna dokumentacija :
 
 
 
-**Vaš WireGuard VPN je pokrenut i radi! Čestitamo!
+**Vaš WireGuard VPN je pokrenut i radi! Čestitamo!**

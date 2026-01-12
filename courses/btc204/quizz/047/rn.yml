@@ -1,0 +1,10 @@
+question: Ni uruhara uruhe rw’isoko ry’imenyekanisha muri BIP47?
+answer: Kugira ngo ushikirize kode y’ukwishyura uwuyironka no gutanga ikimenyetso c’uko amahera ariko araza.
+wrong_answers:
+  - Kwemeza Bitcoin yakira Address ku bikorwa vyo muri kazoza biciye ku makode yo kwishura.
+  - Wemeze ko uwayakiriye yakiriye bitcoins na BIP47.
+  - Wohereze imfunguruzo z’ibanga z’igihe gito z’uwo wohereje ku wakira kugira ngo bashobore gukoresha ama bitcoins.
+explanation: |
+  Iryo koraniro ry’imenyekanisha rituma kode y’ukwishyura irungikwa ku wuyirungitse ikaja ku wuyironkeye, kugira ngo uwo wa nyuma ashobore kuyimenya no kuyironka mu nyuma gusa kuri seed yabo mu gihe Wallet yoba yasubiye kuronka. Nk’uko izina ryayo rivyerekana, irafise kandi uruhara rwo kumenyesha.
+  
+reviewed: false

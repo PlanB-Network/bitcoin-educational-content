@@ -1,0 +1,9 @@
+question: Nk’uko Eric Voskuil abivuga mu gitabu Cryptoeconomics, umutekano wa Bitcoin ushingiye ku ki?
+answer: Ku bantu ku giti cabo
+wrong_answers:
+  - Ku gitabu Blockchain.
+  - Ivyerekeye ububasha bwa Hash
+  - Ivyerekeye ubupfumu
+explanation: |
+  Eric Voskuil asigura ko umutekano wa Bitcoin wizigiye canecane abantu bafata ivyago kugira ngo babungabunge iyo nzira.
+reviewed: true

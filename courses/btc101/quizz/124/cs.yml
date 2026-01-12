@@ -1,10 +1,12 @@
-question: Jaká je verze prvního vydaného softwaru Bitcoin?
-answer: Bitcoin-0.1.0.
+question: Jaká je role Bitcoinového uzlu v Bitcoinové síti?
+answer: Ověřuje nové bloky a zahrnuté transakce.
 wrong_answers:
-  - Bitcoin-0.0.1.
-  - Bitcoin-1.0.0.
-  - Bitcoin-0.1.1.
-explanation: >-
-  Prvním vydaným softwarem Bitcoin byl Bitcoin-0.1.0. Byl oznámen
-  Satoshi Nakamotem 8. ledna 2009.
+  - Vytváří nové Bitcoiny a vkládá je do bloků.
+  - Reguluje cenu Bitcoinu.
+  - Spravuje Bitcoinovou síť.
+explanation: |
+  Bitcoinový uzel v Bitcoinové síti zajišťuje
+  ověřování nových bloků a zahrnutých transakcí. Právě
+  tato síť Bitcoinových uzlů ji činí skutečně
+  decentralizovanou.
 reviewed: true

@@ -1,0 +1,8 @@
+question: Milline on Elements ja Liquid Network vaheline suhe?
+answer: Liquid on Elements külgahela konkreetne eksemplar, mis on konfigureeritud tootmiskasutuseks
+wrong_answers:
+  - Elements on Liquid Network konkreetne eksemplar, mis on konfigureeritud testimise eesmärgil
+  - Liquid ja Elements on kaks konkureerivat plokiahela platvormi, millel on erinevad koodipõhjad
+  - "Elements on konsensusmehhanism, mis annab Liquid Network ploki valideerimise volitused"
+explanation: |
+  Elements on avatud lähtekoodiga plokiahelaplatvormi tarkvara, Liquid on aga Elements külgahela konkreetne rakendus või "instants", mis on konfigureeritud tootmiskasutuseks koos föderaalse konsensusmudeliga. Mõelge Elements-st kui aluseks olevast tehnoloogiaraamistikust ja Liquid-st kui ühest konkreetsest võrgustikust, mis on ehitatud selle raamistiku abil. See on sarnane sellega, et Bitcoin Core on tarkvara, mis käitab Bitcoin võrku - Elements on tarkvaramootor, mis käitab Liquid ja teisi kohandatud külgahelaid.

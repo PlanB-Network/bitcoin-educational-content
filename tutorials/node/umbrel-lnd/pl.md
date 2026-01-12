@@ -27,7 +27,7 @@ Aby zainstalować Umbrel i skonfigurować węzeł Bitcoin, zalecamy skorzystanie
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Upewnij się, że węzeł Bitcoin jest aktualny i działa prawidłowo, ponieważ Lightning Network opiera się na nim we wszystkich transakcjach off-chain.
 
@@ -57,7 +57,7 @@ Aby uzyskać pełne teoretyczne wprowadzenie do Lightning Network, zalecamy skor
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 Ten kurs zapewni ci gruntowne podstawy podstawowych koncepcji Lightning Network, zanim przejdziesz do praktyki z węzłem LND.
 
@@ -154,7 +154,7 @@ Do wyboru jest utworzenie nowego węzła lub przywrócenie węzła z kopii zapas
 
 
 
-**Uwaga: W najnowszych wersjach Umbrel instalacja aplikacji Lightning zapewnia to 24-słowne seed (sam węzeł Bitcoin Umbrel nie).
+**Uwaga: W najnowszych wersjach Umbrel instalacja aplikacji Lightning zapewnia to 24-słowne seed (sam węzeł Bitcoin Umbrel nie).**
 
 
 
@@ -489,18 +489,18 @@ Węzeł Lightning Umbrel wymaga dwóch rodzajów kopii zapasowych:
 
 
 
-*plik *Static Channel Backup (SCB)**
+**Static Channel Backup (SCB)**
 
 
 
 
 - Zawiera informacje o kanale Lightning
 - Umożliwia wymuszone zamknięcie kanału w przypadku awarii
-- Ważne:** Nigdy nie zapisuj pliku `channel.db` ręcznie (ryzyko kar)
+- **Ważne:** Nigdy nie zapisuj pliku `channel.db` ręcznie (ryzyko kar)
 
 
 
-**Ręczna procedura tworzenia kopii zapasowej
+**Ręczna procedura tworzenia kopii zapasowej**
 
 
 
@@ -613,17 +613,17 @@ Aby dowiedzieć się więcej na temat konfigurowania i korzystania z wież stra�
 
 
 
-https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
+https://planb.academy/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
 ### Inne najlepsze praktyki
 
 
 
 
 
-- Aktualizacje oprogramowania:** Aktualizuj Umbrel i LND (poprawki bezpieczeństwa)
-- Ochrona sprzętu:** Używaj stabilnego systemu (Raspberry Pi z dyskiem SSD, mini-PC) i zasilacza UPS
-- Bezpieczeństwo sieci:** Zachowaj domyślną konfigurację Tora, zmień hasło administratora Umbrel (domyślnie: "moneyprintergobrrr")
-- Szyfrowanie:** Włącz szyfrowanie dysku, jeśli to możliwe
+- **Aktualizacje oprogramowania:** Aktualizuj Umbrel i LND (poprawki bezpieczeństwa)
+- **Ochrona sprzętu:** Używaj stabilnego systemu (Raspberry Pi z dyskiem SSD, mini-PC) i zasilacza UPS
+- **Bezpieczeństwo sieci:** Zachowaj domyślną konfigurację Tora, zmień hasło administratora Umbrel (domyślnie: "moneyprintergobrrr")
+- **Szyfrowanie:** Włącz szyfrowanie dysku, jeśli to możliwe
 
 
 
@@ -691,10 +691,10 @@ RTL to kompletny "szwajcarski scyzoryk" do administrowania węzłem Lightning z 
 
 
 
-- Lightning Shell** : Wiersz poleceń (lncli) przez przeglądarkę
-- BTC RPC Explorer & Mempool** : Monitorowanie Blockchain
-- LNmetrics & Torq**: Analiza wydajności routingu
-- Amboss & 1ML**: "Społecznościowe" zarządzanie węzłem (aliasy, kontakty, analiza sieci)
+- **Lightning Shell**: Wiersz poleceń (lncli) przez przeglądarkę
+- **BTC RPC Explorer & Mempool**: Monitorowanie Blockchain
+- **LNmetrics & Torq**: Analiza wydajności routingu
+- **Amboss & 1ML**: "Społecznościowe" zarządzanie węzłem (aliasy, kontakty, analiza sieci)
 
 
 

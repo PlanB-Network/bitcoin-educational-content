@@ -1,0 +1,9 @@
+question: Jenis serangan apa yang melibatkan entitas tunggal yang mengendalikan beberapa node untuk muncul sebagai beberapa entitas, dan mengapa hal ini tidak efektif terhadap mekanisme konsensus Bitcoin?
+answer: Serangan Sybil; serangan ini tidak efektif karena Bitcoin menggunakan daya komputasi proof-of-work untuk konsensus daripada menghitung node
+wrong_answers:
+  - "Serangan Eclipse; tidak efektif karena Bitcoin mengenkripsi semua komunikasi node menggunakan protokol kriptografi tingkat lanjut"
+  - "Serangan denial-of-service; serangan ini tidak efektif karena Bitcoin secara otomatis mendistribusikan ulang lalu lintas ke seluruh node yang sehat dalam jaringan"
+  - "Serangan rekayasa sosial; tidak efektif karena pengembang Bitcoin menggunakan metode verifikasi formal untuk mencegah manipulasi"
+explanation: |
+  Serangan Sybil terjadi ketika satu entitas mengontrol beberapa node untuk menyamar sebagai banyak entitas yang terpisah. Akan tetapi, serangan ini tidak efektif terhadap Bitcoin karena jaringan tidak bergantung pada penghitungan node atau pemungutan suara yang demokratis di antara para peserta jaringan. Sebaliknya, Bitcoin menggunakan konsensus proof-of-work di mana kekuatan komputasi (hashpower) menentukan keputusan jaringan, bukan jumlah node. Hal ini membuat penyerang tidak mungkin untuk mendapatkan pengaruh hanya dengan menjalankan banyak node tanpa sumber daya komputasi yang sesuai.
+reviewed: false

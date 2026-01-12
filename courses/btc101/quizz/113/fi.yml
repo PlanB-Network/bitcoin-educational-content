@@ -1,12 +1,9 @@
-question: Mikä estää kaikkia käyttämästä samaa Bitcoin-lompakkoa?
-answer: Eri yksilöillä on erilaisia käyttötarpeita.
+question: Milloin Bitcoinia käytettiin ensimmäistä kertaa fyysisten tavaroiden ostamiseen?
+answer: Kun Laszlo Hanyecz osti 2 pizzaa 10 000 BTC; llä.
 wrong_answers:
-  - Bitcoin-lompakon käyttö on kallista.
-  - Bitcoin-lompakon käyttö on laitonta.
-  - Ihmiset eivät koskaan pääse yksimielisyyteen tällaisen lompakon nimestä.
+  - Kun Hal Finney osti auton 100 000 BTC: llä.
+  - Kun Satoshi Nakamoto osti talon 1 000 000 000 BTC: llä.
+  - Mikään muista vaihtoehdoista.
 explanation: |
-  Siinä missä yksi henkilö saattaa painottaa turvallisuutta, toinen
-  saattaa arvostaa käyttäjäystävällisyyttä tai tiettyjä ominaisuuksia. Siksi
-  yksi ainoa Bitcoin-lompakko ei välttämättä vastaa kaikkien vaatimuksiin,
-  mikä tekee useiden lompakkovaihtoehtojen olemassaolosta tarpeellista.
+  Ensimmäinen kerta, kun Bitcoinia käytettiin fyysisten tavaroiden ostamiseen, oli kun Laszlo Hanyecz osti 2 pizzaa 10 000 BTC: llä, 22.5.2010, joka tunnetaan nyt Pizza Päivänä.
 reviewed: true

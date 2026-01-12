@@ -1,11 +1,11 @@
-question: Ni ipi njia mbadala inayopendekezwa ya kutumia karatasi kuhifadhi maneno yako ya Mnemonic?
-answer: Kuchora kwenye sahani ya chuma.
+question: Kwa nini faragha ni muhimu katika muktadha wa Bitcoin?
+answer: Ili kupunguza hatari ya pesa zako kufuatiliwa.
 wrong_answers:
-  - Kuihifadhi kwenye faili ya dijitali.
-  - Kuiandika kwenye ubao mweupe.
-  - Inaihifadhi kama mwasiliani kwenye simu yako.
+  - Ili kupunguza thamani ya bitcoins zako.
+  - Ili kuzuia bitcoins zako zisiibiwe.
+  - Ili kulipa ushuru kwenye bitcoins zako.
 explanation: |
-  Moja ya njia mbadala zilizopendekezwa kwa karatasi kwa kuhifadhi
-  maneno yako ya Mnemonic yanachonga kwenye sahani ya chuma. Hii
-  suluhisho ni ya kudumu zaidi na ya kudumu.
+  Faragha ni muhimu katika muktadha wa Bitcoin ili kupunguza
+  hatari za fedha zako kufuatiliwa, ambazo zinaweza kuwezesha
+  ufuatiliaji wako.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Ni uwuhe muhinga w’umunyamerika yabonye block iteye amakenga mu gihe c’ivyaduka vyo kurenga kw'agaciro ku wa 15 Myandagaro 2010?
+answer: Jeff Garzik
+wrong_answers:
+  - Gavin Andresen
+  - Nils Schneider
+  - Christian Decker
+explanation: |
+  Iryo block, ikoresheje akaga, ryaremye ama bitcoins arenga miliyari 184.
+reviewed: true

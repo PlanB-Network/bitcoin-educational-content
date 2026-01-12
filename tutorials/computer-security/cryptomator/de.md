@@ -1,5 +1,5 @@
 ---
-name: Kryptomator
+name: Cryptomator
 description: Verschlüsseln Sie Ihre Dateien in der Cloud
 ---
 ![cover](assets/cover.webp)
@@ -42,7 +42,7 @@ Cryptomator ist eine Alternative zu anderen Anwendungen, insbesondere zu dem in 
 
 
 
-https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
+https://planb.academy/tutorials/computer-security/data/picocrypt-98c213bd-9ace-425b-b012-bea71ce6b38f
 
 Die Cryptomator-Anwendung ist verfügbar für **Windows** (exe / msi), **Linux**, **macOS,** aber auch **Android** und **iOS**. Übrigens sind alle Anwendungen kostenlos, außer der Android-Anwendung, für die Sie bezahlen müssen (14,99 Euro).
 
@@ -60,7 +60,7 @@ Auf Ihrem Rechner erstellt **Cryptomator einen Ordner, in dem es einen Tresor** 
 
 
 
-Um loszulegen, müssen Sie **Cryptomator** **herunterladen** und **installieren**. Sobald der Download abgeschlossen ist, genügen ein paar Klicks, um die Installation abzuschließen. Wie [Rclone] (https://www.it-connect.fr/rclone-un-outil-gratuit-pour-synchroniser-vos-donnees-dans-le-cloud/), verlässt sich Cryptomator auf WinFsp, um **ein virtuelles Laufwerk auf Ihrem Windows-Rechner** einzurichten.
+Um loszulegen, müssen Sie **Cryptomator** **herunterladen** und **installieren**. Sobald der Download abgeschlossen ist, genügen ein paar Klicks, um die Installation abzuschließen. Wie [Rclone](https://www.it-connect.fr/rclone-un-outil-gratuit-pour-synchroniser-vos-donnees-dans-le-cloud/), verlässt sich Cryptomator auf WinFsp, um **ein virtuelles Laufwerk auf Ihrem Windows-Rechner** einzurichten.
 
 
 
@@ -170,7 +170,7 @@ Sie müssen Ihr Passwort eingeben, um den Safe zu entsperren. Klicken Sie dann a
 
 
 
-Auf der OneDrive-Seite können wir den Cryptomator-Datenspeicher nicht direkt durchsuchen. Wir können die Daten nicht sehen (weder die Dateinamen noch den Inhalt). Das bedeutet, dass Sie Ihre Daten nicht über die übliche OneDrive-Verknüpfung zu Ihrem Cryptomator-Tresor hinzufügen müssen. **Sie müssen Ihre Daten über das virtuelle Laufwerk von Cryptomator hinzufügen
+Auf der OneDrive-Seite können wir den Cryptomator-Datenspeicher nicht direkt durchsuchen. Wir können die Daten nicht sehen (weder die Dateinamen noch den Inhalt). Das bedeutet, dass Sie Ihre Daten nicht über die übliche OneDrive-Verknüpfung zu Ihrem Cryptomator-Tresor hinzufügen müssen. **Sie müssen Ihre Daten über das virtuelle Laufwerk von Cryptomator hinzufügen.**
 
 
 

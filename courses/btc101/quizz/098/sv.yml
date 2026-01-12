@@ -1,11 +1,11 @@
-question: Vad är ett rekommenderat alternativ till att använda papper för att lagra din Mnemonic-fras?
-answer: Gravera det på en metallplatta.
+question: Varför är integritet viktigt i samband med Bitcoin?
+answer: För att minimera risken för att dina pengar spåras.
 wrong_answers:
-  - Förvara den i en digital fil.
-  - Skriva det på en whiteboard.
-  - Spara den som en kontakt i din telefon.
+  - För att minska värdet på dina bitcoins.
+  - För att förhindra att dina bitcoins blir stulna.
+  - Att betala skatt på dina bitcoins.
 explanation: |
-  Ett av de rekommenderade alternativen till papper för att lagra
-  din Mnemonic-fras är att gravera den på en metallplatta. Detta
-  lösning är mer hållbar och långvarig.
+  Sekretess är viktigt i samband med Bitcoin för att minimera
+  riskerna för att dina medel spåras, vilket kan underlätta
+  din övervakning.
 reviewed: true

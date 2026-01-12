@@ -1,0 +1,9 @@
+question: Nk’uko Bastiat abivuga, mbega inshingano ni ingingo ngenderwako y’... ?
+answer: gutungana
+wrong_answers:
+  - ubutungane
+  - ubudasiba
+  - Gushikako gutunganye
+explanation: |
+  Bastiat abona ko inshingano ari ingingo ngenderwako y’ugutungana, bisobanura ko ari isoko y’iterambere n’iterambere ry’umuntu ku giti ciwe biciye mu nyigisho z’ivyo yiboneye.
+reviewed: false

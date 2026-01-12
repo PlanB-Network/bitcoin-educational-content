@@ -1,0 +1,12 @@
+question: Ni incuro zingahe umuntu ahindura ingorane?
+answer: Buri 2016 amabuye.
+wrong_answers:
+  - Imisi yose 1048.
+  - Imisi yose 512.
+  - Imisi yose 4032.
+explanation: |
+  Guhindura ingorane ni uburyo bubaho .
+  buri 2016 blocks, canke nk’indwi zibiri, kugira ngo umuntu
+  block nshasha yongerwa kuri Blockchain buri minota cumi ku wa 10.00.
+  mwayeni, ata kuraba Hashrate y’isi yose.
+reviewed: true

@@ -1,11 +1,10 @@
-question: Hva er hovedfokuset i dette Bitcoin-kurset?
-answer: De monetære aspektene ved Bitcoin.
+question: Hva var DigiCash-prosjektet?
+answer: Et forsøk på å skape anonym elektronisk penger av David Chaum.
 wrong_answers:
-  - Kodingsaspektene ved Bitcoin.
-  - Den økologiske påvirkningen av Bitcoin.
-  - De regulatoriske aspektene ved Bitcoin.
+  - Et prosjekt for å skape en digital lommebok for Bitcoin.
+  - Et prosjekt for å digitalisere all fysisk kontanter.
+  - Et prosjekt for å skape en kryptovaluta basert på Bitcoin.
 explanation: |
-  Dette Bitcoin-kurset fokuserer på de monetære aspektene ved Bitcoin, inkludert
-  hvordan kjøpe og selge bitcoins, sikkert lagre dem i digitale lommebøker, og bruke dem
-  for transaksjoner.
+  David Chaum introduserte konseptet med anonym elektronisk penger med
+  sitt prosjekt DigiCash på 1980-tallet.
 reviewed: true

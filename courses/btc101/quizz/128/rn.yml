@@ -1,0 +1,8 @@
+question: Ni igikorwa ikihe c’uguhindura ingorane mu murongo wa Bitcoin?
+answer: Bituma habaho ububiko bwongerwako kuri Blockchain hafi buri minota cumi.
+wrong_answers:
+  - Ni co kigena igiciro ca Bitcoin.
+  - Igenzura umubare w’ama bitcoins ashobora gucukurwa muri Blockchain.
+  - Ni co kigena ubunini bw’ibuye.
+explanation: >-
+reviewed: true

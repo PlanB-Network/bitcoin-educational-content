@@ -1,19 +1,19 @@
 ---
 name: Electrum
 
-description: Volledige Electrum Gids, van 0 tot held
+description: Volledige Electrum-gids, van beginner tot expert
 ---
 
 ![cover](assets/cover.webp)
 
 
-Hieronder staan enkele beschrijvingsbronnen voor Electrum:
+Hieronder vind je enkele beschrijvingsbronnen voor Electrum:
 
 
 
 - [X](https://twitter.com/ElectrumWallet)
 - [Electrum website](https://electrum.org/)
-- [Electrum documentatie](https://electrum.readthedocs.io/)
+- [Electrum documentation](https://electrum.readthedocs.io/)
 
 
 Dit is wat Rogzy van deze tutorial vindt:
@@ -877,7 +877,7 @@ In het onderste venster zien we onze Address. Het totaal van de ingangen van de 
 Als we de Mining vergoeding aanpassen, zal de uitvoerwaarde automatisch veranderen.
 
 
-**Let op de kleur van de adressen in het transactievenster. Vergeet niet dat de Green adressen in je Address tabblad staan. Als een Address Green (of geel) gemarkeerd is in een transactievenster, dan heeft Electrum de Address herkend als één van zijn eigen adressen. Als de Address geen highlight heeft, dan is het een externe Address (extern aan de op dat moment geopende Wallet), en moet je het met extra zorg controleren.
+**Let op de kleur van de adressen in het transactievenster. Vergeet niet dat de Green adressen in je Address tabblad staan. Als een Address Green (of geel) gemarkeerd is in een transactievenster, dan heeft Electrum de Address herkend als één van zijn eigen adressen. Als de Address geen highlight heeft, dan is het een externe Address (extern aan de op dat moment geopende Wallet), en moet je het met extra zorg controleren.**
 
 
 Zodra je alles in de transactie hebt gecontroleerd en zeker weet dat je tevreden bent met welke munten je uitgeeft en waar de munten naartoe gaan, kun je op "afronden" klikken

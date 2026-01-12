@@ -1,5 +1,7 @@
 id: 61019fbd-deb7-4b3c-8cda-0402a4b2e780
 
+last_update_date: 2025-02-13
+
 project_id: 9e772cca-d361-49f2-96d3-0607dcde0403
 
 category: mobile
@@ -8,16 +10,19 @@ level: beginner
 
 professor_id: 93e251db-ee1c-4966-8dce-b54df9fca287
 
+license: CC-BY-SA-V4
+
 # Proofreading metadata
 
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2025-02-11
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
       - Pivii
-    reward: 0.58
+      - nrak10
+    reward: 0.29
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -62,7 +67,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.23
+    reward: 1.87
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -87,12 +92,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.23
+    reward: 1.87
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.58
+    reward: 1.87
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -104,10 +109,11 @@ proofreading:
     contributor_names:
     reward: 1.52
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
-    reward: 1.52
+      - Tinnah924
+    reward: 0.76
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
@@ -128,6 +134,31 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 1.52
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.87
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.87
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.87
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.52
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.87
 tags:
   - lightning
   - wallets

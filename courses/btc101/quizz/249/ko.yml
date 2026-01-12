@@ -1,0 +1,8 @@
+question: 은행 시스템에 대한 Bitcoin의 주요 결과 중 하나는 무엇인가요?
+answer: 이를 통해 은행 시스템에서 해방될 수 있습니다.
+wrong_answers:
+  - 이를 통해 은행 시스템을 제어할 수 있습니다.
+  - 은행 시스템을 제거할 수 있습니다.
+  - 은행 시스템이 손상될 수 있습니다.
+explanation: >-
+reviewed: true

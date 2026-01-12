@@ -1,0 +1,9 @@
+question: Ni hehe ama server ya DNS akenshi atunganijwe kuri sisitemu ya Linux?
+answer: /n'ibindi/ugutorera umuti.conf
+wrong_answers:
+  - /n'ibindi/izina ry'umushitsi
+  - /n'ibindi/urubuga/imirongo
+  - /n'ibindi/abashitsi.kwemera
+explanation: |
+  Dosiye /etc/resolv.conf igaragaza abakozi ba DNS n'ibibanza vy'ugushaka gutorera umuti amazina.
+reviewed: false

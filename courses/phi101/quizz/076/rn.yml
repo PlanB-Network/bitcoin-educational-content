@@ -1,0 +1,9 @@
+question: Ni itandukaniro irihe ry’ishimikiro riri hagati y’ivyiyumviro vya Turgot n’ivya Adamu Smith ku bijanye n’agaciro?
+answer: Turgot yarizera ko agaciro kagenwa n’igikorwa, mu gihe Smith we yizera ko kagenwa n’akamaro.
+wrong_answers:
+  - Turgot yarizera ko ubudandaji bw’ubuntu ari bwo buryo bwiza kuruta ubundi bwose mu vy’ubutunzi, mu gihe Smith we yarizera ko uburinzi bw’ibintu.
+  - Turgot yarizera ko uruhara rwa Leta ari ugusiga isoko ry’ubuntu, mu gihe Smith yarizera ko Leta ikwiye kwivanga mu vy’ubutunzi.
+  - Nta tandukaniro ry’ishimikiro riri hagati y’ivyiyumviro vya Turgot n’ivya Smith ku bijanye n’agaciro.
+explanation: |
+  Turgot yabona ko igikorwa ari co kintu nyamukuru kigena agaciro, mu gihe Adamu Smith yashizeho iciyumviro c’agaciro gikorwa n’akamaro n’ivyo umuntu asaba, bikaba vyari bigereranya ubutunzi bw’umuntu ku giti ciwe.
+reviewed: true

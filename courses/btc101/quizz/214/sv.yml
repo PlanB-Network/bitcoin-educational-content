@@ -1,12 +1,9 @@
-question: Vad förutspådde Milton Friedman 1999?
-answer: Utvecklingen av en tillförlitlig e-cash.
+question: Vilken av dessa Lightning-operationer registreras onchain?
+answer: Öppning av kanal
 wrong_answers:
-  - Avskaffandet av fysiska pengar.
-  - Uppkomsten av Bitcoin.
-  - Slutet på statlig kontroll över pengar.
+  - Mellanliggande betalning
+  - Statusuppdatering
+  - Flerhopp-routning
 explanation: |
-  Milton Friedman, en välkänd ekonom, förutspådde 1999
-  att en pålitlig e-cash snart skulle utvecklas, en metod
-  där du på Internet kan överföra pengar från A till B,
-  utan att A känner till B eller vice versa.
-reviewed: true
+  Endast öppning och stängning av en Lightning-kanal motsvarar Bitcoin-transaktioner som publiceras på blockkedjan.
+reviewed: false

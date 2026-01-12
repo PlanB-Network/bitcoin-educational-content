@@ -1,11 +1,15 @@
-question: ¿Por qué es importante la privacidad en el contexto de Bitcoin?
-answer: Para minimizar el riesgo de que tus fondos sean rastreados.
+question: ¿Por qué deberías comprar bitcoins sin KYC?
+answer: Para asegurar tu privacidad.
 wrong_answers:
-  - Para disminuir el valor de tus bitcoins.
-  - Para prevenir que tus bitcoins sean robados.
-  - Para pagar impuestos sobre tus bitcoins.
+  - Para asegurar el registro de todos los usuarios de Bitcoin.
+  - Para comprar a un precio bajo.
+  - Para vender a un precio bajo.
 explanation: |
-  La privacidad es importante en el contexto de Bitcoin para minimizar
-  los riesgos de que tus fondos sean rastreados, lo cual puede facilitar
-  tu vigilancia.
+  Comprar bitcoins sin KYC significa adquirir bitcoins sin
+  pasar por los procedimientos estándar de verificación Conoce a Tu Cliente
+  (Know Your Customer) que muchas bolsas y plataformas
+  exigen. Una razón principal por la que los individuos podrían elegir este
+  camino es para mantener su privacidad, asegurando que sus
+  detalles personales y actividades financieras permanezcan
+  sin divulgarse.
 reviewed: true

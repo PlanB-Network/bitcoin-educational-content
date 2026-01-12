@@ -14,7 +14,7 @@ RGB合约的结构类似于一个进化状态机。它以"Genesis"为起点，"G
 
 如果您想要了解关于RGB协议工作原理的更多信息，我建议您参加这门全面的培训课程：
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 RGB的内部逻辑基于Rust库（Library），您作为开发人员可以将Rust库导入到您的项目中，以管理*客户端验证（Client-side Validation）*部分。此外，LNP/BP团队正在开发其他语言的绑定，但尚未通过最后确定。此外，比特币交易所（Bitfinex）等其他实体也在开发自己的集成栈，但我们将在另一篇教程中讨论这些问题。目前，"rgb "CLI 是官方参考，尽管它还相对不够完善。
 
@@ -136,8 +136,8 @@ rgb schemata
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -181,7 +181,7 @@ rgb contracts
 
 ![RGB-CLI](assets/fr/07.webp)
 
-然后，下一条命令会显示全局状态（名称、代号、供应量......）和自有状态列表，即分配情况（例如，UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1` 中定义的100万个`PBN`代币）。
+然后，下一条命令会显示全局状态（名称、代号、供应量......）和自有状态列表，即分配情况（例如，UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1` 中定义的100万个`Plan ₿ Academy`代币）。
 
 ```bash
 rgb state '<ContractId>'
@@ -311,4 +311,4 @@ bob$ rgb check <sig> && wallet sign --publish tx.psbt
 我还推荐另一篇教程，其中我介绍了如何启动兼容RGB的闪电节点，以几乎即时的方式交换代币：
 
 
-https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.academy/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

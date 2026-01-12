@@ -1,10 +1,11 @@
-question: Hva er effekten av 20% inflasjon på kjøpekraften over 3 år?
-answer: Du mister 50% av din kjøpekraft
+question: Hva er det maksimale antallet Bitcoin-enheter som noensinne kan eksistere?
+answer: 21 millioner enheter
 wrong_answers:
-  - Du mister 100% av din kjøpekraft
-  - Du mister 60% av din kjøpekraft
-  - Du mister 30% av din kjøpekraft
+  - 25 millioner enheter
+  - 30 millioner enheter
+  - 50 millioner enheter
 explanation: |
-  Med 20% inflasjon, mister du nesten halvparten av din kjøpekraft i
-  løpet av 3 år.
+  Bitcoins dataprogramkode og konsensus blant alle brukere som deltar i
+  protokollen bestemmer at det maksimale antallet Bitcoin-enheter som noensinne kan eksistere
+  er 21 millioner.
 reviewed: true

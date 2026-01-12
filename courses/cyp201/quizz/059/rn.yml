@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe rwa seed mu Bitcoin HD Wallet?
+answer: Kugira ngo bibe intango y'ugukuraho imfunguruzo zose
+wrong_answers:
+  - Bika ibikorwa vya Wallet
+  - Ubwo nyene generate urufunguzo rwa bose
+  - Kumenya neza ibanga ry'ibikorwa
+explanation: |
+  seed ni urutonde rw'ibice 512 rukomoka ku majambo Mnemonic na passphrase. Ni co gishingiyeko imfunguruzo zose ziri muri Wallet.
+reviewed: false

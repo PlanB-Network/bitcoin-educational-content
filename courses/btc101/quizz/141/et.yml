@@ -1,9 +1,9 @@
-question: Kui palju maksab Bitcoin'i sõlme käitamine Raspberry Pi 4 peal aastas elektrikulu mõttes?
-answer: Natuke vähem kui 10€ aastas
+question: Mis oli bloki sõja tulemus 2017. aastal?
+answer: Kasutajad ja noodid lükkasid tagasi ettepaneku suurendada bloki suurust ning aktiveerisid uuenduse nimega SegWit
 wrong_answers:
-  - Umbes 50€ aastas
-  - Umbes 100€ aastas
-  - Umbes 200€ aastas
+  - Kasutajad ja noodid aktsepteerisid ettepaneku suurendada bloki suurust ning aktiveerisid uuenduse nimega SegWit
+  - Kasutajad ja noodid lükkasid tagasi ettepaneku suurendada bloki suurust ega aktiveerinud ühtegi uuendust
+  - Kasutajad ja noodid aktsepteerisid ettepaneku suurendada bloki suurust ega aktiveerinud ühtegi uuendust
 explanation: >-
-  Bitcoin'i sõlme käitamine Raspberry Pi 4 peal maksab elektrikulu mõttes natuke vähem kui 10€ aastas.
+  Bloki sõjas 2017. aastal saavutasid kasutajad ja noodid võidu, lükates tagasi ettepaneku suurendada bloki suurust ning aktiveerides uuenduse nimega SegWit.
 reviewed: false

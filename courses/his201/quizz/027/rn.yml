@@ -1,0 +1,9 @@
+question: Ni ikihe kinyamakuru c’Ubwongereza cashizwe muri block ya Genesis ya Bitcoin muri Nzero 2009?
+answer: The Times
+wrong_answers:
+  - The Guardian
+  - The Independent
+  - The Telegraph
+explanation: |
+  Ico canditswe nyaco cari ikinyamakuru The Times, 03/Jan/2009, umukuru w’igihugu ari ku ruhande rwo gufasha amabanki ubwa kabiri.
+reviewed: true

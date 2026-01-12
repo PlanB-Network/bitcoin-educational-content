@@ -1,13 +1,10 @@
-question: Qual é a principal diferença entre a economia Keynesiana e a economia Austríaca no que diz respeito ao sistema monetário?
-answer: A economia Keynesiana não leva em conta os aspectos temporais e dinâmicos das situações e recursos.
+question: Qual é uma das razões pelas quais o Bitcoin passa por tantas bolhas especulativas?
+answer: Porque o Bitcoin é uma moeda que é usada em todo o mundo.
 wrong_answers:
-  - A economia Keynesiana promove o consumo excessivo de moedas.
-  - A economia Keynesiana reconhece a escassez de situações e recursos.
-  - A economia Keynesiana incentiva a inflação.
+  - Porque o Bitcoin na verdade não é usado em lugar algum.
+  - Porque o Bitcoin é uma bolha que vai desaparecer.
+  - Porque o Bitcoin não está sujeito a ciclos econômicos.
 explanation: >-
-  A principal diferença entre as ideias da economia Keynesiana e da economia
-  Austríaca em relação ao sistema monetário é que a economia Keynesiana não
-  leva em conta os aspectos temporais e dinâmicos das situações e recursos.
-  Em outras palavras, uma moeda ilimitada não pode refletir efetivamente os recursos
-  limitados do nosso planeta.
+  O Bitcoin passa por muitas bolhas especulativas porque é uma moeda
+  que de fato é usada em todo o mundo.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Ni iyihe nzira y’ugukura ikoreshwa kuri konti ya SegWit v0 muri Descriptor isanzwe?
+answer: 84h/0h/0h
+wrong_answers:
+  - 44h/0h/0h
+  - 86h/0h/0h
+  - 84/0/0.
+explanation: |
+  Inzira 84h/0h/0h isobanurwa muri BIP84 kuri konti ikomoka kuri aderesi za SegWit v0 na P2WPKH.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 역방향 영역에 대해 IPv6 Address의 각 16진수 숫자를 반전시켜야 하는 해상도 방법은 무엇인가요?
+answer: 역 해상도
+wrong_answers:
+  - 반대 해상도
+  - 기본 해상도
+  - 보조 해상도
+explanation: |
+  역방향 해상도의 경우, 전체 IPv6 Address의 각 니블이 반전되어 점으로 구분된 후 ip6.arpa로 접미사가 붙습니다.
+reviewed: false

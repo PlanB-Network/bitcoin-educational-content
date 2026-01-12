@@ -1,11 +1,9 @@
-question: Nani alikuwa mtu wa kwanza kujiunga na mtandao wa Bitcoin baada ya Satoshi Nakamoto?
-answer: Hal Finney.
+question: Je, upatikanaji wa Bitcoin mtandaoni umekuwaje tangu 2009?
+answer: 99.988%.
 wrong_answers:
-  - Laszlo Hanyecz.
-  - Phil Champagne.
-  - Rogzy.
+  - 100%.
+  - 90.009%.
+  - 80.17%.
 explanation: |
-  Hal Finney alikuwa mtu wa kwanza kujiunga na mtandao wa Bitcoin
-  baada ya Satoshi Nakamoto mwenyewe. Hata alitweet Running
-  Bitcoin kuashiria hafla hiyo.
+  Upatikanaji mtandaoni wa Bitcoin ni 99.988% tangu 2009.
 reviewed: true

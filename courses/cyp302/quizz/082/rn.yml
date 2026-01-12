@@ -1,0 +1,9 @@
+question: Ni kubera iki iyo pad y’igihe kimwe ifatwa nk’uburyo bwo gupfuka amakuru butekanye?
+answer: Kuko igice cose c'urufunguzo ari ikintu gisanzwe kandi nta gice na kimwe gisubira gukoreshwa .
+wrong_answers:
+  - Kuko ikoresha urufunguzo rwa bose n'urw'ibanga .
+  - Kuko bishingiye ku mibare y'intango .
+  - Kuko ipfuka ubutumwa buto buto gusa .
+explanation: |
+  Ico gikoresho gikoreshwa rimwe gusa kiratekanye kubera ko igice cose c’urufunguzo gica kigenda mu buryo butari bwo kandi ntigisubira gukoreshwa, ivyo bikaba bituma ata n’akamenyetso gashobora gukoreshwa n’umuntu atera.
+reviewed: false

@@ -122,7 +122,7 @@ Pro sondu jsem zvolil počítač **Debian 11** v minimální instalaci.
 
 
 
-První krok je vždy stejný, aktualizujte :
+První krok je vždy stejný, aktualizujte:
 
 
 
@@ -160,9 +160,9 @@ Zde vidím 3 rozhraní:
 
 
 
-- Lo**: jedná se o zpětnou smyčku Interface; je to virtuální Interface, která "smyčkuje" přes zařízení. V podstatě se tento Interface, jehož Address je 127.0.0.1 (ačkoli stačí jakýkoli Address v rozsahu 127.0.0.0/8, protože tento rozsah je pro tento účel vyhrazen), používá ke kontaktu se samotným zařízením. Pokud jste nainstalovali webovou stránku na své pracovní stanici (například pomocí WAMPP), pravděpodobně jste použili "*localhost*" Address někdy zobrazit web hostovaný na vašem vlastním počítači. Tento název hostitele je spojen s adresou Address 127.0.0.1, a tedy se zpětnou smyčkou Interface.
-- ens33**: toto je můj první Interface, který zde obdržel Address od mého DHCP
-- ens36**: můj druhý Interface
+- **Lo**: jedná se o zpětnou smyčku Interface; je to virtuální Interface, která "smyčkuje" přes zařízení. V podstatě se tento Interface, jehož Address je 127.0.0.1 (ačkoli stačí jakýkoli Address v rozsahu 127.0.0.0/8, protože tento rozsah je pro tento účel vyhrazen), používá ke kontaktu se samotným zařízením. Pokud jste nainstalovali webovou stránku na své pracovní stanici (například pomocí WAMPP), pravděpodobně jste použili "*localhost*" Address někdy zobrazit web hostovaný na vašem vlastním počítači. Tento název hostitele je spojen s adresou Address 127.0.0.1, a tedy se zpětnou smyčkou Interface.
+- **ens33**: toto je můj první Interface, který zde obdržel Address od mého DHCP
+- **ens36**: můj druhý Interface
 
 
 
@@ -211,8 +211,8 @@ Zde je několik vysvětlení těchto prvních změn:
 
 
 
-- auto *Interface***: automaticky "spustí" Interface při startu systému
-- iface *Interface* inet manual** : pro použití Interface bez IP Address. Stejně jako klíčové slovo "static" pro definici statické IP adresy Address nebo "dhcp" pro použití dynamické adresace
+- auto **Interface**: automaticky "spustí" Interface při startu systému
+- iface *Interface* inet **manual**: pro použití Interface bez IP Address. Stejně jako klíčové slovo "static" pro definici statické IP adresy Address nebo "dhcp" pro použití dynamické adresace
 
 
 
@@ -239,10 +239,10 @@ Zde opět několik vysvětlení:
 
 
 
-- iface br0 inet static**: zde jsem definoval můstek Interface (*br0*) se statickým Address.
-- Address, maska sítě, brána**: informace o adresování desky
-- bridge_ports**: rozhraní, která mají být zahrnuta do mostu
-- bridge_stp**: při propojování přepínačů se používá protokol Spanning Tree, který detekuje redundantní spoje a zabraňuje vzniku smyček. Vzhledem k tomu, že mezi dvě síťové cesty může být vložen most, může být zdrojem smyčky, proto je možné tento protokol povolit. Zde jej nepotřebuji, proto jej zakazuji.
+- **iface br0 inet static**: zde jsem definoval můstek Interface (*br0*) se statickým Address.
+- **Address, maska sítě, brána**: informace o adresování desky
+- **bridge_ports**: rozhraní, která mají být zahrnuta do mostu
+- **bridge_stp**: při propojování přepínačů se používá protokol Spanning Tree, který detekuje redundantní spoje a zabraňuje vzniku smyček. Vzhledem k tomu, že mezi dvě síťové cesty může být vložen most, může být zdrojem smyčky, proto je možné tento protokol povolit. Zde jej nepotřebuji, proto jej zakazuji.
 
 
 
@@ -281,12 +281,12 @@ Ve výchozím nastavení obsahují zdroje balíčků pouze balíčky vyhovujíc�
 
 
 
-- contrib**: balíčky obsahující software kompatibilní s DFSG, ale používající závislosti, které nejsou součástí větve **main**
-- non-free**: obsahuje balíčky, které nejsou v souladu s DFSG
+- **contrib**: balíčky obsahující software kompatibilní s DFSG, ale používající závislosti, které nejsou součástí větve **main**
+- **non-free**: obsahuje balíčky, které nejsou v souladu s DFSG
 
 
 
-Příklad řádku v souboru /etc/apt/sources.list :
+Příklad řádku v souboru /etc/apt/sources.list:
 
 
 
@@ -300,7 +300,7 @@ Takže k takovýmto řádkům prostě přidám slovo **contrib**.
 
 
 
-Ostatní kroky jsou uvedeny na stránce [NtopNG] (https://packages.ntop.org/apt/), kde je pro Debian 11 nutné přidat zdrojové kódy Ntop pro budoucí instalaci. Toto přidání je automatizované pomocí souboru :
+Ostatní kroky jsou uvedeny na stránce [NtopNG](https://packages.ntop.org/apt/), kde je pro Debian 11 nutné přidat zdrojové kódy Ntop pro budoucí instalaci. Toto přidání je automatizované pomocí souboru:
 
 
 
@@ -442,7 +442,7 @@ Pro demonstraci spustím na svém hostiteli video na YouTube:
 
 
 
-**Provoz byl okamžitě rozpoznán a zařazen do kategorií!
+**Provoz byl okamžitě rozpoznán a zařazen do kategorií!**
 
 
 
@@ -474,7 +474,7 @@ Kliknutím na tento obrázek se zobrazí podrobnosti o výstrahách. Není zde n
 
 
 
-Protože však používám bezplatnou verzi, nemohu vyloučit domény nebo hostitele, kteří jsou zdrojem výstrah, takže je budete muset sledovat, abyste nepřišli o něco mnohem znepokojivějšího. NtopNG bude generate upozornění v případě :
+Protože však používám bezplatnou verzi, nemohu vyloučit domény nebo hostitele, kteří jsou zdrojem výstrah, takže je budete muset sledovat, abyste nepřišli o něco mnohem znepokojivějšího. NtopNG bude generate upozornění v případě:
 
 
 

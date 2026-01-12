@@ -1,9 +1,9 @@
-question: Kako se stvara zdrav novac?
-answer: Zdrav novac mora prirodno proizaći iz tržišta i dobrovoljnog konsenzusa.
+question: Koji je glavni cilj iza stvaranja Bitkoina?
+answer: Da se država odvoji od novca.
 wrong_answers:
-  - Zdrav novac treba da bude sproveden od strane vlade izdavanjem monetarnih zakona.
-  - Zdrav novac mora biti nametnut od strane kompanija kroz upotrebu nasilja.
-  - Zdrav novac se ne može stvoriti.
+  - Da se eliminiše zlatni standard.
+  - Da transakcije budu brže i jeftinije.
+  - Da svi budu bogati.
 explanation: |
-  Zdrav novac je prirodni društveni fenomen koji mora proizaći iz tržišta i dobrovoljnog konsenzusa. Nijedan čovek ili grupa ljudi ne može stvoriti novac.
+  Bitkoin je stvoren sa ciljem da odvoji državu od novca. To je odgovor na sistemske izazove trenutnog finansijskog sistema, gde država ima potpunu kontrolu nad ponudom novca i može manipulisati njom u svoju korist.
 reviewed: true

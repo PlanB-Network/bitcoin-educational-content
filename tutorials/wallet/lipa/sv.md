@@ -14,7 +14,7 @@ Lightning-plånböcker, liksom alla mobila plånböcker, betraktas som "Hot"-pl�
 Om du vill lära dig mer om Lightning Network och förstå hur den fungerar tekniskt rekommenderar jag att du går den här kursen:
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 I den här handledningen tar vi en titt på **Lipa**, en enkel och effektiv Lightning Wallet som utvecklats i Schweiz.
 
@@ -44,7 +44,7 @@ Det första steget är att ladda ner Lipa-appen. För tillfället är den endast
 
 
 
-- [För Apple] (https://apps.apple.com/app/lipa-Bitcoin-lightning/id1602180066)
+- [För Apple](https://apps.apple.com/app/lipa-Bitcoin-lightning/id1602180066)
 
 
 Android-versionen är för närvarande under utveckling och kommer att finnas tillgänglig inom kort.
@@ -76,10 +76,10 @@ Programmet presenterar sedan sina huvudfunktioner genom en serie introduktionssk
 
 
 
-- Sömlös mottagning av betalningar**: Användare kan ta emot Bitcoin-betalningar även när applikationen är stängd, vilket garanterar tillförlitlighet och bekvämlighet.
-- Lightning-adresser utan förmyndarskap**: Lipa stöder nu Lightning-adresser utan förmyndare, vilket förbättrar integriteten och säkerheten genom att ge användarna full kontroll över sina bitcoins.
-- Kontroll över analytiska data** : Eftersom transparens och sekretess är av största vikt kan användarna se vilka typer av data som samlas in och välja hur de vill dela dem.
-- Skicka via telefonnummer**: Inget behov av komplexa adresser - välj bara en kontakt, ange beloppet och skicka bitcoins direkt till deras telefonnummer.
+- **Sömlös mottagning av betalningar**: Användare kan ta emot Bitcoin-betalningar även när applikationen är stängd, vilket garanterar tillförlitlighet och bekvämlighet.
+- **Lightning-adresser utan förmyndarskap**: Lipa stöder nu Lightning-adresser utan förmyndare, vilket förbättrar integriteten och säkerheten genom att ge användarna full kontroll över sina bitcoins.
+- **Kontroll över analytiska data**: Eftersom transparens och sekretess är av största vikt kan användarna se vilka typer av data som samlas in och välja hur de vill dela dem.
+- **Skicka via telefonnummer**: Inget behov av komplexa adresser - välj bara en kontakt, ange beloppet och skicka bitcoins direkt till deras telefonnummer.
 
 
 Applikationen drar också nytta av kontinuerliga förbättringar när det gäller stabilitet, säkerhet och tillförlitlighet, för att garantera en optimal användarupplevelse.
@@ -96,10 +96,10 @@ Lipa's Interface är organiserad kring 4 huvudflikar som nås via navigeringsfä
 
 
 
-- Hem**: Visar ditt aktuella saldo och din transaktionshistorik
-- Skanner**: Gör att du kan skanna QR-koder för att göra betalningar
-- Karta**: Visar en interaktiv karta över Bitcoin-godkännande företag i ditt område
-- Inställningar**: Tillgång till programinställningar, säkerhetskopiering och preferenser
+- **Hem**: Visar ditt aktuella saldo och din transaktionshistorik
+- **Skanner**: Gör att du kan skanna QR-koder för att göra betalningar
+- **Karta**: Visar en interaktiv karta över Bitcoin-godkännande företag i ditt område
+- **Inställningar**: Tillgång till programinställningar, säkerhetskopiering och preferenser
 
 
 En ytterligare meny kan nås genom att dra ner startskärmen:
@@ -131,7 +131,7 @@ För att säkerhetskopiera din Wallet går du till fliken "Inställningar" och v
 För mer information om hur du säkerhetskopierar och hanterar din återställningsfras på rätt sätt rekommenderar jag starkt att du följer den här andra handledningen, särskilt om du är nybörjare:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ## Ta emot bitcoins
 

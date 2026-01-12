@@ -1,0 +1,8 @@
+question: Kada se dogodio rat oko veličine bloka(block size war)?
+answer: 2017.god.
+wrong_answers:
+  - 2008.god.
+  - 2010.god.
+  - 2019.god.
+explanation: >-
+reviewed: true

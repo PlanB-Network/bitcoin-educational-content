@@ -1,0 +1,9 @@
+question: Was ist laut Shaolinfrys Argument für benutzeraktivierte Soft-Gabelungen (UASF) das Hauptproblem bei von Minern aktivierten Soft-Forks hinsichtlich der Implementierung von Upgrades?
+answer: Ein kleiner Prozentsatz der hashrate kann ein Veto gegen Upgrades für alle einlegen, was zu einer Trägheit bei Upgrades führt
+wrong_answers:
+  - Bergleute können weiche fork-Aktivierungen nach der Implementierung durch Mehrheitskonsens rückgängig machen
+  - Wirtschaftsknoten verlieren die Kontrolle über die Validierungsregeln, wenn Miner die Aktivierung signalisieren
+  - Soft fork-Änderungen werden dauerhaft und können nicht mehr geändert werden, sobald die Bergleute sie aktivieren
+explanation: |
+  Shaolinfry stellte fest, dass die Signalisierung von Minern ein natürliches Vetosystem schafft, bei dem selbst ein kleiner Prozentsatz von hashrate verhindern kann, dass Upgrades für das gesamte Netzwerk aktiviert werden. Diese "Upgrade-Trägheit" wird umso problematischer, je dezentraler mining wird und möglicherweise nützliche Protokollverbesserungen blockiert. Die anderen Optionen stellen die Funktionsweise von Soft Forks falsch dar - Miner können Aktivierungen nicht einseitig rückgängig machen, ökonomische Knoten behalten die Validierungsautorität, und Soft Forks können theoretisch durch nachfolgende Upgrades modifiziert werden.
+reviewed: false

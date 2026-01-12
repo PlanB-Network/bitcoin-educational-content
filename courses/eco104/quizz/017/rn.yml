@@ -1,0 +1,14 @@
+question: Ni ubuhe bwoko nyamukuru bw’ibiceri bikomeye bivugwa mu canditswe?
+answer: Fiat-ishigikiwe, ibicuruzwa-ishigikiwe, n'ibiceri vy'ubuhinga bwa none.
+wrong_answers:
+  - Ibiceri vy'ubuhinga bwa none n'ivy'umubiri
+  - Ibiceri vy'amahera vy'imbere n'ivy'inyuma
+  - Ibiceri bikomeye bishigikiwe n'amabanki n'ibiceri bikomeye bishigikiwe n'abantu ku giti cabo
+explanation: |
+  Mu bice vyabanje twabonye ubwoko butatu nyamukuru bw’ibiceri bikomeye; 
+  amafaranga y’agaciro ashigikiwe na fiat, ashigikiwe n’amafaranga y’imigenzo 
+  nk’idolari ry’Amerika; amafaranga y’ibicuruzwa, ashigikiwe n’ 
+  ibicuruzwa nk’inzahabu canke amavuta; n’ibiceri bihoraho vy’ubuhinga bwa algorithme, vyishingikiriza ku 
+  ku rutonde rw’amategeko canke ubuhinga bwo kubungabunga agaciro kavyo. Ariko, 
+  iravuga ko amafaranga y’ubuhinga bwa none ashobora gushika kw’isoko.
+reviewed: true

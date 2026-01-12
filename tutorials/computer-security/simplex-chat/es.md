@@ -1,5 +1,5 @@
 ---
-name: Chat SimpleX
+name: SimpleX Chat
 description: El primer buzón sin identificación de usuario
 ---
 ![cover](assets/cover.webp)
@@ -243,7 +243,7 @@ SimpleX genera entonces un enlace de un solo uso. Puedes reenviarlo a tu contact
 
 
 
-También puedes elegir qué perfil deseas asociar a este enlace de invitación. Para ello, hagz clic en tu perfil justo debajo del código QR. A continuación podrás :
+También puedes elegir qué perfil deseas asociar a este enlace de invitación. Para ello, hagz clic en tu perfil justo debajo del código QR. A continuación podrás:
 
 
 
@@ -313,7 +313,7 @@ Una de las características más potentes de SimpleX es la posibilidad de gestio
 
 
 
-Por ejemplo, puedes crear un archivo :
+Por ejemplo, puedes crear un archivo:
 
 
 
@@ -397,4 +397,4 @@ También recomendamos este otro tutorial, en el que presentamos Threema, otra al
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

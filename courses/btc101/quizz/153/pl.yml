@@ -1,8 +1,10 @@
-question: Jaki jest cel dostosowania poziomu trudności w Bitcoin Mining?
-answer: Przywraca równowagę globalnej gry Mining w oparciu o liczbę uczestników.
+question: Co dzieje się w przypadku ataku 51% na sieć Bitcoin?
+answer: Atakujący przejmuje więcej niż połowę szybkości haszowania i może próbować modyfikować łańcuch bloków.
 wrong_answers:
-  - Zwiększa to nagrodę za Mining.
-  - Zmniejsza to liczbę bitcoinów w obiegu.
-  - Zwiększa to bezpieczeństwo sieci Bitcoin.
-explanation: >-
+  - Atakujący zyskuje kontrolę nad ponad połową bitcoinów w obiegu.
+  - Atakujący uzyskuje kontrolę nad ponad połową węzłów w sieci Bitcoin.
+  - Atakujący uzyskuje kontrolę nad ponad połową pul wydobywczych w Bitcoinie
+explanation: |
+  W przypadku ataku 51%, Atakujący posiadający ponad połowę prędkości haszowania w sieci może potencjalnie manipulować łańcuchem bloków, tworząc alternatywny łańcuch bloków.
+  Jednak taki atak byłby niezwykle kosztowny i prawdopodobnie mało opłacalny, co czyni go mało prawdopodobnym scenariuszem.
 reviewed: true

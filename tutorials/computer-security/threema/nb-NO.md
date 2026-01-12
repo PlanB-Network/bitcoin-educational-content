@@ -63,18 +63,18 @@ Threema er tilgjengelig på alle plattformer. Du kan laste ned applikasjonen dir
 
 
 
-- [Google Play] (https://play.google.com/store/apps/details?id=ch.threema.app);
-- [F-Cold] (https://f-droid.org/en/packages/ch.threema.app.libre/);
-- [Huawei AppGallery] (https://appgallery.huawei.com/#/app/C103713829);
-- [App Store] (https://apps.apple.com/us/app/threema-the-secure-messenger/id578665578).
+- [Google Play](https://play.google.com/store/apps/details?id=ch.threema.app);
+- [F-Cold](https://f-droid.org/en/packages/ch.threema.app.libre/);
+- [Huawei AppGallery](https://appgallery.huawei.com/#/app/C103713829);
+- [App Store](https://apps.apple.com/us/app/threema-the-secure-messenger/id578665578).
 
 
 
-På Android er det også mulig å [installere via APK] (https://shop.threema.ch/en/download).
+På Android er det også mulig å [installere via APK](https://shop.threema.ch/en/download).
 
 
 
-Det finnes også [datamaskinversjoner] (https://threema.ch/download) (MacOS, Linux og Windows). Denne veiledningen viser deg hvordan du synkroniserer dem.
+Det finnes også [datamaskinversjoner](https://threema.ch/download) (MacOS, Linux og Windows). Denne veiledningen viser deg hvordan du synkroniserer dem.
 
 
 
@@ -276,7 +276,7 @@ Her finner du to alternativer for sikkerhetskopiering av dataene dine:
 
 
 
-"Threema Safe* lagrer all kontoinformasjonen din, bortsett fra samtalene dine, på Threemas servere. Disse dataene er kryptert med passordet du valgte da du opprettet kontoen din, slik at Threema ikke har tilgang til dem. Sikkerhetskopier tas automatisk og regelmessig.
+"Threema Safe lagrer all kontoinformasjonen din, bortsett fra samtalene dine, på Threemas servere. Disse dataene er kryptert med passordet du valgte da du opprettet kontoen din, slik at Threema ikke har tilgang til dem. Sikkerhetskopier tas automatisk og regelmessig.
 
 
 
@@ -332,7 +332,7 @@ Her kan du tilpasse profilen din: legge til et bilde, velge hvem som kan se den,
 
 
 
-Hvis du vil ha tilgang til samtalene dine på PC-en din, kan du synkronisere Threema-kontoen din med den dedikerte programvaren. Last ned programvaren for operativsystemet ditt [fra det offisielle nettstedet] (https://threema.ch/en/download).
+Hvis du vil ha tilgang til samtalene dine på PC-en din, kan du synkronisere Threema-kontoen din med den dedikerte programvaren. Last ned programvaren for operativsystemet ditt [fra det offisielle nettstedet](https://threema.ch/en/download).
 
 
 
@@ -436,8 +436,8 @@ Gratulerer, du er nå i gang med å bruke Threema messaging, et flott alternativ
 
 
 
-Jeg anbefaler også denne andre veiledningen, der jeg introduserer deg for Proton Mail, et mye mer personvernvennlig alternativ til Gmail :
+Jeg anbefaler også denne andre veiledningen, der jeg introduserer deg for Proton Mail, et mye mer personvernvennlig alternativ til Gmail:
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

@@ -1,0 +1,10 @@
+question: Ni gute ubushobozi bw’ugucuruza Bitcoin buharurwa mu bijanye n’ubuzima bwite?
+answer: Mu kugereranya entropi nyayo y’ugucuruza n’entropi ishoboka cane.
+wrong_answers:
+  - Mu kugwiza umubare w’ibintu vyinjizwa n’umubare w’ibintu bisohoka.
+  - Mu kugwiza entropie nyayo y’ugucuruza n’umubare w’ibintu vyinjizwa n’ibisohoka.
+  - Mu kugereranya umubare w’ibintu vyinjizwa n’umubare w’ibintu bisohoka.
+explanation: |
+  Ubushobozi bw’ugucuruza buharurwa mu kugabanya entropie nkuru ku entropie nyayo y’ugucuruza kwasuzumwe.
+  
+reviewed: false

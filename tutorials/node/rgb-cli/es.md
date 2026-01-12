@@ -14,7 +14,7 @@ Un contrato RGB se estructura como una máquina de estados evolutiva. Comienza c
 
 Para saber más sobre cómo funciona el protocolo RGB, te recomiendo que sigas este completo curso de formación:
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 La lógica interna de RGB se basa en bibliotecas Rust que ustedes, como desarrolladores, pueden importar a sus proyectos para gestionar la parte de *Validación del lado del cliente*. Además, el equipo de LNP/BP está trabajando en bindings para otros lenguajes, pero aún no se ha finalizado. Además, otras entidades como Bitfinex están desarrollando sus propias pilas de integración, pero hablaremos de ellas en otro tutorial. Por el momento, la CLI `rgb` es la referencia oficial, aunque siga estando relativamente sin pulir.
 
@@ -135,8 +135,8 @@ He aquí un ejemplo de archivo YAML a crear:
 interface: RGB20Fixed
 globals:
 spec:
-ticker: PBN
-name: Plan B Network
+ticker: Plan ₿ Academy
+name: Plan ₿ Academy
 details: "Pay attention: the asset has no value"
 precision: 2
 terms:
@@ -180,7 +180,7 @@ rgb contracts
 
 ![RGB-CLI](assets/fr/07.webp)
 
-A continuación, el siguiente comando muestra los estados globales (nombre, ticker, suministro...) y la lista de estados propios, es decir, asignaciones (por ejemplo, 1 millón de monedas `PBN` definidas en UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+A continuación, el siguiente comando muestra los estados globales (nombre, ticker, suministro...) y la lista de estados propios, es decir, asignaciones (por ejemplo, 1 millón de monedas `Plan ₿ Academy` definidas en UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 ```bash
 rgb state '<ContractId>'
@@ -309,4 +309,4 @@ Ahora ya sabes cómo emitir y transferir un contrato RGB. Si este tutorial te ha
 
 También recomiendo este otro tutorial en el que explico cómo lanzar un nodo Lightning compatible con RGB para intercambiar tokens de forma casi instantánea:
 
-https://planb.network/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea
+https://planb.academy/tutorials/node/others/rln-ffc02528-329b-4e16-bd83-873d0299feea

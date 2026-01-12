@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe nyamukuru Bitcoin Wallet ifise?
+answer: Gucungera no kurinda imfunguruzo z'ibanga
+wrong_answers:
+  - Bika ama bitcoins y'ukoresha
+  - Kumenya neza ibanga ry'ibikorwa vy'ubudandaji ubwavyo
+  - generate bitcoins ku muntu wese akoresha
+explanation: |
+  Bitcoin Wallet ntibika ataco bimaze bitcoins ariko icungera imfunguruzo z’ibanga zikenewe kugira ngo ufungure UTXOs ziseruka bitcoins.
+reviewed: false

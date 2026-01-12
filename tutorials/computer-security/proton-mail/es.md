@@ -1,5 +1,5 @@
 ---
-name: Correo Proton
+name: Proton Mail
 description: Configurar un buzón seguro
 ---
 ![cover](assets/cover.webp)
@@ -90,7 +90,7 @@ Utilizar un gestor de contraseñas es una práctica excelente. No sólo le permi
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![proton](assets/notext/07.webp)
 
@@ -224,7 +224,7 @@ Para más información, echa un vistazo a nuestro tutorial sobre cómo utilizar 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 En la pestaña "*Idioma y hora*" puedes cambiar el idioma y la zona horaria de Interface.
 
@@ -306,7 +306,7 @@ La pestaña "*Filtros*" te permite gestionar los filtros de los correos electró
 
 
 
-La pestaña "Reenvío y respuesta automática*" le permite gestionar el reenvío y la respuesta automática de sus correos electrónicos.
+La pestaña **"Reenvío y respuesta automática"** le permite gestionar el reenvío y la respuesta automática de sus correos electrónicos.
 
 
 

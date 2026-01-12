@@ -6,4 +6,4 @@ wrong_answers:
   - SRV (Service Locator)
 explanation: |
   L’enregistrement SOA définit l’autorité de la zone et est indispensable pour chaque fichier de zone DNS.
-reviewed: false
+reviewed: true 

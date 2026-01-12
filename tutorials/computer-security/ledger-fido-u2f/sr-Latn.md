@@ -1,5 +1,5 @@
 ---
-name: Ledger U2F & FIDO2
+name: "Ledger U2F & FIDO2"
 description: Poboljšajte svoju online sigurnost uz Ledger
 ---
 ![cover](assets/cover.webp)
@@ -46,7 +46,7 @@ Povežite svoj Ledger sa računarom i otključajte ga.
 
 
 
-Da biste instalirali aplikaciju, otvorite softver [Ledger Live] (https://www.Ledger.com/Ledger-live), zatim idite na karticu "*My Ledger*". Pronađite aplikaciju "*Security Key*" i instalirajte je na svoj uređaj.
+Da biste instalirali aplikaciju, otvorite softver [Ledger Live](https://www.Ledger.com/Ledger-live), zatim idite na karticu "*My Ledger*". Pronađite aplikaciju "*Security Key*" i instalirajte je na svoj uređaj.
 
 
 
@@ -162,7 +162,7 @@ Preporučujem da ovaj kod čuvate na drugom mestu od mesta gde čuvate svoju gla
 
 
 
-Ovaj pristup vam nudi dva nivoa bekapa u slučaju gubitka vašeg Ledger za 2FA autentifikaciju: prvi bekap koristeći Mnemonic frazu za sve vaše naloge, i drugi, specifičan za nalog, koristeći hitne kodove. Međutim, važno je **ne pomešati Mnemonic ulogu sa ulogom hitnog koda** :
+Ovaj pristup vam nudi dva nivoa bekapa u slučaju gubitka vašeg Ledger za 2FA autentifikaciju: prvi bekap koristeći Mnemonic frazu za sve vaše naloge, i drugi, specifičan za nalog, koristeći hitne kodove. Međutim, važno je **ne pomešati Mnemonic ulogu sa ulogom hitnog koda**:
 
 
 
@@ -180,4 +180,4 @@ Preporučio bih i ovaj drugi vodič, u kojem razmatramo drugo rešenje za U2F i 
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

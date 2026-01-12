@@ -5,5 +5,5 @@ wrong_answers:
   - Secure closure, automated closure, closure with loss of funds
   - Direct closure, indirect closure, closure with claim
 explanation: |
-  There are three methods: cooperative closure where the parties agree, forced closure without a response from one party, and closure with cheating where a party attempts to publish an old transaction.
-reviewed: false
+  There are three methods: cooperative closure, where the parties agree; forced closure without a response from one party; and closure with cheating, where a party attempts to publish an old transaction.
+reviewed: true

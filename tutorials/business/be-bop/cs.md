@@ -15,7 +15,7 @@ description: Praktický průvodce zpeněžením vašeho podnikání pomocí be-B
 
 
 
-V tomto návodu vás krok za krokem provedeme :
+V tomto návodu vás krok za krokem provedeme:
 
 
 
@@ -44,7 +44,7 @@ Než začnete instalovat be-BOP, ujistěte se, že máte k dispozici následují
 
 
 
-be-BOP používá ke správě souborů (například obrázků produktů) systém ukládání. To vyžaduje přístup ke službě S3, například :
+be-BOP používá ke správě souborů (například obrázků produktů) systém ukládání. To vyžaduje přístup ke službě S3, například:
 
 
 
@@ -62,10 +62,10 @@ Je třeba nakonfigurovat kbelík a zadat následující informace:
 
 
 
-- S3_BUCKET**: název kbelíku
-- S3_ENDPOINT_URL**: přístupový odkaz ke službě S3
-- S3_KEY_ID** a S3_KEY_SECRET: vaše přístupové kódy
-- S3_REGION**: region vaší služby S3
+- **S3_BUCKET**: název kbelíku
+- **S3_ENDPOINT_URL**: přístupový odkaz ke službě S3
+- **S3_KEY_ID** a **S3_KEY_SECRET**: vaše přístupové kódy
+- **S3_REGION**: region vaší služby S3
 
 
 
@@ -94,8 +94,8 @@ Budete potřebovat následující proměnné:
 
 
 
-- MONGODB_URL**: připojení k databázi Address
-- MONGODB_DB**: název databáze
+- **MONGODB_URL**: připojení k databázi Address
+- **MONGODB_DB**: název databáze
 
 
 
@@ -302,7 +302,7 @@ Pokud nechcete spravovat uzel Lightning sami, **Swiss Bitcoin Pay** je řešení
 
 
 
-Kroky konfigurace :
+Kroky konfigurace:
 
 
 
@@ -330,7 +330,7 @@ Kromě služby Bitcoin umožňuje be-BOP přijímat platby v hotovosti také pro
 
 
 
-Kroky konfigurace :
+Kroky konfigurace:
 
 
 
@@ -348,7 +348,7 @@ Kroky konfigurace :
 
 
 
-**Poznámka:** Abyste mohli tyto identifikátory generate používat, musíte mít firemní účet PayPal. Můžete je získat prostřednictvím portálu [pro vývojáře] (https://developer.paypal.com)
+**Poznámka:** Abyste mohli tyto identifikátory generate používat, musíte mít firemní účet PayPal. Můžete je získat prostřednictvím portálu [pro vývojáře](https://developer.paypal.com)
 
 
 
@@ -467,15 +467,15 @@ Konfigurace **Top Bar** umožňuje přizpůsobit vizuální identitu softwaru zo
 
 
 
-#### Kroky konfigurace :
+#### Kroky konfigurace:
 
 
 
 
 
 - Do pole `Brand name` zadejte název své společnosti, organizace nebo produktu. Tento název se zobrazí v horní části Interface a bude představovat vaši hlavní vizuální identitu.
-- Uveďte název webové stránky**: zvolený název by měl shrnovat účel platformy. Tento název se může objevit v záhlaví nebo na kartě prohlížeče.
-- Přidat popis webové stránky**: zde zadejte stručný popis své iniciativy. Tento popis pomáhá kontextualizovat nástroj pro uživatele a může být také použit pro účely SEO.
+- **Uveďte název webové stránky**: zvolený název by měl shrnovat účel platformy. Tento název se může objevit v záhlaví nebo na kartě prohlížeče.
+- **Přidat popis webové stránky**: zde zadejte stručný popis své iniciativy. Tento popis pomáhá kontextualizovat nástroj pro uživatele a může být také použit pro účely SEO.
 
 
 
@@ -491,16 +491,16 @@ Sekce `Odkazy` na horním panelu umožňuje přidávat zkratky na důležité st
 
 
 
-#### Kroky konfigurace :
+#### Kroky konfigurace:
 
 
 
 
 
-- Zadejte název odkazu (Text)**: do pole `Text` zadejte název nebo označení odkazu tak, jak se bude zobrazovat (např. Home, Contact, Help...).
-- Uveďte odkaz Address (Url)**: do pole `Url` zadejte celý odkaz Address cílové stránky (interní nebo externí).
-- V případě potřeby přidejte další odkazy**: každý konfigurační řádek umožňuje přidat další odkaz pomocí polí `Text` a `Url`.
-- Uložení odkazů**: Po zadání všech odkazů je uložte kliknutím na tlačítko "Přidat odkaz na horní lištu".
+- **Zadejte název odkazu (Text)**: do pole `Text` zadejte název nebo označení odkazu tak, jak se bude zobrazovat (např. Home, Contact, Help...).
+- Uveďte odkaz **Address (Url)**: do pole `Url` zadejte celý odkaz Address cílové stránky (interní nebo externí).
+- V případě potřeby přidejte další odkazy: každý konfigurační řádek umožňuje přidat další odkaz pomocí polí `Text` a `Url`.
+- **Uložení odkazů**: Po zadání všech odkazů je uložte kliknutím na tlačítko "Přidat odkaz na horní lištu".
 
 
 
@@ -522,10 +522,10 @@ V části **Navigační panel** můžete nakonfigurovat hlavní navigační nab�
 
 
 
-- Zadejte název odkazu (`Text`)**: na konfiguračním řádku začněte vyplněním pole `Text`. To odpovídá názvu odkazu zobrazeného v navigačním panelu (příklady: *Dashboard*, *Users*, *Settings*...).
-- Zadejte odkaz Address (`Url`)**: vedle pole `Text` se nachází pole `Url`. Do tohoto pole zadejte číslo Address stránky, na kterou má odkaz přesměrovat. Může se jednat o interní cestu nebo odkaz na externí stránku.
-- V případě potřeby přidejte více odkazů**: pod prvním řádkem jsou k dispozici nová pole `Text` a `Url` pro přidání libovolného počtu odkazů. Každý řádek představuje další navigační odkaz.
-- Uložení odkazů**: Po zadání všech údajů Elements klikněte na tlačítko `Přidat odkaz na navigační lištu`, čímž uložíte a zobrazíte výsledky na navigační liště.
+- Zadejte název odkazu (**Text**): na konfiguračním řádku začněte vyplněním pole `Text`. To odpovídá názvu odkazu zobrazeného v navigačním panelu (příklady: *Dashboard*, *Users*, *Settings*...).
+- Zadejte odkaz Address (`Url`): vedle pole `Text` se nachází pole `Url`. Do tohoto pole zadejte číslo Address stránky, na kterou má odkaz přesměrovat. Může se jednat o interní cestu nebo odkaz na externí stránku.
+- V případě potřeby přidejte více odkazů: pod prvním řádkem jsou k dispozici nová pole `Text` a `Url` pro přidání libovolného počtu odkazů. Každý řádek představuje další navigační odkaz.
+- **Uložení odkazů**: Po zadání všech údajů Elements klikněte na tlačítko `Přidat odkaz na navigační lištu`, čímž uložíte a zobrazíte výsledky na navigační liště.
 
 
 
@@ -547,11 +547,11 @@ Sekce **Patička** umožňuje přizpůsobit patičku softwaru a přidat do ní u
 
 
 
-- Povolit zobrazení štítku "Powered by be-BOP "**: aktivujte tlačítko `Zobrazit Powered by be-BOP`, aby se tento štítek zobrazil v zápatí.
-- Zadejte název odkazu (`Text`)**: vyplňte pole `Text`, které odpovídá znění odkazu v zápatí (příklady: *Podmínky*, *Soukromí*, *Kontakt*...).
-- Uveďte odkaz Address (`Url`)**: do pole `Url` zadejte odkaz Address cílové stránky (interní nebo externí).
-- V případě potřeby přidejte další odkazy**: pomocí dalších řádků vytvořte libovolný počet odkazů.
-- Uložení odkazů**: odkazy uložíte kliknutím na tlačítko "Přidat odkaz v zápatí".
+- Povolit zobrazení štítku **"Powered by be-BOP"**: aktivujte tlačítko `Zobrazit Powered by be-BOP`, aby se tento štítek zobrazil v zápatí.
+- Zadejte název odkazu (**Text**): vyplňte pole `Text`, které odpovídá znění odkazu v zápatí (příklady: *Podmínky*, *Soukromí*, *Kontakt*...).
+- Uveďte odkaz Address (`Url`): do pole `Url` zadejte odkaz Address cílové stránky (interní nebo externí).
+- V případě potřeby přidejte další odkazy: pomocí dalších řádků vytvořte libovolný počet odkazů.
+- **Uložení odkazů**: odkazy uložíte kliknutím na tlačítko "Přidat odkaz v zápatí".
 
 
 
@@ -641,8 +641,8 @@ Tato část je přístupná přes `Admin > Identita` (nebo `Nastavení > Identit
 
 
 
-- Obchodní název**: oficiální název společnosti.
-- IČO**: právní identifikátor nebo registrační číslo (RCCM, SIRET...).
+- **Obchodní název**: oficiální název společnosti.
+- **IČO**: právní identifikátor nebo registrační číslo (RCCM, SIRET...).
 
 
 
@@ -652,11 +652,11 @@ Tato část je přístupná přes `Admin > Identita` (nebo `Nastavení > Identit
 
 
 
-- Street**: poštovní číslo Address (ulice, číslo...).
-- Země**: země.
-- Stát**: provincie nebo region.
-- Město**: město.
-- PSČ**: poštovní směrovací číslo.
+- **Street**: poštovní číslo Address (ulice, číslo...).
+- **Země**: země.
+- **Stát**: provincie nebo region.
+- **Město**: město.
+- **PSČ**: poštovní směrovací číslo.
 
 
 
@@ -666,8 +666,8 @@ Tato část je přístupná přes `Admin > Identita` (nebo `Nastavení > Identit
 
 
 
-- E-mail**: profesionální e-mail Address.
-- Telefon**: telefonní číslo společnosti.
+- **E-mail**: profesionální e-mail Address.
+- **Telefon**: telefonní číslo společnosti.
 
 
 
@@ -677,10 +677,10 @@ Tato část je přístupná přes `Admin > Identita` (nebo `Nastavení > Identit
 
 
 
-- Jméno držitele účtu**: jméno držitele účtu.
-- Držitel účtu Address**: Address držitele.
-- IBAN**: Číslo mezinárodního bankovního účtu.
-- BIC**: SWIFT/BIC kód.
+- **Jméno držitele účtu**: jméno držitele účtu.
+- **Držitel účtu Address**: Address držitele.
+- **IBAN**: Číslo mezinárodního bankovního účtu.
+- **BIC**: SWIFT/BIC kód.
 
 
 
@@ -695,7 +695,7 @@ Tato část je přístupná přes `Admin > Identita` (nebo `Nastavení > Identit
 
 
 - Kliknutím na `Vyplnit hlavními údaji obchodu` předvyplníte údaje.
-- Velmi pravdivé informace o vydavateli**: pole pro právní/daňové informace viditelné na fakturách.
+- Velmi pravdivé informace o **vydavateli**: pole pro právní/daňové informace viditelné na fakturách.
 - Kliknutím na tlačítko `Aktualizovat` uložte změny.
 
 
@@ -742,9 +742,9 @@ Chcete-li přidat nebo upravit produkt, přejděte na `Admin > Merch > Products`
 
 
 
-- Název produktu**: název produktu (např. *BOP T-shirt limited edition*).
-- Slimák**: Např. `tshirt-bop-edition-limitee`).
-- Alias** *(nepovinné)*: užitečné pro rychlé přidání do košíku prostřednictvím vyhrazeného pole.
+- **Název produktu**: název produktu (např. *BOP T-shirt limited edition*).
+- **Slimák**: Např. `tshirt-bop-edition-limitee`).
+- **Alias** *(nepovinné)*: užitečné pro rychlé přidání do košíku prostřednictvím vyhrazeného pole.
 
 
 
@@ -758,9 +758,9 @@ Chcete-li přidat nebo upravit produkt, přejděte na `Admin > Merch > Products`
 
 
 
-- Cena**: cena produktu (např. `25,00`).
-- Cena Měna**: měna (EUR, USD, BTC atd.).
-- Speciální produkty** :
+- **Cena**: cena produktu (např. `25,00`).
+- **Cena Měna**: měna (EUR, USD, BTC atd.).
+- **Speciální produkty**:
   - jedná se o bezplatný produkt.
   - jedná se o produkt, za který se platí.
 
@@ -772,14 +772,14 @@ Chcete-li přidat nebo upravit produkt, přejděte na `Admin > Merch > Products`
 
 
 
-- Jednotlivý produkt (`samostatný`)**: v jedné objednávce je možné přidat pouze jeden produkt (např. dar, vstupenku).
-- Výrobek s variantami** :
+- Jednotlivý produkt (`samostatný`): v jedné objednávce je možné přidat pouze jeden produkt (např. dar, vstupenku).
+- **Výrobek s variantami**:
   - Nezkoušejte `Standalone`.
   - Zaškrtněte políčko `Výrobek má lehké odchylky (bez rozdílu skladových zásob)`.
-  - Přidat :
-    - Název** (např. *Velikost*),
-    - Hodnoty** (např.: S, M, L, XL),
-    - Případné cenové rozdíly** (např.: `+2 USD` za XL).
+  - Přidat:
+- **Název** (např. *Velikost*),
+- **Hodnoty** (např.: S, M, L, XL),
+- Případné **cenové rozdíly** (např.: `+2 USD` za XL).
 
 
 
@@ -803,14 +803,14 @@ Pokud váš produkt není k dispozici v neomezeném množství, zaškrtněte pol
 
 
 
-Systém spravuje :
+Systém spravuje:
 
 
 
 
 
-- Rezervované zásoby** → produkty v košících, které ještě nebyly zaplaceny
-- Prodané zásoby** → již zakoupené produkty
+- **Rezervované zásoby** → produkty v košících, které ještě nebyly zaplaceny
+- **Prodané zásoby** → již zakoupené produkty
 
 
 
@@ -832,8 +832,8 @@ Zaškrtněte políčko `Výrobek má fyzickou součást, která bude odeslána n
 
 
 
-- Vstupenka**: zaškrtněte, pokud je produkt vstupenkou na událost
-- Rezervace**: zkontrolujte, zda se jedná o rezervační slot (např.: sezení, schůzka)
+- **Vstupenka**: zaškrtněte, pokud je produkt vstupenkou na událost
+- **Rezervace**: zkontrolujte, zda se jedná o rezervační slot (např.: sezení, schůzka)
 
 
 
@@ -872,7 +872,7 @@ Přejděte na `Admin > Merch > CMS`. Zobrazí se seznam existujících stránek 
 
 
 
-Stránky CMS jsou důležité pro :
+Stránky CMS jsou důležité pro:
 
 
 
@@ -898,7 +898,7 @@ Podle potřeby můžete přidat další stránky:
 
 
 
-**Tip: Kliknutím na každý odkaz nebo ikonu můžete upravit **obsah**, **název** nebo **viditelnost** každé stránky.
+**Tip: Kliknutím na každý odkaz nebo ikonu můžete upravit** obsah, název nebo viditelnost **každé stránky.**
 
 
 
@@ -906,7 +906,7 @@ Podle potřeby můžete přidat další stránky:
 
 
 
-Přejít na : `Admin > Merch > Layout`. Můžete si přizpůsobit vizuální stránku Elements:
+Přejít na: `Admin > Merch > Layout`. Můžete si přizpůsobit vizuální stránku Elements:
 
 
 
@@ -932,7 +932,7 @@ Přejít na : `Admin > Merch > Layout`. Můžete si přizpůsobit vizuální str
 
 
 - V šedé oblasti pod horní lištou
-- Obsahuje rychlý přístup k : `Konfigurace`, `Nastavení plateb`, `Transakce`, `Správa uzlů`, `Widgety` atd.
+- Obsahuje rychlý přístup k: `Konfigurace`, `Nastavení plateb`, `Transakce`, `Správa uzlů`, `Widgety` atd.
 - Pouze ředitelé
 
 
@@ -956,7 +956,7 @@ Přejít na: `Admin > Merch > Pictures`
 
 
 
-Můžete :
+Můžete:
 
 
 
@@ -983,7 +983,7 @@ V závislosti na tématu lze také upravovat v části `Obrázky` a umožňuje z
 
 
 
-Widgety** obohacují stránky CMS o dynamické nebo vizuální prvky Elements.
+**Widgety** obohacují stránky CMS o dynamické nebo vizuální prvky Elements.
 
 
 
@@ -1001,14 +1001,14 @@ Příklady dostupných widgetů:
 
 
 
-- Výzvy**: výzvy nebo mise
-- Štítky**: kategorie nebo klíčová slova
-- Posuvníky**: karusely obrázků
-- Specifikace** : Tabulky specifikací
-- Formuláře**: formuláře (kontakt, zpětná vazba atd.)
-- Odpočítávání**: časovače
-- Galerie**: galerie obrázků
-- Žebříčky**: hodnocení uživatelů
+- **Výzvy**: výzvy nebo mise
+- **Štítky**: kategorie nebo klíčová slova
+- **Posuvníky**: karusely obrázků
+- **Specifikace**: Tabulky specifikací
+- **Formuláře**: formuláře (kontakt, zpětná vazba atd.)
+- **Odpočítávání**: časovače
+- **Galerie**: galerie obrázků
+- **Žebříčky**: hodnocení uživatelů
 
 
 
@@ -1033,7 +1033,7 @@ V obsahu stránek CMS používejte **šortkové kódy**:
 | Ajouter un compte à rebours | `[Countdown=slug]`                 |
 | Intégrer un formulaire   | `[Form=slug]`                         |
 
-**Aktuální parametry** :
+**Aktuální parametry**:
 
 
 
@@ -1046,7 +1046,7 @@ V obsahu stránek CMS používejte **šortkové kódy**:
 
 
 
-**Výhody** :
+**Výhody**:
 
 
 
@@ -1103,7 +1103,7 @@ Tyto filtry usnadňují rychlé vyhledávání a cílenou správu.
 
 
 
-Kliknutím na objednávku získáte přístup ke kompletnímu souboru obsahujícímu :
+Kliknutím na objednávku získáte přístup ke kompletnímu souboru obsahujícímu:
 
 
 
@@ -1120,7 +1120,7 @@ Kliknutím na objednávku získáte přístup ke kompletnímu souboru obsahujíc
 
 
 
-Můžete :
+Můžete:
 
 
 
@@ -1141,7 +1141,7 @@ Můžete :
 
 
 
-Přístup ke statistikám prodeje a plateb :
+Přístup ke statistikám prodeje a plateb:
 
 
 správce > Nastavení > Hlášení
@@ -1166,9 +1166,9 @@ Zprávy jsou rozděleny do oddílů:
 
 
 
-- Detail objednávky**: počet objednávek, stav (potvrzené, zrušené, čekající), vývoj
-- Detail produktu**: prodané produkty, množství, oblíbené produkty
-- Detail platby**: vybrané částky, rozdělení podle způsobu platby
+- **Detail objednávky**: počet objednávek, stav (potvrzené, zrušené, čekající), vývoj
+- **Detail produktu**: prodané produkty, množství, oblíbené produkty
+- **Detail platby**: vybrané částky, rozdělení podle způsobu platby
 
 
 
@@ -1176,7 +1176,7 @@ Zprávy jsou rozděleny do oddílů:
 
 
 
-Každá sekce obsahuje tlačítko **Export CSV**, které umožňuje :
+Každá sekce obsahuje tlačítko **Export CSV**, které umožňuje:
 
 
 
@@ -1217,7 +1217,7 @@ Platforma podporuje protokol **Nostr** pro některé pokročilé funkce:
 
 
 
-Přejít na :
+Přejít na:
 
 
 admin > Správa uzlů > Nostr
@@ -1226,7 +1226,7 @@ admin > Správa uzlů > Nostr
 
 
 
-- Pokud nemáte nsec**, klikněte na **Vytvořit nsec**.
+- Pokud nemáte **nsec**, klikněte na **Vytvořit nsec**.
 - Systém generate to dokáže automaticky.
 - Případně můžete použít existující klíč (např. od Damusu nebo Ametystu).
 
@@ -1304,15 +1304,15 @@ Zde najdete všechny možnosti pro **vytvoření** a **konfiguraci** vlastního 
 
 
 
-Při vytváření nebo úpravě motivu můžete definovat :
+Při vytváření nebo úpravě motivu můžete definovat:
 
 
 
 
 
-- Barvy**: pro tlačítka, pozadí, text, odkazy atd.
-- Písma**: výběr řezů písma pro nadpisy, odstavce a nabídky
-- Grafické styly**: okraje, okraje, mezery, blokové tvary
+- **Barvy**: pro tlačítka, pozadí, text, odkazy atd.
+- **Písma**: výběr řezů písma pro nadpisy, odstavce a nabídky
+- **Grafické styly**: okraje, okraje, mezery, blokové tvary
 
 
 
@@ -1326,9 +1326,9 @@ Každou část webu lze upravit samostatně:
 
 
 
-- Záhlaví**: horní navigační panel
-- Tělo**: hlavní obsah
-- Zápatí** : spodní část stránky
+- **Záhlaví**: horní navigační panel
+- **Tělo**: hlavní obsah
+- **Zápatí**: spodní část stránky
 
 
 
@@ -1340,7 +1340,7 @@ Každou část webu lze upravit samostatně:
 
 
 
-Jakmile je téma nakonfigurováno :
+Jakmile je téma nakonfigurováno:
 
 
 
@@ -1371,14 +1371,14 @@ Platforma umožňuje přizpůsobit e-maily automaticky zasílané uživatelům. 
 
 
 
-Každý e-mail (potvrzení objednávky, zapomenuté heslo atd.) má :
+Každý e-mail (potvrzení objednávky, zapomenuté heslo atd.) má:
 
 
 
 
 
-- Předmět**: předmět e-mailu (např. "Vaše objednávka byla potvrzena")
-- Tělo HTML**: Obsah HTML zobrazený v e-mailu
+- **Předmět**: předmět e-mailu (např. "Vaše objednávka byla potvrzena")
+- **Tělo HTML**: Obsah HTML zobrazený v e-mailu
 
 
 
@@ -1390,14 +1390,14 @@ Každý e-mail (potvrzení objednávky, zapomenuté heslo atd.) má :
 
 
 
-Chcete-li, aby e-maily byly dynamické, vložte proměnné, například :
+Chcete-li, aby e-maily byly dynamické, vložte proměnné, například:
 
 
 
 
 
-- `{orderNumber}}` : nahrazeno skutečným číslem objednávky
-- `{invoiceLink}}` : odkaz na Invoice
+- `{orderNumber}}`: nahrazeno skutečným číslem objednávky
+- `{invoiceLink}}`: odkaz na Invoice
 - `{websiteLink}}`: URL vaší webové stránky
 
 
@@ -1444,9 +1444,9 @@ Vyplňte následující pole:
 
 
 
-- Tag Name**: zobrazený název tagu
-- Slug**: jedinečný identifikátor (bez mezer a diakritiky)
-- Tag Family**: seskupuje značky podle kategorií
+- **Tag Name**: zobrazený název tagu
+- **Slug**: jedinečný identifikátor (bez mezer a diakritiky)
+- **Tag Family**: seskupuje značky podle kategorií
 
 
 
@@ -1454,7 +1454,7 @@ Vyplňte následující pole:
 
 
 
-#### Dostupné rodiny :
+#### Dostupné rodiny:
 
 
 
@@ -1479,9 +1479,9 @@ Tato pole lze použít k obohacení značky, jako by se jednalo o stránku s obs
 
 - Název
 - Podtitul
-- Krátký** obsah
-- Celý obsah** (ve francouzštině)
-- CTA** (akční tlačítka)
+- **Krátký** obsah
+- **Celý obsah** (ve francouzštině)
+- **CTA** (akční tlačítka)
 
 
 
@@ -1489,7 +1489,7 @@ Tato pole lze použít k obohacení značky, jako by se jednalo o stránku s obs
 
 
 
-Tagy mohou být :
+Tagy mohou být:
 
 
 
@@ -1515,13 +1515,13 @@ Nabídka dokumentů ke stažení pro vaše zákazníky: `Admin > Merch > Files`
 1. Klikněte na **Nový soubor**
 
 
-2. Informovat :
+2. Informovat:
 
 
 
 
-   - Název souboru** (např. *Instalační příručka*)
-   - Soubor k nahrání** (PDF, obrázek, Word...)
+- **Název souboru** (např. *Instalační příručka*)
+- **Soubor k nahrání** (PDF, obrázek, Word...)
 
 
 
@@ -1533,13 +1533,13 @@ Nabídka dokumentů ke stažení pro vaše zákazníky: `Admin > Merch > Files`
 
 
 
-Tento odkaz pak lze vložit do :
+Tento odkaz pak lze vložit do:
 
 
 
 
 
-- Stránka CMS** (jako textový odkaz nebo tlačítko)
+- Stránka **CMS** (jako textový odkaz nebo tlačítko)
 - **e-mailový klient** (prostřednictvím šablony)
 - **produktový list** (např. manuál ke stažení)
 
@@ -1557,7 +1557,7 @@ Platforma nabízí pokročilou integraci s protokolem **Nostr** prostřednictví
 
 
 
-Přejděte na : Správa uzlů > Nostr
+Přejděte na: Správa uzlů > Nostr
 
 
 
@@ -1583,7 +1583,7 @@ Přejděte na : Správa uzlů > Nostr
 
 
 - Aktivace automatické zprávy při **první interakci uživatele**
-- Ideální pro :
+- Ideální pro:
   - Představení služby
   - Odeslání užitečného odkazu (např. FAQ, kontakt, objednávka)
 
@@ -1629,19 +1629,19 @@ Chcete-li tak učinit, přejděte na: `Nastavení > Jazyk`
 
 
 
-Překladové soubory jsou ve formátu JSON. Můžete :
+Překladové soubory jsou ve formátu JSON. Můžete:
 
 
 
 
 
-- Stáhnout** jazykové soubory
-- Upravit** stávající texty
-- Přidejte** vlastní překlady
+- **Stáhnout** jazykové soubory
+- **Upravit** stávající texty
+- Přidejte **vlastní překlady**
 
 
 
-Odkaz na původní soubory :
+Odkaz na původní soubory:
 
 
 [https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations](https://github.com/be-BOP-io-SA/be-BOP/tree/main/src/lib/translations)
@@ -1672,15 +1672,15 @@ Kliknutím na **Vytvořit roli** vytvoříte roli (např. `Super Admin`, `POS`, 
 
 
 
-Každá role obsahuje :
+Každá role obsahuje:
 
 
 
 
 
-- přístup k zápisu**: přístup k zápisu
-- přístup pro čtení**: přístup pro čtení
-- zakázaný přístup**: sekce interdites
+- **přístup k zápisu**: přístup k zápisu
+- **přístup pro čtení**: přístup pro čtení
+- **zakázaný přístup**: sekce interdites
 
 
 
@@ -1688,7 +1688,7 @@ Každá role obsahuje :
 
 
 
-Ve stejné nabídce `Admin > Nastavení > ARM` přidejte uživatele s :
+Ve stejné nabídce `Admin > Nastavení > ARM` přidejte uživatele s:
 
 
 
@@ -1709,7 +1709,7 @@ Přiřazení dříve definované role.
 
 
 
-Uživatelé, kteří mají přístup pouze pro čtení**, uvidí nabídky v *italic* a nebudou moci měnit obsah.
+Uživatelé, kteří mají přístup pouze pro čtení, uvidí nabídky v *italic* a nebudou moci měnit obsah.
 
 
 
@@ -1760,7 +1760,7 @@ V poli `/cart` můžete přidat produkt:
 
 
 
-POS podporuje :
+POS podporuje:
 
 
 
@@ -1779,8 +1779,8 @@ K dispozici jsou dvě pokročilé možnosti:
 
 
 
-- Osvobození od DPH** : platí pro zdůvodnění (nevládní organizace, cizinci...)
-- Dárková sleva**: mimořádná sleva s povinným komentářem
+- **Osvobození od DPH**: platí pro zdůvodnění (nevládní organizace, cizinci...)
+- **Dárková sleva**: mimořádná sleva s povinným komentářem
 
 
 

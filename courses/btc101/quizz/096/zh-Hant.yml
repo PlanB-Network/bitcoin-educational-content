@@ -1,11 +1,13 @@
-question: 在 Bitcoin Wallet 中，私密金鑰通常代表什麼？
-answer: 包含 12 或 24 個單字的清單。
+question: 為您的比特幣建立繼承計劃的目的是什麼？
+answer: 確保您死後，您的 bitcoins 會被妥善管理。
 wrong_answers:
-  - 包含 12 或 48 個單字的清單。
-  - 32 個單字的清單。
-  - 包含 64 個單字的清單。
+  - 為了避免比特幣的稅收。
+  - 降低您的比特幣價值。
+  - 防止您的 bitcoins 被盜。
 explanation: |
-  在 Bitcoin Wallet 中，私人密碼匙通常以 12 或 24 個字來表示。
-  在 Bitcoin Wallet 中，私密金鑰通常由 12 或 24 個字組成，也稱為 seed 短語
-  或 Mnemonic 詞組。
+  繼承計畫可以確保您的比特幣在您去世後得到
+  妥善管理。它可以包括一封
+  一封手寫信，詳細說明您的資產、其存取
+  方法，以及值得信賴的人的聯絡資訊。
+  的聯絡資訊。
 reviewed: true

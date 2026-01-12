@@ -1,0 +1,9 @@
+question: Ku mashini ya Linux, ni igikoresho ikihe gishobora gusuzuma umutekano wa sisiteme hama kikaguha urutonde rw’ido n’ido ry’ivyakozwe hame n’impanuro?
+answer: Lynis
+wrong_answers:
+  - GIMP
+  - ufw
+  - Synaptic
+explanation: |
+  Lynis ni igikoresho co kugenzura umutekano kuri Linux, gipima ko hariho ubugoyagoye n’ibidatunganijwe neza.
+reviewed: true

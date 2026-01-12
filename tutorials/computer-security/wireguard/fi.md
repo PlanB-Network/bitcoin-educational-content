@@ -30,7 +30,7 @@ WireGuard on suhteellisen tuore ratkaisu, joka on ollut saatavilla vakaana versi
 
 
 
-Joitakin WireGuardia koskevia keskeisiä seikkoja :
+Joitakin WireGuardia koskevia keskeisiä seikkoja:
 
 
 
@@ -95,15 +95,15 @@ Tässä esimerkissä keskityn seuraavaan tapaukseen: **Haluan päästä kotiverk
 
 
 
-IP-osoitteiden osalta tämä antaa :
+IP-osoitteiden osalta tämä antaa:
 
 
 
 
 
-- Kotiverkko**: 192.168.1.0/24
-- Yritysverkko**: 192.168.100.0/24
-- WireGuard-tunneliverkko**: 192.168.110.0/24
+- **Kotiverkko**: 192.168.1.0/24
+- **Yritysverkko**: 192.168.100.0/24
+- **WireGuard-tunneliverkko**: 192.168.110.0/24
 
 
 + Peer 1:n (Windows) IP Address tunnelissa: 192.168.110.2/24
@@ -117,7 +117,7 @@ Siinä kaikki! Aloitetaan konfigurointi!
 
 
 
-**Huomaa: oletusarvoisesti WireGuard toimii UDP-tilassa **portissa 51820**.
+**Huomaa: oletusarvoisesti WireGuard toimii UDP-tilassa portissa 51820.**
 
 
 
@@ -179,7 +179,7 @@ wg genkey | sudo tee /etc/wireguard/wg-private.key | wg pubkey | sudo tee /etc/w
 
 
 
-Julkisen avaimen arvo palautetaan konsoliin. WireGuardin konfigurointitiedostoon on **lisättävä yksityisen avaimen arvo**. Voit hakea tämän arvon syöttämällä alla olevan komennon ja kopioimalla arvon :
+Julkisen avaimen arvo palautetaan konsoliin. WireGuardin konfigurointitiedostoon on **lisättävä yksityisen avaimen arvo**. Voit hakea tämän arvon syöttämällä alla olevan komennon ja kopioimalla arvon:
 
 
 
@@ -219,10 +219,10 @@ Jaksoa `[Interface]` käytetään palvelinosan ilmoittamiseen. Tässä on joitak
 
 
 
-- Address**: VPN-tunnelissa olevan Interface WireGuardin IP Address (eri aliverkko kuin etälähiverkko)
-- SaveConfig**: konfiguraatio tallennetaan (ja suojataan) niin kauan kuin Interface on aktiivinen
-- ListenPort**: WireGuardin kuunteluportti. Tässä tapauksessa 51820 on oletusportti, mutta voit muokata sitä
-- PrivateKey**: palvelimen yksityisen avaimen arvo (*wg-private.key*)
+- **Address**: VPN-tunnelissa olevan Interface WireGuardin IP Address (eri aliverkko kuin etälähiverkko)
+- **SaveConfig**: konfiguraatio tallennetaan (ja suojataan) niin kauan kuin Interface on aktiivinen
+- **ListenPort**: WireGuardin kuunteluportti. Tässä tapauksessa 51820 on oletusportti, mutta voit muokata sitä
+- **PrivateKey**: palvelimen yksityisen avaimen arvo (*wg-private.key*)
 
 
 
@@ -236,7 +236,7 @@ sudo wg-quick up wg0
 
 
 
-Jos luetat Debian 11 -palvelimesi IP-osoitteet, näet uuden Interface:n nimeltä "wg0", jonka IP Address on määritelty konfigurointitiedostossa :
+Jos luetat Debian 11 -palvelimesi IP-osoitteet, näet uuden Interface:n nimeltä "wg0", jonka IP Address on määritelty konfigurointitiedostossa:
 
 
 
@@ -282,11 +282,11 @@ Jätämme toistaiseksi sivuun WireGuardin palvelinpuolen konfiguroinnin.
 
 
 
-Jotta Debian 11 -koneemme voi **reitittää paketteja eri verkkojen välillä (kuten reititin)**, eli VPN-verkon ja paikallisverkon välillä, meidän on otettava käyttöön [IP Forwarding] (https://www.it-connect.fr/activer-lip-forwarding-sous-linux-ipv4ipv6/). Oletusarvoisesti tämä ominaisuus on poistettu käytöstä.
+Jotta Debian 11 -koneemme voi **reitittää paketteja eri verkkojen välillä (kuten reititin)**, eli VPN-verkon ja paikallisverkon välillä, meidän on otettava käyttöön [IP Forwarding](https://www.it-connect.fr/activer-lip-forwarding-sous-linux-ipv4ipv6/). Oletusarvoisesti tämä ominaisuus on poistettu käytöstä.
 
 
 
-Muokkaa tätä asetustiedostoa :
+Muokkaa tätä asetustiedostoa:
 
 
 
@@ -296,7 +296,7 @@ sudo nano /etc/sysctl.conf
 
 
 
-Lisää seuraava direktiivi tiedoston loppuun ja tallenna :
+Lisää seuraava direktiivi tiedoston loppuun ja tallenna:
 
 
 
@@ -318,7 +318,7 @@ Jotta palvelimemme reitittää paketit oikein ja jotta Windows-kone pääsee et�
 
 
 
-Jos sinulla ei vielä ole UFW:tä ja haluat asentaa sen (voit käyttää myös Nftablesia), aloita asentamalla :
+Jos sinulla ei vielä ole UFW:tä ja haluat asentaa sen (voit käyttää myös Nftablesia), aloita asentamalla:
 
 
 
@@ -372,7 +372,7 @@ Lisää nämä rivit tiedoston loppuun, jotta voit **aktivoida Interface ens192:
 
 ```
 # NAT - IP masquerade
-*nat
+*nat*
 :POSTROUTING ACCEPT [0:0]
 -A POSTROUTING -o ens192 -j MASQUERADE
 
@@ -382,7 +382,7 @@ COMMIT
 
 
 
-Kuvassa näkyy :
+Kuvassa näkyy:
 
 
 
@@ -475,7 +475,7 @@ Aloita avaamalla ohjelmisto uuden tunnelin luomiseksi. Napsauta tätä varten "*
 
 
 
-Määritysikkuna avautuu. Aina kun uusi tunnelikokoonpano luodaan, WireGuard luo kyseiselle kokoonpanolle ominaisen yksityisen/julkisen avainparin. **Tässä konfiguraatiossa meidän on ilmoitettava "peer" eli etäpalvelin:
+Määritysikkuna avautuu. Aina kun uusi tunnelikokoonpano luodaan, WireGuard luo kyseiselle kokoonpanolle ominaisen yksityisen/julkisen avainparin. **Tässä konfiguraatiossa meidän on ilmoitettava "peer" eli etäpalvelin:**
 
 
 
@@ -490,7 +490,7 @@ Meidän on täydennettävä tämä konfiguraatio, erityisesti ilmoitettava Inter
 
 
 
-Aloitetaan lohkosta `[Interface]` lisäämällä IP Address "**192.168.110.2**"; muista, että palvelimella on IP Address "**192.168.110.121**" tässä verkkosegmentissä. Näin saadaan :
+Aloitetaan lohkosta `[Interface]` lisäämällä IP Address "**192.168.110.2**"; muista, että palvelimella on IP Address "**192.168.110.121**" tässä verkkosegmentissä. Näin saadaan:
 
 
 
@@ -515,7 +515,7 @@ Endpoint = <ip-serveur-debian>:51820
 
 
 
-Kuvissa :
+Kuvissa:
 
 
 
@@ -523,15 +523,15 @@ Kuvissa :
 
 
 
-** Muutama selitys [Peer]-lohkosta:
+**Muutama selitys [Peer]-lohkosta:**
 
 
 
 
 
-- PublicKey**: tämä on WireGuard Debian 11 -palvelimen julkinen avain (saat sen arvon komennolla "*sudo wg*")
-- AllowedIPs**: nämä ovat IP-osoitteita / aliverkkoja, joihin pääsee tämän WireGuard VPN -verkon kautta, tässä tapauksessa WireGuard VPN:n oma aliverkko (*192.168.110.0/24*) ja etälähiverkko (*192.168.100.0/24*)
-- Endpoint**: tämä on Debian 11 -isäntäkoneen IP Address, koska tämä on WireGuard-yhteyspisteemme (sinun on määritettävä julkinen IP Address)
+- **PublicKey**: tämä on WireGuard Debian 11 -palvelimen julkinen avain (saat sen arvon komennolla "*sudo wg*")
+- **AllowedIPs**: nämä ovat IP-osoitteita / aliverkkoja, joihin pääsee tämän WireGuard VPN -verkon kautta, tässä tapauksessa WireGuard VPN:n oma aliverkko (*192.168.110.0/24*) ja etälähiverkko (*192.168.100.0/24*)
+- **Endpoint**: tämä on Debian 11 -isäntäkoneen IP Address, koska tämä on WireGuard-yhteyspisteemme (sinun on määritettävä julkinen IP Address)
 
 
 
@@ -625,7 +625,7 @@ sudo chmod 600 /etc/wireguard/ -R
 
 
 
-Nyt kun kokoonpano on valmis, voimme käynnistää sen Windows-tietokoneesta. Napsauta "**WireGuard**"-asiakasohjelmassa "**Activate**"-painiketta: yhteys muuttuu "Off"-asetuksesta "On"-asetukseksi, mutta se ei tarkoita, että se toimii. Kaikki riippuu siitä, onko konfiguraatiosi oikea vai ei. **Kun yhteys on muodostettu, kaksi konettamme kommunikoivat kummallekin puolelle määritetyn Interface WireGuardin kautta!
+Nyt kun kokoonpano on valmis, voimme käynnistää sen Windows-tietokoneesta. Napsauta **WireGuard**-asiakasohjelmassa **Activate**-painiketta: yhteys muuttuu "Off"-asetuksesta "On"-asetukseksi, mutta se ei tarkoita, että se toimii. Kaikki riippuu siitä, onko konfiguraatiosi oikea vai ei. **Kun yhteys on muodostettu, kaksi konettamme kommunikoivat kummallekin puolelle määritetyn Interface WireGuardin kautta!**
 
 
 
@@ -663,7 +663,7 @@ Etätietokoneestani voin pingata palvelimen puolella olevan Interface WireGuardi
 
 
 
-Pystyin WireGuard VPN:ään liitetystä etätietokoneestani käyttämään tiedostopalvelinta ja siirtämään tiedoston [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/) kautta nähdäkseni siirtonopeuden. **WireGuardin avulla maksimissaan noin 45 Mb/s, mikä on hienoa, koska käytän WiFiä
+Pystyin WireGuard VPN:ään liitetystä etätietokoneestani käyttämään tiedostopalvelinta ja siirtämään tiedoston [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/) kautta nähdäkseni siirtonopeuden. **WireGuardin avulla maksimissaan noin 45 Mb/s, mikä on hienoa, koska käytän WiFiä**
 
 
 
@@ -691,7 +691,7 @@ Nykyisessä kokoonpanossa osa liikenteestä kulkee VPN:n kautta ja osa asiakkaan
 
 
 
-Ensin sinun on asennettava resolvconf-paketti :
+Ensin sinun on asennettava resolvconf-paketti:
 
 
 
@@ -732,7 +732,7 @@ sudo wg-quick up /etc/wireguard/wg0.conf
 
 
 
-Lopuksi Windows 10 -työaseman tunnelin kokoonpanossa sinun on muutettava "AllowedIPs"-osiota siten, että kaiken on kuljettava tunnelin läpi. Korvaa :
+Lopuksi Windows 10 -työaseman tunnelin kokoonpanossa sinun on muutettava "AllowedIPs"-osiota siten, että kaiken on kuljettava tunnelin läpi. Korvaa:
 
 
 
@@ -742,7 +742,7 @@ AllowedIPs = 192.168.110.0/24, 192.168.100.0/24
 
 
 
-Kirjoittanut :
+Kirjoittanut:
 
 
 
@@ -752,7 +752,7 @@ AllowedIPs = 0.0.0.0/0
 
 
 
-Näet, että tämä aktivoi myös vaihtoehdon "**Kill switch*".
+Näet, että tämä aktivoi myös vaihtoehdon "**Kill switch**".
 
 
 
@@ -772,7 +772,7 @@ WireGuardin konfigurointi on melko yksinkertainen ja helppo ymmärtää ja ennen
 
 
 
-Lisäasiakirjat :
+Lisäasiakirjat:
 
 
 
@@ -783,4 +783,4 @@ Lisäasiakirjat :
 
 
 
-**WireGuard VPN on toiminnassa! Onnittelut!
+**WireGuard VPN on toiminnassa! Onnittelut!**

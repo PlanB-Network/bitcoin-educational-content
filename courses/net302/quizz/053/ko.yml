@@ -1,0 +1,9 @@
+question: 포트를 수정하여 수십 개의 디바이스가 하나의 공인 IP Address을 공유할 수 있는 NAT 모드는 무엇인가요?
+answer: PAT
+wrong_answers:
+  - 정적 NAT
+  - 동적 NAT
+  - 정적 라우팅
+explanation: |
+  NAT 과부하 또는 IP 마스킹이라고도 하는 PAT는 세션을 구분하기 위해 포트 번호를 변경하여 많은 장치가 동일한 공용 Address을 사용할 수 있도록 합니다.
+reviewed: false

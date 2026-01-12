@@ -22,7 +22,7 @@ ___
 
 
 
-**I den här handledningen kommer vi att lära oss att utföra en säkerhetsrevision på en Linux-maskin med Lynis! För de av er som inte känner till **Lynis,** är det ett litet kommandoradsverktyg som analyserar din servers konfiguration och ger rekommendationer för att **förbättra säkerheten för din maskin.**
+**I den här handledningen kommer vi att lära oss att utföra en säkerhetsrevision på en Linux-maskin med Lynis!** För de av er som inte känner till **Lynis**, är det ett litet kommandoradsverktyg som analyserar din servers konfiguration och ger rekommendationer för att **förbättra säkerheten för din maskin**.
 
 
 
@@ -51,14 +51,14 @@ Verktyget används av ett stort antal användare, bland annat systemadministrat�
 
 
 
-Projektet finns tillgängligt på denna Address på **Github** :
+Projektet finns tillgängligt på denna Address på **Github**:
 
 
 
 
 
 - [GitHub - Lynis](https://github.com/CISOfy/lynis)
-- [Ladda ner Lynis från CISOFY] (https://cisofy.com/lynis/#download)
+- [Ladda ner Lynis från CISOFY](https://cisofy.com/lynis/#download)
 
 
 
@@ -82,7 +82,7 @@ Detta installationsläge gör att du kan använda kommandot **lynis** var som he
 
 
 
-Anslut till din server via SSH och ange följande kommandon för att installera Lynis :
+Anslut till din server via SSH och ange följande kommandon för att installera Lynis:
 
 
 
@@ -209,7 +209,7 @@ Om du vill visa tillgängliga kommandon skriver du in följande kommando:
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -249,7 +249,7 @@ Det här är vad du får:
 
 
 
-Om du vill visa alla alternativ måste du trycka på :
+Om du vill visa alla alternativ måste du trycka på:
 
 
 
@@ -321,10 +321,10 @@ Därefter kommer Lynis att lista en uppsättning punkter som motsvarar allt han 
 
 
 
-- Röd** för kritiska Elements eller bästa praxis som inte respekteras (t.ex. ett paket som saknas), dvs. din server respekterar inte denna punkt
-- Gul** för förslag eller delvis efterlevnad av rekommendationen (låt oss säga att det är ett plus att följa en punkt som är markerad med denna färg (icke-prioriterad))
-- Green** för punkter där din serverkonfiguration är kompatibel
-- Vit**, när den är neutral
+- **Röd** för kritiska Elements eller bästa praxis som inte respekteras (t.ex. ett paket som saknas), dvs. din server respekterar inte denna punkt
+- **Gul** för förslag eller delvis efterlevnad av rekommendationen (låt oss säga att det är ett plus att följa en punkt som är markerad med denna färg (icke-prioriterad))
+- **Green** för punkter där din serverkonfiguration är kompatibel
+- **Vit**, när den är neutral
 
 
 
@@ -336,7 +336,7 @@ Här kan vi se att Lynis rekommenderar att du installerar **fail2ban**:
 
 
 
-I avsnittet "**Start och tjänster**" ser vi att tjänsteskyddet via *systemd* kan förbättras. På den positiva sidan är Grub2 närvarande och det finns inga problem med behörigheter på :
+I avsnittet "**Start och tjänster**" ser vi att tjänsteskyddet via *systemd* kan förbättras. På den positiva sidan är Grub2 närvarande och det finns inga problem med behörigheter på:
 
 
 
@@ -598,16 +598,16 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 
 
 
-Lite information om de installerade paketen :
+Lite information om de installerade paketen:
 
 
 
 
 
-- Clamav** är ett antivirusprogram.
-- unattend-upgrades** gör det möjligt för dig att hantera dina uppdateringar automatiskt och till och med starta om maskinen eller automatiskt rensa bort gamla paket, det är helt konfigurerbart.
-- rkhunter** är ett anti-rootkit som skannar ditt filsystem.
-- Fail2ban** kommer att basera sig på dina loggfiler enligt vad du ger den att läsa och den kommer att fungera med **iptables**, till exempel för att förbjuda IP-adresser som försöker "brute force" din server i SSH.
+- **Clamav** är ett antivirusprogram.
+- **unattend-upgrades** gör det möjligt för dig att hantera dina uppdateringar automatiskt och till och med starta om maskinen eller automatiskt rensa bort gamla paket, det är helt konfigurerbart.
+- **rkhunter** är ett anti-rootkit som skannar ditt filsystem.
+- **Fail2ban** kommer att basera sig på dina loggfiler enligt vad du ger den att läsa och den kommer att fungera med **iptables**, till exempel för att förbjuda IP-adresser som försöker "brute force" din server i SSH.
 
 
 
@@ -623,7 +623,7 @@ Låt oss ta en titt på SSH-rekommendationerna. De är listade nedan. Oroa dig i
 
 
 
-Låt oss ta en närmare titt på min nuvarande **SSH**-konfiguration i :**/etc/ssh/sshd_config**
+Låt oss ta en närmare titt på min nuvarande **SSH**-konfiguration i:**/etc/ssh/sshd_config**
 
 
 
@@ -635,7 +635,7 @@ Den konfiguration som föreslås nedan kan fortfarande optimeras, men ger dig en
 
 
 
-Vi kommer att :
+Vi kommer att:
 
 
 
@@ -695,7 +695,7 @@ PubkeyAuthentication yes
 
 
 
-- Behåll lösenordsautentisering :
+- Behåll lösenordsautentisering:
 
 
 
@@ -804,7 +804,7 @@ Det är värt att notera att det i vissa jurisdiktioner kan vara en förutsättn
 
 
 
-I bilder ger detta :
+I bilder ger detta:
 
 
 
@@ -820,7 +820,7 @@ Slutligen, låt oss inte glömma att kontrollera **Lynis revisionsresultat**! Vi
 
 
 
-**Med andra ord, ju högre poäng, desto bättre! Du måste därför arbeta med din konfiguration för att uppnå högsta möjliga poäng, samtidigt som du låter din maskin och dina hostade tjänster fungera normalt (vilket innebär att du måste utföra funktionstester).
+**Med andra ord, ju högre poäng, desto bättre! Du måste därför arbeta med din konfiguration för att uppnå högsta möjliga poäng, samtidigt som du låter din maskin och dina hostade tjänster fungera normalt (vilket innebär att du måste utföra funktionstester).**
 
 
 
@@ -892,8 +892,8 @@ Glöm inte att kommunicera med dina team före implementeringen: du måste få d
 
 
 
-Slutligen kan du också jämföra **Lynis** med andra verktyg, av vilka det finns flera. Om du vill gå mot centraliserad hantering och samtidigt behålla öppen källkod rekommenderar jag verktyget [Wazuh] (https://wazuh.com/).
+Slutligen kan du också jämföra **Lynis** med andra verktyg, av vilka det finns flera. Om du vill gå mot centraliserad hantering och samtidigt behålla öppen källkod rekommenderar jag verktyget [Wazuh](https://wazuh.com/).
 
 
 
-**Den här handledningen är över, ha kul med Lynis!
+**Den här handledningen är över, ha kul med Lynis!**

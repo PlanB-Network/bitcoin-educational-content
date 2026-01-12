@@ -6,4 +6,4 @@ wrong_answers:
   - viewdir -a
 explanation: |
   "ls -lah" huonyesha faili na folda kwa undani, ikiwa ni pamoja na faili zilizofichwa (kuanzia na nukta).
-reviewed: false
+reviewed: true

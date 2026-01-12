@@ -1,12 +1,12 @@
-question: Vad är kommandot för att verifiera mängden bitcoins i omlopp på en Bitcoin-nod?
-answer: bitcoin-cli gettxoutsetinfo.
+question: Under vilket år kommer den 7:e Halving att inträffa?
+answer: 2036
 wrong_answers:
-  - bitcoin-cli getblockchaininfo.
-  - bitcoin-cli getwalletinfo.
-  - bitcoin-cli hämta nätverksinfo.
+  - 2032
+  - 2028
+  - 2048
 explanation: |
-  Kommandot för att verifiera antalet bitcoins i omlopp
-  cirkulation på en Bitcoin nod är bitcoin-cli
-  gettxoutsetinfo. Detta kommando ger transparens och
-  verifierbarhet, vilket stärker förtroendet för Bitcoin-systemet.
+  Den 7:e Halving bör inträffa år 2036, och det uppskattade
+  antalet Bitcoin i cirkulation kommer att vara 20 835 937,5,
+  vilket ungefär kommer att motsvara 99,22% av det totala
+  Supply.
 reviewed: true

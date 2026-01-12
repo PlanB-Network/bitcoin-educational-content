@@ -1,0 +1,8 @@
+question: P2PK 和 P2PKH 在花费硬币之前透露哪些信息方面有什么根本区别？
+answer: P2PK 在使用前会公开脚本 PubKey 中的完整公开密钥，而 P2PKH 在使用前只会公开公开密钥的哈希值
+wrong_answers:
+  - P2PK 需要多个签名进行验证，而 P2PKH 只需一个签名即可解锁硬币
+  - P2PK 使用与 P2PKH 不同的散列算法，因此能更安全地抵御量子计算攻击
+  - P2PK 将私钥存储在 ScriptPubKey 中，而 P2PKH 只存储签名验证结果
+explanation: |
+  P2PK 直接将硬币锁定到完整的公钥上，在任何消费发生之前，该公钥在 ScriptPubKey 中都是可见的。P2PKH 只在 ScriptPubKey 中显示公钥的 20 字节哈希值，将实际公钥隐藏起来，直到所有者在消费时在 ScriptSig 中提供公钥，从而提高了私密性。与早期的 P2PK 模式相比，P2PKH 的主要优势之一就是提高了隐私性。

@@ -1,0 +1,9 @@
+question: Quels types de systèmes peuvent être construits au-dessus de la couche de base sans confiance de Bitcoin selon le modèle de sécurité décrit ?
+answer: Des systèmes de confiance et sans confiance peuvent être construits à partir de ce système
+wrong_answers:
+  - Seuls des systèmes sans confiance peuvent être construits au-dessus d'elle
+  - Seuls des systèmes de confiance peuvent être construits au-dessus de ce système
+  - Aucun système supplémentaire ne peut être construit au-dessus de lui
+explanation: |
+  La couche de base sans confiance de Bitcoin fournit une fondation qui permet de construire différents types de systèmes par-dessus. Comme l'a expliqué Matt Corallo, s'il n'est pas possible de construire des systèmes sans confiance au-dessus de systèmes de confiance, il est en revanche possible de construire des systèmes de confiance (comme les portefeuilles de dépôt) au-dessus de systèmes sans confiance. Cela signifie que la fondation sans confiance de Bitcoin supporte à la fois les applications sans confiance et les services de confiance, ce qui donne aux concepteurs de systèmes la liberté de choisir les compromis appropriés sans imposer ces mêmes compromis à tous ceux qui utilisent la couche de base.
+reviewed: false

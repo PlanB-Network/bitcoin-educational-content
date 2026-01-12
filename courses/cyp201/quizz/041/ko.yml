@@ -1,0 +1,9 @@
+question: 잘못 설계된 PRNG를 generate 엔트로피에 사용할 때의 주요 위험은 무엇인가요?
+answer: 공격자가 개인 키를 추측할 수 있습니다
+wrong_answers:
+  - Mnemonic 문구에 잘못된 단어가 포함될 수 있습니다
+  - 디지털 서명이 무효화됩니다
+  - Bitcoin 주소는 네트워크와 호환되지 않습니다
+explanation: |
+  잘못 설계된 PRNG는 예측 가능한 시퀀스를 생성하여 키가 공격에 더 취약해질 수 있습니다.
+reviewed: false

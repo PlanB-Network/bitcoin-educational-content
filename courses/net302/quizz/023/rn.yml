@@ -1,0 +1,9 @@
+question: Izina ry’uburyo bwo gushinga ubufatanye bw’intambwe nyinshi muri TCP ni irihe?
+answer: Gufatanya ibiganza mu buryo butatu
+wrong_answers:
+  - Gufata ukuboko mu nzira zine
+  - Idirisha rinyerera
+  - Uburyo bwo gusuzuma umubare
+explanation: |
+  Ugufatanya ukuboko kw’inzira zitatu guhuza imibare y’urutonde hagati y’umukiriya n’umukozi imbere y’uko Exchange yose y’amakuru y’umuzigo.
+reviewed: false

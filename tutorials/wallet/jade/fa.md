@@ -1,5 +1,5 @@
 ---
-name: یشم
+name: Jade
 
 description: چگونه دستگاه JADE خود را راه‌اندازی کنید
 ---

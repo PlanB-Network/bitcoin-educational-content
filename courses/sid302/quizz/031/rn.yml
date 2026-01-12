@@ -1,0 +1,8 @@
+question: Mu guhinduranya amahera yo mu mazi ya Lightning Send, ni ikihe kintu kidasanzwe c’ubuhinga bwa crypto gituma uwutanga amahera ashobora gusaba amahera ya Liquid yafungiwe amaze kwishura invoice ya Lightning?
+answer: Igishushanyo c'imbere y'ukwishura kiva ku kwishura kw'umuravyo gikora nk'urufunguzo rw'ibanga rwo gufungura amahera ya Liquid yabitswe
+wrong_answers:
+  - Umukono w'amasezerano y'ugufunga igihe ca hash washizweho mu gihe c'ugufunga kwa mbere kwa Liquid utanga uburyo bwo kuronka
+  - Ububiko bw'ihuriro rya WebSocket burimwo urufunguzo rwo gufungura rwemerera gutanga amafaranga
+  - "Urufunguzo rw'ibanga rw'uwutanga amafaranga ruca rufungura amafaranga iyo kwemezwa ko Lightning yishuye"
+explanation: |
+  Igishushanyo c’imbere y’ukwishura ni ikimenyetso c’uko umuntu yakiriye amahera y’ibanga yerekana ko amahera y’umuravyo yarangijwe neza. Mu guhinduranya amafaranga y’amazi, iyo shusho ikora nk’urufunguzo rwo gufungura amafaranga y’i Liquid yashizweho, igatuma haba atomic - uwutanga amafaranga y’uguhinduranya ashobora gusa gusaba amafaranga y’ama Liquid iyo vy’ukuri yarishe invoice ya Lightning. Ayandi mahitamwo adondora canke ibintu vy’ubuhinga bwa none bitatanga ikimenyamenya c’uko umuntu yishuye bikenewe, canke uburyo butari bwo bwoshobora gutuma ubuhinga bwo guhindura atome butagira icizigiro.

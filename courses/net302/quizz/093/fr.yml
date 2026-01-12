@@ -6,4 +6,4 @@ wrong_answers:
   - arp
 explanation: |
   dig (Domain Information Groper) fournit des informations détaillées sur la résolution DNS, y compris les types d’enregistrements.
-reviewed: false
+reviewed: true 

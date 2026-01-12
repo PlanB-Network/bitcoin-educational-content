@@ -1,10 +1,9 @@
-question: ¿Cuál fue un evento significativo en el mundo de las criptomonedas en 2017?
-answer: El lanzamiento de miles de Ofertas Iniciales de Moneda (ICOs).
+question: ¿Cuál es una de las razones por las que Bitcoin no es una burbuja que desaparecerá?
+answer: Porque es una moneda que se utiliza realmente en todo el mundo.
 wrong_answers:
-  - La prohibición de Bitcoin.
-  - La creación de Bitcoin.
-  - La desaparición de todas las criptomonedas.
+  - Porque en realidad no se utiliza en ningún lugar.
+  - Porque está controlada por una autoridad central.
+  - Porque es fácil de falsificar.
 explanation: >-
-  El año 2017 estuvo marcado por una burbuja especulativa significativa en el
-  mundo de las criptomonedas, especialmente con el lanzamiento de miles de Ofertas Iniciales de Moneda (ICOs).
+  Bitcoin no es una burbuja que desaparecerá sino una moneda que se utiliza realmente en todo el mundo.
 reviewed: true

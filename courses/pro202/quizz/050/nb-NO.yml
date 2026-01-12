@@ -1,0 +1,8 @@
+question: Når en Bitcoin-node starter opp og blir med i nettverket for første gang, hva er den primære mekanismen den bruker for å finne aktive motparter?
+answer: Kontakter hardkodede DNS-frø som vedlikeholdes av kjerneutviklere for å motta IP-adresser til aktive peers
+wrong_answers:
+  - Sender en oppdagelsesmelding til alle IP-adresser i forhåndsdefinerte delnettområder
+  - Kobler seg til en sentral registerserver som vedlikeholder en liste over alle aktive noder
+  - Bruker DHT-protokollen (Distributed Hash Table) for å finne jevnaldrende gjennom hash-basert ruting
+explanation: |
+  Bitcoin bruker hardkodede DNS-frø som oppstartsmekanisme fordi det gir en desentralisert måte for nye noder å komme inn i nettverket på uten å være avhengig av en sentral autoritet. DNS-frøene vedlikeholdes av kjerneutviklerne og returnerer IP-adressene til aktive peers. Når nodene er tilkoblet, kan de bruke kommandoen getaddr til å finne flere peers. De gale svarene beskriver sentraliserte tilnærminger eller protokoller som ikke brukes av Bitcoin - det finnes ikke noe sentralt register, ingen subnett-kringkasting og ingen DHT-basert oppdagelse av motparter i Bitcoins design.

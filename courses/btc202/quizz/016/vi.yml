@@ -1,0 +1,9 @@
+question: Người bảo trì chính cuối cùng của Bitcoin core là ai trước khi vai trò này bị bãi bỏ vào năm 2023?
+answer: Wladimir J. Van Der Laan
+wrong_answers:
+  - Gavin Andresen
+  - Pieter Wuille
+  - Satoshi Nakamoto
+explanation: |
+  Wladimir J. Van Der Laan giữ chức vụ này từ năm 2014 đến năm 2023, kế nhiệm Gavin Andresen và trước khi ông ngừng đảm nhiệm chức vụ này.
+reviewed: true

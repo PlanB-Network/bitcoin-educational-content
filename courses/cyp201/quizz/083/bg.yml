@@ -1,0 +1,9 @@
+question: Кой тип адрес започва с 1 и принадлежи към стандарта Legacy?
+answer: P2PKH
+wrong_answers:
+  - P2WPKH
+  - P2SH
+  - P2TR
+explanation: |
+  Адресите P2PKH, кодирани в base58check, произхождат от стандарта Legacy и започват с цифрата `1`.
+reviewed: false

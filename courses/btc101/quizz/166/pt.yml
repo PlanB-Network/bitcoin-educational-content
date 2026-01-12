@@ -1,12 +1,11 @@
-question: O que os mineradores podem fazer por aquelas usinas de energia que ainda não estão conectadas à rede?
-answer: Eles podem agir como compradores de último recurso.
+question: Qual é uma das razões pelas quais o Bitcoin é atraente para certos grupos?
+answer: Sua capacidade de oferecer soluções como dinheiro eletrônico sem necessidade de confiança mútua, resistência à censura, ou política monetária transparente e imutável.
 wrong_answers:
-  - Eles podem fornecer eletricidade para as usinas de energia.
-  - Eles podem conectar as usinas de energia à rede.
-  - Eles podem regular o preço da eletricidade.
-explanation: |
-  Os mineradores podem agir como compradores de último recurso para usinas de energia que
-  ainda não estão conectadas à rede. Isso permite que as usinas de energia
-  garantam financiamento mesmo antes de serem conectadas à
-  rede elétrica.
+  - É fácil de falsificar e pode criar soluções para receber mais dinheiro com um simples clique.
+  - É controlado por uma autoridade central que distribui capital livremente para os usuários.
+  - Não é pseudônimo, então cada usuário é bem conhecido e confiável.
+explanation: >-
+  A natureza descentralizada do Bitcoin, pseudonimato e resistência à censura
+  tornam-no atraente para grupos como tecnófilos, ciferpunks, libertários e
+  entusiastas do ouro.
 reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: Khai Thác Dưới Đại Dương
+name: Ocean Mining
 
 description: Giới thiệu về Khai Thác Dưới Đại Dương
 ---

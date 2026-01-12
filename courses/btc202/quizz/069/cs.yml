@@ -1,0 +1,9 @@
+question: Jaké hlavní riziko představuje nahromadění Dust ve vašem mini počítači?
+answer: Škrcení procesoru
+wrong_answers:
+  - Vymazání bloku Blockchain
+  - Poškození disku
+  - Snížená kapacita paměti RAM
+explanation: |
+  Dust blokuje ventilaci, způsobuje přehřívání a vede ke škrcení, což snižuje účinnost procesoru.
+reviewed: true

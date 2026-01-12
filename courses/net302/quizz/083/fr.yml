@@ -6,4 +6,4 @@ wrong_answers:
   - STALE
 explanation: |
   L’état REACHABLE signifie que l’association IP/MAC est connue et fonctionnelle dans le cache de voisinage.
-reviewed: false
+reviewed: true 

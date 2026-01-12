@@ -1,9 +1,9 @@
-question: What is the primary hardware requirement for a Starter profile to accept Bitcoin payments?
-answer: A smartphone
+question: Yêu cầu phần cứng chính để cấu hình Starter có thể chấp nhận thanh toán Bitcoin là gì?
+answer: Một chiếc điện thoại thông minh
 wrong_answers:
-  - A Bitcoin miner ASIC
-  - An hardware wallet
-  - A self-hosted server
+  - Một máy khai thác Bitcoin ASIC
+  - Một phần cứng wallet
+  - Một máy chủ tự lưu trữ
 explanation: |
-  The Starter profile requires only a smartphone or tablet with a Lightning wallet, making it a lightweight solution.
-reviewed: false
+  Cấu hình Starter chỉ yêu cầu điện thoại thông minh hoặc máy tính bảng có Lightning wallet, khiến nó trở thành giải pháp gọn nhẹ.
+reviewed: true

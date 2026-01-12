@@ -1,0 +1,10 @@
+question: Ni igiki kidasanzwe ku bijanye n’ugusubiramwo ibintu muri Whirlpool ugereranyije n’ibindi bikoresho vya CoinJoin?
+answer: Barafise umwidegemvyo rwose.
+wrong_answers:
+  - Bisaba gusa kwishura amahera ya Mining.
+  - Bigarukira ku muntu wese akoresha.
+  - Bisaba gusa kwishura amahera y’ibikorwa.
+explanation: |
+  Whirlpool remixes ni ubuntu 100%: nta mahera y’inyongera y’ibikorwa canke amafaranga y’i Mining asabwa.
+  
+reviewed: false

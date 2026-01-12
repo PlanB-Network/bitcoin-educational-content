@@ -1,0 +1,9 @@
+question: Какво може да направи curl -X POST /issueassetnia в RLN?
+answer: Създаване на нов заменим, неинфлационен актив RGB
+wrong_answers:
+  - Създаване на нов нематериален актив RGB
+  - Създаване на нов заменим инфлационен актив RGB
+  - Създаване на нов полугъвкав актив RGB
+explanation: |
+  Командата "/issueassetnia" се използва за издаване на нов RGB NIA ("Non Inflatable Asset") token.
+reviewed: false

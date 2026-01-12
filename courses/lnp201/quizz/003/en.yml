@@ -6,4 +6,4 @@ wrong_answers:
   - They can borrow funds from the other participant's side if needed.
 explanation: |
   Each participant is limited by the amount of satoshis they hold in the channel for their transactions, ensuring that the funds are always covered.
-reviewed: false
+reviewed: true

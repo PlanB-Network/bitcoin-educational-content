@@ -1,0 +1,13 @@
+question: Ni gute Bitcoin ifasha abantu bo mu bihugu vyasambuwe n’intambara canke bitagira amahoro?
+answer: Bishoboza kubika agaciro mu buryo bwegerejwe kandi butekanye bufise ubushobozi bwo kurwanya ubusuma .
+wrong_answers:
+  - Bituma umuntu ashobora kuronka ibikorwa vya kera vya banki .
+  - Bitanga umutungo w'umubiri ushobora kwongerera agaciro .
+  - Bitanga uburinzi ku gutakaza agaciro kw'ibiciro .
+explanation: |
+  Mu bihugu vyasambuwe n’intambara canke bidatekana, abantu boshobora kugorwa no kugira ngo . 
+  gushika ku bikorwa vya kera vya banki canke guhura n’ingorane zo kwibwa canke . 
+  gufata ivy’umubiri. Bitcoin iremesha abantu ku giti cabo kubika agaciro 
+  mu buryo bwegerejwe kandi butekanye ata n'umwe akeneye abahuza . 
+  canke ivy’umubiri bishobora gushikirwa n’ingorane nk’ugutera imbere kw’ibiciro, ubusuma canke gufatwa.
+reviewed: true

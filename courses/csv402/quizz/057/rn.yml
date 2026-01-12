@@ -1,0 +1,9 @@
+question: Ku RLN, ni itegeko irihe rishiramwo "RGB-lightning-node" inyuma yo gukora cloning y'ububiko?
+answer: "Igikoresho co gushiramwo --kifunze --gukosora --inzira ."
+wrong_answers:
+  - "Imizigo yubaka --kurekura --inzira ."
+  - "Imizigo igenda --ifunze --inzira ."
+  - "Imizigo irungikwa --gukosora --inzira ."
+explanation: |
+  "Igikoresho co gushiramwo --kifunze --gukosora --inzira ." itegeko rikoranya kandi rishiraho "RGB-umuravyo-node" bibiri.
+reviewed: false

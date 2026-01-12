@@ -1,5 +1,5 @@
 ---
-name: Ledger U2F & FIDO2
+name: "Ledger U2F & FIDO2"
 description: Tăng cường bảo mật trực tuyến của bạn với Ledger
 ---
 ![cover](assets/cover.webp)
@@ -46,7 +46,7 @@ Kết nối Ledger vào máy tính và mở khóa.
 
 
 
-Để cài đặt ứng dụng, hãy mở phần mềm [Ledger Live] (https://www.Ledger.com/Ledger-live), sau đó chuyển đến tab "*My Ledger*". Tìm ứng dụng "*Security Key*" và cài đặt trên thiết bị của bạn.
+Để cài đặt ứng dụng, hãy mở phần mềm [Ledger Live](https://www.Ledger.com/Ledger-live), sau đó chuyển đến tab "*My Ledger*". Tìm ứng dụng "*Security Key*" và cài đặt trên thiết bị của bạn.
 
 
 
@@ -180,4 +180,4 @@ Tôi cũng muốn giới thiệu hướng dẫn khác này, trong đó chúng ta
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

@@ -1,0 +1,9 @@
+question: Il cui motto è "pensa con la tua testa"?
+answer: Kant.
+wrong_answers:
+  - Spinoza.
+  - Diderot.
+  - Donald Trump.
+explanation: |
+  pensare da sé" (sapere aude) è il motto di Immanuel Kant e la parola d'ordine dell'Illuminismo. Si tratta di avere il coraggio di usare la propria comprensione senza la tutela di altri.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Mis on ECDH võtmevahetusmehhanismi peamine eesmärk Liquid Confidential Transactions arhitektuuris?
+answer: Võimaldada saatjatel krüpteerida varade summasid ja tüüpe, kasutades vastuvõtja pimestavat avalikku võtit, luues samal ajal kontrollitavaid vahemiktõendeid
+wrong_answers:
+  - Turvaliste sidekanalite loomine AMP-serverite ja wallet klientide vahel tehingu autoriseerimise protsesside ajal
+  - Rahakottide ja AMP-serveri infrastruktuuri vaheliste ühiste saladuste loomine mitme allkirja deskriptori registreerimiseks
+  - generate krüptograafilised allkirjad, mis tõendavad vara omandiõigust, paljastamata selle aluseks olevat eraõigusliku võtme teavet
+explanation: |
+  ECDH (Elliptic Curve Diffie-Hellman) võtmevahetus Liquid Confidential Transactions-s võimaldab konkreetselt varade ülekandmist privaatsuse säilitamise teel, võimaldades saatjatel krüpteerida tehingu väljundväärtusi, kasutades vastuvõtja pimestavat avalikku võtit. See loob jagatud saladuse, mida ainult vastuvõtja saab dekrüpteerida oma privaatse siduva võtmega, luues samal ajal vahemiktõendeid, mis võimaldavad võrgu valideerijatel kontrollida tehingu kehtivust, ilma et nad näeksid tegelikke summasid. Teistes valikutes kirjeldatakse ECDH-d ebaõigesti kui kommunikatsiooniturbe, kirjelduste registreerimise või omandiõiguse tõendamise funktsioone, millega Liquid ökosüsteemis tegelevad erinevad krüptomehhanismid.

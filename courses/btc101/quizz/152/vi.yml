@@ -1,9 +1,9 @@
-question: HashRate là gì?
-answer: Số lượng tính toán băm mà một thiết bị đào có thể thực hiện mỗi giây để giải quyết Bằng chứng Công việc (Proof of Work).
+question: Ý nghĩa của việc tiêu thụ năng lượng trong khai thác Bitcoin là gì?
+answer: Việc tiêu thụ năng lượng là cần thiết để tạo ra thông tin, nhưng việc xác minh thông tin có chi phí không đáng kể. Sự không đối xứng này đảm bảo an ninh cho mạng lưới.
 wrong_answers:
-  - Tốc độ mà một thiết bị đào có thể giải quyết Bằng chứng Công việc.
-  - Tổng số người đào trong mạng lưới Bitcoin.
-  - Tổng số lượng bitcoin được khai thác bằng cách thực hiện một số lần thử nhất định mỗi giây để giải quyết Bằng chứng Công việc.
+  - Chi phí năng lượng cần thiết để cung cấp năng lượng cho các máy ASIC được sử dụng trong khai thác, và việc xác minh thông tin có chi phí cao.
+  - Việc tiêu thụ năng lượng cần thiết để duy trì mạng lưới Bitcoin, và việc xác minh thông tin có chi phí biến đổi.
+  - Chi phí năng lượng không cần thiết để tạo ra bitcoin mới.
 explanation: >-
-  HashRate đề cập đến tổng số lần thử mà các thợ đào thực hiện mỗi giây để giải quyết Bằng chứng Công việc. Đây là một thước đo về sức mạnh tính toán của mạng lưới Bitcoin.
-reviewed: true
+  Chi phí năng lượng trong khai thác Bitcoin là một khía cạnh quan trọng của an ninh mạng. Chi phí năng lượng cao trong khai thác làm cho việc thao túng blockchain trở nên cực kỳ đắt đỏ đối với một kẻ xấu, trong khi chi phí thấp của việc xác minh giao dịch đảm bảo rằng bất kỳ ai cũng có thể tham gia vào mạng lưới.
+reviewed: false

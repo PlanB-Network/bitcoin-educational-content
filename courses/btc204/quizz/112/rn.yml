@@ -1,0 +1,10 @@
+question: Ni uruhara uruhe rw’umufatanyabikorwa mu gucuruza Stonewall x2?
+answer: Tanga ama bitcoins kugira ngo wongere amakenga
+wrong_answers:
+  - Gukora nk'umuhuzabikorwa w'ibikorwa
+  - Kwakira amafaranga y'ukwishyura
+  - Wohereze amafaranga y'ukwishyura
+explanation: |
+  Uwukorana mu gucuruza Stonewall x2 atanga bitcoins kugira ngo yongere amakenga ku icegeranyo c’ugucuruza, mu gihe asubiza amahera yabo yose ku mpera (igikorwa kitagira aho kigarukira kuri bo, hakuwemwo amafaranga Mining).
+  
+reviewed: false

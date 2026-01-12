@@ -1,0 +1,9 @@
+question: Ni gute igiharuro c’amabuye gishobora guhindurwa igiharuro c’uruzi?
+answer: Mu gukoresha uburyo nka OFB iyo generate umugezi w'urufunguzo uva ku cipher y'ibarabara
+wrong_answers:
+  - Mu kugabanya inyandiko zisanzwe mu bice vy'umubiri (bytes) no kuzipfuka imwe imwe .
+  - Mu gukoresha uburyo bwo kwuzuza ubutumwa imbere yo gushiramwo amakuru
+  - Mu kwongera uburebure bw'urufunguzo kuri buri bubiko bwashizwemwo
+explanation: |
+  Uburyo nka OFB buremeza ko igiharuro c'amabuye gikora nk'igiharuro c'uruzi mu gutanga uruzi rw'urufunguzo, ruca rukoreshwa ku gice cose c'inyandiko y'uruzitiro.
+reviewed: false

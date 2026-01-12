@@ -1,0 +1,9 @@
+question: Ni ubuhe bunini bw’urufunguzo rw’ibanga rudakoreshwa kuri Bitcoin?
+answer: 256 ibice
+wrong_answers:
+  - 128 ibice
+  - 512 ibice
+  - 1024 ibice
+explanation: |
+  Urufunguzo rw’ibanga muri Bitcoin ni umubare wose w’ibice 256, ugatuma haba umwanya w’urufunguzo munini bihagije kugira ngo ushobore kwizigira umutekano.
+reviewed: false

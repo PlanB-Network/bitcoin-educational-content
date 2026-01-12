@@ -1,11 +1,11 @@
-question: Qual é a função principal dos nós na rede Bitcoin?
-answer: Manter uma cópia do blockchain do Bitcoin, validar transações, transmitir informações para outros nós e fazer cumprir as regras do protocolo Bitcoin.
+question: Qual foi a guerra dos blocos em 2017?
+answer: Um conflito sobre se aumentar o tamanho do bloco para expandir a capacidade de transação.
 wrong_answers:
-  - Manter uma cópia do blockchain do Bitcoin, validar transações, transmitir informações ao governo e alterar as regras do protocolo Bitcoin.
-  - Apenas manter uma cópia do blockchain do Bitcoin.
-  - Apenas transmitir informações para outros nós.
-explanation: >-
-  Os nós na rede Bitcoin desempenham várias funções cruciais, incluindo
-  manter uma cópia do blockchain do Bitcoin, validar transações, transmitir
-  informações para outros nós e fazer cumprir as regras do protocolo Bitcoin.
+  - Um conflito sobre se diminuir o tamanho do bloco para reduzir a capacidade de transação.
+  - Um conflito sobre se aumentar a recompensa por bloco para incentivar os mineradores.
+  - Um conflito sobre se diminuir a recompensa por bloco para desincentivar os mineradores.
+explanation: |
+  A guerra dos blocos em 2017 foi um conflito sobre se
+  modificar o Bitcoin aumentando o tamanho do bloco para expandir
+  a capacidade de transação.
 reviewed: true

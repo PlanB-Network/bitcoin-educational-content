@@ -1,0 +1,9 @@
+question: Ni iyihe ntumbero nyamukuru y’umugambi wo gushiramwo amakuru yemewe?
+answer: Kumenya neza ibanga n'ukuri kw'itumanaho
+wrong_answers:
+  - generate imfunguruzo mu buryo butekanye
+  - Gusubirira MACs mu guhanahana amakuru y'ibanga
+  - Gukuraho ubutumwa bwafashwe ubwabwo
+explanation: |
+  Igishushanyo co gushiramwo amakuru yemewe gifatanya amakuru n’ibanga ry’ubutumwa (MAC) kugira ngo ubutumwa bube ibanga be n’uko ari ubw’ukuri.
+reviewed: false

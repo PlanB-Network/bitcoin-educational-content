@@ -1,5 +1,5 @@
 ---
-name: Bitcoin-Knoten
+name: Bitcoin Knots
 description: Wie starte ich einen Knoten mit dem alternativen Bitcoin-Knoten-Client?
 ---
 ![cover](assets/cover.webp)
@@ -19,18 +19,18 @@ Es ist jedoch auch eine alternative Software verfügbar. Dabei handelt es sich n
 Es gibt zwei Hauptgründe für die Verwendung eines alternativen Clients wie Knots anstelle von Core:
 
 
-- Technisch**: Diese Clients bieten Core oft verschiedene Optionen, insbesondere in Bezug auf die Mempool-Verwaltung, indem sie festlegen, welche Transaktionen von Ihrem Knoten akzeptiert und übertragen werden.
-- Politik**: Einige Leute ziehen es vor, alternative Clients wie Knots aus nicht-technischen Gründen zu verwenden, vor allem um eine Alternative zu Core zu unterstützen und damit dessen Monopol zu verringern. Sollte Core jemals kompromittiert werden, wäre es nicht nur nützlich, solide, gut gewartete alternative Clients zu haben, sondern auch zu wissen, wie man sie benutzt. Andere verwenden Knots aus Protest, weil sie das Vertrauen in die Core-Entwickler verloren haben oder mit der Verwaltung des Hauptclients nicht einverstanden sind.
+- **Technisch**: Diese Clients bieten Core oft verschiedene Optionen, insbesondere in Bezug auf die Mempool-Verwaltung, indem sie festlegen, welche Transaktionen von Ihrem Knoten akzeptiert und übertragen werden.
+- **Politik**: Einige Leute ziehen es vor, alternative Clients wie Knots aus nicht-technischen Gründen zu verwenden, vor allem um eine Alternative zu Core zu unterstützen und damit dessen Monopol zu verringern. Sollte Core jemals kompromittiert werden, wäre es nicht nur nützlich, solide, gut gewartete alternative Clients zu haben, sondern auch zu wissen, wie man sie benutzt. Andere verwenden Knots aus Protest, weil sie das Vertrauen in die Core-Entwickler verloren haben oder mit der Verwaltung des Hauptclients nicht einverstanden sind.
 
 ## Wie installiere ich Bitcoin-Knoten?
 
-Gehen Sie auf [die offizielle Bitcoin-Knoten-Website] (https://bitcoinknots.org/#download), um die Version für Ihr Betriebssystem herunterzuladen. Vergessen Sie nicht, den Fingerabdruck und die Signaturen herunterzuladen, um die Software zu verifizieren. Diese Dateien sind auch [im Bitcoin Knots GitHub Repository](https://github.com/bitcoinknots/Bitcoin) verfügbar.
+Gehen Sie auf [die offizielle Bitcoin-Knoten-Website](https://bitcoinknots.org/#download), um die Version für Ihr Betriebssystem herunterzuladen. Vergessen Sie nicht, den Fingerabdruck und die Signaturen herunterzuladen, um die Software zu verifizieren. Diese Dateien sind auch [im Bitcoin Knots GitHub Repository](https://github.com/bitcoinknots/Bitcoin) verfügbar.
 
 ![Image](assets/fr/02.webp)
 
 Bevor Sie die Software auf Ihrem Computer installieren, empfehlen wir Ihnen dringend, ihre Authentizität und Integrität zu überprüfen. Wenn Sie nicht wissen, wie das geht, schauen Sie sich diese andere Anleitung an:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 Sobald die Software überprüft wurde, installieren Sie sie, indem Sie die im Installationsfenster angegebenen Schritte ausführen.
 
 ![Image](assets/fr/03.webp)
@@ -115,7 +115,7 @@ Geben Sie Ihrem Wallet einen Namen. Sie können ihn auch mit einem passphrase BI
 
 Das passphrase BIP39 ist ein optionales Passwort, das Sie frei wählen können, zusätzlich zu Ihrer Mnemonic Phrase, um die Sicherheit Ihres Wallet zu erhöhen. Bevor Sie diese Funktion konfigurieren, empfehlen wir Ihnen dringend, den folgenden Artikel zu lesen, der detailliert erklärt, wie das passphrase theoretisch funktioniert und wie Sie Fehler vermeiden können, die zum dauerhaften Verlust Ihrer Bitcoins führen könnten:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 Wenn Sie die Option passphrase aktiviert haben, wählen Sie eine robuste Option und speichern Sie sie sorgfältig auf einem oder mehreren sicheren physischen Medien.
 
 ![Image](assets/fr/18.webp)
@@ -285,4 +285,4 @@ Wenn Sie dieses Tutorial nützlich fanden, wäre ich Ihnen sehr dankbar, wenn Si
 
 Ich empfehle auch dieses andere Tutorial, in dem ich erkläre, wie man einen eigenen Lightning-Knoten einrichtet:
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

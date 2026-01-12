@@ -1,0 +1,9 @@
+question: Mitä hyötyä kannettavasta tietokoneesta on minitietokoneeseen verrattuna?
+answer: Sen akku toimii invertterinä
+wrong_answers:
+  - Se on hiljaisempi
+  - Se kestää pidempään
+  - Se kuluttaa vähemmän energiaa
+explanation: |
+  Kannettavan tietokoneen akku toimii luonnollisena UPS:nä, joka estää äkilliset pysähdykset sähkökatkoksen sattuessa.
+reviewed: true

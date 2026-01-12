@@ -1,8 +1,9 @@
-question: Bitcoin 的擴充性問題是什麼？
-answer: 當採用貨幣系統時，如何實現每秒能夠提供越來越多交易的挑戰。
+question: RGB 的核心原則是什麼？
+answer: 客戶端驗證
 wrong_answers:
-  - 隨著時間的推移，Mining 新比特幣的價值不斷增加，其難度也隨之增加。
-  - 每次 Halving 之後，Bitcoin 的價格波動性都會增加。
-  - Bitcoin 缺乏監管，會使交易變成非法。
-explanation: >-
-reviewed: true
+  - 在區塊鏈上的全域執行
+  - 聯邦共識
+  - Proof-of-Work
+explanation: |
+  RGB 基於狀態的本地驗證，區塊鏈僅作為加密錨定與防止雙重支付的保護機制。
+reviewed: false

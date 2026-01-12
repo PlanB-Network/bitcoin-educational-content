@@ -66,7 +66,7 @@ Threema ist auf allen Plattformen verfügbar. Sie können die Anwendung direkt a
 - [Google Play](https://play.google.com/store/apps/details?id=ch.threema.app);
 - [F-Cold](https://f-droid.org/en/packages/ch.threema.app.libre/);
 - [Huawei AppGallery](https://appgallery.huawei.com/#/app/C103713829);
-- [App Store] (https://apps.apple.com/us/app/threema-the-secure-messenger/id578665578).
+- [App Store](https://apps.apple.com/us/app/threema-the-secure-messenger/id578665578).
 
 
 
@@ -276,7 +276,7 @@ Hier finden Sie zwei Möglichkeiten, Ihre Daten zu sichern:
 
 
 
-"Threema Safe* speichert alle Ihre Kontoinformationen, mit Ausnahme Ihrer Gespräche, auf den Servern von Threema. Diese Daten werden mit dem Passwort verschlüsselt, das Sie bei der Erstellung Ihres Kontos gewählt haben, so dass Threema keinen Zugriff auf sie hat. Die Backups werden automatisch und regelmäßig erstellt.
+"**Threema Safe** speichert alle Ihre Kontoinformationen, mit Ausnahme Ihrer Gespräche, auf den Servern von Threema. Diese Daten werden mit dem Passwort verschlüsselt, das Sie bei der Erstellung Ihres Kontos gewählt haben, so dass Threema keinen Zugriff auf sie hat. Die Backups werden automatisch und regelmäßig erstellt.
 
 
 
@@ -436,8 +436,8 @@ Herzlichen Glückwunsch, Sie sind jetzt auf dem Laufenden, was die Verwendung vo
 
 
 
-Ich empfehle auch dieses andere Tutorial, in dem ich Ihnen Proton Mail vorstelle, eine viel datenschutzfreundlichere Alternative zu Gmail :
+Ich empfehle auch dieses andere Tutorial, in dem ich Ihnen Proton Mail vorstelle, eine viel datenschutzfreundlichere Alternative zu Gmail:
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

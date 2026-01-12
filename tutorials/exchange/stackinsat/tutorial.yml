@@ -1,11 +1,17 @@
 id: 5af6a380-f3c6-4246-9f81-9957a16ab066
 
+last_update_date: 2024-09-01
+
 level: beginner
 
 category: centralized
 
+professor_id: 2e1b5182-567e-453a-af29-36009340ff02
+
 # Proofreading metadata
 project_id: 3ba103b8-4537-48d5-9b29-525a5d15a5a2
+license: CC-BY-SA-V4
+
 original_language: en
 proofreading:
   - language: cs
@@ -25,20 +31,22 @@ proofreading:
       - Asi0Flammeus
     reward: 0.06
   - language: es
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 0.12
+      - Salgraphics
+    reward: 0.06
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.13
   - language: fr
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 0.12
+      - marshal-opsource
+    reward: 0.06
   - language: it
     last_contribution_date:
     urgency: 1
@@ -64,7 +72,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.15
+    reward: 0.14
   - language: et
     last_contribution_date:
     urgency: 1
@@ -89,7 +97,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.15
+    reward: 0.14
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -125,6 +133,31 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.13
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.14
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.14
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.14
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.13
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.14
 tags:
   - user-friendly
   - guides

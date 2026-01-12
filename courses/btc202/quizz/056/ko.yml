@@ -1,0 +1,9 @@
+question: 엄브렐을 통해 모바일 Wallet을 일렉트르에 연결하는 가장 쉬운 방법은 무엇인가요?
+answer: Tor QR 코드 스캔하기
+wrong_answers:
+  - 쿠키 파일 다운로드
+  - 개인 키 가져오기
+  - Wallet.dat 파일 복사
+explanation: |
+  엄브렐을 사용하면 Electrs에서 제공하는 토르 QR 코드를 직접 스캔하여 모바일 연결을 구성할 수 있습니다.
+reviewed: true

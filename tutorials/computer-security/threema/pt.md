@@ -70,7 +70,7 @@ O Threema está disponível em todas as plataformas. Pode descarregar a aplicaç
 
 
 
-No Android, também é possível [instalar via APK] (https://shop.threema.ch/en/download).
+No Android, também é possível [instalar via APK](https://shop.threema.ch/en/download).
 
 
 
@@ -276,7 +276,7 @@ Aqui encontra duas opções para fazer cópias de segurança dos seus dados:
 
 
 
-"O Threema Safe* guarda todas as informações da sua conta, exceto as suas conversas, nos servidores do Threema. Estes dados são encriptados com a palavra-passe que escolheu quando criou a sua conta, garantindo que o Threema não tem acesso a eles. Os backups são feitos automaticamente e regularmente.
+"O **Threema Safe** guarda todas as informações da sua conta, exceto as suas conversas, nos servidores do Threema. Estes dados são encriptados com a palavra-passe que escolheu quando criou a sua conta, garantindo que o Threema não tem acesso a eles. Os backups são feitos automaticamente e regularmente.
 
 
 
@@ -332,7 +332,7 @@ Aqui pode personalizar o seu perfil: adicionar uma fotografia, escolher quem o p
 
 
 
-Se quiser aceder às suas conversas no seu PC, pode sincronizar a sua conta Threema com o software dedicado. Descarregue o software para o seu sistema operativo [a partir do sítio Web oficial] (https://threema.ch/en/download).
+Se quiser aceder às suas conversas no seu PC, pode sincronizar a sua conta Threema com o software dedicado. Descarregue o software para o seu sistema operativo [a partir do sítio Web oficial](https://threema.ch/en/download).
 
 
 
@@ -436,8 +436,8 @@ Parabéns, agora você está pronto para usar o serviço de mensagens Threema, u
 
 
 
-Também recomendo este outro tutorial, no qual vos apresento o Proton Mail, uma alternativa muito mais amiga da privacidade ao Gmail :
+Também recomendo este outro tutorial, no qual vos apresento o Proton Mail, uma alternativa muito mais amiga da privacidade ao Gmail:
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

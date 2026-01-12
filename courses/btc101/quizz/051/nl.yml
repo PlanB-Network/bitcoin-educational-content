@@ -1,10 +1,11 @@
-question: Wat is de impact van 2% inflatie op de koopkracht over 5 jaar?
-answer: Je verliest 10% van je koopkracht.
+question: Wat gebeurde er met de Zimbabwaanse dollar in april 2009?
+answer: De minister van Financiën kondigde de opschorting van de Zimbabwaanse dollar aan en stond het gebruik van verschillende vreemde valuta voor handel toe.
 wrong_answers:
-  - Je verliest 2% van je koopkracht.
-  - Je verliest 5% van je koopkracht.
-  - Je verliest 20% van je koopkracht.
+  - De Zimbabwaanse dollar stortte met meer dan 72% in.
+  - De regering stemde ermee in om oorlogsveteranen te compenseren voor een bedrag gelijk aan 450 miljoen US dollar.
+  - De regering moest haar toevlucht nemen tot de drukpers.
 explanation: |
-  Met 2% inflatie verliest u jaarlijks 2% van uw koopkracht
-  per jaar, wat neerkomt op 10% over 5 jaar.
+  In april 2009 kondigde de minister van Financiën de
+  schorsing van de Zimbabwaanse dollar aan en stond hij het gebruik van
+  van verschillende vreemde valuta voor de handel.
 reviewed: true

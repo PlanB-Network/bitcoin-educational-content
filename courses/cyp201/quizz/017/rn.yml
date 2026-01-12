@@ -1,0 +1,9 @@
+question: Ni uwuhe murongo w’uruzitiro ukoreshwa mu masezerano ya Bitcoin?
+answer: igice256k1
+wrong_answers:
+  - igice256r1
+  - ed25519
+  - Urupapuro-384
+explanation: |
+  Bitcoin ikoresha umurongo wa secp256k1, usobanurwa n’ingero y2 = x3 + 7, ku bikorwa vyayo vy’ubuhinga bwo gupfuka.
+reviewed: false

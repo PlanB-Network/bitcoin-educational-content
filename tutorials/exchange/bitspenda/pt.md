@@ -98,9 +98,9 @@ Uma vez confirmada a sua transação, pague o Lightning Invoice associado. A tra
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ### M-Pesa no Quénia
 
@@ -177,15 +177,15 @@ Verifique e confirme o número e o montante do seu Exchange e pague o Lightning 
 
 
 
-Através da BitSpenda, a [Bitcoin Dua] (https://www.bitcoindua.org/) pretende criar um quadro ideal para a adoção da Bitcoin em África. BitSpenda destaca-se principalmente por :
+Através da BitSpenda, a [Bitcoin Dua](https://www.bitcoindua.org/) pretende criar um quadro ideal para a adoção da Bitcoin em África. BitSpenda destaca-se principalmente por :
 
 
 
 
-- Confidencialidade**: Não é necessário criar uma conta na plataforma, não é necessário verificar a sua identidade e não é necessário fornecer quaisquer informações pessoais.
-- Liberdade**: Pode utilizar o BitSpenda a partir de qualquer país para efetuar transacções para o Gana, a Nigéria e o Quénia.
-- Velocidade**: Confiar nos pagamentos Lightning permitiu à BitSpenda reduzir os tempos de processamento e tornar as transacções instantâneas.
-- Transparência**: Todas as transacções que efectuou na BitSpenda estão associadas a identificadores únicos que lhe permitem localizar e seguir o progresso dessas transacções. Também pode utilizar estes identificadores para contactar [suporte da aplicação em X] (https://x.com/bitspenda).
+- **Confidencialidade**: Não é necessário criar uma conta na plataforma, não é necessário verificar a sua identidade e não é necessário fornecer quaisquer informações pessoais.
+- **Liberdade**: Pode utilizar o BitSpenda a partir de qualquer país para efetuar transacções para o Gana, a Nigéria e o Quénia.
+- **Velocidade**: Confiar nos pagamentos Lightning permitiu à BitSpenda reduzir os tempos de processamento e tornar as transacções instantâneas.
+- **Transparência**: Todas as transacções que efectuou na BitSpenda estão associadas a identificadores únicos que lhe permitem localizar e seguir o progresso dessas transacções. Também pode utilizar estes identificadores para contactar [suporte da aplicação em X](https://x.com/bitspenda).
 
 
 
@@ -197,4 +197,4 @@ Muitas outras iniciativas e soluções como o BitSpenda estão a surgir nas comu
 
 
 
-https://planb.network/tutorials/exchange/centralized/banxaas-0cb6766a-5aee-4626-b657-224154bcf27c
+https://planb.academy/tutorials/exchange/centralized/banxaas-0cb6766a-5aee-4626-b657-224154bcf27c

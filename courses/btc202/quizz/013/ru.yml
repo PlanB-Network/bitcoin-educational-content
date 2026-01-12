@@ -1,0 +1,9 @@
+question: Какое оборудование используется сегодня для эффективной добычи Bitcoin?
+answer: ASIC
+wrong_answers:
+  - Классический процессор
+  - GPU
+  - ПЛИС
+explanation: |
+  Сегодня Bitcoin Mining выполняется с помощью ASIC. Это специализированные чипы для алгоритма SHA-256.
+reviewed: true

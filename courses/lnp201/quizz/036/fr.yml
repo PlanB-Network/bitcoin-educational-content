@@ -6,4 +6,4 @@ wrong_answers:
   - Il doit attendre l'expiration du timelock avant de récupérer les fonds
 explanation: |
   Pour recevoir les fonds dans un HTLC, le destinataire doit fournir un secret spécifique qui permet de déverrouiller le paiement sécurisé par le hachage.
-reviewed: false
+reviewed: true 

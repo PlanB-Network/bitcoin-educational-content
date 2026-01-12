@@ -1,0 +1,9 @@
+question: Igihe ukoresha ubuhinga bwa backup zikora, ni ibiki bihambaye ukwiye kwitondera?
+answer: Gusuzuma ko ushobora kugarukana amakuru wakoreye backup
+wrong_answers:
+  - Guhindura uwuguha serivisi za interineti
+  - Guhagarika ububiko bw’ikiruhuko
+  - Kugerageza uburyo bwo kunyegeza amakuru
+explanation: |
+  Ni ngombwa kugarurakana backup ubudasiba kugira ngo umenye neza ko amadosiye atononekaye canke ngo ntaboneke igihe akenewe.
+reviewed: true

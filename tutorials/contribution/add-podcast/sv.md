@@ -1,6 +1,6 @@
 ---
-name: Lägga till en podcast i PlanB Network
-description: Hur lägger jag till en ny podcast i PlanB Network?
+name: Lägga till en podcast i Plan ₿ Academy
+description: Hur lägger jag till en ny podcast i Plan ₿ Academy?
 ---
 ![podcast](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Hur lägger jag till en ny podcast i PlanB Network?
 PlanB:s uppdrag är att tillhandahålla förstklassiga utbildningsresurser om Bitcoin på så många språk som möjligt. Allt innehåll som publiceras på webbplatsen är öppen källkod och värd på GitHub, så att alla kan delta i att berika plattformen.
 
 
-Vill du lägga till en Bitcoin-podcast på PlanB Network-webbplatsen och öka synligheten för ditt program, men vet inte hur? Denna handledning är för dig!
+Vill du lägga till en Bitcoin-podcast på Plan ₿ Academy-webbplatsen och öka synligheten för ditt program, men vet inte hur? Denna handledning är för dig!
 
 ![podcast](assets/01.webp)
 
@@ -16,7 +16,7 @@ Vill du lägga till en Bitcoin-podcast på PlanB Network-webbplatsen och öka sy
 - Först måste du ha ett GitHub-konto. Om du inte vet hur du skapar ett sådant har vi gjort en detaljerad handledning för att vägleda dig.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![podcast](assets/03.webp)
 
 
-- Om du aldrig har bidragit till innehållet i PlanB Network tidigare måste du skapa din Fork av det ursprungliga förvaret. Att forka ett arkiv innebär att du skapar en kopia av det arkivet på ditt eget GitHub-konto, så att du kan arbeta med projektet utan att påverka det ursprungliga arkivet. Klicka på knappen `Fork this repository`:
+- Om du aldrig har bidragit till innehållet i Plan ₿ Academy tidigare måste du skapa din Fork av det ursprungliga förvaret. Att forka ett arkiv innebär att du skapar en kopia av det arkivet på ditt eget GitHub-konto, så att du kan arbeta med projektet utan att påverka det ursprungliga arkivet. Klicka på knappen `Fork this repository`:
 
 ![podcast](assets/04.webp)
 
@@ -80,24 +80,24 @@ Här är de uppgifter som ska fyllas i för varje fält:
 
 
 
-- `namn`**: Ange namnet på din podcast.
-- `host`**: Lista namnen eller pseudonymerna på podcastens talare eller värd. Varje namn ska separeras med ett kommatecken.
-- `språk`**: Ange språkkoden för det språk som talas i din podcast. Till exempel, för engelska, notera `en`, för italienska `it`...
+- **`namn`**: Ange namnet på din podcast.
+- **`host`**: Lista namnen eller pseudonymerna på podcastens talare eller värd. Varje namn ska separeras med ett kommatecken.
+- **`språk`**: Ange språkkoden för det språk som talas i din podcast. Till exempel, för engelska, notera `en`, för italienska `it`...
 
 
 
-- `länkar`**: Tillhandahåller länkar till ditt innehåll. Du har två alternativ:
+- **`länkar`**: Tillhandahåller länkar till ditt innehåll. Du har två alternativ:
  - `podcast`: länken till din podcast,
  - `twitter`: länken till Twitter-profilen för podcasten eller den organisation som producerar den,
  - `webbplats`: länken till webbplatsen för podcasten eller den organisation som producerar den.
 
 
 
-- `Beskrivning`**: Lägg till ett kort stycke som beskriver din podcast. Beskrivningen måste vara på samma språk som anges i fältet `language:`.
+- `Beskrivning`: Lägg till ett kort stycke som beskriver din podcast. Beskrivningen måste vara på samma språk som anges i fältet `language:`.
 
 
 
-- `taggar`**: Lägg till två taggar som är kopplade till din podcast. Exempel:
+- `taggar`**: Lägg till två taggar som är kopplade till din podcast. Exempel:**
     - `Bitcoin`
     - teknik
     - ekonomi
@@ -105,7 +105,7 @@ Här är de uppgifter som ska fyllas i för varje fält:
 
 
 
-- bidragsgivare**: Ange ditt bidragsgivar-ID om du har ett sådant.
+- **bidragsgivare**: Ange ditt bidragsgivar-ID om du har ett sådant.
 
 
 Din YAML-fil kan till exempel se ut så här:
@@ -159,7 +159,7 @@ contributors:
 ![podcast](assets/14.webp)
 
 
-- Välj din Fork i PlanB Network-förvaret:
+- Välj din Fork i Plan ₿ Academy-förvaret:
 
 ![podcast](assets/15.webp)
 
@@ -272,7 +272,7 @@ contributors:
 Gratulerar till din PR! Din PR har skapats på ett framgångsrikt sätt. En administratör kommer nu att granska den och, om allt är i sin ordning, sammanfoga den till PlanB Networks huvudarkiv. Du bör se din podcast visas på webbplatsen några dagar senare.
 
 
-Se till att följa utvecklingen av din PR-ansökan. En administratör kan lämna en kommentar där han eller hon ber om ytterligare information. Så länge din PR inte är validerad kan du se den under fliken "Pull requests" på PlanB Network GitHub-arkivet:
+Se till att följa utvecklingen av din PR-ansökan. En administratör kan lämna en kommentar där han eller hon ber om ytterligare information. Så länge din PR inte är validerad kan du se den under fliken "Pull requests" på Plan ₿ Academy GitHub-arkivet:
 
 ![podcast](assets/38.webp)
 

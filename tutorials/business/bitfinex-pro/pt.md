@@ -12,11 +12,11 @@ Neste tutorial, abordaremos o processo de criação de uma conta comercial na Bi
 
 Se estiver interessado em integrar a bitcoin na sua empresa, recomendo-lhe também que descubra a nossa formação teórica completa sobre o assunto:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Criar uma conta Bitfinex
 
-Aceda ao [sítio Web oficial da Bitfinex] (https://www.bitfinex.com/). Na página inicial, encontre e clique na opção "*Sign Up*" para começar a criar a sua conta. Em primeiro lugar, criará uma conta padrão como para indivíduos, a opção "*Corporate*" será selecionada mais tarde durante o processo de verificação.
+Aceda ao [sítio Web oficial da Bitfinex](https://www.bitfinex.com/). Na página inicial, encontre e clique na opção "*Sign Up*" para começar a criar a sua conta. Em primeiro lugar, criará uma conta padrão como para indivíduos, a opção "*Corporate*" será selecionada mais tarde durante o processo de verificação.
 
 ![BITFINEX](assets/fr/01.webp)
 
@@ -24,13 +24,13 @@ Preencha as informações necessárias: introduza o seu endereço de correio ele
 
 ![BITFINEX](assets/fr/02.webp)
 
-Para obter dicas sobre como utilizar e proteger palavras-passe fortes e únicas, consulte também este tutorial :
+Para obter dicas sobre como utilizar e proteger palavras-passe fortes e únicas, consulte também este tutorial:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-Vamos agora configurar o 2FA para proteger a conta. Utilize uma aplicação de autenticação no seu smartphone, como o Google Authenticator ou o Authy, por exemplo. Encontrará um tutorial sobre esta ferramenta aqui :
+Vamos agora configurar o 2FA para proteger a conta. Utilize uma aplicação de autenticação no seu smartphone, como o Google Authenticator ou o Authy, por exemplo. Encontrará um tutorial sobre esta ferramenta aqui:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Digitalize o código QR com a sua aplicação e introduza os 6 dígitos fornecidos.
 
@@ -64,7 +64,7 @@ Em "*Account Type*" (Tipo de conta), selecione "*Corporate*" (Empresa). No meu c
 
 ![BITFINEX](assets/fr/09.webp)
 
-Completar as etapas fornecendo :
+Completar as etapas fornecendo:
 
 
 - Informações sobre a empresa (nome da empresa, dados de contacto, sector de atividade, etc.) ;
@@ -77,14 +77,14 @@ Uma vez preenchida e submetida a sua candidatura, pode demorar vários dias até
 
 ## 3 - Introdução rápida à interface Bitfinex
 
-Depois de iniciar sessão, verá uma barra de navegação na parte superior da interface com: "*Trading*", "*Derivativos*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", etc. A Bitfinex oferece uma vasta gama de funcionalidades, incluindo :
+Depois de iniciar sessão, verá uma barra de navegação na parte superior da interface com: "*Trading*", "*Derivativos*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", etc. A Bitfinex oferece uma vasta gama de funcionalidades, incluindo:
 
 
-- Negociação**: mercado "*clássico*" onde pode colocar ordens de compra e venda de criptomoedas (incluindo bitcoin) ;
-- OTC**: Serviço de balcão para negociar grandes volumes diretamente com outro interveniente, fora dos livros de ordens públicas;
-- Financiamento**: Área dedicada à concessão de empréstimos e ao financiamento de margens;
-- Derivados**: Secção de produtos derivados (futuros, etc.), destinada a operadores experientes;
-- P2P**: Permite-lhe comprar ou vender criptos a outros utilizadores numa base peer-to-peer.
+- **Negociação**: mercado "*clássico*" onde pode colocar ordens de compra e venda de criptomoedas (incluindo bitcoin);
+- **OTC**: Serviço de balcão para negociar grandes volumes diretamente com outro interveniente, fora dos livros de ordens públicas;
+- **Financiamento**: Área dedicada à concessão de empréstimos e ao financiamento de margens;
+- **Derivados**: Secção de produtos derivados (futuros, etc.), destinada a operadores experientes;
+- **P2P**: Permite-lhe comprar ou vender criptos a outros utilizadores numa base peer-to-peer.
 
 Para uma utilização normal (compra/venda de bitcoins, depósitos/levantamentos e gestão de dinheiro), utilizará principalmente o separador "*Trading*", bem como as secções "*Wallet*", "*Deposit*" e "*Withdraw*".
 
@@ -160,7 +160,7 @@ A Bitfinex também oferece opções de depósito e levantamento através da Ligh
 
 Se estiver interessado na Lightning Network, também temos um curso de formação completo para o ajudar a compreender o seu funcionamento:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## 6 - Comprar e vender bitcoins na Bitfinex
 
@@ -241,4 +241,4 @@ Dependendo dos objectivos e da estrutura da sua empresa, a utilização da Bitfi
 
 Para uma análise mais aprofundada deste tópico, recomendo este curso de formação abrangente sobre a integração da bitcoin nas empresas, que aborda em pormenor a adição ao fluxo de caixa, a aceitação de pagamentos em bitcoin e a contabilidade:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

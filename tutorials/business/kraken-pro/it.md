@@ -10,13 +10,13 @@ In questo tutorial, affronteremo il processo di creazione di un conto commercial
 
 Se siete interessati all'integrazione del bitcoin nella vostra attività, vi consiglio di scoprire anche il nostro corso di formazione teorico completo sull'argomento:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Creare un conto aziendale Kraken
 
 Il primo passo per utilizzare Kraken per la gestione delle finanze aziendali è, ovviamente, la creazione di un account. In questo caso, non creeremo un account per i singoli, ma un account aziendale, che non solo garantisce la conformità alle normative, ma offre anche funzioni appositamente studiate, come le esportazioni contabili.
 
-Andate sul sito ufficiale [kraken.com] (https://www.kraken.com/) e cliccate sul pulsante "*Iscriviti*".
+Andate sul sito ufficiale [kraken.com](https://www.kraken.com/) e cliccate sul pulsante "*Iscriviti*".
 
 ![KRAKEN](assets/fr/01.webp)
 
@@ -59,8 +59,8 @@ Una volta completate tutte le sezioni e inviati i documenti necessari, cliccare 
 Una volta verificato il vostro conto, accederete alla piattaforma dove vi verranno proposte due interfacce:
 
 
-- Kraken**: Un'interfaccia semplificata che offre funzionalità essenziali.
-- Kraken Pro**: Un'interfaccia avanzata con funzioni aggiuntive, soprattutto per il trading.
+- **Kraken**: Un'interfaccia semplificata che offre funzionalità essenziali.
+- **Kraken Pro**: Un'interfaccia avanzata con funzioni aggiuntive, soprattutto per il trading.
 
 Se il vostro obiettivo è esclusivamente quello di acquistare e vendere bitcoin, optate per l'interfaccia semplificata. Avrete sempre la possibilità di passare all'interfaccia avanzata in un secondo momento, se necessario.
 
@@ -78,7 +78,7 @@ Nelle opzioni 2FA, è possibile scegliere di utilizzare una chiave di sicurezza 
 
 Per ulteriori informazioni su come utilizzare questo tipo di dispositivo, consultare il nostro tutorial dedicato:
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 L'altra opzione consiste nell'utilizzare un'applicazione di autenticazione come Google Authenticator o Authy. Queste applicazioni generano un codice dinamico di 6 cifre da inserire a ogni accesso.
 
@@ -90,7 +90,7 @@ Per attivare questo metodo, scansionate il codice QR con l'applicazione di vostr
 
 Per ulteriori informazioni sulle applicazioni di autenticazione, è possibile consultare questo tutorial:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Al di sotto, si ha anche accesso alle impostazioni avanzate, compresa la possibilità di impostare diverse 2FA. Kraken offre una delega di sicurezza avanzata tramite 2FA. Questa funzione consente di creare diversi livelli 2FA per varie azioni, come il login, la convalida degli ordini e il prelievo di fondi. In questo modo è possibile, ad esempio, dare a un contabile l'accesso a determinate funzionalità senza consentirgli di prelevare fondi. Ecco le opzioni:
 
@@ -158,9 +158,9 @@ Selezionare l'importo, scegliere la criptovaluta che si desidera ottenere e conf
 Per queste transazioni è possibile scegliere tra diversi tipi di ordine: *Mercato*, *Limite* o *Stop-Loss*:
 
 
-- Mercato* : Consente l'acquisto immediato al prezzo di mercato corrente;
-- Limite*: Consente di specificare un prezzo di acquisto e l'ordine verrà eseguito solo se il prezzo di mercato raggiunge tale importo;
-- Stop-Loss* : Vende automaticamente quando il prezzo raggiunge una certa soglia.
+- **Mercato**: Consente l'acquisto immediato al prezzo di mercato corrente;
+- **Limite**: Consente di specificare un prezzo di acquisto e l'ordine verrà eseguito solo se il prezzo di mercato raggiunge tale importo;
+- **Stop-Loss**: Vende automaticamente quando il prezzo raggiunge una certa soglia.
 
 ## 7 - Gestione delle transazioni e contabilità
 
@@ -194,7 +194,7 @@ A seconda degli obiettivi e della struttura dell'azienda, l'uso di Kraken può v
 
 ### Acquistare bitcoin in cambio di contanti
 
-**Obiettivo: diversificare il flusso di cassa dell'azienda investendo in bitcoin.
+**Obiettivo: diversificare il flusso di cassa dell'azienda investendo in bitcoin.**
 
 **Passi da seguire:**
 
@@ -219,4 +219,4 @@ A seconda degli obiettivi e della struttura dell'azienda, l'uso di Kraken può v
 
 Per uno sguardo più approfondito su questo argomento, vi consiglio questo corso di formazione completo sull'integrazione di bitcoin nelle aziende, che tratta in dettaglio l'aggiunta al flusso di cassa, l'accettazione di pagamenti in bitcoin e la contabilità:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

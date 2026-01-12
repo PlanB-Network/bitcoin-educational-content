@@ -1,8 +1,10 @@
-question: Wat is een factor waarmee je rekening moet houden bij het kiezen van een oplossing om Bitcoin te accepteren voor je bedrijf?
-answer: Het verwachte transactievolume.
+question: Wat is een van de dingen die je moet hebben voordat je Bitcoin koopt?
+answer: Een veilige Wallet.
 wrong_answers:
-  - De kleur van je logo.
-  - Het aantal werknemers.
-  - De locatie van je hoofdkantoor.
-explanation: >-
+  - Een fysieke kluis.
+  - Een bankrekening.
+  - Een creditcard.
+explanation: |
+  In de tekst van de cursus staat dat voordat je Bitcoin koopt, je
+  een beveiligde Wallet moet hebben waar je je sleutels in bewaart.
 reviewed: true

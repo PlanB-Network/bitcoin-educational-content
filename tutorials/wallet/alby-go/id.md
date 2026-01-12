@@ -16,11 +16,11 @@ description: Guide for Alby Go mobile app
 
 
 
-- [Alby Hub](https://albyhub.com/)** *(recommended)*
-- Umbrel**, **Start9**, **RaspiBlitz** (via **Alby Hub**)
-- Coinos** *(untested)*
-- Primal** *(untested)*
-- Minibits** *(untested)*
+- [Alby Hub](https://albyhub.com/) **(recommended)**
+- **Umbrel**, **Start9**, **RaspiBlitz** (via **Alby Hub**)
+- **Coinos** *(untested)*
+- **Primal** *(untested)*
+- **Minibits** *(untested)*
 
 
 Most NWC-enabled services should work. If you're testing a new one, let the community know your results!
@@ -33,9 +33,9 @@ Available on major platforms:
 
 
 
-- iOS:** [Download from the App Store](https://apps.apple.com/us/app/alby-go/id6471335774)
-- Android:** [Download from Google Play](https://play.google.com/store/apps/details?id=com.getalby.mobile)
-- ZapStore**
+- **iOS:** [Download from the App Store](https://apps.apple.com/us/app/alby-go/id6471335774)
+- **Android:** [Download from Google Play](https://play.google.com/store/apps/details?id=com.getalby.mobile)
+- **ZapStore**
 
 
 

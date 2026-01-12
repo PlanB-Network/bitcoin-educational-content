@@ -1,9 +1,9 @@
-question: Welches große Risiko besteht, wenn zu viele Informationen im Nachlassplan offengelegt werden?
-answer: Risiko des Diebstahls
+question: Welches grosse Risiko besteht, wenn zu viele Informationen im Nachlassplan offengelegt werden?
+answer: Risiko eines Diebstahls
 wrong_answers:
-  - Risiko des Verlustes
-  - Risiko der Abwertung
+  - Risiko eines Verlustes
+  - Risiko von Abwertung
   - Risiko der Regulierung
 explanation: |
-  Zu viele Informationen können es böswilligen Personen erleichtern, zu handeln, wenn sie Zugang zu Ihrem Nachlassplan erhalten.
+  Zu viele Informationen können böswilligen Personen den Zugriff auf die Bitcoins geben, wenn sie Zugang zu deinem Nachlassplan erhalten.
 reviewed: false

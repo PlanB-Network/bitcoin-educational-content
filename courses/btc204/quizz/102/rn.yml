@@ -1,0 +1,10 @@
+question: Ni igiki igiharuro ca Boltzmann kigereranya mu bijanye n’ugucuruza kwa Bitcoin?
+answer: Ivyiyumviro vy'uko ikintu cinjijwe gihuye n'igisohoka.
+wrong_answers:
+  - Igitigiri cose c’ama bitcoins yarungitswe.
+  - Umubare w’ibintu vyinjizwa mu gucuruza.
+  - Entropie ijyanye n’inyungu canke isohoka ryose.
+explanation: |
+  Igitigiri ca Boltzmann kigaragaza ubushobozi bw’ibintu vy’uko ikintu kinaka gifitaniye isano n’igisohoka. Ni ingero rero y’ingero y’ibishoboka bishingiye ku bintu bishobora gutuma habaho isano hagati y’inyungu n’isohoka mu gucuruza, ishingiye ku rugero rw’umubare w’ibintu vyiza vyabaye muri ico kintu ugereranyije n’umubare wose w’ibintu bishobora kuba, mu rutonde rw’insobanuro.
+  
+reviewed: false

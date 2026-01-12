@@ -1,12 +1,11 @@
-question: 當您的 Mnemonic 詞組的字寫好之後，您應該怎麼做？
-answer: 製作第二份複本，並將其儲存在不同的位置。
+question: 為什麼建議避免將您的比特幣留在 Exchange 平台上？
+answer: 它們很容易受到駭客攻擊。
 wrong_answers:
-  - 與信任的朋友分享。
-  - 電郵給自己。
-  - 儲存在您的手機中。
+  - Exchange 平台隨機收費。
+  - Bitcoin 在 Exchange 平台上失去價值。
+  - Exchange 平台並非監管機構。
 explanation: |
-  一旦寫完 Mnemonic 詞組的字詞，建議您再複製一份，並儲存在您的電腦中。
-  建議複製第二份，並儲存在與第一份不同的位置。
-  與第一份不同的位置。這可在第一份副本遺失或發生意
-  第一份副本遺失或發生事故時的備份。
+  建議避免將您的比特幣留在 Exchange
+  平台上，因為它們很容易受到黑客的
+  攻擊。
 reviewed: true

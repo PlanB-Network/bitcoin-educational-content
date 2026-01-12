@@ -1,0 +1,9 @@
+question: Ni iyihe porotokole itanga ubuzima ku ma aderesi IPv6 atangazwa?
+answer: DHCPv6
+wrong_answers:
+  - OSPFv3
+  - RIPng
+  - ICMPv4
+explanation: |
+  DHCPv6 icungera neza ubuzima biciye mu gukodesha, mu gihe NDP ibimenyesha mu butumwa bwayo bwo gutunganya router.
+reviewed: false

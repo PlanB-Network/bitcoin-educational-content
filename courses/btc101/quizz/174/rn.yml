@@ -1,0 +1,13 @@
+question: Ni ubuhe buryo bumwe Bitcoin yarushirije kwinjira mw’isoko ry’imigenzo?
+answer: Ugushika kw’ama ETF ya Bitcoin.
+wrong_answers:
+  - Ugukumira Bitcoin.
+  - Ukuzimangana kw’amahera yose y’ivy’ubuhinga bwa none.
+  - Iremwa rya Bitcoin.
+explanation: |
+  Bitcoin irabandanya kurokoka no gukura mbere n’ugushika ku 2019.
+  kwinjira cane mu migenzo .
+  isoko. Ugushika kwa Bitcoin ETFs, amategeko asobanutse,
+  kandi kuronka neza ibikoresho vyo kubika gusa biremesha ivyo .
+  ingendo.
+reviewed: true

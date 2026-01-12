@@ -39,7 +39,7 @@ Dans ce tutoriel, nous choisissons de créer nouveau portefeuille.
 L'un des premiers réflexes que vous devez avoir lorsque vous créez un nouveau portefeuille est d'effectuer la sauvegarde de vos 12 mots de récupération.
 Retrouvez ci-dessous des astuces pour effectuer une bonne sauvegarde de votre backup phrase.
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Pour effectuer la sauvegarde de vos phrases, sélectionnez le menu **Préférences > Sécurité** puis l'option **Vérifier son Backup Phrase**.
 
@@ -95,13 +95,13 @@ Pour les plus expérimentés, vous avez également un menu **Préférences > Dé
 - Le Tip Liquid, qui permet d'envoyer de petits montants de L-BTC.
 - Le Tip Bitcoin, qui permet d'envoyer de petits montants de bitcoin.
 
-Vous avez également la possibilité d'effectuer certaines actions telles que la synchronisation avec le réseau Liquid, la sauvegarde de vos clés, le partage votre journal d'activité et le choix de rescanner le réseau Liquid.
+Vous avez également la possibilité d'effectuer certaines actions telles que la synchronisation avec le réseau Liquid, la sauvegarde de vos clés, le partage de votre journal d'activité et le choix de rescanner le réseau Liquid.
 
 ![dev-mode](assets/fr/09.webp)
-Félicitations ! Vous avez désormais une bonne compréhension du portefeuille Misty Breez et de son apport dans les transactions inter réseaux Bitcoin. Si vous avez trouvé ce tutoriel utile, nous vous prions de nous laisser nous un pouce vert. Cela nous fera amplement plaisir.
+Félicitations ! Vous avez désormais une bonne compréhension du portefeuille Misty Breez et de son apport dans les transactions inter réseaux Bitcoin. Si vous avez trouvé ce tutoriel utile, nous vous prions de nous laisser un pouce vert. Cela nous fera amplement plaisir.
 
 Pour aller plus loin, je vous recommande également de découvrir notre tutoriel sur le portefeuille Aqua, qui fonctionne de manière similaire à Misty Breez :
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 

@@ -1,0 +1,9 @@
+question: Ni ivyiza bitatu ibihe nyamukuru biva ku guhindura OS na app ubudasiba?
+answer: Umutekano, ukwizigirwa, ugukora
+wrong_answers:
+  - Umuvuduko, ukutamenyekana, guhuza
+  - Umutekano, ububiko, ububiko
+  - Ibanga, ibikorwa, ukwizigirwa
+explanation: |
+  Ivyo guhindura bituma habaho umutekano ku bijanye n’uguhungabana, guhuza n’ibintu bishasha be n’ibintu bishasha, be n’ukwizigirwa kwa sisitemu.
+reviewed: true

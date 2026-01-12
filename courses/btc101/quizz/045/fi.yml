@@ -1,13 +1,9 @@
-question: Mikä on yksi Bitcoinin keskeisistä ominaisuuksista, joka erottaa sen fiat-valuutoista?
-answer: Sen rahapolitiikka perustuu yleiseen konsensukseen.
+question: Mikä on 20% inflaation vaikutus ostovoimaan kolmen vuoden aikana?
+answer: Menetät 50% ostovoimastasi.
 wrong_answers:
-  - Sitä voidaan painaa rajattomasti keskuspankkien toimesta.
-  - Se on tuettu fyysisellä hyödykkeellä kuten kulta tai hopea.
-  - Sitä säätelee keskuspankki.
+  - Menetät 100% ostovoimastasi.
+  - Menetät 60% ostovoimastasi.
+  - Menetät 30% ostovoimastasi.
 explanation: |
-  Bitcoinin hajautetun ja kryptografisen luonteen vuoksi
-  sitä ei voi väärentää ja se on rajoitettu 21 miljoonaan
-  yksikköön. Tämä on keskeinen ominaisuus, joka erottaa sen
-  fiat-valuutoista, joiden rahapolitiikkaa voidaan
-  muuttaa keskuspankkien toimesta.
+  20% inflaation myötä menetät lähes puolet ostovoimastasi kolmen vuoden aikana.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Ni kuki gusubira gukoresha Bitcoin Address bidakwiye?
+answer: Birosha gukurikirana amafaranga y'ubudandaji n'abandi
+wrong_answers:
+  - Ihishura urufunguzo rw’ibanga kubera Nonce.
+  - Bituma amafaranga yo gucuruza azimvye cane
+  - Bihindura ubusa imikono ya digitale
+explanation: |
+  Gusubira gukoresha Address bituma abarorerezi bashobora guhuza bitagoranye amafaranga atandukanye n’umuntu umwe, ivyo bikaba bituma ubuzima bwite bwabo buhungabana.
+reviewed: false

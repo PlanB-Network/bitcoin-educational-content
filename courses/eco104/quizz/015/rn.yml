@@ -1,0 +1,12 @@
+question: Ni akamaro akahe nyamukuru ko gukoresha amasakoshi atagira ububiko bwo kubika Bitcoin?
+answer: Ukwongerekana kw'umutekano n'ubuzima bwite
+wrong_answers:
+  - Biroroshe gushika ku Bitcoin.
+  - Amafaranga make y'ugucuruza
+  - Nta jambobanga rikenewe
+explanation: |
+  Amasakoshi atagira ububiko niho uri wewe wenyene ubika amafaranga yawe,
+  bisobanura ko ufise ububasha bwose ku mfunguruzo zawe z’ibanga. Rero,
+  Amasakoshi atagira ububiko atanga urugero rwo hejuru rw'umutekano n'ubuzima bwite 
+  hejuru y’amasakoshi y’ububiko kuko ari wewe wenyene ushinzwe umutekano w’amahera yawe.
+reviewed: true

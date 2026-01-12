@@ -1,0 +1,9 @@
+question: René Descartes?
+answer: Geht Spinoza voraus.
+wrong_answers:
+  - Ist ein Erbe von Spinoza.
+  - Ist ein Schweizer Philosoph.
+  - Ist ein atheistischer Philosoph.
+explanation: |
+  René Descartes (1596-1650) ist der Vorgänger Spinozas und gilt als Vater des modernen Rationalismus. Spinoza wurde von Descartes beeinflusst, entwickelte aber ein philosophisches System, das sich deutlich vom Cartesianismus unterscheidet.
+reviewed: false

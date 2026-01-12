@@ -1,0 +1,8 @@
+question: Jakie są dwa warianty wyliczenia Result Rust używane do obsługi błędów możliwych do odzyskania?
+answer: Ok(T) dla udanych operacji i Err(E) dla niepowodzeń
+wrong_answers:
+  - Success(T) dla udanych operacji i Failure(E) dla niepowodzeń
+  - Some(T) dla udanych operacji i None dla niepowodzeń
+  - Pass(T) dla udanych operacji i Panic(E) dla niepowodzeń
+explanation: |
+  Wyliczenie Result w Rust ma dokładnie dwa warianty: Ok(T), który zawiera pomyślną wartość typu T, oraz Err(E), który zawiera błąd typu E. Taka konstrukcja zmusza programistów do jawnej obsługi zarówno przypadków sukcesu, jak i niepowodzenia. Pozostałe opcje są nieprawidłowe - Success/Failure nie są wariantami Result, Some/None należą do enum Option do obsługi wartości null, a Pass/Panic nie są standardowymi wariantami enum Rust do obsługi błędów.

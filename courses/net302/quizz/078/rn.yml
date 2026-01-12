@@ -1,0 +1,9 @@
+question: Ni mu karere akahe ka DNS amadosiye ya PTR ashirwa kugira ngo IPv6 ihinduke?
+answer: ip6.arpa
+wrong_answers:
+  - muri-aderesi.arpa
+  - ipv6.arpa
+  - gusubiramwo
+explanation: |
+  Ico kibanza ca ip6.arpa ni co gikoreshwa cane cane mu guhindura amaderesi ya IPv6, mu gihe in-addr.arpa ikoreshwa kuri IPv4.
+reviewed: false

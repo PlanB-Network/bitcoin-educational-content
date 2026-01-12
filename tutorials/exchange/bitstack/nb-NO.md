@@ -6,7 +6,7 @@ description: Kjøp og selg bitcoins på Bitstack-applikasjonen
 
 Bitstack er en fransk bitcoin-investeringsplattform, regulert PSAN av AMF. Den tilbyr en app som er tilgjengelig på Android og iOS for enkelt kjøp og salg av bitcoin.
 
-Det som skiller Bitstack fra andre er det automatiske avrundingssystemet, som synkroniserer brukerens bankkonto for å konvertere differansen mellom beløpet som debiteres under daglige utgifter og den neste høyere euroen, direkte til bitcoins. Denne metoden letter anvendelsen av *Dollar Cost Averaging * (DCA), noe som muliggjør en gradvis, smertefri akkumulering av satoshis. I tillegg til denne originale funksjonen tilbyr plattformen også et klassisk DCA-system med automatiske investeringer, samt spotkjøp og -salg.
+Det som skiller Bitstack, er dets automatiske avrundingssystem, som synkroniserer brukerens bankkonto for å konvertere forskjellen mellom beløpet trukket ved daglige utgifter og det neste hele eurobeløpet direkte til bitcoin. Denne metoden gjør det enklere å bruke *Dollar Cost Averaging* (DCA) ved å tillate en gradvis og smertefri akkumulering av satoshier. I tillegg til denne originale funksjonen tilbyr plattformen også et klassisk DCA-system med automatiske investeringer samt engangskjøp og -salg.
 
 ![Image](assets/fr/01.webp)
 
@@ -28,8 +28,8 @@ Alle andre operasjoner på plattformen er gratis, inkludert uttak av bitcoin (me
 For å laste ned Bitstack-applikasjonen går du til applikasjonsbutikken din:
 
 
-- [Last ned fra Google Play Store] (https://play.google.com/store/apps/details?id=com.bitstack.app&hl=fr)
-- [Last ned på App Store] (https://apps.apple.com/fr/app/bitstack-%C3%A9pargner-en-bitcoin/id1608783388)
+- [Last ned fra Google Play Store](https://play.google.com/store/apps/details?id=com.bitstack.app&hl=fr)
+- [Last ned på App Store](https://apps.apple.com/fr/app/bitstack-%C3%A9pargner-en-bitcoin/id1608783388)
 
 ![Image](assets/fr/02.webp)
 
@@ -51,9 +51,9 @@ Velg et sterkt passord for å sikre tilgangen til kontoen din, og klikk deretter
 
 ![Image](assets/fr/06.webp)
 
-For sikker passordhåndtering i det daglige anbefales det å bruke en passordadministrator. På Plan ₿ Network finner du flere veiledninger om de beste eksisterende løsningene, for eksempel Bitwarden :
+For sikker passordhåndtering i det daglige anbefales det å bruke en passordadministrator. På Plan ₿ Academy finner du flere veiledninger om de beste eksisterende løsningene, for eksempel Bitwarden :
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Du vil deretter bli bedt om å bekrefte identiteten din (KYC). I samsvar med fransk regelverk vil du bli bedt om å oppgi personopplysninger og identitetsbevis. Fyll ut feltene med etternavn, fornavn og fødselsdato.
 
@@ -110,7 +110,7 @@ Som nevnt i innledningen, tilbyr Bitstack tre metoder for å investere i Bitcoin
 - Konfigurasjon av gjentatte kjøp (RPC) ;
 - Bruk av automatisk avrunding på utgifter.
 
-### Kjøpe med kontanter
+### Gjør et engangskjøp
 
 For å foreta et engangskjøp av bitcoins til markedspris, klikker du bare på "*Buy*".
 
@@ -126,7 +126,7 @@ Transaksjonen din er nå bekreftet.
 
 ### Sette opp et DCA
 
-Dollar Cost Averaging* (DCA) er en attraktiv investeringsstrategi for å akkumulere bitcoin og samtidig redusere risikoen forbundet med volatiliteten. Ved å regelmessig kjøpe et fast beløp, uavhengig av pris, kan du jevne ut anskaffelseskostnadene og unngå impulsive beslutninger. DCA bidrar til å redusere atferdsskjevheter som frykt for å gå glipp av en mulighet eller panikk i tilfelle et kursfall, og gjør det dermed mulig for deg å forvalte bitcoin-sparingen din på en rolig og disiplinert måte.
+Dollar Cost Averaging (DCA) er en attraktiv investeringsstrategi for å akkumulere bitcoin og samtidig redusere risikoen forbundet med volatiliteten. Ved å regelmessig kjøpe et fast beløp, uavhengig av pris, kan du jevne ut anskaffelseskostnadene og unngå impulsive beslutninger. DCA bidrar til å redusere atferdsskjevheter som frykt for å gå glipp av en mulighet eller panikk i tilfelle et kursfall, og gjør det dermed mulig for deg å forvalte bitcoin-sparingen din på en rolig og disiplinert måte.
 
 For å sette opp et tilbakevendende kjøp (DCA) på Bitstack, gå til "*Sparing*"-delen på hjemmesiden og velg "*Återvendende*". Trykk deretter på "*Fortsett*".
 
@@ -184,7 +184,7 @@ Bestem transaksjonsprioriteten. For et gebyrfritt uttak velger du "*Standard*"-p
 
 ![Image](assets/fr/32.webp)
 
-Hvis du ikke er kjent med hvordan en portefølje med egenbeholdning fungerer, tilbyr vi veiledninger om de fleste av de tilgjengelige løsningene [på Plan ₿ Network i delen "*Wallet*"] (https://planb.network/tutorials/wallet).
+Hvis du ikke er kjent med hvordan en portefølje med egenbeholdning fungerer, tilbyr vi veiledninger om de fleste av de tilgjengelige løsningene [på Plan ₿ Academy i delen "*Wallet*"](https://planb.academy/tutorials/wallet).
 
 ## Selge bitcoin
 

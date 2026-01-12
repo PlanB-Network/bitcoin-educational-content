@@ -1,0 +1,8 @@
+question: Eliptik eğri kriptografisinde ayrık logaritma problemini hesaplama açısından olanaksız kılan matematiksel temel nedir?
+answer: Tekrarlanan nokta ekleme yoluyla döngüsel bir grup oluştururken noktaların öngörülemeyen dağılımı
+wrong_answers:
+  - Eliptik eğrilerin x ekseni boyunca noktaları yansıtan simetri özelliği
+  - Gerçek sayılar yerine sonlu alanlarda gerçekleştirilen modüler aritmetik işlemler
+  - Eğri denkleminde alan karakteristiği olarak kullanılan büyük asal sayı
+explanation: |
+  Ayrık logaritma probleminin zorluğu, döngüsel bir grup (G, 2G, 3G, ..., nG) oluştururken noktaların öngörülemeyen, doğrusal olmayan dağılımından kaynaklanmaktadır. Noktalar sırayla üretilse de, dağınık ve rastgele görünürler, bu da P = sG noktasından s skalerini belirlemeyi hesaplama açısından olanaksız hale getirir. Simetri, modüler aritmetik ve büyük asal sayılar eliptik eğrilerin önemli özellikleri olsa da, güvenli açık anahtar kriptografisini sağlayan tek yönlü fonksiyonu doğrudan oluşturmazlar.

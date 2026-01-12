@@ -1,0 +1,9 @@
+question: Ni kuki ivyicaro vy’ukwagura bifise urufatiro rwa 2 ari ngirakamaro mu bijanye n’ubuhinga bwo gukingira amakuru?
+answer: Bituma umuntu ashobora gukoresha neza imirongo ibiri.
+wrong_answers:
+  - Birorosha imibare mu kugabanya igitigiri c’ibikorwa.
+  - Bibuza amakosa yo kubara mu kwongerako ivy’ugusubira inyuma.
+  - Bagabanya urutonde rw'ibishoboka mu kugabanya igitigiri ca Elements.
+explanation: |
+  Ivyuma vy’ukwagura bifise urufatiro rwa 2 birabereye kubera ko Elements yabo ishobora kubonwa nk’imirongo ibiri, bikaba bituma vyoroha gukora ibikorwa ku makuru y’imibare ku rugero rw’imirongo ibiri mu mirongo.
+reviewed: false

@@ -1,0 +1,9 @@
+question: According to Eric Hughes' Cypherpunk Manifesto, what is the primary responsibility for defending privacy in an open electronic society?
+answer: Individuals must actively defend their own privacy rather than relying on governments or corporations to provide it
+wrong_answers:
+  - Governments should establish comprehensive privacy regulations to protect citizens from corporate surveillance
+  - Corporations must implement voluntary privacy standards and self-regulate their data collection practices
+  - International organizations should create binding treaties that mandate privacy protections across all nations
+explanation: |
+  Eric Hughes explicitly stated in the Cypherpunk Manifesto that 'We cannot expect governments, corporations, or other large anonymous organizations to guarantee us confidentiality... My main objective for Cypherpunks is to make people defend their confidentiality, rather than relying on someone else to provide it.' 
+  This philosophy emphasizes individual responsibility and self-reliance through cryptographic tools, rejecting dependence on external institutions for privacy protection, which is why the cypherpunks developed decentralized cryptographic systems.

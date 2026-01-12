@@ -1,0 +1,9 @@
+question: Hva må skje når kildekoden i en åpen kildekode-distribusjon bevisst tilsløres, i henhold til kravene i definisjonen av åpen kildekode?
+answer: Den bevisst tilslørte kildekoden bryter med prinsippene for åpen kildekode og er ikke tillatt
+wrong_answers:
+  - Den obfuskerte koden må ledsages av detaljert dokumentasjon som forklarer funksjonaliteten
+  - Den obfuskerte koden er akseptabel så lenge kompilerte binærfiler også leveres
+  - Den obfuskerte koden må gjøres tilgjengelig gjennom en separat nedlasting med reproduksjonskostnader
+explanation: |
+  Definisjonen av åpen kildekode sier eksplisitt at "bevisst tilslørt kildekode er ikke tillatt" Dette er et grunnleggende krav fordi tilsløring hindrer meningsfull granskning, modifisering og forståelse av koden, noe som motvirker kjerneformålet med åpen kildekode. Kildekoden må være i "den foretrukne formen som en programmerer ville modifisere programmet i", noe som gjør tilsløring uforenlig med prinsippene for åpen kildekode, uavhengig av dokumentasjon eller distribusjonsmetoder.
+reviewed: false

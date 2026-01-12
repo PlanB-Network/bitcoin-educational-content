@@ -1,0 +1,9 @@
+question: 전 세계 IPv6 Address 블록의 초기 할당을 관리하는 기관은 어디인가요?
+answer: IANA
+wrong_answers:
+  - NIST
+  - RIPE NCC
+  - ARIN
+explanation: |
+  IANA는 할당 계층 구조의 최상위에 위치하여 5개의 지역 인터넷 등록기관(RIR)에 IPv6 블록을 위임합니다.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe nyamukuru rwa sisiteme?
+answer: Guhuza ibikoresho, abakoresha na porogarame
+wrong_answers:
+  - Porogarame ikingira umugera nyabwonko
+  - Porogarame y’ibicapo
+  - Seriveri y’ubutumwa buca buza
+explanation: |
+  Sisiteme ikora nk’igice gihurijwemo porogarama kigufasha be n’izindi porogarame gushikira ibikoresho no kubigenzura.
+reviewed: true

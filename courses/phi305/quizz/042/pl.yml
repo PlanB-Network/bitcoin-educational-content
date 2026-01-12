@@ -1,0 +1,9 @@
+question: Kto napisał "W przyrodzie nie dzieje się nic, co można by przypisać
+answer: Spinoza.
+wrong_answers:
+  - Kartezjusz.
+  - Newton.
+  - Saint-Augustin.
+explanation: |
+  To Spinoza napisał: "W naturze nie dzieje się nic, co można by przypisać istniejącej w niej wadzie". To zdanie wyraża ideę, że natura jest doskonała w swoim rodzaju, a wady są jedynie ludzkimi osądami.
+reviewed: false

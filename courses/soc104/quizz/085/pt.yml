@@ -1,0 +1,9 @@
+question: De acordo com a teoria do conhecimento disperso de Hayek, porque é que as economias de planeamento central têm dificuldades em fixar os preços em comparação com os mercados livres?
+answer: Os planeadores centrais não podem aceder ao conhecimento subjetivo e localizado dos custos, benefícios e preferências individuais que só os participantes no mercado possuem
+wrong_answers:
+  - Os planeadores centrais não dispõem de poder computacional suficiente e de algoritmos avançados para processar todos os dados económicos de que dispõem
+  - Os planeadores centrais são intrinsecamente corruptos e fixam os preços para benefício próprio e não da sociedade, ao contrário dos participantes no mercado que são altruístas
+  - Os planeadores centrais concentram-se demasiado na estabilidade económica a longo prazo em vez de responderem às flutuações imediatas da oferta e da procura
+explanation: |
+  A principal ideia de Hayek é que o conhecimento existe apenas como "fragmentos dispersos de conhecimentos incompletos e frequentemente contraditórios possuídos por todos os indivíduos distintos" Este conhecimento é subjetivo e localizado - apenas os indivíduos conhecem os seus próprios custos, benefícios e preferências. Os mercados livres, através da troca voluntária e da negociação de preços, permitem que este conhecimento disperso surja e coordene a atividade económica.
+  Os planeadores centrais, independentemente das suas intenções ou capacidades, não podem aceder a esta informação subjectiva e dispersa que existe na mente de milhões de indivíduos, tornando impossível uma fixação de preços eficaz.

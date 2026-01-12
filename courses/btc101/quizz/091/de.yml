@@ -1,13 +1,11 @@
-question: Was ist der empfohlene Gebrauch eines Offline- oder Cold-Physical-Wallets?
-answer: Das Aufbewahren großer Beträge.
+question: Was ist eine empfohlene Alternative zur Verwendung von Papier zur Speicherung Ihrer mnemonischen Phrase?
+answer: Sie in eine Metallplatte eingravieren.
 wrong_answers:
-  - Das Aufbewahren von täglichen Ausgaben.
-  - Das Aufbewahren kleiner Beträge.
-  - Das Aufbewahren von kurzfristigen Ersparnissen.
+  - In einer digitalen Datei speichern.
+  - Auf ein Whiteboard schreiben.
+  - Als Kontakt in Ihrem Telefon speichern.
 explanation: |
-  Ein Offline- oder Cold-Physical-Wallet wird für
-  das Aufbewahren großer Beträge empfohlen, da es weniger anfällig für
-  Online-Bedrohungen ist als Hot Wallets. Es wird jedoch nicht
-  für tägliche Ausgaben empfohlen, da es für tägliche Transaktionen weniger
-  zugänglich ist.
+  Eine der empfohlenen Alternativen zu Papier für die Speicherung
+  Ihrer mnemonischen Phrase ist, sie in eine Metallplatte zu gravieren. Diese
+  Lösung ist haltbarer und langlebiger.
 reviewed: true

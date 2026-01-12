@@ -1,0 +1,9 @@
+question: Hangi bilim insanı matematiğin evrenin dili olduğuna inanır?
+answer: Galileo.
+wrong_answers:
+  - Kepler.
+  - Newton.
+  - Copernicus.
+explanation: |
+  Galileo, "doğanın kitabı matematiksel bir dille yazılmıştır" iddiasıyla ünlüdür. Bu görüş, Spinoza'nınki de dahil olmak üzere modern bilim ve rasyonalist felsefe üzerinde derin bir etkiye sahip olmuştur.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ưu điểm chính của node-in-a-box so với triển khai thô là gì?
+answer: Cài đặt dễ dàng và quản lý ứng dụng tích hợp
+wrong_answers:
+  - Xác minh chặt chẽ hơn các quy tắc đồng thuận
+  - Truy cập trực tiếp vào Blockchain mà không cần lưu trữ
+  - Khả năng tương thích với loại tiền tệ khác ngoài Bitcoin
+explanation: |
+  Node-in-a-box giúp đơn giản hóa việc cài đặt và quản lý nhiều ứng dụng phụ trợ thông qua Interface thống nhất.
+reviewed: true

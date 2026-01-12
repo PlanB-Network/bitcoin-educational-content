@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe AluVM ifise mu masezerano ya RGB?
+answer: Gushitsa inyandiko n'ibikorwa vya Contract mu bidukikije vy'imashini y'ukuri
+wrong_answers:
+  - Gusuzuma ibikorwa vya Bitcoin On-Chain mu bidukikije vy'imashini y'ukuri
+  - generate imfunguruzo za bose ku bakoresha RGB mu bidukikije vy'imashini y'ukuri
+  - Gutuma Blockchain yemezwa neza mu bidukikije vy'imashini y'ukuri
+explanation: |
+  AluVM yagenewe kwemeza Smart contract no gukoresha ubuhinga bwo guharura mu rwego rwa RGB.
+reviewed: false

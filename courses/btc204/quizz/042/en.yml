@@ -6,4 +6,4 @@ wrong_answers:
   - Legal risk.
 explanation: |
   Cash P2P exchanges present many risks, but they do not require performing a KYC. Therefore, there is no risk of data leakage.
-reviewed: false
+reviewed: true

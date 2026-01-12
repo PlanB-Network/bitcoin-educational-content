@@ -1,5 +1,5 @@
 ---
-name: Nopeus Wallet
+name: Speed Wallet
 description: Maksa ja Exchange bitcoineilla ja USDT:llä heti
 ---
 ![cover](assets/cover.webp)
@@ -49,7 +49,7 @@ Tässä oppaassa käymme läpi kaikki nämä seikat, jotta kokemuksesi Speed Wal
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Speed Wallet:n käytön aloittaminen
 
@@ -79,7 +79,7 @@ Speed Wallet edellyttää käyttäjätilin luomista. Voit luoda sellaisen Google
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![download](assets/fr/01.webp)
 
@@ -89,7 +89,7 @@ Kun tilisi on luotu, suosittelemme, että otat käyttöön kaksoistodennusjärje
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Voit tehdä tämän menemällä sovelluksen asetuksiin ja aktivoimalla sitten kaksoistodennuksen ja biometrisen todentamisen.
 
@@ -143,7 +143,7 @@ Jos sinulla on jo kokemusta Bitcoin-lompakoista, et ole lainkaan jäljessä. Spe
 
 
 
-- Maksujen vastaanottaminen Speed Wallet :**
+- Maksujen vastaanottaminen Speed Wallet**:**
 
 
 
@@ -161,11 +161,11 @@ Voit myös yksinkertaisesti käyttää Lightning Address:tä, kun haluat antaa l
 
 
 
-- Lähetä bitcoineja Speed Wallet** :
+- Lähetä bitcoineja **Speed Wallet**:
 
 
 
-Lähetä**-painikkeesta voit lähettää bitcoineja käyttämällä vastaanottajan Lightning Address, Lightning Invoice tai Bitcoin (Mainnet) Address.
+Lähetä**-painikkeesta** voit lähettää bitcoineja käyttämällä vastaanottajan Lightning Address, Lightning Invoice tai Bitcoin (Mainnet) Address.
 
 
 
@@ -191,7 +191,7 @@ Yksi Speed Wallet:n ensimmäisistä ominaisuuksista on se, että sen avulla voit
 
 
 
-- Osta Bitcoin luottokortilla**: Speed Wallet:llä on helppo hankkia Bitcoin päivittäin käyttämilläsi fiat-valuutoilla. Se sisältää maksuaggregaattorin, jonka avulla voit maksaa bitcoineja luottokortillasi.
+- **Osta Bitcoin luottokortilla**: Speed Wallet:llä on helppo hankkia Bitcoin päivittäin käyttämilläsi fiat-valuutoilla. Se sisältää maksuaggregaattorin, jonka avulla voit maksaa bitcoineja luottokortillasi.
 
 
 
@@ -201,13 +201,13 @@ Yksi Speed Wallet:n ensimmäisistä ominaisuuksista on se, että sen avulla voit
 
 
 
-- Osta Bitcoin muista kryptovaluutoista**: USDT, USDC bitcoineiksi Wallet:ssa ja päinvastoin. Tämän vaihtoehdon avulla Speed Wallet yksinkertaistaa Bitcoin:n osto- ja myyntiprosessia viittaamatta ulkoisiin Exchange-alustoihin. Voit siis käydä kauppaa jopa 20 000 satoshilla, noin 20 dollarilla nykykurssilla, poistumatta Speed Wallet:sta.
+- Osta Bitcoin muista kryptovaluutoista: USDT, USDC bitcoineiksi Wallet:ssa ja päinvastoin. Tämän vaihtoehdon avulla Speed Wallet yksinkertaistaa Bitcoin:n osto- ja myyntiprosessia viittaamatta ulkoisiin Exchange-alustoihin. Voit siis käydä kauppaa jopa 20 000 satoshilla, noin 20 dollarilla nykykurssilla, poistumatta Speed Wallet:sta.
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ![swap-btc](assets/fr/07.webp)
 
@@ -265,7 +265,7 @@ Katso alla oleva opetusohjelma Bitrefillin käytön aloittamisesta.
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Ansaitse palkintoja
 
@@ -327,13 +327,13 @@ Kuten olet nähnyt, Speed Wallet integroi riittävästi alustoja, jotta voit kä
 
 
 
-https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
+https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
 
 ## Speed Wallet ei ole vain mobiililaitteita varten!
 
 
 
-Mobiilisovelluksen lisäksi Speed Wallet tarjoaa myös [Chrome Web -laajennuksen] (https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk), jonka voit lisätä tietokoneen Google Chrome -selaimeen turvallisia maksutapahtumia varten.
+Mobiilisovelluksen lisäksi Speed Wallet tarjoaa myös [Chrome Web -laajennuksen](https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk), jonka voit lisätä tietokoneen Google Chrome -selaimeen turvallisia maksutapahtumia varten.
 
 
 
@@ -365,7 +365,7 @@ Speed Wallet painottaa erityisesti Bitcoin:n ja stabiilien kolikoiden integroint
 
 
 
-[Speed Business] (https://www.tryspeed.com/) tarjoaa sinulle Bitcoin:n hyväksymistä varten Lightning Network:n käyttämän yhtenäisen maksuaggregaattorin, jota voit käyttää verkkokaupassasi tai fyysisessä myymälässäsi.
+[Speed Business](https://www.tryspeed.com/) tarjoaa sinulle Bitcoin:n hyväksymistä varten Lightning Network:n käyttämän yhtenäisen maksuaggregaattorin, jota voit käyttää verkkokaupassasi tai fyysisessä myymälässäsi.
 
 
 
@@ -375,25 +375,25 @@ Pääasiassa maksamiseen keskittyvät seuraavat vaihtoehdot:
 
 
 
-- Verkkomaksut**: Tämän vaihtoehdon avulla voit hyväksyä Bitcoin:n maksuvälineeksi digitaalisille tuotteillesi maksulinkkien, laskutuksen ja tilausten kautta.
+- **Verkkomaksut**: Tämän vaihtoehdon avulla voit hyväksyä Bitcoin:n maksuvälineeksi digitaalisille tuotteillesi maksulinkkien, laskutuksen ja tilausten kautta.
 
 
 
 
 
-- Paikan päällä suoritettavat maksut**: Maksujen kerääminen myymälässäsi.
+- **Paikan päällä suoritettavat maksut**: Maksujen kerääminen myymälässäsi.
 
 
 
 
 
-- Pikamaksut**: Vaihtoehto, jonka avulla voit hallita korvauksia, nostoja, kuluja ja työntekijöiden palkkakuitteja suoraan Speed Business Interface:stä.
+- **Pikamaksut**: Vaihtoehto, jonka avulla voit hallita korvauksia, nostoja, kuluja ja työntekijöiden palkkakuitteja suoraan Speed Business Interface:stä.
 
 
 
 
 
-- Alustamaksut**: Yhdistä Speed Business -tilisi ulkoisiin työkaluihin, joita käytät siirtojen ja maksujen tekemiseen näille alustoille.
+- **Alustamaksut**: Yhdistä Speed Business -tilisi ulkoisiin työkaluihin, joita käytät siirtojen ja maksujen tekemiseen näille alustoille.
 
 
 
@@ -401,4 +401,4 @@ Olet saapunut Speed Wallet -oppaan loppuun. Jos tämä opetusohjelma oli mielest
 
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

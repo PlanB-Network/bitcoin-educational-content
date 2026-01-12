@@ -1,5 +1,5 @@
 ---
-name: BTC-kart
+name: BTC Map
 description: Finn steder du kan bruke Sats på
 ---
 ![cover](assets/cover.webp)
@@ -14,7 +14,7 @@ BTC Map er basert på OSM (OpenStreetMap), som i seg selv er et deltakende kartl
 
 
 
-Gå til [btcmap.org] (https://btcmap.org/):
+Gå til [btcmap.org](https://btcmap.org/):
 
 
 
@@ -22,15 +22,15 @@ Gå til [btcmap.org] (https://btcmap.org/):
 
 
 
-Tilgjengelig på :
+Tilgjengelig på:
 
 
 
 
-- iOS via [AppStore] (https://apps.apple.com/app/btc-world-map/id6443604345)
-- Android via [Play Store] (https://play.google.com/store/apps/details?id=org.btcmap.app)
-- [F-Droid] (https://f-droid.org/en/packages/org.btcmap/) Android-appkatalogen med åpen kildekode
-- ved å laste ned [apk android] (https://github.com/teambtcmap/btcmap-android/releases/latest) direkte fra prosjektets github
+- iOS via [AppStore](https://apps.apple.com/app/btc-world-map/id6443604345)
+- Android via [Play Store](https://play.google.com/store/apps/details?id=org.btcmap.app)
+- [F-Droid](https://f-droid.org/en/packages/org.btcmap/) Android-appkatalogen med åpen kildekode
+- ved å laste ned [apk android](https://github.com/teambtcmap/btcmap-android/releases/latest) direkte fra prosjektets github
 - via webappen fra nettleseren din (vår oppfatning i dag)
 
 
@@ -165,7 +165,7 @@ Endelig,
 
 - 1: Merk av i denne boksen hvis du bare vil bekrefte at informasjonen i filen er oppdatert (i så fall går du direkte til trinn 4)
 - 2: Angi her hvilken informasjon som eventuelt er feil, og hvilken korrigering du foreslår
-- 3 : Beskriv her hvordan du innhentet informasjonen (besøk, telefon...)
+- 3: Beskriv her hvordan du innhentet informasjonen (besøk, telefon...)
 - 4: Gå videre til captcha-verifisering (skiller mellom store og små bokstaver)
 - 5: Klikk på "Send rapport" for å sende inn forslaget ditt
 
@@ -247,7 +247,7 @@ Du vil umiddelbart legge merke til de oransjefargede områdene. Som du kan se, e
 
 
 
-BTC Map lar deg [legge til ditt eget samfunn] (https://btcmap.org/communities/add/), la oss ta en titt på det trinn for trinn:
+BTC Map lar deg [legge til ditt eget samfunn](https://btcmap.org/communities/add/), la oss ta en titt på det trinn for trinn:
 
 
 
@@ -274,7 +274,7 @@ BTC Map lar deg [legge til ditt eget samfunn] (https://btcmap.org/communities/ad
 
 
 
-[Denne siden] (https://btcmap.org/add-location/) viser deg hvordan du selv kan legge til en Bitcoin-kompatibel eiendomsoppføring ved hjelp av Open Street Map. Hvis du har problemer, finnes det et skjema du kan fylle ut, slik at noen andre kan opprette oppføringen for deg (dette kan ta flere uker). La oss ta en titt:
+[Denne siden](https://btcmap.org/add-location/) viser deg hvordan du selv kan legge til en Bitcoin-kompatibel eiendomsoppføring ved hjelp av Open Street Map. Hvis du har problemer, finnes det et skjema du kan fylle ut, slik at noen andre kan opprette oppføringen for deg (dette kan ta flere uker). La oss ta en titt:
 
 
 
@@ -287,7 +287,7 @@ BTC Map lar deg [legge til ditt eget samfunn] (https://btcmap.org/communities/ad
 - 1: Navnet på virksomheten
 - 2: Fysisk Address (obligatorisk, du trenger en Address på gaten)
 - 3: Marker det nøyaktige punktet på kartet
-- 4 : Hvilken kategori tilhører planten?
+- 4: Hvilken kategori tilhører planten?
 - 5: Hvilke Bitcoin-betalingsmedier er tilgjengelige (BTC, Lightning, kontaktløs)?
 
 
@@ -307,9 +307,9 @@ BTC Map lar deg [legge til ditt eget samfunn] (https://btcmap.org/communities/ad
   - "Jeg er bedriftseier": Jeg er leder av virksomheten
   - "Jeg besøkte som kunde": Jeg besøkte dette etablissementet som kunde
   - "annen metode
-- 12 : Din e-post Address i tilfelle plattformen trenger ytterligere informasjon
+- 12: Din e-post Address i tilfelle plattformen trenger ytterligere informasjon
 - 13: Captcha-sjekk (sensitive for store og små bokstaver)
-- 14 : Klikk på "Send sted" for å sende inn oppføringen din
+- 14: Klikk på "Send sted" for å sende inn oppføringen din
 
 
 

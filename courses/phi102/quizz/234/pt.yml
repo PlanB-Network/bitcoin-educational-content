@@ -1,0 +1,8 @@
+question: Em que mecanismo económico se baseia a liberdade contratual para garantir que ambas as partes beneficiam das trocas voluntárias?
+answer: A avaliação subjectiva de cada parte que torna a troca preferível à sua abstenção
+wrong_answers:
+  - Regulamentação governamental que assegura a distribuição equitativa de benefícios entre as partes contratantes
+  - Controlos dos preços de mercado que garantam uma compensação justa para todos os participantes na bolsa
+  - Medição objetiva do valor que cria ganhos matematicamente equivalentes para ambas as partes
+explanation: |
+  Os contratos voluntários criam um enriquecimento mútuo porque cada indivíduo escolhe participar apenas quando subjetivamente valoriza mais o que recebe do que aquilo de que abdica. Esta preferência subjectiva, e não qualquer regulamentação externa ou medição objetiva do valor, determina a natureza de soma positiva da troca voluntária. A regulamentação governamental ou o controlo dos preços prejudicariam, na realidade, este mecanismo voluntário, enquanto a medição objetiva do valor ignora as preferências pessoais que motivam os indivíduos a celebrar contratos.

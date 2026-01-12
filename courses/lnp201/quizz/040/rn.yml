@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe ruhambaye rw’uruzitiro rwo kohereza mu gutuma inzira kuri Lightning Network?
+answer: Harura inzira yose ija ku wakira
+wrong_answers:
+  - Bika amakuru y'amahera y'imirongo yose y'urubuga
+  - Kumenya amafaranga y'ugucuruza kuri buri nzira y'ubuhuza
+  - Kuvugana n'ibihimba vyose vy'ubuhuza
+explanation: |
+  Igikoresho co kohereza ni co gifise inshingano yo kubara inzira yose ija ku wuyironka, kuko igikoresho co guhuza kimenya gusa umubanyi waco wo hafi.
+reviewed: false

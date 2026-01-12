@@ -2,7 +2,7 @@
 name: Blixt Wallet
 description: Làm thế nào để bắt đầu sử dụng nút LN mạnh mẽ trên thiết bị di động của bạn?
 ---
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 Hướng dẫn này dành cho tất cả người dùng mới muốn bắt đầu sử dụng Bitcoin Lightning Network (LN) theo cách MIỄN PHÍ MÃ NGUỒN MỞ, HOÀN TOÀN KHÔNG CÓ BẢO VỆ.

@@ -1,0 +1,8 @@
+question: 아베 갈리아니는 어떤 문학적 형식으로 물리학자들과 곡물 무역의 자유에 관한 그들의 논지를 공격했나요?
+answer: 대화
+wrong_answers:
+  - 소설
+  - 시
+  - 테스트
+explanation: |
+  갈리아니는 여러 인물 간의 대화 형식으로 쓰인 작품인 '대화(Dialogues sur le commerce des blés)'에서 피지오크라트들을 비판했습니다.

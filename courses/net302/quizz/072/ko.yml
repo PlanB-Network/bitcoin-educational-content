@@ -1,0 +1,9 @@
+question: 어떤 유형의 IPv6 블록을 사용하면 ISP를 변경할 때에도 접두사를 유지할 수 있나요?
+answer: PI(공급자 독립)
+wrong_answers:
+  - PA(공급자 집계 가능)
+  - LIR(로컬 인터넷 레지스트리)
+  - IP(상호 교환 가능한 공급자)
+explanation: |
+  PI(공급자 독립) 블록은 인터넷 서비스 제공업체와 독립적으로 RIR이 조직에 직접 할당합니다.
+reviewed: false

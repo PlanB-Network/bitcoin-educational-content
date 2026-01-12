@@ -8,4 +8,4 @@ Si noti che la maggior parte dei nodi lascia le configurazioni predefinite stabi
 
 Ad esempio, una transazione che non assegna alcuna commissione è sia valida secondo le regole del consenso che non standard, perché la politica predefinita di Bitcoin Core per il parametro `minRelayTxFee` è `0,00001` (in BTC/kB).
 
-> *Il termine "regole di mempool" è talvolta usato anche per riferirsi alle regole di standardizzazione
+> *Il termine "regole di mempool" è talvolta usato anche per riferirsi alle regole di standardizzazione*

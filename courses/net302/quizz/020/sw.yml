@@ -6,4 +6,4 @@ wrong_answers:
   - TCP inasimamia mgawanyiko wa IP, UDP inashughulikia ukandamizaji
 explanation: |
   TCP inahitaji muunganisho kuanzishwa na kufuatiliwa, wakati UDP inatuma pakiti bila kusanidi au kudhibiti kipindi cha awali.
-reviewed: false
+reviewed: true

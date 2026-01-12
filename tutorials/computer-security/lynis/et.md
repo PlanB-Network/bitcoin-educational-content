@@ -22,7 +22,7 @@ ___
 
 
 
-**Selles õpetuses õpime, kuidas teha Linuxi masina turvaauditit Lynise abil! Neile, kes ei tea **Lynis't,** on väike käsurea utiliit, mis analüüsib teie serveri konfiguratsiooni ja annab soovitusi **masinate turvalisuse parandamiseks**
+**Selles õpetuses õpime, kuidas teha Linuxi masina turvaauditit Lynise abil! Neile, kes ei tea **Lynis't**, on väike käsurea utiliit, mis analüüsib teie serveri konfiguratsiooni ja annab soovitusi **masinate turvalisuse parandamiseks**.**
 
 
 
@@ -51,7 +51,7 @@ Tööriista kasutavad laialdaselt paljud kasutajad, sealhulgas süsteemiadminist
 
 
 
-Projekt on saadaval aadressil Address **Github** :
+Projekt on saadaval aadressil Address **Github**:
 
 
 
@@ -82,7 +82,7 @@ See paigaldusrežiim võimaldab teil kasutada käsku **lynis** ükskõik kust s�
 
 
 
-Ühendage oma serveriga SSH kaudu ja sisestage Lynise installimiseks järgmised käsud :
+Ühendage oma serveriga SSH kaudu ja sisestage Lynise installimiseks järgmised käsud:
 
 
 
@@ -209,7 +209,7 @@ Kättesaadavate käskude kuvamiseks sisestage lihtsalt järgmine käsk:
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -249,7 +249,7 @@ See on see, mida sa saad:
 
 
 
-Kui soovite kuvada kõiki valikuid, peate sisestama :
+Kui soovite kuvada kõiki valikuid, peate sisestama:
 
 
 
@@ -321,10 +321,10 @@ Järgnevalt loetleb Lynis punktid, mis vastavad kõigele, mida ta on meie süste
 
 
 
-- Punane** kriitilise Elements või parimate tavade mittejärgimise korral (näiteks puuduv pakett), st teie server ei järgi seda punkti
-- Kollane** soovituste või soovituse osalise täitmise puhul (ütleme, et selle värviga esile tõstetud punkti täitmine on plussiks (mitteprioriteetne))
-- Green** punktide puhul, kus teie serveri konfiguratsioon on vastavuses
-- Valge**, kui see on neutraalne
+- **Punane** kriitilise Elements või parimate tavade mittejärgimise korral (näiteks puuduv pakett), st teie server ei järgi seda punkti
+- **Kollane** soovituste või soovituse osalise täitmise puhul (ütleme, et selle värviga esile tõstetud punkti täitmine on plussiks (mitteprioriteetne))
+- **Green** punktide puhul, kus teie serveri konfiguratsioon on vastavuses
+- **Valge**, kui see on neutraalne
 
 
 
@@ -336,7 +336,7 @@ Siin näeme, et Lynis soovitab paigaldada **fail2ban**:
 
 
 
-Jaotises "**Boot ja teenused**" näeme, et teenuste kaitset *systemd* kaudu võiks parandada. Positiivne on see, et Grub2 on olemas ja probleeme õiguste osas ei ole :
+Jaotises "**Boot ja teenused**" näeme, et teenuste kaitset *systemd* kaudu võiks parandada. Positiivne on see, et Grub2 on olemas ja probleeme õiguste osas ei ole:
 
 
 
@@ -598,16 +598,16 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 
 
 
-Mõned andmed paigaldatud pakettide kohta :
+Mõned andmed paigaldatud pakettide kohta:
 
 
 
 
 
-- Clamav** on viirusetõrje.
-- unattend-upgrades** võimaldab teil hallata oma uuendusi automaatselt ja isegi taaskäivitada masinat või automaatselt puhastada vanu pakette, see on täielikult konfigureeritav.
-- rkhunter** on rootkitide vastane programm, mis skaneerib teie failisüsteemi.
-- Fail2ban** tugineb teie logifailidele vastavalt sellele, mida annate talle lugeda, ja töötab koos **iptablesiga**, et keelata näiteks IP-aadressid, mis üritavad teie serverit SSH-süsteemis "brute force'i" kasutada.
+- **Clamav** on viirusetõrje.
+- **unattend-upgrades** võimaldab teil hallata oma uuendusi automaatselt ja isegi taaskäivitada masinat või automaatselt puhastada vanu pakette, see on täielikult konfigureeritav.
+- **rkhunter** on rootkitide vastane programm, mis skaneerib teie failisüsteemi.
+- **Fail2ban** tugineb teie logifailidele vastavalt sellele, mida annate talle lugeda, ja töötab koos **iptablesiga**, et keelata näiteks IP-aadressid, mis üritavad teie serverit SSH-süsteemis "brute force'i" kasutada.
 
 
 
@@ -623,7 +623,7 @@ Vaatame SSH soovitusi. Need on loetletud allpool. Ärge muretsege, me selgitame 
 
 
 
-Vaatame lähemalt minu praegust **SSH** konfiguratsiooni :**/etc/ssh/sshd_config**
+Vaatame lähemalt minu praegust **SSH** konfiguratsiooni:**/etc/ssh/sshd_config**
 
 
 
@@ -635,7 +635,7 @@ Allpool soovitatud konfiguratsiooni saab veel optimeerida, kuid see annab teile 
 
 
 
-Me :
+Me:
 
 
 
@@ -695,7 +695,7 @@ PubkeyAuthentication yes
 
 
 
-- Säilitada parooliga autentimine :
+- Säilitada parooliga autentimine:
 
 
 
@@ -804,7 +804,7 @@ Tasub märkida, et mõnes jurisdiktsioonis võib sõnumi saatmine enne autentimi
 
 
 
-Piltides annab see :
+Piltides annab see:
 
 
 
@@ -820,7 +820,7 @@ Lõpuks, ärme unusta kontrollida **Lynise auditi skoori**! Näeme, et **Minu Ha
 
 
 
-**Teisisõnu, mida kõrgem tulemus, seda parem! Seetõttu peate töötama oma konfiguratsiooni kallal, et saavutada võimalikult kõrge skoor, võimaldades samal ajal oma masina ja hostitud teenuste normaalset toimimist (mis tähendab funktsionaalsete testide läbiviimist).
+**Teisisõnu, mida kõrgem tulemus, seda parem!** Seetõttu peate töötama oma konfiguratsiooni kallal, et saavutada võimalikult kõrge skoor, võimaldades samal ajal oma masina ja hostitud teenuste normaalset toimimist (mis tähendab funktsionaalsete testide läbiviimist).
 
 
 
@@ -896,4 +896,4 @@ Lõpuks saate võrrelda **Lynist** ka teiste vahenditega, mida on mitmeid. Kui s
 
 
 
-**See õpetus on lõppenud, lõbutsege koos Lynisega!
+**See õpetus on lõppenud, lõbutsege koos Lynisega!**

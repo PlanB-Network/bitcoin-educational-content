@@ -1,13 +1,8 @@
-question: Wat is het verband tussen Bitcoin en de toekomst van technologie en maatschappij?
-answer: Bitcoin is een technologische revolutie die de Exchange van waarde mogelijk maakt zonder vertrouwde derde partij.
+question: Wat is een van de belangrijkste kenmerken van het Bitcoin protocol?
+answer: Het is neutraal tegenover alle gebruikers.
 wrong_answers:
-  - Bitcoin is een vorm van AI-technologie waarmee mensen Exchange informatie kunnen uitwisselen via een centrale server.
-  - Bitcoin is een middel om de wereldbevolking onder controle te houden, waardoor armoede kan worden uitgebannen.
-  - Bitcoin is een methode voor overheden om de financiële transacties van hun burgers te volgen.
-explanation: |
-  De tekst legt uit dat Bitcoin, net als het internet voor de communicatiemiddelen
-  communicatiemiddelen, een technologische revolutie is die
-  de kans creëert voor nieuwe manieren van grootschalige
-  organisatie, die ons de mogelijkheid geeft om waarde uit te wisselen
-  waarde uit te wisselen zonder vertrouwde derde partij.
+  - Het bevoordeelt bepaalde gebruikers boven andere.
+  - Het is bevooroordeeld ten opzichte van bepaalde gebruikers.
+  - Alleen een selecte groep gebruikers heeft er baat bij.
+explanation: >-
 reviewed: true

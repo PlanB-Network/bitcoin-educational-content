@@ -1,5 +1,5 @@
 ---
-name: Utsending
+name: Envoy
 description: Sette opp og bruke et pass med Envoy-applikasjonen
 ---
 ![cover](assets/cover.webp)
@@ -22,7 +22,7 @@ I denne veiledningen, som er rettet mot nybegynnere og viderekomne brukere, skal
 
 Hvis du er en avansert bruker og ønsker å utforske mer komplekse funksjoner, anbefaler jeg at du tar en titt på denne andre opplæringen der vi konfigurerer Passport med Sparrow Wallet :
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 ## Utpakking av passet
 
@@ -62,13 +62,13 @@ På enheten finner du :
 Gå til appbutikken din for å laste ned Envoy :
 
 
-- På [Google Play Store] (https://play.google.com/store/apps/details?id=com.foundationdevices.envoy);
-- På [App Store] (https://apps.apple.com/us/app/envoy-by-foundation/id1584811818);
-- På [F-Cold] (https://foundation.xyz/fdroid/).
+- På [Google Play Store](https://play.google.com/store/apps/details?id=com.foundationdevices.envoy);
+- På [App Store](https://apps.apple.com/us/app/envoy-by-foundation/id1584811818);
+- På [F-Cold](https://foundation.xyz/fdroid/).
 
 ![Image](assets/fr/50.webp)
 
-Du kan også laste ned APK-filen direkte [fra Foundations GitHub-depot] (https://github.com/Foundation-Devices/envoy/releases).
+Du kan også laste ned APK-filen direkte [fra Foundations GitHub-depot](https://github.com/Foundation-Devices/envoy/releases).
 
 ![Image](assets/fr/51.webp)
 
@@ -164,13 +164,13 @@ Passet ditt er klart til å motta den nye fastvaren via et MicroSD-kort.
 
 ### Uten Envoy-applikasjon
 
-For å gjøre dette bruker du MicroSD-kortet som fulgte med Passport-esken (eller et annet), og setter det inn i datamaskinen. Last ned den nyeste fastvareversjonen fra [Foundation documentation site] (https://docs.foundation.xyz/firmware-updates/passport/) eller [their GitHub repository] (https://github.com/Foundation-Devices/passport2/releases).
+For å gjøre dette bruker du MicroSD-kortet som fulgte med Passport-esken (eller et annet), og setter det inn i datamaskinen. Last ned den nyeste fastvareversjonen fra [Foundation documentation site](https://docs.foundation.xyz/firmware-updates/passport/) eller [their GitHub repository](https://github.com/Foundation-Devices/passport2/releases).
 
 ![Image](assets/fr/21.webp)
 
 Før du installerer den på enheten din, anbefaler vi deg på det sterkeste å sjekke ektheten og integriteten til den nedlastede fastvaren. Hvis du trenger hjelp med dette, kan du se denne veiledningen :
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### Med Envoy-applikasjonen
 
@@ -254,7 +254,7 @@ Klikk på bekreftelsesknappen for å se minnefrasen din.
 
 Hvis du vil ha mer informasjon om hvordan du lagrer og administrerer minnefrasen din, anbefaler jeg at du følger denne andre veiledningen, spesielt hvis du er nybegynner:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 du må selvfølgelig aldri dele disse ordene på Internett, slik jeg gjør i denne opplæringen. Denne eksempelmappen vil kun bli brukt på Testnet, og vil bli slettet ved slutten av opplæringen
 
@@ -457,4 +457,4 @@ Gratulerer, du vet nå hvordan du konfigurerer og bruker Passport med Envoy-appl
 
 For mer informasjon, se vår veiledning om Liana-programvaren:
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

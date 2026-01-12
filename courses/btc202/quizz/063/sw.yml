@@ -1,0 +1,9 @@
+question: Je, ni utekelezaji gani wa Lightning Network unaopatikana kwenye Umbrel?
+answer: LND na core Lightning
+wrong_answers:
+  - Elects na Fulcrum
+  - Bitcoin core na Bitcoin Knots
+  - Panda Umeme na ThunderHub
+explanation: |
+  Umbrel hukuruhusu kuchagua kati ya LND na Core Lightning kama utekelezaji wa Lightning Network.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Co je to finalismus?
+answer: Obrácení příčiny a následku, abyste něco pochopili.
+wrong_answers:
+  - Politická teorie.
+  - Recept na vaření.
+  - Princip psychoanalýzy.
+explanation: |
+  Finalismus je převrácení příčiny a následku, aby bylo možné něco pochopit. Je to vysvětlování jevu jeho domnělým účelem, nikoliv jeho skutečnými příčinami, což Spinoza kritizuje jako iluzi.
+reviewed: false

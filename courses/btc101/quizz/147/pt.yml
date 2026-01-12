@@ -1,9 +1,12 @@
-question: Quais seriam as implicações para os usuários do Bitcoin se os blocos fossem 100 vezes mais pesados?
-answer: Executar um nó de Bitcoin não seria acessível para a pessoa média, comprometendo a descentralização do protocolo e a imutabilidade tanto das transações quanto das regras de consenso.
+question: Qual é o papel dos ASICs na mineração de Bitcoin?
+answer: ASICs são máquinas projetadas exclusivamente para aplicar o algoritmo SHA256 no processo de mineração.
 wrong_answers:
-  - Executar um nó de Bitcoin seria mais acessível para a pessoa média, aumentando a descentralização do protocolo e a imutabilidade tanto das transações quanto das regras de consenso.
-  - A capacidade de transação da rede diminuiria.
-  - A recompensa por bloco para os mineradores aumentaria.
+  - ASICs são usados para verificar transações de Bitcoin aplicando o algoritmo SHA256 no processo de verificação.
+  - ASICs são usados para criar arbitrariamente novos bitcoins.
+  - ASICs são usados para proteger a rede Bitcoin.
 explanation: |
-  Se os blocos fossem 100 vezes mais pesados, executar um nó de Bitcoin exigiria um disco rígido de 50TB, uma largura de banda de mais de 500GB/mês e hardware capaz de validar centenas de milhares de transações em menos de 10 minutos. Isso tornaria a execução de um nó de Bitcoin inacessível para a pessoa média, comprometendo a descentralização do protocolo e a imutabilidade das transações e regras de consenso.
+  ASICs (Circuitos Integrados de Aplicação Específica) são
+  hardware especializado projetado especificamente para a
+  mineração de Bitcoin. Eles são otimizados para realizar a função de hashing SHA256, que é o problema matemático que os mineradores
+  devem resolver no processo de Prova de Trabalho.
 reviewed: true

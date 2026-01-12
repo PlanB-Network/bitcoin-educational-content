@@ -1,10 +1,12 @@
-question: Kwa nini Bitcoin inachukuliwa kuwa aina mpya ya pesa?
-answer: Kwa sababu ni pesa za kidijitali zisizo na huluki kuu.
+question: Je, ni mkakati gani unaotumiwa na taasisi kuu kupunguza thamani ya sarafu ya fiat?
+answer: Wanaongeza misa ya fedha kwa asilimia chache kila mwaka.
 wrong_answers:
-  - Kwa sababu ni sarafu ya kidijitali inayoungwa mkono na dhahabu.
-  - Kwa sababu ni sarafu inayohitaji benki ya Blockchain.
-  - Kwa sababu Hifadhi ya Shirikisho inasema hivyo.
+  - Wanapunguza misa ya fedha kwa asilimia chache kila mwaka.
+  - Wanaweka misa yake ya pesa mara kwa mara ikilinganishwa na misa ya awali.
+  - Zina misa yake ya pesa inayobadilika nasibu kwa kulinganisha na misa ya awali.
 explanation: |
-  Bitcoin inaweza kutazamwa kama aina mpya ya pesa, inapoibuka
-  kutoka kwa mtandao wa rika-kwa-rika bila huluki kuu.
+  Huluki kuu mara nyingi hushusha thamani ya sarafu kwa kuiongeza
+  wingi wa fedha ikilinganishwa na ile ya awali kwa asilimia chache
+  kila mwaka. Devaluation hii ya kimya mara nyingi inahesabiwa haki kama
+  kuwa kwa maslahi ya wananchi.
 reviewed: true

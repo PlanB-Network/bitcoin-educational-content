@@ -1,10 +1,13 @@
-question: Quais são os custos típicos para um minerador?
-answer: Consumo de eletricidade e compra de hardware.
+question: Qual é uma maneira pela qual o Bitcoin se integrou ainda mais ao mercado tradicional?
+answer: A chegada dos ETFs de Bitcoin.
 wrong_answers:
-  - Apenas compra de hardware.
-  - Taxas de transação.
-  - Consumo de eletricidade e taxas de transação.
-explanation: >-
-  Minerar Bitcoin requer uma quantidade substancial de poder computacional, o que, por sua vez, consome eletricidade.
-  Além disso, os mineradores precisam investir em hardware especializado para minerar efetivamente.
-reviewed: false
+  - A proibição do Bitcoin.
+  - O desaparecimento de todas as criptomoedas.
+  - A criação do Bitcoin.
+explanation: |
+  O Bitcoin continua a sobreviver e crescer ainda mais ao
+  integrar-se cada vez mais ao mercado tradicional. A chegada
+  dos ETFs de Bitcoin, uma regulamentação mais clara e a melhor
+  aquisição de ferramentas de armazenamento apenas incentivam essa
+  tendência.
+reviewed: true

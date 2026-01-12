@@ -1,0 +1,11 @@
+question: Ni ubuhe buryo bumwe bwo gukoresha impapuro zo kubika ijambo ryawe rya Mnemonic?
+answer: Kuyicapura ku gipande c’icuma.
+wrong_answers:
+  - Kubibika muri dosiye ya digitale.
+  - Kuvyandika ku kibaho cera.
+  - Kubika nk’umuntu wo guhamagara muri telefone yawe.
+explanation: |
+  Kimwe mu bintu vyiza vyo gukoresha mu kubika impapuro .
+  ijambo ryawe rya Mnemonic ririko riracapura ku gipande c’icuma. Ibi
+  umuti ni uwukomeye cane kandi uramara igihe kirekire.
+reviewed: true

@@ -8,4 +8,4 @@ Ett kontroversiellt försök till en Hard Fork syftade till att fördubbla block
 Trots implementeringen av SegWit i augusti 2017 lyckades inte 2X-projektet för att dubbla storleken uppnå konsensus, särskilt på grund av oppositionskampanjen "NO2X", vilket ledde till att det avbröts i början av november. Denna episod uppfattades av många användare och utvecklare som en attack mot Bitcoin, i samband med Blocksize War.
 
 
-> ► *SegWit2x kallas ibland också "B2X" eller "S2X". Ursprungligen var dess namn "SegWit2Mb"
+> ► *SegWit2x kallas ibland också "B2X" eller "S2X". Ursprungligen var dess namn "SegWit2Mb"*

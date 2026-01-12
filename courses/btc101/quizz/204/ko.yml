@@ -1,0 +1,8 @@
+question: Bitcoin은 기업, 대학, 규제 기관 및 개인에게 어떤 조치를 취하도록 강제하나요?
+answer: 이를 고려해야 합니다.
+wrong_answers:
+  - 무시합니다.
+  - 금지하려면.
+  - 범죄화하기 위해.
+explanation: >-
+reviewed: true

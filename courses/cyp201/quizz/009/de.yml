@@ -6,4 +6,4 @@ wrong_answers:
   - Die Knuth-Morris-Pratt-Konstruktion
 explanation: |
   Die Merkle-Damgård-Konstruktion ermöglicht es, eine Kompressionsfunktion in eine Hash-Funktion für Nachrichten variabler Länge umzuwandeln.
-reviewed: false
+reviewed: true

@@ -1,11 +1,11 @@
-question: Miks ei saa kõik kasutada sama Bitcoin'i rahakotti?
-answer: Kuna erinevad inimesed tähendavad erinevaid kasutusjuhte.
+question: Millal kasutati Bitcoini esimest korda füüsiliste kaupade ostuks?
+answer: Kui Laszlo Hanyecz ostis 10 000 BTC eest 2 pitsat
 wrong_answers:
-  - Kuna Bitcoin'i rahakoti kasutamine on kallis
-  - Kuna Bitcoin'i rahakoti kasutamine on ebaseaduslik
-  - Kuna inimesed ei jõua kunagi kokkuleppele sellise rahakoti nime osas
+  - Kui Hal Finney ostis 100 000 BTC eest auto
+  - Kui Satoshi Nakamoto ostis 1 000 000 000 BTC eest maja
+  - Ükski valikutest
 explanation: |
-  Kui üks inimene võib prioriteediks seada turvalisuse, siis teine võib väärtustada 
-  kasutajasõbralikkust või spetsiifilisi funktsioone. Seetõttu ei pruugi üksainus Bitcoin'i rahakott 
-  rahuldada kõikide nõudmisi, muutes vajalikuks mitme erineva rahakoti olemasolu.
+  Bitcoini kasutati esimest korda füüsiliste kaupade ostuks, kui
+  Laszlo Hanyecz ostis 2 pitsat 10 000 BTC eest, 22.05.2010, mis on nüüdseks
+  tuntud kui Pizza Päev
 reviewed: true

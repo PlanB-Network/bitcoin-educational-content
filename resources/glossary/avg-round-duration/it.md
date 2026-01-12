@@ -8,7 +8,7 @@ La durata media del round è un indicatore utilizzato per stimare il tempo neces
 200 * 4 = 800
 ```
 
-Supponendo che, in media, ci vogliano 1 milione di azioni per trovare un blocco valido, la *durata media del pool* sarebbe di 1.250 secondi o circa 21 minuti. Round Duration* sarebbe di 1.250 secondi, ovvero circa 21 minuti:
+Supponendo che, in media, ci vogliano 1 milione di azioni per trovare un blocco valido, la *durata media del pool* sarebbe di 1.250 secondi o circa 21 minuti. *Round Duration* sarebbe di 1.250 secondi, ovvero circa 21 minuti:
 
 ```text
 1,000,000 / 800 = 1,250

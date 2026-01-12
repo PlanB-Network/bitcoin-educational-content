@@ -16,12 +16,12 @@ Operativni sistem (OS) je glavni softver koji upravlja svim resursima vašeg ra�
 
 
 
-- **Poboljšana sigurnost** : Linux distribucije su poznate po svojoj sigurnosti i robusnosti
+- **Poboljšana sigurnost**: Linux distribucije su poznate po svojoj sigurnosti i robusnosti
 - **Nulta cena**: Ubuntu i većina Linux distribucija su besplatni
 - **Velika zajednica**: Zajednica korisnika spremna da pomogne putem foruma i tutorijala
 - **Poštovanje privatnosti**: Otvoreni sistem za veću transparentnost
 - **Jednostavnost**: Korisnički prijatan interfejs i lakoća korišćenja
-- **Bogat ekosistem** : Opsežan katalog softvera otvorenog koda
+- **Bogat ekosistem**: Opsežan katalog softvera otvorenog koda
 - **Redovna podrška**: Sigurna ažuriranja od Canonical-a
 
 
@@ -59,7 +59,7 @@ Operativni sistem (OS) je glavni softver koji upravlja svim resursima vašeg ra�
 ### 3. Napravite USB ključ za pokretanje sistema
 
 
-Možete koristiti nekoliko alata, kao što je Balena Etcher :
+Možete koristiti nekoliko alata, kao što je Balena Etcher:
 
 
 
@@ -257,7 +257,7 @@ sudo apt update
 
 
 - Unesite svoju lozinku kada se to zatraži
-- Da biste instalirali ažuriranja, otkucajte :
+- Da biste instalirali ažuriranja, otkucajte:
 
 
 ```bash
@@ -303,7 +303,7 @@ Možete kreirati, uređivati i sačuvati dokumente u različitim formatima (uklj
 Menadžer softvera (nazvan "Ubuntu Software"): grafički interfejs za pretragu i instalaciju aplikacija.
 
 
-Iz Terminala, koristite komandu :
+Iz Terminala, koristite komandu:
 
 
 ```bash
@@ -328,4 +328,4 @@ Sada ste spremni da svakodnevno koristite Ubuntu: osigurajte svoj sistem, pretra
 Da biste dodatno osigurali svoj digitalni život, preporučujemo da pogledate našu uslugu za šifrovanu razmenu poruka, koja je savršeno prilagođena zaštiti vaše privatnosti i dopunjuje vašu Ubuntu instalaciju:
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

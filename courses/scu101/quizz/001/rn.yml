@@ -1,0 +1,13 @@
+question: Ni kubera iki uhanuwe ku gabanya igitigiri c’inyongerabushobozi ushira muri mucukumbuzi yawe?
+answer: kugira ngo wirinde ingorane zikomeye z'umutekano n’imikorere.
+wrong_answers:
+  - Kugira ngo uzigame umwanya wo kubikako ku gikoresho cawe.
+  - Kugira ngo mucukumbuzi yawe ntipfe.
+  - Kugira ngo ntibakurikiranywe n’imbuga z’abandi.
+explanation: |
+  Mu gihe inyongerabushobozi za mucukumbuzi zishobora gutanga uburyo 
+  bw'imikorere bw'umumaro, zirashobora kandi gutera ingorane z’umutekano kuko zirashobora
+  gushikika ku makuru yawe no ku bikorwa vyawe vyo kurondera kumbuga. Ikindi,
+  kugira inyongerabushobozi nyinshi cane birashobora gutuma mucukumbuzi yawe igenda buhoro kandi
+  bigira ico bikoze ku mikorere yayo.
+reviewed: true

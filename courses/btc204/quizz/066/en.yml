@@ -8,6 +8,6 @@ wrong_answers:
   - Reassigning unused inputs to new addresses.
 
 explanation: |
-  The principle of consolidation is to take advantage of periods when fees are low on Bitcoin to merge smaller UTXOs into a single larger one.
+  The principle of consolidation is to capitalize on periods when fees are low on Bitcoin to merge smaller UTXOs into a single, larger one.
 
-reviewed: false
+reviewed: true

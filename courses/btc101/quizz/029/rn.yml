@@ -1,0 +1,12 @@
+question: Ijambo fiduciaire risobanura iki mu bijanye n’amahera?
+answer: Rivuga amafaranga afise agaciro gusa kubera ukwizigira ikigo nyamukuru kiyagenzura.
+wrong_answers:
+  - Rivuga amafaranga ashigikiwe n’inzahabu kandi asohorwa n’amabanki matomato y’ubudandaji.
+  - Rivuga amafaranga afise agaciro gusa ku bijanye n’ibikorwa vy’ubudandaji.
+  - Rivuga amafaranga akoreshwa gusa mu kigo kinaka.
+explanation: |
+  Amafaranga y'ivy'ubutunzi ntashigikirwa n'ikintu gifatika
+  nk’inzahabu canke ifeza. Agaciro kavyo kava ku cizigiro .
+  n’ukwizigira abantu bafise mu nzego zitanga .
+  kandi akabitunganya.
+reviewed: true

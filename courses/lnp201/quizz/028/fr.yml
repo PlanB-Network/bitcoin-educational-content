@@ -6,4 +6,4 @@ wrong_answers:
   - Réclamer uniquement la moitié des fonds disponibles
 explanation: |
   En cas de tricherie, Bob peut utiliser la clé de révocation pour récupérer tous les fonds du canal, punissant ainsi Alice pour sa tentative.
-reviewed: false
+reviewed: true 

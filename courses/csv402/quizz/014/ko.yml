@@ -1,0 +1,9 @@
+question: RGB에서 Schema은 어떤 역할을 하나요?
+answer: Contract 변수, 규칙 및 Business Logic 정의
+wrong_answers:
+  - 참여자 간에 교환되는 상점 위탁물
+  - Bitcoin 거래에 대한 페더슨 커미트먼트 검증하기
+  - 각 Seal에 대한 UTXO 정의 만들기
+explanation: |
+  Schema은 Contract의 상태를 구조화하고 허용되는 전환 및 유효성 검사 조건을 결정합니다.
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - GMS es obligatorio en todos los dispositivos Linux
 explanation: |
   Para beneficiarse de las aplicaciones estrella (Play Store, Maps, etc.), los fabricantes deben integrar GMS, lo que implica firmar estrictos acuerdos de licencia con Google.
-reviewed: false
+reviewed: true

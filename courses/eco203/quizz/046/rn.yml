@@ -1,0 +1,9 @@
+question: Ni igiki nyamukuru Bastiat avuga ku bijanye n’iciyumviro co gutanga inguzanyo ku buntu?
+answer: Ibindi bisubizo vyose
+wrong_answers:
+  - Irashigikira ugutunganirizwa kw'amabanki kubera abantu ku giti cabo .
+  - Biremesha inyifato idafise inshingano no gufata ivyago birenze urugero .
+  - Ntivyemera ko ubushobozi bwo kugura bwongerekana mu buryo buramba .
+explanation: |
+  Bastiat arahakana iciyumviro c’inguzanyo y’ubuntu mu gushimika ku vy’uko bituma umuntu agira inyifato y’ivy’ubutunzi idafise inshingano, akagira ingorane nyinshi, kandi akabura ubushobozi bwo kwongerera ubushobozi bwo kugura mu buryo buramba.
+reviewed: false

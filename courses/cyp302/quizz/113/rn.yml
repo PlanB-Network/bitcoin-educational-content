@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe rw’urutonde rwa K mu gupfuka RC4?
+answer: Itangura kandi ihindura urutonde rwa S mu generate umurongo w'urufunguzo
+wrong_answers:
+  - Ipfuka ataco ihinduye umwandiko usanzwe
+  - Ibika umwandiko washizwemwo
+  - Bikora gusa nk'ububiko bw'amakuru bw'igihe gito gushika igikorwa kirangiye
+explanation: |
+  Igiharuro ca K gikoreshwa mu guhindura igiharuro ca S mu nzira yo gutegura urufunguzo, ivyo bikaba bituma habaho urufunguzo rw'urufunguzo rw'ibinyoma kugira ngo rupfuke inyandiko rusangi.
+reviewed: false

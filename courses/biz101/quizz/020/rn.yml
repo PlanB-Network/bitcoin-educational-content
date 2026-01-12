@@ -1,0 +1,9 @@
+question: “iduga ry’ibiciro ryihishijwe” ni iki mu bijanye n’uburyo bw’amahera bushingiye kuma deni?
+answer: Ni ukwongerekana kw’amahera azunguruka (hafi 7% ku mwaka) kugabanya umugabane wawe w’agaciro rusangi iyo udashize amahera mumigambi canke ngo ukuze itunga nk’uko bibereye.
+wrong_answers:
+  - Ni ijambo ry’ubutunzi ryemewe ry’inyungu zidahinduka.
+  - Ni biharuro vy'ukuduga  kw’ibiciro bidashirwa hanze n’amabanki makuru.
+  - Bisigura ko ibiciro bitazokwigera biduga, mbere n’igihe amahera azuguruka mubantu yabaye meshi.
+explanation: |
+  Inflation yihishije ibaho iyo amahera azunguruka mubantu yabaye meshi, bikagabanya ubushobozi bwo kugura bw’amahera azigamiwe. Iyo ubucuruzi butashize amahera mumigambi canke ngo bukingire ubutunzi bwabwo, burashobora gutakaza agaciro kubera ubwo buryo butekanye bwo guhindura amahera.
+reviewed: true

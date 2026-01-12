@@ -23,7 +23,7 @@ In this tutorial, we'll learn how to configure a VPN based on WireGuard, a free,
 WireGuard is a relatively recent solution, having been available as a stable release since March 2020, and has had the honor of being integrated directly into the **Linux kernel since version 5.6**. This does not prevent it from being accessible from older Linux distributions that use a different version of the kernel. Compared with solutions such as OpenVPN and IPSec, WireGuard is simpler to use and much faster, as we'll see at the end of this article.
 
 
-Some key points about WireGuard :
+Some key points about WireGuard:
 
 
 
@@ -73,13 +73,13 @@ In this example, I'll focus on the following case: **from my Windows Peer 1 conn
 ![Image](assets/fr/035.webp)
 
 
-In terms of IP addresses, this gives :
+In terms of IP addresses, this gives:
 
 
 
-- Home network**: 192.168.1.0/24
-- Corporate network**: 192.168.100.0/24
-- WireGuard tunnel network**: 192.168.110.0/24
+- **Home network**: 192.168.1.0/24
+- **Corporate network**: 192.168.100.0/24
+- **WireGuard tunnel network**: 192.168.110.0/24
 
 + IP address of Peer 1 (Windows) in the tunnel: 192.168.110.2/24
 
@@ -89,7 +89,7 @@ In terms of IP addresses, this gives :
 That's all there is to it! Let's get down to configuration!
 
 
-**Note: by default, WireGuard operates in UDP mode on **port 51820**.
+**Note: by default, WireGuard operates in UDP mode on port 51820.**
 
 
 ## III WireGuard server installation and configuration
@@ -137,7 +137,7 @@ wg genkey | sudo tee /etc/wireguard/wg-private.key | wg pubkey | sudo tee /etc/w
 ![Image](assets/fr/023.webp)
 
 
-The value of the public key will be returned in the console. In the WireGuard configuration file, we need to **add the value of our private key**. To retrieve this value, enter the command below and copy the value :
+The value of the public key will be returned in the console. In the WireGuard configuration file, we need to **add the value of our private key**. To retrieve this value, enter the command below and copy the value:
 
 
 ```
@@ -169,10 +169,10 @@ Section `[Interface]` is used to declare the server part. Here is some informati
 
 
 
-- Address**: the IP address of the Interface WireGuard within the VPN tunnel (different subnet from the remote LAN)
-- SaveConfig**: the configuration is stored (and protected) for as long as the Interface is active
-- ListenPort**: WireGuard's listening port. In this case, 51820 is the default port, but you're welcome to customize it
-- PrivateKey**: the value of our server's private key (*wg-private.key*)
+- **Address**: the IP address of the Interface WireGuard within the VPN tunnel (different subnet from the remote LAN)
+- **SaveConfig**: the configuration is stored (and protected) for as long as the Interface is active
+- **ListenPort**: WireGuard's listening port. In this case, 51820 is the default port, but you're welcome to customize it
+- **PrivateKey**: the value of our server's private key (*wg-private.key*)
 
 
 Save the file and close it. With the "**wg-quick**" command, we can start this Interface by specifying its name (wg0, as the file is named wg0.conf):
@@ -183,7 +183,7 @@ sudo wg-quick up wg0
 ```
 
 
-If you list the IP addresses of your Debian 11 server, you'll see a new Interface named "wg0" with the IP address defined in the config file :
+If you list the IP addresses of your Debian 11 server, you'll see a new Interface named "wg0" with the IP address defined in the config file:
 
 
 ```
@@ -205,7 +205,7 @@ sudo wg show wg0
 ![Image](assets/fr/024.webp)
 
 
-Finally, we need to activate the automatic start-up of our Interface wg0 WireGuard :
+Finally, we need to activate the automatic start-up of our Interface wg0 WireGuard:
 
 
 ```
@@ -222,7 +222,7 @@ For the moment, we'll leave aside the configuration of WireGuard's server side.
 For our Debian 11 machine to be able to **route packets between different networks (like a router)**, i.e. between the VPN network and the local network, we need to enable [IP Forwarding](https://www.it-connect.fr/activer-lip-forwarding-sous-linux-ipv4ipv6/). By default, this feature is disabled.
 
 
-Modify this configuration file :
+Modify this configuration file:
 
 
 ```
@@ -230,7 +230,7 @@ sudo nano /etc/sysctl.conf
 ```
 
 
-Add the following directive to the end of the file and save :
+Add the following directive to the end of the file and save:
 
 
 ```
@@ -247,7 +247,7 @@ That's all there is to it.
 In order for our server to route packets correctly and for the remote LAN to be accessible to the Windows machine, we need to activate IP Masquerade on our Debian server. This is a kind of NAT activation. I'm going to perform this configuration on the Linux firewall through UFW, which I'm used to using ([ufw tutorial on Debian](https://www.it-connect.fr/configurer-un-pare-feu-local-sous-debian-11-avec-ufw/)).
 
 
-If you don't already have UFW and want to set it up (you can also use Nftables), start by installing :
+If you don't already have UFW and want to set it up (you can also use Nftables), start by installing:
 
 
 ```
@@ -290,7 +290,7 @@ Add these lines at the end of the file to **enable IP masquerade on the Interfac
 
 ```
 # NAT - IP masquerade
-*nat
+*nat*
 :POSTROUTING ACCEPT [0:0]
 -A POSTROUTING -o ens192 -j MASQUERADE
 
@@ -299,7 +299,7 @@ COMMIT
 ```
 
 
-The picture shows :
+The picture shows:
 
 
 ![Image](assets/fr/037.webp)
@@ -372,7 +372,7 @@ Start by opening the software to create a new tunnel. To do this, click on the a
 ![Image](assets/fr/028.webp)
 
 
-A configuration window will open. Each time a new tunnel configuration is created, WireGuard generates a private/public key pair specific to this configuration. **In this configuration, we need to declare the "peer", i.e. the remote server:
+A configuration window will open. Each time a new tunnel configuration is created, WireGuard generates a private/public key pair specific to this configuration. **In this configuration, we need to declare the "peer", i.e. the remote server:**
 
 
 ```
@@ -384,7 +384,7 @@ PrivateKey = <la clé privée du PC>
 We need to complete this configuration, in particular to declare the IP address on this Interface (*Address*), but also to declare the remote WireGuard server via a [Peer] block. The image below should remind you of the configuration file we created on the Linux server side.
 
 
-Let's start with the `[Interface]` block, adding the IP address "**192.168.110.2**"; remember that the server has the IP address "**192.168.110.121**" on this network segment. This gives :
+Let's start with the `[Interface]` block, adding the IP address "**192.168.110.2**"; remember that the server has the IP address "**192.168.110.121**" on this network segment. This gives:
 
 
 ```
@@ -405,19 +405,19 @@ Endpoint = <ip-serveur-debian>:51820
 ```
 
 
-In pictures :
+In pictures:
 
 
 ![Image](assets/fr/029.webp)
 
 
-**A few explanations about the [Peer] block:
+**A few explanations about the [Peer] block:**
 
 
 
-- PublicKey**: this is the public key of the WireGuard Debian 11 server (you can obtain its value with the "*sudo wg*" command)
-- AllowedIPs**: these are the IP addresses / subnets accessible via this WireGuard VPN network, in this case the subnet specific to my WireGuard VPN (*192.168.110.0/24*) and my remote LAN (*192.168.100.0/24*)
-- Endpoint**: this is the IP address of the Debian 11 host, since this is our WireGuard connection point (you'll need to specify the public IP address)
+- **PublicKey**: this is the public key of the WireGuard Debian 11 server (you can obtain its value with the "*sudo wg*" command)
+- **AllowedIPs**: these are the IP addresses / subnets accessible via this WireGuard VPN network, in this case the subnet specific to my WireGuard VPN (*192.168.110.0/24*) and my remote LAN (*192.168.100.0/24*)
+- **Endpoint**: this is the IP address of the Debian 11 host, since this is our WireGuard connection point (you'll need to specify the public IP address)
 
 
 Finally, enter a name in the "**Name**" field (without spaces) and copy and paste the client's public key, as we'll need to declare it on the server. Click on "**Register**".
@@ -492,7 +492,7 @@ sudo chmod 600 /etc/wireguard/ -R
 ### D. First WireGuard connection
 
 
-Now that the configuration is ready, we can initiate it from the Windows PC. To do this, in the "**WireGuard**" client, click on the "**Activate**" button: the connection will **change from "Off" to "On "**, but that doesn't mean it will work. It all depends on whether your configuration is correct or not. **When the connection is established, our two machines communicate via the Interface WireGuard configured on each side!
+Now that the configuration is ready, we can initiate it from the Windows PC. To do this, in the **WireGuard** client, click on the **Activate** button: the connection will change from "Off" to "On", but that doesn't mean it will work. It all depends on whether your configuration is correct or not. **When the connection is established, our two machines communicate via the Interface WireGuard configured on each side!**
 
 
 ![Image](assets/fr/030.webp)
@@ -521,7 +521,7 @@ From my remote PC, I can ping the IP address of my Interface WireGuard on the se
 ### E. Performance: OpenVPN vs WireGuard
 
 
-From my remote PC connected to my WireGuard VPN, I was able to access a file server and transfer a file via [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/), to see the transfer rate. **With WireGuard, I max out at around 45 Mb/s, which is great, as I'm on WiFi
+From my remote PC connected to my WireGuard VPN, I was able to access a file server and transfer a file via [SMB](https://www.it-connect.fr/le-protocole-smb-pour-les-debutants/), to see the transfer rate. **With WireGuard, I max out at around 45 Mb/s, which is great, as I'm on WiFi.**
 
 
 ![Image](assets/fr/025.webp)
@@ -542,7 +542,7 @@ This is interesting, because if, for example, you switch from a WiFi connection 
 With the current configuration, part of the traffic flows through the VPN, and the rest through the customer's Internet connection, including Internet browsing. If we want to switch to WireGuard **full tunnel mode**, so that everything passes through the VPN tunnel, we need to make a few changes to our configuration....
 
 
-First, you need to install the "resolvconf" package on the :
+First, you need to install the "resolvconf" package on the:
 
 
 ```
@@ -567,7 +567,7 @@ DNS = 192.168.100.11
 ```
 
 
-Save the file, then restart Interface :
+Save the file, then restart Interface:
 
 
 ```
@@ -575,7 +575,7 @@ sudo wg-quick up /etc/wireguard/wg0.conf
 ```
 
 
-Finally, in the tunnel configuration on the Windows 10 workstation, you need to modify the "AllowedIPs" section to indicate that everything must pass through the tunnel. Replace :
+Finally, in the tunnel configuration on the Windows 10 workstation, you need to modify the "AllowedIPs" section to indicate that everything must pass through the tunnel. Replace:
 
 
 ```
@@ -583,7 +583,7 @@ AllowedIPs = 192.168.110.0/24, 192.168.100.0/24
 ```
 
 
-By :
+By:
 
 
 ```
@@ -591,7 +591,7 @@ AllowedIPs = 0.0.0.0/0
 ```
 
 
-You can see that this also enables the "**Kill switch*" option.
+You can see that this also enables the "**Kill switch**" option.
 
 
 ![Image](assets/fr/040.webp)
@@ -606,7 +606,7 @@ Finally, I took advantage of this full tunnel to carry out a small flow test, th
 WireGuard's configuration is quite simple and easy to understand, and above all to maintain. **WireGuard is considered to be the future of VPNs**, so we'd better keep a close eye on it! We can also see that the benefit is significant in terms of performance, which is a huge advantage for WireGuard compared with OpenVPN.
 
 
-Additional documentation :
+Additional documentation:
 
 
 
@@ -614,4 +614,4 @@ Additional documentation :
 - [Man - Command wg-quick](https://manpages.debian.org/unstable/wireguard-tools/wg-quick.8.en.html)
 
 
-**Your WireGuard VPN is up and running! Congratulations!
+**Your WireGuard VPN is up and running! Congratulations!**

@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste voordeel dat Merkle bewijzen bieden aan SPV-klanten (Simplified Payment Verification) bij het verifiëren van inclusie van transacties?
+answer: Ze maken verificatie van transactie-inclusie mogelijk zonder het hele blok te downloaden, waarvoor slechts een paar honderd bytes nodig zijn, zelfs voor blokken met duizenden transacties
+wrong_answers:
+  - Ze elimineren de noodzaak om de hash van het blok te verifiëren tegen het moeilijkheidsdoel, waardoor er minder rekenkracht nodig is voor lichtgewicht clients
+  - Ze leveren cryptografisch bewijs dat double-spending aanvallen voorkomt door alle transactie-inputs binnen het blok te valideren
+  - Ze stellen SPV-cliënten in staat om de volledige transactiegeschiedenis te reconstrueren zonder tegelijkertijd verbinding te maken met meerdere volledige knooppunten
+explanation: |
+  Merkle bewijzen maken gebruik van de logaritmische groei-eigenschap van Merkle bomen, waardoor SPV clients transactie inclusie kunnen verifiëren met alleen de sibling hashes langs het pad naar de root. Dit vereist slechts een paar honderd bytes, ongeacht de grootte van het blok, waardoor het praktisch is voor lichtgewicht clients. De verkeerde antwoorden verwarren Merkle bewijzen met andere Bitcoin mechanismen - ze elimineren geen moeilijkheidsverificatie, voorkomen double-spending niet direct en reconstrueren de transactiegeschiedenis niet.

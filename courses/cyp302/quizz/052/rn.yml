@@ -1,0 +1,9 @@
+question: Mu kibanza gifise impera, uruhara rw’igiharuro c’amabara menshi kidashobora kugabanywa ni uruhe?
+answer: Sigura ibikorwa vyo gukubita mu murima
+wrong_answers:
+  - Sigura igisubizo c'inyongezo ca buri kintu
+  - Kumenya neza ko umurima ufunze
+  - Kumenya akaranga k'ugukubita
+explanation: |
+  Ivyiyumviro vyinshi bidashobora kugabanywa bikoreshwa mu gutunganya ugukubita mu bibanza bifise impera, kugira ngo ikintu cose kigume mu bibanza.
+reviewed: false

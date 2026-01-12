@@ -1,0 +1,9 @@
+question: Mu RGB Contract, igikorwa ca Interface ni igiki?
+answer: Gutuma amakuru ya Contract yoroha gusoma no gukoreshwa
+wrong_answers:
+  - Gukoresha inyandiko zo kwemeza kuri Blockchain.
+  - Bika amakuru ya Genesis ku ruhande rw'umukiriya
+  - Sigura ubwoko bukomeye bw'uburyo bwa raporo
+explanation: |
+  Intumbero ya Interface ni ugushikiriza amakuru ya Contract mu buryo butomoye ku bakoresha no kuri porogarama, ataco bihinduye kuri Business Logic.
+reviewed: false

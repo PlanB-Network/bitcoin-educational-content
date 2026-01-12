@@ -1,11 +1,13 @@
-question: Como é criado o dinheiro sólido?
-answer: O dinheiro sólido deve emergir naturalmente do mercado e do consenso voluntário.
+question: Qual é o principal objetivo por trás da criação do Bitcoin?
+answer: Separar o Estado do dinheiro.
 wrong_answers:
-  - O dinheiro sólido precisa ser imposto pelo governo por meio da emissão de leis monetárias.
-  - O dinheiro sólido tem que ser imposto por empresas através do uso da violência.
-  - O dinheiro sólido não pode ser criado.
+  - Eliminar o padrão ouro.
+  - Tornar as transações mais rápidas e baratas.
+  - Tornar todos ricos.
 explanation: |
-  O dinheiro sólido é um fenômeno social natural que deve emergir
-  do mercado e do consenso voluntário. Nenhum humano ou
-  grupo de humanos pode criar dinheiro.
+  O Bitcoin foi criado com o objetivo de separar o Estado
+  do dinheiro. É uma resposta aos desafios sistêmicos do
+  sistema financeiro atual, onde o Estado tem controle total
+  sobre a oferta de dinheiro e pode manipulá-lo em seu
+  próprio benefício.
 reviewed: true

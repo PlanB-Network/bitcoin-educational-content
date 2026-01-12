@@ -1,0 +1,9 @@
+question: None ukwiyemeza ni iki?
+answer: Iciyumviro c’isi ata bintu bishobora gushika canke ngo bibeho.
+wrong_answers:
+  - Ukubona isi bigenwa n’Imana.
+  - Uburyo bumwe bw’ukutemera Imana.
+  - Ivyiyumviro vy’ibinyoma.
+explanation: |
+  Determinism ni ukuntu isi ibona aho ata n’imwe ishobora gushika canke ishobora gushika. Ivyabaye vyose ni ingaruka zikenewe z’imvo z’imbere, hakurikijwe amategeko y’ibidukikije adahinduka.
+reviewed: false

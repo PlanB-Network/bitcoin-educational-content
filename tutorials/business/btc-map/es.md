@@ -22,7 +22,7 @@ Visita [btcmap.org](https://btcmap.org/):
 
 
 
-Disponible en :
+Disponible en:
 
 
 
@@ -165,9 +165,9 @@ Por fin,
 
 - 1: Marca esta casilla si sólo deseas confirmar que la información del archivo está actualizada (en este caso, ve directamente al paso 4)
 - 2: Indica aquí qué información, en su caso, es incorrecta, y qué corrección propones
-- 3 : Describe aquí cómo obtuviste la información (visita, llamada...)
+- 3: Describe aquí cómo obtuviste la información (visita, llamada...)
 - 4: Pasa la verificación captcha (distingue mayúsculas de minúsculas)
-- 5 : Haz clic en "Enviar informe" para enviar tu sugerencia
+- 5: Haz clic en "Enviar informe" para enviar tu sugerencia
 
 
 
@@ -287,7 +287,7 @@ BTC Map te permite [añadir tu propia comunidad](https://btcmap.org/communities/
 - 1: Nombre del establecimiento
 - 2: Dirección física (obligatorio, necesitas una dirección con calle y número)
 - 3: Marca el punto preciso en el mapa
-- 4 : ¿A qué categoría pertenece el establecimiento?
+- 4: ¿A qué categoría pertenece el establecimiento?
 - 5: ¿Qué medios de pago Bitcoin están disponibles (BTC, Lightning, sin contacto)?
 
 
@@ -307,9 +307,9 @@ BTC Map te permite [añadir tu propia comunidad](https://btcmap.org/communities/
   - "Soy el dueño del negocio": Soy el gerente de la empresa
   - "Lo visité como cliente": Visité este establecimiento como cliente
   - "otro método
-- 12 : Una dirección de correo electrónico en caso de que la plataforma necesite más información
+- 12: Una dirección de correo electrónico en caso de que la plataforma necesite más información
 - 13: Comprobación Captcha (distingue mayúsculas de minúsculas)
-- 14 : Haz clic en "Enviar ubicación" para enviar el anuncio
+- 14: Haz clic en "Enviar ubicación" para enviar el anuncio
 
 
 

@@ -1,0 +1,9 @@
+question: Ni iyihe porogarame y’uguhindura indimi y’isoko yugururuye ikorana n’amamoteri atandukanye kandi ntikorakoranye ivyanditswe vyawe vyahinduwe?
+answer: TranslateYou
+wrong_answers:
+  - Google Translate
+  - DeepL
+  - Microsoft Translator
+explanation: |
+  Ikora nka interface ya moteri zitandukanye z'uguhindura indimi, ata gukurikiranwa canke gukorakoranya amakuru y’umuntu ku giti ciwe, bitandukanye na serivisi zindi zifise ba nyenezo.
+reviewed: true

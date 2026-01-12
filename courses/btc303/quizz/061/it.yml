@@ -1,0 +1,9 @@
+question: Qual è il requisito fondamentale che consente agli utenti di verificare che il software Bitcoin "funziona come pubblicizzato" secondo i principi dell'open source discussi?
+answer: Gli utenti devono avere accesso illimitato al codice sorgente del software che desiderano verificare
+wrong_answers:
+  - Gli utenti devono ottenere l'autorizzazione dai manutentori del Bitcoin Core prima di accedere agli strumenti di verifica
+  - Gli utenti devono pagare una tariffa ragionevole per accedere ai binari di verifica compilati da fonti ufficiali
+  - Gli utenti devono affidarsi alle firme crittografiche di sviluppatori affidabili per convalidare il comportamento del software
+explanation: |
+  Il capitolo afferma esplicitamente che per verificare che il software Bitcoin "funzioni come pubblicizzato", gli utenti devono avere accesso illimitato al codice sorgente. Questo si collega direttamente al principio "Non fidarti, verifica" e al requisito di disponibilità del codice sorgente previsto dalla definizione di open source. Le risposte sbagliate contraddicono i principi fondamentali dell'open source: la richiesta di un permesso viola il principio del libero accesso, il pagamento di tariffe contraddice il requisito della distribuzione senza costi e l'affidamento esclusivo alle firme mina la capacità di verifica attraverso l'ispezione che l'open source fornisce.
+reviewed: false

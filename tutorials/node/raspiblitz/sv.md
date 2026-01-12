@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: Guide för att ställa in din RaspiBlitz
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 
 RaspiBlitz är en gör-det-själv Lightning-nod (LND och/eller Core Lightning) som körs tillsammans med en Bitcoin-Fullnode på en RaspberryPi (1TB SSD) och en fin skärm för enkel installation och övervakning.
@@ -17,22 +17,22 @@ RaspiBlitz är främst inriktat på att lära sig hur man driver sin egen nod de
 RASPIBLITZ - Hur man kör en blixt och Bitcoin Full node av BTC-session
 
 
-# Parman's Raspiblitz installationsguide
+## Parman's Raspiblitz installationsguide
 
 
-Raspiblitz är ett utmärkt system för att köra en Bitcoin-nod och tillhörande appar. Jag rekommenderar detta och My Node-noden till de flesta användare (Ha helst två noder för redundans.) En stor fördel är att Raspiblitz-noden är "Free Open Source Software", till skillnad från MyNode eller Umbrel. Varför är det viktigt? Vlad Costa förklarar. Du kan också köra RaspbiBlitz med en WiFi-anslutning snarare än ethernet - här är en kompletterande guide för det. (Jag har inte hittat något sätt att göra detta med MyNode).
+Raspiblitz är ett utmärkt system för att köra en Bitcoin-node och tillhörande appar. Jag rekommenderar denna och MyNode-noden till de flesta användare (helst två noder för redundans). En stor fördel är att Raspiblitz-noden är "Free Open Source Software", till skillnad från MyNode eller Umbrel. [Varför är det viktigt? Vlad Costa förklarar.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Du kan också köra Raspiblitz med en WiFi-anslutning istället för ethernet – här är en [kompletterande guide](https://armantheparman.com/headless-wifi/) för det. (Jag har inte hittat något sätt att göra detta med MyNode).
 
 
 Du kan köpa en färdig nod med en monterad miniskärm, eller så kan du bygga den själv (du behöver ingen skärm).
 
 
-Guiden på github-sidan är utmärkt, men möjligen för detaljerad för en måttligt erfaren användare. Mina instruktioner kommer att vara mer kortfattade och förhoppningsvis lättare att följa.
+[Guiden på GitHub-sidan](https://github.com/rootzoll/raspiblitz) är utmärkt, men möjligen för detaljerad för en användare med måttlig erfarenhet. Mina instruktioner kommer att vara mer kortfattade och förhoppningsvis lättare att följa.
 
 
-I grund och botten är processen mycket lik processen för att ställa in en MyNode-nod med en Raspberry Pi 4. Raspiblitz-guiden föreslår att du köper en bildskärm, men du behöver verkligen inte en, och jag skulle inte rekommendera det. Du behöver inte ens ett extra tangentbord eller mus. Öppna bara enhetens terminalmeny via en dator i samma hemnätverk och använd ssh-kommandot med hjälp av terminal. Detta är möjligt med Linux/Mac (enkelt) och lite svårare med Windows.
+I huvudsak är processen mycket lik processen att konfigurera en [MyNode-nod](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) med en Raspberry Pi 4. Raspiblitz-guiden föreslår att du köper en bildskärm, men du behöver verkligen ingen, och jag skulle inte rekommendera det. Du behöver inte ens ett extra tangentbord eller en mus. Få bara åtkomst till enhetens terminalmeny via en dator på samma hemnätverk och använd ssh-kommandot i terminalen. Detta är möjligt med Linux/Mac (enkelt) och lite svårare med Windows.
 
 
-## Steg 1: Köp utrustningen.
+### Steg 1: Köp utrustningen.
 
 
 Du behöver exakt samma utrustning som du behöver för att köra en MyNode-nod. Du kan prova det ena eller det andra, den enda skillnaden är data på micro SD-kortet.
@@ -69,33 +69,34 @@ Detta går snabbare, men är onödigt dyrt:
 ![image](assets/3.webp)
 
 
-## Steg 2: Ladda ner Raspiblitz-bilden
+### Steg 2: Ladda ner Raspiblitz-bilden
 
 
-Navigera till Raspiblitz github-webbplats och hitta länken "download image":
+Navigera till [Raspiblitz GitHub-webbplatsen](https://github.com/rootzoll/raspiblitz) och hitta länken ”download image”:
 
 
 ![image](assets/4.webp)
 
 
-Den nedladdade filens sha-256 Hash tillhandahålls på webbplatsen. Det kommer att ändras med varje uppdatering. Om du inte förstår vad det här handlar om bör du göra det, så jag skrev en guide som du kan läsa här.
+Sha-256-hashen för den nedladdade filen finns på webbplatsen. Den kommer att ändras med varje uppdatering. Om du inte förstår vad detta handlar om bör du göra det, därför skrev jag en [guide som du kan läsa här.](https://armantheparman.com/gpg/)
 
 
 ![image](assets/5.webp)
 
 
-## Steg 3: Verifiera bilden
+### Steg 3: Verifiera bilden
 
 
 Innan du fortsätter, om du inte känner till filsystemet på kommandoraden, är det lätt att lära sig, och du borde göra det.
 
 
-Här är en användbar video för Linux, men den gäller även för Mac.
+Här är en [användbar video för Linux, men den gäller även för Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 
-För Windows finns här en enkel handledning.
+För Windows, här är en [enkel handledning](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
 
 
+_UPPDATERING: pgp/gpg-verifiering är nu tillgänglig. Du behöver Openoms offentliga nyckel. [Här](http://parman.org/downloadable/openoms.txt) är den (du kan behöva inkognitoläge för att länken ska fungera – http, inte https)_
 Mac/Linux
 
 
@@ -128,10 +129,10 @@ där `xxxxxxxxxxxxxx` är namnet på filen som du just hämtade. Om du inte befi
 Datorn funderar i ungefär 20 sekunder. Kontrollera att den utgående hashfilen matchar den som hämtades från webbplatsen i föregående steg. Om den är identisk kan du fortsätta.
 
 
-## Steg 4: Flasha SD-kortet
+### Steg 4: Flasha SD-kortet
 
 
-Du kan använda Balena Etcher för att göra detta. Ladda ner den här.
+Du kan använda Balena Etcher för att göra detta. [Ladda ner det här](https://www.balena.io/etcher/).
 
 
 Etcher är självförklarande att använda. Sätt i ditt micro SD-kort och flasha Raspiblitz-programvaran (.img-fil) på SD-kortet.
@@ -152,7 +153,7 @@ Etcher är självförklarande att använda. Sätt i ditt micro SD-kort och flash
 När du har gjort det är enheten inte längre läsbar. Du kan få ett felmeddelande från operativsystemet och hårddisken bör försvinna från skrivbordet. Dra ut kortet.
 
 
-## Steg 5: Konfigurera Pi och sätt i SD-kortet
+### Steg 5: Konfigurera Pi och sätt i SD-kortet
 
 
 Delarna (fodralet visas inte):
@@ -182,7 +183,7 @@ Anslut slutligen strömmen:
 ![image](assets/14.webp)
 
 
-## Steg 6: Hitta IP Address för Pi
+### Steg 6: Hitta IP Address för Pi
 
 
 Du behöver aldrig en bildskärm med Raspiblitz. Däremot behöver du en annan dator i hemnätverket. Om din Pi inte är ansluten via ethernet och du vill förlita dig på WiFi, kräver det lite datorkunskaper att hitta IP. Jag kan inte hjälpa dig, tyvärr. Du behöver en Ethernet-anslutning. (Problemet är att du behöver tillgång till en bildskärm och operativsystemet för att ansluta WiFi och ange ett lösenord)
@@ -197,10 +198,10 @@ Jag skrev 192.168.0.1 i webbläsaren (instruktioner som följde med min router),
 Att hitta IP är avgörande.
 
 
-**Du kan använda terminalen på en Mac eller Linux-maskin för att hitta IP Address för alla Ethernet-anslutna enheter i hemnätverket med kommandot "arp -a". Utmatningen är inte lika vacker som den som routern visar, men all information du behöver finns där. Om det inte är uppenbart vilken som är Pi, gör försök och fel.
+**Du kan använda terminalen på en Mac eller Linux-maskin för att hitta IP Address för alla Ethernet-anslutna enheter i hemnätverket med kommandot "arp -a". Utmatningen är inte lika vacker som den som routern visar, men all information du behöver finns där. Om det inte är uppenbart vilken som är Pi, gör försök och fel.**
 
 
-## Steg 7: SSH till Pi
+### Steg 7: SSH till Pi
 
 
 Kom ihåg att sätta in SD-kortet i Pi:n innan du slår på den. Vänta några minuter och öppna sedan terminalen på en annan Linux/Mac.
@@ -214,7 +215,7 @@ ssh admin@You_Pi's_IP_address
 ```
 
 
-För Windows måste du installera putty för att kunna ssh:a in i Pi. Skriv samma kommando som ovan.
+För Windows behöver du installera [putty](http://putty.org/) för att ssh in i Pi. Skriv samma kommando som ovan.
 
 
 Första gången du gör detta, eller när du byter operativsystem på Pi genom att byta SD-kort, kan du få det här felet eller inte..

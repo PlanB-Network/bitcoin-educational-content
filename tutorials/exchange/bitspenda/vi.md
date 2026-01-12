@@ -98,9 +98,9 @@ Sau khi giao dịch của bạn được xác nhận, hãy thanh toán bằng th
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ### M-Pesa ở Kenya
 
@@ -182,10 +182,10 @@ Thông qua BitSpenda, [Bitcoin Dua](https://www.bitcoindua.org/) mong muốn thi
 
 
 
-- Tính bảo mật**: Bạn không cần phải tạo tài khoản trên nền tảng, không cần xác minh danh tính và không cần cung cấp bất kỳ thông tin cá nhân nào.
-- Tự do**: Bạn có thể sử dụng BitSpenda từ bất kỳ quốc gia nào để thực hiện giao dịch tới Ghana, Nigeria và Kenya.
-- Tốc độ**: Nhờ sử dụng thanh toán Lightning, BitSpenda có thể giảm thời gian xử lý và thực hiện giao dịch ngay lập tức.
-- Minh bạch**: Tất cả các giao dịch bạn đã thực hiện trên BitSpenda đều được liên kết với các mã định danh duy nhất cho phép bạn theo dõi và giám sát tiến trình của các giao dịch này. Bạn cũng có thể sử dụng các mã định danh này để liên hệ với [bộ phận hỗ trợ ứng dụng trên X](https://x.com/bitspenda).
+- **Tính bảo mật**: Bạn không cần phải tạo tài khoản trên nền tảng, không cần xác minh danh tính và không cần cung cấp bất kỳ thông tin cá nhân nào.
+- **Tự do**: Bạn có thể sử dụng BitSpenda từ bất kỳ quốc gia nào để thực hiện giao dịch tới Ghana, Nigeria và Kenya.
+- **Tốc độ**: Nhờ sử dụng thanh toán Lightning, BitSpenda có thể giảm thời gian xử lý và thực hiện giao dịch ngay lập tức.
+- **Minh bạch**: Tất cả các giao dịch bạn đã thực hiện trên BitSpenda đều được liên kết với các mã định danh duy nhất cho phép bạn theo dõi và giám sát tiến trình của các giao dịch này. Bạn cũng có thể sử dụng các mã định danh này để liên hệ với [bộ phận hỗ trợ ứng dụng trên X](https://x.com/bitspenda).
 
 
 
@@ -197,4 +197,4 @@ Nhiều sáng kiến và giải pháp khác như BitSpenda đang nổi lên tron
 
 
 
-https://planb.network/tutorials/exchange/centralized/banxaas-0cb6766a-5aee-4626-b657-224154bcf27c
+https://planb.academy/tutorials/exchange/centralized/banxaas-0cb6766a-5aee-4626-b657-224154bcf27c

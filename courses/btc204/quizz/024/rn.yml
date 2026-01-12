@@ -1,0 +1,9 @@
+question: Nitwabona igikorwa gifise UTXO 1 mu vyo yinjiza, UTXO 43 mu vyo isohora, ni uruhe rugero twomenya?
+answer: Gukoresha amahera menshi
+wrong_answers:
+  - Gushiramwo
+  - Ukwishura kworoshe
+  - Ugucuruza kw'ubufatanye
+explanation: |
+  Insobanuro y’iki kigereranyo ni uko turiko turakorana n’ugukoresha amahera mu buryo bw’imigwi. Uwo mubumbe utuma ibigo nk’ibibanza vya Exchange bishobora kuzigama amahera mu gushiramwo amafaranga bikoresha mu gikorwa kimwe.
+reviewed: false

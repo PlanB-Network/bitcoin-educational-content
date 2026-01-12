@@ -1,8 +1,12 @@
-question: Wat is een voordeel van het accepteren van Bitcoin als handelaar?
-answer: Verzet tegen censuur.
+question: Wat is een hulpmiddel voor het accepteren van Bitcoin voor grote organisaties of gepassioneerde Bitcoin liefhebbers?
+answer: BTCpay-server.
 wrong_answers:
-  - Verhoogde transactiekosten.
-  - Bescherming tegen deflatie.
-  - Financiële beperking.
-explanation: >-
+  - Bitcoin Wallet.
+  - Bitcoin Exchange.
+  - BTCpay Mining.
+explanation: |
+  BTCpay Server is een hulpmiddel voor het accepteren van Bitcoin voor grote
+  structuren of gepassioneerde bitcoiners. Andere oplossingen
+  zijn OpenNode voor eenvoudige online bedrijven en Swiss
+  Bitcoin Pay voor amateurhandelaars.
 reviewed: true

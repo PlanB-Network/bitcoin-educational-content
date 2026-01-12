@@ -1,0 +1,8 @@
+question: Karmaşık harcama koşulları için çıplak multisig işlemlerinin yerini büyük ölçüde P2SH'a bırakmasının temel nedeni nedir?
+answer: Bare multisig, tüm açık anahtarları on-chain'e maruz bırakarak işlemleri büyük, pahalı ve adres olarak kodlanması zor hale getirir
+wrong_answers:
+  - Bare multisig, çok taraflı işlemlerde aynı güvenlik seviyesine ulaşmak için P2SH'den daha fazla imza gerektirir
+  - Bare multisig, P2SH gibi zaman kilitli işlemleri veya koşullu harcama gereksinimlerini karşılayamaz
+  - Çıplak multisig imzalar modern wallet yazılımı ile uyumlu değildir ve mevcut düğümlere yayınlanamaz
+explanation: |
+  P2SH, özellikle bare multisig'in verimsizliklerini gidermek için tanıtıldı. Bare multisig, tüm açık anahtarların scriptPubKey'de görünür olmasını gerektirir, bu da daha fazla ücrete mal olan ve kullanıcı dostu adresler olarak gösterilmesi zor olan büyük işlem boyutları oluşturur. P2SH bunu, karmaşık komut dosyasını 20 baytlık bir hash'in arkasına gizleyerek ve gerçek harcama koşullarını yalnızca çıktı harcandığında ortaya çıkararak çözer. Bu, on-chain'in kapladığı alanı azaltır, gizliliği artırır ve aynı güvenlik garantilerini korurken standart adres formatlarını mümkün kılar.

@@ -12,11 +12,11 @@ In diesem Tutorial werden wir den Prozess der Erstellung eines Geschäftskontos 
 
 Wenn Sie sich für das Thema der Integration von Bitcoin in Ihr Unternehmen interessieren, empfehle ich Ihnen auch unsere komplette theoretische Schulung zu diesem Thema zu entdecken:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Erstellen eines Bitfinex-Kontos
 
-Gehen Sie auf [die offizielle Bitfinex-Website] (https://www.bitfinex.com/). Klicken Sie auf der Startseite auf die Option "*Sign Up*", um Ihr Konto einzurichten. Zunächst erstellen Sie ein Standardkonto wie für Privatpersonen, die Option "*Corporate*" wird später während des Verifizierungsprozesses ausgewählt.
+Gehen Sie auf [die offizielle Bitfinex-Website](https://www.bitfinex.com/). Klicken Sie auf der Startseite auf die Option "*Sign Up*", um Ihr Konto einzurichten. Zunächst erstellen Sie ein Standardkonto wie für Privatpersonen, die Option "*Corporate*" wird später während des Verifizierungsprozesses ausgewählt.
 
 ![BITFINEX](assets/fr/01.webp)
 
@@ -26,11 +26,11 @@ Füllen Sie die erforderlichen Informationen aus: Geben Sie Ihre geschäftliche 
 
 Tipps zur Verwendung und Sicherung starker, eindeutiger Passwörter finden Sie auch in diesem Tutorial:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Wir werden nun die 2FA konfigurieren, um das Konto zu sichern. Verwenden Sie eine Authentifizierungsanwendung auf Ihrem Smartphone, wie z. B. Google Authenticator oder Authy. Eine Anleitung zu diesem Tool finden Sie hier:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Scannen Sie den QR-Code mit Ihrer App und geben Sie die angegebenen 6 Ziffern ein.
 
@@ -64,7 +64,7 @@ Wählen Sie unter "*Kontotyp*" die Option "*Unternehmen*". In meinem Fall möcht
 
 ![BITFINEX](assets/fr/09.webp)
 
-Vervollständigen Sie die Schritte durch Angabe von :
+Vervollständigen Sie die Schritte durch Angabe von:
 
 
 - Unternehmensinformationen (Firmenname, Kontaktdaten, Branche usw.) ;
@@ -77,14 +77,14 @@ Nachdem Ihr Antrag ausgefüllt und eingereicht wurde, kann es einige Tage dauern
 
 ## 3 - Schnelle Einführung in die Bitfinex-Schnittstelle
 
-Sobald Sie angemeldet sind, sehen Sie oben auf der Oberfläche eine Navigationsleiste mit: "*Handel*", "*Derivate*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", usw. Bitfinex bietet eine breite Palette von Funktionalitäten, einschließlich :
+Sobald Sie angemeldet sind, sehen Sie oben auf der Oberfläche eine Navigationsleiste mit: "*Handel*", "*Derivate*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", usw. Bitfinex bietet eine breite Palette von Funktionalitäten, einschließlich:
 
 
-- Handel**: "*klassischer*" Markt, auf dem Sie Aufträge zum Kauf und Verkauf von Kryptowährungen (einschließlich Bitcoin) erteilen können;
-- OTC**: Over-The-Counter-Dienst für den direkten Handel großer Volumina mit einem anderen Marktteilnehmer, außerhalb der öffentlichen Orderbücher;
-- Finanzierungen**: Bereich, der der Kreditvergabe und der Margenfinanzierung gewidmet ist;
-- Derivate**: Abschnitt für Derivate (Termingeschäfte usw.), der für erfahrene Händler gedacht ist;
-- P2P**: Ermöglicht es Ihnen, Kryptos von anderen Nutzern auf Peer-to-Peer-Basis zu kaufen oder zu verkaufen.
+- **Handel**: "*klassischer*" Markt, auf dem Sie Aufträge zum Kauf und Verkauf von Kryptowährungen (einschließlich Bitcoin) erteilen können;
+- **OTC**: Over-The-Counter-Dienst für den direkten Handel großer Volumina mit einem anderen Marktteilnehmer, außerhalb der öffentlichen Orderbücher;
+- **Finanzierungen**: Bereich, der der Kreditvergabe und der Margenfinanzierung gewidmet ist;
+- **Derivate**: Abschnitt für Derivate (Termingeschäfte usw.), der für erfahrene Händler gedacht ist;
+- **P2P**: Ermöglicht es Ihnen, Kryptos von anderen Nutzern auf Peer-to-Peer-Basis zu kaufen oder zu verkaufen.
 
 Für den normalen Gebrauch (Kauf/Verkauf von Bitcoins, Einzahlungen/Abhebungen und Bargeldverwaltung) werden Sie hauptsächlich die Registerkarte "*Handel*" sowie die Bereiche "*Wallet*", "*Einzahlung*" und "*Abhebung*" verwenden.
 
@@ -160,7 +160,7 @@ Bitfinex bietet auch Ein- und Auszahlungsmöglichkeiten über das Lightning Netw
 
 Wenn Sie sich für das Lightning Network interessieren, bieten wir Ihnen einen kompletten Schulungskurs an, damit Sie verstehen, wie es funktioniert:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## 6 - Kauf und Verkauf von Bitcoins auf Bitfinex
 
@@ -241,4 +241,4 @@ Abhängig von den Zielen und der Struktur Ihres Unternehmens kann die Nutzung vo
 
 Für einen tieferen Einblick in dieses Thema empfehle ich diesen umfassenden Schulungskurs über die Integration von Bitcoin in Unternehmen, der im Detail das Hinzufügen von Cashflow, die Annahme von Bitcoin-Zahlungen und die Buchhaltung behandelt:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

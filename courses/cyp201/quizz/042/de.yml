@@ -6,4 +6,4 @@ wrong_answers:
   - Der PRNG verwendet private Schlüssel, der TRNG verwendet öffentliche Schlüssel.
 explanation: |
   PRNGs sind deterministisch, was bedeutet, dass sie Sequenzen aus einem Anfangszustand reproduzieren können, im Gegensatz zu TRNGs.
-reviewed: false
+reviewed: true

@@ -1,0 +1,9 @@
+question: Wat maakt een pruned node anders dan een full node?
+answer: Het verwijdert geleidelijk de oude blokken
+wrong_answers:
+  - Het valideert geen oudere transacties
+  - Het kan geen hele blokken doorgeven
+  - Er wordt geen lokale kopie van de blockchain bewaard, alleen de UTXO set
+explanation: |
+  De pruned node valideert de hele keten, maar behoudt slechts een recent deel van de blokken om de opslag te beperken.
+reviewed: true

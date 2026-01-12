@@ -1,0 +1,13 @@
+question: Ni ikihe kintu nyamukuru kiranga Bitcoin kiyitandukanya n’amahera ya fiat?
+answer: Politike yayo y’amahera ishirwa mu ngiro n’uguhurizako rusangi.
+wrong_answers:
+  - Ishobora gucapwa mu bwinshi butagira aho bugarukira n’amabanki akomeye.
+  - Ishigikiwe n’ikintu gifatika nk’inzahabu canke ifeza.
+  - Igenzurwa na banki nkuru.
+explanation: |
+  Kubera ko ari ahantu hatandukanye kandi hakaba harimwo ubuhinga bwo gukingira amakuru,
+  Bitcoin ntishobora kwihenda kandi igarukira ku miliyoni 21 .
+  ibice. Ico ni ikintu nyamukuru kiyitandukanya n’
+  amafaranga y’amahera, akurikiza politike y’amahera ishobora kuba
+  vyahinduwe n’amabanki akomeye.
+reviewed: true

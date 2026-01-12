@@ -1,0 +1,9 @@
+question: Onko "kone-eläinten" käsite peräisin?
+answer: Descartes.
+wrong_answers:
+  - Spinoza.
+  - Galileo.
+  - Einstein.
+explanation: |
+  Kone-eläinten käsite on peräisin Descartesilta. Tämän teorian mukaan eläimet ovat monimutkaisia automaatteja, joilla ei ole sielua eikä tietoisuutta ja jotka toimivat pelkästään mekaanisten periaatteiden mukaisesti.
+reviewed: false

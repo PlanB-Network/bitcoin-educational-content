@@ -1,0 +1,9 @@
+question: Er skolastikk?
+answer: En filosofi fra middelalderen.
+wrong_answers:
+  - En filosofi for den moderne tid.
+  - En eldgammel filosofi.
+  - En ateistisk filosofi.
+explanation: |
+  Skolastikken var en middelalderfilosofi som forsøkte å forene den kristne troen med aristotelisk filosofi. Den dominerte de europeiske universitetene før den moderne filosofien vokste frem.
+reviewed: false

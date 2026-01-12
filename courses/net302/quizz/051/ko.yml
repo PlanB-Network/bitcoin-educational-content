@@ -1,0 +1,9 @@
+question: NAT를 통해 외부에서 내부 서비스에 액세스할 수 있는 메커니즘은 무엇인가요?
+answer: 포트 포워딩
+wrong_answers:
+  - 패킷 조각화
+  - RIP 라우팅
+  - NAT 압축
+explanation: |
+  포트 포워딩을 사용하면 외부 연결이 NAT 게이트웨이를 통해 특정 내부 호스트로 전달될 수 있습니다.
+reviewed: false

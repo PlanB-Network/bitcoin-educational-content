@@ -1,9 +1,11 @@
-question: Apa analogi yang digunakan untuk menjelaskan bagaimana Anda bisa menerima Bitcoin tanpa membiarkan pengirim mencuri dana Anda?
-answer: Kotak surat
+question: Apa penggunaan dompet seluler yang disarankan?
+answer: Untuk pengeluaran sehari-hari
 wrong_answers:
-  - Rekening bank
-  - Brankas
-  - Rumah
+  - Untuk tabungan jangka panjang
+  - Untuk tabungan jangka menengah
+  - Untuk jumlah besar
 explanation: |
-  Analogi yang digunakan untuk menjelaskan bagaimana Anda bisa menerima Bitcoin tanpa membiarkan pengirim mencuri dana Anda adalah kotak surat. Orang-orang menyetor uang di dalamnya, tetapi Anda lah satu-satunya yang bisa membukanya.
+  Dompet seluler disarankan untuk pengeluaran sehari-hari karena mudah
+  untuk melakukan transaksi dengannya. Namun, tidak disarankan untuk menyimpan jumlah besar
+  atau untuk tabungan jangka panjang karena berpotensi rentan terhadap ancaman online.
 reviewed: true

@@ -1,14 +1,12 @@
-question: De quoi avez-vous besoin pour effectuer une sauvegarde lorsque vous utilisez un portefeuille avec une phrase secrète ?
-answer: Vous devez sauvegarder à la fois la liste de 12 ou 24 mots et votre phrase secrète.
+question: Que signifie l'absence d'une phrase mnémonique dans un portefeuille ?
+answer: Cela indique que le portefeuille n'est pas sécurisé pour le stockage à long terme de Bitcoin.
 wrong_answers:
-  - Vous devez seulement sauvegarder la liste de 12 ou 24 mots.
-  - Vous devez seulement sauvegarder votre phrase secrète.
-  - Vous n'avez besoin de sauvegarder ni la liste de 12 ou 24 mots, ni votre phrase secrète.
+  - Cela indique que le portefeuille est entièrement sécurisé et ne nécessite aucune sauvegarde.
+  - Cela signifie que le portefeuille peut contenir de nombreux types d'obligations différents.
+  - Cela suggère que le portefeuille est automatiquement sauvegardé par votre appareil.
 explanation: |
-  Lorsque vous utilisez un portefeuille avec une phrase secrète, vous devez sauvegarder
-  à la fois la liste de 12 ou 24 mots et votre phrase secrète,
-  car la liste de mots et la phrase secrète sont tous les deux
-  nécessaires pour récupérer l'accès à vos fonds en cas de
-  perte de votre téléphone ou ordinateur. Sans l'un ou l'autre,
-  les fonds ne sont pas accessibles.
+  L'absence d'une liste de 12 ou 24 mots, c'est-à-dire
+  la phrase mnémonique, dans un portefeuille devrait vous alerter
+  que le portefeuille n'est pas sécurisé car il ne suit pas les procédures
+  de sauvegarde standard.
 reviewed: true

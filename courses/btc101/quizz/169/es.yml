@@ -1,12 +1,10 @@
-question: ¿Cómo recompensa el protocolo de Bitcoin al minero que encuentra un hash válido para el bloque subsiguiente?
-answer: Con una recompensa definida por las reglas de consenso, y con las comisiones de todas las transacciones incluidas en el bloque válido.
+question: ¿Cuál es una característica única del protocolo Bitcoin?
+answer: Opera a escala global, 24 horas al día, 7 días a la semana.
 wrong_answers:
-  - Con una cantidad fija de bitcoins no definida por las reglas de consenso.
-  - Con un porcentaje del suministro total de Bitcoin y las comisiones de todas las transacciones incluidas en los bloques anteriores.
-  - Con las comisiones de todas las transacciones incluidas en el bloque válido.
-explanation: |
-  El protocolo de Bitcoin recompensa al minero que encuentra un
-  hash válido para el bloque subsiguiente con una recompensa cuya cantidad es
-  definida por las reglas de consenso, junto con las comisiones de
-  todas las transacciones incluidas en el bloque válido.
+  - Solo opera durante el horario comercial.
+  - Está controlado por una autoridad central.
+  - Puede ser hackeado fácilmente.
+explanation: >-
+  El protocolo Bitcoin es único en que opera a escala global,
+  24 horas al día, 7 días a la semana, lo que dificulta su regulación por parte de las autoridades financieras.
 reviewed: true

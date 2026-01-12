@@ -1,5 +1,5 @@
 ---
-name: Elektrum OP_RETURN
+name: Electrum OP_RETURN
 description: Registrieren Sie eine Nachricht über den Blockchain Bitcoin mit Electrum
 ---
 
@@ -22,7 +22,7 @@ Diese schrittweise Anleitung zeigt Ihnen, wie Sie eine Nachricht auf dem Blockch
 - Einen Computer (Windows, macOS oder Linux).
 - Internetverbindung.
 - Ein paar Satoshis (Sats) oder Bitcoins (BTC) in Ihrem Wallet, um den Transaktionsbetrag und die Gebühren zu decken.
-- Ein Text-zu-Hex-Konverter (z. B. eine Online-Seite) oder ein spezielles Tool wie [dieser OP_RETURN-Skriptgenerator] (https://resources.davidcoen.it/opreturnelectrum/).
+- Ein Text-zu-Hex-Konverter (z. B. eine Online-Seite) oder ein spezielles Tool wie [dieser OP_RETURN-Skriptgenerator](https://resources.davidcoen.it/opreturnelectrum/).
 
 
 
@@ -53,7 +53,7 @@ Diese schrittweise Anleitung zeigt Ihnen, wie Sie eine Nachricht auf dem Blockch
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -85,7 +85,7 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -132,7 +132,7 @@ Hier wird ein Empfang Address angezeigt:
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -150,8 +150,8 @@ Wählen Sie die Nachricht, die Sie eingeben möchten (z. B. "Danke Satoshi"). Hi
 
 
 
-- einen schönen Ausdruck unserer Menschlichkeit hinterlassen,*
-- vermeiden Sie die Eingabe von Inhalten, die Sie möglicherweise bereuen*
+- einen schönen Ausdruck unserer Menschlichkeit hinterlassen,
+- vermeiden Sie die Eingabe von Inhalten, die Sie möglicherweise bereuen
 
 
 
@@ -164,7 +164,7 @@ Konvertieren Sie Ihre Nachricht in hexadezimale Werte:
 
 
 
-- Sie können ein [Online-Tool] (https://www.rapidtables.com/convert/number/ascii-to-hex.html) verwenden, sollten aber darauf achten, dass dort keine sensiblen Daten verarbeitet werden (obwohl Informationen, die zur Veröffentlichung auf Blockchain Bitcoin über ein OP_RETURN bestimmt sind, im Prinzip keine Probleme mit der Vertraulichkeit aufwerfen);
+- Sie können ein [Online-Tool](https://www.rapidtables.com/convert/number/ascii-to-hex.html) verwenden, sollten aber darauf achten, dass dort keine sensiblen Daten verarbeitet werden (obwohl Informationen, die zur Veröffentlichung auf Blockchain Bitcoin über ein OP_RETURN bestimmt sind, im Prinzip keine Probleme mit der Vertraulichkeit aufwerfen);
 - Um die Vertraulichkeit zu erhöhen, führen Sie die Konvertierung lokal mit einer kleinen Python :
 
 
@@ -208,9 +208,9 @@ die sich zusammensetzt aus :
 
 
 
-- Ziel Address**: Ein gültiger Bitcoin Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Dies kann Ihr eigener Address sein, wenn Sie die überwiesenen Mittel an sich selbst zurückgeben möchten;
-- Überwiesener Betrag**: der Betrag der Transaktion, hier `0.00001` BTC. **Bitte beachten**: Da die in Electrum verwendete Einheit BTC ist, muss der im Transaktionsskript angegebene Betrag auch in BTC und nicht in Sats ausgedrückt werden;
-- Skript OP_RETURN**: Die in hexadezimale Werte umgewandelte Nachricht mit vorangestelltem Script(`OP_RETURN <Messsage>), 0`. Hier, `5468616e6b73205361746f736869` für die Nachricht in Hexadezimal.
+- **Ziel Address**: Ein gültiger Bitcoin Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. Dies kann Ihr eigener Address sein, wenn Sie die überwiesenen Mittel an sich selbst zurückgeben möchten;
+- **Überwiesener Betrag**: der Betrag der Transaktion, hier `0.00001` BTC. **Bitte beachten**: Da die in Electrum verwendete Einheit BTC ist, muss der im Transaktionsskript angegebene Betrag auch in BTC und nicht in Sats ausgedrückt werden;
+- **Skript OP_RETURN**: Die in hexadezimale Werte umgewandelte Nachricht mit vorangestelltem Script(`OP_RETURN <Messsage>), 0`. Hier, `5468616e6b73205361746f736869` für die Nachricht in Hexadezimal.
 
 
 
@@ -218,7 +218,7 @@ die sich zusammensetzt aus :
 
 
 
-Tipp: Verwenden Sie das Tool [OP_RETURN Generator] (https://resources.davidcoen.it/opreturnelectrum/), um das generate-Skript automatisch zu erstellen. Auch wenn dieses Tool vorschlägt, den Betrag in BTC einzugeben, lassen Sie die Einheit in Electrum konfiguriert.
+Tipp: Verwenden Sie das Tool [OP_RETURN Generator](https://resources.davidcoen.it/opreturnelectrum/), um das generate-Skript automatisch zu erstellen. Auch wenn dieses Tool vorschlägt, den Betrag in BTC einzugeben, lassen Sie die Einheit in Electrum konfiguriert.
 
 
 

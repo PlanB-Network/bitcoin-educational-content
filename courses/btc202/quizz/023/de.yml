@@ -1,0 +1,9 @@
+question: Was ist der Unterschied zwischen Konsensregeln und Relayregeln?
+answer: Der Konsens legt die Gültigkeit fest und Relay die Verbreitung von Transaktionen
+wrong_answers:
+  - Konsens definiert Gebühren, Relay definiert Adressen
+  - Konsens verwaltet Blockchain, Relay verwaltet private Schlüssel
+  - Konsens wählt Miner, Relay wählt Händler
+explanation: |
+  Die Konsensregeln bestimmen, was in Bitcoin gültig ist, während die Relayregeln die Transaktionen zwischen den Nodes verwalten.
+reviewed: true

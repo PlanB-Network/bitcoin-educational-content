@@ -12,7 +12,7 @@ V tomto tutoriálu se budeme zabývat procesem vytvoření obchodního účtu na
 
 Pokud vás zajímá téma integrace bitcoinu do vašeho podnikání, doporučuji vám také objevit naše kompletní teoretické školení na toto téma:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Vytvoření účtu Bitfinex
 
@@ -24,13 +24,13 @@ Vyplňte požadované údaje: zadejte svou firemní e-mailovou adresu a zemi sí
 
 ![BITFINEX](assets/fr/02.webp)
 
-Tipy pro používání a ochranu silných a jedinečných hesel naleznete také v tomto návodu :
+Tipy pro používání a ochranu silných a jedinečných hesel naleznete také v tomto návodu:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-Nyní nakonfigurujeme 2FA pro zabezpečení účtu. Použijte ověřovací aplikaci v chytrém telefonu, například Google Authenticator nebo Authy. Návod na tento nástroj najdete zde :
+Nyní nakonfigurujeme 2FA pro zabezpečení účtu. Použijte ověřovací aplikaci v chytrém telefonu, například Google Authenticator nebo Authy. Návod na tento nástroj najdete zde:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Naskenujte QR kód pomocí aplikace a zadejte 6 číslic.
 
@@ -64,7 +64,7 @@ V části "*Typ účtu*" vyberte možnost "*Firemní*". V mém případě přech
 
 ![BITFINEX](assets/fr/09.webp)
 
-Dokončete kroky zadáním :
+Dokončete kroky zadáním:
 
 
 - Informace o společnosti (název společnosti, kontaktní údaje, odvětví podnikání atd.) ;
@@ -77,14 +77,14 @@ Po vyplnění a odeslání žádosti může trvat několik dní, než ji platfor
 
 ## 3 - Rychlé seznámení s rozhraním Bitfinex
 
-Po přihlášení se v horní části rozhraní zobrazí navigační panel s: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*" atd. Bitfinex nabízí širokou škálu funkcí, včetně :
+Po přihlášení se v horní části rozhraní zobrazí navigační panel s: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*" atd. Bitfinex nabízí širokou škálu funkcí, včetně:
 
 
-- Obchodování**: "*klasický*" trh, kde můžete zadávat příkazy k nákupu a prodeji kryptoměn (včetně bitcoinu);
-- OTC**: OTC: mimoburzovní služba pro obchodování velkých objemů přímo s jiným subjektem, mimo veřejné knihy příkazů;
-- Financování**: Oblast věnovaná úvěrům a maržovému financování;
-- Deriváty**: Sekce pro deriváty (futures atd.), určená pro zkušené obchodníky;
-- P2P**: Umožňuje nakupovat nebo prodávat kryptoměny od ostatních uživatelů na bázi peer-to-peer.
+- **Obchodování**: "*klasický*" trh, kde můžete zadávat příkazy k nákupu a prodeji kryptoměn (včetně bitcoinu);
+- **OTC**: mimoburzovní služba pro obchodování velkých objemů přímo s jiným subjektem, mimo veřejné knihy příkazů;
+- **Financování**: Oblast věnovaná úvěrům a maržovému financování;
+- **Deriváty**: Sekce pro deriváty (futures atd.), určená pro zkušené obchodníky;
+- **P2P**: Umožňuje nakupovat nebo prodávat kryptoměny od ostatních uživatelů na bázi peer-to-peer.
 
 Pro standardní použití (nákup/prodej bitcoinů, vklady/výběry a správa hotovosti) budete používat hlavně záložku "*Trading*" a sekce "*Wallet*", "*Deposit*" a "*Withdraw*".
 
@@ -160,7 +160,7 @@ Bitfinex také nabízí možnost vkladu a výběru prostřednictvím sítě Ligh
 
 Pokud máte o síť Lightning Network zájem, máme pro vás také kompletní školení, které vám pomůže pochopit, jak funguje:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## 6 - Nákup a prodej bitcoinů na Bitfinexu
 
@@ -241,4 +241,4 @@ Využití služby Bitfinex se může lišit v závislosti na cílech a struktuř
 
 Pro podrobnější pohled na toto téma doporučuji toto komplexní školení o integraci bitcoinu do podnikání, které se podrobně zabývá přidáváním do cash flow, přijímáním plateb v bitcoinech a účetnictvím:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

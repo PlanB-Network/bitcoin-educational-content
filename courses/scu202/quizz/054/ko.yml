@@ -1,0 +1,9 @@
+question: 사진의 EXIF 메타데이터에는 일반적으로 어떤 정보를 찾을 수 있나요?
+answer: 날짜, 시간, GPS 위치, 기기 모델, 작성자
+wrong_answers:
+  - 카메라 펌웨어 소스 코드
+  - 사진작가의 Wi-Fi 비밀번호
+  - 최신 바이러스 백신 결과
+explanation: |
+  사진의 EXIF 메타데이터에는 사진 및 카메라에 대한 자세한 컨텍스트 정보가 포함되어 있는 경우가 많습니다.
+reviewed: false

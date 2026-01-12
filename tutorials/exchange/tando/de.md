@@ -73,15 +73,15 @@ Mit Tando können Sie mit Ihren Bitcoins alles kaufen, was Sie mit M-Pesa in Ken
 
 
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 
 
-- Scan to Pay** :
+- **Scan to Pay**:
 
 
 
@@ -95,7 +95,7 @@ Scan to pay ist eine der automatischen Zahlungsoptionen der Anwendung. Scannen S
 
 
 
-- Geld nach Kenia senden** :
+- **Geld nach Kenia senden**:
 
 
 
@@ -121,7 +121,7 @@ Bezahlen Sie die Rechnung mit Ihrem Lightning Wallet und Tando wird sie in kenia
 
 
 
-- Bezahlen Sie Ihre Rechnungen** :
+- **Bezahlen Sie Ihre Rechnungen**:
 
 
 
@@ -135,7 +135,7 @@ Geben Sie die Nummer des Invoice ein, das Sie bezahlen möchten, und fahren Sie 
 
 
 
-- Kauf von Waren** :
+- **Kauf von Waren**:
 
 
 
@@ -159,4 +159,4 @@ Immer mehr Initiativen wie Tando entstehen in afrikanischen Gemeinschaften, wie 
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitspenda-34cf6f5d-4464-4f26-809f-de4af3cec5fd
+https://planb.academy/tutorials/exchange/centralized/bitspenda-34cf6f5d-4464-4f26-809f-de4af3cec5fd

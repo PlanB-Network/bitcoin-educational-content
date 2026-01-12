@@ -1,0 +1,9 @@
+question: Ni itandukaniro irihe riri hagati y’igihinduka c’ibintu bitandukanye n’igihinduka gikomeza?
+answer: Ihinduka ritandukanye rifise umubare w'ingaruka zishoboka, mu gihe ihinduka rikomeza rishobora gufata umubare utagira iherezo w'agaciro mu kiringo kinaka.
+wrong_answers:
+  - Ihinduka ritandukanye riguma rihindura agaciro, mu gihe ihinduka rikomeza riguma ridahinduka.
+  - Ihinduka ritandukanye ni ryihariye ku ngeragezwa z’umubiri zikozwe, ihinduka rikomeza ni ikintu kitaboneka mu gihe caco.
+  - Ibihinduka bitandukanye ntibiriho mu buhinga bwa none bwo gukingira amakuru, hakoreshwa gusa ibihinduka bikomeza.
+explanation: |
+  Ibihinduka bitandukanye bifise urutonde rw'ibisubizo bifise impera, mu gihe ibihinduka bikomeza bishobora gufata agaciro ako ari ko kose mu gihe, nk'imibare nyayo iri hagati ya 0 na 1.
+reviewed: false

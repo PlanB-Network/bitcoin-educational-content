@@ -1,5 +1,5 @@
 ---
-name: 費迪
+name: Fedi
 description: 您的 Bitcoin 超級 Wallet 由社群提供動力
 ---
 
@@ -33,23 +33,23 @@ Fedi Wallet 是一款 Bitcoin 產品組合，它以全新的方式儲存您的�
 
 
 
-- 保管人**：您決定將您的信託託付給一個外部實體，即投資組合開發者，他將為您保管您的投資組合的復原文字。您既無法存取，也無法匯出您的 Bitcoin 投資組合。
+- 保管人：您決定將您的信託託付給一個外部實體，即投資組合開發者，他將為您保管您的投資組合的復原文字。您既無法存取，也無法匯出您的 Bitcoin 投資組合。
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
-
-
-
-- 自我監護** ：只要您建立 Wallet，應用程式就會讓您存取復原字元。因此您可以自由地將您的 bitcoins 匯出到最適合您的 Wallet。
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+- **自我監護**：只要您建立 Wallet，應用程式就會讓您存取復原字元。因此您可以自由地將您的 bitcoins 匯出到最適合您的 Wallet。
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+
+
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 相反地，Fedi Wallet 提供聯盟方式，讓您加入一群您信任的人來管理您的投資組合金鑰。您可以加入 Fedi 建議的熱門聯盟，或透過掃描 QR 碼或貼上聯盟的邀請碼，加入您社區的當地聯盟。
 
@@ -75,7 +75,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 對於您加入的每個聯盟，Fedi 會透過建立獨立的錢包來區分您的比特幣。
 
@@ -103,7 +103,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-- 在 Fedi 上接收比特幣**：在首頁，選擇您要用來接收比特幣的聯邦，然後按一下 ** 接收** 按鈕，建立一個 Lightning Invoice 並註明要接收的金額。
+- 在 Fedi 上接收比特幣：在首頁，選擇您要用來接收比特幣的聯邦，然後按一下**接收**按鈕，建立一個 Lightning Invoice 並註明要接收的金額。
 
 
 
@@ -113,7 +113,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-- 發送比特幣**：在首頁，點擊**發送**按鈕發送比特幣到 Lightning Address、支付 Invoice 或進行離線支付。
+- 發送比特幣：在首頁，點擊**發送**按鈕發送比特幣到 Lightning Address、支付 Invoice 或進行離線支付。
 
 
 
@@ -141,7 +141,7 @@ Fedi Wallet 的特點之一是可以離線發送。您不再需要 Wi-Fi 或良�
 
 
 
-離線付款主要使用 [電子現金](https://planb.network/resources/glossary/ecash-david-chaum)。交易會儲存在您的手機中，只要您存取網際網路，就會自動確認交易。您也可以按**確認交易**，手動確認付款。
+離線付款主要使用 [電子現金](https://planb.academy/resources/glossary/ecash-david-chaum)。交易會儲存在您的手機中，只要您存取網際網路，就會自動確認交易。您也可以按**確認交易**，手動確認付款。
 
 
 
@@ -191,7 +191,7 @@ Fedi 的模組化選單可讓您找到社群使用的最佳應用程式。
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 
 
@@ -231,5 +231,4 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
-
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd

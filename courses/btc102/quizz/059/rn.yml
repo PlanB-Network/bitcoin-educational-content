@@ -1,0 +1,9 @@
+question: Ni iyihe ntumbero nyamukuru y’umunyabwoba w’umunyamibabaro?
+answer: Kugira ngo bakingire ubuzima bw'ibanga bwabo .
+wrong_answers:
+  - Uronke ama satoshis vyihuse .
+  - Kugira ngo inyungu nyinshi mu bucuruzi
+  - Kubika ama bitcoins yawe ku gihe kirekire
+explanation: |
+  Ivyo bitcoiner w'umunyabwoba bishaka cane cane kwirinda gukurikirana ivy’ubudandaji bwabo n’akaranga kabo.
+reviewed: false

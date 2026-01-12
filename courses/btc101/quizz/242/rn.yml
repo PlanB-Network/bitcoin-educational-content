@@ -1,0 +1,8 @@
+question: Ni ikihe ciza kimwe coshobora kuva mu kwemera ubuhinga bushasha nka Bitcoin?
+answer: Bishobora generate ubutunzi bwinshi kw’isi yose.
+wrong_answers:
+  - Bishobora gutuma ubutunzi bw’isi yose busenyuka.
+  - Bishobora gutuma ubwenge bw’umuntu bugabanuka.
+  - Bishobora gutuma akazi kose gakurwaho.
+explanation: >-
+reviewed: true

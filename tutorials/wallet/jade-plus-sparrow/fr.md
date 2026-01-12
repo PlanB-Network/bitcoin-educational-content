@@ -8,7 +8,7 @@ Le Jade Plus est un hardware wallet Bitcoin-only conçu par Blockstream. C'est l
 
 Le Jade Plus peut être utilisé de plusieurs manières : via une connexion filaire USB-C, en mode "*Air-Gap*" avec une carte micro SD (adaptateur nécessaire), en Bluetooth ou encore par échange de QR codes grâce à la caméra intégrée. Ce hardware wallet fonctionne sur batterie.
 
-Il est disponible à partir de $149,99 en version noire de base, et le prix peut augmenter de jusqu'à $20 pour les versions "*Genesis Grey*" ou "*Lunar Silver*". Le Jade Plus se positionne donc comme un choix intéressant, avec des fonctionnalités avancées comparables à celles des hardware wallets haut de gamme tels que le Coldcard Q ou le Passport V2, mais à un tarif assez bas, proche des modèles de milieu de gamme.
+Il est disponible à partir de $149,99 en version noire de base, et le prix peut augmenter jusqu'à $20 pour les versions "*Genesis Grey*" ou "*Lunar Silver*". Le Jade Plus se positionne donc comme un choix intéressant, avec des fonctionnalités avancées comparables à celles des hardware wallets haut de gamme tels que le Coldcard Q ou le Passport V2, mais à un tarif assez bas, proche des modèles de milieu de gamme.
 
 ![JADE-PLUS-SPARROW](assets/fr/01.webp)
 
@@ -27,7 +27,7 @@ Le Jade Plus est compatible avec la majorité des logiciels de gestion de portef
 
 Dans ce tutoriel, nous allons réaliser une configuration avancée du Jade Plus avec le logiciel desktop Sparrow Wallet en mode QR codes. Cette configuration est idéale pour les utilisateur intermédiaires ou expérimentés. Si vous recherchez une approche plus simple pour les débutants, je vous recommande de consulter ce tutoriel où nous utilisons le Jade Plus avec Green Wallet avec une connexion Bluetooth :
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 
 ## Le modèle de sécurité du Jade Plus
 
@@ -40,7 +40,7 @@ L’avantage majeur de cette approche est l’absence de point de défaillance u
 
 L'inconvénient de ce système est que l'utilisation du Jade Plus dépend de l'oracle maintenu par Blockstream. Si cet oracle devient inaccessible, il n'est plus possible d'utiliser directement le hardware wallet avec le PIN. Cependant, cela ne signifie pas que vos bitcoins sont perdus, car ils peuvent toujours être récupérés grâce à votre phrase de récupération, que vous pouvez d'ailleurs entrer dans le Jade Plus en mode "*stateless*". Pour contourner cette dépendance, il est aussi possible de configurer et de gérer son propre serveur d'oracle.
 
-Une autre option pour la gestion de votre seed est tout simplement de ne pas l'enregistrer sur le Jade Plus. Dans ce cas, le Jade devient uniquement un périphérique de signature. Lors de l'initialisation, en plus de la sauvegarde habituelle de la phrase de récupération sous forme de mots, vous allez également l'enregistrer sous forme de QR code généré à la main. Ainsi, lors de chaque utilisation de votre portefeuille, vous pourrez importer la seed à l'aide de la caméra de votre Jade. Cela peut être une option intéressante pour els utilisateurs avancés en fonction de votre stratégie de sécurisation, mais attention, il faut veiller à la fois à bien sauvegarder votre seed, et également à la protéger, car même sous forme de QR code, elle permettrait à n'importe qui de vous voler vos fonds. Nous allons étudier cette option dans ce tutoriel, mais elle n'est pas obligatoire.
+Une autre option pour la gestion de votre seed est tout simplement de ne pas l'enregistrer sur le Jade Plus. Dans ce cas, le Jade devient uniquement un périphérique de signature. Lors de l'initialisation, en plus de la sauvegarde habituelle de la phrase de récupération sous forme de mots, vous allez également l'enregistrer sous forme de QR code généré à la main. Ainsi, lors de chaque utilisation de votre portefeuille, vous pourrez importer la seed à l'aide de la caméra de votre Jade. Cela peut être une option intéressante pour les utilisateurs avancés en fonction de votre stratégie de sécurisation, mais attention, il faut veiller à la fois à bien sauvegarder votre seed, et également à la protéger, car même sous forme de QR code, elle permettrait à n'importe qui de vous voler vos fonds. Nous allons étudier cette option dans ce tutoriel, mais elle n'est pas obligatoire.
 
 ## Unboxing du Jade Plus
 
@@ -96,7 +96,7 @@ Vous pouvez l'inscrire sur le papier cartonné fourni dans la boite, ou bien pou
 
 Pour plus d'informations sur la manière adéquate de sauvegarder et de gérer votre phrase mnémonique, je vous recommande vivement de suivre cet autre tutoriel, particulièrement si vous êtes débutant :
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 _**Évidemment, vous ne devez jamais partager ces mots sur internet, contrairement à ce que je fais dans ce tutoriel. Ce portefeuille en exemple sera utilisé uniquement sur le Testnet et sera supprimé à l'issue du tutoriel.**_
 
@@ -134,7 +134,7 @@ Confirmez votre PIN une seconde fois.
 
 ![Image](assets/fr/30.webp)
 
-Comme expliqué dans l'introduction, votre seed est stockée chiffrée sur le Jade Plus. Pour la déchiffrer, il faut obligatoirement fournir :
+Comme expliqué dans l'introduction, votre seed est stockée sur le Jade Plus. Pour la déchiffrer, il faut obligatoirement fournir :
 - Le code PIN valide (que nous venons de mettre en place) ;
 - Le secret de l'oracle maintenu par Blockstream.
 
@@ -252,7 +252,7 @@ Une passphrase BIP39 est un mot de passe optionnel que vous pouvez choisir libre
 
 Avant de configurer cette option sur votre Jade Plus, il est fortement recommandé de lire cet article pour bien comprendre le fonctionnement théorique de la passphrase et éviter les erreurs qui pourraient entraîner la perte de vos bitcoins :
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Sur votre Jade encore verrouillé (la passphrase ne peut être renseignée que lorsque l'appareil n'est pas déverrouillé), accédez au menu "*Options*".
 
@@ -293,7 +293,7 @@ Si votre passphrase est valide, confirmez.
 
 Attention, les passphrases BIP39 sont sensibles à la casse et aux fautes de frappe. Si vous entrez une passphrase légèrement différente de celle configurée initialement, le Jade ne signalera pas d'erreur mais dérivera un autre ensemble de clés cryptographiques qui ne seront pas celles de votre portefeuille initial.
 
-Il est donc important, lors de la configuration, de noter quelque part l'empreinte de votre clé maîtresse, qui se trouve en bas à droite de l'écran. Par exemple, avec ma passphrase `PBN`, mon empreinte de clé maîtresse est `3AD1AE65`.
+Il est donc important, lors de la configuration, de noter quelque part l'empreinte de votre clé maîtresse, qui se trouve en bas à droite de l'écran. Par exemple, avec ma passphrase `Plan ₿ Academy`, mon empreinte de clé maîtresse est `3AD1AE65`.
 
 ![Image](assets/fr/49.webp)
 
@@ -301,7 +301,7 @@ Il est donc important, lors de la configuration, de noter quelque part l'emprein
 
 Avant de recevoir vos premiers bitcoins sur votre portefeuille, **je vous conseille vivement de réaliser un test de récupération à vide**. Notez une information de référence, telle que votre xpub ou la première adresse de réception, puis supprimez votre portefeuille sur le Jade Plus tant qu'il est encore vide (`Options -> Device -> Factory Reset`). Ensuite, essayez de restaurer votre portefeuille en utilisant vos sauvegardes papier de la phrase mnémonique et de l'éventuelle passphrase. Vérifiez que l'information témoin générée après la restauration correspond à celle que vous aviez notée initialement. Si c'est le cas, vous pouvez être assuré que vos sauvegardes papier sont fiables. Pour en savoir plus sur comment effectuer un test de récupération, je vous conseille de consulter cet autre tutoriel :
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Configurer le portefeuille sur Sparrow Wallet
 
@@ -313,7 +313,7 @@ Commencez par télécharger et installer Sparrow Wallet [depuis le site officiel
 
 Assurez-vous de vérifier l'authenticité et l'intégrité du logiciel avant l'installation. Si vous ne savez pas comment procéder, vous pouvez consulter ce tutoriel :
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Une fois Sparrow Wallet ouvert, cliquez sur l'onglet "*File*", puis sur "*New Wallet*".
 
@@ -431,5 +431,5 @@ Félicitations, vous savez dorénavant comment configurer et utiliser le Jade Pl
 
 Pour aller plus loin, je vous recommande de consulter cet autre tutoriel sur le Jade Plus, où nous le configurons en Bluetooth avec l'application mobile Green :
 
-https://planb.network/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
+https://planb.academy/tutorials/wallet/hardware/jade-plus-green-873099a4-35ec-4be8-b31a-6e7cd6a41ec0
 

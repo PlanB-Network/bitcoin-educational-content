@@ -1,0 +1,9 @@
+question: Ni distribution iyihe ikoresha ikibanza c’ibiro ca Cinnamon ku buryo busanzwe?
+answer: Linux Mint
+wrong_answers:
+  - Ubuntu
+  - Debian
+  - Fedora
+explanation: |
+  Cinnamon yakozwe n’umugwi wa Linux Mint kugira ngo itange Interface igezweko, ya kera, ishaka gusa na Windows.
+reviewed: true

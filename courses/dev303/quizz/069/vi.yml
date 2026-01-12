@@ -1,0 +1,8 @@
+question: Theo các thực tiễn tốt nhất của Rust, vai trò chính của các khẳng định trong quá trình phát triển ứng dụng Bitcoin là gì?
+answer: Mục đích là để phát hiện lỗi trong quá trình kiểm thử, gây ra lỗi chương trình sớm khi xảy ra sự cố và đóng vai trò như tài liệu có thể thực thi về các giả định của lập trình viên.
+wrong_answers:
+  - Để xử lý các lỗi tài nguyên trong quá trình chạy, chẳng hạn như lỗi truy cập tệp và sự cố kết nối mạng, một cách khéo léo.
+  - Chuyển đổi các lỗi thư viện cấp thấp thành các lỗi ứng dụng cấp cao mà người dùng có thể hiểu và xử lý được.
+  - Để ngăn ngừa lỗi nhập liệu không hợp lệ bằng cách giới hạn các tham số hàm chỉ chấp nhận các giá trị nằm trong phạm vi hợp lệ.
+explanation: |
+  Các câu lệnh khẳng định đóng ba chức năng quan trọng trong quá trình phát triển phần mềm Bitcoin mạnh mẽ: chúng phát hiện lỗi trong giai đoạn kiểm thử, đảm bảo chương trình thất bại sớm khi các giả định cơ bản bị vi phạm (giúp việc gỡ lỗi dễ dàng hơn), và hoạt động như tài liệu có thể thực thi mô tả kỳ vọng của lập trình viên về trạng thái chương trình. Các tùy chọn khác mô tả các chiến lược xử lý lỗi khác nhau - xử lý khéo léo các lỗi tài nguyên bên ngoài, chuyển đổi lỗi giữa các lớp trừu tượng và xác thực đầu vào - những điều này rất quan trọng nhưng khác biệt với vai trò cụ thể của các câu lệnh khẳng định trong việc xác minh các giả định nội bộ của chương trình.

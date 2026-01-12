@@ -1,9 +1,9 @@
-question: Mis on üks peamisi küsimusi, mis on tõstatatud rahanduse tuleviku kohta?
-answer: Kes peaks hoidma, volitama ja jälgima raha, mida me kasutame?
+question: Mis on üks peamisi viise Bitcoinide hankimiseks?
+answer: Vastu võttes neid kaubavahetuse eest või ostes neid reguleeritud või reguleerimata platvormide kaudu.
 wrong_answers:
-  - Kuidas me saame raha täielikult kaotada?
-  - Kuidas me saame tagada, et kõigil oleks sama palju raha?
-  - Kuidas me saame raha muuta tarbetuks?
+  - Kaevandades neid arvuti abil.
+  - Leides neid füüsilisest maailmast.
+  - Luues neid kasutades erilist tarkvara.
 explanation: >-
-  Tekst tõstatab mitmeid küsimusi rahanduse tuleviku kohta, millest üks
-  on, kes peaks hoidma, volitama ja jälgima raha, mida me kasutame.
+  Tekstis mainitakse, et kasutajad saavad Bitcoine hankida, võttes neid vastu oma kaubavahetuse eest või ostes neid reguleeritud või reguleerimata platvormide kaudu.
+reviewed: false

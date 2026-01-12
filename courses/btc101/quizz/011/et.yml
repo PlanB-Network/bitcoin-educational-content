@@ -1,0 +1,11 @@
+question: Millega oli esimene valuuta vorm tihti seotud?
+answer: Oluliste kaupadega nagu teravili, kariloomad ja muud kaubad
+wrong_answers:
+  - Kuld ja hõbe
+  - Paberrahad
+  - Digitaalsed varad
+explanation: |
+  Esimene valuuta vorm oli tihti seotud oluliste kaupadega nagu
+  teravili, kariloomad ja muud kaubad. Need kaubad, aga, olid suurte puudustega,
+  nagu näiteks riknevus, muutes neid raskeks kasutada pikaajalise säästmise vahendina.
+reviewed: true

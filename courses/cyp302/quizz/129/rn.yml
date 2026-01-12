@@ -1,0 +1,9 @@
+question: Ni ibihe bindi bintu vy’Abongereza bavumbuye abashakashatsi bo muri GCHQ vyabanjirije ivyo Diffie na Hellman bavumbuye, ariko bikaba vyagumye ari ibanga?
+answer: Ivyiyumviro vy’ubuhinga bwo gukingira amakuru ataringaniye n’urufunguzo Exchange.
+wrong_answers:
+  - Porotokole y'ububiko bw'amakuru iteye imbere ata rufunguzo rukenewe
+  - Uburyo bushasha bwo gukora amakuru y'ibanga
+  - Uburyo bwo kurema amahera y'ubuhinga bwa none
+explanation: |
+  Abahinga mu vy’ubuhinga bw’amabanga y’Abongereza, bakorera GCHQ, barateguye ivyiyumviro bisa n’ivya Diffie na Hellman, ariko ivyo vyagumye ari ibanga gushika bimenyekanishijwe mu 1997.
+reviewed: false

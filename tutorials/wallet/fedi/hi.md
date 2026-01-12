@@ -1,5 +1,5 @@
 ---
-name: फेडी
+name: Fedi
 description: आपका Bitcoin सुपर Wallet समुदायों द्वारा संचालित
 ---
 
@@ -33,23 +33,23 @@ Fedi Wallet एक Bitcoin पोर्टफोलियो है जो आ�
 
 
 
-- कस्टोडियल्स**: आप अपना भरोसा किसी बाहरी संस्था, पोर्टफोलियो डेवलपर पर रखने का फैसला करते हैं, जो आपके पोर्टफोलियो के लिए रिकवरी वर्ड्स को आपके लिए रखेगा। आपके पास अपने Bitcoin पोर्टफोलियो को एक्सपोर्ट करने की न तो पहुँच है और न ही क्षमता।
+- **कस्टोडियल्स**: आप अपना भरोसा किसी बाहरी संस्था, पोर्टफोलियो डेवलपर पर रखने का फैसला करते हैं, जो आपके पोर्टफोलियो के लिए रिकवरी वर्ड्स को आपके लिए रखेगा। आपके पास अपने Bitcoin पोर्टफोलियो को एक्सपोर्ट करने की न तो पहुँच है और न ही क्षमता।
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-https://planb.network/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
-
-
-
-- सेल्फ-कस्टोडियल्स** : जैसे ही आप अपना Wallet बनाते हैं, एप्लिकेशन आपको रिकवरी शब्दों तक पहुंच प्रदान करता है। इसलिए आप अपने बिटकॉइन को उस Wallet में स्वतंत्र रूप से निर्यात कर सकते हैं जो आपको सबसे अच्छा लगता है।
+https://planb.academy/tutorials/wallet/mobile/speed-wallet-8715e454-1720-4a7f-8c1d-3da02cf67312
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+- **सेल्फ-कस्टोडियल्स** : जैसे ही आप अपना Wallet बनाते हैं, एप्लिकेशन आपको रिकवरी शब्दों तक पहुंच प्रदान करता है। इसलिए आप अपने बिटकॉइन को उस Wallet में स्वतंत्र रूप से निर्यात कर सकते हैं जो आपको सबसे अच्छा लगता है।
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+
+
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 इसके बजाय, Fedi Wallet फ़ेडरेशन दृष्टिकोण प्रदान करता है, जो आपको अपने पोर्टफ़ोलियो कुंजियों को प्रबंधित करने के लिए उन लोगों के समूह में शामिल होने देता है जिन पर आप भरोसा करते हैं। आप Fedi द्वारा सुझाए गए किसी लोकप्रिय फ़ेडरेशन में शामिल हो सकते हैं, या QR कोड स्कैन करके या फ़ेडरेशन के आमंत्रण कोड को चिपकाकर अपने समुदाय में स्थानीय फ़ेडरेशन में शामिल हो सकते हैं।
 
@@ -75,7 +75,7 @@ https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 आप जिस भी फेडरेशन में शामिल होते हैं, उसके लिए फेडी अलग-अलग वॉलेट बनाकर आपके बिटकॉइन को अलग करता है।
 
@@ -141,7 +141,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-ऑफ़लाइन भुगतान मुख्य रूप से [ई-कैश](https://planb.network/resources/glossary/ecash-david-chaum) का उपयोग करके किए जाते हैं। लेन-देन आपके फ़ोन में संग्रहीत होता है, और जैसे ही आप इंटरनेट एक्सेस करते हैं, लेन-देन की पुष्टि स्वचालित हो जाती है। आप **लेन-देन की पुष्टि करें** पर क्लिक करके मैन्युअल रूप से भुगतान की पुष्टि भी कर सकते हैं।
+ऑफ़लाइन भुगतान मुख्य रूप से [ई-कैश](https://planb.academy/resources/glossary/ecash-david-chaum) का उपयोग करके किए जाते हैं। लेन-देन आपके फ़ोन में संग्रहीत होता है, और जैसे ही आप इंटरनेट एक्सेस करते हैं, लेन-देन की पुष्टि स्वचालित हो जाती है। आप **लेन-देन की पुष्टि करें** पर क्लिक करके मैन्युअल रूप से भुगतान की पुष्टि भी कर सकते हैं।
 
 
 
@@ -191,7 +191,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 
 
@@ -231,5 +231,4 @@ https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
-
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd

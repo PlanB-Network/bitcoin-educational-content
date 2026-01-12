@@ -1,9 +1,9 @@
-question: Co je blockchainové trilema?
-answer: Protokol založený na blockchainu může splnit pouze dvě z kritérií decentralizace, bezpečnosti a škálovatelnosti.
+question: Jak se nazývají bitcoiny používané na Liquid?
+answer: L-BTC
 wrong_answers:
-  - Protokol založený na blockchainu může splnit pouze jedno z kritérií decentralizace, bezpečnosti a škálovatelnosti.
-  - Protokol založený na blockchainu může splnit všechna kritéria decentralizace, bezpečnosti a škálovatelnosti.
-  - Protokol založený na blockchainu nemůže splnit žádné z kritérií decentralizace, bezpečnosti a škálovatelnosti.
+  - W-BTC
+  - S-BTC
+  - T-BTC
 explanation: |
-  Blockchainové trilema odkazuje na výzvu, že protokol založený na blockchainu může splnit pouze dvě kritéria z decentralizace, bezpečnosti a škálovatelnosti.
-reviewed: true
+  Na Liquid jsou bitcoiny reprezentovány jako L-BTC, navázané v poměru 1 ku 1 na BTC.
+reviewed: false

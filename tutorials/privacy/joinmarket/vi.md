@@ -1,5 +1,5 @@
 ---
-name: Tham gia thị trường
+name: JoinMarket
 
 description: Hướng dẫn và hướng dẫn cách sử dụng JoinMarket để thực hiện CoinJoin trên Bitcoin thông qua dòng lệnh
 ---

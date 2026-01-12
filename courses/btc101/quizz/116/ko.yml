@@ -1,0 +1,11 @@
+question: 첫 번째 Bitcoin 트랜잭션의 블록 번호는 무엇인가요?
+answer: 블록 170.
+wrong_answers:
+  - 블록 1.
+  - 블록 17.
+  - 블록 1700.
+explanation: |
+  첫 번째 Bitcoin 거래는 다음과 같은 거래였습니다
+  gW-2 나카모토와 할 피니 사이의 10 BTC 거래가 기록되었습니다
+  블록 170에 기록되었습니다.
+reviewed: true

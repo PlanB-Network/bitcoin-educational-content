@@ -1,12 +1,9 @@
-question: Které subjekty jsou zodpovědné za vydávání fiduciárních měn?
-answer: Centrální banky.
+question: Jaký je možný výsledek prudkého oslabení nebo ztráty důvěry ve fiduciární měnu?
+answer: Hyperinflace.
 wrong_answers:
-  - Komerční banky.
-  - Vlády.
-  - Soukromé instituce.
+  - Deflace.
+  - Stabilní ekonomika.
+  - Zvýšení hodnoty měny.
 explanation: |
-  Centrální banky jsou subjekty zodpovědné za vydávání
-  fiduciární měny. Rozhodují o měnové politice a
-  určují, kolik peněz by mělo být uvedeno do oběhu nebo
-  vytisknuto.
+  Prudké oslabení nebo ztráta důvěry ve fiduciární měnu může vést k hyperinflaci. Jedná se o situaci, kdy ceny zboží a služeb rostou extrémně vysokou rychlostí, což často vede k ekonomické nestabilitě.
 reviewed: true

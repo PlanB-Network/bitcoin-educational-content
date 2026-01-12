@@ -1,0 +1,11 @@
+question: Notgeld yari afise intumbero iyihe mu gihe c’amagume y’ubutunzi mu Budagi?
+answer: Yari igenewe Address ubukene bw’amahera rusangi.
+wrong_answers:
+  - Yakoreshwa mu kwishura indishi z’intambara.
+  - Vyari uburyo bwo kwiyamiriza intwaro.
+  - Yari uburyo bwo gutuma ubutunzi butera imbere.
+explanation: |
+  Kubera ko Ubudage bwari buhanganye n’ingorane z’amahera n’ubutunzi, bwaciye bukoresha Notgeld .
+  (amahera y’ivyihutirwa). Izo mpapuro, zacapwa n’ibisagara canke amashirahamwe amwamwe, zari zateguwe .
+  ku Address ubukene bw’amahera rusangi.
+reviewed: false

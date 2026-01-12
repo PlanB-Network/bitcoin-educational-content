@@ -1,11 +1,12 @@
-question: What happened to the Zimbabwean dollar in April 2009?
-answer: The Minister of Finance announced the suspension of the Zimbabwean dollar and authorized the use of different foreign currencies for trade.
+question: What economic principles does Bitcoin align with?
+answer: Principles of Austrian economics.
 wrong_answers:
-  - The Zimbabwean dollar collapsed by over 72%.
-  - The government agreed to compensate war veterans for an amount equivalent to 450 million US dollars.
-  - The government had to resort to running the printing press.
+  - Principles of Keynesian economics.
+  - Principles of Marxist economics.
+  - Principles of Neoclassical economics.
 explanation: |
-  In April 2009, the Minister of Finance announced the
-  suspension of the Zimbabwean dollar and authorized the use
-  of different foreign currencies for trade.
+  Bitcoin aligns with the principles of Austrian economics.
+  Its capped quantity and lack of central entity protect it
+  from the inherent risks of inflation that are seen in
+  traditional currencies.
 reviewed: true

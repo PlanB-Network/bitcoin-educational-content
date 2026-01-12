@@ -1,0 +1,9 @@
+question: Ni iyihe moteri yo guhindura ikwiragiye cane muri iki gihe, kandi itanga ubushobozi kuri mucukumbuzi nyinshi zo muri iki gihe?
+answer: Blink
+wrong_answers:
+  - Gecko
+  - Trident
+  - WebKit
+explanation: |
+  Blink, yateguwe ivuye kuri WebKit Fork na Google, uyo musi ni moteri ihambaye mu guhindura, itanga ubushobozi kuri Chrome, Edge, Opera, Brave, Vivaldi n’ibindi.
+reviewed: true

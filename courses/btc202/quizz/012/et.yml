@@ -1,0 +1,9 @@
+question: Milline etapp kuulub alaealise rolli juurde?
+answer: Kandidaatploki ehitamine Mempool-st
+wrong_answers:
+  - Kogu Blockchain valideerimine Mempool-st
+  - Bitcoin aadresside loomine kasutajatele
+  - Rahakottide privaatvõtmete salvestamine
+explanation: |
+  Miner valib tehingud Mempool-st ja koostab kandidaatbloki, mida ta püüab Proof of Work abil valideerida.
+reviewed: true

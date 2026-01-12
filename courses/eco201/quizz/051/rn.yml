@@ -1,0 +1,9 @@
+question: Ni ikihe kimwe mu vyiyumviro vy’ishimikiro(axiomes) mu vy’ubutunzi bwa Otirishi?
+answer: Kimwe mu vyiyumviro vy’ishimikiro(axiomes) ni uguhitamwo umwanya mwiza, ivyo bikaba bishingiye ku mahitamwo y’umuntu y’ibintu canke ibikorwa uno musi aho guhitamwo ejo.
+wrong_answers:
+  - Kimwe mu vyiyumviro vy’ishimikiro(axiomes) ni ugushinga inyungu.
+  - Kimwe mu vyiyumviro vy’ishimikiro(axiomes) ni ukwizigira amakuru y'ivyashitse.
+  - Kimwe mu vyiyumviro vy’ishimikiro(axiomes) ni ugukoresha igerageza ry’igihe gito kugira ngo umuntu yemeze canke ahakane ivyiyumviro.
+explanation: |
+  Mu butunzi bwa Otirishi, kimwe mu vyiyumviro vy’inkomezi ni ukwipfuriza ibihe vyiza (préférences temporelles positives), bishingiye ku guhitamwo kw’abantu ku gikorwa canke ikintu uyu munsi aho gutegereza ejo, kubera ukutumara amakenga ku vy’igihe kizoza..
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ni igiki nyamukuru kiranga urutonde rw’ivy’idini n’ivya politike rwari ruganzwa n’imibano yo mu kinjana ca mbere?
+answer: Ububasha bwa politike n’ububasha bw’idini vyari bifitaniye isano cane, kandi umurongozi wa politike na we nyene yari umurongozi w’idini.
+wrong_answers:
+  - Ugutandukanya ububasha hagati ya Ekleziya na Leta kwari gusobanuwe neza kandi kwubahirizwa.
+  - Ukwihanganira idini kwari gukoreshwa cane, kandi amadini makeyi yari afise uburenganzira nk’ubw’abantu benshi.
+  - Ibindi bisubizo vyose ni ukuri.
+explanation: |
+  Mu mibano yo mu kinjana ca mbere, urutonde rw’ivy’idini n’ivya politike rwari rurangwa n’ugufatanya gukomeye kw’ububasha bwa politike n’ubw’idini, abarongozi akenshi bakaba bahabwa ububasha bwo mu vy’impwemu uretse ububasha bwabo bw’igihe gito.
+reviewed: true

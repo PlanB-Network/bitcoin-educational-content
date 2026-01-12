@@ -1,0 +1,9 @@
+question: ¿Se atribuye el concepto de "animales máquina" a?
+answer: Descartes.
+wrong_answers:
+  - Spinoza.
+  - Galileo.
+  - Einstein.
+explanation: |
+  El concepto de animales máquina se atribuye a Descartes. Según esta teoría, los animales son autómatas complejos sin alma ni conciencia, que funcionan únicamente con principios mecánicos.
+reviewed: false

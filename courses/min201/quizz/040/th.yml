@@ -1,0 +1,11 @@
+question: mining กำหนดอะไรสำหรับ Bitcoin?
+answer: ราคาพื้น
+wrong_answers:
+  - ราคาสูงสุด
+  - ราคาคงที่
+  - ราคาที่เปลี่ยนแปลงได้
+explanation: |
+  Mining กำหนดราคาขั้นต่ำสำหรับ Bitcoin ซึ่งต่ำกว่าราคานี้
+  นักขุดจะขายขาดทุน ต้นทุนของ mining
+  มีอิทธิพลอย่างมากต่อราคาของ Bitcoin
+reviewed: true

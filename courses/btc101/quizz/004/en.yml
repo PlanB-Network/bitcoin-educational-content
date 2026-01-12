@@ -1,11 +1,11 @@
-question: What are the two main characteristics of Bitcoin?
-answer: Bitcoin is both a computer protocol and a monetary unit.
+question: What does it mean for Bitcoin to be a neutral currency?
+answer: It is not controlled by any entity or institution.
 wrong_answers:
-  - Bitcoin is both a physical currency and a digital wallet.
-  - Bitcoin is both a type of stock and a type of bond.
-  - Bitcoin is both a centralized and a decentralized currency.
+  - It is controlled by a single entity or institution.
+  - It is regulated by the government.
+  - It is only used for big transactions.
 explanation: |
-  Bitcoin is both a computer protocol that uses technologies
-  like cryptography and the blockchain, and also a monetary
-  unit that is used for transactions.
+  Bitcoin is a neutral currency, meaning it is not controlled
+  by any entity or institution, so every user has the same
+  rights. This is a key aspect of its decentralization.
 reviewed: true

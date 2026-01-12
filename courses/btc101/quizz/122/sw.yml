@@ -1,9 +1,8 @@
-question: Je, upatikanaji wa Bitcoin mtandaoni umekuwaje tangu 2009?
-answer: 99.988%.
+question: Bitcoin Blockchain ni nini?
+answer: Ledger ya umma na isiyoweza kubadilika ya miamala yote ya Bitcoin.
 wrong_answers:
-  - 100%.
-  - 90.009%.
-  - 80.17%.
-explanation: |
-  Upatikanaji mtandaoni wa Bitcoin ni 99.988% tangu 2009.
+  - Ledger ya kibinafsi na inayoweza kubadilishwa ya shughuli zote za Bitcoin.
+  - Ledger ya umma na inayoweza kubadilishwa ya shughuli zote za Bitcoin.
+  - Ledger ya kibinafsi na isiyoweza kubadilika ya shughuli zote za Bitcoin.
+explanation: >-
 reviewed: true

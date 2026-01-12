@@ -1,0 +1,9 @@
+question: Bernardin de Saint-Pierre là ai?
+answer: Giám đốc Bảo tàng Lịch sử Tự nhiên Paris vào đầu thế kỷ 19.
+wrong_answers:
+  - Một bộ trưởng của Louis XIV.
+  - Một triết gia người Pháp.
+  - Một nhà cách mạng khủng bố.
+explanation: |
+  Bernardin de Saint-Pierre (1737-1814) là giám đốc của Jardin des Plantes (bảo tàng lịch sử tự nhiên) ở Paris vào đầu thế kỷ 19. Ông được biết đến nhiều nhất với tiểu thuyết Paul et Virginie và những miêu tả về thiên nhiên.
+reviewed: false

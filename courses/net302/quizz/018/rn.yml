@@ -1,0 +1,9 @@
+question: Datagram ni iki mu bijanye n’amasezerano ya IP?
+answer: Igipande c'amakuru yigenga atwarwa ku rubuga
+wrong_answers:
+  - Ubutumwa bushizwemwo amakuru bugenewe igikoresho kimwe
+  - Igice ca TCP gishizwe muri UDP
+  - Ikimenyetso c’umubiri kiva ku nzira y’ugushika ku rubuga Layer.
+explanation: |
+  Amakuru ya IP arungikwa mu buryo bw’ibimenyetso vy’amakuru, ni ukuvuga amabara yigenga arimwo amakuru yose akenewe kugira ngo ashikirizwe.
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - No encripta los archivos intercambiados
 explanation: |
   Signal requiere un número de teléfono para registrarse, lo que introduce una posible trazabilidad aunque el protocolo garantice un cifrado fuerte.
-reviewed: false
+reviewed: true

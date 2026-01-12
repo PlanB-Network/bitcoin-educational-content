@@ -1,13 +1,10 @@
-question: What is Bitcoin's connection with the future of technology and society?
-answer: Bitcoin is a technological revolution that allows the exchange of value without any trusted third party.
+question: What is one of the main characteristics of the Bitcoin protocol?
+answer: It is neutral towards all its users.
 wrong_answers:
-  - Bitcoin is a form of AI technology that allows people to exchange information through a central server.
-  - Bitcoin is a tool for controlling the world's population, allowing the elimination of poverty.
-  - Bitcoin is a method for governments to track their citizens' financial transactions.
-explanation: |
-  The text explains that Bitcoin, like the internet for means
-  of communication, is a technological revolution that
-  creates the chance for new modes of large-scale
-  organization, bringing us the possibility of exchanging
-  value without any trusted third party.
+  - It favors certain users over others.
+  - It is biased towards certain users.
+  - It only benefits a select group of users.
+explanation: >-
+  The text mentions that the Bitcoin protocol is neutral towards all its
+  users.
 reviewed: true

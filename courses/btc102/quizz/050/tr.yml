@@ -1,9 +1,9 @@
 question: Düşük maliyetli Bitcoin ödemeleri yapmak için hangi çözüm önerilir?
-answer: Lightning Network
+answer: Lightning Network (Lightning ağı)
 wrong_answers:
   - Hardware Wallet
   - Banka hesabı
   - RGB Layer
 explanation: |
-  Lightning, günlük alışverişler için hızlı ve düşük maliyetli işlemler sağlar. Aktif kullanıcılar için ideal bir araçtır.
+  Lightning, günlük alışverişler için hızlı ve düşük maliyetli işlemleri sağlar. Aktif kullanıcılar için ideal bir araçtır.
 reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - 8 MB
 explanation: |
   Der MAX_BLOCK_SIZE-Parameter wurde im Juli hinzugefügt, dann wurde das Limit ab dem 12. September auf allen Netzwerkknoten durchgesetzt.
-reviewed: false
+reviewed: true

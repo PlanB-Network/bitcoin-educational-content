@@ -1,0 +1,9 @@
+question: Prema MIT licenci pod kojom se distribuira Bitcoin Core, ne postoji ograničenje u vezi sa distribucijom izvedenih radova.
+answer: Izvedena dela moraju biti distribuirana pod istim uslovima kao i licenca originalnog softvera.
+wrong_answers:
+  - Izvedena dela ne mogu se prodavati komercijalno i moraju se uvek distribuirati besplatno.
+  - Izvedena dela zahtevaju izričitu pismenu dozvolu od Bitcoin Core programera pre distribucije.
+  - Izvedena dela moraju uključivati originalni Bitcoin Core brending i ne mogu biti preimenovana ili rebrendirana.
+explanation: |
+  MIT Licenca zahteva da izvedena dela budu distribuirana pod istim uslovima licence kao i originalni softver, osiguravajući očuvanje prirode otvorenog koda. Ovo ne zabranjuje komercijalnu prodaju (pogrešan odgovor 1), ne zahteva dozvolu od programera (pogrešan odgovor 2), i ne nalaže zadržavanje originalnog brendiranja (pogrešan odgovor 3). Licenca specifično navodi da modifikacije i izvedena dela moraju biti dozvoljena pod istim uslovima, održavajući model razvoja bez dozvola koji omogućava inovacije poput Lightning Network i sidechains.
+reviewed: false

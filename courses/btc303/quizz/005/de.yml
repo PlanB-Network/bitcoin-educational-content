@@ -1,0 +1,9 @@
+question: Worauf bezieht sich die Dezentralisierung der Bergleute in Bitcoin konkret?
+answer: Die Reihenfolge der Transaktionen wird gemeinsam von einer dynamischen Gruppe von Minern und nicht von einem einzelnen Unternehmen durchgeführt
+wrong_answers:
+  - Die Validierung von Blöcken wird auf mehrere vertrauenswürdige Stellen verteilt, anstatt auf einen zentralen Server
+  - Die mining-Belohnungen werden gleichmäßig auf alle Teilnehmer des Bitcoin-Netzwerks verteilt
+  - Die mining-Hardware wird von verschiedenen Unternehmen hergestellt, um eine Monopolisierung der Ausrüstung zu verhindern
+explanation: |
+  Miner-Dezentralisierung bedeutet insbesondere, dass die Bestellung von Transaktionen nicht von einem einzelnen Unternehmen oder einer festen Gruppe kontrolliert wird, sondern von einem Kollektiv von Minern, die sich frei anschließen oder austreten können. Dies unterscheidet sich von der Blockvalidierung (die sich auf die full node-Dezentralisierung bezieht), der Verteilung von Belohnungen oder der Herstellung von Hardware. Die dynamische Natur des mining-Kollektivs - an dem jeder ohne Erlaubnis teilnehmen kann - macht Bitcoin zensurresistent und verhindert, dass eine einzelne Partei kontrollieren kann, welche Transaktionen in Blöcke aufgenommen werden.
+reviewed: false

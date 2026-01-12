@@ -6,4 +6,4 @@ wrong_answers:
   - Only buy Bitcoin on days when its price has risen sharply.
 explanation: |
   Regular purchases over time (dollar-cost averaging) help smooth out volatility. A longer-term horizon (e.g., 4 years) reduces the impact of short-term price swings.
-reviewed: false
+reviewed: true

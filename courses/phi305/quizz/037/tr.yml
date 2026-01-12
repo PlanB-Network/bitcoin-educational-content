@@ -1,0 +1,9 @@
+question: Voltaire "rezil" derken neyi kastediyor?
+answer: Batıl inanç.
+wrong_answers:
+  - Din.
+  - Para.
+  - Eski rejim.
+explanation: |
+  Voltaire için 'l'infâme' batıl inanç, özellikle de dini batıl inanç anlamına geliyordu. Onun ünlü "Écrasez l'infâme!" haykırışı her türlü gericiliği ve dini fanatizmi hedef alıyordu.
+reviewed: false

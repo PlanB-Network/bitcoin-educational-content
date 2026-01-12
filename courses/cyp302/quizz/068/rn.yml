@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe urufunguzo rufise mu nzira zo gupfuka no gukuraho amakuru mu buryo buhuye?
+answer: Ikoreshwa mu gupfuka no gufungura ubutumwa
+wrong_answers:
+  - Ikoreshwa gusa mu gusobanura ubutumwa
+  - Ikoreshwa mu kurema kode yo kugenzura ubutungane bw'ubutumwa
+  - Isangizwa ku mugaragaro kuri generate izindi mfunguruzo
+explanation: |
+  Mu migambi yo gupfuka ubutumwa buhuye, urufunguzo rw’ibanga rumwe rurakoreshwa mu gupfuka ubutumwa igihe bwoherejwe no kubufungura iyo bwakiriwe.
+reviewed: false

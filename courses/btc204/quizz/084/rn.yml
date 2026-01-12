@@ -1,0 +1,10 @@
+question: Ni uruhara uruhe rw’inyuma y’imivumba Wallet mu masezerano ya Zerolink?
+answer: Kugira ngo ubike ama UTXO amaze guvangwa.
+wrong_answers:
+  - Kugira ngo ubike ama UTXO imbere yo kuyavanga.
+  - Kugira ngo ubike amahinduka UTXOs.
+  - Kugira ngo ubike ama UTXO y’ugushiramwo.
+explanation: |
+  Igitabu ca post-mix Wallet kigenewe ibiceri vyavanzwe.
+  
+reviewed: false

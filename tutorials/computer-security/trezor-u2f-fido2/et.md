@@ -1,5 +1,5 @@
 ---
-name: Trezor U2F & FIDO2
+name: "Trezor U2F & FIDO2"
 description: Tugevdage oma veebiturvalisust Trezoriga
 ---
 ![cover](assets/cover.webp)
@@ -22,7 +22,7 @@ Lisaks U2F-le, mis võimaldab kahefaktorilist autentimist, toetavad Trezorid ka 
 
 
 
-Lisaks "paroolita*" funktsioonile võimaldab FIDO2 ka kahefaktorilist autentimist sarnaselt U2F-iga.
+Lisaks **paroolita** funktsioonile võimaldab FIDO2 ka kahefaktorilist autentimist sarnaselt U2F-iga.
 
 
 
@@ -134,7 +134,7 @@ Soovitan seda koodi hoida erinevas kohas, kus te säilitate oma põhiparooli, et
 
 
 
-See lähenemisviis pakub teile 2FA-autentimise Trezori kadumise korral kahetasandilist varukoopiat: esimene varukoopia, milles kasutatakse Mnemonic fraasi kõigi teie kontode jaoks, ja teine varukoopia, mis on mõeldud iga konto jaoks eraldi hädaolukorra koodidega. Siiski on oluline **ei segi ajada Mnemonic rolli hädaabikoodiga** :
+See lähenemisviis pakub teile 2FA-autentimise Trezori kadumise korral kahetasandilist varukoopiat: esimene varukoopia, milles kasutatakse Mnemonic fraasi kõigi teie kontode jaoks, ja teine varukoopia, mis on mõeldud iga konto jaoks eraldi hädaolukorra koodidega. Siiski on oluline **ei segi ajada Mnemonic rolli hädaabikoodiga**:
 
 
 
@@ -290,7 +290,7 @@ Relying party ID:       vault.bitwarden.com
 Relying party name:     Bitwarden
 User ID:                6e315ebabc8b6945a253b1c50116538d
 User name:              tutoplanbnetwork@proton.me
-User display name:      PBN
+User display name:      Plan ₿ Academy
 Creation time:          2
 hmac-secret enabled:    True
 Use signature counter:  True
@@ -323,7 +323,7 @@ trezorctl fido credentials add <CREDENTIAL_ID>
 
 
 
-Lihtsalt asendage `<CREDENTIAL_ID>` ühe oma identifikaatoriga. Näiteks minu puhul annaks see :
+Lihtsalt asendage `<CREDENTIAL_ID>` ühe oma identifikaatoriga. Näiteks minu puhul annaks see:
 
 
 
@@ -353,4 +353,4 @@ Soovitan ka seda teist õpetust, kus me vaatame teist lahendust U2F ja FIDO2 aut
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

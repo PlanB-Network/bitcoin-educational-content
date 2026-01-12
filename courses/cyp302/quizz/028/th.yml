@@ -1,0 +1,9 @@
+question: ผลลัพธ์ของ 0 XOR 1 คือ 1
+answer: 1
+wrong_answers:
+  - 0
+  - 2
+  - -1
+explanation: |
+  ด้วย XOR, 0 XOR 1 ให้ผลลัพธ์เป็น 1 เพราะบิตต่างกัน
+reviewed: false

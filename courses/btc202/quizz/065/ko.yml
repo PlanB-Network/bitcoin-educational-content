@@ -1,0 +1,9 @@
+question: 엄브렐에서 버그가 발생했을 때 가장 먼저 취해야 할 조치는 무엇인가요?
+answer: generate 진단 번들
+wrong_answers:
+  - Bitcoin core 재설치 및 IBD 재실행
+  - 캐시 지우기
+  - 2FA 비활성화
+explanation: |
+  문제가 발생하면 먼저 문제 해결 섹션에서 진단 번들을 생성하여 문제를 분석하고 기록을 유지합니다.
+reviewed: true

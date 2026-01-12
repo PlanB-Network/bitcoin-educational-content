@@ -40,7 +40,7 @@ Selanjutnya, Anda akan diminta untuk menentukan kata sandi. Penting untuk memili
 
 Penggunaan pengelola kata sandi merupakan praktik yang sangat baik. Ini tidak hanya memungkinkan Anda menyimpan kata sandi dengan aman tanpa harus menghafalnya, tetapi juga dapat membuat kata sandi yang panjang dan acak untuk Anda. Manusia memang sangat buruk dalam menciptakan urutan acak, dan kata sandi yang tidak cukup acak dapat rentan terhadap serangan brute force. Saya juga merekomendasikan untuk melihat tutorial lengkap kami tentang pengaturan pengelola kata sandi untuk detail lebih lanjut mengenai topik ini.
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 ![proton](assets/notext/07.webp)
 
 Klik tombol "*Create Account (Buat akun)*".
@@ -92,7 +92,7 @@ Kemudian pindai kode QR menggunakan aplikasi 2FA Anda.
 
 Untuk informasi lebih lanjut, saya menyarankan Anda untuk melihat tutorial kami tentang cara menggunakan aplikasi 2FA.
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Di tab "*Language and time* (Bahasa dan waktu)", Anda dapat mengubah bahasa antarmuka serta zona waktu.
 ![proton](assets/notext/23.webp)

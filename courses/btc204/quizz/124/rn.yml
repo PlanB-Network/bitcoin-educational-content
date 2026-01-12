@@ -1,0 +1,10 @@
+question: Ni ubuhe buryo bushobora gukoreshwa canke guhagarika P2P transport V2 muri dosiye y’imiterere ya Bitcoin core?
+answer: v2gutwara=
+wrong_answers:
+  - p2gufunga=
+  - urubugav2=
+  - gushoboza2=
+explanation: |
+  P2P V2 gutwara bishobora guhindurwa n'uburyo v2transport= muri dosiye y'imiterere y'umurongo w'ishimikiro.
+  
+reviewed: false

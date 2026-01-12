@@ -1,0 +1,8 @@
+question: Liquid'ın düzenleyici konumu Ethereum veya Solana gibi diğer tokenleştirme platformlarına kıyasla hangi kritik stratejik avantajı sağlıyor?
+answer: Liquid, Bitcoin'i (L-BTC) mining öncesi veya bir ICO gerçekleştirmeden kendi ana varlığı olarak kullanarak kayıt dışı güvenlik risklerinden kaçınır
+wrong_answers:
+  - Liquid, çoğu yargı alanında kendisini menkul kıymetler yasalarından muaf tutan özel bir düzenleyici sanal alan altında faaliyet göstermektedir
+  - "Liquid'in federasyon modeli, ihraç edilen tüm tokenleri otomatik olarak mevcut çerçeveler kapsamında düzenlenmiş menkul kıymetler olarak nitelendirir"
+  - Liquid, platformundaki tüm tokenize varlıklar için büyük finans otoritelerinden genel düzenleyici onay aldı
+explanation: |
+  Liquid'in stratejik düzenleme avantajı, özel muafiyetler veya onaylardan ziyade teknik mimarisinden kaynaklanmaktadır. Liquid, Bitcoin'yi mining öncesi tokenlar olmadan veya bir ICO gerçekleştirmeden kendi yerel varlığı (L-BTC) olarak kullanarak, diğer birçok blok zinciri platformunu tehdit eden "kayıtsız güvenlik" sınıflandırmasından kaçınır. Bu çok önemlidir çünkü SEC gibi düzenleyici otoriteler, kendi tokenlarını yaratan ve satan blok zinciri projelerini giderek daha fazla incelemekte ve potansiyel olarak bunları kayıtsız menkul kıymetler olarak sınıflandırmaktadır. Yanlış cevaplar, Liquid'in özel düzenleyici izinlere veya otomatik uyum özelliklerine sahip olduğunu öne sürerken, gerçekte avantajı sorunlu token ekonomisinden tamamen kaçınmasından kaynaklanmaktadır.

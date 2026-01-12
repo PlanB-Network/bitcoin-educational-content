@@ -1,11 +1,11 @@
-question: Millist strateegiat kasutavad kesksed üksused fiatraha väärtuse alandamiseks?
-answer: Nad suurendavad esialgset rahamassi mõne protsendi võrra igal aastal.
+question: Mis on hüperinflatsioon?
+answer: Drastiline suurenemine rahamassis
 wrong_answers:
-  - Nad vähendavad esialgset rahamassi mõne protsendi võrra igal aastal.
-  - Nad hoiavad selle rahamassi konstantsena võrreldes esialgse massiga.
-  - Nad muudavad selle rahamassi suvaliselt võrreldes esialgse massiga.
+  - Tagasihoidlik suurenemine rahamassis
+  - Drastiline vähenemine rahamassis
+  - Tagasihoidlik vähenemine rahamassis
 explanation: |
-  Kesksed üksused tihti devalveerivad uut valuutat, suurendades selle rahamassi võrreldes
-  esialgsega mõne protsendi võrra igal aastal. See vaikne devalveerimine õigustatakse tihti
-  kui rahva huvides olevat.
+  Hüperinflatsioon on rahandusnähtus,
+  see iseloomustab drastilist inflatsiooni suurenemist raha trükkimise kaudu võimude poolt,
+  mis viib täieliku usalduse kaotamiseni valuutas
 reviewed: true

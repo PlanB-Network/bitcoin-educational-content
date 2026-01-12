@@ -1,0 +1,8 @@
+question: Ni kuki gushiramwo amakuru ya AES mu buryo bwa ECB bidakenewe kugira ngo umuntu akoreshe mu buryo butekanye?
+answer: Bivamwo ugushiramwo amakuru
+wrong_answers:
+  - Bisaba urufunguzo rurenga 128 .
+  - Bitevye cane ku bikorwa vyinshi vya none
+  - Ntivyemera gucapura umwandiko mu bice 128 .
+explanation: |
+  Uburyo bwa ECB ntibushimishijwe kuko butanga ubuhinga bwo gupfuka amakuru, bisobanura ko amabara asa n’ay’inyandiko zisanzwe azotanga amabara asa n’ay’inyandiko y’ibanga, ashobora gukoreshwa mu gutekereza ku makuru yerekeye inyandiko isanzwe.

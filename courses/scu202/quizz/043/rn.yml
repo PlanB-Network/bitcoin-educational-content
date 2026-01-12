@@ -1,0 +1,9 @@
+question: Ni akamaro akahe ko kugenzura umukono wa PGP kuri dosiye ya Hash canke kuri manifest ya porogarame?
+answer: Biremeza ko dosiye ikomoka kw’isoko yemewe.
+wrong_answers:
+  - Biguha gushiramwo porogarame idafise ibibazo
+  - Biguha porogarame izokwishira kugihe ubwayo
+  - Biremeza ko dosiye yuzuye kandi ko itahinduwe
+explanation: |
+  Umukono wa PGP, wemejwe hakoreshejwe urufunguzo rwa rusange rw’umuhinguzi, uramenya neza ko dosiye yemejwe iva kw'isoko y'umwimerere.
+reviewed: true

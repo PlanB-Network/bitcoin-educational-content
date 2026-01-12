@@ -1,0 +1,9 @@
+question: Ni irihe shirahamwe ryatanguye kwemera Bitcoin mu kwezi kwa 11/2010 hakurikijwe ugusaba kw’abanyagihugu?
+answer: The Electronic Frontier Foundation
+wrong_answers:
+  - WikiLeaks
+  - The Red Cross
+  - Amnesty International
+explanation: |
+  Iryo shirahamwe ryashinzwe mu mwaka w’1900 na Mitch Kapor, John Gilmore na John Perry Barlow, ryari rigamije kurinda umwidegemvyo wo kuri interinete. Yatanguye kwemera Bitcoin kw’igenekerezo rya 9 Munyonyo.
+reviewed: true

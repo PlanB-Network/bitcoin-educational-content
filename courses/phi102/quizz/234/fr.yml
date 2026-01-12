@@ -1,0 +1,8 @@
+question: Sur quel mécanisme économique la liberté contractuelle s'appuie-t-elle principalement pour garantir que les deux parties bénéficient des échanges volontaires ?
+answer: L'évaluation subjective de chaque partie qui rend l'échange préférable à l'abstention
+wrong_answers:
+  - Réglementation gouvernementale qui garantit une répartition égale des avantages entre les parties contractantes
+  - Contrôle des prix du marché garantissant une compensation équitable pour tous les participants à l'échange
+  - Mesure objective de la valeur qui crée des gains mathématiquement équivalents pour les deux parties
+explanation: |
+  Les contrats volontaires créent un enrichissement mutuel parce que chaque individu choisit de participer uniquement lorsqu'il apprécie subjectivement ce qu'il reçoit plus que ce qu'il abandonne. C'est cette préférence subjective, plutôt qu'une réglementation externe ou une mesure objective de la valeur, qui est à l'origine de la nature positive de l'échange volontaire. Une réglementation gouvernementale ou un contrôle des prix saperait en fait ce mécanisme volontaire, tandis que la mesure objective de la valeur ignore les préférences personnelles qui motivent les individus à passer un contrat en premier lieu.

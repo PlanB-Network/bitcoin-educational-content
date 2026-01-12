@@ -1,8 +1,8 @@
-question: Bitcoin protokolünün benzersiz özelliği nedir?
-answer: Küresel ölçekte, günde 24 saat, haftada 7 gün faaliyet göstermektedir.
+question: Bitcoin'ın fiyatının sadece birkaç gün içinde %10, %20 ve hatta %50 oranında düşmesinin bir nedeni nedir?
+answer: Boğa ve ayı piyasası aşamaları.
 wrong_answers:
-  - Sadece mesai saatleri içinde çalışır.
-  - Merkezi bir otorite tarafından kontrol edilir.
-  - Kolayca hacklenebilir.
+  - İnternet kullanan kişi sayısı.
+  - Hava durumu.
+  - Altın fiyatı.
 explanation: >-
 reviewed: true

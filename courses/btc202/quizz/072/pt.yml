@@ -1,0 +1,9 @@
+question: Que mecanismo pode ser usado para carregar um instantâneo do conjunto UTXO para tornar um nó rapidamente utilizável?
+answer: assumirutxo
+wrong_answers:
+  - assumir o estado de cadeia
+  - txíndice
+  - notxindex
+explanation: |
+  Assumeutxo carrega um instantâneo do conjunto UTXO para colocar o nó em funcionamento rapidamente, enquanto reconstrói o conjunto UTXO completo em segundo plano.
+reviewed: true

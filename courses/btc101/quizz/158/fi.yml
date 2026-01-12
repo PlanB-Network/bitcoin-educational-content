@@ -1,12 +1,9 @@
-question: Mikä on Proof of Workin tarkoitus Bitcoin-verkossa?
-answer: Proof of Work varmistaa tiedon paikkansapitävyyden ilman kolmannen osapuolen luottamusta.
+question: Kuinka Bitcoin-protokolla ylläpitää johdonmukaista keskimääräistä aikaa kahden lohkon luomisen välillä?
+answer: Validin hashin löytämisen vaikeustaso säätyy joka 2016 lohkon jälkeen.
 wrong_answers:
-  - Proof of Workia käytetään uusien bitcoinien luomiseen luottamalla kolmanteen osapuoleen.
-  - Proof of Workia käytetään Bitcoin-siirtojen vahvistamiseen luottamalla kolmanteen osapuoleen.
-  - Proof of Workia käytetään Bitcoin-protokollan muuttamiseen luottamalla kolmanteen osapuoleen.
-explanation: >
-  Proof of Work on konsensusalgoritmi, jota käytetään Bitcoin-verkossa
-  siirtojen vahvistamiseen ja uusien lohkojen luomiseen. Se vaatii louhijoilta monimutkaisten
-  matemaattisten ongelmien ratkaisemista, mikä varmistaa tiedon aitouden verkossa
-  ilman tarvetta luotettavalle kolmannelle osapuolelle.
+  - Louhijoiden määrä säädetään kiinteään lukumäärään.
+  - Lohkojen koko säädetään 10 megatavuun.
+  - Validin hashin löytämisestä saatava palkkio kasvatetaan.
+explanation: |
+  Bitcoin-protokolla varmistaa, että kahden lohkon välisen keskimääräisen ajan pysyminen vakiona säätämällä validin hashin löytämisen vaikeustasoa joka 2016 lohkon jälkeen. Tämä tapahtuma tapahtuu riippumatta louhijoiden määrästä ja heidän laskentatehostaan.
 reviewed: true

@@ -59,7 +59,7 @@ Můžete ho napsat na papír nebo pro větší bezpečnost vyrýt na nerezovou o
 
 Pro více informací o správném způsobu ukládání a správy mnemotechnických frází vřele doporučuji sledovat tento další návod, zejména pokud jste začátečníci:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Klikněte na zprávu zobrazenou v horní části rozhraní "*Uložit peněženku...*".
 
@@ -175,8 +175,8 @@ Gratulujeme, nyní víte, jak konfigurovat a používat aplikaci Phoenix. Pokud 
 
 Chcete-li se posunout o krok dál, podívejte se na tento návod na Alby Hub, další inovativní a snadno použitelné řešení pro spuštění vlastního uzlu Lightning:
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
-Chcete-li se dozvědět více o technickém fungování sítě Lightning Network, najdete vynikající bezplatné školení Fanise Michalakise na téma Plan ₿ Network :
+Chcete-li se dozvědět více o technickém fungování sítě Lightning Network, najdete vynikající bezplatné školení Fanise Michalakise na téma Plan ₿ Academy :
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

@@ -6,4 +6,4 @@ wrong_answers:
   - The routing fees set by each node
 explanation: |
   The maximum amount that an indirect payment can transfer depends on the lowest liquidity available in the channels used, as each channel must adjust the funds on each side.
-reviewed: false
+reviewed: true

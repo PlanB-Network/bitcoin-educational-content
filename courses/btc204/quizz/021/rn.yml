@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo bwo kwishura mu buryo bworoshe kuri Bitcoin?
+answer: 1 canke zirenga UTXO mu vyo kwinjira na 2 UTXO mu vyo gusohoka.
+wrong_answers:
+  - 1 UTXO mu kwinjiza na 1 UTXO mu gusohoka
+  - UTXO nyinshi mu kwinjira na 1 UTXO mu gusohoka
+  - 5 UTXOs mu vyinjizwa na 5 UTXOs mu bisohoka
+explanation: |
+  Mu kwishura kworoshe, uwukoresha akoresha UTXO imwe canke nyinshi nk’ibintu vyinjizwa kugira ngo ashitse mu bisohoka kwishura UTXO n’ihinduka UTXO (gutyo UTXO 2).
+reviewed: false

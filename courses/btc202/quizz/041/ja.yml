@@ -1,0 +1,9 @@
+question: Umbrel経由でインストールできるセルフホスティング・アプリケーションは？
+answer: Nextcloud
+wrong_answers:
+  - Google Drive
+  - Dropbox
+  - OneDrive
+explanation: |
+  Umbrelは、Nextcloudのような、自分でファイルを保存・同期できるセルフホスティングサービスをアップストアで提供している。
+reviewed: true

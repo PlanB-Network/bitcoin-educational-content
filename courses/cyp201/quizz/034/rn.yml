@@ -1,0 +1,9 @@
+question: Ni irihe bendera rya sighash rikoreshwa cane mu bikorwa vya Bitcoin?
+answer: GUSUBIZA_VYOSE
+wrong_answers:
+  - SIGHASH_NTA
+  - SIGHASH_UMUSA
+  - SIGHASH_UMUNTU wese ashobora kwishura
+explanation: |
+  SIGHASH_ALL ni ibendera rya sighash, ripfuka ivyinjizwa vyose n'ibisohoka vyose vy'ugucuruza, bikabuza guhindura vyose.
+reviewed: false

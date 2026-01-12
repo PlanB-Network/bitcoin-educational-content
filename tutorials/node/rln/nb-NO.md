@@ -10,9 +10,9 @@ I denne trinnvise opplæringen lærer du hvordan du setter opp en Lightning RGB-
 
 Bitfinex' RGB-team har jobbet siden 2022 for å berike RGB-økosystemet ved å utvikle en komplett teknologistack. I stedet for å sikte mot et enkelt kommersielt produkt, er innsatsen fokusert på å gjøre programvarebrikker med åpen kildekode tilgjengelig, bidra til RGB-protokollspesifikasjoner og lage implementeringsreferanser.
 
-Blant Bitfinex' bemerkelsesverdige bidrag til RGB-økosystemet er [the *RGBlib* library] (https://github.com/RGB-Tools/rgb-lib), skrevet i Rust og tilgjengelig via bindinger i Kotlin og Python, som i stor grad forenkler utviklingen av RGB-applikasjoner ved å innkapsle komplekse validerings- og engasjementsmekanismer.
+Blant Bitfinex' bemerkelsesverdige bidrag til RGB-økosystemet er [the *RGBlib* library](https://github.com/RGB-Tools/rgb-lib), skrevet i Rust og tilgjengelig via bindinger i Kotlin og Python, som i stor grad forenkler utviklingen av RGB-applikasjoner ved å innkapsle komplekse validerings- og engasjementsmekanismer.
 
-Bitfinex-teamet har også designet en RGB-mobil lommebok, kalt "[*Iris Wallet*] (https://iriswallet.com/)", tilgjengelig på Android. Denne lommeboken integrerer bruken av en RGB-proxyserver for å enkelt administrere datautveksling utenfor kjeden (*sendinger*) for *Validering på klientsiden* på RGB.
+Bitfinex-teamet har også designet en RGB-mobil lommebok, kalt "[*Iris Wallet*](https://iriswallet.com/)", tilgjengelig på Android. Denne lommeboken integrerer bruken av en RGB-proxyserver for å enkelt administrere datautveksling utenfor kjeden (*sendinger*) for *Validering på klientsiden* på RGB.
 
 Bitfinex har også utviklet `rgb-lightning-node` (RLN) -prosjektet. Dette er en Rust-daemon basert på en gaffel av `rust-lightning` (LDK), modifisert for å ta hensyn til eksistensen av RGB-aktiva i en kanal. Når en kanal åpnes, kan tilstedeværelsen av RGB-tokens spesifiseres, og hver gang kanaltilstanden oppdateres, opprettes en tilstandsovergang som gjenspeiler fordelingen av tokens i Lightning-utgangene. Dette muliggjør :
 
@@ -31,7 +31,7 @@ En RGB-kontrakt er strukturert som en evolusjonær tilstandsmaskin. Den starter 
 
 Hvis du vil lære mer om hvordan RGB-protokollen fungerer, anbefaler jeg at du tar dette omfattende opplæringskurset:
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 ## RGB-kompatibel Lightning node-installasjon
 
@@ -67,17 +67,17 @@ På slutten av denne kommandoen vil en kjørbar `rgb-lightning-node` være tilgj
 For å fungere trenger `rgb-lightning-node` daemon tilstedeværelse og konfigurasjon av :
 
 
-- En `bitcoind`**-node
+- En **bitcoind**-node
 
 Hver RLN-instans må kommunisere med `bitcoind` for å kringkaste og overvåke sine transaksjoner i kjeden. Autentisering (innlogging/passord) og URL (host/port) må oppgis til daemon.
 
 
-- En indekseringsenhet** (Electrum eller Esplora)
+- En **indekseringsenhet** (Electrum eller Esplora)
 
 Dæmonen må kunne liste opp og utforske transaksjoner i kjeden, spesielt for å finne UTXO-en som en eiendel er forankret på. Du må spesifisere URL-adressen til Electrum-serveren eller Esplora.
 
 
-- En RGB**-proxy
+- En **RGB**-proxy
 
 Proxy-serveren er en komponent (valgfri, men anbefales på det sterkeste) som forenkler utvekslingen av RGB *konsigneringer* mellom Lightning-peers. Også her må en URL-adresse angis.
 
@@ -219,7 +219,7 @@ Du kan selvfølgelig tilpasse bestillingen. For å bekrefte transaksjonen, utvin
 ./regtest.sh mine 1
 ```
 
-Vi kan nå opprette en RGB-ressurs. Kommandoen avhenger av hvilken type eiendel du ønsker å opprette og dens parametere. Her oppretter jeg et NIA-token (*Non Inflatable Asset*) ved navn "PBN" med en forsyning på 1000 enheter. Med `precision` kan du definere delbarheten til enhetene.
+Vi kan nå opprette en RGB-ressurs. Kommandoen avhenger av hvilken type eiendel du ønsker å opprette og dens parametere. Her oppretter jeg et NIA-token (*Non Inflatable Asset*) ved navn "Plan ₿ Academy" med en forsyning på 1000 enheter. Med `precision` kan du definere delbarheten til enhetene.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -227,8 +227,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -264,7 +264,7 @@ Kommandoen returnerer den offentlige nøkkelen til min node nr. 2 :
 
 ![RLN](assets/fr/13.webp)
 
-Deretter åpner vi kanalen ved å spesifisere den relevante ressursen (`PBN`). Med kommandoen `/openchannel` kan du definere størrelsen på kanalen i satoshis og velge om du vil inkludere RGB-aktivet. Det kommer an på hva du ønsker å lage, men i mitt tilfelle er kommandoen :
+Deretter åpner vi kanalen ved å spesifisere den relevante ressursen (`Plan ₿ Academy`). Med kommandoen `/openchannel` kan du definere størrelsen på kanalen i satoshis og velge om du vil inkludere RGB-aktivet. Det kommer an på hva du ønsker å lage, men i mitt tilfelle er kommandoen :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -303,7 +303,7 @@ For å bekrefte transaksjonen utvinnes 6 blokker:
 
 ![RLN](assets/fr/15.webp)
 
-Lightning-kanalen er nå åpen og inneholder også 500 `PBN`-tokens på node nr. 1 sin side. Hvis node nr. 2 ønsker å motta `PBN`-tokens, må den generere en faktura. Slik gjør du det:
+Lightning-kanalen er nå åpen og inneholder også 500 `Plan ₿ Academy`-tokens på node nr. 1 sin side. Hvis node nr. 2 ønsker å motta `Plan ₿ Academy`-tokens, må den generere en faktura. Slik gjør du det:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -332,7 +332,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RLN](assets/fr/16.webp)
 
-Vi vil nå betale denne fakturaen fra den første noden, som har de nødvendige kontantene med `PBN`-tokenet:
+Vi vil nå betale denne fakturaen fra den første noden, som har de nødvendige kontantene med `Plan ₿ Academy`-tokenet:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -372,4 +372,4 @@ Hvis du fant denne opplæringen nyttig, ville jeg være veldig takknemlig hvis d
 
 Jeg anbefaler også denne andre veiledningen, der jeg forklarer hvordan du bruker RGB CLI-verktøyet som er utviklet av LNP/BP-foreningen, til å opprette en RGB-kontrakt:
 
-https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.academy/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

@@ -1,12 +1,12 @@
-question: Madencilerin Bitcoin protokolündeki rolü nedir?
-answer: Mevcut ve tarihi ağı güvence altına alırlar.
+question: Bitcoin protokolü, sonraki blok için geçerli bir Hash bulan Miner'i nasıl ödüllendirir?
+answer: Mutabakat kuralları tarafından tanımlanan bir ödülle ve geçerli bloğa dahil olan tüm işlemlerden elde edilen ücretlerle.
 wrong_answers:
-  - Bitcoin'in fiyatını düzenlerler.
-  - Bitcoin'nin Supply'ünü kontrol ediyorlar.
-  - Kullanıcılar arasındaki işlemleri yönetirler.
+  - Konsensüs kuralları ile tanımlanmamış sabit miktarda bitcoin ile.
+  - Toplam Bitcoin Supply ve önceki bloklarda yer alan tüm işlemlerden elde edilen ücretlerin bir yüzdesi ile.
+  - Geçerli bloğa dahil edilen tüm işlemlerden alınan ücretlerle.
 explanation: |
-  Bitcoin protokolündeki madenciler hem mevcut hem de
-  tarihsel ağ. Fiyat düzenlemesi yapmazlar
-  Bitcoin, Supply'i kontrol edemez veya işlemleri yönetemez
-  kullanıcılar arasında.
+  Bitcoin protokolü, geçerli bir Miner bulan Miner'yı ödüllendirir
+  Bir sonraki blok için Hash miktarı şu olan bir ödül ile
+  mutabakat kuralları tarafından tanımlanan ücretler ile birlikte
+  geçerli blokta yer alan tüm işlemler.
 reviewed: true

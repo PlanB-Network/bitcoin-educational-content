@@ -1,0 +1,10 @@
+question: None anonset y’inyuma ipima iki?
+answer: Uguhangana n’ubuzima bwite n’isesengura ry’ubu n’ivya kera.
+wrong_answers:
+  - Uguhangana n’ubuzima bwite n’isesengura ry’ivya kera n’ivya kazoza.
+  - Uguhangana n’ubuzima bwite n’isesengura ry’ubu n’iry’imbere.
+  - Uguhangana n’ubuzima bwite n’isesengura ry’ivya kera n’ivya none.
+explanation: |
+  Igiharuro c’inyuma gipima ukuntu ubuzima bwite bwa Coin bushobora guhangana n’isesengura ry’ubu n’irya kera (isohoka n’inyungu).
+  
+reviewed: false

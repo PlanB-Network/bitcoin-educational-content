@@ -1,0 +1,9 @@
+question: Nk’uko Bastiat abivuga, statistique ikuraho abantu ku giti iki?
+answer: Inkurikizi z'ivyo bakoze .
+wrong_answers:
+  - Kuva mu miryango yabo .
+  - Kuva ku munezero wo kugerageza ku buntu .
+  - Bivuye ku ncuti zabo .
+explanation: |
+  Ku bwa Bastiat, gufasha Leta birenze urugero biragabanya inshingano z’umuntu ku giti ciwe mu gukuraho ingaruka zitaziguye z’ibikorwa vy’umuntu ku giti ciwe, gutyo bikaba bitera imbere ukutagira inshingano.
+reviewed: false

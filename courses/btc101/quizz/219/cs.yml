@@ -1,9 +1,9 @@
-question: Co tento kurz naznačuje o budoucnosti Bitcoinu?
-answer: Nezmizí.
+question: Jaký přístup strukturuje vývoj Bitcoinu popsaný v této kapitole?
+answer: Vývoj ve vrstvách
 wrong_answers:
-  - Bude nahrazen lepší technologií.
-  - Bude zakázán po celém světě.
-  - Ztratí svou hodnotu.
+  - Monolitický blockchain
+  - Nativní sharding
+  - Zobecněné onchain provádění
 explanation: |
-  Text kurzu naznačuje, že Bitcoin nezmizí. Naopak, revoluce teprve začala.
-reviewed: true
+  Bitcoin si zachovává jednoduchou a robustní základní vrstvu, zatímco nadřazené protokoly přidávají specifické funkce.
+reviewed: false

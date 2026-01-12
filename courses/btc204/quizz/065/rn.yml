@@ -1,0 +1,10 @@
+question: Dust ni iki mu bijanye n’ama UTXO?
+answer: UTXO zifise agaciro gato cane ku buryo zidashobora kwishura amahera akenewe kugira ngo zikoreshwe.
+wrong_answers:
+  - UTXOs ziterwa n'amakosa y'ugucuruza kandi ivyo ntibishobora kwemezwa kuri Blockchain.
+  - UTXO zishizweko ikimenyetso c’uko zikekwa canke zifitaniye isano n’ibikorwa bitemewe n’amategeko biri ku rubuga.
+  - UTXOs zibitswe mu ma aderesi atakoreshwa igihe kirekire kandi zibonwa ko zazimiye.
+explanation: |
+  Dust yerekeza ku ma UTXO agaciro kayo muri Sats kari hasi cane ku buryo kadahagije kugira ngo umuntu ashobore kwishura amafaranga y’ugucuruza asabwa kugira ngo akoreshe.
+  
+reviewed: false

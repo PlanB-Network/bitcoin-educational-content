@@ -6,4 +6,4 @@ wrong_answers:
   - Slackware
 explanation: |
   El formato RPM fue iniciado por Red Hat y es la base de Fedora, RHEL, CentOS, AlmaLinux, Rocky Linux y otras distribuciones relacionadas.
-reviewed: false
+reviewed: true

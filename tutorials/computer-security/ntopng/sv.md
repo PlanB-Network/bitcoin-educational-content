@@ -122,7 +122,7 @@ För proben väljer jag en **Debian 11**-maskin med minimal installation.
 
 
 
-Första steget, alltid samma sak, uppdatera :
+Första steget, alltid samma sak, uppdatera:
 
 
 
@@ -160,9 +160,9 @@ Här ser jag 3 gränssnitt:
 
 
 
-- Lo**: detta är loopback Interface; det är en virtuell Interface som "loopar" över utrustningen. I grund och botten används denna Interface, vars Address är 127.0.0.1 (även om vilken Address som helst i 127.0.0.0/8 duger, eftersom detta intervall är reserverat för detta ändamål) för att kontakta själva utrustningen. Om du har installerat en webbplats på din arbetsstation (t.ex. med WAMPP) har du förmodligen använt "*localhost*" Address någon gång för att visa webbplatsen som finns på din egen maskin. Detta värdnamn är associerat med Address 127.0.0.1 och därför med Interface loopback.
-- ens33**: detta är min första Interface, som fick en Address här från min DHCP
-- ens36**: min andra Interface
+- **Lo**: detta är loopback Interface; det är en virtuell Interface som "loopar" över utrustningen. I grund och botten används denna Interface, vars Address är 127.0.0.1 (även om vilken Address som helst i 127.0.0.0/8 duger, eftersom detta intervall är reserverat för detta ändamål) för att kontakta själva utrustningen. Om du har installerat en webbplats på din arbetsstation (t.ex. med WAMPP) har du förmodligen använt "*localhost*" Address någon gång för att visa webbplatsen som finns på din egen maskin. Detta värdnamn är associerat med Address 127.0.0.1 och därför med Interface loopback.
+- **ens33**: detta är min första Interface, som fick en Address här från min DHCP
+- **ens36**: min andra Interface
 
 
 
@@ -211,8 +211,8 @@ Här följer några förklaringar till dessa första förändringar:
 
 
 
-- auto *Interface***: "startar" Interface automatiskt vid systemstart
-- iface *Interface* inet manual** : för att använda Interface utan någon IP Address. Som nyckelordet "static" för att definiera en statisk IP Address eller "dhcp" för att använda dynamisk adressering
+- auto **Interface**: "startar" Interface automatiskt vid systemstart
+- iface *Interface* inet **manual**: för att använda Interface utan någon IP Address. Som nyckelordet "static" för att definiera en statisk IP Address eller "dhcp" för att använda dynamisk adressering
 
 
 
@@ -239,10 +239,10 @@ Här igen, några förklaringar:
 
 
 
-- iface br0 inet static**: här har jag definierat min Interface-brygga (*br0*) med en statisk Address.
-- Address, nätmask, gateway**: information om kortadressering
-- bridge_ports**: gränssnitt som ska ingå i bryggan
-- bridge_stp**: Spanning Tree-protokollet används vid sammankoppling av switchar för att upptäcka redundanta länkar och undvika loopar. Eftersom en brygga kan sättas in mellan två nätverksvägar kan den vara källan till en loop, därav möjligheten att aktivera detta protokoll. Jag behöver det inte här, så jag inaktiverar det.
+- **iface br0 inet static**: här har jag definierat min Interface-brygga (*br0*) med en statisk Address.
+- **Address, nätmask, gateway**: information om kortadressering
+- **bridge_ports**: gränssnitt som ska ingå i bryggan
+- **bridge_stp**: Spanning Tree-protokollet används vid sammankoppling av switchar för att upptäcka redundanta länkar och undvika loopar. Eftersom en brygga kan sättas in mellan två nätverksvägar kan den vara källan till en loop, därav möjligheten att aktivera detta protokoll. Jag behöver det inte här, så jag inaktiverar det.
 
 
 
@@ -281,12 +281,12 @@ Som standard innehåller paketkällor endast paket som följer DFSG (*Debian Fre
 
 
 
-- contrib**: paket som innehåller DFSG-kompatibel programvara, men som använder beroenden som inte är en del av **main**-grenen
-- non-free**: innehåller paket som inte är DFSG-kompatibla
+- **contrib**: paket som innehåller DFSG-kompatibel programvara, men som använder beroenden som inte är en del av **main**-grenen
+- **non-free**: innehåller paket som inte är DFSG-kompatibla
 
 
 
-Exempel på en rad i /etc/apt/sources.list :
+Exempel på en rad i /etc/apt/sources.list:
 
 
 
@@ -300,7 +300,7 @@ Så jag kommer bara att lägga till ordet **contrib** till rader som dessa.
 
 
 
-Resten av stegen finns listade på [NtopNG]-webbplatsen (https://packages.ntop.org/apt/) där du, för Debian 11, måste lägga till Ntop-källorna för framtida installation. Detta tillägg automatiseras genom att använda en :
+Resten av stegen finns listade på [NtopNG]-webbplatsen (https://packages.ntop.org/apt/) där du, för Debian 11, måste lägga till Ntop-källorna för framtida installation. Detta tillägg automatiseras genom att använda en:
 
 
 
@@ -442,7 +442,7 @@ För att demonstrera detta startar jag en YouTube-video på min host:
 
 
 
-**Trafiken identifierades och kategoriserades omedelbart!
+**Trafiken identifierades och kategoriserades omedelbart!**
 
 
 
@@ -474,7 +474,7 @@ Om du klickar på den här figuren får du upp detaljerna i varningarna. Det fin
 
 
 
-Men eftersom jag använder gratisversionen kan jag inte utesluta domäner eller värdar som är källan till varningar, så du måste hålla ett öga på dem för att undvika att missa något mycket mer oroande. NtopNG kommer att generate varningar i händelse av :
+Men eftersom jag använder gratisversionen kan jag inte utesluta domäner eller värdar som är källan till varningar, så du måste hålla ett öga på dem för att undvika att missa något mycket mer oroande. NtopNG kommer att generate varningar i händelse av:
 
 
 

@@ -1,0 +1,9 @@
+question: Which Austrian economist speaks of planism?
+answer: Hayek.
+wrong_answers:
+  - Menger.
+  - Mises.
+  - Popper.
+explanation: |
+  Friedrich Hayek (1899-1992) was the Austrian economist who coined the term "planism" to describe centralized economic planning. He criticizes this approach in "The Road to Serfdom".
+reviewed: false

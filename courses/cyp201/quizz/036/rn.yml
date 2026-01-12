@@ -1,0 +1,9 @@
+question: Ni igiki HD Wallet iguha uburenganzira bwo gukora ugereranije na JBOK Wallet?
+answer: generate imfunguruzo zose z’ibanga zivuye kuri seed imwe.
+wrong_answers:
+  - Kwongera umutekano w'imikono ya digitale
+  - Subira ukoreshe iyo Address nyene ku bikorwa vyinshi
+  - Irinde gukoresha imfunguruzo za bose
+explanation: |
+  Ama wallets ya HD akomoka ku mfunguruzo zose z’ibanga zivuye kuri seed yihariye, iyo na yo ikaba yorosha gukora backup kandi igatuma umuntu agira ubuzima bwite.
+reviewed: false

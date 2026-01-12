@@ -1,9 +1,9 @@
-question: What is generally recommended when allocating a portion of a company’s treasury to Bitcoin?
-answer: Invest only excess liquidity that you won’t need for several years and maintain a time horizon of at least four years.
+question: Người ta thường khuyến nghị gì khi phân bổ một phần ngân quỹ của công ty cho Bitcoin?
+answer: Chỉ đầu tư lượng tiền mặt dư thừa mà bạn sẽ không cần đến trong nhiều năm và duy trì thời hạn đầu tư ít nhất là bốn năm.
 wrong_answers:
-  - Use all operational cash immediately without considering liquidity needs.
-  - Aim to buy and sell within a few weeks to maximize short-term profits.
-  - Only invest when you need an urgent short-term loan to cover expenses.
+  - Sử dụng toàn bộ tiền mặt hoạt động ngay lập tức mà không cần cân nhắc đến nhu cầu thanh khoản.
+  - Mục tiêu là mua và bán trong vòng vài tuần để tối đa hóa lợi nhuận ngắn hạn.
+  - Chỉ đầu tư khi bạn cần một khoản vay ngắn hạn khẩn cấp để trang trải chi phí.
 explanation: |
-  Because Bitcoin’s price can be volatile in the short term, it’s wise to use funds you don’t need right away and hold for at least four years. This approach smooths out volatility and increases the chances of realizing long-term value appreciation.
-reviewed: false
+  Vì giá Bitcoin có thể biến động trong ngắn hạn, nên tốt nhất là sử dụng số tiền bạn chưa cần ngay lập tức và nắm giữ trong ít nhất bốn năm. Cách tiếp cận này giúp giảm thiểu biến động và tăng cơ hội nhận được giá trị tăng trưởng dài hạn.
+reviewed: true

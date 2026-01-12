@@ -10,4 +10,4 @@ Dieses Ziel wird alle 2016er Blöcke (etwa alle zwei Wochen) während eines Erei
 
 ![](../../dictionnaire/assets/34.webp)
 
-> ► *Das Schwierigkeitsziel wird manchmal auch als "Schwierigkeitsfaktor" bezeichnet Im weiteren Sinne kann es mit seiner Kodierung in den Blockheadern mit dem Begriff "nBits" bezeichnet werden
+> ► *Das Schwierigkeitsziel wird manchmal auch als "Schwierigkeitsfaktor" bezeichnet. Im weiteren Sinne kann es mit seiner Kodierung in den Blockheadern mit dem Begriff "nBits" bezeichnet werden.*

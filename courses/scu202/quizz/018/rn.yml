@@ -1,0 +1,9 @@
+question: Ni ubuhe butunganyirizo bw’amapaki bukoreshwa na Debian na Ubuntu?
+answer: APT
+wrong_answers:
+  - RPM
+  - Pacman
+  - Zypper
+explanation: |
+  Debian na Ubuntu zikoresha ubutunganyirizo bw’amapaki ya APT, ashingiye ku bwoko bwa .deb, kugira ngo bucungere ugushiramwo porogarame n'ukuzishira ku gihe.
+reviewed: true

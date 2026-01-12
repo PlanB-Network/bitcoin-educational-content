@@ -1,0 +1,8 @@
+question: Mis on peamine eelis, et iteraatorid on Rust-s laiskad?
+answer: Nad ei tee mingit tööd enne, kui neid tarbitakse, võimaldades tõhusat aheldamist ilma vahekogumite loomiseta
+wrong_answers:
+  - Nad paralleeldavad automaatselt operatsioone mitme protsessori südamiku vahel, et saavutada parem jõudlus
+  - Nad salvestavad eelmised tulemused vahemällu, et vältida samade väärtuste korduvat arvutamist
+  - Nad kasutavad vähem mälu, kuna salvestavad ainult viiteid, mitte ei kopeeri tegelikke andmeväärtusi
+explanation: |
+  Rust iteraatorite laisk hindamine tähendab, et nad ei tee mingit töötlemist enne, kui kutsutakse tarbimismeetodit. See võimaldab teil mitut operatsiooni, nagu map, filter ja muud adapterid, omavahel ahelatada, ilma et iga sammu vahel oleks vaja luua vahepealseid kogumeid. Kompilaator saab kogu ahela optimeerida tõhusaks koodiks, mis töötleb elemente ükshaaval läbi kõigi teisenduste, selle asemel, et luua igas etapis ajutisi vektoreid või muid kollektsioone.

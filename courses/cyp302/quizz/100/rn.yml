@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe Nonce ifise mu mugambi wo gushiramwo amakuru yemejwe?
+answer: Raba neza ko ubutumwa bwose bufise ikimenyetso kidasanzwe kugira ngo ntibusubirwemwo
+wrong_answers:
+  - Menya uwarungitse ubutumwa
+  - Rema urufunguzo rwo gusobanura rw'igihe gito
+  - Yongerako iyindi Layer y'ububiko
+explanation: |
+  Mu mugambi wo gushiramwo amakuru yemejwe, hakoreshwa Nonce kugira ngo ubutumwa bwose bube bufise ikimenyetso kidasanzwe, gutyo bigatuma haba umutekano mu kubuza ko ubutumwa busubirwamwo.
+reviewed: false

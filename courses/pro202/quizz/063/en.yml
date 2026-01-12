@@ -1,0 +1,8 @@
+question: What is the primary cryptographic property that enables compact block filters (BIP158) to provide privacy for light clients while maintaining perfect accuracy?
+answer: They can produce false positives but never false negatives when matching transactions
+wrong_answers:
+  - They use zero-knowledge proofs to hide which addresses are being queried from nodes
+  - "They encrypt all filter data using the client's public key to prevent eavesdropping"
+  - They randomize the order of transaction hashes to obscure spending patterns from observers
+explanation: |
+  Compact block filters use probabilistic data structures that may incorrectly indicate a match (false positive) but will never miss an actual match (false negative). This asymmetric property is crucial: false positives only cause unnecessary block downloads, while false negatives would cause wallets to miss payments entirely. The privacy benefit comes from this uncertainty - observers cannot distinguish between genuine matches and false positives, obscuring which transactions actually belong to the querying wallet.

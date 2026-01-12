@@ -1,9 +1,9 @@
 question: Hodler teriminin kökeni nedir?
-answer: Hold kelimesinin yanlış yazılışı
+answer: Hold kelimesinin yanlış yazılışıdır
 wrong_answers:
   - Hold için bir kısaltma
   - Hot Wallet'ın kısaltmasıdır
   - HODL zincirinin daralması
 explanation: |
-  "Hodler" terimi, Bitcoin Talk'ta uzun vadeli tutmayı ifade etmek için "hold" kelimesinin "HODL" olarak yanlış yazıldığı bir yazım hatasından kaynaklanmaktadır.
+  "Hodler" terimi, Bitcoin Talk'ta (Bitcoin çevrimiçi forum'u) uzun vadeli tutmayı ifade etmek için "hold" kelimesinin "HODL" olarak yanlış yazıldığı bir yazım hatasından kaynaklanmaktadır.
 reviewed: false

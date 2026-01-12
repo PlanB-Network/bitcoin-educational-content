@@ -1,10 +1,11 @@
-question: What is the approximate number of nodes distributed across the globe as of September 2023?
-answer: 45,000 nodes.
+question: Why is it important that a Bitcoin node remains affordable and accessible to all possible users?
+answer: Because it facilitates the decentralization of the network.
 wrong_answers:
-  - 10,000 nodes.
-  - 100,000 nodes.
-  - 500,000 nodes.
-explanation: >-
-  As of September 2023, there are approximately 45,000 nodes distributed
-  across the globe.
+  - Because it increases the transaction capacity of the network.
+  - Because it decreases the transaction capacity of the network.
+  - Because it increases the block reward for miners.
+explanation: |
+  The affordable cost and accessibility of a Bitcoin node is
+  important because it facilitates the decentralization of
+  the network.
 reviewed: true

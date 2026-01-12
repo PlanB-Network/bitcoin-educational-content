@@ -1,0 +1,9 @@
+question: Ni igikorwa nyamukuru ikihe c’umuravyo Invoice?
+answer: Gusaba kwishurwa ku nzira yo kohereza
+wrong_answers:
+  - Wohereze amafranga ataco ukoresheje On-Chain
+  - Gukoresha HTLCs ku muhora
+  - Gufungura umurongo mushasha w'umuco
+explanation: |
+  Lightning Invoice ni igisabwa co kwishura, kirungikwa n'umurongo wakira ku murongo wohereje kugira ngo utangure kwishura kuri Lightning Network.
+reviewed: false

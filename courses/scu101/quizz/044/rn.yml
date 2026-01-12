@@ -1,0 +1,10 @@
+question: Ni kuki ari ngombwa ko buhoro buhoro usubiriza amajambo y’ibanga yawe ya kera nayo ategugwa n'ubutunganyirizo bw'ijambo ry'ibanga?
+answer: Amajambo y'ibanga aremwa n'ubutunganyirizo bw'ijambwo ry'ibanga arakomeye kandi aba ari maremare, agatanga umutekano ukwiye.
+wrong_answers:
+  - Ubutunganyirizo bw'ijambo ry'ibanga buca bufuta amajambo y'ibanga ya kera.
+  - Ubutunganyirizo bw'ijambo ry'ibanga bushobora gusa kubika amajambo y'ibanga makeyi.
+  - Ubutunganyirizo bw'ijambo ry'ibanga busaba ko amajambo y'ibanga yose aremwa nabwo.
+explanation: |
+  Ubutunganyirizo bw'ijambo ry'ibanga burema amajambo y'ibanga komeye kandi aba ari maremare, buhoro buhoro usubiriza 
+  amajambo y’ibanga yawe ya kera nayo ategugwa n'ubutunganyirizo bw'ijambo ry'ibanga ushobora gukaza umutekano w’amakonti yawe yo kuri Internet.
+reviewed: true

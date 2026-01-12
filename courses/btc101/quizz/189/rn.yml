@@ -1,0 +1,8 @@
+question: Bitcoin y’Ubusuwisi ni iki?
+answer: Umuti ku bacuruzi b'abanyabwenge kugira ngo bemere Bitcoin.
+wrong_answers:
+  - Banki yo mu Busuwisi yemera Bitcoin.
+  - Indege ya Bitcoin Exchange iva mu Busuwisi.
+  - Ishirahamwe ryitwa Mining rikorera mu Busuwisi.
+explanation: >-
+reviewed: true

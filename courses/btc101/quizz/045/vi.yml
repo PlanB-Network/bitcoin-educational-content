@@ -1,13 +1,9 @@
-question: Đặc điểm nổi bật của Bitcoin là gì giúp nó khác biệt so với tiền tệ fiat?
-answer: Chính sách tiền tệ của nó được thực thi bởi sự đồng thuận chung.
+question: Tác động của lạm phát 20% đến sức mua trong 3 năm là gì?
+answer: Bạn mất 50% sức mua của mình.
 wrong_answers:
-  - Nó có thể được in ấn không giới hạn bởi các ngân hàng trung ương.
-  - Nó được bảo chứng bởi một hàng hóa vật lý như vàng hoặc bạc.
-  - Nó được quản lý bởi một ngân hàng trung ương.
+  - Bạn mất 100% sức mua của mình.
+  - Bạn mất 60% sức mua của mình.
+  - Bạn mất 30% sức mua của mình.
 explanation: |
-  Do bản chất phi tập trung và mã hóa của nó,
-  Bitcoin không thể bị làm giả và giới hạn ở 21 triệu
-  đơn vị. Đây là một đặc điểm nổi bật giúp nó khác biệt so với
-  tiền tệ fiat, mà theo đó chính sách tiền tệ có thể được
-  thay đổi bởi các ngân hàng trung ương.
+  Với lạm phát 20%, bạn mất gần một nửa sức mua của mình trong 3 năm.
 reviewed: true

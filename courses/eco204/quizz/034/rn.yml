@@ -1,0 +1,12 @@
+question: Ishirahamwe ry’abazombi ni iki?
+answer: Ishirahamwe, mu bihe bisanzwe vy’isoko, ryoba rishobora guhomba canke riri hafi gusenyuka, ariko rikabandanya gukora canecane biciye mu kugurana amahera make.
+wrong_answers:
+  - Ishirahamwe rimaze imyaka irenga 100 rikora ubudandaji.
+  - Ishirahamwe rikora mu bijanye n’ubuhinga bwa none.
+  - Ishirahamwe ryaciwe mu nzira na leta.
+explanation: |
+  Ishirahamwe ry’abazombi ni ishirahamwe, mu bihe bisanzwe vy’isoko, ryoba
+  kuba umuntu ashobora guhomba canke ari hafi y’uguhomba, ariko akabandanya akora canecane biciye ku giciro gitoyi .
+  kugurana. Izo sosiyete zironka amahera ahagije gusa yo kwishura imyenda yazo ariko ntizishobora .
+  kugira ngo zikure cane.
+reviewed: false

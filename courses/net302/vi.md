@@ -31,7 +31,7 @@ Hãy tham gia cùng chúng tôi và biến kiến thức của bạn thành chuy
 ___
 
 
-Khóa học NET 302 này là bản chuyển thể của *Les bases du réseau: TCP/IP, IPv4 et IPv6*, do Philippe Pierre biên soạn bằng tiếng Pháp và được xuất bản trên [IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-ipv6/), theo Giấy phép Creative Commons Ghi công - Chia sẻ tương tự 4.0 Quốc tế ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)).
+Khóa học NET 302 này là bản chuyển thể của khóa học *Cơ bản về mạng: TCP/IP, IPv4 và IPv6*, được Philippe Pierre viết bằng tiếng Pháp và xuất bản trên [IT-Connect](https://www.it-connect.fr/cours/les-bases-du-reseau-tcpip-ipv4-et-ipv6/), theo giấy phép Creative Commons Attribution-NonCommercial 4.0 International ([CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)).
 
 
 
@@ -90,7 +90,7 @@ Bạn đã sẵn sàng khám phá thế giới mạng máy tính chưa? Bắt đ
 **LƯU Ý**: Các mô tả được dựa trên hệ thống GNU/Linux CentOS 7. Tuy nhiên, cấu hình mạng phần lớn giống nhau khi so sánh Debian với hệ thống CentOS. Vì vậy, chúng tôi sẽ không phân biệt. Nếu có, chúng tôi sẽ thêm một logo cụ thể vào trước.
 
 
-**Lưu ý**: Nếu bạn gặp bất kỳ thuật ngữ nào không quen thuộc trong suốt khóa học, vui lòng tham khảo [thuật ngữ](https://planb.network/resources/glossary) để biết định nghĩa.
+**Lưu ý**: Nếu bạn gặp bất kỳ thuật ngữ nào không quen thuộc trong suốt khóa học, vui lòng tham khảo [thuật ngữ](https://planb.academy/resources/glossary) để biết định nghĩa.
 
 
 
@@ -138,7 +138,7 @@ Trong cấu trúc mạng vòng, các thiết bị được kết nối theo mộ
 
 
 
-![Image](assets/fr/001.webp)
+![Image](assets/vi/001.webp)
 
 
 
@@ -152,7 +152,7 @@ Bố cục phân cấp này đặc biệt hiệu quả với các mạng lớn c
 
 
 
-![Image](assets/fr/002.webp)
+![Image](assets/vi/002.webp)
 
 
 
@@ -166,7 +166,7 @@ Trong cấu trúc bus, tất cả các thiết bị chia sẻ cùng một môi t
 
 
 
-![Image](assets/fr/003.webp)
+![Image](assets/vi/003.webp)
 
 
 
@@ -180,7 +180,7 @@ Bố cục này giúp việc quản lý và bảo trì trở nên dễ dàng: n�
 
 
 
-![Image](assets/fr/004.webp)
+![Image](assets/vi/004.webp)
 
 
 
@@ -197,7 +197,7 @@ Nhược điểm là số lượng kết nối cần thiết lập tăng nhanh t
 
 
 
-![Image](assets/fr/005.webp)
+![Image](assets/vi/005.webp)
 
 
 
@@ -240,8 +240,8 @@ Việc quản lý và phát triển các giao thức này được giám sát b�
 Tổ chức này điều phối các hướng kỹ thuật thông qua hai cấu trúc chính:
 
 
-- IRTF** (_Lực lượng đặc nhiệm nghiên cứu Internet_), tiến hành nghiên cứu dài hạn về sự phát triển và cải tiến giao thức.
-- IETF** (_Lực lượng đặc nhiệm kỹ thuật Internet_), phát triển, chuẩn hóa và lập tài liệu về các giao thức hoạt động được sử dụng trên Internet
+- **IRTF** (_Lực lượng đặc nhiệm nghiên cứu Internet_), tiến hành nghiên cứu dài hạn về sự phát triển và cải tiến giao thức.
+- **IETF** (_Lực lượng đặc nhiệm kỹ thuật Internet_), phát triển, chuẩn hóa và lập tài liệu về các giao thức hoạt động được sử dụng trên Internet
 
 
 Việc phân phối tài nguyên mạng (dải IP Address, số hiệu hệ thống tự trị, tên miền gốc, v.v.) được điều phối quốc tế bởi **IANA/ICANN**. Quản lý vận hành dựa trên: **RIR** (*Cơ quan Đăng ký Internet Khu vực*): **RIPE NCC** (Châu Âu, Trung Đông, Trung Á), **ARIN**, **APNIC**, **LACNIC** và **AFRINIC**.
@@ -263,7 +263,7 @@ Bốn lớp của mô hình TCP/IP là:
 
 
 
-![Image](assets/fr/006.webp)
+![Image](assets/vi/006.webp)
 
 
 
@@ -283,11 +283,11 @@ Mỗi Layer của ngăn xếp TCP/IP cung cấp các dịch vụ cụ thể, gi�
 | Switch   | Locally addresses interfaces and forwards traffic via MAC                            | Network Access         |
 | Network Interface Card (NIC)     | Signal encoding, cabling, connectors, physical specifications                        | Network Access         |
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 ## Giao thức QoS IPv5
 
@@ -354,9 +354,9 @@ Giao thức IP, hay "***Giao thức Internet***", là xương sống của mô h
 Ba cấu hình mạng Elements xác định cách một gói tin được gửi trên đường đi:
 
 
-- IP Address**: xác định duy nhất máy chủ đích trong mạng.
-- Mặt nạ mạng con**: chỉ định phần nào của Address xác định mạng và phần nào xác định máy chủ, cho phép phân chia hợp lý thành các mạng con.
-- Cổng**: chỉ ra bộ định tuyến trung gian mà gói tin phải đi qua để đến được mạng bên ngoài hoặc một phân đoạn khác của mạng cục bộ.
+- **IP Address**: xác định duy nhất máy chủ đích trong mạng.
+- **Mặt nạ mạng con**: chỉ định phần nào của Address xác định mạng và phần nào xác định máy chủ, cho phép phân chia hợp lý thành các mạng con.
+- **Cổng**: chỉ ra bộ định tuyến trung gian mà gói tin phải đi qua để đến được mạng bên ngoài hoặc một phân đoạn khác của mạng cục bộ.
 
 
 Trên Internet, dữ liệu không chảy thành một luồng liên tục, mà được gửi dưới dạng **datagram**: các khối dữ liệu độc lập, mỗi khối được đóng gói với tất cả thông tin cần thiết để truyền tải. Đây là nguyên lý của **chuyển mạch gói**, trong đó thông tin được chia thành các đơn vị độc lập, có thể đi theo nhiều đường dẫn khác nhau để đến cùng một người nhận.
@@ -381,16 +381,16 @@ Khi một gói tin IP cần truyền qua một mạng có dung lượng truyền
 Mỗi công nghệ mạng áp dụng MTU riêng, được xác định bởi đặc điểm phần cứng và giao thức. Các giá trị phổ biến bao gồm:
 
 
-- ARPANET**: 1000 byte
-- Ethernet**: 1500 byte
-- FDDI**: 4470 byte
+- **ARPANET**: 1000 byte
+- **Ethernet**: 1500 byte
+- **FDDI**: 4470 byte
 
 
 Khi một datagram vượt quá MTU của một phân đoạn mạng mà nó cần đi qua, thiết bị định tuyến sẽ chia nó thành các **mảnh** nhỏ hơn, tuân thủ giới hạn. Điều này thường xảy ra khi di chuyển từ mạng có MTU cao sang mạng có dung lượng thấp hơn. Ví dụ: một datagram đến từ mạng FDDI có thể cần được phân mảnh trước khi được gửi qua phân đoạn Ethernet.
 
 
 
-![Image](assets/fr/008.webp)
+![Image](assets/vi/007.webp)
 
 
 
@@ -431,7 +431,7 @@ Quá trình truyền tải do đó tuân theo một quá trình có cấu trúc:
 
 
 
-![Image](assets/fr/009.webp)
+![Image](assets/vi/008.webp)
 
 
 
@@ -442,21 +442,21 @@ Khi đến nơi, quy trình được đảo ngược: máy nhận nhận khung t
 
 
 
-![Image](assets/fr/010.webp)
+![Image](assets/vi/009.webp)
 
 
 
 Quá trình chuyển đổi dữ liệu tại mỗi Layer có thể được tóm tắt như sau:
 
 
-- Tin nhắn**: khối thông tin tại Ứng dụng Layer.
-- Phân đoạn**: đơn vị dữ liệu sau khi được đóng gói bởi Transport Layer.
-- Datagram**: dạng được tạo ra sau khi tiêu đề IP được thêm vào bởi Internet Layer.
-- Khung**: khối cuối cùng sẵn sàng để truyền qua phương tiện vật lý bởi Network Access Layer.
+- **Tin nhắn**: khối thông tin tại Ứng dụng Layer.
+- **Phân đoạn**: đơn vị dữ liệu sau khi được đóng gói bởi Transport Layer.
+- **Datagram**: dạng được tạo ra sau khi tiêu đề IP được thêm vào bởi Internet Layer.
+- **Khung**: khối cuối cùng sẵn sàng để truyền qua phương tiện vật lý bởi Network Access Layer.
 
 
 
-![Image](assets/fr/011.webp)
+![Image](assets/vi/010.webp)
 
 
 
@@ -475,8 +475,8 @@ Trong IPv4, IP Address được mã hóa trên **32 bit** và được viết d�
 IP Address có hai phần:
 
 
-- _netid_**: xác định mạng mà máy chủ thuộc về
-- _hostid_**: xác định máy chủ cụ thể trong mạng đó
+- **netid**: xác định mạng mà máy chủ thuộc về
+- **hostid**: xác định máy chủ cụ thể trong mạng đó
 
 Sự tách biệt này cho phép Internet toàn cầu được cấu trúc hợp lý thành nhiều mạng lưới kết nối với nhau.
 
@@ -507,16 +507,16 @@ Số lượng địa chỉ khả dụng thay đổi rất nhiều giữa các l�
 
 
 
-![Image](assets/fr/013.webp)
+![Image](assets/vi/011.webp)
 
 
 
 Một số dải địa chỉ Address được dành riêng cho mục đích sử dụng cá nhân và không bao giờ được định tuyến trực tiếp trên Internet. Những dải địa chỉ này được gọi là **địa chỉ riêng**, được sử dụng trong các tổ chức, doanh nghiệp hoặc hộ gia đình, và yêu cầu chuyển đổi Address, thường là NAT (*Chuyển đổi Address Mạng*), để truy cập Internet công cộng. Các dải địa chỉ này bao gồm:
 
 
-- Lớp A**: từ 10.0.0.0 đến 10.255.255.255
-- Lớp B**: từ 172.16.0.0 đến 172.31.255.255
-- Lớp C**: từ 192.168.0.0 đến 192.168.255.255
+- **Lớp A**: từ 10.0.0.0 đến 10.255.255.255
+- **Lớp B**: từ 172.16.0.0 đến 172.31.255.255
+- **Lớp C**: từ 192.168.0.0 đến 192.168.255.255
 
 
 Khi một thiết bị có Address riêng truy cập Internet, bộ định tuyến hoặc cổng hỗ trợ NAT sẽ thay thế thiết bị đó bằng Address công cộng hợp lệ.
@@ -540,9 +540,9 @@ Trên các hệ thống Linux, nó được liên kết với Interface **lo**. 
 Mỗi lớp có một mặt nạ mặc định:
 
 
-- 255.0.0.0** cho lớp A,
-- 255.255.0.0** cho lớp B,
-- 255.255.255.0** cho lớp C.
+- **255.0.0.0** cho lớp A,
+- **255.255.0.0** cho lớp B,
+- **255.255.255.0** cho lớp C.
 
 
 Thiết kế mạng tốt tuân theo một quy tắc cơ bản: các thiết bị phải giao tiếp trực tiếp phải nằm trong cùng một mạng hoặc mạng con. Để phân đoạn mạng, chúng ta sử dụng kỹ thuật chia mạng thành các mạng con nhỏ hơn bằng cách sử dụng một mặt nạ cụ thể hơn.
@@ -561,7 +561,7 @@ Chúng tôi muốn có 4 mạng con, mỗi mạng có tối đa 60 máy chủ.
 **Bước 2**: Tìm lũy thừa gần nhất của 2 ≥ 62. -> 2⁶ = 64.
 
 
-**Bước 3: Điều chỉnh mặt nạ. Giữ lại các bit _netid_ và dành riêng các bit _hostid_ cần thiết. Chúng ta thu được một mặt nạ nhị phân, sau khi chuyển đổi, sẽ cho ra **255.255.255.192**.
+**Bước 3: Điều chỉnh mặt nạ. Giữ lại các bit _netid_ và dành riêng các bit _hostid_ cần thiết. Chúng ta thu được một mặt nạ nhị phân, sau khi chuyển đổi, sẽ cho ra** 255.255.255.192.
 
 
 ```
@@ -585,7 +585,7 @@ Chúng tôi muốn có 4 mạng con, mỗi mạng có tối đa 60 máy chủ.
 
 
 
-![Image](assets/fr/016.webp)
+![Image](assets/vi/012.webp)
 
 
 
@@ -653,7 +653,7 @@ sudo apt install ipcalc
 ```
 
 
-https://planb.network/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
+https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner-47f7c943-53b7-4098-b167-4cec8e747b5d
 
 ## Giao thức TCP
 
@@ -680,7 +680,7 @@ TCP là một giao thức hướng kết nối, nghĩa là nó thiết lập m�
 
 
 
-![Image](assets/fr/018.webp)
+![Image](assets/vi/013.webp)
 
 
 
@@ -688,7 +688,7 @@ TCP là một giao thức hướng kết nối, nghĩa là nó thiết lập m�
 
 
 
-![Image](assets/fr/019.webp)
+![Image](assets/vi/014.webp)
 
 
 
@@ -711,7 +711,7 @@ TCP có khả năng phát hiện và xử lý các bản sao. Nếu một phân 
 
 
 
-![Image](assets/fr/020.webp)
+![Image](assets/vi/015.webp)
 
 
 
@@ -734,7 +734,7 @@ Trên thực tế, cửa sổ trượt xác định một dãy số thứ tự c
 
 
 
-![Image](assets/fr/021.webp)
+![Image](assets/vi/016.webp)
 
 
 
@@ -751,7 +751,7 @@ Việc quản lý chính xác này, kết hợp định tuyến linh hoạt củ
 
 
 
-![Image](assets/fr/022.webp)
+![Image](assets/vi/017.webp)
 
 
 
@@ -787,20 +787,20 @@ Mỗi Layer được xây dựng dựa trên khả năng của lớp bên dướ
 Có hai khía cạnh chính chi phối những trao đổi này:
 
 
-- Góc nhìn thẳng đứng**: mối quan hệ giữa một Layer và Layer ở trên hoặc ở dưới nó (từ Layer N đến Layer N+1 và ngược lại).
+- **Góc nhìn thẳng đứng**: mối quan hệ giữa một Layer và Layer ở trên hoặc ở dưới nó (từ Layer N đến Layer N+1 và ngược lại).
 
 
 
-![Image](assets/fr/023.webp)
+![Image](assets/vi/018.webp)
 
 
 
 
-- Góc nhìn ngang**: sự tương tác giữa các ứng dụng từ xa, tức là cuộc đối thoại giữa **máy khách** và **máy chủ**, theo cả hai hướng.
+- **Góc nhìn ngang**: sự tương tác giữa các ứng dụng từ xa, tức là cuộc đối thoại giữa **máy khách** và **máy chủ**, theo cả hai hướng.
 
 
 
-![Image](assets/fr/024.webp)
+![Image](assets/vi/019.webp)
 
 
 
@@ -810,10 +810,10 @@ Kiến trúc phân lớp tuân theo nguyên tắc rằng mỗi Layer chỉ xử 
 **Nhắc nhở**: Thuật ngữ cụ thể được sử dụng để mô tả các đơn vị dữ liệu được trao đổi giữa các lớp:
 
 
-- tin nhắn** cho Ứng dụng Layer,
-- phân đoạn** cho Giao thức vận chuyển Layer (TCP),
-- datagram** cho Internet Layer (IP),
-- khung** cho Network Access Layer.
+- tin nhắn cho **Ứng dụng Layer**,
+- phân đoạn cho **Giao thức vận chuyển Layer (TCP)**,
+- **datagram** cho Internet Layer (IP),
+- **khung** cho Network Access Layer.
 
 
 Bảng dưới đây tóm tắt các thuật ngữ cho bối cảnh TCP và UDP:
@@ -836,7 +836,7 @@ Bằng cách kết hợp khía cạnh ngang (giao tiếp giữa các ứng dụn
 
 
 
-![Image](assets/fr/026.webp)
+![Image](assets/vi/020.webp)
 
 
 
@@ -885,8 +885,8 @@ IP Address là một mã định danh số duy nhất được gán cho mỗi **
 Địa chỉ IP có thể được chỉ định theo hai cách chính:
 
 
-- Tĩnh**: Cài đặt thủ công trên thiết bị.
-- Dynamic**: Được tự động gán theo yêu cầu bởi máy chủ DHCP (_Giao thức Cấu hình Máy chủ Động_). DHCP đơn giản hóa việc quản lý mạng, loại bỏ nhu cầu cấu hình thủ công đồng thời cho phép kiểm soát chính xác thông qua việc đặt chỗ và thời hạn thuê.
+- **Tĩnh**: Cài đặt thủ công trên thiết bị.
+- **Dynamic**: Được tự động gán theo yêu cầu bởi máy chủ DHCP (_Giao thức Cấu hình Máy chủ Động_). DHCP đơn giản hóa việc quản lý mạng, loại bỏ nhu cầu cấu hình thủ công đồng thời cho phép kiểm soát chính xác thông qua việc đặt chỗ và thời hạn thuê.
 
 
 Địa chỉ IPv4 được viết theo định dạng 32 bit, chia thành bốn byte. Mỗi byte chứa 8 bit và biểu diễn một số thập phân từ 0 đến 255. 4 byte được phân cách bằng dấu chấm để tạo thành ký hiệu rõ ràng, dễ đọc.
@@ -896,7 +896,7 @@ ví dụ: Address 172.16.254.1_
 
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/vi/021.webp)
 
 
 
@@ -944,8 +944,8 @@ Bộ định tuyến đọc các địa chỉ này để tìm ra đường dẫn
 IPv4 Address có hai phần:
 
 
-- NetID**: xác định mạng
-- HostID**: xác định một thiết bị trong mạng đó
+- **NetID**: xác định mạng
+- **HostID**: xác định một thiết bị trong mạng đó
 
 **Subnet mask** xác định vị trí kết thúc của NetID và bắt đầu của HostID, chỉ định số bit thuộc về mỗi phần. NetID càng dài, số lượng mạng con có thể có càng lớn, nhưng số lượng máy chủ trên mỗi mạng con cũng giảm tương ứng.
 
@@ -972,17 +972,17 @@ Ban đầu, mạng IPv4 được chia thành năm **lớp**: (A, B, C, D và E).
 Địa chỉ đặc biệt:
 
 
-- Mạng Address**: Xác định chính mạng (được sử dụng trong bảng định tuyến).
-- Phát sóng Address**: Gửi dữ liệu đến tất cả các thiết bị trong mạng con cùng một lúc (tất cả các bit HostID được đặt thành 1).
+- **Mạng Address**: Xác định chính mạng (được sử dụng trong bảng định tuyến).
+- **Phát sóng Address**: Gửi dữ liệu đến tất cả các thiết bị trong mạng con cùng một lúc (tất cả các bit HostID được đặt thành 1).
 
 
 Các phạm vi sau đây được dành riêng cho mục đích sử dụng nội bộ:
 
 
-- 10.0.0.0/8** (Lớp A riêng tư)
-- 127.0.0.0/8** (vòng lặp cục bộ hoặc _loopback_)
-- 172.16.0.0 đến 172.31.255.255** (lớp B riêng tư)
-- 192.168.0.0 đến 192.168.255.255** (lớp C riêng tư)
+- **10.0.0.0/8** (Lớp A riêng tư)
+- **127.0.0.0/8** (vòng lặp cục bộ hoặc _loopback_)
+- **172.16.0.0 đến 172.31.255.255** (lớp B riêng tư)
+- 192.168.0.0 đến **192.168.255.255** (lớp C riêng tư)
 
 
 Địa chỉ **127.0.0.1** và, nói chung hơn, toàn bộ dải 127.0.0.0/8 được sử dụng cho mục đích kiểm tra nội bộ: mọi yêu cầu được gửi đến địa chỉ này sẽ không bao giờ rời khỏi máy. Điều này hữu ích để kiểm tra xem dịch vụ mạng cục bộ có hoạt động hay không mà không cần sự can thiệp của mạng lưới rộng hơn.
@@ -995,8 +995,8 @@ Trong các mạng hiện đại, địa chỉ IP thường được ghép nối 
 
 
 
-- tên miền** được đăng ký trong **DNS** (_Hệ thống tên miền_): Nó liên kết một số IP Address với một tên thân thiện với con người.
-- MAC Address**: một mã định danh vật lý được khắc trên card mạng, được sử dụng cho việc truyền tải cục bộ (_Ethernet_). Khi một gói tin IP cần được truyền tải vật lý, bảng ARP sẽ so khớp IP Address với MAC Address của đích.
+- tên miền được đăng ký trong **DNS** (_Hệ thống tên miền_): Nó liên kết một số IP Address với một tên thân thiện với con người.
+- **MAC Address**: một mã định danh vật lý được khắc trên card mạng, được sử dụng cho việc truyền tải cục bộ (*Ethernet*). Khi một gói tin IP cần được truyền tải vật lý, bảng ARP sẽ so khớp IP Address với MAC Address của đích.
 
 
 Để giải quyết tình trạng thiếu hụt IPv4 Address và tăng cường bảo mật cho Layer, các mạng thường sử dụng giao thức chuyển đổi Address (_NAT_). NAT cho phép nhiều thiết bị riêng tư chia sẻ một địa chỉ IP công cộng Address duy nhất khi truy cập Internet.
@@ -1044,7 +1044,7 @@ Ngược lại, có các địa chỉ IPv4 riêng, một giải pháp thiết th
 Một danh mục đặc biệt khác là địa chỉ **không xác định**. Ký hiệu IPv4 **0.0.0.0** hoặc phiên bản IPv6 của nó **::/128** có nghĩa là "không có Address cụ thể". Address như vậy không hợp lệ làm đích Address mạng, nhưng nó có thể được máy chủ sử dụng cục bộ để chỉ định "tất cả các giao diện" hoặc "chưa có Address nào được gán". Điều này phổ biến trong DHCP động Assignment hoặc để lắng nghe trên tất cả các giao diện máy chủ.
 
 
-IPv6 cũng hỗ trợ địa chỉ riêng tư, nhưng tiêu chuẩn thường khuyến nghị địa chỉ công khai để tránh chồng chéo nhiều lớp NAT. Địa chỉ **site-local** (_site-local_) của khối **fec0::/10** đã bị loại bỏ trong **RFC 3879** vì lý do nhất quán và bảo mật. Chúng được thay thế bằng Địa chỉ cục bộ duy nhất** (_ULA_) nằm trong khối **fc00::/7**. ULA cho phép tạo các mạng IPv6 riêng tư với định tuyến nội bộ rõ ràng, sử dụng mã định danh 40 bit được tạo ngẫu nhiên để đảm bảo tính duy nhất cục bộ.
+IPv6 cũng hỗ trợ địa chỉ riêng tư, nhưng tiêu chuẩn thường khuyến nghị địa chỉ công khai để tránh chồng chéo nhiều lớp NAT. Địa chỉ **site-local** (*site-local*) của khối **fec0::/10** đã bị loại bỏ trong **RFC 3879** vì lý do nhất quán và bảo mật. Chúng được thay thế bằng **Địa chỉ cục bộ duy nhất** (*ULA*) nằm trong khối **fc00::/7**. ULA cho phép tạo các mạng IPv6 riêng tư với định tuyến nội bộ rõ ràng, sử dụng mã định danh 40 bit được tạo ngẫu nhiên để đảm bảo tính duy nhất cục bộ.
 
 
 Sự cạn kiệt IPv4 đã được chính thức xác nhận vào năm 2011. Để kéo dài tuổi thọ của nó, cộng đồng Internet đã áp dụng một số chiến lược sau:
@@ -1129,7 +1129,7 @@ Mỗi mạng Interface, dù có dây hay không dây, đều có địa chỉ MA
 Ví dụ: `5A:BC:17:A2:AF:15`
 
 
-Trong cấu trúc này, ba byte đầu tiên xác định nhà sản xuất card mạng: được gọi là **OUI** (Mã định danh duy nhất về mặt tổ chức*). Các tiền tố này, do IEEE chỉ định, cũng được sử dụng trong các sơ đồ định địa chỉ phần cứng khác, chẳng hạn như Bluetooth và LLDP, để đảm bảo tính duy nhất trên toàn thế giới.
+Trong cấu trúc này, ba byte đầu tiên xác định nhà sản xuất card mạng: được gọi là **OUI** (**Mã định danh duy nhất về mặt tổ chức**). Các tiền tố này, do IEEE chỉ định, cũng được sử dụng trong các sơ đồ định địa chỉ phần cứng khác, chẳng hạn như Bluetooth và LLDP, để đảm bảo tính duy nhất trên toàn thế giới.
 
 
 ### Thay đổi MAC Address (MAC Spoofing)
@@ -1183,7 +1183,7 @@ IP Address            MAC Address                Type
 - Ví dụ trực quan về MAC Address:
 
 
-![Image](assets/fr/032.webp)
+![Image](assets/vi/022.webp)
 
 
 
@@ -1191,7 +1191,7 @@ IP Address            MAC Address                Type
 - Ví dụ trực quan về IP Address:
 
 
-![Image](assets/fr/027.webp)
+![Image](assets/vi/023.webp)
 
 
 
@@ -1258,7 +1258,7 @@ Ngoài việc giải quyết tình trạng khan hiếm IPv4, NAT còn tăng cư�
 
 
 
-![Image](assets/fr/035.webp)
+![Image](assets/vi/024.webp)
 
 
 
@@ -1331,7 +1331,7 @@ _Để minh họa cách thức hoạt động này trong thực tế, hãy xem x
 
 
 
-![Image](assets/fr/037.webp)
+![Image](assets/vi/025.webp)
 
 
 
@@ -1379,11 +1379,11 @@ Trong chương tiếp theo, chúng ta sẽ xem xét chi tiết về cấu hình 
 
 
 
-https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
+https://planb.academy/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-https://planb.network/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
+https://planb.academy/tutorials/computer-security/operating-system/opnsense-90c2785d-a0d7-4981-be8d-d290bbeb8263
 
-https://planb.network/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
+https://planb.academy/tutorials/computer-security/operating-system/pfsense-24eea96a-2fdc-42a6-a77b-89bc29149864
 
 
 ## Làm thế nào để cấu hình mạng bằng `ip`?
@@ -1463,8 +1463,8 @@ ifdown eth2
 Tệp cấu hình (giống RHEL):
 
 
-- /etc/sysconfig/network**: thiết lập chung (MẠNG, TÊN MÁY CHỦ, CỔNG...).
-- ifcfg-**: cài đặt cụ thể cho từng Interface.
+- **/etc/sysconfig/network**: thiết lập chung (MẠNG, TÊN MÁY CHỦ, CỔNG...).
+- **ifcfg-**: cài đặt cụ thể cho từng Interface.
 
 
 Ví dụ tĩnh (ifcfg-eth0):
@@ -1500,7 +1500,7 @@ Trong môi trường chuyên nghiệp, mục tiêu là đảm bảo tính liên 
 
 
 
-![Image](assets/fr/039.webp)
+![Image](assets/vi/026.webp)
 
 
 
@@ -1783,10 +1783,10 @@ Một Address IPv6 không xác định được biểu thị bằng `::` hoặc,
 Một số dải IPv6 được dành riêng một cách rõ ràng và không được sử dụng làm địa chỉ toàn cầu. Chúng có mục đích kỹ thuật cụ thể:
 
 
-- `::/128`**: Address không xác định, không bao giờ được gán cố định cho một thiết bị, nhưng được sử dụng làm Address nguồn bởi một máy đang chờ cấu hình.
-- `::1/128`**: _loopback_ Address, tương đương trực tiếp với `127.0.0.1` trong IPv4, cho phép máy tính tự Address.
-- `64:ff9b::/96`**: Dành riêng cho các trình dịch giao thức để kích hoạt kết nối IPv4/IPv6, như được định nghĩa trong RFC 6052.
-- `::ffff:0:0/96`**: khối tương thích để biểu diễn IPv4 Address trong cấu trúc IPv6 cụ thể, thường được các ứng dụng sử dụng nội bộ.
+- `::/128`: **Address không xác định, không bao giờ được gán cố định cho một thiết bị, nhưng được sử dụng làm Address nguồn bởi một máy đang chờ cấu hình.**
+- `::1/128`: **_loopback_ Address**, tương đương trực tiếp với `127.0.0.1` trong IPv4, cho phép máy tính tự Address.
+- `64:ff9b::/96`: **Dành riêng cho các trình dịch giao thức để kích hoạt kết nối IPv4/IPv6, như được định nghĩa trong RFC 6052.**
+- `::ffff:0:0/96`: khối tương thích để biểu diễn IPv4 Address trong cấu trúc IPv6 cụ thể, thường được các ứng dụng sử dụng nội bộ.
 
 
 Các khối này đảm bảo khả năng tương tác và tạo điều kiện thuận lợi cho việc di chuyển giữa hai phiên bản giao thức.
@@ -1801,9 +1801,9 @@ Các khối này đảm bảo khả năng tương tác và tạo điều kiện 
 Một số loại có công dụng đặc biệt được ghi chép lại:
 
 
-- `2001:2::/48`**: Dành riêng cho việc thử nghiệm hiệu suất và khả năng tương tác (RFC 5180).
-- `2001:db8::/32`**: Dành riêng cho tài liệu và ví dụ (RFC 3849).
-- `2002::/16`**: Được sử dụng cho cơ chế 6to4, cho phép lưu lượng IPv6 di chuyển qua cơ sở hạ tầng IPv4 (hữu ích trong giai đoạn chuyển đổi giữa hai giao thức).
+- `2001:2::/48`: **Dành riêng cho việc thử nghiệm hiệu suất và khả năng tương tác (RFC 5180).**
+- `2001:db8::/32`: **Dành riêng cho tài liệu và ví dụ (RFC 3849).**
+- `2002::/16`: Được sử dụng cho cơ chế 6to4, cho phép lưu lượng IPv6 di chuyển qua cơ sở hạ tầng IPv4 (hữu ích trong giai đoạn chuyển đổi giữa hai giao thức).
 
 
 **Lưu ý:** một tỷ lệ lớn các địa chỉ toàn cầu vẫn chưa được sử dụng, đóng vai trò dự trữ cho sự phát triển Internet trong tương lai.
@@ -1954,7 +1954,7 @@ Cấu hình thủ công vẫn hữu ích trong môi trường được kiểm so
 Sau đây là ví dụ về cách chuyển đổi MAC Address thành EUI-64:
 
 
-![Image](assets/fr/045.webp)
+![Image](assets/vi/027.webp)
 
 
 
@@ -1964,8 +1964,8 @@ Tuy nhiên, do lo ngại ngày càng tăng về việc theo dõi thiết bị, c
 Giống như DHCP trong IPv4, địa chỉ IPv6 được gán tự động có thể có hai thời hạn tồn tại, được xác định bởi bộ định tuyến hoặc máy chủ DHCPv6:
 
 
-- Tuổi thọ ưu tiên*: sau thời hạn này, Address vẫn có hiệu lực nhưng không còn được sử dụng để bắt đầu các kết nối mới;
-- Thời hạn sử dụng hợp lệ*: khi thời hạn này hết hạn, Address sẽ bị xóa hoàn toàn khỏi cấu hình Interface.
+- Tuổi thọ ưu tiên: sau thời hạn này, Address vẫn có hiệu lực nhưng không còn được sử dụng để bắt đầu các kết nối mới;
+- Thời hạn sử dụng hợp lệ: khi thời hạn này hết hạn, Address sẽ bị xóa hoàn toàn khỏi cấu hình Interface.
 
 
 Hệ thống này cho phép quản lý các thay đổi mạng một cách linh hoạt, ví dụ, đảm bảo quá trình chuyển đổi suôn sẻ từ ISP này sang ISP khác. Bằng cách cập nhật tiền tố được bộ định tuyến thông báo và điều chỉnh bản ghi DNS song song, việc di chuyển IPv6 có thể được thực hiện mà không gây gián đoạn dịch vụ đáng kể.
@@ -2092,7 +2092,7 @@ Sau đây là tổng quan về các loại tiêu đề mở rộng khác nhau đ
 Tiêu đề này, nếu có, luôn được đặt ngay sau tiêu đề cơ sở. Nó chứa thông tin cần được xử lý bởi mọi bộ định tuyến dọc theo đường đi của gói tin, không giống như hầu hết các tiêu đề khác, thường chỉ được xử lý bởi nút đích. Các ứng dụng điển hình bao gồm báo hiệu các tham số toàn cục hoặc yêu cầu các bước xử lý cụ thể khi gói tin di chuyển qua mạng.
 
 
-![Image](assets/fr/047.webp)
+![Image](assets/vi/028.webp)
 
 
 #### Tiêu đề định tuyến
@@ -2108,16 +2108,16 @@ Tiêu đề định tuyến chỉ định danh sách các địa chỉ trung gia
 Bốn trường đầu tiên của tiêu đề gốc này là:
 
 
-- Tiêu đề tiếp theo**: xác định loại tiêu đề tiếp theo;
-- Kiểu định tuyến**: xác định phương pháp định tuyến (thường là `0`);
-- Các đoạn còn lại**: số đoạn còn lại để đi qua;
-- Address[n]**: danh sách các địa chỉ trung gian.
+- **Tiêu đề tiếp theo**: xác định loại tiêu đề tiếp theo;
+- **Kiểu định tuyến**: xác định phương pháp định tuyến (thường là `0`);
+- **Các đoạn còn lại**: số đoạn còn lại để đi qua;
+- **Address[n]**: danh sách các địa chỉ trung gian.
 
 
 Trường "Các đoạn còn lại" bắt đầu bằng tổng số đoạn còn lại và giảm đi một ở mỗi bước nhảy.
 
 
-![Image](assets/fr/048.webp)
+![Image](assets/vi/029.webp)
 
 
 #### Tiêu đề phân mảnh
@@ -2129,12 +2129,12 @@ Trong IPv6, chỉ máy chủ nguồn mới được phép phân mảnh một gó
 Tiêu đề phân mảnh chứa các trường sau:
 
 
-- Nhận dạng**: mã định danh datagram duy nhất để lắp ráp lại.
-- Độ lệch đoạn**: vị trí của đoạn trong gói dữ liệu gốc.
-- Cờ M**: chỉ ra liệu có thêm đoạn nào theo sau hay không.
+- **Nhận dạng**: mã định danh datagram duy nhất để lắp ráp lại.
+- **Độ lệch đoạn**: vị trí của đoạn trong gói dữ liệu gốc.
+- Cờ **M**: chỉ ra liệu có thêm đoạn nào theo sau hay không.
 
 
-![Image](assets/fr/049.webp)
+![Image](assets/vi/030.webp)
 
 
 #### Tiêu đề xác thực (AH)
@@ -2146,7 +2146,7 @@ Tiêu đề này được thiết kế để bảo mật thông tin liên lạc 
 Trong trường hợp cố gắng sửa đổi gian lận, mã xác thực sẽ không còn khớp nữa và datagram có thể bị từ chối. Cơ chế này cũng bảo vệ chống lại các cuộc tấn công phát lại bằng cách phát hiện các bản sao trái phép.
 
 
-![Image](assets/fr/050.webp)
+![Image](assets/vi/031.webp)
 
 
 #### Tiêu đề Tùy chọn đích
@@ -2158,7 +2158,7 @@ Tiêu đề này chỉ dành cho người nhận cuối cùng của datagram. N�
 Ban đầu, không có tùy chọn nào như vậy được định nghĩa trong giao thức. Tuy nhiên, tiêu đề này đã được giới thiệu khi IPv6 được thiết kế, để cho phép các phần mở rộng trong tương lai được thêm vào mà không cần sửa đổi cấu trúc gói tin tổng thể. Ví dụ, tùy chọn null chỉ được sử dụng để thêm tiêu đề lên bội số của 8 byte cho mục đích căn chỉnh bộ nhớ.
 
 
-![Image](assets/fr/051.webp)
+![Image](assets/vi/032.webp)
 
 
 Thiết kế gói tin IPv6 được xây dựng dựa trên sự phân tách rõ ràng giữa tiêu đề cơ sở tối thiểu và tiêu đề mở rộng dạng mô-đun. Kiến trúc này đảm bảo cả hiệu suất xử lý tiêu chuẩn và tính linh hoạt cần thiết để phát triển giao thức và tích hợp các cơ chế bảo mật, định tuyến phức tạp hoặc chất lượng dịch vụ, đồng thời duy trì khả năng tương thích với các cơ sở hạ tầng trong tương lai.
@@ -2504,7 +2504,7 @@ Wireshark có sẵn trên nhiều hệ điều hành, bao gồm Linux và Window
 
 
 
-![Image](assets/fr/052.webp)
+![Image](assets/vi/033.webp)
 
 
 
@@ -2555,7 +2555,7 @@ Lệnh này đưa ra báo cáo chi tiết về `enp0s3` Interface, một quy ư�
 
 
 
-![Image](assets/fr/053.webp)
+![Image](assets/vi/034.webp)
 
 
 
@@ -2727,13 +2727,13 @@ default via 192.168.1.1 dev eth0 proto dhcp metric 100
 Mỗi dòng thể hiện một tuyến đường. Các trường chính bao gồm:
 
 
-- default**: tuyến đường mặc định, được sử dụng khi không có tuyến đường cụ thể nào phù hợp.
-- via**: cổng được sử dụng để đến đích.
-- dev**: mạng Interface được sử dụng.
-- proto**: cách tạo tuyến đường (thủ công, DHCP, kernel, v.v.).
-- metric**: chi phí tuyến đường, được sử dụng để ưu tiên nhiều đường dẫn có thể có.
-- scope**: phạm vi tuyến đường (ví dụ: `link` cho tuyến đường được kết nối trực tiếp).
-- src**: địa chỉ IP nguồn Address được sử dụng cho các gói tin đi trên Interface này.
+- **default**: tuyến đường mặc định, được sử dụng khi không có tuyến đường cụ thể nào phù hợp.
+- **via**: cổng được sử dụng để đến đích.
+- **dev**: mạng Interface được sử dụng.
+- **proto**: cách tạo tuyến đường (thủ công, DHCP, kernel, v.v.).
+- **metric**: chi phí tuyến đường, được sử dụng để ưu tiên nhiều đường dẫn có thể có.
+- **scope**: phạm vi tuyến đường (ví dụ: `link` cho tuyến đường được kết nối trực tiếp).
+- **src**: địa chỉ IP nguồn Address được sử dụng cho các gói tin đi trên Interface này.
 
 
 #### Thêm và xóa tuyến đường
@@ -3068,7 +3068,7 @@ Việc truy vấn lặp lại hoặc truy vấn chuyên sâu đến máy chủ D
 Khi giám sát hoặc bảo mật mạng cục bộ hoặc mạng diện rộng, điều quan trọng là phải xác định các thiết bị đang hoạt động và các dịch vụ mà chúng cung cấp. Đây chính xác là những gì công cụ `nmap` (*Network Mapper*) thực hiện.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 #### Giới thiệu `nmap`
 
@@ -3107,20 +3107,20 @@ Trong trường hợp này, tất cả các máy chủ trong phạm vi `192.168.
 
 
 
-![Image](assets/fr/055.webp)
+![Image](assets/vi/035.webp)
 
 
 
 Người quản trị có thể dựa vào `nmap` cho một số tác vụ:
 
 
-- Phát hiện máy chủ đang hoạt động**: xác định máy nào phản hồi trong một mạng con;
-- Kiểm kê dịch vụ**: đảm bảo chỉ có thể truy cập được các cổng cần thiết (nguyên tắc đặc quyền tối thiểu);
-- Kiểm tra sự tuân thủ**: so sánh các cổng mở với chính sách bảo mật của tổ chức;
-- Phòng ngừa lỗ hổng**: phát hiện các dịch vụ không an toàn hoặc lỗi thời đang chạy trên các máy quan trọng.
+- **Phát hiện máy chủ đang hoạt động**: xác định máy nào phản hồi trong một mạng con;
+- **Kiểm kê dịch vụ**: đảm bảo chỉ có thể truy cập được các cổng cần thiết (nguyên tắc đặc quyền tối thiểu);
+- **Kiểm tra sự tuân thủ**: so sánh các cổng mở với chính sách bảo mật của tổ chức;
+- **Phòng ngừa lỗ hổng**: phát hiện các dịch vụ không an toàn hoặc lỗi thời đang chạy trên các máy quan trọng.
 
 
-https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
+https://planb.academy/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
 ### Công cụ thẩm vấn quy trình
 
@@ -3216,10 +3216,10 @@ Các công cụ này cung cấp cho quản trị viên một bộ đòn bẩy k�
 Các công cụ cung cấp khả năng hiển thị trực tiếp vào giao diện và khung:
 
 
-- arp / ip neigh**: kiểm tra và sửa đổi bộ đệm ARP/NDP để kiểm tra hoặc sửa các liên kết IP-MAC;
-- tcpdump**: bắt gói tin bằng dòng lệnh, có thể lọc và xuất;
-- Wireshark**: phân tích gói tin đồ họa với giải mã giao thức sâu;
-- ethtool**: truy vấn và điều chỉnh các thông số vật lý của card Ethernet (tốc độ, song công, WoL, v.v.).
+- **arp / ip neigh**: kiểm tra và sửa đổi bộ đệm ARP/NDP để kiểm tra hoặc sửa các liên kết IP-MAC;
+- **tcpdump**: bắt gói tin bằng dòng lệnh, có thể lọc và xuất;
+- **Wireshark**: phân tích gói tin đồ họa với giải mã giao thức sâu;
+- **ethtool**: truy vấn và điều chỉnh các thông số vật lý của card Ethernet (tốc độ, song công, WoL, v.v.).
 
 
 #### Mạng Layer
@@ -3228,10 +3228,10 @@ Các công cụ cung cấp khả năng hiển thị trực tiếp vào giao di�
 Các công cụ để đánh giá kết nối IP, định tuyến và lưu lượng gói tin:
 
 
-- ping**: kiểm tra khả năng tiếp cận và đo độ trễ bằng ICMP;
-- ip route**: kiểm tra và sửa đổi bảng định tuyến để kiểm soát đường dẫn gói tin;
-- traceroute**: xác định từng bước nhảy của các bộ định tuyến dọc theo tuyến đường đến đích;
-- ss**: danh mục chi tiết các socket TCP/UDP và các tiến trình liên quan (kế nhiệm netstat).
+- **ping**: kiểm tra khả năng tiếp cận và đo độ trễ bằng ICMP;
+- **ip route**: kiểm tra và sửa đổi bảng định tuyến để kiểm soát đường dẫn gói tin;
+- **traceroute**: xác định từng bước nhảy của các bộ định tuyến dọc theo tuyến đường đến đích;
+- **ss**: danh mục chi tiết các socket TCP/UDP và các tiến trình liên quan (kế nhiệm netstat).
 
 
 #### Lớp vận chuyển và lớp ứng dụng
@@ -3240,9 +3240,9 @@ Các công cụ để đánh giá kết nối IP, định tuyến và lưu lư�
 Công cụ chẩn đoán dịch vụ và quy trình:
 
 
-- nslookup / dig / host**: Truy vấn DNS để xác thực việc giải quyết tên và phân tích bản ghi;
-- nmap**: khám phá các cổng mở và các dịch vụ dễ bị tấn công để đánh giá bề mặt tấn công;
-- lsof**: liệt kê các tệp và ổ cắm được mở bởi các tiến trình, liên kết hoạt động của hệ thống và mạng.
+- **nslookup / dig / host**: Truy vấn DNS để xác thực việc giải quyết tên và phân tích bản ghi;
+- **nmap**: khám phá các cổng mở và các dịch vụ dễ bị tấn công để đánh giá bề mặt tấn công;
+- **lsof**: liệt kê các tệp và ổ cắm được mở bởi các tiến trình, liên kết hoạt động của hệ thống và mạng.
 
 
 Việc thành thạo các công cụ này, mỗi công cụ được liên kết với một giai đoạn cụ thể của mô hình TCP/IP, cho phép áp dụng một phương pháp tiếp cận bài bản: bắt đầu từ Layer vật lý, chuyển sang định tuyến và lên đến các dịch vụ ứng dụng. Chuỗi kiến thức chuyên môn này trang bị cho quản trị viên khả năng chẩn đoán, bảo mật và tối ưu hóa cơ sở hạ tầng, đảm bảo cả hiệu suất và tính khả dụng của mạng.

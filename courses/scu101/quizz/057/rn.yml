@@ -1,0 +1,9 @@
+question: Ni ikihe ciza kimwe co kuja mu nama n’inyigisho yerekeye umutekano wo kuri interineti?
+answer: Biragufasha kwubaka ubucuti n’ababigize umwuga mu vy’ubuhinga.
+wrong_answers:
+  - Ni igisabwa ku bikorwa vyose vy'umutekano wo kuri internet .
+  - Bitanga akazi mu vy'umutekano wo kuri internet .
+  - Ni uburyo bwonyene bwo kwiga ivyerekeye umutekano wo kuri interineti .
+explanation: |
+  Igice kivuga ko kuja mu nama n’inyigisho yerekeye umutekano wo kuri interineti bituma wiga kandi bikagufasha kwubaka ubucuti n’ababigize umwuga mu vy’ubuhinga.
+reviewed: true

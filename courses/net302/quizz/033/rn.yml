@@ -1,0 +1,9 @@
+question: Ni ubuhinga ubuhe butuma imashini nyinshi zo mu mutima zisangira IP Address imwe ya bose kugira ngo zikoreshe Internet?
+answer: NAT (Ubuhinduzi bw'urubuga Address)
+wrong_answers:
+  - ARP (Itegeko ry'Iciyumviro rya Address)
+  - DHCP (Imirongo ngenderwako y'imiterere y'umushitsi)
+  - CIDR (Inzira hagati y'intara idafise umugwi)
+explanation: |
+  NAT ihindura amaderesi y’imbere mu gihugu yihariye mu IP Address ya bose, igatuma ibikoresho vyinshi bishobora gusangira uruja n’uruza rw’inyuma rumwe.
+reviewed: false

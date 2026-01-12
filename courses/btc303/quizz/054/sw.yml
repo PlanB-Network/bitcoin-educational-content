@@ -1,0 +1,9 @@
+question: Ni sifa gani kuu ya mchakato wa ukuzaji wa Bitcoin unaoifanya iwe hatarini zaidi kwa mbinu za upenyezaji zilizoelezewa katika miongozo ya hujuma wakati wa vita?
+answer: Maendeleo ya Bitcoin yako wazi kwa mtu yeyote kushiriki bila walinda lango
+wrong_answers:
+  - Ukuzaji wa Bitcoin unategemea kikundi kidogo cha watunzaji msingi wanaoaminika
+  - Maendeleo ya Bitcoin yanahitaji idhini rasmi ya serikali kwa mabadiliko makubwa
+  - Utengenezaji wa Bitcoin hutumia msimbo wa chanzo-chanzo unaozuia michango ya nje
+explanation: |
+  Mchakato wa uendelezaji huria wa Bitcoin, huku ukiwa mojawapo ya nguvu zake kuu za ugatuaji na uwazi, pia huleta uwezekano wa kuathiriwa na upenyezaji wa wapinzani. Kwa kuwa mtu yeyote anaweza kushiriki katika mijadala, kupendekeza mabadiliko, na kushiriki katika mchakato wa ukaguzi bila kuhitaji ruhusa au vitambulisho, wavamizi waliojitolea wanaweza kutumia uwazi huu. Wanaweza kusimamisha maendeleo kupitia wasiwasi usio na kikomo kuhusu masuala yasiyo na umuhimu, kuhangaika juu ya maneno sahihi, kukariri majadiliano yaliyosuluhishwa, au kupeleka 'mashambulizi ya kijamii ya Sybil' kwa kutumia vitambulisho vingi vya uwongo ili kuunda maoni ya uwongo ya upinzani. Uwazi huu unatofautiana sana na miundo ya usanidi iliyofungwa ambayo ina walinda milango au michakato ya uidhinishaji ambayo inaweza kuchuja watendaji wabaya.
+reviewed: false

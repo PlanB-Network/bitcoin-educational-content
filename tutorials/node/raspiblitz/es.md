@@ -3,26 +3,27 @@ name: RaspiBlitz
 description: Guía para configurar tu RaspiBlitz
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
-El RaspiBlitz es un nodo Lightning de bricolaje (LND y/o Core Lightning) que se ejecuta junto con un nodo completo de Bitcoin en una RaspberryPi (SSD de 1TB) y una pantalla agradable para una configuración y monitoreo sencillos.
+El RaspiBlitz es un nodo Lightning de bricolaje (LND y/o Core Lightning) que se ejecuta junto con un nodo completo de Bitcoin en una RaspberryPi (SSD de 1TB) y una buena pantalla para una configuración y monitoreo sencillos.
 
-El RaspiBlitz está dirigido principalmente a aprender cómo ejecutar tu propio nodo descentralizado desde casa, porque: No es tu nodo, no son tus reglas. Descubre y desarrolla el creciente ecosistema de la Lightning Network al formar parte de él. Constrúyelo como parte de un taller o como un proyecto de fin de semana.
+El RaspiBlitz está dirigido principalmente a aprender cómo ejecutar tu propio nodo descentralizado desde casa, porque: Si no es tu nodo, no son tus reglas. Descubre y desarrolla el creciente ecosistema de la Lightning Network al formar parte de él. Constrúyelo como parte de un taller o como un proyecto de fin de semana.
 
 ![video](https://youtu.be/DTHlSPMz3ns)
+
 RASPIBLITZ - Cómo ejecutar un nodo Lightning y Bitcoin Full Node por BTC session
 
-# Guía de configuración de Raspiblitz de Parman
+## Guía de configuración de Raspiblitz de Parman
 
-El Raspiblitz es un excelente sistema para ejecutar un nodo de Bitcoin y aplicaciones asociadas. Recomiendo esto y el nodo My Node a la mayoría de los usuarios (idealmente, tener dos nodos para redundancia). Una ventaja importante es que el nodo Raspiblitz es "Software de código abierto gratuito", a diferencia de MyNode o Umbrel. ¿Por qué es importante eso? Vlad Costa lo explica. También puedes ejecutar el RaspbiBlitz con una conexión WiFi en lugar de Ethernet, aquí tienes una guía complementaria para eso (no he encontrado una forma de hacer esto con MyNode).
+El Raspiblitz es un excelente sistema para ejecutar un nodo de Bitcoin y aplicaciones asociadas. Recomendamos esto y el nodo My Node a la mayoría de los usuarios (idealmente, tener dos nodos para redundancia). Una ventaja importante es que el nodo Raspiblitz es "Software de código abierto gratuito", a diferencia de MyNode o Umbrel. ¿Por qué es importante eso? Vlad Costa lo explica. También puedes ejecutar el RaspbiBlitz con una conexión WiFi en lugar de Ethernet, aquí tienes una guía complementaria para eso (no he encontrado una forma de hacer esto con MyNode).
 
 Puedes comprar un nodo preconfigurado con una pantalla miniatura adjunta, o puedes construirlo tú mismo (no necesitas una pantalla).
 
-La guía en la página de GitHub es excelente, pero posiblemente demasiado detallada para un usuario moderadamente experimentado. Mis instrucciones serán más concisas y espero que sean más fáciles de seguir.
+La guía en la página de GitHub es excelente, pero posiblemente demasiado detallada para un usuario moderadamente experimentado. Nuestras instrucciones serán más concisas y espero que sean más fáciles de seguir.
 
-Básicamente, el proceso es muy similar al proceso de configuración de un nodo MyNode con una Raspberry Pi 4. La guía de Raspiblitz sugiere que compres un monitor, pero realmente no lo necesitas y no lo recomendaría. Ni siquiera necesitas un teclado o un ratón adicional. Simplemente accede al menú de terminal del dispositivo a través de una computadora en la misma red doméstica y usa el comando ssh en la terminal. Esto es posible con Linux/Mac (fácil) y un poco más difícil con Windows.
+Básicamente, el proceso es muy similar al proceso de configuración de un nodo MyNode con una Raspberry Pi 4. La guía de Raspiblitz sugiere que compres un monitor, pero realmente no lo necesitas y no lo recomendaríamos. Ni siquiera necesitas un teclado o un ratón adicional. Simplemente accede al menú de terminal del dispositivo a través de una computadora en la misma red doméstica y usa el comando SSH en la terminal. Esto es posible con Linux/Mac (fácil) y un poco más difícil con Windows.
 
-## Paso 1: Compra el equipo.
+### Paso 1: Compra el equipo.
 
 Necesitas exactamente el mismo equipo que necesitas para ejecutar un nodo MyNode. Puedes probar uno u otro, la única diferencia es los datos en la tarjeta micro SD.
 
@@ -39,7 +40,7 @@ Nota: Este es el disco duro equivocado: es un disco duro externo portátil. No e
 
 ![image](assets/1.webp)
 
-Este es el tipo correcto para obtener:
+Este es el tipo correcto que debes obtener:
 
 ![image](assets/2.webp)
 
@@ -47,24 +48,25 @@ Esto es más rápido, pero innecesariamente caro:
 
 ![image](assets/3.webp)
 
-## Paso 2: Descargar la imagen de Raspiblitz
+### Paso 2: Descargar la imagen de Raspiblitz
 
 Navega al sitio web de Raspiblitz en GitHub y encuentra el enlace "descargar imagen":
 
 ![image](assets/4.webp)
 
-El hash sha-256 del archivo descargado se proporciona en el sitio web. Cambiará con cada actualización. Si no entiendes de qué se trata esto, deberías hacerlo, así que escribí una guía que puedes leer aquí.
+El hash sha-256 del archivo descargado se proporciona en el sitio web. Cambiará con cada actualización. Si no entiendes de qué se trata esto, deberías hacerlo, por lo que escribímos una guía que puedes leer aquí.
 
 ![image](assets/5.webp)
 
-## Paso 3: Verificar la imagen
+### Paso 3: Verificar la imagen
 
 Antes de continuar, si no conoces el sistema de archivos en la línea de comandos, es fácil de aprender y deberías hacerlo.
 
 Aquí tienes un video útil para Linux, pero también se aplica a Mac.
 
 Para Windows, aquí tienes un tutorial sencillo.
-Mac/Linux
+
+**Mac/Linux**
 
 Espera a que el archivo termine de descargarse (¡importante!), luego abre la terminal, navega hasta donde descargaste el archivo y escribe el siguiente comando...
 
@@ -75,7 +77,8 @@ shasum -a 256 xxxxxxxxxxxxxx
 donde xxxxxxxxxxxxxx es el nombre del archivo que acabas de descargar. Si no estás en el directorio donde se encuentra ese archivo, debes escribir la ruta completa.
 
 La computadora piensa durante unos 20 segundos. Verifica que el hash del archivo de salida coincida con el descargado desde el sitio web en el paso anterior. Si es idéntico, puedes continuar.
-Windows
+
+**Windows**
 
 Abre el símbolo del sistema y navega hasta donde se descargó el archivo, luego escribe este comando:
 
@@ -87,7 +90,7 @@ donde xxxxxxxxxxxxxx es el nombre del archivo que acabas de descargar. Si no est
 
 La computadora piensa durante unos 20 segundos. Verifica que el hash del archivo de salida coincida con el descargado desde el sitio web en el paso anterior. Si es idéntico, puedes continuar.
 
-## Paso 4: Flashear la tarjeta SD
+### Paso 4: Flashear la tarjeta SD
 
 Puedes usar Balena Etcher para hacer esto. Descárgalo aquí.
 
@@ -103,7 +106,7 @@ Etcher es fácil de usar. Inserta tu tarjeta micro SD y flashea el software de R
 
 Una vez hecho, la unidad ya no es legible. Es posible que recibas un error del sistema operativo y la unidad desaparezca del escritorio. Retira la tarjeta.
 
-## Paso 5: Configura el Pi e inserta la tarjeta SD
+### Paso 5: Configura el Pi e inserta la tarjeta SD
 
 Las partes (la carcasa no se muestra):
 
@@ -123,18 +126,18 @@ Finalmente, conecta la corriente:
 
 ![image](assets/14.webp)
 
-## Paso 6: Encuentra la dirección IP del Pi
+### Paso 6: Encuentra la dirección IP del Pi
 
-Nunca necesitas un monitor con el Raspiblitz. Sin embargo, necesitas otra computadora en la red doméstica. Si tu Pi no está conectado por ethernet y quieres depender del WiFi, encontrar la IP requiere algunas habilidades informáticas. No puedo ayudarte, lo siento. Necesitas una conexión ethernet. (El problema surge de la necesidad de acceder a un monitor y al sistema operativo para conectar el WiFi e ingresar una contraseña).
-Verifica tu enrutador para obtener una lista de todas las IPs de todos los dispositivos conectados.
+Nunca necesitas un monitor con el Raspiblitz. Sin embargo, necesitas otra computadora en la red doméstica. Si tu Pi no está conectado por ethernet y quieres depender del WiFi, encontrar la IP requiere algunas habilidades informáticas. No podemos ayudarte, lo sientimos. Necesitas una conexión ethernet. (El problema surge de la necesidad de acceder a un monitor y al sistema operativo para conectar el WiFi e ingresar una contraseña).
+Verifica tu modem para obtener una lista de todas las IPs de todos los dispositivos conectados.
 
-Escribí 192.168.0.1 en el navegador (instrucciones que vinieron con mi enrutador), inicié sesión y pude ver mi dispositivo con la IP 192.168.0.191. Ten en cuenta que estas direcciones IP no son visibles públicamente en Internet (pasan primero por el enrutador), solo son identificadores para los dispositivos en tu red doméstica.
+Escribímos 192.168.0.1 en el navegador (instrucciones que vinieron con nuestro enrutador), iniciamos sesión y podemos ver nuestro dispositivo con la IP 192.168.0.191. Ten en cuenta que estas direcciones IP no son visibles públicamente en Internet (pasan primero por el enrutador), solo son identificadores para los dispositivos en tu red doméstica.
 
 Encontrar la IP es crucial.
 
 > ACTUALIZACIÓN: puedes usar la terminal en una máquina Mac o Linux para encontrar la dirección IP de todos los dispositivos conectados por Ethernet en la red doméstica utilizando el comando "arp -a". La salida no es tan bonita como lo que mostrará el enrutador, pero toda la información que necesitas está allí. Si no es obvio cuál es el Pi, realiza pruebas y errores.
 
-## Paso 7: Accede al Pi a través de SSH
+### Paso 7: Accede al Pi a través de SSH
 
 Recuerda insertar la tarjeta SD en el Pi antes de encenderlo. Espera unos minutos y luego, en otra computadora con Linux/Mac, abre la terminal.
 
@@ -152,7 +155,7 @@ La primera vez que hagas esto, o cada vez que cambies el sistema operativo del P
 
 La forma de solucionarlo es navegar hasta donde se encuentra el archivo "known_hosts" (te lo indica en el mensaje de error) y eliminarlo. El comando es "rm known_hosts".
 
-Luego, repite el comando ssh para iniciar sesión. Esto sucederá...
+Luego, repite el comando SSH para iniciar sesión. Esto sucederá...
 
 ![image](assets/16.webp)
 
@@ -172,7 +175,7 @@ La forma más sencilla pero más lenta es descargar toda la cadena desde cero...
 
 ![image](assets/19.webp)
 
-Mucho texto aparecerá rápidamente en la pantalla de la terminal. Puede que lo confundas con el proceso de descarga de la cadena de bloques, pero parece, al menos para mí, que está generando una clave privada para la comunicación.
+Mucho texto aparecerá rápidamente en la pantalla de la terminal. Puede que lo confundas con el proceso de descarga de la cadena de bloques, pero parece, al menos para nosotros, que está generando una clave privada para la comunicación.
 
 Luego aparecen las opciones de Lightning.
 
@@ -182,12 +185,12 @@ Crea una nueva contraseña para bloquear tu billetera de Lightning, luego se cre
 
 ![image](assets/21.webp)
 
-Asegúrate de escribirlo y mantenerlo seguro. Escuché de una persona que no lo hizo porque no planeaba usar lightning, pero luego, un año después, decidió usarlo y abrió canales. Luego, al darse cuenta de que sus palabras no estaban respaldadas y recuerdo que no era posible extraer las palabras nuevamente del dispositivo, tuvo que cerrar todos sus canales y comenzar de nuevo. Se salió con la suya, pero otros podrían no tener tanta suerte.
+Asegúrate de escribirlo y mantenerlo seguro. Escuchamos de una persona que no lo hizo porque no planeaba usar lightning, pero luego, un año después, decidió usarlo y abrió canales. Luego, al darse cuenta de que sus palabras no estaban respaldadas y recuordó que no era posible extraer las palabras nuevamente del dispositivo, tuvo que cerrar todos sus canales y comenzar de nuevo. Se salió con la suya, pero otros podrían no tener tanta suerte.
 Después de esto, unos minutos de texto se desplazan hacia abajo en la ventana del terminal. Luego...
 
 ![image](assets/22.webp)
 
-Se cerrará la sesión de ssh. Vuelve a iniciar sesión, esta vez con tu nueva contraseña, contraseña A. Una vez dentro, se te pedirá la contraseña C para desbloquear tu billetera lightning.
+Se cerrará la sesión de SSH. Vuelve a iniciar sesión, esta vez con tu nueva contraseña, contraseña A. Una vez dentro, se te pedirá la contraseña C para desbloquear tu billetera lightning.
 
 Ahora esperamos. Nos vemos en 2 semanas. Puedes cerrar el terminal, no afecta al Pi, es solo una ventana de comunicación.
 

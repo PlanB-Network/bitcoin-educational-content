@@ -1,0 +1,9 @@
+question: Ni ikihe kintu kimwe kigaragaza Bitcoin nk’uruja n’uruza rw’amahera?
+answer: Yikomora kumahera agaragara dusanzwe dukoresha kandi nta butegetsi  canke ubahuza(amabanki) bisaba kugira ngo umuntu ashobore kurungika amahera.
+wrong_answers:
+  - ashobora gukora gusa iyo yemejwe n’ikigo ca leta.
+  - Atanga amafaranga mashasha iyo abayakoresha babisavye.
+  - hasabwa ko amabanki asuzuma kandi agenzura amarungika yose aba.
+explanation: |
+  Bitcoin ikora nk’urubuga rwigenga(décentralisé), rwemerera umuntu wese kugira uruhara ata ruhusha amanje gusaba. Ivyamarungika vyemezwa naba "nœuds"  n’abacukuzi "mineurs", atari leta.
+reviewed: true

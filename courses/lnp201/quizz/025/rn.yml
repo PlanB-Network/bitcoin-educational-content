@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo butatu bwo gufunga umurongo kuri Lightning Network?
+answer: Gufunga amakoperative, gufunga ku nguvu, gufunga n'ubuhendanyi
+wrong_answers:
+  - Gufunga vuba, gufunga buhoro, gufunga n'umukono ubiri
+  - Gufunga bitekanye, gufunga kwikora, gufunga n'ugutakaza amafranga
+  - Gufunga bitaziguye, gufunga bitaziguye, gufunga n'ikirego
+explanation: |
+  Hari uburyo butatu: gufunga mu bufatanye aho ababuranyi bemeranya, gufunga ku nguvu ata n’inyishu iva ku ruhande rumwe, no gufunga hakoreshejwe ubuhendanyi aho uruhande rumwe rugerageza gutangaza igikorwa ca kera.
+reviewed: false

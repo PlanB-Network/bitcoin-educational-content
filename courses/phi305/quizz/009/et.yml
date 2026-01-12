@@ -1,0 +1,9 @@
+question: Kas Spinoza perekond oli?
+answer: Juudi.
+wrong_answers:
+  - Katoliiklane.
+  - Protestantlik.
+  - Ateist.
+explanation: |
+  Spinoza perekond oli juudi. Tema vanemad olid Portugali juudid, kes olid põgenenud inkvisitsiooni eest ja asusid elama Amsterdami, kus oli suur sefardide juudi kogukond.
+reviewed: false

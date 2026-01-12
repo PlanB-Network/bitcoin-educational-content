@@ -1,0 +1,9 @@
+question: Porque é que um único Wallet não é considerado um participante na rede Bitcoin?
+answer: Porque não valida transacções ou blocos
+wrong_answers:
+  - Porque não pode generate chaves privadas
+  - Porque não pode criar endereços Bitcoin
+  - Porque não valida vendas ou endereços
+explanation: |
+  Um Wallet não valida diretamente blocos e transacções; limita-se a gerir as chaves e depende dos nós para o resto.
+reviewed: true

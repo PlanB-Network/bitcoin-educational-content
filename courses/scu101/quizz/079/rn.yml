@@ -1,0 +1,9 @@
+question: Ni akamaro akahe uwutanga serivisi za imeyiri atekanye nka ProtonMail atanga?
+answer: Ugukingira ubuzima bwibanga n’umutekano ukajije.
+wrong_answers:
+  - Igicapo cyoroshe ku batangura.
+  - Kugabanya ibiranga kugira ngo ugabanye uburebure bw’igitero.
+  - Ukwinjiza ubuhinga bwo gukora imeyiri zawe vyihuse.
+explanation: |
+  ProtonMail iza ubwambere ku ngingo ngenderwako zayo z’ubuzima bwibanga n’ingingo z’umutekano zikomeye.
+reviewed: true

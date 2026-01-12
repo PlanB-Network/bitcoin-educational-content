@@ -1,5 +1,5 @@
 ---
-name: Portaal
+name: Portal
 description: De TwentyTwo-Devices Hardware Wallet-portal configureren en gebruiken
 ---
 ![cover](assets/cover.webp)
@@ -14,7 +14,7 @@ Wat Portal onderscheidt van andere hardware wallets op de markt is de integratie
 ![Image](assets/fr/01.webp)
 
 
-De Portal is volledig open-source, gebaseerd op firmware geschreven in Rust en gebruikt BDK (Bitcoin Dev Kit) voor sleutel- en transactiebeheer. Hij wordt verkocht voor €89 [op de officiële website] (https://store.twenty-two.xyz/products/portal-hardware-Wallet).
+De Portal is volledig open-source, gebaseerd op firmware geschreven in Rust en gebruikt BDK (Bitcoin Dev Kit) voor sleutel- en transactiebeheer. Hij wordt verkocht voor €89 [op de officiële website](https://store.twenty-two.xyz/products/portal-hardware-Wallet).
 
 
 Op het moment van schrijven is de Portal compatibel met de Nunchuk en Bitcoin Keeper applicaties. In deze tutorial configureren we het met Nunchuk.
@@ -98,9 +98,9 @@ Je kunt het op een stuk papier schrijven of voor extra veiligheid raad ik aan om
 Voor meer informatie over de juiste manier om je Mnemonic zin op te slaan en te beheren, raad ik je aan deze andere tutorial te volgen, vooral als je een beginner bent:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-natuurlijk mag je deze woorden nooit delen op het Internet, zoals ik in deze tutorial doe. Dit voorbeeld Wallet wordt alleen op Testnet gebruikt en wordt aan het einde van de tutorial verwijderd.**_
+natuurlijk mag je deze woorden nooit delen op het Internet, zoals ik in deze tutorial doe. Dit voorbeeld Wallet wordt alleen op Testnet gebruikt en wordt aan het einde van de tutorial verwijderd.
 
 
 Druk stevig op de knop op je portaal om naar de volgende woorden te gaan. Zorg ervoor dat je je hele vinger op de knop legt en de druk een paar seconden vasthoudt, zodat de interactie goed wordt gedetecteerd.
@@ -340,4 +340,4 @@ Gefeliciteerd, je hebt nu Portal onder de knie! Als je deze tutorial nuttig vond
 Bekijk voor meer informatie onze complete training over hoe HD wallets werken:
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

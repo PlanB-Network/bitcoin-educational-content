@@ -1,0 +1,9 @@
+question: Mikä on helpoin tapa liittää mobiili Wallet Electrsiin Umbrelin kautta?
+answer: Skannaa Tor QR-koodi
+wrong_answers:
+  - Lataa evästetiedosto
+  - Yksityisen avaimen tuonti
+  - Kopioi Wallet.dat-tiedosto
+explanation: |
+  Umbrelin avulla voit skannata suoraan Electrsin tarjoaman Tor QR-koodin ja määrittää mobiiliyhteyden.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ni igiki ubuhinga bwa Commitment Transaction bwemeza abaje mu murongo w’umuravyo?
+answer: Ko umwe wese ashobora gusubirana amahera yiwe mu gutangaza ivy’ugucuruza vya nyuma vyashizweko umukono .
+wrong_answers:
+  - Ivyo bicuruzwa biraboneka kuri Bitcoin Blockchain.
+  - Ko ubushobozi bw'umurongo bugenda burushiriza uko umuntu akora
+  - Ayo mahera asangizwa hagati y'abo babiri bari muri iyo nama .
+explanation: |
+  Ivyo biganiro vya Commitment vyasinywe bituma uwuriko arabikora wese ashobora kugarura amahera yiwe mu gusohora verisiyo nshasha mu gihe iyo nzira yofunga.
+reviewed: false

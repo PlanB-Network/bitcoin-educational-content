@@ -1,0 +1,9 @@
+question: Bernardin de Saint-Pierre kimdir?
+answer: Paris Doğa Tarihi Müzesi'nin 19. yüzyıl başlarındaki müdürü.
+wrong_answers:
+  - XIV. Louis'nin bir bakanı.
+  - Bir Fransız filozof.
+  - Bir terör devrimcisi.
+explanation: |
+  Bernardin de Saint-Pierre (1737-1814) 19. yüzyılın başlarında Paris'teki Jardin des Plantes'in (doğal tarih müzesi) müdürüydü. En çok Paul et Virginie adlı romanı ve doğa betimlemeleriyle tanınır.
+reviewed: false

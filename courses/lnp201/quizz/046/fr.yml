@@ -6,4 +6,4 @@ wrong_answers:
   - Qu'il s'agit d'une transaction on-chain
 explanation: |
   Le préfixe lnbc indique que l'invoice est pour une transaction Lightning sur le réseau Bitcoin, et non sur un autre réseau.
-reviewed: false
+reviewed: true 

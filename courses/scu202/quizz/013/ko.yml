@@ -1,0 +1,9 @@
+question: 1983년 완전 무료 운영 체제를 만들기 위해 시작된 프로젝트는 무엇인가요?
+answer: GNU
+wrong_answers:
+  - BSD 유닉스
+  - X 윈도우 시스템 프로젝트
+  - 오픈 소스 이니셔티브
+explanation: |
+  리처드 스톨먼은 1983년 완전 무료 운영체제를 개발하기 위해 GNU 프로젝트를 시작했습니다.
+reviewed: false

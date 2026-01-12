@@ -1,12 +1,10 @@
-question: Hiperenflasyon nedir?
-answer: Parasal kütlede ciddi bir artış.
+question: Hiperenflasyon olgusunun ikinci aşaması nedir?
+answer: Para birimi çöküşü ve fiyat artışı.
 wrong_answers:
-  - Parasal kütlede küçük bir artış.
-  - Parasal kütlede ciddi bir azalma.
-  - Parasal kütlede küçük bir azalma.
+  - Güven Kaybı.
+  - Para basmanın kısır döngüsü.
+  - Yeni bir para birimi ortaya çıkıyor.
 explanation: |
-  Hiperenflasyon, yüksek enflasyon ile karakterize edilen parasal bir olgudur
-  parasal baskı yoluyla enflasyonda ciddi artış
-  tamamen kaybolmasına yol açan yetkililer tarafından
-  bir para birimine duyulan güven.
+  Hiperenflasyonun ikinci aşaması para biriminin çöküşüdür &
+  güven Kaybı Aşamasından hemen sonra fiyat artışı.
 reviewed: true

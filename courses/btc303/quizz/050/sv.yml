@@ -1,0 +1,9 @@
+question: Vilken typ av attack innebär att en enda enhet kontrollerar flera noder för att framstå som flera enheter, och varför är den inte effektiv mot Bitcoin:s konsensusmekanism?
+answer: Sybil-attack; den är ineffektiv eftersom Bitcoin använder proof-of-work:s datorkraft för konsensus i stället för att räkna noder
+wrong_answers:
+  - "Eclipse-attack; den är ineffektiv eftersom Bitcoin krypterar all nodkommunikation med hjälp av avancerade kryptografiska protokoll"
+  - "Denial-of-service-attack; den är ineffektiv eftersom Bitcoin automatiskt omfördelar trafik över friska noder i nätverket"
+  - "Social engineering-attack; den är ineffektiv eftersom Bitcoin-utvecklare använder formella verifieringsmetoder för att förhindra manipulation"
+explanation: |
+  En Sybil-attack inträffar när en enhet kontrollerar flera noder för att maskera sig som många separata enheter. Denna attack är dock ineffektiv mot Bitcoin eftersom nätverket inte förlitar sig på att räkna noder eller demokratisk röstning bland nätverksdeltagarna. Istället använder Bitcoin proof-of-work-konsensus där datorkraft (hashpower) avgör nätverksbesluten, inte antalet noder. Detta gör det omöjligt för en angripare att få inflytande genom att helt enkelt köra många noder utan motsvarande beräkningsresurser.
+reviewed: false

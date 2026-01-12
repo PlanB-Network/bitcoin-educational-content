@@ -1,0 +1,12 @@
+question: Ni itegeko irihe ryo kugenzura umubare w’ama bitcoins ariko aragendagenda ku nzira ya Bitcoin?
+answer: bitcoin-cli ironka amakuru y'inyuma.
+wrong_answers:
+  - bitcoin-cli kuronka amakuru y'uruzitiro.
+  - bitcoin-cli getwalletinfo.
+  - bitcoin-cli kuronka amakuru y'urubuga.
+explanation: |
+  Itegeko ryo kugenzura umubare w’ama bitcoins mu 2019.
+  n’ugutembera ku nzira ya Bitcoin ni bitcoin-cli.
+  kuronka amakuru. Iri tegeko ritanga uguseruka kandi .
+  ubushobozi bwo kugenzura, gukomeza ukwizigira ubuhinga bwa Bitcoin.
+reviewed: true

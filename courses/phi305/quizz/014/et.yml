@@ -1,0 +1,9 @@
+question: Kas Spinoza jaoks on Loodus varustatud kavatsusega?
+answer: Mitte kunagi.
+wrong_answers:
+  - Sõltuvalt perioodist.
+  - Sõltuvalt kõnealusest ettevõttest.
+  - Ainult religioossed saavad seda kindlaks teha.
+explanation: |
+  Spinoza jaoks ei ole Loodus kunagi varustatud kavatsusega. See tegutseb vajalike ja muutumatute seaduste kohaselt, ilma eesmärgi või eesmärgita. Loodusele kavatsuste omistamine on illusoorne antropomorfne projektsioon.
+reviewed: false

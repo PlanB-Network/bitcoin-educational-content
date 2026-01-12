@@ -1,0 +1,9 @@
+question: Commitment 거래에서 Lightning Network의 주요 위험은 무엇인가요?
+answer: 더 많은 자금을 회수하기 위해 이전 거래 게시하기
+wrong_answers:
+  - Commitment Transaction 서명을 잊어버린 경우
+  - 실수로 다른 채널로 자금 송금
+  - 부적절한 타임록으로 거래 차단하기
+explanation: |
+  가장 큰 위험은 당사자가 더 이상 보유하지 않은 자금을 회수할 수 있는 오래된 Commitment Transaction를 게시하여 부정행위를 시도할 수 있다는 것입니다.
+reviewed: true

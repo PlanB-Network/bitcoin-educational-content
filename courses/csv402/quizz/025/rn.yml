@@ -1,0 +1,9 @@
+question: Ni ibihe bice bine bisobanura RGB Contract?
+answer: Genesis, Schema, Interface na Interface Implementation.
+wrong_answers:
+  - Genesis, Schema, Inzira y’Impinduka na Interface Implementation.
+  - Genesis, Interface, Impinduka n'Ukwagura
+  - Genesis, Interface, Interface Implementation n'Ivyagutse
+explanation: |
+  RGB Contract igizwe n’ibikoresho bine bitandukanye vyitwa Elements; Genesis, Schema, Interface na Interface Implementation.
+reviewed: false

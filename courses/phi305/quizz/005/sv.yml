@@ -1,0 +1,9 @@
+question: Vilken vetenskapsman anser att matematik är universums språk?
+answer: Galileo.
+wrong_answers:
+  - Kepler.
+  - Newton.
+  - Copernicus.
+explanation: |
+  Galileo är känd för sitt påstående att "naturens bok är skriven på ett matematiskt språk". Denna vision har haft ett djupgående inflytande på modern vetenskap och rationalistisk filosofi, inklusive Spinozas.
+reviewed: false

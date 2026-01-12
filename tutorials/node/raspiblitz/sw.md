@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: Mwongozo wa kusanidi RaspiBlitz yako
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 
 RaspiBlitz ni Njia ya Umeme ya kukufanya-wewe-mwenyewe (LND na/au Umeme wa Msingi) inayoendesha pamoja na Bitcoin-Fullnode kwenye RaspberryPi (1TB SSD) na onyesho zuri kwa usanidi na ufuatiliaji kwa urahisi.
@@ -17,22 +17,22 @@ RaspiBlitz inalengwa hasa kwa kujifunza jinsi ya kuendesha nodi yako mwenyewe il
 RASPIBLITZ - Jinsi ya Kuendesha Umeme na Bitcoin Full node kwa kipindi cha BTC
 
 
-# Mwongozo wa Kuweka Raspiblitz wa Parman
+## Mwongozo wa Kuweka Raspiblitz wa Parman
 
 
-Raspiblitz ni mfumo bora wa kuendesha Njia ya Bitcoin na programu zinazohusiana. Ninapendekeza hii ya Nodi Yangu kwa watumiaji wengi (Kuwa na nodi mbili za upunguzaji kwa njia bora.) Faida moja kuu ni kwamba nodi ya Raspiblitz ni "Programu ya Bure ya Open Source", tofauti na MyNode au Umbrel. Kwa nini hilo ni muhimu? Vlad Costa anaelezea. Unaweza pia kuendesha RaspbiBlitz kwa muunganisho wa WiFi badala ya ethernet - huu ni mwongozo wa ziada kwa hilo. (Sijapata njia ya kufanya hivyo na MyNode).
+Raspiblitz ni mfumo bora wa kuendesha Node ya Bitcoin na programu zinazohusiana. Ninapendekeza hii na Node ya MyNode kwa watumiaji wengi (iwe bora kuwa na nodes mbili kwa upungufu wa hatari). Faida kuu ni kwamba Node ya Raspiblitz ni "Free Open Source Software", tofauti na MyNode au Umbrel. [Kwa nini hilo ni muhimu? Vlad Costa anaeleza.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Pia unaweza kuendesha Raspiblitz kwa muunganisho wa WiFi badala ya ethernet – hapa kuna [mwongozo wa ziada](https://armantheparman.com/headless-wifi/) kwa hilo. (Sijapata njia ya kufanya hivyo na MyNode).
 
 
 Unaweza kununua node iliyopangwa tayari na skrini ndogo iliyounganishwa, au unaweza kuijenga mwenyewe (huhitaji skrini).
 
 
-Mwongozo kwenye ukurasa wa github ni bora, lakini ikiwezekana ni wa kina sana kwa mtumiaji mwenye uzoefu wa wastani. Maagizo yangu yatakuwa mafupi zaidi na tunatumahi kuwa rahisi kuyafuata.
+[Mwongozo kwenye ukurasa wa GitHub](https://github.com/rootzoll/raspiblitz) ni bora, lakini huenda ukawa na maelezo mengi sana kwa mtumiaji mwenye uzoefu wa wastani. Maelekezo yangu yatakuwa mafupi zaidi na natumai rahisi kufuata.
 
 
-Kimsingi, mchakato huo unafanana sana na mchakato wa kuanzisha node ya MyNode na Raspberry Pi 4. Mwongozo wa Raspiblitz unapendekeza kununua na kufuatilia, lakini kwa kweli huhitaji moja, na singependekeza. Huhitaji hata kibodi au panya ya ziada. Fikia tu menyu ya terminal ya kifaa kupitia kompyuta kwenye mtandao huo wa nyumbani, na utumie amri ya ssh kwa kutumia terminal. Hii inawezekana kwa Linux/Mac (rahisi) na ngumu kidogo na Windows.
+Kimsingi, mchakato huu ni sawa sana na mchakato wa kusanidi [node ya MyNode](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) kwa kutumia Raspberry Pi 4. Mwongozo wa Raspiblitz unapendekeza ununue skrini, lakini kwa kweli huhitaji moja, na mimi nisingependekeza. Hata huhitaji kibodi au kipanya cha ziada. Ingia tu kwenye menyu ya terminal ya kifaa kupitia kompyuta iliyo kwenye mtandao wa nyumbani huo huo, na utumie amri ya ssh kwa kutumia terminal. Hii inawezekana na Linux/Mac (rahisi) na ni ngumu kidogo na Windows.
 
 
-## Hatua ya 1: Nunua vifaa.
+### Hatua ya 1: Nunua vifaa.
 
 
 Unahitaji vifaa sawa ambavyo unahitaji kuendesha nodi ya MyNode. Unaweza kujaribu moja au nyingine, tofauti pekee ni data kwenye kadi ndogo ya SD.
@@ -69,33 +69,34 @@ Hii ni haraka, lakini ni ghali sana:
 ![image](assets/3.webp)
 
 
-## Hatua ya 2: Pakua Picha ya Raspiblitz
+### Hatua ya 2: Pakua Picha ya Raspiblitz
 
 
-Nenda kwenye tovuti ya Raspiblitz github, na upate kiungo cha "pakua picha":
+Nenda kwenye [tovuti ya GitHub ya Raspiblitz](https://github.com/rootzoll/raspiblitz), na upate kiungo cha “download image”:
 
 
 ![image](assets/4.webp)
 
 
-Sha-256 Hash ya faili iliyopakuliwa imetolewa kwenye tovuti. Itabadilika kwa kila sasisho. Huelewi hii inahusu nini, unapaswa, kwa hivyo niliandika mwongozo ambao unaweza kusoma hapa.
+Hash ya sha-256 ya faili lililopakuliwa imetolewa kwenye tovuti. Itabadilika kila sasisho. Ikiwa huelewi hii inahusu nini, unapaswa kuelewa, kwa hivyo niliandika [mwongozo ambao unaweza kusoma hapa.](https://armantheparman.com/gpg/)
 
 
 ![image](assets/5.webp)
 
 
-## Hatua ya 3: Thibitisha Picha
+### Hatua ya 3: Thibitisha Picha
 
 
 Kabla ya kuendelea, ikiwa hujui njia yako karibu na mfumo wa faili kwenye mstari wa amri, ni rahisi kujifunza, na unapaswa.
 
 
-Hapa kuna video muhimu kwa Linux, lakini inatumika kwa Mac pia.
+Hapa kuna [video yenye msaada kwa Linux, lakini pia inatumika kwa Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
 
-Kwa Windows, hapa kuna mafunzo rahisi.
+Kwa Windows, hapa kuna [mafunzo rahisi](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
 
 
+_SASISHO: Uthibitishaji wa pgp/gpg sasa unapatikana. Utahitaji ufunguo wa umma wa Openoms. [Hapa](http://parman.org/downloadable/openoms.txt) ndio ulipo (huenda ukahitaji hali fiche ili kiungo kifanye kazi – http, sio https)_
 Mac/Linux
 
 
@@ -128,10 +129,10 @@ ambapo `xxxxxxxxxxxxxx` ni jina la faili ambayo umepakua hivi punde. Ikiwa hauko
 Kompyuta inafikiri kwa sekunde 20 au hivyo. Angalia kuwa faili ya pato inalingana na ile iliyopakuliwa kutoka kwa wavuti katika hatua ya awali. Ikiwa ni sawa, unaweza kuendelea.
 
 
-## Hatua ya 4: Flash kadi ya SD
+### Hatua ya 4: Flash kadi ya SD
 
 
-Unaweza kutumia Balena Etcher kufanya hivi. Ipakue hapa.
+Unaweza kutumia Balena Etcher kufanya hivi. [Ipakue hapa](https://www.balena.io/etcher/).
 
 
 Etcher inajieleza mwenyewe kutumia. Ingiza kadi yako ndogo ya SD na uangaze programu ya Raspiblitz (faili.img) kwenye kadi ya SD.
@@ -152,7 +153,7 @@ Etcher inajieleza mwenyewe kutumia. Ingiza kadi yako ndogo ya SD na uangaze prog
 Mara baada ya kumaliza, hifadhi haisomeki tena. Unaweza kupata hitilafu kutoka kwa mfumo wa uendeshaji, na gari linapaswa kutoweka kutoka kwa desktop. Vuta kadi.
 
 
-## Hatua ya 5: Sanidi Pi na ingiza kadi ya SD
+### Hatua ya 5: Sanidi Pi na ingiza kadi ya SD
 
 
 Sehemu (kesi haijaonyeshwa):
@@ -182,7 +183,7 @@ Hatimaye, unganisha nguvu:
 ![image](assets/14.webp)
 
 
-## Hatua ya 6: Pata IP Address ya Pi
+### Hatua ya 6: Pata IP Address ya Pi
 
 
 Kamwe hauhitaji kifuatiliaji na Raspiblitz. Hata hivyo, unahitaji kompyuta nyingine kwenye mtandao wa nyumbani. Ikiwa wewe ni Pi hujaunganishwa na ethaneti, na unataka kutegemea WiFi, kupata IP kunahitaji ujuzi fulani wa kompyuta. Haiwezi kukusaidia, samahani. Unahitaji muunganisho wa ethaneti. (Tatizo linatokana na kuhitaji ufikiaji wa kifuatiliaji na mfumo wa uendeshaji ili kuunganisha WiFi na kuingiza nenosiri.)
@@ -200,7 +201,7 @@ Kupata IP ni muhimu.
 **Kumbuka:** unaweza kutumia terminal kwenye Mac au Linux ili kupata IP Address ya vifaa vyote vilivyounganishwa vya Ethaneti kwenye mtandao wa nyumbani kwa kutumia amri ya “arp -a”. Matokeo sio mazuri kama yale ambayo kipanga njia kitaonyesha, lakini habari yote unayohitaji iko. Ikiwa haijulikani ni ipi, fanya majaribio na makosa.
 
 
-## Hatua ya 7: SSH kwenye Pi
+### Hatua ya 7: SSH kwenye Pi
 
 
 Kumbuka kuweka kadi ya SD kwenye Pi kabla ya kuiwasha. Subiri dakika chache, na kisha kwenye Linux/Mac nyingine, fungua terminal.
@@ -214,7 +215,7 @@ ssh admin@You_Pi's_IP_address
 ```
 
 
-Kwa Windows, utahitaji kusakinisha putty ili ssh kwenye Pi. Andika amri sawa na hapo juu.
+Kwa Windows, utahitaji kusakinisha [putty](http://putty.org/) ili kuingia kwenye Pi kwa ssh. Andika amri ile ile kama hapo juu.
 
 
 Mara ya kwanza unapofanya hivi, au wakati wowote unapobadilisha OS ya Pi kwa kubadili kadi ya SD, unaweza kupata au usipate hitilafu hii...

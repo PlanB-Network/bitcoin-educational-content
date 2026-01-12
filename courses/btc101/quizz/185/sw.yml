@@ -1,8 +1,8 @@
-question: Kwa kulinganisha na sarafu ya fiat, Bitcoin inachukuliwaje?
-answer: Kama uchumi sambamba.
+question: OpenNode ni nini?
+answer: Suluhisho rahisi la mtandaoni kwa biashara kukubali Bitcoin.
 wrong_answers:
-  - Kama uchumi badala.
-  - Kama uchumi wa viwanda.
-  - Kama uchumi wa juu.
+  - Aina ya nodi ya Bitcoin ambayo hutumiwa wakati huo huo na watumiaji wengi.
+  - Programu ya Bitcoin Mining ambayo ni chanzo huria.
+  - Jukwaa la Bitcoin Exchange.
 explanation: >-
 reviewed: true

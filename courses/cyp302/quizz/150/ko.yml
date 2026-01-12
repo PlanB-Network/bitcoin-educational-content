@@ -1,0 +1,9 @@
+question: RSA 암호 시스템의 맥락에서, 두 소수 p와 q의 곱은 무엇에 해당하나요?
+answer: 연산 모듈러스로 사용되는 정수 N을 구성합니다
+wrong_answers:
+  - 공개 키를 구성합니다
+  - 암호 해독 키 역할을 합니다
+  - 지수 e를 generate으로 만드는 데만 사용됩니다
+explanation: |
+  RSA에서 정수 N은 두 개의 큰 소수 p와 q의 곱이며, 암호화 및 복호화 작업의 모듈러스로 사용됩니다.
+reviewed: false

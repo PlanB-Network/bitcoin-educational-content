@@ -1,0 +1,9 @@
+question: UTXO kuri Bitcoin ni iki?
+answer: Igipande ca Bitcoin kitarakoreshwa.
+wrong_answers:
+  - Bitcoin Address kugira ngo umuntu aronke amahera.
+  - Ubwoko budasanzwe bwa Bitcoin Wallet.
+  - Uburyo bwo gupfuka amakuru bwa Bitcoin.
+explanation: |
+  UTXO ni umusaruro w’ibikorwa bitakoreshejwe, rero mu vy’ukuri ni “igice ca Bitcoin”.
+reviewed: false

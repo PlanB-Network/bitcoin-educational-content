@@ -1,0 +1,12 @@
+question: Ni ibihe bintu nyamukuru biranga ifaranga rikora neza?
+answer: Ishobora guhinduka, Igabanywa, Liquid.
+wrong_answers:
+  - Ishobora guhinduka, Igabanywa, Ishobora kwonona.
+  - Ishobora guhinduka, Idashobora kugabanywa, Liquid.
+  - Ibidahinduka, Bigabanywa, Liquid.
+explanation: |
+  Ifaranga ryiza ritegerezwa kuba rishobora guhindurwa (rishobora guhindurwa
+  ata gutakaza agaciro), bishobora kugabanywa (bigabanywamwo bitobito .
+  ibice vyo kworohereza ibikorwa vy’ubudandaji vy’ibipimo bitandukanye), na .
+  Liquid (ishobora guhindurwa bitagoranye mu bicuruzwa canke mu bikorwa).
+reviewed: true

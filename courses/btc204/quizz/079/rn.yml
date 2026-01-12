@@ -1,0 +1,10 @@
+question: Ni ijambo irihe ridondora uburinzi butangwa na CoinJoin ku bijanye n’isesengura ry’ibikorwa vya Coin vyo muri kazoza?
+answer: Ivyiza bizoshika.
+wrong_answers:
+  - Ivy’ugusubira inyuma anonset.
+  - Uguhangana n’ugukurikirana.
+  - Ubuzima bwite bw’igihe gito.
+explanation: |
+  Uburinzi bwo gusesangura kuva kera gushika ubu ni co bita prospective anonset.
+  
+reviewed: false

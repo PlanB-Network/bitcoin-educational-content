@@ -1,0 +1,9 @@
+question: Que software combina as funções Full node e Wallet?
+answer: Bitcoin core
+wrong_answers:
+  - Sparrow wallet
+  - Ashigaru
+  - Wallet de Satoshi
+explanation: |
+  O Bitcoin core actua como um Full node e um Wallet, ao contrário de outros pacotes de software, que são apenas software de gestão de Wallet.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Bir Bitcoin düğümünün ana işlevi nedir?
+answer: Blockchain'i kaydedin ve işlemleri ve blokları doğrulayın
+wrong_answers:
+  - Özel anahtarları depolayın ve işlemler oluşturun
+  - Kullanıcılar için yeni adresler oluşturma
+  - Bitcoinleri fiat para birimlerine dönüştürün
+explanation: |
+  Bir Bitcoin düğümü Blockchain'nin bir kopyasını tutar ve işlemlerin ve blokların doğrulanmasına ve aktarılmasına katılır.
+reviewed: true

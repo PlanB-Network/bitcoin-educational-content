@@ -1,0 +1,12 @@
+question: Ni ingaruka izihe zagize iyo Banki y’Ubwongereza imanuye amabanki yigenga mu kibanza ca kabiri mu bijanye n’amahera?
+answer: Layer ya gatatu y'amafaranga yararemwe
+wrong_answers:
+  - Banki y'Ubwongereza yarasenyutse .
+  - Agaciro k'inzahabu karaduze
+  - Banki ya Amsterdam ni yo yabaye ikibanza nyamukuru c'ubutunzi kw'isi yose .
+explanation: |
+  Igihe Banki y’Ubwongereza yamanura amabanki yigenga mu kibanza ca kabiri .
+  mu bijanye n’amahera, haciye hashirwaho Layer ya gatatu y’amahera. Ivyo bimenyetso vyasohowe
+  n’amabanki yigenga ntivyari bigishobora guhindurwamwo inzahabu ahubwo vyari bihinduwemwo amafaranga y’impapuro kuva 1990.
+  Banki y’Ubwongereza, iyo na yo ubwayo yari ishobora guhindurwa inzahabu.
+reviewed: false

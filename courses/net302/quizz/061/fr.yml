@@ -6,4 +6,4 @@ wrong_answers:
   - Une adresse réservée à la documentation technique
 explanation: |
   Une adresse anycast est attribuée à plusieurs équipements, et le routage livre le paquet à celui qui est topologiquement le plus proche.
-reviewed: false
+reviewed: true 

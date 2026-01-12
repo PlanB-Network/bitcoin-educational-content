@@ -1,0 +1,9 @@
+question: Ni igiki ubuhinga bwo gufungura inkomoko butatu butuma ama node ari muri iyo nama ashikako?
+answer: Amafaranga yinjira n'asohoka muri buri nzira
+wrong_answers:
+  - Amafaranga y'inzira yagabanutse
+  - Umubare utagira aho ugarukira w'amafaranga ata kwemeza
+  - Ihuza ry'uruja n'uruza n'iyindi nzira yose y'urubuga
+explanation: |
+  Ubuhinga bwo gufungura inkomoko butatu butuma urudodo rumwe rumwe rushobora gushika ku bushobozi buringaniye, bwo kwinjira n’ubwo gusohoka, mu gukora uruzitiro rw’imirongo hagati y’abaje mu nama benshi.
+reviewed: false

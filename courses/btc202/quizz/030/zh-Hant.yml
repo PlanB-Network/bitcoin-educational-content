@@ -1,0 +1,9 @@
+question: node-in-a-box 相較於原始實作的主要優勢是什麼？
+answer: 簡易安裝與整合應用程式管理
+wrong_answers:
+  - 對共識規則進行更嚴格的驗證
+  - 直接存取 Blockchain，無須儲存
+  - 與 Bitcoin 以外的貨幣相容
+explanation: |
+  node-in-a-box 可透過統一的 Interface 簡化許多輔助應用程式的安裝與管理。
+reviewed: true

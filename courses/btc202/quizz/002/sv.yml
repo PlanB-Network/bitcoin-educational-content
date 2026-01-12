@@ -1,0 +1,9 @@
+question: Vilken databas har en Bitcoin-nod lokalt för att spåra outnyttjad produktion?
+answer: UTXO-uppsättningen
+wrong_answers:
+  - Mempool
+  - Blockchain
+  - Wallet:s historia
+explanation: |
+  Noden behåller UTXO-uppsättningen, som är den uppsättning outnyttjade utgångar som är tillgängliga för framtida transaktioner.
+reviewed: true

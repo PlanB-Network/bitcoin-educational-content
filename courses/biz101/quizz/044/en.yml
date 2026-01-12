@@ -6,4 +6,4 @@ wrong_answers:
   - Elimination of commercial taxes  
 explanation: |  
   Transaction fees on the Lightning Network are very low, making it a cost-effective solution for merchants.  
-reviewed: false  
+reviewed: true  

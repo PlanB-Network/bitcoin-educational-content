@@ -1,4 +1,2 @@
 description: |
   Bitcoin Knots to alternatywna implementacja protokołu Bitcoin, wywodząca się z Bitcoin Core. Zaprojektowany i utrzymywany przez Luke'a Dashjra, Knots oferuje dodatkową funkcjonalność i dostosowanie reguł, pozostając jednocześnie kompatybilnym z innymi węzłami w sieci. Bitcoin Knots może być używany do zarządzania zintegrowanym portfelem lub do działania jako prosty węzeł z pełną walidacją. Oferuje bardziej zaawansowaną kontrolę dla doświadczonych użytkowników, szczególnie w zakresie walidacji i konfiguracji transakcji.
-contributor_names:
-  - LoicPandul

@@ -1,0 +1,9 @@
+question: Ni uruhe rwego rwa porogarame bigaragara ko ari rumwe mu bibanza bihambaye cane vyo kwinjiramwo ibitero vy’inyabwonko?
+answer: Mucukumbuzi
+wrong_answers:
+  - Umusomyi wa PDF
+  - Umuhinduzi w’inyandiko
+  - Igice kijejwe gutunganya dosiye
+explanation: |
+  Mucukumbuzi iguma ikorana n’ibintu vyo hanze, ivyo bikaba bituma iba ikintu cambere co guterwa n’abasuma.
+reviewed: true

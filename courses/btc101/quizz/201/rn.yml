@@ -1,0 +1,10 @@
+question: Ni imwe mu ngaruka zishobora guterwa n’ukudakurikiza amabwirizwa y’igihugu cawe igihe ugura Bitcoin?
+answer: Ushobora kwishira mu kaga.
+wrong_answers:
+  - Ushobora kwongera igiciro ca Bitcoin.
+  - Ushobora kugenzura Supply ya Bitcoin.
+  - Ushobora kubuza abandi kugura Bitcoin.
+explanation: |
+  Ivyanditswe vy’amashure bivuga ko kudakurikiza amabwirizwa .
+  y’igihugu cawe igihe ugura Bitcoin bishobora kugushira mu kaga.
+reviewed: true

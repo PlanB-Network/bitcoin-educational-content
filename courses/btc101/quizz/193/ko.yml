@@ -1,0 +1,12 @@
+question: 자발적 구매란 무엇인가요?
+answer: Bitcoin을 즉시 구매하여 노출을 확보하세요.
+wrong_answers:
+  - Bitcoin을 정기적으로 구매합니다.
+  - 가격이 하락할 때만 Bitcoin를 구매합니다.
+  - 가격이 상승할 때만 Bitcoin를 구매합니다.
+explanation: |
+  코스 텍스트에서는 자발적 구매를 다음과 같이 설명합니다
+  를 사용하여 Bitcoin에 즉시 노출된다고 설명합니다. 예를 들어
+  크래시 중에 구매하거나
+  보너스.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Jakie są trzy główne korzyści płynące z regularnych aktualizacji systemu operacyjnego i aplikacji?
+answer: Bezpieczeństwo, niezawodność, funkcjonalność
+wrong_answers:
+  - Szybkość, anonimowość, kompatybilność
+  - Bezpieczeństwo, pamięć, przechowywanie
+  - Poufność, funkcjonalność, niezawodność
+explanation: |
+  Aktualizacje zapewniają bezpieczeństwo przed lukami w zabezpieczeniach, kompatybilność z ewolucjami i nowymi funkcjami oraz niezawodność systemu.
+reviewed: true

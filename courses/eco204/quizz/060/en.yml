@@ -5,8 +5,5 @@ wrong_answers:
   - To compete with the Bank of Amsterdam
   - To regulate the stock market
 explanation: |
-  The Bank of England was created at the end of the 17th century with
-  the
-  primary motivation of financing the war. It imposed deposits by decree and relegated
-  private banks to a secondary position in the monetary system.
-reviewed: false
+  The Bank of England was created at the end of the 17th century with the primary motivation of financing the war. It imposed deposits by decree and relegated private banks to a secondary position in the monetary system.
+reviewed: true

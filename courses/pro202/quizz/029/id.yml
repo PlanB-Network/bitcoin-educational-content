@@ -1,0 +1,8 @@
+question: Selama validasi transaksi Bitcoin, apa yang harus diverifikasi oleh node untuk memastikan setiap input diotorisasi dengan benar untuk mengeluarkan output yang direferensikan?
+answer: ScriptSig harus berhasil membuka kunci ScriptPubKey yang sesuai saat dijalankan bersama
+wrong_answers:
+  - "Tanda tangan digital input harus sama persis dengan kunci publik yang disematkan pada output"
+  - Hash transaksi harus sama dengan akar merkle yang disimpan di header blok yang direferensikan
+  - Jumlah input harus lebih besar atau sama dengan jumlah output yang dibelanjakan
+explanation: |
+  Sistem skrip Bitcoin mengharuskan setiap ScriptSig (skrip pembuka) input harus berhasil dieksekusi dengan ScriptPubKey (skrip pengunci) output yang direferensikan untuk menghasilkan hasil yang benar pada stack. Model eksekusi skrip ini memungkinkan kondisi pengeluaran yang fleksibel di luar pencocokan tanda tangan yang sederhana. Opsi lainnya menjelaskan persyaratan validasi yang salah - tanda tangan tidak perlu sama persis dengan kunci yang disematkan, hash transaksi tidak dibandingkan dengan akar merkle selama validasi input, dan input individu tidak perlu melebihi outputnya (hanya total input yang harus melebihi total output).

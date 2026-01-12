@@ -61,9 +61,9 @@ Silných stránek Nmapu je mnoho:
 
 
 
-- Výkonný a flexibilní**: Nmap dokáže skenovat rozsáhlé sítě a používat pokročilé detekční techniky. Podporuje protokoly UDP, TCP, ICMP, IPv4 a IPv6 a může provádět detekci verzí, skenování zranitelností nebo interakce specifických protokolů. Jeho architektura je modulární, zejména díky skriptům NSE (Nmap Scripting Engine), kterým se budeme věnovat později v tomto kurzu.
-- Snadné používání**: oficiální dokumentace je bohatá a kvalitní. K dispozici jsou také četné komunitní zdroje, které vám pomohou začít.
-- Oblíbenost a dlouhá životnost**: Nmap je referencí ve svém oboru již od roku 1998. Aktuální verze v době této aktualizace je 7.95. Ačkoli pro specifické úlohy existují i jiné nástroje, Nmap zůstává pro mapování a analýzu sítí nepostradatelným nástrojem.
+- **Výkonný a flexibilní**: Nmap dokáže skenovat rozsáhlé sítě a používat pokročilé detekční techniky. Podporuje protokoly UDP, TCP, ICMP, IPv4 a IPv6 a může provádět detekci verzí, skenování zranitelností nebo interakce specifických protokolů. Jeho architektura je modulární, zejména díky skriptům NSE (Nmap Scripting Engine), kterým se budeme věnovat později v tomto kurzu.
+- **Snadné používání**: oficiální dokumentace je bohatá a kvalitní. K dispozici jsou také četné komunitní zdroje, které vám pomohou začít.
+- **Oblíbenost a dlouhá životnost**: Nmap je referencí ve svém oboru již od roku 1998. Aktuální verze v době této aktualizace je 7.95. Ačkoli pro specifické úlohy existují i jiné nástroje, Nmap zůstává pro mapování a analýzu sítí nepostradatelným nástrojem.
 
 
 
@@ -87,7 +87,7 @@ Objevuje se i v dalších filmových dílech.
 
 
 
-**Zpětná vazba
+**Zpětná vazba**
 
 
 
@@ -133,7 +133,7 @@ Před použitím nástroje Nmap je nutné si uvědomit jeho potenciální dopad 
 
 - Může odeslat **tisíce nebo dokonce miliony paketů** v krátkém časovém úseku, což může zahltit některé síťové infrastruktury.
 - Může generate **zdeformované nebo nestandardní** pakety, které mohou narušit některá zařízení (zejména průmyslové systémy).
-- Může vyvolat chování podobné útoku**, které může vyvolat výstrahy v bezpečnostních systémech (firewally, IDS/IPS atd.).
+- Může vyvolat chování podobné útoku, které může vyvolat výstrahy v bezpečnostních systémech (firewally, IDS/IPS atd.).
 
 
 
@@ -334,7 +334,7 @@ $ dnf search '^nmap$'
 
 
 
-Odpověď zde jasně naznačuje, že balíček "nmap" v repozitářích (zde v repozitářích Kali [Linux](https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/ "Linux")) existuje. Od této chvíle můžete Nmap instalovat pomocí obvyklých instalačních příkazů, nic odzbrojujícího zatím 🙂 :
+Odpověď zde jasně naznačuje, že balíček "nmap" v repozitářích (zde v repozitářích Kali [Linux](https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/ "Linux")) existuje. Od této chvíle můžete Nmap instalovat pomocí obvyklých instalačních příkazů, nic odzbrojujícího zatím 🙂:
 
 
 
@@ -389,7 +389,7 @@ Chcete-li instalovat do operačního systému Windows, začněte stažením bin�
 
 
 
-Poté je třeba stáhnout binární soubor s názvem `nmap-<VERSION>-setup.exe` :
+Poté je třeba stáhnout binární soubor s názvem `nmap-<VERSION>-setup.exe`:
 
 
 
@@ -433,7 +433,7 @@ Jedná se o knihovnu, na kterou se Nmap spoléhá při správě síťové komuni
 
 
 
-Stejně jako v Linuxu můžete ověřit, zda je Nmap nainstalován, otevřením příkazového řádku nebo terminálu [Powershell] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") a zadáním následujícího příkazu:
+Stejně jako v Linuxu můžete ověřit, zda je Nmap nainstalován, otevřením příkazového řádku nebo terminálu [Powershell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") a zadáním následujícího příkazu:
 
 
 
@@ -485,25 +485,25 @@ Ať už v systému Linux nebo Windows, existuje mnoho případů, kdy vás Nmap 
 
 
 
-- Konstrukce "surových" síťových paketů**: Nmap umí širokou škálu metod skenování, včetně pokročilé manipulace s pakety a jejich konstrukce. To je například případ, kdy chceme provádět skenování TCP SYN, které nerespektuje klasický _Three-way handshake_ výměny TCP. K tomu Nmap potřebuje použít jiné funkce než ty, které jsou nativní pro operační systémy, které jediné umí respektovat správné postupy v síťové komunikaci (volá knihovny "Npcap" a "libcap", které jsme viděli výše). Právě proto, že Nmap nedělá věci "standardním" způsobem, je schopen odvodit určité informace o operačních systémech, službách a některých zranitelnostech.
+- **Konstrukce "surových" síťových paketů**: Nmap umí širokou škálu metod skenování, včetně pokročilé manipulace s pakety a jejich konstrukce. To je například případ, kdy chceme provádět skenování TCP SYN, které nerespektuje klasický *Three-way handshake* výměny TCP. K tomu Nmap potřebuje použít jiné funkce než ty, které jsou nativní pro operační systémy, které jediné umí respektovat správné postupy v síťové komunikaci (volá knihovny "Npcap" a "libcap", které jsme viděli výše). Právě proto, že Nmap nedělá věci "standardním" způsobem, je schopen odvodit určité informace o operačních systémech, službách a některých zranitelnostech.
 
 
 
 
 
-- Naslouchat síťovému provozu**: některé možnosti Nmapu vyžadují, aby naslouchal síti za účelem získání určitých informací. Tato činnost je v operačních systémech považována za citlivou, protože umožňuje odposlouchávat i komunikaci jiných aplikací v systému. Stejně jako Wireshark potřebuje Nmap k této činnosti specifická oprávnění, která lze snáze získat, pokud se nacházíte přímo v privilegované relaci.
+- **Naslouchat síťovému provozu**: některé možnosti Nmapu vyžadují, aby naslouchal síti za účelem získání určitých informací. Tato činnost je v operačních systémech považována za citlivou, protože umožňuje odposlouchávat i komunikaci jiných aplikací v systému. Stejně jako Wireshark potřebuje Nmap k této činnosti specifická oprávnění, která lze snáze získat, pokud se nacházíte přímo v privilegované relaci.
 
 
 
 
 
-- Naslouchání na privilegovaných portech**: v operačních systémech jsou porty od 0 do 1024 (TCP i UDP) považovány za privilegované, tj. jsou nějakým způsobem vyhrazeny pro velmi specifické použití, a proto jsou chráněny. Ačkoli je to dnes již poněkud zastaralý důvod, pro naslouchání na těchto portech je stále nutné mít určitá oprávnění, což Nmap může mít v závislosti na způsobu použití.
+- **Naslouchání na privilegovaných portech**: v operačních systémech jsou porty od 0 do 1024 (TCP i UDP) považovány za privilegované, tj. jsou nějakým způsobem vyhrazeny pro velmi specifické použití, a proto jsou chráněny. Ačkoli je to dnes již poněkud zastaralý důvod, pro naslouchání na těchto portech je stále nutné mít určitá oprávnění, což Nmap může mít v závislosti na způsobu použití.
 
 
 
 
 
-- Odesílání paketů UDP:** Podobně naslouchání síťové aplikaci na portech UDP (bezstavový protokol) vyžaduje v operačních systémech privilegovaná práva. Pokud tedy chcete provést skenování UDP, při kterém bude muset Nmap naslouchat na odpověď, aby mohl analyzovat odpovědi na své skenování, bude vyžadována relace s privilegiem.
+- Odesílání paketů UDP: Podobně naslouchání síťové aplikaci na portech UDP (bezstavový protokol) vyžaduje v operačních systémech privilegovaná práva. Pokud tedy chcete provést skenování UDP, při kterém bude muset Nmap naslouchat na odpověď, aby mohl analyzovat odpovědi na své skenování, bude vyžadována relace s privilegiem.
 
 
 
@@ -562,13 +562,13 @@ Od této chvíle nezapomeňte skenovat pouze hostitele v kontrolovaném prostře
 
 
 
-- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")** : Hack The Box je tréninková platforma pro hackery, která vám neustále poskytuje zranitelné systémy, na které můžete útočit, jak uznáte za vhodné. K dispozici je několik stovek systémů, ale celoročně je zdarma nabízen obnovený fond 20 strojů s přístupem přes OpenVPN VPN.
+- [Hack The Box](https://app.hackthebox.com/ "Hack The Box"): Hack The Box je tréninková platforma pro hackery, která vám neustále poskytuje zranitelné systémy, na které můžete útočit, jak uznáte za vhodné. K dispozici je několik stovek systémů, ale celoročně je zdarma nabízen obnovený fond 20 strojů s přístupem přes OpenVPN VPN.
 
 
 
 
 
-- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")** : Tato platforma nabízí ke stažení množství záměrně zranitelných systémů, které lze použít prostřednictvím VirtualBoxu (rovněž bezplatné řešení) nebo jiným způsobem. Po stažení není třeba používat VPN - vše je lokální.
+- [Vulnhub](https://www.vulnhub.com/ "Vulnhub"): Tato platforma nabízí ke stažení množství záměrně zranitelných systémů, které lze použít prostřednictvím VirtualBoxu (rovněž bezplatné řešení) nebo jiným způsobem. Po stažení není třeba používat VPN - vše je lokální.
 
 
 
@@ -661,7 +661,7 @@ Host is up (0.00022s latency).
 
 
 
-Nakonec nás Nmap informuje, že 998 portů TCP identifikovaných jako uzavřené není zobrazeno v :
+Nakonec nás Nmap informuje, že 998 portů TCP identifikovaných jako uzavřené není zobrazeno v:
 
 
 
@@ -671,7 +671,7 @@ Not shown: 998 closed tcp ports (conn-refused)
 
 
 
-To nám ušetří téměř 1 000 řádků výstupu, který vypadá jako :
+To nám ušetří téměř 1 000 řádků výstupu, který vypadá jako:
 
 
 
@@ -715,7 +715,7 @@ Po těchto informacích najdeme to nejzajímavější: tabulku uspořádanou pod
 
 
 
-Pokud se podíváte do souboru /etc/services v systému Linux, najdete odkaz "port/protokol - služba" podobný tomu, který zobrazuje Nmap :
+Pokud se podíváte do souboru /etc/services v systému Linux, najdete odkaz "port/protokol - služba" podobný tomu, který zobrazuje Nmap:
 
 
 
@@ -815,7 +815,7 @@ odpověď na paket TCP SYN odeslaný na port 22, aktivní v cíli skenování
 
 
 
-Na obrázku výše vidíme paket TCP SYN/ACK odeslaný cílovým hostitelem**. Port je aktivní a vystavuje službu. Nmap potvrdí přijetí odpovědi a poté ukončí spojení (TCP RST/ACK). **Takto zjistil, že port TCP/22 je aktivní**.
+Na obrázku výše vidíme paket TCP SYN/ACK odeslaný cílovým hostitelem. Port je aktivní a vystavuje službu. Nmap potvrdí přijetí odpovědi a poté ukončí spojení (TCP RST/ACK). **Takto zjistil, že port TCP/22 je aktivní**.
 
 
 
@@ -913,7 +913,7 @@ výtah z RFC 1122._
 
 
 
-Podívejme se blíže na tento snímek Wireshark, který ukazuje **tři možné scénáře** v protokolu UDP :
+Podívejme se blíže na tento snímek Wireshark, který ukazuje **tři možné scénáře** v protokolu UDP:
 
 
 
@@ -976,7 +976,7 @@ Jak jsme viděli, pokud nezadáte žádné možnosti, Nmap sám vybere počet a 
 
 
 
-**Jak se tyto porty vybírají?
+**Jak se tyto porty vybírají?**
 
 
 
@@ -1060,11 +1060,11 @@ Bez ohledu na pořadí bude Nmap kontrolovat všechny tyto porty a pouze ty, kte
 
 
 
-**Skenování řady portů
+**Skenování řady portů**
 
 
 
-Pokud je počet portů, které chcete skenovat, příliš velký, můžete je zadat podle rozsahu, například :
+Pokud je počet portů, které chcete skenovat, příliš velký, můžete je zadat podle rozsahu, například:
 
 
 
@@ -1096,7 +1096,7 @@ nmap 192.168.1.19 -p 22,80,1000-2000,3389
 
 
 
-**Skenování portů TCP a UDP
+**Skenování portů TCP a UDP**
 
 
 
@@ -1134,7 +1134,7 @@ To je zajímavý způsob, jak si přizpůsobit skenování!
 
 
 
-**Skenování všech portů
+**Skenování všech portů**
 
 
 
@@ -1250,7 +1250,7 @@ nmap 192.168.0.0/24
 
 
 
-Stejně jako u portů v předchozí části je možné zadat více hostitelů, více sítí nebo rozsah :
+Stejně jako u portů v předchozí části je možné zadat více hostitelů, více sítí nebo rozsah:
 
 
 
@@ -1347,7 +1347,7 @@ Je v tom ale něco víc. Na výše uvedeném snímku Wiresharku můžete vidět,
 
 
 
-**Proč posílat pakety TCP na porty v rámci zjišťování sítě?
+**Proč posílat pakety TCP na porty v rámci zjišťování sítě?**
 
 
 
@@ -1437,7 +1437,7 @@ Podrobné informace o možnostech naší poslední objednávky:
 
 
 
-- "`-PP` : povoluje ICMP echo (ping scan) pro zjišťování hostitele.
+- "`-PP`: povoluje ICMP echo (ping scan) pro zjišťování hostitele.
 
 
 
@@ -2012,7 +2012,7 @@ Za tímto účelem se Nmap spoléhá na skripty NSE (_Nmap Scripting Engine_), k
 
 
 
-Pomocí správných voleb požádáme Nmap, aby použil své různé skripty NSE na každou objevenou službu, což nám umožní zjistit :
+Pomocí správných voleb požádáme Nmap, aby použil své různé skripty NSE na každou objevenou službu, což nám umožní zjistit:
 
 
 
@@ -2165,31 +2165,31 @@ Aby bylo jasno: Nmap není schopen provést kompletní penetrační test vašeho
 
 
 
-- Omezené pokrytí**: Přestože jsou skripty NSE Nmapu výkonné, jejich pokrytí testů může být ve srovnání s jinými specializovanými nástroji pro odhalování zranitelností omezené. Některé zranitelnosti nemusí být dostupnými skripty NSE pokryty, například zranitelnosti služby Active Directory, odhalení citlivých dat nebo pokročilejší případy zranitelných webových aplikací.
+- **Omezené pokrytí**: Přestože jsou skripty NSE Nmapu výkonné, jejich pokrytí testů může být ve srovnání s jinými specializovanými nástroji pro odhalování zranitelností omezené. Některé zranitelnosti nemusí být dostupnými skripty NSE pokryty, například zranitelnosti služby Active Directory, odhalení citlivých dat nebo pokročilejší případy zranitelných webových aplikací.
 
 
 
 
 
-- Složitost zranitelnosti**: některé typy zranitelností může být obtížné odhalit pomocí skriptů NSE kvůli jejich složitosti. Například zranitelnosti vyžadující složitou interakci se vzdálenou službou nemusí být pomocí Nmap efektivně odhaleny (jako v případě nadměrných oprávnění ve sdíleném souboru nebo chyby v řízení oprávnění ve webové aplikaci).
+- **Složitost zranitelnosti**: některé typy zranitelností může být obtížné odhalit pomocí skriptů NSE kvůli jejich složitosti. Například zranitelnosti vyžadující složitou interakci se vzdálenou službou nemusí být pomocí Nmap efektivně odhaleny (jako v případě nadměrných oprávnění ve sdíleném souboru nebo chyby v řízení oprávnění ve webové aplikaci).
 
 
 
 
 
-- Pasivní detekce**: Nmap se při detekci zranitelností zaměřuje především na aktivní skenování, což znamená, že bez navázání aktivního spojení s cílovými hostiteli nemusí efektivně odhalit potenciální zranitelnosti. Zranitelnosti, které se během aktivního skenování neprojeví, proto mohou být přehlédnuty (jako v případě injektáže kódu ve webové aplikaci).
+- **Pasivní detekce**: Nmap se při detekci zranitelností zaměřuje především na aktivní skenování, což znamená, že bez navázání aktivního spojení s cílovými hostiteli nemusí efektivně odhalit potenciální zranitelnosti. Zranitelnosti, které se během aktivního skenování neprojeví, proto mohou být přehlédnuty (jako v případě injektáže kódu ve webové aplikaci).
 
 
 
 
 
-- Závislost na aktualizacích**: [databáze](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) skriptů NSE se neustále vyvíjí, ale mezi objevením nové zranitelnosti a přidáním odpovídajícího skriptu do Nmapu může dojít ke zpoždění. V důsledku toho nemusí být Nmap vždy aktuální s nejnovějšími zranitelnostmi.
+- **Závislost na aktualizacích**: [databáze](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) skriptů NSE se neustále vyvíjí, ale mezi objevením nové zranitelnosti a přidáním odpovídajícího skriptu do Nmapu může dojít ke zpoždění. V důsledku toho nemusí být Nmap vždy aktuální s nejnovějšími zranitelnostmi.
 
 
 
 
 
-- Falešně pozitivní a falešně negativní výsledky**: Stejně jako u jiných bezpečnostních nástrojů mohou skripty NSE Nmapu vytvářet falešně pozitivní (falešná upozornění na zranitelnosti) nebo falešně negativní výsledky (skutečné zranitelnosti nebyly odhaleny). To je třeba mít na paměti při analýze výsledků aplikace Nmap.
+- **Falešně pozitivní a falešně negativní výsledky**: Stejně jako u jiných bezpečnostních nástrojů mohou skripty NSE Nmapu vytvářet falešně pozitivní (falešná upozornění na zranitelnosti) nebo falešně negativní výsledky (skutečné zranitelnosti nebyly odhaleny). To je třeba mít na paměti při analýze výsledků aplikace Nmap.
 
 
 
@@ -2198,7 +2198,7 @@ Proto je důležité pochopit, co Nmap dělá a nedělá, a stejně tak vědět,
 
 
 
-Ať už jste správce síťového systému, bezpečnostní inženýr nebo dokonce CISO, pomocí nástroje Nmap získáte přehled o stavu zabezpečení informačního systému. Jedná se o důležitý první krok k zabezpečení systému, který může tým IT provádět pravidelně. Neměl by však nahradit zásah a rady odborníků [na kybernetickou bezpečnost] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), kteří budou schopni odhalit slabá místa mnohem komplexněji než Nmap.
+Ať už jste správce síťového systému, bezpečnostní inženýr nebo dokonce CISO, pomocí nástroje Nmap získáte přehled o stavu zabezpečení informačního systému. Jedná se o důležitý první krok k zabezpečení systému, který může tým IT provádět pravidelně. Neměl by však nahradit zásah a rady odborníků [na kybernetickou bezpečnost](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), kteří budou schopni odhalit slabá místa mnohem komplexněji než Nmap.
 
 
 
@@ -2240,20 +2240,20 @@ Tyto skripty jsou uspořádány podle kategorií a jeden skript může patřit d
 
 | Catégorie       | Description |
 |----------------|-------------|
-| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples : `oracle-enum-users`, `ftp-anon`. |
-| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples : `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
-| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples : `ssh-brute`, `vnc-brute`. |
+| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples: `oracle-enum-users`, `ftp-anon`. |
+| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
+| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples: `ssh-brute`, `vnc-brute`. |
 | **default**    | Contient les scripts utilisés dans le cas par défaut (utilisation de `-sC`). Plusieurs critères sont utilisés afin de valider l’entrée d’un script dans cette catégorie dont la vitesse d’exécution, la structure de la sortie, la fiabilité du test, le caractère “intrusif” ou “risqué”, etc. |
-| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples : `mysql-info`, `http-security-headers`. |
-| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples : `http-slowloris`, `ipv6-ra-flood`. |
-| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples : `http-shellsock`, `smb-vuln-ms08-067`. |
-| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples : `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
-| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples : `dns-fuzz`, `http-form-fuzzer`. |
-| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples : `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
-| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples : `ftp-proftpd-backdoor`, `smtp-strangeport`. |
-| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples : `html-title`, `smb2-security-mode`, `ms-sql-info`. |
-| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples : `http-php-version`, `vmware-version`. |
-| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples : `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
+| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples: `mysql-info`, `http-security-headers`. |
+| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples: `http-slowloris`, `ipv6-ra-flood`. |
+| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples: `http-shellsock`, `smb-vuln-ms08-067`. |
+| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
+| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples: `dns-fuzz`, `http-form-fuzzer`. |
+| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
+| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
+| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
+| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples: `http-php-version`, `vmware-version`. |
+| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
 
 Technicky jsou kategorie, do kterých skript patří, uvedeny přímo v jeho kódu.
@@ -2300,7 +2300,7 @@ seznam skriptů NSE Nmap s názvy začínajícími na `ftp-`._
 
 
 
-Nmap ve skutečnosti nenabízí možnost procházení a výpis skriptů NSE; můžete použít příkaz `--script-help` následovaný názvem kategorie nebo slovem :
+Nmap ve skutečnosti nenabízí možnost procházení a výpis skriptů NSE; můžete použít příkaz `--script-help` následovaný názvem kategorie nebo slovem:
 
 
 
@@ -2356,7 +2356,7 @@ Nyní se naučíme provádět skenování zranitelností pečlivým výběrem sk
 
 
 
-Pro začátek můžeme zvolit spuštění všech skriptů patřících do určité kategorie. Tuto kategorii nebo tyto kategorie musíme Nmapu označit argumentem `--script <category>` :
+Pro začátek můžeme zvolit spuštění všech skriptů patřících do určité kategorie. Tuto kategorii nebo tyto kategorie musíme Nmapu označit argumentem `--script <category>`:
 
 
 
@@ -2606,7 +2606,7 @@ Ve výchozím nastavení nabízí Nmap podrobné zobrazení výsledků proveden�
 
 
 
-Pro usnadnění práce umožňuje [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) velmi snadno uložit výstup do textového souboru. To může být užitečné pro archivaci, porovnání s jinými testy, ale také pro prohlížení tohoto výstupu pomocí specializovaných nástrojů pro zpracování textu nebo skriptovacích jazyků, jako je Sublime text, [PowerShell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/), Python, grep, sed atd. Pro uložení standardního výstupu Nmapu do textového souboru můžeme použít volbu `-oN <jméno souboru>` (písmeno "N" ve slově "normal") :
+Pro usnadnění práce umožňuje [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) velmi snadno uložit výstup do textového souboru. To může být užitečné pro archivaci, porovnání s jinými testy, ale také pro prohlížení tohoto výstupu pomocí specializovaných nástrojů pro zpracování textu nebo skriptovacích jazyků, jako je Sublime text, [PowerShell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/), Python, grep, sed atd. Pro uložení standardního výstupu Nmapu do textového souboru můžeme použít volbu `-oN <jméno souboru>` (písmeno "N" ve slově "normal"):
 
 
 
@@ -2720,7 +2720,7 @@ Formát XML se v rámci aplikace Nmap používá k podrobným zprávám generate
 
 
 
-Chceme-li výstupní soubor generate ve formátu XML, musíme použít volbu `-oX` ("O" od "XML") :
+Chceme-li výstupní soubor generate ve formátu XML, musíme použít volbu `-oX` ("O" od "XML"):
 
 
 
@@ -2892,7 +2892,7 @@ Při skenování zaměřeném na mnoho hostitelů a portů bude výstup terminá
 
 
 
-Chcete-li dále sledovat činnost programu Nmap během skenování, můžete použít volbu `--packet-trace`. S volbou `-v` získáme živý protokol všech otevřených portů, které Nmap objevil, zatímco s touto volbou získáme řádek protokolu pro každý paket odeslaný na port. To přirozeně vytváří velmi mnohomluvný výstup, ale umožňuje podrobné sledování činnosti Nmapu, zde je příklad :
+Chcete-li dále sledovat činnost programu Nmap během skenování, můžete použít volbu `--packet-trace`. S volbou `-v` získáme živý protokol všech otevřených portů, které Nmap objevil, zatímco s touto volbou získáme řádek protokolu pro každý paket odeslaný na port. To přirozeně vytváří velmi mnohomluvný výstup, ale umožňuje podrobné sledování činnosti Nmapu, zde je příklad:
 
 
 
@@ -2973,7 +2973,7 @@ Díky možnosti ukládat výsledky skenování Nmap ve formátu XML jsou data ko
 
 
 
-Zmíním se o několika útočných nástrojích, aniž bych podrobně popsal, jak se používají a jak fungují. Budu předpokládat, že čtenář je seznámen s jejich základním použitím a že jsou již funkční. Tato část bude zajímavá zejména pro profesionály [v oblasti kybernetické bezpečnosti] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), lidi ve výcviku nebo pro ty, kteří se rozhodli do této problematiky hlouběji ponořit.
+Zmíním se o několika útočných nástrojích, aniž bych podrobně popsal, jak se používají a jak fungují. Budu předpokládat, že čtenář je seznámen s jejich základním použitím a že jsou již funkční. Tato část bude zajímavá zejména pro profesionály [v oblasti kybernetické bezpečnosti](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), lidi ve výcviku nebo pro ty, kteří se rozhodli do této problematiky hlouběji ponořit.
 
 
 
@@ -3062,7 +3062,7 @@ seznam služeb importovaných ze souboru XML do databáze Metasploitu
 
 
 
-Nakonec můžeme tato data snadno a rychle znovu použít v modulu díky volbě `-R`, která "převede" seznam služeb získaný jako vstup pro direktivu `RHOSTS`, která slouží k určení cílů prováděného útoku. Zde je příklad s modulem `ssh_login`, který umožňuje provést útok hrubou silou na služby [SSH] (https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/):
+Nakonec můžeme tato data snadno a rychle znovu použít v modulu díky volbě `-R`, která "převede" seznam služeb získaný jako vstup pro direktivu `RHOSTS`, která slouží k určení cílů prováděného útoku. Zde je příklad s modulem `ssh_login`, který umožňuje provést útok hrubou silou na služby [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/):
 
 
 
@@ -3669,7 +3669,7 @@ sniffing sítě během skenování TCP Connect na otevřený port
 
 
 
-Vidíme, že první odeslaný paket TCP je `TCP SYN` odeslaný klientem a server poté odpoví zprávou `TCP SYN/ACK`, což znamená, že port je otevřený a je na něm aktivní služba. Aby Nmap simuloval legitimního klienta po celé délce, pošle poté serveru zpět `TCP ACK`. Naopak při skenování uzavřeného portu :
+Vidíme, že první odeslaný paket TCP je `TCP SYN` odeslaný klientem a server poté odpoví zprávou `TCP SYN/ACK`, což znamená, že port je otevřený a je na něm aktivní služba. Aby Nmap simuloval legitimního klienta po celé délce, pošle poté serveru zpět `TCP ACK`. Naopak při skenování uzavřeného portu:
 
 
 
@@ -3928,7 +3928,7 @@ zachycení sítě během skenování TCP Null pro otevřený port
 
 
 
-Skenovací zařízení odešle bezpříznakový paket (`[<None>]` v programu Wireshark) bez odpovědi ze serveru. Naopak, když je cílový port uzavřen :
+Skenovací zařízení odešle bezpříznakový paket (`[<None>]` v programu Wireshark) bez odpovědi ze serveru. Naopak, když je cílový port uzavřen:
 
 
 

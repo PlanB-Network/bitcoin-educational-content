@@ -1,0 +1,9 @@
+question: Milline on Bitcoin core parameetri dbcache vaikeväärtus?
+answer: 450 MiB
+wrong_answers:
+  - 128 MiB
+  - 1 GiB
+  - 4 GiB
+explanation: |
+  Vaikimisi jaotab Bitcoin core vahemällu 450 MiB (472 MB).
+reviewed: true

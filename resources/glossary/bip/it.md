@@ -7,17 +7,17 @@ Acronimo di "Bitcoin Improvement Proposal" Una Bitcoin Improvement Proposal (BIP
 I PIF sono classificati in tre categorie principali:
 
 
-- Standard Track BIP*: Riguardano modifiche che influiscono direttamente sulle implementazioni di Bitcoin, come le regole di convalida delle transazioni e dei blocchi;
-- PIF informativi*: Forniscono informazioni o raccomandazioni senza proporre modifiche dirette al protocollo;
-- Processo BIP*: Descrivere i cambiamenti nelle procedure relative a Bitcoin, come i processi di governance.
+- Standard Track BIP: Riguardano modifiche che influiscono direttamente sulle implementazioni di Bitcoin, come le regole di convalida delle transazioni e dei blocchi;
+- **PIF informativi**: Forniscono informazioni o raccomandazioni senza proporre modifiche dirette al protocollo;
+- Processo **BIP**: Descrivere i cambiamenti nelle procedure relative a Bitcoin, come i processi di governance.
 
 I PIF di tipo Standards Track e Informational sono classificati anche per "Layer":
 
 
-- Livello di consenso*: Le PIF di questo livello riguardano le regole di consenso di Bitcoin, come le modifiche alle regole di convalida dei blocchi o delle transazioni. Queste proposte possono essere soft fork (modifiche compatibili con il passato) o hard fork (modifiche non compatibili con il passato). Ad esempio, i BIP per SegWit e Taproot appartengono a questa categoria;
-- Servizi Peer*: Questo livello riguarda il funzionamento della rete di nodi Bitcoin, cioè il modo in cui i nodi si trovano e comunicano tra loro su Internet.
-- API/RPC*: I BIP di questo livello riguardano le Application Programming Interfaces (API) e le Remote Procedure Calls (RPC) che permettono al software Bitcoin di interagire con i nodi;
-- Livello applicazioni*: Questo livello riguarda le applicazioni costruite sopra Bitcoin. I PIF di questa categoria si occupano tipicamente di modifiche a livello di standard dei portafogli Bitcoin.
+- Livello di consenso: Le PIF di questo livello riguardano le regole di consenso di Bitcoin, come le modifiche alle regole di convalida dei blocchi o delle transazioni. Queste proposte possono essere soft fork (modifiche compatibili con il passato) o hard fork (modifiche non compatibili con il passato). Ad esempio, i BIP per SegWit e Taproot appartengono a questa categoria;
+- Servizi **Peer**: Questo livello riguarda il funzionamento della rete di nodi Bitcoin, cioè il modo in cui i nodi si trovano e comunicano tra loro su Internet.
+- **API/RPC**: I BIP di questo livello riguardano le Application Programming Interfaces (API) e le Remote Procedure Calls (RPC) che permettono al software Bitcoin di interagire con i nodi;
+- Livello applicazioni: Questo livello riguarda le applicazioni costruite sopra Bitcoin. I PIF di questa categoria si occupano tipicamente di modifiche a livello di standard dei portafogli Bitcoin.
 
 Il processo di presentazione di un PIF inizia con la concettualizzazione e la discussione dell'idea sulla mailing list *Bitcoin-dev*. Se l'idea è promettente, l'autore redige una PIF seguendo un formato specifico e la invia tramite una richiesta di pull sul repository GitHub del Core. I redattori esaminano la proposta per verificare che soddisfi tutti i criteri. La PIF deve essere tecnicamente fattibile, vantaggiosa per il protocollo, conforme alla formattazione richiesta e in linea con la filosofia di Bitcoin. Se il PIF soddisfa queste condizioni, viene ufficialmente integrato nel repository GitHub dei PIF. Gli viene quindi assegnato un numero. Questo numero è generalmente deciso dall'editore, spesso Luke Dashjr, ed è assegnato in modo logico: I PIF che trattano argomenti simili ricevono spesso numeri consecutivi.
 

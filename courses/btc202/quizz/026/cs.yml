@@ -1,0 +1,9 @@
+question: Kdo vymyslel koncept zjednodušeného ověřování plateb (SPV)?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Hal Finney
+  - Adam Back
+  - Pieter Wuille
+explanation: |
+  SPV je představen v 8. části Bílé knihy Satoshi Nakamoto.
+reviewed: true

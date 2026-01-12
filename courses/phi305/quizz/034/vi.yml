@@ -1,0 +1,9 @@
+question: Lamarck là ai?
+answer: Một nhà tự nhiên học người Pháp sống trước Darwin.
+wrong_answers:
+  - Một triết gia người Hà Lan.
+  - Một học trò của Spinoza.
+  - Một họa sĩ cổ điển.
+explanation: |
+  Jean-Baptiste de Lamarck (1744-1829) là nhà tự nhiên học người Pháp, người đã đề xuất thuyết tiến hóa trước Darwin. Thuyết biến đổi của ông bao gồm tính di truyền của các đặc điểm thu được.
+reviewed: false

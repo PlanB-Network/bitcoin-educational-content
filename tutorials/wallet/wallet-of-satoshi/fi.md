@@ -1,8 +1,14 @@
 ---
-name: Wallet ja Satoshi
+name: Wallet of Satoshi
 description: Yksinkertaisin huoltajien Wallet, jolla pääsee alkuun
 ---
 ![cover](assets/cover.webp)
+
+---
+
+*Huomio: vuoden 2026 alusta lähtien Wallet of Satoshi custodial-tilassa (kuten tässä oppaassa esitetään) ei ole enää saatavilla Euroopan unionissa. Jos asut tällä alueella ja haluat jatkaa tämän työkalun käyttöä, sinun on käytettävä EU:n ulkopuolelle sijoitettua VPN-yhteyttä. Toinen vaihtoehto on käyttää Wallet of Satoshia self-custodial-tilassa. Erillinen opas julkaistaan pian Plan ₿ Academyssa.*
+
+---
 
 _Tämän ohjeen on kirjoittanut_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
@@ -12,7 +18,7 @@ _Tämän ohjeen on kirjoittanut_ [Bitcoin Campus](https://linktr.ee/bitcoincampu
 
 Satoshi:n Wallet on Lightning Network Wallet, huoltajuus, ja se on hyvin helppokäyttöinen.
 
-Kurssilla [BTC105 - Finding Now] (https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) sitä käytetään Redeem Lightning Network-seteliin.
+Kurssilla [BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) sitä käytetään Redeem Lightning Network-seteliin.
 
 
 **Aina muista**: ei avaimia, ei kolikoita
@@ -26,7 +32,7 @@ Säilytettävät lompakot eivät anna käyttäjille täyttä määräysvaltaa va
 Satoshi:n Wallet (WoS) on säilytyspalvelu, mutta sillä on tietty maine. Voimme kohtuullisesti turvautua esimerkiksi WoS:n kaltaiseen välineeseen lisätaksemme kykyämme saada likviditeettiä. Delegoimme WoS:lle tilapäisesti "likaisen työn" eli kanavien likviditeetin hallinnan puolestamme. Kun tietty määrä on saavutettu, tyhjennämme WoS:n On-Chain:n ei-vartioitavaan Wallet:ään.
 
 
-**WARNING⚠️: On suositeltavaa lukea opetusohjelma kokonaisuudessaan ennen kuin jatkat****
+**WARNING⚠️: On suositeltavaa lukea opetusohjelma kokonaisuudessaan ennen kuin jatkat**
 
 
 ### Satoshi:n Wallet:n lataaminen
@@ -79,8 +85,8 @@ Satoshi:n Wallet on lähettänyt viestin ilmoitettuun sähköpostilaatikkoon.
 Postilaatikossa on kaksi sanaa, jotka meidän on kirjoitettava uudelleen sovelluksen osoittamaan tilaan.
 
 
-- älä aktivoi kääntäjää: sanat ovat ja niiden on pysyttävä englanniksi**
-- kirjoita nämä kaksi sanaa uudelleen kiinnittäen huomiota isoihin ja pieniin kirjaimiin**
+- älä aktivoi kääntäjää: sanat ovat ja niiden on pysyttävä englanniksi
+- kirjoita nämä kaksi sanaa uudelleen kiinnittäen huomiota isoihin ja pieniin kirjaimiin
 
 
 ![image](assets/it/10.webp)

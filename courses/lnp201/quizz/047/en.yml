@@ -6,4 +6,4 @@ wrong_answers:
   - Automatically calculate transaction fees
 explanation: |
   LNURL is a communication protocol designed to simplify interactions, such as withdrawals and payments, between nodes and Lightning applications.
-reviewed: false
+reviewed: true

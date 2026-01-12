@@ -1,0 +1,9 @@
+question: Bir düğümü hızlı bir şekilde kullanılabilir hale getirmek için UTXO setinin anlık görüntüsünü yüklemek için hangi mekanizma kullanılabilir?
+answer: assumeutxo
+wrong_answers:
+  - assumechainstate
+  - txindex
+  - notxindex
+explanation: |
+  Assumeutxo, düğümü hızlı bir şekilde çalışır hale getirmek için UTXO setinin anlık görüntüsünü yüklerken, arka planda tüm UTXO setini yeniden oluşturur.
+reviewed: true

@@ -1,0 +1,11 @@
+question: None Bitcoin Wallet ifise intumbero iyihe?
+answer: Kugira ngo ubike imfunguruzo z’ibanga kugira ngo ukoreshe amafaranga y’ibiceri.
+wrong_answers:
+  - Kugira ngo ukoreshe ibikoresho vy’ibikoresho kugira ngo ucukure bitcoins.
+  - Kugura ama bitcoins biciye ku rufunguzo rwa bose.
+  - Kugira ngo ubike ama bitcoins ku gikoresho.
+explanation: |
+  Bitcoin wallets ni ubwoko bwa porogaramu ikoreshwa mu
+  kubika imfunguruzo z'ibanga zigufasha gukoresha
+  ibiceri.
+reviewed: true

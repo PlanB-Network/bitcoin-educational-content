@@ -1,0 +1,9 @@
+question: Jakého filozofického směru je Spinoza představitelem?
+answer: Racionalismus.
+wrong_answers:
+  - Romantické hnutí.
+  - Scholastika.
+  - Strukturalismus.
+explanation: |
+  Spinoza je vedle Descarta a Leibnize považován za jednoho z největších představitelů racionalismu 17. století. Rozvinul filozofii založenou na rozumu a logice, která se snažila pochopit svět spíše prostřednictvím racionálních principů než víry nebo tradice.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Ku bwa Bastiat, uburenganzira bwo kuronka umutungo bwoba bwaremwe n’amategeko canke burabubanziriza?
+answer: imbere y'itegeko
+wrong_answers:
+  - ryaremwe n'itegeko
+  - ryaremwe n’ishirahamwe ry’imibano Contract.
+  - bivanye n'ubushake bwa rusangi
+explanation: |
+  Bastiat abona ko uburenganzira bwo kuronka umutungo ari uburenganzira busanzwe bubanza itegeko, rikwiye gusa gutuma buburanirwa.

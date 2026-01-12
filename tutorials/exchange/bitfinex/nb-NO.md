@@ -12,7 +12,7 @@ Bitfinex støtter aktivt utviklingen av Bitcoin, investerer i teknologier som Li
 
 ## 1 - Opprette en Bitfinex-konto
 
-Gå til [det offisielle Bitfinex-nettstedet] (https://www.bitfinex.com/). På hjemmesiden, finn og klikk på "*Sign Up *" -alternativet for å begynne å opprette kontoen din.
+Gå til [det offisielle Bitfinex-nettstedet](https://www.bitfinex.com/). På hjemmesiden, finn og klikk på "*Sign Up *" -alternativet for å begynne å opprette kontoen din.
 
 ![BITFINEX](assets/fr/01.webp)
 
@@ -22,11 +22,11 @@ Fyll ut den nødvendige informasjonen: skriv inn e-postadressen din og bostedsla
 
 For tips om bruk og sikring av sterke, unike passord, se også denne veiledningen :
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Vi skal nå konfigurere 2FA for å sikre kontoen. Bruk et autentiseringsprogram på smarttelefonen din, for eksempel Google Authenticator eller Authy. Du finner en veiledning om dette verktøyet her :
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Skann QR-koden med appen din, og skriv inn de seks sifrene som følger med.
 
@@ -53,10 +53,10 @@ Kontoen din er nå opprettet. Klikk på "*Logg inn*" for å få tilgang til plat
 Bitfinex bruker en bekreftelsesprosess (KYC) som er i samsvar med gjeldende regelverk. I "Basic" -modus er det umulig å gjøre innskudd, uttak eller transaksjoner, noe som gjør det viktig å oppnå minst verifikasjonsnivået "Basic Plus", eller til og med "Intermediate" eller "Full" om nødvendig:
 
 
-- Basic* er en ren visningsmodus som gjør det mulig å se plattformen uten å utføre noen operasjoner;
-- Basic Plus* gir tilgang til viktige funksjoner, inkludert spotmarkedstransaksjoner og utvalgte innskudds- og uttaksmuligheter;
-- Intermediate* gir tilgang til avanserte tjenester som marginhandel, lån, P2P- og OTC-transaksjoner, og tilbyr kortere innskuddsfrister;
-- Full* gir deg tilgang til internasjonale bankoverføringer og alle plattformens funksjoner.
+- **Basic** er en ren visningsmodus som gjør det mulig å se plattformen uten å utføre noen operasjoner;
+- **Basic Plus** gir tilgang til viktige funksjoner, inkludert spotmarkedstransaksjoner og utvalgte innskudds- og uttaksmuligheter;
+- **Intermediate** gir tilgang til avanserte tjenester som marginhandel, lån, P2P- og OTC-transaksjoner, og tilbyr kortere innskuddsfrister;
+- **Full** gir deg tilgang til internasjonale bankoverføringer og alle plattformens funksjoner.
 
 For hvert nivå kreves det ytterligere dokumenter for verifisering. For de fleste brukere er *Basic Plus*- eller *Intermediate*-kontoer vanligvis tilstrekkelig.
 
@@ -79,11 +79,11 @@ Fullfør trinnene ved å oppgi den forespurte informasjonen og dokumentene. Når
 Når du er logget inn, vil du se en navigasjonslinje øverst i grensesnittet med: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", osv. Bitfinex tilbyr et bredt spekter av funksjoner, inkludert :
 
 
-- Handel**: "*klassisk*" marked der du kan legge inn ordre om å kjøpe og selge kryptovalutaer (inkludert bitcoin);
-- OTC**: Over-The-Counter-tjeneste for handel med store volumer direkte med en annen aktør, utenfor de offentlige ordrebøkene;
-- Finansiering**: Område dedikert til utlån og marginfinansiering;
-- Derivater**: Seksjon for derivater (futures osv.), beregnet på erfarne tradere;
-- P2P**: Lar deg kjøpe eller selge kryptoer fra andre brukere på peer-to-peer-basis.
+- **Handel**: "*klassisk*" marked der du kan legge inn ordre om å kjøpe og selge kryptovalutaer (inkludert bitcoin);
+- **OTC**: Over-The-Counter-tjeneste for handel med store volumer direkte med en annen aktør, utenfor de offentlige ordrebøkene;
+- **Finansiering**: Område dedikert til utlån og marginfinansiering;
+- **Derivater**: Seksjon for derivater (futures osv.), beregnet på erfarne tradere;
+- **P2P**: Lar deg kjøpe eller selge kryptoer fra andre brukere på peer-to-peer-basis.
 
 For standard bruk (kjøp/salg av bitcoins og innskudd/uttak) bruker du hovedsakelig "*Trading*"-fanen, samt "*Wallet*"-, "*Deposit*"- og "*Withdraw*"-seksjonene.
 
@@ -167,9 +167,9 @@ Bitfinex tilbyr også innskudds- og uttaksmuligheter via Lightning Network, noe 
 
 Hvis du er interessert i Lightning Network, har vi også et komplett opplæringskurs som hjelper deg med å forstå hvordan det fungerer:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Etter at du har kjøpt dine første bitcoins, har du selvsagt muligheten til å la dem bli værende på plattformen, men jeg anbefaler på det sterkeste å overføre dem til din egen lommebok i egen forvaring. Hvis du ennå ikke vet hvordan du bruker en Bitcoin-lommebok, inviterer jeg deg til å utforske [delen "Lommebok" på Plan ₿ Network] (https://planb.network/tutorials/wallet).
+Etter at du har kjøpt dine første bitcoins, har du selvsagt muligheten til å la dem bli værende på plattformen, men jeg anbefaler på det sterkeste å overføre dem til din egen lommebok i egen forvaring. Hvis du ennå ikke vet hvordan du bruker en Bitcoin-lommebok, inviterer jeg deg til å utforske [delen "Lommebok" på Plan ₿ Academy](https://planb.academy/tutorials/wallet).
 
 ## 6 - Kjøp og salg av bitcoins på Bitfinex
 

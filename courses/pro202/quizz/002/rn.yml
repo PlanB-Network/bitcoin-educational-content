@@ -1,0 +1,8 @@
+question: Dushingiye ku ciyumviro gito ca Fermat, ni igiki gihinduka c’ugukubita c’ikintu n kiri mu gisata c’intango F(p)?
+answer: n^(urupapuro-2) guhindura p
+wrong_answers:
+  - n^(p-1) guhindura p
+  - n^(p+1) guhindura p
+  - n^(p+2) guhindura p
+explanation: |
+  Iciyumviro gito ca Fermat kivuga ko n^(p-1) ≡ 1 (mod p) ku kintu cose kitari zero n kiri mu gisata c'intango. Kugira ngo turonke insobanuro y’ugukubita, turakeneye agaciro iyo tugwijwe na n itanga 1. Kubera ko n^(p-1) ≡ 1, turashobora gusubira kwandika ivyo ngo n · n^(p-2) ≡ 1, tukagaragaza ko n^(p-2) ari insobanuro y’ugukubita kwa n. Ayandi mahitamwo ntabwo ari meza: n^(p-1) ingana na 1 n'itegeko rya Fermat, mu gihe n^(p+1) na n^(p+2) vyotanga agaciro kangana na n^2 na n^3 hakurikijwe iyo modulo p igabanutse.

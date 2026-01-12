@@ -1,0 +1,9 @@
+question: Ni ryari -u ihitamwo muri lsof ikoreshwa?
+answer: Kuyungurura hakurikijwe umukoresha
+wrong_answers:
+  - Guhatira DNS gutorera umuti
+  - Kugaragaza ivyuho vyuguruye
+  - Kugaragaza umukozi wa DNS
+explanation: |
+  Ihitamwo -u muri lsof rigabanya igisohoka ku madosiye yuguruwe n'umukoresha canke UID.
+reviewed: false

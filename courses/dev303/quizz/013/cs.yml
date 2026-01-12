@@ -1,0 +1,8 @@
+question: Co se stane, když se proměnná v systému vlastnictví Rust dostane mimo obor?
+answer: Hodnota je automaticky vyřazena a její paměť je uvolněna
+wrong_answers:
+  - Hodnota je přesunuta do globálního oboru pro opakované použití
+  - Hodnota se stane neměnnou a zůstane v paměti
+  - Hodnota je zkopírována do záložního umístění z důvodu bezpečnosti
+explanation: |
+  V systému vlastnictví Rust se při opuštění oboru proměnné (typicky při opuštění bloku definovaného kudrnatými závorkami) automaticky zruší její hodnota a uvolní se paměť. Toto automatické vyčištění je implementováno pomocí mechanismu drop v jazyce Rust, kdy jazyk implicitně volá funkci drop pro proměnné, které se dostanou mimo obor. Tím je zajištěna správná správa zdrojů, aniž by programátor musel explicitně zadávat kód pro vyčištění, podle vzoru RAII převzatého z jazyka C++.

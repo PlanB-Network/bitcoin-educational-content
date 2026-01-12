@@ -1,0 +1,8 @@
+question: Que propriedade matemática garante que todo o elemento não nulo de um campo primo F(p) tem um inverso multiplicativo?
+answer: O campo é definido por um número primo p
+wrong_answers:
+  - O campo contém exatamente p-1 elementos
+  - O campo utiliza operações aritméticas modulares
+  - O campo suporta a adição e a multiplicação
+explanation: |
+  Um campo finito F(p) deve ser definido por um número primo p para garantir que cada elemento não nulo tem um inverso multiplicativo. Este é um requisito fundamental da teoria dos campos - quando p é primo, os números inteiros módulo p formam um campo onde a divisão é sempre possível (exceto por zero). Se p fosse composto, alguns elementos não nulos não teriam inversos, quebrando a estrutura do campo. Enquanto as outras opções descrevem propriedades de campos finitos, apenas a primalidade de p garante a existência de inversos multiplicativos para todos os elementos não nulos.

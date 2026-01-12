@@ -1,5 +1,5 @@
 ---
-name: Snelheid Wallet
+name: Speed Wallet
 description: Direct betalen en Exchange in bitcoins en USDT
 ---
 ![cover](assets/cover.webp)
@@ -49,7 +49,7 @@ In deze tutorial nemen we elk van deze aspecten met je door om je ervaring met S
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Aan de slag met Speed Wallet
 
@@ -79,7 +79,7 @@ Speed Wallet vereist het aanmaken van een gebruikersaccount. Je kunt er een aanm
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![download](assets/fr/01.webp)
 
@@ -89,7 +89,7 @@ Zodra je account is aangemaakt, raden we je aan om een dubbel authenticatiesyste
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Ga hiervoor naar de applicatie-instellingen en activeer dubbele authenticatie en biometrische verificatie.
 
@@ -143,7 +143,7 @@ Op de **Wallet** startpagina vindt u :
 
 
 
-- Betalingen ontvangen op Speed Wallet :**
+- Betalingen ontvangen op Speed Wallet:
 
 
 
@@ -161,7 +161,7 @@ Je kunt ook gewoon je Lightning Address gebruiken als je de verzender de flexibi
 
 
 
-- Bitcoins versturen met Speed Wallet** :
+- **Bitcoins versturen met Speed Wallet**:
 
 
 
@@ -191,7 +191,7 @@ Met de **Koop** en **Wissel** opties kun je Exchange bitcoins wisselen voor ande
 
 
 
-- Koop Bitcoin met je creditcard**: Speed Wallet maakt het gemakkelijk om Bitcoin te kopen van de fiatvaluta's die je elke dag gebruikt. Het bevat een betalingsaggregator waarmee je bitcoins kunt betalen met je creditcard.
+- **Koop Bitcoin met je creditcard**: Speed Wallet maakt het gemakkelijk om Bitcoin te kopen van de fiatvaluta's die je elke dag gebruikt. Het bevat een betalingsaggregator waarmee je bitcoins kunt betalen met je creditcard.
 
 
 
@@ -201,13 +201,13 @@ Met de **Koop** en **Wissel** opties kun je Exchange bitcoins wisselen voor ande
 
 
 
-- Bitcoin kopen van andere cryptocurrencies**: U kunt Exchange uw USDT, USDC voor bitcoins in uw Wallet en vice versa. Door deze optie vereenvoudigt Speed Wallet het proces van Bitcoin kopen en verkopen, zonder naar externe Exchange platforms te hoeven verwijzen. Je kunt dus handelen voor slechts 20.000 satoshis, ongeveer $20 tegen de huidige koers, zonder je Speed Wallet te verlaten.
+- **Bitcoin kopen van andere cryptocurrencies**: U kunt Exchange uw USDT, USDC voor bitcoins in uw Wallet en vice versa. Door deze optie vereenvoudigt Speed Wallet het proces van Bitcoin kopen en verkopen, zonder naar externe Exchange platforms te hoeven verwijzen. Je kunt dus handelen voor slechts 20.000 satoshis, ongeveer $20 tegen de huidige koers, zonder je Speed Wallet te verlaten.
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ![swap-btc](assets/fr/07.webp)
 
@@ -265,7 +265,7 @@ Bekijk hieronder onze handleiding om aan de slag te gaan met Bitrefill.
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Verdien beloningen
 
@@ -327,13 +327,13 @@ In de **Instellingen** optie op de **Wallet** pagina, kunt u in het **Mini Apps*
 
 
 
-https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
+https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
 
 ## Snelheid Wallet is niet alleen voor mobiel!
 
 
 
-Naast de mobiele applicatie biedt Speed Wallet ook een [Chrome Web extensie] (https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk) die je kunt toevoegen aan de Google Chrome browser van je computer voor beveiligde transacties.
+Naast de mobiele applicatie biedt Speed Wallet ook een [Chrome Web extensie](https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk) die je kunt toevoegen aan de Google Chrome browser van je computer voor beveiligde transacties.
 
 
 
@@ -365,7 +365,7 @@ Speed Wallet legt vooral de nadruk op de integratie en het gebruik van Bitcoin e
 
 
 
-Met [Speed Business] (https://www.tryspeed.com/) heb je een uniforme betalingsaggregator om Bitcoin te accepteren, aangedreven door Lightning Network, die je kunt gebruiken in je winkel, online of fysiek.
+Met [Speed Business](https://www.tryspeed.com/) heb je een uniforme betalingsaggregator om Bitcoin te accepteren, aangedreven door Lightning Network, die je kunt gebruiken in je winkel, online of fysiek.
 
 
 
@@ -375,25 +375,25 @@ De volgende opties zijn voornamelijk gericht op betalingen:
 
 
 
-- Online betalingen**: Met deze optie kunt u Bitcoin accepteren als betaalmiddel voor uw digitale producten, via betaallinks, facturering en abonnementen.
+- **Online betalingen**: Met deze optie kunt u Bitcoin accepteren als betaalmiddel voor uw digitale producten, via betaallinks, facturering en abonnementen.
 
 
 
 
 
-- Betalingen ter plaatse**: Om betalingen in je winkel te innen.
+- **Betalingen ter plaatse**: Om betalingen in je winkel te innen.
 
 
 
 
 
-- Directe betalingen**: Een optie waarmee je vergoedingen, opnames, uitgaven en loonstroken van werknemers rechtstreeks vanuit Speed Business Interface kunt beheren.
+- **Directe betalingen**: Een optie waarmee je vergoedingen, opnames, uitgaven en loonstroken van werknemers rechtstreeks vanuit Speed Business Interface kunt beheren.
 
 
 
 
 
-- Platformbetalingen**: Verbind je Speed Business-account met externe tools die je gebruikt voor overschrijvingen en betalingen naar deze platforms.
+- **Platformbetalingen**: Verbind je Speed Business-account met externe tools die je gebruikt voor overschrijvingen en betalingen naar deze platforms.
 
 
 
@@ -401,4 +401,4 @@ Je bent aan het einde gekomen van onze Speed Wallet tutorial. Als je deze tutori
 
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

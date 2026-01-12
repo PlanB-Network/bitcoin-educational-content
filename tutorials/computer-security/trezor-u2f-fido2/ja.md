@@ -1,12 +1,12 @@
 ---
-name: Trezor U2F & FIDO2
+name: "Trezor U2F & FIDO2"
 description: Trezorでオンラインセキュリティを強化
 ---
 ![cover](assets/cover.webp)
 
 
 
-Trezorデバイスは、もともとBitcoin Walletを保護するために設計されたハードウェアウォレットですが、ウェブ上での強力な認証のための高度なオプションも備えています。U2F**および**FIDO2**プロトコルとの互換性により、パスワードのみに依存することなく、オンラインアカウントへのアクセスを保護することができます。
+Trezorデバイスは、もともとBitcoin Walletを保護するために設計されたハードウェアウォレットですが、ウェブ上での強力な認証のための高度なオプションも備えています。**U2F**および**FIDO2**プロトコルとの互換性により、パスワードのみに依存することなく、オンラインアカウントへのアクセスを保護することができます。
 
 
 
@@ -290,7 +290,7 @@ Relying party ID:       vault.bitwarden.com
 Relying party name:     Bitwarden
 User ID:                6e315ebabc8b6945a253b1c50116538d
 User name:              tutoplanbnetwork@proton.me
-User display name:      PBN
+User display name:      Plan ₿ Academy
 Creation time:          2
 hmac-secret enabled:    True
 Use signature counter:  True
@@ -301,7 +301,7 @@ Credential ID:          f1d00200a020a736356d0ceb7ce8b7655b39c399d8111b620bbbbfc7
 
 
 
-これらの情報をすべてコピーし、テキストファイルに保存する。あなたがFIDO2でこれらのサービスを使用していることを明らかにする以外、このバックアップに関連する重大なリスクはありません。クレデンシャルID*」はWalletのseedを使用して暗号化されます。つまり、このバックアップを入手した攻撃者は、あなたのアカウントに接続することはできませんが、あなたがこれらのアカウントを使用していることだけはわかります。これらのIDを復号化するには、Walletのseedが必要です。
+これらの情報をすべてコピーし、テキストファイルに保存する。あなたがFIDO2でこれらのサービスを使用していることを明らかにする以外、このバックアップに関連する重大なリスクはありません。**クレデンシャルID**はWalletのseedを使用して暗号化されます。つまり、このバックアップを入手した攻撃者は、あなたのアカウントに接続することはできませんが、あなたがこれらのアカウントを使用していることだけはわかります。これらのIDを復号化するには、Walletのseedが必要です。
 
 
 
@@ -353,4 +353,4 @@ U2FとFIDO2認証の別のソリューションを見てみる、この別のチ
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

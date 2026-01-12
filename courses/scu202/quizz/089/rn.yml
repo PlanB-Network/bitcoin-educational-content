@@ -1,0 +1,9 @@
+question: Ni iyihe serivisi y’ikarata yemerera gukoreshwa ata interineti kandi udakurikiranwa n’amatangazo?
+answer: Organic Maps
+wrong_answers:
+  - Google Maps
+  - Waze
+  - Citymapper
+explanation: |
+  Organic Maps ni porogarame y’isoko yuguruye ishingiye kuri OpenStreetMap ikora bitagombereye interineti, ata gukurikiranwa canke gukorakoranya amakuru, bitandukanye n’ibindi bikoresho vy’abantu.
+reviewed: true

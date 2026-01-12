@@ -1,0 +1,9 @@
+question: Ni igikorwa nyamukuru ikihe c’Itegeko ry’Ivyemezo vy’Ubutumwa (MAC)?
+answer: Kumenya neza ko ubutumwa ari ubw'ukuri n'ubunyankamugayo
+wrong_answers:
+  - Gushiramwo ubutumwa kugira ngo bube ibanga
+  - Gukingira ubutumwa gufatwa
+  - generate imfunguruzo z'ibanga kuri buri guhanahana amakuru
+explanation: |
+  MAC ni umugambi wo gukingira amakuru utuma umuntu ashobora kugenzura ko ubutumwa buva vy’ukuri ku muntu yaburungitse mu buryo bubereye kandi ko ataco bwahinduye, gutyo bikaba bigaragaza ko ari ubw’ukuri kandi ko ari ubutungane.
+reviewed: false

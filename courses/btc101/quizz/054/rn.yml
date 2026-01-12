@@ -1,0 +1,11 @@
+question: None igihe impembo ya Mining igabanywamwo igice, ico kintu citwa iki?
+answer: Halving.
+wrong_answers:
+  - Gukubita kabiri
+  - Gushiramwo ivyicaro bine
+  - Gukubita gatatu
+explanation: |
+  Igihe impembo ya Mining igabanywamwo igice citwa .
+  Halving. Ico kintu gitanga umurongo w’ugusohora amahera a .
+  igishushanyo kimeze nk’ingazi.
+reviewed: true

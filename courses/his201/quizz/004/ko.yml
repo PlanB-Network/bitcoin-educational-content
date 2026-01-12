@@ -1,0 +1,9 @@
+question: 데이비드 차움의 eCash 개념은 몇 년에 구현되었나요?
+answer: 1994
+wrong_answers:
+  - 1993
+  - 1995
+  - 1996
+explanation: |
+  2월에 사이퍼펑크가 처음 구현했으며, 디지캐시는 10월에 사이버벅스를 발행하여 이를 시험했습니다.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 블록의 트랜잭션을 요약하는 데이터 구조는 무엇인가요?
+answer: Merkle Tree
+wrong_answers:
+  - Hash UTXO 표
+  - Peers.dat 파일
+  - 가정 등록
+explanation: |
+  블록의 트랜잭션은 블록의 무결성을 보장하기 위해 블록 헤더에 루트가 포함된 Merkle Tree에 커밋됩니다.
+reviewed: true

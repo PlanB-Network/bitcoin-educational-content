@@ -1,14 +1,11 @@
-question: Wie löst Bitcoin das Byzantinische Generäle-Problem?
-answer: Durch die Verwendung einer Blockchain, die auf Proof of Work mit einer variablen Schwierigkeit basiert.
+question: Was ist Swiss Bitcoin Pay?
+answer: Eine Lösung für Amateurhändler, um Bitcoin zu akzeptieren.
 wrong_answers:
-  - Durch die Verwendung von digitalen Signaturen.
-  - Durch die Verwendung eines öffentlichen Registers.
-  - Durch die Verwendung eines Proof of Stake-Algorithmus.
+  - Eine Schweizer Bank, die Bitcoin akzeptiert.
+  - Ein Bitcoin-Wechselkurs aus der Schweiz.
+  - Ein Bergbauunternehmen, das in der Schweiz arbeitet.
 explanation: >-
-  Das Byzantinische Generäle-Problem ist ein klassisches Problem in
-  der verteilten Datenverarbeitung, das das Erreichen eines Konsenses
-  in einem Netzwerk betrifft, in dem einige der Knoten fehlerhaft oder
-  bösartig sein können. Bitcoin löst dieses Problem durch die Verwendung einer
-  Blockchain, die auf Proof of Work basiert, was sicherstellt, dass alle
-  Knoten über den Zustand der Transaktionshistorie übereinstimmen.
+  Swiss Bitcoin Pay ist eine Lösung für Amateurhändler, um Bitcoin zu akzeptieren.
+  Andere Lösungen umfassen OpenNode für einfache Online-Geschäfte und BTCpay Server
+  für große Strukturen oder leidenschaftliche Bitcoiner.
 reviewed: true

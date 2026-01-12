@@ -1,11 +1,13 @@
-question: Was symbolisiert Bitcoin über seine Technologie hinaus?
-answer: Eine Revolution gegen traditionelle Finanzsysteme und eine Alternative basierend auf Transparenz, Dezentralisierung und individueller Souveränität.
+question: Was ist der Hauptnachteil von Fiat-Währungen?
+answer: Ihr Wert wird ständig durch monetäre Inflation erodiert.
 wrong_answers:
-  - Eine neue Form von digitaler Währung, die effizienter ist als traditionelle Währungen, weil sie schneller ist.
-  - Eine Möglichkeit für Einzelpersonen, Geld durch Mining zu verdienen.
-  - Ein Werkzeug für Kriminelle, um illegale Transaktionen durchzuführen.
+  - Sie sind nicht leicht transportierbar.
+  - Ihr Wert wird ständig durch monetäre Inflation aufgewertet.
+  - Sie sind nicht teilbar.
 explanation: |
-  Über seine Technologie hinaus symbolisiert Bitcoin eine Revolution
-  gegen traditionelle Finanzsysteme: Das Protokoll
-  erzwingt ein neues Geldsystem ohne zentrale Entität.
+  Der Hauptnachteil von Fiat-Währungen, wie dem
+  Dollar und dem Euro, ist, dass ihr Wert ständig
+  durch monetäre Inflation erodiert wird. Dies ist auf die
+  Abwertung zurückzuführen, die durch die sie kontrollierenden Entitäten (König,
+  Zentralbank, Kaiser, Diktator) verursacht wird.
 reviewed: true

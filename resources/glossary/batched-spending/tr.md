@@ -8,4 +8,4 @@ Toplu harcama, işlem maliyetlerini optimize etmek ve azaltmak için öncelikle 
 ![](../../dictionnaire/assets/8.webp)
 
 
-> ► *Fransızca'da "toplu harcama", "dépense groupée" olarak çevrilebilir
+> ► *Fransızca'da "toplu harcama", "dépense groupée" olarak çevrilebilir*

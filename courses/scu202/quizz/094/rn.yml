@@ -1,0 +1,9 @@
+question: Ni uwuhe mugambi washizeko umushinge wa Interineti tubona ubu mu mpera z’imyaka ya 1960?
+answer: ARPANET
+wrong_answers:
+  - World Wide Web
+  - TCP/IP
+  - Ethernet
+explanation: |
+  ARPANET ni yo yari umuhora wa mbere waruhujwe, wagenewe guhuza ibibanza vyinshi vy’ubushakashatsi, kandi ni wo wabanjirije Interineti.
+reviewed: true

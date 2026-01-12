@@ -1,0 +1,9 @@
+question: Ni gute amabanga yo mu kinjana ca mbere atandukanye n’ugushira mu ngiro idini?
+answer: Ivy’amabanga bishimika ku kumenya Imana ata guca ku ruhande no ku kurenga kw’ukwizera.
+wrong_answers:
+  - Amabanga aha agaciro ugutahura n’ugukurikirana ubumenyi bushingiye ku vyiyumviro.
+  - Ivyiyumviro vy’idini bibona ko ukwizera ari uburyo bwo kumenya buri hasi y’ugutahura.
+  - Ivyiyumviro vy’idini birondera guhuza ukwizera n’ugutahura mu kubivuga mu buryo buhuye.
+explanation: |
+  Ivy’amabanga vyo mu kinjana ca mbere bikunda uburyo bwo kwizera bushingiye ku vyiyumviro kandi bw’umuntu ku giti ciwe, bwibanda ku bumenyi butaziguye bw’Imana, bitandukanye n’ubuhinga bw’idini bwo gutahura ibintu, bushaka gutahura no gutunganya ukwizera biciye ku vyiyumviro.
+reviewed: true

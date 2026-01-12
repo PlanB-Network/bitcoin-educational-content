@@ -1,0 +1,12 @@
+question: Bitcoin Mining의 맥락에서 Lightning Network의 의미는 무엇인가요?
+answer: Lightning Network는 거래 수수료를 크게 낮춰 채굴자의 수입에 영향을 줄 수 있는 잠재력을 가지고 있습니다.
+wrong_answers:
+  - Lightning Network는 블록 크기를 증가시켜 채굴자의 수입을 증가시킵니다.
+  - Lightning Network는 Bitcoin Mining의 에너지 소비를 줄입니다.
+  - Lightning Network은 Bitcoin Mining의 속도를 증가시킵니다.
+explanation: |
+  Lightning Network을 사용하면 빠르고 저렴한 비용으로
+  트랜잭션이 가능합니다. 이는
+  거래 수수료를 크게 낮출 수 있는 잠재력을 가지고 있습니다,
+  채굴자의 수입에 영향을 미칠 수 있습니다.
+reviewed: true

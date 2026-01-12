@@ -1,0 +1,9 @@
+question: La scolastica?
+answer: Una filosofia del Medioevo.
+wrong_answers:
+  - Una filosofia dell'età moderna.
+  - Una filosofia antica.
+  - Una filosofia atea.
+explanation: |
+  La Scolastica è stata una filosofia medievale che ha cercato di conciliare la fede cristiana con la filosofia aristotelica. Ha dominato le università europee prima della nascita della filosofia moderna.
+reviewed: false

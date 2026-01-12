@@ -1,0 +1,10 @@
+question: Ni imvo nyamukuru iyihe ituma ubutunzi butunganije muburyo bw'uko bucungererwa hagati bushikirwa ata kabuza n’utanga nabi imitahe?
+answer: Nta biciro vy’isoko canke ivyo gusenyuka kw’ubutunzi kugira ngo herekanwe kandi hakosorwe ugutanga imitahe nabi.
+wrong_answers:
+  - Abategura imigambi rusangi ntibakora neza.
+  - Abategura imigambi rusangi ntibafise amakuru akwiye.
+  - Abategura imigambi rusangi ntibahimirizwa mukuzana(gutanga) imitahe.
+explanation: |
+  Mu butunzi rusangi, nta biciro vy’isoko canke vy'ugusenyuka kw’ubutunzi .
+  kugira ngo herekanwe kandi hakosorwe ugutanga imitahe nabi.Kubera ivyo, amakosa zizokwirunda gushika aho isesagura rizoboneka neza biciye ku kugabanuka gukomeye kw'ururgero rw’ubuzima bw’abantu.
+reviewed: true

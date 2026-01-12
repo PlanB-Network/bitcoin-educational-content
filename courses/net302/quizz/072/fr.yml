@@ -6,4 +6,4 @@ wrong_answers:
   - IP (Interchangeable Provider)
 explanation: |
   Un bloc PI (Provider Independent) est attribué directement à une organisation par un RIR, indépendamment du fournisseur.
-reviewed: false
+reviewed: true 

@@ -1,11 +1,9 @@
-question: Wanneer werd Bitcoin voor het eerst aan de wereld gepresenteerd?
-answer: 31 oktober 2008.
+question: Hoeveel procent van de tijd is het Bitcoin netwerk functioneel geweest sinds de oprichting?
+answer: 99.988%.
 wrong_answers:
-  - 3 januari 2009.
-  - 22 november 2009.
-  - 12 december 2010.
+  - 100%.
+  - 90.009%.
+  - 80.17%.
 explanation: |
-  Bitcoin werd voor het eerst aan de wereld gepresenteerd op 31 oktober,
-  2008, toen Satoshi Nakamoto een e-mail stuurde naar de Cypherpunk
-  mailinglijst met daarin het Bitcoin Witboek.
+  De online beschikbaarheid van Bitcoin is 99,988% sinds 2009.
 reviewed: true

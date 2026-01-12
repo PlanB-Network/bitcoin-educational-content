@@ -1,0 +1,9 @@
+question: None noshira gute ROM yindi kuri telefone ngendanwa ya Android?
+answer: Bisaba kwugurura bootloader
+wrong_answers:
+  - Rema konti ya Apple
+  - Gushiramwo ikarata ya SIM idasanzwe
+  - Gukoresha uburyo bwo gutegura kuri iOS
+explanation: |
+  Kwugurura bootloader ni ngombwa mugihe uriko ushirako ishusho nshasha ya sisiteme kuri telefone ngendanwa ya Android.
+reviewed: true

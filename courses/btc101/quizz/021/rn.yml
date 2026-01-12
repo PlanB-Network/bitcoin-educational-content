@@ -1,0 +1,13 @@
+question: Ni iyihe nzira y’iterambere ry’amahera y’ubu?
+answer: Ibuye ry'agaciro -> Coin -> Ikete -> Ikarata ya banki -> Blockchain -> Lightning Network.
+wrong_answers:
+  - Ibuye ry'agaciro -> Coin -> Igipapuro c'amahera -> Blockchain -> Lightning Network.
+  - Ibuye ry'agaciro -> Coin -> Ikete -> Ikarata ya banki -> Lightning Network.
+  - Ibuye ry'agaciro -> Coin -> Ikarata ya banki -> Igipapuro ca banki -> Blockchain -> Lightning Network.
+explanation: |
+  Amafaranga ni ubuhinga bwateye imbere uko igihe kigenda kirarenga,
+  guhera ku guserukirwa n’amabuye atagira ibara, guhinduka .
+  mu biceri vy’ivyuma, hanyuma mu bice vy’amahera, mu makarita ya banki, no mu .
+  amaherezo mu mihora y’urunganwe n’urunganwe hakoreshejwe
+  Bitcoin Blockchain na Lightning Network.
+reviewed: true

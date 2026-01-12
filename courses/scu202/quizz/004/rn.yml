@@ -1,0 +1,9 @@
+question: Ni igitero ikihe c'inyabwonko gikoresha ubutumwa bw’ububeshi kugira ngo kigukuremwo amakuru?
+answer: Phishing
+wrong_answers:
+  - Ransomware (igitero c’incungu)
+  - DDoS
+  - Inshinge za SQL
+explanation: |
+  Phishing ikoresha ubutumwa bwo kuri imeyiri canke ubutumwa bugufi bwo guhenda abantu kugira ngo batange amakuru y’ibanga canke ngo bashiremwo porogarama mbi.
+reviewed: true

@@ -24,7 +24,7 @@ Menedżer haseł generuje i bezpiecznie przechowuje silne hasła, umożliwiając
 
 W tym poradniku dowiemy się, jak skonfigurować i używać lokalnego menedżera haseł w celu zwiększenia bezpieczeństwa online. Tutaj przedstawię ci KeePass. Jeśli jednak jesteś początkującym użytkownikiem i chciałbyś korzystać z menedżera haseł online z możliwością synchronizacji na wielu urządzeniach, polecam zapoznać się z naszym poradnikiem na temat Bitwarden:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ---
 
@@ -45,7 +45,7 @@ Domyślnie KeePass nie obsługuje rozszerzeń przeglądarki, takich jak Bitwarde
 KeePass został zaprojektowany tak, aby był lekki i łatwy w użyciu, a jednocześnie spełniał wysokie standardy bezpieczeństwa. Oprogramowanie szyfruje bazę danych lokalnie, zapewniając optymalną ochronę danych uwierzytelniających. KeePass jest również jedynym menedżerem haseł zatwierdzonym przez ANSSI (francuski organ ds. cyberbezpieczeństwa).
 
 
-Jedną z głównych zalet KeePass jest jego elastyczność. Można go używać na wiele różnych sposobów, np. na pamięci USB bez konieczności instalacji na komputerze. Co więcej, dzięki [środowisku wtyczek] (https://keepass.info/plugins.html), KeePass można dostosować do bardziej specyficznych potrzeb.
+Jedną z głównych zalet KeePass jest jego elastyczność. Można go używać na wiele różnych sposobów, np. na pamięci USB bez konieczności instalacji na komputerze. Co więcej, dzięki [środowisku wtyczek](https://keepass.info/plugins.html), KeePass można dostosować do bardziej specyficznych potrzeb.
 
 ![KEEPASS](assets/notext/01.webp)
 

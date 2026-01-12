@@ -1,11 +1,10 @@
-question: Apa arti dari penyesuaian kesulitan dalam jaringan Bitcoin?
-answer: Ini memastikan bahwa sebuah blok ditambahkan kira-kira setiap sepuluh menit.
+question: Apa itu node yang dipangkas dalam konteks Bitcoin?
+answer: Node yang hanya menyimpan N blok terakhir dalam memori
 wrong_answers:
-  - Ini menentukan harga Bitcoin.
-  - Ini mengatur jumlah Bitcoin yang dapat ditambang.
-  - Ini menentukan ukuran sebuah blok.
+  - Node yang hanya memvalidasi transaksi
+  - Node yang hanya mentransmisikan informasi ke node lain
+  - Node yang hanya menegakkan aturan protokol Bitcoin
 explanation: >-
-  Penyesuaian kesulitan dalam jaringan Bitcoin memastikan bahwa sebuah blok
-  ditambahkan kira-kira setiap sepuluh menit. Ini adalah bagian dari aturan protokol
-  jaringan Bitcoin.
+  Node yang dipangkas dalam konteks Bitcoin adalah node yang hanya menyimpan
+  N blok terakhir dalam memori.
 reviewed: false

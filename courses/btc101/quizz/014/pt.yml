@@ -1,9 +1,11 @@
-question: O que foi o projeto DigiCash?
-answer: Uma tentativa de criar dinheiro eletrônico anônimo por David Chaum.
+question: Qual é uma das desvantagens do ouro como forma de dinheiro?
+answer: Não é facilmente divisível.
 wrong_answers:
-  - Um projeto para criar uma carteira digital para Bitcoin.
-  - Uma tentativa de digitalizar todo o dinheiro físico pelo Federal Reserve.
-  - Um projeto para criar uma criptomoeda baseada no Bitcoin.
+  - Não mantém seu valor no espaço.
+  - Ele se erosiona com o tempo.
+  - É fácil de produzir.
 explanation: |
-  David Chaum introduziu o conceito de dinheiro eletrônico anônimo com seu projeto DigiCash na década de 1980.
+  Uma das principais desvantagens do ouro como forma de dinheiro é
+  ser difícil de dividir em unidades menores conforme a necessidade
+  surge, o que o torna menos prático para usar.
 reviewed: true

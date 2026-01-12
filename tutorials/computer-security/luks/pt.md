@@ -10,7 +10,7 @@ ___
 
 
 
-*Este tutorial é baseado no conteúdo original de Mickael Dorigny publicado em [IT-Connect](https://www.it-connect.fr/). Licença [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Podem ter sido efectuadas alterações ao texto original
+*Este tutorial é baseado no conteúdo original de Mickael Dorigny publicado em [IT-Connect](https://www.it-connect.fr/). Licença [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Podem ter sido efectuadas alterações ao texto original.*
 
 
 
@@ -30,7 +30,7 @@ Encriptar uma pen USB é uma boa forma de proteger os seus dados sensíveis. **N
 
 
 
-Para seguir este tutorial, precisa de :
+Para seguir este tutorial, precisa de:
 
 
 
@@ -131,7 +131,7 @@ Vamos agora apagar todos os dados da nossa pen USB. A operação consiste em pre
 
 
 
-**Certifique-se de que está a utilizar o ficheiro de dispositivo correto!
+**Certifique-se de que está a utilizar o ficheiro de dispositivo correto!**
 
 
 
@@ -173,7 +173,7 @@ Verify passphrase:
 
 
 
-Aqui, o subcomando "`luksFormat`" inicializa e formata o dispositivo para usar a encriptação LUKS. Ser-lhe-á pedido que confirme esta operação escrevendo `YES` em maiúsculas, depois defina um *passphrase*. **Escolha um *passphrase* robusto para garantir que, em caso de perda, o atacante não possa descobri-lo através de ataques de força bruta.
+Aqui, o subcomando "`luksFormat`" inicializa e formata o dispositivo para usar a encriptação LUKS. Ser-lhe-á pedido que confirme esta operação escrevendo `YES` em maiúsculas, depois defina um *passphrase*. **Escolha um *passphrase* robusto para garantir que, em caso de perda, o atacante não possa descobri-lo através de ataques de força bruta.**
 
 
 
@@ -213,7 +213,7 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 
 
 
-Aqui, "**usbkey1**" é o nome que dou à montagem da partição no meu contexto. Pode escolher o que quiser. Precisamos então de formatar esta partição contida na partição LUKS, por exemplo, aqui como **ext4** :
+Aqui, "**usbkey1**" é o nome que dou à montagem da partição no meu contexto. Pode escolher o que quiser. Precisamos então de formatar esta partição contida na partição LUKS, por exemplo, aqui como **ext4**:
 
 
 
@@ -237,11 +237,11 @@ done
 
 
 
-**Aqui, a localização de destino** é especificada como "**/dev/mappe/usbkey1**"**, porquê?
+**Aqui, a localização de destino** é especificada como "**/dev/mappe/usbkey1**", porquê?
 
 
 
-"**/dev/mapper/usbkey1**" é o "atalho" que demos à nossa chave USB ("**/dev/mapper**" é genérico para o Linux para mapeamento). Portanto, fornece acesso à nossa partição desencriptada. Eis o que é suposto ver agora :
+"**/dev/mapper/usbkey1**" é o "atalho" que demos à nossa chave USB ("**/dev/mapper**" é genérico para o Linux para mapeamento). Portanto, fornece acesso à nossa partição desencriptada. Eis o que é suposto ver agora:
 
 
 
@@ -353,7 +353,7 @@ Isto significa que podemos aceder aos dados na nossa pen USB de forma livre e tr
 
 
 
-Quando a nossa operação estiver concluída, não se esqueça de fechar tudo corretamente para garantir que não corrompemos o nosso volume. O primeiro passo é desmontar o arquivo :
+Quando a nossa operação estiver concluída, não se esqueça de fechar tudo corretamente para garantir que não corrompemos o nosso volume. O primeiro passo é desmontar o arquivo:
 
 
 

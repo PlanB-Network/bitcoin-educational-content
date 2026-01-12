@@ -1,0 +1,9 @@
+question: Qual è il protocollo utilizzato da Electrs e Fulcrum per collegare i portafogli?
+answer: Elettro
+wrong_answers:
+  - RPC REST
+  - API JSON
+  - Fulmine gRPC
+explanation: |
+  Questi pacchetti software espongono un server Electrum, lo standard utilizzato da molti portafogli, come Sparrow o Electrum Wallet.
+reviewed: true

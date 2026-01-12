@@ -1,11 +1,9 @@
-question: Koji je potencijalni ishod nagle deprecijacije ili gubitka poverenja u fiducijarnu valutu?
-answer: Hiperinflacija.
+question: Kakav je uticaj inflacije od 2% na kupovnu moć tokom 5 godina?
+answer: Gubite 10% svoje kupovne moći.
 wrong_answers:
-  - Deflacija.
-  - Stabilna ekonomija.
-  - Povećanje vrednosti valute.
+  - Gubite 2% svoje kupovne moći.
+  - Gubite 5% svoje kupovne moći.
+  - Izgubiš 20% svoje kupovne moći.
 explanation: |
-  Iznenadna devalvacija ili gubitak poverenja u fiducijarnu
-  valutu može dovesti do hiperinflacije. Ovo je situacija
-  gde cene dobara i usluga rastu izuzetno visokim tempom, često dovodeći do ekonomske nestabilnosti.
+  Sa inflacijom od 2%, godišnje gubite 2% svoje kupovne moći, što iznosi 10% tokom 5 godina.
 reviewed: true

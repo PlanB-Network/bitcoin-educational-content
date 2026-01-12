@@ -82,4 +82,4 @@ b2e00517
 För att vara giltigt måste ett block ha ett huvud som, när det har hashats med `SHA256d`, producerar en Hash som är mindre än eller lika med svårighetsmålet.
 
 
-> ► * På engelska kallas det för "Block Header"
+> ► *På engelska kallas det för "Block Header"*

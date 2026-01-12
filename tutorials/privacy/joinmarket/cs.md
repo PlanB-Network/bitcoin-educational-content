@@ -423,7 +423,7 @@ Jakmile vaši Satoshové vytvoří CoinJoiny, budou se pohybovat z jedné hloubk
 
 
 
-A jsme konečně u nejšťavnatější části JoinMarketu, u tumbleru! Pokud jste poslouchali podcast, už víte, o co jde. Než začneme, jedno doporučení: **Nezapomeňte nastavit limity v souboru joinmarket.cfg (jak bylo vysvětleno na začátku) a zvažte spuštění programu pouze tehdy, když jsou onchain poplatky relativně nízké (pod 10 Sats/vB).
+A jsme konečně u nejšťavnatější části JoinMarketu, u tumbleru! Pokud jste poslouchali podcast, už víte, o co jde. Než začneme, jedno doporučení: **Nezapomeňte nastavit limity v souboru joinmarket.cfg (jak bylo vysvětleno na začátku) a zvažte spuštění programu pouze tehdy, když jsou onchain poplatky relativně nízké (pod 10 Sats/vB).**
 
 
 

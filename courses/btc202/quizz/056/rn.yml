@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo bworoshe bwo gufatanya telefone ngendanwa Wallet na Electrs biciye ku Umbrel?
+answer: Scan kode ya Tor QR
+wrong_answers:
+  - Gukuraho dosiye y'ibikuki
+  - Kwinjiza urufunguzo rw'ibanga
+  - Kopa dosiye Wallet.dat
+explanation: |
+  Umbrel iragufasha gucapura ataco uhinduye kuri kode ya Tor QR yatanzwe na Electrs kugira ngo utunganye uruja n’uruza rwawe rwa telefone ngendanwa.
+reviewed: true

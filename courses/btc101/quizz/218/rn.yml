@@ -1,0 +1,9 @@
+question: Kubera iki umuyoboro wa Lightning ushobora kudakoreshwa mu cyerekezo kimwe?
+answer: Amafaranga adahagije
+wrong_answers:
+  - Bloke nshasha cane
+  - HTLC yarangiye igihe
+  - Umuyoboro utajyanye n’igihe
+explanation: |
+  N’iyo woba ufise ubushobozi bunini, umuyoboro wemerera ukwishyura gusa iyo amafaranga ahagije ari ku ruhande rukwiye.
+reviewed: false

@@ -1,10 +1,10 @@
-question: Hva er den andre fasen av hyperinflasjon?
-answer: Valutakollaps og prisøkning.
+question: Hva kalles hendelsen når belønningen for gruvedrift halveres?
+answer: Halvering
 wrong_answers:
-  - Tap av tillit.
-  - Den onde sirkelen av pengetrykking.
-  - En ny valuta dukker opp.
+  - Fordobling
+  - Firedeling
+  - Tredobling
 explanation: |
-  Den andre fasen av hyperinflasjon er valutakollaps og prisøkning,
-  rett etter Tap av tillit-fasen.
+  Hendelsen når belønningen for gruvedrift halveres kalles halvering. Denne
+  hendelsen gir utstedelseskurven for valutaen en trappelignende form.
 reviewed: true

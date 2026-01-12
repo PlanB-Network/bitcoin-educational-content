@@ -5,5 +5,5 @@ wrong_answers:
   - It closes the channel and creates a new direct channel
   - It asks the intermediary nodes to increase their liquidity
 explanation: |
-  When a route fails, the sending node tries other alternative routes until a functional path is found, or all options are exhausted.
-reviewed: false
+  When a route fails, the sending node tries other alternative routes until a functional path is found or all options are exhausted.
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: जेड
+name: Jade
 
 description: अपना JADE डिवाइस कैसे सेट करें
 ---

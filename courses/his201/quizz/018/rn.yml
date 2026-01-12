@@ -1,0 +1,9 @@
+question: Ni igiki cari kidasanzwe kuri RPOW ugereranyije n’ibindi vyiyumviro vy’amahera y’ubuhinga bwa none nka eCash, b-money, na bit gold?
+answer: Yari ishingiye kuri server ibonerana
+wrong_answers:
+  - Yakoresheje Proof of Work.
+  - Igice ca konti yaco nta kintu na kimwe cari gishingiyeko
+  - Abakoresha bari bafise inoti y.'ubuhinga bwa none zihariye kurusha gufita ama konti.
+explanation: |
+  Yakoresha Proof of Work nka b-money ,bit gold, ariko nta n’iyishigikiye, nk’uko biri bitandukanye na Bit gold. Cokimwe na eCash (kandi nka Bitcoin mu nyuma), RPOW yaremeye ko umuntu agira amanota y’umuntu ku giti ciwe aho kugira konti kandi muri ivyo, yari ibanga.
+reviewed: true

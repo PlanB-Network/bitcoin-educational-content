@@ -1,0 +1,8 @@
+question: None Proof of Work (POW) ni iki?
+answer: Ni ukwiyumvira kw’umutekano kw’amasezerano ya Bitcoin.
+wrong_answers:
+  - Ni inzira yo kurema ama bitcoins mashasha.
+  - Ni uburyo bwo kugenzura amafaranga y’ibikorwa vya Bitcoin.
+  - Ni ubuhinga bukoreshwa mu gucukura ama bitcoins.
+explanation: >-
+reviewed: true

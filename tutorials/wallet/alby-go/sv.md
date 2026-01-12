@@ -16,11 +16,11 @@ description: Guide för mobilappen Alby Go
 
 
 
-- [Alby Hub](https://albyhub.com/)** *(rekommenderas)*
-- Umbrel**, **Start9**, **RaspiBlitz** (via **Alby Hub**)
-- Coinos** *(otestad)*
-- Primal** *(otestad)*
-- Minibitar** *(otestad)*
+- [Alby Hub](https://albyhub.com/) **(rekommenderas)**
+- **Umbrel**, **Start9**, **RaspiBlitz** (via **Alby Hub**)
+- **Coinos** *(otestad)*
+- **Primal** *(otestad)*
+- **Minibitar** *(otestad)*
 
 
 De flesta NWC-aktiverade tjänster bör fungera. Om du testar en ny tjänst, låt communityn få veta dina resultat!
@@ -33,9 +33,9 @@ Tillgänglig på de flesta plattformar:
 
 
 
-- iOS:** [Ladda ner från App Store] (https://apps.apple.com/us/app/alby-go/id6471335774)
-- Android:** [Ladda ner från Google Play] (https://play.google.com/store/apps/details?id=com.getalby.mobile)
-- ZapStore **
+- **iOS:** [Ladda ner från App Store](https://apps.apple.com/us/app/alby-go/id6471335774)
+- **Android:** [Ladda ner från Google Play](https://play.google.com/store/apps/details?id=com.getalby.mobile)
+- **ZapStore**
 
 
 
@@ -123,6 +123,6 @@ Ingen uppsvälldhet. Inget krångel. Blixtsnabbt.
 - 🧷 Lägga till, ta bort och exportera plånböcker
 
 
-**💡 Behöver du hjälp?
+**💡 Behöver du hjälp?**
 
 Besök getalby.com för support och uppdateringar.

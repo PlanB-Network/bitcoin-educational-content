@@ -1,11 +1,14 @@
-question: Jaká je role těžařů v síti Bitcoin?
-answer: Těžaři zabezpečují síť a přidávají transakce do bloků.
+question: Co je problém byzantských generálů?
+answer: Je to problém koordinace informací v systému, kde různí aktéři nemohou být považováni za důvěryhodné.
 wrong_answers:
-  - Těžaři vytvářejí nové bitcoiny.
-  - Těžaři ověřují identitu uživatelů Bitcoinu.
-  - Těžaři určují cenu Bitcoinu.
-explanation: >-
-  Těžaři využívají svůj výpočetní výkon k řešení složitých matematických problémů,
-  což jim umožňuje přidávat nové transakce do blockchainu. Tento proces zabezpečuje
-  síť a udržuje její integritu.
+  - Je to problém ověřování transakcí v decentralizované síti.
+  - Je to problém zabránění dvojímu utrácení v digitální měně.
+  - Je to problém udržení konsensu v centralizované síti.
+explanation: |
+  Problém byzantských generálů je klasický problém v
+  distribuovaném výpočtu, který zahrnuje dosažení konsensu
+  v síti, kde některé uzly mohou být chybné nebo
+  zlomyslné. Bitcoin tento problém řeší pomocí
+  blockchainu založeného na důkazu práce (Proof of Work), který zajišťuje, že všechny
+  uzly souhlasí se stavem historie transakcí.
 reviewed: true

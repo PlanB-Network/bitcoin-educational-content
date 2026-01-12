@@ -6,4 +6,4 @@ wrong_answers:
   - Aucun d'entre eux.
 explanation: |
   Lorsque l'on repère un écart suffisamment large entre 2 outputs d'une transaction sur un modèle de paiement simple, on peut estimer que la sortie la plus grande est vraisemblablement le change.
-reviewed: false
+reviewed: true 

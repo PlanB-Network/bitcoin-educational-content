@@ -1,0 +1,9 @@
+question: 대부분의 Android 기기에 Google 모바일 서비스가 사전 설치되어 있는 이유는 무엇인가요?
+answer: 제조업체는 Google과 라이선스 계약을 체결해야 합니다
+wrong_answers:
+  - 유럽 법률에서 요구하는 서비스
+  - GMS 소스 코드는 무료입니다
+  - 모든 Linux 기기에서 GMS는 필수입니다
+explanation: |
+  플래그십 애플리케이션(Play 스토어, 지도 등)의 혜택을 받으려면 제조업체는 GMS를 통합해야 하며, 이는 Google과 엄격한 라이선스 계약을 체결해야 함을 의미합니다.
+reviewed: false

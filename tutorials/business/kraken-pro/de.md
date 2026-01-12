@@ -10,13 +10,13 @@ In diesem Tutorial werden wir den Prozess der Erstellung eines Kraken-Geschäfts
 
 Wenn Sie sich für das Thema der Integration von Bitcoin in Ihr Unternehmen interessieren, empfehle ich Ihnen auch unsere komplette theoretische Schulung zu diesem Thema zu entdecken:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Erstellen eines Kraken-Firmenkontos
 
 Der erste Schritt bei der Nutzung von Kraken zur Verwaltung der Finanzen Ihres Unternehmens ist natürlich die Erstellung eines Kontos. In diesem Fall werden wir kein Konto für Einzelpersonen erstellen, sondern ein Unternehmenskonto, das nicht nur die Einhaltung gesetzlicher Vorschriften gewährleistet, sondern auch speziell zugeschnittene Funktionen wie Buchhaltungsexporte bietet.
 
-Gehen Sie auf die offizielle Website [kraken.com] (https://www.kraken.com/) und klicken Sie auf die Schaltfläche "*Sign Up*".
+Gehen Sie auf die offizielle Website [kraken.com](https://www.kraken.com/) und klicken Sie auf die Schaltfläche "*Sign Up*".
 
 ![KRAKEN](assets/fr/01.webp)
 
@@ -59,8 +59,8 @@ Wenn Sie alle Abschnitte ausgefüllt und die erforderlichen Unterlagen eingereic
 Sobald Ihr Konto verifiziert ist, erhalten Sie Zugang zur Plattform, auf der Ihnen zwei Schnittstellen angeboten werden:
 
 
-- Kraken**: Eine vereinfachte Schnittstelle mit den wichtigsten Funktionen.
-- Kraken Pro**: Eine erweiterte Schnittstelle mit zusätzlichen Funktionen, insbesondere für den Handel.
+- **Kraken**: Eine vereinfachte Schnittstelle mit den wichtigsten Funktionen.
+- **Kraken Pro**: Eine erweiterte Schnittstelle mit zusätzlichen Funktionen, insbesondere für den Handel.
 
 Wenn Sie nur Bitcoin kaufen und verkaufen möchten, entscheiden Sie sich für die vereinfachte Schnittstelle. Sie haben immer die Möglichkeit, später auf die erweiterte Schnittstelle zu wechseln, falls erforderlich.
 
@@ -78,7 +78,7 @@ Bei den 2FA-Optionen können Sie einen physischen Sicherheitsschlüssel als zwei
 
 Weitere Informationen zur Verwendung dieses Gerätetyps finden Sie in unserer speziellen Anleitung:
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Die andere Möglichkeit ist die Verwendung einer Authentifizierungsanwendung wie Google Authenticator oder Authy. Diese Anwendungen generieren einen dynamischen 6-stelligen Code, den Sie jedes Mal eingeben müssen, wenn Sie sich anmelden.
 
@@ -90,7 +90,7 @@ Um diese Methode zu aktivieren, scannen Sie den QR-Code mit der Anwendung Ihrer 
 
 Weitere Informationen zu Authentifizierungsanwendungen finden Sie auch in diesem Tutorial:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Darunter haben Sie auch Zugriff auf erweiterte Einstellungen, einschließlich der Möglichkeit, mehrere verschiedene 2FAs festzulegen. Kraken bietet eine erweiterte Sicherheitsdelegation über 2FA. Diese Funktion ermöglicht es Ihnen, verschiedene 2FA-Stufen für verschiedene Aktionen wie Anmeldung, Auftragsvalidierung und Geldabhebung zu erstellen. Auf diese Weise ist es beispielsweise möglich, einem Buchhalter Zugang zu bestimmten Funktionen zu geben, ohne dass er oder sie Geld abheben kann. Hier sind die Optionen:
 
@@ -158,9 +158,9 @@ Wählen Sie den Betrag und die Kryptowährung, die Sie erhalten möchten, und be
 Für diese Transaktionen können Sie zwischen verschiedenen Auftragsarten wählen: *Markt*, *Limit*, oder *Stop-Loss*:
 
 
-- Markt* : Ermöglicht den sofortigen Kauf zum aktuellen Marktpreis;
-- Limit*: Ermöglicht die Angabe eines Kaufpreises, wobei der Auftrag nur ausgeführt wird, wenn der Marktpreis diesen Betrag erreicht;
-- Stop-Loss* : Verkauft automatisch, wenn der Kurs einen bestimmten Schwellenwert erreicht.
+- **Markt**: Ermöglicht den sofortigen Kauf zum aktuellen Marktpreis;
+- **Limit**: Ermöglicht die Angabe eines Kaufpreises, wobei der Auftrag nur ausgeführt wird, wenn der Marktpreis diesen Betrag erreicht;
+- **Stop-Loss**: Verkauft automatisch, wenn der Kurs einen bestimmten Schwellenwert erreicht.
 
 ## 7 - Transaktionsmanagement und Buchhaltung
 
@@ -219,4 +219,4 @@ Je nach den Zielen und der Struktur Ihres Unternehmens kann der Einsatz von Krak
 
 Für einen tieferen Einblick in dieses Thema empfehle ich diesen umfassenden Schulungskurs über die Integration von Bitcoin in Unternehmen, der im Detail das Hinzufügen von Cashflow, die Annahme von Bitcoin-Zahlungen und die Buchhaltung behandelt:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

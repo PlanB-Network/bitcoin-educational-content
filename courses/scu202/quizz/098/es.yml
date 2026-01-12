@@ -6,4 +6,4 @@ wrong_answers:
   - Activar WPA3 automáticamente
 explanation: |
   Las VLAN pueden utilizarse para compartimentar dispositivos, limitando la propagación de un ataque entre segmentos.
-reviewed: false
+reviewed: true

@@ -1,0 +1,9 @@
+question: Mu muhora wo kwishura, ubushobozi bw’uwo muhora ni ubuhe?
+answer: Igitigiri cose c’amahera abo babiri bari muri iyo nama bashobora Exchange.
+wrong_answers:
+  - Igihe umurongo ushobora kuguma ufunguye
+  - Amahera menshi uwundi muntu ashobora kohereza mu gucuruza rimwe
+  - Umubare w'amafaranga umurongo ushobora gushigikira ku musi
+explanation: |
+  Ubushobozi bw’uwo muhora bujanye n’amahera yose y’abo babiri bari muri iyo nama kandi buguma bushikamye kugira ngo hamenyekane ivyo guhanahana bishoboka.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe rw’igikorwa ca modulo mu guhindura amakuru y’ibanga?
+answer: Bituma inyuguti zisubira mu ntango y’inyuguti iyo zirenze 26 .
+wrong_answers:
+  - Igwiza agaciro k'inyuguti n'urufunguzo
+  - Ihindura inyuguti z'inyuguti
+  - Ifuta inyuguti zikurikira inyuguti Z .
+explanation: |
+  Igikorwa kijanye n’ivyo bita modulo 26 bituma inyuguti zisubira inyuma inyuma ya Z kugira ngo inyuguti yose ipfutse igume mu nyuguti 26 z’inyuguti.
+reviewed: false

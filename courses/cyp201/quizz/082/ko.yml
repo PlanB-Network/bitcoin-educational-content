@@ -1,0 +1,9 @@
+question: P2PK와 P2PKH의 주요 차이점은 무엇인가요?
+answer: P2PK는 원시 공개키를 직접 사용하는 반면, P2PKH는 공개키의 Hash을 사용합니다.
+wrong_answers:
+  - P2PK는 SegWit과 호환되지만 P2PKH는 호환되지 않습니다.
+  - P2PK는 슈노르 서명을 사용하는 반면, P2PKH는 ECDSA 서명을 사용합니다.
+  - P2PK는 다중 서명을 위한 것이고 P2PKH는 간단한 스크립트를 위한 것입니다.
+explanation: |
+  P2PK는 원시 공개키를 사용해 자금을 잠그는 반면, P2PKH는 공개키의 Hash를 사용합니다.
+reviewed: false

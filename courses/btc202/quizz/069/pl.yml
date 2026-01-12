@@ -1,0 +1,9 @@
+question: Jakie jest główne ryzyko związane z akumulacją Dust w twoim mini-PC?
+answer: Dławienie procesora
+wrong_answers:
+  - Usunięcie bloku Blockchain
+  - Uszkodzenie dysku
+  - Zmniejszona pojemność pamięci RAM
+explanation: |
+  Dust blokuje wentylację, powoduje przegrzanie i prowadzi do dławienia, zmniejszając wydajność procesora.
+reviewed: true

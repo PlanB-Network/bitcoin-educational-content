@@ -5,5 +5,6 @@ wrong_answers:
   - Karmaşıklıklarını azaltmak için.
   - Sybil saldırılarına direnmek için.
 explanation: |
-  Rastgelelik, parolaların deneme yanılma yoluyla tahmin edilmesini zorlaştırır ve böylece kaba kuvvet saldırılarına karşı güvenliklerini güçlendirir.
+  Rastgelelik, parolaların deneme yanılma yoluyla tahmin edilmesini zorlaştırır ve 
+  böylece kaba kuvvet saldırılarına karşı güvenliği güçlendirir.
 reviewed: true

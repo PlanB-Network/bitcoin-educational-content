@@ -1,12 +1,9 @@
-question: Co je hyperinflace?
-answer: Drastický nárůst množství peněz.
+question: Jaká je druhá fáze fenoménu hyperinflace?
+answer: Kolaps měny & růst cen.
 wrong_answers:
-  - Malý nárůst množství peněz.
-  - Drastický pokles množství peněz.
-  - Malý pokles množství peněz.
+  - Ztráta důvěry.
+  - Zlý kruh tisku peněz.
+  - Vznik nové měny.
 explanation: |
-  Hyperinflace je monetární jev charakterizovaný
-  drastickým nárůstem inflace prostřednictvím tisku peněz
-  autoritami, což vede k úplné ztrátě
-  důvěry v měnu.
+  Druhá fáze hyperinflace je kolaps měny & růst cen, hned po fázi Ztráty důvěry.
 reviewed: true

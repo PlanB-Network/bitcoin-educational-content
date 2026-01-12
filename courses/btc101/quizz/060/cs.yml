@@ -1,9 +1,11 @@
-question: Jak se nazývá proces, který ověřuje transakce v síti Bitcoin?
-answer: Těžba
+question: Jaká je frekvence úpravy obtížnosti?
+answer: Každých 2016 bloků.
 wrong_answers:
-  - Kopání
-  - Sklízení
-  - Farmaření
+  - Každých 1048 bloků.
+  - Každých 512 bloků.
+  - Každých 4032 bloků.
 explanation: |
-  Proces, který ověřuje transakce v síti Bitcoin, se nazývá těžba. Těžaři provádějí kryptografický úkol a jsou za to odměněni vydáním nových bitcoinů.
+  Úprava obtížnosti je mechanismus, který se odehrává
+  každých 2016 bloků, nebo přibližně každé dva týdny, aby se zajistilo, že
+  nový blok je přidán do blockchainu průměrně každých deset minut, bez ohledu na celosvětovou hash sazbu.
 reviewed: true

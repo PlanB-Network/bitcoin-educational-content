@@ -1,8 +1,12 @@
-question: Kwa nini idadi ya uthibitishaji katika shughuli ya Bitcoin ni muhimu?
-answer: Kadiri shughuli inavyokuwa na uthibitisho zaidi, ndivyo inavyozidi kuwa isiyobadilika.
+question: Watumiaji huhamishaje Ownership ya pesa zao katika mtandao wa Bitcoin?
+answer: Kwa kusaini shughuli kidijitali kwa kutumia funguo zao za faragha.
 wrong_answers:
-  - Kadiri shughuli inavyokuwa na uthibitisho zaidi, ndivyo inavyokuwa na thamani zaidi.
-  - Kadiri shughuli inavyokuwa na uthibitisho zaidi, ndivyo inavyochakatwa haraka.
-  - Kadiri muamala unavyokuwa na uthibitisho mwingi, ndivyo usalama wake unavyopungua.
-explanation: >-
+  - Kwa kukabidhi Bitcoins zao kimwili.
+  - Kwa kutuma barua pepe kwa mpokeaji.
+  - Kwa kutoa Bitcoin Address yao kwa mpokeaji.
+explanation: |
+  Watumiaji katika mtandao wa Bitcoin huhamisha Ownership ya zao
+  pesa kwa kusaini shughuli za kidijitali na shughuli zao za kibinafsi
+  funguo. Hii inathibitisha kuwa wao ndio wamiliki wa
+  bitcoins wanataka kuhamisha.
 reviewed: true

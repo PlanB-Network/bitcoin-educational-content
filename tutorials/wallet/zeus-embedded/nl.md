@@ -1,5 +1,5 @@
 ---
-name: Zeus ingebed
+name: Zeus Embedded
 description: Hoe de Lightning Zeus Embedded Wallet gebruiken
 ---
 ![cover-zeus-embedded](assets/cover.webp)
@@ -13,11 +13,11 @@ Maar de applicatie bevat ook een "Embedded node".
 
 
 
-**Het is dit facet van de applicatie dat we in deze tutorial zullen verkennen. Hierdoor kan iedereen zijn eigen bliksemknooppunt op mobiel hebben, zonder dat er een speciale server nodig is, op dezelfde manier als ACINQ zijn ongelooflijke Wallet bliksem Phoenix aanbiedt.
+**Het is dit facet van de applicatie dat we in deze tutorial zullen verkennen.** Hierdoor kan iedereen zijn eigen bliksemknooppunt op mobiel hebben, zonder dat er een speciale server nodig is, op dezelfde manier als ACINQ zijn ongelooflijke Wallet bliksem Phoenix aanbiedt.
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 *Ter herinnering, Lightning is een netwerk dat parallel werkt met Bitcoin, waardoor bitcoins kunnen worden uitgewisseld zonder dat er systematisch On-Chain transacties moeten worden uitgevoerd. Het resultaat zijn bijna onmiddellijke transacties, zonder 10 minuten te hoeven wachten tot een blok is gevalideerd. Dit is vooral handig bij het betalen van een handelaar in de fysieke wereld. Bovendien biedt Lightning een opmerkelijk niveau van **vertrouwelijkheid** dat het Bitcoin netwerk van nature niet bezit*.
 
@@ -200,7 +200,7 @@ Voor meer informatie over de juiste manier om je Mnemonic zinsdeel op te slaan e
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![image](assets/fr/14.webp)
 
@@ -248,7 +248,7 @@ Op het volgende scherm wordt u gevraagd om een kanaal te openen in samenwerking 
 In deze tutorial kiezen we deze optie omwille van de eenvoud, maar het is perfect mogelijk om kanalen te openen met elk knooppunt op het netwerk.
 
 
-Het is zelfs mogelijk om meerdere kanalen in een enkele transactie te openen door "OPEN ADDITIONAL CHANNEL" te selecteren. *Maar hier gaan we dieper op in in een "geavanceerde" versie van de **Zeus Embedded**** tutorial.
+Het is zelfs mogelijk om meerdere kanalen in een enkele transactie te openen door "OPEN ADDITIONAL CHANNEL" te selecteren. *Maar hier gaan we dieper op in in een "geavanceerde" versie van de **Zeus Embedded** tutorial.*
 
 
 
@@ -345,7 +345,7 @@ Met Zeus kun je dan een biljet toevoegen om je betaling uit te drukken, of de ro
 
 
 
-Merk op dat in tegenstelling tot een Wallet zoals [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/Wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), met Zeus de route lokaal wordt berekend en niet wordt gedelegeerd naar een derde partij (ACINQ in het geval van Phoenix). Dus jij bent de enige die de ontvanger van de betaling kent. We verliezen een beetje efficiëntie (betalingen duren iets langer om te voltooien, maar we winnen veel op het gebied van privacy).
+Merk op dat in tegenstelling tot een Wallet zoals [Phoenix]([Plan ₿ Academy - Phoenix](https://planb.academy/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), met Zeus de route lokaal wordt berekend en niet wordt gedelegeerd naar een derde partij (ACINQ in het geval van Phoenix). Dus jij bent de enige die de ontvanger van de betaling kent. We verliezen een beetje efficiëntie (betalingen duren iets langer om te voltooien, maar we winnen veel op het gebied van privacy).
 
 
 
@@ -422,8 +422,8 @@ Gefeliciteerd, je bent nu klaar om Zeus Embedded te gebruiken, het Wallet mobiel
 
 
 
-Om meer te weten te komen over de technische werking van Lightning Network, kun je de uitstekende gratis Plan ₿ Network training van Fanis Michalakis vinden:
+Om meer te weten te komen over de technische werking van Lightning Network, kun je de uitstekende gratis Plan ₿ Academy training van Fanis Michalakis vinden:
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

@@ -1,12 +1,17 @@
-question: Wie erhält das Bitcoin-Protokoll eine konstante durchschnittliche Zeit zwischen der Erstellung von zwei Blöcken?
-answer: Die Schwierigkeit, einen gültigen Hash zu finden, passt sich alle 2016 Blöcke an.
+question: Was ist der Hauptunterschied zwischen der keynesianischen Wirtschaftslehre und der österreichischen Wirtschaftslehre bezüglich des Geldsystems?
+
+answer: Die keynesianische Wirtschaftslehre berücksichtigt nicht die zeitlichen und dynamischen Aspekte von Situationen und Ressourcen.
+
 wrong_answers:
-  - Die Anzahl der Miner wird auf eine feste Zahl reguliert.
-  - Die Größe der Blöcke wird auf 10 Megabyte angepasst.
-  - Die Belohnung für das Finden eines gültigen Hashs wird erhöht.
-explanation: |
-  Das Bitcoin-Protokoll stellt sicher, dass die durchschnittliche Zeit zwischen
-  zwei Blöcken konstant bleibt, indem die Schwierigkeit,
-  einen gültigen Hash zu finden, alle 2016 Blöcke angepasst wird. Dieses Ereignis findet
-  unabhängig von der Anzahl der Miner und ihrer Rechenleistung statt.
+  - Die keynesianische Wirtschaftslehre fördert den übermäßigen Verbrauch von Währungen.
+  - Die keynesianische Wirtschaftslehre erkennt die Knappheit von Situationen und Ressourcen an.
+  - Die keynesianische Wirtschaftslehre fördert die Inflation.
+
+explanation: >-
+  Der Hauptunterschied zwischen den Ideen der keynesianischen Wirtschaftslehre und der österreichischen
+  Wirtschaftslehre in Bezug auf das Geldsystem ist, dass die keynesianische Wirtschaftslehre die
+  zeitlichen und dynamischen Aspekte von Situationen und Ressourcen nicht berücksichtigt.
+  Mit anderen Worten, eine unbegrenzte Währung kann die begrenzten Ressourcen
+  unseres Planeten nicht effektiv widerspiegeln.
+
 reviewed: true

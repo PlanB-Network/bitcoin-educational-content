@@ -1,0 +1,8 @@
+question: Kemampuan penting apa yang memungkinkan LDK mempertahankan fungsionalitas Lightning di seluruh dompet seluler dengan konektivitas terputus-putus dibandingkan dengan node Lightning berbasis daemon tradisional?
+answer: Kemampuan LDK untuk melakukan sinkronisasi dengan Penyedia Layanan Lightning (LSP) saat online dengan tetap mempertahankan kontrol kunci pribadi non-kustodian
+wrong_answers:
+  - "Sistem pemrosesan pembayaran offline bawaan LDK yang mengantri transaksi hingga konektivitas jaringan pulih"
+  - "Sistem pencadangan status saluran terdistribusi LDK yang secara otomatis mereplikasi data di beberapa penyedia cloud"
+  - "Protokol jaringan mesh peer-to-peer LDK yang memungkinkan pembayaran Lightning langsung dari perangkat ke perangkat tanpa internet"
+explanation: |
+  Arsitektur modular LDK memungkinkan aplikasi seluler menerapkan pola konektivitas intermiten dengan melakukan sinkronisasi dengan LSP saat online, sehingga pengguna dapat menerima pembayaran dan mengelola saluran meskipun perangkat seluler dalam keadaan offline. Hal ini berbeda secara mendasar dari daemon Lightning tradisional yang membutuhkan operasi terus menerus. Jawaban yang salah menggambarkan fitur yang tidak ada - LDK tidak memiliki pemrosesan pembayaran offline bawaan, cadangan terdistribusi, atau kemampuan jaringan mesh.

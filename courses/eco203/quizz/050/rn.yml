@@ -1,0 +1,9 @@
+question: Ni ikihe kinyoma nyamukuru Bastiat yaciriye urubanza mu gitabu ciwe Ivyo Biboneka n’Ivyo Bitaboneka?
+answer: Gusambura biratuma ubutunzi butera imbere .
+wrong_answers:
+  - Guhonya ni amagorwa .
+  - Abakora ibirahuri ni bo bonyene bungukira ku madirisho yamenetse .
+  - Impanuka zikwiye kwirindwa .
+explanation: |
+  Bastiat anegura ukwihenda kw’uko ugusambura kwogira ingaruka nziza ku bukungu mu gutuma ubutunzi butera imbere, yerekana ahubwo ko bituma umuntu atakaza ubutunzi.
+reviewed: false

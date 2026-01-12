@@ -1,0 +1,8 @@
+question: Hva er hovedgrunnen til at rene multisig-transaksjoner i stor grad ble erstattet av P2SH for komplekse utgiftsforhold?
+answer: Bare multisig eksponerer alle offentlige nøkler on-chain, noe som gjør transaksjonene store, dyre og vanskelige å kode som adresser
+wrong_answers:
+  - Bare multisig krever flere signaturer enn P2SH for å oppnå samme sikkerhetsnivå for flerpartstransaksjoner
+  - Bare multisig kan ikke håndtere tidslåste transaksjoner eller betingede utgiftskrav slik P2SH kan
+  - Bare multisignaturer er inkompatible med moderne wallet-programvare og kan ikke kringkastes til nåværende noder
+explanation: |
+  P2SH ble introdusert spesielt for å løse ineffektiviteten ved bare multisig. Bare multisig krever at alle offentlige nøkler er synlige i scriptPubKey, noe som skaper store transaksjonsstørrelser som koster mer i gebyrer og er vanskelige å representere som brukervennlige adresser. P2SH løser dette ved å skjule det komplekse skriptet bak en hash på 20 byte, og avslører bare de faktiske utgiftsbetingelsene når utdataene er brukt. Dette reduserer on-chain-fotavtrykket, forbedrer personvernet og muliggjør standard adresseformater samtidig som de samme sikkerhetsgarantiene opprettholdes.

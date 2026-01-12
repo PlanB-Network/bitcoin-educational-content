@@ -1,13 +1,11 @@
-question: Come si deve fare il backup quando un wallet ha una passphrase?
-answer: Fare il backup sia della lista di 12 o 24 parole sia della passphrase.
+question: Cosa indica l'assenza di una frase mnemonica in un wallet?
+answer: Indica che il portafoglio non è sicuro per la conservazione a lungo termine di Bitcoin.
 wrong_answers:
-  - Fare il backup solo della lista di 12 o 24 parole.
-  - Fare il backup solo della passphrase.
-  - Non si deve fare il backup né della lista di 12 o 24 parole né della passphrase.
+  - Indica che il portafoglio è completamente sicuro e non richiede alcun backup.
+  - Significa che il portafoglio può contenere molti titoli diversificati.
+  - Suggerisce che il portafoglio è automaticamente salvato in backup dal dispositivo.
 explanation: |
-  Quando si utilizza un wallet con una passphrase, si deve fare il backup
-  sia della lista di 12 o 24 parole sia della passphrase,
-  perché sono entrambe necessarie per recuperare l'accesso ai fondi 
-  in caso di perdita del telefono o del computer. Senza l'una o l'altra,
-  i fondi non si possono recuperare.
+  L'assenza di una lista di 12 o 24 parole, ovvero la
+  frase mnemonica, in un portafoglio dovrebbe mettere in allerta sul fatto che
+  il wallet non è sicuro, in quanto non segue le procedure standard di backup.
 reviewed: true

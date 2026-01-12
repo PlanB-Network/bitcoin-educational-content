@@ -30,7 +30,7 @@ pfSense je bezplatný operační systém s otevřeným zdrojovým kódem, který
 
 
 
-Jeho hlavní funkce se v průběhu let značně vyvíjely a s každou novou verzí byly vylepšovány. K dnešnímu dni nabízí pfSense :
+Jeho hlavní funkce se v průběhu let značně vyvíjely a s každou novou verzí byly vylepšovány. K dnešnímu dni nabízí pfSense:
 
 
 
@@ -63,7 +63,7 @@ Nakonec je třeba připomenout, že aplikace pfSense vyžaduje alespoň dvě fyz
 
 
 
-Poslední stabilní verze aplikace pfSense v době psaní tohoto návodu je 2.8 (vydaná v červnu 2025). Obraz ISO nebo instalační soubor přizpůsobený vašemu hardwarovému prostředí si můžete stáhnout přímo z oficiálních webových stránek :
+Poslední stabilní verze aplikace pfSense v době psaní tohoto návodu je 2.8 (vydaná v červnu 2025). Obraz ISO nebo instalační soubor přizpůsobený vašemu hardwarovému prostředí si můžete stáhnout přímo z oficiálních webových stránek:
 
 
 
@@ -73,7 +73,7 @@ Poslední stabilní verze aplikace pfSense v době psaní tohoto návodu je 2.8 
 
 
 
-Portál pro stahování umožňuje vybrat :
+Portál pro stahování umožňuje vybrat:
 
 
 
@@ -105,15 +105,15 @@ V tomto příkladu je instalace provedena na virtuálním počítači se systém
 
 
 
-Pro standardní nasazení doporučujeme :
+Pro standardní nasazení doporučujeme:
 
 
 
 
 
-- minimálně 1 GB RAM** (doporučuje se 2 GB nebo více, aby bylo možné používat další balíčky nebo podporu ZFS).
-- 8 GB místa na disku** (pro pokročilejší konfigurace je vhodnější 20 GB nebo více, zejména pokud instalujete proxy cache, IDS/IPS nebo podrobné protokoly).
-- Alespoň dvě virtuální síťová rozhraní** (jedno pro WAN, jedno pro LAN). Ve VirtualBoxu je před spuštěním přidejte do nastavení virtuálního počítače.
+- minimálně 1 GB RAM (doporučuje se 2 GB nebo více, aby bylo možné používat další balíčky nebo podporu ZFS).
+- **8 GB místa na disku** (pro pokročilejší konfigurace je vhodnější 20 GB nebo více, zejména pokud instalujete proxy cache, IDS/IPS nebo podrobné protokoly).
+- Alespoň dvě virtuální síťová rozhraní (jedno pro WAN, jedno pro LAN). Ve VirtualBoxu je před spuštěním přidejte do nastavení virtuálního počítače.
 
 
 
@@ -221,7 +221,7 @@ První otázka se týká konfigurace sítí VLAN. V této fázi, pro základní 
 
 
 
-aplikace pfSense vás poté vyzve, abyste definovali, který z Interface bude použit pro WAN (přístup k Internetu). Můžete si vybrat mezi :
+aplikace pfSense vás poté vyzve, abyste definovali, který z Interface bude použit pro WAN (přístup k Internetu). Můžete si vybrat mezi:
 
 
 
@@ -304,13 +304,13 @@ V prohlížeči přejděte na adresu Address uvedenou v konzole (ve výchozím n
 
 
 
-Zobrazí se přihlašovací obrazovka. Výchozí přihlašovací údaje jsou :
+Zobrazí se přihlašovací obrazovka. Výchozí přihlašovací údaje jsou:
 
 
 
 
-- Uživatelské jméno:** `admin`
-- Heslo:** `pfsense`
+- **Uživatelské jméno:** `admin`
+- **Heslo:** `pfsense`
 
 
 
@@ -330,7 +330,7 @@ Při prvním připojení vás aplikace pfSense vyzve, abyste postupovali podle *
 
 
 
-Můžete :
+Můžete:
 
 
 
@@ -352,7 +352,7 @@ Uveďte časové pásmo webu, aby byly protokoly a plány konzistentní (např. 
 
 
 
-Konfigurace připojení WAN :
+Konfigurace připojení WAN:
 
 
 
@@ -383,7 +383,7 @@ Zabezpečte svůj server pfSense okamžitým nastavením silného hesla pro uži
 
 
 
-Před nasazením brány firewall se ujistěte, že máte nejnovější verzi :
+Před nasazením brány firewall se ujistěte, že máte nejnovější verzi:
 
 
 
@@ -423,16 +423,16 @@ U kritických prostředí zvažte automatické zálohování konfigurace na exte
 
 
 
-Chcete-li ukončit své nasazení s klidnou myslí :
+Chcete-li ukončit své nasazení s klidnou myslí:
 
 
 
 
 
-- Úprava pravidel brány firewall**: ve výchozím nastavení povoluje aplikace pfSense veškerý odchozí provoz v síti LAN a blokuje příchozí provoz v síti WAN. Upravte tato pravidla podle potřeby.
-- Konfigurace zabezpečeného vzdáleného přístupu**: v případě potřeby povolte přístup k webu Interface z WAN pouze prostřednictvím VPN nebo s omezením IP.
-- Povolit oznámení**: nakonfigurujte server SMTP pro příjem upozornění (selhání, aktualizace, chyby).
-- Nainstalujte užitečná rozšíření**: například IDS/IPS (Snort, Suricata), proxy (Squid), filtrování DNS (pfBlockerNG).
+- **Úprava pravidel brány firewall**: ve výchozím nastavení povoluje aplikace pfSense veškerý odchozí provoz v síti LAN a blokuje příchozí provoz v síti WAN. Upravte tato pravidla podle potřeby.
+- **Konfigurace zabezpečeného vzdáleného přístupu**: v případě potřeby povolte přístup k webu Interface z WAN pouze prostřednictvím VPN nebo s omezením IP.
+- **Povolit oznámení**: nakonfigurujte server SMTP pro příjem upozornění (selhání, aktualizace, chyby).
+- Nainstalujte užitečná rozšíření: například IDS/IPS (Snort, Suricata), proxy (Squid), filtrování DNS (pfBlockerNG).
 
 
 

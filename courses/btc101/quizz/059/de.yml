@@ -1,9 +1,9 @@
-question: Welches der folgenden ist keine Eigenschaft von Bitcoin?
-answer: Es lässt sich leicht zensieren.
+question: In welchem Jahr wird vorausgesagt, dass die Erstellung von Bitcoins eingestellt wird?
+answer: 2140
 wrong_answers:
-  - Es ist sofort transportierbar.
-  - Es hat vernachlässigbare Verifizierungskosten.
-  - Es hat eine feste Geldpolitik.
+  - 2050
+  - 2030
+  - 2200
 explanation: |
-  Bitcoin besitzt alle notwendigen Eigenschaften, um eine effiziente und gesunde Währung zu sein: teilbar, sofort transportierbar, unzensierbar, vernachlässigbare Kosten für die Verifizierung und mit einer bereits für Jahrhunderte festgelegten Geldpolitik mit 21 Millionen Einheiten.
+  Aufgrund des Halbierungsmechanismus kann mathematisch vorausgesagt werden, dass die Erstellung von Bitcoins im Jahr 2140 eingestellt wird, wenn die Gesamtzahl der Bitcoins ihr Limit von 21 Millionen erreicht.
 reviewed: true

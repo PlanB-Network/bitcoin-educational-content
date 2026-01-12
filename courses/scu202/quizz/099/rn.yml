@@ -1,0 +1,9 @@
+question: Ni irihe tegeko ryo kunyegeza amakuru ya Wi-Fi ryiza ryo gukingira umuhora wawe wo muhira?
+answer: WPA3
+wrong_answers:
+  - WPA
+  - WEP
+  - BSS yihuta
+explanation: |
+  WPA3 ni itegeko rishasha kandi ritekanye cane, rikosora amakosa y’ama verisiyo ya kera kandi ritanga uburinzi bwiza ku bitero.
+reviewed: true

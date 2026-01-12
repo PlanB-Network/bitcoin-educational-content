@@ -1,0 +1,9 @@
+question: 2010년 7월 18일, Bitcoin의 대대적인 슬래시닷팅 일주일 후인 7월 18일에 마운트곡스 Exchange 플랫폼을 만든 사람은 누구일까요?
+answer: 제드 맥칼렙
+wrong_answers:
+  - 마크 카펠레스
+  - 마르티 말미
+  - 개빈 안드레센
+explanation: |
+  그는 Exchange에서 Bitcoin를 달러로 구하는 것이 얼마나 어려운지 깨달은 후, 즉흥적으로 이 효율적인 마켓플레이스를 만들었습니다(특히 Bitcoin 마켓에서).
+reviewed: true

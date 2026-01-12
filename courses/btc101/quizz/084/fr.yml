@@ -1,11 +1,13 @@
-question: Quelle devrait être la principale préoccupation lorsque vous possédez des bitcoins ?
-answer: La sécurité de vos fonds.
+question: Quel est l'usage recommandé d'un portefeuille physique hors ligne, ou cold wallet ?
+answer: Stocker de grandes quantités.
 wrong_answers:
-  - La valeur du Bitcoin en termes de dollars.
-  - La légalité de posséder des bitcoins.
-  - La permission de dépenser vos fonds.
+  - Stocker les dépenses quotidiennes.
+  - Stocker de petites quantités.
+  - Stocker des économies à court terme.
 explanation: |
-  Lorsque vous possédez des bitcoins, la préoccupation principale est la sécurité
-  de vos fonds. Cela est dû au fait que le Bitcoin, comme toute autre forme
-  de monnaie, peut être volé ou perdu s'il n'est pas correctement sécurisé.
+  Un portefeuille physique hors ligne, ou cold wallet, est recommandé pour
+  stocker de grandes quantités car il est moins vulnérable aux
+  menaces en ligne que les portefeuilles chauds (hot wallet). Cependant, il n'est pas
+  recommandé pour les dépenses quotidiennes car il est moins
+  accessible pour les transactions fréquentes.
 reviewed: true

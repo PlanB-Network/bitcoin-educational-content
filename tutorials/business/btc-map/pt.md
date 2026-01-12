@@ -1,5 +1,5 @@
 ---
-name: Mapa BTC
+name: BTC Map
 description: Encontrar locais para gastar o seu Sats
 ---
 ![cover](assets/cover.webp)
@@ -14,7 +14,7 @@ Baseado no OSM (OpenStreetMap), ele próprio uma ferramenta de cartografia parti
 
 
 
-Aceder a [btcmap.org] (https://btcmap.org/):
+Aceder a [btcmap.org](https://btcmap.org/):
 
 
 
@@ -22,7 +22,7 @@ Aceder a [btcmap.org] (https://btcmap.org/):
 
 
 
-Disponível em :
+Disponível em:
 
 
 
@@ -30,7 +30,7 @@ Disponível em :
 - iOS através da [AppStore](https://apps.apple.com/app/btc-world-map/id6443604345)
 - Android através da [Play Store](https://play.google.com/store/apps/details?id=org.btcmap.app)
 - [F-Droid](https://f-droid.org/en/packages/org.btcmap/) o catálogo de aplicações android de código aberto
-- descarregando o [apk android] (https://github.com/teambtcmap/btcmap-android/releases/latest) diretamente do github do projeto
+- descarregando o [apk android](https://github.com/teambtcmap/btcmap-android/releases/latest) diretamente do github do projeto
 - através da aplicação Web a partir do seu browser (a nossa visão atual)
 
 
@@ -165,9 +165,9 @@ Finalmente,
 
 - 1: Marque esta caixa se pretender apenas confirmar que as informações do ficheiro estão actualizadas (neste caso, passe diretamente à etapa 4)
 - 2: Indique aqui as informações incorrectas, se for caso disso, e a correção que propõe
-- 3 : Descreva aqui como obteve a informação (visita, telefonema...)
+- 3: Descreva aqui como obteve a informação (visita, telefonema...)
 - 4: Proceder à verificação do captcha (sensível a maiúsculas e minúsculas)
-- 5 : Clique em "Enviar relatório" para enviar a sua sugestão
+- 5: Clique em "Enviar relatório" para enviar a sua sugestão
 
 
 
@@ -199,7 +199,7 @@ Irá notar imediatamente as áreas de cor laranja. Como pode ver, estas são as 
 
 
 
-*o *Stats** oferece-lhe várias estatísticas sobre a aplicação:
+**Stats** oferece-lhe várias estatísticas sobre a aplicação:
 
 
 
@@ -247,7 +247,7 @@ Irá notar imediatamente as áreas de cor laranja. Como pode ver, estas são as 
 
 
 
-O BTC Map permite-lhe [adicionar a sua própria comunidade] (https://btcmap.org/communities/add/), vejamos passo a passo:
+O BTC Map permite-lhe [adicionar a sua própria comunidade](https://btcmap.org/communities/add/), vejamos passo a passo:
 
 
 
@@ -274,7 +274,7 @@ O BTC Map permite-lhe [adicionar a sua própria comunidade] (https://btcmap.org/
 
 
 
-[Esta página] (https://btcmap.org/add-location/) mostra-lhe como adicionar uma listagem de propriedades em conformidade com o Bitcoin, utilizando o Open Street Map. Se tiver problemas, existe um formulário para preencher, para que outra pessoa possa criar a listagem por si (isto pode demorar várias semanas). Vamos dar uma olhadela:
+[Esta página](https://btcmap.org/add-location/) mostra-lhe como adicionar uma listagem de propriedades em conformidade com o Bitcoin, utilizando o Open Street Map. Se tiver problemas, existe um formulário para preencher, para que outra pessoa possa criar a listagem por si (isto pode demorar várias semanas). Vamos dar uma olhadela:
 
 
 
@@ -287,7 +287,7 @@ O BTC Map permite-lhe [adicionar a sua própria comunidade] (https://btcmap.org/
 - 1: O nome do estabelecimento
 - 2: Address físico (obrigatório, é necessário um Address de rua)
 - 3: Marcar o ponto exato no mapa
-- 4 : Em que categoria se insere a planta?
+- 4: Em que categoria se insere a planta?
 - 5: Quais são os meios de pagamento Bitcoin disponíveis (BTC, Lightning, sem contacto)?
 
 
@@ -307,9 +307,9 @@ O BTC Map permite-lhe [adicionar a sua própria comunidade] (https://btcmap.org/
   - "Eu sou o dono da empresa": Sou o gestor da empresa
   - "Visitei este estabelecimento como cliente": Visitei este estabelecimento como cliente
   - "outro método
-- 12 : O seu endereço eletrónico Address para o caso de a plataforma necessitar de mais informações
+- 12: O seu endereço eletrónico Address para o caso de a plataforma necessitar de mais informações
 - 13: Verificação Captcha (sensível a maiúsculas e minúsculas)
-- 14 : Clique em "Enviar local" para enviar a sua listagem
+- 14: Clique em "Enviar local" para enviar a sua listagem
 
 
 

@@ -1,0 +1,9 @@
+question: Ni igiki itegeko ry’urufunguzo rwa Diffie-Hellman Exchange ryemerera?
+answer: Bituma imigwi ibiri ishobora gukora urufunguzo rw’ibanga rusangi mu gusangira amakuru ya bose.
+wrong_answers:
+  - Iremeza urufunguzo rw’ibanga rw’umuntu ku giti ciwe Exchange ku kiganiro cose.
+  - Iremeza gukoresha urufunguzo rwa bose rwo gupfuka n’urufunguzo rw’ibanga rwo gufungura.
+  - Iremeza Exchange y’amahera y’ubuhinga bwa none.
+explanation: |
+  Iryo tegeko rya Diffie-Hellman rituma ababiri bashobora gusangira amakuru ku mugaragaro mu gihe bonyene bashobora generate urufunguzo rusangi kugira ngo bashobore guhanahana amakuru muri kazoza.
+reviewed: false

@@ -59,7 +59,7 @@ Da biste preuzeli VirtualBox za instalaciju na Windows mašini, postoji samo jed
 
 
 
-Instaliranje VirtualBox** je jednostavno, a proces je isti za sve verzije Windows-a. Počnite pokretanjem VirtualBox izvršne datoteke koju ste upravo preuzeli, zatim kliknite na "**Next**".
+Instaliranje **VirtualBox** je jednostavno, a proces je isti za sve verzije Windows-a. Počnite pokretanjem VirtualBox izvršne datoteke koju ste upravo preuzeli, zatim kliknite na "**Next**".
 
 
 
@@ -73,9 +73,9 @@ Ova instalacija je prilagodljiva, ali preporučujem da instalirate sve funkcije:
 
 
 
-- Podrška za USB u VirtualBox-u** da bi se omogućila podrška za USB uređaje u VirtualBox-u
-- VirtualBox Bridged Network** za integraciju mrežne podrške u režimu "Bridge" (virtuelna mašina može se direktno povezati na vašu lokalnu mrežu)
-- VirtualBox Host-Only Network** za integraciju mrežne podrške u režimu "Host-Only" (virtuelna mašina može komunicirati samo sa vašim fizičkim hostom na Windows 11 i drugim virtuelnim mašinama u ovom režimu)
+- **Podrška za USB u VirtualBox-u** da bi se omogućila podrška za USB uređaje u VirtualBox-u
+- **VirtualBox Bridged Network** za integraciju mrežne podrške u režimu "Bridge" (virtuelna mašina može se direktno povezati na vašu lokalnu mrežu)
+- **VirtualBox Host-Only Network** za integraciju mrežne podrške u režimu "Host-Only" (virtuelna mašina može komunicirati samo sa vašim fizičkim hostom na Windows 11 i drugim virtuelnim mašinama u ovom režimu)
 
 
 
@@ -165,10 +165,10 @@ Da biste kreirali novu virtuelnu mašinu na VirtualBox-u, jednostavno kliknite n
 
 
 
-- Postavke**: opšta konfiguracija VirtualBox-a (podrazumevani VM folder, upravljanje ažuriranjima, jezik, NAT mreže, ekstenzije, itd.)
-- Uvoz**: uvoz virtuelnog uređaja u OVF formatu
-- Izvoz**: izvezite postojeću virtuelnu mašinu u OVF formatu da biste kreirali virtuelni uređaj
-- Dodaj**: dodajte postojeću virtuelnu mašinu u vaš VirtualBox inventar, u standardnom VirtualBox formatu (.vbox) ili XML formatu
+- **Postavke**: opšta konfiguracija VirtualBox-a (podrazumevani VM folder, upravljanje ažuriranjima, jezik, NAT mreže, ekstenzije, itd.)
+- **Uvoz**: uvoz virtuelnog uređaja u OVF formatu
+- **Izvoz**: izvezite postojeću virtuelnu mašinu u OVF formatu da biste kreirali virtuelni uređaj
+- **Dodaj**: dodajte postojeću virtuelnu mašinu u vaš VirtualBox inventar, u standardnom VirtualBox formatu (.vbox) ili XML formatu
 
 
 
@@ -190,10 +190,10 @@ Sa levoj strane, odeljak "**Alati**" omogućava pristup **naprednim funkcijama, 
 
 
 
-- Ime**: ime virtuelne mašine (ovo je ime koje će biti prikazano u VirtualBox-u)
-- Fascikla mašine**: gde čuvati virtuelnu mašinu, uzimajući u obzir da će podfascikla sa imenom VM-a biti kreirana na ovoj lokaciji
-- Tip**: tip operativnog sistema, u zavisnosti od toga koji OS želite da instalirate
-- Verzija**: verzija sistema koju želite instalirati, u ovom slučaju Windows 11, dakle "**Windows11_64**"
+- **Ime**: ime virtuelne mašine (ovo je ime koje će biti prikazano u VirtualBox-u)
+- **Fascikla mašine**: gde čuvati virtuelnu mašinu, uzimajući u obzir da će podfascikla sa imenom VM-a biti kreirana na ovoj lokaciji
+- **Tip**: tip operativnog sistema, u zavisnosti od toga koji OS želite da instalirate
+- **Verzija**: verzija sistema koju želite instalirati, u ovom slučaju Windows 11, dakle "**Windows11_64**"
 
 
 
@@ -205,7 +205,7 @@ Kliknite "**Next**" da nastavite.
 
 
 
-U zavisnosti od operativnog sistema koji odaberete u prethodnom koraku, **VirtualBox daje preporuke o resursima koje treba dodeliti virtuelnoj mašini**. Ovde govorimo o RAM-u koji želite dodeliti VM-u. Pretpostavimo 4 GB, jer se to zaista preporučuje za Windows 11, ali ako vam nedostaju resursi, navedite 2 GB umesto toga. **Nastavite
+U zavisnosti od operativnog sistema koji odaberete u prethodnom koraku, **VirtualBox daje preporuke o resursima koje treba dodeliti virtuelnoj mašini**. Ovde govorimo o RAM-u koji želite dodeliti VM-u. Pretpostavimo 4 GB, jer se to zaista preporučuje za Windows 11, ali ako vam nedostaju resursi, navedite 2 GB umesto toga. **Nastavite**
 
 
 
@@ -231,9 +231,9 @@ VirtualBox podržava tri različita formata za virtuelne Hard diskove, što je v
 
 
 
-- VDI**, zvanični format za VirtualBox
-- VHD**, koji je zvanični Hyper-V format, iako se novi VHDX format danas češće koristi
-- VMDX** je zvanični VMware format za VMware Workstation i VMware ESXi
+- **VDI**, zvanični format za VirtualBox
+- **VHD**, koji je zvanični Hyper-V format, iako se novi VHDX format danas češće koristi
+- **VMDX** je zvanični VMware format za VMware Workstation i VMware ESXi
 
 
 
@@ -333,7 +333,7 @@ U mom slučaju, virtuelna mašina ima 2 virtuelna procesora:
 
 
 
-**Ne oklevajte da pogledate ostale delove menija za konfiguraciju.
+**Ne oklevajte da pogledate ostale delove menija za konfiguraciju.**
 
 
 
@@ -390,10 +390,10 @@ Na našem fizičkom hostu sa Windows 11, gde je instaliran VirtualBox, možemo v
 
 
 
-- VBOX** datoteka (u XML formatu) koja odgovara konfiguraciji VM-a (RAM, CPU, itd.)
-- Datoteka VBOX-PREV** je rezervna kopija prethodne konfiguracije
-- VDI** datoteka odgovara virtuelnom Hard disku u dinamičkom režimu, tako da trenutno ima samo 13 GB, dok je njegova maksimalna veličina 64 GB.
-- Datoteka NVRAM** sadrži stanje BIOS-a virtuelne mašine, što je ekvivalentno neisparljivoj memoriji fizičke mašine.
+- **VBOX** datoteka (u XML formatu) koja odgovara konfiguraciji VM-a (RAM, CPU, itd.)
+- Datoteka **VBOX-PREV** je rezervna kopija prethodne konfiguracije
+- **VDI** datoteka odgovara virtuelnom Hard disku u dinamičkom režimu, tako da trenutno ima samo 13 GB, dok je njegova maksimalna veličina 64 GB.
+- Datoteka **NVRAM** sadrži stanje BIOS-a virtuelne mašine, što je ekvivalentno neisparljivoj memoriji fizičke mašine.
 
 
 

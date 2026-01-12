@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo bw’amahera yigenga Satoshi Nakamoto yavuze muburyo burambuye munyandiko ziwe?
+answer: Liberty Reserve
+wrong_answers:
+  - e-gold
+  - The Liberty Dollar
+  - e-Bullion
+explanation: |
+  Iyi rero yari ikiriko irakora mu gihe ca Bitcoin, itandukanye na e-gold and the Liberty Dollar. Satoshi nayo [yavuzwe](https://bitcointalk.org/index.php?topic=87.msg807#msg807) amafaranga y'ubuhinga bwa none yakozwe.
+reviewed: true

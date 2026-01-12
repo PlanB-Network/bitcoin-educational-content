@@ -1,0 +1,9 @@
+question: Ni igiki gikomeye gifise akaga k’uburyo bwa ECB bufise ubuhinga bwa block cipher?
+answer: Ni ikintu gishobora gufatwa kandi gishobora guhishura uburyo buri mu makuru
+wrong_answers:
+  - Bisaba imfunguruzo z'uburebure buhinduka
+  - Ntikorana n'ubutumwa burenze ibice 128
+  - Ntikorana n'ubutumwa burenga 256 bits
+explanation: |
+  Uburyo bwa ECB (Igitabo c’Ikode y’Ikoranabuhanga) buragena: amakuru asa n’ayo arashirwa mu buryo bumwe, ivyo bikaba bituma haboneka ibigereranyo mu nyandiko yashizwe mu nyandiko.
+reviewed: false

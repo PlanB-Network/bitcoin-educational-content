@@ -1,0 +1,11 @@
+question: Bitcoin Mining의 작동 원리는 무엇인가요?
+answer: Bitcoin Mining은 추첨 원리로 작동하며, 10분마다 블록(따라서 Bitcoin 보상)을 획득할 확률은 개별 작은 Miner의 경우 극히 낮습니다.
+wrong_answers:
+  - Bitcoin Mining은 선착순 원칙에 따라 운영되며, 복잡한 수학 문제를 가장 먼저 푸는 Miner이 Bitcoin 보상을 받습니다.
+  - Bitcoin Mining는 입찰 원칙에 따라 작동하며, 가장 높은 입찰가를 제시한 Miner이 Bitcoin 보상을 받습니다.
+  - Bitcoin Mining는 로테이션 원리로 작동하며, 각 Miner이 차례대로 블록을 채굴하고 Bitcoin 보상을 받습니다.
+explanation: |
+  이 장에서는 Bitcoin Mining가 추첨 원칙에 따라 작동한다고 설명합니다
+  원칙에 따라 작동하며, 10분마다 블록(따라서 Bitcoin 보상)을 획득할 확률이
+  매우 낮다는 것을 설명합니다.
+reviewed: true

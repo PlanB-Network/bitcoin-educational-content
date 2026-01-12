@@ -1,10 +1,13 @@
-question: Quand la guerre de la taille des blocs a-t-elle eu lieu ?
-answer: En 2017.
+question: Quel est le but de ce cours sur Bitcoin ?
+answer: Introduire certains aspects monétaires généraux de Bitcoin, comment l'utiliser, et son avenir.
 wrong_answers:
-  - En 2008.
-  - En 2010.
-  - En 2019.
-explanation: >-
-  La guerre de la taille des blocs a eu lieu en 2017. Ce conflit opposait les acteurs qui voulaient modifier Bitcoin en augmentant la taille des blocs pour augmenter la capacité des transactions,
-  à ceux qui cherchaient à préserver l'indépendance et le pouvoir des utilisateurs en maintenant la taille à 1 MB.
+  - Introduire comment miner du Bitcoin.
+  - Introduire comment réguler le Bitcoin.
+  - Introduire comment créer un nouveau protocole Bitcoin.
+explanation: |
+  Le but de ce cours sur Bitcoin est de discuter des
+  caractéristiques monétaires générales de Bitcoin, y compris comment
+  acheter et vendre des bitcoins, les stocker de manière sécurisée dans des portefeuilles numériques,
+  et les utiliser pour des transactions. Il vise également à
+  explorer l'avenir de Bitcoin.
 reviewed: true

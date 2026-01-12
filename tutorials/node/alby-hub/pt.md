@@ -20,7 +20,7 @@ O Alby Hub é uma ferramenta altamente adaptável. Pode satisfazer as necessidad
 Em função das suas necessidades, o Alby Hub está disponível em 4 configurações:
 
 
-- Alby Hub Cloud :**
+- **Alby Hub Cloud:**
 
 Ideal para iniciantes, esta primeira opção é a opção em nuvem da Alby. Ela permite implantar um Hub diretamente em um servidor gerido pela Alby, acessível através da sua interface Alby Hub. Embora a Alby gerencie o servidor, você mantém a soberania sobre seus fundos, pois suas chaves são criptografadas com uma senha conhecida apenas por você. No entanto, suas chaves devem permanecer descriptografadas na RAM para que o nó funcione, o que teoricamente as expõe a riscos se alguém acessar fisicamente o servidor. É um compromisso interessante para iniciantes, mas é importante estar ciente dos riscos.
 
@@ -29,7 +29,7 @@ A principal vantagem dessa opção é que você obtém um nó do Lightning em fu
 Alby Cloud é um serviço pago [Verifique os preços](https://albyhub.com/#pricing) para mais detalhes. A taxa é deduzida automaticamente da sua carteira por meio de uma fatura Lightning emitida pela Alby. Isso é feito através de uma conexão NWC que configura seu nó para pagar automaticamente as faturas da Alby relacionadas à sua assinatura.
 
 
-- Alby Hub com um nó existente :**
+- Alby Hub com um nó existente:
 
 Se já tiver um nó alojado, por exemplo, na Umbrel ou na Start9, o Alby Hub pode ser utilizado como interface de gestão avançada, tal como o ThunderHub ou o RTL.
 
@@ -47,7 +47,7 @@ Este tutorial centra-se principalmente na interface, que será a mesma independe
 
 ![ALBY HUB](assets/fr/02.webp)
 
-Para a instalação local no seu PC, [descarregue e instale o software de acordo com o seu sistema operativo] (https://github.com/getAlby/hub/releases), depois siga as mesmas instruções na interface.
+Para a instalação local no seu PC, [descarregue e instale o software de acordo com o seu sistema operativo](https://github.com/getAlby/hub/releases), depois siga as mesmas instruções na interface.
 
 ![ALBY HUB](assets/fr/03.webp)
 
@@ -55,7 +55,7 @@ Para a instalação local no seu PC, [descarregue e instale o software de acordo
 
 O primeiro passo é criar uma conta Alby. Embora esta não seja essencial para utilizar o Alby Hub, permite-lhe tirar o máximo partido das opções disponíveis, incluindo a possibilidade de obter um endereço Lightning.
 
-Aceder ao [sítio Web oficial da Alby] (https://getalby.com/) e clicar no botão "*Criar conta*".
+Aceder ao [sítio Web oficial da Alby](https://getalby.com/) e clicar no botão "*Criar conta*".
 
 ![ALBY HUB](assets/fr/04.webp)
 
@@ -276,7 +276,7 @@ Para instalar o Alby Go, aceda à loja de aplicações do seu dispositivo:
 
 ![ALBY HUB](assets/fr/44.webp)
 
-Os utilizadores do Android também podem instalar a aplicação através do ficheiro `.apk` [disponível no GitHub da Alby] (https://github.com/getAlby/go/releases).
+Os utilizadores do Android também podem instalar a aplicação através do ficheiro `.apk` [disponível no GitHub da Alby](https://github.com/getAlby/go/releases).
 
 ![ALBY HUB](assets/fr/45.webp)
 
@@ -299,7 +299,7 @@ Regresse à aplicação Alby Go, leia o código QR ou cole o segredo.
 
 ![ALBY HUB](assets/fr/50.webp)
 
-Clique em "Concluir*".
+Clique em "Concluir".
 
 ![ALBY HUB](assets/fr/51.webp)
 
@@ -368,4 +368,4 @@ E pronto, agora já sabes como utilizar o Lightning com o teu próprio nó utili
 
 Para compreender em pormenor todos os mecanismos do Relâmpago que manipulámos neste tutorial, aconselho-o vivamente a descobrir a nossa formação gratuita sobre o assunto:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

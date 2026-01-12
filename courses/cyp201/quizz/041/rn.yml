@@ -1,0 +1,9 @@
+question: Ni ikihe kibazo nyamukuru co gukoresha PRNG ku generate entropy idateguwe neza?
+answer: Imfunguruzo z'ibanga zishobora gutegurwa n'uwutera
+wrong_answers:
+  - Invugo ya Mnemonic yoshobora kubamwo amajambo atari yo
+  - Imikono ya digitale yoba itagira akamaro
+  - Aderesi za Bitcoin ntizoba zihuye n'urubuga
+explanation: |
+  PRNG iteguwe nabi irashobora gutuma haba urutonde rw’ibintu bishobora gutegekanirwa, bigatuma imfunguruzo zishobora guterwa n’ibitero.
+reviewed: false

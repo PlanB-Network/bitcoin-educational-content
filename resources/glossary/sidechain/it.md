@@ -6,4 +6,4 @@ Una blockchain progettata per operare in parallelo alla blockchain principale di
 
 Il concetto di sidechain è stato inizialmente introdotto nel 2014 da Adam Back, Matt Corallo, Luke Dashjr, Mark Friedenbach, Gregory Maxwell, Andrew Miller, Andrew Poelstra, Jorge Timon e Pieter Wuille. Attualmente, le sidechain più note su Bitcoin sono Liquid e RSK (Rootstock). Tuttavia, queste rimangono molto meno utilizzate rispetto ad altre soluzioni di overlay con un modello diverso, come la Lightning Network.
 
-> *In francese si parla di "chaîne latérale" o "chaîne parallèle"
+> *In francese si parla di "chaîne latérale" o "chaîne parallèle"*

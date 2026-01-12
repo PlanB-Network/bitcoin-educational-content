@@ -1,0 +1,9 @@
+question: Ni uwuhe muce w’imibare utanga ibikoresho vyo muri iki gihe vyo kwigisha imibare?
+answer: Alijebura idasobanutse
+wrong_answers:
+  - Igishushanyo
+  - Imibare
+  - Isesengura rikomeye
+explanation: |
+  Aligebra abstrait, nk’inyigisho y’imibare, itanga imiterere y’imibare ishoboza gusesangura no gutahura imiterere y’imibare ikoreshwa mu vyiyumviro vy’imibare.
+reviewed: false

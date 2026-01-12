@@ -1,5 +1,5 @@
 ---
-name: Perzik
+name: Peach
 description: Complete gids voor het gebruik van Peach en het wisselen van bitcoins P2P
 ---
 ![cover](assets/cover.webp)
@@ -14,7 +14,7 @@ description: Complete gids voor het gebruik van Peach en het wisselen van bitcoi
 KYC-vrije peer-to-peer (P2P) uitwisselingen zijn essentieel voor het behoud van de privacy en financiële autonomie van gebruikers. Ze maken directe transacties tussen individuen mogelijk zonder de noodzaak voor identiteitsverificatie, wat cruciaal is voor diegenen die waarde hechten aan privacy. Voor een meer diepgaand begrip van de theoretische concepten, bekijk de BTC204 cursus:
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ### 1. Wat is perzik?
 
@@ -25,7 +25,7 @@ Peach is een P2P Exchange platform waarmee gebruikers bitcoins kunnen kopen en v
 ### 2. Privacy en gegevensverzameling
 
 
-**Welke informatie verzamelt Peach?
+**Welke informatie verzamelt Peach?**
 
 
 Peach streeft ernaar om een absoluut minimum aan gegevens over zijn gebruikers op te slaan. Hier volgt een overzicht van de gegevens die op de servers worden opgeslagen:
@@ -47,9 +47,9 @@ Ter herinnering, een Hash is data die onherkenbaar is gemaakt, vergelijkbaar met
 *Voor meer informatie over hashing kun je deze cursus volgen:*
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-**Wie kan mijn betalingsgegevens zien?
+**Wie kan mijn betalingsgegevens zien?**
 
 
 
@@ -93,17 +93,17 @@ De Peach-toepassing is georganiseerd rond vier hoofdschermen die toegankelijk zi
 
 
 
-- Home** : Het hoofdscherm voor het kopen en verkopen van bitcoins. Hier kun je nieuwe transacties aanmaken en beschikbare aanbiedingen bekijken.
-- Wallet**: Uw geïntegreerde Bitcoin Wallet waarmee u :
+- **Home**: Het hoofdscherm voor het kopen en verkopen van bitcoins. Hier kun je nieuwe transacties aanmaken en beschikbare aanbiedingen bekijken.
+- **Wallet**: Uw geïntegreerde Bitcoin Wallet waarmee u :
  - Controleer je saldo
  - Bitcoins ontvangen
  - Bitcoins versturen
  - Bekijk je transactiegeschiedenis
-- Trades** : Uw handelsmanagementcentrum waar u :
+- **Trades**: Uw handelsmanagementcentrum waar u :
  - Je huidige transacties
  - Een volledige geschiedenis van je uitwisselingen
  - De status van elke transactie
-- Instellingen** : De hub voor accountconfiguratie voor :
+- **Instellingen**: De hub voor accountconfiguratie voor:
  - Beheer uw betaalmethoden
  - Uw back-ups configureren
  - Je voorkeuren aanpassen
@@ -119,7 +119,7 @@ De Peach-toepassing is georganiseerd rond vier hoofdschermen die toegankelijk zi
 Toegang tot betalingsmethoden via het tabblad Instellingen (afbeelding 8)
 
 
-**Online betalingen
+**Online betalingen**
 
 
 ![Configuration des paiements en ligne](assets/fr/04.webp)
@@ -205,7 +205,7 @@ Land-specifieke betalingssystemen :
 ### 4. Hoe uw Wallet te beveiligen
 
 
-**Inzicht in je Peach-account
+**Inzicht in je Peach-account**
 
 
 Een Peach account is geen traditionele login en wachtwoord account. Het is een bestand dat lokaal op je telefoon wordt opgeslagen, wat betekent dat Peach je gegevens niet hoeft op te slaan of je identiteit niet hoeft te kennen: jij hebt de controle. Dit bestand bevat al je gegevens, van je Bitcoin Wallet sleutels tot je betalingsgegevens.
@@ -378,10 +378,10 @@ Voor optimale veiligheid raden we aan om beide soorten back-ups uit te voeren.
 
 
 
-- Geen KYC vereist**: Behoudt de privacy van de gebruiker.
-- Geen toegang tot bankgegevens**: Peach heeft geen toegang tot je bankgegevens of je identiteit.
-- Intuïtieve Interface**: Gebruiksvriendelijk voor gemiddelde gebruikers.
-- Open Source** : De broncode is openbaar en controleerbaar door de gemeenschap.
+- **Geen KYC vereist**: Behoudt de privacy van de gebruiker.
+- **Geen toegang tot bankgegevens**: Peach heeft geen toegang tot je bankgegevens of je identiteit.
+- **Intuïtieve Interface**: Gebruiksvriendelijk voor gemiddelde gebruikers.
+- **Open Source**: De broncode is openbaar en controleerbaar door de gemeenschap.
 
 
 ### Nadelen van perzik
@@ -389,8 +389,8 @@ Voor optimale veiligheid raden we aan om beide soorten back-ups uit te voeren.
 
 
 
-- Beperkte liquiditeit**: Minder handelsvolume dan gevestigde platforms.
-- Wettelijk risico** : De applicatie wordt beheerd door een Zwitsers bedrijf. Het is daarom onderworpen aan Zwitserse regelgeving, die de applicatie zou kunnen ontwikkelen en mogelijk censureren.
+- **Beperkte liquiditeit**: Minder handelsvolume dan gevestigde platforms.
+- **Wettelijk risico**: De applicatie wordt beheerd door een Zwitsers bedrijf. Het is daarom onderworpen aan Zwitserse regelgeving, die de applicatie zou kunnen ontwikkelen en mogelijk censureren.
 
 
 ## Nuttige bronnen
@@ -399,4 +399,4 @@ Voor optimale veiligheid raden we aan om beide soorten back-ups uit te voeren.
 
 
 - Franse video met uitleg: [YouTube](https://youtu.be/ziwhv9KqVkM)
-- Snelstartgids: [Peach Bitcoin] (https://peachbitcoin.com/fr/quick-start/)
+- Snelstartgids: [Peach Bitcoin](https://peachbitcoin.com/fr/quick-start/)

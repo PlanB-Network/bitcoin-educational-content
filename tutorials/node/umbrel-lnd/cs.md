@@ -1,5 +1,5 @@
 ---
-name: Deštník LND
+name: Umbrel LND
 description: Pokročilý návod na instalaci a konfiguraci Lightning Network Daemon (LND) v systému Umbrel
 ---
 ![cover](assets/cover.webp)
@@ -27,7 +27,7 @@ Pro instalaci Umbrelu a konfiguraci uzlu Bitcoin doporučujeme postupovat podle 
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 Ujistěte se, že je váš uzel Bitcoin aktuální a správně funguje, protože Lightning Network na něj spoléhá při všech transakcích off-chain.
 
@@ -57,7 +57,7 @@ Pro kompletní teoretické seznámení s Lightning Network doporučujeme absolvo
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 V tomto kurzu se důkladně seznámíte se základními koncepty Lightning Network a poté přejdete k praxi s uzlem LND.
 
@@ -154,7 +154,7 @@ Můžete si vybrat mezi vytvořením nového uzlu nebo obnovením uzlu ze záloh
 
 
 
-**Poznámka: V nejnovějších verzích Umbrelu poskytuje instalace aplikace Lightning toto 24slovo seed (samotný uzel Umbrel Bitcoin nikoli).
+**Poznámka: V nejnovějších verzích Umbrelu poskytuje instalace aplikace Lightning toto 24slovo seed (samotný uzel Umbrel Bitcoin nikoli).**
 
 
 
@@ -496,11 +496,11 @@ Uzel Lightning Umbrel vyžaduje dva typy záloh:
 
 - Obsahuje informace o kanálu Lightning
 - Umožňuje nucené uzavření kanálu v případě havárie
-- Důležité:** Nikdy neukládejte soubor `channel.db` ručně (riziko sankcí)
+- **Důležité:** Nikdy neukládejte soubor `channel.db` ručně (riziko sankcí)
 
 
 
-**Ruční postup zálohování
+**Ruční postup zálohování**
 
 
 
@@ -613,17 +613,17 @@ Chcete-li se dozvědět více o konfiguraci a používání strážních věží
 
 
 
-https://planb.network/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
+https://planb.academy/tutorials/node/lightning-network/watch-tower-26937006-dfe5-404e-9ee4-e82e422c5cf2
 ### Další osvědčené postupy
 
 
 
 
 
-- Aktualizace softwaru:** Udržujte Umbrel a LND v aktuálním stavu (opravy zabezpečení)
-- Hardwarová ochrana:** Použijte stabilní systém (Raspberry Pi s SSD, mini-PC) a UPS
-- Zabezpečení sítě:** Ponechte výchozí konfiguraci Toru, změňte heslo správce Umbrel (výchozí: "moneyprintergobrrr")
-- Šifrování:** Pokud je to možné, zapněte šifrování disku
+- **Aktualizace softwaru:** Udržujte Umbrel a LND v aktuálním stavu (opravy zabezpečení)
+- **Hardwarová ochrana:** Použijte stabilní systém (Raspberry Pi s SSD, mini-PC) a UPS
+- **Zabezpečení sítě:** Ponechte výchozí konfiguraci Toru, změňte heslo správce Umbrel (výchozí: "moneyprintergobrrr")
+- **Šifrování:** Pokud je to možné, zapněte šifrování disku
 
 
 
@@ -691,10 +691,10 @@ RTL je kompletní "švýcarský armádní nůž" pro správu uzlu Lightning s od
 
 
 
-- Lightning Shell** : Příkazový řádek (lncli) přes prohlížeč
-- BTC RPC Explorer a Mempool** : Monitorování Blockchain
-- LNmetrics & Torq**: Analýza výkonu směrování
-- Amboss a 1ML**: "Sociální" správa vašeho uzlu (aliasy, kontakty, analýza sítě)
+- **Lightning Shell**: Příkazový řádek (lncli) přes prohlížeč
+- **BTC RPC Explorer a Mempool**: Monitorování Blockchain
+- **LNmetrics & Torq**: Analýza výkonu směrování
+- **Amboss a 1ML**: "Sociální" správa vašeho uzlu (aliasy, kontakty, analýza sítě)
 
 
 

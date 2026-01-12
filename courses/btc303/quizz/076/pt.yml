@@ -1,0 +1,9 @@
+question: De acordo com as práticas de divulgação responsável, qual é o principal dilema ético enfrentado pelos investigadores de segurança que descobrem vulnerabilidades em sistemas descentralizados como o Bitcoin?
+answer: Equilibrar a necessidade de informar as partes responsáveis e, ao mesmo tempo, evitar a divulgação a agentes potencialmente maliciosos que possam explorar a vulnerabilidade
+wrong_answers:
+  - Decidir se quer lucrar com a descoberta da vulnerabilidade através de programas de recompensa de bugs ou doar a informação gratuitamente à comunidade
+  - Escolher entre comunicar primeiro às autoridades governamentais ou comunicar diretamente à equipa de desenvolvimento de software para evitar complicações regulamentares
+  - Determinar a compensação financeira adequada para a descoberta de vulnerabilidades antes de concordar em divulgar as informações aos programadores
+explanation: |
+  O principal desafio ético na divulgação responsável é o delicado equilíbrio entre transparência e segurança. Os investigadores devem garantir que as vulnerabilidades são resolvidas sem fornecer inadvertidamente um roteiro para a exploração maliciosa. Isto implica uma coordenação cuidadosa com os programadores, uma calendarização adequada das divulgações e a consideração do impacto mais vasto no ecossistema. As outras opções centram-se em preocupações financeiras ou regulamentares que, embora potencialmente relevantes, não são o principal dilema ético delineado nas práticas de divulgação responsável.
+reviewed: false

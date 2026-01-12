@@ -1,12 +1,9 @@
-question: V jakých oborech vyvolává Bitcoin otázky?
-answer: Kryptografie, teorie her, ekonomie a měnová politika, informatika, filozofie, energetika, právo a regulace.
+question: Jaký je hlavní cíl Lightning Network?
+answer: Umožnit offchain platby, rychlé a levné
 wrong_answers:
-  - Pouze informatika a ekonomie
-  - Pouze kryptografie a teorie her.
-  - Pouze filozofie a energetika.
+  - Zvýšit velikost bloků bitcoinového blockchainu
+  - Postupně nahradit bitcoinový blockchain výkonnějším systémem
+  - Učinit těžební farmy velmi bohatými
 explanation: |
-  Bitcoin je multidisciplinární téma, které vyvolává
-  otázky související s různými obory, včetně
-  kryptografie, teorie her, ekonomie a měnové politiky,
-  informatiky, filozofie, energetiky, práva a regulace.
-reviewed: true
+  Lightning Network si klade za cíl umožnit téměř okamžité platby v bitcoinech s nízkými poplatky, aniž by zatěžoval hlavní blockchain.
+reviewed: false

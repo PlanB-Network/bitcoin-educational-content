@@ -1,0 +1,8 @@
+question: Yêu cầu bảo mật quan trọng nào phải được đáp ứng khi tạo nonce K trong quá trình tạo chữ ký ECDSA?
+answer: K phải là duy nhất và không thể dự đoán được đối với mỗi chữ ký để ngăn chặn việc lộ khóa riêng tư.
+wrong_answers:
+  - K phải được tạo ra từ khóa công khai để đảm bảo quá trình xác thực chữ ký hoạt động chính xác.
+  - Mã K phải giống nhau trên nhiều chữ ký để duy trì tính nhất quán trong quy trình ký kết.
+  - Để đảm bảo tính chính xác về mặt toán học, K phải bằng khóa riêng nhân với giá trị băm của thông điệp.
+explanation: |
+  Giá trị ngẫu nhiên K phải là duy nhất và không thể dự đoán được cho mỗi chữ ký vì việc tái sử dụng K hoặc làm cho nó có thể dự đoán được sẽ cho phép kẻ tấn công khôi phục khóa riêng. Nếu cùng một K được sử dụng hai lần với các thông điệp khác nhau, phép toán đại số đơn giản có thể tiết lộ khóa riêng. Các triển khai hiện đại sử dụng việc tạo K xác định (RFC 6979) để tránh lỗi của bộ tạo số ngẫu nhiên trong khi vẫn đảm bảo tính duy nhất. Các tùy chọn khác là không chính xác: K không bao giờ được suy ra từ khóa công khai, không bao giờ được tái sử dụng và không bao giờ bằng khóa riêng nhân với hàm băm của thông điệp.

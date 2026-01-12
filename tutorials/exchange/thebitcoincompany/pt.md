@@ -1,5 +1,5 @@
 ---
-name: A empresa Bitcoin
+name: The Bitcoin Company
 description: Como posso comprar bens e serviços em BTC com a The Bitcoin Company?
 ---
 ![cover](assets/cover.webp)
@@ -8,7 +8,7 @@ description: Como posso comprar bens e serviços em BTC com a The Bitcoin Compan
 
 > Bitcoin: Um sistema de dinheiro eletrónico ponto a ponto
 
-É disso que se trata o Bitcoin, que pode ser gasto entre pares sem ter de pedir autorização a ninguém. Atualmente, muito poucos comerciantes aceitam Bitcoin em Exchange para os seus bens e serviços (estamos tão adiantados), o que torna difícil para aqueles de nós que precisam de gastar os seus satoshis. *a *The Bitcoin Company** está aqui para ajudar a resolver este problema, permitindo-te gastar os teus bitcoins para **comprar cartões de oferta**
+É disso que se trata o Bitcoin, que pode ser gasto entre pares sem ter de pedir autorização a ninguém. Atualmente, muito poucos comerciantes aceitam Bitcoin em Exchange para os seus bens e serviços (estamos tão adiantados), o que torna difícil para aqueles de nós que precisam de gastar os seus satoshis. **A The Bitcoin Company** está aqui para ajudar a resolver este problema, permitindo-te gastar os teus bitcoins para **comprar cartões de oferta**
 
 
 
@@ -36,11 +36,11 @@ Em suma, "gastar" e "substituir" parecem ser o caminho a seguir. Participar no d
 
 
 
-*a *The Bitcoin Company** é como o seu concorrente Bitrefill: é uma forma de trocar bitcoins por cartões de oferta de retalho. É possível viver praticamente com um "Bitcoin normal" graças a este tipo de solução, criando uma simples conta.
+*A **The Bitcoin Company** é como o seu concorrente Bitrefill: é uma forma de trocar bitcoins por cartões de oferta de retalho. É possível viver praticamente com um "Bitcoin normal" graças a este tipo de solução, criando uma simples conta.*
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 A mensagem não podia ser mais clara: "Gaste os seus Bitcoins em todo o lado".
 
@@ -70,7 +70,7 @@ Segue-se uma seleção de sinais para os EUA, a título de exemplo:
 
 
 
-Para tal, visitar [o sítio Web] (https://thebitcoincompany.com/).
+Para tal, visitar [o sítio Web](https://thebitcoincompany.com/).
 
 
 
@@ -117,9 +117,9 @@ Se é da velha guarda e quer saber como criar facilmente uma caixa de correio se
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Pela nossa parte, vamos optar por "Iniciar sessão com o Lightning".
 
@@ -154,7 +154,7 @@ Vamos então abrir o nosso Wallet Phoenix e digitalizar o código QR apresentado
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 Instantaneamente, é identificado através do seu Wallet Lightning, que pode ser Phoenix ou outro, como é óbvio, uma vez que a maioria das carteiras no mercado suporta esta funcionalidade.
 
@@ -291,4 +291,4 @@ Se quiser ajudar a popularizar o Bitcoin e incentivar um comerciante independent
 
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

@@ -1,0 +1,9 @@
+question: O que é um nó Bitcoin?
+answer: Um computador com software de implementação do protocolo Bitcoin
+wrong_answers:
+  - Um Hardware Wallet que implementa a rede Bitcoin
+  - Um Miner que produz novos blocos para o Bitcoin
+  - Um servidor central que gere a rede Bitcoin e a confirmação das transacções
+explanation: |
+  Um nó Bitcoin é um computador com software, como o Bitcoin core, que implementa o protocolo e participa na rede Bitcoin.
+reviewed: true

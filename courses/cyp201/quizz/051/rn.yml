@@ -1,0 +1,9 @@
+question: Ni itandukaniro irihe rikomeye riri hagati ya passphrase na PIN code ya Bitcoin Wallet?
+answer: passphrase ihindura aho urufunguzo ruva, si kode ya PIN
+wrong_answers:
+  - Kode ya PIN ihuye n'ijambo Mnemonic
+  - PIN code ikoreshwa mu gupfuka amafaranga ariko si passphrase.
+  - Kode ya PIN itanga aderesi za Bitcoin
+explanation: |
+  Udakunze kode ya PIN, passphrase iragira uruhara mu buryo butaziguye mu bijanye no gukuraho urufunguzo kandi igahindura urufunguzo rwa Wallet.
+reviewed: false

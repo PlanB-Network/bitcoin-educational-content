@@ -1,0 +1,9 @@
+question: Ni kuki Bastiat abona ko ari ngombwa gumurikira abanyagihugu inyifato runtu mu vy’ubutunzi?
+answer: Kugira ngo bigabanye akosho k’abahendanyi be n’inyigisho z’ikinyoma zerekeye ubutunzi .
+wrong_answers:
+  - Kwigisha ubugwaneza n'ukwitaho abandi
+  - Kugira ngo uburyo bwo gutanga imisoro bube ubutungane
+  - Gukuraho ubukene biciye mu vy'ubutunzi .
+explanation: |
+  Bastiat abona mu nyifato runtu y’ubutunzi uburyo bwo kugabanya ugukoresha nabi n’ingene inyigisho z’ikinyoma zigira ico zikoze ku bantu mu gukangurira abantu bose ingaruka nyazo z’ubutunzi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mu nyishu, ni iyihe igereranya imwe mu ntumbero nyamukuru z’ugusesangura uruhererekane?
+answer: Gushiramwo ibikorwa bitandukanye kuri Bitcoin kugira ngo umenye ubudasa bw’uwukoresha.
+wrong_answers:
+  - Gutuma Mining ikora neza ku rubuga.
+  - Gutanga ubutungane ku masezerano yo gushitsa itegeko hakurikijwe ububasha.
+  - Kwongerera ibanga ry’ibikorwa vya Bitcoin.
+explanation: |
+  Kimwe mu ntumbero z’isesengura ry’uruhererekane ni ugushira hamwe ibikorwa bitandukanye kuri Bitcoin kugira ngo hamenyekane ubudasa bw’uwubikoresha yabikoze. Hanyuma, bizoshoboka ko umuntu agerageza guhuza uwo mugwi w’ibikorwa n’akaranga nyakuri.
+reviewed: false

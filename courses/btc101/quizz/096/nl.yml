@@ -1,11 +1,13 @@
-question: Waar staat de private sleutel vaak voor in een Bitcoin Wallet?
-answer: Een lijst van 12 of 24 woorden.
+question: Wat is het doel van het maken van een erfenisplan voor je bitcoins?
+answer: Om ervoor te zorgen dat je bitcoins goed worden beheerd na je dood.
 wrong_answers:
-  - Een lijst van 12 of 48 woorden.
-  - Een lijst van 32 woorden.
-  - Een lijst van 64 woorden.
+  - Om belasting op je bitcoins te vermijden.
+  - Om de waarde van je bitcoins te verlagen.
+  - Om te voorkomen dat je bitcoins worden gestolen.
 explanation: |
-  In een Bitcoin Wallet wordt de private sleutel vaak voorgesteld
-  door een lijst van 12 of 24 woorden, ook bekend als een seed frase
-  of Mnemonic zinsdeel.
+  Een successieplan zorgt ervoor dat je bitcoins
+  goed worden beheerd na je dood. Het kan een
+  handgeschreven brief met details over uw bezittingen, hun toegang
+  methoden, en de contactgegevens van vertrouwde personen
+  met wie contact moet worden opgenomen.
 reviewed: true

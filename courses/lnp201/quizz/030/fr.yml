@@ -6,4 +6,4 @@ wrong_answers:
   - En envoyant les fonds directement avec des adresses multisignatures
 explanation: |
   Le Lightning Network permet de router un paiement via plusieurs nœuds intermédiaires, sans nécessiter un canal direct entre l'émetteur et le destinataire.
-reviewed: false
+reviewed: true 

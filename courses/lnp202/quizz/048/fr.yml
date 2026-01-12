@@ -1,0 +1,9 @@
+question: Quelle solution gratuite pour obtenir de la liquidité entrante repose sur la coopération ?
+answer: LN+
+wrong_answers:
+  - Magma
+  - Boltz
+  - 1ML
+explanation: |
+  Lightning Network Plus permet d’obtenir de la liquidité entrante via des ouvertures de canaux circulaires.
+reviewed: false

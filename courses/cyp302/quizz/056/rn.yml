@@ -1,0 +1,9 @@
+question: Ni ubuhe bwoko bw’imiterere y’aligebra ari bwo bushingiyeko aligebra itaboneka?
+answer: Umugwi
+wrong_answers:
+  - Umurima
+  - Impeta
+  - Matirisi
+explanation: |
+  Itsinda ni umubumbe w’ishimikiro w’aligebra iyo aligebra itaboneka ishingiyeko, isobanurwa n’umugwi wa Elements n’igikorwa c’ibice bibiri vyubahiriza ibintu bimwebimwe.
+reviewed: false

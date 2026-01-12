@@ -8,4 +8,4 @@ Pro každou dvojici klíčů proto existuje jedinečný řetězový kód. Řetě
 
 Bez znalosti řetězového kódu přiřazeného ke každému rodičovskému páru nelze klíče odvodit. Do procesu odvozování zavádí pseudonáhodná data, aby bylo zajištěno, že generování kryptografických klíčů zůstane pro útočníky nepředvídatelné, zatímco pro držitele peněženky bude deterministické.
 
-> ► V angličtině se "code de chaîne" nazývá "chain code" a "code de chaîne maître" se nazývá "master chain code".*
+> ► V angličtině se "code de chaîne" nazývá "chain code" a "code de chaîne maître" se nazývá "master chain code".

@@ -1,0 +1,10 @@
+question: Ni uwuhe murongo w’inyandiko ushimikwa cane muri 2024 kugira ngo umuntu agire ubuzima bwiwe bwite kuri Bitcoin?
+answer: P2TR.
+wrong_answers:
+  - P2PK
+  - P2PKH
+  - P2SH.
+explanation: |
+  Kugira ngo umuntu yinjire mu bantu benshi cane, birakenewe ko akoresha uburyo bwo kwandika bukoreshwa cane. Ivyanditswe vya P2TR ni vyo ubu bikoreshwa cane mu bikorwa vya Bitcoin.
+  
+reviewed: false

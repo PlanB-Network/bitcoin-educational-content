@@ -1,0 +1,9 @@
+question: Nitwabona mu bijanye n’ugutanga amahera yoroshe ko igisohoka gifise amahera azunguruka, ni insobanuro iyihe ishobora kuba twoyikuramwo?
+answer: Igisohoka c'uruziga ntikikiri mu minwe y'ukoresha inyungu.
+wrong_answers:
+  - Igisohoka c’uruziga kigenewe amafaranga y’ugucuruza.
+  - Igisohoka c'uruziga kiracari ic'ukoresha inyungu.
+  - Igisohoka c'uruziga ni Address.
+explanation: |
+  Iyo umuntu ahanganye n’uburyo bwo kwishura bworoshe (1 input na 2 outputs), iyo kimwe muri ivyo bisohoka gikoresheje amahera azunguruka, rero kigereranya ukwishyura. Gutyo bisiga ububasha bw’ukoresha inyungu.
+reviewed: false

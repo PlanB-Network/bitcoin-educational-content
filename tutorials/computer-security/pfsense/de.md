@@ -30,7 +30,7 @@ pfSense ist ein freies Open-Source-Betriebssystem, das jeden Computer, dediziert
 
 
 
-Seine Hauptfunktionen haben sich im Laufe der Jahre erheblich weiterentwickelt und sind mit jeder neuen Version verbessert worden. Bis heute bietet pfSense :
+Seine Hauptfunktionen haben sich im Laufe der Jahre erheblich weiterentwickelt und sind mit jeder neuen Version verbessert worden. Bis heute bietet pfSense:
 
 
 
@@ -73,7 +73,7 @@ Die letzte stabile Version von pfSense, zum Zeitpunkt der Erstellung dieses Tuto
 
 
 
-Das Download-Portal ermöglicht Ihnen die Auswahl von :
+Das Download-Portal ermöglicht Ihnen die Auswahl von:
 
 
 
@@ -105,15 +105,15 @@ In diesem Beispiel wird die Installation auf einer virtuellen Maschine mit Virtu
 
 
 
-Für einen Standardeinsatz empfehlen wir :
+Für einen Standardeinsatz empfehlen wir:
 
 
 
 
 
-- mindestens 1 GB RAM** (2 GB oder mehr werden empfohlen, um zusätzliche Pakete oder ZFS-Unterstützung zu ermöglichen).
-- 8 GB Festplattenspeicher** (20 GB oder mehr sind für fortgeschrittene Konfigurationen vorzuziehen, insbesondere wenn Sie einen Proxy-Cache, IDS/IPS oder detaillierte Protokolle installieren).
-- Mindestens zwei virtuelle Netzwerkschnittstellen** (eine für das WAN, eine für das LAN). Fügen Sie diese in VirtualBox vor dem Start zu den VM-Einstellungen hinzu.
+- mindestens 1 GB RAM (2 GB oder mehr werden empfohlen, um zusätzliche Pakete oder ZFS-Unterstützung zu ermöglichen).
+- **8 GB Festplattenspeicher** (20 GB oder mehr sind für fortgeschrittene Konfigurationen vorzuziehen, insbesondere wenn Sie einen Proxy-Cache, IDS/IPS oder detaillierte Protokolle installieren).
+- Mindestens zwei virtuelle Netzwerkschnittstellen (eine für das WAN, eine für das LAN). Fügen Sie diese in VirtualBox vor dem Start zu den VM-Einstellungen hinzu.
 
 
 
@@ -221,7 +221,7 @@ Die erste Frage betrifft die Konfiguration von VLANs. In diesem Stadium werden w
 
 
 
-pfSense fordert Sie dann auf, zu definieren, welcher Interface für den WAN (Internetzugang) verwendet werden soll. Sie können wählen zwischen :
+pfSense fordert Sie dann auf, zu definieren, welcher Interface für den WAN (Internetzugang) verwendet werden soll. Sie können wählen zwischen:
 
 
 
@@ -309,8 +309,8 @@ Der Anmeldebildschirm erscheint. Die Standard-Anmeldedaten sind:
 
 
 
-- Benutzername:** `admin`
-- Passwort:** `pfsense`
+- **Benutzername:** `admin`
+- **Passwort:** `pfsense`
 
 
 
@@ -330,7 +330,7 @@ Bei der ersten Verbindung fordert pfSense Sie auf, dem **Setup Wizard** zu folge
 
 
 
-Sie können :
+Sie können:
 
 
 
@@ -352,7 +352,7 @@ Geben Sie die Zeitzone Ihres Standorts an, damit Protokolle und Zeitpläne konsi
 
 
 
-Konfigurieren Sie die WAN-Verbindung :
+Konfigurieren Sie die WAN-Verbindung:
 
 
 
@@ -383,7 +383,7 @@ Sichern Sie Ihre pfSense, indem Sie sofort ein sicheres Passwort für den Benutz
 
 
 
-Vergewissern Sie sich vor dem Einsatz Ihrer Firewall, dass Sie die neueste Version von :
+Vergewissern Sie sich vor dem Einsatz Ihrer Firewall, dass Sie die neueste Version von:
 
 
 
@@ -429,10 +429,10 @@ So beenden Sie Ihren Einsatz in aller Ruhe:
 
 
 
-- Ändern Sie die Firewall-Regeln**: pfSense erlaubt standardmäßig den gesamten ausgehenden Verkehr im LAN und blockiert den eingehenden Verkehr im WAN. Passen Sie diese Regeln nach Bedarf an.
-- Konfigurieren Sie den sicheren Fernzugriff**: Aktivieren Sie bei Bedarf den Zugriff auf Interface web vom WAN aus nur über VPN oder mit IP-Beschränkungen.
-- Benachrichtigungen aktivieren**: Konfigurieren Sie einen SMTP-Server für den Empfang von Benachrichtigungen (Ausfälle, Aktualisierungen, Fehler).
-- Installieren Sie nützliche Erweiterungen**: zum Beispiel IDS/IPS (Snort, Suricata), Proxy (Squid), DNS-Filterung (pfBlockerNG).
+- **Ändern Sie die Firewall-Regeln**: pfSense erlaubt standardmäßig den gesamten ausgehenden Verkehr im LAN und blockiert den eingehenden Verkehr im WAN. Passen Sie diese Regeln nach Bedarf an.
+- **Konfigurieren Sie den sicheren Fernzugriff**: Aktivieren Sie bei Bedarf den Zugriff auf Interface web vom WAN aus nur über VPN oder mit IP-Beschränkungen.
+- **Benachrichtigungen aktivieren**: Konfigurieren Sie einen SMTP-Server für den Empfang von Benachrichtigungen (Ausfälle, Aktualisierungen, Fehler).
+- Installieren Sie nützliche **Erweiterungen**: zum Beispiel IDS/IPS (Snort, Suricata), Proxy (Squid), DNS-Filterung (pfBlockerNG).
 
 
 

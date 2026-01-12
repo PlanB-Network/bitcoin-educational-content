@@ -1,13 +1,13 @@
-question: Was ist eine Cold Wallet?
-answer: Eine Wallet auf einem physischen Gerät, das Ihre Schlüssel speichert und nicht mit dem Internet verbunden ist.
+question: Was müssen Sie sichern, wenn Sie eine Wallet mit einem Passwort verwenden?
+answer: Sie müssen sowohl die Liste der 12 oder 24 Wörter als auch Ihr Passwort sichern.
 wrong_answers:
-  - Eine Wallet, die sich physisch kalt anfühlt.
-  - Eine Wallet, die bei Bitcoin-Nutzern unbeliebt ist.
-  - Eine Wallet, die für die Aufbewahrung kleiner Bitcoin-Mengen empfohlen wird.
+  - Sie müssen nur die Liste der 12 oder 24 Wörter sichern.
+  - Sie müssen nur Ihr Passwort sichern.
+  - Sie müssen weder die Liste der 12 oder 24 Wörter noch Ihr Passwort sichern.
 explanation: |
-  Eine Cold Wallet ist ein Begriff, der eine Bitcoin-Wallet
-  beschreibt, die auf einem Gerät gespeichert ist, das nicht
-  mit dem Internet verbunden ist. Dies macht sie weniger anfällig
-  für Online-Bedrohungen, bedeutet aber auch, dass die Wallet
-  für tägliche Transaktionen weniger zugänglich ist.
+  Wenn Sie eine Wallet mit einem Passwort verwenden, müssen Sie
+  sowohl die Liste der 12 oder 24 Wörter als auch Ihr Passwort sichern,
+  da sowohl die Liste der Wörter als auch das Passwort notwendig sind,
+  um im Falle des Verlusts Ihres Telefons oder Computers wieder Zugang zu Ihren Mitteln zu erhalten. Ohne das eine oder das andere
+  sind die Mittel nicht zugänglich.
 reviewed: true

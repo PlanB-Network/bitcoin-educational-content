@@ -1,0 +1,10 @@
+question: Ni uruhe rufunguzo rw’ubuhinga bwa none Exchange ruri mu mutima w’ibikorwa vya BIP47?
+answer: ECDH
+wrong_answers:
+  - RSA
+  - Elugamali
+  - Diffie-Umunyakuzimu
+explanation: |
+  Ico gikoresho gikoreshwa ni ECDH (Igicapo c’Igicapo c’Igicapo). Ni uburyo butandukanye bw’ubuhinga bwa kera bwa Diffie-Hellman bukoresha imirongo y’imirongo.
+  
+reviewed: false

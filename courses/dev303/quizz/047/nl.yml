@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste verschil tussen hoe Rust normaal gesproken leenregels oplegt en hoe RefCell ze oplegt?
+answer: Rust dwingt normaal gesproken leenregels af tijdens het compileren, terwijl RefCell ze afdwingt tijdens runtime
+wrong_answers:
+  - Rust staat normaal gesproken meerdere muteerbare referenties toe, terwijl RefCell ze beperkt tot één
+  - Rust gebruikt normaliter referentietelling voor veiligheid, terwijl RefCell gebruik maakt van statische analyse
+  - Rust vereist normaal gesproken expliciet geheugenbeheer, terwijl RefCell dit automatisch afhandelt
+explanation: |
+  De belangrijkste innovatie van RefCell is het verplaatsen van de handhaving van leenregels van compilatietijd naar runtime. Normale Rust referenties worden gecontroleerd door de compiler tijdens het compileren om de veiligheid te garanderen, maar RefCell voert dezelfde controles uit terwijl het programma draait. Hierdoor kan RefCell interne veranderlijkheid bieden in situaties waar de statische analyse van de compiler te conservatief is, maar dit gaat gepaard met de afweging van potentiële runtime paniek als de leenregels worden geschonden. De andere opties beschrijven niet goed de fundamentele veiligheidsmechanismen van Rust of het werkelijke gedrag van RefCell.

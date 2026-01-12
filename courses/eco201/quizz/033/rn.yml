@@ -1,0 +1,13 @@
+question: Ni isano irihe riri hagati y’ukuziganya n'urugero rwo kubaho(imibereho) nk’uko abahinga mu vy’ubutunzi bo muri Otirishi babivuga?
+answer: Uko tuziganya cane niko tuzoshobora kwirundanira imitahe myinshi, ivyo na vyo bikazotuma turonka inyungu z’umwimbu zituma turonka ibintu vyinshi. Gutyo, umuntu ashika ku rugero rwo hejuru rw’ubuzima  canke rwo kubaho.
+wrong_answers:
+  - Uko turushiriza kuziganya, ni ko imibereho yacu itera isubira inyuma.
+  - Nta sano riri hagati y’ukuziganya n'urugero rw’imibereho y'umuntu.
+  - Uko tuziganya bike, ni ko imibereho yacu igenda itera imbere.
+explanation: |
+  Abahinga mu vy’ubutunzi bo muri Otirishi babona ko ukugabanya umwanya umuntu akunda ari .
+  intango y'ingendo nziza yo kuziganya → ivyiza vyinshi
+  → gutanga umusaruro mwinshi → ibintu vyinshi = urugero rwo kubaho rwo hejuru → guhitamwo umwanya muto. kubw'ivyo tuzozigama cane, ni ko tuzoshobora kwirundanira imitahe myinshicanke amatunga menshi, .
+  ivyo navyo bizohinduka inyungu z’umwimbu zitanga ibicuruzwa vyinshi.
+  Ivyo bituma umuntu agira urugero rwo kubaho rwo hejuru.
+reviewed: true

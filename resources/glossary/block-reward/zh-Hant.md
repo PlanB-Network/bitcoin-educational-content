@@ -8,4 +8,4 @@ term: Block reward
 Block reward 在稱為 "coinbase "的特定交易中分發。從中提取的比特幣會自動鎖定 100 個區塊期。這稱為到期期。
 
 
-> ► *英文翻譯為「Block reward」。
+> ► *英文翻譯為「Block reward」*。

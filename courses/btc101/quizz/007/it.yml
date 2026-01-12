@@ -1,12 +1,9 @@
-question: Qual è il focus principale di questo corso Bitcoin?
-answer: Gli aspetti monetari di Bitcoin.
+question: Cos'era il progetto DigiCash?
+answer: Un tentativo di David Chaum di creare denaro elettronico anonimo.
 wrong_answers:
-  - Gli aspetti di codifica di Bitcoin.
-  - L'impatto ecologico di Bitcoin.
-  - Gli aspetti normativi di Bitcoin.
+  - Un progetto per creare un wallet digitale per Bitcoin.
+  - Un tentativo di digitalizzare tutto il contante fisico da parte della Federal Reserve.
+  - Un progetto per creare una criptovaluta basata su Bitcoin.
 explanation: |
-  Questo corso si concentra sugli aspetti monetari
-  di Bitcoin, inclusi come comprare e vendere bitcoin, conservarli
-  in modo sicuro in wallet digitali e utilizzarli per
-  transazioni.
-reviewed: true
+  David Chaum ha introdotto il concetto di denaro elettronico anonimo con il suo progetto DigiCash negli anni '80.
+reviewed: vero

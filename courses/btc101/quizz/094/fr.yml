@@ -1,14 +1,11 @@
-question: Quel est le risque d'utiliser un portefeuille multisig ?
-answer: Ne pas avoir accès à suffisamment de clés privées individuelles ou de composants de sauvegarde.
+question: Quelle est la méthode standard pour restaurer votre portefeuille ?
+answer: Saisir votre phrase mnémonique dans n'importe quel logiciel de portefeuille.
 wrong_answers:
-  - Avoir accès à suffisamment de clés privées individuelles ou de composants de sauvegarde.
-  - Partager vos clés privées avec d'autres parties.
-  - Partager vos clés publiques avec d'autres parties.
+  - Sauvegarder votre phrase mnémonique dans un fichier numérique.
+  - Écrire votre phrase mnémonique sur un tableau blanc.
+  - Partager votre phrase mnémonique avec un ami de confiance.
 explanation: |
-  Lorsque vous utilisez un portefeuille multisig, chaque clé privée du
-  multisig devrait être stockée dans des emplacements différents. Cela est
-  dû au fait que le multisig nécessite plusieurs signatures pour réaliser
-  une transaction, donc un certain nombre de portefeuilles sont
-  nécessaires. Ainsi, stocker chaque partie dans un emplacement différent
-  ajoute une couche supplémentaire de sécurité.
+  La méthode standard pour récupérer la clé privée d'un
+  portefeuille Bitcoin consiste à saisir votre phrase mnémonique dans n'importe
+  quel logiciel de portefeuille. Cela vous permet de restaurer votre portefeuille.
 reviewed: true

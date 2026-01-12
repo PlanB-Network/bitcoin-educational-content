@@ -1,0 +1,9 @@
+question: Ni igiki uburebure 0 bugereranya mu burongozi bw’amasakoshi ya HD?
+answer: Urufunguzo rw’umukuru n’umukuru chain code.
+wrong_answers:
+  - Uruhererekane rw'inyuma rw'amaderesi
+  - Konti mburabuzi
+  - Ubwoko bw'amafaranga
+explanation: |
+  Uburebure 0 buhuye n'urufunguzo rwa mbere n'urufunguzo rwa mbere chain code, arizo ntango z'ibiva vyose muri HD Wallet.
+reviewed: false

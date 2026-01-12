@@ -3,12 +3,18 @@ name: Wallet of Satoshi
 description: The simplest custodial wallet to get started
 ---
 ![cover](assets/cover.webp)
+---
+
+*Attention: since the beginning of 2026, Wallet of Satoshi in custodial mode (as presented in this tutorial) is no longer accessible within the European Union. If you reside in this area and wish to continue using this tool, you will need to use a VPN located outside the EU. Another option is to use Wallet of Satoshi in self-custodial mode. A dedicated tutorial will be published soon on Plan ₿ Academy.*
+
+---
+
 _This tutorial was written by_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 ## Downloading, Setting Up, and Using Wallet of Satoshi
 
 Wallet of Satoshi is a lightning network wallet, custodial, and very simple to use.
-For the purposes of the course [BTC105 - Finding Now](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), it is used to redeem Lightning Network vouchers.
+For the purposes of the course [BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5), it is used to redeem Lightning Network vouchers.
 
 **Always remember**: _not your keys, not your coins_
 

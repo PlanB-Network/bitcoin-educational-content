@@ -1,5 +1,5 @@
 ---
-name: passphrase BIP39 Trezor
+name: BIP-39 Passphrase Trezor
 description: Hvordan legger jeg til en passphrase i Trezor-porteføljen min?
 ---
 ![cover](assets/cover.webp)
@@ -18,7 +18,7 @@ Hvis du ikke er kjent med passphrase-konseptet, hvordan det fungerer og hvilke k
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 passphrase på Trezor håndteres på klassisk måte hvis du har valgt BIP39-standarden under konfigurasjonen (noe jeg anbefaler hvis du ikke trenger *Multi-share Backup*). Det spesielle med Trezor er at du enten kan taste inn passphrase direkte på Hardware Wallet, eller via datamaskinens tastatur ved hjelp av Trezor Suite-programvaren. Det andre alternativet er betydelig mindre sikkert, ettersom datamaskinen har en mye større angrepsflate enn Hardware Wallet. Det kan imidlertid være raskere å skrive en kompleks passphrase på et vanlig tastatur enn på Hardware Wallet, noe som kan oppmuntre til bruk av sterke passordfraser. Derfor er det alltid bedre å bruke en passphrase, selv om den må tastes inn, enn å ikke bruke en i det hele tatt. Det er imidlertid viktig å være oppmerksom på den økte risikoen for numeriske angrep som dette innebærer.
 
@@ -36,15 +36,15 @@ I Trezor Suite har du to forskjellige måter å administrere passphrase-ettersp�
 
 
 
-Før du starter denne veiledningen, må du forsikre deg om at du allerede har initialisert Trezor og generert Mnemonic-frasen din. Hvis du ikke har gjort det, og Trezor er ny, følger du den modellspesifikke veiledningen som er tilgjengelig på Plan ₿ Network. Når du har fullført dette trinnet, kan du gå tilbake til denne veiledningen.
+Før du starter denne veiledningen, må du forsikre deg om at du allerede har initialisert Trezor og generert Mnemonic-frasen din. Hvis du ikke har gjort det, og Trezor er ny, følger du den modellspesifikke veiledningen som er tilgjengelig på Plan ₿ Academy. Når du har fullført dette trinnet, kan du gå tilbake til denne veiledningen.
 
 
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-5-4413308a-a1b5-4ba4-bc49-72ae661cc4e0
 
-https://planb.network/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
+https://planb.academy/tutorials/wallet/hardware/trezor-safe-3-51d0d669-5d23-47c2-beb6-cc6fa0fb0ea0
 
-https://planb.network/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
+https://planb.academy/tutorials/wallet/hardware/trezor-model-one-5c250c49-ce3b-4c63-bd05-4600d7c11a02
 
 
 ## Legge til en passphrase til en Safe 3 eller Safe 5
@@ -79,7 +79,7 @@ For mer spesifikke anbefalinger om valg av passphrase, vil jeg igjen invitere de
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Hvis du vil legge inn passphrase via tastaturet på datamaskinen, skriver du den inn i feltet, og klikker deretter på "*Access passphrase Wallet*".
 
@@ -177,7 +177,7 @@ For mer spesifikke anbefalinger om valg av passphrase, vil jeg igjen invitere de
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Skriv inn din passphrase i det angitte feltet, og klikk deretter på knappen "*Access passphrase Wallet*".
 
@@ -215,6 +215,6 @@ Gratulerer, du er nå i gang med å bruke passphrase BIP39 på Trezor maskinvare
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
+https://planb.academy/tutorials/wallet/backup/trezor-shamir-backup-7f98b593-face-48fb-a643-0e811b87c94e
 
 Hvis du fant denne opplæringen nyttig, ville jeg være takknemlig hvis du legger igjen en Green-tommel nedenfor. Del gjerne denne artikkelen på dine sosiale nettverk. Tusen takk skal du ha!

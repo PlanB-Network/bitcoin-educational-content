@@ -1,0 +1,9 @@
+question: Ni igiki gikorwa nyamukuru c’igikorwa ca Hash?
+answer: Ihindura amakuru y'uburebure butari bwo mu gicapo c'urutoke c'ingero idahinduka
+wrong_answers:
+  - Ipfuka ubutumwa kugira ngo ntibusomwe .
+  - Ikoreshwa gusa mu kugenzura ubutungane bwa porogaramu ya Bitcoin
+  - Itanga imfunguruzo z'ibanga z'amasakoshi ya Bitcoin
+explanation: |
+  Igikor ca Hash gihindura amakuru y'ubunini bwose mu bunini budahinduka Hash, bihambaye ku bikorwa vyinshi muri Bitcoin.
+reviewed: false

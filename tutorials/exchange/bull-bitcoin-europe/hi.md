@@ -69,7 +69,7 @@ Bull Bitcoin एक पारदर्शी सेवा प्रदान क
 यदि आप 2FA के लिए प्रमाणीकरण अनुप्रयोगों का उपयोग करने से परिचित नहीं हैं, तो मैं आपको Authy अनुप्रयोग पर इस ट्यूटोरियल को देखने की सलाह देता हूं:
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 पुष्टि करने के लिए अपना पासवर्ड दर्ज करें.
 
@@ -182,9 +182,9 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 यदि आप Bitcoin, लाइटनिंग या Liquid वॉलेट का उपयोग करने से परिचित नहीं हैं, तो मेरा सुझाव है कि आप हमारा समर्पित प्रशिक्षण पाठ्यक्रम लें:
 
 
-https://planb.network/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-आप [सर्वश्रेष्ठ Bitcoin वॉलेट पर हमारे विस्तृत ट्यूटोरियल](https://planb.network/tutorials/wallet) भी देख सकते हैं।
+आप [सर्वश्रेष्ठ Bitcoin वॉलेट पर हमारे विस्तृत ट्यूटोरियल](https://planb.academy/tutorials/wallet) भी देख सकते हैं।
 
 
 फिर "खरीद की पुष्टि करें" पर क्लिक करके अपनी खरीद की पुष्टि करें।
@@ -287,10 +287,18 @@ LNURL विधि सबसे सरल है। यह फीनिक्स
 ![BULL](assets/fr/36.webp)
 
 
+## स्वचालित आवर्ती खरीदारी प्रारंभ करें (DCA)
+
+![video](https://youtu.be/_A23JI492Zc)
+
+## एक लिमिट ऑर्डर बनाएँ
+
+![video](https://youtu.be/6Jlu19jlk7U)
+
 अब आप जानते हैं कि बुल Bitcoin के साथ आसानी से Bitcoin कैसे खरीदें और बेचें। अगर आपको यह ट्यूटोरियल उपयोगी लगा, तो मैं बहुत आभारी रहूंगा यदि आप नीचे Green थंब लगाएंगे। इस लेख को अपने सोशल नेटवर्क पर शेयर करने के लिए स्वतंत्र महसूस करें। आपका बहुत-बहुत धन्यवाद!
 
 
 मैं यह भी सुझाव देता हूं कि आप अपने Mnemonic वाक्यांश को सही तरीके से प्रबंधित करने के तरीके को जानने के लिए इस अन्य व्यापक ट्यूटोरियल को देखें:
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270

@@ -177,7 +177,7 @@ Ukirudi kwenye ukurasa wa nyumbani wa Nunchuk, unaweza kuona kuwa Tapsigner yako
 ![TAPSIGNER NUNCHUK](assets/notext/21.webp)
 
 
-Sasa utahitaji generate funguo za Bitcoin Wallet yako. Ili kufanya hivyo, bofya kitufe cha "**" kilicho upande wa kulia wa kichupo cha "*Pochi*".
+Sasa utahitaji generate funguo za Bitcoin Wallet yako. Ili kufanya hivyo, bofya kitufe cha "**Generate**" kilicho upande wa kulia wa kichupo cha "*Pochi*".
 
 
 ![TAPSIGNER NUNCHUK](assets/notext/22.webp)

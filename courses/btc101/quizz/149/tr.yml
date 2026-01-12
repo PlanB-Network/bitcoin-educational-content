@@ -1,10 +1,8 @@
-question: Lightning Network nedir?
-answer: Bitcoin Blockchain'e dayalı anlık bir Bitcoin ödeme ağı.
+question: Mining havuzlarının amacı nedir?
+answer: Mining havuzları, madencilerin bilgi işlem kaynaklarını bir araya getirmelerine ve daha küçük ama daha düzenli ödüller almalarına olanak tanır.
 wrong_answers:
-  - Bitcoin Blockchain'ten ayrı bir Blockchain ağı.
-  - Bitcoin madencilerinden oluşan bir ağ.
-  - Bitcoin borsalarından oluşan bir ağ.
-explanation: |
-  Lightning Network bir anlık Bitcoin ödeme ağıdır
-  gW-9 Blockchain'e dayanıyor.
+  - Mining havuzları, genel Bitcoin ağının Hashrate'sini artırmak için kullanılır.
+  - Mining havuzları Mining'in zorluğunu azaltmak için kullanılır.
+  - Mining havuzları Mining ödülünü artırmak için kullanılır.
+explanation: >-
 reviewed: true

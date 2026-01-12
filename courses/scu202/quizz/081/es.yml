@@ -6,4 +6,4 @@ wrong_answers:
   - No hay ningún cliente de código abierto disponible
 explanation: |
   Por defecto, los mensajes de Telegram se almacenan en los servidores de la empresa, y sólo los chats secretos se benefician del cifrado de extremo a extremo.
-reviewed: false
+reviewed: true

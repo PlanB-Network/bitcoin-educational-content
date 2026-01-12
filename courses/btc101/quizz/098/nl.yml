@@ -1,11 +1,11 @@
-question: Wat is een aanbevolen alternatief voor het gebruik van papier voor het opslaan van je Mnemonic zin?
-answer: Graveren op een metalen plaat.
+question: Waarom is privacy belangrijk in de context van Bitcoin?
+answer: Om het risico te minimaliseren dat je geld wordt getraceerd.
 wrong_answers:
-  - Opslaan in een digitaal bestand.
-  - Schrijf het op een whiteboard.
-  - Opslaan als een contact in je telefoon.
+  - Om de waarde van je bitcoins te verlagen.
+  - Om te voorkomen dat je bitcoins worden gestolen.
+  - Om belasting te betalen over je bitcoins.
 explanation: |
-  Eén van de aanbevolen alternatieven voor papier
-  voor het opslaan van je Mnemonic zin is deze te graveren op een metalen plaatje. Deze
-  oplossing is duurzamer en gaat langer mee.
+  Privacy is belangrijk in de context van Bitcoin om het risico te minimaliseren dat
+  de risico's te minimaliseren dat je geld wordt getraceerd, wat het
+  uw toezicht kan vergemakkelijken.
 reviewed: true

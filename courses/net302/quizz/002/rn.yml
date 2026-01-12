@@ -1,0 +1,9 @@
+question: Ni ubuhe bugoyagoye nyamukuru bw’uruzitiro rw’impeta?
+answer: Iyo igikoresho kimwe kidakora neza, birashobora guhagarika urubuga rwose
+wrong_answers:
+  - Bisaba intsinga nyinshi kugira ngo igikoresho cose gihuzwe .
+  - Biragoye kwagura .
+  - Uburongozi bwayo buragoye
+explanation: |
+  Mu topologie y’uruzitiro, ukunanirwa kw’igikoresho kimwe bica bica uruzitiro maze bikabuza amakuru guca.
+reviewed: false

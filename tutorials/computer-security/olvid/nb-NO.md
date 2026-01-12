@@ -57,12 +57,12 @@ Olvid er tilgjengelig på alle plattformer. Du kan laste ned applikasjonen direk
 
 
 
-- [Google Play] (https://play.google.com/store/apps/details?id=io.olvid.messenger);
-- [App Store] (https://apps.apple.com/app/olvid/id1414865219);
+- [Google Play](https://play.google.com/store/apps/details?id=io.olvid.messenger);
+- [App Store](https://apps.apple.com/app/olvid/id1414865219);
 
 
 
-På Android er det også mulig å [installere via APK] (https://www.olvid.io/download/).
+På Android er det også mulig å [installere via APK](https://www.olvid.io/download/).
 
 
 
@@ -242,8 +242,8 @@ Gratulerer, du er nå i gang med å bruke Olvid messaging, et flott alternativ t
 
 
 
-Jeg anbefaler også denne andre veiledningen, der jeg introduserer deg for Proton Mail, et mye mer personvernvennlig alternativ til Gmail :
+Jeg anbefaler også denne andre veiledningen, der jeg introduserer deg for Proton Mail, et mye mer personvernvennlig alternativ til Gmail:
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

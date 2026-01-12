@@ -1,11 +1,11 @@
-question: ¿Cuál es el método estándar para restaurar tu billetera?
-answer: Ingresar tu frase mnemotécnica en cualquier software de billetera.
+question: ¿Cuál es el propósito de un monedero de Bitcoin?
+answer: Almacenar claves privadas para realizar transacciones con bitcoins.
 wrong_answers:
-  - Guardar tu frase mnemotécnica en un archivo digital.
-  - Escribir tu frase mnemotécnica en una pizarra blanca.
-  - Compartir tu frase mnemotécnica con un amigo de confianza.
+  - Usar los recursos del dispositivo para minar bitcoins.
+  - Comprar bitcoins a través de la clave pública.
+  - Almacenar bitcoins en un dispositivo.
 explanation: |
-  El método estándar para respaldar la clave privada en una
-  billetera de Bitcoin es ingresando tu frase mnemotécnica en cualquier
-  software de billetera. Esto te permite restaurar tu billetera.
-reviewed: false
+  Los monederos de Bitcoin son un tipo de software que se utiliza para
+  almacenar las claves privadas que te permiten realizar transacciones
+  con tus bitcoins.
+reviewed: true

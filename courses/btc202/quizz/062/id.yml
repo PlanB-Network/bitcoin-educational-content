@@ -1,0 +1,9 @@
+question: Aplikasi Umbrel mana yang memungkinkan Anda mengelola simpul Lightning Anda dengan Interface yang canggih?
+answer: Ride The Lightning
+wrong_answers:
+  - BTCPay Lightning
+  - Relai Nostr
+  - Bitfeed
+explanation: |
+  Ride The Lightning dan ThunderHub menawarkan Interface berbasis web yang lengkap untuk mengelola simpul Lightning.
+reviewed: true

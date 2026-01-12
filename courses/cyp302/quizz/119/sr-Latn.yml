@@ -6,3 +6,4 @@ wrong_answers:
   - Ne dozvoljava deljenje teksta na blokove od 128 bita
 explanation: |
   ECB režim se ne preporučuje jer proizvodi determinističku enkripciju, što znači da će identični blokovi otvorenog teksta dati identične blokove šifrovanog teksta, što se može iskoristiti za pogađanje informacija o otvorenom tekstu.
+reviewed: true

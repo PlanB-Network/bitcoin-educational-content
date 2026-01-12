@@ -1,0 +1,9 @@
+question: Kakva se fundamentalna promena dešava u strukturi troškova bezbednosti Bitcoin kada se subvencija za blok približava nuli?
+answer: Troškovi bezbednosti se premeštaju sa plaćanja od strane vlasnika kroz monetarnu inflaciju na plaćanje od strane potrošača kroz transakcione naknade.
+wrong_answers:
+  - Troškovi bezbednosti se premeštaju sa plaćanja od strane rudara kroz ulaganje u hardver na plaćanje od strane čvorova kroz potrošnju električne energije.
+  - Troškovi bezbednosti prelaze sa plaćanja od strane berzi putem trgovačkih naknada na plaćanje od strane wallet provajdera putem usluga.
+  - Troškovi bezbednosti se premeštaju sa programera kroz održavanje koda na korisnike kroz učešće u mreži
+explanation: |
+  Poglavlje jasno objašnjava da danas, vlasnici plaćaju za sigurnost Bitcoin kroz monetarnu inflaciju (novčići se stvaraju putem blok subvencije), ali u budućnosti kada blok subvencija bude blizu nule, potrošači će plaćati za sigurnost kroz transakcione naknade. Ovo predstavlja fundamentalnu ekonomsku promenu u tome ko snosi troškove održavanja sigurnosti mreže, prelazeći sa modela gde stvaranje novih novčića finansira mining na model gde transakcione naknade moraju pružiti dovoljan podsticaj rudarima da osiguraju mrežu.
+reviewed: false

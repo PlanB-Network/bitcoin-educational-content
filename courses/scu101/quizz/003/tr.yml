@@ -6,8 +6,8 @@ wrong_answers:
   - Kapalı kaynaklı yazılımlara göre her zaman daha kullanıcı dostudur.
 explanation: |
   Açık kaynaklı yazılım, kodu bilinen ve
-  herkes tarafından erişilebilir. Bu, aşağıdakiler arasında doğrulama yapılmasına olanak tanır
-  çalmak için gizli bir erişim olmadığından emin olmaktır
-  kişisel veriler. Ancak, her zaman ücretsiz, daha güvenli veya
-  kapalı kaynaklı yazılımlardan daha kullanıcı dostu.
+  herkes tarafından erişilebilirdir. Bu yüzden, kişisel verilerinizi  
+  çalmak için gizli bir erişim olmadığını doğrulamak gibi çeşitli
+  şeylerin kontrol edilmesini sağlar. Ancak, her zaman ücretsiz, daha güvenli veya
+  kapalı kaynaklı yazılımlardan daha kullanıcı dostu değildir.
 reviewed: true

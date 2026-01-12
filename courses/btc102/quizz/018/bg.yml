@@ -1,0 +1,9 @@
+question: През коя година е създаден блокът Genesis на Bitcoin?
+answer: 2009
+wrong_answers:
+  - 2008
+  - 2010
+  - 2011
+explanation: |
+  Блокът Genesis, първият блок на блокчейна, е изкопан през януари 2009 г.
+reviewed: false

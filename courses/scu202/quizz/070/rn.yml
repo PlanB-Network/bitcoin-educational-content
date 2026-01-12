@@ -1,0 +1,9 @@
+question: MicroG ni iki, yinjijwe muri CalyxOS?
+answer: Serivisi za Google zasubiwemwo ku buntu
+wrong_answers:
+  - Ubutunganyirizo bw’uburenganzira
+  -  VPN  y’isoko yuguruyeya ya Android
+  - Antivirus ya Google
+explanation: |
+  MicroG ni uburyo bundi bw’isoko yuguruye bwogufasha gukoresha porogarame zishingiye kuri API za Google utarinze gushiramwo binaire yemewe.
+reviewed: true

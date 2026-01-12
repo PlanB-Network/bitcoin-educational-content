@@ -1,0 +1,9 @@
+question: Ni igiki nyamukuru kiranga ugukubita kw’ibiharuro ku bipimo vy’ibiharuro vy’ibiharuro?
+answer: Inzira y'inzira imwe
+wrong_answers:
+  - Biroroshe gusubira inyuma
+  - Bishingiye ku gucapura imibare y'intango
+  - Ni kirekire cane kubara
+explanation: |
+  Gukubita kw'imirongo ku mirongo y'imirongo ni igikorwa c'inzira imwe, bituma bidashoboka gukura urufunguzo rw'ibanga mu rufunguzo rwa bose.
+reviewed: false

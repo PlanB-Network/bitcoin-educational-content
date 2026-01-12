@@ -1,5 +1,5 @@
 ---
-name: Ledger U2F & FIDO2
+name: "Ledger U2F & FIDO2"
 description: Zwiększ swoje bezpieczeństwo online dzięki Ledger
 ---
 ![cover](assets/cover.webp)
@@ -46,7 +46,7 @@ Podłącz Ledger do komputera i odblokuj go.
 
 
 
-Aby zainstalować aplikację, otwórz oprogramowanie [Ledger Live] (https://www.Ledger.com/Ledger-live), a następnie przejdź do zakładki "*My Ledger*". Znajdź aplikację "*Security Key*" i zainstaluj ją na swoim urządzeniu.
+Aby zainstalować aplikację, otwórz oprogramowanie [Ledger Live](https://www.Ledger.com/Ledger-live), a następnie przejdź do zakładki "*My Ledger*". Znajdź aplikację "*Security Key*" i zainstaluj ją na swoim urządzeniu.
 
 
 
@@ -180,4 +180,4 @@ Polecam również ten samouczek, w którym przyglądamy się innemu rozwiązaniu
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

@@ -1,8 +1,8 @@
-question: Je, ni muda gani wa wastani kati ya kuundwa kwa vitalu viwili katika itifaki ya Bitcoin?
-answer: Dakika 10.
+question: Ni faida gani kuu ya mashine maalum za SHA256, au ASICS, katika Bitcoin Mining?
+answer: Wanaongeza kiwango cha Hash kwa joule.
 wrong_answers:
-  - Dakika 5.
-  - Dakika 15.
-  - Dakika 20.
+  - Wanapunguza matumizi ya nishati.
+  - Wanaongeza kasi ya shughuli.
+  - Wanaongeza usalama wa mtandao.
 explanation: >-
 reviewed: true

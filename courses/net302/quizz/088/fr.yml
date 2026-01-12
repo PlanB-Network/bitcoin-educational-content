@@ -6,4 +6,4 @@ wrong_answers:
   - netstat -s
 explanation: |
   ip route show liste les routes connues du noyau et les chemins empruntés par les paquets IP.
-reviewed: false
+reviewed: true 

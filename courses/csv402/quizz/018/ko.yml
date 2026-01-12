@@ -1,0 +1,9 @@
+question: RGB에서 Smart contract의 진화를 정의하는 작업은 무엇인가요?
+answer: State Transition, Genesis 및 State Extension
+wrong_answers:
+  - Seal 생성, Contract 준수 및 최종 검증
+  - UTXO 전송, 증명 생성 및 Hash Commitment
+  - 트랜지션 번들, 일회용 씰 및 Valency 생성
+explanation: |
+  이러한 작업은 Contract의 상태를 생성하거나 수정하는 동시에 Bitcoin 앵커를 통해 그 유효성을 보장합니다.
+reviewed: false

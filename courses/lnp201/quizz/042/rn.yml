@@ -1,0 +1,9 @@
+question: Ni ikihe kintu gishobora gufasha node guhitamwo inzira nziza yo kwishura?
+answer: Ivyiza vyo kuroranirwa bishingiye ku bushobozi bwose bw'imirongo
+wrong_answers:
+  - Urugendo rw'ubutaka hagati y'ibice
+  - Kuba hariho uturongo dufise urugero rw'amahera make
+  - Umubare w'amahera yishuwe n'urudodo rw'intumbero
+explanation: |
+  Ubushobozi bwose bw’imirongo burashobora kwerekana ko hariho amahirwe menshi yo kuroranirwa, kuko bigaragaza ko hariho amahera menshi yo gukoresha mu gucuruza.
+reviewed: false

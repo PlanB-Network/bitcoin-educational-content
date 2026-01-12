@@ -1,8 +1,8 @@
-question: Bitcoin Mining'de özel SHA256 makinelerinin veya ASICS'in ana avantajı nedir?
-answer: Joule başına Hash oranını artırırlar.
+question: 2017'de kripto para dünyasında önemli bir olay neydi?
+answer: Binlerce İlk Coin Teklifinin (ICO) başlatılması.
 wrong_answers:
-  - Enerji tüketimini azaltırlar.
-  - İşlemlerin hızını artırırlar.
-  - Ağın güvenliğini artırırlar.
+  - Bitcoin'in yasaklanması.
+  - Bitcoin'nin oluşturulması.
+  - Tüm kripto para birimlerinin ortadan kalkması.
 explanation: >-
 reviewed: true

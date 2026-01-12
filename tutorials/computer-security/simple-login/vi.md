@@ -1,5 +1,5 @@
 ---
-name: Đăng nhập đơn giản
+name: Simple Login
 description: Danh tính được bảo vệ bằng bí danh
 ---
 ![cover](assets/cover.webp)
@@ -18,7 +18,7 @@ Khi sử dụng email cá nhân Address cho mỗi lần đăng nhập, bạn có
 Các nhà phát triển công cụ nguồn mở đã tạo ra một loạt các bộ ứng dụng, được sinh ra chính xác để giúp người dùng lấy lại một chút quyền riêng tư: họ vẫn có thể đăng nhập, nhưng sử dụng bí danh thay vì công cụ tiết lộ danh tính riêng tư của họ.
 
 
-Đơn giản nhất trong số những cách mà tôi đã thử và vẫn đang thử nghiệm là [Simple Login](https://simplelogin.io/).
+Đơn giản nhất, trong số những cái tôi đã thử nghiệm cá nhân và vẫn đang kiểm thử, chính là [Simple Login](https://simplelogin.io/).
 
 
 ## Bí danh

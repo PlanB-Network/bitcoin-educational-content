@@ -1,0 +1,8 @@
+question: Rust'da bir panik meydana geldiğinde çözme işlemi sırasında ne olur?
+answer: Rust, ayrıntılı bir yığın izi sağlamak için çağrı yığını boyunca geri yürür
+wrong_answers:
+  - Rust herhangi bir temizleme veya bilgi olmadan programı derhal sonlandırır
+  - Rust paniği otomatik olarak kurtarılabilir bir Sonuç türüne dönüştürür
+  - Rust başarısız işlemi işlevin başından itibaren yeniden başlatır
+explanation: |
+  Rust'te bir panik meydana geldiğinde, çözme işlemi paniğin tam olarak nerede meydana geldiğini gösteren ayrıntılı bir yığın izi sağlamak için çağrı yığını boyunca geriye doğru yürür. Bu, geliştiricilerin hata ayıklama sırasında sorunların kaynağını belirlemelerine yardımcı olur. Diğer seçenekler yanlıştır: Rust temizleme olmadan hemen sonlanmaz (bu yalnızca çözme devre dışı bırakıldığında olur), panikler otomatik olarak Sonuç türlerine dönüştürülemez ve Rust başarısız işlemleri yeniden başlatmaz.

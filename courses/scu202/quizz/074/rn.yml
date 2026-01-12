@@ -1,0 +1,9 @@
+question: Ni igiki catumye Google ihindura inzira ya Android ikaja kuri Interface ukoresha ufyonda ku mboneshamashusho?
+answer: Gusohoka kwa iPhone ya mbere
+wrong_answers:
+  - Microsoft yatwaye Nokia
+  - Iremwa rya CyanogenMod
+  - Gutanguza Play Store
+explanation: |
+  Kuza kwa iPhone mu mwaka w’2007 kwatumye Google isubira kwiyumvira Android kugira ibashe gukorana n'ibikoresho bikoreshwa mugu fyonda ku mboneshama, ireka iciyumviro c’igikoresho gifise keyboard iboneka.
+reviewed: true

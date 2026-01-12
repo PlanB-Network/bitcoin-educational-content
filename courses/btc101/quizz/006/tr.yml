@@ -1,0 +1,10 @@
+question: Cypherpunk Manifestosu nedir?
+answer: Eric Hughes tarafından kaleme alınan ve mahremiyetin temel bir hak olduğunu savunan bir metin.
+wrong_answers:
+  - Julian Assange tarafından teknolojinin geleceği hakkında yazılmış bir kitap.
+  - Bitcoin'in ilkelerini özetleyen bir belge.
+  - David Chaum tarafından dijital para biriminin önemi hakkında yazılmış bir manifesto.
+explanation: |
+  Cypherpunk Manifestosu 1993 yılında Eric Hughes tarafından yazılmıştır
+  ve mahremiyetin temel bir hak olduğunu ileri sürmektedir.
+reviewed: true

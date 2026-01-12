@@ -1,0 +1,9 @@
+question: 도메인 이름의 어떤 요소가 최상위 도메인(TLD)을 나타내나요?
+answer: 가장 오른쪽 요소
+wrong_answers:
+  - 가장 왼쪽 요소
+  - 호스트 다음 두 번째 레벨
+  - 기본 호스트 이름
+explanation: |
+  TLD는 항상 .com, .org 또는 .fr과 같이 FQDN의 가장 오른쪽 요소입니다.
+reviewed: false

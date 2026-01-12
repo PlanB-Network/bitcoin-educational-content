@@ -11,4 +11,4 @@ Lyhenne sanoista "Partially Signed Bitcoin Transaction". Se on BIP174:n myötä 
 
 PSBT-muoto helpottaa eri lompakko-ohjelmistojen ja allekirjoituslaitteiden (laitteistolompakot) välistä yhteentoimivuutta. Tällä hetkellä käytetään PSBT:n versiota 0, joka on määritelty BIP174:ssä, mutta versiota 2 ehdotetaan BIP370:ssä.
 
-> ► * PSBT:n versiota 1 ei ole olemassa. Koska versio 0 oli ensimmäinen versio, toista versiota kutsuttiin epävirallisesti versioksi 2. Ava Chow, joka laati BIP370:n, päätti antaa tälle uudelle versiolle numeron 2 sekaannusten välttämiseksi.* *
+> ► *PSBT:n versiota 1 ei ole olemassa. Koska versio 0 oli ensimmäinen versio, toista versiota kutsuttiin epävirallisesti versioksi 2. Ava Chow, joka laati BIP370:n, päätti antaa tälle uudelle versiolle numeron 2 sekaannusten välttämiseksi.*

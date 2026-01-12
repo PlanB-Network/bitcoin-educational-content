@@ -1,0 +1,8 @@
+question: O que acontece quando uma variável fica fora do escopo no sistema de propriedade do Rust?
+answer: O valor é automaticamente eliminado e a sua memória é libertada
+wrong_answers:
+  - O valor é movido para o âmbito global para reutilização
+  - O valor torna-se imutável e permanece na memória
+  - O valor é copiado para uma localização de segurança
+explanation: |
+  No sistema de propriedade do Rust, quando uma variável sai do escopo (tipicamente quando a execução deixa um bloco definido por chaves), o valor é automaticamente descartado e sua memória é liberada. Esta limpeza automática é implementada através do mecanismo de queda do Rust, onde a linguagem chama implicitamente uma função de queda em variáveis que saem do escopo. Isto assegura uma gestão adequada dos recursos sem exigir um código de limpeza explícito por parte do programador, seguindo o padrão RAII emprestado do C++.

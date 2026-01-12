@@ -17,4 +17,4 @@ Resynchronizacje mogą mieć różne konsekwencje. Po pierwsze, jeśli użytkown
 Co więcej, na poziomie globalnego systemu, resynchronizacje oznaczają marnowanie mocy obliczeniowej górników. Rzeczywiście, gdy dojdzie do podziału, niektórzy górnicy będą on chain `A`, a inni on chain `B`. Jeśli łańcuch `B` zostanie ostatecznie porzucony podczas resynchronizacji, wówczas cała moc obliczeniowa wykorzystana przez górników w tym łańcuchu jest z definicji marnowana. Jeśli istnieje zbyt wiele resynchronizacji w sieci Bitcoin, ogólne bezpieczeństwo sieci jest zatem zmniejszone. Częściowo dlatego zwiększenie rozmiaru bloku lub zmniejszenie odstępu między każdym blokiem (10 minut) może być niebezpieczne.
 
 
-> niektórzy bitcoinerzy wolą używać "Orphan block" w odniesieniu do wygasłego bloku. Ponadto, mimo że jest to anglicyzm, w języku potocznym "reorganizacja" lub "reorg" jest często preferowana zamiast "resynchronizacji" *
+> niektórzy bitcoinerzy wolą używać "Orphan block" w odniesieniu do wygasłego bloku. Ponadto, mimo że jest to anglicyzm, w języku potocznym "reorganizacja" lub "reorg" jest często preferowana zamiast "resynchronizacji"

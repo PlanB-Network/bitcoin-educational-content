@@ -1,0 +1,13 @@
+question: Cold Wallet이란 무엇인가요?
+answer: 키를 저장하고 인터넷에 연결되지 않은 물리적 장치에 있는 Wallet입니다.
+wrong_answers:
+  - 물리적으로 만지기에는 Cold인 Wallet입니다.
+  - Bitcoin 사용자들 사이에서는 인기가 없는 Wallet입니다.
+  - 소량의 비트코인을 보관할 때 권장되는 Wallet입니다.
+explanation: |
+  Cold Wallet는 Bitcoin Wallet를 설명하는 데 사용되는 용어입니다
+  인터넷에 연결되지 않은 장치에 저장된
+  인터넷에 연결되지 않은 장치에 저장됩니다. 따라서 온라인 위협에 덜 취약합니다,
+  하지만 Wallet는 일상적인 거래에는
+  일일 거래.
+reviewed: true

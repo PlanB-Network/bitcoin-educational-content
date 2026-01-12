@@ -1,0 +1,8 @@
+question: None Condorcet atanditse ku ciyumviro ikihe?
+answer: Amabanki
+wrong_answers:
+  - Umwidegemvyo w'ubudandaji bw'intete
+  - Ibikogwa vyo muhira
+  - Ubuja
+explanation: |
+  Condorcet yanditse ku vyerekeye umwidegemvyo w’ubudandaji bw’intete, corvée n’ubuja, ariko ntiyanditse ku vyerekeye amabanki.

@@ -1,0 +1,9 @@
+question: Wat kunnen we leren van Copernicus?
+answer: Dat de aarde om de zon draait.
+wrong_answers:
+  - Dat de aarde plat is.
+  - Dat de aarde het middelpunt van het heelal is.
+  - Dat de vergelijkingen van Euclides fout zijn.
+explanation: |
+  Nicolas Copernicus (1473-1543) is beroemd omdat hij heeft aangetoond dat de aarde om de zon draait, wat een revolutie teweegbracht in ons begrip van het heelal. Deze ontdekking had een grote invloed op de moderne filosofie en het rationalisme.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Ni igiki gifise intumbero y’ibihimba biri mu murongo wa Bitcoin?
+answer: Kugira ngo Blockchain ibungabunga kandi ikingirwe.
+wrong_answers:
+  - Gukora ibikorwa
+  - Gusaba no gushirwa mu ngiro amahinduka ku rutonde rw'amakode rwa Bitcoin
+  - Kugira ngo bashobore guhangana n’abandi bacukuzi .
+explanation: |
+  Nodes ni ngirakamaro ku butungane n’umutekano w’urubuga rwa Bitcoin. 
+  Bakora nk’abacungera amarembo y’urwo rutonde, bagatuma amafaranga . 
+  biratunganirizwa neza kandi bishingiye ku mategeko.
+reviewed: true

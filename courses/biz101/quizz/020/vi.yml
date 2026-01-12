@@ -1,9 +1,9 @@
-question: What is “hidden inflation” in the context of a debt-based monetary system?
-answer: It’s the increase in the money supply (around 7% per year) that reduces your share of overall value if you don’t invest or grow assets accordingly.
+question: “Lạm phát tiềm ẩn” là gì trong bối cảnh hệ thống tiền tệ dựa trên nợ?
+answer: Chính sự gia tăng nguồn cung tiền (khoảng 7% mỗi năm) làm giảm giá trị tổng thể của bạn nếu bạn không đầu tư hoặc tăng trưởng tài sản theo đó.
 wrong_answers:
-  - It’s an official economic term for fixed interest rates.
-  - It refers to inflation numbers not published by central banks.
-  - It means prices never rise, even when money supply expands.
+  - Đây là thuật ngữ kinh tế chính thức để chỉ lãi suất cố định.
+  - Nó đề cập đến số liệu lạm phát không được các ngân hàng trung ương công bố.
+  - Điều này có nghĩa là giá cả không bao giờ tăng, ngay cả khi nguồn cung tiền tăng.
 explanation: |
-  Hidden inflation occurs when the money supply expands, diminishing the purchasing power of savings. If a business doesn't proactively invest or protect its wealth, it risks losing value to this quiet form of monetary dilution.
-reviewed: false
+  Lạm phát ẩn xảy ra khi cung tiền tăng, làm giảm sức mua của tiền tiết kiệm. Nếu một doanh nghiệp không chủ động đầu tư hoặc bảo vệ tài sản của mình, doanh nghiệp có nguy cơ mất giá do hình thức pha loãng tiền tệ âm thầm này.
+reviewed: true

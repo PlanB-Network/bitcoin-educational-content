@@ -22,7 +22,7 @@ ___
 
 
 
-**In deze tutorial leren we hoe we een beveiligingsaudit kunnen uitvoeren op een Linux machine met behulp van Lynis! Voor degenen die **Lynis,** niet kennen, het is een klein commandoregel hulpprogramma dat de configuratie van je server analyseert en aanbevelingen doet om **de beveiliging van je machine te verbeteren.**
+**In deze tutorial leren we hoe we een beveiligingsaudit kunnen uitvoeren op een Linux machine met behulp van Lynis!** Voor degenen die **Lynis** niet kennen, het is een klein commandoregel hulpprogramma dat de configuratie van je server analyseert en aanbevelingen doet om **de beveiliging van je machine te verbeteren.**
 
 
 
@@ -51,7 +51,7 @@ De tool wordt veel gebruikt door een breed scala aan gebruikers, waaronder syste
 
 
 
-Het project is beschikbaar op deze Address op **Github** :
+Het project is beschikbaar op deze Address op **Github**:
 
 
 
@@ -209,7 +209,7 @@ Voer het volgende commando in om de beschikbare commando's weer te geven:
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -249,7 +249,7 @@ Dit is wat je krijgt:
 
 
 
-Als u alle opties wilt weergeven, moet u invoeren :
+Als u alle opties wilt weergeven, moet u invoeren:
 
 
 
@@ -321,10 +321,10 @@ Vervolgens geeft Lynis een lijst met punten die overeenkomen met alles wat hij i
 
 
 
-- Rood** voor kritieke Elements of best practices die niet worden gerespecteerd (bijvoorbeeld een ontbrekend pakket), d.w.z. uw server respecteert dit punt niet
-- Geel** voor suggesties of gedeeltelijke naleving van de aanbeveling (laten we zeggen dat het een plus is om te voldoen aan een punt dat met deze kleur is gemarkeerd (niet-prioriteit))
-- Green** voor punten waar uw serverconfiguratie aan voldoet
-- Wit**, indien neutraal
+- **Rood** voor kritieke Elements of best practices die niet worden gerespecteerd (bijvoorbeeld een ontbrekend pakket), d.w.z. uw server respecteert dit punt niet
+- **Geel** voor suggesties of gedeeltelijke naleving van de aanbeveling (laten we zeggen dat het een plus is om te voldoen aan een punt dat met deze kleur is gemarkeerd (niet-prioriteit))
+- **Green** voor punten waar uw serverconfiguratie aan voldoet
+- **Wit**, indien neutraal
 
 
 
@@ -336,7 +336,7 @@ Hier zien we dat Lynis aanbeveelt om **fail2ban** te installeren:
 
 
 
-In de sectie "**Boot en services**" zien we dat de servicebescherming via *systemd* verbeterd zou kunnen worden. Aan de positieve kant, Grub2 is aanwezig en er zijn geen problemen met permissies op :
+In de sectie "**Boot en services**" zien we dat de servicebescherming via *systemd* verbeterd zou kunnen worden. Aan de positieve kant, Grub2 is aanwezig en er zijn geen problemen met permissies op:
 
 
 
@@ -598,16 +598,16 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 
 
 
-Informatie over de geïnstalleerde pakketten :
+Informatie over de geïnstalleerde pakketten:
 
 
 
 
 
-- Clamav** is een antivirus.
-- unattend-upgrades** stelt je in staat om je updates automatisch te beheren en zelfs de machine opnieuw op te starten of oude pakketten automatisch te verwijderen, het is volledig configureerbaar.
-- rkhunter** is een anti-rootkit die je bestandssysteem scant.
-- Fail2ban** baseert zich op je logbestanden volgens wat je het geeft om te lezen en het werkt met **iptables**, bijvoorbeeld om IP-adressen te bannen die je server proberen te "brute-forcen" in SSH.
+- **Clamav** is een antivirus.
+- **unattend-upgrades** stelt je in staat om je updates automatisch te beheren en zelfs de machine opnieuw op te starten of oude pakketten automatisch te verwijderen, het is volledig configureerbaar.
+- **rkhunter** is een anti-rootkit die je bestandssysteem scant.
+- **Fail2ban** baseert zich op je logbestanden volgens wat je het geeft om te lezen en het werkt met **iptables**, bijvoorbeeld om IP-adressen te bannen die je server proberen te "brute-forcen" in SSH.
 
 
 
@@ -623,7 +623,7 @@ Laten we eens kijken naar de SSH-aanbevelingen. Ze staan hieronder. Maak je geen
 
 
 
-Laten we eens kijken naar mijn huidige **SSH** configuratie in :**/etc/ssh/sshd_config**
+Laten we eens kijken naar mijn huidige **SSH** configuratie in:**/etc/ssh/sshd_config**
 
 
 
@@ -635,7 +635,7 @@ De hieronder voorgestelde configuratie kan nog worden geoptimaliseerd, maar geef
 
 
 
-We zullen :
+We zullen:
 
 
 
@@ -695,7 +695,7 @@ PubkeyAuthentication yes
 
 
 
-- Wachtwoordverificatie behouden :
+- Wachtwoordverificatie behouden:
 
 
 
@@ -804,7 +804,7 @@ Het is de moeite waard om op te merken dat in sommige rechtsgebieden het verzend
 
 
 
-In afbeeldingen geeft dit :
+In afbeeldingen geeft dit:
 
 
 
@@ -820,7 +820,7 @@ Laten we tot slot niet vergeten om de **Lynis audit score** te controleren! We z
 
 
 
-**Met andere woorden, hoe hoger de score, hoe beter! Daarom moet je aan je configuratie werken om de hoogst mogelijke score te behalen, terwijl je machine en gehoste services normaal kunnen functioneren (wat betekent dat je functionele tests moet uitvoeren).
+**Met andere woorden, hoe hoger de score, hoe beter!** Daarom moet je aan je configuratie werken om de hoogst mogelijke score te behalen, terwijl je machine en gehoste services normaal kunnen functioneren (wat betekent dat je functionele tests moet uitvoeren).
 
 
 
@@ -896,4 +896,4 @@ Tenslotte kun je **Lynis** ook vergelijken met andere tools, waarvan er verschil
 
 
 
-**Deze les is afgelopen, veel plezier met Lynis!
+**Deze les is afgelopen, veel plezier met Lynis!**

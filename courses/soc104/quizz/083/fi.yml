@@ -1,0 +1,9 @@
+question: Hayekin hajautetun tiedon teorian mukaan miksi keskitetysti suunnitellut taloudet eivät onnistu resurssien tehokkaassa jakamisessa verrattuna vapaisiin markkinajärjestelmiin?
+answer: Keskussuunnittelijat eivät pääse käsiksi hajanaiseen, paikalliseen tietämykseen, jota vain yksittäisillä markkinaosapuolilla on heidän erityistarpeistaan, mieltymyksistään ja olosuhteistaan
+wrong_answers:
+  - Keskussuunnittelijoilla ei ole tarvittavaa laskentatehoa ja kehittyneitä algoritmeja, jotta he voisivat käsitellä kaikkia resurssien optimaaliseen kohdentamiseen tarvittavia taloudellisia tietoja
+  - Keskussuunnittelijat ovat luonnostaan korruptoituneita ja oman edun tavoittelijoita, jotka asettavat henkilökohtaisen hyötynsä koko yhteiskunnan hyvinvoinnin edelle
+  - Keskussuunnittelijat ovat ideologisesti puolueellisia ja kieltäytyvät toteuttamasta markkinapohjaisia ratkaisuja, vaikka he tunnustaisivat niiden paremman tehokkuuden
+explanation: |
+  Hayekin perustavanlaatuinen oivallus hajautetusta tiedosta paljastaa, että tietoa yksilöllisistä mieltymyksistä, paikallisista olosuhteista ja subjektiivisista arvostuksista on olemassa vain hajanaisessa muodossa miljoonien yksilöiden keskuudessa. Tätä tietoa ei voida keskitetysti kerätä tai koota yhteen, koska se on hiljaista, jatkuvasti muuttuvaa ja usein ristiriitaista. Vapaat markkinat ratkaisevat tämän ongelman hintamekanismilla, joka koordinoi spontaanisti tätä hajanaista tietoa vapaaehtoisen vaihdon kautta.
+  Muissa vaihtoehdoissa keskitytään virheellisesti teknisiin rajoituksiin, moraalisiin puutteisiin tai ideologisiin ennakkoluuloihin eikä niinkään keskeiseen epistemologiseen ongelmaan, jonka mukaan millään keskusviranomaisella ei voi olla hallussaan tehokkaan koordinoinnin edellyttämää hajautettua tietoa.

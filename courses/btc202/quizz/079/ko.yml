@@ -1,0 +1,9 @@
+question: 새 파일을 생성할 수 있는 최대 파일 크기는 얼마입니까?
+answer: 128 MiB
+wrong_answers:
+  - 256 MiB
+  - 256기가바이트
+  - 128 GiB
+explanation: |
+  BlkNNNN.dat 파일은 블록을 순차적으로 저장하며, Bitcoin core이 다음 파일을 열기 전에 약 128MB의 크기에 도달합니다.
+reviewed: true

@@ -1,12 +1,10 @@
-question: Vilket är det matematiska koncept som bygger på mänsklig rationalitet och som används i Bitcoin?
-answer: Spelteori.
+question: Hur mycket är BTC-belöningen efter den fjärde Halving?
+answer: 3.125 BTC.
 wrong_answers:
-  - Sannolikhetsteori.
-  - Nummerteori.
-  - Mängdteori.
+  - 1.5625 BTC.
+  - 6.25 BTC.
+  - 12.5 BTC.
 explanation: |
-  Spelteori är ett matematiskt koncept som bygger på
-  mänsklig rationalitet. I Bitcoin är protokolländringar
-  av användarna, vilket gör alla ändringar av Bitcoin-protokollet
-  protokollet mycket komplex.
+  Efter den fjärde Halving, som inträffar vid blockhöjden
+  840 000, är BTC-belöningen för Mining 3,125 BTC.
 reviewed: true

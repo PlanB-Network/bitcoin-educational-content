@@ -1,0 +1,9 @@
+question: Ni igiciro ikihe Bitcoin yashitseko muri Ruheshi 2011?
+answer: Amadorare 32
+wrong_answers:
+  - Amadorare 1
+  - Amadorare 3
+  - Amadorare 8
+explanation: |
+  Ku wa 8 Ruheshi, igiciro ca Bitcoin carashitse ku rugero rwo hejuru cane rw’amadolari 32 ku Mt Gox. Ariko rero, ryaciye rigwa ningoga inyuma y’aho.
+reviewed: true

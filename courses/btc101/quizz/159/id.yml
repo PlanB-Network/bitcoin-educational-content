@@ -1,9 +1,11 @@
-question: Apa arti dari biaya energi dalam penambangan Bitcoin?
-answer: Pengeluaran energi diperlukan untuk menghasilkan informasi, tetapi verifikasi informasi memiliki biaya yang dapat diabaikan. Asimetri ini menjamin keamanan jaringan.
+question: Apa peran penambang terkait dengan pembangkit listrik yang belum terhubung ke jaringan?
+answer: Mereka bertindak sebagai pembeli pilihan terakhir
 wrong_answers:
-  - Biaya energi diperlukan untuk mengoperasikan mesin ASIC yang digunakan dalam penambangan.
-  - Biaya energi diperlukan untuk memelihara jaringan Bitcoin.
-  - Biaya energi diperlukan untuk menciptakan bitcoin baru.
+  - Mereka menyediakan listrik untuk pembangkit listrik
+  - Mereka menghubungkan pembangkit listrik ke jaringan
+  - Mereka mengatur harga listrik
 explanation: >-
-  Biaya energi dalam penambangan Bitcoin adalah aspek krusial dari keamanan jaringan. Biaya energi yang tinggi dalam penambangan membuatnya sangat mahal bagi pelaku jahat untuk memanipulasi blockchain, sementara biaya rendah dalam verifikasi transaksi memastikan bahwa siapa pun dapat berpartisipasi dalam jaringan.
+  Penambang bertindak sebagai pembeli pilihan terakhir untuk pembangkit listrik yang belum terhubung
+  ke jaringan. Ini memungkinkan pembangkit listrik untuk mengamankan pembiayaan bahkan sebelum terhubung
+  ke jaringan listrik.
 reviewed: false

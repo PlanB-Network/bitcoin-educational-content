@@ -1,0 +1,9 @@
+question: Czy Immanuel Kant jest filozofem?
+answer: Niemiecki.
+wrong_answers:
+  - Angielski.
+  - Polski.
+  - Holenderski.
+explanation: |
+  Immanuel Kant (1724-1804) był niemieckim filozofem, uważanym za jednego z najważniejszych myślicieli epoki oświecenia. Rozwinął filozofię krytyczną, której celem było pogodzenie racjonalizmu i empiryzmu.
+reviewed: false

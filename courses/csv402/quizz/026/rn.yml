@@ -1,0 +1,9 @@
+question: Ni igiki gifise intumbero ya Interface Implementation mu vy’ubwubatsi bwa RGB?
+answer: Ikarata y’ibibanza vya Schema ku mazina asobanuwe muri Interface.
+wrong_answers:
+  - Gukoranya inyandiko za AluVM kugira ngo zizemezwe
+  - Kugira ngo dusobanure ibihugu vyo kw’isi yose n’ibihugu vy’ubutunzi bwa Contract.
+  - Kubika ibimenyamenya vy'ibanga
+explanation: |
+  Interface Implementation ishiraho isano hagati ya Business Logic ya Schema n'ivyo Interface ishobora gusoma.
+reviewed: false

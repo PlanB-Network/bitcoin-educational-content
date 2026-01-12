@@ -1,0 +1,9 @@
+question: Ni ryari ukuvunja kwa mbere hagati ya Bitcoin n’idolari kwabaye?
+answer: Kuwa 12 Gitugutu 2009
+wrong_answers:
+  - Kuwa 8 Ndamukiza 2009
+  - kuwa 30 Kigarama 2009
+  - 11 Ntwarante 2010
+explanation: |
+  Martti yarungikiye NLS ama bitcoins 5.050, na yo ica imurungikira amadolari 5.02 kuri konti yiwe ya PayPal. Ivyo vyahuye n’igiciro k'ingero imwe y’amadolari nka 0,001.
+reviewed: true

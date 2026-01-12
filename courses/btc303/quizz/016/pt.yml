@@ -1,0 +1,9 @@
+question: Que tipo de sistemas podem ser construídos sobre a camada de base sem confiança do Bitcoin, de acordo com o modelo de segurança descrito?
+answer: Podem ser construídos sistemas fiáveis e não fiáveis
+wrong_answers:
+  - Apenas os sistemas sem confiança podem ser construídos sobre ele
+  - Apenas os sistemas de confiança podem ser construídos sobre ele
+  - Não é possível construir sistemas adicionais em cima dele
+explanation: |
+  A camada de base sem confiança do Bitcoin fornece uma fundação que permite flexibilidade na construção de diferentes tipos de sistemas em cima. Como Matt Corallo explicou, enquanto você não pode construir sistemas trustless em cima de sistemas trusted, você pode construir sistemas trusted (como carteiras de custódia) em cima de sistemas trustless. Isso significa que a base sem confiança do Bitcoin suporta tanto aplicações sem confiança quanto serviços confiáveis, dando aos projetistas de sistemas a liberdade de escolher os trade-offs apropriados sem forçar esses mesmos trade-offs em todos os outros que usam a camada de base.
+reviewed: false

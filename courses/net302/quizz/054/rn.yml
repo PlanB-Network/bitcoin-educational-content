@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo bwa NAT bufatanya ubudasiba IP Address y’abantu ku giti cabo na IP Address ya bose?
+answer: Ubuhinduzi budahinduka
+wrong_answers:
+  - Ubuhinduzi buhinduka
+  - PAT (Ikivuko Address Ubuhinduzi)
+  - Inzira y'inguvu
+explanation: |
+  Impinduro idahinduka irema ikarita idahinduka hagati ya IP Address yo mu mutima na IP Address ya bose, ikaba ngirakamaro mu gutuma ibikoresho vyo mu mutima bishobora gushikwako bivuye hanze.
+reviewed: false

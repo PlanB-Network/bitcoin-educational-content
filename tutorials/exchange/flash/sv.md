@@ -23,7 +23,7 @@ I den här handledningen tar vi en titt på Flash, en beninsk lösning som låte
 
 
 
-Flash är en Exchange-plattform som utvecklats av [BlockSolut] (https://bitcoinflash.xyz) och som är verksam i flera västafrikanska länder. Flashs huvuduppgift är att underlätta förvärv, Exchange och användning av Bitcoin i vardagen.
+Flash är en Exchange-plattform som utvecklats av [BlockSolut](https://bitcoinflash.xyz) och som är verksam i flera västafrikanska länder. Flashs huvuduppgift är att underlätta förvärv, Exchange och användning av Bitcoin i vardagen.
 
 
 Flash förlitar sig på Lightning Network, ett Bitcoin-överlägg, för att utföra Bitcoin-transaktioner säkert och smidigt, och visar sin community Bitcoin:s kraft i vardagen.
@@ -39,8 +39,8 @@ Det finns två huvudsakliga tjänster som erbjuds av plattformen:
 
 
 
-- FlashX**: Exchange bitcoins med Mobile Money.
-- FlashPayment**: Använd Bitcoin för vardagliga tjänster.
+- **FlashX**: Exchange bitcoins med Mobile Money.
+- **FlashPayment**: Använd Bitcoin för vardagliga tjänster.
 
 
 
@@ -73,9 +73,9 @@ Flash sköter sina transaktioner med hjälp av lokala mobila pengar. Beroende p�
 
 
 
-- Benin**: MTN Benin, Moov Benin, Celtiis.
-- Togo** : Moov Togo.
-- Burkina-Faso**: Orange.
+- **Benin**: MTN Benin, Moov Benin, Celtiis.
+- **Togo**: Moov Togo.
+- **Burkina-Faso**: Orange.
 
 
 
@@ -110,7 +110,7 @@ Gå vidare till betalning och ange sedan din Lightning Address för att validera
 
 
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 Om du gör en transaktion på Flash tar det i genomsnitt 5 till 10 minuter att få dina bitcoins på din Lightning Wallet.
 
@@ -157,10 +157,10 @@ Förutom att köpa och sälja bitcoins erbjuder Flash sin community kontextuell 
 
 
 
-- GSM**-enheter;
-- Internetpaket**;
-- Samtalspaket**;
-- En kombination av samtals- och internetpaket**.
+- **GSM-enheter**;
+- **Internetpaket**;
+- **Samtalspaket**;
+- En kombination av samtals- och internetpaket.
 
 
 
@@ -202,4 +202,4 @@ Om du tyckte att den här handledningen var till hjälp för att komma igång me
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1

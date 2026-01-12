@@ -6,4 +6,4 @@ wrong_answers:
   - Un antivirus
 explanation: |
   Le NAT ne suffit pas à filtrer les flux malveillants : il doit être complété par des règles de pare-feu pour contrôler finement le trafic.
-reviewed: false
+reviewed: true 

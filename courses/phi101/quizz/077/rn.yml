@@ -1,0 +1,9 @@
+question: None igitabu ca Thomas Paine citwa ikihe?
+answer: Ubwenge busanzwe.
+wrong_answers:
+  - Insiguro idasanzwe.
+  - Ivyiza rusangi.
+  - Nta n’imwe muri izo nyishu zivugwa haruguru ari yo.
+explanation: |
+  Igitabo ca Thomas Paine, citwa Common Sense (Le sens commun mu gifaransa), ni agatabu gafise akosho kanini kavuga ko Amerika yigenga, kakagaya ububisha bw’Abongereza, kagira uruhara runini mu gukoranya abakoloni.
+reviewed: true

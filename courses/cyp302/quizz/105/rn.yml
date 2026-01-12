@@ -1,0 +1,9 @@
+question: Ni gute abafise uruhara bashobora kumenya neza urutonde rw’ubutumwa mu gihe c’ikiganiro gitekanye?
+answer: Mu gukoresha inomero zikurikirana muri buri butumwa
+wrong_answers:
+  - Mu guhana imfunguruzo z'ubutumwa bwose
+  - Mu kwongerako ugucerezwa hagati y'ubutumwa
+  - Mu gupfuka ubutumwa bukoresheje ubuhinga butandukanye
+explanation: |
+  Inomero zikurikirana zituma ubutumwa bushika mu buryo bubereye kandi zikabuza ko busubira gukurikirana.
+reviewed: false

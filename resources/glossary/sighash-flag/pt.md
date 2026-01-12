@@ -16,4 +16,4 @@ Para além destes três sinalizadores SigHash, o modificador `SIGHASH_ANYONECANP
 - `SIGHASH_NONE | SIGHASH_ANYONECANPAY` (`0x82`): A assinatura cobre uma única entrada, sem comprometer-se com qualquer saída;
 - `SIGHASH_SINGLE | SIGHASH_ANYONECANPAY` (`0x83`): A assinatura aplica-se a uma única entrada e apenas à saída com o mesmo índice que esta entrada.
 
-> ► *Um sinónimo por vezes utilizado para "SigHash" é "Signature Hash Types"
+> ► *Um sinónimo por vezes utilizado para "SigHash" é "Signature Hash Types"*

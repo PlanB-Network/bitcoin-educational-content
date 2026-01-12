@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo bwa NAT bushobora gutuma ibikoresho vyinshi bishobora gusangira IP imwe ya bose Address mu guhindura ivyuho?
+answer: PAT
+wrong_answers:
+  - NAT idahinduka
+  - NAT ihinduka
+  - Inzira idahinduka
+explanation: |
+  PAT, izwi kandi nka NAT overload canke IP masquerading, ihindura inomero z’ibarabara kugira ngo itandukanye ibiganiro, bikaba bishoboza ibikoresho vyinshi gukoresha Address imwe ya bose.
+reviewed: false

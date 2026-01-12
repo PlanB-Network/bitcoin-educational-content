@@ -1,11 +1,13 @@
-question: What is the adoption curve of Bitcoin similar to?
-answer: An S-curve.
+question: What is the status of Bitcoin in El Salvador?
+answer: Legal tender.
 wrong_answers:
-  - A U-curve.
-  - A V-curve.
-  - A W-curve.
-explanation: >-
-  The adoption of Bitcoin, like any new technology, follows an S-curve.
-  This is a common pattern for the adoption of new technologies, where adoption starts
-  slowly, then accelerates before slowing down as saturation is reached.
+  - Criminalized.
+  - Unknown.
+  - Unregulated.
+explanation: |
+  The course text mentions that some countries have banned
+  and criminalized the use of Bitcoin, adding to the
+  complexity of Bitcoin adoption based on cultures, eras, and
+  nations. However, El Salvador was brave enough to adopt it
+  as a legal tender.
 reviewed: true

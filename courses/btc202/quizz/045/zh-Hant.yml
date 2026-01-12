@@ -1,0 +1,9 @@
+question: 安裝 UmbrelOS 之前必須完成哪些步驟？
+answer: 使用映像建立可開機 USB 密鑰
+wrong_answers:
+  - 編譯 Bitcoin core 原始碼
+  - 格式化 Blockchain
+  - 在 umbrel.com 上建立帳戶
+explanation: |
+  安裝時，先透過 Balena Etcher 準備好 UmbrelOS 的可開機 USB key。
+reviewed: true

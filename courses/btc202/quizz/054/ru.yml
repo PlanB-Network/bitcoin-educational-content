@@ -1,0 +1,9 @@
+question: В какой версии Bitcoin core появилась модель Ultraprune?
+answer: 0.8.0
+wrong_answers:
+  - 0.3.0
+  - 0.6.0
+  - 0.10.0
+explanation: |
+  Начиная с версии 0.8.0, Bitcoin core больше не использует глобальный индекс, а напрямую поддерживает набор UTXO благодаря Ultraprune.
+reviewed: true

@@ -50,7 +50,7 @@ Teknologien som Tox-protokollen bruker, ligner på peer-to-peer-nettverk som for
 
 
 
-Du kan bruke Tox-protokollen via en direktemeldingsklient som du kan laste ned fra [Tox Chat-nettstedet] (https://tox.chat).
+Du kan bruke Tox-protokollen via en direktemeldingsklient som du kan laste ned fra [Tox Chat-nettstedet](https://tox.chat).
 
 
 
@@ -58,7 +58,7 @@ Du kan bruke Tox-protokollen via en direktemeldingsklient som du kan laste ned f
 
 
 
-Avhengig av operativsystemet ditt kan du laste ned og installere en Tox-klient som samsvarer med :
+Avhengig av operativsystemet ditt kan du laste ned og installere en Tox-klient som samsvarer med:
 
 
 
@@ -74,7 +74,7 @@ Avhengig av operativsystemet ditt kan du laste ned og installere en Tox-klient s
 
 
 
-- qTox: En Tox-klient fra [åpen kildekode] (https://github.com/TokTok/qTox) basert på Qt Framework (C++) tilgjengelig på Windows, Linux, MacOs.
+- qTox: En Tox-klient fra [åpen kildekode](https://github.com/TokTok/qTox) basert på Qt Framework (C++) tilgjengelig på Windows, Linux, MacOs.
 
 
 
@@ -224,7 +224,7 @@ Du kan også tilpasse konfigurasjonene for fildeling for hver diskusjon du har. 
 
 
 
-Fra Interface-detaljer kan du administrere autorisasjonene du gir til mottakeren for :
+Fra Interface-detaljer kan du administrere autorisasjonene du gir til mottakeren for:
 
 
 
@@ -304,4 +304,4 @@ Hvis du har hatt glede av å oppdage Tox og har forstått hvordan det er nyttig 
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41

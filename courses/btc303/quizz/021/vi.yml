@@ -1,0 +1,9 @@
+question: Trong hệ thống bí danh của Bitcoin, cái gì được dùng làm bí danh?
+answer: Địa chỉ được lấy từ khóa công khai
+wrong_answers:
+  - "Tên người dùng mang tính mô tả như 'watchme1984'"
+  - Khóa riêng được lưu trữ trong ví
+  - ID giao dịch trên blockchain
+explanation: |
+  Bitcoin sử dụng địa chỉ được lấy từ khóa công khai làm bí danh thay vì tên người dùng hoặc các mã định danh tùy ý khác. Lựa chọn thiết kế này phục vụ nhiều mục đích quan trọng: loại bỏ nhu cầu đăng ký bí danh trước trên blockchain, giảm động cơ sử dụng lại cùng một bí danh, tránh tình trạng quá tải blockchain không cần thiết và khiến kẻ xấu khó mạo danh người khác hơn nhiều. Việc sử dụng tên người dùng mang tính mô tả sẽ yêu cầu một hệ thống đăng ký và tạo ra lỗ hổng bảo mật, trong khi khóa riêng phải được giữ bí mật và ID giao dịch phục vụ một mục đích khác trong hệ thống.
+reviewed: false

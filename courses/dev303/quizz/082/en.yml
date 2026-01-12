@@ -1,0 +1,8 @@
+question: What role does the Unified Definition Language (UDL) file serve in the UniFFI workflow?
+answer: It acts as an interface specification that describes what parts of the Rust library should be exposed to other languages
+wrong_answers:
+  - It contains the actual Rust implementation code that gets compiled into the target language bindings
+  - It serves as a runtime configuration file that manages memory allocation between different language environments
+  - It provides a testing framework for validating the correctness of generated bindings across multiple platforms
+explanation: |
+  The UDL file serves as a contract or specification between the Rust implementation and the generated language bindings. It doesn't contain Rust code itself, nor does it handle runtime operations or testing. Instead, it declaratively defines which functions, types, and interfaces from the Rust library should be made available to other languages, specifying how they should be mapped and presented in the target language's native interface.

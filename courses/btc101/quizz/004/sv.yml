@@ -1,11 +1,11 @@
-question: Vilka är de två viktigaste egenskaperna hos Bitcoin?
-answer: Bitcoin är både ett datorprotokoll och en monetär enhet.
+question: Vad innebär det för Bitcoin att vara en neutral valuta?
+answer: Den kontrolleras inte av någon enhet eller institution.
 wrong_answers:
-  - Bitcoin är både en fysisk valuta och en digital Wallet.
-  - Bitcoin är både en typ av aktie och en typ av obligation.
-  - Bitcoin är både en centraliserad och en decentraliserad valuta.
+  - Den kontrolleras av en enda enhet eller institution.
+  - Det är reglerat av regeringen.
+  - Den används bara för stora transaktioner.
 explanation: |
-  Bitcoin är både ett datorprotokoll som använder tekniker
-  som kryptografi och Blockchain, och även en monetär enhet som
-  monetär enhet som används för transaktioner.
+  Bitcoin är en neutral valuta, vilket innebär att den inte kontrolleras
+  av någon enhet eller institution, så alla användare har samma
+  rättigheter. Detta är en viktig aspekt av dess decentralisering.
 reviewed: true

@@ -1,0 +1,8 @@
+question: Milline on Breez Liquid SDK tehinguvõimaluste põhiline piirang, mis eristab seda täielikust Lightning Network-sõlmest?
+answer: Ta ei saa teha otseseid Lightning-lightning või Bitcoin-Bitcoin tehinguid, kuna ta tegutseb ainult Liquid-ga kui oma kodubaasiga
+wrong_answers:
+  - See ei saa hakkama aatomi vahetustega erinevate plokiahela võrkude vahel, kuna puudub ahelaülene nutika lepingu tugi
+  - "See ei saa töödelda tehinguid, mis on suuremad kui 0,1 BTC, kuna Liquid Network on sisseehitatud tehingu suuruse piirangud"
+  - See ei saa toimida ilma internetiühenduseta, sest see nõuab pidevat sünkroniseerimist tsentraliseeritud Breez serveritega
+explanation: |
+  SDK-d on selgesõnaliselt kirjeldatud kui "rangelt Liquid-keskse tööriista", mis tegutseb Liquid-ga kui "kodubaasiga" See toetab ainult kolme konkreetset operatsiooni: Liquid-Liquid, Liquid-Lightning ja Liquid-Bitcoin. Erinevalt täielikust Lightning-sõlmest, mis saab makseid Lightning-kanalite vahel suunata, ei saa Breez SDK teostada otseseid Lightning-lt-Lightningile tehinguid, mistõttu erineb see põhimõtteliselt traditsioonilisest Lightning-infrastruktuurist.

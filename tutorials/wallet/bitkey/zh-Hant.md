@@ -1,5 +1,5 @@
 ---
-name: 比特鑰匙
+name: Bitkey
 description: Hardware Wallet 無籽
 ---
 ![cover](assets/cover.webp)

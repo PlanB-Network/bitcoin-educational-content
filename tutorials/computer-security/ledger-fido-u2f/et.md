@@ -1,5 +1,5 @@
 ---
-name: Ledger U2F & FIDO2
+name: "Ledger U2F & FIDO2"
 description: Parandage oma veebiturvalisust Ledger abil
 ---
 ![cover](assets/cover.webp)
@@ -46,7 +46,7 @@ Enne alustamist veenduge, et olete oma Bitcoin Wallet seadistanud Ledger-l. Olul
 
 
 
-Rakenduse installimiseks avage tarkvara [Ledger Live] (https://www.Ledger.com/Ledger-live), seejärel minge vahekaardile "*My Ledger*". Leidke rakendus "*Security Key*" ja installige see oma seadmesse.
+Rakenduse installimiseks avage tarkvara [Ledger Live](https://www.Ledger.com/Ledger-live), seejärel minge vahekaardile "*My Ledger*". Leidke rakendus "*Security Key*" ja installige see oma seadmesse.
 
 
 
@@ -162,7 +162,7 @@ Soovitan seda koodi hoida erinevas kohas, kus te säilitate oma põhiparooli, et
 
 
 
-See lähenemisviis pakub teile 2FA-autentimise Ledger kadumise korral kahetasemelist varukoopiat: esimene varukoopia, milles kasutatakse Mnemonic fraasi kõigi teie kontode jaoks, ja teine kontospetsiifiline varukoopia, milles kasutatakse hädaolukorra koode. Siiski on oluline **ei segi ajada Mnemonic rolli hädaabikoodiga** :
+See lähenemisviis pakub teile 2FA-autentimise Ledger kadumise korral kahetasemelist varukoopiat: esimene varukoopia, milles kasutatakse Mnemonic fraasi kõigi teie kontode jaoks, ja teine kontospetsiifiline varukoopia, milles kasutatakse hädaolukorra koode. Siiski on oluline **ei segi ajada Mnemonic rolli hädaabikoodiga**:
 
 
 
@@ -180,4 +180,4 @@ Soovitan ka seda teist õpetust, kus me vaatame teist lahendust U2F ja FIDO2 aut
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

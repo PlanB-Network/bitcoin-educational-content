@@ -6,4 +6,4 @@ wrong_answers:
   - Bloquer la transaction avec un timelock inapproprié
 explanation: |
   Le risque principal est qu'une partie tente de tricher en publiant une ancienne transaction d'engagement, ce qui pourrait lui permettre de récupérer des fonds qu'elle n'a plus.
-reviewed: false
+reviewed: true 

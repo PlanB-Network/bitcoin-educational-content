@@ -1,0 +1,9 @@
+question: Ku bwa Bastiat, umuti w’ikibi kiri mu kibano ni uwuhe?
+answer: Mu mwidegemvyo ubwawo .
+wrong_answers:
+  - Mu bushake bwo kugira ububasha .
+  - Mu guhanwa n’ubutungane bukandamiza kandi butagira aho bugarukira .
+  - Mu gukurikirana ukungana gutunganye .
+explanation: |
+  Bastiat wemera ko umwidegemvyo, hamwe n’inshingano z’umuntu ku giti ciwe zishitse kandi zishitse, ari bwo buryo bwo kurwanya ikibi no guhimiriza abantu gukora ibikorwa vy’inshingano kandi vy’ubutungane.
+reviewed: false

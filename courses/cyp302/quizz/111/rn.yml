@@ -1,0 +1,9 @@
+question: Ni igiki gipfutse uruzi rudahuye?
+answer: Ugufungura urufunguzo rwayo ruvana n'urufunguzo na Elements y'umwandiko wari warashizwemwo mbere
+wrong_answers:
+  - Ububiko buzana urufunguzo rudasanzwe uko rukoreshwa
+  - Ububiko aho urufunguzo rutegerezwa guhindurwa ku butumwa bwose
+  - Ububiko bufise urufunguzo ruva gusa ku rufunguzo rw'intango
+explanation: |
+  Asynchronous stream encryption ni ubwoko bw'ugupfuka aho urufunguzo rw'urufunguzo rukoreshwa n'urufunguzo na Elements y'umwandiko wapfutse.
+reviewed: false

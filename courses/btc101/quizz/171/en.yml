@@ -1,13 +1,11 @@
-question: How does the Bitcoin protocol ensure its censorship-resistance and resilience?
-answer: Each component of the protocol is geographically distributed across the globe.
+question: What is the overall trend of Bitcoin, considering its limited supply and the halving process?
+answer: A general upward trend.
 wrong_answers:
-  - It uses a local network of nodes distributed in Europe.
-  - It uses a complex algorithm to validate transactions.
-  - It uses a high level of encryption.
-explanation: |
-  The Bitcoin protocol ensures its censorship-resistance and
-  resilience because each component of the protocol is
-  distributed geographically across the globe. For example,
-  there are approximately 40,000 Bitcoin nodes across all
-  continents.
+  - A general downward trend.
+  - No trend at all.
+  - A trend that fluctuates wildly with no discernible pattern.
+explanation: >-
+  Bitcoin, due to its limited quantity of 21 million bitcoins and its halving
+  process (halving the monetary creation every 4 years on average), follows a general
+  upward trend.
 reviewed: true

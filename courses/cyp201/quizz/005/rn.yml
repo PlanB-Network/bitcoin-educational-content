@@ -1,0 +1,9 @@
+question: Ni kuki ukudasubira inyuma gushingwa muri SHA256?
+answer: Ibikorwa bikoreshwa bikuraho amakuru kandi ni inzira imwe
+wrong_answers:
+  - Ubutumwa burashirwamwo imbere y'uko bukoreshwa
+  - Ibice birasubirwamwo mu buryo butari bwo
+  - Buri Hash ibitswe mu rutonde rw'amakuru
+explanation: |
+  Ibikorwa nka ShR na XOR bituma bidashoboka gusubira mu vyo vyari vyifashe mu ntango, bikaba bituma ata gusubira inyuma.
+reviewed: false

@@ -1,10 +1,9 @@
-question: Vad säger den här kursen om framtiden för Bitcoin?
-answer: Det kommer inte att försvinna.
+question: Vilket angreppssätt strukturerar den utveckling av Bitcoin som beskrivs i detta kapitel?
+answer: Skiktad utveckling
 wrong_answers:
-  - Den kommer att ersättas av en bättre teknik.
-  - Det kommer att förbjudas över hela världen.
-  - Den kommer att förlora sitt värde.
+  - Monolitisk blockkedja
+  - Inbyggd sharding
+  - Generaliserad onchain-exekvering
 explanation: |
-  Kurstexten antyder att Bitcoin inte kommer att
-  försvinna. Tvärtom, revolutionen har bara börjat.
-reviewed: true
+  Bitcoin behåller ett enkelt och robust baslager, medan överliggande protokoll lägger till specifika funktioner.
+reviewed: false

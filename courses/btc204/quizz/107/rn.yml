@@ -1,0 +1,10 @@
+question: Ni gute igikorwa ca PayJoin coshobora gufatwa nk’igikorwa ca steganographie?
+answer: Ihisha amahera nyayo y’ukwishura abarorerezi bo hanze.
+wrong_answers:
+  - Ipfuka amahera nyayo y’ukwishurwa ku barorerezi bo hanze.
+  - Ihisha uwuyironka amahera nyayo yo kwishura.
+  - Ishiramwo amahera nyayo y’ukwishura ku muntu yaronse.
+explanation: |
+  Iryo soko rya PayJoin rigwa munsi y’ubuhinga bwa steganography kuko rinyegeza umubare nyawo w’isoko mu gice c’isoko c’ikinyoma gikora nk’uruyeri ku bavyitegereza bo hanze.
+  
+reviewed: false

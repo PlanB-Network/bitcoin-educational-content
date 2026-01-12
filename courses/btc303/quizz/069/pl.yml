@@ -1,0 +1,9 @@
+question: Zgodnie z definicją zawartą w książce, który scenariusz reprezentuje legalne skalowanie Bitcoin przy jednoczesnym zachowaniu odporności na cenzurę?
+answer: Wdrożenie bardziej wydajnych przestrzennie algorytmów weryfikacji podpisów, które zmniejszają rozmiary danych wejściowych transakcji
+wrong_answers:
+  - Zachęcanie użytkowników do migracji transakcji na scentralizowane giełdy w celu zmniejszenia wolumenu on-chain
+  - Wdrożenie automatycznego filtrowania transakcji w celu priorytetowego traktowania niektórych rodzajów działalności gospodarczej
+  - Tworzenie zatwierdzonych przez rząd węzłów walidacyjnych, które mogą wydajniej przetwarzać transakcje
+explanation: |
+  Książka definiuje skalowanie Bitcoin jako "zwiększanie możliwości wykorzystania Bitcoin bez narażania jego odporności na cenzurę" Efektywna przestrzennie weryfikacja podpisów bezpośrednio pasuje do tej definicji, sprawiając, że transakcje zużywają mniej bajtów przy jednoczesnym zachowaniu decentralizacji. Wszystkie błędne odpowiedzi naruszają odporność na cenzurę: scentralizowane giełdy wprowadzają zaufane strony trzecie, filtrowanie transakcji tworzy mechanizmy cenzury, a zatwierdzone przez rząd węzły centralizują władzę walidacyjną. Prawdziwe skalowanie zachowuje podstawowe właściwości Bitcoin przy jednoczesnej poprawie wydajności.
+reviewed: false

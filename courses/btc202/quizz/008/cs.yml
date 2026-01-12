@@ -1,0 +1,9 @@
+question: Jaká je hlavní funkce modelu Bitcoin Wallet?
+answer: Ukládání a správa soukromých klíčů
+wrong_answers:
+  - Uložení a správa kompletního systému Blockchain
+  - Kontrola platnosti bloku
+  - Přenosové síťové transakce
+explanation: |
+  Bitcoin Wallet spravuje soukromé klíče, které umožňují utrácení bitcoinů, ale neplní funkce uzlu.
+reviewed: true

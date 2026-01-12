@@ -1,0 +1,9 @@
+question: RGB 프로토콜에서 AluVM의 주요 역할은 무엇인가요?
+answer: 가상 머신 환경에서 스크립트 및 Contract 작업 실행하기
+wrong_answers:
+  - 가상 머신 환경에서 Bitcoin On-Chain 트랜잭션 분석
+  - 가상 머신 환경의 RGB 사용자를 위한 generate 공개 키
+  - 가상 머신 환경에서 퍼블릭 Blockchain 검증 최적화하기
+explanation: |
+  AluVM는 RGB 프레임워크 내에서 Smart contract 검증 및 분산 컴퓨팅을 위해 설계되었습니다.
+reviewed: false

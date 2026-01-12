@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe rw’inshingano z’umuntu ku giti ciwe mu guteza imbere ikibano nk’uko Bastiat abivuga?
+answer: Iremesha abantu ku giti cabo kwiyubara no kwitwararika .
+wrong_answers:
+  - Biremesha uguhiganwa hagati y'abantu ku giti cabo .
+  - Bituma Leta ifata ingingo ku neza ya bose .
+  - Bigabanya ubushobozi bwo gukura kw'umuntu ku giti ciwe .
+explanation: |
+  Bastiat avuga ko inshingano z’umuntu ku giti ciwe zituma umuntu yiyubara kandi akagira ivyo akeneye, kuko umuntu wese ategerezwa kwikorera ingaruka z’ibikorwa vyiwe, ivyo bikaba bituma umuntu arushiriza kwiyumvira kandi afise inshingano.
+reviewed: false

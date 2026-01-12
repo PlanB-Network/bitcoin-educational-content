@@ -58,7 +58,7 @@ Možete koristiti Tox protokol putem klijenta za instant poruke koji možete pre
 
 
 
-U zavisnosti od vašeg operativnog sistema, možete preuzeti i instalirati Tox klijent koji odgovara :
+U zavisnosti od vašeg operativnog sistema, možete preuzeti i instalirati Tox klijent koji odgovara:
 
 
 
@@ -304,4 +304,4 @@ Ako ste uživali u otkrivanju Tox-a i uspeli da shvatite kako je koristan za ja�
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41

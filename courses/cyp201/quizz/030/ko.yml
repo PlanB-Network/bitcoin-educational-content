@@ -1,0 +1,9 @@
+question: SIGHASH_SINGLE의 목적은 무엇인가요?
+answer: 하나의 입력과 해당 출력을 커버하려면
+wrong_answers:
+  - 모든 입력과 출력을 다루려면 다음과 같이 하세요
+  - 입력만 커버하려면
+  - 하나를 제외한 모든 출력을 포함하려면
+explanation: |
+  SIGHASH_SINGLE은 부호화된 입력의 인덱스에 해당하는 단일 입력과 단일 출력만 다루고 나머지는 수정할 수 있습니다.
+reviewed: false

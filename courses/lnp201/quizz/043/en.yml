@@ -6,4 +6,4 @@ wrong_answers:
   - The exact amount of available liquidity for each channel
 explanation: |
   By indicating nearby channels with liquidity or revealing private channels, Bob helps Alice to choose routes with a better probability of success.
-reviewed: false
+reviewed: true

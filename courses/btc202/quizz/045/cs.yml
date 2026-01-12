@@ -1,0 +1,9 @@
+question: Jaké kroky je třeba provést před instalací systému UmbrelOS?
+answer: Vytvoření spouštěcího klíče USB s obrazem
+wrong_answers:
+  - Kompilace zdrojového kódu Bitcoin core
+  - Formátování Blockchain
+  - Vytvoření účtu na umbrel.com
+explanation: |
+  Instalace začíná přípravou bootovacího USB klíče se systémem UmbrelOS prostřednictvím programu Balena Etcher.
+reviewed: true

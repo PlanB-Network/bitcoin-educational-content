@@ -1,0 +1,9 @@
+question: Demokarasi y'i Atene yarangwa n'...
+answer: Ibiganiro vy'abantu bose ku bijanye n'igisagara
+wrong_answers:
+  - Umwami w'iragi yafata ingingo zose .
+  - Umugwi mutoyi w’abatunzi bari bagenzura intwaro .
+  - Ingabo zikomeye zategetse ubugombe bwazo ku bindi bisagara .
+explanation: |
+  Demokarasi y’i Atene yari isaba ko abanyagihugu bagira uruhara n’umwete, bakaganira ku mugaragaro ku bijanye n’igisagara mw’Ikoraniro, gutyo bikaba vyatuma habaho ugufata ingingo rusangi be n’ubutegetsi bushingiye ku biganiro.
+reviewed: true

@@ -10,13 +10,13 @@ I denne veiledningen går vi gjennom prosessen med å opprette en Kraken-forretn
 
 Hvis du er interessert i å integrere bitcoin i virksomheten din, vil jeg også anbefale at du tar en titt på vårt komplette teoretiske kurs om emnet:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Opprette en Kraken bedriftskonto
 
 Det første steget i å bruke Kraken til å administrere bedriftens økonomi er selvsagt å opprette en konto. Her skal vi ikke opprette en konto for enkeltpersoner, men en bedriftskonto, som ikke bare sikrer overholdelse av regelverket, men som også tilbyr spesialtilpassede funksjoner som regnskapseksport.
 
-Gå til den offisielle nettsiden [kraken.com] (https://www.kraken.com/) og klikk på "*Sign Up*"-knappen.
+Gå til den offisielle nettsiden [kraken.com](https://www.kraken.com/) og klikk på "*Sign Up*"-knappen.
 
 ![KRAKEN](assets/fr/01.webp)
 
@@ -59,8 +59,8 @@ Når du har fylt ut alle seksjonene og sendt de nødvendige dokumentene, klikker
 Når kontoen din er bekreftet, får du tilgang til plattformen, der du blir tilbudt to grensesnitt:
 
 
-- Kraken**: Et forenklet grensesnitt som tilbyr viktig funksjonalitet.
-- Kraken Pro**: Et avansert grensesnitt med flere funksjoner, spesielt for handel.
+- **Kraken**: Et forenklet grensesnitt som tilbyr viktig funksjonalitet.
+- **Kraken Pro**: Et avansert grensesnitt med flere funksjoner, spesielt for handel.
 
 Hvis målet ditt kun er å kjøpe og selge bitcoin, bør du velge det forenklede grensesnittet. Du har alltid muligheten til å bytte til det avanserte grensesnittet senere, om nødvendig.
 
@@ -76,9 +76,9 @@ I 2FA-alternativene kan du velge å bruke en fysisk sikkerhetsnøkkel som en and
 
 ![KRAKEN](assets/fr/11.webp)
 
-Hvis du vil ha mer informasjon om hvordan du bruker denne typen enhet, kan du se vår egen veiledning :
+Hvis du vil ha mer informasjon om hvordan du bruker denne typen enhet, kan du se vår egen veiledning:
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Det andre alternativet er å bruke et autentiseringsprogram som Google Authenticator eller Authy. Disse programmene genererer en dynamisk sekssifret kode som du må oppgi hver gang du logger på.
 
@@ -88,9 +88,9 @@ For å aktivere denne metoden skanner du QR-koden med applikasjonen du velger p�
 
 ![KRAKEN](assets/fr/13.webp)
 
-Hvis du vil ha mer informasjon om autentiseringsapplikasjoner, kan du også lese denne veiledningen :
+Hvis du vil ha mer informasjon om autentiseringsapplikasjoner, kan du også lese denne veiledningen:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Under har du også tilgang til avanserte innstillinger, inkludert muligheten til å angi flere forskjellige 2FA-er. Kraken tilbyr avansert sikkerhetsdelegering via 2FA. Denne funksjonen lar deg opprette ulike 2FA-nivåer for ulike handlinger, for eksempel innlogging, ordrevalidering og uttak av midler. Dette gjør det for eksempel mulig å gi en regnskapsfører tilgang til visse funksjoner uten at han eller hun kan ta ut penger. Her er alternativene:
 
@@ -155,12 +155,12 @@ Du kan også veksle bitcoinsene dine til andre kryptovalutaer, for eksempel stab
 
 Velg beløpet, velg kryptovalutaen du ønsker å få tak i, og bekreft deretter transaksjonen.
 
-For disse transaksjonene kan du velge mellom ulike ordretyper: *Marked*, *Limit* eller *Stop-Loss* :
+For disse transaksjonene kan du velge mellom ulike ordretyper: *Marked*, *Limit* eller *Stop-Loss*:
 
 
-- Marked* : Tillater umiddelbart kjøp til gjeldende markedspris;
-- Limit*: Her kan du angi en kjøpskurs, og ordren vil bare bli utført hvis markedskursen når dette beløpet;
-- Stop-Loss* : Selger automatisk når kursen når en viss terskel.
+- **Marked**: Tillater umiddelbart kjøp til gjeldende markedspris;
+- **Limit**: Her kan du angi en kjøpskurs, og ordren vil bare bli utført hvis markedskursen når dette beløpet;
+- **Stop-Loss**: Selger automatisk når kursen når en viss terskel.
 
 ## 7 - Transaksjonshåndtering og regnskap
 
@@ -219,4 +219,4 @@ Bruken av Kraken kan variere avhengig av bedriftens mål og struktur.
 
 For en mer inngående titt på dette emnet anbefaler jeg dette omfattende kurset om integrering av bitcoin i virksomheter, som går i detalj inn på kontantstrøm, mottak av bitcoin-betalinger og regnskap:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

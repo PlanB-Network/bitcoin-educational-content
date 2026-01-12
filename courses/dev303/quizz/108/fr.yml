@@ -1,0 +1,8 @@
+question: Quelle caractéristique fondamentale de la philosophie de conception des composants de LDK la différencie des implémentations monolithiques de nœuds Lightning telles que CLightning ou LND ?
+answer: Chaque composant fournit des implémentations par défaut qui peuvent être remplacées individuellement par des solutions personnalisées tout en maintenant la conformité au protocole
+wrong_answers:
+  - Tous les composants doivent être mis en œuvre à partir de zéro par les développeurs, aucune mise en œuvre par défaut n'étant fournie par la bibliothèque
+  - Les composants sont verrouillés de façon permanente et ne peuvent être modifiés une fois intégrés dans l'architecture d'une application
+  - La bibliothèque exige que tous les composants utilisent des langages de programmation identiques et ne peut pas prendre en charge les liaisons linguistiques entre plates-formes
+explanation: |
+  La philosophie de base de LDK consiste à fournir des composants modulaires avec des implémentations par défaut fonctionnelles que les développeurs peuvent remplacer de manière sélective en cas de besoin. Cela permet de personnaliser des fonctionnalités spécifiques (comme la surveillance de la blockchain ou la signature des transactions) tout en conservant les autres composants inchangés. Les mauvaises réponses représentent mal l'approche de LDK : il fournit des valeurs par défaut plutôt que de tout exiger à partir de zéro, permet le remplacement des composants plutôt que de les verrouiller ensemble, et prend en charge plusieurs langages de programmation grâce à son système de liaison.

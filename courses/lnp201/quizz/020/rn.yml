@@ -1,0 +1,9 @@
+question: Ni ikihe kibazo nyamukuru mu bikorwa vya Commitment ku Lightning Network?
+answer: Gutangaza amafaranga ya kera kugira ngo umuntu asubire kuronka amafaranga menshi
+wrong_answers:
+  - Kwibagirwa gusinya urupapuro rwa Commitment Transaction.
+  - Kurungika amafranga ku rundi ruhande mu mpanuka
+  - Guhagarika ibikorwa n'igihe kitabereye
+explanation: |
+  Icoba ari ikibazo nyamukuru ni uko umuhari woshobora kugerageza guhenda mu gusohora igitabu ca kera ca Commitment Transaction, ivyo bikaba vyotuma basubira kuronka amahera batagifise.
+reviewed: false

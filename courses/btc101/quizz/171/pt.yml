@@ -1,13 +1,9 @@
-question: Como o protocolo Bitcoin garante sua resistência à censura e resiliência?
-answer: Cada componente do protocolo é distribuído geograficamente por todo o globo.
+question: Qual é a tendência geral do Bitcoin, considerando seu fornecimento limitado e o processo de halving?
+answer: Uma tendência geral de alta.
 wrong_answers:
-  - Utiliza uma rede local de nós distribuídos na Europa.
-  - Utiliza um algoritmo complexo para validar transações.
-  - Utiliza um alto nível de criptografia.
-explanation: |
-  O protocolo Bitcoin garante sua resistência à censura e
-  resiliência porque cada componente do protocolo é
-  distribuído geograficamente por todo o mundo. Por exemplo,
-  existem aproximadamente 40.000 nós de Bitcoin em todos os
-  continentes.
+  - Uma tendência geral de baixa.
+  - Nenhuma tendência.
+  - Uma tendência que flutua selvagemente sem um padrão discernível.
+explanation: >-
+  O Bitcoin, devido à sua quantidade limitada de 21 milhões de bitcoins e seu processo de halving (reduzindo a criação monetária pela metade a cada 4 anos, em média), segue uma tendência geral de alta.
 reviewed: true

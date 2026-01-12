@@ -1,11 +1,12 @@
-question: Nisan 2009'da Zimbabve dolarına ne oldu?
-answer: Maliye Bakanı Zimbabve dolarının askıya alındığını açıkladı ve ticaret için farklı yabancı para birimlerinin kullanılmasına izin verdi.
+question: Bitcoin hangi ekonomik ilkelerle uyumludur?
+answer: Avusturya ekonomisinin ilkeleri.
 wrong_answers:
-  - Zimbabve doları %72'nin üzerinde değer kaybetti.
-  - Hükümet savaş gazilerine 450 milyon ABD doları tutarında tazminat ödemeyi kabul etti.
-  - Hükümet matbaa işletmeye başvurmak zorunda kaldı.
+  - Keynesyen ekonominin ilkeleri.
+  - Marksist ekonominin ilkeleri.
+  - Neoklasik ekonominin ilkeleri.
 explanation: |
-  Nisan 2009'da Maliye Bakanı tarafından
-  zimbabve dolarının askıya alınması ve kullanımına izin verilmesi
-  ticaret için farklı yabancı para birimleri.
+  Bitcoin Avusturya ekonomisinin ilkeleriyle uyumludur.
+  Sınırlandırılmış miktarı ve merkezi bir kuruluşunun olmaması onu korur
+  görülen enflasyonun doğal risklerinden
+  geleneksel para birimleri.
 reviewed: true

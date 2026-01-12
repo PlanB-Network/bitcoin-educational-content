@@ -1,5 +1,5 @@
 ---
-name: 公共游泳池
+name: Public Pool
 description: 公共游泳池簡介
 ---
 
@@ -46,17 +46,17 @@ description: 公共游泳池簡介
 
 
 
-- URL**: stratum+tcp://public-pool.io:21496
-- 使用者**： **‘bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr’**
-- 密碼**： **'x'**
+- **URL**: stratum+tcp://public-pool.io:21496
+- 使用者：**'bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr'**
+- 密碼**：** 'x'
 
 如果您的 Miner 是**Bitaxe**，欄位會有點不同，但資訊仍然相同：
 
 
-- URL**: public-pool.io（在此，您需要移除開頭的部分 **'stratum+tcp://「**，以及結尾的部分 **」:21496'**，該部分將在連接埠欄位中報告）。
-- 連接埠**：21496
-- 使用者**： **‘bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr’**
-- 密碼**： **'x'**
+- **URL**: public-pool.io（在此，您需要移除開頭的部分 **'stratum+tcp://'**，以及結尾的部分 **':21496'**，該部分將在連接埠欄位中報告）。
+- 連接埠：**21496**
+- 使用者：**'bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr'**
+- 密碼**：** 'x'
 
 
 ![signup](assets/3.webp)

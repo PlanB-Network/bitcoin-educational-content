@@ -1,0 +1,8 @@
+question: "Quel est le principal avantage architectural qui permet à LDK de fonctionner dans des environnements de navigateur WebAssembly où les nœuds Lightning traditionnels ne peuvent pas fonctionner ?"
+answer: "La philosophie de conception sans appel de système de LDK lui permet de fonctionner sans accès direct aux systèmes de fichiers, aux sockets de réseau ou aux sources d'entropie"
+wrong_answers:
+  - "La structure modulaire de la bibliothèque Rust de LDK assure automatiquement la compatibilité avec WebAssembly grâce à des fonctions de compilation Rust-to-WASM natives"
+  - "L'architecture événementielle de LDK élimine le besoin de connexions persistantes et peut fonctionner entièrement par le biais de cycles requête/réponse HTTP"
+  - "L'intégration légère de la blockchain par LDK réduit suffisamment l'utilisation de la mémoire pour répondre aux contraintes et limitations strictes de WebAssembly en matière de ressources"
+explanation: |
+  La conception sans appel système de LDK est précisément ce qui permet la compatibilité avec les navigateurs. Les nœuds Lightning traditionnels s'appuient sur des appels système directs pour la mise en réseau, les entrées/sorties de fichiers et l'aléatoire, ce que les environnements WebAssembly interdisent pour des raisons de sécurité. LDK fait abstraction de ces dépendances, ce qui permet aux développeurs de fournir des implémentations compatibles avec les navigateurs en utilisant des WebSockets pour le réseau et des API de navigateur pour la persistance et l'aléatoire, tout en conservant une conformité totale avec le protocole Lightning.

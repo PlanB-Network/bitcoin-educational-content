@@ -1,0 +1,11 @@
+question: Blockmit ni iki mu bijanye n’umutekano wa Bitcoin?
+answer: Umuti w’igiciro gito wo gucapura ijambo ryawe rya Mnemonic ku gipande c’icuma.
+wrong_answers:
+  - Ubwoko bwa Bitcoin Wallet bwo gusinyana amasezerano menshi icarimwe.
+  - Umuti w’igiciro gito wo gucukura ama bitcoins muhira.
+  - Ubwoko bwa Bitcoin Wallet busaba amasinya menshi kugira ngo umuntu akoreshe UTXO.
+explanation: |
+  Blockmit ni umuti w’igiciro gito wo gucapura .
+  Mnemonic phrase ku kintu gikomeye nk’icuma, gutyo
+  gukingira ama bitcoins yawe mu gihe kirekire.
+reviewed: true

@@ -52,10 +52,10 @@ LibreWolfi eesmärk on maksimeerida kaitset jälgimise ja sõrmejälgede võtmis
 
 
 
-- Kõrvaldage Firefoxis kogu telemeetria ja andmete kogumine**
-- Lülita välja funktsioonid, mis on vastuolus kasutaja vabadusega**, nagu näiteks patenteeritud DRM-moodulid
-- Rakendage algusest peale privaatsus-/turvasätteid** ja konkreetseid parandusi
-- Ühenduse areng tagab läbipaistvuse ja sõltumatuse** ärihuvidest
+- Kõrvaldage Firefoxis kogu telemeetria ja andmete kogumine
+- Lülita välja funktsioonid, mis on vastuolus kasutaja vabadusega, nagu näiteks patenteeritud DRM-moodulid
+- Rakendage algusest peale **privaatsus-/turvasätteid** ja konkreetseid parandusi
+- Ühenduse areng tagab **läbipaistvuse ja sõltumatuse** ärihuvidest
 
 
 
@@ -75,7 +75,7 @@ LibreWolf pakub algusest peale mitmeid privaatsusele suunatud funktsioone:
 
 
 
-**LibreWolf integreerib uBlock Origin laiendust, mis on üks parimaid reklaamiblokeerijaid ja jälgimisseadmeid turul. Vaikimisi filtreerib LibreWolf agressiivselt välja kõik, mis võib teid internetis jälgida (pealetükkivad reklaamid, jälgimisskriptid, krüptoraha Mining).
+**LibreWolf integreerib uBlock Origin laiendust, mis on üks parimaid reklaamiblokeerijaid ja jälgimisseadmeid turul.** Vaikimisi filtreerib LibreWolf agressiivselt välja kõik, mis võib teid internetis jälgida (pealetükkivad reklaamid, jälgimisskriptid, krüptoraha Mining).
 
 
 
@@ -90,7 +90,7 @@ LibreWolf pakub algusest peale mitmeid privaatsusele suunatud funktsioone:
 ![LIBREWOLF](assets/fr/07.webp)
 
 
-*EFF testleht [Cover Your Tracks](https://coveryourtracks.eff.org/) nupuga TEST YOUR BROWSER. Seda lehekülge kasutatakse jälgimis- ja sõrmejälgede vastase kaitse hindamiseks
+**EFF testleht** [Cover Your Tracks](https://coveryourtracks.eff.org/) nupuga TEST YOUR BROWSER. Seda lehekülge kasutatakse jälgimis- ja sõrmejälgede vastase kaitse hindamiseks
 
 
 
@@ -101,7 +101,7 @@ LibreWolf pakub algusest peale mitmeid privaatsusele suunatud funktsioone:
 
 
 
-**LibreWolf aktiveerib vaikimisi ranged turvasätted. Firefoxi tõhustatud jälgimiskaitse on viidud rangele tasemele, et blokeerida tuhandeid jälgimisseadmeid, kolmandate osapoolte küpsiseid ja pahatahtlikku sisu. Samuti aktiveerib see saidi ja küpsiste isoleerimise (*Total Cookie Protection*), et jaotada andmed iga domeeni jaoks ning piirab WebRTC-d (piirates *ICE-kandidaate* ja marsruutimist proxy kaudu, kui proxy on olemas), et vähendada IP Address lekke ohtu.
+**LibreWolf aktiveerib vaikimisi ranged turvasätted. Firefoxi tõhustatud jälgimiskaitse on viidud rangele tasemele, et blokeerida tuhandeid jälgimisseadmeid, kolmandate osapoolte küpsiseid ja pahatahtlikku sisu. Samuti aktiveerib see saidi ja küpsiste isoleerimise (*Total Cookie Protection*), et jaotada andmed iga domeeni jaoks ning piirab WebRTC-d (piirates *ICE-kandidaate* ja marsruutimist proxy kaudu, kui proxy on olemas), et vähendada IP Address lekke ohtu.**
 
 
 
@@ -119,37 +119,37 @@ LibreWolf pakub algusest peale mitmeid privaatsusele suunatud funktsioone:
 
 
 
-- Ei telemetriat ega soovimatuid ühendusi:** LibreWolf ei edasta kasutusandmeid, tagades teie privaatsuse täieliku austamise.
+- **Ei telemetriat ega soovimatuid ühendusi:** LibreWolf ei edasta kasutusandmeid, tagades teie privaatsuse täieliku austamise.
 
 
 
 
 
-- Avatud lähtekoodiga ja kogukonnapõhine:** Projekt on 100% avatud lähtekoodiga ja seda hooldavad vabatahtlikud. Selline sõltumatus tagab, et ükski reklaamimudel ei mõjuta arengut.
+- **Avatud lähtekoodiga ja kogukonnapõhine:** Projekt on 100% avatud lähtekoodiga ja seda hooldavad vabatahtlikud. Selline sõltumatus tagab, et ükski reklaamimudel ei mõjuta arengut.
 
 
 
 
 
-- Eelnevalt konfigureeritud privaatsuse tagamiseks:** LibreWolf säästab teie väärtuslikku aega: pole vaja tunde kulutada Firefoxi seadete karmistamisele, kõik on juba valmis.
+- **Eelnevalt konfigureeritud privaatsuse tagamiseks:** LibreWolf säästab teie väärtuslikku aega: pole vaja tunde kulutada Firefoxi seadete karmistamisele, kõik on juba valmis.
 
 
 
 
 
-- Native ad blocker/tracker:** uBlock Origin on standardselt integreeritud, nii et sa ei pea midagi tegema, et kaitsta end reklaamide ja vigade eest.
+- **Native ad blocker/tracker:** uBlock Origin on standardselt integreeritud, nii et sa ei pea midagi tegema, et kaitsta end reklaamide ja vigade eest.
 
 
 
 
 
-- Suurepärane sõrmejälgede vastane kaitse:** Tänu RFP-le ja arvukatele privaatsusseadetele vähendab LibreWolf drastiliselt teie unikaalset digitaalset jalajälge veebis.
+- **Suurepärane sõrmejälgede vastane kaitse:** Tänu RFP-le ja arvukatele privaatsusseadetele vähendab LibreWolf drastiliselt teie unikaalset digitaalset jalajälge veebis.
 
 
 
 
 
-- Parem jõudlus ja väiksem kaal:** Telemetria ja teatud mittevajalike funktsioonide eemaldamisega saab LibreWolf olla veidi kiirem ja vähem energiat tarbiv kui tavaline Firefox.
+- **Parem jõudlus ja väiksem kaal:** Telemetria ja teatud mittevajalike funktsioonide eemaldamisega saab LibreWolf olla veidi kiirem ja vähem energiat tarbiv kui tavaline Firefox.
 
 
 
@@ -159,31 +159,31 @@ LibreWolf pakub algusest peale mitmeid privaatsusele suunatud funktsioone:
 
 
 
-- Sisseehitatud automaatsed uuendused puuduvad:** LibreWolf ei uuenda ennast ise. See on teie ülesanne paigaldada uued versioonid kohe, kui need ilmuvad, et olla turvaline.
+- **Sisseehitatud automaatsed uuendused puuduvad:** LibreWolf ei uuenda ennast ise. See on teie ülesanne paigaldada uued versioonid kohe, kui need ilmuvad, et olla turvaline.
 
 
 
 
 
-- Vähenenud ühilduvus teatud teenustega:** Väga rangete seadete tõttu võib LibreWolfil tekkida probleeme teatud veebilehtedel. Netflix ja Disney+ voogedastusplatvormid ei tööta, kuna LibreWolf lülitab Widevine DRM-i vaikimisi välja.
+- **Vähenenud ühilduvus teatud teenustega:** Väga rangete seadete tõttu võib LibreWolfil tekkida probleeme teatud veebilehtedel. Netflix ja Disney+ voogedastusplatvormid ei tööta, kuna LibreWolf lülitab Widevine DRM-i vaikimisi välja.
 
 
 
 
 
-- Ei ole sisseehitatud anonüümset võrku:** Erinevalt Tor Browserist ei suunata LibreWolf ise liiklust Tori või VPN-i kaudu. Kui vajate võrgu anonüümsust, peate käsitsi konfigureerima proxy/VPN-i.
+- Ei ole sisseehitatud anonüümset võrku: Erinevalt Tor Browserist ei suunata LibreWolf ise liiklust Tori või VPN-i kaudu. Kui vajate võrgu anonüümsust, peate käsitsi konfigureerima proxy/VPN-i.
 
 
 
 
 
-- Mittepüsivad küpsised ja seansid (vaikimisi):** Konfidentsiaalsuse huvides kustutab LibreWolf küpsised, ajaloo ja saidi andmed iga kord, kui sulgete oma brauseri. Te peate iga kord uuesti oma kontodesse sisse logima.
+- **Mittepüsivad küpsised ja seansid (vaikimisi):** Konfidentsiaalsuse huvides kustutab LibreWolf küpsised, ajaloo ja saidi andmed iga kord, kui sulgete oma brauseri. Te peate iga kord uuesti oma kontodesse sisse logima.
 
 
 
 
 
-- Ei ole mobiiliversiooni ega pilves sünkroniseerimist:** LibreWolf on saadaval ainult lauaarvutis (Windows, Linux, macOS). Puudub mobiilirakendus ja seega ka kontode või järjehoidjate sünkroniseerimine pilve kaudu.
+- **Ei ole mobiiliversiooni ega pilves sünkroniseerimist:** LibreWolf on saadaval ainult lauaarvutis (Windows, Linux, macOS). Puudub mobiilirakendus ja seega ka kontode või järjehoidjate sünkroniseerimine pilve kaudu.
 
 
 
@@ -224,7 +224,7 @@ Paigaldamine erineb sõltuvalt teie operatsioonisüsteemist:
 ### Linuxis
 
 
-LibreWolf pakub koostisi paljudele distributsioonidele. Debian/Ubuntu ja derivaatide puhul on saadaval ametlik APT repositoorium. Alternatiivina on LibreWolf avaldatud Flatpak'is Flathubis :
+LibreWolf pakub koostisi paljudele distributsioonidele. Debian/Ubuntu ja derivaatide puhul on saadaval ametlik APT repositoorium. Alternatiivina on LibreWolf avaldatud Flatpak'is Flathubis:
 
 
 ```
@@ -236,13 +236,13 @@ flatpak install flathub io.gitlab.librewolf-community
 ### Windowsis
 
 
-Laadige paigaldaja (.exe) alla ametlikust veebisaidist või kasutage :
+Laadige paigaldaja (.exe) alla ametlikust veebisaidist või kasutage:
 
 
 
 
-- Chocolatey :** `choco install librewolf`
-- WinGet :** `winget install librewolf`
+- **Chocolatey:** `choco install librewolf`
+- **WinGet:** `winget install librewolf`
 
 
 
@@ -265,7 +265,7 @@ Esimesel käivitamisel märkate tuttavat Firefoxi Interface, kuid see on rohkem 
 ![LIBREWOLF](assets/fr/04.webp)
 
 
-*LibreWolfi koduleht koos laienduste ja menüüga. Sinine nool paremas ülemises nurgas näitab menüü ikooni (kolm horisontaalset riba)
+*LibreWolf* koduleht koos laienduste ja menüüga. Sinine nool paremas ülemises nurgas näitab menüü ikooni (kolm horisontaalset riba)
 
 
 
@@ -277,7 +277,7 @@ LibreWolf laadib teie leheküljed automaatselt "ranges" (jälgimisvastases) rež
 
 
 
-LibreWolf on juba optimaalselt konfigureeritud privaatsuse tagamiseks. Menüüst → Valikud → Privaatsus ja turvalisus näete, et LibreWolf on seadistatud täiustatud jälgimiskaitse režiimi: Strict. See režiim blokeerib :
+LibreWolf on juba optimaalselt konfigureeritud privaatsuse tagamiseks. Menüüst → Valikud → Privaatsus ja turvalisus näete, et LibreWolf on seadistatud täiustatud jälgimiskaitse režiimi: Strict. See režiim blokeerib:
 
 
 
@@ -325,8 +325,8 @@ Põhimõtteliselt ei soovita LibreWolfis mittevajalike laienduste lisamist, kuna
 
 
 
-- Firefox Multi-Account Containers** (Mozilla poolt) jaotatud sirvimise jaoks
-- Decentralyes** või **LocalCDN** ühiste raamatukogude kohalikuks teenindamiseks
+- **Firefox Multi-Account Containers** (Mozilla poolt) jaotatud sirvimise jaoks
+- **Decentralyes** või **LocalCDN** ühiste raamatukogude kohalikuks teenindamiseks
 
 
 
@@ -402,7 +402,7 @@ LibreWolf on osa privaatsusele orienteeritud brauserite "tööriistakastist":
 
 
 
-**Brave kasutab Chrome/Chromium koodi ja integreerib ärimudeli oma vabatahtliku reklaamiprogrammi kaudu. LibreWolf, olles Firefoxi kogukonna Fork, säilitab Mozilla vaba ökosüsteemi ja ei ole seotud Google'iga.
+**Brave kasutab Chrome/Chromium koodi ja integreerib ärimudeli oma vabatahtliku reklaamiprogrammi kaudu.** LibreWolf, olles Firefoxi kogukonna Fork, säilitab Mozilla vaba ökosüsteemi ja ei ole seotud Google'iga.
 
 
 

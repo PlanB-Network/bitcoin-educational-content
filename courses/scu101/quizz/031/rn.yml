@@ -1,0 +1,9 @@
+question: Wokora iki iyo ubonye umugera ku nyabwonko yawe?
+answer: Yikure kuri interineti, ukore irondera rikwiye ry’umugera, hanyuma ufute amadosiye yagizweko ingaruka. 
+wrong_answers:
+  - Bandanya ukoresha inyabwonko nk’uko bisanzwe.
+  - Zimya inyabwonko hanyuma uyireke izimije amasaha makeyi.
+  - Gufuta amadosiye yose ari ku nyabwonko yawe.
+explanation: |
+  Niwabona umugera(nyabwonko) ku nyabwonko yawe, yikure kuri interineti, ukore irondera rikwiye ry’umugera, hanyuma ufute amadosiye yagizweko ingaruka.
+reviewed: true

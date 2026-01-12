@@ -1,0 +1,9 @@
+question: Mu mugwi w’inzinguzingu, ni irihe jambo ry’ikintu gishobora generate ibindi vyose Elements biciye mu gutera imbere?
+answer: Umuyagankuba
+wrong_answers:
+  - Umugwiza
+  - Igiciro
+  - Igihindutse
+explanation: |
+  Generateur ni ikintu kiri mu mugwi w’ingendo, biciye mu gutera imbere, gishobora gutanga izindi Elements zose z’uwo mugwi.
+reviewed: false

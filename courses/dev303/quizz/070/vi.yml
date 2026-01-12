@@ -1,0 +1,8 @@
+question: Hệ sinh thái công cụ thống nhất của Rust thông qua Cargo khác biệt như thế nào so với phương pháp được sử dụng trong các ngôn ngữ cũ hơn như C++ để phát triển Bitcoin?
+answer: Cargo cung cấp khả năng quản lý phụ thuộc, xây dựng, kiểm thử và lập tài liệu theo tiêu chuẩn trong một công cụ duy nhất, loại bỏ sự phân mảnh.
+wrong_answers:
+  - Cargo tập trung hoàn toàn vào việc kiểm tra an toàn bộ nhớ, trong khi các công cụ C++ ưu tiên tối ưu hóa tốc độ biên dịch.
+  - Cargo yêu cầu cấu hình thủ công nhiều công cụ riêng biệt, trong khi C++ cung cấp môi trường phát triển tích hợp.
+  - Cargo chỉ hỗ trợ các thư viện dành riêng cho Bitcoin, trong khi các công cụ C++ hoạt động với các ứng dụng tài chính đa năng.
+explanation: |
+  Cargo của Rust đại diện cho một phương pháp quản lý dự án thống nhất, xử lý tất cả các tác vụ phát triển thiết yếu thông qua một công cụ duy nhất, được tiêu chuẩn hóa. Điều này loại bỏ vấn đề phân mảnh thường thấy trong C++, nơi nhiều công cụ cạnh tranh nhau để quản lý phụ thuộc, xây dựng và kiểm thử tạo ra sự không nhất quán giữa các dự án. Đối với việc phát triển Bitcoin, sự tiêu chuẩn hóa này rất quan trọng vì nó đảm bảo các quy trình xây dựng nhất quán, giải quyết phụ thuộc đáng tin cậy và kiểm tra chất lượng mã đồng nhất trên các dự án và nhóm khác nhau, giảm nguy cơ xảy ra lỗi liên quan đến cấu hình có thể ảnh hưởng đến bảo mật.

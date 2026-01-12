@@ -1,0 +1,9 @@
+question: Ni intambwe iyihe ya mbere yo gufungura umurongo w’Umuco hagati y’abantu babiri bari muri iyo nama?
+answer: Ubutumwa bwa Exchange burimwo amafaranga n'imfunguruzo za bose
+wrong_answers:
+  - Ubwo nyene utangaze ivy’ugushiramwo amahera ku rupapuro rwa Blockchain.
+  - Rema Address y’imikono myinshi 2/2 ata Exchange y’imbere.
+  - Sinya igikorwa co gukura imbere ya Exchange y'imfunguruzo za bose
+explanation: |
+  Gufungura umurongo bitangura n’ubutumwa bwa Exchange hagati y’izo mpande zibiri, aho basangira amahera bipfuza gutanga n’imfunguruzo zabo za bose.
+reviewed: false

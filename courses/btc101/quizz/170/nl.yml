@@ -1,8 +1,8 @@
-question: Wat is het belangrijkste voordeel van gespecialiseerde SHA256 machines, of ASICS, in Bitcoin Mining?
-answer: Ze verhogen de Hash-snelheid per joule.
+question: Wat was een belangrijke gebeurtenis in de cryptocurrency wereld in 2017?
+answer: De lancering van duizenden Initial Coin Offerings (ICO's).
 wrong_answers:
-  - Ze verminderen het energieverbruik.
-  - Ze verhogen de snelheid van transacties.
-  - Ze verhogen de veiligheid van het netwerk.
+  - Het verbieden van Bitcoin.
+  - De creatie van Bitcoin.
+  - De verdwijning van alle cryptocurrencies.
 explanation: >-
 reviewed: true

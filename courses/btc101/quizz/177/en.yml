@@ -1,11 +1,10 @@
-question: What was a significant event in the cryptocurrency world in 2017?
-answer: The launch of thousands of Initial Coin Offerings (ICOs).
+question: What is one of the reasons Bitcoin is not a bubble that will disappear?
+answer: Because it is a currency that is actually used everywhere in the world.
 wrong_answers:
-  - The banning of Bitcoin.
-  - The creation of Bitcoin.
-  - The disappearance of all cryptocurrencies.
+  - Because it is not actually used anywhere.
+  - Because it is controlled by a central authority.
+  - Because it is easy to counterfeit.
 explanation: >-
-  The year 2017 was marked by a significant speculative bubble in the
-  cryptocurrency
-  world, especially with the launch of thousands of Initial Coin Offerings (ICOs).
+  Bitcoin is not a bubble that will disappear but a currency that is actually
+  used everywhere in the world.
 reviewed: true

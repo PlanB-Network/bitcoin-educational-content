@@ -1,12 +1,12 @@
-question: Etkin bir para biriminin temel özellikleri nelerdir?
-answer: Fungible, Divisible, Liquid.
+question: Bitcoin bugün neden ticarette yaygın olarak kabul görmüyor?
+answer: Çünkü bireyler tarafından yaygın olarak benimsenmiyor.
 wrong_answers:
-  - Değiştirilebilir, Bölünebilir, Bozulabilir.
-  - Değişebilir, Bölünemez, Liquid.
-  - Değiştirilemez, Bölünebilir, Liquid.
+  - Çünkü taşınabilir değil.
+  - Çünkü küçük birimlere bölünemez.
+  - Çünkü Liquid değil.
 explanation: |
-  Etkin bir para birimi değiştirilebilir olmalıdır (değiştirilebilir
-  değer kaybı olmadan), bölünebilir (küçük parçalara ayrılabilir
-  farklı hacimlerdeki işlemleri kolaylaştırmak için parçalar) ve
-  Liquid (mal veya hizmete kolayca dönüştürülebilir).
+  Kesinlikle sınırlı olması gibi özelliklerine rağmen
+  Supply, Bitcoin hala ticarette yaygın olarak kabul görmemektedir
+  bugün, bireyler tarafından benimsenmemesi nedeniyle
+  tüccarlar bunu kabul etmeye teşvik edilmemektedir.
 reviewed: true

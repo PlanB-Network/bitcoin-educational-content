@@ -1,0 +1,9 @@
+question: Ni iyihe verisiyo ya Ubuntu nziza ku batangura kubera ukuntu ishikamye n’igihe ishobora gukoreshwa ihabwa ubufasha?
+answer: LTS (Long Term Support)
+wrong_answers:
+  - Rolling Release
+  - Verisiyo yambere
+  - Alpha Release
+explanation: |
+  Verisiyo ya LTS ya Ubuntu ibungabungwa imyaka itanu kandi itanga ugushikama kwinshi, bikaba bituma ari nziza ku bakoresha bashasha.
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: Chất độc
+name: Tox
 description: Mở ra các cuộc trò chuyện không cần trung gian trên giao thức Tox phi tập trung
 ---
 ![cover](assets/cover.webp)
@@ -304,4 +304,4 @@ Nếu bạn thích khám phá Tox và hiểu được lợi ích của nó trong
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41

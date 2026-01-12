@@ -1,0 +1,8 @@
+question: Điều gì sẽ xảy ra với thể hiện cấu trúc gốc khi bạn sử dụng cú pháp cập nhật cấu trúc với các kiểu không phải là kiểu Copy?
+answer: Các trường được sao chép sẽ trở nên không thể sử dụng được trong phiên bản gốc do ngữ nghĩa di chuyển.
+wrong_answers:
+  - Phiên bản gốc vẫn hoàn toàn không thay đổi và có thể truy cập đầy đủ.
+  - Toàn bộ phiên bản gốc được sao chép, đảm bảo cả hai phiên bản đều hoạt động đầy đủ chức năng.
+  - Chỉ những trường bạn thay đổi một cách rõ ràng mới trở nên không thể truy cập được trong phiên bản gốc.
+explanation: |
+  Khi sử dụng cú pháp cập nhật cấu trúc với các kiểu dữ liệu không phải Copy, hệ thống sở hữu của Rust sẽ di chuyển các trường được sao chép từ phiên bản gốc sang phiên bản mới. Điều này có nghĩa là các trường cụ thể đó sẽ không thể sử dụng được trong phiên bản gốc, mặc dù các trường không được sao chép vẫn có thể truy cập được. Trình biên dịch theo dõi các thao tác di chuyển một phần này một cách thông minh, ngăn chặn việc truy cập vào các trường đã di chuyển trong khi vẫn cho phép tiếp tục sử dụng các trường chưa di chuyển. Hành vi này đảm bảo an toàn bộ nhớ bằng cách ngăn chặn nhiều chủ sở hữu cùng một dữ liệu.

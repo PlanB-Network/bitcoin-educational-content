@@ -1,0 +1,9 @@
+question: Ni ingaruka izihe ugufungura ubutunzi, nk’uko Cobden abivuga, kwagize ingaruka ku bukene bwo kw’isi yose mu myaka 20 iheze?
+answer: Ubukene bwagabanutse n'igice .
+wrong_answers:
+  - Ubukene bwiyongereyeko 10%
+  - Ubukene bwagumye buhagaze
+  - Ubukene bwagabanutseko 20%
+explanation: |
+  Cobden yaremeje ko ubutunzi bufungurwa nk’uburyo bwo kugabanya ubukene, kandi ibivuye muri iki gihe vyerekana ko ubukene bugabanuka cane cane mu bihugu vyugururiye ubudandaji.
+reviewed: false

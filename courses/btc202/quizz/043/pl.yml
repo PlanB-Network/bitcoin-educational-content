@@ -1,0 +1,9 @@
+question: Jaka jest różnica między Umbrel Home a umbrelOS?
+answer: Umbrel Home to preinstalowany miniserwer, umbrelOS to instalacja do samodzielnego montażu
+wrong_answers:
+  - Umbrel Home jest darmowy, umbrelOS nie jest
+  - Umbrel Home nie obsługuje Bitcoin; umbrelOS obsługuje
+  - Umbrel Home jest open source, umbrelOS jest prawnie zastrzeżony
+explanation: |
+  Umbrel Home jest sprzedawany pod klucz z już zainstalowanym systemem umbrelOS, podczas gdy umbrelOS można zainstalować samodzielnie na własnym sprzęcie.
+reviewed: true

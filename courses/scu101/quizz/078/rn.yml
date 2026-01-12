@@ -1,0 +1,9 @@
+question: Ni ikihe kintu nyamukuru umuntu akwiye kugenderako igihe akora konti nshasha ya email?
+answer: Koresha ijambo ry'ibanga ry’umwihariko kandi rikomeye.
+wrong_answers:
+  - Subira ukoreshe ijambo ry'ibanga ry’izindi konti.
+  - Hitamwo ijambo ry'ibanga ryoroshe kugira ngo ushobore gufata mu mutwe vyoroshe.
+  - Hitamwo ijambo ry'ibanga ririko izina ry’igikoko cawe.
+explanation: |
+  Ijambo ry'ibanga ry’umwihariko kandi rikomeye ni ngombwa kugira ngo abakwinjirira ntibashobore kwinjira muri konti ya imeyiri.
+reviewed: true

@@ -2,12 +2,12 @@ question: Was ist der Unterschied zwischen Unternehmens-VPNs und Verbraucher-VPN
 answer: Unternehmens-VPNs sind teurer und komplexer, während Verbraucher-VPNs zugänglicher und benutzerfreundlicher sind.
 wrong_answers:
   - Unternehmens-VPNs sind in der Regel sicherer als Verbraucher-VPNs, da sie immer teurer sind.
-  - Verbraucher-VPNs sind immer teurer als Unternehmens-VPNs aufgrund der wirtschaftlichen Skala, zu der letztere Zugang haben.
+  - Verbraucher-VPNs sind immer teurer als Unternehmens-VPNs aufgrund der wirtschaftlichen Skaleneffekte, die letztere erzielen können.
   - Aufgrund ihrer anspruchsvolleren Zielgruppe verschlüsseln Unternehmens-VPNs immer Daten, während Verbraucher-VPNs dies nicht tun.
 explanation: |
   Unternehmens-VPNs sind für Unternehmen konzipiert und
   typischerweise teurer und komplexer in der Einrichtung und Verwaltung.
   Andererseits sind Verbraucher-VPNs für
-  Einzelbenutzer gedacht und im Allgemeinen zugänglicher und
+  Einzelnutzer gedacht und im Allgemeinen zugänglicher und
   benutzerfreundlicher.
 reviewed: true

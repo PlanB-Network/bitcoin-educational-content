@@ -1,0 +1,9 @@
+question: Which of these tools does not identify relevant peers on Lightning?
+answer: Electrum
+wrong_answers:
+  - Lightning Terminal
+  - Amboss
+  - 1ML
+explanation: |
+  Electrum is not a Lightning explorer for obtaining information on network nodes. The other three tools, on the other hand, perform this function well.
+reviewed: false

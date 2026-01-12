@@ -1,0 +1,9 @@
+question: Ni iyihe porogarama y’inkomoko yuguruye ikoreshwa cane nk’ishingiro ku maserukira ya DNS?
+answer: GUHUZA
+wrong_answers:
+  - Apache
+  - Ikinyamasyo
+  - Samba
+explanation: |
+  BIND (Izina rya Internet rya Berkeley Domain) ni uburyo bwo gushirwa mu ngiro bw’inkomoko yuguruye bukoreshwa n’abakozi benshi ba DNS kw’isi yose.
+reviewed: false

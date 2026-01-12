@@ -1,0 +1,9 @@
+question: Ni igiki gikenewe kugira ngo umubare wose a ugire modulo N ihindutse?
+answer: a na N bitegerezwa kuba bifatanya
+wrong_answers:
+  - N igomba kuba ingana
+  - a agomba kuba adasanzwe
+  - a igomba kuba umubare w'intango
+explanation: |
+  Umubare wose a ufise umubare uhindutse N iyo kandi gusa iyo ari coprime, bisobanura ko umugabane wabo munini ari 1.
+reviewed: false

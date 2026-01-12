@@ -1,0 +1,11 @@
+question: Ni kimwe mu bibazo ibihe vy’inzahabu nk’uburyo bw’amahera?
+answer: Ntivyoroshe gucapura.
+wrong_answers:
+  - Ntigumana agaciro kayo mu kirere cose.
+  - Birasenyuka uko igihe kigenda kirarenga.
+  - Biroroshe kubihingura.
+explanation: |
+  Kimwe mu bibazo nyamukuru vy’inzahabu nk’uburyo bw’amahera ni .
+  kuba bigoye gucapura mu bice bitobito nk’uko bikenewe .
+  birashika, ivyo bikaba bituma bidashoboka gukoresha.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Jaki jest główny cel typu wyliczeniowego Option<T> w Rust?
+answer: Aby bezpiecznie reprezentować wartości, które mogą, ale nie muszą być obecne, zapobiegając błędom wskaźnika null
+wrong_answers:
+  - Aby przechowywać wiele różnych typów danych w jednej zmiennej bez sprawdzania typu
+  - Aby utworzyć opcjonalne parametry w definicjach funkcji, które mogą być pomijane podczas wywołań
+  - Aby zapewnić sposób zwracania wielu możliwych typów błędów z pojedynczej funkcji
+explanation: |
+  Wyliczenie Option<T> służy jako rozwiązanie Rust dla problemów ze wskaźnikiem null, wymuszając jawną obsługę brakujących wartości. Ma dwa warianty: Some(T) dla wartości obecnych i None dla wartości nieobecnych. Kompilator wymaga sprawdzenia wariantu przed użyciem wartości, zapobiegając błędom w czasie wykonywania. Błędne odpowiedzi mylą Option z innymi pojęciami: związkami/wariantami (pierwszy), domyślnymi parametrami (drugi) i typami Result do obsługi błędów (trzeci).

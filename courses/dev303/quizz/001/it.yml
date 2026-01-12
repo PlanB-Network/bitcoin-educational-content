@@ -1,0 +1,8 @@
+question: Qual è lo scopo principale di Rustup nell'ecosistema di sviluppo di Rust?
+answer: Un sistema completo di gestione della catena di strumenti per l'installazione e la gestione del Rust
+wrong_answers:
+  - Un gestore di pacchetti per gestire le dipendenze nei progetti Rust
+  - Un linter avanzato che analizza il codice e fornisce suggerimenti per il miglioramento
+  - Un sistema di compilazione che compila i programmi Rust e gestisce la struttura del progetto
+explanation: |
+  Rustup è stato progettato specificamente come sistema di gestione della catena di strumenti che gestisce l'installazione, l'aggiornamento e la gestione dello stesso Rust su diversi progetti e piattaforme. Mentre Cargo funge da gestore di pacchetti e sistema di compilazione per i progetti Rust e Clippy funziona come linter per l'analisi del codice, Rustup opera a un livello superiore, gestendo l'intero ambiente di sviluppo Rust. Permette agli sviluppatori di installare diverse versioni di Rust, di gestire i target di compilazione per varie piattaforme e di aggiornare facilmente le nuove versioni di Rust con semplici comandi come "rustup update".

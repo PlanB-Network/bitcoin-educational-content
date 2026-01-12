@@ -1,11 +1,9 @@
-question: Comment le réseau Lightning pourrait-il potentiellement être utilisé pour la location de biens ?
-answer: Les utilisateurs pourraient être facturés à la minute, ou même à la seconde, pour le temps d'utilisation des biens.
+question: Quel est l'un des avantages potentiels de l'acceptation de nouvelles technologies telles que Bitcoin ?
+answer: Cela pourrait générer d'énormes économies à l'échelle mondiale.
 wrong_answers:
-  - Les utilisateurs pourraient être facturés un tarif élevé pour la location des biens.
-  - Les utilisateurs pourraient être facturés en fonction de la valeur des biens.
-  - Les utilisateurs pourraient être facturés en fonction de l'état des biens.
-explanation: >
-  Avec le réseau Lightning, il est concevable d'utiliser ce système pour
-  la location de biens. Les utilisateurs pourraient être facturés à la minute, ou même à la seconde, pour le temps
-  qu'ils utilisent les biens.
+  - Cela pourrait conduire à un effondrement économique mondial.
+  - Cela pourrait entraîner une diminution de l'intelligence humaine.
+  - Cela pourrait conduire à l'élimination de tous les emplois.
+explanation: >-
+  L'acceptation de ces nouvelles technologies pourrait générer d'énormes économies à l'échelle mondiale.
 reviewed: true

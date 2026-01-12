@@ -1,0 +1,9 @@
+question: Ni kuki ubuhinga bwo guhindura amakuru bushobora guterwa n’inkomezi z’agahomerabunwa?
+answer: Kuko ifise gusa imfunguruzo 26 zishoboka .
+wrong_answers:
+  - Kuko ikoresha urufunguzo rwa bose .
+  - Kubera ko ishingiye ku gupfuka amakuru y’uburinganire .
+  - Kubera ko ikoresha imibare y'imburakimazi .
+explanation: |
+  Shift encryption irashobora guterwa n’inkomezi z’agahomerabunwa kuko ifise gusa imfunguruzo 26 zishoboka, kuva kuri 0 gushika kuri 25, bivuye ku gukoresha modulo 26 ubwayo ivana n’ubunini bw’inyuguti. Ntushobora gukoresha imfunguruzo nini zifise akamaro, kuko uko vyogenda kwose zoba zingana n’urufunguzo ruri hagati ya 0 na 25. Ku bw’ivyo, birahagije kugerageza imwe yose muri zo kugira uronke ubutumwa. 
+reviewed: false

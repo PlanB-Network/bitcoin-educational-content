@@ -1,0 +1,11 @@
+question: Nk’uko Carl Menger abivuga, ni kuki haba ukuvugana kubushake hagati y'abantu babiri ?
+answer: Buri umwe muribo yizera ko vyokongera akamaro kabo.
+wrong_answers:
+  - Buri ruhande rwizera ko ruzogabanya akamaro kabo.
+  - Buri ruhande rwemera ko ruzoguma rufise akamaro karwo.
+  - Buri ruhande rwizera ko ataco bizohindura ku ntumbero yabo.
+explanation: |
+  Menger avuga ko uko kuvugana kubushake biba hagati y'abantu babiri .
+  buri umwe wese yizera ko ivyo vyotuma haba ukwiyongera k'akamaro kabo inyuma y'ico kiyago.
+
+reviewed: true

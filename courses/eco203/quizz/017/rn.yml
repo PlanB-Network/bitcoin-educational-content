@@ -1,0 +1,9 @@
+question: Ku bwa Bastiat, ubutunzi bwa politike ni iki?
+answer: Ivyiyumviro vya Exchange.
+wrong_answers:
+  - Ivyiyumviro vy'agaciro
+  - Ivyiyumviro vy'ubutunzi
+  - Ivyiyumviro vy'ubushobozi bwo kugura
+explanation: |
+  Bastiat asobanura ubutunzi bwa politike nk'inyigisho ya Exchange.
+reviewed: false

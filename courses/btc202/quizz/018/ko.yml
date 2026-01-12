@@ -1,0 +1,9 @@
+question: 가장 널리 사용되는 Bitcoin 노드 구현은 무엇인가요?
+answer: Bitcoin core
+wrong_answers:
+  - Bitcoin Knots
+  - Bitcoin 클래식
+  - Bcoin
+explanation: |
+  네트워크의 10개 노드 중 약 9개를 보유한 Bitcoin core가 대다수 고객입니다.
+reviewed: true

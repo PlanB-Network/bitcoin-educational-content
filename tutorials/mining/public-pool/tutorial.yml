@@ -1,5 +1,7 @@
 id: 42b9e1b5-722d-471d-b1e3-9ca758065be1
 
+last_update_date: 2024-02-15
+
 category: pool
 
 level: advanced
@@ -8,14 +10,17 @@ professor_id: 03cb7507-ad65-4848-88f8-bfa72e2b67f8
 
 # Proofreading metadata
 project_id: 9891d4f8-e1c3-4156-a1f1-eeaf5ee39e4d
+license: CC-BY-SA-V4
+
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2024-09-01
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 0.92
+      - JosephQuaye
+    reward: 0.46
   - language: et
     last_contribution_date:
     urgency: 1
@@ -31,7 +36,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - yutaro21jp
-    reward: 1.79
+    reward: 1.5
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -63,10 +68,11 @@ proofreading:
     contributor_names:
     reward: 1.84
   - language: es
-    last_contribution_date:
+    last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
-    reward: 1.84
+      - Salgraphics
+    reward: 0.92
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -81,7 +87,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.59
+    reward: 3.01
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -91,7 +97,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.17
+    reward: 3.01
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -128,6 +134,31 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 2.43
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.01
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.01
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.01
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.43
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.01
 tags:
   - mining
   - guides

@@ -1,0 +1,9 @@
+question: 在 Bitcoin core 中，dbcache 參數可以做什麼？
+answer: 分配 RAM 以加速 IBD
+wrong_answers:
+  - 定義 Blockchain 大小
+  - 調整最大 Mining 難度
+  - 限制連線對等體數量
+explanation: |
+  dbcache 參數會增加用來暫時儲存 UTXO 集的記憶體空間，這可以加速初始同步處理。
+reviewed: true

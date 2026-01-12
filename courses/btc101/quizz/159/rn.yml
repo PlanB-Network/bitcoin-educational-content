@@ -1,0 +1,12 @@
+question: None abacukuzi b’amabuye y’agaciro bokorera iki izo nzira z’amashanyarazi zitarahuzwa n’uruzitiro?
+answer: Bashobora gukora nk’umuguzi wa nyuma.
+wrong_answers:
+  - Bashobora guha amashanyarazi amahinguriro y’amashanyarazi.
+  - Bashobora gufatanya amahinguriro y’amashanyarazi n’uruzitiro.
+  - Bashobora gutunganya igiciro c’amashanyarazi.
+explanation: |
+  Abacukuzi barashobora gukora nk’umuguzi wa nyuma w’amahinguriro y’amashanyarazi
+  ntibarahuzwa n’uruzitiro. Ivyo bituma amahinguriro y’amashanyarazi .
+  kugira ngo umuntu aronke amahera mbere y’uko ahuzwa n’
+  urusobe rw’amashanyarazi.
+reviewed: true

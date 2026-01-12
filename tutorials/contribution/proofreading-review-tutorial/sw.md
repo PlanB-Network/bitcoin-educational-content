@@ -1,6 +1,6 @@
 ---
 name: Kusahihisha au kukagua yaliyomo
-description: Unawezaje kushiriki katika kusahihisha/kuhakiki maudhui ya elimu kwenye Plan ₿ Network?
+description: Unawezaje kushiriki katika kusahihisha/kuhakiki maudhui ya elimu kwenye Plan ₿ Academy?
 ---
 ![github](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Unawezaje kushiriki katika kusahihisha/kuhakiki maudhui ya elimu kw
 ## Kwa Muhtasari
 
 
-Iwapo ungependa kusahihisha au kukagua maudhui ya Plan ₿ Network, jiunge na [kikundi chetu cha Telegram](https://t.me/PlanBNetwork_ContentBuilder) kinachojitolea kwa michango. Jitambulishe kwa ufupi, kisha ubainishe maudhui ambayo ungependa kukagua, na lugha. Fanya masahihisho yako kwenye tawi linalofanya kazi na uwasilishe PR mara tu ukaguzi wako utakapokamilika.
+Iwapo ungependa kusahihisha au kukagua maudhui ya Plan ₿ Academy, jiunge na [kikundi chetu cha Telegram](https://t.me/PlanBNetwork_ContentBuilder) kinachojitolea kwa michango. Jitambulishe kwa ufupi, kisha ubainishe maudhui ambayo ungependa kukagua, na lugha. Fanya masahihisho yako kwenye tawi linalofanya kazi na uwasilishe PR mara tu ukaguzi wako utakapokamilika.
 
 
 Iwapo hukuelewa sehemu iliyo hapo juu, usijali—mafunzo haya ni kwa ajili yako!
@@ -16,19 +16,19 @@ Iwapo hukuelewa sehemu iliyo hapo juu, usijali—mafunzo haya ni kwa ajili yako!
 
 ---
 
-## Plan ₿ Network ni nini?
+## Plan ₿ Academy ni nini?
 
 
-Plan ₿ Network ni jukwaa la kujifunza kuhusu Bitcoin kupitia kozi na mafunzo mengi kwa kila mtu. Kwa sasa, maudhui yetu yote ni chanzo huria, yamepangishwa kwenye hazina ya GitHub, na yamefunguliwa kwa michango ya kukaguliwa na kuunda maudhui.
+Plan ₿ Academy ni jukwaa la kujifunza kuhusu Bitcoin kupitia kozi na mafunzo mengi kwa kila mtu. Kwa sasa, maudhui yetu yote ni chanzo huria, yamepangishwa kwenye hazina ya GitHub, na yamefunguliwa kwa michango ya kukaguliwa na kuunda maudhui.
 
 
-Plan ₿ Network inalenga kuwa uwanja wa umma wa mtandao wa Bitcoin, kuunganisha na kuhimiza jumuiya za Bitcoin duniani kote.
+Plan ₿ Academy inalenga kuwa uwanja wa umma wa mtandao wa Bitcoin, kuunganisha na kuhimiza jumuiya za Bitcoin duniani kote.
 
 
 ## Kwa nini kuchangia?
 
 
-Plan ₿ Network kimsingi inazungumza lugha nyingi, kwa kuwa lengo letu ni kufanya rasilimali za Bitcoin zipatikane na kila mtu duniani kote. Tunaamini kuwa lugha isiwe kikwazo kwa pesa za watawala.
+Plan ₿ Academy kimsingi inazungumza lugha nyingi, kwa kuwa lengo letu ni kufanya rasilimali za Bitcoin zipatikane na kila mtu duniani kote. Tunaamini kuwa lugha isiwe kikwazo kwa pesa za watawala.
 
 
 Ili kufanikisha hili, tunatumia mbinu ya Human x AI. Kupitia [mpango] wetu (https://github.com/Asi0Flammeus/LLM-Translator), tunaweza kutafsiri kiotomatiki maudhui yetu katika lugha nyingi. Hata hivyo, tunahitaji mzungumzaji fasaha ili kukagua na kuhakikisha maudhui yanaeleweka na hayana masharti yasiyofaa.
@@ -49,7 +49,7 @@ Hauhitaji kuwa mtaalam wa GitHub kukagua yaliyomo. Ingawa daima ni bora kuelewa 
 Walakini, ikiwa hujui Git na GitHub na unataka kujifunza zaidi, unaweza kuangalia nakala yetu ya utangulizi juu ya zana hizi:
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 ## 1. Fungua akaunti
 
@@ -71,7 +71,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 
 
 
-- Jiunge na [kikundi cha PBN Content Builder](https://t.me/PlanBNetwork_ContentBuilder) kwenye Telegramu.
+- Jiunge na [kikundi cha Plan ₿ Academy Content Builder](https://t.me/PlanBNetwork_ContentBuilder) kwenye Telegramu.
 
 
 ![REVIEW](assets/fr/01.webp)
@@ -120,7 +120,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![REVIEW](assets/fr/06.webp)
 
 
-NB. Inapendekezwa kukagua kwenye kidirisha cha msimbo, na yaliyomo asilia yakionyeshwa kwenye dirisha tofauti. Kwa mfano, unaweza kutazama maandishi kwenye tovuti ya Plan ₿ Network au katika hakikisho la GitHub kwenye kichupo cha kivinjari. Tumia `ctrl + F` kutafuta makosa na kufanya marekebisho katika mwonekano wa msimbo unapoendelea.
+NB. Inapendekezwa kukagua kwenye kidirisha cha msimbo, na yaliyomo asilia yakionyeshwa kwenye dirisha tofauti. Kwa mfano, unaweza kutazama maandishi kwenye tovuti ya Plan ₿ Academy au katika hakikisho la GitHub kwenye kichupo cha kivinjari. Tumia `ctrl + F` kutafuta makosa na kufanya marekebisho katika mwonekano wa msimbo unapoendelea.
 
 
 ## 4. Fanya mabadiliko
@@ -161,7 +161,7 @@ NB. Inapendekezwa kukagua kwenye kidirisha cha msimbo, na yaliyomo asilia yakion
 
 - Ikiwa hujakamilisha ukaguzi wako na ungependa kuendelea na kazi yako baadaye, unaweza kuondoka.
 - Alimradi umefanya mabadiliko yako, yakahifadhiwa kwenye GitHub Fork yako.
-- Ili kuendelea na kazi yako, nenda kwa Fork yako ya hazina ya maudhui ya Plan ₿ Network kupitia wasifu wako wa GitHub.
+- Ili kuendelea na kazi yako, nenda kwa Fork yako ya hazina ya maudhui ya Plan ₿ Academy kupitia wasifu wako wa GitHub.
 
 
 ![REVIEW](assets/fr/14.webp)
@@ -196,20 +196,20 @@ NB. Inapendekezwa kukagua kwenye kidirisha cha msimbo, na yaliyomo asilia yakion
 
 ## 6. Kanuni za kufuata wakati wa kusahihisha maudhui
 
-Ili kupata maelezo zaidi kuhusu miongozo ya kufuata wakati wa kuhariri kwenye Plan ₿ Network kuhusu sheria za lugha au muundo, tafadhali rejelea mwongozo wa "contribution-proofreading-guidelines" katika sehemu hii hiyo!
+Ili kupata maelezo zaidi kuhusu miongozo ya kufuata wakati wa kuhariri kwenye Plan ₿ Academy kuhusu sheria za lugha au muundo, tafadhali rejelea mwongozo wa "contribution-proofreading-guidelines" katika sehemu hii hiyo!
 
 ## 7. Subiri kwa ukaguzi
 
 
 
-- Hongera, PR yako imewasilishwa! Unaweza kufuatilia maendeleo yake katika kichupo cha "Vuta maombi" kwenye [hazina ya Plan ₿ Network ya GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content/pulls):
+- Hongera, PR yako imewasilishwa! Unaweza kufuatilia maendeleo yake katika kichupo cha "Vuta maombi" kwenye [hazina ya Plan ₿ Academy ya GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content/pulls):
 
 
 ![REVIEW](assets/fr/12.webp)
 
 
 
-- Asante sana kwa mchango wako! Baada ya kuidhinishwa, mwanachama wa timu ya Plan ₿ Network atawasiliana nawe ili kutuma zawadi yako. \**Malipo hufanywa kupitia Lightning Network\** pekee.
+- Asante sana kwa mchango wako! Baada ya kuidhinishwa, mwanachama wa timu ya Plan ₿ Academy atawasiliana nawe ili kutuma zawadi yako. \**Malipo hufanywa kupitia Lightning Network\** pekee.
 - Ikiwa ungependa kuanza tena, rudi kwenye hatua ya 2 na utume ujumbe mpya katika kikundi cha Telegramu ili kuendelea kuchangia maudhui mengine. Hakikisha kuwa umesawazisha Fork yako kabla ya kuunda tawi jipya la kufanya kazi. Ili kufanya hivyo, nenda kwenye ukurasa wa nyumbani wa Fork yako, chagua tawi kuu linaloitwa `dev` (cf. \**A\**), kisha ubofye kitufe cha "Sawazisha Fork" (cf. \**B\**). Ikiwa masasisho yanapatikana kwa Fork yako, kitufe cha "Sasisha tawi" kitatokea. Bofya tu ili kufanya sasisho.
 
 

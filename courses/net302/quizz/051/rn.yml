@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo butuma igikorwa co mu mutima gishobora gushikira hanze biciye ku NAT?
+answer: Gurungika imbere icambu
+wrong_answers:
+  - Guca ibice kw'amapakete
+  - RIP inzira
+  - NAT gufatanya
+explanation: |
+  Port forwarding ishobora gutuma ihuriro ryo hanze rirungikwa ku nzira yihariye y'imbere biciye ku muryango wa NAT.
+reviewed: false

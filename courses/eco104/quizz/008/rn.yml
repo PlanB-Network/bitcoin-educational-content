@@ -1,0 +1,12 @@
+question: Ni gute Bitcoin nshasha ziremwa zigashirwa mu nzira?
+answer: Biciye muri Mining nk’impera yo kwongerako amafaranga mashasha kuri Blockchain.
+wrong_answers:
+  - Biciye mu gusohora ubutegetsi bumwe
+  - Mu kubigura mu masoko ya Bitcoin .
+  - Mu kuvyakira nk’amahera y’ugucuruza .
+explanation: |
+  Bitcoin nshasha zitangura gukoreshwa biciye mu buryo bwitwa Mining. 
+  Abacukuzi barahiganwa kugira ngo bongereko amafaranga mashasha kuri Blockchain. 
+  Mu Exchange kubera igikorwa cabo, abacukuzi b’amabuye y’agaciro barahembwa n’i Bitcoin nshasha. 
+  Iyi nzira kandi iragenzura kandi igakingira amafaranga akoreshwa ku rubuga rwa Bitcoin.
+reviewed: true

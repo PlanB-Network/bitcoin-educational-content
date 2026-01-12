@@ -1,5 +1,5 @@
 ---
-name: Uzel RGB Lightning
+name: RGB Lightning Node
 description: Jak spustím uzel Lightning kompatibilní s RGB pomocí RLN?
 ---
 ![cover](assets/cover.webp)
@@ -31,7 +31,7 @@ Smlouva RGB je strukturována jako evoluční stavový stroj. Začíná Genesis,
 
 Chcete-li se dozvědět více o tom, jak protokol RGB funguje, doporučuji vám absolvovat toto komplexní školení:
 
-https://planb.network/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 ## Instalace uzlu Lightning kompatibilního s RGB
 
@@ -67,17 +67,17 @@ Na konci tohoto příkazu bude ve vašem `$CARGO_HOME/bin/` k dispozici spustite
 Démon `rgb-lightning-node` potřebuje ke své funkci přítomnost a konfiguraci :
 
 
-- Uzel `bitcoind`**
+- Uzel `bitcoind`
 
 Každá instance RLN bude muset komunikovat s `bitcoind`, aby mohla vysílat a monitorovat své transakce v řetězci. Démonovi bude třeba poskytnout autentizaci (přihlašovací jméno/heslo) a adresu URL (hostitel/port).
 
 
-- Indexer** (Electrum nebo Esplora)
+- **Indexer** (Electrum nebo Esplora)
 
 Démon musí být schopen vypsat a prozkoumat transakce v řetězci, zejména najít UTXO, na kterém bylo aktivum ukotveno. Je třeba zadat adresu URL serveru Electrum nebo Esplora.
 
 
-- Proxy server RGB**
+- Proxy server **RGB**
 
 Proxy server je součást (volitelná, ale velmi doporučená), která zjednodušuje výměnu *konzistencí RGB* mezi rovnocennými uživateli Lightning. Opět je třeba zadat adresu URL.
 
@@ -219,7 +219,7 @@ Pořadí můžete samozřejmě upravit. Pro potvrzení transakce těžíme :
 ./regtest.sh mine 1
 ```
 
-Nyní můžeme vytvořit aktivum RGB. Příkaz bude záviset na typu aktiva, které chcete vytvořit, a jeho parametrech. Zde vytvářím token NIA (*Non Inflatable Asset*) s názvem "PBN" se zásobou 1000 jednotek. Příkaz `přesnost` umožňuje definovat dělitelnost jednotek.
+Nyní můžeme vytvořit aktivum RGB. Příkaz bude záviset na typu aktiva, které chcete vytvořit, a jeho parametrech. Zde vytvářím token NIA (*Non Inflatable Asset*) s názvem "Plan ₿ Academy" se zásobou 1000 jednotek. Příkaz `přesnost` umožňuje definovat dělitelnost jednotek.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -227,8 +227,8 @@ curl -X POST -H "Content-Type: application/json" \
 "amounts": [
 1000
 ],
-"ticker": "PBN",
-"name": "Plan B Network",
+"ticker": "Plan ₿ Academy",
+"name": "Plan ₿ Academy",
 "precision": 0
 }' \
 http://localhost:3001/issueassetnia
@@ -264,7 +264,7 @@ Příkaz vrátí veřejný klíč mého uzlu č. 2 :
 
 ![RLN](assets/fr/13.webp)
 
-Dále otevřeme kanál zadáním příslušného aktiva (`PBN`). Příkaz `/openchannel` umožňuje definovat velikost kanálu v satoshi a rozhodnout se pro zařazení aktiva RGB. Záleží na tom, co chcete vytvořit, ale v mém případě je příkaz :
+Dále otevřeme kanál zadáním příslušného aktiva (`Plan ₿ Academy`). Příkaz `/openchannel` umožňuje definovat velikost kanálu v satoshi a rozhodnout se pro zařazení aktiva RGB. Záleží na tom, co chcete vytvořit, ale v mém případě je příkaz :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -303,7 +303,7 @@ K potvrzení transakce je vytěženo 6 bloků:
 
 ![RLN](assets/fr/15.webp)
 
-Kanál Lightning je nyní otevřen a obsahuje také 500 tokenů `PBN` na straně uzlu č. 1. Pokud chce uzel č. 2 obdržet tokeny `PBN`, musí vygenerovat fakturu. Zde je návod, jak to udělat:
+Kanál Lightning je nyní otevřen a obsahuje také 500 tokenů `Plan ₿ Academy` na straně uzlu č. 1. Pokud chce uzel č. 2 obdržet tokeny `Plan ₿ Academy`, musí vygenerovat fakturu. Zde je návod, jak to udělat:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -332,7 +332,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 
 ![RLN](assets/fr/16.webp)
 
-Tuto fakturu nyní zaplatíme z prvního uzlu, který má potřebnou hotovost s tokenem `PBN`:
+Tuto fakturu nyní zaplatíme z prvního uzlu, který má potřebnou hotovost s tokenem `Plan ₿ Academy`:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -372,4 +372,4 @@ Pokud vám tento návod přišel užitečný, budu vám vděčný, když mi pod 
 
 Doporučuji také tento další návod, ve kterém vysvětluji, jak použít nástroj RGB CLI vyvinutý sdružením LNP/BP k vytvoření smlouvy RGB:
 
-https://planb.network/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4
+https://planb.academy/tutorials/node/others/rgb-cli-1f8a28d4-fa99-4261-9d80-48275b496fd4

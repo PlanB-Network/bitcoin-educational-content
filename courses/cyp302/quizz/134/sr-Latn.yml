@@ -6,4 +6,4 @@ wrong_answers:
   - Da bi se omogućilo Alisi da šifruje poruku radi provere njene celovitosti
 explanation: |
   U asimetričnoj kriptografiji, Alisin javni ključ omogućava Bobu da pošalje šifrovanu poruku koju samo ona može dešifrovati, čime se osigurava poverljivost poruke.
-reviewed: false
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ni ikihe kintu c'izina ry'indangarubuga giserukira Indangarubuga y'Urwego rwo Hejuru (TLD)?
+answer: Ikintu kiri iburyo cane
+wrong_answers:
+  - Ikintu kiri ibubamfu cane
+  - Urugero rwa kabiri inyuma y'uwabakiriye
+  - Izina ry'umushitsi nyamukuru
+explanation: |
+  TLD yama ari ikintu kiri iburyo cane muri FQDN, nka .com, .org canke .fr.
+reviewed: false

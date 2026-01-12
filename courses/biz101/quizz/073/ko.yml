@@ -1,0 +1,9 @@
+question: 엔터프라이즈 Bitcoin 시스템과 ERP 소프트웨어 간의 실시간 데이터 동기화를 가능하게 하는 것은 무엇인가요?
+answer: API
+wrong_answers:
+  - CSV 파일
+  - 일괄 업로드
+  - 이메일 보고서
+explanation: |
+  API를 사용하면 지속적인 실시간 통합이 가능합니다.
+reviewed: true

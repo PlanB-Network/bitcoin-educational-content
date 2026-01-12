@@ -1,0 +1,9 @@
+question: Bitcoin의 맥락에서 UTXO이란 무엇인가요?
+answer: 스크립트와 관련된 미사용 비트코인 조각
+wrong_answers:
+  - Blockchain에서 완전히 확인된 거래
+  - Bitcoin 주소를 생성하는 공개 키
+  - Bitcoin를 여러 부분으로 나눈 금액
+explanation: |
+  미사용 거래 산출량(UTXO)은 미사용 거래 산출량으로, 보유자가 사용할 수 있는 일정량의 비트코인을 나타냅니다.
+reviewed: true

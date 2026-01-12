@@ -1,10 +1,9 @@
-question: Was ist die Rolle des öffentlichen Schlüssels in einem Bitcoin-Wallet?
-answer: Er wird verwendet, um Bitcoin-Adressen zu generieren und somit Geld zu empfangen.
+question: Welche Analogie wird in diesem Kurs verwendet, um zu erklären, wie man Bitcoins empfangen kann, ohne dem Absender zu erlauben, deine Mittel zu stehlen?
+answer: Ein Briefkasten.
 wrong_answers:
-  - Er wird verwendet, um Bitcoin-Transaktionen zu verschlüsseln.
-  - Er wird verwendet, um auf das Bitcoin-Wallet zuzugreifen.
-  - Er wird verwendet, um das Bitcoin-Wallet zu sichern.
+  - Ein Bankkonto.
+  - Ein Safe.
+  - Ein Haus.
 explanation: |
-  Der öffentliche Schlüssel wird vom privaten Schlüssel abgeleitet und verwendet,
-  um Bitcoin-Adressen zu generieren, um Geld zu empfangen.
+  Die Analogie, die verwendet wird, um zu erklären, wie man Bitcoins empfangen kann, ohne dem Absender zu erlauben, deine Mittel zu stehlen, ist ein Briefkasten. Die Leute deponieren Geld darin, aber nur du kannst ihn öffnen.
 reviewed: true

@@ -1,0 +1,8 @@
+question: Ni uruhara uruhe dosiye y’ururimi rw’insobanuro imwe (UDL) ikora mu nzira y’ibikorwa vya UniFFI?
+answer: Ikora nk'ibisobanuro vy'imbere bidondora ibice vy'ububiko bw'ibitabu bwa Rust bikwiye gukoreshwa mu zindi ndimi .
+wrong_answers:
+  - Irimwo kode nyayo y'ishyirwa mu bikorwa ya Rust ishobora gushirwa mu rurimi rw'intumbero
+  - Ikora nk'idosiye y'imiterere y'igihe co gukora icungera ugutanga ububiko hagati y'ibidukikije vy'ururimi bitandukanye
+  - Itanga uburyo bwo kugerageza bwo kwemeza ukuri kw'ibiboshe vyavutse ku mbuga nyinshi
+explanation: |
+  Dosiye ya UDL ikora nk’amasezerano canke ibisobanuro hagati y’ugushirwa mu ngiro kwa Rust n’imirongo y’ururimi yavutse. Nta kode ya Rust ubwayo irimwo, eka mbere ntakora ibikorwa canke igerageza ry’igihe co gukora. Ahubwo, irasobanura mu buryo butomoye ibikorwa, ubwoko, n’imirongo biva mu bubiko bw’ibitabu bwa Rust bikwiye gushikirizwa izindi ndimi, igaragaza ingene bikwiye gushirwa ku ikarita no gushikirizwa mu mirongo y’ururimi kavukire rw’ururimi rwo gukoresha.

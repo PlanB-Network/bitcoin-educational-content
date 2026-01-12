@@ -1,9 +1,9 @@
-question: Šta ovaj kurs sugeriše o budućnosti Bitkoina?
-answer: Neće nestati.
+question: Koji pristup strukturiše evoluciju Bitcoina opisanu u ovom poglavlju?
+answer: Evolucija u slojevima
 wrong_answers:
-  - Biće zamenjeno boljom tehnologijom.
-  - Biće zabranjeno širom sveta.
-  - Izgubiće svoju vrednost.
+  - Monolitni blokčejn
+  - Nativni šarding
+  - Generalizovano onchain izvršavanje
 explanation: |
-  Tekst kursa sugeriše da Bitkoin neće nestati. Naprotiv, revolucija je tek počela.
-reviewed: true
+  Bitcoin zadržava jednostavan i robustan osnovni sloj, dok viši protokoli dodaju specifične funkcionalnosti.
+reviewed: false

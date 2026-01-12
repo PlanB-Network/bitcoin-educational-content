@@ -1,0 +1,9 @@
+question: Ni ikihe kaga umuyoboro wa Lightning ashobora guhura na ko asohoye uko umuyoboro wari umeze kera?
+answer: Igihano
+wrong_answers:
+  - Umuburo
+  - Amafaranga y’inyongera yo gucukura
+  - Gufungwa by’igihe gito
+explanation: |
+  Porotokole iteganya igihano gica intege gituma uwundi mubare ashobora gusubirana amahera yose.
+reviewed: false

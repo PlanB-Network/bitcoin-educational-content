@@ -1,11 +1,11 @@
-question: Qual é a principal preocupação em relação ao custo ambiental da mineração de Bitcoin?
-answer: O consumo de energia.
+question: Como o Bitcoin pode potencialmente ajudar na transição ecológica?
+answer: Ele promove o uso de energia verde.
 wrong_answers:
-  - A produção de ASICs.
-  - A reciclagem de ASICs.
-  - O custo da eletricidade.
+  - Ele reduz a produção de bens.
+  - Ele regula o consumo de recursos.
+  - Ele limita a emissão apenas de gases de efeito estufa.
 explanation: >-
-  A principal preocupação ambiental da mineração de Bitcoin é o consumo de energia.
-  Embora os ASICs sejam principalmente feitos de alumínio e possam ser reciclados ou reutilizados, a energia
-  necessária para alimentar essas máquinas é significativa.
+  O Bitcoin promove o uso de energia verde, o que pode potencialmente ajudar
+  na transição ecológica. Por exemplo, as chamas em poços de petróleo, que queimam
+  metano para prevenir a poluição, podem ser extintas por mineradores de Bitcoin.
 reviewed: true

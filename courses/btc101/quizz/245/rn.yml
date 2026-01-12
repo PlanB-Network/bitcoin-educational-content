@@ -1,0 +1,12 @@
+question: Ni ikihe ciza kimwe mu vyiza nyamukuru vya Bitcoin ku bantu batagira konti muri banki?
+answer: Bitcoin iremeza ko umuntu angana mu bikorwa, ataravye ikibanza ufise mu kibano canke ikibanza ufise mu vya politike.
+wrong_answers:
+  - Bitcoin iremeza ubusumbane mu bikorwa, mu guhemba abakoresha batunze kuruta abandi bose.
+  - Bitcoin ifasha gusa abantu bafise konti muri banki n’ikibanza ca politike c’ubumotsi.
+  - Bitcoin ifasha gusa abantu bafise ikibanza kinini mu kibano.
+explanation: |
+  Ico canditswe kivuga yuko hari abantu amamiliyaridi 2,4 bo mu .
+  isi ata konti ya banki, kandi Bitcoin iremeza ko .
+  uburinganire mu bikorwa, ata kuraba ikibanza bafise mu kibano
+  canke ikibanza afise mu vya politike.
+reviewed: true

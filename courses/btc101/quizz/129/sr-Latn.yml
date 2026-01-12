@@ -1,8 +1,8 @@
-question: Šta je Bitkoin Blockchain?
-answer: Javni i nepromenljivi Ledger (registar) svih Bitkoin transakcija.
+question: Kako Bitkoin mreža osigurava da je previše skupo ponašati se zlonamerno unutar Bitkoin protokola?
+answer: Kroz pravila protokola i ekonomske podsticaje.
 wrong_answers:
-  - Privatni i promenljivi registar (zapis) svih Bitkoin transakcija.
-  - Javni i promenljivi registar svih Bitkoin transakcija.
-  - Privatni i nepromenljivi Ledger svih Bitkoin transakcija.
+  - Kroz strogu regulaciju i nadzor.
+  - Kroz korišćenje naprednih mera bezbednosti.
+  - Kroz pretnju pravnim postupkom.
 explanation: >-
 reviewed: true

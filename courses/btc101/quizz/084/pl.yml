@@ -1,11 +1,11 @@
-question: Co powinno być głównym zmartwieniem podczas posiadania Bitcoin?
-answer: Bezpieczeństwo Twoich środków.
+question: Jakie jest zalecane użycie fizycznego portfela w trybie offline (zimnego portfela)?
+answer: Przechowywanie dużych ilości pieniędzy.
 wrong_answers:
-  - Wartość Bitcoin w dolarach.
-  - Legalność posiadania bitcoinów.
-  - Zezwolenie na wydawanie środków.
+  - Przechowywanie kwot na codzienne wydatki.
+  - Przechowywanie małych ilości pieniędzy.
+  - Przechowywanie krótkoterminowych oszczędności.
 explanation: |
-  Kiedy posiadasz bitcoiny, głównym zmartwieniem jest bezpieczeństwo
-  środków. Wynika to z faktu, że Bitcoin, jak każda inna forma
-  waluty, mogą zostać skradzione lub utracone, jeśli nie są odpowiednio zabezpieczone.
+  Do przechowywania dużych ilości pieniędzy zalecany jest fizyczny portfel offline lub tzw. zimny portfel, ponieważ jest mniej podatny na
+  zagrożenia online niż portfele gorące. Nie jest on jednak praktyczny do używania
+  do codziennych wydatków, ponieważ jest mniej wygodny do wykonywania codziennych transakcji.
 reviewed: true

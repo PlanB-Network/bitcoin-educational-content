@@ -91,9 +91,9 @@ O BIP-85 permite-lhe criar várias carteiras Bitcoin a partir de uma única fras
 
 
 
-- Cenário**: Utiliza um "Hot Wallet" Wallet (instalado num dispositivo ligado à Internet), para transacções diárias.
-- Solução BIP-85**: Cria-se uma frase secundária seed dedicada a esta carteira.
-- Vantagem em relação ao BIP-32**: Não precisa de importar a frase primária do seed para o seu telemóvel, reduzindo o risco de pirataria. Apenas a frase secundária do seed é comprometida, protegendo as suas outras carteiras. Com o BIP-32, é necessário utilizar a frase principal do seed e um caminho de desvio, expondo todos os seus fundos.
+- **Cenário**: Utiliza um "Hot Wallet" Wallet (instalado num dispositivo ligado à Internet), para transacções diárias.
+- **Solução BIP-85**: Cria-se uma frase secundária seed dedicada a esta carteira.
+- **Vantagem em relação ao BIP-32**: Não precisa de importar a frase primária do seed para o seu telemóvel, reduzindo o risco de pirataria. Apenas a frase secundária do seed é comprometida, protegendo as suas outras carteiras. Com o BIP-32, é necessário utilizar a frase principal do seed e um caminho de desvio, expondo todos os seus fundos.
 
 
 
@@ -103,9 +103,9 @@ O BIP-85 permite-lhe criar várias carteiras Bitcoin a partir de uma única fras
 
 
 
-- Cenário**: Configura um Bitcoin Wallet para alguém que lhe é próximo (por exemplo, a sua mãe), podendo recuperá-lo se a pessoa o perder.
-- Solução BIP-85**: Cria-se uma frase secundária seed dedicada e partilha-se apenas esta.
-- Vantagem em relação ao BIP-32**: Com o BIP-32, a criação de uma conta para um ente querido requer a partilha da sua frase principal do seed, arriscando todos os seus fundos e complicando a gestão para o seu ente querido (gestão de caminhos de ramificação), ou a criação de uma nova frase do seed para guardar para além da sua frase principal do seed.
+- **Cenário**: Configura um Bitcoin Wallet para alguém que lhe é próximo (por exemplo, a sua mãe), podendo recuperá-lo se a pessoa o perder.
+- **Solução BIP-85**: Cria-se uma frase secundária seed dedicada e partilha-se apenas esta.
+- **Vantagem em relação ao BIP-32**: Com o BIP-32, a criação de uma conta para um ente querido requer a partilha da sua frase principal do seed, arriscando todos os seus fundos e complicando a gestão para o seu ente querido (gestão de caminhos de ramificação), ou a criação de uma nova frase do seed para guardar para além da sua frase principal do seed.
 
 
 
@@ -115,9 +115,9 @@ O BIP-85 permite-lhe criar várias carteiras Bitcoin a partir de uma única fras
 
 
 
-- Cenário**: Separa os seus bitcoins para diferentes fins (por exemplo, poupanças a longo prazo, fundos não-KYC).
-- Solução BIP-85**: Criar seed frases secundárias dedicadas a cada objetivo.
-- Vantagem em relação ao BIP-32**: Com o BIP-32, todas as contas partilham a mesma frase seed, o que complica a gestão em carteiras de terceiros, exigindo a gestão de caminhos de derivação como `m/44'/0'/0'`. Além disso, não é possível atribuir uma conta separada por dispositivo (por exemplo, "poupanças no Coldcard", "diário no telemóvel", "férias no Trezor"). O BIP-85 atribui uma frase secundária seed única por objetivo, que é fácil de identificar e importar separadamente em cada dispositivo.
+- **Cenário**: Separa os seus bitcoins para diferentes fins (por exemplo, poupanças a longo prazo, fundos não-KYC).
+- **Solução BIP-85**: Criar seed frases secundárias dedicadas a cada objetivo.
+- **Vantagem em relação ao BIP-32**: Com o BIP-32, todas as contas partilham a mesma frase seed, o que complica a gestão em carteiras de terceiros, exigindo a gestão de caminhos de derivação como `m/44'/0'/0'`. Além disso, não é possível atribuir uma conta separada por dispositivo (por exemplo, "poupanças no Coldcard", "diário no telemóvel", "férias no Trezor"). O BIP-85 atribui uma frase secundária seed única por objetivo, que é fácil de identificar e importar separadamente em cada dispositivo.
 
 
 
@@ -127,9 +127,9 @@ O BIP-85 permite-lhe criar várias carteiras Bitcoin a partir de uma única fras
 
 
 
-- Cenário**: Necessita de uma carteira temporária para uma transação única ou para preservar a confidencialidade (por exemplo: mistura de fundos, interação com um Exchange KYC, etc.).
-- Solução BIP-85**: Cria-se uma frase secundária seed, utiliza-se para a transação e, se necessário, destrói-a, sabendo que pode ser regenerada.
-- Vantagem em relação ao BIP-32**: Com o BIP-32, uma conta temporária depende da frase principal do seed, expondo todos os seus fundos se forem comprometidos.
+- **Cenário**: Necessita de uma carteira temporária para uma transação única ou para preservar a confidencialidade (por exemplo: mistura de fundos, interação com um Exchange KYC, etc.).
+- **Solução BIP-85**: Cria-se uma frase secundária seed, utiliza-se para a transação e, se necessário, destrói-a, sabendo que pode ser regenerada.
+- **Vantagem em relação ao BIP-32**: Com o BIP-32, uma conta temporária depende da frase principal do seed, expondo todos os seus fundos se forem comprometidos.
 
 
 
@@ -141,7 +141,7 @@ O BIP-85 permite-lhe criar várias carteiras Bitcoin a partir de uma única fras
 
 
 
-- Hardware** (opcional)
+- **Hardware** (opcional)
  - Coldcard Mk4 ou Q1
  - Cartão microSD
 
@@ -158,7 +158,7 @@ O BIP-85 permite-lhe criar várias carteiras Bitcoin a partir de uma única fras
 
 
 
-- Software compatível**
+- **Software compatível**
  - Sparrow wallet (computador, para gestão apenas de vigilância ou avançada)
  - Nunchuck (móvel, para assinaturas múltiplas)
  - BlueWallet (telemóvel)
@@ -168,7 +168,7 @@ O BIP-85 permite-lhe criar várias carteiras Bitcoin a partir de uma única fras
 
 
 
-- 3.4 Configuração Coldcard**
+- **3.4 Configuração Coldcard**
  - Inicializar uma frase seed de 24 palavras no Coldcard.
  - Opcional: Adicionar um passphrase para proteger o acesso aos ramos BIP-85.
  - Ativar opções úteis: NFC (para exportação), desativar USB na bateria (segurança).
@@ -197,7 +197,7 @@ Ligue o seu Coldcard e introduza o seu código PIN.
 
 
 
-- 1. Se tiver aplicado um passphrase ao seu seed principal:**
+- 1. Se tiver aplicado um passphrase ao seu seed principal:
  - No ecrã inicial, vá para `passphrase`.
     - Escolha `Adicionar palavra` e introduza a sua palavra-passe.
     - Prima "Aplicar".
@@ -207,7 +207,7 @@ Ligue o seu Coldcard e introduza o seu código PIN.
 
 
 
-- 2. Aceder ao menu BIP-85**
+- 2. Aceder ao menu **BIP-85**
  - No ecrã inicial, vá para `Avançadas > Derivar seed B85`
  - Ler o aviso e confirmar.
 
@@ -246,7 +246,7 @@ Selecione o formato da frase seed: 12, 18 ou 24 palavras. Verifique o número de
 
 
 
-- 5. Anotar ou exportar a frase secundária do seed**
+- 5. Anotar ou exportar a frase secundária do **seed**
 
 
 ColdCard apresenta agora uma nova frase secundária seed. Pode :
@@ -415,13 +415,13 @@ Mais recursos nos anexos.
 
 
 
-- [BEEP] (https://planb.network/resources/glossary/bip)
-- [BIP-32](https://planb.network/resources/glossary/bip0032)
-- [BIP-39] (https://planb.network/resources/glossary/bip0039)
-- [BIP-85](https://planb.network/resources/glossary/bip0085)
-- [frase seed] (https://planb.network/resources/glossary/recovery-phrase)
-- [passphrase](https://planb.network/resources/glossary/passphrase-bip39)
-- [Multisig](https://planb.network/resources/glossary/Multisig)
+- [BEEP](https://planb.academy/resources/glossary/bip)
+- [BIP-32](https://planb.academy/resources/glossary/bip0032)
+- [BIP-39](https://planb.academy/resources/glossary/bip0039)
+- [BIP-85](https://planb.academy/resources/glossary/bip0085)
+- [frase seed](https://planb.academy/resources/glossary/recovery-phrase)
+- [passphrase](https://planb.academy/resources/glossary/passphrase-bip39)
+- [Multisig](https://planb.academy/resources/glossary/multisig)
 
 
 
@@ -430,18 +430,18 @@ Mais recursos nos anexos.
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 
 ### A.3 Compreender o passphrase BIP39
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 
 ### A.4 Como funcionam os portefólios Bitcoin
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

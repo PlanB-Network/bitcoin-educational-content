@@ -1,9 +1,11 @@
-question: Mis on üks viisidest saada Bitcoine ilma KYC-ta?
-answer: Bitcoin'i automaadid.
+question: Millega on Bitcoin'i omaksvõtu kõver sarnane?
+answer: S-kõver
 wrong_answers:
-  - Maaklerplatvormid.
-  - DCA platvormid.
-  - Pangatehingud.
+  - U-kõver
+  - V-kõver
+  - W-kõver
 explanation: >-
-  Tekstis mainitakse, et on mitmeid viise saada Bitcoine ilma KYC-ta, millest üks on Bitcoin'i automaadid.
+  Bitcoin'i omaksvõtt, nagu iga uue tehnoloogia puhul, järgib S-kõverat.
+  See on uute tehnoloogiate omaksvõtu tavaline muster, kus omaksvõtt algab
+  aeglaselt, seejärel kiireneb enne kui aeglustub, kui küllastumispunkt on saavutatud.
 reviewed: false

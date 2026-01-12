@@ -1,8 +1,8 @@
 ---
-name: ब्लिक्स्ट Wallet
+name: Blixt Wallet
 description: अपने मोबाइल पर शक्तिशाली LN नोड का उपयोग कैसे शुरू करें?
 ---
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 यह गाइड उन सभी नए उपयोगकर्ताओं के लिए समर्पित है जो Bitcoin Lightning Network (LN) का उपयोग मुफ़्त ओपन सोर्स, पूर्ण गैर-कस्टोडियल तरीके से शुरू करना चाहते हैं।

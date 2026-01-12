@@ -1,9 +1,9 @@
 question: Perché si raccomanda di trasferire regolarmente i fondi da un Hot Wallet a un Hardware Wallet?
 answer: Per ridurre il rischio di hacking
 wrong_answers:
-  - Aumentare la liquidità del Wallet
-  - Ridurre le spese di transazione
-  - Per ottimizzare la privacy del UTXO
+  - Per aumentare la liquidità del Wallet
+  - Per ridurre le spese di transazione
+  - Per ottimizzare la privacy degli UTXO
 explanation: |
   Il trasferimento a un Hardware Wallet protegge i fondi conservando le chiavi private offline.
-reviewed: false
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - Utility Token Exchange Option
 explanation: |
   A UTXO is an output of a transaction that has not yet been spent.
-reviewed: false
+reviewed: true

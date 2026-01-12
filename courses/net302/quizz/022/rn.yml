@@ -1,0 +1,9 @@
+question: Ni igiki gifise intumbero y'ibendera "ACK" mu gice ca TCP?
+answer: Kwemera kwakira ibice
+wrong_answers:
+  - Kugira ngo utangure gufunga ubufatanye
+  - Gushiramwo amakuru yahinduwe
+  - Kugira ngo umenye icuma ca serivisi gikoreshwa
+explanation: |
+  Iyo ishizweho, ibendera rya ACK ryemeza ko igice cakiriwe neza kandi rigaragaza umubare w'urutonde ukurikira witezwe.
+reviewed: false

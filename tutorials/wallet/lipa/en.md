@@ -10,7 +10,7 @@ Lightning wallets, like all mobile wallets, are considered "hot" wallets because
 
 If you would like to learn more about the Lightning network and understand how it works technically, I recommend you take this course:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 In this tutorial, we'll be taking a look at **Lipa**, a simple and effective Lightning wallet developed in Switzerland.
 
@@ -52,10 +52,10 @@ Once you've chosen your option, the application prompts you to enable notificati
 The application then presents its main functions through a series of introductory screens:
 
 
-- Seamless payment receipt**: Users can receive Bitcoin payments even when the application is closed, guaranteeing reliability and convenience.
-- Non-custodial Lightning addresses**: Lipa now supports non-custodial Lightning addresses, enhancing privacy and security by giving users full control over their bitcoins.
-- Control over analytical data** : With transparency and confidentiality paramount, users can view the types of data collected and choose their sharing preferences.
-- Send via phone number**: No need for complex addresses - simply select a contact, enter the amount, and send bitcoins directly to their phone number.
+- **Seamless payment receipt**: Users can receive Bitcoin payments even when the application is closed, guaranteeing reliability and convenience.
+- **Non-custodial Lightning addresses**: Lipa now supports non-custodial Lightning addresses, enhancing privacy and security by giving users full control over their bitcoins.
+- **Control over analytical data**: With transparency and confidentiality paramount, users can view the types of data collected and choose their sharing preferences.
+- **Send via phone number**: No need for complex addresses - simply select a contact, enter the amount, and send bitcoins directly to their phone number.
 
 The application also benefits from continuous improvements in terms of stability, security and reliability, to guarantee an optimal user experience.
 
@@ -66,10 +66,10 @@ Lipa's interface is organized around 4 main tabs accessible via the navigation b
 ![Navigation principale](assets/fr/02.webp)
 
 
-- Home**: Displays your current balance and transaction history
-- Scanner**: Allows you to scan QR codes to make payments
-- Map**: Displays an interactive map of Bitcoin-accepting businesses in your area
-- Settings**: Access to application settings, backup and preferences
+- **Home**: Displays your current balance and transaction history
+- **Scanner**: Allows you to scan QR codes to make payments
+- **Map**: Displays an interactive map of Bitcoin-accepting businesses in your area
+- **Settings**: Access to application settings, backup and preferences
 
 An additional menu can be accessed by pulling down the home screen:
 
@@ -91,7 +91,7 @@ To back up your wallet, go to the "Settings" tab and select "Recovery phrase". L
 
 For more information on how to properly back up and manage your recovery phrase, I highly recommend following this other tutorial, especially if you're a beginner:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ## Receive bitcoins
 

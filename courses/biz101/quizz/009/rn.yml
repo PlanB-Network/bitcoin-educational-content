@@ -1,0 +1,9 @@
+question: Niyahe ntumbero yumuhora wa Lightning  yubakiye kuri bitcoin?
+answer:  Gutuma kwishura binyaruka , kugeza aho biba ako kanya nyene n’ugukorana guke kwa On-Chain.
+wrong_answers:
+  - Kugira ngo hasubirizwe Blockchain ya Bitcoin  yose uko ingana no kubika amafaranga yose iwawe (en local).
+  - Kugira ngo ushireho urubuga rwemewe rugenzurwa n’ikigo kimwe.
+  - Kugabanya amafaranga y’ubudandaji kugira ngo agume akurikiranwa neza na Leta.
+explanation: |
+  Lightning Network ni umurongo “ugira kabiri” utuma abawukoresha bashobora gukora umuhora wo kwishurirako, gukorera  off-chain, no gukorera gusa ku amafaranga yanyuma kuri Bitcoin Blockchain. Iyo nyubako ituma  habaho umuvuduko munini cane kandi igakata amahera make.
+reviewed: true

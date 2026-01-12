@@ -59,7 +59,7 @@ Om VirtualBox te downloaden voor installatie op een Windows machine, is er maar 
 
 
 
-Het installeren van VirtualBox** is eenvoudig en het proces is hetzelfde voor alle versies van Windows. Start eerst de VirtualBox executable die je net hebt gedownload en klik dan op "**Next**".
+Het installeren van **VirtualBox** is eenvoudig en het proces is hetzelfde voor alle versies van Windows. Start eerst de VirtualBox executable die je net hebt gedownload en klik dan op "**Next**".
 
 
 
@@ -67,15 +67,15 @@ Het installeren van VirtualBox** is eenvoudig en het proces is hetzelfde voor al
 
 
 
-Deze installatie is aanpasbaar, maar ik raad je aan om alle functies te installeren: wat het geval is met de standaard selectie. In de afbeelding hieronder zie je verschillende Elements, waaronder :
+Deze installatie is aanpasbaar, maar ik raad je aan om alle functies te installeren: wat het geval is met de standaard selectie. In de afbeelding hieronder zie je verschillende Elements, waaronder:
 
 
 
 
 
-- VirtualBox USB-ondersteuning** om VirtualBox USB-apparaten te laten ondersteunen
-- VirtualBox Bridged Network** om netwerkondersteuning in "Bridge"-modus te integreren (de virtuele machine kan rechtstreeks verbinding maken met uw lokale netwerk)
-- VirtualBox Host-Only Network** om netwerkondersteuning te integreren in de "Host-Only" modus (de virtuele machine kan alleen communiceren met uw Windows 11 fysieke host en andere virtuele machines in deze modus)
+- **VirtualBox USB-ondersteuning** om VirtualBox USB-apparaten te laten ondersteunen
+- **VirtualBox Bridged Network** om netwerkondersteuning in "Bridge"-modus te integreren (de virtuele machine kan rechtstreeks verbinding maken met uw lokale netwerk)
+- **VirtualBox Host-Only Network** om netwerkondersteuning te integreren in de "Host-Only" modus (de virtuele machine kan alleen communiceren met uw Windows 11 fysieke host en andere virtuele machines in deze modus)
 
 
 
@@ -95,7 +95,7 @@ Klik op "**Ja**", en houd er rekening mee dat **het netwerk op uw Windows 11-mac
 
 
 
-Zodra je hebt bevestigd, start de installatie... En er verschijnt een melding "**Wilt u deze apparaatsoftware installeren? Vink de optie "**Always trust software from Oracle Corporation**" aan en klik op "**Install**". VirtualBox moet nu verschillende stuurprogramma's op uw computer installeren.
+Zodra je hebt bevestigd, start de installatie... En er verschijnt een melding "**Wilt u deze apparaatsoftware installeren?**" Vink de optie "**Always trust software from Oracle Corporation**" aan en klik op "**Install**". VirtualBox moet nu verschillende stuurprogramma's op uw computer installeren.
 
 
 
@@ -165,10 +165,10 @@ Om een nieuwe virtuele machine aan te maken in VirtualBox, klik je gewoon op de 
 
 
 
-- Instellingen**: algemene VirtualBox-configuratie (standaard VM-map, updatebeheer, taal, NAT-netwerken, extensies, enz.)
-- Importeren**: een virtueel apparaat importeren in OVF-formaat
-- Exporteren**: een bestaande virtuele machine in OVF-indeling exporteren om een virtueel apparaat te maken
-- Toevoegen**: een bestaande virtuele machine toevoegen aan uw VirtualBox-inventaris, in standaard VirtualBox-formaat (.vbox) of XML-formaat
+- **Instellingen**: algemene VirtualBox-configuratie (standaard VM-map, updatebeheer, taal, NAT-netwerken, extensies, enz.)
+- **Importeren**: een virtueel apparaat importeren in OVF-formaat
+- **Exporteren**: een bestaande virtuele machine in OVF-indeling exporteren om een virtueel apparaat te maken
+- **Toevoegen**: een bestaande virtuele machine toevoegen aan uw VirtualBox-inventaris, in standaard VirtualBox-formaat (.vbox) of XML-formaat
 
 
 
@@ -184,16 +184,16 @@ Aan de linkerkant geeft het gedeelte "**Tools**" toegang tot **geavanceerde func
 
 
 
-**Ter herinnering, VirtualBox ondersteunt een groot aantal besturingssystemen, waaronder Windows, Linux en BSD. In dit voorbeeld ga ik een virtuele machine voor Windows 11 maken. Er moeten verschillende velden worden ingevuld:
+**Ter herinnering, VirtualBox ondersteunt een groot aantal besturingssystemen, waaronder Windows, Linux en BSD. In dit voorbeeld ga ik een virtuele machine voor Windows 11 maken. Er moeten verschillende velden worden ingevuld:**
 
 
 
 
 
-- Naam**: naam van de virtuele machine (dit is de naam die zal worden weergegeven in VirtualBox)
-- Machinemap**: waar de virtuele machine moet worden opgeslagen, wetende dat op deze locatie een submap met de naam van de VM zal worden aangemaakt
-- Type**: het type besturingssysteem, afhankelijk van welk besturingssysteem je wilt installeren
-- Version**: de versie van het systeem dat je wilt installeren, in dit geval Windows 11, dus "**Windows11_64**"
+- **Naam**: naam van de virtuele machine (dit is de naam die zal worden weergegeven in VirtualBox)
+- **Machinemap**: waar de virtuele machine moet worden opgeslagen, wetende dat op deze locatie een submap met de naam van de VM zal worden aangemaakt
+- **Type**: het type besturingssysteem, afhankelijk van welk besturingssysteem je wilt installeren
+- **Version**: de versie van het systeem dat je wilt installeren, in dit geval Windows 11, dus "**Windows11_64**"
 
 
 
@@ -205,7 +205,7 @@ Klik op "**Volgende**" om verder te gaan.
 
 
 
-Afhankelijk van het besturingssysteem dat je in de vorige stap hebt geselecteerd, doet **VirtualBox aanbevelingen over de resources die aan de virtuele machine moeten worden toegewezen**. Hier hebben we het over het RAM-geheugen dat u wilt toewijzen aan de VM. Laten we uitgaan van 4 GB, omdat dit inderdaad wordt aanbevolen voor Windows 11, maar als je een tekort aan resources hebt, kun je in plaats daarvan 2 GB opgeven. **Doorgaan
+Afhankelijk van het besturingssysteem dat je in de vorige stap hebt geselecteerd, doet **VirtualBox aanbevelingen over de resources die aan de virtuele machine moeten worden toegewezen**. Hier hebben we het over het RAM-geheugen dat u wilt toewijzen aan de VM. Laten we uitgaan van 4 GB, omdat dit inderdaad wordt aanbevolen voor Windows 11, maar als je een tekort aan resources hebt, kun je in plaats daarvan 2 GB opgeven. **Doorgaan**.
 
 
 
@@ -231,9 +231,9 @@ VirtualBox ondersteunt drie verschillende formaten voor virtuele Hard schijven, 
 
 
 
-- VDI**, de officiële VirtualBox-indeling
-- VHD**, de officiële Hyper-V-indeling, hoewel de nieuwe VHDX-indeling tegenwoordig vaker wordt gebruikt
-- VMDX** is de officiële VMware-indeling voor zowel VMware Workstation als VMware ESXi
+- **VDI**, de officiële VirtualBox-indeling
+- **VHD**, de officiële Hyper-V-indeling, hoewel de nieuwe VHDX-indeling tegenwoordig vaker wordt gebruikt
+- **VMDX** is de officiële VMware-indeling voor zowel VMware Workstation als VMware ESXi
 
 
 
@@ -273,7 +273,7 @@ Op dit punt bevindt de VM zich in onze inventaris, is deze geconfigureerd, maar 
 
 
 
-Om Windows 11, of elk ander systeem, te installeren, hebben we installatiebronnen nodig. In de meeste gevallen gebruiken we een schijfimage in ISO-indeling om een besturingssysteem te installeren. **Het is noodzakelijk om de Windows 11 ISO-image in het virtuele dvd-station van onze VM te laden
+Om Windows 11, of elk ander systeem, te installeren, hebben we installatiebronnen nodig. In de meeste gevallen gebruiken we een schijfimage in ISO-indeling om een besturingssysteem te installeren. **Het is noodzakelijk om de Windows 11 ISO-image in het virtuele dvd-station van onze VM te laden.**
 
 
 
@@ -333,7 +333,7 @@ In mijn geval heeft de virtuele machine 2 virtuele processors:
 
 
 
-**Aarzel niet om de andere secties van het configuratiemenu te bekijken.
+**Aarzel niet om de andere secties van het configuratiemenu te bekijken.**
 
 
 
@@ -390,10 +390,10 @@ Op onze Windows 11 fysieke host, waar VirtualBox is geïnstalleerd, kunnen we zi
 
 
 
-- Het VBOX**-bestand (in XML-indeling) dat overeenkomt met de VM-configuratie (RAM, CPU, enz.)
-- Het VBOX-PREV** bestand is een back-up van de vorige configuratie
-- Het VDI**-bestand komt overeen met de virtuele Hard schijf in dynamische modus, dus het is momenteel slechts 13 GB groot, terwijl de maximale grootte 64 GB is
-- Het NVRAM**-bestand bevat de BIOS-status van de virtuele machine, wat overeenkomt met het niet-vluchtige geheugen van een fysieke machine
+- Het **VBOX-bestand** (in XML-indeling) dat overeenkomt met de VM-configuratie (RAM, CPU, enz.)
+- Het **VBOX-PREV** bestand is een back-up van de vorige configuratie
+- Het **VDI-bestand** komt overeen met de virtuele Hard schijf in dynamische modus, dus het is momenteel slechts 13 GB groot, terwijl de maximale grootte 64 GB is
+- Het **NVRAM-bestand** bevat de BIOS-status van de virtuele machine, wat overeenkomt met het niet-vluchtige geheugen van een fysieke machine
 
 
 

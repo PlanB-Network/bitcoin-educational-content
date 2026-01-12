@@ -1,0 +1,8 @@
+question: Jaká je podle Fermatovy Malé věty multiplikativní inverze prvku n v prvočíselném poli F(p)?
+answer: n^(p-2) mod p
+wrong_answers:
+  - n^(p-1) mod p
+  - n^(p+1) mod p
+  - n^(p+2) mod p
+explanation: |
+  Fermatova malá věta říká, že n^(p-1) ≡ 1 (mod p) pro libovolný nenulový prvek n v prvočíselném oboru. K nalezení multiplikativní inverze potřebujeme hodnotu, která po vynásobení n dává 1. Protože n^(p-1) ≡ 1, můžeme to přepsat jako n - n^(p-2) ≡ 1, čímž dokážeme, že n^(p-2) je multiplikativní inverzí n. Ostatní možnosti jsou nesprávné: n^(p-1) je podle Fermatovy věty rovno 1, zatímco n^(p+1) a n^(p+2) by při redukci modulo p dávaly hodnoty ekvivalentní n^2, resp. n^3.

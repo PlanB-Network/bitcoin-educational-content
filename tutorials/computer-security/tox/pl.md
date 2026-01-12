@@ -58,7 +58,7 @@ Z protokołu Tox można korzystać za pośrednictwem klienta wiadomości błyska
 
 
 
-W zależności od systemu operacyjnego można pobrać i zainstalować klienta Tox, który pasuje do :
+W zależności od systemu operacyjnego można pobrać i zainstalować klienta Tox, który pasuje do:
 
 
 
@@ -224,7 +224,7 @@ Możesz także dostosować konfiguracje udostępniania plików dla każdej prowa
 
 
 
-W szczegółach Interface można zarządzać uprawnieniami przyznanymi odbiorcy dla :
+W szczegółach Interface można zarządzać uprawnieniami przyznanymi odbiorcy dla:
 
 
 
@@ -304,4 +304,4 @@ Jeśli podobało ci się odkrywanie Toxa i byłeś w stanie zrozumieć, w jaki s
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41

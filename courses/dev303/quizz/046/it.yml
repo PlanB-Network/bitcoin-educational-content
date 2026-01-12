@@ -1,0 +1,8 @@
+question: Cosa succede quando si clona un'istanza RC<T> contenente una struttura dati di grandi dimensioni?
+answer: Viene copiato solo il riferimento e il contatore di riferimento viene incrementato, lasciando invariati i dati originali
+wrong_answers:
+  - L'intera struttura dei dati viene duplicata in memoria ed entrambe le copie mantengono contatori di riferimento separati
+  - Viene creata una copia superficiale in cui i campi primitivi vengono copiati, ma i campi complessi rimangono riferimenti condivisi
+  - I dati vengono spostati in una nuova posizione di memoria e l'RC originale non è più valido fino a quando non viene reinizializzato
+explanation: |
+  Quando si clona un RC, Rust copia solo il puntatore di riferimento e incrementa il contatore di riferimento interno, rendendo l'operazione estremamente efficiente indipendentemente dalla dimensione dei dati. I dati sottostanti rimangono nella stessa posizione di memoria e sono condivisi tra tutte le istanze di RC. Ciò è fondamentalmente diverso dalla clonazione dei dati effettivi, che vanificherebbe lo scopo della proprietà condivisa e sprecherebbe memoria.

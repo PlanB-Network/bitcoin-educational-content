@@ -1,5 +1,5 @@
 ---
-name: Zeus nhúng
+name: Zeus Embedded
 description: Cách sử dụng Lightning Zeus Embedded Wallet
 ---
 ![cover-zeus-embedded](assets/cover.webp)
@@ -13,11 +13,11 @@ Nhưng ứng dụng này cũng có tính năng "Nút nhúng".
 
 
 
-**Đây là khía cạnh của ứng dụng mà chúng ta sẽ khám phá trong hướng dẫn này. Điều này cho phép bất kỳ ai cũng có nút sét riêng trên thiết bị di động, mà không cần máy chủ chuyên dụng, giống như cách ACINQ cung cấp Wallet Lightning Phoenix đáng kinh ngạc của mình.
+**Đây là khía cạnh của ứng dụng mà chúng ta sẽ khám phá trong hướng dẫn này.** Điều này cho phép bất kỳ ai cũng có nút sét riêng trên thiết bị di động, mà không cần máy chủ chuyên dụng, giống như cách ACINQ cung cấp Wallet Lightning Phoenix đáng kinh ngạc của mình.
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 *Xin nhắc lại, Lightning là một mạng lưới hoạt động song song với Bitcoin, cho phép trao đổi bitcoin mà không cần phải thực hiện các giao dịch On-Chain một cách có hệ thống. Kết quả là các giao dịch gần như ngay lập tức, không cần phải đợi 10 phút để một khối được xác thực. Điều này đặc biệt hữu ích khi thanh toán cho một thương gia trong thế giới thực. Hơn nữa, Lightning cung cấp mức độ **bảo mật** đáng chú ý mà mạng lưới Bitcoin không có*.
 
@@ -200,7 +200,7 @@ Bạn có thể viết nó trên giấy, hoặc có lẽ, để tăng thêm tín
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![image](assets/fr/14.webp)
 
@@ -248,7 +248,7 @@ Trên màn hình tiếp theo, bạn được yêu cầu mở một kênh hợp t
 Trong hướng dẫn này, chúng ta sẽ chọn tùy chọn này vì mục đích đơn giản, nhưng hoàn toàn có thể mở kênh với bất kỳ nút nào trên mạng.
 
 
-Thậm chí có thể mở nhiều kênh trong một giao dịch duy nhất bằng cách chọn "MỞ KÊNH BỔ SUNG". *Nhưng chúng ta sẽ xem xét điều này trong phiên bản "nâng cao" của hướng dẫn **Zeus Embedded****.
+Thậm chí có thể mở nhiều kênh trong một giao dịch duy nhất bằng cách chọn "MỞ KÊNH BỔ SUNG". *Nhưng chúng ta sẽ xem xét điều này trong phiên bản "nâng cao" của hướng dẫn* **Zeus Embedded**.
 
 
 
@@ -345,7 +345,7 @@ Zeus sau đó cho phép bạn thêm ghi chú để ghi giá trị thanh toán c�
 
 
 
-Lưu ý rằng không giống như Wallet như [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), với Zeus, tuyến đường được tính toán cục bộ và không được chuyển giao cho bên thứ ba (ACINQ trong trường hợp của Phoenix). Vì vậy, bạn là người duy nhất biết người nhận thanh toán. Chúng tôi mất một chút hiệu quả (thanh toán mất nhiều thời gian hơn một chút để hoàn tất, nhưng chúng tôi đạt được rất nhiều về mặt quyền riêng tư).
+Lưu ý rằng không giống như Wallet như [Phoenix]([Plan ₿ Academy - Phoenix](https://planb.academy/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf)), với Zeus, tuyến đường được tính toán cục bộ và không được chuyển giao cho bên thứ ba (ACINQ trong trường hợp của Phoenix). Vì vậy, bạn là người duy nhất biết người nhận thanh toán. Chúng tôi mất một chút hiệu quả (thanh toán mất nhiều thời gian hơn một chút để hoàn tất, nhưng chúng tôi đạt được rất nhiều về mặt quyền riêng tư).
 
 
 
@@ -422,8 +422,8 @@ Xin chúc mừng, giờ bạn đã sẵn sàng sử dụng Zeus Embedded, hệ t
 
 
 
-Để tìm hiểu thêm về hoạt động kỹ thuật của Lightning Network, bạn có thể tìm thấy khóa đào tạo Plan ₿ Network miễn phí tuyệt vời của Fanis Michalakis:
+Để tìm hiểu thêm về hoạt động kỹ thuật của Lightning Network, bạn có thể tìm thấy khóa đào tạo Plan ₿ Academy miễn phí tuyệt vời của Fanis Michalakis:
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

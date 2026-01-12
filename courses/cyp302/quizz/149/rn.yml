@@ -1,0 +1,9 @@
+question: Ni igiki gisobanura umubare wose kuba coprime ku bijanye n’uwundi mubare wose?
+answer: Umubare wose ufise umugabane munini wa 1 n'uwo wundi mubare wose
+wrong_answers:
+  - Umubare wose ugabanywa n'uwundi mubare wose ata gisigaye
+  - Umubare wose ari umubare wambere
+  - Umubare wose uruta uwundi
+explanation: |
+  Umubare wose ni coprime n'uwundi iyo umugabane wabo munini ari 1, bisobanura ko ata kindi gice rusangi basangira.
+reviewed: false

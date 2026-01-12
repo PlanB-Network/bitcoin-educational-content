@@ -1,5 +1,5 @@
 ---
-name: Nós Bitcoin
+name: Bitcoin Knots
 description: Como é que lanço um nó com o cliente alternativo Bitcoin Knots?
 ---
 ![cover](assets/cover.webp)
@@ -19,18 +19,18 @@ No entanto, também está disponível software alternativo. Não se trata de nó
 Há duas razões principais para utilizar um cliente alternativo como o Knots em vez do Core:
 
 
-- Técnica**: Estes clientes oferecem frequentemente diferentes opções ao Core, nomeadamente em termos de gestão do Mempool, determinando quais as transacções que são aceites e difundidas pelo seu nó.
-- Política**: Algumas pessoas preferem usar clientes alternativos como o Knots por razões não técnicas, nomeadamente para suportar uma alternativa ao Core e assim reduzir o seu monopólio. Se o Core alguma vez for comprometido, seria útil não apenas ter clientes alternativos sólidos e bem mantidos, mas também saber como usá-los. Outros usam o Knots para protestar, porque perderam a confiança nos programadores do Core ou desaprovam a gestão do cliente maioritário.
+- **Técnica**: Estes clientes oferecem frequentemente diferentes opções ao Core, nomeadamente em termos de gestão do Mempool, determinando quais as transacções que são aceites e difundidas pelo seu nó.
+- **Política**: Algumas pessoas preferem usar clientes alternativos como o Knots por razões não técnicas, nomeadamente para suportar uma alternativa ao Core e assim reduzir o seu monopólio. Se o Core alguma vez for comprometido, seria útil não apenas ter clientes alternativos sólidos e bem mantidos, mas também saber como usá-los. Outros usam o Knots para protestar, porque perderam a confiança nos programadores do Core ou desaprovam a gestão do cliente maioritário.
 
 ## Como é que instalo o Bitcoin Knots?
 
-Vá para [o site oficial do Bitcoin Knots] (https://bitcoinknots.org/#download) para descarregar a versão para o seu sistema operativo. Não se esqueça de descarregar a impressão digital e as assinaturas para verificar o software. Estes ficheiros também estão disponíveis [no repositório GitHub do Bitcoin Knots](https://github.com/bitcoinknots/Bitcoin).
+Vá para [o site oficial do Bitcoin Knots](https://bitcoinknots.org/#download) para descarregar a versão para o seu sistema operativo. Não se esqueça de descarregar a impressão digital e as assinaturas para verificar o software. Estes ficheiros também estão disponíveis [no repositório GitHub do Bitcoin Knots](https://github.com/bitcoinknots/Bitcoin).
 
 ![Image](assets/fr/02.webp)
 
 Antes de instalar o software no seu computador, recomendamos vivamente que verifique a sua autenticidade e integridade. Se não sabe como, consulte este outro tutorial:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 Quando o software tiver sido verificado, instale-o seguindo os passos indicados no painel de instalação.
 
 ![Image](assets/fr/03.webp)
@@ -115,7 +115,7 @@ Dê um nome ao seu Wallet. Pode também protegê-lo com um passphrase BIP39 clic
 
 O passphrase BIP39 é uma password opcional que pode escolher livremente, para além da sua frase Mnemonic, para aumentar a segurança do seu Wallet. Antes de configurar esta funcionalidade, aconselhamos vivamente a leitura do seguinte artigo, que explica em pormenor o funcionamento teórico do passphrase e como evitar erros que podem levar à perda permanente dos seus bitcoins:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 Se tiver ativado a opção passphrase, escolha uma opção robusta e guarde-a cuidadosamente num ou mais suportes físicos seguros.
 
 ![Image](assets/fr/18.webp)
@@ -248,7 +248,7 @@ Esta operação também pode ser efectuada através dos gráficos Bitcoin-QT do 
 
 ![Image](assets/fr/37.webp)
 
-Encontre o IP Address da máquina que aloja o Bitcoin Knots na sua rede local. Para fazer isso, você pode usar uma ferramenta como [Angry IP Scanner] (https://angryip.org/). Vamos assumir, para fins de argumentação, que o IP Address do seu nó é `192.168.1.18`.
+Encontre o IP Address da máquina que aloja o Bitcoin Knots na sua rede local. Para fazer isso, você pode usar uma ferramenta como [Angry IP Scanner](https://angryip.org/). Vamos assumir, para fins de argumentação, que o IP Address do seu nó é `192.168.1.18`.
 
 No ficheiro `Bitcoin.conf`, adicione as seguintes linhas, definindo `rpcbind=192.168.1.18` para corresponder ao IP Address do seu nó.
 
@@ -285,4 +285,4 @@ Se achou este tutorial útil, ficaria muito grato se deixasse um polegar Green a
 
 Também recomendo este outro tutorial no qual explico como configurar o seu próprio nó do Lightning:
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

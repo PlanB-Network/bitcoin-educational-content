@@ -1,0 +1,8 @@
+question: Borçlanma ihlallerinin normal Rust referansları ile RefCell arasında nasıl ele alındığı arasındaki temel fark nedir?
+answer: Normal referanslar derleme zamanı hatalarına neden olurken RefCell çalışma zamanı paniklerine neden olur
+wrong_answers:
+  - Normal referanslar çalışma zamanı paniklerine neden olurken RefCell derleme zamanı hatalarına neden olur
+  - Normal referanslar birden fazla değiştirilebilir ödünç almaya izin verirken RefCell tek bir değiştirilebilir erişimi zorunlu kılar
+  - Normal referanslar açık ömür ek açıklamaları gerektirirken RefCell otomatik temizleme kullanır
+explanation: |
+  RefCell, Rust'in ödünç alma kuralı uygulamasını derleme zamanından çalışma zamanına taşır. Derleyici program çalışmadan önce düzenli referansları statik olarak analiz eder ve ödünç alma ihlallerini önlerken, RefCell aynı güvenlik kontrollerini program yürütme sırasında gerçekleştirir. Bu, programcının kodun güvenli olduğunu bildiği, ancak ihlallerin derleme hataları yerine çalışma zamanı paniklerine neden olduğu durumlarda RefCell'in derleyicinin muhafazakar kısıtlamalarını atlamasına olanak tanır.

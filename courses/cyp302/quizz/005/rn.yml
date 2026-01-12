@@ -1,0 +1,9 @@
+question: Ni iyihe ntumbero nyamukuru y’ubuhinga bwa kera bwo gukingira amakuru bukiriho mu buhinga bwo gukingira amakuru bwo muri iki gihe?
+answer: Ibanga ry'ubutumwa
+wrong_answers:
+  - Ukworohereza ubutumwa
+  - Gusubiramwo ubutumwa
+  - Ukwikoresha kwohereza ubutumwa
+explanation: |
+  Ivy’ugushiramwo amakuru y’ibanga vya kera vyari vyibanda canecane ku bijanye n’ugukingira ibanga, kandi iyo ntumbero iracari ngirakamaro mu vy’ugushiramwo amakuru y’ibanga y’ubu, naho nyene hariho izindi nsiguro, nk’ubunyankamugayo n’ukuri, zongereweko.
+reviewed: false

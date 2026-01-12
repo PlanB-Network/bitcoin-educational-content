@@ -1,9 +1,11 @@
-question: Mikä on Bitcoinin pääetu muihin valuuttoihin verrattuna?
-answer: Se tarjoaa erinomaisen arvonsäilyttäjän ansiosta sen tiukasti rajatun tarjonnan ja neutraaliuden vuoksi.
+question: Miten ääniä raha luodaan?
+answer: Ääniä raha täytyy luonnollisesti syntyä markkinoilta ja vapaaehtoisesta konsensuksesta.
 wrong_answers:
-  - Se on jakamaton ja kuljetuskelpoinen.
-  - Se on loistava esimerkki valuutasta, joka kärsii rahainflaatiosta.
-  - Sitä hyväksytään laajalti kaupankäynnissä kaikkien maailman kauppiaiden toimesta.
+  - Ääniä raha täytyy saada aikaan hallituksen toimesta antamalla rahalakeja.
+  - Ääniä raha on pakotettava yritysten toimesta väkivallan käytön kautta.
+  - Ääniä rahaa ei voida luoda.
 explanation: |
-  Bitcoinin pääetu muihin valuuttoihin verrattuna on, että se tarjoaa erinomaisen arvonsäilyttäjän ansiosta sen tiukasti rajatun tarjonnan ja luotettavan osapuolen puutteen vuoksi. Tämä tekee siitä hyvän vaihtoehdon pitkäaikaiseen säästämiseen.
+  Ääniä raha on luonnollinen sosiaalinen ilmiö, joka täytyy syntyä
+  markkinoilta ja vapaaehtoisesta konsensuksesta. Yksikään ihminen tai
+  ihmisryhmä ei voi luoda rahaa.
 reviewed: true

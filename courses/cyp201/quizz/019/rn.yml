@@ -1,0 +1,9 @@
+question: Ni igikorwa ikihe c’imibare kiri mu ntango y’umutekano w’ubuhinga bwo gukingira amakuru y’uruzitiro rw’uruzitiro?
+answer: Ikibazo ca logarithme
+wrong_answers:
+  - Umubare w'ibanze
+  - Guharura ibisigazwa vy'ibice bine
+  - Ikibazo c'ikibumbano
+explanation: |
+  Umutekano w’ubuhinga bwo gukingira amabara y’uruzitiro rw’imirongo y’uruzitiro ushingiye ku ngorane zo gutorera umuti ingorane y’uruzitiro rw’imirongo y’uruzitiro rutandukanye kuri izo nzira.
+reviewed: false

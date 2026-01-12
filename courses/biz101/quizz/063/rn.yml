@@ -1,0 +1,9 @@
+question: Ni ikihe kintu kigaragaza neza ikoreshwa rya karanga ngirakamaro ku bijanye nukuri hakoreshejwe Bitcoin?
+answer: Uburiro bwijiza amahera makeyi y'ama Bitcoin ku kwezi
+wrong_answers:
+  - Ishirahamwe rikorera mubihugu vyinshi rikora amarungika yamafaranga agera kubihumbi ku musi
+  - Umuntu yigenga  yemera kwishurwa amafagitire yiwe muma bitcoins
+  - Ibiro vy'ubudandaji bwa bitcoin vyo kurwego rwohejuru
+explanation: |
+  Akaranga ngirakamaro(Le profil "Essential") kagenewe inganda zito zito n’izigereranye zifise amafaranga make ya Bitcoin, nk’uburiro.
+reviewed: true

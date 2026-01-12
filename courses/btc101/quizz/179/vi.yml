@@ -1,10 +1,11 @@
-question: Một trong những lý do tại sao Bitcoin trải qua nhiều bong bóng đầu cơ là gì?
-answer: Bởi vì Bitcoin là một loại tiền tệ được sử dụng khắp nơi trên thế giới.
+question: Làm thế nào để có được bitcoin mà không cần mua chúng?
+answer: Chấp nhận chúng như một phương tiện thanh toán cho các sản phẩm hoặc dịch vụ bạn cung cấp.
 wrong_answers:
-  - Bởi vì Bitcoin thực sự không được sử dụng ở bất cứ đâu.
-  - Bởi vì Bitcoin là một bong bóng sẽ biến mất.
-  - Bởi vì Bitcoin không chịu sự ảnh hưởng của chu kỳ kinh tế.
+  - Mượn chúng từ bạn bè và không bao giờ trả lại.
+  - Thắng chúng trong một trò xổ số.
+  - Tìm thấy chúng trên đường.
 explanation: >-
-  Bitcoin trải qua nhiều bong bóng đầu cơ bởi vì đó là một loại tiền tệ
-  thực sự được sử dụng khắp nơi trên thế giới.
+  Một cách để có được bitcoin mà không cần mua chúng là chấp nhận chúng như một
+  phương tiện thanh toán cho các sản phẩm hoặc dịch vụ bạn cung cấp. Điều này cho phép bạn
+  kiếm được bitcoin thông qua công việc của mình.
 reviewed: true

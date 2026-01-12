@@ -1,0 +1,9 @@
+question: Proč není jediný Wallet považován za účastníka sítě Bitcoin?
+answer: Protože neověřuje transakce ani bloky
+wrong_answers:
+  - Protože nelze použít soukromé klíče generate
+  - Protože nedokáže vytvořit adresy Bitcoin
+  - Protože neověřuje prodeje ani adresy
+explanation: |
+  Wallet neověřuje přímo bloky a transakce; pouze spravuje klíče a v ostatních případech závisí na uzlech.
+reviewed: true

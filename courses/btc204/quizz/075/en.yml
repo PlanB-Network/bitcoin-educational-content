@@ -8,6 +8,6 @@ wrong_answers:
   - To increase confirmation speed.
 
 explanation: |
-  The goal of a coinjoin transaction is to break the history of a coin. This technique does not provide permanent anonymity nor does it definitively block the tracking of bitcoins, contrary to what one might think. Coinjoin aims only to break the history at the point where the coinjoin transaction is made.
+  The goal of a coinjoin transaction is to break the history of a coin. This technique does not provide permanent anonymity, nor does it definitively block the tracking of bitcoins, contrary to what one might think. Coinjoin aims only to break the history at the point where the coinjoin transaction is made.
 
-reviewed: false
+reviewed: true

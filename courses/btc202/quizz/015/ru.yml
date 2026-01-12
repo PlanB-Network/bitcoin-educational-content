@@ -1,0 +1,9 @@
+question: Какова основная альтернативная реализация Bitcoin core?
+answer: Bitcoin Knots
+wrong_answers:
+  - Bitcoin Наличные
+  - BTCD
+  - Bcoin
+explanation: |
+  Bitcoin Knots, разработанная Люком Дашджром, представляет собой Fork от Core, предлагая дополнительные опции и более консервативное видение.
+reviewed: true

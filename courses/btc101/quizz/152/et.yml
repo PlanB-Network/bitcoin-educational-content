@@ -1,9 +1,9 @@
-question: Mis on HashRate?
-answer: Koguhulk katseid leida õige number Proof of Work'is.
+question: Mis on energia kulu tähtsus Bitcoin'i kaevandamisel?
+answer: Energiakulu on vajalik informatsiooni tootmiseks, kuid informatsiooni kontrollimine on tühine kulu. See asümmeetria tagab võrgu turvalisuse.
 wrong_answers:
-  - Kiirus, millega kaevur saab lahendada Proof of Work'i.
-  - Kaevurite koguarv Bitcoin'i võrgustikus.
-  - Kaevandatud bitcoinide koguhulk.
+  - Energiakulu on vajalik kaevandamisel kasutatavate ASIC masinate töötamiseks.
+  - Energiakulu on vajalik Bitcoin'i võrgu ülalpidamiseks.
+  - Energiakulu on vajalik uute bitcoinide loomiseks.
 explanation: >-
-  HashRate viitab kaevurite poolt sekundis tehtavate katsete koguarvule lahendada Proof of Work. See on mõõdupuu Bitcoin'i võrgustiku arvutusvõimsuse kohta.
+  Energiakulu Bitcoin'i kaevandamisel on võrgu turvalisuse jaoks kriitiline aspekt. Kaevandamise kõrge energiakulu muudab pahatahtliku osaleja jaoks blockchain'i manipuleerimise äärmiselt kalliks, samal ajal kui tehingute kontrollimise madal kulu tagab, et igaüks saab võrgus osaleda.
 reviewed: false

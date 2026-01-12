@@ -1,8 +1,8 @@
-question: Keynesyen ekonomi ile Avusturya ekonomisi arasında parasal sisteme ilişkin temel fark nedir?
-answer: Keynesyen ekonomi, durumların ve kaynakların zamansal ve dinamik yönlerini dikkate almaz.
+question: Bitcoin'ın bu kadar çok spekülatif balon yaşamasının nedenlerinden biri nedir?
+answer: Supply'in sınırlı olması ve yüksek talep nedeniyle.
 wrong_answers:
-  - Keynesyen ekonomi para birimlerinin aşırı tüketimini teşvik eder.
-  - Keynesyen ekonomi, durumların ve kaynakların kıtlığını kabul eder.
-  - Keynesyen ekonomi enflasyonu teşvik eder.
+  - Çünkü Bitcoin aslında hiçbir yerde kullanılmıyor.
+  - Çünkü Bitcoin yok olacak bir balondur.
+  - Çünkü Bitcoin ekonomik döngülere tabi değildir.
 explanation: >-
 reviewed: true

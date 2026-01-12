@@ -1,0 +1,9 @@
+question: Ni ibwirizwa irihe rishobora gukoreshwa mu gushira kugihe amapaki yose ari muri distribution ya Ubuntu?
+answer: sudo apt update && sudo apt upgrade
+wrong_answers:
+  - sudo pacman -Syu
+  - sudo dnf upgrade
+  - sudo update-all
+explanation: |
+  Kuri Ubuntu (na Debian), ibwirizwa rya "sudo apt update && sudo apt upgrade" rihuza urutonde rw’amapaki maze rigashira kugihe ama paki yose.
+reviewed: true

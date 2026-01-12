@@ -61,7 +61,7 @@ Keet is beschikbaar op alle platforms. Je kunt de applicatie rechtstreeks downlo
 
 
 
-Op Android is het ook mogelijk om [te installeren via APK] (https://github.com/holepunchto/keet-mobile-releases/releases).
+Op Android is het ook mogelijk om [te installeren via APK](https://github.com/holepunchto/keet-mobile-releases/releases).
 
 
 
@@ -329,8 +329,8 @@ Gefeliciteerd, je bent nu op de hoogte van het gebruik van Keet messaging, een g
 
 
 
-Ik raad ook deze andere tutorial aan, waarin ik je kennis laat maken met Proton Mail, een veel privacy-vriendelijker alternatief voor Gmail :
+Ik raad ook deze andere tutorial aan, waarin ik je kennis laat maken met Proton Mail, een veel privacy-vriendelijker alternatief voor Gmail:
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

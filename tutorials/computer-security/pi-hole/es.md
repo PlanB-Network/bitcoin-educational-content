@@ -54,7 +54,7 @@ Así, cada vez que introduce el nombre de un sitio web en su navegador o pulsa s
 
 
 
-**Pi-Hole inspeccionará estas peticiones (¡hay cientos de ellas cada día!) y bloqueará automáticamente las que se sepa que alojan publicidad o incluso archivos maliciosos
+**Pi-Hole inspeccionará estas peticiones (¡hay cientos de ellas cada día!) y bloqueará automáticamente las que se sepa que alojan publicidad o incluso archivos maliciosos**
 
 
 
@@ -62,7 +62,7 @@ Así, cada vez que introduce el nombre de un sitio web en su navegador o pulsa s
 
 
 
-Con un nombre como Pi-Hole, podrías asumir que necesitas una Raspberry-Pi... Pero eso no es del todo cierto. **Pi-Hole puede instalarse en cualquier ordenador con Linux (Debian, Fedora, Rocky, Ubuntu, etc.)
+Con un nombre como Pi-Hole, podrías asumir que necesitas una Raspberry-Pi... Pero eso no es del todo cierto. **Pi-Hole puede instalarse en cualquier ordenador con Linux (Debian, Fedora, Rocky, Ubuntu, etc.).**
 
 
 
@@ -84,7 +84,7 @@ curl -sSL https://install.pi-hole.net | bash
 >
 
 
-> **Nota: en versiones mínimas de Debian 11, Curl no está instalado, por lo que necesita instalarlo manualmente con el comando **apt-get install curl** antes de escribir el comando anterior.
+> **Nota: en versiones mínimas de Debian 11, Curl no está instalado, por lo que necesita instalarlo manualmente con el comando** `apt-get install curl` **antes de escribir el comando anterior.**
 
 Una vez ejecutado el script, se realizarán una serie de pruebas y la propia instalación se hará por sí sola:
 
@@ -124,7 +124,7 @@ Selección de DNS - Pi-Hole
 
 
 
-> **Nota: si estás en una empresa, lo más probable es que tu servidor DNS actual sea el controlador de dominio de Active Directory. Pero no te preocupes, más adelante podrás especificar un redireccionador condicional para un dominio de tu elección. Normalmente, podrá redirigir cualquier petición relativa a su dominio local a su servidor DNS.
+> **Nota: si estás en una empresa, lo más probable es que tu servidor DNS actual sea el controlador de dominio de Active Directory. Pero no te preocupes, más adelante podrás especificar un redireccionador condicional para un dominio de tu elección. Normalmente, podrá redirigir cualquier petición relativa a su dominio local a su servidor DNS.**
 
 Verás que algunas opciones incluyen la opción DNSSEC. Básicamente, el protocolo DNS no es seguro (no se diseñó teniendo esto en cuenta en su momento). DNSSEC resuelve este problema añadiendo un Layer de seguridad mediante el cifrado y la firma de los intercambios, como se explica en el artículo correspondiente: [Seguridad DNS](https://www.it-connect.fr/securite-dns-doh-quest-ce-le-dns-over-https/)
 
@@ -218,7 +218,7 @@ Una vez hecho esto, si algún dispositivo se ha encendido antes, habrá conserva
 
 
 
-En estaciones de trabajo Windows, con un símbolo del sistema :
+En estaciones de trabajo Windows, con un símbolo del sistema:
 
 
 
@@ -228,7 +228,7 @@ ipconfig /renew
 
 
 
-En una estación de trabajo Linux :
+En una estación de trabajo Linux:
 
 
 
@@ -252,7 +252,7 @@ ipconfig /all
 
 
 
-En el campo DNS, debes tener el Address de tu Pi-Hole, en mi caso 192.168.1.42 :
+En el campo DNS, debes tener el Address de tu Pi-Hole, en mi caso 192.168.1.42:
 
 
 
@@ -264,7 +264,7 @@ En el campo DNS, debes tener el Address de tu Pi-Hole, en mi caso 192.168.1.42 :
 
 
 
-Para facilitar la administración, **Pi-Hole** se beneficia de una web Interface bien diseñada. Fácil de usar y accesible, le permite :
+Para facilitar la administración, **Pi-Hole** se beneficia de una web Interface bien diseñada. Fácil de usar y accesible, le permite:
 
 
 
@@ -286,7 +286,7 @@ Para añadirlo, conéctate primero al admin de Interface: **http://<ip_du_PiHole
 
 
 
-La contraseña de administrador ya se ha generado (véase la captura de pantalla de fin de instalación), por lo que basta con introducirla para acceder a Interface :
+La contraseña de administrador ya se ha generado (véase la captura de pantalla de fin de instalación), por lo que basta con introducirla para acceder a Interface:
 
 
 
@@ -322,7 +322,7 @@ Añadir una lista en Pi-Hole
 
 
 
-Sólo nos queda hacer clic en "**Añadir**" para añadirlo. Para activarlo, necesitamos realizar un paso adicional para "avisar" a Pi-Hole para que se haga cargo de esta lista. Para ello :
+Sólo nos queda hacer clic en "**Añadir**" para añadirlo. Para activarlo, necesitamos realizar un paso adicional para "avisar" a Pi-Hole para que se haga cargo de esta lista. Para ello:
 
 
 

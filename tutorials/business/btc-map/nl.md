@@ -1,5 +1,5 @@
 ---
-name: BTC Kaart
+name: BTC Map
 description: Vind plaatsen om je Sats door te brengen
 ---
 ![cover](assets/cover.webp)
@@ -22,13 +22,13 @@ Ga naar [btcmap.org](https://btcmap.org/):
 
 
 
-Beschikbaar op :
+Beschikbaar op:
 
 
 
 
 - iOS via [AppStore](https://apps.apple.com/app/btc-world-map/id6443604345)
-- Android via [Play Store] (https://play.google.com/store/apps/details?id=org.btcmap.app)
+- Android via [Play Store](https://play.google.com/store/apps/details?id=org.btcmap.app)
 - [F-Droid](https://f-droid.org/en/packages/org.btcmap/) de android open-source app catalogus
 - door de [apk android](https://github.com/teambtcmap/btcmap-android/releases/latest) rechtstreeks te downloaden van de github van het project
 - via de webapp vanuit je browser (onze huidige weergave)
@@ -165,9 +165,9 @@ Eindelijk,
 
 - 1: Vink dit vakje aan als je alleen wilt bevestigen dat de informatie in het bestand up-to-date is (ga in dit geval direct naar stap 4)
 - 2: Geef hier aan welke informatie eventueel onjuist is en welke correctie je voorstelt
-- 3 : Beschrijf hier hoe je de informatie hebt verkregen (bezoek, telefoontje...)
+- 3: Beschrijf hier hoe je de informatie hebt verkregen (bezoek, telefoontje...)
 - 4: Ga verder met captcha-verificatie (hoofdlettergevoelig)
-- 5 : Klik op "Rapport verzenden" om uw suggestie te verzenden
+- 5: Klik op "Rapport verzenden" om uw suggestie te verzenden
 
 
 
@@ -247,7 +247,7 @@ Je zult meteen de oranje gekleurde gebieden opmerken. Zoals je kunt zien, zijn d
 
 
 
-Met BTC Map kun je [je eigen gemeenschap toevoegen] (https://btcmap.org/communities/add/), laten we het stap voor stap bekijken:
+Met BTC Map kun je [je eigen gemeenschap toevoegen](https://btcmap.org/communities/add/), laten we het stap voor stap bekijken:
 
 
 
@@ -287,7 +287,7 @@ Met BTC Map kun je [je eigen gemeenschap toevoegen] (https://btcmap.org/communit
 - 1: De naam van de vestiging
 - 2: Fysieke Address (verplicht, je hebt een Address op straat nodig)
 - 3: Markeer het exacte punt op de kaart
-- 4 : In welke categorie valt de plant?
+- 4: In welke categorie valt de plant?
 - 5: Welke Bitcoin betaalmiddelen zijn beschikbaar (BTC, Lightning, contactloos)?
 
 
@@ -307,9 +307,9 @@ Met BTC Map kun je [je eigen gemeenschap toevoegen] (https://btcmap.org/communit
   - "Ik ben de bedrijfseigenaar": Ik ben de manager van het bedrijf
   - "Ik bezocht dit etablissement als klant": Ik bezocht deze vestiging als klant
   - "andere methode
-- 12 : Uw e-mail Address voor het geval het platform meer informatie nodig heeft
+- 12: Uw e-mail Address voor het geval het platform meer informatie nodig heeft
 - 13: Captcha-controle (hoofdlettergevoelig)
-- 14 : Klik op "Locatie indienen" om uw vermelding te verzenden
+- 14: Klik op "Locatie indienen" om uw vermelding te verzenden
 
 
 

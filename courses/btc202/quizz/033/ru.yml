@@ -1,0 +1,9 @@
+question: Кто поддерживает проект Bitcoin Knots?
+answer: Люк Дашжр
+wrong_answers:
+  - Гэвин Андресен
+  - Владимир Дж. Ван Дер Лаан
+  - Питер Вуйль
+explanation: |
+  Bitcoin Knots поддерживается Люком Дашджром и служит основным альтернативным клиентом для Bitcoin core.
+reviewed: true

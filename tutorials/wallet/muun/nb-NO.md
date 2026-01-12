@@ -4,15 +4,15 @@ description: Sette opp Muun-lommeboken din
 ---
 ![cover](assets/cover.webp)
 
-Muun (https://muun.com/) er en selvforvaltende lommebok for bitcoin og lyn.
+[Muun](https://muun.com/) er en selvforvarende lommebok for bitcoin og lightning.
 
-## videoopplæring
+## Videoveiledning
 
 ![video tutorial](https://youtu.be/t1rxp8InZW8)
 
 ## Muun Wallet - Komplett brukerveiledning
 
-Komplett brukerveiledning (med skjermbilder) for Muun-applikasjonen; en brukervennlig mobil Bitcoin-lommebok som lar deg gjøre transaksjoner på Lightning Network.
+Komplett brukerveiledning (med skjermbilder) for Muun-applikasjonen; en brukervennlig mobil Bitcoin-lommebok som lar deg utføre transaksjoner på Lightning-nettverket.
 
 ![image](assets/0.5.webp)
 
@@ -121,15 +121,15 @@ Her er en oversettelse av instruksjonene:
 
 Denne nødprosedyren vil hjelpe deg med å få tilbake pengene dine hvis du ikke kan bruke Muun på enheten din.
 
-1. Finn gjenopprettingskoden din
+- Finn gjenopprettingskoden din
 
 Denne koden skrev du ned på et stykke papir før du lagde nødpakken. Du vil trenge den senere.
 
-2. Last ned gjenopprettingsverktøyet
+- Last ned gjenopprettingsverktøyet
 
 Gå til siden https://github.com/muun/recovery og last ned verktøyet til datamaskinen din.
 
-3. Få tilbake pengene dine
+- Gjenopprett midlene dine
 
 Kjør gjenopprettingsverktøyet og følg trinnene. Verktøyet vil overføre pengene dine til en Bitcoin-adresse du selv velger.
 

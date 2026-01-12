@@ -1,0 +1,9 @@
+question: Cấu trúc dữ liệu nào tóm tắt các giao dịch trong một khối?
+answer: Merkle Tree
+wrong_answers:
+  - Bảng Hash UTXO
+  - Tệp peers.dat
+  - Sổ đăng ký assumeutxo
+explanation: |
+  Các giao dịch trong một khối được cam kết với Merkle Tree, gốc của giao dịch này được đưa vào tiêu đề khối để đảm bảo tính toàn vẹn của khối.
+reviewed: true

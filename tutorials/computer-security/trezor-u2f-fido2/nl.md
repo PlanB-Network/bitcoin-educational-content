@@ -1,5 +1,5 @@
 ---
-name: Trezor U2F & FIDO2
+name: "Trezor U2F & FIDO2"
 description: Versterk je online beveiliging met Trezor
 ---
 ![cover](assets/cover.webp)
@@ -22,7 +22,7 @@ Naast U2F, dat tweefactorauthenticatie mogelijk maakt, ondersteunen Trezors ook 
 
 
 
-Naast "wachtwoordloze*" functionaliteit maakt FIDO2 ook twee-factor authenticatie mogelijk op een vergelijkbare manier als U2F.
+Naast "wachtwoordloze" functionaliteit maakt FIDO2 ook twee-factor authenticatie mogelijk op een vergelijkbare manier als U2F.
 
 
 
@@ -134,7 +134,7 @@ Ik raad je aan om deze code op een andere plaats te bewaren dan waar je je hoofd
 
 
 
-Deze aanpak biedt je twee back-upniveaus in het geval van verlies van je Trezor voor 2FA-authenticatie: een eerste back-up met de Mnemonic zin voor al je accounts, en een tweede specifiek voor elke account met de noodcodes. Het is echter belangrijk **de rol van de Mnemonic niet te verwarren met die van de noodcodes** :
+Deze aanpak biedt je twee back-upniveaus in het geval van verlies van je Trezor voor 2FA-authenticatie: een eerste back-up met de Mnemonic zin voor al je accounts, en een tweede specifiek voor elke account met de noodcodes. Het is echter belangrijk **de rol van de Mnemonic niet te verwarren met die van de noodcodes**:
 
 
 
@@ -164,7 +164,7 @@ Sluit de Trezor aan op je computer en ontgrendel hem.
 
 
 
-Ga naar het account dat u wilt beveiligen in de "wachtwoordloze*" modus. Ik gebruik een Bitwarden account als voorbeeld. Deze optie is meestal te vinden in de service-instellingen, vaak onder een tabblad "*authenticatie*", "*beveiliging*" of "*wachtwoord*".
+Ga naar het account dat u wilt beveiligen in de **wachtwoordloze** modus. Ik gebruik een Bitwarden account als voorbeeld. Deze optie is meestal te vinden in de service-instellingen, vaak onder een tabblad *authenticatie*, *beveiliging* of *wachtwoord*.
 
 
 
@@ -290,7 +290,7 @@ Relying party ID:       vault.bitwarden.com
 Relying party name:     Bitwarden
 User ID:                6e315ebabc8b6945a253b1c50116538d
 User name:              tutoplanbnetwork@proton.me
-User display name:      PBN
+User display name:      Plan ₿ Academy
 Creation time:          2
 hmac-secret enabled:    True
 Use signature counter:  True
@@ -323,7 +323,7 @@ trezorctl fido credentials add <CREDENTIAL_ID>
 
 
 
-Vervang gewoon `<CREDENTIAL_ID>` door een van je identifiers. In mijn geval zou dit bijvoorbeeld :
+Vervang gewoon `<CREDENTIAL_ID>` door een van je identifiers. In mijn geval zou dit bijvoorbeeld:
 
 
 
@@ -353,4 +353,4 @@ Ik raad ook deze andere tutorial aan, waarin we kijken naar een andere oplossing
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

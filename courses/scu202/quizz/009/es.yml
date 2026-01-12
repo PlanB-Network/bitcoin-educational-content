@@ -5,5 +5,5 @@ wrong_answers:
   - Software gráfico
   - Servidor de mensajería instantánea
 explanation: |
-  El sistema operativo actúa como un software central Layer que permite a las aplicaciones y al usuario acceder al hardware y controlarlo.
-reviewed: false
+  El sistema operativo actúa como una capa software central que permite a las aplicaciones y al usuario acceder al hardware y controlarlo.
+reviewed: true

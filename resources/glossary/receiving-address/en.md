@@ -7,7 +7,7 @@ Information used to receive bitcoins. An address is usually constructed by hashi
 * A separator: `1`;
 * The version of SegWit used: `q` or `p`;
 * The payload: the digest of the public key (or directly the public key in the case of Taproot);
-* The checksum: a BCH code.
+*The checksum: a BCH code.*
 
 However, a receiving address can also represent something else depending on the script model used. For example, P2SH addresses are constructed using the script's hash. Taproot addresses, on the other hand, contain the tweaked public key directly without hashing it.
 

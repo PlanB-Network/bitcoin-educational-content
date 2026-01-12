@@ -1,0 +1,10 @@
+question: Ni ubuhe buryo bwo gukingira amakuru bukoreshwa kugira ngo umuhuzabikorwa ntahuze ivyinjizwa n’ibisohoka muri CoinJoin?
+answer: Chaum imikono y’impumyi.
+wrong_answers:
+  - Imikono ya Schnorr.
+  - Amaderesi ya P2SH.
+  - Amaderesi ya P2TR.
+explanation: |
+  Mu vyitwa Chaumian coinjoins, gukoresha imikono y’impumyi ya Tor n’iya David Chaum birahurizwa hamwe kugira ngo umuhuzabikorwa ntashobore kumenya igisohoka ari ic’uwukoresha.
+  
+reviewed: false

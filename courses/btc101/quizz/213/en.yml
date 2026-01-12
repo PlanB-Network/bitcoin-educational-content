@@ -1,12 +1,11 @@
-question: What is the main goal of the Bitcoin revolution according to this course?
-answer: Creating a world where human sovereignty is a right, privacy is respected by default, and money is not manipulated.
+question: What does this course suggest about the pace of learning about Bitcoin?
+answer: It is complicated to assimilate everything at once, so take your time.
 wrong_answers:
-  - Creating a world where privacy is not a human right, and money is manipulated by the banks.
-  - Creating a world where governments have no power, and society is chaotic.
-  - Creating a world where physical money is obsolete.
+  - It is easy to learn everything at once.
+  - It is impossible to learn everything about Bitcoin.
+  - It is unnecessary to learn everything about Bitcoin.
 explanation: |
-  This course text suggests that the main goal of the Bitcoin
-  revolution is to create a world where human sovereignty is
-  a right, privacy is respected by default, and money is not
-  manipulated.
+  The course suggests that there is so much to explore with
+  Bitcoin that it is complicated to assimilate everything at
+  once, so one should take their time.
 reviewed: true

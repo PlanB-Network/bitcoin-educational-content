@@ -1,0 +1,13 @@
+question: Ni itandukaniro irihe ry’ishimikiro riri hagati y’Ukwiyongera kw’Ibiciro n’Ukwiyongera kw’Ibiciro?
+answer: Ukwiyongera kw’ibiciro gushobora kuba gushingiye ku rwego rumwe rumwe kandi guterwa n’ibintu bitandukanye, mu gihe ugutera imbere kw’ibiciro gusobanurwa n’ukwiyongera kw’ibiciro muri rusangi ku bicuruzwa n’ibikorwa bitandukanye.
+wrong_answers:
+  - Ukwiyongera kw’ibiciro ni ukwiyongera kw’ibiciro muri rusangi mu bicuruzwa n’ibikorwa bitandukanye, mu gihe ugutera imbere kw’ibiciro ari ukwo kwiyongera kw’ibiciro kandi guterwa n’ibintu bitandukanye.
+  - Ukwiyongera kw’ibiciro n’ugutera imbere kw’ibiciro ni kimwe, vyose vyerekana ukwiyongera kw’ibiciro muri rusangi mu bicuruzwa n’ibikorwa bitandukanye.
+  - Ukwiyongera kw'ibiciro kwerekeza ku kugabanya ibiciro, mu gihe uguduga kw'ibiciro kwerekeza ku kwiyongera kw'ibiciro.
+explanation: |
+  Ikigabane kirasigura ko iyongerekana ry’igiciro rishobora kuba ry’urwego rumwe rumwe kandi .
+  biterwa n’ibintu bitandukanye nk’ukugabanya ivyimburwa vya OPEP vy’amavuta canke bitari vyiza .
+  ivy’ikirere ku ngano. Ku rundi ruhande, ugutera imbere kw’ibiciro gusobanurwa n’insiguro rusangi .
+  Ukwongerekana kw’ibiciro mu bicuruzwa n’ibikorwa bitandukanye, atari mu buryo bumwe bumwe gusa
+  umuce.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: Trezor Modell Eins
+name: Trezor Model One
 description: Einrichten und Verwenden des Hardware Wallet Model One
 ---
 ![cover](assets/cover.webp)
@@ -77,11 +77,11 @@ Die Navigation auf dem Gerät ist sehr einfach:
 
 
 
-In diesem Tutorial zeige ich Ihnen, wie Sie das Trezor Model One mit der [Sparrow Wallet Portfolio Management Software] (https://sparrowwallet.com/download/) verwenden können. Wenn Sie diese Software noch nicht installiert haben, sollten Sie dies jetzt tun. Wenn Sie Hilfe benötigen, haben wir auch eine detaillierte Anleitung zur Konfiguration von Sparrow Wallet:
+In diesem Tutorial zeige ich Ihnen, wie Sie das Trezor Model One mit der [Sparrow Wallet Portfolio Management Software](https://sparrowwallet.com/download/) verwenden können. Wenn Sie diese Software noch nicht installiert haben, sollten Sie dies jetzt tun. Wenn Sie Hilfe benötigen, haben wir auch eine detaillierte Anleitung zur Konfiguration von Sparrow Wallet:
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Außerdem benötigen Sie die Trezor Suite Software, um das Model One zu konfigurieren, seine Echtheit zu überprüfen und die Firmware zu installieren. Wir werden diese Software nur zu diesem Zweck verwenden, und danach wird sie nur noch für Firmware-Updates benötigt. Für die tägliche Verwaltung des Wallet werden wir ausschließlich Sparrow Wallet verwenden, da es für Bitcoin optimiert und auch für Anfänger leicht zu bedienen ist (Sparrow unterstützt nur Bitcoin, keine Altcoins).
 
@@ -99,7 +99,7 @@ Bei diesen beiden Programmen empfehle ich Ihnen dringend, sowohl ihre Authentizi
 
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Starten des Trezor Model One
 
@@ -201,7 +201,7 @@ Das Model One erstellt Ihren Mnemonic-Satz mithilfe seines Zufallszahlengenerato
 
 
 
-***Natürlich dürfen Sie diese Worte niemals im Internet weitergeben, wie ich es in diesem Tutorial tue. Dieses Beispiel Wallet wird nur auf dem Testnet verwendet und wird am Ende des Tutorials gelöscht werden
+**Natürlich dürfen Sie diese Worte niemals im Internet weitergeben, wie ich es in diesem Tutorial tue. Dieses Beispiel Wallet wird nur auf dem Testnet verwendet und wird am Ende des Tutorials gelöscht werden**
 
 
 
@@ -209,7 +209,7 @@ Für weitere Informationen über die richtige Art und Weise, Ihre Mnemonic Phras
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Um mit den nächsten Wörtern fortzufahren, klicken Sie mit der rechten Maustaste. Wenn Sie alle Wörter aufgeschrieben haben, klicken Sie erneut auf die rechte Taste, um zum nächsten Schritt zu gelangen.
 
@@ -307,7 +307,7 @@ Wir werden die Trezor Suite Software nicht mehr benötigen, außer um regelmäß
 
 
 
-Beginnen Sie mit dem Herunterladen und der Installation von Sparrow Wallet [von der offiziellen Website] (https://sparrowwallet.com/) auf Ihrem Computer, falls Sie dies nicht bereits getan haben.
+Beginnen Sie mit dem Herunterladen und der Installation von Sparrow Wallet [von der offiziellen Website](https://sparrowwallet.com/) auf Ihrem Computer, falls Sie dies nicht bereits getan haben.
 
 
 
@@ -315,7 +315,7 @@ Wenn Sie Sparrow Wallet geöffnet haben, vergewissern Sie sich, dass die Softwar
 
 
 
-https://planb.network/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
+https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 Klicken Sie auf die Registerkarte "*Datei*" und dann auf "*Neues Wallet*".
 
@@ -357,7 +357,7 @@ Wenn Sie Ihr Model One an einen Computer mit geöffnetem Sparrow Wallet anschlie
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 
 ![Image](assets/fr/26.webp)
 
@@ -407,7 +407,7 @@ Um mehr darüber zu erfahren, wie man einen Wiederherstellungstest durchführt, 
 
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Wie kann man mit dem Trezor Model One Bitcoins empfangen?
 
@@ -501,7 +501,7 @@ Wählen Sie den Betrag, der an diesen Address gesendet werden soll.
 
 
 
-Passen Sie den Gebührensatz für Ihre Transaktion an den aktuellen Markt an. Sie können zum Beispiel [Mempool.space] (https://Mempool.space/) verwenden, um einen geeigneten Gebührensatz zu wählen.
+Passen Sie den Gebührensatz für Ihre Transaktion an den aktuellen Markt an. Sie können zum Beispiel [Mempool.space](https://Mempool.space/) verwenden, um einen geeigneten Gebührensatz zu wählen.
 
 
 
@@ -565,6 +565,6 @@ Herzlichen Glückwunsch, Sie sind nun mit der grundlegenden Verwendung des Trezo
 
 
 
-https://planb.network/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
+https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f97-aefe-445368fdca42
 
 Wenn Sie diese Anleitung nützlich fanden, wäre ich Ihnen dankbar, wenn Sie unten einen Green-Daumen hinterlassen würden. Sie können diesen Artikel auch gerne in Ihren sozialen Netzwerken teilen. Ich danke Ihnen sehr!

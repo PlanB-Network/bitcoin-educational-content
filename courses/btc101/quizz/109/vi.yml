@@ -1,11 +1,10 @@
-question: Tại sao trách nhiệm cá nhân lại quan trọng trong Bitcoin?
-answer: Điều này rất quan trọng vì bạn phải chịu trách nhiệm về việc sao lưu.
+question: Giao dịch Bitcoin đầu tiên được ghi nhận là gì?
+answer: Một giao dịch 10 BTC giữa Satoshi Nakamoto và Hal Finney.
 wrong_answers:
-  - Điều này cần thiết vì bạn phải đào bitcoin.
-  - Điều này cần thiết để mua bitcoin.
-  - Điều này rất quan trọng vì bạn phải chịu trách nhiệm về giao diện ví.
+  - Một giao dịch 10,000 BTC đổi lấy 2 chiếc pizza.
+  - Một giao dịch 1 BTC giữa Satoshi Nakamoto và Hal Finney.
+  - Một giao dịch 10,000 BTC giữa Laszlo Hanyecz và Hal Finney.
 explanation: |
-  Trong Bitcoin, quyền tự chủ tài chính đi đôi với
-  trách nhiệm cá nhân, bởi vì bạn phải tự quản lý
-  quỹ của mình bằng cách tuân theo các thủ tục sao lưu được khuyến nghị.
+  Giao dịch Bitcoin đầu tiên được ghi nhận là một giao dịch
+  10 BTC giữa Satoshi Nakamoto và Hal Finney.
 reviewed: true

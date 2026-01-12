@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe nyamukuru passphrase ifise muri Bitcoin HD Wallet?
+answer: Guhindura urufunguzo rwo gukomoka kugira ngo wongere umutekano
+wrong_answers:
+  - Gusobanura amasezerano ategerejwe
+  - generate ni UTXO za Wallet
+  - Gukingira Wallet n'indangamuntu yo mu maso
+explanation: |
+  passphrase ikora nk’ikintu ca kabiri c’umutekano, ihindura urufunguzo rwo gukomokako seed kugira ngo umuntu ntashobore gushika kuri Wallet mu gihe ijambo Mnemonic ryoba ryahungabanijwe.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni gute ubugiraneza bw’ikinyoma butera iteka mu kugoreka itegeko nk’uko Bastiat abivuga?
+answer: Kuko mu vy’ukuri bishingiye ku rutonde rw’uburenganzira bw’ikinyoma uwundi muntu azokwishura mu vy’ukuri.
+wrong_answers:
+  - Kuko rishaka guhatira umuntu wese kuba mwiza.
+  - Kuko bishira abantu b’abanyaruyeri ku butegetsi.
+  - Kuko harimwo n’ugufatanya n’abandi ku bushake.
+explanation: |
+  Ubugiraneza bw’ikinyoma buratuma umuntu agira uburenganzira bw’ikinyoma buhinduka inshingano zitegekwa abandi, gutyo bugatuma itegeko rihinduka igikoresho co gusahura aho kurinda uburenganzira busanzwe.
+reviewed: false

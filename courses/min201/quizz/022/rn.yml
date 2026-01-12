@@ -1,0 +1,11 @@
+question: Abacukuzi bazokwizigira iki kugira ngo baronke indishi inyuma y’aho ama bitcoins yose amaze kuremwa?
+answer: Abacukuzi bazokwizigira gusa amafaranga y’ugucuruza kugira ngo baronke indishi.
+wrong_answers:
+  - Abacukuzi bazokwizigira gusa ingororano z’amabuye kugira ngo baronke indishi.
+  - Abacukuzi bazokwizigira gusa ivyemezo vy’ugucuruza kugira ngo baronke indishi.
+  - Abacukuzi bazokwizigira gusa amafaranga y’urubuga kugira ngo baronke indishi.
+explanation: |
+  Mu mwaka w’2140, nta bitcoins nshasha zizoremwa. Muri iki gihe,
+  abacukuzi bazokwizigira gusa amafaranga y’ugucuruza ku
+  indishi.
+reviewed: true

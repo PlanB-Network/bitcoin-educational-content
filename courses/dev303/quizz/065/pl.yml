@@ -1,0 +1,8 @@
+question: Dlaczego filozofia "poruszaj się szybko i psuj rzeczy" jest szczególnie nieodpowiednia dla rozwoju Bitcoin w porównaniu z tradycyjnym rozwojem oprogramowania?
+answer: Transakcje Bitcoin są nieodwracalne i nie ma centralnego organu, który mógłby odzyskać środki w przypadku błędów
+wrong_answers:
+  - Rozwój Bitcoin wymaga szybszych cykli iteracji niż tradycyjne aplikacje internetowe
+  - "Kompilator Rust uniemożliwia szybkie prototypowanie potrzebne do innowacji blockchain"
+  - "Otwarty charakter Bitcoin utrudnia naprawianie błędów po wdrożeniu"
+explanation: |
+  Prawidłowa odpowiedź podkreśla podstawową cechę Bitcoin: jego zdecentralizowany charakter oznacza, że nie ma organu, do którego można by się odwołać w celu odzyskania środków po nadaniu transakcji. W przeciwieństwie do tradycyjnych systemów finansowych z zabezpieczeniami regulacyjnymi i mechanizmami obciążenia zwrotnego, błędy Bitcoin są trwałe i nieodwracalne. Błędne odpowiedzi źle rozumieją sedno sprawy - nie chodzi o szybkość rozwoju, ograniczenia kompilatora czy wyzwania open source, ale o nieodwracalny charakter operacji finansowych w zdecentralizowanym systemie, w którym fundusze użytkowników są stale zagrożone.

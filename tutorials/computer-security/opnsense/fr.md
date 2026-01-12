@@ -83,10 +83,10 @@ De plus, prévoyez un ordinateur pour effectuer l'administration d'OPNsense ains
 
 Notre objectif va être le suivant :
 
-* **Créer un réseau virtuel interne (192.168.10.0/24 - LAN)**, qui pourra accéder à internet, par l'intermédiaire du pare-feu OPNsense. Pour de la production, il pourra s'agir de votre réseau local, câble et/ou Wi-Fi.
-* **Activer et configurer le NAT** pour que les VM du réseau virtuel interne soit en mesure d'accéder à Internet
-* **Activer et configurer le serveur DHCP sur OPNsense** pour distribuer une configuration IP aux futures machines connectées au réseau virtuel interne
-* **Configurer le pare-feu** pour autoriser uniquement les flux sortants du LAN vers WAN en HTTP (80) et HTTPS (443).
+**Créer un réseau virtuel interne (192.168.10.0/24 - LAN)**, qui pourra accéder à internet, par l'intermédiaire du pare-feu OPNsense. Pour de la production, il pourra s'agir de votre réseau local, câble et/ou Wi-Fi.
+**Activer et configurer le NAT** pour que les VM du réseau virtuel interne soient en mesure d'accéder à Internet
+**Activer et configurer le serveur DHCP sur OPNsense** pour distribuer une configuration IP aux futures machines connectées au réseau virtuel interne
+**Configurer le pare-feu** pour autoriser uniquement les flux sortants du LAN vers WAN en HTTP (80) et HTTPS (443).
 * **Configurer le pare-feu** pour autoriser le LAN virtuel à utiliser OPNsense comme résolveur DNS (53).
 
 Si vous utilisez la plateforme Hyper-V, ceci vous donnera la représentation suivante :
@@ -272,8 +272,8 @@ Ainsi, nous devons créer des règles de pare-feu... Parcourez le menu de cette 
 
 Puis, créez trois nouvelles règles pour autoriser le **réseau LAN** (soit "**LAN net**") à :
 
-* accéder à toutes les destinations en **HTTP**.
-* accéder à toutes les destinations en **HTTPS**.
+*accéder à toutes les destinations en* **HTTP**.
+*accéder à toutes les destinations en **HTTPS**.*
 * solliciter **OPNsense** sur son **interface LAN** (soit "**LAN adresse**"), via le **protocole DNS** (ceci implique d'utiliser le firewall comme DNS), sinon autoriser votre résolveur DNS via son adresse IP.
 
 Ce qui donne le résultat suivant :

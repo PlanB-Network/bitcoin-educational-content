@@ -1,9 +1,9 @@
 question: Mirasçılarınızın bitcoinlerinizi hatasız bir şekilde kurtarması için hangi eylem gereklidir?
-answer: Açık talimatlar verilmesi
+answer: Anlaşılır talimatların verilmesi
 wrong_answers:
   - Tüm özel anahtarların emanet edilmesi
-  - Şifreleri sık sık değiştirme
-  - KYC Exchange platformu kullanma
+  - Şifrelerin sık sık değiştiilmesi
+  - KYC Exchange platformu kullanımı
 explanation: |
   Ayrıntılı ve anlaşılır talimatlar, sevdiklerinizin fonlara düzgün bir şekilde erişebilmesini sağlar.
 reviewed: false

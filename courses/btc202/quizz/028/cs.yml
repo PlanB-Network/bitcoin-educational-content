@@ -1,0 +1,9 @@
+question: Čím se liší uzel pruned od uzlu Full node?
+answer: Postupně odstraňuje staré bloky
+wrong_answers:
+  - Neověřuje starší transakce
+  - Nemůže předávat celé bloky
+  - Neuchovává žádnou místní kopii sady Blockchain, pouze sadu UTXO
+explanation: |
+  Uzel pruned ověřuje celý řetězec, ale uchovává pouze poslední část bloků, aby omezil jejich ukládání.
+reviewed: true

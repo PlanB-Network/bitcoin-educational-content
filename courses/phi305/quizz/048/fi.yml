@@ -1,0 +1,9 @@
+question: Mitä finalismi merkitsee Spinozalle?
+answer: Asioiden vaikutusten sekoittaminen niiden syihin.
+wrong_answers:
+  - Usko fatalismiin.
+  - Ajattelen, että kaikki on ohi.
+  - Filosofi.
+explanation: |
+  Spinozalle finalismi tarkoittaa asioiden vaikutusten erehtymistä niiden syistä. Se tarkoittaa ilmiöiden selittämistä niiden oletettujen tulosten eikä niiden todellisten syiden avulla, mikä on päättelyvirhe.
+reviewed: false

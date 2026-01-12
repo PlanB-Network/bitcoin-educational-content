@@ -1,0 +1,9 @@
+question: RGB Contract을 정의하는 네 가지 구성 요소는 무엇인가요?
+answer: Genesis, Schema, Interface 및 Interface Implementation
+wrong_answers:
+  - Genesis, Schema, 전환 및 Interface Implementation
+  - Genesis, Interface, 전환 및 확장
+  - Genesis, Interface, Interface Implementation 및 확장 기능
+explanation: |
+  RGB Contract은 Genesis, Schema, Interface 및 Interface Implementation의 네 가지 Elements로 구성됩니다.
+reviewed: false

@@ -1,10 +1,10 @@
-question: Bagaimana Bitcoin digambarkan dalam teks?
-answer: Sebagai objek multidisiplin
+question: Apa yang disarankan teks tentang masa depan Bitcoin?
+answer: Tidak akan menghilang
 wrong_answers:
-  - Sebagai objek sederhana
-  - Sebagai objek kompleks
-  - Sebagai objek tunggal disiplin
+  - Akan digantikan oleh teknologi yang lebih baik
+  - Akan dilarang di seluruh dunia
+  - Akan kehilangan nilainya
 explanation: >-
-  Bitcoin digambarkan sebagai objek multidisiplin karena menimbulkan
-  pertanyaan yang terkait dengan berbagai bidang, termasuk kriptografi, teori permainan, ekonomi
-  dan kebijakan moneter, ilmu komputer, filsafat, energi, hukum, dan regulasi.
+  Teks menyarankan bahwa Bitcoin tidak akan menghilang. Sebaliknya,
+  revolusi baru saja dimulai.
+reviewed: false

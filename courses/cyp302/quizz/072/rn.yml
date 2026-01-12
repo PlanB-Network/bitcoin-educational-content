@@ -1,0 +1,9 @@
+question: Ni kuki guhindura amakuru bifatwa nk’ugushiramwo amakuru y’uburinganire?
+answer: Kuko urufunguzo rumwe rukoreshwa mu gupfuka no gukuraho .
+wrong_answers:
+  - Kuko ikoresha imfunguruzo zibiri, iya bose n’iy’ibanga .
+  - Kuko ipfukura ata rufunguzo ikoresheje .
+  - Kubera ko urufunguzo ruhinduka uko umuntu ashobora gupfuka .
+explanation: |
+  Shift encryption ifatwa nk’ibanga ry’uburinganire kuko rikoresha urufunguzo rumwe mu gushiramwo no gukuraho ubutumwa, gutyo bikaba bituma haba ibanga hagati y’abasangiye urwo rufunguzo.
+reviewed: false

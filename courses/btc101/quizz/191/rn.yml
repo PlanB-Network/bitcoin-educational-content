@@ -1,0 +1,10 @@
+question: Ni ikihe kimwe mu bintu ukwiye kuba ufise imbere yo kugura Bitcoin?
+answer: Wallet itekanye.
+wrong_answers:
+  - Igikapu c’umubiri.
+  - Konti yo muri banki.
+  - Ikarata y’inguzanyo.
+explanation: |
+  Ivyanditswe vy’amashure bivuga yuko imbere y’uko ugura Bitcoin, u
+  ushobora kugira Wallet itekanye aho uzobika imfunguruzo zawe.
+reviewed: true

@@ -17,4 +17,4 @@ No contexto do Bitcoin, as funções hash são utilizadas para vários fins, inc
 - `SHA512` dentro dos algoritmos `HMAC` e `PBKDF2` utilizados no processo de derivação de carteiras determinísticas e hierárquicas;
 - `HASH160`, que descreve uma utilização sucessiva de um `SHA256` e um `RIPEMD160`. o `HASH160` é utilizado no processo de geração de endereços de receção (exceto P2PK e P2TR) e no cálculo das impressões digitais da chave-mãe para chaves alargadas.
 
-> ► *Em inglês, é designada por "hash function"
+> ► *Em inglês, é designada por "hash function"*

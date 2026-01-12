@@ -17,10 +17,10 @@ Arch Linux er en distribusjon som er kjent for sin robusthet, ytelse og tilpasni
 
 
 
-- Gratis og åpen kildekode**: Som de fleste Linux-distribusjoner er Arch Linux helt gratis. Det er ingen lisensavgifter, noe som gjør den til et utmerket valg for studenter, frilansere eller entusiaster.
-- KISS**-filosofien: Arch er designet for å være enkel, lett og effektiv. Den inneholder bare det viktigste, slik at du kan bygge opp miljøet ditt à la carte.
-- Pakkebehandleren Pacman**: Pacman er en rask, pålitelig og veldesignet pakkebehandler. Den muliggjør effektiv installasjon og oppdatering av programvare, og håndterer avhengigheter med presisjon.
-- Omfattende dokumentasjon og et aktivt fellesskap**: [Arch Wiki] (https://wiki.archlinux.org) er sannsynligvis en av de beste tekniske dokumentasjonene i Linux-verdenen. Det er en gullgruve for å forstå hva du gjør. Fellesskapet, som for det meste består av erfarne profiler, er svært aktivt og kan hjelpe deg hvis du står fast, forutsatt at du har gjort litt research på forhånd.
+- **Gratis og åpen kildekode**: Som de fleste Linux-distribusjoner er Arch Linux helt gratis. Det er ingen lisensavgifter, noe som gjør den til et utmerket valg for studenter, frilansere eller entusiaster.
+- **KISS-filosofien**: Arch er designet for å være enkel, lett og effektiv. Den inneholder bare det viktigste, slik at du kan bygge opp miljøet ditt à la carte.
+- **Pakkebehandleren Pacman**: Pacman er en rask, pålitelig og veldesignet pakkebehandler. Den muliggjør effektiv installasjon og oppdatering av programvare, og håndterer avhengigheter med presisjon.
+- **Omfattende dokumentasjon og et aktivt fellesskap**: [Arch Wiki](https://wiki.archlinux.org) er sannsynligvis en av de beste tekniske dokumentasjonene i Linux-verdenen. Det er en gullgruve for å forstå hva du gjør. Fellesskapet, som for det meste består av erfarne profiler, er svært aktivt og kan hjelpe deg hvis du står fast, forutsatt at du har gjort litt research på forhånd.
 
 
 
@@ -39,7 +39,7 @@ Materialer som kreves:
 
 
 - En USB-nøkkel på minst **8 GB**
-- minimum 2 GB** RAM
+- minimum 2 GB **RAM**
 - En datamaskin med minst 20 GB ledig diskplass
 
 
@@ -58,7 +58,7 @@ Siden 2017 har Arch Linux ikke lenger støtte for 32-bits arkitekturer. Kun 64-b
 
 
 
-- Besøk [det offisielle nettstedet] (https://mir.archlinux.fr/iso/latest/) for å laste ned den nyeste offisielle versjonen av ISO-bildet.
+- Besøk [det offisielle nettstedet](https://mir.archlinux.fr/iso/latest/) for å laste ned den nyeste offisielle versjonen av ISO-bildet.
 
 
 
@@ -66,13 +66,13 @@ Siden 2017 har Arch Linux ikke lenger støtte for 32-bits arkitekturer. Kun 64-b
 
 
 
-For å lage en oppstartbar USB-minnepinne kan du bruke et verktøy som **Balena Etcher** :
+For å lage en oppstartbar USB-minnepinne kan du bruke et verktøy som **Balena Etcher**:
 
 
 
 
 
-- Last ned Balena Etcher fra [offisiell nettside] (https://etcher.balena.io).
+- Last ned Balena Etcher fra [offisiell nettside](https://etcher.balena.io).
 - Start programvaren, velg Arch Linux ISO-bildet.
 - Velg USB-nøkkelen din som målenhet.
 - Klikk på **Flash** for å starte opprettelsen av den oppstartbare nøkkelen.
@@ -124,7 +124,7 @@ På oppstartsskjermen velger du det første alternativet for å starte installas
 
 
 
-Du kan vise de tilgjengelige layoutene med :
+Du kan vise de tilgjengelige layoutene med:
 
 
 
@@ -138,7 +138,7 @@ localectl list-keymaps
 
 
 
-Last deretter inn en layout med :
+Last deretter inn en layout med:
 
 
 
@@ -166,7 +166,7 @@ Arch Linux bruker verktøyet `timedatectl` til å styre systemklokken.
 
 
 
-- Still inn tidssonen din med :
+- Still inn tidssonen din med:
 
 
 ```shell
@@ -177,7 +177,7 @@ timedatectl set-timezone Europe/Paris
 
 
 
-- Kontroller at automatisk synkronisering er aktivert med :
+- Kontroller at automatisk synkronisering er aktivert med:
 
 
 ```shell
@@ -208,7 +208,7 @@ Dette aktiverer NTP, protokollen for automatisk synkronisering med tidsservere. 
 
 
 
-- Sjekk om systemet starter i **UEFI** eller **BIOS** med :
+- Sjekk om systemet starter i **UEFI** eller **BIOS** med:
 
 
 
@@ -238,7 +238,7 @@ lsblk
 
 
 
-- Start Partition Manager :
+- Start Partition Manager:
 
 
 
@@ -261,7 +261,7 @@ Velg **GPT** hvis du bruker UEFI, og **DOS** hvis du bruker BIOS.
 
 
 
-- I UEFI**-modus
+- I **UEFI**-modus
 
 
 
@@ -294,7 +294,7 @@ Velg **Write**, skriv **yes** og deretter **Quit**.
 
 
 
-- UEFI** :
+- **UEFI**:
 
 
 
@@ -309,7 +309,7 @@ mkfs.ext4 /dev/sda3
 
 
 
-- BIOS** :
+- **BIOS**:
 
 
 
@@ -335,7 +335,7 @@ Monter **root**-partisjonen:
 
 
 
-- På BIOS :
+- På BIOS:
 
 
 ```shell
@@ -345,7 +345,7 @@ mount /dev/sda2 /mnt
 
 
 
-- på UEFI :
+- på UEFI:
 
 
 ```shell
@@ -398,7 +398,7 @@ arch-chroot /mnt
 
 
 
-- Installer et tekstredigeringsprogram for å redigere :
+- Installer et tekstredigeringsprogram for å redigere:
 
 
 
@@ -410,7 +410,7 @@ pacman -S vim
 
 
 
-- Still inn språket :
+- Still inn språket:
 
 
 Rediger `/etc/locale.gen` og fjern deretter kommentarene i linjen `en_US.UTF-8 UTF-8`
@@ -423,7 +423,7 @@ Rediger `/etc/locale.gen` og fjern deretter kommentarene i linjen `en_US.UTF-8 U
 
 
 
-- Angi maskinens navn :
+- Angi maskinens navn:
 
 
 
@@ -435,7 +435,7 @@ echo nom_machine > /etc/hostname
 
 
 
-- Angi root-passord :
+- Angi root-passord:
 
 
 
@@ -453,7 +453,7 @@ passwd
 
 
 
-Installer :
+Installer:
 
 
 
@@ -472,7 +472,7 @@ Når du har lastet ned, må du installere den i henhold til diskpartisjonsformat
 
 
 
-- For **BIOS** :
+- For **BIOS**:
 
 
 
@@ -489,7 +489,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 
 
-- For **UEFI** :
+- For **UEFI**:
 
 
 
@@ -531,7 +531,7 @@ umount -R /mnt
 
 
 
-- Start på nytt :
+- Start på nytt:
 
 
 ```shell
@@ -551,7 +551,7 @@ Ved oppstart logger du på med **root**-påloggingen og passordet ditt.
 
 
 
-Det kan hende at ingen nettverkstilkobling er aktiv ved omstart. Du kan liste opp grensesnittene med :
+Det kan hende at ingen nettverkstilkobling er aktiv ved omstart. Du kan liste opp grensesnittene med:
 
 
 
@@ -581,7 +581,7 @@ EOF
 
 
 
-Som standard inneholder **Arch Linux** ingen grafisk Interface. For å legge til en :
+Som standard inneholder **Arch Linux** ingen grafisk Interface. For å legge til en:
 
 
 
@@ -623,7 +623,7 @@ pacman -S gnome gnome-extra
 
 
 
-Aktiver **session manager** :
+Aktiver **session manager**:
 
 
 
@@ -652,7 +652,7 @@ Når du er inne i **Interface GNOME**, må du opprette en ny bruker for å oppn�
 
 
 
-- Legg til en bruker :
+- Legg til en bruker:
 
 
 
@@ -669,7 +669,7 @@ passwd nom_utilisateur
 
 
 
-- Installer **sudo** :
+- Installer **sudo**:
 
 
 ```shell
@@ -692,7 +692,7 @@ EDITOR=nano visudo
 
 
 
-- Fjern deretter kommentarene i linjen :
+- Fjern deretter kommentarene i linjen:
 
 
 
@@ -730,7 +730,7 @@ pacman -S nom_du_paquet_a_installe
 
 
 
-Hvis du for eksempel vil installere tekstredigeringsprogrammet **nano**, kan du skrive :
+Hvis du for eksempel vil installere tekstredigeringsprogrammet **nano**, kan du skrive:
 
 
 
@@ -740,7 +740,7 @@ pacman -S nano
 
 
 
-For å installere en lett nettleser som `firefox`, bruker du :
+For å installere en lett nettleser som `firefox`, bruker du:
 
 
 
@@ -750,7 +750,7 @@ pacman -S firefox
 
 
 
-Hvis du ønsker å legge til viktige nettverksverktøy som `net-tools`, kan du bruke kommandoen :
+Hvis du ønsker å legge til viktige nettverksverktøy som `net-tools`, kan du bruke kommandoen:
 
 
 
@@ -778,6 +778,6 @@ Hvis du har hatt glede av å komme i gang med Arch Linux, vil du elske vår veil
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

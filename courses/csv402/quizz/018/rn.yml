@@ -1,0 +1,9 @@
+question: Ni ibikorwa ibihe bisobanura iterambere rya Smart contract muri RGB?
+answer: State Transition, Genesis, na State Extension.
+wrong_answers:
+  - Seal Irema, Contract Ukwisunga, n’Ukwemeza kwa nyuma
+  - UTXO Kwimurira, Gutanga Ivyemezo, na Hash Commitment.
+  - Ivyuma vy'Impinduka, Ibidodo Bikoreshwa Rimwe, n'Irema rya Valency
+explanation: |
+  Ivyo bikorwa birarema canke bihindura uko Contract imeze, mu gihe bitanga icemezo c’uko ikora biciye ku nanga za Bitcoin.
+reviewed: false

@@ -1,8 +1,14 @@
 ---
-name: Wallet z Satoshi
+name: Wallet of Satoshi
 description: Najprostszy Wallet do rozpoczęcia działalności
 ---
 ![cover](assets/cover.webp)
+
+---
+
+*Uwaga: od początku 2026 roku Wallet of Satoshi w trybie custodial (jak przedstawiono w tym poradniku) nie jest już dostępny na terenie Unii Europejskiej. Jeśli mieszkasz w tym regionie i chcesz nadal korzystać z tego narzędzia, będziesz musiał skorzystać z VPN zlokalizowanego poza UE. Inną opcją jest korzystanie z Wallet of Satoshi w trybie self-custodial. Dedykowany poradnik zostanie wkrótce opublikowany na Plan ₿ Academy.*
+
+---
 
 _Ten poradnik został napisany przez_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
@@ -12,7 +18,7 @@ _Ten poradnik został napisany przez_ [Bitcoin Campus](https://linktr.ee/bitcoin
 
 Wallet z Satoshi to Lightning Network Wallet, opiekuńczy i bardzo prosty w użyciu.
 
-Na potrzeby kursu [BTC105 - Finding Now](https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) jest on używany do kuponów Redeem Lightning Network.
+Na potrzeby kursu [BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) jest on używany do kuponów Redeem Lightning Network.
 
 
 **Zawsze pamiętaj**: _nie klucze, nie monety_
@@ -79,8 +85,8 @@ Wallet z Satoshi wysłał wiadomość na wskazaną skrzynkę e-mail.
 W skrzynce pocztowej znajdziemy dwa słowa, które musimy wpisać, przepisując je, w miejscu udostępnionym przez aplikację.
 
 
-- nie aktywuj tłumacza: słowa są i muszą pozostać w języku angielskim**
-- przepisz dwa słowa zwracając uwagę na wielkie/małe litery**
+- nie aktywuj tłumacza: słowa są i muszą pozostać w języku angielskim
+- przepisz dwa słowa zwracając uwagę na wielkie/małe litery
 
 
 ![image](assets/it/10.webp)
@@ -243,7 +249,7 @@ Teraz zobaczymy, jak zainstalować WoS na nowym urządzeniu; będzie to równie�
 Komunikat ostrzega, że wysłano wiadomość e-mail z procedurą reaktywacji konta. Należy otworzyć swoją skrzynkę e-mail.
 
 
-**WAŻNE: otwórz wiadomość e-mail z komputera lub w każdym razie z urządzenia innego niż to, na którym zamierzasz odzyskać konto WoS. W skrzynce odbiorczej znajdujemy wiadomość, która pokazuje nam kod QR do obramowania
+**WAŻNE: otwórz wiadomość e-mail z komputera lub w każdym razie z urządzenia innego niż to, na którym zamierzasz odzyskać konto WoS. W skrzynce odbiorczej znajdujemy wiadomość, która pokazuje nam kod QR do obramowania**
 
 
 ![image](assets/it/34.webp)

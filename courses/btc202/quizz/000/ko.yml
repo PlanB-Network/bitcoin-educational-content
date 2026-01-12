@@ -1,0 +1,9 @@
+question: 2008년에 발간된 Satoshi 나카모토의 백서 제목은 무엇인가요?
+answer: Bitcoin P2P 전자 현금 시스템
+wrong_answers:
+  - Bitcoin 탈중앙화 디지털 골드 시스템
+  - Bitcoin 화폐의 미래
+  - Bitcoin Blockchain 기반 결제 네트워크
+explanation: |
+  Satoshi 나카모토의 백서, Bitcoin P2P 전자 현금 시스템, 은 2008년에 발간되었습니다.
+reviewed: true

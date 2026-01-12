@@ -19,7 +19,7 @@ In diesem Lernprogramm möchte ich Ihnen eine solche Lösung vorstellen: die **C
 ---
 Da die COLDCARD Q eine Vielzahl von Funktionen bietet, schlage ich vor, ihre Verwendung in 2 Tutorials aufzuteilen. In diesem ersten Tutorial werden wir uns mit der Erstkonfiguration und den Grundfunktionen des Geräts befassen. In einem zweiten Tutorial werden wir uns dann ansehen, wie Sie alle erweiterten Optionen Ihrer COLDCARD nutzen können.
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 ---
 ## Einführung der COLDCARD Q
@@ -55,7 +55,7 @@ Auf der Softwareseite ist die COLDCARD Q genauso gut ausgestattet wie die andere
 
 Kurz gesagt, die COLDCARD Q bietet ein besseres Benutzererlebnis als die MK4 und ist ideal für fortgeschrittene Benutzer, die eine größere Benutzerfreundlichkeit wünschen.
 
-Die COLDCARD Q ist zum Verkauf [auf der offiziellen Coinkite-Website] (https://store.coinkite.com/store/coldcard) erhältlich. Sie kann auch bei einem Händler erworben werden.
+Die COLDCARD Q ist zum Verkauf [auf der offiziellen Coinkite-Website](https://store.coinkite.com/store/coldcard) erhältlich. Sie kann auch bei einem Händler erworben werden.
 
 ## Vorbereiten des Tutorials
 
@@ -79,9 +79,9 @@ Wenn Sie Ihre COLDCARD mit Strom versorgen möchten, ohne sie an einen Computer 
 
 ![CCQ](assets/fr/005.webp)
 
-Für dieses Tutorial benötigen Sie außerdem Sparrow Wallet, um Ihre Bitcoin-Brieftasche auf Ihrem Computer zu verwalten. Laden Sie [Sparrow Wallet] (https://sparrowwallet.com/download/) von der offiziellen Website herunter. Ich empfehle Ihnen dringend, sowohl die Authentizität (mit GnuPG) als auch die Integrität (per Hash) zu überprüfen, bevor Sie mit der Installation fortfahren. Wenn Sie nicht wissen, wie man das macht, folgen Sie dieser Anleitung:
+Für dieses Tutorial benötigen Sie außerdem Sparrow Wallet, um Ihre Bitcoin-Brieftasche auf Ihrem Computer zu verwalten. Laden Sie [Sparrow Wallet](https://sparrowwallet.com/download/) von der offiziellen Website herunter. Ich empfehle Ihnen dringend, sowohl die Authentizität (mit GnuPG) als auch die Integrität (per Hash) zu überprüfen, bevor Sie mit der Installation fortfahren. Wenn Sie nicht wissen, wie man das macht, folgen Sie dieser Anleitung:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Auswahl des PIN-Codes
 
@@ -153,15 +153,15 @@ Sie können die aktuelle Firmware-Version Ihrer COLDCARD überprüfen. In meinem
 
 ![CCQ](assets/fr/019.webp)
 
-Prüfen Sie [auf der offiziellen COLDCARD-Website] (https://coldcard.com/downloads), ob eine neuere Version verfügbar ist. Klicken Sie auf "*Download*", um die neue Firmware herunterzuladen.
+Prüfen Sie [auf der offiziellen COLDCARD-Website](https://coldcard.com/downloads), ob eine neuere Version verfügbar ist. Klicken Sie auf "*Download*", um die neue Firmware herunterzuladen.
 
 ![CCQ](assets/fr/020.webp)
 
-An dieser Stelle empfehlen wir dringend, die Integrität und Authentizität der heruntergeladenen Firmware zu überprüfen. Laden Sie dazu [das Dokument mit den von den Entwicklern signierten Hashes aller Versionen] (https://raw.githubusercontent.com/Coldcard/firmware/master/releases/signatures.txt) herunter, überprüfen Sie die Signatur mit [dem öffentlichen Schlüssel des Entwicklers] (https://keybase.io/dochex) und stellen Sie sicher, dass der im signierten Dokument angegebene Hash mit dem der von der Website heruntergeladenen Firmware übereinstimmt. Wenn alles korrekt ist, können Sie mit der Aktualisierung fortfahren.
+An dieser Stelle empfehlen wir dringend, die Integrität und Authentizität der heruntergeladenen Firmware zu überprüfen. Laden Sie dazu [das Dokument mit den von den Entwicklern signierten Hashes aller Versionen](https://raw.githubusercontent.com/Coldcard/firmware/master/releases/signatures.txt) herunter, überprüfen Sie die Signatur mit [dem öffentlichen Schlüssel des Entwicklers](https://keybase.io/dochex) und stellen Sie sicher, dass der im signierten Dokument angegebene Hash mit dem der von der Website heruntergeladenen Firmware übereinstimmt. Wenn alles korrekt ist, können Sie mit der Aktualisierung fortfahren.
 
 Wenn Sie mit diesem Überprüfungsprozess nicht vertraut sind, empfehle ich Ihnen, diese Anleitung zu lesen:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Nehmen Sie eine microSD-Karte und übertragen Sie die Firmware-Datei (Dokument in `.dfu`) auf diese Karte. Stecken Sie die microSD-Karte in einen der Anschlüsse Ihrer COLDCARD.
 
@@ -201,7 +201,7 @@ In diesem Menü finden Sie verschiedene Anpassungsoptionen, wie z. B. die Einste
 
 Im nächsten Tutorial werden wir uns mit weiteren erweiterten Einstellungen beschäftigen:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 ## Erstellen einer Bitcoin-Brieftasche
 
@@ -332,7 +332,7 @@ Bevor Sie Ihre ersten Bitcoins in Ihrer Brieftasche erhalten, **empfehle ich Ihn
 
 Um mehr darüber zu erfahren, wie man einen Wiederherstellungstest durchführt, empfehle ich Ihnen, diesen anderen Lehrgang zu lesen:
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Bitcoins erhalten
 
@@ -384,7 +384,7 @@ Sie können jetzt ein "*Label*" hinzufügen, um die Quelle der Bitcoins zu besch
 
 Für weitere Informationen zum Thema Etikettierung empfehle ich auch diesen anderen Lehrgang:
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Sie können dann diese Adresse verwenden, um Bitcoins zu erhalten.
 
@@ -484,4 +484,4 @@ Wenn Sie diese Anleitung nützlich fanden, wäre ich Ihnen sehr dankbar, wenn Si
 
 Ich empfehle Ihnen auch, einen Blick auf dieses andere Tutorial zu werfen, in dem wir die erweiterten Optionen der COLDCARD Q besprechen:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0

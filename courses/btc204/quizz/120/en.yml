@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Dandelion first uses a stem phase where the transaction is sent through a random path of nodes. The transaction is then broadcast to the entire network in the fluff phase.
 
-reviewed: false
+reviewed: true

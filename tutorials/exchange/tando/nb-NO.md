@@ -73,15 +73,15 @@ Tando lar deg bruke bitcoins til å kjøpe alt M-Pesa kan kjøpe i Kenya. I till
 
 
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-https://planb.network/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
+https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
 
 
-- Skann for å betale** :
+- **Skann for å betale**:
 
 
 
@@ -95,7 +95,7 @@ Skann for å betale er en av applikasjonens automatiske betalingsalternativer. S
 
 
 
-- Sende penger til Kenya** :
+- **Sende penger til Kenya**:
 
 
 
@@ -121,7 +121,7 @@ Betal regningen fra Lightning Wallet, så konverterer Tando beløpet til kenyans
 
 
 
-- Betal regningene dine** :
+- **Betal regningene dine**:
 
 
 
@@ -135,7 +135,7 @@ Skriv inn nummeret på Invoice du ønsker å betale, og fortsett deretter med å
 
 
 
-- Kjøpe varer** :
+- **Kjøpe varer**:
 
 
 
@@ -159,4 +159,4 @@ Stadig flere initiativer som Tando dukker opp i afrikanske samfunn, for eksempel
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitspenda-34cf6f5d-4464-4f26-809f-de4af3cec5fd
+https://planb.academy/tutorials/exchange/centralized/bitspenda-34cf6f5d-4464-4f26-809f-de4af3cec5fd

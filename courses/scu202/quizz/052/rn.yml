@@ -1,0 +1,9 @@
+question: Ni igikorwa ikihe umuntu akwiye gukora imbere y’uko asangiza dosiye kuri interineti canke kuri imeyiri?
+answer: Gufuta metadata zose
+wrong_answers:
+  - kunyegeza metadata zose 
+  - Kwemeza metadata zose
+  - Guhindura izina ry’ama metadata yose
+explanation: |
+  Gusukura metadata bikurinda gutangaza amakuru y’agaciro utabigombereye igihe umuntu asangiza abandi amadosiye.
+reviewed: true

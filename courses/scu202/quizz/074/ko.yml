@@ -1,0 +1,9 @@
+question: Google이 터치 감응형 Interface으로 방향을 바꾸게 된 사건 Android은 무엇인가요?
+answer: 첫 번째 iPhone 출시
+wrong_answers:
+  - Microsoft의 노키아 인수
+  - CyanogenMod 생성
+  - Play 스토어 출시
+explanation: |
+  2007년 아이폰이 출시되면서 구글은 물리적 키보드가 있는 기기라는 생각을 버리고 터치스크린과 호환되도록 Android를 다시 생각해야 했습니다.
+reviewed: false

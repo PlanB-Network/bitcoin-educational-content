@@ -1,0 +1,9 @@
+question: Ni kuki Lightning Network ishobora kugereranywa n’“ubutumwa ngurukana bumenyi(email) muvyo kwishura amahera”?
+answer: Kuko ishoboza guhana hana ubutunzi biciye mumuco , murirusangi, kandi kudasaba uruhusha, kandi vyoroshe nko kurungika ubutumwa kuri terephone.
+wrong_answers:
+  - Kuko yohereza amahera biciye kubarungika ubutumwa ngurukana bumenyi bwakera.
+  - Kuko ikora gusa iyo ifatanye n’ubutumwa ngurukana bumenyi busanzwe .
+  - Kuko ibika amafaranga y’abakoresha mu muburyo bwubuhinga ngurukana bumenyi.
+explanation: |
+  Nk’uko nyene ubutumwa ngurukana bumenyi bwateje imbere cane uburyo bwo guhanahana amakuru mu gukuraho abahuza no gutuma umuntu wese yohereza ubutumwa kw’isi yose, Lightning Network yorosha kandi yihutisha ibikorwa vyo gutanga ubutumwa, igatuma gutanga amahera ata ngorane kandi bishikira nkubutumwa ngurukana bumenyi.
+reviewed:  true

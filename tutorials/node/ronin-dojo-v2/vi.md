@@ -4,7 +4,7 @@ description: Cài đặt node Bitcoin RoninDojo v2 trên Raspberry Pi
 ---
 ![cover RoninDojo v2](assets/cover.webp)
 
-***CẢNH BÁO:** Sau vụ bắt giữ các nhà sáng lập của Samourai Wallet và việc tịch thu máy chủ của họ vào ngày 24 tháng 4, một số tính năng của RoninDojo, như Whirlpool, không còn hoạt động. Tuy nhiên, có khả năng những công cụ này sẽ được khôi phục hoặc ra mắt lại theo cách khác trong những tuần tới. Ngoài ra, do mã nguồn của RoninDojo được lưu trữ trên GitLab của Samourai, cũng đã bị tịch thu, hiện tại không thể tải xuống mã nguồn từ xa. Các đội ngũ RoninDojo có khả năng đang làm việc để tái xuất bản mã nguồn.*
+**CẢNH BÁO:** Sau vụ bắt giữ các nhà sáng lập của Samourai Wallet và việc tịch thu máy chủ của họ vào ngày 24 tháng 4, một số tính năng của RoninDojo, như Whirlpool, không còn hoạt động. Tuy nhiên, có khả năng những công cụ này sẽ được khôi phục hoặc ra mắt lại theo cách khác trong những tuần tới. Ngoài ra, do mã nguồn của RoninDojo được lưu trữ trên GitLab của Samourai, cũng đã bị tịch thu, hiện tại không thể tải xuống mã nguồn từ xa. Các đội ngũ RoninDojo có khả năng đang làm việc để tái xuất bản mã nguồn.*
 
 _Chúng tôi đang theo dõi sát sao các diễn biến của vụ việc này cũng như các công cụ liên quan. Hãy yên tâm rằng chúng tôi sẽ cập nhật hướng dẫn này khi có thông tin mới._
 
@@ -12,11 +12,11 @@ _Hướng dẫn này được cung cấp chỉ dành cho mục đích giáo dụ
 
 ---
 
-> "*Sử dụng Bitcoin một cách riêng tư.*"
+> Sử dụng Bitcoin một cách riêng tư.
 
 Trong một hướng dẫn trước đây, chúng tôi đã giải thích quy trình cài đặt và sử dụng RoninDojo v1. Tuy nhiên, trong năm qua, các đội ngũ RoninDojo đã ra mắt phiên bản 2 của họ, đánh dấu một bước ngoặt quan trọng trong kiến trúc phần mềm. Thực tế, họ đã chuyển từ phân phối Linux Manjaro sang Debian. Do đó, họ không còn cung cấp hình ảnh được cấu hình sẵn cho việc cài đặt tự động trên Raspberry Pi. Nhưng vẫn còn một phương pháp để tiến hành cài đặt thủ công. Đây là phương pháp tôi đã sử dụng cho node của mình, và từ đó, RoninDojo v2 đã hoạt động tuyệt vời trên Raspberry Pi 4 của tôi. Vì vậy, tôi đang cung cấp một hướng dẫn mới về cách cài đặt thủ công RoninDojo v2 trên Raspberry Pi.
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
 
 
 
@@ -210,7 +210,7 @@ Một khi bạn đến trang chủ RoninUI, bạn sẽ được yêu cầu bắt
 
 ![lets start](assets/notext/25.webp)
 
-Tại giai đoạn này, RoninUI sẽ cung cấp cho bạn mật khẩu gốc `root password`. Điều cần thiết là phải giữ nó an toàn. Bạn có thể chọn sao lưu vật lý, trên giấy, hoặc lưu nó trong một [trình quản lý mật khẩu](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
+Tại giai đoạn này, RoninUI sẽ cung cấp cho bạn mật khẩu gốc `root password`. Điều cần thiết là phải giữ nó an toàn. Bạn có thể chọn sao lưu vật lý, trên giấy, hoặc lưu nó trong một [trình quản lý mật khẩu](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
 
 ![root password](assets/notext/26.webp)
 
@@ -244,7 +244,7 @@ Xin chúc mừng! Node RoninDojo v2 của bạn giờ đây đã được cấu 
 
 **Nếu bạn đang chuyển từ một node RoninDojo v1 cũ** sang phiên bản mới với hướng dẫn này trong khi giữ nguyên SSD, node của bạn nên tự động phát hiện và sử dụng lại dữ liệu hiện có trên đĩa, giúp bạn không cần phải thực hiện IBD lại. Trong trường hợp này, bạn chỉ cần đợi node của mình đồng bộ lại với các khối mới nhất.
 
-### Bước 8: "veth* fix"
+### Bước 8: **veth fix**
 Nếu bạn gặp phải một lỗi với RoninDojo v2 trên Raspberry Pi, khi mà sau một quá trình cài đặt không gặp trở ngại, node của bạn đột nhiên trở nên không thể truy cập qua SSH nhưng phục hồi sau một lần khởi động lại đơn giản, thì bạn cần thực hiện bước 8 này. Lỗi phổ biến này có thể được khắc phục dễ dàng với một giải pháp được cộng đồng phát triển: "_veth fix_". Sửa đổi nhỏ này khắc phục vĩnh viễn sự ngắt kết nối đột ngột. Dưới đây là cách áp dụng nó.
 
 Mở một terminal mới trên máy tính cá nhân của bạn và thiết lập một kết nối SSH với node của bạn bằng cách sử dụng lệnh sau:
@@ -254,7 +254,7 @@ Nếu, ví dụ, địa chỉ IP của node của bạn là `192.168.1.40`, lệ
 `SSH ronindojo@192.168.1.40`
 
 Bạn sẽ được yêu cầu nhập mật khẩu người dùng. Nhập nó vào và nhấn `enter` để xác nhận. Sau đó bạn sẽ truy cập vào giao diện RoninCLI. Sử dụng các phím mũi tên trên bàn phím của bạn để di chuyển đến tùy chọn `Exit RoninDojo` và nhấn `enter` để chọn nó.
-Tại thời điểm này, bạn đang ở trên terminal của node, với dấu nhắc lệnh tương tự như: `ronindojo@RoninDojo:~ $`. Để áp dụng sửa lỗi veth*, hãy nhập lệnh sau và nhấn `enter`: `sudo nano /etc/dhcpcd.conf`
+Tại thời điểm này, bạn đang ở trên terminal của node, với dấu nhắc lệnh tương tự như: `ronindojo@RoninDojo:~ $`. Để áp dụng sửa lỗi **veth**, hãy nhập lệnh sau và nhấn `enter`: `sudo nano /etc/dhcpcd.conf`
 
 Xác nhận lại mật khẩu của bạn và nhấn `enter`.
 
@@ -323,7 +323,7 @@ Một hướng dẫn chi tiết đang được chuẩn bị để hướng dẫn
 
 Để hiểu sâu hơn về trộn coin và cách sử dụng nó trên Bitcoin, tôi cũng mời bạn tham khảo bài viết khác: Hiểu và sử dụng trộn coin trên Bitcoin - Understanding and using coinjoin on Bitcoin, nơi tôi chi tiết hoá mọi thứ bạn cần biết về kỹ thuật này.
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ### Sử dụng công cụ Whirlpool Stat Tool (WST)
 
@@ -331,7 +331,7 @@ Sau khi thực hiện trộn coin với Whirlpool, việc đánh giá chính xá
 
 Để hiểu sâu hơn về cơ chế tính toán của các tập hợp ẩn danh này, tôi khuyên bạn đọc bài viết: REMIX - WHIRLPOOL, chi tiết về cách hoạt động của các chỉ số này.
 
-https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 
@@ -510,3 +510,4 @@ Về các tab khác có sẵn trên bảng điều khiển RoninUI của bạn:
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/giới thiệu-boltzmann-85930984a159](https://medium.com/@laurentmt/giới thiệu-boltzmann-85930984a159)
 - [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+

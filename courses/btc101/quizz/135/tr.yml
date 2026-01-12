@@ -1,8 +1,8 @@
-question: Bitcoin ağındaki zorluk ayarlamasının işlevi nedir?
-answer: Yaklaşık her on dakikada bir Blockchain'e bir blok eklenmesini sağlar.
+question: Bitcoin bağlamında bir pruned düğümü nedir?
+answer: Yalnızca son N bloğu bellekte tutan bir düğüm.
 wrong_answers:
-  - Bitcoin'nin fiyatını belirler.
-  - Blockchain'te çıkarılabilecek bitcoin sayısını düzenler.
-  - Bir bloğun boyutunu belirler.
+  - Yalnızca işlemleri doğrulayan bir düğüm.
+  - Yalnızca diğer düğümlere bilgi ileten bir düğüm.
+  - Yalnızca Bitcoin protokolünün kurallarını uygulayan bir düğüm.
 explanation: >-
 reviewed: true

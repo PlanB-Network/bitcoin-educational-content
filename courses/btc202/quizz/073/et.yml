@@ -1,0 +1,9 @@
+question: Milline on parameetri assumevalid funktsioon Bitcoin core-s?
+answer: Skripti kontrollimise eiramine enne viiteplokki
+wrong_answers:
+  - Ignoreerida Proof-of-Work kontroll enne võrdlusplokki
+  - Ignoreerida päise kontroll enne viiteplokki
+  - Force Tor peer avastamiseks
+explanation: |
+  Assumevalid kiirendab IBD-d, ignoreerides skriptide kontrollimist enne teadaolevat plokki, säilitades samal ajal kõik muud valideerimised.
+reviewed: true

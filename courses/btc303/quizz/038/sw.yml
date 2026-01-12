@@ -1,0 +1,9 @@
+question: Kwa mujibu wa sura hiyo, ni nini kinachofautisha fork laini kutoka kwa fork ngumu katika mabadiliko ya sheria ya makubaliano ya Bitcoin?
+answer: fork laini inaendana kikamilifu (ya mbele na nyuma inaendana) wakati fork ngumu inaendana tu na kurudi nyuma.
+wrong_answers:
+  - fork laini inahitaji kuwezesha mchimbaji kuashiria huku fork ngumu inatumia kuwezesha siku ya bendera
+  - fork laini hubadilisha opcodes zilizopo huku fork ngumu huongeza tu opcodes mpya kama vile OP_NOP1-OP_NOP10
+  - fork laini inaweza kutekelezwa kwa siri katika ahadi huku fork ngumu inahitaji tangazo la umma
+explanation: |
+  Sura hii inafafanua kwa uwazi aina za uoanifu: uoanifu wa mbele huruhusu programu ya zamani kuchakata data mpya kwa kupuuza sehemu zisizojulikana, huku upatanifu wa nyuma huruhusu programu mpya kuchakata data ya zamani. fork laini hudumisha aina zote mbili za utangamano, na kuifanya iendane kikamilifu. fork ngumu hudumisha upatanifu wa nyuma, kumaanisha programu mpya inaweza kuchakata data ya zamani lakini programu ya zamani haiwezi kuchakata data mpya kutoka kwa mfumo ulioboreshwa. Tofauti hii ni muhimu kwa kuelewa mbinu za kuboresha Bitcoin na kwa nini uma laini hupendelewa kwa kudumisha uwiano wa mtandao.
+reviewed: false

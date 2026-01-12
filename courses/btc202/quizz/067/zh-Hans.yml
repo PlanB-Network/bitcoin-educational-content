@@ -1,0 +1,9 @@
+question: 恢复闪电节点需要哪些备份？
+answer: 种子和 SCB
+wrong_answers:
+  - 种子和 txindex 文件
+  - 种子和公共 IP 地址
+  - 种子和 2FA
+explanation: |
+  恢复 "闪电" 节点需要种子和 SCB（静态通道备份），没有它们就无法恢复通道资金。
+reviewed: true

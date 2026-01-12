@@ -1,9 +1,10 @@
-question: Mis on üks põhjustest, miks peaksite aeg-ajalt oma rahakotis UTXOsid konsolideerima?
-answer: Vältimaks tarbetuid tasusid tehingute ajal.
+question: Kuidas on Bitcoin tekstis kirjeldatud?
+answer: Mitme distsipliini objekt
 wrong_answers:
-  - Suurendamaks oma Bitcoini väärtust.
-  - Hoidmaks ära oma Bitcoini varguse.
-  - Tagamaks, et teie Bitcoin oleks alati kättesaadav.
+  - Lihtne objekt
+  - Keeruline objekt
+  - Ühe distsipliini objekt
 explanation: >-
-  Tekstis mainitakse, et oma rahakotis UTXOde aeg-ajalt konsolideerimine on oluline oma bitcoinide efektiivseks haldamiseks ja tarbetute tasude vältimiseks tehingute ajal.
+  Bitcoini kirjeldatakse mitme distsipliini objektina, kuna see tõstatab küsimusi, mis on seotud mitmete valdkondadega, sealhulgas krüptograafia, mänguteooria, majandus
+  ja rahapoliitika, arvutiteadus, filosoofia, energia, seadused ja regulatsioonid.
 reviewed: false

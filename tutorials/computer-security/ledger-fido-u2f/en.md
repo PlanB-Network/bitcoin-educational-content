@@ -1,5 +1,5 @@
 ---
-name: Ledger U2F & FIDO2
+name: "Ledger U2F & FIDO2"
 description: Enhance your online security with Ledger
 ---
 ![cover](assets/cover.webp)
@@ -122,7 +122,7 @@ On Bitwarden, for example, you can access this code by clicking on "*View recove
 I recommend that you keep this code in a different place from where you store your main password, to prevent them being stolen together. For example, if your password is saved in a password manager, keep your 2FA emergency code on paper, separately.
 
 
-This approach offers you two levels of backup in the event of loss of your Ledger for 2FA authentication: a first backup using the mnemonic phrase for all your accounts, and a second account-specific backup using the emergency codes. However, it is important **not to confuse the role of the mnemonic with that of the emergency code** :
+This approach offers you two levels of backup in the event of loss of your Ledger for 2FA authentication: a first backup using the mnemonic phrase for all your accounts, and a second account-specific backup using the emergency codes. However, it is important **not to confuse the role of the mnemonic with that of the emergency code**:
 
 
 - The 12- or 24-word mnemonic phrase gives you access not only to the keys used for 2FA on all your accounts, but also to your bitcoins secured with your Ledger ;
@@ -135,4 +135,4 @@ Congratulations, you're now up to speed on using your Ledger for MFA! If you fou
 I'd also recommend this other tutorial, in which we look at another solution for U2F and FIDO2 authentication:
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

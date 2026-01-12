@@ -1,0 +1,8 @@
+question: Prema Fermatovom Malom Teoremu, multiplikativni inverz elementa n u prostom polju F(p) je n^(p-2) mod p.
+answer: n^(p-2) mod p
+wrong_answers:
+  - n^(p-1) mod p
+  - n^(p+1) mod p
+  - n^(p+2) mod p
+explanation: |
+  Mali Fermatov teorem kaže da je n^(p-1) ≡ 1 (mod p) za bilo koji nenulti element n u prostom polju. Da bismo pronašli multiplikativni inverz, potrebna nam je vrednost koja kada se pomnoži sa n daje 1. Pošto je n^(p-1) ≡ 1, možemo ovo prepisati kao n · n^(p-2) ≡ 1, što dokazuje da je n^(p-2) multiplikativni inverz od n. Ostale opcije su netačne: n^(p-1) je jednako 1 prema Fermatovom teoremu, dok bi n^(p+1) i n^(p+2) dali vrednosti ekvivalentne n^2 i n^3 respektivno kada se redukuju modulo p.

@@ -91,9 +91,9 @@ Med BIP-85 kan du opprette flere Bitcoin-porteføljer fra én enkelt seed-kjerne
 
 
 
-- Scenario**: Du bruker en "Hot Wallet" Wallet (installert på en Internett-tilkoblet enhet) til daglige transaksjoner.
-- Løsning BIP-85**: Du oppretter en seed sekundærfrase dedikert til denne porteføljen.
-- Fordel i forhold til BIP-32**: Du trenger ikke å importere seeds primære frase til telefonen, noe som reduserer risikoen for hacking. Bare seeds sekundære frase er kompromittert, noe som beskytter de andre lommebøkene dine. Med BIP-32 må du bruke seed-hovedfrasen og en omgåelsesbane, noe som eksponerer alle midlene dine.
+- **Scenario**: Du bruker en "Hot Wallet" Wallet (installert på en Internett-tilkoblet enhet) til daglige transaksjoner.
+- **Løsning BIP-85**: Du oppretter en seed sekundærfrase dedikert til denne porteføljen.
+- **Fordel i forhold til BIP-32**: Du trenger ikke å importere seeds primære frase til telefonen, noe som reduserer risikoen for hacking. Bare seeds sekundære frase er kompromittert, noe som beskytter de andre lommebøkene dine. Med BIP-32 må du bruke seed-hovedfrasen og en omgåelsesbane, noe som eksponerer alle midlene dine.
 
 
 
@@ -103,9 +103,9 @@ Med BIP-85 kan du opprette flere Bitcoin-porteføljer fra én enkelt seed-kjerne
 
 
 
-- Scenario**: Du setter opp en Bitcoin Wallet til noen som står deg nær (f.eks. moren din), samtidig som du kan få den tilbake hvis vedkommende mister den.
-- Løsning BIP-85**: Du oppretter en dedikert seed sekundær setning og deler kun denne.
-- Fordel i forhold til BIP-32**: Med BIP-32 må du enten dele hovedfrasen din i seed, noe som risikerer alle midlene dine og kompliserer administrasjonen for den du er glad i (håndtering av forgreningsveier), eller opprette en ny seed-frase for å lagre i tillegg til hovedfrasen din i seed.
+- **Scenario**: Du setter opp en Bitcoin Wallet til noen som står deg nær (f.eks. moren din), samtidig som du kan få den tilbake hvis vedkommende mister den.
+- **Løsning BIP-85**: Du oppretter en dedikert seed sekundær setning og deler kun denne.
+- Fordel i forhold til BIP-32: Med BIP-32 må du enten dele hovedfrasen din i seed, noe som risikerer alle midlene dine og kompliserer administrasjonen for den du er glad i (håndtering av forgreningsveier), eller opprette en ny seed-frase for å lagre i tillegg til hovedfrasen din i seed.
 
 
 
@@ -115,9 +115,9 @@ Med BIP-85 kan du opprette flere Bitcoin-porteføljer fra én enkelt seed-kjerne
 
 
 
-- Scenario**: Du skiller ut bitcoins til ulike formål (f.eks. langsiktig sparing, ikke-KYC-fond).
-- Løsning BIP-85**: Du oppretter seed sekundære fraser dedikert til hvert mål.
-- Fordel i forhold til BIP-32**: Med BIP-32 deler alle kontoer den samme seed-frasen, noe som kompliserer administrasjonen i tredjepartsporteføljer ved at avledningsstier som `m/44'/0'/0'/0'` må administreres. I tillegg er det ikke mulig å tilordne en separat konto per enhet (f.eks. "sparing på Coldcard", "daglig på mobil", "ferier på Trezor"). BIP-85 tildeler en unik seed sekundærfrase per mål, som er enkel å identifisere og importere separat på hver enhet.
+- **Scenario**: Du skiller ut bitcoins til ulike formål (f.eks. langsiktig sparing, ikke-KYC-fond).
+- **Løsning BIP-85**: Du oppretter seed sekundære fraser dedikert til hvert mål.
+- Fordel i forhold til **BIP-32**: Med BIP-32 deler alle kontoer den samme seed-frasen, noe som kompliserer administrasjonen i tredjepartsporteføljer ved at avledningsstier som `m/44'/0'/0'/0'` må administreres. I tillegg er det ikke mulig å tilordne en separat konto per enhet (f.eks. "sparing på Coldcard", "daglig på mobil", "ferier på Trezor"). BIP-85 tildeler en unik seed sekundærfrase per mål, som er enkel å identifisere og importere separat på hver enhet.
 
 
 
@@ -127,9 +127,9 @@ Med BIP-85 kan du opprette flere Bitcoin-porteføljer fra én enkelt seed-kjerne
 
 
 
-- Scenario**: Du trenger en midlertidig portefølje for en engangstransaksjon eller for å bevare konfidensialitet (f.eks. blanding av midler, interaksjon med en Exchange KYC osv.).
-- Løsning BIP-85**: Du oppretter en seed sekundær setning, bruker den til transaksjonen og ødelegger den om nødvendig, vel vitende om at den kan regenereres.
-- Fordel i forhold til BIP-32**: Med BIP-32 er en midlertidig konto avhengig av seed-hovedsetningen, noe som eksponerer alle midlene dine hvis de blir kompromittert.
+- **Scenario**: Du trenger en midlertidig portefølje for en engangstransaksjon eller for å bevare konfidensialitet (f.eks. blanding av midler, interaksjon med en Exchange KYC osv.).
+- **Løsning BIP-85**: Du oppretter en seed sekundær setning, bruker den til transaksjonen og ødelegger den om nødvendig, vel vitende om at den kan regenereres.
+- **Fordel i forhold til BIP-32**: Med BIP-32 er en midlertidig konto avhengig av seed-hovedsetningen, noe som eksponerer alle midlene dine hvis de blir kompromittert.
 
 
 
@@ -141,7 +141,7 @@ Med BIP-85 kan du opprette flere Bitcoin-porteføljer fra én enkelt seed-kjerne
 
 
 
-- Maskinvare** (valgfritt)
+- **Maskinvare** (valgfritt)
  - Coldcard Mk4 eller Q1
  - MicroSD-kort
 
@@ -158,7 +158,7 @@ Med BIP-85 kan du opprette flere Bitcoin-porteføljer fra én enkelt seed-kjerne
 
 
 
-- Kompatibel** programvare
+- **Kompatibel** programvare
  - Sparrow wallet (datamaskin, for kun overvåking eller avansert styring)
  - Nunchuck (mobil, for multisignaturer)
  - BlueWallet (mobil)
@@ -168,7 +168,7 @@ Med BIP-85 kan du opprette flere Bitcoin-porteføljer fra én enkelt seed-kjerne
 
 
 
-- 3.4 Coldcard**-konfigurasjon
+- 3.4 **Coldcard-konfigurasjon**
  - Initialiser en seed-setning med 24 ord på Coldcard.
  - Valgfritt: Legg til en passphrase for å sikre tilgang til BIP-85-grener.
  - Aktiver nyttige alternativer: NFC (for eksport), deaktiver USB på batteri (sikkerhet).
@@ -197,7 +197,7 @@ Slå på Coldcard og tast inn PIN-koden din.
 
 
 
-- 1. Hvis du har brukt en passphrase på din hoved seed:**
+- 1. Hvis du har brugt en passphrase på din hoved seed:
  - Gå til `passphrase` på startskjermen.
     - Velg "Legg til ord" og skriv inn passordet ditt.
     - Trykk på `Apply`.
@@ -207,7 +207,7 @@ Slå på Coldcard og tast inn PIN-koden din.
 
 
 
-- 2. Gå til BIP-85**-menyen
+- 2. Gå til **BIP-85**-menyen
  - Gå til `Avansert > Utlede seed B85` på startskjermen
  - Les advarselen og bekreft.
 
@@ -246,7 +246,7 @@ Velg fraseformatet for seed: 12, 18 eller 24 ord. Kryss av for antall ord som go
 
 
 
-- 5. Noter eller eksporter seed sekundær setning**
+- 5. Noter eller eksporter seed sekundær setning
 
 
 ColdCard viser nå en ny seed sekundær setning. Du kan :
@@ -415,13 +415,13 @@ Flere ressurser i vedleggene.
 
 
 
-- [BEEP] (https://planb.network/resources/glossary/bip)
-- [BIP-32](https://planb.network/resources/glossary/bip0032)
-- [BIP-39](https://planb.network/resources/glossary/bip0039)
-- [BIP-85](https://planb.network/resources/glossary/bip0085)
-- [seed frase](https://planb.network/resources/glossary/recovery-phrase)
-- [passphrase](https://planb.network/resources/glossary/passphrase-bip39)
-- [Multisig](https://planb.network/resources/glossary/Multisig)
+- [BEEP](https://planb.academy/resources/glossary/bip)
+- [BIP-32](https://planb.academy/resources/glossary/bip0032)
+- [BIP-39](https://planb.academy/resources/glossary/bip0039)
+- [BIP-85](https://planb.academy/resources/glossary/bip0085)
+- [seed frase](https://planb.academy/resources/glossary/recovery-phrase)
+- [passphrase](https://planb.academy/resources/glossary/passphrase-bip39)
+- [Multisig](https://planb.academy/resources/glossary/multisig)
 
 
 
@@ -430,18 +430,18 @@ Flere ressurser i vedleggene.
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 
 ### A.3 Forståelse av passphrase BIP39
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 
 ### A.4 Hvordan Bitcoin-porteføljer fungerer
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

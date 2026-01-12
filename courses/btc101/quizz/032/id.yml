@@ -1,9 +1,11 @@
-question: Bagaimana uang yang sehat dapat diciptakan?
-answer: Uang adalah fenomena sosial alami yang harus muncul dari pasar dan konsensus sukarela
+question: Apa tujuan utama dari Bitcoin?
+answer: Untuk memisahkan Negara dari uang
 wrong_answers:
-  - Pemerintah memaksakannya melalui undang-undang
-  - Manusia menggunakan kekerasan dan paksaan untuk memaksa orang lain menerima uang mereka
-  - Uang yang sehat tidak dapat diciptakan
-explanation: >-
-  Uang yang sehat adalah fenomena sosial alami yang harus muncul dari pasar dan konsensus sukarela. Tidak ada manusia atau kelompok manusia yang dapat menciptakan uang.
+  - Untuk menggantikan emas sebagai standar global
+  - Untuk membuat transaksi lebih cepat dan lebih murah
+  - Untuk membuat semua orang kaya
+explanation: |
+  Bitcoin diciptakan dengan tujuan untuk memisahkan Negara dari uang.
+  Ini merupakan respons terhadap tantangan sistemik dari sistem keuangan saat ini,
+  di mana negara memiliki kontrol atas pasokan uang dan dapat memanipulasinya untuk keuntungannya.
 reviewed: true

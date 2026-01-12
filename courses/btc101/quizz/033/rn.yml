@@ -1,0 +1,12 @@
+question: Ni ubuhe buryo inzego za leta zikoresha kugira ngo zigabanye agaciro k’amahera y’amahera?
+answer: Barongera amahera menshi n’ibice bikeyi kw’ijana buri mwaka.
+wrong_answers:
+  - Bagabanya amahera menshi n’ibice bikeyi kw’ijana buri mwaka.
+  - Bigumya uburemere bwayo bw’amahera butahinduka ugereranije n’uburemere bwayo bwa mbere.
+  - Bafise uburemere bwayo bw’amahera buhinduka mu buryo butari bwo ugereranyije n’uburemere bwa mbere.
+explanation: |
+  Inzego zikuru kenshi zigabanya agaciro k'ifaranga mu kwongera
+  amahera menshi ugereranyije n’ay’intango n’ibice bikeyi kw’ijana
+  buri mwaka. Ukwo gusenyura agaciro mu gacerere akenshi gushingira intahe nk’uko .
+  kuba mu nyungu z’abantu.
+reviewed: true

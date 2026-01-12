@@ -1,0 +1,9 @@
+question: Quel compromis principal existe avec les nœuds LN embarqués ?
+answer: Dépendance à un opérateur
+wrong_answers:
+  - Perte des clés privées
+  - Absence de self-custody
+  - Paiements onchain obligatoires pour toutes les transactions Lightning
+explanation: |
+  L’utilisateur dépend fortement de l’opérateur principal pour la connectivité et la gestion des canaux.
+reviewed: false

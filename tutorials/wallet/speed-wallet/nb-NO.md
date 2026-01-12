@@ -1,5 +1,5 @@
 ---
-name: Hastighet Wallet
+name: Speed Wallet
 description: Betal og Exchange i bitcoins og USDT umiddelbart
 ---
 ![cover](assets/cover.webp)
@@ -49,7 +49,7 @@ I denne veiledningen tar vi deg gjennom alle disse aspektene for å gjøre opple
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Kom i gang med Speed Wallet
 
@@ -79,7 +79,7 @@ Speed Wallet krever at du oppretter en brukerkonto. Du kan opprette en fra Googl
 
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 ![download](assets/fr/01.webp)
 
@@ -89,7 +89,7 @@ Når kontoen din er opprettet, anbefaler vi at du konfigurerer et system med dob
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Dette gjør du ved å gå til applikasjonsinnstillingene og deretter aktivere dobbel autentisering og biometrisk verifisering.
 
@@ -161,7 +161,7 @@ Du kan også bruke Lightning Address når du ønsker å gi avsenderen fleksibili
 
 
 
-- Send bitcoins med Speed Wallet** :
+- Send bitcoins med **Speed Wallet**:
 
 
 
@@ -191,7 +191,7 @@ Med alternativene **Buy** og **Swap** kan du veksle bitcoins til andre valutaer 
 
 
 
-- Kjøp Bitcoin med kredittkortet ditt**: Speed Wallet gjør det enkelt å kjøpe Bitcoin fra fiat-valutaene du bruker hver dag. Den inneholder en betalingsaggregator som lar deg betale bitcoins med kredittkortet ditt.
+- **Kjøp Bitcoin med kredittkortet ditt**: Speed Wallet gjør det enkelt å kjøpe Bitcoin fra fiat-valutaene du bruker hver dag. Den inneholder en betalingsaggregator som lar deg betale bitcoins med kredittkortet ditt.
 
 
 
@@ -201,13 +201,13 @@ Med alternativene **Buy** og **Swap** kan du veksle bitcoins til andre valutaer 
 
 
 
-- Kjøp Bitcoin fra andre kryptovalutaer**: Du kan Exchange USDT, USDC for bitcoins i din Wallet og vice versa. Gjennom dette alternativet forenkler Speed Wallet prosessen med å kjøpe og selge Bitcoin uten å henvise til eksterne Exchange-plattformer. Så du kan handle for så lite som 20 000 satoshier, rundt 20 dollar til dagens kurs, uten å forlate din Speed Wallet.
+- **Kjøp Bitcoin fra andre kryptovalutaer**: Du kan Exchange USDT, USDC for bitcoins i din Wallet og vice versa. Gjennom dette alternativet forenkler Speed Wallet prosessen med å kjøpe og selge Bitcoin uten å henvise til eksterne Exchange-plattformer. Så du kan handle for så lite som 20 000 satoshier, rundt 20 dollar til dagens kurs, uten å forlate din Speed Wallet.
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
+https://planb.academy/tutorials/exchange/centralized/bitfinex-dc306d39-bd96-4ab9-a278-a322316716db
 
-https://planb.network/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
+https://planb.academy/tutorials/exchange/centralized/relai-v2-30a9671d-e407-459d-9203-4c3eae15b30e
 
 ![swap-btc](assets/fr/07.webp)
 
@@ -265,7 +265,7 @@ Se vår veiledning om hvordan du kommer i gang med Bitrefill nedenfor.
 
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 ## Tjen belønninger
 
@@ -327,13 +327,13 @@ I **Innstillinger** på **Wallet**-siden kan du under **Mini Apps** tilpasse og 
 
 
 
-https://planb.network/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
+https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90e9-d37ad90ae770
 
 ## Speed Wallet er ikke bare for mobil!
 
 
 
-I tillegg til mobilapplikasjonen tilbyr Speed Wallet også en [Chrome Web-utvidelse] (https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk) som du kan legge til i Google Chrome-nettleseren på datamaskinen din for sikre transaksjoner.
+I tillegg til mobilapplikasjonen tilbyr Speed Wallet også en [Chrome Web-utvidelse](https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk) som du kan legge til i Google Chrome-nettleseren på datamaskinen din for sikre transaksjoner.
 
 
 
@@ -365,7 +365,7 @@ Speed Wallet legger særlig vekt på integrering og bruk av Bitcoin og stablecoi
 
 
 
-Fra [Speed Business] (https://www.tryspeed.com/) har du en enhetlig betalingsaggregat for å akseptere Bitcoin, drevet av Lightning Network, som du kan bruke i butikken din, på nett eller fysisk.
+Fra [Speed Business](https://www.tryspeed.com/) har du en enhetlig betalingsaggregat for å akseptere Bitcoin, drevet av Lightning Network, som du kan bruke i butikken din, på nett eller fysisk.
 
 
 
@@ -375,25 +375,25 @@ I hovedsak fokusert på betalinger, finner du følgende alternativer:
 
 
 
-- Betalinger på nett**: Med dette alternativet kan du godta Bitcoin som betalingsmiddel for dine digitale produkter, via betalingslenker, fakturering og abonnementer.
+- **Betalinger på nett**: Med dette alternativet kan du godta Bitcoin som betalingsmiddel for dine digitale produkter, via betalingslenker, fakturering og abonnementer.
 
 
 
 
 
-- Betalinger på stedet**: For å samle inn betalinger i butikken din.
+- **Betalinger på stedet**: For å samle inn betalinger i butikken din.
 
 
 
 
 
-- Øyeblikkelige betalinger**: Et alternativ som lar deg administrere refusjoner, uttak, utlegg og lønnsslipper for ansatte direkte fra Speed Business Interface.
+- **Øyeblikkelige betalinger**: Et alternativ som lar deg administrere refusjoner, uttak, utlegg og lønnsslipper for ansatte direkte fra Speed Business Interface.
 
 
 
 
 
-- Plattformbetalinger**: Koble Speed Business-kontoen din til eksterne verktøy du bruker til å foreta overføringer og betalinger til disse plattformene.
+- **Plattformbetalinger**: Koble Speed Business-kontoen din til eksterne verktøy du bruker til å foreta overføringer og betalinger til disse plattformene.
 
 
 
@@ -401,4 +401,4 @@ Du har kommet til slutten av vår Speed Wallet-veiledning. Hvis du synes denne v
 
 
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

@@ -1,0 +1,9 @@
+question: Ni kubera iki ibanga ryonyene ridahagije kugira ngo umuntu ashobore kuvugana ata nkomanzi?
+answer: Kuko uwutera arashobora gufata ubutumwa no kubuhindura ataco atahura ibirimwo.
+wrong_answers:
+  - Kubera ko ibanga rigoye cane kuronka.
+  - Kuko imfunguruzo z’ibanga zishobora gutegurwa bitagoranye.
+  - Kuko ubutumwa ntibushobora kwemezwa ata sinyatire ya digitale.
+explanation: |
+  Ibanga ririnda ibiri mu butumwa, ariko iyo ata MAC, uwutera yoshobora gufata no guhindura ubutumwa atabutahuye, gutyo bigatuma ubutungane bw’ubutumwa buhungabana.
+reviewed: false

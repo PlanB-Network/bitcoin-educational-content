@@ -1,0 +1,9 @@
+question: Gufatanya mu gucuruza ni iki?
+answer: Ni igikorwa co kurya ama UTXO menshi nk’ibintu vyinjizwa.
+wrong_answers:
+  - Ni igikorwa co kurema UTXO nyinshi nk’ibisohoka.
+  - Ni igikorwa co gufatanya amaderesi menshi ngo abe imwe.
+  - Ni igikorwa co gufatanya amabuye menshi muri Blockchain.
+explanation: |
+  Iyo uwukoresha atagira UTXO irenze canke ingana n’ivyo yipfuza kohereza, ategerezwa gukoresha UTXO ziwe nyinshi kugira ngo ahaze ibisohoka. Uwo mugenzo witwa gufatanya.
+reviewed: false

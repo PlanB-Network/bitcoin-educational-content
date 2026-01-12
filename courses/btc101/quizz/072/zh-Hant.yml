@@ -1,12 +1,11 @@
-question: Bitcoin Wallet 的三個主要功能是什麼？
-answer: 接收比特幣、傳送比特幣、保護比特幣免受駭客入侵和盜竊企圖。
+question: 如何加強 Bitcoin Wallet 的預設安全性？
+answer: 通過在您的 Bitcoin Wallet 上增加一個 passphrase。
 wrong_answers:
-  - 儲存比特幣、傳送比特幣、保護比特幣免受駭客入侵和盜竊企圖。
-  - 允許接收 bitcoins、儲存 bitcoins、保護 bitcoins 免遭駭客入侵和竊取。
-  - 允許接收 bitcoins、允許傳送 bitcoins、出售 bitcoins。
+  - 在 Bitcoin Wallet 中加入第二個私人密碼匙。
+  - 將第二個公開金鑰加入您的 Bitcoin Wallet。
+  - 在您的 Bitcoin Wallet 中加入第二個 Mnemonic 詞組。
 explanation: |
-  Bitcoin Wallet 用於與 Bitcoin
-  網路互動。它的三個主要功能是允許接收
-  比特幣、允許發送比特幣，以及保護比特幣免受
-  黑客入侵和盜竊。
+  如果您不滿意您的
+  Bitcoin Wallet 的預設安全性感到不滿意，您可以隨時在您的
+  passphrase 到您的 Bitcoin Wallet。
 reviewed: true

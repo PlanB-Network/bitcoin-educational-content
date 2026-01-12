@@ -1,0 +1,8 @@
+question: Vad är det främsta skälet till att P2SH-förpackade SegWit-transaktioner använder tre lager av valideringsregler under verifieringen?
+answer: För att säkerställa bakåtkompatibilitet mellan noder före BIP16, efter BIP16 och SegWit och samtidigt upprätthålla samförstånd
+wrong_answers:
+  - Tredubbla säkerheten genom att kräva tre separata kryptografiska bevis innan transaktionen godkänns
+  - För att fördela valideringens arbetsbelastning på olika nodtyper för att förbättra nätverkets prestanda och skalbarhet
+  - För att förhindra double-spending-attacker genom att validera samma transaktionsdata med tre oberoende metoder
+explanation: |
+  P2SH-förpackad SegWit använder tre valideringslager specifikt för bakåtkompatibilitet: pre-BIP16-noder accepterar redeemScript som giltigt, post-BIP16-noder utvärderar det och lämnar OP_0 + hash på stacken, och SegWit-noder utför fullständig vittnesvalidering. Detta skiktade tillvägagångssätt säkerställer att alla nodtyper kan delta i konsensus utan att gå sönder, till skillnad från de felaktiga svaren som föreslår säkerhetsmultiplicering, prestandadistribution eller förebyggande av dubbla utgifter som primära motiv.

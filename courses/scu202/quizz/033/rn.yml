@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo butegerezwa gukoreshwa muri UEFI kugira ngo umuntu akingire sisiteme ugushitsa kode idashizweko umukono mu gihe co kwaka?
+answer:  Secure Boot
+wrong_answers:
+  - Fast Boot
+  - Fast Startup
+  - Trusted Platform Module (TPM)
+explanation: |
+  Secure Boot ituma porogarame yemewe yonyene ishobora kwatsa sisiteme, gutyo bikagabanya ingorane zo kwandukizwa umugera wa bootkit/rootkit.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Input mu gucuruza ni iki?
+answer: Ivyerekeye UTXO ya kera itakoreshejwe.
+wrong_answers:
+  - Ikimenyetso co kwemeza kivuye ku bacukuzi.
+  - Igipande gishasha congerewe kuri Blockchain.
+  - Kode yo kugenzura kugira ngo ukingire ivy’ugucuruza.
+explanation: |
+  Igikoresho cose co kwinjiza ni ikigereranyo ca UTXO, bisobanura igisohoka c’igikorwa c’imbere.
+reviewed: false

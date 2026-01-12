@@ -1,0 +1,9 @@
+question: Ni gute umutekano w’ihinduka rya RGB mu murongo wa Lightning ushikirizwa iyo igihugu kitagikoreshwa kimenyekanishijwe?
+answer: Biciye mu buhinga bwo guhana bw’Umuyoboro w’Imiravyo .
+wrong_answers:
+  - Mu gukuraho amafaranga yose ya kera
+  - Biciye mu buhinga bwo guhana bw'amasezerano ya RGB
+  - Biciye mu gufasha kw’uwutanga umutungo wa RGB biciye ku musinya wiwe ujanye n’uwa Genesis.
+explanation: |
+  Uburyo bwa kera bwo guhana bwa Lightning Network buratuma gukwiragiza ikintu ca kera gishobora guhanwa no gusubizwa amahera yose yarimwo, harimwo n’itunga rya RGB.
+reviewed: false

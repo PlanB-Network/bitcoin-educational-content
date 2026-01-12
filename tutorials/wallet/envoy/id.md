@@ -1,5 +1,5 @@
 ---
-name: Utusan
+name: Envoy
 description: Menyiapkan dan menggunakan Paspor dengan aplikasi Envoy
 ---
 ![cover](assets/cover.webp)
@@ -22,7 +22,7 @@ Dalam tutorial ini, yang ditujukan untuk pengguna pemula dan menengah, kita akan
 
 Jika Anda pengguna tingkat lanjut dan ingin menjelajahi fitur-fitur yang lebih kompleks, saya sarankan Anda melihat tutorial lain di mana kita mengonfigurasi Passport dengan Sparrow Wallet :
 
-https://planb.network/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
+https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866-573297546236
 
 ## Membuka Kotak Paspor
 
@@ -64,11 +64,11 @@ Buka toko aplikasi Anda untuk mengunduh Envoy :
 
 - Di [Google Play Store](https://play.google.com/store/apps/details?id=com.foundationdevices.envoy);
 - Di [App Store](https://apps.apple.com/us/app/envoy-by-foundation/id1584811818);
-- Pada [F-Cold] (https://foundation.xyz/fdroid/).
+- Pada [F-Cold](https://foundation.xyz/fdroid/).
 
 ![Image](assets/fr/50.webp)
 
-Anda juga dapat mengunduh file APK secara langsung [dari repositori GitHub Foundation] (https://github.com/Foundation-Devices/envoy/releases).
+Anda juga dapat mengunduh file APK secara langsung [dari repositori GitHub Foundation](https://github.com/Foundation-Devices/envoy/releases).
 
 ![Image](assets/fr/51.webp)
 
@@ -170,7 +170,7 @@ Untuk melakukan ini, gunakan kartu MicroSD yang disertakan dalam kotak Passport 
 
 Sebelum menginstalnya di perangkat Anda, kami sangat menyarankan Anda untuk memeriksa keaslian dan integritas firmware yang diunduh. Jika Anda memerlukan bantuan dalam hal ini, bacalah tutorial ini:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ### Dengan aplikasi Envoy
 
@@ -254,9 +254,9 @@ Klik tombol konfirmasi untuk melihat frasa mnemonik Anda.
 
 Untuk informasi lebih lanjut mengenai cara yang tepat untuk menyimpan dan mengelola frasa mnemonik Anda, saya sangat merekomendasikan untuk mengikuti tutorial lainnya, khususnya jika Anda seorang pemula:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-tentu saja, Anda tidak boleh membagikan kata-kata ini di Internet, seperti yang saya lakukan dalam tutorial ini. Portofolio contoh ini hanya akan digunakan di Testnet dan akan dihapus di akhir tutorial.**_
+tentu saja, Anda tidak boleh membagikan kata-kata ini di Internet, seperti yang saya lakukan dalam tutorial ini. Portofolio contoh ini hanya akan digunakan di Testnet dan akan dihapus di akhir tutorial.
 
 Buatlah cadangan fisik dari kalimat ini.
 
@@ -457,4 +457,4 @@ Selamat, Anda sekarang tahu cara mengatur dan menggunakan Passport dengan aplika
 
 Untuk informasi lebih lanjut, lihat tutorial kami tentang perangkat lunak Liana:
 
-https://planb.network/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04
+https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb7a8a29f04

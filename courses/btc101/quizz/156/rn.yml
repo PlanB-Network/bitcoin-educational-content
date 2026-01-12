@@ -1,0 +1,8 @@
+question: Ni igihe kingana iki kiri hagati y’uguhingura amabuye abiri muri porotokole ya Bitcoin?
+answer: Iminota 10.
+wrong_answers:
+  - Iminota 5.
+  - Iminota 15.
+  - Iminota 20.
+explanation: >-
+reviewed: true

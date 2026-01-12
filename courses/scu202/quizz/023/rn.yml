@@ -1,0 +1,9 @@
+question: Ni umugwi uw’uhe w’ibikoresho vy’ibicapo ukoreshwa na GNOME na Xfce?
+answer: GTK
+wrong_answers:
+  - Qt
+  - TKinter
+  - Pattern
+explanation: |
+  GNOME, Xfce, Cinnamon na MATE zishingiye kuri GTK, isomero rya porogarame rigenewe interface y’ibicapo kuri Linux.
+reviewed: true

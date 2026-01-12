@@ -1,0 +1,9 @@
+question: Ni iciyumviro nyamukuru ikihe kiri inyuma y’amasezerano ya RGB?
+answer: Kwemeza ku ruhande rw'umukiriya biciye ku masezerano ya On-Chain
+wrong_answers:
+  - On-Chain kwemezwa na Turing-amasezerano y'ubwenge yuzuye
+  - Ikoreshwa ry'ibikorwa vy'ubudandaji vya Bitcoin bitashizwemwo amakuru
+  - Contract kwica kuri Blockchain yihariye amasezerano y'ubwenge
+explanation: |
+  RGB ishingiye ku citegererezo ca Client-side Validation aho amasezerano (biciye muri Taproot canke OP_RETURN) yinjira muri On-Chain, mu gihe vyinshi mu vyiyumviro n'amakuru bigumwa muri off-chain.
+reviewed: false

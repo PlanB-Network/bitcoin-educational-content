@@ -1,0 +1,9 @@
+question: Ni igiki IP protocol ikora iyo datagram irenze MTU y’urubuga icamwo?
+answer: Arayicapuramwo ibice vyinshi .
+wrong_answers:
+  - Ishiramwo amakuru yose imbere yo kohereza
+  - Igihe cose iravyanka kandi ikarungika ubutumwa bw'ikosa .
+  - Arayifatanya imbere y’uko ayirungika .
+explanation: |
+  Iyo ubunini bwa datagram burengeye MTU, router irayicapuramwo utugingo ngengabuzima dutoduto twinshi tujanye n’urubuga rwo gukoresha.
+reviewed: false

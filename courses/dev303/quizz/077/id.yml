@@ -1,0 +1,8 @@
+question: Apa yang terjadi ketika Anda memanggil lock() pada mutex di Rust dan mengapa banyak pengembang menganggap bahwa operasi ini dapat diterima?
+answer: Ini mengembalikan Hasil yang dapat gagal jika utas lain panik saat memegang mutex, dan membuka pembungkusan dapat diterima karena Anda tidak dapat menangani kesalahan dari kepanikan utas lain secara wajar
+wrong_answers:
+  - Ia mengembalikan sebuah Opsi yang bisa berupa None jika mutex sibuk, dan membuka pembungkusan dapat diterima karena mutex yang sibuk akan menyebabkan penghentian program secara langsung
+  - Ini mengembalikan Hasil yang dapat gagal karena deteksi kebuntuan, dan membuka pembungkusan dapat diterima karena kebuntuan menunjukkan kelemahan desain mendasar yang seharusnya membuat panik
+  - Ini selalu berhasil dan mengembalikan pelindung kunci secara langsung, sehingga tidak perlu membuka pembungkus karena operasi mutex dijamin aman untuk benang di Rust
+explanation: |
+  Ketika memanggil lock() pada sebuah mutex, Rust mengembalikan sebuah Result karena operasi dapat gagal jika thread lain panik ketika memegang mutex tersebut, meninggalkannya dalam kondisi teracuni. Hal ini menciptakan situasi yang unik di mana kode lokal Anda menerima kesalahan untuk sesuatu yang terjadi dalam konteks thread yang sama sekali berbeda. Karena Anda tidak dapat menangani atau memulihkan kesalahan yang berasal dari kepanikan thread lain secara wajar, banyak pengembang menganggap bahwa membuka kunci mutex dapat diterima, terutama di basis kode yang bebas dari kepanikan. Opsi lain tidak benar karena mutex tidak mengembalikan Opsi untuk kondisi sibuk, tidak memiliki deteksi kebuntuan bawaan yang menyebabkan kegagalan Hasil, dan operasi tidak selalu berhasil karena mekanisme racun.

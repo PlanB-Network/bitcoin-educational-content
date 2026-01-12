@@ -1,7 +1,7 @@
 ---
 name: Ocean Mining
 
-description: Introducción a la Minería Oceánica
+description: Introducción a la Minería Ocean
 ---
 
 ![signup](assets/cover.webp)
@@ -26,14 +26,14 @@ Este mecanismo suaviza la compensación y desalienta el "pool hopping", que impl
 
 ### Retiros
 
-La operación de Ocean Mining permite a sus contribuyentes recuperar bitcoins "limpios", es decir, bitcoins que son emitidos directamente por la recompensa del bloque.
+La operación de Ocean Mining permite a sus contribuyentes recuperar Bitcoin "limpio", es decir, Bitcoin emitido directamente por la recompensa del bloque.
 
-A diferencia de la mayoría de los otros pools, Ocean no recibe los bitcoins recién minados; las direcciones de los contribuyentes se integran directamente en la plantilla del bloque.
+A diferencia de la mayoría de los otros pools, Ocean no recibe Bitcoin recién minado; las direcciones de los contribuyentes se integran directamente en la plantilla del bloque.
 
-Por ahora, la cantidad mínima para beneficiarse verdaderamente de los bitcoins limpios es de 1,048,576 sats. Con cada bloque minado por el pool, tu parte de "shares" debe otorgarte más de 1,048,576 sats para que sean pagados directamente a ti por la recompensa del bloque.
+Por ahora, la cantidad mínima para beneficiarse verdaderamente del Bitcoin limpio es de 1,048,576 sats. Con cada bloque minado por el pool, tu parte de "shares" debe otorgarte más de 1,048,576 sats para que sean pagados directamente a ti por la recompensa del bloque.
 De lo contrario, tus sats serán guardados por Ocean hasta que tus recompensas totales excedan esta cantidad.
 
-Todos los bitcoins temporalmente guardados por Ocean están en esta dirección: [37dvwZZoT3D7RXpTCpN2yKzMmNs2i2Fd1n, todo es verificable en la TimeChain.](https://mempool.space/address/37dvwZZoT3D7RXpTCpN2yKzMmNs2i2Fd1n)
+Todo el Bitcoin temporalmente guardado por Ocean está en esta dirección: [37dvwZZoT3D7RXpTCpN2yKzMmNs2i2Fd1n, todo es verificable en la TimeChain.](https://mempool.space/address/37dvwZZoT3D7RXpTCpN2yKzMmNs2i2Fd1n)
 También es posible retirar tus sats a través de Lightning usando BOLT12. Veremos cómo configurar esto.
 
 ### Tarifas del Pool
@@ -48,7 +48,7 @@ Las tarifas varían del 0% al 2% dependiendo de la plantilla de bloque elegida.
 
 Toda la información sobre el pool es transparente, incluyendo todos los datos de los usuarios. Para entender este punto, tomemos un ejemplo:
 
-[En el tablero de Ocean](https://ocean.xyz/dashboard), tienes numerosas piezas de información como el hashrate de los últimos seis meses, el número de participantes en el pool, el número total de bitcoins minados, etc.
+[En el tablero de Ocean](https://ocean.xyz/dashboard), tienes numerosas piezas de información como el hashrate de los últimos seis meses, el número de participantes en el pool, el número total de Bitcoin minado, etc.
 
 Nos centraremos en la sección "Contribuyentes". Puedes ver la lista de todos los contribuyentes con su hashrate promedio de las últimas tres horas, así como el porcentaje de **"shares"** y **"hash"** relativo al resto del pool.
 **"Porcentaje de Acciones"** es el porcentaje de trabajo proporcionado por el colaborador en la ventana de los últimos ocho bloques comparado con el resto del pool.
@@ -58,7 +58,7 @@ Nos centraremos en la sección "Contribuyentes". Puedes ver la lista de todos lo
 
 Notarás que los "Colaboradores" son identificados por una dirección de Bitcoin. Puedes hacer clic en cualquiera de estas direcciones para más detalles.
 
-Si tomamos la primera, la que tiene el hashrate más alto [1GRfspGGx4Ne66YotWuosUc4WeJLfGE3dZ](https://ocean.xyz/stats/1GRfspGGx4Ne66YotWuosUc4WeJLfGE3dZ), puedes ver todos los detalles sobre este usuario: hashrate, número de bitcoins minados, con qué bloque, e incluso los detalles de cada una de sus máquinas (ASICs). Sin embargo, permanecen anónimos, como en Bitcoin.
+Si tomamos la primera, la que tiene el hashrate más alto [1GRfspGGx4Ne66YotWuosUc4WeJLfGE3dZ](https://ocean.xyz/stats/1GRfspGGx4Ne66YotWuosUc4WeJLfGE3dZ), puedes ver todos los detalles sobre este usuario: hashrate, número de Bitcoin minado, con qué bloque, e incluso los detalles de cada una de sus máquinas (ASICs). Sin embargo, permanecen anónimos, como en Bitcoin.
 
 ### Plantilla de Bloque
 
@@ -70,11 +70,11 @@ En la parte superior izquierda del tablero, tienes "Siguiente bloque". En esta p
 
 **CORE+ANTISPAM:** Tarifa 0%, Bitcoin Core con un filtro contra ciertas transacciones como Ordinals "Incluye transacciones y limita el spam"
 
-**OCEAN:** Tarifa 0%, Bitcoin Knot "Incluye solo transacciones y datos razonablemente pequeños"
+**OCEAN:** Tarifa 0%, Bitcoin Knots "Incluye solo transacciones y datos razonablemente pequeños"
 
-**DATA-FREE:** Tarifa 0%, Bitcoin Knot "Incluye solo transacciones sin ningún dato arbitrario"
+**DATA-FREE:** Tarifa 0%, Bitcoin Knots "Incluye solo transacciones sin ningún dato arbitrario"
 
-### Distinción entre Bitcoin Core y Bitcoin Knot
+### Distinción entre Bitcoin Core y Bitcoin Knots
 Bitcoin Core es el software que permite operar a aproximadamente el 99% de los nodos de Bitcoin alrededor del mundo. Bitcoin es un protocolo, lo que significa que, al igual que Internet, donde hay múltiples navegadores, pueden coexistir varios programas de software diferentes en la misma TimeChain. Sin embargo, por preocupaciones de compatibilidad y para limitar el riesgo de bugs que dejarían huellas indelebles en la TimeChain, casi todos los desarrolladores de Bitcoin trabajan en Bitcoin Core. Bitcoin Knots es un fork de Bitcoin Core, lo que significa que comparte la mayoría de su código, limitando enormemente el riesgo de bugs. Este fork fue creado por Luke Dashjr, quien quería aplicar reglas más restrictivas que Bitcoin Core sin crear un hard fork. Ahora, Bitcoin Core y Bitcoin Knots coexisten gracias al consenso de Nakamoto.
 
 ## Agregando un Trabajador
@@ -107,7 +107,7 @@ Unos minutos después de comenzar a minar, podrás ver tus datos en el sitio de 
 
 ### Visión General del Tablero
 - **Participaciones en la Ventana de Recompensa**: Estos datos indican el número de participaciones, el trabajo que has enviado al pool en la ventana de los últimos 8 bloques minados por el pool.
-- **Recompensas Estimadas en Ventanas**: Estimación del número de sats que ganarás con el trabajo ya realizado. Esto no tiene en cuenta las tarifas de transacción, sino solo el coinbase, los nuevos bitcoins emitidos por la red.
+- **Recompensas Estimadas en Ventanas**: Estimación del número de sats que ganarás con el trabajo ya realizado. Esto no tiene en cuenta las tarifas de transacción, sino solo el coinbase, el nuevo Bitcoin emitido por la red.
 - **Ganancias Estimadas Próximo Bloque**: Estimación del número de sats ganados si un bloque se mina ahora. Recuerda, si este valor es menor a 1,048,576 sats, no recibirás directamente los sats a tu dirección. Serán enviados a la dirección de Ocean hasta que tus ganancias superen este umbral.
 
 A continuación, tienes un gráfico que muestra tu historial de tasa de hash hasta 6 meses.

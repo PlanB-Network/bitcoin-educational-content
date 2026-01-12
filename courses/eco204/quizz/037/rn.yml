@@ -1,0 +1,10 @@
+question: Ni irihe jambo ry’amahera y’ivyihutirwa akoreshwa mu Budagi mu gihe c’amagume y’ubutunzi?
+answer: NtiGeld
+wrong_answers:
+  - Ikimenyetso ca Reichs
+  - Euro
+  - Mariko w'Ubudage
+explanation: |
+  Mu gihe c’amagume y’ubutunzi mu Budagi, Notgeld (amahera y’ivyihutirwa) yari .
+  nkoresha Address ubukene bw’amahera rusangi.
+reviewed: false

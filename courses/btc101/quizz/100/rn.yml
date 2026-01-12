@@ -1,0 +1,11 @@
+question: Ni uruhara uruhe rw’umunyamabanga mu bijanye n’iragi rya Bitcoin?
+answer: Barabona ko imisoro yubahirizwa.
+wrong_answers:
+  - Bacungera ama bitcoins yawe inyuma y’urupfu rwawe.
+  - Bahindura umugambi wawe w’iragi.
+  - Bacungera ama bitcoins yawe mu gisanduku.
+explanation: |
+  Mu bijanye n’iragi rya Bitcoin, birahambaye ko .
+  kuganira ku bijanye n'iragi ry'ama bitcoins n'umunyamabanga kugira ngo umenye neza
+  kwubahiriza imisoro.
+reviewed: false

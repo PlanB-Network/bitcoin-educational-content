@@ -1,0 +1,9 @@
+question: Ni ibice bingahe igisohoka c’igikorwa ca HMAC-SHA512 gikoreshwa kuri seed kigabanywamwo?
+answer: Ibice bibiri vy'ibice 256
+wrong_answers:
+  - Igice kimwe c'ibice 512
+  - Ibice bitatu vy'ibice 170
+  - Ibice bine vy'ibice 128
+explanation: |
+  Igisohoka ca HMAC-SHA512 kigabanywemwo ibice bibiri: urufunguzo rw’ibanga rw’umukuru (256 bits) n’umukuru chain code (256 bits).
+reviewed: false

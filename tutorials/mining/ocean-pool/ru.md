@@ -1,5 +1,5 @@
 ---
-name: Добыча в Океане
+name: Ocean Mining
 
 description: Введение в добычу в океане
 ---

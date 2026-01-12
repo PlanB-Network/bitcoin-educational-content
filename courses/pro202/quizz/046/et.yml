@@ -1,0 +1,8 @@
+question: Milline on matemaatiline seos Bitcoin raskuse väärtuse ja ploki valideerimiseks kasutatava praeguse eesmärgi vahel?
+answer: Raskus on võrdne madalaima võimaliku eesmärgi jagatuna praeguse eesmärgiga
+wrong_answers:
+  - Raskus on võrdne praeguse eesmärgi jagatuna madalaima võimaliku eesmärgiga
+  - Raskus on võrdne praeguse eesmärgi ja madalaima võimaliku eesmärgi korrutisega
+  - Raskus on võrdne koefitsiendi korrutisega 256, mis on tõstetud eksponendini miinus 3
+explanation: |
+  Bitcoin raskusaste on konkreetselt määratletud kui lowest_target / current_target, mis väljendab, mitu korda raskem on mining võrreldes kõige lihtsama võimaliku raskusastmega. See pöördvõrdeline suhe tähendab, et kui sihtmärk muutub väiksemaks (mistõttu on kehtivaid hashe'e raskem leida), suureneb proportsionaalselt ka raskusaste. Valem tagab, et raskus 1 tähistab kõige lihtsamaid mining tingimusi, samas kui suuremad väärtused näitavad proportsionaalselt rohkem arvutuslikku tööd, mis on vajalik kehtivate plokkide leidmiseks.

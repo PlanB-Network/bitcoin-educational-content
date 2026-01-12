@@ -1,0 +1,9 @@
+question: Ni irihe tandukaniro rikomeye riri hagati ya SHA256 na RIPEMD160?
+answer: RIPEMD160 itanga amajambo magufi kurusha SHA256
+wrong_answers:
+  - SHA256 ntiyagikoreshwa bitandukanye na RIPEMD160
+  - RIPEMD160 ikoreshwa gusa mu buryo bwa Proof-of-Work
+  - SHA256 ntiyigera ifatanywa n'ibindi bikorwa vyo gukora hashing
+explanation: |
+  RIPEMD160 itanga ama hashes y’ibice 160, mu gihe SHA256 itanga ama hashes y’ibice 256.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Dushingiye ku canditswe, ni itandukaniro irihe ry’ishimikiro riri hagati y’ivyiyumviro vya Contract n’ivyiyumviro vy’isoko?
+answer: Ivyiyumviro vya Contract birondera uguhuza abantu biciye mu guhatirwa na Leta, mu gihe ivyiyumviro vy’isoko vyemeza ko inyungu z’umuntu ku giti ciwe zihuza ku giti cabo.
+wrong_answers:
+  - Ivyiyumviro vya Contract bikora ku mibano ya kera, mu gihe ivyiyumviro vy’isoko bikora ku mibano ya none.
+  - Ivyiyumviro vya Contract vyerekeye ugusangira ubutunzi, mu gihe ivyiyumviro vy’isoko vyerekeye uguhingura ibintu n’ibikorwa.
+  - Ivyiyumviro vya Contract birwanirwa n’abahinga mu vy’ubuhinga bw’umubiri, mu gihe ivyiyumviro vy’isoko birwanirwa n’abahinga mu vy’ubudandaji.
+explanation: |
+  Ivyiyumviro vya Contract bibona ko ubumwe bw’abantu butegekwa na Leta, mu gihe ivyiyumviro vy’isoko bibona ko inyungu z’umuntu ku giti ciwe, mu gukorana mu mwidegemvyo, zituma haba uburinganire mu kibano.
+reviewed: true

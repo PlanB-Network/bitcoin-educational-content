@@ -1,0 +1,9 @@
+question: Hva er den største fordelen med en node-in-a-box fremfor en rå implementering?
+answer: Enkel installasjon og integrert applikasjonsadministrasjon
+wrong_answers:
+  - Strengere verifisering av konsensusregler
+  - Direkte tilgang til Blockchain uten lagring
+  - Kompatibilitet med en annen valuta enn Bitcoin
+explanation: |
+  Node-i-en-boks forenkler installasjon og administrasjon av en rekke tilleggsapplikasjoner via en enhetlig Interface.
+reviewed: true

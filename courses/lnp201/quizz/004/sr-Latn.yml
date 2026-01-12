@@ -1,9 +1,9 @@
-question: Šta omogućava Lightning Network u poređenju sa tradicionalnim transakcijama na Bitcoin Blockchain?
+question: Šta omogućava Lightning mreža u poređenju sa tradicionalnim transakcijama na Bitcoin Blockchain-u?
 answer: Brze transakcije sa minimalnim naknadama
 wrong_answers:
-  - Anonimne i nepratljive transakcije
-  - Transakcije u velikim količinama bez ograničenja obima
+  - Anonimne transakcije i transakcije bez mogućnosti praćenja
+  - Transakcije u velikim količinama bez ograničenja veličine
   - Transakcije između različitih blokčeinova
 explanation: |
-  Lightning Network omogućava brze i niskotarifne transakcije putem off-chain platnih kanala, što se razlikuje od regularnih transakcija na Blockchain.
-reviewed: false
+  Lightning mreža omogućava brze i niskotarifne transakcije putem off-chain platnih kanala, što se razlikuje od regularnih transakcija na Blockchain-u.
+reviewed: true

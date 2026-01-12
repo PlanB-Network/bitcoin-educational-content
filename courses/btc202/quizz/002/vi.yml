@@ -1,0 +1,9 @@
+question: Nút Bitcoin lưu trữ cơ sở dữ liệu nào cục bộ để theo dõi đầu ra chưa sử dụng?
+answer: Bộ UTXO
+wrong_answers:
+  - Mempool
+  - Blockchain
+  - Lịch sử Wallet
+explanation: |
+  Nút này giữ tập hợp UTXO, là tập hợp các đầu ra chưa sử dụng có sẵn cho các giao dịch trong tương lai.
+reviewed: true

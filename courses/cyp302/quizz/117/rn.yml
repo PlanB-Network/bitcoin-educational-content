@@ -1,0 +1,9 @@
+question: Ni ku rwego uruhe rw’ugushiramwo amakuru ya AES aho amabarabara ya Galois akoreshwa?
+answer: Mu gusubirira byte n'igikorwa ca MixColumns
+wrong_answers:
+  - Mu gihe c'urufunguzo rw'ibanga
+  - Igihe ugabanya umwandiko mu bice 128
+  - Ku ntambwe yose y'igikorwa ca XOR
+explanation: |
+  Galois Fields zikoreshwa mu gusubirira byte kugira ngo ubaze inverse y'ugukubita no mu gikorwa ca MixColumns kugira ngo ukore ugukubita modulo umubare w'ibiharuro udashobora kugabanywa.
+reviewed: false

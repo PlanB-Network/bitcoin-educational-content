@@ -1,0 +1,9 @@
+question: 2009년 Bitcoin 프로토타입 네트워크의 실제 출시는 언제였나요?
+answer: 2009년 1월 9일, 02:54:25 UTC
+wrong_answers:
+  - 2009년 1월 3일, 18:15:05 UTC
+  - 2009년 1월 8일, 19:27:40 UTC
+  - 2009년 1월 12일, 03:30:25 UTC
+explanation: |
+  이것은 몇 시간 전에 메일링 리스트에 소프트웨어 코드를 게시한 후 Satoshi 나카모토가 채굴한 Blockchain 블록의 Timestamp입니다. Genesis 블록(0)은 1월 3일부터 8일 사이에 생성되었지만, 실제 네트워크 자체는 존재하지 않았습니다.
+reviewed: true

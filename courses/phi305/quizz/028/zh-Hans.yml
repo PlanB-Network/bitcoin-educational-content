@@ -1,0 +1,9 @@
+question: 谁的座右铭是 "为自己着想"？
+answer: 康德
+wrong_answers:
+  - 斯宾诺莎
+  - 狄德罗
+  - 唐纳德-特朗普
+explanation: |
+  为自己思考"（sapere aude）是伊曼纽尔-康德的座右铭，也是启蒙运动的口号。这意味着要有勇气在没有他人指导的情况下运用自己的理解。
+reviewed: false

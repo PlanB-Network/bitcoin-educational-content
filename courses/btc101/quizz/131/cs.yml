@@ -1,12 +1,9 @@
-question: Jaká je role Bitcoinového uzlu v Bitcoinové síti?
-answer: Ověřuje nové bloky a zahrnuté transakce.
+question: Jaká je primární funkce uzlů v síti Bitcoin?
+answer: Udržování kopie blockchainu Bitcoinu, validace transakcí, přenos informací ostatním uzlům a vynucování pravidel protokolu Bitcoinu.
 wrong_answers:
-  - Vytváří nové Bitcoiny a vkládá je do bloků.
-  - Reguluje cenu Bitcoinu.
-  - Spravuje Bitcoinovou síť.
-explanation: |
-  Bitcoinový uzel v Bitcoinové síti zajišťuje
-  ověřování nových bloků a zahrnutých transakcí. Právě
-  tato síť Bitcoinových uzlů ji činí skutečně
-  decentralizovanou.
+  - Udržování kopie blockchainu Bitcoinu, validace transakcí, přenos informací vládě a změna pravidel protokolu Bitcoinu.
+  - Pouze udržování kopie blockchainu Bitcoinu.
+  - Pouze přenos informací ostatním uzlům.
+explanation: >-
+  Uzly v síti Bitcoin plní několik klíčových funkcí, včetně udržování kopie blockchainu Bitcoinu, validace transakcí, přenosu informací ostatním uzlům a vynucování pravidel protokolu Bitcoinu.
 reviewed: true

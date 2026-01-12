@@ -1,0 +1,11 @@
+question: Ni ingaruka izihe inflation nyinshi zigira ku kuzigama?
+answer: Bica bisenyura agaciro k’umutungo kamere n’inyungu, bigatuma gutegura ivy’igihe kirekire bigorana.
+wrong_answers:
+  - Bituma umuntu agira agaciro k’amahera azigamye.
+  - Nta ngaruka bigira ku kuzigama.
+  - Biremesha abantu kuzigama vyinshi.
+explanation: |
+  Mu kiringo c’ugutera imbere cane kw’ibiciro, kuzigama biraba urugamba. Amahera yihuta
+  iratakaza agaciro kayo, bigatuma gutegura ivy’igihe kirekire bigorana. Ukwo kudatekana kw’ivy’ubutunzi .
+  birashobora gutuma umuntu agira umubabaro n’amaganya.
+reviewed: false

@@ -1,0 +1,10 @@
+question: Ni ikihe kibazo gikomeye c’uguhindura amafaranga n’uguhindura atome mu bijanye n’ubuzima bwite?
+answer: Ntibamena amateka y’ibiceri vyahinduwe .
+wrong_answers:
+  - Birazimvye cane mu mafaranga y'ugucuruza .
+  - Bisaba Exchange y'amakuru y'ibanga hagati y'ababuranyi .
+  - Bishobora gusuzumwa n'ibibanza vya Exchange .
+explanation: |
+  Intambamyi nyamukuru y’ubwo buryo ni uko butera akaga cane ata buhinga bwo kwongerako bukoreshwa bwo guca amateka ya Coin.
+  
+reviewed: false

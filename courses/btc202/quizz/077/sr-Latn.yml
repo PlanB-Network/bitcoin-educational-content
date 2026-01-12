@@ -1,0 +1,9 @@
+question: Koja baza podataka se koristi u blocks/index/ za čuvanje metapodataka blokova?
+answer: LevelDB
+wrong_answers:
+  - SQLite
+  - RocksDB
+  - Berkeley DB
+explanation: |
+  Bitcoin core koristi LevelDB u blocks/index/ za indeksiranje blokova, ubrzavajući pretragu i uslugu prema vršnjacima.
+reviewed: true

@@ -1,0 +1,9 @@
+question: V jakém roce přibližně dosáhne bloková dotace pro Bitcoin nuly podle BIP42?
+answer: 2140
+wrong_answers:
+  - 2100
+  - 2064
+  - 2160
+explanation: |
+  Podle této kapitoly BIP42 odstranil velmi dlouhodobou inflační chybu a zajišťuje, že bloková dotace dosáhne nulové hodnoty kolem roku 2140. Tehdy Bitcoin přejde ze systému odměn založeného na dotacích na systém založený výhradně na poplatcích, čímž se zásadně změní způsob krytí nákladů na zabezpečení sítě z držitelů platících prostřednictvím inflace na utrácející platící prostřednictvím transakčních poplatků.
+reviewed: false

@@ -1,0 +1,8 @@
+question: What is the primary purpose of Rust's question mark operator (?) when used with Result types?
+answer: To automatically unwrap successful values and return errors immediately from the current function
+wrong_answers:
+  - To convert all Result types into Option types for easier null handling
+  - To automatically panic with a custom message when any error occurs
+  - To wrap successful values in an additional Result layer for extra safety
+explanation: |
+  The question mark operator (?) is designed specifically for error propagation in Rust. When applied to a Result, it extracts the success value if the operation succeeded, allowing the code to continue with that value. However, if an error occurred, the ? operator immediately returns that error from the current function, effectively propagating it up the call stack. This eliminates the need for verbose match expressions while maintaining explicit error handling semantics. The operator can only be used in functions that return Result types, ensuring proper error propagation patterns.

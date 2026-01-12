@@ -1,5 +1,5 @@
 ---
-name: زئوس امبدد
+name: Zeus Embedded
 description: نحوه استفاده از Lightning Zeus Embedded Wallet
 ---
 ![cover-zeus-embedded](assets/cover.webp)
@@ -13,11 +13,11 @@ ZEUS در ابتدا یک برنامه موبایل برای مدیریت از �
 
 
 
-**این جنبه از برنامه است که ما در این آموزش به بررسی آن خواهیم پرداخت. این امکان را به هر کسی می‌دهد تا بدون نیاز به یک سرور اختصاصی، نود لایتنینگ خود را بر روی موبایل داشته باشد، به همان روشی که ACINQ لایتنینگ فوق‌العاده Wallet Phoenix خود را ارائه می‌دهد.
+**این جنبه از برنامه است که ما در این آموزش به بررسی آن خواهیم پرداخت. این امکان را به هر کسی می‌دهد تا بدون نیاز به یک سرور اختصاصی، نود لایتنینگ خود را بر روی موبایل داشته باشد، به همان روشی که ACINQ لایتنینگ فوق‌العاده Wallet Phoenix خود را ارائه می‌دهد.**
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 *به عنوان یک یادآوری، Lightning یک شبکه است که به صورت موازی با Bitcoin عمل می‌کند و امکان تبادل بیت‌کوین‌ها را بدون نیاز به انجام سیستماتیک تراکنش‌های On-Chain فراهم می‌کند. نتیجه آن تراکنش‌های تقریباً فوری است، بدون نیاز به انتظار ۱۰ دقیقه برای تأیید یک بلوک. این امر به ویژه هنگام پرداخت به یک فروشنده در دنیای فیزیکی مفید است. علاوه بر این، Lightning سطح قابل توجهی از **محرمانگی** را فراهم می‌کند که شبکه Bitcoin به صورت ذاتی ندارد.*
 
@@ -200,7 +200,7 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![image](assets/fr/14.webp)
 
@@ -248,7 +248,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 برای این آموزش، به خاطر سادگی این گزینه را انتخاب می‌کنیم، اما به‌طور کامل امکان باز کردن کانال‌ها با هر نودی در شبکه وجود دارد.
 
 
-حتی می‌توان با انتخاب "باز کردن کانال اضافی" چندین کانال را در یک تراکنش باز کرد. *اما ما به این موضوع در نسخه "پیشرفته" آموزش **Zeus Embedded**** خواهیم پرداخت.
+حتی می‌توان با انتخاب "باز کردن کانال اضافی" چندین کانال را در یک تراکنش باز کرد. *اما ما به این موضوع در نسخه "پیشرفته" آموزش **Zeus Embedded** خواهیم پرداخت.*
 
 
 
@@ -345,7 +345,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 
 
-توجه داشته باشید که برخلاف Wallet مانند [Phoenix]([Plan ₿ Network - Phoenix](https://planb.network/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf))، با Zeus مسیر به صورت محلی محاسبه می‌شود و به یک شخص ثالث (ACINQ در مورد Phoenix) واگذار نمی‌شود. بنابراین شما تنها کسی هستید که گیرنده پرداخت را می‌شناسید. ما کمی از نظر کارایی از دست می‌دهیم (پرداخت‌ها کمی بیشتر طول می‌کشد تا کامل شوند، اما از نظر حریم خصوصی بسیار به دست می‌آوریم).
+توجه داشته باشید که برخلاف Wallet مانند [Phoenix]([Plan ₿ Academy - Phoenix](https://planb.academy/fr/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf))، با Zeus مسیر به صورت محلی محاسبه می‌شود و به یک شخص ثالث (ACINQ در مورد Phoenix) واگذار نمی‌شود. بنابراین شما تنها کسی هستید که گیرنده پرداخت را می‌شناسید. ما کمی از نظر کارایی از دست می‌دهیم (پرداخت‌ها کمی بیشتر طول می‌کشد تا کامل شوند، اما از نظر حریم خصوصی بسیار به دست می‌آوریم).
 
 
 
@@ -422,8 +422,8 @@ Invoice را پرداخت کنید یا شخص دیگری آن را پرداخت
 
 
 
-برای کسب اطلاعات بیشتر در مورد عملکرد فنی Lightning Network، می‌توانید آموزش رایگان عالی Plan ₿ Network توسط Fanis Michalakis را پیدا کنید:
+برای کسب اطلاعات بیشتر در مورد عملکرد فنی Lightning Network، می‌توانید آموزش رایگان عالی Plan ₿ Academy توسط Fanis Michalakis را پیدا کنید:
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

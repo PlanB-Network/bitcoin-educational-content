@@ -1,0 +1,9 @@
+question: 我们能从哥白尼身上学到什么？
+answer: 地球围绕太阳转。
+wrong_answers:
+  - 地球是平的
+  - 地球位于宇宙的中心。
+  - 欧几里得方程是错误的。
+explanation: |
+  尼古拉-哥白尼（Nicolas Copernicus，1473-1543 年）因证明地球围绕太阳转而闻名于世，彻底改变了我们的宇宙观。这一发现对现代哲学和理性主义产生了深远影响。
+reviewed: false

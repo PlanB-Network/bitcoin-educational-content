@@ -296,7 +296,7 @@ Go back to the Alby Go application, scan the QR code or paste the secret.
 
 ![ALBY HUB](assets/fr/50.webp)
 
-Click on "Finish*".
+Click on "Finish".
 
 ![ALBY HUB](assets/fr/51.webp)
 
@@ -364,4 +364,4 @@ And that's it, you now know how to use Lightning with your own node using the Al
 
 To understand in detail all the Lightning mechanisms that we have manipulated in this tutorial, I strongly advise you to discover our free training on the subject :
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb

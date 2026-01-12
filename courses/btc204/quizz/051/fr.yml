@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   En contrepartie de l'abandon de la transaction de notification, le receveur doit scanner toutes les transactions Bitcoin qui respectent le standard pour tenter de trouver des paiements qui lui sont adressés.
 
-reviewed: false
+reviewed: true 

@@ -1,8 +1,8 @@
-question: Vad blev resultatet av blockkriget 2017?
-answer: Användare och noder avvisade den föreslagna ändringen att öka blockstorleken och aktiverade en uppdatering kallad SegWit.
+question: Vad är Coinbase Transaction?
+answer: Den första transaktionen i det block som innehåller Miner:s belöning.
 wrong_answers:
-  - Användare och noder accepterade den föreslagna ändringen att öka blockstorleken och aktiverade en uppdatering kallad SegWit.
-  - Användare och noder avvisade den föreslagna ändringen att öka blockstorleken och aktiverade inte några uppdateringar.
-  - Användare och noder accepterade den föreslagna ändringen att öka blockstorleken och aktiverade inte några uppdateringar.
+  - En transaktion som utförts på Exchange Coinbase.
+  - Den andra transaktionen i det block som innehåller de högsta avgifterna.
+  - En transaktion som utförs av Miner efter att han mottagit belöningen.
 explanation: >-
 reviewed: true

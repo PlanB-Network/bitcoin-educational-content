@@ -3,62 +3,34 @@ name: LUKS
 description: Mengenkripsi flash drive USB dengan LUKS dan cryptsetup
 ---
 ![cover](assets/cover.webp)
-
-
-
 ___
 
-
-
-*Tutorial ini didasarkan pada konten asli oleh Mickael Dorigny yang dipublikasikan di [IT-Connect](https://www.it-connect.fr/). Lisensi [CC BY-NC 4.0] (https://creativecommons.org/licenses/by-nc/4.0/). Perubahan mungkin telah dilakukan pada teks asli.*
-
-
-
+*Tutorial ini didasarkan pada konten asli oleh Mickael Dorigny yang dipublikasikan di [IT-Connect](https://www.it-connect.fr/). Lisensi [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Perubahan mungkin telah dilakukan pada teks asli.*
 ___
 
 
 
 ## I. Presentasi
 
+Mengenkripsi FLash drive USB cara yang baik untuk melindungi data sensitif Anda. **Dalam tutorial ini, kita akan melihat cara menggunakan LUKS (_Linux Unified Key Setup_) dengan cryptsetup untuk mengenkripsi flash drive USB pada sistem Linux**. Metode ini akan memungkinkan Anda mengamankan data Anda, terutama jika flash drive USB Anda hilang atau dicuri.
 
+[**LUKS**](https://en.wikipedia.org/wiki/LUKS)(*Linux Unified Key Setup*) adalah standar enkripsi disk yang digunakan terutama pada sistem Linux. Ini mengamankan data dengan mengenkripsi partisi disk dengan algoritma yang kuat. Dukungannya pada sistem Linux memudahkan manajemen kunci enkripsi dan kata sandi, menawarkan Interface yang terstandardisasi dan kompatibilitas dengan berbagai aplikasi manajemen.
 
-Mengenkripsi stik USB adalah cara yang baik untuk melindungi data sensitif Anda. **Dalam tutorial ini, kita akan melihat cara menggunakan LUKS (*Linux Unified Key Setup*) dengan cryptsetup untuk mengenkripsi stik USB di sistem Linux.** Metode ini akan memungkinkan Anda untuk mengamankan data Anda, terutama jika stik USB hilang atau dicuri.
+Untuk Mengikuti Tutorial Ini, Anda Akan Membutuhkan:
 
-
-
-[**LUKS**] (https://fr.wikipedia.org/wiki/LUKS) (*Linux Unified Key Setup*) adalah standar enkripsi disk yang digunakan terutama pada sistem Linux. Standar ini mengamankan data dengan mengenkripsi partisi disk dengan algoritme yang kuat. Dukungannya pada sistem Linux memudahkan pengelolaan kunci enkripsi dan kata sandi, menawarkan Interface standar dan kompatibilitas dengan berbagai alat manajemen.
-
-
-
-Untuk mengikuti tutorial ini, Anda memerlukan :
-
-
-
-
-
-- kunci USB;
-- sistem Linux dengan "**cryptsetup**" terinstal (biasanya tersedia secara default, jika tidak, kita akan melihat cara mendapatkannya).
-
-
+- Sebuah flash drive USB
+- Sistem Linux dengan "**cryptsetup**" terinstal (sering kali tersedia secara default, jika tidak, kita akan melihat cara mendapatkannya).
 
 ## II. Menginstal cryptsetup
 
-
-
 Pertama, kita perlu memastikan bahwa kita memiliki perintah "**cryptsetup**" pada sistem kita:
-
-
 
 ```
 # Vérifier la présence de la commande cryptsetup
 which cryptsetup
 ```
 
-
-
 Jika Anda tidak mendapatkan respons terhadap perintah ini, Anda perlu menginstal "**cryptsetup**":
-
-
 
 ```
 # Installer cryptsetup
@@ -71,69 +43,37 @@ sudo yum install cryptsetup
 sudo dnf install cryptsetup
 ```
 
-
-
-Sekarang kita sudah memiliki semua yang kita butuhkan untuk membuat kunci USB terenkripsi melalui LUKS.
-
-
+Sekarang kita sudah memiliki semua yang kita butuhkan untuk membuat flash disk USB terenkripsi melalui LUKS.
 
 Pada kenyataannya, utilitas "**dm-crypt**" yang akan melakukan enkripsi. "**cryptsetup**" adalah baris perintah Interface yang mengelola fitur dan tindakan **dm-crypt**.
 
+## III. Membuat partisi LUKS dan sistem file
 
+### A. Mengidentifikasi flash disk USB
 
-## III. Membuat partisi LUKS dan sistem berkas
+Sekarang kita akan membuat partisi LUKS terenkripsi pada flash disk USB. Jika Anda belum menyambungkannya ke sistem Anda, sekaranglah saatnya untuk melakukannya.
 
+Untuk keperluan tutorial ini, saya mengenkripsi seluruh flash disk USB saya, bukan hanya satu partisi. Penting juga untuk diketahui bahwa selama prosedur ini, **semua data yang ada akan terhapus dari flash disk**.
 
-
-### A. Mengidentifikasi kunci USB
-
-
-
-Sekarang kita akan membuat partisi LUKS terenkripsi pada stik USB. Jika Anda belum menyambungkannya ke sistem Anda, sekaranglah saatnya untuk melakukannya.
-
-
-
-Untuk keperluan tutorial ini, saya mengenkripsi seluruh stik USB saya, bukan hanya satu partisi. Penting juga untuk diketahui bahwa selama prosedur ini, **semua data yang ada akan terhapus dari kunci**.
-
-
-
-Langkah pertama adalah menemukan file perangkat yang sesuai dengan stik USB Anda di direktori "**/dev/**". Masukkan stik USB Anda dan kenali nama perangkatnya. Anda dapat menggunakan perintah berikut ini untuk membuat daftar perangkat penyimpanan:
-
-
+Langkah pertama adalah menemukan file perangkat yang sesuai dengan flash disk USB Anda di direktori "**/dev/**". Masukkan flash disk USB Anda dan kenali nama perangkatnya. Anda dapat menggunakan perintah berikut ini untuk membuat daftar perangkat penyimpanan:
 
 ```
 $ lsblk
 ```
 
-
-
-Temukan kunci USB Anda, misalnya "**/dev/sdb**". Anda juga dapat menggunakan perintah "**fdisk -l**" untuk menampilkan nama model kunci USB (sebaiknya jangan sampai salah), dan menggunakan ukuran penyimpanan perangkat sebagai indikator:
-
-
+Temukan flash disk USB Anda, misalnya "**/dev/sdb**". Anda juga dapat menggunakan perintah "**fdisk -l**" untuk menampilkan nama model flash disk USB (sebaiknya jangan sampai salah), dan menggunakan ukuran penyimpanan perangkat sebagai indikator:
 
 ![Image](assets/fr/019.webp)
 
+Identifikasi flash disk USB yang akan dienkripsi dengan "**lsblk**" dan "**fdisk**".
 
-
-Identifikasi kunci USB yang akan dienkripsi dengan "**lsblk**" dan "**fdisk**".
-
-
-
-Dalam contoh saya, kunci USB saya terletak di "**/dev/sdb**". Jika Anda melihat "**/dev/sdb1**", "**/dev/sdb2**", dst., ini adalah partisi yang saat ini ada di drive Anda. Ini adalah partisi yang saat ini ada pada kunci Anda. Partisi-partisi tersebut akan dihapus oleh manipulasi kita.
-
-
+Dalam contoh saya, flash disk USB saya terletak di "**/dev/sdb**". Jika Anda melihat "**/dev/sdb1**", "**/dev/sdb2**", dst., ini adalah partisi yang saat ini ada di drive Anda. Ini adalah partisi yang saat ini ada pada flash disk Anda. Partisi-partisi tersebut akan dihapus oleh operasi kita.
 
 ### B. Menghapus data yang ada
 
+Sekarang kita akan menghapus semua data pada flash disk USB kita. Operasi ini terdiri dari mengisi ruang disk pada flash disk USB dengan angka 0.
 
-
-Sekarang kita akan menghapus semua data pada stik USB kita. Operasi ini terdiri dari mengisi ruang disk pada stik USB dengan angka 0.
-
-
-
-**Pastikan Anda menargetkan file perangkat yang tepat!
-
-
+**Pastikan Anda menargetkan perangkat yang tepat!**
 
 ```
 # Remplir la clé USB de 0
@@ -144,19 +84,11 @@ $ sudo dd if=/dev/zero of=/dev/sdb bs=1M
 8294236160 bytes (8.3 GB, 7.7 GiB) copied, 1556.22 s, 5.3 MB/s
 ```
 
+Hal ini memastikan bahwa tidak akan ada data plaintext yang tetap pada flash disk kita.
 
+### C. Enkripsi flash disk USB dengan LUKS
 
-Hal ini memastikan bahwa tidak akan ada data plaintext yang tetap pada kunci kita.
-
-
-
-### C. Enkripsi kunci USB dengan LUKS
-
-
-
-Sekarang kita akan menginisialisasi partisi LUKS pada kunci USB. Ini melibatkan pembuatan partisi LUKS:
-
-
+Sekarang kita akan menginisialisasi partisi LUKS pada flash disk USB. Ini melibatkan pembuatan partisi LUKS:
 
 ```
 # Formattage d'une partition LUKS sur la clé USB
@@ -171,23 +103,13 @@ Enter passphrase for /dev/sdb:
 Verify passphrase:
 ```
 
-
-
-Di sini, subperintah "`luksFormat`" menginisialisasi dan memformat perangkat untuk menggunakan enkripsi LUKS. Anda akan diminta untuk mengonfirmasi operasi ini dengan mengetik `YES` dalam huruf besar, lalu tentukan *passphrase*. **Pilihlah *passphrase* yang kuat untuk memastikan bahwa, jika terjadi kehilangan, penyerang tidak dapat menemukannya melalui serangan brute force.
-
-
+Di sini, subperintah "`luksFormat`" akan menginisialisasi dan memformat perangkat untuk menggunakan enkripsi LUKS. Anda akan diminta untuk mengonfirmasi operasi ini dengan mengetik `YES` dalam huruf kapital, lalu tentukan *passphrase*. Pilih *passphrase* yang kuat untuk memastikan bahwa jika perangkat hilang, penyerang tidak dapat menemukannya melalui serangan brute-force.
 
 Setelah itu, disk "**/dev/sdb**" akan diformat dengan LUKS dan siap digunakan sebagai volume terenkripsi.
 
-
-
 ### D. Memformat volume terenkripsi
 
-
-
-Kita hampir sampai, dan sekarang kita perlu membuat partisi yang valid di dalam partisi LUKS. Dengan cara ini, setelah dibuka, kita dapat menggunakannya seperti sistem berkas lainnya. Untuk melakukannya, kita perlu membuka partisi terenkripsi:
-
-
+Kita hampir selesai, dan sekarang kita perlu membuat partisi yang valid di dalam partisi LUKS kita. Dengan begitu, setelah dibuka, kita dapat menggunakannya seperti sistem file lainnya. Untuk melakukan ini, kita perlu membuka partisi terenkripsi tersebut:
 
 ```
 # Ouverture de la partition LUKS sur la clé USB
@@ -211,11 +133,7 @@ Sector size (logical/physical): 512 bytes / 512 bytes
 I/O size (minimum/optimal): 512 bytes / 512 bytes
 ```
 
-
-
-Di sini, "**usbkey1**" adalah nama yang saya berikan pada partisi yang dipasang dalam konteks saya. Anda dapat memilih yang mana pun yang Anda suka. Kita kemudian perlu memformat partisi yang terdapat pada partisi LUKS, misalnya, di sini sebagai **ext4** :
-
-
+Di sini, "**usbkey1**" adalah nama yang saya berikan pada partisi yang dipasang dalam konteks saya. Anda dapat memilih nama apa pun yang Anda suka. Kita kemudian perlu memformat partisi ini yang terdapat dalam partisi LUKS, misalnya, di sini sebagai **ext4** :
 
 ```
 # Formattage de la partition en ext4
@@ -235,15 +153,9 @@ Writing superblocks and filesystem accounting information:
 done
 ```
 
-
-
 **Di sini, lokasi target** ditetapkan sebagai "**/dev/mappe/usbkey1**"**, mengapa?
 
-
-
-"**/dev/mapper/usbkey1**" adalah "jalan pintas" yang kita berikan pada kunci USB kita ("**/dev/mapper**" adalah umum untuk Linux untuk pemetaan). Oleh karena itu, ini menyediakan akses ke partisi yang telah didekripsi. Inilah yang seharusnya Anda lihat sekarang:
-
-
+"**/dev/mapper/usbkey1**" adalah "jalan pintas" yang kita berikan pada flash disk USB kita ("**/dev/mapper**" bersifat generik untuk mapping di Linux). Oleh karena itu, jalur ini menyediakan akses ke partisi kita yang telah didekripsi. Berikut adalah apa yang seharusnya Anda lihat sekarang:
 
 ```
 # Liste des périphériques et leurs partition
@@ -258,35 +170,19 @@ sdb         8:16   1  7.7G  0 disk
 sr0        11:0    1 1024M  0 rom
 ```
 
-
-
-## IV. Menggunakan kunci USB terenkripsi
-
-
+## IV. Menggunakan flash disk USB terenkripsi
 
 ### A. Membuka dan mengedit volume LUKS
 
+**Melalui Interface grafik :**
 
-
-*melalui grafik Interface ** **:**:**
-
-
-
-Pada Debian, "**dm-crypt**" hadir secara default. Jadi, dalam banyak kasus, instalasi berlangsung secara langsung ketika kunci USB dicolokkan. Anda kemudian akan diminta untuk memasukkan passphrase Anda pada jendela pop-up seperti ini:
-
-
+Pada Debian, "**dm-crypt**" hadir secara default. Jadi, dalam banyak kasus, instalasi berlangsung secara langsung ketika flash disk USB ditancapkan. Anda kemudian akan diminta untuk memasukkan passphrase Anda pada jendela pop-up seperti ini:
 
 ![Image](assets/fr/018.webp)
 
-
-
 Permintaan untuk memasukkan dekripsi passphrase untuk partisi LUKS.
 
-
-
-Setelah passphrase dimasukkan, sistem Anda akan dapat membaca sistem file pada kunci dan kemudian melakukan mount sistem file ini, yang akan menampilkan partisi yang telah di-mount:
-
-
+Setelah passphrase dimasukkan, sistem Anda akan dapat membaca sistem file pada flash disk dan kemudian melakukan mount sistem file ini, yang akan menampilkan partisi yang telah di-mount:
 
 ```
 $ lsblk
@@ -300,15 +196,9 @@ sdb                                           8:16   1  7.7G  0 disk
 sr0                                          11:0    1 1024M  0 rom
 ```
 
-
-
-**Pada baris perintah:**
-
-
+**Melalui baris perintah:**
 
 Namun, ada baiknya Anda mengetahui cara melakukan operasi pada baris perintah. Mari kita mulai dengan mendekripsi partisi terenkripsi menggunakan "**crypsetup**" dan sub-perintah "**luksOpen**":
-
-
 
 ```
 # Ouverture de la partition LUKS sur la clé USB
@@ -324,11 +214,7 @@ sdb         8:16   1  7.7G  0 disk
 sr0        11:0    1 1024M  0 rom
 ```
 
-
-
-Sekarang, volume yang didekripsi dari USB flash drive kita menyajikan volume yang dapat digunakan oleh sistem file dan OS kita, jadi kita akan menyambungkan isinya ke folder mana saja, misalnya "**/home/mickael/mnt**" dalam kasus saya:
-
-
+Sekarang, volume yang didekripsi dari flash drive kita menyajikan volume yang dapat digunakan oleh sistem file dan OS kita, jadi kita akan menyambungkan isinya ke folder mana saja, misalnya "**/home/mickael/mnt**" dalam kasus saya:
 
 ```
 # Monter le volume déchiffré sur notre système de fichier
@@ -343,44 +229,26 @@ drwx------  2 root    root    16384 Jun 11 14:38 lost+found
 
 ```
 
-
-
-Ini berarti kita dapat mengakses data pada stik USB kita secara bebas dan transparan.
-
-
+Ini berarti kita dapat mengakses data pada flash disk USB kita secara bebas dan transparan.
 
 ### B. Menutup dan menghapus volume LUKS
 
-
-
 Setelah operasi kita selesai, jangan lupa untuk menutup semuanya dengan benar untuk memastikan volume kita tidak rusak. Langkah pertama adalah melepas pemasangan file :
-
-
 
 ```
 # Démontage du volume contenu dans la partition chiffrée
 sudo umount /home/mickael/mnt
 ```
 
-
-
 Kemudian tutup partisi terenkripsi itu sendiri:
-
-
 
 ```
 # Fermeture de la partition chiffrée
 sudo cryptsetup luksClose usbkey1
 ```
 
-
-
-Sekarang, siapa pun yang menggunakan kunci USB kami tidak akan melihat apa pun dari isinya kecuali data yang dienkripsi.
-
-
+Sekarang, siapa pun yang menggunakan flash disk USB kami tidak akan melihat apa pun dari isinya kecuali data yang dienkripsi.
 
 ## V. Kesimpulan
 
-
-
-Antarmuka pengguna grafis membuat operasi ini transparan, namun tetap berguna untuk mengetahui cara memformat, membuat, membuka, dan menutup partisi LUKS terenkripsi dari baris perintah. Setelah diformat, manipulasi yang diperlukan untuk membuka dan menutup partisi LUKS sangat minim dibandingkan dengan keuntungan keamanannya.
+Interface pengguna grafis membuat operasi ini transparan, namun tetap berguna untuk mengetahui cara memformat, membuat, membuka, dan menutup partisi LUKS terenkripsi dari baris perintah. Setelah diformat, operasi yang diperlukan untuk membuka dan menutup partisi LUKS sangat minim dibandingkan dengan keuntungan keamanannya.

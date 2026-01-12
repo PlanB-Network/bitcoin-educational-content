@@ -1,0 +1,9 @@
+question: Ni ibice bingahe umubare w’isuzuma ry’entropie y’ibice 128?
+answer: 4 ibice
+wrong_answers:
+  - 8 ibice
+  - 16 ibice
+  - 6 ibice
+explanation: |
+  Uburebure bw’umubare w’igenzura buharurwa hakoreshejwe ubuhinga CS = ENT / 32, bungana n’ibice 4 ku entropi y’ibice 128.
+reviewed: false

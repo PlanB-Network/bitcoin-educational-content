@@ -1,0 +1,12 @@
+question: Ni igiki nyamukuru catumye haba ihinduka ry’ibiciro hagati y’ikinjana ca 15 n’ica 17 mu Buraya?
+answer: Iryo hinduka ry’ibiciro ryatumwe ahanini n’ukwinjira kw’ivyuma vyinshi vy’agaciro, canecane inzahabu n’ifeza, biva muri Amerika.
+wrong_answers:
+  - Iryo hinduka ry’ibiciro ryatumwe ahanini n’ugusohoka kwinshi kw’ivyuma vy’agaciro, canecane inzahabu n’ifeza, bikaja muri Amerika.
+  - Iryo hinduka ry’ibiciro ryatumwe ahanini n’ukwinjira kw’ivyuma vy’agaciro cane cane inzahabu n’ifeza, biva muri Aziya.
+  - Iryo hinduka ry’ibiciro ryatumwe ahanini n’ugusohoka kwinshi kw’ivyuma vy’agaciro, canecane inzahabu n’ifeza, bikaja muri Aziya.
+explanation: |
+  Hagati y’ikinjana ca 15 n’ica 17, mu Buraya harabayeho ubutunzi budasanzwe .
+  ikintu gitangaje, akenshi citwa ihinduka ry’ibiciro. Iki gihe c'ugutera imbere kw'ibiciro
+  ahanini vyatumwe n’ukwiyongera kwinshi kw’ivyuma vy’agaciro, canecane inzahabu .
+  n’ifeza, biva muri Amerika.
+reviewed: false

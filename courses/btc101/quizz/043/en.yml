@@ -1,12 +1,10 @@
-question: What is the historical path followed by institutions in the introduction of fiat currencies?
-answer: Leaders centralize gold and introduce a new currency equivalent to gold in value, which is then gradually devalued.
+question: What is the final phase that occurs in the hyperinflation phenomenon?
+answer: A new currency emerges.
 wrong_answers:
-  - Leaders introduce a new currency backed by gold, which is then gradually increased in value.
-  - Leaders introduce a new currency with no intrinsic value, which is then gradually increased in value.
-  - Leaders introduce a new currency backed by a basket of commodities, which is then kept stable in value.
+  - Loss of confidence in the currency.
+  - Currency collapse & price increase.
+  - The vicious circle of money printing.
 explanation: |
-  Historically, leaders have centralized gold and introduced
-  a new currency equivalent in value to gold. This new
-  currency is then gradually devalued, often under the guise
-  of being in the interest of the people.
+  The final phase of hyperinflation occurs when a new
+  currency is introduced to replace the old one.
 reviewed: true

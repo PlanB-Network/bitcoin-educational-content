@@ -6,4 +6,4 @@ wrong_answers:
   - It needs banks to verify and settle every transaction.
 explanation: |
   Bitcoin operates as a decentralized network, allowing anyone to participate without permission. Transactions are validated by nodes and miners, not by a central authority.
-reviewed: false
+reviewed: true

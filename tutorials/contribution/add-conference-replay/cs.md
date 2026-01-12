@@ -1,29 +1,29 @@
 ---
 name: Přidání záznamu konference
-description: Jak přidat záznam z konference na síť PlanB Network?
+description: Jak přidat záznam z konference na síť Plan ₿ Academy?
 ---
 ![konference](assets/cover.webp)
 
 Mise PlanB je poskytovat špičkové vzdělávací zdroje o Bitcoinu v co nejvíce jazycích. Veškerý obsah publikovaný na webu je open-source a hostovaný na GitHubu, což umožňuje komukoli přispět k obohacení platformy.
 
-Chcete přidat záznam vaší Bitcoinové konference na web síť PlanB Network a zvýšit viditelnost této události, ale nevíte jak? Tento tutoriál je pro vás!
+Chcete přidat záznam vaší Bitcoinové konference na web síť Plan ₿ Academy a zvýšit viditelnost této události, ale nevíte jak? Tento tutoriál je pro vás!
 
 Pokud však chcete přidat konferenci, která se bude konat v budoucnu, doporučuji vám přečíst tento další tutoriál, ve kterém vysvětlujeme, jak přidat novou událost na web.
 
-https://planb.network/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
+https://planb.academy/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 
 
 ![konference](assets/01.webp)
 - Nejprve potřebujete mít účet na GitHubu. Pokud nevíte, jak vytvořit účet, připravili jsme podrobný tutoriál, který vás provede.
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 - Přejděte na [GitHubový repozitář PlanB věnovaný datům](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) v sekci `resources/conference/`:
 ![konference](assets/02.webp)
 - Klikněte vpravo nahoře na tlačítko `Add file` a poté na `Create new file`:
 ![konference](assets/03.webp)
-- Pokud jste předtím nikdy nepřispívali k obsahu sítě PlanB Network, budete muset vytvořit svůj fork původního repozitáře. Forkování repozitáře znamená vytvoření kopie tohoto repozitáře na vašem vlastním účtu GitHub, což vám umožňuje pracovat na projektu bez ovlivnění původního repozitáře. Klikněte na tlačítko `Fork this repository`:
+- Pokud jste předtím nikdy nepřispívali k obsahu sítě Plan ₿ Academy, budete muset vytvořit svůj fork původního repozitáře. Forkování repozitáře znamená vytvoření kopie tohoto repozitáře na vašem vlastním účtu GitHub, což vám umožňuje pracovat na projektu bez ovlivnění původního repozitáře. Klikněte na tlačítko `Fork this repository`:
 ![konference](assets/04.webp)
 - Poté se dostanete na stránku GitHub pro úpravy:
 ![konference](assets/05.webp)
@@ -69,7 +69,7 @@ tags:
 
 ![konference](assets/09.webp)
 Pokud ještě nemáte pro vaši organizaci identifikátor "*project*", můžete jej přidat podle tohoto dalšího návodu.
-https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
+https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
 
 - Jakmile dokončíte změny v tomto souboru, uložte je kliknutím na tlačítko `Commit changes...`:
 ![konference](assets/10.webp)
@@ -81,7 +81,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![konference](assets/13.webp)
 - Klikněte na vaši profilovou fotografii GitHub v pravém horním rohu, poté na `Your Repositories`:
 ![konference](assets/14.webp)
-- Vyberte vaši kopii repozitáře PlanB Network:
+- Vyberte vaši kopii repozitáře Plan ₿ Academy:
 ![konference](assets/15.webp)
 - V horní části okna byste měli vidět oznámení s vaší novou větví. Pravděpodobně se jmenuje `patch-1`. Klikněte na ni:
 ![konference](assets/16.webp)
@@ -103,7 +103,7 @@ https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![konference](assets/24.webp)
 - Klikněte na tlačítko `Add file`, poté na `Upload files`:
 ![konference](assets/25.webp)
-- Otevře se nová stránka. Přetáhněte obrázek, který reprezentuje vaši konferenci a bude zobrazen na webu PlanB Network: ![konference](assets/26.webp)
+- Otevře se nová stránka. Přetáhněte obrázek, který reprezentuje vaši konferenci a bude zobrazen na webu Plan ₿ Academy: ![konference](assets/26.webp)
 - Může to být logo, miniatura nebo dokonce plakát:
 ![konference](assets/27.webp)
 - Jakmile je obrázek nahrán, zkontrolujte, že je zaškrtnuto políčko `Commit directly to the patch-1 branch`, poté klikněte na `Commit changes`:
@@ -177,7 +177,7 @@ Přednášející: Satoshi Nakamoto
 ```
 
 ![konference](assets/37.webp)
-- Na začátku vašeho dokumentu, v "úvodní části", vyplňte pole `name:` názvem vaší konference a rokem záznamů. Do pole `description:` napište krátký popis vaší akce v jazyce souboru. Například pro soubor pojmenovaný `en.md` by popis měl být v angličtině. Tým PlanB Network se postará o překlad vašeho popisu pomocí jejich modelu.
+- Na začátku vašeho dokumentu, v "úvodní části", vyplňte pole `name:` názvem vaší konference a rokem záznamů. Do pole `description:` napište krátký popis vaší akce v jazyce souboru. Například pro soubor pojmenovaný `en.md` by popis měl být v angličtině. Tým Plan ₿ Academy se postará o překlad vašeho popisu pomocí jejich modelu.
 - Nadpisy první úrovně, označené `#`, se používají k organizaci konference podle scén. Například `# Hlavní scéna` pro hlavní scénu a `# Workshopová místnost` pro scénu věnovanou workshopům.
 
 - Nadpisy druhé úrovně, označené dvojitým `##`, se používají k oddělení různých záznamů videí. Pokud byly konference natáčeny nepřetržitě přes půl dne, uveďte například `## Pátek dopoledne`. Pokud byly konference natáčeny a vysílány jednotlivě, pojmenujte konferenci přímo druhým nadpisem.
@@ -203,9 +203,9 @@ Přednášející: Satoshi Nakamoto
 ![konference](assets/44.webp)
 - Klikněte na tlačítko `Create pull request`:
 ![konference](assets/45.webp)
-Gratulujeme! Váš PR byl úspěšně vytvořen. Administrátor jej nyní zkontroluje a pokud je vše v pořádku, sloučí ho do hlavního repozitáře PlanB Network. Záznamy vaší konference by se na webu měly objevit o několik dní později.
+Gratulujeme! Váš PR byl úspěšně vytvořen. Administrátor jej nyní zkontroluje a pokud je vše v pořádku, sloučí ho do hlavního repozitáře Plan ₿ Academy. Záznamy vaší konference by se na webu měly objevit o několik dní později.
 
-Prosím, sledujte průběh vašeho PR. Je možné, že administrátor zanechá komentář s žádostí o dodatečné informace. Dokud není váš PR validován, můžete si jej prohlížet pod záložkou `Pull requests` na GitHub repozitáři PlanB Network:
+Prosím, sledujte průběh vašeho PR. Je možné, že administrátor zanechá komentář s žádostí o dodatečné informace. Dokud není váš PR validován, můžete si jej prohlížet pod záložkou `Pull requests` na GitHub repozitáři Plan ₿ Academy:
 ![konference](assets/46.webp)
 
 Moc vám děkujeme za váš cenný příspěvek! :)

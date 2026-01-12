@@ -10,13 +10,13 @@ Dalam tutorial ini, kita akan membahas proses pembuatan akun bisnis Kraken, memb
 
 Jika Anda tertarik dengan topik mengintegrasikan bitcoin ke dalam bisnis Anda, saya juga merekomendasikan untuk mempelajari kursus pelatihan teori lengkap kami tentang topik ini:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Membuat akun perusahaan Kraken
 
 Langkah pertama dalam menggunakan Kraken untuk mengelola keuangan perusahaan Anda, tentu saja, adalah membuat akun. Di sini, kami tidak akan membuat akun untuk individu, tetapi akun perusahaan, yang tidak hanya memastikan kepatuhan terhadap peraturan, tetapi juga menawarkan fitur-fitur yang dirancang khusus seperti ekspor akuntansi.
 
-Kunjungi situs web resmi [kraken.com] (https://www.kraken.com/) dan klik tombol "*Daftar*".
+Kunjungi situs web resmi [kraken.com](https://www.kraken.com/) dan klik tombol "*Daftar*".
 
 ![KRAKEN](assets/fr/01.webp)
 
@@ -59,8 +59,8 @@ Setelah Anda melengkapi semua bagian dan mengirimkan dokumen yang diperlukan, kl
 Setelah akun Anda diverifikasi, Anda akan mengakses platform di mana Anda akan ditawarkan dua antarmuka:
 
 
-- Kraken**: Antarmuka yang disederhanakan yang menawarkan fungsionalitas penting.
-- Kraken Pro**: Antarmuka tingkat lanjut dengan fitur tambahan, terutama untuk trading.
+- **Kraken**: Antarmuka yang disederhanakan yang menawarkan fungsionalitas penting.
+- **Kraken Pro**: Antarmuka tingkat lanjut dengan fitur tambahan, terutama untuk trading.
 
 Jika tujuan Anda hanya untuk membeli dan menjual bitcoin, pilihlah antarmuka yang disederhanakan. Anda akan selalu memiliki opsi untuk beralih ke antarmuka lanjutan nanti jika perlu.
 
@@ -78,7 +78,7 @@ Pada opsi 2FA, Anda bisa memilih untuk menggunakan kunci keamanan fisik sebagai 
 
 Untuk informasi lebih lanjut mengenai cara menggunakan jenis perangkat ini, lihat tutorial khusus kami:
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 Pilihan lainnya adalah menggunakan aplikasi autentikasi seperti Google Authenticator atau Authy. Aplikasi ini menghasilkan kode 6 digit dinamis yang harus Anda masukkan setiap kali Anda masuk.
 
@@ -90,7 +90,7 @@ Untuk mengaktifkan metode ini, pindai kode QR dengan aplikasi pilihan Anda pada 
 
 Untuk informasi lebih lanjut mengenai aplikasi autentikasi, Anda juga dapat membaca tutorial ini:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Di bawahnya, Anda juga memiliki akses ke pengaturan tingkat lanjut, termasuk kemampuan untuk mengatur beberapa 2FA yang berbeda. Kraken menawarkan pendelegasian keamanan tingkat lanjut melalui 2FA. Fitur ini memungkinkan Anda untuk membuat level 2FA yang berbeda untuk berbagai tindakan, seperti login, validasi pesanan, dan penarikan dana. Hal ini memungkinkan, misalnya, untuk memberikan akses kepada akuntan ke fungsi tertentu tanpa mengizinkannya menarik dana. Berikut adalah pilihannya:
 
@@ -158,9 +158,9 @@ Pilih jumlah, pilih mata uang kripto yang ingin Anda dapatkan, lalu konfirmasika
 Untuk transaksi ini, Anda dapat memilih di antara berbagai jenis order: *Market*, *Limit*, atau *Stop-Loss*:
 
 
-- Pasar* : Memungkinkan pembelian langsung dengan harga pasar saat ini;
-- Limit*: Memungkinkan Anda untuk menentukan harga pembelian, dan order hanya akan dieksekusi jika harga pasar mencapai jumlah ini;
-- Stop-Loss*: Menjual secara otomatis ketika harga mencapai ambang batas tertentu.
+- **Pasar**: Memungkinkan pembelian langsung dengan harga pasar saat ini;
+- **Limit**: Memungkinkan Anda untuk menentukan harga pembelian, dan order hanya akan dieksekusi jika harga pasar mencapai jumlah ini;
+- **Stop-Loss**: Menjual secara otomatis ketika harga mencapai ambang batas tertentu.
 
 ## 7 - Manajemen transaksi dan akuntansi
 
@@ -219,4 +219,4 @@ Tergantung pada tujuan dan struktur perusahaan Anda, penggunaan Kraken dapat ber
 
 Untuk melihat topik ini secara lebih mendalam, saya merekomendasikan kursus pelatihan komprehensif tentang mengintegrasikan bitcoin ke dalam bisnis, yang mencakup secara rinci menambah arus kas, menerima pembayaran bitcoin, dan akuntansi:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

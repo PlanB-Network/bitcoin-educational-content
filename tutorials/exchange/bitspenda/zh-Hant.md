@@ -98,9 +98,9 @@ BitSpenda 目前覆蓋三個國家：
 
 
 
-https://planb.network/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
+https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd
 
-https://planb.network/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
+https://planb.academy/tutorials/wallet/mobile/blitz-wallet-794bdac4-1af4-49d5-9ea5-abb8228ca196
 
 ### 肯亞的 M-Pesa
 
@@ -182,10 +182,10 @@ BitSpenda 透過肯亞流行的行動貨幣服務 M-Pesa 提供服務。
 
 
 
-- 保密性**：您不需要在平台上建立帳戶，不需要驗證身份，也不需要提供任何個人資訊。
-- 自由**：您可以在任何國家使用 BitSpenda 向加納、奈及利亞和肯亞進行交易。
-- 速度**：依靠閃電支付，BitSpenda 可以縮短處理時間，使交易瞬間完成。
-- 透明度**：您在 BitSpenda 上進行的所有交易都與獨特的識別碼相關聯，使您可以追蹤和追蹤這些交易的進度。您也可以使用這些識別碼聯絡 [X 上的應用程式支援](https://x.com/bitspenda)。
+- **保密性**：您不需要在平台上建立帳戶，不需要驗證身份，也不需要提供任何個人資訊。
+- **自由**：您可以在任何國家使用 BitSpenda 向加納、奈及利亞和肯亞進行交易。
+- **速度**：依靠閃電支付，BitSpenda 可以縮短處理時間，使交易瞬間完成。
+- **透明度**：您在 BitSpenda 上進行的所有交易都與獨特的識別碼相關聯，使您可以追蹤和追蹤這些交易的進度。您也可以使用這些識別碼聯絡 [X 上的應用程式支援](https://x.com/bitspenda)。
 
 
 
@@ -197,4 +197,4 @@ BitSpenda 透過肯亞流行的行動貨幣服務 M-Pesa 提供服務。
 
 
 
-https://planb.network/tutorials/exchange/centralized/banxaas-0cb6766a-5aee-4626-b657-224154bcf27c
+https://planb.academy/tutorials/exchange/centralized/banxaas-0cb6766a-5aee-4626-b657-224154bcf27c

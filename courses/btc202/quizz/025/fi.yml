@@ -1,0 +1,9 @@
+question: Milloin pruned-solmu on ongelma Wallet:lle?
+answer: Vanhaa Wallet:ta palautettaessa
+wrong_answers:
+  - Kun luodaan uusi vastaanotto Address
+  - Kun lähetät äskettäisen tapahtuman
+  - Kun valitset maksun määrän
+explanation: |
+  pruned-solmu ei säilytä vanhoja lohkoja, mikä voi estää aiempien tapahtumien skannauksen palauttamisen aikana.
+reviewed: true

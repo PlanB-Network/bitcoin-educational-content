@@ -29,7 +29,7 @@ Each bit in the sequence is compared to its counterpart, and the XOR operation i
 
 The XOR operation is used in many areas of computer science, notably in cryptography, for its interesting attributes such as:
 * Its commutativity: the order of the operands does not affect the result. For two given variables $D$ and $E$: $D \oplus E = E \oplus D$;
-* Its associativity: the grouping of operands does not affect the result. For three given variables $A$, $B$, and $C$: $(A \oplus B) \oplus C = A \oplus (B \oplus C)$;
+**Its associativity:** the grouping of operands does not affect the result. For three given variables $A$, $B$, and $C$: $(A \oplus B) \oplus C = A \oplus (B \oplus C)$;
 * It has a neutral element $0$: an operand xored with $0$ will always be equal to the operand. For a given variable $A$: $A \oplus 0 = A$;
 * Each element is its own inverse. For a given variable $A$: $A \oplus A = 0$.
 

@@ -1,8 +1,9 @@
-question: Apa sifat adopsi Bitcoin menurut teks?
-answer: Viral
+question: Mengapa saluran Lightning bisa tidak dapat digunakan dalam satu arah?
+answer: Likuiditas tidak mencukupi
 wrong_answers:
-  - Lambat dan stabil
-  - Cepat dan tak terkendali
-  - Sporadis dan tak terduga
-explanation: >-
-  Teks tersebut menggambarkan adopsi Bitcoin sebagai viral, mengindikasikan bahwa penyebarannya cepat dan luas dari satu orang ke orang lain, mirip seperti virus.
+  - Blok terlalu baru
+  - HTLC kedaluwarsa
+  - Node tidak tersinkronisasi
+explanation: |
+  Bahkan dengan kapasitas besar, saluran hanya memungkinkan pembayaran jika likuiditas yang cukup berada di sisi yang benar.
+reviewed: false

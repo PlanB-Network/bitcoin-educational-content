@@ -1,0 +1,8 @@
+question: Welk sleutelwoord is nodig om een variabele wijzigbaar te maken na de initiële declaratie in Rust?
+answer: mut
+wrong_answers:
+  - var
+  - muteerbaar
+  - veranderen
+explanation: |
+  In Rust is het sleutelwoord 'mut' nodig om een variabele als muteerbaar te declareren, zodat de waarde veranderd kan worden na de initiële toewijzing. Standaard zijn alle variabelen in Rust onveranderlijk om veiligheidsredenen. De syntaxis is 'let mut x = 5' voor een muteerbare variabele versus 'let x = 5' voor een onveranderlijke. De andere opties zoals 'var', 'mutable' en 'change' zijn geen geldige Rust sleutelwoorden voor dit doel.

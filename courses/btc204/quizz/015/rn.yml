@@ -1,0 +1,9 @@
+question: Ni intambwe 3 nyamukuru izihe zo gusesangura Blockchain?
+answer: Kwihweza Blockchain, kumenya ibiranga, no gukuraho ivyiyumviro.
+wrong_answers:
+  - Ikusanya amakuru, ububiko butekanye, no gutanga raporo.
+  - Kumenya abakoresha, gutunganya uguhanahana, no kurinda ubusuma.
+  - Ikwegeranya amakuru, guhitamwo ataco bimaze, no kwamagana.
+explanation: |
+  Isesengura rya Blockchain ribanza gushika ku makuru ya Bitcoin Blockchain, hanyuma rikagerageza kumenya ibiranga ayo makuru, hanyuma rikagira insobanuro zishoboka.
+reviewed: false

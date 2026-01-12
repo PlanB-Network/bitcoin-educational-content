@@ -1,0 +1,10 @@
+question: Ni gute amakete ajanye n’igitabu ca Bitcoin Wallet abikwa?
+answer: Mu karere kuri porogarama ya Wallet.
+wrong_answers:
+  - Mu rutonde rw'amakuru rwo hagati rugenzurwa n'umuhinguzi.
+  - Ku Bitcoin Blockchain biciye ku OP_RETURN.
+  - Mu RAM gusa mu gihe c’ugushirwa mu ngiro kwa porogarama.
+explanation: |
+  Ivyandiko bibikwa aho hantu na porogarama ya Wallet kandi ntivyigera birungikwa ku rubuga rwa Bitcoin. Gushirako amazina rero ni igikoresho co kurongora umuntu ku giti ciwe.
+  
+reviewed: false

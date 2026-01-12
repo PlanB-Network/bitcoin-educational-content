@@ -1,0 +1,9 @@
+question: Ni uwuhe mutungo wa Schnorr ushobora gufatanya imfunguruzo nyinshi za bose zigacika imwe?
+answer: Ihuriro ry'urufunguzo
+wrong_answers:
+  - Igenzura ry'Itsinda
+  - Ugukomera
+  - Gushiramwo umukono
+explanation: |
+  Schnorr iremeza ko imfunguruzo nyinshi za bose zihurizwa hamwe zikaba urufunguzo rumwe.
+reviewed: false

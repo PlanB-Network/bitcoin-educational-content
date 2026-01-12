@@ -1,10 +1,11 @@
-question: Apa itu Lightning Network?
-answer: Jaringan pembayaran Bitcoin instan yang menggunakan blockchain Bitcoin
+question: Apa tujuan dari kolam penambangan?
+answer: Kolam penambangan memungkinkan penambang untuk menggabungkan sumber daya komputasi mereka dan menerima hadiah yang lebih kecil namun lebih teratur.
 wrong_answers:
-  - Sebuah jaringan blockchain terpisah dari blockchain Bitcoin
-  - Jaringan para penambang Bitcoin
-  - Jaringan bursa Bitcoin
+  - Kolam penambangan digunakan untuk meningkatkan HashRate dari jaringan Bitcoin.
+  - Kolam penambangan digunakan untuk menurunkan kesulitan penambangan.
+  - Kolam penambangan digunakan untuk meningkatkan hadiah dari penambangan.
 explanation: >-
-  Lightning Network adalah jaringan pembayaran Bitcoin instan yang menggunakan
-  blockchain Bitcoin.
+  Kolam penambangan adalah kelompok penambang yang menggabungkan kekuatan komputasi mereka
+  untuk meningkatkan peluang mereka dalam menambang sebuah blok. Dengan menggabungkan sumber daya mereka, mereka dapat
+  menambang blok lebih sering dan menerima hadiah yang lebih kecil namun lebih teratur.
 reviewed: false

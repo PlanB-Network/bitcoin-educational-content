@@ -1,0 +1,9 @@
+question: Ni kubera iki amajambo 24 Mnemonic akenshi abonwa ko ataco amaze ku Bitcoin Wallet?
+answer: Imfunguruzo zikomoka zitanga gusa ibice 128 vy'umutekano
+wrong_answers:
+  - Porogaramu ntishigikira amajambo y'amajambo 24
+  - Ntivyemera gukuraho imfunguruzo za bose
+  - Invugo ngufi ntizihuye
+explanation: |
+  Naho ijambo ry’amajambo 24 ritanga umutekano w’ibice 256, imfunguruzo z’ibanga za Bitcoin zikomokako zitanga gusa umutekano w’ibice 128, ivyo bikaba bituma ivyo birenze urugero bidakenewe.
+reviewed: false

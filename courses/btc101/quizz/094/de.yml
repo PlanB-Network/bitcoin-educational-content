@@ -1,14 +1,12 @@
-question: Was ist das Risiko bei der Verwendung einer Multisig-Wallet?
-answer: Nicht genügend individuelle private Schlüssel oder Backup-Komponenten zu haben.
+question: Was ist eine Standardmethode, um Ihr Wallet wiederherzustellen?
+answer: Eingabe Ihrer mnemonischen Phrase in eine beliebige Wallet-Software.
 wrong_answers:
-  - Genügend individuelle private Schlüssel oder Backup-Komponenten zu haben.
-  - Ihre privaten Schlüssel mit anderen Parteien zu teilen.
-  - Ihre öffentlichen Schlüssel mit anderen Parteien zu teilen.
+  - Speichern Ihrer mnemonischen Phrase in einer digitalen Datei.
+  - Schreiben Ihrer mnemonischen Phrase auf ein Whiteboard.
+  - Teilen Ihrer mnemonischen Phrase mit einem vertrauenswürdigen Freund.
 explanation: |
-  Wenn Sie eine Multisig-Wallet verwenden, sollte jeder private Schlüssel der
-  Multisig an verschiedenen Orten aufbewahrt werden. Dies ist
-  deshalb wichtig, weil die Multisig mehrere Signaturen benötigt, um
-  eine Transaktion durchzuführen, sodass eine bestimmte Anzahl von Wallets
-  benötigt wird. Daher fügt das Aufbewahren jedes Teils an einem anderen Ort
-  eine zusätzliche Sicherheitsebene hinzu.
-reviewed: true
+  Die Standardmethode zum Sichern des privaten Schlüssels in einem
+  Bitcoin-Wallet besteht darin, Ihre mnemonische Phrase in eine
+  beliebige Wallet-Software einzugeben. Dies ermöglicht es Ihnen,
+  Ihr Wallet wiederherzustellen.
+reviewed: false

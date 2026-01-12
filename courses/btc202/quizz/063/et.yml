@@ -1,0 +1,9 @@
+question: Millised kaks Lightning Network rakendust on Umbrelil saadaval?
+answer: LND ja Core Lightning
+wrong_answers:
+  - Elektrid ja Fulcrum
+  - Bitcoin core ja Bitcoin Knots
+  - Ride The Lightning ja ThunderHub
+explanation: |
+  Umbrel võimaldab teil valida LND ja Core Lightningi vahel Lightning Network rakenduste vahel.
+reviewed: true

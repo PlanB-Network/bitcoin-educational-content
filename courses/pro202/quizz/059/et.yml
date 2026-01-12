@@ -1,0 +1,8 @@
+question: Milline on eraelu puutumatust säilitavate valgusklientide kompaktsete plokkfiltrite (BIP158) kontekstis see kriitiline kompromiss, mis muudab need wallet eraelu puutumatuse tagamiseks tõhusaks?
+answer: Need võivad anda valepositiivseid, kuid mitte kunagi valenegatiivseid tulemusi, võimaldades klientidel alla laadida potentsiaalselt ebaolulisi plokke ilma konkreetseid aadresse paljastamata
+wrong_answers:
+  - Need võivad anda valenegatiivseid, kuid mitte kunagi valepositiivseid tulemusi, tagades, et kliendid laadivad alla ainult oma tehinguid sisaldavaid plokke
+  - Nad kõrvaldavad nii valepositiivsed kui ka valenegatiivsed tulemused, kasutades deterministlikku filtreerimist wallet-aadresside alusel
+  - "Nad toodavad võrdselt nii valepositiivseid kui ka valenegatiivseid tulemusi, et varjata kliendi tegelikke tehingumustreid"
+explanation: |
+  Kompaktsete plokkide filtrid on loodud asümmeetrilise veamudeliga: nad võivad näidata, et plokk sisaldab asjakohaseid tehinguid, kuigi see ei ole nii (valepositiivne), kuid nad ei jäta kunagi vahele plokki, mis tegelikult sisaldab asjakohaseid tehinguid (ei ole valenegatiivset). Selline ülesehitus on oluline, sest valenegatiivsed tulemused tähendaksid tegelike maksete puudumist, samas kui valepositiivsed tulemused toovad kaasa ainult mittevajalike plokkide allalaadimise. Valepositiivsete maksete määr tagab privaatsuse, kuna see sunnib kliente allalaadima mõned ebaolulised plokid, mistõttu vaatlejad ei saa kindlaks teha, millised plokid tegelikult sisaldavad kliendi tehinguid.

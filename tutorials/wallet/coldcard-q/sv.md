@@ -27,7 +27,7 @@ I den här handledningen vill jag presentera en sådan lösning: **COLDCARD Q**.
 Eftersom COLDCARD Q erbjuder en mängd olika funktioner, föreslår jag att vi delar upp användningen i 2 handledningar. I den första handledningen går vi igenom den första konfigurationen och enhetens grundläggande funktioner. I en andra handledning går vi sedan igenom hur du kan utnyttja alla avancerade alternativ på COLDCARD.
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 ---
 ## Vi presenterar COLDCARD Q
@@ -74,7 +74,7 @@ På mjukvarusidan är COLDCARD Q lika välutrustad som Coinkites andra enheter, 
 Kort sagt, COLDCARD Q erbjuder en förbättrad användarupplevelse jämfört med MK4 och kan vara idealisk för mellanliggande till avancerade användare som vill ha större användarvänlighet.
 
 
-COLDCARD Q finns till försäljning [på Coinkites officiella webbplats] (https://store.coinkite.com/store/coldcard). Det kan också köpas från en återförsäljare.
+COLDCARD Q finns till försäljning [på Coinkites officiella webbplats](https://store.coinkite.com/store/coldcard). Det kan också köpas från en återförsäljare.
 
 
 ## Förbereda handledningen
@@ -113,7 +113,7 @@ Om du föredrar att driva ditt COLDCARD utan att ansluta det till en dator (luft
 För denna handledning behöver du också Sparrow wallet för att hantera dina Bitcoin Wallet på din dator. Ladda ner [Sparrow wallet](https://sparrowwallet.com/download/) från den officiella webbplatsen. Jag rekommenderar starkt att du kontrollerar både dess äkthet (med GnuPG) och integritet (via Hash) innan du fortsätter med installationen. Om du inte vet hur du gör det kan du följa den här handledningen:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 ## Val av PIN-kod
 
@@ -220,7 +220,7 @@ Du kan kontrollera den aktuella firmware-versionen på ditt COLDCARD. I mitt fal
 ![CCQ](assets/fr/019.webp)
 
 
-Kontrollera [på COLDCARD:s officiella webbplats] (https://coldcard.com/downloads) om det finns en nyare version tillgänglig. Klicka på "*Download*" för att ladda ner den nya firmware.
+Kontrollera [på COLDCARD:s officiella webbplats](https://coldcard.com/downloads) om det finns en nyare version tillgänglig. Klicka på "*Download*" för att ladda ner den nya firmware.
 
 
 ![CCQ](assets/fr/020.webp)
@@ -232,7 +232,7 @@ I det här läget rekommenderar vi starkt att du kontrollerar integriteten och �
 Om du inte är bekant med denna verifieringsprocess rekommenderar jag att du följer denna handledning:
 
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Ta ett microSD-kort och överför firmware-filen (dokument i `.dfu`) till det. Sätt i microSD-kortet i en av COLDCARD:s portar.
 
@@ -291,7 +291,7 @@ I den här menyn hittar du olika anpassningsalternativ, t.ex. inställning av sk
 Vi kommer att titta på andra avancerade inställningar i nästa handledning:
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
 
 ## Skapa en Bitcoin Wallet
 
@@ -486,7 +486,7 @@ Innan du får dina första bitcoins i din Wallet, ** rekommenderar jag starkt at
 Om du vill veta mer om hur du utför ett återställningstest föreslår jag att du läser den här andra handledningen:
 
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 ## Ta emot bitcoins
 
@@ -563,7 +563,7 @@ Du kan nu lägga till en "*Label*" för att beskriva källan till bitcoins som k
 För mer information om märkning rekommenderar jag även denna andra handledning:
 
 
-https://planb.network/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
+https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
 Du kan sedan använda denna Address för att ta emot bitcoins.
 
@@ -712,4 +712,4 @@ Om du tyckte att denna handledning var användbar skulle jag vara mycket tacksam
 Jag rekommenderar också att du tar en titt på den här andra handledningen där vi diskuterar de avancerade alternativen för COLDCARD Q :
 
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-advanced-b8cc3f29-eea9-48fe-a953-b003d5b115e0

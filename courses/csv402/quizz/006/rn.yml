@@ -1,0 +1,9 @@
+question: Muri RGB, Commitment iri hehe iyo Single-Use Seal ifunze?
+answer: Mu gisohoka c'ugucuruza gukoresha igisohoka
+wrong_answers:
+  - Mu kwinjiza kw'ugucuruza gukoresha outpoint
+  - Mu nyandikoSig y'ugucuruza gukoresha outpoint
+  - Mu Cabona c’ugucuruza akoresha outpoint
+explanation: |
+  Commitment yinjizwa mu gisohoka c'ugucuruza gikoresha igisohoka gisobanura Single-Use Seal.
+reviewed: false

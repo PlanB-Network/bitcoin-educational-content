@@ -1,12 +1,12 @@
-question: İtibari para birimlerinin temel avantajı nedir?
-answer: Kolayca bölünebilirler.
+question: Güvene dayalı para birimlerini ihraç etmekten sorumlu kuruluşlar hangileridir?
+answer: Merkez bankaları.
 wrong_answers:
-  - Merkezi bir parti tarafından kontrol edilirler.
-  - Kolayca taşınamazlar.
-  - Zaman içinde değerlerini korumak için etkilidirler.
+  - Ticari bankalar.
+  - Hükümetler.
+  - Özel Kurumlar.
 explanation: |
-  Dolar ve euro gibi fiat para birimleri çok
-  Liquid ve kolayca taşınabilir çünkü artık çoğunlukla
-  dijital. Bununla birlikte, değerleri sürekli olarak aşağıdakiler tarafından aşındırılmaktadır
-  parasal enflasyon.
+  Merkez bankaları, para basmaktan sorumlu kuruluşlardır
+  güvene dayalı para birimi. Para politikasına karar verirler ve
+  ne kadar paranın dolaşıma sokulması gerektiğini belirlemek veya
+  basılı.
 reviewed: true

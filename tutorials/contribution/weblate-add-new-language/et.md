@@ -1,16 +1,16 @@
 ---
 name: Weblate - uue keele lisamine
-description: Kuidas saate lisada uue keele Plan ₿ Network'ile?
+description: Kuidas saate lisada uue keele Plan ₿ Academy'ile?
 ---
 ![cover](assets/cover.webp)
 
-Plan ₿ Network'i missioon on pakkuda esmaklassilisi hariduslikke ressursse Bitcoini kohta ja tõlkida need võimalikult paljudesse keeltesse. Suur osa saidil avaldatud sisust on avatud lähtekoodiga ja asub GitHubis, mis võimaldab kõigil osaleda platvormi rikastamises. Panus võib võtta erinevaid vorme: olemasoleva sisu parandamine ja korrektuur, teabe ajakohastamine või uute õppematerjalide loomine platvormile lisamiseks.
+Plan ₿ Academy'i missioon on pakkuda esmaklassilisi hariduslikke ressursse Bitcoini kohta ja tõlkida need võimalikult paljudesse keeltesse. Suur osa saidil avaldatud sisust on avatud lähtekoodiga ja asub GitHubis, mis võimaldab kõigil osaleda platvormi rikastamises. Panus võib võtta erinevaid vorme: olemasoleva sisu parandamine ja korrektuur, teabe ajakohastamine või uute õppematerjalide loomine platvormile lisamiseks.
 
 Meie veebisait pakub praegu mitmeid keeli ja me töötame pidevalt selle nimel, et lisada uusi keeli. Tõlkimisprotsessi parandamiseks kasutame meie eesliinil Weblate'i, mis aitab meil teha koostööd ja hallata tõlkeid tõhusalt. See on kasutajasõbralik vahend.
 
 Kui teie emakeel ei ole veel meie veebilehel saadaval ja te soovite seda lisada, siis on see õpetus just teile!
 
-Kõigepealt võtke kindlasti ühendust Plan ₿ Network'i meeskonnaga meie [Telegrami grupi](https://t.me/PlanBNetwork_ContentBuilder) kaudu. Kui teil ei ole Telegrami, võite saata e-kirja aadressil mari@planb.network. Kirjuta kindlasti väike tutvustus selle kohta, kes sa oled ja milliseid keeli sa räägid.
+Kõigepealt võtke kindlasti ühendust Plan ₿ Academy'i meeskonnaga meie [Telegrami grupi](https://t.me/PlanBNetwork_ContentBuilder) kaudu. Kui teil ei ole Telegrami, võite saata e-kirja aadressil mari@planb.network. Kirjuta kindlasti väike tutvustus selle kohta, kes sa oled ja milliseid keeli sa räägid.
 
 ## Kontrollida, kas keel on olemas Weblate'is
 
@@ -28,7 +28,7 @@ Kontrollida, kas teie keel on juba nende keelte hulgas, millega me töötame.
 
 Kui teie keel on selles nimekirjas, ei pea te seda uuesti lisama. Et aidata kaasa veebilõike korrektuuriga, avastage järgmine juhendmaterjal:
 
-https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+https://planb.academy/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
 Kui teie keelt seal ei ole, järgige selle lisamiseks allolevat õpetust.
 
 ## Uue keele lisamine plaanile ₿ Võrk
@@ -64,8 +64,8 @@ Kui teie keelt seal ei ole, järgige selle lisamiseks allolevat õpetust.
 
 Tõlkimisprotsessi juhendamiseks vaadake meie spetsiaalset õpetust siin allpool:
 
-https://planb.network/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
-Palju õnne, olete alustanud Plan ₿ Network'i veebisaidi staatiliste elementide tõlkimist!
+https://planb.academy/tutorials/contribution/content/weblate-translate-front-end-8213b931-650f-4efd-8f4e-9a8ae5ce6295
+Palju õnne, olete alustanud Plan ₿ Academy'i veebisaidi staatiliste elementide tõlkimist!
 
 Need hõlmavad kõiki veebisaidil olevaid stringid, välja arvatud hariduslik sisu (kursused, õpetused...), mille jaoks kasutame teist poolautomaatset meetodit (AI-tõlge + korrektuur).
 

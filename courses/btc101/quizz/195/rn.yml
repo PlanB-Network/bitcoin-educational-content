@@ -1,0 +1,10 @@
+question: Ni ubuhe buryo bumwe bwo kuronka ama bitcoins ata KYC?
+answer: Bitcoin Ama ATM.
+wrong_answers:
+  - Ivyuma vy’abacuruzi.
+  - Ivyuma vya DCA.
+  - Ivyoherezwa muri banki.
+explanation: |
+  Ico canditswe c’inyigisho kivuga ko hari uburyo bwinshi bwo .
+  kuronka Bitcoins ata KYC, imwe muri yo ni ama ATM ya Bitcoin.
+reviewed: true

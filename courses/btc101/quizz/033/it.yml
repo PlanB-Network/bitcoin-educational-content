@@ -1,10 +1,12 @@
-question: Perché Bitcoin è considerato una nuova forma di denaro?
-answer: Perché è un denaro digitale senza la necessità di un'entità centrale.
+question: Qual è la strategia utilizzata dalle entità centrali per svalutare una valuta fiat?
+answer: Aumentano la massa monetaria di qualche percento ogni anno.
 wrong_answers:
-  - Perché è una valuta digitale supportata dall'oro.
-  - Perché è una valuta che richiede la blockchain bancaria.
-  - Perché lo dice la Federal Reserve.
+  - Diminuiscono la massa monetaria di qualche percento ogni anno.
+  - Mantengono costante la sua massa monetaria rispetto alla quantità iniziale.
+  - Fanno fluttuare casualmente la sua massa monetaria in confronto alla quantità iniziale.
 explanation: |
-  Bitcoin può essere visto come una nuova forma di denaro, poiché emerge
-  da una rete peer-to-peer senza la necessità di un'entità centrale.
-reviewed: vero
+  Le entità centrali spesso svalutano una valuta aumentando la sua
+  massa monetaria rispetto alla quantità iniziale di qualche percento
+  ogni anno. Questa svalutazione silenziosa è spesso giustificata
+  nell'interesse del popolo.
+reviewed: true

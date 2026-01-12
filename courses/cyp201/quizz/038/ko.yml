@@ -1,0 +1,9 @@
+question: Bitcoin Address 재사용이 권장되지 않는 이유는 무엇인가요?
+answer: 제3자의 거래 추적을 용이하게 합니다
+wrong_answers:
+  - Nonce로 인해 개인 키가 공개됩니다
+  - 거래 비용이 더 많이 듭니다
+  - 디지털 서명을 무효화합니다
+explanation: |
+  Address를 재사용하면 관찰자가 서로 다른 거래를 동일한 사용자에게 쉽게 연결할 수 있어 개인정보가 침해될 수 있습니다.
+reviewed: false

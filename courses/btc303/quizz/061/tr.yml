@@ -1,0 +1,9 @@
+question: Kullanıcıların Bitcoin yazılımının tartışılan açık kaynak ilkelerine göre 'reklamı yapıldığı gibi çalıştığını' doğrulamasını sağlayan temel gereksinim nedir?
+answer: Kullanıcılar doğrulamak istedikleri yazılımın kaynak koduna sınırsız erişime sahip olmalıdır
+wrong_answers:
+  - Kullanıcılar doğrulama araçlarına erişmeden önce Bitcoin Core bakımcılarından izin almalıdır
+  - Kullanıcılar, resmi kaynaklardan derlenmiş doğrulama ikililerine erişmek için makul bir ücret ödemelidir
+  - Kullanıcılar, yazılım davranışını doğrulamak için güvenilir geliştiricilerin kriptografik imzalarına güvenmelidir
+explanation: |
+  Bu bölümde, kullanıcıların Bitcoin yazılımının 'söylendiği gibi çalıştığını' doğrulayabilmeleri için kaynak koduna sınırsız erişime sahip olmaları gerektiği açıkça belirtilmektedir. Bu doğrudan 'Güvenme, Doğrula' ilkesine ve açık kaynak tanımının kaynak kodunun erişilebilirliği gerekliliğine bağlanmaktadır. Yanlış cevaplar temel açık kaynak ilkeleriyle çelişmektedir: izin istemek ücretsiz erişim ilkesini ihlal eder, ücret ödemek ücretsiz dağıtım gerekliliğiyle çelişir ve yalnızca imzalara güvenmek açık kaynağın sağladığı denetim yoluyla doğrulama özelliğini zayıflatır.
+reviewed: false

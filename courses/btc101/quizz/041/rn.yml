@@ -1,0 +1,12 @@
+question: None ingaruka z’ugutera imbere cane kw’ibiciro ni izihe?
+answer: Igabanuka rikomeye ry’agaciro k’amahera.
+wrong_answers:
+  - Igabanuka gatoyi ry’agaciro k’amahera.
+  - Ukwiyongera gukomeye kw’agaciro k’amahera.
+  - Ukwongerekana gutoyi kw’agaciro k’amahera.
+explanation: |
+  Kubera ugutera imbere kw’ibiciro, abantu ku giti cabo baragira ningoga .
+  gutakaza ukwizigira burundu amafaranga, ivyo bikaba bituma .
+  kugabanya cane agaciro kayo mu kiringo gitoyi c’umwaka wa 1990.
+  umwanya.
+reviewed: true

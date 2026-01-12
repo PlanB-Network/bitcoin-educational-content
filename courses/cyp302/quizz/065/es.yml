@@ -6,4 +6,4 @@ wrong_answers:
   - Un algoritmo de cifrado, una clave pública y una clave privada
 explanation: |
   Un esquema de cifrado simétrico consta de tres elementos: un algoritmo de generación de claves, un algoritmo de cifrado y un algoritmo de descifrado. Todos utilizan la misma clave.
-reviewed: false
+reviewed: true

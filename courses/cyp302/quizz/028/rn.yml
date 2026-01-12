@@ -1,0 +1,9 @@
+question: None igisubizo ca 0 XOR 1 ni igiki?
+answer: 1
+wrong_answers:
+  - 0
+  - 2
+  - -1.
+explanation: |
+  Na XOR, 0 XOR 1 itanga 1 kuko ibice bitandukanye.
+reviewed: false

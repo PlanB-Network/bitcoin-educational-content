@@ -1,0 +1,9 @@
+question: 초기 피어 검색에 사용되는 DNS seed 서버는 누가 유지 관리하나요?
+answer: 에코시스템 개발자
+wrong_answers:
+  - 인터넷 서비스 제공업체
+  - Satoshi 나카모토
+  - Mining 풀
+explanation: |
+  DNS 시드는 잘 알려진 개발자(Wuille, Corallo, Dashjr 등)가 유지 관리하며 연결을 시작할 수 있는 활성 노드 IP를 제공합니다.
+reviewed: true

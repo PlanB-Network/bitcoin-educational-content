@@ -6,4 +6,4 @@ wrong_answers:
   - Quand les fonds disponibles sont épuisés
 explanation: |
   Les transactions d'engagement sont construites et signées pour chaque changement de répartition, mais elles ne sont éventuellement publiées sur la blockchain qu'en cas de fermeture du canal.
-reviewed: false
+reviewed: true 

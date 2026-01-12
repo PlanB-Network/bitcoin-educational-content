@@ -1,0 +1,9 @@
+question: Quel protocole de minage a été développé en septembre 2012 par Marek Palatinus, alias Slush, pour améliorer les échanges entre les mineurs et les coopératives ?
+answer: Stratum
+wrong_answers:
+  - Electrum
+  - Getwork
+  - Getblocktemplate (GBT)
+explanation: |
+ Stratum était un protocole de minage pour les clients légers. Il a rapidement remplacé la rudimentaire fonction getwork utilisée jusque là, et s'est imposé aux dépens de la proposition concurrente getblocktemplate.
+reviewed: false

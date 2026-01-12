@@ -1,0 +1,9 @@
+question: Кой графичен софтуер може да се използва за подробен образователен анализ на заснетите мрежови пакети?
+answer: Wireshark
+wrong_answers:
+  - Ifconfig
+  - Traceroute
+  - Маршрут
+explanation: |
+  Wireshark е графичен анализатор на пакети за задълбочено изследване на заснет мрежов трафик.
+reviewed: false

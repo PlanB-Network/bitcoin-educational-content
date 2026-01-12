@@ -1,0 +1,9 @@
+question: Hvilken node-in-a-box-løsning er markedsledende i dag?
+answer: Paraply
+wrong_answers:
+  - Start9
+  - Nodl
+  - RoninDojo
+explanation: |
+  Umbrel er den mest populære node-i-en-boks-løsningen, takket være den enkle installasjonen og den innholdsrike App Store.
+reviewed: true

@@ -1,12 +1,9 @@
-question: Miten tämä kurssi kuvailee Bitcoinia?
-answer: Monitieteinen aihe.
+question: Mitä tämä kurssi ehdottaa Bitcoinin tulevaisuudesta?
+answer: Se ei tule katoamaan.
 wrong_answers:
-  - Yksinkertainen aihe.
-  - Fyysinen aihe.
-  - Yksitieteellinen aihe.
+  - Sen korvaa parempi teknologia.
+  - Se kielletään maailmanlaajuisesti.
+  - Se menettää arvonsa.
 explanation: |
-  Bitcoinia kuvataan monitieteisenä aiheena, koska
-  se herättää kysymyksiä liittyen useisiin eri aloihin, mukaan lukien
-  kryptografia, peliteoria, taloustiede ja rahapolitiikka,
-  tietojenkäsittelytiede, filosofia, energia, lait ja säädökset.
+  Kurssiteksti ehdottaa, että Bitcoin ei ole katoamassa. Päinvastoin, vallankumous on vasta alkanut.
 reviewed: true

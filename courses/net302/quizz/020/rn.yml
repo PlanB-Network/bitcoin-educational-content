@@ -1,0 +1,9 @@
+question: Ni irihe tandukaniro rikomeye riri hagati ya TCP na UDP?
+answer: TCP ni iyo guhuza, UDP si
+wrong_answers:
+  - TCP ikora gusa ku nzira zo mu karere, UDP kuri Internet
+  - TCP yama ikoresha ububiko, UDP ntiyigera ikoresha
+  - TCP icungera uguca ibice kwa IP, UDP icungera gufatanya
+explanation: |
+  TCP isaba ko uruja n’uruza rushingwa kandi rugenzurwa, mu gihe UDP yohereza amapakete ata gushinga canke kugenzura igihe c’imbere.
+reviewed: false

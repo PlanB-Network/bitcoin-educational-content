@@ -1,0 +1,13 @@
+question: Ni ikihe kibazo nyamukuru c’amahera ya fiat?
+answer: Agaciro kavyo kaguma gasenyuka kubera ugutera imbere kw’amahera.
+wrong_answers:
+  - Ntivyoroshe gutwara.
+  - Agaciro kavyo kaguma gashimwa n’ugutera imbere kw’amahera.
+  - Ntibigabanywa.
+explanation: |
+  Intambamyi nyamukuru y’amahera y’amahera, nk’ayo
+  idolari n’iyero, ni uko agaciro kavyo kaguma .
+  n’ugusenyuka kw’amahera. Ivyo biva ku .
+  ugutakaza agaciro bitewe n’inzego zizigenzura (umwami,
+  banki nkuru, umwami w’abami, umunyagitugu).
+reviewed: true

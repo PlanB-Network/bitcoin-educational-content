@@ -1,0 +1,9 @@
+question: ¿Cuál es la principal limitación de las comunicaciones Tor con su nodo?
+answer: Lentitud
+wrong_answers:
+  - Falta de encriptación
+  - Spam
+  - La imposibilidad de utilizar RPC
+explanation: |
+  Las conexiones Tor son seguras, pero más lentas que alternativas como VPN.
+reviewed: true

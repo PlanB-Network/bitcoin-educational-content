@@ -1,0 +1,9 @@
+question: Ni gute ivyinjiye mu bubiko bwa ip neigh bimeze igihe ikarita ya IP/MAC ari ngirakamaro kandi iherutse gusohoka?
+answer: BISHIKWA
+wrong_answers:
+  - BIHUZE
+  - VYEMEWE
+  - IVYASHIJE
+explanation: |
+  Igihugu ca REACHABLE bisigura ko ikarita ya IP/MAC izwi kandi ikora mu bubiko bw’ababanyi.
+reviewed: false

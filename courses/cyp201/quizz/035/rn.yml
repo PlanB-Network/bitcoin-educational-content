@@ -1,0 +1,9 @@
+question: Ni uruhe rugero rwa Bitcoin ruzana ama wallets y’ubukuru?
+answer: BIP32
+wrong_answers:
+  - BIP39
+  - BIP44
+  - BIP141
+explanation: |
+  BIP32 isobanura imikorere y'amasakoshi ya HD, yemerera gukuraho imfunguruzo z'ibanga zivuye kuri seed.
+reviewed: false

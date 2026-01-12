@@ -1,0 +1,9 @@
+question: Hvilken datastruktur oppsummerer transaksjonene i en blokk?
+answer: Merkle Tree
+wrong_answers:
+  - Hash UTXO-tabellen
+  - Filen peers.dat
+  - Registeret assumeutxo
+explanation: |
+  Transaksjonene i en blokk blir overført til en Merkle Tree, hvis rot er inkludert i blokkhodet for å sikre blokkens integritet.
+reviewed: true

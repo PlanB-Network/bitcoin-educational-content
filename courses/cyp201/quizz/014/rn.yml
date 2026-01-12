@@ -1,0 +1,9 @@
+question: Ni igitigiri kingana iki c’ibisubirwamwo bikoreshwa na PBKDF2 muri Bitcoin?
+answer: 2048
+wrong_answers:
+  - 1024
+  - 4096
+  - 512
+explanation: |
+  PBKDF2 isubiramwo uburyo bwa HMAC-SHA512 incuro 2048 kugira ngo yongere umutekano.
+reviewed: false

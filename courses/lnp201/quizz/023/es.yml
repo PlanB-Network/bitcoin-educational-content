@@ -6,4 +6,4 @@ wrong_answers:
   - Para dividir los fondos equitativamente
 explanation: |
   Intercambiar secretos por transacciones anteriores permite a cada participante castigar al otro en caso de un intento de engaño al publicar una transacción antigua.
-reviewed: false
+reviewed: true

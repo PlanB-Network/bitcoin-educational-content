@@ -1,0 +1,9 @@
+question: None igitangaro c’i Buraya gisobanura iki?
+answer: Uguca ibice mu vya politike kw’Uburayi be n’ukubura ubutegetsi bwa mbere buganza .
+wrong_answers:
+  - Ubusumbasumbane bw'umuco w'i Buraya
+  - Gukoresha nabi amakoloni n'ubutunzi buva kw'isi yose .
+  - Iterambere ry'ubuhinga n'ubuhinga
+explanation: |
+  Igitangaza c’Uburaya gisigurwa n’uguca ibice kw’Uburaya mu vya politike, ivyo bikaba vyatumye haba uguhiganwa hagati y’ibihugu n’uguhingura ibintu bishasha, mu gihe ukubura ubutegetsi bwa mbere buhambaye bwatumye habaho ubunywanyi bwatumye habaho iterambere ry’ubutunzi n’imico kama.
+reviewed: true

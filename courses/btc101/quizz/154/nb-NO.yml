@@ -1,10 +1,10 @@
-question: Hva er rollen til ASICs i Bitcoin-mining?
-answer: ASICs er maskiner designet utelukkende for å anvende SHA256-algoritmen i miningprosessen.
+question: Hva er hovedbekymringen angående miljøkostnaden ved Bitcoin-mining?
+answer: Energiforbruket
 wrong_answers:
-  - ASICs brukes til å verifisere Bitcoin-transaksjoner.
-  - ASICs brukes til å skape nye bitcoins.
-  - ASICs brukes til å sikre Bitcoin-nettverket.
+  - Produksjonen av ASICs
+  - Resirkuleringen av ASICs
+  - Kostnaden for elektrisitet
 explanation: >-
-  ASICs (Application-Specific Integrated Circuits) er spesialisert maskinvare
-  designet spesifikt for Bitcoin-mining. De er optimalisert for å utføre SHA256-
-  hashfunksjonen, som er det matematiske problemet minerne må løse i Proof of Work.
+  Hovedmiljøbekymringen ved Bitcoin-mining er energiforbruket. Selv om ASICs hovedsakelig er laget av aluminium og kan resirkuleres eller gjenbrukes, er energien
+  som kreves for å drive disse maskinene, betydelig.
+reviewed: false

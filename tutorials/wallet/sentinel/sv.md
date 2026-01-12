@@ -1,5 +1,5 @@
 ---
-name: Sentinel endast för bevakning
+name: Sentinel
 description: Vad är en Watch-only wallet och hur använder man den?
 ---
 
@@ -40,7 +40,7 @@ Watch-only används i allmänhet tillsammans med en Hardware Wallet. Detta gör 
 ## Vilken Watch-only wallet ska man använda?
 
 
-För närvarande är den mest omfattande applikationen för endast bevakning [Sentinel] (https://sentinel.watch/), utvecklad av teamen på Samourai Wallet. Den omfattar alla väsentliga funktioner för en bra Watch-only wallet:
+För närvarande är den mest omfattande applikationen för endast bevakning [Sentinel](https://sentinel.watch/), utvecklad av teamen på Samourai Wallet. Den omfattar alla väsentliga funktioner för en bra Watch-only wallet:
 
 
 
@@ -67,7 +67,7 @@ För iOS-användare som letar efter ett alternativ till Sentinel kan [Green Wall
 ### Installation och konfigurering
 
 
-Börja med att installera Sentinel-applikationen. Du kan göra detta antingen från Google Play Store eller genom att använda [APK tillgänglig för nedladdning på den officiella webbplatsen] (https://sentinel.watch/download/).
+Börja med att installera Sentinel-applikationen. Du kan göra detta antingen från Google Play Store eller genom att använda [APK tillgänglig för nedladdning på den officiella webbplatsen](https://sentinel.watch/download/).
 
 
 ![watch-only](assets/notext/3.webp)
@@ -81,10 +81,10 @@ När du öppnar applikationen första gången får du välja mellan:
 - `Anslut till Samourais server`.
 
 
-Dojo, som utvecklats av Samourai-teamet, är en fullständig Bitcoin-nodversion som kan installeras fristående eller läggas till med ett klick till node-in-box-lösningar som [Umbrel] (https://umbrel.com/) och [RoninDojo] (https://ronindojo.io/).
+Dojo, som utvecklats av Samourai-teamet, är en fullständig Bitcoin-nodversion som kan installeras fristående eller läggas till med ett klick till node-in-box-lösningar som [Umbrel](https://umbrel.com/) och [RoninDojo](https://ronindojo.io/).
 
 
-[**-> Upptäck hur du installerar RoninDojo v2 på en Raspberry Pi.**](https://planb.network/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
+[**-> Upptäck hur du installerar RoninDojo v2 på en Raspberry Pi.**](https://planb.academy/tutorials/node/bitcoin/ronin-dojo-v2-0ddb3854-6f38-4466-b4e2-f66c028e0dd8)
 
 
 Om du har en egen Dojo kan du ansluta den i det här skedet. Genom att göra det kommer du att dra nytta av den högsta sekretessnivån när du kontrollerar transaktionsinformationen för ditt Bitcoin-nätverk.

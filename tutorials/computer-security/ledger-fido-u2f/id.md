@@ -1,5 +1,5 @@
 ---
-name: Ledger U2F & FIDO2
+name: "Ledger U2F & FIDO2"
 description: Tingkatkan keamanan online Anda dengan Ledger
 ---
 ![cover](assets/cover.webp)
@@ -23,7 +23,7 @@ Sebelum memulai, pastikan Anda telah menyiapkan dompet Bitcoin di Ledger Anda. P
 Hubungkan Ledger ke komputer Anda dan buka kuncinya.
 ![Image](assets/fr/01.webp)
 
-Untuk menginstal aplikasi, buka perangkat lunak [Ledger Live] (https://www.Ledger.com/Ledger-live), lalu pergi ke tab "*My Ledger*". Temukan aplikasi "*Security Key*" dan instal di perangkat Anda.
+Untuk menginstal aplikasi, buka perangkat lunak [Ledger Live](https://www.Ledger.com/Ledger-live), lalu pergi ke tab "*My Ledger*". Temukan aplikasi "*Security Key*" dan instal di perangkat Anda.
 ![Image](assets/fr/02.webp)
 
 Aplikasi "*Security Key*" seharusnya kini muncul bersamaan dengan aplikasi lain yang terinstal di Ledger Anda.
@@ -78,4 +78,4 @@ Selamat, Anda sekarang sudah mahir menggunakan Ledger Anda untuk MFA! Jika Anda 
 
 Saya juga merekomendasikan tutorial lain, di mana kita melihat solusi lain untuk autentikasi U2F dan FIDO2:
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

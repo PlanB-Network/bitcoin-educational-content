@@ -1,0 +1,8 @@
+question: According to the text, what fundamental principle distinguishes Karl Popper's concept of an open society from a closed society?
+answer: Open societies enable individuals to exercise critical judgment and personal responsibility, while closed societies reject individual freedom of criticism and external exchanges
+wrong_answers:
+  - Open societies prioritize economic freedom and market mechanisms, while closed societies emphasize state control over production and distribution
+  - Open societies are based on democratic voting systems and majority rule, while closed societies rely on authoritarian leadership and hierarchical command structures
+  - Open societies promote technological advancement and scientific progress, while closed societies maintain traditional methods and resist innovation
+explanation: |
+  Popper's distinction centers on the fundamental attitude toward individual critical thinking and personal decision-making. Open societies are characterized by individuals' ability to exercise critical judgment and personal responsibility, embracing change, diversity, and external exchanges. Closed societies, conversely, reject individual critical freedom, fear change, and maintain static, tribal mentalities that suppress individual responsibility in favor of collective conformity and traditional order.

@@ -1,0 +1,13 @@
+question: Ni igiki Bitcoin ifitaniye isano n’akazoza k’ubuhinga n’imibano?
+answer: Bitcoin ni ihinduka ry’ubuhinga rituma Exchange igira agaciro ata muntu agira gatatu yizigirwa.
+wrong_answers:
+  - Bitcoin ni uburyo bw’ubuhinga bwa AI bushobora gutuma abantu bashobora gutanga amakuru ya Exchange biciye ku server nyamukuru.
+  - Bitcoin ni igikoresho co kugenzura abantu kw’isi, kigatuma ubukene buvaho.
+  - Bitcoin ni uburyo intwaro zikoresha kugira zikurikirane amafaranga abanyagihugu bazo bakoresha.
+explanation: |
+  Ico canditswe kirasigura ko Bitcoin, nka internet ku buryo .
+  y’itumanaho, ni ihinduka ry’ubuhinga ry’
+  irema amahirwe y'uburyo bushasha bw'urugero runini
+  ishirahamwe, bikatuzanira ubushobozi bwo guhanahana .
+  agaciro ata muntu agira gatatu yizigirwa.
+reviewed: true

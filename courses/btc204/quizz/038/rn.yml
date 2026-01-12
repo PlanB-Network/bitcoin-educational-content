@@ -1,0 +1,9 @@
+question: Ni uwuhe murongo w’ugucuruza utuma ikoreshwa rya CIOH ritagira akamaro?
+answer: Ivyo gukorana n’abandi.
+wrong_answers:
+  - Ukwishura vyoroshe.
+  - Gushiramwo.
+  - Gukubura.
+explanation: |
+  CIOH ntikoreshwa ku bikorwa vy’ubudandaji bifata uburyo bwo gukorana, kuko muri iki gihe, ivyo bikoresho biva mu bigo bitandukanye.
+reviewed: false

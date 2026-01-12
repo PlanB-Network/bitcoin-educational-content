@@ -14,9 +14,9 @@ I början av Bitcoin var det nödvändigt att köra en Bitcoin-nod för att få 
 
 
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
+https://planb.academy/tutorials/node/bitcoin/bitcoin-knots-e04b2196-4df2-4246-86ef-c02269c29098
 
 Projekt har därför startats för att utöka Bitcoin-communityn och göra den mer tillgänglig för alla som inte äger en nod och/eller inte har de tekniska färdigheter som krävs.
 
@@ -46,7 +46,7 @@ En alltmer utbredd användning i ekosystemet och det faktum att Mempool.space ä
 
 
 
-https://planb.network/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
+https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2db4dd848
 
 ## Grunderna i Mempool.space
 
@@ -64,10 +64,10 @@ I menyfältet hittar du följande nätverk:
 
 
 
-- Mainnet** : Det huvudsakliga Bitcoin-nätverket där verkliga Bitcoin-transaktioner äger rum.
-- Signet**: Ett testnätverk som använder digitala signaturer för att validera block utan att kräva de resurser som krävs av huvudnätverket.
-- Testnet 3**: Ett riskfritt test- och utvecklingsnätverk på Bitcoin-protokollet.
-- Testnet 4** : Den nya versionen av Testnet 3 ger större stabilitet och nya samförståndsregler i testmiljön.
+- **Mainnet**: Det huvudsakliga Bitcoin-nätverket där verkliga Bitcoin-transaktioner äger rum.
+- **Signet**: Ett testnätverk som använder digitala signaturer för att validera block utan att kräva de resurser som krävs av huvudnätverket.
+- **Testnet 3**: Ett riskfritt test- och utvecklingsnätverk på Bitcoin-protokollet.
+- **Testnet 4**: Den nya versionen av Testnet 3 ger större stabilitet och nya samförståndsregler i testmiljön.
 
 
 
@@ -142,9 +142,9 @@ På sidan med transaktionsdetaljer hittar du allmän information om din transakt
 
 
 
-- Status**: Bekräftad när den läggs till i ett block, obekräftad när den väntar i en Mempool.
-- Transaktionsavgifter**.
-- Beräknad ankomsttid (ETA)** :  Den ungefärliga tid det tar för din transaktion att läggas till i ett block. Den beräknas enligt det förhållande som utgör de avgifter som är förknippade med den här transaktionen.
+- **Status**: Bekräftad när den läggs till i ett block, obekräftad när den väntar i en Mempool.
+- **Transaktionsavgifter**.
+- **Beräknad ankomsttid (ETA)**: Den ungefärliga tid det tar för din transaktion att läggas till i ett block. Den beräknas enligt det förhållande som utgör de avgifter som är förknippade med den här transaktionen.
 
 
 
@@ -176,7 +176,7 @@ Upptäck de olika Bitcoin-transaktionssystemen för att förbättra din sekretes
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 ## Snabba upp dina transaktioner
 
@@ -192,7 +192,7 @@ Lyckligtvis finns det två metoder tillgängliga i Bitcoin-nätverket för att p
 
 
 
-- RBF** - Ersättning med avgift: En metod som gör att du kan använda samma poster som din transaktion med låg avgift, men den här gången genom att höja transaktionsavgiften för att påskynda valideringen. Din nya transaktion kommer att valideras snabbare och inkluderas i ett block, vilket ogiltigförklarar transaktionen med låg avgift.
+- **RBF** - Ersättning med avgift: En metod som gör att du kan använda samma poster som din transaktion med låg avgift, men den här gången genom att höja transaktionsavgiften för att påskynda valideringen. Din nya transaktion kommer att valideras snabbare och inkluderas i ett block, vilket ogiltigförklarar transaktionen med låg avgift.
 
 
 
@@ -200,11 +200,11 @@ Du kan utföra en avgiftsersättningsåtgärd med plånböcker som accepterar de
 
 
 
-https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
+https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-8378-b9351d0dbc90
 
 
 
-- CPFP** - Child pay for parent: Ett tillvägagångssätt inspirerat av RBF, men på mottagarens sida. När den transaktion som du är mottagare av blockeras i en Mempool har du möjlighet att spendera utgifterna (UTXO) för denna transaktion, trots att den ännu inte har bekräftats, genom att tilldela fler avgifter till denna nya transaktion så att de genomsnittliga avgifterna - för den transaktion som du är mottagare av och den initierade transaktionen - uppmuntrar miners att inkludera båda transaktionerna i ett block.
+- **CPFP** - Child pay for parent: Ett tillvägagångssätt inspirerat av RBF, men på mottagarens sida. När den transaktion som du är mottagare av blockeras i en Mempool har du möjlighet att spendera utgifterna (UTXO) för denna transaktion, trots att den ännu inte har bekräftats, genom att tilldela fler avgifter till denna nya transaktion så att de genomsnittliga avgifterna - för den transaktion som du är mottagare av och den initierade transaktionen - uppmuntrar miners att inkludera båda transaktionerna i ett block.
 
 
 
@@ -212,7 +212,7 @@ https://planb.network/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-Om alla dessa termer verkar lite för tekniska rekommenderar jag att du [konsulterar vår ordlista](https://planb.network/resources/glossary), som innehåller definitioner av alla tekniska termer relaterade till Bitcoin och dess ekosystem.
+Om alla dessa termer verkar lite för tekniska rekommenderar jag att du [konsulterar vår ordlista](https://planb.academy/resources/glossary), som innehåller definitioner av alla tekniska termer relaterade till Bitcoin och dess ekosystem.
 
 
 
@@ -235,7 +235,7 @@ En Miner avser en person som hanterar en gruva, dvs. en dator som är engagerad 
 
 
 
-https://planb.network/courses/ce272232-0d97-4482-884a-0f77a2ebc036
+https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 
 ❗Miners är som "validatorer" som verifierar och grupperar transaktioner i block. För att lägga till ett nytt block i Bitcoin-nätverket måste de lösa ett komplext matematiskt pussel (Proof-of-Work). Den första Miner som löser pusslet vinner en Bitcoin-belöning (blockbidrag + avgifter för transaktioner som ingår i blocket).
 
@@ -372,4 +372,4 @@ Nu när du har nått slutet på din resa på Mempool.space kan du bli din egen u
 
 
 
-https://planb.network/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1
+https://planb.academy/tutorials/mining/pool/public-pool-42b9e1b5-722d-471d-b1e3-9ca758065be1

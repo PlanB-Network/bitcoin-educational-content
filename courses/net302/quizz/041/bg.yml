@@ -1,0 +1,9 @@
+question: Кой файл се е използвал в миналото за локално разрешаване преди появата на глобалния DNS?
+answer: /etc/hosts
+wrong_answers:
+  - /etc/dns
+  - /etc/network
+  - /etc/resolve
+explanation: |
+  Преди DNS да получи широко разпространение, разрешаването на имена се основаваше на статичния файл /etc/hosts в системите Unix/Linux.
+reviewed: false

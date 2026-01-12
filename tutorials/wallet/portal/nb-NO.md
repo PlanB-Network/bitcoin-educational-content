@@ -4,13 +4,13 @@ description: Konfigurere og bruke TwentyTwo-Devices hardware wallet Portal
 ---
 ![cover](assets/cover.webp)
 
-Portal er en Bitcoin-maskinvarelommebok designet av TwentyTwo Devices, et selskap som spesialiserer seg på å lage open-source maskinvarelommebøker for bitcoinere. TwentyTwo Devices ble grunnlagt av Alekos Filini, skaperen av Magical Bitcoin-prosjektet ([heretter kalt BDK] (https://github.com/bitcoindevkit)) og har jobbet for Blockstream og BHB Network, og har som mål å fokusere på brukerautonomi, enkelhet og sikkerhet.
+Portal er en Bitcoin-maskinvarelommebok designet av TwentyTwo Devices, et selskap som spesialiserer seg på å lage open-source maskinvarelommebøker for bitcoinere. TwentyTwo Devices ble grunnlagt av Alekos Filini, skaperen av Magical Bitcoin-prosjektet ([heretter kalt BDK](https://github.com/bitcoindevkit)) og har jobbet for Blockstream og BHB Network, og har som mål å fokusere på brukerautonomi, enkelhet og sikkerhet.
 
 Det som skiller Portal fra andre maskinvarelommebøker på markedet, er at den er integrert med smarttelefoner. Den fungerer uten kabler eller batterier. Den bruker NFC-teknologi for å drive seg selv og kommunisere med alle kompatible mobile lommebøker. Den spennende designen er utviklet for ergonomisk bruk. Den runde delen er plassert på baksiden av smarttelefonen og viser en skjerm der du kan sjekke detaljene i transaksjonene dine før du signerer dem med den dedikerte knappen.
 
 ![Image](assets/fr/01.webp)
 
-Portalen er basert på åpen kildekode, fastvare skrevet i Rust og bruker BDK (Bitcoin Dev Kit) for nøkkel- og transaksjonshåndtering. Den selges for € 89 [på den offisielle nettsiden] (https://store.twenty-two.xyz/products/portal-hardware-wallet).
+Portalen er basert på åpen kildekode, fastvare skrevet i Rust og bruker BDK (Bitcoin Dev Kit) for nøkkel- og transaksjonshåndtering. Den selges for € 89 [på den offisielle nettsiden](https://store.twenty-two.xyz/products/portal-hardware-wallet).
 
 I skrivende stund er portalen kompatibel med applikasjonene Nunchuk og Bitcoin Keeper. I denne veiledningen skal vi konfigurere den med Nunchuk.
 
@@ -24,7 +24,7 @@ Kontroller at forseglingen er intakt for å bekrefte at posen ikke har blitt åp
 
 ## Installasjon av nunchuk
 
-For å administrere lommeboken som ligger på portalen, skal vi bruke Nunchuk-applikasjonen. Last ned applikasjonen fra [Google Play Store] (https://play.google.com/store/apps/details?id=io.nunchuk.android), [App Store] (https://apps.apple.com/us/app/nunchuk-bitcoin-wallet/id1563190073) eller direkte via [fil `.apk`] (https://github.com/nunchuk-io/nunchuk-android/releases).
+For å administrere lommeboken som ligger på portalen, skal vi bruke Nunchuk-applikasjonen. Last ned applikasjonen fra [Google Play Store](https://play.google.com/store/apps/details?id=io.nunchuk.android), [App Store](https://apps.apple.com/us/app/nunchuk-bitcoin-wallet/id1563190073) eller direkte via [fil `.apk`](https://github.com/nunchuk-io/nunchuk-android/releases).
 
 ![Image](assets/fr/03.webp)
 
@@ -66,7 +66,7 @@ Du kan gravere det på et stykke papir, eller for ekstra sikkerhet anbefaler jeg
 
 Hvis du vil ha mer informasjon om hvordan du lagrer og administrerer minnefrasen din, anbefaler jeg at du følger denne andre veiledningen, spesielt hvis du er nybegynner:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 du må selvfølgelig aldri dele disse ordene på Internett, slik jeg gjør i denne opplæringen. Denne eksempelmappen vil kun bli brukt på Testnet, og vil bli slettet ved slutten av opplæringen
 
@@ -228,4 +228,4 @@ Gratulerer, du har nå fått teken på hvordan du bruker Portal! Hvis du synes d
 
 Hvis du vil vite mer, kan du ta en titt på vårt komplette opplæringskurs om hvordan HD-portfolier fungerer:
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

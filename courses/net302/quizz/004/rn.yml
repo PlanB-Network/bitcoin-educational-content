@@ -1,0 +1,9 @@
+question: Topology mu rubuga rwa mudasobwa bisobanura iki?
+answer: Uko ibikoresho bihuzwa
+wrong_answers:
+  - Umuvuduko wo guhuza interineti
+  - Ubwoko bw'amasezerano akoreshwa mu guhanahana amakuru
+  - Ku bwoko bwa routers zikoreshwa ku rubuga
+explanation: |
+  Topologie yerekeza ku mibumbe y’umubiri canke y’ubwenge y’urubuga n’ingene ibice vyarwo bifatanye.
+reviewed: false

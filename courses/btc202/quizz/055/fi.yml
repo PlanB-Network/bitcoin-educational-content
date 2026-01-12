@@ -1,0 +1,9 @@
+question: Mitkä kolme palvelinvaihtoehtoa ovat käytettävissä Sparrow:ssa?
+answer: Julkinen palvelin, Bitcoin core, yksityinen Electrum
+wrong_answers:
+  - RPC Direct, VPN, Tor
+  - Full node, kevyt solmu, liikkuva solmu
+  - Core RPC, Lightning, ElectrumX
+explanation: |
+  Sparrow tarjoaa kolme palvelinvaihtoehtoa: Julkinen palvelin, Bitcoin core (RPC) ja Private Electrum.
+reviewed: true

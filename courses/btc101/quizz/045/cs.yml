@@ -1,13 +1,9 @@
-question: Jaká je klíčová vlastnost Bitcoinu, která jej odlišuje od fiat měn?
-answer: Jeho měnová politika je vynucována obecným konsensem.
+question: Jaký je dopad 20% inflace na kupní sílu za 3 roky?
+answer: Ztratíte 50% své kupní síly.
 wrong_answers:
-  - Může být tisknut v neomezeném množství centrálními bankami.
-  - Je kryt fyzickým komoditním aktivem jako zlato nebo stříbro.
-  - Je regulován centrální bankou.
+  - Ztratíte 100% své kupní síly.
+  - Ztratíte 60% své kupní síly.
+  - Ztratíte 30% své kupní síly.
 explanation: |
-  Díky své decentralizované a kryptografické povaze
-  nemůže být Bitcoin padělán a je omezen na 21 milionů
-  jednotek. To je klíčová vlastnost, která jej odlišuje od
-  fiat měn, které následují měnovou politiku, kterou mohou
-  měnit centrální banky.
+  Při 20% inflaci ztratíte téměř polovinu své kupní síly za 3 roky.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Mekanisme apa yang dapat digunakan untuk memuat snapshot dari set UTXO agar node dapat digunakan dengan cepat?
+answer: assumeutxo
+wrong_answers:
+  - assumechainstate
+  - txindex
+  - notxindex
+explanation: |
+  Assumeutxo memuat snapshot dari set UTXO untuk membuat node aktif dan berjalan dengan cepat, sambil membangun kembali set UTXO yang lengkap di latar belakang.
+reviewed: true

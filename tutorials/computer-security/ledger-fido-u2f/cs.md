@@ -1,5 +1,5 @@
 ---
-name: Ledger U2F & FIDO2
+name: "Ledger U2F & FIDO2"
 description: Zlepšete své online zabezpečení pomocí Ledger
 ---
 ![cover](assets/cover.webp)
@@ -46,7 +46,7 @@ Připojte zařízení Ledger k počítači a odemkněte jej.
 
 
 
-Chcete-li aplikaci nainstalovat, otevřete software [Ledger Live] (https://www.Ledger.com/Ledger-live) a přejděte na kartu "*My Ledger*". Najděte aplikaci "*Security Key*" a nainstalujte ji do svého zařízení.
+Chcete-li aplikaci nainstalovat, otevřete software [Ledger Live](https://www.Ledger.com/Ledger-live) a přejděte na kartu "*My Ledger*". Najděte aplikaci "*Security Key*" a nainstalujte ji do svého zařízení.
 
 
 
@@ -162,7 +162,7 @@ Doporučuji, abyste tento kód uchovávali na jiném místě než hlavní heslo,
 
 
 
-Tento přístup nabízí dvě úrovně zálohování v případě ztráty vašeho účtu Ledger pro ověřování 2FA: první zálohu pomocí fráze Mnemonic pro všechny vaše účty a druhou zálohu pro konkrétní účet pomocí nouzových kódů. Je však důležité **nezaměňovat úlohu fráze Mnemonic s úlohou nouzového kódu** :
+Tento přístup nabízí dvě úrovně zálohování v případě ztráty vašeho účtu Ledger pro ověřování 2FA: první zálohu pomocí fráze Mnemonic pro všechny vaše účty a druhou zálohu pro konkrétní účet pomocí nouzových kódů. Je však důležité **nezaměňovat úlohu fráze Mnemonic s úlohou nouzového kódu**:
 
 
 
@@ -180,4 +180,4 @@ Doporučuji také tento další tutoriál, ve kterém se podíváme na jiné ře
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

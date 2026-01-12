@@ -1,0 +1,9 @@
+question: ¿Qué podemos aprender de Copérnico?
+answer: Que la Tierra gira alrededor del Sol.
+wrong_answers:
+  - Que la Tierra es plana.
+  - Que la Tierra está en el centro del Universo.
+  - Que las ecuaciones de Euclides son erróneas.
+explanation: |
+  Nicolás Copérnico (1473-1543) es famoso por haber demostrado que la Tierra gira alrededor del Sol, revolucionando nuestra concepción del universo. Este descubrimiento influyó profundamente en la filosofía y el racionalismo modernos.
+reviewed: false

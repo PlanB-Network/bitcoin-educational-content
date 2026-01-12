@@ -1,0 +1,9 @@
+question: Ni nde yavumbuye ubuhinga bwo gusubira gukoresha Address?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - Vitalik Buterin
+  - Hal Finney
+  - Gavini Andresen
+explanation: |
+  Umuntu wa mbere yavuze kuri ico ciyumviro ni Satoshi Nakamoto mu gice ca 10 c’Igitabu Cera ca Bitcoin.
+reviewed: false

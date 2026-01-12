@@ -1,0 +1,9 @@
+question: 원시 구현에 비해 노드 인 어 박스의 주요 장점은 무엇인가요?
+answer: 간편한 설치 및 통합 애플리케이션 관리
+wrong_answers:
+  - 합의 규칙에 대한 더 엄격한 검증
+  - 스토리지 없이 Blockchain에 직접 액세스
+  - Bitcoin 이외의 통화와의 호환성
+explanation: |
+  노드 인 어 박스는 통합된 Interface를 통해 수많은 보조 애플리케이션의 설치와 관리를 간소화합니다.
+reviewed: true

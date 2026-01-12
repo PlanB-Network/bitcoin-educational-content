@@ -1,8 +1,9 @@
-question: Šta je Swiss Bitcoin Pay?
-answer: Rešenje za amatere trgovce da prihvate Bitkoin.
+question: Šta treba da uradite nakon kupovine Bitkoina na menjačnici?
+answer: Povuci bitkoine i pošalji ih na svoj novčanik.
 wrong_answers:
-  - Švajcarska banka koja prihvata Bitkoin.
-  - Bitcoin menjačnica iz Švajcarske.
-  - Kompanija za rudarenje koja posluje u Švajcarskoj.
-explanation: >-
+  - Ostavite bitkoine na platformi.
+  - Prodaj bitkoine odmah.
+  - Prenesite bitkoine na drugu menjačnicu.
+explanation: |
+  Tekst kursa savetuje da nakon kupovine Bitkoina, treba odmah povući UTXO-e sa menjačnica kako bi se smanjili rizici od hakovanja i blokiranja sredstava.
 reviewed: true

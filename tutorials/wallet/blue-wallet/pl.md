@@ -1,5 +1,5 @@
 ---
-name: Niebieski Wallet
+name: Blue Wallet
 
 description: Bitcoin Radykalnie prosty i potężny portfel
 ---
@@ -11,11 +11,10 @@ Rozpoczęcie korzystania z Bitcoin wydaje się być dużym wyzwaniem dla osób, 
 
 
 
-W tym samouczku przyjrzymy się Blue Wallet, prostemu, ale bardzo skutecznemu Bitcoin Wallet, który pozwala zarządzać bitcoinami osobiście, a także tworzyć spółdzielnie zarządzające oparte na [Multisig](https://planb.network/resources/glossary/multisig) (nie martw się, wrócimy do tego).
+W tym samouczku przyjrzymy się Blue Wallet, prostemu, ale bardzo skutecznemu Bitcoin Wallet, który pozwala zarządzać bitcoinami osobiście, a także tworzyć spółdzielnie zarządzające oparte na [Multisig](https://planb.academy/resources/glossary/multisig) (nie martw się, wrócimy do tego).
 
 
 
-![Vidéo tutoriel Blue Wallet](https://www.youtube.com/watch?v=UCAtFgkdJtM)
 
 
 
@@ -39,7 +38,7 @@ Po zainstalowaniu można utworzyć nowy Wallet i zapisać 12 słów odzyskiwania
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Dzięki Blue Wallet możesz tworzyć oddzielne, dedykowane portfele Bitcoin. Na przykład, możesz mieć jeden Wallet dla swoich oszczędności, a drugi dla codziennych wydatków, wszystko w tej samej aplikacji.
 
@@ -65,10 +64,10 @@ Jeśli jesteś przyzwyczajony do innych portfeli Bitcoin, takich jak Phoenix lub
 
 
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
 
 Niebieski Wallet reprezentuje standardowy Wallet w ekosystemie Bitcoin. Możesz wydawać bitcoiny, o ile jesteś w posiadaniu słów odzyskiwania, które zapewnią ważny podpis w sieci w celu uwierzytelnienia, że jesteś właścicielem bitcoinów.
 
@@ -122,7 +121,7 @@ Możesz zatem wybrać współczynnik opłaty transakcyjnej, który Ci odpowiada,
 
 
 
-https://planb.network/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 
@@ -152,7 +151,7 @@ Możesz usunąć jednego lub wszystkich odbiorców, klikając odpowiednio **Usu�
 
 
 
-- Zawyżone opłaty**: Dokonałeś transakcji, której potwierdzenie zajmuje dużo czasu? Włączając inflację opłat, możesz dodać dodatkowe opłaty transakcyjne do oczekującej transakcji, aby przyspieszyć jej potwierdzenie.
+- **Zawyżone opłaty**: Dokonałeś transakcji, której potwierdzenie zajmuje dużo czasu? Włączając inflację opłat, możesz dodać dodatkowe opłaty transakcyjne do oczekującej transakcji, aby przyspieszyć jej potwierdzenie.
 
 
 
@@ -220,7 +219,7 @@ Zachowaj najlepsze praktyki, wybierając format P2WSH.
 
 
 
-❗ **[P2WSH](https://planb.network/resources/glossary/p2wsh) lub Pay to Witness Script Hash** to metoda blokowania, która blokuje wychodzące bitcoiny transakcji (Outputs) do Hash niestandardowego skryptu, który konfiguruje Blue Wallet. Główną zaletą tego typu blokady jest to, że zmniejsza ona rozmiar danych transakcji i pośrednio pozwala płacić niższe opłaty transakcyjne.
+❗ **[P2WSH](https://planb.academy/resources/glossary/p2wsh) lub Pay to Witness Script Hash** to metoda blokowania, która blokuje wychodzące bitcoiny transakcji (Outputs) do Hash niestandardowego skryptu, który konfiguruje Blue Wallet. Główną zaletą tego typu blokady jest to, że zmniejsza ona rozmiar danych transakcji i pośrednio pozwala płacić niższe opłaty transakcyjne.
 
 
 
@@ -248,7 +247,7 @@ Odbieranie bitcoinów w Wallet z wieloma podpisami jest takim samym procesem, ja
 
 
 
-- Wysyłanie bitcoinów** :
+- **Wysyłanie bitcoinów**:
 
 
 
@@ -264,7 +263,7 @@ Podczas zatwierdzania transakcji potrzebny będzie drugi podpis, aby zatwierdzi�
 
 
 
-Drugi sygnatariusz Wallet, jeśli jest również użytkownikiem, może podpisać transakcję, nawet jeśli jest poza Internetem (bez Wi-Fi, bez danych mobilnych), skanując kod QR [częściowo podpisanej transakcji](https://planb.network/resources/glossary/psbt), którą właśnie utworzyłeś.
+Drugi sygnatariusz Wallet, jeśli jest również użytkownikiem, może podpisać transakcję, nawet jeśli jest poza Internetem (bez Wi-Fi, bez danych mobilnych), skanując kod QR [częściowo podpisanej transakcji](https://planb.academy/resources/glossary/psbt), którą właśnie utworzyłeś.
 
 
 
@@ -274,7 +273,7 @@ Drugi sygnatariusz Wallet, jeśli jest również użytkownikiem, może podpisać
 
 
 
-- Idź dalej z portfelem Multi signature**:
+- Idź dalej z portfelem **Multi signature**:
 
 
 
@@ -330,12 +329,12 @@ W menu Ustawienia > **Ustawienia Lightning** można ręcznie powiązać urządze
 
 
 
-https://planb.network/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
+https://planb.academy/tutorials/node/lightning-network/umbrel-lnd-b12e0b5b-12ff-45f1-978e-62f4b4a8ba16
 
-https://planb.network/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
+https://planb.academy/tutorials/node/lightning-network/lightning-network-daemon-linux-59d777e9-72c8-4b32-8c50-e86cdae8f2f9
 
 Ukończyłeś już niebieską wycieczkę po Wallet i jesteś gotowy do korzystania z Bitcoin w całej jego prostocie i mocy. Zalecamy, abyś zrobił kolejny krok i dowiedział się, jak możesz akceptować płatności Bitcoin w swoich sklepach dzięki mocy Lightning.
 
 
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06

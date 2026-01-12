@@ -1,9 +1,13 @@
-question: Wie können Sie die Standardsicherheit Ihres Bitcoin-Wallets verstärken?
-answer: Indem Sie Ihrem Bitcoin-Wallet eine Passphrase hinzufügen.
+question: Was ist eine Cold Wallet?
+answer: Eine Wallet auf einem physischen Gerät, das Ihre Schlüssel speichert und nicht mit dem Internet verbunden ist.
 wrong_answers:
-  - Indem Sie Ihrem Bitcoin-Wallet einen zweiten privaten Schlüssel hinzufügen.
-  - Indem Sie Ihrem Bitcoin-Wallet einen zweiten öffentlichen Schlüssel hinzufügen.
-  - Indem Sie Ihrem Bitcoin-Wallet eine zweite mnemonische Phrase hinzufügen.
+  - Eine Wallet, die sich physisch kalt anfühlt.
+  - Eine Wallet, die bei Bitcoin-Nutzern unbeliebt ist.
+  - Eine Wallet, die für die Aufbewahrung kleiner Bitcoin-Mengen empfohlen wird.
 explanation: |
-  Wenn Sie mit der Standardsicherheit Ihres Bitcoin-Wallets nicht zufrieden sind, können Sie diese immer verstärken, indem Sie Ihrem Bitcoin-Wallet eine Passphrase hinzufügen.
+  Eine Cold Wallet ist ein Begriff, der eine Bitcoin-Wallet
+  beschreibt, die auf einem Gerät gespeichert ist, das nicht
+  mit dem Internet verbunden ist. Dies macht sie weniger anfällig
+  für Online-Bedrohungen, bedeutet aber auch, dass die Wallet
+  für tägliche Transaktionen weniger zugänglich ist.
 reviewed: true

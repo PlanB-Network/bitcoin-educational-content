@@ -1,0 +1,9 @@
+question: Oliko Spinozan perhe?
+answer: Juutalainen.
+wrong_answers:
+  - Katolinen.
+  - Protestantti.
+  - Ateisti.
+explanation: |
+  Spinozan perhe oli juutalainen. Hänen vanhempansa olivat portugalilaisia juutalaisia, jotka olivat paenneet inkvisitiota ja asettuneet Amsterdamiin, jossa oli suuri sefardijuutalaisyhteisö.
+reviewed: false

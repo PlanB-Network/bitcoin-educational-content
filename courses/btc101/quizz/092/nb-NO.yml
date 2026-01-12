@@ -1,12 +1,11 @@
-question: Hva er den anbefalte bruken av en multisig-lommebok?
-answer: For store beløp for bedriftsbruk
+question: Hva bør du gjøre etter at ordene i din mnemoniske frase er skrevet ned?
+answer: Lag en andre kopi og oppbevar den på et separat sted
 wrong_answers:
-  - For små beløp for personlig bruk
-  - For mellomstore beløp for ideell bruk
-  - For daglige utgifter for individuell bruk
+  - Del den med en pålitelig venn
+  - Send den til deg selv på e-post
+  - Lagre den på telefonen din
 explanation: |
-  En multisig-lommebok anbefales for store beløp og bedriftsbruk
-  fordi den krever flere signaturer for å utføre en transaksjon. Dette legger til et ekstra
-  sikkerhetslag, ettersom det betyr at en enkelt person ikke kan utføre en transaksjon
-  uten godkjenning fra andre.
+  Når ordene i din mnemoniske frase er skrevet ned, anbefales det
+  å lage en andre kopi og oppbevare den på et separat sted fra den første. Dette gir
+  en sikkerhetskopi i tilfelle tap eller ulykke med den første kopien.
 reviewed: true

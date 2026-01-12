@@ -1,11 +1,10 @@
-question: Wat is het belang van individuele verantwoordelijkheid in Bitcoin?
-answer: Het is cruciaal omdat jij de leiding hebt over de back-ups.
+question: Wat is de eerste geregistreerde Bitcoin transactie?
+answer: Een transactie van 10 BTC tussen Satoshi Nakamoto en Hal Finney.
 wrong_answers:
-  - Het is essentieel omdat je bitcoins moet delven.
-  - Het is essentieel om bitcoins te kopen.
-  - Dit is cruciaal omdat jij de leiding hebt over het Wallet thema.
+  - Een transactie van 10.000 BTC voor 2 pizza's.
+  - Een transactie van 1 BTC tussen Satoshi Nakamoto en Hal Finney.
+  - Een transactie van 10.000 BTC tussen Laszlo Hanyecz en Hal Finney.
 explanation: |
-  In Bitcoin gaat financiële soevereiniteit hand in hand met
-  individuele verantwoordelijkheid, want je moet zelf je
-  door de aanbevolen back-upprocedures te volgen.
+  De eerste geregistreerde Bitcoin transactie was een transactie van
+  10 BTC tussen Satoshi Nakamoto en Hal Finney.
 reviewed: true

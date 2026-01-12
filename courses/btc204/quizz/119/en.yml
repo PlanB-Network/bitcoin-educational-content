@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   The enhanced ricochet ensures that each transaction is broadcast at a distinct time and recorded in a different block, whereas the classic ricochet broadcasts all transactions within a short time frame.
 
-reviewed: false
+reviewed: true

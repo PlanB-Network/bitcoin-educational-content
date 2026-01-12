@@ -1,9 +1,12 @@
-question: What was the approximate inflation rate in Germany in October 1923 at the height of hyperinflation?
-answer: 29,500%
+question: What is the mechanism that ensures a new block is added to the blockchain every ten minutes?
+answer: Difficulty adjustment.
 wrong_answers:
-  - 5,200%
-  - 76%
-  - 110%
+  - Speed adjustment.
+  - Time adjustment.
+  - Block adjustment.
 explanation: |
-  The month with the highest inflation rate in Germany was October 1923, reaching a peak of 29,500%.
-reviewed: false
+  The mechanism that ensures a new block is added to the
+  blockchain every ten minutes is the difficulty adjustment.
+  This adjustment takes place every 2016 blocks, or around
+  two weeks.
+reviewed: true

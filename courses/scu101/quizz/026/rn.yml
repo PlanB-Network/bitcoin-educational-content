@@ -1,0 +1,10 @@
+question: Mbega Linux na Mac kenshi zikenera porogarame ikingira umugera?
+answer: Ibi sivyo
+wrong_answers:
+  - Ivyo nivyo .
+  - Linux yonyene ikeneye porogarame ikingira umugera.
+  - Mac yonyene ikeneye porogarame ikingira umugera.
+explanation: |
+  Linux na Mac, bivuye ku buryo bwo gutandukanya uburenganzira bw'abazikoresha, 
+  kenshi ntibikeneye porogarame ikingira umugera.
+reviewed: true

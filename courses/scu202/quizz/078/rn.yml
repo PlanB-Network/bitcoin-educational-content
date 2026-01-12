@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo bwiza bwo kwugara terefone ngendanwa?
+answer: Ijambo ry’ibanga ry’indome n’ibiharuro
+wrong_answers:
+  - Igicapo
+  - Gukoresha isura
+  - Nta kwugara
+explanation: |
+ Amajambo y’ibanga y’indome n’ibiharuro aratanga uburyo bwiza bwo kurwanya ukugerageza kwinjira mu buryo butemerewe, bitandukanye n’ibicapo canke biometric.
+reviewed: true

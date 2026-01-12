@@ -1,0 +1,8 @@
+question: Welches Schlüsselwort ist erforderlich, um eine Variable nach ihrer ursprünglichen Deklaration in Rust änderbar zu machen?
+answer: mut
+wrong_answers:
+  - var
+  - änderbar
+  - ändern
+explanation: |
+  In Rust ist das Schlüsselwort "mut" erforderlich, um eine Variable als veränderbar zu deklarieren, so dass ihr Wert nach der ersten Zuweisung geändert werden kann. Standardmäßig sind alle Variablen in Rust aus Sicherheitsgründen unveränderlich. Die Syntax lautet 'let mut x = 5' für eine veränderbare Variable und 'let x = 5' für eine unveränderbare Variable. Die anderen Optionen wie 'var', 'mutable' und 'change' sind keine gültigen Rust Schlüsselwörter für diesen Zweck.

@@ -1,0 +1,9 @@
+question: Bir mobil Wallet'ı Umbrel aracılığıyla Electrs'e bağlamanın en kolay yolu nedir?
+answer: Tor QR kodunu tarayın
+wrong_answers:
+  - Bir çerez dosyası indirin
+  - Özel anahtarı içe aktar
+  - Wallet.dat dosyasını kopyalayın
+explanation: |
+  Umbrel, mobil bağlantınızı yapılandırmak için Electrs tarafından sağlanan Tor QR kodunu doğrudan taramanıza olanak tanır.
+reviewed: true

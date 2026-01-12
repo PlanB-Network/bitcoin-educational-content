@@ -1,0 +1,9 @@
+question: Hvilken type maskin presenteres som det beste kompromisset for en Bitcoin-hjemmenode?
+answer: En mini-PC av NUC-typen
+wrong_answers:
+  - Bærbar datamaskin
+  - En superdatamaskin
+  - En spillkonsoll
+explanation: |
+  Mini-PC-er (NUC, Tiny, OptiPlex Micro...) har lavt strømforbruk, er pålitelige og enkle å tilpasse, noe som gjør dem til det ideelle kompromisset.
+reviewed: true

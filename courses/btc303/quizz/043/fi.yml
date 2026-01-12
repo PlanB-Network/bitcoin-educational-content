@@ -1,0 +1,9 @@
+question: Mitä David Hardingin analogian kautta kuvattu Bitcoin-yhdenmukaisuuden käsite ensisijaisesti korostaa verkon toiminnassa?
+answer: Tuhannet täydet solmut tarkistavat itsenäisesti transaktiot, jotta saavutetaan sopusointuinen sopimus ilman, että tarvitaan toimijoiden välistä luottamusta
+wrong_answers:
+  - Mining-altaiden on koordinoitava ponnistelunsa, jotta ne voivat laulaa samaa laulua ja tuottaa lohkoja synkronoidussa harmoniassa
+  - Bitcoin:n kehittäjien on päästävä yksimielisyyteen ennen protokollan muutosten tai päivitysten toteuttamista
+  - Kaikkien Bitcoin-käyttäjien on hyväksyttävä tapahtumien pätevyys demokraattisen äänestysprosessin avulla verkon vakauden säilyttämiseksi
+explanation: |
+  David Hardingin harmonia-analogia korostaa, että Bitcoin:n vahvuus perustuu tuhansiin itsenäisiin solmuihin, jotka toimivat kukin erikseen todentaakseen transaktioita ja luovat harmonisen sopimuksen pääkirjan tilasta ilman, että yhdenkään solmun operaattorin tarvitsee luottaa muihin. Tätä verrataan kuoroon, jonka jokainen jäsen laulaa itsenäisesti mutta tuottaa yhdessä kauniin harmonian. Väärät vastaukset tulkitsevat tätä käsitettä väärin ehdottamalla kaivostyöläisten, kehittäjien tai käyttäjien välisiä koordinointivaatimuksia, mikä on ristiriidassa itsenäisen todentamisen perusperiaatteen kanssa, joka tekee Bitcoin:stä luotettavan ja hajautetun.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Welke naamgevingsconventie dwingt Rust af voor structuurnamen en veldnamen?
+answer: CamelCase voor structuurnamen en snake_case voor veldnamen
+wrong_answers:
+  - snake_case voor structuurnamen en CamelCase voor veldnamen
+  - kebab-case voor structuurnamen en camelCase voor veldnamen
+  - HOOFDLETTERS voor structuurnamen en kleine letters voor veldnamen
+explanation: |
+  Rust volgt specifieke naamgevingsconventies die de compiler afdwingt via waarschuwingen. Structuurnamen moeten CamelCase (ook bekend als PascalCase) gebruiken, waarbij elk woord begint met een hoofdletter zoals 'MyStruct'. Veldnamen binnen structuren moeten 'snake_case' gebruiken, waarbij underscores woorden scheiden, zoals 'my_field'. Deze conventie zorgt voor consistentie tussen Rust codebases en verbetert de leesbaarheid voor ontwikkelaars.

@@ -6,4 +6,4 @@ wrong_answers:
   - Pour verrouiller les fonds à long terme
 explanation: |
   En effectuant un paiement fictif, un vendeur déplace la liquidité de son côté vers le côté opposé du canal, libérant ainsi de la capacité entrante pour recevoir des paiements.
-reviewed: false
+reviewed: true 

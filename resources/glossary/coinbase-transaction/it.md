@@ -8,4 +8,4 @@ La transazione coinbase ha principalmente due scopi: assegnare la ricompensa del
 
 La transazione coinbase si differenzia dalle transazioni normali per diversi aspetti. In primo luogo, non ha un ingresso, il che significa che non viene consumato l'output di una transazione esistente (UTXO). Inoltre, lo script di firma (`scriptSig`) per la transazione coinbase contiene tipicamente un campo arbitrario che consente di incorporare dati aggiuntivi, come messaggi personalizzati o informazioni sulla versione del software di mining. Infine, i bitcoin generati dalla transazione coinbase sono soggetti a un periodo di maturità di 100 blocchi (101 conferme) prima di poter essere spesi, per evitare che in caso di riorganizzazione della catena si possano spendere bitcoin inesistenti.
 
-> *Non esiste una traduzione di "Coinbase" in francese. Pertanto, è accettato l'uso diretto di questo termine
+> *Non esiste una traduzione di "Coinbase" in francese. Pertanto, è accettato l'uso diretto di questo termine*

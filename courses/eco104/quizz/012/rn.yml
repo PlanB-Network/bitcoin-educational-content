@@ -1,0 +1,12 @@
+question: Ni akamaro akahe urubuga rwa Bitcoin rutanga ku bijanye n’uburyo bwa kera bwo gutanga amafaranga?
+answer: Kwegera ubutegetsi n'umutekano
+wrong_answers:
+  - Ukwongerekana kw'ibiciro
+  - Gushingira ku bahuza
+  - Igenzura ry'ibikorwa
+explanation: |
+  Igikoresho ca Bitcoin gitanga uburyo butekanye kandi bubereye bwo 
+  gukora ata nkenerwa y’abahuza canke abandi bantu. Ibi 
+  bigabanya ingorane zo gucengera no guhindura amafaranga ata wemerewe,
+  nk’uko nyene bituma umuntu agira ubuzima bwiwe bwite.
+reviewed: true

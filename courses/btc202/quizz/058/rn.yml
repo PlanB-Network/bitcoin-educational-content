@@ -1,0 +1,9 @@
+question: Ni igiki gikomeye gituma Tor ivugana n’uruzitiro rwawe?
+answer: Ubute
+wrong_answers:
+  - Kubura ububiko
+  - Ubutumwa budaciye mu mategeko
+  - Ivyo kudashoboka gukoresha RPC.
+explanation: |
+  Amahuza ya Tor aratekanye, ariko aragenda buhoro kuruta ubundi buryo nka VPN.
+reviewed: true

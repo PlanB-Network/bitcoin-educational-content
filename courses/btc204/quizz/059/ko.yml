@@ -1,0 +1,9 @@
+question: Bitcoin의 전체 Address 재사용률은 대략 어느 정도 수준인가요?
+answer: 약 50%
+wrong_answers:
+  - 약 5%
+  - 약 15%
+  - 약 40%
+explanation: |
+  2010년대 초반부터 Address의 전체 Bitcoin 재사용 비율은 50% 내외에서 변동했습니다.
+reviewed: true

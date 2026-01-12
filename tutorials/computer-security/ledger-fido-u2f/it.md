@@ -1,5 +1,5 @@
 ---
-name: Ledger U2F E FIDO2
+name: "Ledger U2F & FIDO2"
 description: Migliorate la vostra sicurezza online con Ledger
 ---
 ![cover](assets/cover.webp)
@@ -46,7 +46,7 @@ Collegare il Ledger al computer e sbloccarlo.
 
 
 
-Per installare l'applicazione, aprire il software [Ledger Live] (https://www.Ledger.com/Ledger-live), quindi andare alla scheda "*My Ledger*". Trovare l'applicazione "*Chiave di sicurezza*" e installarla sul dispositivo.
+Per installare l'applicazione, aprire il software [Ledger Live](https://www.Ledger.com/Ledger-live), quindi andare alla scheda "*My Ledger*". Trovare l'applicazione "*Chiave di sicurezza*" e installarla sul dispositivo.
 
 
 
@@ -162,7 +162,7 @@ Vi consiglio di conservare questo codice in un luogo diverso da quello in cui co
 
 
 
-Questo approccio offre due livelli di backup in caso di perdita del Ledger per l'autenticazione 2FA: un primo backup utilizzando la frase Mnemonic per tutti gli account e un secondo backup specifico per l'account utilizzando i codici di emergenza. Tuttavia, è importante **non confondere il ruolo del Mnemonic con quello del codice di emergenza** :
+Questo approccio offre due livelli di backup in caso di perdita del Ledger per l'autenticazione 2FA: un primo backup utilizzando la frase Mnemonic per tutti gli account e un secondo backup specifico per l'account utilizzando i codici di emergenza. Tuttavia, è importante **non confondere il ruolo del Mnemonic con quello del codice di emergenza**:
 
 
 
@@ -180,4 +180,4 @@ Vi consiglio anche quest'altro tutorial, in cui esaminiamo un'altra soluzione pe
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

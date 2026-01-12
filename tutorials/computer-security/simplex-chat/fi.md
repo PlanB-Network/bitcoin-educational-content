@@ -243,7 +243,7 @@ SimpleX luo sitten kertakäyttöisen linkin. Voit välittää sen yhteyshenkilö
 
 
 
-Voit myös valita, minkä profiilin haluat liittää tähän kutsulinkkiin. Voit tehdä niin napsauttamalla profiiliasi heti QR-koodin alapuolella. Voit sitten :
+Voit myös valita, minkä profiilin haluat liittää tähän kutsulinkkiin. Voit tehdä niin napsauttamalla profiiliasi heti QR-koodin alapuolella. Voit sitten:
 
 
 
@@ -313,7 +313,7 @@ Yksi SimpleX:n tehokkaimmista ominaisuuksista on mahdollisuus hallita useita tä
 
 
 
-Voit esimerkiksi luoda :
+Voit esimerkiksi luoda:
 
 
 
@@ -397,4 +397,4 @@ Suosittelen myös tätä toista opetusohjelmaa, jossa esittelen Threeman, toisen
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

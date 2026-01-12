@@ -1,5 +1,5 @@
 ---
-name: Signaal
+name: Signal
 description: Väljendage end vabalt
 ---
 ![cover](assets/cover.webp)
@@ -269,8 +269,8 @@ Palju õnne, oled nüüd kursis Signal-sõnumite kasutamisega, mis on suurepära
 
 
 
-Soovitan ka seda teist õpetust, kus ma tutvustan teile Proton Maili, mis on palju privaatsussõbralikum alternatiiv Gmailile :
+Soovitan ka seda teist õpetust, kus ma tutvustan teile Proton Maili, mis on palju privaatsussõbralikum alternatiiv Gmailile:
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

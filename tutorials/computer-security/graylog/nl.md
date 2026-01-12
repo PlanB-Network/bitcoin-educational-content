@@ -43,7 +43,7 @@ Graylog is een analyse- en monitoringtool die het makkelijker maakt om verdacht 
 
 
 
-**Opmerking: de gratis versie, **Graylog Open**, is geen SIEM zoals Wazuh dat is, vooral omdat het echte inbraakdetectiefuncties mist.
+**Opmerking: de gratis versie, Graylog Open, is geen SIEM zoals Wazuh dat is, vooral omdat het echte inbraakdetectiefuncties mist.**
 
 
 
@@ -57,9 +57,9 @@ De **stack Graylog** is gebaseerd op **verschillende componenten** die we moeten
 
 
 
-- MongoDB 7**, de huidige aanbevolen versie voor Graylog (minimaal 5.0.7, maximaal 7.x)
-- OpenSearch**, een open source Fork van Elasticsearch gemaakt door Amazon (minimaal 1.1.x, maximaal 2.15.x)
-- OpenJDK 17**
+- **MongoDB 7**, de huidige aanbevolen versie voor Graylog (minimaal 5.0.7, maximaal 7.x)
+- **OpenSearch**, een open source Fork van Elasticsearch gemaakt door Amazon (minimaal 1.1.x, maximaal 2.15.x)
+- **OpenJDK 17**
 
 
 
@@ -71,7 +71,7 @@ De **Graylog server** draait op **Debian 12**, maar installatie is mogelijk op a
 
 
 
-Bron : Graylog
+Bron: Graylog
 
 
 
@@ -85,7 +85,7 @@ sudo timedatectl set-timezone Europe/Paris
 
 
 
-**Note: **OpenSearch installeren is optioneel** als je in plaats daarvan **Graylog Data Node** gebruikt.
+**Note:** OpenSearch installeren is optioneel als je in plaats daarvan **Graylog Data Node** gebruikt.
 
 
 
@@ -149,8 +149,8 @@ MongoDB kan niet worden geïnstalleerd omdat een afhankelijkheid ontbreekt: **li
 
 ```
 Les paquets suivants contiennent des dépendances non satisfaites :
-mongodb-org-mongos : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
-mongodb-org-server : Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-mongos: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
+mongodb-org-server: Dépend: libssl1.1 (>= 1.1.1) mais il n'est pas installable
 E: Impossible de corriger les problèmes, des paquets défectueux sont en mode « garder en l'état ».
 ```
 
@@ -222,7 +222,7 @@ echo "deb [signed-by=/usr/share/keyrings/opensearch-keyring] https://artifacts.o
 
 
 
-Werk je pakketcache bij :
+Werk je pakketcache bij:
 
 
 
@@ -232,7 +232,7 @@ sudo apt-get update
 
 
 
-Installeer vervolgens OpenSearch** en zorg ervoor dat **het standaardwachtwoord voor het beheerdersaccount** van uw instantie is ingesteld. Hier is het wachtwoord "**IT-Connect2024!**", maar vervang deze waarde door een sterk wachtwoord. **Vermijd zwakke wachtwoorden** zoals "**P@ssword123**" en gebruik ten minste **8 tekens** met ten minste één teken van elk type (kleine letters, hoofdletters, cijfers en speciale tekens), anders verschijnt er een foutmelding aan het einde van de installatie. **Dit is een vereiste sinds OpenSearch 2.12.**
+Installeer vervolgens **OpenSearch** en zorg ervoor dat **het standaardwachtwoord voor het beheerdersaccount** van uw instantie is ingesteld. Hier is het wachtwoord "**IT-Connect2024!**", maar vervang deze waarde door een sterk wachtwoord. **Vermijd zwakke wachtwoorden** zoals "**P@ssword123**" en gebruik ten minste **8 tekens** met ten minste één teken van elk type (kleine letters, hoofdletters, cijfers en speciale tekens), anders verschijnt er een foutmelding aan het einde van de installatie. **Dit is een vereiste sinds OpenSearch 2.12.**
 
 
 
@@ -279,14 +279,14 @@ Deze OpenSearch configuratie is ontworpen om een enkele node in te stellen. Hier
 
 
 
-- cluster.name: graylog** : Deze parameter benoemt het OpenSearch-cluster met de naam "**graylog**".
-- node.name: ${HOSTNAME}**: de knooppuntnaam wordt dynamisch ingesteld om overeen te komen met die van de lokale Linux machine. Zelfs als we maar één knooppunt hebben, is het belangrijk om het de juiste naam te geven.
-- path.data: /var/lib/opensearch**: dit pad specificeert waar OpenSearch zijn gegevens opslaat op de lokale machine, in dit geval in "**/var/lib/opensearch**".
-- path.logs: /var/log/opensearch**: dit pad definieert waar OpenSearch logbestanden worden opgeslagen, hier in "**/var/log/opensearch**".
-- discovery.type: single-node**: deze parameter configureert OpenSearch om met een enkele node te werken, vandaar de keuze voor de optie "**single-node**".
-- network.host: 127.0.0.1**: deze configuratie zorgt ervoor dat OpenSearch alleen luistert op zijn Interface local loop, wat voldoende is aangezien het op dezelfde server staat als Graylog.
-- action.auto_create_index: false**: door het automatisch maken van indexen uit te schakelen, zal OpenSearch niet automatisch een index maken wanneer een document wordt verzonden zonder een bestaande index.
-- plugins.security.disabled: true**: deze optie deactiveert de OpenSearch beveiligingsplugin, wat betekent dat er geen authenticatie, toegangsbeheer of communicatie-encryptie zal zijn. Deze instelling bespaart tijd bij het instellen van Graylog, maar moet vermeden worden in productie (zie [deze pagina](https://opensearch.org/docs/1.0/security-plugin/index/)).
+- cluster.name: graylog: Deze parameter benoemt het OpenSearch-cluster met de naam "**graylog**".
+- node.name: ${HOSTNAME}: de knooppuntnaam wordt dynamisch ingesteld om overeen te komen met die van de lokale Linux machine. Zelfs als we maar één knooppunt hebben, is het belangrijk om het de juiste naam te geven.
+- path.data: /var/lib/opensearch: dit pad specificeert waar OpenSearch zijn gegevens opslaat op de lokale machine, in dit geval in "**/var/lib/opensearch**".
+- path.logs: /var/log/opensearch: dit pad definieert waar OpenSearch logbestanden worden opgeslagen, hier in "**/var/log/opensearch**".
+- discovery.type: single-node: deze parameter configureert OpenSearch om met een enkele node te werken, vandaar de keuze voor de optie "**single-node**".
+- network.host: 127.0.0.1: deze configuratie zorgt ervoor dat OpenSearch alleen luistert op zijn Interface local loop, wat voldoende is aangezien het op dezelfde server staat als Graylog.
+- **action.auto_create_index: false**: door het automatisch maken van indexen uit te schakelen, zal OpenSearch niet automatisch een index maken wanneer een document wordt verzonden zonder een bestaande index.
+- **plugins.security.disabled: true**: deze optie deactiveert de OpenSearch beveiligingsplugin, wat betekent dat er geen authenticatie, toegangsbeheer of communicatie-encryptie zal zijn. Deze instelling bespaart tijd bij het instellen van Graylog, maar moet vermeden worden in productie (zie [deze pagina](https://opensearch.org/docs/1.0/security-plugin/index/)).
 
 
 
@@ -316,7 +316,7 @@ sudo nano /etc/opensearch/jvm.options
 
 
 
-Met de hier gebruikte configuratie zal **OpenSearch starten met 4 GB toegewezen geheugen en kan groeien tot 4 GB**, dus er zal geen geheugenvariatie zijn tijdens het gebruik. Hier houdt de configuratie rekening met het feit dat de virtuele machine in totaal **8 GB RAM** heeft. Beide parameters moeten dezelfde waarde hebben. Dit betekent dat de regels :
+Met de hier gebruikte configuratie zal **OpenSearch starten met 4 GB toegewezen geheugen en kan groeien tot 4 GB**, dus er zal geen geheugenvariatie zijn tijdens het gebruik. Hier houdt de configuratie rekening met het feit dat de virtuele machine in totaal **8 GB RAM** heeft. Beide parameters moeten dezelfde waarde hebben. Dit betekent dat de regels:
 
 
 
@@ -327,7 +327,7 @@ Met de hier gebruikte configuratie zal **OpenSearch starten met 4 GB toegewezen 
 
 
 
-Met deze regels :
+Met deze regels:
 
 
 
@@ -350,7 +350,7 @@ Sluit dit bestand nadat je het hebt opgeslagen.
 
 
 
-Daarnaast moeten we de configuratie van de "**max_map_count**" parameter in de Linux kernel controleren. Deze bepaalt de limiet van het aantal geheugengebieden dat per proces in kaart wordt gebracht, om aan de behoeften van onze applicatie te voldoen. **OpenSearch**, net als Elasticsearch**, raadt aan om deze waarde in te stellen op "262144" om fouten in het geheugenbeheer te voorkomen.
+Daarnaast moeten we de configuratie van de **max_map_count** parameter in de Linux kernel controleren. Deze bepaalt de limiet van het aantal geheugengebieden dat per proces in kaart wordt gebracht, om aan de behoeften van onze applicatie te voldoen. **OpenSearch**, net als **Elasticsearch**, raadt aan om deze waarde in te stellen op "262144" om fouten in het geheugenbeheer te voorkomen.
 
 
 
@@ -408,7 +408,7 @@ Volgende stap: de langverwachte installatie van Graylog!
 
 
 
-Om **Graylog 6.1** in de laatste versie te installeren, voert u de volgende 4 opdrachten uit om **Graylog Server** te downloaden en te installeren** :
+Om **Graylog 6.1** in de laatste versie te installeren, voert u de volgende 4 opdrachten uit om **Graylog Server** te downloaden en te installeren:
 
 
 
@@ -431,8 +431,8 @@ Laten we beginnen met het configureren van deze twee opties:
 
 
 
-- password_secret**: deze parameter wordt gebruikt om een sleutel te definiëren die door Graylog wordt gebruikt om de opslag van gebruikerswachtwoorden te beveiligen (in de geest van een salting-sleutel). Deze sleutel moet **uniek** en **willekeurig** zijn.
-- root_password_sha2** : Deze parameter komt overeen met het standaard beheerderswachtwoord in Graylog. Het wordt opgeslagen als een Hash SHA-256.
+- **password_secret**: deze parameter wordt gebruikt om een sleutel te definiëren die door Graylog wordt gebruikt om de opslag van gebruikerswachtwoorden te beveiligen (in de geest van een salting-sleutel). Deze sleutel moet **uniek** en **willekeurig** zijn.
+- **root_password_sha2**: Deze parameter komt overeen met het standaard beheerderswachtwoord in Graylog. Het wordt opgeslagen als een Hash SHA-256.
 
 
 
@@ -566,7 +566,7 @@ Vervolgens moest je opnieuw proberen verbinding te maken met de gebruiker "**adm
 
 
 
-**Dit is niet langer het geval. Je hoeft alleen maar in te loggen met je beheerdersaccount en het wachtwoord dat is ingesteld op de opdrachtregel
+**Dit is niet langer het geval. Je hoeft alleen maar in te loggen met je beheerdersaccount en het wachtwoord dat is ingesteld op de opdrachtregel.**
 
 
 
@@ -574,7 +574,7 @@ Vervolgens moest je opnieuw proberen verbinding te maken met de gebruiker "**adm
 
 
 
-**Welkom op Graylog's Interface!
+**Welkom op Graylog's Interface!**
 
 
 
@@ -661,7 +661,7 @@ De nieuwe ingang is aangemaakt en is nu actief. Graylog kan nu Syslog logs ontva
 ![Image](assets/fr/018.webp)
 
 
-**Notitie: een enkele Input kan gebruikt worden om logs van meerdere Linux machines op te slaan.
+**Notitie: een enkele Input kan gebruikt worden om logs van meerdere Linux machines op te slaan.**
 
 
 
@@ -701,7 +701,7 @@ Om een nieuwe stream aan te maken, klik je op "**Streams**" in het hoofdmenu van
 
 
 
-**Opmerking: berichten die overeenkomen met deze stroom worden ook opgenomen in de "**Standaardstroom**", tenzij je de optie "**Verwijder matches uit 'Standaardstroom'**" aanvinkt.
+**Opmerking:** berichten die overeenkomen met deze stroom worden ook opgenomen in de **Standaardstroom**, tenzij je de optie **Verwijder matches uit 'Standaardstroom'** aanvinkt.
 
 
 
@@ -788,7 +788,7 @@ In deze map moet je nummers gebruiken om de laadvolgorde te definiëren, omdat b
 
 
 
-In deze map maken we een bestand aan met de naam "**10-graylog.conf**" :
+In deze map maken we een bestand aan met de naam "**10-graylog.conf**":
 
 
 
@@ -798,7 +798,7 @@ sudo nano /etc/rsyslog.d/10-graylog.conf
 
 
 
-Voeg in dit bestand deze regel in :
+Voeg in dit bestand deze regel in:
 
 
 
@@ -917,7 +917,7 @@ message:Failed password AND application_name:sshd
 
 
 
-Als je meerdere servers hebt en de logboeken van een specifieke server wilt analyseren, geef dan de naam van die server op als aanvulling :
+Als je meerdere servers hebt en de logboeken van een specifieke server wilt analyseren, geef dan de naam van die server op als aanvulling:
 
 
 
@@ -939,7 +939,7 @@ Niet succesvolle verbindingspogingen worden gemaakt vanaf de machine met IP Addr
 
 
 
-In dit geval kan het te gebruiken filter :
+In dit geval kan het te gebruiken filter:
 
 
 

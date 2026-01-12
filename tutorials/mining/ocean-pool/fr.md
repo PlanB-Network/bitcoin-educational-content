@@ -8,7 +8,7 @@ description: Présentation de Ocean Mining
 
 **Mai 2024**
 
-Ocean Mining est une pool de minage un peu particulière. Ici, pas de compte, pas d'adresse e-mail, pas de mot de passe. A l'image de Bitcoin tout est transparent, pseudonyme et les contributeurs peuvent choisir parmi quatre blocs templates différents.
+Ocean Mining est une pool de minage un peu particulière. Ici, aucun compte à créer, pas d'adresse e-mail, pas de mot de passe. A l'image de Bitcoin tout est transparent, pseudonyme et les contributeurs peuvent choisir parmi quatre modèles de blocs différents.
 
 ### Système de rémunération
 
@@ -80,7 +80,7 @@ En haut à gauche sur le dashboard, vous avez « Next block ». Sur cette page, 
 
 ### Distinction entre Bitcoin Core et Bitcoin Knot
 
-Bitcoin Core est le logiciel qui permet de faire fonctionner environ 99 % des nœuds Bitcoin à travers le monde. Bitcoin est un protocole, ce qui signifie que, comme pour Internet, où il existe plusieurs navigateurs, il peut y avoir plusieurs logiciels différents qui cohabitent sur la même TimeChain. Cependant, par souci de compatibilité et pour limiter le risque de bugs qui laisseraient des traces indélébiles sur la TimeChain, la quasi-totalité des développeurs Bitcoin travaillent sur Bitcoin Core. Bitcoin Knot est un fork de Bitcoin Core, ce qui signifie qu’il partage la majorité de leur code, limitant grandement le risque de bugs. Ce fork a été créé par Luke Dashjr, qui souhaitait appliquer des règles plus restrictives que Bitcoin Core sans créer de hard fork. Désormais, Bitcoin Core et Bitcoin Knot cohabitent grâce au consensus de Nakamoto.
+Bitcoin Core est le logiciel qui permet de faire fonctionner environ 99 % des nœuds Bitcoin à travers le monde. Bitcoin est un protocole, ce qui signifie que, comme pour Internet, où il existe plusieurs navigateurs, il peut y avoir plusieurs logiciels différents qui cohabitent sur la même TimeChain. Cependant, par souci de compatibilité et pour limiter le risque de bugs qui laisseraient des traces indélébiles sur la TimeChain, la quasi-totalité des développeurs Bitcoin travaillent sur Bitcoin Core. Bitcoin Knot est un fork de Bitcoin Core, ce qui signifie qu’il partage la majorité de leur code, limitant grandement le risque de bugs. Ce fork a été créé par Luke Dashjr, qui souhaitait appliquer des règles plus restrictives que Bitcoin Core sans pour autant créer un hard fork. Désormais, Bitcoin Core et Bitcoin Knot cohabitent grâce au consensus de Nakamoto.
 
 ## Ajouter un Worker
 
@@ -116,7 +116,7 @@ Quelques minutes après avoir commencé le minage, vous pourrez voir vos donnée
 - **Estimated Rewards in Windows** : Estimation du nombre de sats que vous allez gagner avec le travail déjà effectué. Cela ne prend pas en compte les frais de transaction, mais seulement la coinbase, les nouveaux bitcoins émis par le réseau.
 - **Estimated Earnings Next Block** : Estimation du nombre de sats gagnés si un bloc est miné maintenant. Pour rappel, si cette valeur est inférieure à 1 048 576 sats, vous ne recevrez pas directement les sats sur votre adresse. Ils seront envoyés sur l’adresse d'Ocean en attendant que vos gains dépassent ce seuil.
 
-En-dessous, vous avez un graphe qui affiche l’historique de votre hashrate jusqu’à 6 mois.
+En-dessous, vous avez un graphe qui affiche l’historique de votre hashrate sur une période allant jusqu’à 6 mois.
 
 ![signup](assets/4.webp)
 

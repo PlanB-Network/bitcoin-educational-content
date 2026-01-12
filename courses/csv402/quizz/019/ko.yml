@@ -1,0 +1,9 @@
+question: RGB 환경에서 스마트 컨트랙트의 주요 목적은 무엇인가요?
+answer: 중앙 집중식 레지스트리 없이 자동화된 Bitcoin 거래 구현하기
+wrong_answers:
+  - 중앙 집중식 Bitcoin 레지스트리 생성 촉진
+  - 모든 Bitcoin 트랜잭션에 대해 공개 Interface 제공
+  - Bitcoin에서 ERC-20 토큰 실행 간소화
+explanation: |
+  RGB 스마트 컨트랙트는 중앙화된 레지스터를 사용하지 않고, 암호화 앵커를 위해 Bitcoin에 의존하면서 계약을 자동화할 수 있습니다.
+reviewed: false

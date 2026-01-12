@@ -1,0 +1,8 @@
+question: Ni sifa gani ya hisabati inayohakikisha kwamba kila kipengele kisicho na sifuri katika sehemu kuu F(p) kina kinyume cha kuzidisha?
+answer: Sehemu hiyo imefafanuliwa na nambari kuu p
+wrong_answers:
+  - Sehemu ina vipengele vya p-1 haswa
+  - Sehemu hutumia shughuli za hesabu za moduli
+  - Sehemu inasaidia kujumlisha na kuzidisha
+explanation: |
+  Sehemu yenye kikomo F(p) lazima ifafanuliwe na nambari kuu p ili kuhakikisha kila kipengele kisicho sifuri kina kinyume cha kuzidisha. Hili ni hitaji la msingi la nadharia ya sehemu - wakati p ni nambari kuu, nambari kamili p huunda sehemu ambapo mgawanyiko unawezekana kila wakati (isipokuwa kwa sifuri). Kama p ingekuwa mchanganyiko, baadhi ya vipengele visivyo sifuri havingekuwa na kinyume, na hivyo kuvunja muundo wa sehemu. Ingawa chaguo zingine zinaelezea sifa za sehemu zenye kikomo, ni upendeleo wa p pekee unaohakikisha uwepo wa kinyume cha kuzidisha kwa vipengele vyote visivyo sifuri.

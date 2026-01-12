@@ -1,12 +1,12 @@
 ---
 name: Attakaï
 
-description: muuttaa S9:n kotilämmitysjärjestelmäksi
+description: S9:n muuttaminen kotilämmittimeksi
 ---
 
 ![cover](assets/cover.webp)
 
-# Attakai - mahdollistaa kotilouhinnan ja tekee siitä saavutettavaa!
+## Attakaï - kotilouhinta mahdolliseksi ja saavutettavaksi!
 
 "Attakaï"-aloite tutkii Bitcoin-louhintaa tuotetun lämmön hyödyntämisen kautta. Opas tarjoaa ratkaisuja louhintalaitteiden muokkaamiseksi sopiviksi käytettäväksi lämpöpattereina kodeissa, tarjoten lisää mukavuutta ja energiansäästöjä. Bitcoin säätää automaattisesti louhintavaikeutta ja palkitsee louhijat heidän työstään. Kuitenkin hashraten keskittyminen voi aiheuttaa riskejä verkon neutraaliudelle. "Attakaï" tarjoaa käytännöllisen oppaan louhintalaitteiden taloudelliseen muokkaamiseen, mahdollistaen osallistujien sähkölaskujen pienentämisen ja palkitsemisen satosheilla ilman KYC:tä.
 
@@ -30,7 +30,6 @@ Bitcoin ja sen proof of work -mekanismi erottuvat siksi, että ne säätävät a
 
 Yhteenvetona voidaan todeta, että sekä sähkölämmitin että Bitcoin-louhija tuottavat 1 kW lämpöä 1 kW sähköä kuluttaen. Louhija saa kuitenkin palkkioksi bitcoineja. Riippumatta sähkön hinnasta, bitcoinin hinnasta tai Bitcoin-verkon louhintatoiminnan kilpailusta, taloudellisesti on edullisempaa lämmittää louhijalla kuin sähköpatterilla.
 
-![Videoesittely](https://youtu.be/gKoh44UCSnE)
 
 ### Lisäarvo Bitcoinille
 
@@ -60,38 +59,38 @@ Antminer S9 on saatavilla useina versioina (i, j), jotka tuovat pieniä muutoksi
 
 ASIC:ien hinta vaihtelee monien tekijöiden mukaan, kuten bitcoinin hinnan, verkon vaikeusasteen, koneen tehokkuuden ja sähkön hinnan mukaan. Siksi on vaikea antaa tarkkaa arviota käytetyn koneen ostamisesta. Helmikuussa 2023 odotettu hinta Ranskassa yleensä vaihtelee 100 ja 200 euron välillä, mutta nämä hinnat voivat muuttua nopeasti.
 
-![kuva](assets/guide-achat/1.webp)
+![kuva](assets/fr/001.webp)
 
 Antminer S9 koostuu seuraavista osista:
 
 - 3 hashboardia, joissa sijaitsevat sirut, jotka tuottavat louhintatehon
 
-![kuva](assets/guide-achat/2.webp)
+![kuva](assets/fr/002.webp)
 
 - Ohjauskortti, joka sisältää paikan SD-kortille, Ethernet-portin sekä liittimet hashboardeille ja tuulettimille. Tämä on ASIC:si aivot.
-  ![kuva](assets/guide-achat/3.webp)
+  ![kuva](assets/fr/003.webp)
 
 - 3 datakaapelia, jotka yhdistävät hashboardit ohjauskorttiin.
 
-![kuva](assets/guide-achat/4.webp)
+![kuva](assets/fr/004.webp)
 
 - Virtalähde, joka toimii 220V:lla ja voidaan kytkeä kuten tavallinen kotitalouslaite.
 
-![kuva](assets/guide-achat/5.webp)
+![kuva](assets/fr/005.webp)
 
 - 2 120mm tuuletinta.
 
-![kuva](assets/guide-achat/6.webp)
+![kuva](assets/fr/006.webp)
 
 - Uros C13 -kaapeli.
 
-![kuva](assets/guide-achat/7.webp)
+![kuva](assets/fr/007.webp)
 Kun ostat käytetyn koneen, on tärkeää tarkistaa, että kaikki osat ovat mukana ja toimivat. Vaihdon aikana sinun tulisi pyytää myyjää käynnistämään kone varmistaaksesi sen asianmukaisen toiminnan. On tärkeää tarkistaa, että laite käynnistyy oikein, ja sen jälkeen tarkistaa internet-yhteys liittämällä Ethernet-kaapeli ja käyttämällä Bitmain-yhteysliittymää verkkoselaimen kautta samassa paikallisverkossa. Tämän IP-osoitteen löydät yhdistämällä internet-reitittimesi käyttöliittymään ja etsimällä yhdistettyjä laitteita. Osoitteen tulisi olla seuraavassa muodossa: 192.168.x.x
-![kuva](assets/guide-achat/8.webp)
+![kuva](assets/fr/008.webp)
 
 Tarkista myös, että oletusarvoiset tunnistetiedot toimivat (käyttäjätunnus: root, salasana: root). Jos oletusarvoiset tunnistetiedot eivät toimi, sinun on suoritettava koneen nollaus.
 
-![kuva](assets/guide-achat/9.webp)
+![kuva](assets/fr/009.webp)
 
 Yhdistämisen jälkeen sinun pitäisi pystyä näkemään kunkin hashboardin tila kojelaudalla. Jos louhija on yhdistetty louhintapooliin, sinun pitäisi nähdä kaikkien hashboardien toimivan. On tärkeää huomata, että louhijat pitävät paljon melua, mikä on normaalia. Varmista myös, että tuulettimet toimivat kunnolla.
 
@@ -101,7 +100,7 @@ Tiivistääkseni tämän oppaan yhteen lauseeseen: **"Älä luota, varmista."**
 
 ## Luku 2: Osto-opas muutostyön osille
 
-![kuva](assets/piece/1.webp)
+![kuva](assets/fr/010.webp)
 
 ### Kuinka muuttaa Antminer S9 hiljaiseksi ja yhdistetyksi lämmittimeksi?
 
@@ -111,24 +110,24 @@ Jos omistat Antminer S9:n, tiedät todennäköisesti, kuinka äänekäs ja kömp
 
 Antminer S9:n alkuperäiset tuulettimet ovat liian äänekkäitä käyttääkseen sitä lämmittimenä. Ratkaisu on vaihtaa ne hiljaisempiin tuulettimiin. Tiimimme on testannut useita malleja Noctua-merkiltä ja valinnut Noctua NF-A14 iPPC-2000 PWM:n parhaaksi kompromissiksi. Varmista, että valitset 12V version tuulettimista. Tämä 140mm tuuletin voi tuottaa jopa 1300W lämpöä ylläpitäen teoreettisen melutason 31 dB. Näiden 140mm tuulettimien asentamiseen tarvitset 140mm - 120mm sovittimen, jonka löydät DécouvreBitcoin-kaupasta. Lisäämme myös 140mm suojaverkot.
 
-![kuva](assets/piece/1.webp)
-![kuva](assets/piece/2.webp)
-![kuva](assets/piece/3.webp)
+![kuva](assets/fr/010.webp)
+![kuva](assets/fr/011.webp)
+![kuva](assets/fr/012.webp)
 Virtalähteen tuuletin on myös melko äänekäs ja se täytyy vaihtaa. Suosittelemme Noctua NF-A6x25 PWM -mallia. Huomaa, että Noctuan tuulettimien liittimet eivät ole samanlaisia kuin alkuperäiset, joten tarvitset liitinadapterin niiden kytkemiseen. Kaksi pitäisi riittää. Varmista jälleen, että valitset tuulettimen 12V version.
-![kuva](assets/piece/4.webp)
-![kuva](assets/piece/5.webp)
+![kuva](assets/fr/013.webp)
+![kuva](assets/fr/014.webp)
 
 ### 2. Lisää WIFI/Ethernet-silta
 
 Ethernet-kaapelin sijaan voit yhdistää Antminerisi WIFIin lisäämällä WIFI/Ethernet-sillan. Olemme valinneet vonets vap11g-300:n, koska se mahdollistaa helposti WIFI-signaalin noutamisen Internet-laitteestasi ja sen lähettämisen Antminerillesi Ethernetin kautta luomatta aliverkkoa. Jos sinulla on sähkötekniikan taitoja, voit kytkeä sen suoraan Antminerisi virtalähteeseen ilman USB-laturin lisäämistä. Tätä varten tarvitset naaraspuolisen 5,5mmx2,1mm jakin.
 
-![kuva](assets/piece/6.webp)
-![kuva](assets/piece/7.webp)
+![kuva](assets/fr/015.webp)
+![kuva](assets/fr/016.webp)
 
 ### 3. Valinnainen: Lisää älypistoke
 
 Jos haluat kytkeä Antminerisi päälle/pois päältä älypuhelimellasi ja seurata sen energiankulutusta, voit lisätä älypistokkeen. Testasimme ANTELA-pistoketta 16A versiona, joka on yhteensopiva smartlife-sovelluksen kanssa. Tämä älypistoke mahdollistaa päivittäisen ja kuukausittaisen energiankulutuksen tarkistamisen ja yhdistää suoraan Internet-laitteeseesi WIFI:n kautta.
-![kuva](assets/piece/8.webp)
+![kuva](assets/fr/017.webp)
 
 > Laitteiden ja linkkien lista
 >
@@ -142,7 +141,7 @@ Jos haluat kytkeä Antminerisi päälle/pois päältä älypuhelimellasi ja seur
 
 ## Luku 3 - OPAS: Kuinka muuttaa louhija lämmittimeksi?
 
-![kuva](assets/hardware/0.webp)
+![kuva](assets/fr/039.webp)
 
 Jos olet taitava tee-se-itse -henkilö ja haluat muuttaa louhijan lämmittimeksi, tämä opas on sinua varten. Haluamme varoittaa, että elektronisen laitteen muokkaaminen voi aiheuttaa sähkö- ja tulipaloriskejä. On välttämätöntä ryhtyä kaikkiin tarvittaviin varotoimiin vahinkojen tai loukkaantumisten välttämiseksi.
 Tehtaalta tullessaan louhija ei oikein sovellu kodin patteriksi, koska se on liian meluisa eikä säädettävissä. On kuitenkin mahdollista tehdä yksinkertaisia muutoksia näiden ongelmien ratkaisemiseksi.
@@ -165,92 +164,92 @@ Aloitamme virtalähteen tuulettimen vaihtamisella.
 
 > VAROITUS: Ennen kaikkea, ennen kuin aloitat, varmista, että olet irrottanut louhijan pistorasiasta välttääksesi sähköiskun vaaran.
 
-![kuva](assets/hardware/1.webp)
+![kuva](assets/fr/040.webp)
 
 Aloitamme virtalähteen tuulettimen vaihtamisella.
 
 Ensimmäiseksi, poista 6 ruuvia kotelon sivusta, jotka pitävät sen kiinni. Kun ruuvit on poistettu, avaa varovasti kotelo poistaaksesi muovikannen, joka suojaa komponentteja.
 
-![kuva](assets/hardware/2.webp)
-![kuva](assets/hardware/3.webp)
-Seuraavaksi on aika poistaa alkuperäinen tuuletin varoen, ettei vahingoita muita komponentteja. Tätä varten irrota ruuvit, jotka pitävät sitä paikallaan, ja varovasti kuori pois valkoinen liima liittimen ympäriltä. On tärkeää edetä hienovaraisesti välttääkseen johdoille tai liittimille aiheutuvia vahinkoja. ![kuva](assets/hardware/4.webp)
+![kuva](assets/fr/041.webp)
+![kuva](assets/fr/042.webp)
+Seuraavaksi on aika poistaa alkuperäinen tuuletin varoen, ettei vahingoita muita komponentteja. Tätä varten irrota ruuvit, jotka pitävät sitä paikallaan, ja varovasti kuori pois valkoinen liima liittimen ympäriltä. On tärkeää edetä hienovaraisesti välttääkseen johdoille tai liittimille aiheutuvia vahinkoja. ![kuva](assets/fr/043.webp)
 
 Kun alkuperäinen tuuletin on poistettu, huomaat, että uuden Noctua-tuulettimen liittimet eivät vastaa alkuperäisen tuulettimen liittimiä. Uudessa tuulettimessa on nimittäin 3 johtoa, mukaan lukien keltainen johto, joka mahdollistaa nopeudensäädön. Tässä tapauksessa tätä johtoa ei kuitenkaan käytetä. Uuden tuulettimen liittämiseksi suositellaan erityisen sovittimen käyttöä. On kuitenkin tärkeää huomata, että tämä sovitin voi joskus olla vaikea löytää.
 
-![kuva](assets/hardware/5.webp)
+![kuva](assets/fr/044.webp)
 
 Jos sinulla ei ole tätä sovitinta, voit silti jatkaa uuden tuulettimen liittämistä käyttämällä johdon mutteria. Tätä varten sinun on leikattava sekä vanhan että uuden tuulettimen kaapelit.
 
-![kuva](assets/hardware/6.webp)
-![kuva](assets/hardware/7.webp)
+![kuva](assets/fr/045.webp)
+![kuva](assets/fr/046.webp)
 
 Uudessa tuulettimessa käytä leikkuria ja leikkaa varovasti pääsuojan ääriviivat 1cm päästä leikkaamatta alla olevien kaapeleiden suojia.
 
-![kuva](assets/hardware/8.webp)
+![kuva](assets/fr/047.webp)
 
 Vedä sitten pääsuoja alaspäin ja leikkaa punaisen ja mustan kaapelin suojat samalla tavalla kuin aiemmin. Ja leikkaa keltainen kaapeli tasaiseksi.
 
-![kuva](assets/hardware/9.webp)
+![kuva](assets/fr/048.webp)
 
 Vanhan tuulettimen kohdalla pääsuojan leikkaaminen vahingoittamatta punaisten ja mustien johtojen suojia on herkempi tehtävä. Tätä varten käytimme neulaa, jonka liu'utimme pääsuojan ja punaisten sekä mustien johtojen väliin.
 
-![kuva](assets/hardware/10.webp)
-![kuva](assets/hardware/11.webp)
+![kuva](assets/fr/049.webp)
+![kuva](assets/fr/050.webp)
 
 Kun punaiset ja mustat johdot ovat paljaana, leikkaa suojat varovasti välttääksesi sähköjohtojen vahingoittamisen.
 
-![kuva](assets/hardware/12.webp)
+![kuva](assets/fr/051.webp)
 
 Tämän jälkeen yhdistä kaapelit johdon mutterilla, musta johto mustan kanssa ja punainen johto punaisen kanssa. Voit myös lisätä sähköteippiä.
 
-![kuva](assets/hardware/13.webp)
-![kuva](assets/hardware/14.webp)
+![kuva](assets/fr/052.webp)
+![kuva](assets/fr/053.webp)
 
 Kun yhteys on muodostettu, on aika asentaa uusi Noctua-tuuletin ritilän kanssa ja käyttää vanhoja ruuveja, uudet ruuvit laatikosta käytetään myöhemmin. Varmista, että asennat sen oikeaan suuntaan. Huomaat nuolen yhdellä puolella tuuletinta, joka osoittaa ilmavirran suunnan. On tärkeää asettaa tuuletin siten, että tämä nuoli osoittaa kotelon sisäpuolelle. Kytke sitten tuuletin uudelleen.
-![kuva](assets/hardware/15.webp)![kuva](assets/hardware/16.webp)
+![kuva](assets/fr/054.webp)![kuva](assets/fr/055.webp)
 
 > Vaihtoehtoisesti: Jos olet taitava sähköasioissa, voit suoraan lisätä naaras 5.5mm jakkiliittimen 12V virtalähteeseen, mikä mahdollistaa Vonet Wi-Fi sillan suoran virransyötön. Jos kuitenkin epäilet sähköosaamistasi, on turvallisempaa käyttää USB-liitintä älypuhelimen laturin kanssa välttääksesi oikosulun tai sähkövahingon riskin.
 
-![kuva](assets/hardware/17.webp)
+![kuva](assets/fr/056.webp)
 
 Kun yhteydet on muodostettu, varmista, että asetat muovikannen muovikotelon päälle eikä sisälle.
 
-![kuva](assets/hardware/18.webp)
+![kuva](assets/fr/057.webp)
 Lopuksi aseta kotelon kansi takaisin paikalleen ja kiristä kuusi ruuvia sivuilla pitääksesi kaiken turvallisesti paikoillaan. Ja siinä se, virtalähteesi kotelo on nyt varustettu uudella tuulettimella.
 ### Kahden päätuulettimen vaihto
 
-1. Irrota ensin tuulettimet ja ruuvaa ne irti.
-   ![image](assets/hardware/19.webp)
+- Irrota ensin tuulettimet ja ruuvaa ne irti.
+   ![image](assets/fr/058.webp)
 
-2. Uusien Noctua-tuulettimien liittimet eivät sovi alkuperäisiin, mutta älä hätäänny! Ota veitsesi esiin ja leikkaa varovasti pienet muoviset välilehdet pois, jotta liittimet sopivat täydellisesti louhijaasi.
+- Uusien Noctua-tuulettimien liittimet eivät sovi alkuperäisiin, mutta älä hätäänny! Ota veitsesi esiin ja leikkaa varovasti pienet muoviset välilehdet pois, jotta liittimet sopivat täydellisesti louhijaasi.
 
-![image](assets/hardware/20.webp)
-![image](assets/hardware/21.webp)
+![image](assets/fr/059.webp)
+![image](assets/fr/060.webp)
 
-3. On aika asentaa 3D-osat!
+- On aika asentaa 3D-osat!
    Kiinnitä ne louhijan molemmille puolille käyttäen tuulettimista irrottamiasi ruuveja. Kiristä ruuvi, kunnes ruuvin pää uppoaa 3D-osaan ja se on turvallisesti paikoillaan. Ole varovainen, ettet kiristä liikaa, sillä saatat vahingoittaa osaa ja yksi ruuveista saattaa koskettaa kondensaattoria! Leikkaa sitten varovasti pienet muoviset välilehdet pois, jotta liittimet sopivat täydellisesti louhijaasi.
 
-![image](assets/hardware/22.webp)
+![image](assets/fr/061.webp)
 
-4. Nyt siirrytään tuulettimiin.
+- Nyt siirrytään tuulettimiin.
    Kiinnitä ne 3D-osiin mukana tulleilla ruuveilla. Kiinnitä huomiota ilmavirran suuntaan, tuulettimien sivuilla olevat nuolet osoittavat suunnan. Mene Ethernet-portin puolelta toiselle puolelle. Katso alla oleva kuva.
 
-![image](assets/hardware/23.webp)
-![image](assets/hardware/24.webp)
-![image](assets/hardware/25.webp)
+![image](assets/fr/062.webp)
+![image](assets/fr/063.webp)
+![image](assets/fr/064.webp)
 
-5. Viimeinen vaihe: kytke tuulettimet ja kiinnitä ritilät päälle käyttämättömillä ruuveilla tuuletinlaatikosta. Sinulla on vain 4, mutta 2 ritilää kohden vastakkaisissa kulmissa riittää. Tarvittaessa voit myös etsiä muita samanlaisia ruuveja rautakaupasta.
+- Viimeinen vaihe: kytke tuulettimet ja kiinnitä ritilät päälle käyttämättömillä ruuveilla tuuletinlaatikosta. Sinulla on vain 4, mutta 2 ritilää kohden vastakkaisissa kulmissa riittää. Tarvittaessa voit myös etsiä muita samanlaisia ruuveja rautakaupasta.
 
-![image](assets/hardware/26.webp)
-'![image](assets/hardware/27.webp)
+![image](assets/fr/065.webp)
+'![image](assets/fr/066.webp)
 
 Odottaessasi, että voimme tarjota seksikkäämmän kotelon uudelle lämmittimellesi, voit kiinnittää kotelon ja virtalähteen yhteen sähköasentajan nippusiteillä.
 
-![image](assets/hardware/28.webp)
+![image](assets/fr/067.webp)
 
 Ja viimeisenä silauksena, yhdistä Vonet-silta virtalähteen Ethernet-porttiin. Jos et ole vielä tehnyt niin, voit seurata tätä opasta sillan asettamiseksi.
 
-![image](assets/hardware/29.webp)
+![image](assets/fr/068.webp)
 
 Ja siinä se, onnittelut! Olet juuri vaihtanut louhijasi koko mekaanisen osan. Nyt sinun pitäisi kuulla huomattavasti vähemmän melua.
 
@@ -264,7 +263,7 @@ Tätä menetelmää voidaan soveltaa 10 minuutin kuluessa louhijan käynnistämi
 
 Kun louhija on ollut päällä 2 minuuttia, paina "Reset"-painiketta 5 sekunnin ajan ja vapauta se sitten. Louhija palautuu tehdasasetuksiin 4 minuutin kuluessa ja käynnistyy automaattisesti uudelleen (sinun ei tarvitse sammuttaa sitä).
 
-![image](assets/software/1.webp)
+![image](assets/fr/018.webp)
 
 Palautus verkkopuolelta
 
@@ -274,7 +273,7 @@ Kirjaudu louhijasi käyttöliittymään, klikkaa "Upgrade" >> "Perform a reset",
 Tässä osiossa oletetaan, että kone toimii, on käynnissä ja sen alkuperäinen käyttöjärjestelmä on asennettu. Näemme lyhyesti Bitmainin tarjoaman alkuperäisen käyttöjärjestelmän käyttöliittymän.
 Ensiksi, yhdistä koneeseesi paikallisverkon kautta:
 
-![kuva](assets/software/2.webp)
+![kuva](assets/fr/019.webp)
 
 Kirjautumissivulla sinun tulee kirjautua ASICiin oletustunnuksilla:
 
@@ -285,11 +284,11 @@ Kirjautumissivulla sinun tulee kirjautua ASICiin oletustunnuksilla:
 
 Pääkäyttöjärjestelmä on suhteellisen perus. Neljällä välilehdellä: Järjestelmä, Louhijan Konfiguraatio, Louhijan Tila, Verkko. Louhijan Konfiguraatio -välilehdellä voit konfiguroida jopa 3 louhintapoolia.
 
-![kuva](assets/software/3.webp)
+![kuva](assets/fr/020.webp)
 
 Louhijan Tila -välilehdellä voit tarkastella erilaisia tietoja ASICin reaaliaikaisesta toiminnasta. Hashrate ilmaistaan GH/s:ssä, tarkempia tietoja poolista sekä tietoja kunkin hashboardin tilasta ja tuulettimen nopeudesta kierroksina/minuutti.
 
-![kuva](assets/software/4.webp)
+![kuva](assets/fr/021.webp)
 
 ### Braiins OS+'
 
@@ -307,60 +306,60 @@ Braiins OS -ohjelmiston voi helposti asentaa kaikkiin yllä mainittuihin koneisi
 
 ASICiin voi asentaa Braiins OS+:n usealla eri tavalla. Voit viitata tähän oppaaseen sekä Braiinsin viralliseen dokumentaatioon ja video-oppaisiin.
 Asenna Braiins OS+ suoraan Antminerisi muistiin käyttäen BOS-työkalupakkia, korvaten alkuperäisen käyttöjärjestelmän, seuraavien yksityiskohtaisten vaiheiden avulla. Jos haluat säilyttää alkuperäisen käyttöjärjestelmän rinnalla, voit asentaa Braiins OS+:n SD-kortille.
-1. Käynnistä Antminerisi ja yhdistä se internet-laatikkoosi.
-2. Lataa BOS toolbox Windowsille / Linuxille.
-3. Pura ladattu tiedosto ja avaa bos-toolbox.bat-tiedosto, valitse kieli, ja hetken kuluttua näet tämän ikkunan:
-   ![kuva](assets/software/5.webp)
+- Käynnistä Antminerisi ja yhdistä se internet-laatikkoosi.
+- Lataa BOS toolbox Windowsille / Linuxille.
+- Pura ladattu tiedosto ja avaa bos-toolbox.bat-tiedosto, valitse kieli, ja hetken kuluttua näet tämän ikkunan:
+   ![kuva](assets/fr/022.webp)
 
-4. BOS toolbox mahdollistaa Antminerisi IP-osoitteen helposti löytämisen ja Braiins OS+:n asentamisen. Jos tiedät jo koneesi IP-osoitteen, voit siirtyä suoraan vaiheeseen 8. Muussa tapauksessa siirry skannaus-välilehteen.
+- BOS toolbox mahdollistaa Antminerisi IP-osoitteen helposti löytämisen ja Braiins OS+:n asentamisen. Jos tiedät jo koneesi IP-osoitteen, voit siirtyä suoraan vaiheeseen 8. Muussa tapauksessa siirry skannaus-välilehteen.
 
-![kuva](assets/software/6.webp)
+![kuva](assets/fr/023.webp)
 
-5. Yleensä kotiverkoissa IP-osoitteen alue on välillä 192.168.1.1 ja 192.168.1.255, joten syötä "192.168.1.0/24" IP-alue -kenttään. Jos verkkosi on erilainen, vaihda nämä osoitteet. Sen jälkeen klikkaa "Aloita".
+- Yleensä kotiverkoissa IP-osoitteen alue on välillä 192.168.1.1 ja 192.168.1.255, joten syötä "192.168.1.0/24" IP-alue -kenttään. Jos verkkosi on erilainen, vaihda nämä osoitteet. Sen jälkeen klikkaa "Aloita".
 
-6. Huomio, jos Antminerissasi on salasana, havaitseminen ei toimi. Jos näin on, yksinkertaisin ratkaisu on suorittaa tehdasasetusten palautus.
+- Huomio, jos Antminerissasi on salasana, havaitseminen ei toimi. Jos näin on, yksinkertaisin ratkaisu on suorittaa tehdasasetusten palautus.
 
-7. Sinun pitäisi nähdä kaikki verkkosi Antminerit, tässä IP-osoite on 192.168.1.37.
+- Sinun pitäisi nähdä kaikki verkkosi Antminerit, tässä IP-osoite on 192.168.1.37.
 
-![kuva](assets/software/7.webp)
+![kuva](assets/fr/024.webp)
 
-8. Klikkaa Takaisin, siirry sitten asennus-välilehteen, syötä aiemmin löydetty IP-osoite Miner(s)-kenttään ja "admin" (tai "root") Salasana-kenttään, joka on oletussalasana, ja klikkaa sitten "Aloita".
+- Klikkaa Takaisin, siirry sitten asennus-välilehteen, syötä aiemmin löydetty IP-osoite Miner(s)-kenttään ja "admin" (tai "root") Salasana-kenttään, joka on oletussalasana, ja klikkaa sitten "Aloita".
    Jos asennus ei toimi "admin" tai "root" salasanalla, voi olla tarpeen suorittaa tehdasasetusten palautus ja yrittää uudelleen.
 
-![kuva](assets/software/8.webp)
+![kuva](assets/fr/025.webp)
 
-9. Hetken kuluttua Antminerisi käynnistyy uudelleen ja pääset käsiksi Braiins OS+:n käyttöliittymään kyseisessä IP-osoitteessa, tässä 192.168.1.37, suoraan selaimesi osoiteriviltä. Oletuskäyttäjänimi on "root" ja oletussalasanaa ei ole.
+- Hetken kuluttua Antminerisi käynnistyy uudelleen ja pääset käsiksi Braiins OS+:n käyttöliittymään kyseisessä IP-osoitteessa, tässä 192.168.1.37, suoraan selaimesi osoiteriviltä. Oletuskäyttäjänimi on "root" ja oletussalasanaa ei ole.
    Braiins OS+:n asentaminen SD-kortille
 
-![kuva](assets/software/9.webp)
+![kuva](assets/fr/026.webp)
 
-![kuva](assets/software/10.webp)
+![kuva](assets/fr/027.webp)
 
 Toinen menetelmä käyttää Antminerisi alkuperäistä käyttöliittymää. Tämä menetelmä toimii koneilla, joiden käyttöjärjestelmä on vuodelta 2019 tai sitä vanhempi.
 
 ### Antminerin Käyttöliittymä
 
-1. Lataa asennettava uusi käyttöjärjestelmä täältä.
-2. Kuten edellisessä osiossa, yhdistä koneeseesi paikallisverkon kautta.
-3. Siirry Järjestelmä-välilehteen ja sitten Päivitykseen.
-4. Lataa ladattu tiedosto ja flashaa kuva.
+- Lataa asennettava uusi käyttöjärjestelmä täältä.
+- Kuten edellisessä osiossa, yhdistä koneeseesi paikallisverkon kautta.
+- Siirry Järjestelmä-välilehteen ja sitten Päivitykseen.
+- Lataa ladattu tiedosto ja flashaa kuva.
 
-![kuva](assets/software/11.webp)
+![kuva](assets/fr/028.webp)
 
 ### Micro SD -kortti
 
 Toinen menetelmä mahdollistaa micro SD -kortin käytön. Tämä menetelmä toimii vain koneilla, joiden käyttöjärjestelmä on vuodelta 2019 tai sen jälkeen.
 
-1. Lataa asennettava uusi käyttöjärjestelmä täältä.
+- Lataa asennettava uusi käyttöjärjestelmä täältä.
 
-2. Flashaa ladattu kuva micro SD -kortille. Tähän voit käyttää Etcher-ohjelmaa. Pelkkä tiedoston kopioiminen micro SD -kortille ei toimi.
-3. Jos omistat Antminer S9:n tai sen muunnelmat (S9i, S9j), sinun täytyy säätää hyppylankoja pakottaaksesi ASIC:si käynnistymään tiedostosta mikro SD-kortilla NAND:n sijaan. Jos sinulla on eri malli, voit siirtyä osaan 4. Hyppylangat sijaitsevat ohjauslevyllä ASIC:n yläosassa, lähellä Ethernet-porttia. Sinun täytyy poistaa se liu'uttamalla sitä taaksepäin. Kun hyppylangan asento on muutettu kuvien alla näytetyllä tavalla BOOT FROM SD, voit asettaa ohjauslevyn takaisin paikalleen ja kytkeä S9:n uudelleen.
-![kuva](assets/software/12.webp)
+- Flashaa ladattu kuva micro SD -kortille. Tähän voit käyttää Etcher-ohjelmaa. Pelkkä tiedoston kopioiminen micro SD -kortille ei toimi.
+- Jos omistat Antminer S9:n tai sen muunnelmat (S9i, S9j), sinun täytyy säätää hyppylankoja pakottaaksesi ASIC:si käynnistymään tiedostosta mikro SD-kortilla NAND:n sijaan. Jos sinulla on eri malli, voit siirtyä osaan 4. Hyppylangat sijaitsevat ohjauslevyllä ASIC:n yläosassa, lähellä Ethernet-porttia. Sinun täytyy poistaa se liu'uttamalla sitä taaksepäin. Kun hyppylangan asento on muutettu kuvien alla näytetyllä tavalla BOOT FROM SD, voit asettaa ohjauslevyn takaisin paikalleen ja kytkeä S9:n uudelleen.
+![kuva](assets/fr/029.webp)
 
-![kuva](assets/software/13.webp)
+![kuva](assets/fr/030.webp)
 
-4. Aseta mikro SD-kortti ASIC:iin.
-5. Käynnistä ASIC. Jos automaattisen asennuksen versio oli käytössä, uusi käyttöjärjestelmä asennetaan automaattisesti. Asennus on valmis, kun molemmat LEDit syttyvät samanaikaisesti. Voit käynnistää ASIC:n uudelleen ja poistaa mikro SD-kortin. Jos latasit toisen version, sinun täytyy jättää mikro SD-kortti ASIC:iin.
+- Aseta mikro SD-kortti ASIC:iin.
+- Käynnistä ASIC. Jos automaattisen asennuksen versio oli käytössä, uusi käyttöjärjestelmä asennetaan automaattisesti. Asennus on valmis, kun molemmat LEDit syttyvät samanaikaisesti. Voit käynnistää ASIC:n uudelleen ja poistaa mikro SD-kortin. Jos latasit toisen version, sinun täytyy jättää mikro SD-kortti ASIC:iin.
 
 Lisätietoja asennuksesta löydät Braiins-verkkosivuston tästä osiosta.
 
@@ -377,7 +376,7 @@ Tämän jälkeen sinut toivottaa tervetulleeksi Brains OS+ -hallintapaneeli.
 
 ### Hallintapaneeli
 
-![kuva](assets/software/14.webp)
+![kuva](assets/fr/031.webp)
 
 Tällä ensimmäisellä sivulla voit tarkkailla koneesi reaaliaikaista suorituskykyä.
 
@@ -385,7 +384,7 @@ Tällä ensimmäisellä sivulla voit tarkkailla koneesi reaaliaikaista suoritusk
 - Oikealla todellinen hashrate, piirien keskimääräinen lämpötila, arvioitu tehokkuus W/THs:ssa ja virrankulutus.
 - Alla tuulettimen nopeus prosentteina maksiminopeudesta ja kierrosten määrä minuutissa.
 
-![kuva](assets/software/15.webp)
+![kuva](assets/fr/032.webp)
 
 - Alempana löydät yksityiskohtaisen näkymän kustakin hashboardista. Lautan keskimääräinen lämpötila ja sen sisältämät piirit, jännite ja taajuus.
 - Tiedot aktiivisista louhintapoolista Pools-osiossa.
@@ -394,17 +393,17 @@ Tällä ensimmäisellä sivulla voit tarkkailla koneesi reaaliaikaista suoritusk
 
 ### Konfiguraatio
 
-![kuva](assets/software/16.webp)
+![kuva](assets/fr/033.webp)
 
 ### Järjestelmä
 
-![kuva](assets/software/17.webp)
+![kuva](assets/fr/034.webp)
 
 ### Pikatoiminnot
 
-![kuva](assets/software/18.webp)
+![kuva](assets/fr/035.webp)
 
-Louhintapoolin konfigurointi
+## Poolin määritys
 Voit ajatella louhintapoolia maatalousosuuskuntana. Maanviljelijät kokoavat tuotantonsa yhteen vähentääkseen tarjonnan ja kysynnän vaihtelua ja siten saadakseen vakautta toimintaansa. Louhintapool toimii samalla tavalla, ja yhteen koottava raaka-aine on hasheja. Itse asiassa yhden kelvollisen hashin löytäminen mahdollistaa lohkon luomisen ja siten kolikkoalustan tai palkkion voittamisen, joka on tällä hetkellä 3,125 BTC:n lisäksi lohkoon sisältyvät transaktiomaksut. Jos louhit yksin, saat palkkion vain löytäessäsi lohkon. Kilpaillessasi kaikkia muita louhijoita vastaan maapallolla, sinulla olisi hyvin vähän mahdollisuuksia voittaa tämä suuri arpajainen, ja sinun täytyisi silti maksaa louhintalaitteesi käyttöön liittyvät maksut ilman menestyksen takeita. Louhintapoolit ratkaisevat tämän ongelman yhdistämällä useiden (tuhansien) louhijoiden laskentatehon ja jakamalla palkinnot osallistumisprosentin mukaan poolin hashrateen, kun lohko löydetään. Voit visualisoida mahdollisuutesi louhia lohko yksin käyttämällä tätä työkalua. Syöttämällä Antminer S9:n tiedot näemme, että mahdollisuudet löytää hash, joka mahdollistaa lohkon luomisen, ovat 1 24 777 849:stä jokaista lohkoa kohden tai 1 172 068:ssa päivässä. Keskimäärin (jatkuvalla hashratella ja vaikeustasolla) kestäisi 471 vuotta löytää lohko.
 Kuitenkin, koska kaikki Bitcoinissa perustuu todennäköisyyteen, joskus käy niin, että yksin louhivat louhijat palkitaan tämän riskin ottamisesta: Solo Bitcoin Miner Solves Block With Hash Rate of Just 10 TH/s, Beating Extremely Unlikely Odds – Decrypt
 
@@ -417,17 +416,17 @@ Meitä kiinnostava palkkiomalli on PPS, joka tarkoittaa "pay-per-share". Tämä 
 - Linecoin: Linecoinin etuna on tarjottavien ominaisuuksien määrä, kuten yksityiskohtainen hallintapaneeli, mahdollisuus tehdä nostoja Paynymilla (BIP 47) paremman yksityisyydensuojan saavuttamiseksi, sekä Telegram-botin integrointi että suoraan mobiilisovelluksessa konfiguroitavat automaatiot. Tämä allas louhii vain Bitcoin-lohkoja, mutta nostojen minimimäärä pysyy korkeana, 100 000 satoshissa. Tarkastelemme yhden näistä altaista käyttöliittymää tarkemmin tulevassa artikkelissa.
 Braiins 0S+:ssa altaan konfiguroimiseksi sinun on luotava tili valitsemassasi altaassa. Tässä otamme esimerkiksi Linecoinin:
 
-![kuva](assets/software/19.webp)
+![kuva](assets/fr/036.webp)
 
 Kun tilisi on luotu, klikkaa Yhdistä altaaseen
 
 Kopioi sitten Stratum-osoite sekä käyttäjänimesi:
 
-![kuva](assets/software/20.webp)
+![kuva](assets/fr/037.webp)
 
 Voit nyt palata Braiins OS+ -käyttöliittymään syöttääksesi nämä tunnistetiedot. Salasanakentän voit jättää tyhjäksi.
 
-![kuva](assets/software/21.webp)
+![kuva](assets/fr/038.webp)
 
 ### Ylikellotus ja Alakellotus
 
@@ -448,3 +447,5 @@ Tämä asettaa ylärajan sille, kuinka suuren hashraten kone voi saavuttaa. Auto
 Lopputuloksena on korkeampi hashrate wattia kohden, mikä tarkoittaa suurempia voittomarginaaleja louhijoille. Syy siihen, miksi koneita ei jaeta tämän tyyppisen ohjelmiston kanssa, on se, että koneiden vaihtelu on epätoivottavaa, koska asiakkaat haluavat tietää tarkalleen, mitä he saavat, ja siksi on huono idea valmistajille myydä tuotetta, joka ei tarjoa johdonmukaista ja ennustettavaa suorituskykyä koneesta toiseen. Lisäksi, piiritason autotuning vaatii huomattavia kehitysresursseja, koska sen toteuttaminen on monimutkaista. Valmistajat käyttävät jo paljon resursseja kehittäessään omia firmwarejaan. On olemassa ohjelmistoratkaisuja, jotka mahdollistavat autotuningin, kuten Braiins OS+. Lisäksi ASIC:n suorituskykyä voidaan parantaa jopa 20%.
 
 > Opas luotu DecouvreBitcoinin toimesta, lisätietoja MINAGE 201 - luotto Jim ja Ajelex'
+
+

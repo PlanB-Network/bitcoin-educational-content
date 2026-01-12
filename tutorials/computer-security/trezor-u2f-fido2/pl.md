@@ -1,5 +1,5 @@
 ---
-name: Trezor U2F i FIDO2
+name: "Trezor U2F & FIDO2"
 description: Wzmocnij swoje bezpieczeństwo online dzięki Trezor
 ---
 ![cover](assets/cover.webp)
@@ -22,7 +22,7 @@ Oprócz U2F, który umożliwia uwierzytelnianie dwuskładnikowe, Trezory obsług
 
 
 
-Oprócz funkcji "bez hasła*", FIDO2 umożliwia również uwierzytelnianie dwuskładnikowe w podobny sposób jak U2F.
+Oprócz funkcji "bez hasła", FIDO2 umożliwia również uwierzytelnianie dwuskładnikowe w podobny sposób jak U2F.
 
 
 
@@ -290,7 +290,7 @@ Relying party ID:       vault.bitwarden.com
 Relying party name:     Bitwarden
 User ID:                6e315ebabc8b6945a253b1c50116538d
 User name:              tutoplanbnetwork@proton.me
-User display name:      PBN
+User display name:      Plan ₿ Academy
 Creation time:          2
 hmac-secret enabled:    True
 Use signature counter:  True
@@ -323,7 +323,7 @@ trezorctl fido credentials add <CREDENTIAL_ID>
 
 
 
-Wystarczy zastąpić `<CREDENTIAL_ID>` jednym z identyfikatorów. Na przykład w moim przypadku dałoby to :
+Wystarczy zastąpić `<CREDENTIAL_ID>` jednym z identyfikatorów. Na przykład w moim przypadku dałoby to:
 
 
 
@@ -353,4 +353,4 @@ Polecam również ten samouczek, w którym przyglądamy się innemu rozwiązaniu
 
 
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

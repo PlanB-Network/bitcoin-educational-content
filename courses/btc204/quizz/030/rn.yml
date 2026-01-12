@@ -1,0 +1,9 @@
+question: Ni iyihe ntumbero y’ubuhinga bwo gukorana n’abantu imbere mu gihugu?
+answer: Kugira ngo umenye Exchange.
+wrong_answers:
+  - Kugira ngo umenye amafaranga y’ubuhendanyi mu gihe nyaco.
+  - Kugira ngo umenye ingene amafaranga akoreshwa.
+  - Kugira ngo umenye ikirundo c’ikigo kimwe.
+explanation: |
+  Ivyo bimenyetso vy’imbere bituma tumenya Exchange n’intumbero yo kwihweza uwuyikoresha mu bikorwa bikurikira.
+reviewed: false

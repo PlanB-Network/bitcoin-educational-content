@@ -1,14 +1,9 @@
-question: Tại sao bạn nên mua bitcoin không qua KYC?
-answer: Để đảm bảo sự riêng tư của bạn.
+question: BitcoinTalk là gì?
+answer: Một nơi thảo luận dành cho người dùng Bitcoin.
 wrong_answers:
-  - Để đảm bảo việc đăng ký của tất cả người dùng Bitcoin.
-  - Để mua với giá thấp.
-  - Để bán với giá thấp.
+  - Một phần mềm đào Bitcoin.
+  - Một ví Bitcoin.
+  - Một hội nghị về Bitcoin.
 explanation: |
-  Mua bitcoin không qua KYC có nghĩa là bạn đang mua bitcoin mà không cần
-  trải qua các thủ tục xác minh Biết Khách Hàng (Know Your Customer)
-  tiêu chuẩn mà nhiều sàn giao dịch và nền tảng yêu cầu. Một lý do chính
-  mà cá nhân có thể chọn con đường này là để duy trì sự riêng tư của họ,
-  đảm bảo rằng các chi tiết cá nhân và hoạt động tài chính của họ
-  không được tiết lộ.
+  Diễn đàn BitcoinTalk là một nơi thảo luận dành cho người dùng Bitcoin. Nó được tạo ra bởi Satoshi Nakamoto vào ngày 22 tháng 11, 2009.
 reviewed: true

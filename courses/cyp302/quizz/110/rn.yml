@@ -1,0 +1,9 @@
+question: Ni igiki gituma RC4 ishobora gushikirwa n’ingorane uno musi naho kera yari izwi cane?
+answer: Intege nke zanditswe neza mu guhingura uruzi rw'ingenzi
+wrong_answers:
+  - Urufunguzo rugufi cane kugira ngo umuntu agire umutekano
+  - Kudashobora gukorana n'ivyanditswe birebire
+  - Ibisabwa gukoresha urufunguzo rwa bose rwongerako urufunguzo rw'ibanga
+explanation: |
+  RC4 ifise intege nke zikomeye mu guhingura uruzi rw’urufunguzo, ivyo bikaba bituma ubuhinga bwo gukingira amakuru bushobora guterwa, ni co gituma buhoro buhoro buheba mu masezerano y’umutekano yo muri iki gihe.
+reviewed: false

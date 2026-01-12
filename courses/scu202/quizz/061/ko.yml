@@ -1,0 +1,9 @@
+question: 광고 및 트래커 차단, 지문 인식 보호 기능을 제공하며 Chromium을 기반으로 하는 브라우저는 무엇인가요?
+answer: Brave
+wrong_answers:
+  - Firefox
+  - Tor
+  - Chrome
+explanation: |
+  Brave는 기본적으로 광고 차단, 트래커, 고급 지문 인식 보호 기능을 제공하며, 모두 Chromium을 기반으로 합니다.
+reviewed: false

@@ -1,12 +1,8 @@
-question: Je, itifaki ya Bitcoin inamzawadia vipi Miner ambaye anapata Hash halali kwa kizuizi kinachofuata?
-answer: Kwa zawadi iliyofafanuliwa na sheria za makubaliano, na pamoja na ada kutoka kwa shughuli zote zilizojumuishwa kwenye kizuizi halali.
+question: Ni sifa gani ya kipekee ya itifaki ya Bitcoin?
+answer: Inafanya kazi kwa kiwango cha kimataifa, masaa 24 kwa siku, siku 7 kwa wiki.
 wrong_answers:
-  - Kwa kiasi fulani cha bitcoins ambacho hakijafafanuliwa na sheria za makubaliano.
-  - Kwa asilimia ya jumla ya Bitcoin Supply na ada kutoka kwa miamala yote iliyojumuishwa kwenye vizuizi vilivyotangulia.
-  - Pamoja na ada kutoka kwa shughuli zote zilizojumuishwa kwenye kizuizi halali.
-explanation: |
-  Itifaki ya Bitcoin humtuza Miner ambaye atapata halali
-  Hash kwa block inayofuata yenye zawadi ambayo kiasi chake ni
-  inavyofafanuliwa na sheria za makubaliano, pamoja na ada kutoka
-  shughuli zote zilizojumuishwa kwenye kizuizi halali.
+  - Inafanya kazi wakati wa saa za kazi pekee.
+  - Inadhibitiwa na mamlaka kuu.
+  - Inaweza kudukuliwa kwa urahisi.
+explanation: >-
 reviewed: true

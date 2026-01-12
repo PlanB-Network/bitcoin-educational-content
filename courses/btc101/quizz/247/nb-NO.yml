@@ -1,9 +1,9 @@
-question: Hva er et av de viktigste spørsmålene som reises om fremtiden for finans?
-answer: Hvem bør holde, autorisere og spore pengene vi bruker?
+question: Hva er en av de viktigste måtene å skaffe Bitcoins på?
+answer: Ved å akseptere dem for handel eller ved å kjøpe dem gjennom regulerte eller uregulerte plattformer.
 wrong_answers:
-  - Hvordan kan vi eliminere penger helt?
-  - Hvordan kan vi sørge for at alle har samme mengde penger?
-  - Hvordan kan vi gjøre penger overflødige?
+  - Ved å utvinne dem ved hjelp av en datamaskin.
+  - Ved å finne dem i den fysiske verden.
+  - Ved å skape dem ved hjelp av en spesiell programvare.
 explanation: >-
-  Teksten reiser flere spørsmål om fremtiden for finans, ett av
-  dem er hvem som bør holde, autorisere og spore pengene vi bruker.
+  Teksten nevner at brukere kan skaffe Bitcoins ved å akseptere dem for
+  deres handel eller ved å kjøpe dem gjennom regulerte eller uregulerte plattformer.

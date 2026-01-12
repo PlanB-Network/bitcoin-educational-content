@@ -1,0 +1,9 @@
+question: Bitcoin이 Address을 수신하는 것은 무엇인가요?
+answer: 비트코인을 수신하는 데 사용되는 문자열입니다.
+wrong_answers:
+  - 비트코인을 전송하는 데 사용되는 코드입니다.
+  - Mining 비트코인을 위한 알고리즘입니다.
+  - Smart contract.
+explanation: |
+  수신 Address는 비트코인을 Wallet로 수신하는 데 사용됩니다.
+reviewed: true

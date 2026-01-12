@@ -3,7 +3,7 @@ name: My Node
 description: Cài đặt MyNode bitcoin của bạn
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 https://mynodebtc.com/
 

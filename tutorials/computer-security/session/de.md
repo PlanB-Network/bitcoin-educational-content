@@ -1,5 +1,5 @@
 ---
-name: Sitzung
+name: Session
 description: Senden Sie verschlüsselte Nachrichten, keine Metadaten
 ---
 ![cover](assets/cover.webp)
@@ -60,7 +60,7 @@ Session ist auf allen Plattformen verfügbar. Sie können die Anwendung direkt a
 
 
 - [Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger);
-- [App Store] (https://apps.apple.com/us/app/session-private-messenger/id1470168868);
+- [App Store](https://apps.apple.com/us/app/session-private-messenger/id1470168868);
 - [F-Droid](https://fdroid.getsession.org/).
 
 
@@ -99,13 +99,13 @@ Sie müssen dann zwischen zwei Modi der Benachrichtigungsverwaltung wählen:
 
 
 
-- Schneller Modus ("*Firebase Cloud Messaging/Apple Push Notification Service*")**: Ermöglicht es Ihnen, dank der von Google oder Apple (je nach System) bereitgestellten Benachrichtigungsdienste Nachrichtenbenachrichtigungen nahezu in Echtzeit zu erhalten. Damit dies funktioniert, werden Ihre IP Address und eine eindeutige Benachrichtigungs-ID an Google oder Apple übermittelt, und die ID des Sitzungskontos wird ebenfalls bei einem STF-Server (über Tor) registriert. Dieser Modus beinhaltet eine (zugegebenermaßen minimale) Offenlegung von Metadaten, gefährdet aber nicht den Inhalt von Nachrichten oder Kontakten und ermöglicht keine Rückverfolgung Ihrer tatsächlichen Aktivitäten. Dieser Modus ist daher effizienter in Bezug auf die Reaktionsfähigkeit, stützt sich aber auf eine zentralisierte Infrastruktur und ist etwas weniger effektiv in Bezug auf die Vertraulichkeit.
+- Schneller Modus (**Firebase Cloud Messaging/Apple Push Notification Service**): Ermöglicht es Ihnen, dank der von Google oder Apple (je nach System) bereitgestellten Benachrichtigungsdienste Nachrichtenbenachrichtigungen nahezu in Echtzeit zu erhalten. Damit dies funktioniert, werden Ihre IP Address und eine eindeutige Benachrichtigungs-ID an Google oder Apple übermittelt, und die ID des Sitzungskontos wird ebenfalls bei einem STF-Server (über Tor) registriert. Dieser Modus beinhaltet eine (zugegebenermaßen minimale) Offenlegung von Metadaten, gefährdet aber nicht den Inhalt von Nachrichten oder Kontakten und ermöglicht keine Rückverfolgung Ihrer tatsächlichen Aktivitäten. Dieser Modus ist daher effizienter in Bezug auf die Reaktionsfähigkeit, stützt sich aber auf eine zentralisierte Infrastruktur und ist etwas weniger effektiv in Bezug auf die Vertraulichkeit.
 
 
 
 
 
-- Langsamer Modus (*Hintergrundabfrage*)**: Die Sitzungsanwendung bleibt im Hintergrund aktiv und fragt regelmäßig das Netz nach neuen Nachrichten ab. Dieser Ansatz garantiert eine größere Vertraulichkeit als der erste, da keine Daten an Server von Drittanbietern übertragen werden; weder Google, Apple noch die STF-Server erhalten irgendwelche Informationen. Andererseits hat dieser Modus zwei Nachteile: Benachrichtigungen können sich verzögern (bis zu mehreren Minuten), und der Energieverbrauch ist im Allgemeinen aufgrund der Anwendungsaktivität im Hintergrund höher.
+- Langsamer Modus (**Hintergrundabfrage**): Die Sitzungsanwendung bleibt im Hintergrund aktiv und fragt regelmäßig das Netz nach neuen Nachrichten ab. Dieser Ansatz garantiert eine größere Vertraulichkeit als der erste, da keine Daten an Server von Drittanbietern übertragen werden; weder Google, Apple noch die STF-Server erhalten irgendwelche Informationen. Andererseits hat dieser Modus zwei Nachteile: Benachrichtigungen können sich verzögern (bis zu mehreren Minuten), und der Energieverbrauch ist im Allgemeinen aufgrund der Anwendungsaktivität im Hintergrund höher.
 
 
 
@@ -145,7 +145,7 @@ Dieser Satz funktioniert auf ähnliche Weise wie die Mnemonic-Sätze in Bitcoin-
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 **Bitte beachten**: Im Gegensatz zu den Mnemonic-Sätzen, die in den Bitcoin-Portfolios verwendet werden, müssen Sie bei Session **jedes Wort unbedingt in seiner Gesamtheit speichern**. Die ersten 4 Buchstaben sind nicht ausreichend!
 
@@ -259,7 +259,7 @@ Sobald die Person Ihre Anfrage akzeptiert, wird ihr Benutzername angezeigt, und 
 
 
 
-Um Ihr Konto auf Ihrem Computer zu synchronisieren, müssen Sie die Software installieren. [Laden Sie sie von der offiziellen Website herunter] (https://getsession.org/download). Ich empfehle Ihnen, vor der Installation die Authentizität und Integrität der Software zu überprüfen.
+Um Ihr Konto auf Ihrem Computer zu synchronisieren, müssen Sie die Software installieren. [Laden Sie sie von der offiziellen Website herunter](https://getsession.org/download). Ich empfehle Ihnen, vor der Installation die Authentizität und Integrität der Software zu überprüfen.
 
 
 
@@ -299,4 +299,4 @@ Ich empfehle auch dieses andere Tutorial, in dem ich Threema vorstelle, eine wei
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

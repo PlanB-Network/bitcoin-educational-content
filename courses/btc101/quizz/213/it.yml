@@ -1,9 +1,11 @@
-question: Secondo questo corso, qual è l'obiettivo principale della rivoluzione indotta da Bitcoin?
-answer: Creare un mondo in cui la sovranità individuale è un diritto, la privacy è rispettata di default e il denaro non è manipolato.
+question: Cosa suggerisce questo corso riguardo alla curva di apprendimento studiando Bitcoin?
+answer: È complicato assimilare tutto in una volta, quindi prendersi il tempo necessario.
 wrong_answers:
-  - Creare un mondo in cui la privacy non è un diritto umano e il denaro è manipolato dalle banche.
-  - Creare un mondo in cui i governi non hanno potere e la società è caotica.
-  - Creare un mondo in cui il denaro fisico è obsoleto.
+  - È facile imparare tutto in una volta.
+  - È impossibile imparare tutto su Bitcoin.
+  - Non è necessario imparare tutto su Bitcoin.
 explanation: |
-  Il testo di questo corso suggerisce che l'obiettivo principale della rivoluzione indotta da Bitcoin è creare un mondo in cui la sovranità individuale è un diritto, la privacy è rispettata di default e il denaro non è manipolato.
-reviewed: true
+  Il corso suggerisce che c'è così tanto da esplorare con
+  Bitcoin che è complicato assimilare tutto in
+  una volta, quindi si dovrebbe riservare il tempo necessario.
+reviewed: vero

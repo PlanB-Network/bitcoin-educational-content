@@ -1,0 +1,9 @@
+question: ซอฟต์แวร์ Bitcoin ดั้งเดิมรวมอะไรไว้ในปี 2009?
+answer: Wallet, โบว์, และไมเนอร์
+wrong_answers:
+  - โหนด, นักขุด, และตัวสำรวจบล็อก
+  - Wallet, chopper, and miner
+  - Miner และ mining pool
+explanation: |
+  ซอฟต์แวร์ Bitcoin ดั้งเดิมรวมฟังก์ชัน wallet, node และ miner เข้าด้วยกันในโปรแกรมเดียว
+reviewed: true

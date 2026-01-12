@@ -1,12 +1,13 @@
-question: Mikä on suurin määrä Bitcoin-yksiköitä, jotka voivat koskaan olemassa?
-answer: 21 miljoonaa.
+question: Mikä on yksi Bitcoinin keskeisistä ominaisuuksista, joka erottaa sen fiat-valuutoista?
+answer: Sen rahapolitiikka perustuu yleiseen konsensukseen.
 wrong_answers:
-  - 3 biljoonaa.
-  - 100 miljoonaa.
-  - Ei ole rajaa.
+  - Sitä voidaan painaa rajattomasti keskuspankkien toimesta.
+  - Se on tuettu fyysisellä hyödykkeellä kuten kulta tai hopea.
+  - Sitä säätelee keskuspankki.
 explanation: |
-  Bitcoinin kokonaistarjonta on rajattu 21 miljoonaan yksikköön.
-  Tämä on keskeinen Bitcoinin ominaisuus, joka erottaa sen
-  fiat-valuutoista, joita keskuspankit voivat painaa
-  rajattomasti.
+  Bitcoinin hajautetun ja kryptografisen luonteen vuoksi
+  sitä ei voi väärentää ja se on rajoitettu 21 miljoonaan
+  yksikköön. Tämä on keskeinen ominaisuus, joka erottaa sen
+  fiat-valuutoista, joiden rahapolitiikkaa voidaan
+  muuttaa keskuspankkien toimesta.
 reviewed: true

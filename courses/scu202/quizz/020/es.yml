@@ -6,4 +6,4 @@ wrong_answers:
   - KDE Plasma
 explanation: |
   LXQt, al igual que Xfce, consume pocos recursos y está diseñado para funcionar eficazmente en hardware de bajo rendimiento.
-reviewed: false
+reviewed: true

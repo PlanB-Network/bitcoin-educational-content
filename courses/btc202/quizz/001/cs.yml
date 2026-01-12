@@ -1,0 +1,9 @@
+question: Jak nazýváme množinu počítačů s implementací Bitcoin, které jsou vzájemně propojeny?
+answer: Síť Bitcoin
+wrong_answers:
+  - Protokol Bitcoin
+  - Měna Bitcoin
+  - Blockchain Bitcoin
+explanation: |
+  Síť Bitcoin se skládá ze všech připojených uzlů, z nichž každý používá jinou implementaci protokolu.
+reviewed: true

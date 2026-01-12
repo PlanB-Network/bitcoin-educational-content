@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: Hướng dẫn thiết lập RaspiBlitz của bạn
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 RaspiBlitz là một dự án tự làm Node Lightning (LND và/hoặc Core Lightning) chạy cùng với một Bitcoin-Fullnode trên RaspberryPi (ổ cứng SSD 1TB) và một màn hình đẹp để thiết lập & giám sát dễ dàng.
 
@@ -12,17 +12,17 @@ RaspiBlitz chủ yếu nhắm đến việc học cách tự chạy node của r
 ![video](https://youtu.be/DTHlSPMz3ns)
 RASPIBLITZ - Cách Chạy Một Node Lightning và Bitcoin Full Node bởi BTC session
 
-# Hướng dẫn Thiết lập Raspiblitz của Parman
+## Hướng dẫn Thiết lập Raspiblitz của Parman
 
-Raspiblitz là một hệ thống tuyệt vời để chạy một Bitcoin Node và các ứng dụng liên quan. Tôi khuyên dùng nó và node My Node cho hầu hết người dùng (Lý tưởng là có hai node để dự phòng.) Một lợi thế lớn là node Raspiblitz là "Phần mềm Tự do Mã nguồn Mở", không giống như MyNode hoặc Umbrel. Tại sao điều này lại quan trọng? Vlad Costa giải thích. Bạn cũng có thể chạy RaspbiBlitz với kết nối WiFi thay vì ethernet – đây là một hướng dẫn bổ sung cho việc đó. (Tôi chưa tìm ra cách làm điều này với MyNode).
+Raspiblitz là một hệ thống tuyệt vời để chạy một Nút Bitcoin và các ứng dụng liên quan. Tôi khuyên dùng hệ thống này và nút MyNode cho hầu hết người dùng (lý tưởng là nên có hai nút để dự phòng). Một lợi thế lớn là nút Raspiblitz là “Free Open Source Software”, không giống như MyNode hay Umbrel. [Tại sao điều đó quan trọng? Vlad Costa giải thích.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Bạn cũng có thể chạy Raspiblitz bằng kết nối WiFi thay vì ethernet – đây là [hướng dẫn bổ sung](https://armantheparman.com/headless-wifi/) cho việc đó. (Tôi chưa tìm ra cách làm điều này với MyNode).
 
 Bạn có thể mua một node đã được làm sẵn với một màn hình mini gắn kèm, hoặc bạn có thể tự xây dựng nó (bạn không cần màn hình).
 
-Hướng dẫn trên trang github rất tốt, nhưng có thể quá chi tiết đối với người dùng có kinh nghiệm vừa phải. Hướng dẫn của tôi sẽ ngắn gọn và hy vọng dễ theo dõi hơn.
+[Hướng dẫn trên trang GitHub](https://github.com/rootzoll/raspiblitz) rất tuyệt vời, nhưng có thể quá chi tiết đối với người dùng có kinh nghiệm vừa phải. Hướng dẫn của tôi sẽ ngắn gọn hơn và hy vọng sẽ dễ dàng hơn để làm theo.
 
-Cơ bản, quy trình rất giống với quy trình thiết lập một node MyNode với Raspberry Pi 4. Hướng dẫn Raspiblitz gợi ý bạn mua một màn hình, nhưng thực sự bạn không cần, và tôi không khuyến khích. Bạn thậm chí không cần bàn phím hoặc chuột phụ. Chỉ cần truy cập menu terminal của thiết bị qua một máy tính trên cùng mạng nhà, và sử dụng lệnh ssh qua terminal. Điều này khả thi với Linux/Mac (dễ dàng) và hơi khó hơn với Windows.
+Về cơ bản, quá trình này rất giống với việc thiết lập một [nút MyNode](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) với Raspberry Pi 4. Hướng dẫn của Raspiblitz gợi ý bạn mua một màn hình, nhưng thực sự bạn không cần một cái, và tôi cũng không khuyên dùng. Bạn thậm chí không cần bàn phím hoặc chuột bổ sung. Chỉ cần truy cập menu terminal của thiết bị thông qua một máy tính trong cùng mạng gia đình và sử dụng lệnh ssh trong terminal. Điều này có thể thực hiện được với Linux/Mac (dễ dàng) và khó hơn một chút với Windows.
 
-## Bước 1: Mua thiết bị.
+### Bước 1: Mua thiết bị.
 
 Bạn cần chính xác cùng một thiết bị mà bạn cần để chạy một node MyNode. Bạn có thể thử một trong hai, sự khác biệt duy nhất là dữ liệu trên thẻ micro SD.
 
@@ -48,21 +48,22 @@ Loại này nhanh hơn, nhưng không cần thiết và đắt:
 
 ![image](assets/3.webp)
 
-## Bước 2: Tải xuống Hình ảnh Raspiblitz
-Truy cập trang web github của Raspiblitz và tìm liên kết "download image":
+### Bước 2: Tải xuống Hình ảnh Raspiblitz
+Đi tới [trang web GitHub của Raspiblitz](https://github.com/rootzoll/raspiblitz), và tìm liên kết “download image”:
 ![image](assets/4.webp)
 
-Mã hash sha-256 của tệp đã tải xuống được cung cấp trên trang web. Mã này sẽ thay đổi với mỗi bản cập nhật. Nếu bạn không hiểu điều này là gì, bạn nên tìm hiểu, vì vậy tôi đã viết một hướng dẫn bạn có thể đọc tại đây.
+Hash sha-256 của tệp đã tải xuống được cung cấp trên trang web. Nó sẽ thay đổi với mỗi bản cập nhật. Nếu bạn không hiểu đây là gì, bạn nên hiểu, vì vậy tôi đã viết một [hướng dẫn mà bạn có thể đọc tại đây.](https://armantheparman.com/gpg/)
 
 ![image](assets/5.webp)
 
-## Bước 3: Xác minh Hình Ảnh
+### Bước 3: Xác minh Hình Ảnh
 
 Trước khi tiếp tục, nếu bạn không biết cách sử dụng hệ thống tệp trên dòng lệnh, việc học cách sử dụng nó rất dễ dàng, và bạn nên làm.
 
-Dưới đây là một video hữu ích cho Linux, nhưng cũng áp dụng cho Mac.
+Đây là [một video hữu ích cho Linux, nhưng cũng áp dụng cho Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK).
 
-Đối với Windows, đây là một hướng dẫn đơn giản.
+Đối với Windows, đây là một [hướng dẫn đơn giản](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
+_CẬP NHẬT: Xác minh pgp/gpg hiện đã khả dụng. Bạn sẽ cần khóa công khai của Openoms. [Đây](http://parman.org/downloadable/openoms.txt) là nó (bạn có thể cần chế độ ẩn danh để liên kết hoạt động – http, không phải https)_
 Mac/Linux
 
 Chờ tệp tải xuống hoàn tất (quimportant!), sau đó mở terminal, điều hướng đến nơi bạn đã tải tệp xuống, và gõ lệnh sau...
@@ -86,9 +87,9 @@ trong đó xxxxxxxxxxxxxx là tên của tệp bạn vừa tải xuống. Nếu 
 
 Máy tính sẽ xử lý trong khoảng 20 giây hoặc hơn. Kiểm tra xem mã hashfile đầu ra có trùng khớp với mã được tải xuống từ trang web ở bước trước không. Nếu giống hệt, bạn có thể tiếp tục.
 
-## Bước 4: Ghi vào thẻ SD
+### Bước 4: Ghi vào thẻ SD
 
-Bạn có thể sử dụng Balena Etcher để thực hiện việc này. Tải về tại đây.
+Bạn có thể sử dụng Balena Etcher để làm điều này. [Tải xuống tại đây](https://www.balena.io/etcher/).
 
 Etcher rất dễ sử dụng. Chèn thẻ micro SD của bạn và ghi phần mềm Raspiblitz (.img file) vào thẻ SD.
 
@@ -102,7 +103,7 @@ Etcher rất dễ sử dụng. Chèn thẻ micro SD của bạn và ghi phần m
 
 Khi hoàn tất, ổ đĩa sẽ không còn đọc được. Bạn có thể nhận được một thông báo lỗi từ hệ điều hành, và ổ đĩa sẽ biến mất khỏi màn hình desktop. Rút thẻ ra.
 
-## Bước 5: Thiết lập Pi và chèn thẻ SD
+### Bước 5: Thiết lập Pi và chèn thẻ SD
 
 Các bộ phận (vỏ không được hiển thị):
 
@@ -122,7 +123,7 @@ Cuối cùng, kết nối nguồn:
 
 ![image](assets/14.webp)
 
-## Bước 6: Tìm địa chỉ IP của Pi
+### Bước 6: Tìm địa chỉ IP của Pi
 
 Bạn không cần một màn hình với Raspiblitz. Tuy nhiên, bạn cần một máy tính khác trên mạng nhà. Nếu Pi của bạn không được kết nối qua ethernet, và bạn muốn dùng WiFi, việc tìm địa chỉ IP đòi hỏi một số kỹ năng máy tính. Xin lỗi, tôi không thể giúp bạn. Bạn cần một kết nối ethernet. (Vấn đề xuất phát từ việc cần truy cập vào màn hình và hệ điều hành để kết nối WiFi và nhập mật khẩu.)
 
@@ -132,7 +133,7 @@ Việc tìm kiếm địa chỉ IP là rất quan trọng.
 
 > CẬP NHẬT: bạn có thể sử dụng terminal trên máy Mac hoặc Linux để tìm địa chỉ IP của tất cả các thiết bị kết nối Ethernet trên mạng gia đình bằng lệnh “arp -a”. Kết quả không đẹp mắt như những gì router hiển thị, nhưng tất cả thông tin bạn cần đều ở đó. Nếu không rõ đâu là Pi, hãy thử và sai.
 
-## Bước 7: SSH vào Pi
+### Bước 7: SSH vào Pi
 
 Nhớ đặt thẻ SD vào Pi trước khi bật nó lên. Đợi vài phút, sau đó trên một máy Linux/Mac khác, mở terminal.
 
@@ -142,7 +143,7 @@ Nhớ đặt thẻ SD vào Pi trước khi bật nó lên. Đợi vài phút, sa
 ssh admin@Địa_chỉ_IP_của_Pi_của_bạn
 ```
 
-Đối với Windows, bạn sẽ cần cài đặt putty để ssh vào Pi. Gõ lệnh giống như trên.
+Đối với Windows, bạn cần cài đặt [putty](http://putty.org/) để ssh vào Pi. Gõ cùng lệnh như ở trên.
 
 Lần đầu tiên bạn thực hiện điều này, hoặc bất cứ khi nào bạn thay đổi OS của Pi bằng cách thay đổi thẻ SD, bạn có thể hoặc không nhận được lỗi này…
 

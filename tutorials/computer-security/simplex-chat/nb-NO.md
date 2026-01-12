@@ -63,13 +63,13 @@ SimpleX Chat er tilgjengelig på alle plattformer. Du kan laste ned applikasjone
 
 
 
-- [Google Play] (https://play.google.com/store/apps/details?id=chat.simplex.app);
-- [App Store] (https://apps.apple.com/us/app/simplex-chat-secure-messenger/id1605771084);
-- [F-Droid] (https://simplex.chat/fdroid/).
+- [Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app);
+- [App Store](https://apps.apple.com/us/app/simplex-chat-secure-messenger/id1605771084);
+- [F-Droid](https://simplex.chat/fdroid/).
 
 
 
-På Android er det også mulig å [installere via APK] (https://github.com/simplex-chat/simplex-chat/releases).
+På Android er det også mulig å [installere via APK](https://github.com/simplex-chat/simplex-chat/releases).
 
 
 
@@ -243,7 +243,7 @@ SimpleX genererer deretter en engangskobling. Du kan videresende den til kontakt
 
 
 
-Du kan også velge hvilken profil du vil knytte til denne invitasjonslenken. Dette gjør du ved å klikke på profilen din rett under QR-koden. Du vil da kunne velge :
+Du kan også velge hvilken profil du vil knytte til denne invitasjonslenken. Dette gjør du ved å klikke på profilen din rett under QR-koden. Du vil da kunne velge:
 
 
 
@@ -313,7 +313,7 @@ En av SimpleX' kraftigste funksjoner er muligheten til å administrere flere hel
 
 
 
-Du kan for eksempel opprette :
+Du kan for eksempel opprette:
 
 
 
@@ -397,4 +397,4 @@ Jeg anbefaler også denne andre opplæringen, der jeg presenterer Threema, et an
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

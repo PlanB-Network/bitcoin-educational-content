@@ -1,0 +1,9 @@
+question: Šta se dešava ako blok krši pravila konsenzusa?
+answer: Odmah ga odbacuju čvorovi
+wrong_answers:
+  - Čuva se u Mempool i čeka na validaciju
+  - Prenose ga samo čvorovi koji prihvataju druga pravila
+  - To je potvrđeno samo od strane novčanika
+explanation: |
+  Čvorovi sistematski odbacuju svaki blok koji nije u skladu sa pravilima konsenzusa.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ni ikihe kintu kizwi cane Adamu Smith yagize mu vy’ubutunzi?
+answer: Yarateye imbere inyigisho y’ukuboko kutaboneka.
+wrong_answers:
+  - Yarateye imbere inyigisho y’urutoke ruboneka.
+  - Yarateye imbere inyigisho y’urutoke rutaboneka.
+  - Yarateye imbere inyigisho y’ukuboko kuboneka.
+explanation: |
+  Adamu Smith azwi cane kubera inyigisho yiwe y’ukuboko kutaboneka, ivuga ko ibikorwa vy’umuntu ku giti ciwe bivyurwa n’inyungu z’umuntu ku giti ciwe bifasha ataco bigamije kugira ngo ubutunzi bw’abantu muri rusangi bube bwiza.
+reviewed: true

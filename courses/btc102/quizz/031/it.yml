@@ -1,9 +1,9 @@
 question: Quali sono le sidechain di Bitcoin?
-answer: Liquid e portainnesto
+answer: Liquid e Rootstock
 wrong_answers:
-  - Poligono e Arbitro
-  - Giove e Fantom
+  - Poligon e Arbitrium
+  - Jupiter e Fantom
   - Bitcoin Cash e Bitcoin Satoshi Vision
 explanation: |
-  Liquid e RSK sono sidechain che hanno un peg a 2 vie con il Bitcoin. Le altre opzioni non sono sidechain, oppure non hanno un 2WP con il Bitcoin Blockchain.
-reviewed: false
+  Liquid e RSK sono sidechain che hanno un peg a 2 vie con Bitcoin. Le altre opzioni non sono sidechain, oppure non hanno un 2WP sulla blockchain di Bitcoin.
+reviewed: true

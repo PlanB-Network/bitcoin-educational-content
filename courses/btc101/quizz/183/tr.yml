@@ -1,8 +1,11 @@
-question: Bitcoin'ın fiyatının sadece birkaç gün içinde %10, %20 ve hatta %50 oranında düşmesinin bir nedeni nedir?
-answer: Boğa ve ayı piyasası aşamaları.
+question: AMF nedir?
+answer: Autorité des Marchés Financiers.
 wrong_answers:
-  - İnternet kullanan kişi sayısı.
-  - Hava durumu.
-  - Altın fiyatı.
-explanation: >-
+  - Amerikan Para Fonu.
+  - Mining Tesisleri Birliği.
+  - Otomatik Para Akışı.
+explanation: |
+  AMF veya Autorité des Marchés Financiers, bir Fransız
+  bitcoinlerin satılabileceği platformları düzenleyen kuruluş
+  aldım.
 reviewed: true

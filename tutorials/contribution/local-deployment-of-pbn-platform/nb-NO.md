@@ -1,12 +1,12 @@
 ---
-name: Veiledning for lokal kjøring av Plan ₿ Network-plattformen
-description: Hvordan kan du kjøre Plan ₿ Network i et lokalt miljø for å teste innholdsbidraget mitt eller korrekturlesing/gjennomgang av pedagogisk innhold på Plan ₿ Network?
+name: Veiledning for lokal kjøring av Plan ₿ Academy-plattformen
+description: Hvordan kan du kjøre Plan ₿ Academy i et lokalt miljø for å teste innholdsbidraget mitt eller korrekturlesing/gjennomgang av pedagogisk innhold på Plan ₿ Academy?
 ---
 ![github](assets/cover.webp)
 
 ## Oppsummering
 
-Denne veiledningen gir trinnvise instruksjoner for hvordan du konfigurerer Bitcoin Learning Management System fra Plan ₿ Network på din lokale maskin ved hjelp av Docker, dummy-nøkler og egendefinerte repository-konfigurasjoner.
+Denne veiledningen gir trinnvise instruksjoner for hvordan du konfigurerer Bitcoin Learning Management System fra Plan ₿ Academy på din lokale maskin ved hjelp av Docker, dummy-nøkler og egendefinerte repository-konfigurasjoner.
 
 Hvis du ikke forsto delen ovenfor, ikke bekymre deg - denne veiledningen er for deg!
 
@@ -66,7 +66,7 @@ sørg for å ha installert en passende nodejs-versjon. Per 2024-12 har v22.12.0 
 
 ⚠️ Ubuntu 22.04 repository nodejs versjon er 12.22.9: for gammel til å tillate deg å installere pnpm
 
-For å installere nodejs, finn instruksjoner [her] (https://nodejs.org/en/download/package-manager); for eksempel kan du velge å bruke `nvm` installasjonsmetode.
+For å installere nodejs, finn instruksjoner [her](https://nodejs.org/en/download/package-manager); for eksempel kan du velge å bruke `nvm` installasjonsmetode.
 
 ---
 Før du starter pnpm-installasjonsfasen av nødvendige pakker, må du sørge for å ha alle avhengigheter installert, du kan oppnå dette ved å kjøre følgende kommando:
@@ -102,15 +102,15 @@ Dette vil bygge og starte alle nødvendige containere fra dockers.
 
 **6. Få tilgang til applikasjonen**
 
-Når containerne er i gang, får du tilgang til frontend på :
+Når containerne er i gang, får du tilgang til frontend på:
 
 \[<http://localhost:8181](http://localhost:8181)>
 
-![Plan ₿ Network Local](assets/en/1.webp)
+![Plan ₿ Academy Local](assets/en/1.webp)
 
 Merk: Appen lastes automatisk inn på nytt hvis du endrer kildefiler.
 
-**7. Sett opp databasen din Schema
+**7. Sett opp databasen din Schema**
 
 Ved første kjøring må du kjøre DB-migreringene.
 
@@ -130,7 +130,7 @@ curl -X POST http://localhost:3000/api/github/sync
 
 **9. Løs problemer med tilgang til synkroniseringsvolum**
 
-Hvis du støter på tilgangsproblemer med volumene `cdn` og `sync`, kjører du :
+Hvis du støter på tilgangsproblemer med volumene `cdn` og `sync`, kjører du:
 
 ```markdown
 docker exec --user=root bitcoin-learning-management-system-api-1 chmod 777 /tmp/{sync,cdn}
@@ -142,7 +142,7 @@ men så igjen..:
 curl -X POST http://localhost:3000/api/github/sync
 ```
 
-![Plan ₿ Network Local](assets/en/2.webp)
+![Plan ₿ Academy Local](assets/en/2.webp)
 
 **10. Tilpasse depotet (valgfritt)**
 

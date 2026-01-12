@@ -3,26 +3,27 @@ name: RaspiBlitz
 description: Guide to set up your RaspiBlitz
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 The RaspiBlitz is a do-it-yourself Lightning Node (LND and/or Core Lightning) running together with a Bitcoin-Fullnode on a RaspberryPi (1TB SSD) and a nice display for easy setup & monitoring.
 
 RaspiBlitz is mainly targeted for learning how to run your own node decentralized from home - because: Not your Node, Not your Rules. Discover & develop the growing ecosystem of the Lightning Network by becoming a full part of it. Build it as part of a workshop or as a weekend project yourself.
 
 ![video](https://youtu.be/DTHlSPMz3ns)
+
 RASPIBLITZ - How To Run A Lightning and Bitcoin Full Node by BTC session
 
-# Parman’s Raspiblitz Setup Guide
+## Parman’s Raspiblitz Setup Guide
 
-The Raspiblitz is an excellent system for running a Bitcoin Node and associated apps. I recommend this and the My Node node to most users (Have two nodes for redundancy ideally.) One major advantage is that the Raspiblitz node is “Free Open Source Software”, unlike MyNode or Umbrel. Why is that important? Vlad Costa explains. You can also run the RaspbiBlitz with a WiFi connection rather then ethernet – here’s a supplemental guide for that. (I haven’t found a way to do this with MyNode).
+The Raspiblitz is an excellent system for running a Bitcoin Node and associated apps. I recommend this and the My Node node to most users (Have two nodes for redundancy ideally.) One major advantage is that the Raspiblitz node is “Free Open Source Software”, unlike MyNode or Umbrel. [Why is that important? Vlad Costa explains.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) You can also run the RaspbiBlitz with a WiFi connection rather then ethernet – here’s a [supplemental guide](https://armantheparman.com/headless-wifi/) for that. (I haven’t found a way to do this with MyNode).
 
 You can buy a ready made node with an attached mini screen, or you can build it yourself (you don’t need a screen).
 
-The guide on the github page is excellent, but possibly too detailed for a moderately experienced user. My instructions will be more succinct and hopefully easier you follow.
+The [guide on the github](https://github.com/rootzoll/raspiblitz) page is excellent, but possibly too detailed for a moderately experienced user. My instructions will be more succinct and hopefully easier you follow.
 
-Essentially, the process is very similar to the process of setting up a MyNode node with a Raspberry Pi 4. The Raspiblitz guide suggest you buy a monitor, but you really don’t need one, and I wouldn’t recommend it. You don’t even need an extra keyboard or mouse. Just access the device’s terminal menu via a computer on the same home network, and use the ssh command using terminal. This is possible with Linux/Mac (easy) and a tiny bit harder with Windows.
+Essentially, the process is very similar to the process of setting up a [MyNode node](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) with a Raspberry Pi 4. The Raspiblitz guide suggest you buy a monitor, but you really don’t need one, and I wouldn’t recommend it. You don’t even need an extra keyboard or mouse. Just access the device’s terminal menu via a computer on the same home network, and use the ssh command using terminal. This is possible with Linux/Mac (easy) and a tiny bit harder with Windows.
 
-## Step 1: Buy the equipment.
+### Step 1: Buy the equipment.
 
 You need exactly the same equipment that you need to run a MyNode node. You could try one or the other, the only difference is the data on the micro SD card.
 
@@ -48,23 +49,25 @@ This is faster, but unnecessarily expensive:
 
 ![image](assets/3.webp)
 
-## Step 2: Download Raspiblitz Image
+### Step 2: Download Raspiblitz Image
 
-Navigate to the Raspiblitz github website, and find the “download image” link:
+Navigate to the [Raspiblitz github website](https://github.com/rootzoll/raspiblitz), and find the “download image” link:
 
 ![image](assets/4.webp)
 
-The sha-256 hash of the downloaded file is provided on the website. It will change with each update. It you don’t understand what this is about, you should, so I wrote a guide you can read here.
+The sha-256 hash of the downloaded file is provided on the website. It will change with each update. It you don’t understand what this is about, you should, so I wrote a [guide you can read here.](https://armantheparman.com/gpg/)
 
 ![image](assets/5.webp)
 
-## Step 3: Verify Image
+### Step 3: Verify Image
 
 Before proceeding, if you don’t know your way around the file system on the command line, it’s easy to learn, and you should.
 
-Here is a useful video for Linux, but applies to Mac as well.
+Here is a [useful video for Linux, but applies to Mac](https://youtu.be/id3DGvljhT4?list=PLtK75qxsQaMLZSo7KL-PmiRarU7hrpnwK) as well.
 
-For Windows, here’s a simple tutorial.
+For windows, here’s a [simple tutorial](https://www.youtube.com/watch?v=MBBWVgE0ewk&t=1s).
+
+_UPDATE: pgp/gpg verification is now available. You’ll need Openoms’s public key. [Here](http://parman.org/downloadable/openoms.txt) it is (you might need incognito mode for the link to work – http, not https)_
 
 Mac/Linux
 
@@ -88,9 +91,9 @@ where `xxxxxxxxxxxxxx` is the name of the file you just downloaded. If you are n
 
 The computer thinks for 20 seconds or so. Check that the output hashfile matches the one downloaded from the website in the previous step. If it’s identical, you can proceed.
 
-## Step 4: Flash the SD card
+### Step 4: Flash the SD card
 
-You can use Balena Etcher to do this. Download it here.
+You can use Balena Etcher to do this. [Download it here](https://www.balena.io/etcher/).
 
 Etcher is self explanatory to use. Insert your micro SD card and flash the Raspiblitz software (.img file) onto the SD card.
 
@@ -104,7 +107,7 @@ Etcher is self explanatory to use. Insert your micro SD card and flash the Raspi
 
 Once done, the drive is no longer readable. You may get an error from the operating system, and the drive should disappear from the desktop. Pull out the card.
 
-## Step 5: Set up the Pi and insert the SD card
+### Step 5: Set up the Pi and insert the SD card
 
 The parts (case not shown):
 
@@ -124,7 +127,7 @@ Finally, connect the power:
 
 ![image](assets/14.webp)
 
-## Step 6: Find the IP address of the Pi
+### Step 6: Find the IP address of the Pi
 
 You never need a monitor with the Raspiblitz. You do however, need another computer on the home network. If you’re Pi is not connected by ethernet, and you want to rely on WiFi, finding the IP requires some computer skills. Can’t help you, sorry. You need an ethernet connection. (The problem comes from needing access to a monitor and the operating system to connect the WiFi and enter a password.)
 
@@ -136,7 +139,7 @@ Finding the IP is crucial.
 
 **Note:** you can use the terminal on a Mac or Linux machine to find the IP address of all Ethernet connected devices on the home network using the command “arp -a”. The output is not as pretty as what the router will display, but all the information you need is there. If it’s not obvious which is the Pi, perform trial and error.
 
-## Step 7: SSH into the Pi
+### Step 7: SSH into the Pi
 
 Remember to put the SD card into the Pi before switching it on. Wait a few minutes, and then on another Linux/Mac, open the terminal.
 
@@ -146,7 +149,7 @@ For Mac/Linux, in the terminal type:
 ssh admin@You_Pi's_IP_address
 ```
 
-For Windows, you’ll need to install putty to ssh into the Pi. Type the same command as above.
+For Windows, you’ll need to install [putty](http://putty.org/) to ssh into the Pi. Type the same command as above.
 
 The first time you do this, or whenever you change the OS of the Pi by switching the SD card, you may or may not get this error…
 

@@ -22,7 +22,7 @@ ___
 
 
 
-**V tomto tutoriálu se naučíme provádět bezpečnostní audit na počítači se systémem Linux pomocí programu Lynis! Pro ty z vás, kteří neznáte **Lynis**, je to malý nástroj příkazového řádku, který analyzuje konfiguraci vašeho serveru a vydá doporučení pro **zlepšení zabezpečení vašeho počítače**
+**V tomto tutoriálu se naučíme provádět bezpečnostní audit na počítači se systémem Linux pomocí programu Lynis! Pro ty z vás, kteří neznáte Lynis, je to malý nástroj příkazového řádku, který analyzuje konfiguraci vašeho serveru a vydá doporučení pro zlepšení zabezpečení vašeho počítače.**
 
 
 
@@ -51,7 +51,7 @@ Nástroj je široce využíván širokou škálou uživatelů, včetně správc�
 
 
 
-Projekt je k dispozici na této adrese Address na **Githubu** :
+Projekt je k dispozici na této adrese Address na **Githubu**:
 
 
 
@@ -82,7 +82,7 @@ Tento režim instalace umožňuje použít příkaz **lynis** odkudkoli ze syst�
 
 
 
-Připojte se k serveru přes SSH a zadejte následující příkazy pro instalaci Lynis :
+Připojte se k serveru přes SSH a zadejte následující příkazy pro instalaci Lynis:
 
 
 
@@ -209,7 +209,7 @@ Chcete-li zobrazit dostupné příkazy, stačí zadat následující příkaz:
 
 ```
 sudo lynis
-# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe :
+# Si vous avez récupéré Lynis depuis les sources, utilisez cette syntaxe:
 ./lynis
 ```
 
@@ -249,7 +249,7 @@ Tohle dostanete:
 
 
 
-Pokud chcete zobrazit všechny možnosti, musíte zadat :
+Pokud chcete zobrazit všechny možnosti, musíte zadat:
 
 
 
@@ -321,10 +321,10 @@ Dále Lynis uvede soubor bodů, které odpovídají všemu, co v našem systému
 
 
 
-- Červená** pro nedodržení kritických bodů Elements nebo osvědčených postupů (například chybějící balíček), tj. váš server tento bod nedodržuje
-- Žlutá** pro návrhy nebo částečné splnění doporučení (řekněme, že splnění bodu zvýrazněného touto barvou je plus (není prioritní))
-- Green** pro body, kde je konfigurace vašeho serveru v souladu s předpisy
-- Bílá**, když je neutrální
+- **Červená** pro nedodržení kritických bodů Elements nebo osvědčených postupů (například chybějící balíček), tj. váš server tento bod nedodržuje
+- **Žlutá** pro návrhy nebo částečné splnění doporučení (řekněme, že splnění bodu zvýrazněného touto barvou je plus (není prioritní))
+- **Green** pro body, kde je konfigurace vašeho serveru v souladu s předpisy
+- **Bílá**, když je neutrální
 
 
 
@@ -336,7 +336,7 @@ Zde vidíme, že Lynis doporučuje nainstalovat **fail2ban**:
 
 
 
-V části "**Boot a služby**" vidíme, že by bylo možné zlepšit ochranu služeb prostřednictvím *systemd*. Pozitivní je, že Grub2 je přítomen a nejsou žádné problémy s oprávněními na :
+V části "**Boot a služby**" vidíme, že by bylo možné zlepšit ochranu služeb prostřednictvím *systemd*. Pozitivní je, že Grub2 je přítomen a nejsou žádné problémy s oprávněními na:
 
 
 
@@ -598,16 +598,16 @@ sudo apt-get install debsums apt-listbugs needrestart apt-show-versions fail2ban
 
 
 
-Některé informace o nainstalovaných balíčcích :
+Některé informace o nainstalovaných balíčcích:
 
 
 
 
 
-- Clamav** je antivirový program.
-- unattend-upgrades** vám umožní spravovat aktualizace automaticky a dokonce restartovat počítač nebo automaticky vyčistit staré balíčky, je plně konfigurovatelný.
-- rkhunter** je antirootkit, který skenuje souborový systém.
-- Fail2ban** bude vycházet z vašich souborů protokolu podle toho, co mu dáte ke čtení, a bude spolupracovat s **iptables**, například aby zakázal IP adresy, které se pokusí "hrubou silou" vynutit váš server v SSH.
+- **Clamav** je antivirový program.
+- **unattend-upgrades** vám umožní spravovat aktualizace automaticky a dokonce restartovat počítač nebo automaticky vyčistit staré balíčky, je plně konfigurovatelný.
+- **rkhunter** je antirootkit, který skenuje souborový systém.
+- **Fail2ban** bude vycházet z vašich souborů protokolu podle toho, co mu dáte ke čtení, a bude spolupracovat s **iptables**, například aby zakázal IP adresy, které se pokusí "hrubou silou" vynutit váš server v SSH.
 
 
 
@@ -623,7 +623,7 @@ Podívejme se na doporučení SSH. Jsou uvedeny níže. Nebojte se, hned si vysv
 
 
 
-Podívejme se blíže na mou aktuální konfiguraci **SSH** v :**/etc/ssh/sshd_config**
+Podívejme se blíže na mou aktuální konfiguraci **SSH** v:**/etc/ssh/sshd_config**
 
 
 
@@ -635,7 +635,7 @@ Níže navrženou konfiguraci lze ještě optimalizovat, ale poskytuje dobrý z�
 
 
 
-Budeme :
+Budeme:
 
 
 
@@ -695,7 +695,7 @@ PubkeyAuthentication yes
 
 
 
-- Zachovat ověřování heslem :
+- Zachovat ověřování heslem:
 
 
 
@@ -804,7 +804,7 @@ Stojí za zmínku, že v některých jurisdikcích může být podmínkou právn
 
 
 
-V obrázcích to dává :
+V obrázcích to dává:
 
 
 
@@ -820,7 +820,7 @@ Nakonec nezapomeňte zkontrolovat **skóre auditu Lynis**! Vidíme, že **můj H
 
 
 
-**Jinými slovy, čím vyšší skóre, tím lépe! Proto je třeba pracovat na konfiguraci tak, abyste dosáhli co nejvyššího skóre a zároveň umožnili normální fungování počítače a hostovaných služeb (což znamená provádění funkčních testů).
+**Jinými slovy, čím vyšší skóre, tím lépe! Proto je třeba pracovat na konfiguraci tak, abyste dosáhli co nejvyššího skóre a zároveň umožnili normální fungování počítače a hostovaných služeb (což znamená provádění funkčních testů).**
 
 
 
@@ -892,8 +892,8 @@ Nezapomeňte před implementací komunikovat se svými týmy: musíte jim vysvě
 
 
 
-Nakonec můžete **Lynis** porovnat i s jinými nástroji, kterých je několik. Pokud chcete přejít na centralizovanou správu a zároveň zůstat u otevřeného kódu, doporučuji nástroj [Wazuh] (https://wazuh.com/).
+Nakonec můžete **Lynis** porovnat i s jinými nástroji, kterých je několik. Pokud chcete přejít na centralizovanou správu a zároveň zůstat u otevřeného kódu, doporučuji nástroj [Wazuh](https://wazuh.com/).
 
 
 
-**Tento tutoriál je u konce, bavte se s Lynisem!
+**Tento tutoriál je u konce, bavte se s Lynisem!**

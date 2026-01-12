@@ -15,7 +15,7 @@ Para pengembang program _tools open-source_ telah menciptakan rangkaian paket ap
 
 Yang paling sederhana di antara yang telah saya coba secara pribadi dan masih saya uji adalah [Simple Login](https://simplelogin.io/).
 
-## Alias
+Yang paling sederhana, di antara yang sudah saya coba secara pribadi dan masih saya uji, adalah [Simple Login](https://simplelogin.io/).
 
 Alias email hanyalah pengganti bagian nama dari alamat email Anda dengan nama fiktif. Bagi pengguna, tidak ada yang berubah; layanan alias meneruskan email ke dan dari alamat email biasa seperti biasa. Setiap orang dapat terus menggunakan kotak masuk mereka seperti biasa, tetapi alih-alih menampilkan nama asli mereka, ia akan menampilkan pengguna yang tidak dapat dikenali. Layanan ini harus efisien, dan sejauh ini, Simple Login telah membuktikannya.
 

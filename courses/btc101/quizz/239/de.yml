@@ -1,15 +1,11 @@
-question: Welches der folgenden ist kein Schlüsselmerkmal von Mikrotransaktionen im Lightning-Netzwerk?
-answer: Lange Zahlungszeiten.
+question: Was ist die Verbindung zwischen Bitcoin und der Zukunft von Technologie und Gesellschaft?
+answer: Bitcoin ist eine technologische Revolution, die den Austausch von Werten ohne jegliche vertrauenswürdige dritte Partei ermöglicht.
 wrong_answers:
-  - Niedrige Gebühren.
-  - Sofortige Zahlungen.
-  - Skalierbarkeit.
+  - Bitcoin ist eine Form von KI-Technologie, die es Menschen ermöglicht, Informationen über einen zentralen Server auszutauschen.
+  - Bitcoin ist ein Werkzeug zur Kontrolle der Weltbevölkerung, das die Beseitigung von Armut ermöglicht.
+  - Bitcoin ist eine Methode für Regierungen, um die finanziellen Transaktionen ihrer Bürger zu verfolgen.
 explanation: |
-  Bei Mikrotransaktionen im Lightning-Netzwerk können Benutzer
-  von niedrigen Transaktionsgebühren profitieren, was es wirtschaftlich macht,
-  sehr kleine Beträge von Bitcoin zu senden. Sie können auch sofortige
-  Zahlungen haben, die Echtzeit-Transaktionen ermöglichen. Zuletzt können sie
-  Skalierbarkeit erreichen, was die Verarbeitung einer großen
-  Anzahl von Transaktionen gleichzeitig ermöglicht. Daher ist die falsche
-  Antwort lange Zahlungszeiten.
+  Der Text erklärt, dass Bitcoin, ähnlich wie das Internet für Kommunikationsmittel, eine technologische Revolution ist, die
+  die Chance für neue Arten der großangelegten
+  Organisation schafft und uns die Möglichkeit bietet, Werte ohne jegliche vertrauenswürdige dritte Partei auszutauschen.
 reviewed: true

@@ -5,5 +5,5 @@ wrong_answers:
   - That the invoice is encoded in bech32
   - That it is an on-chain transaction
 explanation: |
-  The prefix lnbc signifies that the invoice is for a Lightning transaction on the Bitcoin network, and not on another network.
-reviewed: false
+  The prefix 'lnbc' signifies that the invoice is for a Lightning transaction on the Bitcoin network, not on another network.
+reviewed: true

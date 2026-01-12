@@ -1,0 +1,9 @@
+question: Bitcoin 출시 시 어떤 디지털 서명 알고리즘이 사용되었나요?
+answer: ECDSA
+wrong_answers:
+  - 슈노르
+  - RSA
+  - HMAC
+explanation: |
+  Bitcoin은 2021년 슈노르 서명이 도입되기 전까지 타원 곡선 기반 서명 프로토콜인 ECDSA를 사용했습니다.
+reviewed: false

@@ -6,13 +6,13 @@ description: 如何在PlanB网络上添加新的教育材料？
 
 PlanB的使命是提供领先的比特币教育资源，尽可能多的语言。网站上发布的所有内容都是开源的，并托管在GitHub上，这允许任何人参与丰富平台。
 
-除了教程和培训，PlanB网络还提供了一个关于比特币的广泛的多样化教育内容库，所有人都可以访问，在“BET”(_比特币教育工具包_)部分[查看](https://planb.network/resources/bet)。这个数据库包括教育海报、模因、幽默宣传海报、技术图表、标志以及其他用户工具。这项倡议的目标是通过提供必要的视觉资源，支持全世界教授比特币的个人和社区。
+除了教程和培训，PlanB网络还提供了一个关于比特币的广泛的多样化教育内容库，所有人都可以访问，在“BET”(_比特币教育工具包_)部分[查看](https://planb.academy/resources/bet)。这个数据库包括教育海报、模因、幽默宣传海报、技术图表、标志以及其他用户工具。这项倡议的目标是通过提供必要的视觉资源，支持全世界教授比特币的个人和社区。
 
 如果你想参与丰富这个数据库，但不知道如何做？这个教程是为你准备的！
 
 *所有整合到网站的内容必须是免版权的，或者尊重源文件的许可。此外，PlanB网络上发布的所有视觉内容都在[CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)许可下提供。*
 ![event](assets/01.webp)
-- 首先，你需要在GitHub上有一个账户。如果你不知道如何创建账户，我们制作了[一个详细的教程来指导你](https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)。
+- 首先，你需要在GitHub上有一个账户。如果你不知道如何创建账户，我们制作了[一个详细的教程来指导你](https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c)。
 - 前往[PlanB专门用于数据的GitHub仓库](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/bet)在`resources/bet/`部分：
 ![event](assets/02.webp)
 - 点击右上角的`Add file`按钮，然后点击`Create new file`：
@@ -41,7 +41,7 @@ tags:
 contributors:
   - 
 ```
-- **`project`**: 指明您的组织在PlanB网络上的标识符。如果您的公司还没有一个“project”标识符，您可以[按照这个教程创建一个](https://planb.network/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d)。如果您没有，您可以简单地使用您的名字、假名或公司名称，而不需要创建project档案。
+- **`project`**: 指明您的组织在PlanB网络上的标识符。如果您的公司还没有一个“project”标识符，您可以[按照这个教程创建一个](https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d)。如果您没有，您可以简单地使用您的名字、假名或公司名称，而不需要创建project档案。
 - **`type`**: 在以下两个选项中选择您内容的性质：
 	- `Educational Content` 用于教育内容。
 	- `Visual Content` 用于其他类型的多样化内容。
@@ -64,7 +64,7 @@ contributors:
 例如，您的YAML文件可能看起来像这样：
 
 ```yaml
-project: PlanB-Network
+project: Plan ₿ Academy
 type: Educational Content
 links:
   download: https://workspace.planb.network/s/fojeJa7ZbftQTwo

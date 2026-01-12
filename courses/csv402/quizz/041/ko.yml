@@ -1,0 +1,9 @@
+question: RGB 자산을 전달하는 라이트닝 채널을 생성하려면 어떤 Elements이 필요하나요?
+answer: 비트코인으로 펀딩하고 RGB 자산으로 펀딩하기
+wrong_answers:
+  - Bitcoin 전용 펀딩으로 시작하기
+  - RGB 전용 펀딩으로 시작하기
+  - 자금이 필요하지 않습니다
+explanation: |
+  채널은 2/2 Multisig에 Bitcoin 펀딩과 동일한 채널에 자산을 할당하기 위한 RGB 자산 펀딩을 모두 필요로 합니다.
+reviewed: false

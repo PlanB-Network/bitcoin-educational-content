@@ -35,7 +35,7 @@ Kun haluat virtualisoida työaseman, olipa kyse sitten projektin testaamisesta t
 
 
 
-Minun kokoonpanoni: **mutta voit asentaa VirtualBoxin myös Windows 10:een (tai vanhempaan versioon) sekä Linuxiin. Virtuaalikoneiden osalta VirtualBox tukee monenlaisia järjestelmiä, kuten Windowsia (esim. Windows 10, Windows 11, Windows Server 2022 jne.), Linuxia (Debian, Rocky Linux, Ubuntu, Fedora jne.), BSD:tä (PfSense) ja macOS:ää.
+Minun kokoonpanoni: **mutta voit asentaa VirtualBoxin myös Windows 10:een (tai vanhempaan versioon) sekä Linuxiin.** Virtuaalikoneiden osalta VirtualBox tukee monenlaisia järjestelmiä, kuten Windowsia (esim. Windows 10, Windows 11, Windows Server 2022 jne.), Linuxia (Debian, Rocky Linux, Ubuntu, Fedora jne.), BSD:tä (PfSense) ja macOS:ää.
 
 
 
@@ -59,7 +59,7 @@ Voit ladata VirtualBoxin asennettavaksi Windows-koneeseen vain yhdellä hyväll�
 
 
 
-VirtualBoxin** asentaminen on yksinkertaista, ja prosessi on sama kaikille Windows-versioille. Aloita käynnistämällä juuri lataamasi VirtualBoxin suoritusohjelma ja napsauta sitten "**Seuraava**".
+**VirtualBoxin** asentaminen on yksinkertaista, ja prosessi on sama kaikille Windows-versioille. Aloita käynnistämällä juuri lataamasi VirtualBoxin suoritusohjelma ja napsauta sitten "**Seuraava**".
 
 
 
@@ -67,15 +67,15 @@ VirtualBoxin** asentaminen on yksinkertaista, ja prosessi on sama kaikille Windo
 
 
 
-Tämä asennus on muokattavissa, mutta suosittelen, että asennat kaikki ominaisuudet: mikä on oletusvalinta. Alla olevassa kuvassa näet erilaisia Elements, kuten :
+Tämä asennus on muokattavissa, mutta suosittelen, että asennat kaikki ominaisuudet: mikä on oletusvalinta. Alla olevassa kuvassa näet erilaisia Elements, kuten:
 
 
 
 
 
-- VirtualBoxin USB-tuki**, jotta VirtualBox tukee USB-laitteita
-- VirtualBox Bridged Network** integroida verkkotuki "Bridge"-tilassa (virtuaalikone voi muodostaa yhteyden suoraan lähiverkkoon)
-- VirtualBox Host-Only Network** verkkotuen integroimiseksi "Host-Only"-tilassa (virtuaalikone voi kommunikoida vain fyysisen Windows 11 -isäntäkoneen ja muiden virtuaalikoneiden kanssa tässä tilassa)
+- **VirtualBoxin USB-tuki**, jotta VirtualBox tukee USB-laitteita
+- **VirtualBox Bridged Network** integroida verkkotuki "Bridge"-tilassa (virtuaalikone voi muodostaa yhteyden suoraan lähiverkkoon)
+- **VirtualBox Host-Only Network** verkkotuen integroimiseksi "Host-Only"-tilassa (virtuaalikone voi kommunikoida vain fyysisen Windows 11 -isäntäkoneen ja muiden virtuaalikoneiden kanssa tässä tilassa)
 
 
 
@@ -165,10 +165,10 @@ Voit luoda uuden virtuaalikoneen VirtualBoxissa napsauttamalla "**Uusi**"-painik
 
 
 
-- Asetukset**: VirtualBoxin yleiset asetukset (VM:n oletuskansio, päivitysten hallinta, kieli, NAT-verkot, laajennukset jne.)
-- Tuo**: tuo virtuaalilaite OVF-muodossa
-- Vienti**: olemassa olevan virtuaalikoneen vieminen OVF-muodossa virtuaalilaitteen luomista varten
-- Lisää**: Lisää olemassa oleva virtuaalikone VirtualBoxin luetteloon VirtualBoxin vakiomuodossa (.vbox) tai XML-muodossa
+- **Asetukset**: VirtualBoxin yleiset asetukset (VM:n oletuskansio, päivitysten hallinta, kieli, NAT-verkot, laajennukset jne.)
+- **Tuo**: tuo virtuaalilaite OVF-muodossa
+- **Vienti**: olemassa olevan virtuaalikoneen vieminen OVF-muodossa virtuaalilaitteen luomista varten
+- **Lisää**: Lisää olemassa oleva virtuaalikone VirtualBoxin luetteloon VirtualBoxin vakiomuodossa (.vbox) tai XML-muodossa
 
 
 
@@ -184,16 +184,16 @@ Vasemmalla "**Tools**"-osio antaa pääsyn **kehittyneisiin toimintoihin, erityi
 
 
 
-** Muistutuksena mainittakoon, että VirtualBox tukee useita käyttöjärjestelmiä, kuten Windowsia, Linuxia ja BSD:tä. Tässä esimerkissä luon virtuaalikoneen Windows 11:lle. Useita kenttiä on täytettävä:
+**Muistutuksena mainittakoon, että VirtualBox tukee useita käyttöjärjestelmiä, kuten Windowsia, Linuxia ja BSD:tä. Tässä esimerkissä luon virtuaalikoneen Windows 11:lle. Useita kenttiä on täytettävä:**
 
 
 
 
 
-- Nimi**: virtuaalikoneen nimi (tämä on nimi, joka näytetään VirtualBoxissa)
-- Konekansio**: mihin virtuaalikone tallennetaan, kun tiedetään, että tähän paikkaan luodaan VM:n nimellä varustettu alikansio
-- Tyyppi**: käyttöjärjestelmän tyyppi riippuen siitä, minkä käyttöjärjestelmän haluat asentaa
-- Versio**: järjestelmän versio, jonka haluat asentaa, tässä tapauksessa Windows 11, joten "**Windows11_64**"
+- **Nimi**: virtuaalikoneen nimi (tämä on nimi, joka näytetään VirtualBoxissa)
+- **Konekansio**: mihin virtuaalikone tallennetaan, kun tiedetään, että tähän paikkaan luodaan VM:n nimellä varustettu alikansio
+- **Tyyppi**: käyttöjärjestelmän tyyppi riippuen siitä, minkä käyttöjärjestelmän haluat asentaa
+- **Versio**: järjestelmän versio, jonka haluat asentaa, tässä tapauksessa Windows 11, joten "**Windows11_64**"
 
 
 
@@ -205,7 +205,7 @@ Jatka napsauttamalla "**Seuraava**".
 
 
 
-Riippuen edellisessä vaiheessa valitsemastasi käyttöjärjestelmästä **VirtualBox antaa suosituksia virtuaalikoneelle jaettavista resursseista**. Tässä puhutaan RAM-muistista, jonka haluat varata VM:lle. Oletetaan 4 Gt, koska sitä todellakin suositellaan Windows 11:lle, mutta jos resurssit ovat vähissä, määritä sen sijaan 2 Gt. **Jatka
+Riippuen edellisessä vaiheessa valitsemastasi käyttöjärjestelmästä **VirtualBox antaa suosituksia virtuaalikoneelle jaettavista resursseista**. Tässä puhutaan RAM-muistista, jonka haluat varata VM:lle. Oletetaan 4 Gt, koska sitä todellakin suositellaan Windows 11:lle, mutta jos resurssit ovat vähissä, määritä sen sijaan 2 Gt. **Jatka**
 
 
 
@@ -231,9 +231,9 @@ VirtualBox tukee kolmea eri formaattia virtuaalisille Hard-levyille, mikä on me
 
 
 
-- VDI**, virallinen VirtualBox-formaatti
-- VHD**, joka on virallinen Hyper-V-formaatti, vaikka uutta VHDX-formaattia käytetään nykyään useammin
-- VMDX** on virallinen VMware-formaatti sekä VMware Workstationille että VMware ESXille
+- **VDI**, virallinen VirtualBox-formaatti
+- **VHD**, joka on virallinen Hyper-V-formaatti, vaikka uutta VHDX-formaattia käytetään nykyään useammin
+- **VMDX** on virallinen VMware-formaatti sekä VMware Workstationille että VMware ESXille
 
 
 
@@ -273,7 +273,7 @@ Tässä vaiheessa VM on inventaariossamme, se on määritetty, mutta käyttöjä
 
 
 
-Windows 11:n tai minkä tahansa muun järjestelmän asentamiseen tarvitaan asennuslähteitä. Useimmiten käytämme ISO-muotoista levykuvaa käyttöjärjestelmän asentamiseen. **On tarpeen ladata Windows 11:n ISO-kuva VM:n virtuaaliseen DVD-asemaan
+Windows 11:n tai minkä tahansa muun järjestelmän asentamiseen tarvitaan asennuslähteitä. Useimmiten käytämme ISO-muotoista levykuvaa käyttöjärjestelmän asentamiseen. **On tarpeen ladata Windows 11:n ISO-kuva VM:n virtuaaliseen DVD-asemaan.**
 
 
 
@@ -333,7 +333,7 @@ Minun tapauksessani virtuaalikoneessa on 2 virtuaalista prosessoria:
 
 
 
-** Älä epäröi tutustua konfigurointivalikon muihin osioihin.
+**Älä epäröi tutustua konfigurointivalikon muihin osioihin.**
 
 
 
@@ -390,10 +390,10 @@ Windows 11 -virtuaalikoneemme fyysisessä isäntätietokoneessa, johon VirtualBo
 
 
 
-- VBOX**-tiedosto (XML-muodossa), joka vastaa VM-konfiguraatiota (RAM-muisti, CPU jne.)
-- VBOX-PREV**-tiedosto on varmuuskopio edellisestä kokoonpanosta
-- VDI**-tiedosto vastaa virtuaalista Hard-levyä dynaamisessa tilassa, joten sen koko on tällä hetkellä vain 13 Gt, kun sen enimmäiskoko on 64 Gt
-- NVRAM**-tiedosto sisältää virtuaalikoneen BIOS-tilan, joka vastaa fyysisen koneen haihtumatonta muistia
+- **VBOX-tiedosto** (XML-muodossa), joka vastaa VM-konfiguraatiota (RAM-muisti, CPU jne.)
+- **VBOX-PREV**-tiedosto on varmuuskopio edellisestä kokoonpanosta
+- **VDI-tiedosto** vastaa virtuaalista Hard-levyä dynaamisessa tilassa, joten sen koko on tällä hetkellä vain 13 Gt, kun sen enimmäiskoko on 64 Gt
+- **NVRAM-tiedosto** sisältää virtuaalikoneen BIOS-tilan, joka vastaa fyysisen koneen haihtumatonta muistia
 
 
 

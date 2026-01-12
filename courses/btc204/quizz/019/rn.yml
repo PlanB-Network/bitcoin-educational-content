@@ -1,0 +1,9 @@
+question: Ni ibihe bimenyetso vy’isesengura ry’uruzitiro vyavuzwe na Satoshi Nakamoto mu gitabu cera ca Bitcoin? (inyishu imwe gusa irashoboka)
+answer: Ivyo CIOH na Address bisubira gukoresha.
+wrong_answers:
+  - Gushiramwo amatsinda hakurikijwe umukono n’igihe bihuye.
+  - Ivyishyurwa vy’umubare w’uruzitiro n’umusaruro munini.
+  - Isesengura ry’umubare n’inyandiko zisa.
+explanation: |
+  Mu gice ca 10 c’Igitabu Cera ca Bitcoin, Satoshi Nakamoto iragabisha abakoresha ivyerekeye CIOH (Ivyiyumviro Rusangiye Ownership) no gusubira gukoresha izo mfunguruzo zibiri.
+reviewed: false

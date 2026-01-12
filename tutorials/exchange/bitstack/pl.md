@@ -8,7 +8,7 @@ description: Kupuj i sprzedawaj bitcoiny w aplikacji Bitstack
 Bitstack to francuska platforma inwestycyjna Bitcoin, regulowana PSAN przez AMF. Oferuje aplikację dostępną na Androida i iOS do łatwego kupowania i sprzedawania Bitcoin.
 
 
-To, co wyróżnia Bitstack, to automatyczny system zaokrąglania, który synchronizuje konto bankowe użytkownika w celu przeliczenia różnicy między kwotą pobraną podczas codziennych wydatków a następnym wyższym euro, bezpośrednio na bitcoiny. Metoda ta ułatwia zastosowanie *Dollar Cost Averaging* (DCA), umożliwiając stopniowe, bezbolesne gromadzenie satoshis. Oprócz tej oryginalnej funkcji, platforma oferuje również klasyczny system DCA z automatycznymi inwestycjami, a także kupno i sprzedaż spot.
+Tym, co wyróżnia Bitstack, jest jego system automatycznego zaokrąglania, który synchronizuje konto bankowe użytkownika, aby przeliczać różnicę między kwotą pobraną przy codziennych wydatkach a wyższym euro bezpośrednio na bitcoiny. Ta metoda ułatwia stosowanie *Dollar Cost Averaging* (DCA), umożliwiając stopniowe i bezbolesne gromadzenie satoshi. Oprócz tej oryginalnej funkcji platforma oferuje również klasyczny system DCA z automatycznymi inwestycjami oraz jednorazowymi zakupami i sprzedażami.
 
 
 ![Image](assets/fr/01.webp)
@@ -73,10 +73,10 @@ Wybierz silne hasło, aby zabezpieczyć dostęp do swojego konta, a następnie k
 ![Image](assets/fr/06.webp)
 
 
-Do bezpiecznego zarządzania hasłami na co dzień zdecydowanie zaleca się korzystanie z menedżera haseł. Na Plan ₿ Network znajdziesz kilka poradników na temat najlepszych istniejących rozwiązań, takich jak Bitwarden :
+Do bezpiecznego zarządzania hasłami na co dzień zdecydowanie zaleca się korzystanie z menedżera haseł. Na Plan ₿ Academy znajdziesz kilka poradników na temat najlepszych istniejących rozwiązań, takich jak Bitwarden :
 
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Następnie zostaniesz poproszony o zweryfikowanie swojej tożsamości (KYC). Zgodnie z francuskimi przepisami zostaniesz poproszony o podanie swoich danych osobowych i dowodu tożsamości. Wypełnij pola z nazwiskiem, imieniem i datą urodzenia.
 
@@ -160,7 +160,7 @@ Jak wspomniano we wstępie, Bitstack oferuje 3 metody inwestowania w Bitcoin:
 - Korzystanie z automatycznego zaokrąglania wydatków.
 
 
-### Kupowanie za gotówkę
+### Dokonać jednorazowego zakupu
 
 
 Aby dokonać jednorazowego zakupu bitcoinów po cenie rynkowej, wystarczy kliknąć "*Kup*".
@@ -184,7 +184,7 @@ Transakcja została potwierdzona.
 ### Konfiguracja DCA
 
 
-Dollar Cost Averaging* (DCA) to atrakcyjna strategia inwestycyjna umożliwiająca akumulację Bitcoin przy jednoczesnym ograniczeniu ryzyka związanego z jego zmiennością. Regularne kupowanie stałej kwoty, niezależnie od ceny, pozwala wyrównać koszty nabycia i uniknąć impulsywnego podejmowania decyzji. DCA pomaga ograniczyć uprzedzenia behawioralne, takie jak strach przed utratą okazji lub panika w przypadku spadku ceny, a tym samym umożliwia zarządzanie oszczędnościami Bitcoin w spokojny i zdyscyplinowany sposób.
+**Dollar Cost Averaging** (DCA) to atrakcyjna strategia inwestycyjna umożliwiająca akumulację Bitcoin przy jednoczesnym ograniczeniu ryzyka związanego z jego zmiennością. Regularne kupowanie stałej kwoty, niezależnie od ceny, pozwala wyrównać koszty nabycia i uniknąć impulsywnego podejmowania decyzji. DCA pomaga ograniczyć uprzedzenia behawioralne, takie jak strach przed utratą okazji lub panika w przypadku spadku ceny, a tym samym umożliwia zarządzanie oszczędnościami Bitcoin w spokojny i zdyscyplinowany sposób.
 
 
 Aby skonfigurować zakup cykliczny (DCA) na Bitstack, przejdź do sekcji "*Oszczędności*" na stronie głównej i wybierz "*Recurring*". Następnie naciśnij "*Kontynuuj*".
@@ -271,7 +271,7 @@ Określ priorytet transakcji. W przypadku wypłaty bez opłat wybierz priorytet 
 ![Image](assets/fr/32.webp)
 
 
-Jeśli nie jesteś zaznajomiony z działaniem Wallet, oferujemy samouczki dotyczące większości dostępnych rozwiązań [na Plan ₿ Network w sekcji "*Wallet*"] (https://planb.network/tutorials/wallet).
+Jeśli nie jesteś zaznajomiony z działaniem Wallet, oferujemy samouczki dotyczące większości dostępnych rozwiązań [na Plan ₿ Academy w sekcji "*Wallet*"](https://planb.academy/tutorials/wallet).
 
 
 ## Sprzedaż Bitcoin

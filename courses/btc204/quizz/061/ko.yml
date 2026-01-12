@@ -1,0 +1,10 @@
+question: Bitcoin Wallet 소프트웨어에서 Coin 제어 옵션의 용도는 무엇인가요?
+answer: 트랜잭션의 입력으로 사용할 UTXO를 선택합니다.
+wrong_answers:
+  - Wallet의 보안을 강화하기 위해 UTXO를 암호화합니다.
+  - 의심스러운 소스에서 UTXO를 탐지하고 차단합니다.
+  - Wallet에서 각 UTXO에 레이블을 지정합니다.
+explanation: |
+  Coin 제어는 우수한 Bitcoin Wallet 소프트웨어에 있는 기능으로, 거래 시 입력으로 사용할 특정 UTXO를 수동으로 선택할 수 있는 기능을 제공합니다.
+  
+reviewed: true

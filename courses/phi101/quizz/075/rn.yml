@@ -1,0 +1,9 @@
+question: Igitabo ca Adamu Smith citwa ikihe?
+answer: Itohoza ku kamere n’imvo z’ubutunzi bw’amahanga.
+wrong_answers:
+  - Itohoza ku kamere n’impwemu y’ubutunzi bw’amahanga.
+  - Itohoza ku kamere n’inkomoko y’ubutunzi bw’amahanga.
+  - Itohoza ku mpamvu n’inkomoko y’ubutunzi bw’amahanga.
+explanation: |
+  Umutwe wuzuye w’igitabu ca Adamu Smith, Itohoza ku kamere n’impamvu z’ubutunzi bw’amahanga, urashimika ku gusesangura kwiwe ku bintu bituma ubutunzi butera imbere, asuzuma uburyo ubutunzi buvamwo n’ubugabanwa.
+reviewed: true

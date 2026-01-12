@@ -1,0 +1,8 @@
+question: Koji matematički problem obezbeđuje sigurnosnu osnovu za ECDSA potpise u Bitcoin?
+answer: Problem diskretnog logaritma eliptičke krive
+wrong_answers:
+  - Problem faktorizacije celih brojeva
+  - Problem kvadratnog ostatka
+  - Problem sudara hash kolizije
+explanation: |
+  ECDSA sigurnost se oslanja na problem diskretnog logaritma eliptičke krive: dato P = eG, računanje P iz e i G je jednostavno, ali izvođenje privatnog ključa e iz javnog ključa P je računarski neizvodljivo. Ovaj jednosmerni matematički odnos omogućava sigurnu kriptografiju javnog ključa sa manjim veličinama ključeva nego RSA, koji zavisi od faktorizacije celih brojeva.

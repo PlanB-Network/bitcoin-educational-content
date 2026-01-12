@@ -3,6 +3,8 @@ name: Bitcoin Core (macOS & Windows)
 description: Installera Bitcoin Core på Mac eller Windows
 ---
 
+![cover](assets/cover.webp)
+
 Att installera Bitcoin Core på din vanliga dator kan göras, men det är inte idealiskt. Om du inte har något emot att lämna din dator på 24/7, kommer det här att fungera bra. Om du behöver stänga av datorn blir det irriterande att vänta på att programvaran ska synkroniseras varje gång du slår på den igen.
 
 
@@ -24,7 +26,7 @@ Du kan antingen rensa en gammal dator och använda den som en dedikerad Bitcoin-
 Bitcoin Core kommer att ta upp cirka 400 gigabyte data på din hårddisk och kommer att fortsätta växa. Du kan använda din interna enhet, men du kan också ansluta en extern Hard-enhet. Jag ska förklara båda alternativen. Helst bör du använda en solid state-enhet. Om du har en gammal dator har den förmodligen inte en av dessa internt. Köp bara en extern SSD på 1 eller 2 terabyte och använd den. Den vanliga enheten kommer förmodligen att fungera, men du kan få problem och det kommer att bli mycket långsammare.
 
 
-![image](assets/1.webp)
+![image](assets/fr/01.webp)
 
 
 ## Ladda ner Bitcoin Core
@@ -36,19 +38,19 @@ Gå till Bitcoin.org (se till att du inte går till Bitcoin.com, som är en shit
 Väl där är det konstigt nog inte uppenbart var man får tag på programvaran. Gå till resursmenyn och klicka på "Bitcoin Core", som visas nedan:
 
 
-![image](assets/2.webp)
+![image](assets/fr/02.webp)
 
 
 Du kommer då till nedladdningssidan:
 
 
-![image](assets/3.webp)
+![image](assets/fr/03.webp)
 
 
 Klicka på den orangefärgade knappen Download Bitcoin Core:
 
 
-![image](assets/4.webp)
+![image](assets/fr/04.webp)
 
 
 Det finns flera alternativ att välja mellan, beroende på vilken dator du har. De två första är relevanta för den här guiden; välj Windows eller Mac i den vänstra fältet. När du klickar på filen börjar den laddas ner, troligen till din katalog för nedladdningar.
@@ -60,7 +62,7 @@ Det finns flera alternativ att välja mellan, beroende på vilken dator du har. 
 Du behöver filen som innehåller hasharna för de olika utgåvorna. Den här filen fanns tidigare på nedladdningssidan på Bitcoin.org, men har nu flyttats till bitcoincore.org/en/download:
 
 
-![image](assets/5.webp)
+![image](assets/fr/05.webp)
 
 
 Du behöver filen SHA256 binära hashes. Den här filen innehåller SHA256-hasharna för de olika nedladdningspaketen för Bitcoin Core.
@@ -96,7 +98,7 @@ För att göra det, se min SHA256/gpg-guide, och bläddra ungefär halvvägs til
 Tillbaka på nedladdningssidan, hämta SHA256 Hash-signaturfilen
 
 
-![image](assets/6.webp)
+![image](assets/fr/06.webp)
 
 
 Klicka på den och spara filen på hårddisken, helst i katalogen Downloads.
@@ -146,7 +148,7 @@ Den första listade filen är den exakta stavningen av signaturfilen. Den andra 
 Detta är vad du bör få ut
 
 
-![image](assets/7.webp)
+![image](assets/fr/07.webp)
 
 
 Det är säkert att ignorera varningsmeddelandet - det påminner dig bara om att du inte har träffat Wladimir vid en nyckeldel och personligen frågat honom vad hans offentliga nyckel var och sedan sagt till din dator att lita på den här nyckeln helt.
@@ -161,7 +163,7 @@ Om du fick det här meddelandet vet du nu att filen SHA256SUMS.asc inte har mani
 Du ska inte behöva detaljerade instruktioner om hur du installerar programmet.
 
 
-![image](assets/8.webp)
+![image](assets/fr/08.webp)
 
 
 ## Körning Bitcoin Kärnan
@@ -170,37 +172,37 @@ Du ska inte behöva detaljerade instruktioner om hur du installerar programmet.
 På en Mac kan du få en varning (Apple är fortfarande emot Bitcoin)
 
 
-![image](assets/9.webp)
+![image](assets/fr/09.webp)
 
 
 Klicka på OK och öppna sedan dina Systeminställningar
 
 
-![image](assets/10.webp)
+![image](assets/fr/10.webp)
 
 
 Klicka på ikonen för säkerhet och sekretess:
 
 
-![image](assets/11.webp)
+![image](assets/fr/11.webp)
 
 
 Klicka sedan på "öppna ändå":
 
 
-![image](assets/12.webp)
+![image](assets/fr/12.webp)
 
 
 Felet kommer att visas igen, men den här gången har du en OPEN-knapp tillgänglig. Klicka på den.
 
 
-![image](assets/13.webp)
+![image](assets/fr/13.webp)
 
 
 Bitcoin Core bör laddas och du kommer att presenteras med några alternativ:
 
 
-![image](assets/14.webp)
+![image](assets/fr/14.webp)
 
 
 Här kan du välja att använda standardsökvägen för var Blockchain kommer att laddas ner till, eller så kan du välja din externa enhet. Jag rekommenderar att du inte ändrar standardsökvägen om du ska använda den interna enheten, det gör det lättare att ställa in när du installerar annan programvara för att kommunicera med Bitcoin Core.
@@ -212,7 +214,7 @@ Du kan välja att köra en beskuren nod, det sparar utrymme, men begränsar vad 
 När du har bekräftat kommer Blockchain att börja laddas ner. Det kommer att ta många dagar.
 
 
-![image](assets/15.webp)
+![image](assets/fr/15.webp)
 
 
 Du kan stänga av datorn och komma tillbaka för att ladda ner om du vill, det kommer inte att göra någon skada.

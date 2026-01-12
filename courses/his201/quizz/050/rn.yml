@@ -1,0 +1,9 @@
+question: Ni nde yaremye urubuga rwa Mt. Gox rwo kuvujisha ku wa 18 Mukakaro 2010, inyuma y’indwi imwe y’ugutera imbere cane kwa Bitcoin?
+answer: Jed McCaleb
+wrong_answers:
+  - Mark Karpelès
+  - Martti Malmi
+  - Gavin Andrese
+explanation: |
+  Yaremye iri soko ryiza mu kwiyumvira kwiwe, abona ingene bigoye kuronka Bitcoin mu kuvujisha mu madolari (na cane cane kw'soko rya Bitcoin).
+reviewed: true

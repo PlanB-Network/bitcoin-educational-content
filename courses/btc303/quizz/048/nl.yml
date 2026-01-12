@@ -1,0 +1,9 @@
+question: Waarom is het praktisch onmogelijk om de veiligheid van Bitcoin formeel te bewijzen, ondanks dat het in de praktijk goed werkt?
+answer: De complexiteit en nevelige aard van het systeem maken formele beveiligingsbewijzen onhaalbaar, in tegenstelling tot eenvoudigere protocollen met duidelijke aannames
+wrong_answers:
+  - Bitcoin ontwikkelaars vermijden opzettelijk formele bewijzen om flexibiliteit te behouden en toekomstige protocolwijzigingen mogelijk te maken
+  - Het discrete logaritmeprobleem en de cryptografische aannames zijn te geavanceerd voor de huidige wiskundige bewijstechnieken
+  - Formele beveiligingsbewijzen zouden kwetsbaarheden onthullen aan tegenstanders, dus worden ze geheim gehouden door kernontwikkelaars
+explanation: |
+  Zoals Jameson Lopp uitlegt, werd Bitcoin gebouwd zonder een formeel gedefinieerde specificatie of veiligheidsmodel vanwege de inherente complexiteit en nevelige aard ervan. In tegenstelling tot eenvoudigere systemen zoals ondertekeningsprotocollen die duidelijke beveiligingsaannames hebben, bestaat Bitcoin uit meerdere componenten die op elkaar inwerken, waaronder cryptografie, economie, speltheorie en menselijk gedrag. Deze complexiteit maakt het onmogelijk om formele wiskundige bewijzen van de veiligheid te leveren, ook al toont het systeem praktische veiligheid door het gebruik in de echte wereld.
+reviewed: false

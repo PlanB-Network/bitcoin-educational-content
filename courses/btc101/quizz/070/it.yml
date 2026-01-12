@@ -1,10 +1,12 @@
-question: Quanto è la ricompensa in BTC dopo il quarto halving?
-answer: 3.125 BTC.
+question: Qual è il rischio nel condividere la chiave pubblica di un wallet Bitcoin?
+answer: Perdere la privacy.
 wrong_answers:
-  - 1.5625 BTC.
-  - 6.25 BTC.
-  - 12.5 BTC.
+  - Distruggere il wallet.
+  - Perdere i Bitcoin.
+  - Esporre il wallet agli hacker.
 explanation: |
-  Dopo il quarto halving, che si verificato all'altezza del blocco
-  840,000, la ricompensa in BTC per il mining è di 3.125 BTC.
-reviewed: vero
+  Condividere la chiave pubblica comporta rischi per la privacy, ma non
+  per la sicurezza. Questo perché la chiave pubblica è utilizzata per
+  generare indirizzi e quindi ricevere denaro, ma non rappresenta
+  la proprietà dei Bitcoin.
+reviewed: true

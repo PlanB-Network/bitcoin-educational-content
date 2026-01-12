@@ -1,0 +1,10 @@
+question: 기록된 첫 번째 Bitcoin 트랜잭션은 무엇인가요?
+answer: Satoshi 나카모토와 할 피니 사이의 10 BTC 거래.
+wrong_answers:
+  - 피자 2판에 10,000 BTC를 거래했습니다.
+  - Satoshi 나카모토와 할 피니 사이의 1 BTC 거래.
+  - 라즐로 하녜츠와 할 피니 사이의 10,000 BTC 거래.
+explanation: |
+  기록된 첫 번째 Bitcoin 거래는 다음과 같은 거래였습니다
+  10 BTC를 Satoshi 나카모토와 할 피니 간에 거래했습니다.
+reviewed: true

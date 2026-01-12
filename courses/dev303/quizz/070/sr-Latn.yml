@@ -1,0 +1,8 @@
+question: Kako se jedinstveni ekosistem alata Rust kroz Cargo razlikuje od pristupa korišćenog u starijim jezicima kao što je C++ za razvoj Bitcoin?
+answer: Cargo obezbeđuje standardizovano upravljanje zavisnostima, izgradnju, testiranje i dokumentaciju u jednom alatu, eliminišući fragmentaciju
+wrong_answers:
+  - Cargo se fokusira isključivo na validaciju bezbednosti memorije dok alati za C++ daju prioritet optimizaciji brzine kompilacije
+  - Cargo zahteva ručnu konfiguraciju više odvojenih alata, dok C++ pruža integrisana razvojna okruženja
+  - Cargo podržava samo biblioteke specifične za Bitcoin dok alati za C++ rade sa aplikacijama za opštu namenu u finansijama
+explanation: |
+  Teret Rust predstavlja jedinstveni pristup upravljanju projektima koji obuhvata sve ključne zadatke razvoja kroz jedan, standardizovani alat. Ovo eliminiše problem fragmentacije viđen u C++ gde više konkurentskih alata za upravljanje zavisnostima, izgradnju i testiranje stvara nekonzistentnost među projektima. Za razvoj Bitcoin, ova standardizacija je ključna jer osigurava dosledne procese izgradnje, pouzdano rešavanje zavisnosti i ujednačene provere kvaliteta koda kroz različite projekte i timove, smanjujući rizik od grešaka u konfiguraciji koje bi mogle ugroziti bezbednost.

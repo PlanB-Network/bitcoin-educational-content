@@ -1,0 +1,9 @@
+question: Ni igiki kiranga ukugorana kw’ubu buryo bwo kwishura umuntu hakoreshejwe ikarata ku kibanza co kugurishamwo ibintu?
+answer: Bisaba abahuza benshi (amabanki menshi), intambwe nyinshi, kandi bishobora gutwara imisi kugira ngo amahera atungamywe neza.
+wrong_answers:
+  - Bisaba intambwe imwe gusa mukanya isase amahera aca ahita atunganywa.
+  - Rishingiye gusa ku mahera agaragara kandi nta bahuza nkamabanki bisaba.
+  - Vyemeza ko iyo ikarita imaze gushirwamwo, uwo mudandaza aca agirako aronka ayo mahera  ubwo nyene kandi  ntagusubira inyuma kwicogikorwa.
+explanation: |
+  Ukwishura n’amakarata akenshi birimwo uruhererekane rw’abahuza (abaronka, abatanga, imirongo y’amakarata), bisaba impusha n’intambwe zo gukwirikiza, kandi bishobora gutwara amasaha kuva kuri 48 gushika ku misi myinshi imbere y’uko umucuruzi aronka amahera yose.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ni igice ikihe c’ikibanza c’ibiro gikoreshwa mu kugendagenda mu bubiko bw’amadosiye n’amadosiye?
+answer: Igice kijejwe gutunganya dosiye
+wrong_answers:
+  - Umuyobozi w’kiganiro
+  - Composer X11
+  - Ubutunganirizo bw’amapaki
+explanation: |
+  Igice kijejwe gutunganya dosiye (nka Nautilus, Dolphin, Thunar) kieka uwukoresha agacungera ububiko bw'amadosiye n'amadosiye biciye kuri Interface y’igicapo.
+reviewed: true

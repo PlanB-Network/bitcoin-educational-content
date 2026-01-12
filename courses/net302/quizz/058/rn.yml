@@ -1,0 +1,9 @@
+question: Ni iyihe dosiye y’imiterere isobanura urubuga rudahinduka Interface kuri sisitemu imeze nka RHEL?
+answer: iyocfg-[Interface]
+wrong_answers:
+  - /n'ibindi/abashitsi
+  - /n'ibindi/ugutorera umuti.conf
+  - /n'ibindi/urubuga/imirongo
+explanation: |
+  Ku RHEL, CentOS n'ibindi bisa n'ivyo, buri Interface irafise dosiye yayo ifcfg-* iri muri /etc/sysconfig/inyandiko-z'urubuga/.
+reviewed: false

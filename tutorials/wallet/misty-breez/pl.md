@@ -37,7 +37,7 @@ Na razie zacznijmy naszą przygodę z Misty Breez Wallet.
 
 
 
-Aplikacja mobilna Misty Breez jest dostępna na oficjalnych platformach pobierania, takich jak Google Play Store (na Androida) i Apple Store (na iOS). Możesz również zostać przekierowany do odpowiedniej aplikacji z oficjalnej strony internetowej [Misty Breez] (https://breez.technology/misty/).
+Aplikacja mobilna Misty Breez jest dostępna na oficjalnych platformach pobierania, takich jak Google Play Store (na Androida) i Apple Store (na iOS). Możesz również zostać przekierowany do odpowiedniej aplikacji z oficjalnej strony internetowej [Misty Breez](https://breez.technology/misty/).
 
 
 
@@ -81,7 +81,7 @@ Oto kilka wskazówek, jak wykonać kopię zapasową frazy kopii zapasowej.
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Aby utworzyć kopię zapasową fraz, wybierz menu **Preferencje > Bezpieczeństwo**, a następnie opcję **Sprawdź kopię zapasową fraz**.
 
@@ -210,4 +210,4 @@ Aby pójść dalej, polecam również zapoznać się z naszym samouczkiem na tem
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125

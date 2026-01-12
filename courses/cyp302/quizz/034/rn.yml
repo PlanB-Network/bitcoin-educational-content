@@ -1,0 +1,9 @@
+question: None urudodo rw’ibinyoma ni iki?
+answer: Urudodo rusa n'uruva ku mpinduka imwe ariko ruterwa n'ubuhinga bwo kwagura
+wrong_answers:
+  - Urudodo rwavutse n'ibishoboka bisa kuri buri kimenyetso
+  - Urudodo rw'uburebure budahinduka ruva ku kintu gisanzwe
+  - Urudodo rw'imburakimazi rwatowe gusa mu gaciro ka kabiri 0 na 1
+explanation: |
+  Umurongo w’ibinyoma ukorwa n’ubuhinga bwo kwagura buva ku seed ntoyi, mu buryo bwigana uguhitamwo kumwe mu mirongo yose y’uburebure bumwe.
+reviewed: false

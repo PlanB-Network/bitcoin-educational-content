@@ -1,9 +1,9 @@
-question: Mis on Bitcoini võrgu rütm?
-answer: 10 minutit bloki kohta
+question: Mis on Bitcoin'i plokiahel?
+answer: Avalik ja muutumatu kõigi Bitcoin'i tehingute register.
 wrong_answers:
-  - 10 sekundit bloki kohta
-  - 10 minutit tehingu kohta
-  - 10 sekundit tehingu kohta
-explanation: |
-  Bitcoini võrgu rütm on 10 minutit bloki kohta. See on nagu Bitcoini rahandussüsteemi südamelöök.
-reviewed: true
+  - Eraviisiline ja muudetav kõigi Bitcoin'i tehingute register.
+  - Avalik ja muudetav kõigi Bitcoin'i tehingute register.
+  - Eraviisiline ja muutumatu kõigi Bitcoin'i tehingute register.
+explanation: >-
+  Bitcoin'i plokiahel on avalik ja muutumatu kõigi Bitcoin'i tehingute register. See on ühine register kõikidele Bitcoin'i kasutajatele.
+reviewed: false

@@ -1,5 +1,7 @@
 id: da44852e-513f-4004-949a-8fde60c1bca5
 
+last_update_date: 2024-09-01
+
 level: advanced
 
 category: operating system
@@ -9,6 +11,8 @@ credit_link: https://armantheparman.com/mint/
 
 # Proofreading metadata
 project_id: d0112afe-ce46-4ef2-9cca-f352ea9c46cf
+license: CC-BY-SA-V4
+
 original_language: fr
 proofreading:
   - language: cs
@@ -51,7 +55,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.35
+    reward: 10.31
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -66,7 +70,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.35
+    reward: 10.31
   - language: et
     last_contribution_date:
     urgency: 1
@@ -92,7 +96,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.39
+    reward: 10.31
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -105,10 +109,11 @@ proofreading:
       - Sanja22B
     reward: 4.13
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 8.26
+      - Tinnah924
+    reward: 4.13
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
@@ -129,6 +134,31 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 8.26
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.31
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.31
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.31
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.26
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 10.31
 tags:
   - guides
   - software

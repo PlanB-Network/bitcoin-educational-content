@@ -1,0 +1,11 @@
+question: 비트코인토크란 무엇인가요?
+answer: Bitcoin 사용자를 위한 토론의 장입니다.
+wrong_answers:
+  - Bitcoin Mining 소프트웨어.
+  - Bitcoin Wallet.
+  - Bitcoin 컨퍼런스.
+explanation: |
+  비트코인토크 포럼은 Bitcoin
+  사용자를 위한 토론의 장입니다. Satoshi 나카모토가 11월 22일에 만들었습니다,
+  2009.
+reviewed: true

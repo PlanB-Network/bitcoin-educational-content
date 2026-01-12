@@ -46,9 +46,9 @@ Nmap's strengths are many:
 
 
 
-- Powerful and flexible**: Nmap can scan large networks and use advanced detection techniques. It supports UDP, TCP, ICMP, IPv4 and IPv6, and can perform version detection, vulnerability scans or protocol-specific interactions. Its architecture is modular, thanks in particular to NSE (Nmap Scripting Engine) scripts, which we'll look at later in this tutorial.
-- Ease of use**: official documentation is abundant and of the highest quality. Numerous community resources are also available to help you get started.
-- Popularity and longevity**: Nmap has been a reference in its field since 1998. The current version, at the time of this update, is 7.95. Although other tools exist for specific tasks, Nmap remains a must-have for network mapping and analysis.
+- **Powerful and flexible**: Nmap can scan large networks and use advanced detection techniques. It supports UDP, TCP, ICMP, IPv4 and IPv6, and can perform version detection, vulnerability scans or protocol-specific interactions. Its architecture is modular, thanks in particular to NSE (Nmap Scripting Engine) scripts, which we'll look at later in this tutorial.
+- **Ease of use**: official documentation is abundant and of the highest quality. Numerous community resources are also available to help you get started.
+- **Popularity and longevity**: Nmap has been a reference in its field since 1998. The current version, at the time of this update, is 7.95. Although other tools exist for specific tasks, Nmap remains a must-have for network mapping and analysis.
 
 
 **Nmap at the movies**
@@ -66,7 +66,7 @@ matrix: Reloaded scene featuring Nmap
 He also appears in other cinematographic works.
 
 
-**Feedback
+**Feedback**
 
 
 As a system administrator and then cybersecurity auditor and pentester, **I use Nmap on an almost daily basis** and I **regularly recommend** it to system administrators wishing to strengthen their command of networks and improve their diagnostic capabilities.
@@ -256,7 +256,7 @@ $ dnf search '^nmap$'
 ```
 
 
-The answer here clearly indicates that the "nmap" package exists in the repositories (here, those of Kali [Linux](https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/ "Linux")). From now on, you can install Nmap via the usual installation commands, nothing disarming for the moment 🙂 :
+The answer here clearly indicates that the "nmap" package exists in the repositories (here, those of Kali [Linux](https://www.it-connect.fr/cours-tutoriels/administration-systemes/linux/ "Linux")). From now on, you can install Nmap via the usual installation commands, nothing disarming for the moment 🙂:
 
 
 ```
@@ -299,7 +299,7 @@ To install on a Windows operating system, start by downloading the binary from t
 
 
 
-You will then need to download the binary named `nmap-<VERSION>-setup.exe` :
+You will then need to download the binary named `nmap-<VERSION>-setup.exe`:
 
 
 ![nmap-image](assets/fr/06.webp)
@@ -371,19 +371,19 @@ Whether on Linux or Windows, there are many cases where Nmap will ask you for pr
 
 
 
-- Constructing "raw" network packets**: Nmap is capable of a wide range of scanning methods, including advanced packet manipulation and construction. This is the case, for example, when we want to perform TCP SYN scans, which don't respect the classic _Three-way handshake_ of TCP exchanges. To do this, Nmap needs to use functions other than those native to operating systems, which only know how to respect good practice in network communications (it calls on the "Npcap" and "libcap" libraries seen above). It's because Nmap doesn't do things in the "standard" way that it's able to deduce certain information about OSes, services and certain vulnerabilities.
+- **Constructing "raw" network packets**: Nmap is capable of a wide range of scanning methods, including advanced packet manipulation and construction. This is the case, for example, when we want to perform TCP SYN scans, which don't respect the classic *Three-way handshake* of TCP exchanges. To do this, Nmap needs to use functions other than those native to operating systems, which only know how to respect good practice in network communications (it calls on the "Npcap" and "libcap" libraries seen above). It's because Nmap doesn't do things in the "standard" way that it's able to deduce certain information about OSes, services and certain vulnerabilities.
 
 
 
-- Listen to network traffic**: some of Nmap's options require it to listen to the network in order to retrieve certain information. This action is considered sensitive on operating systems, since it also allows you to listen in on the communications of other applications on the system. Just like Wireshark, Nmap needs specific privileges to do this, which are easier to obtain by being directly in a privileged session.
+- **Listen to network traffic**: some of Nmap's options require it to listen to the network in order to retrieve certain information. This action is considered sensitive on operating systems, since it also allows you to listen in on the communications of other applications on the system. Just like Wireshark, Nmap needs specific privileges to do this, which are easier to obtain by being directly in a privileged session.
 
 
 
-- Listening on privileged ports**: on operating systems, ports from 0 to 1024 (TCP as well as UDP) are said to be privileged, i.e. they are somehow reserved for very specific uses and therefore protected. Although this is a somewhat obsolete reason today, it is still necessary to have certain privileges to listen on these ports, which Nmap may have to do depending on how it will be used.
+- **Listening on privileged ports**: on operating systems, ports from 0 to 1024 (TCP as well as UDP) are said to be privileged, i.e. they are somehow reserved for very specific uses and therefore protected. Although this is a somewhat obsolete reason today, it is still necessary to have certain privileges to listen on these ports, which Nmap may have to do depending on how it will be used.
 
 
 
-- Sending UDP packets:** Similarly, listening to a network application on UDP ports (a stateless protocol) requires privileged rights on operating systems. A privileged session will therefore be required if you wish to perform a UDP scan, for which Nmap will have to listen for a response in order to analyze the replies to its scans.
+- **Sending UDP packets:** Similarly, listening to a network application on UDP ports (a stateless protocol) requires privileged rights on operating systems. A privileged session will therefore be required if you wish to perform a UDP scan, for which Nmap will have to listen for a response in order to analyze the replies to its scans.
 
 
 
@@ -427,11 +427,11 @@ From now on, remember to scan only hosts in a controlled environment for which y
 
 
 
-- [Hack The Box](https://app.hackthebox.com/ "Hack The Box")** : Hacking training platform, Hack The Box constantly provides vulnerable systems for you to attack as you see fit. Several hundred systems are available, but a renewed pool of 20 machines is offered free of charge all year round, with access via an OpenVPN VPN.
+- [Hack The Box](https://app.hackthebox.com/ "Hack The Box"): Hacking training platform, Hack The Box constantly provides vulnerable systems for you to attack as you see fit. Several hundred systems are available, but a renewed pool of 20 machines is offered free of charge all year round, with access via an OpenVPN VPN.
 
 
 
-- [Vulnhub](https://www.vulnhub.com/ "Vulnhub")** : This platform offers numerous intentionally vulnerable systems for download, which can be used via VirtualBox (also a free solution) or other means. Once downloaded, there's no need for a VPN - everything is local.
+- [Vulnhub](https://www.vulnhub.com/ "Vulnhub"): This platform offers numerous intentionally vulnerable systems for download, which can be used via VirtualBox (also a free solution) or other means. Once downloaded, there's no need for a VPN - everything is local.
 
 
 
@@ -503,7 +503,7 @@ Host is up (0.00022s latency).
 ```
 
 
-Finally, Nmap informs us that 998 TCP ports identified as closed are not displayed in the :
+Finally, Nmap informs us that 998 TCP ports identified as closed are not displayed in the:
 
 
 ```
@@ -511,7 +511,7 @@ Not shown: 998 closed tcp ports (conn-refused)
 ```
 
 
-This saves us almost 1,000 lines of output looking like :
+This saves us almost 1,000 lines of output looking like:
 
 
 ```
@@ -544,7 +544,7 @@ Following this information, we find what is most interesting: a table organized 
 
 
 
-If you take a look at the "/etc/services" file on a Linux system, you'll find a "port/protocol - service" link similar to the one displayed by Nmap :
+If you take a look at the "/etc/services" file on a Linux system, you'll find a "port/protocol - service" link similar to the one displayed by Nmap:
 
 
 ![nmap-image](assets/fr/12.webp)
@@ -619,7 +619,7 @@ To do this, it will, on each TCP port in its default range, **send TCP SYN packe
 response to a TCP SYN packet sent on port 22, active on the scan target
 
 
-In the screenshot above, we see a TCP SYN/ACK packet sent by the target host**. The port is active and exposes a service. Nmap acknowledges receipt of the response, then terminates the connection (TCP RST/ACK). **This is how it knew that port TCP/22 was active**.
+In the screenshot above, we see a TCP SYN/ACK packet sent by the target host. The port is active and exposes a service. Nmap acknowledges receipt of the response, then terminates the connection (TCP RST/ACK). **This is how it knew that port TCP/22 was active**.
 
 
 We have seen here that Nmap respects the "Three Way Handshake" when scanning a TCP network. For performance reasons, it is possible to ask it not to respond to the server's return, thus saving several thousand packets when scanning a large network. But we'll look at these options and optimizations later in the tutorial.
@@ -693,7 +693,7 @@ We can see on the above screenshot that Nmap will send a large number of UDP pac
 extract from RFC 1122._
 
 
-Let's take a closer look at this Wireshark capture, which shows **the three possible scenarios** in UDP :
+Let's take a closer look at this Wireshark capture, which shows **the three possible scenarios** in UDP:
 
 
 ![nmap-image](assets/fr/21.webp)
@@ -739,7 +739,7 @@ We now have a better idea of how to do a UDP scan and what actually happens when
 As we've seen, Nmap itself chooses the number and ports to scan if you don't specify any options. This is the "default" configuration used by Nmap when you don't tell it exactly what to do. These default options are designed to give an idea of the main ports exposed, these being selected by frequency of exposure (most common or frequent ports) rather than in numerical order (port 1, 2, 3, etc.) and also to avoid starting a scan of the 65535 possible ports if you don't specify the appropriate options, which would be too long and wordy for a "default" use case.
 
 
-**How are these ports chosen?
+**How are these ports chosen?**
 
 
 The 1000 ports scanned in the default mode are chosen according to their frequency of occurrence. These statistics are maintained by Nmap and updated in the same way as the binary itself and its scripts (modules). You can view these statistics yourself in the "/usr/shares/nmap/nmap-services" file:
@@ -781,7 +781,7 @@ As a result, the scan will naturally be much faster and Nmap will only emit the 
 **Scan multiple ports via Nmap**
 
 
-In the same way, we can specify several ports to Nmap, using the same option and concatenating the specified ports with a comma :
+In the same way, we can specify several ports to Nmap, using the same option and concatenating the specified ports with a comma:
 
 
 ```
@@ -806,10 +806,10 @@ Regardless of the order, Nmap will check all these ports, and only those on the 
 *Result of an Nmap TCP scan on the indicated ports.*
 
 
-**Scan a range of ports
+**Scan a range of ports**
 
 
-If the number of ports you wish to scan is too large, you can specify them by range, for example :
+If the number of ports you wish to scan is too large, you can specify them by range, for example:
 
 
 ```
@@ -837,7 +837,7 @@ nmap 192.168.1.19 -p 22,80,1000-2000,3389
 ```
 
 
-**TCP and UDP port scanning
+**TCP and UDP port scanning**
 
 
 You can also perform UDP and TCP scans at the same time, on selected ports:
@@ -868,7 +868,7 @@ You'll notice in this last example the presence of "U:" to indicate a UDP port a
 Now that's an interesting way to customize your scans!
 
 
-**Scan all ports
+**Scan all ports**
 
 
 Finally, it's possible to specify much larger or smaller ranges to Nmap. We have seen that the default list selected by Nmap contains 1000 ports. We can also ask for the top 100 most frequent ports, or the top 200, using the "--top-ports" option:
@@ -960,7 +960,7 @@ nmap 192.168.0.0/24
 ```
 
 
-It is also possible, as with ports in the previous section, to specify multiple hosts, multiple networks, or range :
+It is also possible, as with ports in the previous section, to specify multiple hosts, multiple networks, or range:
 
 
 ```
@@ -1036,7 +1036,7 @@ To be more precise, Nmap uses an ICMP echo packet (the classic case of pinging) 
 But there's more to it than that. You can see in the Wireshark capture above that **TCP SYN** packets are systematically sent on TCP/443 ports of every potential host on the networks to be scanned, as well as **TCP ACK** packets on TCP/80 port.
 
 
-**Why send TCP packets to ports as part of network discovery?
+**Why send TCP packets to ports as part of network discovery?**
 
 
 Sending a SYN packet to a given port allows Nmap to **determine whether a service is listening on that port**. If a host replies to a SYN packet with a SYN/ACK packet, this indicates that it is active and that a service is listening on that port. Nmap therefore tries its luck on this service, **even if no response to the ping has been obtained**.
@@ -1104,7 +1104,7 @@ To detail the options of our last order:
 
 
 
-- "`-PP` : enables ICMP echo (ping scan) for host discovery.
+- "`-PP`: enables ICMP echo (ping scan) for host discovery.
 
 
 
@@ -1191,7 +1191,7 @@ One last important tip I'd like to share with you concerns **host or network exc
 Frequent examples of such needs are when a company owns industrial (PLC) or healthcare equipment. Such equipment is sometimes poorly designed, and not at all intended to receive poorly formatted packets, or too many of them. For obvious reasons of availability or business/human risk, it is preferable to exclude them from testing.
 
 
-To exclude IP addresses or networks from our scan, we can use Nmap's "--exclude" option, for example :
+To exclude IP addresses or networks from our scan, we can use Nmap's "--exclude" option, for example:
 
 
 ```
@@ -1551,7 +1551,7 @@ We now want to use the Nmap network scanner to detect vulnerabilities in the ser
 To achieve this, Nmap relies on NSE (_Nmap Scripting Engine_) scripts, which can be seen as modules that enable a granular approach to testing.
 
 
-With the right options, we'll ask Nmap to use its various NSE scripts on each service discovered, enabling us to discover :
+With the right options, we'll ask Nmap to use its various NSE scripts on each service discovered, enabling us to discover:
 
 
 
@@ -1663,23 +1663,23 @@ Let's be clear: Nmap is not capable of carrying out a complete penetration test 
 
 
 
-- Limited coverage**: although Nmap's NSE scripts are powerful, their test coverage may be limited compared with other specialized vulnerability discovery tools. Some vulnerabilities may not be covered by the NSE scripts available, such as Active Directory vulnerabilities, exposure of sensitive data or more advanced cases of vulnerable web applications.
+- **Limited coverage**: although Nmap's NSE scripts are powerful, their test coverage may be limited compared with other specialized vulnerability discovery tools. Some vulnerabilities may not be covered by the NSE scripts available, such as Active Directory vulnerabilities, exposure of sensitive data or more advanced cases of vulnerable web applications.
 
 
 
-- Vulnerability complexity**: certain types of vulnerability may be difficult to detect using NSE scripts due to their complexity. For example, vulnerabilities requiring complex interaction with a remote service may not be detected effectively by Nmap (as in the case of excessive permissions in a file share or a permission control flaw in a web application).
+- **Vulnerability complexity**: certain types of vulnerability may be difficult to detect using NSE scripts due to their complexity. For example, vulnerabilities requiring complex interaction with a remote service may not be detected effectively by Nmap (as in the case of excessive permissions in a file share or a permission control flaw in a web application).
 
 
 
-- Passive detection**: Nmap focuses primarily on active scans to detect vulnerabilities, which means it may not effectively detect potential vulnerabilities without establishing an active connection with the target hosts. Vulnerabilities that do not manifest themselves during an active scan may therefore be missed (as in the case of a code injection in a web application).
+- **Passive detection**: Nmap focuses primarily on active scans to detect vulnerabilities, which means it may not effectively detect potential vulnerabilities without establishing an active connection with the target hosts. Vulnerabilities that do not manifest themselves during an active scan may therefore be missed (as in the case of a code injection in a web application).
 
 
 
-- Dependency on updates**: Nmap's [database](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) of NSE scripts is constantly evolving, but there may be a delay between the discovery of a new vulnerability and the addition of a corresponding script to Nmap. As a result, Nmap may not always be up to date with the latest vulnerabilities.
+- **Dependency on updates**: Nmap's [database](https://www.it-connect.fr/cours-tutoriels/administration-systemes/stockage/bdd/) of NSE scripts is constantly evolving, but there may be a delay between the discovery of a new vulnerability and the addition of a corresponding script to Nmap. As a result, Nmap may not always be up to date with the latest vulnerabilities.
 
 
 
-- False positives and false negatives**: as with any security tool, Nmap's NSE scripts can produce false positives (false vulnerability alerts) or false negatives (real vulnerabilities not detected). This is something to bear in mind when analyzing Nmap results.
+- **False positives and false negatives**: as with any security tool, Nmap's NSE scripts can produce false positives (false vulnerability alerts) or false negatives (real vulnerabilities not detected). This is something to bear in mind when analyzing Nmap results.
 
 
 
@@ -1718,20 +1718,20 @@ These scripts are organized by category, and a single script may belong to more 
 
 | Catégorie       | Description |
 |----------------|-------------|
-| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples : `oracle-enum-users`, `ftp-anon`. |
-| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples : `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
-| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples : `ssh-brute`, `vnc-brute`. |
+| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples: `oracle-enum-users`, `ftp-anon`. |
+| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
+| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples: `ssh-brute`, `vnc-brute`. |
 | **default**    | Contient les scripts utilisés dans le cas par défaut (utilisation de `-sC`). Plusieurs critères sont utilisés afin de valider l’entrée d’un script dans cette catégorie dont la vitesse d’exécution, la structure de la sortie, la fiabilité du test, le caractère “intrusif” ou “risqué”, etc. |
-| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples : `mysql-info`, `http-security-headers`. |
-| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples : `http-slowloris`, `ipv6-ra-flood`. |
-| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples : `http-shellsock`, `smb-vuln-ms08-067`. |
-| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples : `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
-| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples : `dns-fuzz`, `http-form-fuzzer`. |
-| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples : `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
-| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples : `ftp-proftpd-backdoor`, `smtp-strangeport`. |
-| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples : `html-title`, `smb2-security-mode`, `ms-sql-info`. |
-| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples : `http-php-version`, `vmware-version`. |
-| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples : `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
+| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples: `mysql-info`, `http-security-headers`. |
+| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples: `http-slowloris`, `ipv6-ra-flood`. |
+| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples: `http-shellsock`, `smb-vuln-ms08-067`. |
+| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
+| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples: `dns-fuzz`, `http-form-fuzzer`. |
+| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
+| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
+| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
+| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples: `http-php-version`, `vmware-version`. |
+| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
 
 Technically, the categories to which a script belongs are indicated directly in its code.
@@ -1767,7 +1767,7 @@ This directory contains over 5,000 NSE scripts. In most cases, the first part of
 list of NSE Nmap scripts with names starting with `ftp-`._
 
 
-Nmap doesn't really offer an option for browsing and listing its NSE scripts; you can use the command `--script-help` followed by the name of a category or a word :
+Nmap doesn't really offer an option for browsing and listing its NSE scripts; you can use the command `--script-help` followed by the name of a category or a word:
 
 
 ```
@@ -1812,7 +1812,7 @@ Now we're going to learn how to carry out vulnerability scans by carefully selec
 #### A. Select scripts by category
 
 
-To begin with, we can choose to execute all scripts belonging to a specific category. We need to indicate this category or these categories to Nmap with the argument `--script <category>` :
+To begin with, we can choose to execute all scripts belonging to a specific category. We need to indicate this category or these categories to Nmap with the argument `--script <category>`:
 
 
 ```
@@ -2010,7 +2010,7 @@ By default, Nmap offers a detailed view of the results of the scans and tests it
 #### A. Save scan results in a text file
 
 
-To make things easier, [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) makes it very easy to save its output in a text file. This can be useful for archiving, comparison with other tests, but also for browsing this output with specialized word-processing tools or scripting languages, such as Sublime text, [PowerShell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/), Python, grep, sed, etc. To store Nmap's standard output in a text file, we can use the `-oN <filename>` option (the "N" in "normal") :
+To make things easier, [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/) makes it very easy to save its output in a text file. This can be useful for archiving, comparison with other tests, but also for browsing this output with specialized word-processing tools or scripting languages, such as Sublime text, [PowerShell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/), Python, grep, sed, etc. To store Nmap's standard output in a text file, we can use the `-oN <filename>` option (the "N" in "normal"):
 
 
 ```
@@ -2099,7 +2099,7 @@ XML (_eXtensible Markup Language_) is a markup language used to store and transp
 Within Nmap, the XML format is used to generate detailed reports on the scans performed, including information on hosts, ports and vulnerabilities detected, as well as additional information not displayed in the standard Nmap output.
 
 
-To generate an output file in XML format, we need to use the `-oX` option ("O" from "XML") :
+To generate an output file in XML format, we need to use the `-oX` option ("O" from "XML"):
 
 
 ```
@@ -2233,7 +2233,7 @@ nmap's verbose output using the `-v`._ option
 On a scan targeting many hosts and ports, the terminal output will become difficult to exploit due to the amount of information displayed. For this reason, this option should be used in combination with the options seen previously, which allow you to store Nmap's standard output in a file. Information related to the use of verbosity will not be included in this output file. As you can see from the example above, this verbosity allows you to track Nmap's actions and discoveries clearly and directly. For longer scans where data display may be slow in coming, this avoids being blind to Nmap's current activity and knowing that things are progressing and at what pace. To increase verbosity by a further level, you can use the `-vv` option.
 
 
-To further track Nmap's activity during its scan, you can use the `--packet-trace` option. With the `-v` option, we get a live log of all open ports discovered by Nmap, whereas with this option, we get a log line for each packet sent to a port. This naturally produces a very verbose output, but allows detailed monitoring of Nmap's activity, here's an example :
+To further track Nmap's activity during its scan, you can use the `--packet-trace` option. With the `-v` option, we get a live log of all open ports discovered by Nmap, whereas with this option, we get a log line for each packet sent to a port. This naturally produces a very verbose output, but allows detailed monitoring of Nmap's activity, here's an example:
 
 
 ![nmap-image](assets/fr/55.webp)
@@ -2659,7 +2659,7 @@ In the first chapter, we saw that in most cases, Nmap needs to be run as a `root
 As a result, Nmap can be seen as a sensitive component of the system on which it is installed. Be sure to use the latest version of Nmap, as older versions may contain known security vulnerabilities. By using an up-to-date version, you can minimize the risks associated with using the tool.
 
 
-If you have opted to use Nmap not via a session as `root`, but by granting specific privileges to a privileged user so that he has everything he needs to use Nmap (`sudo` or _capabilities_), be aware that Nmap can be used as part of a complete elevation of privilege :
+If you have opted to use Nmap not via a session as `root`, but by granting specific privileges to a privileged user so that he has everything he needs to use Nmap (`sudo` or _capabilities_), be aware that Nmap can be used as part of a complete elevation of privilege:
 
 
 ![nmap-image](assets/fr/65.webp)
@@ -2819,7 +2819,7 @@ Here's what can be seen transiting the network during a `TCP Connect scan` targe
 network sniffing during a TCP Connect scan for an open port
 
 
-We can see that the first TCP packet sent is a `TCP SYN` sent by the client, and the server will then reply with a `TCP SYN/ACK`, indicating that the port is open and hosting an active service. To simulate a legitimate client all the way, Nmap will then send a `TCP ACK` back to the server. Conversely, when scanning a closed port :
+We can see that the first TCP packet sent is a `TCP SYN` sent by the client, and the server will then reply with a `TCP SYN/ACK`, indicating that the port is open and hosting an active service. To simulate a legitimate client all the way, Nmap will then send a `TCP ACK` back to the server. Conversely, when scanning a closed port:
 
 
 ![nmap-image](assets/fr/75.webp)
@@ -3016,7 +3016,7 @@ Here's what can be seen on the network during a TCP Null scan on an open port:
 network capture during a TCP Null scan for an open port
 
 
-The scanning machine sends a flagless packet (`[<None>]` in Wireshark) without any response from the server. Conversely, when the target port is closed :
+The scanning machine sends a flagless packet (`[<None>]` in Wireshark) without any response from the server. Conversely, when the target port is closed:
 
 
 ![nmap-image](assets/fr/86.webp)

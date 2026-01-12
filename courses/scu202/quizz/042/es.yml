@@ -6,4 +6,4 @@ wrong_answers:
   - Para acelerar la instalación
 explanation: |
   Verificar la integridad y autenticidad ayuda a evitar la instalación de software corrupto, infectado o no legítimo.
-reviewed: false
+reviewed: true

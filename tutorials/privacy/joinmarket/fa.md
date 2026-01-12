@@ -1,5 +1,5 @@
 ---
-name: جوین‌مارکت
+name: JoinMarket
 
 description: راهنما و آموزش نحوه استفاده از JoinMarket برای انجام CoinJoin بر روی Bitcoin از طریق خط فرمان
 ---

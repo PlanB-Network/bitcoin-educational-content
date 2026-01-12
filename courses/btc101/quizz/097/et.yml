@@ -1,9 +1,11 @@
-question: Mis juhtub, kui teie privaatvõti paljastatakse kolmandale osapoolele?
-answer: Seotud vahendid ei ole enam turvalised
+question: Mis ei ole mnemooniline fraas Bitcoini kontekstis?
+answer: Sinu Bitcoini rahakoti parool
 wrong_answers:
-  - Kolmas osapool saab vaadata ainult teie tehingute ajalugu
-  - Kolmas osapool saab muuta teie privaatvõtit
-  - Kolmas osapool saab juurdepääsu teie isiklikule teabele
+  - 12-24 sõna nimekiri kindlast sõnastikust
+  - saladus, mis võimaldab ligipääsu sinu bitcoinide fondile
+  - Saladuskood, mis võimaldab ligipääsu sinu bitcoinidele
 explanation: |
-  Kui teie privaatvõti paljastatakse kolmandale osapoolele, ei ole seotud vahendid enam turvalised. See on seetõttu, et privaatvõti esindab juurdepääsu teie vahenditele.
+  Mnemooniline fraas Bitcoini kontekstis on 12 või 24 sõna nimekiri,
+  mis võimaldab sul taastada oma rahakoti mis tahes Bitcoini rahakoti rakenduses. Igaühel,
+  kellel on ligipääs sellele nimekirjale, on samuti ligipääs sinu bitcoinidele.
 reviewed: true

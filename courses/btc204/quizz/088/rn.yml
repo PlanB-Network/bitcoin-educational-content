@@ -1,0 +1,10 @@
+question: Ni ubuhe buryo Wabisabi akoresha kugira ngo yongere ansets z’abaje mu nama?
+answer: N’amafaranga makeyi manini cane.
+wrong_answers:
+  - N’ibikorwa vyinshi bitobito cane.
+  - N’ugucuruza kumwe gutoyi.
+  - Nta n’ibikorwa vy’ubudandaji.
+explanation: |
+  Kugira ngo yongere anonsets z’abaje mu nama, Wabisabi ikoresha amafaranga menshi cane ya CoinJoin akoranya abantu amajana n’amajana.
+  
+reviewed: false

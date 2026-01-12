@@ -1,13 +1,13 @@
-question: Je, kuna athari gani ya ongezeko la fedha Supply kwenye mfumuko wa bei na kushuka kwa bei katika mfumo wa fedha wa kudumu wa Supply?
+question: Je, kuna athari gani ya ongezeko la fedha za Supply kwenye mfumuko wa bei na kushuka kwa bei katika mfumo wa fedha wa kudumu wa Supply?
 answer: Kuongezeka kwa pesa za Supply kunafuta uwezekano wa deflation unaosababishwa na ongezeko la uzalishaji.
 wrong_answers:
-  - Kuongezeka kwa fedha Supply husababisha deflation.
-  - Kuongezeka kwa pesa Supply hakuna athari kwa mfumuko wa bei au kupungua kwa bei.
-  - Kuongezeka kwa fedha Supply husababisha kupungua kwa uzalishaji.
+  - Kuongezeka kwa fedha za Supply husababisha deflation.
+  - Kuongezeka kwa pesa za Supply hakuna athari kwa mfumuko wa bei au kupungua kwa bei.
+  - Kuongezeka kwa fedha za Supply husababisha kupungua kwa uzalishaji.
 explanation: |
   Sura hiyo inaeleza kuwa katika mfumo wa fedha za kudumu Supply, ongezeko
   katika uzalishaji lazima kinadharia kusababisha deflation, yaani, kupungua kwa bei,
   kwani kungekuwa na bidhaa na huduma nyingi zaidi. Hata hivyo, katika fiat ya sasa
-  mfumo wa fedha, ongezeko la fedha Supply cancels nje deflation uwezo
+  mfumo wa fedha, ongezeko la fedha za Supply cancels nje ya deflation uwezo
   kutokana na kuongezeka kwa uzalishaji.
-reviewed: false
+reviewed: true

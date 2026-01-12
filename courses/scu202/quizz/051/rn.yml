@@ -1,0 +1,9 @@
+question: Ni igikoresho ikihe c’umurongo w’amabwirizwa uhanuriwe gukoresha kuri Linux kugira ngo ufute metadata zose kw’ishusho canke muri dosiye ya PDF?
+answer: exiftool
+wrong_answers:
+  - notepad
+  - nanoexif
+  - sudoedit
+explanation: |
+  exiftool ni igikoresho gikomeye co kwerekana no gufuta metadata mu madosiye atandukanye (amashusho, ama PDF, amajwi, n’ibindi).
+reviewed: true

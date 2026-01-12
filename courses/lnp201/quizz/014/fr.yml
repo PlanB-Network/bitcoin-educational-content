@@ -6,4 +6,4 @@ wrong_answers:
   - Vérifier l'équilibre des fonds de chaque participant
 explanation: |
   La dernière étape pour ouvrir un canal consiste à publier la transaction de dépôt sur la blockchain, ce qui officialise l'ouverture du canal.
-reviewed: false
+reviewed: true 

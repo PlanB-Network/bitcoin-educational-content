@@ -1,0 +1,8 @@
+question: None intambara y’amabuye yo mu 2017 yavuyemwo iki?
+answer: Abakoresha n'ibihimba banse ihinduka ry'ivyo kwongera ubunini bw'ibarabara, maze bashiraho ihinduka ryitwa SegWit.
+wrong_answers:
+  - Abakoresha n'ibihimba vy'umubiri bemeye ihinduka ry'ivyo bikorwa kugira ngo bongere ubunini bw'ibarabara, maze bashiraho ihinduka ryitwa SegWit.
+  - Abakoresha n'ibihimba banse ihinduka ryari ritegekanijwe kugira ngo bongere ubunini bw'ibarabara, kandi ntibakoresheje ihinduka ryose.
+  - Abakoresha n'ibihimba vy'umubiri bemeye ihinduka ryasabwe kugira ngo bongere ubunini bw'ibarabara, kandi ntibakoresheje ihinduka ryose.
+explanation: >-
+reviewed: true

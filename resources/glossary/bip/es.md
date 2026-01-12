@@ -7,17 +7,17 @@ Acrónimo de "Propuesta de Mejora Bitcoin" Una Propuesta de Mejora Bitcoin (BIP)
 Los PIF se clasifican en tres categorías principales:
 
 
-- PIF de la vía estándar*: Se refieren a modificaciones que afectan directamente a las implementaciones de Bitcoin, como las reglas de validación de transacciones y bloques;
-- PIF informativos*: Proporcionan información o recomendaciones sin proponer cambios directos en el protocolo;
-- Proceso de los PIF*: Describir los cambios en los procedimientos en torno a Bitcoin, como los procesos de gobernanza.
+- PIF de la vía estándar: Se refieren a modificaciones que afectan directamente a las implementaciones de Bitcoin, como las reglas de validación de transacciones y bloques;
+- **PIF informativos**: Proporcionan información o recomendaciones sin proponer cambios directos en el protocolo;
+- Proceso de los PIF: Describir los cambios en los procedimientos en torno a Bitcoin, como los procesos de gobernanza.
 
 Los PIF normalizados e informativos también se clasifican por "niveles":
 
 
-- Capa de Consenso*: Los BIPs en esta capa conciernen a las reglas de consenso de Bitcoin, tales como modificaciones a las reglas de validación de bloques o transacciones. Estas propuestas pueden ser soft forks (modificaciones compatibles con versiones anteriores) o hard forks (modificaciones no compatibles con versiones anteriores). Por ejemplo, los BIPs para SegWit y Taproot pertenecen a esta categoría;
-- Servicios de pares*: Esta capa se refiere al funcionamiento de la red de nodos Bitcoin, es decir, cómo los nodos se encuentran y se comunican entre sí en Internet.
-- API/RPC*: Los BIP de esta capa se refieren a las interfaces de programación de aplicaciones (API) y las llamadas a procedimientos remotos (RPC) que permiten al software de Bitcoin interactuar con los nodos;
-- Capa de aplicaciones*: Esta capa pertenece a las aplicaciones construidas sobre Bitcoin. Los BIP de esta categoría suelen tratar modificaciones a nivel de los estándares de los monederos Bitcoin.
+- **Capa de Consenso**: Los BIPs en esta capa conciernen a las reglas de consenso de Bitcoin, tales como modificaciones a las reglas de validación de bloques o transacciones. Estas propuestas pueden ser soft forks (modificaciones compatibles con versiones anteriores) o hard forks (modificaciones no compatibles con versiones anteriores). Por ejemplo, los BIPs para SegWit y Taproot pertenecen a esta categoría;
+- **Servicios de pares**: Esta capa se refiere al funcionamiento de la red de nodos Bitcoin, es decir, cómo los nodos se encuentran y se comunican entre sí en Internet.
+- **API/RPC**: Los BIP de esta capa se refieren a las interfaces de programación de aplicaciones (API) y las llamadas a procedimientos remotos (RPC) que permiten al software de Bitcoin interactuar con los nodos;
+- **Capa de aplicaciones**: Esta capa pertenece a las aplicaciones construidas sobre Bitcoin. Los BIP de esta categoría suelen tratar modificaciones a nivel de los estándares de los monederos Bitcoin.
 
 El proceso de presentación de un BIP comienza con la conceptualización y discusión de la idea en la lista de correo *Bitcoin-dev*. Si la idea es prometedora, el autor redacta un BIP siguiendo un formato específico y lo envía a través de una Pull Request en el repositorio GitHub del Core. Los editores revisan esta propuesta para comprobar que cumple todos los criterios. El BIP debe ser técnicamente factible, beneficioso para el protocolo, cumplir con el formato requerido y estar de acuerdo con la filosofía de Bitcoin. Si el BIP cumple estas condiciones, se integra oficialmente en el repositorio GitHub de BIPs. Entonces se le asigna un número. Este número lo decide generalmente el editor, a menudo Luke Dashjr, y se asigna de forma lógica: Los BIP que tratan temas similares suelen recibir números consecutivos.
 

@@ -1,0 +1,9 @@
+question: Co je nutné pro použití Bitcoin bezdůvěryhodným způsobem podle návrhu protokolu?
+answer: Spuštění plně ověřujícího uzlu Bitcoin, který sám ověří všechny bloky a transakce
+wrong_answers:
+  - Používání renomované směnárny kryptoměn se silnými bezpečnostními opatřeními a pojištěním
+  - Spoléhání se na více důvěryhodných služeb třetích stran pro křížové ověřování informací o transakcích
+  - Instalace ověřeného softwaru wallet z oficiálních zdrojů s digitálními podpisy
+explanation: |
+  Chcete-li používat Bitcoin bez důvěry, musíte spustit plně ověřující uzel Bitcoin, který nezávisle ověřuje, zda všechny bloky dodržují pravidla konsensu, kontroluje plán vydávání mincí a zabraňuje dvojímu utrácení. Tím je zajištěno, že ověřování nesvěříte jiným subjektům, a zachováte si tak vlastnost bezdůvěryhodnosti. Používání burz nebo služeb třetích stran znamená důvěřovat ostatním, že vám řeknou pravdu o stavu blockchainu. Ověřený software je sice důležitý pro bezpečnost, ale neeliminuje potřebu vlastního ověřovacího uzlu, abyste dosáhli skutečné bezdůvěryhodnosti systému Bitcoin.
+reviewed: false

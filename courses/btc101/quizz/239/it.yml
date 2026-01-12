@@ -1,14 +1,12 @@
-question: Quale delle seguenti non è una caratteristica chiave dei micro-pagamenti su Lightning Network?
-answer: Tempi di pagamento lunghi.
+question: Qual è il legame tra Bitcoin e il il futuro della tecnologia e della società?
+answer: Bitcoin è una rivoluzione tecnologica che consente lo scambio di valore senza alcuna terza parte fidata.
 wrong_answers:
-  - Commissioni basse.
-  - Pagamenti istantanei.
-  - Scalabilità.
+  - Bitcoin è una forma di tecnologia AI che consente alle persone di scambiare informazioni tramite un server centrale.
+  - Bitcoin è uno strumento per controllare la popolazione mondiale, consentendo l'eliminazione della povertà.
+  - Bitcoin è un metodo per i governi di tracciare le transazioni finanziarie dei loro cittadini.
 explanation: |
-  Con i micro-pagamenti Lightning Network, gli utenti possono
-  avere commissioni di transazione basse, rendendo economico inviare
-  piccolissime quantità di Bitcoin. Possono anche avere pagamenti
-  istantanei, consentendo transazioni in tempo reale. Infine, possono
-  ottenere scalabilità, consentendo la gestione di un grande numero
-  di transazioni simultaneamente. Pertanto, la risposta errata è tempi di pagamento lunghi.
-reviewed: true
+  Il testo spiega che Bitcoin, come internet per i mezzi
+  di comunicazione, è una rivoluzione tecnologica che
+  crea la possibilità di nuove modalità di organizzazione su larga scala,
+  portandoci la possibilità di scambiare valore senza alcuna terza parte fidata.
+reviewed: vero

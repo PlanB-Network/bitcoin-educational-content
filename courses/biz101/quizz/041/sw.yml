@@ -6,4 +6,4 @@ wrong_answers:
   - Kwa sababu faili za CSV huondoa hitaji la kufuatilia msingi wa gharama.
 explanation: |
   Kuwa na rekodi ya kidijitali katika umbizo la kawaida huruhusu kuunganishwa kwa urahisi katika mifumo ya uhasibu, husaidia kudumisha njia za ukaguzi, na kuauni ripoti sahihi ya kodi na utiifu.
-reviewed: false
+reviewed: true

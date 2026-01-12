@@ -1,0 +1,9 @@
+question: Ni uwuhe muco w’ibikorwa vya Hash werekanwa n’uguhinduka kwuzuye muri Hash iyo ubutumwa buhindutse gatoyi?
+answer: Ingaruka z'urubura
+wrong_answers:
+  - Uguhangana n'ugutombora
+  - Uguhangana n'ishusho ya kabiri
+  - Uburebure
+explanation: |
+  Ihinduka ritoyi ry’ivyo winjiza rituma haba ihinduka rikomeye muri Hash, ivyo ni vyo vyitwa avalanche effect.
+reviewed: false

@@ -1,0 +1,12 @@
+question: Ni igikoresho nyamukuru ikihe gikoreshwa n’abacukuzi b’amabuye y’agaciro mu rubuga rwa Bitcoin uno musi?
+answer: ASICs
+wrong_answers:
+  - CPUs
+  - GPUs
+  - FPGAs
+explanation: |
+  Muri iki gihe, abacukuzi b’amabuye y’agaciro bakoresha gusa ASICs zigenewe ivyo .
+  igikorwa, gitunganijwe neza kugira ngo kigerageze umubare munini w'
+  imigwi n'inguvu ntoyi cane zikoreshwa
+  kandi vyihuse uko bishoboka kwose.
+reviewed: true

@@ -1,0 +1,10 @@
+question: Ni iyihe heuristic ishobora gukoreshwa mu guhuza ivyinjijwe vyose vy’ugushiramwo?
+answer: Ivyo CIOH.
+wrong_answers:
+  - Address gusubira gukoresha.
+  - Igisohoka kinini kuruta ibindi vyose.
+  - Ukwishura kw’uruziga.
+explanation: |
+  Umuntu yihweza ibintu hanze arashobora gukoresha CIOH kugira ngo yiyumvire ko ibintu vyose vyinjizwa mu gukorana ari ivy’ikigo kimwe.
+  
+reviewed: false

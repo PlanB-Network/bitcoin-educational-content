@@ -1,12 +1,10 @@
-question: Was ist das potenzielle Ergebnis einer plötzlichen Abwertung oder eines Vertrauensverlustes in eine fiduziarische Währung?
-answer: Hyperinflation.
+question: Welche Auswirkungen hat eine 2%ige Inflation auf die Kaufkraft über 5 Jahre?
+answer: Sie verlieren 10% Ihrer Kaufkraft.
 wrong_answers:
-  - Deflation.
-  - Eine stabile Wirtschaft.
-  - Eine Erhöhung des Währungswertes.
+  - Sie verlieren 2% Ihrer Kaufkraft.
+  - Sie verlieren 5% Ihrer Kaufkraft.
+  - Sie verlieren 20% Ihrer Kaufkraft.
 explanation: |
-  Eine plötzliche Abwertung oder ein Vertrauensverlust in eine fiduziarische
-  Währung kann zu Hyperinflation führen. Dies ist eine Situation,
-  in der die Preise für Waren und Dienstleistungen in einer
-  extrem hohen Rate steigen, was oft zu wirtschaftlicher Instabilität führt.
+  Bei einer Inflation von 2% verlieren Sie jährlich 2% Ihrer Kaufkraft,
+  was über 5 Jahre hinweg 10% entspricht.
 reviewed: true

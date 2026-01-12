@@ -1,10 +1,12 @@
-question: Ilani ya Cypherpunk ni nini?
-answer: Maandishi yaliyoandikwa na Eric Hughes yakidai kuwa faragha ni haki ya kimsingi.
+question: Je, ni sifa kuu ya sarafu ufanisi?
+answer: Inayo fungi, Inayoonekana, Liquid.
 wrong_answers:
-  - Kitabu kilichoandikwa na Julian Assange kuhusu mustakabali wa teknolojia.
-  - Hati inayoelezea kanuni za Bitcoin.
-  - Ilani iliyoandikwa na David Chaum kuhusu umuhimu wa sarafu ya kidijitali.
+  - Yenye Kung'aa, Inagawanyika, Inaharibika.
+  - Fungible, Haigawanyiki, Liquid.
+  - Isiyo ya kuvu, Inayogawanyika, Liquid.
 explanation: |
-  Manifesto ya Cypherpunk iliandikwa na Eric Hughes mnamo 1993
-  na anadai kuwa faragha ni haki ya msingi.
+  Sarafu inayofaa lazima iweze kufungika (inayoweza kubadilishwa
+  bila hasara ya thamani), kugawanywa (kutenganishwa kuwa ndogo
+  sehemu za kuwezesha shughuli za ujazo tofauti), na
+  Liquid (inaweza kubadilishwa kwa urahisi kuwa bidhaa au huduma).
 reviewed: true

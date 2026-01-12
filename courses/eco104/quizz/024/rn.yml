@@ -1,0 +1,11 @@
+question: Halving ni iki mu bijanye n’ivyo Bitcoin ivuga?
+answer: Ikintu kiri muri kode ya Bitcoin kigabanya igice c'impera ya Mining inyuma y'imyaka ine
+wrong_answers:
+  - Inzira yo kwongerera abantu kwemera Bitcoin kw’isi yose.
+  - Uburyo bubuza agaciro ka Bitcoin gusenyuka
+  - Ijambo rikoreshwa mu kudondora ikintu kiba igihe igiciro ca Bitcoin kiduga cane
+explanation: |
+  Halving ni ikintu kiri muri kode ya Bitcoin gicapura Mining. 
+  impembo y’igice hafi buri myaka ine. Iki kintu gifise ingaruka ku 
+  abacukuzi b’amabuye y’agaciro kandi bitera umukazo wo kuduga ku giciro ca Bitcoin.
+reviewed: true

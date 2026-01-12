@@ -4,7 +4,7 @@ description: RoninDojo v2 Bitcoin-solmun asentaminen Raspberry Pi:lle
 ---
 ![cover RoninDojo v2](assets/cover.webp)
 
-***VAROITUS:** Samourai Walletin perustajien pidätyksen ja heidän palvelimiensa takavarikoinnin jälkeen 24. huhtikuuta, tietyt RoninDojon ominaisuudet, kuten Whirlpool, eivät ole enää toiminnassa. On kuitenkin mahdollista, että nämä työkalut voidaan palauttaa tai käynnistää uudelleen eri tavalla tulevina viikkoina. Lisäksi, koska RoninDojon koodi oli isännöity Samourain GitLabiin, joka myös takavarikoitiin, koodin etälataus ei tällä hetkellä ole mahdollista. RoninDojon tiimit työskentelevät todennäköisesti koodin uudelleenjulkaisemiseksi.*
+**VAROITUS:** Samourai Walletin perustajien pidätyksen ja heidän palvelimiensa takavarikoinnin jälkeen 24. huhtikuuta, tietyt RoninDojon ominaisuudet, kuten Whirlpool, eivät ole enää toiminnassa. On kuitenkin mahdollista, että nämä työkalut voidaan palauttaa tai käynnistää uudelleen eri tavalla tulevina viikkoina. Lisäksi, koska RoninDojon koodi oli isännöity Samourain GitLabiin, joka myös takavarikoitiin, koodin etälataus ei tällä hetkellä ole mahdollista. RoninDojon tiimit työskentelevät todennäköisesti koodin uudelleenjulkaisemiseksi.*
 
 _Seuraamme tiiviisti tämän tapauksen kehitystä sekä siihen liittyvien työkalujen kehitystä. Voit olla varma, että päivitämme tämän oppaan, kun uutta tietoa tulee saataville._
 
@@ -16,7 +16,7 @@ _Tämä opas on tarkoitettu vain koulutus- ja tiedotustarkoituksiin. Emme kannus
 
 Edellisessä oppaassa olimme jo selittäneet menettelyn RoninDojo v1:n asentamiseksi ja käyttämiseksi. Viime vuoden aikana RoninDojon tiimit ovat kuitenkin julkaisseet version 2 heidän toteutuksestaan, mikä merkitsi merkittävää käännekohtaa ohjelmiston arkkitehtuurissa. Todellakin, he siirtyivät pois Linux Manjaro -jakelusta Debianin hyväksi. Tämän seurauksena he eivät enää tarjoa esiasennettua kuvaa automaattiseen asennukseen Raspberry Pi:lle. Mutta on edelleen olemassa menetelmä manuaaliseen asennukseen. Tätä menetelmää käytin oman solmun asentamiseen, ja siitä lähtien RoninDojo v2 on toiminut upeasti Raspberry Pi 4:ssäni. Tarjoan siis uuden oppaan RoninDojo v2:n manuaaliseen asentamiseen Raspberry Pi:lle.
 
-https://planb.network/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
+https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-95ec5dde72b0
 
 
 
@@ -211,7 +211,7 @@ RoninUI:n kotisivulla sinua pyydetään aloittamaan asetusten määrittäminen. 
 
 ![lets start](assets/notext/25.webp)
 
-Tässä vaiheessa RoninUI esittelee sinulle `root` salasanasi. On olennaista pitää se turvassa. Voit valita fyysisen varmuuskopion, paperille, tai tallentaa sen [salasananhallintaohjelmaan](https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
+Tässä vaiheessa RoninUI esittelee sinulle `root` salasanasi. On olennaista pitää se turvassa. Voit valita fyysisen varmuuskopion, paperille, tai tallentaa sen [salasananhallintaohjelmaan](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
 
 ![root password](assets/notext/26.webp)
 
@@ -245,7 +245,7 @@ Onnittelut! RoninDojo v2 -solmusi on nyt konfiguroitu ja valmis käytettäväksi
 
 **Jos olet siirtymässä vanhasta RoninDojo v1 -solmusta** tähän uuteen versioon tätä opasta käyttäen säilyttäen saman SSD:n, solmusi pitäisi automaattisesti havaita ja uudelleenkäyttää levyllä olevat olemassa olevat tiedot, säästäen sinut IBD:n suorittamisen tarpeesta. Tässä tapauksessa sinun tarvitsee vain odottaa, että solmusi synkronoituu uusimpien lohkojen kanssa.
 
-### Vaihe 8: "veth* korjaus"
+### Vaihe 8: "veth korjaus"
 Jos kohtaat bugin RoninDojo v2:ssa Raspberry Pilla, jossa asennuksen jälkeen solmusi yhtäkkiä muuttuu SSH:n kautta tavoittamattomaksi, mutta palautuu yksinkertaisen uudelleenkäynnistyksen jälkeen, sinun tulee noudattaa tätä vaihetta 8. Tämä yleinen bugi voidaan helposti korjata yhteisön kehittämällä ratkaisulla: "_veth korjaus_". Tämä pieni korjaus poistaa äkilliset katkokset pysyvästi. Näin voit soveltaa sitä.
 
 Avaa uusi terminaali henkilökohtaisella tietokoneellasi ja muodosta SSH-yhteys solmuusi käyttäen seuraavaa komentoa:
@@ -255,7 +255,7 @@ Jos esimerkiksi solmusi IP-osoite on `192.168.1.40`, sopiva komento olisi:
 `SSH ronindojo@192.168.1.40`
 
 Sinua pyydetään syöttämään käyttäjän salasana. Syötä se ja paina `enter` vahvistaaksesi. Tämän jälkeen pääset RoninCLI-käyttöliittymään. Käytä näppäimistösi nuolia navigoidaksesi `Exit RoninDojo` -vaihtoehtoon ja paina `enter` valitaksesi sen.
-Tässä vaiheessa olet solmusi terminaalissa, komentokehotteen ollessa samankaltainen kuin: `ronindojo@RoninDojo:~ $`. Sovellaksesi veth*-korjauksen, kirjoita seuraava komento ja paina `enter`: `sudo nano /etc/dhcpcd.conf`
+Tässä vaiheessa olet solmusi terminaalissa, komentokehotteen ollessa samankaltainen kuin: `ronindojo@RoninDojo:~ $`. Sovellaksesi **veth**-korjauksen, kirjoita seuraava komento ja paina `enter`: `sudo nano /etc/dhcpcd.conf`
 
 Vahvista salasanasi uudelleen ja paina `enter`.
 
@@ -322,7 +322,7 @@ Yksityiskohtainen opas on valmisteilla, joka opastaa sinut askel askeleelta läp
 
 Syvemmän ymmärryksen saamiseksi coinjoinista ja sen käytöstä Bitcoinissa, kutsun sinut myös tutustumaan tähän toiseen artikkeliin: Ymmärtäminen ja coinjoinin käyttö Bitcoinissa, jossa kerron kaiken mitä sinun tarvitsee tietää tästä tekniikasta.
 
-https://planb.network/tutorials/privacy/on-chain/coinjoin-dojo-c4b20263-5b30-4c74-ae59-dc8d0f8715c2
+
 
 ### Whirlpool Stat Toolin (WST) käyttö
 
@@ -330,7 +330,7 @@ Suoritettuasi coinjoineja Whirlpoolin kanssa, on hyödyllistä arvioida tarkasti
 
 Syvemmän ymmärryksen saamiseksi näiden anonsettien laskentamekanismeista suosittelen lukemaan artikkelin: REMIX - WHIRLPOOL, joka yksityiskohtaisesti käsittelee näiden indeksien toimintaa.
 
-https://planb.network/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 
@@ -508,3 +508,4 @@ Siinä se! Kiitos, että seurasit tätä opasta loppuun. Jos pidit siitä, kannu
 - [https://gist.github.com/LaurentMT/e758767ca4038ac40aaf](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf)
 - [https://medium.com/@laurentmt/esittelyssä-boltzmann-85930984a159](https://medium.com/@laurentmt/esittelyssä-boltzmann-85930984a159)
 - [https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry](https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry)
+

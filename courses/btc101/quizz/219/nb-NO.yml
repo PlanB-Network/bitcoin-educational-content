@@ -1,10 +1,9 @@
-question: Hva antyder teksten om fremtiden til Bitcoin?
-answer: Den kommer ikke til å forsvinne
+question: Hvilken tilnærming strukturerer utviklingen av Bitcoin som beskrives i dette kapittelet?
+answer: Lagvis utvikling
 wrong_answers:
-  - Den vil bli erstattet av en bedre teknologi
-  - Den vil bli forbudt over hele verden
-  - Den vil miste sin verdi
-explanation: >-
-  Teksten antyder at Bitcoin ikke kommer til å forsvinne. Tvert imot,
-  revolusjonen har nettopp begynt.
+  - Monolittisk blokkjede
+  - Naturlig sharding
+  - Generalisert onchain-kjøring
+explanation: |
+  Bitcoin beholder et enkelt og robust basislag, mens overliggende protokoller legger til spesifikke funksjoner.
 reviewed: false

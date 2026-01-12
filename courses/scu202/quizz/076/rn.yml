@@ -1,0 +1,9 @@
+question: Ni kuki wokoresha porogarame ya firewall nka NetGuard canke RethinkDNS kuri Android?
+answer: Ubugenzuzi kuri buri nzira ya Interineti
+wrong_answers:
+  - Bika amakuru yose ubwo nyene
+  - Kwugurura imihora yose ya Wi-Fi
+  - Kuramwo imigera yose
+explanation: |
+  Izo porogarame zikora nka firewall zo mu karere, zituma amakuru asohoka ashobora guhagarikwa canke kwemererwa mu buryo bwa porogarame ku yindi.
+reviewed: true

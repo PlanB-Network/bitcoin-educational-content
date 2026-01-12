@@ -1,0 +1,9 @@
+question: Warum wird eine Festplatte für eine Bitcoin Node nicht empfohlen?
+answer: Weil es den IBD und den allgemeinen Gebrauch deutlich verlangsamt
+wrong_answers:
+  - Weil sie keine Blockchain-Dateien speichern kann
+  - Weil sie zu wenig Energie verbraucht und zu explodieren droht
+  - Weil sie nicht mit Bitcoin Core kompatibel ist
+explanation: |
+  Festplatten schränken die Leistung ein, verlängern den IBD beträchtlich und verschleißen schnell unter der Last einer Node.
+reviewed: true

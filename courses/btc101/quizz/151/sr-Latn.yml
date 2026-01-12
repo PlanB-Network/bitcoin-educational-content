@@ -1,8 +1,8 @@
-question: Šta je Proof of Work (POW-dokaz o radu)?
-answer: To je bezbednosni konsenzus Bitkoin protokola.
+question: Koja je svrha Proof of Work u Bitkoin mreži?
+answer: Proof of Work osigurava verodostojnost informacija bez poverenja trećoj strani.
 wrong_answers:
-  - To je proces stvaranja novih bitkoina.
-  - To je metoda verifikacije Bitkoin transakcija.
-  - To je algoritam koji se koristi za rudarenje bitkoina.
+  - Proof of Work se koristi za kreiranje novih bitkoina poveravanjem trećoj strani.
+  - Proof of Work se koristi za verifikaciju Bitkoin transakcija poveravanjem trećoj strani.
+  - Proof of Work se koristi za promenu Bitkoin protokola bez poverenja trećoj strani.
 explanation: >-
 reviewed: true

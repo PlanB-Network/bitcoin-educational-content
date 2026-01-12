@@ -6,4 +6,4 @@ wrong_answers:
   - It blocks the use of the revocation key
 explanation: |
   The timelock imposes a delay during which the cheater cannot retrieve their funds, thus giving the other party the opportunity to respond.
-reviewed: false
+reviewed: true

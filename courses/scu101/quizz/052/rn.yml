@@ -1,0 +1,12 @@
+question: Ni kuki ibimenyetso(Tokens) vy’ibikoresho, nk’imfunguruzo za USB canke amakarata y’ubuhinga bwa none(smart cards), bibonwa ko ari vyo bitanga umutekano mwiza kuri 2FA?
+answer: Bitanga urufunguzo rw’ibanga rwihariye kuri buri rubuga kandi hakabaho kugenzura URL (bumwe mu bwoko bw'amahuza) imbere y’uko wemerewa kwinjira.
+wrong_answers:
+  - Biragoye cane kwiba mubigaraga, ariko iyo abasuma babishoboye, bazokura amabanga muri ico gikoresho bitagoranye.
+  - Bitanga ijambo ry'ibanga rimwe gusa ku rubuga rwose kandi bigasuzuma URL imbere yo kwemera kwinjira.
+  - Ni ubuhinga bushasha kandi burazimvye, rero bitegerezwa kuba vyiza kuruta.
+explanation: |
+  Ibimenyetso (Tokens) vy'ibikoresho bitanga umutekano ukwiye mu gutanga 
+  urufunguzo rw’ibanga rwihariye kuri buri rubuga kandi hakabaho kugenzura 
+  URL (bumwe mu bwoko bw'amahuza) imbere y’uko wemerewa kwinjira. Ivyo bituma bigorana kuruta 
+  kuronka uburenganzira bwokwinjira kuwutavyemerewe.
+reviewed: true

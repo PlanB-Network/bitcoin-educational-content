@@ -1,0 +1,9 @@
+question: ส่วนประกอบทั้งสี่ที่กำหนดสัญญา RGB คืออะไร?
+answer: Genesis, Schema, Interface และ Interface Implementation
+wrong_answers:
+  - Genesis, Schema, Transition and Interface Implementation
+  - Genesis, Interface, การเปลี่ยนผ่านและการขยาย
+  - Genesis, Interface, Interface Implementation และ Extension
+explanation: |
+  สัญญา RGB ประกอบด้วยองค์ประกอบที่แตกต่างกันสี่อย่าง; Genesis, Schema, Interface และ Interface Implementation.
+reviewed: false

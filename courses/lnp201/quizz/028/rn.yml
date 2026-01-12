@@ -1,0 +1,9 @@
+question: Bob yokora iki iyo abonye ko Alice agerageza guhenda mu gihe c’ugufunga umurongo?
+answer: Koresha urufunguzo rwo gukuraho kugira ngo ubone amafranga yose
+wrong_answers:
+  - Gukuraho Alice ya Commitment Transaction.
+  - Funga ubudasiba umurongo ata mahitamwo yo gusubira kugurura
+  - Usabe igice c'amahera ariho gusa
+explanation: |
+  Iyo habaye ubuhendanyi, Bob arashobora gukoresha urufunguzo rwo gukuraho amahera kugira ngo asubire kuronka amahera yose yari muri uwo muhora, gutyo agahana Alice kubera ivyo yagerageje.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Onko Immanuel Kant filosofi?
+answer: Saksan kieli.
+wrong_answers:
+  - Englanniksi.
+  - Puola.
+  - Hollantilainen.
+explanation: |
+  Immanuel Kant (1724-1804) oli saksalainen filosofi, jota pidetään yhtenä valistuksen tärkeimmistä ajattelijoista. Hän kehitti kriittisen filosofian, joka pyrki sovittamaan yhteen rationalismin ja empirismin.
+reviewed: false

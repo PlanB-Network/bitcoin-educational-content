@@ -1,0 +1,9 @@
+question: Qual è il ruolo di un relè Nostr installato su Umbrel?
+answer: Ospitate le vostre pubblicazioni a livello locale
+wrong_answers:
+  - Controllare le transazioni Bitcoin
+  - Creare canali Nostr con i propri contatti
+  - Backup locale di Blockchain Nostr
+explanation: |
+  Un relay Nostr su Umbrel consente di ospitare i dati a livello locale, garantendo disponibilità e sovranità.
+reviewed: true

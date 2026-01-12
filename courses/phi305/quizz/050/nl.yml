@@ -1,0 +1,9 @@
+question: Was Immanuel Kant?
+answer: Een Duitse filosoof van de Verlichting.
+wrong_answers:
+  - Een Engelse filosoof en leerling van Newton
+  - Een filosoof uit de 17e eeuw.
+  - Een christelijk filosoof.
+explanation: |
+  Immanuel Kant (1724-1804) was een Duitse filosoof uit de Verlichting. Hij ontwikkelde een kritische filosofie die het moderne denken diepgaand beïnvloedde, met name met zijn 'Kritiek van de zuivere rede'.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Jaký je hlavní účel použití specifikátorů fragmentů jako `expr`, `ty` a `ident` při porovnávání vzorů při vytváření vlastního makra podobného funkci v Rust?
+answer: Definovat, jaké prvky kódu lze porovnávat, a zajistit syntakticky správný vstup
+wrong_answers:
+  - Určení návratového typu generovaného kódu a optimalizace výkonu kompilace
+  - Určení pořadí provádění větví maker a kontrola typu za běhu
+  - Řízení vzorů přidělování paměti a definování pravidel pro rozsah proměnných v rozšířeném kódu
+explanation: |
+  Specifikátory fragmentů ve vzorech maker slouží jako typová omezení, která ověřují syntaxi vstupních tokenů během expanze maker. Zajišťují, že makro obdrží správný typ prvku kódu (výraz, typ, identifikátor atd.), a poskytují jasné chybové hlášení, pokud se vyskytne nesprávná syntaxe. K tomu dochází v době kompilace při porovnávání vzorů, nikoli během provádění za běhu, a neřídí přímo alokaci paměti, pořadí provádění ani návratové typy generovaného kódu.

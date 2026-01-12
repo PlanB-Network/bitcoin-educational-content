@@ -1,0 +1,9 @@
+question: Entropie ni iki mu bijanye n’ubuhinga bwo gukingira amakuru?
+answer: Ingero y'ukudashobora kumenya imbere y'igihe ijana n'inzira y'imburakimazi
+wrong_answers:
+  - Uburyo bwo gupfuka amakuru y'agaciro
+  - Uburyo bwo kubara imfunguruzo za bose
+  - Ubuhinga bwo gufatanya amakuru
+explanation: |
+  Mu vy’ubuhinga bwo gukingira amakuru, entropi igereranya urugero rw’ukudakeka canke akajagari mu nzira y’imburakimazi, ari ngombwa kugira ngo umuntu ashobore gutanga imfunguruzo zitekanye.
+reviewed: false

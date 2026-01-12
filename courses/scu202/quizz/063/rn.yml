@@ -1,0 +1,9 @@
+question: Ni iyihe mucukumbuzi igaragaza inyandiko gusa, ata interface y’ibicapo anke ubufasha bwa JavaScript, ari yo ya kera cane iki bungabungwa n’uyu musi?
+answer: Lynx
+wrong_answers:
+  - Mullvad Browser
+  - Polypane
+  - Vivaldi
+explanation: |
+  Lynx, yasohotse mu 1992, ikora mu buryo bw’inyandiko, ntiyemera JavaScript kandi iracakoreshwa mu ntumbero zidasanzwe cane.
+reviewed: true

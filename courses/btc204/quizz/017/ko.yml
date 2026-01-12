@@ -1,0 +1,9 @@
+question: On-Chain 활동 묶음을 실제 신원의 한 형태와 연결하는 정보에 대한 용어는 무엇인가요?
+answer: 진입 지점입니다.
+wrong_answers:
+  - 연결 키입니다.
+  - 지문 링크.
+  - 분석 마커입니다.
+explanation: |
+  실제 신원을 On-Chain 활동과 연결할 수 있는 행동 및 정보를 엔트리 포인트라고 합니다.
+reviewed: true

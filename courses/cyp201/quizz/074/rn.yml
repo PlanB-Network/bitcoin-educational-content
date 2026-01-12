@@ -1,0 +1,9 @@
+question: Index /84'/ ku burebure 1 bw'inzira y'inkomoko yerekana iki?
+answer: Itegeko rya P2WPKH (SegWit v0)
+wrong_answers:
+  - Itegeko rya P2TR (SegWit v1)
+  - Ifaranga rya Bitcoin Testnet
+  - Ifaranga rya Bitcoin Mainnet
+explanation: |
+  Index /84'/ isobanurwa muri BIP84 kugira ngo yerekane ikoreshwa ry'urugero rwa SegWit v0 n'amaderesi ya P2WPKH ku burebure 1 (ubw'intumbero y'ugukura).
+reviewed: false

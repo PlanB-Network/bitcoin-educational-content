@@ -1,0 +1,8 @@
+question: Como a arquitetura de componentes modulares do LDK permite a integração do módulo de segurança de hardware (HSM) para transações Lightning?
+answer: Permitindo a extração de componentes de assinatura específicos que podem analisar o contexto da transação Lightning e as implicações de segurança
+wrong_answers:
+  - Ao fornecer um HSM daemon completo que funciona de forma independente e comunica através de canais encriptados
+  - Implementando controladores específicos de hardware que interagem diretamente com os chipsets HSM para operações criptográficas
+  - Criando sandboxes isoladas que executam a lógica do protocolo Lightning inteiramente dentro do ambiente HSM
+explanation: |
+  O design modular do LDK permite que os desenvolvedores extraiam apenas os componentes de assinatura e verificação de transações para integração com o HSM. Isso permite a criação de dispositivos de assinatura Lightning-aware que entendem o contexto da transação além da simples assinatura - eles podem avaliar se uma transação representa pagamentos legítimos, operações de roteamento ou ameaças potenciais à segurança. As outras opções descrevem abordagens monolíticas ou específicas de hardware que contradizem a filosofia flexível e modular da LDK de fornecer componentes compostáveis em vez de soluções completas.

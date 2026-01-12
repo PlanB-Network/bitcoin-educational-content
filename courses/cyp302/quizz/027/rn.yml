@@ -1,0 +1,9 @@
+question: Ni igiki gihindura umuco w’igikorwa ca XOR?
+answer: Urutonde rw'ibikorwa ntirugira ico rukoze ku ngaruka y'igikorwa
+wrong_answers:
+  - XOR ikora gusa n'imibare ibiri
+  - XOR isaba ibikorwa vy'uburebure bumwe
+  - Ikibanza c'ibice mu bikorwa ntibigira ico bikoze ku ngaruka y'igikorwa
+explanation: |
+  XOR ni ihinduka, bisobanura ko a XOR b ingana na b XOR a.
+reviewed: false

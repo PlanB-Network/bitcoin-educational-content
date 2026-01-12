@@ -1,0 +1,9 @@
+question: Ni igiki kigereranyo c’ubuzima bwite c’uburyo bwa Bitcoin?
+answer: Ivy’ugucuruza ni ivy’abantu bose, ariko akaranga k’abakoresha ntikamenyekana.
+wrong_answers:
+  - Satoshi Nakamoto ni we wenyene ashobora kumenya amakuru y’ivyo bicuruzwa.
+  - Ivy’ugucuruza birashirwa mu buryo bw’ibanga kandi ntibiboneka ku rubuga.
+  - Intwaro zonyene ni zo zishobora kumenya amakuru y’ivyo bicuruzwa.
+explanation: |
+  Ku bijanye na Bitcoin, kubera ko uruja n’uruza rw’amakuru rudashobora guca hagati y’ibikorwa n’ivy’abantu bose, urugero rw’ubuzima bwite rushingiye ku gutandukanya hagati y’akaranga k’ukoresha n’ibikorwa.
+reviewed: false

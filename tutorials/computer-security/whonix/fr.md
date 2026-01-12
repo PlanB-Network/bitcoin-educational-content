@@ -46,7 +46,7 @@ Pour faire fonctionner Whonix, vous aurez besoin d’un **hyperviseur** comme Vi
 
 Une fois le fichier téléchargé, procédez à l’installation comme pour n’importe quel logiciel classique. Acceptez les options par défaut sauf si vous avez des besoins spécifiques. Êtes-vous perdu ? Découvrez notre guide sur l'utilisation de VirtualBox.
 
-https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
+https://planb.academy/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 ### Importation de Whonix
 
 Une fois VirtualBox installé, vous pouvez importer les fichiers `.ova` de Whonix que vous avez préalablement téléchargés (`Whonix-Gateway-Xfce.ova` et `Whonix-Workstation-Xfce.ova`).
@@ -116,16 +116,16 @@ sudo apt full-upgrade
 
 **Tor Browser** est le navigateur web par défaut de Whonix. Il repose sur le réseau **Tor**, qui redirige votre trafic à travers plusieurs relais à travers le monde, rendant pratiquement impossible l'identification de votre adresse IP réelle.
 
-https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
+https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
 ### Electrum Bitcoin Wallet
 
 **Electrum** est un portefeuille Bitcoin léger et rapide, préinstallé sur Whonix pour vous permettre de gérer des **transactions en cryptomonnaies** de manière anonyme. Il ne télécharge pas toute la blockchain mais utilise des serveurs distants pour obtenir les informations nécessaires, ce qui le rend beaucoup plus léger qu’un wallet complet.
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 Whonix n’est pas qu’un simple système d’exploitation : c’est un véritable **environnement sécurisé** pensé pour protéger votre anonymat, votre vie privée et vos activités sensibles. Grâce à son architecture basée sur Tor, son cloisonnement intelligent entre Gateway et Workstation, et ses outils préinstallés comme Tor Browser, KeePassXC ou Electrum, il offre une solution clé en main pour toute personne souhaitant **naviguer anonymement**, **travailler en toute sécurité** ou **manipuler des données confidentielles**.
 
 Pour renforcer votre sécurité sur votre système Unix, découvrez notre tutoriel sur l'audit de votre machine : vérifiez les failles de sécurité dans votre système d'exploitation et assurez-vous que vos données ne sont pas compromises.
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af

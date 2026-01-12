@@ -2,8 +2,8 @@ question: İstiflemenin ana amacı nedir?
 answer: Yavaş yavaş biriken satoshiler
 wrong_answers:
   - Kısa vadeli spekülasyon
-  - Tek seferde büyük miktarda satoshis satın almak
-  - Günlük ödemeler için Bitcoin'ı kullanma
+  - Tek seferde büyük miktarda satoshi satın almak
+  - Günlük ödemeler için Bitcoin'ı kullanmak
 explanation: |
-  İstifleyici, satın alma fiyatının zaman içinde ortalamasını almak için düzenli aralıklarla küçük miktarlarda yatırım yapar.
+  İstifçi, satın alma fiyatının zaman içinde ortalamasını almak için düzenli aralıklarla küçük miktarlarda yatırım yapar.
 reviewed: false

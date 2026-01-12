@@ -1,0 +1,9 @@
+question: 오늘날 시장을 선도하는 노드 인 어 박스 솔루션은 무엇인가요?
+answer: Umbrel
+wrong_answers:
+  - Start9
+  - Nodl
+  - 로닌도장
+explanation: |
+  엄브렐은 설치가 간편하고 다양한 App Store 기능 덕분에 가장 인기 있는 노드 인 어 박스 솔루션입니다.
+reviewed: true

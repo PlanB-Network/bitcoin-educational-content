@@ -1,0 +1,9 @@
+question: Ni ikihe kintu kigoye cane gushika ku mafaranga y’ubuhinga bwa none nka Bitcoin?
+answer: Kubura amafaranga akoreshwa incuro zibiri
+wrong_answers:
+  - Ugutungana
+  - Ubunyakuri
+  - Ukuri
+explanation: |
+  Ku mafaranga y’ubuhinga bwa none, kumenya neza ko ata gukoresha amahera kabiri biragoye cane, kuko ikintu cose c’ubuhinga bwa none ari amakuru. Amakuru atandukanye n’ibintu vy’umubiri, ntagabanywa mu gihe c’uguhanahana ahubwo arakwiragira mu kugwiza.
+reviewed: false

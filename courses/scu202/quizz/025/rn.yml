@@ -1,0 +1,9 @@
+question: Ni ubuhe bwoko bwa’amapaki Canonical yateguye kugira ngo itandukanye n’ibindi porogarame n’ivyo zikenera?
+answer: Snap
+wrong_answers:
+  - AppImage
+  - Portage
+  - RPM
+explanation: |
+  Ubwoko bwa Snap, bwateguwe na Canonical, buratuma umuntu ashobora gushiramwo porogarama zigenga, zitandukanije na sisiteme kandi zigahindurwa zigenga.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Ni igiki gihangayikishije cane ku bijanye n’igiciro c’ibidukikije ca Bitcoin Mining?
+answer: Ivyo gukoresha inguvu.
+wrong_answers:
+  - Ivyo gukora ama ASIC.
+  - Ivyo gusubira gukoresha ama ASIC.
+  - Igiciro c’umuyagankuba.
+explanation: >-
+reviewed: true

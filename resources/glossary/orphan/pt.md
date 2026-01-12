@@ -8,4 +8,4 @@ No entanto, na utilização comum, o termo "bloco órfão" refere-se frequenteme
 
 ![](../../dictionnaire/assets/9.webp)
 
-> ► *Pessoalmente, prefiro utilizar o termo "bloco órfão" para me referir a um bloco sem pai e o termo "bloco obsoleto" para me referir a um bloco que não tem um filho. Considero este termo mais lógico e compreensível, embora a maioria dos bitcoiners não siga esta utilização
+> ► *Pessoalmente, prefiro utilizar o termo "bloco órfão" para me referir a um bloco sem pai e o termo "bloco obsoleto" para me referir a um bloco que não tem um filho. Considero este termo mais lógico e compreensível, embora a maioria dos bitcoiners não siga esta utilização.*

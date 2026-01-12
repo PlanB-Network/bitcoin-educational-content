@@ -1,0 +1,9 @@
+question: Igitero co kwiyumvira mu gihe co guhanahana amakuru ni iki?
+answer: Uwo muterabwoba asubiza Alice ubutumwa bafashe hagati ya Alice na Bob.
+wrong_answers:
+  - Uwutera ahindura urutonde rw'ubutumwa mu guhanahana amakuru
+  - Uwutera yohereza ubutumwa bwahinduwe ata n'ikimenyetso
+  - Uwutera akoresha ubutumwa bwa kera kugira ngo akore ubundi bushasha
+explanation: |
+  Mu gitero co kwiyumvira, uwutera afata ubutumwa buva kuri Alice buja kuri Bob, agaca arungika ubwo butumwa nyene kuri Alice, ivyo bikaba bitera urujijo mu kiganiro.
+reviewed: false

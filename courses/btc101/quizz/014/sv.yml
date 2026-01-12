@@ -1,10 +1,11 @@
-question: Vad var DigiCash-projektet?
-answer: Ett försök att skapa anonyma elektroniska pengar av David Chaum.
+question: Vad är en av nackdelarna med guld som en form av pengar?
+answer: Den är inte lätt delbar.
 wrong_answers:
-  - Ett projekt för att skapa en digital Wallet för Bitcoin.
-  - Ett försök att digitalisera alla fysiska kontanter av Federal Reserve.
-  - Ett projekt för att skapa en kryptovaluta baserad på Bitcoin.
+  - Den behåller inte sitt värde i rymden.
+  - Det eroderar med tiden.
+  - Det är lätt att producera.
 explanation: |
-  David Chaum introducerade konceptet med anonyma elektroniska
-  pengar med sitt projekt DigiCash på 1980-talet.
+  En av de största nackdelarna med guld som en form av pengar är
+  att det är svårt att dela upp i små enheter när behovet uppstår
+  uppstår, vilket gör det mindre praktiskt att använda.
 reviewed: true

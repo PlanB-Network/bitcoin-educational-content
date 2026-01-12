@@ -1,5 +1,5 @@
 ---
-name: सैट्सकार्ड
+name: Satscard
 description: नंचुक के साथ सैट्सकार्ड सेट अप करना और उसका उपयोग करना
 ---
 ![cover](assets/cover.webp)

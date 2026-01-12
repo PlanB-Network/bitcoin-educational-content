@@ -1,0 +1,9 @@
+question: Mu nzira y’ubuhinga bwa RSA, ni kuki bigoye kuronka agaciro ka d?
+answer: Kubera ko bisaba kumenya φ(N), ivyo bikaba bivana n’ibintu vy’intango vya N .
+wrong_answers:
+  - Kuko d ari umubare w'imburakimazi
+  - Kuko d ari nini kuruta N .
+  - Kuko d ibarwa ataco ihuriyeko na φ(N)
+explanation: |
+  Kuronka d biragoye kuko bishingiye ku bumenyi bwa φ(N), na bwo bukaba bushingiye ku gaciro ka p na q, ari vyo bihimba vy’intango vya N.
+reviewed: false

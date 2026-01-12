@@ -1,0 +1,9 @@
+question: 호들러의 주요 목표는 무엇인가요?
+answer: 비트코인을 장기적으로 보유하기 위한 방법
+wrong_answers:
+  - 단기적으로 추측하려면
+  - Bitcoin 트랜잭션을 자주 발생시키려면
+  - Bitcoin 거래의 프라이버시를 극대화하기 위해
+explanation: |
+  호들러는 자산의 예상 성장에 따른 이익을 얻기 위해 수년간 비트코인을 보유하는 것을 목표로 합니다.
+reviewed: false

@@ -1,0 +1,11 @@
+question: Hari uwushobora gusubiramwo kode ya Bitcoin?
+answer: Ego ariko ntushobora gukopa agaciro k'urubuga rwa Bitcoin
+wrong_answers:
+  - Ego kandi woshobora gukopa agaciro k'urubuga rwa Bitcoin
+  - Oya kandi ushobora gukopa agaciro k'urubuga rwa Bitcoin
+  - Oya, kuko kode ya Bitcoin ni inkomoko yugaye
+explanation: |
+  Naho kode ya Bitcoin ari inkomoko yuguruye kandi ishobora gukoporwa, 
+  agaciro ka Bitcoin ntikava ku kode yayo. Rikomoka kuri . 
+  urubuga rwayo rw’abakoresha n’ukwizigira n’ukwemerwa rwarubatse uko igihe kigenda kirarenga.
+reviewed: true

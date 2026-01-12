@@ -1,0 +1,9 @@
+question: Ni ubunini ubuhe bwose bw’urufunguzo rwagutse rufise umubare w’igenzura?
+answer: 82 bayiti
+wrong_answers:
+  - 78 bayiti
+  - 64 bayiti
+  - 128 bayiti
+explanation: |
+  Urufunguzo rwagutse ni 78 bytes ata n'umubare w'igenzura na 82 bytes n'umubare w'isuzuma urimwo.
+reviewed: false

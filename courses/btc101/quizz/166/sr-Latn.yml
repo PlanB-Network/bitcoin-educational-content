@@ -1,12 +1,8 @@
-question: Šta rudari mogu učiniti za one elektrane koje još nisu povezane na mrežu?
-answer: Oni mogu delovati kao kupac poslednje instance.
+question: Koji je jedan od razloga zašto je Bitkoin privlačan određenim grupama?
+answer: Njegova sposobnost da ponudi rešenja kao što su elektronski novac od poverenja, otpornost na cenzuru ili transparentna i nepromenljiva monetarna politika.
 wrong_answers:
-  - Oni mogu obezbediti elektranama električnu energiju.
-  - Oni mogu povezati elektrane na mrežu.
-  - Oni mogu regulisati cenu električne energije.
-explanation: |
-  Rudari mogu delovati kao kupci poslednjeg utočišta za elektrane koje
-  još nisu povezane na mrežu. Ovo omogućava elektranama
-  da obezbede finansiranje čak i pre nego što budu povezane na
-  električnu mrežu.
+  - Lako je falsifikovati, i može stvoriti rešenja za primanje više novca jednostavnim klikom.
+  - Njime upravlja centralna vlast koja slobodno distribuira kapital korisnicima.
+  - Nije pseudoniman, tako da je svaki korisnik dobro poznat i pouzdan.
+explanation: >-
 reviewed: true

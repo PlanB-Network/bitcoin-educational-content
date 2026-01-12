@@ -1,9 +1,9 @@
-question: Mikä oli lohkosodan lopputulos vuonna 2017?
-answer: Käyttäjät ja solmut hylkäsivät ehdotetun muutoksen lohkokoon suurentamiseksi ja aktivoivat päivityksen nimeltä SegWit.
+question: Mikä on coinbase-transaktio?
+answer: Lohkon ensimmäinen transaktio, joka sisältää louhijan palkkion.
 wrong_answers:
-  - Käyttäjät ja solmut hyväksyivät ehdotetun muutoksen lohkokoon suurentamiseksi ja aktivoivat päivityksen nimeltä SegWit.
-  - Käyttäjät ja solmut hylkäsivät ehdotetun muutoksen lohkokoon suurentamiseksi eivätkä aktivoineet mitään päivityksiä.
-  - Käyttäjät ja solmut hyväksyivät ehdotetun muutoksen lohkokoon suurentamiseksi eivätkä aktivoineet mitään päivityksiä.
+  - Transaktio, joka suoritetaan pörssissä Coinbase.
+  - Lohkon toinen transaktio, joka sisältää korkeimmat maksut.
+  - Transaktio, jonka louhija suorittaa saatuaan palkkion.
 explanation: >-
-  Vuoden 2017 lohkosodassa käyttäjät ja solmut voittivat hylkäämällä ehdotetun muutoksen lohkokoon suurentamiseksi ja aktivoimalla päivityksen nimeltä SegWit.
+  Coinbase-transaktio on aina lohkon ensimmäinen transaktio. Se sisältää louhijan palkkion validointityön suorittamisesta.
 reviewed: true

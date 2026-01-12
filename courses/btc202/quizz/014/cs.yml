@@ -1,0 +1,9 @@
+question: Co kombinoval původní software Bitcoin v roce 2009?
+answer: Wallet, smyčec a vedlejší
+wrong_answers:
+  - Uzel, Miner a Block explorer
+  - Wallet, vrtulník a Miner
+  - Miner a Mining pool
+explanation: |
+  Původní software Bitcoin integroval funkce Wallet, node a Miner do jediného programu.
+reviewed: true

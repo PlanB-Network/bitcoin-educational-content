@@ -1,0 +1,8 @@
+question: Node ya pruned ni ikihe mu bijanye na Bitcoin?
+answer: Igipfukisho kigumya gusa amabuye N ya nyuma mu ciyumviro.
+wrong_answers:
+  - Igikoresho cemeza gusa amafaranga.
+  - Igikoresho gitanga amakuru gusa ku zindi nzira.
+  - Igikoresho gishitsa gusa amategeko y’umurongo wa Bitcoin.
+explanation: >-
+reviewed: true

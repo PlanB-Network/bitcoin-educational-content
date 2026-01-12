@@ -11,7 +11,7 @@ description: 讓您掌控數位生活的 Linux 發行版。
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
+https://planb.academy/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 ## 開始使用 PureOS
 
@@ -27,25 +27,25 @@ PureOS 是 Purism 開發的 Debian 作業系統。PureOS 適合 IT 專業人士�
 
 
 
-- 簡單、直覺的 Interface**：GNOME 提供了一個清晰的 Interface 桌面，即使是不熟悉命令列的人也能輕鬆使用。
+- 簡單、直覺的 **Interface**：GNOME 提供了一個清晰的 Interface 桌面，即使是不熟悉命令列的人也能輕鬆使用。
 
 
 
 
 
-- 免費**：與大多數 Linux 發行版一樣，PureOS 完全免費使用。不過，您可以每月訂閱以支援開發人員。
+- **免費**：與大多數 Linux 發行版一樣，PureOS 完全免費使用。不過，您可以每月訂閱以支援開發人員。
 
 
 
 
 
-- 安全性與穩定性**：PureOS 的架構和作業模式使其成為高度安全的發行版，可保證資料保護和系統穩定。
+- **安全性與穩定性**：PureOS 的架構和作業模式使其成為高度安全的發行版，可保證資料保護和系統穩定。
 
 
 
 
 
-- 文件與活躍的社群**：PureOS 擁有清楚易懂的說明文件，以及致力於回應的社群，讓您可以輕鬆解決問題，並逐步學習系統。
+- **文件與活躍的社群**：PureOS 擁有清楚易懂的說明文件，以及致力於回應的社群，讓您可以輕鬆解決問題，並逐步學習系統。
 
 
 
@@ -181,7 +181,7 @@ PureOS 提供多種啟動作業系統的選項。選擇 ** 測試或安裝 PureO
 
 
 
-- 刪除磁碟**：用於完整安裝 PureOS，刪除 Hard 磁碟上所有先前存在的資料。
+- 刪除磁碟：用於完整安裝 PureOS，刪除 **Hard** 磁碟上所有先前存在的資料。
 
 
 
@@ -191,7 +191,7 @@ PureOS 提供多種啟動作業系統的選項。選擇 ** 測試或安裝 PureO
 
 
 
-- 手動分區**建立您自己的樂譜
+- 手動分區**建立您自己的樂譜**
 
 
 
@@ -260,7 +260,7 @@ PureOS 提供多種啟動作業系統的選項。選擇 ** 測試或安裝 PureO
 
 
 
-- 透過 Interface 圖形更新** ：
+- 透過 Interface 圖形更新：
 
 
 開啟 **Software** 應用程式，然後轉到 **Updates** 標籤。可用的更新會自動顯示。按一下 **下載**，下載完成後再按一下 **安裝**。
@@ -331,9 +331,9 @@ PureOS 還包含 **LibreOffice** 辦公室套件，其中包括 .NET 和 Java：
 
 
 
-- Writer**：完整的文字處理器，可用於建立和編輯文件。
-- Calc**: 一個功能強大的試算表程式，用來管理您的資料和計算。
-- Impress**：用於製作專業簡報的工具。
+- **Writer**：完整的文字處理器，可用於建立和編輯文件。
+- **Calc**: 一個功能強大的試算表程式，用來管理您的資料和計算。
+- **Impress**：用於製作專業簡報的工具。
 
 
 
@@ -353,4 +353,4 @@ PureOS 原生可存取基本工具、強大的套件管理員和豐富的開放�
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

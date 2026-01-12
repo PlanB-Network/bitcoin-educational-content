@@ -1,0 +1,9 @@
+question: Ni akamaro akahe nyamukuru ka distribution za rolling release?
+answer: Gukoresha porogarame nshasha
+wrong_answers:
+  - Guhuza cane na Windows
+  - Ikibanza kitagira Interface y’ibicapo
+  - Intererano y’Ubucuruzi itegekanijwe
+explanation: |
+  Rolling releases ishiramwo ibishasha umwanya ku mwanya, bituma umuntu ashobora kwama aronka verisiyo nshasha.
+reviewed: true

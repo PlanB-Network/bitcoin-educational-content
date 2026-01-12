@@ -1,0 +1,9 @@
+question: Sự khác biệt về mặt kinh tế giữa một nút và Miner là gì?
+answer: Miner nhận được phần thưởng, nút không có lợi nhuận trực tiếp
+wrong_answers:
+  - Node nhận được phí, Miner nhận được khoản trợ cấp khối
+  - Nút nhận được phần thưởng, Miner không có lợi nhuận trực tiếp
+  - Cả hai đều nhận được giải thưởng giống nhau
+explanation: |
+  Người khai thác nhận được phần thưởng (tiền trợ cấp và phí), trong khi một nút không mang lại lợi ích tài chính trực tiếp nào cho người dùng.
+reviewed: true

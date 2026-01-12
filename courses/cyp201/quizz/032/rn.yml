@@ -1,0 +1,9 @@
+question: Ni irihe bendera rya sighash ryemerera abantu gukorana n’abandi mu gupfuka input imwe n’isohoka ryose?
+answer: GUSUBIZA_VYOSE | SIGHASH_UMUNTU wese ashobora kwishura
+wrong_answers:
+  - SIGHASH_NTA | SIGHASH_UMUNTU wese ashobora kwishura
+  - SIGHASH_NTA MUGORE | SIGHASH_UMUNTU wese ashobora kwishura
+  - GUSUBIZA_VYOSE
+explanation: |
+  SIGHASH_ALL ifatanijwe na SIGHASH_ANYONECANPAY yemerera kwongerako ivyinjijwe ata guhindura ibisohoka.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni uwuhe mugambi watangujwe mu 1983 wo guhingura sisiteme yo gukoreshe kubuntu?
+answer: GNU
+wrong_answers:
+  - BSD Unix
+  - X Window System project
+  - Open Source Initiative
+explanation: |
+  Richard Stallman yatanguje umugambi wa GNU mu mwaka w’1983 kugira ngo akore sisiteme yo gukoresha kubuntu.
+reviewed: true

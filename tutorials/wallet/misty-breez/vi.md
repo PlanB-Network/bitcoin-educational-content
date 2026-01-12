@@ -1,5 +1,5 @@
 ---
-name: Gió Mờ Sương
+name: Misty Breez
 description: Lightning Wallet không có bát.
 ---
 
@@ -37,7 +37,7 @@ Bây giờ, chúng ta hãy bắt đầu cuộc phiêu lưu với Misty Breez Wal
 
 
 
-Ứng dụng di động Misty Breez có sẵn trên các nền tảng tải xuống chính thức như Google Play Store (trên Android) và Apple Store (trên iOS). Bạn cũng có thể được chuyển hướng đến đúng ứng dụng từ trang web chính thức [Misty Breez] (https://breez.technology/misty/).
+Ứng dụng di động Misty Breez có sẵn trên các nền tảng tải xuống chính thức như Google Play Store (trên Android) và Apple Store (trên iOS). Bạn cũng có thể được chuyển hướng đến đúng ứng dụng từ trang web chính thức [Misty Breez](https://breez.technology/misty/).
 
 
 
@@ -81,7 +81,7 @@ Sau đây là một số mẹo về cách sao lưu cụm từ dự phòng của 
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Để sao lưu cụm từ của bạn, hãy chọn menu **Tùy chọn > Bảo mật**, sau đó chọn tùy chọn **Kiểm tra cụm từ sao lưu**.
 
@@ -210,4 +210,4 @@ Xin chúc mừng! Bây giờ bạn đã hiểu rõ về danh mục Misty Breez v
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125

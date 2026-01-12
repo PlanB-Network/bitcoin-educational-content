@@ -1,14 +1,11 @@
-question: Vad är risken med att använda en Multisig Wallet?
-answer: Att inte ha tillgång till tillräckligt många individuella privata nycklar eller reservkomponenter.
+question: Vad är en standardmetod för att återställa din Wallet?
+answer: Skriva in din Mnemonic-fras i en Wallet-programvara.
 wrong_answers:
-  - Att ha tillgång till tillräckligt många individuella privata nycklar eller reservkomponenter.
-  - Dela dina privata nycklar med andra parter.
-  - Dela dina publika nycklar med andra parter.
+  - Spara din Mnemonic-fras i en digital fil.
+  - Skriva din Mnemonic-fras på en whiteboard.
+  - Dela din Mnemonic-fras med en betrodd vän.
 explanation: |
-  När du använder en Multisig Wallet ska varje privat nyckel för
-  Multisig bör lagras på olika platser. Detta beror på
-  eftersom Multisig kräver flera signaturer för att utföra
-  för att genomföra en transaktion, så ett visst antal plånböcker
-  behövs. Genom att förvara varje del på olika platser
-  till en extra Layer av säkerhet.
-reviewed: true
+  Standardmetoden för att säkerhetskopiera den privata nyckeln i en
+  Bitcoin Wallet är genom att ange din Mnemonic-fras i valfri
+  Wallet-programvara. Detta gör att du kan återställa din Wallet.
+reviewed: false

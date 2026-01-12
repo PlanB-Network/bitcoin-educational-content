@@ -1,0 +1,9 @@
+question: Vilken österrikisk ekonom talar om planism?
+answer: Hayek.
+wrong_answers:
+  - Menger.
+  - Mises.
+  - Popper.
+explanation: |
+  Friedrich Hayek (1899-1992) var den österrikiske ekonom som myntade begreppet "planism" för att beskriva centraliserad ekonomisk planering. Han kritiserar detta synsätt i "The Road to Serfdom".
+reviewed: false

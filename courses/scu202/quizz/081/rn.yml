@@ -1,0 +1,9 @@
+question: Ni imbogamizi iyihe nyamukuru Telegram ifise mu bijanye n’ibanga ry’ubutumwa?
+answer: Kiretse gusa secret exchange niyo ari end-to-end encrypted (amakuru anyegezwa impera kuyindi) ku bisanzwe
+wrong_answers:
+  - Ishirako amahera yo kwiyandikisha atamenyekana
+  - Ntiyemeza ko amadosiye yakiriwe ari ay’ukuri
+  - Nta mukiriya w’isoko yuguruye ariho
+explanation: |
+  Kubisanzwe, ubutumwa bwo kuri Telegram bubikwa ku ma seriveri y’iryo shirahamwe, hakaba hariho gusa ibiganiro vy’ibanga vyungukira ku kunyegeza amakuru impera kuyindi.
+reviewed: true

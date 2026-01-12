@@ -1,0 +1,9 @@
+question: モバイルウォレットをUmbrel経由でElectrsに接続する最も簡単な方法は？
+answer: TorのQRコードをスキャンする
+wrong_answers:
+  - クッキーファイルをダウンロードする
+  - 秘密鍵をインポートする
+  - Wallet.datファイルをコピーする
+explanation: |
+  Umbrelでは、Electrsが提供するTorのQRコードを直接スキャンしてモバイル接続を設定することができます。
+reviewed: true

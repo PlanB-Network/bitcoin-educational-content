@@ -1,0 +1,14 @@
+---
+term: Bitcoin 캐쉬(BCH)
+---
+
+2017년 8월 1일 블록 478,558에서 발생한 Bitcoin(BTC)의 Hard Fork에서 발생한 암호화폐 시스템입니다.
+
+Fork는 프로토콜의 확장성 문제(블록사이즈 전쟁)를 어떻게 Address화할지에 대한 Bitcoin 커뮤니티 내 의견 차이에서 비롯되었습니다.
+
+Bitcoin은 블록 용량을 소폭의 간접적인 증가를 달성하기 위해 SegWit(Soft Fork)을 구현한 반면, Bitcoin 캐시는 블록 크기를 1MB에서 8MB로 증가시키는 직접적인 증가를 선택했습니다.
+
+목표는 거래 수수료를 줄이고 확인 시간을 개선하는 것이었습니다.
+
+
+![](../../dictionnaire/assets/49.webp)

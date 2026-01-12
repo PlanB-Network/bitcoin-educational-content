@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe nyamukuru chain code ifise mu gukuraho imfunguruzo z’abana?
+answer: Injiza inkomoko y'inyongera y'ubumara
+wrong_answers:
+  - Kumenya uburebure bw'uburongozi
+  - Bika urutonde rw'imfunguzo z'umwana
+  - Kumenya neza ko bihuye n'amasezerano ya Bitcoin
+explanation: |
+  chain code ikoreshwa mu gushiramwo isoko y’inyongera kandi yihariye y’entropie ku rufunguzo rwose rwavuye.
+reviewed: false

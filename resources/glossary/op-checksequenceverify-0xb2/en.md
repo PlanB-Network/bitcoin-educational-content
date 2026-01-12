@@ -3,7 +3,7 @@ term: OP_CHECKSEQUENCEVERIFY (0XB2)
 ---
 
 Renders the transaction invalid if any one of these characteristics is observed:
-* The stack is empty;
+*The stack is empty;*
 * The value at the top of the stack is less than `0`;
 * The disable flag for the value at the top of the stack is undefined and; The transaction version is less than `2` or; The disable flag for the `nSequence` field of the input is set or; The timelock type is not the same between the `nSequence` field and the value at the top of the stack (real time or number of blocks) or; The value at the top of the stack is greater than the value of the `nSequence` field of the input.
 

@@ -1,11 +1,9 @@
-question: Apa salah satu manfaat potensial dari Lightning Network bagi para pembuat konten?
-answer: Mereka akan diberi insentif untuk menghasilkan konten berkualitas guna mempertahankan perhatian pengguna
+question: Apa salah satu pertanyaan utama yang diajukan tentang masa depan keuangan?
+answer: Siapa yang seharusnya memegang, memberi otorisasi, dan melacak uang yang kita gunakan?
 wrong_answers:
-  - Mereka akan dapat membebankan biaya lebih tinggi untuk konten mereka
-  - Mereka akan dapat menjangkau audiens yang lebih luas
-  - Mereka akan dapat menghasilkan konten lebih cepat
+  - Bagaimana kita bisa menghilangkan uang sepenuhnya?
+  - Bagaimana kita bisa memastikan bahwa setiap orang memiliki jumlah uang yang sama?
+  - Bagaimana kita bisa membuat uang menjadi usang?
 explanation: >-
-  Dengan Lightning Network, para pembuat konten akan diberi insentif untuk
-  menghasilkan konten berkualitas guna mempertahankan perhatian pengguna. Pengguna, pada gilirannya, hanya akan membayar
-  untuk konten yang mereka konsumsi, sehingga mengeliminasi biaya langganan di muka.
+  Teks tersebut mengajukan beberapa pertanyaan tentang masa depan keuangan, salah satunya adalah siapa yang seharusnya memegang, memberi otorisasi, dan melacak uang yang kita gunakan.
 reviewed: false

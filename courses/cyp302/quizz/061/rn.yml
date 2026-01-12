@@ -1,0 +1,9 @@
+question: Ni ubuhe bwoko bw’ugushiramwo amakuru bukoresha amakuru adahinduka?
+answer: Guhagarika ububiko
+wrong_answers:
+  - Ugushiramwo amakuru
+  - Kode y'ukwemeza ubutumwa
+  - Urufunguzo rwa bose
+explanation: |
+  Block encryption igabanya amakuru mu bice vy’ubunini butahinduka maze ikayapfuka yigenga.
+reviewed: false

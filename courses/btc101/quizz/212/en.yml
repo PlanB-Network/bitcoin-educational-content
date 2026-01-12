@@ -1,12 +1,10 @@
-question: How does this course describe Bitcoin?
-answer: A multidisciplinary subject.
+question: What does this course suggest about the future of Bitcoin?
+answer: It is not going to disappear.
 wrong_answers:
-  - A simple subject.
-  - A physical subject.
-  - A single-disciplinary subject.
+  - It will be replaced by a better technology.
+  - It will be banned worldwide.
+  - It will lose its value.
 explanation: |
-  Bitcoin is described as a multidisciplinary subject because
-  it raises questions related to various fields, including
-  cryptography, game theory, economics and monetary policy,
-  computer science, philosophy, energy, laws, and regulation.
+  The course text suggests that Bitcoin is not going to
+  disappear. On the contrary, the revolution has just begun.
 reviewed: true

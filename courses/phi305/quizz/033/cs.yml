@@ -1,0 +1,9 @@
+question: Je výsledkem strukturální inflace?
+answer: Zvýšení peněz Supply.
+wrong_answers:
+  - Zvýšení cen
+  - Fiskální politika.
+  - Protiliberální opatření.
+explanation: |
+  Strukturální inflace je výsledkem růstu peněz Supply. Pokud množství peněz v oběhu roste rychleji než produkce zboží a služeb, vede to k všeobecnému růstu cen.
+reviewed: false

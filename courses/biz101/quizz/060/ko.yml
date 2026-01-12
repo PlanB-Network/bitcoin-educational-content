@@ -1,0 +1,9 @@
+question: 스타터 프로필이 Bitcoin 결제를 수락하기 위한 기본 하드웨어 요구 사항은 무엇인가요?
+answer: 스마트폰
+wrong_answers:
+  - A Bitcoin Miner ASIC
+  - Hardware Wallet
+  - 자체 호스팅 서버
+explanation: |
+  스타터 프로필은 스마트폰이나 태블릿에 Lightning Wallet만 있으면 되기 때문에 가벼운 솔루션입니다.
+reviewed: true

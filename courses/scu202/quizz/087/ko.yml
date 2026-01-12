@@ -1,0 +1,9 @@
+question: 이메일 없이 익명 계정을 생성할 수 있고 Bitcoin 결제를 허용하는 오픈 소스 VPN 애플리케이션은 무엇인가요?
+answer: Mullvad
+wrong_answers:
+  - ExpressVPN
+  - Proton VPN
+  - NordVPN
+explanation: |
+  이메일이나 비밀번호 없이 완전히 익명으로 계정을 생성할 수 있고, Bitcoin 또는 현금으로 결제할 수 있는 것이 특징입니다.
+reviewed: false

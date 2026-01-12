@@ -1,13 +1,11 @@
-question: Wat is het aanbevolen gebruik van een offline, of Cold, fysieke Wallet?
-answer: Grote hoeveelheden opslaan.
+question: Wat is een aanbevolen alternatief voor het gebruik van papier voor het opslaan van je Mnemonic zin?
+answer: Graveren op een metalen plaat.
 wrong_answers:
-  - Dagelijkse uitgaven opslaan.
-  - Kleine hoeveelheden bewaren.
-  - Sparen op korte termijn.
+  - Opslaan in een digitaal bestand.
+  - Schrijf het op een whiteboard.
+  - Opslaan als een contact in je telefoon.
 explanation: |
-  Een offline, of Cold, fysieke Wallet wordt aanbevolen voor
-  voor het opslaan van grote bedragen, omdat deze minder kwetsbaar is voor
-  online bedreigingen dan Hot portemonnees. Het is echter niet
-  aanbevolen voor dagelijkse uitgaven, omdat het minder
-  toegankelijk is voor dagelijkse transacties.
+  Eén van de aanbevolen alternatieven voor papier
+  voor het opslaan van je Mnemonic zin is deze te graveren op een metalen plaatje. Deze
+  oplossing is duurzamer en gaat langer mee.
 reviewed: true

@@ -1,0 +1,12 @@
+question: Wei Dai'nin parası ne kadar?
+answer: Dolandırıcılık tespitinin merkezi bir otorite yerine bir değerlendiriciler topluluğu tarafından gerçekleştirildiği anonim bir dijital para birimi fikri.
+wrong_answers:
+  - Bitcoin'dan önce yaygın olarak kullanılan ve bir grup cypherpunk tarafından kontrol edilen bir dijital para birimi.
+  - CIA tarafından yaratılan ve ordu tarafından kullanılan bir dijital para biçimi.
+  - Wei Dai tarafından daha ölçeklenebilir olması için Bitcoin'e rakip olarak oluşturulan bir dijital para birimi.
+explanation: |
+  Wei Dai'nin b-parası, anonim bir dijital para fikriydi
+  merkezi bir kuruluşu olmayan para birimi
+  gW-2'nin oluşturulması. Aslında, Bitcoin'de de belirtilmiştir
+  beyaz kağıt.
+reviewed: true

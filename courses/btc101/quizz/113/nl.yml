@@ -1,13 +1,11 @@
-question: Wat weerhoudt iedereen ervan om dezelfde Bitcoin Wallet te gebruiken?
-answer: Verschillende individuen hebben verschillende use-cases nodig.
+question: Wanneer is Bitcoin voor het eerst gebruikt om fysieke goederen te kopen?
+answer: Toen Laszlo Hanyecz 2 pizza's kocht voor 10.000 BTC.
 wrong_answers:
-  - Het is duur om een Bitcoin Wallet te gebruiken.
-  - Het is illegaal om een Bitcoin Wallet te gebruiken.
-  - Mensen zullen het nooit eens worden over de naam van zo'n Wallet.
+  - Toen Hal Finney een auto kocht voor 100.000 BTC.
+  - Toen Satoshi Nakamoto een huis kocht voor 1.000.000.000 BTC.
+  - Geen van de andere opties.
 explanation: |
-  Terwijl de ene persoon veiligheid belangrijk vindt, kan een ander
-  waarde hechten aan gebruiksvriendelijkheid of specifieke functies. Een
-  enkele Bitcoin Wallet misschien niet aan ieders
-  eisen, waardoor er meerdere Wallet
-  opties bestaan.
+  De eerste keer dat Bitcoin werd gebruikt om fysieke goederen te kopen, was toen
+  goederen was toen Laszlo Hanyecz 2 pizza's kocht voor 10.000
+  BTC, op 2010/05/22, wat nu bekend staat als Pizza Dag
 reviewed: true

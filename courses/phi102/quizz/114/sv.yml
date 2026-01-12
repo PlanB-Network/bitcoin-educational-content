@@ -1,0 +1,8 @@
+question: Vad händer, enligt den ekonomiska teorin om en fri marknad, när entreprenörer för tidigt förutser konsumenternas efterfrågan på en innovation som ännu inte finns?
+answer: Avsaknaden av vinst avskräcker dem naturligtvis från att fortsätta och hindrar andra från att följa deras exempel
+wrong_answers:
+  - Genom statliga ingripanden styrs deras ansträngningar om till mer samhällsnyttiga projekt genom subventioner
+  - De fortsätter att investera tills konsumenternas preferenser så småningom stämmer överens med deras ursprungliga förutsägelser
+  - Marknadsregleringar tvingar dem att lägga ner sina projekt för att undvika ekonomiskt slöseri
+explanation: |
+  I ett system med fri marknad fungerar vinster som viktiga signaler som indikerar verklig efterfrågan från konsumenterna. När entreprenörer missbedömer marknadens timing och förutser en efterfrågan som inte finns, misslyckas de med generate-vinster, vilket naturligtvis avskräcker från ytterligare investeringar i den riktningen. Denna självkorrigerande mekanism förhindrar att resurser slösas bort på för tidiga innovationer. De andra alternativen antyder felaktigt extern intervention eller ihållande investeringar trots marknadssignaler, vilket strider mot kapitlets betoning på hur vinstsignaler styr rationellt ekonomiskt beslutsfattande.

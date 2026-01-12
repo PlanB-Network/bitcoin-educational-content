@@ -1,0 +1,10 @@
+question: Bitcoin 트랜잭션의 가중치에 영향을 미치는 요소는 무엇인가요?
+answer: 입력 및 출력의 수입니다.
+wrong_answers:
+  - Blockchain의 크기입니다.
+  - 입력 및 출력의 양입니다.
+  - 사용된 UTXO의 나이입니다.
+explanation: |
+  Bitcoin 트랜잭션의 입력과 출력이 많을수록 vB에서 더 무거워집니다.
+  
+reviewed: true

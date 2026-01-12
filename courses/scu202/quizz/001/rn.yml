@@ -1,0 +1,9 @@
+question: Ni imigenzo iyihe ihambaye kugira ngo ugabanye amakuru yawe aja ahagaragara igihe uriko urakoresha Interineti?
+answer: Gufuta ama cookies kenshi gashoboka
+wrong_answers:
+  - Kugumizako ama cookies yose
+  - Guhagarika uburyo bwo kurondera mw’ibanga bwa mucukumbuzi
+  - Gukoresha mucukumbuzi ya kera
+explanation: |
+  Gufuta canke kugabanya ama cookies bigabanya amatangazo y’amamazwa bigatuma ubasha kuronderera ku mbuga mw’ibanga.
+reviewed: true

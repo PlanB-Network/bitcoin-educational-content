@@ -1,0 +1,8 @@
+question: Merkle kanıtlarının SPV (Basitleştirilmiş Ödeme Doğrulaması) müşterilerine işlem dahiliyetini doğrularken sağladığı birincil avantaj nedir?
+answer: Tüm bloğu indirmeden, binlerce işlem içeren bloklar için bile sadece birkaç yüz bayt gerektiren işlem dahil etme doğrulamasına izin verirler
+wrong_answers:
+  - Blok özetini zorluk hedefine karşı doğrulama ihtiyacını ortadan kaldırarak hafif istemciler için hesaplama gereksinimlerini azaltırlar
+  - Blok içindeki tüm işlem girdilerini doğrulayarak double-spending saldırılarını önleyen kriptografik kanıt sağlarlar
+  - SPV müşterilerinin aynı anda birden fazla tam düğüme bağlanmadan tüm işlem geçmişini yeniden yapılandırmasını sağlarlar
+explanation: |
+  Merkle kanıtları, Merkle ağaçlarının logaritmik büyüme özelliğinden faydalanarak SPV istemcilerinin köke giden yol boyunca yalnızca kardeş hash'lerle işlem içermesini doğrulamasına olanak tanır. Bu, blok boyutundan bağımsız olarak yalnızca birkaç yüz bayt gerektirir, bu da onu hafif istemciler için pratik hale getirir. Yanlış cevaplar Merkle ispatlarını diğer Bitcoin mekanizmalarıyla karıştırmaktadır - zorluk doğrulamasını ortadan kaldırmazlar, double-spending'i doğrudan engellemezler ve işlem geçmişini yeniden yapılandırmazlar.

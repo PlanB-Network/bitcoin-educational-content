@@ -1,9 +1,11 @@
-question: Kapan tanggal pertukaran pribadi terakhir yang diketahui dari Satoshi Nakamoto melalui email?
-answer: 23 April 2011
+question: Apa pentingnya distribusi geografis dari node Bitcoin?
+answer: Hal ini membuatnya hampir mustahil untuk menghancurkan semua salinan blockchain.
 wrong_answers:
-  - 12 Desember 2010
-  - 8 Januari 2009
-  - 31 Oktober 2008
+  - Ini menentukan harga Bitcoin di berbagai wilayah.
+  - Ini mempengaruhi kecepatan transaksi Bitcoin.
+  - Ini menentukan jumlah Bitcoin yang dapat ditambang di sebuah wilayah.
 explanation: >-
-  Tanggal pertukaran pribadi terakhir yang diketahui dari Satoshi Nakamoto melalui email adalah pada 23 April 2011 kepada pengembang Mike Hearn.
-reviewed: true
+  Distribusi geografis dari node Bitcoin membuatnya hampir mustahil
+  untuk menghancurkan semua salinan blockchain. Ini karena node-node tersebut tersebar
+  dan akan sulit untuk secara fisik menyita semuanya.
+reviewed: false

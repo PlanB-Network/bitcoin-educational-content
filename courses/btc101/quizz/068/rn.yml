@@ -1,0 +1,13 @@
+question: Ni irihe jambo Mnemonic riri muri Bitcoin Wallet?
+answer: Urutonde rw’amajambo 12 canke 24 atuma ushobora gushika ku bitcoins zawe.
+wrong_answers:
+  - Ijambobanga ryatowe kugira ngo ushikire Bitcoin Wallet.
+  - Kode yo gupfuka amafaranga y’ibikorwa vya Bitcoin.
+  - Ijambo ry’ibanga ryo gukira risenya Bitcoin Wallet iyo bikenewe.
+explanation: |
+  Kuva mu 2017, urufunguzo rw’ibanga rushobora gushirwa mu rutonde rworoshe
+  y’amajambo 12 canke 24, yitwa ijambo Mnemonic. Iri jambo
+  ni ububiko bwa Bitcoin Wallet yawe, rero biragufasha
+  gushika ku bice vyawe ukoresheje Bitcoin Wallet iyo ari yo yose
+  porogaramu/porogaramu.
+reviewed: true

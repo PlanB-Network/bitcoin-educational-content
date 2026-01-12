@@ -53,7 +53,7 @@ Ovaj vodič korak po korak pokazuje vam kako da napišete poruku na Blockchain B
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -85,7 +85,7 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -132,7 +132,7 @@ Ovo će prikazati prijem Address:
 
 
 
-https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
+https://planb.academy/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-6bc310975177
 
 
 ---
@@ -150,8 +150,8 @@ Odaberite poruku koju želite uneti (npr. `Hvala Satoshi`). Napomena: Poruke OP_
 
 
 
-- ostavite lep izraz naše humanosti,*
-- izbegavajte unos sadržaja zbog kojeg biste mogli zažaliti*
+- ostavite lep izraz naše humanosti,
+- izbegavajte unos sadržaja zbog kojeg biste mogli zažaliti
 
 
 
@@ -208,9 +208,9 @@ koji se sastoji od :
 
 
 
-- Destination Address**: A valid Bitcoin Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. This can be your own Address, if you wish to return the transferred funds to yourself;
-- Iznos prenosa**: iznos transakcije, ovde `0.00001` BTC. **Molimo obratite pažnju**: pošto je jedinica koja se koristi u Electrum-u BTC, iznos naveden u skripti transakcije mora biti izražen u BTC, a ne u Sats ;
-- Script OP_RETURN**: Poruka konvertovana u heksadecimalni oblik prethodi skripti (`OP_RETURN <poruka>), 0`. Ovde, `5468616e6b73205361746f736869` za poruku u heksadecimalnom obliku.
+- **Destination Address**: A valid Bitcoin Address. Ici, `bc1q879cv4p5q6s9537orange3zss33d3turzad8`. This can be your own Address, if you wish to return the transferred funds to yourself;
+- **Iznos prenosa**: iznos transakcije, ovde `0.00001` BTC. **Molimo obratite pažnju**: pošto je jedinica koja se koristi u Electrum-u BTC, iznos naveden u skripti transakcije mora biti izražen u BTC, a ne u Sats;
+- Script **OP_RETURN**: Poruka konvertovana u heksadecimalni oblik prethodi skripti (`OP_RETURN <poruka>), 0`. Ovde, `5468616e6b73205361746f736869` za poruku u heksadecimalnom obliku.
 
 
 
@@ -218,7 +218,7 @@ koji se sastoji od :
 
 
 
-Savet: Koristite alat [OP_RETURN Generator] (https://resources.davidcoen.it/opreturnelectrum/) da automatski generate skriptu. Čak i ako ovaj alat predlaže unos iznosa u BTC, zadržite jedinicu podešenu u Electrum.
+Savet: Koristite alat [OP_RETURN Generator](https://resources.davidcoen.it/opreturnelectrum/) da automatski generate skriptu. Čak i ako ovaj alat predlaže unos iznosa u BTC, zadržite jedinicu podešenu u Electrum.
 
 
 

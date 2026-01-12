@@ -1,0 +1,9 @@
+question: پرکاربردترین پیاده‌سازی نود Bitcoin چیست؟
+answer: Bitcoin core
+wrong_answers:
+  - Bitcoin Knots
+  - Bitcoin کلاسیک
+  - Bcoin
+explanation: |
+  با حدود 9 از 10 نود در شبکه، Bitcoin core مشتری اکثریت است.
+reviewed: true

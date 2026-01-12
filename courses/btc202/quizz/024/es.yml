@@ -1,0 +1,9 @@
+question: ¿Cuál es el riesgo si un Wallet depende de un nodo de terceros?
+answer: Riesgo de vigilancia y censura
+wrong_answers:
+  - Riesgo de Double-spending automático
+  - Riesgo de pérdida de claves privadas
+  - Riesgo de pérdida y vigilancia
+explanation: |
+  Un nodo de terceros puede analizar o bloquear sus transacciones, o incluso asociar sus datos a su identidad.
+reviewed: true

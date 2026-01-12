@@ -1,0 +1,9 @@
+question: Ni irihe tandukaniro rikomeye riri hagati y’ibikorwa vya ShR na RotR?
+answer: ShR ihindura ibice mu kwongerako zero, RotR yongera kwinjiza ibice vyahinduwe
+wrong_answers:
+  - ShR ikuraho ibice vyahinduwe, RotR igwiza agaciro kavyo
+  - ShR ihindukira ibubamfu, RotR ihindukira iburyo
+  - ShR ni igikorwa kijanye n'ubwenge, RotR ni imibare
+explanation: |
+  ShR ihindura ibice iburyo mu kwongerako zero, mu gihe RotR ikora uruziga rw’ibice.
+reviewed: false

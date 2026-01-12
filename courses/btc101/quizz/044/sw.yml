@@ -1,12 +1,10 @@
-question: Je, ni matokeo gani yanayowezekana ya kushuka kwa thamani kwa ghafla au kupoteza imani katika sarafu ya uaminifu?
-answer: Mfumuko wa bei.
+question: Ni nini athari ya mfumuko wa bei wa 2% kwenye nguvu ya ununuzi kwa miaka 5?
+answer: Unapoteza 10% ya uwezo wako wa kununua.
 wrong_answers:
-  - Deflation.
-  - Uchumi thabiti.
-  - Kuongezeka kwa thamani ya sarafu.
+  - Unapoteza 2% ya uwezo wako wa kununua.
+  - Unapoteza 5% ya uwezo wako wa kununua.
+  - Unapoteza 20% ya uwezo wako wa kununua.
 explanation: |
-  Kushuka kwa thamani kwa ghafla au kupoteza imani kwa mwaminifu
-  sarafu inaweza kusababisha mfumuko wa bei. Hii ni hali
-  ambapo bei za bidhaa na huduma huongezeka kwa
-  kiwango cha juu sana, mara nyingi husababisha kuyumba kwa uchumi.
+  Kwa mfumuko wa bei wa 2%, unapoteza 2% ya uwezo wako wa kununua
+  kila mwaka, ambayo ni sawa na 10% zaidi ya miaka 5.
 reviewed: true

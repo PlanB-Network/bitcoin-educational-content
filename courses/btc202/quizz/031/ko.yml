@@ -1,0 +1,9 @@
+question: 특히 가벼운 라즈베리파이에 가장 적합한 배포판은 어떤 것이 있나요?
+answer: 라스피블리츠
+wrong_answers:
+  - Umbrel
+  - MyNode
+  - Start9
+explanation: |
+  라즈베리파이에 최적화된 RaspiBlitz는 이러한 머신에 비해 너무 무거워진 엄브렐과 달리 여전히 가볍습니다.
+reviewed: true

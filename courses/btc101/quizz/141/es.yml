@@ -1,11 +1,9 @@
-question: ¿Cuál es el costo de operar un nodo de Bitcoin en un Raspberry Pi 4 en términos de consumo de electricidad por año (a partir de 2023)?
-answer: Un poco menos de 10€ por año.
+question: ¿Cuál fue el resultado de la guerra de bloques en 2017?
+answer: Los usuarios y nodos rechazaron el cambio propuesto para aumentar el tamaño del bloque y activaron una actualización llamada SegWit.
 wrong_answers:
-  - Un poco más de 50€ por año.
-  - Un poco menos de 100€ por año.
-  - Alrededor de 200€ por año.
-explanation: |
-  Operar un nodo de Bitcoin en un Raspberry Pi 4 cuesta un poco
-  menos de 10€ por año en términos de consumo de electricidad
-  a partir de 2023.
+  - Los usuarios y nodos aceptaron el cambio propuesto para aumentar el tamaño del bloque y activaron una actualización llamada SegWit.
+  - Los usuarios y nodos rechazaron el cambio propuesto para aumentar el tamaño del bloque y no activaron ninguna actualización.
+  - Los usuarios y nodos aceptaron el cambio propuesto para aumentar el tamaño del bloque y no activaron ninguna actualización.
+explanation: >-
+  En la guerra de bloques en 2017, los usuarios y nodos triunfaron al rechazar el cambio propuesto para aumentar el tamaño del bloque y activaron una actualización llamada SegWit.
 reviewed: true

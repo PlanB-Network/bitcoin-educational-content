@@ -1,0 +1,9 @@
+question: Ni itegeko irihe rishobora gukoreshwa mu kugenzura Interface n’irembo ry’ipakete ija kuri 8.8.8.8 ryocako?
+answer: ip inzira kuronka 8.8.8.8
+wrong_answers:
+  - ss inzira -tulnp 8.8.8.8
+  - ping -i 8.8.8.8
+  - urubuga -r 8.8.8.8
+explanation: |
+  ip route get <Address> yerekana inzira nyayo umuzigo wofata kugira ngo ushikire aho ushaka.
+reviewed: false

@@ -1,9 +1,9 @@
 question: Was ist der Zweck der Lightning-Authentifizierung?
 answer: Sie generiert einen unterschiedlichen Identifikator für jeden Dienst, ohne dass eine E-Mail-Adresse oder persönliche Informationen angegeben werden müssen.
 wrong_answers:
-  - Ermöglicht es jedem, auch ohne ein Lightning-Wallet, sich ohne E-Mail-Adresse zu authentifizieren, wenn ein gültiger Ausweis vorgezeigt wird.
-  - Es ermöglicht Ihnen, dasselbe Passwort für alle Dienste zu verwenden.
-  - Es sendet Erinnerungen, das Passwort jeden Monat zu ändern.
+  - Sie ermöglicht es jedem, auch ohne ein Lightning-Wallet, sich ohne E-Mail-Adresse zu authentifizieren, wenn ein gültiger Ausweis vorgezeigt wird.
+  - Sie ermöglicht dir, dasselbe Passwort für alle Dienste zu verwenden.
+  - Sie sendet Erinnerungen, das Passwort jeden Monat zu ändern.
 explanation: |
   Die Lightning-Authentifizierung generiert einen unterschiedlichen Identifikator
   für jeden Dienst, ohne dass eine E-Mail-Adresse oder persönliche Informationen

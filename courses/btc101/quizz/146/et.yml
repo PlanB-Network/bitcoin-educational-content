@@ -1,10 +1,13 @@
-question: Miks on Bitcoini sõlme taskukohane hind ja kättesaadavus oluline?
-answer: See soodustab võrgu detsentraliseerimist
+question: Mis on raskusastme kohandamise eesmärk Bitcoin'i kaevandamises?
+answer: See tasakaalustab ülemaailmset kaevandamismängu lähtudes osalejate arvust.
 wrong_answers:
-  - See suurendab võrgu tehingute mahtu
-  - See vähendab võrgu tehingute mahtu
-  - See suurendab kaevuritele mõeldud plokipreemiat
+  - See suurendab kaevandamise eest saadavat tasu.
+  - See vähendab ringluses olevate bitcoinide arvu.
+  - See suurendab Bitcoin'i võrgu turvalisust.
 explanation: >-
-  Bitcoini sõlme taskukohane hind ja kättesaadavus on oluline,
-  kuna see soodustab võrgu detsentraliseerimist.
+  Raskusastme kohandamine Bitcoin'i kaevandamises on kavandatud tagamaks, et
+  bloki kaevandamiseks kuluv aeg püsib ligikaudu konstantne, olenemata
+  võrgu koguarvutusvõimsusest. See kohandab matemaatilise
+  probleemi raskusastet, mida kaevurid peavad lahendama, lähtudes kaevurite arvust
+  võrgus.
 reviewed: false

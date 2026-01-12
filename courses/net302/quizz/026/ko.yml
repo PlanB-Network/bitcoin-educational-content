@@ -1,0 +1,9 @@
+question: TCP/IP 모델의 인터넷 Layer에서는 어떤 데이터 단위가 사용되나요?
+answer: 데이터그램
+wrong_answers:
+  - 세그먼트
+  - 프레임
+  - 메시지
+explanation: |
+  인터넷 Layer은 전송 Layer의 세그먼트를 캡슐화하여 데이터그램을 조작합니다.
+reviewed: false

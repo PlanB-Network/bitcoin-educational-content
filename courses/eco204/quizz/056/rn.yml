@@ -1,0 +1,10 @@
+question: None igiciro ca Exchange c’idolari rya Zimbabwe igihe catangura gukoreshwa mu 1980 cari ikihe?
+answer: Amadolari abiri ya Zimbabwe yari afise agaciro k’amadolari y’Amerika nka 1,60 .
+wrong_answers:
+  - Idolari rimwe ryo muri Zimbabwe ryari rifise agaciro k’idolari rimwe ry’Amerika .
+  - Idolari rimwe ryo muri Zimbabwe ryari rifise agaciro nk'amadolari 2 y'Amerika .
+  - Amadolari abiri ya Zimbabwe yari afise agaciro k’amadolari y’Amerika nk’abiri .
+explanation: |
+  Zimbabwe yaronse ukwikukira muri 1980, ishiraho idolari rya Zimbabwe.
+  Mu ntango, amadolari abiri ya Zimbabwe yari afise agaciro k’amadolari y’Amerika nka 1,60.
+reviewed: false

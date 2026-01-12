@@ -1,0 +1,9 @@
+question: Ni uruhe rutonde rwiza rw’ibikorwa mu gushiramwo amakuru yemejwe?
+answer: Mbere gupfuka, hanyuma ureme ikimenyetso ku nyandiko yapfutse
+wrong_answers:
+  - Mbere ureme ikimenyetso, hanyuma ushiremwo ubutumwa n'ikimenyetso
+  - Huza umwandiko usanzwe n'ikimenyetso, hanyuma ushiremwo
+  - Rema ikimenyetso, hanyuma ukoreshe urufunguzo rwa bose kugira ngo urushiremwo
+explanation: |
+  Kugira ngo umutekano ubeho, ugushiramwo amakuru vyemewe bitegerezwa kubanza gushiramwo amakuru ubutumwa, hanyuma generate ikimenyetso ku nyandiko yashizwemwo amakuru. Ayandi mategeko arashobora guhungabana.
+reviewed: false

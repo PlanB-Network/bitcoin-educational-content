@@ -1,10 +1,11 @@
-question: Co byl projekt DigiCash?
-answer: Pokus o vytvoření anonymní elektronické měny Davidem Chaumem.
+question: Jaká je jedna z nevýhod zlata jako formy peněz?
+answer: Není snadno dělitelné.
 wrong_answers:
-  - Projekt na vytvoření digitální peněženky pro Bitcoin.
-  - Pokus o digitalizaci veškeré fyzické hotovosti Federálním rezervním systémem.
-  - Projekt na vytvoření kryptoměny založené na Bitcoinu.
+  - Neudržuje si svou hodnotu v různých místech.
+  - Časem se rozpadá.
+  - Je snadno vyráběné.
 explanation: |
-  David Chaum představil koncept anonymní elektronické
-  peněžní hotovosti se svým projektem DigiCash v 80. letech.
+  Jednou z hlavních nevýhod zlata jako formy peněz je
+  obtížnost dělení na malé jednotky podle potřeby,
+  což z něj činí méně praktické použití.
 reviewed: true

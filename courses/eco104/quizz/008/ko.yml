@@ -1,0 +1,12 @@
+question: 새로운 Bitcoin은 어떻게 생성되고 유통되나요?
+answer: Blockchain에 새로운 거래를 추가한 것에 대한 보상으로 Mining를 통해
+wrong_answers:
+  - 중앙 집중식 기관의 발급을 통해
+  - Bitcoin 거래소에서 구매하여
+  - 거래 수수료로 받음으로써
+explanation: |
+  새로운 Bitcoin은 Mining이라는 프로세스를 통해 유통에 도입됩니다.
+  채굴자들은 서로 경쟁하여 Blockchain에 새로운 트랜잭션을 추가합니다.
+  Exchange에서 작업한 채굴자는 새로 생성된 Bitcoin으로 보상을 받습니다.
+  이 프로세스는 또한 Bitcoin 네트워크에서 트랜잭션을 검증하고 보호합니다.
+reviewed: true

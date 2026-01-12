@@ -1,9 +1,13 @@
-question: Hvorfor er den rimelige kostnaden og tilgjengeligheten av en Bitcoin-node viktig?
-answer: Det fremmer desentraliseringen av nettverket
+question: Hva er formålet med vanskelighetsjusteringen i Bitcoin-mining?
+answer: Den rebalanserer det globale mining-spillet basert på antall deltakere.
 wrong_answers:
-  - Det øker transaksjonskapasiteten til nettverket
-  - Det reduserer transaksjonskapasiteten til nettverket
-  - Det øker blokkbelønningen for gruvearbeidere
+  - Den øker belønningen for mining.
+  - Den reduserer antallet bitcoins i omløp.
+  - Den øker sikkerheten til Bitcoin-nettverket.
 explanation: >-
-  Den rimelige kostnaden og tilgjengeligheten av en Bitcoin-node er viktig
-  fordi det fremmer desentraliseringen av nettverket.
+  Vanskelighetsjusteringen i Bitcoin-mining er designet for å sikre at
+  tiden det tar å mine en blokk forblir omtrent konstant, uavhengig av
+  den totale beregningskraften til nettverket. Den justerer vanskelighetsgraden av det matematiske
+  problemet som minerne må løse, basert på antall minere som deltar i
+  nettverket.
+reviewed: false

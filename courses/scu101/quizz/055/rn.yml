@@ -1,0 +1,12 @@
+question: Ni intango nziza iyihe yo gutangura umwuga wo gucungera umutekano wo kuri internet uhereye ku vyigwa?
+answer: Ubumenyi bukomeye mubijanye na siyanse y'inyabwonko, ubuhinga bwo gutanga amakuru canke ikindi gisata gifitaniye isano n’ivyo.
+wrong_answers:
+  - Impapuro z'umutsindo mu vy'ubuhinga n'ubumenyi bw'abantu
+  - Impapuro z'umutsindo mu bijanye n'uburongozi bw'ubudandaji
+  - Impapuro z'umutsindo mu vy'inyigisho z'umubiri
+explanation: |
+  Igice kivuga yuko Ubumenyi bukomeye mubijanye na siyanse y'inyabwonko,
+  ubuhinga bwo gutanga amakuru, canke ikindi gisata gifitaniye isano n’ivyo
+  akenshi Ni intango nziza  yo gutangura umwuga wo gucungera umutekano
+  wo kuri internet uhereye ku vyigwa.
+reviewed: true

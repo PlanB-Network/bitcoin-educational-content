@@ -1,11 +1,9 @@
-question: Je, ni hali gani ya kuasili Bitcoin kama ilivyoelezwa katika kozi hii?
-answer: Virusi.
+question: Kwa nini kituo cha Lightning kinaweza kutotumika katika mwelekeo mmoja?
+answer: Ukosefu wa ukwasi wa kutosha
 wrong_answers:
-  - Polepole na thabiti.
-  - Haraka na isiyoweza kudhibitiwa.
-  - Mara kwa mara na haitabiriki.
+  - Bloku mpya sana
+  - HTLC iliyoisha muda wake
+  - Nodi isiyosawazishwa
 explanation: |
-  Nakala ya kozi inaelezea kupitishwa kwa Bitcoin kama virusi,
-  kupendekeza kwamba inaenea kwa haraka na kwa upana kutoka kwa moja
-  mtu kwa mwingine, kama virusi, lakini nzuri.
-reviewed: true
+  Hata kwa uwezo mkubwa, kituo huruhusu malipo tu ikiwa kuna ukwasi wa kutosha upande sahihi.
+reviewed: false

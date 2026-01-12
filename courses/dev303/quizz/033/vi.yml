@@ -1,0 +1,8 @@
+question: Biến môi trường nào có thể được thiết lập để hiển thị toàn bộ dấu vết ngăn xếp cuộc gọi khi xảy ra lỗi nghiêm trọng trong Rust?
+answer: RUST_BACKTRACE
+wrong_answers:
+  - RUST_STACKTRACE
+  - RUST_DEBUG_TRACE
+  - RUST_PANIC_TRACE
+explanation: |
+  RUST_BACKTRACE là biến môi trường chính xác cung cấp thông tin gỡ lỗi bổ sung bằng cách hiển thị toàn bộ ngăn xếp cuộc gọi dẫn đến lỗi nghiêm trọng (panic). Điều này giúp các nhà phát triển theo dõi chính xác chuỗi các cuộc gọi hàm nào đã dẫn đến lỗi. Các tùy chọn khác (RUST_STACKTRACE, RUST_DEBUG_TRACE và RUST_PANIC_TRACE) không phải là biến môi trường Rust hợp lệ và sẽ không tạo ra bất kỳ đầu ra gỡ lỗi nào khi xảy ra lỗi nghiêm trọng.

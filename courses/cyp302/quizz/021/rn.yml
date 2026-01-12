@@ -1,0 +1,9 @@
+question: Ni irihe jambo ry’imibare ry’imibare irimwo ibikorwa vya modulo?
+answer: Imibare y'ibice
+wrong_answers:
+  - Alijebura y'umurongo
+  - Uburemere bw'ubutatu
+  - Igishushanyo c'uburinganire
+explanation: |
+  Imibare y'ibice ni ishami ry'imibare rikora ibikorwa ku mibare mu rwego rw'iherezo, hakoreshejwe igikorwa ca modulo.
+reviewed: false

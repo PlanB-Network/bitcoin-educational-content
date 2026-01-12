@@ -12,11 +12,11 @@ I denne veiledningen går vi gjennom prosessen med å opprette en bedriftskonto 
 
 Hvis du er interessert i å integrere bitcoin i virksomheten din, vil jeg også anbefale at du tar en titt på vårt komplette teoretiske kurs om emnet:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Opprette en Bitfinex-konto
 
-Gå til [det offisielle Bitfinex-nettstedet] (https://www.bitfinex.com/). På hjemmesiden finner du og klikker på alternativet "* Registrer deg *" for å begynne å opprette kontoen din. Først oppretter du en standardkonto som for enkeltpersoner, alternativet "* Corporate *" vil bli valgt senere under bekreftelsesprosessen.
+Gå til [det offisielle Bitfinex-nettstedet](https://www.bitfinex.com/). På hjemmesiden finner du og klikker på alternativet "* Registrer deg *" for å begynne å opprette kontoen din. Først oppretter du en standardkonto som for enkeltpersoner, alternativet "* Corporate *" vil bli valgt senere under bekreftelsesprosessen.
 
 ![BITFINEX](assets/fr/01.webp)
 
@@ -24,13 +24,13 @@ Fyll ut den nødvendige informasjonen: skriv inn e-postadressen til bedriften di
 
 ![BITFINEX](assets/fr/02.webp)
 
-For tips om bruk og sikring av sterke, unike passord, se også denne veiledningen :
+For tips om bruk og sikring av sterke, unike passord, se også denne veiledningen:
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-Vi skal nå konfigurere 2FA for å sikre kontoen. Bruk et autentiseringsprogram på smarttelefonen din, for eksempel Google Authenticator eller Authy. Du finner en veiledning om dette verktøyet her :
+Vi skal nå konfigurere 2FA for å sikre kontoen. Bruk et autentiseringsprogram på smarttelefonen din, for eksempel Google Authenticator eller Authy. Du finner en veiledning om dette verktøyet her:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Skann QR-koden med appen din, og skriv inn de seks sifrene som følger med.
 
@@ -64,7 +64,7 @@ Under "*Account Type*" velger du "*Corporate*". I mitt tilfelle skal jeg oppgrad
 
 ![BITFINEX](assets/fr/09.webp)
 
-Fullfør trinnene ved å oppgi :
+Fullfør trinnene ved å oppgi:
 
 
 - Bedriftsinformasjon (firmanavn, kontaktinformasjon, bransje osv.) ;
@@ -77,14 +77,14 @@ Når søknaden din er fullført og sendt inn, kan det ta flere dager før plattf
 
 ## 3 - Rask introduksjon til Bitfinex-grensesnittet
 
-Når du er logget inn, vil du se en navigasjonslinje øverst i grensesnittet med: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", osv. Bitfinex tilbyr et bredt spekter av funksjoner, inkludert :
+Når du er logget inn, vil du se en navigasjonslinje øverst i grensesnittet med: "*Trading*", "*Derivatives*", "*Funding*", "*OTC*", "*P2P*", "*Wallet*", osv. Bitfinex tilbyr et bredt spekter av funksjoner, inkludert:
 
 
-- Handel**: "*klassisk*" marked der du kan legge inn ordre om å kjøpe og selge kryptovalutaer (inkludert bitcoin);
-- OTC**: Over-The-Counter-tjeneste for handel med store volumer direkte med en annen aktør, utenfor de offentlige ordrebøkene;
-- Finansiering**: Område dedikert til utlån og marginfinansiering;
-- Derivater**: Seksjon for derivater (futures osv.), beregnet på erfarne tradere;
-- P2P**: Lar deg kjøpe eller selge kryptoer fra andre brukere på peer-to-peer-basis.
+- **Handel**: "*klassisk*" marked der du kan legge inn ordre om å kjøpe og selge kryptovalutaer (inkludert bitcoin);
+- **OTC**: Over-The-Counter-tjeneste for handel med store volumer direkte med en annen aktør, utenfor de offentlige ordrebøkene;
+- **Finansiering**: Område dedikert til utlån og marginfinansiering;
+- **Derivater**: Seksjon for derivater (futures osv.), beregnet på erfarne tradere;
+- **P2P**: Lar deg kjøpe eller selge kryptoer fra andre brukere på peer-to-peer-basis.
 
 For standard bruk (kjøp/salg av bitcoins, innskudd/uttak og kontanthåndtering) vil du hovedsakelig bruke "*Trading*"-fanen, samt seksjonene "*Wallet*", "*Deposit*" og "*Withdraw*".
 
@@ -160,7 +160,7 @@ Bitfinex tilbyr også innskudds- og uttaksmuligheter via Lightning Network, noe 
 
 Hvis du er interessert i Lightning Network, har vi også et komplett opplæringskurs som hjelper deg med å forstå hvordan det fungerer:
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## 6 - Kjøp og salg av bitcoins på Bitfinex
 
@@ -241,4 +241,4 @@ Avhengig av bedriftens mål og struktur kan bruken av Bitfinex variere.
 
 For en mer inngående titt på dette emnet anbefaler jeg dette omfattende kurset om integrering av bitcoin i virksomheter, som går i detalj inn på kontantstrøm, mottak av bitcoin-betalinger og regnskap:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

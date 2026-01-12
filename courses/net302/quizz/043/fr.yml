@@ -6,4 +6,4 @@ wrong_answers:
   - Samba
 explanation: |
   BIND (Berkeley Internet Name Domain) est le logiciel libre de référence pour la majorité des serveurs DNS dans le monde.
-reviewed: false
+reviewed: true 

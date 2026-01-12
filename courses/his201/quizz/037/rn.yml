@@ -1,0 +1,9 @@
+question: Ni iyihe service yo kuvunja yashinzwe muri Ntwarante 2010 yari izwi cane imbere y’uko Mt Gox iza muri Mukakaro?
+answer: Bitcoin Market(Isoko rya Bitcoin)
+wrong_answers:
+  - BitcoinFX
+  - BitcoinExchange
+  - MyBitcoin
+explanation: |
+  Iri soko ry’ukuvunjisha bakoresheje PayPal ryatangujwe kw’igenekerezo rya 16 Ntwarante 2010, n’umuntu yitwa dwdollar kandi ryari urubuga nyamukuru imbere ya Mt Gox.
+reviewed: true

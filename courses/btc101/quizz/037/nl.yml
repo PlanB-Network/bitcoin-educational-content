@@ -1,12 +1,12 @@
-question: Welke entiteiten zijn verantwoordelijk voor de uitgifte van fiduciaire valuta?
-answer: Centrale banken.
+question: Wat is het mogelijke gevolg van een plotselinge waardevermindering of een verlies van vertrouwen in een fiduciaire valuta?
+answer: Hyperinflatie.
 wrong_answers:
-  - Commerciële banken.
-  - Overheden.
-  - Particuliere instellingen.
+  - Deflatie.
+  - Een stabiele economie.
+  - Een waardestijging van de valuta.
 explanation: |
-  Centrale banken zijn de entiteiten die verantwoordelijk zijn voor de uitgifte van een
-  fiduciaire valuta. Ze bepalen het monetaire beleid en
-  bepalen hoeveel geld er in omloop moet worden gebracht of
-  gedrukt.
+  Een plotselinge devaluatie of een verlies van vertrouwen in een fiduciaire
+  valuta kan leiden tot hyperinflatie. Dit is een situatie
+  waarin de prijzen van goederen en diensten extreem
+  extreem hoog tempo stijgen, wat vaak leidt tot economische instabiliteit.
 reviewed: true

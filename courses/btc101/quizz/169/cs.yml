@@ -1,12 +1,10 @@
-question: Jak Bitcoinový protokol odměňuje horníka, který najde platný hash pro následující blok?
-answer: Odměnou definovanou pravidly konsensu a poplatky ze všech transakcí zahrnutých v platném bloku.
+question: Jaká je unikátní vlastnost protokolu Bitcoin?
+answer: Funguje na celosvětové úrovni, 24 hodin denně, 7 dní v týdnu.
 wrong_answers:
-  - Pevným množstvím bitcoinů, které není definováno pravidly konsensu.
-  - Procentem z celkového množství Bitcoinu a poplatky ze všech transakcí zahrnutých v předchozích blocích.
-  - Poplatky ze všech transakcí zahrnutých v platném bloku.
-explanation: |
-  Bitcoinový protokol odměňuje horníka, který najde platný
-  hash pro následující blok, odměnou, jejíž výše je
-  definována pravidly konsensu, společně s poplatky ze
-  všech transakcí zahrnutých v platném bloku.
+  - Funguje pouze během pracovní doby.
+  - Je kontrolován centrální autoritou.
+  - Dá se snadno hacknout.
+explanation: >-
+  Protokol Bitcoin je unikátní tím, že funguje na celosvětové úrovni,
+  24 hodin denně, 7 dní v týdnu, což ztěžuje regulaci finančními autoritami.
 reviewed: true

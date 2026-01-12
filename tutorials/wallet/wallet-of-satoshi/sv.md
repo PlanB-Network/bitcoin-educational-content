@@ -1,10 +1,16 @@
 ---
-name: Wallet av Satoshi
+name: Wallet of Satoshi
 description: Den enklaste depån Wallet för att komma igång
 ---
 ![cover](assets/cover.webp)
 
-_Den här handledningen skrevs av_ [Bitcoin Campus] (https://linktr.ee/bitcoincampus_)
+---
+
+*Observera: sedan början av 2026 är Wallet of Satoshi i custodial-läge (såsom presenterat i denna handledning) inte längre tillgänglig inom Europeiska unionen. Om du är bosatt i detta område och vill fortsätta använda detta verktyg måste du använda ett VPN som är placerat utanför EU. Ett annat alternativ är att använda Wallet of Satoshi i self-custodial-läge. En särskild handledning kommer snart att publiceras på Plan ₿ Academy.*
+
+---
+
+_Den här handledningen skrevs av_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 
 ## Ladda ner, konfigurera och använda Wallet eller Satoshi
@@ -12,7 +18,7 @@ _Den här handledningen skrevs av_ [Bitcoin Campus] (https://linktr.ee/bitcoinca
 
 Wallet av Satoshi är en Lightning Network Wallet, custodial, och mycket enkel att använda.
 
-I kursen [BTC105 - Finding Now] (https://planb.network/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) används den för att ange Redeem Lightning Network vouchers.
+I kursen [BTC105 - Finding Now](https://planb.academy/it/courses/trovarsi-ora-d1370810-63f6-4aba-b822-e3a66bf225a5) används den för att ange Redeem Lightning Network vouchers.
 
 
 **Kom alltid ihåg**: _inte dina nycklar, inte dina mynt_
@@ -38,7 +44,7 @@ Gå till Play Store och ladda ner WoS
 ![image](assets/it/01.webp)
 
 
-**WoS laddas endast ner från officiella butiker. Om enhetens operativsystem är programmerat, innan WoS öppnas, finns det en verifieringsdel av operativsystemet självt. Efter verifieringsfasen väljer du _Open_.
+**WoS laddas endast ner från officiella butiker. Om enhetens operativsystem är programmerat, innan WoS öppnas, finns det en verifieringsdel av operativsystemet självt. Efter verifieringsfasen väljer du** _Open_.
 
 
 ![image](assets/it/02.webp)
@@ -79,8 +85,8 @@ Wallet från Satoshi har skickat ett meddelande till den angivna e-postinkorgen.
 I brevlådan hittar vi två ord, som vi måste skriva in, skriva om dem, i det utrymme som tillhandahålls av appen.
 
 
-- aktivera inte översättaren: orden är och måste förbli på engelska**
-- skriva om de två orden med hänsyn till versaler/ gemener**
+- aktivera inte översättaren: orden är och måste förbli på **engelska**
+- skriva om de två orden med hänsyn till versaler/gemener
 
 
 ![image](assets/it/10.webp)

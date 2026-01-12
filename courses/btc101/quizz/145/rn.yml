@@ -1,0 +1,8 @@
+question: None Hashrate ni iki?
+answer: Igitigiri c'imibare ya Hash igikoresho ca Mining gishobora gukora ku segonda kugira ngo gitorere umuti Proof of Work.
+wrong_answers:
+  - Umuvuduko igikoresho ca Mining gishobora gutorera umuti Proof of Work.
+  - Igitigiri cose c’abacukuzi bari mu murongo wa Bitcoin.
+  - Igitigiri cose c’ama bitcoins yacukuwe mu gukora umubare kanaka w’ibigeragezo ku segonda kugira ngo utore umuti wa Proof of Work.
+explanation: >-
+reviewed: true

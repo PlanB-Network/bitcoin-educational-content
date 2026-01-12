@@ -1,0 +1,9 @@
+question: Ni iciyumviro nyamukuru ikihe kiri mu gice ca Voltaire ku bijanye n’isoko ry’i Londres Exchange?
+answer: Abacuruzi bo mu madini yose barashira ku ruhande ukutumvikana kwabo kugira ngo bibande ku nyungu bahuriyeko.
+wrong_answers:
+  - Amadini atandukanye yo kw’isi akoranira kuri Stock Exchange kugira ngo akore ukwizera kwabo mu mahoro.
+  - Ico kibanza c’ubudandaji citwa London Stock Exchange ni ahantu h’ugutekereza ku bintu n’ugufata ibiturire aho abantu basuzugura ingingo ngenderwako z’inyifato runtu.
+  - Idini nta kibanza rifise mw’isi y’ubudandaji iganzwa n’impwemu yo guhiganwa n’ugukunda umuntu ku giti ciwe.
+explanation: |
+  Voltaire ashimika ku vy’uko, mu gisagara ca London Stock Exchange, abacuruzi barenga ubudasa bwabo bw’idini kugira ngo bafatanirize hamwe kugira ngo bashike ku ntumbero imwe y’ubutunzi, ivyo bikaba vyerekana ko inyungu z’ivy’umubiri ari zo zihambaye kuruta amacakubiri y’idini.
+reviewed: true

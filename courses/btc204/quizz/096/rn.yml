@@ -1,0 +1,10 @@
+question: None iyo anonset yerekana iki?
+answer: Igitigiri c’ibishobora gutuma haba UTXO ku mpera y’ingendo.
+wrong_answers:
+  - Ubwinshi bw’umugwi w’ama UTXO adatandukanye ku mpera y’ingendo.
+  - Igitigiri c’ibishobora gutuma haba UTXO mu ntango y’ingendo.
+  - Igihe gikenewe kugira ngo umuntu yuzuze CoinJoin.
+explanation: |
+  Igishushanyo c’inyuma kigaragaza umubare w’amasoko ashoboka y’i Coin yatanzwe, hakurikijwe UTXO ku mpera y’ingendo.
+  
+reviewed: false

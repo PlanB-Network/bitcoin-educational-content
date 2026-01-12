@@ -1,0 +1,9 @@
+question: Czy scholastyka jest scholastyką?
+answer: Filozofia średniowiecza.
+wrong_answers:
+  - Filozofia współczesności.
+  - Starożytna filozofia.
+  - Ateistyczna filozofia.
+explanation: |
+  Scholastyka była średniowieczną filozofią, która starała się pogodzić wiarę chrześcijańską z filozofią arystotelesowską. Zdominowała ona europejskie uniwersytety przed pojawieniem się filozofii nowożytnej.
+reviewed: false

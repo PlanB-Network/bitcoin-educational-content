@@ -1,0 +1,9 @@
+question: ¿Qué pasos hay que seguir antes de instalar UmbrelOS?
+answer: Crear una llave USB de arranque con la imagen
+wrong_answers:
+  - Compilación del código fuente de Bitcoin core
+  - Formateo de la Blockchain
+  - Crear una cuenta en umbrel.com
+explanation: |
+  La instalación comienza preparando una llave USB de arranque con UmbrelOS a través de Balena Etcher.
+reviewed: true

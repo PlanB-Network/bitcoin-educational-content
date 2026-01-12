@@ -1,0 +1,9 @@
+question: Ikimenyetso nyamukuru ni ikihe?
+answer: Ubushobozi bwo gufatanya umuce w'akaranga k'ukoresha n'igikorwa c'uruzitiro.
+wrong_answers:
+  - Inzira yo gutanga urufunguzo rwa bose ku gikorwa cose gishasha co kuri onchain.
+  - Ubushobozi bwo gukurikirana ibikorwa vy’ubudandaji biciye ku nzira rusangi ya Ownership y’ibintu vyinjijwe.
+  - Inzira urufunguzo rwa bose ruva ku rufunguzo rw’ibanga.
+explanation: |
+  Ikimenyetso c'ingenzi kirimwo ubushobozi bwo guhuza umuce w'akaranga k'ukoresha n'igikorwa co ku ruzitiro.
+reviewed: false

@@ -1,0 +1,8 @@
+question: 哪個 Cargo 指令會執行編譯檢查而不產生可執行檔案？
+answer: 貨物檢查
+wrong_answers:
+  - 貨物構造
+  - 貨運
+  - 貨物測試
+explanation: |
+  cargo check」指令會執行所有的編譯檢查，並驗證您的程式碼編譯是否正確，而不會實際產生最終的可執行檔案。當您只想驗證代碼的正確性時，這使得它比完整的建立快很多。相比之下，'cargo build「編譯並產生可執行檔案，」cargo run「既編譯又執行程式，而」cargo test'則編譯並執行測試。

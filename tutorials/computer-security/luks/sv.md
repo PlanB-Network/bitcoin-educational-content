@@ -30,7 +30,7 @@ Att kryptera ett USB-minne är ett bra sätt att skydda känsliga data. **I den 
 
 
 
-För att följa denna handledning behöver du :
+För att följa denna handledning behöver du:
 
 
 
@@ -131,7 +131,7 @@ Vi ska nu radera alla data på vårt USB-minne. Åtgärden består i att fylla d
 
 
 
-**Se till att du riktar in dig på rätt enhetsfil!
+**Se till att du riktar in dig på rätt enhetsfil!**
 
 
 
@@ -173,7 +173,7 @@ Verify passphrase:
 
 
 
-Här initierar och formaterar underkommandot "`luksFormat`" enheten så att den använder LUKS-kryptering. Du uppmanas att bekräfta åtgärden genom att skriva `YES` med versaler och sedan definiera en *passphrase*. **Välj en robust *passphrase* för att säkerställa att angriparen inte kan upptäcka den via brute-force-attacker om den skulle gå förlorad.
+Här initierar och formaterar underkommandot "`luksFormat`" enheten så att den använder LUKS-kryptering. Du uppmanas att bekräfta åtgärden genom att skriva `YES` med versaler och sedan definiera en *passphrase*. **Välj en robust** ***passphrase*** **för att säkerställa att angriparen inte kan upptäcka den via brute-force-attacker om den skulle gå förlorad.**
 
 
 
@@ -213,7 +213,7 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 
 
 
-Här är "**usbkey1**" det namn som jag ger till partitionsmonteringen i mitt sammanhang. Du kan välja vilket du vill. Vi måste sedan formatera den här partitionen som finns i LUKS-partitionen, till exempel här som **ext4** :
+Här är "**usbkey1**" det namn som jag ger till partitionsmonteringen i mitt sammanhang. Du kan välja vilket du vill. Vi måste sedan formatera den här partitionen som finns i LUKS-partitionen, till exempel här som **ext4**:
 
 
 
@@ -237,11 +237,11 @@ done
 
 
 
-**Här anges målplatsen** som "**/dev/mappe/usbkey1**"**, varför?
+**Här anges målplatsen** som "**/dev/mappe/usbkey1**", varför?
 
 
 
-"**/dev/mapper/usbkey1**" är den "genväg" vi har gett till vår USB-nyckel ("**/dev/mapper**" är en generisk mappning i Linux). Den ger därför tillgång till vår dekrypterade partition. Det här är vad du ska se nu :
+"**/dev/mapper/usbkey1**" är den "genväg" vi har gett till vår USB-nyckel ("**/dev/mapper**" är en generisk mappning i Linux). Den ger därför tillgång till vår dekrypterade partition. Det här är vad du ska se nu:
 
 
 
@@ -353,7 +353,7 @@ Detta innebär att vi kan komma åt data på vårt USB-minne fritt och transpare
 
 
 
-När vår operation är klar, glöm inte att stänga allt ordentligt för att se till att vi inte korrumperar vår volym. Det första steget är att avmontera :
+När vår operation är klar, glöm inte att stänga allt ordentligt för att se till att vi inte korrumperar vår volym. Det första steget är att avmontera:
 
 
 

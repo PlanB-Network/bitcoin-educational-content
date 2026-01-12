@@ -1,11 +1,9 @@
-question: Mis on Bitcoini peamine eesmärk?
-answer: Riigi ja raha lahutamine
+question: Milline on praeguse finantssüsteemi potentsiaalne mõju poliitilistele tegijatele?
+answer: Neid ei motiveerita tegema radikaalseid muudatusi, lubades süsteemil jätkata oma kulgu kuni võimaliku kokkuvarisemiseni.
 wrong_answers:
-  - Asendada kuld globaalse standardina
-  - Teha tehingud kiiremaks ja odavamaks
-  - Teha kõik rikkaks
+  - Neid motiveeritakse tegema radikaalseid muudatusi, et vältida võimalikku kokkuvarisemist.
+  - Neid ei motiveerita säilitama status quo'd, et tagada omaenda rikkus.
+  - Neid motiveeritakse mõtlema pikas perspektiivis.
 explanation: |
-  Bitcoin loodi eesmärgiga lahutada riik rahast.
-  See on vastus praeguse finantssüsteemi süsteemsetele väljakutsetele,
-  kus riigil on kontroll raha pakkumise üle ja see võib seda oma kasuks manipuleerida.
+  Kuna poliitilised tegijad saavad praegusest finantssüsteemist kasu, ei ole neid motiveeritud tegema radikaalseid muudatusi. See lubab süsteemil jätkata oma kulgu kuni võimaliku kokkuvarisemiseni, kuna süsteemi reguleeritakse ja piiratakse selle kokkuvarisemise vältimiseks.
 reviewed: true

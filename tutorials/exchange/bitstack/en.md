@@ -6,7 +6,7 @@ description: Buy and sell bitcoins on the Bitstack application
 
 Bitstack is a French bitcoin investment platform, regulated PSAN by the AMF. It offers an app available on Android and iOS for easy buying and selling of bitcoin.
 
-What sets Bitstack apart is its automatic rounding system, which synchronizes the user's bank account to convert the difference between the amount debited during daily spending and the next higher euro, directly into bitcoins. This method facilitates the application of *Dollar Cost Averaging* (DCA), enabling a gradual, painless accumulation of satoshis. In addition to this original feature, the platform also offers a classic DCA system with automatic investments, as well as spot buying and selling.
+What sets Bitstack apart is its automatic rounding system, which syncs the user’s bank account to convert the difference between the amount spent on daily expenses and the next higher euro directly into bitcoins. This method facilitates the application of *Dollar Cost Averaging* (DCA) by allowing a gradual and painless accumulation of satoshis. In addition to this original feature, the platform also offers a traditional DCA system with automatic investments, as well as one-time purchases and sales.
 
 ![Image](assets/fr/01.webp)
 
@@ -51,9 +51,9 @@ Choose a strong password to secure access to your account, then click on "*Conti
 
 ![Image](assets/fr/06.webp)
 
-For secure password management on a daily basis, the use of a password manager is highly recommended. On Plan ₿ Network, you'll find several tutorials on the best existing solutions, such as Bitwarden :
+For secure password management on a daily basis, the use of a password manager is highly recommended. On Plan ₿ Academy, you'll find several tutorials on the best existing solutions, such as Bitwarden :
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 You will then be asked to verify your identity (KYC). In accordance with French regulations, you will be asked to provide your personal details and proof of identity. Fill in the boxes with your surname, first name and date of birth.
 
@@ -110,7 +110,7 @@ As mentioned in the introduction, Bitstack offers 3 methods for investing in Bit
 - Recurring Purchase Configuration (RPC) ;
 - The use of automatic rounding on expenses.
 
-### Buying with cash
+### Make a one-time purchase
 
 To make a one-off purchase of bitcoins at the market price, simply click on "*Buy*".
 
@@ -126,7 +126,7 @@ Your transaction is now confirmed.
 
 ### Setting up a DCA
 
-Dollar Cost Averaging* (DCA) is an attractive investment strategy for accumulating bitcoin while reducing the risks associated with its volatility. By regularly purchasing a fixed amount, regardless of price, you can smooth out your acquisition cost and avoid impulsive decision-making. The DCA helps reduce behavioral biases such as the fear of missing an opportunity or panic in the event of a price drop, and thus enables you to manage your bitcoin savings in a serene and disciplined way.
+**Dollar Cost Averaging** (DCA) is an attractive investment strategy for accumulating bitcoin while reducing the risks associated with its volatility. By regularly purchasing a fixed amount, regardless of price, you can smooth out your acquisition cost and avoid impulsive decision-making. The DCA helps reduce behavioral biases such as the fear of missing an opportunity or panic in the event of a price drop, and thus enables you to manage your bitcoin savings in a serene and disciplined way.
 
 To set up a recurring purchase (DCA) on Bitstack, go to the "*Savings*" section of the home page and select "*Recurring*". Then press "*Continue*".
 
@@ -184,7 +184,7 @@ Determine the transaction priority. For a no-fee withdrawal, choose "*Standard*"
 
 ![Image](assets/fr/32.webp)
 
-If you're not familiar with how a self-custody wallet works, we offer tutorials on most of the solutions available [on Plan ₿ Network in the "*Wallet*" section](https://planb.network/tutorials/wallet).
+If you're not familiar with how a self-custody wallet works, we offer tutorials on most of the solutions available [on Plan ₿ Academy in the "*Wallet*" section](https://planb.academy/tutorials/wallet).
 
 ## Selling bitcoin
 

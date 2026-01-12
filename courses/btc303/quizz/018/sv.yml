@@ -1,0 +1,9 @@
+question: Vad eliminerar Bitcoin:s förtroendefria egenskaper specifikt behovet av i digitala transaktioner?
+answer: Betrodda tredje parter för att behandla och validera transaktioner
+wrong_answers:
+  - Hård- och mjukvarukomponenter för att köra Bitcoin-noder
+  - Kryptografiska algoritmer för att säkra privata nycklar och signaturer
+  - Konsensusmekanismer i nätverket för att komma överens om giltiga block
+explanation: |
+  Bitcoin:s förtroendefria egenskap eliminerar specifikt behovet av betrodda tredje parter som banker eller finansinstitut för att behandla och validera transaktioner. Som Satoshi Nakamoto förklarade i Bitcoin:s vitbok är traditionell handel beroende av att finansinstitut fungerar som betrodda mellanhänder, men Bitcoin:s design gör att systemet kan fungera korrekt utan några betrodda parter genom sin decentraliserade konsensusmekanism. De andra alternativen representerar viktiga tekniska komponenter som Bitcoin fortfarande kräver - du behöver fortfarande hårdvara/mjukvara för att delta, kryptografisk säkerhet är fortfarande grundläggande och nätverkskonsensus är hur Bitcoin uppnår tillförlitlighet snarare än något som det eliminerar.
+reviewed: false

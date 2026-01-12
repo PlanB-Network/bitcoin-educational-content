@@ -1,22 +1,17 @@
 ---
-name: Pengantar Kriptografi formal
+name: Dasar-dasar kriptografi modern
 goal: Pengenalan mendalam tentang ilmu dan praktik kriptografi.
 objectives:
-
-  - Jelajahi sandi Beale dan metode kriptografi modern untuk memahami konsep dasar dan sejarah kriptografi.
-  - Pelajari teori bilangan, grup, dan bidang untuk menguasai konsep matematika utama yang mendasari kriptografi.
-  - Pelajari stream cipher RC4 dan AES dengan kunci 128-bit untuk mempelajari algoritme kriptografi simetris.
-  - Selidiki kriptosistem RSA, distribusi kunci, dan fungsi hash untuk mengeksplorasi kriptografi asimetris.
-
+- Jelajahi sandi Beale dan metode kriptografi modern untuk memahami konsep dasar dan sejarah kriptografi.
+- Pelajari teori bilangan, grup, dan bidang untuk menguasai konsep matematika utama yang mendasari kriptografi.
+- Pelajari stream cipher RC4 dan AES dengan kunci 128-bit untuk mempelajari algoritme kriptografi simetris.
+- Selidiki kriptosistem RSA, distribusi kunci, dan fungsi hash untuk mengeksplorasi kriptografi asimetris.
 ---
-# Mendalami kriptografi secara mendalam
+# Mendalami Kriptografi Modern
 
-Sulit untuk menemukan banyak materi yang menawarkan jalan tengah yang baik dalam pendidikan kriptografi.
+Dalam kursus ini, kami akan membahas hal-hal penting dari kriptografi modern dengan cara yang jelas dan mudah dipahami, tanpa memerlukan latar belakang matematika yang kuat. Sepanjang bab-bab, Anda akan mempelajari ide-ide inti seperti enkripsi simetris dan kunci publik, fungsi hash, tanda tangan digital, pertukaran kunci, dan protokol dunia nyata. Sepanjang perjalanan, kami akan menghubungkan titik-titik ke aplikasi praktis seperti pesan aman, TLS, penyimpanan kata sandi, dan autentikasi.
 
-Di satu sisi, ada risalah yang panjang dan formal, benar-benar hanya dapat diakses oleh mereka yang memiliki latar belakang yang kuat dalam matematika, logika, atau disiplin formal lainnya. Di sisi lain, ada pengantar tingkat tinggi yang benar-benar menyembunyikan terlalu banyak detail bagi siapa pun yang setidaknya sedikit penasaran.
-
-Pengantar kriptografi ini berusaha untuk mengambil jalan tengah. Meskipun relatif menantang dan mendetail bagi siapa pun yang baru mengenal kriptografi, buku ini bukanlah sebuah risalah dasar yang biasa.
-
+Materi dirancang untuk pelajar dari semua tingkatan dan menyeimbangkan intuisi dengan kedalaman teknis yang cukup untuk memuaskan rasa ingin tahu. Harapkan perjalanan yang fokus dan menarik. Di akhir, Anda akan memahami bagaimana dan mengapa kriptografi modern bekerja dan cara menggunakannya secara bertanggung jawab.
 +++
 # Pendahuluan
 
@@ -123,7 +118,7 @@ Anda dapat melihat ciphertext kedua pada *Gambar 2* di bawah ini. [2] Kunci dari
 
 *Gambar 1: Sandi Beale no. 2*
 
-![Figure 1: Beale cipher no 2.](assets/Figure1-1.webp "Figure 1: Beale cipher no. 2")
+![Figure 1: Beale cipher no 2.](assets/en/001.webp "Figure 1: Beale cipher no. 2")
 
 Sebagai contoh, angka pertama dari ciphertext kedua adalah 115. Kata ke-115 dari Deklarasi Kemerdekaan adalah "instituted," sehingga huruf pertama dari plaintext adalah "i." Cipherteks tidak secara langsung menunjukkan spasi dan huruf besar. Tetapi setelah mendekripsi beberapa kata pertama, Anda dapat menyimpulkan secara logis bahwa kata pertama dari plaintext adalah "i" (Plaintext dimulai dengan frasa "Saya telah menyetor di daerah Bedford.")
 
@@ -161,7 +156,7 @@ Ketiga, skema enkripsi klasik, seperti yang digunakan pada sandi Beale, lebih me
 
 Secara khusus, kriptografi modern berpusat pada **bukti keamanan** formal. Setiap bukti keamanan untuk skema kriptografi berlangsung dalam tiga langkah:
 
-1.	Pernyataan definisi keamanan kriptografi**, yaitu serangkaian tujuan keamanan dan ancaman yang ditimbulkan oleh penyerang.
+1.	Pernyataan definisi **keamanan kriptografi**, yaitu serangkaian tujuan keamanan dan ancaman yang ditimbulkan oleh penyerang.
 
 2.	Pernyataan dari setiap asumsi matematis yang berkaitan dengan kompleksitas komputasi skema. Sebagai contoh, sebuah skema kriptografi mungkin berisi sebuah generator angka acak semu. Meskipun kita tidak dapat membuktikan bahwa ini ada, kita dapat mengasumsikan bahwa mereka ada.
 
@@ -286,7 +281,7 @@ Nilai-nilai yang mungkin dan probabilitas terkait untuk variabel acak dapat deng
 
 *Gambar 1: Variabel acak X*
 
-![Figure 1: Random variable X.](assets/Figure2-1.webp)
+![Figure 1: Random variable X.](assets/en/002.webp)
 
 Bar yang lebar pada *Gambar 1* jelas tidak bermaksud menunjukkan bahwa variabel acak $X$ sebenarnya kontinu. Sebaliknya, batang-batang tersebut dibuat lebar agar lebih menarik secara visual (hanya sebuah garis lurus ke atas memberikan visualisasi yang kurang intuitif).
 
@@ -324,7 +319,7 @@ Penggambaran grafis dari $Y$ disediakan dalam *Gambar 2*.
 
 *Gambar 2: Variabel acak Y*
 
-![Figure 2: Random variable Y.](assets/Figure2-2.webp "Figure 2: Random variable Y")
+![Figure 2: Random variable Y.](assets/en/003.webp "Figure 2: Random variable Y")
 
 Sebagai contoh terakhir, pertimbangkan variabel acak Z. Variabel ini memiliki himpunan hasil ${1,3,7,11,12}$ dan distribusi probabilitas berikut:
 
@@ -352,7 +347,7 @@ Anda dapat melihatnya digambarkan dalam *Gambar 3*. Variabel acak Z, berbeda den
 
 *Gambar 3: Variabel acak Z*
 
-![Figure 3: Random variable Z.](assets/Figure2-3.webp "Figure 3: Random variable Z")
+![Figure 3: Random variable Z.](assets/en/004.webp "Figure 3: Random variable Z")
 
 ### Probabilitas bersyarat
 
@@ -477,16 +472,16 @@ Pertama-tama mari kita definisikan. Misalkan sebuah kamus *D* yang menyamakan se
 
 Operator modulo pada shift cipher memastikan bahwa huruf-huruf membungkus, sehingga semua huruf ciphertext didefinisikan. Sebagai ilustrasi, pertimbangkan penerapan shift cipher pada kata "DOG".
 
-Misalkan Anda memilih kunci secara seragam untuk memiliki nilai 17. Huruf "O" setara dengan 15. Tanpa operasi modulo, penambahan angka plainteks ini dengan kunci akan menghasilkan angka cipherteks 32. Akan tetapi, angka cipherteks tersebut tidak dapat diubah menjadi huruf cipherteks, karena alfabet bahasa Inggris hanya memiliki 26 huruf. Operasi modulo memastikan bahwa angka ciphertext sebenarnya adalah 6 (hasil dari $32 \mod 26$), yang sama dengan huruf ciphertext "G".
+Misalkan Anda memilih sebuah kunci secara seragam dengan nilai $17$. Huruf “O” setara dengan $14$. Tanpa operasi modulo, penjumlahan angka plaintext ini dengan kunci akan menghasilkan angka ciphertext $31$. Namun, angka ciphertext tersebut tidak dapat diubah menjadi huruf ciphertext karena alfabet bahasa Inggris hanya memiliki $26$ huruf. Operasi modulo memastikan bahwa angka ciphertext sebenarnya adalah $5$ (hasil dari $31 \mod 26$), yang setara dengan huruf ciphertext “F”.
 
 Keseluruhan enkripsi kata "DOG" dengan nilai kunci 17 adalah sebagai berikut:
 
 
-- Pesan = DOG = D,O,G = 3,15,6
+**Pesan = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $ c = UGX $
+*c = UFX*
 
 Semua orang dapat secara intuitif memahami bagaimana cara kerja shift cipher dan mungkin menggunakannya sendiri. Akan tetapi, untuk memajukan pengetahuan Anda tentang kriptografi, penting untuk mulai merasa lebih nyaman dengan formalisasi, karena skema akan menjadi jauh lebih sulit. Oleh karena itu, mengapa langkah-langkah untuk shift cipher diformalkan.
 
@@ -674,7 +669,7 @@ $$
 x^3 + 7 = y^2 \mod 2^{256} – 2^{32} – 29 – 28 – 27 – 26 - 24 - 1
 $$
 
-(bilangan prima terbesar yang kurang dari $2^{256}$). Koordinat $x$ adalah kunci privat dan koordinat $y$ adalah kunci publik Anda.
+(yang merupakan bilangan prima terbesar yang kurang dari $2^{256}$).
 
 Transaksi dalam Bitcoin biasanya melibatkan penguncian output ke satu atau lebih kunci publik dengan cara tertentu. Nilai dari transaksi ini dapat dibuka dengan membuat tanda tangan digital dengan kunci privat yang sesuai.
 
@@ -1007,11 +1002,11 @@ Bob mengenkripsi pesan $M$ pada waktu $T_0$ dengan kunci $K$ untuk menghasilkan 
 
 *Gambar 1: Kerahasiaan di seluruh ruang*
 
-![Figure 1: Secrecy across space](assets/Figure4-1.webp "Figure 1: Secrecy across space")
+![Figure 1: Secrecy across space](assets/en/005.webp "Figure 1: Secrecy across space")
 
 *Gambar 2: Kerahasiaan di sepanjang waktu*
 
-![Figure 2: Secrecy across time](assets/Figure4-2.webp "Figure 2: Secrecy across time")
+![Figure 2: Secrecy across time](assets/en/006.webp "Figure 2: Secrecy across time")
 
 ## Sebuah contoh: Sandi pergeseran
 
@@ -1112,7 +1107,7 @@ Sebuah stream cipher XOR yang khas digambarkan pada *Gambar 3*. Pertama-tama, An
 
 *Gambar 3: Sebuah sandi aliran XOR*
 
-![Figure 3: An XOR stream cipher](assets/Figure4-3.webp "Figure 3: An XOR stream cipher")
+![Figure 3: An XOR stream cipher](assets/en/007.webp "Figure 3: An XOR stream cipher")
 
 Perlu diingat bahwa sebuah skema enkripsi biasanya merupakan sebuah template untuk enkripsi dengan algoritma inti yang sama, dan bukannya sebuah spesifikasi yang pasti. Dengan kata lain, sebuah stream cipher biasanya merupakan sebuah template untuk enkripsi di mana Anda dapat menggunakan kunci dengan panjang yang berbeda. Meskipun panjang kunci dapat mempengaruhi beberapa detail kecil dari skema, hal ini tidak akan mempengaruhi bentuk esensialnya.
 
@@ -1196,7 +1191,7 @@ Penggambaran cara kerja dari sebuah block cipher dapat dilihat pada *Gambar 4* d
 
 *Gambar 4: Sebuah sandi blok*
 
-![Figure 4: A block cipher](assets/Figure4-4.webp "Figure 4: A block cipher")
+![Figure 4: A block cipher](assets/en/008.webp "Figure 4: A block cipher")
 
 Sebuah block cipher sendiri bukanlah sebuah skema enkripsi. Tetapi sebuah block cipher dapat digunakan dengan berbagai **mode operasi** untuk menghasilkan skema enkripsi yang berbeda. Sebuah mode operasi hanya menambahkan beberapa operasi tambahan di luar block cipher.
 
@@ -1204,7 +1199,7 @@ Untuk mengilustrasikan bagaimana cara kerjanya, misalkan sebuah block cipher (BC
 
 *Gambar 5: Sebuah sandi blok dengan mode ECB*
 
-![Figure 5: A block cipher with ECB mode](assets/Figure4-5.webp "Figure 5: A block cipher with ECB mode")
+![Figure 5: A block cipher with ECB mode](assets/en/009.webp "Figure 5: A block cipher with ECB mode")
 
 Proses untuk enkripsi buku kode elektronik dengan cipher blok adalah sebagai berikut. Lihat apakah Anda dapat membagi pesan plaintext Anda menjadi blok 128-bit. Jika tidak, tambahkan **padding** pada pesan tersebut, sehingga hasilnya dapat dibagi rata dengan ukuran blok 128 bit. Ini adalah data Anda yang digunakan untuk proses enkripsi.
 
@@ -1220,7 +1215,7 @@ Mode rantai blok sandi (**mode CBC**) mungkin merupakan mode yang paling umum di
 
 *Gambar 6: Sebuah sandi blok dengan mode CBC*
 
-![Figure 6: A block cipher with CBC mode](assets/Figure4-6.webp "Figure 6: A block cipher with CBC mode")
+![Figure 6: A block cipher with CBC mode](assets/en/010.webp "Figure 6: A block cipher with CBC mode")
 
 Misalkan ukuran blok sekali lagi adalah 128 bit. Jadi untuk memulai, Anda harus memastikan bahwa pesan plaintext asli Anda menerima padding yang diperlukan.
 
@@ -1236,7 +1231,7 @@ Terakhir, mari kita alihkan perhatian kita ke **mode umpan-balik output** (**mod
 
 *Gambar 7: Sandi blok dengan mode OFB*
 
-![Figure 7: A block cipher with OFB mode](assets/Figure4-7.webp "Figure 7: A block cipher with OFB mode")
+![Figure 7: A block cipher with OFB mode](assets/en/011.webp "Figure 7: A block cipher with OFB mode")
 
 Dengan mode OFB, Anda juga memilih vektor inisialisasi. Tetapi di sini, untuk blok pertama, vektor inisialisasi langsung dimasukkan ke dalam blok sandi dengan kunci Anda. 128-bit yang dihasilkan, kemudian, diperlakukan sebagai aliran kunci. Keystream ini di-XOR dengan plaintext untuk menghasilkan ciphertext untuk blok tersebut. Untuk blok selanjutnya, Anda menggunakan keystream dari blok sebelumnya sebagai input ke dalam block cipher dan ulangi langkah-langkahnya.
 
@@ -1282,7 +1277,7 @@ Dari diskusi ini, anda sekarang harus memahami *Gambar 8*. Gambar ini memberikan
 
 *Gambar 8: Ikhtisar skema enkripsi simetris*
 
-![Figure 8: Overview of symmetric encryption schemes](assets/Figure4-8.webp "Figure 8: Overview of symmetric encryption schemes")
+![Figure 8: Overview of symmetric encryption schemes](assets/en/012.webp "Figure 8: Overview of symmetric encryption schemes")
 
 ## Kode autentikasi pesan
 
@@ -1306,7 +1301,7 @@ Proses ini digambarkan pada *Gambar 9*. Untuk menggunakan **MAC** (Message Authe
 
 *Gambar 9: Gambaran umum skema enkripsi simetris*
 
-![Figure 9: Overview of symmetric encryption schemes](assets/Figure4-9.webp "Figure 9: Overview of symmetric encryption schemes")
+![Figure 9: Overview of symmetric encryption schemes](assets/en/013.webp "Figure 9: Overview of symmetric encryption schemes")
 
 Karena **ketidakmampuan untuk dipalsukan**, seorang penyerang tidak dapat mengubah pesan $M$ dengan cara apapun atau membuat pesan sendiri dengan tag yang valid. Hal ini terjadi, bahkan jika penyerang mengamati tag dari banyak pesan antara Bob dan Alice yang menggunakan kunci privat yang sama. Paling banyak, penyerang dapat memblokir Alice untuk menerima pesan $M$ (sebuah masalah yang tidak dapat diatasi oleh kriptografi).
 
@@ -1338,7 +1333,7 @@ Alice sekarang pertama-tama memeriksa apakah tag tersebut valid dengan ciphertex
 
 *Gambar 10: Skema enkripsi yang diautentikasi*
 
-![Figure 10: An authenticated encryption scheme](assets/Figure4-10.webp "Figure 10: An authenticated encryption scheme")
+![Figure 10: An authenticated encryption scheme](assets/en/014.webp "Figure 10: An authenticated encryption scheme")
 
 Bagaimana MAC dibuat? Meskipun MAC dapat dibuat melalui beberapa metode, cara yang umum dan efisien untuk membuatnya adalah melalui **fungsi hash kriptografi**.
 
@@ -1350,7 +1345,7 @@ Ada palet fungsi hash yang dapat digunakan untuk membuat HMAC. Fungsi hash yang 
 
 *Gambar 11: HMAC*
 
-![Figure 11: HMAC](assets/Figure4-11.webp "Figure 11: HMAC")
+![Figure 11: HMAC](assets/en/015.webp "Figure 11: HMAC")
 
 **Catatan:**
 
@@ -1388,7 +1383,7 @@ Sesi komunikasi dimulai dengan Bob mengirimkan sebuah ciphertext $C_{0,B}$ kepad
 
 *Gambar 12: Sesi komunikasi yang aman*
 
-![Figure 12: A secure communication session](assets/Figure4-12.webp "Figure 12: A secure communication sessesion")
+![Figure 12: A secure communication session](assets/en/016.webp "Figure 12: A secure communication sessesion")
 
 # RC4 dan AES
 
@@ -1525,7 +1520,7 @@ Kita sebut saja kunci tersebut sebagai $K_0$. Konstruksi dengan parameter di ata
 
 *Gambar 1: AES-ECB dengan kunci 128-bit*
 
-![Figure 1: AES-ECB with a 128-bit key](assets/Figure5-1.webp "Figure 1: AES-ECB with a 128-bit key")
+![Figure 1: AES-ECB with a 128-bit key](assets/en/017.webp "Figure 1: AES-ECB with a 128-bit key")
 
 Setiap blok teks 128-bit melewati sepuluh putaran dalam skema enkripsi Rijndael. Hal ini membutuhkan kunci putaran yang terpisah untuk setiap putaran ($K_1$ sampai dengan $K_{10}$). Kunci-kunci ini dibuat untuk setiap putaran dari kunci 128-bit yang asli, $K_0$, menggunakan sebuah **algoritma ekspansi kunci**. Oleh karena itu, untuk setiap blok teks yang akan dienkripsi, kita akan menggunakan kunci asli $K_0$ dan juga sepuluh kunci putaran yang terpisah. Perhatikan bahwa 11 kunci yang sama ini digunakan untuk setiap blok 128-bit plaintext yang membutuhkan enkripsi.
 
@@ -1764,7 +1759,7 @@ Akan tetapi, implementasi praktis dari skema asimetris ditemukan setahun kemudia
 
 Fungsi pintu jebakan yang digunakan dalam kriptografi asimetris (dan pertukaran kunci Diffie Helmann) semuanya terkait dengan dua masalah utama yang sulit secara komputasi: faktorisasi prima dan kalkulasi logaritma diskrit.
 
-**Faktorisasi prima membutuhkan, sesuai dengan namanya, penguraian sebuah bilangan bulat menjadi faktor-faktor primanya. Masalah RSA sejauh ini merupakan contoh yang paling terkenal dari sebuah kriptosistem yang berhubungan dengan faktorisasi prima.
+**Faktorisasi prima membutuhkan, sesuai dengan namanya, penguraian sebuah bilangan bulat menjadi faktor-faktor primanya. Masalah RSA sejauh ini merupakan contoh yang paling terkenal dari sebuah kriptosistem yang berhubungan dengan faktorisasi prima.**
 
 Masalah logaritma diskrit adalah masalah yang terjadi pada grup siklik. Diberikan sebuah generator dalam grup siklik tertentu, dibutuhkan perhitungan eksponen unik yang diperlukan untuk menghasilkan elemen lain dalam grup dari generator tersebut.
 
@@ -1798,7 +1793,7 @@ Pada suatu saat nanti, Bob ingin menulis pesan $M$ kepada Alice. Karena pesan te
 
 *Gambar 1: Enkripsi asimetris*
 
-![Figure 1: Asymmetric encryption](assets/Figure6-1.webp "Figure 1: Asymmetric encryption")
+![Figure 1: Asymmetric encryption](assets/en/018.webp "Figure 1: Asymmetric encryption")
 
 Setiap musuh yang mendengarkan komunikasi Bob dan Alice dapat mengamati $C$. Dia juga mengetahui $K_P$ dan algoritma enkripsi $E(\cdot)$. Yang penting, bagaimanapun juga, informasi ini tidak memungkinkan penyerang untuk mendekripsi ciphertext $C$. Dekripsi secara khusus membutuhkan $K_S$, yang tidak dimiliki oleh penyerang.
 
@@ -1822,7 +1817,7 @@ Tanda tangan digital, seperti namanya, adalah padanan digital dari tanda tangan 
 
 *Gambar 2: Autentikasi asimetris*
 
-![Figure 2: Asymmetric authentication](assets/Figure6-2.webp "Figure 2: Asymmetric authentication")
+![Figure 2: Asymmetric authentication](assets/en/019.webp "Figure 2: Asymmetric authentication")
 
 Seperti halnya enkripsi asimetris, kami melihat kontras yang menarik antara tanda tangan digital dan kode autentikasi pesan. Untuk yang terakhir ini, algoritma verifikasi hanya dapat digunakan oleh salah satu pihak yang mengetahui komunikasi yang aman. Hal ini dikarenakan algoritma ini membutuhkan sebuah kunci pribadi. Namun, dalam pengaturan asimetris, siapa pun dapat memverifikasi tanda tangan digital $S$ yang dibuat oleh Bob.
 
@@ -1874,7 +1869,7 @@ Kita sudah menemukan fungsi hash di Bab 4 dengan pembuatan pesan autentikasi ber
 
 Mari kita mulai dengan mendefinisikan fungsi hash. Fungsi hash adalah fungsi yang dapat dikomputasi secara efisien yang mengambil input dengan ukuran sembarang dan menghasilkan output dengan panjang yang tetap.
 
-Fungsi hash kriptografi** hanyalah sebuah fungsi hash yang berguna untuk aplikasi dalam kriptografi. Keluaran dari fungsi hash kriptografi biasanya disebut **hash**, **nilai hash**, atau **intisari pesan**.
+Fungsi hash kriptografi hanyalah sebuah fungsi hash yang berguna untuk aplikasi dalam kriptografi. Keluaran dari fungsi hash kriptografi biasanya disebut **hash**, **nilai hash**, atau **intisari pesan**.
 
 Dalam konteks kriptografi, "fungsi hash" biasanya mengacu pada fungsi hash kriptografi. Saya akan mengadopsi praktik tersebut mulai sekarang.
 

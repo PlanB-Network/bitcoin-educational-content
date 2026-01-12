@@ -1,0 +1,9 @@
+question: Bitcoin core được viết bằng ngôn ngữ lập trình nào?
+answer: C++
+wrong_answers:
+  - Đi
+  - JavaScript
+  - Rust
+explanation: |
+  Bitcoin core được viết bằng C++ và được duy trì bởi một cộng đồng mã nguồn mở lớn.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ni ibikorwa ibihe Leta ikwiye gukora nk’uko Bastiat abivuga?
+answer: Umutekano wo mu mutima, umutekano wo hanze, n’ubutungane
+wrong_answers:
+  - Amategeko, ugusubira gusangira, n'ubutungane
+  - Umutekano, ubutungane, n'uburinganire
+  - Uburezi, ubuzima, n’ubutungane
+explanation: |
+  Bastiat avuga ko Leta igira uruhara rutoyi mu bikorwa vy’umutekano n’ubutungane vyo mu mutima no hanze, kugira ngo ikingire uburenganzira bw’abantu ku giti cabo.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni kuki bihanurirwa ko umuntu adashira amaderesi y’aho yakira ku mbuga ngurukanabumenyi?
+answer: Kuko bishobora gukoreshwa mu guhuza ibikorwa vy’uruzitiro n’akaranga nyakuri.
+wrong_answers:
+  - Kuko zishobora gufatwa bitagoranye n’abanyaruyeri b’abanyaruyeri.
+  - Kubera ko boshobora gukwegera amahera y’ubuhendanyi no kugushikirwa n’amasekeza y’ubuhendanyi.
+  - Kuko bashobora kwemera gukoresha inyungu rusangi Ownership heuristic.
+explanation: |
+  Gusangira amaderesi y’ukwakira Bitcoin kuri internet birashobora gukoreshwa nk’inzira yo kwinjira mu gusesangura uruhererekane mu guhuza akaranga (akaranga nyakuri canke k’ikinyoma) n’igikorwa co ku ruhererekane.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Sõlmede sõlmimine
+name: Bitcoin Knots
 description: Kuidas käivitada sõlme Bitcoin Knots alternatiivse kliendiga?
 ---
 ![cover](assets/cover.webp)
@@ -19,8 +19,8 @@ Siiski on saadaval ka alternatiivne tarkvara. Need ei ole Altcoin-ga seotud sõl
 Core'i asemel on kaks peamist põhjust kasutada alternatiivset klienti, nagu Knots:
 
 
-- Tehniline**: Need kliendid pakuvad Core'ile sageli erinevaid võimalusi, eelkõige Mempool haldamise osas, määrates kindlaks, milliseid tehinguid teie sõlmpunkt aktsepteerib ja edastab.
-- Poliitika**: Mõned inimesed eelistavad kasutada alternatiivseid kliente, nagu Knots, mittetehnilistel põhjustel, eelkõige selleks, et toetada alternatiivi Core'ile ja seega vähendada selle monopoli. Kui Core peaks kunagi ohtu sattuma, oleks kasulik mitte ainult omada kindlaid, hästi hooldatud alternatiivseid kliente, vaid ka teada, kuidas neid kasutada. Teised kasutavad Knots'i protestiks, sest nad on kaotanud usalduse Core'i arendajate vastu või ei kiida heaks enamuse kliendi juhtimist.
+- **Tehniline**: Need kliendid pakuvad Core'ile sageli erinevaid võimalusi, eelkõige Mempool haldamise osas, määrates kindlaks, milliseid tehinguid teie sõlmpunkt aktsepteerib ja edastab.
+- **Poliitika**: Mõned inimesed eelistavad kasutada alternatiivseid kliente, nagu Knots, mittetehnilistel põhjustel, eelkõige selleks, et toetada alternatiivi Core'ile ja seega vähendada selle monopoli. Kui Core peaks kunagi ohtu sattuma, oleks kasulik mitte ainult omada kindlaid, hästi hooldatud alternatiivseid kliente, vaid ka teada, kuidas neid kasutada. Teised kasutavad Knots'i protestiks, sest nad on kaotanud usalduse Core'i arendajate vastu või ei kiida heaks enamuse kliendi juhtimist.
 
 ## Kuidas paigaldada Bitcoin sõlme?
 
@@ -30,7 +30,7 @@ Mine [ametlikule Bitcoin Knots veebilehele](https://bitcoinknots.org/#download),
 
 Enne tarkvara paigaldamist oma masinasse soovitame tungivalt kontrollida selle autentsust ja terviklikkust. Kui te ei tea, kuidas seda teha, vaadake seda teist õpetust:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 Kui tarkvara on kontrollitud, installige see, järgides paigalduspaneelil näidatud samme.
 
 ![Image](assets/fr/03.webp)
@@ -115,7 +115,7 @@ Andke oma Wallet-le nimi. Samuti saate seda kaitsta passphrase BIP39-ga, klõpsa
 
 passphrase BIP39 on valikuline parool, mille saate vabalt valida lisaks Mnemonic fraasile, et suurendada Wallet turvalisust. Enne selle funktsiooni seadistamist soovitame tungivalt lugeda järgmist artiklit, mis selgitab üksikasjalikult, kuidas passphrase teoreetiliselt töötab ja kuidas vältida vigu, mis võivad põhjustada teie bitcoinide lõpliku kaotuse:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 Kui olete aktiveerinud passphrase valiku, valige kindel valik ja salvestage see hoolikalt ühele või mitmele turvalisele füüsilisele andmekandjale.
 
 ![Image](assets/fr/18.webp)
@@ -285,4 +285,4 @@ Kui leidsite selle õpetuse kasulikuks, oleksin väga tänulik, kui jätaksite a
 
 Soovitan ka seda teist õpetust, kus ma selgitan, kuidas luua oma Lightning-sõlme:
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

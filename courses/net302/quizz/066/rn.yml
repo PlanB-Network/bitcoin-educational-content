@@ -1,0 +1,9 @@
+question: Ni ibihe bihe bibiri vy’ubuzima bifitaniye isano n’iyigenewe IPv6 Address?
+answer: Ubuzima bushimwa n'ubuzima bubereye
+wrong_answers:
+  - Igihe co gukodesha n'igihe co gufata
+  - Igihe co kubaho n'igihe co guhera
+  - Ubuzima bwa mbere n'ubuzima bwa kabiri
+explanation: |
+  Igihe c’ubuzima gikundwa kigena igihe c’ikoreshwa risanzwe rya Address n’igihe c’ubuzima gifise akamaro igihe cose c’ubuzima bwaco.
+reviewed: false

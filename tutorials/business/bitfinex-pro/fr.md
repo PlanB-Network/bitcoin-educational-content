@@ -6,13 +6,13 @@ description: Création et gestion d'un compte entreprise sur Bitfinex
 
 Fondée en 2012, Bitfinex est l'une des premières plateformes d'échange de bitcoin et d'altcoins. Initialement centrée sur des échanges P2P de bitcoins, la plateforme a rapidement élargi ses services pour inclure le trading sur marge, le financement P2P, le trading de produits dérivés, et un marché OTC ("*over-the-counter*") pour les transactions de gros volumes.
 
-Aujourd'hui, Bitfinex est une plateforme complète, permettant aussi bien des achats simples de bitcoins que l'utilisation de fonctionnalités de trading avancées (trading traditionnel, dérivés, OTC, lending, etc.) avec des outils de gestion de risque . Elle est accessible en version web, et pour des transactions simples, une application mobile facile à prendre en main est également disponible.
+Aujourd'hui, Bitfinex est une plateforme complète, permettant aussi bien des achats simples de bitcoins que l'utilisation de fonctionnalités de trading avancées (trading traditionnel, dérivés, OTC, lending, etc.) avec des outils de gestion de risque. Elle est accessible en version web, et pour des transactions simples, une application mobile facile à prendre en main est également disponible.
 
 Dans ce tutoriel, nous allons découvrir le processus de création d’un compte entreprise sur Bitfinex, l'achat et la vente de bitcoins, la gestion des transactions pour la comptabilité, ainsi que le dépôt et le retrait d'euros et de bitcoins. L'objectif est de vous fournir les connaissances de base, que vous envisagiez d'intégrer le bitcoin dans votre trésorerie ou d'accepter le bitcoin comme moyen de paiement.
 
 Si ce sujet de l'intégration du bitcoin à votre entreprise vous intéresse, je vous conseille également de découvrir notre formation théorique complète sur ce sujet :
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Création d’un compte sur Bitfinex
 
@@ -26,11 +26,11 @@ Complétez les informations requises : indiquez votre adresse email professionne
 
 Pour des conseils sur l'utilisation et la sauvegarde de mots de passe forts et uniques, consultez également ce tutoriel :
 
-https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
+https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 Nous allons à présent configurer le 2FA pour sécuriser le compte. Utilisez une application d'authentification sur votre smartphone, telle que Google Authenticator ou Authy par exemple. Vous trouverez un tutoriel sur cet outil ici :
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Scannez le QR code avec votre application et entrez les 6 chiffres fournis.
 
@@ -156,7 +156,7 @@ Bitfinex offre aussi des options de dépôt et de retrait via le Lightning Netwo
 
 Si le Lightning Network vous intéresse, nous avons également une formation complète pour comprendre son fonctionnement :
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## 6 - Achat et vente de bitcoins sur Bitfinex
 
@@ -170,7 +170,7 @@ Sélectionnez la paire "*BTC/EUR*" si vous désirez acheter ou vendre des BTC en
 
 ![BITFINEX](assets/fr/26.webp)
 
-L'interface affiche au centre un graphique du cours, l'order book en bas, et le module de saisie d'ordre à gauche. Dans la section de saisie, vous avez le choix entre un ordre "*Market*" (exécuté immédiatement au meilleur prix disponible) ou "*Limit*" (vous définissez le prix). Indiquez la quantité de BTC à acheter ou à vendre, ou sélectionnez un pourcentage de votre solde. Cliquez ensuite sur "*Buy*" pour acheter ou sur "*Sell*" pour vendre.
+L'interface affiche au centre un graphique du cours, l'_order book_ en bas, et le module de saisie d'ordre à gauche. Dans la section de saisie, vous avez le choix entre un ordre "*Market*" (exécuté immédiatement au meilleur prix disponible) ou "*Limit*" (vous définissez le prix). Indiquez la quantité de BTC à acheter ou à vendre, ou sélectionnez un pourcentage de votre solde. Cliquez ensuite sur "*Buy*" pour acheter ou sur "*Sell*" pour vendre.
 
 ![BITFINEX](assets/fr/27.webp)
 
@@ -233,5 +233,5 @@ En fonction des objectifs et de la structure de votre entreprise, l'utilisation 
 
 Pour approfondir ce sujet, je vous recommande de consulter cette formation complète sur l'intégration du bitcoin aux entreprises, qui couvre dans le détail l'ajout en trésorerie, l'acceptation des paiements en bitcoins, et la comptabilité :
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 

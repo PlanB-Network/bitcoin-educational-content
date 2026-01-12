@@ -1,12 +1,11 @@
-question: ¿Cuáles son las tres funciones principales de un monedero de Bitcoin?
-answer: Recibir bitcoins, enviar bitcoins, protegerlos contra intentos de hackeo y robo.
+question: ¿Cómo puedes fortalecer la seguridad predeterminada de tu billetera de Bitcoin?
+answer: Añadiendo una frase de paso a tu billetera de Bitcoin.
 wrong_answers:
-  - Almacenar bitcoins, enviar bitcoins, protegerlos contra intentos de hackeo y robo.
-  - Permitir recibir bitcoins, almacenar bitcoins, protegerlos contra intentos de hackeo y robo.
-  - Permitir recibir bitcoins, permitir enviar bitcoins, vender bitcoins.
+  - Añadiendo una segunda clave privada a tu billetera de Bitcoin.
+  - Añadiendo una segunda clave pública a tu billetera de Bitcoin.
+  - Añadiendo una segunda frase mnemotécnica a tu billetera de Bitcoin.
 explanation: |
-  Un monedero de Bitcoin se utiliza para interactuar con la
-  red de Bitcoin. Sus tres funciones principales son permitir recibir
-  bitcoins, permitir enviar bitcoins y protegerlos contra
-  intentos de hackeo y robo.
+  Si no estás satisfecho con la seguridad predeterminada de tu
+  billetera de Bitcoin, siempre puedes fortalecerla añadiendo una
+  frase de paso a tu billetera de Bitcoin.
 reviewed: true

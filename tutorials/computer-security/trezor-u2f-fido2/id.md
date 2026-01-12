@@ -1,5 +1,5 @@
 ---
-name: Trezor U2F & FIDO2
+name: "Trezor U2F & FIDO2"
 description: Perkuat keamanan online Anda dengan Trezor
 ---
 ![cover](assets/cover.webp)
@@ -134,7 +134,7 @@ Relying party ID:       vault.bitwarden.com
 Relying party name:     Bitwarden
 User ID:                6e315ebabc8b6945a253b1c50116538d
 User name:              tutoplanbnetwork@proton.me
-User display name:      PBN
+User display name:      Plan ₿ Academy
 Creation time:          2
 hmac-secret enabled:    True
 Use signature counter:  True
@@ -155,7 +155,7 @@ Setelah pemulihan selesai, untuk mengimpor pengenal FIDO2 Anda ke perangkat baru
 trezorctl fido credentials add <CREDENTIAL_ID>
 ```
 
-Cukup ganti `<CREDENTIAL_ID>` dengan salah satu pengenal Anda. Sebagai contoh, dalam kasus saya, ini akan menghasilkan :
+Cukup ganti `<CREDENTIAL_ID>` dengan salah satu pengenal Anda. Sebagai contoh, dalam kasus saya, ini akan menghasilkan:
 
 ```shell
 trezorctl fido credentials add f1d00200a020a736356d0ceb7ce8b7655b39c399d8111b620bbbbfc78a51add31475e6acd9a68f77f0a6b12a20c7a41412c488787d41e6ee0bdbf3bb99973c9637d21d3a060808143dd228e0831bbb883fb3afedd3f70596a9f6b98f00703244b76260099a9c044346bf6266d3cb9d90db6fc7cde1142b11c5c8ea
@@ -171,4 +171,4 @@ Selamat, kini Anda sudah menguasai penggunaan Trezor dengan U2F dan FIDO2! Jika 
 
 Saya juga merekomendasikan tutorial lain, di mana kita melihat solusi lain untuk autentikasi U2F dan FIDO2:
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e

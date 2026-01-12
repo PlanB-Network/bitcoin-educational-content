@@ -1,0 +1,9 @@
+question: Koje aplikacije za samostalno hostovanje mogu biti instalirane putem Umbrel-a?
+answer: Nextcloud
+wrong_answers:
+  - Google Drive
+  - Dropbox
+  - OneDrive
+explanation: |
+  Umbrel nudi App Store sa uslugama samostalnog hostovanja, kao što je Nextcloud, za samostalno čuvanje i sinhronizaciju fajlova.
+reviewed: true

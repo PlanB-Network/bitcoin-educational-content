@@ -1,0 +1,9 @@
+question: None nokora iki na Invoice mu kwimurira RGB?
+answer: Erekana ubwoko bw’ugucuruza, umubare w’ibintu bisabwa be n’igitabu ca Seal Definition c’uwuronka.
+wrong_answers:
+  - Rema Genesis nshasha y'umutungo
+  - generate Schema nshasha yo guhindura Business Logic y’umutungo.
+  - Kubaka PSBT kugira ngo isubirire igikorwa ca Bitcoin
+explanation: |
+  Invoice ikoreshwa mu kumenyesha uwuyitanga ivy’ugucuruza ubwoko bw’igikorwa, ubwinshi bw’itunga rizokwimurirwa n’aho rizoja (Seal Definition).
+reviewed: false

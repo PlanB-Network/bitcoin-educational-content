@@ -4,13 +4,13 @@ description: Mengkonfigurasi dan menggunakan Portal dompet perangkat keras Twent
 ---
 ![cover](assets/cover.webp)
 
-Portal adalah dompet perangkat keras Bitcoin yang didesain oleh TwentyTwo Devices, sebuah perusahaan yang mengkhususkan diri dalam pembuatan dompet perangkat keras sumber terbuka untuk para pengguna Bitcoin. Didirikan oleh Alekos Filini, pencipta proyek Magical Bitcoin ([selanjutnya dinamakan BDK] (https://github.com/bitcoindevkit)) dan pernah bekerja untuk Blockstream dan BHB Network, TwentyTwo Devices bertujuan untuk fokus pada otonomi pengguna, kesederhanaan dan keamanan.
+Portal adalah dompet perangkat keras Bitcoin yang didesain oleh TwentyTwo Devices, sebuah perusahaan yang mengkhususkan diri dalam pembuatan dompet perangkat keras sumber terbuka untuk para pengguna Bitcoin. Didirikan oleh Alekos Filini, pencipta proyek Magical Bitcoin ([selanjutnya dinamakan BDK](https://github.com/bitcoindevkit)) dan pernah bekerja untuk Blockstream dan BHB Network, TwentyTwo Devices bertujuan untuk fokus pada otonomi pengguna, kesederhanaan dan keamanan.
 
 Yang membedakan Portal dengan dompet perangkat keras lainnya di pasaran adalah integrasi aslinya dengan smartphone. Dompet ini bekerja tanpa kabel atau baterai. Ia menggunakan teknologi NFC untuk menyalakan dirinya sendiri dan berkomunikasi dengan dompet seluler apa pun yang kompatibel. Desainnya yang menarik dirancang untuk penggunaan yang ergonomis. Bagian bundar ditempatkan di bagian belakang smartphone untuk menampilkan layar di mana Anda dapat memeriksa detail transaksi Anda sebelum menandatanganinya dengan tombol khusus.
 
 ![Image](assets/fr/01.webp)
 
-Sepenuhnya open-source, Portal didasarkan pada firmware yang ditulis dalam bahasa Rust dan menggunakan BDK (Bitcoin Dev Kit) untuk manajemen kunci dan transaksi. Portal ini dijual dengan harga €89 [di situs web resminya] (https://store.twenty-two.xyz/products/portal-hardware-wallet).
+Sepenuhnya open-source, Portal didasarkan pada firmware yang ditulis dalam bahasa Rust dan menggunakan BDK (Bitcoin Dev Kit) untuk manajemen kunci dan transaksi. Portal ini dijual dengan harga €89 [di situs web resminya](https://store.twenty-two.xyz/products/portal-hardware-wallet).
 
 Pada saat artikel ini ditulis, Portal ini kompatibel dengan aplikasi Nunchuk dan Bitcoin Keeper. Dalam tutorial ini, kita akan mengonfigurasinya dengan Nunchuk.
 
@@ -66,9 +66,9 @@ Anda bisa menuliskannya pada selembar kertas, atau untuk keamanan tambahan, saya
 
 Untuk informasi lebih lanjut mengenai cara yang tepat untuk menyimpan dan mengelola frasa mnemonik Anda, saya sangat merekomendasikan untuk mengikuti tutorial lainnya, khususnya jika Anda seorang pemula:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
-tentu saja, Anda tidak boleh membagikan kata-kata ini di Internet, seperti yang saya lakukan dalam tutorial ini. Portofolio contoh ini hanya akan digunakan di Testnet dan akan dihapus di akhir tutorial.**_
+tentu saja, Anda tidak boleh membagikan kata-kata ini di Internet, seperti yang saya lakukan dalam tutorial ini. Portofolio contoh ini hanya akan digunakan di Testnet dan akan dihapus di akhir tutorial.
 
 Tekan tombol pada Portal Anda dengan kuat untuk beralih ke kata berikutnya. Pastikan Anda meletakkan seluruh jari Anda pada tombol dan tahan tekanan selama beberapa detik, sehingga interaksi terdeteksi dengan benar.
 
@@ -228,4 +228,4 @@ Selamat, Anda sekarang sudah bisa menggunakan Portal! Jika Anda merasa tutorial 
 
 Untuk mengetahui lebih lanjut, lihatlah kursus pelatihan lengkap kami mengenai cara kerja portofolio HD:
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

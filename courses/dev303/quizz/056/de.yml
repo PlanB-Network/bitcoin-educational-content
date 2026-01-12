@@ -1,0 +1,8 @@
+question: Welche Makromustersyntax würde in einem benutzerdefinierten funktionsähnlichen Makro korrekt auf null oder mehr durch Kommas getrennte Ausdrücke passen?
+answer: $($x:expr),*
+wrong_answers:
+  - $($x:expr)*,
+  - $[x:expr],*
+  - ${$x:expr},*
+explanation: |
+  Die korrekte Syntax $($x:expr),* verwendet das Wiederholungsmuster von Rust, bei dem das Dollarzeichen eine Wiederholungsgruppe einleitet, $x:expr mit jedem Ausdruck mit dem expr-Fragment-Spezifikator übereinstimmt, das Komma als Trennzeichen zwischen den Ausdrücken fungiert und das Sternchen (*) null oder mehr Wiederholungen anzeigt. Die falschen Antworten enthalten Syntaxfehler: $($x:expr)*, setzt das Komma außerhalb der Wiederholungsgruppe, $[x:expr],* verwendet eckige Klammern anstelle von Klammern und lässt das Dollarzeichen vor x weg, und ${$x:expr},* verwendet geschweifte Klammern anstelle von Klammern für die Wiederholungsgruppe.

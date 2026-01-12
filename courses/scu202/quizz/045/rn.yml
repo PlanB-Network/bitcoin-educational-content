@@ -1,0 +1,9 @@
+question: Ni igikoresho ikihe ca macOS gishoboza kunyegeza amakuru yose ari kuri disk?
+answer: FileVault
+wrong_answers:
+  - Disk Utility
+  - iCloud Keychain
+  - BitLocker
+explanation: |
+  FileVault ni umuti kavukire kuri macOS wo kunyegeza amakuru ari kuri disk.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe nyamukuru rw’umurongo wa TCP mu citegererezo ca TCP/IP?
+answer: Kumenya neza ko amakuru yoherezwa mu buryo bwizewe kandi bubereye
+wrong_answers:
+  - Gushiramwo amakuru y'urubuga
+  - Gutanga aderesi za IP ku mashini
+  - Ibice vy'amakuru ku rugero rw'umubiri
+explanation: |
+  TCP ituma amakuru ashobora gutangazwa mu buryo bwizigirwa mu kugenzura ubutungane, kubungabunga urutonde, no gufata ingingo yo gusubirana iyo yoba yatakaye.
+reviewed: false

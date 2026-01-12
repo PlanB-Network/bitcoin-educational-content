@@ -1,5 +1,5 @@
 ---
-name: Bitcoin 结
+name: Bitcoin Knots
 description: 如何使用 Bitcoin 结替代客户端启动节点？
 ---
 ![cover](assets/cover.webp)
@@ -19,8 +19,8 @@ Bitcoin 节是 Bitcoin 协议的另一种实现方式，源自 Bitcoin 核心。
 使用 Knots 等替代客户端而不是 Core 有两个主要原因：
 
 
-- 技术**：这些客户端通常为 Core 提供不同的选项，特别是在 Mempool 管理方面，它们决定节点接受和广播哪些交易。
-- 政策**：有些人出于非技术原因，特别是为了支持 Core 的替代方案，从而减少其垄断地位，而喜欢使用 Knots 等替代客户端。如果 Core 遭到破坏，那么不仅要有可靠、维护良好的替代客户端，还要知道如何使用它们。还有一些人出于抗议目的使用 Knots，因为他们对 Core 开发人员失去了信心，或者不赞成大多数客户端的管理方式。
+- **技术**：这些客户端通常为 Core 提供不同的选项，特别是在 Mempool 管理方面，它们决定节点接受和广播哪些交易。
+- **政策**：有些人出于非技术原因，特别是为了支持 Core 的替代方案，从而减少其垄断地位，而喜欢使用 Knots 等替代客户端。如果 Core 遭到破坏，那么不仅要有可靠、维护良好的替代客户端，还要知道如何使用它们。还有一些人出于抗议目的使用 Knots，因为他们对 Core 开发人员失去了信心，或者不赞成大多数客户端的管理方式。
 
 ## 如何安装 Bitcoin 结？
 
@@ -30,7 +30,7 @@ Bitcoin 节是 Bitcoin 协议的另一种实现方式，源自 Bitcoin 核心。
 
 在您的机器上安装软件之前，我们强烈建议您检查其真实性和完整性。如果您不知道如何检查，请参阅本教程：
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 软件通过验证后，请按照安装面板中指示的步骤进行安装。
 
 ![Image](assets/fr/03.webp)
@@ -70,7 +70,7 @@ https://planb.network/tutorials/computer-security/data/integrity-authenticity-21
 
 - 当电脑启动时，"*Start...*"会自动启动节点，立即开始同步；
 - 如果您选择修剪 Blockchain，"*Prune...*"将调整存储限制；
-- "数据库缓存......*"设置节点允许的最大内存量；
+- "数据库缓存......**设置节点允许的最大内存量**；
 - 最后，如果希望将 Bitcoin Knots 节点连接到 Sparrow Wallet 或 Liana 等其他组合软件，请激活 "*启用 RPC 服务器*"。
 
 ![Image](assets/fr/09.webp)
@@ -115,7 +115,7 @@ https://planb.network/tutorials/computer-security/data/integrity-authenticity-21
 
 passphrase BIP39 是一个可选密码，您可以在 Mnemonic 短语之外自由选择，以提高 Wallet 的安全性。在配置此功能之前，我们强烈建议您阅读以下文章，其中详细解释了 passphrase 的理论工作原理，以及如何避免可能导致比特币永久丢失的错误：
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 如果您已激活 passphrase 选项，请选择一个强大的选项，并小心保存在一个或多个安全的物理介质上。
 
 ![Image](assets/fr/18.webp)
@@ -244,7 +244,7 @@ server=1
 
 |**Linux**|~/.Bitcoin|
 
-也可通过 Bitcoin-QT 的 Interface 图形执行此操作。进入 "*Settings*（设置）"菜单，然后进入 "*Options...*（选项...）"菜单，选中相应的复选框，激活 "*Enable RPC server*（启用 RPC 服务器*）"选项。如果 "Bitcoin.conf "文件不存在，可以点击 "*Open Configuration File*"（*打开配置文件*），直接从 Interface 创建该文件。
+也可通过 Bitcoin-QT 的 Interface 图形执行此操作。进入 "**Settings**（设置）"菜单，然后进入 "**Options...**（选项...）"菜单，选中相应的复选框，激活 "**Enable RPC server**（启用 RPC 服务器）"选项。如果 "Bitcoin.conf "文件不存在，可以点击 "**Open Configuration File**"（**打开配置文件**），直接从 Interface 创建该文件。
 
 ![Image](assets/fr/37.webp)
 
@@ -285,4 +285,4 @@ rpcpassword=my_password
 
 我还推荐另一篇教程，其中介绍了如何建立自己的 Lightning 节点：
 
-https://planb.network/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a
+https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-4134-8f22-c3b6afb9882a

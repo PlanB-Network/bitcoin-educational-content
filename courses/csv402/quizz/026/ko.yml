@@ -1,0 +1,9 @@
+question: RGB 아키텍처에서 Interface Implementation의 목적은 무엇인가요?
+answer: Schema 필드를 Interface에 정의된 이름에 매핑하기
+wrong_answers:
+  - 유효성 검사를 위한 AluVM 스크립트 컴파일
+  - Contract의 글로벌 상태 및 소유 상태 정의하기
+  - 클라이언트 측 암호화 증명을 저장하려면
+explanation: |
+  Interface Implementation은 Schema의 Business Logic과 Interface이 읽을 수 있는 프레젠테이션 사이의 링크를 설정합니다.
+reviewed: false

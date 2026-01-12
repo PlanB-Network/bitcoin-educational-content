@@ -1,8 +1,8 @@
-question: Wat zijn enkele potentiële zakelijke mogelijkheden van de Lightning Network?
-answer: Nieuwe economische modellen waarbij consumenten betalen voor content op basis van wat ze consumeren.
+question: Wat zou een belangrijk punt van zorg kunnen zijn met betrekking tot het banksysteem?
+answer: De regels van het bankspel zijn niet transparant en begrijpelijk voor iedereen.
 wrong_answers:
-  - Nieuwe economische modellen waarbij consumenten betalen met verschillende cryptocurrencies.
-  - Nieuwe economische modellen waarbij consumenten gepersonaliseerde blockchains gebruiken.
-  - Nieuwe economische modellen waarbij consumenten niet betalen voor inhoud.
+  - Het banksysteem is te eenvoudig om te begrijpen.
+  - Het banksysteem is te transparant.
+  - Het banksysteem is te gedecentraliseerd.
 explanation: >-
 reviewed: true

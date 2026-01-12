@@ -6,4 +6,4 @@ Bitcoini võrgus on sõlme (või inglise keeles "node") arvuti, millel töötab 
 
 Bitcoinis on mitut tüüpi sõlmed, sealhulgas täis- ja kergsõlmed. Täissõlmed hoiavad täielikku koopiat plokiahelast, kontrollivad kõiki tehinguid ja plokke vastavalt konsensusreeglitele ning osalevad aktiivselt tehingute ja plokkide levitamises kogu võrgus. Seevastu kerged sõlmed ehk SPV-sõlmed (*Simple Payment Verification*) hoiavad ainult plokkide päiseid ja sõltuvad tehinguinfo saamisel täis sõlmedest.
 
-> ► * Mõni eristab ka nn "kärbitud sõlmede" ("pruned node" inglise keeles) vahel. Need on täielikud sõlmed, mis laadivad alla ja kontrollivad kõiki Genesis'i plokke, kuid säilitavad mälus ainult kõige uuemad plokid.* *
+> ► *Mõni eristab ka nn "kärbitud sõlmede" ("pruned node" inglise keeles) vahel. Need on täielikud sõlmed, mis laadivad alla ja kontrollivad kõiki Genesis'i plokke, kuid säilitavad mälus ainult kõige uuemad plokid.*

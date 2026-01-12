@@ -1,0 +1,9 @@
+question: Bitcoin नोड क्या है?
+answer: Bitcoin प्रोटोकॉल को लागू करने वाला सॉफ़्टवेयर चलाने वाला कंप्यूटर
+wrong_answers:
+  - Bitcoin नेटवर्क को क्रियान्वित करने वाला Hardware Wallet
+  - Miner, Bitcoin के लिए नए ब्लॉक का उत्पादन कर रहा है
+  - Bitcoin नेटवर्क और लेनदेन पुष्टिकरण का प्रबंधन करने वाला एक केंद्रीय सर्वर
+explanation: |
+  Bitcoin नोड एक कंप्यूटर है जो Bitcoin core जैसे सॉफ्टवेयर चलाता है, जो प्रोटोकॉल को क्रियान्वित करता है और Bitcoin नेटवर्क में भाग लेता है।
+reviewed: true

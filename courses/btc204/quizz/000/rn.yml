@@ -1,0 +1,9 @@
+question: Ijambo ry’inyongera UTXO risobanura iki mu congereza?
+answer: Igisubizo c'Ibikorwa bitakoreshejwe
+wrong_answers:
+  - Igisubizo c'Ibikorwa vy'Ugucuruza
+  - Gukoresha gusa
+  - Ubuhinga token Exchange Amahitamwo
+explanation: |
+  UTXO ni umusaruro w’isoko ry’ubudandaji ritarakoreshwa.
+reviewed: false

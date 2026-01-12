@@ -1,0 +1,14 @@
+question: Ni igiki kizotera ubwoba muri kazoza ku bijanye n’ugukoresha ikibanza c’amabuye ya Bitcoin?
+answer: Icozotera ubwoba muri kazoza ni uko n’iterambere ryitezwe rya Lightning Network be n’ukwiyongera kw’ugufungura n’ugufunga imigende, ikibanza mu mabarabara ya Bitcoin kizorushiriza kugira agaciro.
+wrong_answers:
+  - Icozohagarika umutima muri kazoza ni uko ubunini bw’amabuye ya Bitcoin buzoba bunini cane ku buryo atazoshobora gucungera.
+  - Icozotera ubwoba muri kazoza ni uko umubare w’amabuye ya Bitcoin uzorenga ubushobozi bw’uruja n’uruza.
+  - Icozotera ubwoba muri kazoza ni uko uburemere bw’amabuye ya Bitcoin buzokwongerekana, bigatuma agora gukora.
+explanation: |
+  Kubera iterambere ryitezwe rya Lightning Network n’i
+  inkurikizi z’ukwiyongera kw’ugufungura n’ugufunga imigende, ikibanza
+  mu mabarabara ya Bitcoin azorushiriza kugira agaciro. Ibi
+  vyatumye haba ibiganiro ku bijanye n’ugukoresha neza ubuhinga bwa block .
+  ikibanza, n'ivy'ubutumwa butari bwo kuri Blockchain kuva
+  amafaranga abonwa ko atari ngombwa.
+reviewed: true

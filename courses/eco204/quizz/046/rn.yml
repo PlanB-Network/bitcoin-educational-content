@@ -1,0 +1,10 @@
+question: None Cordoba ya mbere yo muri Nikaragwa yari ifise agaciro akahe?
+answer: miliyoni 1.
+wrong_answers:
+  - 500.000
+  - miliyoni 10
+  - miliyoni 100
+explanation: |
+  Muri Nikaragwa, igisagara ca mbere citwa Cordoba carashitse ku gaciro k’imiliyoni 1. Ubwa kabiri .
+  Cordoba yashitse ku miriyoni 10.
+reviewed: false

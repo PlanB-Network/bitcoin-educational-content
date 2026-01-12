@@ -1,0 +1,9 @@
+question: Có hai phiên bản Lightning Network nào có sẵn trên Umbrel?
+answer: LND và Core Lightning
+wrong_answers:
+  - Electrs và Fulcrum
+  - Bitcoin core và Bitcoin Knots
+  - Ride The Lightning và ThunderHub
+explanation: |
+  Umbrel cho phép bạn lựa chọn giữa LND và Core Lightning để triển khai Lightning Network.
+reviewed: true

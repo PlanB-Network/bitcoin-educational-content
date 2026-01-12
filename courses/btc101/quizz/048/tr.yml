@@ -1,12 +1,9 @@
-question: Hiperenflasyonun sonucu nedir?
-answer: Para biriminin değerinde ciddi bir düşüş.
+question: Ekim 1923'te Almanya'da hiperenflasyonun en yüksek olduğu dönemde enflasyon oranı yaklaşık ne kadardı?
+answer: 29,500%
 wrong_answers:
-  - Para biriminin değerinde küçük bir düşüş.
-  - Para biriminin değerinde ciddi bir artış.
-  - Para biriminin değerinde küçük bir artış.
+  - 5,200%
+  - 76%
+  - 110%
 explanation: |
-  Hiperenflasyon nedeniyle, bireyler hızlı bir şekilde
-  para birimine olan güvenin tamamen kaybolmasına yol açar
-  kısa bir süre içinde değerinde ciddi bir düşüş
-  zaman.
-reviewed: true
+  Almanya'da enflasyon oranının en yüksek olduğu ay %29.500 ile Ekim 1923 olmuştur.
+reviewed: false

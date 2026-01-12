@@ -1,0 +1,9 @@
+question: Ni ubuhe bwoko bw’inyandiko ya DNS ikoreshwa kugira ngo umuntu aronke izina rijanye n’i IPv6 Address?
+answer: PTR
+wrong_answers:
+  - AAAA
+  - MX
+  - SOA
+explanation: |
+  PTR (Inyandiko y'Ikimenyetso) ishoboza gusubiza inyuma, bisobanura ko ihuza IPv6 Address n'izina ry'indangarubuga.
+reviewed: false

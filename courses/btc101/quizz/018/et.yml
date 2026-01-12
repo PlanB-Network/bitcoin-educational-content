@@ -1,11 +1,11 @@
-question: Millega oli esimene valuuta vorm tihti seotud?
-answer: Oluliste kaupadega nagu teravili, kariloomad ja muud kaubad
+question: Mis on Bitcoin'i peamine eelis teiste valuutade ees?
+answer: See pakub suurepärast väärtuse säilitamise võimalust tänu selle rangelt piiratud pakkumisele ja neutraalsusele.
 wrong_answers:
-  - Kuld ja hõbe
-  - Paberrahad
-  - Digitaalsed varad
+  - See on jagamatu ja transporditav
+  - See on allutatud rahalisele inflatsioonile
+  - See on laialdaselt aktsepteeritud kaubanduses
 explanation: |
-  Esimene valuuta vorm oli tihti seotud oluliste kaupadega nagu
-  teravili, kariloomad ja muud kaubad. Need kaubad, aga, olid suurte puudustega,
-  nagu näiteks riknevus, muutes neid raskeks kasutada pikaajalise säästmise vahendina.
+  Bitcoin'i peamine eelis teiste valuutade ees on see,
+  et see pakub suurepärast väärtuse säilitamise võimalust tänu selle rangelt piiratud pakkumisele ja usaldusväärse osapoole puudumisele. See teeb
+  sellest hea valiku pikaajaliseks säästmiseks.
 reviewed: true

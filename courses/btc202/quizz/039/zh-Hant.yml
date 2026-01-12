@@ -1,0 +1,9 @@
+question: 以 2025 年為單位，Bitcoin 節點的 SSD 容量建議至少是多少？
+answer: 2 To
+wrong_answers:
+  - 512 GB
+  - 10 至
+  - 256 GB
+explanation: |
+  Blockchain 已超過 700 GB，加上額外的應用程式，2 TB 已經成為合理的最小值。
+reviewed: true

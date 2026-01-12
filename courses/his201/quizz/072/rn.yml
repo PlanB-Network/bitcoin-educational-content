@@ -1,0 +1,9 @@
+question: Ninde Satoshi yasigiye igikorwa co gutegura porogarama igihe yavamwo?
+answer: Gavin Andresen
+wrong_answers:
+  - Martti Malmi
+  - Jeff Garzik
+  - Mike Hearn
+explanation: |
+  Gavin yari yaravuze mbere ko azorongora umugambi wa Bitcoin n'umwete kandi yari yuguruye ububiko bwa GitHub mu kwezi kwa kigarama 2010.
+reviewed: true

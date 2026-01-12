@@ -1,0 +1,9 @@
+question: Který volitelný index lze aktivovat v Bitcoin core pro vyhledání transakce podle jejího txid?
+answer: txindex
+wrong_answers:
+  - addrindex
+  - blockindex
+  - electrumindex
+explanation: |
+  Možnost txindex=1 se používá k dotazování transakce podle jejího jedinečného identifikátoru (txid).
+reviewed: true

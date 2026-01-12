@@ -1,11 +1,9 @@
-question: Was ist das Blockchain-Trilemma?
-answer: Ein auf einer Blockchain basierendes Protokoll kann nur zwei der Kriterien Dezentralisierung, Sicherheit und Skalierbarkeit erfüllen.
+question: Wie heißen die auf Liquid verwendeten Bitcoins?
+answer: L-BTC
 wrong_answers:
-  - Ein auf einer Blockchain basierendes Protokoll kann nur eines der Kriterien Dezentralisierung, Sicherheit und Skalierbarkeit erfüllen.
-  - Ein auf einer Blockchain basierendes Protokoll kann alle Kriterien der Dezentralisierung, Sicherheit und Skalierbarkeit erfüllen.
-  - Ein auf einer Blockchain basierendes Protokoll kann keines der Kriterien Dezentralisierung, Sicherheit und Skalierbarkeit erfüllen.
+  - W-BTC
+  - S-BTC
+  - T-BTC
 explanation: |
-  Das Blockchain-Trilemma bezieht sich auf die Herausforderung, dass
-  ein auf einer Blockchain basierendes Protokoll nur zwei Kriterien aus
-  Dezentralisierung, Sicherheit und Skalierbarkeit erfüllen kann.
-reviewed: true
+  Auf Liquid werden Bitcoins als L-BTC dargestellt, die 1:1 an BTC gekoppelt sind.
+reviewed: false

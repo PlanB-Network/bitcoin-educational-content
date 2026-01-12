@@ -10,13 +10,13 @@ Neste tutorial, abordaremos o processo de criação de uma conta comercial Krake
 
 Se estiver interessado em integrar a bitcoin na sua empresa, recomendo-lhe também que descubra a nossa formação teórica completa sobre o assunto:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 ## 1 - Criar uma conta empresarial Kraken
 
 O primeiro passo para utilizar a Kraken para gerir as finanças da sua empresa é, obviamente, criar uma conta. Aqui, não vamos criar uma conta para indivíduos, mas uma conta corporativa, que não só garante a conformidade regulamentar, mas também oferece recursos especialmente adaptados, como exportações de contabilidade.
 
-Aceder ao sítio Web oficial [kraken.com] (https://www.kraken.com/) e clicar no botão "*Sign Up*".
+Aceder ao sítio Web oficial [kraken.com](https://www.kraken.com/) e clicar no botão "*Sign Up*".
 
 ![KRAKEN](assets/fr/01.webp)
 
@@ -59,8 +59,8 @@ Depois de preencher todas as secções e enviar os documentos necessários, cliq
 Assim que a sua conta for verificada, acederá à plataforma onde lhe serão oferecidas duas interfaces:
 
 
-- Kraken**: Uma interface simplificada que oferece funcionalidades essenciais.
-- Kraken Pro**: Uma interface avançada com funcionalidades adicionais, especialmente para negociação.
+- **Kraken**: Uma interface simplificada que oferece funcionalidades essenciais.
+- **Kraken Pro**: Uma interface avançada com funcionalidades adicionais, especialmente para negociação.
 
 Se o seu objetivo é apenas comprar e vender bitcoin, opte pela interface simplificada. Terá sempre a opção de mudar para a interface avançada mais tarde, se necessário.
 
@@ -76,9 +76,9 @@ Nas opções 2FA, pode optar por utilizar uma chave de segurança física como s
 
 ![KRAKEN](assets/fr/11.webp)
 
-Para mais informações sobre como utilizar este tipo de dispositivo, consulte o nosso tutorial dedicado :
+Para mais informações sobre como utilizar este tipo de dispositivo, consulte o nosso tutorial dedicado:
 
-https://planb.network/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
+https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
 A outra opção é utilizar uma aplicação de autenticação, como o Google Authenticator ou o Authy. Estas aplicações geram um código dinâmico de 6 dígitos que terá de introduzir sempre que iniciar sessão.
 
@@ -88,9 +88,9 @@ Para ativar este método, digitalize o código QR com a aplicação da sua escol
 
 ![KRAKEN](assets/fr/13.webp)
 
-Para mais informações sobre aplicações de autenticação, pode também consultar este tutorial :
+Para mais informações sobre aplicações de autenticação, pode também consultar este tutorial:
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 Por baixo, também tem acesso a definições avançadas, incluindo a capacidade de definir várias 2FAs diferentes. O Kraken oferece delegação de segurança avançada via 2FA. Este recurso permite que você crie diferentes níveis de 2FA para várias ações, como login, validação de pedidos e retirada de fundos. Isso possibilita, por exemplo, dar a um contador acesso a certas funcionalidades sem permitir que ele retire fundos. Eis as opções:
 
@@ -155,12 +155,12 @@ Também pode trocar os seus bitcoins por outras criptomoedas, como stablecoins, 
 
 Selecione o montante, escolha a criptomoeda que pretende obter e, em seguida, confirme a transação.
 
-Para estas transacções, pode escolher entre diferentes tipos de ordens: *Market*, *Limit*, ou *Stop-Loss* :
+Para estas transacções, pode escolher entre diferentes tipos de ordens: *Market*, *Limit*, ou *Stop-Loss*:
 
 
-- Mercado* : Permite a compra imediata ao preço atual de mercado;
-- Limite*: Permite especificar um preço de compra, e a ordem só será executada se o preço de mercado atingir esse valor;
-- Stop-Loss* : Vende automaticamente quando o preço atinge um determinado limite.
+- **Mercado**: Permite a compra imediata ao preço atual de mercado;
+- **Limite**: Permite especificar um preço de compra, e a ordem só será executada se o preço de mercado atingir esse valor;
+- **Stop-Loss**: Vende automaticamente quando o preço atinge um determinado limite.
 
 ## 7 - Gestão de transacções e contabilidade
 
@@ -219,4 +219,4 @@ Dependendo dos objectivos e da estrutura da sua empresa, a utilização da Krake
 
 Para uma análise mais aprofundada deste tópico, recomendo este curso de formação abrangente sobre a integração da bitcoin nas empresas, que aborda em pormenor a adição ao fluxo de caixa, a aceitação de pagamentos em bitcoin e a contabilidade:
 
-https://planb.network/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
+https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

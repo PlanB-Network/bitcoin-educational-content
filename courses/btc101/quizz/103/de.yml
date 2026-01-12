@@ -1,12 +1,11 @@
-question: Was ist der Zweck der Erstellung eines Erbschaftsplans für Ihre Bitcoins?
-answer: Um sicherzustellen, dass Ihre Bitcoins nach Ihrem Tod ordnungsgemäß verwaltet werden.
+question: Was ist ein Blockmit im Kontext der Bitcoin-Sicherheit?
+answer: Eine kostengünstige Lösung, um Ihre mnemonische Phrase auf ein Stück Stahl zu gravieren.
 wrong_answers:
-  - Um Steuern auf Ihre Bitcoins zu vermeiden.
-  - Um den Wert Ihrer Bitcoins zu verringern.
-  - Um zu verhindern, dass Ihre Bitcoins gestohlen werden.
+  - Eine Art von Bitcoin-Wallet, um mehrere Transaktionen auf einmal zu signieren.
+  - Eine kostengünstige Lösung, um Bitcoins zu Hause zu minen.
+  - Eine Art von Bitcoin-Wallet, die mehrere Signaturen benötigt, um UTXOs auszugeben.
 explanation: |
-  Ein Erbschaftsplan stellt sicher, dass Ihre Bitcoins
-  nach Ihrem Tod ordnungsgemäß verwaltet werden. Er kann ein
-  handschriftlicher Brief enthalten, der Ihre Vermögenswerte, deren Zugangsmethoden und die Kontaktdaten von vertrauenswürdigen Personen
-  auflistet, die kontaktiert werden sollen.
+  Der Blockmit ist eine kostengünstige Lösung, um Ihre
+  mnemonische Phrase auf einem widerstandsfähigen Material wie Stahl zu gravieren, und sichert
+  somit Ihre Bitcoins langfristig.
 reviewed: true

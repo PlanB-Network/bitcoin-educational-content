@@ -1,0 +1,10 @@
+question: Ni ubuhe bwoko bw’inyandiko ikoreshwa gusa n’aba Silent Payments?
+answer: P2TR
+wrong_answers:
+  - P2WPKH.
+  - P2SP
+  - P2WSH
+explanation: |
+  Kugira ngo iyo porotokole ishobore gushirwa mu ngiro no kugira ngo abayikoresha ntibamenyekane, Silent Payments yizigira gusa inyandiko za P2TR (Pay to Taproot).
+  
+reviewed: false

@@ -1,11 +1,11 @@
-question: Qual è il metodo standard per ripristinare un wallet?
-answer: Inserire la frase mnemonica in qualsiasi software compatibile.
+question: Qual è lo scopo di un wallet Bitcoin?
+answer: Conservare le chiavi private per effettuare transazioni Bitcoin.
 wrong_answers:
-  - Salvare la frase mnemonica in un file digitale.
-  - Scrivere la frase mnemonica su una lavagna.
-  - Condividere la frase mnemonica con un amico di fiducia.
+  - Utilizzare le risorse del dispositivo per minare bitcoin.
+  - Acquistare bitcoin tramite la chiave pubblica.
+  - Conservare i bitcoin su un dispositivo.
 explanation: |
-  Il metodo standard per fare il backup della chiave privata in un
-  wallet Bitcoin è inserire la frase mnemonica in qualsiasi
-  software compatibile. Questo permette di ripristinare il wallet.
-reviewed: false
+  I wallet Bitcoin sono un tipo di software utilizzato per
+  conservare le chiavi private, le quali permettono di effettuare transazioni
+  Bitcoin.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Ni irihe jambo risigura neza uburyo bwo kurondera kumbuga mw’ibanga?
+answer: Bigabanya amakuru afatwa y’ibimenyetso vy’ivyo ukora biri mu karere
+wrong_answers:
+  - Bituma gukoresha Interineti bitamenyekana.
+  - Guhagarika gukurikiranwa n’inyandiko zose mbi
+  - Irafuta inyongerabushobozi zikora
+explanation: |
+  Uburyo bw’ibanga burabuza gusa kwandika amateka na cookies vyo mu karere, ariko ntibushobora gutuma umuntu atamenyekana kuri Internet.
+reviewed: true

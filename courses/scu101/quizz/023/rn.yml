@@ -1,0 +1,10 @@
+question: Ni akamaro akahe ko gukoresha ijambo ry'ibanga rikomeye kugira ngo inyabwonko yawe igire umutekano?
+answer: Kugira ngo ntihagire abagerageza kwinjira muri sisiteme bata vyemerewe.
+wrong_answers:
+  - Kugira ngo sisiteme ikore inyaruka.
+  - Kugira ngo bongere ubushobozi bwo kubika.
+  - Kugira ngo igicapo kirushiriza kuba ciza.
+explanation: |
+  Ijambobanga rikomeye ni kintu gihambaye ku mutekano w'inyabwonko muku
+  kubuza umuntu kwinjira muri sisiteme ata vyemerewe.
+reviewed: true

@@ -1,9 +1,9 @@
 question: Paranoyak bitcoin kullanıcısının ana hedefi nedir?
-answer: Mahremiyetlerini korumak için
+answer: Gizliliğini korumak 
 wrong_answers:
-  - Satoshileri hızlıca biriktirmek için
-  - Ticaret karını maksimize etmek için
-  - Bitcoinlerini uzun vadeli tutmak için
+  - Satoshileri hızlıca biriktirmek 
+  - Ticaret karını maksimize etmek 
+  - Bitcoinlerini uzun vadeli tutmak 
 explanation: |
   Paranoyak bitcoin kullanıcısı öncelikle işlemlerinin ve kimliklerinin izlenmesini engellemeye çalışır.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Izina ry’ingorane aho vyoroshe guharura igisubizo mu nzira imwe ariko hafi bidashoboka gusubira inyuma ni irihe?
+answer: Umurimo w'inzira imwe
+wrong_answers:
+  - Umurongo w'umurimo
+  - Umukozi w'inyongera
+  - Umurimo ushobora gusubirwamwo
+explanation: |
+  Ibikorwa vy'inzira imwe bituma umuntu ashobora guharura vyihuse mu nzira imwe, ariko bituma gutorera umuti ibibazo bihinduka bidashoboka, ni co gituma bifise akamaro mu guharura amakuru.
+reviewed: false

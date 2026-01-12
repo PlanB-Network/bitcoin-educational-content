@@ -1,0 +1,9 @@
+question: Igicapo c’ikimenyetso ca Linux citwa irihe zina?
+answer: Tux
+wrong_answers:
+  - Duke
+  - Beastie
+  - daemon
+explanation: |
+  Tux ni yo yari ikimenyetso ca kernel ya Linux kuva mu 1996, cakozwe na Larry Ewing.
+reviewed: true

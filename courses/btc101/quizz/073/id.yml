@@ -1,11 +1,9 @@
-question: Apa itu kunci privat dalam dompet Bitcoin?
-answer: Kunci rahasia yang memungkinkan Anda menandatangani transaksi Anda
+question: Berapa kemungkinan seseorang secara tidak sengaja menebak daftar 12 atau 24 kata dalam dompet Bitcoin Anda?
+answer: Sangat rendah sekali
 wrong_answers:
-  - Kunci publik yang digunakan untuk menghasilkan alamat Bitcoin
-  - Daftar kata rahasia untuk menghancurkan dompet
-  - Kunci rahasia untuk mengenkripsi transaksi Bitcoin
-explanation: >-
-  Ketika menginisialisasi dompet Bitcoin, sebuah daftar kata rahasia, yang disebut benih mnemonik dihasilkan.
-  Daftar pemulihan ini sangat penting karena mewakili kepemilikan
-  atas Bitcoin dan oleh karena itu hak untuk mengirimkannya.
+  - Tinggi
+  - Sedang
+  - Rendah
+explanation: >
+  Berkat kriptografi yang digunakan untuk membuat dompet tersebut, kemungkinan seseorang secara tidak sengaja menebak daftar 12 atau 24 kata Anda sangat rendah sekali. Ini seperti mencari angka yang tepat antara 1 dan $2^256$, yang hampir setara dengan menemukan atom tertentu di Alam Semesta.
 reviewed: true

@@ -1,9 +1,9 @@
-question: Jakým způsobem se Bitcoin dále integroval do tradičního trhu?
-answer: Příchodem Bitcoin ETF.
+question: Co je BTCMap?
+answer: Platforma, která uvádí všechny obchodníky, kteří přijímají Bitcoin.
 wrong_answers:
-  - Zákaz Bitcoinu.
-  - Zmizení všech kryptoměn.
-  - Vytvoření Bitcoinu.
-explanation: |
-  Bitcoin pokračuje ve svém přežívání a dalším růstu tím, že se stále více integruje do tradičního trhu. Příchod Bitcoin ETF, jasnější regulace a lepší získávání nástrojů pro uchovávání pouze podporují tento trend.
+  - Mapa všech těžebních zařízení Bitcoinu na světě.
+  - Mapa všech burz s Bitcoinem na světě.
+  - Mapa všech uživatelů Bitcoinu na světě.
+explanation: >-
+  BTCMap je open-source a kolaborativní projekt, který uvádí všechny obchodníky přijímající Bitcoin, stejně jako různé komunity Bitcoinu po celém světě.
 reviewed: true

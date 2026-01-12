@@ -1,11 +1,9 @@
-question: Qual é uma maneira de obter bitcoins sem comprá-los?
-answer: Aceitá-los como forma de pagamento pelos produtos ou serviços que você oferece.
+question: Qual é uma das iniciativas que contribuem para tornar a economia do Bitcoin mais acessível e conveniente para todos?
+answer: BTCMap.
 wrong_answers:
-  - Pegá-los emprestados de um amigo e nunca devolvê-los.
-  - Ganhar em uma loteria.
-  - Encontrá-los na rua.
+  - Bitcoin Exchange.
+  - Bitcoin Mining.
+  - BTCLottery.
 explanation: >-
-  Uma maneira de obter bitcoins sem comprá-los é aceitá-los como
-  forma de pagamento pelos produtos ou serviços que você oferece. Isso permite que você adquira
-  bitcoins através do seu trabalho.
+  BTCMap é uma das iniciativas que contribuem para tornar a economia do Bitcoin mais acessível e conveniente para todos. É um projeto de código aberto e colaborativo que lista todos os comerciantes que aceitam Bitcoin, bem como as diferentes comunidades de Bitcoin ao redor do mundo.
 reviewed: true

@@ -1,12 +1,11 @@
-question: Qual è lo scopo della creazione di un piano di eredità per i nostri bitcoin?
-answer: Garantire che i nostri bitcoin saranno gestiti correttamente dopo la nostra morte.
+question: Cos'è un Blockmit nel contesto della sicurezza Bitcoin?
+answer: Una soluzione a basso costo per incidere la frase mnemonica su una piastra d'acciaio.
 wrong_answers:
-  - Evitare le tasse sui nostri bitcoin.
-  - Diminuire il valore dei nostri bitcoin.
-  - Prevenire il furto dei nostri bitcoin.
+  - Un tipo di wallet per firmare più transazioni contemporaneamente.
+  - Una soluzione a basso costo per minare bitcoin a casa.
+  - Un tipo di wallet che richiede più firme per spendere i fondi.
 explanation: |
-  Un piano di eredità garantisce che i nostri bitcoin saranno
-  gestiti correttamente dopo la nostra morte. Può includere una
-  lettera scritta a mano che dettaglia i nostri beni, i loro metodi di accesso,
-  o i recapiti delle persone di fiducia da contattare.
+  Blockmit è una soluzione a basso costo per incidere la
+  frase mnemonica su un materiale resistente come l'acciaio, garantendo
+  così la sicurezza dei fondi a lungo termine.
 reviewed: true

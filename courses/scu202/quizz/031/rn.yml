@@ -1,0 +1,9 @@
+question: Ni akamaro akahe nyamukuru ko gukoresha porogarame muri sandbox canke mu mashini mpimbano?
+answer: Kugabanya amahirwe yo guhungabanywa
+wrong_answers:
+  - Kwihutisha gushitsa porogarame
+  - Kugabanya ikoreshwa rya RAM
+  - Kwongera umuvuduko w’inzira ya interineti
+explanation: |
+  Sandboxing na virtualization (gukorera mu mashini mpimbano) bikoreshwa canecane mu gushira porogarame canke sisiteme kure y’ibitero.
+reviewed: true

@@ -1,9 +1,9 @@
-question: Mitä tämä kurssi ehdottaa Bitcoinin tulevaisuudesta?
-answer: Se ei tule katoamaan.
+question: Mikä lähestymistapa jäsentää tässä luvussa kuvatun Bitcoinin kehityksen?
+answer: Kerroksittainen kehitys
 wrong_answers:
-  - Sen korvaa parempi teknologia.
-  - Se kielletään maailmanlaajuisesti.
-  - Se menettää arvonsa.
+  - Monoliittinen lohkoketju
+  - Natiivi sharding
+  - Yleistetty onchain-suoritus
 explanation: |
-  Kurssiteksti ehdottaa, että Bitcoin ei ole katoamassa. Päinvastoin, vallankumous on vasta alkanut.
-reviewed: true
+  Bitcoin säilyttää yksinkertaisen ja vankan peruskerroksen, kun taas ylemmän tason protokollat lisäävät erityisiä toimintoja.
+reviewed: false

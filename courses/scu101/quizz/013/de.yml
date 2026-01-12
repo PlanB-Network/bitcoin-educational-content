@@ -1,13 +1,13 @@
-question: Warum ist es sicherer, europäische WLAN-Zugangspunktanbieter wie SNCF zu nutzen?
+question: Warum ist es sicherer, europäische WLAN-Zugangspunktanbieter wie DB zu nutzen?
 answer: Sie dürfen Benutzerverbindungsdaten aufgrund der DSGVO-Regulierungen nicht weiterverkaufen.
 wrong_answers:
   - Sie bieten im Vergleich zu amerikanischen Anbietern schnellere Internetgeschwindigkeiten.
   - Sie erlauben es den Nutzern oft, geografische Beschränkungen zu umgehen.
-  - Sie blockieren Online-Werbung, wenn Sie als europäischer Bürger identifiziert wurden.
+  - Sie blockieren Online-Werbung, wenn du als europäischer Bürger identifiziert wurdest.
 explanation: |
   In der Europäischen Union wird der Datenschutz durch die
   Datenschutz-Grundverordnung (DSGVO) geregelt. Daher verkaufen
-  europäische WLAN-Zugangspunktanbieter wie SNCF keine
+  europäische WLAN-Zugangspunktanbieter wie DB keine
   Benutzerverbindungsdaten weiter, was sie aus der Perspektive des
   persönlichen Datenschutzes sicherer macht.
 reviewed: true

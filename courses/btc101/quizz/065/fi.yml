@@ -1,11 +1,9 @@
-question: Mihin taloustieteen periaatteisiin Bitcoin noudattaa?
-answer: Itävaltalaisen taloustieteen periaatteet.
+question: Mitkä ovat kolme päätoimintoa Bitcoin-lompakossa?
+answer: Bitcoinien vastaanottaminen, bitcoinien lähettäminen, niiden suojaaminen hakkerointi- ja varkausyrityksiltä.
 wrong_answers:
-  - Keynesiläisen taloustieteen periaatteet.
-  - Marxilaisen taloustieteen periaatteet.
-  - Uusklassisen taloustieteen periaatteet.
+  - Bitcoinien säilyttäminen, bitcoinien lähettäminen, niiden suojaaminen hakkerointi- ja varkausyrityksiltä.
+  - Mahdollistaa bitcoinien vastaanottamisen, bitcoinien säilyttämisen, niiden suojaaminen hakkerointi- ja varkausyrityksiltä.
+  - Mahdollistaa bitcoinien vastaanottamisen, mahdollistaa bitcoinien lähettämisen, bitcoinien myyminen.
 explanation: |
-  Bitcoin noudattaa itävaltalaisen taloustieteen periaatteita.
-  Sen rajattu määrä ja keskusyksikön puuttuminen suojaavat sitä
-  perinteisille valuutoille ominaisilta inflaation sisäsyntyisiltä riskeiltä.
+  Bitcoin-lompakkoa käytetään vuorovaikutuksessa Bitcoin-verkon kanssa. Sen kolme päätoimintoa ovat mahdollistaa bitcoinien vastaanottaminen, mahdollistaa bitcoinien lähettäminen ja niiden suojaaminen hakkerointi- ja varkausyrityksiltä.
 reviewed: true

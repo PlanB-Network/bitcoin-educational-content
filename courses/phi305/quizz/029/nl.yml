@@ -1,0 +1,9 @@
+question: Wie is Ayn Rand?
+answer: De auteur van "La Grève" en "La Source Vive".
+wrong_answers:
+  - Spinoza's metgezel.
+  - Brits politicus.
+  - Een romantische auteur.
+explanation: |
+  Ayn Rand (1905-1982) is de schrijfster van Atlas Shrugged en The Fountainhead. Ze ontwikkelde een filosofie die Objectivisme heet en rationeel individualisme en kapitalisme voorstaat.
+reviewed: false

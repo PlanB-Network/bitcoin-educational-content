@@ -1,0 +1,9 @@
+question: Ni igikorwa ikihe Bob (uwuronka) akora amaze kwakira Terminal Consignment kuri Alice (uwutanga)?
+answer: Suzuma ukuri kwa State Transition hanyuma ushireko umukono
+wrong_answers:
+  - Guhindura Contract Schema hanyuma uyirungike kuri Alice.
+  - Rema Invoice ku gikorwa gishasha
+  - Sinya Alice PSBT maze uyigabize ku ruzitiro
+explanation: |
+  Bob asuzuma Consignment, akamenya neza ko iyo mpinduka ihuye n’amategeko, hanyuma agashirako umukono kugira ngo yemeze ko yemeye.
+reviewed: false

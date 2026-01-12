@@ -1,11 +1,12 @@
-question: Vad kallas den process som verifierar transaktioner i Bitcoin-nätverket?
-answer: Mining
+question: Hur ofta sker justeringen av svårighetsgraden?
+answer: Varje 2016 block.
 wrong_answers:
-  - Grävning
-  - Skörd
-  - Jordbruk
+  - Var 1048:e block.
+  - Var 512:e block.
+  - Var 4032:e block.
 explanation: |
-  Den process som verifierar transaktioner i Bitcoin-nätverket
-  nätverket kallas Mining. Miners utför en kryptografisk uppgift
-  uppgift och belönas med utfärdandet av nya bitcoins.
+  Svårighetsjusteringen är en mekanism som äger rum
+  var 2016:e block, eller cirka två veckor, för att säkerställa att ett
+  nytt block läggs till Blockchain var tionde minut i genomsnitt, oavsett
+  i genomsnitt, oavsett den globala Hashrate.
 reviewed: true

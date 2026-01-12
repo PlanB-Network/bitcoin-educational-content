@@ -1,11 +1,11 @@
-question: Kurva adopsi Bitcoin mirip dengan apa?
-answer: Kurva S
+question: Apa status Bitcoin di beberapa negara?
+answer: Dilarang dan dikriminalisasi
 wrong_answers:
-  - Kurva U
-  - Kurva V
-  - Kurva W
+  - Sepenuhnya diadopsi
+  - Sebagian diadopsi
+  - Tidak diatur
 explanation: >-
-  Adopsi Bitcoin, seperti halnya teknologi baru, mengikuti kurva S.
-  Ini adalah pola umum untuk adopsi teknologi baru, di mana adopsi dimulai
-  secara perlahan, kemudian mempercepat sebelum melambat saat titik jenuh dicapai.
+  Teks tersebut menyebutkan bahwa beberapa negara telah melarang dan mengkriminalisasi
+  penggunaan Bitcoin, menambah kompleksitas adopsi Bitcoin berdasarkan budaya,
+  era, dan negara-negara.
 reviewed: false

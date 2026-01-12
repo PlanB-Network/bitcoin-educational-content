@@ -1,0 +1,9 @@
+question: Ni itegeko irihe ryiza ryo gusuzuma amahuzu ya TCP na UDP akora kuri sisitemu ya Linux?
+answer: ss
+wrong_answers:
+  - arp
+  - ihuza rya ip
+  - ifup
+explanation: |
+  Itegeko rya ss risubirira netstat kugira ngo ryerekane ningoga amahuzu yose y'urubuga akora.
+reviewed: false

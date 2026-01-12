@@ -1,0 +1,9 @@
+question: ライトニングノードの復元にはどのバックアップが必要ですか？
+answer: シードとStatic Channel Backup (SCB)
+wrong_answers:
+  - シードとtxindexファイル
+  - シードとパブリックIPアドレス
+  - seedと2FA
+explanation: |
+  ライトニングノードの復元には、seedとSCBS（tatic Channel Backup (SCB)）の両方が必要であり、SCBがなければチャネル資金をリカバリーできない。
+reviewed: true

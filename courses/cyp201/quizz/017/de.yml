@@ -6,4 +6,4 @@ wrong_answers:
   - P-384
 explanation: |
   Bitcoin verwendet die secp256k1-Kurve, definiert durch die Gleichung y² = x³ + 7, für seine kryptografischen Operationen.
-reviewed: false
+reviewed: true

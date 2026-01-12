@@ -1,0 +1,11 @@
+question: Ni nde muntu wa mbere yinjiye mu mugwi wa Bitcoin inyuma ya Satoshi Nakamoto?
+answer: Hal Finney.
+wrong_answers:
+  - Laszo Hanyecz.
+  - Phil Ishampani.
+  - Rogizi.
+explanation: |
+  Hal Finney niwe muntu wa mbere yinjiye mu mugwi wa Bitcoin .
+  inyuma ya Satoshi Nakamoto ubwiwe. Yaranashize kuri Twitter ngo Running .
+  Bitcoin kugira ngo bamenyeshe uwo musi.
+reviewed: true

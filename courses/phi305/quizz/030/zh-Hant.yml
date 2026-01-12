@@ -1,0 +1,9 @@
+question: 誰說 「人不是帝國中的帝國」？
+answer: 斯賓諾莎
+wrong_answers:
+  - 笛卡爾
+  - 愛因斯坦
+  - Saint-Augustin.
+explanation: |
+  正是斯賓諾莎斷言 「人不是帝國中的帝國」。這句話表達了人不是與自然分離，而是自然不可分割的一部分，受制於相同的規律。
+reviewed: false

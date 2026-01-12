@@ -1,4 +1,4 @@
-question: Koja operacija se obično koristi za kombinovanje keystream-a i poruke u stream šifri?
+question: Koja operacija se obično koristi za kombinovanje keystream-a i poruke u stream šifri (šifra toka)?
 answer: XOR
 wrong_answers:
   - Multiplikacija
@@ -6,4 +6,4 @@ wrong_answers:
   - Zamena svakog slova
 explanation: |
   U strim šifri, XOR operacija se obično koristi za kombinovanje keystream-a sa porukom jer je jednostavna i reverzibilna.
-reviewed: false
+reviewed: true

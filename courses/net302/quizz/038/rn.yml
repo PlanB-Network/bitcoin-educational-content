@@ -1,0 +1,9 @@
+question: Ni uruhe rutonde rwa CIDR rusanzwe rugereranya ubunini bw’ibarabara rya IPv4 ryatanzwe na IANA ku RIR?
+answer: /8.
+wrong_answers:
+  - /12
+  - /16
+  - /24
+explanation: |
+  IANA igabanya umwanya wa IPv4 mu bice vy'ubunini /8, kimwe cose kirimwo amaderesi 2^24.
+reviewed: false

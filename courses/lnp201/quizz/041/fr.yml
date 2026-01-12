@@ -6,4 +6,4 @@ wrong_answers:
   - Car les canaux se ferment automatiquement après chaque transaction
 explanation: |
   La répartition précise des fonds dans un canal est uniquement visible par les deux nœuds participants, ce qui empêche les autres nœuds d'estimer la liquidité disponible pour le routage.
-reviewed: false
+reviewed: true 

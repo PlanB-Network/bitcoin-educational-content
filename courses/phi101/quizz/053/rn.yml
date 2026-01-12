@@ -1,0 +1,9 @@
+question: Ni imvo izihe Ekleziya ikoresha kugira ngo yemeze ko ari yo isumba ububasha bw’igihe gito?
+answer: Inyishu zose zivugwa haruguru ni ukuri.
+wrong_answers:
+  - Ububasha bwa Papa nk’umuvugizi wa Kristo kw’isi.
+  - Amategeko y’ishengero n’inkiko z’ishengero.
+  - Ugusumbana kw’ukwizera kwa gikirisu ku yindi dini yose canke filozofiya iyo ari yo yose.
+explanation: |
+  Ekleziya ishingira intahe ubukuru bwayo ku bubasha bw’igihe gito ishingiye ku bubasha bwa Papa nk’uwuserukira Kristo, ububasha bw’inkiko z’ishengero biciye mu mategeko y’ishengero, no kuvuga ko ukwizera kwa gikirisu kurengeye izindi nyigisho zose.
+reviewed: true

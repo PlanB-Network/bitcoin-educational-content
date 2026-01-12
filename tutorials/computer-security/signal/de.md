@@ -61,7 +61,7 @@ Signal ist auf allen Plattformen verfügbar. Sie können die Anwendung direkt au
 
 
 - [Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms);
-- [App Store] (https://apps.apple.com/us/app/signal-private-messenger/id874139669);
+- [App Store](https://apps.apple.com/us/app/signal-private-messenger/id874139669);
 
 
 
@@ -269,8 +269,8 @@ Herzlichen Glückwunsch, Sie sind jetzt auf dem neuesten Stand bei der Verwendun
 
 
 
-Ich empfehle auch dieses andere Tutorial, in dem ich Ihnen Proton Mail vorstelle, eine viel datenschutzfreundlichere Alternative zu Gmail :
+Ich empfehle auch dieses andere Tutorial, in dem ich Ihnen Proton Mail vorstelle, eine viel datenschutzfreundlichere Alternative zu Gmail:
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

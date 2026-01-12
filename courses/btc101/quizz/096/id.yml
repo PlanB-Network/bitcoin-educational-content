@@ -1,10 +1,11 @@
-question: Apa yang seringkali mewakili kunci privat dalam dompet Bitcoin?
-answer: Sebuah daftar 12 atau 24 kata
+question: Apa tujuan dari membuat rencana warisan untuk bitcoin Anda?
+answer: Untuk memastikan bahwa bitcoin Anda akan dikelola dengan baik setelah kematian Anda
 wrong_answers:
-  - Sebuah daftar 12 atau 48 kata
-  - Sebuah daftar 32 kata
-  - Sebuah daftar 64 kata
+  - Untuk menghindari pajak atas bitcoin Anda
+  - Untuk meningkatkan nilai dari bitcoin Anda
+  - Untuk mencegah bitcoin Anda dari pencurian
 explanation: |
-  Dalam dompet Bitcoin, kunci privat seringkali diwakili oleh sebuah daftar
-  12 atau 24 kata, yang juga dikenal sebagai seed atau frasa mnemonik.
+  Rencana warisan memastikan bahwa bitcoin Anda akan dikelola dengan baik
+  setelah kematian Anda. Ini dapat mencakup surat tulisan tangan yang merinci aset Anda, metode
+  akses mereka, dan informasi kontak dari individu terpercaya yang harus dihubungi.
 reviewed: true

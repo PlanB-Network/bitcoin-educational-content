@@ -1,5 +1,5 @@
 ---
-name: Chat SimpleX
+name: SimpleX Chat
 description: La prima mailbox senza ID utente
 ---
 ![cover](assets/cover.webp)
@@ -243,7 +243,7 @@ SimpleX genera quindi un link monouso. È possibile inoltrarlo al proprio contat
 
 
 
-È inoltre possibile scegliere quale profilo associare a questo link di invito. Per farlo, cliccate sul vostro profilo appena sotto il codice QR. Sarà quindi possibile :
+È inoltre possibile scegliere quale profilo associare a questo link di invito. Per farlo, cliccate sul vostro profilo appena sotto il codice QR. Sarà quindi possibile:
 
 
 
@@ -313,7 +313,7 @@ Una delle caratteristiche più potenti di SimpleX è la possibilità di gestire 
 
 
 
-Ad esempio, si può creare un file :
+Ad esempio, si può creare un file:
 
 
 
@@ -397,4 +397,4 @@ Vi consiglio anche quest'altro tutorial, in cui presento Threema, un'altra inter
 
 
 
-https://planb.network/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74
+https://planb.academy/tutorials/computer-security/communication/threema-24382d25-df7b-4e96-b332-6968f748df74

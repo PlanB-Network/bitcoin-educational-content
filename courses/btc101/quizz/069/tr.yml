@@ -1,12 +1,10 @@
-question: İlk Halving'dan sonra dolaşımdaki tahmini bitcoin sayısı neydi?
-answer: 10,500,000 BTC.
+question: Bitcoin Wallet'de açık anahtarın rolü nedir?
+answer: generate Bitcoin adresleri için kullanılır ve böylece para alır.
 wrong_answers:
-  - 5,250,000 BTC.
-  - 15,750,000 BTC.
-  - 21,000,000 BTC.
+  - Bitcoin işlemlerini şifrelemek için kullanılır.
+  - Bitcoin Wallet'ya erişmek için kullanılır.
+  - Bitcoin Wallet'i yedeklemek için kullanılır.
 explanation: |
-  Blok yüksekliğinde meydana gelen ilk Halving'den sonra
-  210.000, dolaşımdaki tahmini bitcoin sayısı
-  toplam BTC sayısının yarısı olan 10.500.000 BTC idi
-  dolaşımda olacak bitcoinler.
+  Açık anahtar özel anahtardan türetilir ve kullanılır
+  para alabilmek için generate Bitcoin adreslerine göndermeleri gerekmektedir.
 reviewed: true

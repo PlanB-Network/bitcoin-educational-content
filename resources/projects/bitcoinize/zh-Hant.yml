@@ -1,1 +1,2 @@
-description: Bitcoinize Machine 是一款 Android 12 平板電腦，具備熱感應功能。
+description: |
+  Bitcoinize Machine 是一款 Android 12 平板電腦，具有熱敏印表機和 NFC 功能，針對 Bitcoin 和 Lightning Payments 進行了優化，並預先安裝了應用程式，您可以選擇 BtcPayServer、Breez、Zeus LN、BlueWallet、Bolt Card Wallet、LNBits 等非保管解決方案，或 Blink Wallet、SwissBitcoin Pay 和 Wallet of Satoshi 等保管解決方案。

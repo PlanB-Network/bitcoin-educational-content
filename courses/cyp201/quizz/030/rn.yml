@@ -1,0 +1,9 @@
+question: Intumbero ya SIGHASH_SINGLE ni iyihe?
+answer: Kugira ngo upfuke inyinjizo imwe n'isohoka ryayo rihuye
+wrong_answers:
+  - Kugira ngo upfuke ivyo winjiza n'ivyo usohoka vyose
+  - Kugira ngo ushiremwo gusa
+  - Kugira ngo upfuke ibisohoka vyose kiretse kimwe
+explanation: |
+  SIGHASH_SINGLE ipfuka inyandiko imwe n'isohoka rimwe rihuye n'urutonde rw'inyandiko yashizweko umukono, isiga ibindi bishobora guhindurwa.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bitcoin에서 UTXO를 보호하는 것은 무엇인가요?
+answer: 지출 조건을 정의하는 스크립트를 통해.
+wrong_answers:
+  - 채굴자의 주기적인 검증을 통해
+  - 중앙 집중식 데이터베이스를 통해.
+  - 사용자 본인 인증을 통해.
+explanation: |
+  Bitcoin 트랜잭션의 출력은 스크립트로 보호되는 UTXO입니다. 이 스크립트는 UTXO를 지출하기 위해 미리 정의된 지출 조건을 충족해야 합니다.
+reviewed: true

@@ -1,0 +1,8 @@
+question: Apa keuntungan utama dari pendekatan keamanan memori waktu kompilasi Rust dibandingkan dengan pengumpulan sampah?
+answer: Ini menghilangkan overhead runtime dan jeda kinerja yang tidak terduga
+wrong_answers:
+  - Menggunakan lebih banyak memori tetapi memberikan jaminan keamanan yang lebih baik
+  - Membutuhkan lebih sedikit kode untuk ditulis tetapi berjalan lebih lambat daripada pengumpulan sampah
+  - Ini mencegah semua kesalahan runtime tetapi menggunakan lebih banyak CPU selama eksekusi
+explanation: |
+  Pendekatan keamanan memori saat kompilasi Rust menganalisis kode selama kompilasi untuk memastikan keamanan memori tanpa biaya waktu proses. Tidak seperti pengumpulan sampah yang digunakan dalam bahasa seperti Java dan Go, yang memperkenalkan overhead kinerja dan dapat menyebabkan jeda yang tidak dapat diprediksi selama eksekusi program, sistem Rust tidak memiliki dampak runtime. Pilihan lain tidak benar karena Rust sebenarnya menggunakan memori secara lebih efisien (tidak lebih banyak), tidak berjalan lebih lambat (berjalan lebih cepat tanpa pemeriksaan runtime), dan tidak menggunakan lebih banyak CPU selama eksekusi (pekerjaan dilakukan pada waktu kompilasi).

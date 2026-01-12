@@ -1,0 +1,9 @@
+question: Quale database conserva un nodo Bitcoin localmente per tenere traccia dell'output non speso?
+answer: Il set UTXO
+wrong_answers:
+  - Il Mempool
+  - Il Blockchain
+  - La storia del Wallet
+explanation: |
+  Il nodo conserva l'insieme UTXO, ovvero l'insieme di uscite non spese disponibili per transazioni future.
+reviewed: true

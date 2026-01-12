@@ -58,7 +58,7 @@ Voit käyttää Tox-protokollaa pikaviestiohjelmalla, jonka voit ladata [Tox Cha
 
 
 
-Käyttöjärjestelmästäsi riippuen voit ladata ja asentaa Tox-asiakkaan, joka vastaa :
+Käyttöjärjestelmästäsi riippuen voit ladata ja asentaa Tox-asiakkaan, joka vastaa:
 
 
 
@@ -224,7 +224,7 @@ Voit myös mukauttaa tiedostonjakomäärityksiä jokaista keskustelua varten. Na
 
 
 
-Interface:n tiedoista voit hallita valtuutuksia, jotka myönnät vastaanottajalle :
+Interface:n tiedoista voit hallita valtuutuksia, jotka myönnät vastaanottajalle:
 
 
 
@@ -304,4 +304,4 @@ Jos olet nauttinut Toxin löytämisestä ja olet ymmärtänyt, miten se on hyöd
 
 
 
-https://planb.network/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41
+https://planb.academy/tutorials/computer-security/communication/simple-login-c17a10d6-8f84-4f97-8d50-7a83428d0f41

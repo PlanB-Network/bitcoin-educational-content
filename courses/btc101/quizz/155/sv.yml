@@ -1,8 +1,12 @@
-question: Vad är Coinbase Transaction?
-answer: Den första transaktionen i det block som innehåller Miner:s belöning.
+question: Vilken roll har gruvarbetarna i Bitcoin-protokollet?
+answer: De säkrar det aktuella och det historiska nätverket.
 wrong_answers:
-  - En transaktion som utförts på Exchange Coinbase.
-  - Den andra transaktionen i det block som innehåller de högsta avgifterna.
-  - En transaktion som utförs av Miner efter att han mottagit belöningen.
-explanation: >-
+  - De reglerar priset på Bitcoin.
+  - De kontrollerar Supply i Bitcoin.
+  - De hanterar transaktioner mellan användare.
+explanation: |
+  Gruvarbetare i Bitcoin-protokollet säkrar både det aktuella och
+  det historiska nätverket. De reglerar inte priset på
+  Bitcoin, kontrollerar dess Supply och hanterar inte heller transaktioner
+  mellan användare.
 reviewed: true

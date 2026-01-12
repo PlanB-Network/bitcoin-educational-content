@@ -1,11 +1,12 @@
-question: Wat gebeurt er als uw privésleutel wordt onthuld aan een derde partij?
-answer: De derde partij kan jouw bitcoins uitgeven.
+question: Wat is geen Mnemonic zin in de context van Bitcoin?
+answer: Een wachtwoord voor je Bitcoin Wallet.
 wrong_answers:
-  - De derde partij kan alleen je transactiegeschiedenis bekijken.
-  - De derde partij kan je privésleutel wijzigen.
-  - De derde partij heeft toegang tot uw persoonlijke gegevens.
+  - Een lijst van 12 woorden uit een specifiek woordenboek.
+  - Een lijst van 24 woorden uit een specifiek woordenboek.
+  - Het geheim om toegang te krijgen tot je Bitcoin fonds.
 explanation: |
-  Als uw privésleutel bekend wordt gemaakt aan een derde partij, zijn de bijbehorende
-  geassocieerde fondsen niet langer veilig, omdat de privé
-  sleutel hen toegang geeft tot uw fondsen.
+  Een Mnemonic zin in de context van Bitcoin is een lijst van 12
+  of 24 woorden waarmee je je Wallet kunt herstellen op elke
+  Bitcoin Wallet toepassing. Iedereen met toegang tot deze lijst
+  heeft ook toegang tot je bitcoins.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Cargo를 통해 RGB 도구를 설치하려면 어떻게 해야 하나요?
+answer: 화물 설치 RGB-계약 --모든 기능
+wrong_answers:
+  - 카고 설치 RGB -- 모든 기능
+  - 화물 설치 RGB-Bitcoin --모두
+  - 화물 빌드 RGB-라이트닝 - 릴리스
+explanation: |
+  설치는 "화물 설치 RGB-계약 --모든 기능"이라는 명령으로 수행되며, 상자의 이름은 RGB 도구를 설치하는 "RGB-계약"으로 지정됩니다.
+reviewed: false

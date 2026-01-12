@@ -81,7 +81,7 @@ Zde je několik tipů, jak zálohovat záložní frázi.
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 Chcete-li zálohovat fráze, vyberte nabídku **Předvolby > Zabezpečení** a poté možnost **Zkontrolovat záložní frázi**.
 
@@ -210,4 +210,4 @@ Chcete-li jít dál, doporučuji vám také objevit náš návod na Aqua Wallet,
 
 
 
-https://planb.network/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125
+https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe3899a7d125

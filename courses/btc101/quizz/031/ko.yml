@@ -1,0 +1,12 @@
+question: Bitcoin 유닛이 존재할 수 있는 최대 개수는 몇 개인가요?
+answer: 2,100만.
+wrong_answers:
+  - 3조.
+  - 1억.
+  - 제한은 없습니다.
+explanation: |
+  Bitcoin의 총 Supply는 2,100만 개로 제한되어 있습니다.
+  이것이 Bitcoin의 주요 특징입니다
+  신탁 통화와 차별화되는 주요 특징입니다
+  중앙은행에서 무제한으로 발행할 수 있습니다.
+reviewed: true

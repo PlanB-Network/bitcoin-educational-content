@@ -18,4 +18,4 @@ OP_DUP OP_HASH160 OP_PUSHBYTES_20 <address> OP_EQUALVERIFY OP_CHECKSIG
 
 ![](../../dictionnaire/assets/35.webp)
 
-> ► *Этот шрифт также иногда называют "блокирующим" в английском языке
+> ► *Этот шрифт также иногда называют "блокирующим" в английском языке*

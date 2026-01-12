@@ -1,0 +1,9 @@
+question: Który naukowiec uważa, że matematyka jest językiem wszechświata?
+answer: Galileo.
+wrong_answers:
+  - Kepler.
+  - Newton.
+  - Kopernika.
+explanation: |
+  Galileusz jest znany ze swojego stwierdzenia, że "księga natury jest napisana językiem matematycznym". Wizja ta wywarła głęboki wpływ na współczesną naukę i filozofię racjonalistyczną, w tym filozofię Spinozy.
+reviewed: false

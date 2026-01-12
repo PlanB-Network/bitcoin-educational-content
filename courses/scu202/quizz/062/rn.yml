@@ -1,0 +1,9 @@
+question: Ni iyihe mucukumbuzi itanga ukutamenyekana mu guhindura inzira y’uruja n’uruza biciye ku muhora ukwiragijwe hirya no hino ariko witonde?
+answer: Mucukumbuzi ya Tor
+wrong_answers:
+  - Mullvad Browser
+  - Lynx
+  - LibreWolf
+explanation: |
+   Mucukumbuzi ya Tor yizigira umuhora wa Tor kugira ngo ukore mu buryo butamenyekana, ku giciro c’ukugabanuka cane kw’imuvuduko.
+reviewed: true

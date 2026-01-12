@@ -1,0 +1,9 @@
+question: Ni ikihe muri ibi bikorwa vya Lightning vyandikwa onchain?
+answer: Gufungura umuyoboro
+wrong_answers:
+  - Ukwishura hagati
+  - Kuvugurura uko ibintu bimeze
+  - Gucisha mu mihanda myinshi
+explanation: |
+  Gufungura no gufunga umuyoboro wa Lightning ni vyo gusa bihuye n’ibikorwa vya Bitcoin bishirwa kuri blockchain.
+reviewed: false

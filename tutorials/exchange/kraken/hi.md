@@ -22,7 +22,7 @@ description: मैं क्रैकेन पर बिटकॉइन कै
 
 
 
-https://planb.network/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
+https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
 ## 1 - एक क्रैकेन खाता बनाएँ
 
@@ -164,7 +164,7 @@ Interface वाकई काफी शांत और रंगीन है�
 
 
 
-https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
+https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 आपके लिए सबसे उपयुक्त विधि चुनने के बाद, हम अंततः अपना पहला सातोशी खरीदने के लिए धन जमा करने के लिए तैयार हैं।
 
@@ -329,7 +329,7 @@ https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-
 
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ![KRAKEN](assets/fr/30.webp)
 

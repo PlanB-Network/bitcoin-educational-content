@@ -1,0 +1,9 @@
+question: Ni igikorwa nyamukuru ikihe MAC Address ikora mu nzira y’ubuhinga bwo mu karere?
+answer: Mu buryo budasanzwe kumenya urusobe Interface.
+wrong_answers:
+  - Guhindura izina ry'indangarubuga muri IP Address.
+  - Gutanga IP Address ku mushitsi
+  - Menya umuvuduko w'internet yawe
+explanation: |
+  MAC Address ikora nk’ikimenyetso kidasanzwe c’ibikoresho ku rubuga rwose Interface, bikaba bishoboza ibikoresho gutandukanywa ku mubiri ku rubuga rwo mu karere.
+reviewed: false

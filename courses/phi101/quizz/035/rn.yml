@@ -1,0 +1,9 @@
+question: Mu bintu vyatumye Ubwami bw’Uburoma bugwa, ni ikihe Montesquieu ashimikirako?
+answer: Guheba ingingo ngenderwako za repubulika no kwemera ubutegetsi bw'agahomerabunwa bw'umwami .
+wrong_answers:
+  - Iherezo ry'ibigabane n'ubukene bw'abanyagihugu .
+  - Ukwiyongera kw'ibiciro n'ingorane z'ubutunzi
+  - Ukudatekana kwa politike be n’ugukurikirana vyihuse kw’abami b’abami
+explanation: |
+  Montesquieu avuga ko ugutemba kw'Ubwami bw'Uburoma kwavuye ku gutakaza ingingo ngenderwako za repubulika zari umushinge w'inkomezi z'Uburoma, no ku gutera imbere gushika ku butegetsi bw'umwami bushingiye hagati kandi bufise ubutegetsi bw'agahomerabunwa bwatumye ubumwe n'ingeso nziza z'abanyagihugu bigoyagoya.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Vad anser Spinoza om slumpen?
+answer: Den existerar inte.
+wrong_answers:
+  - Den existerar.
+  - Han likställer det med fatalism.
+  - Han anser att det är vidskepelse.
+explanation: |
+  För Spinoza finns det inget sådant som slumpen. Allt i universum följer nödvändiga och bestämda lagar. Det som för oss framstår som slump är bara resultatet av vår okunnighet om de verkliga orsakerna.
+reviewed: false

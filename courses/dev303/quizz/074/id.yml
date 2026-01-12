@@ -1,0 +1,8 @@
+question: Apa batasan utama dari penggunaan pustaka anyhow untuk penanganan kesalahan dalam pengembangan pustaka Rust?
+answer: Ini mengubah semua kesalahan menjadi pesan string, mencegah konsumen merespons secara terprogram terhadap kondisi kesalahan yang berbeda
+wrong_answers:
+  - Ini hanya bekerja dengan tipe Hasil dan tidak dapat menangani tipe Opsi, sehingga membatasi kegunaannya dalam skenario campuran
+  - Ini membutuhkan konversi kesalahan manual untuk setiap jenis kesalahan, membuatnya lebih bertele-tele daripada penanganan Hasil standar
+  - Secara otomatis panik pada jenis kesalahan tertentu, sehingga tidak cocok untuk kode pustaka produksi
+explanation: |
+  Kelemahan utama library anyhow untuk pengembangan library adalah pada dasarnya meratakan semua kesalahan ke dalam representasi string, sehingga kehilangan informasi kesalahan terstruktur yang dibutuhkan konsumen library untuk membuat keputusan pemrograman. Meskipun anyhow unggul dalam menyederhanakan penanganan kesalahan untuk aplikasi pengguna akhir di mana kesalahan terutama ditampilkan, pustaka perlu menyediakan jenis kesalahan spesifik yang memungkinkan konsumen untuk membedakan antara mode kegagalan yang berbeda (seperti input yang tidak valid vs kesalahan runtime) dan merespons dengan tepat. Pilihan lainnya tidak benar: bagaimanapun juga bekerja dengan baik dengan tipe Result dan Option, sebenarnya mengurangi verbositas melalui konversi otomatis, dan tidak menyebabkan kepanikan.

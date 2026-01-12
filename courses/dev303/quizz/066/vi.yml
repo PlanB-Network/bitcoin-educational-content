@@ -1,0 +1,8 @@
+question: Sự kết hợp nào giữa các tính năng của Rust khiến nó đặc biệt phù hợp để xử lý tính chất không thể đảo ngược của các giao dịch Bitcoin?
+answer: Hệ thống kiểu dữ liệu tĩnh mạnh mẽ giúp phát hiện lỗi trong quá trình biên dịch và ngăn ngừa các lỗ hổng liên quan đến bộ nhớ.
+wrong_answers:
+  - Kiểu dữ liệu động với kiểm tra thời gian chạy và thu gom rác tự động để quản lý bộ nhớ.
+  - Hệ thống kiểu yếu với khả năng chuyển đổi linh hoạt và quản lý bộ nhớ thủ công để tối ưu hóa hiệu năng.
+  - Biên dịch tức thời với tối ưu hóa thời gian chạy và xử lý lỗi thông dịch để tăng tính linh hoạt.
+explanation: |
+  Hệ thống kiểu dữ liệu tĩnh mạnh của Rust rất quan trọng đối với việc phát triển Bitcoin vì nó phát hiện các lỗi không khớp kiểu dữ liệu và lỗi logic trước khi chương trình chạy, ngăn ngừa các vấn đề có thể ảnh hưởng đến tiền của người dùng. Bản chất tĩnh có nghĩa là lỗi được tìm thấy trong quá trình biên dịch chứ không phải trong quá trình chạy khi xử lý các giao dịch thực tế. Ngoài ra, hệ thống kiểu dữ liệu của Rust xử lý quyền sở hữu bộ nhớ và ngăn ngừa các lỗ hổng liên quan đến bộ nhớ như lỗi giải phóng bộ nhớ hai lần và điều kiện tranh chấp. Điều này rất cần thiết cho các ứng dụng Bitcoin, nơi các lỗi không thể khắc phục và không có cơ quan nào để khiếu nại nhằm thu hồi tiền, không giống như các hệ thống tài chính truyền thống với cơ chế hoàn trả.

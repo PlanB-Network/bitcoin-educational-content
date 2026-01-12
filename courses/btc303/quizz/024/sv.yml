@@ -1,0 +1,9 @@
+question: Vad är den främsta anledningen till att Bitcoin använder adresser som härrör från offentliga nycklar som pseudonymer istället för beskrivande användarnamn?
+answer: För att möjliggöra säker skapande av offlineadresser utan krav på blockchain-registrering
+wrong_answers:
+  - Att göra transaktioner helt anonyma och omöjliga att spåra i blockkedjan
+  - För att minska den datorkraft som krävs för transaktionsverifiering
+  - Att tillåta obegränsad återanvändning av samma pseudonym i flera transaktioner
+explanation: |
+  Bitcoin använder adresser som härrör från offentliga nycklar som pseudonymer eftersom detta system gör det möjligt för användare att på ett säkert sätt skapa nya adresser offline utan att först behöva registrera dem i blockkedjan. Att använda beskrivande användarnamn skulle kräva att länken mellan användarnamnet och den publika nyckeln meddelas i blockkedjan, vilket skulle kosta avgifter, göra blockkedjan stor och minska säkerheten. Dessutom skulle användarnamn uppmuntra till återanvändning (vilket minskar integriteten) och skapa risker för personifiering. Det adressbaserade systemet eliminerar dessa problem samtidigt som det upprätthåller den kryptografiska säkerhet som krävs för att Bitcoin ska fungera korrekt.
+reviewed: false

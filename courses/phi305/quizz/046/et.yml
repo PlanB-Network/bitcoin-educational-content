@@ -1,0 +1,9 @@
+question: Kuidas defineerib Spinoza vihkamist?
+answer: Kurbus, mis on seotud välise põhjuse mõttega.
+wrong_answers:
+  - Rõõm, mis on seotud välise põhjuse ideega.
+  - Süütunne.
+  - Vastupidine tunne.
+explanation: |
+  Spinoza määratleb viha kui kurbust, mis on seotud välise põhjuse ideega. See on negatiivne afekt, mis vähendab meie tegutsemisvõimet ja aheldab meid selle külge, mida me vihkame.
+reviewed: false

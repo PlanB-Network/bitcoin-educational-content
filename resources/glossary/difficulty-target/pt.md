@@ -10,4 +10,4 @@ Este objetivo é ajustado a cada 2016 blocos (aproximadamente a cada duas semana
 
 ![](../../dictionnaire/assets/34.webp)
 
-> ► *O objetivo de dificuldade é por vezes também designado por "fator de dificuldade" Por extensão, pode ser referido com a sua codificação nos cabeçalhos dos blocos com o termo "nBits"
+> ► *O objetivo de dificuldade é por vezes também designado por "fator de dificuldade".* Por extensão, pode ser referido com a sua codificação nos cabeçalhos dos blocos com o termo "nBits"

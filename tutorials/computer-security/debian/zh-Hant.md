@@ -18,10 +18,10 @@ Debian 是一個自由的 GNU/Linux 發行版，以其穩健性和可靠性而�
 
 
 - 免費且開放**：Debian 完全開放原始碼，保證透明且無授權費用。
-- 穩定性與安全性**：每個發行版本都經過徹底的測試，讓 Debian 成為市場上最可靠、最安全的發行版之一。
-- 活躍的社群**：龐大的社群和豐富的文件，隨時為您提供支援。
-- 輕量且可擴充**：您可以在資源有限的機器上安裝 Debian，同時維持良好的效能。
-- 廣泛的軟體目錄**：透過套件庫提供超過 50,000 個官方套件。
+- **穩定性與安全性**：每個發行版本都經過徹底的測試，讓 Debian 成為市場上最可靠、最安全的發行版之一。
+- **活躍的社群**：龐大的社群和豐富的文件，隨時為您提供支援。
+- 輕量且可擴充：您可以在資源有限的機器上安裝 Debian，同時維持良好的效能。
+- **廣泛的軟體目錄**：透過套件庫提供超過 50,000 個官方套件。
 
 
 
@@ -35,16 +35,16 @@ Debian 提供多種桌面環境來滿足您的需求：
 
 
 
-- GNOME**：現代、直覺的 Interface，初學者的理想選擇。它提供流暢、易用的圖形化選單來存取應用程式。
-- XFCE**: 又輕又快，非常適合效能較低的機器。
-- KDE Plasma**：高度客製化，擁有類似 Windows 的外觀。
-- Cinnamon**：簡單、優雅的 Interface，靈感來自 Windows。
-- LXDE / LXQt**：超輕薄，適合較舊的電腦。
-- MATE**：簡單、經典，接近舊版的 GNOME。
+- **GNOME**：現代、直覺的 Interface，初學者的理想選擇。它提供流暢、易用的圖形化選單來存取應用程式。
+- **XFCE**: 又輕又快，非常適合效能較低的機器。
+- **KDE Plasma**：高度客製化，擁有類似 Windows 的外觀。
+- **Cinnamon**：簡單、優雅的 Interface，靈感來自 Windows。
+- **LXDE / LXQt**：超輕薄，適合較舊的電腦。
+- **MATE**：簡單、經典，接近舊版的 GNOME。
 
 
 
-💡 要獲得舒適、易於握持的體驗，強烈建議**GNOME。
+💡 要獲得舒適、易於握持的體驗，強烈建議**GNOME**。
 
 
 
@@ -62,8 +62,8 @@ Debian 提供多種桌面環境來滿足您的需求：
 
 
 - USB 密鑰**：至少 8 GB，以存放可開機 ISO 映像。
-- 隨機存取記憶體 (RAM)**：4 GB，可順暢安裝與操作。
-- 磁碟空間**：至少 15 GB 的可用空間供系統和更新使用。
+- 隨機存取記憶體 (RAM)：4 GB，可順暢安裝與操作。
+- 磁碟空間：至少 15 GB 的可用空間供系統和更新使用。
 
 
 
@@ -77,9 +77,9 @@ Debian 映像的選擇取決於您的處理器架構：
 
 
 
-- AMD64**：從 [下載] 清單 (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/) 下載 "live hybrid" 版本。
-- ARM64**: 從 [Debian] 官方網站 (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/) 取得 DVD 映像檔。
-- 其他架構**：在 [此處](https://debian.obspm.fr/debian-cd/12.11.0/) 找到與您的架構相對應的 ISO。
+- **AMD64**：從 [下載] 清單 (https://debian.obspm.fr/debian-cd/12.11.0-live/amd64/iso-hybrid/) 下載 "live hybrid" 版本。
+- **ARM64**: 從 [Debian] 官方網站 (https://debian.obspm.fr/debian-cd/12.11.0/arm64/iso-dvd/) 取得 DVD 映像檔。
+- 其他架構：在 [此處](https://debian.obspm.fr/debian-cd/12.11.0/) 找到與您的架構相對應的 ISO。
 
 
 
@@ -96,7 +96,7 @@ Debian 映像的選擇取決於您的處理器架構：
 
 
 
-- 從 [官方網站](https://etcher.balena.io/) 下載 Balena Etcher**，然後取得適合您系統的二進位檔並安裝。
+- 從 [官方網站](https://etcher.balena.io/) 下載 **Balena Etcher**，然後取得適合您系統的二進位檔並安裝。
 
 
 
@@ -106,9 +106,9 @@ Debian 映像的選擇取決於您的處理器架構：
 
 
 
-- 啟動 Etcher**：開啟軟體並選擇先前下載的 Debian ISO 映像檔。
-- 選擇 USB 隨身碟**：指定您的隨身碟（8 GB 以上）為目標。
-- 啟動 flash**：按一下 **Flash！** 並等待程序完成。
+- 啟動 **Etcher**：開啟軟體並選擇先前下載的 Debian ISO 映像檔。
+- 選擇 USB 隨身碟：指定您的隨身碟（8 GB 以上）為目標。
+- 啟動 flash：按一下 **Flash！** 並等待程序完成。
 
 
 
@@ -133,10 +133,10 @@ Debian 映像的選擇取決於您的處理器架構：
 
 
 
-- 完全關閉**電腦。
+- 完全關閉**電腦**。
 - 重新開機**，然後立即按下`ESC`、`F2`、`F11`（或專用鍵，視您的品牌而定）存取 BIOS/UEFI。
 - 在開機功能表中，**選擇您的 USB 隨身碟**為開機裝置。
-- 用 Enter 鍵確認**，開始 Debian 映像檔：這會帶您到安裝程式的歡迎畫面。
+- 用 Enter 鍵確認，開始 Debian 映像檔：這會帶您到安裝程式的歡迎畫面。
 
 
 
@@ -157,9 +157,9 @@ Debian 映像的選擇取決於您的處理器架構：
 
 
 
-- Live System**：無需安裝即可啟動 Debian，是測試環境的理想選擇。
-- Start Installer**：直接在 Hard 磁碟上開始安裝。
-- 進階安裝選項**：可讓您存取自訂的安裝模式。
+- **Live System**：無需安裝即可啟動 Debian，是測試環境的理想選擇。
+- **Start Installer**：直接在 Hard 磁碟上開始安裝。
+- **進階安裝選項**：可讓您存取自訂的安裝模式。
 
 
 
@@ -173,7 +173,7 @@ Debian 映像的選擇取決於您的處理器架構：
 
 
 
-- 語言選擇** (選購)
+- **語言選擇** (選購)
 
 
 
@@ -187,7 +187,7 @@ Debian 映像的選擇取決於您的處理器架構：
 
 
 
-- 時區** (GMT)
+- **時區** (GMT)
 
 
 
@@ -219,8 +219,8 @@ Debian 映像的選擇取決於您的處理器架構：
 
 
 
-- 刪除磁碟**：如果您有專用的磁碟分割，此選項會刪除其所有內容。
-- 手動分割**：選擇此選項可根據需要建立、調整大小或刪除分割區。
+- 刪除磁碟：如果您有專用的磁碟分割，此選項會刪除其所有內容。
+- 手動分割：選擇此選項可根據需要建立、調整大小或刪除分割區。
 
 
 
@@ -244,7 +244,7 @@ Debian 映像的選擇取決於您的處理器架構：
 
 
 
-- 參數摘要**
+- **參數摘要**
 
 
 
@@ -272,7 +272,7 @@ Debian 映像的選擇取決於您的處理器架構：
 
 
 
-- 重新啟動**
+- 重新啟動
 
 
 
@@ -426,7 +426,7 @@ sudo apt install ./name.deb
 
 
 
-https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
+https://planb.academy/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af
 
 您的 Debian 系統現在已經安裝完成，可以開始執行日常任務。
 
@@ -443,4 +443,4 @@ https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b
 
 
 
-https://planb.network/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
+https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1

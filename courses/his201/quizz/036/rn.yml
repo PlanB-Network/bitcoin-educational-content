@@ -1,0 +1,9 @@
+question: Ni nde yazanye ikimenyetso ca mbere nyaco ca Bitcoin (indome nini y’inzahabu B iciyemwo imirongo ibiri ihiritse) muri Ruhuhuma 2010?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - NewLibertyStandard
+  - Martti Malmi
+  - bitboy
+explanation: |
+  Yakoresheje iciyumviro ca NewLibertyStandard co gukoresha ikimenyetso c’amahera y’i Tayilande(the Thai baht symbol) (฿). Ico kimenyetso c’umutuku caje gukorwa n’umuntu yitwa Bitboy.
+reviewed: true

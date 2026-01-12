@@ -1,0 +1,10 @@
+question: Ni kuki umuhuzabikorwa adashobora guhindura igikorwa ca CoinJoin amaze gukusanya imikono y’abaje muri iyo nama bose?
+answer: Kuyihindura vyotuma iyo nzira y’ugucuruza itagira akamaro.
+wrong_answers:
+  - Ntibashobora kuronka amaderesi y’aho abaje mu nama bakira.
+  - Ivyo bimenyetso birashizwe mu mfuruka.
+  - Ivyo bicuruzwa vyaramaze gutangazwa ku rubuga rwa Bitcoin.
+explanation: |
+  Abaje mu nama bamaze gusinya ku bijanye n’ugucuruza muri rusangi, bamaze kumenya neza ko vyose bimeze neza, umuhuzabikorwa ntashobora kuzosubira guhindura iyo nzira, harimwo n’ibisohoka, atayihinduye ubusa, kuko iyo sinya ipfutse ibikorwa vyose.
+  
+reviewed: false

@@ -1,0 +1,9 @@
+question: Šta je originalni Bitcoin softver kombinovao 2009. godine?
+answer: Wallet, luk, i manji
+wrong_answers:
+  - Node, Miner, i Block explorer
+  - Wallet, chopper, and Miner
+  - Miner i Mining pool
+explanation: |
+  Originalni Bitcoin softver integrisao je funkcije Wallet, node i Miner u jedan program.
+reviewed: true

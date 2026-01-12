@@ -1,0 +1,9 @@
+question: Mikä on yleisimmin käytetty Bitcoin-solmutoteutus?
+answer: Bitcoin core
+wrong_answers:
+  - Bitcoin Knots
+  - Bitcoin Classic
+  - Bcoin
+explanation: |
+  Bitcoin core on enemmistöasiakas, sillä sen verkossa on noin 9 solmua 10:stä.
+reviewed: true

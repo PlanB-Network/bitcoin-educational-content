@@ -1,8 +1,9 @@
-question: Madenciler işlemleri nasıl onaylar ve bir bloğa dahil eder?
-answer: Proof of Work süreci boyunca.
+question: Bitcoin Blockchain'ın mevcut boyutu nedir?
+answer: Yaklaşık 500GB.
 wrong_answers:
-  - Hissenin kanıtlanması süreci boyunca.
-  - Yetki İspatı süreci aracılığıyla.
-  - Yanık Kanıtı süreci boyunca.
-explanation: >-
+  - Yaklaşık 100 GB.
+  - Yaklaşık 1 TB.
+  - Yaklaşık 2 TB.
+explanation: |
+  Bitcoin Blockchain, 2023 itibariyle yaklaşık 500 GB boyutundadır.
 reviewed: true

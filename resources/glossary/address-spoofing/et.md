@@ -14,4 +14,4 @@ Teine meetod vale Address ohvri ette panemiseks on pettuse Wallet haldustarkvara
 Nende erinevate rünnakumeetodite eest kaitsmiseks on oluline kontrollida enne tehingu allkirjastamist allkirjastusseadme ekraanil mitmeid Address sümboleid, eriti selle kontrollsummat (lõpus).
 
 
-> ► *Seda rünnakut nimetatakse mõnikord ka Address mürgistuseks
+> ► *Seda rünnakut nimetatakse mõnikord ka Address mürgistuseks*

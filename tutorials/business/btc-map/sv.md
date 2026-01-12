@@ -1,5 +1,5 @@
 ---
-name: BTC-karta
+name: BTC Map
 description: Hitta ställen att spendera din Sats på
 ---
 ![cover](assets/cover.webp)
@@ -14,7 +14,7 @@ BTC Map är baserat på OSM (OpenStreetMap), som i sig är ett kartverktyg med �
 
 
 
-Gå till [btcmap.org] (https://btcmap.org/):
+Gå till [btcmap.org](https://btcmap.org/):
 
 
 
@@ -22,15 +22,15 @@ Gå till [btcmap.org] (https://btcmap.org/):
 
 
 
-Tillgänglig på :
+Tillgänglig på:
 
 
 
 
-- iOS via [AppStore] (https://apps.apple.com/app/btc-world-map/id6443604345)
-- Android via [Play Store] (https://play.google.com/store/apps/details?id=org.btcmap.app)
-- [F-Droid] (https://f-droid.org/en/packages/org.btcmap/) Android-appkatalogen med öppen källkod
-- genom att ladda ner [apk android] (https://github.com/teambtcmap/btcmap-android/releases/latest) direkt från projektets github
+- iOS via [AppStore](https://apps.apple.com/app/btc-world-map/id6443604345)
+- Android via [Play Store](https://play.google.com/store/apps/details?id=org.btcmap.app)
+- [F-Droid](https://f-droid.org/en/packages/org.btcmap/) Android-appkatalogen med öppen källkod
+- genom att ladda ner [apk android](https://github.com/teambtcmap/btcmap-android/releases/latest) direkt från projektets github
 - via webbappen från din webbläsare (vår syn idag)
 
 
@@ -165,9 +165,9 @@ Om du klickar på denna landskapskonstnär från Texas visas en inlaga:
 
 - 1: Markera den här rutan om du bara vill bekräfta att informationen i filen är uppdaterad (i så fall går du direkt till steg 4)
 - 2: Ange här vilken information som eventuellt är felaktig och vilken rättelse du föreslår
-- 3 : Beskriv här hur du fick tag på informationen (besök, samtal...)
+- 3: Beskriv här hur du fick tag på informationen (besök, samtal...)
 - 4: Fortsätt till captcha-verifiering (skiftlägeskänslig)
-- 5 : Klicka på "Skicka rapport" för att skicka ditt förslag
+- 5: Klicka på "Skicka rapport" för att skicka ditt förslag
 
 
 
@@ -247,7 +247,7 @@ Du kommer omedelbart att märka de orangefärgade områdena. Som du kan se är d
 
 
 
-BTC Map låter dig [lägga till ditt eget samhälle] (https://btcmap.org/communities/add/), låt oss ta en titt på det steg för steg:
+BTC Map låter dig [lägga till ditt eget samhälle](https://btcmap.org/communities/add/), låt oss ta en titt på det steg för steg:
 
 
 
@@ -287,7 +287,7 @@ BTC Map låter dig [lägga till ditt eget samhälle] (https://btcmap.org/communi
 - 1: Anläggningens namn
 - 2: Fysisk Address (obligatorisk, du behöver en Address på gatan)
 - 3: Markera den exakta punkten på kartan
-- 4 : Vilken kategori tillhör växten?
+- 4: Vilken kategori tillhör växten?
 - 5: Vilka Bitcoin-betalningsmedel finns tillgängliga (BTC, Lightning, kontaktlös)?
 
 
@@ -307,9 +307,9 @@ BTC Map låter dig [lägga till ditt eget samhälle] (https://btcmap.org/communi
   - "Jag är företagare": Jag är chef för verksamheten
   - "Jag besökte som kund": Jag besökte detta etablissemang som kund
   - "annan metod
-- 12 : Din e-post Address om plattformen behöver ytterligare information
+- 12: Din e-post Address om plattformen behöver ytterligare information
 - 13: Captcha-kontroll (skiftlägeskänslig)
-- 14 : Klicka på "Skicka plats" för att skicka din annons
+- 14: Klicka på "Skicka plats" för att skicka din annons
 
 
 

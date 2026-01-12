@@ -1,10 +1,13 @@
-question: Kuinka voit vahvistaa Bitcoin-lompakkosi oletusturvallisuutta?
-answer: Lisäämällä salasanan Bitcoin-lompakkoosi.
+question: Mikä on kylmä lompakko?
+answer: Lompakko fyysisessä laitteessa, joka säilyttää avaimiasi eikä ole yhdistetty internetiin.
 wrong_answers:
-  - Lisäämällä toisen yksityisen avaimen Bitcoin-lompakkoosi.
-  - Lisäämällä toisen julkisen avaimen Bitcoin-lompakkoosi.
-  - Lisäämällä toisen muistisäkeen Bitcoin-lompakkoosi.
+  - Lompakko, joka on fyysisesti kylmä koskettaa.
+  - Lompakko, joka ei ole suosittu Bitcoin-käyttäjien keskuudessa.
+  - Lompakko, jota suositellaan pienten määrien bitcoinien säilyttämiseen.
 explanation: |
-  Jos et ole tyytyväinen Bitcoin-lompakkosi oletusturvallisuuteen,
-  voit aina vahvistaa sitä lisäämällä salasanan Bitcoin-lompakkoosi.
+  Kylmä lompakko on termi, jota käytetään kuvaamaan Bitcoin-lompakkoa,
+  joka on tallennettu laitteeseen, joka ei ole yhdistetty internetiin.
+  Tämä tekee siitä vähemmän alttiin online-uhille,
+  mutta se myös tarkoittaa, että lompakko on vähemmän saavutettavissa
+  päivittäisiä transaktioita varten.
 reviewed: true

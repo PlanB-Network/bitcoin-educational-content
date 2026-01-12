@@ -1,0 +1,9 @@
+question: 지수를 통해 모든 generate을 Elements으로 만들 수 있기 때문에 공개 키 암호화에 특히 중요한 그룹은 어떤 유형인가요?
+answer: 순환 그룹
+wrong_answers:
+  - 비아벨리안 그룹
+  - 무한 그룹
+  - 복소수 그룹
+explanation: |
+  암호화에서 순환 그룹은 제너레이터라고 하는 단일 요소의 지수화를 사용하여 그룹의 모든 Elements를 생성할 수 있기 때문에 필수적입니다.
+reviewed: false

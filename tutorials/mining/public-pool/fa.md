@@ -1,5 +1,5 @@
 ---
-name: استخر عمومی
+name: Public Pool
 description: مقدمه‌ای بر استخر عمومی
 ---
 
@@ -46,17 +46,17 @@ description: مقدمه‌ای بر استخر عمومی
 
 
 
-- URL**: stratum+tcp://public-pool.io:21496
-- کاربر**: **‘bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr’**
-- رمز عبور**: **‘x’**
+- **URL**: stratum+tcp://public-pool.io:21496
+- **کاربر**: **'bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr'**
+- **رمز عبور**: **'x'**
 
 اگر Miner شما یک **Bitaxe** است، فیلدها کمی متفاوت هستند، اما اطلاعات همان باقی می‌ماند:
 
 
-- URL**: public-pool.io (در اینجا، باید قسمت ابتدای **‘stratum+tcp://’** و قسمت انتهای **‘:21496’** که در قسمت پورت گزارش خواهد شد را حذف کنید)
-- پورت**: 21496
-- کاربر**: **‘bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr’**
-- رمز عبور**: **‘x’**
+- **URL**: public-pool.io (در اینجا، باید قسمت ابتدای **'stratum+tcp://'** و قسمت انتهای **':21496'** که در قسمت پورت گزارش خواهد شد را حذف کنید)
+- **پورت**: 21496
+- **کاربر**: **'bc1q2ed8zxq8njqsznkp7gj84n0xwl9dp224uha2fv.Brrrr'**
+- **رمز عبور**: **'x'**
 
 
 ![signup](assets/3.webp)

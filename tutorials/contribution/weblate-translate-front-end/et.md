@@ -4,7 +4,7 @@ description: Kuidas saab osaleda planb.network staatiliste elementide tõlkimise
 ---
 ![cover](assets/cover.webp)
 
-Plan ₿ Network'i missioon on pakkuda esmaklassilisi hariduslikke ressursse Bitcoini kohta ja tõlkida need võimalikult paljudesse keeltesse. Suur osa saidil avaldatud sisust on avatud lähtekoodiga ja asub GitHubis, mis võimaldab kõigil osaleda platvormi rikastamises. Panus võib võtta erinevaid vorme: olemasoleva sisu parandamine ja korrektuur, teabe ajakohastamine või uute õppematerjalide loomine platvormile lisamiseks.
+Plan ₿ Academy'i missioon on pakkuda esmaklassilisi hariduslikke ressursse Bitcoini kohta ja tõlkida need võimalikult paljudesse keeltesse. Suur osa saidil avaldatud sisust on avatud lähtekoodiga ja asub GitHubis, mis võimaldab kõigil osaleda platvormi rikastamises. Panus võib võtta erinevaid vorme: olemasoleva sisu parandamine ja korrektuur, teabe ajakohastamine või uute õppematerjalide loomine platvormile lisamiseks.
 
 Selles õpetuses näitame teile, kuidas saate hõlpsasti kaasa aidata meie veebisaidi staatiliste elementide tõlkimisele. Platvormi andmed on jagatud kahte põhikategooriasse:
 
@@ -14,22 +14,22 @@ Selles õpetuses näitame teile, kuidas saate hõlpsasti kaasa aidata meie veebi
 
 Õppesisu tõlkimiseks kasutame [tehisintellekti](https://github.com/Asi0Flammeus/LLM-Translator). Seejärel kutsume nendes failides olevate võimalike vigade parandamiseks korrektoreid üles andma oma panuse. Kui soovite mõnda sisu korrektuurida, vaadake järgmist juhendmaterjali:
 
-https://planb.network/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
+https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 Kui aga olete huvitatud veebilehe staatiliste elementide (välja arvatud õppesisu) tõlkimisest, siis olete õiges kohas! Frontend'i tõhusaks tõlkimiseks kasutame tööriista Weblate, mida on väga lihtne kasutada ja mis hõlbustab tõlkimisele lähenemist.
 
-Kui soovite lisada Plan ₿ Network'ile täiesti uue keele, võtke kindlasti ühendust Plan ₿ Network'i meeskonnaga meie [Telegrami grupi](https://t.me/PlanBNetwork_ContentBuilder) kaudu. Kui teil ei ole telegrammi, võite saata e-kirja aadressil mari@planb.network. Kirjuta kindlasti väike tutvustus selle kohta, kes sa oled ja milliseid keeli sa räägid.
+Kui soovite lisada Plan ₿ Academy'ile täiesti uue keele, võtke kindlasti ühendust Plan ₿ Academy'i meeskonnaga meie [Telegrami grupi](https://t.me/PlanBNetwork_ContentBuilder) kaudu. Kui teil ei ole telegrammi, võite saata e-kirja aadressil mari@planb.network. Kirjuta kindlasti väike tutvustus selle kohta, kes sa oled ja milliseid keeli sa räägid.
 
 Meie meeskonnaliikmed annavad teile konkreetseid juhiseid ja avavad Githubis sellega seotud "probleemid", et koordineerida teie tööd.
 
 Enne selle konkreetse õpetuse järgimist, et lisada uus keel Weblate'ile.
 
-https://planb.network/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
+https://planb.academy/tutorials/contribution/content/weblate-add-new-language-eef2f5c0-1aba-48a3-b8f0-a57feb761d86
 Kui olete valmis tõlkimisega alustama, tulge tagasi selle õpetuse juurde ja vaadake läbi järgmised punktid.
 
 ## Registreeru Weblate'is
 
 
-- Mine [Plan ₿ Network'i isehostitavale veebilauale](https://weblate.planb.network/):
+- Mine [Plan ₿ Academy'i isehostitavale veebilauale](https://weblate.planb.network/):
 
 ![weblate](assets/01.webp)
 
@@ -59,7 +59,7 @@ Kui olete valmis tõlkimisega alustama, tulge tagasi selle õpetuse juurde ja va
 ![weblate](assets/06.webp)
 
 
-- Nüüd saate minna tagasi Plan ₿ Network armatuurlauale:
+- Nüüd saate minna tagasi Plan ₿ Academy armatuurlauale:
 
 ![weblate](assets/07.webp)
 
@@ -144,7 +144,7 @@ Kui olete valmis tõlkimisega alustama, tulge tagasi selle õpetuse juurde ja va
 
 
 - Kui leiate sõnad, mis on sisestatud sulgesulgudes "{", ei pea neid tõlkima. Näiteks: "Teie konto on loodud, {{kasutajaNimi}}!", tõlkige kogu lause, kuid jätke "kasutajanimi" inglise keelde.
-- Kui leiate stringist "Plan ₿ Network", veenduge, et EI tõlkige sõna "network" (pidage Plan ₿ Network kaubamärgiks). Peale selle kasutage alati Bitcoini ₿!
+- Kui leiate stringist "Plan ₿ Academy", veenduge, et EI tõlkige sõna "network" (pidage Plan ₿ Academy kaubamärgiks). Peale selle kasutage alati Bitcoini ₿!
 - Kui leiate sõna "network" üksi, võite selle asemel tõlkida.
 - Ärge tõlkige "B-CERT", sest see on teine fikseeritud sõna.
 - Kui leiate stringid, mis lõpevad tühikuga, võite selle jätta.
@@ -157,5 +157,5 @@ Kui olete valmis tõlkimisega alustama, tulge tagasi selle õpetuse juurde ja va
 
 ![weblate](assets/23.webp)
 
-Täname teid juba ette teie panuse eest Plan ₿ Network'i tõlkimisse! Kui teil on meile konkreetseid küsimusi või kommentaare, võtke meiega julgelt ühendust [Telegrami grupi](https://t.me/PlanBNetwork_ContentBuilder) kaudu.
+Täname teid juba ette teie panuse eest Plan ₿ Academy'i tõlkimisse! Kui teil on meile konkreetseid küsimusi või kommentaare, võtke meiega julgelt ühendust [Telegrami grupi](https://t.me/PlanBNetwork_ContentBuilder) kaudu.
 

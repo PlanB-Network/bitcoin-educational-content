@@ -1,0 +1,9 @@
+question: RGB 프로토콜의 기본 개념은 무엇인가요?
+answer: On-Chain 암호화 약정을 통한 고객 측 검증
+wrong_answers:
+  - 튜링 컴플리트 스마트 컨트랙트에 의한 On-Chain 검증
+  - 암호화되지 않은 Bitcoin 트랜잭션 독점 사용
+  - 스마트 컨트랙트 전용 Blockchain에서 Contract 실행
+explanation: |
+  RGB은 Client-side Validation 모델을 기반으로 하며, 대부분의 로직과 데이터는 off-chain로 유지되는 반면 커밋(Taproot 또는 OP_RETURN을 통한)은 On-Chain로 입력됩니다.
+reviewed: false

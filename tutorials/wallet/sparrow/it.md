@@ -26,7 +26,7 @@ Vai sulla [pagina ufficiale per il download di Sparrow Wallet](https://sparrowwa
 
 È importante verificare l'integrità e l'autenticità del software prima di installarlo. Se non sai come fare, qui trovi un tutorial completo:
 
-https://planb.network/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
+https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21d0420a-be02-4663-94a3-8d487f23becc
 
 Una volta installato Sparrow, puoi saltare le schermate esplicative iniziali e passare direttamente alla schermata di gestione della connessione.
 
@@ -65,13 +65,13 @@ Una volta collegato, Sparrow ti mostrerà una spunta gialla nell'angolo inferior
 
 Il secondo metodo di connessione a un nodo Bitcoin consiste nel collegare Sparrow a un Bitcoin Core. Se Bitcoin Core è installato sulla stessa macchina, l'autenticazione avverrà tramite il file cookie. Se invece Bitcoin Core si trova su una macchina remota, dovrai utilizzare la password all'interno del file `Bitcoin.conf`.
 
-Nota che se utilizzi un nodo Bitcoin Core ["pruned"](https://planb.network/resources/glossary/pruned-node), non potrai ripristinare un wallet contenente transazioni precedenti ai blocchi memorizzati localmente. Tuttavia, per un nuovo wallet creato su Sparrow, questo non sarà un problema: le nuove transazioni saranno visibili, anche se il nodo è "pruned".
+Nota che se utilizzi un nodo Bitcoin Core ["pruned"](https://planb.academy/resources/glossary/pruned-node), non potrai ripristinare un wallet contenente transazioni precedenti ai blocchi memorizzati localmente. Tuttavia, per un nuovo wallet creato su Sparrow, questo non sarà un problema: le nuove transazioni saranno visibili, anche se il nodo è "pruned".
 
 Per configurare un nodo Bitcoin Core, puoi consultare uno dei seguenti tutorial, a seconda del sistema operativo che utilizzi:
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e0af-41c9-8102-86ac7c7727f3
 
-https://planb.network/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
+https://planb.academy/tutorials/node/bitcoin/bitcoin-core-linux-568c13a6-8746-4d63-8e95-f4a61c5ae0ed
 
 Su Sparrow, vai alla scheda "*Bitcoin Core*".
 
@@ -204,7 +204,7 @@ Quindi fai clic su "*New or Imported Software wallet*".
 
 ![Image](assets/fr/24.webp)
 
-Scegli lo standard BIP39, in quanto è supportato da quasi tutti i software wallet Bitcoin. Scegli quindi la lunghezza della [recovery phrase](https://planb.network/resources/glossary/recovery-phrase). Attualmente è sufficiente una frase di 12 parole, poiché entrambe offrono una sicurezza simile, ma la frase di 12 parole è più semplice da salvare.
+Scegli lo standard BIP39, in quanto è supportato da quasi tutti i software wallet Bitcoin. Scegli quindi la lunghezza della [recovery phrase](https://planb.academy/resources/glossary/recovery-phrase). Attualmente è sufficiente una frase di 12 parole, poiché entrambe offrono una sicurezza simile, ma la frase di 12 parole è più semplice da salvare.
 
 ![Image](assets/fr/25.webp)
 
@@ -216,7 +216,7 @@ La frase di 12 parole ripristina l'accesso ai bitcoin in caso di perdita, furto 
 
 Per ulteriori informazioni sul modo corretto di salvare e gestire la frase mnemonica, ti consiglio di seguire quest'altro tutorial, soprattutto se sei principiante:
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ![Image](assets/fr/26.webp)
 
@@ -224,7 +224,7 @@ https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a
 
 Puoi anche scegliere di aggiungere una passphrase BIP39 facendo clic sulla casella "*Use passphrase*". Attenzione: l'uso di una passphrase può essere molto utile, ma se non si capisce come funziona, può essere molto rischioso. Per questo motivo ti consiglio vivamente di leggere questo breve tutorial teorico sull'argomento:
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Dopo aver salvato la frase mnemonica e l'eventuale passphrase su un supporto fisico, fai clic su "*Confirm Backup*".
 
@@ -260,7 +260,7 @@ Esistono due modi principali per collegare l'Hardware wallet a Sparrow:
 
 Sparrow supporta tutti questi metodi di comunicazione ed è compatibile con la maggior parte degli Hardware wallet presenti sul mercato.
 
-Per questo tutorial, utilizzerò un Ledger Nano S con cavo, ma la procedura è simile in modalità Air-Gap, ovvero senza cavo. Trovi più dettagli specifici sugli Hardware wallet nei tutorial dedicati sul sito di Plan ₿ Network.
+Per questo tutorial, utilizzerò un Ledger Nano S con cavo, ma la procedura è simile in modalità Air-Gap, ovvero senza cavo. Trovi più dettagli specifici sugli Hardware wallet nei tutorial dedicati sul sito di Plan ₿ Academy.
 
 Prima di iniziare, accertati che il wallet sia già configurato sull'Hardware wallet. Se utilizzi una connessione via cavo, collegalo al computer tramite il cavo.
 
@@ -322,7 +322,7 @@ Se utilizzi un Hardware wallet, è molto importante controllare l'Address sullo 
 
 ![Image](assets/fr/44.webp)
 
-Per gli utenti di Hardware wallet Air-Gap, la verifica dell'Address varia a seconda del tipo di modello del dispositivo. Per istruzioni precise, consulta l'esercitazione dedicata al Plan ₿ Network.
+Per gli utenti di Hardware wallet Air-Gap, la verifica dell'Address varia a seconda del tipo di modello del dispositivo. Per istruzioni precise, consulta l'esercitazione dedicata al Plan ₿ Academy.
 
 Una volta che la transazione è stata propagata da chi ti invia i fondi, la si vedrà apparire nella scheda "*Transactions*". Puoi fare clic su di essa per ottenere ulteriori dettagli, ad esempio l'ID della transazione.
 
@@ -362,7 +362,7 @@ Regola la fee in base alle attuali condizioni di mercato. Puoi farlo inserendo u
 
 ![Image](assets/fr/53.webp)
 
-Nella parte inferiore della schermata puoi scegliere tra "*Efficiency*" e "*Privacy*". Nel mio caso, l'opzione "*Privacy*" non è disponibile, poiché ho solo un UTXO in questo wallet. "*Efficiency*" corrisponde a una transazione classica, mentre "*Privacy*" è una transazione di tipo Stonewall: una struttura di transazione che rafforza la tua riservatezza simulando un mini-[CoinJoin](https://planb.network/resources/glossary/coinjoin), il che rende più complessa l'analisi della catena.
+Nella parte inferiore della schermata puoi scegliere tra "*Efficiency*" e "*Privacy*". Nel mio caso, l'opzione "*Privacy*" non è disponibile, poiché ho solo un UTXO in questo wallet. "*Efficiency*" corrisponde a una transazione classica, mentre "*Privacy*" è una transazione di tipo Stonewall: una struttura di transazione che rafforza la tua riservatezza simulando un mini-[CoinJoin](https://planb.academy/resources/glossary/coinjoin), il che rende più complessa l'analisi della catena.
 
 ![Image](assets/fr/54.webp)
 
@@ -376,7 +376,7 @@ In questo modo accedi a una pagina con tutti i dettagli della transazione. Verif
 
 È importante mantenere il Sighash di default. Per capire perché, dai un'occhiata a questo corso, in cui ti spiego tutto quello che c'è da sapere su Sighash:
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Nella schermata successiva, le opzioni variano a seconda del tipo di wallet in uso:
 
@@ -456,4 +456,4 @@ Se questo tutorial è stato utile, ti sarei molto grato se lasciassi un pollice 
 
 Ti consiglio anche quest'altro tutorial in cui spiego come configurare l'Hardware Walle COLDCARD Q con Sparrow:
 
-https://planb.network/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
+https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3

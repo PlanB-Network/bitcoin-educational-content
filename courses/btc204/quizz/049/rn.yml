@@ -1,0 +1,10 @@
+question: Ni kuki umukozi wa XOR akoreshwa muri BIP47?
+answer: Kugira ngo ushire mu buryo bubereye umuzigo w’inyungu wa kode y’ukwishyura y’uwurungitse.
+wrong_answers:
+  - Kugira ngo ushire mu buryo butaringaniye umuzigo w’amahera y’uwurungitse kode y’ukwishyura.
+  - Kugira ngo ushire mu buryo bubereye amakuru y'imbere y'itegeko ry'ukwishyura ry'uwurungitse.
+  - Kugira ngo ushire mu buryo butaringaniye amakuru y'imbere y'itegeko ry'ukwishyura ry'uwurungitse.
+explanation: |
+  Igikoresho ca XOR gikoreshwa mu gupfuka mu buryo bubereye umuzigo w'uwurungitse muri BIP47.
+  
+reviewed: false

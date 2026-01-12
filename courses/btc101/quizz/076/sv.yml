@@ -1,10 +1,12 @@
-question: Vilken roll har den publika nyckeln i en Bitcoin Wallet?
-answer: Den används för att generate Bitcoin-adresser och därmed ta emot pengar.
+question: Vilken analogi används i den här kursen för att förklara hur du kan ta emot bitcoins utan att avsändaren kan stjäla dina pengar?
+answer: En brevlåda.
 wrong_answers:
-  - Den används för att kryptera Bitcoin-transaktioner.
-  - Den används för att komma åt Bitcoin Wallet.
-  - Den används som backup för Bitcoin Wallet.
+  - Ett bankkonto.
+  - Ett kassaskåp.
+  - Ett hus.
 explanation: |
-  Den publika nyckeln härleds från den privata nyckeln och används
-  till generate Bitcoin-adresser för att ta emot pengar.
+  Analogin som används för att förklara hur du kan ta emot Bitcoins
+  utan att låta avsändaren stjäla dina pengar är en
+  brevlåda. Människor sätter in pengar i den, men du är den enda
+  den som kan öppna den.
 reviewed: true

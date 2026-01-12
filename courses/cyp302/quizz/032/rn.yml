@@ -1,0 +1,9 @@
+question: Ni kubera iki bavuga ko urudodo rw’ibinyoma rudashobora gutandukanywa n’urudodo rw’ibinyoma vy’ukuri?
+answer: Kubera ko hafi bidashoboka kumenya inkomoko yayo ata makuru y’inyongera .
+wrong_answers:
+  - Kubera ko irimwo ibice vy’ibintu bishobora guhinduka bisa n’urudodo rw’ibintu vy’ukuri .
+  - Kubera ko ikoresha imibare ireremba mu kwubaka kwayo .
+  - Kubera ko biva ku bintu bibaho gusa .
+explanation: |
+  Urudodo rw’ibinyoma rwakozwe kugira ngo rusa cane n’urudodo rw’ukuri rw’ibinyoma, bigatuma itandukaniro ridashoboka ata n’umwe ashobora gushika kuri seed canke ubuhinga bukoreshwa.
+reviewed: false

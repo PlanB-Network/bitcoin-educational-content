@@ -1,0 +1,9 @@
+question: Vad behöver en Wallet göra för att se statusen för Blockchain?
+answer: Anslut till en lokal eller fjärran nod
+wrong_answers:
+  - Fråga andra plånböcker i nätverket
+  - Intervjuer med nätverksgruvarbetare
+  - Anslut till en Exchange-plattform online
+explanation: |
+  En Wallet måste ansluta till en nod för att få tillgång till Blockchain-status och sända sina transaktioner.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Co je to scholastická filozofie?
+answer: Křesťanská filozofie středověku.
+wrong_answers:
+  - Politické hnutí.
+  - Anarchistická filozofie.
+  - Racionální filozofie.
+explanation: |
+  Scholastická filozofie byla křesťanská filozofie středověku, která dominovala na evropských univerzitách. Snažila se sladit křesťanskou víru s aristotelskou filozofií.
+reviewed: false

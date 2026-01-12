@@ -1,11 +1,12 @@
-question: Koji je datum poslednje poznate privatne poruke Satoshi-ja Nakamoto-a putem e-pošte?
-answer: 23. april 2011.god.
+question: Koji je značaj geografske distribucije Bitkoin čvorova?
+answer: To praktično onemogućava uništavanje svih kopija Blockchain-a.
 wrong_answers:
-  - 12. decembar 2010.god.
-  - 8. januar 2009.god.
-  - 31. oktobar 2008.god.
+  - Određuje cenu Bitkoina u različitim regionima.
+  - To utiče na brzinu Bitkoin transakcija.
+  - Određuje broj bitkoina koji se mogu iskopati u nekom regionu.
 explanation: |
-  Datum poslednje poznate privatne poruke Satoshi-ja
-  Nakamoto-a putem email-a je 23. april 2011. Poslata je
-  razvojnom programeru Majku Hirnu.
+  Geografska distribucija Bitkoin čvorova čini
+  praktično nemogućim uništavanje svih kopija
+  Blockchain-a. Pošto su čvorovi rasprostranjeni, teško ih je
+  fizički sve zapleniti.
 reviewed: true

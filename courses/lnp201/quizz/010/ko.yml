@@ -1,0 +1,9 @@
+question: 두 참가자 간에 라이트닝 채널을 개설하는 첫 번째 단계는 무엇인가요?
+answer: 금액과 공개키가 포함된 Exchange 메시지
+wrong_answers:
+  - Blockchain에 즉시 입금 거래를 게시합니다
+  - 이전 Exchange 없이 2/2 다중 서명 Address 만들기
+  - 공개 키의 Exchange 이전에 출금 거래에 서명합니다
+explanation: |
+  채널 개설은 두 당사자가 커밋하려는 금액과 공개 키를 공유하는 Exchange의 메시지로 시작됩니다.
+reviewed: true

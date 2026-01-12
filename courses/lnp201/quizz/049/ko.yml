@@ -1,0 +1,9 @@
+question: 라이트닝 Invoice의 주요 기능은 무엇인가요?
+answer: 송금 노드에 결제 요청
+wrong_answers:
+  - On-Chain 거래 없이 송금하기
+  - 채널에서 HTLC 활성화
+  - 새 Lightning 채널 열기
+explanation: |
+  라이트닝 Invoice은 수신 노드가 송신 노드에 전송하여 Lightning Network에서 결제를 시작하는 결제 요청입니다.
+reviewed: true

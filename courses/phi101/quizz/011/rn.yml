@@ -1,0 +1,9 @@
+question: Ni igiki Lord Acton avuga ku bijanye n’amateka?
+answer: Intambara iri hagati y’umwidegemvyo n’ububasha ni yo ituma haba iterambere n’iterambere ry’imibano.
+wrong_answers:
+  - Amaterambere ni umurongo kandi ntashobora gukurwaho, akajana mu kibano c’umwidegemvyo n’uburinganire.
+  - Amateka ni uruziga rw’ugusubiramwo n’ibihe vy’umwidegemvyo bikurikirwa n’ibihe vy’ububisha.
+  - Ibintu vy’ubutunzi ni vyo nyamukuru bigena ingene amateka agenda.
+explanation: |
+  Lord Acton avuga ko amateka agaragazwa canecane n’indyane ziri hagati y’umwidegemvyo n’ububasha, abona ko iyo ntambara ari ngirakamaro kugira ngo imibano itere imbere kandi itere imbere kugira ngo umuntu agire umwidegemvyo mwinshi.
+reviewed: true

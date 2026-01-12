@@ -1,0 +1,9 @@
+question: Mitä Voltaire tarkoittaa "pahamaineisella"?
+answer: Taikausko.
+wrong_answers:
+  - Uskonto.
+  - Rahaa.
+  - Vanha järjestelmä.
+explanation: |
+  Voltairelle "l'infâme" tarkoitti taikauskoa, erityisesti uskonnollista taikauskoa. Hänen kuuluisa huutonsa "Écrasez l'infâme!" oli suunnattu kaikenlaista obskurantismia ja uskonnollista fanatismia vastaan.
+reviewed: false

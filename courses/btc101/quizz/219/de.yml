@@ -1,9 +1,9 @@
-question: Was legt dieser Kurs über die Zukunft von Bitcoin nahe?
-answer: Es wird nicht verschwinden.
+question: Welcher Ansatz strukturiert die in diesem Kapitel beschriebene Entwicklung von Bitcoin?
+answer: Entwicklung in Schichten
 wrong_answers:
-  - Es wird durch eine bessere Technologie ersetzt werden.
-  - Es wird weltweit verboten werden.
-  - Es wird seinen Wert verlieren.
+  - Monolithische Blockchain
+  - Natives Sharding
+  - Verallgemeinerte Onchain-Ausführung
 explanation: |
-  Der Kurstext legt nahe, dass Bitcoin nicht verschwinden wird. Im Gegenteil, die Revolution hat gerade erst begonnen.
-reviewed: true
+  Bitcoin behält eine einfache und robuste Basisschicht bei, während übergeordnete Protokolle spezifische Funktionen hinzufügen.
+reviewed: false

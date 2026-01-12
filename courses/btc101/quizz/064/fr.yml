@@ -1,9 +1,11 @@
-question: Quelle est la commande pour vérifier la quantité de bitcoins en circulation sur un nœud Bitcoin ?
-answer: bitcoin-cli gettxoutsetinfo.
+question: En quelle année aura lieu le 7ème halving ?
+answer: 2036
 wrong_answers:
-  - bitcoin-cli getblockchaininfo.
-  - bitcoin-cli getwalletinfo.
-  - bitcoin-cli getnetworkinfo.
+  - 2032
+  - 2028
+  - 2048
 explanation: |
-  La commande pour vérifier la quantité de bitcoins en circulation sur un nœud Bitcoin est bitcoin-cli gettxoutsetinfo. Cette commande offre transparence et vérifiabilité, renforçant ainsi la confiance dans le système Bitcoin.
+  Le 7ème halving devrait avoir lieu en 2036, et le nombre estimé
+  de bitcoins en circulation sera de 20,835,937.5,
+  ce qui correspondra approximativement à 99.22% de l'offre totale.
 reviewed: true

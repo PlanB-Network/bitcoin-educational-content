@@ -1,0 +1,12 @@
+question: Ni gute inflation igira ico ikoze ku bushobozi bwo kugura bw’abaronka umushahara uko igihe kigenda kirarenga?
+answer: Inflation irasenyura ubushobozi bwo kugura kuko umushahara akenshi usigaye inyuma y’igipimo nyaco c’inflation.
+wrong_answers:
+  - Inflation yongera ubushobozi bwo kugura uko umushahara wihuta kurusha ibiciro.
+  - Inflation ntaco ihindura ku bushobozi bwo kugura.
+  - Inflation igira ingaruka gusa ku bushobozi bwo kugura bw’abashiramwo amahera mu masoko y’ivy’ubutunzi.
+explanation: |
+  Inflation ituma ibiciro vy’ibintu biguma vyiyongera, bikaba bituma ugugura 
+  ububasha bw’abaronka umushahara kuko umushahara wabo mu bisanzwe usigaye inyuma y’igipimo nyaco c’ugutera imbere kw’ibiciro.
+  Ivyo bituma abaronka umushahara bagorwa no gushika ku ntego zabo zo kuzigama mu kiringo kirekire .
+  kandi bakaguma bafise urugero rw’ubuzima.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 什么是密码朋克宣言？
+answer: 一篇由Eric Hughes撰写的文本，宣称隐私是一项基本权利。
+wrong_answers:
+  - 一本由Julian Assange关于技术未来的书。
+  - 一份概述比特币原则的文件。
+  - 一份由David Chaum撰写关于数字货币重要性的宣言。
+explanation: |
+  密码朋克宣言由Eric Hughes在1993年撰写，宣称隐私是一项基本权利。
+reviewed: true

@@ -5,9 +5,7 @@ wrong_answers:
   - Bu hizmetler bazen kullanıcı verilerini kaybeder ve başka bir bulut sağlayıcısına aktarmak zor olabilir.
   - Bu hizmetler genellikle yeterli depolama alanı sağlamaz ve düşük bağlantı hızından muzdariptir.
 explanation: |
-  Bulut yedekleme hizmetleri aşağıdakiler için uygun bir yol sağlarken
-  verilerinizi yedeklemek, aynı zamanda verilerinizin
-  potansiyel olarak internette bulunan ve güvenilir bir üçüncü şahıs tarafından tutulan
-  parti. Bu, verilerinizi potansiyel olarak aşağıdakilere maruz bırakabilir
-  ek riskler.
-reviewed: true
+  Bulut yedekleme hizmetleri verilerinizi yedeklemek için uygun bir yol sağlarken, 
+  aynı zamanda verilerinizin potansiyel olarak internette bulunduğu ve güvenilmesi gereken bir üçüncü tarafından tutulması anlamına gelir.
+  Bu, verilerinizi ek risklere maruz bırakabilir.
+  reviewed: true

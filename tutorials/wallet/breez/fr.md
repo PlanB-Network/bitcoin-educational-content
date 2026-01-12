@@ -40,7 +40,7 @@ Activez ensuite l'option **Chiffer la sauvegarde**: cette option vous dévoilera
 ![sécurité](assets/fr/06.webp)
 Suivez ensuite les instructions pour confirmer votre sauvegarde et connectez votre compte de sauvegarde distante au portefeuille Breez.
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ⚠️ **IMPORTANT** : Pour rajouter une couche de sécurité à votre portefeuille Breez, vous pouvez définir un Code PIN et le paramétrer pour authentifier que l'accès à ce portefeuille est autorisé.
 

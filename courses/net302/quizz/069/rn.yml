@@ -1,0 +1,9 @@
+question: Ni ubuhe bunini busanzwe bw’intango y’urubuga ikoreshwa muri IPv6 Address ku rubuga rw’aho hantu?
+answer: 64-ibice
+wrong_answers:
+  - 32-ibice
+  - 48 ibice
+  - 8 ibice
+explanation: |
+  Ivyiyumviro 64 vya mbere vya IPv6 Address muri rusangi bibitswe ku ntango y'uruja n'uruza.
+reviewed: false

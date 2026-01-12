@@ -1,0 +1,9 @@
+question: Dushingiye ku guhuza hagati y’ugutanga n’ugusenyura ubutegetsi kwavuzwe na Gregory Maxwell, bigenda gute iyo ikoreshwa ry’ubutunzi bwa Bitcoin blockchain rihindutse rinini cane ugereranije n’ubuhinga buriho?
+answer: Bitcoin iratakaza inyungu zo guhiganwa ugereranyije n’uburyo bwa kera kubera ko kwemeza bica bizimvye cane, bikaba bituma abakoresha benshi bacika igiciro kandi bikaba bituma ukwizigira gusubira muri ubwo buryo .
+wrong_answers:
+  - Bitcoin irarushiriza gutekana kubera ko abakoresha bitanga cane bafise ibikoresho bikomeye ari bo bonyene bashobora kugira uruhara mu kwemeza, bikaba bituma habaho urubuga rukomeye .
+  - Bitcoin ihita ihindura ubuhinga bwayo bwo kugora kugira ngo igabanye ibisabwa no kuguma ifise urugero rumwe rwo kwegereza ubutegetsi abaje mu nama bose .
+  - Bitcoin igabanywamwo iminyororo myinshi ihuye kugira ngo igabanye umuzigo w'ibarabara mu gihe iguma ifise umutekano umwe ku bakoresha bose .
+explanation: |
+  Maxwell yerekanye ubucuruzi bw’ishimikiro aho ibisabwa vy’ubutunzi birenze urugero bisunikira abakoresha ku bandi bantu bizigira aho kwemeza bigenga. Iyo ibiciro vy’ukwemeza bihindutse ibibujijwe, abakoresha ntibashobora gukoresha amanode yuzuye kandi bategerezwa kwizigira abandi, bikaba bihungabanya kamere ya Bitcoin y’ukutagira icizigiro. Inyishu zitari zo zivuga nabi ingaruka nziza (umutekano wongerekanye, guhindura ibintu vyihuta, canke gukomeza gutanga ingwati) igihe gukoresha ubutunzi bwinshi mu vy’ukuri bihatira ugushira hamwe n’ukwizigirana.
+reviewed: false

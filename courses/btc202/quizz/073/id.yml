@@ -1,0 +1,9 @@
+question: Apa fungsi dari parameter yang diasumsikan valid dalam Bitcoin core?
+answer: Abaikan verifikasi skrip sebelum blok referensi
+wrong_answers:
+  - Abaikan verifikasi Proof-of-Work sebelum blok referensi
+  - Abaikan verifikasi header sebelum blok referensi
+  - Paksa Tor untuk penemuan teman sebaya
+explanation: |
+  Assumevalid mempercepat IBD dengan mengabaikan verifikasi skrip sebelum blok yang diketahui, sambil mempertahankan semua validasi lainnya.
+reviewed: true

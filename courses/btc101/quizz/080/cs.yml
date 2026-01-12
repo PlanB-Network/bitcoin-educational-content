@@ -1,13 +1,13 @@
-question: Jaká je pravděpodobnost, že někdo náhodně uhodne váš seznam 12 nebo 24 slov v Bitcoinové peněžence?
-answer: Astronomicky nízká.
+question: Co je multisig peněženka?
+answer: Sada peněženek, která vyžaduje více podpisů pro provedení transakce.
 wrong_answers:
-  - Vysoká.
-  - Střední.
-  - Silná.
+  - Peněženka, která vyžaduje jediný podpis pro provedení transakce.
+  - Peněženka, která nevyžaduje žádné podpisy pro provedení transakce.
+  - Peněženka, která vyžaduje fyzický podpis pro provedení transakce.
 explanation: |
-  Díky kryptografii použité při vytváření peněženky je
-  pravděpodobnost, že někdo náhodně uhodne váš seznam
-  12 nebo 24 slov, astronomicky nízká. Je to jako najít
-  správné číslo mezi 1 a $2^256$, což je téměř
-  ekvivalentní s nalezením určitého atomu ve vesmíru.
+  Multisig peněženka je typ Bitcoinové peněženky, která vyžaduje
+  více podpisů pro provedení transakce. To přidává
+  další vrstvu zabezpečení, protože to znamená, že jedna osoba
+  nemůže provést transakci bez schválení
+  ostatních.
 reviewed: true

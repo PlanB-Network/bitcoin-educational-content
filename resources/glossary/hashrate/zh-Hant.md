@@ -8,4 +8,4 @@ term: Hashrate
 Hashrate 也顯示礦工之間的競爭情況：Hashrate 越高，Mining 的難度就越大，這會影響獎金的分配，進而影響礦工的獲利能力。因此，它是 Bitcoin 系統健康與安全的關鍵指標。正如 Hashrate 用來衡量 Bitcoin 網路的整體運算能力，它也可以用來衡量一台機器、一個 Mining 礦場或一個 Mining pool 的運算能力。
 
 
-> ► *在法語中，它被稱為「taux de hachage」，雖然「Hashrate」一詞在日常用語中被廣泛使用。
+> ► *在法語中，它被稱為「taux de hachage」，雖然「Hashrate」一詞在日常用語中被廣泛使用。*

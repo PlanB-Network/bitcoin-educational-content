@@ -1,10 +1,9 @@
-question: Apa itu pembelian spontan?
-answer: Membeli Bitcoin segera untuk mendapatkan eksposur.
+question: Apa salah satu risiko potensial dari menyimpan Bitcoin Anda di platform pertukaran?
+answer: Risiko peretasan dan pemblokiran dana.
 wrong_answers:
-  - Membeli Bitcoin pada interval reguler.
-  - Membeli Bitcoin hanya ketika harga turun.
-  - Membeli Bitcoin hanya ketika harga naik.
+  - Risiko platform meningkatkan harga Bitcoin.
+  - Risiko platform mengendalikan pasokan Bitcoin.
+  - Risiko platform mencegah Anda membeli lebih banyak Bitcoin.
 explanation: >-
-  Teks menjelaskan bahwa pembelian spontan digunakan untuk segera
-  mendapatkan eksposur terhadap Bitcoin. Ini bisa berarti membeli saat terjadi crash atau memanfaatkan bonus.
-reviewed: false
+  Teks tersebut menyebutkan bahwa menyimpan Bitcoin Anda di platform pertukaran dapat
+  memaparkan Anda pada risiko peretasan dan pemblokiran dana.

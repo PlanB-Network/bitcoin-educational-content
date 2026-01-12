@@ -8,7 +8,7 @@ description: Kompletní průvodce LNP2PBot a P2P obchodování s bitcoiny
 
 Pro zachování důvěrnosti a finanční nezávislosti uživatelů jsou zásadní výměnné burzy P2P (peer-to-peer) bez nutnosti KYC. Umožňují přímé transakce mezi jednotlivci bez nutnosti ověřování totožnosti, což je zásadní pro ty, kteří si cení soukromí. Chcete-li teoretickým konceptům porozumět hlouběji, podívejte se na kurz BTC204:
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 Nákup a prodej bitcoinů peer-to-peer (P2P) je jedním z nejprivátnějších způsobů získávání bitcoinů nebo nakládání s nimi. LNP2PBot je open source bot pro Telegram, který usnadňuje P2P výměny v síti Lightning a umožňuje rychlé, levné transakce bez KYC.
 
@@ -43,7 +43,7 @@ Začněte instalací kompatibilní peněženky Lightning. Zde jsou naše podrobn
 **Doporučená portfolia**
 
 
-- [Breez](https://breez.technology)**:
+- [Breez](https://breez.technology):
   - Vynikající pro začátečníky
   - Intuitivní a moderní rozhraní
   - Bez svěřenectví (zachováte si kontrolu nad svými prostředky)
@@ -52,9 +52,9 @@ Začněte instalací kompatibilní peněženky Lightning. Zde jsou naše podrobn
 
 Níže naleznete odkaz na výukový program pro tuto peněženku:
 
-https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
+https://planb.academy/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4e0263c06
 
-- [Phoenix](https://phoenix.acinq.co)** :
+- [Phoenix](https://phoenix.acinq.co) :
   - Jednoduché a spolehlivé
   - Automatická konfigurace kanálů
   - Nativní podpora faktur BOLT11
@@ -63,9 +63,9 @@ https://planb.network/tutorials/wallet/mobile/breez-46a6867b-c74b-45e7-869c-10a4
 
 Níže naleznete odkaz na výukový program pro tuto peněženku:
 
-https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
+https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4ae800129cdf
 
-- [Blixt](https://blixtwallet.github.io)** :
+- [Blixt](https://blixtwallet.github.io) :
   - Techničtější, ale velmi kompletní
   - Rozšířené možnosti konfigurace
   - Ideální pro zkušené uživatele
@@ -74,16 +74,16 @@ https://planb.network/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 Níže naleznete odkaz na výukový program pro tuto peněženku:
 
-https://planb.network/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
+https://planb.academy/tutorials/wallet/mobile/blixt-04b319cf-8cbe-4027-b26f-840571f2244f
 
 **Důležité poznámky k ostatním portfoliím**
 
 ⚠️ **Důležité**: Před prodejem satelitů se ujistěte, že vaše portfolio podporuje faktury "hold", které bot používá jako systém úschovy.
 
 
-- Peněženka Satoshi**: Funguje dobře pro příjem sats, ale může mít zpoždění při aktualizaci zůstatku, pokud je prodej zrušen.
-- Muun**: Nedoporučuje se, protože platby mohou selhat kvůli limitům poplatků za směrování botů (maximálně 0,2 %).
-- Aqua**: V případě zrušení prodeje může dojít k dlouhému zpoždění (až 48 hodin) aktualizace zůstatku.
+- **Peněženka Satoshi**: Funguje dobře pro příjem sats, ale může mít zpoždění při aktualizaci zůstatku, pokud je prodej zrušen.
+- **Muun**: Nedoporučuje se, protože platby mohou selhat kvůli limitům poplatků za směrování botů (maximálně 0,2 %).
+- **Aqua**: V případě zrušení prodeje může dojít k dlouhému zpoždění (až 48 hodin) aktualizace zůstatku.
 
 💡 **Tip**: Pro optimální zážitek si vyberte doporučená portfolia (Breez, Phoenix nebo Blixt).
 
@@ -153,7 +153,7 @@ Po odeslání faktury vás bot spojí s prodejcem.
 
 Kliknutím na přezdívku prodávajícího otevřete soukromý chatovací kanál, kde si můžete vyměnit údaje o platbě fiat.
 
-**5. Potvrzení o platbě
+**5. Potvrzení o platbě**
 
 ![Confirmation du paiement](assets/fr/05.webp)
 
@@ -246,17 +246,17 @@ Lnp2pbot má několik výhod a nevýhod oproti jiným P2P výměnným řešením
 ### Výhody Lnp2pbot
 
 
-- KYC není vyžadováno** : Na rozdíl od některých platforem Lnp2pbot nevyžaduje ověření totožnosti, čímž zachovává důvěrnost uživatelů.
-- Rychlé transakce**: Díky síti Lightning jsou transakce téměř okamžité.
-- Nízké poplatky** : Transakční náklady jsou nižší než u tradičních burz.
-- Mobilní dostupnost**: LNP2PBot je dostupný přes Telegram, což usnadňuje jeho používání na mobilních zařízeních.
-- Snadné použití** : Intuitivní rozhraní Lnp2pbot usnadňuje používání i méně zkušeným uživatelům.
+- **KYC není vyžadováno**: Na rozdíl od některých platforem Lnp2pbot nevyžaduje ověření totožnosti, čímž zachovává důvěrnost uživatelů.
+- **Rychlé transakce**: Díky síti Lightning jsou transakce téměř okamžité.
+- **Nízké poplatky**: Transakční náklady jsou nižší než u tradičních burz.
+- **Mobilní dostupnost**: LNP2PBot je dostupný přes Telegram, což usnadňuje jeho používání na mobilních zařízeních.
+- **Snadné použití**: Intuitivní rozhraní Lnp2pbot usnadňuje používání i méně zkušeným uživatelům.
 
 ### Nevýhody Lnp2pbot
 
 
-- Závislost na Telegramu**: Používání Lnp2pbot vyžaduje účet Telegram, což nemusí být vhodné pro všechny uživatele.
-- Menší likvidita**: V porovnání se zavedenými platformami, jako je Bisq, může být likvidita omezenější.
+- **Závislost na Telegramu**: Používání Lnp2pbot vyžaduje účet Telegram, což nemusí být vhodné pro všechny uživatele.
+- **Menší likvidita**: V porovnání se zavedenými platformami, jako je Bisq, může být likvidita omezenější.
 
 Oproti tomu řešení, jako je Bisq, nabízejí vyšší likviditu a rozhraní pro stolní počítače, ale mohou zahrnovat vyšší poplatky a delší dobu transakce. HodlHodl a Robosat mezitím také nabízejí obchodování bez KYC, ale s odlišnou strukturou poplatků a rozhraním.
 

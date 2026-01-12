@@ -1,0 +1,9 @@
+question: ¿Cuáles son las tres principales ventajas de actualizar periódicamente el sistema operativo y las aplicaciones?
+answer: Seguridad, fiabilidad y funcionalidad
+wrong_answers:
+  - Rapidez, anonimato, compatibilidad
+  - Seguridad, memoria, almacenamiento
+  - Confidencialidad, funcionalidad, fiabilidad
+explanation: |
+  Las actualizaciones garantizan la seguridad frente a vulnerabilidades, la compatibilidad con evoluciones y nuevas funciones, y la fiabilidad del sistema.
+reviewed: true

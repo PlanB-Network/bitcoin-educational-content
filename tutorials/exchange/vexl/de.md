@@ -19,7 +19,7 @@ Vexl ist ein soziales Peer-to-Peer-Netzwerk, das Bitcoin-Käufer und -Verkäufer
 
 
 
-Die ersten Schritte mit Vexl sind ziemlich einfach: Besuchen Sie die [offizielle Website] (https://vexl.it) und laden Sie dann die mobile App auf Ihr iOS- oder Android-Telefon herunter.
+Die ersten Schritte mit Vexl sind ziemlich einfach: Besuchen Sie die [offizielle Website](https://vexl.it) und laden Sie dann die mobile App auf Ihr iOS- oder Android-Telefon herunter.
 
 
 
@@ -188,4 +188,4 @@ Jetzt können Sie anfangen, Bitcoins anonym und sicher mit Vexl zu tauschen. Um 
 
 
 
-https://planb.network/courses/65c138b0-4161-4958-bbe3-c12916bc959c
+https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c

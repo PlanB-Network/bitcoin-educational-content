@@ -1,12 +1,12 @@
-question: Vilka ekonomiska principer ansluter sig Bitcoin till?
-answer: Principer för österrikisk ekonomi.
+question: Vilka är de tre huvudfunktionerna för en Bitcoin Wallet?
+answer: Ta emot bitcoins, skicka bitcoins, säkra dem mot hacking och stöldförsök.
 wrong_answers:
-  - Principer för keynesiansk ekonomi.
-  - Principer för marxistisk ekonomi.
-  - Principer för neoklassisk ekonomi.
+  - Lagra bitcoins, skicka bitcoins, säkra dem mot hackning och stöldförsök.
+  - Tillåt mottagande av bitcoins, lagra bitcoins, säkra dem mot hacking och stöldförsök.
+  - Tillåt mottagande av bitcoins, tillåt sändning av bitcoins, försäljning av bitcoins.
 explanation: |
-  Bitcoin är i linje med principerna för österrikisk ekonomi.
-  Dess begränsade kvantitet och avsaknad av en central enhet skyddar den
-  från de inneboende riskerna för inflation som ses i traditionella
-  traditionella valutor.
+  En Bitcoin Wallet används för att interagera med Bitcoin
+  nätverket. Dess tre huvudfunktioner är att tillåta mottagning
+  bitcoins, tillåta sändning av bitcoins och säkra dem mot
+  hacknings- och stöldförsök.
 reviewed: true

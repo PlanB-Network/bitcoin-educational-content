@@ -1,0 +1,12 @@
+question: Ni uruhara uruhe abacukuzi bafise mu masezerano ya Bitcoin?
+answer: Bacungera uruja n’uruza rw’ubu n’urw’amateka.
+wrong_answers:
+  - Ni bo batunganya igiciro ca Bitcoin.
+  - Ni bo bagenzura Supply ya Bitcoin.
+  - Bacungera amafaranga hagati y’abakoresha.
+explanation: |
+  Abacukuzi bo mu masezerano ya Bitcoin baracungera ubu be n’ubu
+  urusobe rw’amateka. Ntibatunganya igiciro c’
+  Bitcoin, igenzura Supply yayo, canke ngo igenzure amafaranga
+  hagati y’abakoresha.
+reviewed: true

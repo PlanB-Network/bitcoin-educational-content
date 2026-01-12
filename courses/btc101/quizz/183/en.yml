@@ -1,10 +1,11 @@
-question: What is one reason why the price of Bitcoin can drop by 10%, 20%, or even 50% in just a few days?
-answer: Bullish and bearish market phases.
+question: What is the AMF?
+answer: Autorité des Marchés Financiers.
 wrong_answers:
-  - The number of people using the internet.
-  - The weather.
-  - The price of gold.
-explanation: >-
-  The price of Bitcoin is often characterized by significant volatility,
-  which can be influenced by market variations and bullish and bearish market phases.
+  - American Monetary Fund.
+  - Association of Mining Facilities.
+  - Automated Money Flow.
+explanation: |
+  The AMF, or Autorité des Marchés Financiers, is a French
+  organization that regulates platforms where bitcoins can be
+  bought.
 reviewed: true

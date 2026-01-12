@@ -1,0 +1,9 @@
+question: Who was Immanuel Kant?
+answer: A German philosopher of the Enlightenment.
+wrong_answers:
+  - An English philosopher and disciple of Newton
+  - A 17th-century philosopher.
+  - A Christian philosopher.
+explanation: |
+  Immanuel Kant (1724-1804) was a German philosopher of the Enlightenment. He developed a critical philosophy that profoundly influenced modern thought, notably with his 'Critique of Pure Reason'.
+reviewed: false

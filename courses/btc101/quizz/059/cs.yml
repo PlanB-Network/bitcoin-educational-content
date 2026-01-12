@@ -1,9 +1,9 @@
-question: Která z následujících vlastností není charakteristická pro Bitcoin?
-answer: Je snadno cenzurovatelný.
+question: V kterém roce se předpokládá, že dojde k ukončení tvoření bitcoinů?
+answer: 2140
 wrong_answers:
-  - Je okamžitě přenosný.
-  - Má zanedbatelné náklady na ověření.
-  - Má pevnou měnovou politiku.
+  - 2050
+  - 2030
+  - 2200
 explanation: |
-  Bitcoin má všechny nezbytné vlastnosti, aby byl efektivní a zdravou měnou: dělitelný, okamžitě přenosný, necenzurovatelný, s zanedbatelnými náklady na ověření a s měnovou politikou, která je již nastavena na stovky let dopředu s 21 miliony jednotek.
+  Díky mechanismu halvingu lze matematicky předpovědět, že tvoření bitcoinů skončí v roce 2140, kdy celkový počet bitcoinů dosáhne svého limitu 21 milionů.
 reviewed: true

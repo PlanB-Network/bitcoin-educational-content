@@ -1,0 +1,12 @@
+question: Ni igitigiri kingana iki c’ibice vya Bitcoin bishobora kubaho?
+answer: 21 miliyoni.
+wrong_answers:
+  - 3 ibihumbi amajana.
+  - miliyoni 100.
+  - Nta n’aho bigarukira.
+explanation: |
+  Igitigiri cose ca Supply ca Bitcoin gishobora gushika ku miriyoni 21.
+  Ico ni ikintu nyamukuru kiranga Bitcoin kiyitandukanya .
+  bivuye mu mafaranga y’ivy’ubutunzi, ashobora gucapwa mu 2012.
+  ivyinshi bitagira aho bigarukira n’amabanki akomeye.
+reviewed: true

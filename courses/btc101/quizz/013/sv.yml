@@ -1,10 +1,12 @@
-question: Vad är Cypherpunk-manifestet?
-answer: En text skriven av Eric Hughes där han hävdar att privatlivet är en grundläggande rättighet.
+question: Vilka är de viktigaste kännetecknen för en effektiv valuta?
+answer: Fungibel, delbar, Liquid.
 wrong_answers:
-  - En bok skriven av Julian Assange om teknikens framtid.
-  - Ett dokument som beskriver principerna för Bitcoin.
-  - Ett manifest skrivet av David Chaum om vikten av digital valuta.
+  - Fungibel, delbar, förgänglig.
+  - Fungibel, Indivisibel, Liquid.
+  - Ej avyttringsbar, delbar, Liquid.
 explanation: |
-  Cypherpunk-manifestet skrevs av Eric Hughes 1993
-  och hävdar att integritet är en grundläggande rättighet.
+  En effektiv valuta måste vara fungibel (utbytbar
+  utan värdeförlust), delbar (separerbar i små delar för att
+  delar för att underlätta transaktioner av olika volymer) och
+  Liquid (lätt konvertibel till varor eller tjänster).
 reviewed: true

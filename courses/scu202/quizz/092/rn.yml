@@ -1,0 +1,9 @@
+question: Ni igikoresho ikihe gikora nk’urubibe/imbago hagati ya Interineti n’umuhora wawe w’ibanga wo muhira?
+answer: Modem-router
+wrong_answers:
+  - Switch ya Ethernet
+  - Seriveri ya NAS
+  - USB hub
+explanation: |
+  Router ya modem ihuza umuhora wa ISP n’umuhora wawe wo mu karere kandi igacungera ugutanga ama aderesi IP yo mu karere.
+reviewed: true

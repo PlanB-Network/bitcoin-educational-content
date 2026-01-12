@@ -1,0 +1,9 @@
+question: Ni uburyo ubuhe bukoreshwa n’amashirahamwe yo kuri Internet yo gushaka abagenzi (P2P) kugira ngo agabanye ingorane zo kwiba?
+answer: Uburyo bwo gushiramwo ibintu.
+wrong_answers:
+  - Igikoresho co guhuza gitekanye.
+  - Uburyo bwo kugenzura imeyili.
+  - Uburyo bwo kugenzura akaranga.
+explanation: |
+  Izo nzira zikoresha uburyo bwo kwikingira aho ama bitcoins afatwa gushika uwugurisha yemeje ko yishuye mu mafaranga ya fiat. Ubwo buryo bwo gufata ibintu n’uwundi muntu bugereranya ico bita escrow.
+reviewed: false

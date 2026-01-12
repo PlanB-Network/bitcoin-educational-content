@@ -1,11 +1,10 @@
-question: Bagaimana Bitcoin dapat membantu transisi ekologis?
-answer: Mendorong penggunaan energi hijau
+question: Apa salah satu cara untuk meredakan volatilitas Bitcoin?
+answer: Lindung nilai keuangan (stablecoin)
 wrong_answers:
-  - Mengurangi produksi barang
-  - Mengatur konsumsi sumber daya
-  - Membatasi emisi gas rumah kaca
+  - Menanamkan semua uang Anda di Bitcoin.
+  - Mengabaikan tren pasar.
+  - Membeli lebih banyak Bitcoin ketika harga turun.
 explanation: >-
-  Bitcoin mendorong penggunaan energi hijau, yang dapat membantu
-  dalam transisi ekologis. Sebagai contoh, api di sumur minyak, yang membakar
-  metana untuk mencegah polusi, dapat dipadamkan oleh penambang Bitcoin.
-reviewed: false
+  Volatilitas Bitcoin dapat diredakan dengan beberapa solusi seperti
+  lindung nilai keuangan (stablecoin), keyakinan jangka panjang yang kuat (hodling), atau
+  sederhananya tidak menaruh 100% uang seseorang ke dalam Bitcoin tanpa memahami apapun.

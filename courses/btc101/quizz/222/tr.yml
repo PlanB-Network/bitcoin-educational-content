@@ -1,8 +1,9 @@
-question: Bitcoin'ın ölçeklenebilirlik sorunu nedir?
-answer: Benimsendikçe saniye başına sürekli artan sayıda işlem sağlayabilen bir para sisteminin uygulanmasındaki zorluk.
+question: RGB’nin merkezi ilkesi nedir?
+answer: İstemci tarafı doğrulama
 wrong_answers:
-  - Zaman içinde değeri artan Mining yeni Bitcoin'lerin zorluğu.
-  - Bitcoin'nin fiyatının her Halving'ten sonra artacak olan oynaklığı.
-  - İşlemleri yasadışı hale getirecek Bitcoin için düzenleme eksikliği.
-explanation: >-
-reviewed: true
+  - Blokzincir üzerinde küresel yürütme
+  - Federatif uzlaşma
+  - Proof-of-Work
+explanation: |
+  RGB, durumların yerel doğrulanmasına dayanır; blokzincir yalnızca kriptografik bir çapa ve çift harcamaya karşı koruma olarak hizmet eder.
+reviewed: false

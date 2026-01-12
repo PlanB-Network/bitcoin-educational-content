@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe abajejwe ivyemezo bafise mu bijanye no gutanga urufunguzo rwa bose?
+answer: Batanga ivyemezo vyemeza ko imfunguruzo za bose ari iz'ukuri .
+wrong_answers:
+  - Bo generate imfunguruzo z'ibanga z'abakoresha
+  - Babika imfunguruzo za bose ku bakoresha bose
+  - Bazi neza ko ubutumwa bushirwa mu nzira hagati y'abakoresha
+explanation: |
+  Abajejwe ivyemezo baratanga ivyemezo bihuza urufunguzo rwa bose na nyen’urwo rufunguzo, ivyo bikaba bituma abarukoresha bashobora kugenzura ukuri kw’urufunguzo rwa bose bakoresha.
+reviewed: false

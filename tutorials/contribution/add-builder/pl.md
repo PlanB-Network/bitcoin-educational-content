@@ -1,6 +1,6 @@
 ---
 name: Dodawanie konstruktora
-description: Jak zaproponować dodanie nowego konstruktora do PlanB Network?
+description: Jak zaproponować dodanie nowego konstruktora do Plan ₿ Academy?
 ---
 ![project](assets/cover.webp)
 
@@ -8,7 +8,7 @@ description: Jak zaproponować dodanie nowego konstruktora do PlanB Network?
 Misją PlanB jest dostarczanie najwyższej jakości zasobów edukacyjnych na Bitcoin, w jak największej liczbie języków. Wszystkie treści publikowane na stronie są open-source i hostowane na GitHub, co pozwala każdemu uczestniczyć we wzbogacaniu platformy.
 
 
-Czy chcesz dodać nowego "budowniczego" Bitcoin do witryny PlanB Network i zapewnić widoczność swojej firmie lub oprogramowaniu, ale nie wiesz jak? Ten poradnik jest dla Ciebie!
+Czy chcesz dodać nowego "budowniczego" Bitcoin do witryny Plan ₿ Academy i zapewnić widoczność swojej firmie lub oprogramowaniu, ale nie wiesz jak? Ten poradnik jest dla Ciebie!
 
 ![project](assets/01.webp)
 
@@ -16,7 +16,7 @@ Czy chcesz dodać nowego "budowniczego" Bitcoin do witryny PlanB Network i zapew
 - Po pierwsze, musisz mieć konto GitHub. Jeśli nie wiesz, jak utworzyć konto, przygotowaliśmy szczegółowy samouczek, który Cię poprowadzi.
 
 
-https://planb.network/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
+https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
 
 
@@ -30,7 +30,7 @@ https://planb.network/tutorials/contribution/others/create-github-account-a75fc3
 ![project](assets/03.webp)
 
 
-- Jeśli nigdy wcześniej nie współtworzyłeś zawartości PlanB Network, będziesz musiał utworzyć Fork oryginalnego repozytorium. Rozwidlenie repozytorium oznacza utworzenie kopii tego repozytorium na własnym koncie GitHub, co pozwala na pracę nad projektem bez wpływu na oryginalne repozytorium. Kliknij przycisk `Fork tego repozytorium`:
+- Jeśli nigdy wcześniej nie współtworzyłeś zawartości Plan ₿ Academy, będziesz musiał utworzyć Fork oryginalnego repozytorium. Rozwidlenie repozytorium oznacza utworzenie kopii tego repozytorium na własnym koncie GitHub, co pozwala na pracę nad projektem bez wpływu na oryginalne repozytorium. Kliknij przycisk `Fork tego repozytorium`:
 
 ![project](assets/04.webp)
 
@@ -164,7 +164,7 @@ category: education
 ![project](assets/14.webp)
 
 
-- Wybierz Fork z repozytorium PlanB Network:
+- Wybierz Fork z repozytorium Plan ₿ Academy:
 
 ![project](assets/15.webp)
 
@@ -215,7 +215,7 @@ category: education
 ![project](assets/25.webp)
 
 
-- Otworzy się nowa strona. Przeciągnij i upuść obraz swojej firmy lub oprogramowania w tym obszarze. Obraz ten będzie wyświetlany na stronie PlanB Network:
+- Otworzy się nowa strona. Przeciągnij i upuść obraz swojej firmy lub oprogramowania w tym obszarze. Obraz ten będzie wyświetlany na stronie Plan ₿ Academy:
 
 ![project](assets/26.webp)
 
@@ -281,7 +281,7 @@ contributors:
 
 
 
-- Dla klucza `contributors` możesz dodać swój identyfikator kontrybutora do PlanB Network, jeśli go posiadasz. Jeśli nie, pozostaw to pole puste.
+- Dla klucza `contributors` możesz dodać swój identyfikator kontrybutora do Plan ₿ Academy, jeśli go posiadasz. Jeśli nie, pozostaw to pole puste.
 - W przypadku klucza `description` wystarczy dodać krótki akapit opisujący firmę lub oprogramowanie. Opis musi być w tym samym języku, co nazwa pliku. Nie musisz tłumaczyć tego opisu na wszystkie języki obsługiwane na stronie, ponieważ zespoły PlanB zrobią to za pomocą swojego modelu. Na przykład, oto jak może wyglądać plik:
 
 ```yaml
@@ -329,10 +329,10 @@ contributors:
 
 ![project](assets/44.webp)
 
-Gratulacje! Twój PR został pomyślnie utworzony. Administrator sprawdzi go teraz i, jeśli wszystko jest w porządku, zintegruje go z głównym repozytorium PlanB Network. Twój profil powinien pojawić się na stronie kilka dni później.
+Gratulacje! Twój PR został pomyślnie utworzony. Administrator sprawdzi go teraz i, jeśli wszystko jest w porządku, zintegruje go z głównym repozytorium Plan ₿ Academy. Twój profil powinien pojawić się na stronie kilka dni później.
 
 
-Pamiętaj, aby śledzić postępy swojego PR. Administrator może zostawić komentarz z prośbą o dodatkowe informacje. Dopóki twój PR nie zostanie zatwierdzony, możesz zapoznać się z nim w zakładce `Pull requests` w repozytorium PlanB Network GitHub:
+Pamiętaj, aby śledzić postępy swojego PR. Administrator może zostawić komentarz z prośbą o dodatkowe informacje. Dopóki twój PR nie zostanie zatwierdzony, możesz zapoznać się z nim w zakładce `Pull requests` w repozytorium Plan ₿ Academy GitHub:
 
 ![project](assets/45.webp)
 

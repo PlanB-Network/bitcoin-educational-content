@@ -1,0 +1,9 @@
+question: Ni igikoresho ikihe c’ibicapo muri Ubuntu gituma vyoroha gucunga amategeko y’uruhome rw’umuriro(firewall)?
+answer: GUFW
+wrong_answers:
+  - GEdit
+  - Nautilus
+  - Synaptic
+explanation: |
+  GUFW ni Interface y'igicapo y'uruhome rw'umuriro rwa UFW, igufasha gukoresha, guhagarika no gutunganya amategeko udaciye kuri terminal.
+reviewed: true

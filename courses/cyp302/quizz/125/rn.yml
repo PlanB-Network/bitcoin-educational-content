@@ -1,0 +1,9 @@
+question: Ni ingorane iyihe ikomeye abahinga mu vy’amakuru y’ibanga Diffie, Hellman na Merkle barondeye gutorera umuti mu myaka ya 1970?
+answer: Ibibazo vyo gukwiragiza n'ugucungera urufunguruzo
+wrong_answers:
+  - Iterambere ry'ubuhinga bwo gukingira amakuru y'inyuma
+  - Gucungera itumanaho ry'igisirikare
+  - Kunoza ubuhinga bwo gupfuka amakuru
+explanation: |
+  Diffie, Hellman, na Merkle bavyuriwe umutima n’ingorane ziboneka zo gukwiragiza n’ugucungera amakuru y’ingenzi kugira ngo haboneke ivy’itumanaho, ingorane zihambaye cane mw’isi iriko irahindukira ikaja mu guhanahana amakuru y’ubuhinga bwa none.
+reviewed: false

@@ -6,4 +6,4 @@ wrong_answers:
   - SuperCrypt
 explanation: |
   LUKS (Linux Unified Key Setup) es la solución estándar en Linux para el cifrado completo del disco durante la instalación.
-reviewed: false
+reviewed: true

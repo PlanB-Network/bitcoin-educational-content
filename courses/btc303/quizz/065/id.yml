@@ -1,0 +1,9 @@
+question: Apa alasan utama mengapa peningkatan ukuran blok menyebabkan probabilitas yang lebih tinggi dari blok basi di Bitcoin mining?
+answer: Blok yang lebih besar membutuhkan lebih banyak waktu untuk menyebar dan memvalidasi di seluruh jaringan, menciptakan jendela yang lebih panjang di mana penambang bekerja pada tip blockchain yang sudah usang
+wrong_answers:
+  - Blok yang lebih besar membutuhkan lebih banyak daya komputasi untuk menambang, sehingga penambang membutuhkan waktu lebih lama untuk menemukan solusi proof-of-work yang valid
+  - "Peningkatan ukuran blok mengurangi efektivitas mekanisme penyesuaian kesulitan, yang mengarah ke interval waktu blok yang tidak dapat diprediksi"
+  - Blok yang lebih besar menciptakan lebih banyak konflik transaksi antara blok yang bersaing, sehingga lebih sulit untuk menentukan blok mana yang harus diterima
+explanation: |
+  Jawaban yang benar mengidentifikasi mekanisme inti di balik blok basi. Ketika blok lebih besar, mereka membutuhkan lebih banyak bandwidth untuk ditransfer antar node dan lebih banyak waktu untuk memvalidasi. Selama periode propagasi yang lama ini, beberapa penambang dapat menemukan blok yang bersaing pada ketinggian yang sama karena mereka belum menerima blok terbaru. Hal ini menciptakan sebuah kondisi perlombaan di mana hanya satu blok yang pada akhirnya dapat diterima, membuat blok yang lain menjadi basi. Jawaban yang salah akan mengacaukan masalah propagasi ini dengan kesulitan mining, mekanisme konsensus, atau konflik transaksi, yang merupakan masalah terpisah dari masalah waktu yang menyebabkan blok basi.
+reviewed: false

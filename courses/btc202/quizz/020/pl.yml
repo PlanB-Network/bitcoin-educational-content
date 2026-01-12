@@ -1,0 +1,9 @@
+question: Co się stanie, jeśli blok naruszy zasady konsensusu?
+answer: Jest on natychmiast odrzucany przez węzły
+wrong_answers:
+  - Jest on przechowywany w Mempool w oczekiwaniu na walidację
+  - Jest on przekazywany tylko przez węzły, które akceptują inne reguły
+  - Jest on zatwierdzany tylko przez portfele
+explanation: |
+  Węzły systematycznie odrzucają każdy blok, który nie jest zgodny z zasadami konsensusu.
+reviewed: true

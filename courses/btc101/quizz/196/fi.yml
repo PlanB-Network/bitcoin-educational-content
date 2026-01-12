@@ -1,11 +1,11 @@
-question: Mikä on Swiss Bitcoin Pay?
-answer: Ratkaisu harrastelijakauppiaille hyväksyä Bitcoinia.
+question: Mitä sinun tulisi tehdä ostaessasi Bitcoinia vaihtoalustalta?
+answer: Nosta bitcoinit ja lähetä ne lompakkoosi.
 wrong_answers:
-  - Sveitsiläinen pankki, joka hyväksyy Bitcoinin.
-  - Bitcoin-vaihto Sveitsistä.
-  - Kaivosyhtiö, joka toimii Sveitsissä.
-explanation: >-
-  Swiss Bitcoin Pay on ratkaisu harrastelijakauppiaille hyväksyä Bitcoinia.
-  Muita ratkaisuja ovat OpenNode yksinkertaisille verkkoliiketoiminnoille ja BTCpay Server
-  suurille rakenteille tai intohimoisille bitcoinisteille.
+  - Jätä bitcoinit alustalle.
+  - Myy bitcoinit välittömästi.
+  - Siirrä bitcoinit toiselle vaihtoalustalle.
+explanation: |
+  Kurssiteksti neuvoo, että Bitcoinin ostamisen jälkeen tulee
+  välittömästi nostaa UTXO: t vaihtoalustoilta
+  minimoidakseen hakkeroinnin ja varojen jäädyttämisen riskit.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Ni itandukaniro irihe riri hagati y’amateka n’ubuhinga bwa filozofiya?
+answer: Ibindi bisubizo vyose
+wrong_answers:
+  - Amateka adondora kahise mu gihe filozofiya ari yo ayicira urubanza .
+  - Amateka ni ukuri, mu gihe filozofiya ari amategeko
+  - Amateka yibanda ku bintu vyabaye, mu gihe filozofiya yibanda ku vyiyumviro
+explanation: |
+  Itandukaniro hagati y’amateka na filozofiya riri mu buryo bwavyo: amateka yibanda ku kudondora no gusuzuma ivyabaye kera, mu gihe filozofiya irondera gucira urubanza, gusobanura no gushinga amategeko ashingiye ku vyiyumviro bitaboneka.
+reviewed: true

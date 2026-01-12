@@ -1,0 +1,9 @@
+question: Ni icigwa nyamukuru ikihe twokwigira ku karorero k’ikaramu?
+answer: Uruhara rw'uguhuza ibikorwa mu bukungu
+wrong_answers:
+  - Ugusobanuka kw'ibikorwa vy'inganda
+  - Akamaro ko kumenya kwandika .
+  - Ivy'uko hakenewe igenamigambi ry'ibintu vyose
+explanation: |
+  Akarorero k’ikaramu kerekana ko uguhuza isoko kwihuta bituma habaho uguhingura ibintu bikomeye ata n’itegurwa ry’ibintu bimwe bimwe.
+reviewed: false

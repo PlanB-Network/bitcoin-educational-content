@@ -7,4 +7,4 @@ Opakované použití adresy označuje praxi, kdy se stejná přijímací adresa 
 > "*Jako další firewall by se pro každou transakci mohl použít nový pár klíčů, aby se zabránilo jejich propojení se společným vlastníkem.*" - Nakamoto, S. (2008). "Bitcoin: elektronický peněžní systém typu peer-to-peer". Konzultováno na https://bitcoin.org/bitcoin.pdf.
 Pro zachování minimálního soukromí se důrazně doporučuje používat každou přijímací adresu pouze jednou. Pro každou novou platbu je vhodné vygenerovat novou adresu. Pro změnové výstupy by měla být rovněž použita nová adresa. Díky deterministickým a hierarchickým peněženkám je naštěstí velmi snadné používat více adres. Všechny páry klíčů spojené s peněženkou lze snadno přegenerovat ze seedu. To je také důvod, proč software peněženky po kliknutí na tlačítko "Přijmout" vždy vygeneruje novou, jinou adresu.
 
-> ► V angličtině se nazývá "Address Reuse" (opakované použití adresy).*
+> ► V angličtině se nazývá "Address Reuse" (opakované použití adresy).

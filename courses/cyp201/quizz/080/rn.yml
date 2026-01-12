@@ -1,0 +1,9 @@
+question: Ni ubuhe busobanuro bukoreshwa mu guserukira amaderesi ya SegWit v0?
+answer: bech32
+wrong_answers:
+  - base 58 gusuzuma
+  - intebe 32m
+  - ishingiro64
+explanation: |
+  Aderesi za SegWit v0, nk'izo za P2WPKH na P2WSH, zikoresha ubuhinga bwa bech32 bwashizweho na SegWit.
+reviewed: false

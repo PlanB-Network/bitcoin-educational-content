@@ -1,0 +1,9 @@
+question: Jaký je hlavní důvod, proč bude skutečná nabídka Bitcoin v oběhu výrazně nižší než teoretické maximum přibližně 21 milionů BTC?
+answer: Ztráta soukromých klíčů, krádež wallet a mince zaslané na nesprávné adresy trvale vyřazují bitcoiny z oběhu
+wrong_answers:
+  - Úpravy obtížnosti Mining automaticky snižují celkovou nabídku, aby se v průběhu času zachoval nedostatek
+  - Poplatky za transakce se spalují během zpracování, čímž se postupně snižuje dostupná zásoba bitcoinů
+  - "Protokol Bitcoin automaticky blokuje mince, které se delší dobu nepohybovaly, aby se zabránilo inflaci."
+explanation: |
+  Pokud je teoretické maximum 20 999 999.9769 BTC, skutečně využitelná nabídka je mnohem nižší v důsledku lidských chyb a ztrát. Ztracené soukromé klíče činí bitcoiny trvale nedostupnými, peněženky jsou kradeny nebo zapomenuty a mince jsou někdy odesílány na neplatné adresy. Tyto faktory vedou k trvalému snížení nabídky, z čehož těží zbývající držitelé, jak poznamenal Satoshi: ztracené mince zvyšují hodnotu mincí ostatních.
+reviewed: false

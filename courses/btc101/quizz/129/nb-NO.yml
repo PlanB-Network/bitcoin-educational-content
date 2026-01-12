@@ -1,9 +1,10 @@
-question: Hva er Bitcoin-blockchainen?
-answer: En offentlig og uforanderlig hovedbok over alle Bitcoin-transaksjoner.
+question: Hvordan sikrer Bitcoin-nettverket at det er for kostbart å handle ondsinnet innenfor Bitcoin-protokollen?
+answer: Gjennom protokollregler og økonomiske insentiver.
 wrong_answers:
-  - En privat og foranderlig hovedbok over alle Bitcoin-transaksjoner.
-  - En offentlig og foranderlig hovedbok over alle Bitcoin-transaksjoner.
-  - En privat og uforanderlig hovedbok over alle Bitcoin-transaksjoner.
+  - Gjennom streng regulering og tilsyn.
+  - Gjennom bruk av avanserte sikkerhetstiltak.
+  - Gjennom trusselen om rettslige tiltak.
 explanation: >-
-  Bitcoin-blockchainen er en offentlig og uforanderlig hovedbok over alle Bitcoin-transaksjoner. Det er en felles hovedbok for alle Bitcoin-brukere.
+  Bitcoin-nettverket sikrer at det er for kostbart å handle ondsinnet innenfor Bitcoin-protokollen gjennom protokollregler og økonomiske insentiver. Dette
+  eliminerer behovet for tillit ved ethvert steg av overføringen av bitcoin-eierskap.
 reviewed: false

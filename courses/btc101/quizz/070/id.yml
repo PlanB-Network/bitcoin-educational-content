@@ -1,9 +1,11 @@
-question: Berapa hadiah BTC setelah pemotongan keempat?
-answer: 3.125 BTC
+question: Apa risiko dari berbagi kunci publik dari dompet Bitcoin?
+answer: Risiko terhadap privasi
 wrong_answers:
-  - 1.5625 BTC
-  - 6.25 BTC
-  - 12.5 BTC
-explanation: >-
-  Setelah pemotongan keempat, yang terjadi pada ketinggian blok 840,000, hadiah BTC untuk penambangan adalah 3.125 BTC.
+  - Risiko merusak dompet Bitcoin
+  - Risiko kehilangan Bitcoin
+  - Risiko peretasan dompet Bitcoin
+explanation: |
+  Berbagi kunci publik melibatkan risiko terhadap privasi, tetapi tidak terhadap keamanan.
+  Hal ini karena kunci publik digunakan untuk menghasilkan alamat Bitcoin dan dengan demikian menerima
+  uang, tetapi itu tidak mewakili kepemilikan atas Bitcoin.
 reviewed: true

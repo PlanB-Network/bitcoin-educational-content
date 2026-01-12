@@ -1,0 +1,9 @@
+question: 오픈소스라는 용어를 홍보하기 위해 1998년에 설립된 단체는 무엇인가요?
+answer: 오픈 소스 이니셔티브(OSI)
+wrong_answers:
+  - 자유 소프트웨어 재단(FSF)
+  - 데비안 프로젝트
+  - Mozilla 재단
+explanation: |
+  OSI는 자유 소프트웨어의 철학과는 별개로 코드 개방성의 실용적이고 기술적인 측면을 강조하기 위해 만들어졌습니다.
+reviewed: false

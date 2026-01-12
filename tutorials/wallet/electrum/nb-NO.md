@@ -1,16 +1,16 @@
 ---
 name: Electrum
 
-description: Fullstendig Electrum-guide, fra 0 til helt
+description: Fullstendig Electrum-guide, fra nybegynner til ekspert
 ---
 
 ![cover](assets/cover.webp)
 
-Beskrivelse for Electrum
+Nedenfor finner du noen beskrivelseskilder for Electrum:
 
-https://twitter.com/ElectrumWallet
-https://electrum.org/
-https://electrum.readthedocs.io/
+- [X](https://twitter.com/ElectrumWallet)
+- [Electrum website](https://electrum.org/)
+- [Electrum documentation](https://electrum.readthedocs.io/)
 
 > "Jeg må si, da jeg kom over denne guiden ble jeg sjokkert. Gratulerer til Arman the Parman for dette. Det ville ha vært en skam å ikke ha den her og oversette den til så mange språk som mulig. Ærlig talt, gi det fyren et tips." Rogzy
 

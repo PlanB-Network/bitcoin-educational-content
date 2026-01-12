@@ -1,0 +1,9 @@
+question: Ni igiki wokwirinda gukora n’ama flash drive ya USB?
+answer: Gucomeka USB sticks itazwi
+wrong_answers:
+  - Koresha USB sticks zikoresha ubwoko bwa NTFS
+  - Kunyegeza amakuru ya USB sticks zawe
+  - Koresha flash drive ya USB nshasha
+explanation: |
+  Gucomeka USB itazwi birashobora kwanduza umugera inyabwonko yawe canke ukibwa amakuru y’agaciro.
+reviewed: true

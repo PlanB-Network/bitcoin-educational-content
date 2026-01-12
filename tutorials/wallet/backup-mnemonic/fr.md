@@ -12,9 +12,9 @@ Dans ce tutoriel, nous allons explorer les bonnes pratiques pour sauvegarder vot
 
 La phrase mnémonique donne un accès complet et non restreint à tous vos bitcoins. N'importe qui en possession de cette phrase peut subtiliser vos fonds, même sans accès physique au support qui héberge votre portefeuille.
 
-Cela signifie, par exemple, que si vous utilisez un portefeuille Bitcoin sur une Ledger, toute personne ayant accès à votre phrase mnémonique peut dérober l’intégralité de vos bitcoins, même sans avoir accès à la Ledger elle-même. C'est pourquoi **il ne faut jamais partager votre phrase**, quelle que soit la situation.
+Cela signifie, par exemple, que si vous utilisez un portefeuille Bitcoin sur un Ledger, toute personne ayant accès à votre phrase mnémonique peut dérober l’intégralité de vos bitcoins, même sans avoir accès au Ledger lui-même. C'est pourquoi **il ne faut jamais partager votre phrase**, quelle que soit la situation.
 
-Cette phrase est donc l'information unique qui vous permet de restaurer l’accès à vos bitcoins en cas de perte, de vol ou de détérioration du support du portefeuille. Prenons à nouveau l’exemple de la Ledger : si vous perdez l’appareil, vous pourrez retrouver vos fonds en saisissant votre phrase mnémonique sur une nouvelle Ledger ou sur tout autre portefeuille compatible, qu’il soit logiciel ou matériel.
+Cette phrase est donc l'information unique qui vous permet de restaurer l’accès à vos bitcoins en cas de perte, de vol ou de détérioration du support du portefeuille. Prenons à nouveau l’exemple du Ledger : si vous perdez l’appareil, vous pourrez retrouver vos fonds en saisissant votre phrase mnémonique sur un nouveau Ledger ou sur tout autre portefeuille compatible, qu’il soit logiciel ou matériel.
 
 Il est donc important de sauvegarder cette phrase avec la plus grande précaution et de la conserver dans un lieu sécurisé, comme nous le détaillerons dans les sections suivantes.
 
@@ -76,17 +76,17 @@ m / 86' / 0' / 0' /
 
 Si vous utilisez un portefeuille multisig ou un portefeuille avec des scripts complexes incluant des clés de récupération, comme ceux proposés par le logiciel Liana, il est indispensable de sauvegarder vos **Output Script Descriptors**. Ces descriptors contiennent toutes les informations nécessaires, en complément des phrases de récupération, pour retrouver l’accès à vos bitcoins.
 
-Vous pouvez également enrichir votre sauvegarde avec des informations supplémentaires liées au support de votre portefeuille. Par exemple, notez le code PIN permettant de déverrouiller votre hardware wallet ou les mots anti-phishing si vous utilisez une COLDCARD.
+Vous pouvez également enrichir votre sauvegarde avec des informations supplémentaires liées au support de votre portefeuille. Par exemple, notez le code PIN permettant de déverrouiller votre hardware wallet ou les mots anti-phishing si vous utilisez un COLDCARD.
 
 ![SEED](assets/fr/05.webp)
 
 En revanche, si vous utilisez une passphrase, évitez absolument de la noter sur le même support que votre phrase mnémonique. La passphrase a précisément pour rôle de protéger votre portefeuille en cas de vol de cette dernière. Pour en savoir davantage sur l’utilisation de la passphrase, je vous invite à consulter ce tutoriel complémentaire :
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 Une fois votre phrase mnémonique sauvegardée sur un support physique, il est fortement recommandé d’effectuer un test de récupération tant que votre portefeuille nouvellement créé est encore vide. Ce test consiste à noter une information témoin, à supprimer volontairement le portefeuille vide, puis à essayer de le restaurer en utilisant uniquement votre sauvegarde physique de la phrase mnémonique. Cela vous permet de vérifier que votre sauvegarde est complète et sans erreur de saisie. Vous pourrez également vous familiariser avec le processus de récupération. Ainsi, en cas de récupération dans le futur, vous serez mieux préparé et éviterez le stress d’une première tentative en situation réelle. Pour en savoir plus sur la réalisation de ce test, consultez cet autre tutoriel :
 
-https://planb.network/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
+https://planb.academy/tutorials/wallet/backup/recovery-test-5a75db51-a6a1-4338-a02a-164a8d91b895
 
 Enfin, se pose également la question du nombre de sauvegardes. Ce choix dépend entièrement de votre situation personnelle. Limiter le nombre de copies, par exemple en ne notant votre phrase mnémonique qu’une seule fois sur un support, réduit le risque de vol, mais augmente le risque de perte. À l’inverse, réaliser plusieurs copies diminue le risque de perte, mais accroît celui de vol. Il vous appartient donc de trouver un équilibre adapté à vos besoins et de déterminer le nombre de copies qui vous semble le plus approprié.
 
@@ -114,8 +114,8 @@ Enfin, la gestion de la phrase mnémonique soulève également la question de la
 
 Pour aller plus loin et renforcer encore davantage votre stratégie de sécurisation, je vous recommande d’apprendre le fonctionnement technique de votre portefeuille Bitcoin. En comprenant comment interagissent ses différents éléments, ainsi que leur importance et leurs implications, vous serez en mesure d’affiner votre stratégie de sécurisation en ayant pleinement conscience des risques. En particulier, si vous comprenez au niveau technique ce que permet la phrase mnémonique, vous pourrez ajuster la manière dont vous la notez, la stockez et la gérez au fil du temps.
 
-C’est pourquoi je vous invite à suivre la formation gratuite CYP201 proposée sur Plan ₿ Network. Cette formation explique en détail tous les rouages des portefeuilles Bitcoin, ce qui vous permet de maîtriser les aspects techniques essentiels pour sécuriser efficacement vos fonds :
+C’est pourquoi je vous invite à suivre la formation gratuite CYP201 proposée sur Plan ₿ Academy. Cette formation explique en détail tous les rouages des portefeuilles Bitcoin, ce qui vous permet de maîtriser les aspects techniques essentiels pour sécuriser efficacement vos fonds :
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 Si vous avez trouvé ce tutoriel utile, je vous serais reconnaissant de laisser un pouce vert ci-dessous. N'hésitez pas à partager cet article sur vos réseaux sociaux. Merci beaucoup !

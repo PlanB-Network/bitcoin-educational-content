@@ -1,8 +1,12 @@
-question: FOMO ve FUD nedir?
-answer: Dürtüsel ve potansiyel olarak zararlı kararlara yol açabilen duygular.
+question: Bu derse göre Bitcoin devriminin ana hedefi nedir?
+answer: İnsan egemenliğinin bir hak olduğu, mahremiyete varsayılan olarak saygı duyulduğu ve paranın manipüle edilmediği bir dünya yaratmak.
 wrong_answers:
-  - Bitcoin cüzdan türleri.
-  - Bitcoin satın alma stratejileri.
-  - Bitcoin ile ilgili yönetmelikler.
-explanation: >-
+  - Mahremiyetin bir insan hakkı olmadığı ve paranın bankalar tarafından manipüle edildiği bir dünya yaratmak.
+  - Hükümetlerin gücünün olmadığı ve toplumun kaotik olduğu bir dünya yaratmak.
+  - Fiziksel paranın geçersiz olduğu bir dünya yaratmak.
+explanation: |
+  Bu kurs metni, Bitcoin'in ana hedefinin
+  devrim, insan egemenliğinin olduğu bir dünya yaratmaktır
+  bir haktır, mahremiyete varsayılan olarak saygı gösterilir ve para
+  manipüle edildi.
 reviewed: true

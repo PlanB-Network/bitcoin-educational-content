@@ -1,0 +1,9 @@
+question: Hvem skrev "Ingenting skjer i naturen som kan tilskrives en
+answer: Spinoza.
+wrong_answers:
+  - Descartes.
+  - Newton.
+  - Saint-Augustin.
+explanation: |
+  Det var Spinoza som skrev: "Det skjer ikke noe i naturen som kan tilskrives en last som finnes i den". Denne setningen uttrykker tanken om at naturen er fullkommen i sitt slag, og at feilene bare er menneskelige vurderinger.
+reviewed: false

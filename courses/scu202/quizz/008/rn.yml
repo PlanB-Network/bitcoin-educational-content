@@ -1,0 +1,9 @@
+question: Ni igiki nyamukuru kitagenda mu bikoresho vya macOS?
+answer: Kuba vyugaranye kandi bikizigira Apple
+wrong_answers:
+  - Ukwugururwa kurengeje kwa porogarame
+  - Inguvu nke mu gutuma ibicapo bigenda neza
+  - Ibuze uburyo bwo gushirwa kugihe
+explanation: |
+  Ukwifatanya cane kwa macOS n’ibikoresho vya Apple bituma umuntu ategerezwa kuyizigira no kwugarirwa kubikoresho vyabo gusa.
+reviewed: true

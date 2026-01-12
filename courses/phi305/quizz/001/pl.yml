@@ -1,0 +1,9 @@
+question: Czy Spinoza jest filozofem?
+answer: Od XVII wieku.
+wrong_answers:
+  - Od XVI wieku.
+  - Od XVIII wieku.
+  - Od starożytności.
+explanation: |
+  Spinoza żył w latach 1632-1677, co czyni go filozofem XVII wieku. Okres ten, znany jako Wiek Rozumu, był świadkiem pojawienia się nowoczesnego racjonalizmu i nowych naukowych podejść do zrozumienia świata.
+reviewed: false

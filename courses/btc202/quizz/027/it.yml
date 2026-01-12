@@ -1,0 +1,9 @@
+question: Cosa c'è di speciale in un nodo SPV?
+answer: Conserva solo le testate del blocco
+wrong_answers:
+  - Conserva l'intero Blockchain dal blocco Genesis
+  - Memorizza solo i blocchi più recenti
+  - Mantiene solo il set UTXO, non il Blockchain
+explanation: |
+  Un nodo SPV verifica le transazioni attraverso le intestazioni dei blocchi e le prove Merkle, senza memorizzare i dati completi.
+reviewed: true

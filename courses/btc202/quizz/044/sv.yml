@@ -1,0 +1,9 @@
+question: Vilken teknik använder Umbrel för att isolera och hantera sina applikationer?
+answer: Docker-containrar
+wrong_answers:
+  - Virtuella maskiner i VirtualBox
+  - Bash-skript
+  - Kubernetes-kluster
+explanation: |
+  Varje applikation i Umbrel körs i en Docker-container, vilket möjliggör oberoende hantering och isolering.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Etoloji nedir?
+answer: Bir varoluş biçimleri bilimi.
+wrong_answers:
+  - Bir doğa bilimi.
+  - Mekanik bir bilim.
+  - Astrolojinin bir türevi.
+explanation: |
+  Etoloji varlığın, davranışın bilimidir. Spinoza ve Deleuze'e göre, bir bedenin neler yapabileceğinin, duygulanımlarının ve eylem ve tutku kapasitelerinin incelenmesidir.
+reviewed: false

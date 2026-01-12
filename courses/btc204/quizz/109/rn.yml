@@ -1,0 +1,10 @@
+question: Ni kuki kenshi bigorana gukoresha PayJoin kugira ngo umuntu yishure?
+answer: Bisaba ko uwuronka iyo nkunga akorana n’abandi mu bijanye n’ubwubatsi .
+wrong_answers:
+  - Bisaba amafaranga adahinduka ku bijanye n'ugucuruza kwose .
+  - Bihatira abo bompi gukoresha ubwoko bumwe bwa porogarama .
+  - Bisaba ko uwuriha afise nibura UTXO 2 ziruta agaciro k’ivyo yishuye .
+explanation: |
+  Ingorane yo gukoresha PayJoin iri mu kuba ivana n’uruhara rw’umucuruzi. Nk’umukiriya, gukoresha PayJoin ntibishoboka iyo umucuruzi atayishigikiye.
+  
+reviewed: false

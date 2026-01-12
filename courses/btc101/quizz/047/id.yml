@@ -1,11 +1,10 @@
-question: Apa itu hiperinflasi?
-answer: Peningkatan drastis dalam massa moneter
+question: Apa fase kedua dari hiperinflasi?
+answer: Runtuhnya mata uang & kenaikan harga.
 wrong_answers:
-  - Peningkatan halus dalam massa moneter
-  - Penurunan drastis dalam massa moneter
-  - Penurunan halus dalam massa moneter
+  - Kehilangan Kepercayaan.
+  - Lingkaran setan pencetakan uang.
+  - Munculnya mata uang baru.
 explanation: |
-  Hiperinflasi adalah fenomena moneter,
-  ditandai dengan peningkatan drastis dalam inflasi melalui pencetakan uang oleh otoritas,
-  yang mengarah pada kehilangan kepercayaan total terhadap sebuah mata uang
+  Fase kedua dari hiperinflasi adalah runtuhnya mata uang & kenaikan harga,
+  tepat setelah Fase Kehilangan Kepercayaan.
 reviewed: true

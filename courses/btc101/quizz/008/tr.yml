@@ -1,11 +1,13 @@
-question: Bitcoin'ın tarafsız bir para birimi olması ne anlama geliyor?
-answer: Herhangi bir kurum veya kuruluş tarafından kontrol edilmemektedir.
+question: Siber Uzayın Bağımsızlık Bildirgesi nedir?
+answer: Siber alanın fiziksel alandan farklı bir alan olduğunu ve aynı yasalara tabi olmaması gerektiğini savunan bir metin.
 wrong_answers:
-  - Tek bir kurum veya kuruluş tarafından kontrol edilir.
-  - Hükümet tarafından düzenlenmektedir.
-  - Sadece büyük işlemler için kullanılır.
+  - Bitcoin'ın geleneksel finansal sistemlerden bağımsızlığını belirten bir deklarasyon.
+  - Siber uzayın hükümet düzenlemeleri ile kontrol edilmesi gerektiğini savunan bir metin.
+  - Korsan hareketinin herhangi bir düzenlemeden bağımsızlığını garanti eden bir deklarasyon.
 explanation: |
-  Bitcoin nötr bir para birimidir, yani kontrol edilmez
-  herhangi bir kurum veya kuruluş tarafından, bu nedenle her kullanıcı aynı
-  haklar. Bu, adem-i merkeziyetçiliğin kilit bir yönüdür.
+  Siber Uzayın Bağımsızlık Bildirgesi
+  john Perry Barlow tarafından 1996 yılında yazılmıştır. Bu belge şunları iddia etmektedir
+  siber uzayın fiziksel dünyadan farklı bir alan olduğu
+  bu yüzden endüstriyel hükümetler kendi
+  oradaki otorite.
 reviewed: true

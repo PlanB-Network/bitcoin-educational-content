@@ -1,0 +1,10 @@
+question: Ni kuki amakuru ya biometric abonwa ko adatanga umutekano cane kuruta uguhuza ubumenyi n’ivyo umuntu afise ku bijanye na 2FA?
+answer: Amakuru ya biometric akwiye kuguma ku gikoresho co kwemeza ko umuntu ari we ntagomba kuba ari kuri interineti
+wrong_answers:
+  - Amakuru ya biyometric yoroshe kuronka naho yoba atari kuri interineti ku gikoresho co kwemeza.
+  - Amakuru ya biyometric aragoye kwibuka no kuyakoresha igihe ukoresha igikoresho co kwemeza ko umuntu ari we.
+  - Ibikoresho vy’amakuru ya biyometric birazimvye cane gushirwa mu ngiro rero ntibizimbutse ugereranyije n’izindi nyishu.
+explanation: |
+  Amakuru ya biyometric akwiye kuguma ku gikoresho co kwemeza ko umuntu ari we ntagomba kuba ari kuri interineti.
+  Nimba aja kuri interineti, asobora kwibwa agakoreshwa mukwinjira muburyo butemewe.
+reviewed: true

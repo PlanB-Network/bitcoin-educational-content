@@ -1,0 +1,9 @@
+question: 공용 IPv4 Address과 사설 IPv4 Address의 주요 차이점은 무엇인가요?
+answer: 공용 Address은 인터넷에서 고유하고 라우팅이 가능합니다
+wrong_answers:
+  - 개인 Address는 인터넷에서 고유하고 라우팅이 가능합니다
+  - 공용 Address은 항상 DHCP에 의해 할당됩니다
+  - 개인 Address는 항상 DHCP에 의해 할당됩니다
+explanation: |
+  공용 IPv4 Address는 전 세계적으로 고유하며 인터넷에서 라우팅이 가능한 반면, 사설 Address는 로컬 네트워크 내에서만 유효합니다.
+reviewed: false

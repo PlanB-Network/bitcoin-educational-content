@@ -1,0 +1,9 @@
+question: Vad skiljer en pruned-nod från en Full node-nod?
+answer: Den eliminerar gradvis de gamla blocken
+wrong_answers:
+  - Den validerar inte äldre transaktioner
+  - Den kan inte reläa hela kvarter
+  - Den behåller inte någon lokal kopia av Blockchain, bara UTXO-uppsättningen
+explanation: |
+  pruned-noden validerar hela kedjan, men behåller bara en ny del av blocken för att begränsa lagringen.
+reviewed: true

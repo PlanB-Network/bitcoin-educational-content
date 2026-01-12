@@ -91,9 +91,9 @@ BIP-85では、1つのseedコア・フレーズから複数のBitcoinポート�
 
 
 
-- シナリオ**：Hot Wallet" Wallet (インターネットに接続されたデバイスにインストールされている) を毎日の取引に使用している。
-- 解決策 BIP-85**：このポートフォリオ専用のseed副フレーズを作成する。
-- BIP-32**より優れています：seedの一次フレーズを携帯電話にインポートする必要がないため、ハッキングのリスクが軽減されます。seedセカンダリフレーズのみが危険にさらされ、他のウォレットを保護します。BIP-32の場合、seedメインフレーズとバイパス経路を使用する必要があり、すべての資金が公開されます。
+- シナリオ：**Hot Wallet** (インターネットに接続されたデバイスにインストールされている) を毎日の取引に使用している。
+- 解決策 **BIP-85**：このポートフォリオ専用のseed副フレーズを作成する。
+- BIP-32**より優れています**：seedの一次フレーズを携帯電話にインポートする必要がないため、ハッキングのリスクが軽減されます。seedセカンダリフレーズのみが危険にさらされ、他のウォレットを保護します。BIP-32の場合、seedメインフレーズとバイパス経路を使用する必要があり、すべての資金が公開されます。
 
 
 
@@ -103,9 +103,9 @@ BIP-85では、1つのseedコア・フレーズから複数のBitcoinポート�
 
 
 
-- シナリオ**：あなたは親しい人（例えばあなたの母親）のためにBitcoin Walletを設定し、その人が紛失した場合、それを回収できるようにする。
-- 解答 BIP-85**：seed専用の副文を作成し、この副文のみを共有する。
-- BIP-32**に対する利点：BIP-32では、愛する人のために口座を作るには、メインのseedフレーズを共有し、すべての資金を危険にさらすか、愛する人のための管理（分岐パスの管理）を複雑にするか、メインのseedフレーズに加えて保存する新しいseedフレーズを作成する必要があります。
+- シナリオ：あなたは親しい人（例えばあなたの母親）のためにBitcoin Walletを設定し、その人が紛失した場合、それを回収できるようにする。
+- 解答 **BIP-85**：seed専用の副文を作成し、この副文のみを共有する。
+- **BIP-32**に対する利点：BIP-32では、愛する人のために口座を作るには、メインのseedフレーズを共有し、すべての資金を危険にさらすか、愛する人のための管理（分岐パスの管理）を複雑にするか、メインのseedフレーズに加えて保存する新しいseedフレーズを作成する必要があります。
 
 
 
@@ -115,9 +115,9 @@ BIP-85では、1つのseedコア・フレーズから複数のBitcoinポート�
 
 
 
-- シナリオ**：ビットコインを目的別に分ける（長期貯蓄やKYC以外の資金など）。
-- 解答 BIP-85**：各目的に特化したseedの副フレーズを作成する。
-- BIP-32**に対する利点：BIP-32では、すべてのアカウントが同じseedフレーズを共有するため、「m/44'/0'/0'`」のような派生パスを管理する必要があり、サードパーティポートフォリオでの管理が複雑になる。さらに、デバイスごとに個別のアカウントを割り当てることはできない（例えば、「Coldcardで貯金」、「モバイルで毎日」、「Trezorで休暇」）。BIP-85は、目的ごとにユニークなseedセカンダリフレーズを割り当て、識別しやすく、各デバイスで別々にインポートすることができます。
+- シナリオ：ビットコインを目的別に分ける（長期貯蓄やKYC以外の資金など）。
+- 解答 **BIP-85**：各目的に特化したseedの副フレーズを作成する。
+- **BIP-32に対する利点**：BIP-32では、すべてのアカウントが同じseedフレーズを共有するため、「m/44'/0'/0'」のような派生パスを管理する必要があり、サードパーティポートフォリオでの管理が複雑になる。さらに、デバイスごとに個別のアカウントを割り当てることはできない（例えば、「Coldcardで貯金」、「モバイルで毎日」、「Trezorで休暇」）。BIP-85は、目的ごとにユニークなseedセカンダリフレーズを割り当て、識別しやすく、各デバイスで別々にインポートすることができます。
 
 
 
@@ -127,9 +127,9 @@ BIP-85では、1つのseedコア・フレーズから複数のBitcoinポート�
 
 
 
-- シナリオ**：単発の取引や機密保持のために一時的なポートフォリオが必要な場合（例：資金の混合、Exchange KYCとのやりとりなど）。
-- 解決策 BIP-85**：seedのセカンダリー・センテンスを作成し、トランザクションに使用した後、必要に応じて破棄する。
-- BIP-32**に対する利点：BIP-32の場合、一時的な口座はseedのメインセンテンスに依存するため、漏洩した場合、すべての資金が危険にさらされる。
+- シナリオ：単発の取引や機密保持のために一時的なポートフォリオが必要な場合（例：資金の混合、Exchange KYCとのやりとりなど）。
+- 解決策 **BIP-85**：seedのセカンダリー・センテンスを作成し、トランザクションに使用した後、必要に応じて破棄する。
+- **BIP-32に対する利点**：BIP-32の場合、一時的な口座はseedのメインセンテンスに依存するため、漏洩した場合、すべての資金が危険にさらされる。
 
 
 
@@ -141,7 +141,7 @@ BIP-85では、1つのseedコア・フレーズから複数のBitcoinポート�
 
 
 
-- ハードウェア**（オプション）
+- **ハードウェア**（オプション）
  - コールドカードMk4またはQ1
  - MicroSDカード
 
@@ -158,7 +158,7 @@ BIP-85では、1つのseedコア・フレーズから複数のBitcoinポート�
 
 
 
-- 互換性のある**ソフトウェア
+- 互換性のある**ソフトウェア**
  - Sparrow wallet（コンピュータ、監視専用または高度管理用）
  - ヌンチャク（モバイル、マルチサイン用）
  - ブルーウォレット（モバイル）
@@ -168,7 +168,7 @@ BIP-85では、1つのseedコア・フレーズから複数のBitcoinポート�
 
 
 
-- 3.4 コールドカード**構成
+- 3.4 **コールドカード構成**
  - コールドカードに24語のseed文を初期化する。
  - オプション：BIP-85ブランチへのアクセスを確保するためにpassphraseを追加する。
  - 便利なオプションを有効にします：NFC（輸出用）、バッテリーでUSBを無効にする（セキュリティ）。
@@ -207,7 +207,7 @@ Coldcard の電源を入れ、PIN コードを入力します。
 
 
 
-- 2.BIP-85**メニューへ
+- 2.BIP-85メニューへ
  - ホーム画面から「Advanced > Derive seed B85`」に進む。
  - 警告を読み、確認する。
 
@@ -254,10 +254,10 @@ ColdCardに新しいseedの副文が表示されるようになりました。�
 
 
 
- - 注：手動で**。
+- 注：手動で**作成**。
  - プレス
      - 1` SDカードに保存する
-     - 2` で、コールドカードに「この seed を使用する」** モードを入力する (トランザクションのエクスポートや署名に便利)。
+- 2` で、コールドカードに「この seed を使用する」**モードを入力する** (トランザクションのエクスポートや署名に便利)。
      - 3`で**QRコード**を表示（BlueWalletやNunchuckなどのモバイルアプリケーションでスキャンするため）
      - 4`で**NFC**で送信する。
 
@@ -415,13 +415,13 @@ seedの副フレーズについては、最新の個人登録をしておくこ�
 
 
 
-- [BEEP](https://planb.network/resources/glossary/bip)
-- [BIP-32](https://planb.network/resources/glossary/bip0032)
-- [BIP-39](https://planb.network/resources/glossary/bip0039)
-- [BIP-85](https://planb.network/resources/glossary/bip0085)
-- [seedフレーズ](https://planb.network/resources/glossary/recovery-phrase)
-- [passphrase](https://planb.network/resources/glossary/passphrase-bip39)
-- [Multisig](https://planb.network/resources/glossary/Multisig)
+- [BEEP](https://planb.academy/resources/glossary/bip)
+- [BIP-32](https://planb.academy/resources/glossary/bip0032)
+- [BIP-39](https://planb.academy/resources/glossary/bip0039)
+- [BIP-85](https://planb.academy/resources/glossary/bip0085)
+- [seedフレーズ](https://planb.academy/resources/glossary/recovery-phrase)
+- [passphrase](https://planb.academy/resources/glossary/passphrase-bip39)
+- [Multisig](https://planb.academy/resources/glossary/multisig)
 
 
 
@@ -430,18 +430,18 @@ seedの副フレーズについては、最新の個人登録をしておくこ�
 
 
 
-https://planb.network/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 
 ### A.3 passphrase BIP39を理解する
 
 
 
-https://planb.network/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
+https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14-bafdeb1adce7
 
 
 ### A.4 Bitcoinポートフォリオの仕組み
 
 
 
-https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
+https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f

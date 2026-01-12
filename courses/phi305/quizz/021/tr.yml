@@ -1,0 +1,9 @@
+question: René Descartes?
+answer: Spinoza'dan önce gelir.
+wrong_answers:
+  - Spinoza'nın mirasçısıdır.
+  - İsviçreli bir filozof.
+  - Ateist bir filozof.
+explanation: |
+  René Descartes (1596-1650) Spinoza'dan önce yaşamıştır ve modern rasyonalizmin babası olarak kabul edilir. Spinoza Descartes'tan etkilenmiş, ancak Kartezyenizmden önemli ölçüde ayrılan bir felsefi sistem geliştirmiştir.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Which philosopher developed the concept of nihilism?
+answer: Nietzsche.
+wrong_answers:
+  - Kant.
+  - Schopenhauer.
+  - Spinoza.
+explanation: |
+  Friedrich Nietzsche (1844-1900) constructed and developed the concept of nihilism. For him, nihilism represents the devaluation of supreme values and the loss of meaning in Western culture.
+reviewed: false

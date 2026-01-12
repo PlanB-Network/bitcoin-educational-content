@@ -1,11 +1,9 @@
-question: Como a Lightning Network poderia ser usada potencialmente para alugar bens?
-answer: Os usuários poderiam ser cobrados por minuto, ou até mesmo por segundo, pelo tempo que utilizam os bens.
+question: Qual é um dos potenciais benefícios de aceitar novas tecnologias como o Bitcoin?
+answer: Pode gerar enormes economias de escala em todo o mundo.
 wrong_answers:
-  - Os usuários poderiam ser cobrados uma taxa alta pelo aluguel dos bens.
-  - Os usuários poderiam ser cobrados com base no valor dos bens.
-  - Os usuários poderiam ser cobrados com base na condição dos bens.
+  - Pode levar a um colapso econômico global.
+  - Pode causar uma diminuição na inteligência humana.
+  - Pode levar à eliminação de todos os empregos.
 explanation: >-
-  Com a Lightning Network, é concebível usar este sistema para
-  alugar bens. Os usuários poderiam ser cobrados por minuto, ou até mesmo por segundo, pelo tempo
-  que utilizam os bens.
+  O texto sugere que aceitar essas novas tecnologias poderia gerar enormes economias de escala em todo o mundo.
 reviewed: true

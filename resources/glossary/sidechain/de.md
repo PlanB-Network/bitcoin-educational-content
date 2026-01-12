@@ -6,4 +6,4 @@ Eine Blockchain, die parallel zur Haupt-Blockchain von Bitcoin funktioniert. Die
 
 Das Konzept einer Sidechain wurde erstmals 2014 von Adam Back, Matt Corallo, Luke Dashjr, Mark Friedenbach, Gregory Maxwell, Andrew Miller, Andrew Poelstra, Jorge Timon und Pieter Wuille vorgestellt. Die derzeit bekanntesten Sidechains auf Bitcoin sind Liquid und RSK (Rootstock). Diese werden jedoch im Vergleich zu anderen Overlay-Lösungen mit einem anderen Modell, wie dem Lightning Network, viel weniger genutzt.
 
-> ► *Im Französischen wird sie als "chaîne latérale" oder "chaîne parallèle" bezeichnet
+> ► *Im Französischen wird sie als "chaîne latérale" oder "chaîne parallèle" bezeichnet*

@@ -1,0 +1,9 @@
+question: Ni ubuhe buhinga bwo gusinya kwa digitale bwakoreshejwe mu gutanguza Bitcoin?
+answer: ECDSA
+wrong_answers:
+  - Schnorr
+  - RSA
+  - HMAC
+explanation: |
+  Bitcoin mu ntango yakoresheje ECDSA, uburyo bwo gusinya bushingiye ku mirongo y’imirongo, imbere y’uko hashirwaho imikono ya Schnorr mu 2021.
+reviewed: false

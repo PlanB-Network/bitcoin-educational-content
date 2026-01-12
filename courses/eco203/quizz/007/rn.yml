@@ -1,0 +1,9 @@
+question: Ni irihe mpinduka Frédéric Bastiat yaciyemwo cane igihe yari umudepite?
+answer: Impinduka yo mu 1848
+wrong_answers:
+  - Impinduka yo mu 1830
+  - Impinduka yo mu 1871
+  - Impinduka yo mu 1789
+explanation: |
+  Bastiat yariboneye ihinduka ryo mu 1848, ryashinze Repubulika ya kabiri, rituma atorwa kuba umudepite.
+reviewed: false

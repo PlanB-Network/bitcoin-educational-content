@@ -33,7 +33,7 @@ In summary, "spend" & "replace" seem to be the way forward. Participate in the d
 Like its big brother Bitrefill, and its competitors (The Bitcoin Company, Coinsbee etc...) Coincards lets you spend your precious satoshis to buy gift cards that can then be used online or even in physical stores, at the major retailers around you. Which, of course, don't yet accept Bitcoin natively.
 
 
-https://planb.network/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
+https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
 
 Coincards offers a wide range of choices, from retail to fast food, streaming platforms, online games, e-commerce sites and more...
 
@@ -52,13 +52,13 @@ Coincards is committed to preserving your privacy. They allow you to pay in Bitc
 This is an opportunity to remind those who would like to pay for their gift cards in Bitcoin, while enjoying good privacy protection, to opt for Lightning Network to do so.
 
 
-A selection of tutorials on the main Lightning wallets (Phoenix, Breez, BitKit, Zeus...) can be found here: [Plan ₿ Network - Wallet](https://planb.network/tutorials/wallet)
+A selection of tutorials on the main Lightning wallets (Phoenix, Breez, BitKit, Zeus...) can be found here: [Plan ₿ Academy - Wallet](https://planb.academy/tutorials/wallet)
 
 
 If you'd like to learn more about how the Lightning Network works, a comprehensive training course is available.
 
 
-https://planb.network/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
+https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
 ## How do I buy a BTC gift card on Coincards?
 
@@ -185,4 +185,4 @@ And there you have it, you now know how to spend your bitcoins without KYC at ma
 If you'd like to help popularize Bitcoin and encourage an independent merchant to adopt this payment method, I recommend you take a look at our comprehensive tutorial on Swiss Bitcoin Pay. It's an all-in-one solution for BTC payment processors, easy to install and manage on a day-to-day basis:
 
 
-https://planb.network/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
+https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a

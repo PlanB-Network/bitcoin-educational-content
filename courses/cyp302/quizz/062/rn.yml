@@ -1,0 +1,9 @@
+question: Ni ubuhe bwoko bw’ubuhinga bwo gupfuka amakuru bukoreshwa canecane mu guhanahana amakuru ubudasiba, nk’uguhanahana amajwi canke amasanamu?
+answer: Ugushiramwo amakuru
+wrong_answers:
+  - Guhagarika ububiko
+  - Kode y'igenzura
+  - Ubutumwa bwo gucapura
+explanation: |
+  Ugushiramwo amakuru y’uruzi ni vyiza cane cane ku bijanye n’uguhanahana amakuru abandanya kuko gushiramwo amakuru ubudasiba, bitandukanye n’ugushiramwo amakuru y’amabarabara, kuko ayagabanya mu mabarabara.
+reviewed: false

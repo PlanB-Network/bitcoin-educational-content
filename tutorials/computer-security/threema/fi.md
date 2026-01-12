@@ -64,7 +64,7 @@ Threema on saatavilla kaikilla alustoilla. Voit ladata sovelluksen suoraan puhel
 
 
 - [Google Play](https://play.google.com/store/apps/details?id=ch.threema.app);
-- [F-Cold] (https://f-droid.org/en/packages/ch.threema.app.libre/);
+- [F-Cold](https://f-droid.org/en/packages/ch.threema.app.libre/);
 - [Huawei AppGallery](https://appgallery.huawei.com/#/app/C103713829);
 - [App Store](https://apps.apple.com/us/app/threema-the-secure-messenger/id578665578).
 
@@ -276,7 +276,7 @@ Täältä löydät kaksi vaihtoehtoa tietojen varmuuskopiointia varten:
 
 
 
-"Threema Safe* tallentaa kaikki tilitietosi, keskusteluja lukuun ottamatta, Threeman palvelimille. Nämä tiedot salataan salasanalla, jonka valitsit tiliäsi luodessasi, jolloin varmistetaan, ettei Threema pääse niihin käsiksi. Varmuuskopiot tehdään automaattisesti ja säännöllisesti.
+"**Threema Safe** tallentaa kaikki tilitietosi, keskusteluja lukuun ottamatta, Threeman palvelimille. Nämä tiedot salataan salasanalla, jonka valitsit tiliäsi luodessasi, jolloin varmistetaan, ettei Threema pääse niihin käsiksi. Varmuuskopiot tehdään automaattisesti ja säännöllisesti.
 
 
 
@@ -436,8 +436,8 @@ Onneksi olkoon, olet nyt vauhdissa Threema-viestien käytössä, joka on loistav
 
 
 
-Suosittelen myös tätä toista opetusohjelmaa, jossa esittelen sinulle Proton Mailin, joka on paljon yksityisyydensuojaystävällisempi vaihtoehto Gmailille :
+Suosittelen myös tätä toista opetusohjelmaa, jossa esittelen sinulle Proton Mailin, joka on paljon yksityisyydensuojaystävällisempi vaihtoehto Gmailille:
 
 
 
-https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
+https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

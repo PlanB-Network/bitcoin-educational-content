@@ -1,0 +1,12 @@
+question: Ni ikibazo nyamukuru ikihe wokwibaza igihe uhitamwo Bitcoin Wallet, mu bijanye no kwibungabunga?
+answer: Woba ni wewe nyen’ayo mahera canke usiga ububasha bwo kugenzura amahera yawe uwundi muntu?
+wrong_answers:
+  - Mbega Wallet irakingiwe na passphrase?
+  - Mbega Wallet yemera kwakira no kohereza ama bitcoins?
+  - Noshobora gusangira Wallet yanje n’uwundi muntu?
+explanation: |
+  Igihe uhisemwo Bitcoin Wallet, ikibazo nyamukuru ni iki:
+  ni wewe nyen’amahera canke usiga ububasha ku
+  amahera yawe ku muntu agira gatatu? Ivyo ni kubera ko uwufise .
+  urufunguzo rw’ibanga ni nyen’ama Bitcoins.
+reviewed: true

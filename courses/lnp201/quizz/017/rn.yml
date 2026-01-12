@@ -1,0 +1,9 @@
+question: None bigenda gute iyo Bob yohereje Invoice kuri Alice ku masatoshi 30.000?
+answer: Alice irema Commitment Transaction kugira ngo irungike amasatoshi 30.000 kuri Bob mu muyoboro.
+wrong_answers:
+  - Alice itegerezwa gufungura umurongo mushasha kugira ngo ikore iyo transfert.
+  - Bob aca ahita aronka ama satoshi 30.000 ari muri Wallet yiwe.
+  - Invoice irihwa biciye mu gucuruza On-Chain kuri Bitcoin.
+explanation: |
+  Igihe Bob yohereza Invoice kuri Alice, arahingura kandi agasinya Commitment Transaction nshasha kugira ngo atunganye ukuntu amahera agabanywa, gutyo akarungika amasatoshi 30.000 mu muhora.
+reviewed: false

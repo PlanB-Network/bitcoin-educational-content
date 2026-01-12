@@ -7,7 +7,7 @@ description: Le remplaçant idéal pour Windows et MacOS
 
 Elementary OS est un système d’exploitation basé sur Ubuntu, conçu pour être simple, rapide et stable dans de nombreux usages quotidiens. Il représente une alternative Linux équilibrée à MacOS et Windows. Son interface graphique fluide, intuitive et épurée rend la prise en main facile, même pour les débutants. Il met également l’accent sur l’ergonomie, la sécurité et la performance.
 
-https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
+https://planb.academy/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
 ## Pourquoi choisir Elementary OS
 
@@ -186,4 +186,4 @@ Cette commande permet d'installer **Git**, **Python 3**, **pip**, **outils de co
 
 Elementary OS est maintenant opérationnel sur votre machine. Sa philosophie orientée vers la simplicité, la légèreté et l’élégance en fait un excellent choix, aussi bien pour une utilisation personnelle que professionnelle. Vous disposez d’un système stable, fluide et épuré, prêt à être personnalisé selon vos préférences. Que ce soit pour le développement, la bureautique ou la navigation quotidienne, tout est en place pour bâtir un environnement de travail efficace, intuitif et agréable. Découvrez également le tutoriel sur Fedora, une distribution Linux toute aussi simple, robuste, modulable.
 
-https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
+https://planb.academy/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0

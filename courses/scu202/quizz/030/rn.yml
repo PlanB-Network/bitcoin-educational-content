@@ -1,0 +1,9 @@
+question: Ni igikoresho ikihe c’isoko y’uguruye gishobora kunyegeza amakuru ari kuri disk yose kuri Linux?
+answer: LUKS
+wrong_answers:
+  - BitLocker
+  - FileVault
+  - SuperCrypt
+explanation: |
+  LUKS (Linux Unified Key Setup) ni umuti usanzwe kuri Linux wo kunyegeza amakuru kuri disk yose mu gihe co kuyishiramwo.
+reviewed: true

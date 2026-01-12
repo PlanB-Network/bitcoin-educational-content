@@ -1,12 +1,13 @@
-question: Vilka är de tre kanoniska funktionerna hos pengar?
-answer: Värdebevarare, Medium för Exchange, Kontoenhet.
+question: Varför kan inte guld prestera bra i en globaliserad och digital värld?
+answer: Eftersom det behövs en central enhet för att göra den delbar och lätt att byta ut.
 wrong_answers:
-  - Värdebevarare, Exchange-medium, produktionsmedel.
-  - Värdebevarare, produktionsmedel, beräkningsenhet.
-  - Medium för Exchange, Produktionsmedel, Räkenskapsenhet.
+  - För att den inte är tillräckligt värdefull.
+  - För att det inte är tillräckligt sällsynt.
+  - För att det eroderar med tiden.
 explanation: |
-  Enligt Aristoteles har pengar tre funktioner: de är
-  värdebevarare, ett medium för Exchange och en räkneenhet
-  konto. Numera är funktionen som Exchange-medium
-  allmänt erkänd som den viktigaste, före de andra två.
+  Guld kan inte hänga med i en globaliserad och digital värld
+  eftersom det behöver en central enhet för att göra det delbart och
+  lätt utbytbart. Detta gör det mindre praktiskt att använda i
+  en värld där transaktionerna blir alltmer digitala och
+  decentraliserade.
 reviewed: true

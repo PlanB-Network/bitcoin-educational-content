@@ -1,0 +1,9 @@
+question: Jaká je hlavní slabina, kvůli které selhaly první pokusy o digitální měnu před Bitcoin?
+answer: Spoléhaly na centrální servery, které mohly být cenzurovány nebo vypnuty
+wrong_answers:
+  - Pro zabezpečení transakcí používaly nedostatečné kryptografické algoritmy
+  - Neměly dostatečný výpočetní výkon pro efektivní zpracování transakcí
+  - Nepodařilo se jim zavést řádné mechanismy ověřování uživatelů
+explanation: |
+  První digitální měny selhaly, protože jejich zpracování a ověřování transakcí záviselo na centrálních serverech. Jak je vysvětleno v této kapitole, tato centralizace se stala jejich "Achillovou patou", protože vlády nebo jiní protivníci mohli tyto centrální body selhání snadno cenzurovat, kontrolovat nebo vypnout. Dokonce i pokusy o použití více serverů ve federaci stále ponechávaly systém zranitelný, protože každý server mohl "selhat nebo být donucen selhat jeden po druhém" Bitcoin to vyřešil tím, že prostřednictvím decentralizovaného systému proof-of-work odstranil potřebu jakéhokoli centrálního orgánu.
+reviewed: false

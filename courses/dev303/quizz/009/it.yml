@@ -1,0 +1,8 @@
+question: Cosa crea automaticamente il comando `cargo new project_name` come parte della struttura del progetto?
+answer: Un repository Git, un file Cargo.toml e un file main.rs di base con il programma Hello World
+wrong_answers:
+  - Solo un file di configurazione Cargo.toml e una struttura di directory sorgente vuota
+  - Una suite di test completa, file di documentazione e una configurazione pronta per la produzione
+  - File binari eseguibili, directory di destinazione e configurazione di build del rilascio
+explanation: |
+  Il comando `cargo new` crea una base di progetto completa, che include un repository Git per il controllo della versione, un file Cargo.toml per la configurazione del progetto e le dipendenze e un file main.rs di base contenente un programma "Hello, world!". Questo fornisce tutto il necessario per iniziare immediatamente lo sviluppo. Le altre opzioni non sono corrette, perché cargo new non crea suite di test, file di documentazione, binari eseguibili o artefatti di compilazione, ma solo la struttura iniziale del progetto.

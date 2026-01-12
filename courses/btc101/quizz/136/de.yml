@@ -1,12 +1,11 @@
-question: Wie stellt das Bitcoin-Netzwerk sicher, dass es zu kostspielig ist, innerhalb des Bitcoin-Protokolls bösartig zu handeln?
-
-answer: Durch Protokollregeln und wirtschaftliche Anreize.
-
+question: Was würde passieren, wenn ein Knotenbenutzer beschließt, anderen Regeln zu folgen, die den bestehenden Konsensregeln widersprechen?
+answer: Der Knoten wird nicht länger Teil des Bitcoin-Netzwerks sein.
 wrong_answers:
-  - Durch strenge Regulierung und Überwachung.
-  - Durch den Einsatz fortschrittlicher Sicherheitsmaßnahmen.
-  - Durch die Drohung mit rechtlichen Schritten.
-
-explanation: Das Bitcoin-Netzwerk stellt sicher, dass es zu kostspielig ist, innerhalb des Bitcoin-Protokolls bösartig zu handeln, durch Protokollregeln und wirtschaftliche Anreize. Dies eliminiert die Notwendigkeit von Vertrauen in jedem Schritt der Übertragung von Bitcoin-Besitz.
-
+  - Der Knoten wird Teil eines anderen Bitcoin-Netzwerks.
+  - Der Knoten wird vom Bitcoin-Netzwerk bestraft.
+  - Der Knoten wird vom Bitcoin-Netzwerk belohnt.
+explanation: |
+  Wenn ein Knotenbenutzer entscheidet, anderen Regeln zu folgen, die
+  die aktuellen Konsensregeln ungültig machen, dann wird dieser Knoten
+  nicht länger Teil des Bitcoin-Netzwerks sein.
 reviewed: true

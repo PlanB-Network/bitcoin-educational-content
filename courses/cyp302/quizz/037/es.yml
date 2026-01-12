@@ -6,4 +6,4 @@ wrong_answers:
   - Un grupo de transformaciones geométricas aleatorias dispuestas en adherencia a ciertos axiomas
 explanation: |
   Una estructura algebraica es un conjunto de elementos definidos con una o más operaciones, como la adición o la multiplicación, que se adhieren a ciertos axiomas, y es esencial para estructurar conceptos en teoría de números.
-reviewed: false
+reviewed: true

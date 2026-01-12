@@ -1,0 +1,12 @@
+question: Ni gute abacukuzi ba Bitcoin bashobora gufasha mu gucunga inguvu zisigaye no gutuma imirongo y’amashanyarazi idahungabana?
+answer: Abacukuzi b’amabuye y’agaciro ba Bitcoin barashobora gufata inguvu zisigaye, bagakora nk’ikintu gishobora guhinduka, bagahindura ivyo basaba aho gukoresha Supply. Mu isi aho amashanyarazi akomoka ku bikoresho bishobora gusubirwamwo (atashobora kugenzurwa) aguma yiyongera, abacukuzi barashobora kugira uruhara runini mu gutuma amashanyarazi yacu agira uburinganire, mu gihe bungukirwa n’amashanyarazi atari make canke arengeye kugira ngo bashobore gukoresha ibikorwa vyabo vya Mining.
+wrong_answers:
+  - Abacukuzi b’amabuye y’agaciro ba Bitcoin barashobora gufasha mu gucunga inguvu zirengeye mu kubika inguvu zirengeye mu mabati.
+  - Abacukuzi b’amabuye y’agaciro ba Bitcoin barashobora gufasha mu gucunga inguvu zisigaye mu kugurisha inguvu zisigaye zigasubira ku ruzitiro.
+  - Abacukuzi b’amabuye y’agaciro ba Bitcoin barashobora gufasha mu gucunga inguvu zirengeye mu guhindura inguvu zirengeye zikaba ubushuhe.
+explanation: |
+  Ico kigabane kirasigura ko abacukuzi b’amabuye y’agaciro ba Bitcoin bashobora gufata inguvu .
+  amasaranganya, akora nk'ikintu gishobora guhinduka, guhindura ivyo usaba
+  aho gukoresha Supply. Ivyo birashobora gufasha mu gucunga neza inguvu .
+  amasaranganya n’uguhagarika amashanyarazi.
+reviewed: true

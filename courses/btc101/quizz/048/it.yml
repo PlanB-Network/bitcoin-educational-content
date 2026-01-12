@@ -1,12 +1,9 @@
-question: Qual è la conseguenza dell'iperinflazione?
-answer: Una drastica diminuzione del valore della valuta.
+question: Qual era circa il tasso di inflazione in Germania nell’ottobre 1923, nel pieno dell’iperinflazione?
+answer: 29.500%
 wrong_answers:
-  - Una piccola diminuzione del valore della valuta.
-  - Un drastico aumento del valore della valuta.
-  - Un piccolo aumento del valore della valuta.
+  - 5.200%
+  - 76%
+  - 110%
 explanation: |
-  A causa dell'iperinflazione, gli individui perdono 
-  completamente la fiducia nella valuta, il che porta a
-  una drastica diminuzione del suo valore in un breve 
-  periodo di tempo.
-reviewed: true
+  Il mese con il tasso di inflazione più alto in Germania fu ottobre 1923, raggiungendo un picco del 29.500%.
+reviewed: false

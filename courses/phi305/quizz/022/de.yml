@@ -1,0 +1,9 @@
+question: Wird das Konzept der "Maschinentiere" zugeschrieben?
+answer: Descartes.
+wrong_answers:
+  - Spinoza.
+  - Galileo.
+  - Einstein.
+explanation: |
+  Das Konzept der Maschinentiere wird auf Descartes zurückgeführt. Nach dieser Theorie sind Tiere komplexe Automaten ohne Seele oder Bewusstsein, die ausschließlich nach mechanischen Prinzipien funktionieren.
+reviewed: false

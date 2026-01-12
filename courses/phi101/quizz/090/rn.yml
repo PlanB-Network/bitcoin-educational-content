@@ -1,0 +1,9 @@
+question: Nk’uko Tocqueville abivuga, ni ingaruka izihe ziri mu kungana kw’ibintu?
+answer: Abantu ku giti cabo bararushiriza gusenyuka kandi bakitandukanya n’abandi.
+wrong_answers:
+  - Abantu ku giti cabo bararushiriza kwigenga no kwigenga.
+  - Abantu ku giti cabo bararushiriza kuba abatunzi kandi bagaterimbere.
+  - Ubukazi buraba buke.
+explanation: |
+  Tocqueville abona ko ukungana kw’ibintu bishobora gutuma abantu bisubiramwo, bikaba bituma barushiriza gushikirwa n’ingorane no kwitandukanya n’abandi, kuko batakaza amasano y’imibano n’ugushigikirwa rusangi vyari bitangwa n’ubukuru bwa kera.
+reviewed: true

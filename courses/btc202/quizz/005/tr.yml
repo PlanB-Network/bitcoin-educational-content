@@ -1,0 +1,9 @@
+question: Hangi yazılım hem Full node hem de Wallet işlevlerini birleştirir?
+answer: Bitcoin core
+wrong_answers:
+  - Sparrow wallet
+  - Ashigaru
+  - Satoshi'ün Wallet'i
+explanation: |
+  Bitcoin core, yalnızca Wallet yönetim yazılımı olan diğer yazılım paketlerinin aksine, hem Full node hem de Wallet olarak işlev görür.
+reviewed: true

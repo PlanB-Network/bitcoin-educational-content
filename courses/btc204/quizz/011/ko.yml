@@ -1,0 +1,9 @@
+question: Bitcoin과 같은 디지털 화폐로 달성하기 가장 어려운 특성은 무엇인가요?
+answer: Double-spending의 부재
+wrong_answers:
+  - 무결성
+  - 진정성
+  - 진실성
+explanation: |
+  디지털 화폐의 경우, 디지털 재화는 본질적으로 정보이기 때문에 Double-spending의 부재를 보장하는 것은 더 복잡합니다. 실물 상품과 달리 정보는 교환 중에 분할되지 않고 증식하여 전파됩니다.
+reviewed: true

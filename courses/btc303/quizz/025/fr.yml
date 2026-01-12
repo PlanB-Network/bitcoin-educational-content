@@ -1,0 +1,9 @@
+question: Quelles sont les deux principales sources de fuite d'informations financières privées lors de l'utilisation de Bitcoin ?
+answer: On-chain grâce à l'analyse de la blockchain et off-chain grâce aux communications interceptées
+wrong_answers:
+  - Grâce aux bogues du logiciel wallet et aux violations des données de la piscine mining
+  - Via des piratages de bourses et des programmes de surveillance gouvernementaux
+  - Par le biais de messages sur les médias sociaux et d'annonces de transactions publiques
+explanation: |
+  Selon le contenu du chapitre, les données privées peuvent fuir de deux manières principales : on-chain et off-chain. Les fuites sur la chaîne se produisent lors de l'analyse de la blockchain publique, où les modèles de transaction, la réutilisation des adresses et les regroupements peuvent révéler des informations financières. Les fuites hors chaîne se produisent lorsque des acteurs malveillants interceptent des communications internet ou par d'autres moyens non liés à la chaîne de blocs. Bien que les mauvaises réponses mentionnent des problèmes de sécurité réels dans l'écosystème Bitcoin, elles ne représentent pas la catégorisation fondamentale de la manière dont les fuites de confidentialité se produisent, telle qu'elle est décrite dans le document.
+reviewed: false

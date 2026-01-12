@@ -1,0 +1,9 @@
+question: Ni igiki kigora gukura urufunguzo rwa bose rw’umwana mu rufunguzo rwa bose rw’umuvyeyi?
+answer: Urufunguzo rw'umwana rutegerezwa kuba rusanzwe
+wrong_answers:
+  - Urufunguzo rw'umwana rutegerezwa gukomera
+  - chain code itegerezwa kuba isa n'iy'urufunguzo rw'umuvyeyi
+  - Uburyo butegerezwa kubamwo urufunguzo rw'ibanga rw'umuvyeyi
+explanation: |
+  Urufunguzo rwa bose rw'umwana rushobora gusa gukomoka ku rufunguzo rwa bose rw'umuvyeyi iyo rusanzwe, rudakomeye.
+reviewed: false

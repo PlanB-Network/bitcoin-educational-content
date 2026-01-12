@@ -1,11 +1,12 @@
-question: Womit ist die Adoptionskurve von Bitcoin vergleichbar?
-answer: Eine S-Kurve.
+question: Was ist der Status von Bitcoin in El Salvador?
+answer: Gesetzliches Zahlungsmittel.
 wrong_answers:
-  - Eine U-Kurve.
-  - Eine V-Kurve.
-  - Eine W-Kurve.
-explanation: >-
-  Die Adoption von Bitcoin, wie bei jeder neuen Technologie, folgt einer S-Kurve.
-  Dies ist ein gängiges Muster für die Adoption neuer Technologien, bei dem die Adoption
-  langsam beginnt, dann beschleunigt, bevor sie verlangsamt, wenn die Sättigung erreicht ist.
+  - Kriminalisiert.
+  - Unbekannt.
+  - Unreguliert.
+explanation: |
+  Der Kursinhalt erwähnt, dass einige Länder die Verwendung von Bitcoin verboten
+  und kriminalisiert haben, was die Komplexität der Bitcoin-Adoption basierend auf Kulturen, Epochen und
+  Nationen erhöht. El Salvador war jedoch mutig genug, es
+  als gesetzliches Zahlungsmittel zu adoptieren.
 reviewed: true

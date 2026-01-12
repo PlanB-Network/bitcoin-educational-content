@@ -1,0 +1,12 @@
+question: Ni ubutumwa ubuhe buri mu gice ca mbere ca Bitcoin Blockchain?
+answer: 03/jan/2009 Umukuru w’igihugu ari ku ruhande rw’ugutabara ubwa kabiri amabanki.
+wrong_answers:
+  - Turashobora gutsinda intambara ikomeye mu mahiganwa y’ibirwanisho maze tukaronka akarere gashasha k’umwidegemvyo mu myaka myinshi.
+  - Intwaro zirazi neza guca imitwe y’imihora igenzurwa hagati nka Napster, ariko imihora ya P2P isukuye nka Gnutella na Tor isa n’iyifise iyayo.
+  - Nta na kimwe muri ivyo bivugwa haruguru.
+explanation: |
+  Igipande ca mbere c’indege Bitcoin Blockchain, kizwi kandi kw’izina rya
+  igice ca Genesis, kirimwo ubutumwa 03/munyonyo/2009
+  Chancelier ari ku ruhande rw’ugufasha amabanki ubwa kabiri, ari vyo
+  umutwe w’Igihe uwo musi ku Timestamp igice ca Genesis.
+reviewed: true

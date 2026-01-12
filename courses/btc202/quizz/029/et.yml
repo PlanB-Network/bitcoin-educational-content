@@ -1,0 +1,9 @@
+question: Mis on Full node peamine omadus?
+answer: See laeb alla ja valideerib kogu Blockchain
+wrong_answers:
+  - See säilitab ainult plokkide päised
+  - See kustutab vanad plokid pärast kontrollimist
+  - See sõltub teise sõlme tehingute valideerimisest
+explanation: |
+  Full node säilitab kogu Blockchain ja valideerib iga ploki ja tehingu iseseisvalt.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 對 Gilles Deleuze 來說，道德是什麼？
+answer: 善與道德之間的判斷系統。
+wrong_answers:
+  - 一項宗教倡議。
+  - 法律的結果。
+  - 一個永恆的原則。
+explanation: |
+  對 Gilles Deleuze 來說，道德是一種判斷系統，根據超越的價值將行為分為善與惡。他將之與斯賓諾茨主義倫理學對比，斯賓諾茨主義倫理學根據行動的力量來評估存在的模式。
+reviewed: false

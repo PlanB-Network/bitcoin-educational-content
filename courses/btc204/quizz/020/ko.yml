@@ -1,0 +1,9 @@
+question: 패턴을 검색할 때 거래의 어떤 부분을 연구할 것인가요?
+answer: 구조
+wrong_answers:
+  - 메타데이터
+  - 스크립트
+  - 시그니처
+explanation: |
+  트랜잭션 패턴은 단순히 Blockchain에서 찾을 수 있는 일반적인 트랜잭션의 모델 또는 전체 구조로, 그 해석 가능성이 알려져 있습니다.
+reviewed: true

@@ -1,8 +1,8 @@
 question: Quel type d'opération Rust effectue-t-il par défaut lors de l'affectation d'une variable String à une autre ?
-answer: Une opération de déplacement qui transfère la propriété et invalide la variable source
+answer: Une opération de déplacement qui transfère la propriété et invalide la variable source.
 wrong_answers:
-  - Une copie profonde qui duplique toutes les données du tas pour créer des chaînes indépendantes
-  - Une copie superficielle qui crée deux pointeurs sur la même mémoire de tas
-  - Une création de référence qui permet aux deux variables de partager un accès en lecture seule
+  - Une copie profonde qui duplique toutes les données du tas pour créer des chaînes indépendantes.
+  - Une copie superficielle qui crée deux pointeurs sur la même mémoire de tas.
+  - Une création de référence qui permet aux deux variables de partager un accès en lecture seule.
 explanation: |
   Rust effectue par défaut une opération de déplacement lors de l'affectation de types complexes tels que String. Cette opération transfère la propriété de la variable source à la variable destination tout en invalidant la source, ce qui permet d'éviter les scénarios dangereux dans lesquels plusieurs variables pourraient modifier la même mémoire de tas. Une copie profonde serait inefficace pour les grandes chaînes de caractères, une copie superficielle créerait des problèmes de sécurité de la mémoire avec plusieurs pointeurs sur les mêmes données, et la création de références nécessite une syntaxe explicite avec l'opérateur esperluette.

@@ -409,20 +409,18 @@ Wie kann in einem solchen Umfeld "gesundes" Kapital - das von Unternehmern sorgf
 
 Bitcoin bietet eine Möglichkeit, Kapital zu akkumulieren und langfristig zu bewahren, ohne die Erosion durch Geldinflation. Als Wertaufbewahrungsmittel ermöglicht er es Unternehmen, zukünftige Investitionen sicher zu planen, die Dominanz schuldengetriebener Systeme in Frage zu stellen und eine Rückkehr zu echter, produktiver Kapitalakkumulation zu fördern.
 
-### Mehr über die österreichische Schule der Wirtschaftswissenschaften
+### Mehr über die österreichische Schule der Nationalökonomie
 
-Die **Österreichische Schule der Nationalökonomie** ist eine Tradition ökonomischen Denkens, die freie Märkte, individuelle Freiheit und die Bedeutung menschlichen Handelns in wirtschaftlichen Prozessen schätzt. du kritisiert staatliche Eingriffe, insbesondere in Geld und Märkte, und argumentiert, dass der Einzelne, geleitet von seinen subjektiven Präferenzen, seine eigenen Interessen am besten beurteilen kann.
+Die **Österreichische Schule der Nationalökonomie** ist eine Tradition ökonomischen Denkens, die freie Märkte, individuelle Freiheit und die Bedeutung menschlichen Handelns in wirtschaftlichen Prozessen schätzt. Sie kritisiert staatliche Eingriffe, insbesondere in Geld und Märkte, und argumentiert, dass der Einzelne, geleitet von seinen subjektiven Präferenzen, seine eigenen Interessen am besten beurteilen kann.
 
 **Schlüsselpersonen der Österreichischen Schule**
 
-
 - **Carl Menger**: Der Begründer der Österreichischen Schule, Menger, entwickelte die Theorie des subjektiven Wertes, die besagt, dass der Wert von Gütern von den individuellen Präferenzen und nicht von den Produktionskosten abhängt.
 - **Ludwig von Mises**: Als Eckpfeiler der Österreichischen Schule führte Mises die Praxeologie (die Theorie des menschlichen Handelns) ein und verfasste *Human Action*, eine tiefgreifende Kritik an Sozialismus und zentraler Planung.
-- **Friedrich Hayek**: Hayek, ein Schüler von Mises, erhielt 1974 den Nobelpreis für Wirtschaftswissenschaften für seine Arbeit über dezentralisiertes Wissen und die Spontaneität des Marktes. In seinem Buch _The Road to Serfdom_ kritisierte er die zentralisierte Kontrolle scharf.
-- **Murray Rothbard**: Als Schüler von Mises und überzeugter Verfechter des Libertarismus entwickelte Rothbard die Theorie des Anarchokapitalismus, die eine staatenlose Gesellschaft vorsieht, die durch freiwillige Verträge geregelt wird. Sein Buch _Mensch, Wirtschaft und Staat_ ist ein bahnbrechendes Werk der österreichischen Wirtschaftswissenschaft.
+- **Friedrich Hayek**: Hayek, ein Schüler von Mises, erhielt 1974 den Nobelpreis für Wirtschaftswissenschaften für seine Arbeit über dezentralisiertes Wissen und die Spontaneität des Marktes. In seinem Buch *The Road to Serfdom* kritisierte er die zentralisierte Kontrolle scharf.
+- **Murray Rothbard**: Als Schüler von Mises und überzeugter Verfechter des Libertarismus entwickelte Rothbard die Theorie des Anarchokapitalismus, die eine staatenlose Gesellschaft vorsieht, die durch freiwillige Verträge geregelt wird. Sein Buch *Mensch, Wirtschaft und Staat* ist ein bahnbrechendes Werk der österreichischen Wirtschaftswissenschaft.
 
 **Andere einflussreiche Wirtschaftswissenschaftler**
-
 
 - **Milton Friedman**: Obwohl er nicht direkt mit der Österreichischen Schule in Verbindung gebracht wird, vertrat Friedman viele marktwirtschaftliche und liberale Ideen. Seine monetaristische Politik unterscheidet sich vom österreichischen Denken, teilt aber dessen Kritik an übermäßigen staatlichen Eingriffen in die Wirtschaft.
 - **Frédéric Bastiat**: Der französische Wirtschaftswissenschaftler Bastiat aus dem 19. Jahrhundert beeinflusste die Österreichische Schule mit seinen Werken über den Freihandel und die unsichtbaren Folgen der Wirtschaftspolitik. Sein Essay *Was man sieht und was man nicht sieht* ist ein Grundlagentext des Wirtschaftsliberalismus.
@@ -433,7 +431,7 @@ Die **Österreichische Schule der Nationalökonomie** ist eine Tradition ökonom
 
 **Kernbeiträge und Ideen**
 
-Diese Denker prägten die Vorstellung, dass staatliche Eingriffe die Märkte verzerren und dass wirtschaftliche Freiheit für den Wohlstand und die harmonische Koordinierung menschlichen Handelns unerlässlich ist. deine Erkenntnisse verdeutlichen die Bedeutung dezentraler Entscheidungsfindung und die Gefahren zentraler Kontrolle in Wirtschaftssystemen.
+Diese Denker prägten die Vorstellung, dass staatliche Eingriffe die Märkte verzerren und dass wirtschaftliche Freiheit für den Wohlstand und die harmonische Koordinierung menschlichen Handelns unerlässlich ist. Ihre Erkenntnisse verdeutlichen die Bedeutung dezentraler Entscheidungsfindung und die Gefahren zentraler Kontrolle in Wirtschaftssystemen.
 
 Für weitere Informationen zu diesem Thema:
 
@@ -449,10 +447,9 @@ https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 ### Die Herausforderungen an die Finanzverwaltung eines Unternehmens
 
-Die Schatzkammer ist der Ort, an dem man wertvolle Dinge aufbewahrt. Ein gesundes Unternehmen verfügt über eine angemessene Kapitalausstattung, damit es künftige Unwägbarkeiten bewältigen und seine Investitionen planen kann. Heutzutage wird ein Teil der überschüssigen Eigenmittel in Finanzanlagen angelegt, die als besonders "liquide" gelten, wie Anleihen, Festgelder usw.
+Die Bilanz ist der Ort, an dem man wertvolle Dinge aufbewahrt. Ein gesundes Unternehmen verfügt über eine angemessene Kapitalausstattung, damit es künftige Unwägbarkeiten bewältigen und seine Investitionen planen kann. Heutzutage wird ein Teil der überschüssigen Eigenmittel in Finanzanlagen angelegt, die als besonders "liquide" gelten, wie Anleihen, Festgelder usw.
 
 Über einen sehr langen Zeitraum hinweg nutzen einige Unternehmen illiquide Vermögenswerte wie Immobilien, ohne sich bestimmter Gefahren bewusst zu sein:
-
 
 - Illiquidität im Falle einer Krise
 - Letztlich eher geringe Rendite nach Abzug der Gebühren
@@ -461,11 +458,11 @@ Die Schatzkammer ist der Ort, an dem man wertvolle Dinge aufbewahrt. Ein gesunde
 
 Werfen wir einen kurzen Blick auf das Umfeld, in dem Unternehmen tätig sind.
 
-**Reale Inflation**: Sehr zum Missfallen ihrer Auftraggeber streben die Zentralbanken eine jährliche Inflation von 2 % an, was einen Wertverlust der Währung von 40 % über 20 Jahre bedeutet. Nimmt man noch Perioden mit höherer Inflation hinzu, wird deutlich, dass Unternehmen die Früchte ihrer Arbeit nicht allein in der Währung aufbewahren können. du müssen komplexe Finanzstrategien umsetzen, die zwangsläufig mit einer Reihe von Risiken verbunden sind. Diese Strategien sind für sehr kleine Unternehmen **natürlich unzugänglich**, da diese bereits stark mit ihren Kernaktivitäten beschäftigt sind.
+**Reale Inflation**: Sehr zum Missfallen ihrer Auftraggeber streben die Zentralbanken eine jährliche Inflation von 2 % an, was einen Wertverlust der Währung von 40 % über 20 Jahre bedeutet. Nimmt man noch Perioden mit höherer Inflation hinzu, wird deutlich, dass Unternehmen die Früchte ihrer Arbeit nicht allein in der Währung aufbewahren können. Sie müssen komplexe Finanzstrategien umsetzen, die zwangsläufig mit einer Reihe von Risiken verbunden sind. Diese Strategien sind für sehr kleine Unternehmen **natürlich unzugänglich**, da diese bereits stark mit ihren Kernaktivitäten beschäftigt sind.
 
-**Versteckte Inflation**: In einem schuldenbasierten, von den Zentralbanken unterstützten Geldsystem mit Mindestreserve wächst die **Gesamtgeldmenge im Durchschnitt um etwa 7 % pro Jahr** (z. B. M1 in der Eurozone oder den USA). Das bedeutet, dass dein "Anteil am Kuchen" in nur wenigen Jahren halbiert wird - es sei denn, du haben privilegierten Zugang zum Finanzhahn und können weiter wachsen, indem du sich fremdfinanzieren und schnell Vermögenswerte zu "alten Preisen" kaufen, bevor das neu geschaffene Geld sie in die Höhe treibt. Dies ist der Cantillon-Effekt, der den Vermögenstransfer zu den Wohlhabenderen teilweise erklärt, während das "Kapital" fälschlicherweise als Schuldiger verantwortlich gemacht wird (siehe unsere Einführung zum Kapital oben).
+**Versteckte Inflation**: In einem schuldenbasierten, von den Zentralbanken unterstützten Geldsystem mit Mindestreserve wächst die **Gesamtgeldmenge im Durchschnitt um etwa 7 % pro Jahr** (z. B. M1 in der Eurozone oder den USA). Das bedeutet, dass dein "Anteil am Kuchen" in nur wenigen Jahren halbiert wird - es sei denn, du hast privilegierten Zugang zum Finanzhahn und kannst weiter wachsen, indem du dich fremdfinanzierst und schnell Vermögenswerte zu "alten Preisen" kaufst, bevor das neu geschaffene Geld sie in die Höhe treibt. Dies ist der Cantillon-Effekt, der den Vermögenstransfer zu den Wohlhabenderen teilweise erklärt, während das "Kapital" fälschlicherweise als Schuldiger verantwortlich gemacht wird (siehe unsere Einführung zum Kapital oben).
 
-**Gegenparteirisiken**: Das derzeitige Finanzsystem ist riskant, und du haben möglicherweise nicht immer Zugang zu "Ihrem Geld" Ohne das Bild eines Kartenhauses heraufzubeschwören, muss man sich darüber im Klaren sein, dass Finanzinstitute bei der kleinsten Krise Gewinne privatisieren und Verluste sozialisieren. In einem System mit "buchstabengetreuem" Geld (Geld, das in einem Buch aufgezeichnet wird) ist das Geld in der Bank lediglich eine "Forderung"; du besitzen es nicht wirklich, und die Banken selbst "haben es nicht" (fraktionierte Reserven). Dieses Geld ist in gewisser Weise wirklich magisch. Einige renommierte Banken, die sich einst über Bitcoin mokierten, gibt es heute nicht mehr, wie zum Beispiel die Credit Suisse.
+**Gegenparteirisiken**: Das derzeitige Finanzsystem ist riskant, und du hast möglicherweise nicht immer Zugang zu "deinem Geld". Ohne das Bild eines Kartenhauses heraufzubeschwören, muss man sich darüber im Klaren sein, dass Finanzinstitute bei der kleinsten Krise Gewinne privatisieren und Verluste sozialisieren. In einem System mit "buchstabengetreuem" Geld (Geld, das in einem Kassenbuch aufgezeichnet wird) ist das Geld in der Bank lediglich eine "Forderung"; du besitzt es nicht wirklich, und die Banken selbst "haben es nicht" (Mindestreserve). Dieses Geld ist in gewisser Weise wirklich magisch. Einige renommierte Banken, die sich einst Bitcoin verspotteten, gibt es heute nicht mehr, wie zum Beispiel die Credit Suisse.
 
 Dieser Mangel an Vertrauen führt zu einem Wiederaufleben von "Inhaber"-Vermögenswerten wie Gold (auch wenn es kompliziert ist, es zu sichern, zu transportieren und aufzuteilen usw.) und natürlich Bitcoin, dem Newcomer.
 
@@ -473,13 +470,13 @@ Dieser Mangel an Vertrauen führt zu einem Wiederaufleben von "Inhaber"-Vermöge
 
 Bitcoin bietet eine radikale Alternative. Er ist **ein Inhaber-Vermögenswert, ohne zentralen Emittenten**, ist fast unmöglich zu beschlagnahmen und profitiert von Netzwerkeffekten. "Echte" Bitcoin-Nutzer verwenden ihn, um die Früchte ihrer Arbeit zu speichern, da er als ein Wertaufbewahrungsmittel angesehen wird, das sowohl gegen Zensur als auch gegen Inflation resistent ist. Dank des Netzwerkeffekts, der durch das Metcalfe'sche Gesetz veranschaulicht wird, erhöht jeder neue überzeugte Nutzer den Wert des Netzwerks; mit zunehmender Zahl der Teilnehmer steigt der Nutzen von Bitcoin exponentiell an. Dieses Modell macht Bitcoin zu einer besonderen und vielversprechenden Form von Kapital, das auf der Akzeptanz und dem Vertrauen der Nutzer beruht.
 
-Bitcoin ist der **liquideste Vermögenswert der Welt**, der rund um die Uhr und ohne Unterbrechung funktioniert, im Gegensatz zu den traditionellen Finanzmärkten, die Schließungszeiten und "Unterbrecher" haben Diese Liquidität ermöglicht es den Nutzern, Bitcoins jederzeit zu kaufen oder zu verkaufen, sei es als Reaktion auf gute oder schlechte Nachrichten (z. B. Raketenstarts, Kriege usw.).
+Bitcoin ist der **liquideste Vermögenswert der Welt**, der rund um die Uhr und ohne Unterbrechung funktioniert, im Gegensatz zu den traditionellen Finanzmärkten, die Schließungszeiten und "Unterbrecher" haben. Diese Liquidität ermöglicht es den Nutzern, Bitcoins jederzeit zu kaufen oder zu verkaufen, sei es als Reaktion auf gute oder schlechte Nachrichten (z. B. Raketenstarts, Kriege usw.).
 
-Über ein Jahrzehnt hat Bitcoin ein durchschnittliches jährliches Wachstum von mehr als 60 % verzeichnet. Diese einzigartige Performance hat es langfristigen Inhabern ermöglicht, dein Anfangskapital zu erhalten, im Gegensatz zu anderen Instrumenten.
+Über ein Jahrzehnt hat Bitcoin ein durchschnittliches jährliches Wachstum von mehr als 60 % verzeichnet. Diese einzigartige Performance hat es langfristigen Inhabern ermöglicht, ihr Anfangskapital zu erhalten, im Gegensatz zu anderen Instrumenten.
 
 Es gibt jedoch einige wichtige Faktoren, die zu beachten sind:
 
-Erstens: **Performance in der Vergangenheit ist keine Garantie für zukünftige Ergebnisse**. Solange Bitcoin **sicher und dezentralisiert** bleibt, kann man vernünftigerweise auf einen jährlichen Preisanstieg von weit über 20 % pro Jahr für das nächste Jahrzehnt hoffen, was ihn zu einem brauchbaren Treasury-Instrument macht.
+Erstens: **Performance in der Vergangenheit ist keine Garantie für zukünftige Ergebnisse**. Solange Bitcoin **sicher und dezentralisiert** bleibt, kann man vernünftigerweise auf einen jährlichen Preisanstieg von weit über 20 % pro Jahr für das nächste Jahrzehnt hoffen, was ihn zu einem brauchbaren Instrument für den Vermögenserhalt macht.
 
 Zweitens hat Bitcoin bisher **4-Jahres-Zyklen** erlebt, was bedeutet, dass bei einem Zeithorizont von mehr als 4 Jahren die Wette immer profitabel gewesen ist. Für diejenigen, die Bitcoin als Investition sehen, kann ein kurzfristiger Zeithorizont (<4 Jahre) riskant sein.
 
@@ -489,7 +486,7 @@ Zweitens hat Bitcoin bisher **4-Jahres-Zyklen** erlebt, was bedeutet, dass bei e
 
 Darüber hinaus ist es ratsam, das eigene Engagement in Bitcoin **proportional** zum eigenen Kenntnisstand zu halten. Es ist auch wichtig, nicht in Eile zu sein oder zu versuchen, den Markt perfekt zu timen.
 
-Schließlich gilt Bitcoin als **volatil**. Um genau zu sein, ist sein Preis, ausgedrückt in Einheiten von Fiatgeld, volatil. Ein Teil dieser Volatilität ist natürlich für einen noch jungen Vermögenswert, aber sie wird auch durch die Anwesenheit von Spekulanten verstärkt, die ihn nicht als langfristigen Wertaufbewahrungsort nutzen, sondern auf schnelle Gewinne aus sind. Darüber hinaus verstärkt der gehebelte Handel (Einsatz von Fremdkapital zur Erhöhung der Handelspositionen) sowohl die Aufwärts- als auch die Abwärtsbewegungen des Preises und verhindert, dass Bitcoin einem geraden Aufwärtspfad folgt. Dies führt zu ausgeprägteren Schwankungen, aber im Laufe der Zeit, wenn die Basis der engagierten Nutzer wächst, scheint sich diese Volatilität zu stabilisieren. Zusammenfassend lässt sich sagen, dass es **unmöglich ist, einen Vermögenswert mit einer so hohen Performance wie Bitcoin ohne Volatilität zu haben**, aber man kann sicherlich weit weniger performante Vermögenswerte mit weniger Volatilität haben.
+Schließlich gilt Bitcoin als **sehr volatil**. Um genau zu sein, ist sein Preis, ausgedrückt in Einheiten von Fiatgeld, volatil. Ein Teil dieser Volatilität ist natürlich für einen noch jungen Vermögenswert, aber sie wird auch durch die Anwesenheit von Spekulanten verstärkt, die ihn nicht als langfristigen Wertaufbewahrungsort nutzen, sondern auf schnelle Gewinne aus sind. Darüber hinaus verstärkt der gehebelte Handel (Einsatz von Fremdkapital zur Erhöhung der Handelspositionen) sowohl die Aufwärts- als auch die Abwärtsbewegungen des Preises und verhindert, dass Bitcoin einem geraden Aufwärtspfad folgt. Dies führt zu ausgeprägteren Schwankungen, aber im Laufe der Zeit, wenn die Basis der engagierten Nutzer wächst, scheint sich diese Volatilität zu stabilisieren. Zusammenfassend lässt sich sagen, dass es **unmöglich ist, einen Vermögenswert mit einer so hohen Performance wie Bitcoin ohne Volatilität zu haben**, aber man kann sicherlich weit weniger performende Vermögenswerte mit weniger Volatilität haben.
 
 ### Bitcoin wird von der Wall Street übernommen
 
@@ -499,9 +496,9 @@ Jüngste Äußerungen von **BlackRock** unterstreichen das Potenzial von Bitcoin
 
 Die **Spot Bitcoin ETFs**, die im Januar 2024 aufgelegt wurden, haben einen phänomenalen Erfolg - den **erfolgreichsten** ETF-Start in der Geschichte - mit fast 20 Milliarden Dollar an Nettozuflüssen von Januar bis November. Das ist etwa viermal so viel wie bei der nächstbesten ETF-Auflegung, dem Nasdaq-100 QQQ. Diese ETFs bieten einen einfacheren und besser regulierten Zugang zu Bitcoin, was ihn **weiterhin legitimiert** und einen bedeutenden Zufluss an institutionellem Kapital angezogen hat.
 
-Bitcoin-ETFs liegen bei der **institutionellen Akzeptanz** mit großem Abstand an der Spitze - sie übertreffen die zehn am schnellsten wachsenden ETFs, sowohl in Bezug auf die Anzahl der beteiligten Institutionen als auch auf die Größe des verwalteten Vermögens (AUM). Der Erfolg dieser Bitcoin-ETFs unterstreicht die wachsende Nachfrage nach Anlageinstrumenten, die mit digitalen Vermögenswerten verbunden sind, und festigt damit den Platz von Bitcoin in der traditionellen Finanzlandschaft.
+Bitcoin-ETFs liegen bei der **institutionellen Akzeptanz** mit großem Abstand an der Spitze - sie übertreffen die zehn am schnellsten wachsenden ETFs, sowohl in Bezug auf die Anzahl der beteiligten Institutionen als auch auf die Größe des verwalteten Vermögens (AUM, Assets under Management). Der Erfolg dieser Bitcoin-ETFs unterstreicht die wachsende Nachfrage nach Anlageinstrumenten, die mit digitalen Vermögenswerten verbunden sind, und festigt damit den Platz von Bitcoin in der traditionellen Finanzlandschaft.
 
-Bitcoin spielt jetzt auf dem "Wertaufbewahrungsmarkt" **Markt**. Von der Größenordnung her ist er nur ein Tropfen auf den heißen Stein: gerade einmal 1.800 Milliarden Dollar im Vergleich zu den 18.000 Milliarden Dollar von Gold oder den 500.000 Milliarden Dollar von Immobilien. Sein Marktanteil von etwa 0,1 % bietet ihm jedoch ein enormes Wachstumspotenzial, zumal seine Konkurrenten Mühe haben, neue Nutzer zu gewinnen.
+Bitcoin spielt jetzt auf dem **Wertspeichermarkt** mit. Von der Größenordnung her ist er nur ein Tropfen auf dem heißen Stein: gerade einmal 1.800 Milliarden Dollar im Vergleich zu den 18.000 Milliarden Dollar von Gold oder den 500.000 Milliarden Dollar von Immobilien. Sein Marktanteil von etwa 0,1 % bietet ihm jedoch ein enormes Wachstumspotenzial, zumal seine Konkurrenten Mühe haben, neue Nutzer zu gewinnen.
 
 | Ticker | 1D Fluss (M USD) | 1W Fluss (M USD) | 1M Fluss (M USD) | 3M Fluss (M USD) | YTD Fluss (M USD) |
 | ------- | --------------- | --------------- | --------------- | --------------- | ---------------- |
@@ -522,9 +519,9 @@ Bitcoin spielt jetzt auf dem "Wertaufbewahrungsmarkt" **Markt**. Von der Größe
 
 *20 Milliarden Dollar in 10 Monaten: Bitcoin-ETFs haben in weniger als einem Jahr erreicht, wofür Gold-ETFs 5 Jahre brauchten. Quelle: Fondsinvestitionsströme in USD. Bloomberg Terminal, Bloomberg L.P., 2024.*
 
-### Bitcoin im Werkzeugkasten des Unternehmens
+### Bitcoin im Werkzeugkasten von Unternehmen
 
-Die zunehmende Akzeptanz von Bitcoin in den Vereinigten Staaten beeinflusst auch die Denkweise in anderen Teilen der Welt, insbesondere bei Vermögensverwaltern, die es sich nicht mehr leisten können, Bitcoin nicht in dein Instrumentarium aufzunehmen - vor allem, wenn traditionelle Finanzprodukte unterdurchschnittlich abschneiden oder schwierige Zeiten durchlaufen. Nur die traditionellen Banken scheinen es sich noch leisten zu können, es zu ignorieren.
+Die zunehmende Akzeptanz von Bitcoin in den Vereinigten Staaten beeinflusst auch die Denkweise in anderen Teilen der Welt, insbesondere bei Vermögensverwaltern, die es sich nicht mehr leisten können, Bitcoin nicht in ihr Instrumentarium aufzunehmen - vor allem, wenn traditionelle Finanzprodukte unterdurchschnittlich abschneiden oder schwierige Zeiten durchlaufen. Nur die traditionellen Banken scheinen es sich noch leisten zu können, es zu ignorieren.
 
 Aus rein finanzieller Sicht ist Bitcoin als Diversifizierungsanlage anerkannt. Er ist nicht nur unkorreliert mit anderen Anlageklassen, sondern scheint auch in Zeiten neuer Liquiditätsspritzen zu gedeihen - eine weitere solche Episode scheint mit der Senkung der Zinssätze durch die EZB, die Fed und China zu beginnen.
 
@@ -532,46 +529,45 @@ Zusammenfassend lässt sich sagen, dass Bitcoin für den häufigsten Anwendungsf
 
 Andere Anwendungsfälle machen Bitcoin beispielsweise zu einem strategischen Vermögenswert:
 
-
-- Die Möglichkeit, **Sicherheiten** oder Liquidität 24/7 zu buchen
-- Jederzeit **schnell** in die Finanzkasse eines anderen Unternehmens wechseln können
-- Absicherung gegen das **Wechselkursrisiko**
-- Zahlung an einen **Lieferanten**, der sie akzeptiert, insbesondere in Notsituationen
+- Die Möglichkeit, **Sicherheiten** oder Liquidität rund um die Uhr bereitzustellen
+- Jederzeit **schnell** in die Bilanz eines anderen Unternehmens einzahlen zu können
+- Absicherung gegen das **Wechselkursrisiken**
+- Zahlung an einen **Lieferanten**, der es akzeptiert, insbesondere in Notsituationen
 
 ### Ist Bitcoin zu teuer?
 
-du müssen nicht genau 1 Bitcoin kaufen, denn Bitcoin ist in Untereinheiten teilbar, die Satoshis genannt werden, benannt zu Ehren seines anonymen Schöpfers. Ein Bitcoin entspricht **100 Millionen Satoshis**, was es den Nutzern ermöglicht, selbst **sehr kleine Bruchteile eines Bitcoins** zu kaufen, zu verkaufen oder zu handeln. Tatsächlich werden im Quellcode von Bitcoin alle Transaktionen in Satoshis abgerechnet, und der Begriff "Bitcoin" erscheint nur in der "Coinbase", der speziellen Transaktion, die Miner erstellen, um deine Belohnung zu erhalten.
+Du musst nicht genau 1 Bitcoin kaufen, denn Bitcoin ist in Untereinheiten teilbar, die Satoshis genannt werden, benannt zu Ehren seines anonymen Schöpfers. Ein Bitcoin entspricht **100 Millionen Satoshis**, was es den Nutzern ermöglicht, selbst **sehr kleine Bruchteile eines Bitcoins** zu kaufen, zu verkaufen oder zu handeln. Tatsächlich werden im Quellcode von Bitcoin alle Transaktionen in Satoshis abgerechnet, und der Begriff "Bitcoin" erscheint nur in der "Coinbase", der speziellen Transaktion, die Miner erstellen, um ihre Belohnung zu erhalten.
 
-Außerdem kann die Gesamtzahl von 21 Millionen Bitcoins - oder **2,1 Billiarden Satoshis** - effizient durch eine 64-Bit-Ganzzahl dargestellt werden. Das bedeutet, dass sie trotz des hohen Preises pro ganzem Bitcoin dank ihrer Teilbarkeit für ein breites Spektrum von Anlegern zugänglich bleibt. du müssen also keine ganze Bitcoin kaufen, um am Netzwerk teilzunehmen oder in diesen digitalen Vermögenswert zu investieren.
+Außerdem kann die Gesamtzahl von 21 Millionen Bitcoins - oder **2,1 Billiarden Satoshis** - effizient durch eine 64-Bit-Ganzzahl dargestellt werden. Das bedeutet, dass sie trotz des hohen Preises pro ganzem Bitcoin dank ihrer Teilbarkeit für ein breites Spektrum von Anlegern zugänglich bleibt. Du musst also keinen ganzen Bitcoin kaufen, um am Netzwerk teilzunehmen oder in diesen digitalen Vermögenswert zu investieren.
 
 ![BIZ101](assets/de/010.webp)
 
-Wir dürfen nicht vergessen, dass die relativ geringe Marktkapitalisierung im Vergleich zu anderen Vermögenswerten wie Aktien, Gold oder Immobilien ein intaktes Wertsteigerungspotenzial bietet. Mit einer immer noch sehr geringen Marktdurchdringung (etwa 1 % der Weltbevölkerung) stehen wir vermutlich erst am Anfang seines Aufstiegs. Das macht sie **zur asymmetrischsten Wette unserer Generation**: Die Wahrscheinlichkeit, dass sie zum jetzigen Zeitpunkt auf Null sinkt, ist sehr gering, und die Wahrscheinlichkeit, dass sie weiter an Boden gewinnt, ist groß.
+Wir dürfen nicht vergessen, dass die relativ geringe Marktkapitalisierung im Vergleich zu anderen Vermögenswerten wie Aktien, Gold oder Immobilien ein intaktes Wertsteigerungspotenzial bietet. Mit einer immer noch sehr geringen Marktdurchdringung (etwa 1 % der Weltbevölkerung) stehen wir vermutlich erst am Anfang seines Aufstiegs. Das macht ihn **zur asymmetrischsten Wette unserer Generation**: Die Wahrscheinlichkeit, dass er zum jetzigen Zeitpunkt auf Null sinkt, ist sehr gering, und die Wahrscheinlichkeit, dass er weiter an Boden gewinnt, ist groß.
 
 ### Die Entscheidung, die Finanzmittel des Unternehmens in Bitcoin anzulegen
 
-Der **Entscheidungsprozess** für Investitionen in Bitcoin wird stark von Ihrer Position innerhalb des Unternehmens beeinflusst. Wenn du ein **Mehrheitseigentümer sind, steht es Ihnen frei**, überschüssige Eigenmittel nach eigenem Ermessen zuzuweisen. Wenn du hingegen Partner oder Aktionär in einer kollektiven Entscheidungsstruktur sind, müssen du gemeinsame Überlegungen anstellen, was die Sache verkomplizieren kann.
+Der **Entscheidungsprozess** für Investitionen in Bitcoin wird stark von deiner Position innerhalb des Unternehmens beeinflusst. Wenn du ein **Mehrheitseigentümer bist, steht es dir frei**, überschüssige Eigenmittel nach eigenem Ermessen zuzuweisen. Wenn du hingegen Partner oder Aktionär in einer kollektiven Entscheidungsstruktur bist, musst du gemeinsame Überlegungen anstellen, was die Sache verkomplizieren kann.
 
 In diesem zweiten Szenario ist die Harmonisierung der verschiedenen Standpunkte von entscheidender Bedeutung, da sie weitgehend **vom Verständnis der einzelnen Interessengruppen für den Bitcoin-Wert** abhängt. Wie das Sprichwort schon sagt: "Bitcoin ist alles, was Menschen nicht über Computer wissen, kombiniert mit allem, was sie nicht über Geld verstehen." Selbst wenn sich ein Partner die Mühe gemacht hat, Bitcoin gründlich zu verstehen, kann es eine Herausforderung sein, dieses Wissen anderen zu vermitteln. In solchen Fällen ist es **ratsam, eine externe Ressource** hinzuzuziehen, um zu vermeiden, dass die Idee zu sehr mit einer Person identifiziert wird, was zu Widerstand führen könnte.
 
 Derzeit ist das Szenario eines Mehrheitseigentümers, der die Entscheidung trifft, das repräsentativste unter den Unternehmen, die Bitcoin besitzen. Hier sind ein paar reale Beispiele:
 
-
 - **Freiberufler**: Berater, Mediziner oder Anwälte, die einen Teil deines langfristigen Vermögens in Bitcoin investieren. In der Regel haben diese Freiberufler bereits Spar- oder Festgeldkonten mit mäßigen Erträgen.
 - **Führungskräfte aus dem Tech-Sektor**: Eine Führungskraft, die dein Unternehmen verkauft und einen Teil des Erlöses aus ihrer persönlichen Holdinggesellschaft vor einigen Jahren in Bitcoin investiert hat. Heute genießt er eine komfortable finanzielle Situation und reinvestiert in neue Unternehmungen.
-- **Inhaber von Kleinstunternehmen**: Unternehmer im Dienstleistungssektor, in der Landwirtschaft oder im Handwerk, die das Potenzial von Bitcoin erkannt haben und einen Teil deines Vermögens in Bitcoin investieren. deine Hauptmotivation liegt in der Diversifizierung und der damit verbundenen Freiheit
-- **Börsennotierte Unternehmen** wie MicroStrategy haben einen Präzedenzfall geschaffen, indem sie einen beträchtlichen Teil deines Firmenvermögens in Bitcoin umgewandelt haben, was eine globale Verschiebung in den Kapitalallokationsstrategien von Unternehmen zeigt. Bis zum Herbst 2024 folgten zahlreiche andere Unternehmen diesem Beispiel, was diesen Trend weiter legitimierte.
+- **Inhaber von Kleinstunternehmen**: Unternehmer im Dienstleistungssektor, in der Landwirtschaft oder im Handwerk, die das Potenzial von Bitcoin erkannt haben und einen Teil ihres Vermögens in Bitcoin investieren. Ihre Hauptmotivation liegt in der Diversifizierung und der damit verbundenen Freiheit
+- **Börsennotierte Unternehmen** wie MicroStrategy haben einen Präzedenzfall geschaffen, indem sie einen beträchtlichen Teil ihres Firmenvermögens in Bitcoin umgewandelt haben, was eine globale Verschiebung in den Kapitalallokationsstrategien von Unternehmen zeigt. Bis zum Herbst 2024 folgten zahlreiche andere Unternehmen diesem Beispiel, was diesen Trend weiter legitimierte.
 
-Entdecken du die aktualisierte Liste der Unternehmen, die die meisten Bitcoins in bar halten, sowie die gehaltenen Beträge, auf der Website: [BitcoinTreasuries.net](https://bitcointreasuries.net/).
+Entdecke die aktualisierte Liste der Unternehmen, die die meisten Bitcoins in der Bilanz halten, sowie die gehaltenen Beträge, auf der Website: [BitcoinTreasuries.net](https://bitcointreasuries.net/).
+
 ### Besteuerung von Bitcoin im Besitz von Unternehmen
 
-Für Unternehmen, die nicht als eigenständige juristische Personen strukturiert sind - wie z.B. Einzelunternehmen oder andere Personengesellschaften - spiegelt die Besteuerung von Bitcoin-Transaktionen oft die Behandlung wider, die für natürliche Personen gilt. In vielen Fällen gelten die gleichen Regeln für Kapitalgewinne oder Einkommen, wie wenn eine Einzelperson Bitcoin verkauft. Zum Beispiel können in einigen Ländern Gewinne als Teil des persönlichen Einkommens des Unternehmers betrachtet werden, das den **persönlichen Einkommenssteuerklassen** unterliegt.
+Für Unternehmen, die nicht als eigenständige juristische Personen strukturiert sind - wie z.B. Einzelunternehmen oder andere Personengesellschaften - spiegelt die Besteuerung von Bitcoin-Transaktionen oft die Behandlung wider, die für Personen gilt. In vielen Fällen gelten die gleichen Regeln für Kapitalgewinne oder Einkommen, wie wenn eine Einzelperson Bitcoin verkauft. Zum Beispiel können in einigen Ländern Gewinne als Teil des persönlichen Einkommens des Unternehmers betrachtet werden, das den **persönlichen Einkommenssteuerklassen** unterliegt.
 
-**Unternehmen mit eigener Rechtspersönlichkeit** - die der Körperschaftssteuer unterliegen - profitieren jedoch häufig von günstigeren steuerlichen Rahmenbedingungen. Im Gegensatz zu natürlichen Personen, die Beschränkungen bei der Verrechnung von Gewinnen und Verlusten über verschiedene Anlageklassen hinweg unterliegen können, können Kapitalgesellschaften realisierte Gewinne oder Verluste aus Bitcoin-Transaktionen in der Regel direkt in deine jährlichen Gewinn- und Verlustrechnungen integrieren. Dies kann zu einer flexibleren und manchmal vorteilhafteren Steuerposition führen.
+**Unternehmen mit eigener Rechtspersönlichkeit** - die der Körperschaftssteuer unterliegen - profitieren jedoch häufig von günstigeren steuerlichen Rahmenbedingungen. Im Gegensatz zu Personen, die Beschränkungen bei der Verrechnung von Gewinnen und Verlusten über verschiedene Anlageklassen hinweg unterliegen können, können Kapitalgesellschaften realisierte Gewinne oder Verluste aus Bitcoin-Transaktionen in der Regel direkt in deine jährlichen Gewinn- und Verlustrechnungen integrieren. Dies kann zu einer flexibleren und manchmal vorteilhafteren Steuerposition führen.
 
 Die spezifischen Steuersätze und Behandlungen sind je nach Land sehr unterschiedlich. In Frankreich und vielen anderen westlichen Ländern werden Unternehmen beispielsweise mit einem Körperschaftssteuersatz von etwa 25 % besteuert, was niedriger sein kann als die Pauschalsteuern, die Privatpersonen auf Kapitalerträge zahlen.
 
-Aufgrund dieser Unterschiede entscheiden sich **einige Unternehmer dafür, Bitcoin über deine Unternehmensstrukturen** zu erwerben und zu halten, da dies **effizientere Steuerplanungsmöglichkeiten** bieten kann. Wie immer ist es ratsam, einen Steuerexperten zu konsultieren, der mit den Regeln in der/den jeweiligen Gerichtsbarkeit(en) vertraut ist, um die Einhaltung der Vorschriften sicherzustellen und die Steuerstrategie zu optimieren.
+Aufgrund dieser Unterschiede entscheiden sich **einige Unternehmer dafür, Bitcoin über ihre Unternehmensstrukturen** zu erwerben und zu halten, da dies **effizientere Steuerplanungsmöglichkeiten** bieten kann. Wie immer ist es ratsam, einen Steuerexperten zu konsultieren, der mit den Regeln in den jeweiligen Rechtsgebieten vertraut ist, um die Einhaltung der Vorschriften sicherzustellen und die Steuerstrategie zu optimieren.
 
 ## Wie man Bitcoin erwirbt
 
@@ -583,30 +579,21 @@ Es gibt drei Möglichkeiten, Bitcoin zu erwerben:
 
 ![BIZ101](assets/de/011.webp)
 
+- **Im Austausch für Waren oder Dienstleistungen:** Da Bitcoin als Tauschmittel fungiert, ist es möglich, sich eine Kreislaufwirtschaft vorzustellen. Obwohl dies heute noch unüblich ist, beginnen immer mehr Unternehmen Bitcoin-Zahlungen zu akzeptieren - warum nicht auch deines? (Siehe unser nächstes Kapitel)
 
-- Im Austausch für Waren oder Dienstleistungen:
+- **Bitcoin Minen:** Dabei geht es darum, mit dem Betrieb von Minern Geld zu verdienen. Für nicht spezialisierte Unternehmen bleibt dies relativ unbedeutend. Du kannst dich über Vermittler beteiligen, die dir die Rechenleistung, das Netzwerk und die Wartung verkaufen oder vermieten. Wenn du die Maschinen besitzt, kannst du sie als abschreibungsfähige Vermögenswerte verbuchen. In großem Maßstab musst du die Kapitalrendite sorgfältig kalkulieren, denn der Markt ist hart umkämpft und erfordert eine gute Voraussicht der Kosten, insbesondere der Stromkosten.
 
-Da Bitcoin als Tauschmittel fungiert, ist es möglich, sich eine Kreislaufwirtschaft vorzustellen. Obwohl dies heute noch unüblich ist, beginnen immer mehr Unternehmen Bitcoin-Zahlungen zu akzeptieren - warum nicht auch deines? (Siehe unser nächstes Kapitel)
+Um mehr über Miningmethoden zu erfahren, kannst du [den Abschnitt "Mining" in unseren Tutorials konsultieren](https://planb.academy/tutorials/mining).
 
+- **Bitcoin kaufen:** Dies ist bei weitem die gängigste Methode, die entweder über Peer-to-Peer-Börsen oder, was typischer ist, über spezialisierte Handelsplattformen erfolgt. Beim Erwerb von Bitcoin als Unternehmensvermögen müssen Unternehmen jedoch strenge regulatorische Standards und KYC-Verfahren (Know-Your-Customer) einhalten. Wenn sie Bitcoin auf spezialisierten Handelsplattformen kaufen, müssen Unternehmen in der Regel detaillierte Unternehmensinformationen vorlegen, einschließlich Ausweisdokumente, Finanzausweise und Adressnachweise, um die KYC- und Anti-Geldwäsche-Anforderungen zu erfüllen.
 
-- **Bitcoin schürfen:**
-
-Dabei geht es darum, mit dem Betrieb von Bergbaumaschinen Geld zu verdienen. Für nicht spezialisierte Unternehmen bleibt dies relativ unbedeutend. du können sich über Vermittler beteiligen, die Ihnen die Rechenleistung, das Netzwerk und die Wartung verkaufen oder vermieten. Wenn du die Maschinen besitzen, können du sie als abschreibungsfähige Vermögenswerte verbuchen. In großem Maßstab müssen du die Kapitalrendite sorgfältig kalkulieren, denn der Markt ist hart umkämpft und erfordert eine gute Voraussicht der Kosten, insbesondere der Stromkosten.
-
-Um mehr über Bergbaumethoden zu erfahren, können du [den Abschnitt "Bergbau" in unseren Tutorials konsultieren](https://planb.academy/tutorials/mining).
-
-
-- **Bitcoin kaufen:**
-
-Dies ist bei weitem die gängigste Methode, die entweder über Peer-to-Peer-Börsen oder, was typischer ist, über spezialisierte Handelsplattformen erfolgt. Beim Erwerb von Bitcoin als Unternehmensvermögen müssen Unternehmen jedoch strenge regulatorische Standards und KYC-Verfahren (Know-Your-Customer) einhalten. Wenn sie Bitcoin auf spezialisierten Handelsplattformen kaufen, müssen Unternehmen in der Regel detaillierte Unternehmensinformationen vorlegen, einschließlich Ausweisdokumente, Finanzausweise und Adressnachweise, um die KYC- und Anti-Geldwäsche-Anforderungen zu erfüllen.
-
-Wenn du wissen möchten, wie du ein Geschäftskonto eröffnen und damit Bitcoins kaufen, verkaufen und transferieren können, schauen du sich diese beiden Tutorials an, die speziell für Unternehmen entwickelt wurden und die Plattformen Kraken und Bitfinex in ihren Unternehmensversionen abdecken:
+Wenn du wissen möchtest, wie du ein Geschäftskonto eröffnest und damit Bitcoin kaufst, verkaufst und transferieren kannst, schau dir diese beiden Tutorials an, die speziell für Unternehmen entwickelt wurden und die Plattformen Kraken und Bitfinex in ihren Unternehmensversionen abdecken:
 
 https://planb.academy/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-935e-a545ced0022a
 
 https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
-Um mehr über Methoden zum Erwerb von Bitcoins über eine Börse oder Peer-to-Peer zu erfahren, können du [den Abschnitt "Börse" in unseren Anleitungen konsultieren](https://planb.academy/tutorials/exchange).
+Um mehr über Methoden zum Erwerb von Bitcoin über eine Börse oder Peer-to-Peer zu erfahren, kannst du [den Abschnitt "Börse" in unseren Tutorials konsultieren](https://planb.academy/tutorials/exchange).
 
 ![BIZ101](assets/de/012.webp)
 
@@ -614,88 +601,79 @@ Um mehr über Methoden zum Erwerb von Bitcoins über eine Börse oder Peer-to-Pe
 
 Wie bereits erwähnt, ist es nicht nur unmöglich, den zukünftigen Preis von Bitcoin vorherzusagen, sondern der Preis ist auch kurzfristig sehr volatil. In der Vergangenheit war es eine verlässliche Strategie, in regelmäßigen Abständen zu akkumulieren und einen Zeithorizont von vier Jahren oder mehr einzuhalten.
 
-### Wie viel sollten du kaufen?
+### Wie viel solltest du kaufen?
 
-Es ist wahrscheinlich am besten, mit einem sehr kleinen Kauf zu beginnen, ohne zu viel darüber nachzudenken. Eine kleine Summe (z. B. hundert Euro oder Dollar) wird Ihnen nicht ernsthaft schaden, und durch die praktische Erfahrung werden du viel schneller viel mehr lernen als durch jede Menge Lektüre.
+Es ist wahrscheinlich am besten, mit einem sehr kleinen Kauf zu beginnen, ohne zu viel darüber nachzudenken. Eine kleine Summe (z. B. hundert Euro oder Dollar) wird dir nicht ernsthaft schaden, und durch die praktische Erfahrung wirst du viel schneller viel mehr lernen als durch jede Menge Lektüre.
 
-Wie bereits erwähnt, ist es ratsam, nur überschüssige Liquidität anzulegen, die du über mehrere Jahre hinweg nicht benötigen. Jede unzureichend verstandene Strategie birgt das Risiko, dass du in eine schwierige Lage geraten, wenn du plötzlich zu einem ungünstigen Zeitpunkt Geld abheben müssen.
+Wie bereits erwähnt, ist es ratsam, nur überschüssige Liquidität anzulegen, die du über mehrere Jahre hinweg nicht benötigst. Jede unzureichend verstandene Strategie birgt das Risiko, dass du in eine schwierige Lage gerätst, wenn du plötzlich zu einem ungünstigen Zeitpunkt das Geld brauchst.
 
-Es ist nicht nur sinnvoll, klein anzufangen, sondern auch eine maßvolle Allokationsstrategie für die Finanzabteilung von Unternehmen zu verfolgen. Am einen Ende des Spektrums haben einige Unternehmen, wie MicroStrategy, einen extremen Ansatz gewählt, indem sie einen beträchtlichen Teil ihrer überschüssigen Treasury-Mittel in Bitcoin investiert haben, was eine starke institutionelle Überzeugung widerspiegelt. Umgekehrt könnte eine konservativere und wohl vernünftigere Strategie darin bestehen, vielleicht 5 % der Finanzmittel des Unternehmens in Bitcoin zu investieren und dabei die potenziellen Gewinne mit dem Risikomanagement und den Liquiditätsanforderungen abzuwägen.
+Es ist nicht nur sinnvoll, klein anzufangen, sondern auch eine maßvolle Allokationsstrategie für die Finanzabteilung von Unternehmen zu verfolgen. Am einen Ende des Spektrums haben einige Unternehmen, wie MicroStrategy, einen extremen Ansatz gewählt, indem sie einen beträchtlichen Teil ihrer überschüssigen Finanzmittel in Bitcoin investiert haben, was eine starke institutionelle Überzeugung widerspiegelt. Umgekehrt könnte eine konservativere und wohl vernünftigere Strategie darin bestehen, vielleicht 5 % der Finanzmittel des Unternehmens in Bitcoin zu investieren und dabei die potenziellen Gewinne mit dem Risikomanagement und den Liquiditätsanforderungen abzuwägen.
 
-Stellen du sich dieses Spektrum als eine Skala vor, die von einem minimalen Engagement, das sicherstellt, dass das Unternehmen ausreichend Liquidität für den operativen Bedarf behält, bis hin zu einer aggressiven Haltung reicht, die darauf abzielt, den erwarteten langfristigen Wertzuwachs von Bitcoin zu nutzen. Während eine aggressive Allokation zu höheren Renditen führen kann, trägt eine moderate Allokation dazu bei, die Volatilität zu mildern und sicherzustellen, dass das finanzielle Fundament des Unternehmens sicher bleibt, während es weiterhin vom innovativen Potenzial von Bitcoin innerhalb seiner Finanzgeschäfte profitiert.
+Stell dir dieses Spektrum als eine Skala vor, die von einem minimalen Engagement, das sicherstellt, dass das Unternehmen ausreichend Liquidität für den operativen Bedarf behält, bis hin zu einer aggressiven Haltung reicht, die darauf abzielt, den erwarteten langfristigen Wertzuwachs von Bitcoin zu nutzen. Während eine aggressive Allokation zu höheren Renditen führen kann, trägt eine moderate Allokation dazu bei, die Volatilität zu mildern und sicherzustellen, dass das finanzielle Fundament des Unternehmens sicher bleibt, während es weiterhin vom innovativen Potenzial von Bitcoin innerhalb seiner Finanzgeschäfte profitiert.
 
 ### Wie oft?
 
 Es gibt keine feste Regel. Der Versuch, den Markt zu timen, indem man auf "Einbrüche" wartet, kann weniger effektiv und stressiger sein, als einfach in regelmäßigen Abständen zu kaufen. Selbst erfahrene Anleger machen manchmal einen Fehler. Auf einmal "all-in" zu gehen, kann ein zweischneidiges Schwert sein.
 
-In Wirklichkeit ist das Wertsteigerungspotenzial von Bitcoin so groß, dass man selbst dann, wenn man erst in ein paar Jahren einsteigt, wahrscheinlich noch langfristige Gewinne erzielt. Es ist zwar wahrscheinlich, dass größere Kursschwankungen mit der Zeit an Intensität verlieren werden. Als deflationäre Währung ist Bitcoin jedoch so konzipiert, dass er effektiv Werte speichert und die Produktivitätsgewinne seiner Nutzer widerspiegelt. Um eine Analogie zu ziehen: Wir befinden uns derzeit in der "Einführungsphase" von Bitcoin, einer Währung im Entstehen, und noch kennt niemand ihren fairen Wert. Später, vielleicht in 20 oder 40 Jahren, wenn er sich in einer stabilen "Reisephase" befindet, könnte er unglaublich stabil sein und mit den Produktivitätsgewinnen der Gesellschaft stetig wachsen.
+In Wirklichkeit ist das Wertsteigerungspotenzial von Bitcoin so groß, dass man selbst dann, wenn man erst in ein paar Jahren einsteigt, wahrscheinlich noch langfristige Gewinne erzielt. Es ist zwar wahrscheinlich, dass größere Kursschwankungen mit der Zeit an Intensität verlieren werden, als deflationäre Währung ist Bitcoin jedoch so konzipiert, dass er effektiv Werte speichert und die Produktivitätsgewinne seiner Nutzer widerspiegelt. Um eine Analogie zu ziehen: Wir befinden uns derzeit in der "Einführungsphase" von Bitcoin, einer Währung im Entstehen, und noch kennt niemand ihren fairen Wert. Später, vielleicht in 20 oder 40 Jahren, wenn er sich in einer stabilen "Reisephase" befindet, könnte er unglaublich stabil sein und mit den Produktivitätsgewinnen der Gesellschaft stetig wachsen.
 
-Die Immobilienbranche wiederholt oft, dass "es immer der richtige Zeitpunkt zum Kaufen ist", und vergisst dabei, dass, wenn Immobilien deine Funktion als Wertaufbewahrungsmittel verlieren würden - und sich auf Vermögenswerte wie Bitcoin verlagern würden - die Preise näher an ihren Nutzwert (Schutz) zurückkehren könnten. Bitcoin hingegen dient nur als Wertaufbewahrungsmittel, was bedeuten könnte, dass "es immer der richtige Zeitpunkt zum Kaufen ist" Die Zukunft wird es zeigen.
+Die Immobilienbranche wiederholt oft, dass "es immer der richtige Zeitpunkt zum Kaufen ist", und vergisst dabei, dass, wenn Immobilien ihre Funktion als Wertaufbewahrungsmittel verlieren würden - und sich auf Vermögenswerte wie Bitcoin verlagern würden - die Preise näher an ihren Nutzwert (Wohnraum) zurückkehren könnten. Bitcoin hingegen dient nur als Wertaufbewahrungsmittel, was bedeuten könnte, dass "es immer der richtige Zeitpunkt zum Kaufen ist". Die Zukunft wird es zeigen.
 
 ![BIZ101](assets/de/013.webp)
 
-*Kredit: [Bitcoin Office](https://bitcoin.gob.sv/)*
+*Credit: [Bitcoin Office](https://bitcoin.gob.sv/)*
 
-### In welcher Form zu kaufen? (Methoden der Verwahrung)
+### In welcher Form kaufen? (Methoden der Verwahrung)
 
-du besitzen Bitcoin nicht physisch. Stattdessen besitzen du einen kryptografischen Schlüssel, der es Ihnen ermöglicht, das Eigentum an einigen oder allen Ihrer Kontoeinheiten auf einen oder mehrere andere kryptografische Schlüssel zu übertragen. All dies geschieht auf der Bitcoin-Blockchain, die auf zehntausenden von Knotenpunkten weltweit repliziert wird.
+Du besitzt Bitcoin nicht physisch. Stattdessen besitzt du einen kryptografischen Schlüssel, der es dir ermöglicht, das Eigentum an einigen oder allen deiner Rechnungseinheiten auf einen oder mehrere andere kryptografische Schlüssel zu übertragen. All dies geschieht auf der Bitcoin-Blockchain, die auf zehntausenden von Nodes weltweit repliziert wird.
 
-Dieser kryptografische Schlüssel ist eine extrem große Zufallszahl. Zur Vereinfachung für den Benutzer wird er oft als eine Folge von 12 oder 24 Wörtern dargestellt. Diese Wörter können auf ein physisches Gerät geladen werden, das als "Hardware-Wallet" bezeichnet wird Die Bitcoins befinden sich jedoch nicht "in" diesem Gerät, sondern es ist lediglich ein Werkzeug, mit dem Transaktionen kryptografisch signiert und an das Netzwerk übertragen werden. Was wirklich zählt, sind die 12 oder 24 Wörter, die sicher aufbewahrt werden müssen.
+Dieser kryptografische Schlüssel ist eine extrem große Zufallszahl. Zur Vereinfachung für den Benutzer wird er oft als eine Folge von 12 oder 24 Wörtern dargestellt. Diese Wörter können auf ein physisches Gerät geladen werden, das als "Hardware-Wallet" bezeichnet wird. Die Bitcoins befinden sich jedoch nicht "in" diesem Gerät, sondern es ist lediglich ein Werkzeug, mit dem Transaktionen kryptografisch signiert und an das Netzwerk übertragen werden. Was wirklich zählt, sind die 12 oder 24 Wörter, die sicher aufbewahrt werden müssen.
 
 Dies führt zu der Frage der Verwahrung: Bitcoin zu besitzen bedeutet, den/die Schlüssel zu besitzen. Entweder man verwahrt sie selbst, oder man überträgt die Aufgabe an einen Dritten. Es gibt auch Zwischenlösungen. Schauen wir uns die gängigsten Szenarien an:
 
-
 - **Selbstverwahrung:**
 
-Dies ist die Option, die von echten Bitcoin-Enthusiasten empfohlen wird, da sie mit dem ursprünglichen Design von Bitcoin übereinstimmt. du agieren als deine eigene Bank: Es besteht kein Risiko, dass ein Dritter du betrügt, aber du sind für die Sicherung des Schlüssels/der Schlüssel verantwortlich. du haben rund um die Uhr vollen Zugriff auf dein Geld. Wenn in einem Unternehmen mehrere Personen Transaktionen durchführen müssen, benötigen du geeignete Tools und Verfahren, um den Zugang und die Sicherheit zu verwalten.
-
+Dies ist die Option, die von echten Bitcoin-Enthusiasten empfohlen wird, da sie mit dem ursprünglichen Design von Bitcoin übereinstimmt. Du agierst als deine eigene Bank: Es besteht kein Risiko, dass ein Dritter dich betrügt, aber du bist für die Sicherung des Sclüssels/der Schlüssel verantwortlich. Du hast rund um die Uhr vollen Zugriff auf dein Geld. Wenn in einem Unternehmen mehrere Personen Transaktionen durchführen müssen, benötigst du geeignete Tools und Verfahren, um den Zugang und die Sicherheit zu verwalten.
 
 - **Verwahrung durch Dritte:**
 
-Eine Börse oder ein Kaufdienst kann beispielsweise ein Konto für du einrichten, deine herkömmliche Währung in Bitcoin umwandeln und sie mit Hilfe ihrer Sicherheitssysteme in Ihrem Namen halten. Die meisten dieser Dienste ermöglichen es Ihnen, deine Bitcoins in eine Geldbörse abzuheben, deren Schlüssel nur du besitzen. Solange du das nicht tun, gehören Ihnen die Bitcoins nicht wirklich; du verlassen sich auf das Versprechen des Anbieters, sie Ihnen zurückzuzahlen. Dabei gilt es, die Sicherheitsrisiken (deine vs. deine) und das Kontrahentenrisiko (sie könnten ausfallen oder verschwinden) abzuwägen. Einige Unternehmen finden dies akzeptabel, obwohl es im Allgemeinen nicht für die langfristige Lagerung oder für 100 % Ihrer Zuweisung empfohlen wird. Custody-Dienste können auch Gebühren für die Lagerung erheben.
+Eine Börse oder ein Kaufdienst kann beispielsweise ein Konto für dich einrichten, deine herkömmliche Währung in Bitcoin umwandeln und sie mit Hilfe ihrer Sicherheitssysteme in deinem Namen halten. Die meisten dieser Dienste ermöglichen es dir, deine Bitcoin in eine Wallet abzuheben, deren Schlüssel nur du besitzt. Solange du das nicht tust, gehören dir die Bitcoin nicht wirklich; du verlässt dich auf das Versprechen des Anbieters, sie dir zurückzuzahlen. Dabei gilt es, die Sicherheitsrisiken (deine vs. ihre) und das Kontrahentenrisiko (sie könnten ausfallen oder verschwinden) abzuwägen. Einige Unternehmen finden dies akzeptabel, obwohl es im Allgemeinen nicht für die langfristige Lagerung oder für 100 % deiner Allokation empfohlen wird. Verwahrungsdienste können auch Gebühren für die Lagerung erheben.
 
+- **"Paper-Bitcoin" (ETFs oder ETPs):**
 
-- **"Papier-Bitcoin" (ETFs oder ETPs):**
-
-Dabei handelt es sich um traditionelle Finanzinstrumente, die Bruchteile von Bitcoin darstellen und deren Kursentwicklung nachbilden. Die Institution, die hinter dem Produkt steht, kauft und hält theoretisch den zugrunde liegenden Bitcoin. deine Beiträge und Abhebungen erfolgen in traditioneller Währung (z. B. Dollar oder Euro), nicht in Bitcoin. Mit Ausnahme bestimmter Produkte, die eine Auszahlung in echten Bitcoin erlauben (um in einigen Ländern ein steuerpflichtiges Ereignis zu vermeiden), fallen bei diesen Instrumenten jährliche Verwaltungsgebühren an. Hier verlassen du sich auf die Sicherheit der Institution und sind dem Risiko der Gegenpartei ausgesetzt (z. B. wenn eine Regierung beschließt, alle von Institutionen gehaltenen Bitcoin zu beschlagnahmen, wie es 1933 mit Gold unter der U.S. Executive Order 6102 geschah). dein Hauptvorteil ist der einfache Zugang, da sie über traditionelle Finanzkanäle vertrieben werden. du umgehen die Notwendigkeit, kryptografische Schlüssel zu sichern, bieten aber keine der inhärenten Eigenschaften von Bitcoin: Man kann das Bitcoin-Netzwerk nicht rund um die Uhr nutzen, um Werte ohne Erlaubnis frei zu bewegen. du replizieren nur die finanzielle Leistung, nicht die Funktionalität oder Souveränität von Bitcoin selbst.
+Dabei handelt es sich um traditionelle Finanzinstrumente, die Bruchteile von Bitcoin darstellen und deren Kursentwicklung nachbilden. Die Institution, die hinter dem Produkt steht, kauft und hält theoretisch den zugrunde liegenden Bitcoin. Deine Beiträge und Abhebungen erfolgen in traditioneller Währung (z. B. Dollar oder Euro), nicht in Bitcoin. Mit Ausnahme bestimmter Produkte, die eine Auszahlung in echten Bitcoin erlauben (um in einigen Ländern ein steuerpflichtiges Ereignis zu vermeiden), fallen bei diesen Instrumenten jährliche Verwaltungsgebühren an. Hier verlässt du dich auf die Sicherheit der Institution und bist dem Risiko der Gegenpartei ausgesetzt (z. B. wenn eine Regierung beschließt, alle von Institutionen gehaltenen Bitcoin zu beschlagnahmen, wie es 1933 mit Gold unter der U.S. Executive Order 6102 geschah). Dein Hauptvorteil ist der einfache Zugang, da sie über traditionelle Finanzkanäle vertrieben werden. Sie umgehen die Notwendigkeit, kryptografische Schlüssel zu sichern, bieten aber keine der inhärenten Eigenschaften von Bitcoin: du kannst das Bitcoin-Netzwerk nicht rund um die Uhr nutzen, um Werte ohne Erlaubnis frei zu bewegen. Sie replizieren nur die finanzielle Performance, nicht die Funktionalität oder Souveränität von Bitcoin selbst.
 
 ![BIZ101](assets/de/014.webp)
 
-Darüber hinaus hat die Form, in der du Bitcoin halten, erhebliche Auswirkungen auf die Sicherheitsmaßnahmen, die zum Schutz Ihrer Unternehmensfinanzen erforderlich sind. Unabhängig davon, ob du sich für die Selbstverwahrung entscheiden, indem du Hardware-Wallets mit einer oder mehreren Signaturen usw. verwenden, um die direkte Kontrolle über deine Schlüssel zu behalten, oder ob du diese Aufgabe an externe Verwahrungsdienste oder ETFs delegieren, ist jede Option mit einem eigenen Risikoprofil verbunden. So bietet beispielsweise die Selbstverwahrung vollen Zugang, erfordert aber strenge interne Sicherheitsprotokolle, während Lösungen von Drittanbietern den Verwaltungsaufwand auf Kosten des Kontrahentenrisikos verringern. Zur weiteren Veranschaulichung der Unterschiede wird in dieser Grafik das Sicherheitsmodell für jede Verwahrungsart skizziert, damit du den Ansatz wählen können, der am besten für die Bedürfnisse deines Unternehmens geeignet ist:
+Darüber hinaus hat die Form, in der du Bitcoin hälst, erhebliche Auswirkungen auf die Sicherheitsmaßnahmen, die zum Schutz deiner Unternehmensfinanzen erforderlich sind. Unabhängig davon, ob du dich für die Selbstverwahrung entscheidest, indem du single-signature oder multi-signature Hardware-Wallets, etc. verwendest, um die direkte Kontrolle über deine Schlüssel zu behalten, oder ob du diese Aufgabe an externe Verwahrungsdienste oder ETFs delegierst, ist jede Option mit einem eigenen Risikoprofil verbunden. So bietet beispielsweise die Selbstverwahrung vollen Zugang, erfordert aber strenge interne Sicherheitsprotokolle, während Lösungen von Drittanbietern den Verwaltungsaufwand auf Kosten des Gegenparteirisikos verringern. Zur weiteren Veranschaulichung der Unterschiede wird in dieser Grafik das Sicherheitsmodell für jede Verwahrungsart skizziert, damit du den Ansatz wählen kannst, der am besten für die Bedürfnisse deines Unternehmens geeignet ist:
 
 ![BIZ101](assets/de/015.webp)
 
 ### Bei wem soll ich kaufen?
 
-Wenn du sich für "Papier-Bitcoin" entscheiden, wenden du sich an Finanzinstitute wie Banken oder Online-Börsen.
+Wenn du dich für "Paper-Bitcoin" entscheidest, wende dich an Finanzinstitute wie Banken oder Online-Börsen.
 
-Wenn du sich für den Kauf von Bitcoin über einen Marktplatz (Börse) oder einen Broker entscheiden, gibt es mehrere Hauptkategorien:
-
+Wenn du dich für den Kauf von Bitcoin über einen Marktplatz (Börse) oder einen Broker entscheiden, gibt es mehrere Hauptkategorien:
 
 - **Große internationale oder ausländische Plattformen:**
-
-Beispiele sind Kraken, Coinbase oder Binance, die in der Vergangenheit von vielen Privatpersonen genutzt wurden. Bei einigen sind Probleme aufgetreten, und es ist schwierig, eine klare Empfehlung auszusprechen. Ein Ratschlag: Wenn du sie nutzen, lassen du deine Bitcoins nicht länger als nötig dort.
-
+Beispiele sind Kraken, Coinbase oder Binance, die in der Vergangenheit von vielen Privatpersonen genutzt wurden. Bei einigen sind Probleme aufgetreten, und es ist schwierig, eine klare Empfehlung auszusprechen. Ein Ratschlag: Wenn du sie nutzt, lass deine Bitcoin nicht länger als nötig dort.
 
 - **Geregelte Dienstleister (registrierte Anbieter von Dienstleistungen für digitale Vermögenswerte):**
-
-In Frankreich beispielsweise sind Plattformen wie Paymium (Börse) oder BullBitcoin (Broker) dafür bekannt, dass sie echte Bitcoin-Enthusiasten an der Spitze haben und eine solide Erfolgsbilanz vorweisen können. In den USA gibt es Dienstleistungsanbieter wie River oder Swann. Im Allgemeinen ist es wichtig, den Stammbaum des Anbieters zu prüfen: seinen Ruf, seine Erfolgsbilanz, seine Beliebtheit in der Bitcoin-Community und ob seine Führung mit den Grundwerten von Bitcoin übereinstimmt.
+In Frankreich beispielsweise sind Plattformen wie Paymium (Börse) oder BullBitcoin (Broker) dafür bekannt, dass sie echte Bitcoin-Enthusiasten an der Spitze haben und eine solide Erfolgsbilanz vorweisen können. In den USA gibt es Dienstleistungsanbieter wie River oder Swan. Im Allgemeinen ist es wichtig, den Stammbaum des Anbieters zu prüfen: seinen Ruf, seine Erfolgsbilanz, seine Beliebtheit in der Bitcoin-Community und ob seine Führung mit den Grundwerten von Bitcoin übereinstimmt.
 
 **Börse vs. Broker:**
 
+- An einer **Börse** kannst du Kaufaufträge zu dem von dir gewählten Preis erteilen, musst aber auf die Ausführung warten, bis sich der Marktpreis und Verkäufer zusammenfinden.
+- Ein **Broker** bietet dir einen Festpreis und kann die Transaktion schneller abschließen.
 
-- An einer **Börse** können du Kaufaufträge zu dem von Ihnen gewählten Preis erteilen, müssen aber auf die Ausführung warten, bis sich der Marktpreis und die Verkäufer decken.
-- Ein **Makler** bietet Ihnen einen Festpreis und kann die Transaktion schneller abschließen.
-
-Abgesehen von den Gebühren und der Ausführungsgeschwindigkeit - die weniger ins Gewicht fallen, wenn man langfristig (über mehrere Jahre) denkt - sollte ein Unternehmen auch andere Faktoren berücksichtigen:
-
+Abgesehen von den Gebühren und der Ausführungsgeschwindigkeit - die weniger ins Gewicht fällt, wenn man langfristig (über mehrere Jahre) denkt - sollte ein Unternehmen auch andere Faktoren berücksichtigen:
 
 - **Benutzeroberfläche:** Ist die Plattform benutzerfreundlich?
 - **Buchhaltungsfunktionen:** Zumindest die Möglichkeit, den Transaktionsverlauf im CSV-Format zu exportieren.
-- **Verwahrung und Sicherheit:** Hält die Plattform die Bitcoins in Ihrem Namen, oder überträgt sie das Eigentum an du? Wie sind die Sicherheitsvorkehrungen? Gibt es "Abhebungssperren" oder andere Abhebungsbeschränkungen?
+- **Verwahrung und Sicherheit:** Hält die Plattform die Bitcoins in deinem Namen, oder überträgt sie das Eigentum an dich? Wie sind die Sicherheitsvorkehrungen? Gibt es "Abhebungssperren" oder andere Abhebungsbeschränkungen?
 - **Kundensupport:** Die Qualität, die Reaktionsfähigkeit und die persönliche Unterstützung, besonders in der Anfangsphase.
 - **Reputation und Ethos:** Vertrauenswürdigkeit und Werte der Plattform.
-- **Unterstützung für wiederkehrende Käufe:** Wenn du vorhaben, Bitcoin im Laufe der Zeit durch geplante Käufe anzuhäufen.
+- **Unterstützung für wiederkehrende Käufe:** Wenn du vorhast, Bitcoin im Laufe der Zeit durch geplante Käufe anzuhäufen.
 
 # Maßgeschneiderte Bitcoin-Zahlungslösungen für jedes Unternehmen
 

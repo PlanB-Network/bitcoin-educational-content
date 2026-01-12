@@ -21,9 +21,9 @@ license: CC-BY-SA-V4
 
 # Proofreading metadata
 
-original_language: fr
+original_language: en
 proofreading:
-  - language: fr
+  - language: en
     last_contribution_date: 2026-01-12
     urgency: 1
     contributor_names:

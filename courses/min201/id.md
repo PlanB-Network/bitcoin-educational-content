@@ -151,7 +151,7 @@ Membuka Sumber Perangkat Lunak Penambangan
 
 Kesimpulan umum adalah bahwa desentralisasi sangat penting untuk keamanan dan ketahanan jaringan Bitcoin. Meskipun sentralisasi dapat menawarkan manfaat efisiensi, itu memaparkan jaringan terhadap risiko signifikan, termasuk sensor dan serangan 51%. Inisiatif seperti Takai dan adopsi protokol baru seperti Stratum V2 adalah langkah penting menuju desentralisasi dan melindungi jaringan Bitcoin terhadap ancaman ini.
 
-## Nuansa industri penambangan
+## Seluk beluk industri penambangan
 
 <chapterId>7b9ee427-316a-54e3-a2d4-4ea97839a31b</chapterId>
 
@@ -285,7 +285,7 @@ Dalam konteks ini, memilih pendekatan otonom dan terdidik terhadap penambangan t
 
 ### Apakah penambangan dilarang di Eropa?
 
-Dengan isu potensi larangan penambangan di Eropa, diskusi tentang regulasi menjadi semakin relevan. Lanskap regulasi yang berfluktuasi memang dapat sangat mempengaruhi industri penambangan Bitcoin. Larangan penambangan di Eropa adalah skenario yang dapat dibayangkan, terutama mengingat preseden di China. Meskipun operasi penambangan terus berlangsung di China meskipun ada larangan, Eropa bisa mengikuti jalur serupa. Distribusi hashrate yang lebih luas di berbagai wilayah dapat membantu memperkuat komunitas penambangan di Eropa, memungkinkan mereka untuk secara efektif melawan kesalahpahaman dan konsepsi salah tentang penambangan, dampak lingkungannya, dan jejaknya pada jaringan listrik.
+Dengan isu potensi larangan penambangan di Eropa, diskusi tentang regulasi menjadi semakin relevan. Lanskap regulasi yang berfluktuasi memang dapat sangat mempengaruhi industri penambangan Bitcoin. Larangan penambangan di Eropa adalah skenario yang dapat dibayangkan, terutama mengingat presiden di China. Meskipun operasi penambangan terus berlangsung di China meskipun ada larangan, Eropa bisa mengikuti jalur serupa. Distribusi hashrate yang lebih luas di berbagai wilayah dapat membantu memperkuat komunitas penambangan di Eropa, memungkinkan mereka untuk secara efektif melawan kesalahpahaman dan konsepsi salah tentang penambangan, dampak lingkungannya, dan jejaknya pada jaringan listrik.
 ![image](assets/en/014.webp)
 
 Menghadapi kampanye seperti yang dilakukan oleh Greenpeace dan angka-angka menyesatkan dari beberapa studi, senjata terbaik tetaplah informasi yang benar. Sangat penting untuk menginformasikan masyarakat umum dan pembuat keputusan tentang realitas penambangan, kompleksitasnya, dan nuansanya, daripada membiarkan mereka mengandalkan stereotip dan informasi yang tidak akurat. Semakin banyak orang yang terinformasi dan sadar tentang apa itu penambangan, semakin baik industri dapat mempertahankan diri dari regulasi yang berpotensi membatasi.
@@ -311,13 +311,14 @@ Bitcoin secara otomatis menyesuaikan kesulitan penambangan dan memberi hadiah ke
 
 Penting untuk memahami hubungan antara energi dan produksi panas dalam sistem listrik.
 
-Untuk investasi 1 kW energi listrik, radiator listrik menghasilkan 1 kW panas, tidak lebih, tidak kurang. Radiator baru tidak lebih efisien daripada radiator tradisional. Keuntungan mereka terletak pada kemampuan mereka untuk terus-menerus dan merata mendistribusikan panas dalam sebuah ruangan, memberikan lebih banyak kenyamanan dibandingkan dengan radiator tradisional yang bergantian antara daya pemanasan tinggi dan tidak ada pemanasan, sehingga menghasilkan variasi suhu reguler dan ketidaknyamanan.
+Dengan investasi energi listrik sebesar 1 kW, radiator listrik menghasilkan panas sebesar 1 kW, tidak lebih, tidak kurang. Radiator baru tidak lebih efisien daripada radiator tradisional. Keunggulannya terletak pada kemampuannya untuk mendistribusikan panas secara terus menerus dan merata ke seluruh ruangan, memberikan kenyamanan yang lebih besar dibandingkan dengan radiator tradisional yang bergantian antara daya pemanasan tinggi dan tanpa pemanasan, sehingga menghasilkan variasi suhu yang teratur dan ketidaknyamanan.
 
 Komputer, atau lebih luas lagi papan elektronik, tidak mengonsumsi energi untuk melakukan perhitungan, ia hanya membutuhkan energi untuk mengalir melalui komponennya agar dapat berfungsi. Konsumsi energi disebabkan oleh resistansi listrik dari komponen, yang menghasilkan kerugian dan menghasilkan panas, dikenal sebagai efek Joule.
 
 Beberapa perusahaan telah datang dengan ide untuk menggabungkan kebutuhan kekuatan komputasi dengan kebutuhan pemanasan melalui radiator/server. Ide ini adalah untuk mendistribusikan server perusahaan ke dalam unit-unit kecil yang bisa ditempatkan di rumah atau kantor. Namun, ide ini menghadapi beberapa masalah. Kebutuhan akan server tidak terkait dengan kebutuhan akan pemanasan, dan perusahaan tidak dapat menggunakan kemampuan komputasi server mereka secara fleksibel. Ada juga batasan pada bandwidth yang dapat dimiliki individu. Semua kendala ini mencegah perusahaan dari membuat instalasi mahal ini menguntungkan atau menyediakan penawaran server online yang stabil tanpa pusat data yang dapat mengambil alih ketika pemanasan tidak diperlukan.
 
 > Panas yang dihasilkan oleh komputer Anda tidak terbuang jika Anda perlu memanaskan rumah Anda. Jika Anda menggunakan pemanas listrik di tempat Anda tinggal, maka panas dari komputer Anda tidak terbuang. Biayanya sama untuk menghasilkan panas ini dengan komputer Anda. Jika Anda memiliki sistem pemanasan yang lebih murah daripada pemanas listrik, maka pemborosan hanya pada perbedaan biaya. Jika musim panas dan Anda menggunakan pendingin udara, maka itu adalah pemborosan ganda. Penambangan Bitcoin harus dilakukan di tempat yang lebih murah. Mungkin itu akan berada di tempat dengan iklim dingin dan di mana pemanasan adalah listrik, di mana penambangan akan menjadi gratis.
+> 
 > Satoshi Nakamoto - 8 Agustus 2010
 
 Bitcoin dan sistem bukti kerjanya menonjol karena secara otomatis menyesuaikan kesulitan penambangan berdasarkan jumlah perhitungan yang dilakukan oleh seluruh jaringan. Jumlah ini disebut hashrate dan dinyatakan dalam hash per detik. Saat ini, diperkirakan sebesar 380 exahash per detik, yang berarti 380 miliar miliar hash per detik. Hashrate ini mewakili pekerjaan dan oleh karena itu jumlah energi yang digunakan. Semakin tinggi hashrate, semakin tinggi kesulitannya, dan sebaliknya. Dengan demikian, seorang penambang Bitcoin dapat diaktifkan atau dinonaktifkan kapan saja tanpa mempengaruhi jaringan, tidak seperti radiator/server yang perlu tetap stabil untuk menyediakan layanannya. Penambang diberi imbalan atas partisipasinya, relatif terhadap yang lain, tidak peduli seberapa kecil mungkin.

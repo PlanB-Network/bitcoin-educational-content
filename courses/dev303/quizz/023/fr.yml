@@ -1,8 +1,8 @@
 question: Que se passe-t-il pour l'instance de la structure d'origine lorsque vous utilisez la syntaxe de mise à jour de la structure avec des types qui ne sont pas des copies ?
-answer: Les champs copiés deviennent inutilisables dans l'instance d'origine en raison de la sémantique de déplacement
+answer: Les champs copiés deviennent inutilisables dans l'instance d'origine en raison de la sémantique de déplacement.
 wrong_answers:
-  - L'instance d'origine reste totalement inchangée et entièrement accessible
-  - L'instance d'origine est clonée dans son intégralité, les deux instances restant pleinement fonctionnelles
-  - Seuls les champs que vous modifiez explicitement deviennent inaccessibles dans l'original
+  - L'instance d'origine reste totalement inchangée et entièrement accessible.
+  - L'instance d'origine est clonée dans son intégralité, les deux instances restant pleinement fonctionnelles.
+  - Seuls les champs que vous modifiez explicitement deviennent inaccessibles dans l'original.
 explanation: |
   Lorsque l'on utilise la syntaxe de mise à jour des structures avec des types autres que la copie, le système de propriété de Rust déplace les champs copiés de l'instance d'origine vers la nouvelle instance. Cela signifie que ces champs spécifiques deviennent inutilisables dans l'instance d'origine, alors que les champs qui n'ont pas été copiés restent accessibles. Le compilateur suit intelligemment ces déplacements partiels, empêchant l'accès aux champs déplacés tout en permettant l'utilisation continue des champs non déplacés. Ce comportement garantit la sécurité de la mémoire en empêchant les propriétaires multiples des mêmes données.

@@ -1,9 +1,9 @@
-question: Ni uwuhe mucukumbuzi akoreshwa na Blink azwi cane kubera umuvuduko wayo n’uguhuza, ariko akorakoranya amakuru menshi cane y’abakoresha kugira ngo akoreshe mu kwamamaza?
+question: Ni iyihe mucukumbuzi ishingiye kuri Blink izwi cane kubera umuvuduko wayo n’uguhuza n’ibindi vyinshi, ariko ikorakoranya amakuru menshi cane y’abakoresha kugira ngo akoreshe mu kwamamaza?
 answer: Chrome
 wrong_answers:
-  - Intwari
+  - Brave
   - Firefox
-  - Mucukumbuzi wa Tor
+  - Tor Browser
 explanation: |
-  Naho Google Chrome ari igikoresho gikomeye, mu buryo busanzwe ikorakoranya amakuru menshi y’umuntu ku giti ciwe, ayo Google ikoresha mu kwamamaza abantu.
-reviewed: false
+  Naho Google Chrome ari igikoresho gikomeye, mu buryo busanzwe ikorakoranya amakuru menshi y’umuntu ku giti ciwe, ayo Google ikoresha mu kwamamaza.
+reviewed: true

@@ -1,0 +1,9 @@
+question: การสำรองข้อมูลใดบ้างที่จำเป็นในการกู้คืนโหนด Lightning?
+answer: seed และ SCB
+wrong_answers:
+  - seed และไฟล์ txindex
+  - seed และที่อยู่ IP สาธารณะ
+  - seed และ 2FA
+explanation: |
+  การกู้คืนโหนด Lightning จำเป็นต้องใช้ทั้ง seed และ SCB (Static Channel Backup) ซึ่งหากไม่มีจะไม่สามารถกู้คืนเงินในช่องทางได้
+reviewed: true

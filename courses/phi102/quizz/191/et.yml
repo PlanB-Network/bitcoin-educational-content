@@ -1,0 +1,8 @@
+question: Mis on Tocqueville'i demokraatliku despotismi analüüsi kohaselt peamine oht, kui demokraatia muundub oma eesmärgi vastu?
+answer: Riik muutub ühiskonna direktoriks ja demokraatlik mass ise surub individuaalsed vabadused kokku
+wrong_answers:
+  - Poliitiline eliit manipuleerib valimisprotsessidega, et säilitada võimu, eirates samas enamuse tahet
+  - Majanduslik ebavõrdsus kasvab nii äärmuslikuks, et demokraatlikud institutsioonid muutuvad jõukate erihuvide poolt kinnipeetavaks
+  - Välismõjud ja propaganda õõnestavad demokraatlikku protsessi, levitades valijatele valeinformatsiooni
+explanation: |
+  Tocqueville määratles demokraatliku despotismi kui nähtuse, kus demokraatia pöördub oma põhieesmärgi - üksikisiku õiguste kaitsmise - vastu. Selle asemel, et organiseerida inimeste vabaduste vastu suunatud rünnakute tõhusat mahasurumist, muutub demokraatlik riik ise nende samade õiguste ja vabaduste ründamise vahendiks. Oht tuleb seestpoolt - demokraatlik mass ise surub vabadusi kokku ühiskonna riikliku juhtimise kaudu. Teised võimalused kirjeldavad väliseid ohte või eliidi haaramist, kuid Tocqueville'i kontseptsioon käsitleb konkreetselt seda, kuidas demokraatia võib end sisemiselt ära rikkuda, kui riigist saab pigem ühiskonna direktor kui vabaduse kaitsja.

@@ -1,9 +1,9 @@
 question: Ni ibihe bintu bihambaye cane umuntu akwiye gusuzuma imbere yo guhitamwo porogarama yo gutanga ubutumwa?
-answer: Iherezo-ku-iherezo ry'ububiko na kode y'inkomoko yuguruye
+answer: Kunyegeza amakuru impera kuyindi (End-to-end encryption) na kode y’isoko y’uguruye (open source)
 wrong_answers:
-  - Ivyemezo bikomeye na kode y'inkomoko yuguruye
-  - Iherezo-ku-iherezo ry'ububiko n'amaserveri yegerejwe
-  - Ivyemezo bikomeye n'amaserveri yegerejwe
+  - Ivyemezo bikomeye na kode y’isoko yuguruye
+  - hKunyegeza amakuru impera kuyindi n’amaseriveri akwiragiye
+  - Ivyemezo bikomeye n’amaseriveri akwiragiye
 explanation: |
-  Ugushiramwo amakuru kuva ku mpera kugeza ku mpera bituma amakuru ahindurwa aba ibanga, kandi inkomoko yuguruye ituma bishoboka kugenzura ukuntu uwo mutekano ushirwa mu ngiro neza.
-reviewed: false
+  Kunyegeza amakuru impera kuyindi bituma amakuru ahanahanwa aba ibanga, kandi kuba ari open source bituma bishoboka kugenzura ukuntu uwo mutekano ushirwa mu ngiro neza.
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - ip route show
 explanation: |
   el comando "ip addr show" lista todas las interfaces de red, junto con su estado, direcciones y parámetros asociados.
-reviewed: false
+reviewed: true

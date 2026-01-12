@@ -11,7 +11,7 @@ Bitfeed è una piattaforma per la visualizzazione del livello onchain del protoc
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 In questo tutorial daremo un'occhiata a questo strumento, che consente di esplorare tutte le transazioni e i blocchi della rete.
 
@@ -95,7 +95,7 @@ La prima transazione di questo blocco rappresenta la transazione **coinbase** ch
 
 
 
-https://planb.academy/courses/obtenir-ses-premiers-bitcoins-f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 Per impostazione predefinita, le transazioni in un blocco sono rappresentate secondo due criteri:
 

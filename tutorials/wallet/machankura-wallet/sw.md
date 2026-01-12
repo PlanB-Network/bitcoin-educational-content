@@ -30,10 +30,10 @@ Machankura, misimu ya Afrika Kusini ya "fedha", ni mradi ambao maono yake ni kuu
 
 
 
-Ni Wallet iliyohifadhiwa ambayo hukuruhusu kutuma na kupokea bitcoins kwenye Lightning Network kupitia teknolojia ya USSD. Machankura hufanya kazi kwenye simu zote, hata za msingi zaidi (Simu ya Symbian), kwa kutumia mtandao wa jadi wa GSM.
+Ni Wallet iliyohifadhiwa ambayo hukuruhusu kutuma na kupokea bitcoin kwenye Lightning Network kupitia teknolojia ya USSD. Machankura hufanya kazi kwenye simu zote, hata za msingi zaidi (Simu ya Symbian), kwa kutumia mtandao wa jadi wa GSM.
 
 
-**8333.mobi** ambayo kwa kawaida huonekana chini ya nembo ni nodi ya hila. Hakika, **8333** ndio lango chaguo-msingi linalotumiwa na nodi za Bitcoin kuwasiliana. Machankura anaonyesha kuwa Afrika haiko kando ya mapinduzi haya, na ni nchi ya uvumbuzi katika uwanja huu.
+**8333.mobi** ambayo kwa kawaida huonekana chini ya nembo ni node ya hila. Hakika, **8333** ndio lango chaguo-msingi linalotumiwa na node za Bitcoin kuwasiliana. Machankura anaonyesha kuwa Afrika haiko kando ya mapinduzi haya, na ni nchi ya uvumbuzi katika uwanja huu.
 
 
 
@@ -72,11 +72,11 @@ Kama tulivyosema awali, iliyoundwa mahsusi kwa Afrika, huduma hii inafanya kazi 
 
 
 
-Tofauti na suluhisho la kawaida la Wallet, Machankura aliweza kutumia teknolojia ya USSD kwa Address tatizo halisi linalowakabili watu wa Afrika: mtandao.
+Tofauti na suluhisho la kawaida la Wallet, Machankura inaweza kutumia teknolojia ya USSD kwa Address tatizo halisi linalowakabili watu wa Afrika: mtandao.
 
 
 
-Machankura ni huduma iliyotengenezwa na kisha kuunganishwa na msimbo wa GSM ili kuwawezesha watumiaji kupokea na kutuma bitcoins bila mtandao. Unaweza kutumia huduma katika nchi zifuatazo kwa kutumia msimbo husika wa USSD:
+Machankura ni huduma iliyotengenezwa na kisha kuunganishwa na msimbo wa GSM ili kuwawezesha watumiaji kupokea na kutuma bitcoin bila mtandao. Unaweza kutumia huduma katika nchi zifuatazo kwa kutumia msimbo husika wa USSD:
 
 
 
@@ -113,7 +113,7 @@ Mafunzo haya ya hatua kwa hatua yanaeleza jinsi ya kutumia Machankura, kwanza kw
 
 
 
-### Unda kwingineko yako
+### Unda wallet yako
 
 
 
@@ -145,10 +145,10 @@ Mara tu kwingineko yako imeundwa, utafikia menyu kuu na chaguzi zifuatazo:
 
 
 
-1. Tuma bitcoins
+1. Tuma bitcoin
 
 
-2. Pokea bitcoins
+2. Pokea bitcoin
 
 
 3. Maelezo ya akaunti
@@ -175,7 +175,7 @@ Ili kufikia "maelezo ya akaunti", chagua chaguo **3** na ubonyeze kitufe cha kup
 
 
 
-Machankura ni Umeme wa Wallet, kwa hivyo bitcoins zako zinadhibitiwa kupitia nodi za Machankura. Akaunti yako inalindwa na nambari ya siri uliyochagua.
+Machankura ni Lightning wa Wallet, kwa hivyo bitcoin zako zinadhibitiwa kupitia node za Machankura. Akaunti yako inalindwa na nambari ya siri uliyochagua.
 
 
 
@@ -199,23 +199,23 @@ Wallet yako imeunganishwa na nambari yako ya simu:
 
 
 
-### Pokea bitcoins
+### Pokea bitcoin
 
 
 
 
 
-- Chagua nambari ya agizo la chaguo la "Pokea Bitcoins" kwenye menyu kuu.
+- Chagua nambari ya agizo la chaguo la "Pokea bitcoin" kwenye menyu kuu.
 - Nambari yako ya simu hutumika kama Address yako ya umma.
-- Shiriki nambari yako na mtu ambaye anataka kukutumia bitcoins.
+- Shiriki nambari yako na mtu ambaye anataka kukutumia bitcoin.
 
 
 
-#### Umeme Maalum Address
+#### Lightning Maalum Address
 
 
 
-Kila akaunti ya Machankura imepewa umeme wa Address kulingana na nambari yako ya Machankura
+Kila akaunti ya Machankura imepewa Lightning  Address kulingana na nambari yako ya Machankura
 
 
 `votrenumero@8333.mobi`
@@ -227,19 +227,19 @@ Mfano: +2371234567890 nambari itakuwa `+2371234567890@8333.mobi`
 Hata hivyo, unaweza kuchagua jina maalum la mtumiaji kuchukua nafasi ya nambari (k.m. `Satoshi@8333.mobi`).
 
 
-Mtu yeyote aliye na Lightning Address yako anaweza kukutumia bitcoins bila kujua nambari yako ya simu.
+Mtu yeyote aliye na Lightning Address yako anaweza kukutumia bitcoin bila kujua nambari yako ya simu.
 
 
 
-#### Inapakia upya kwingineko yako ya Machankura
+#### Inapakia upya Machankura yako kwingineko
 
 
 
-Mbali na kupokea bitcoins kutoka kwa umeme mwingine wa Wallet, unaweza kujaza tena Machankura Wallet yako na **Azteco** na **1Vocha** kutoka kwa **Kikundi cha Flash**.
+Mbali na kupokea bitcoin kutoka kwa Lightning Wallet nyingine, unaweza kujaza tena Machankura Wallet yako na **Azteco** na **1Vocha** kutoka kwa **Flash Group**.
 
 
 
-**Azteco** na **Flash Group** ni kampuni mbili zinazotoa Bitcoin **vocha**, yaani, huduma za vocha za kulipia kabla ambazo unaweza kununua mtandaoni au kutoka kwa wauzaji tena ili kupata Bitcoin bila kupitia jukwaa la Exchange. Vocha hizi hufanya kazi kama **kadi za zawadi**. Kuna vocha za **On-Chain** na **Umeme**.
+**Azteco** na **Flash Group** ni kampuni mbili zinazotoa Bitcoin **vocha**, yaani, huduma za vocha za kulipia kabla ambazo unaweza kununua mtandaoni au kutoka kwa wauzaji tena ili kupata Bitcoin bila kupitia jukwaa la Exchange. Vocha hizi hufanya kazi kama **kadi za zawadi**. Kuna vocha za **On-Chain** na **Lightning**.
 
 
 
@@ -266,16 +266,16 @@ Mchakato ni rahisi:
 
 - Weka msimbo wa USSD MACHANKURA wa nchi yako kwenye simu yako.
 - Subiri hadi menyu kuu ionekane.
-- Chagua nambari ya agizo la chaguo la ''Pokea bitcoins''.
+- Chagua nambari ya agizo la chaguo la ''Pokea bitcoin''.
 - Weka msimbo wa tarakimu 16 (msimbo wa marejeleo wa vocha ya Azteco chini ya vocha au PIN ya 1Vocha kwenye Invoice).
 
 
 
-Bitcoins sawa na kiasi cha vocha iliyonunuliwa huongezwa moja kwa moja kwenye Machankura Wallet yako.
+bitcoin sawa na kiasi cha vocha iliyonunuliwa huongezwa moja kwa moja kwenye Machankura Wallet yako.
 
 
 
-### Tuma Bitcoins
+### Tuma bitcoin
 
 
 
@@ -289,7 +289,7 @@ Bitcoins sawa na kiasi cha vocha iliyonunuliwa huongezwa moja kwa moja kwenye Ma
 
 
 
-Machankura kisha hutuma bitcoins kupitia Lightning Network katika suala la sekunde. Mtumaji pia anaweza kutuma bitcoins katika sarafu nyingine, ikiwa ni pamoja na sarafu za ndani.
+Machankura kisha hutuma bitcoin kupitia Lightning Network katika suala la sekunde. Mtumaji pia anaweza kutuma bitcoin katika sarafu nyingine, ikiwa ni pamoja na sarafu za ndani.
 
 
 
@@ -297,11 +297,11 @@ Ikiwa nambari ya mpokeaji bado haijasajiliwa kama mtumiaji, Machankura atajisaji
 
 
 
-Ujumbe hutumwa kiotomatiki kwa nambari iliyosajiliwa mapema, na mtumiaji hupokea bitcoins zake mara tu amethibitisha usajili wake na huduma.
+Ujumbe hutumwa kiotomatiki kwa nambari iliyosajiliwa mapema, na mtumiaji hupokea bitcoin zake mara tu amethibitisha usajili wake na huduma.
 
 
 
-Unaweza kutazama [onyesho la utumaji video](https://www.linkedin.com/posts/activity-7351143606121820162-Ua3T?utm_source=share&utm_medium=member_android&rcm=ACoAAAeTubUB8GuaMia5yNBlGOe TATU ya TAA3W) ya PbitcoinsAU ya PBG4WZP bitcoins (Ongoza Machankura Afrique Francophone) kupitia Machankura kwenye simu ya msingi.
+Unaweza kutazama [onyesho la utumaji video](https://www.linkedin.com/posts/activity-7351143606121820162-Ua3T?utm_source=share&utm_medium=member_android&rcm=ACoAAAeTubUB8GuaMia5yNBlGOe TATU ya TAA3W) ya PbitcoinAU ya PBG4WZP bitcoin (Ongoza Machankura Afrique Francophone) kupitia Machankura kwenye simu ya msingi.
 
 
 
@@ -354,7 +354,7 @@ Pia una chaguo la kukokotoa la "**Clan**", ambalo hukuruhusu kudhibiti mfumo wa 
 
 
 
-Machankura amechagua WhatsApp kama jukwaa lake la kati la matumizi ya simu mahiri.
+Machankura imechagua WhatsApp kama jukwaa lake la kati la matumizi ya simu mahiri.
 
 
 
@@ -414,7 +414,7 @@ Ili kuifanya:
 
 
 
-Kisha roboti itakutumia msimbo wa **tarakimu 6** ambao unahitaji kuandika, kisha uchague jina lako la mtumiaji. Mara tu unaposasisha jina lako la mtumiaji, rudi kwenye menyu ili kuchukua fursa ya kutuma na kupokea bitcoins kupitia Machankura.
+Kisha roboti itakutumia msimbo wa **tarakimu 6** ambao unahitaji kuandika, kisha uchague jina lako la mtumiaji. Mara tu unaposasisha jina lako la mtumiaji, rudi kwenye menyu ili kuchukua fursa ya kutuma na kupokea bitcoin kupitia Machankura.
 
 
 
@@ -422,32 +422,32 @@ Kisha roboti itakutumia msimbo wa **tarakimu 6** ambao unahitaji kuandika, kisha
 
 
 
-### Tuma bitcoins
+### Tuma bitcoin
 
 
 
-Machankura hukuruhusu kutuma bitcoins zako kupitia chaguzi tofauti:
+Machankura hukuruhusu kutuma bitcoin zako kupitia chaguzi tofauti:
 
 
 
 
 - nambari ya simu;
-- umeme Address, umbizo hili la Bitcoin Address linaloweza kusomeka na binadamu linatumika kwa upana zaidi ili kuepuka makosa ya kuandika wakati wa kufanya malipo;
+- Lightning Address, umbizo hili la Bitcoin Address linaloweza kusomeka na binadamu linatumika kwa upana zaidi ili kuepuka makosa ya kuandika wakati wa kufanya malipo;
 - jina la mtumiaji la mpokeaji, kwa malipo kwa akaunti ya Machankura;
-- gW-15 Invoice, kiwango cha Umeme wa Invoice;
+- gW-15 Invoice, kiwango cha Lightning Invoice;
 - gW-16 Address, kupitia huduma ya Boltz.
 
 
 
 https://planb.academy/tutorials/exchange/centralized/boltz-34ad778e-6dc7-41c2-8219-e11e3361a43d
 
-Machankura huwezesha ushirikiano kati ya pochi tofauti za Umeme. Katika onyesho hili, tunatuma bitcoins kutoka Machankura WhatsApp Wallet hadi Wallet ya Satoshi Wallet.
+Machankura huwezesha ushirikiano kati ya wallets tofauti za Lightning. Katika onyesho hili, tunatuma bitcoin kutoka Machankura WhatsApp Wallet hadi Wallet ya Satoshi Wallet.
 
 
 
 https://planb.academy/tutorials/wallet/mobile/wallet-of-satoshi-39149d86-e42b-4e8f-ae9f-7e061e7784f7
 
-Kutuma, tafadhali ingiza nambari ya 1, inayolingana na chaguo la "TUMA BTC". Ifuatayo, chagua chaguo la kutuma "Lightning Address", kisha ingiza Address ambayo bitcoins zitatumwa. Hatimaye, chagua kipimo cha thamani cha "Sats", onyesha idadi ya satoshi kutumwa na kuthibitisha usafirishaji.
+Kutuma, tafadhali ingiza nambari ya 1, inayolingana na chaguo la "TUMA BTC". Ifuatayo, chagua chaguo la kutuma "Lightning Address", kisha ingiza Address ambayo bitcoin zitatumwa. Hatimaye, chagua kipimo cha thamani cha "Sats", onyesha idadi ya satoshi kutumwa na kuthibitisha usafirishaji.
 
 
 
@@ -467,11 +467,11 @@ Hongera! Umetuma satoshi kwa mpokeaji wako.
 
 
 
-### Pokea bitcoins
+### Pokea bitcoin
 
 
 
-Mara moja kwenye menyu, chagua **2**, ambayo inalingana na chaguo ''**Pokea BTC**''. Kijibu kitaonyesha Umeme Address yako.
+Mara moja kwenye menyu, chagua **2**, ambayo inalingana na chaguo ''**Pokea BTC**''. Kijibu kitaonyesha Lightning Address yako.
 
 
 
@@ -503,7 +503,7 @@ Chaguo la 4 ''Address YA MARA MOJA'' hukuruhusu kupata matumizi mapya ya On-Chai
 
 
 
-Chaguo zingine zitakuelekeza kwenye ukurasa wa wavuti unaohusishwa na Umeme Address yako.
+Chaguo zingine zitakuelekeza kwenye ukurasa wa wavuti unaohusishwa na Lightning Address yako.
 
 
 
@@ -534,7 +534,7 @@ Unaweza kununua:
 
 
 
-Kwa Invoice sahihi, tafadhali onyesha kitengo cha akaunti na kiasi cha bitcoins katika kitengo hicho cha akaunti ungependa kupokea.
+Kwa Invoice sahihi, tafadhali onyesha kitengo cha akaunti na kiasi cha bitcoin katika kitengo hicho cha akaunti ungependa kupokea.
 
 
 Baada ya kuingiza kiasi katika kitengo hiki cha akaunti, mfumo unajali kubadilisha sawa katika Bitcoin, na kinyume chake.
@@ -565,7 +565,7 @@ Kumbuka kuwa unaweza pia kupata On-Chain Address yako kwenye ukurasa wa wavuti u
 
 
 
-Zaidi ya hayo, Machankura huwezesha mtu yeyote anayetaka kukutumia bitcoins kufanya hivyo kutoka kwa tovuti yako, kwa kutumia Wallet yake iliyojitolea. Unachotakiwa kufanya ni kuwatumia kiungo cha ukurasa wa wavuti unaohusishwa na Umeme Address yako. Mara tu watakapofikia ukurasa huu wa wavuti, wataweza kufungua msimbo wako wa QR au Invoice moja kwa moja kwenye Wallet yao.
+Zaidi ya hayo, Machankura huwezesha mtu yeyote anayetaka kukutumia bitcoin kufanya hivyo kutoka kwa tovuti yako, kwa kutumia Wallet yake iliyojitolea. Unachotakiwa kufanya ni kuwatumia kiungo cha ukurasa wa wavuti unaohusishwa na Lightning Address yako. Mara tu watakapofikia ukurasa huu wa wavuti, wataweza kufungua msimbo wako wa QR au Invoice moja kwa moja kwenye Wallet yao.
 
 
 
@@ -593,7 +593,7 @@ Unaweza kuona usawa wako wa kwingineko wa Machankura kwa kuchagua chaguo la 3, a
 
 
 
-Hongera! Sasa unaweza kutumia Machankura mwenyewe kupokea na kutumia bitcoins.
+Hongera! Sasa unaweza kutumia Machankura mwenyewe kupokea na kutumia bitcoin.
 
 
 

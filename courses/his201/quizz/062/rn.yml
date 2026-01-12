@@ -1,9 +1,9 @@
 question: Gupima igipimo ca Hash c’umunyamuryango w’ishirahamwe biciye ku gice ca Proof of Work birimwo iki?
-answer: Kugarura ibimenyamenya vy'akazi vy'urugero rwo hasi kuruta ingorane z'urubuga zakozwe na hasher
+answer: Kugarura proof of work vy'urugero rwo hasi kuruta ingorane z'urubuga zakozwe na hash
 wrong_answers:
-  - Kugarura icapa c'ikidodo, harimwo byte ya mbere y'ibara ryose Hash ryakozwe na hasher
-  - Kugarura amafaranga y'umuyagankuba wa hasher buri kwezi
-  - Kugarura ibimenyamenya vy'akazi vyakozwe ku rubuga rw'ingorane zito, nka BitDNS
+  - Kugarura icapa c'ikidodo, harimwo byte ya mbere y'ibara ryose Hash ryakozwe n'uwukora hash
+  - Kugarura igiciro y'umuyagankuba wa hash buri kwezi
+  - Kugarura proof of work vyakozwe ku rubuga rw'ingorane zito, nka BitDNS
 explanation: |
   Ubu buryo bworoshe bwashikirijwe na Ribuck, Nils Schneider, na Gavin Andresen [ku rubuga] ku wa 14 Gitugutu 2010.
 reviewed: true

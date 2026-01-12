@@ -1,5 +1,7 @@
 id: 509bf335-1122-49ec-9600-9987436985eb
 
+last_update_date: 2025-09-06
+
 project_id: ef37a74a-6ac1-4399-99f6-38114b85b7bc
 
 tags:
@@ -12,6 +14,8 @@ category: mobile
 level: beginner
 
 professor_id: d6587ae8-ea52-483d-b0ac-52ec3ab7f9f4
+
+license: CC-BY-SA-V4
 
 # Proofreading metadata
 
@@ -55,15 +59,16 @@ proofreading:
     contributor_names:
     reward: 2.47
   - language: fr
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 1.88
+      - nrak10
+    reward: 0.94
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.25
+    reward: 3.06
   - language: id
     last_contribution_date:
     urgency: 1
@@ -78,7 +83,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.65
+    reward: 3.06
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -108,7 +113,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.65
+    reward: 3.06
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -139,7 +144,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.65
+    reward: 3.06
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -155,3 +160,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 2.47
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.06

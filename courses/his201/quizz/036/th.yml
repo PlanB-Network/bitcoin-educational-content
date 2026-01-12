@@ -1,0 +1,9 @@
+question: ใครเป็นผู้ออกแบบโลโก้ Bitcoin ตัวจริงครั้งแรก (ตัวอักษร B ตัวใหญ่สีทองที่ถูกขีดด้วยเส้นแนวตั้งสองเส้น) ในเดือนกุมภาพันธ์ 2010?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - NewLibertyStandard
+  - Martti Malmi
+  - บิทบอย
+explanation: |
+  เขาใช้คำแนะนำของ NewLibertyStandard ในการใช้สัญลักษณ์บาทไทย (฿) โลโก้สีส้มถูกสร้างขึ้นในภายหลังโดยบุคคลที่รู้จักกันในชื่อ Bitboy.
+reviewed: true

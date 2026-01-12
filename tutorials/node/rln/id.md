@@ -4,17 +4,17 @@ description: Bagaimana cara meluncurkan node Lightning yang kompatibel dengan RG
 ---
 ![cover](assets/cover.webp)
 
-Dalam tutorial langkah demi langkah ini, Anda akan mempelajari cara menyiapkan node Lightning RGB di lingkungan Regtest. Kita akan melihat cara membuat token RGB dan mengedarkannya di saluran.
+Dalam tutorial langkah demi langkah ini, kamu bakal belajar cara nyiapin node Lightning RGB di lingkungan Regtest. Kita juga bakal lihat cara bikin token RGB dan mengedarkannya di channel.
 
 ## Proyek RLN
 
-Tim RGB Bitfinex telah bekerja sejak tahun 2022 untuk memperkaya ekosistem RGB dengan mengembangkan rangkaian teknologi yang lengkap. Alih-alih bertujuan untuk satu produk komersial, upayanya difokuskan untuk menyediakan batu bata perangkat lunak sumber terbuka, berkontribusi pada spesifikasi protokol RGB, dan membuat referensi implementasi.
+Tim RGB Bitfinex udah bekerja sejak 2022 buat memperkaya ekosistem RGB dengan ngembangin rangkaian teknologi yang lengkap. Alih-alih ngejar satu produk komersial, fokusnya ada di penyediaan software building blocks open-source, kontribusi ke spesifikasi protokol RGB, dan bikin implementasi referensi.
 
 Di antara kontribusi penting Bitfinex terhadap ekosistem RGB adalah [pustaka *RGBlib*](https://github.com/RGB-Tools/rgb-lib), yang ditulis dalam bahasa Rust dan dapat diakses melalui binding di Kotlin dan Python, yang sangat menyederhanakan pengembangan aplikasi RGB dengan mengenkapsulasi mekanisme validasi dan keterlibatan yang kompleks.
 
 Tim Bitfinex juga telah merancang dompet seluler RGB, yang disebut "[*Iris Wallet*](https://iriswallet.com/)", tersedia di Android. Dompet ini mengintegrasikan penggunaan server proxy RGB untuk dengan mudah mengelola pertukaran data off-chain (*kiriman*) untuk *Validasi Sisi Klien* pada RGB.
 
-Bitfinex juga telah mengembangkan proyek `rgb-lightning-node` (RLN). Ini adalah daemon Rust yang didasarkan pada fork dari `rust-lightning` (LDK), yang dimodifikasi untuk memperhitungkan keberadaan aset RGB dalam sebuah saluran. Ketika saluran dibuka, keberadaan token RGB dapat ditentukan, dan setiap kali status saluran diperbarui, transisi status dibuat yang mencerminkan distribusi token dalam output Lightning. Hal ini memungkinkan :
+Bitfinex juga ngembangin proyek 'rgb-lightning-node' (RLN). Ini adalah daemon Rust yang dibangun dari fork 'rust-lightning' (LDK) yang dimodifikasi supaya bisa ngitung keberadaan aset RGB di dalam sebuah channel. Waktu channel dibuka, kamu bisa nentuin apakah ada token RGB di dalamnya, dan setiap kali status channel diperbarui, bakal dibuat *state transition* yang ngegambarin distribusi token dalam output Lightning. Ini memungkinkan:
 
 
 - Buka saluran Lightning dalam USDT, misalnya;
@@ -25,9 +25,9 @@ Kode RLN masih dalam tahap alfa: kami sarankan untuk menggunakannya di **regtest
 
 ## Pengingat protokol RGB
 
-RGB adalah sebuah protokol yang berjalan di atas Bitcoin dan meniru fungsionalitas smart contract dan manajemen aset digital, tanpa membebani blockchain yang menjadi basisnya. Tidak seperti smart contract on-chain konvensional (seperti pada Ethereum, misalnya), RGB bergantung pada sistem "*Validasi sisi klien*": sebagian besar data dan riwayat status dipertukarkan dan disimpan secara eksklusif oleh para partisipan yang terlibat, sedangkan blockchain Bitcoin hanya menyimpan komitmen kriptografi kecil (melalui mekanisme seperti *Tapret* atau *Opret*). Dalam protokol RGB, blockchain Bitcoin hanya berfungsi sebagai server pencatat waktu dan sistem proteksi pembelanjaan ganda.
+RGB adalah protokol yang berjalan di atas Bitcoin dan meniru fungsionalitas smart contract dan manajemen aset digital tanpa ngebebanin blockchain dasarnya. Berbeda dari smart contract on-chain konvensional (kayak di Ethereum, misalnya), RGB bergantung pada sistem *client-side validation:* sebagian besar data dan riwayat status dipertukarkan dan disimpen secara eksklusif sama para partisipan, sementara blockchain Bitcoin cuma nyimpen komitmen kriptografi kecil lewat mekanisme kayak *Tapret* atau *Opret*. Dalam protokol RGB, blockchain Bitcoin cuma berperan sebagai server pencatat waktu dan sistem proteksi dari double-spend.
 
-Kontrak RGB terstruktur seperti mesin status evolusioner. Dimulai dengan Genesis yang mendefinisikan keadaan awal (menggambarkan, misalnya, pasokan, ticker, atau metadata lainnya) menurut Skema yang diketik dan dikompilasi secara ketat. State Transitions dan, jika perlu, State Extensions kemudian diterapkan untuk memodifikasi atau memperluas state ini. Setiap operasi, baik mentransfer aset yang dapat dipertukarkan (RGB20) atau membuat aset unik (RGB21), melibatkan *Segel Sekali Pakai*. Segel ini menghubungkan UTXO Bitcoin ke state off-chain dan mencegah pengeluaran ganda, sekaligus memastikan kerahasiaan dan skalabilitas.
+Kontrak RGB disusun seperti mesin status yang berevolusi. Semuanya dimulai dengan Genesis yang nentuin state awal, misalnya total pasokan, ticker, atau metadata lain, sesuai Skema yang diketik dan dikompilasi dengan ketat. Lalu State Transitions dan, kalau perlu, State Extensions diterapkan buat ngubah atau ngeperluas state ini. Setiap operasi, entah itu nge­transfer aset yang bisa dipertukarkan (RGB20) atau bikin aset unik (RGB21), selalu melibatkan *single-use seals.* Seal ini ngaitin UTXO Bitcoin ke state off-chain dan mencegah double-spend sambil tetap ngejaga privasi dan skalabilitas.
 
 Untuk mempelajari lebih lanjut mengenai cara kerja protokol RGB, saya sarankan Anda mengikuti kursus pelatihan komprehensif ini:
 
@@ -60,7 +60,7 @@ cargo install --locked --debug --path .
 - `--debug` tidak wajib, tetapi dapat membantu Anda fokus (Anda dapat menggunakan `--release` jika Anda mau);
 - `--path .` memberitahu `cargo install` untuk menginstal dari direktori saat ini.
 
-Pada akhir perintah ini, sebuah eksekusi `rgb-lightning-node` akan tersedia pada `$CARGO_HOME/bin/`. Pastikan jalur ini ada di `$PATH` Anda sehingga Anda dapat memanggil perintah dari direktori mana pun.
+Pada akhir perintah ini, sebuah eksekusi `rgb-lightning-node` akan tersedia pada `$CARGO_HOME/bin/`. Pastikan jalur ini ada di `$PATH` Anda sehingga kamu bisa memanggil perintah dari direktori mana pun.
 
 ## Prasyarat
 
@@ -74,7 +74,7 @@ Setiap instance RLN perlu berkomunikasi dengan `bitcoind` untuk menyiarkan dan m
 
 - **Pengindeks** (Electrum atau Esplora)
 
-Daemon harus dapat membuat daftar dan menjelajahi transaksi on-chain, khususnya untuk menemukan UTXO tempat sebuah aset ditambatkan. Anda harus menentukan URL server Electrum atau Esplora Anda.
+Daemon harus bisa ngelist dan ngejelajahi transaksi on-chain, khususnya buat nemuin UTXO tempat sebuah aset ditambatkan. Kamu perlu nentuin URL server Electrum atau Esplora yang kamu pakai.
 
 
 - **Proksi RGB**
@@ -89,7 +89,7 @@ Untuk penggunaan sederhana, ada skrip `regtest.sh` yang secara otomatis memulai,
 
 ![RLN](assets/fr/03.webp)
 
-Hal ini memungkinkan Anda untuk meluncurkan lingkungan lokal, terisolasi, dan telah dikonfigurasi sebelumnya. Ini membuat dan menghancurkan kontainer dan direktori data pada setiap reboot. Kita akan mulai dengan memulai file :
+Hal ini memungkinkan kamu buat ngejalanin lingkungan lokal yang terisolasi dan sudah dikonfigurasi sebelumnya. Lingkungan ini bakal bikin dan ngehapus kontainer serta direktori data setiap kali direboot. Kita mulai dengan ngejalanin file:
 
 ```bash
 ./regtest.sh start
@@ -126,7 +126,7 @@ rgb-lightning-node dataldk2/ --daemon-listening-port 3003 \
 - `--ldk-peer-listening-port` menentukan port p2p Lightning mana yang akan didengarkan;
 - `dataldk0/`, `dataldk1/` adalah jalur ke direktori penyimpanan (setiap simpul menyimpan informasinya secara terpisah).
 
-Anda sekarang dapat menjalankan perintah pada node RLN Anda dari peramban, berkat API. Secara khusus, di sinilah Anda dapat membuka kunci daemon. Cukup buka peramban di komputer yang sama dengan node Anda, dan masukkan URL :
+Sekarang kamu bisa ngejalanin perintah ke node RLN kamu langsung dari browser berkat API. Di sinilah kamu bisa buka kunci daemon. Cukup buka browser di komputer yang sama dengan node kamu, dan masukkan URL :
 
 ```url
 https://rgb-tools.github.io/rgb-lightning-node/
@@ -138,7 +138,7 @@ Agar sebuah node dapat membuka sebuah saluran, node tersebut harus memiliki bitc
 curl -X POST http://localhost:3001/address
 ```
 
-Jawabannya akan memberi Anda sebuah alamat.
+Nanti akan memberikan kamu sebuah alamat.
 
 ![RLN](assets/fr/06.webp)
 
@@ -168,7 +168,7 @@ Kemudian lakukan penambangan blok untuk mengonfirmasi transaksi:
 
 ## Peluncuran Testnet (tanpa Docker)
 
-Jika Anda ingin menguji skenario yang lebih realistis, Anda dapat meluncurkan node RLN di Testnet daripada di Regtest, yang mengarah ke layanan publik, atau layanan yang Anda kendalikan:
+Kalau kamu mau nguji skenario yang lebih realistis, kamu bisa ngejalanin node RLN di Testnet daripada di Regtest, yang bakal ngarah ke layanan publik, atau layanan yang kamu kendalikan:
 
 ```bash
 rgb-lightning-node dataldk0/ --daemon-listening-port 3001 \
@@ -179,7 +179,7 @@ rgb-lightning-node dataldk2/ --daemon-listening-port 3003 \
 --ldk-peer-listening-port 9737 --network testnet
 ```
 
-Secara default, jika tidak ada konfigurasi yang ditemukan, daemon akan mencoba menggunakan ekstensi :
+Secara default, kalau nggak ada konfigurasi yang ditemukan, daemon akan mencoba menggunakan ekstensi :
 
 
 - `bitcoind_rpc_host`: `electrum.iriswallet.com`
@@ -193,7 +193,7 @@ Dengan login :
 - `bitcoind_rpc_username`: `user`
 - `bitcoind_rpc_username`: `kata sandi`
 
-Anda juga dapat menyesuaikan elemen-elemen ini melalui API `init`/`unlock`.
+Kamu juga bisa menyesuaikan elemen-elemen ini melalui API `init`/`unlock`.
 
 ## Menerbitkan token RGB
 
@@ -213,13 +213,13 @@ http://localhost:3001/createutxos
 
 ![RLN](assets/fr/10.webp)
 
-Anda tentu saja dapat menyesuaikan pesanan. Untuk mengonfirmasi transaksi, kami menambang file :
+Tentu saja kamu bisa menyesuaikan pesanan. Untuk mengonfirmasi transaksi, kami menambang file :
 
 ```bash
 ./regtest.sh mine 1
 ```
 
-Sekarang kita dapat membuat aset RGB. Perintahnya akan bergantung pada jenis aset yang ingin Anda buat dan parameternya. Di sini saya membuat token NIA (*Non Inflatable Asset*) bernama "Plan ₿ Academy" dengan persediaan 1000 unit. `Presision` memungkinkan Anda untuk menentukan pembagian unit.
+Sekarang kita bisa bikin aset RGB. Perintahnya bakal tergantung pada jenis aset yang mau kamu buat dan parameternya. Di sini aku bikin token NIA (Non Inflatable Asset) bernama “Plan ₿ Academy” dengan suplai 1000 unit. 'Precision' memungkinkan kamu nentuin pembagian unit.
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -236,7 +236,7 @@ http://localhost:3001/issueassetnia
 
 ![RLN](assets/fr/11.webp)
 
-Tanggapannya mencakup ID aset yang baru dibuat. Ingatlah untuk mencatat pengenal ini. Dalam kasus saya, ini adalah :
+Tanggapannya mencakup ID aset yang baru dibuat. Ingatlah untuk mencatat pengenal ini. Dalam contohku, ini adalah :
 
 ```txt
 rgb:fc7fMj5S-8yz!vIl-260BEhU-Hj1skvM-ZHcjfyz-RTcWc10
@@ -244,11 +244,11 @@ rgb:fc7fMj5S-8yz!vIl-260BEhU-Hj1skvM-ZHcjfyz-RTcWc10
 
 ![RLN](assets/fr/12.webp)
 
-Anda kemudian dapat mentransfernya secara on-chain, atau mengalokasikannya dalam saluran Lightning. Itulah yang akan kita lakukan di bagian selanjutnya.
+Kamu kemudian bisa transfer token itu secara on-chain atau ngalokasikannya ke dalam channel Lightning. Itu yang bakal kita lakuin di bagian selanjutnya.
 
 ## Membuka saluran dan mentransfer aset RGB
 
-Anda harus terlebih dahulu menyambungkan node Anda ke peer di jaringan Lightning menggunakan perintah `/connectpeer`. Dalam contoh saya, saya mengendalikan kedua node. Jadi, saya akan mengambil kunci publik dari node Lightning kedua dengan perintah ini:
+Kamu harus sambungin node kamu dulu ke peer di jaringan Lightning pakai perintah /connectpeer. Di contohku, aku ngejalanin kedua node. Jadi aku bakal ngambil kunci publik dari node Lightning yang kedua dengan perintah ini:
 
 ```bash
 curl -X 'GET' \
@@ -256,7 +256,7 @@ curl -X 'GET' \
 -H 'accept: application/json'
 ```
 
-Perintah ini mengembalikan kunci publik dari simpul saya n°2:
+Perintah ini mengembalikan kunci publik dari node saya n°2:
 
 ```txt
 031e81e4c5c6b6a50cbf5d85b15dad720fec92c62e84bafb34088f0488e00a8e94
@@ -264,7 +264,7 @@ Perintah ini mengembalikan kunci publik dari simpul saya n°2:
 
 ![RLN](assets/fr/13.webp)
 
-Selanjutnya, kita akan membuka channel dengan menentukan aset yang relevan (`Plan ₿ Academy`). Perintah `/openchannel` memungkinkan Anda menentukan ukuran saluran di satoshi dan memilih untuk menyertakan aset RGB. Tergantung pada apa yang ingin Anda buat, tetapi dalam kasus saya, perintahnya adalah :
+Selanjutnya, kita bakal buka channel sambil nentuin aset yang relevan (Plan ₿ Academy). Perintah '/openchannel' memungkinkan kamu nentuin ukuran channel dalam satoshi dan milih buat menyertakan aset RGB. Tergantung apa yang mau kamu buat, tapi di kasusku, perintahnya adalah:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -303,7 +303,7 @@ Untuk mengonfirmasi transaksi, 6 blok ditambang:
 
 ![RLN](assets/fr/15.webp)
 
-Saluran Lightning sekarang terbuka dan juga berisi 500 token `Plan ₿ Academy` di sisi node n°1. Jika node n°2 ingin menerima token `Plan ₿ Academy`, ia harus membuat faktur. Berikut cara melakukannya:
+Saluran Lightning sekarang terbuka dan juga berisi 500 token `Plan ₿ Academy` di sisi node n°1. Kalau node n°2 ingin menerima token `Plan ₿ Academy`, ia harus membuat faktur. Berikut cara melakukannya:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" \
@@ -324,7 +324,7 @@ Dengan:
 - `asset_id`: Pengidentifikasi aset RGB yang terkait dengan faktur;
 - `jumlah_aset`: Jumlah aset RGB yang akan ditransfer dengan faktur ini.
 
-Sebagai tanggapan, Anda akan mendapatkan faktur RGB:
+Sebagai tanggapan, kamu bakal mendapatkan faktur RGB:
 
 ```txt
 lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87eykx96zt47e5pz8sfz8qp28fgpp5jksvqtleryhvwr299qdz96qxzm24augy5agkdhltudk463lt9dassp5d6n0sqgl0c4gx52fdmutrdtqamt0y4xuz2rcgel4hpjwne08gmls9qyysgqcqpcxqzdylz5wfnkywnxvvmkvnt2x4fj6wre0gshvjtv95ervvzzg4592t2gdgchx6mkf5k45jrrdfn8j73d2f2xx4mrxycq7qzry4v4jan6uxhhacyqa4gn6plggwpq9j74tu74f2zsamtz6ymt600p8su4c4ap9g9d8ku2x3wdh6fuc8fd8pff2yzpjrf24ys3cltca9fgqut6gzj
@@ -364,11 +364,11 @@ Berikut ini adalah cara menggunakan simpul Lightning yang dimodifikasi untuk mem
 Berkat proses ini :
 
 
-- Transaksi keterlibatan petir mencakup output tambahan (OP_RETURN atau Taproot) dengan penahan transisi RGB;
+- Transaksi keterlibatan lightning mencakup output tambahan (OP_RETURN atau Taproot) dengan penahan transisi RGB;
 - Transfer dilakukan dengan cara yang persis sama dengan pembayaran Lightning tradisional, tetapi dengan tambahan token RGB;
 - Beberapa node RLN dapat dihubungkan ke rute dan bereksperimen dengan pembayaran di beberapa node, asalkan ada likuiditas yang cukup dalam bitcoin dan RGB aset di jalur tersebut.
 
-Jika Anda merasa tutorial ini bermanfaat, saya akan sangat berterima kasih jika Anda memberikan jempol hijau di bawah ini. Jangan ragu untuk membagikan artikel ini di jejaring sosial Anda. Terima kasih banyak!
+Kalau kamu merasa tutorial ini bermanfaat, aku akan sangat berterima kasih kalau kamu memberikan jempol hijau di bawah ini. Jangan ragu untuk membagikan artikel ini di jejaring sosial. Terima kasih banyak!
 
 Saya juga merekomendasikan tutorial lain yang menjelaskan cara menggunakan alat bantu RGB CLI yang dikembangkan oleh asosiasi LNP/BP untuk membuat kontrak RGB:
 

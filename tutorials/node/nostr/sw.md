@@ -5,7 +5,7 @@ description: Gundua na anza kutumia NOSTR
 
 
 
-![A new challenger has arrived](assets/1.webp)
+![A new challenger has arrived](assets/cover.webp)
 
 
 *Mwisho wa mwongozo huu, utaelewa Nostr ni nini, utakuwa umeunda akaunti, na utaweza kuitumia.*

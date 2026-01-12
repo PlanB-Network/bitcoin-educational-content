@@ -1,5 +1,5 @@
-question: Bitcoin 解决了以前的数字货币未能解决的什么问题？
-answer: 以分散方式解决 double-spending 问题
+question: 比特币解决了以前的数字货币未能解决的什么问题？
+answer: 以去中心化方式解决双重支付问题
 wrong_answers:
   - 点对点网络的加密问题
   - 数字交易的存储问题

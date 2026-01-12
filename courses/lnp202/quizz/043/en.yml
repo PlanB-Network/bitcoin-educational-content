@@ -1,0 +1,9 @@
+question: Which channel closure is best for Lightning?
+answer: Cooperative closure
+wrong_answers:
+  - Forced closure
+  - Closing with cheating
+  - Watchtower closure
+explanation: |
+  Cooperative closing is faster and allows you to choose onchain fees.
+reviewed: false

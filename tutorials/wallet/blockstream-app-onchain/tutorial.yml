@@ -1,5 +1,7 @@
 id: e84edaa9-fb65-48c1-a357-8a5f27996143
 
+last_update_date: 2025-08-04
+
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
 
 tags:
@@ -13,16 +15,19 @@ level: beginner
 
 professor_id: bb9c6872-75a6-4987-ab72-0fd6e03b5e8d
 
+license: CC-BY-SA-V4
+
 # Proofreading metadata
 
 original_language: fr
 proofreading:
   - language: fr
-    last_contribution_date: 2025-07-28
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
       - man-orangepeel
-    reward: 1.09
+      - nrak10
+    reward: 0.55
   - language: cs
     last_contribution_date:
     urgency: 1
@@ -62,7 +67,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.96
+    reward: 3.57
   - language: id
     last_contribution_date:
     urgency: 1
@@ -77,7 +82,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.27
+    reward: 3.57
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -118,7 +123,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.27
+    reward: 3.57
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -148,9 +153,14 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.27
+    reward: 3.57
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 2.88
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.57

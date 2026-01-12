@@ -1,5 +1,7 @@
 id: 22cc4d35-fb46-4e54-8833-bc4b411518bc
 
+last_update_date: 2025-08-27
+
 tags:
   - guides
   - network-security
@@ -10,6 +12,8 @@ category: authentication
 level: beginner
 
 professor_id: 93e251db-ee1c-4966-8dce-b54df9fca287
+
+license: CC-BY-SA-V4
 
 # Proofreading metadata
 
@@ -60,7 +64,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.16
+    reward: 4.43
   - language: id
     last_contribution_date:
     urgency: 1
@@ -75,7 +79,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.3
+    reward: 4.43
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -126,7 +130,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.3
+    reward: 4.43
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -146,9 +150,14 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.3
+    reward: 4.43
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 3.56
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 4.43

@@ -234,7 +234,7 @@ Kwa ufahamu bora wa utaratibu huu na ni mizunguko ngapi inafaa kungojea, napende
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 Ili kuona idadi ya michanganyiko iliyofanywa na kila moja ya vipande vyako, fungua menyu ya `UTXOs` katika akaunti ya `Postmix`.
 
@@ -354,7 +354,7 @@ Utendaji wa mizunguko kadhaa ya coinjoin hupimwa kwa saizi ya seti ambazo sarafu
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 ## Jinsi ya kusimamia mchanganyiko wa posta?
 

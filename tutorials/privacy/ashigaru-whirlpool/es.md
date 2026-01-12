@@ -234,7 +234,7 @@ Para entender mejor este mecanismo y cuántos ciclos merece la pena esperar, rec
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 Para ver el número de remezclas realizadas por cada una de tus piezas, abre el menú `UTXOs` en la cuenta `Postmix`.
 
@@ -354,7 +354,7 @@ El rendimiento de varios ciclos coinjoin se mide por el tamaño de los conjuntos
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 ## ¿Cómo gestionar la postmezcla?
 

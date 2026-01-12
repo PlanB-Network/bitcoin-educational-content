@@ -1,5 +1,7 @@
 id: 64adb8a6-a0f8-41e7-a534-bac2eae07346
 
+last_update_date: 2025-11-27
+
 project_id: 2d295a5a-899d-4b78-b8da-df05f71b52e3
 
 level: beginner
@@ -16,7 +18,7 @@ tags:
 
 credit_link: https://bitcoinvn.io/
 
-licence: CC-BY-SA-V4
+license: CC-BY-SA-V4
 
 original_language: en
 proofreading:
@@ -26,3 +28,133 @@ proofreading:
     contributor_names:
       - Anh-La
     reward: 0.51
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.31
+  - language: cs
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.31
+  - language: de
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.01
+  - language: es
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.01
+  - language: et
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.31
+  - language: fa
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.31
+  - language: fi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.31
+  - language: fr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.01
+  - language: id
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.62
+  - language: it
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.01
+  - language: ja
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.62
+  - language: ko
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.62
+  - language: nb-NO
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.31
+  - language: nl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.31
+  - language: pl
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.31
+  - language: pt
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.01
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.62
+  - language: ru
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.31
+  - language: sr-Latn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.31
+  - language: sv
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.01
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.31
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.62
+  - language: tr
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.62
+  - language: vi
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.62
+  - language: zh-Hans
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.62
+  - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.62

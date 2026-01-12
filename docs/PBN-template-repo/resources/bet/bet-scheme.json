@@ -1,0 +1,125 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "bet-characteristics",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the BET content (UUID v4).",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+    },
+    "type": {
+      "type": "string",
+      "description": "The type of BET content.",
+      "enum": ["Educational Content", "Visual Content"]
+    },
+    "links": {
+      "type": "object",
+      "description": "Links for downloading and viewing the content.",
+      "properties": {
+        "download": {
+          "type": "string",
+          "description": "Plan B Network public link to a folder for downloading the contents."
+        },
+        "view": {
+          "type": "array",
+          "description": "List of language-specific viewable document links.",
+          "items": {
+            "type": "object",
+            "description": "Language-specific view link where the key is the language code.",
+            "additionalProperties": {
+              "type": "string",
+              "description": "Plan B Network public link to a readable document."
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "contributor_names": {
+      "type": "array",
+      "description": "List of contributors who helped format, review, or translate the content, identified by their GitHub usernames.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "project_id": {
+      "type": "string",
+      "description": "UUID of the associated project that organizes this content.",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+    },
+    "original_language": {
+      "type": "string",
+      "description": "The original language of the content (ISO 639-1 code)."
+    },
+    "proofreading": {
+      "type": "array",
+      "description": "Proofreading metadata for each language version.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "language": {
+            "type": "string",
+            "description": "Language code for the version being proofread."
+          },
+          "last_contribution_date": {
+            "type": "string",
+            "description": "The date when last contribution was received (YYYY-MM-DD format).",
+            "pattern": "^(YYYY-MM-DD|[0-9]{4}-[0-9]{2}-[0-9]{2})$"
+          },
+          "urgency": {
+            "type": "integer",
+            "description": "Level of urgency from 1 (low) to higher values (high urgency).",
+            "minimum": 1
+          },
+          "contributor_names": {
+            "type": "array",
+            "description": "List of contributor GitHub usernames for this proofreading.",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1
+          },
+          "reward": {
+            "type": "integer",
+            "description": "Amount of sats available for reward.",
+            "minimum": 0
+          }
+        },
+        "required": ["language", "last_contribution_date", "urgency", "contributor_names", "reward"],
+        "additionalProperties": false
+      }
+    },
+    "tags": {
+      "type": "array",
+      "description": "List of associated tags to this content from the PlanB Network tag list.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "license": {
+      "type": "string",
+      "description": "License for the content.",
+      "enum": ["CC-BY-SA-V4", "MIT"]
+    }
+  },
+  "assets_rules": {
+    "description": "Required image assets for BET content.",
+    "files": [
+      {
+        "path": "assets/logo.webp",
+        "required": true,
+        "format": "WebP",
+        "dimensions": {
+          "aspect_ratio": "1:1",
+          "recommended": "800x800 pixels"
+        },
+        "description": "BET content logo/thumbnail"
+      }
+    ]
+  },
+  "required": ["id", "type", "contributor_names", "original_language", "proofreading", "tags", "license"],
+  "additionalProperties": false
+}

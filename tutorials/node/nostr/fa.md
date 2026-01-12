@@ -4,7 +4,7 @@ description: کشف و شروع به استفاده از Nostr
 ---
 
 
-![A new challenger has arrived](assets/1.webp)
+![A new challenger has arrived](assets/cover.webp)
 
 
 *در پایان این راهنما، خواهید فهمید Nostr چیست، یک حساب کاربری ایجاد کرده‌اید و قادر به استفاده از آن خواهید بود.*

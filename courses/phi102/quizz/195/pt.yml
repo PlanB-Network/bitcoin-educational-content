@@ -1,0 +1,8 @@
+question: O que torna as consequências das decisões políticas particularmente difíceis de avaliar pelos cidadãos individuais, em comparação com as escolhas económicas pessoais?
+answer: As consequências políticas são colectivas e temporalmente dispersas, tornando impossível aos indivíduos observar diretamente o seu impacto total sobre as partes afectadas invisíveis
+wrong_answers:
+  - As decisões políticas exigem conhecimentos especializados que só economistas e peritos em política podem compreender e avaliar adequadamente
+  - As escolhas políticas envolvem considerações morais que transcendem o cálculo racional, ao contrário das decisões económicas que são puramente utilitárias
+  - Os sistemas políticos obscurecem deliberadamente a informação para manter o poder, enquanto os mercados fornecem sinais transparentes de preços para todos os participantes
+explanation: |
+  O texto explica especificamente que as decisões políticas têm consequências colectivas que são "difíceis de examinar para cada indivíduo" e que "uma medida política pode perfeitamente prejudicar pessoas que o cidadão não vê diretamente" Esta separação temporal e espacial das consequências, combinada com a sua natureza colectiva, torna as escolhas políticas inerentemente mais difíceis de avaliar do que as decisões económicas imediatas e pessoais, em que os resultados são diretamente observáveis e ajustáveis.

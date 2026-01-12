@@ -5,5 +5,5 @@ wrong_answers:
   - Outlook
   - Vaš blog
 explanation: |
-  Signal (kao što su Session i druge sigurne usluge razmene poruka) čisti metapodatke deljenih slika kako bi zaštitio privatnost korisnika.
-reviewed: false
+  Signal (kao što je i Session i drugi sigurni servisi za razmene poruka) čisti metapodatke deljenih slika kako bi zaštitio privatnost korisnika.
+reviewed: true

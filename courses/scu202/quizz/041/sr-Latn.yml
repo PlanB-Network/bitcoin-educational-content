@@ -5,5 +5,5 @@ wrong_answers:
   - Datoteka sa potpisima programera
   - Kompletan izvorni kod projekta
 explanation: |
-  Manifest ili SHA256SUMS datoteka sadrži Hash svake datoteke koju projekt distribuira i omogućava proveru njihovog integriteta.
-reviewed: false
+  Manifest ili SHA256SUMS datoteka sadrži heš svake datoteke koju projekt distribuira i omogućava proveru njihovog integriteta.
+reviewed: true

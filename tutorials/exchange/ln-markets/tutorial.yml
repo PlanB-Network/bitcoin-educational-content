@@ -1,5 +1,7 @@
 id: 3f139638-f2c4-404c-96ff-1b33b550b547
 
+last_update_date: 2025-11-10
+
 project_id: eb67d966-e019-4b62-8ac3-1b7e1ae83e1c
 
 tags:
@@ -13,7 +15,7 @@ level: intermediate
 
 professor_id: 93e251db-ee1c-4966-8dce-b54df9fca287
 
-licence: CC-BY-SA-V4
+license: CC-BY-SA-V4
 
 # Proofreading metadata
 
@@ -46,10 +48,11 @@ proofreading:
     contributor_names:
     reward: 4.81
   - language: es
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 4.81
+      - Salgraphics
+    reward: 2.4
   - language: et
     last_contribution_date:
     urgency: 1
@@ -79,7 +82,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.51
+    reward: 7.94
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -131,6 +134,26 @@ proofreading:
     contributor_names:
     reward: 7.94
   - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.94
+  - language: rn
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.94
+  - language: sw
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.38
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.94
+  - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:

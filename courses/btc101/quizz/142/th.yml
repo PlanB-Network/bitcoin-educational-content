@@ -1,0 +1,9 @@
+question: Lightning Network คืออะไร?
+answer: เครือข่ายการชำระเงิน Bitcoin ทันทีที่ใช้บล็อกเชน Bitcoin
+wrong_answers:
+  - เครือข่ายบล็อกเชนที่แยกออกจากบล็อกเชน Bitcoin
+  - เครือข่ายของนักขุด Bitcoin
+  - เครือข่ายของการแลกเปลี่ยน Bitcoin
+explanation: |
+  Lightning Network เป็นเครือข่ายการชำระเงิน Bitcoin ทันทีที่อิงตามบล็อกเชน Bitcoin
+reviewed: true

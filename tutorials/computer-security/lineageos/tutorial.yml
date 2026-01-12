@@ -1,5 +1,7 @@
 id: 1770fe66-c3b3-49ac-a0cf-a66ff283e2a9
 
+last_update_date: 2025-09-13
+
 tags:
   - guides
   - personal-security
@@ -10,6 +12,8 @@ category: operating system
 level: intermediate
 
 professor_id: 93e251db-ee1c-4966-8dce-b54df9fca287
+
+license: CC-BY-SA-V4
 
 # Proofreading metadata
 
@@ -60,7 +64,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.72
+    reward: 7.68
   - language: id
     last_contribution_date:
     urgency: 1
@@ -75,7 +79,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.2
+    reward: 7.68
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -105,7 +109,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.2
+    reward: 7.68
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -136,7 +140,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.2
+    reward: 7.68
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -152,3 +156,8 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 6.17
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.68

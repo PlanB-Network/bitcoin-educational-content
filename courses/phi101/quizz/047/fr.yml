@@ -1,4 +1,4 @@
-question: Quelle est la signification de la phrase de Maître Eckhart Toutes choses ont un pourquoi mais Dieu n'a pas de pourquoi ?
+question: Quelle est la signification de la phrase de Maître Eckhart, Toutes choses ont un pourquoi mais Dieu n'a pas de pourquoi ?
 answer: Dieu est incompréhensible pour la raison humaine et ne peut être expliqué par des causes rationnelles.
 wrong_answers:
   - La foi est supérieure à la raison et ne doit pas être soumise à un questionnement rationnel.
@@ -6,4 +6,4 @@ wrong_answers:
   - Toutes les réponses précédentes sont correctes.
 explanation: |
   Maître Eckhart exprime l'idée que Dieu dépasse les concepts rationnels et les explications humaines. Contrairement aux choses créées, Dieu n'est pas soumis aux causes et aux raisons compréhensibles par l'esprit humain.
-reviewed: false
+reviewed: true 

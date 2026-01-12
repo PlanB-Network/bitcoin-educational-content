@@ -4,6 +4,12 @@ description: 가장 간단한 커스터디 Wallet 시작하기
 ---
 ![cover](assets/cover.webp)
 
+---
+
+*주의: 2026년 초부터 이 튜토리얼에서 소개된 커스터디얼 모드의 Wallet of Satoshi는 유럽연합 내에서 더 이상 이용할 수 없습니다. 해당 지역에 거주하며 이 도구를 계속 사용하고자 한다면, EU 외부에 위치한 VPN을 사용해야 합니다. 또 다른 옵션으로는 Wallet of Satoshi를 셀프 커스터디얼 모드로 사용하는 방법이 있습니다. 전용 튜토리얼은 곧 Plan ₿ Academy에 게시될 예정입니다.*
+
+---
+
 이 튜토리얼은 _[Bitcoin 캠퍼스](https://linktr.ee/bitcoincampus_)에서 작성했습니다
 
 

@@ -1,8 +1,0 @@
-question: Mikä Lightning Network-maksujen perusrajoitus aiheuttaa wallet-kehittäjille ainutlaatuisen haasteen, jota ei ole on-chain Bitcoin-toimien kohdalla?
-answer: Salamamaksut ovat olemassa vain väliaikaisina tiloina maksukanavissa, eikä niitä tallenneta pysyvästi lohkoketjuun, mikä edellyttää mukautettuja maksuhistorian seurantajärjestelmiä
-wrong_answers:
-  - Lightning-maksut vaativat huomattavasti enemmän laskentaresursseja kuin on-chain-tapahtumat, mikä tekee mobiilitoteutuksesta resurssi-intensiivistä
-  - Lightning-maksuja ei voida varmentaa salakirjoituksellisesti samalla tavalla kuin on-chain-tapahtumia, mikä aiheuttaa wallet-toteutusten tietoturva-aukkoja
-  - Salamamaksut on käsiteltävä keskitettyjen reitityssolmujen kautta, mikä tekee mahdottomaksi ylläpitää aidosti huoltajiin kuulumatonta wallet-arkkitehtuuria
-explanation: |
-  Oikea vastaus yksilöi Lightning- ja on-chain-maksujen keskeisen arkkitehtuurieron. Ketjussa tapahtuvat Bitcoin-tapahtumat tallennetaan pysyvästi lohkoketjuun, jolloin maksuhistorian haku on suoraviivaista lohkoketjukyselyjen avulla. Lightning-maksut ovat kuitenkin olemassa vain väliaikaisina kanavatiloina eivätkä jätä pysyvää lohkoketjutietoa, mikä pakottaa kehittäjät toteuttamaan mukautettuja seuranta- ja tallennusjärjestelmiä. Väärät vastaukset ovat virheellisiä, koska: Lightning-maksut ovat laskennallisesti tehokkaita (eivät resurssi-intensiivisiä), niissä on sama kryptografinen turvallisuus kuin Bitcoin:ssä, ja reititys on hajautettu (ei keskitetty).

@@ -5,5 +5,5 @@ wrong_answers:
   - Grafički softver
   - Server za instant poruke
 explanation: |
-  Operativni sistem deluje kao centralni softver Layer koji omogućava aplikacijama i korisniku pristup i kontrolu nad hardverom.
-reviewed: false
+  Operativni sistem deluje kao centralni softverski sloj koji omogućava aplikacijama i korisniku pristup i kontrolu nad hardverom.
+reviewed: true

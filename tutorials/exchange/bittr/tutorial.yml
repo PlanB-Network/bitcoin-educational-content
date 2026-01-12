@@ -1,5 +1,7 @@
 id: 3e589974-da4c-418b-a642-fd895c414613
 
+last_update_date: 2025-07-25
+
 # Characteristic of tutorial
 
 project_id: 249c4ec8-cf7f-449b-a9ab-c3aaa07b3a78
@@ -16,6 +18,8 @@ tags:
   - bitcoin-only
 
 credit_link: https://getbittr.com/blog/how-do-i-buy-bitcoin-using-bluewallet https://getbittr.com/blog/how-do-i-buy-bitcoin-into-my-bitbox
+
+license: CC-BY-SA-V4
 
 original_language: en
 proofreading:
@@ -68,7 +72,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.03
+    reward: 0.76
   - language: id
     last_contribution_date:
     urgency: 1
@@ -83,7 +87,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.9
+    reward: 0.76
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -123,7 +127,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.9
+    reward: 0.76
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -153,9 +157,14 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.9
+    reward: 0.76
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 0.63
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.76

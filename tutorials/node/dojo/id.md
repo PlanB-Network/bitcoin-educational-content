@@ -13,31 +13,27 @@ description: Node Bitcoin sumber terbuka untuk privasi dan otonomi
 
 ---
 
-Dojo adalah sebuah program sumber terbuka yang didesain untuk bertindak sebagai sebuah server backend untuk dompet Bitcoin yang berorientasi pada privasi tertentu, yang berbasis pada sebuah node Bitcoin core. Secara historis, program ini dikembangkan untuk bekerja dengan Samourai Wallet, sebuah Wallet mobile yang menawarkan fitur privasi tingkat lanjut seperti Whirlpool (CoinJoin), Ricochet, Stonewall, PayNym... Samourai Wallet sekarang telah ditutup setelah pengembangnya ditangkap, tetapi penerus komunitasnya, **Ashigaru Wallet**, telah mengambil alih dan terus mengandalkan Dojo untuk menawarkan pengalaman yang lengkap bagi pengguna yang ingin tetap mengontrol data mereka saat menggunakan Bitcoin.
+Dojo adalah program sumber terbuka yang dibuat untuk jadi server backend bagi dompet Bitcoin yang berfokus pada privasi, dan berjalan di atas node Bitcoin Core. Awalnya, program ini dikembangkan untuk bekerja dengan Samourai Wallet, dompet mobile yang menawarkan fitur privasi tingkat lanjut seperti Whirlpool (CoinJoin), Ricochet, Stonewall, dan PayNym. Samourai Wallet sekarang sudah ditutup setelah pengembangnya ditangkap, tapi penerus komunitasnya, **Ashigaru Wallet,** sekarang mengambil alih dan tetap mengandalkan Dojo untuk memberikan pengalaman lengkap bagi pengguna yang ingin tetap mengontrol data mereka saat menggunakan Bitcoin.
 
 
 
 ![Image](assets/fr/01.webp)
 
 
-
-Secara praktis, Dojo bertindak sebagai pintu gerbang antara Wallet dan jaringan Bitcoin Anda. Tanpa Dojo, Wallet seluler yang ringan harus meminta server pihak ketiga untuk mendapatkan status UTXO dan riwayat Anda, atau untuk menyiarkan transaksi Anda. Hal ini menyiratkan ketergantungan dan kebocoran data sensitif ke server pihak ketiga (alamat yang digunakan, jumlah, frekuensi pembayaran, dll.). Dengan Dojo, Anda meng-host server ini sendiri, terhubung langsung ke node Bitcoin Anda sendiri. Dengan cara ini, semua permintaan portofolio Anda melewati infrastruktur yang Anda kendalikan, tanpa perantara, memperkuat kerahasiaan dan kedaulatan Anda.
-
+Secara praktis, Dojo bertindak sebagai pintu gerbang antara wallet dan jaringan Bitcoin kamu. Tanpa Dojo, wallet seluler yang ringan harus meminta server pihak ketiga untuk mendapatkan status UTXO dan riwayat kamu, atau untuk menyiarkan transaksi kamu. Ini berarti ada ketergantungan dan kebocoran data sensitif ke server pihak ketiga seperti alamat yang digunakan, jumlah, dan frekuensi pembayaran. Dengan Dojo, kamu meng-host server ini sendiri dan terhubung langsung ke node Bitcoin kamu sendiri. Dengan begitu, semua permintaan wallet kamu lewat infrastruktur yang kamu kendalikan tanpa perantara, sehingga memperkuat kerahasiaan dan kedaulatan kamu.
 
 
 ## Persyaratan untuk mendirikan Dojo
 
-
-
-Menyiapkan server Dojo tidak memerlukan mesin yang sangat kuat. Siapa pun yang memiliki komputer tingkat pemula, koneksi Internet yang stabil, dan kemampuan untuk membiarkannya menyala terus menerus (24/7) dapat menyiapkan Dojo yang berfungsi.
-
-
-
-### Pilih jenis mesin Anda
+Menyiapkan server Dojo tidak membutuhkan mesin yang sangat kuat. Siapa pun yang punya komputer level pemula, koneksi internet yang stabil, dan bisa membiarkannya tetap menyala terus menerus (24/7) bisa menyiapkan Dojo yang berfungsi.
 
 
 
-Anda dapat menggunakan :
+### Pilih jenis mesin kamu
+
+
+
+Kamu bisa menggunakan :
 
 
 
@@ -60,7 +56,7 @@ Setiap opsi memiliki kelebihan dan kekurangan:
 
 
 
-Untuk informasi lebih lanjut mengenai cara memilih perlengkapan Anda, saya sarankan Anda mengikuti kursus ini:
+Untuk informasi lebih lanjut mengenai cara memilih perlengkapan kamu, aku sarankan kamu mengikuti kursus ini:
 
 
 
@@ -70,7 +66,7 @@ https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 
-Tidak perlu membeli mesin baru. Komputer yang diperbaharui dengan spesifikasi di bawah ini akan memberikan kinerja yang jauh lebih baik daripada elektronik papan tunggal (seperti Raspberry Pi).
+Kamu tidak perlu membeli mesin baru. Komputer yang direkondisi dengan spesifikasi di bawah ini akan memberikan kinerja yang jauh lebih baik dibandingkan single board computer seperti Raspberry Pi.
 
 
 
@@ -108,11 +104,10 @@ Tidak perlu membeli mesin baru. Komputer yang diperbaharui dengan spesifikasi di
 
 
 
-Sangat mungkin untuk menjalankan server Dojo pada konfigurasi perangkat keras lain. Namun, untuk mendapatkan performa terbaik dan membatasi masalah, kami menyarankan Anda untuk mengikuti rekomendasi di atas.
+Sangat memungkinkan untuk menjalankan server Dojo dengan konfigurasi perangkat keras lain. Tapi untuk mendapatkan performa terbaik dan meminimalkan masalah, aku menyarankan kamu mengikuti rekomendasi di atas.
 
 
-
-Dalam tutorial ini, saya akan menggunakan ThinkCentre Tiny lama dengan prosesor Intel Pentium Dual-Core G4400T, RAM 8 GB, dan SSD 2 TB.
+Dalam tutorial ini, aku akan menggunakan ThinkCentre Tiny lama dengan prosesor Intel Pentium Dual-Core G4400T, RAM 8 GB, dan SSD 2 TB.
 
 
 
@@ -120,11 +115,11 @@ Dalam tutorial ini, saya akan menggunakan ThinkCentre Tiny lama dengan prosesor 
 
 
 
-*Jika Anda ingin menginstal Dojo di perangkat yang sudah dikonfigurasi, Anda dapat melewati langkah ini dan langsung melanjutkan ke langkah 2.*
+*Jika kamu ingin menginstal Dojo di perangkat yang sudah dikonfigurasi, kamu dapat melewati langkah ini dan langsung melanjutkan ke langkah 2.*
 
 
 
-Setelah menyiapkan perangkat keras yang dipilih, saatnya menginstal sistem operasi. Anda bisa menggunakan hampir semua distribusi Debian, tetapi saya sarankan Anda memilih versi LTS dari Ubuntu, karena sangat cocok untuk tujuan kita. Berikut ini langkah-langkah yang harus diikuti:
+Setelah perangkat keras yang kamu pilih siap, sekarang saatnya menginstal sistem operasi. Kamu bisa menggunakan hampir semua distribusi Debian, tapi aku sarankan memilih Ubuntu versi LTS karena paling cocok untuk kebutuhan kita. Berikut langkah-langkahnya:
 
 
 
@@ -140,7 +135,7 @@ Dari komputer yang sudah berfungsi (komputer yang biasa Anda gunakan), unduh cit
 
 
 
-Masukkan kunci USB minimal 8 GB ke dalam komputer ini, kemudian buat kunci yang dapat di-boot menggunakan perangkat lunak seperti [Balena Etcher](https://etcher.balena.io/). Pilih image ISO Ubuntu yang baru saja Anda unduh, pilih kunci USB sebagai perangkat target, lalu mulai proses pembuatan (bersabarlah, mungkin perlu beberapa menit).
+Masukkan kunci USB minimal 8 GB ke dalam komputer ini, kemudian buat kunci yang dapat di-boot menggunakan perangkat lunak seperti [Balena Etcher](https://etcher.balena.io/). Pilih image ISO Ubuntu yang baru saja kamu unduh, pilih kunci USB sebagai perangkat target, lalu mulai proses pembuatan (bersabarlah, mungkin perlu beberapa menit).
 
 
 
@@ -148,8 +143,7 @@ Masukkan kunci USB minimal 8 GB ke dalam komputer ini, kemudian buat kunci yang 
 
 
 
-Masukkan kunci USB yang dapat di-boot ke dalam komputer yang dimatikan (komputer yang ingin Anda gunakan untuk menjalankan Dojo). Nyalakan komputer dan segera tekan **F12** atau **F10** pada keyboard Anda (tergantung model) untuk mengakses menu boot. Kemudian pilih kunci USB Anda sebagai perangkat prioritas dalam urutan booting komputer.
-
+Masukkan USB bootable ke komputer yang sedang mati (komputer yang ingin kamu pakai untuk menjalankan Dojo). Nyalakan komputer dan segera tekan F12 atau F10 di keyboard kamu (tergantung model) untuk masuk ke menu boot. Lalu pilih USB tersebut sebagai perangkat prioritas dalam urutan boot.
 
 
 ![Image](assets/fr/04.webp)
@@ -170,21 +164,15 @@ Layar beranda Ubuntu akan muncul. Pilih "Coba atau Instal Ubuntu*".
 
 Kemudian ikuti proses instalasi Ubuntu klasik:
 
-
-
-
-- Pilih bahasa.
-- Pilih jenis keyboard.
-- Jika Anda terhubung melalui kabel RJ45, tidak perlu mengonfigurasi Wi-Fi.
-- Klik "*Instal Ubuntu*" dan centang opsi untuk menginstal perangkat lunak pihak ketiga (driver Wi-Fi, codec multimedia, dll.).
-- Ketika wizard menanyakan jenis instalasi, pilih "*Hapus disk dan instal Ubuntu*". **Peringatan**: operasi ini akan menghapus isi disk sepenuhnya. Periksa dengan cermat bahwa disk yang Anda pilih sesuai dengan SSD NVMe yang ditujukan untuk Dojo.
-- Buat nama pengguna yang sederhana (misalnya "*loic*").
-- Tetapkan nama untuk mesin (misalnya "*dojo-node*").
-- Tetapkan kata sandi yang kuat dan simpan dengan aman.
-- Aktifkan opsi "*Minta kata sandi saya untuk masuk*" untuk memperkuat keamanan.
-- Tunjukkan zona waktu Anda, lalu klik "*Instal*".
-- Tunggu hingga instalasi selesai. Setelah selesai, sistem akan memulai ulang secara otomatis.
-- Lepaskan kunci instalasi USB saat menghidupkan ulang komputer.
+- Pilih bahasa
+- Pilih jenis keyboard
+- Jika kamu terhubung lewat kabel RJ45, kamu tidak perlu mengonfigurasi Wi-Fi
+- Klik *Instal Ubuntu* dan centang opsi untuk menginstal perangkat lunak pihak ketiga seperti driver Wi-Fi dan codec multimedia
+- Saat wizard menanyakan jenis instalasi, pilih *Hapus disk dan instal Ubuntu* **Peringatan:** langkah ini akan menghapus isi disk sepenuhnya. Pastikan disk yang kamu pilih adalah SSD NVMe yang memang ditujukan untuk Dojo
+- Buat nama pengguna yang sederhana seperti *loic*
+- Tentukan nama untuk mesin seperti *dojo-node*
+- Buat kata sandi yang kuat dan simpan dengan aman
+- Aktifkan opsi *Minta kata sandi saya untuk masuk* untuk keamanan tambahan
 
 
 
@@ -217,16 +205,14 @@ sudo apt upgrade -y
 
 
 
-Agar Dojo dapat bekerja dengan baik, batu bata perangkat lunak tertentu harus ada di sistem Anda. Ini digunakan untuk mengelola repositori perangkat lunak, komunikasi, dekompresi arsip, dan eksekusi Dojo di dalam kontainer Docker. Semua operasi ini dilakukan di terminal.
-
+Agar Dojo bisa bekerja dengan baik, beberapa komponen perangkat lunak perlu ada di sistem kamu. Komponen ini dipakai untuk mengelola repositori perangkat lunak, komunikasi, mengekstrak arsip, dan menjalankan Dojo di dalam container Docker. Semua langkah ini dilakukan lewat terminal.
 
 
 ### 2.1. Persiapan
 
 
 
-Perintah berikut ini akan mengembalikan Anda ke folder pribadi Anda. Ini adalah praktik yang baik sebelum menjalankan serangkaian instalasi.
-
+Perintah berikut akan membawa kamu kembali ke folder home. Ini adalah kebiasaan yang baik sebelum menjalankan rangkaian instalasi.
 
 
 ```bash
@@ -235,8 +221,7 @@ cd ~/
 
 
 
-Sebelum menginstal perangkat lunak apa pun, pastikan database perangkat lunak yang tersedia di mesin Anda adalah yang terbaru. Hal ini untuk menghindari penginstalan versi yang sudah usang.
-
+Sebelum menginstal perangkat lunak apa pun, pastikan database perangkat lunak yang tersedia di mesin kamu sudah yang terbaru. Ini untuk menghindari instalasi versi yang sudah usang.
 
 
 ```bash
@@ -258,7 +243,7 @@ Beberapa alat perlu ditambahkan ke dalam sistem:
 
 
 
-- `apt-transport-https`: memungkinkan Anda mengunduh paket dengan aman melalui HTTPS
+- `apt-transport-https`: memungkinkan kamu mengunduh paket dengan aman melalui HTTPS
 - `ca-certificates`: mengelola sertifikat yang diperlukan untuk koneksi terenkripsi
 - `curl`: untuk mengambil file dari Internet
 - `gnupg-agent`: untuk manajemen kunci GPG
@@ -273,7 +258,7 @@ sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent softwa
 
 
 
-Selama penginstalan, sistem mungkin akan meminta konfirmasi dari Anda. Tekan tombol "*y*", lalu tekan "*Enter*".
+Selama penginstalan, sistem mungkin akan meminta konfirmasi dari kamu. Tekan tombol "*y*", lalu tekan "*Enter*".
 
 
 
@@ -303,7 +288,7 @@ sudo apt install torsocks
 
 
 
-Dojo berjalan di dalam kontainer Docker. Artinya, setiap layanan terisolasi dalam lingkungan yang independen, sehingga menyederhanakan pemeliharaan dan keamanan. Untuk melakukan ini, Anda perlu menginstal Docker dan alat Docker Compose, yang memungkinkan Anda untuk mengelola beberapa kontainer secara bersamaan.
+Dojo berjalan di dalam container Docker. Artinya, setiap layanan terisolasi dalam lingkungan yang independen, sehingga memudahkan pemeliharaan dan keamanan. Untuk itu kamu perlu menginstal Docker dan alat Docker Compose, yang memungkinkan kamu mengelola beberapa container sekaligus.
 
 
 
@@ -333,8 +318,7 @@ sudo chmod a+r /etc/apt/keyrings/docker.asc
 
 
 
-Selanjutnya, Anda perlu memberi tahu sistem di mana menemukan paket-paket resmi Docker. Perintah ini menambahkan repositori baru ke konfigurasi manajer paket Anda.
-
+Selanjutnya kamu perlu memberi tahu sistem di mana menemukan paket resmi Docker. Perintah ini menambahkan repositori baru ke konfigurasi package manager kamu.
 
 
 ```bash
@@ -374,8 +358,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 
 
-Secara default, hanya perintah yang dijalankan dengan hak administrator yang dapat meluncurkan Docker. Untuk kenyamanan yang lebih baik, saya sarankan untuk menambahkan pengguna Anda saat ini ke grup "*docker*". Ini memungkinkan Anda menggunakan Docker tanpa harus mengetikkan `sudo` setiap kali.
-
+Secara default, hanya perintah yang dijalankan dengan hak administrator yang bisa menjalankan Docker. Untuk kenyamanan, aku sarankan menambahkan pengguna kamu saat ini ke grup "docker". Ini memungkinkan kamu memakai Docker tanpa harus mengetik `sudo` setiap kali.
 
 
 ```bash
@@ -392,8 +375,7 @@ sudo usermod -aG docker $USER
 
 
 
-Jika Anda ingin meningkatkan keamanan sistem Anda, saya sarankan Anda membuat pengguna terpisah khusus untuk menjalankan Dojo. Pemisahan ini membatasi risiko: jika terjadi masalah keamanan di Dojo, hal itu tidak akan secara langsung membahayakan akun utama Anda.
-
+Kalau kamu ingin meningkatkan keamanan sistem, aku sarankan membuat pengguna terpisah khusus untuk menjalankan Dojo. Pemisahan ini membantu membatasi risiko, jadi kalau suatu saat ada masalah keamanan di Dojo, itu tidak langsung membahayakan akun utama kamu.
 
 
 ### 3.1. Pembuatan akun pengguna
@@ -414,9 +396,7 @@ sudo useradd -s /bin/bash -d /home/dojo -m -G sudo dojo
 
 
 
-Penting untuk menetapkan kata sandi yang kuat untuk akun ini. Idealnya, Anda sebaiknya menggunakan pengelola kata sandi seperti Bitwarden untuk membuat kombinasi generate yang panjang dan sulit ditebak.
-
-
+Sistem kemudian akan meminta kamu memasukkan kata sandi yang kamu pilih, lalu mengonfirmasinya sekali lagi.
 
 ```bash
 sudo passwd dojo
@@ -424,8 +404,7 @@ sudo passwd dojo
 
 
 
-Sistem kemudian akan meminta Anda memasukkan kata sandi yang Anda pilih, lalu mengonfirmasikannya untuk kedua kalinya.
-
+Sistem kemudian akan meminta kamu memasukkan kata sandi yang kamu pilih, lalu mengonfirmasinya untuk yang kedua kalinya.
 
 
 https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
@@ -434,8 +413,7 @@ https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f
 
 
 
-Untuk mengaktifkan pengguna "*dojo*" untuk meluncurkan kontainer yang dibutuhkan untuk menjalankan Dojo, dia harus ditambahkan ke grup Docker. Hal ini untuk menghindari keharusan mendahului setiap perintah dengan `sudo`.
-
+Untuk mengaktifkan pengguna *dojo* agar bisa menjalankan container yang dibutuhkan untuk menjalankan Dojo, pengguna tersebut harus ditambahkan ke grup Docker. Ini supaya kamu tidak perlu menambahkan `sudo` di setiap perintah.
 
 
 ```bash
@@ -462,7 +440,7 @@ sudo reboot
 
 
 
-Ketika sistem dimulai ulang, masuk dengan login ***dojo*** dan kata sandi yang Anda tentukan sebelumnya. Semua langkah selanjutnya harus dilakukan dari akun khusus ini.
+Ketika sistem dimulai ulang, masuk dengan login ***dojo*** dan kata sandi yang kamu tentukan sebelumnya. Semua langkah selanjutnya harus dilakukan dari akun khusus ini.
 
 
 
@@ -470,16 +448,14 @@ Ketika sistem dimulai ulang, masuk dengan login ***dojo*** dan kata sandi yang A
 
 
 
-Sebelum menginstal Dojo, sangat penting untuk memastikan bahwa file-file tersebut berasal dari pengembang resmi dan belum dimodifikasi. Langkah ini mengandalkan penggunaan PGP dan hash untuk memverifikasi keaslian dan integritas file.
-
+Sebelum menginstal Dojo, penting untuk memastikan bahwa file yang kamu download benar benar berasal dari pengembang resmi dan belum dimodifikasi. Langkah ini menggunakan PGP dan hash untuk memverifikasi keaslian dan integritas file.
 
 
 ### 4.1. mengimpor kunci PGP pengembang
 
 
 
-Unduh kunci publik pengembang melalui Tor dan impor ke dalam gantungan kunci lokal Anda. Kunci ini akan digunakan untuk memverifikasi tanda tangan yang terkait dengan file Dojo.
-
+Unduh kunci publik pengembang lewat Tor lalu impor ke keyring lokal kamu. Kunci ini akan dipakai untuk memverifikasi tanda tangan yang terkait dengan file Dojo.
 
 
 ```bash
@@ -514,8 +490,7 @@ torsocks wget -O samourai-dojo-1.27.0.zip https://github.com/Dojo-Open-Source-Pr
 
 
 
-Para pengembang mempublikasikan sebuah berkas yang berisi daftar sidik jari digital dari arsip, serta berkas yang ditandatangani oleh kunci PGP mereka. Unduhlah file tersebut untuk membandingkan file Anda secara lokal.
-
+Para pengembang mempublikasikan sebuah file yang berisi daftar sidik jari digital dari arsip, serta file yang ditandatangani dengan kunci PGP mereka. Unduh file ini untuk membandingkan file kamu secara lokal.
 
 
 ```bash
@@ -542,7 +517,7 @@ gpg --verify samourai-dojo-1.27.0-fingerprints.txt.sig
 
 
 
-Hasil yang benar menampilkan tanda tangan yang valid dengan kunci `E53AD419B242822F19E23C6D3033D463D6E544F6` dan Address terkait `dojocoder@pm.me`. Sebuah peringatan mungkin muncul yang menyatakan bahwa kunci tersebut tidak tersertifikasi: Anda dapat mengabaikannya.
+Hasil yang benar menampilkan tanda tangan yang valid dengan kunci `E53AD419B242822F19E23C6D3033D463D6E544F6` dan Address terkait `dojocoder@pm.me`. Sebuah peringatan mungkin muncul yang menyatakan bahwa kunci tersebut tidak tersertifikasi: kamu bisa mengabaikannya.
 
 
 
@@ -569,8 +544,7 @@ cat samourai-dojo-1.27.0-fingerprints.txt
 
 
 
-Jika kedua sidik jari tersebut identik, Anda bisa yakin bahwa arsip tersebut belum dimodifikasi. Jika berbeda, jangan lanjutkan dan hapus file tersebut.
-
+Jika kedua sidik jari tersebut identik, kamu bisa yakin bahwa arsipnya belum dimodifikasi. Jika berbeda, jangan lanjutkan dan hapus file tersebut.
 
 
 ![Image](assets/fr/18.webp)
@@ -581,8 +555,7 @@ Jika kedua sidik jari tersebut identik, Anda bisa yakin bahwa arsip tersebut bel
 
 
 
-Setelah verifikasi berhasil diselesaikan, Anda dapat membongkar arsip dan menyiapkan folder yang didedikasikan untuk instalasi Dojo.
-
+Setelah verifikasi berhasil, kamu bisa mengekstrak arsip dan menyiapkan folder khusus untuk instalasi Dojo.
 
 
 ```bash
@@ -601,7 +574,7 @@ mv ~/samourai-dojo-1.27.0/* ~/dojo-app/
 
 
 
-Hapus file sementara dan arsip yang tidak lagi diperlukan untuk menjaga kebersihan lingkungan Anda.
+Hapus file sementara dan arsip yang tidak lagi diperlukan untuk menjaga kebersihan lingkungan kamu.
 
 
 
@@ -619,8 +592,7 @@ rm -r samourai-dojo-1.27.0 && rm samourai-dojo-1.27.0.zip && rm samourai-dojo-1.
 
 
 
-Dojo adalah server backend yang menyatukan beberapa layanan untuk berinteraksi dengan portofolio Anda dan mengelola node Bitcoin Anda. Konfigurasinya bisa jadi rumit, tetapi proyek ini menawarkan metode yang disederhanakan yang secara otomatis menginstal dan mengonfigurasi komponen-komponen berikut:
-
+Dojo adalah server backend yang menggabungkan beberapa layanan untuk berinteraksi dengan wallet kamu dan mengelola node Bitcoin. Konfigurasinya bisa cukup rumit, tapi proyek ini menyediakan metode yang disederhanakan untuk secara otomatis menginstal dan mengonfigurasi komponen berikut:
 
 
 
@@ -638,7 +610,7 @@ Dojo adalah server backend yang menyatukan beberapa layanan untuk berinteraksi d
 
 
 
-Untuk mengamankan akses ke berbagai layanan, Anda perlu memasukkan beberapa pengidentifikasi unik:
+Untuk mengamankan akses ke berbagai layanan, kamu perlu memasukkan beberapa pengidentifikasi unik:
 
 
 
@@ -654,8 +626,7 @@ Untuk mengamankan akses ke berbagai layanan, Anda perlu memasukkan beberapa peng
 
 
 
-Pengidentifikasi ini **harus unik** (ini sangat penting: Anda tidak boleh menggunakan kata sandi yang sama untuk beberapa layanan), hanya terdiri dari angka, huruf besar dan huruf kecil (alfanumerik), dan panjangnya sekitar 40 karakter untuk menjamin tingkat keamanan yang tinggi. Sekali lagi, saya sangat menyarankan penggunaan pengelola kata sandi.
-
+Pengidentifikasi ini **harus unik** (penting: jangan gunakan kata sandi yang sama untuk beberapa layanan), hanya terdiri dari angka dan huruf besar-kecil (alfanumerik), dan panjangnya sekitar 40 karakter untuk memastikan tingkat keamanan tinggi. Sekali lagi, aku sangat menyarankan memakai password manager.
 
 
 ### 5.2. Mengakses file konfigurasi
@@ -709,8 +680,7 @@ BITCOIND_RPC_PASSWORD=your-password-here
 
 
 
-Anda juga dapat menyesuaikan ukuran memori cache yang digunakan oleh Bitcoin core untuk meningkatkan kinerja (Anda bahkan dapat menggunakan lebih banyak jika Anda memiliki banyak RAM yang tersedia):
-
+Kamu juga bisa menyesuaikan ukuran memori cache yang dipakai oleh Bitcoin Core untuk meningkatkan performa (kamu bahkan bisa menambahnya jika punya banyak RAM tersedia):
 
 
 ```
@@ -719,7 +689,7 @@ BITCOIND_DB_CACHE=2048
 
 
 
-Untuk menyimpan perubahan Anda dan menutup editor :
+Untuk menyimpan perubahan kamu dan menutup editor :
 
 
 
@@ -744,7 +714,7 @@ nano docker-mysql.conf.tpl
 
 
 
-Masukkan detail login Anda:
+Masukkan detail login kamu:
 
 
 
@@ -756,7 +726,7 @@ MYSQL_PASSWORD=your-password-here
 
 
 
-⚠️ ***Ganti `ID-mu-di sini` dan `kata sandi-mu-di sini` dengan login Anda sendiri (dengan kata sandi yang kuat dan unik).***
+⚠️ ***Ganti `ID-mu-di sini` dan `kata sandi-mu-di sini` dengan login kamu sendiri (dengan kata sandi yang kuat dan unik).***
 
 
 
@@ -799,8 +769,7 @@ INDEXER_EXTERNAL=on
 
 
 
-Selanjutnya, ada 2 kemungkinan, tergantung pada konfigurasi Anda. Jika Dojo diinstal pada mesin yang terpisah dari komputer Anda sehari-hari (pada mesin khusus, server...), masukkan IP Address di jaringan lokal Anda, misalnya :
-
+Selanjutnya, ada 2 kemungkinan tergantung konfigurasi kamu. Jika Dojo diinstal di mesin terpisah dari komputer harian kamu (misalnya di mesin khusus atau server), masukkan IP Address di jaringan lokal kamu, contohnya:
 
 
 ```
@@ -813,8 +782,7 @@ INDEXER_EXTERNAL_IP=192.168.1.157
 
 
 
-Untuk mengetahui IP lokal Address mesin Anda, buka terminal lain dan masukkan perintah berikut:
-
+Untuk mengetahui IP Address lokal mesin kamu, buka terminal lain dan jalankan perintah berikut:
 
 
 ```bash
@@ -823,8 +791,7 @@ hostname -I
 
 
 
-Kemungkinan kedua: jika Dojo dijalankan langsung di komputer pribadi Anda sehari-hari, pertahankan nilai default yang sudah ada dalam file konfigurasi :
-
+Kemungkinan kedua: jika Dojo dijalankan langsung di komputer pribadi kamu sehari-hari, biarkan nilai default yang sudah ada di file konfigurasi.
 
 
 ```
@@ -863,7 +830,7 @@ NODE_JWT_SECRET=your-password-here
 
 
 
-⚠️ *** Ganti `kata sandi Anda di sini` dengan kredensial Anda sendiri (dengan kata sandi yang kuat dan unik).***
+⚠️ *** Ganti `kata sandi di sini` dengan kredensial kamu sendiri (dengan kata sandi yang kuat dan unik).***
 
 
 
@@ -899,16 +866,14 @@ NODE_ADMIN_KEY
 
 
 
-Login ini akan memungkinkan Anda untuk masuk ke alat pemeliharaan Dojo nanti. Semua login lainnya dapat dihapus dari pengelola kata sandi atau catatan tulisan tangan anda. Mereka tetap dapat diakses dari file konfigurasi Dojo jika Anda perlu mengambilnya di masa mendatang.
-
+Login ini akan memungkinkan kamu masuk ke alat pemeliharaan Dojo nanti. Semua login lain bisa dihapus dari password manager atau catatan tulisan tangan kamu. Mereka tetap bisa diakses dari file konfigurasi Dojo jika suatu saat kamu membutuhkannya.
 
 
 ## 6. Instalasi Dojo
 
 
 
-Pada tahap ini, Dojo akan diinstal dan dijalankan pada mesin Anda. Operasi ini akan meluncurkan beberapa layanan (Bitcoin core, pengindeks Fulcrum, backend Dojo, dll.) dan memulai sinkronisasi penuh Blockchain Bitcoin. Proses ini mungkin memakan waktu beberapa hari, tergantung pada perangkat keras dan koneksi internet Anda.
-
+Pada tahap ini, Dojo akan diinstal dan dijalankan di mesin kamu. Proses ini akan meluncurkan beberapa layanan seperti Bitcoin Core, pengindeks Fulcrum, backend Dojo, dan lainnya, sekaligus memulai sinkronisasi penuh blockchain Bitcoin. Proses ini bisa memakan waktu beberapa hari, tergantung perangkat keras dan koneksi internet kamu.
 
 
 ### 6.1. Periksa apakah Docker berfungsi dengan baik
@@ -925,8 +890,7 @@ docker run hello-world
 
 
 
-Perintah ini mengunduh dan meluncurkan sebuah kontainer uji kecil. Jika semuanya berjalan dengan benar, Anda akan melihat pesan yang mirip dengan :
-
+Perintah ini akan mengunduh dan menjalankan sebuah container uji kecil. Jika semuanya berjalan lancar, kamu akan melihat pesan yang mirip dengan:
 
 
 ```
@@ -940,7 +904,7 @@ This message shows that your installation appears to be working correctly...
 
 
 
-Jika pesan ini tidak ditampilkan, mulailah dengan menyalakan ulang mesin Anda dengan :
+Jika pesan ini tidak ditampilkan, mulailah dengan menyalakan ulang mesin dengan :
 
 
 
@@ -950,8 +914,7 @@ sudo reboot
 
 
 
-Kemudian, masuk kembali ke akun **dojo** Anda dan jalankan perintah uji coba lagi. Jika kesalahan tetap terjadi, Docker belum terinstal dengan benar. Dalam kasus ini, kembali ke langkah `2.4.` tentang menginstal Docker dan periksa setiap perintah dengan saksama.
-
+Lalu, masuk kembali ke akun **dojo** kamu dan jalankan perintah uji coba lagi. Jika masih terjadi kesalahan, berarti Docker belum terinstal dengan benar. Dalam kasus ini, kembali ke langkah `2.4.` tentang instalasi Docker dan periksa setiap perintah dengan teliti.
 
 
 ### 6.2. Buka direktori instalasi Dojo
@@ -1007,14 +970,14 @@ Skrip ini akan :
 
 
 
-- unduh dan luncurkan kontainer Docker yang diperlukan,
-- menginisialisasi Bitcoin core dan mulai menyinkronkan Blockchain,
-- memulai pengindeks Fulcrum untuk melacak transaksi dan alamat,
-- mengaktifkan backend Dojo dan API-nya.
+- Unduh dan luncurkan kontainer Docker yang diperlukan,
+- Menginisialisasi Bitcoin core dan mulai menyinkronkan Blockchain,
+- Memulai pengindeks Fulcrum untuk melacak transaksi dan alamat,
+- Mengaktifkan backend Dojo dan API-nya.
 
 
 
-Anda akan melihat aliran log yang terus bergulir, dengan referensi warna-warni seperti `bitcoind`, `soroban`, `nodejs`, atau `fulcrum`. Pengguliran ini menunjukkan bahwa Dojo sudah aktif dan berjalan dan mulai menjalankan berbagai layanan.
+Kamu akan melihat aliran log yang terus bergulir, dengan referensi warna-warni seperti `bitcoind`, `soroban`, `nodejs`, atau `fulcrum`. Pengguliran ini menunjukkan bahwa Dojo sudah aktif dan berjalan dan mulai menjalankan berbagai layanan.
 
 
 
@@ -1026,7 +989,7 @@ Anda akan melihat aliran log yang terus bergulir, dengan referensi warna-warni s
 
 
 
-Log muncul secara real time di terminal Anda. Untuk kembali ke prompt perintah saat Dojo berjalan di latar belakang, ketik :
+Log muncul secara real time di terminal kamu. Untuk kembali ke prompt perintah saat Dojo berjalan di latar belakang, ketik :
 
 
 
@@ -1036,16 +999,14 @@ Ctrl + C
 
 
 
-Jangan khawatir: menghentikan tampilan log tidak akan menghentikan layanan. Docker terus menjalankan Dojo di latar belakang (Anda tentu saja tidak perlu menghentikan komputer jika Anda ingin IBD terus berjalan).
-
+Jangan khawatir: menghentikan tampilan log tidak akan mematikan layanan. Docker tetap menjalankan Dojo di latar belakang, jadi kamu tidak perlu mematikan komputer jika ingin IBD terus berjalan.
 
 
 ### 6.5. Memahami *Pengunduhan Blok Awal* (IBD)
 
 
 
-Pada saat pengaktifan, Bitcoin core harus mengunduh dan memverifikasi seluruh Blockchain sejak tahun 2009. Langkah ini disebut ***Initial Block Download* (IBD) **. Langkah ini sangat penting, karena memungkinkan node Dojo Anda untuk memverifikasi setiap blok dan transaksi Bitcoin secara independen.
-
+Saat pertama dijalankan, Bitcoin Core harus mengunduh dan memverifikasi seluruh blockchain sejak 2009. Langkah ini disebut **Initial Block Download (IBD).** Ini sangat penting karena memungkinkan node Dojo kamu memverifikasi setiap blok dan transaksi Bitcoin secara mandiri.
 
 
 Durasi sinkronisasi ini bergantung pada beberapa faktor:
@@ -1053,18 +1014,17 @@ Durasi sinkronisasi ini bergantung pada beberapa faktor:
 
 
 
-- kekuatan prosesor Anda dan jumlah memori RAM yang tersedia,
-- kecepatan disk Anda,
-- jumlah dan kualitas peer yang terhubung dengan node Anda,
-- kecepatan koneksi Internet Anda.
+- Kekuatan prosesor kamu dan jumlah memori RAM yang tersedia,
+- Kecepatan disk Anda,
+- Jumlah dan kualitas peer yang terhubung dengan node Anda,
+- Kecepatan koneksi Internet Anda.
 
 
 
-Dalam praktiknya, operasi ini umumnya memakan waktu antara **2 dan 7 hari**. Selama periode ini, Anda dapat membiarkan mesin Anda berjalan terus menerus. Semakin lama mesin dihidupkan, semakin cepat sinkronisasi akan selesai. Saya menyarankan Anda untuk memeriksa status sinkronisasi secara teratur dengan melihat log Bitcoin core, atau dengan menggunakan alat bantu pemeliharaan Dojo setelah terinstal (lihat bagian selanjutnya).
+Dalam praktiknya, proses ini biasanya memakan waktu antara **2 hingga 7 hari.** Selama periode ini, biarkan mesin kamu tetap menyala. Semakin lama mesin berjalan, semakin cepat sinkronisasi selesai. Aku menyarankan kamu memeriksa status sinkronisasi secara rutin dengan melihat log Bitcoin Core, atau menggunakan alat bantu pemeliharaan Dojo setelah terinstal (lihat bagian selanjutnya).
 
 
-
-Untuk memperdalam pengetahuan Anda tentang IBD dan, secara umum, tentang pengoperasian dan peran node Bitcoin Anda, saya sarankan Anda untuk melihat kursus ini:
+Untuk memperdalam pengetahuan tentang IBD dan, secara umum, tentang pengoperasian dan peran node Bitcoin kamu, aku menyarankanmu untuk melihat kursus ini:
 
 
 
@@ -1075,8 +1035,7 @@ https://planb.academy/courses/3cd9cb94-82e8-417a-9c5a-02afc2589426
 
 
 
-Ketika menginstal Dojo untuk pertama kalinya, Anda harus menunggu dua operasi utama selesai sepenuhnya: pengunduhan lengkap Blockchain Bitcoin (*IBD*) dan pengindeksan Blockchain ini oleh Fulcrum. Tergantung pada koneksi dan daya mesin Anda, hal ini dapat memakan waktu beberapa hari. Selama waktu ini, Anda dapat memantau kemajuan proses untuk memastikan semuanya berjalan dengan lancar.
-
+Saat pertama kali menginstal Dojo, kamu harus menunggu dua proses utama selesai sepenuhnya: pengunduhan lengkap blockchain Bitcoin (*IBD*) dan pengindeksan blockchain ini oleh Fulcrum. Tergantung koneksi dan performa mesin kamu, ini bisa memakan beberapa hari. Selama periode ini, kamu bisa memantau kemajuan proses untuk memastikan semuanya berjalan lancar.
 
 
 Ada dua cara untuk memantau status sinkronisasi:
@@ -1085,7 +1044,7 @@ Ada dua cara untuk memantau status sinkronisasi:
 
 
 - penggunaan Dojo Maintenance Tool (atau DMT), yang sederhana namun memberikan sedikit detail selama IBD;
-- konsultasi langsung log Dojo pada mesin Anda, lebih teknis tetapi jauh lebih tepat.
+- konsultasi langsung log Dojo pada mesin kamu, lebih teknis tetapi jauh lebih tepat.
 
 
 
@@ -1093,8 +1052,7 @@ Ada dua cara untuk memantau status sinkronisasi:
 
 
 
-Alat Pemeliharaan Dojo adalah Interface berbasis web yang aman dan memungkinkan Anda memantau status pabrik Anda, dan melakukan operasi tertentu. Ini adalah cara termudah dan paling mudah diakses untuk memantau kemajuan IBD. Selama fase sinkronisasi awal, informasi yang ditampilkan mungkin terbatas. Misalnya, DMT tidak menampilkan kemajuan rinci pengindeksan Fulcrum. Sebaliknya, setelah sinkronisasi selesai, DMT akan menampilkan dengan jelas:
-
+Alat Pemeliharaan Dojo adalah antarmuka web yang aman dan memungkinkan kamu memantau status node serta melakukan beberapa operasi tertentu. Ini adalah cara termudah dan paling mudah diakses untuk memantau kemajuan IBD. Selama fase sinkronisasi awal, informasi yang ditampilkan mungkin terbatas. Misalnya, DMT tidak menunjukkan detail kemajuan pengindeksan Fulcrum. Namun, setelah sinkronisasi selesai, DMT akan menampilkan dengan jelas:
 
 
 
@@ -1103,7 +1061,7 @@ Alat Pemeliharaan Dojo adalah Interface berbasis web yang aman dan memungkinkan 
 
 
 
-Untuk mengaksesnya, Anda perlu mengetahui URL dari DMT Anda dan menyambungkannya [melalui peramban Tor](https://www.torproject.org/download/). Untuk melakukan ini, buka terminal dan masuk ke direktori `/my-dojo`:
+Untuk mengaksesnya, kamu perlu mengetahui URL dari DMT milikmu dan menyambungkannya [melalui peramban Tor](https://www.torproject.org/download/). Untuk melakukan ini, buka terminal dan masuk ke direktori `/my-dojo`:
 
 
 
@@ -1127,8 +1085,7 @@ Kemudian jalankan perintah berikut ini:
 
 
 
-Anda kemudian akan memiliki akses ke semua informasi yang berkaitan dengan koneksi ke Dojo Anda melalui Tor. Yang kami minati di sini adalah URL berikut ini:
-
+Kamu kemudian akan punya akses ke semua informasi terkait koneksi ke Dojo kamu lewat Tor. Yang perlu kita perhatikan di sini adalah URL berikut:
 
 
 ```
@@ -1137,7 +1094,7 @@ Dojo API and Maintenance Tool =
 
 
 
-Untuk mengakses DMT dari mesin mana pun di jaringan mana pun (bahkan dari jarak jauh), buka Peramban Tor dan masukkan URL ini diikuti dengan `/admin`. Sebagai contoh, jika URL anda adalah `wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion`, anda harus memasukkannya di bilah [Tor Browser](https://www.torproject.org/download/):
+Untuk mengakses DMT dari mesin mana pun di jaringan mana pun (bahkan dari jarak jauh), buka Peramban Tor dan masukkan URL ini diikuti dengan `/admin`. Sebagai contoh, jika URL kamu adalah `wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion`, kamu harus memasukkannya di bilah [Tor Browser](https://www.torproject.org/download/):
 
 
 
@@ -1151,7 +1108,7 @@ wo4zobymdl45gmmzzmpoypeemoukbj74wpibc22rxs2yfgpej62v6dyd.onion/admin
 
 
 
-Anda kemudian akan diarahkan ke halaman autentikasi. DMT masuk menggunakan kata sandi `NODE_ADMIN_KEY` yang telah Anda buat sebelumnya.
+Kemudian kamu akan diarahkan ke halaman autentikasi. DMT masuk menggunakan kata sandi `NODE_ADMIN_KEY` yang telah kamu buat sebelumnya.
 
 
 
@@ -1159,8 +1116,7 @@ Anda kemudian akan diarahkan ke halaman autentikasi. DMT masuk menggunakan kata 
 
 
 
-Setelah masuk, Anda dapat mengakses *Dojo Maintenance Tool*! Selama IBD, Anda dapat melihat informasi "*Blok Terbaru*" di menu "*Full node*", yang memungkinkan Anda mengetahui status node Bitcoin Anda saat ini.
-
+Setelah masuk, kamu bisa mengakses *Dojo Maintenance Tool!* Selama IBD, kamu bisa melihat informasi *Blok Terbaru* di menu *Full node,* yang memberi tahu status terkini node Bitcoin kamu.
 
 
 ![Image](assets/fr/34.webp)
@@ -1171,7 +1127,7 @@ Ingatlah untuk menandai Address ini di Tor Browser untuk memudahkan pencarian di
 
 
 
-Setelah Dojo Anda tersinkronisasi sepenuhnya, Anda akan melihat tanda centang Green pada semua indikator di halaman beranda DMT.
+Setelah Dojo kamu tersinkronisasi sepenuhnya, kamu akan melihat tanda centang Green pada semua indikator di halaman beranda DMT.
 
 
 
@@ -1179,12 +1135,9 @@ Setelah Dojo Anda tersinkronisasi sepenuhnya, Anda akan melihat tanda centang Gr
 
 
 
-Cara kedua untuk melacak kemajuan IBD Anda adalah dengan melihat log mesin Anda secara langsung. Pendekatan ini menawarkan pemantauan yang jauh lebih tepat dan real-time. Anda dapat melihat bagaimana kemajuan Bitcoin core dalam mengunduh blok, dan bagaimana Fulcrum mengindeksnya.
+Cara kedua untuk memantau kemajuan IBD adalah dengan melihat log mesin secara langsung. Pendekatan ini memberikan pemantauan yang lebih akurat dan real-time. Kamu bisa melihat bagaimana Bitcoin Core mengunduh blok dan bagaimana Fulcrum mengindeksnya.
 
-
-
-Sambungkan ke mesin yang menghosting Dojo Anda dan buka terminal. Semua perintah harus dijalankan dari direktori `my-dojo`. Posisikan diri Anda di folder ini:
-
+Sambungkan ke mesin yang menjalankan Dojo kamu dan buka terminal. Semua perintah dijalankan dari direktori `my-dojo`. Pindah ke folder ini:
 
 
 ```bash
@@ -1211,7 +1164,7 @@ Lihat log Bitcoin core untuk melacak kemajuan IBD:
 
 
 
-Pada awalnya, Anda akan melihat fase pra-sinkronisasi header blok:
+Pada awalnya, kamu akan melihat fase pra-sinkronisasi header blok:
 
 
 
@@ -1221,8 +1174,7 @@ bitcoind | Pre-synchronizing blockheader, height : NNNNNN
 
 
 
-Ketika angka ini mencapai 100%, Bitcoin core akan memulai pengunduhan lengkap Blockchain. Anda akan melihat kemajuan IBD. Untuk mengetahui tinggi blok saat ini, lihat nilai yang ditunjukkan oleh `height=`. Anda juga dapat mengikuti kunci `progress=`, yang menunjukkan persentase kemajuan IBD.
-
+Saat angka ini mencapai 100%, Bitcoin Core akan mulai mengunduh seluruh blockchain. Kamu akan melihat kemajuan IBD. Untuk mengetahui tinggi blok saat ini, perhatikan nilai `height=`. Kamu juga bisa mengikuti `progress=`, yang menunjukkan persentase kemajuan IBD.
 
 
 ![Image](assets/fr/36.webp)
@@ -1247,7 +1199,7 @@ Setelah Bitcoin core menyelesaikan pra-sinkronisasi header, Fulcrum mulai mengin
 
 
 
-Anda kemudian akan melihat ketinggian blok terakhir yang diindeks, ditunjukkan setelah `height:`, serta persentase kemajuan pengindeksan.
+Kemudian kamu akan melihat ketinggian blok terakhir yang diindeks, ditunjukkan setelah `height:`, serta persentase kemajuan pengindeksan.
 
 
 
@@ -1259,8 +1211,7 @@ Anda kemudian akan melihat ketinggian blok terakhir yang diindeks, ditunjukkan s
 
 
 
-Fulcrum adalah pengindeks yang sangat kuat, tetapi instalasinya bisa jadi rumit, paling tidak karena manajemen basis datanya yang rumit. Jika terjadi pemadaman listrik atau mesin mati mendadak selama sinkronisasi awal, basis data pengindeks dapat rusak. Anda dapat melihat hal ini, misalnya, jika Anda memiliki log berikut ini:
-
+Fulcrum adalah pengindeks yang sangat kuat, tapi instalasinya bisa rumit, terutama karena manajemen database yang kompleks. Jika terjadi pemadaman listrik atau mesin mati mendadak saat sinkronisasi awal, database pengindeks bisa rusak. Kamu bisa mengetahuinya, misalnya, jika log kamu menunjukkan hal berikut:
 
 
 ```bash
@@ -1273,8 +1224,7 @@ fulcrum | The database has been corrupted etc...
 
 
 
-Jika hal ini terjadi pada Anda, tidak ada dampak pada bitcoind (node Bitcoin Anda): IBD-nya akan terus berjalan secara independen dari Fulcrum. Namun, Anda tidak akan dapat menggunakan Fulcrum hingga Anda menghapus data yang rusak dan memulai kembali sinkronisasinya dari awal. Inilah cara kerjanya:
-
+Jika ini terjadi, tidak ada dampak pada bitcoind (node Bitcoin kamu): IBD tetap berjalan secara mandiri dari Fulcrum. Namun, kamu tidak akan bisa menggunakan Fulcrum sampai data yang rusak dihapus dan sinkronisasi dimulai ulang. Begini caranya:
 
 
 Hentikan Dojo:
@@ -1314,7 +1264,7 @@ Kemudian luncurkan kembali Dojo dan bangun kembali Fulcrum dari awal:
 
 
 
-Anda kemudian dapat memeriksa apakah Fulcrum berfungsi dengan baik dengan melihat log:
+Kemudian kamu dapat memeriksa apakah Fulcrum berfungsi dengan baik dengan melihat log:
 
 
 
@@ -1329,36 +1279,28 @@ docker logs -f fulcrum
 
 
 
-Setelah simpul Bitcoin Anda disinkronkan ke kepala lungsin dengan Proof of Work yang paling banyak, dan Blockchain diindeks 100% oleh Fulcrum, Anda dapat mulai menggunakan Dojo Anda.
+Setelah node Bitcoin kamu tersinkronisasi ke kepala blockchain dengan Proof of Work terbanyak, dan blockchain sudah diindeks 100% oleh Fulcrum, kamu bisa mulai menggunakan Dojo.
+
+Dojo menawarkan berbagai fitur yang terus disempurnakan di setiap versi baru. Menurutku, dua yang paling penting adalah:
+
+- Kemampuan menghubungkan Ashigaru Wallet untuk memakai node kamu sendiri dalam melihat data blockchain dan menyiarkan transaksi.
+
+- Block explorer, yang memberi akses ke informasi blockchain Bitcoin tanpa mengekspos data kamu ke pihak eksternal yang tidak kamu kendalikan.
+
+Sekarang, mari kita lihat cara menggunakannya.
+
+### 8.1. Menghubungkan Ashigaru ke Dojo Milikmu
 
 
 
-Dojo Anda menawarkan berbagai macam fitur, yang secara teratur disempurnakan dengan setiap versi baru. Menurut pendapat saya, 2 yang paling penting adalah :
-
-
-
-
-- kemungkinan menghubungkan Ashigaru Wallet Anda untuk menggunakan node Anda sendiri untuk melihat data Blockchain dan menyiarkan transaksi Anda,
-- dan Block explorer, yang memberi Anda akses ke informasi tentang Blockchain Bitcoin tanpa mengekspos data Anda ke contoh eksternal yang tidak Anda kendalikan.
-
-
-
-Mari kita cari tahu cara menggunakannya.
-
-
-### 8.1. Menghubungkan Ashigaru ke Dojo Anda
-
-
-
-Menghubungkan Ashigaru Wallet Anda ke Dojo sangat mudah: setelah berada di DMT, buka menu "*Pairing*". Sebuah kode QR akan muncul, yang bisa Anda pindai secara langsung dengan aplikasi Ashigaru.
-
+Menghubungkan Ashigaru Wallet ke Dojo sangat mudah: setelah masuk ke DMT, buka menu "Pairing". Sebuah kode QR akan muncul, yang bisa kamu pindai langsung dengan aplikasi Ashigaru.
 
 
 ![Image](assets/fr/38.webp)
 
 
 
-Dalam aplikasi Ashigaru, pertama kali Anda meluncurkannya setelah membuat atau memulihkan Wallet, Anda akan diarahkan ke halaman "*Konfigurasi server Dojo Anda*". Tekan "*Pindai QR*", lalu pindai kode QR yang ditampilkan pada DMT Anda.
+Dalam aplikasi Ashigaru, pertama kali kamu meluncurkannya setelah membuat atau memulihkan Wallet, kamu akan diarahkan ke halaman "*Konfigurasi server Dojo Anda*". Tekan "*Pindai QR*", lalu pindai kode QR yang ditampilkan pada DMT kamu.
 
 
 
@@ -1374,7 +1316,7 @@ Kemudian klik tombol "*Lanjutkan*".
 
 
 
-Anda sekarang sudah terhubung ke Dojo Anda.
+Sekarang kamu sudah terhubung ke Dojo milikmu.
 
 
 
@@ -1390,8 +1332,8 @@ Dojo secara otomatis menginstal Block explorer, [BTC-RPC Explorer](https://githu
 
 
 
-Untuk mengaksesnya, cukup ambil Tor Address dari peramban Anda. Untuk melakukan ini, jalankan perintah yang sama dengan yang Anda gunakan untuk mendapatkan Address dari DMT Anda:
 
+Untuk mengaksesnya, cukup ambil Tor Address dari browser kamu. Caranya, jalankan perintah yang sama seperti yang kamu gunakan untuk mendapatkan Address dari DMT:
 
 
 ```bash
@@ -1404,7 +1346,7 @@ Untuk mengaksesnya, cukup ambil Tor Address dari peramban Anda. Untuk melakukan 
 
 
 
-Anda akan memiliki akses ke semua informasi koneksi Dojo Anda melalui Tor. Yang kami minati di sini adalah URL berikut ini:
+Kamu akan memiliki akses ke semua informasi koneksi Dojo kamu melalui Tor. Yang kami minati di sini adalah URL berikut ini:
 
 
 
@@ -1414,7 +1356,7 @@ Block Explorer =
 
 
 
-Jika Anda sudah terhubung ke DMT Anda, Anda juga dapat menemukan Address ini di menu "*Pairing*", di dalam JSON koneksi:
+Kalau kamu sudah terhubung ke DMT Anda, kamu juga dapat menemukan Address ini di menu "*Pairing*", di dalam JSON koneksi:
 
 
 
@@ -1430,7 +1372,7 @@ Untuk mengakses peramban Anda dari mesin apa pun di jaringan apa pun (bahkan dar
 
 
 
-Anda kemudian akan memiliki akses ke Block explorer Anda sendiri.
+Kamu kemudian akan memiliki akses ke Block explorer kamu sendiri.
 
 
 
@@ -1466,7 +1408,7 @@ Untuk memeriksa gerakan yang terkait dengan Address, lanjutkan dengan cara yang 
 
 
 
-Anda juga dapat memasukkan Hash atau tinggi blok di bilah pencarian untuk menampilkan detail.
+Kamu juga dapat memasukkan Hash atau tinggi blok di bilah pencarian untuk menampilkan detail.
 
 
 
@@ -1486,8 +1428,7 @@ Anda juga dapat memasukkan Hash atau tinggi blok di bilah pencarian untuk menamp
 
 
 
-Jangan pernah memutus aliran listrik ke Dojo secara tiba-tiba, karena hal ini dapat merusak basis data tertentu, terutama pengindeks Fulcrum. Jika Anda harus mematikannya, selalu lakukan pemadaman Dojo secara menyeluruh, kemudian, setelah semua prosedur selesai, matikan mesin juga:
-
+Jangan pernah memutus aliran listrik ke Dojo secara mendadak, karena ini bisa merusak beberapa database, terutama pengindeks Fulcrum. Jika kamu perlu mematikannya, selalu lakukan shutdown Dojo secara menyeluruh terlebih dahulu, lalu setelah semua proses selesai, matikan mesin:
 
 
 ```bash
@@ -1501,11 +1442,11 @@ cd ~/dojo-app/docker/my-dojo
 
 
 
-Dojo berkembang secara teratur dan versi baru dirilis untuk memperbaiki bug, meningkatkan stabilitas, dan menambahkan fitur. Oleh karena itu, penting [untuk memeriksa pembaruan secara teratur](https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases) dan memperbarui Dojo Anda. Prosesnya mirip dengan instalasi awal, tetapi mengharuskan Anda mengganti file tertentu dengan versi terbaru yang tersedia, sambil mempertahankan konfigurasi Anda. Berikut ini adalah langkah-langkah terperinci yang harus diikuti untuk pembaruan yang bersih dan aman:
+Dojo berkembang secara teratur dan versi baru dirilis untuk memperbaiki bug, meningkatkan stabilitas, dan menambahkan fitur. Oleh karena itu, penting [untuk memeriksa pembaruan secara teratur](https://github.com/Dojo-Open-Source-Project/samourai-dojo/releases) dan memperbarui Dojo milikmu. Prosesnya mirip dengan instalasi awal, tetapi mengharuskan Anda mengganti file tertentu dengan versi terbaru yang tersedia, sambil mempertahankan konfigurasi kamu. Berikut ini adalah langkah-langkah terperinci yang harus diikuti untuk pembaruan yang bersih dan aman:
 
 
 
-Untuk mengetahui versi Dojo Anda saat ini, jalankan perintah :
+Untuk mengetahui versi Dojo kamu saat ini, jalankan perintah :
 
 
 
@@ -1515,8 +1456,7 @@ Untuk mengetahui versi Dojo Anda saat ini, jalankan perintah :
 
 
 
-Meskipun langkah ini bersifat opsional, saya sarankan Anda memulai dengan memperbarui OS Anda. Hal ini akan mengurangi risiko ketidakcocokan dan memastikan bahwa dependensi yang digunakan oleh Dojo adalah yang terbaru:
-
+Meskipun langkah ini opsional, aku sarankan kamu memulai dengan memperbarui OS. Ini akan mengurangi risiko ketidakcocokan dan memastikan dependensi yang dipakai Dojo sudah versi terbaru:
 
 
 ```bash
@@ -1537,7 +1477,7 @@ cd ~/dojo-app/docker/my-dojo
 
 
 
-Kemudian, nyalakan ulang sistem Anda untuk mendapatkan sistem yang bersih:
+Kemudian, nyalakan ulang sistem kamu untuk mendapatkan sistem yang bersih:
 
 
 
@@ -1547,8 +1487,7 @@ sudo reboot
 
 
 
-Dojo hadir dengan file yang ditandatangani secara digital. Tanda tangan PGP ini memastikan bahwa file-file tersebut berasal dari pengembang dan belum diubah dengan cara apa pun. Penting untuk memeriksanya setiap kali Anda memperbarui Dojo, seperti yang Anda lakukan saat pertama kali menginstalnya. Mulailah dengan mengunduh kunci publik pengembang melalui Tor, lalu impor:
-
+Dojo dilengkapi dengan file yang ditandatangani secara digital. Tanda tangan PGP ini memastikan file benar-benar berasal dari pengembang dan tidak diubah. Penting untuk memeriksanya setiap kali kamu memperbarui Dojo, sama seperti saat pertama kali menginstalnya. Mulailah dengan mengunduh kunci publik pengembang lewat Tor, lalu impor:
 
 
 ```bash
@@ -1557,7 +1496,7 @@ torsocks wget http://zkaan2xfbuxia2wpf7ofnkbz6r5zdbbvxbunvp5g2iebopbfc4iqmbad.on
 
 
 
-Kembali ke direktori pribadi Anda:
+Kembali ke direktori pribadi milikmu:
 
 
 
@@ -1652,7 +1591,7 @@ Operasi ini membuat berkas konfigurasi Anda tetap berada di `~/dojo-app/docker/m
 
 
 
-Untuk menjaga lingkungan Anda tetap bersih, hapus file yang tidak perlu:
+Untuk menjaga semuanya tetap bersih, hapus file yang tidak perlu:
 
 
 
@@ -1684,4 +1623,4 @@ Perintah ini menginstruksikan Docker untuk membangun ulang citra dengan berkas-b
 
 
 
-Jika layanan dimulai tanpa kesalahan dan log menunjukkan blok yang sedang diproses, Dojo Anda sekarang sudah diperbarui dan beroperasi.
+Jika layanan berjalan tanpa kesalahan dan log menunjukkan blok sedang diproses, berarti Dojo kamu sekarang sudah diperbarui dan berfungsi.

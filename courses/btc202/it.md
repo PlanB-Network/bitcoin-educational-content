@@ -98,7 +98,7 @@ Ora che avete configurato un nodo Bitcoin, è il momento di usarlo! In questa se
 
 
 
-Esamineremo anche il ruolo degli indicizzatori e i vari metodi di connessione al proprio nodo (LAN, Tor, Tailscale, ecc.). Infine, nell'ultimo capitolo, passeremo in rassegna le applicazioni più utili disponibili su Umbrel per il bitcoiner di tutti i giorni.
+Esaminermo anche il ruolo degli indicizzatori e i vari metodi di connessione al proprio nodo (LAN, Tor, Tailscale, ecc.). Infine, nell'ultimo capitolo, passeremo in rassegna le applicazioni più utili disponibili su Umbrel per il bitcoiner di tutti i giorni.
 
 
 
@@ -106,7 +106,7 @@ Esamineremo anche il ruolo degli indicizzatori e i vari metodi di connessione al
 
 
 
-In questa parte finale di BTC 202, l'obiettivo è quello di approfondire le vostre conoscenze. In primo luogo, esamineremo le migliori pratiche da adottare con il vostro nuovo nodo Bitcoin e come mantenerlo a lungo termine.
+In questa parte finale di BTC 202, l'obiettivo è quello di approfondire le vostre conoscenze. In primo luogo, esaminermo le migliori pratiche da adottare con il vostro nuovo nodo Bitcoin e come mantenerlo a lungo termine.
 
 
 
@@ -938,7 +938,7 @@ Lanciato nel 2020 come semplice nodo Bitcoin accompagnato da alcune applicazioni
 
 
 
-Non entrerò nel dettaglio di come funziona e delle sue caratteristiche specifiche, perché le esamineremo in modo più approfondito nel primo capitolo della prossima parte. Infatti, per gli scopi di questo corso BTC 202, ho scelto di utilizzare UmbrelOS, che ritengo sia la migliore soluzione node-in-a-box attuale per gli utenti principianti e intermedi.
+Non entrerò nel dettaglio di come funziona e delle sue caratteristiche specifiche, perché le esaminermo in modo più approfondito nel primo capitolo della prossima parte. Infatti, per gli scopi di questo corso BTC 202, ho scelto di utilizzare UmbrelOS, che ritengo sia la migliore soluzione node-in-a-box attuale per gli utenti principianti e intermedi.
 
 
 
@@ -3394,7 +3394,7 @@ Ecco i parametri di base che potete modificare nel vostro `Bitcoin.conf` per qua
 
 
 
-- `maxmempool=<n>`: Limita la dimensione massima del Mempool locale a `<n>` megabyte (default: `300`). Quando il limite viene raggiunto, il nodo aumenta dinamicamente la soglia della tariffa effettiva e dà priorità alle transazioni meno redditizie (in base alla tariffa, non al valore assoluto) per rimanere al di sotto del limite. È possibile lasciare questa impostazione come predefinita. Aumentarla può essere utile se si lavora da soli o se si vuole avere una visione più precisa della congestione del Mempool e migliorare la stima delle tariffe. Al contrario, riducendola si risparmia RAM e, in misura minore, altre risorse di sistema.
+- `maxmempool=<n>`: Limita la dimensione massima del Mempool locale a `<n>` megabyte (default: `300`). Quando il limite viene raggiunto, il nodo aumenta dinamicamente la soglia della tariffa effettiva e dà priorità alle transazioni meno redditizie (in base alla tariffa, non al valore assoluto) per rimanere al di sotto del limite. È possibile lasciare questa impostazione come predefinita. Aumentarla può essere utile se si lavora da soli o se si vuole avere una visione più precisa della congestione del Mempool e migliorare la stima delle tariffe. Al contrario, riducendola si risparmia RAM e, in misura miner, altre risorse di sistema.
 
 
 
@@ -3448,7 +3448,7 @@ Ecco le impostazioni avanzate per il Mempool e la politica dei relè. Se si è a
 
 
 
-- `datacarrier=1` : Consente il relay e (se il mining avviene tramite il nodo) l’inclusione di transazioni contenenti dati non finanziari tramite un output `OP_RETURN` (predefinito: `1`). Disattivare questo parametro riduce leggermente la superficie di spam dei dati non finanziari a scapito di una minore compatibilità con alcuni usi. In ogni caso, dovrai accettare gli `OP_RETURN` minati.
+- `datacarrier=1` : Consente il relay e (se il mining avviene tramite il nodo) l’inclusione di transazioni contenenti dati non finanziari tramite un output `OP_RETURN` (predefinito: `1`). Disattivare questo parametro riduce leggermente la superficie di spam dei dati non finanziari a scapito di una miner compatibilità con alcuni usi. In ogni caso, dovrai accettare gli `OP_RETURN` minati.
 
 
 

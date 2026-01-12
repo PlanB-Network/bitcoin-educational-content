@@ -1,0 +1,8 @@
+question: Fizyokratların analizine göre, ekonomik faaliyetlerin devlet tarafından planlanması neden temelde başarısız olmaktadır?
+answer: Devlet, yalnızca bireysel ekonomik aktörlerin günlük faaliyetlerinde sahip olduğu ayrıntılı yerel bilgi olan 'usta gözünden' yoksundur
+wrong_answers:
+  - Devlet, geniş bölgelerdeki tüm ekonomik sektörleri etkin bir şekilde koordine etmek için yeterli mali kaynağa sahip değildir
+  - Siyasi liderler doğaları gereği yozlaşmışlardır ve kişisel kazançlarını etkin ekonomi yönetimine tercih ederler
+  - Demokratik oylama süreçleri hızla değişen piyasa koşullarına hızlı yanıt veremeyecek kadar yavaş
+explanation: |
+  Fizyokratlar devlet planlamasıyla ilgili temel bir epistemolojik sorun tespit etmişlerdir: ekonomik faaliyeti yönlendiren geniş, karmaşık ve sürekli değişen bilgiyi merkezi olarak toplamanın ve işlemenin imkansızlığı. Uygun ekonomik kararlar almak için gerekli detaylı bilgiye ('l'œil du maître') yalnızca kendi özel bağlamlarında faaliyet gösteren bireysel ekonomik aktörlerin sahip olduğunu savunmuşlardır. Bu kavrayış, sosyalist hesaplamalardaki bilgi sorununa ilişkin modern Avusturya Okulu argümanlarını öncelemiş ve öngörmüş, merkezi planlamanın başarısızlığının kaynak kısıtlamaları veya yolsuzluktan değil, dağınık bireysel bilginin yerine merkezi bürokratik karar alma mekanizmasını koymanın içsel imkansızlığından kaynaklandığını göstermiştir.

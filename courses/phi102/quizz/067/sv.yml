@@ -1,0 +1,8 @@
+question: Vilken paradox finns det enligt texten mellan säkerhet och ekonomisk utveckling?
+answer: Säkerhet är både en förutsättning för och en konsekvens av utveckling
+wrong_answers:
+  - Säkerhet kommer alltid först efter att ekonomisk utveckling har uppnåtts
+  - Ekonomiska framsteg eliminerar naturligtvis behovet av säkerhetsåtgärder
+  - Säkerhet och ekonomisk utveckling är helt oberoende av varandra
+explanation: |
+  Kapitlet förklarar att säkerhet och ekonomisk utveckling skapar ett paradoxalt förhållande: säkerhet behövs för att utveckling ska kunna ske (man kan inte innovera eller investera långsiktigt utan säkerhet), men man behöver också ekonomiskt överskott från produktionen för att finansiera de institutioner som tillhandahåller säkerhet. Detta skapar en svår cykel att starta, men när den väl har påbörjats blir den självförstärkande. De andra svaren är felaktiga eftersom de antyder en enkel enkelriktad relation eller ett oberoende, snarare än detta komplexa ömsesidiga beroende.

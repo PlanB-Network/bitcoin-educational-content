@@ -1,9 +1,9 @@
-question: Koja velika sigurnosna greška izlaže curenje podataka domino efektu?
+question: Koja ozbiljna bezbednosna greška omogućava da curenje podataka izazove domino-efekat?
 answer: Ponovno korišćenje iste lozinke na više sajtova
 wrong_answers:
   - Korišćenje javnog VPN-a
   - Prečesto brisanje istorije pretrage
-  - Krećite se u tekstualnom režimu
+  - Kretati se kroz sadržaj u tekstualnom režimu
 explanation: |
   Ponovno korišćenje lozinke na različitim sajtovima omogućava napadaču, u slučaju kompromitovanja servisa, pristup drugim nalozima sa istom lozinkom.
-reviewed: false
+reviewed: true

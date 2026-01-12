@@ -97,6 +97,6 @@ Hierfür stehen Ihnen mehrere Optionen zur Verfügung. Obwohl das Standard-Notep
 - Installieren Sie eines dieser Programme und halten Sie es für Ihre zukünftigen Änderungen bereit. ![github-desktop](assets/26.webp)
 Herzlichen Glückwunsch! Ihre Arbeitsumgebung ist nun eingerichtet, um zum PlanB-Netzwerk beizutragen. Sie können jetzt unsere anderen spezifischen Tutorials für jeden Beitragstyp (Übersetzung, Korrekturlesen, Schreiben.
 
-https://planb.academy/tutorials/others
+https://planb.academy/tutorials/contribution
 
 ..) erkunden.

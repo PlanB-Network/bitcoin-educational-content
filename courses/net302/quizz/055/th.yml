@@ -1,0 +1,9 @@
+question: คำสั่งใดที่แสดงสถานะรายละเอียดของอินเทอร์เฟซเครือข่ายทั้งหมดใน Linux?
+answer: ip addr show
+wrong_answers:
+  - ifup -a
+  - netstat -i
+  - ip route show
+explanation: |
+  คำสั่ง "ip addr show" จะแสดงรายการอินเทอร์เฟซเครือข่ายทั้งหมด พร้อมด้วยสถานะ ที่อยู่ และพารามิเตอร์ที่เกี่ยวข้อง
+reviewed: false

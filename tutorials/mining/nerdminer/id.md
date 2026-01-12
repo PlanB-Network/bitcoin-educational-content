@@ -26,11 +26,11 @@ Anda juga dapat membeli kit NerdMiner yang sudah dirakit dari beberapa penjual s
 
 Pertama, kita akan melihat cara mem-flash perangkat lunak ke ESP-32 S3, dan kemudian kita akan melihat cara merestartnya untuk mengubah jaringan wifi. Langkah-langkah ini untuk pengguna Windows, jika Anda menggunakan sistem operasi Linux, silakan lakukan [langkah awal](#etapes-preliminaires-pour-utilisateurs-linux) untuk memungkinkan pengenalan ESP-32 S3 oleh sistem Anda.
 
-# Instalasi perangkat lunak NerdMiner_v2
+## Instalasi perangkat lunak NerdMiner_v2
 
 Instalasi perangkat lunak sangat disederhanakan berkat penggunaan webflasher.
 
-## Langkah 1: Persiapan webflasher
+### Langkah 1: Persiapan webflasher
 
 Pertama, Anda perlu mengunjungi [NM2 flasher online](https://bitmaker-hub.github.io/diyflasher/).
 
@@ -40,7 +40,7 @@ Kemudian pilih firmware yang sesuai dengan ESP-32 Anda. Kebanyakan waktu itu ada
 
 ![](assets/webflasher.webp)
 
-## Langkah 2: Menghubungkan ESP-32
+### Langkah 2: Menghubungkan ESP-32
 
 Setelah webflasher diluncurkan, sebuah jendela pop-up akan terbuka menunjukkan berbagai port USB yang dikenali oleh browser.
 Anda kemudian dapat menghubungkan ESP-32 Anda, dan sebuah port baru akan ditampilkan (dalam kasus ini, itu adalah port ttyACM0). Anda kemudian harus memilihnya dan klik pada "connect".
@@ -50,7 +50,7 @@ Perangkat lunak kemudian akan diunduh ke ESP32 Anda dalam hitungan detik.
 
 ![](assets/NM2-sucessfully-installed.webp)
 
-## Langkah 3: Konfigurasi NerdMiner
+### Langkah 3: Konfigurasi NerdMiner
 
 Konfigurasi NerdMiner Anda akan dilakukan melalui smartphone atau komputer.
 Aktifkan WiFi dan sambungkan ke jaringan lokal NerdMinerAP. Jika Anda menggunakan smartphone, portal konfigurasi akan terbuka secara otomatis. Jika tidak, ketik alamat 192.168.4.1 di browser.
@@ -77,7 +77,7 @@ Anda sekarang dapat klik pada "save".
 
 Selamat, Anda sekarang menjadi bagian dari jaringan penambangan Bitcoin!
 
-## Operasi NerdMiner
+### Operasi NerdMiner
 
 Perangkat lunak NerdMinerv2 memiliki 3 layar berbeda, yang dapat Anda akses dengan mengklik tombol atas di sisi kanan layar Anda:
 
@@ -90,7 +90,7 @@ Jika Anda ingin me-reboot NerdMiner Anda, misalnya untuk mengubah jaringan WiFi,
 
 Menekan tombol bawah sekali akan mematikan NerdMiner Anda. Mengklik dua kali akan memutar orientasi layar.
 
-### Langkah awal untuk pengguna Linux
+#### Langkah awal untuk pengguna Linux
 
 Berikut adalah langkah-langkah agar Chrome dapat mendeteksi port serial Anda di Linux.
 
@@ -110,13 +110,13 @@ Berikut adalah langkah-langkah agar Chrome dapat mendeteksi port serial Anda di 
 
 Sekarang ESP-32 Anda dikenali oleh sistem, Anda bisa kembali ke [langkah pertama](#etape-1-preparation-du-webflasher) untuk instalasi perangkat lunak.
 
-## Kesimpulan
+### Kesimpulan
 
 Dan itulah! NerdMiner_v2 Anda sekarang dikonfigurasi dan siap digunakan.
 
 Selamat menambang dan semoga keberuntungan berpihak pada Anda!
 
-### Mengestimasi probabilitas memenangkan
+#### Mengestimasi probabilitas memenangkan
 
 Mari bersenang-senang mengestimasi probabilitas memenangkan hadiah blok. Estimasi ini akan kasar dan hanya berusaha untuk mendapatkan besaran magnitudo dari probabilitas.
 Kolam yang dapat NerdMiner terhubung hanya "kolam penambangan solo" yang berarti bahwa kolam tersebut tidak memutualisasikan hashrate dari semua penambang yang terhubung tetapi hanya bertindak sebagai koordinator.
@@ -124,7 +124,7 @@ Sekarang mari kita asumsikan bahwa NerdMiner kita memiliki hashrate sekitar 45kH
 
 Mengetahui bahwa total hashrate adalah sekitar 450 EH/s (atau 4.5 x 10^20 hash per detik), kita dapat mempertimbangkan bahwa probabilitas menemukan blok berikutnya adalah 1 dalam 100 juta miliar, yang sangat sangat sangat tidak mungkin terjadi. Jadi selain menjadi alat edukasi dan objek rasa ingin tahu, NerdMiner dapat berfungsi sebagai tiket lotere dalam penambangan bitcoin dengan biaya listrik marginal 0.5 W--meskipun seperti yang baru saja kita lihat probabilitas menangnya sangat rendah. Namun, mengapa tidak mencoba keberuntungan Anda?
 
-### Informasi Tambahan
+#### Informasi Tambahan
 
 Berikut adalah beberapa tautan jika Anda ingin membaca lebih lanjut tentang subjek ini:
 

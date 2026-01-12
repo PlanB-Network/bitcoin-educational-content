@@ -1,0 +1,9 @@
+question: Pourquoi LN+ est peu adapté aux commerçants ?
+answer: Immobilisation de capital importante
+wrong_answers:
+  - Manque de fiabilité des nœuds impliqués
+  - Absence de système de réputation
+  - Canaux trop petits
+explanation: |
+  Chaque sat d’inbound obtenu nécessite de bloquer un sat d’outbound, ce qui limite la scalabilité pour un commerce.
+reviewed: false

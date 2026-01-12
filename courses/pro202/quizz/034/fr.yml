@@ -1,8 +1,8 @@
 question: Quel élément spécifique doit être inclus dans un ScriptSig P2SH pour le distinguer des entrées de transaction ordinaires ?
-answer: Le script de rédemption complet avec les données de déverrouillage
+answer: Le script de rachat complet avec les données de déverrouillage
 wrong_answers:
   - Le HASH160 du script de rachat et les clés publiques
   - Seules les signatures et les clés publiques nécessaires pour satisfaire aux conditions
   - L'octet de la version et le codage de l'adresse pour la validation P2SH
 explanation: |
-  Les entrées P2SH nécessitent à la fois les données de déverrouillage (signatures, etc.) ET le script de rachat complet dans le ScriptSig. Il s'agit d'un cas unique car le script de remboursement était auparavant caché derrière un hachage et doit maintenant être révélé pour la validation. La première étape de validation vérifie que HASH160(redeem_script) correspond au hachage dans scriptPubKey, puis le script de remboursement est exécuté avec les données de déverrouillage fournies. Les autres options sont incorrectes : le hachage se trouve déjà dans le scriptPubKey original, les signatures seules ne suffisent pas sans le script, et les octets de version sont utilisés pour l'encodage des adresses, et non pour la validation des dépenses.
+  Les entrées P2SH nécessitent à la fois les données de déverrouillage (signatures, etc.) et le script de rachat complet dans le ScriptSig. Il s'agit d'un cas unique car le script de remboursement était auparavant caché derrière un hachage et doit maintenant être révélé pour la validation. La première étape de validation vérifie que HASH160(redeem_script) correspond au hachage dans scriptPubKey, puis le script de remboursement est exécuté avec les données de déverrouillage fournies. Les autres options sont incorrectes : le hachage se trouve déjà dans le ScriptPubKey original, les signatures seules ne suffisent pas sans le script, et les octets de version sont utilisés pour l'encodage des adresses, et non pour la validation des dépenses.

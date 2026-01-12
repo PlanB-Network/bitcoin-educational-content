@@ -1,0 +1,9 @@
+question: ระบบสกุลเงินดิจิทัลใดที่วิศวกรของ Google ชื่อ Mike Hearn สนใจก่อนที่จะค้นพบ Bitcoin?
+answer: ระลอก
+wrong_answers:
+  - Liberty Reserve
+  - eLD
+  - RPOW
+explanation: |
+  Ryan Fugger ได้ยินเกี่ยวกับ Bitcoin เป็นครั้งแรกในโครงการ Google Group ของเขาในเดือนเมษายน 2009 เขาติดต่อ Satoshi ทันทีเพื่อสอบถามข้อมูล
+reviewed: true

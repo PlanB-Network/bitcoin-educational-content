@@ -6,4 +6,4 @@ wrong_answers:
   - /23
 explanation: |
   Desde 2006, cada RIR suele recibir un bloque /12 de IPv6, lo que proporciona una reserva muy grande para la asignación regional.
-reviewed: false
+reviewed: true

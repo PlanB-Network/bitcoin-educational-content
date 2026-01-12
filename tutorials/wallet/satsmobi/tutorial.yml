@@ -1,4 +1,7 @@
 id: ea04e1cd-609a-4ea8-9c61-f9de1fe3a1fb
+
+last_update_date: 2025-03-14
+
 project_id: 0f08cb03-1f6c-4c46-bcac-6d801d82faef
 
 category: mobile
@@ -14,6 +17,8 @@ tags:
   - guides
   - user-friendly
 
+
+license: CC-BY-SA-V4
 
 # Proofreading metadata
 original_language: it
@@ -55,15 +60,16 @@ proofreading:
     contributor_names:
     reward: 1.7
   - language: fr
-    last_contribution_date:
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 1.3
+      - nrak10
+    reward: 0.65
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.91
+    reward: 2.1
   - language: id
     last_contribution_date:
     urgency: 1
@@ -73,7 +79,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.5
+    reward: 2.1
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -109,7 +115,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.5
+    reward: 2.1
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -149,9 +155,14 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.5
+    reward: 2.1
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 1.7
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.1

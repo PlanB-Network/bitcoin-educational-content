@@ -466,7 +466,7 @@ Wat is een betere manier om de analyse van Blockchain tegen te gaan dan te leren
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.academy/tutorials/privacy/on-chain/[payjoin](https://planb.academy/resources/glossary/payjoin)-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 Hierin kunnen we een analogie trekken met cryptografie en cryptoanalyse. Een goede cryptograaf is eerst en vooral een goede cryptanalist. Om een nieuw versleutelingsalgoritme te bedenken, moet je weten welke aanvallen het zal ondervinden en ook bestuderen waarom eerdere algoritmen gebroken zijn. Hetzelfde principe geldt voor Bitcoin privacy. Inzicht in Blockchain analysemethoden is de sleutel tot bescherming ertegen. Daarom heb ik een hele sectie on chain analyse in deze training opgenomen.
 

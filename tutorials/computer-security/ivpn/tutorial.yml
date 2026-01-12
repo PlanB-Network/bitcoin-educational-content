@@ -1,5 +1,7 @@
 id: 5a0cd5df-29f1-4382-a817-975a96646e68
 
+last_update_date: 2024-08-31
+
 category: communication
 
 level: beginner
@@ -9,6 +11,8 @@ professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 
 # Proofreading metadata
 project_id: a465ba43-cec3-449d-95ed-4b06780e0510
+license: CC-BY-SA-V4
+
 original_language: fr
 proofreading:
   - language: fr
@@ -31,7 +35,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.37
+    reward: 2.82
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -82,7 +86,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.37
+    reward: 2.82
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -92,7 +96,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.91
+    reward: 2.82
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -144,12 +148,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.37
+    reward: 2.82
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 2.28
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.82
 tags:
   - guides
   - user-friendly

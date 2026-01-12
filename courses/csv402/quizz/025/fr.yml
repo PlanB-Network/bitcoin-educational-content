@@ -1,9 +1,9 @@
 question: Quels sont les quatre éléments qui définissent un contrat RVB ?
-answer: Genèse, schéma, interface et mise en œuvre de l'interface
+answer: Genesis, Schema, Interface and Interface Implementation
 wrong_answers:
-  - Genèse, schéma, transition et mise en œuvre de l'interface
-  - Genèse, interface, transition et extension
-  - Genèse, interface, mise en œuvre de l'interface et extension
+  - Genesis, Schema, Transition and Interface Implementation
+  - Genesis, Interface, Transition and Extension
+  - Genesis, Interface, Interface Implementation and Extension
 explanation: |
-  Un contrat RGB se compose de quatre éléments distincts : la genèse, le schéma, l'interface et la mise en œuvre de l'interface.
+  Un contrat RGB se compose de quatre éléments distincts : le Genesis, le Schema, l'Interface and l'Interface Implementation.
 reviewed: false

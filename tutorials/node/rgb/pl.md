@@ -111,16 +111,16 @@ RGB ma swoją własną króliczą norę wewnątrz króliczej nory Bitcoin, podcz
 - 5 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0021.md
 
 
-# Samouczek węzła RGB
+## Samouczek węzła RGB
 
 
-## Wprowadzenie
+### Wprowadzenie
 
 
 W tym samouczku wyjaśniamy, jak używać RGB-node do tworzenia zamiennych tokenów i jak je przesyłać, ten dokument jest oparty na demo RGB-node i różni się tym, że ten samouczek wykorzystuje prawdziwe dane Testnet i do tego musimy zbudować własne Partially Signed Bitcoin Transaction, PSBT od teraz.
 
 
-## Wymagania
+### Wymagania
 
 
 Zaleca się korzystanie z dystrybucji Linuksa, ten poradnik został napisany przy użyciu Pop!OS, który jest oparty na Ubuntu i będzie potrzebny:
@@ -298,7 +298,7 @@ $ rgbd -vvvv -b ~/.cargo/bin -d ./data1 -n testnet
 ```
 
 
-## Emisja
+### Emisja
 
 
 Aby wyemitować aktywa, uruchamiamy rgb0-CLI z zamiennymi podkomendami emisji, a następnie argumentami, tickerem USDT, nazwą "USD Tether", aw alokacji użyjemy kwoty emisji i issuance_utxo, jak widzimy poniżej:
@@ -356,7 +356,7 @@ ticker: USDT
 ```
 
 
-## generate blinded UTXO
+### generate blinded UTXO
 
 
 Aby otrzymać nowe USDT, RGB-węzeł-1 musi generate blinded UTXO odpowiadający receive_utxo do przechowywania aktywów.
@@ -373,7 +373,7 @@ Outpoint blinding secret: 1679197189805229975
 Aby móc akceptować przelewy związane z tym UTXO, będziemy potrzebować oryginalnego receive_utxo i blinding_factor.
 
 
-## Transfer
+### Transfer
 
 
 Aby przenieść pewną ilość aktywów do RGB-węzła-1, musimy wysłać je do blinded UTXO, RGB-węzeł-0 musi utworzyć Consignment i ujawnienie, a następnie zatwierdzić je w transakcji Bitcoin. Następnie będziemy potrzebować PSBT, który zmodyfikujemy, aby zawierał zatwierdzenie. Ponadto opcje -i i -a pozwalają nam podać wejściowy punkt wyjścia, który byłby źródłem zasobu i alokacją, w której otrzymamy zmianę, musimy wskazać ją w następujący sposób @<change_utxo>.
@@ -390,7 +390,7 @@ Consignment data to share:consignment1qxz4g7ec6da33llaxe97u9hx8p9wcgp2yv46ycudwy
 Spowoduje to zapisanie trzech nowych plików, Consignment, ujawnienie i PSBT zawierający poprawkę, ten PSBT nazywa się Witness Transaction, Consignment jest wysyłany do RGB-węzła-1.
 
 
-## Świadek
+### Świadek
 
 
 Witness Transaction powinien zostać podpisany i rozesłany, w tym celu musimy go zakodować base64.
@@ -427,7 +427,7 @@ $ bcli finalizepsbt "cHNidP8BAHECAAAAAe2pydT0BqfK5nBCdBSbm3W/vNKE/QxTr4eJcjwjDLD
 ```
 
 
-## Transmisja
+### Transmisja
 
 
 Prześlij go za pomocą podkomendy sendrawtransaction, aby potwierdzić go w Blockchain.
@@ -439,7 +439,7 @@ $ bcli sendrawtransaction "02000000000101eda9c9d4f406a7cae6704274149b9b75bfbcd28
 ```
 
 
-## Akceptuj
+### Akceptuj
 
 
 Aby zaakceptować transfer przychodzący, RGB-węzeł-1 powinien otrzymać plik Consignment z RGB-węzła-0, posiadać receive_utxo i odpowiedni blinding_factor wygenerowany podczas generowania blinding UTXO.
@@ -570,7 +570,7 @@ blinding: ddba9e0efdd614614420fa0b68ecd2d3376a05dd3d809b2ad1f5fe0f6ed75ea2
 ```
 
 
-## Wnioski
+### Wnioski
 
 
 Byliśmy w stanie stworzyć zamienny zasób i przenieść go z jednej transakcji do drugiej w sposób prywatny, jeśli sprawdzimy potwierdzoną transakcję w Block explorer, nie znajdziemy niczego innego niż zwykła transakcja, to dzięki temu, że RGB używa jednorazowych pieczęci do modyfikowania transakcji, W tym poście robię wprowadzenie do tego, jak działa RGB.

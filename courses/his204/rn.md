@@ -1,18 +1,18 @@
 ---
 name: Inkomoko y'ubutunzi bwa Laissez-Faire
-goal: n’ugutohoza imishinge y’ivyiyumviro vy’ubutunzi vy’Ubufaransa vy’ubwigenge bwo mu kinjana ca 18, vyibanda ku nyigisho y’uburenganzira bwo gukora, abarongoye ivyiyumviro vyayo be n’inkurikizi ziramvye.
+goal: Menya vyimbitse imishinge y’ivyiyumviro vy'ubutunzi bw’ubwigenge bwo mu kinjana ca 18, vyibanda ku nyigisho y’uburenganzira(bibe uko biri) bwo gukora, abarongoye ivyiyumviro vyayo be n’inkurikizi zirama.
 objectives: 
 
 
-  - Uronke ugutahura gukomeye kw’ivyiyumviro nyamukuru vyari inyuma y’ivyiyumviro vy’ubutunzi vy’ubwigenge bw’Abafaransa be n’ingene vyateye imbere mu kinjana ca 18 .
-  - Gutahura imvo abanyabwenge b’Abafaransa bashizeho barwanya ubutegetsi bwa Leta .
-  - Suzuma ingaruka z’iryo shure ry’ivyiyumviro ry’Ubufaransa n’uruhara rwaryo mu guhingura iterambere ry’ubutunzi bwa politike kw’isi yose .
-  - Gutegura ugutahura gukomeye kw’ububandanya bw’amateka hagati y’abanyabwenge batandukanye n’ivyiyumviro vyabo .
+  - Uronke ubumenyi bukomeye kw’ivyiyumviro nyamukuru vyari inyuma y’ivyiyumviro vy’ubutunzi bw’ubwigenge be n’ingene vyateye imbere mu kinjana ca 18 .
+  - Gutahura imvo abanyabwenge bashizeho barwanya ubutegetsi bwa Leta .
+  - Suzuma ingaruka z’ico ciyumviro ca laissez-faire n’uruhara rwaco mu guhingura iterambere ry’ubutunzi bwa politike kw’isi yose .
+  - Gusuzuma imishamirano iri hagati y'imvugo n'ingiro mugushira ,u ngiro ubutunzi bw'ubwigenge .
 
 
 ---
 
-# Urugendo rwo mu mateka y'ubutunzi bw'umwidegemvyo
+# Urugendo muri kahise y'ubutunzi bw'umwidegemvyo(ubwigenge)
 
 
 
@@ -35,7 +35,7 @@ Ubwa nyuma, Leta itegerezwa kwemera ko ibintu bigendagenda ataco bimaze, ivyo bi
 <partId>06d67531-19f1-4f8d-bf8f-77bbcc743672</partId>
 
 
-## Incamake y'amashure
+## Incamake y'icirwa
 
 <chapterId>202db3c6-0320-494d-8057-adc6f6563048</chapterId>
 
@@ -43,59 +43,59 @@ Ubwa nyuma, Leta itegerezwa kwemera ko ibintu bigendagenda ataco bimaze, ivyo bi
 Murakaze muri HIS204!
 
 
-Iryo shure rigamije gutohoza inkomoko y’igifaransa y’iciyumviro ca *laissez-faire*—"reka bibe"—nk’uko cateye imbere mu kinjana ca 18 biciye mu mugenzo w’ubwenge w’ubutunzi. Mu gukurikirana ivyiyumviro vy’abanyabwenge b’ubutunzi bo mu Bufaransa bo mu ntango, tuzobona imishinge y’ubutunzi bwa politike bushingiye ku mwidegemvyo w’ubutunzi, burangwa n’ukutagira icizigiro ku kwivanga mu vya Leta no kwemera urutonde rw’ibidukikije rushigikira iterambere n’uguterimbere.
+Ico cirwa kigamije gutohoza inkomoko y’igifaransa y’iciyumviro ca *laissez-faire*—"(reka bibe")— nk’uko cateye imbere mu kinjana ca 18 biciye mu mugenzo w’ubwenge w’ubutunzi. Mu gukurikirana ivyiyumviro vy’abanyabwenge b’ubutunzi bo mu Bufaransa bo mu ntango, tuzobona imishinge y’ubutunzi bwa politike bushingiye ku mwidegemvyo w’ubutunzi, burangwa n’ukutagira icizere ku kuvyivangamwo kwa Leta no kwemera urutonde rusanzwe rushigikira iterambere n’ugutunga.
 
 
-**Igice ca 2: Abarongozi**
+**Igice ca 2: Ababanziriza**
 
 
-Muri iki gice dutangura mu ntango z’ikinjana ca 17 n’ica 18, igihe cahinduwe n’ubutegetsi burengeje urugero bw’ubwami butagira aho bugarukira kandi ica mbere gisaba uburyo bubereye kandi bubereye bwo gutwara ibikorwa vya bose. Biciye ku mibare ya Vauban, Boisguilbert na Cantillon, turabona ukunegura kwa kera kw’ubutegetsi bwa Leta n’urutonde rwa mbere rw’ivyo vyohavuye bihinduka ubutunzi bwa politike bw’ubwigenge.
+Muri iki gice dutangura mu ntango z’ikinjana ca 17 n’ica 18, igihe cahinduwe n’ubutegetsi burengeje urugero bw’ubwami butagira aho bugarukira kandi ica mbere gisaba uburyo bubereye kandi bubereye bwo gutwara ibikorwa vya bose. Biciye ku bishushanya vya Vauban, Boisguilbert na Cantillon, turabona ukunegura kwa kera kw’ubutegetsi bwa Leta n’urutonde rwa mbere rw’ivyo vyohavuye bihinduka ubutunzi bwa politike bw’ubwigenge.
 
 
-**Igice ca 3: Abavuguruzi n'Abanyavyiyumviro bo mu ntango z'ikinjana ca 18**
+**Igice ca 3: Abahindura n'Abanyavyiyumviro bo mu ntango z'ikinjana ca 18**
 
 
-Iki gice kivuga cane ku bo mu myaka mirongo ya mbere y’ikinjana ca 18 bagerageje guhindura ubutunzi bw’Ubufaransa bakoresheje ingingo ngenderwako nshasha. Abanyabwenge nka Abbé wa Saint-Pierre, Marquis d’Argenson na Gournay (hamwe n’abayoboke biwe) basavye ko intambamyi z’amashirahamwe zikurwamwo, ubudandaji bugafungurwa, no kuremesha uguhiganwa nk’ivyo bituma haba iterambere. Ivyiyumviro vyabo kenshi vy’ubushizi bw’amanga vyari bigereranya ivyiyumviro bikomeye vya Fiziyokarasi.
+Iki gice kivuga cane ku bo mu ntango z’ikinjana ca 18 bagerageje guhindura ubutunzi bw’Ubufaransa bakoresheje ingingo ngenderwako nshasha. Abanyabwenge nka Abbé wa Saint-Pierre, Marquis d’Argenson na Gournay (hamwe n’abayoboke biwe) basavye ko intambamyi z’amashirahamwe zikurwamwo, ubudandaji bugafungurwa, no guhimiriza uguhiganwa nk’ivyo bituma haba iterambere. Ivyiyumviro vyabo kenshi vy'ukubahuka vyari bigereranya ivyiyumviro bikomeye vya Fiziyokarasi( Physiocratic ideas).
 
 
-**Igice ca 4: Ishure ry'ubuhinga bw'umubiri**
+**Igice ca 4: Ishure ry'ubuhinga bwa Fiziyokarasi( The Physiocratic School)**
 
 
-Iki gice kiratohoza kimwe mu bihe bihambaye cane mu vyiyumviro vy’ubutunzi vy’Abafaransa: ishure rya Fiziyokarasi. Tuzosuzuma inkomoko yayo, imishinge y’inyigisho n’ivyo yashitseko nyamukuru, twibanda ku bantu b’agaciro nka Quesnay na Dupont de Nemours. Iciyumviro c’uburenganzira bwo gukora ikintu kimwe gica kiba urutonde rujanye n’ivyo muri iryo shure, rushingiye ku ciyumviro c’urutonde rw’ibidukikije Leta itegerezwa kuyoboka kugira ngo bose bashobore guterimbere.
+Iki gisata kiratohoza kimwe mu bihe bihambaye cane mu vyiyumviro vy’ubutunzi vy’Abafaransa: ishure rya Fiziyokarasi. Tuzosuzuma inkomoko yayo, imishinge y’inyigisho n’ivyo yashitseko nyamukuru, twibanda ku bantu ngirakamaro nka Quesnay na Dupont de Nemours. Iciyumviro ca laissez-faire co gukora ikintu kimwe gica kiba urutonde rujanye n’ivyo muri iryo shure, rushingiye ku ciyumviro c’urutonde rusanzwe Leta itegerezwa kuyoboka kugira ngo bose bashobore guterimbere.
 
 
 **Igice ca 5: Umuco n'ubutunzi bwa politike**
 
 
-Ubwa nyuma, tuzobona ingene ivyiyumviro vy’ubutunzi vy’ubwigenge vyakwiragiye mu muhari wagutse w’Umuco. Abantu nka Voltaire, Turgot, Condillac, na Condorcet baraguye kandi baratunganya umugenzo wo kurekura, ivyo banditse vyatumye umugenzo wo kurekura ujabuka uja mu gihe c’amahinduka n’ibindi, aho ivyiyumviro vy’ubwigenge vyaronse ijwi rishasha.
+Ubwa nyuma, tuzobona ingene ivyiyumviro vy’ubutunzi vy’ubwigenge vyakwiragiye mu muhari wagutse w’Umuco. Abantu nka Voltaire, Turgot, Condillac, na Condorcet bararyohoye kandi baratunganya umugenzo wo kurekura, ivyo banditse vyatumye umugenzo wo kurekura ujabuka uja mu gihe c’amahinduka n’ibindi bihe vyakwirikiye, aho ivyiyumviro vy’ubwigenge vyaronse ijwi rishasha.
 
 
-Ni mwiteguye gusubira kumenya imizi y’ubutunzi bw’ubwigenge bw’Abafaransa? Reka tugende!
+Uriteguye gusubira kumenya imizi y’ubutunzi bw’ubwigenge bw’Abafaransa? Reka tugende!
 
 
-# Abatanguzi
+# Ababanziriza
 
 
 <partId>91565b10-6010-53cb-a2f4-9c2306c7ef8c</partId>
 
 
-## Amateka y'inyuma
+## Akagene ka kahise
 
 
 <chapterId>6a5fd101-6dfd-5d77-96c7-9e1aa4a19758</chapterId>
 
 
-Mu ntango z’ikinjana ca 18, Ubufaransa bwari mu bihe biteye amaganya. Abanyagihugu bo mu misozi bariko baravyara bike cane kugira ngo bashobore kubaho kandi bariko barasoreshwa cane.
+Mu ntango z’ikinjana ca 18, Ubufaransa bwari mu bihe biteye umutima uhagaze. Abanyagihugu bo mu misozi vyari bibagoye cane kubaho kandi bariko barakwa amakori cane.
 
 
 ![image](assets/fr/001.webp)
 
 
 
-Abahinguzi b’ibintu bo mu bisagara, bari bafunzwe mu mashengero akomeye, baragorwa no guhingura ibintu bishasha canke mbere no gushigikirana. Hagati aho, ibindi bihugu vyo mu Buraya ntivyatevye gusumba Ubufaransa mu bijanye n’ibintu vyose, bikaba vyari birengeye ivyo bwakora. Ivyo Ubwongereza n’Ubuholandi vyaroraniwe mu vy’ubudandaji vyari mu muzirikanyi wa bose.
+Abahinguzi b’ibintu bo mu bisagara, bari bafunzwe mu bigo bikomeye, baragorwa no guhingura ibintu bishasha canke mbere no gushigikirana. Hambavu y'aho, ibindi bihugu vyo mu Buraya ntivyatevye gusumba Ubufaransa mu bisata vyose, bikaba vyari birengeye ivyo bwakora. Ivy'ukuroranirwa kq'ubwongereza n'ubuhorande vyavugwa ahantu hose.
 
 
-Ariko none twoshobora gute kuronka umuti w’ingwara y’ico gihe? Nta buhinga bw’ubutunzi bwariho, rero nta buvuzi budasanzwe bwo gukoresha. Ingingo ngenderwako z’ubutunzi zari zikiriko zirakoreshwa mu buryo butari bwo, zihinduka hagati y’ibihe vy’uburenganzira n’ibihe vy’ukwidegemvya. Nta gukeka ko dufise ivyitegererezo, ibimenyetso vy’amateka twokurikira. Muri abo harimwo *Sully*, umushikiranganji wa Henri wa kane, yaburanira uburimyi, akaremesha umwidegemvyo mwinshi w’ubudandaji mu Bufaransa.
+Ariko none twoshobora gute kuronka umuti w’ingwara y’ico gihe? Nta buhinga bw’ubutunzi bwari bwabeho, rero nta muti udasanzwe owo gukoresha. Ingingo ngenderwako z’ubutunzi zari zikiriko zirakoreshwa mu buryo butari bwo, zihinduka hagati y’ibihe vy’uburenganzira n’ibihe vy’ukwidegemvya. Nta gukeka ko dufise ivyitegererezo, ibimenyetso vy’amateka twokurikira. Muri abo harimwo *Sully*, umushikiranganji wa Henri IV, yaburanira uburimyi, akaremesha umwidegemvyo mwinshi w’ubudandaji mu Bufaransa.
 
 
 ![image](assets/fr/002.webp)
@@ -104,46 +104,46 @@ Ariko none twoshobora gute kuronka umuti w’ingwara y’ico gihe? Nta buhinga b
 ![image](assets/fr/003.webp)
 
 
-Ariko haciye haza Colbert, umusuku wa Louis XIV, yariko arahungabana hagati y’amategeko n’umwidegemvyo, yamara amaherezo agashira mu ngiro amategeko. Mu mpera nyene z’ikinjana ca 17, Colbert yararengeye Sully: abasuku ubu barasaba iragi ryiwe maze bagagerageza gukurikiza ivyo bavuga ko ari amajambo yiwe y’agaciro.
+Ariko haciye haza Colbert, umusuku wa Louis XIV, yariko aradidanirwa hagati y’amategeko n’umwidegemvyo, yamara amaherezo agashira mu ngiro amategeko. Mu mpera nyene z’ikinjana ca 17, Colbert yararengeye Sully: abashikiranganji barasaba iragi ryiwe maze bagagerageza gukurikiza ivyo bavuga ko ari amajambo yiwe y’agaciro.
 
 
 ![image](assets/fr/004.webp)
 
 
-Mu vyiyumviro vy’abanyagihugu bo mu mpera z’ikinjana ca 17, amajambo Colbert yavuze yari ane.
+Mu vyiyumviro vy’abategetsi bo muri leta mu mpera z'ikinjana ca 17, amajambo Colbert yavuze yari ane.
 
 
-(1) **Inganda zitegerezwa gutunganirizwa no gubohwa mu ma Guildes**. Aya mabwirizwa aratomora nk’akarorero ingene amashuka n’ibitambaro bikwiye gukorwa, ubunini bwavyo n’uburemere bwavyo.
+(1) **Amahinguriro ategerezwa gutegekwa no kugenzurwa n'amashirahamwe**. Aya mabwirizwa aratomora nk’akarorero ingene amashuka n’ibitambara bikwiye gukorwa, ubunini bwavyo n’uburemere bwavyo.
 
-Hariho amategeko nk’ayo amajana n’amajana, yashizwe hamwe mu bitabu vyerekeye ubwoko bumwebumwe bw’inganda. Yamara mu maso y’abayoboke ba Colbert, ivyo vyari bikiri bidahagije: inganda, ni ko bemera ko na zo nyene zari zikeneye kugenzurwa n’amashirahamwe.
+Hariho amategeko nk’ayo amajana n’amajana, yashizwe hamwe mu bitabu vyerekeye ubwoko bumwebumwe bw’amahinguriro. Yamara mu maso y’abayoboke ba Colbert, ivyo vyari bikiri bidahagije: inganda, ni ko bemera ko na zo nyene zari zikeneye kugenzurwa n’amashirahamwe.
 
 
 ![image](assets/fr/005.webp)
 
 
-Umuntu wese yipfuza gukora ubuhinga, yategerezwa kubanza kumara imyaka myinshi ari umwigishwa, hanyuma akaja kuba umugenzi, imbere y'uko agerageza gushika ku rwego rwa shebuja mu gukora "igikorwa c'agatangaza" no kwishura amahera menshi cane iyo sosiyete. Guhiganwa rero mu bucuruzi bumwebumwe kwari guke cane.
+Umuntu wese yipfuza gukora umwuga, yategerezwa kubanza kumara imyaka myinshi avyiga, hanyuma akaja kuba uwugendanira, imbere y'uko agerageza gushika ku rwego rwo kuba uwukora yuzuye mu gukora "igikorwa c'agatangaza" no kuriha amahera menshi muri iryo shirahamwe. Guhiganwa rero mu bucuruzi bumwebumwe kwari guke cane.
 
 
 
-(2) **Ubucuruzi Ni Urukino rw'Igiciro c'Ikigereranyo**. Ku bijanye n’ubudandaji, abigishwa ba Colbert bari bafise ivyiyumviro nk’ivyo abantu b’abanyamahanga bo mu bihe vya kera bari bafise. Nk'uko umushikiranganji wa Louis XIV abivuga, ubudandaji ni "intambara idahera". Kubera iki? Imvo ni yoroshe: kuri Colbert n’abamukurikiye, ukwiyongera kwose kw’ubutunzi ku gihugu kimwe kwari gusobanura ubukene bw’ikindi. Mu vyiyumviro vyabo, Abongereza canke Abaholandi ntibashobora kwemererwa gutunga, kuko ivyo vyoba bisobanura ko bariko biba ubutunzi bw’Ubufaransa.
+(2) **Ubucuruzi Ni Urukino rudafise inyungu**. Ku bijanye n’ubudandaji, abigishwa ba Colbert bari bafise ivyiyumviro nk’ivyo abantu b’abanyamahanga bo mu bihe vya kera bari bafise. Nk'uko umushikiranganji wa Louis XIV abivuga, ubudandaji ni "intambara idahera". Kubera iki? Imvo iroroshe: kuri Colbert n’abamukurikiye, ugutunga kwose kw’ubutunzi ku gihugu kimwe kwari gusobanura ubukene bw’ikindi. Mu vyiyumviro vyabo, Abongereza canke Abaholandi ntibashobora kwemererwa gutunga, kuko ivyo vyoba bisobanura ko bariko biba ubutunzi bw’Ubufaransa.
 
 
 ![image](assets/fr/006.webp)
 
 
-Ivyo bihugu rero vyategerezwa gukumirwa canke gukorwako imisoro myinshi, ata n’umwe yishimira, kuko ubudandaji ni intambara dushobora kwipfuza gusa ugusenyuka kw’abansi bacu.
+Ivyo bihugu rero vyategerezwa gukumirwa canke bigatonzwa amakori menshi atakigongwe, kubera urudandazwa ari intambara umwe wese yishimira uruhombo rw'abansi biwe.
 
 
 > "Abafaransa bashobora gusa kwongerera ubudandaji bwabo mu gutsinda Abaholandi".
-> *Kolibeti*
+> *Colbert*
 
-(3) **Igihe Leta ibuze amahera, Nimuterere Imisoro myinshi**. Colbert n’abigishwa biwe ntibari kure y’ukwemera yuko ubutunzi bw’abasoreshwa ari ubutunzi buke. Mu vyiyumviro vyabo, amahera Leta ikoresha ntashobora kwigera aba ingorane, igihe cose hazoba hakoranijwe ahagije. Kandi iyo abantu bagararije, vyari gusa kubera ko abaminisitiri babikoze nabi, kuko nk'uko Colbert yabivuze mu buryo buteye isoni, «ubuhinga bwo gutanga imisoro bushingiye ku gukuraho inzoka zitazivuza induru cane».
+(3) **Igihe Leta ibuze amahera, Muduze amakori**. Colbert n’abigishwa biwe ntibari kure y’ukwemera yuko ubutunzi bw’abatanga amakori ari ubutunzi buke. Mu vyiyumviro vyabo, amahera Leta ikoresha ntashobora kwigera aba ingorane, igihe cose hazoba hakoranijwe ahagije. Kandi iyo abantu bagararije, vyari gusa kubera ko abashikiranganji babikoze nabi, kuko nk'uko Colbert yabivuze mu buryo buteye isoni, «ubuhinga bwo gutanga imisoro bushingiye ku gukuraho amababa ku mbata ntivuze induru cane».
 
 
 ![image](assets/fr/007.webp)
 
 
-(4) **Ubutunzi ni, hejuru ya vyose, inzahabu n’ifeza**. Imbere y’uko ubuhinga bw’ubutunzi buvuka, abanditsi benshi bari bakurikije inyigisho imwe ihambaye ku bijanye n’ingene ubutunzi bumeze, iyo nyigisho yaje kwitwa *mercantilisme*. Colbert n’abamukurikiye barabandanije muri iyo nzira. Muri make, abacuruzi bemera ko ikimenyetso nyaco c’uguterimbere kw’igihugu ari ukwirundanira ivyuma vy’agaciro, ifeza n’inzahabu.
+(4) **Ubutunzi ni, hejuru ya vyose, ni inzahabu n’ifeza**. Imbere y’uko ubuhinga bw’ubutunzi buvuka, abanditsi benshi bari bakurikije inyigisho imwe ihambaye ku bijanye n’ingene ubutunzi bumeze, iyo nyigisho yaje kwitwa *mercantilisme*. Colbert n’abamukurikiye barabandanije muri iyo nzira. Muri make, abacuruzi bemera ko ikimenyetso nyaco c’uguterimbere kw’igihugu ari ukwirundanira ivyuma vy’agaciro, ifeza n’inzahabu.
 
 
 ![image](assets/fr/008.webp)
@@ -151,7 +151,7 @@ Ivyo bihugu rero vyategerezwa gukumirwa canke gukorwako imisoro myinshi, ata n�
 
 
 > "Ubwinshi bw'amahera muri Leta ni bwo bwonyene butera itandukaniro mu bukuru n'ububasha bwayo".
-> *Kolibeti*
+> *Colbert*
 
 Inkurikizi y’ico ciyumviro ni ugushigikira ivyoherezwa hanze uko vyogenda kwose, ivyo bikaba vyazana inzahabu n’ifeza vyo hanze, no kugabanya ivyoherezwa hanze ku rugero rutoyi, kugira ngo ntibirungikwe hanze.
 
@@ -165,7 +165,7 @@ Izo ngingo ngenderwako zine ni zo zayoboye intwaro y’Ubufaransa mu myaka miron
 <chapterId>ee9c1e0e-96cc-5026-a5e2-963d68122786</chapterId>
 
 
-Ubu, uko umukazo w’imisoro mu gihugu cacu ubandanya gukura, utera ubwoba bwo gupfuka inguvu z’ubutunzi bw’igihugu, amajwi ariko araduga ashigikira ihinduka. Ivyo bisaba ko habaho ihinduka, vyaba bimenyekanye canke bitamenyekanye, akenshi birasubiramwo ibikorwa vy’abahinga mu vy’ubutunzi b’Abafaransa, kuva mu kinjana ca 17, banegura uburyo bwo gutanga imisoro bw’igihugu ngo ni akajagari, ubutegetsi bw’agahomerabunwa, burenze urugero.
+Ubu, uko umukazo w’imisoro mu gihugu cacu ubandanya gukura, utera ubwoba bwo gupfuka inguvu z’ubutunzi bw’igihugu, amajwi ariko araduga ashigikira ihinduka. Ivyo bisaba ko habaho ihinduka, vyaba bimenyekanye canke bitamenyekanye, akenshi birasubiramwo ibikorwa vy’abahinga mu vy’ubutunzi b’Abafaransa, kuva mu kinjana ca 17, banegura uburyo bwo gutanga amakori bw’igihugu ngo ni akajagari, ubutegetsi bw’agahomerabunwa, burenze urugero.
 
 
 Uwa mbere muri abo bavuguruzi b’imisoro, hakurikijwe urutonde rw’ibihe be n’ubushobozi, ni umukuru w’ingabo Sébastien Le Prestre Vauban, uwuzwi cane mu kwubaka ibihome n’ibihome.

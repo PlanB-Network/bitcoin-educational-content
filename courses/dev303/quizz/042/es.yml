@@ -3,6 +3,6 @@ answer: No realizan ningún trabajo hasta que se consumen, lo que permite un enc
 wrong_answers:
   - Paralelizan automáticamente las operaciones en varios núcleos de CPU para mejorar el rendimiento
   - Almacenan en memoria los resultados anteriores para evitar volver a calcular los mismos valores varias veces
-  - Utilizan menos memoria al almacenar sólo referencias en lugar de copiar valores de datos reales
+  - Utilizan menos memoria al almacenar solo referencias en lugar de copiar valores de datos reales
 explanation: |
   La evaluación perezosa en los iteradores de Rust significa que no ejecutan ningún procesamiento hasta que se llama a un método consumidor. Esto permite encadenar múltiples operaciones como map, filter y otros adaptadores sin crear colecciones intermedias entre cada paso. El compilador puede optimizar toda la cadena en un código eficiente que procesa los elementos de uno en uno a través de todas las transformaciones, en lugar de crear vectores temporales u otras colecciones en cada etapa.

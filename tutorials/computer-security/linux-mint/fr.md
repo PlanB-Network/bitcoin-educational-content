@@ -39,7 +39,6 @@ Ma recommandation, si vous en avez les moyens et si la taille de votre portefeui
 - Les Chromebooks - souvent la capacité de stockage est trop faible
 - Tout ordinateur avec un disque eMMC ; s'il a un disque SSD, c'est parfait
 - Les Mac - ils sont chers et le matériel ne fonctionne pas bien avec les systèmes d'exploitation Linux d'après mon expérience
-- Tout ce qui est reconditionné ou d'occasion (ce n'est pas un critère absolu pour rejeter l'option)
   Au lieu de cela, recherchez un ordinateur portable Windows 11 (actuellement, Windows 11 est la dernière version. Nous nous débarrasserons de ce logiciel, ne vous inquiétez pas.). J'ai cherché sur amazon.com un "ordinateur portable Windows 11" et j'ai trouvé cet bon exemple :
   ![image](assets/1.webp)
 

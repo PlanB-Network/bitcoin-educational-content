@@ -1,5 +1,7 @@
 id: 03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
+last_update_date: 2024-08-31
+
 category: data
 
 level: beginner
@@ -33,7 +35,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.34
+    reward: 2.8
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -84,7 +86,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.34
+    reward: 2.8
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -94,7 +96,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.88
+    reward: 2.8
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -146,7 +148,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.34
+    reward: 2.8
   - language: bg
     last_contribution_date:
     urgency: 1

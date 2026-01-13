@@ -1,5 +1,7 @@
 id: 3a7f0377-1d95-4446-abe0-d7866a551455
 
+last_update_date: 2025-07-28
+
 credit_link: https://www.it-connect.fr/tuto-graylog-sur-debian-centraliser-et-analyser-logs/
 
 tags:
@@ -64,7 +66,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 24.15
+    reward: 17.28
   - language: id
     last_contribution_date: '2025-11-05'
     urgency: 1
@@ -80,7 +82,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 20.72
+    reward: 17.28
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -121,7 +123,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 20.72
+    reward: 17.28
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -151,7 +153,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 20.72
+    reward: 17.28
   - language: bg
     last_contribution_date:
     urgency: 1

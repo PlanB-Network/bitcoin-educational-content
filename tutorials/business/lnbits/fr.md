@@ -89,7 +89,7 @@ Pour les nœuds logiciels groupés, veuillez vous référer à leur documentatio
 
 ### LNbits SaaS
 
-Si vous n'êtes pas intéressé par les aspects techniques et que vous ne souhaitez pas héberger vous-même votre source de financement ou vos LNbits, il existe une [version LNbits SaaS](https://saas.lnbits.com) (Software-as-a-service) que vous pouvez utiliser. C'est en fait comme LNbits dans un nuage mais vous pouvez définir la source de financement (par exemple votre Node, un portefeuille LNbits, le LNtipbot, le faux portefeuille, etc) et les variables d'environnement vous-même - ce qui n'est généralement pas le cas sur d'autres solutions de nuage.
+Si vous n'êtes pas intéressés par les aspects techniques et que vous ne souhaitez pas héberger vous-même votre source de financement ou vos LNbits, il existe une [version LNbits SaaS](https://saas.lnbits.com) (Software-as-a-service) que vous pouvez utiliser. C'est en fait comme LNbits dans un nuage mais vous pouvez définir la source de financement (par exemple votre Node, un portefeuille LNbits, le LNtipbot, le faux portefeuille, etc) et les variables d'environnement vous-même - ce qui n'est généralement pas le cas sur d'autres solutions de nuage.
 
 [Voici un guide détaillé sur l'utilisation de LNbits SaaS pour des cas d'utilisation spécifiques](https://darthcoin.substack.com/p/lnbits-saas-a-solution-for-schools).
 

@@ -1,0 +1,9 @@
+question: What was the name of the instant foreign exchange service created by Gareth Nelson and Charlie Shrem in 2011 to facilitate deposits to foreign exchange platforms?
+answer: BitInstant
+wrong_answers:
+  - Instawallet
+  - Crypto X Change
+  - TrustCash
+explanation: |
+ This service solved the problem of slow international transfers to Mt. Gox by acting as an intermediary, transferring funds to exchange platforms once received in the country of origin. BitInstant opened its doors to the public on August 23, 2011 and quickly became popular, transferring $1.2 million by January 2012.
+reviewed: false

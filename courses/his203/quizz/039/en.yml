@@ -1,0 +1,9 @@
+question: What effect did the OP_EVAL operation code have on Bitcoin's internal programming system?
+answer: Execute a script within a script
+wrong_answers:
+  - Request participants' signatures
+  - Chop a script and compare the result with a supplied footprint
+  - Check that two values are equal
+explanation: |
+ It was described by Nicolas van Saberhagen, aka ByteCoin, who designs on the night of October 1 to 2, 2011. The opcode is executed at the end of the lock script to assess the validity of the supplied script, whose hash is compared with the given fingerprint.
+reviewed: false

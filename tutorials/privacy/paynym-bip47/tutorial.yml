@@ -1,5 +1,7 @@
 id: a492a70b-50eb-4f95-a766-bae2c5535093
 
+last_update_date: 2025-11-11
+
 category: on-chain
 
 level: advanced
@@ -66,7 +68,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 7.24
+    reward: 5.2
   - language: id
     last_contribution_date: '2025-12-29'
     urgency: 1
@@ -82,7 +84,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.22
+    reward: 5.2
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -112,7 +114,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.22
+    reward: 5.2
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -142,7 +144,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.22
+    reward: 5.2
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

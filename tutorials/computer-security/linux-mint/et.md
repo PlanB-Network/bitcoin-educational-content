@@ -39,7 +39,6 @@ Väldi:
 - Chromebookid – tihti on nende salvestusmaht liiga väike
 - Iga arvuti eMMC draiviga; Kui sellel on SSD draiv, siis see on ideaalne
 - Macid – need on kallid ja riistvara ei sobi minu kogemuse järgi hästi Linuxi operatsioonisüsteemidega
-- Kõik taastatud või teise ringi arvutid (kuigi see ei ole absoluutne tehingumurdja)
 
 Selle asemel otsi Windows 11 sülearvutit (Praegu on Windows 11 viimane väljalase. Me vabaneme sellest tarkvarast, ärge muretsege.). Ma otsisin amazon.com'ist "Windows 11 Laptop" ja leidsin selle hea näite:
 ![pilt](assets/1.webp)

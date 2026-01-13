@@ -99,7 +99,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.18
+    reward: 0.17
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -165,6 +165,11 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.15
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.17
 tags:
   - backup
   - keys

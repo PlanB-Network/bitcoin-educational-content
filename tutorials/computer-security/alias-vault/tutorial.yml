@@ -1,5 +1,7 @@
 id: 4e76c56a-537f-46bb-a2d0-5f0422fa49dc
 
+last_update_date: 2025-08-30
+
 level: intermediate
 
 category: authentication
@@ -68,7 +70,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.82
+    reward: 7.04
   - language: id
     last_contribution_date:
     urgency: 1
@@ -78,7 +80,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.43
+    reward: 7.04
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -108,7 +110,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.43
+    reward: 7.04
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -139,7 +141,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.43
+    reward: 7.04
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

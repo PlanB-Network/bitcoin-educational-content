@@ -1,5 +1,7 @@
 id: db96be11-100e-4257-b334-2f0bb9c4d063
 
+last_update_date: 2025-02-20
+
 professor_id: 614eb46b-3cca-46ef-b9ae-e726849e6d1d
 
 category: lightning-network
@@ -56,7 +58,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.36
+    reward: 4.48
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -71,7 +73,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.36
+    reward: 4.48
   - language: id
     last_contribution_date: '2025-12-29'
     urgency: 1
@@ -97,7 +99,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.24
+    reward: 4.48
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -149,7 +151,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.36
+    reward: 4.48
   - language: bg
     last_contribution_date:
     urgency: 1

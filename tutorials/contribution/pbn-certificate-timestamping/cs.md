@@ -66,7 +66,7 @@ Nejprve otevřete terminál ve složce, kde jsou soubory (kliknutím pravým tla
 1. Importujte veřejný PGP klíč Plan ₿ Academy pomocí následujícího příkazu:
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
 ```
 
 Pokud jste klíč PGP úspěšně importovali, měli byste vidět zprávu podobnou této

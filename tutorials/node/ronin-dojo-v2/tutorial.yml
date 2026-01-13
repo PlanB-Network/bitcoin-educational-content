@@ -1,4 +1,7 @@
 id: 0ddb3854-6f38-4466-b4e2-f66c028e0dd8
+
+last_update_date: 2024-09-01
+
 category: bitcoin
 
 level: advanced
@@ -53,7 +56,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 36.5
+    reward: 30.43
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -69,7 +72,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Henry-Da0
-    reward: 18.25
+    reward: 15.22
   - language: et
     last_contribution_date:
     urgency: 1
@@ -95,7 +98,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 42.57
+    reward: 30.43
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -147,7 +150,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 36.5
+    reward: 30.43
   - language: bg
     last_contribution_date:
     urgency: 1

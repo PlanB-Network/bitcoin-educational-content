@@ -1,5 +1,7 @@
 id: 55b9a5a5-d239-44d1-aedc-2dc6de14485c
 
+last_update_date: 2025-08-05
+
 level: advanced
 
 category: operating system
@@ -62,7 +64,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.2
+    reward: 10.17
   - language: id
     last_contribution_date:
     urgency: 1
@@ -72,7 +74,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.19
+    reward: 10.17
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -123,7 +125,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.19
+    reward: 10.17
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -143,7 +145,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.19
+    reward: 10.17
   - language: bg
     last_contribution_date:
     urgency: 1

@@ -1,5 +1,7 @@
 id: 8213b931-650f-4efd-8f4e-9a8ae5ce6295
 
+last_update_date: 2025-03-11
+
 category: content
 
 level: beginner
@@ -57,7 +59,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.14
+    reward: 1.8
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -72,7 +74,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.14
+    reward: 1.8
   - language: et
     last_contribution_date:
     urgency: 1
@@ -97,7 +99,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.48
+    reward: 1.8
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -149,7 +151,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.14
+    reward: 1.8
   - language: bg
     last_contribution_date:
     urgency: 1

@@ -716,7 +716,7 @@ Despite Satoshi's absence, Bitcoin continued to be developed: the history of Bit
 
 For some, Bitcoin is a defined as fungal entity like a [mycelium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), while others describe it as a [black hole](https://dergigi.com/). Love it or hate it, Bitcoin continues to exist, with its constant rhythm of 10 minutes per block, like the heartbeat of a new monetary system.
 
-To learn more about Satoshi Nakamoto's writings, we recommend reading ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) by Phil Champagne or the ARTE documentary "Le mystaire Satoshi".
+To delve deeper into the writings of Satoshi Nakamoto, I recommend reading [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) by Phil Champagne, which brings together and contextualizes his main texts, as well as the ARTE documentary [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), which offers an accessible and well-documented investigation into his identity and legacy.
 
 ![image](assets/en/044.webp)
 

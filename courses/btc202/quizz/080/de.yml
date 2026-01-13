@@ -1,4 +1,4 @@
-question: Was ist der Standardwert für den Parameter maxconnections in Bitcoin core?
+question: Was ist der Standardwert für den Parameter maxconnections in Bitcoin Core?
 answer: 125
 wrong_answers:
   - 10

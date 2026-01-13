@@ -1,5 +1,7 @@
 id: 74d0e415-825a-4e1f-bf3b-25deb4e459ef
 
+last_update_date: 2025-09-04
+
 level: beginner
 
 category: operating system
@@ -68,7 +70,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.26
+    reward: 3.07
   - language: id
     last_contribution_date:
     urgency: 1
@@ -78,7 +80,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.66
+    reward: 3.07
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -108,7 +110,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.66
+    reward: 3.07
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -139,7 +141,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.66
+    reward: 3.07
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

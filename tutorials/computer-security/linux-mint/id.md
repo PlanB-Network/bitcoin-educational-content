@@ -39,7 +39,6 @@ Hindari:
 - Chromebook – sering kali kapasitas penyimpanannya terlalu rendah
 - Komputer apa pun dengan drive eMMC; Jika memiliki drive SSD, itu sempurna
 - Mac – mereka mahal, dan perangkat kerasnya tidak cocok dengan sistem operasi Linux menurut pengalaman saya
-- Apa pun yang diperbaharui (refurbished) atau bekas (2nd hand) (meskipun bukan penghalang mutlak)
 
 Sebaliknya, carilah laptop Windows 11 (Saat ini Windows 11 adalah rilis terbaru. Kita akan menyingkirkan perangkat lunak itu, jangan khawatir.). Saya mencari di amazon.com untuk "Windows 11 Laptop" dan menemukan contoh yang baik ini:
 ![image](assets/1.webp)

@@ -716,7 +716,7 @@ centralmente come Napster, ma reti P2P pure come
 
 Per alcuni Bitcoin è definito un'entità fungina come un [micelio](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), mentre altri lo descrivono come un [buco nero](https://dergigi.com/). Che lo si ami o lo si odi, Bitcoin continua a esistere, con il suo ritmo costante di un blocco ogni 10 minuti, quasi fosse il battito del cuore di un nuovo sistema monetario.
 
-Per saperne di più sugli scritti di Satoshi Nakamoto, si consiglia la lettura di ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) di Phil Champagne o del documentario ARTE "Il mistero di Satoshi".
+Per approfondire gli scritti di Satoshi Nakamoto, consiglio la lettura di [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) di Phil Champagne, che raccoglie e contestualizza i suoi principali testi, nonché il documentario di ARTE [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), che propone un’indagine accessibile e ben documentata sulla sua identità e sul suo lascito.
 
 ![image](assets/it/044.webp)
 

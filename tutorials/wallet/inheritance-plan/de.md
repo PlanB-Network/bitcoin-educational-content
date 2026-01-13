@@ -424,7 +424,7 @@ Wählen Sie zunächst eine technische Lösung, die zu Ihrem Profil passt, testen
 
 
 
-- [Bitcoin Vorlage für einen Erbschaftsplan (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Plan ₿ Network Dokumentationsvorlage
+- [Bitcoin Vorlage für einen Erbschaftsplan (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Plan ₿ Academy Dokumentationsvorlage
 
 
 

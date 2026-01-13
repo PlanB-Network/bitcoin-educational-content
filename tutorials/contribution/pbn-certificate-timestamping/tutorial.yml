@@ -1,5 +1,7 @@
 id: dd16f8c0-00c1-45fd-8792-920612bed18f
 
+last_update_date: 2025-02-04
+
 category: others
 
 level: beginner
@@ -65,7 +67,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.17
+    reward: 1.83
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -86,7 +88,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Henry-Da0
-    reward: 1.09
+    reward: 0.91
   - language: zh-Hans
     last_contribution_date: 2025-05-14
     urgency: 1
@@ -97,7 +99,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.52
+    reward: 1.83
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -149,7 +151,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.17
+    reward: 1.83
   - language: bg
     last_contribution_date:
     urgency: 1

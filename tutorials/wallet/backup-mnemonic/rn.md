@@ -1,5 +1,5 @@
 ---
-name: Bika amajambo yawe Mnemonic
+name: Kubika ijambo ry'ibanga ryo kwibuka
 description: Tora uburyo bwiza bwo kurinda Bitcoin Wallet yawe.
 ---
 ![cover](assets/cover.webp)

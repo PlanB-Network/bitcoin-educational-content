@@ -420,7 +420,7 @@ Tuzokoresha *Blink* nk'akarorero, ariko *BTCPay Server* nayo itanga *Strike, Bre
 
 
 
-[Umugambi.ishure/ru/inyigisho/wallet/telefone ngendanwa/uguca ibibatsi-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd] (Umugambi.ishure/ru/inyigisho/wallet/telefone ngendanwa/uguca ibibatsi-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd)
+[Umugambi.ishure/ru/inyigisho/wallet/telefone ngendanwa/uguca ibibatsi-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd](Umugambi.ishure/ru/inyigisho/wallet/telefone ngendanwa/uguca ibibatsi-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd)
 
 
 
@@ -915,7 +915,7 @@ Imbere y'ikigeragezo ca nyuma, suzuma :
 
 - BitcoinSwitch Porogaramu nkuru: [ihindura ry'ibice.
 - Inyandiko za Serveri ya BTCPay : [inyandiko.serveri.org/](inyandiko.serveri.org/)
-- Blink API : [ubutumwa bw'imbere.sv/] (ubutumwa bw'iterambere.
+- Blink API : [ubutumwa bw'imbere.sv/](ubutumwa bw'iterambere.
 - ESP32 Pinout : [ivyigwa vy'ubuhinga.com/esp32-ivyigwa-vy'ubuhinga-gpios/]
 
 
@@ -929,7 +929,7 @@ Imbere y'ikigeragezo ca nyuma, suzuma :
 - Serveri ya BTCPay** : [ubutumwa.btcpayserver.org/) - Ikintu gihambaye kuruta ibindi vyose
 - Serveri ya BTCPay Telegram** : [t.me/serveri ya btcpay](https://t.me/serveri ya btcpay)
 - LNbits** : [ibice] - Telegram yemewe, umuryango ukora
-- BitcoinSwitch (ibibazo vya porogaramu)**: [ibibazo] (ibibazo)
+- BitcoinSwitch (ibibazo vya porogaramu)**: [ibibazo](ibibazo)
 
 
 

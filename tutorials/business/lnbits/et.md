@@ -2,9 +2,9 @@
 name: LNbits
 description: Kaupmehe raamatupidamisplatvorm
 ---
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
-# Raamatupidamissüsteem
+## Raamatupidamissüsteem
 
 LNbits on pakitud paljude vahenditega, et kontrollida ja suunata oma sissetulevaid ja väljaminevaid vahendeid, ühendada oma veebipood või isegi seadmed nagu riistvaraline rahakott või ATM, mille olete ise ehitanud. Kasutajatüüpide hulka kuuluvad:
 
@@ -15,7 +15,7 @@ LNbits on pakitud paljude vahenditega, et kontrollida ja suunata oma sissetuleva
 - Sõlmeoperaatorid, kes soovivad integreerida oma sõlme LNbits-süsteemiga raamatupidamise eesmärgil.
 - Kõigil neil on erinevad vajadused. Me ehitame LNbits'i modulaarselt, et iga kasutaja saaks meie funktsioone kasutada just endale sobival viisil.
 
-# Rahakoti haldur
+## Rahakoti haldur
 
 LNbits on vaba ja avatud lähtekoodiga raamatupidamissüsteem - mitte sõlmede haldur. Kanalihaldus on Lightning-sõlme valdkond, mis on ühendatud LNbitsiga kui rahastamisallikaga nagu LND või c-lightning. LNbits'i süsteemi superkasutajad või administraatorid vastutavad raamatupidamisfunktsioonide ja sisemiste laienduste üldise kättesaadavuse ja konfigureerimise eest.
 
@@ -29,11 +29,11 @@ Pakute neile lihtsat võimalust avada "pangakonto" oma sõlmes, ilma et neil ole
 
 MÄRKUS: kõik rahalised vahendid, mida teie "kliendid" hoiavad oma LNbits pangakontodele teie sõlmes, lähevad otse teie sõlme LN kanalitesse. See tähendab, et SINA oled tegelikult nende vahendite tegelik omanik. Teil on suur vastutus nende vahendite eest. Ärge olge kurjad ja ärge põgenege rahaliste vahenditega, ärge olge kurjad ja ärge võtke kõrgeid tasusid. Me tahame fuck fiat banksters, mitte fuck üksteist (bitcoin kasutajad).
 
-# Demo platvorm
+## Demo platvorm
 
 Demo on leitav aadressil [https://legend.lnbits.com](https://legend.lnbits.com). See on täielikult toimiv ja seda saab kasutada Lightning Networki ning LNbits'i ja LNURLi funktsioonide tundmaõppimiseks üldiselt. Kuigi me ei saa seda takistada, palume teil seda mitte kasutada oma tootmisseadistuses. Me mitte ainult ei tööta sageli serverite kallal, et testida uusi funktsioone, vaid soovime ka julgustada teid oma sõlme ja LNbits'i suveräänselt käivitama. Kui te arvate, et oma sõlme käitamine on hetkel liiga palju küsitud, võite ühendada LNbits'i pilves asuva custodian funding sservice'iga nagu Opennode, Luna või Votage või Lightning Tipbot'iga Telegramis, et nimetada vaid mõned.
 
-# LNbits flaier
+## LNbits flaier
 
 Tahate anda mõne põhiinfo kaupmehele või ehitussõbrale üle ? Meil on väga hea meel teatada oma esimesest flaierist, mida igaüks saab kasutada. Suurus on ülemaailmselt tüüpiline flaierformaat 6 leheküljega (2 korda) ja laius 3508 ja kõrgus 2480px.
 
@@ -41,7 +41,7 @@ LNbits kaupmeeste jaoks: [EN](/assets/lnbits-merchants-en.pdf) | [DE](/assets/ln
 
 LNbits ehitajatele: [EN](/assets/lnbits-builders-en.pdf) | [DE](/assets/lnbits-builders-de.pdf) | [ES](/assets/lnbits-builders-es.pdf) | [IT](/assets/lnbits-builders-it.pdf) | [PL](/assets/lnbits-builders-pl.pdf)
 
-# Mõned põhitõed
+## Mõned põhitõed
 
 LNbits töötab LNURL-protokolli alusel, mis tähendab, et päringud kehtivad kahes vormis: kas https://clearnet link (isesigneeritud sertifikaadid ei ole lubatud) või http://v2/v3 onion link. Selleks, et pakkuda LNbits'i teenuseid, nagu LNURLp/w QR-koodid või NFC-kaardid, mida saab kasutada looduses, tuleb LNbits avada clearnetile (https).
 
@@ -66,9 +66,9 @@ Enne LNbits'i paigaldamist veenduge, et olete lugenud ja mõistnud järgmisi ül
 - [Alusta oma NOSTR turgu LNbitsiga](https://darthcoin.substack.com/p/lnbits-nostr-market) | Substack guide
 - [LNbits'i kasutamine koolide projektides või festivalidel](https://darthcoin.substack.com/p/lnbits-saas-a-solution-for-schools) Substack juhend
 
-# Paigaldage LNbits
+## Paigaldage LNbits
 
-## Põhiline paigaldusjuhend
+### Põhiline paigaldusjuhend
 
 LNbits'i saab paigaldada mis tahes Linux OS masinale. See ei nõua võimsat masinat või serverit, vaid lihtsalt piisavalt RAM-mälu ja veidi kettaruumi andmebaasi jaoks. Seda saab käivitada eraldi BTC/LN-sõlmest (kohalik arvuti või kaug-VPS) või koos sõlme või juba paigaldatud komplektsesse sõlme tarkvaraga masinasse.
 
@@ -87,13 +87,13 @@ Samuti leiate video [dockerised Setup on a VPS koos PostgreSQ, LightningTipBot k
 
 Komplektide tarkvarasõlmede puhul vaadake nende spetsiifilist dokumentatsiooni LNbits'i kohta: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
-## LNbits SaaS
+### LNbits SaaS
 
 Kui te ei ole huvitatud tehnilistest asjadest ega soovi ise oma rahastamisallikat ega lnbits'i hallata, siis on olemas [LNbits SaaS versioon](https://saas.lnbits.com) (Software-as-a-service), mida saate kasutada. See on põhimõtteliselt nagu LNbits pilves, kuid te saate ise määrata rahastamisallika (nt oma Node, LNbits'i rahakott, LNtipbot, fakewallet jne) ja keskkonnamuutujad - mida teiste pilvelahenduste puhul enamasti ei ole.
 
 [Siin on üksikasjalik juhend, kuidas kasutada LNbits SaaSi konkreetsete kasutusjuhtumite puhul](https://darthcoin.substack.com/p/lnbits-saas-a-solution-for-schools).
 
-## Rahastamisallikad
+### Rahastamisallikad
 
 LNbits ei ole sõlme haldustarkvara, vaid LN-keskne raamatupidamissüsteem LND või CLN rahastamisallika peal. Pärast esimest paigaldamist saate oma LNbits'i külastada aadressil http://localhost:5000/.
 
@@ -113,7 +113,7 @@ Backend rahakoti (rahastamisallikas) saab konfigureerida, kasutades järgmisi LN
 
 Kui soovite kasutada .env-versiooni, leiate parameetrid siit:
 
-### CoreLightning
+#### CoreLightning
 
 
 - CLN
@@ -124,7 +124,7 @@ Kui soovite kasutada .env-versiooni, leiate parameetrid siit:
   - `SPARK_URL`: http://10.147.17.230:9737/rpc
    - `SPARK_TOKEN`: secret_access_key
 
-### Lightning Network Daemon
+#### Lightning Network Daemon
 
 
 - LND (REST)
@@ -147,7 +147,7 @@ Selle asemel võite kasutada ka AES-krüpteeritud makrooni (rohkem infot), kasut
 
 Makaronide krüpteerimiseks käivitage `./venv/bin/python lnbits/wallets/macaroon/macaroon/macaroon.py`.
 
-### LNbits (teine LNbits'i instants)
+#### LNbits (teine LNbits'i instants)
 
 
 - LNbits'i instants, mis asub pilveserveris või teie enda koduserveris
@@ -159,7 +159,7 @@ Makaronide krüpteerimiseks käivitage `./venv/bin/python lnbits/wallets/macaroo
   - `LNBITS_ENDPOINT`: https://legend.lnbits.com
   - `LNBITS_KEY`: legend-lnbits-AdminKey
 
-### Välk TipBot
+#### Välk TipBot
 
 Selleks, et ühendada oma [Lightning Tipbot](https://t.me/LightningTipBot) Telegramist, peate seadistama järgmise parameetri:
 
@@ -170,13 +170,13 @@ Selleks, et ühendada oma [Lightning Tipbot](https://t.me/LightningTipBot) Teleg
 
 Vaata ka seda õpetust, kuidas paigaldada [LNbits koos LightningTipBotiga vps kaudu](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)
 
-### IBEX HUB
+#### IBEX HUB
 
 Registreeru [siin](https://ibexpay.ibexmercado.com/onboard) ja saad sealt oma võtmed/tokumendid, lõpp-punkt on https://ibexpay-api.ibexmercado.com.
 
 Rohkem infot vt [IBEX API-dokumentatsioon](https://ibexpay-api.readme.io/reference/getting-started-with-your-api).
 
-### LNPay
+#### LNPay
 
 Selleks, et arve kuulaja töötaks, on teil LNbitsis avalikult ligipääsetav URL ja te peate looma [LNPay webhook](https://dashboard.lnpay.co/webhook/), mis osutab `<oma LNbits host>/wallet/webhook` sündmusega "Wallet Receive" ja ilma saladuseta. Seadistus `https://mylnbits/wallet/webhook` on lõpp-punkti url, mida teavitatakse igast maksest.
 
@@ -186,7 +186,7 @@ Selleks, et arve kuulaja töötaks, on teil LNbitsis avalikult ligipääsetav UR
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
-### OpenNode
+#### OpenNode
 
 Selleks, et arve toimiks, peab teie LNbitsis olema avalikult ligipääsetav URL-aadress. Veebikonksu seadistus on vabatahtlik.
 
@@ -195,7 +195,7 @@ Selleks, et arve toimiks, peab teie LNbitsis olema avalikult ligipääsetav URL-
   - `OPENNODE_API_ENDPOINT`: https://api.opennode.com/
   - `OPENNODE_KEY`: opennodeAdminApiKey
 
-### Alby
+#### Alby
 
 Alby on brauseripikendus, millel on LN rahakoti funktsioonid ja LNDHUBi konto, mida saab kasutada LNbitside rahastamisallikana. [Täpsemalt siin](https://getalby.com/).
 
@@ -206,11 +206,11 @@ Selleks, et arve toimiks, peab teil olema avalikult ligipääsetav URL-aadress L
 - `ALBY_API_ENDPOINT`: https://api.getalby.com/
 - `ALBY_ACCESS_TOKEN`: AlbyAccessToken
 
-## Täiendavad / tõrkeotsingu juhendid
+### Täiendavad / tõrkeotsingu juhendid
 
 Siin on mõned täiendavad juhised juhuks, kui teil on neid vaja. Klõpsake noolele, et laiendada kirjeldust.
 
-### The Killswitch 🚨
+#### The Killswitch 🚨
 
 Viimasel ajal on olnud nii palju ohtlikke vigu mitte ainult kogu kosmoses, vaid ka LNbitsis, et otsustasime midagi ette võtta. Nüüd saate valida hoiatuste ja/või otseste meetmete võtmise, kui haavatavus või viga, mis võib viia raha kaotamiseni, uuesti esineb.
 
@@ -220,11 +220,11 @@ Kui lülitatakse void-walletile, näevad kõik kasutajatüübid instantsil kolla
 
 Kuidas see toimib ? Kui killswitch on sisse lülitatud, kontrollitakse X-minutilise intervalliga (mida saab määrata) salajast githubi repositooriumi, mis on kättesaadav ainult LNbits'i tuumikmeeskonnale. Kui selles repositooriumis avaldatakse haavatav viga, on see signaaliks, mis käivitab killswitch'i kõikides installatsioonides, mis on selle tellinud, ja muudab teie lnbits'i instantsi tühja rahakoti kasutamiseks. Kui pilved on puhastatud ja te olete paigaldanud turvavärskenduse, saate oma rahastamisallikaks määrata oma sõlme, rahakoti või mida iganes te kasutate, uuesti ka jaotise Manage Server kaudu. Selles wikis on jaotis rahastamisallikate vahetamise kohta, kui te ei tea, mida seadistada.
 
-### Erinevus administraatori ja superkasutaja vahel
+#### Erinevus administraatori ja superkasutaja vahel
 
 LNbits Admin UI võimaldab teil muuta LNbits'i seadeid LNbits'i kasutajaliidese kaudu. See on vaikimisi välja lülitatud ja kui te esimest korda seadistate failis `.env` muutuja `LNBITS_ADMIN_UI=true`, siis seaded initsialiseeritakse ja neid hakatakse kasutama. Edaspidi kasutatakse andmebaasi vastavaid seadistusi .env faili asemel.
 
-### Super kasutaja
+#### Super kasutaja
 
 Koos Admin UI me kasutusele super kasutaja, mis on juurdepääs server nii saab muuta seadeid, mis võib krahhi server või teha seda reageerimata kaudu frontend ja api, nagu nt muutes rahastamise allikas. Superkasutaja on salvestatud ainult andmebaasi seadete tabelis. Pärast seadete "lähtestamist" ja taaskäivitamist luuakse uus superkasutaja. Samuti lisasime API marsruutidele dekoraatori, et kontrollida superkasutajate olemasolu. Selle ID-d ei saadeta kunagi üle api ja frontend ja saab ainult bool (jah/ei), kas olete super kasutaja või mitte.
 
@@ -234,15 +234,15 @@ Samuti saate veebikonksu kaudu postitada superkasutajat teise teenusesse, kui se
 
 Frontendist leiate ka võimaluse muuta poe pilti, mis kuvatakse "loo rahakott" lehel, avades jaotise Manage Server ja valides Theme -> Custom Logo.
 
-### Administraatori kasutajad
+#### Administraatori kasutajad
 
 Keskkonna muutuja: lNBITS_ADMIN_USERS, komadega eraldatud kasutajatunnuste nimekiri: `LNBITS_ADMIN_USERS`. Administraatorikasutajad saavad muuta seadistusi admin ui's - välja arvatud rahastamisallikate seaded, sest see nõuaks serveri taaskäivitamist ja võib muuta serveri ligipääsmatuks. Samuti on neil juurdepääs kõikidele neile määratud laiendustele, mis on kirjas `LNBITS_ADMIN_EXTENSIONS`.
 
-### Lubatud kasutajad
+#### Lubatud kasutajad
 
 Keskkonna muutuja: lNBITS_ALLOWED_USERS, komadega eraldatud kasutajate ID-de nimekiri. Nende kasutajate määratlemisel ei ole LNbits enam avalikult kasutatav. Ainult määratletud kasutajad ja administraatorid saavad seejärel LNbits'i frontendile ligi.
 
-#### LNbits'i ajakohastamine
+##### LNbits'i ajakohastamine
 
 LNbits'i kohaliku instantsi tavaline uuendamine toimub lihtsalt järgmiste CLI käskude kopeerimise ja kleepimise teel:
 
@@ -275,7 +275,7 @@ git pull upstream main
 sudo ~/scripts/app start lnbits
 ```
 
-#### SQLite'i migratsioon PostgreSQL-i
+##### SQLite'i migratsioon PostgreSQL-i
 
 Kui LNbits on juba paigaldatud ja töötab SQLite'i andmebaasis, soovitame tungivalt üle minna postgres'ile, kui kavatsete LNbits'i kasutada mastaapselt.
 
@@ -296,11 +296,11 @@ make migration
 
 Loodetavasti töötab nüüd kõik ja saab migreeritud... Käivitage LNbits uuesti ja kontrollige, kas kõik töötab korralikult.
 
-#### Andmebaasi varundamine ja taastamine
+##### Andmebaasi varundamine ja taastamine
 
 Palun lugege [seda väga üksikasjalikku juhendit varundamise ja taastamise protsessi kohta](https://ereignishorizont.xyz/lnbits-server/en/#94_LNbits_-_Databases_Backup_Restore).
 
-#### Minu LNbits'i rahakoti rahastamine minu sõlme kaudu ei toimi
+##### Minu LNbits'i rahakoti rahastamine minu sõlme kaudu ei toimi
 
 Kui soovite saata sati samast sõlmest, mis on teie LNbiti rahastamisallikaks, peate muutma faili lnd.conf.
 
@@ -310,7 +310,7 @@ Palun tehke seda oma lnd.conf-i jaotises Application options. Mõnes kimbu sõlm
 
 MÄRKUS: LNbits'i kontole raha lisamiseks on soovitatav kasutada uut adminUI laiendust koos valikuga "TopUp".
 
-#### Viga 426
+##### Viga 426
 
 Ma sain vea: "lnurl tuleb edastada üle avalikult ligipääsetava https-domeeni või tor. 426 upgrade required"</summary>
 
@@ -325,7 +325,7 @@ RequestHeader set "X-Forwarded-Proto" expr=%{REQUEST_SCHEME}
 RequestHeader set "X-Forwarded-SSL" expr=%{HTTPS}
 ```
 
-#### Võrgu viga
+##### Võrgu viga
 
 Ma sain "https error", võrguviga" või muud, kui ma skaneerin QR</summary>
 
@@ -337,25 +337,25 @@ LNbits töötab ainult Tori kaudu, sa ei saa seda avada avalikus domeenis nagu l
 - Arvestades, et soovite, et teie seadistus jääks selliseks, avage oma LNbits'i rahakott, kasutades .onion URI-d ja looge see uuesti. Sel moel luuakse QR, mis on kättesaadav selle .onion URI kaudu, seega ainult tor'i kaudu. Ärge genereerige seda QR-i .local URI-st, sest see ei ole Interneti kaudu kättesaadav - ainult oma koduse LANi kaudu.
 - Avage oma LN rahakoti rakendus, mida kasutasite selle QR-koodi skannimiseks, ja kasutage seekord tor'i (vt rahakoti rakenduse seaded). Kui rakendus ei paku tor'i, võite selle asemel kasutada Orbot (Android). Vaata paigaldamise jaotises üksikasjalikke juhiseid, kuidas avada oma LNbits clearnet/https jaoks.
 
-#### Vältida teiste rahakottide genereerimist minu LNbitsidel
+##### Vältida teiste rahakottide genereerimist minu LNbitsidel
 
 Kui te käivitate oma LNbits clearnetis põhimõtteliselt igaüks saab luua rahakoti selle kohta. Kuna teie sõlme rahalised vahendid on seotud nende rahakottidega, siis võiksite seda vältida. Selleks on kaks võimalust:
 
 Konfigureeri lubatud kasutajad ja laiendused failis `.env` ([vaata env näide siit](https://github.com/lnbits/lnbits/blob/main/.env.example)). See toimib ainult siis, kui kasutate .env failis seadistust `adminUI=FALSE`, muidu peate seda tegema jaotises Manage Server -> Users -> Allowed Users. Kõiki teisi ei lubata pärast seda.
 
-#### Kohandada arve aegumise aega
+##### Kohandada arve aegumise aega
 
 Nüüd saate koostada kohandatud kehtivusajaga arveid. Ühildub backendidega: LndRestWallet, LndWallet, CoreLightningWallet, EclairWallet, LnbitsWallet, SparkWallet siiani: LndRestWallet, LndWallet, CoreLightningWallet, EclairWallet, LnbitsWallet, SparkWallet!
 
 Saate määrata `LIGHTNING_INVOICE_EXPIRY` oma .env failis või kasutada AdminUI-d, et muuta kõigi arvete vaikeväärtust. Samuti on uus väli /api/v1/payments lõpp-punktis, kus saate määrata JSON-andmetes aegumistähtaega.
 
-## Wallet-URL välja jäetud
+### Wallet-URL välja jäetud
 
-### Rahakott demo serveril legend.lnbits
+#### Rahakott demo serveril legend.lnbits
 
 Salvesta alati oma rahakoti-URL-i, Export2phone-QR-i või LNDhub-i koopia oma rahakoti jaoks turvalisse kohta. LNbits EI AITA teid nende kaotamise korral taastada.
 
-### Rahakott oma rahastamisallikas/sõlm
+#### Rahakott oma rahastamisallikas/sõlm
 
 Salvesta alati oma rahakoti-URL-i, Export2phone-QR-i või LNDhub-i koopia oma rahakoti jaoks turvalisse kohta. Kõik LNbits'i kasutajad ja rahakoti-IDd leiad LNbits'i kasutajahalduri laiendusest või sqlite'i andmebaasist. LNbits'i andmebaasi muutmiseks või lugemiseks minge LNbits'i /data kausta ja otsige fail nimega sqlite.db. Saate seda avada ja redigeerida Exceliga või spetsiaalse SQL-redaktoriga nagu [SQLite browser](https://sqlitebrowser.org/).
 
@@ -385,11 +385,11 @@ Seejuures asendate f8a43fc363ea428db5c53b3559935f1f nime ees oleva väärtusega 
 .quit
 ```
 
-#### LNURL jaoks välk-aadressi vastupidi
+##### LNURL jaoks välk-aadressi vastupidi
 
 Proovi seda [kodeerijat](https://lnurl-codec.netlify.app/) fiatjafilt või [seda](https://lightningdecoder.com/). LNURLp maksmiseks või kontrollimiseks võite samuti kasutada [LNurlpay](https://wwww.lnurlpay.com/). Seal peaks olema märgitud HTTPS EI HTTP.
 
-#### Konfigureeri kommentaar, mida inimesed näevad, kui nad maksavad minu LNURLp QR-le
+##### Konfigureeri kommentaar, mida inimesed näevad, kui nad maksavad minu LNURLp QR-le
 
 LNURL-p loomisel ei täideta vaikimisi kommentaari kasti. See tähendab, et kommentaaride lisamine maksetele ei ole lubatud.
 
@@ -397,15 +397,15 @@ Kommentaaride lubamiseks lisage kasti tähemärkide pikkus 1 kuni 250. Kui panet
 
 ![lnbits comments](assets/lnbits-comments.webp)
 
-#### Deponeeri onchain BTC LNbits'ile
+##### Deponeeri onchain BTC LNbits'ile
 
 On kaks võimalust vahetada satsid onchain BTC-st LN BTC-ks (või LNbitsiks).
 
-##### Välise vahetusteenuse kaudu.
+###### Välise vahetusteenuse kaudu.
 
 Teised kasutajad, kellel ei ole juurdepääsu teie LNb-le, saavad kasutada vahetusteenust nagu [Boltz](https://boltz.exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) või [ZigZag](https://zigzag.io/). See on kasulik, kui te esitate oma LNbits'i instantsist ainult LNURL/LN-arveid, kuid maksjal on ainult onchain-satid, nii et ta peab need satsid kõigepealt omalt poolt vahetama. Protseduur on lihtne: kasutaja saadab swapteenusele onchain btc ja annab swapi sihtkohaks LNURL/LN arve LNbitsilt.
 
-##### Kasutades Onchaini ja Boltzi LNbiti laiendust.
+###### Kasutades Onchaini ja Boltzi LNbiti laiendust.
 
 Pidage meeles, et see on eraldi rahakott, mitte LN btc, mida LNbits esindab kui "teie rahakotti" teie LN rahastamisallikas. Seda onchain rahakotti saab kasutada ka LN btc vahetamiseks (nt teie hardwarewallet), kasutades LNbits Boltz või Deezy laiendust. Kui teil on veebipood, mis on seotud teie LNbitsiga LN maksete jaoks, on väga mugav regulaarselt tühjendada kõik satsid LN-ist onchaini. See toob kaasa rohkem ruumi teie LN-kanalites, et saaksite uusi värskeid sats'e vastu võtta.
 
@@ -441,13 +441,13 @@ Seda tehes soovitame määrata LN-võrgu URI ka teie enda sõlme URI-ks. Kui tei
 
 Kui teil ilmneb viga "toetamata hash-tüüp", kui kasutate ypubi On-chain laienduses, kontrollige, kas teie LNbits kasutab python 3.10, see võib olla mõjutatud [sellest probleemist](https://stackoverflow.com/questions/72409563/unsupported-hash-type-ripemd160-with-hashlib-in-python). Muuda openssl.cnf nagu kirjeldatud stackoverflow'i vastuses ja käivita oma LNbits uuesti.
 
-## Tööriistade valmistamine ja ehitamine LNbitsiga
+### Tööriistade valmistamine ja ehitamine LNbitsiga
 
 LNbitsil on igasuguseid [avatud APIsid](https://legend.lnbits.com/docs) ja vahendeid, et programmeerida ja ühendada palju erinevaid seadmeid, mis on mõeldud tuhandete eri kasutusviiside jaoks.
 
 Kui te olete uus ehitamine alustada selle [MakerBits esitlused](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) Ben Arc umbes hoone vidinaid põhineb LNbits.
 
-### TÄHELEPANU:
+#### TÄHELEPANU:
 
 
 - LNbits töötab LNURL-protokolli alusel, mille taotlused kehtivad kahel kujul: kas https://clearnet link (isesigneeritud sertifikaadid ei ole lubatud) või http://v2/v3 sibulalink. Selleks et pakkuda LNbits'i teenuseid, nagu LNURLp/w QR-koodid või NFC-kaardid, mida saab kasutada looduses, tuleb LNbits avada clearnetile (https).

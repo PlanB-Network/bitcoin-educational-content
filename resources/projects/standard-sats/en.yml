@@ -1,0 +1,6 @@
+description: |
+  Standard Sats is a Bitcoin technology and financial company focused on building solutions that advance Bitcoin's use as an everyday medium of exchange (money). We are equally developing infrastructure that will serve as the bedrock, the foundation for future Bitcoin-backed banking.
+  
+  One example of the background infrastructure we build is Fiat channels, a modification of the Hosted channels of the Lightning Network implementation. Fiat channels enable the creation of Bitcoin derivatives right on the Lightning Network. With Fiat channels, we have demonstrated the creation of stable fiat currency assets, where Sats are the underlying assets being exchanged, and this is currently live on our flagship wallet software, Valet. Such Fiat channels protocol is completely free and open-sourced.
+
+  Standard Sats was founded in 2021 and is currently headquartered in Berlin, Germany.

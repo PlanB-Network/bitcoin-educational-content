@@ -3,7 +3,7 @@ name: White Noise
 description: En privat, desentralisert meldingsapplikasjon basert på Nostr- og MLS-protokollene
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 
@@ -53,16 +53,17 @@ Her er en rask sammenligning mellom White Noise og en rekke av de mest kjente me
 
 
 
-| Points de comparaisons      | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
-| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
-| Chiffrement E2EE / 1:1      | ✅ Oui       | Facultatif | ✅ Oui           | ✅ Oui   | ✅ Oui    | ✅ Oui            | ✅ Oui  |
-| Chiffrement de groupe E2EE  | ✅ Oui       | ❌ Non      | ✅ Oui           | ✅ Oui   | ✅ Oui    | Facultatif       | ✅ Oui  |
-| Anonymisation de l'identité | ✅ Oui       | Facultatif | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Serveur open source         | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Client open source          | ✅ Oui       | ✅ Oui      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Serveur décentralisé        | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Année de création           | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
+
+| Sammenligningspunkter       | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| E2EE-kryptering / 1:1       | ✅ Ja         | Valgfritt  | ✅ Ja             | ✅ Ja    | ✅ Ja     | ✅ Ja              | ✅ Ja   |
+| Gruppe-E2EE-kryptering      | ✅ Ja         | ❌ Nei      | ✅ Ja             | ✅ Ja    | ✅ Ja     | Valgfritt         | ✅ Ja   |
+| Anonymisering av identitet  | ✅ Ja         | Valgfritt  | ❌ Nei            | ✅ Ja    | ❌ Nei    | ❌ Nei             | ❌ Nei  |
+| Åpen kildekode-server       | ✅ Ja         | ❌ Nei      | ❌ Nei            | ✅ Ja    | ❌ Nei    | ❌ Nei             | ✅ Ja   |
+| Åpen kildekode-klient       | ✅ Ja         | ✅ Ja        | ❌ Nei            | ✅ Ja    | ❌ Nei    | ❌ Nei             | ✅ Ja   |
+| Desentralisert server       | ✅ Ja         | ❌ Nei      | ❌ Nei            | ✅ Ja    | ❌ Nei    | ❌ Nei             | ❌ Nei  |
+| Opprettelsesår              | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
 ## Kom i gang med White Noise
 
@@ -72,7 +73,7 @@ Her er en rask sammenligning mellom White Noise og en rekke av de mest kjente me
 
 
 
-Gå til [White Noise-nettstedet] (https://www.whitenoise.chat/), og klikk deretter på **Last ned**.
+Gå til [White Noise-nettstedet](https://www.whitenoise.chat/), og klikk deretter på **Last ned**.
 
 
 

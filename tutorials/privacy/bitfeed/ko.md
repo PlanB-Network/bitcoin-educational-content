@@ -11,7 +11,7 @@ description: 주요 Bitcoin 프로토콜 체인을 살펴보세요.
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 이 튜토리얼에서는 네트워크의 모든 트랜잭션과 블록을 탐색할 수 있는 이 도구를 살펴보겠습니다.
 
@@ -95,7 +95,7 @@ https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43c
 
 
 
-https://planb.academy/courses/obtenir-ses-premiers-bitcoins-f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 기본적으로 블록의 트랜잭션은 두 가지 기준에 따라 표시됩니다:
 

@@ -31,7 +31,7 @@ Onder de ondersteunde portemonnees vinden we:
 
 
 
-Of elke wallet die een "Lightning Address" heeft en een Bolt11 factuur genereert. wallets die generate een Bolt12 factuur genereren worden momenteel niet ondersteund. Zie voor meer informatie de definitie van [Bolt] (https://planb.academy/resources/glossary/bolt).
+Of elke wallet die een "Lightning Address" heeft en een Bolt11 factuur genereert. wallets die generate een Bolt12 factuur genereren worden momenteel niet ondersteund. Zie voor meer informatie de definitie van [Bolt](https://planb.academy/resources/glossary/bolt).
 
 
 
@@ -97,7 +97,7 @@ Kies nu hoe je het platform wilt bereiken.
 
 
 - [BitcoinVoucherBot](https://t.me/BitcoinVoucherBot?start=55360009) (Telegram)
-- [Pc Desktop / Browser Smartphone] (https://p2p.bitcoinvoucher.bot/?ref=55360009)
+- [Pc Desktop / Browser Smartphone](https://p2p.bitcoinvoucher.bot/?ref=55360009)
 - [Tor .Onion](http://umembxtpokml6fkogemcfnpyt3qqvyw6u3hnvwinevo3gvoe6j7vfyad.onion/?ref=55360009)
 
 

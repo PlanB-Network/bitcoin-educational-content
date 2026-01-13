@@ -22,7 +22,7 @@ Au milieu de toutes ces solutions, il y a Swiss Bitcoin Pay qui semble être un 
 
 Accepter le bitcoin comme moyen de paiement offre de nombreux avantages pour votre entreprise. Premièrement, le bitcoin fonctionne un peu comme de l'argent liquide, mais sans les inconvénients de l'argent liquide. Comme pour le cash, les bitcoins reçus en paiement ne nécessitent pas de passer par le circuit bancaire traditionnel. Il s'agit d'une transaction peer-to-peer directe de votre client à vous-même, à moins que vous n'utilisiez un intermédiaire de paiement.
 
-De plus, un paiement en bitcoin offre une finalité instantanée avec Lightning et prend seulement quelques minutes dans le cas d'un paiement onchain. Une fois confirmé, il n'est pas possible d'annuler un paiement en bitcoins. Si vous optez pour la self custody, vous contrôlez directement vos bitcoins, ce qui renforce encore l'autonomie financière de votre commerce.
+De plus, un paiement en bitcoin offre une finalité instantanée avec Lightning et prend seulement quelques minutes dans le cas d'un paiement on chain. Une fois confirmé, il n'est pas possible d'annuler un paiement en bitcoins. Si vous optez pour la self custody, vous contrôlez directement vos bitcoins, ce qui renforce encore l'autonomie financière de votre commerce.
 
 Avec le bitcoin, vous réaliserez également des économies significatives sur les commissions et les frais bancaires. Utiliser Bitcoin élimine le besoin d'acheter ou de louer un terminal de paiement ; un ordinateur ou un simple smartphone suffit. De plus, en acceptant directement les paiements en bitcoins, vous éviterez les commissions habituellement prélevées sur les transactions. Même si vous passez par un intermédiaire pour le traitement des paiements, les frais associés aux transactions en bitcoins sont généralement bien inférieurs à ceux des banques traditionnelles.
 
@@ -56,7 +56,7 @@ Cliquez sur le bouton "*Dashboard*".
 ![SWISS BITCOIN PAY](assets/notext/02.webp)
 Cliquez sur le bouton "*Sign up*".
 ![SWISS BITCOIN PAY](assets/notext/03.webp)
-Choisissez un nom pour votre compte. Cela peut être le nom commercial de votre entreprise (c'est ce nom qui apparaitra sur le portefeuille de vos clients dans leur historique de transactions).
+Choisissez un nom pour votre compte. Cela peut être le nom commercial de votre entreprise (c'est ce nom qui apparaîtra sur le portefeuille de vos clients dans leur historique de transactions).
 ![SWISS BITCOIN PAY](assets/notext/04.webp)
 Renseignez une adresse email.
 ![SWISS BITCOIN PAY](assets/notext/05.webp)
@@ -102,7 +102,7 @@ Lors de la première ouverture, cliquez sur le bouton "*Scanner le code QR d'act
 ![SWISS BITCOIN PAY](assets/notext/20.webp)
 Scannez le QR code présent sur votre dashboard.
 ![SWISS BITCOIN PAY](assets/notext/21.webp)
-Vous êtes maintenant connecté au système PoS en tant qu'employé, ce qui signifie que cette machine est uniquement autorisée à encaisser les paiements sans avoir la capacité de modifier les paramètres de votre compte d'entreprise.
+Vous êtes maintenant connectés au système PoS en tant qu'employé, ce qui signifie que cette machine est uniquement autorisée à encaisser les paiements sans avoir la capacité de modifier les paramètres de votre compte d'entreprise.
 ![SWISS BITCOIN PAY](assets/notext/22.webp)
 Si vous le souhaitez, vous pouvez modifier le nom du PoS qui apparaît lors des encaissements dans votre compte administrateur. Vous pouvez nommer le terminal selon son emplacement spécifique (par exemple, "*Bar Mezzanine*", "*Service Drive*", "*Chef de Rang Carré n°3*", "*Commis de Salle n°2*", "*Caisse n°7*", "*Terrasse*", "*Caisse Express*", "*Réception*", "*Conciergerie*", "*Spa/Bien-être*"...) ou selon le nom de l'employé qui l'utilise. Pour ce faire, cliquez sur le nom actuel du PoS situé sous le nom de l'entreprise en haut de l'écran.
 ![SWISS BITCOIN PAY](assets/notext/23.webp)
@@ -156,7 +156,7 @@ Dans l'onglet "*Recurring*", vous pouvez planifier des exports automatiques réc
 ![SWISS BITCOIN PAY](assets/notext/45.webp)
 Enfin, renseignez l'adresse email où sera envoyé le rapport. Vous pouvez par exemple renseigner directement l'adresse email de votre comptable. Cliquez sur le bouton "*Save*" pour enregistrer cet export programmé.
 ![SWISS BITCOIN PAY](assets/notext/46.webp)
-L'onglet invoice vous permet de générer une facture pour un paiement ponctuel.
+L'onglet _invoice_ vous permet de générer une facture pour un paiement ponctuel.
 ![SWISS BITCOIN PAY](assets/notext/47.webp)
 Dans l'onglet "*Limits & verification*", vous pouvez consulter vos limites d'encaissement quotidiennes et annuelles. Vous avez également la possibilité de réaliser une vérification d'identité afin de débloquer des limites plus élevées.
 ![SWISS BITCOIN PAY](assets/notext/48.webp)

@@ -102,7 +102,7 @@ Heritage Desktop è un'applicazione grafica con un'interfaccia intuitiva che gui
 
 
 
-Andate su [btc-heritage.com] (https://btc-heritage.com) e cliccate su "Download application".
+Andate su [btc-heritage.com](https://btc-heritage.com) e cliccate su "Download application".
 
 
 

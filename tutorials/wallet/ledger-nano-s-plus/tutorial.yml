@@ -1,5 +1,6 @@
 id: 75043cb3-2e8e-43e8-862d-ca243b8215a4
 
+last_update_date: 2024-10-02
 
 category: hardware
 
@@ -10,6 +11,8 @@ professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 # Proofreading metadata
 
 project_id: 21e68928-68a3-468f-9c18-2b25a045c540
+license: CC-BY-SA-V4
+
 original_language: fr
 proofreading:
   - language: fr
@@ -33,7 +36,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.54
+    reward: 10.47
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -83,7 +86,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.54
+    reward: 10.47
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -93,7 +96,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.62
+    reward: 10.47
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -144,7 +147,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 12.54
+    reward: 10.47
   - language: bg
     last_contribution_date:
     urgency: 1

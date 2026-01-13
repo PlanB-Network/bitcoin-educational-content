@@ -1,5 +1,7 @@
 id: fdf7b138-e743-406c-9b36-6007cc16aa1b
 
+last_update_date: 2025-09-18
+
 tags:
   - privacy
   - onchain
@@ -13,6 +15,8 @@ level: beginner
 professor_id: d6587ae8-ea52-483d-b0ac-52ec3ab7f9f4
 
 project_id: d095b0c8-b4b8-4b9f-b2e7-a59d1f74914a
+
+license: CC-BY-SA-V4
 
 # Proofreading metadata
 
@@ -64,7 +68,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.02
+    reward: 2.9
   - language: id
     last_contribution_date:
     urgency: 1
@@ -79,7 +83,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.46
+    reward: 2.9
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -109,7 +113,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.46
+    reward: 2.9
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -140,7 +144,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.46
+    reward: 2.9
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

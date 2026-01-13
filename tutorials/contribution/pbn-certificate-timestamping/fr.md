@@ -10,7 +10,7 @@ Si vous lisez ceci, il y a de fortes chances pour que vous receviez soit un cert
 Dans ce tutoriel, nous allons voir comment Plan ₿ Academy émet des preuves vérifiables pour votre certificat de test ₿-CERT ou tout diplôme de fin de cours. Dans une seconde partie, nous verrons comment vérifier l'authenticité de ces preuves.
 
 
-# Mécanisme de preuve de Plan ₿ Academy
+## Mécanisme de preuve de Plan ₿ Academy
 
 
 Chez Plan ₿ Academy, nous vous délivrons des certificats et des diplômes que nous signons cryptographiquement et horodatons sur la Timechain (c'est-à-dire, la blockchain Bitcoin). Pour atteindre cet objectif, nous avons dû concevoir un mécanisme de preuve qui repose sur 2 opérations cryptographiques :
@@ -25,7 +25,7 @@ Nous pensons que ce mécanisme de preuve simple nous permet de délivrer des cer
 
 Grâce à ce mécanisme de preuve, toute tentative de modification, même du moindre détail, de votre certificat ou diplôme créera un hachage SHA-256 complètement différent du fichier signé, ce qui révélerait instantanément une falsification car la signature et l'horodatage ne seraient plus valides. De plus, si quelqu'un tente de falsifier malicieusement des certificats ou diplômes au nom de Plan ₿ Academy, une simple vérification de la signature révélerait la fraude.
 
-## Comment fonctionne la signature GPG ?
+### Comment fonctionne la signature GPG ?
 
 La signature GPG est obtenue avec l'utilisation d'un logiciel open source nommé GNU Private Guard. Ce logiciel permet à quiconque de créer facilement des clés privées, de signer et vérifier des signatures, ainsi que de chiffrer et déchiffrer des fichiers. Pour ce tutoriel, sachez que Plan ₿ Academy utilise GPG pour créer ses clés privées/publiques et pour signer tout certificat de test ₿-CERT ou diplôme de fin de cours.
 
@@ -33,7 +33,7 @@ D'autre part, si quelqu'un souhaite vérifier l'authenticité d'un fichier sign�
 
 Pour ceux qui sont curieux et souhaitent en savoir plus sur ce fantastique logiciel, vous pouvez vous référer à ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html).
 
-## Comment fonctionne l'horodatage ?
+### Comment fonctionne l'horodatage ?
 
 N'importe qui peut utiliser OpenTimestamps pour horodater un fichier et obtenir une preuve vérifiable de son existence. En d'autres termes, cela ne vous fournit pas une preuve de quand le fichier a été créé, mais seulement qu'il existait au plus tard à un moment donné.
 
@@ -41,7 +41,7 @@ OpenTimestamps fournit ce service gratuitement grâce à une méthode très effi
 
 Une fois cette transaction incluse dans un bloc, quiconque possédant le fichier initial et le fichier `.ots` qui lui est associé peut vérifier l'authenticité de l'horodatage. Dans la seconde partie de ce tutoriel, nous verrons comment vérifier votre certificat de test ₿-CERT ou tout diplôme de fin de cours avec un terminal et avec une interface graphique via le site web d'OpenTimestamps.
 
-## Étape 1 : Téléchargez votre certificat ou diplôme
+### Étape 1 : Téléchargez votre certificat ou diplôme
 
 Connectez-vous à votre tableau de bord sur [Plan ₿ Acadmy](https://planb.academy/fr/certifications/certificates).
 
@@ -61,14 +61,14 @@ Extrayez le contenu en cliquant droit sur le fichier `.zip` et en sélectionnant
 - Un fichier OpenTimestamps (OTS) (par exemple, certificate.txt.ots) ;
 - Un certificat en PDF (par exemple, certificate.pdf).
 
-## Étape 2 : Vérification de la signature du fichier texte
+### Étape 2 : Vérification de la signature du fichier texte
 
 Ouvrez d'abord un terminal dans le dossier où se trouvent les fichiers en cliquant droit sur la fenêtre du dossier et cliquez sur "Ouvrir dans le Terminal". Puis suivez les instructions ci-dessous :
 
 1. Importez la clé publique PGP de Plan ₿ Academy avec la commande suivante :
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
 ```
 
 Vous devriez voir un message comme le suivant si vous avez importé la clé PGP avec succès.
@@ -104,9 +104,9 @@ gpg: Good signature from "Plan ₿ Academy (used for Plan ₿ Academy platform) 
 
 Si vous voyez un message comme "BAD signature", cela signifie que le fichier a été altéré.
 
-## Étape 3 : Vérification de l'Open Timestamp
+### Étape 3 : Vérification de l'Open Timestamp
 
-### Vérification via une interface graphique
+#### Vérification via une interface graphique
 
 1. Visitez le site web d'OpenTimestamps : https://opentimestamps.org/.
 2. Cliquez sur l'onglet "Stamp & Verify".
@@ -118,7 +118,7 @@ Si vous voyez un message comme le suivant, votre horodatage est valide :
 
 ![couverture](assets/opentimestamp_wegui_verified.webp)
 
-### Méthode CLI
+#### Méthode CLI
 
 **NOTE : cette procédure nécessite l'exécution d'un nœud Bitcoin local**
 
@@ -142,7 +142,7 @@ Cette commande va :
 - Vous montrer quand le fichier a exactement été horodaté ;
 - Confirmer l'authenticité de l'horodatage.
 
-### Résultats finaux
+#### Résultats finaux
 
 La vérification est considérée comme réussie si **les deux** messages suivants sont affichés :
 

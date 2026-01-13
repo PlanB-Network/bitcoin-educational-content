@@ -749,7 +749,7 @@ Mặc dù Satoshi vắng mặt, Bitcoin vẫn tiếp tục được phát triể
 
 Đối với một số người, Bitcoin được định nghĩa là một loại nấm giống như một [hệ nấm sợi](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), trong khi người khác mô tả nó như một [hố đen](https://dergigi.com/). Dù bạn thích hay không thì Bitcoin vẫn tiếp tục tồn tại, với nhịp độ đều đặn liên tục 10 phút cho mỗi khối, giống như nhịp đập trái tim của một hệ thống tiền tệ mới.
 
-Để tìm hiểu thêm về các bài viết của Satoshi Nakamoto, chúng tôi khuyên bạn nên đọc ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) của Phil Champagne hoặc phim tài liệu "Le mystaire Satoshi" của ARTE.
+Để tìm hiểu sâu hơn về các tác phẩm của Satoshi Nakamoto, tôi khuyến nghị đọc [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) của Phil Champagne, tác phẩm tập hợp và đặt các văn bản chính của ông vào bối cảnh, cũng như bộ phim tài liệu của ARTE [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), mang đến một cuộc điều tra dễ tiếp cận và được tư liệu hóa đầy đủ về danh tính và di sản của ông.
 
 ![image](assets/vi/044.webp)
 

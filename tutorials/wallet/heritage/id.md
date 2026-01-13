@@ -102,7 +102,7 @@ Heritage Desktop adalah aplikasi grafis dengan antarmuka intuitif yang memandu p
 
 
 
-Kunjungi [btc-heritage.com] (https://btc-heritage.com) dan klik "Unduh aplikasi".
+Kunjungi [btc-heritage.com](https://btc-heritage.com) dan klik "Unduh aplikasi".
 
 
 
@@ -808,6 +808,6 @@ Heritage memungkinkan Anda untuk merencanakan suksesi Bitcoin Anda dengan cara y
 
 
 - [Situs web resmi Heritage](https://btc-heritage.com)
-- [Dokumentasi CLI] (https://btc-heritage.com/heritage-cli)
+- [Dokumentasi CLI](https://btc-heritage.com/heritage-cli)
 - [GitHub Heritage CLI](https://github.com/crypto7world/heritage-cli)
 - [GitHub Heritage Desktop](https://github.com/crypto7world/heritage-gui)

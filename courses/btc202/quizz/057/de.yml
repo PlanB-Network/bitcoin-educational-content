@@ -1,9 +1,9 @@
-question: Welche Sparrow wallet-Serveroption entspricht der RPC-Verbindung?
-answer: Bitcoin core
+question: Welche Sparrow Wallet-Serveroption entspricht der RPC-Verbindung?
+answer: Bitcoin Core
 wrong_answers:
   - Öffentlicher Server
-  - Privates Elektrum
-  - Fern-API
+  - Private Electrum
+  - Remote API
 explanation: |
-  In Sparrow entspricht die Option Bitcoin core einer direkten Verbindung zum Knoten über RPC.
+  In Sparrow entspricht die Option Bitcoin Core einer direkten Verbindung zum Nodes über RPC.
 reviewed: true

@@ -19,7 +19,7 @@ Zaidi ya kuwa Lightning wallet inayokuruhusu kutuma, kupokea na kulipa kila siku
 
 
 
-Nenda kwenye jukwaa la [Voltz] (https://www.voltz.com/en) na ufungue akaunti kwa kubofya kitufe cha "Jaribu sasa".
+Nenda kwenye jukwaa la [Voltz](https://www.voltz.com/en) na ufungue akaunti kwa kubofya kitufe cha "Jaribu sasa".
 
 
 

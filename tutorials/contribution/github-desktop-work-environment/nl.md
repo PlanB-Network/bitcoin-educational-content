@@ -194,6 +194,6 @@ Hiervoor zijn verschillende opties beschikbaar. Hoewel de standaard kladblok van
 Gefeliciteerd! Je werkomgeving is nu ingesteld om bij te dragen aan Plan ₿ Academy. Je kunt nu onze andere specifieke tutorials verkennen voor elk type bijdrage (vertalen, proeflezen, schrijven).
 
 
-https://planb.academy/tutorials/others
+https://planb.academy/tutorials/contribution
 
 ..).

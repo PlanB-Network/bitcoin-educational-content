@@ -1059,7 +1059,7 @@ Uprkos odsustvu Satoshija, Bitkoin je nastavio da se razvija: istorija Bitkoin-a
 Za neke, Bitkoin je definisan kao gljivični entitet poput [micelijuma](https://brandonquittem.com/bitkoin-is-the-mycelium-of-money/), dok ga drugi opisuju kao [crnu rupu](https://dergigi.com/). Voleli ga ili mrzeli, Bitkoin nastavlja da postoji, sa svojim konstantnim ritmom od 10 minuta po bloku, poput otkucaja srca novog monetarnog sistema.
 
 
-Da biste saznali više o spisima Satoshi-ja Nakamoto-a, preporučujemo čitanje ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) autora Phil Champagne ili ARTE dokumentarac "Le mystaire Satoshi".
+Radi dubljeg razumevanja spisa Satošija Nakamota, preporučujem čitanje knjige [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) Fila Šampanja, koja okuplja i kontekstualizuje njegove glavne tekstove, kao i dokumentarni film ARTE [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), koji nudi pristupačnu i dobro dokumentovanu istragu njegove identiteta i nasleđa.
 
 
 ![image](assets/sr-Latn/044.webp)

@@ -3,7 +3,7 @@ name: Shelter
 description: Utilizar o mesmo telemóvel para o trabalho e para a vida privada com a Shelter
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 
@@ -112,7 +112,7 @@ Em seguida, toque novamente em **Instalar** no menu de contexto que aparece para
 
 
 
-Também pode instalar o Shelter a partir do seu repositório [Git] (https://gitea.angry.im/PeterCxy/Shelter).
+Também pode instalar o Shelter a partir do seu repositório [Git](https://gitea.angry.im/PeterCxy/Shelter).
 
 
 

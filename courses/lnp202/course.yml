@@ -25,7 +25,7 @@ tags:
   - node
   - lightning
 
-licence: CC-BY-SA-V4
+license: CC-BY-SA-V4
 
 # Proofreading metadata
 
@@ -37,4 +37,9 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 15.38
+    reward: 15.3
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 30.6

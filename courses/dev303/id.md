@@ -43,7 +43,7 @@ Selamat datang di kursus pemrograman yang ramah pemula tentang SDK. Dalam pelati
 Video pelatihan ini hanya akan tersedia dalam bahasa Inggris untuk saat ini dan merupakan bagian dari seminar langsung yang diselenggarakan pada bulan Oktober lalu di Tuscany oleh Fulgure Venture. Pelatihan ini akan fokus pada minggu pertama saja. Paruh kedua ditargetkan untuk RGB dan dapat ditemukan di kursus RGB.
 
 
-https://planb.academy/en/courses/rgb-programming-3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 Pelatihan ini memberikan Anda kesempatan untuk mengembangkan keterampilan pemrograman Anda pada Lightning Network menggunakan Rust dan berbagai SDK. Kursus ini dirancang untuk para pengembang dengan latar belakang pemrograman yang solid yang ingin mendalami pengembangan khusus Lightning Network. Anda akan mempelajari dasar-dasar Rust, mengapa Rust cocok untuk pengembangan Bitcoin, dan kemudian beralih ke implementasi langsung menggunakan SDK khusus.
 

@@ -53,16 +53,17 @@ Hapa kuna ulinganisho wa haraka kati ya White Noise na programu kadhaa zinazojul
 
 
 
-| Points de comparaisons      | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
-| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
-| Chiffrement E2EE / 1:1      | ✅ Oui       | Facultatif | ✅ Oui           | ✅ Oui   | ✅ Oui    | ✅ Oui            | ✅ Oui  |
-| Chiffrement de groupe E2EE  | ✅ Oui       | ❌ Non      | ✅ Oui           | ✅ Oui   | ✅ Oui    | Facultatif       | ✅ Oui  |
-| Anonymisation de l'identité | ✅ Oui       | Facultatif | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Serveur open source         | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Client open source          | ✅ Oui       | ✅ Oui      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Serveur décentralisé        | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Année de création           | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
+
+| Pointi za kulinganisha      | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| Usimbaji E2EE / 1:1         | ✅ Ndiyo      | Hiari      | ✅ Ndiyo          | ✅ Ndiyo | ✅ Ndiyo  | ✅ Ndiyo           | ✅ Ndiyo|
+| Usimbaji wa kikundi E2EE    | ✅ Ndiyo      | ❌ Hapana   | ✅ Ndiyo          | ✅ Ndiyo | ✅ Ndiyo  | Hiari             | ✅ Ndiyo|
+| Kuficha utambulisho         | ✅ Ndiyo      | Hiari      | ❌ Hapana         | ✅ Ndiyo | ❌ Hapana | ❌ Hapana          | ❌ Hapana|
+| Seva ya chanzo huria        | ✅ Ndiyo      | ❌ Hapana   | ❌ Hapana         | ✅ Ndiyo | ❌ Hapana | ❌ Hapana          | ✅ Ndiyo|
+| Mteja wa chanzo huria       | ✅ Ndiyo      | ✅ Ndiyo     | ❌ Hapana         | ✅ Ndiyo | ❌ Hapana | ❌ Hapana          | ✅ Ndiyo|
+| Seva iliyogatuliwa          | ✅ Ndiyo      | ❌ Hapana   | ❌ Hapana         | ✅ Ndiyo | ❌ Hapana | ❌ Hapana          | ❌ Hapana|
+| Mwaka wa kuundwa            | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
 ## Kuanza na White Noise
 

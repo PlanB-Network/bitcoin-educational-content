@@ -56,7 +56,6 @@ Kaçın:
 - Chromebook'lar - genellikle depolama kapasitesi çok düşüktür
 - EMMC sürücüsü olan herhangi bir bilgisayar; SSD sürücüsü varsa, bu mükemmeldir
 - Mac'ler - pahalıdırlar ve benim deneyimlerime göre donanımları Linux işletim sistemleriyle iyi uyum sağlamıyor
-- Yenilenmiş veya 2. el herhangi bir şey (yine de mutlak bir anlaşma kırıcı değil)
 
 
 Bunun yerine, bir Windows 11 dizüstü bilgisayar arayın (Şu anda Windows 11 en son sürümdür. Bu yazılımdan kurtulacağız, merak etmeyin). Amazon.com'da "Windows 11 Laptop" diye arattım ve bu güzel örneği buldum:

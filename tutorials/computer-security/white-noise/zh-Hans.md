@@ -53,16 +53,17 @@ https://planb.academy/tutorials/node/others/nostr-f6d21a64-9b04-4f21-ba1c-02c98c
 
 
 
-| Points de comparaisons      | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
-| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
-| Chiffrement E2EE / 1:1      | ✅ Oui       | Facultatif | ✅ Oui           | ✅ Oui   | ✅ Oui    | ✅ Oui            | ✅ Oui  |
-| Chiffrement de groupe E2EE  | ✅ Oui       | ❌ Non      | ✅ Oui           | ✅ Oui   | ✅ Oui    | Facultatif       | ✅ Oui  |
-| Anonymisation de l'identité | ✅ Oui       | Facultatif | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Serveur open source         | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Client open source          | ✅ Oui       | ✅ Oui      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Serveur décentralisé        | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Année de création           | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
+
+| 对比要点                    | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| E2EE 加密 / 1:1             | ✅ 是         | 可选       | ✅ 是             | ✅ 是    | ✅ 是     | ✅ 是              | ✅ 是   |
+| 群组 E2EE 加密              | ✅ 是         | ❌ 否       | ✅ 是             | ✅ 是    | ✅ 是     | 可选              | ✅ 是   |
+| 身份匿名化                  | ✅ 是         | 可选       | ❌ 否             | ✅ 是    | ❌ 否     | ❌ 否              | ❌ 否   |
+| 开源服务器                  | ✅ 是         | ❌ 否       | ❌ 否             | ✅ 是    | ❌ 否     | ❌ 否              | ✅ 是   |
+| 开源客户端                  | ✅ 是         | ✅ 是        | ❌ 否             | ✅ 是    | ❌ 否     | ❌ 否              | ✅ 是   |
+| 去中心化服务器              | ✅ 是         | ❌ 否       | ❌ 否             | ✅ 是    | ❌ 否     | ❌ 否              | ❌ 否   |
+| 创建年份                    | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
 ## 开始使用 White Noise
 

@@ -53,16 +53,17 @@ Här är en snabb jämförelse mellan White Noise och ett antal av de mest känd
 
 
 
-| Points de comparaisons      | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
-| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
-| Chiffrement E2EE / 1:1      | ✅ Oui       | Facultatif | ✅ Oui           | ✅ Oui   | ✅ Oui    | ✅ Oui            | ✅ Oui  |
-| Chiffrement de groupe E2EE  | ✅ Oui       | ❌ Non      | ✅ Oui           | ✅ Oui   | ✅ Oui    | Facultatif       | ✅ Oui  |
-| Anonymisation de l'identité | ✅ Oui       | Facultatif | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Serveur open source         | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Client open source          | ✅ Oui       | ✅ Oui      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Serveur décentralisé        | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Année de création           | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
+
+| Jämförelsepunkter           | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| E2EE-kryptering / 1:1       | ✅ Ja         | Valfritt   | ✅ Ja             | ✅ Ja    | ✅ Ja     | ✅ Ja              | ✅ Ja   |
+| Grupp-E2EE-kryptering       | ✅ Ja         | ❌ Nej      | ✅ Ja             | ✅ Ja    | ✅ Ja     | Valfritt          | ✅ Ja   |
+| Anonymisering av identitet  | ✅ Ja         | Valfritt   | ❌ Nej            | ✅ Ja    | ❌ Nej    | ❌ Nej             | ❌ Nej  |
+| Öppen källkodsserver        | ✅ Ja         | ❌ Nej      | ❌ Nej            | ✅ Ja    | ❌ Nej    | ❌ Nej             | ✅ Ja   |
+| Öppen källkodsklient        | ✅ Ja         | ✅ Ja        | ❌ Nej            | ✅ Ja    | ❌ Nej    | ❌ Nej             | ✅ Ja   |
+| Decentraliserad server      | ✅ Ja         | ❌ Nej      | ❌ Nej            | ✅ Ja    | ❌ Nej    | ❌ Nej             | ❌ Nej  |
+| Skapelseår                  | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
 ## Komma igång med White Noise
 

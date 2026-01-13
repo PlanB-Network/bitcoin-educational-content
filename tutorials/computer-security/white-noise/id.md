@@ -53,16 +53,17 @@ Berikut ini adalah perbandingan singkat antara White Noise dan sejumlah aplikasi
 
 
 
-| Points de comparaisons      | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
-| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
-| Chiffrement E2EE / 1:1      | ✅ Oui       | Facultatif | ✅ Oui           | ✅ Oui   | ✅ Oui    | ✅ Oui            | ✅ Oui  |
-| Chiffrement de groupe E2EE  | ✅ Oui       | ❌ Non      | ✅ Oui           | ✅ Oui   | ✅ Oui    | Facultatif       | ✅ Oui  |
-| Anonymisation de l'identité | ✅ Oui       | Facultatif | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Serveur open source         | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Client open source          | ✅ Oui       | ✅ Oui      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Serveur décentralisé        | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Année de création           | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
+
+| Poin perbandingan           | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| Enkripsi E2EE / 1:1         | ✅ Ya         | Opsional   | ✅ Ya             | ✅ Ya    | ✅ Ya     | ✅ Ya              | ✅ Ya   |
+| Enkripsi grup E2EE          | ✅ Ya         | ❌ Tidak    | ✅ Ya             | ✅ Ya    | ✅ Ya     | Opsional          | ✅ Ya   |
+| Anonimisasi identitas       | ✅ Ya         | Opsional   | ❌ Tidak          | ✅ Ya    | ❌ Tidak  | ❌ Tidak           | ❌ Tidak|
+| Server sumber terbuka       | ✅ Ya         | ❌ Tidak    | ❌ Tidak          | ✅ Ya    | ❌ Tidak  | ❌ Tidak           | ✅ Ya   |
+| Klien sumber terbuka        | ✅ Ya         | ✅ Ya        | ❌ Tidak          | ✅ Ya    | ❌ Tidak  | ❌ Tidak           | ✅ Ya   |
+| Server terdesentralisasi    | ✅ Ya         | ❌ Tidak    | ❌ Tidak          | ✅ Ya    | ❌ Tidak  | ❌ Tidak           | ❌ Tidak|
+| Tahun pembuatan             | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
 ## Memulai dengan White Noise
 

@@ -1,8 +1,8 @@
 question: Quel est le principal avantage de la paresse des itérateurs dans Rust ?
-answer: Ils n'effectuent aucun travail jusqu'à ce qu'ils soient consommés, ce qui permet un enchaînement efficace sans créer de collections intermédiaires
+answer: Ils n'effectuent aucun travail jusqu'à ce qu'ils soient consommés, ce qui permet un enchaînement efficace sans créer de collections intermédiaires.
 wrong_answers:
-  - Ils parallélisent automatiquement les opérations sur plusieurs cœurs de CPU pour de meilleures performances
-  - Ils mettent en mémoire les résultats précédents afin d'éviter de recalculer les mêmes valeurs plusieurs fois
-  - Ils utilisent moins de mémoire en ne stockant que des références au lieu de copier des valeurs de données réelles
+  - Ils parallélisent automatiquement les opérations sur plusieurs cœurs de CPU pour de meilleures performances.
+  - Ils mettent en mémoire les résultats précédents afin d'éviter de recalculer les mêmes valeurs plusieurs fois.
+  - Ils utilisent moins de mémoire en ne stockant que des références au lieu de copier des valeurs de données réelles.
 explanation: |
   L'évaluation paresseuse dans les itérateurs Rust signifie qu'ils n'exécutent aucun traitement jusqu'à ce qu'une méthode de consommation soit appelée. Cela permet d'enchaîner plusieurs opérations telles que map, filter et d'autres adaptateurs sans créer de collections intermédiaires entre chaque étape. Le compilateur peut optimiser l'ensemble de la chaîne en un code efficace qui traite les éléments un par un à travers toutes les transformations, plutôt que de créer des vecteurs temporaires ou d'autres collections à chaque étape.

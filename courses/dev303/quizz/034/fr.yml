@@ -1,8 +1,8 @@
 question: Quelle méthode permet d'extraire une valeur d'un Result tout en fournissant un message d'alerte personnalisé en cas d'erreur ?
-answer: s'attendre à
+answer: expect
 wrong_answers:
   - unwrap_or_else
   - unwrap_with_message
   - panique_avec
 explanation: |
-  La méthode expect est spécialement conçue pour extraire la valeur de succès d'un Result tout en vous permettant de fournir un message de panique personnalisé qui sera affiché en cas d'erreur. Cela facilite le débogage par rapport à la méthode unwrap, qui utilise un message de panique générique. La méthode unwrap_or_else ne provoque pas de panique, mais exécute une fermeture en cas d'erreur. Les autres options (unwrap_with_message et panic_with) ne sont pas des méthodes Rust pour gérer les types Result.
+  La méthode expect est spécialement conçue pour extraire la valeur de succès d'un Result tout en vous permettant de fournir un message de panique personnalisé qui sera affiché en cas d'erreur. Cela facilite le débogage par rapport à la méthode unwrap, qui utilise un message de panique générique. La méthode unwrap_or_else ne provoque pas de panique, mais exécute une fermeture en cas d'erreur. Les autres options (unwrap_with_message et panique_avec) ne sont pas des méthodes Rust pour gérer les types Result.

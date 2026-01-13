@@ -10,7 +10,7 @@ description: Guide et tutoriel sur l'utilisation de JoinMarket pour faire du Coi
 
 ---
 
-Si vous avez trouvé cette page en faisant une recherche en ligne sur " JoinTmarket ", je vous remercie sincèrement. Vous êtes cependant tombé sur un guide qui traite d'un sujet complètement différent, mais extrêmement intéressant ! 🚬🍁
+Si vous avez trouvé cette page en faisant une recherche en ligne sur " JoinTmarket ", je vous remercie sincèrement. Vous êtes cependant tombé sur un guide qui traite d'un sujet complètement différent, mais extrêmement intéressant !🍁
 
 
 
@@ -101,7 +101,7 @@ vim joinmarket.cfg
 
 
 
-une fois ouvert, nous remarquerons de nombreuses lignes avec divers paramètres et leur explication en anglais. Plus précisément, nous analyserons ci-dessous les variables les plus intéressantes :
+Une fois ouvert, nous remarquerons de nombreuses lignes avec divers paramètres et leur explication en anglais. Plus précisément, nous analyserons ci-dessous les variables les plus intéressantes :
 
 
 
@@ -150,7 +150,7 @@ python wallet-tool.py generate
 
 
 
-Cette commande nous permet d'entrer un mot de passe pour crypter la Wallet et le nom que nous voulons lui donner. Lorsqu'elle vous demande si vous voulez ou non soutenir les obligations de fidélité, je vous recommande d'utiliser l'option _yes_, la sortie retournée ressemblera à ceci :
+Cette commande nous permet d'entrer un mot de passe pour crypter le wallet et le nom que nous voulons lui donner. Lorsqu'elle vous demande si vous voulez ou non soutenir les obligations de fidélité, je vous recommande d'utiliser l'option _yes_. La sortie retournée ressemblera à ceci :
 
 
 
@@ -186,7 +186,7 @@ esempio: python wallet-tool.py wallet.jmdat
 
 
 
-cette commande vous montrera tous les différents mélanges wallet avec les différentes adresses catégorisées comme :
+Cette commande vous montrera tous les différents mélanges wallet avec les différentes adresses catégorisées comme :
 
 
 
@@ -197,7 +197,7 @@ cette commande vous montrera tous les différents mélanges wallet avec les diff
 
 
 
-voici un exemple pratique du résultat :
+Voici un exemple pratique du résultat :
 
 
 
@@ -284,7 +284,7 @@ pyhton sendpayment.py
 ```
 
 
-qui nous permettra d'envoyer des transactions à d'autres adresses avec ou sans CoinJoin. Voyons comment cela fonctionne et quelques exemples pratiques. Par défaut, le formatage de la commande est le suivant (n'oubliez pas de remplacer le texte entouré des symboles < et >) :
+Qui nous permettra d'envoyer des transactions à d'autres adresses avec ou sans CoinJoin. Voyons comment cela fonctionne et quelques exemples pratiques. Par défaut, le formatage de la commande est le suivant (n'oubliez pas de remplacer le texte entouré des symboles < et >) :
 
 
 
@@ -294,7 +294,7 @@ python sendpayment.py <option that can be viewed with --help> <wallet name> <sat
 
 
 
-un exemple basique d'utilisation pourrait être :
+Un exemple basique d'utilisation pourrait être :
 
 
 
@@ -303,7 +303,7 @@ python sendpayment.py wallet.jmdat 5000000 1mprGzBA9rQk82Ly41TsmpQGa8UPpZb2w8c
 ```
 
 
-dans ce cas nous allons envoyer à l'adresse 1mprGzBA9rQk82Ly41TsmpQGa8UPpZb2w8c 0.05 Btc soit 5000000 Satoshi de notre mixdepth 0 (celui par défaut) en allant choisir de 4 à 9 contreparties pour CoinJoin (option par défaut).
+Dans ce cas nous allons envoyer à l'adresse 1mprGzBA9rQk82Ly41TsmpQGa8UPpZb2w8c 0.05 Btc soit 5000000 Satoshi de notre mixdepth 0 (celui par défaut) en allant choisir de 4 à 9 contreparties pour CoinJoin (option par défaut).
 
 
 
@@ -316,7 +316,7 @@ python sendpayment.py -N 5 -m 1 wallet.jmdat 100000000 1mprGzBA9rQk82Ly41TsmpQGa
 ```
 
 
-dans cet exemple, nous avons ajouté deux spécifications : -N indique le nombre de contreparties avec lesquelles nous allons mixer, -m la profondeur de mixage à partir de laquelle nous allons retirer des fonds. En fait, nous avons envoyé 100 000 000 Sats (1 btc) à l'adresse 1mprGzBA9rQk82Ly41TsmpQGa8UPpZb2w8c avec les fonds dans mixdepth 1 et en mélangeant avec 5 contreparties.
+Dans cet exemple, nous avons ajouté deux spécifications : -N indique le nombre de contreparties avec lesquelles nous allons mixer, -m la profondeur de mixage à partir de laquelle nous allons retirer des fonds. En fait, nous avons envoyé 100 000 000 sats (1 BTC) à l'adresse 1mprGzBA9rQk82Ly41TsmpQGa8UPpZb2w8c avec les fonds dans mixdepth 1 et en mélangeant avec 5 contreparties.
 
 
 
@@ -330,11 +330,11 @@ python sendpayment.py -N 7 -m 0 wallet.jmdat 0 1mprGzBA9rQk82Ly41TsmpQGa8UPpZb2w
 
 
 
-ici, nous avons envoyé tous les fonds de la profondeur de mélange 0 (nous aurions pu ne pas la spécifier car c'est la valeur par défaut) en les mélangeant avec 7 contreparties.
+Ici, nous avons envoyé tous les fonds de la profondeur de mélange 0 (nous aurions pu ne pas la spécifier car c'est la valeur par défaut) en les mélangeant avec 7 contreparties.
 
 
 
-La commande sendpayment est utilisée pour déplacer des fonds de joinMarket vers des Wallet externes ou pour envoyer des Satoshi à une personne en ajoutant une Layer de confidentialité entre nous et elle. Pour obtenir un niveau de confidentialité suffisant sur nos UTXO, il est plus approprié d'utiliser la commande tumbler.py que nous expliquerons plus loin dans ce guide.
+La commande sendpayment est utilisée pour déplacer des fonds de joinMarket vers des wallet externes ou pour envoyer des Satoshi à une personne en ajoutant une Layer de confidentialité entre nous et elle. Pour obtenir un niveau de confidentialité suffisant sur nos UTXO, il est plus approprié d'utiliser la commande tumbler.py que nous expliquerons plus loin dans ce guide.
 
 
 
@@ -362,7 +362,7 @@ python3 wallet-tool.py <wallet name> gettimelockaddress <block date, written in 
 
 
 
-par exemple :
+Par exemple :
 
 
 
@@ -372,7 +372,7 @@ python3 wallet-tool.py testwallet.jmdat gettimelockaddress 2025-11
 
 
 
-la sortie qui nous sera renvoyée sera une adresse Bitcoin (c'est-à-dire celle sur laquelle vous devrez déposer les fonds que vous souhaitez allouer à fidelity).
+La sortie qui nous sera renvoyée sera une adresse Bitcoin (c'est-à-dire celle sur laquelle vous devrez déposer les fonds que vous souhaitez allouer à fidelity).
 
 
 
@@ -382,7 +382,7 @@ la sortie qui nous sera renvoyée sera une adresse Bitcoin (c'est-à-dire celle 
 
 
 
-- une fois que les fonds ont été déposés, ils ne peuvent plus être déplacés jusqu'à leur expiration. Faites attention au nombre de Sats que vous envoyez à l'adresse et au format de la date. Les erreurs ne sont pas permises !
+- une fois que les fonds ont été déposés, ils ne peuvent plus être déplacés jusqu'à leur expiration. Faites attention au nombre de sats que vous envoyez à l'adresse et au format de la date. Les erreurs ne sont pas permises !
 - L'obligation de fidélité est facilement reconnaissable sur la chaîne, il est donc conseillé de déposer des fonds par l'intermédiaire d'un CoinJoin et avec une origine sans rapport avec votre identité. Il est également conseillé de faire la même chose une fois que vous voulez déplacer la caution de fidélité expirée hors de JoinMarket.
 
 
@@ -391,7 +391,7 @@ Il est important de rappeler qu'il est possible de recharger l'obligation de fid
 
 
 
-Une fois que nous avons créé le lien de fidélité (dont nous nous souvenons qu'il est facultatif), nous sommes prêts à lancer l'exécutable pour agir en tant que maker sur joinMarket. Une fois que les Sats ont été déposés aux différentes adresses et à la mixdepth, nous pouvons exécuter la commande :
+Une fois que nous avons créé le lien de fidélité (dont nous nous souvenons qu'il est facultatif), nous sommes prêts à lancer l'exécutable pour agir en tant que maker sur joinMarket. Une fois que les sats ont été déposés aux différentes adresses et à la mixdepth, nous pouvons exécuter la commande :
 
 
 
@@ -401,11 +401,11 @@ python yg-privacyenhanced.py <wallet name>
 
 
 
-A partir de ce moment (après quelques minutes de connexion au réseau) et jusqu'à ce que nous arrêtions le script, notre client JoinMarket apparaîtra sur la liste des faiseurs actifs sur le protocole et offrira notre liquidité à diverses contreparties pour faire du CoinJoin. Ne vous attendez pas à des dizaines de CoinJoins par jour (à moins que vous n'ayez une grande fidélité et une grande liquidité déposée sur Wallet), rappelez-vous également que des facteurs tels que les frais requis et les Satoshis déposés affectent la fréquence à laquelle vous serez un maker.
+À partir de ce moment (après quelques minutes de connexion au réseau) et jusqu'à ce que nous arrêtions le script, notre client JoinMarket apparaîtra sur la liste des faiseurs actifs sur le protocole et offrira notre liquidité à diverses contreparties pour faire du CoinJoin. Ne vous attendez pas à des dizaines de CoinJoins par jour (à moins que vous n'ayez une grande fidélité et une grande liquidité déposée sur Wallet). Rappelez-vous également que des facteurs tels que les frais requis et les satoshis déposés affectent la fréquence à laquelle vous serez un maker.
 
 
 
-En exécutant la commande ci-dessous, vous pourrez voir l'historique de toutes les transactions effectuées sur la Wallet et tout gain (si vous êtes un créateur) ou toute dépense (si vous êtes un preneur) que vous avez eu au cours de la durée de vie de la wallet.
+En exécutant la commande ci-dessous, vous pourrez voir l'historique de toutes les transactions effectuées sur le wallet et tout gain (si vous êtes un créateur) ou toute dépense (si vous êtes un preneur) que vous avez eus au cours de la durée de vie du wallet.
 
 
 
@@ -415,7 +415,7 @@ python wallet-tool.py <wallet name> history
 
 
 
-Une fois que vos Satoshis font des CoinJoins, ils se déplacent de mixdepth en mixdepth jusqu'à ce qu'ils atteignent le dernier. Une fois le quatrième passé, ils reviendront au mixdepth 0. C'est à vous de décider combien d'intimité vous souhaitez obtenir avant de les déplacer vers un Cold Wallet, il est conseillé de terminer un cycle Wallet complet.
+Une fois que vos Satoshis font des CoinJoins, ils se déplacent de mixdepth en mixdepth jusqu'à ce qu'ils atteignent le dernier. Une fois le quatrième passé, ils reviendront au mixdepth 0. C'est à vous de décider combien d'intimité vous souhaitez obtenir avant de les déplacer vers un Cold Wallet. Il est conseillé de terminer un cycle  complet du wallet.
 
 
 
@@ -447,7 +447,7 @@ pyhton tumbler.py TestWallet.jmdat -N 7 2 -c 3 1 bc1qz3f80rtv0ux85d7rc06ldtvmpqy
 
 
 
-Dans ce cas, nous avons lancé un script de tumbling qui n'utilisera pas le nombre de contreparties par défaut (le paramètre -N indique que nous avons besoin de 7 contreparties avec une variance maximale de 2, donc un nombre aléatoire de makers de 5 à 9) et avec un plus grand nombre de CoinJoin par mixdepth (par défaut ce script fait un nombre aléatoire de CoinJoin par section de Wallet allant de 1 à 3, en utilisant la commande -c 3 1 au lieu de cela ce sera de 2 à 4). De cette façon, nous dépenserons plus de Sats en frais mais nous aurons un plus grand ensemble d'anonymat.
+Dans ce cas, nous avons lancé un script de tumbling qui n'utilisera pas le nombre de contreparties par défaut (le paramètre -N indique que nous avons besoin de 7 contreparties avec une variance maximale de 2, donc un nombre aléatoire de makers de 5 à 9) et avec un plus grand nombre de CoinJoin par mixdepth (par défaut ce script fait un nombre aléatoire de CoinJoin par section de Wallet allant de 1 à 3, en utilisant la commande -c 3 1 au lieu de cela ce sera de 2 à 4). De cette façon, nous dépenserons plus de sats en frais mais nous aurons un plus grand ensemble d'anonymat.
 
 
 
@@ -483,7 +483,7 @@ Le lancer depuis le shell en tapant `tmux` ouvrira un terminal pour vous qui res
 
 
 
-JoinMarket est un logiciel illimité et personnalisable. Dans ce guide, nous avons découvert les principales fonctions afin qu'il soit possible pour n'importe qui (ou du moins j'ai essayé, je suis conscient que l'utilisation de ce logiciel n'est pas une promenade dans le parc) de l'utiliser. L'un des plus grands problèmes de JoinMarket est justement le nombre de personnes qui l'utilisent et qui en font un maker. Si peu d'utilisateurs profitent de ce logiciel, la confidentialité globale (anon-set) est réduite. C'est pourquoi j'espère que ce guide vous incitera à l'utiliser et vous convaincra de télécharger et d'installer mon logiciel préféré pour faire CoinJoin. Au cas où vous voudriez approfondir certains aspects, je vous recommande de lire les différentes documentations approfondies sur github, elles sont très bien faites et vous pouvez les trouver ici.
+JoinMarket est un logiciel illimité et personnalisable. Dans ce guide, nous avons découvert les principales fonctions afin qu'il soit possible pour n'importe qui (ou du moins  j'ai essayé; je suis conscient que l'utilisation de ce logiciel n'est pas une promenade dans le parc) de l'utiliser. L'un des plus grands problèmes de JoinMarket est justement le nombre de personnes qui l'utilisent et qui en font un maker. Si peu d'utilisateurs profitent de ce logiciel, la confidentialité globale (anon-set) est réduite. C'est pourquoi j'espère que ce guide vous incitera à l'utiliser et vous convaincra de télécharger et d'installer mon logiciel préféré pour faire CoinJoin. Au cas où vous voudriez approfondir certains aspects, je vous recommande de lire les différentes documentations approfondies sur GitHub; elles sont très bien faites et vous pouvez les trouver ici.
 
 
 

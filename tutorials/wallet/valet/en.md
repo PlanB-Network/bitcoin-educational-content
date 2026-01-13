@@ -1,6 +1,6 @@
 ---
-Name: Valet Bitcoin
-Description: This is a step-by-step guide on how to use the Valet Bitcoin wallet. This tutorial is original.
+name: Valet Bitcoin
+description: This is a step-by-step guide on how to use the Valet Bitcoin wallet. This tutorial is original.
 ---
 
 ![cover_valet](assets/cover.webp)

@@ -1,0 +1,32 @@
+id: 6179843a-0e54-48ec-b7bb-3d1b83889510
+
+name: Standard Sats
+
+links:
+  website: https://standardsats.github.io/
+  twitter: https://x.com/standard_sats
+  github: https://github.com/standardsats
+  youtube: www.youtube.com/@standardsats
+
+# Choose between: conference, education, exchange, infrastructure, investment, manufacturer, mining, news, node, privacy, service, wallet
+category: service
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date: 2026-01-11
+    urgency: 1 
+    contributor_names:
+      - evd0kim
+      - 0orion
+    reward: 0
+
+tags:
+  - adoption
+  - finance
+
+contributor_names:
+  - evd0kim
+  - 0orion
+
+license: CC-BY-SA-V4

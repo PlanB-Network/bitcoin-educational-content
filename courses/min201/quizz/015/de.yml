@@ -1,7 +1,7 @@
 question: Nach welchem Prinzip funktioniert das Bitcoin-Mining?
 answer: Das Bitcoin-Mining funktioniert nach einem Lotterieprinzip, bei dem die Gewinnchancen für einen Block (und damit die Bitcoin-Belohnung) alle zehn Minuten für einen einzelnen kleinen Miner extrem gering sind.
 wrong_answers:
-  - Bitcoin-Mining funktioniert nach einem Prinzip des Wer zuerst kommt, mahlt zuerst, bei dem der erste Miner, der ein komplexes mathematisches Problem löst, die Bitcoin-Belohnung erhält.
+  - Bitcoin-Mining funktioniert nach einem Prinzip des "Wer zuerst kommt, mahlt zuerst", bei dem der erste Miner, der ein komplexes mathematisches Problem löst, die Bitcoin-Belohnung erhält.
   - Bitcoin-Mining funktioniert nach einem Bietprinzip, bei dem der Miner, der das höchste Gebot abgibt, die Bitcoin-Belohnung erhält.
   - Bitcoin-Mining funktioniert nach einem Rotationsprinzip, bei dem jeder Miner reihum die Chance bekommt, einen Block zu minen und die Bitcoin-Belohnung zu erhalten.
 explanation: |

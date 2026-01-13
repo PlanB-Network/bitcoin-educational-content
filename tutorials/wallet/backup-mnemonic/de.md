@@ -1,5 +1,5 @@
 ---
-name: Speichern Sie Ihre Eselsbrücke
+name: Die mnemonische Phrase sichern
 description: Entdecken Sie die besten Methoden zur Sicherung Ihrer Bitcoin-Wallet
 ---
 ![cover](assets/cover.webp)

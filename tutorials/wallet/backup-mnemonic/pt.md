@@ -1,5 +1,5 @@
 ---
-name: Guarde a sua frase mnemónica
+name: Salvar sua frase mnemônica
 description: Descubra as melhores práticas para proteger a sua carteira Bitcoin
 ---
 ![cover](assets/cover.webp)

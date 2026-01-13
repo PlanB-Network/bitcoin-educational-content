@@ -424,7 +424,7 @@ Profilinize uygun bir teknik çözüm seçerek başlayın, küçük bir miktarla
 
 
 
-- [Bitcoin Miras Planı Şablonu (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Plan ₿ Network Dokümantasyon Şablonu
+- [Bitcoin Miras Planı Şablonu (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Plan ₿ Academy Dokümantasyon Şablonu
 
 
 

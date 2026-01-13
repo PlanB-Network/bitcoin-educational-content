@@ -96,6 +96,6 @@ Markdownファイルを編集するために特化したソフトウェアは多
 - これらのソフトウェアプログラムのいずれかをインストールし、将来の修正のためにそれを取っておいてください。 ![github-desktop](assets/26.webp)
 おめでとうございます！あなたの作業環境は、PlanB Networkへの貢献のために設定されました。これで、各種の貢献（翻訳、校正、執筆など）に対する私たちの他の特定のチュートリアルを探索することができます。
 
-https://planb.academy/tutorials/others
+https://planb.academy/tutorials/contribution
 
 

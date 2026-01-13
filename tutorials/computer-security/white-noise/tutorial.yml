@@ -1,5 +1,7 @@
 id: f836b1b6-303c-482b-b727-018da649832a
 
+last_update_date: 2025-12-15
+
 category: communication
 
 license: CC-BY-SA-V4
@@ -77,7 +79,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.35
+    reward: 3.64
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -107,7 +109,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.35
+    reward: 3.64
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -142,7 +144,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.35
+    reward: 3.64
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

@@ -52,7 +52,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.26
+    reward: 0.22
   - language: id
     last_contribution_date:
     urgency: 1
@@ -68,7 +68,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.24
+    reward: 0.22
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -115,7 +115,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Anh-La
-    reward: 0.12
+    reward: 0.11
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -147,7 +147,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - barakana
-    reward: 0.12
+    reward: 0.11
   - language: bg
     last_contribution_date: '2025-12-04'
     urgency: 1

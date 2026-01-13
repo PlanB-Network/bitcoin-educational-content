@@ -1,4 +1,7 @@
 id: 46a6867b-c74b-45e7-869c-10a4e0263c06
+
+last_update_date: 2025-04-29
+
 project_id: 41c4621e-7411-42a8-9ef9-90c29e19b76a
 professor_id: 81a82a0f-3003-4459-9d6a-67f860efb20e
 level: intermediate
@@ -55,7 +58,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.12
+    reward: 3.69
   - language: id
     last_contribution_date:
     urgency: 1
@@ -70,7 +73,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.41
+    reward: 3.69
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -106,7 +109,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.41
+    reward: 3.69
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -146,7 +149,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.41
+    reward: 3.69
   - language: bg
     last_contribution_date:
     urgency: 1

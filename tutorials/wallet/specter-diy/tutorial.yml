@@ -1,5 +1,7 @@
 id: 87993e31-233e-42f8-9aea-e2128049e2dc
 
+last_update_date: 2025-11-04
+
 credit_link: https://github.com/cryptoadvance/specter-diy
 
 project_id: 75aa8e7c-d603-431e-9250-04dca714654c
@@ -67,7 +69,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 15.28
+    reward: 10.95
   - language: id
     last_contribution_date:
     urgency: 1
@@ -82,7 +84,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.11
+    reward: 10.95
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -112,7 +114,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.11
+    reward: 10.95
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -143,7 +145,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 13.11
+    reward: 10.95
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

@@ -66,7 +66,7 @@ OpenTimestamps能够免费提供这项服务，得益于一种高效的方式，
 1. 使用以下命令导入Plan ₿ Network公共PGP密钥：
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
 ```
 
 如果您成功导入了PGP密钥，您应该会看到以下消息：

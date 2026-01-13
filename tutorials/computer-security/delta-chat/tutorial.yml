@@ -1,5 +1,7 @@
 id: 016e9489-e1dd-460c-b3bd-5863408d9604
 
+last_update_date: 2026-01-02
+
 project_id: d9a7720c-2694-4a1f-a322-f4ea572fd27b
 
 level: beginner
@@ -22,4 +24,4 @@ proofreading:
     urgency: 1
     contributor_names:
       - SatoSats
-    reward: 0
+    reward: 0.5

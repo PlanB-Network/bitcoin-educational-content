@@ -1,4 +1,7 @@
 id: dea4ce14-b628-4b53-ab6e-94aa349ded8a
+
+last_update_date: 2025-08-24
+
 professor_id: 81a82a0f-3003-4459-9d6a-67f860efb20e
 level: beginner
 category: operating system
@@ -57,7 +60,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.97
+    reward: 2.87
   - language: id
     last_contribution_date:
     urgency: 1
@@ -72,7 +75,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.42
+    reward: 2.87
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -123,7 +126,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.42
+    reward: 2.87
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -143,7 +146,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.42
+    reward: 2.87
   - language: bg
     last_contribution_date:
     urgency: 1

@@ -719,7 +719,7 @@ Pada tahun 2010, ketika Bitcoin mulai menarik perhatian media, Satoshi memutuska
 
 Bagi sebagian orang, Bitcoin didefinisikan sebagai entitas jamur seperti [miselium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), sementara yang lain menggambarkannya sebagai [lubang hitam](https://dergigi.com/). Suka atau tidak suka, Bitcoin terus ada, dengan ritme konstan 10 menit per blok, seperti detak jantung sistem moneter baru.
 
-Untuk mempelajari lebih lanjut tentang tulisan-tulisan Satoshi Nakamoto, kami sarankan untuk membaca ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) oleh Phil Champagne atau film dokumenter ARTE "Le mystaire Satoshi".
+Untuk memperdalam pemahaman tentang tulisan-tulisan Satoshi Nakamoto, saya merekomendasikan membaca [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) karya Phil Champagne, yang menghimpun dan mengontekstualisasikan teks-teks utamanya, serta dokumenter ARTE [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), yang menawarkan penyelidikan yang mudah diakses dan terdokumentasi dengan baik mengenai identitas dan warisannya.
 
 ![image](assets/id/044.webp)
 

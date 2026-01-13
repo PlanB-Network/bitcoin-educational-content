@@ -1,5 +1,7 @@
 id: 9398be37-d716-462a-abb3-ce2160833114
 
+last_update_date: 2025-12-15
+
 tags:
   - onchain
   - guides
@@ -70,7 +72,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.35
+    reward: 3.85
   - language: id
     last_contribution_date:
     urgency: 1
@@ -85,7 +87,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.6
+    reward: 3.85
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -115,7 +117,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.6
+    reward: 3.85
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -150,7 +152,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.6
+    reward: 3.85
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

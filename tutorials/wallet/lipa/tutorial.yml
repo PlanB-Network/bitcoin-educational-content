@@ -1,5 +1,7 @@
 id: 61019fbd-deb7-4b3c-8cda-0402a4b2e780
 
+last_update_date: 2025-02-13
+
 project_id: 9e772cca-d361-49f2-96d3-0607dcde0403
 
 category: mobile
@@ -65,7 +67,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.22
+    reward: 1.87
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -90,12 +92,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.22
+    reward: 1.87
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.58
+    reward: 1.87
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -146,7 +148,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.22
+    reward: 1.87
   - language: bg
     last_contribution_date:
     urgency: 1

@@ -65,7 +65,7 @@ zipファイルをダウンロードしてください。
 1. 次のコマンドでPlan ₿ Networkの公開PGPキーをインポートします：
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
 ```
 
 PGPキーを正常にインポートした場合、以下のようなメッセージが表示されます

@@ -719,7 +719,7 @@ En 2010, cuando Bitcoin empezó a atraer la atención de los medios, Satoshi dec
 
 Para algunos, Bitcoin se define como una entidad fúngica como un [micelio](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), mientras que otros lo describen como un [agujero negro](https://dergigi.com/). Lo ame o lo odie, Bitcoin sigue existiendo, con su ritmo constante de 10 minutos por bloque, como el latido de un nuevo sistema monetario.
 
-Para saber más sobre los escritos de Satoshi Nakamoto, recomendamos leer ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) de Phil Champagne o el documental de ARTE "Le mystaire Satoshi".
+Para profundizar en los escritos de Satoshi Nakamoto, recomiendo la lectura de [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) de Phil Champagne, que reúne y contextualiza sus principales textos, así como el documental de ARTE [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), que propone una investigación accesible y bien documentada sobre su identidad y su legado.
 
 ![image](assets/es/044.webp)
 

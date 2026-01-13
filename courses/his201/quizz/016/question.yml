@@ -59,7 +59,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.22
+    reward: 0.2
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -79,7 +79,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.22
+    reward: 0.2
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -109,7 +109,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.23
+    reward: 0.2
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -140,7 +140,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Dahl23
-    reward: 0.11
+    reward: 0.1
   - language: bg
     last_contribution_date: '2025-12-29'
     urgency: 1

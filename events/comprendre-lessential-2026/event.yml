@@ -1,0 +1,21 @@
+id: 9e7815ac-5740-40d5-8031-f611f300864c
+start_date: 2026-01-31 08:00:00
+end_date: 2026-02-02 16:30:00
+timezone: Europe/Paris
+address_city_country: Paris, France
+address_line_2: 75010 Paris, it will be received by email
+address_line_3:
+name: "Bitcoin: Comprendre l'Essentiel"
+type: conference
+description: |
+  "Bitcoin: Comprendre l'Essentiel" is a free, in-person event taking place from August 16-18, 2025, at the Vancouver Convention Centre in Vancouver, Canada. This event is designed to provide attendees with a comprehensive understanding of Bitcoin, covering its fundamental concepts, technology, and practical applications. Whether you're new to Bitcoin or looking to deepen your knowledge, this event offers valuable insights through expert-led sessions and interactive workshops."
+language:
+  - fr
+links:
+  website: https://bce-bip21.fr/
+  replay_url:
+  live_url:
+tags:
+  - self-sovereignty
+  - guides
+  - adoption

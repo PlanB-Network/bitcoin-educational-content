@@ -1,5 +1,5 @@
 ---
-name: Spara din Mnemonic-fras
+name: Spara den mnemoniska frasen
 description: Upptäck bästa praxis för att skydda din Bitcoin Wallet
 ---
 ![cover](assets/cover.webp)

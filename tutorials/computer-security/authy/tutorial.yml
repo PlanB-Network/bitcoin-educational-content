@@ -1,5 +1,7 @@
 id: a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+last_update_date: 2024-08-31
+
 category: authentication
 
 level: beginner
@@ -33,7 +35,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.38
+    reward: 2.0
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -84,7 +86,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.38
+    reward: 2.0
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -94,7 +96,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.76
+    reward: 2.0
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -146,7 +148,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.38
+    reward: 2.0
   - language: bg
     last_contribution_date:
     urgency: 1

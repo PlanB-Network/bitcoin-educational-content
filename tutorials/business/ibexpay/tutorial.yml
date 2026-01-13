@@ -1,4 +1,7 @@
 id: d0c2dd23-1b90-4594-87e9-a062657151b6
+
+last_update_date: 2025-11-12
+
 project_id: e32d7286-78a5-40bf-994a-4830e1760939
 level: beginner
 category: point-of-sale
@@ -59,7 +62,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.0
+    reward: 1.46
   - language: id
     last_contribution_date:
     urgency: 1
@@ -74,7 +77,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.73
+    reward: 1.46
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -104,7 +107,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.73
+    reward: 1.46
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -134,7 +137,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.73
+    reward: 1.46
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

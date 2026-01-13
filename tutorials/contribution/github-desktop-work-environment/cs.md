@@ -96,6 +96,6 @@ Pro tento účel máte k dispozici několik možností. Ačkoliv standardní poz
 - Nainstalujte jeden z těchto programů a nechte ho stranou pro vaše budoucí úpravy. ![github-desktop](assets/26.webp)
 Gratulujeme! Vaše pracovní prostředí je nyní připraveno k přispívání do Plan ₿ Academy. Nyní můžete prozkoumat naše další specifické tutoriály pro každý typ příspěvku (překlad, korektury, psaní.
 
-https://planb.academy/tutorials/others
+https://planb.academy/tutorials/contribution
 
 ..).

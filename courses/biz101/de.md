@@ -9,7 +9,7 @@ objectives:
 ---
 # Starte die Reise deines Unternehmens im Bitcoin-Netzwerk
 
-Entdecke die praktischen Möglichkeiten des Bitcoin- und Lightning-Netzwerks und erfahre, wie sie, ähnlich wie das Internet, deine Geschäftsabläufe transformieren können. Von der Bilanz bis hin zu schnellen, wirtschaftlichen und skalierbaren Zahlungen bietet Bitcoin ein breites Spektrum an Anwendungsfällen für Unternehmen.
+Entdecke die praktischen Möglichkeiten des Bitcoin- und Lightning-Netzwerks und erfahre, wie sie, ähnlich wie das Internet, deine Geschäftsabläufe transformieren können. Von der Bilanz (Treasury) bis hin zu schnellen, wirtschaftlichen und skalierbaren Zahlungen bietet Bitcoin ein breites Spektrum an Anwendungsfällen für Unternehmen.
 
 In diesem Kurs lernst du, Bitcoin als globales, universelles und internetnatives Währungsnetzwerk zu verstehen. Mit seinen einzigartigen grundlegenden Eigenschaften bietet Bitcoin erhebliche Verbesserungen gegenüber traditionellen Währungen. Du wirst entdecken, warum und wie du Bitcoin für klassische Finanzanwendungsfälle wie Kapitalaufbewahrung und Zahlungssysteme nutzen kannst. Darüber hinaus behandelt dieser Kurs den Erwerb und das Halten von Bitcoin, einschließlich der damit verbundenen buchhalterischen und steuerlichen Anforderungen, sowie die Implementierung einfacher oder umfangreicher Bitcoin-Zahlungslösungen.
 
@@ -441,13 +441,13 @@ https://planb.academy/courses/9d1bde6a-33e5-45dd-b7c0-94da72e45b11
 
 https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
-## Bitcoin in der Staatskasse halten
+## Bitcoin in der Bilnaz halten
 
 <chapterId>89622a40-d14f-4c37-a075-8e7e1731ec26</chapterId>
 
 ### Die Herausforderungen an die Finanzverwaltung eines Unternehmens
-
 Die Bilanz ist der Ort, an dem man wertvolle Dinge aufbewahrt. Ein gesundes Unternehmen verfügt über eine angemessene Kapitalausstattung, damit es künftige Unwägbarkeiten bewältigen und seine Investitionen planen kann. Heutzutage wird ein Teil der überschüssigen Eigenmittel in Finanzanlagen angelegt, die als besonders "liquide" gelten, wie Anleihen, Festgelder usw.
+
 
 Über einen sehr langen Zeitraum hinweg nutzen einige Unternehmen illiquide Vermögenswerte wie Immobilien, ohne sich bestimmter Gefahren bewusst zu sein:
 

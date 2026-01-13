@@ -53,16 +53,17 @@ Hier ist ein kurzer Vergleich zwischen White Noise und einer Reihe der bekanntes
 
 
 
-| Points de comparaisons      | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
-| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
-| Chiffrement E2EE / 1:1      | ✅ Oui       | Facultatif | ✅ Oui           | ✅ Oui   | ✅ Oui    | ✅ Oui            | ✅ Oui  |
-| Chiffrement de groupe E2EE  | ✅ Oui       | ❌ Non      | ✅ Oui           | ✅ Oui   | ✅ Oui    | Facultatif       | ✅ Oui  |
-| Anonymisation de l'identité | ✅ Oui       | Facultatif | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Serveur open source         | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Client open source          | ✅ Oui       | ✅ Oui      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Serveur décentralisé        | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Année de création           | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
+
+| Vergleichspunkte            | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| E2EE-Verschlüsselung / 1:1  | ✅ Ja         | Optional   | ✅ Ja             | ✅ Ja    | ✅ Ja     | ✅ Ja              | ✅ Ja   |
+| Gruppen-E2EE-Verschlüsselung| ✅ Ja         | ❌ Nein     | ✅ Ja             | ✅ Ja    | ✅ Ja     | Optional          | ✅ Ja   |
+| Anonymisierung der Identität| ✅ Ja         | Optional   | ❌ Nein           | ✅ Ja    | ❌ Nein   | ❌ Nein            | ❌ Nein |
+| Open-Source-Server          | ✅ Ja         | ❌ Nein     | ❌ Nein           | ✅ Ja    | ❌ Nein   | ❌ Nein            | ✅ Ja   |
+| Open-Source-Client          | ✅ Ja         | ✅ Ja        | ❌ Nein           | ✅ Ja    | ❌ Nein   | ❌ Nein            | ✅ Ja   |
+| Dezentraler Server          | ✅ Ja         | ❌ Nein     | ❌ Nein           | ✅ Ja    | ❌ Nein   | ❌ Nein            | ❌ Nein |
+| Gründungsjahr               | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
 ## Erste Schritte mit White Noise
 

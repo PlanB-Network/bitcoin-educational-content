@@ -41,16 +41,17 @@ MLS (Messaging Layer Security), on the other hand, is a security protocol that e
 Here's a quick comparison between White Noise and a number of the best-known messaging applications.
 
 
-| Points de comparaisons      | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
-| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
-| Chiffrement E2EE / 1:1      | ✅ Oui       | Facultatif | ✅ Oui           | ✅ Oui   | ✅ Oui    | ✅ Oui            | ✅ Oui  |
-| Chiffrement de groupe E2EE  | ✅ Oui       | ❌ Non      | ✅ Oui           | ✅ Oui   | ✅ Oui    | Facultatif       | ✅ Oui  |
-| Anonymisation de l'identité | ✅ Oui       | Facultatif | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Serveur open source         | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Client open source          | ✅ Oui       | ✅ Oui      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Serveur décentralisé        | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Année de création           | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
+
+| Comparison points           | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| E2EE encryption / 1:1       | ✅ Yes        | Optional   | ✅ Yes            | ✅ Yes   | ✅ Yes    | ✅ Yes             | ✅ Yes  |
+| Group E2EE encryption       | ✅ Yes        | ❌ No       | ✅ Yes            | ✅ Yes   | ✅ Yes    | Optional          | ✅ Yes  |
+| Identity anonymization      | ✅ Yes        | Optional   | ❌ No             | ✅ Yes   | ❌ No     | ❌ No              | ❌ No   |
+| Open source server          | ✅ Yes        | ❌ No       | ❌ No             | ✅ Yes   | ❌ No     | ❌ No              | ✅ Yes  |
+| Open source client          | ✅ Yes        | ✅ Yes       | ❌ No             | ✅ Yes   | ❌ No     | ❌ No              | ✅ Yes  |
+| Decentralized server        | ✅ Yes        | ❌ No       | ❌ No             | ✅ Yes   | ❌ No     | ❌ No              | ❌ No   |
+| Year of creation            | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
 ## Getting started with White Noise
 

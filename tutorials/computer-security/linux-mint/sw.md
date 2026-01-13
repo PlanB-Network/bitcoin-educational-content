@@ -56,7 +56,6 @@ Epuka:
 - Chromebook - mara nyingi uwezo wa kuhifadhi ni mdogo sana
 - Kompyuta yoyote iliyo na kiendeshi cha eMMC; Ikiwa ina gari la SSD, hiyo ni kamili
 - Mac - ni ghali, na vifaa haviendani vizuri na mifumo ya uendeshaji ya Linux katika uzoefu wangu
-- Kitu chochote kilichorekebishwa au mkono wa 2 (sio mvunja mkataba kabisa)
 
 
 Badala yake, tafuta kompyuta ya mkononi ya Windows 11 (Kwa sasa Windows 11 ndiyo toleo jipya zaidi. Tutaondoa programu hiyo, usijali.). Nilitafuta kwenye amazon.com kwa "Laptop ya Windows 11" na nikapata mfano huu mzuri:

@@ -1,5 +1,5 @@
 ---
-name: backup-mnemonic
+name: Hifadhi kauli ya kumbukumbu yako
 description: Gundua mbinu bora za kulinda Bitcoin Wallet yako
 ---
 ![cover](assets/cover.webp)

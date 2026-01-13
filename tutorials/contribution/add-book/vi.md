@@ -75,9 +75,9 @@ tags:
 ![book](assets/15.webp)
 - Bạn sẽ thấy thông báo ở đầu cửa sổ về nhánh (branch) mới của bạn (thường tên là `patch-1`). Nhấn vào đó:
 ![book](assets/16.webp)
-- Bây giờ bạn đang ở trên nhánh làm việc của mình:
+- Bây giờ, bạn đang ở trên nhánh làm việc của mình:
 ![book](assets/17.webp)
-- Quay lại thư mục `resources/books/` và và chọn thư mục sách mà bạn vừa tạo ở commit trước:
+- Quay lại thư mục `resources/books/` và chọn thư mục sách mà bạn vừa tạo ở commit trước:
 ![book](assets/18.webp)
 - Trong thư mục của sách, nhấn vào nút `Add file`, sau đó chọn `Create new file`:
 ![book](assets/19.webp)
@@ -101,11 +101,11 @@ tags:
 ![book](assets/28.webp)
 - Lưu ý quan trọng: Ảnh phải được đặt tên là `cover_en` nếu bìa bằng tiếng Anh và phải ở định dạng `.webp`. Tên file đầy đủ sẽ là `cover_en.webp`, `cover_fr.webp`, `cover_it.webp`, v.v. Nếu bạn muốn dùng bìa khác nhau cho từng ngôn ngữ (ví dụ sách dịch), bạn có thể đặt tất cả trong cùng thư mục assets:
 ![book](assets/29.webp)
-- Quay lại thư mục `assets` và nhấn vào tệp trung gian `.gitkeep`:
+- Quay lại thư mục `assets` và nhấn vào tệp `.gitkeep`:
 ![book](assets/30.webp)
 - Tại giao diện của tệp này, nhấn vào dấu ba chấm nhỏ ở góc trên bên phải rồi chọn `Delete file`:
 ![book](assets/31.webp)
-- Đảm bảo bạn vẫn đang ở trên cùng một nhánh làm việc, sau đó nhấn vào nút `Commit changes...`:
+- Đảm bảo rằng bạn vẫn đang ở đúng nhánh làm việc hiện tại, sau đó nhấn vào nút `Commit changes...`:
 ![book](assets/32.webp)
 - Thêm tiêu đề và mô tả cho commit của bạn, rồi nhấn vào `Commit changes`:
 ![book](assets/33.webp)
@@ -133,7 +133,7 @@ Dưới đây là chi tiết cần điền cho mỗi trường:
 - **`description`**: Thêm một mô tả ngắn về sách. Mô tả phải bằng ngôn ngữ tương ứng với tên tệp YAML.
 - **`contributors`**: Thêm ID người đóng góp (contributor) của bạn nếu có.
 
-Ví dụ, tệp YAML của bạn có thể trông như thế sau:
+Ví dụ, tệp YAML của bạn có thể trông như thế này:
 
 ```yaml
 title: "Cuốn Sách Bitcoin Của Tôi"
@@ -157,7 +157,7 @@ contributors:
 ![book](assets/40.webp)
 - Nếu mọi thứ đều ổn, quay lại thư mục gốc của bản fork:
 ![book](assets/41.webp)
--Bạn sẽ thấy một thông báo cho biết nhánh của mình vừa có thay đổi mới. Nhấn vào nút  `Compare & pull request`:
+- Bạn sẽ thấy một thông báo cho biết nhánh của mình vừa có thay đổi mới. Nhấn vào nút  `Compare & pull request`:
 ![book](assets/42.webp)
 - Thêm tiêu đề rõ ràng và mô tả cho PR (Pull Request) của bạn:
 ![book](assets/43.webp)
@@ -167,6 +167,6 @@ contributors:
 
 Chúc mừng! Pull Request của bạn đã được khởi tạo thành công. Đội ngũ quản trị viên sẽ tiến hành kiểm tra và nếu mọi thứ đều đạt yêu cầu, họ sẽ gộp (merge) nó vào repository chính của Plan ₿ Academy. Bạn sẽ thấy sách của mình xuất hiện trên website sau vài ngày.
 
-Đừng quên theo dõi tiến độ của bản PR nhé. Quản trị viên có thể để lại bình luận yêu cầu bổ sung thông tin hoặc điều chỉnh. Chừng nào PR của bạn chưa được phê duyệt, bạn vẫn có thể theo dõi nó trong thẻ `Pull requests` trên repository của Plan ₿ Academy:
+Đừng quên theo dõi tiến độ của bản PR nhé. Quản trị viên có thể để lại bình luận yêu cầu bổ sung thông tin hoặc điều chỉnh. Chừng nào PR của bạn chưa được phê duyệt, bạn vẫn có thể theo dõi PR này trong thẻ `Pull requests` trên repository của Plan ₿ Academy:
 ![book](assets/45.webp)
 Chân thành cảm ơn sự đóng góp quý giá của bạn! :)

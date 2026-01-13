@@ -115,9 +115,9 @@ links:
 - Đó có thể là một bản xem trước, logo, hoặc biểu tượng: ![event](assets/27.webp)
 - Sau khi hình ảnh đã được tải lên, đảm bảo rằng ô `Commit directly to the patch-1 branch` đã được chọn, sau đó nhấn `Commit changes`: ![event](assets/28.webp)
 - Lưu ý, hình ảnh của bạn phải được đặt tên là `logo` và phải ở định dạng `.webp`. Tên tệp tin đầy đủ phải là: `logo.webp`: ![event](assets/29.webp)
-- Quay lại thư mục `assets` của và nhấp vào tệp trung gian `.gitkeep`: ![event](assets/30.webp)
+- Quay lại thư mục `assets` và nhấp vào tệp `.gitkeep`: ![event](assets/30.webp)
 - Tại giao diện của tệp này, nhấn vào dấu ba chấm nhỏ ở góc trên bên phải rồi chọn `Delete file`: ![event](assets/31.webp)
-- Đảm bảo bạn vẫn đang ở trên cùng một nhánh làm việc, sau đó nhấn vào nút `Commit changes`: ![event](assets/32.webp)
+- Đảm bảo rằng bạn vẫn đang ở đúng nhánh làm việc hiện tại, sau đó nhấn vào nút `Commit changes`: ![event](assets/32.webp)
 - Thêm một tiêu đề và mô tả cho commit này, sau đó nhấn vào nút `Commit changes`: ![event](assets/33.webp)
 - Quay lại thư mục nội dung của bạn: ![event](assets/34.webp)
 - Nhấn vào nút `Add file`, sau đó chọn `Create new file`: ![event](assets/35.webp)
@@ -208,7 +208,7 @@ Thao tác này giúp chúng ta xác định trước đường dẫn cố địn
 ![event](assets/55.webp)
 Chúc mừng! Pull Request của bạn đã được khởi tạo thành công. Đội ngũ quản trị viên sẽ tiến hành kiểm tra và nếu mọi thứ đều đạt yêu cầu, họ sẽ gộp (merge) nó vào repository chính của Plan ₿ Academy. Bạn sẽ thấy bộ công cụ giáo dục (BET) của mình xuất hiện trên website sau vài ngày.
 
-Đừng quên theo dõi tiến độ của bản PR nhé. Quản trị viên có thể để lại bình luận yêu cầu bổ sung thông tin hoặc điều chỉnh. Chừng nào PR của bạn chưa được phê duyệt, bạn vẫn có thể theo dõi nó trong thẻ "Pull requests" trên repository của Plan ₿ Academy:
+Đừng quên theo dõi tiến độ của bản PR nhé. Quản trị viên có thể để lại bình luận yêu cầu bổ sung thông tin hoặc điều chỉnh. Chừng nào PR của bạn chưa được phê duyệt, bạn vẫn có thể theo dõi PR này trong thẻ "Pull requests" trên repository của Plan ₿ Academy:
 ![event](assets/56.webp)
 Chân thành cảm ơn sự đóng góp quý giá của bạn! :)
 

@@ -145,7 +145,7 @@ category: education
 ![project](assets/30.webp)
 - Tại giao diện của tệp này, nhấn vào dấu ba chấm nhỏ ở góc trên bên phải rồi chọn `Delete file`:
 ![project](assets/31.webp)
-- Đảm bảo bạn vẫn đang ở trên cùng một nhánh làm việc, sau đó nhấn vào nút `Commit changes`:
+- Đảm bảo rằng bạn vẫn đang ở đúng nhánh làm việc hiện tại, sau đó nhấn vào nút `Commit changes`:
 ![project](assets/32.webp)
 - Thêm một tiêu đề và mô tả cho commit này, sau đó nhấn vào nút `Commit changes`:
 ![project](assets/33.webp)
@@ -189,7 +189,7 @@ contributors:
 ![project](assets/44.webp)
 Chúc mừng! Pull Request của bạn đã được khởi tạo thành công. Đội ngũ quản trị viên sẽ tiến hành kiểm tra và nếu mọi thứ đều đạt yêu cầu, họ sẽ gộp (merge) nó vào repository chính của Plan ₿ Academy. Bạn sẽ thấy bộ công cụ giáo dục (BET) của mình xuất hiện trên website sau vài ngày.
 
-Đừng quên theo dõi tiến độ của bản PR nhé. Quản trị viên có thể để lại bình luận yêu cầu bổ sung thông tin hoặc điều chỉnh. Chừng nào PR của bạn chưa được phê duyệt, bạn vẫn có thể theo dõi nó trong thẻ "Pull requests" trên repository của Plan ₿ Academy:
+Đừng quên theo dõi tiến độ của bản PR nhé. Quản trị viên có thể để lại bình luận yêu cầu bổ sung thông tin hoặc điều chỉnh. Chừng nào PR của bạn chưa được phê duyệt, bạn vẫn có thể theo dõi PR này trong thẻ "Pull requests" trên repository của Plan ₿ Academy:
 ![project](assets/45.webp)
 Chân thành cảm ơn sự đóng góp quý giá của bạn! :)
 

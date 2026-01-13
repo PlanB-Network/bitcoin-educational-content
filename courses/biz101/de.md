@@ -23,11 +23,11 @@ Ob du ein kleines Unternehmen oder einen großen Konzern hast, die Integration v
 
 <chapterId>1be42be9-4080-49f5-b5b2-6b531dd55f5f</chapterId>
 
-Willkommen im BIZ101-Kurs! Starte die Reise deines Unternehmens in das Bitcoin-Netzwerk mit diesem umfassenden Trainingskurs - ein Tor zum Verständnis, wie Bitcoin und das Lightning-Netzwerk die traditionellen Geschäftsabläufe revolutionieren können. Dieser Kurs richtet sich an Einzelhändler, Unternehmer, Manager und Entscheidungsträger in Unternehmen, die die praktischen Möglichkeiten von Bitcoin als globales, internetbasiertes monetäres Netzwerk und robustes Mittel des Wertaustauschs erkunden möchten.
+Willkommen im BIZ101-Kurs! Starte die Reise deines Unternehmens in das Bitcoin-Netzwerk mit diesem umfassenden Trainingskurs - ein Tor zum Verständnis, wie Bitcoin und das Lightning Network die traditionellen Geschäftsabläufe revolutionieren können. Dieser Kurs richtet sich an Einzelhändler, Unternehmer, Manager und Entscheidungsträger in Unternehmen, die die praktischen Möglichkeiten von Bitcoin als globales, internetbasiertes monetäres Netzwerk und robustes Mittel des Wertaustauschs erkunden möchten.
 
-Im Laufe des Kurses wirst du mit den grundlegenden Prinzipien vertraut gemacht, die Bitcoin und das Lightning-Netzwerk so einzigartig und transformativ machen. Du wirst lernen, wie diese Technologien ein Spektrum von Anwendungsfällen bieten, von der digitalen Kapitalspeicherung bis zu schnellen, wirtschaftlichen und skalierbaren Zahlungen, und wie sie entscheidende Verbesserungen gegenüber traditionellen Währungs- und Zahlungssystemen bieten. Der BIZ101-Kurs verbindet ökonomische Theorie mit realen Anwendungen und verdeutlicht, wie Dezentralisierung die Abhängigkeit von Zwischenhändlern reduzieren und die Einschränkungen bestehender Systeme überwinden kann.
+Im Laufe des Kurses wirst du mit den grundlegenden Prinzipien vertraut gemacht, die Bitcoin und das Lightning Network so einzigartig und transformativ machen. Du wirst lernen, wie diese Technologien ein Spektrum von Anwendungsfällen bieten, von der digitalen Kapitalspeicherung bis zu schnellen, wirtschaftlichen und skalierbaren Zahlungen, und wie sie entscheidende Verbesserungen gegenüber traditionellen Währungs- und Zahlungssystemen bieten. Der BIZ101-Kurs verbindet ökonomische Theorie mit realen Anwendungen und verdeutlicht, wie Dezentralisierung die Abhängigkeit von Zwischenhändlern reduzieren und die Einschränkungen bestehender Systeme überwinden kann.
 
-Der Kurs beginnt mit einer detaillierten Untersuchung herkömmlicher Währungen und Zahlungsmechanismen, wobei die Grundlagen geschaffen werden, indem untersucht wird, wie Währungen als Netzwerk funktionieren, um Handel, Sparen und wirtschaftliche Spezialisierung zu ermöglichen. Anschließend werden wir uns mit der Technologie hinter Bitcoin und den vom Lightning-Netzwerk eingeführten Innovationen befassen und seine Rolle bei der Erleichterung nahtloser, sicherer und nahezu sofortiger Transaktionen aufzeigen, die Unternehmen jeder Größe dienen können. Dann werden wir in die praktischen Abschnitte dieses Kurses eintauchen, beginnend mit einem Teil über das Halten von Bitcoins als Wertspeicher, gefolgt von einem letzten Teil über die Annahme von Bitcoin als Zahlungsmittel.
+Der Kurs beginnt mit einer detaillierten Untersuchung herkömmlicher Währungen und Zahlungsmechanismen, wobei die Grundlagen geschaffen werden, indem untersucht wird, wie Währungen als Netzwerk funktionieren, um Handel, Sparen und wirtschaftliche Spezialisierung zu ermöglichen. Anschließend werden wir uns mit der Technologie hinter Bitcoin und den vom Lightning Network eingeführten Innovationen befassen und seine Rolle bei der Erleichterung nahtloser, sicherer und nahezu sofortiger Transaktionen aufzeigen, die Unternehmen jeder Größe dienen können. Dann werden wir in die praktischen Abschnitte dieses Kurses eintauchen, beginnend mit einem Teil über das Halten von Bitcoins als Wertspeicher, gefolgt von einem letzten Teil über die Annahme von Bitcoin als Zahlungsmittel.
 
 Egal, ob du ein kleines Unternehmen oder einen großen Konzern vertrittst, dieser Kurs zielt darauf ab, dich mit dem Wissen auszustatten, das du benötigst, um Bitcoin in deine täglichen Abläufe zu integrieren und dadurch die Widerstandsfähigkeit, die Effizienz und den Wettbewerbsvorteil deines Unternehmens zu verbessern. Da Bitcoin weiterhin die wirtschaftliche Landschaft umgestalten wird, ist das Verständnis dieser bahnbrechenden Technologie nicht nur eine Option, sondern eine strategische Notwendigkeit. Bereite dich auf aufschlussreiche Inhalte, praktische Beispiele und strategische Anleitungen vor, die dich in die Lage versetzen, dich  durch die entwickelnde Welt von Bitcoin zu navigieren und ihn zu nutzen!
 
@@ -204,19 +204,19 @@ Zusammen machen sie Bitcoin zu einem **Inhaberwert** und einer digitalen Währun
 
 ![BIZ101](assets/de/003.webp)
 
-Bitcoin hat eine feste Geldpolitik, mit einem **Maximum von 21 Millionen Bitcoins**, von denen ~19,8 Millionen bereits gemined worden sind. Dies macht ihn **deflationär**, wobei sein Wert im Laufe der Zeit steigt, da die Nutzer Ersparnisse und Produktivitätsgewinne in ihm speichern.
+Bitcoin hat eine feste Geldpolitik, mit einem **Maximum von 21 Millionen Bitcoins**, von denen ~19,8 (2024) Millionen bereits gemined worden sind. Dies macht ihn **deflationär**, wobei sein Wert im Laufe der Zeit steigt, da die Nutzer Ersparnisse und Produktivitätsgewinne in ihm speichern.
 
 Seine technischen Eigenschaften übertreffen die von Gold und dem Dollar zusammen und machen ihn zum härtesten Finanzwert, der je geschaffen wurde. Bitcoin ist sowohl ein Wertaufbewahrungsmittel als auch ein Tauschmittel, eine Währung im Entstehen. Stell dir vor, du könntest schnell, ohne Vermittler, zu minimalen Kosten, ohne Betrug, rund um die Uhr und ohne Beteiligung Dritter Werte aus der Kasse eines Unternehmens in eine andere transferieren.
 
 ![BIZ101](assets/de/004.webp)
 
-Bitcoin ist effektiv wertbeständig, da sein Ledger (Hauptbuch) fälschungssicher ist. Sein Wert steigt aufgrund des seltenen und begrenzten Angebots in Verbindung mit der wachsenden Zahl von Tauschmöglichkeiten, die durch die steigende Zahl von Nutzern bedingt sind.
+Bitcoin ist effektiv wertbeständig, da sein Ledger (Kassenbuch) fälschungssicher ist. Sein Wert steigt aufgrund des seltenen und begrenzten Angebots in Verbindung mit der wachsenden Zahl von Tauschmöglichkeiten, die durch die steigende Zahl von Nutzern bedingt sind.
 
 Bitcoin ist bahnbrechend, weil er uns dazu anregt, Konzepte in den Bereichen Mathematik, Kryptographie, Wirtschaft und Geschichte zu lernen, die uns nie beigebracht wurden. Obwohl er oft als komplex wahrgenommen wird, ist er in Wirklichkeit eine Innovation, die durch Übung und Experimentieren zugänglich ist.
 
 Bitcoin fordert uns heraus, die Natur des Geldes selbst zu überdenken. Könntest du erklären, was Geld wirklich ist? Ein Angestellter oder Unternehmer verbringt vielleicht 50.000 bis 100.000 Stunden seines Lebens damit, Geld zu verdienen, aber wie viele **wenden auch nur 100 Stunden auf, um es besser zu verstehen** und aufzubewahren? Bitcoin ermutigt uns, die grundlegenden Gründe für unser Bedürfnis nach Geld und unsere zeitliche Perspektive zu hinterfragen. Dient Geld dem sofortigen Luxus oder der langfristigen Beständigkeit? Wenn wir einen wertsteigernden Vermögenswert hätten, der uns erlaubt, Käufe aufzuschieben, welche Entscheidungen würden wir dann treffen? Welche Gespräche würden wir mit uns selbst in 20 oder 30 Jahren führen wollen?
 
-**BITCOIN-AUSWEIS**
+**BITCOIN-AUSWEIS (2024)**
 
 - **Alter:** 15 Jahre (3. Januar 2009)
 - **Tägliches Handelsvolumen:** $10 Milliarden (> CAC40)
@@ -242,13 +242,13 @@ Für weitere Informationen über Bitcoin, seine Geschichte, seine Funktionsweise
 
 https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
-## Einführung in das Lightning-Netzwerk
+## Einführung in das Lightning Network
 
 <chapterId>c095c7ad-5469-4c7b-9510-b6c0b86244e7</chapterId>
 
 **WAS IST LIGHTNING?**
 
-Das Lightning-Netzwerk ist **ein Protokoll und ein Netzwerk**, das Bitcoin-Transaktionen mit minimaler Interaktion mit der Haupt-Blockchain von Bitcoin ermöglicht. So funktioniert es:
+Das Lightning Network ist **ein Protokoll und ein Netzwerk**, das Bitcoin-Transaktionen mit minimaler Interaktion mit der Haupt-Blockchain von Bitcoin ermöglicht. So funktioniert es:
 
 - **Ersteinrichtung:** Gelder werden auf der Hauptblockchain gesperrt (escrowed), um einen Zahlungskanal zwischen 2 Parteien zu etablieren.
 - **Zahlungsnetzwerk:** Ein Netz von Zahlungskanälen zwischen mehreren Parteien bildet ein Zahlungsnetzwerk (Weiterleitung und Zusammenschaltung).
@@ -258,13 +258,13 @@ Das Lightning-Netzwerk ist **ein Protokoll und ein Netzwerk**, das Bitcoin-Trans
 
 ![BIZ101](assets/de/005.webp)
 
-Dieser Ansatz vermeidet die Langsamkeit und Komplexität der Durchführung jeder Transaktion direkt auf der Bitcoin-Hauptblockchain, indem er nur die endgültigen Salden aufzeichnet und seine Sicherheit beibehält. Das Lightning-Netzwerk ist eine Schicht "auf" von Bitcoin, bleibt aber mit diesem verankert.
+Dieser Ansatz vermeidet die Langsamkeit und Komplexität der Durchführung jeder Transaktion direkt auf der Bitcoin-Hauptblockchain, indem er nur die endgültigen Salden aufzeichnet und seine Sicherheit beibehält. Das Lightning Network ist eine Schicht "auf" von Bitcoin, bleibt aber mit diesem verankert.
 
 **Ein globales Zahlungsnetzwerk**
 
 Das Protokoll schafft ein **Netzwerk** von Maschinen, deren Kanäle ein universelles Zahlungssystem bilden. Diese Nodes können von Privatpersonen oder Unternehmen frei betrieben werden, so dass es sich um ein völlig offenes Netzwerk handelt.
 
-Das Lightning-Netzwerk ermöglicht den sofortigen Austausch von Werten in Lichtgeschwindigkeit. Es ist wie ein E-Mail-Protokoll, das auf Zahlungen angewendet wird: ein Zahlungsnetzwerk der nächsten Generation. Es verändert die Art und Weise, wie "Geld" bewegt wird, radikal und macht es so kostenlos und schnell wie die Datenübertragung im Internet.
+Das Lightning Network ermöglicht den sofortigen Austausch von Werten in Lichtgeschwindigkeit. Es ist wie ein E-Mail-Protokoll, das auf Zahlungen angewendet wird: ein Zahlungsnetzwerk der nächsten Generation. Es verändert die Art und Weise, wie "Geld" bewegt wird, radikal und macht es so kostenlos und schnell wie die Datenübertragung im Internet.
 
 ![BIZ101](assets/de/006.webp)
 
@@ -290,13 +290,13 @@ Lightning bietet einen Blick in eine Zukunft, in der alle Unternehmen, die inter
 
 **Bitcoin-Zahlungen mit Lightning: Ein typischer Anwendungsfall für Händler**
 
-Das Lightning-Netzwerk ist aufgrund seiner Geschwindigkeit und der Endgültigkeit der Zahlung ideal für Bitcoin-Zahlungen in physischen oder Online-Geschäften.
+Das Lightning Network ist aufgrund seiner Geschwindigkeit und der Endgültigkeit der Zahlung ideal für Bitcoin-Zahlungen in physischen oder Online-Geschäften.
 
 - **Geschwindigkeit:** Lightning (~500ms bis wenige Sekunden) ist deutlich schneller als das Bitcoin-Hauptnetzwerk, wo Transaktionen bis zu 30 Minuten dauern können, um bestätigt zu werden. Für große Käufe (weit über 1.000 $) kann das Bitcoin-Hauptnetzwerk immer noch bevorzugt werden, da die Geschwindigkeit weniger kritisch ist. Diese Details bleiben dem Durchschnittsnutzer jedoch oft verborgen, da Anwendungen diese Entscheidungen nahtlos im Hintergrund abwickeln.
 - **Endgültigkeit:** Sobald eine Zahlung über Lightning erfolgt ist, ist sie endgültig. Es gibt keine Möglichkeit von Rückbuchungen durch Dritte oder betrugsbedingte Streitigkeiten.
-- **Gebühren:** Die Transaktionsgebühren im Lightning-Netzwerk sind minimal und werden vom Nutzer bezahlt, nicht vom Händler. Für Händler fallen nur dann Gebühren an, wenn sie ihre Bitcoin später auf ein anderes Netzwerk oder einen anderen Dienst übertragen müssen.
+- **Gebühren:** Die Transaktionsgebühren im Lightning Network sind minimal und werden vom Nutzer bezahlt, nicht vom Händler. Für Händler fallen nur dann Gebühren an, wenn sie ihre Bitcoin später auf ein anderes Netzwerk oder einen anderen Dienst übertragen müssen.
 
-**LIGHTNING-AUSWEIS**
+**LIGHTNING-AUSWEIS (2024)**
 
 - **Erfindung:** 2015
 - **Einführung:** 2016
@@ -316,7 +316,7 @@ Das Lightning-Netzwerk ist aufgrund seiner Geschwindigkeit und der Endgültigkei
     - Hohe Verfügbarkeit (hervorragende Betriebszeit)
     - Kontrollierbar und anpassungsfähig
 
-Für weitere Informationen über die technische Funktionsweise des Lightning-Netzwerks empfehle ich auch diesen anderen umfassenden Kurs zu besuchen:
+Für weitere Informationen über die technische Funktionsweise des Lightning Networks empfehle ich auch diesen anderen umfassenden Kurs zu besuchen:
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
@@ -1063,35 +1063,31 @@ Die rechtliche Anerkennung und Behandlung von Bitcoin ist von Land zu Land unter
 
 In den meisten Ländern wird Bitcoin als digitaler Vermögenswert kategorisiert, und seine Behandlung unterliegt den allgemeinen Rechnungslegungsstandards. Unternehmen müssen Bitcoin-Transaktionen wie folgt verbuchen:
 
-
 - **Erfassung von Kapitalgewinnen/-verlusten:** Unternehmen müssen realisierte Gewinne oder Verluste in ihren Finanzergebnissen ausweisen.
 - **Bewertung latenter Gewinne/Verluste:** Nicht realisierte Gewinne oder Verluste müssen häufig gemeldet werden, wirken sich aber möglicherweise nicht direkt auf das steuerpflichtige Einkommen aus.
 - **Einhaltung von Buchhaltungsstandards:** Unternehmen müssen Bitcoin-Transaktionen in die üblichen Buchhaltungspraktiken integrieren, um Transparenz und Genauigkeit zu gewährleisten.
 
 Der Ansatz für die Bitcoin-Buchführung variiert je nach geografischer Lage:
 
-
 - **Vereinigte Staaten:** Die IRS stuft Bitcoin als **Eigentum** ein, ähnlich wie Aktien, Anleihen oder Immobilien. Diese Einstufung bedeutet, dass jede Transaktion mit Kryptowährungen, wie z. B. der Erwerb, der Verkauf, der Handel oder sogar die Verwendung für Käufe, ein steuerpflichtiges Ereignis darstellen kann und die Gewinne der Kapitalertragssteuer unterliegen.
 - **Europäische Union:** Die Mitgliedstaaten behandeln Bitcoin im Allgemeinen als Spekulationsobjekt und nicht als funktionale Währung. Daher unterliegen Gewinne oft der Kapitalertragssteuer.
 - **Asien:** Länder wie Singapur und Japan haben fortschrittliche rechtliche Rahmenbedingungen eingeführt, die Bitcoin-Transaktionen in bestimmten Kontexten positiv behandeln. Bitcoin wird jedoch in der Regel als **immaterieller Vermögenswert** verbucht und am Bilanzstichtag zum beizulegenden Zeitwert bewertet, wobei Änderungen in der Gewinn- und Verlustrechnung erfasst werden.
 
-Es ist wichtig, dass du die Vorschriften in Ihrem Tätigkeitsland kennen und deine Buchführungspraktiken entsprechend anpassen.
+Es ist wichtig, dass du die Vorschriften in deinem Tätigkeitsland kennst und deine Buchführungspraktiken entsprechend anpasst.
 
 ### Herausforderungen der regulatorischen Entwicklung
 
-Das rasante Innovationstempo bei Kryptowährungen übertrifft oft den regulatorischen Rahmen. Seit der Anerkennung von Bitcoin als digitaler Vermögenswert wurden die globalen Vorschriften schrittweise aktualisiert, aber es bleiben Lücken:
-
+Das rasante Innovationstempo bei Kryptowährungen übertrifft oft den regulatorischen Rahmen. Seit der Anerkennung von Bitcoin als digitalen Vermögenswert wurden die globalen Vorschriften schrittweise aktualisiert, aber es bleiben Lücken:
 
 - **Fehlende Rechtsprechung:** Nur wenige Rechtsfälle haben bestimmte Rechnungslegungspraktiken geklärt und lassen Raum für Interpretationen.
 - **Laufende Debatten:** Fragen wie die steuerliche Behandlung latenter Verluste bleiben in vielen Rechtsordnungen ungelöst.
 - **Grenzüberschreitende Komplexität:** International tätige Unternehmen stehen vor der Herausforderung, unterschiedliche nationale Rechnungslegungsstandards miteinander in Einklang zu bringen.
 
-Trotz dieser Herausforderungen bietet die proaktive Haltung vieler Länder eine solide Grundlage für Unternehmen, die Bitcoin in deine Geschäftstätigkeit einbeziehen wollen. Kontinuierliche Aktualisierungen und internationale Harmonisierung werden unerlässlich sein, um die aufkommenden Komplexitäten bei der Rechnungslegung von Kryptowährungen anzugehen.
+Trotz dieser Herausforderungen bietet die proaktive Haltung vieler Länder eine solide Grundlage für Unternehmen, die Bitcoin in ihre Geschäftstätigkeit einbeziehen wollen. Kontinuierliche Aktualisierungen und internationale Harmonisierung werden unerlässlich sein, um die aufkommenden Komplexitäten bei der Rechnungslegung von Kryptowährungen anzugehen.
 
 ### Klassifizierung von Bitcoin in Finanzberichten
 
 Die Klassifizierung von Bitcoin in den Jahresabschlüssen variiert je nach Rechtsprechung und hängt von der beabsichtigten Verwendung innerhalb eines Unternehmens ab. Im Großen und Ganzen wird Bitcoin als digitaler Vermögenswert behandelt, ähnlich wie Vorräte, Investitionen oder Währungen, aber mit einzigartigen Merkmalen, die seine bilanzielle Behandlung beeinflussen.
-
 
 - **Digitaler Vermögenswert oder immaterieller Vermögenswert**: Viele Rechtsordnungen, darunter Frankreich und die Europäische Union, stufen Bitcoin als digitalen oder immateriellen Vermögenswert und nicht als gesetzliches Zahlungsmittel ein. Aufgrund dieser Klassifizierung müssen Unternehmen Bitcoin anders als Fiat-Währungen bilanzieren.
 - **Vorräte**: Wenn die Haupttätigkeit eines Unternehmens im Handel mit Bitcoin besteht, wie z. B. bei Kryptowährungsbörsen oder Brokern, wird Bitcoin als Vorrat eingestuft. In diesem Fall erfolgt die Bewertung nach den Rechnungslegungsstandards für Vorräte.
@@ -1099,14 +1095,12 @@ Die Klassifizierung von Bitcoin in den Jahresabschlüssen variiert je nach Recht
 
 **Auswirkungen der Klassifizierung :**
 
-
 - Langfristig angelegte Bestände erfordern häufig eine Prüfung auf Wertminderung und Abschreibung.
 - Aktive Handels- oder Zahlungstätigkeiten erfordern eine ständige Überwachung der realisierten und nicht realisierten Gewinne und Verluste.
 
 ### Methoden der Bewertung
 
 Bewertungsmethoden sind Buchhaltungstechniken, die verwendet werden, um die Kostenbasis von Bitcoin zu bestimmen, was für die genaue Berechnung von Gewinnen oder Verlusten bei Transaktionen unerlässlich ist. Im Allgemeinen ist es am besten, **einen stets aktualisierten Wert der Kosten des aktuellen Bitcoin-Bestands** im Buchhaltungssystem zu führen. Dies gewährleistet Transparenz, die Einhaltung von Steuervorschriften und verhindert, dass man in Rückstand gerät, wenn Berechnungen durchgeführt werden müssen.
-
 
 - **First In, First Out (FIFO)**: Diese Methode, die in Ländern wie Australien und Indien üblich ist, bewertet Bitcoin auf der Grundlage der frühesten Anschaffungskosten. Dies kann ziemlich **komplex** werden, da es erforderlich sein kann, jeden Bruchteil eines Bitcoins separat zu verfolgen, wenn ein Verkauf stattfindet.
 - **Gewichtete Durchschnittskosten (WAC)**: Wird aufgrund seiner **Einfachheit** oft für Transaktionen mit hohem Volumen bevorzugt, wie in Ländern wie den Vereinigten Staaten zu beobachten.
@@ -1119,17 +1113,15 @@ Einzelhändler müssen für jede Transaktion den Bitcoin-zu-Fiat-Wechselkurs auf
 
 Die Unternehmen müssen sicherstellen, dass die von ihnen verwendeten **Zahlungsinstrumente** die Möglichkeit bieten,:
 
-
-- eine Rechnung mit dem lokalen Fiat-Betrag (Euro, Dollar, Pfund), der Mehrwertsteuer oder anderen lokalen Steuern, dem auf Bitcoin lautenden Gegenwert, dem Datum und der Uhrzeit, dem Bitcoin-Wechselkurs und der Wechselquelle usw. erstellen
-- export aller Zahlungsbelege, zumindest im .csv-Format, mit allen oben genannten Informationen, so dass der Buchhalter sie leicht bearbeiten kann
-- idealerweise eine Aufzeichnung des aktualisierten Wertes der Kostenbasis für die aktuellen Bitcoin im Treasury haben
+- eine Rechnung mit dem lokalen Fiat-Betrag (Euro, Dollar, Pfund), der Mehrwertsteuer oder anderen lokalen Steuern, dem auf Bitcoin lautenden Gegenwert, dem Datum und der Uhrzeit, dem Bitcoin-Wechselkurs und der Wechselquelle usw. zu erstellen
+- alle Zahlungsbelege, zumindest im .csv-Format, mit allen oben genannten Informationen zu exportieren, so dass der Buchhalter sie leicht bearbeiten kann
+- idealerweise eine Aufzeichnung des aktualisierten Wertes der Kostenbasis für die aktuellen Bitcoin im Treasury zu erstellen
 
 ### Herausforderungen
 
-
 - **Volatilität**: Der Preis von Bitcoin schwankt erheblich, was zu Schwierigkeiten bei der Bewertung von Beständen und der Vorhersage zukünftiger finanzieller Ergebnisse führt.
 - **Regulatorische Kontrolle**: In Ländern wie China schränkt der eingeschränkte Status von Bitcoin seine Verwendung als Geldanlage ein.
-- **Regulatorische Ungewissheit**: Die sich verändernde regulatorische Landschaft von Bitcoin lässt Unternehmen oft in der Schwebe. Zum Beispiel können sich Änderungen in der Steuerpolitik, wie in Indien oder den Vereinigten Staaten, über Nacht auf die Buchhaltungspraktiken auswirken.
+- **Regulatorische Ungewissheit**: Die sich verändernde regulatorische Landschaft von Bitcoin lässt Unternehmen oft in Ungewissheit. Zum Beispiel können sich Änderungen in der Steuerpolitik, wie in Indien oder den Vereinigten Staaten, über Nacht auf die Buchhaltungspraktiken auswirken.
 - **Missmanagement-Risiken**: Eine unsachgemäße Klassifizierung oder eine fehlende Überwachung von Bitcoin-Transaktionen kann zu Compliance-Problemen, Strafen oder Rufschädigung führen.
 - **Risiken der Requalifizierung**: Wenn ein erheblicher Teil der Finanzmittel eines Unternehmens in Bitcoin gehalten wird, ist das Unternehmen potenziellen Verlusten durch Kursverluste ausgesetzt. Dies kann schwerwiegende Folgen haben, insbesondere wenn solche Kursverluste auftreten, wenn Zahlungen an Lieferanten, Mitarbeiter oder Steuern fällig sind. Darüber hinaus kann der Unternehmenseigentümer haftbar gemacht werden, was zu Geldstrafen oder anderen rechtlichen Problemen führen kann, wie z. B. dem Vorwurf des Missbrauchs von Unternehmensvermögen.
 
@@ -1139,23 +1131,22 @@ Die Unternehmen müssen sicherstellen, dass die von ihnen verwendeten **Zahlungs
 
 Wenn ein Unternehmen beschließt, Bitcoin in seine Buchhaltung zu integrieren, vereinfachen verschiedene Tools und spezialisierte Software die Erfassung und Verarbeitung von Daten. Zu den bekanntesten Lösungen gehören [CoinTracker](https://www.cointracker.io/), [Waltio](https://www.waltio.com/), [Cryptio](https://cryptio.co/), [Koinly](https://koinly.io/), [TokenTax](https://tokentax.co/), und [ZenLedger](https://zenledger.io/). Diese Plattformen konzentrieren sich hauptsächlich auf vier Aspekte:
 
-
 - automatische Datenerfassung;
 - konvertierung dieser Daten in Formate, die mit allgemeinerer Buchhaltungssoftware (QuickBooks, Xero, ERP) kompatibel sind;
 - berechnung der steuerlichen Verpflichtungen;
 - kategorisierung von Transaktionen.
 
-du sind oft eine sinnvolle Ergänzung für große Organisationen mit mehreren Wallets und Vermögenswerten auf verschiedenen Plattformen oder Börsen.
+Sie sind oft eine sinnvolle Ergänzung für große Organisationen mit mehreren Wallets und Vermögenswerten auf verschiedenen Plattformen oder Börsen.
 
 ![BIZ101](assets/de/031.webp)
 
 Für die meisten kleinen Unternehmen reicht jedoch eine einfache "csv"-Datei mit dem Transaktionsverlauf aus. Das Ziel ist es, für jede Zahlung das Datum, den Betrag, den Gegenwert in Euro/Dollar und die entsprechenden Bitcoin-Adressen zu dokumentieren. Die überwiegende Mehrheit der Bitcoin-Zahlungslösungen (BTC Pay Server, Swiss Bitcoin Pay usw.) oder Börsenplattformen (Bitfinex, Kraken, Coinbase usw.) bieten bereits einen Mechanismus zum Exportieren von Transaktionsverläufen. Wenn diese Datei einem Buchhalter zur Verfügung gestellt wird, ist es möglich, die Dateneingabe zu rationalisieren und die ein- und ausgehenden Ströme im Zusammenhang mit Bitcoin klar zu unterscheiden.
 
-Für diejenigen, die ihren Bitcoin selbst verwahren, ist die Verwaltung von UTXOs (*Unspent Transaction Outputs*) ein wichtiger Schritt. Eine ordnungsgemäße UTXO-Kennzeichnung hilft dabei, die Herkunft jedes BTC-Fragments zurückzuverfolgen, Transaktionen im Zusammenhang mit beruflichen Aktivitäten von denen für private Ausgaben zu unterscheiden und die Rückverfolgbarkeit für rechtliche oder steuerliche Zwecke zu erleichtern. Die meisten guten Bitcoin-Wallet-Programme ermöglichen es Ihnen, deine Wallet mit Hilfe Ihrer Backup-Datei (oder Ihrer xpub, je nach Einrichtung) zu importieren und UTXOs nach ihrem Ursprung oder Ziel zu kennzeichnen. Um Ihnen dabei zu helfen, finden du hier ein komplettes Tutorial zu diesem Thema:
+Für diejenigen, die ihre Bitcoin selbst verwahren, ist die Verwaltung von UTXOs (*Unspent Transaction Outputs*) ein wichtiger Schritt. Eine ordnungsgemäße UTXO-Kennzeichnung hilft dabei, die Herkunft jedes BTC-Fragments zurückzuverfolgen, Transaktionen im Zusammenhang mit beruflichen Aktivitäten von denen für private Ausgaben zu unterscheiden und die Rückverfolgbarkeit für rechtliche oder steuerliche Zwecke zu erleichtern. Die meisten guten Bitcoin-Wallet-Programme ermöglichen es dir, deine Wallet mit Hilfe deiner Backup-Datei (oder deinem xpub, je nach Einrichtung) zu importieren und UTXOs nach ihrem Ursprung oder Ziel zu kennzeichnen. Um dir dabei zu helfen, findest du hier ein komplettes Tutorial zu diesem Thema:
 
 https://planb.academy/tutorials/privacy/on-chain/utxo-labelling-d997f80f-8a96-45b5-8a4e-a3e1b7788c52
 
-Ob du nun ein kleiner Händler oder ein etablierteres Unternehmen sind, es ist möglich, **eine Rechnung in Bitcoin** zu begleichen. Der Schlüssel ist, die Transaktion richtig zu dokumentieren. Wenn du von einer selbstverwahrten Wallet aus bezahlen, ist es ideal, eine Transaktion zu erstellen, die die Rechnungsnummer und den Zweck der Zahlung in Ihren Etiketten vermerkt. Wenn du es vorziehen, die Rechnung über eine Börse zu begleichen, haben du auch die Möglichkeit, eine Quittung oder einen Transaktionsverlauf zu exportieren und in deine Buchhaltung aufzunehmen. Diese Transparenz vereinfacht die Nachverfolgung und Berichterstattung über alle deine BTC-Geschäfte.
+Ob du nun ein kleiner Händler oder ein etablierteres Unternehmen hast, es ist möglich, **eine Rechnung in Bitcoin** zu begleichen. Der Schlüssel ist, die Transaktion richtig zu dokumentieren. Wenn du von einer Self-Custody-Wallet aus bezahlst, ist es ideal, eine Transaktion zu erstellen, die die Rechnungsnummer und den Zweck der Zahlung in deinen Beschriftungen vermerkt. Wenn du es vorziehst, die Rechnung über eine Börse zu begleichen, hast du auch die Möglichkeit, eine Quittung oder einen Transaktionsverlauf zu exportieren und in deine Buchhaltung aufzunehmen. Diese Transparenz vereinfacht die Nachverfolgung und Berichterstattung über alle deine BTC-Geschäfte.
 
 ## Praktische Bitcoin-Buchhaltungsbeispiele
 
@@ -1166,7 +1157,6 @@ Ob du nun ein kleiner Händler oder ein etablierteres Unternehmen sind, es ist m
 **Szenario**: Eine kleine Bäckerei akzeptiert Bitcoin als Zahlungsmittel, wandelt aber alle erhaltenen Bitcoin sofort in Euro um, um sich nicht der Volatilität der Kryptowährungen auszusetzen.
 
 **Beispiel**:
-
 
 - **Bitcoin-Umrechnungskurs**: 1 Bitcoin = 40.000 €.
 - **Transaktion 1**: Der Kunde kauft mehrere Backwaren für 20 €.
@@ -1180,16 +1170,14 @@ Ob du nun ein kleiner Händler oder ein etablierteres Unternehmen sind, es ist m
 
 **Zusammenfassung der Vorgänge**:
 
-
-- **Gesamtumsatz**: €25.
+- **Gesamtumsatz**: 25 €.
 - **Gesamtgebühren**: 0,375 €.
 - **Erhaltene Netto-Euros**: 24.625 €.
 
 **Buchhalterische Auswirkungen**:
 
-
-- Verbuchen du den Gesamtumsatz (25 €) als Einnahmen.
-- Ziehen du die Umrechnungsgebühren (0,375 €) als Aufwand ab.
+- Verbuchen des Gesamtumsatzes (25 €) als Einnahmen.
+- Abziehen der Umrechnungsgebühren (0,375 €) als Aufwand.
 - In der Bilanz erscheinen keine Bitcoin-Bestände, da alle Beträge sofort umgewandelt wurden.
 
 ### Anwendungsfall 2: Einzelhandelsgeschäft, das 50 % der Bitcoin-Zahlungen einbehält
@@ -1197,7 +1185,6 @@ Ob du nun ein kleiner Händler oder ein etablierteres Unternehmen sind, es ist m
 **Szenario**: Dieselbe Bäckerei entscheidet sich dafür, 50 % der Bitcoin-Zahlungen als Vermögenswert zu behalten, während sie die anderen 50 % in Euro umwandelt.
 
 **Beispiel**:
-
 
 - **Bitcoin-Umrechnungskurs**: 1 Bitcoin = 40.000 €.
 - **Transaktion vom Kunden**: Der Kunde kauft Gebäck für 50 €.
@@ -1209,7 +1196,6 @@ Ob du nun ein kleiner Händler oder ein etablierteres Unternehmen sind, es ist m
 
 **Zusammenfassung**:
 
-
 - **Gesamtumsatz**: €50.
 - **Gebühren**: 0,375 €.
 - **Erhaltene Netto-Euros**: 24.625 €.
@@ -1217,10 +1203,9 @@ Ob du nun ein kleiner Händler oder ein etablierteres Unternehmen sind, es ist m
 
 **Buchhalterische Auswirkungen**:
 
-
-- Verbuchen du den Gesamtumsatz (50 €) als Einnahmen.
-- Ziehen du die Umrechnungsgebühren (0,375 €) als Aufwand ab.
-- Der zurückbehaltene Bitcoin (62.500 Satoshis) erscheint in der Bilanz als digitaler Vermögenswert.
+- Verbuchen des Gesamtumsatzes (50 €) als Einnahmen.
+- Abziehen der Umrechnungsgebühren (0,375 €) als Aufwand.
+- Zurückbehaltene Bitcoin (62.500 Satoshis) erscheinen in der Bilanz als digitaler Vermögenswert.
 - Nicht realisierter Gewinn: Wenn die Bitcoin-Bewertung am Ende des Geschäftsjahres höher oder niedriger ist, ergibt sich ein nicht realisierter Gewinn oder Verlust, der in den Finanzberichten ausgewiesen wird, aber nicht als Ertrag realisiert wird
 
 ### Anwendungsfall 3: Professionelle Dienstleistung, die Bitcoin für langfristige Investitionen zurückhält
@@ -1229,24 +1214,21 @@ Ob du nun ein kleiner Händler oder ein etablierteres Unternehmen sind, es ist m
 
 **Beispiel**:
 
-
-- **Bitcoin-Umrechnungskurs bei Auszahlung**: 1 Bitcoin = 30.000 €.
+- **Bitcoin-Umrechnungskurs bei Zahlung**: 1 Bitcoin = 30.000 €.
 - **Transaktion vom Kunden**: Der Kunde zahlt für Dienstleistungen im Wert von 3.000 €.
     - Bitcoin-Gegenwert: (3.000 / 30.000) = 0,1 Bitcoin = 10.000.000 Satoshis.
 - **Bewertung zum Jahresende**:
     - Bitcoin-Umrechnungskurs zum Jahresende: 1 Bitcoin = 35.000 €.
-    - Bewertung der Bitcoin-Holding: 0.1 Bitcoin × 35.000 € = 3.500 €.
+    - Bewertung der Bitcoin-Bestände: 0.1 Bitcoin × 35.000 € = 3.500 €.
     - Nicht realisierter Gewinn: 3.500 € - 3.000 € = 500 €.
 
 **Zusammenfassung**:
 
-
-- **Anerkannte Gesamteinnahmen**: 3.000 €.
+- **Gesamteinnahmen**: 3.000 €.
 - **Bitcoin-Bestand**: 0.1 Bitcoin im Wert von 3.500 € in der Bilanz.
 - **Nicht realisierter Gewinn**: 500 €, die im Anhang ausgewiesen, aber nicht als Ertrag realisiert wurden.
 
 **Buchhalterische Auswirkungen**:
-
 
 - Aufzeichnung der Einnahmen (3.000 €) zum Zeitpunkt der Zustellung.
 - Bitcoin bleibt (0,1) mit einem Wert von 3.500 € in der Bilanz.
@@ -1254,10 +1236,9 @@ Ob du nun ein kleiner Händler oder ein etablierteres Unternehmen sind, es ist m
 
 ### Anwendungsfall 4: Geschäftsinhaber verkauft 50 % der Bitcoin nach Preiserhöhung
 
-**Szenario**: Ein Geschäftsinhaber kauft im Laufe des Jahres drei Bitcoin, hält den Bitcoin als Vermögenswert und verkauft 50 % nach einem deutlichen Preisanstieg.
+**Szenario**: Ein Geschäftsinhaber kauft im Laufe des Jahres drei Bitcoin, hält die Bitcoin als Vermögenswert und verkauft 50 % nach einem deutlichen Preisanstieg.
 
 **Beispiel**:
-
 
 - **Bitcoin-Käufe von Kunden**:
     - Kauf 1: 2.000 € zu 20.000 €/BTC = 0,1 Bitcoin = 10.000.000 Satoshis.
@@ -1279,17 +1260,15 @@ Ob du nun ein kleiner Händler oder ein etablierteres Unternehmen sind, es ist m
 
 **Zusammenfassung**:
 
-
 - **Verbleibende Bitcoin**: 0.19335 Bitcoin im Wert von 7.734 € (bei 40.000 €/BTC).
 - **Realisierter Gewinn**: 2.735 € in der Gewinn- und Verlustrechnung enthalten.
 - **Nicht realisierter Gewinn**: 5.468 €, ausgewiesen im Anhang (einschließlich des nicht realisierten Werts der verbleibenden Bitcoin).
 
 **Buchhalterische Auswirkungen**:
 
-
-- Verbuchen du den Verkaufserlös (7.734 €) als Einkommen.
-- Ziehen du die Kosten der verkauften Bitcoin (4.999 €) ab, um den realisierten Gewinn zu berechnen.
-- Der einbehaltene Bitcoin (0,19335) erscheint in der Bilanz mit einem Wert von 7.734 €.
+- Verbuchen des Verkaufserlös (7.734 €) als Einkommen.
+- Abziehen der Kosten der verkauften Bitcoin (4.999 €), um den realisierten Gewinn zu berechnen.
+- Einbehaltene Bitcoin (0,19335) erscheinen in der Bilanz mit einem Wert von 7.734 €.
 - Nicht realisierte Gewinne in Höhe von 5.468 € aus zurückbehaltenen Bitcoin werden im Anhang ausgewiesen.
 
 # Abschließender Abschnitt

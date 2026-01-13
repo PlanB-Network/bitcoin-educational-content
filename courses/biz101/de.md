@@ -937,37 +937,34 @@ Um eine reibungslose und sichere Bereitstellung auf Unternehmensebene zu gewähr
 
 <chapterId>59ff43a1-98e2-4a81-af3e-9654bdd60952</chapterId>
 
-Für jede Kategorie von Lösungen gibt es immer Kompromisse. In der anfänglichen "Versuchsphase" sind die vorgeschlagenen Geldbörsen beispielsweise in Bezug auf die Benutzeroberfläche so einfach wie möglich gestaltet, aber sie werden gehostet (**custodial**). Das bedeutet, dass die Gelder vom App-Anbieter kontrolliert werden. Der Ethos von Bitcoin ermutigt jedoch dazu, die Gelder vollständig in die Hände des Nutzers zu legen (**selbstverwaltet**). In diesem Fall wird empfohlen, in die nächste Kategorie aufzusteigen, sobald die ersten Verkäufe getätigt wurden - im Wesentlichen, sobald bestätigt ist, dass du Kunden haben, die bereit sind, in Bitcoin zu zahlen.
+Für jede Kategorie von Lösungen gibt es immer Kompromisse. In der anfänglichen "Versuchsphase" sind die vorgeschlagenen Wallets beispielsweise in Bezug auf die Benutzeroberfläche so einfach wie möglich gestaltet, aber sie werden gehostet (**custodial**). Das bedeutet, dass die Gelder vom App-Anbieter kontrolliert werden. Der Ethos von Bitcoin ermutigt jedoch dazu, die Gelder vollständig in die Hände des Nutzers zu legen (**self-custody**). In diesem Fall wird empfohlen, in die nächste Kategorie aufzusteigen, sobald die ersten Verkäufe getätigt wurden - im Wesentlichen, sobald bestätigt ist, dass du Kunden hast, die bereit sind, in Bitcoin zu zahlen.
 
-Einer der Hauptvorteile von Bitcoin ist die Möglichkeit, Gelder nach Belieben zu verschieben, was es **sehr einfach macht, Anbieter** oder Komponenten Ihrer Lösung zu wechseln. Außerdem entwickeln sich alle Anwendungen und Lösungen selbst schnell weiter. Nehmen du zum Beispiel Bitcoinize, das jetzt ein physisches POS-Terminal (Point of Sale) anbietet, das mit vielen Anwendungen auf dem Markt integriert werden kann - eine Lösung, die es noch vor wenigen Monaten nicht gab.
+Einer der Hauptvorteile von Bitcoin ist die Möglichkeit, Gelder nach Belieben zu verschieben, was es **sehr einfach macht, Anbieter oder Komponenten deiner Lösung zu wechseln**. Außerdem entwickeln sich alle Anwendungen und Lösungen selbst schnell weiter. Nimm du zum Beispiel Bitcoinize, das jetzt ein physisches PoS-Terminal (Point of Sale) anbietet, das mit vielen Anwendungen auf dem Markt integriert werden kann - eine Lösung, die es noch vor wenigen Monaten nicht gab.
 
-### Suchen du nach einer Lösung, um einen Shop zu erstellen und sowohl traditionelle als auch Bitcoin-Zahlungen zu akzeptieren?
+### Suchst du nach einer Lösung, um einen Shop zu erstellen und sowohl traditionelle als auch Bitcoin-Zahlungen zu akzeptieren?
 
-Wenn du bei Null anfangen - ohne Ladengeschäft, ohne Produktverwaltungssoftware und ohne Point-of-Sale (POS)-System - haben du mehrere Möglichkeiten:
+Wenn du bei Null anfängst - ohne Ladengeschäft, ohne Produktverwaltungssoftware und ohne Point-of-Sale (POS)-System - hast du mehrere Möglichkeiten:
 
-
-- **Outsourcing:** du können die Erstellung einer Website mit Einkaufsmöglichkeiten auslagern und dann Bitcoin-Zahlungsmöglichkeiten neben den traditionellen Lösungen im Laden hinzufügen.
-- **Einfache Lösungen:** Alternativ können du auch Plattformen wie Accessing.app nutzen, um dies selbst zu tun. Die wichtigsten Vorteile sind:
+- **Outsourcing:** du kannst die Erstellung einer Website mit Einkaufsmöglichkeiten auslagern und dann Bitcoin-Zahlungsmöglichkeiten neben den traditionellen Lösungen im Laden hinzufügen.
+- **Einfache Lösungen:** Alternativ kannst du auch Plattformen wie Accessing.app nutzen, um dies selbst zu tun. Die wichtigsten Vorteile sind:
     - Schnell und kostengünstig ein Online- oder physisches Geschäft einrichten.
     - Geeignet für Saisongeschäfte, Veranstaltungen, Restaurants oder Einzelhandelsgeschäfte.
     - Definition und Verwaltung von Produkten sowohl für den physischen als auch für den Online-Verkauf.
     - Abwicklung von Fiat-Zahlungen (z.B. Euro, Dollar) über dein eigenes Stripe-Konto.
     - Bitcoin-Zahlungsabwicklung über dein eigenes SwissBitcoinPay-Konto.
 
-### Wie schreitet die Einführung von Blitzzahlungen voran?
+### Wie schreitet die Adaption von Lightning-Zahlungen voran?
 
 Obwohl das Lightning Network eine höhere Effizienz und niedrigere Gebühren bietet, befindet sich seine Einführung noch im Anfangsstadium. Anstatt sich auf die aktuellen Einschränkungen zu konzentrieren, sollte man sich daran erinnern, wie sich die Infrastruktur in der Vergangenheit verändert hat:
-
 
 - Als das Auto aufkam, gab es nicht genug Autos, um den Bau von Straßen zu rechtfertigen, und nicht genug Straßen, um den Besitz von Autos zu rechtfertigen.
 - Als die Elektrizität eingeführt wurde, gab es nicht genug Kunden, um den Bau von Stromnetzen zu rechtfertigen, und nicht genug Netze, um Kunden anzuziehen.
 
 Neue Infrastrukturen sind erfolgreich, weil sie effizienter sind, und frühe Anwender schließen sich an, weil sie greifbare Vorteile genießen. Hier sind einige Beobachtungen über das Lightning Network im Jahr 2024:
 
-
 - **Ultraschnelle Transaktionen:** Die Transaktionen erfolgen häufig fast sofort (<500 ms) und haben eine extrem niedrige Fehlerquote.
-- **Professionalisierung des Netzwerks:** Größere Akteure sorgen für die Liquidität des gesamten Netzwerks, während Einzelpersonen die Weiterleitung von Zahlungen weitgehend eingestellt haben und nun hauptsächlich "Randknoten" betreiben
-- **Verbesserte Benutzerfreundlichkeit:** Die mobilen Anwendungen für einzelne Benutzer wurden erheblich verbessert. Funktionen wie Spleißen, statische Bolt12-Rechnungen und Zahlungen mit Nullbestätigung (0-conf) sind weithin verfügbar und machen die Interaktionen nahtlos. Interoperabilitätsprobleme (z. B. erzwungene Schließungen) sind kein großes Problem mehr.
+- **Professionalisierung des Netzwerks:** Größere Akteure sorgen für die Liquidität des gesamten Netzwerks, während Einzelpersonen die Weiterleitung von Zahlungen weitgehend eingestellt haben und nun hauptsächlich "Rand-Nodes" betreiben
+- **Verbesserte Benutzerfreundlichkeit:** Die mobilen Anwendungen für einzelne Benutzer wurden erheblich verbessert. Funktionen wie Splicing, statische Bolt12-Rechnungen und Zero-Confirmation-Zahlungen (0-conf) sind weithin verfügbar und machen die Interaktionen nahtlos. Interoperabilitätsprobleme (z. B. erzwungene Schließungen) sind kein großes Problem mehr.
 - **Verbessertes Node- und Channel-Management:** Sowohl individuelle als auch professionelle Lösungen wurden weiterentwickelt. So unterstützt der BTC Pay Server jetzt zahlreiche Plugins für die Verbindung mit anderen Anbietern (PSPs, On-/Off-Rampen usw.). Neue Infrastrukturanbieter wie LightSpark und Alby Hub gehen ebenfalls in Produktion.
 - **Wachstum der Händlerakzeptanz:** Händler wie BitRefill berichten von einem Anstieg der Bitcoin-Zahlungen unter ihren aktiven Nutzern, mit einer klaren Verschiebung hin zu Bitcoin gegenüber Lightning. Darüber hinaus machen die extrem niedrigen Gebühren von Lightning es zur bevorzugten Wahl für kleine Zahlungen (durchschnittlich 32 € pro Transaktion).
 
@@ -976,12 +973,12 @@ Neue Infrastrukturen sind erfolgreich, weil sie effizienter sind, und frühe Anw
 *[Quelle: BTC Map](https://btcmap.org/)*
 
 
-- **Netzwerkmetriken:** Die Gesamtzahl der Kanäle und der auf Lightning gesperrten Bitcoin bleibt stabil, mit etwa 20.000 Knoten, 5.200 BTC und 60.000 Kanälen. Dies spiegelt jedoch nur einen Teil des Netzwerks wider und deutet auf eine Rotation unter den Teilnehmern hin, an der weniger Einzelpersonen und mehr Profis teilnehmen.
-- **Lightning als Brücke zwischen den Netzwerken:** Die Effizienz und Verfügbarkeit des Lightning-Netzwerks haben es bereits als Brücke zu anderen zusammenhängenden Netzwerken (z.B. FediMint, Liquid, etc.) positioniert.
+- **Netzwerkmetriken:** Die Gesamtzahl der Kanäle und der auf Lightning gesperrten Bitcoin bleibt stabil, mit etwa 20.000 Nodes, 5.200 BTC und 60.000 Kanälen. Dies spiegelt jedoch nur einen Teil des Netzwerks wider und deutet auf eine Rotation unter den Teilnehmern hin, an der weniger Einzelpersonen und mehr Profis teilnehmen.
+- **Lightning als Brücke zwischen den Netzwerken:** Die Effizienz und Verfügbarkeit des Lightning Network haben es bereits als Brücke zu anderen zusammenhängenden Netzwerken (z.B. FediMint, Liquid, etc.) positioniert.
 
-**Das Comeback der Brieftasche**
+**Das Comeback der Geldbörse**
 
-Bitcoin und das Lightning Network vollenden die **Revolution der digitalen Geldbörsen**. Neue Webdienste ermöglichen jetzt **Transaktionen ohne die Notwendigkeit, ein Konto zu erstellen** - dein Wallet wird zu Ihrer Identität! Mit Protokollen wie **Nostr Wallet Connect (NWC)** und **LN-URL-AUTH** können Wallets Benutzer nahtlos authentifizieren und Transaktionen ohne herkömmliche Konten ermöglichen. Vorbei sind die Zeiten, in denen man für einfache Einkäufe oder Abonnements ein Konto führen musste. Es müssen keine persönlichen Daten oder Zahlungsinformationen mehr angegeben werden, die am Ende gehackt und im Dark Web verkauft werden könnten, wie uns die jüngsten Ereignisse nur allzu oft vor Augen führen.
+Bitcoin und das Lightning Network vollenden die **Revolution der digitalen Geldbörsen**. Neue Webdienste ermöglichen jetzt **Transaktionen ohne die Notwendigkeit, ein Konto zu erstellen** - deine Wallet wird zu deiner Identität! Mit Protokollen wie **Nostr Wallet Connect (NWC)** und **LN-URL-AUTH** können Wallets Benutzer nahtlos authentifizieren und Transaktionen ohne herkömmliche Konten ermöglichen. Vorbei sind die Zeiten, in denen man für einfache Einkäufe oder Abonnements ein Konto führen musste. Es müssen keine persönlichen Daten oder Zahlungsinformationen mehr angegeben werden, die am Ende gehackt und im Dark Web verkauft werden können, wie uns die jüngsten Ereignisse nur allzu oft vor Augen führen.
 
 ![BIZ101](assets/de/030.webp)
 
@@ -991,11 +988,11 @@ Die Händler von morgen werden sich diese Innovation zu eigen machen und ihren K
 
 <partId>d49d7595-a189-4e2b-bd60-c19e8e717aa2</partId>
 
-## Grundlegende Prinzipien für die Buchhaltung Bitcoin in der Wirtschaft
+## Grundlegende Prinzipien der Buchhaltung für Bitcoin in der Wirtschaft
 
 <chapterId>84063061-ffdb-4b1f-b20b-588ffb146877</chapterId>
 
-Der folgende Inhalt dient nur zu Bildungszwecken und sollte nicht als Finanz- oder Buchhaltungsberatung angesehen werden. Unternehmen und Privatpersonen wird dringend empfohlen, einen qualifizierten Buchhalter oder Rechtsexperten zu konsultieren, der mit den Kryptowährungsvorschriften in ihrer jeweiligen Gerichtsbarkeit vertraut ist, bevor sie irgendwelche Maßnahmen ergreifen.
+Der folgende Inhalt dient nur zu Bildungszwecken und sollte nicht als Finanz- oder Buchhaltungsberatung angesehen werden. Unternehmen und Privatpersonen wird dringend empfohlen, einen qualifizierten Buchhalter oder Rechtsexperten zu konsultieren, der mit den Kryptowährungsvorschriften in deiner jeweiligen Gerichtsbarkeit vertraut ist, bevor du irgendwelche Maßnahmen ergreifst.
 
 ### Bitcoin Buchhaltung Schlüsselkonzepte
 
@@ -1007,29 +1004,26 @@ Die **wichtigste Konsequenz**, die es zu beachten gilt, ist, dass der Erwerb, de
 
 Ein weiterer Aspekt der Bitcoin-Buchhaltung ist die Unterscheidung zwischen zwei Arten von Kapitalgewinnen:
 
-
 - **Latente Gewinne/Verluste:** Nicht realisierte Gewinne oder Verluste auf der Grundlage des Wertes von Bitcoin, die am Ende einer Rechnungsperiode gehalten werden.
 - **Effektive Gewinne/Verluste:** Realisierte Gewinne oder Verluste beim Verkauf oder Tausch von Bitcoin während des Geschäftsjahres.
 
-Diese Berechnungen hängen stark davon ab, ob Bitcoin für langfristige Investitionen oder für die kurzfristige betriebliche Nutzung gehalten wird. Darüber hinaus müssen Unternehmen deine Buchhaltungspraktiken mit den lokalen Steuerstrukturen in Einklang bringen, da die Vorschriften von Land zu Land sehr unterschiedlich sind.
+Diese Berechnungen hängen stark davon ab, ob Bitcoin für langfristige Investitionen oder für die kurzfristige betriebliche Nutzung gehalten wird. Darüber hinaus müssen Unternehmen ihre Buchhaltungspraktiken mit den lokalen Steuerstrukturen in Einklang bringen, da die Vorschriften von Land zu Land sehr unterschiedlich sind.
 
-Die Buchhaltung für Unternehmen, die Bitcoin halten, ist etwas umständlich, da jede Transaktion akribisch nachverfolgt werden muss, um realisierte oder nicht realisierte Gewinne oder Verluste zu berechnen. Für jeden Verkauf, den du tätigen, indem du Bitcoin als Zahlungsmittel akzeptieren, oder jedes Mal, wenn du Bitcoin kaufen oder verkaufen, müssen du Buch führen:
-
+Die Buchhaltung für Unternehmen, die Bitcoin halten, ist etwas umständlich, da jede Transaktion akribisch nachverfolgt werden muss, um realisierte oder nicht realisierte Gewinne oder Verluste zu berechnen. Für jeden Verkauf, den du tätigst, indem du Bitcoin als Zahlungsmittel akzeptierst, oder jedes Mal, wenn du Bitcoin kaufst oder verkaufst, musst du Buch führen:
 
 - die genaue Uhrzeit
 - den Verkaufspreis (in Fiat-Währung)
 - der Bitcoin-Einstandspreis (der Preis, zu dem der Bitcoin ursprünglich erworben wurde).
 
-So können du später die Differenz berechnen, um den Gewinn oder Verlust zu ermitteln.
+So kannst du später die Differenz berechnen, um den Gewinn oder Verlust zu ermitteln.
 
 **Beispiel:** Ein Unternehmen kauft 1 BTC für 30.000 $. Später verkauft es 0,5 BTC für 20.000 $. Um den Gewinn oder Verlust zu berechnen, muss das Unternehmen:
 
-
 - Den Zeitpunkt, den Fiat-Einstandspreis und die Menge der erworbenen Bitcoin aufgezeichnet haben
 - Den Zeitpunkt, den Fiat-Verkaufspreis und die Menge der verkauften Bitcoin aufgezeichnet haben
-- Bestimmen du die Kosten des verkauften Bitcoins: 0,5 BTC: $30.000 ÷ 2 = $15.000.
-- Vergleichen du den Verkaufspreis mit dem Einstandspreis: 20.000 $ (Verkaufspreis) - 15.000 $ (Einstandspreis) = 5.000 $ Gewinn.
-- Aktualisieren du die Bitcoin-Bestände mit dem neuen Einstandspreis
+- De Kosten des verkauften Bitcoins bestimmen: 0,5 BTC: $30.000 ÷ 2 = $15.000.
+- Den Verkaufspreis mit dem Einstandspreis vergleichen: 20.000 $ (Verkaufspreis) - 15.000 $ (Einstandspreis) = 5.000 $ Gewinn.
+- Die Bitcoin-Bestände mit dem neuen Einstandspreis aktualisieren
 
 Dieser Prozess muss für jede Transaktion wiederholt werden, und die schwankende Natur des Bitcoin-Kurses macht die Aufzeichnung noch mühsamer.
 
@@ -1037,8 +1031,7 @@ Dieser Prozess muss für jede Transaktion wiederholt werden, und die schwankende
 
 Wenn Bitcoin wie eine Währung behandelt würde, würden Unternehmen ihn wie jede andere Währung in ihrem Buchhaltungssystem verwalten. Anstatt die Kostenbasis und die realisierten/unrealisierten Gewinne für jede Transaktion zu verfolgen, würden Bitcoin-Bestände einfach auf einem Währungskonto verbucht werden. Am Ende jedes Berichtszeitraums würde der Wert aller Währungsbestände, einschließlich Bitcoin, unter Verwendung des aktuellen Wechselkurses in die Buchhaltungswährung (z. B. USD oder EUR) umgerechnet.
 
-**Aktualisiertes Beispiel, wenn Bitcoin als Währung anerkannt wurde:**
-
+**Aktualisiertes Beispiel, wenn Bitcoin als Währung anerkannt würde:**
 
 - Ein Unternehmen hält 1 BTC, wenn Bitcoin 30.000 $ wert ist. Später verwendet das Unternehmen 0,5 BTC für eine Zahlung, wenn Bitcoin 40.000 $ wert ist.
 - Das Unternehmen berechnet **nicht** den realisierten Gewinn oder Verlust. Stattdessen wird die Transaktion als erfasst:
@@ -1047,24 +1040,22 @@ Wenn Bitcoin wie eine Währung behandelt würde, würden Unternehmen ihn wie jed
 
 **Schlüsselvorteil, wenn Bitcoin als Währung anerkannt würde:**
 
-
-- Das Unternehmen muss den Fiat-Gegenwert seiner Bitcoin-Bestände nur regelmäßig anpassen (z. B. für Monats- oder Jahresberichte), genau wie bei Euro, Yen oder anderen Währungen, die es hält.
+- Das Unternehmen muss nur den Fiat-Gegenwert seiner Bitcoin-Bestände regelmäßig anpassen (z. B. für Monats- oder Jahresberichte), genau wie bei Euro, Yen oder anderen Währungen, die es hält.
 - Dadurch entfällt die Notwendigkeit, die Kosten auf Transaktionsbasis zu verfolgen, und die Buchhaltung wird vereinfacht, insbesondere für Unternehmen mit häufigen Bitcoin-Transaktionen.
 
-Dieser Ansatz würde die Bitcoin-Bilanzierung wesentlich vereinfachen, den Verwaltungsaufwand verringern und sich an die Behandlung anderer Währungen angleichen, vorausgesetzt, Bitcoin würde rechtlich und regulatorisch vollständig als solche anerkannt werden. So weit sind wir noch nicht.
+Dieser Ansatz würde die Bitcoin-Bilanzierung wesentlich vereinfachen, den Verwaltungsaufwand verringern und sich an die Behandlung anderer Währungen angleichen, vorausgesetzt, Bitcoin würde rechtlich und regulatorisch vollständig als solche anerkannt werden. So weit sind wir aber noch nicht.
 
 ### Unterscheidungen zwischen individueller und unternehmerischer Bitcoin-Buchhaltung
 
-Die rechtliche und buchhalterische Behandlung von Bitcoin unterscheidet sich erheblich zwischen natürlichen und juristischen Personen. Für Privatpersonen können Gewinne aus Bitcoin-Transaktionen der Einkommenssteuer unterliegen, oft zu einem höheren Satz. Im Gegensatz dazu können Unternehmen von potenziell niedrigeren Körperschaftssteuersätzen profitieren, müssen sich aber an strengere Buchhaltungsstandards halten.
+Die rechtliche und buchhalterische Behandlung von Bitcoin unterscheidet sich erheblich zwischen Privatpersonen und Unternehmen. Für Privatpersonen können Gewinne aus Bitcoin-Transaktionen der Einkommenssteuer unterliegen, oft zu einem höheren Satz. Im Gegensatz dazu können Unternehmen von potenziell niedrigeren Körperschaftssteuersätzen profitieren, müssen sich aber an strengere Buchhaltungsstandards halten.
 
 Für Unternehmen kann Bitcoin je nach Verwendungszweck unter verschiedenen Konten eingeordnet werden:
-
 
 - **Anlagevermögen:** Für Bitcoin, die langfristig als strategische Investition gehalten werden.
 - **Aktien:** Für Bitcoin, die in Produktionsprozessen verwendet werden (ein seltener Anwendungsfall, z. B. bei professionellen Händlern).
 - **Cash- oder Treasury-Konten:** Für Bitcoin, das als liquider Vermögenswert gehalten wird, in erster Linie für operative Transaktionen oder kurzfristiges Treasury-Management.
 
-Die Wahl der Klassifizierung hängt von der Tätigkeit und Strategie des Unternehmens ab und hat Auswirkungen auf die Finanzberichterstattung und die steuerlichen Pflichten. Prüfen du immer die örtlichen Vorschriften, da diese Klassifizierungen von Land zu Land unterschiedlich sein können.
+Die Wahl der Klassifizierung hängt von der Tätigkeit und Strategie des Unternehmens ab und hat Auswirkungen auf die Finanzberichterstattung und die steuerlichen Pflichten. Prüfe immer die örtlichen Vorschriften, da diese Klassifizierungen von Land zu Land unterschiedlich sein können.
 
 ### Rechtlicher Rahmen
 

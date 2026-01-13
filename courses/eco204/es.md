@@ -1,8 +1,8 @@
 ---
-name: Estudios de caso de hiperinflación
-goal: Comprender la aparición de hiperinflaciones en un mundo Fiat y sus consecuencias
+name: Estudio de caso de la hiperinflación
+goal: Comprender la aparición de hiperinflaciones en un mundo fiduciario y sus consecuencias
 objectives:
-- Estudiar los ciclos de hiperinflación
+- Estudiar los ciclos de la hiperinflación
 - Comprender las repercusiones reales de la hiperinflación en nuestra vida cotidiana
 - Estudiar las similitudes de las hiperinflaciones a lo largo del tiempo
 - Tener una idea concreta de cómo protegerse de la hiperinflación
@@ -16,129 +16,92 @@ En el camino, también descubrirás cómo los individuos y las comunidades han n
 +++
 # Introducción
 
-
 <partId>6fe4d15d-f6e6-54be-9e04-0a75ac98df8b</partId>
-
 
 ## Resumen del curso
 
-
 <chapterId>9d1aba8d-0485-5020-9863-5de37e6db8e0</chapterId>
-
 
 ¡Bienvenido al curso ECO204!
 
-
-El objetivo de este curso es ayudarle a comprender las causas fundamentales, los mecanismos y las consecuencias de la hiperinflación en el contexto de un sistema monetario fiduciario. Mediante ejemplos concretos y análisis históricos, aprenderá a reconocer los patrones recurrentes que preceden a los periodos de hiperinflación y a identificar palancas de actuación para protegerse.
-
+El objetivo de este curso es ayudarte a comprender las causas fundamentales, los mecanismos y las consecuencias de la hiperinflación en el contexto de un sistema monetario fiduciario. Mediante ejemplos concretos y análisis históricos, aprenderás a reconocer los patrones recurrentes que preceden a los periodos de hiperinflación y a identificar palancas de actuación para protegerse.
 
 **Sección 2: ¿Qué es la inflación?
 
-Antes de adentrarnos en el meollo del tema, volveremos sobre lo básico: ¿qué es la inflación? Esta sección presentará sus orígenes monetarios, los diferentes tipos de inflación y cómo encajan en una dinámica económica más amplia. Este es un paso esencial para comprender cómo la inflación regular puede evolucionar hacia la hiperinflación.
-
+Antes de adentrarnos en el meollo del tema, volveremos sobre lo básico: ¿Qué es la inflación? Esta sección presentará sus orígenes monetarios, los diferentes tipos de inflación y cómo encajan en una dinámica económica más amplia. Este es un paso esencial para comprender cómo la inflación regular puede evolucionar hacia la hiperinflación.
 
 **Sección 3: ¿Qué es la hiperinflación?
 
-En esta sección, estudiaremos definiciones precisas de hiperinflación y examinaremos varios episodios históricos importantes, incluidos los de la Alemania de Weimar y Zimbabue. Analizaremos sus puntos en común, sus diferencias y sus paralelismos contemporáneos. También descubrirá casos menos conocidos, como las sucesivas redenominaciones en América Latina, así como las estrategias de salida observadas en determinados países.
-
+En esta sección, estudiaremos definiciones precisas de hiperinflación y examinaremos varios episodios históricos importantes, incluidos los de la Alemania de Weimar y Zimbabue. Analizaremos sus puntos en común, sus diferencias y sus paralelismos contemporáneos. También descubrirás casos menos conocidos, como las sucesivas redenominaciones en América Latina, así como las estrategias de salida observadas en determinados países.
 
 **Sección 4: ¿Cómo hemos llegado hasta aquí?**
 
-Esta parte pretende comprender los mecanismos estructurales que permiten la hiperinflación, en particular a través del desarrollo del "segundo Layer" monetario y el papel de los bancos centrales. Se ofrecerán recursos adicionales y sugerencias de lectura para profundizar en el tema.
+Esta parte pretende comprender los mecanismos estructurales que permiten la hiperinflación, en particular a través del desarrollo de la "segunda capa" monetaria y el papel de los bancos centrales. Se ofrecerán recursos adicionales y sugerencias de lectura para profundizar en el tema.
 
-
-¿Y si la historia monetaria se repitiera ante nuestros ojos? Juzgue usted mismo en los capítulos siguientes
-
+¿Y si la historia monetaria se repitiera ante nuestros ojos? Juzga tú mismo en los capítulos siguientes
 
 # ¿Qué es la inflación?
 
-
 <partId>2b4f456c-3649-5cf9-b9b0-a5bffe92d962</partId>
-
 
 ## Un fenómeno monetario
 
-
 <chapterId>b2cbc915-c4ec-52b5-860c-0958f58c91e4</chapterId>
-
 
 ### Definiciones de inflación
 
-
 La inflación es un concepto que a menudo se malinterpreta debido a sus múltiples definiciones e interpretaciones. La percepción de la inflación varía entre distintos grupos, como los bitcoiners y los economistas tradicionales. Aclaremos primero las definiciones antes de hablar de la hiperinflación:
-
-
 
 - Definición del diccionario Le Robert: La inflación es un aumento excesivo de los instrumentos de pago (billetes, capital), que provoca una subida de los precios y una depreciación de la moneda.
 
-
-
 - Definición de la enciclopedia Larousse: La inflación es un fenómeno caracterizado por una subida generalizada y continua del nivel de los precios. Aquí, la palabra "generalizado" es crucial.
-
 
 ![image](assets/es/001.webp)
 
+A la luz de estas definiciones, es esencial comprender que, para Robert, la inflación se refiere principalmente al aumento de la oferta monetaria. En cambio, Larousse se centra en las consecuencias de esta expansión, a saber, la subida generalizada de los precios.
 
-A la luz de estas definiciones, es esencial comprender que, para Robert, la inflación se refiere principalmente al aumento del Supply monetario. En cambio, Larousse se centra en las consecuencias de esta expansión, a saber, la subida generalizada de los precios.
 
-
-En nuestro estudio sobre la hiperinflación, adoptaremos la segunda definición, que es la de una subida generalizada de los precios, por ser más pertinente y clara para nuestro tema. Sin embargo, es fundamental recordar que esta subida de precios es generalmente el resultado de la expansión del dinero Supply.
+En nuestro estudio sobre la hiperinflación, adoptaremos la segunda definición, que es la de una subida generalizada de los precios, por ser más pertinente y clara para nuestro tema. Sin embargo, es fundamental recordar que esta subida de precios es generalmente el resultado de la expansión del suministro de dinero.
 
 El famoso economista Milton Friedman afirmó:
-
 
 > "La inflación es siempre y en todas partes un fenómeno monetario"
 
 Esta afirmación pone de relieve la relación intrínseca entre expansión monetaria e inflación. En las secciones siguientes examinaremos la relación entre inflación y crecimiento económico, basándonos en estas definiciones fundamentales.
 
-
 ### Comprender el fenómeno monetario
 
-
-Cuando nos referimos al fenómeno monetario, nos referimos a cómo influye la Supply monetaria de una economía. Milton Friedman lo veía esencialmente como un aumento de esta Supply. Históricamente, ha habido dos métodos principales para aumentar la Supply monetaria:
-
+Cuando nos referimos al fenómeno monetario, nos referimos a cómo influye la oferta monetaria de una economía. Milton Friedman lo veía esencialmente como un aumento de esta oferta. Históricamente, ha habido dos métodos principales para aumentar el suministro monetario:
 
 1. Impresión monetaria:
 
-En los sistemas monetarios tradicionales, el aumento del Supply monetario se conseguía imprimiendo físicamente nuevos billetes. Aunque hoy en día, con el predominio de la moneda digital, esta impresión es principalmente electrónica (a través de las bases de datos de los bancos centrales y otras instituciones financieras), la historia nos muestra periodos en los que la impresión literal de billetes condujo a la hiperinflación.
-
+En los sistemas monetarios tradicionales, el aumento del suministro monetario se conseguía imprimiendo físicamente nuevos billetes. Aunque hoy en día, con el predominio de la moneda digital, esta impresión es principalmente electrónica (a través de las bases de datos de los bancos centrales y otras instituciones financieras), la historia nos muestra periodos en los que la impresión literal de billetes condujo a la hiperinflación.
 
 2. Reducción del contenido de metal:
 
 Otro método consistía en reducir la cantidad de metal precioso en las monedas basadas en metales como la plata o el oro. Un ejemplo llamativo lo encontramos en el Imperio Romano, donde el denario, inicialmente compuesto casi en su totalidad de plata, vio reducido drásticamente su contenido de plata con el paso del tiempo. Esto supuso una forma de inflación, pero no necesariamente de hiperinflación.
 
-
 ![image](assets/es/002.webp)
-
 
 Es crucial subrayar que la hiperinflación se observa principalmente con monedas fiduciarias que no están respaldadas por sus activos subyacentes, como los metales preciosos. Históricamente, cuando una moneda se basaba en tales activos, se producían episodios de inflación (por ejemplo, a través de la devaluación del contenido metálico), pero estos episodios nunca alcanzaron los niveles extremos de la hiperinflación. En las siguientes secciones, estudiaremos en detalle los periodos de devaluación monetaria y las implicaciones de estos diferentes sistemas monetarios sobre la inflación.
 
-
 ### Estudio de los periodos de devaluación monetaria
-
 
 A lo largo de la historia, diversas civilizaciones han experimentado periodos de devaluación monetaria. Algunos de estos periodos coinciden con grandes acontecimientos o guerras que han ejercido presión sobre la economía.
 
-
 #### 1. Guerra del Peloponeso y Segunda Guerra Púnica:
-
 
 La Guerra del Peloponeso, un conflicto entre Atenas y Esparta, y la Segunda Guerra Púnica, entre la República Romana y Cartago, son los primeros ejemplos de devaluación de la moneda que se encuentran en los archivos. Para financiar estas guerras, estas civilizaciones devaluaron sus monedas reduciendo el contenido de plata e incorporando otros metales, al tiempo que aumentaban el número de monedas producidas.
 
 ![image](assets/es/003.webp)
 
-
 Grabado que representa la masacre de los atenienses a orillas del Assinaros.
-
 
 #### 2. La antigua Roma durante el Imperio:
 
-
 Tras la época de la República romana, durante el Imperio, los siglos III y IV experimentaron una importante devaluación de la moneda. Así lo ilustra la disminución del contenido de plata de las monedas, como se ve en el gráfico anterior. Un estudio revela que el precio del trigo en Egipto, medido en dracmas, se multiplicó por un millón en un periodo de aproximadamente 400 años, del 40 a.C. al 360 d.C.. A lo largo de este periodo, representa una inflación media anual de aproximadamente el 4,4%. Sin embargo, esta inflación no se distribuyó uniformemente. Comenzó realmente en torno al 238 d.C. Entre 250 y 293 d.C., la tasa de inflación fue de aproximadamente el 3,65%, y aumentó hasta el 22,28% entre 293 y 301 d.C..
 
-
 Aunque estos periodos experimentaron una inflación significativa, no alcanzaron los niveles de hiperinflación observados en algunas situaciones modernas. La razón es que, aunque la moneda se devaluó, seguía estando respaldada por metales preciosos. Esta sólida base proporcionaba cierta protección contra niveles de inflación extremos. En las secciones siguientes examinaremos con más detalle la naturaleza y las consecuencias de la hiperinflación.
-
 
 ![image](assets/es/004.webp)
 

@@ -1,5 +1,5 @@
 question: Quelles sont les trois façons dont les fermetures peuvent capturer des variables de leur environnement dans Rust ?
-answer: Par référence immuable, par référence mutable, ou par prise de possession
+answer: Par référence immuable, par référence mutable ou par prise de possession
 wrong_answers:
   - Par copie de valeur, par emprunt de référence ou par déréférencement de pointeur
   - Par allocation de pile, par allocation de tas ou par stockage statique

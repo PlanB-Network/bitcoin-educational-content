@@ -6,4 +6,4 @@ wrong_answers:
   - Hati ya uthibitishaji ya On-Chain ilibadilishwa na HTLC
 explanation: |
   RGB State Transition inasasisha usambazaji wa mali ya RGB katika chaneli kwa kutumia miamala ya Commitment.
-reviewed: false
+reviewed: true

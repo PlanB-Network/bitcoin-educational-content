@@ -1,6 +1,6 @@
 ---
 name: Valet Bitcoin
-description: This is a step-by-step guide on how to use the Valet Bitcoin wallet. This tutorial is original.
+description: Valet brings non custodial Lightning node into your pocket
 ---
 
 ![cover_valet](assets/cover.webp)
@@ -74,6 +74,7 @@ Pay attention to the following elements:
 
 So, you'll need to write down your 12-word seed phrase and keep it in a safe location. You should never take a screenshot, save it as a draft in your email, or save it on any electronic device that has ever been connected to the internet.
 
+https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
 
 ## Receiving and Sending Bitcoins on Valet
 

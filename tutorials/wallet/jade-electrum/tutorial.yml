@@ -1,5 +1,7 @@
 id: be6e0a15-06ef-49bd-8ab8-a3b26dd29d5f
 
+last_update_date: 2025-08-30
+
 project_id: 45198444-27c2-4fc1-a761-eb321093642f
 
 category: hardware
@@ -68,7 +70,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.23
+    reward: 2.34
   - language: id
     last_contribution_date:
     urgency: 1
@@ -78,7 +80,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.79
+    reward: 2.34
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -108,7 +110,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.79
+    reward: 2.34
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -139,7 +141,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.79
+    reward: 2.34
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

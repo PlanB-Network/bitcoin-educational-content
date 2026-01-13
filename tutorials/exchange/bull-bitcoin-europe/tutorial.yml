@@ -1,5 +1,6 @@
 id: 0ccf713e-efcd-44ec-8205-211f49ac7d53
 
+last_update_date: 2025-05-26
 
 category: centralized
 
@@ -66,7 +67,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.26
+    reward: 1.9
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -86,7 +87,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.26
+    reward: 1.9
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -96,7 +97,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.62
+    reward: 1.9
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -146,7 +147,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.26
+    reward: 1.9
   - language: bg
     last_contribution_date:
     urgency: 1

@@ -1,5 +1,5 @@
 ---
-name: अपना Mnemonic वाक्यांश सहेजें
+name: अपने म्नेमोनिक वाक्यांश को सहेजें
 description: अपने Bitcoin Wallet की सुरक्षा के लिए सर्वोत्तम अभ्यासों की खोज करें
 ---
 ![cover](assets/cover.webp)

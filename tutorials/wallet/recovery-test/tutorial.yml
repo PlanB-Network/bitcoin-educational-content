@@ -1,5 +1,6 @@
 id: 5a75db51-a6a1-4338-a02a-164a8d91b895
 
+last_update_date: 2024-10-14
 
 category: backup
 
@@ -65,7 +66,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.35
+    reward: 1.98
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -80,7 +81,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.35
+    reward: 1.98
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -95,7 +96,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.73
+    reward: 1.98
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -146,7 +147,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.35
+    reward: 1.98
   - language: bg
     last_contribution_date:
     urgency: 1

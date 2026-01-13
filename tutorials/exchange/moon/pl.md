@@ -11,6 +11,8 @@ description: Płać bitcoinami wszędzie tam, gdzie akceptowane są karty bankow
 
 ⚠️ *Aktualizacja grudzień 2025: Uwaga, **od początku grudnia 2025 część usług Moon nie jest już dostępna**, w szczególności doładowywane karty bankowe Visa. Nie wiemy jeszcze, czy ta niedostępność jest tymczasowa, czy trwała. Ten poradnik zostanie zaktualizowany, gdy tylko będziemy dysponować dodatkowymi informacjami.*
 
+*Jeśli korzystałeś z przedpłaconej karty Visa przed jej zablokowaniem, możesz teraz odzyskać swoje środki, przechodząc proces weryfikacji tożsamości bezpośrednio z poziomu pulpitu Moon. Zasadniczo Moon powinien był wysłać do Ciebie wiadomość e-mail z informacją o procedurze oraz krokach niezbędnych do przeprowadzenia tego odzyskania.*
+
 ---
 
 Moon umożliwia korzystanie z kryptowalut, takich jak bitcoin, w celu zakupu wolnych od KYC wirtualnych kart Visa i kart podarunkowych, które mogą być używane w milionach sklepów internetowych, podobnie jak tradycyjna karta bankowa. W ten sposób oferuje prosty sposób wydawania sats wszędzie tam, gdzie akceptowana jest Visa, bez konieczności korzystania z platformy wymiany.

@@ -1,5 +1,7 @@
 id: 5af6a380-f3c6-4246-9f81-9957a16ab066
 
+last_update_date: 2024-09-01
+
 level: beginner
 
 category: centralized
@@ -70,7 +72,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.15
+    reward: 0.14
   - language: et
     last_contribution_date:
     urgency: 1
@@ -95,7 +97,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.15
+    reward: 0.14
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -145,7 +147,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.15
+    reward: 0.14
   - language: bg
     last_contribution_date:
     urgency: 1

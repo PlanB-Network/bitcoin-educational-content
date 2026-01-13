@@ -53,16 +53,17 @@ https://planb.academy/tutorials/node/others/nostr-f6d21a64-9b04-4f21-ba1c-02c98c
 
 
 
-| Points de comparaisons      | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
-| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
-| Chiffrement E2EE / 1:1      | ✅ Oui       | Facultatif | ✅ Oui           | ✅ Oui   | ✅ Oui    | ✅ Oui            | ✅ Oui  |
-| Chiffrement de groupe E2EE  | ✅ Oui       | ❌ Non      | ✅ Oui           | ✅ Oui   | ✅ Oui    | Facultatif       | ✅ Oui  |
-| Anonymisation de l'identité | ✅ Oui       | Facultatif | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Serveur open source         | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Client open source          | ✅ Oui       | ✅ Oui      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Serveur décentralisé        | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Année de création           | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
+
+| Точки за сравнение          | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| E2EE шифроване / 1:1        | ✅ Да         | По избор   | ✅ Да             | ✅ Да    | ✅ Да     | ✅ Да              | ✅ Да   |
+| Групово E2EE шифроване      | ✅ Да         | ❌ Не       | ✅ Да             | ✅ Да    | ✅ Да     | По избор          | ✅ Да   |
+| Анонимизация на самоличност | ✅ Да         | По избор   | ❌ Не             | ✅ Да    | ❌ Не     | ❌ Не              | ❌ Не   |
+| Сървър с отворен код        | ✅ Да         | ❌ Не       | ❌ Не             | ✅ Да    | ❌ Не     | ❌ Не              | ✅ Да   |
+| Клиент с отворен код        | ✅ Да         | ✅ Да        | ❌ Не             | ✅ Да    | ❌ Не     | ❌ Не              | ✅ Да   |
+| Децентрализиран сървър      | ✅ Да         | ❌ Не       | ❌ Не             | ✅ Да    | ❌ Не     | ❌ Не              | ❌ Не   |
+| Година на създаване         | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
 ## Започване на работа с White Noise
 

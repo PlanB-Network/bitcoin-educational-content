@@ -1,5 +1,5 @@
 ---
-name: 保存您的记忆短语
+name: 保存助记词
 description: 了解保护比特币钱包的最佳做法
 ---
 ![cover](assets/cover.webp)

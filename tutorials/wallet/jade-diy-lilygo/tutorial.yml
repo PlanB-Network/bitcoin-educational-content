@@ -1,5 +1,7 @@
 id: a0c1aa75-7baa-45e4-989a-ae1c27b64ac5
 
+last_update_date: 2025-11-03
+
 credit_link: https://btcnyc.github.io/classes/topics/bitcoin-hardware-wallet/00-beginners-hardware-wallet/lesson/
 
 project_id: 3b2f45e6-d612-412c-95ba-cf65b49aa5b8
@@ -67,7 +69,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 16.62
+    reward: 11.9
   - language: id
     last_contribution_date:
     urgency: 1
@@ -82,7 +84,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.26
+    reward: 11.9
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -112,7 +114,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.26
+    reward: 11.9
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -143,7 +145,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 14.26
+    reward: 11.9
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

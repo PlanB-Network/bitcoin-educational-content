@@ -1,5 +1,7 @@
 id: 3f0a2aad-3867-4817-9b4e-c4f89edb5760
 
+last_update_date: 2025-11-03
+
 credit_link: https://www.youtube.com/watch?v=LD99xHqRW8k
 
 project_id: 4bcf4f08-4205-4314-9c28-dd18273dce73
@@ -67,7 +69,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.18
+    reward: 0.15
   - language: id
     last_contribution_date:
     urgency: 1
@@ -82,7 +84,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.16
+    reward: 0.15
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -112,7 +114,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.16
+    reward: 0.15
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -143,7 +145,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.16
+    reward: 0.15
   - language: zh-Hans
     last_contribution_date:
     urgency: 1

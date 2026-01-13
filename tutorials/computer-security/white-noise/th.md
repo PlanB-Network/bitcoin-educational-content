@@ -53,16 +53,17 @@ MLS (Messaging Layer Security) ในทางกลับกัน เป็น
 
 
 
-| Points de comparaisons      | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
-| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
-| Chiffrement E2EE / 1:1      | ✅ Oui       | Facultatif | ✅ Oui           | ✅ Oui   | ✅ Oui    | ✅ Oui            | ✅ Oui  |
-| Chiffrement de groupe E2EE  | ✅ Oui       | ❌ Non      | ✅ Oui           | ✅ Oui   | ✅ Oui    | Facultatif       | ✅ Oui  |
-| Anonymisation de l'identité | ✅ Oui       | Facultatif | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Serveur open source         | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Client open source          | ✅ Oui       | ✅ Oui      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Serveur décentralisé        | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Année de création           | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
+
+| ประเด็นเปรียบเทียบ         | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| การเข้ารหัส E2EE / 1:1     | ✅ ใช่        | ตัวเลือก  | ✅ ใช่            | ✅ ใช่   | ✅ ใช่    | ✅ ใช่             | ✅ ใช่  |
+| การเข้ารหัสแบบกลุ่ม E2EE   | ✅ ใช่        | ❌ ไม่      | ✅ ใช่            | ✅ ใช่   | ✅ ใช่    | ตัวเลือก          | ✅ ใช่  |
+| การไม่ระบุตัวตน             | ✅ ใช่        | ตัวเลือก  | ❌ ไม่            | ✅ ใช่   | ❌ ไม่    | ❌ ไม่             | ❌ ไม่  |
+| เซิร์ฟเวอร์โอเพนซอร์ส       | ✅ ใช่        | ❌ ไม่      | ❌ ไม่            | ✅ ใช่   | ❌ ไม่    | ❌ ไม่             | ✅ ใช่  |
+| ไคลเอนต์โอเพนซอร์ส         | ✅ ใช่        | ✅ ใช่      | ❌ ไม่            | ✅ ใช่   | ❌ ไม่    | ❌ ไม่             | ✅ ใช่  |
+| เซิร์ฟเวอร์แบบกระจายศูนย์  | ✅ ใช่        | ❌ ไม่      | ❌ ไม่            | ✅ ใช่   | ❌ ไม่    | ❌ ไม่             | ❌ ไม่  |
+| ปีที่ก่อตั้ง                | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
 ## เริ่มต้นใช้งาน White Noise
 

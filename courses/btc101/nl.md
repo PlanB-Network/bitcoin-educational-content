@@ -716,7 +716,7 @@ Ondanks de afwezigheid van Satoshi ging de ontwikkeling van Bitcoin door: de ges
 
 Voor sommigen wordt Bitcoin gedefinieerd als een schimmelachtige entiteit zoals een [mycelium](https://brandonquittem.com/Bitcoin-is-the-mycelium-of-money/), terwijl anderen het beschrijven als een [zwart gat](https://dergigi.com/). Of je het nu leuk vindt of niet, Bitcoin blijft bestaan, met zijn constante ritme van 10 minuten per blok, als de hartslag van een nieuw monetair systeem.
 
-Om meer te weten te komen over de geschriften van Satoshi Nakamoto, raden we ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) aan van Phil Champagne of de ARTE documentaire "Le mystaire Satoshi" te lezen.
+Om de geschriften van Satoshi Nakamoto verder te verdiepen, raad ik het lezen aan van [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) van Phil Champagne, dat zijn belangrijkste teksten bundelt en in context plaatst, evenals de ARTE-documentaire [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), die een toegankelijke en goed gedocumenteerde zoektocht naar zijn identiteit en nalatenschap biedt.
 
 ![image](assets/nl/044.webp)
 

@@ -1,0 +1,9 @@
+question: Which software innovated by representing the key derivation seed as a 12-word sentence in November 2011?
+answer: Electrum
+wrong_answers:
+  - Spesmilo
+  - Stratum
+  - Paymium
+explanation: |
+ This portfolio was created by French developer Thomas Voegtlin. Its name refers to electrum, a natural alloy of gold and silver. Electrum was one of the first wallets to implement a deterministic structure deriving keys from a seed, which it represented both as a hexadecimal character string and a 12-word sentence.
+reviewed: false

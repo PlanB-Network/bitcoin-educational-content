@@ -558,7 +558,7 @@ Di halaman pertama ini, Anda dapat mengamati kinerja mesin Anda secara real-time
 
 ![image](assets/en/042.webp)
 
-- Lebih lanjut ke bawah, Anda akan menemukan tampilan detil dari setiap hashboard. Suhu rata-rata papan dan chip yang terkandung di dalamnya, serta tegangan dan frekuensi.
+- Lebih lanjut ke bawah, Anda akan menemukan tampilan detail dari setiap hashboard. Suhu rata-rata papan dan chip yang terkandung di dalamnya, serta tegangan dan frekuensi.
 - Detail tentang kolam penambangan aktif di Pools.
 - Status autotuning di Tuner Status.
 - Di sebelah kanan, detail tentang data yang ditransmisikan ke kolam.
@@ -590,7 +590,7 @@ Di halaman pertama ini, Anda dapat mengamati kinerja mesin Anda secara real-time
 ### Bahan yang Diperlukan
 
 - 1 kipas Noctua NF-A6x25 PWM
-- Gula listrik 2.5mm2
+- Kawat baja listrik 2,5mm2
 
 > PERINGATAN: Pertama-tama, sebelum memulai, pastikan Anda telah mencabut penambang Anda untuk menghindari risiko tersengat listrik.
 
@@ -607,7 +607,7 @@ Setelah kipas asli dilepas, Anda akan menyadari bahwa konektor kipas Noctua baru
 
 ![image](assets/en/051.webp)
 
-Jika Anda tidak memiliki adaptor ini, Anda masih dapat melanjutkan untuk menghubungkan kipas baru menggunakan gula listrik. Untuk melakukan ini, Anda perlu memotong kabel kipas lama dan baru.
+Jika Anda tidak memiliki adaptor ini, Anda tetap dapat menghubungkan kipas baru menggunakan steker listrik. Untuk melakukan ini, Anda perlu memotong kabel kipas lama dan kipas baru.
 
 ![image](assets/en/052.webp)
 ![image](assets/en/053.webp)
@@ -629,7 +629,7 @@ Setelah kabel merah dan hitam terpapar, potong selubungnya dengan hati-hati untu
 
 ![image](assets/en/058.webp)
 
-Kemudian, hubungkan kabel dengan gula, kabel hitam dengan hitam dan kabel merah dengan merah. Anda juga dapat menambahkan isolasi listrik.
+Kemudian, sambungkan kabel-kabel tersebut dengan penjepit, kabel hitam dengan kabel hitam, dan kabel merah dengan kabel merah. Anda juga bisa menambahkan selotip listrik.
 
 ![image](assets/en/059.webp)
 ![image](assets/en/060.webp)
@@ -663,7 +663,7 @@ Akhirnya, pasang kembali penutup casing dan sekrup 6 sekrup di sisi untuk menaha
 - 2 kipas Noctua NF-A14 iPPC-2000 PWM
 - 2 gril kipas 140mm
 
-> PERINGATAN: Pertama-tama, sebelum memulai, pastikan untuk memutuskan penambang Anda untuk menghindari risiko tersengat listrik.
+> PERINGATAN: Pertama-tama, sebelum memulai, pastikan untuk memutuskan perangkat penambang Anda untuk menghindari risiko tersengat listrik.
 
 1. Pertama, lepaskan kipas dan buka bautnya.
 
@@ -672,7 +672,9 @@ Akhirnya, pasang kembali penutup casing dan sekrup 6 sekrup di sisi untuk menaha
 2. Konektor kipas Noctua baru tidak cocok dengan yang asli, tapi jangan khawatir! Keluarkan cutter Anda dan potong dengan hati-hati tab plastik kecil agar konektor pas sempurna pada penambang Anda.
 
 ![image](assets/en/066.webp)
-![image](assets/en/067.webp) 3. Saatnya memasang bagian 3D!
+![image](assets/en/067.webp) 
+
+3. Saatnya memasang bagian 3D!
 Pasang mereka di kedua sisi penambang menggunakan baut yang Anda lepas dari kipas. Pasang baut sampai kepala baut sejajar dengan bagian 3D dan terpasang dengan aman. Hati-hati jangan terlalu kencang, karena Anda bisa merusak bagian tersebut dan salah satu baut mungkin menyentuh kapasitor!
 
 ![image](assets/en/068.webp)
@@ -707,7 +709,7 @@ Dan selesai, selamat! Anda baru saja mengganti seluruh bagian mekanis dari penam
 ## Bergabung dengan kolam penambangan
 
 <chapterId>b57a6105-0a53-5fe9-bad1-d6d9daf97c0d</chapterId>
-Seseorang dapat membayangkan kolam penambangan seperti koperasi pertanian. Para petani menggabungkan produksi mereka bersama-sama untuk mengurangi varians pasokan dan permintaan dan dengan demikian memperoleh pendapatan yang lebih stabil untuk operasi mereka. Kolam penambangan beroperasi dengan cara yang sama, dengan sumber daya yang dibagi adalah hash. Memang, penemuan satu hash yang valid memungkinkan untuk pembuatan sebuah blok dan memenangkan coinbase atau hadiah, saat ini 6,25 BTC ditambah biaya transaksi yang termasuk dalam blok.
+Kita dapat membayangkan mining pool sebagai koperasi pertanian. Petani menggabungkan hasil produksi mereka untuk mengurangi perbedaan antara penawaran dan permintaan, sehingga memperoleh pendapatan yang lebih stabil untuk usaha mereka. Mining pool beroperasi dengan cara yang serupa, dengan sumber daya bersama berupa hash. Penemuan satu hash yang valid memungkinkan pembuatan blok dan penerimaan hadiah coinbase, saat ini sebesar 6,25 BTC ditambah biaya transaksi yang termasuk dalam blok tersebut.
 
 Jika Anda menambang sendirian, Anda hanya akan diberi hadiah ketika Anda menemukan sebuah blok. Berada dalam kompetisi melawan semua penambang lain di planet ini, Anda akan memiliki peluang yang sangat kecil untuk memenangkan lotere ini dan Anda masih harus membayar biaya yang terkait dengan penggunaan penambang Anda tanpa jaminan keberhasilan. Kolam penambangan mengatasi masalah ini dengan menggabungkan kekuatan komputasi dari beberapa (ribuan) penambang dan membagikan hadiah mereka berdasarkan persentase partisipasi dalam hashrate kolam ketika sebuah blok ditemukan. Untuk memvisualisasikan peluang Anda menambang sebuah blok sendirian, Anda dapat menggunakan alat ini. Dengan memasukkan informasi untuk Antminer S9, kita dapat melihat bahwa peluang menemukan hash yang memungkinkan untuk pembuatan sebuah blok adalah 1 dalam 24,777,849 untuk setiap blok atau 1 dalam 172,068 per hari. Rata-rata (dengan hashrate dan kesulitan yang konstan), akan memakan waktu 471 tahun untuk menemukan sebuah blok.
 

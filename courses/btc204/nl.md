@@ -4219,7 +4219,7 @@ Deze verdeling van transacties die wachten op integratie in een blok is redelijk
 ![BTC204](assets/nl/210.webp)
 
 
-Het doel van BIP156 is om dit probleem op te lossen. Om dit te doen, introduceert het een extra fase in de verspreiding van een nieuwe transactie om de anonimiteit te bewaren voordat deze breed openbaar wordt verspreid. Dandelion gebruikt eerst een "stengel"-fase waarbij de transactie door een willekeurig pad van knooppunten wordt gestuurd.
+Het doel van BIP156 is om dit probleem op te lossen. Om dit te doen, introduceert het een extra fase in de verspreiding van een nieuwe transactie om de anonimiteit te bewaren voordat deze breed openbaar wordt verspreid. Dandelion gebruikt eerst een "stam"-fase waarbij de transactie langs een willekeurig pad van nodes wordt gestuurd.
 
 
 ![BTC204](assets/nl/211.webp)
@@ -4234,7 +4234,7 @@ De transactie wordt dan uitgezonden naar het hele netwerk tijdens de "fluff"-fas
 De stengel en de "fluff" zijn verwijzingen naar het gedrag van transactiepropagatie door het netwerk, dat lijkt op de vorm en evolutie van een dandelion (paardenbloem).
 
 
-Spionnenknooppunten kunnen de transactie dus mogelijk terugleiden naar het knooppunt dat de "fluff"-fase (de massale uitzending) heeft gestart, maar dat knooppunt is niet degene die de transactie als eerste heeft uitgezonden, omdat het de transactie van het laatste knooppunt van de stam heeft ontvangen. Als de spionnenknooppunten de stam niet kunnen traceren, kunnen ze ook het bronknooppunt niet identificeren.
+Spionnenknooppunten (spy nodes) kunnen de transactie dus mogelijk terugleiden naar het knooppunt dat de "fluff"-fase (de massale uitzending) heeft gestart, maar dat knooppunt is niet degene die de transactie als eerste heeft uitgezonden, omdat het de transactie van het laatste knooppunt van de stam heeft ontvangen. Als de spionnenknooppunten de stam niet kunnen traceren, kunnen ze ook het bronknooppunt niet identificeren.
 
 
 ![BTC204](assets/nl/213.webp)
@@ -4246,28 +4246,28 @@ Zelfs in de aanwezigheid van spionnenknooppunten tijdens de stamfase blijft er a
 ![BTC204](assets/nl/214.webp)
 
 
-Deze routeringsmethode vervaagt het spoor terug naar het bronknooppunt, waardoor het moeilijk wordt om een transactie door het netwerk terug te leiden naar de oorsprong. Dandelion verbetert dus de vertrouwelijkheid door het vermogen van tegenstanders om het netwerk te de-anonimiseren te beperken. Deze methode is des te effectiever wanneer de transactie tijdens de "stemming"-fase een knooppunt passeert dat zijn netwerkcommunicatie versleutelt, zoals bij Tor of P2P Transport V2.
+Deze routeringsmethode vervaagt het spoor terug naar het bronknooppunt, waardoor het moeilijk wordt om een transactie door het netwerk terug te leiden naar de oorsprong. Dandelion verbetert dus de vertrouwelijkheid door het vermogen van tegenstanders om het netwerk te de-anonimiseren te beperken. Deze methode is des te effectiever wanneer de transactie tijdens de "stam"-fase een knooppunt passeert dat zijn netwerkcommunicatie versleutelt, zoals bij Tor of P2P-Transport V2.
 
 
 BIP156 is niet geïntegreerd in Bitcoin Core en is momenteel geclassificeerd als "afgewezen". Een van de grootste bezwaren tegen dit protocol is dat transacties tijdens de stamfase via tussenliggende knooppunten moeten worden doorgestuurd voordat ze worden geverifieerd. Zoals we hebben gezien, verifieert in het normale Bitcoin model elk knooppunt eerst de transactie voordat het deze naar zijn peers uitzendt. Als een transactie niet voldoet aan de consensusregels of lokale standaardisatieregels van het knooppunt, negeert het knooppunt de transactie en verspreidt het deze niet. Dit proces is belangrijk om DoS-aanvallen tegen te gaan, omdat alleen geldige transacties naar het hele netwerk worden uitgezonden. Ongeldige transacties, die mogelijk massaal worden gegenereerd om het netwerk te overbelasten, worden gestopt bij het eerste knooppunt dat ze tegenkomen en verspreiden zich niet. Het grootste risico van Dandelion is dat dit nieuwe protocol nieuwe vectoren voor DoS aanvallen kan introduceren door toe te staan dat ongeldige transacties over een deel van het netwerk worden uitgezonden.
 
 
-### P2P transport V2
+### P2P-transport V2
 
 
-P2P transport V2 is een ander netwerkprotocol dat wordt gepresenteerd in BIP324. Het is een nieuwe versie van het Bitcoin P2P transport protocol dat opportunistische encryptie bevat om de vertrouwelijkheid en veiligheid van communicatie tussen nodes te verbeteren.
+P2P-transport V2 is een ander netwerkprotocol dat wordt gepresenteerd in BIP324. Het is een nieuwe versie van het Bitcoin P2P-transport protocol dat opportunistische encryptie bevat om de vertrouwelijkheid en veiligheid van communicatie tussen nodes te verbeteren.
 
 
-Deze verbetering is ontworpen om verschillende problemen met de basisversie van het P2P protocol op te lossen. Enerzijds maakt het de uitgewisselde gegevens voor een passieve waarnemer niet te onderscheiden van andere soorten gegevens die op het internet circuleren. Het belangrijkste doel is om te voorkomen dat overheden, ISP's en VPN-providers Bitcoin-gebruikers massaal in de gaten houden. Dit maakt het ook moeilijker voor deze entiteiten om te bepalen of een internetgebruiker ook een Bitcoin-gebruiker is, d.w.z. of hij of zij een compleet knooppunt bedient.
+Deze verbetering is ontworpen om verschillende problemen met de basisversie van het P2P-protocol op te lossen. Enerzijds maakt het de uitgewisselde gegevens voor een passieve waarnemer niet te onderscheiden van andere soorten gegevens die op het internet circuleren. Het belangrijkste doel is om te voorkomen dat overheden, ISP's en VPN-providers Bitcoin-gebruikers massaal in de gaten houden. Dit maakt het ook moeilijker voor deze entiteiten om te bepalen of een internetgebruiker ook een Bitcoin-gebruiker is, d.w.z. of hij of zij een compleet knooppunt draait.
 
 
-P2P V2 helpt ook het risico op censuur en aanvallen te verminderen door specifieke patronen in gegevenspakketten te detecteren. Het compliceert en maakt de uitvoering van verschillende soorten Sybil-aanvallen op netwerkniveau duurder. Een Sybil-aanval vindt plaats wanneer een actor meerdere valse identiteiten creëert om een oneerlijk voordeel te behalen. In de context van het Bitcoin-netwerk manifesteert dit zich vaak als een actor die een groot aantal complete nodes controleert en deze agressief gebruikt om verbindingen te vermenigvuldigen. Sybil aanvallen kunnen passief zijn, om informatie te verzamelen en de vertrouwelijkheid van gebruikers in gevaar te brengen, of actief, in de vorm van Eclipse aanvallen. Deze laatste isoleren een specifiek knooppunt van de rest van het netwerk en censureren de gebruiker of veranderen de gegevens die het ontvangt. Ten slotte maakt P2P V2 ook *Man-In-The-Middle* (MITM) aanvallen kostbaarder en gemakkelijker op te sporen.
+P2P V2 helpt ook het risico op censuur en aanvallen te verminderen door specifieke patronen in gegevenspakketten te detecteren. Het compliceert en maakt de uitvoering van verschillende soorten Sybil-aanvallen op netwerkniveau duurder. Een Sybil-aanval vindt plaats wanneer een actor meerdere valse identiteiten creëert om een oneerlijk voordeel te behalen. In de context van het Bitcoin-netwerk manifesteert dit zich vaak als een actor die een groot aantal full nodes controleert en deze agressief gebruikt om verbindingen te vermenigvuldigen. Sybil-aanvallen kunnen passief zijn, om informatie te verzamelen en de vertrouwelijkheid van gebruikers in gevaar te brengen, of actief, in de vorm van Eclipse-aanvallen. Deze laatste isoleren een specifiek knooppunt van de rest van het netwerk en censureren de gebruiker of veranderen de gegevens die het ontvangt. Ten slotte maakt P2P V2 ook *Man-In-The-Middle* (MITM) aanvallen kostbaarder en gemakkelijker op te sporen.
 
 
-De versleuteling geïmplementeerd door P2P V2 bevat geen authenticatie, om geen onnodige complexiteit toe te voegen of het feit te compromitteren dat de verbinding met het netwerk zonder toestemming blijft. Desalniettemin biedt dit nieuwe P2P transportprotocol betere beveiliging tegen passieve aanvallen en maakt het actieve aanvallen aanzienlijk kostbaarder en detecteerbaarder. De introductie van een pseudo-willekeurige gegevensstroom in netwerkberichten maakt het moeilijker voor aanvallers om communicatie te censureren of te manipuleren.
+De encryptie  die door P2P V2 is geïmplementeerd, bevat geen authenticatie om onnodige complexiteit te voorkomen en om niet te compromitteren dat de netwerktoegang toestemming-vrij (permissionless) blijft. Desalniettemin biedt dit nieuwe P2P-transportprotocol betere beveiliging tegen passieve aanvallen en maakt het actieve aanvallen aanzienlijk kostbaarder en detecteerbaarder. De introductie van een pseudo-willekeurige gegevensstroom in netwerkberichten maakt het moeilijker voor aanvallers om communicatie te censureren of te manipuleren.
 
 
-P2P V2 transport werd opgenomen als een optie (standaard uitgeschakeld) in Bitcoin Core versie 26.0, ingezet in december 2023. Daarna werd het standaard ingeschakeld in versie 27.0 van april 2024. Het kan worden aangepast met de `v2transport=` optie in het configuratiebestand.
+P2P V2-transport werd opgenomen als een optie (standaard uitgeschakeld) in Bitcoin Core versie 26.0, uitgebracht in december 2023. Daarna werd het standaard ingeschakeld in versie 27.0 van april 2024. Het kan worden aangepast met de `v2transport=` optie in het configuratiebestand.
 
 
 ### Tor
@@ -4276,7 +4276,7 @@ P2P V2 transport werd opgenomen als een optie (standaard uitgeschakeld) in Bitco
 Een andere eenvoudige oplossing om het risico op verlies van vertrouwelijkheid voor een netwerkknooppunt te vermijden, is om het volledig onder Tor te laten draaien.
 
 
-Tor is een netwerk van relaisservers (nodes) dat de herkomst van TCP-verbindingen op het internet anonimiseert. Het werkt door gegevens in te kapselen in verschillende lagen van encryptie. Elk relaisknooppunt verwijdert een Layer om het adres van het volgende knooppunt te onthullen, totdat de eindbestemming is bereikt. Het Tor netwerk zorgt voor anonimiteit door te voorkomen dat tussenliggende knooppunten zowel de herkomst als de bestemming van gegevens kennen, waardoor het voor een waarnemer erg moeilijk wordt om de activiteit van een gebruiker te traceren.
+Tor is een netwerk van relaisservers (nodes) dat de herkomst van TCP-verbindingen op het internet anonimiseert. Het werkt door gegevens in te kapselen in verschillende lagen van encryptie. Elk relaisknooppunt verwijdert een laag om het adres van het volgende knooppunt te onthullen, totdat de eindbestemming is bereikt. Het Tor-netwerk zorgt voor anonimiteit door te voorkomen dat tussenliggende knooppunten zowel de herkomst als de bestemming van gegevens kennen, waardoor het voor een waarnemer erg moeilijk wordt om de activiteit van een gebruiker te traceren.
 
 
 ![BTC204](assets/nl/215.webp)
@@ -4288,10 +4288,10 @@ Tor versleutelt niet alleen gegevens, maar maskeert ook de herkomst en bestemmin
 Het grootste risico van deze methode is dat Tor een protocol is dat onafhankelijk is van Bitcoin. Als je een Bitcoin node hebt die onder Tor draait en Tor stopt met werken, dan kan je Bitcoin node niet meer communiceren.
 
 
-Het is ook belangrijk om te weten dat de communicatie op Tor langzamer is. Deze latentie is vooral vervelend tijdens de initiële lancering van een node, omdat IBD (*Initial Block Download*) veel communicatie vereist. Als gevolg hiervan kan je initiële synchronisatie met het Bitcoin-netwerk aanzienlijk langer duren als je Tor gebruikt. Het is ook mogelijk om IBD uit te voeren op het clearnet en dan Tor te activeren als tweede stap. Hoewel deze methode het bestaan van je Bitcoin node onthult aan je ISP, beschermt het je persoonlijke transactie informatie zodra je overschakelt naar Tor.
+Het is ook belangrijk om te weten dat de communicatie op Tor langzamer is. Deze vertraging is vooral vervelend tijdens de initiële lancering van een node, omdat IBD (*Initial Block Download*) veel communicatie vereist. Als gevolg hiervan kan je initiële synchronisatie met het Bitcoin-netwerk aanzienlijk langer duren als je Tor gebruikt. Het is ook mogelijk om IBD uit te voeren op het clearnet en dan Tor te activeren als tweede stap. Hoewel deze methode het bestaan van je Bitcoin node onthult aan je ISP, beschermt het je persoonlijke transactie informatie zodra je overschakelt naar Tor.
 
 
-Na het verkennen van de verschillende methoden van vertrouwelijkheid op netwerkniveau, wil ik je in de volgende hoofdstukken ook kennis laten maken met twee elegante oplossingen om hergebruik van adres te voorkomen: BIP47 en Stille Betalingen.
+Na het verkennen van de verschillende methoden van vertrouwelijkheid op netwerkniveau, wil ik je in de volgende hoofdstukken ook kennis laten maken met twee elegante oplossingen om hergebruik van adres te voorkomen: BIP47 en Silent Payments.
 
 
 ## BIP47 en herbruikbare betaalcodes

@@ -1,9 +1,9 @@
-question: Was ist die wichtigste Hardwareanforderung für ein Starterprofil, um Bitcoin-Zahlungen zu akzeptieren?
+question: Was ist die wichtigste Hardwareanforderung für ein Starter-Profil, um Bitcoin-Zahlungen zu akzeptieren?
 answer: Ein Smartphone
 wrong_answers:
-  - Ein Bitcoin-Schürfer ASIC
-  - Eine Hardware-Brieftasche
+  - Ein ASIC Bitcoin-Miner 
+  - Eine Hardware-Wallet
   - Ein selbst gehosteter Server
 explanation: |
-  Für das Starter-Profil wird nur ein Smartphone oder Tablet mit einer Lightning-Geldbörse benötigt, was es zu einer leichten Lösung macht.
-reviewed: false
+  Für das Starter-Profil wird nur ein Smartphone oder Tablet mit einer Lightning-Wallet benötigt, was es zu einer leichten Lösung macht.
+reviewed: true

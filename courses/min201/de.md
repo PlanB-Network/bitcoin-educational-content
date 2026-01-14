@@ -232,7 +232,7 @@ Zusammenfassend stärken die Miner das Bitcoin-Netzwerk gegen Zensur, indem sie 
 
 Der aktuelle Hashrate, obwohl der Preis von Bitcoin bei 30.000$ im Vergleich zu seinem vorherigen Höchststand von 69.000$ liegt, unterstreicht die greifbare Verbindung zwischen dem Mining und der realen Welt. Perioden mit steigenden Preisen (Bull Market) führen zu einer starken Nachfrage nach Bitcoin-Mining und einem Anstieg der Bestellungen von Maschinen bei Herstellern wie Avalon und Bitmain. Die Produktion und Lieferung sind jedoch nicht sofort, was zu einer Diskrepanz zwischen erhöhter Nachfrage und späterer Verfügbarkeit führt. Dies kann dazu führen, dass Maschinen, die während eines Bullenmarktes bestellt wurden, in einem fallenden Markt geliefert werden, was eine bemerkenswerte Asymmetrie zwischen niedrigem Preis und hohem Hashrate hervorhebt.
 
-Diese Situation illustriert auch die Resilienz von Bitcoin, die oft anhand seines Preises bewertet wird. Eine tiefere Analyse der Gesundheit von Bitcoin erfordert jedoch die Betrachtung seiner Hashrate, die die Berechnungen pro Sekunde im Bitcoin-Netzwerk misst. Während der Preis von Bitcoin schwankt, bleibt sein Kosten, verbunden mit dem Strombedarf zum Betreiben der Mining-Maschinen, wesentlich, um die Marktdynamik zu verstehen. Indem man sich auf die Kosten statt auf den Preis konzentriert, erhält man eine konsistentere Perspektive auf die Stabilität und langfristige Lebensfähigkeit von Bitcoin. Generell ist der Kosten von Bitcoin proportional zu seinem Preis, was ein besseres Verständnis der Preisschwankungen und zukünftigen Aussichten bietet.
+Diese Situation illustriert auch die Resilienz von Bitcoin, die oft anhand seines Preises bewertet wird. Eine tiefere Analyse der Gesundheit von Bitcoin erfordert jedoch die Betrachtung seiner Hashrate, die die Berechnungen pro Sekunde im Bitcoin-Netzwerk misst. Während der Preis von Bitcoin schwankt, bleiben die Kosten, verbunden mit dem Strombedarf zum Betreiben der Mining-Maschinen, wesentlich, um die Marktdynamik zu verstehen. Indem man sich auf die Kosten statt auf den Preis konzentriert, erhält man eine konsistentere Perspektive auf die Stabilität und langfristige Zukunftssicherheit von Bitcoin. Generell ist der Kosten von Bitcoin proportional zu seinem Preis, was ein besseres Verständnis der Preisschwankungen und zukünftigen Aussichten bietet.
 
 ![image](assets/en/012.webp)
 
@@ -246,8 +246,8 @@ Die Frage ist tiefgreifend und umfasst mehrere Dimensionen des Bitcoin-Minings. 
 
 - Mining für den Profit:
 
-  - Pro: Miner sind natürlich vom Gewinnpotenzial angezogen, das das Bitcoin-Mining bietet. Die Investition in teure Mining-Ausrüstung kann sich durch Mining-Belohnungen und Transaktionsgebühren amortisieren, besonders wenn der Bitcoin-Preis hoch ist.
-  - Kontra: Die Gewinnsuche kann zur Zentralisierung der Hashing-Power führen, wenn nur wenige große Unternehmen es sich leisten können, in hochwertige Mining-Ausrüstung zu investieren. Darüber hinaus kann der Energieverbrauch des profitgetriebenen Minings eine erhebliche Umweltauswirkung haben.
+**Pro**: Miner sind natürlich vom Gewinnpotenzial angezogen, das das Bitcoin-Mining bietet. Die Investition in teure Mining-Ausrüstung kann sich durch Mining-Belohnungen und Transaktionsgebühren amortisieren, besonders wenn der Bitcoin-Preis hoch ist.
+**Kontra**: Die Gewinnsuche kann zur Zentralisierung der Hashing-Power führen, wenn nur wenige große Unternehmen es sich leisten können, in hochwertige Mining-Ausrüstung zu investieren. Darüber hinaus kann der Energieverbrauch des profitgetriebenen Minings eine erhebliche Umweltauswirkung haben.
 
 - Mining für das Netzwerk:
 

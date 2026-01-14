@@ -39,7 +39,6 @@ Unngå:
 - Chromebooks – ofte er lagringskapasiteten for lav
 - Enhver datamaskin med en eMMC-disk; Hvis den har en SSD-disk, er det perfekt
 - Macs – de er dyre, og maskinvaren fungerer ikke godt med Linux-operativsystemer etter min erfaring
-- Alt som er oppusset eller brukt (ikke en absolutt deal-breaker, though)
 
 I stedet, se etter en Windows 11 laptop (For øyeblikket er Windows 11 den nyeste utgivelsen. Vi skal bli kvitt den programvaren, ikke bekymre deg.). Jeg søkte på amazon.com etter "Windows 11 Laptop" og fant dette gode eksemplet:
 ![bilde](assets/1.webp)

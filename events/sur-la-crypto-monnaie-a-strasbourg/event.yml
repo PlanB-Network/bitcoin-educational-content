@@ -1,0 +1,21 @@
+id: 7f483a0a-f728-43eb-b0fe-873805a0ecc0
+start_date: 2026-01-29 08:30:00
+end_date: 2026-01-29 20:00:00
+timezone: Europe/Paris
+address_city_country: Strasbourg, France
+address_line_2: Le Shadok - Presqu'ile André Malraux, 25 Rue du Bass. d'Austerlitz, 67100 Strasbourg
+address_line_3:
+name: "Conférence sur la crypto-monnaie à Strasbourg"
+type: conference
+description: |
+  "17 ans après sa création, plus de 300 millions d'individus dans le monde utilisent Bitcoin. Il est donc temps de se demander ce que cette innovation de rupture peut apporter à l’échelle locale, à Strasbourg comme en Alsace. La matinée sera consacrée à une présentation vulgarisée ainsi qu’à une séance de questions-réponses, afin de poser les bases de compréhension et d’aborder les enjeux de cette monnaie numérique. L’après-midi sera quant à elle dédiée à différents panels mêlant technique, politique et adoption. En fin de journée, il sera enfin possible d’échanger avec les intervenants autour d’un verre."
+language:
+  - fr
+links:
+  website: https://conference-cryptomonnaie.eu/store
+  replay_url:
+  live_url:
+tags:
+  - self-sovereignty
+  - community
+  - adoption

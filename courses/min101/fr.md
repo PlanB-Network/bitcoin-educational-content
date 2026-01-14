@@ -758,6 +758,10 @@ Une ferme de minage, dans sa forme la plus simple, c’est un bâtiment (ou un e
 * filtrer la poussière, contrôler l’humidité, nettoyer ;
 * surveiller en temps réel la performance des machines (températures, erreurs matérielles, baisse de hashrate...).
 
+043
+
+*L’un des sept bâtiments dédiés au minage de Bitcoin sur le site de Rockdale de Riot Platforms, à proximité d’Austin, au Texas. Celui-ci est spécifiquement dédié au minage par immersion.*
+
 Le minage est désormais porté par des acteurs industriels, parfois cotés en bourse, qui construisent et exploitent des fermes à très grande échelle. On peut notamment citer MARA Holdings (Nasdaq: `MARA`) ou Riot Platforms (Nasdaq: `RIOT`).
 
 042
@@ -777,6 +781,11 @@ https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a
 https://planb.academy/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
 
 ## Le regroupement en pools de minage
+
+
+
+
+
 
 
 

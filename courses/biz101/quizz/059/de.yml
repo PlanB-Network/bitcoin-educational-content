@@ -1,9 +1,9 @@
-question: Welche beiden Briefträgertypen werden im Starterprofil berücksichtigt?
-answer: Gewahrsamsfähige und nicht gewahrsamsfähige Lightning-Geldbörsen
+question: Welche beiden Wallet-Typen werden im Starterprofil berücksichtigt?
+answer: Custodial und Non-Custodial Lightning-Wallets
 wrong_answers:
   - Hot- und Cold-Storage Bitcoin-Wallets
-  - Multisig und Papier-Bitcoin-Geldbörsen
-  - Hardware und Gehirn Blitz-Brieftaschen
+  - Multisig und Papier-Bitcoin-Wallet
+  - Hardware und Gehirn Lightning-Wallets
 explanation: |
-  Das Starter-Profil verwendet entweder verwahrte oder nicht verwahrte Lightning-Geldbörsen.
-reviewed: false
+  Das Starter-Profil verwendet entweder Custodial oder Non-Custodial Lightning-Wallets.
+reviewed: true

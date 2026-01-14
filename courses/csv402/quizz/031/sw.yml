@@ -6,4 +6,4 @@ wrong_answers:
   - Kujenga PSBT kuchukua nafasi ya shughuli ya Bitcoin
 explanation: |
   Invoice inatumika kumfahamisha mtoaji wa shughuli ya aina ya operesheni, kiasi cha mali zinazopaswa kuhamishwa na lengwa (Seal Definition).
-reviewed: false
+reviewed: true

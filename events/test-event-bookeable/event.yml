@@ -5,8 +5,7 @@ end_date: 2026-01-22 15:00:00
 timezone: Europe/Paris
 address_city_country: Paris, France
 name: TEST event Bookeable
-type: lecture
-type: exam
+type: conference
 book_in_person: true
 available_seats: 12
 is_gdpr_compliance: true

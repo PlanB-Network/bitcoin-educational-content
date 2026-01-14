@@ -112,4 +112,4 @@ Bisq Easy enables Bitcoin purchases without collateral, solving the classic chic
 
 ## 📚 Bisq Easy Mobile Resources
 
-[Github](https://github.com/permissionlesstech) | [Website ](https://bisq.network/bisq-easy/)| [W](https://bisq.wiki/Bisq_Easy)[iki](https://bisq.wiki/Bisq_Easy)
+[Github](https://github.com/bisq-network/bisq-mobile) | [Website ](https://bisq.network/bisq-easy/)| [W](https://bisq.wiki/Bisq_Easy)[iki](https://bisq.wiki/Bisq_Easy)

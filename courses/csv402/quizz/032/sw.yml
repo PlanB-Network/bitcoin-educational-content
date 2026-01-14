@@ -6,4 +6,4 @@ wrong_answers:
   - Toa Invoice mpya kwa suala la mali
 explanation: |
   Ni lazima Alice aunde PSBT ili kutumia UTXO inayohusishwa na mali, kisha generate Terminal Consignment ambayo inajumuisha mpito mpya wa Bob.
-reviewed: false
+reviewed: true

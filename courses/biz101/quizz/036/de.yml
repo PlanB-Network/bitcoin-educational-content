@@ -1,9 +1,9 @@
 question: Wie trägt das Lightning Network dazu bei, die Zukunft des Online-Handels und der digitalen Dienste zu gestalten?
 answer: Durch die Ermöglichung reibungsloser, sofortiger und erlaubnisfreier Mikrotransaktionen werden neue Geschäftsmodelle und Einnahmequellen erschlossen.
 wrong_answers:
-  - Indem sie verhindern, dass neue Geschäftsmodelle online entstehen.
-  - Indem sie von den Händlern verlangen, die gleichen langsamen und kostspieligen Zahlungswege wie bisher zu nutzen.
-  - Indem sie den Verkauf digitaler Waren durch hohe Gebühren unmöglich machen.
+  - Indem es verhindert, dass neue Geschäftsmodelle online entstehen.
+  - Indem es von den Händlern verlangt, die gleichen langsamen und kostspieligen Zahlungswege wie bisher zu nutzen.
+  - Indem es den Verkauf digitaler Waren durch hohe Gebühren unmöglich macht.
 explanation: |
   Die Fähigkeit von Lightning, winzige Wertbeträge sofort und zu geringen Kosten zu versenden, fördert Innovationen in Bereichen wie Pay-as-you-go-Inhalte, Streaming-Zahlungen und Machine-to-Machine-Transaktionen und könnte die Art und Weise, wie Online-Dienste monetarisiert werden, verändern.
-reviewed: false
+reviewed: true

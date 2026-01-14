@@ -1,4 +1,4 @@
-question: Welchen Vorteil bietet die Verwendung einer verwahrten Brieftasche für das Starter-Profil?
+question: Welchen Vorteil bietet die Verwendung einer Custodial-Wallet für das Starter-Profil?
 answer: Geringere technische Verantwortung
 wrong_answers:
   - Erhöhte Kontrolle über private Schlüssel
@@ -6,4 +6,4 @@ wrong_answers:
   - Abschaffung der Transaktionsgebühren
 explanation: |
   Custodial Wallets verwalten private Schlüssel, was den technischen Aufwand für die Nutzer verringert.
-reviewed: false
+reviewed: true

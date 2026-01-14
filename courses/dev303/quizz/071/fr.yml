@@ -1,8 +1,8 @@
 question: Quelle est la réponse la plus appropriée lorsqu'une application Bitcoin rencontre une erreur de saisie non valide, comme la réception d'une valeur négative pour un champ qui ne requiert que des nombres entiers positifs ?
-answer: Rejeter l'entrée et renvoyer une indication d'erreur à l'appelant
+answer: Rejeter l'entrée et renvoyer une indication d'erreur à l'appelant.
 wrong_answers:
-  - Convertir la valeur négative en valeur absolue et poursuivre le traitement
-  - Enregistrer l'erreur mais poursuivre l'opération en utilisant une valeur par défaut
-  - Interrompre immédiatement l'ensemble de l'application pour éviter la corruption des données
+  - Convertir la valeur négative en valeur absolue et poursuivre le traitement.
+  - Enregistrer l'erreur mais poursuivre l'opération en utilisant une valeur par défaut.
+  - Interrompre immédiatement l'ensemble de l'application pour éviter la corruption des données.
 explanation: |
-  Les erreurs d'entrée non valide représentent des violations de contrat entre l'appelant et la fonction, lorsque les paramètres fournis ne répondent pas aux exigences de la fonction. L'approche correcte consiste à rejeter l'entrée et à renvoyer une indication d'erreur, ce qui permet à l'appelant de gérer la situation de manière appropriée. La conversion de valeurs négatives en valeurs positives masque silencieusement l'erreur et peut conduire à un comportement involontaire. L'utilisation de valeurs par défaut ne tient pas compte de l'intention de l'appelant et peut entraîner le traitement de données incorrectes. L'arrêt de l'application entière est excessif en cas d'échec de la validation des entrées et créerait une mauvaise expérience pour l'utilisateur dans les applications Bitcoin où la gestion gracieuse des erreurs est cruciale.
+  Les erreurs d'entrée non valide représentent des violations de contrat entre l'appelant et la fonction, lorsque les paramètres fournis ne répondent pas aux exigences de la fonction. L'approche correcte consiste à rejeter l'entrée et à renvoyer une indication d'erreur, ce qui permet à l'appelant de gérer la situation de manière appropriée. La conversion de valeurs négatives en valeurs positives masque silencieusement l'erreur et peut conduire à un comportement involontaire. L'utilisation de valeurs par défaut ne tient pas compte de l'intention de l'appelant et peut entraîner le traitement de données incorrectes. L'arrêt de l'application entière est excessif en cas d'échec de la validation des entrées et créerait une mauvaise expérience pour l'utilisateur dans les applications Bitcoin, où la gestion gracieuse des erreurs est cruciale.

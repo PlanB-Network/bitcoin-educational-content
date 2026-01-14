@@ -1,0 +1,8 @@
+question: Je, kuna uhusiano gani wa kihisabati kati ya thamani ya ugumu wa Bitcoin na shabaha ya sasa inayotumika kwa uthibitisho wa block?
+answer: Ugumu ni sawa na shabaha ya chini kabisa inayoweza kugawanywa na shabaha ya sasa
+wrong_answers:
+  - Ugumu ni sawa na shabaha ya sasa ikigawanywa na shabaha ya chini kabisa iwezekanavyo
+  - Ugumu ni sawa na shabaha ya sasa ikizidishwa na shabaha ya chini kabisa iwezekanavyo
+  - Ugumu ni sawa na mara za mgawo 256 zilizoinuliwa hadi kipeo toa 3
+explanation: |
+  Ugumu wa Bitcoin umefafanuliwa mahsusi kama lengo_la_chini/lengo_la_mkondoni, ambalo linaelezea ni mara ngapi mining ni ngumu ikilinganishwa na ugumu rahisi zaidi iwezekanavyo. Uhusiano huu kinyume unamaanisha kwamba kadri lengo linavyozidi kuwa dogo (kufanya hashes halali kuwa ngumu kupata), ugumu huongezeka kwa uwiano. Fomula inahakikisha ugumu wa 1 unawakilisha hali rahisi zaidi za mining, huku thamani za juu zikionyesha kazi ya hesabu zaidi inayohitajika ili kupata vitalu halali.

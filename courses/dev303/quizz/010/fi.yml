@@ -1,0 +1,8 @@
+question: Mitä muuttujalle tapahtuu, kun omistusoikeus siirretään toiseen muuttujaan Rust:ssa?
+answer: Alkuperäisestä muuttujasta tulee virheellinen, eikä sitä voi enää käyttää
+wrong_answers:
+  - Alkuperäisestä muuttujasta tulee vain lukemiseen tarkoitettu viittaus tietoihin
+  - Molemmat muuttujat jakavat omistusoikeuden ja voivat muuttaa tietoja itsenäisesti
+  - Alkuperäinen muuttuja muutetaan automaattisesti muuttuvaksi viittaukseksi
+explanation: |
+  Kun omistusoikeus siirretään Rust:ssä, alkuperäisestä muuttujasta tulee täysin mitätön, eikä sitä voi enää käyttää. Tämä on perustavanlaatuinen turvaominaisuus, joka estää useita muuttujia hallitsemasta samaa kasan muistia, mikä voisi johtaa useafter-free-virheisiin tai double-free-virheisiin. Siirto-operaatio siirtää täydellisen hallinnan uudelle muuttujalle, ja kääntäjä tuottaa virheen, jos alkuperäistä muuttujaa yritetään käyttää siirron jälkeen. Tämä eroaa kopioinnista (jossa molemmat muuttujat pysyvät voimassa) ja lainauksesta (jossa alkuperäinen omistaja säilyttää omistusoikeuden).

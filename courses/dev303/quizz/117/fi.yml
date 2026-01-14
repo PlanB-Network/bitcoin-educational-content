@@ -1,0 +1,8 @@
+question: Mikä on perimmäinen syy siihen, että Breez SDK:n arkkitehtuuri estää sääntelyyn liittyvät esteet, jotka tyypillisesti haittaavat Lightning-palveluiden säilytyspalveluita?
+answer: Käyttäjät säilyttävät yksityisten avaintensa täydellisen hallinnan, sillä ne eivät koskaan poistu heidän laitteistaan, joten ohjelmisto ei ole säilytysvelvollinen
+wrong_answers:
+  - SDK toimii hajautettujen LSP:iden kautta, jotka jakavat sääntelyvastuun useille lainkäyttöalueille
+  - Greenlight-infrastruktuuria isännöidään sääntelyä suosivilla lainkäyttöalueilla, joilla pilvipohjaiset Lightning-palvelut on vapautettu verosta
+  - Just-in-time-kanavamekanismi luo tilapäisiä maksukanavia, jotka jäävät perinteisten rahoitussäännösten ulkopuolelle
+explanation: |
+  Breez SDK välttää sääntelyyn liittyvät esteet, koska se ei noudata säilytysperiaatteita - käyttäjien yksityiset avaimet eivät koskaan poistu heidän laitteistaan, eikä Greenlight pääse käsiksi käyttäjien varoihin tai voi suorittaa luvattomia operaatioita. Tämä ei-säilytysarkkitehtuuri tarkoittaa, että ohjelmisto ei pidä hallussaan asiakkaiden varoja, toisin kuin säilytyspalvelut, joihin kohdistuu merkittäviä sääntelyvaatimuksia, koska ne valvovat käyttäjien varoja. Muissa vaihtoehdoissa annetaan virheellisesti ymmärtää, että sääntelyyn liittyvät edut johtuvat teknisistä ominaisuuksista tai oikeudellisista strategioista, vaikka keskeisenä etuna on yksinkertaisesti se, että ei-säilytysohjelmistoihin kohdistuu maailmanlaajuisesti vähemmän sääntelyyn liittyviä esteitä.

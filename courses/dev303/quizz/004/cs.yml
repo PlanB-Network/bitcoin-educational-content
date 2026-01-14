@@ -1,0 +1,8 @@
+question: Které klíčové slovo je nutné, aby proměnná byla modifikovatelná po své počáteční deklaraci v Rust?
+answer: mut
+wrong_answers:
+  - var
+  - mutabilní
+  - změna
+explanation: |
+  V Rust je klíčové slovo 'mut' vyžadováno pro deklaraci proměnné jako proměnné, která je proměnná proměnná, jejíž hodnota může být změněna po prvním přiřazení. Ve výchozím nastavení jsou všechny proměnné v Rust z bezpečnostních důvodů neměnné. Syntaxe je "let mut x = 5" pro proměnnou proměnnou a "let x = 5" pro proměnnou neměnnou. Ostatní možnosti jako 'var', 'mutable' a 'change' nejsou pro tento účel platnými klíčovými slovy Rust.

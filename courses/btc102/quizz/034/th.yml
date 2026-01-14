@@ -1,0 +1,9 @@
+question: โปรโตคอลเลเยอร์ที่สองใดที่ช่วยให้การชำระเงินเกือบจะทันที?
+answer: Lightning Network
+wrong_answers:
+  - ไซด์เชน
+  - RGB
+  - Bitcoin Core
+explanation: |
+  Lightning Network ช่วยให้การทำธุรกรรมรวดเร็วและมีต้นทุนต่ำผ่านการดำเนินงานของ off-chain นอกบล็อกเชน Bitcoin
+reviewed: false

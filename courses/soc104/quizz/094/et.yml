@@ -1,0 +1,9 @@
+question: Satoshi Nakamoto põhimõttelise kriitika kohaselt, mis on tavapäraste fiat-valuutasüsteemide põhiprobleem?
+answer: Nad nõuavad liigset usaldust tsentraliseeritud institutsioonide vastu, mis on ajalooliselt seda usaldust rikkunud valuuta devalveerimise kaudu
+wrong_answers:
+  - Neil puudub piisav tehnoloogiline infrastruktuur, et kaasaegseid digitaalseid tehinguid tõhusalt ja turvaliselt käsitleda
+  - Nad tekitavad liiga palju volatiilsust vahetuskurssides, mis muudab rahvusvahelise kaubanduse ettearvamatuks ja kulukaks
+  - generate ülemäärased tehingutasud, mis muudavad mikromaksed tavakasutajate jaoks majanduslikult elujõuetuks
+explanation: |
+  Satoshi Nakamoto ütles selgesõnaliselt, et "tavapäraste valuutade põhiprobleem on kogu usaldus, mida on vaja, et see toimiks" ja et "fiat-valuutade ajalugu on täis selle usalduse rikkumisi"
+  Tema kriitika keskendus keskpankade põhimõttelisele usaldusele, et nad ei devalveeri raha, mida nad on korduvalt ebaõnnestunud. Kuigi teised võimalused on potentsiaalselt põhjendatud mured traditsiooniliste süsteemide suhtes, ei ole Nakamoto peamine filosoofiline vastuväide usaldusel põhinevatele rahasüsteemidele ja tema motivatsioon usalduseta alternatiivi loomiseks.

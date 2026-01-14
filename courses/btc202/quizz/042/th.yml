@@ -1,0 +1,9 @@
+question: umbrelOS แจกจ่ายภายใต้ใบอนุญาตอะไร?
+answer: PolyForm Noncommercial 1.0
+wrong_answers:
+  - เอ็มไอที
+  - GPLv3
+  - Apache 2.0
+explanation: |
+  umbrelOS ได้รับการเผยแพร่ภายใต้ใบอนุญาต PolyForm Noncommercial 1.0 ซึ่งอนุญาตให้ใช้ส่วนตัวได้แต่ห้ามใช้ในเชิงพาณิชย์
+reviewed: true

@@ -234,7 +234,7 @@ För en bättre förståelse av denna mekanism och hur många cykler det är vä
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 För att se antalet remixer som utförts av vart och ett av dina verk, öppna menyn `UTXOs` i `Postmix`-kontot.
 
@@ -324,7 +324,7 @@ Här är flera möjliga strategier för att hantera din utländska valuta UTXOs 
 
 
 
-- Köp förbetalda presentkort eller Visa-kort:** Plattformar som [Bitrefill] (https://www.bitrefill.com/) låter dig byta dina bitcoins mot presentkort eller omladdningsbara Visa-kort som kan användas i butiker. Detta kan vara ett enkelt och diskret sätt att spendera dina giftiga UTXO.
+- Köp förbetalda presentkort eller Visa-kort:** Plattformar som [Bitrefill](https://www.bitrefill.com/) låter dig byta dina bitcoins mot presentkort eller omladdningsbara Visa-kort som kan användas i butiker. Detta kan vara ett enkelt och diskret sätt att spendera dina giftiga UTXO.
 
 
 
@@ -354,7 +354,7 @@ Prestanda för flera coinjoin-cykler mäts genom storleken på de uppsättningar
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 ## Hur hanterar man postmixen?
 

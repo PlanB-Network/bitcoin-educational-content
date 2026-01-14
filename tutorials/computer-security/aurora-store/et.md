@@ -14,7 +14,7 @@ Selles õpetuses avastame Aurora Store'i, mis on lihtne, avatud lähtekoodiga ja
 
 
 
-# Alustamine Aurora Store'iga
+## Alustamine Aurora Store'iga
 
 
 
@@ -88,7 +88,7 @@ Aurora poest saate juurdepääsu Google Play poes saadaval olevate rakenduste ka
 
 
 
-## Omadused
+### Omadused
 
 
 

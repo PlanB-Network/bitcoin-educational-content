@@ -1,0 +1,9 @@
+question: เบราว์เซอร์โอเพ่นซอร์สใดที่พัฒนาโดยองค์กรไม่แสวงหาผลกำไรและเป็นตัวแทนหลักของเอนจิน Gecko?
+answer: Mozilla Firefox
+wrong_answers:
+  - กล้าหาญ
+  - ซาฟารี
+  - Chrome
+explanation: |
+  Mozilla Firefox ซึ่งพัฒนาโดยมูลนิธิ Mozilla เป็นเบราว์เซอร์ชั้นนำที่ใช้ Gecko ซึ่งมีชื่อเสียงในด้านความมุ่งมั่นต่อความเป็นส่วนตัว
+reviewed: false

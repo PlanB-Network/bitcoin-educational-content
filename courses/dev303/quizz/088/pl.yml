@@ -1,0 +1,8 @@
+question: Jakie podstawowe wyzwanie w rozwoju międzyplatformowym rozwiązuje UniFFI podczas pracy z bibliotekami Rust?
+answer: Potrzeba ręcznego tworzenia niestandardowego kodu wiążącego dla każdego języka docelowego podczas eksponowania niskopoziomowego interfejsu FFI Rust
+wrong_answers:
+  - Niezdolność Rust do kompilacji do natywnych plików binarnych, które można uruchomić na wielu systemach operacyjnych
+  - Brak gwarancji bezpieczeństwa pamięci, gdy kod Rust współdziała z językami zbierającymi śmieci
+  - "Narzut wydajności wprowadzony podczas tłumaczenia modelu własności Rust na języki liczone referencyjnie"
+explanation: |
+  UniFFI w szczególności rozwiązuje problem ręcznego pisania kodu wiążącego dla każdego języka docelowego. Gdy Rust kompiluje się do wyjścia binarnego, tworzy funkcję obcą Interface (FFI), która jest niskopoziomowa i trudna do użycia bezpośrednio z języków wyższego poziomu. Tradycyjnie programiści musieli pisać niestandardowy kod wiążący dla każdego języka docelowego (Python, Swift, Kotlin itp.), tworząc znaczące bariery w adopcji. UniFFI eliminuje tę nadmiarowość, automatycznie generując te powiązania za pośrednictwem systemu specyfikacji UDL.

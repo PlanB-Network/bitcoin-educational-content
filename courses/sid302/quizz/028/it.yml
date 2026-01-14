@@ -1,0 +1,8 @@
+question: Qual è la vulnerabilità operativa critica che emerge dal modello di autorizzazione alla co-firma di AMP per i trasferimenti di attività regolamentate?
+answer: La liquidità delle attività si blocca completamente se il server AMP non è disponibile, poiché ogni trasferimento richiede la co-firma del server
+wrong_answers:
+  - Le commissioni di transazione aumentano in modo esponenziale quando più cofirmatari tentano di autorizzare simultaneamente i trasferimenti
+  - La riservatezza delle transazioni confidenziali viene meno perché la co-firma espone fattori ciechi agli osservatori della rete
+  - I titolari degli asset perdono il controllo della custodia poiché il meccanismo di co-firma trasferisce le chiavi private al server AMP
+explanation: |
+  Il modello di autorizzazione di AMP richiede che il server AMP co-firmi ogni trasferimento di asset, creando un singolo punto di fallimento. Se il server va offline, nessuna transazione può essere completata, congelando di fatto tutta la liquidità degli asset. Le altre opzioni non sono corrette: le commissioni non aumentano esponenzialmente con la co-firma, la privacy delle transazioni confidenziali rimane intatta (solo l'emittente ottiene visibilità) e gli utenti mantengono le loro chiavi private mentre il server fornisce solo le firme di autorizzazione.

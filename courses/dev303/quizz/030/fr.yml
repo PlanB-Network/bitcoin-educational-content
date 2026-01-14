@@ -1,0 +1,8 @@
+question: Quel est l'objectif principal de l'opérateur point d'interrogation ( ?) de Rust lorsqu'il est utilisé avec des types de résultats ?
+answer: Pour dérouler automatiquement les valeurs réussies et renvoyer immédiatement les erreurs à partir de la fonction en cours
+wrong_answers:
+  - Convertir tous les types de résultats en types d'options pour faciliter la gestion des nullités
+  - Pour déclencher automatiquement une panique avec un message personnalisé en cas d'erreur
+  - Envelopper les valeurs réussies dans une couche supplémentaire de résultats pour plus de sécurité
+explanation: |
+  L'opérateur point d'interrogation ( ?) est conçu spécifiquement pour la propagation des erreurs dans Rust. Lorsqu'il est appliqué à un résultat, il extrait la valeur de succès si l'opération a réussi, ce qui permet au code de continuer avec cette valeur. Cependant, si une erreur s'est produite, l'opérateur ? renvoie immédiatement cette erreur de la fonction courante, en la propageant effectivement sur la pile d'appels. Il n'est donc plus nécessaire d'utiliser des expressions de correspondance verbeuses tout en conservant une sémantique explicite de gestion des erreurs. L'opérateur ne peut être utilisé que dans les fonctions qui renvoient des types Result, ce qui garantit des schémas de propagation d'erreur corrects.

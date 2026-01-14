@@ -1,0 +1,8 @@
+question: Welke specifieke volgorde van bewerkingen voert de ScriptPubKey uit bij P2PKH-transactievalidatie om de bestedingsvoorwaarden te controleren?
+answer: Dupliceert de openbare sleutel, hasht deze, vergelijkt met de vastgelegde hash en verifieert dan de handtekening
+wrong_answers:
+  - Hashed de handtekening, vergelijkt met de hash van de openbare sleutel en verifieert dan met de vastgelegde waarde
+  - Verifieert eerst de handtekening, hashed dan de openbare sleutel en vergelijkt met de vastgelegde hash
+  - Combineert de handtekening en de openbare sleutel, hasht het resultaat en vergelijkt dan met de vastgelegde hash
+explanation: |
+  P2PKH's ScriptPubKey volgt een specifieke volgorde: OP_DUP OP_HASH160 <pubkey_hash> OP_EQUALVERIFY OP_CHECKSIG. Dit dupliceert de verstrekte publieke sleutel, past SHA256 toe en vervolgens RIPEMD160 hashing, controleert of het resultaat overeenkomt met de vastgelegde hash en controleert tenslotte de handtekening. De andere opties beschrijven de volgorde van de bewerkingen onjuist of suggereren het hashen van handtekeningen in plaats van openbare sleutels, wat de validatielogica zou doorbreken.

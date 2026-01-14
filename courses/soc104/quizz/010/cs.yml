@@ -1,0 +1,9 @@
+question: Který politický postoj se podle Nolanova grafu vyznačuje podporou vysoké ekonomické svobody, ale nízké osobní svobody?
+answer: Konzervativci
+wrong_answers:
+  - Socialisté
+  - Libertariáni
+  - Centristé
+explanation: |
+  V Nolanově grafu jsou konzervativci umístěni na pravé straně a jsou definováni jako ti, kteří podporují vysokou ekonomickou svobodu, ale nízkou osobní svobodu.
+  Tím se odlišují od socialistů (kteří podporují nízkou ekonomickou svobodu, ale vysokou osobní svobodu), libertariánů (kteří podporují vysokou ekonomickou i osobní svobodu) a centristů (kteří podporují střední úroveň obou typů svobody). Konzervativní postoj odráží tradiční pravicový postoj, který upřednostňuje volný trh a zároveň zachovává přísnější sociální kontrolu.

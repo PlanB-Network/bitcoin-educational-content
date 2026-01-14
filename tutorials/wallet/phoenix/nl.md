@@ -41,14 +41,14 @@ Ga naar je applicatiewinkel en installeer Phoenix :
 
 
 
-- In de [Google Play Store] (https://play.google.com/store/apps/details?id=fr.acinq.phoenix.Mainnet);
-- In de [App Store] (https://apps.apple.com/fr/app/phoenix-Wallet/id1544097028?l=en-GB).
+- In de [Google Play Store](https://play.google.com/store/apps/details?id=fr.acinq.phoenix.Mainnet);
+- In de [App Store](https://apps.apple.com/fr/app/phoenix-Wallet/id1544097028?l=en-GB).
 
 
 ![Image](assets/fr/02.webp)
 
 
-Je kunt de applicatie ook installeren [met het apk-bestand op hun GitHub repository] (https://github.com/ACINQ/phoenix/releases).
+Je kunt de applicatie ook installeren [met het apk-bestand op hun GitHub repository](https://github.com/ACINQ/phoenix/releases).
 
 
 ![Image](assets/fr/03.webp)

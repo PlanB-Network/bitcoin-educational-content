@@ -1,0 +1,9 @@
+question: ฐานข้อมูลใดที่ใช้ใน blocks/index/ เพื่อจัดเก็บข้อมูลเมตาของบล็อก?
+answer: LevelDB
+wrong_answers:
+  - SQLite
+  - RocksDB
+  - เบิร์กลีย์ ดีบี
+explanation: |
+  Bitcoin Core ใช้ LevelDB ใน blocks/index/ เพื่อจัดทำดัชนีบล็อก ช่วยเร่งความเร็วในการค้นหาและให้บริการแก่เพื่อนร่วมเครือข่าย
+reviewed: true

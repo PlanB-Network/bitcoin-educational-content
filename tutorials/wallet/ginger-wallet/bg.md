@@ -44,7 +44,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-За да инсталирате Ginger Wallet, посетете уебсайта [Ginger Wallet] (https://gingerwallet.io).
+За да инсталирате Ginger Wallet, посетете уебсайта [Ginger Wallet](https://gingerwallet.io).
 
 
 

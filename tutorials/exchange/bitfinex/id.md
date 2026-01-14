@@ -12,7 +12,7 @@ Bitfinex secara aktif mendukung pengembangan Bitcoin, berinvestasi dalam teknolo
 
 ## 1 - Membuat akun Bitfinex
 
-Kunjungi [situs web resmi Bitfinex] (https://www.bitfinex.com/). Di halaman beranda, cari dan klik opsi "*Daftar*" untuk mulai membuat akun Anda.
+Kunjungi [situs web resmi Bitfinex](https://www.bitfinex.com/). Di halaman beranda, cari dan klik opsi "*Daftar*" untuk mulai membuat akun Anda.
 
 ![BITFINEX](assets/fr/01.webp)
 
@@ -169,7 +169,7 @@ Jika Anda tertarik dengan Lightning Network, kami juga memiliki kursus pelatihan
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Setelah membeli bitcoin pertama Anda, Anda tentu saja memiliki opsi untuk meninggalkannya di platform, tetapi saya sangat menyarankan untuk mentransfernya ke dompet Anda sendiri dalam penitipan mandiri. Jika Anda belum tahu cara menggunakan dompet Bitcoin, saya mengundang Anda untuk menjelajahi [bagian "Dompet" di Plan ₿ Academy] (https://planb.academy/tutorials/wallet).
+Setelah membeli bitcoin pertama Anda, Anda tentu saja memiliki opsi untuk meninggalkannya di platform, tetapi saya sangat menyarankan untuk mentransfernya ke dompet Anda sendiri dalam penitipan mandiri. Jika Anda belum tahu cara menggunakan dompet Bitcoin, saya mengundang Anda untuk menjelajahi [bagian "Dompet" di Plan ₿ Academy](https://planb.academy/tutorials/wallet).
 
 ## 6 - Membeli dan menjual bitcoin di Bitfinex
 

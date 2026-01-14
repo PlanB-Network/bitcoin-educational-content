@@ -1,0 +1,8 @@
+question: Lý do chính khiến cơ chế điều chỉnh độ khó của Bitcoin giới hạn các thay đổi trong phạm vi gấp bốn lần trong mỗi chu kỳ điều chỉnh khối 2016 là gì?
+answer: Để ngăn chặn những dao động cực đoan có thể gây mất ổn định mạng khi tốc độ băm thay đổi đột ngột.
+wrong_answers:
+  - Để đảm bảo người khai thác có đủ thời gian nâng cấp phần cứng trước khi độ khó tăng lên đáng kể.
+  - Để duy trì khả năng tương thích với trường dấu thời gian 32 bit, vốn trở nên không đáng tin cậy khi có những điều chỉnh lớn hơn.
+  - Để ngăn chặn lịch trình giảm một nửa trợ cấp khối bị gián đoạn do những thay đổi nhanh chóng về độ khó.
+explanation: |
+  Giới hạn gấp bốn lần ngăn chặn các vòng phản hồi nguy hiểm, nơi những thay đổi độ khó cực đoan có thể gây ra những biến động mạnh về thời gian tạo khối. Nếu không có ràng buộc này, sự sụt giảm đột ngột của tốc độ băm có thể kích hoạt việc giảm độ khó mạnh mẽ, khiến việc tạo khối trở nên quá dễ dàng và có khả năng làm mất ổn định cơ chế đồng thuận. Ngược lại, sự gia tăng lớn có thể khiến việc khai thác khối gần như không thể. Giới hạn này đảm bảo các điều chỉnh dần dần, có thể quản lý được, duy trì sự ổn định của mạng ngay cả trong các sự cố lớn như lệnh cấm mining, cho phép hệ thống tự điều chỉnh một cách có thể dự đoán được qua nhiều chu kỳ điều chỉnh thay vì tạo ra các dao động hỗn loạn.

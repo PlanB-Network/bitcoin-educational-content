@@ -59,13 +59,13 @@ Session är tillgänglig på alla plattformar. Du kan ladda ner applikationen di
 
 
 
-- [Google Play] (https://play.google.com/store/apps/details?id=network.loki.messenger);
-- [App Store] (https://apps.apple.com/us/app/session-private-messenger/id1470168868);
-- [F-Droid] (https://fdroid.getsession.org/).
+- [Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger);
+- [App Store](https://apps.apple.com/us/app/session-private-messenger/id1470168868);
+- [F-Droid](https://fdroid.getsession.org/).
 
 
 
-På Android är det också möjligt att [installera via APK] (https://github.com/session-foundation/session-android/releases).
+På Android är det också möjligt att [installera via APK](https://github.com/session-foundation/session-android/releases).
 
 
 

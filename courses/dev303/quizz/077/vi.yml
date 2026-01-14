@@ -1,0 +1,8 @@
+question: Điều gì xảy ra khi bạn gọi hàm lock() trên một mutex trong Rust và tại sao nhiều nhà phát triển lại cho rằng việc unwrap thao tác này là chấp nhận được?
+answer: Nó trả về một Result có thể bị lỗi nếu một luồng khác gặp sự cố trong khi đang giữ mutex, và việc giải nén là chấp nhận được vì bạn không thể xử lý hợp lý các lỗi từ sự cố của các luồng khác.
+wrong_answers:
+  - Hàm này trả về một Option, có thể là None nếu mutex đang bận, và việc giải nén là chấp nhận được vì mutex đang bận sẽ dẫn đến việc chấm dứt chương trình ngay lập tức.
+  - Nó trả về một Result có thể bị lỗi do phát hiện tắc nghẽn, và việc giải nén là chấp nhận được vì tắc nghẽn cho thấy những lỗi thiết kế cơ bản cần phải gây ra lỗi nghiêm trọng (panic).
+  - Thao tác này luôn thành công và trả về trực tiếp bộ bảo vệ khóa, khiến việc giải nén trở nên không cần thiết vì các thao tác mutex được đảm bảo an toàn luồng trong Rust.
+explanation: |
+  Khi gọi hàm `lock()` trên một mutex, Rust trả về một `Result` vì thao tác này có thể thất bại nếu một luồng khác gặp lỗi nghiêm trọng (panic) trong khi đang giữ mutex, khiến nó rơi vào trạng thái bị "độc hại" (poisoned state). Điều này tạo ra một tình huống đặc biệt, trong đó mã cục bộ của bạn nhận được lỗi cho một điều gì đó xảy ra trong ngữ cảnh của một luồng hoàn toàn khác. Vì bạn không thể xử lý hoặc phục hồi một cách hợp lý từ lỗi bắt nguồn từ lỗi nghiêm trọng của một luồng khác, nhiều nhà phát triển coi việc giải nén khóa mutex là chấp nhận được, đặc biệt là trong các codebase không có lỗi nghiêm trọng. Các tùy chọn khác là không chính xác vì mutex không trả về `Options` cho các trạng thái bận, không có cơ chế phát hiện tắc nghẽn tích hợp gây ra lỗi `Result`, và thao tác này không phải lúc nào cũng thành công do cơ chế "độc hại".

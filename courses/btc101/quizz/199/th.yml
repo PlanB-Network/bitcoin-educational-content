@@ -1,0 +1,8 @@
+question: FOMO และ FUD คืออะไร?
+answer: อารมณ์ที่อาจนำไปสู่การตัดสินใจที่หุนหันพลันแล่นและอาจเป็นอันตราย
+wrong_answers:
+  - ประเภทของกระเป๋าเงิน Bitcoin
+  - กลยุทธ์ในการซื้อ Bitcoin
+  - ข้อบังคับที่เกี่ยวข้องกับ Bitcoin.
+explanation: >-
+reviewed: true

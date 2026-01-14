@@ -14,7 +14,7 @@ Tässä oppaassa tutustumme Aurora Storeen, joka on yksinkertainen, avoimen läh
 
 
 
-# Aurora Storen käytön aloittaminen
+## Aurora Storen käytön aloittaminen
 
 
 
@@ -88,7 +88,7 @@ Aurora Storesta pääset Google Play Storessa saatavilla olevien sovellusten lue
 
 
 
-## Ominaisuudet
+### Ominaisuudet
 
 
 

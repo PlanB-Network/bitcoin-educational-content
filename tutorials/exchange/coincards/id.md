@@ -93,7 +93,7 @@ Mari kita mulai dengan mengilustrasikan proses pembelian tanpa membuat akun, dan
 
 
 
-Kunjungi [Coincards.com] (https://coincards.com/).
+Kunjungi [Coincards.com](https://coincards.com/).
 
 
 

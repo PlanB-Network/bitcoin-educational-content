@@ -1,0 +1,8 @@
+question: Welches ist der primäre Mechanismus, durch den die Funktion der Null-Kanal-Reserven des Breez SDK ein zusätzliches Risiko schafft, das von Lightning-Dienstanbietern übernommen werden muss?
+answer: Die LSPs müssen das Risiko in Kauf nehmen, dass die Nutzer ihr gesamtes Kanalguthaben aufbrauchen, wodurch der Sicherheitspuffer, der traditionell vor Zwangsschließungen von Kanälen schützt, wegfällt
+wrong_answers:
+  - LSPs werden für die Aufrechterhaltung der kontinuierlichen Synchronisierung des Netzwerkgraphen über mehrere Benutzergeräte hinweg verantwortlich, ohne dass eine herkömmliche, auf Reserven basierende Gebührenerstattung erfolgt
+  - LSPs müssen die sofortige Weiterleitung von Zahlungen garantieren, ohne die Liquiditätspolster, die Kanalreserven zur Bewältigung von Netzüberlastungsszenarien bieten
+  - LSPs übernehmen die Haftung für on-chain-Swap-Fehler, wenn Nutzer versuchen, ihr gesamtes Blitzguthaben während Hochpreisperioden auf Bitcoin umzustellen
+explanation: |
+  Null-Kanal-Reserven ermöglichen es den Nutzern, ihr gesamtes angezeigtes Guthaben auszugeben. Dadurch entfällt jedoch der traditionelle Sicherheitspuffer, der Lightning Service Provider bei Zwangsschließungen von Kanälen schützt. Channel-Reserven stellen in der Regel sicher, dass ein Teil des Guthabens gesperrt bleibt, um Schließungskosten zu decken und Sicherheit gegen böswilliges Verhalten zu bieten. Durch den Wegfall dieser Reserven zur Verbesserung der Nutzererfahrung müssen LSPs die zusätzlichen operativen und finanziellen Risiken auf sich nehmen, die diese Puffer abmildern sollten, was einen klaren Kompromiss darstellt, bei dem die technische Komplexität und das Risiko von den Nutzern auf die Service Provider verlagert werden.

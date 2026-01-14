@@ -32,7 +32,7 @@ Ini dapat digunakan untuk mentransfer:
 
 
 - gW-0 **frasa** (Master seed ColdCard Q atau rahasia yang disimpan dalam [seed Vault] ColdCardQ (https://coldcard.com/docs/temporary-seeds/#seed-vault).
-- **catatan dan kata sandi rahasia**: ini dapat berupa rahasia apa pun atau seluruh direktori [Catatan dan Kata Sandi Rahasia] (https://coldcard.com/docs/secure_notes/) pada ColdCardQ Anda.
+- **catatan dan kata sandi rahasia**: ini dapat berupa rahasia apa pun atau seluruh direktori [Catatan dan Kata Sandi Rahasia](https://coldcard.com/docs/secure_notes/) pada ColdCardQ Anda.
 - **cadangan seluruh ColdCardQ Anda**: ColdCardQ yang menerima cadangan ini tidak boleh memiliki seed Master agar dapat berfungsi.
 - gW-3 (**Transaksi Bitcoin yang Ditandatangani Sebagian**) sebagai bagian dari skema multi-tanda tangan.
 
@@ -214,7 +214,7 @@ Data tersebut kemudian didekripsi dan dapat dipahami oleh perangkat penerima. Pe
 
 
 
-Hal ini mengandaikan bahwa Wallet Multisig Anda telah dibuat dan perangkat ColdCardQ Anda telah diatur untuk dapat melakukan transaksi multi-tanda tangan. Jika tidak demikian, penjelasannya tersedia [di sini] (https://coldcard.com/docs/Multisig/) di situs web Coinkite.
+Hal ini mengandaikan bahwa Wallet Multisig Anda telah dibuat dan perangkat ColdCardQ Anda telah diatur untuk dapat melakukan transaksi multi-tanda tangan. Jika tidak demikian, penjelasannya tersedia [di sini](https://coldcard.com/docs/Multisig/) di situs web Coinkite.
 
 
 

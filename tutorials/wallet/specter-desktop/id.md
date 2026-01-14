@@ -127,7 +127,7 @@ Di bawah ini Anda akan menemukan tutorial kami untuk perangkat keras wallet ini:
 
 
 
-https://planb.academy/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.academy/tutorials/wallet/hardware/coldcard-mk4-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
 Untuk Coldcard, Anda perlu mengekspor kunci publik dari perangkat keras wallet baik melalui koneksi USB atau kartu microSD.
 

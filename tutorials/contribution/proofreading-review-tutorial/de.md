@@ -6,7 +6,7 @@ description: Wie kann man sich an der Überprüfung von Bildungsinhalten im Plan
 
 ## Zusammenfassung
 
-Wenn Sie sich an der Überprüfung und Korrektur von Inhalten für Plan ₿ Academy beteiligen möchten, treten Sie [unserer Telegram-Gruppe] (https://t.me/PlanBNetwork_ContentBuilder) bei, die für Beiträge vorgesehen ist. Stellen Sie sich kurz vor und geben Sie dann den Inhalt, den Sie überprüfen möchten, und die Sprache an. Nehmen Sie Ihre Korrekturen an einem Arbeitszweig vor und reichen Sie einen PR ein, sobald Ihre Überprüfung abgeschlossen ist.
+Wenn Sie sich an der Überprüfung und Korrektur von Inhalten für Plan ₿ Academy beteiligen möchten, treten Sie [unserer Telegram-Gruppe](https://t.me/PlanBNetwork_ContentBuilder) bei, die für Beiträge vorgesehen ist. Stellen Sie sich kurz vor und geben Sie dann den Inhalt, den Sie überprüfen möchten, und die Sprache an. Nehmen Sie Ihre Korrekturen an einem Arbeitszweig vor und reichen Sie einen PR ein, sobald Ihre Überprüfung abgeschlossen ist.
 
 Falls Sie den obigen Teil nicht verstanden haben, keine Sorge - diese Anleitung ist für Sie!
 
@@ -21,7 +21,7 @@ Plan ₿ Academy will der öffentliche Platz des Bitcoin-Cyberspace werden, der 
 
 Plan ₿ Academy ist grundsätzlich mehrsprachig, denn unser Ziel ist es, Bitcoin-Ressourcen für jeden weltweit zugänglich zu machen. Wir glauben, dass Sprache kein Hindernis für souveränes Geld sein sollte.
 
-Um dies zu erreichen, verwenden wir einen Mensch x KI-Ansatz. Mit unserem [Programm] (https://github.com/Asi0Flammeus/LLM-Translator) können wir unsere Inhalte automatisch in viele Sprachen übersetzen. Wir benötigen jedoch einen fließend sprechenden Menschen, der die Inhalte überprüft, um sicherzustellen, dass sie verständlich und frei von unangemessenen Begriffen sind.
+Um dies zu erreichen, verwenden wir einen Mensch x KI-Ansatz. Mit unserem [Programm](https://github.com/Asi0Flammeus/LLM-Translator) können wir unsere Inhalte automatisch in viele Sprachen übersetzen. Wir benötigen jedoch einen fließend sprechenden Menschen, der die Inhalte überprüft, um sicherzustellen, dass sie verständlich und frei von unangemessenen Begriffen sind.
 
 Wenn Sie beim Aufbau dieses Bildungsprojekts helfen möchten, um die Bitcoin-Bildung in Ihrer Gemeinde zu fördern, können Sie damit beginnen, einen Kurs oder ein Tutorial zu überprüfen.
 
@@ -37,16 +37,16 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 ## 1. Ein Konto erstellen
 
 
-- Erstellen Sie ein Konto auf [GitHub] (https://github.com/), um Beiträge zu leisten. Wenn Sie eine Anleitung zur Erstellung Ihres GitHub-Kontos benötigen, finden Sie hier eine ausführliche Anleitung:
+- Erstellen Sie ein Konto auf [GitHub](https://github.com/), um Beiträge zu leisten. Wenn Sie eine Anleitung zur Erstellung Ihres GitHub-Kontos benötigen, finden Sie hier eine ausführliche Anleitung:
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-- Sie benötigen außerdem ein Konto bei der Messaging-App [Telegram] (https://telegram.org/).
+- Sie benötigen außerdem ein Konto bei der Messaging-App [Telegram](https://telegram.org/).
 
 ## 2. Der Telegram-Gruppe beitreten
 
 
-- Treten Sie [der Plan ₿ Academy Content Builder Gruppe] (https://t.me/PlanBNetwork_ContentBuilder) auf Telegram bei.
+- Treten Sie [der Plan ₿ Academy Content Builder Gruppe](https://t.me/PlanBNetwork_ContentBuilder) auf Telegram bei.
 
 ![REVIEW](assets/fr/01.webp)
 
@@ -142,7 +142,7 @@ Um mehr über die Richtlinien zu erfahren, die bei der Korrekturlesung im Plan �
 
 ## 7. Warten Sie auf die Überprüfung
 
-- Herzlichen Glückwunsch, Ihr PR wurde eingereicht! Sie können den Fortschritt in der Registerkarte "Pull Requests" auf [Plan ₿ Academy's GitHub repository] (https://github.com/PlanB-Network/bitcoin-educational-content/pulls) verfolgen:
+- Herzlichen Glückwunsch, Ihr PR wurde eingereicht! Sie können den Fortschritt in der Registerkarte "Pull Requests" auf [Plan ₿ Academy's GitHub repository](https://github.com/PlanB-Network/bitcoin-educational-content/pulls) verfolgen:
 
 ![REVIEW](assets/fr/12.webp)
 
@@ -153,5 +153,5 @@ Um mehr über die Richtlinien zu erfahren, die bei der Korrekturlesung im Plan �
 ![REVIEW](assets/fr/16.webp)
 
 
-- Wenn Sie Anmerkungen, Fragen oder Kommentare zu diesem Projekt haben, können Sie eine DM [an die Telegram-Gruppe der Mitwirkenden] (https://t.me/PlanBNetwork_ContentBuilder) senden.
+- Wenn Sie Anmerkungen, Fragen oder Kommentare zu diesem Projekt haben, können Sie eine DM [an die Telegram-Gruppe der Mitwirkenden](https://t.me/PlanBNetwork_ContentBuilder) senden.
 

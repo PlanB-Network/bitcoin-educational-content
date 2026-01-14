@@ -1,0 +1,8 @@
+question: Ni sababu gani kuu ya utaratibu wa marekebisho ya ugumu wa Bitcoin hupunguza mabadiliko kuwa ndani ya kipengele cha nne wakati wa kila kipindi cha marekebisho ya block ya 2016?
+answer: Ili kuzuia mitetemo mikali ambayo inaweza kudhoofisha mtandao wakati kiwango cha hash kinabadilika sana
+wrong_answers:
+  - Kuhakikisha wachimbaji wana muda wa kutosha kuboresha vifaa vyao kabla ugumu haujaongezeka sana
+  - Ili kudumisha utangamano na sehemu ya muhuri wa muda ya biti 32 ambayo inakuwa isiyoaminika kwa marekebisho makubwa zaidi
+  - Ili kuzuia ratiba ya nusu ya ruzuku ya vitalu isivurugwe na mabadiliko ya haraka ya ugumu
+explanation: |
+  Kikomo cha mara nne huzuia mizunguko hatari ya maoni ambapo mabadiliko ya ugumu mkubwa yanaweza kusababisha mabadiliko makubwa katika nyakati za kuzuia. Bila kizuizi hiki, kushuka kwa kasi kwa kasi kwa kiwango cha hash kunaweza kusababisha upunguzaji mkubwa wa ugumu, na kufanya vizuizi kuwa rahisi sana na kunaweza kuvuruga makubaliano. Kinyume chake, ongezeko kubwa linaweza kufanya vizuizi kuwa vigumu kuchimba. Kikomo hiki kinahakikisha marekebisho ya taratibu na yanayoweza kudhibitiwa ambayo yanadumisha uthabiti wa mtandao hata wakati wa usumbufu mkubwa kama vile marufuku ya mining, na kuruhusu mfumo kujirekebisha kwa njia inayotabirika kwa vipindi vingi vya marekebisho badala ya kuunda mitetemo ya machafuko.

@@ -1,0 +1,9 @@
+question: Quelle information indique la capacité de réception du nœud Lightning ?
+answer: Liquidités entrantes
+wrong_answers:
+  - Connexions actives
+  - Liquidités sortantes
+  - Nombre de blocs
+explanation: |
+  Les liquidités entrantes représentent les sats que le nœud peut recevoir via Lightning.
+reviewed: false

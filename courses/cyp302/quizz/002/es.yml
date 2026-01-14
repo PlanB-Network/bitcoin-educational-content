@@ -6,4 +6,4 @@ wrong_answers:
   - Están escritos en múltiples idiomas
 explanation: |
   Los tres textos cifrados consisten en series de números separados por comas, requiriendo una clave para ser descifrados.
-reviewed: false
+reviewed: true

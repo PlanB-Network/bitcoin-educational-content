@@ -124,7 +124,7 @@ Przy pierwszym użyciu należy stać się właścicielem karty, aby ją zabezpie
 - Kliknij "*Wybierz Ownership*" w aplikacji.
 - Potwierdź operację: spowoduje to wygenerowanie unikalnego klucza właściciela.
 - Zeskanuj mapę ponownie, aby zastosować zmiany.
-- Ostrzeżenie**: Ten krok jest nieodwracalny. Prosimy o zapoznanie się z [artykułem na temat *własności*] (https://satochip.io/satodime-ownership-explained/).
+- Ostrzeżenie**: Ten krok jest nieodwracalny. Prosimy o zapoznanie się z [artykułem na temat *własności*](https://satochip.io/satodime-ownership-explained/).
 
 
 

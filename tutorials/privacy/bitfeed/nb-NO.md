@@ -11,7 +11,7 @@ Bitfeed er en plattform for visualisering av kjedelaget i Bitcoin-protokollen. D
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 I denne veiledningen tar vi en titt på dette verktøyet, som lar deg utforske alle transaksjoner og blokker i nettverket.
 
@@ -95,7 +95,7 @@ Den første transaksjonen i denne blokken representerer **coinbase**-transaksjon
 
 
 
-https://planb.academy/courses/obtenir-ses-premiers-bitcoins-f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 Som standard blir transaksjoner i en blokk representert i henhold til to kriterier:
 
@@ -163,7 +163,7 @@ Transaksjonen som tar opp mest plass, er derfor ikke nødvendigvis den transaksj
 
 
 
-Hvis du følger skalaen i **Info**-menyen, er transaksjonen med den høyeste transaksjonskostnaden den lilla. Dette er transaksjonen [bfd81fdde02055ced809419b4fae094576bc4384a1d0444c723b3ba052e99a35] (https://bitfeed.live/tx/bfd81fdde02055ced809419b4fae094576bc4384a1d0444c723b3ba052e99a35) med en transaksjonskostnadsratio på `147,49 sats/vBytes`.
+Hvis du følger skalaen i **Info**-menyen, er transaksjonen med den høyeste transaksjonskostnaden den lilla. Dette er transaksjonen [bfd81fdde02055ced809419b4fae094576bc4384a1d0444c723b3ba052e99a35](https://bitfeed.live/tx/bfd81fdde02055ced809419b4fae094576bc4384a1d0444c723b3ba052e99a35) med en transaksjonskostnadsratio på `147,49 sats/vBytes`.
 
 
 
@@ -177,7 +177,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-Mempool er det virtuelle stedet der Bitcoin-transaksjoner som venter på å bli inkludert i en blokk, er gruppert sammen. Bitfeed gjør det mulig å konsultere [mempool] (https://planb.academy/resources/glossary/mempool) for flere Bitcoin-utvinnere, og tilbyr et bredt spekter av transaksjonssporing.
+Mempool er det virtuelle stedet der Bitcoin-transaksjoner som venter på å bli inkludert i en blokk, er gruppert sammen. Bitfeed gjør det mulig å konsultere [mempool](https://planb.academy/resources/glossary/mempool) for flere Bitcoin-utvinnere, og tilbyr et bredt spekter av transaksjonssporing.
 
 
 

@@ -1,0 +1,8 @@
+question: Mikä on ensisijainen seuraus siitä, että unohdetaan sisällyttää muutostulos, kun käytetään UTXO:tä, joka sisältää enemmän Bitcoin:ta kuin tarvitaan?
+answer: Ylimääräinen määrä muuttuu automaattisesti louhintamaksuksi
+wrong_answers:
+  - Verkko hylkää tapahtuman virheellisenä
+  - "Ylimääräinen summa palautetaan alkuperäisen lähettäjän osoitteeseen"
+  - Ylimääräinen määrä pysyy lukittuna alkuperäiseen UTXO:een
+explanation: |
+  Bitcoin:n UTXO-mallissa transaktiomaksut lasketaan implisiittisesti kokonaispanosten ja kokonaistuotosten erotuksena (maksu = summa(panokset) - summa(tuotokset)). Kun käytät UTXO:n, sinun on käytettävä se kokonaan - osittainen käyttö on mahdotonta. Jos haluat käyttää vain osan UTXO:n arvosta, sinun on luotava muutostulos saadaksesi loput. Jos unohdat sisällyttää tämän muutostuotoksen, panosten ja tuotosten välinen erotus, jota ei ole otettu huomioon, muuttuu automaattisesti louhintamaksuksi. Tämän vuoksi asianmukainen muutosulostulojen rakentaminen on tärkeää - ilman sitä voit vahingossa maksaa valtavia maksuja kaivostyöläisille.

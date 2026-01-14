@@ -443,5 +443,5 @@ Den fremtidige utviklingen av Zeus Swap, støttet av det erfarne Zeus LSP-teamet
 
 
 - [Twitter Zeus (@zeusln)](https://twitter.com/zeusln)
-- [Telegram Zeus] (https://t.me/ZeusLN)
+- [Telegram Zeus](https://t.me/ZeusLN)
 - [GitHub Zeus](https://github.com/ZeusLN)

@@ -1,0 +1,8 @@
+question: Millal tuleks Rust veakäitluses eelistada küsimärgi operaatorit (?) meetodite unwrap() või expect() asemel?
+answer: Kui teil on vaja levitada vigu ülespoole kutsuva funktsiooni jaoks, et kutsuv funktsioon saaks neid käsitleda
+wrong_answers:
+  - Kui soovite esitada kohandatud veateateid ebaõnnestunud operatsioonide silumiseks
+  - Kui olete kindel, et operatsioon õnnestub ja soovite vältida veakäitlust
+  - Kui on vaja teisendada vead vaikeväärtuseks ja jätkata programmi täitmist
+explanation: |
+  Küsimärgi operaator (?) on mõeldud vigade edastamiseks - ta võtab välja eduväärtused, kuid tagastab kohe vead praegusest funktsioonist, võimaldades kutsujatel neid käsitleda. Erinevalt unwrap()/expect(), mis tekitavad vigade korral paanikat, või unwrap_or(), mis pakub vaikimisi parameetreid, säilitab ? operaator veakonteksti ja annab vastutuse üle kõrgema taseme koodile, mis saab teha asjakohaseid käitlemisotsuseid.

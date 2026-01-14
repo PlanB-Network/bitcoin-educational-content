@@ -175,9 +175,9 @@ Na przykład, jeśli pula znajdzie blok i wygra 6,25 bitcoinów, Miner wnoszący
 ### Oprogramowanie używane przez branżę
 
 
-W kontekście Bitcoin Mining rola oprogramowania jest równie istotna jak sprzętu. Przykładem tego jest rola Bitmain, płodnego producenta, który opracował Antminer S9. Oprócz sprzętu Mining, branża w dużym stopniu opiera się na współpracujących pulach Mining, takich jak Brainspool, który kontroluje około 5% globalnej Hashrate sieci Bitcoin.
+W kontekście Bitcoin Mining rola oprogramowania jest równie istotna jak sprzętu. Przykładem tego jest rola Bitmain, płodnego producenta, który opracował Antminer S9. Oprócz sprzętu Mining, branża w dużym stopniu opiera się na współpracujących pulach Mining, takich jak Braiinspool, który kontroluje około 5% globalnej Hashrate sieci Bitcoin.
 
-Podmioty w tej branży nieustannie dążą do zwiększenia wydajności poprzez sprzęt i oprogramowanie. Na przykład popularnym oprogramowaniem używanym w tym kontekście jest BrainsOS Plus. Oprogramowanie to zastępuje oryginalny system operacyjny maszyny Mining, umożliwiając bardziej wydajne wykonywanie tych samych operacji. Dzięki takiemu oprogramowaniu Miner może zwiększyć wydajność swojej maszyny o 25%. Oznacza to, że za równoważną ilość energii elektrycznej maszyna może wyprodukować dodatkowe 25% Hashrate, zwiększając w ten sposób nagrody otrzymywane przez Miner. Ta optymalizacja oprogramowania jest istotnym elementem konkurencyjności w Bitcoin Mining, pokazując znaczenie zintegrowanego podejścia, które łączy zarówno ulepszenia sprzętu, jak i oprogramowania, aby zmaksymalizować wydajność i zyski.
+Podmioty w tej branży nieustannie dążą do zwiększenia wydajności poprzez sprzęt i oprogramowanie. Na przykład popularnym oprogramowaniem używanym w tym kontekście jest BraiinsOS Plus. Oprogramowanie to zastępuje oryginalny system operacyjny maszyny Mining, umożliwiając bardziej wydajne wykonywanie tych samych operacji. Dzięki takiemu oprogramowaniu Miner może zwiększyć wydajność swojej maszyny o 25%. Oznacza to, że za równoważną ilość energii elektrycznej maszyna może wyprodukować dodatkowe 25% Hashrate, zwiększając w ten sposób nagrody otrzymywane przez Miner. Ta optymalizacja oprogramowania jest istotnym elementem konkurencyjności w Bitcoin Mining, pokazując znaczenie zintegrowanego podejścia, które łączy zarówno ulepszenia sprzętu, jak i oprogramowania, aby zmaksymalizować wydajność i zyski.
 
 
 ### Regulacja i taryfy energii elektrycznej
@@ -685,7 +685,7 @@ Lista sprzętu i linki
 
 
 
-- [2 kratki wentylatora 140 mm] (https://www.amazon.fr/dp/B06XD4FTSQ)
+- [2 kratki wentylatora 140 mm](https://www.amazon.fr/dp/B06XD4FTSQ)
 - [Noctua NF-A6x25 PWM](https://www.amazon.fr/Noctua-nf-a6-25-PWM-Ventilateur-Marron/dp/B00VXTANZ4)
 
 
@@ -783,7 +783,7 @@ Metoda ta może być stosowana od 2 do 10 minut po uruchomieniu Miner.
 Oryginalne oprogramowanie zainstalowane przez Antminer na ich maszynach Mining ma ograniczoną funkcjonalność. Dlatego w tym przewodniku zainstalujemy inne oprogramowanie o nazwie BraiinsOS+. Jest to oprogramowanie innej firmy opracowane przez pierwszego Bitcoin Mining pool, które ma więcej funkcji i pozwala na przykład modyfikować moc maszyny.
 
 
-Istnieje kilka sposobów instalacji Braiins OS+ na ASIC. Można zapoznać się z niniejszym przewodnikiem, a także z [oficjalną dokumentacją Braiins] (https://academy.braiins.com/en/braiins-os/about/).
+Istnieje kilka sposobów instalacji Braiins OS+ na ASIC. Można zapoznać się z niniejszym przewodnikiem, a także z [oficjalną dokumentacją Braiins](https://academy.braiins.com/en/braiins-os/about/).
 
 
 Tutaj zobaczymy, jak łatwo zainstalować Braiins OS+ bezpośrednio w pamięci Antminera za pomocą oprogramowania BOS toolbox, zastępując oryginalny system operacyjny, wykonując szczegółowe kroki opisane poniżej.

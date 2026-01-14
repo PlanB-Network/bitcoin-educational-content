@@ -1,0 +1,8 @@
+question: Jaká je hlavní výhoda funkce interoperability sady Breez SDK, která umožňuje připojení více aplikací ke stejnému uzlu Lightning pomocí stejné věty seed?
+answer: Uživatelé mohou udržovat jedinou rovnováhu Lightning v různých specializovaných aplikacích a vyhnout se složité správě více uzlů Lightning
+wrong_answers:
+  - Aplikace mohou sdílet soukromé klíče přímo mezi sebou, což umožňuje bezproblémové podepisování transakcí mezi aplikacemi bez zásahu uživatele
+  - Více aplikací může spojit svou likviditu a vytvořit tak větší kanály Lightning se zvýšenou kapacitou směrování pro síť
+  - Vývojáři mají přístup ke sdílené infrastruktuře Lightning, aniž by museli implementovat vlastní správu uzlů, což snižuje náklady na vývoj a složitost
+explanation: |
+  Interoperabilita SDK umožňuje uživatelům přistupovat ke stejnému uzlu Lightning a prostředkům z více specializovaných aplikací (například z obecné aplikace wallet a aplikace pro podcasting), aniž by museli spravovat samostatné zůstatky nebo uzly. Špatné odpovědi zkreslují architekturu: soukromé klíče nikdy neopouštějí zařízení uživatele a nejsou sdíleny mezi aplikacemi, sdružování likvidity není způsob, jakým systém funguje, a i když vývojáři mají prospěch ze zjednodušené infrastruktury, hlavní popsanou výhodou je jednotné uživatelské prostředí napříč aplikacemi.

@@ -222,4 +222,4 @@ U kunt nu uw opslagmedia verwijderen.
 Gefeliciteerd, je hebt nu een versleuteld medium om je persoonlijke gegevens veilig op te slaan, dus je hebt een complete 3-2-1 strategie naast de kopie op je computer en je online opslagoplossing.
 
 
-Als je de ontwikkeling van VeraCrypt wilt steunen, kun je ook een donatie doen in bitcoins [op deze pagina] (https://www.veracrypt.fr/en/Donation.html).
+Als je de ontwikkeling van VeraCrypt wilt steunen, kun je ook een donatie doen in bitcoins [op deze pagina](https://www.veracrypt.fr/en/Donation.html).

@@ -101,7 +101,7 @@ Namun, Machankura mengatasi masalah ini dengan memperluas fungsionalitasnya mela
 
 
 
-Untuk mendapatkan informasi mengenai negara-negara baru di mana layanan ini akan tersedia, silakan kunjungi [situs web] (https://8333.mobi) secara teratur.
+Untuk mendapatkan informasi mengenai negara-negara baru di mana layanan ini akan tersedia, silakan kunjungi [situs web](https://8333.mobi) secara teratur.
 
 
 
@@ -370,7 +370,7 @@ Yang kedua, yang merupakan perpanjangan logis dari yang pertama, adalah menjadi 
 
 
 
-Untuk memulai, Anda perlu menulis pesan ke bot WhatsApp Machankura (kata "Hai" saja sudah lebih dari cukup). Nomor WhatsApp-nya adalah [+27 73 762 5720] (https://wa.me/+27737625720).
+Untuk memulai, Anda perlu menulis pesan ke bot WhatsApp Machankura (kata "Hai" saja sudah lebih dari cukup). Nomor WhatsApp-nya adalah [+27 73 762 5720](https://wa.me/+27737625720).
 
 
 

@@ -7,12 +7,12 @@ description: Un gardien accessible par télégramme Wallet
 ![cover](assets/cover.webp)
 
 
-ce tutoriel a été rédigé par_ [Bitcoin Campus] (https://linktr.ee/bitcoincampus_)
+Ce tutoriel a été rédigé par [Bitcoin Campus](https://linktr.ee/bitcoincampus_).
 
 
 ## Sats.Mobi
 
-SatsMobi est un Wallet qui fonctionne sur Telegram, avec toutes les fonctionnalités d'un Lightning Network (custodial) Wallet, plus une série de fonctionnalités très divertissantes. Il est issu d'un Fork du LightningTipBot, aujourd'hui abandonné, dont il a hérité de toutes les fonctionnalités tout en y ajoutant d'autres plus récentes, ce qui le rend plus moderne. Comme LNTipBot, Sats.Mobi adhère également à la philosophie de l'open-source. Le Wallet peut être configuré et géré indépendamment en le clonant à partir de ce [dépôt] (https://github.com/massmux/SatsMobiBot).
+SatsMobi est un Wallet qui fonctionne sur Telegram, avec toutes les fonctionnalités d'un Lightning Network (custodial) Wallet, plus une série de fonctionnalités très divertissantes. Il est issu d'un Fork du LightningTipBot, aujourd'hui abandonné, dont il a hérité de toutes les fonctionnalités tout en y ajoutant d'autres plus récentes, ce qui le rend plus moderne. Comme LNTipBot, Sats.Mobi adhère également à la philosophie de l'open-source. Le Wallet peut être configuré et géré indépendamment en le clonant à partir de ce [dépôt](https://github.com/massmux/SatsMobiBot).
 
 
 Si vous préférez l'utiliser simplement, démarrer une discussion sur Telegram révélera qu'il s'agit d'un robot.
@@ -20,7 +20,7 @@ Si vous préférez l'utiliser simplement, démarrer une discussion sur Telegram 
 
 ## Paramètres
 
-Dans la barre de recherche de Telegram, cherchez "satsmobi" et le lien vers le [bot] (@SatsMobiBot) apparaîtra.
+Dans la barre de recherche de Telegram, cherchez "satsmobi" et le lien vers le [bot](@SatsMobiBot) apparaîtra.
 
 
 **Attention** : Si vous n'êtes pas sûr de pouvoir effectuer une recherche via Telegram, accédez au bot en toute sécurité en utilisant le [lien] suivant (https://t.me/SatsMobiBot)
@@ -78,7 +78,7 @@ Dans l'exemple suivant, on a choisi de recevoir un montant de 210 Sats.
 ![cover](assets/it/09.webp)
 
 
-Après quelques instants d'attente, la Invoice est disponible sous forme de texte et de code QR. En payant la Invoice, la Wallet affiche le solde. Si, pour une raison quelconque, le total n'est pas mis à jour, écrivez _/balance_ et appuyez sur la touche `enter`.
+Après quelques instants d'attente, l'Invoice est disponible sous forme de texte et de code QR. En payant l'Invoice, le Wallet affiche le solde. Si, pour une raison quelconque, le total n'est pas mis à jour, écrivez _/balance_ et appuyez sur la touche `enter`.
 
 
 ![image](assets/it/10.webp)
@@ -99,7 +99,7 @@ La manière la plus simple de payer une Invoice est de copier la chaîne de mess
 ![image](assets/it/11.webp)
 
 
-La Wallet envoie un message de demande de confirmation. En cliquant sur _Pay_, la Invoice est payée.
+Le Wallet envoie un message de demande de confirmation. En cliquant sur _Pay_, l'Invoice est payée.
 
 
 ![image](assets/it/12.webp)
@@ -111,7 +111,7 @@ Sats.Mobi peut compter sur un nœud Lightning efficace et bien connecté, les pa
 ### Payer confortablement à partir d'un téléphone portable
 
 
-Naviguant sur Telegram, Sats.Mobi est également disponible sur mobile. La fonction la plus pratique pour payer avec un téléphone portable est de scanner un code QR, mais ce Wallet en est dépourvu de par sa conception, puisqu'il ne s'agit pas d'une application autonome, mais d'un réseau social. Sats.Mobi est donc programmé pour faciliter au maximum l'expérience mobile : il peut en effet décoder une image, comme une photo prise du code QR de la Invoice que vous voulez payer.
+Naviguant sur Telegram, Sats.Mobi est également disponible sur mobile. La fonction la plus pratique pour payer avec un téléphone portable est de scanner un code QR, mais ce Wallet en est dépourvu de par sa conception, puisqu'il ne s'agit pas d'une application autonome, mais d'un réseau social. Sats.Mobi est donc programmé pour faciliter au maximum l'expérience mobile : il peut en effet décoder une image, comme une photo prise du code QR de l'Invoice que vous voulez payer.
 
 
 Supposons, par exemple, que vous souhaitiez payer une Invoice de 50 Sats.
@@ -148,7 +148,7 @@ Veuillez patienter quelques instants pour permettre le traitement du paiement.
 ![image](assets/it/25.webp)
 
 
-Le Invoice pour 50 Sats a été payé, un résultat obtenu sans l'utilisation d'une caméra et de sa fonction de balayage intégrée.
+L'Invoice pour 50 Sats a été payé, un résultat obtenu sans l'utilisation d'une caméra et de sa fonction de balayage intégrée.
 
 
 ### Sats.Mobi dans Telegram Groups
@@ -183,12 +183,12 @@ Lorsque Sats.Mobi est lancé pour la première fois, le robot crée également u
 ![image](assets/it/14.webp)
 
 
-Le Interface affiche la poignée Telegram personnelle de l'utilisateur en haut à gauche et s'utilise simplement comme tous les TPV : en tapant le montant sur le clavier. Supposons maintenant que nous voulions collecter 21 centimes d'euro pour un service. Sachant que Sats.Mobi ne gère nativement que le Sats, il n'est pas facile de faire la conversion dans sa tête. Par contre, le TPV affiche l'euro comme unité de compte, en affichant en même temps l'équivalent en Satoshi.
+L'interface affiche la poignée Telegram personnelle de l'utilisateur en haut à gauche et s'utilise simplement comme tous les TPV : en tapant le montant sur le clavier. Supposons maintenant que nous voulions collecter 21 centimes d'euro pour un service. Sachant que Sats.Mobi ne gère nativement que le Sats, il n'est pas facile de faire la conversion dans sa tête. Par contre, le TPV affiche l'euro comme unité de compte, en affichant en même temps l'équivalent en Satoshi.
 
 
 ![image](assets/it/15.webp)
 
-En cliquant sur _/OK_, la Invoice s'affiche et peut être montrée au client via un code QR ou envoyée sous forme de chaîne de caractères par messagerie instantanée, afin qu'elle puisse être payée.
+En cliquant sur _/OK_, l'Invoice s'affiche et peut être montrée au client via un code QR ou envoyée sous forme de chaîne de caractères par messagerie instantanée, afin qu'elle puisse être payée.
 
 ![image](assets/it/16.webp)
 
@@ -232,5 +232,5 @@ Si vous êtes à la recherche de portefeuilles Lightning Network non gardiens, n
 ### Documentation
 
 
-- [Github] (https://github.com/massmux/SatsMobiBot)
+- [Github](https://github.com/massmux/SatsMobiBot)
 - Playlist de [vidéos](https://www.youtube.com/results?search_query=Sats.mobi) demo

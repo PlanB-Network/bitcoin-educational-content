@@ -1,0 +1,8 @@
+question: ¿Cuál es la principal ventaja de que los enums Rust puedan llevar datos dentro de cada variante?
+answer: Evita desajustes entre los indicadores de tipo y los datos asociados agrupándolos
+wrong_answers:
+  - Permite que los enums implementen automáticamente todos los rasgos estándar sin declaración explícita
+  - Permite utilizar enums como parámetros genéricos en cualquier función o método
+  - Hace que los enums consuman menos memoria que las estructuras tradicionales con datos similares
+explanation: |
+  Los enums de Rust pueden adjuntar datos directamente a cada variante, lo que elimina el error de programación común de mantener variables separadas para los indicadores de tipo y sus datos asociados. Este diseño asegura que los datos siempre coincidan con la variante, evitando inconsistencias que podrían conducir a errores en tiempo de ejecución. A diferencia de otros lenguajes donde se puede tener un enum separado para el tipo y variables para los datos, Rust lo agrupa todo, haciendo imposible que el tipo y los datos no coincidan.

@@ -1,0 +1,8 @@
+question: Wat is de meest kritieke hersteluitdaging waarmee gebruikers worden geconfronteerd wanneer hun fondsen worden beheerd via de cloudgebaseerde Lightning-knooppuntarchitectuur van Greenlight?
+answer: Gebruikers zouden technische expertise nodig hebben om onafhankelijke Core Lightning nodes op te starten en kanaaltoestanden te herstellen zonder Greenlight-infrastructuur
+wrong_answers:
+  - "Gebruikers verliezen de toegang tot hun privésleutels die exclusief zijn opgeslagen op de servers van Blockstream"
+  - "Kanaalstatussen zijn versleuteld met behulp van Greenlight's eigen sleutels waardoor fondsherstel mathematisch onmogelijk is."
+  - "Lightning-kanalen verlopen automatisch na 30 dagen zonder de doorlopende onderhoudsdiensten van Greenlight"
+explanation: |
+  Het juiste antwoord benadrukt de echte technische complexiteit van fondsenherstel in de architectuur van Greenlight. Terwijl gebruikers hun privésleutels behouden, vereist toegang tot fondsen zonder Greenlight het uitvoeren van Core Lightning nodes en het handmatig herstellen van kanaalstaten - een proces dat de meeste gebruikers te boven gaat. De foute antwoorden zijn onjuist omdat: gebruikers hun privésleutels beheren (niet opgeslagen op servers), kanaaltoestanden standaard Lightning-protocollen gebruiken (geen eigen encryptie) en Lightning-kanalen geen automatische verlooptimers hebben die zijn gekoppeld aan serviceproviders.

@@ -1,0 +1,8 @@
+question: Ni ubuhe bumenyi bw’ishimikiro ku bijanye no kwemera Lightning bwatumye Breez iva ku kwubaka porogarama imwe yo kuri telefone ngendanwa ikaja ku gutegura ubuhinga bwa SDK?
+answer: Ubuhinga bwa porogaramu y'amatelefone ngendanwa ntibworosha guhanahana amakuru hagati y'iporogarama, bikabuza porogaramu zidasanzwe gukoresha ibikorwa remezo vya Lightning
+wrong_answers:
+  - Ivyuma bigendanwa ntibigira ubushobozi buhagije bwo gukoresha ubuhinga bwa Lightning nodes mu buryo bwizigirwa, bisaba ibikorwa remezo bishingiye ku gicu kugira ngo bikore neza .
+  - Ugukurikiza amategeko bisaba ko imikorere ya Lightning ishirwa hamwe muri SDKs aho gukwiragizwa mu bikorwa vy'amatelefone ngendanwa vy'umuntu ku giti ciwe
+  - Ubushakashatsi bwakozwe ku bumenyi bw'abakoresha bwagaragaje ko abaguzi bakunda ko Lightning yishura icungirwa n'abandi aho gucungirwa n'amaporogarama y'umuntu ku giti ciwe
+explanation: |
+  Inyishu ibereye yerekana ikintu nyamukuru c’ubwubatsi cavumbuwe biciye ku rubuga rwa Breez rw’intango: ibidukikije bigendagenda ntivyemera ko umuntu ashobora guhanahana amakuru hagati ya porogaramu, bikaba bihatira abahinguzi kwubaka ibintu vyose vya Lightning mu porogaramu imwe aho guhingura porogaramu zidasanzwe zisangira ibikorwa remezo vya Lightning. Ukwo gutahura kwatumye habaho uburyo bwa SDK bushoboza porogarama nyinshi kwifatanya n’uruzitiro rumwe rwa Lightning. Inyishu zitari zo zishingiye ku mipaka y’ubuhinga, ibibazo vy’amategeko, canke ivyo abakoresha bakunda, ariko ivyo ntivyari ubumenyi bw’ishimikiro bw’ubwubatsi bwatumye habaho uguhindura ingamba ku citegererezo ca SDK.

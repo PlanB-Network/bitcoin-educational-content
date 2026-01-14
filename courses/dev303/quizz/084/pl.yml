@@ -1,0 +1,8 @@
+question: Jaka jest główna korzyść architektoniczna z warstwowego podejścia UniFFI podczas integracji bibliotek Rust z językami docelowymi, takimi jak Swift lub Kotlin?
+answer: Warstwa wiążąca obsługuje translację typów i zarządzanie pamięcią, jednocześnie prezentując całkowicie natywny interfejs dla języka docelowego
+wrong_answers:
+  - Plik UDL automatycznie kompiluje kod Rust do kodu bajtowego, który może działać natywnie na platformach mobilnych bez tłumaczenia
+  - Kod biblioteki Rust jest automatycznie przepisywany w składni języka docelowego, aby wyeliminować wszelkie obce wywołania interfejsu funkcji
+  - Aplikacje języka docelowego uzyskują bezpośredni dostęp do struktur pamięci Rust poprzez współdzielone wskaźniki, aby uniknąć narzutu związanego z marshalingiem danych
+explanation: |
+  Architektura UniFFI tworzy separację, w której wygenerowany kod wiążący działa jako warstwa tłumaczeniowa między językiem docelowym a Rust. Warstwa ta obsługuje złożony marshaling/unmarshaling typów danych, bezpiecznie zarządza pamięcią ponad granicami językowymi i zapewnia obsługę błędów zgodnie z konwencjami języka docelowego. Pozostałe opcje są nieprawidłowe, ponieważ UniFFI nie kompiluje się do kodu bajtowego (generuje powiązania), nie przepisuje kodu Rust w innych językach (zachowuje oryginalną implementację Rust) i nie korzysta z dostępu do pamięci współdzielonej (bezpiecznie marshaluje dane między granicami).

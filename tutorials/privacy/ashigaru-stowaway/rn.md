@@ -268,7 +268,7 @@ Ivyo vyose bimaze guhindurwa, nusuzume amakuru y’ivyo ugurisha, hanyuma ubirek
 
 
 
-[Ivyo bicuruzwa vyasohowe] (https://mempool.space/testnet4/tx). Intunganyo yayo ni iyi:
+[Ivyo bicuruzwa vyasohowe](https://mempool.space/testnet4/tx). Intunganyo yayo ni iyi:
 
 
 

@@ -1,0 +1,8 @@
+question: Apa keuntungan paling signifikan dari penggunaan tipe Result dan Option dibandingkan panik untuk penanganan kesalahan dalam kode Rust produksi?
+answer: Mereka memaksa pengakuan eksplisit atas potensi kegagalan dan memungkinkan pemulihan kesalahan yang mulus
+wrong_answers:
+  - Mereka memberikan kinerja yang lebih baik dengan menghindari pelepasan tumpukan selama kondisi kesalahan
+  - Mereka secara otomatis mengonversi semua jenis kesalahan menjadi pesan string untuk memudahkan debugging
+  - Mereka menghilangkan kebutuhan untuk propagasi kesalahan dengan menangani kesalahan pada titik kegagalan
+explanation: |
+  Tipe Result dan Option membuat penanganan kesalahan menjadi eksplisit dan dapat dipulihkan dengan memaksa pengembang untuk mengakui bahwa operasi dapat gagal dan menyediakan mekanisme untuk menangani kegagalan tersebut dengan baik. Tidak seperti panic, yang langsung menghentikan eksekusi, tipe ini memungkinkan program untuk terus berjalan dan merespons kondisi kesalahan dengan tepat. Jawaban yang salah salah menggambarkan kemampuan mereka: kinerja bukanlah keunggulan utama mereka, mereka tidak secara otomatis mengkonversi kesalahan menjadi string (itu adalah fitur apapun), dan mereka sebenarnya memfasilitasi daripada menghilangkan penyebaran kesalahan melalui operator seperti ?.

@@ -1,0 +1,8 @@
+question: Nini kitatokea kwa faragha ya masharti ya matumizi ya muamala wa P2SH baada ya muda?
+answer: Masharti ya matumizi hubaki siri hadi matumizi ya kwanza, kisha huonekana kabisa on-chain
+wrong_answers:
+  - Masharti ya matumizi hubaki kuwa ya faragha ya kudumu hata baada ya miamala mingi kufanywa
+  - Masharti ya matumizi yanaonekana mara moja wakati anwani ya P2SH inapoundwa kwa mara ya kwanza
+  - Masharti ya matumizi huonekana kwa muda wakati wa matumizi lakini hufichwa tena baadaye
+explanation: |
+  P2SH hutoa faragha kwa kuficha hali halisi ya matumizi (hati ya kukomboa) nyuma ya hashi katika scriptPubKey. Hashi ya baiti 20 pekee ndiyo inayoonekana mwanzoni, ikificha ikiwa ni multisig, timelock, au hali nyingine ngumu. Hata hivyo, wakati matokeo ya P2SH yanapotumika kwa mara ya kwanza, hati kamili ya kukomboa lazima ifunuliwe on-chain kwa ajili ya uthibitisho, na kufanya hali ya matumizi ionekane kabisa kwa washiriki wote wa mtandao. Ufunuo huu wa mara moja ni mabadiliko ambayo P2SH hufanya kati ya faragha na utendaji kazi.

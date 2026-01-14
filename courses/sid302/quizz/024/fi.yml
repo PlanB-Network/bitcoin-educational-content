@@ -1,0 +1,8 @@
+question: Mikä on Liquid:n Asset Management Platformin (AMP) ensisijainen tekninen mekanismi, jolla estetään yhden epäonnistumispaikan vaatimustenmukaisuustoimet ja säilytetään samalla tokenisoitujen varojen viranomaisvalvonta?
+answer: Usean allekirjoituksen valtuutus, joka edellyttää useiden osapuolten hyväksyntää vaatimustenmukaisuustoimenpiteille, kuten varojen jäädyttämiselle tai polettien uudelleenmyynnille
+wrong_answers:
+  - Smart contract-hallintamerkit, jotka mahdollistavat yhteisön äänestyksen kaikista sääntöjen noudattamista koskevista päätöksistä ja sääntelyn noudattamisen valvonnasta
+  - Aikarajoitetut escrow-tilit, jotka suorittavat automaattisesti sääntöjen noudattamista koskevat toimet ennalta määrättyjen odotusaikojen päätyttyä
+  - Kryptografinen proof-of-stake -konsensus, jossa validoijien on päästävä enemmistön yksimielisyyteen ennen vaatimustenmukaisuustoimien toteuttamista
+explanation: |
+  AMP käyttää usean allekirjoituksen valvontaa varmistaakseen, että sääntöjen noudattamista koskevat toimet edellyttävät usean osapuolen valtuutusta, mikä estää yksittäistä työntekijää toimimasta yksipuolisesti. Tämä luo arkaluonteisille toiminnoille tarkistus- ja tasapainojärjestelmän ja säilyttää samalla institutionaalisen omaisuuden edellyttämän viranomaisvalvonnan. Väärät vastaukset kuvaavat mekanismeja, joita ei joko ole AMP:ssä tai jotka eivät sovellu säänneltyjen rahoitusjärjestelyjen noudattamiseen.

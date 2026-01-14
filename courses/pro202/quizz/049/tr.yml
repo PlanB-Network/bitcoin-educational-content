@@ -1,0 +1,8 @@
+question: Bir Bitcoin düğümünün yeni bir blok aldığında bunu blok zincirine kabul etmeden önce gerçekleştirmesi gereken iki kritik doğrulama kontrolü nedir?
+answer: Blok hash'i hedef zorluğun altında olmalı ve hesaplanan Merkle kökü başlığın Merkle köküyle eşleşmelidir
+wrong_answers:
+  - Blok zaman damgası geçerli olmalı ve tüm işlem imzaları kriptografik olarak doğrulanmalıdır
+  - Blok boyutu 1 MB'ın altında olmalı ve önceki blok karması bilinen geçerli bir bloğu referans almalıdır
+  - Blok sürümü ağ mutabakatıyla eşleşmeli ve toplam işlem ücretleri mining ödülünü aşmalıdır
+explanation: |
+  Bitcoin'ün "güvenme, doğrula" ilkesi blok kabulü için tam olarak iki temel kontrol gerektirir: proof-of-work doğrulaması (zorluk hedefinin altında blok hash'i) ve işlem bütünlüğü doğrulaması (Merkle kök eşleşmesi). Zaman damgası doğrulaması, imza doğrulaması ve boyut sınırları gibi diğer kontroller önemli olsa da, bu iki özel kontrol bloğun zorluk gereksinimlerini karşılamasını ve iddia edilen işlemleri kurcalanmadan içermesini sağlar.

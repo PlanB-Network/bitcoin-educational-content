@@ -1,0 +1,8 @@
+question: ¿Cuál es la principal limitación que deben superar los desarrolladores al utilizar UniFFI para el desarrollo de aplicaciones móviles que requieren interfaces de usuario con capacidad de respuesta?
+answer: UniFFI sólo admite interfaces síncronas, por lo que los desarrolladores deben gestionar las operaciones asíncronas mediante mecanismos de subprocesamiento independientes
+wrong_answers:
+  - UniFFI no puede manejar tipos de datos complejos como enums y structs, lo que limita la riqueza de las interfaces móviles de API
+  - UniFFI genera enlaces que no son seguros para la memoria a través de los límites del lenguaje, lo que requiere una gestión manual de la memoria
+  - UniFFI no admite la traducción de la gestión de errores, lo que obliga a los desarrolladores a implementar una gestión de excepciones personalizada en cada idioma de destino
+explanation: |
+  La limitación más significativa de UniFFI es su falta de compatibilidad con interfaces asíncronas: todos los enlaces generados son síncronos. Esto supone un reto para el desarrollo móvil, donde las interfaces de usuario con capacidad de respuesta son fundamentales, ya que los desarrolladores deben implementar sus propias soluciones de subprocesamiento para evitar el bloqueo del subproceso principal. Las respuestas erróneas son incorrectas porque UniFFI destaca en el manejo de tipos complejos como enums y structs, proporciona un marshaling automático a prueba de memoria a través de las fronteras del lenguaje, y tiene una sofisticada traducción de manejo de errores que convierte los tipos de resultado Rust en modelos de excepción nativos para los lenguajes de destino.

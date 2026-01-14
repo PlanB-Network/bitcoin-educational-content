@@ -1,0 +1,8 @@
+question: Dans quel scénario RefCell serait-il le plus approprié pour résoudre une restriction d'emprunt à la compilation ?
+answer: Lors de l'implémentation d'un objet fictif qui doit suivre les changements d'état internes par le biais d'une interface de traits immuables
+wrong_answers:
+  - Lorsque vous devez partager des données entre plusieurs threads et que vous avez besoin d'un comptage atomique des références
+  - Lorsque vous souhaitez éviter les surcharges d'exécution en déplaçant toutes les vérifications d'emprunts au moment de la compilation
+  - Lors de la création de références circulaires entre des structures de données qui nécessitent un nettoyage automatique de la mémoire
+explanation: |
+  RefCell est conçu pour les scénarios de mutabilité intérieure dans lesquels vous devez muter des données à travers une référence immuable, en particulier lorsque l'analyse statique du compilateur est trop conservatrice. Les objets fantaisie qui implémentent des traits avec des méthodes immuables mais qui doivent suivre l'état interne représentent un cas d'utilisation parfait. Les autres options sont incorrectes : RefCell n'est pas sûr pour les threads, il déplace la vérification au moment de l'exécution (et non au moment de la compilation), et il ne résout pas les problèmes de références circulaires - il peut même y contribuer lorsqu'il est combiné avec RC.

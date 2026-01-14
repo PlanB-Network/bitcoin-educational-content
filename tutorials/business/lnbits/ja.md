@@ -2,9 +2,9 @@
 name: LNbits
 description: マーチャント会計プラットフォーム
 ---
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
-# 会計システム
+## 会計システム
 
 LNbitsには、入出金資金のコントロールやチャネリング、ウェブストアの接続、さらにはハードウェアウォレットや自作ATMのようなデバイスを接続するためのツールがたくさん詰まっています。ユーザータイプは以下の通りです：
 
@@ -15,7 +15,7 @@ LNbitsには、入出金資金のコントロールやチャネリング、ウ�
 - ノードをLNbitsシステムと統合して会計処理を行いたいノードオペレータ。
 - そのニーズはそれぞれ異なります。LNbitsは、すべてのユーザーが自分に最適な方法で機能を利用できるよう、モジュール方式で構築しています。
 
-# ウォレットマネージャー
+## ウォレットマネージャー
 
 LNbitsはフリーでオープンソースの会計システムであり、ノードマネージャーではない。チャンネル管理は、LNDやc-lightningのようにLNbitsに資金源として接続されているLightningノードの領域です。LNbitsシステムのスーパーユーザーまたはアドミンユーザーは、アカウンティング機能と内部拡張機能の全体的なアクセス可能性と設定を管理する責任があります。
 
@@ -29,11 +29,11 @@ LNbitsはあなた自身の銀行財務管理ソフトウェアだと考えて�
 
 注意：あなたの「顧客」があなたのノードのLNbits銀行口座に入金した資金は、すべてあなたのノードのLNチャンネルに直接入金されます。つまり、これらの資金の実際の所有者はあなたです。あなたは彼らの資金に対して大きな責任を負うことになります。邪悪になって資金を持ち逃げしたり、邪悪になって高い手数料を請求したりしないでください。私たちは不換紙幣の銀行家とやりたいのであって、お互い（ビットコインユーザー）とやりたいのではありません。
 
-# デモプラットフォーム
+## デモプラットフォーム
 
 デモは[https://legend.lnbits.com](https://legend.lnbits.com)にあります。このデモは完全に機能し、ライトニングネットワークやLNbits、LNURLの特徴について学ぶことができます。私たちは、あなたがこれを使用することを妨げることはできませんが、あなたの本番セットアップには使用しないようお願いします。私たちは新機能をテストするために頻繁にサーバーに取り組んでいるだけでなく、あなた自身のノードとLNbitsを主権的な方法で運用することを奨励したいと思います。LNbitsをOpennode、Luna、Votageのようなクラウド上のカストディアン・ファンディング・サービスに接続することもできますし、Telegram上のLightning Tipbotに接続することもできます。
 
-# LNbitsチラシ
+## LNbitsチラシ
 
 加盟店や建築関係の友人に基本的な情報を渡したいですか？この度、皆様にご利用いただけるフライヤーを作成いたしました。サイズは6ページ（2つ折り）、横3508、縦2480pxの世界的に一般的なフライヤーです。
 
@@ -41,7 +41,7 @@ LNbitsはあなた自身の銀行財務管理ソフトウェアだと考えて�
 
 ビルダー向けLNbits：[EN](/assets/lnbits-builders-ja.pdf) | [DE](/assets/lnbits-builders-de.pdf) | [ES](/assets/lnbits-builders-es.pdf) | [IT](/assets/lnbits-builders-it.pdf) | [PL](/assets/lnbits-builders-pl.pdf)
 
-# いくつかの基本
+## いくつかの基本
 
 LNbitsはLNURLプロトコルに基づいて動作します。つまり、リクエストはhttps:// クリアネットリンク（自己署名証明書不可）またはhttp:// v2/v3 オニオンリンクの2つの形式で有効です。LNURLp/wのQRコードやNFCカードのようなLNbitsサービスを提供するためには、LNbitsをclearnet（https）に開放する必要があります。
 
@@ -66,9 +66,9 @@ LNbitsを具体的なユースケース・シナリオで使用する、より�
 - [LNbitsで始めるNOSTRマーケット](https://darthcoin.substack.com/p/lnbits-nostr-market)｜サブスタックガイド
 - [学校プロジェクトやフェスティバル・イベントでのLNbitsの使用](https://darthcoin.substack.com/p/lnbits-saas-a-solution-for-schools) サブスタック・ガイド
 
-# LNbitsのインストール
+## LNbitsのインストール
 
-## 基本インストールガイド
+### 基本インストールガイド
 
 LNbitsはどのLinux OSマシンにもインストールできます。強力なマシンやサーバーは必要なく、十分なRAMメモリとデータベース用のディスク容量があれば十分です。BTC/LNノード（ローカルPCまたはリモートVPS）とは別に、またはノードと同じマシン上で一緒に、またはバンドルノードソフトウェアマシンにインストール済みで実行することができます。
 
@@ -87,13 +87,13 @@ LNbitsを初めてお使いになる方のために、特定の環境でLNbits�
 
 バンドルソフトウェアノードについては、それぞれのLNbitsに関するドキュメントを参照してください：[Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
-## LNbits SaaS
+### LNbits SaaS
 
 技術的なことに興味がなく、資金源やLNbitsを自分でホスティングしたくない場合は、[LNbits SaaSバージョン](https://saas.lnbits.com)(Software-as-a-service)をご利用ください。基本的にはクラウド上のLNbitsのようなものですが、資金源（ノード、LNbitsウォレット、LNtipbot、fakewalletなど）と環境変数を自分で定義することができます。
 
 [LNbits SaaSの具体的な利用方法については、こちらをご覧ください](https://darthcoin.substack.com/p/lnbits-saas-a-solution-for-schools)。
 
-## 資金源
+### 資金源
 
 LNbitsはノード管理ソフトウェアではなく、LNDまたはCLNの資金源の上にLNに焦点を当てた会計システムです。最初のインストール後、http://localhost:5000/。
 
@@ -113,7 +113,7 @@ LNbitsは、多くのライトニングネットワークの資金源の上で�
 
 .envバージョンを使用したい場合は、ここにパラメータがあります：
 
-### コアライトニング
+#### コアライトニング
 
 
 - シーエルエヌ
@@ -124,7 +124,7 @@ LNbitsは、多くのライトニングネットワークの資金源の上で�
   - `SPARK_URL`: http://10.147.17.230:9737/rpc
    - SPARK_TOKEN`: シークレット・アクセス・キー
 
-### ライトニング・ネットワーク・デーモン
+#### ライトニング・ネットワーク・デーモン
 
 
 - LND (REST)
@@ -147,7 +147,7 @@ AESで暗号化されたマカロン（詳細はこちら）を使うことも�
 
 マカロンを暗号化するには、`./venv/bin/python lnbits/wallets/macaroon/macaroon.py`を実行する。
 
-### LNbits（別のLNbitsインスタンス）
+#### LNbits（別のLNbitsインスタンス）
 
 
 - クラウドサーバーまたはご自宅のサーバーにLNbitsインスタンスをホスト
@@ -159,7 +159,7 @@ AESで暗号化されたマカロン（詳細はこちら）を使うことも�
   - lnbits_endpoint`: https://legend.lnbits.com
   - LNBITS_KEY`: legend-lnbits-AdminKey
 
-### ライトニング・チップボット
+#### ライトニング・チップボット
 
 テレグラムから[Lightning Tipbot](https://t.me/LightningTipBot)に接続するには、以下のパラメータを設定する必要があります：
 
@@ -170,13 +170,13 @@ AESで暗号化されたマカロン（詳細はこちら）を使うことも�
 
 LNbits with LightningTipBot via vps](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)のインストール方法はこちらもご覧ください。
 
-### IBEX HUB
+#### IBEX HUB
 
 こちら](https://ibexpay.ibexmercado.com/onboard)に登録し、そこからキー/トークンを取得する。エンドポイントはhttps://ibexpay-api.ibexmercado.com。
 
 詳細は[IBEX API-Documentation](https://ibexpay-api.readme.io/reference/getting-started-with-your-api)を参照。
 
-### LNPay
+#### LNPay
 
 請求書リスナーを動作させるには、LNbitsに一般にアクセス可能なURLを設定し、[LNPay webhook](https://dashboard.lnpay.co/webhook/)を`<your LNbits host>/wallet/webhook`を指すように設定する必要があります。https://mylnbits/wallet/webhook`は支払いに関する通知を受けるエンドポイントのURLになります。
 
@@ -186,7 +186,7 @@ LNbits with LightningTipBot via vps](https://www.massmux.com/howto-complete-ligh
   - LNPAY_API_KEY`: sak_apiKey
   - LNPAY_WALLET_KEY`: waka_apiKey
 
-### オープンノード
+#### オープンノード
 
 インボイスを利用するには、LNbitsに一般からアクセス可能なURLが必要です。ウェブフックの設定はオプションです。
 
@@ -195,7 +195,7 @@ LNbits with LightningTipBot via vps](https://www.massmux.com/howto-complete-ligh
   - opennode_api_endpoint`: https://api.opennode.com/
   - OPENNODE_KEY`: opennodeAdminApiKey
 
-### アルビー
+#### アルビー
 
 Albyは、LNbitsの資金源として使用できるLNウォレット機能とLNDHUBアカウントを備えたブラウザ拡張機能です。[詳細はこちら](https://getalby.com/)。
 
@@ -206,11 +206,11 @@ Albyは、LNbitsの資金源として使用できるLNウォレット機能とLN
 - alby_api_endpoint`: https://api.getalby.com/
 - alby_access_token`：AlbyAccessToken
 
-## 追加／トラブルシューティングガイド
+### 追加／トラブルシューティングガイド
 
 以下は補足説明です。矢印をクリックすると説明が拡大します。
 
-### キルスウィッチ🚨」。
+#### キルスウィッチ🚨」。
 
 最近、LNbitsだけでなく世界的に危険なバグが多発しているため、LNbitsでも対策を講じることにしました。脆弱性や資金喪失につながるバグが再び発生した場合、警告を受けたり、直接アクションを起こすことができるようになりました。
 
@@ -220,11 +220,11 @@ void-walletに切り替えた場合、インスタンス上のすべてのユー
 
 仕組みは？killswitchを有効にすると、LNbitsコアチームのみが利用できる秘密のgithubリポジトリがX分間隔（指定可能）でチェックされます。このリポジトリで脆弱なバグが公開された場合、そのバグをトリガーとして、購読しているすべてのインスタンスでkillswitchが作動し、あなたのlnbitsインスタンスがvoid walletを使用するように移行します。雲行きが怪しくなり、セキュリティアップデートをインストールした場合は、サーバーの管理セクションから資金源をノードやウォレットなどに設定することができます。このwikiには資金源の切り替えに関するセクションがあります。
 
-### 管理者とスーパーユーザーの違い
+#### 管理者とスーパーユーザーの違い
 
 LNbits Admin UI は LNbits フロントエンドから LNbits の設定を変更するためのものです。デフォルトでは無効になっており、最初に `.env` ファイルに環境変数 `LNBITS_ADMIN_UI=true` を設定すると、設定が初期化されて使用されます。それ以降は.envファイルの設定ではなくデータベースの設定が使用されます。
 
-### スーパーユーザー
+#### スーパーユーザー
 
 管理者用UIでは、サーバーにアクセスできるスーパーユーザーを導入し、フロントエンドやapiからサーバーをクラッシュさせたり、反応しなくさせたりするような設定を変更できるようにしました。スーパーユーザーは、データベースの設定テーブル内にのみ保存されます。設定を "デフォルトにリセット "して再起動すると、新しいスーパーユーザーが作成されます。また、スーパーユーザーの存在をチェックするために、APIルートにデコレーターを追加しました。そのIDはapiやフロントエンドに送られることはなく、スーパーユーザーかどうかのbool(yes/no)を受け取るだけです。
 
@@ -234,15 +234,15 @@ LNbits Admin UI は LNbits フロントエンドから LNbits の設定を変更
 
 フロントエンドでは、サーバーの管理セクションを開き、テーマ -> カスタムロゴを選択することで、"財布の作成 "ページに表示されるショップイメージを変更することができます。
 
-### 管理者ユーザー
+#### 管理者ユーザー
 
 環境変数：LNBITS_ADMIN_USERS`、カンマ区切りのユーザーIDリスト。管理者ユーザは管理画面の設定を変更することができます - ただし、資金源の設定は例外です。また、`LNBITS_ADMIN_EXTENSIONS`で指定されたすべての拡張機能にアクセスすることができます。
 
-### 許可されたユーザー
+#### 許可されたユーザー
 
 環境変数：LNBITS_ALLOWED_USERS`、カンマ区切りのユーザーIDリスト。これらのユーザを定義することで、LNbitsは一般ユーザから利用できなくなります。定義されたユーザと管理者のみがLNbitsフロントエンドにアクセスできます。
 
-#### LNbitsの更新
+##### LNbitsの更新
 
 LNbitsローカルインスタンスの通常のアップデートは、以下のCLIコマンドをコピーペーストするだけです：
 
@@ -275,7 +275,7 @@ git pull upstream main
 sudo ~/scripts/app start lnbits
 ```
 
-#### SQLiteからPostgreSQLへの移行
+##### SQLiteからPostgreSQLへの移行
 
 LNbitsをSQLiteデータベース上にインストールし、運用している場合、LNbitsを大規模に運用するのであれば、postgresに移行することを強くお勧めします。
 
@@ -296,11 +296,11 @@ make migration
 
 うまくいけば、すべてが動作し、移行されます。もう一度LNbitsを起動して、すべてが正しく動作しているか確認してください。
 
-#### データベースのバックアップとリストア
+##### データベースのバックアップとリストア
 
 バックアップ＆リストアプロセスに関する非常に詳細なガイド](https://ereignishorizont.xyz/lnbits-server/en/#94_LNbits_-_Databases_Backup_Restore)を参照してください。
 
-#### ノードからLNbitsウォレットへの資金注入がうまくいかない
+##### ノードからLNbitsウォレットへの資金注入がうまくいかない
 
 LNbitsのファンディング・ソースと同じノードから衛星を送信したい場合は、lnd.confファイルを編集する必要があります。
 
@@ -310,7 +310,7 @@ lnd.conf の Application options セクションでそうしてください。�
 
 注意: LNbits口座への資金追加は、新しいadminUI拡張機能の "TopUp "オプションを使用することをお勧めします。
 
-#### エラー 426
+##### エラー 426
 
 エラーが出ました："lnurlは、一般的にアクセス可能なhttpsドメインまたはtorで配信する必要があります。426アップグレードが必要です。
 
@@ -325,7 +325,7 @@ RequestHeader set "X-Forwarded-Proto" expr=%{REQUEST_SCHEME}
 RequestHeader set "X-Forwarded-SSL" expr=%{HTTPS}
 ```
 
-#### ネットワークエラー
+##### ネットワークエラー
 
 QRをスキャンすると、「httpsエラー」や「ネットワークエラー」などが発生する</summary>。
 
@@ -337,25 +337,25 @@ LNbitsはTor経由でのみ動作しています。lnbits.yourdomain.comのよ�
 - この設定を維持したい場合は、.onion URIを使用してLNbitsウォレットを開き、再度作成します。こうすることで、.onion URIからtor経由でのみアクセスできるQRが生成されます。.localURIからQRを生成しないでください。インターネット経由ではアクセスできません。
 - QRのスキャンに使用したLNウォレットアプリを開き、今度はtorを使用する（ウォレットアプリの設定を参照）。アプリがtorを提供していない場合は、代わりにOrbot（Android）を使用することができます。clearnet/https用のLNbitsを開く方法の詳細については、インストールセクションをご覧ください。
 
-#### 他人が私のLNbitsでウォレットを生成するのを防ぐ
+##### 他人が私のLNbitsでウォレットを生成するのを防ぐ
 
 クリアネットでLNbitsを運用すると、基本的に誰もがその上でウォレットを生成することができます。あなたのノードの資金はこれらのウォレットに束縛されるので、それを防ぎたいと思うかもしれません。そのためには2つの方法があります：
 
 .env`ファイル([envの例はこちら](https://github.com/lnbits/lnbits/blob/main/.env.example))で許可するユーザーと拡張子を設定する。これは、.envファイルで `adminUI=FALSE` という設定を使用した場合のみ機能します。そうでない場合は、Manage Server セクション -> Users -> Allowed Users で設定する必要があります。そうでなければ、サーバーの管理セクション -> ユーザー -> 許可されたユーザーでこれを行う必要があります。
 
-#### 請求書の有効期限をカスタマイズする
+##### 請求書の有効期限をカスタマイズする
 
 カスタム期限付き請求書を作成できるようになりました。バックエンドと互換性があります：LndRestWallet、LndWallet、CoreLightningWallet、EclairWallet、LnbitsWallet、SparkWallet！
 
 .envファイルで`LIGHTNING_INVOICE_EXPIRY`を設定するか、AdminUIを使用してすべての請求書のデフォルト値を変更することができます。また、/api/v1/paymentsエンドポイントに新しいフィールドが追加され、JSONデータで有効期限を設定できるようになりました。
 
-## ウォレット-URL削除
+### ウォレット-URL削除
 
-### デモサーバーlegend.lnbitsのウォレット
+#### デモサーバーlegend.lnbitsのウォレット
 
 自分のウォレット用のWallet-URL、Export2phone-QR、LNDhubのコピーは常に安全な場所に保存してください。LNbitsでは紛失時の復旧はできません。
 
-### 自分の資金源／ノードの財布
+#### 自分の資金源／ノードの財布
 
 自分のウォレット用のwallet-URL、Export2phone-QR、LNDhubのコピーは常に安全な場所に保存してください。全てのLNbitsユーザーとwallet-IDは、LNbitsユーザーマネージャ拡張機能またはsqliteデータベースで見つけることができます。LNbits データベースを編集したり読んだりするには、LNbits /data フォルダに行き、sqlite.db というファイルを探します。エクセルや[SQLite browser](https://sqlitebrowser.org/)のような専用のSQLエディタで開いて編集できます。
 
@@ -385,11 +385,11 @@ https://your.lnbits.com/wallet?usr=1280ff5910a9c485a782a2376f338b6c&wal=f8a43fc3
 .quit
 ```
 
-#### LNURLをライトニングアドレスにする。
+##### LNURLをライトニングアドレスにする。
 
 fiatjafの[encoder](https://lnurl-codec.netlify.app/)か、[this one](https://lightningdecoder.com/)をお試しください。LNURLpの支払いやチェックには、[LNurlpay](https://wwww.lnurlpay.com/)を使うこともできます。HTTP ではなく HTTPS である必要があります。
 
-#### 私のLNURLp QRに支払いをする際に人々が見るコメントを設定する
+##### 私のLNURLp QRに支払いをする際に人々が見るコメントを設定する
 
 LNURL-pを作成する際、デフォルトではコメント欄は埋められません。つまり、支払いにコメントを添付することはできません。
 
@@ -397,15 +397,15 @@ LNURL-pを作成する際、デフォルトではコメント欄は埋められ�
 
 ![lnbits comments](assets/lnbits-comments.webp)
 
-#### オンチェーンBTCをLNbitsに入金する
+##### オンチェーンBTCをLNbitsに入金する
 
 オンチェーンBTCからLN BTC（またはLNbits）への交換には2つの方法がある。
 
-##### 外部のスワップサービス経由。
+###### 外部のスワップサービス経由。
 
 あなたのLNbにアクセスできない他のユーザーは、[Boltz](https://boltz.exchange/)、[FixedFloat](https://fixedfloat.com/)、[DiamondHands](https://swap.diamondhands.technology/)、[ZigZag](https://zigzag.io/)のようなスワップサービスを利用できます。これは、LNbitsインスタンスからLNURL/LNインボイスのみを提供する場合に便利ですが、支払者はオンチェーンサットしか持っていないため、まず支払者側でそれらのサットをスワップする必要があります。手順は簡単です。ユーザーはスワップサービスにオンチェーンBTCを送り、スワップの宛先としてLNbitsのLNURL/LNインボイスを提供します。
 
-##### OnchainとBoltzのLNbitsエクステンションを使用。
+###### OnchainとBoltzのLNbitsエクステンションを使用。
 
 これは別個のウォレットであり、LNbitsによって「あなたのウォレット」としてLN資金源で表現されるLN btcのものではないことに留意してください。このオンチェーンウォレットは、LNbitsのBoltzまたはDeezyエクステンションを使用することで、LN btcを（ハードウェアウォレットなどに）スワップするためにも使用できます。LNbitsとリンクしているウェブショップをLN決済のために運営している場合、定期的にLNからonchainにすべてのsatsを排出することは非常に便利です。そうすることで、LNチャンネルに空きができ、新しい新鮮なサットを受け取ることができるようになります。
 
@@ -441,16 +441,16 @@ Zeus](https://zeusln.app/)または[Bluewallet](https://bluewallet.io/)をlndhub
 
 On-chain拡張でypubを使用する際に "unsupported hash type "というエラーが発生する場合、LNbitsインスタンスがpython 3.10を使用しているか確認してください。[この問題](https://stackoverflow.com/questions/72409563/unsupported-hash-type-ripemd160-with-hashlib-in-python)の影響を受けている可能性があります。stackoverflowの回答にあるようにopenssl.cnfを編集し、LNbitsを再起動してください。
 
-## LNbitsでツーリング＆ビルド
+### LNbitsでツーリング＆ビルド
 
 LNbitsには、あらゆる種類の[オープンAPI](https://legend.lnbits.com/docs)とツールがあり、膨大な数のユースケースのために、さまざまなデバイスをプログラムし、接続することができる。
 
 初めて作る場合は、LNbitsをベースにしたガジェットの作り方について、Ben Arcの[MakerBits presentations](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos)から始めましょう。
 
-### 重要：
+#### 重要：
 
 
-- LNbitsはLNURLプロトコルに基づいて動作し、https:// クリアネットリンク（自己署名証明書不可）またはhttp:// v2/v3 オニオンリンクの2つの形式でリクエストが有効です。LNURLp/wのQRコードやNFCカードのようなLNbitsサービスを提供するためには、LNbitsをclearnet（https）にオープンする必要があります。
+- LNbitsはLNURLプロトコルに基づいて動作し、https://クリアネットリンク（自己署名証明書不可）またはhttp:// v2/v3 オニオンリンクの2つの形式でリクエストが有効です。LNURLp/wのQRコードやNFCカードのようなLNbitsサービスを提供するためには、LNbitsをclearnet（https）にオープンする必要があります。
 - esp32への電源供給にはDATAケーブルのみを使用してください。すべてのケーブルがespへの電源供給に加えてデータもサポートしているわけではありません。 espに付属のケーブルが電源のみのものであれば、それは初めてのことではありません。
 - 他のデバイスを接続したままUSB-Hubを使用しないようにしてください。これは、デバッグが困難な奇妙な効果（例えば、起動しない、停止しないなど）につながる可能性があります。
 - MacOSでespプロジェクトを実現するには、UARTブリッジドライバが必要です。MacやLinuxシステムでドライバに問題がある場合は、こちらで見つけることができます。Windowsで接続に問題がある場合は、古いバージョン11.1.0をダウンロードしてください！また、接続を確認するためのシリアルターミナルもこちらで見つけることができます。

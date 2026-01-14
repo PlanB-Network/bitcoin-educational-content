@@ -71,7 +71,7 @@ Syftet med denna utbildning är inte att göra dig helt anonym i din användning
 **Avsnitt 1: Definitioner och nyckelbegrepp**
 
 
-Till att börja med ska vi gå igenom de grundläggande principer som styr driften av Bitcoin, så att vi sedan lugnt kan ta itu med begreppen som rör sekretess. Det är viktigt att behärska några grundläggande begrepp, till exempel UTXO, mottagningsadresser och skript, innan du fullt ut kan förstå de begrepp som vi kommer att behandla i följande avsnitt. Vi kommer också att introducera Bitcoin:s allmänna sekretessmodell, som den föreställdes av Satoshi Nakamoto, vilket gör det möjligt för oss att förstå de därmed sammanhängande insatserna och riskerna.
+Till att börja med ska vi gå igenom de grundläggande principer som styr driften av Bitcoin, så att vi sedan lugnt kan ta itu med begreppen som rör sekretess. Det är viktigt att behärska några grundläggande begrepp, till exempel [UTXO](https://planb.academy/resources/glossary/utxo), mottagningsadresser och skript, innan du fullt ut kan förstå de begrepp som vi kommer att behandla i följande avsnitt. Vi kommer också att introducera Bitcoin:s allmänna sekretessmodell, som den föreställdes av Satoshi Nakamoto, vilket gör det möjligt för oss att förstå de därmed sammanhängande insatserna och riskerna.
 
 
 ![BTC204](assets/sv/001.webp)
@@ -98,7 +98,7 @@ I det tredje avsnittet av vår utbildningskurs går vi in på det väsentliga: �
 **Avsnitt 4: Förståelse av CoinJoin-transaktioner**
 
 
-Hur kan vi prata om integritet på Bitcoin utan att nämna coinjoins? I avsnitt 4 får du reda på allt du behöver veta om den här mixningsmetoden. Du får lära dig vad coinjoins är, deras historia och mål, samt de olika typerna av CoinJoin som finns. Slutligen, för den mer erfarna användaren, tar vi en titt på vad anonsets och entropi är och hur man beräknar dem.
+Hur kan vi prata om integritet på Bitcoin utan att nämna [coinjoin](https://planb.academy/resources/glossary/coinjoin)s? I avsnitt 4 får du reda på allt du behöver veta om den här mixningsmetoden. Du får lära dig vad coinjoins är, deras historia och mål, samt de olika typerna av CoinJoin som finns. Slutligen, för den mer erfarna användaren, tar vi en titt på vad anonsets och entropi är och hur man beräknar dem.
 
 
 ![BTC204](assets/sv/004.webp)
@@ -455,7 +455,7 @@ I lekmannatermer finns det tre huvudsteg i kedjeanalysen:
 ![BTC204](assets/sv/026.webp)
 
 
-Blockchain-analys kan utföras av vem som helst. Allt du behöver är tillgång till Blockchain:s offentliga information via en komplett nod för att observera transaktionsrörelser och ställa hypoteser. Det finns också gratisverktyg som underlättar denna analys, t.ex. [OXT.me] (https://oxt.me/), som vi kommer att utforska i detalj i de två sista kapitlen i detta avsnitt. Den största risken för sekretess kommer dock från företag som specialiserar sig på stränganalys. Dessa företag har tagit Blockchain-analysen till en industriell skala och säljer sina tjänster till finansinstitut och regeringar. Bland dessa företag är Chainalysis säkert det mest kända.
+Blockchain-analys kan utföras av vem som helst. Allt du behöver är tillgång till Blockchain:s offentliga information via en komplett nod för att observera transaktionsrörelser och ställa hypoteser. Det finns också gratisverktyg som underlättar denna analys, t.ex. [OXT.me](https://oxt.me/), som vi kommer att utforska i detalj i de två sista kapitlen i detta avsnitt. Den största risken för sekretess kommer dock från företag som specialiserar sig på stränganalys. Dessa företag har tagit Blockchain-analysen till en industriell skala och säljer sina tjänster till finansinstitut och regeringar. Bland dessa företag är Chainalysis säkert det mest kända.
 
 
 ### Mål för kedjeanalys
@@ -822,7 +822,7 @@ Source : [Mempool.space](https://Mempool.space/tx/db07516288771ce5d0a06b275962ec
 På den senare kan vi se att ingång nr 0 och utgång nr 1 använder P2WPKH-skript (SegWit V0), medan utgång nr 0 använder ett annat P2PKH-skript (Legacy).
 
 
-I början av 2010-talet var denna heuristik baserad på versionshantering av skript relativt oanvändbar på grund av de begränsade typerna av tillgängliga skript. Med tiden och med successiva uppdateringar av Bitcoin har dock en allt större mångfald av skripttyper införts. Denna heuristik blir därför alltmer relevant, eftersom användarna med ett bredare utbud av skripttyper delas in i mindre grupper, vilket ökar chanserna att tillämpa denna heuristik för återanvändning av intern versionering. Av denna anledning, och endast ur ett sekretessperspektiv, är det tillrådligt att välja den vanligaste typen av skript. Till exempel, när jag skriver dessa rader, används Taproot-skript (`bc1p`) mindre ofta än SegWit V0-skript (`bc1q`). Även om de förra erbjuder ekonomiska och sekretessmässiga fördelar i vissa specifika sammanhang, kan det för mer traditionella användningsområden med en enda signatur vara vettigt att hålla sig till en äldre standard av sekretessskäl, tills den nya standarden har antagits i större utsträckning.
+I början av 2010-talet var denna heuristik baserad på versionshantering av skript relativt oanvändbar på grund av de begränsade typerna av tillgängliga skript. Med tiden och med successiva uppdateringar av Bitcoin har dock en allt större mångfald av skripttyper införts. Denna heuristik blir därför alltmer relevant, eftersom användarna med ett bredare utbud av skripttyper delas in i mindre grupper, vilket ökar chanserna att tillämpa denna heuristik för återanvändning av intern versionering. Av denna anledning, och endast ur ett sekretessperspektiv, är det tillrådligt att välja den vanligaste typen av skript. Till exempel, när jag skriver dessa rader, används [Taproot](https://planb.academy/resources/glossary/taproot)-skript (`bc1p`) mindre ofta än SegWit V0-skript (`bc1q`). Även om de förra erbjuder ekonomiska och sekretessmässiga fördelar i vissa specifika sammanhang, kan det för mer traditionella användningsområden med en enda signatur vara vettigt att hålla sig till en äldre standard av sekretessskäl, tills den nya standarden har antagits i större utsträckning.
 
 
 ### Betalningar med runda tal
@@ -973,7 +973,7 @@ Vi kommer till exempel att kunna identifiera att den spårade användaren system
 ![BTC204](assets/sv/057.webp)
 
 
-Som [@LaurentMT] (https://twitter.com/LaurentMT) påpekar i [Space Kek #19] (https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) (en franskspråkig podcast) ökar användbarheten av portföljfingeravtryck i kedjeanalys avsevärt med tiden. Det växande antalet skripttyper och den alltmer progressiva implementeringen av dessa nya funktioner i portföljprogramvaran accentuerar skillnaderna. I vissa fall är det till och med möjligt att identifiera exakt vilken programvara som används av den enhet som spåras. Det är därför viktigt att förstå att studien av portföljfotavtryck är särskilt relevant för nyligen genomförda transaktioner, snarare än för dem som inleddes i början av 2010-talet.
+Som [@LaurentMT](https://twitter.com/LaurentMT) påpekar i [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) (en franskspråkig podcast) ökar användbarheten av portföljfingeravtryck i kedjeanalys avsevärt med tiden. Det växande antalet skripttyper och den alltmer progressiva implementeringen av dessa nya funktioner i portföljprogramvaran accentuerar skillnaderna. I vissa fall är det till och med möjligt att identifiera exakt vilken programvara som används av den enhet som spåras. Det är därför viktigt att förstå att studien av portföljfotavtryck är särskilt relevant för nyligen genomförda transaktioner, snarare än för dem som inleddes i början av 2010-talet.
 
 
 Sammanfattningsvis kan ett fotavtryck vara en specifik metod, som utförs automatiskt av Wallet eller manuellt av användaren, som vi kan hitta i andra transaktioner för att hjälpa oss i vår analys.
@@ -1471,7 +1471,7 @@ ___
 
 
 
-- Serien med fyra artiklar med titeln: [Förstå Bitcoin Integritet med OXT] (https://medium.com/oxt-research/understanding-Bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), producerad av Samourai Wallet 2021;
+- Serien med fyra artiklar med titeln: [Förstå Bitcoin Integritet med OXT](https://medium.com/oxt-research/understanding-Bitcoin-privacy-with-oxt-part-1-4-8177a40a5923), producerad av Samourai Wallet 2021;
 - De olika rapporterna från [OXT Research](https://medium.com/oxt-research), liksom deras kostnadsfria analysverktyg Blockchain (inte längre tillgängligt för tillfället efter gripandet av grundarna av Samourai Wallet);
 - Mer allmänt kommer min kunskap från olika tweets och innehåll från [@LaurentMT](https://twitter.com/LaurentMT) och [@ErgoBTC](https://twitter.com/ErgoBTC);
 - [Space Kek #19](https://podcasters.spotify.com/pod/show/decouvrebitcoin/episodes/SpaceKek-19---Analyse-de-chane--anonsets-et-entropie-e1vfuji) där jag deltog i sällskap med [@louneskmt](https://twitter.com/louneskmt), [@TheoPantamis](https://twitter.com/TheoPantamis), [@Sosthene___](https://twitter.com/Sosthene___) och [@LaurentMT](https://twitter.com/LaurentMT).
@@ -1483,7 +1483,7 @@ ___
 
 
 - [Gilles Cadignan](https://twitter.com/gillesCadignan) ;*
-- [Ludovic Lars] (https://viresinnumeris.fr/)
+- [Ludovic Lars](https://viresinnumeris.fr/)
 
 
 # Behärska bästa praxis för att skydda din integritet
@@ -2005,7 +2005,7 @@ Det finns dock risker för den personliga säkerheten. Den största faran ligger
 ![BTC204](assets/sv/089.webp)
 
 
-För att begränsa denna risk skulle jag råda dig att föredra kontanttransaktioner med betrodda personer, till exempel familjemedlemmar eller nära vänner. Alternativt kan du också överväga att handla på [lokala Bitcoin-möten] (https://btcmap.org/communities/map), efter att ha deltagit några gånger. Detta gör att du kan lära känna de andra deltagarna bättre och inte vara ensam när du fysiskt byter. Det är dock viktigt att inse att P2P kontantutbyten i sig medför risker för din personliga säkerhet som inte finns när du köper via en reglerad plattform och ditt bankkonto.
+För att begränsa denna risk skulle jag råda dig att föredra kontanttransaktioner med betrodda personer, till exempel familjemedlemmar eller nära vänner. Alternativt kan du också överväga att handla på [lokala Bitcoin-möten](https://btcmap.org/communities/map), efter att ha deltagit några gånger. Detta gör att du kan lära känna de andra deltagarna bättre och inte vara ensam när du fysiskt byter. Det är dock viktigt att inse att P2P kontantutbyten i sig medför risker för din personliga säkerhet som inte finns när du köper via en reglerad plattform och ditt bankkonto.
 
 
 Beroende på var du bor kan det dessutom vara riskfyllt att transportera och förvara stora summor pengar, oavsett om det är Bitcoin eller kontanter.
@@ -2064,7 +2064,7 @@ När det gäller lösningar har jag personligen alltid använt [Bisq](https://bi
 
 https://planb.academy/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
-För ett enklare alternativ kan du prova [Peach] (https://peachbitcoin.com/), en mobilapp som kopplar samman köpare och säljare med ett inbyggt konfliktlösningssystem. Processen är mer intuitiv än Bisqs.
+För ett enklare alternativ kan du prova [Peach](https://peachbitcoin.com/), en mobilapp som kopplar samman köpare och säljare med ett inbyggt konfliktlösningssystem. Processen är mer intuitiv än Bisqs.
 
 
 -> Se vår handledning för Peach.
@@ -2072,7 +2072,7 @@ För ett enklare alternativ kan du prova [Peach] (https://peachbitcoin.com/), en
 
 https://planb.academy/tutorials/exchange/peer-to-peer/peach-c6143241-d900-4047-9b73-1caba5e1f874
 
-Ett annat onlinealternativ är [HodlHodl] (https://hodlhodl.com/), en väletablerad plattform som erbjuder god likviditet, även om jag inte personligen har testat den.
+Ett annat onlinealternativ är [HodlHodl](https://hodlhodl.com/), en väletablerad plattform som erbjuder god likviditet, även om jag inte personligen har testat den.
 
 
 -> Se vår HodlHodl-handledning.
@@ -2099,7 +2099,7 @@ https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-
 ### Reglerade plattformar utan KYC
 
 
-Beroende på vilket land du bor i kan du ha tillgång till reglerade plattformar som inte kräver KYC-förfaranden för att köpa eller sälja bitcoins. I Schweiz kan du till exempel använda plattformar som [Relai] (https://relai.app/) och [MtPelerin] (https://www.mtpelerin.com/).
+Beroende på vilket land du bor i kan du ha tillgång till reglerade plattformar som inte kräver KYC-förfaranden för att köpa eller sälja bitcoins. I Schweiz kan du till exempel använda plattformar som [Relai](https://relai.app/) och [MtPelerin](https://www.mtpelerin.com/).
 
 
 -> Se vår handledning om Relai.
@@ -2137,7 +2137,7 @@ Slutligen ville jag också presentera en lösning som fungerar bra för dem som 
 Det bästa sättet att spendera BTC är naturligtvis att använda Bitcoin eller Lightning Network direkt för att köpa en vara eller tjänst. I många länder är dock antalet handlare som accepterar Bitcoin fortfarande begränsat. Ett praktiskt alternativ är att använda presentkort.
 
 
-Flera plattformar som inte kräver KYC-förfaranden erbjuder möjligheten att växla bitcoins mot presentkort som kan användas hos större återförsäljare. Dessa inkluderar [CoinsBee] (https://www.coinsbee.com/), [The Bitcoin Company] (https://thebitcoincompany.com/) och [Bitrefill] (https://www.bitrefill.com/). Dessa plattformar gör det mycket enklare att använda dina bitcoins dagligen, vilket ger dig tillgång till ett brett utbud av produkter och tjänster utan att behöva konvertera dem till fiatvaluta.
+Flera plattformar som inte kräver KYC-förfaranden erbjuder möjligheten att växla bitcoins mot presentkort som kan användas hos större återförsäljare. Dessa inkluderar [CoinsBee](https://www.coinsbee.com/), [The Bitcoin Company](https://thebitcoincompany.com/) och [Bitrefill](https://www.bitrefill.com/). Dessa plattformar gör det mycket enklare att använda dina bitcoins dagligen, vilket ger dig tillgång till ett brett utbud av produkter och tjänster utan att behöva konvertera dem till fiatvaluta.
 
 
 https://planb.academy/tutorials/exchange/centralized/bitrefill-8c588412-1bfc-465b-9bca-e647a647fbc1
@@ -2641,7 +2641,7 @@ Det är just dessa två offentliga och privata aspekter, som möjliggörs genom 
 ### Vem uppfann CoinJoin-konceptet?
 
 
-Det är Hard att säga med säkerhet vem som först introducerade CoinJoin-idén till Bitcoin, och vem som kom på idén att använda David Chaums blinda signaturer i detta sammanhang. Man tror ofta att det var Gregory Maxwell som först nämnde det i [ett meddelande på BitcoinTalk 2013] (https://bitcointalk.org/index.php?topic=279249.0) :
+Det är Hard att säga med säkerhet vem som först introducerade CoinJoin-idén till Bitcoin, och vem som kom på idén att använda David Chaums blinda signaturer i detta sammanhang. Man tror ofta att det var Gregory Maxwell som först nämnde det i [ett meddelande på BitcoinTalk 2013](https://bitcointalk.org/index.php?topic=279249.0) :
 
 
 > *"Med hjälp av Chaums blinda signaturer: Användare loggar in och tillhandahåller ingångar (och Exchange adresser) samt en kryptografiskt blinded version av den Address som de vill skicka sina privata delar till; servern signerar tokens och skickar tillbaka dem. Användarna återansluter anonymt, avmaskerar sina utdataadresser och skickar tillbaka dem till servern. Servern kan se att alla utdata har signerats av den och att alla utdata följaktligen kommer från giltiga deltagare. Senare återansluter människor och loggar in"*
@@ -2663,7 +2663,7 @@ I samma tråd kan vi hitta [ett meddelande från hashcoin som svar till Duncan T
 ### Zerolänk
 
 
-Zerolink är ett omfattande blandningsprotokoll som innehåller Chaumian coinjoins och olika strategier för att skydda användarnas anonymitet mot flera former av kedjeanalys, i synnerhet genom att minimera fel i samband med portföljförvaltning. Detta protokoll [introducerades av nopara73 och TDevD 2017] (https://github.com/nopara73/ZeroLink/blob/master/README.md).
+Zerolink är ett omfattande blandningsprotokoll som innehåller Chaumian coinjoins och olika strategier för att skydda användarnas anonymitet mot flera former av kedjeanalys, i synnerhet genom att minimera fel i samband med portföljförvaltning. Detta protokoll [introducerades av nopara73 och TDevD 2017](https://github.com/nopara73/ZeroLink/blob/master/README.md).
 
 
 ![BTC204](assets/sv/132.webp)
@@ -2739,7 +2739,7 @@ En av JoinMarkets största nackdelar är dess komplexa användning, som kräver 
 ![BTC204](assets/sv/137.webp)
 
 
-Källa : [JAM] (https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
+Källa : [JAM](https://github.com/joinmarket-webui/jam/blob/devel/docs/assets/screenshot-dark.webp)
 
 
 Den tekniska barriären är dock fortfarande ett stort hinder. I CoinJoin-ekosystemet, där sekretessen förstärks av antalet deltagare, påverkar varje begränsning som minskar tillgängligheten direkt den tillgängliga likviditeten, vilket är en avgörande faktor för mixens effektivitet. Bitcoin, som redan är en nisch inom finansiella transaktioner, ser sin användning av coinjoins som en subnisch, och JoinMarket representerar en ännu mer specialiserad del av den, vilket därför begränsar dess potential att öka användarnas anonsets.
@@ -3320,7 +3320,7 @@ Utifrån antalet tolkningar av en Bitcoin-transaktion kan vi beräkna dess entro
 När det gäller kryptografi och information är entropi ett kvantitativt mått på den osäkerhet eller oförutsägbarhet som är förknippad med en datakälla eller slumpmässig process. Med andra ord är entropi ett sätt att mäta hur svårt det är att förutsäga eller gissa sig till en viss information.
 
 
-I det specifika sammanhanget med Blockchain-analys är entropi också namnet på en indikator, härledd från Shannons entropi och [uppfunnen av LaurentMT] (https://gist.github.com/LaurentMT/e758767ca4038ac40aaf), som kan beräknas på en Bitcoin-transaktion.
+I det specifika sammanhanget med Blockchain-analys är entropi också namnet på en indikator, härledd från Shannons entropi och [uppfunnen av LaurentMT](https://gist.github.com/LaurentMT/e758767ca4038ac40aaf), som kan beräknas på en Bitcoin-transaktion.
 
 
 När en transaktion uppvisar ett stort antal möjliga tolkningar är det ofta mer relevant att hänvisa till dess entropi. Denna indikator mäter analytikernas brist på kunskap om den exakta konfigurationen av transaktionen. Med andra ord, ju högre entropi, desto svårare blir det för analytikerna att identifiera flödet av bitcoins mellan in- och utgångar.
@@ -4154,7 +4154,7 @@ $$(s_A' + t) \cdot G = N_A + T + H(N_A + T \parallell P_A \parallell m_A) \cdot 
 Låt oss sammanfatta hur en adaptorsignatur fungerar i en myntväxling. Inledningsvis skickar Alice en osignerad transaktion till Bob tillsammans med en adapter, vilket gör det möjligt för Bob att verifiera att den hemlighet som avslöjas senare kommer att ge honom tillgång till bitcoins. I gengäld skickar Bob sin egen osignerade transaktion och adapter till Alice. Alice kan sedan slutföra Bob:s transaktion och hämta bitcoins genom att sända en giltig transaktion tack vare hemligheten. När denna transaktion publiceras på Blockchain har Bob möjlighet att extrahera hemligheten och därmed låsa upp Alice:s transaktion. Om Alice initierar en överföring av Bob:s Bitcoin kan Bob följaktligen i sin tur få tillgång till Alice:s Bitcoin utan behov av ömsesidigt förtroende.
 
 
-Observera att myntbyten först föreslogs av [Gregory Maxwell i oktober 2013 på BitcoinTalk] (https://bitcointalk.org/index.php?topic=321228.0).
+Observera att myntbyten först föreslogs av [Gregory Maxwell i oktober 2013 på BitcoinTalk](https://bitcointalk.org/index.php?topic=321228.0).
 
 
 ### Atombyten
@@ -6069,7 +6069,7 @@ Förslaget om tysta betalningar är relativt nytt och har för närvarande endas
 
 
 - [CakeWallet](https://cakewallet.com/)
-- [Silentium] (https://app.silentium.dev/)
+- [Silentium](https://app.silentium.dev/)
 - [DonationWallet](https://github.com/Sosthene00/donationwallet)
 
 
@@ -6079,7 +6079,7 @@ Vi kommer snart att ge dig en detaljerad handledning om hur du ställer in din e
 Eftersom den här funktionen är ny råder vi dig att vara försiktig och undvika att använda Tysta betalningar för stora belopp på Mainnet.
 
 
-*För att skapa detta kapitel om tysta betalningar använde jag [webbplatsen med förklaringar om tysta betalningar] (https://silentpayments.xyz/) och [förklaringsdokumentet om BIP352] (https://github.com/Bitcoin/bips/blob/master/bip-0352.mediawiki).*
+*För att skapa detta kapitel om tysta betalningar använde jag [webbplatsen med förklaringar om tysta betalningar](https://silentpayments.xyz/) och [förklaringsdokumentet om BIP352](https://github.com/Bitcoin/bips/blob/master/bip-0352.mediawiki).*
 
 
 # Sista avsnittet

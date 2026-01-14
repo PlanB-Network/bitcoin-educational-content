@@ -1,0 +1,8 @@
+question: Ni nini kinachotofautisha mali zinazodhibitiwa na mali zisizodhibitiwa katika mfumo wa mali asilia wa Liquid?
+answer: Mali zinazodhibitiwa zinahitaji sahihi ya pili kutoka kwa seva ya uidhinishaji kabla ya kuhamishwa, na hivyo kuwezesha kufuata sheria za KYC/AML
+wrong_answers:
+  - Mali zinazodhibitiwa hutumia mikataba mahiri huku mali zisizodhibitiwa zikitumia wito rahisi wa RPC kwa ajili ya utoaji
+  - Mali zinazodhibitiwa zinaungwa mkono na akiba ya Bitcoin huku mali zisizodhibitiwa zikiwa kwenye mnyororo wa kando pekee.
+  - Mali zinazodhibitiwa zinahitaji idhini ya utendaji kazi kwa ajili ya uundaji ilhali mali zisizodhibitiwa zinaweza kutolewa bila ruhusa
+explanation: |
+  Katika usanifu wa Liquid, mali zinazodhibitiwa na zisizodhibitiwa zinaweza kutolewa bila ruhusa kwa kutumia simu rahisi za RPC bila mikataba mahiri. Tofauti kuu iko katika harakati zao: mali zinazodhibitiwa hutumia Jukwaa la Usimamizi wa Mali la Blockstream (AMP) kutekeleza utiifu kwa kuhitaji sahihi ya ziada ya idhini kabla ya uhamisho, huku mali zisizodhibitiwa zikiweza kusafiri kwa uhuru bila vikwazo hivyo.

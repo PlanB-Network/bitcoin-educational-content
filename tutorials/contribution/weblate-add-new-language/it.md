@@ -10,7 +10,7 @@ Attualmente il nostro sito web offre una vasta gamma di lingue, e stiamo lavoran
 
 Se la tua lingua non è ancora disponibile sul nostro sito e vuoi aggiungerla, questo tutorial fa per te!
 
-Innanzitutto, assicurati di contattare il team di Plan ₿ Academy tramite il nostro [gruppo Telegram] (https://t.me/PlanBNetwork_ContentBuilder). Se non hai Telegram, puoi inviare un'e-mail a mari@planb.network. Assicurati di scrivere una piccola presentazione su chi sei e sulle lingue che padroneggi.
+Innanzitutto, assicurati di contattare il team di Plan ₿ Academy tramite il nostro [gruppo Telegram](https://t.me/PlanBNetwork_ContentBuilder). Se non hai Telegram, puoi inviare un'e-mail a mari@planb.network. Assicurati di scrivere una piccola presentazione su chi sei e sulle lingue che padroneggi.
 
 ## Verificare la presenza di una lingua su Weblate
 

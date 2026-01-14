@@ -1,0 +1,8 @@
+question: Prema liberalnoj analizi, zašto potiskivanje ekonomske slobode u kolektivističkom sistemu neizbežno vodi ka gubitku slobode prebivališta i boravišta?
+answer: Jer bez slobode izbora posla, ljudi moraju živeti blizu svog dodeljenog radnog mesta i ne mogu birati svoje prebivalište
+wrong_answers:
+  - Zato što država treba pažljivo pratiti građane i mora ih koncentrisati u određena stambena područja
+  - Zato što kolektivno vlasništvo nad imovinom znači da pojedinci ne mogu posedovati domove i moraju prihvatiti državno dodeljeno stanovanje
+  - Zato što ekonomsko planiranje zahteva da raspodela stanovništva odgovara dostupnosti resursa u različitim regionima
+explanation: |
+  Liberalna analiza pokazuje direktan uzročni lanac: u kolektivističkom sistemu, država dodeljuje pojedince određenim poslovima i granama proizvodnje bez njihovog izbora. Pošto ljudi obično žive blizu svog radnog mesta iz praktičnih razloga, i ne mogu birati svoj posao, oni samim tim ne mogu birati gde će živeti. Ovo pokazuje kako ekonomska nesloboda stvara domino efekat, sistematski eliminišući druge lične slobode koje bi mogle izgledati nepovezano sa ekonomijom.

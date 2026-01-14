@@ -1,0 +1,8 @@
+question: Ni ingingo ngenderwako iyihe y’ishimikiro ituma LDK irema ama HSM azi Lightning ashobora gusuzuma mu buryo bw’ubwenge nimba igikorwa giserukira inzira y’ukwishura yemewe n’ukugerageza gukora nabi?
+answer: Ubwubatsi bwa LDK burashoboza gukuraho ibice vy'ugusinya no kugenzura amafaranga yihariye mu gihe umuntu aguma afise ubumenyi bw'imirongo ngenderwako y'umuravyo
+wrong_answers:
+  - "Ubuhinga bwa LDK burongowe n'ibintu buca bumenyesha amafaranga ateye amakenga biciye mu kwiga kw'imashini kwinjijwe mu nzira nyamukuru yo gusinya"
+  - "LDK's blockchain abstraction layer itanga igihe nyaco co kumenya ubuhendanyi mu gucapura amafaranga yose akoreshwa n'amakuru y'urusaku rw'urubuga"
+  - "Uburyo bwo gucunga urunganwe rwa LDK bushira mu ngiro imikono iteye imbere itandukanya hagati y'uburyo bwo gucuruza bubereye n'ububi"
+explanation: |
+  LDK's modular design iremesha abahinguzi gukuraho gusa ibice vyo gusinya no kugenzura mu gihe bazigama ubwenge bw'amasezerano ya Lightning bukenewe kugira ngo umuntu atahure ivy'ugucuruza. Ivyo bituma aba HSM bafata ingingo zishingiye ku makuru ku bijanye no gutanga amahera, ibikorwa vy’imirongo, n’iterabwoba ry’umutekano aho gusinya amasezerano ata co bazi. Inyishu zitari zo zivuga nabi ko ubu bushobozi buterwa n’ugutahura ubuhendanyi bwikora, ugukurikirana blockchain, canke imikono y’ibanga, mu gihe mu vy’ukuri ari ubushobozi bw’ubwubatsi bw’ibice bwo kubungabunga ubumenyi bw’amasezerano mu bice vyihariye bishobora gutuma habaho isuzuma ry’ubucuruzi ry’ubwenge.

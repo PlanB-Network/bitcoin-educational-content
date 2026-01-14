@@ -1,0 +1,8 @@
+question: Vad hindrar användare från att skapa pengar ur tomma intet i Elements:s Confidential Transactions-system?
+answer: Range Proofs som matematiskt bevisar att dolda värden är positiva heltal inom giltiga intervall
+wrong_answers:
+  - Pedersen Åtaganden som kryptografiskt binder transaktionsbelopp till publika nycklar
+  - Validering av tillgångsregister som kontrollerar alla transaktionsbelopp mot registrerade tillgångsgränser
+  - Federerade konsensusnoder som dekrypterar och verifierar alla konfidentiella transaktionsbelopp
+explanation: |
+  Range Proofs är den specifika kryptografiska mekanism som hindrar användare från att utnyttja det konfidentiella transaktionssystemet genom att använda negativa tal eller ogiltiga belopp för att skapa pengar ur tomma intet. Medan Pedersen Commitments döljer de faktiska beloppen, säkerställer Range Proofs matematisk integritet genom att bevisa att de dolda värdena faller inom legitima intervall. Tillgångsregistret mappar endast tillgångs-ID:n till mänskligt läsbara namn och validerar inte belopp, och federerade noder dekrypterar inte konfidentiella transaktioner - de verifierar dem utan att se de faktiska värdena.

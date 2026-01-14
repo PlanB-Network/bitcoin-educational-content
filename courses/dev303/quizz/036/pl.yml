@@ -1,0 +1,8 @@
+question: Co robi Rust podczas procesu odwijania, gdy wystąpi panika?
+answer: Przechodzi z powrotem przez stos wywołań, aby zapewnić szczegółowy ślad stosu
+wrong_answers:
+  - Natychmiastowe zakończenie programu bez żadnego czyszczenia lub informacji
+  - Konwertuje panikę na możliwy do odzyskania typ Result do obsługi błędów
+  - Restartuje wykonywanie bieżącej funkcji od początku
+explanation: |
+  Gdy w Rust wystąpi panika, proces rozwijania przechodzi z powrotem przez stos wywołań, aby zapewnić szczegółowy ślad stosu pokazujący dokładnie, gdzie wystąpiła panika. Pomaga to programistom zidentyfikować źródło problemu podczas debugowania. Pozostałe opcje są niepoprawne: Rust nie kończy się natychmiast bez czyszczenia (dzieje się tak tylko wtedy, gdy odwijanie jest wyłączone), paniki nie mogą być konwertowane na typy Result, ponieważ reprezentują błędy nie do odzyskania, a Rust nie wznawia wykonywania funkcji po wystąpieniu paniki.

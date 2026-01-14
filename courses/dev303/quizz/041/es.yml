@@ -1,0 +1,8 @@
+question: ¿Cuáles son las tres formas en que los cierres pueden capturar variables de su entorno en Rust?
+answer: Por referencia inmutable, por referencia mutable o por apropiación
+wrong_answers:
+  - Por copia de valores, por préstamo de referencias o por desreferenciación de punteros
+  - Por asignación de pila, por asignación de montón o por almacenamiento estático
+  - Por acceso compartido, por acceso exclusivo o por acceso concurrente
+explanation: |
+  Los cierres en Rust capturan variables de entorno exactamente de tres maneras: por referencia inmutable (cuando sólo necesitan leer), por referencia mutable (cuando necesitan modificar), o tomando propiedad (cuando necesitan mover el valor, a menudo por seguridad de hilos). El compilador elige automáticamente el método más restrictivo que satisfaga las necesidades del cierre, siguiendo el principio del menor privilegio.

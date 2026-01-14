@@ -3,7 +3,7 @@ name: My Node
 description: Bitcoin MyNoden asennus
 ---
 
-![kuva](assets/0.webp)
+![kuva](assets/cover.webp)
 
 https://mynodebtc.com/
 

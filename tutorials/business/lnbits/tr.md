@@ -4,9 +4,9 @@ name: LNbits
 description: Tüccar Muhasebe Platformu
 ---
 
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
-# Muhasebe sistemi
+## Muhasebe sistemi
 
 
 LNbits, gelen ve giden fonlarınızı kontrol etmek ve yönlendirmek, web mağazanızı ve hatta kendi oluşturduğunuz Hardware Wallet veya ATM gibi cihazları bağlamak için birçok araçla doludur. Kullanıcı türleri şunları içerir:
@@ -19,7 +19,7 @@ LNbits, gelen ve giden fonlarınızı kontrol etmek ve yönlendirmek, web mağaz
 - Bunların hepsinin farklı ihtiyaçları var. LNbits'i modüler bir şekilde inşa ediyoruz, böylece her kullanıcı özelliklerimizi size en uygun şekilde kullanabilir.
 
 
-# Wallet yöneticisi
+## Wallet yöneticisi
 
 
 LNbits ücretsiz ve açık kaynaklı bir muhasebe sistemidir - bir düğüm yöneticisi değildir. Kanal yönetimi, LNbits'e LND veya c-lightning gibi bir fon kaynağı olarak bağlı olan Lightning düğümünün etki alanıdır. LNbits sistemindeki Süper Kullanıcı veya Yönetici Kullanıcılar, muhasebe özelliklerinin ve dahili uzantıların genel erişilebilirliğini ve yapılandırmasını yönetmekten sorumludur.
@@ -40,13 +40,13 @@ Onlara node'unuzdaki diğer cüzdanlara ve tüm node likiditenize erişimleri ol
 NOT: "müşterilerinizin" düğümünüzdeki LNbits banka hesaplarına yatırdıkları tüm fonlar doğrudan düğümünüzün LN kanallarına gidecektir. Bu, aslında bu fonların gerçek sahibinin SİZ olduğunuz anlamına gelir. Onların fonları için büyük bir sorumluluğunuz olacak. Kötü olmayın ve fonları alıp kaçmayın, kötü olmayın ve yüksek ücretler talep etmeyin. Fiat bankacılarını becermek istiyoruz, birbirimizi (Bitcoin kullanıcıları) becermek değil.
 
 
-# Demo platformu
+## Demo platformu
 
 
 Demo [https://legend.lnbits.com](https://legend.lnbits.com) adresinde bulunabilir. Tamamen işlevseldir ve genel olarak LNbits ve LNURL'ün Lightning Network ve özellikleri hakkında bilgi edinmek için kullanılabilir. Sizi bundan alıkoyamasak da, üretim kurulumunuz için kullanmamanızı rica ediyoruz. Sadece yeni özellikleri test etmek için sunucular üzerinde sık sık çalışmakla kalmıyor, aynı zamanda sizi kendi düğümünüzü ve LNbits'i egemen bir şekilde çalıştırmaya teşvik etmek istiyoruz. Şu an için bir node çalıştırmanın çok fazla talep edildiğini düşünüyorsanız, LNbits'i buluttaki Opennode, Luna veya Votage gibi bir saklama fonu hizmetine veya Telegram'daki Lightning Tipbot'a bağlayabilirsiniz.
 
 
-# LNbits broşürü
+## LNbits broşürü
 
 
 Bir tüccara veya bir inşaat arkadaşınıza bazı temel bilgileri vermek ister misiniz? Herkesin kullanabileceği ilk el ilanımızı duyurmaktan çok mutluyuz. Boyut, 6 sayfa (2 kat) ve 3508 genişlik ve 2480 piksel yükseklik ile küresel olarak tipik bir el ilanı formatıdır.
@@ -58,10 +58,10 @@ Tüccarlar için LNbits: [EN](/assets/lnbits-merchants-en.pdf) | [DE](/assets/ln
 İnşaatçılar için LNbits: [EN](/assets/lnbits-builders-en.pdf) | [DE](/assets/lnbits-builders-de.pdf) | [ES](/assets/lnbits-builders-es.pdf) | [IT](/assets/lnbits-builders-it.pdf) | [PL](/assets/lnbits-builders-pl.pdf)
 
 
-# Bazı Temel Bilgiler
+## Bazı Temel Bilgiler
 
 
-LNbits, LNURL protokolüne dayalı olarak çalışır, bu da isteklerin iki şekilde geçerli olduğu anlamına gelir: https:// clearnet bağlantısı (kendinden imzalı sertifikalara izin verilmez) veya http:// v2 / v3 onion bağlantısı olarak. LNURLp/w QR kodları veya NFC Kartları gibi vahşi ortamda kullanılabilecek LNbits hizmetleri sunmak için LNbits'i clearnet'e (https) açmanız gerekecektir.
+LNbits, LNURL protokolüne dayalı olarak çalışır, bu da isteklerin iki şekilde geçerli olduğu anlamına gelir: https://clearnet bağlantısı (kendinden imzalı sertifikalara izin verilmez) veya http://v2 / v3 onion bağlantısı olarak. LNURLp/w QR kodları veya NFC Kartları gibi vahşi ortamda kullanılabilecek LNbits hizmetleri sunmak için LNbits'i clearnet'e (https) açmanız gerekecektir.
 
 
 LNbits'i kurmadan önce, LNbits'in ne olduğu ve sizin için hangi olasılıkları ortaya çıkardığı hakkında aşağıdaki genel kılavuzları okuyup anladığınızdan emin olun.
@@ -69,7 +69,7 @@ LNbits'i kurmadan önce, LNbits'in ne olduğu ve sizin için hangi olasılıklar
 
 
 - [LND Kılavuzu](https://docs.lightning.engineering/) | LND'in Kurulması
-- [LND Yapılandırma Örneği] (https://github.com/lightningnetwork/LND/blob/master/sample-LND.conf) | LND Ayarları
+- [LND Yapılandırma Örneği](https://github.com/lightningnetwork/LND/blob/master/sample-LND.conf) | LND Ayarları
 - [CLN Kılavuzu](https://docs.corelightning.org/docs/installation) | CLN'nin Kurulması
 - [LUDs](https://github.com/lnurl/luds) LNURL Spec | [NIPs](https://github.com/nostr-protocol/nips) Nostr Spec
 - [Watchtower çalıştır](https://docs.lightning.engineering/lightning-network-tools/LND/Watchtower) | Çok önemli!
@@ -79,7 +79,7 @@ Belirli kullanım senaryolarında LNbits kullanan daha ayrıntılı kılavuzlar 
 
 
 
-- [LNbits ile Başlarken] (https://darthcoin.substack.com/p/getting-started-lnbits) | Alt yığın kılavuzu
+- [LNbits ile Başlarken](https://darthcoin.substack.com/p/getting-started-lnbits) | Alt yığın kılavuzu
 - [LNbits ile güvenliğiniz için ToDos](https://youtu.be/i5FQf96e6zg) | Youtube Video
 - [Lightning Network'daki Özel Bankalar](https://darthcoin.substack.com/p/Bitcoin-private-banks-over-lightning) | Alt Yığın Kılavuzu
 - [Arkadaşlarınız ve aileniz için saklama cüzdanları çalıştırın](https://darthcoin.substack.com/p/the-bank-of-lnbits) | Alt yığın kılavuzu
@@ -90,10 +90,10 @@ Belirli kullanım senaryolarında LNbits kullanan daha ayrıntılı kılavuzlar 
 
 
 
-# LNbits'i yükleyin
+## LNbits'i yükleyin
 
 
-## Temel kurulum kılavuzu
+### Temel kurulum kılavuzu
 
 
 LNbits herhangi bir Linux OS makinesine kurulabilir. Güçlü bir makine veya sunucu gerektirmez, sadece yeterli RAM belleği ve veritabanı için biraz disk alanı gerektirir. Bir BTC/LN düğümünden (yerel PC veya uzak VPS) ayrı olarak veya düğümle aynı makinede birlikte çalıştırılabilir veya bir paket düğüm yazılım makinesine zaten yüklenmiş olabilir.
@@ -110,7 +110,7 @@ Bu konuda yeni olan herkes için, LNbits'inizi belirli ortamlarda çalıştırma
 - [LNbits on cloudflare](https://www.nodeacademy.org/lnbits) Leo tarafından
 
 
-Ayrıca [nginx kullanarak bir fon kaynağı olarak PostgreSQ, LightningTipBot ile bir VPS üzerinde dockerised Kurulumu] (https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/) hakkında bir video bulabilirsiniz.
+Ayrıca [nginx kullanarak bir fon kaynağı olarak PostgreSQ, LightningTipBot ile bir VPS üzerinde dockerised Kurulumu](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/) hakkında bir video bulabilirsiniz.
 
 
 [Daha fazla kurulum senaryosu burada](https://darthcoin.substack.com/p/build-your-own-lnbits-app-server).
@@ -119,16 +119,16 @@ Ayrıca [nginx kullanarak bir fon kaynağı olarak PostgreSQ, LightningTipBot il
 Paket yazılım düğümleri için lütfen LNbits hakkındaki özel belgelerine bakın: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 
-## LNbits SaaS
+### LNbits SaaS
 
 
-Teknik konularla ilgilenmiyorsanız ve ne fon kaynağınızı ne de lnbits'inizi kendiniz barındırmak istemiyorsanız, kullanabileceğiniz bir [LNbits SaaS sürümü] (https://saas.lnbits.com) (Hizmet olarak yazılım) vardır. Temelde buluttaki LNbits gibidir, ancak fon kaynağını (örneğin Node'unuz, bir LNbits Wallet, LNtipbot, fakewallet vb.) ve ortam değişkenlerini kendiniz tanımlayabilirsiniz - bu çoğunlukla diğer bulut çözümlerinde geçerli değildir.
+Teknik konularla ilgilenmiyorsanız ve ne fon kaynağınızı ne de lnbits'inizi kendiniz barındırmak istemiyorsanız, kullanabileceğiniz bir [LNbits SaaS sürümü](https://saas.lnbits.com) (Hizmet olarak yazılım) vardır. Temelde buluttaki LNbits gibidir, ancak fon kaynağını (örneğin Node'unuz, bir LNbits Wallet, LNtipbot, fakewallet vb.) ve ortam değişkenlerini kendiniz tanımlayabilirsiniz - bu çoğunlukla diğer bulut çözümlerinde geçerli değildir.
 
 
-[LNbits SaaS'ın belirli kullanım durumları için nasıl kullanılacağına dair ayrıntılı bir kılavuz] (https://darthcoin.substack.com/p/lnbits-saas-a-solution-for-schools).
+[LNbits SaaS'ın belirli kullanım durumları için nasıl kullanılacağına dair ayrıntılı bir kılavuz](https://darthcoin.substack.com/p/lnbits-saas-a-solution-for-schools).
 
 
-## Finansman kaynakları
+### Finansman kaynakları
 
 
 LNbits bir düğüm yönetim yazılımı değil, bir LND veya CLN finansman kaynağının üzerinde LN odaklı bir muhasebe sistemidir. İlk kurulumdan sonra LNbits'inizi http://localhost:5000/ adresinden ziyaret edebilirsiniz.
@@ -157,7 +157,7 @@ Eğer .env versiyonunu kullanmak isterseniz parametreleri burada bulabilirsiniz:
 
 
 
-### CoreLightning
+#### CoreLightning
 
 
 - CLN
@@ -168,7 +168,7 @@ Eğer .env versiyonunu kullanmak isterseniz parametreleri burada bulabilirsiniz:
   - `SPARK_URL`: http://10.147.17.230:9737/RPC
    - `SPARK_TOKEN`: secret_access_key
 
-### Lightning Network Daemon
+#### Lightning Network Daemon
 
 
 - LND (REST)
@@ -192,7 +192,7 @@ Bunun yerine AES şifreli bir macaroon (daha fazla bilgi) da kullanabilirsiniz
 Makaronunuzu şifrelemek için `./venv/bin/python lnbits/wallets/macaroon/macaroon.py` dosyasını çalıştırın.
 
 
-### LNbits (başka bir LNbits örneği)
+#### LNbits (başka bir LNbits örneği)
 
 
 
@@ -205,7 +205,7 @@ Makaronunuzu şifrelemek için `./venv/bin/python lnbits/wallets/macaroon/macaro
   - `LNBITS_ENDPOINT`: https://legend.lnbits.com
   - `LNBITS_KEY`: legend-lnbits-AdminKey
 
-### Lightning TipBot
+#### Lightning TipBot
 
 
 Lightning Tipbot] (https://t.me/LightningTipBot) cihazınızı Telegram'dan bağlamak için aşağıdaki parametreyi ayarlamanız gerekecektir:
@@ -219,7 +219,7 @@ Lightning Tipbot] (https://t.me/LightningTipBot) cihazınızı Telegram'dan bağ
 Ayrıca [LightningTipBot ile LNbits'in vps üzerinden] nasıl kurulacağına dair bu eğiticiye bakın (https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)
 
 
-### IBEX HUB
+#### IBEX HUB
 
 
 Buradan] (https://ibexpay.ibexmercado.com/onboard) kaydolun, ardından anahtarlarınızı/tokenlarınızı buradan alın, uç nokta https://ibexpay-api.ibexmercado.com'dur.
@@ -227,9 +227,9 @@ Buradan] (https://ibexpay.ibexmercado.com/onboard) kaydolun, ardından anahtarla
 Daha fazla bilgi için bakınız [IBEX API-Documentation](https://ibexpay-api.readme.io/reference/getting-started-with-your-api).
 
 
-### LNPay
+#### LNPay
 
-Invoice dinleyicisinin çalışması için LNbits'inizde herkese açık bir URL'ye sahip olmanız ve "Wallet Receive" olayı ile `<your LNbits host>/Wallet/webhook` adresini işaret eden bir [LNPay webhook] (https://dashboard.lnpay.co/webhook/) kurmanız gerekir. Ayar `https://mylnbits/Wallet/webhook`, herhangi bir ödeme hakkında bilgilendirilen uç nokta url'si olacaktır.
+Invoice dinleyicisinin çalışması için LNbits'inizde herkese açık bir URL'ye sahip olmanız ve "Wallet Receive" olayı ile `<your LNbits host>/Wallet/webhook` adresini işaret eden bir [LNPay webhook](https://dashboard.lnpay.co/webhook/) kurmanız gerekir. Ayar `https://mylnbits/Wallet/webhook`, herhangi bir ödeme hakkında bilgilendirilen uç nokta url'si olacaktır.
 
 
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNPayWallet**
@@ -238,7 +238,7 @@ Invoice dinleyicisinin çalışması için LNbits'inizde herkese açık bir URL'
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
 
-### OpenNode
+#### OpenNode
 
 Invoice'in çalışması için LNbits'inizde herkes tarafından erişilebilir bir URL'ye sahip olmanız gerekir. Web kancası ayarı isteğe bağlıdır.
 
@@ -248,10 +248,10 @@ Invoice'in çalışması için LNbits'inizde herkes tarafından erişilebilir bi
   - `OPENNODE_KEY`: opennodeAdminApiKey
 
 
-### Alby
+#### Alby
 
 
-Alby, LN Wallet işlevlerine ve LNbits için fon kaynağı olarak kullanılabilecek LNDHUB hesabına sahip bir tarayıcı uzantısıdır. [Daha fazla ayrıntı burada] (https://getalby.com/).
+Alby, LN Wallet işlevlerine ve LNbits için fon kaynağı olarak kullanılabilecek LNDHUB hesabına sahip bir tarayıcı uzantısıdır. [Daha fazla ayrıntı burada](https://getalby.com/).
 
 
 Invoice'un çalışması için LNbits'inizde herkes tarafından erişilebilir bir URL'ye sahip olmanız gerekir. Manuel web kancası ayarına gerek yoktur. generate ve Alby token'a buradan erişebilirsiniz: https://getalby.com/developer/access_tokens/new
@@ -263,13 +263,13 @@ Invoice'un çalışması için LNbits'inizde herkes tarafından erişilebilir bi
 - `ALBY_ACCESS_TOKEN`: AlbyAccessToken
 
 
-## Ek / Sorun Giderme Kılavuzları
+### Ek / Sorun Giderme Kılavuzları
 
 
 İhtiyaç duymanız halinde bazı ek talimatları burada bulabilirsiniz. Açıklamayı genişletmek için oka tıklayın.
 
 
-### The Killswitch 🚨
+#### The Killswitch 🚨
 
 
 Son zamanlarda sadece tüm dünyada değil LNbits'te de o kadar çok tehlikeli hata ortaya çıktı ki bu konuda bir şeyler yapmaya karar verdik. Artık bir güvenlik açığı veya fon kaybına yol açabilecek bir hata tekrar ortaya çıktığında uyarılar almayı ve/veya doğrudan harekete geçmeyi seçebilirsiniz.
@@ -285,13 +285,13 @@ Nasıl çalışır? Killswitch etkinleştirildiğinde, yalnızca LNbits çekirde
 
 
 
-### Yönetici ve süper kullanıcı arasındaki fark
+#### Yönetici ve süper kullanıcı arasındaki fark
 
 
 LNbits Yönetici Arayüzü, LNbits ayarlarını LNbits ön ucu üzerinden değiştirmenizi sağlar. Varsayılan olarak devre dışıdır ve `.env` dosyasında `LNBITS_ADMIN_UI=true` enviroment değişkenini ilk kez ayarladığınızda, ayarlar başlatılır ve kullanılır. Bundan sonra .env dosyasındakiler yerine veritabanındaki uygun ayarlar kullanılır.
 
 
-### Süper Kullanıcı
+#### Süper Kullanıcı
 
 
 Yönetici kullanıcı arayüzü ile sunucuya erişimi olan süper kullanıcıyı tanıttık, böylece sunucuyu çökertebilecek veya ön uç ve api aracılığıyla yanıt vermeyecek hale getirebilecek ayarları değiştirebiliriz, örneğin fon kaynağını değiştirmek gibi. Süper kullanıcı yalnızca veritabanının ayarlar tablosunda saklanır. Ayarlar "varsayılanlara sıfırlandıktan" ve yeniden başlatıldıktan sonra yeni bir süper kullanıcı oluşturulur. Ayrıca bir süper kullanıcının varlığını kontrol etmek için API rotalarına bir dekoratör ekledik. Kimliği api ve ön uç üzerinden asla gönderilmez ve yalnızca süper kullanıcı olup olmadığınızı bir bool (evet / hayır) alır.
@@ -306,13 +306,13 @@ Süper kullanıcıyı, oluşturulduğunda webhook aracılığıyla başka bir se
 Ön uçta, Sunucuyu Yönet bölümünü açıp Tema -> Özel Logo'yu seçerek "Wallet oluştur" sayfasında gösterilen mağaza görüntüsünü değiştirme olanağını da bulacaksınız.
 
 
-### Yönetici Kullanıcılar
+#### Yönetici Kullanıcılar
 
 
 Çevre değişkeni: `LNBITS_ADMIN_USERS`, kullanıcı kimliklerinin virgülle ayrılmış listesi. Yönetici Kullanıcılar yönetici kullanıcı arayüzündeki ayarları değiştirebilir - fon kaynağı ayarları hariç, çünkü bu sunucunun yeniden başlatılmasını gerektirir ve potansiyel olarak sunucuyu erişilemez hale getirebilir. Ayrıca `LNBITS_ADMIN_EXTENSIONS` içinde kendilerine ayrılmış tüm uzantılara erişimleri vardır.
 
 
-### İzin Verilen Kullanıcılar
+#### İzin Verilen Kullanıcılar
 
 
 Çevre değişkeni: `LNBITS_ALLOWED_USERS`, virgülle ayrılmış kullanıcı kimlikleri listesi. Bu kullanıcıların tanımlanmasıyla LNbits artık herkes tarafından kullanılamayacaktır. Yalnızca tanımlı kullanıcılar ve yöneticiler LNbits önyüzüne erişebilir.
@@ -320,7 +320,7 @@ Süper kullanıcıyı, oluşturulduğunda webhook aracılığıyla başka bir se
 
 
 
-#### LNbits'i Güncelle
+##### LNbits'i Güncelle
 
 LNbits yerel örneğinizin normal bir güncellemesi, aşağıdaki CLI komutlarını kopyalayıp yapıştırarak yapılır:
 
@@ -357,7 +357,7 @@ sudo ~/scripts/app start lnbits
 ```
 
 
-#### SQLite'tan PostgreSQL'e geçiş
+##### SQLite'tan PostgreSQL'e geçiş
 
 
 LNbits'i SQLite veritabanına kurup çalıştırdıysanız, LNbits'i büyük ölçekte çalıştırmayı planlıyorsanız postgres'e geçmenizi şiddetle tavsiye ederiz.
@@ -385,14 +385,14 @@ Umarım şimdi her şey çalışır ve taşınır... LNbits'i tekrar başlatın 
 
 
 
-#### Veritabanının yedeklenmesi ve geri yüklenmesi
+##### Veritabanının yedeklenmesi ve geri yüklenmesi
 
 
-Lütfen [yedekleme ve geri yükleme işlemi hakkındaki bu çok ayrıntılı kılavuza] (https://ereignishorizont.xyz/lnbits-server/en/#94_LNbits_-_Databases_Backup_Restore) bakın.
+Lütfen [yedekleme ve geri yükleme işlemi hakkındaki bu çok ayrıntılı kılavuza](https://ereignishorizont.xyz/lnbits-server/en/#94_LNbits_-_Databases_Backup_Restore) bakın.
 
 
 
-#### LNbits Wallet'yi düğümümden finanse etmek işe yaramıyor
+##### LNbits Wallet'yi düğümümden finanse etmek işe yaramıyor
 
 
 Sats'i LNbit'lerinizin fon kaynağı olan aynı düğümden göndermek istiyorsanız, LND.conf dosyasını düzenlemeniz gerekecektir.
@@ -407,7 +407,7 @@ Lütfen bunu LND.conf dosyanızın Uygulama seçenekleri bölümünde yapın. Ba
 NOT: Bir LNbits hesabına para eklemek için bunun yerine yeni adminUI uzantısının "TopUp" seçeneği ile kullanılması önerilir.
 
 
-#### Hata 426
+##### Hata 426
 
 Hata alıyorum: "lnurl'nin genel erişime açık https alanı veya tor üzerinden teslim edilmesi gerekir. 426 yükseltme gerekli"</summary>
 
@@ -426,12 +426,12 @@ RequestHeader set "X-Forwarded-SSL" expr=%{HTTPS}
 ```
 
 
-#### Ağ Hatası
+##### Ağ Hatası
 
 QR tararken "https hatası", ağ hatası" veya başka bir hata alıyorum</summary>
 
 
-Kötü haber, bu pek çok nedeni olabilecek bir yönlendirme hatasıdır. Öncelikle QR'nin LNURL'sini [Lightning Decoder] (https://lightningdecoder.com/) ile kontrol edin, eğer orada garip bir şey bulabilirseniz. En olası sorunlardan birkaçını ve çözümlerini deneyelim.
+Kötü haber, bu pek çok nedeni olabilecek bir yönlendirme hatasıdır. Öncelikle QR'nin LNURL'sini [Lightning Decoder](https://lightningdecoder.com/) ile kontrol edin, eğer orada garip bir şey bulabilirseniz. En olası sorunlardan birkaçını ve çözümlerini deneyelim.
 
 
 LNbits yalnızca Tor üzerinden çalışır, lnbits.yourdomain.com gibi kamuya açık bir alanda açamazsınız
@@ -443,7 +443,7 @@ LNbits yalnızca Tor üzerinden çalışır, lnbits.yourdomain.com gibi kamuya a
 
 
 
-#### Başkalarının LNbit'lerim üzerinde cüzdan oluşturmasını engelleme
+##### Başkalarının LNbit'lerim üzerinde cüzdan oluşturmasını engelleme
 
 
 LNbit'lerinizi clearnet'te çalıştırdığınızda temelde herkes üzerinde generate bir Wallet yapabilir. Düğümünüzün fonları bu cüzdanlara bağlı olduğundan, bunu önlemek isteyebilirsiniz. Bunu yapmanın iki yolu vardır:
@@ -454,7 +454,7 @@ LNbit'lerinizi clearnet'te çalıştırdığınızda temelde herkes üzerinde ge
 
 
 
-#### Invoice sona erme zaman dilimini özelleştirin
+##### Invoice sona erme zaman dilimini özelleştirin
 
 
 Artık generate faturalarını özel bir son kullanma tarihi ile düzenleyebilirsiniz. Arka uçlarla uyumludur: LndRestWallet, LndWallet, CoreLightningWallet, EclairWallet, LnbitsWallet, SparkWallet şimdiye kadar!
@@ -465,18 +465,18 @@ Artık generate faturalarını özel bir son kullanma tarihi ile düzenleyebilir
 
 
 
-## Wallet-URL silindi
+### Wallet-URL silindi
 
 
-### Wallet demo sunucusunda legend.lnbits
+#### Wallet demo sunucusunda legend.lnbits
 
 
 Kendi cüzdanlarınız için Wallet-URL, Export2phone-QR veya LNDhub'ınızın bir kopyasını her zaman güvenli bir yere kaydedin. LNbits kaybolduğunda bunları kurtarmanıza yardımcı OLAMAZ.
 
 
-### Wallet kendi finansman kaynağınızda / düğümünüzde
+#### Wallet kendi finansman kaynağınızda / düğümünüzde
 
-Kendi cüzdanlarınız için Wallet-URL, Export2phone-QR veya LNDhub'ınızın bir kopyasını her zaman güvenli bir yere kaydedin. Tüm LNbits kullanıcılarını ve Wallet-ID'lerini LNbits kullanıcı yöneticisi uzantınızda veya sqlite veritabanınızda bulabilirsiniz. LNbits veritabanını düzenlemek veya okumak için LNbits /data klasörüne gidin ve sqlite.db adlı dosyayı arayın. Bu dosyayı excel ile ya da [SQLite browser] (https://sqlitebrowser.org/) gibi özel bir SQL-Editor ile açabilir ve düzenleyebilirsiniz.
+Kendi cüzdanlarınız için Wallet-URL, Export2phone-QR veya LNDhub'ınızın bir kopyasını her zaman güvenli bir yere kaydedin. Tüm LNbits kullanıcılarını ve Wallet-ID'lerini LNbits kullanıcı yöneticisi uzantınızda veya sqlite veritabanınızda bulabilirsiniz. LNbits veritabanını düzenlemek veya okumak için LNbits /data klasörüne gidin ve sqlite.db adlı dosyayı arayın. Bu dosyayı excel ile ya da [SQLite browser](https://sqlitebrowser.org/) gibi özel bir SQL-Editor ile açabilir ve düzenleyebilirsiniz.
 
 
 Ayrıca cüzdanları CLI aracılığıyla dökebilir ve veritabanınızdaki her Wallet'i görüntüleyebilirsiniz.
@@ -511,14 +511,14 @@ Burada f8a43fc363ea428db5c53b3559935f1f yerine addan önce gelen değeri (örne�
 .quit
 ```
 
-#### Lightning-Address tersi için LNURL
+##### Lightning-Address tersi için LNURL
 
 
 Fiatjaf'tan bu [kodlayıcıyı](https://lnurl-codec.netlify.app/) veya [bunu](https://lightningdecoder.com/) deneyin. Bir LNURLp'yi ödemek veya kontrol etmek için [LNurlpay](https://wwww.lnurlpay.com/)'i de kullanabilirsiniz. HTTP DEĞİL HTTPS belirtmelidir.
 
 
 
-#### İnsanların LNURLp QR'ime ödeme yaparken görecekleri bir yorum yapılandırma
+##### İnsanların LNURLp QR'ime ödeme yaparken görecekleri bir yorum yapılandırma
 
 Bir LNURL-p oluşturduğunuzda, varsayılan olarak yorum kutusu doldurulmaz. Bu, ödemelere yorum eklenmesine izin verilmediği anlamına gelir.
 
@@ -529,18 +529,18 @@ Yorumlara izin vermek için, kutunun karakter uzunluğunu 1 ila 250 arasında ek
 ![lnbits comments](assets/lnbits-comments.webp)
 
 
-#### LNbits'e onchain BTC yatırın
+##### LNbits'e onchain BTC yatırın
 
 Onchain BTC'den LN BTC'ye (LNbits'e) Exchange Sats yapmanın iki yolu vardır.
 
 
-##### Harici bir takas hizmeti aracılığıyla.
+###### Harici bir takas hizmeti aracılığıyla.
 
 
 LNb'nize erişimi olmayan diğer kullanıcılar [Boltz](https://boltz.Exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) veya [ZigZag](https://zigzag.io/) gibi bir takas hizmeti kullanabilir. Bu, LNbits örneğinizden yalnızca LNURL/LN faturaları sağlıyorsanız, ancak bir ödeyenin yalnızca zincir üzerinde Sats'ü varsa, bu nedenle önce bu Sats'ü kendi taraflarında değiştirmeleri gerekecektir. Prosedür basittir: kullanıcı takas hizmetine onchain btc gönderir ve takasın hedefi olarak LNbits'ten LNURL / LN Invoice sağlar.
 
 
-##### Onchain ve Boltz LNbits uzantısını kullanma.
+###### Onchain ve Boltz LNbits uzantısını kullanma.
 
 
 Bunun ayrı bir Wallet olduğunu, LN fon kaynağınız üzerine LNbits tarafından "Wallet'iniz" olarak temsil edilen LN btc olmadığını unutmayın. Bu zincir üzerindeki Wallet, LNbits Boltz veya Deezy uzantısı kullanılarak LN btc'yi (örneğin hardwarewallet'ınıza) takas etmek için de kullanılabilir. LN ödemeleri için LNbits'inize bağlı bir web mağazası işletiyorsanız, tüm Sats'yı düzenli olarak LN'den onchain'e boşaltmak çok kullanışlıdır. Bu, LN kanallarınızda yeni taze Sats alabilmek için daha fazla alan sağlar.
@@ -582,7 +582,7 @@ Daha sonra LNbits işlemlerinizin ayrıntılar bölümünde bir takma ad/takma i
 LNbits hesabınızı bir Wallet uygulamasına aktarmak için, LNbits'inizi kullanmak istediğiniz hesap / Wallet ile açın, "uzantıları yönet "e gidin ve LNDHUB uzantısını etkinleştirin. LNDHUB uzantısını açın, kullanmak istediğiniz Wallet'yı seçin ve o Wallet için istediğiniz güvenlik seviyesine bağlı olarak "admin" veya "sadece Invoice" QR'ını tarayın.
 
 
-Bir lndhub hesabı için Wallet uygulaması olarak [Zeus] (https://zeusln.app/) veya [Bluewallet] (https://bluewallet.io/) kullanabilirsiniz, böylece BW birden fazla Wallet'yi destekler.
+Bir lndhub hesabı için Wallet uygulaması olarak [Zeus](https://zeusln.app/) veya [Bluewallet](https://bluewallet.io/) kullanabilirsiniz, böylece BW birden fazla Wallet'yi destekler.
 
 
 Bunu yaparken LN ağ URI'sini de kendi düğümünüzünkine ayarlamanızı öneririz. LNbits örneğiniz yalnızca Tor ise, bu uygulamaları Tor etkinleştirilmiş olarak da kullanmanız gerekir. Ayrıca bu durumda LNbits sayfasını Tor .onion Address üzerinden açmanız gerekir.
@@ -592,19 +592,19 @@ On-Chain uzantısında bir ypub kullanırken "desteklenmeyen Hash türü" hatas�
 
 
 
-## LNbits ile Takım Oluşturma ve İnşa Etme
+### LNbits ile Takım Oluşturma ve İnşa Etme
 
 
-LNbits her türlü [açık API] (https://legend.lnbits.com/docs) ve milyonlarca kullanım durumu için birçok farklı cihazı programlamak ve bunlara bağlanmak için araçlara sahiptir.
+LNbits her türlü [açık API](https://legend.lnbits.com/docs) ve milyonlarca kullanım durumu için birçok farklı cihazı programlamak ve bunlara bağlanmak için araçlara sahiptir.
 
 
-İnşa etmeye yeni başladığınızda, Ben Arc'ın LNbit'lere dayalı araçlar inşa etme hakkındaki bu [MakerBits sunumları] (https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) ile başlayın.
+İnşa etmeye yeni başladığınızda, Ben Arc'ın LNbit'lere dayalı araçlar inşa etme hakkındaki bu [MakerBits sunumları](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) ile başlayın.
 
 
-### ÖNEMLİ:
+#### ÖNEMLİ:
 
 
-- LNbits, isteklerin iki şekilde geçerli olduğu LNURL protokolüne dayalı olarak çalışır: https:// clearnet bağlantısı (kendinden imzalı sertifikalara izin verilmez) veya http:// v2 / v3 onion bağlantısı olarak. LNURLp/w QR kodları veya NFC Kartları gibi vahşi ortamda kullanılabilecek LNbits hizmetleri sunmak için LNbits'i clearnet'e (https) açmanız gerekecektir.
+- LNbits, isteklerin iki şekilde geçerli olduğu LNURL protokolüne dayalı olarak çalışır: https://clearnet bağlantısı (kendinden imzalı sertifikalara izin verilmez) veya http://v2 / v3 onion bağlantısı olarak. LNURLp/w QR kodları veya NFC Kartları gibi vahşi ortamda kullanılabilecek LNbits hizmetleri sunmak için LNbits'i clearnet'e (https) açmanız gerekecektir.
 - Esp32'nize güç sağlamak için yalnızca DATA-Kablolarını kullanın. Tüm kablolar esp'ye güç sağlamanın yanı sıra verileri de desteklemez. esp ile birlikte gelen kablo yalnızca güç sağlayan bir kabloysa ilk kişi siz olmazsınız
 - Başka cihazların takılı olduğu bir USB-Hub kullanmadığınızdan emin olun. Bu, hata ayıklamak için Hard olan garip etkilere yol açabilir (örneğin başlamama veya durma).
 - MacOS ile esp projelerini gerçekleştirmek için bir UART Köprü Sürücüsüne ihtiyacınız olacaktır. Mac veya Linux sistemlerinde sürücüyle ilgili sorun yaşarsanız, bunları burada veya bir TTGO Ekranı söz konusuysa bunu bulabilirsiniz. Windows kullanıyorsanız ve bağlanmakta sorun yaşıyorsanız ESKİ 11.1.0 sürümünü indirdiğinizden emin olun çünkü yenisi çalışmıyor! Bağlantınızı kontrol etmek için burada bir seri terminal de bulabilirsiniz - baudrate 115200'e ayarlayın.
@@ -646,5 +646,5 @@ Bir projede yardıma ihtiyacınız varsa [Makerbits Telegram Group]'a (https://t
 
 
 - [YARDIMCILAR & KAYNAKLAR](https://github.com/lnbits/lnbits/wiki/Tooling-&-Building-with-LNbits#resources)
-- ["Powered by LNbits" projelerine daha fazla örnek için] (https://github.com/lnbits/lnbits/wiki/Powered-by-LNbits).
+- ["Powered by LNbits" projelerine daha fazla örnek için](https://github.com/lnbits/lnbits/wiki/Powered-by-LNbits).
 - [LNbits için kullanım durumları](https://github.com/lnbits/lnbits/wiki/Use-Cases-of-LNbits)

@@ -1,0 +1,8 @@
+question: Bastiat'nın ekonomik safsatalara yönelik eleştirisinde, Fransa'nın ticaret yoluyla İngiltere'yi zenginleştirmekten kaçınması gerektiği yönündeki korumacı argümanın altında hangi temel mantıksal hata yatmaktadır?
+answer: Gönüllü mübadelelerde ekonomik çıkarların uyumlu olmaktan ziyade karşıt olduğu yönündeki yanlış varsayım
+wrong_answers:
+  - Fransa'nın İngiltere ile rekabet edebilmek için yeterli doğal kaynaklara sahip olmadığı yönündeki yanlış inanç
+  - "İngiltere'nin endüstriyel kapasitesinin ona haksız bir teknolojik avantaj sağladığı yönündeki yanlış düşünce"
+  - Ticaret açıklarının otomatik olarak ulusal ekonominin gerilemesine yol açtığı yönündeki hatalı varsayım
+explanation: |
+  Bastiat, korumacıların ekonomik ilişkileri, avlanma alanları için savaşan eski kabilelere benzer şekilde, çatışan çıkarların arkaik bir merceğinden görmenin yanlış olduğunu tespit etmiştir. Gerçekte, gönüllü mübadeleler her iki tarafa da fayda sağlar - müşteriler ve tedarikçiler serbestçe ticaret yaptığında, her ikisi de değer kazanır. Korumacıların ticaret yoluyla 'düşmanları zenginleştirme' korkusu, sıfır toplamlı rekabetten ziyade karşılıklı faydanın gerçek ekonomik etkileşimleri karakterize ettiği piyasa ilişkilerinin nasıl işlediğine dair temel bir yanlış anlamayı yansıtmaktadır.

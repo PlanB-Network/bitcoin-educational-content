@@ -1,0 +1,8 @@
+question: O que aconteceria à oferta total da Bitcoin se os mineiros reclamassem sistematicamente apenas 90% do subsídio de bloco permitido em todos os blocos?
+answer: A oferta total seria permanentemente reduzida para menos de 21 milhões de BTC, uma vez que os subsídios não reclamados se perderiam para sempre
+wrong_answers:
+  - Os restantes 10% seriam acumulados num fundo de reserva que os futuros mineiros poderiam reclamar durante os períodos de taxas baixas
+  - O mecanismo de ajustamento da dificuldade seria compensado pelo aumento das futuras recompensas por bloco para manter o limite de 21 milhões
+  - As subvenções não reclamadas seriam redistribuídas proporcionalmente pelos beneficiários das taxas de transação nos blocos subsequentes
+explanation: |
+  O protocolo do Bitcoin permite que os mineiros reclamem menos do que o subsídio máximo permitido, mas qualquer montante não reclamado é permanentemente perdido - não há nenhum mecanismo para o redistribuir ou recuperar mais tarde. A fórmula do subsídio e o calendário de redução para metade determinam o máximo teórico de ~21 milhões de BTC, mas o fornecimento efetivo depende de os mineiros reclamarem a totalidade do seu direito. Ao contrário do ajuste de dificuldade que responde às condições do mining, não há nenhum mecanismo compensatório para recompensas não reclamadas, tornando o fornecimento total potencialmente deflacionário se os mineiros consistentemente reclamarem menos.

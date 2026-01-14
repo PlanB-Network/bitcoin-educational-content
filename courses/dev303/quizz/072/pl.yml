@@ -1,0 +1,8 @@
+question: Co odróżnia błędy zasobów uruchomieniowych od nieprawidłowych błędów wejściowych i błędów logicznych w tworzeniu aplikacji Bitcoin?
+answer: Błędy zasobów środowiska uruchomieniowego występują, gdy zewnętrzne zależności, takie jak pliki lub połączenia sieciowe, są niedostępne, co wymaga poprawek środowiskowych, a nie zmian w kodzie
+wrong_answers:
+  - "Błędy zasobów środowiska uruchomieniowego zdarzają się, gdy parametry funkcji nie spełniają wymagań, wskazując na naruszenie umowy między wywołującym a funkcją"
+  - Błędy zasobów uruchomieniowych reprezentują błędy w implementacji programu, które wymagają debugowania i modyfikacji kodu w celu prawidłowego rozwiązania
+  - Błędy zasobów środowiska uruchomieniowego występują, gdy system typów nie wychwytuje niezgodności, umożliwiając propagację nieprawidłowych typów danych przez system
+explanation: |
+  Błędy zasobów uruchomieniowych są zewnętrzne w stosunku do logiki programu i występują, gdy zależności takie jak pliki, połączenia sieciowe lub urządzenia pamięci masowej są niedostępne. W przeciwieństwie do błędów nieprawidłowych danych wejściowych (które wiążą się z naruszeniem umowy parametrów) lub błędów logicznych (które są błędami implementacji), błędy zasobów uruchomieniowych zazwyczaj wymagają poprawek środowiskowych, a nie zmian w kodzie. Aplikacja musi obsługiwać je z wdziękiem, ponieważ często są one tymczasowe i poza bezpośrednią kontrolą programu.

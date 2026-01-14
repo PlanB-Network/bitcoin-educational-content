@@ -14,7 +14,7 @@ Bitcoin für jedermann nutzbar zu machen, bedeutet auch, seine Nützlichkeit zu 
 
 
 
-IbexPay ist eine von IBEX, einem Pionier im Bereich der Blitzinfrastrukturdienste, entwickelte Plattform. Um ein Konto zu erhalten, gehen Sie zu IbexPay [offizielle Plattform] (https://www.ibexpay.io/) und klicken Sie auf die Schaltfläche "**Start**".
+IbexPay ist eine von IBEX, einem Pionier im Bereich der Blitzinfrastrukturdienste, entwickelte Plattform. Um ein Konto zu erhalten, gehen Sie zu IbexPay [offizielle Plattform](https://www.ibexpay.io/) und klicken Sie auf die Schaltfläche "**Start**".
 
 
 

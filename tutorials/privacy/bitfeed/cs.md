@@ -11,7 +11,7 @@ Bitfeed je platforma pro vizualizaci onchain vrstvy protokolu Bitcoin. Vznikla z
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 V tomto tutoriálu se podíváme na tento nástroj, který vám umožní prozkoumat všechny transakce a bloky v síti.
 
@@ -95,7 +95,7 @@ První transakce tohoto bloku představuje transakci **coinbase**, která těža
 
 
 
-https://planb.academy/courses/obtenir-ses-premiers-bitcoins-f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 Ve výchozím nastavení jsou transakce v bloku reprezentovány podle dvou kritérií:
 

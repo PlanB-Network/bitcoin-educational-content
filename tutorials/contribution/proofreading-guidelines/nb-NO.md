@@ -9,10 +9,10 @@ description: Hvilke faktorer er det viktig å huske på når du leser korrektur 
 Velkommen til denne veiledningen om **retningslinjer for korrekturlesing av innhold på Plan ₿ Academy**. Vi er glade for at du deler vårt mål om å oversette Bitcoin-materiell til så mange språk som mulig, for å hjelpe folk med å få kunnskap om hvordan det fungerer og hvordan det kan brukes i dagliglivet.
 
 
-Først og fremst kan du bidra til Plan ₿ Academy [public repository] (https://github.com/PlanB-Network/bitcoin-educational-content) ved å skrive veiledninger, korrekturlese eksisterende innhold eller til og med foreslå å legge til et nytt språk på plattformen. Hvis du vil vite mer, kan du først bli med i [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder) og skrive en kort presentasjon om deg og språkene du kan snakke.
+Først og fremst kan du bidra til Plan ₿ Academy [public repository](https://github.com/PlanB-Network/bitcoin-educational-content) ved å skrive veiledninger, korrekturlese eksisterende innhold eller til og med foreslå å legge til et nytt språk på plattformen. Hvis du vil vite mer, kan du først bli med i [Telegram Group](https://t.me/PlanBNetwork_ContentBuilder) og skrive en kort presentasjon om deg og språkene du kan snakke.
 
 
-Denne veiledningen er dedikert til bidragsytere som ønsker å korrekturlese innhold. De fleste av dem vet ikke så mye om [Github] (https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) eller [Markdown-språket] (https://www.markdownguide.org/basic-syntax/) vi bruker i depotet, så det er viktig å dele litt innsikt i de viktigste faktorene som er involvert i denne oppgaven.
+Denne veiledningen er dedikert til bidragsytere som ønsker å korrekturlese innhold. De fleste av dem vet ikke så mye om [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) eller [Markdown-språket](https://www.markdownguide.org/basic-syntax/) vi bruker i depotet, så det er viktig å dele litt innsikt i de viktigste faktorene som er involvert i denne oppgaven.
 
 
 Her har jeg samlet de vanligste problemene som korrekturlesere støter på. Kom gjerne med flere forslag, da det kan hjelpe andre med å forbedre seg.
@@ -44,7 +44,7 @@ I denne forstand er alle bidragsytere på Plan ₿ Academy pedagoger!
 ## De første trinnene før korrekturlesing på Plan ₿ Academy
 
 
-Før du starter en ny korrekturlesingsoppgave, må du kunngjøre den i [Telegramgruppen] (https://t.me/PlanBNetwork_ContentBuilder) eller informere Plan ₿ Academy-koordinatoren din, som vil åpne en dedikert [issue] (https://github.com/orgs/PlanB-Network/projects/3). Når du mottar lenken til saken, kan du bare **kommentere at du begynner** med korrekturlesingen av det aktuelle innholdet.
+Før du starter en ny korrekturlesingsoppgave, må du kunngjøre den i [Telegramgruppen](https://t.me/PlanBNetwork_ContentBuilder) eller informere Plan ₿ Academy-koordinatoren din, som vil åpne en dedikert [issue](https://github.com/orgs/PlanB-Network/projects/3). Når du mottar lenken til saken, kan du bare **kommentere at du begynner** med korrekturlesingen av det aktuelle innholdet.
 
 
 Dette systemet hjelper koordinatoren med å holde oversikt over fremdriften i repoen, og det gjør det mulig å "kreve" innholdet av korrekturleseren, slik at man unngår at noen andre gjør dobbeltarbeid.
@@ -60,7 +60,7 @@ Først og fremst, **HUSK ALLTID å synkronisere repoen din på "dev"-grenen**. P
 
 
 
-Når du har synkronisert, kan du gå direkte til innholdet du er interessert i, og legge til en ny gren, som vist i denne [opplæringen] (https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Ellers kan du åpne en ny gren hvor du skal jobbe, ved å klikke på "Branches", som vist nedenfor.
+Når du har synkronisert, kan du gå direkte til innholdet du er interessert i, og legge til en ny gren, som vist i denne [opplæringen](https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Ellers kan du åpne en ny gren hvor du skal jobbe, ved å klikke på "Branches", som vist nedenfor.
 
 
 
@@ -115,7 +115,7 @@ I det andre tilfellet bør du **alltid undersøke om noen andre i Bitcoin-felles
 
 
 
-- En annen god løsning er å beholde det opprinnelige ordet/uttrykket, og deretter **opprette en hyperkobling** som viderekobler til [glossary] (https://planb.academy/en/resources/glossary) på planb.network. For å gjøre dette må du sette ordet/uttrykket inn i hakeparenteser, og lenken inn i runde parenteser, slik du kan se i eksempelet nedenfor:
+- En annen god løsning er å beholde det opprinnelige ordet/uttrykket, og deretter **opprette en hyperkobling** som viderekobler til [glossary](https://planb.academy/en/resources/glossary) på planb.network. For å gjøre dette må du sette ordet/uttrykket inn i hakeparenteser, og lenken inn i runde parenteser, slik du kan se i eksempelet nedenfor:
 
 
 ```
@@ -277,7 +277,7 @@ Sørg for å sjekke den opprinnelige språkfilen (ofte EN eller FR) for å se hv
 ## Korrekturlesing av veiledning
 
 
-Hvis du bestemmer deg for å korrekturlese opplæringsvideoer, åpner koordinatoren en egen sak for **hele opplæringsdelen**. Når du er ferdig med oppgaven, kan du dokumentere fremdriften din ved å kommentere i saken med en liste over de gjennomgåtte opplæringsoppgavene: På denne måten skaper du et tydelig sporingssystem for fremtidig referanse, noe som er viktig fordi det legges til nytt innhold hver måned. Du kan se et eksempel på denne tilnærmingen [her] (https://github.com/PlanB-Network/bitcoin-educational-content/issues/3023#issuecomment-3364923190).
+Hvis du bestemmer deg for å korrekturlese opplæringsvideoer, åpner koordinatoren en egen sak for **hele opplæringsdelen**. Når du er ferdig med oppgaven, kan du dokumentere fremdriften din ved å kommentere i saken med en liste over de gjennomgåtte opplæringsoppgavene: På denne måten skaper du et tydelig sporingssystem for fremtidig referanse, noe som er viktig fordi det legges til nytt innhold hver måned. Du kan se et eksempel på denne tilnærmingen [her](https://github.com/PlanB-Network/bitcoin-educational-content/issues/3023#issuecomment-3364923190).
 
 
 ![REVIEW](assets/en/13.webp)
@@ -368,7 +368,7 @@ Når du sender PR-en din, er det fint om du navngir den i dette formatet: [KORRE
 
 I **kommentardelen av PR-en** kan du dessuten skrive "lukkes" + nummeret på saken som koordinatoren sendte deg da du startet korrekturlesingen, etterfulgt av ``#``.
 
-Hvis du for eksempel nettopp har sendt en PR med korrekturlesing av cyp201 + spørrekonkurranser, kan du skrive "stenger [#2934] (https://github.com/PlanB-Network/bitcoin-educational-content/issues/2934)".
+Hvis du for eksempel nettopp har sendt en PR med korrekturlesing av cyp201 + spørrekonkurranser, kan du skrive "stenger [#2934](https://github.com/PlanB-Network/bitcoin-educational-content/issues/2934)".
 
 
 På denne måten blir PR-en og saken koblet sammen, og den som leser det offentlige Github-arkivet, kan enkelt finne informasjon.

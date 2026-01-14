@@ -1,0 +1,8 @@
+question: Sự đánh đổi về mặt kiến trúc chính mà Breez SDK thực hiện để đạt được khả năng tích hợp Lightning đơn giản trong khi vẫn duy trì các nguyên tắc không lưu giữ dữ liệu là gì?
+answer: Người dùng phải hy sinh một phần quyền riêng tư vì Greenlight có thể quan sát trạng thái kênh và thông tin định tuyến, nhưng vẫn giữ quyền kiểm soát hoàn toàn đối với khóa riêng và quyền truy cập quỹ.
+wrong_answers:
+  - Người dùng phải tin tưởng Greenlight trong việc quản lý một phần tiền để đổi lấy việc quản lý kênh tự động và giảm bớt sự phức tạp trong vận hành.
+  - Các nhà phát triển sẽ mất quyền truy cập vào các tính năng Lightning nâng cao như định tuyến tùy chỉnh và chính sách kênh để đổi lấy việc tích hợp API đơn giản hơn và hỗ trợ đa nền tảng.
+  - Các ứng dụng hy sinh khả năng xử lý thanh toán tức thời để đổi lấy tính bảo mật tốt hơn thông qua việc xác thực tất cả các giao dịch Lightning dựa trên nền tảng đám mây.
+explanation: |
+  Kiến trúc của SDK Breez thể hiện sự cân nhắc kỹ lưỡng giữa quyền riêng tư và tính khả dụng. Mặc dù Greenlight có thể quan sát trạng thái kênh và thông tin định tuyến (làm giảm quyền riêng tư), người dùng vẫn duy trì quyền kiểm soát hoàn toàn đối với khóa riêng tư của họ, và những khóa này không bao giờ rời khỏi thiết bị của họ. Điều này đảm bảo rằng tiền không thể bị truy cập mà không có sự cho phép của người dùng, bảo toàn nguyên tắc phi tập trung hóa cốt lõi. Các câu trả lời sai đề cập không chính xác đến việc tập trung tiền, hạn chế tính năng hoặc độ trễ xử lý - không điều nào trong số đó là sự đánh đổi thực sự trong thiết kế của SDK.

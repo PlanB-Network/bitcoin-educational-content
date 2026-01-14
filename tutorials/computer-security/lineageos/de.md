@@ -149,7 +149,7 @@ Laut offizieller Statistik gehören zu den meistgenutzten Modellen eine Vielzahl
 
 
 
-- Android-Flash-Tool**: Verwenden Sie das offizielle Google-Tool [flash.android.com] (https://flash.android.com), um Ihr Pixel-Gerät ganz einfach über Ihren Webbrowser (Chrome/Edge erforderlich) auf das Standard-Android zurückzusetzen
+- Android-Flash-Tool**: Verwenden Sie das offizielle Google-Tool [flash.android.com](https://flash.android.com), um Ihr Pixel-Gerät ganz einfach über Ihren Webbrowser (Chrome/Edge erforderlich) auf das Standard-Android zurückzusetzen
 - Alternative**: Werksbilder manuell von [developers.google.com/android/images](https://developers.google.com/android/images)
 
 
@@ -176,7 +176,7 @@ Laut offizieller Statistik gehören zu den meistgenutzten Modellen eine Vielzahl
 
 
 
-**ADB und Fastboot Tools:** Folgen Sie der [offiziellen LineageOS-Anleitung] (https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot), um die Android SDK Platform Tools zu installieren. Überprüfen Sie die Installation mit `adb version` und `fastboot --version`.
+**ADB und Fastboot Tools:** Folgen Sie der [offiziellen LineageOS-Anleitung](https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot), um die Android SDK Platform Tools zu installieren. Überprüfen Sie die Installation mit `adb version` und `fastboot --version`.
 
 
 

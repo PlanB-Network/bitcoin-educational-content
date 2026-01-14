@@ -1,0 +1,9 @@
+question: Dushingiye ku filozofiya ya Satoshi Nakamoto, ni ingorane iyihe y’ishimikiro y’amahera asanzwe Bitcoin agerageza gutorera umuti?
+answer: Ukwizigira birenze urugero bisabwa mu nzego zishingiye ku rwego rwo hejuru zica mu mateka zirenga kuri ukwo kwizigira biciye mu guca bugufi kw’amahera .
+wrong_answers:
+  - Ubukene bw'ubuhinga bw'uburyo bwo kwishura bwa kera butera ugucerezwa mu gucuruza mpuzamakungu
+  - Ingaruka ku bidukikije z'uguhingura amafaranga y'umubiri n'ikirenge c'umuyagankuba c'ibikorwa remezo vya kera vy'amabanki
+  - Ugusobanuka kw'imibare kw'ingingo ngenderwako y'amahera iriho ubu bituma abanyagihugu bagorwa no gutahura ingingo z'ubutunzi .
+explanation: |
+  Satoshi Nakamoto yavuze neza ko 'ingorane nyamukuru y'amafaranga asanzwe ari ukwizigira kwose gukenewe kugira ngo akore' kandi ko 'amateka y'amafaranga y'ubuhinga yuzuyemwo ukurenga kuri ukwo kwizigira'.
+  Iryo jambo ryerekana intumbero nyamukuru ya Bitcoin: gukuraho ivy’ukwizigira amabanki akomeye kugira ngo ntashire hasi amafaranga. Ivyo Genesis Block ivuga ku bijanye n’ugufasha amabanki birakomeza iyo nkuru y’ugunegura ukunanirwa kw’inzego. Inyishu zitari zo zishimika ku bibazo vy’ubuhinga, ibidukikije canke ibibazo bikomeye, naho bishobora kuba ari ivyiyumviro bifise ishingiro, ntivyari ivy’ishimikiro vy’ubuhinga bwa filozofiya vyatumye Bitcoin iremwa nk’uko vyavuzwe n’uwayiremye.

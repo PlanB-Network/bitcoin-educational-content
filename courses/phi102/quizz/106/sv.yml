@@ -1,0 +1,8 @@
+question: Enligt Abbé de Saint-Pierres analys av handelsutbytet, vilken grundläggande princip förklarar varför frivillig handel förekommer mellan köpmän?
+answer: Både köparen och säljaren får ömsesidig nytta av transaktionen, annars skulle ingen av dem gå med på att handla
+wrong_answers:
+  - Den ena parten vinner alltid mer än den andra, vilket skapar en konkurrensfördel i framtida förhandlingar
+  - Regeringen reglerar priserna för att säkerställa en rättvis fördelning av vinsterna mellan handelsparterna
+  - Marknadskrafterna balanserar automatiskt vinsterna så att den totala förmögenheten förblir konstant i alla transaktioner
+explanation: |
+  Abbé de Saint-Pierre insåg att frivilligt utbyte är ett spel med positiv summa där båda parter gynnas. Han noterade att när en försäljning sker mellan köpmän tjänar både säljaren och köparen på det, eftersom ingen av dem skulle gå med på transaktionen till det priset utan ömsesidig nytta. Denna princip visar att frivillig handel skapar värde för båda parter snarare än att bara överföra rikedom från en part till en annan, vilket är anledningen till att människor väljer att engagera sig i handel och avtal.

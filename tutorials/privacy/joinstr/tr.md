@@ -534,7 +534,7 @@ Joinstr şu anda ortalama **2 ila 5 katılımcıdan** oluşan havuzlar oluşturm
 
 
 
-💡 **Anonimlik kümelerini ve bunların hesaplanmasını ayrıntılı olarak anlamak için** tam kursumuza bakın: [Anonimlik kümeleri] (https://planb.academy/fr/courses/65c138b0-4161-4958-bbe3-c12916bc959c/les-ensembles-danonymat-be1093dc-1a74-40e5-9545-2b97a7d7d431).
+💡 **Anonimlik kümelerini ve bunların hesaplanmasını ayrıntılı olarak anlamak için** tam kursumuza bakın: [Anonimlik kümeleri](https://planb.academy/fr/courses/65c138b0-4161-4958-bbe3-c12916bc959c/les-ensembles-danonymat-be1093dc-1a74-40e5-9545-2b97a7d7d431).
 
 
 

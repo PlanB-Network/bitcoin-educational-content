@@ -1,0 +1,9 @@
+question: คำสั่งใดที่สามารถใช้เพื่อเพิ่มที่อยู่ IP แบบคงที่ให้กับอินเทอร์เฟซบน Linux?
+answer: ip addr add [Address]/[mask] dev [Interface]
+wrong_answers:
+  - ifconfig [Interface] up [Address]/[mask]
+  - ip route add [Address] dev [Interface]
+  - route add -net [Address] netmask [mask] dev [Interface]
+explanation: |
+  คำสั่ง "ip addr add" เป็นวิธีการสมัยใหม่ในการกำหนดที่อยู่ IP แบบคงที่ให้กับอินเทอร์เฟซเครือข่ายบน Linux
+reviewed: false

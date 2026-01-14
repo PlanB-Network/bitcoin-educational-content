@@ -34,7 +34,7 @@ Vítejte v kurzu CYP201, kde se podrobně seznámíme s fungováním HD Bitcoino
 
 Cílem tohoto školení je dát vám klíče k ovládnutí nástrojů, které používáte každý den. HD Bitcoinové peněženky, které jsou v srdci vašeho uživatelského zážitku, jsou založeny na někdy složitých konceptech, které se pokusíme zpřístupnit. Společně je odhalíme!
 
-Než se ponoříme do detailů konstrukce a fungování Bitcoinových peněženek, začneme několika kapitolami o kryptografických primitivách, které je třeba znát pro následující. Začneme hašovacími funkcemi, zásadními jak pro peněženky, tak pro samotný protokol Bitcoinu. Objevíte jejich hlavní charakteristiky, specifické funkce používané v Bitcoinu a v techničtější kapitole se dozvíte podrobně o fungování královny hašovacích funkcí: SHA256.
+Než se ponoříme do detailů konstrukce a fungování Bitcoinových peněženek, začneme několika kapitolami o kryptografických primitivách, které je třeba znát pro následující. Začneme hašovacími funkcemi, zásadními jak pro peněženky, tak pro samotný protokol Bitcoinu. Objevíte jejich hlavní charakteristiky, specifické funkce používané v Bitcoinu a v techničtější kapitole se dozvíte podrobně o fungování královny hašovacích funkcí: [SHA256](https://planb.academy/resources/glossary/sha256).
 ![CYP201](assets/en/001.webp)
 
 Dále budeme diskutovat o fungování algoritmů digitálního podpisu, které každý den používáte k zabezpečení vašich UTXOs. Bitcoin používá dva: ECDSA a protokol Schnorr. Naučíte se, které matematické primitivy leží v základu těchto algoritmů a jak zajišťují bezpečnost transakcí.
@@ -44,7 +44,7 @@ Dále budeme diskutovat o fungování algoritmů digitálního podpisu, které k
 Jakmile budeme mít dobré porozumění těmto prvkům kryptografie, konečně přejdeme k srdci školení: deterministické a hierarchické peněženky! Nejprve je sekce věnovaná mnemonickým frázím, těmto sekvencím 12 nebo 24 slov, které vám umožňují vytvořit a obnovit vaše peněženky. Objevíte, jak jsou tato slova generována zdrojem entropie a jak usnadňují používání Bitcoinu.
 
 ![CYP201](assets/en/003.webp)
-Školení bude pokračovat studiem BIP39 hesla, seedu (nesmí být zaměňován s mnemonickou frází), hlavního řetězového kódu a hlavního klíče. Podrobně si probereme, co tyto prvky jsou, jaké mají role a jak jsou vypočítány.
+Školení bude pokračovat studiem [BIP39](https://planb.academy/resources/glossary/bip0039) hesla, seedu (nesmí být zaměňován s mnemonickou frází), hlavního řetězového kódu a hlavního klíče. Podrobně si probereme, co tyto prvky jsou, jaké mají role a jak jsou vypočítány.
 ![CYP201](assets/en/004.webp)
 
 Nakonec, z hlavního klíče, objevíme, jak jsou odvozeny kryptografické klíčové páry deterministickým a hierarchickým způsobem až po přijímací adresy.
@@ -657,7 +657,7 @@ Uživatel, který si přeje provést transakci s Bitcoinem, musí proto vytvoři
 
 V důsledku toho musí uživatel, který vlastní bitcoiny uzamčené veřejným klíčem, najít způsob, jak bezpečně uložit to, co umožňuje odemknout jejich prostředky: soukromý klíč. Bitcoinová peněženka je přesně zařízení, které vám umožní snadno uchovávat všechny vaše klíče bez přístupu ostatních lidí. Je tedy spíše jako svazek klíčů než jako peněženka.
 
-Matematická vazba mezi veřejným a soukromým klíčem, stejně jako schopnost provést podpis k prokázání držení soukromého klíče bez jeho odhalení, jsou umožněny algoritmem digitálního podpisu. V protokolu Bitcoinu jsou použity 2 algoritmy pro podpis: **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) a **Schnorrův schéma podpisu**. ECDSA je digitální podpisový protokol používaný v Bitcoinu od jeho počátků. Schnorr je v Bitcoinu novější, protože byl zaveden v listopadu 2021 s aktualizací Taproot.
+Matematická vazba mezi veřejným a soukromým klíčem, stejně jako schopnost provést podpis k prokázání držení soukromého klíče bez jeho odhalení, jsou umožněny algoritmem digitálního podpisu. V protokolu Bitcoinu jsou použity 2 algoritmy pro podpis: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm_) a **Schnorrův schéma podpisu**. ECDSA je digitální podpisový protokol používaný v Bitcoinu od jeho počátků. Schnorr je v Bitcoinu novější, protože byl zaveden v listopadu 2021 s aktualizací Taproot.
 Tyto dva algoritmy jsou si ve svých mechanismech poměrně podobné. Oba jsou založeny na kryptografii eliptických křivek. Hlavní rozdíl mezi těmito dvěma protokoly spočívá ve struktuře podpisu a některých specifických matematických vlastnostech. Proto se budeme zabývat fungováním těchto algoritmů, začínající nejstarším: ECDSA.
 
 ### Kryptografie eliptických křivek

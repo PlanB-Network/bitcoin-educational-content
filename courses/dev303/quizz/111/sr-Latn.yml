@@ -1,0 +1,8 @@
+question: Koji je primarni arhitektonski kompromis koji Breez SDK pravi kako bi postigao pojednostavljenu Lightning integraciju uz održavanje ne-kustodijalnih principa?
+answer: Korisnici žrtvuju deo privatnosti jer Greenlight može posmatrati stanja kanala i informacije o rutiranju, ali zadržavaju potpunu kontrolu nad privatnim ključevima i pristupom sredstvima.
+wrong_answers:
+  - Korisnici moraju verovati Greenlight-u sa delimičnim starateljstvom nad sredstvima u zamenu za automatizovano upravljanje kanalima i smanjenu operativnu složenost.
+  - Programeri gube pristup naprednim Lightning funkcijama kao što su prilagođeno usmeravanje i politike kanala u zamenu za pojednostavljenu API integraciju i podršku za više platformi.
+  - Aplikacije žrtvuju mogućnosti obrade plaćanja u realnom vremenu u zamenu za bolju sigurnost kroz validaciju svih Lightning transakcija zasnovanu na oblaku.
+explanation: |
+  Arhitektura Breez SDK predstavlja pažljivo razmotren kompromis između privatnosti i upotrebljivosti. Iako Greenlight može posmatrati stanja kanala i informacije o rutiranju (smanjujući privatnost), korisnici zadržavaju potpunu kontrolu nad svojim privatnim ključevima, koji nikada ne napuštaju njihove uređaje. Ovo osigurava da se sredstvima ne može pristupiti bez korisničke autorizacije, čuvajući osnovni princip nekustodijalnosti. Pogrešni odgovori netačno sugerišu čuvanje sredstava, ograničenja funkcija ili kašnjenja u obradi - nijedno od kojih nije stvarni kompromis u dizajnu SDK-a.

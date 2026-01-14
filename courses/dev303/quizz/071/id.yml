@@ -1,0 +1,8 @@
+question: Apa respons yang paling tepat ketika aplikasi Bitcoin menemukan kesalahan input yang tidak valid, seperti menerima nilai negatif untuk bidang yang hanya memerlukan bilangan bulat positif?
+answer: Menolak masukan dan mengembalikan indikasi kesalahan kepada pemanggil
+wrong_answers:
+  - Ubah nilai negatif menjadi nilai absolutnya dan lanjutkan pemrosesan
+  - Catat kesalahan, namun lanjutkan operasi menggunakan nilai default
+  - Segera hentikan seluruh aplikasi untuk mencegah kerusakan data
+explanation: |
+  Kesalahan input yang tidak valid mewakili pelanggaran kontrak antara pemanggil dan fungsi, di mana parameter yang diberikan tidak memenuhi persyaratan fungsi. Pendekatan yang benar adalah menolak input dan mengembalikan indikasi kesalahan, sehingga pemanggil dapat menangani situasi dengan tepat. Mengubah nilai negatif menjadi positif secara diam-diam akan menutupi kesalahan dan dapat menyebabkan perilaku yang tidak diinginkan. Menggunakan nilai default akan mengabaikan maksud pemanggil dan dapat memproses data yang salah. Menghentikan seluruh aplikasi berlebihan untuk kegagalan validasi input dan akan menciptakan pengalaman pengguna yang buruk dalam aplikasi Bitcoin di mana penanganan kesalahan yang halus sangat penting.

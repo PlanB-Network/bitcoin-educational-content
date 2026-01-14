@@ -1,0 +1,8 @@
+question: Apa perbedaan mendasar antara cara makro dan fungsi diproses dalam Rust?
+answer: Makro diperluas oleh kompiler pada saat kompilasi sebelum kompilasi dimulai, sementara fungsi dipanggil pada saat runtime
+wrong_answers:
+  - Makro menggunakan pencocokan pola untuk pengecekan tipe, sementara fungsi menggunakan analisis statis untuk validasi pada saat runtime
+  - Makro generate mengoptimalkan kode perakitan secara langsung sementara fungsi-fungsi ditafsirkan oleh mesin virtual Rust
+  - Makro disimpan dalam memori selama eksekusi sementara fungsi dimuat dari disk saat dipanggil
+explanation: |
+  Jawaban yang benar mengidentifikasikan perbedaan temporal yang penting: makro beroperasi selama kompilasi melalui ekspansi kode, sedangkan fungsi dieksekusi selama runtime program. Jawaban yang salah membingungkan berbagai konsep pemrograman - Rust tidak menggunakan mesin virtual, baik makro maupun fungsi menjalani pemeriksaan tipe (tetapi pada tahap yang berbeda), dan baik fungsi maupun makro tidak dimuat dari disk selama eksekusi dengan cara yang dijelaskan.

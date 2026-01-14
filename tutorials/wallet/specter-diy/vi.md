@@ -31,7 +31,7 @@ Mã QR là phương thức mặc định để Spectre giao tiếp với máy ch
 Đối với lưu trữ bí mật, chúng tôi hỗ trợ chế độ không cần biết (wallet quên tất cả bí mật khi tắt), chế độ liều lĩnh (lưu trữ bí mật trong bộ nhớ flash của vi điều khiển ứng dụng) và tích hợp secure element sẽ sớm ra mắt.
 
 
-Trọng tâm chính của chúng tôi là thiết lập đa chữ ký với các ví phần cứng khác, nhưng wallet cũng có thể hoạt động như một trình ký đơn. Chúng tôi cố gắng làm cho nó tương thích với Bitcoin Core ở những điểm có thể - PSBT cho các giao dịch chưa ký, wallet để nhập/xuất ví đa chữ ký. Để giao tiếp với Bitcoin Core dễ dàng hơn, chúng tôi cũng đang phát triển [ứng dụng Specter Desktop] (https://github.com/cryptoadvance/specter-desktop) - một máy chủ python nhỏ gọn giao tiếp với nút Bitcoin Core của bạn.
+Trọng tâm chính của chúng tôi là thiết lập đa chữ ký với các ví phần cứng khác, nhưng wallet cũng có thể hoạt động như một trình ký đơn. Chúng tôi cố gắng làm cho nó tương thích với Bitcoin Core ở những điểm có thể - PSBT cho các giao dịch chưa ký, wallet để nhập/xuất ví đa chữ ký. Để giao tiếp với Bitcoin Core dễ dàng hơn, chúng tôi cũng đang phát triển [ứng dụng Specter Desktop](https://github.com/cryptoadvance/specter-desktop) - một máy chủ python nhỏ gọn giao tiếp với nút Bitcoin Core của bạn.
 
 
 Phần lớn phần mềm được viết bằng MicroPython, giúp việc kiểm tra và thay đổi mã dễ dàng. Chúng tôi sử dụng thư viện [secp256k1](https://github.com/bitcoin-core/secp256k1) từ Bitcoin Core để tính toán đường cong elliptic và thư viện [LittlevGL](https://lvgl.io/) cho giao diện người dùng đồ họa (GUI).

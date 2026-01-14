@@ -234,7 +234,7 @@ Selle mehhanismi paremaks mõistmiseks ja selle kohta, mitu tsüklit tasub oodat
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 Et vaadata iga teie teose poolt tehtud remixide arvu, avage "Postmix"-konto menüü "UTXOs".
 
@@ -324,7 +324,7 @@ Siin on mitu võimalikku strateegiat, kuidas hallata oma välisvaluuta UTXOs ala
 
 
 
-- Osta ettemakstud kinkekaarte või Visa-kaarte:** Platvormid nagu [Bitrefill] (https://www.bitrefill.com/) võimaldavad teil vahetada oma bitcoinid kinkekaartide või taaslaetavate Visa-kaartide vastu, mida saab kasutada kauplustes. See võib olla lihtne ja diskreetne viis oma mürgiste UTXOde kulutamiseks.
+- Osta ettemakstud kinkekaarte või Visa-kaarte:** Platvormid nagu [Bitrefill](https://www.bitrefill.com/) võimaldavad teil vahetada oma bitcoinid kinkekaartide või taaslaetavate Visa-kaartide vastu, mida saab kasutada kauplustes. See võib olla lihtne ja diskreetne viis oma mürgiste UTXOde kulutamiseks.
 
 
 
@@ -354,7 +354,7 @@ Mitme mündiühendustsükli jõudlust mõõdetakse nende koguste suuruse järgi,
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 ## Kuidas hallata postmixi?
 

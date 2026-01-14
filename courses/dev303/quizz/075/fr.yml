@@ -1,0 +1,8 @@
+question: Quel est le principal avantage de l'utilisation des méthodes map() et map_err() sur les types Result par rapport aux modèles traditionnels de gestion des erreurs try-catch ?
+answer: Ils permettent un enchaînement d'opérations de type fonctionnel tout en maintenant la gestion des erreurs à proximité des opérations susceptibles d'échouer
+wrong_answers:
+  - Ils convertissent automatiquement tous les types d'erreurs en messages sous forme de chaînes de caractères pour faciliter le débogage et l'affichage par l'utilisateur
+  - Ils éliminent la nécessité d'utiliser l'opérateur point d'interrogation en fournissant des mécanismes intégrés de propagation des erreurs
+  - Ils préviennent les situations de panique en enveloppant toutes les opérations susceptibles d'échouer dans des conteneurs Result safe
+explanation: |
+  Les méthodes map() et map_err() permettent de gérer les erreurs dans un style fonctionnel, ce qui permet d'enchaîner les opérations et de transformer les valeurs ou les erreurs au moment où elles se produisent. La logique de gestion des erreurs reste ainsi proche des opérations susceptibles d'échouer, contrairement aux blocs try-catch où la gestion des erreurs est séparée des opérations proprement dites. Les autres options sont incorrectes : les méthodes map ne convertissent pas les erreurs en chaînes (c'est le rôle de anyhow), elles fonctionnent avec l'opérateur point d'interrogation au lieu de le remplacer, et elles n'empêchent pas les paniques mais fournissent plutôt une gestion structurée des erreurs pour Results.

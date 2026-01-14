@@ -31,7 +31,7 @@ QR kodları, Spectre'nin ana bilgisayarla iletişim kurması için varsayılan b
 Sır saklama için agnostik modu (wallet kapatıldığında tüm sırları unutur), pervasız modu (sırları uygulama mikrodenetleyicisinin flaşında saklar) destekliyoruz ve secure element entegrasyonu yakında geliyor.
 
 
-Ana odak noktamız diğer donanım cüzdanlarıyla çoklu imza kurulumudur, ancak wallet tek bir imzalayıcı olarak da çalışabilir. İmzasız işlemler için PSBT, çoklu imza cüzdanlarını içe/dışa aktarmak için wallet tanımlayıcıları gibi elimizden geldiğince Bitcoin Core ile uyumlu hale getirmeye çalışıyoruz. Bitcoin Core ile daha kolay iletişim kurmak için [Spectre Desktop app] (https://github.com/cryptoadvance/specter-desktop) üzerinde de çalışıyoruz - Bitcoin Core düğümünüzle konuşan küçük bir python flask sunucusu.
+Ana odak noktamız diğer donanım cüzdanlarıyla çoklu imza kurulumudur, ancak wallet tek bir imzalayıcı olarak da çalışabilir. İmzasız işlemler için PSBT, çoklu imza cüzdanlarını içe/dışa aktarmak için wallet tanımlayıcıları gibi elimizden geldiğince Bitcoin Core ile uyumlu hale getirmeye çalışıyoruz. Bitcoin Core ile daha kolay iletişim kurmak için [Spectre Desktop app](https://github.com/cryptoadvance/specter-desktop) üzerinde de çalışıyoruz - Bitcoin Core düğümünüzle konuşan küçük bir python flask sunucusu.
 
 
 Aygıt yazılımının çoğu MicroPython'da yazılmıştır, bu da kodun denetlenmesini ve değiştirilmesini kolaylaştırır. Eliptik eğri hesaplamaları için Bitcoin Core'dan [secp256k1](https://github.com/bitcoin-core/secp256k1) kütüphanesini ve GUI için [LittlevGL](https://lvgl.io/) kütüphanesini kullanıyoruz.
@@ -176,7 +176,7 @@ Güvenli önyükleyici ile aygıt yazılımının ilk kurulumu biraz farklıdır
 ### İlk ürün yazılımının yanıp sönmesi
 
 
-**Not** Sürümlerdeki ikili dosyaları kullanmak istemiyorsanız, bizimkiler yerine ortak anahtarlarınızı kullanmak için nasıl derleyeceğinizi ve yapılandıracağınızı açıklayan [bootloader belgelerine] (https://github.com/cryptoadvance/specter-bootloader/blob/master/doc/selfsigned.md) göz atın.
+**Not** Sürümlerdeki ikili dosyaları kullanmak istemiyorsanız, bizimkiler yerine ortak anahtarlarınızı kullanmak için nasıl derleyeceğinizi ve yapılandıracağınızı açıklayan [bootloader belgelerine](https://github.com/cryptoadvance/specter-bootloader/blob/master/doc/selfsigned.md) göz atın.
 
 
 

@@ -1,0 +1,8 @@
+question: 什麼加密功能可讓 Liquid 隱藏交易金額和資產類型，不讓公眾看到？
+answer: Confidential Transactions (CT)
+wrong_answers:
+  - 硬體安全模組 (HSM)
+  - 動態聯盟 (Dynafed) 協定
+  - Peg-out 授權金鑰 (PAK)
+explanation: |
+  Confidential Transactions (CT) 是加密功能，可讓 Liquid 從公共帳簿中隱藏資產類型和交易金額，同時仍允許網路驗證交易的有效性。這提供了機構不可或缺的商業隱私。硬體安全模組是確保私人金鑰安全的實體裝置，Dynafed 通訊協定可管理聯盟變更，而 PAK 則可控制掛出 (peg-out) 程序，但這些都無法隱藏交易細節，讓公眾無法看到。

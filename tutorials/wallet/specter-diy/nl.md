@@ -31,7 +31,7 @@ QR codes zijn een standaard manier voor Specter om te communiceren met de host. 
 Voor het opslaan van geheimen ondersteunen we agnostische modus (wallet vergeet alle geheimen wanneer het uitgeschakeld wordt), roekeloze modus (slaat geheimen op in flash van de applicatiemicrocontroller) en secure element integratie komt er binnenkort aan.
 
 
-We richten ons vooral op het opzetten van multisignaturen met andere hardware wallets, maar wallet kan ook werken als een enkele ondertekenaar. We proberen het waar mogelijk compatibel te maken met Bitcoin Core - PSBT voor niet-ondertekende transacties, wallet descriptors voor het importeren/exporteren van multisig wallets. Om gemakkelijker met Bitcoin Core te communiceren, werken we ook aan [Specter Desktop app] (https://github.com/cryptoadvance/specter-desktop) - een kleine python flask server die met uw Bitcoin Core node praat.
+We richten ons vooral op het opzetten van multisignaturen met andere hardware wallets, maar wallet kan ook werken als een enkele ondertekenaar. We proberen het waar mogelijk compatibel te maken met Bitcoin Core - PSBT voor niet-ondertekende transacties, wallet descriptors voor het importeren/exporteren van multisig wallets. Om gemakkelijker met Bitcoin Core te communiceren, werken we ook aan [Specter Desktop app](https://github.com/cryptoadvance/specter-desktop) - een kleine python flask server die met uw Bitcoin Core node praat.
 
 
 Het grootste deel van de firmware is geschreven in MicroPython waardoor de code eenvoudig te controleren en te wijzigen is. We gebruiken de [secp256k1](https://github.com/bitcoin-core/secp256k1) bibliotheek van Bitcoin Core voor elliptische curveberekeningen en de [LittlevGL](https://lvgl.io/) bibliotheek voor de GUI.
@@ -43,7 +43,7 @@ Het grootste deel van de firmware is geschreven in MicroPython waardoor de code 
 Het project is aanzienlijk volwassener geworden, in die mate dat het beveiligingsniveau van Specter-DIY nu vergelijkbaar is met commerciële hardware wallets op de markt. We hebben een veilige bootloader geïmplementeerd die firmware-upgrades verifieert, zodat je er zeker van kunt zijn dat alleen ondertekende firmware kan worden geüpload naar het apparaat na de eerste installatie. In tegenstelling tot commerciële ondertekeningsapparaten moet de bootloader echter handmatig worden geïnstalleerd door de gebruiker en wordt deze niet ingesteld in de fabriek van de apparaatleverancier. Besteed dus extra aandacht tijdens de initiële installatie van de firmware en zorg ervoor dat je PGP-handtekeningen hebt geverifieerd en flash de firmware vanaf een veilige computer.
 
 
-Als iets niet werkt, open dan hier een probleem of stel een vraag in onze [Telegram-groep] (https://t.me/+VEinVSYkW5TUl5Ai).
+Als iets niet werkt, open dan hier een probleem of stel een vraag in onze [Telegram-groep](https://t.me/+VEinVSYkW5TUl5Ai).
 
 
 ## Boodschappenlijst voor Specter-DIY
@@ -181,7 +181,7 @@ Met de veilige bootloader is de eerste installatie van de firmware iets anders. 
 
 
 - Als u een upgrade uitvoert van versies lager dan `1.4.0` of de firmware voor de eerste keer uploadt, gebruik dan de `initial_firmware_<version>.bin` van de [releases](https://github.com/cryptoadvance/specter-diy/releases) pagina.
- - Controleer de handtekening van het bestand `sha256.signed.txt` met [Stepan's PGP-sleutel] (https://stepansnigirev.com/ss-specter-release.asc)
+ - Controleer de handtekening van het bestand `sha256.signed.txt` met [Stepan's PGP-sleutel](https://stepansnigirev.com/ss-specter-release.asc)
  - Controleer de hash van de `initial_firmware_<version>.bin` met de hash die is opgeslagen in de `sha256.signed.txt`
 - Als u een upgrade uitvoert vanaf een lege bootloader of als u de foutmelding in de bootloader ziet dat de firmware niet geldig is, bekijk dan de volgende sectie - Ondertekende Specter-firmware flashen.
 - Zorg ervoor dat de voedingsjumper van het ontdekkingsbord op STLK staat

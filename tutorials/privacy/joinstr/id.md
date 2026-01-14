@@ -6,36 +6,24 @@ description: CoinJoins terdesentralisasi melalui jaringan Nostr untuk kerahasiaa
 ![cover](assets/cover.webp)
 
 
+Transparansi blockchain Bitcoin memungkinkan siapa pun melacak riwayat transaksi. CoinJoins memutus keterkaitan ini dengan mencampurkan beberapa transaksi yang terjadi secara simultan, sehingga mengembalikan tingkat kerahasiaan yang setara dengan uang tunai.
 
-Transparansi blockchain Bitcoin memungkinkan untuk melacak riwayat transaksi. CoinJoins memutus hubungan ini dengan mencampurkan beberapa transaksi simultan, memulihkan tingkat kerahasiaan yang sebanding dengan uang tunai.
+Namun, solusi tradisional biasanya bergantung pada koordinator terpusat sebagai satu titik kegagalan. Wasabi dan Samourai berhenti beroperasi pada tahun 2024 akibat tekanan regulasi.
 
-
-
-Namun, solusi tradisional bergantung pada koordinator pusat sebagai satu titik kegagalan. Wasabi dan Samourai berhenti beroperasi pada tahun 2024 di bawah tekanan regulasi.
-
-
-
-**Joinstr** menghilangkan kelemahan ini dengan menggunakan jaringan Nostr yang terdesentralisasi untuk koordinasi. Aplikasi sumber terbuka ini memungkinkan CoinJoins yang benar-benar berdaulat, di mana tidak ada otoritas pusat yang dapat menyensor, memantau, atau mengganggu layanan.
-
+**Joinstr** menghapus kelemahan tersebut dengan memanfaatkan jaringan Nostr yang terdesentralisasi untuk kebutuhan koordinasi. Aplikasi sumber terbuka ini memungkinkan CoinJoins yang benar-benar berdaulat, di mana tidak ada otoritas pusat yang dapat menyensor, memantau, atau mengganggu layanan.
 
 
 ## Apa itu Joinstr?
 
 
 
-Joinstr adalah sebuah alat open source yang merevolusi pendekatan CoinJoins dengan memanfaatkan protokol Nostr sebagai infrastruktur koordinasi. Tidak seperti solusi terpusat yang membutuhkan server khusus, Joinstr bergantung pada jaringan terdistribusi relay Nostr untuk memungkinkan peserta berkoordinasi secara langsung di antara rekan-rekannya.
+Joinstr adalah alat sumber terbuka yang merevolusi pendekatan CoinJoins dengan memanfaatkan protokol Nostr sebagai infrastruktur koordinasi. Berbeda dengan solusi terpusat yang membutuhkan server khusus, Joinstr bergantung pada jaringan relay Nostr yang terdistribusi untuk memungkinkan para peserta berkoordinasi secara langsung antar rekan.
 
+Arsitektur terdesentralisasi: Jaringan Nostr menggantikan peran koordinator pusat. Peserta membuat atau bergabung dengan "kumpulan" dengan memposting pengumuman terenkripsi melalui relay Nostr. Informasi ini, seperti jumlah, peserta, dan alamat, tetap tidak dapat dipahami oleh relay, sehingga tidak ada entitas pusat yang dapat memantau, menyensor, atau memfilter CoinJoins.
 
+**SIGHASH_ALL|ANYONECANPAY:** Joinstr memanfaatkan flag tanda tangan Bitcoin ini, yang memungkinkan setiap peserta hanya menandatangani input miliknya sendiri sambil tetap memvalidasi seluruh output. Setiap pengguna membuat PSBT secara lokal, menandatanganinya, lalu mendistribusikannya melalui Nostr. Bitcoin kamu tetap berada di bawah kendali eksklusifmu hingga penandatanganan terakhir.
 
-**Arsitektur terdesentralisasi**: Jaringan Nostr menggantikan koordinator pusat. Peserta membuat atau bergabung dengan "kumpulan" dengan memposting pengumuman terenkripsi melalui relay Nostr. Informasi ini (jumlah, peserta, alamat) tetap tidak dapat dipahami oleh relay, memastikan bahwa tidak ada entitas pusat yang dapat memantau, menyensor, atau memfilter CoinJoins.
-
-
-
-**SIGHASH_ALL|MEKANISME PEMBAYARAN ANONECANPAY**: Joinstr mengeksploitasi bendera tanda tangan Bitcoin ini, yang memungkinkan setiap peserta untuk menandatangani masukannya saja sambil memvalidasi semua keluaran. Setiap pengguna membuat PSBT-nya secara lokal, kemudian mendistribusikannya melalui Nostr. Setiap pengguna menghasilkan PSBT-nya secara lokal, menandatanganinya, lalu mendistribusikannya melalui Nostr. Bitcoin Anda tetap berada di bawah kendali eksklusif Anda hingga penandatanganan terakhir.
-
-
-
-**Filosofi**: Joinstr mengikuti etos cypherpunk Bitcoin, dengan tiga tujuan: **ketahanan terhadap penyensoran** (tidak ada otoritas yang dapat menghentikan layanan), **total non-kustodian** (Anda menyimpan kunci pribadi Anda), dan **perlakuan yang sama** (tidak ada UTXO yang dapat didiskriminasi).
+**Filosofi:** Joinstr mengikuti etos cypherpunk Bitcoin, dengan tiga tujuan utama, yaitu **ketahanan terhadap penyensoran** (tidak ada otoritas yang dapat menghentikan layanan), **non-kustodian sepenuhnya** (kamu memegang sendiri private key-mu), dan **perlakuan yang setara** (tidak ada UTXO yang dapat didiskriminasi).
 
 
 
@@ -43,7 +31,7 @@ Joinstr adalah sebuah alat open source yang merevolusi pendekatan CoinJoins deng
 
 
 
-**Kumpulan yang fleksibel**: Tidak seperti denominasi tetap, setiap pengguna dapat membuat pool dengan jumlah yang diinginkan dan target jumlah peserta, mengoptimalkan penggunaan UTXO tanpa pemisahan buatan.
+**Kumpulan yang fleksibel**: Tidak seperti denominasi tetap, setiap pengguna dapat membuat pool dengan jumlah yang diinginkan dan target jumlah pengguna, mengoptimalkan penggunaan UTXO tanpa pemisahan buatan.
 
 
 
@@ -51,7 +39,7 @@ Joinstr adalah sebuah alat open source yang merevolusi pendekatan CoinJoins deng
 
 
 
-**Ephemerality**: Tidak ada data pengguna yang disimpan. Informasi dikirimkan melalui pesan Nostr yang dienkripsi dan segera dilupakan setelah transaksi.
+**Ephemerality**: Tidak ada data pengguna yang disimpan. Informasi dikirimkan melalui pesan Nostr yang dienkripsi dan segera dihapus setelah transaksi.
 
 
 
@@ -67,7 +55,7 @@ Tutorial ini berfokus pada **aplikasi Android**, satu-satunya solusi yang saat i
 
 
 
-Joinstr Android memerlukan koneksi ke node Bitcoin melalui RPC. Anda harus mengonfigurasi Bitcoin Core di komputer Anda terlebih dahulu untuk menerima koneksi dari ponsel Anda.
+Joinstr Android memerlukan koneksi ke node Bitcoin melalui RPC. Kamu perlu mengonfigurasi Bitcoin Core di komputer kamu terlebih dahulu agar dapat menerima koneksi dari ponsel kamu.
 
 
 
@@ -88,7 +76,7 @@ https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e
 
 
 
-Ponsel Android Anda harus dapat menjangkau node Bitcoin di jaringan lokal. Temukan alamat IP komputer Anda:
+Ponsel Android kamu harus dapat menjangkau node Bitcoin di jaringan lokal. Temukan alamat IP komputer kamu:
 
 
 
@@ -149,7 +137,7 @@ Temukan alamat IPv4 (format `192.168.x.x` atau `10.0.x.x`)
 
 
 
-Cari file `bitcoin.conf` Anda:
+Cari file `bitcoin.conf`:
 
 
 
@@ -164,7 +152,7 @@ Cari file `bitcoin.conf` Anda:
 
 
 
-Buka file dengan editor teks favorit Anda dan tambahkan konfigurasi ini untuk mengaktifkan server RPC.
+Buka file dengan editor teks favorit kamu dan tambahkan konfigurasi ini untuk mengaktifkan server RPC.
 
 
 
@@ -221,8 +209,8 @@ rpcport=8332
 
 
 
-- Signet sangat direkomendasikan** untuk pengujian pertama Anda: aplikasi ini masih dalam pengembangan (beta), dan bug mungkin masih ada. Signet memungkinkan Anda melakukan pengujian secara gratis, tanpa mempertaruhkan dana sungguhan
-- Ganti `192.168.1.0/24` dengan subnet jaringan Anda (misalnya, jika IP Anda adalah `192.168.68.57`, gunakan `192.168.68.0/24`)
+- Signet sangat direkomendasikan** untuk pengujian pertama kamu: aplikasi ini masih dalam pengembangan (beta), dan bug mungkin masih ada. Signet memungkinkan kamu melakukan pengujian secara gratis, tanpa mempertaruhkan dana sungguhan
+- Ganti `192.168.1.0/24` dengan subnet jaringan kamu (misalnya, jika IP kamu adalah `192.168.68.57`, gunakan `192.168.68.0/24`)
 
 
 
@@ -256,8 +244,7 @@ openssl rand -base64 32
 
 
 
-Ketika Bitcoin Core dimulai untuk pertama kalinya, Bitcoin Core akan mengunduh dan menyinkronkan blockchain penanda. Operasi ini jauh lebih cepat daripada mainnet (hanya beberapa menit). Mohon tunggu hingga sinkronisasi selesai sebelum melanjutkan.
-
+Saat Bitcoin Core dijalankan untuk pertama kalinya, Bitcoin Core akan mengunduh dan menyinkronkan blockchain Signet. Proses ini jauh lebih cepat dibandingkan mainnet dan biasanya hanya memerlukan beberapa menit. Tunggu hingga sinkronisasi selesai sebelum melanjutkan.
 
 
 ![CRÉATION DE WALLET](assets/fr/04.webp)
@@ -272,7 +259,7 @@ Setelah disinkronkan, buat portofolio baru dengan mengklik "Buat wallet baru". B
 
 
 
-wallet Anda sekarang telah dibuat dan siap menerima bitcoin yang telah ditandai untuk pengujian.
+wallet kamu sekarang telah dibuat dan siap menerima bitcoin yang telah ditandai untuk pengujian.
 
 
 
@@ -280,7 +267,7 @@ wallet Anda sekarang telah dibuat dan siap menerima bitcoin yang telah ditandai 
 
 
 
-Untuk menguji Joinstr di bookmark, Anda memerlukan bitcoin uji coba gratis:
+Untuk menguji Joinstr di bookmark, kamu memerlukan bitcoin uji coba gratis:
 
 
 
@@ -299,7 +286,7 @@ Gunakan penanda publik seperti :
 
 
 
-Di Bitcoin Core, generate alamat penerimaan baru (tab "Terima"), salin dan tempelkan ke dalam formulir faucet. Pecahkan captcha jika perlu. Anda akan menerima bitcoin yang ditandai secara gratis dalam hitungan detik.
+Di Bitcoin Core, generate alamat penerimaan baru (tab "Terima"), salin dan tempelkan ke dalam formulir faucet. Pecahkan captcha jika perlu. Kamu akan menerima bitcoin yang ditandai secara gratis dalam hitungan detik.
 
 
 
@@ -315,7 +302,7 @@ Di Bitcoin Core, generate alamat penerimaan baru (tab "Terima"), salin dan tempe
 
 
 
-Buka [gitlab.com/invincible-privacy/joinstr-kmp/-/releases](https://gitlab.com/invincible-privacy/joinstr-kmp/-/releases) untuk mengunduh versi APK terbaru. Pada peramban Android Anda, unduh file, lalu buka untuk memulai penginstalan. Anda harus mengizinkan penginstalan dari sumber yang tidak dikenal dalam pengaturan keamanan ponsel Anda jika perlu.
+Buka [gitlab.com/invincible-privacy/joinstr-kmp/-/releases](https://gitlab.com/invincible-privacy/joinstr-kmp/-/releases) untuk mengunduh versi APK terbaru. Pada browser Android, unduh file, lalu buka untuk memulai penginstalan. Kamu harus mengizinkan penginstalan dari sumber yang tidak dikenal dalam pengaturan keamanan ponsel kamu jika perlu.
 
 
 
@@ -327,8 +314,7 @@ Buka [gitlab.com/invincible-privacy/joinstr-kmp/-/releases](https://gitlab.com/i
 
 
 
-Saat pertama kali diluncurkan, aplikasi Joinstr akan meminta izin untuk mengontrol VPN bawaan. Terima kedua permintaan izin tersebut: Kontrol OpenVPN dan koneksi VPN. Izin ini diperlukan untuk integrasi VPN, yang melindungi privasi jaringan Anda.
-
+Saat pertama kali diluncurkan, aplikasi Joinstr akan meminta izin untuk mengontrol VPN bawaan. Terima kedua permintaan izin tersebut, yaitu kontrol OpenVPN dan koneksi VPN. Izin ini diperlukan untuk integrasi VPN, yang berfungsi melindungi privasi jaringan kamu.
 
 
 ![INTERFACE APPLICATION](assets/fr/09.webp)
@@ -361,11 +347,11 @@ Konfigurasikan pengaturan di tab "Pengaturan":
 
 - Contoh: `wss://relay.damus.io`
 - Relay lain yang direkomendasikan: `wss://nos.lol`, `wss://relay.nostr.band`, `wss://nostr.fmt.wiz.biz`
-- ⚠️ **Penting**: Semua peserta harus menggunakan relay Nostr yang sama untuk melihat dan bergabung dengan pool yang sama. Jika Anda menggunakan relay yang berbeda, Anda tidak akan melihat pool yang dibuat pada relay lain
+- ⚠️ **Penting**: Semua peserta harus menggunakan relay Nostr yang sama untuk melihat dan bergabung dengan pool yang sama. Jika kamu menggunakan relay yang berbeda, kamu tidak akan melihat pool yang dibuat pada relay lain
 
 
 
-**2. URL simpul**: Alamat IP node Bitcoin Anda (tanpa port)
+**2. URL simpul**: Alamat IP node Bitcoin kamu (tanpa port)
 
 
 
@@ -375,7 +361,7 @@ Konfigurasikan pengaturan di tab "Pengaturan":
 
 
 
-**3. Nama Pengguna RPC** : Nama pengguna yang dikonfigurasikan dalam `rpcuser=` pada bitcoin.conf Anda
+**3. Nama Pengguna RPC** : Nama pengguna yang dikonfigurasikan dalam `rpcuser=` pada bitcoin.conf 
 
 
 
@@ -384,7 +370,7 @@ Konfigurasikan pengaturan di tab "Pengaturan":
 
 
 
-**4. Kata Sandi RPC ** : Kata sandi yang ditetapkan dalam `rpcpassword=` pada bitcoin.conf Anda
+**4. Kata Sandi RPC ** : Kata sandi yang ditetapkan dalam `rpcpassword=` pada bitcoin.conf
 
 
 
@@ -414,11 +400,11 @@ Konfigurasikan pengaturan di tab "Pengaturan":
 
 - Contoh: `(Paris) vpn07-par.riseup.net`
 - Lainnya tersedia: Amsterdam, Seattle, dll.
-- ⚠️ **Penting**: Semua peserta dalam pool yang sama harus menggunakan **Gateway VPN yang sama** untuk berpartisipasi dalam CoinJoin. Selama babak pencampuran, semua peserta harus muncul dengan alamat IP keluar yang sama untuk mencegah analisis jaringan mengkorelasikan peserta
+- ⚠️ **Penting**: Semua peserta dalam pool yang sama harus menggunakan **Gateway VPN yang sama** untuk berpartisipasi dalam CoinJoin. Selama proses pencampuran, semua peserta harus muncul dengan alamat IP keluar yang sama untuk mencegah analisis jaringan mengkorelasikan pengguna
 
 
 
-Aplikasi Joinstr **terintegrasi secara native** dengan Riseup VPN, menyederhanakan koordinasi antar peserta.
+Aplikasi Joinstr **terintegrasi secara native** dengan Riseup VPN, menyederhanakan koordinasi antar pengguna.
 
 
 
@@ -427,9 +413,9 @@ Aplikasi Joinstr **terintegrasi secara native** dengan Riseup VPN, menyederhanak
 
 
 
-- Pastikan ponsel dan komputer Anda berada di jaringan WiFi lokal yang sama
+- Pastikan ponsel dan komputer kamu berada di jaringan WiFi lokal yang sama
 - Koneksi VPN akan diaktifkan secara otomatis saat berpartisipasi dalam sebuah pool
-- Klik **"Simpan "** setelah Anda menetapkan semua parameter
+- Klik **"Simpan "** setelah kamu menetapkan semua parameter
 
 
 
@@ -445,7 +431,7 @@ Aplikasi Joinstr **terintegrasi secara native** dengan Riseup VPN, menyederhanak
 
 
 
-Anda memiliki dua opsi untuk berpartisipasi dalam CoinJoin:
+Kamu memiliki dua opsi untuk berpartisipasi dalam CoinJoin:
 
 
 
@@ -453,11 +439,11 @@ Anda memiliki dua opsi untuk berpartisipasi dalam CoinJoin:
 
 
 
-Klik "Buat Kumpulan Baru" di tab "Kumpulan". Tentukan denominasi dalam BTC (mis. 0,002 BTC) dan jumlah peserta yang diinginkan (minimal 2, disarankan 3-5 untuk anonimitas yang lebih baik). Aplikasi kemudian menunggu pengguna lain untuk bergabung dengan pool Anda. Setelah jumlah yang diperlukan tercapai, proses pendaftaran output dimulai secara otomatis, dan Anda harus memilih UTXO Anda untuk dicampur dan klik "Daftar".
+Klik "Buat Kumpulan Baru" di tab "Kumpulan". Tentukan denominasi dalam BTC, misalnya 0,002 BTC, dan jumlah peserta yang diinginkan, minimal 2 dan disarankan 3 sampai 5 untuk anonimitas yang lebih baik. Aplikasi kemudian akan menunggu pengguna lain untuk bergabung ke pool kamu. Setelah jumlah peserta yang dibutuhkan tercapai, proses pendaftaran output akan dimulai secara otomatis, dan kamu perlu memilih UTXO yang ingin dicampur lalu klik "Daftar".
 
 
 
-**⏱️ Penting**: Pool akan kedaluwarsa setelah **10 menit** tidak ada aktivitas. Jika jumlah peserta yang dibutuhkan tidak tercapai, pool akan ditutup secara otomatis.
+**⏱️ Penting**: Pool akan kedaluwarsa setelah **10 menit** tidak ada aktivitas. Jika jumlah pengguna yang dibutuhkan tidak tercapai, pool akan ditutup secara otomatis.
 
 
 
@@ -465,11 +451,11 @@ Klik "Buat Kumpulan Baru" di tab "Kumpulan". Tentukan denominasi dalam BTC (mis.
 
 
 
-Pada tab "Lihat Pool Lainnya", telusuri pool yang tersedia yang dibuat oleh pengguna lain. Pilih pool yang sesuai dengan jumlah Anda dan bergabunglah. Pastikan Anda telah mengonfigurasi relai Nostr dan VPN Gateway yang sama dengan peserta lainnya (lihat bagian Konfigurasi).
+Pada tab "Lihat Pool Lainnya", telusuri pool yang tersedia yang dibuat oleh pengguna lain. Pilih pool yang sesuai dengan jumlah Anda dan bergabunglah. Pastikan kamu sudah mengonfigurasi relai Nostr dan VPN Gateway yang sama dengan peserta lainnya (lihat bagian Konfigurasi).
 
 
 
-*aturan pemilihan *UTXO**: UTXO Anda harus sedikit lebih tinggi dari denominasi pool (antara +500 dan +5000 surplus sats).
+*aturan pemilihan *UTXO**: UTXO kamu harus sedikit lebih tinggi dari denominasi pool (antara +500 dan +5000 surplus sats).
 
 
 
@@ -481,7 +467,7 @@ Pada tab "Lihat Pool Lainnya", telusuri pool yang tersedia yang dibuat oleh peng
 
 
 
-Prosesnya kemudian **sepenuhnya otomatis**: setelah input Anda didaftarkan, aplikasi menunggu semua peserta mendaftarkan input mereka. Setelah semua input didaftarkan, PSBT dibuat, secara otomatis ditandatangani dengan kunci Anda, kemudian digabungkan dengan tanda tangan peserta lainnya. Terakhir, transaksi lengkap disiarkan di jaringan Bitcoin. Anda akan menerima TXID (pengenal transaksi) setelah siaran selesai. Tidak diperlukan manipulasi manual pada PSBT di Android.
+Prosesnya kemudian **sepenuhnya otomatis:** setelah input kamu didaftarkan, aplikasi akan menunggu semua peserta mendaftarkan input mereka. Setelah seluruh input terdaftar, PSBT dibuat, lalu secara otomatis ditandatangani menggunakan kunci kamu dan digabungkan dengan tanda tangan peserta lainnya. Terakhir, transaksi yang sudah lengkap akan disiarkan ke jaringan Bitcoin. Kamu akan menerima TXID, atau pengenal transaksi, setelah siaran selesai. Tidak diperlukan manipulasi manual pada PSBT di Android.
 
 
 
@@ -493,7 +479,7 @@ Prosesnya kemudian **sepenuhnya otomatis**: setelah input Anda didaftarkan, apli
 
 
 
-Setelah transaksi disiarkan, Anda akan menerima TXID (pengenal transaksi). Lihatlah di [mempool.space](https://mempool.space) atau peramban favorit Anda. Untuk menguji pada penanda, gunakan [mempool.space/signet](https://mempool.space/signet).
+Setelah transaksi disiarkan, kamu akan menerima TXID (pengenal transaksi). Lihatlah di [mempool.space](https://mempool.space) atau peramban favorit kamu. Untuk menguji pada penanda, gunakan [mempool.space/signet](https://mempool.space/signet).
 
 
 
@@ -518,7 +504,7 @@ Karena semua output utama memiliki jumlah yang sama, maka **tidak mungkin untuk 
 
 
 
-**Harap diperhatikan**: Jika UTXO Anda lebih besar daripada denominasi kumpulan, Anda akan memiliki output valuta asing (surplus). UTXO pertukaran ini tetap dapat dilacak dan harus dikelola secara terpisah dari output anonim Anda. Jangan pernah menggabungkannya dengan output campuran Anda.
+**Harap diperhatikan**: Jika UTXO kamu lebih besar daripada denominasi kumpulan, kamu akan menghasilkan change output atau kembalian. UTXO kembalian ini tetap dapat dilacak dan harus dikelola secara terpisah dari output anonim kamu. Jangan pernah menggabungkannya dengan output hasil pencampuran kamu.
 
 
 
@@ -562,11 +548,11 @@ Joinstr saat ini menghasilkan rata-rata **2 hingga 5 peserta**. Angka-angka ini 
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-terminal-9a0d46d3-33b9-4c64-84c5-bfa25b3a0add
 
-**Pengorbanan yang mendasar**: Joinstr dan JoinMarket adalah dua solusi yang tidak memiliki koordinator pusat. JoinMarket menggunakan model bisnis P2P dengan insentif keuangan, sementara Joinstr menggunakan Nostr untuk koordinasi bebas biaya. Joinstr mengorbankan anonimitas skala besar yang langsung demi kesederhanaan (tidak ada manajemen pembuat/pengambil) dan tidak adanya biaya koordinasi.
+**Pengorbanan yang mendasar:** Joinstr dan JoinMarket adalah dua solusi tanpa koordinator pusat. JoinMarket menggunakan model bisnis P2P dengan insentif finansial, sementara Joinstr memanfaatkan Nostr untuk koordinasi tanpa biaya. Joinstr mengorbankan anonimitas skala besar yang instan demi kesederhanaan, seperti tidak adanya manajemen maker dan taker, serta ketiadaan biaya koordinasi..
 
 
 
-**Rekomendasi praktis**: Untuk mengimbangi pool yang lebih kecil, jalankan beberapa putaran CoinJoin secara berurutan dengan peserta yang berbeda. Atur jarak antar ronde dan ubah relay Nostr di antara setiap ronde untuk memaksimalkan kerahasiaan Anda.
+**Rekomendasi praktis**: Untuk mengimbangi pool yang lebih kecil, jalankan beberapa putaran CoinJoin secara berurutan dengan pengguna yang berbeda. Atur jarak antar ronde dan ubah relay Nostr di antara setiap ronde untuk memaksimalkan kerahasiaanmu.
 
 
 
@@ -584,11 +570,11 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-**Privasi yang ditingkatkan**: Kombinasi enkripsi komunikasi Nostr, VPN bersama di antara para peserta, dan penggunaan Tor yang direkomendasikan menciptakan proteksi berlapis-lapis yang sulit dilewati.
+**Privasi yang ditingkatkan**: Kombinasi enkripsi komunikasi Nostr, VPN bersama di antara para pengguna, dan penggunaan Tor yang direkomendasikan menciptakan proteksi berlapis-lapis yang sulit dilewati.
 
 
 
-**Transparan, biaya minimal**: Tidak ada biaya koordinasi, hanya biaya mining yang dibagi secara adil di antara para peserta. Tidak ada persentase yang dipungut oleh operator mana pun.
+**Transparan, biaya minimal**: Tidak ada biaya koordinasi, hanya biaya mining yang dibagi secara adil di antara para pengguna. Tidak ada persentase yang dipungut oleh operator mana pun.
 
 
 
@@ -628,16 +614,11 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-Joinstr mewakili solusi privasi Bitcoin yang benar-benar terdesentralisasi. Dengan menggunakan Nostr untuk koordinasi, ini menghilangkan ketergantungan pada koordinator pusat sambil menjaga kedaulatan pengguna.
+Joinstr mewakili solusi privasi Bitcoin yang benar-benar terdesentralisasi. Dengan memanfaatkan Nostr untuk koordinasi, alat ini menghilangkan ketergantungan pada koordinator pusat sambil tetap menjaga kedaulatan pengguna.
 
+**Untuk pengguna yang menghargai ketahanan terhadap penyensoran dan siap melakukan beberapa putaran CoinJoin untuk mengimbangi ukuran pool yang lebih kecil.
 
-
-**Untuk pengguna yang menghargai ketahanan terhadap penyensoran dan siap untuk melakukan beberapa putaran CoinJoin untuk mengimbangi pool yang lebih kecil.
-
-
-
-Dengan latar belakang pengawasan keuangan yang semakin meningkat, alat terdesentralisasi untuk melindungi privasi menjadi sangat penting.
-
+Dengan latar belakang pengawasan keuangan yang terus meningkat, alat terdesentralisasi untuk melindungi privasi menjadi semakin penting.
 
 
 ## Sumber daya
@@ -662,7 +643,7 @@ Dengan latar belakang pengawasan keuangan yang semakin meningkat, alat terdesent
 
 
 
-- [Tutorial plugin Electrum] (https://uncensoredtech.substack.com/p/tutorial-electrum-plugin-for-joinstr) - Panduan lengkap oleh Uncensored Tech
+- [Tutorial plugin Electrum](https://uncensoredtech.substack.com/p/tutorial-electrum-plugin-for-joinstr) - Panduan lengkap oleh Uncensored Tech
 
 
 
@@ -681,6 +662,6 @@ Dengan latar belakang pengawasan keuangan yang semakin meningkat, alat terdesent
 
 
 
-- [Bookmark Faucet] (https://signetfaucet.com) - Uji coba Bitcoin gratis
-- [Alt Signet Faucet] (https://alt.signetfaucet.com) - alternatif Faucet
-- [Mempool.space] (https://mempool.space) - Block explorer dengan analisis privasi
+- [Bookmark Faucet](https://signetfaucet.com) - Uji coba Bitcoin gratis
+- [Alt Signet Faucet](https://alt.signetfaucet.com) - alternatif Faucet
+- [Mempool.space](https://mempool.space) - Block explorer dengan analisis privasi

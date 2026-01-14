@@ -27,7 +27,7 @@ Graças a uma parceria com a MoonPay, também é possível comprar e vender Bitc
 ## 2. Como instalar o Rumble Wallet?
 
 
-A aplicação pode ser instalada no [Android] (https://play.google.com/store/apps/details?id=com.wallet.rumble) e no iOS através das respectivas lojas oficiais.
+A aplicação pode ser instalada no [Android](https://play.google.com/store/apps/details?id=com.wallet.rumble) e no iOS através das respectivas lojas oficiais.
 
 
 ![Image](assets/fr/01.webp)
@@ -285,7 +285,7 @@ Da mesma forma, pode vender os seus bitcoins por euros, dólares ou qualquer out
 ## 7. Dar uma gorjeta a um criador no Rumble
 
 
-Como mencionado na introdução, o Rumble Wallet está perfeitamente integrado com [a plataforma de vídeo Rumble] (https://rumble.com/). Isto permite-lhe enviar facilmente dicas em Bitcoin ou USDT para os seus criadores favoritos sem passar por quaisquer intermediários.
+Como mencionado na introdução, o Rumble Wallet está perfeitamente integrado com [a plataforma de vídeo Rumble](https://rumble.com/). Isto permite-lhe enviar facilmente dicas em Bitcoin ou USDT para os seus criadores favoritos sem passar por quaisquer intermediários.
 
 
 Para fazer isto, precisa de ativar a função ***Tip Jars***. A partir da página inicial do Rumble Wallet, clique no botão "*Activate Tip Jars*".

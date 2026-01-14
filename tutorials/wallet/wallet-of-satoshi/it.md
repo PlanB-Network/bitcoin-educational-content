@@ -3,6 +3,12 @@ name: Wallet of Satoshi
 description: Il più semplice wallet (custodial) per iniziare
 ---
 ![cover](assets/cover.webp)
+---
+
+*Attenzione: dall'inizio del 2026, Wallet of Satoshi in modalità custodial (come presentato in questo tutorial) non è più accessibile all'interno dell'Unione europea. Se risiedi in questa area e desideri continuare a utilizzare questo strumento, dovrai utilizzare una VPN situata al di fuori dell'UE. Un'altra opzione consiste nell'utilizzare Wallet of Satoshi in modalità self-custodial. Un tutorial dedicato sarà pubblicato prossimamente su Plan ₿ Academy.*
+
+---
+
 _Questo tutorial è stato scritto da_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 ## Scaricare, configurare e usare Wallet of Satoshi

@@ -28,7 +28,7 @@ https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a
 
 
 
-Ga naar [de officiële website van Kraken] (https://www.kraken.com/). Zoek en klik op de startpagina op de optie "Sign Up" in de rechterbovenhoek om te beginnen met het aanmaken van uw account.
+Ga naar [de officiële website van Kraken](https://www.kraken.com/). Zoek en klik op de startpagina op de optie "Sign Up" in de rechterbovenhoek om te beginnen met het aanmaken van uw account.
 
 
 

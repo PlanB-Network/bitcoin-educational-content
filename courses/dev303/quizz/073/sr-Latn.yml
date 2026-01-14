@@ -1,0 +1,8 @@
+question: Kada treba preferirati operator upitnika (?) u odnosu na metode unwrap() ili expect() u Rust rukovanju greškama?
+answer: Kada treba da propagirate greške uz stek poziva kako bi ih pozivajuća funkcija obradila
+wrong_answers:
+  - Kada želite da obezbedite prilagođene poruke o greškama za otklanjanje grešaka neuspelih operacija
+  - Kada ste sigurni da će operacija uspeti i želite da izbegnete rukovanje greškama
+  - Kada treba da konvertujete greške u podrazumevanu vrednost i nastavite izvršavanje programa
+explanation: |
+  Operator znak pitanja (?) je dizajniran za propagaciju grešaka - on izdvaja uspešne vrednosti, ali odmah vraća greške iz trenutne funkcije, omogućavajući pozivaocima da ih obrade. Za razliku od unwrap()/expect() koji izazivaju paniku pri greškama, ili unwrap_or() koji pruža podrazumevane vrednosti, operator ? održava kontekst greške i prenosi odgovornost na viši nivo koda koji može doneti odgovarajuće odluke o obradi.

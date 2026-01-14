@@ -1,0 +1,8 @@
+question: Vilket nyckelord krävs för att göra en variabel modifierbar efter dess första deklaration i Rust?
+answer: mut
+wrong_answers:
+  - var
+  - föränderlig
+  - förändring
+explanation: |
+  I Rust krävs nyckelordet "mut" för att deklarera en variabel som föränderlig, vilket gör att dess värde kan ändras efter den första tilldelningen. Som standard är alla variabler i Rust oföränderliga av säkerhetsskäl. Syntaxen är 'let mut x = 5' för en föränderlig variabel och 'let x = 5' för en oföränderlig. De andra alternativen som 'var', 'mutable' och 'change' är inte giltiga Rust-nyckelord för detta ändamål.

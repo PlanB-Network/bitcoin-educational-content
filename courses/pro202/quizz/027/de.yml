@@ -1,0 +1,8 @@
+question: Was passiert mit dem Stack nach der Ausführung von OP_CHECKSIG, wenn die Signaturprüfung erfolgreich war?
+answer: Der Wert 1 wird auf den Stapel geschoben
+wrong_answers:
+  - Die Signatur und der öffentliche Schlüssel bleiben auf dem Stapel
+  - Der Stapel wird geleert und auf leer zurückgesetzt
+  - Der Hashwert des öffentlichen Schlüssels wird auf den Stapel gelegt
+explanation: |
+  OP_CHECKSIG ist ein Stack-Transforming-Opcode, der eine Signatur und einen öffentlichen Schlüssel vom Stack verbraucht, die Signatur mit dem Sighash der Transaktion vergleicht und entweder 1 (für gültig) oder 0 (für ungültig) auf den Stack schiebt. Die ursprüngliche Signatur und der öffentliche Schlüssel werden während dieses Vorgangs entfernt. Der Stapel wird nicht vollständig geleert, und es werden keine Hash-Werte übertragen, sondern nur das boolesche Ergebnis der Überprüfung.

@@ -1,5 +1,7 @@
 id: d1f92971-b808-4498-b294-cf33bc5d68b5
 
+last_update_date: 2025-10-21
+
 tags:
   - lightning
   - onchain
@@ -10,6 +12,8 @@ category: centralized
 level: intermediate
 
 professor_id: 93e251db-ee1c-4966-8dce-b54df9fca287
+
+license: CC-BY-SA-V4
 
 # Proofreading metadata
 
@@ -62,7 +66,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 11.53
+    reward: 8.27
   - language: id
     last_contribution_date:
     urgency: 1
@@ -77,7 +81,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.9
+    reward: 8.27
   - language: ko
     last_contribution_date:
     urgency: 1
@@ -107,7 +111,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.9
+    reward: 8.27
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -137,13 +141,23 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 9.9
+    reward: 8.27
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
     reward: 8.27
   - language: zh-Hant
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 8.27
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 6.63
+  - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:

@@ -64,7 +64,7 @@ Het is belangrijk om een back-up van je gegevens te maken voordat je op een best
 
 
 
-- Ga naar [kali.org/get-kali] (https://www.kali.org/get-kali/#kali-platforms)
+- Ga naar [kali.org/get-kali](https://www.kali.org/get-kali/#kali-platforms)
 - Selecteer het ISO-image voor je toepassing:
   - Install Image** : voor installatie op de pc.
   - Virtual Image**: om Kali op VirtualBox of VMware te installeren.
@@ -90,7 +90,7 @@ Je kunt verschillende hulpmiddelen gebruiken, zoals Balena Etcher :
 
 
 
-- Download en installeer [Balena Etcher] (https://etcher.balena.io/).
+- Download en installeer [Balena Etcher](https://etcher.balena.io/).
 
 
 

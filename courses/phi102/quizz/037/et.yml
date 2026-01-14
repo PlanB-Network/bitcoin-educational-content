@@ -1,0 +1,8 @@
+question: Milline loogiline probleem on Bastiat' analüüsi kohaselt Proudhoni väites "omand on vargus"?
+answer: Kui omand on vargus, siis muutub vargus omandiks, mis tekitab loogilise vastuolu
+wrong_answers:
+  - Omand ei saa eksisteerida ilma valitsuse reguleerimise ja õigusliku raamistikuta
+  - Vargus on moraalselt vale, samas kui omand on igas olukorras moraalselt õige
+  - Omand eeldab füüsilist valdust, samas kui vargus tähendab ajutist omandamist
+explanation: |
+  Bastiat demonstreeris Proudhoni kuulsa lause sisemist loogilist vastuolu, näidates, et kui me aktsepteerime, et omand võrdub vargusega, siis loogiliselt võttes peab vargus olema võrdne omandiga. See tekitab võimatu ringkäigu, kus midagi seaduslikku on samal ajal ebaseaduslik. Bastiat väitis selle asemel, et omand tuleneb loomulikult tööst, eneseomandist ja inimvõimekusest, mis muudab selle pigem fundamentaalseks ja loogiliseks mõisteks kui varguse vormiks.

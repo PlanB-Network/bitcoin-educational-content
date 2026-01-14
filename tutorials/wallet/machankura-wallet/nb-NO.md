@@ -101,7 +101,7 @@ Machankura tar imidlertid tak i dette problemet ved å utvide funksjonaliteten v
 
 
 
-For å bli informert om nye land der tjenesten vil være tilgjengelig, vennligst besøk deres [nettsted] (https://8333.mobi) regelmessig.
+For å bli informert om nye land der tjenesten vil være tilgjengelig, vennligst besøk deres [nettsted](https://8333.mobi) regelmessig.
 
 
 
@@ -301,7 +301,7 @@ En melding sendes automatisk til det forhåndsregistrerte nummeret, og brukeren 
 
 
 
-Du kan se [video sending demo] (https://www.linkedin.com/posts/activity-7351143606121820162-Ua3T?utm_source=share&utm_medium=member_android&rcm=ACoAAAeTubUB8GuaMia5yNBlBg4WhZpGOeVLY0w) av bitcoins av PIO TARAS (Lead Machankura Afrique Francophone) via Machankura på en grunnleggende telefon.
+Du kan se [video sending demo](https://www.linkedin.com/posts/activity-7351143606121820162-Ua3T?utm_source=share&utm_medium=member_android&rcm=ACoAAAeTubUB8GuaMia5yNBlBg4WhZpGOeVLY0w) av bitcoins av PIO TARAS (Lead Machankura Afrique Francophone) via Machankura på en grunnleggende telefon.
 
 
 
@@ -370,7 +370,7 @@ Den andre, som er en logisk forlengelse av den første, er å være en inkludere
 
 
 
-For å komme i gang må du skrive en melding til Machankuras WhatsApp-bot (et enkelt "Hei" er mer enn nok). WhatsApp-nummeret hans er [+27 73 762 5720] (https://wa.me/+27737625720).
+For å komme i gang må du skrive en melding til Machankuras WhatsApp-bot (et enkelt "Hei" er mer enn nok). WhatsApp-nummeret hans er [+27 73 762 5720](https://wa.me/+27737625720).
 
 
 

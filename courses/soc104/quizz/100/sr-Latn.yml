@@ -1,0 +1,9 @@
+question: Prema Cypherpunk Manifestu Erika Hjuza, primarna odgovornost za odbranu privatnosti u otvorenom elektronskom društvu leži na pojedincima.
+answer: Pojedinci moraju aktivno braniti svoju privatnost umesto da se oslanjaju na vlade ili korporacije da je obezbede.
+wrong_answers:
+  - Vlade bi trebalo da uspostave sveobuhvatne propise o privatnosti kako bi zaštitile građane od korporativnog nadzora
+  - Korporacije moraju implementirati dobrovoljne standarde privatnosti i samoregulisati svoje prakse prikupljanja podataka
+  - Međunarodne organizacije treba da kreiraju obavezujuće sporazume koji nalažu zaštitu privatnosti u svim zemljama
+explanation: |
+  Eric Hughes je eksplicitno naveo u Cypherpunk Manifestu da 'Ne možemo očekivati da će nam vlade, korporacije ili druge velike anonimne organizacije garantovati poverljivost... Moj glavni cilj za Cypherpunks je da nateram ljude da brane svoju poverljivost, umesto da se oslanjaju na nekog drugog da im je obezbedi.' 
+  Ova filozofija naglašava individualnu odgovornost i samostalnost kroz kriptografske alate, odbacujući zavisnost od eksternih institucija za zaštitu privatnosti, zbog čega su cypherpunks razvili decentralizovane kriptografske sisteme.

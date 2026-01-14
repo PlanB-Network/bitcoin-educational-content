@@ -1,0 +1,8 @@
+question: När Bitcoin-blockhashar tolkas som little-endian heltal för måljämförelse, varför visar giltiga block vanligtvis många efterföljande nollor i sin hexadecimala representation?
+answer: Eftersom little-endian-tolkning innebär att de högra bytena i hex motsvarar de mest signifikanta bitarna i heltalsvärdet
+wrong_answers:
+  - Eftersom SHA-256-algoritmen naturligt producerar efterföljande nollor när indata innehåller transaktionsdata med upprepade mönster
+  - Eftersom gruvarbetare medvetet fyller blockhuvudet med nollbytes för att göra hashberäkningen mer effektiv för ASIC-hårdvara
+  - Eftersom nonce-fältet inkrementeras från noll och uppåt, vilket gör att hashfunktionen generate-mönster med efterföljande nollor
+explanation: |
+  Vid little-endian-tolkning läses byte i omvänd ordning, så att byte längst till höger i hexadecimal blir den mest signifikanta delen av heltalet. För att en hash ska ligga under målet (ett litet tal) måste dess mest signifikanta bitar vara noll, vilket visas som efterföljande nollor i hex-displayen. Detta är enbart en representationsartefakt för konvertering av endianess, inte en egenskap hos SHA-256 eller mining-maskinvaran.

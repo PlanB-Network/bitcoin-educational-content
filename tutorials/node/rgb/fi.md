@@ -68,13 +68,13 @@ Siitä lähtien, kun Bitcoin lanseerattiin lähes 13 vuotta sitten, on tehty pal
 
 RGB:llä on oma kaniininkolonsa Bitcoinin kaniininkolon sisällä, kun putoan niiden läpi, aion postata mitä olen oppinut, seuraavassa artikkelissa meillä on johdanto LNP:hen ja RGB-nodesiin ja miten niitä käytetään.
 
-# RGB-node Tutoriaali
+## RGB-node Tutoriaali
 
-## Johdanto
+### Johdanto
 
 Tässä tutoriaalissa selitämme, miten käyttää RGB-nodea luodaksesi vaihdettavan tokenin ja miten siirtää sitä, tämä asiakirja perustuu RGB-node demoan ja eroaa siinä, että tässä tutoriaalissa käytetään todellisia testnet-tietoja ja sen vuoksi, meidän täytyy rakentaa oma Osittain Allekirjoitettu Bitcoin Siirto, psbt tästä lähtien.
 
-## Vaatimukset
+### Vaatimukset
 
 Linux-jakelun käyttöä suositellaan, tämä tutoriaali kirjoitettiin käyttäen Pop!OS:ää, joka perustuu Ubuntuun ja tarvitset:
 
@@ -280,7 +280,7 @@ Koska pyydetty teksti on erittäin pitkä ja sisältää monimutkaisia merkkijon
 Jos sinulla on tiettyjä osia tekstistä, jotka vaativat käännöstä ja jotka sisältävät selkeämmän kontekstin tai ovat lyhyempiä ja hallittavampia, olen mielelläni avuksi niiden kääntämisessä.
 Tämä luo kolme uutta tiedostoa, lähetysluettelon, paljastuksen ja psbt:n, joka sisältää muokkauksen. Tätä psbt:tä kutsutaan todistustransaktioksi, ja lähetysluettelo lähetetään rgb-node-1:lle.
 
-## Todistus
+### Todistus
 
 Todistustransaktio tulisi allekirjoittaa ja lähettää, tätä varten meidän täytyy koodata se takaisin base64-muotoon.
 
@@ -311,7 +311,7 @@ $ bcli finalizepsbt "cHNidP8BAHECAAAAAe2pydT0BqfK5nBCdBSbm3W/vNKE/QxTr4eJcjwjDLD
 Lähetä se käyttäen sendrawtransaction-alikomentoa saadaksesi sen vahvistettua lohkoketjuun.
 
 ```
-## Hyväksy
+### Hyväksy
 
 Vastaanottaakseen tulevan siirron rgb-node-1:n olisi pitänyt vastaanottaa lähetyspaketti rgb-node-0:lta, olla vastaanottava_utxo ja vastaava peittävä_tekijä, jotka on luotu peittäessä UTXO:a.
 
@@ -436,7 +436,7 @@ description: ~  knownCirculating: 1000
         peittävyys: ddba9e0efdd614614420fa0b68ecd2d3376a05dd3d809b2ad1f5fe0f6ed75ea2
 ```
 
-## Johtopäätökset
+### Johtopäätökset
 
 Olemme onnistuneet luomaan vaihdettavan omaisuuserän ja siirtämään sen yhdestä transaktiosta toiseen yksityisellä tavalla. Jos tarkistaisimme vahvistetun transaktion lohkoketjun selaajassa, emme löytäisi mitään eroa tavalliseen transaktioon verrattuna. Tämä johtuu siitä, että RGB käyttää kertakäyttöisiä sinettejä transaktioiden muokkaamiseen. Tässä postauksessa teen johdannon siihen, miten RGB toimii.
 

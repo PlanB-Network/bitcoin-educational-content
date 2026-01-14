@@ -22,7 +22,7 @@ https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 ## 1 - Utworzenie konta Bitfinex
 
 
-Wejdź na [oficjalną stronę Bitfinex] (https://www.bitfinex.com/). Na stronie głównej znajdź i kliknij opcję "*Sign Up*", aby rozpocząć tworzenie konta. Na początku utworzysz standardowe konto dla osób fizycznych, opcja "*Corporate*" zostanie wybrana później podczas procesu weryfikacji.
+Wejdź na [oficjalną stronę Bitfinex](https://www.bitfinex.com/). Na stronie głównej znajdź i kliknij opcję "*Sign Up*", aby rozpocząć tworzenie konta. Na początku utworzysz standardowe konto dla osób fizycznych, opcja "*Corporate*" zostanie wybrana później podczas procesu weryfikacji.
 
 
 ![BITFINEX](assets/fr/01.webp)

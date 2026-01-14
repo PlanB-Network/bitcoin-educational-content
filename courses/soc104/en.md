@@ -2,10 +2,9 @@
 name: What's your political leaning?
 goal: Understand the complexity of the modern political spectrum to identify your own tendency and situate the major ideological families beyond the left-right divide.
 objectives: 
-
   - Understanding that political typology is more nuanced than a simple left/right axis
-  - Identify the two main dimensions that structure the political spectrum: economic themes and societal themes
-  - Characterize the four main political families: Libertarians, Socialists, Conservatives, Centrists
+  - Identify the two main dimensions that structure the political spectrum
+  - Characterize the four main political families
   - Exploring the positioning of bitcoiners in the political spectrum
 
 
@@ -47,7 +46,7 @@ So, to identify an individual's political leanings, we plot them on a simple hor
 Some lean towards those for whom order must be preserved and imposed at all costs, that's the **right**. Others lean towards those for whom equality must be applied at all costs, even if it means reforming everything - this is the **left**.
 
 
-However, this categorization is often too simplistic and ineffective. Traditionally, for example, the left is seen as reformist, while the right is more conservative. But this has become questionable in our time, since the left militates for acquired advantages, which makes it, from this point of view, conservative.
+However, this categorization is often too simplistic and ineffective. Traditionally, for example, the left is seen as reformist, while the right is more conservative. But this has become questionable in our time, since the left now fights to preserve acquired advantages, which makes it, from that point of view, conservative.
 
 
 Most individuals who fall between the two extremes are often referred to as centrists, but this label also simplifies their position.
@@ -80,7 +79,7 @@ In his day, the economist and member of parliament Frédéric Bastiat said he so
 ![Frédéric Bastiat](./assets/fr/002.webp)
 
 
-This did not mean he was a centrist or a social democrat. Bastiat was firmly opposed to statism and dirigisme of any kind. He favored a maximum of economic and personal freedoms compatible with respect for others, because he believed that social order could emerge from below, through private initiative, social cooperation and individual responsibility, with a minimum of laws.
+This did not mean he was a centrist or a social democrat. Bastiat was firmly opposed to any form of statism, to any kind of government interventionism whatsoever. He favored a maximum of economic and personal freedoms compatible with respect for others, because he believed that social order could emerge from below, through private initiative, social cooperation and individual responsibility, with a minimum of laws.
 
 
 Let's take another example: **Is Bitcoin right or left?
@@ -89,10 +88,10 @@ Let's take another example: **Is Bitcoin right or left?
 ![Bitcoin](./assets/fr/003.webp)
 
 
-Undeniably, bitcoin is a project for breaking with current monetary policy. So it's a political project. But it's hard to place Bitcoin on a simple linear axis running from the extreme left to the extreme right.
+Undeniably, Bitcoin is a project that breaks with current monetary policy. So it's a political project. But it's hard to place Bitcoin on a simple linear axis running from the extreme left to the extreme right.
 
 
-For a start, the very definition of right and left is complex and evolves over time, making strict classification difficult. But above all Bitcoin, as a decentralized technology, transcends traditional cleavages, attracting supporters from diverse political backgrounds, left and right, including anarchists and individuals who claim to be apolitical.
+For a start, the very definition of right and left is complex and evolves over time, making strict classification difficult. But above all Bitcoin, as a decentralized technology, transcends traditional political divides, attracting supporters from various political backgrounds, from the left and the right, including anarchists and people who consider themselves apolitical.
 
 
 
@@ -100,7 +99,7 @@ For a start, the very definition of right and left is complex and evolves over t
 - Left-wing personalities are also present, notably because of Bitcoin's potential for financial inclusion and as a tool against censorship.
 
 
-In reality, the traditional dichotomy between right and left is inadequate, arbitrary and unsuitable for correctly situating Bitcoin, which is a public currency that everyone can appropriate, whatever their political leanings.
+In reality, the traditional dichotomy between right and left is inadequate, arbitrary, and ill-suited to properly situate Bitcoin, which is a public currency that anyone can adopt, regardless of their political leanings.
 
 
 What's more, a simple linear axis running from left to right doesn't work well, as ideologies like fascism and communism have similarities (totalitarianism) that aren't apparent on such an axis.
@@ -109,7 +108,7 @@ What's more, a simple linear axis running from left to right doesn't work well, 
 ![Spectre politique en fer à cheval](./assets/fr/004.webp)
 
 
-What's more, although the Right is undoubtedly more economically liberal than the Left, both camps share a distrust of the free market, freedom of contract and private property, and an attraction to state interventionism. For those in power, whether on the right or the left, every problem is solved by a new regulation or tax, rather than by the self-regulation of individual interactions.
+What's more, although the right is undoubtedly more economically liberal than the left, both camps share a distrust of the free market, freedom of contract and private property, and an attraction to state interventionism. For those in power, whether on the right or the left, every problem is solved by a new regulation or tax, rather than by the self-regulation of individual interactions.
 
 
 It's interesting to note that certain political positions can cut across traditional right/left divides. For example, protectionism, often defended by the left, can easily be reconciled with nationalism, a value traditionally associated with the right. Similarly, the peasantry, while attached to the land and family traditions - right-wing values - does not hesitate to demonstrate vehemently to demand state subsidies, an approach that is in line with socialist logic.
@@ -177,7 +176,7 @@ In 1966, in *Revolt on the Moon* (The Moon is a Harsh Mistress), novelist Robert
 ![The Moon is a Harsh Mistress](./assets/fr/005.webp)
 
 
-He observes that mankind is divided politically between those who want to control the lives of others, and those who do not
+He observes that mankind is divided politically between those who want to control the lives of others, and those who do not.
 
 
 > The human race divides politically into those who want people to be controlled and those who have no such desire.
@@ -209,8 +208,7 @@ So, should the traditional left versus right political model be overcome? And if
 Instead of dividing political doctrines along a right/left axis, it would make more sense to look at things through the prism of freedom. We'd then have a freedom-power axis, so that classical liberal thought would finally find its place on the political chessboard.
 
 
-The right way of looking at things, then, would be that which pits the defenders of freedom against the defenders of the state, those who trust in the ability of individuals to organize themselves responsibly and those who want strong power to reassure them and control the lives of others.
-
+The right way to look at things, then, would be to contrast the defenders of freedom with the defenders of the State—those who trust in individuals’ ability to organize themselves responsibly, and those who want a strong authority to reassure them and to control the lives of others.
 
 David Nolan, founder of the Libertarian Party in 1971 and author of the now-famous Nolan Chart, understood this. An alumnus of the Massachusetts Institute of Technology (MIT), he has designed a chart that is likely to better represent the complexity of the political spectrum.
 
@@ -257,16 +255,16 @@ Examples of economic activity: starting a business; buying a house; constructing
 
 
 
-- To the right of the axis** (towards 100 on Economic Themes): preference for **economic freedom**. This means less state intervention in the economy, fewer regulations, lower taxes, and greater freedom for companies and individuals to produce, trade and consume. The emphasis is on the free market, private property and competition as the engines of prosperity.
-  - Emblematic figures:* Margaret Thatcher (UK), Ronald Reagan (USA), Javier Milei (Argentina).
+- **To the right of the axis** (toward 100 on the Economic Issues scale): preference for **economic freedom**. This means less state intervention in the economy, fewer regulations, lower taxes, and greater freedom for companies and individuals to produce, trade and consume. The emphasis is on the free market, private property and competition as the engines of prosperity.
+ - *Emblematic figures:* Margaret Thatcher (UK), Ronald Reagan (USA), Javier Milei (Argentina).
 
 
 ![Right Graphique](./assets/fr/009.webp)
 
 
 
-- To the left of the axis** (towards 0 on Economic Themes): preference for **strong state intervention in the economy**. This implies regulation, high taxes to finance public services (health, education, transport), nationalization and redistribution of wealth. The aim is often to reduce inequalities and guarantee a degree of social justice.
-  - Emblematic figures:* Franklin D. Roosevelt (USA), Jean Jaurès (France), Bernie Sanders, Barack Obama.
+- **To the left of the axis** (toward 0 on the Economic Issues scale): preference for **strong state intervention in the economy**. This implies regulation, high taxes to finance public services (health, education, transport), nationalization and redistribution of wealth. The aim is often to reduce inequalities and guarantee a degree of social justice.
+  - *Emblematic figures:* Franklin D. Roosevelt (USA), Jean Jaurès (France), Bernie Sanders, Barack Obama.
 
 
 ![Left Graphique](./assets/fr/010.webp)
@@ -282,8 +280,8 @@ The Personal Freedom category includes what you do in your private relationships
 
 
 
-- Top of the axis** (around 100 on Societal Themes): preference for **individual freedom** and tolerance. The state should interfere as little as possible in the life choices of individuals (abortion rights, LGBTQ+ rights, freedom of expression, legalization of certain substances, etc.). We value autonomy and diversity.
-  - Emblematic figures:* Nelson Mandela, Simone Veil, Noam Chomsky.
+- **Top of the axis** (toward 100 on the Social Issues scale): preference for **individual freedom** and tolerance. The state should interfere as little as possible in the life choices of individuals (abortion rights, LGBTQ+ rights, freedom of expression, legalization of certain substances, etc.). We value autonomy and diversity.
+  - *Emblematic figures:* Nelson Mandela, Simone Veil, Noam Chomsky.
 
 
 
@@ -291,8 +289,8 @@ The Personal Freedom category includes what you do in your private relationships
 
 
 
-- At the bottom of the axis** (towards 0 on Societal Themes): preference for **order, security and traditional values**. The State has a role to play in regulating morals, maintaining public order, and sometimes defending a certain vision of morality or tradition, including through violence. These include positions in favor of the death penalty, restrictions on immigration, or dirigiste promotion of the traditional family.
-  - Emblematic figures:* Joseph de Maistre (French counter-revolutionary philosopher) - for his ideas on divine order and authority. Contemporary authoritarian leaders such as Vladimir Putin in Russia and Xi Jinping in China.
+- **At the bottom of the axis** (toward 0 on the Social Issues scale): preference for **order, security and traditional values**. The State has a role to play in regulating morals, maintaining public order, and sometimes defending a certain vision of morality or tradition, including through violence. These include positions in favor of the death penalty, restrictions on immigration, or government-led promotion of the traditional family.
+  - *Emblematic figures:* Joseph de Maistre (French counter-revolutionary philosopher) - for his ideas on divine order and authority. Contemporary authoritarian leaders such as Vladimir Putin in Russia and Xi Jinping in China.
 
 
 
@@ -311,7 +309,7 @@ The Personal Freedom category includes what you do in your private relationships
 A person can be left-wing on the economy (in favor of redistribution) but right-wing on societal issues (very attached to order and tradition). And vice versa! The diamond-shaped model captures this complexity.
 
 
-The left is traditionally defined as being associated with socialism, a system in which the state holds significant powers over individuals and the organization of society, particularly in terms of income redistribution. The right could be seen as the opposite, a situation where the state is devoid of significant powers, which would define it as liberal. However, the reality is more complex, and the Right is not simply the opposite of the statist Left.
+The left is traditionally defined as being associated with socialism, a system in which the state holds significant powers over individuals and the organization of society, particularly in terms of income redistribution. The right could be seen as the opposite, a situation where the state is devoid of significant powers, which would define it as liberal. However, the reality is more complex, and the right is not simply the opposite of the statist left.
 
 
 Indeed, the policies pursued by governments of the right and left over the last few decades have not been fundamentally different, and none have been truly liberal in the classical, European sense of the term.
@@ -352,7 +350,7 @@ For its part, the left doesn't attach much importance to traditional moral and r
 ![video](https://www.youtube.com/watch?v=4DDAZGjQk2Q)
 
 
-Cultural conservatism is the personal adherence to so-called traditional moral values, anthropology, aesthetics and metaphysics, all inherited from the past. It's a wisdom of life, guided by ancestral principles, be they Greco-Roman or Judeo-Christian. **It is not a political philosophy
+Cultural conservatism is the personal adherence to so-called traditional moral values, anthropology, aesthetics and metaphysics, all inherited from the past. It's a wisdom of life, guided by ancestral principles, be they Greco-Roman or Judeo-Christian. **It is not a political philosophy.**
 
 
 If you're a cultural conservative, you're in favor of the traditional family, virtue ethics and belief in God. The cultural conservative believes that man, to be happy, needs elevation of the soul, spiritual values and a certain nobility of feeling.
@@ -361,10 +359,10 @@ If you're a cultural conservative, you're in favor of the traditional family, vi
 On the other hand, **political conservatism** is a way of organizing society according to a fixed order. This is why conservatives are opposed to progress. They want to freeze society in the state it has reached at the moment they speak, and believe that any change would be worse.
 
 
-Politically, cultural conservatives often join the ranks of political conservatism. But this is not always the case. The two conservatisms are not necessarily inseparable. **You can be a cultural conservative and a libertarian
+Politically, cultural conservatives often join the ranks of political conservatism. But this is not always the case. The two conservatisms are not necessarily inseparable. **You can be a cultural conservative and a libertarian.**
 
 
-For example, an individual may defend cultural traditions (such as family, religion or local customs) in his or her personal or community life, while advocating limited government that does not impose these values by law. This type of person might encourage conservative norms through persuasion, education or example, while respecting the right of others to live differently, in line with libertarian principles.
+For example, an individual may defend cultural traditions (such as family, religion or local customs) in his or her personal or community life, while advocating limited government that does not impose these values by law. This type of person might encourage conservative norms through persuasion, education or leading by example, while respecting the right of others to live differently, in line with libertarian principles.
 
 
 The culturally conservative libertarian may morally disapprove of certain behaviors, but he **does not advocate legal prohibition or incarceration** of people who engage in consensual, non-aggressive actions. It may dislike such actions, oppose them, fight them and actively discourage people from engaging in them, but always **without resorting to the coercive force of the law**.
@@ -399,13 +397,13 @@ Indeed, in many countries, particularly in Europe, the term liberalism is associ
 This is why the term *liberals* is misleading for a European. American liberal politics, since the 20th century, can be described as a shift towards a statist, authoritarian paradigm, which has distorted the meaning of the word *liberalism*.
 
 
-Historically, American *liberalism* has supported significant state interventionism (Franklin Delano Roosevelt's *New Deal* and Lyndon B. Johnson's *Great Society*), including wealth redistribution and social programs. Johnson's *Great Society*), including wealth redistribution and social programs. In the USA, the term *liberal* is therefore associated with left-wing or social-democratic policies, such as public health insurance and public anti-poverty plans.
+Historically, American *liberalism* has supported significant state interventionism (Franklin Delano Roosevelt's *New Deal* and Lyndon B. Johnson's *Great Society*), including wealth redistribution and social programs. In the USA, the term *liberal* is therefore associated with left-wing or social-democratic policies, such as public health insurance and public anti-poverty plans.
 
 
 From the 1960s onwards, supporters of classical liberalism in the USA began calling themselves *libertarians* to distinguish themselves from American liberals. They are the heirs of 19th-century European classical liberalism.
 
 
-## Are you a libertarian or a libertarian?
+## Are you a libertarian or a libertaire/anarchist (in French libertaire)?
 
 <chapterId>fc761194-249f-4009-a20f-1f98b7226cf2</chapterId>
 
@@ -413,31 +411,30 @@ From the 1960s onwards, supporters of classical liberalism in the USA began call
 ![video](https://www.youtube.com/watch?v=qi6HPBmrJkg)
 
 
-The term **libertarian** is sometimes translated as libertarian or libertine, which is a major misnomer.
+The term **libertarian** is sometimes translated as libertarian or libertine, which is a major misunderstanding.
 
 
-The term libertarian comes from the 19th-century anarchist tradition, which is derived from socialism. This tradition is historically linked to thinkers such as Pierre-Joseph Proudhon and Mikhail Bakunin. Anarchism is the political doctrine that states that all forms of government are unnecessary, oppressive and must be abolished.
+The French term libertaire comes from the 19th-century anarchist tradition, which is derived from socialism. This tradition is historically linked to thinkers such as Pierre-Joseph Proudhon and Mikhail Bakunin. Anarchism is the political doctrine that states that all forms of government are unnecessary, oppressive and must be abolished.
 
 
 For socialist and communist anarchists, property is theft. They want to see the disappearance of money and banks, and a return to a local economy based on barter. They seek an egalitarian society where individual freedom is exercised within a collective framework, without domination.
 
 
-Unlike libertarians, libertarians are often anti-capitalist, advocating forms of economic organization such as mutualism, collectivism or libertarian communism.
-
+Unlike libertarians, anarchists are often anti-capitalist, advocating economic forms such as mutualism, collectivism, or libertarian communism.
 
 Socialist anarchists like Mikhail Bakunin and Pierre Kropotkin saw private property and the state as twin sources of oppression, and proposed their abolition.
 
 
-A libertarian might advocate self-managed communes, cooperatives or anti-hierarchical movements, while rejecting state authority and capitalist structures.
+An anarchist might advocate for self-managed communes, cooperatives, or anti-hierarchical movements, while rejecting state authority and capitalist structures.
 
 
 They are in favor of abolishing the state, but have renounced violent action against the state for lack of effectiveness. On the other hand, they have not renounced the use of violence against private enterprise. They support public monopolies, accept the labor theory of value, condemn the wage system, and regard profit and interest rates as exploitation. Few left-wing anarchists, like Pierre-Joseph Proudhon, actively campaigned against taxation.
 
 
-For libertarians, on the contrary, the only way to ensure individual freedom is to guarantee private property. The essential difference between libertarians and libertarians concerns the notion of individual property and freedom of contract. Moreover, libertarians' doctrine on violence is defensive: self-defense and resistance to oppression.
+For libertarians, on the contrary, the only way to ensure individual freedom is to guarantee private property. The essential divergence between libertarians and anarchists therefore concerns the notion of individual property and contractual freedom. Moreover, libertarians' doctrine on violence is defensive: self-defense and resistance to oppression.
 
 
-Libertines are activists of sexual freedom. It's not so much a political philosophy as a personal way of life, based on an uninhibited morality opposed to bourgeois morality. Politically, they often join the ranks of left-wing anarchists, i.e. libertarians.
+Libertines are activists of sexual freedom. It's not so much a political philosophy as a personal way of life, based on an uninhibited morality opposed to bourgeois morality. Politically, they often align with left-wing anarchists, that is, with anarchists.
 
 
 # Political families under the microscope
@@ -461,7 +458,7 @@ But first, we need to explain an important distinction.
 
 Milton Friedman wrote
 
-> One of the biggest mistakes is to judge policies and programs on their intentions rather than their results. We all know a famous road paved with good intentions. [...] Programs that are labeled as being for the poor, for the needy, almost always have the exact opposite effects to those their well-meaning sponsors wish them to achieve.
+> One of the biggest mistakes is to judge policies and programs on their intentions rather than their results. We all know a famous road paved with good intentions. [...] Programs labeled as being for the poor or for those in need almost always have effects exactly opposite to what their well-intentioned sponsors hope to achieve.
 
 Indeed, policies, often motivated by generous intentions, can have unforeseen or harmful consequences if they are not based on a rigorous analysis of human incentives and behavior. For example, a social policy aimed at helping the poor often creates perverse effects such as economic dependency or market distortion.
 
@@ -490,20 +487,20 @@ The following chapters explain how to define political families structurally.
 
 
 
-- Freedoms:** quite strong in the societal sphere, but weak in the economic sphere.
-- Cardinal values:** equality, progress, social justice, solidarity.
-- Philosophy and principles:** Primacy of collective organization. Socialism is a practice based on society as a whole (holism) and expressed through the state. The socialist state aims to take charge of and direct human activity to the maximum. Socialists have almost unlimited faith in the possibility of building a new social order based on reason.
-- Politics:** Socialists advocate health programs, tax increases and subsidies to guarantee equity. This implies economic and social dirigisme, planning (organization of production upstream). Hayek speaks of constructivism, i.e., the idea that it is up to the state to build society and give it a certain form, in contrast to the liberal order where society builds itself (spontaneous order). The most radical and successful socialism is totalitarian, as the state takes charge of all human activity.
-- Economics:** Socialism implies strong state control of the economy, in favor of equity (allowing everyone to provide for themselves). Socialists are suspicious of free markets, which they see as a system that allows the strong to prey on the vulnerable. They favor wealth redistribution and centralized social programs financed by high taxes and revenues.
+- **Freedoms:** quite strong in the societal sphere, but weak in the economic sphere.
+- **Cardinal values:** equality, progress, social justice, solidarity.
+- **Philosophy and principles:** Primacy of collective organization. Socialism is a practice based on society as a whole (holism) and expressed through the state. The socialist state aims to take charge of and direct human activity to the maximum. Socialists have almost unlimited faith in the possibility of building a new social order based on reason.
+- **Politics:** Socialists advocate health programs, tax increases and subsidies to guarantee equity. This implies economic and social state direction, planning (organization of production upstream). Hayek speaks of constructivism, i.e., the idea that it is up to the state to build society and give it a certain form, in contrast to the liberal order where society builds itself (spontaneous order). The most radical and successful socialism is totalitarian, as the state takes charge of all human activity.
+- **Economics:** Socialism implies strong state control of the economy, in favor of equity (allowing everyone to provide for themselves). Socialists are suspicious of free markets, which they see as a system that allows the strong to prey on the vulnerable. They favor wealth redistribution and centralized social programs financed by high taxes and revenues.
 
 
 **Types of socialists:**
 
-The concept of socialism is a neologism first used systematically and with a precise meaning by the Frenchman Pierre Leroux in 1833. Within modern socialism, two traditions can be distinguished:
+The concept of socialism is a neologism that was first used systematically and with a precise meaning by the Frenchman Pierre Leroux in 1833. Within modern socialism, two traditions can be distinguished:
 
 1.  **Revolutionary socialists** are opposed to property rights, and want to destroy capitalist bourgeois society. They follow in the footsteps of 19th-century anarchists such as Bakunin. This anarchism later gave rise to Marxist communism.
 
-2.  **Reformist socialists** are not prone to violence. They have not abandoned their goal of social justice, but this is pursued through democratic elections and taxation, using the resources generated by the market economy. Such was the case of Jean Jaurès, Leon Blum, Olof Palme (Sweden), Willy Brandt (Germany) and François Mitterrand (France).
+2.  **Reformist socialists** are not prone to violence. They have not abandoned their goal of social justice, but this goal is pursued through democratic elections and taxation, using the resources generated by the market economy. Such was the case of Jean Jaurès, Leon Blum, Olof Palme (Sweden), Willy Brandt (Germany) and François Mitterrand (France).
 
 
 Franklin Delano Rossevelt's New Deal played a role in the formation of American democratic socialism (Bernie Sanders).
@@ -534,26 +531,26 @@ According to Bernie Sanders, *these reforms, have become the social fabric of th
 
 
 
-- Freedoms:** they are strong in the economic sphere but weak in the societal sphere.
+- **Freedoms:** they are strong in the economic sphere but weak in the societal sphere.
 
 
 
-- Cardinal values:** virtue, order, tradition, civilization.
+- **Cardinal values:** virtue, order, tradition, civilization.
 
 
 
-- Philosophy and principles:** Conservatives believe that things are generally good as they are, and that any change could make them worse. They seek to preserve what already exists, defending it as good in itself, and are averse to changes in a system they feel has proven effective. At the heart of the traditional conception of conservatism lies a deep respect for long-established social institutions, seen as essential safeguards against chaos, injustice and cruelty. These social edifices sustain the solidarity, security and strength that humanity needs to resist the excesses of modernity.
+- **Philosophy and principles:** Conservatives believe that things are generally good as they are, and that any change could make them worse. They seek to preserve what already exists, defending it as good in itself, and are averse to changes in a system they feel has proven effective. At the heart of the traditional conception of conservatism lies a deep respect for long-established social institutions, seen as essential safeguards against chaos, injustice and cruelty. These social edifices sustain the solidarity, security and strength that humanity needs to resist the excesses of modernity.
 
 
 
-- Politics:** Conservatives advocate traditional social controls and state intervention to enforce social and moral standards (order, security, values). They support strong national defense. They tend to support more extensive police powers. Socialism is perceived as a brutal break with Western civilization. Conservatives played a decisive role in the fight against communism and the rejection of excessive government interventionism.
+- **Politics:** Conservatives advocate traditional social controls and state intervention to enforce social and moral standards (order, security, values). They support strong national defense. They tend to support more extensive police powers. Socialism is perceived as a brutal break with Western civilization. Conservatives played a decisive role in the fight against communism and the rejection of excessive government interventionism.
 
 
 
-- Economy:** Conservatives support low taxation and minimal regulation of business. They support honest entrepreneurship and free enterprise, and individuals who work hard to accumulate wealth. But they fear that too much individual freedom will lead to immorality or civilizational decline.
+- **Economy:** Conservatives support low taxation and minimal regulation of business. They support honest entrepreneurship and free enterprise, and individuals who work hard to accumulate wealth. But they fear that too much individual freedom will lead to immorality or civilizational decline.
 
 
-**Types of preservatives:**
+**Types of conservatives:**
 
 in 19th-century Europe, conservatives are reactionaries. They advocate a return to the old feudal, agricultural and artisanal society. They want to escape today's society and return to the past, before the evolution they consider harmful: scientific and technological progress, with its consequences for the economy and society.
 
@@ -587,19 +584,19 @@ Some are now calling themselves "paleoconservatives", to distinguish themselves 
 
 
 
-- Freedoms:** they are strong in both societal and economic areas.
+- **Freedoms:** they are strong in both societal and economic areas.
 
 
 
-- Cardinal values:** individual freedom, responsibility, private property, consent.
+- **Cardinal values:** individual freedom, responsibility, private property, consent.
 
 
 
-- Philosophy and principles:** primacy of individual freedom. Historically, classical liberalism is first and foremost a philosophy of law. The fundamental idea is that every individual possesses inalienable rights to life, liberty and property. These rights are not granted by government, but are intrinsic to the human being. Self-sovereignty (or self-ownership) is the concept that each individual is the rightful owner of his or her own body and life, and has the right to make decisions about them without external coercion, as long as he or she does not violate the rights of others.
+- **Philosophy and principles:** primacy of individual freedom. Historically, classical liberalism is first and foremost a philosophy of law. The fundamental idea is that every individual possesses inalienable rights to life, liberty and property. These rights are not granted by government, but are intrinsic to the human being. Self-sovereignty (or self-ownership) is the concept that each individual is the rightful owner of his or her own body and life, and has the right to make decisions about them without external coercion, as long as he or she does not violate the rights of others.
 
 
 
-- Politics:** Libertarians believe that no one, nor any group (including government), has the right to initiate or threaten physical force against another person or their property. This is the principle of non-aggression. This means that fraud, theft and coercion are morally reprehensible. The use of force is justifiable only in self-defense.
+- **Politics:** Libertarians believe that no one, nor any group (including government), has the right to initiate or threaten physical force against another person or their property. This is the principle of non-aggression. This means that fraud, theft and coercion are morally reprehensible. The use of force is justifiable only in self-defense.
 
 
 Libertarians refuse to grant the state special permission to commit acts that most people would consider immoral, illegal or criminal if committed by individuals or groups in society. In short, libertarians insist that everyone should be subject to the same moral code, with no exceptions for any group or individual.
@@ -609,14 +606,14 @@ Libertarians are deeply suspicious of any concentration of power, whether politi
 
 
 
-- Economics:** Free trade and freedom of enterprise are economic expressions of respect for the rights of individuals to own themselves and their goods, and to exchange them freely. Freedom produces a spontaneous, just order, because it results from individual action and responsibility, via the interplay of voluntary exchange and contracts.
+- **Economics:** Free trade and freedom of enterprise are economic expressions of respect for the rights of individuals to own themselves and their goods, and to exchange them freely. Freedom produces a spontaneous, just order, because it results from individual action and responsibility, via the interplay of voluntary exchange and contracts.
 
 
 **Types of libertarians:**
 
 In the 20th century, two major trends emerged:
 
-1.  **Minarchist:** which considers that the powers of the State should be strictly limited to the defense of individual liberties. It's a minimal state regime (*Gendarme State*), where power is legitimate only to ensure the regalian functions of police, justice and armed defense of the territory.
+1.  **Minarchist:** which considers that the powers of the State should be strictly limited to the defense of individual liberties. It's a minimal state regime (*Night-watchman state*), where power is legitimate only to ensure the core functions of police, justice and armed defense of the territory.
 
 2.  **The other anarcho-capitalist:** who believes that state functions should be privatized and managed by the market.
 
@@ -637,23 +634,23 @@ However, both agree on the fundamental principle of individual sovereignty. Libe
 
 
 
-- Freedoms:** They are moderate supporters of individual and economic freedoms.
+- **Freedoms:** They are moderate supporters of individual and economic freedoms.
 
 
 
-- Cardinal values:** moderation, compromise, adaptation, public utility.
+- **Cardinal values:** moderation, compromise, adaptation, public utility.
 
 
 
-- Philosophy:** Centrists avoid extremes and favor pragmatic solutions. They think about problems on a case-by-case basis, not in terms of principles. The nature of centrism is often to approach a subject by seeking a pragmatic balance between points of view. Pragmatism is a political philosophy that favors adaptation to particular contexts rather than the rigid application of ideological principles. It is a political approach based on moderation and compromise. This pragmatic thinking is based on the idea that only technocrats are capable of making the right decisions to achieve the best socio-economic results.
+- **Philosophy:** Centrists avoid extremes and favor pragmatic solutions. They think about problems on a case-by-case basis, not in terms of principles. The nature of centrism is often to approach a subject by seeking a pragmatic balance between points of view. Pragmatism is a political philosophy that favors adaptation to particular contexts rather than the rigid application of ideological principles. It is a political approach based on moderation and compromise. This pragmatic thinking is based on the idea that only technocrats are capable of making the right decisions to achieve the best socio-economic results.
 
 
 
-- Politics:** they want to combine government control and individual choice for a stable, moderate approach. It's a flexible dirigisme, adaptable to individual cases. In this technocratic form of governance, political decisions are based on rationality and expertise, rather than ideology or partisan debate.
+- **Politics:** they want to combine government control and individual choice for a stable, moderate approach. It is a flexible, case-by-case form of state intervention. In this technocratic form of governance, political decisions are based on rationality and expertise, rather than ideology or partisan debate.
 
 
 
-- Economy:** Centrists accept market mechanisms, while recognizing the need for appropriate expert control and regulation. They advocate a controlled market economy, where competition takes place within a regulatory framework that protects the general interest.
+- **Economy:** Centrists accept market mechanisms, while recognizing the need for appropriate expert control and regulation. They advocate a controlled market economy, where competition takes place within a regulatory framework that protects the general interest.
 
 
 Centrism also recognizes the importance of targeted social programs to correct inequalities without creating excessive dependence on the state. This system of wealth redistribution is aimed less at dogmatic egalitarianism than at social peace and "living together".
@@ -662,8 +659,8 @@ Centrism also recognizes the importance of targeted social programs to correct i
 **Types of centrists:** Centrists may lean towards socialism, conservatism, libertarianism or authoritarianism, not out of principle but out of pragmatism or political opportunism.
 
 
-- Emmanuel Macron (France):** his positioning is both right and left . with liberal economic reforms (economic right) and support for certain societal freedoms (social left), seeking a middle way.
-- Tony Blair (UK):** with his "Third Way" concept. He sought to reconcile market policies with social justice objectives, setting himself apart from traditional socialists and conservatives.
+- **Emmanuel Macron (France):** his positioning is both right and left. With liberal economic reforms (economic right) and support for certain societal freedoms (social left), seeking a middle way.
+- **Tony Blair (UK):** with his "Third Way" concept. He sought to reconcile market policies with social justice objectives, setting himself apart from traditional socialists and conservatives.
 
 
 Keynesianism is an economic theory that advocates active government intervention to stabilize the economy.
@@ -675,12 +672,12 @@ Rather than letting markets regulate themselves, Keynes argued that the state sh
 Keynes advocated neither absolute laissez-faire (like pure pro-marketeers) nor total state control (as in a planned economy).
 
 
-This approach represents an economic "third way", seeking a balance between classical liberalism, which wants a free market, and dirigiste socialism, which wants maximum planning.
+This approach represents an economic "third way", seeking a balance between classical liberalism, which wants a free market, and state-planned socialism, which wants maximum planning.
 
 Philosophically speaking, we can refer to the famous political philosopher John Rawls, author of *The Theory of Justice* (1971).
 
 
-Its two principles of justice (equal liberty for all and the principle of difference, allowing inequalities only if they benefit the most disadvantaged) embody this attempt to synthesize liberalism and egalitarianism,
+Its two principles of justice (equal liberty for all and the principle of difference, allowing inequalities only if they benefit the most disadvantaged) embody this attempt to synthesize liberalism and egalitarianism.
 
 
 The concept of **overlapping consensus** is also central to the thinking of John Rawls, notably in his book *Political Liberalism* (1993). Here's a quote that illustrates this concept:
@@ -706,13 +703,13 @@ It's important to note here that the term totalitarianism refers to a political 
 
 
 
-- Freedoms:** totalitarian regimes support strong government control over personal and economic life. Totalitarianism exists when the state controls everything in society and has unlimited power.
-- Philosophy:** Totalitarians believe that centralized authority is the only way to guarantee order and fairness, while freedom is a factor of disorder. They want the state to control all aspects of economic and personal life, believing that such control is more likely to produce an ideal society. They are revolutionary regimes that justify violence on the grounds that the previous system was entirely wrong, and that a new model must be established by wiping the slate clean. They cannot tolerate excessive diversity of opinion or any expression that challenges their authority.
-- Politics:** totalitarianism refers to a single-party system. According to Hannah Arendt, totalitarianism is not a political family, nor a despotic political regime. It is the very negation of politics: a system in which men are rendered incapable of independent action. According to her, the aim of totalitarian education has never been to inculcate convictions, but to destroy the ability to form any other (The Origins of Totalitarianism, 1951). Indeed, totalitarian societies are distinguished by the use of an ideology, the promise of a *paradise*, such as the end of history or racial purity. Consequently, they eliminate all forms of opposition through political policing and the use of terror.
-- Economy:** totalitarian regimes may tolerate private enterprise if it is forced to serve the interests of the state, or demand that the state control all means of production. They see the free market as a threat to general order, because ideal societies must be planned by the authorities.
+- **Freedoms:** totalitarian regimes support strong government control over personal and economic life. Totalitarianism exists when the state controls everything in society and has unlimited power.
+- **Philosophy:** Totalitarians believe that centralized authority is the only way to guarantee order and fairness, while freedom is a factor of disorder. They want the state to control all aspects of economic and personal life, believing that such control is more likely to produce an ideal society. They are revolutionary regimes that justify violence on the grounds that the previous system was entirely wrong, and that a new model must be established by wiping the slate clean. They cannot tolerate excessive diversity of opinion or any expression that challenges their authority.
+- **Politics:** totalitarianism refers to a single-party system. According to Hannah Arendt, totalitarianism is not a political family, nor a despotic political regime. It is the very negation of politics: a system in which men are rendered incapable of independent action. According to her, the aim of totalitarian education has never been to instill convictions, but to destroy the ability to form any other (The Origins of Totalitarianism, 1951). Indeed, totalitarian societies are distinguished by the use of an ideology, the promise of a *paradise*, such as the end of history or racial purity. Consequently, they eliminate all forms of opposition through political policing and the use of terror.
+- **Economy:** totalitarian regimes may tolerate private enterprise if it is forced to serve the interests of the state, or demand that the state control all means of production. They see the free market as a threat to general order, because ideal societies must be planned by the authorities.
 
 
-**There are two general categories of totalitarian regimes: left-wing totalitarian (communism, national socialism) and right-wing totalitarian (military dictatorships, fascism). But these categories lose their meaning if we understand that the matrix is the same. This is the case with Hitler and Stalin. Despite their historical antagonism, we find the same cult of the leader, youth recruitment, censorship, surveillance, repression of all opposition, political persecution and the crushing of all individual freedom.
+**There are two general categories of totalitarian regimes**: left-wing totalitarian (communism, national socialism) and right-wing totalitarian (military dictatorships, fascism). But these categories lose their meaning if we understand that the matrix is the same. This is the case with Hitler and Stalin. Despite their historical antagonism, we find the same cult of the leader, youth recruitment, censorship, surveillance, repression of all opposition, political persecution and the crushing of all individual freedom.
 
 
 
@@ -751,19 +748,19 @@ Societal issues are not about money, but about the choices we make about what we
 
 
 
-- Socialists:** Yes, they see a heterosexual majority oppressing a homosexual minority by denying them marriage, and so naturally support the reform. Socialists want to impose a single conception of civil marriage, including homosexuality, to the detriment of those who consider marriage to be only between a man and a woman. Legalizing gay marriage is therefore an act of social justice that promotes a more inclusive and tolerant society. It ensures that same-sex couples enjoy the same legal rights (inheritance, taxation, filiation, etc.) and protections as heterosexual couples, thus bridging a de facto inequality. At the heart of the argument lies the belief that all citizens should be treated equally under the law, regardless of sexual orientation. Denying marriage to same-sex couples is seen as unacceptable discrimination.
+- **Socialists:** Yes, they see a heterosexual majority oppressing a homosexual minority by denying them marriage, and so naturally support the reform. Socialists want to impose a single conception of civil marriage, including homosexuality, to the detriment of those who consider marriage to be only between a man and a woman. Legalizing gay marriage is therefore an act of social justice that promotes a more inclusive and tolerant society. It ensures that same-sex couples enjoy the same legal rights (inheritance, taxation, filiation, etc.) and protections as heterosexual couples, thus bridging a de facto inequality. At the heart of the argument lies the belief that all citizens should be treated equally under the law, regardless of sexual orientation. Denying marriage to same-sex couples is seen as unacceptable discrimination.
 
 
 
-- Conservatives:** No. They see traditional marriage as a fundamental institution of Western civilization, dating back 2,500 years and historically defined as the union between a man and a woman. This definition is not arbitrary, but rests on biological (the ability to procreate naturally) and cultural/religious foundations. A radical redefinition of marriage is seen as a threat to civilized society. To legalize gay marriage would be to denature or redefine this sacred and fundamental institution, emptying it of its original meaning and primary vocation, which is procreation and the foundation of a family in its natural form. Rapidly changing social norms are often viewed with suspicion, as they can lead to a dissolution of reference points and a loss of cultural or national identity. Marriage is seen as a pillar of this order.
+- **Conservatives:** No. They see traditional marriage as a fundamental institution of Western civilization, dating back 2,500 years and historically defined as the union between a man and a woman. This definition is not arbitrary, but rests on biological (the ability to procreate naturally) and cultural/religious foundations. A radical redefinition of marriage is seen as a threat to civilized society. To legalize gay marriage would be to denature or redefine this sacred and fundamental institution, emptying it of its original meaning and primary vocation, which is procreation and the foundation of a family in its natural form. Rapidly changing social norms are often viewed with suspicion, as they can lead to a dissolution of reference points and a loss of cultural or national identity. Marriage is seen as a pillar of this order.
 
 
 
-- Libertarians:** Yes and no. The consistent libertarian approach is to defend the privatization of marriage, i.e. marriage entirely free from state intervention. Marriage is a non-state institution, and the state has no business forcing others to recognize traditional or gay marriage. The solution? Get rid of compulsory civil marriage and leave this role to private associations: churches, synagogues, mosques or private secular organizations. This political solution, which respects property rights and individual freedom, could be called the separation of marriage and state.
+- **Libertarians:** Yes and no. The consistent libertarian approach is to defend the privatization of marriage, i.e. marriage entirely free from state intervention. Marriage is a non-state institution, and the state has no business forcing others to recognize traditional or gay marriage. The solution? Get rid of compulsory civil marriage and leave this role to private associations: churches, synagogues, mosques or private secular organizations. This political solution, which respects property rights and individual freedom, could be called the separation of marriage and state.
 
 
 
-- Centrists:** Yes. Centrists would recognize that society has evolved and that a significant part of the population wants same-sex couples to be recognized. They adhere to the principle of non-discrimination and believe that individuals have the right to lead the lives they choose, including legal unions. They would be sensitive to the argument that same-sex couples should enjoy the same legal rights and protections (inheritance, social protection, taxation) as heterosexual couples. For centrists, the State must reflect the diversity of its citizens and the modernization of the law, while maintaining a certain social cohesion.
+- **Centrists:** Yes. Centrists would recognize that society has evolved and that a significant part of the population wants same-sex couples to be recognized. They adhere to the principle of non-discrimination and believe that individuals have the right to lead the lives they choose, including legal unions. They would be sensitive to the argument that same-sex couples should enjoy the same legal rights and protections (inheritance, social protection, taxation) as heterosexual couples. For centrists, the State must reflect the diversity of its citizens and the modernization of the law, while maintaining a certain social cohesion.
 
 
 ### Immigration
@@ -772,19 +769,19 @@ Societal issues are not about money, but about the choices we make about what we
 
 
 
-- Socialists:** Yes. They see illegal immigrants as an oppressed group and native-born whites, hostile to immigrants, as their oppressors. Moreover, restrictions based on nationality or religion are discriminatory and contrary to human rights. The state has a duty to welcome people in need and to promote diversity and integration.
+- **Socialists:** Yes. They see illegal immigrants as an oppressed group and native-born whites, hostile to immigrants, as their oppressors. Moreover, restrictions based on nationality or religion are discriminatory and contrary to human rights. The state has a duty to welcome people in need and to promote diversity and integration.
 
 
 
-- Conservatives:** No. The state has the sovereign right to control its borders and to choose who enters its territory. Restrictions may be necessary to protect national security, cultural identity or society's ability to integrate. They fear that allowing immigration will destroy the identity of nations, and further undermine the work of even the most modest citizens. Borders and a well-defined population are part of civilized values.
+- **Conservatives:** No. The state has the sovereign right to control its borders and to choose who enters its territory. Restrictions may be necessary to protect national security, cultural identity or society's ability to integrate. They fear that allowing immigration will destroy the identity of nations, and further undermine the work of even the most modest citizens. Borders and a well-defined population are part of civilized values.
 
 
 
-- Libertarians:** Yes and no. Yes to market immigration and no to state immigration. Because in a heavily state-sponsored world, immigration is always subsidized and creates an unfortunate right to the labor of others, i.e., a false right, a form of spoliation. However, from the point of view of the freedom/coercion axis, an open border gives the individual the choice of government and the ability to vote with his or her feet. This is why the best immigration policy would be to de-statize society and let citizens decide.
+- **Libertarians:** Yes and no. Yes to market immigration and no to state immigration. Because in a heavily state-sponsored world, immigration is always subsidized and creates an unfortunate claim to the labor of others, that is, an artificial right, a form of economic transfer. However, from the point of view of the freedom/coercion axis, an open border gives the individual the choice of government and the ability to vote with his or her feet. This is why the best immigration policy would be to reduce state involvement and allow citizens to decide for themselves.
 
 
 
-- Centrists:** Government must manage immigration in a balanced way. While restrictions based on religion are generally unacceptable, those based on nationality or skills may be necessary to meet economic needs and ensure successful integration, while respecting international conventions and human rights.
+- **Centrists:** Government must manage immigration in a balanced way. While restrictions based on religion are generally unacceptable, those based on nationality or skills may be necessary to meet economic needs and ensure successful integration, while respecting international conventions and human rights.
 
 
 ### Firearms
@@ -794,19 +791,19 @@ Societal issues are not about money, but about the choices we make about what we
 
 
 
-- Socialists:** No. Public safety must take precedence over the freedom to own guns. Strict regulation is necessary to reduce violence and guarantee the safety of all, because the state has a duty to protect its citizens.
+- **Socialists:** No. Public safety must take precedence over the freedom to own guns. Strict regulation is necessary to reduce violence and guarantee the safety of all, because the state has a duty to protect its citizens.
 
 
 
-- Conservatives:** In part yes, the right to own a gun for self-defense is an important value. However, regulations to guarantee safety and public order are also necessary, but they must respect this fundamental right.
+- **Conservatives:** In part yes, the right to own a gun for self-defense is an important value. However, regulations to guarantee safety and public order are also necessary, but they must respect this fundamental right.
 
 
 
-- Libertarians:** Yes, the right to arm oneself is an essential component of the right to self-defense. The state should not have a monopoly on force, and individuals should be able to protect themselves without hindrance. But regulating the carrying of weapons should be left to the market, professionals and citizens' associations.
+- **Libertarians:** Yes, the right to arm oneself is an essential component of the right to self-defense. The state should not have a monopoly on force, and individuals should be able to protect themselves without hindrance. But regulating the carrying of weapons should be left to the market, professionals and citizens' associations.
 
 
 
-- Centrists:** No, regulation is essential. While the right to own firearms may exist for certain uses, public safety and the reduction of violence require strict controls (permits, background checks, type of weapons) to strike a balance between freedom and order.
+- **Centrists:** No, regulation is essential. While the right to own firearms may exist for certain uses, public safety and the reduction of violence require strict controls (permits, background checks, type of weapons) to strike a balance between freedom and order.
 
 
 ### The drugs
@@ -816,10 +813,10 @@ Societal issues are not about money, but about the choices we make about what we
 
 
 
-- Socialists: Yes** Penalization is ineffective. Legalization allows control and revenue generation.
-- Conservatives: No.** Consumption is harmful to health and social order.
-- Libertarians: Yes** as long as society is de-staticized. The state has no business interfering in personal decisions as long as they don't directly harm others.
-- Centrists:** Complex debate. Decriminalization possible but strict regulation imperative.
+- **Socialists:** Yes Penalization is ineffective. Legalization allows control and revenue generation.
+- **Conservatives:** No. Consumption is harmful to health and social order.
+- **Libertarians:** Yes provided the state’s role in society is reduced. The state has no business interfering in personal decisions as long as they don't directly harm others.
+- **Centrists:** Complex debate. Decriminalization possible but strict regulation imperative.
 
 
 
@@ -830,19 +827,19 @@ Societal issues are not about money, but about the choices we make about what we
 
 
 
-- Socialists:** Yes. The problem of obesity is the problem of the manufacturers who market soft drinks. The soda tax is a Socialist proposal to combat manufacturers or sellers of sugary drinks accused of making profits at the expense of public health.
+- **Socialists:** Yes. The problem of obesity is the problem of the manufacturers who market soft drinks. The soda tax is a Socialist proposal to combat manufacturers or sellers of sugary drinks accused of making profits at the expense of public health.
 
 
 
-- Conservatives:** In principle, yes. The government's mission is to ensure the health of its citizens. But conservatives generally prefer solutions based on personal responsibility and education. Imposing a tax on sugary drinks would be seen as excessive government interference in citizens' personal decisions.
+- **Conservatives:** In principle, yes. The government's mission is to ensure the health of its citizens. But conservatives generally prefer solutions based on personal responsibility and education. Imposing a tax on sugary drinks would be seen as excessive government interference in citizens' personal decisions.
 
 
 
-- Libertarians:** No. A fundamental principle of libertarianism is that it's unfair to protect people from themselves. Citizens are adults, not children. Attempts to impose better health habits by coercive means are considered costly, ineffective and ultimately counterproductive. The problem of obesity must be tackled by private initiative.
+- **Libertarians:** No. A fundamental principle of libertarianism is that it's unfair to protect people from themselves. Citizens are adults, not children. Attempts to impose better health habits by coercive means are considered costly, ineffective and ultimately counterproductive. The problem of obesity must be tackled by private initiative.
 
 
 
-- Centrists:** Yes, they would be open to the idea of a tax if it were proven to be effective, and if its social and economic drawbacks could be mitigated. They would see it as part of a wider, integrated solution, rather than an isolated measure.
+- **Centrists:** Yes, they would be open to the idea of a tax if it were proven to be effective, and if its social and economic drawbacks could be mitigated. They would see it as part of a wider, integrated solution, rather than an isolated measure.
 
 
 # Economic issues
@@ -868,16 +865,16 @@ Economic issues concern money, such as employment, buying and selling, investmen
 
 
 
-- Socialists:** No. Progressive income taxes are a fundamental tool for redistributing wealth and financing public services (health, education, social protection). They are essential for social justice.
-- Conservatives:** Yes. Lower taxes encourage investment, job creation and economic growth. They encourage individual initiative and reduce government waste. Taxes must be fair and low.
+- **Socialists:** No. Progressive income taxes are a fundamental tool for redistributing wealth and financing public services (health, education, social protection). They are essential for social justice.
+- **Conservatives:** Yes. Lower taxes encourage investment, job creation and economic growth. They encourage individual initiative and reduce government waste. Taxes must be fair and low.
 
 
 
-- Libertarians:** Yes. Taxes are a form of state theft and an impediment to private property. It should be drastically reduced or abolished in favor of voluntary taxation or entirely private services.
+- **Libertarians:** Yes. Taxes are a form of state theft and an impediment to private property. It should be drastically reduced or abolished in favor of voluntary taxation or entirely private services.
 
 
 
-- Centrists:** A tax system must be balanced. A certain degree of progressivity is necessary for solidarity, but taxes that are too high can discourage investment. The goal is a system that finances essential services without stifling the economy.
+- **Centrists:** A tax system must be balanced. A certain degree of progressivity is necessary for solidarity, but taxes that are too high can discourage investment. The goal is a system that finances essential services without stifling the economy.
 
 
 ### Minimum wage
@@ -887,19 +884,19 @@ Economic issues concern money, such as employment, buying and selling, investmen
 
 
 
-- Socialists:** No. The minimum wage is essential to guarantee a dignified life for workers, reduce inequalities and fight poverty. It is a tool of social justice that protects the most vulnerable.
+- **Socialists:** No. The minimum wage is essential to guarantee a dignified life for workers, reduce inequalities and fight poverty. It is a tool of social justice that protects the most vulnerable.
 
 
 
-- Conservatives:** In principle, no, the market must play its role as regulator. However, a minimum wage may be tolerable if it does not excessively hinder the competitiveness of companies. What's important is individual responsibility and job creation, rather than dependence on subsidies.
+- **Conservatives:** In principle, no, the market must play its role as regulator. However, a minimum wage may be tolerable if it does not excessively hinder the competitiveness of companies. What's important is individual responsibility and job creation, rather than dependence on subsidies.
 
 
 
-- Libertarians:** Yes. The minimum wage is an artificial intervention that distorts the labor market, creates unemployment and violates freedom of contract. The market should determine wages through negotiation.
+- **Libertarians:** Yes. The minimum wage is an artificial intervention that distorts the labor market, creates unemployment and violates freedom of contract. The market should determine wages through negotiation.
 
 
 
-- Centrists: No.** No, the minimum wage has an important social role. It must exist, but its level must be adjusted pragmatically to avoid destroying jobs, taking into account the competitiveness of companies and the purchasing power of workers.
+- **Centrists:** No, the minimum wage has an important social role. It must exist, but its level must be adjusted pragmatically to avoid destroying jobs, taking into account the competitiveness of companies and the purchasing power of workers.
 
 
 ### Health care
@@ -909,19 +906,19 @@ Economic issues concern money, such as employment, buying and selling, investmen
 
 
 
-- Socialists:** No. Access to healthcare is a fundamental right, not a commodity. The State must guarantee a universal, publicly-funded healthcare system, so that everyone has access to care, regardless of income.
+- **Socialists:** No. Access to healthcare is a fundamental right, not a commodity. The State must guarantee a universal, publicly-funded healthcare system, so that everyone has access to care, regardless of income.
 
 
 
-- Conservatives:** For the most part, yes. Private markets can be more efficient and reduce the tax burden. The state can play a minimal role for the poorest, but individual responsibility and private insurance are preferable.
+- **Conservatives:** For the most part, yes. Private markets can be more efficient and reduce the tax burden. The state can play a minimal role for the poorest, but individual responsibility and private insurance are preferable.
 
 
 
-- Libertarians:** Yes. Healthcare is a service like any other. The private market is more efficient, innovative and offers consumers more choice. Government intervention leads to inefficiency and bureaucracy. But above all, individuals have the right to choose for themselves if they want to opt out of the social security system.
+- **Libertarians:** Yes. Healthcare is a service like any other. The private market is more efficient, innovative and offers consumers more choice. Government intervention leads to inefficiency and bureaucracy. But above all, individuals have the right to choose for themselves if they want to opt out of the social security system.
 
 
 
-- Centrists:** A mixed system is often the best approach. The State must guarantee universal access and solidarity (basic coverage), while leaving room for the private sector to diversify the offer and innovate, in order to optimize efficiency and quality.
+- **Centrists:** A mixed system is often the best approach. The State must guarantee universal access and solidarity (basic coverage), while leaving room for the private sector to diversify the offer and innovate, in order to optimize efficiency and quality.
 
 
 ### The environment
@@ -931,19 +928,19 @@ Economic issues concern money, such as employment, buying and selling, investmen
 
 
 
-- Socialists:** No. The state must impose strict regulations to protect the environment and combat climate change. The market alone cannot solve these problems, which require collective action and planning. Subsidies are considered necessary to ensure the ecological transition. Moreover, international free trade must be regulated to protect the environment.
+- **Socialists:** No. The state must impose strict regulations to protect the environment and combat climate change. The market alone cannot solve these problems, which require collective action and planning. Subsidies are considered necessary to ensure the ecological transition. Moreover, international free trade must be regulated to protect the environment.
 
 
 
-- Conservatives:** In principle, yes, because freedom of enterprise is important. However, a certain level of regulation is necessary to protect the environment as a heritage and resource, but without stifling the economy.
+- **Conservatives:** In principle, yes, because freedom of enterprise is important. However, a certain level of regulation is necessary to protect the environment as a heritage and resource, but without stifling the economy.
 
 
 
-- Libertarians:** Yes. Environmental regulations are a hindrance to economic freedom and property ownership. They believe that the best way to protect the environment is through private property, not through bureaucratic organizations. They add that owners are more likely to take care of their property, as they have a vested interest in preserving its value. Environmental problems can be solved by the market, individual responsibility and property rights. Polluters must be held responsible for the damage they cause to the environment.
+- **Libertarians:** Yes. Environmental regulations are a hindrance to economic freedom and property ownership. They believe that the best way to protect the environment is through private property, not through bureaucratic organizations. They add that owners are more likely to take care of their property, as they have a vested interest in preserving its value. Environmental problems can be solved by the market, individual responsibility and property rights. Polluters must be held responsible for the damage they cause to the environment.
 
 
 
-- Centrists:** No, self-regulation is not enough. Environmental regulations are necessary to protect the planet and public health. However, they must be designed in such a way as not to penalize business competitiveness excessively, and to encourage green innovation.
+- **Centrists:** No, self-regulation is not enough. Environmental regulations are necessary to protect the planet and public health. However, they must be designed in such a way as not to penalize business competitiveness excessively, and to encourage green innovation.
 
 
 
@@ -954,19 +951,19 @@ Economic issues concern money, such as employment, buying and selling, investmen
 
 
 
-- Socialists:** No. Subsidies may be necessary to support innovation, protect jobs, develop strategic sectors or ensure the ecological transition. The State's role is that of an economic player and planner.
+- **Socialists:** No. Subsidies may be necessary to support innovation, protect jobs, develop strategic sectors or ensure the ecological transition. The State's role is that of an economic player and planner.
 
 
 
-- Conservatives:** In principle, yes, to encourage free competition and individual corporate responsibility. However, exceptions can be made for strategic or national industries that are vital to the country's security or employment.
+- **Conservatives:** In principle, yes, to encourage free competition and individual corporate responsibility. However, exceptions can be made for strategic or national industries that are vital to the country's security or employment.
 
 
 
-- Libertarians:** Yes. Subsidies and bailouts distort the market, favor some companies over others, and create dependency on the state. Companies that fail should go bankrupt.
+- **Libertarians:** Yes. Subsidies and bailouts distort the market, favor some companies over others, and create dependency on the state. Companies that fail should go bankrupt.
 
 
 
-- Centrists:** In general, yes, but with exceptions. Subsidies should be targeted and temporary, justified by a general interest (innovation, ecological transition, strategic sectors). Bailouts should only be considered in the event of a major systemic threat to the economy.
+- **Centrists:** In general, yes, but with exceptions. Subsidies should be targeted and temporary, justified by a general interest (innovation, ecological transition, strategic sectors). Bailouts should only be considered in the event of a major systemic threat to the economy.
 
 
 
@@ -1040,7 +1037,7 @@ According to Hayek, any pretension to scientifically organizing society and the 
 
 Indeed, rules, institutions, practices and other social phenomena are not the result of intentional planning by a central authority.
 
-*Many of the greatest things man has accomplished are not the result of consciously directed thought, still less of a deliberately coordinated effort by many people, but of a process in which the individual plays a role he will never fully understand.* F. Hayek.
+*Many of the greatest things humanity has achieved did not result from consciously directed thought, and even less from a deliberately coordinated effort by many people, but from a process in which the individual plays a role he will never fully understand.* F. Hayek.
 
 
 Languages, for example, or customs, are things created by man. But none of them was conceived by a human being. They all emerged unplanned. The same goes for old currencies, such as metallic coins, or for a new currency like Bitcoin. These are *innovations without permission* that have been elected by the market.
@@ -1064,7 +1061,7 @@ Libertarians are therefore opposed to both socialists and conservatives, i.e., t
 
 
 
-**Politics or the market?
+**Politics or the market?**
 
 Constructivists, centrists, conservatives and socialists all agree on one key point: they consider the political process to be more efficient than the market process.
 
@@ -1120,13 +1117,13 @@ From an ethical and legal point of view, the individual is the only moral agent.
 The fundamental anthropological principle underpinning this well-understood individualism was clearly set out by Immanuel Kant in the 18th century: *Dare to think for yourself*.
 
 
-This injunction, originally taken from an epistle by Horace published twenty years before our era, was taken up and popularized by Immanuel Kant in his essay *What is* Enlightenment? published in 1784. For Kant, this phrase is the motto of the Enlightenment, symbolizing man's emergence from his minority, a state of inability to use his understanding without the guidance of others, for which he himself is responsible, through laziness and cowardice.
+This injunction, originally taken from an epistle by Horace published twenty years before our era, was taken up and popularized by Immanuel Kant in his essay *What is* the Enlightenment? published in 1784. For Kant, this phrase is the motto of the Enlightenment, symbolizing man's emergence from his minority, a state of inability to use his understanding without the guidance of others, for which he himself is responsible, through laziness and cowardice.
 
 
 Human beings are neither mere animals nor slaves. He belongs to himself and is endowed with a free will, a capacity for choice informed by reason. In short, human beings are ends in themselves, not means for others. This is what gives him his moral dignity.
 
 
-But by empowering human beings in this way, individualism can nevertheless seem to many a frightening experience. Are we ready to take responsibility for our own lives?
+But by empowering human beings in this way, individualism nevertheless can seem to many a frightening experience. Are we ready to take responsibility for our own lives?
 
 
 Collectivism, whether economic or political, is a philosophy that relies on an authority outside the individual - the state or the majority - to impose a certain way of life and economic condition on the individual. Decisions are taken in the name of this superior entity. The private interests of individuals must therefore be subordinated to it.
@@ -1171,7 +1168,7 @@ The main difference between the two models of society lies in their attitude to 
 This opposition highlights the fundamental incompatibility between a model based on individual freedom and critical reason, and another founded on organic unity, irrationality and collective submission.
 
 
-But the open society is fragile, always unfinished and constantly being called into question. It is confronted by nostalgic tendencies, the loss of the sense of security that the tribal community embodied for its members, and the desire to restore the original communitarianism, possibly through violence.
+But the open society is fragile, always unfinished and constantly being called into question. It is confronted by nostalgic tendencies, the loss of the sense of security that the tribal community embodied for its members, and the desire to restore the original communitarian order, possibly through violence.
 
 
 
@@ -1214,7 +1211,7 @@ Reading the Satoshi Nakamoto White Paper, we can see that Bitcoin was designed t
 1. Although not totally anonymous, Bitcoin considerably enhances privacy by limiting financial surveillance of individuals. This capability enables, for example, a dissident in a dictatorship to hold and exchange value online without fear of confiscation or censorship. While this may seem a long way off for citizens of democracies, it is a crucial step forward for individual freedoms.
 
 
-2. Bitcoin enables everyone to protect their savings against the spoliation of private property embodied in monetary inflation. It is an attempt to challenge the state's stranglehold on the management of money as an instrument of exchange, and thus to compete with the state. The 2008 financial crisis and the Covid 19 pandemic have highlighted the flaws in the current system. The trillions of dollars printed out of thin air to prevent the economy from collapsing further had devastating effects, which we are still paying for.
+2. Bitcoin enables everyone to protect their savings against the spoliation of private property embodied in monetary inflation. It is an attempt to challenge the state's control on the management of money as an instrument of exchange, and thus to compete with the state. The 2008 financial crisis and the Covid 19 pandemic have highlighted the flaws in the current system. The trillions of dollars printed out of thin air to prevent the economy from collapsing further had devastating effects, which we are still paying for.
 
 
 ![Bitcoin Counterflow Abstract](./assets/fr/021.webp)
@@ -1254,10 +1251,10 @@ It prevents the use of money for political purposes such as: public spending, wa
 
 
 - The government can take the euros from your bank account.
-- He can take your house and your land.
-- He can take your shares.
-- He can take your gold.
-- He can take everything from you.
+- It can take your house and your land.
+- It can take your shares.
+- It can take your gold.
+- It can take everything from you.
 
 
 But the government can't take your bitcoins, because it can't confiscate the contents of your mind.
@@ -1362,13 +1359,13 @@ In fact, the real political divide lies in fundamental philosophical principles:
 The right way to think about politics is to start from ethical principles rather than labels.
 
 
-From then on, the political question was no longer: *do you want to make the important decisions in your life, or do you want someone else to make them for you? *do you want to make the important decisions in your life, or do you want someone else to make them for you?
+From then on, the political question was no longer: *do you want to make the important decisions in your life, or do you want someone else to make them for you?*
 
 
 On a more general level, the philosophical question is this: *should social organization be the product of a deliberate plan devised and imposed by the political class, or the result of a free evolution that emerges from voluntary interactions between all the players in economic and social life?*
 
 
-**An ignored political family: the libertarians
+**An ignored political family: the libertarians**
 
 
 This new political divide, based on opposition between principles, brings to light a political family that is very real but often ignored by the general public: the libertarians.
@@ -1379,7 +1376,7 @@ From a libertarian point of view, individuals have both the right and the respon
 
 But why should some impose their lifestyle and worldview on others?
 
-In a genuine regime of freedom, those who adhere to the ideals of the Left can live according to their principles. They are free to give up their possessions, to share the means of production they own, or to donate their wages to an organization of their choice, which could redistribute these funds to the most disadvantaged or support cultural initiatives and businesses that promote employment.
+In a genuine regime of freedom, those who adhere to the ideals of the left can live according to their principles. They are free to give up their possessions, to share the means of production they own, or to donate their wages to an organization of their choice, which could redistribute these funds to the most disadvantaged or support cultural initiatives and businesses that promote employment.
 
 
 By the same token, in this regime of freedom, those who share right-wing values have the right to live according to their convictions: to work hard, to save, to pass on family and national values to their children, to avoid content contrary to their morals, or to choose not to employ this or that type of worker. No one should impose their way of life on others. It is through the freedom of the market and the power of choice that our goals can be achieved peacefully.
@@ -1388,7 +1385,7 @@ By the same token, in this regime of freedom, those who share right-wing values 
 In short, the fundamental divergence between political trends lies in the role of the centralized state: socialists and conservatives use the state to impose their vision of society, while libertarians advocate decentralization, leaving individuals and private communities to define and organize society, according to their preferences and in line with property rights.
 
 
-**And what about Bitcoin?
+**And what about Bitcoin?**
 
 
 That's why Bitcoin is also a political rupture. It's a peaceful revolt against the politicization of money and its confiscation by a small minority. Bitcoin is not about right and left. On the contrary, it's a market currency opposed to state money.

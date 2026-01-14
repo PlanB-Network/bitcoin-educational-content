@@ -72,10 +72,10 @@ Seuraavassa näytössä voit tarkistaa antamasi numeron. Jos se on oikea, napsau
 Telegram on nyt täysin toimiva mobiililaitteessa, joten voimme siirtyä ensimmäisiin perusasetuksiin.
 
 
-# Turvallisuus- ja yksityisyysasetukset
+## Turvallisuus- ja yksityisyysasetukset
 
 
-## Käyttäjätunnuksen konfigurointi
+### Käyttäjätunnuksen konfigurointi
 
 
 Telegram-käyttäjätunnus - jota kutsutaan joskus myös nimellä `handle` - on paljon enemmän kuin pelkkä mielikuvitus. Käsilehti on todellakin **yksilöllinen jokaiselle käyttäjälle**.
@@ -129,7 +129,7 @@ Käyttäjätunnuksen ainutkertaisuuden ansiosta he eivät voi.
 **Mitä he voivat tehdä, on näyttää "samankaltaisen" kahvan, joka on hieman muuttunut (kirjain/numero), niin että vain tarkkaavainen silmä voi selvästi nähdä, että kyseessä on huijari**. Kiinnitä aina huomiota käyttäjätunnukseen, niin huijareilla ei ole helppoa peliä.
 
 
-## Yksityisyys
+### Yksityisyys
 
 
 Toinen tärkeä varotoimi, jonka voit toteuttaa, on rajoittaa tietoja, jotka annat ulos äskettäin luodulta tililtäsi.
@@ -165,7 +165,7 @@ Nämä toimenpiteet estävät puhelinnumerosi paljastamisen, joten et saa ei-toi
 Nyt kun Telegram-tilisi on perustettu ja olet saanut hieman yksityisyyttä, voit alkaa käyttää sitä.
 
 
-## Yhteystietojen ja keskustelujen lisääminen
+### Yhteystietojen ja keskustelujen lisääminen
 
 
 Jos tilisi on juuri luotu, on todennäköistä, että pääsivu on täysin tyhjä.
@@ -229,7 +229,7 @@ Oletusarvoisesti kaikki, yksittäisistä käyttäjistä temaattisiin kanaviin, t
 ⚠️Attention: **Vältä liittymistä ryhmiin ja kanaviin varmistamatta niiden aitoutta**. Jos haluat löytää seuraamasi yrityksen tai aiheen virallisen Telegram-kanavan/ryhmän, pyydä apua virallisten verkkosivujen _Contacts_-osiosta tai erittäin luotettavista lähteistä.
 
 
-### Kehittyneet viestiominaisuudet
+#### Kehittyneet viestiominaisuudet
 
 
 Telegramin avulla voit käyttää ainutlaatuisia lisäominaisuuksia viestien vaihtoon. Siirry chattiin ja napsauta taustaa, minkä tahansa toisen lähettäjän viestin vieressä.
@@ -257,7 +257,7 @@ Voit myös liittää suuria tiedostoja ja vaihtaa "raskasta" mediaa helposti, pa
 ![image](assets/en/46.webp)
 
 
-### Henkilökohtainen pilvi
+#### Henkilökohtainen pilvi
 
 
 Telegramin monien uskomattomien ominaisuuksien joukossa on myös henkilökohtainen pilvi, joka on tätä kirjoitettaessa **rajoittamaton**.
@@ -285,7 +285,7 @@ Chat ilmestyy etualalle, valmiina käytettäväksi.
 ***
 
 
-## Viestien ajoittaminen ja hiljainen lähettäminen
+### Viestien ajoittaminen ja hiljainen lähettäminen
 
 
 Muut hyödylliset lisäominaisuudet mahdollistavat viestien lähettämisen vastaanottajien yksityisyyttä kunnioittaen, äänettömän lähetyksen valitsemisen ja viestin ajoittamisen sopiviin aikoihin ja päiviin.
@@ -301,7 +301,7 @@ Sinun tarvitsee vain kirjoittaa viesti, mutta sen sijaan, että lähettäisit se
 ![image](assets/en/48.webp)
 
 
-### Puhelimen välimuistin tyhjentäminen
+#### Puhelimen välimuistin tyhjentäminen
 
 
 Toinen hyödyllinen tapa pitää puhelin tehokkaana on tyhjentää Telegramin välimuisti aika ajoin. Riippuen siitä, kuinka monta ryhmää ja kanavaa seuraat, näistä lähteistä tuleva tieto ja media voi nimittäin kerääntyä välimuistiin, mikä tekee puhelimestasi hitaan.
@@ -350,7 +350,7 @@ Seuraavassa kuvassa näet, mistä tämä asetus löytyy.
 ![image](assets/en/28.webp)
 
 
-## Telegram-työpöytä
+### Telegram-työpöytä
 
 
 Telegramia voi käyttää tietokoneelta, jolloin se synkronoidaan puhelimessa näkyvän tilin kanssa. Voit halutessasi olla lataamatta sovellusta ja käyttää sitä vain verkon kautta. Tässä versiossa on kuitenkin rajoituksia verrattuna tietokoneella ajettavaan versioon, joten suosittelen sen lataamista ja asentamista, jotta voit hyödyntää tätä tehokasta työkalua parhaalla mahdollisella tavalla.
@@ -421,7 +421,7 @@ Puhelimesi ilmoitus vahvistaa, että uusi laite on lisätty onnistuneesti.
 Erityisesti Telegram on aktiivinen ja käyttökelpoinen myös pöytätietokoneellasi.
 
 
-### Ryhmäpuhelu
+#### Ryhmäpuhelu
 
 
 Jos olet Telegram-ryhmän ylläpitäjä tai omistaja, voit aloittaa puhelun ryhmän valikosta. Näin voit tehdä suoratoistoja useiden osallistujien kanssa, nauhoittaa niitä ääni- ja videona, jakaa niitä tai käyttää niitä esimerkiksi koulutustarkoituksiin.
@@ -433,7 +433,7 @@ Seuraavassa kuvassa näet, miten ryhmäpuhelun voi aloittaa Telegramin työpöyd
 ![image](assets/en/47.webp)
 
 
-### Lopulliset näkökohdat
+#### Lopulliset näkökohdat
 
 
 Nyt kun olet lukenut tämän opetusohjelman läpi, pystyt täydellisesti valitsemaan, miten Telegramia käytetään, ilman, että sen käyttäjien tai valtavirran aiheuttama melu vaikuttaa siihen. Voit aloittaa miedolla lähestymistavalla ja selvittää sitten, miten voit hyödyntää sitä, henkilökohtaisiin tarpeisiisi, tätä viestisovellusta.

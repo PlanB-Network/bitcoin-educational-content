@@ -1,0 +1,18 @@
+title: "Zerocoin: Anonymous Distributed E-Cash from Bitcoin"
+original_language: en
+authors:
+  - Ian Miers
+  - Christina Garman
+  - Matthew Green
+  - Aviel D. Rubin
+abstract: |
+  Bitcoin is the first e-cash system to see widespread adoption. While Bitcoin offers the potential for new types of financial interaction, it has significant limitations regarding privacy. Specifically, because the Bitcoin transaction log is completely public, users’ privacy is protected only through the use of pseudonyms. In this paper we propose Zerocoin, a cryptographic extension to Bitcoin that augments the protocol to allow for fully anonymous currency transactions. Our system uses standard cryptographic assumptions and does not introduce new trusted parties or otherwise change the security model of Bitcoin. We detail Zerocoin’s cryptographic construction, its integration into Bitcoin, and examine its performance both in terms of computation and impact on the Bitcoin protocol.
+publication_date: 2017-05-19
+paper_type: conference
+source: IEEE
+topics:
+  - Zero-Knowledge Proofs
+  - Privacy-Preserving Protocols
+  - Anonymous Transaction Systems
+pdf_url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6547123
+id: 4eb369f0-25ee-44c9-9c99-0f47f50ae88f

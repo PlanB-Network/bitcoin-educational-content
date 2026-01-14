@@ -1,9 +1,9 @@
 question: Ni hehe Satoshi Nakamoto yasohoye igitabu cera ca Bitcoin ku wa 31 Gitugutu 2008?
-answer: Urutonde rw'ubutumwa rw'ibanga
+answer: Urutonde rw'ubutumwa rw'ukunyegeza amakuru(The Cryptography mailing list)
 wrong_answers:
   - Reddit
   - Twitter
-  - Amakuru y'abasuma
+  - Hackernews
 explanation: |
   Nk'uwakurikiye urutonde rw'ubutumwa bwa cypherpunks, uru rutonde rw'ubutumwa rwa email rwacungiwe n'umuhinguzi Perry Metzger kuva mu 1996.
 reviewed: true

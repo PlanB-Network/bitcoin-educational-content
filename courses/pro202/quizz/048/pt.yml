@@ -1,0 +1,8 @@
+question: O que acontece quando se constrói uma árvore de Merkle a partir de transacções se o número de hashes em qualquer nível for ímpar?
+answer: O último hash é duplicado para criar um número par de pares para o nível seguinte
+wrong_answers:
+  - O último hash é transportado inalterado para o nível seguinte sem emparelhamento
+  - O último hash é XORed com o primeiro hash desse nível para completar o emparelhamento
+  - O último hash é combinado com um hash nulo (todos os zeros) para criar o par final
+explanation: |
+  A construção da árvore Merkle do Bitcoin requer o emparelhamento de hashes em cada nível. Quando existe um número ímpar, o protocolo duplica especificamente o último hash para garantir o emparelhamento correto. Isto mantém a estrutura binária da árvore e assegura o cálculo determinístico da raiz. As outras opções quebrariam a compatibilidade com as regras de consenso do Bitcoin e criariam diferentes raízes Merkle para conjuntos de transacções idênticos.

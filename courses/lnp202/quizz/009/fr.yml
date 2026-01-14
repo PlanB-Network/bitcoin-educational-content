@@ -1,0 +1,9 @@
+question: Quel pouvoir un opérateur custodial détient-il sur les paiements de ses utilisateurs ?
+answer: Pouvoir de censure
+wrong_answers:
+  - Pouvoir de minage
+  - Pouvoir de consensus
+  - Pouvoir de halving
+explanation: |
+  Un opérateur qui contrôle les fonds et les canaux peut bloquer, retarder ou filtrer les paiements.
+reviewed: false

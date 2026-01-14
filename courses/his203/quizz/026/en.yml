@@ -1,0 +1,9 @@
+question: What was the main advantage of the simplified payment verification (SPV) implemented in BitCoinJ and used by lightweight wallets like Bitcoin Wallet for Android?
+answer: It enabled transactions to be verified without having to download the entire blockchain
+wrong_answers:
+  - It automatically shuffled bitcoins on receipt of a payment to improve confidentiality
+  - It encrypted wallet data using the AES-256 algorithm to prevent Trojan horse theft
+  - It made it possible to secure the connection to an existing node to prevent attacks exploiting the malleability of transactions
+explanation: |
+ Simplified Payment Verification (SPV) was a crucial innovation described in the Bitcoin white paper that enabled thin clients to verify that their transactions belonged on the blockchain without needing to download and store the entire data.
+reviewed: false

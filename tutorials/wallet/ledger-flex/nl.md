@@ -82,7 +82,7 @@ Bij het openen zou je de volgende items in de doos moeten vinden:
 ![LEDGER FLEX](assets/notext/05.webp)
 
 
-Voor deze tutorial heb je 2 stukjes software nodig: Ledger Live om de Ledger Flex te initialiseren, en Sparrow wallet om je Bitcoin Wallet te beheren. Download [Ledger Live] (https://www.Ledger.com/Ledger-live) en [Sparrow wallet] (https://sparrowwallet.com/download/) van hun officiële websites.
+Voor deze tutorial heb je 2 stukjes software nodig: Ledger Live om de Ledger Flex te initialiseren, en Sparrow wallet om je Bitcoin Wallet te beheren. Download [Ledger Live](https://www.Ledger.com/Ledger-live) en [Sparrow wallet](https://sparrowwallet.com/download/) van hun officiële websites.
 
 
 ![LEDGER FLEX](assets/notext/06.webp)

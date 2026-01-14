@@ -1,9 +1,9 @@
-question: Ni uruhe rwego rwa porogarama rugereranya kimwe mu bibanza bihambaye cane vyo kwinjiramwo ibitero kuri mudasobwa?
-answer: Umucukumbuzi w'urubuga
+question: Ni uruhe rwego rwa porogarame bigaragara ko ari rumwe mu bibanza bihambaye cane vyo kwinjiramwo ibitero vy’inyabwonko?
+answer: Mucukumbuzi
 wrong_answers:
   - Umusomyi wa PDF
-  - Umuhinduzi w'inyandiko
-  - Umuyobozi wa dosiye
+  - Umuhinduzi w’inyandiko
+  - Igice kijejwe gutunganya dosiye
 explanation: |
-  Uwo mucukumbuzi w’urubuga aguma abona ibintu vyo hanze, ivyo bikaba bituma abasuma bashobora gutera.
-reviewed: false
+  Mucukumbuzi iguma ikorana n’ibintu vyo hanze, ivyo bikaba bituma iba ikintu cambere co guterwa n’abasuma.
+reviewed: true

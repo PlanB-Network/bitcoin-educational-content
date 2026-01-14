@@ -1,0 +1,8 @@
+question: Hvilken informasjon blir avslørt til Bitcoin-nettverket i et Taproot-aktivert HTLC-nettverk når byttet mislykkes og en av partene må få tilbake pengene sine gjennom den kontradiktoriske stien?
+answer: Bare den spesifikke Merkle-tregrenen som inneholder hash-/tidslåsingsbetingelsene som er nødvendige for fondsgjenoppretting
+wrong_answers:
+  - "Den komplette skriptlogikken, inkludert alle mulige kjøringsveier og begge parters individuelle offentlige nøkler"
+  - Preimage-hemmeligheten og alle aggregerte offentlige nøkler som brukes i MuSig2-nøkkelkombinasjonsprosessen
+  - Hele HTLC-kontraktsvilkårene, inkludert swapbeløp, tidsrammer og både Lightning- og Liquid-adresser
+explanation: |
+  Taproot organiserer HTLC-betingelsene i en Merkle-tre-struktur, noe som muliggjør selektiv offentliggjøring. Når samarbeidet mislykkes, avsløres bare den spesifikke grenen som trengs for å bevise retten til å få tilbake penger, mens andre kontraktsdetaljer forblir skjult. Dette er ulikt eldre HTLC-er som avslørte komplette skript, og skiller seg fra samarbeidstilfeller der ingen skriptdetaljer avsløres i det hele tatt.

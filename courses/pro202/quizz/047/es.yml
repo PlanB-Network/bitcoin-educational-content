@@ -1,0 +1,8 @@
+question: ¿Cuál es la fórmula matemática utilizada para calcular la subvención por bloque a cualquier altura de bloque h en el protocolo de Bitcoin?
+answer: subvención = 5_000_000_000 >> (h // 210_000)
+wrong_answers:
+  - subvención = 50_000_000_000 / (2^(h / 210_000))
+  - subvención = 5_000_000_000 * (0,5^(h % 210_000))
+  - subvención = 50_000_000_000 >> (h % 210_000)
+explanation: |
+  La fórmula correcta utiliza operaciones de desplazamiento de bits en las que 5_000_000_000 representa 50 BTC en satoshis, y el operador de desplazamiento a la derecha >> divide efectivamente por potencias de 2. La división de suelo h // 210_000 determina cuántos periodos de división a la mitad se han producido. La primera respuesta errónea utiliza la división normal en lugar del desplazamiento de bits y comienza con un valor base incorrecto. La segunda utiliza el módulo en lugar de la división por el valor mínimo, lo que crearía un patrón cíclico en lugar de una división progresiva por la mitad. La tercera utiliza la operación módulo, lo que reiniciaría el contador de divisiones por la mitad cada 210.000 bloques en lugar de acumular divisiones por la mitad a lo largo del tiempo.

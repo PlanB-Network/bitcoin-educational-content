@@ -1,0 +1,8 @@
+question: Wenn ein Bitcoin-Knoten mit dem Befehl getheaders Block-Header anfordert, wie viele Header können maximal in einer einzigen Antwort zurückgegeben werden, und was folgt auf jeden 80-Byte-Header?
+answer: Bis zu 2000 Kopfzeilen können zurückgegeben werden, jeweils gefolgt von einer Dummy-Transaktionszahl von Null
+wrong_answers:
+  - Es können bis zu 1000 Kopfzeilen zurückgegeben werden, jeweils gefolgt von der tatsächlichen Anzahl der Transaktionen als varint
+  - Es können bis zu 2000 Kopfzeilen zurückgegeben werden, jeweils gefolgt von einer 4-Byte-Prüfsumme der Kopfdaten
+  - Bis zu 500 Kopfzeilen können zurückgegeben werden, jeweils gefolgt vom Merkle-Root-Hash zur Überprüfung
+explanation: |
+  Das P2P-Protokoll von Bitcoin beschränkt die getheaders-Antworten ausdrücklich auf maximal 2000 Header, um zu verhindern, dass die Knoten mit massiven Antworten überfordert werden. Jeder Header besteht aus genau 80 Byte und wird von einem Transaktionszählfeld gefolgt, das auf Null gesetzt ist, da Nachrichten, die nur Header enthalten, keine tatsächlichen Transaktionen beinhalten. Dieses Design ermöglicht eine effiziente Kettensynchronisierung, bei der die Knoten die proof-of-work-Kettenstruktur schnell herunterladen und überprüfen können, bevor sie die vollständigen Blockdaten anfordern.

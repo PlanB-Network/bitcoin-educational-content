@@ -92,7 +92,7 @@ Saate sellele klõpsata ja näha sünkroonimise staatust:
 Samuti võite klõpsata nupule "Näita LND logi" (A), kui soovite näha ja lugeda LND logi tehnilisi üksikasju reaalajas. See on väga kasulik vigade kõrvaldamiseks ja LN tööpõhimõtete tundmaõppimiseks.
 
 
-B - Siin saate juurdepääsu kõigile Blixt seaded, ja on palju! Blixt pakub palju rikkalikke funktsioone ja võimalusi, et hallata oma LN sõlme nagu profi. Kõik need valikud on üksikasjalikult selgitatud "[Blixt Features Page] (https://blixtwallet.github.io/features#blixt-options) - Options Menu".
+B - Siin saate juurdepääsu kõigile Blixt seaded, ja on palju! Blixt pakub palju rikkalikke funktsioone ja võimalusi, et hallata oma LN sõlme nagu profi. Kõik need valikud on üksikasjalikult selgitatud "[Blixt Features Page](https://blixtwallet.github.io/features#blixt-options) - Options Menu".
 
 
 C - Siin on menüü "Magic Drawer", [siin on ka üksikasjalik selgitus](https://blixtwallet.github.io/features#blixt-drawer). Siin on "Onchain Wallet" (B), Lightning Channels (C), Contacts, Channels status icon (A), Keysend (D).
@@ -328,7 +328,7 @@ Nüüd saate minna Magic Drawer (ülemine vasakpoolne menüü) - Lightning Chann
 ![blixt](assets/en/18.webp)
 
 
-See plokk number 764272 on siis, kui vahendid on kasutatavad teie Bitcoin onchain Address. Ja see võib võtta kuni 144 plokki alates 1. kinnituse plokist kuni vabastatakse. [Nii et kontrollige, et Mempool] (https://Mempool.space/).
+See plokk number 764272 on siis, kui vahendid on kasutatavad teie Bitcoin onchain Address. Ja see võib võtta kuni 144 plokki alates 1. kinnituse plokist kuni vabastatakse. [Nii et kontrollige, et Mempool](https://Mempool.space/).
 
 
 Ja see ongi kõik. Lihtsalt oodake kannatlikult, kuni kõik kanalid on suletud ja vahendid tagasi teie onchain Wallet-sse.
@@ -546,7 +546,7 @@ asia.blixtwallet.com
 Teine võimalus on valida üks sellest loetelust sõlmede teatamise "kompaktsed filtrid" (BIP157 / neutriino) - [Bitnodes Page Neutrino filter](https://bitnodes.io/nodes/?q=NODE_COMPACT_FILTERS). Valige üks, mis on teie geograafilisele asukohale lähemal.
 
 
-Teine võimalus (parim viis) on luua ühendus kohaliku kogukonna sõlmpunktiga, mida juhib sõber või rühm, keda te tunnete ja mis pakub neutriinode ühendust. [Siin on juhised, kuidas seda teha.] (https://docs.lightning.engineering/lightning-network-tools/LND/enable-neutrino-mode-in-Bitcoin-core) Nende sõlme ei mõjuta see kuidagi, nad vajavad lihtsalt stabiilset ja avalikku ühendust.
+Teine võimalus (parim viis) on luua ühendus kohaliku kogukonna sõlmpunktiga, mida juhib sõber või rühm, keda te tunnete ja mis pakub neutriinode ühendust. [Siin on juhised, kuidas seda teha.](https://docs.lightning.engineering/lightning-network-tools/LND/enable-neutrino-mode-in-Bitcoin-core) Nende sõlme ei mõjuta see kuidagi, nad vajavad lihtsalt stabiilset ja avalikku ühendust.
 
 
 LATAMi piirkonnas on vaja rohkem neutriinoservereid, et tagada parem ja kiire sünkroniseerimine. Nii et palun organiseerige end, koos oma kohaliku Bitcoin kogukonnaga ja otsustage, kes ja kus töötab Bitcoin Core + Neutrino teie enda jaoks. Piisab vaid avalikust IP-st. Kui teil ei ole juurdepääsu avalikule IP-le, võite kasutada VPS-i IP-d ja teha wireguard-tunneli oma kodusõlme. Nii suunate kogu liikluse ümber oma kohalikule VPS-i IP-le, ilma et avaldaksite oma kodusõlme kohta mingit privaatset teavet.
@@ -626,7 +626,7 @@ Nagu ma kirjutasin [Blixt guides leheküljel](https://blixtwallet.github.io/guid
 - avatud tuntud LSP-sõlmede ja kogukonna poolt garanteeritud eakaaslastega. [Vaata siit nimekirja](https://github.com/hsjoberg/blixt-Wallet/issues/1033)
 - ei avane ainult juhuslikke Tor-sõlmi. Need on väärtusetud ja te saate ainult probleeme, et ei saa teha makseid. Ükskõik kui hea on teie sõber "node runner" shity Tor-sõlme džunglis, see ei anna teile kunagi parimaid marsruute mobiilse privaatsõlme. Sa ei ava kanaleid kellegagi, sest on sinu sõber. See ei ole Facebook! Sa avad kanali: head marsruudid, väikesed tasud, kättesaadavus.
 - ei ole vaja avada kuradi palju väikseid kanaleid, 2-3 või maksimaalselt 4, kuid hea kogus Sats. Ärge avage väikseid kanaleid, on täiesti kasutud. Väiksemad kui 200k mobiilile ei ole palju kasu.
-- pidage meeles LSPsid, mis pakuvad sissetulevaid kanaleid ja JIT-kanaleid (just in time). Need on väga kasulikud, sest te ei pea kasutama ühtegi oma UTXO-d, saate avada kanalit rahaliste vahenditega, mis teil juba on teistes LN rahakottides, kuhjates ja valmistades neid ette suurema kanali avamiseks. Te peaksite neid JIT-kanaleid enda kasuks kasutama. [Olen selgitanud selles juhendis] (https://darth-coin.github.io/nodes/managing-lightning-node-liquidity-en.html) rohkem võimalusi eakaaslaste jaoks privaatsõlmede jaoks, nagu Blixt. Samuti [siin selles SN-i postitatud juhendis](https://stacker.news/items/679242/r/DarthCoin) selgitasin, kuidas hallata privaatsete mobiilsete sõlmede likviidsust.
+- pidage meeles LSPsid, mis pakuvad sissetulevaid kanaleid ja JIT-kanaleid (just in time). Need on väga kasulikud, sest te ei pea kasutama ühtegi oma UTXO-d, saate avada kanalit rahaliste vahenditega, mis teil juba on teistes LN rahakottides, kuhjates ja valmistades neid ette suurema kanali avamiseks. Te peaksite neid JIT-kanaleid enda kasuks kasutama. [Olen selgitanud selles juhendis](https://darth-coin.github.io/nodes/managing-lightning-node-liquidity-en.html) rohkem võimalusi eakaaslaste jaoks privaatsõlmede jaoks, nagu Blixt. Samuti [siin selles SN-i postitatud juhendis](https://stacker.news/items/679242/r/DarthCoin) selgitasin, kuidas hallata privaatsete mobiilsete sõlmede likviidsust.
 
 
 ---

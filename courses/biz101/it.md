@@ -936,7 +936,7 @@ Per quanto riguarda gli esempi reali, si pensi a un negozio di e-commerce di med
 
 ![BIZ101-profiles](assets/it/028.webp)
 
-*[Credit: negozio Bitcoin Bazar a Parigi, Francia] (https://bitcoinbazar.fr/)*
+*[Credit: negozio Bitcoin Bazar a Parigi, Francia](https://bitcoinbazar.fr/)*
 
 Per approfondire le specifiche di implementazione ed esplorare le configurazioni pratiche di BTC Pay Server, fate riferimento al seguente corso:
 

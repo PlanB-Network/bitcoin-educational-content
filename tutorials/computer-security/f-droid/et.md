@@ -167,7 +167,7 @@ Seejärel peate koostama YAML-faili (metaandmed), mis kirjeldab teie rakendust, 
 
 
 
-[Dokumentatsiooni] (https://f-droid.org/en/docs/) jaotises **Developers** leiate kõik ressursid, mida vajate oma rakenduste avaldamiseks ja hooldamiseks F-Droidis.
+[Dokumentatsiooni](https://f-droid.org/en/docs/) jaotises **Developers** leiate kõik ressursid, mida vajate oma rakenduste avaldamiseks ja hooldamiseks F-Droidis.
 
 
 

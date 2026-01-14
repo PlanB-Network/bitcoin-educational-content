@@ -53,16 +53,17 @@ Dưới đây là bảng so sánh nhanh giữa White Noise và một số ứng 
 
 
 
-| Points de comparaisons      | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
-| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
-| Chiffrement E2EE / 1:1      | ✅ Oui       | Facultatif | ✅ Oui           | ✅ Oui   | ✅ Oui    | ✅ Oui            | ✅ Oui  |
-| Chiffrement de groupe E2EE  | ✅ Oui       | ❌ Non      | ✅ Oui           | ✅ Oui   | ✅ Oui    | Facultatif       | ✅ Oui  |
-| Anonymisation de l'identité | ✅ Oui       | Facultatif | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Serveur open source         | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Client open source          | ✅ Oui       | ✅ Oui      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Serveur décentralisé        | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Année de création           | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
+
+| Điểm so sánh                | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| Mã hóa E2EE / 1:1           | ✅ Có         | Tùy chọn   | ✅ Có             | ✅ Có    | ✅ Có     | ✅ Có              | ✅ Có   |
+| Mã hóa nhóm E2EE            | ✅ Có         | ❌ Không    | ✅ Có             | ✅ Có    | ✅ Có     | Tùy chọn          | ✅ Có   |
+| Ẩn danh danh tính           | ✅ Có         | Tùy chọn   | ❌ Không          | ✅ Có    | ❌ Không  | ❌ Không           | ❌ Không|
+| Máy chủ mã nguồn mở         | ✅ Có         | ❌ Không    | ❌ Không          | ✅ Có    | ❌ Không  | ❌ Không           | ✅ Có   |
+| Ứng dụng mã nguồn mở        | ✅ Có         | ✅ Có        | ❌ Không          | ✅ Có    | ❌ Không  | ❌ Không           | ✅ Có   |
+| Máy chủ phi tập trung       | ✅ Có         | ❌ Không    | ❌ Không          | ✅ Có    | ❌ Không  | ❌ Không           | ❌ Không|
+| Năm thành lập               | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
 ## Bắt đầu với White Noise
 

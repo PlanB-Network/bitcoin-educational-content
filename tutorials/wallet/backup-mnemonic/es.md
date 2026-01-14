@@ -1,5 +1,5 @@
 ---
-name: Guarda tu frase mnemotécnica
+name: Guardar su frase mnemónica
 description: Descubra las mejores prácticas para proteger su monedero Bitcoin
 ---
 ![cover](assets/cover.webp)

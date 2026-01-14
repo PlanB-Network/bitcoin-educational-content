@@ -2,8 +2,8 @@ question: Welche alternative Lösung wird für Unternehmen genannt, die eine All
 answer: Be-BOP
 wrong_answers:
   - Phoenix
-  - Knotenpunkt öffnen
-  - Schweizer Bitcoin Pay
+  - Open NOde
+  - Swiss Bitcoin Pay
 explanation: |
   Be-BOP ist eine Option für diejenigen, die einen integrierten Online-E-Store wünschen, der Bitcoin-Zahlungen ermöglicht.
-reviewed: false
+reviewed: true

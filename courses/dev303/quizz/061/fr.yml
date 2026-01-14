@@ -1,8 +1,8 @@
 question: Quelle est la différence fondamentale entre le traitement des macros et des fonctions dans Rust ?
-answer: Les macros sont développées par le compilateur au moment de la compilation, avant que celle-ci ne commence, tandis que les fonctions sont appelées au moment de l'exécution
+answer: Les macros sont développées par le compilateur au moment de la compilation, avant que celle-ci ne commence, tandis que les fonctions sont appelées au moment de l'exécution.
 wrong_answers:
-  - Les macros utilisent la correspondance des motifs pour la vérification des types, tandis que les fonctions utilisent l'analyse statique pour la validation au moment de l'exécution
-  - Macros Code assembleur optimisé generate directement tandis que les fonctions sont interprétées par la machine virtuelle Rust
-  - Les macros sont stockées en mémoire pendant l'exécution, tandis que les fonctions sont chargées à partir du disque lorsqu'elles sont appelées
+  - Les macros utilisent la correspondance des motifs pour la vérification des types, tandis que les fonctions utilisent l'analyse statique pour la validation au moment de l'exécution.
+  - Macros Code assembleur optimisé généré directement tandis que les fonctions sont interprétées par la machine virtuelle Rust.
+  - Les macros sont stockées en mémoire pendant l'exécution, tandis que les fonctions sont chargées à partir du disque lorsqu'elles sont appelées.
 explanation: |
   La bonne réponse identifie la distinction temporelle clé : les macros opèrent pendant la compilation à travers l'expansion du code, tandis que les fonctions s'exécutent pendant l'exécution du programme. Les mauvaises réponses confondent plusieurs concepts de programmation - Rust n'utilise pas de machine virtuelle, les macros et les fonctions sont soumises à une vérification de type (mais à des étapes différentes), et ni les fonctions ni les macros ne sont chargées à partir du disque pendant l'exécution de la manière décrite.

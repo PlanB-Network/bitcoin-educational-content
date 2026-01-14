@@ -855,50 +855,49 @@ Muri Moyen Empire, ifeza ntiyakoreshwa cane mu bikorwa vya misi yose, ivyo bikab
 
 
 
-Mu Bwami Bushasha, uburyo bw’amahera bwararushirije kuba ubugoyagoye, bushiramwo amafaranga atandukanye y’ibicuruzwa afise agaciro k’ivyuma (inzahabu, ifeza, umuringa), ibitambaro bihuye, ibinyampeke n’amavuta. Impuzu zari zitwa "ingero z'impuzu". **Ibiciro vy’ibintu vya misi yose vyari vyerekanwa kenshi mu ntete canke mu muringa, mu gihe ibintu vy’agaciro vyahabwa agaciro mu nzahabu canke mu feza. Ifeza, iyo yari gake cane mu Misiri kuruta inzahabu, ni yo yaciye igira agaciro cane.** Ifeza yari ifise agaciro karenze urugero ugereranije n’inzahabu, iyo na yo ikaba yari nyinshi cane muri Misiri.
+Muri Nouvel Empire, uburyo bw’amahera bwararushirije kuduga, bushiramwo amafaranga atandukanye y’ibicuruzwa afise agaciro k’ivyuma (inzahabu, ifeza, umuringa), ibitambaro vyingero, intete n’amavuta. Impuzu zari zitwa "ingero z'impuzu". **Ibiciro vy’ibintu vya misi yose vyari vyerekanwa kenshi mu ntete canke muri cuivre, mu gihe ibintu vy’agaciro vyahabwa agaciro mu nzahabu canke mu feza. Ifeza, iyo yari gake cane mu Misiri kuruta inzahabu, ni yo yaciye igira agaciro cane.** Ifeza yari ifise agaciro karenze urugero ugereranije n’inzahabu, iyo na yo ikaba yari nyinshi cane muri Misiri.
 
 
 
-Mu gihe c’Iherezo (ikimpumbi ca mbere imbere ya Kristu), ifeza yari yaracitse icuma gisanzwe co guhinduranya mu Buseruko bwose. Yaragendagenda mu buryo bw’ibiceri vy’ivyuma, ibiceri vy’icuma canke impeta, ivyo bikaba vyapimwa kandi bikashirwako ikimenyetso mu nsengero, ivyo bikaba vyemeza ko bifise uburemere n’ubusuku bwavyo, naho nyene bitacuzwe mu gishushanyo c’umwami. Ivyo vyaje mu nyuma, kandi bizoba ikiganiro c’igice kizokurikira kivuga ku Banyaludiya.
+À la Basse Époque  (ikimpumbi ca mbere imbere ya Kristu), ifeza yari yaracitse icuma gisanzwe co guhanahana mu Buseruko bwose. Yahanahanwa mu buryo bw’ibiceri vy’icuma canke impeta, ivyo bikaba vyapimwa kandi bikashirwako ikimenyetso mu nsengero, ivyo bikaba vyemeza ko bifise uburemere n’ubuziranenge bwavyo, naho nyene bitacuzwe mu gishushanyo c’umwami. Ivyo vyaje mu nyuma, kandi bizoba ikiganiro c’igice kizokurikira kivuga ku Banya Lydiens.
 
 
 
-Birakenewe kandi kumenya ko Abanyamisiri ba kera bari bafise ijambo, "hedj", ry'amahera, kandi ryakoreshwa muri rusangi kugira ngo ryerekeze ku buryo bwose bwo kwishura bukoreshwa nk'igiciro mu gucuruza, haba ku vyuma, intete, impuzu canke ibintu bitandukanye (ibiti, ibikoko, ibikorwa, n'ibindi). Ingero zanditswe zerekana ko Abanyamisiri bashobora gutorera umuti ibikorwa vy’ubudandaji mu gufatanya ibintu bitandukanye agaciro kavyo kose kakaba kagaragazwa mu bipimo vy’umuringa (“deben”).
+Birakenewe kandi kumenya ko Abanyamisiri ba kera bari bafise ijambo, "hedj",risigura amahera, kandi ryakoreshwa muri rusangi kugira ngo ryerekeze ku buryo bwose bwo kwishura bukoreshwa nk'igiciro mu gucuruza, haba ku vyuma, intete, impuzu canke ibintu bitandukanye (ibiti, ibikoko, ibikorwa, n'ibindi). Ingero zanditswe zerekana ko Abanyamisiri bashobora gutorera umuti ibikorwa vy’ubudandaji mu gufatanya ibintu bitandukanye agaciro kavyo kose kakaba kagaragazwa mu bipimo vya cuivre (“deben”).
 
 
 
-**Insengero zari zifise uruhara runini mu bukungu bwa Misiri: zari zikorakoranya kandi zikarundanya ubutunzi bwinshi bw’ivyuma vy’agaciro (inzahabu n’ifeza) zari zigamije gutera iteka imana ariko kandi zigakora nk’ububiko bw’amahera bwoshobora gusubira kwinjizwa mu nzira y’ubutunzi uko bikenewe**. Tuzobona ingero z’ibindi bihugu vy’abanyabwenge vyirundanya ibintu vy’agaciro mu nsengero, nk’ibishushanyo, kugira ngo bishobore gusenyuka iyo habaye intambara, ubukene bw’amahera canke ingorane. Iyi ni insiguro iguma isubiramwo muri kahise kose.
+**Insengero zari zifise uruhara runini mu bukungu bwa Misiri: zari zikoranya kandi zikabika ubutunzi bwinshi bw’ivyuma vy’agaciro (inzahabu n’ifeza) zari zigamije gutera iteka imana ariko kandi zigakora nk’ububiko bw’amahera bwoshobora gusubira kwinjizwa mu nzira y’ubutunzi uko bikenewe**. Tuzobona uburorero  bw’ibindi bihugu vy’abanyabwenge vyegeranya ibintu vy’agaciro mu nsengero, akarorero nk’ibishushanyo, bashobore kubishongesha iyo habaye intambara , ubukene bw’amahera canke ingorane. Iyi ni insiguro iguma isubiramwo muri kahise kose.
 
 
 
-Ni vyiza kandi kuvuga ko uguhinga impuzu z’ilino kwari ububasha bw’umwami wenyene bwahawe insengero, kandi uguhingura impuzu z’agaciro vyaremeza akamaro kazo mu vy’ubutunzi.
+Ni vyiza kandi kuvuga ko uguhinga impuzu za "lin" bwari ububasha bw’umwami wenyene bwahawe insengero, kandi uguhingura impuzu z’agaciro vyaremeza akamaro kazo mu vy’ubutunzi.
 
 
 
 Abanyamisiri ba kera baratandukanye cane hagati y’ingengabitekerezo y’ivyuma vy’agaciro, bifitaniye isano n’ubumana (inzahabu igereranya inyama z’imana, ifeza amagufa yazo), n’igikorwa cavyo c’ingirakamaro nk’amahera akoreshwa nk’ishingiro ry’ubundi buryo bwose bwo kwishura.
 
 
-Gutyo, naho Misiri ya kera itateguye amafaranga agereranywa n'uburyo bwo gukoresha amahera muri iki gihe gushika mu gihe c'iherezo, yari ifise uburyo buteye imbere bwo gukoresha amahera, bushingiye ku gukoresha hamwe amahera yo mu vyanditswe, ibiharuro vy'ukuri, amahera y'ibicuruzwa n'ivyuma vy'agaciro bipimwa n'uburemere.
+Gutyo, naho Misiri ya kera itari bwakore amafaranga ahinguwe twogereranya n'uburyo bwo gukoresha amahera yanone gushikaho icerwa , yari ifise uburyo buteye imbere bwo gukoresha amahera, bushingiye ku gukoresha hamwe amahera yo mu vyanditswe, ibiharuro vy'ukuri, amahera y'ibicuruzwa n'ivyuma vy'agaciro bipimwa n'uburemere.
 
 
 
-Ivyo biceri ubwavyo vyapimwa, bituma habaho ivyiyumviro bibiri bitandukanye: **"ibiceri" n'"amahera"**. Nakoresheje amajambo abiri mu congereza. Ica mbere, "coinage" yerekeza ku biceri, iciyumviro kiza mu nyuma, kandi turafise n'ico ciyumviro c'amahera. Turashobora gusobanura iciyumviro kinaka c'"amahera" n'ibice vy'ibara n'ubu nyene mvuze mu bijanye n'amahera, ariko vyari bitaraba ibiceri, rero "ibiceri" biza haciye igihe gito n'Abanyalidiya.
+Ivyo biceri ubwavyo vyapimwa, bituma habaho ivyiyumviro bibiri bitandukanye: **"coinage" n'"money"**. Nakoresheje amajambo abiri yomu congereza. Ica mbere, "coinage" yerekeza ku biceri, iciyumviro kiza mu nyuma, kandi turafise n'ico ciyumviro c'amahera icotwise "money". Turashobora gusobanura iciyumviro kanaka c' "money" mumice y'iharura duhejeje kwerekana muburyo bwi feza  , ariko vyari bitaraba ibiceri, rero "coinage" biza haciye igihe gito n'Abanya lydiens.
 
 
 
-Kandi rero, ibiceri si ikintu gikenewe kugira umuntu agire amahera, **ku buryo dushobora kwemera ko amahera yariho kuva mu kinjana ca 3,** uko vyogenda kwose kandi ata nkeka mu kiringo c’ikimpumbi ca 2 na cane cane ku ngoma ya Hammurabi.
+Kandi rero, ibiceri si ikintu gikenewe kugira umuntu agire amahera, **ku buryo dushobora kwemera ko amahera yariho kuva mu kinjana ca 3,** uko vyogenda kwose kandi ata nkeka mu kiringo c’ikimpumbi ca 2 na cane cane ku ngoma ya Hammourabi.
 
 
 
-Ikintu gihambaye co kwibuka hano, kandi ivyo nivyo umwanditsi avuga mu gitabu "Inkomoko y'amahera", ni uko ata nkeka ko iciyumviro c'amahera cari caramaze kubaho ico gihe, muri izo nzira z'amahera, kandi ni ikosa guhuza ivuka ry'amahera nk'iciyumviro n'ukuboneka kw'ibiceri.
+Ikintu gihambaye co kwibuka hano, kandi ivyo nivyo umwanditsi avuga mu gitabu "Aux origines de la monnaie", ni uko ata nkeka ko iciyumviro c'amahera cari caramaze kubaho ico gihe, muri izo nzira z'amahera, kandi ni ikosa guhuza ivuka ry'amahera nk'iciyumviro n'ukuboneka kw'ibiceri.
+
+
+Ubwa nyuma, ivyiyumviro vya Polanyi vyerekeye ugusubizanya n’ugusubira gusangiza, akenshi vyakoreshwa muri Misiri ya kera, birakeneye guhindurwa: naho biriho, ntibigira urutonde rwihariye. Misiri ya Farawoni yari yarateguye ubutunzi butoroshe bwari bushizemwo bimwe bishitse ubudandaji buteye imbere, butandukanye n’imigenzo y’idini n’imigenzo, vyerekana ko ubutunzi bwigenga vy’ukuri ku bijanye n’ingengabitekerezo.
 
 
 
-Ubwa nyuma, ivyiyumviro vya Polanyi vyerekeye ugusubizanya n’ugusubira gusangira, akenshi vyakoreshwa muri Misiri ya kera, birakeneye guhindurwa: naho biriho, ntibigira urutonde rwihariye. Misiri ya Farawoni yari yarateguye ubutunzi butoroshe bwari bushizemwo bimwe bishitse ubudandaji buteye imbere, butandukanye n’imigenzo y’idini n’imigenzo, vyerekana ko ubutunzi bwigenga vy’ukuri ku bijanye n’ingengabitekerezo.
-
-
-
-Ukwo kudasanzwe kurafitaniye isano n’iciyumviro c’uko ivyuma vy’agaciro vyari bifitaniye isano n’ubumana bumwebumwe, yamara vyari bikiri bishobora gutandukanywa.
+Ubwo budasa burafitaniye isano n’iciyumviro c’uko ivyuma vy’agaciro vyari bifitaniye isano n’ubumana bumwebumwe, yamara vyari bikiri bishobora gutandukanywa.
 
 
 
@@ -914,7 +913,7 @@ Mu gusozera, ndashaka gusubiramwo amajambo yo mu gitabu "Inkomoko y'Amahera", ki
 
 
 
-Rero, no muri ivyo bihe vya kera, umwanditsi asaba ko ibiceri vyari vyaramaze guhingurwa canke gusohoka bigenzurwa na Leta kandi ko vyari vyaramaze gukoreshwa mu bijanye n’ingero y’ivyuma vy’agaciro n’uburemere bwavyo kugira ngo bishobore gutwara ubutunzi. Reka mbahe akarongo gatoyi ku bijanye n’igice gikurikira. **N’uburyo bwa kera cane bwo gukora ibiceri, vyari bikozwe mu giceri c’umuyagankuba, ari co gice c’inzahabu n’ifeza, turazi mu gusuzuma ivyuma vy’agaciro biri muri ivyo biceri, ko ababisohoye ubwa mbere, nk’akarorero Croesus, bari bafise inzahabu nkeyi kuruta iyo mu giceri c’umuyagankuba kamere.**
+Rero, no muri ivyo bihe vya kera, umwanditsi asaba ko ibiceri vyari vyaramaze guhingurwa canke gusohoka bigenzurwa na Leta kandi ko vyari vyaramaze gukoreshwa mu bijanye n’ingero y’ivyuma vy’agaciro n’uburemere bwavyo kugira ngo bishobore gutwara ubutunzi. Reka mbahe akarongo gatoyi ku bijanye n’igice gikurikira. **N’uburyo bwa kera cane bwo gukora ibiceri, vyari bikozwe mu giceri c’ "électrum," cari gikozwe mwivarwa ry'inzahabu ni feza, turazi mu gusuzuma ivyuma vy’agaciro biri muri ivyo biceri, ko ababisohoye ubwa mbere, nk’akarorero Crésus, bari bafise inzahabu nkeyi kuruta ico giceri ca "électrum" kamere.**
 
 
 

@@ -3,7 +3,7 @@ answer: Es hat Funktionen wie Splicing, statische Bolt12-Rechnungen und ein bess
 wrong_answers:
   - Es hat alle Sicherheitsmerkmale entfernt, um die Transaktionen zu beschleunigen.
   - Jetzt ist für jede Zahlung eine Genehmigung der Regierung erforderlich.
-  - Sie hat die Arbeit an neuen Funktionen eingestellt und verlässt sich nur noch auf das ursprüngliche Design.
+  - Es hat die Arbeit an neuen Funktionen eingestellt und verlässt sich nur noch auf das ursprüngliche Design.
 explanation: |
-  Im Laufe der Zeit hat das Lightning Network technische Verbesserungen erfahren, die die Reibungsverluste für die Nutzer verringern. Neue Funktionen und bessere Tools für die Knotenverwaltung haben zu einer nahtloseren und benutzerfreundlicheren Erfahrung beigetragen.
-reviewed: false
+  Im Laufe der Zeit hat das Lightning Network technische Verbesserungen erfahren, die die Reibungsverluste für die Nutzer verringern. Neue Funktionen und bessere Tools für die Node-Verwaltung haben zu einer nahtloseren und benutzerfreundlicheren Erfahrung beigetragen.
+reviewed: true

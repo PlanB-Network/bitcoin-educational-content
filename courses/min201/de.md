@@ -337,7 +337,7 @@ Ein Miner ist bei seiner Auslieferung ab Werk nicht geeignet, um als Heizung in 
 
 **Attakaï ist eine Bildungsinitiative, die Ihnen beibringt, wie Sie den Antminer S9 auf die wirtschaftlichste Weise nachrüsten können.**
 
-Dies ist eine ausgezeichnete Gelegenheit, durch praktisches Lernen zu lernen und gleichzeitig durch kostenlose satoshi KYC belohnt zu werden.
+Dies ist eine ausgezeichnete Gelegenheit, durch praktisches Lernen zu lernen und gleichzeitig durch KYC-freie Satoshis belohnt zu werden.
 
 ## Leitfaden zum Kauf eines gebrauchten ASIC
 
@@ -387,7 +387,7 @@ Beim Kauf einer gebrauchten Maschine ist es wichtig, zu überprüfen, ob alle Te
 
 ![image](assets/en/023.webp)
 
-Sobald Sie verbunden sind, sollten Sie den Status jeder Hashboard auf dem Dashboard sehen können. Wenn der Miner mit einem Pool verbunden ist, sollten alle Hashboards funktionieren. Es ist wichtig zu beachten, dass Miner viel Lärm machen, das ist normal. Stellen Sie außerdem sicher, dass die Lüfter ordnungsgemäß funktionieren.
+Sobald Sie verbunden sind, sollten Sie den Status jedes Hashboards auf dem Dashboard sehen können. Wenn der Miner mit einem Pool verbunden ist, sollten alle Hashboards funktionieren. Es ist wichtig zu beachten, dass Miner viel Lärm machen, das ist normal. Stellen Sie außerdem sicher, dass die Lüfter ordnungsgemäß funktionieren.
 
 Sie können dann den Mining-Pool des Vorbesitzers entfernen, um Ihren eigenen einzurichten. Wenn Sie möchten, können Sie die Hashboards auch überprüfen, indem Sie die Maschine demontieren. Dieser Schritt ist jedoch komplexer und erfordert mehr Zeit und bestimmte Werkzeuge. Wenn Sie diese Demontage durchführen möchten, können Sie sich auf den nächsten Teil dieses Tutorials beziehen, der beschreibt, wie dies gemacht wird. Es ist wichtig zu beachten, dass Miner viel Staub sammeln und regelmäßige Wartung erfordern. Diesen Staubansammlungen und der Qualität der Wartung können Sie beim Demontieren der Maschine begegnen.
 Nachdem Sie all diese Punkte überprüft haben, können Sie Ihre Maschine mit maximalem Vertrauen kaufen. Bei Zweifeln wenden Sie sich an die Community.

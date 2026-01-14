@@ -703,10 +703,78 @@ La période de maturité impose donc un délai suffisamment long pour rendre ce 
 
 Cette règle évite donc que la monnaie nouvellement créée via la récompense de bloc ne commence à circuler avant que le bloc qui l’a engendrée ne soit extrêmement solidement ancré sous une grande quantité de travail accumulé.
 
+Nous arrivons désormais à la fin de cette explication consacrée au fonctionnement du minage de Bitcoin. Vous devriez à présent avoir une vision claire des mécanismes fondamentaux en jeu. Dans la dernière partie de la formation, nous allons revenir à des aspects plus concrets, afin de vous montrer comment le minage de Bitcoin se matérialise dans le monde réel : son industrialisation, les machines utilisées, le regroupement des acteurs, etc. L’objectif sera d’aboutir à une vision d’ensemble du minage de Bitcoin, à la fois sous l’angle théorique et protocolaire que nous venons de voir, mais aussi dans sa dimension pratique et opérationnelle.
+
 # L'industrie du minage de Bitcoin
 
 ## L'évolution des machines de minage
 
+Au début de Bitcoin, miner n’avait rien d’une activité industrielle. Cela faisait partie du logiciel Bitcoin, lancé sur un ordinateur personnel, souvent par curiosité, parfois pour soutenir le réseau, et accessoirement pour récupérer des bitcoins qui n’avaient alors quasiment aucune valeur marchande.
+
+Au fil des années, cette activité a connu une transformation : les machines ont changé, la difficulté a explosé, et le minage est devenu une industrie à part entière. Découvrons ensemble ces aspects opérationnels du minage de Bitcoin.
+
+### Les débuts : miner avec un CPU
+
+En 2009 et dans les premières années, le minage se faisait principalement avec le processeur (CPU) d’un ordinateur classique. Bitcoin est alors un simple logiciel, qui endosse le rôle de wallet, de nœud et de mineur. Le simple fait de lancer le logiciel de Satoshi Nakamoto sur son ordinateur personnel suffisait alors pour participer au minage et, bien souvent, pour trouver des blocs.
+
+Un CPU sait tout faire, mais il n’est optimisé pour rien. Il exécute des instructions très générales, avec une logique complexe. Pour une tâche comme le hachage répétitif des entêtes de bloc, ce n’est pas l’outil idéal, mais au démarrage du réseau, la difficulté est si faible que cela suffit largement.
+
+Cette période est importante, car elle nous rappelle un point important : la preuve de travail ne dépend pas d’une catégorie de matériel en particulier. Ce qui compte, c’est la capacité à calculer des hachages plus vite que les autres, à coût donné. Dès qu’un avantage technique apparaît, il se transforme mécaniquement en avantage économique. Mais dans l’absolu, il est toujours possible aujourd’hui de tenter de trouver des blocs Bitcoin à l’aide d’un CPU classique. C’est d’ailleurs l’approche adoptée par le projet NerdMiner. Les chances de découvrir un bloc sont quasiment nulles, mais il subsiste néanmoins une probabilité infinitésimale.
+
+https://planb.academy/tutorials/mining/hardware/nerdminer-c9826fd9-c2b4-4d1e-8c78-809122de1654
+
+### Le basculement vers les GPU
+
+Assez vite, des mineurs ont compris que le goulot d’étranglement n’était pas la puissance, mais la capacité à effectuer énormément d’opérations similaires en parallèle. C’est exactement ce que savent faire les cartes graphiques (GPU). À l’origine, un GPU est conçu pour exécuter les mêmes opérations sur de grandes quantités de données. Cette architecture se prête très bien à une tâche comme le hachage répété : au lieu d’avoir quelques cœurs très polyvalents, on dispose de centaines, puis de milliers d’unités capables d’exécuter les mêmes instructions simultanément.
+
+Le résultat est immédiat : à consommation électrique comparable, un GPU peut produire bien plus de hachages par seconde qu’un CPU. En parallèle, le bitcoin dispose désormais d’un taux de change face au dollar, sa valeur augmente, et des plateformes d’échange font leur apparition. À partir de là, le minage commence à changer de nature. Il ne s’agit plus seulement de participer, mais d’optimiser. On voit apparaître des configurations dédiées : des machines montées autour de plusieurs cartes graphiques, parfois sans écran, avec un système minimal et des logiciels spécialisés, dont le seul objectif est de miner.
+
+C’est à ce moment-là que la difficulté de minage commence à exploser. Entre mi-2010 et mi-2011, elle est même multipliée par 1 000 ! Mécaniquement, la spécialisation s’amorce, tout comme les premières formes d’industrialisation, et les utilisateurs normaux, qui se contentent de faire tourner le logiciel Bitcoin sur leur ordinateur personnel, n’ont désormais plus qu’une probabilité extrêmement faible de trouver un bloc valide.
+
+Entre l’ère GPU et l’ère moderne des ASIC, on observe une phase intermédiaire : l’utilisation de FPGA. Un FPGA est un composant reprogrammable : il peut être configuré pour implémenter directement un circuit logique dédié à un calcul particulier, ici `SHA256d`. L’intérêt est de s’éloigner encore davantage du matériel généraliste (CPU/GPU) pour gagner en efficacité énergétique. Mais rapidement, les améliorations réalisées virtuellement sur les FPGA seront appliquées physiquement aux puces elles-mêmes : c'est l'arrivée des ASIC.
+
+### L’arrivée des ASIC
+
+L’étape finale de la spécialisation du matériel de minage est l’apparition des ASIC (*Application-Specific Integrated Circuits*). Un ASIC est une puce conçue pour une tâche unique. Dans le cas du minage Bitcoin, cette tâche est précisément l’exécution de `SHA256d` à une vitesse maximale et avec une efficacité énergétique optimale. Contrairement à un GPU, un ASIC ne sert pas à faire tourner des jeux, du rendu 3D ou de l’IA. Il sert à hacher, et c'est tout.
+
+Cette spécialisation a deux conséquences majeures :
+- La première est un saut de performance et d’efficacité. À génération équivalente, un ASIC produit un nombre de hachages par seconde très supérieur à un GPU, pour une consommation plus maîtrisée. Rapidement, miner avec un GPU devient non compétitif : même si cela fonctionne techniquement, le coût électrique dépasse largement les revenus espérés dans la plupart des contextes.
+- La seconde est un changement de modèle : l’investissement devient principalement du matériel industriel. Miner implique désormais d’acheter des machines conçues pour cela, de les alimenter en continu, de les refroidir, de les maintenir, et d’absorber leur obsolescence. Car un ASIC n’est pas éternel économiquement : lorsqu’une nouvelle génération plus efficace arrive sur le marché, les anciennes machines deviennent progressivement moins rentables, même si elles restent fonctionnelles.
+
+À partir de là, on ne parle plus seulement d’un hobby. On parle d’un secteur où la compétitivité dépend d’une équation :
+* coût de l’électricité ;
+* coût du matériel et de son amortissement ;
+* capacité à refroidir et opérer à grande échelle ;
+* disponibilité et fiabilité des machines ;
+* rapidité des communications.
+
+### Les fermes de minage
+
+L’industrialisation du minage découle naturellement des ASIC. Une machine isolée peut miner, mais en regroupant des centaines, puis des milliers d’ASIC dans un même lieu, on mutualise les coûts fixes, on optimise la logistique, et on se rapproche d’un modèle de data center spécialisé.
+
+Une ferme de minage, dans sa forme la plus simple, c’est un bâtiment (ou un ensemble de conteneurs) rempli d'ASIC qui tournent 24/7. Le défi est dorénavant de maintenir des conditions d’exploitation stables :
+* fournir une puissance électrique importante, à bas coût et stable ;
+* gérer la chaleur afin d’éviter le throttle, car la densité énergétique est considérable ;
+* filtrer la poussière, contrôler l’humidité, nettoyer ;
+* surveiller en temps réel la performance des machines (températures, erreurs matérielles, baisse de hashrate...).
+
+Le minage est désormais porté par des acteurs industriels, parfois cotés en bourse, qui construisent et exploitent des fermes à très grande échelle. On peut notamment citer MARA Holdings (Nasdaq: `MARA`) ou Riot Platforms (Nasdaq: `RIOT`).
+
+042
+
+Même sans entrer dans les détails des modèles de rentabilité, il est important de comprendre pourquoi le minage a pris cette forme. La preuve de travail est un mécanisme compétitif : la probabilité de trouver un bloc, et donc de gagner de l'argent, est proportionnelle à la part de hashrate que l’on déploie. Par conséquent, la pression est permanente pour augmenter la puissance de calcul, réduire le coût par unité de calcul et limiter les pertes. Dès lors, les environnements qui offrent de l’électricité moins chère, un climat favorable au refroidissement, ou une infrastructure énergétique abondante, deviennent naturellement plus attractifs.
+
+Miner du Bitcoin est donc passé d’une activité accessible à n’importe qui à ses débuts, à une activité dominée par du matériel spécialisé et des opérations professionnelles. Cela ne change pas les règles du protocole. N’importe qui peut en théorie miner avec n'importe quel machine. Mais en pratique, le niveau de difficulté et l’efficacité des ASIC ont rendu le minage domestique largement non compétitif dans la plupart des contextes.
+
+Il subsiste évidemment des situations dans lesquelles le minage domestique peut présenter un intérêt, par exemple si vous bénéficiez d’une électricité très peu chère, ou si vous valorisez la chaleur dégagée par votre mineur, par exemple pour chauffer un logement en hiver. Mais dans tous les cas, vous devrez néanmoins acquérir une machine équipée d’une puce ASIC. De plus, puisque votre puissance de minage restera extrêmement limitée à l’échelle du réseau Bitcoin, il vous faudra trouver un moyen de réduire la variance de vos revenus : c’est précisément le rôle des pools de minage dont nous allons parler dans le prochaine chapitre.
+
+Si vous souhaitez explorer des solutions de minage domestique avec valorisation de la chaleur, nous avons des tutoriels sur différents outils, à la fois prêts à l’emploi et en DIY :
+
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-mini-f2185435-10a3-4d7b-b88f-f1a489babab7
+
+https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a-4dee-9b9b-13875824c9a6
+
+https://planb.academy/tutorials/mining/hardware/attakai-0d177e6b-e167-4b25-8e38-4ec74213d1fb
 
 ## Le regroupement en pools de minage
 

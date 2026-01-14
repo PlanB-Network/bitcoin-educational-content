@@ -1,13 +1,13 @@
 ---
-name: Uprogramu wa RGB
+name: RGB programming
 goal: Pata ujuzi unaohitajika kuelewa na kutumia RGB
 objectives:
-- Kuelewa dhana za kimsingi za itifaki ya RGB
+- Kuelewa dhana za kimsingi za RGB protocol 
 - Bidii kanuni za ahadi za Client-side Validation na Bitcoin
 - Jifunze jinsi ya kuunda, kudhibiti na kuhamisha mikataba ya RGB
 - Jinsi ya kuendesha nodi ya lightening inayoendana na RGB
 ---
-# Kugundua itifaki ya RGB
+# Kugundua RGB protocol
 
 Ingia katika ulimwengu wa RGB, itifaki iliyoundwa kutekeleza na kutekeleza haki za kidijitali, katika mfumo wa mikataba na mali, kwa kuzingatia sheria za makubaliano na uendeshaji wa Bitcoin Blockchain. Kozi hii ya kina ya mafunzo hukuongoza kupitia misingi ya kiufundi na kiutendaji ya RGB, kuanzia dhana za "Client-side Validation" na "single use seal", hadi utekelezaji wa mikataba mahiri ya hali ya juu.
 
@@ -77,7 +77,7 @@ Toleo lililoandikwa la kozi hii ya mafunzo liliandaliwa kwa kutumia nyenzo kuu 2
 
 :::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
-RGB ni itifaki iliyoundwa ili kutumia na kutekeleza haki za kidijitali (katika mfumo wa mikataba na mali) kwa njia ya hatari na ya siri, kwa kuzingatia sheria za makubaliano na uendeshaji wa Bitcoin Blockchain. Lengo la sura hii ya kwanza ni kuwasilisha dhana za kimsingi na istilahi zinazozunguka itifaki ya RGB, ikiangazia hasa viungo vyake vya karibu na dhana za msingi za kompyuta zilizosambazwa kama vile Client-side Validation na single use seal
+RGB ni itifaki iliyoundwa ili kutumia na kutekeleza haki za kidijitali (katika mfumo wa mikataba na mali) kwa njia ya hatari na ya siri, kwa kuzingatia sheria za makubaliano na uendeshaji wa Bitcoin Blockchain. Lengo la sura hii ya kwanza ni kuwasilisha dhana za kimsingi na istilahi zinazozunguka RGB protocol, ikiangazia hasa viungo vyake vya karibu na dhana za msingi za kompyuta zilizosambazwa kama vile Client-side Validation na single use seal
 
 Katika sura hii, tunachunguza misingi ya **mifumo ya makubaliano iliyosambazwa** na kuona jinsi RGB inavyofaa katika familia hii ya teknolojia. Pia tutakuletea kanuni kuu zinazotusaidia kuelewa ni kwa nini RGB inalenga kupanuka na kutotegemea utaratibu wa maafikiano wa Bitcoin, huku tukiitegemea inapohitajika.
 
@@ -237,7 +237,7 @@ Kwa maneno madhubuti, hii ndio jinsi RGB State Transition inavyofanya kazi:
 
 
 -  Unatayarisha mabadiliko mapya ya hali (k.m. uhamisho wa tokeni ya RGB
-Unazalisha ahadi ya siri kwa mpito huu na kuiingiza katika shughuli ya Bitcoin (ahadi hizi zinaitwa "*anchors*" katika itifaki ya RGB)
+Unazalisha ahadi ya siri kwa mpito huu na kuiingiza katika shughuli ya Bitcoin (ahadi hizi zinaitwa "*anchors*" katika RGB protocol)
 - Mshirika (mpokeaji) hurejesha historia ya upande wa mteja inayohusishwa na kipengee hiki na kuthibitisha uthabiti wa mwisho hadi mwisho, kutoka Genesis ya Smart contract hadi mpito unayoipitishia.
 
 ![RGB-Bitcoin](assets/en/014.webp)
@@ -612,8 +612,8 @@ Wazo lingine, ambalo baadhi ya itifaki kama vile _inscriptions Ordinals_ zimewek
 
 
 - Hufanya uchumba uonekane mara moja (unabandika data mbichi kwenye shahidi);
-- Inaweza kuwa chini ya udhibiti (wachimbaji wa madini au nodi wanaweza kukataa relay ikiwa ni kubwa sana au tabia nyingine yoyote ya kiholela);
-- Hutumia nafasi kwenye vizuizi, kinyume na lengo la RGB la busara na wepesi.
+- Inaweza kuwa chini ya udhibiti (wachimbaji wa madini au node wanaweza kukataa relay ikiwa ni kubwa sana au tabia nyingine yoyote ya kiholela);
+- Hutumia nafasi kwenye blocks, kinyume na lengo la RGB la busara na wepesi.
 
 Kwa kuongezea, shahidi imeundwa ili iweze kupogolewa katika miktadha fulani, ambayo inaweza kufanya kuwa na uthibitisho thabiti kuwa mgumu zaidi.
 
@@ -749,7 +749,7 @@ Tulipoanzisha RGB, tulikagua mbinu hizi zote ili kubaini ni wapi na jinsi ya kuw
 
 | Opret (OP_RETURN) | 🔴 | 🟢 | 🟢 | 🟠 | 🔴 Bolt, 🟠 Bifrost | - |
 
-| Tapret Algorithm: nodi ya juu-kushoto | 🟠 | 🔴 | 🟠 | 🟢 | 🔴 Bolt, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
+| Tapret Algorithm: node ya juu-kushoto | 🟠 | 🔴 | 🟠 | 🟢 | 🔴 Bolt, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
 
 | Tapret Algorithm #4: nodi yoyote + dhibitisho | 🟢 | 🟠 | 🟠 | 🟢 | 🔴 Bolt, 🟢 Bifrost | 🟢 Taproot, 🟢 MuSig |
 
@@ -2631,7 +2631,7 @@ Katika Utekelezaji huu Interface :
 
 
 - Tunarejelea kwa uwazi Schema, kupitia `nia_schema()`, na Interface, kupitia `Rgb20::iface()`. Simu `Schema.schema_id()` na `iface.iface_id()` hutumiwa kwa Anchor Interface Implementation kwenye upande wa mkusanyiko (hii inahusisha vitambulishi vya kriptografia vya vijenzi hivi viwili);
-- Uchoraji wa ramani umeanzishwa kati ya Schema Elements na Interface Elements. Kwa mfano, sehemu ya `GS_NOMINAL` katika Schema imeunganishwa kwa mfuatano `"spec"` kwenye upande wa Interface (`NamedField::with(GS_NOMINAL, fname!("spec"))`). Tunafanya vivyo hivyo kwa shughuli, kama vile `TS_TRANSFER`, ambayo tunaunganisha kwa `"Hamisha"` katika Interface... ;
+- Uchoraji wa map umeanzishwa kati ya Schema Elements na Interface Elements. Kwa mfano, sehemu ya `GS_NOMINAL` katika Schema imeunganishwa kwa mfuatano `"spec"` kwenye upande wa Interface (`NamedField::with(GS_NOMINAL, fname!("spec"))`). Tunafanya vivyo hivyo kwa shughuli, kama vile `TS_TRANSFER`, ambayo tunaunganisha kwa `"Hamisha"` katika Interface... ;
 - Tunaweza kuona kwamba hakuna valencies (`valencies: none!()`) au viendelezi (`extensions: none!()`), kuonyesha ukweli kwamba NIA hii Contract haitumii vipengele hivi.
 
 Matokeo baada ya kukusanywa ni faili tofauti ya `.RGB` au `.rgba`, itakayoletwa kwenye Wallet pamoja na Schema na Interface. Kwa hivyo, programu inajua jinsi ya kuunganisha kwa uhakika NIA Contract hii (ambayo mantiki yake inaelezewa na Schema) kwa "RGB20" Interface (ambayo hutoa majina ya kibinadamu na hali ya mwingiliano wa ishara zinazoweza kuvutwa), ikitumia Interface Implementation hii kama lango kati ya hizo mbili.
@@ -2644,7 +2644,7 @@ Katika matumizi halisi, wakati Wallet inapakia Contract, lazima:
 
 
 - Pakia iliyokusanywa **Schema** (ili kujua muundo wa Business Logic);
-- Mzigo umekusanywa **Interface** (kuelewa majina na shughuli za upande wa mtumiaji);
+- Cargo imekusanywa **Interface** (kuelewa majina na shughuli za upande wa mtumiaji);
 - Mzigo umekusanywa **Interface Implementation** (ili kuunganisha mantiki ya Schema kwa majina ya Interface, uendeshaji kwa uendeshaji, shamba kwa shamba).
 
 Usanifu huu wa kawaida hufanya uwezekano wa matumizi kama vile:

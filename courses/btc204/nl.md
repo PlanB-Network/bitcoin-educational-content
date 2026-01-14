@@ -4303,25 +4303,25 @@ Na het verkennen van de verschillende methoden van vertrouwelijkheid op netwerkn
 
 
 
-Zoals we in deel 3 zagen, is hergebruik van adres een ernstig obstakel voor de vertrouwelijkheid van gebruikers van het Bitcoin protocol. Om deze risico's te beperken, is het sterk aanbevolen om generate een lege ontvangstadres te maken voor elke nieuwe betaling die in een wallet wordt ontvangen. Hoewel het genereren van een nieuwe adres nu vereenvoudigd wordt door het gebruik van moderne software en hiërarchische deterministische wallets, kan deze praktijk contra-intuïtief lijken.
+Zoals we in deel 3 zagen, is adreshergebruik een ernstig obstakel voor de vertrouwelijkheid van gebruikers van het Bitcoin-protocol. Om deze risico's te beperken, is het sterk aanbevolen om een nieuw ontvangstadres te maken voor elke nieuwe betaling die in een wallet wordt ontvangen. Hoewel het genereren van een nieuw adres nu vereenvoudigd wordt door het gebruik van moderne software en hiërarchische deterministische wallets, kan deze praktijk contra-intuïtief lijken.
 
 
 ![BTC204](assets/nl/216.webp)
 
 
-In het traditionele banksysteem zijn we bijvoorbeeld gewend om ons IBAN te delen, dat altijd hetzelfde blijft. Als we het eenmaal aan iemand hebben gegeven, kunnen ze ons meerdere betalingen sturen zonder opnieuw contact met ons op te hoeven nemen. Neo-banken bieden ook modernere mogelijkheden, zoals het gebruik van unieke e-mailadressen bij PayPal of RevTags bij Revolut. Zelfs buiten de financiële sfeer zijn onze dagelijkse identificaties zoals ons postnummer adres, telefoonnummer en e-mailadres adres ook uniek en permanent. We hoeven ze niet te vernieuwen voor elke nieuwe interactie.
+In het traditionele banksysteem zijn we bijvoorbeeld gewend om ons IBAN te delen, dat altijd hetzelfde blijft. Als we het eenmaal aan iemand hebben gegeven, kunnen ze ons meerdere betalingen sturen zonder opnieuw contact met ons op te hoeven nemen. Neo-banken bieden ook modernere mogelijkheden, zoals het gebruik van unieke e-mailadressen bij PayPal of RevTags bij Revolut. Zelfs buiten de financiële sfeer zijn onze dagelijkse identificaties zoals ons postadres, telefoonnummer en e-mailadres adres ook uniek en permanent. We hoeven ze niet te vernieuwen voor elke nieuwe interactie.
 
 
 ![BTC204](assets/nl/217.webp)
 
 
-Bitcoin werkt echter anders: voor elke inkomende transactie moet een nieuwe ontvangstadres worden gegenereerd. Dit compromis tussen gebruiksgemak en vertrouwelijkheid gaat terug tot de oorsprong van het Witboek van Bitcoin. Al bij de publicatie van de eerste versie van zijn document eind 2008, waarschuwde Satoshi Nakamoto ons voor dit risico:
+Bitcoin werkt echter anders: voor elke inkomende transactie moet een nieuw ontvangstadres worden gegenereerd. Dit compromis tussen gebruiksgemak en vertrouwelijkheid gaat terug tot de oorsprong van de Bitcoin White Paper. Al bij de publicatie van de eerste versie van zijn document eind 2008, waarschuwde Satoshi Nakamoto ons voor dit risico:
 
 
 **Als extra firewall kan voor elke transactie een nieuw sleutelpaar worden gebruikt om ze niet te koppelen aan een gemeenschappelijke eigenaar.**
 
 
-Er zijn veel manieren om meerdere betalingen te ontvangen op een enkele identifier zonder een adres opnieuw te hoeven gebruiken. Elke methode heeft zijn eigen voor- en nadelen. Een van deze methoden is BIP47, een voorstel ontwikkeld door Justus Ranvier en gepubliceerd in 2015. Dit voorstel is gericht op het creëren van herbruikbare betaalcodes waarmee meerdere transacties tegen dezelfde persoon kunnen worden uitgevoerd, terwijl hergebruik van adres wordt vermeden. Kortom, BIP47 wil een betalingssysteem bieden dat net zo intuïtief is als een unieke identificatiecode, terwijl de vertrouwelijkheid van transacties behouden blijft.
+Er zijn veel manieren om meerdere betalingen te ontvangen op een enkele identifier zonder een adres opnieuw te hoeven gebruiken. Elke methode heeft zijn eigen voor- en nadelen. Een van deze methoden is BIP47, een voorstel ontwikkeld door Justus Ranvier en gepubliceerd in 2015. Dit voorstel is gericht op het creëren van herbruikbare betaalcodes waarmee meerdere transacties aan dezelfde persoon kunnen worden uitgevoerd, terwijl adreshergebruik wordt vermeden. Kortom, BIP47 wil een betalingssysteem bieden dat net zo intuïtief is als een unieke identificatiecode, terwijl de vertrouwelijkheid van transacties behouden blijft.
 
 
 ![BTC204](assets/nl/218.webp)
@@ -4336,28 +4336,28 @@ Aanvankelijk werd BIP47 voorgesteld voor integratie in Bitcoin Core, maar het we
 ### Algemeen principe van BIP47 en PayNym
 
 
-Het doel van BIP47 is om het mogelijk te maken een groot aantal betalingen te ontvangen zonder adressen te hergebruiken. Het is gebaseerd op het gebruik van een herbruikbare betaalcode, waardoor verschillende emittenten meerdere betalingen kunnen sturen naar één code die toebehoort aan een andere gebruiker. Hierdoor hoeft de ontvanger niet voor elke transactie een nieuwe, blanco adres op te geven, wat uitwisselingen aanzienlijk vergemakkelijkt terwijl de vertrouwelijkheid behouden blijft.
+Het doel van BIP47 is om het mogelijk te maken een groot aantal betalingen te ontvangen zonder adressen te hergebruiken. Het is gebaseerd op het gebruik van een herbruikbare betaalcode, waardoor verschillende verzenders meerdere betalingen kunnen sturen naar één code die toebehoort aan een andere gebruiker. Hierdoor hoeft de ontvanger niet voor elke transactie een nieuw, blanco adres op te geven, wat uitwisselingen aanzienlijk vergemakkelijkt terwijl de vertrouwelijkheid behouden blijft.
 
 
 ![BTC204](assets/nl/219.webp)
 
 
-Een gebruiker kan zijn of haar betaalcode dus in alle vrijheid delen, op sociale netwerken of op zijn of haar website, zonder risico op verlies van vertrouwelijkheid, in tegenstelling tot een conventionele ontvanger adres of publieke sleutel.
+Een gebruiker kan zijn of haar betaalcode dus in alle vrijheid delen, op sociale netwerken of op zijn of haar website, zonder risico op verlies van vertrouwelijkheid, in tegenstelling tot een conventioneel ontvangstadres of publieke sleutel.
 
 
-Om een transactie uit te voeren, moeten beide partijen een Bitcoin-wallet bezitten met een implementatie van BIP47, zoals PayNym op Ashigaru of Sparrow wallet. Het gezamenlijk gebruik van hun betalingscodes creëert een geheime kanaal tussen hen. Om dit kanaal doeltreffend tot stand te brengen, moet de verzender een specifieke transactie uitvoeren op de Bitcoin-blockchain, bekend als de "kennisgevingstransactie" (de details zal ik u later geven).
+Om een transactie uit te voeren, moeten beide partijen een Bitcoin-wallet bezitten met een implementatie van BIP47, zoals PayNym op Ashigaru of Sparrow wallet. Het gezamenlijk gebruik van hun betalingscodes creëert een geheim kanaal tussen hen. Om dit kanaal doeltreffend tot stand te brengen, moet de verzender een specifieke transactie uitvoeren op de Bitcoin-blockchain, bekend als de "kennisgevingstransactie" (de details zal ik je later geven).
 
 
 Het combineren van de betaalcodes van de twee gebruikers genereert gedeelde geheimen, die op hun beurt een groot aantal unieke Bitcoin ontvangstadressen creëren (precies 2^32, of ongeveer 4 miljard). Op deze manier worden betalingen via BIP47 niet geadresseerd aan de betaalcode zelf, maar aan klassieke ontvangstadressen die zijn afgeleid van de betaalcodes van de betrokken gebruikers.
 
 
-De betalingscode dient dus als een virtuele identifier die is afgeleid van de wallet seed. In de hiërarchische afgeleide structuur van de wallet bevindt de betalingscode zich op niveau 3, d.w.z. op rekeningniveau.
+De betalingscode dient dus als een virtuele identifier die is afgeleid van de wallet seed. In de hiërarchisch afgeleide structuur van de wallet bevindt de betalingscode zich op niveau 3, d.w.z. op rekeningniveau.
 
 
 ![BTC204](assets/nl/220.webp)
 
 
-Het afleidingsdoel voor BIP47 wordt geïdentificeerd door de index `47'` (`0x8000002F`), verwijzend naar BIP47. Een voorbeeld van een afleidingspad voor een herbruikbare betaalcode zou er als volgt uitzien:
+Het afleidingsdoel (derivation target) voor BIP47 wordt geïdentificeerd door de index `47'` (`0x8000002F`), verwijzend naar BIP47. Een voorbeeld van een afleidingspad (derivation path) voor een herbruikbare betaalcode zou er als volgt uitzien:
 
 
 ```plaintext
@@ -4373,10 +4373,10 @@ PM8TJSBiQmNQDwTogMAbyqJe2PE2kQXjtgh88MRTxsrnHC8zpEtJ8j7Aj628oUFk8X6P5rJ7P5qDudE4
 ```
 
 
-Deze code kan ook worden gecodeerd als een QR-code, om de communicatie te vergemakkelijken, net als een conventionele ontvangst adres.
+Deze code kan ook worden gecodeerd als een QR-code, om de communicatie te vergemakkelijken, net als een conventioneel ontvangst adres.
 
 
-Wat betreft de PayNym Bots – de robots die men soms ziet op X (Twitter) – het zijn visuele voorstellingen van de betalingscode, gecreëerd door Samourai wallet. Met Ashigaru zijn ze nu enigszins anders, maar het principe blijft hetzelfde. Ze worden gegenereerd via een hashfunctie, wat hen een bijna-uniciteit verleent. Ze verschijnen als een kleine tekenreeks die begint met `+` :
+De PayNym Bots die je soms op X (Twitter) ziet, zijn visuele voorstellingen van de betalingscode, gecreëerd door Samourai wallet. Met Ashigaru zijn ze nu enigszins anders, maar het principe blijft hetzelfde. Ze worden gegenereerd via een hashfunctie, wat hen een bijna-uniciteit verleent. Ze verschijnen als een kleine tekenreeks die begint met `+` :
 
 
 ```plaintext
@@ -4401,14 +4401,14 @@ Hoewel deze robots geen specifieke technische functionaliteit hebben binnen het 
 
 https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-*Ik raad je nog steeds aan om ze te volgen, want als je de technische werking van BIP47 begrijpt, wordt het veel gemakkelijker om andere, vergelijkbare voorstellen te begrijpen, die we in de volgende hoofdstukken zullen bespreken*
+*Ik raad je hoe dan ook aan om deze te volgen, want als je de technische werking van BIP47 begrijpt, wordt het veel gemakkelijker om andere, vergelijkbare voorstellen te begrijpen, die we in de volgende hoofdstukken zullen bespreken*
 
 
 ---
 ### De herbruikbare betaalcode
 
 
-Zoals eerder vermeld, bevindt de herbruikbare betalingscode zich op diepte 3 van de HD wallet, waardoor het vergelijkbaar is met een `xpub`, zowel wat betreft zijn positie in de wallet structuur als zijn rol.
+Zoals eerder vermeld, bevindt de herbruikbare betalingscode zich op diepte 3 van de HD-wallet, waardoor het vergelijkbaar is met een `xpub`, zowel wat betreft zijn positie in de wallet-structuur als zijn rol.
 
 
 De 80-byte betalingscode is als volgt opgebouwd:
@@ -4416,12 +4416,12 @@ De 80-byte betalingscode is als volgt opgebouwd:
 
 
 
-- Byte `0`: De **versie**. Voor de eerste versie van BIP47 is deze byte ingesteld op `0x01` ;
-- Byte `1`: Het **bitveld**. Deze ruimte is gereserveerd voor het integreren van extra aanduidingen voor specifiek gebruik. Voor klassiek PayNym gebruik wordt deze byte op `0x00` gezet;
-- De `2` byte: De pariteit van `y`. Deze byte is `0x02` of `0x03`, wat aangeeft of de ordinaat van de openbare sleutel even of oneven is, aangezien een gecomprimeerde openbare sleutel wordt gebruikt;
-- Van byte `3` tot byte `34`: De waarde van `x`. Deze bytes vertegenwoordigen de abscis van de openbare sleutel. De aaneenschakeling van `x` en de pariteit van `y` vormt de volledige gecomprimeerde openbare sleutel;
-- Van byte `35` tot byte `66`: De **stringcode**. Deze ruimte bevat de tekenreekscode die bij de openbare sleutel hoort;
-- Van byte `67` tot byte `79`: De **opvulling**. Deze ruimte is bedoeld voor mogelijke toekomstige evoluties. Voor de huidige versie plaatsen we hier simpelweg nullen om de 80 bytes grootte te bereiken die nodig is voor `OP_RETURN` uitvoer.
+- **Byte `0`: De versie**. Voor de eerste versie van BIP47 is deze byte ingesteld op `0x01` ;
+- **Byte `1`: Het bitveld**. Deze ruimte is gereserveerd voor het integreren van extra aanduidingen voor specifiek gebruik. Voor klassiek PayNym-gebruik wordt deze byte op `0x00` gezet;
+- **Byte `2` : De pariteit van `y`**. Deze byte is `0x02` of `0x03`, wat aangeeft of de ordinaat van de openbare sleutel even of oneven is, aangezien een gecomprimeerde openbare sleutel wordt gebruikt;
+- **Van byte `3` tot byte `34`: De waarde van `x`**. Deze bytes vertegenwoordigen de abscis van de openbare sleutel. De aaneenschakeling van `x` en de pariteit van `y` vormt de volledige gecomprimeerde openbare sleutel;
+- **Van byte `35` tot byte `66`: De stringcode**. Deze ruimte bevat de tekenreekscode die bij de openbare sleutel hoort;
+- **Van byte `67` tot byte `79`: De opvulling**. Deze ruimte is bedoeld voor mogelijke toekomstige evoluties. Voor de huidige versie plaatsen we hier simpelweg nullen om de 80 bytes grootte te bereiken die nodig is voor `OP_RETURN`-output.
 
 
 Hier is de hexadecimale weergave van mijn herbruikbare betalingscode die ik al in de vorige sectie heb gepresenteerd:
@@ -4435,7 +4435,7 @@ Hier is de hexadecimale weergave van mijn herbruikbare betalingscode die ik al i
 ![BTC204](assets/nl/222.webp)
 
 
-Vervolgens moet de `P` prefix byte aan het begin worden toegevoegd om duidelijk aan te geven dat dit een betaalcode is. Deze byte wordt weergegeven door `0x47` :
+Vervolgens moet de `P`-prefix byte aan het begin worden toegevoegd om duidelijk aan te geven dat dit een betaalcode is. Deze byte wordt weergegeven door `0x47` :
 
 
 ```plaintext
@@ -4443,7 +4443,7 @@ Vervolgens moet de `P` prefix byte aan het begin worden toegevoegd om duidelijk 
 ```
 
 
-Ten slotte wordt, om de integriteit van de betaalcode te waarborgen, een checksum berekening uitgevoerd met `HASH256`, die bestaat uit een dubbele Hash met behulp van de `SHA256` functie. De eerste vier bytes van deze Hash worden dan samengevoegd aan het einde van de betaalcode:
+Ten slotte wordt, om de integriteit van de betaalcode te waarborgen, een checksum berekening uitgevoerd met `HASH256`, die bestaat uit een dubbele hash met behulp van de `SHA256`-functie. De eerste vier bytes van deze hash worden dan samengevoegd aan het einde van de betaalcode:
 
 
 ```plaintext
@@ -4470,7 +4470,7 @@ m/47'/0'/0'/
 ```
 
 
-Concreet, om generate de gecomprimeerde publieke sleutel en stringcode geassocieerd met de herbruikbare betalingscode te berekenen, beginnen we met het berekenen van de master private sleutel uit wallet seed. Daarna leiden we een paar dochtersleutels af met de index `47 + 2^31` (versterkte afleiding). Dit wordt gevolgd door nog twee opeenvolgende afleidingen van dochterparen, elk met de index `2^31` (versterkte afleiding).
+Concreet, om de gecomprimeerde publieke sleutel en stringcode geassocieerd met de herbruikbare betalingscode te berekenen, beginnen we met het berekenen van de master private sleutel uit wallet seed. Daarna leiden we een paar dochtersleutels af met de index `47 + 2^31` (versterkte afleiding). Dit wordt gevolgd door nog twee opeenvolgende afleidingen van dochterparen, elk met de index `2^31` (versterkte afleiding).
 
 
 ![BTC204](assets/nl/224.webp)
@@ -4726,7 +4726,7 @@ $$
 Een potentiële aanvaller die het onbeveiligde openbare netwerk observeert, kan alleen de openbare sleutels van elk individu en de parameters van de gekozen elliptische curve verkrijgen. Zoals hierboven uitgelegd, is deze informatie alleen niet voldoende om de privésleutels te bepalen. Bijgevolg kan de aanvaller het gedeelde geheim tussen Alice en Bob niet vinden.
 
 
-ECDH is daarom een exchange sleutelalgoritme. Het wordt vaak gebruikt in combinatie met andere cryptografische methoden om een compleet protocol op te zetten. ECDH vormt bijvoorbeeld het hart van TLS (*Transport Layer Security*), een encryptie- en authenticatieprotocol dat gebruikt wordt voor het internettransport Layer. TLS gebruikt ECDHE voor sleutel Exchange, een variant van ECDH waarbij sleutels efemeer zijn, om aanhoudende vertrouwelijkheid te bieden. Daarnaast gebruikt TLS authenticatiealgoritmen zoals ECDSA, encryptiealgoritmen zoals AES en Hash functies zoals SHA256.
+ECDH is daarom een exchange sleutelalgoritme. Het wordt vaak gebruikt in combinatie met andere cryptografische methoden om een compleet protocol op te zetten. ECDH vormt bijvoorbeeld het hart van TLS (*Transport Layer Security*), een encryptie- en authenticatieprotocol dat gebruikt wordt voor het internettransport Layer. TLS gebruikt ECDHE voor sleutel Exchange, een variant van ECDH waarbij sleutels efemeer zijn, om aanhoudende vertrouwelijkheid te bieden. Daarnaast gebruikt TLS authenticatiealgoritmen zoals ECDSA, encryptiealgoritmen zoals AES en hash functies zoals SHA256.
 
 
 TLS is verantwoordelijk voor de `s` in `https` en het hangslotje in de adresbalk van je browser - symbolen van versleutelde communicatie. Als je deze cursus volgt, gebruik je ECDH, en het is zeer waarschijnlijk dat je het dagelijks gebruikt zonder dat je het weet.
@@ -5293,7 +5293,7 @@ $$ S = a \dot B $$
 
 
 
-- Uit dit geheime punt berekent Alice het gedeelde geheim $s$ (kleine letters). Hiervoor selecteert ze de abscis van het geheime punt $S$ genaamd $Sx$, en geeft deze waarde door aan de SHA256 Hash functie:
+- Uit dit geheime punt berekent Alice het gedeelde geheim $s$ (kleine letters). Hiervoor selecteert ze de abscis van het geheime punt $S$ genaamd $Sx$, en geeft deze waarde door aan de SHA256 hash functie:
 
 
 $$ S = (Sx, Sy) $$
@@ -5582,10 +5582,10 @@ Door adres van Bob op te halen, kan Alice met behulp van ECDH een nieuw ongebrui
 $$ P = B + \text{Hash}(a \cdot B) \cdot G $$
 
 
-In deze vergelijking heeft Alice eenvoudigweg het scalair product berekend van haar privésleutel $a$ en de publieke sleutel $B$ van Bob. Ze heeft dit resultaat doorgegeven aan een Hash functie die bij iedereen bekend is. De resulterende waarde wordt vervolgens scalair vermenigvuldigd met het genererende punt $G$ van de elliptische curve `secp256k1`. Tenslotte voegt Alice het resulterende punt toe aan de openbare sleutel $B$ van Bob. Zodra Alice dit adres $P$ heeft, gebruikt ze het als output in een transactie, d.w.z. ze stuurt er bitcoins naartoe.
+In deze vergelijking heeft Alice eenvoudigweg het scalair product berekend van haar privésleutel $a$ en de publieke sleutel $B$ van Bob. Ze heeft dit resultaat doorgegeven aan een hash functie die bij iedereen bekend is. De resulterende waarde wordt vervolgens scalair vermenigvuldigd met het genererende punt $G$ van de elliptische curve `secp256k1`. Tenslotte voegt Alice het resulterende punt toe aan de openbare sleutel $B$ van Bob. Zodra Alice dit adres $P$ heeft, gebruikt ze het als output in een transactie, d.w.z. ze stuurt er bitcoins naartoe.
 
 
-> *In de context van Stille Betalingen komt de "Hash"-functie overeen met een SHA256 Hash-functie die specifiek gelabeld is met `BIP0352/SharedSecret`, wat garandeert dat de gegenereerde hashes uniek zijn voor dit protocol en niet hergebruikt kunnen worden in andere contexten, terwijl het extra bescherming biedt tegen het hergebruik van nonces in handtekeningen. Deze standaard komt overeen met die [gespecificeerd in BIP340 voor Schnorr-handtekeningen](https://github.com/Bitcoin/bips/blob/master/bip-0340.mediawiki) op `secp256k1`.*
+> *In de context van Stille Betalingen komt de "hash"-functie overeen met een SHA256 hash-functie die specifiek gelabeld is met `BIP0352/SharedSecret`, wat garandeert dat de gegenereerde hashes uniek zijn voor dit protocol en niet hergebruikt kunnen worden in andere contexten, terwijl het extra bescherming biedt tegen het hergebruik van nonces in handtekeningen. Deze standaard komt overeen met die [gespecificeerd in BIP340 voor Schnorr-handtekeningen](https://github.com/Bitcoin/bips/blob/master/bip-0340.mediawiki) op `secp256k1`.*
 Dankzij de eigenschappen van de elliptische curve waarop ECDH is gebaseerd, weten we dat :
 
 
@@ -5626,7 +5626,7 @@ Zoals je kunt zien, moet je om deze privésleutel $p$ te berekenen, de privésle
 - $A$ : Alice's UTXO publieke sleutel gebruikt als transactie-invoer
 - $a$: Alice's privésleutel
 - $G$: het voortbrengend punt van de elliptische kromme `secp256k1`
-- $\text{SHA256}$ : De SHA256 Hash-functie getagd met `BIP0352/SharedSecret`
+- $\text{SHA256}$ : De SHA256 hash-functie getagd met `BIP0352/SharedSecret`
 - $s$: het gemeenschappelijke geheim van ECDH
 - $P$ : De openbare sleutel/unieke adres voor betaling aan Bob
 
@@ -5649,7 +5649,7 @@ Om de berekening te wijzigen en 2 verschillende adressen te verkrijgen, voeg je 
 $$ P_i = B + \text{Hash}(a \cdot B ‖ } i) \cdot G $$
 
 
-Het berekeningsproces blijft ongewijzigd ten opzichte van de vorige methode, behalve dat Alice deze keer $a cdot B$ aaneenschakelt met $i$ voordat Hash verder gaat. Je wijzigt dan eenvoudig $i$ om een nieuwe adres te verkrijgen die bij Bob hoort. Bijvoorbeeld:
+Het berekeningsproces blijft ongewijzigd ten opzichte van de vorige methode, behalve dat Alice deze keer $a cdot B$ aaneenschakelt met $i$ voordat hash verder gaat. Je wijzigt dan eenvoudig $i$ om een nieuwe adres te verkrijgen die bij Bob hoort. Bijvoorbeeld:
 
 
 $$ P_0 = B + \text{Hash}(a \dot B ‖ } 0) \dot G $$
@@ -5696,7 +5696,7 @@ $$
 - $A$ : Alice's UTXO publieke sleutel gebruikt als transactie-invoer
 - $a$: Alice's privésleutel
 - $G$: het voortbrengend punt van de elliptische kromme `secp256k1`
-- $\text{SHA256}$ : De SHA256 Hash-functie getagd met `BIP0352/SharedSecret`
+- $\text{SHA256}$ : De SHA256 hash-functie getagd met `BIP0352/SharedSecret`
 - $s_0$: het eerste gemeenschappelijke geheim ECDH
 - $s_1$: het tweede gemeenschappelijke ECDH-geheim
 - $P_0$ : De eerste openbare sleutel / unieke adres voor betaling aan Bob
@@ -5716,7 +5716,7 @@ Zoals we in de vorige secties zagen, gebruikt Alice het sleutelpaar dat haar UTX
 Aangezien de unieke adres $P_0$ is afgeleid van $A$ en $B$, zal Alice, als ze een tweede adres afleidt voor een tweede betaling aan $B$, met dezelfde sleutel $A$, op precies hetzelfde adres $P_0$ uitkomen. Om dit risico te vermijden en hergebruik van adres binnen Stille Betalingen te voorkomen, moeten we onze berekeningen een beetje aanpassen.
 
 
-Wat we willen is dat elke UTXO die Alice gebruikt als input voor een betaling, een unieke adres oplevert aan Bob's kant, zelfs als meerdere UTXO's beveiligd zijn door hetzelfde sleutelpaar. We hoeven dus alleen maar een verwijzing naar de UTXO toe te voegen bij het berekenen van de unieke adres $P_0$. Deze referentie zal simpelweg de Hash zijn van de UTXO die als input wordt gebruikt:
+Wat we willen is dat elke UTXO die Alice gebruikt als input voor een betaling, een unieke adres oplevert aan Bob's kant, zelfs als meerdere UTXO's beveiligd zijn door hetzelfde sleutelpaar. We hoeven dus alleen maar een verwijzing naar de UTXO toe te voegen bij het berekenen van de unieke adres $P_0$. Deze referentie zal simpelweg de hash zijn van de UTXO die als input wordt gebruikt:
 
 
 $$ \text{inputHash} = \text{Hash}(\text{outpoint} \text{ ‖ } A) $$
@@ -5754,9 +5754,9 @@ $$
 - $b$: Bob's privésleutel
 - $A$ : Alice's UTXO publieke sleutel gebruikt als transactie-invoer
 - $a$: Alice's privésleutel
-- $H$ : UTXO Hash gebruikt als invoer
+- $H$ : UTXO hash gebruikt als invoer
 - $G$: het voortbrengend punt van de elliptische kromme `secp256k1`
-- $\text{SHA256}$ : De SHA256 Hash-functie getagd met `BIP0352/SharedSecret`
+- $\text{SHA256}$ : De SHA256 hash-functie getagd met `BIP0352/SharedSecret`
 - $s_0$: het eerste gemeenschappelijke ECDH-geheim
 - $P_0$ : De eerste openbare sleutel / unieke adres voor betaling aan Bob
 
@@ -5874,7 +5874,7 @@ $$ p_0 = (b_{inputHash}} + \text{Hash}(\text{inputHash} \cdot b_{{text{scan}} \c
 - $a$ : De privésleutel die overeenkomt met de aangepaste openbare sleutel
 - $H$: de hash van de kleinste UTXO (lexicografisch) gebruikt als invoer
 - $G$: het voortbrengend punt van de elliptische kromme `secp256k1`
-- $\text{SHA256}$ : De SHA256 Hash-functie getagd met `BIP0352/SharedSecret`
+- $\text{SHA256}$ : De SHA256 hash-functie getagd met `BIP0352/SharedSecret`
 - $s_0$: het eerste gemeenschappelijke geheim ECDH
 - $P_0$ : De eerste openbare sleutel / unieke adres voor betaling aan Bob
 
@@ -5960,11 +5960,11 @@ Houd er echter rekening mee dat deze scheiding van statische adressen alleen gel
 - $a$ : De privésleutel die overeenkomt met de aangepaste openbare sleutel
 - $H$: de hash van de kleinste UTXO (lexicografisch) gebruikt als invoer
 - $G$: het voortbrengend punt van de elliptische kromme `secp256k1`
-- $\text{SHA256}$ : De SHA256 Hash functie getagd met `BIP0352/SharedSecret`
+- $\text{SHA256}$ : De SHA256 hash functie getagd met `BIP0352/SharedSecret`
 - $s_0$: het eerste gemeenschappelijke ECDH-geheim
 - $P_0$ : De eerste publieke sleutel / uniek adres voor betaling aan Bob
 - $p_0$ : De private sleutel van de eerste unieke betaling adres aan Bob
-- $X$ : De Hash van de particuliere sleutel van de scan met het label
+- $X$ : De hash van de particuliere sleutel van de scan met het label
 
 
 ### Hoe bouw ik een Silent Payments adres?

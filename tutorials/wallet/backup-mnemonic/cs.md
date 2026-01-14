@@ -1,5 +1,5 @@
 ---
-name: Uložte si mnemotechnickou frázi
+name: Uložit svou mnemotechnickou frázi
 description: Objevte osvědčené postupy pro ochranu peněženky Bitcoin
 ---
 ![cover](assets/cover.webp)

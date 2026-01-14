@@ -1,0 +1,15 @@
+id: 4132ec2c-06f4-4488-b1d9-d03dd1c7518e
+start_date: 2026-01-22 10:00:00
+end_date: 2026-01-22 15:00:00
+timezone: Europe/Paris
+address_city_country: Paris, France
+name: TEST event Bookeable
+type: lecture
+description: This is a test event bookeable
+language:
+  - en
+links:
+  website: ""
+tags:
+  - proof-of-work
+  - hardware

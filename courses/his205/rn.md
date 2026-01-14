@@ -925,7 +925,7 @@ Umwanditsi avuga ko kuva mu misi ya mbere y’uguhingura amahera, uretse gusa kw
 
 
 
-## Amafaranga y'ikimenyetso n'ubutunzi n'imitunganirize y'amahera mu bushinwa bwa kera
+## Amafaranga ikimenyetso  n'imitunganirize y'ubutunzi  n'amahera mu bushinwa bwa kera
 
 
 <chapterId>e08d3be9-423c-5cf3-a606-6ad54e2261af</chapterId>
@@ -933,7 +933,7 @@ Umwanditsi avuga ko kuva mu misi ya mbere y’uguhingura amahera, uretse gusa kw
 
 :::video id=ae7e6367-1725-455e-bfe6-359be1f443e5:::
 
-Muri iki gice, citwa "Amahera y'ibimenyetso n'imitunganirize y'ubutunzi n'amahera y'Ubushinwa bwa kera", tuzobona ko amahera y'Ubushinwa bwa kera afise ibiranga bitandukanye n'imigenzo y'Uburengero. Amafaranga y'Abashinwa yari asanzwe ari "amafaranga y'ikimenyetso" kuva mu ntango. Amakuru ari muri iki gice ashingiye ku vyo nafashe maze gusoma igitabu « Aux origines de la monnaie ».
+Muri iki gice, citwa "Amahera ikimenyetso n'imitunganirize y'ubutunzi n'amahera y'Ubushinwa bwa kera", tuzobona ko amahera y'Ubushinwa bwa kera afise ibiranga bitandukanye n'imigenzo yomuburengero. Amafaranga y'Abashinwa yari asanzwe ari "amafaranga y'ikimenyetso" kuva mu ntango. Amakuru ari muri iki gice ashingiye ku vyo nafashe maze gusoma igitabu « Aux origines de la monnaie ».
 
 
 

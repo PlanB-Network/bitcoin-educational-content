@@ -5,5 +5,5 @@ wrong_answers:
   - Die Benutzer müssen die Genehmigung mehrerer Behörden einholen, um eine Transaktion abschließen zu können.
   - Jeder Teilnehmer kann vergangene Transaktionen nach Belieben bearbeiten, wenn er einen speziellen Code besitzt.
 explanation: |
-  Die Bitcoin-Blockchain ist ein fälschungssicheres Hauptbuch. Sobald eine Transaktion bestätigt und in einen Block aufgenommen wurde, wird sie Teil der permanenten Aufzeichnung, was die Endgültigkeit sicherstellt.
-reviewed: false
+  Die Bitcoin-Blockchain ist ein fälschungssicheres Ledger. Sobald eine Transaktion bestätigt und in einen Block aufgenommen wurde, wird sie Teil der permanenten Aufzeichnung, was die Endgültigkeit sicherstellt.
+reviewed: true

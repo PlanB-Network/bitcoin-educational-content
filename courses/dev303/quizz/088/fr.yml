@@ -1,8 +1,8 @@
 question: Quel défi fondamental en matière de développement multiplateforme l'interface UniFFI relève-t-elle lorsqu'elle travaille avec les bibliothèques Rust ?
-answer: La nécessité de créer manuellement un code de liaison personnalisé pour chaque langue cible lors de l'exposition de la FFI de bas niveau de Rust
+answer: La nécessité de créer manuellement un code de liaison personnalisé pour chaque langue cible lors de l'exposition de la FFI de bas niveau de Rust.
 wrong_answers:
-  - L'incapacité de Rust à compiler des binaires natifs pouvant fonctionner sur plusieurs systèmes d'exploitation
-  - L'absence de garanties de sécurité de la mémoire lorsque le code Rust interagit avec des langages de type "garbage-collected"
-  - "La surcharge de performance introduite lors de la traduction du modèle de propriété de Rust dans les langues à comptage de référence"
+  - L'incapacité de Rust à compiler des binaires natifs pouvant fonctionner sur plusieurs systèmes d'exploitation.
+  - L'absence de garanties de sécurité de la mémoire lorsque le code Rust interagit avec des langages de type "garbage-collected".
+  - La surcharge de performance introduite lors de la traduction du modèle de propriété de Rust dans les langues à comptage de référence.
 explanation: |
   UniFFI résout spécifiquement le problème de l'écriture manuelle du code de liaison pour chaque langue cible. Lorsque Rust se compile en sortie binaire, il produit une fonction étrangère Interface (FFI) qui est de bas niveau et difficile à utiliser directement à partir de langages de plus haut niveau. Traditionnellement, les développeurs devaient écrire un code de liaison personnalisé pour chaque langage cible (Python, Swift, Kotlin, etc.), ce qui créait d'importants obstacles à l'adoption. UniFFI élimine cette redondance en générant automatiquement ces bindings grâce à son système de spécification UDL.

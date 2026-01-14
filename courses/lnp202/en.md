@@ -14,7 +14,7 @@ objectives:
 # Your first step towards autonomy on Lightning
 
 
-You've already acquired your first satss, secured your self-custody funds and deployed a Bitcoin node to be sovereign in your on-chain usage. The next step is to gain the same autonomy on Lightning: that's precisely the aim of this course.
+You've already acquired your first sats, secured your self-custody funds and deployed a Bitcoin node to be sovereign in your on-chain usage. The next step is to gain the same autonomy on Lightning: that's precisely the aim of this course.
 
 
 LNP 202 is aimed at intermediate users, and guides you step-by-step through the deployment of your first Lightning node, without advanced technical skills.
@@ -46,7 +46,7 @@ For a better understanding of Lightning's internal mechanics, the LNP 201 course
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-In the first part of this LNP 202 course, we'll take a look at what a Lightning node really is, how it differs from a simple wallet, and why operating a personal node is the only way to use Lightning without delegating your satss to a trusted third party. This section concludes with a strategic choice: which solution is right for you, from the simplest approaches to the classic Lightning node, the one we'll be implementing in this course.
+In the first part of this LNP 202 course, we'll take a look at what a Lightning node really is, how it differs from a simple wallet, and why operating a personal node is the only way to use Lightning without delegating your sats to a trusted third party. This section concludes with a strategic choice: which solution is right for you, from the simplest approaches to the classic Lightning node, the one we'll be implementing in this course.
 
 
 In Part 2 of the course, you'll install LND on Umbrel, then put in place the elements that prevent the most costly mistakes: a realistic backup strategy and protection against cheating via a watchtower. Once these basics are in place, you'll open your first channel, so you can start paying on Lightning with your own infrastructure.
@@ -97,24 +97,24 @@ A Lightning node is a participant in the Lightning network, opening channels and
 ![Image](assets/fr/001.webp)
 
 
-### Node vs. Wallet Lightning: an important distinction
+### Node vs. Lightning Wallet: an important distinction
 
 
 On Bitcoin (onchain), "*wallet*" refers to software that manages your private keys, calculates your balance from your UTXOs and builds your transactions. This wallet may be based on your own Bitcoin node or on someone else's, but today, the role of the node and that of the onchain wallet are clearly distinct.
 
 
-On Lightning, it's more difficult to reuse this vocabulary without creating confusion. To speak of a "*wallet Lightning*" is rather vague, because in reality there is no such thing as a truly self-custodial Lightning wallet without it being based on a node. Only two situations are therefore possible:
+On Lightning, it's more difficult to reuse this vocabulary without creating confusion. To speak of a "*Lightning wallet*" is rather vague, because in reality there is no such thing as a truly self-custodial Lightning wallet without it being based on a node. Only two situations are therefore possible:
 
 
 
-- Have a real Lightning node (i.e. non-custodial): the software you're using (e.g. a mobile app like Phoenix or a LND instance on Umbrel) is actually running a node, and you actually hold the keys to retrieve your bitcoins. In this case, your "*wallet Lightning*" is really just a user interface on top of a Lightning node, whether embedded or remote.
+- Have a real Lightning node (i.e. non-custodial): the software you're using (e.g. a mobile app like Phoenix or a LND instance on Umbrel) is actually running a node, and you actually hold the keys to retrieve your bitcoins. In this case, your "*Lightning wallet*" is really just a user interface on top of a Lightning node, whether embedded or remote.
 
 
 
-- Using a custodial service: you use an application that shows you a balance in sats on Lightning, but in the background, the funds are on a provider's node (e.g. Wallet of Satoshi). You have neither the keys nor control of the channels. Your balance is merely an accounting entry in the company's database. It's comparable to leaving your bitcoins on an exchange platform, with all the associated risks. In this case, your "*wallet Lightning*" is merely an access to an account managed by an operator who, in turn, runs a real Lightning node.
+- Using a custodial service: you use an application that shows you a balance in sats on Lightning, but in the background, the funds are on a provider's node (e.g. Wallet of Satoshi). You have neither the keys nor control of the channels. Your balance is merely an accounting entry in the company's database. It's comparable to leaving your bitcoins on an exchange platform, with all the associated risks. In this case, your "*Lightning wallet*" is merely an access to an account managed by an operator who, in turn, runs a real Lightning node.
 
 
-So there's no in-between on Lightning: either you have a node (even an embedded one) and you're in self-custody, or you don't, and a company owns your satss. But as we'll see in the following chapters, these two uses can sometimes be hard to distinguish. For example, Phoenix is a mobile application that embeds a real Lightning node, but the user isn't necessarily aware of this, as the full complexity of its operation is almost entirely hidden.
+So there's no in-between on Lightning: either you have a node (even an embedded one) and you're in self-custody, or you don't, and a company owns your sats. But as we'll see in the following chapters, these two uses can sometimes be hard to distinguish. For example, Phoenix is a mobile application that embeds a real Lightning node, but the user isn't necessarily aware of this, as the full complexity of its operation is almost entirely hidden.
 
 
 ### A reminder of how the Lightning Network works
@@ -187,7 +187,7 @@ Before going any further, here are two essential concepts for understanding how 
 #### A network of channels and liquidity
 
 
-A channel isn't just for payments between two nodes: it's part of a global network of interconnected channels. Your node can route payments for other users through its own channels, and you can send satss to a Lightning node with which you have no direct channel, as long as a valid path can be found between your two nodes.
+A channel isn't just for payments between two nodes: it's part of a global network of interconnected channels. Your node can route payments for other users through its own channels, and you can send sats to a Lightning node with which you have no direct channel, as long as a valid path can be found between your two nodes.
 
 
 Each node knows, via the gossip protocol, a map of this network: which channels exist, which nodes are connected by a bidirectional channel, and which capacities are published. To send a payment to a recipient without a direct channel, your node calculates a route consisting of several hops: your node → node X → node Y → recipient node. At each hop, the payment transits a channel that must have sufficient liquidity in the direction of payment.
@@ -196,7 +196,7 @@ Each node knows, via the gossip protocol, a map of this network: which channels 
 ![Image](assets/fr/007.webp)
 
 
-The liquidity of a channel is therefore not symmetrical: one side may be heavily loaded, while the other is almost empty. Managing this liquidity, i.e. knowing where the satss are and in which direction they can flow, is one of the most important aspects of operating a Lightning node. We'll look at this in more detail in the practical chapters to come.
+The liquidity of a channel is therefore not symmetrical: one side may be heavily loaded, while the other is almost empty. Managing this liquidity, i.e. knowing where the sats are and in which direction they can flow, is one of the most important aspects of operating a Lightning node. We'll look at this in more detail in the practical chapters to come.
 
 
 #### HTLC: transporting payment without being robbed
@@ -235,7 +235,7 @@ Core Lightning (formerly *C-Lightning*) is the implementation developed by Block
 ![Image](assets/fr/010.webp)
 
 
-#### Lightning
+#### Eclair
 
 
 Eclair is an implementation written in Scala and developed by the French company ACINQ. ACINQ operates one of the most important routing nodes in the Lightning network with Eclair, and uses this implementation as the software basis for its own products, such as the Phoenix application.
@@ -335,7 +335,7 @@ So for occasional use, it's still acceptable, but for a very active Lightning us
 The second category of solutions is based on Lightning nodes embedded directly in a mobile application. Phoenix Wallet pioneered this model and remains a benchmark. Today, other projects offer comparable approaches, such as Zeus (in embedded mode) or BitKit.
 
 
-The idea is simple: the application actually runs a Lightning node, but all the complex operations are handled automatically in the background. You have a "*wallet Lightning*" interface with a mnemonic phrase for backup, you see a balance and pay invoices, but you don't manage channels, liquidity or most parameters.
+The idea is simple: the application actually runs a Lightning node, but all the complex operations are handled automatically in the background. You have a "*Lightning wallet*" interface with a mnemonic phrase for backup, you see a balance and pay invoices, but you don't manage channels, liquidity or most parameters.
 
 
 ![Image](assets/fr/014.webp)
@@ -348,7 +348,7 @@ The advantages of LN on-board nodes are numerous:
 
 
 - extremely easy to install and use ;
-- user experience close to that of a custodial wallet Lightning, but with self-custody;
+- user experience close to that of a custodial Lightning wallet, but with self-custody;
 - no manual management of channels or liquidity ;
 - relatively simple backup.
 
@@ -368,7 +368,7 @@ The third solution, the one we'll be looking at in greater depth in this LNP 202
 By "classic" I mean that you install and configure a Lightning implementation (e.g. LND) yourself on top of your own Bitcoin node. You choose your peers, open your channels, manage your inbound and outbound liquidity, and set your routing fee policies.
 
 
-In terms of sovereignty, it's the best solution. You are no longer dependent on a specific company for your channels or payments: if a peer censors you or closes a channel, you can open another with a different node. If a service disappears, your satss remain in the channels you control, and you can repatriate them onchain. You can also optimize your long-term costs: once your channels are correctly sized and managed, the overall cost of payments can become very low.
+In terms of sovereignty, it's the best solution. You are no longer dependent on a specific company for your channels or payments: if a peer censors you or closes a channel, you can open another with a different node. If a service disappears, your sats remain in the channels you control, and you can repatriate them onchain. You can also optimize your long-term costs: once your channels are correctly sized and managed, the overall cost of payments can become very low.
 
 
 In terms of confidentiality, you're obviously subject to the limitations of Lightning's own model, but you're not handing over your entire business to a single operator.
@@ -494,7 +494,7 @@ Let's start by customizing our node. Click on the three small dots at the top ri
 Then click on the green `SAVE AND RESTART` button to restart your node and apply these changes.
 
 
-Your Lightning node is now ready to open its first channels for making payments. But first, let's take a look at how to protect your satss!
+Your Lightning node is now ready to open its first channels for making payments. But first, let's take a look at how to protect your sats!
 
 
 ## Saving your Lightning node
@@ -502,7 +502,7 @@ Your Lightning node is now ready to open its first channels for making payments.
 <chapterId>638fa75d-62af-4bf3-ab4a-b7d10ea75815</chapterId>
 
 
-Before sending your first satss to your node, it's important to understand how its backup works and what the associated risks are. Unlike a simple Bitcoin onchain portfolio, backing up a Lightning node is quite complex: the wrong strategy can lead to the permanent loss of your funds. In this chapter, we'll look at what really needs to be backed up, and how Umbrel handles this process with LND.
+Before sending your first sats to your node, it's important to understand how its backup works and what the associated risks are. Unlike a simple Bitcoin onchain portfolio, backing up a Lightning node is quite complex: the wrong strategy can lead to the permanent loss of your funds. In this chapter, we'll look at what really needs to be backed up, and how Umbrel handles this process with LND.
 
 
 In this course, we'll be using the LND (*Lightning Network Daemon*) implementation. Although the principles are similar on the other implementations, the recovery files and procedures I'm going to talk about are specific to LND.
@@ -544,7 +544,7 @@ The problem with this database is that it's constantly changing: every payment, 
 In practice, then, `channel.db` is not a backup medium as such. It's the living state of your node. The only situation in which it makes sense to use it to restore your node is when you recover this database directly from a machine that has just failed (e.g. a disk that is still readable). In this case, you recover the most recent state and can restart LND on another machine based on this database, safe in the knowledge that this state is as up-to-date as possible, since the old machine is no longer running. Another situation where this method can serve as a relevant backup is in a two-disk configuration, with a dynamic, permanent copy from one to the other. However, this type of set-up is more complex to implement.
 
 
-But making periodic copies of `channel.db` and storing them as backups to be restored later is a very bad idea: the day you use them, you run the risk of penalizing yourself and losing all your satss.
+But making periodic copies of `channel.db` and storing them as backups to be restored later is a very bad idea: the day you use them, you run the risk of penalizing yourself and losing all your sats.
 
 
 #### Static Channel Backup (SCB)
@@ -635,7 +635,7 @@ In addition to Umbrel's automatic backup, you can also keep an encrypted copy of
 Your seed Umbrel not only restores your onchain wallet, but also derives the encryption key for backups. An attacker with access to it could therefore launch a recovery and transfer your funds to his own wallet, without even having physical access to your node.
 
 
-So, if you need to restore your node but no longer have your seed, you won't be able to recover anything: all your satss will be lost. So it's very important to save your seed with the utmost care, only on physical media (paper or metal), and to keep it in a safe place. For more information on managing a seed, please consult this tutorial:
+So, if you need to restore your node but no longer have your seed, you won't be able to recover anything: all your sats will be lost. So it's very important to save your seed with the utmost care, only on physical media (paper or metal), and to keep it in a safe place. For more information on managing a seed, please consult this tutorial:
 
 
 https://planb.academy/tutorials/wallet/backup/backup-mnemonic-22c0ddfa-fb9f-4e3a-96f9-46e2a7954270
@@ -675,7 +675,7 @@ If one of the parties publishes an out-of-date state, the other has the right to
 ### Understanding how watchtowers work
 
 
-At any given moment, each party in the channel has a commitment transaction which, if published, would enable it to close the channel and recover its share of the funds. This is known as forced closure. But if it were to attempt to publish an older commitment transaction, corresponding to a previous state of the channel where it held more satss, then this transaction would be considered a cheating attempt. In this case, the counterparty can use the revocation key associated with this older state to recover the full amount of funds in the channel, while the cheater is temporarily blocked by the timelock.
+At any given moment, each party in the channel has a commitment transaction which, if published, would enable it to close the channel and recover its share of the funds. This is known as forced closure. But if it were to attempt to publish an older commitment transaction, corresponding to a previous state of the channel where it held more sats, then this transaction would be considered a cheating attempt. In this case, the counterparty can use the revocation key associated with this older state to recover the full amount of funds in the channel, while the cheater is temporarily blocked by the timelock.
 
 
 This system means that publishing an old state, i.e. attempting to cheat, is very risky: if the other party sees this transaction in the mempools or on the blockchain before the timelock expires, they can use the revocation key and recover all the funds. **The security of your Lightning channel therefore depends on your ability to detect a cheating attempt within the time window imposed by the timelock**.
@@ -721,7 +721,7 @@ As the TXID transmitted to the watchtower is incomplete, it cannot decrypt the j
 ![Image](assets/fr/024.webp)
 
 
-The watchtower therefore has no visibility of the details of your channels: neither the identity of your peers, nor the balances, nor the structure of the transactions. It only sees encrypted packets. The only information it can deduce is the rate at which your channels are updated, since it receives a packet for each new state, but is unable to know its content. In the event of cheating, it will certainly discover the channel information by decrypting the penalty transaction, but at least your satss will be saved.
+The watchtower therefore has no visibility of the details of your channels: neither the identity of your peers, nor the balances, nor the structure of the transactions. It only sees encrypted packets. The only information it can deduce is the rate at which your channels are updated, since it receives a packet for each new state, but is unable to know its content. In the event of cheating, it will certainly discover the channel information by decrypting the penalty transaction, but at least your sats will be saved.
 
 
 This mechanism is based on a compromise: you delegate to the watchtower the ability to publish a pre-signed penalty transaction, but this transaction remains totally opaque to the watchtower as long as no cheating takes place. The watchtower can neither modify the recipients nor divert the funds, since it only has a transaction that has already been signed, with the outputs frozen in your favor. Nor can it know the details of a channel in a legitimate forced or cooperative closure, as the TXIDs don't match. On the other hand, watchtower remains a minimal trusted third party: you need to rely on it to be online and to properly broadcast your justice transaction when you need it.
@@ -819,7 +819,7 @@ If you've made it this far, you already know that a Lightning node without a cha
 But in this introductory chapter, the aim is simply to understand how to choose a good Lightning peer, where to find the information you need to select your peers, and finally how to open your first channel via the basic LND interface.
 
 
-### How to choose a good Lightning pair?
+### How to choose a good Lightning peer?
 
 
 When you open a channel, you need to choose a peer: this is another Lightning node to which your node will be directly connected via a channel. This choice of peer is important, as it will have a direct impact on :
@@ -925,10 +925,10 @@ Once you've identified a relevant node, you can retrieve its Node ID. This is si
 ### Open your first channel via LND
 
 
-Now that we've identified the node with which to open our first channel, we need satss to lock into it. To do this, you need to feed the Bitcoin onchain wallet associated with your LND.
+Now that we've identified the node with which to open our first channel, we need sats to lock into it. To do this, you need to feed the Bitcoin onchain wallet associated with your LND.
 
 
-From the main LND interface, locate your `Bitcoin Wallet`, then click on the `Deposit` button. An onchain receiving address is then generated: send satss to it. The amount you need to transfer depends on the capacity you wish to allocate to your first channel, but bear in mind that you need to send slightly more than the targeted capacity. For example, if you want to open a 500,000 sats channel, don't send exactly 500,000 sats, but a higher amount.
+From the main LND interface, locate your `Bitcoin Wallet`, then click on the `Deposit` button. An onchain receiving address is then generated: send sats to it. The amount you need to transfer depends on the capacity you wish to allocate to your first channel, but bear in mind that you need to send slightly more than the targeted capacity. For example, if you want to open a 500,000 sats channel, don't send exactly 500,000 sats, but a higher amount.
 
 
 ![Image](assets/fr/032.webp)
@@ -1007,7 +1007,7 @@ To improve the reliability of our payments, it will obviously be necessary to op
 Now that your Lightning node is up and running, the next step is to define your trader profile. This is an important choice, as it determines your channel opening strategy, the type of peers you prefer, and the way you manage liquidity.
 
 
-On Lightning, for this to work, you need liquidity in the right direction. Outgoing liquidity corresponds to your ability to pay (sats available on your side of the channels). Incoming liquidity corresponds to your capacity to receive (sats available on your peers' side). In other words, your profile boils down to a simple question: most of the time, are your satss leaving your node, or entering it?
+On Lightning, for this to work, you need liquidity in the right direction. Outgoing liquidity corresponds to your ability to pay (sats available on your side of the channels). Incoming liquidity corresponds to your capacity to receive (sats available on your peers' side). In other words, your profile boils down to a simple question: most of the time, are your sats leaving your node, or entering it?
 
 
 ### The consumer
@@ -1077,7 +1077,7 @@ Among the best-known software programs are :
 - [ThunderHub](https://thunderhub.io/).
 
 
-All three are good solutions. If you wish, you can test all three with your knot before choosing the one that suits you best. Personally, I use ThunderHub out of habit and because it seems more complete than the others. This is the tool I'll be presenting in this training course, but you can also choose one of the other two alternatives. We have a dedicated tutorial for each of these programs on Plan ₿ Academy.
+All three are good solutions. If you wish, you can test all three with your node before choosing the one that suits you best. Personally, I use ThunderHub out of habit and because it seems more complete than the others. This is the tool I'll be presenting in this training course, but you can also choose one of the other two alternatives. We have a dedicated tutorial for each of these programs on Plan ₿ Academy.
 
 
 https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-408e-a118-4e34e249bb9a
@@ -1190,7 +1190,7 @@ These are the main actions you'll need to perform on ThunderHub. We'll discover 
 <chapterId>b740c656-a897-4d95-af4b-116b718447cd</chapterId>
 
 
-As you can see, having outgoing liquidity to make payments on Lightning is not particularly complex. Simply open channels on your own initiative to other nodes and start sending satss. On the other hand, having incoming liquidity to receive payments on Lightning is more complicated, since you either need other nodes to open channels to you, or you need to move the liquidity yourself by making payments.
+As you can see, having outgoing liquidity to make payments on Lightning is not particularly complex. Simply open channels on your own initiative to other nodes and start sending sats. On the other hand, having incoming liquidity to receive payments on Lightning is more complicated, since you either need other nodes to open channels to you, or you need to move the liquidity yourself by making payments.
 
 
 If you adopt a "consumer" profile, there's generally no need to worry about incoming liquidity. Your use of the Lightning node will be predominantly payment-oriented, rather than cash-in. By simply making a few Lightning payments, you'll naturally create incoming liquidity over time.
@@ -1256,7 +1256,7 @@ Once payment has been made, the transaction appears as being processed in the Ma
 ![Image](assets/fr/058.webp)
 
 
-After a few minutes, the request is processed: a channel with satss is being opened to your Lightning node. Once the opening transaction has been confirmed onchain, you'll have access to the corresponding incoming liquidity.
+After a few minutes, the request is processed: a channel with sats is being opened to your Lightning node. Once the opening transaction has been confirmed onchain, you'll have access to the corresponding incoming liquidity.
 
 
 ![Image](assets/fr/059.webp)
@@ -1434,7 +1434,7 @@ Some participants may wish to rebalance the circular channels from the outset, b
 That's it, you now have a well-connected Lightning node, with both incoming and outgoing liquidity. So you're all set to use your Lightning node in real life. Up to now, we've always used interfaces directly on Umbrel, either the `Lightning Node` application or the `ThunderHub` interface. These tools work for sending and receiving payments, but are clearly not optimized for everyday Lightning payments. The interface is designed for use on a computer, impractical on a smartphone, and also requires a connection to the same network to function properly (although it is technically possible to connect remotely via Tor).
 
 
-In practice, what we're looking for as bitcoiners is a classic wallet Lightning interface on a smartphone: the ability to scan invoices via QR code, and a simple interface for paying and cashing out satss. This is precisely what we'll be implementing in this chapter and the next. The general idea is to have a mobile wallet Lightning application on your smartphone, which can be used from anywhere (not just your local network) but which, in the background, relies on your own Lightning node to send and receive payments.
+In practice, what we're looking for as bitcoiners is a classic Lightning wallet interface on a smartphone: the ability to scan invoices via QR code, and a simple interface for paying and cashing out sats. This is precisely what we'll be implementing in this chapter and the next. The general idea is to have a mobile Lightning wallet application on your smartphone, which can be used from anywhere (not just your local network) but which, in the background, relies on your own Lightning node to send and receive payments.
 
 
 ### What are the solutions for connecting a mobile customer?
@@ -1560,7 +1560,7 @@ In the next chapter, we'll look at another, equally effective way of connecting 
 <chapterId>f5c97e43-e66e-4ba3-bcc9-fee1a04fc7f4</chapterId>
 
 
-If you're not convinced by the Tailscale connection, or if managing a dual VPN seems too much of a hassle, this chapter suggests another way of using a remote mobile client to pay for and receive satss via your Lightning node: ***Nostr Wallet Connect***.
+If you're not convinced by the Tailscale connection, or if managing a dual VPN seems too much of a hassle, this chapter suggests another way of using a remote mobile client to pay for and receive sats via your Lightning node: ***Nostr Wallet Connect***.
 
 
 For this example, we'll be using the Alby Go mobile application, which is very well designed and particularly easy to learn. That said, you can also use Zeus or any other NWC-compatible mobile application. You'll find a list of compatible applications on [the `awesome-nwc` GitHub repository](https://github.com/getAlby/awesome-nwc).
@@ -1654,13 +1654,13 @@ On the Alby Go application, when first opened, click on `Connect Wallet`, then s
 ![Image](assets/fr/099.webp)
 
 
-Choose a name to identify this wallet. You now have remote access to your Lightning node via Alby Go. You can generate invoices to receive satss on your node, or set Lightning invoices directly with it.
+Choose a name to identify this wallet. You now have remote access to your Lightning node via Alby Go. You can generate invoices to receive sats on your node, or set Lightning invoices directly with it.
 
 
 ![Image](assets/fr/100.webp)
 
 
-For example, I sent 1543 satss from the Alby Go interface.
+For example, I sent 1543 sats from the Alby Go interface.
 
 
 ![Image](assets/fr/101.webp)
@@ -1689,7 +1689,7 @@ From an operational point of view, your node should now enter a maintenance rhyt
 When it comes to channels, take a pragmatic approach: keep those that are useful to you, close those that are permanently inactive or associated with unstable peers, and gradually reallocate your capital towards a more robust topology.
 
 
-**One of the most common pitfalls at this stage is allocating too much capital to your Lightning node. Bear in mind that your Lightning node is much less secure than wallet hardware, and that the availability of funds committed to your channels relies on backup mechanisms that remain imperfect. It's therefore very important to keep to reasonable amounts, which you can afford to lose in the event of a problem, and always keep the majority of your satss with wallet onchain hardware.
+**One of the most common pitfalls at this stage is allocating too much capital to your Lightning node. Bear in mind that your Lightning node is much less secure than a hardware wallet, and that the availability of funds committed to your channels relies on backup mechanisms that remain imperfect. It's therefore very important to keep to reasonable amounts, which you can afford to lose in the event of a problem, and always keep the majority of your sats on an onchain hardware wallet.
 
 
 As far as tools are concerned, I recommend that you remain curious and attentive to new developments. In this training session, we discovered several of them, whether for managing your node, its connectivity or remote use to make payments. However, Lightning is a particularly dynamic field. Every year, new and relevant tools emerge, and many new applications also appear on Umbrel. Keeping abreast of these new developments may enable you to discover more powerful or more practical solutions than those presented in this course.

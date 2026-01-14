@@ -6,4 +6,4 @@ wrong_answers:
   - Ein automatisches Buchhaltungssystem für Transaktionen vom PoS
 explanation: |
   Die PoS-App im Essential-Profil ermöglicht es den Mitarbeitern, Artikel aus einem vorgegebenen Menü auszuwählen, was den Abrechnungsprozess vereinfacht.
-reviewed: false
+reviewed: true

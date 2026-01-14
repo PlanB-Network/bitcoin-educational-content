@@ -580,9 +580,13 @@ Il reste toutefois une question : par quel mécanisme le mineur perçoit-il cett
 
 Nous l’avons vu dans la première partie du cours : chaque bloc Bitcoin contient une liste de transactions en attente qu’il va venir confirmer. La toute première d’entre elles est toujours la transaction coinbase. C’est elle qui permet au mineur gagnant de percevoir sa récompense.
 
+031
+
 À première vue, elle ressemble à une transaction Bitcoin classique : elle possède un TXID, des outputs, et elle est incluse dans l’arbre de Merkle du bloc. Toutefois, elle se distingue par un point important : elle ne dépense aucun véritable UTXO existant. Dans une transaction Bitcoin classique, les `inputs` référencent des outputs non dépensés antérieurs (UTXOs), qui apportent la valeur en entrée. Les `outputs` redistribuent ensuite cette valeur vers de nouveaux UTXOs, avec de nouvelles conditions de dépense. Autrement dit, pour envoyer des bitcoins, il faut déjà les posséder. La transaction coinbase, elle, ne consomme aucun bitcoin en input : elle crée directement des bitcoins en outputs à partir de rien.
 
 C’est précisément ce mécanisme qui permet à la fois d’introduire de nouveaux bitcoins en circulation via la subvention de bloc, et de créditer le mineur des frais associés aux transactions incluses dans le bloc. La transaction coinbase ne peut pas référencer de véritable UTXO existant (en réalité, elle référence un UTXO fictif), puisque son rôle est justement de créer une partie de la valeur (la subvention) et de récupérer l’autre partie (les frais), sans les recevoir d’une transaction précédente. Pour que l’ensemble reste cohérent, la part correspondant aux frais doit exactement égaler la somme des bitcoins consommés en inputs mais non recréés en outputs dans les autres transactions du bloc.
+
+032
 
 Cette transaction n’est pas optionnelle. Un bloc qui ne contient pas de transaction coinbase est invalide et sera systématiquement rejeté par les nœuds du réseau.
 
@@ -614,6 +618,8 @@ Directement suivi du faux index :
 0xffffffff
 ```
 
+033
+
 Dans le protocole Bitcoin de base, tel que décrit par Satoshi Nakamoto, ce faux input constitue la seule contrainte imposée à la transaction coinbase. Comme tout UTXO référencé en input, il est associé à un champ `scriptSig`. Dans une transaction classique, ce champ `scriptSig` contient les éléments nécessaires pour satisfaire le `scriptPubKey` et ainsi déverrouiller l’UTXO dépensé. Mais dans le cas particulier de la coinbase, puisque l’UTXO référencé est volontairement fictif, le champ `scriptSig` est entièrement libre. Le mineur peut donc y inscrire n’importe quelle donnée. Nous verrons plus loin quels usages sont faits de cette liberté.
 
 À ce faux input s’ajoutent ensuite, de manière tout à fait classique, un ou plusieurs outputs parfaitement standards, qui permettent au mineur de percevoir les bitcoins issus de la récompense sur l’une de ses adresses Bitcoin. Ces outputs sont des UTXOs verrouillés par un `scriptPubKey` (par exemple un script pointant vers une adresse contrôlée par le mineur ou par la pool). La seule particularité réside ici dans la règle de calcul de leur valeur : la somme totale des outputs de la coinbase ne doit jamais excéder la subvention maximale autorisée, à laquelle s’ajoutent les frais du bloc.
@@ -632,11 +638,15 @@ Cette évolution permet, d’une part, de clarifier la manière dont le réseau 
 
 Ainsi, le `scriptSig` de la coinbase n’est pas totalement libre. Depuis l’activation du BIP-34, il est simplement contraint de commencer par la hauteur du bloc dans lequel cette transaction coinbase est incluse.
 
+035
+
 #### L’extra-nonce
 
 Nous l’avons vu dans les premiers chapitres de ce cours : dans l’entête de bloc, le mineur dispose d’un champ `nonce` de 32 bits qu’il modifie par tâtonnement afin de trouver un hachage inférieur ou égal à la cible. Cet espace de 32 bits permet déjà d’explorer un très grand nombre de combinaisons, mais lorsque la difficulté de minage est élevée, cette plage peut être parcourue intégralement en un temps relativement court, et donc ne permettre aucune combinaison donnant un hash valide. Si toutes les valeurs possibles du `nonce` ont été testées sans succès, le mineur doit alors modifier un autre élément afin de faire varier l’entête du bloc et relancer une nouvelle série d’essais.
 
 Comme la transaction coinbase offre un champ libre via le `scriptSig` de son input, la solution utilisée pour étendre l’espace du nonce consiste à exploiter une partie de ce `scriptSig`. C’est ce que l’on appelle généralement l’extra-nonce. En modifiant l’extra-nonce, le mineur modifie le `scriptSig` de la coinbase, donc l’identifiant de cette transaction, puis la racine de Merkle du bloc, et enfin l’entête du bloc lui-même. Il obtient ainsi un nouvel espace de recherche de hachages à explorer, sans avoir à toucher aux autres composantes de son bloc candidat.
+
+036
 
 #### L’identification des pools et des mineurs
 
@@ -644,11 +654,19 @@ Aujourd’hui, une part très importante du hashrate mondial est organisée au s
 
 Pour des raisons opérationnelles, les pools de minage exploitent également le champ libre du `scriptSig` de l’input de la coinbase pour y insérer différentes informations. Celles-ci varient selon les pools et selon le protocole réseau utilisé, mais on y retrouve généralement un identifiant unique (souvent un extra-nonce structuré en plusieurs sous-parties) attribué à chaque hacheur afin d’éviter la duplication du travail au sein de la pool. On y ajoute généralement un tag d’identification du pool, utilisé pour l’attribution publique des blocs trouvés, les statistiques de minage, et d’autres besoins de suivi.
 
+037
+
 #### L’engagement de SegWit
 
 Depuis le soft fork SegWit activé en 2017, les données de témoins (c’est-à-dire généralement les signatures) sont séparées des données de base des transactions, notamment afin de corriger le problème de malléabilité des transactions Bitcoin. Cette séparation introduit donc un nouvel élément à engager dans le bloc.
 
-Pour cela, les témoins sont regroupés au sein d’un autre arbre de Merkle dédié, dont la racine est ensuite engagée dans la transaction coinbase via un output `OP_RETURN`. Je ne détaillerai pas davantage ce mécanisme dans ce cours, car il sort de son périmètre, mais retenez simplement que depuis l’introduction de SegWit, la transaction coinbase sert de support pour ancrer dans le bloc une empreinte résumant l’ensemble des témoins SegWit. Les témoins sont placés dans un arbre de Merkle indépendant, la racine de cet arbre est inscrite dans un output de la transaction coinbase, et cette transaction coinbase est elle-même incluse dans l’arbre de Merkle principal avec toutes les autres transactions, dont la racine figure dans l’entête du bloc. C'est de cette manière qu'on engage les témoins, pourtant séparés, dans l'entête.
+Pour cela, les témoins sont regroupés au sein d’un autre arbre de Merkle dédié, dont la racine est ensuite engagée dans la transaction coinbase via un output `OP_RETURN`.
+
+038
+
+Je ne détaillerai pas davantage ce mécanisme dans ce cours, car il sort de son périmètre, mais retenez simplement que depuis l’introduction de SegWit, la transaction coinbase sert de support pour ancrer dans le bloc une empreinte résumant l’ensemble des témoins SegWit. Les témoins sont placés dans un arbre de Merkle indépendant, la racine de cet arbre est inscrite dans un output de la transaction coinbase, et cette transaction coinbase est elle-même incluse dans l’arbre de Merkle principal avec toutes les autres transactions, dont la racine figure dans l’entête du bloc. C'est de cette manière qu'on engage les témoins, pourtant séparés, dans l'entête.
+
+039
 
 #### Les messages arbitraires
 
@@ -662,11 +680,17 @@ Ce message, présent dans le bloc de Genèse (le tout premier bloc de Bitcoin) e
 5468652054696d65732030332f4a616e2f32303039204368616e63656c6c6f72206f6e206272696e6b206f66207365636f6e64206261696c6f757420666f722062616e6b73
 ```
 
+034
+
 ### La période de maturité
 
 Une fois le bloc miné et diffusé, la transaction coinbase apparaît dans la blockchain comme n’importe quelle autre transaction. Elle crée des UTXOs au bénéfice du mineur gagnant, lui permettant de récupérer sa récompense. Toutefois, ces UTXOs ne sont pas immédiatement dépensables : ils sont soumis à une période de maturité. Cette maturité est fixée à 100 blocs après le bloc qui contient la coinbase. Concrètement, la transaction coinbase doit donc totaliser 101 confirmations pour que ses outputs deviennent dépensables par leur propriétaire.
 
+040
+
 L’objectif de cette règle est de limiter l’impact des réorganisations de chaîne sur l’économie. Comme nous l’avons vu dans les chapitres précédents, il arrive qu’à une même hauteur, deux blocs valides distincts soient trouvés presque simultanément par des mineurs différents. Pendant un court instant, le réseau peut alors se scinder : certains nœuds reçoivent d’abord le bloc A, tandis que d’autres voient d’abord le bloc B. Puis, au fil des blocs suivants, l’une des deux branches accumule davantage de travail et devient la branche de référence. L’autre branche est abandonnée et ses blocs deviennent obsolètes. Les transactions qu’elle contenait peuvent alors, en théorie, retourner dans les mempools en attente de confirmation. Dans la pratique, cela arrive rarement, car le marché des frais conduit souvent à retrouver quasiment les mêmes transactions dans deux blocs concurrents à une même hauteur. C’est notamment pour cette raison qu’il est courant de considérer qu’une transaction Bitcoin devient immuable après six confirmations : les réorganisations de plus de six blocs sont si peu probables qu’on peut raisonnablement les considérer comme impossibles.
+
+041
 
 Le problème posé par ces réorganisations dans le cas de la transaction coinbase est qu’il ne s’agit pas d’une transaction ordinaire. Elle introduit des bitcoins tous neufs en circulation. Si la récompense coinbase pouvait être dépensée immédiatement, une situation problématique en cascade pourrait apparaître :
 - un mineur dépense des bitcoins issus d’une coinbase,

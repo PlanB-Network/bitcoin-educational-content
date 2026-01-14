@@ -5,5 +5,5 @@ wrong_answers:
   - Es gibt auf Anfrage eines jeden Benutzers neue Währungseinheiten aus.
   - Die Banken müssen jede Transaktion überprüfen und abwickeln.
 explanation: |
-  Bitcoin ist ein dezentralisiertes Netzwerk, an dem jeder ohne Genehmigung teilnehmen kann. Transaktionen werden von Knoten und Minern validiert, nicht von einer zentralen Behörde.
-reviewed: false
+  Bitcoin ist ein dezentralisiertes Netzwerk, an dem jeder ohne Genehmigung teilnehmen kann. Transaktionen werden von Nodes und Minern validiert, nicht von einer zentralen Behörde.
+reviewed: true

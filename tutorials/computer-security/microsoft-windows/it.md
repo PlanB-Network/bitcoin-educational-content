@@ -83,14 +83,6 @@ Il passo successivo consiste nel configurare l'account di accesso a Windows:
 ![Image](assets/en/12.webp)
 
 
-
-
-
-
-
-
-
-
 ## Riunioni dei conti
 
 In questa fase:
@@ -102,9 +94,9 @@ Il passo successivo consiste nel configurare le impostazioni della password e de
 
 ![Image](assets/en/13.webp)
 
-In questa fase si stabilisce se le password devono avere un periodo di scadenza. Inoltre, questa sezione include le impostazioni di sicurezza relative ai tentativi di accesso falliti, che possono essere attivate o disattivate in base alle proprie esigenze.
+In questa fase stabilisci se le password devono avere un periodo di scadenza. Inoltre, questa sezione include le impostazioni di sicurezza relative ai tentativi di accesso falliti, che possono essere attivate o disattivate in base alle proprie esigenze.
 
-In fondo a questa sezione si trovano le impostazioni per la visualizzazione dei file. Nessuna di queste opzioni è disponibile durante l'installazione standard di Windows e deve essere configurata dopo l'installazione. Con il metodo di installazione non presidiata, invece, queste impostazioni sono facilmente accessibili.
+In fondo a questa sezione trovi le impostazioni per la visualizzazione dei file. Nessuna di queste opzioni è disponibile durante l'installazione standard di Windows e deve essere configurata dopo l'installazione. Con il metodo di installazione non presidiata, invece, queste impostazioni sono facilmente accessibili.
 
 Il passo successivo consiste nel configurare le impostazioni di sicurezza di Windows:
 
@@ -163,9 +155,9 @@ Infine, dopo aver applicato le impostazioni desiderate, è possibile scaricare i
 
 ![Image](assets/en/20.webp)
 
-Facendo clic su Download XML File, viene scaricato il file autounattend.xml. Per utilizzare questo file, è sufficiente montare la ISO scaricata su un'unità USB, collocare il file autounattend.xml nella directory principale e procedere con l'installazione di Windows.
+Facendo clic su Download XML file, viene scaricato il file autounattend.xml. Per utilizzare questo file, è sufficiente montare la ISO scaricata su un'unità USB, collocare il file autounattend.xml nella directory principale e procedere con l'installazione di Windows.
 
-Uno degli strumenti disponibili per creare un'unità USB avviabile è Rufus. Rufus può creare una chiavetta di installazione di Windows avviabile, con un determinato file ISO di installazione di Windows. È semplice e veloce; potete scaricarlo [qui](https://rufus.ie/en/#download)
+Uno degli strumenti disponibili per creare un'unità USB avviabile è Rufus. Rufus può creare una chiavetta di installazione di Windows avviabile, con un determinato file ISO di installazione di Windows. È semplice e veloce; puoi scaricarlo [qui](https://rufus.ie/it/)
 
 ![Image](assets/en/21.webp)
 
@@ -182,15 +174,15 @@ A questo punto, l'unità USB è pronta per l'installazione automatica di Windows
 
 ## Modifica ISO
 
-Se dovete installare Windows su una macchina virtuale, potete usare un software per creare e modificare i file ISO. Uno di questi software è AnyBurn. Dopo aver estratto il contenuto del file ISO scaricato dal sito web di Microsoft, collocate il file autounattend.xml nella directory principale. Quindi, utilizzando AnyBurn, creare una nuova ISO con i contenuti aggiornati.
+Se dovi installare Windows su una macchina virtuale, puoi usare un software per creare e modificare i file ISO. Uno di questi software è AnyBurn. Dopo aver estratto il contenuto del file ISO scaricato dal sito web di Microsoft, colloca il file autounattend.xml nella directory principale. Quindi, utilizzando AnyBurn, creare una nuova ISO con i contenuti aggiornati.
 
 AnyBurn è un software multifunzionale per lavorare con i file ISO. Offre diverse funzioni per la gestione dei file ISO, una delle quali è la creazione di immagini ISO avviabili; [qui](https://www.anyburn.com/download.php) è il sito web originale.
 
-Nella pagina principale del software, selezionare "Crea immagine da file/cartella":
+Nella pagina principale del software, seleziona "Crea immagine da file/cartella":
 
 ![Image](assets/en/24.webp)
 
-Nella pagina successiva, selezionate tutti i file estratti dalla ISO e il file autounattend.xml.
+Nella pagina successiva, seleziona tutti i file estratti dalla ISO e il file autounattend.xml.
 
 ![Image](assets/en/25.webp)
 

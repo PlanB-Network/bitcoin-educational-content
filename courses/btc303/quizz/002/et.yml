@@ -6,3 +6,4 @@ wrong_answers:
   - Kasutaja detsentraliseerimine ja arendaja detsentraliseerimine
 explanation: |
   Bitcoin detsentraliseerimisel on kaks põhikomponenti: kaevurite detsentraliseerimine ja full node detsentraliseerimine. Miner detsentraliseerimine tähendab, et tehingute töötlemist ja tellimist ei kontrolli ükski üksus, vaid pigem kaevurite dünaamiline kollektiiv, kes võivad vabalt liituda või lahkuda. Full node detsentraliseerimine viitab sellele, et plokkide valideerimine toimub võrgu servas kasutajate endi, mitte usaldusväärsete asutuste poolt. Need kaks aspekti töötavad koos, et saavutada tsensuurikindlus - kaevandajad takistavad tsentraliseeritud tehingukorraldust, samas kui täielikud sõlmed tagavad plokiahela usalduseta valideerimise.
+reviewed: false

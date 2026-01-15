@@ -82,7 +82,7 @@ Programmet er tilgjengelig direkte fra App Store eller Play Store. Bare søk ett
 
 
 
-For å installere Jami på enheten din, må du først besøke det offisielle Jami-nettstedet. Som standard viser nettstedet programvaren som tilsvarer enhetens operativsystem, og du kan klikke direkte på nedlastingsknappen for å starte den. Du kan imidlertid også laste ned den kjørbare filen for Windows direkte fra [nedlastingsside] (https://jami.net/download-jami-windows/).
+For å installere Jami på enheten din, må du først besøke det offisielle Jami-nettstedet. Som standard viser nettstedet programvaren som tilsvarer enhetens operativsystem, og du kan klikke direkte på nedlastingsknappen for å starte den. Du kan imidlertid også laste ned den kjørbare filen for Windows direkte fra [nedlastingsside](https://jami.net/download-jami-windows/).
 
 
 
@@ -90,7 +90,7 @@ For å installere Jami på enheten din, må du først besøke det offisielle Jam
 
 
 
-For macOS-brukere er filen også tilgjengelig fra [macOS download page] (https://jami.net/download-jami-macos/).
+For macOS-brukere er filen også tilgjengelig fra [macOS download page](https://jami.net/download-jami-macos/).
 
 
 
@@ -118,7 +118,7 @@ For å installere Jami på Linux, er det best å bruke kommandolinjen. Det er vi
 
 
 
-Når du har valgt distribusjon, kan du installere systemet. Du må installere de avhengighetene som kreves for å kjøre Jami på ditt Linux-operativsystem. Kommandoene er direkte tilgjengelige på [denne siden] (https://jami.net/download-jami-linux/).
+Når du har valgt distribusjon, kan du installere systemet. Du må installere de avhengighetene som kreves for å kjøre Jami på ditt Linux-operativsystem. Kommandoene er direkte tilgjengelige på [denne siden](https://jami.net/download-jami-linux/).
 
 
 
@@ -312,7 +312,7 @@ Når passordet er skrevet inn, kobles enheten automatisk til kontoen og synkroni
 
 
 
-En av Jamis interessante funksjoner er muligheten til å integrere nye alternativer via utvidelser (plugins). Plugins er innfødte moduler (C/C++); SDK-en inneholder verktøy og skript (særlig i Python) for å lage dem. Noen plugins er tilgjengelige direkte [her] (https://jami.net/extensions/).
+En av Jamis interessante funksjoner er muligheten til å integrere nye alternativer via utvidelser (plugins). Plugins er innfødte moduler (C/C++); SDK-en inneholder verktøy og skript (særlig i Python) for å lage dem. Noen plugins er tilgjengelige direkte [her](https://jami.net/extensions/).
 
 
 
@@ -324,7 +324,7 @@ For å installere en utvidelse åpner du den integrerte utvidelsesbutikken på s
 
 
 
-Hvis du vil utvikle dine egne plugins, kan du lese blogginnlegget **[Discover the Jami Plugin SDK and create your own plugins] (https://jami.net/plugins-sdk/)**.
+Hvis du vil utvikle dine egne plugins, kan du lese blogginnlegget **[Discover the Jami Plugin SDK and create your own plugins](https://jami.net/plugins-sdk/)**.
 
 
 

@@ -6,3 +6,4 @@ wrong_answers:
   - El problema de la velocidad en los pagos en línea
 explanation: |
   El gran avance de Bitcoin fue resolver el problema de double-spending sin necesidad de una autoridad central. El problema de la double-spending consiste en impedir que alguien gaste dos veces la misma moneda digital. Las monedas digitales anteriores fracasaron porque dependían de servidores centrales o autoridades de confianza, lo que las hacía vulnerables a la censura y a puntos únicos de fallo. Bitcoin solucionó este problema gracias a su servidor de marcas de tiempo distribuido entre iguales que utiliza proof-of-work, lo que permite a la red acordar el orden de las transacciones sin ningún control central.
+reviewed: false

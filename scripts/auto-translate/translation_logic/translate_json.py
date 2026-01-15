@@ -49,12 +49,14 @@ class GlossaryManager:
     def prepare_text(self, text: str) -> Tuple[str, Dict[str, str]]:
         working_text = text
         local_replacements = {}
-        
-        
+
+
         sorted_terms = sorted(self.glossary_terms, key=len, reverse=True)
-        
+
         for term in sorted_terms:
-            pattern = re.compile(r'\b' + re.escape(term) + r'\b')
+            # Use word boundary only at start to handle terms ending with punctuation
+            # The trailing \b fails for terms ending with ), ], etc.
+            pattern = re.compile(r'\b' + re.escape(term))
             if pattern.search(working_text):
                 replacement = self._create_replacement_token()
                 working_text = pattern.sub(replacement, working_text)
@@ -68,10 +70,39 @@ class GlossaryManager:
             result = result.replace(token, original)
         return result
 
+    def detect_failed_restorations(self, text: str) -> List[Tuple[str, str]]:
+        """
+        Detect tokens that weren't properly restored (appear in transliterated form).
+        Returns list of (pattern_found, likely_script) tuples.
+        """
+        import re
+        failed_tokens = []
+
+        # Pattern definitions for different scripts
+        patterns = [
+            (r'जीडब्ल्यू-\d+', 'Devanagari (Hindi)'),       # Hindi: जीडब्ल्यू = GW
+            (r'ГВ-\d+', 'Cyrillic'),                         # Russian/Bulgarian: ГВ = GW
+            (r'GW-\d+', 'Latin (untranslated)'),            # Original token still present
+            (r'ج[يی]دبليو-\d+', 'Arabic/Farsi'),           # Arabic script
+            (r'จีดับเบิลยู-\d+', 'Thai'),                   # Thai
+            (r'ジーダブリュー-\d+', 'Japanese Katakana'),   # Japanese
+            (r'지더블유-\d+', 'Korean'),                    # Korean
+            (r'GW-\d+', 'Vietnamese'),                       # Vietnamese (likely stays Latin)
+        ]
+
+        for pattern, script_name in patterns:
+            matches = re.findall(pattern, text)
+            if matches:
+                for match in matches:
+                    failed_tokens.append((match, script_name))
+
+        return failed_tokens
+
 class TranslationProcessor:
     def __init__(self, translator: 'BaseTranslator'):
         self.translator = translator
         self.glossary_manager = GlossaryManager()
+        self.failed_restorations = []  # Track all failed restorations
 
     def process_text(self, text: str) -> str:
         if not text or not text.strip():
@@ -80,8 +111,49 @@ class TranslationProcessor:
         prepared_text, replacements = self.glossary_manager.prepare_text(text)
         translated_text = self.translator.translate_text(prepared_text)
         final_text = self.glossary_manager.restore_text(translated_text, replacements)
-        
+
+        # Detect failed restorations
+        failed = self.glossary_manager.detect_failed_restorations(final_text)
+        if failed:
+            # Store for summary report
+            self.failed_restorations.append({
+                'original': text[:100],
+                'translated': final_text[:100],
+                'failed_tokens': failed,
+                'expected_replacements': replacements
+            })
+            # Also print immediate warning
+            print(f"\n⚠️  WARNING: Failed token restorations detected!")
+            print(f"   Original text: {text[:100]}...")
+            print(f"   Translated text: {final_text[:100]}...")
+            for token, script in failed:
+                print(f"   - Found '{token}' in {script}")
+            if replacements:
+                print(f"   Expected replacements: {replacements}")
+
         return final_text
+
+    def get_failed_restorations_summary(self) -> Dict[str, Any]:
+        """Get summary of all failed restorations."""
+        if not self.failed_restorations:
+            return {'total_failures': 0}
+
+        scripts_affected = {}
+        total_tokens = 0
+
+        for failure in self.failed_restorations:
+            for token, script in failure['failed_tokens']:
+                total_tokens += 1
+                if script not in scripts_affected:
+                    scripts_affected[script] = []
+                scripts_affected[script].append(token)
+
+        return {
+            'total_failures': len(self.failed_restorations),
+            'total_tokens': total_tokens,
+            'scripts_affected': scripts_affected,
+            'details': self.failed_restorations
+        }
 
 class BaseTranslator(ABC):
     @abstractmethod
@@ -229,7 +301,7 @@ class GoogleTranslator(BaseTranslator):
     def translate_text(self, text: str) -> str:
         if not text or not text.strip():
             return text
-        
+
         current_time = time.time()
         time_since_last_request = current_time - self.last_request_time
         if time_since_last_request < self.min_request_interval:
@@ -246,7 +318,14 @@ class GoogleTranslator(BaseTranslator):
                     "target_language_code": self.target_lang,
                 }
             )
-            return response.translations[0].translated_text
+            translated = response.translations[0].translated_text
+
+            # Fix: Google Translate adds trailing periods to short technical terms
+            # Remove trailing period if original text didn't have one
+            if not text.rstrip().endswith('.') and translated.rstrip().endswith('.'):
+                translated = translated.rstrip()[:-1] + translated[len(translated.rstrip()):]
+
+            return translated
         except Exception as e:
             print(f"\nError translating text: {text}")
             print(f"Error: {e}")
@@ -384,10 +463,29 @@ class FileTranslator:
             
             with open(output_path, 'w', encoding='utf-8') as f:
                 json.dump(translated_content, f, ensure_ascii=False, indent=2)
-            
+
             print(f"\nTranslation completed: {output_path}")
             print(f"Processed {total_objects} objects")
-            
+
+            # Print summary of failed restorations
+            summary = self.translator.get_failed_restorations_summary()
+            if summary['total_failures'] > 0:
+                print(f"\n" + "="*60)
+                print(f"🚨 GLOSSARY RESTORATION FAILURE SUMMARY")
+                print(f"="*60)
+                print(f"Total failed restorations: {summary['total_failures']}")
+                print(f"Total failed tokens: {summary['total_tokens']}")
+                print(f"\nScripts affected:")
+                for script, tokens in summary['scripts_affected'].items():
+                    unique_tokens = set(tokens)
+                    print(f"  - {script}: {len(tokens)} occurrences ({len(unique_tokens)} unique tokens)")
+                    print(f"    Tokens: {', '.join(list(unique_tokens)[:5])}")
+                print(f"\nThis indicates that glossary terms were transliterated instead of preserved.")
+                print(f"See warnings above for details on each failed restoration.")
+                print(f"="*60)
+            else:
+                print(f"\n✅ All glossary tokens restored successfully!")
+
         except Exception as e:
             print(f"\nError processing file {input_path}")
             print(f"Error: {e}")

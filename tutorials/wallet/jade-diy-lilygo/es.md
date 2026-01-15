@@ -1,5 +1,5 @@
 ---
-name: Bricolaje Jade
+name: Jade DIY
 description: Convierte una placa de desarrollo de 15 dólares en un Bitcoin hardware wallet totalmente funcional
 ---
 

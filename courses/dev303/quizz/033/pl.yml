@@ -1,0 +1,8 @@
+question: Jaką zmienną środowiskową można ustawić, aby wyświetlić pełny ślad stosu wywołań, gdy wystąpi panika w Rust?
+answer: RUST_BACKTRACE
+wrong_answers:
+  - RUST_STACKTRACE
+  - RUST_DEBUG_TRACE
+  - RUST_PANIC_TRACE
+explanation: |
+  RUST_BACKTRACE to poprawna zmienna środowiskowa, która zapewnia dodatkowe informacje debugowania, pokazując pełny stos wywołań, który doprowadził do paniki. Pomaga to programistom dokładnie prześledzić, która sekwencja wywołań funkcji spowodowała błąd. Pozostałe opcje (RUST_STACKTRACE, RUST_DEBUG_TRACE i RUST_PANIC_TRACE) nie są poprawnymi zmiennymi środowiskowymi Rust i nie będą generować żadnych danych wyjściowych debugowania, gdy wystąpi panika.

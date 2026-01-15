@@ -1,0 +1,8 @@
+question: O que acontece à inferência do tipo de fecho quando um fecho é chamado com tipos específicos?
+answer: Esses tipos tornam-se fixos para essa instância de fecho
+wrong_answers:
+  - O fecho pode ainda aceitar tipos diferentes em chamadas futuras
+  - O compilador redefine os tipos para a próxima chamada de função
+  - Os tipos permanecem flexíveis e podem mudar consoante o contexto
+explanation: |
+  No Rust, as closures se beneficiam da inferência automática de tipos, mas essa flexibilidade tem limites. Uma vez que uma closure é chamada com tipos de parâmetros específicos, o compilador bloqueia esses tipos para essa instância particular da closure. Isto significa que a mesma closure não pode ser chamada mais tarde com tipos diferentes - torna-se monomorfizada para os primeiros tipos que encontra. Isto é diferente das funções genéricas que podem ser chamadas com tipos diferentes porque cada chamada cria uma instanciação separada. As outras opções estão incorrectas porque sugerem uma flexibilidade contínua que não existe quando os tipos do fecho são determinados.

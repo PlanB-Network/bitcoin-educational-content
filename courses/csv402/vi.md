@@ -343,11 +343,11 @@ Con dấu dùng một lần hoạt động theo ba giai đoạn chính:
 Quá trình này có thể được tóm tắt như sau:
 
 ```txt
-# Défini par Alice, validé ou accepté par Bob
+# Defined by Alice, validated or accepted by Bob
 seal <- Define()
-# Fermeture du sceau par Alice avec le message
+# Seal is closed by Alice with the message
 witness <- Close(seal, message)
-# Vérification par Bob
+# Verification by Bob
 bool <- Verify(seal, witness, message)
 ```
 
@@ -3163,7 +3163,7 @@ Nó có thể được truyền tới Bob qua bất kỳ kênh nào (văn bản,
 Để chuyển từ hóa đơn này:
 
 
-- Bob (người giữ token trong kho của mình) có một ví Bitcoin. Anh ta cần chuẩn bị một giao dịch Bitcoin (dưới dạng PSBT, ví dụ: `tx.psbt`) để chi tiêu UTXO tại nơi có token RGB cần thiết, cộng với một UTXO để đổi tiền (trao đổi);
+- Bob (người giữ các token trong stash của mình) có một ví Bitcoin. Anh ta phải chuẩn bị một giao dịch Bitcoin (dưới dạng PSBT, ví dụ `tx.psbt`) chi tiêu các UTXO nơi các token RGB cần thiết đang nằm, cùng với một UTXO cho tiền thối lại (change);
 - Bob thực hiện lệnh sau:
 
 ```bash

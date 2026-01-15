@@ -1,5 +1,5 @@
 ---
-name: Spectre Desktop
+name: Specter Desktop
 description: Spravujte svá portfolia Bitcoin s více podpisy zcela suverénně pomocí vlastního uzlu
 ---
 
@@ -127,7 +127,7 @@ Níže najdete náš návod pro tento hardware wallet:
 
 
 
-https://planb.academy/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.academy/tutorials/wallet/hardware/coldcard-mk4-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
 V případě karty Coldcard je třeba exportovat veřejné klíče z hardwaru wallet prostřednictvím připojení USB nebo karty microSD.
 

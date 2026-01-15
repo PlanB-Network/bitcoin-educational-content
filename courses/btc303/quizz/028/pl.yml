@@ -6,3 +6,4 @@ wrong_answers:
   - Górnicy całkowicie zaprzestaną mining, ponieważ same opłaty transakcyjne nie są w stanie pokryć kosztów energii elektrycznej
 explanation: |
   Fee sniping ma miejsce, gdy górnicy próbują ponownie wydobywać poprzednie bloki, które zawierały transakcje o wysokich opłatach, zamiast uczciwie przedłużać łańcuch. Staje się to ekonomicznie racjonalne, gdy opłaty w poprzednim bloku znacznie przekraczają opłaty w bieżącym mempoolu. Chociaż prawdopodobieństwo sukcesu jest niższe niż w przypadku uczciwego mining, potencjalna nagroda może być znacznie wyższa. Takie zachowanie jest szczególnie niepokojące, ponieważ może wywołać efekt kaskadowy, w którym więcej górników angażuje się w nieuczciwe praktyki, ostatecznie zagrażając modelowi bezpieczeństwa Bitcoin, gdy dotacje do bloków maleją.
+reviewed: false

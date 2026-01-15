@@ -1,0 +1,8 @@
+question: Koji je primarni tehnički razlog zašto novčanici pokretani Greenlight-om postižu superiornu pouzdanost u rutiranju plaćanja u poređenju sa tradicionalnim mobilnim Lightning implementacijama?
+answer: Greenlight čvorovi rade neprekidno u oblaku, održavajući sinhronizaciju mrežnog grafa u realnom vremenu i trenutni pristup kompletnim podacima grafa
+wrong_answers:
+  - Greenlight koristi napredne algoritme mašinskog učenja za predviđanje optimalnih ruta plaćanja na osnovu istorijskih obrazaca transakcija
+  - Greenlight implementira vlasničko razdvajanje plaćanja putem više puteva koje distribuira transakcije preko više kanala istovremeno radi redundancije.
+  - Greenlight održava posvećene veze velike propusnosti sa glavnim Lightning čvorištima, osiguravajući prioritetno usmeravanje kroz najlikvidnije kanale.
+explanation: |
+  Tačan odgovor identifikuje osnovnu arhitektonsku prednost Greenlight-ovog pristupa zasnovanog na oblaku. Tradicionalni mobilni Lightning novčanici moraju da sinhronizuju podatke mrežnog grafa kada se pokrenu, što stvara kašnjenja i potencijalno radi sa zastarelim informacijama o rutiranju. Greenlight ovo rešava tako što kontinuirano pokreće Lightning čvorove u oblaku, osiguravajući da uvek imaju aktuelno znanje o mreži i mogu trenutno pružiti kompletne podatke o grafu kada se korisnici povežu. Pogrešni odgovori opisuju verodostojne, ali nepostojeće funkcije - Greenlight ne koristi ML algoritme za rutiranje, vlasničko deljenje plaćanja izvan standardnih Lightning protokola, niti posebne hub veze za prioritetno rutiranje.

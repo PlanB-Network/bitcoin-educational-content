@@ -101,6 +101,6 @@ For this, several options are available to you. Although the standard notepad of
 - Install one of these software programs, and keep it aside for your future modifications. ![github-desktop](assets/26.webp)
 Congratulations! Your work environment is now set up to contribute to Plan ₿ Academy. You can now explore our other specific tutorials for each type of contribution (translation, proofreading, writing.
 
-https://planb.academy/tutorials/others
+https://planb.academy/tutorials/contribution
 
 ..).

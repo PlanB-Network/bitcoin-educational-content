@@ -12,7 +12,7 @@ description: Wie baut man mit der NerdQaxe ab?
 
 
 
-Video von [dem YouTube-Kanal *BTC Sessions*] (https://www.youtube.com/@BTCSessions).
+Video von [dem YouTube-Kanal *BTC Sessions*](https://www.youtube.com/@BTCSessions).
 
 
 
@@ -24,7 +24,7 @@ Video von [dem YouTube-Kanal *BTC Sessions*] (https://www.youtube.com/@BTCSessio
 
 
 
-Video von [dem *Vortex Bitcoin* YouTube-Kanal] (https://www.youtube.com/@VortexBitcoin).
+Video von [dem *Vortex Bitcoin* YouTube-Kanal](https://www.youtube.com/@VortexBitcoin).
 
 
 
@@ -36,7 +36,7 @@ Video von [dem *Vortex Bitcoin* YouTube-Kanal] (https://www.youtube.com/@VortexB
 
 
 
-Video von [dem *Vortex Bitcoin* YouTube-Kanal] (https://www.youtube.com/@VortexBitcoin).
+Video von [dem *Vortex Bitcoin* YouTube-Kanal](https://www.youtube.com/@VortexBitcoin).
 
 
 

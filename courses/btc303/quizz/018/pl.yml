@@ -6,3 +6,4 @@ wrong_answers:
   - Mechanizmy konsensusu sieciowego do uzgadniania ważnych bloków
 explanation: |
   Właściwość Bitcoin polegająca na braku zaufania w szczególności eliminuje potrzebę istnienia zaufanych stron trzecich, takich jak banki lub instytucje finansowe, do przetwarzania i zatwierdzania transakcji. Jak wyjaśnił Satoshi Nakamoto w białej księdze Bitcoin, tradycyjny handel opiera się na instytucjach finansowych służących jako zaufani pośrednicy, ale projekt Bitcoin umożliwia prawidłowe funkcjonowanie systemu bez żadnych zaufanych stron dzięki zdecentralizowanemu mechanizmowi konsensusu. Pozostałe opcje reprezentują podstawowe komponenty techniczne, których Bitcoin nadal wymaga - nadal potrzebujesz sprzętu / oprogramowania, aby uczestniczyć, bezpieczeństwo kryptograficzne pozostaje fundamentalne, a konsensus sieciowy jest raczej sposobem, w jaki Bitcoin osiąga brak zaufania, a nie czymś, co eliminuje.
+reviewed: false

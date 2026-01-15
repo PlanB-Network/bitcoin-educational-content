@@ -1,0 +1,9 @@
+question: Dans le protocole NWC, quel mécanisme est utilisé pour transporter la requête entre l’application et le nœud ?
+answer: Événements sur relais Nostr
+wrong_answers:
+  - Appels REST directs sur LND
+  - Connexion VPN point à point
+  - Requêtes DNS chiffrées
+explanation: |
+  La requête est chiffrée puis publiée sous forme d’événement sur un relais Nostr, que le nœud lit pour exécuter l’action.
+reviewed: false

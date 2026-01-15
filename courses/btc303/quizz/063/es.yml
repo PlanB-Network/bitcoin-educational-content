@@ -6,3 +6,4 @@ wrong_answers:
   - El repositorio de GitHub mantiene una clave maestra que valida el resto de copias del repositorio en todo el mundo
 explanation: |
   Según el análisis de Jameson Lopp citado en el capítulo, el repositorio GitHub de Bitcoin Core es técnicamente idéntico a todas las demás copias. Su importancia es puramente social: se ha convertido en el centro de coordinación del desarrollo. El repositorio sirve como una cuestión de conveniencia más que de autoridad técnica, y si desapareciera, surgiría naturalmente un nuevo punto focal. Esto demuestra la naturaleza descentralizada de Bitcoin, donde ningún repositorio tiene supremacía técnica sobre los demás.
+reviewed: false

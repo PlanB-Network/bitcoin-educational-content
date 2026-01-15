@@ -1,0 +1,8 @@
+question: Jaki jest główny cel 102-dniowego okresu oczekiwania na potwierdzenie podczas procesu peg-in z Bitcoin do Liquid?
+answer: Aby zabezpieczyć się przed reorganizacją łańcucha bloków Bitcoin przed wybiciem L-BTC
+wrong_answers:
+  - Zapewnienie federacji wystarczającej ilości czasu na weryfikację tożsamości i zgodności użytkowników
+  - Aby upewnić się, że sieć Liquid ma odpowiednią przepustowość do przetworzenia przychodzącej transakcji
+  - Aby zapewnić czas na autoryzację 11 z 15 wielopodpisów od członków federacji
+explanation: |
+  Okres oczekiwania na potwierdzenie wynoszący 102 (około 17 godzin) został specjalnie zaprojektowany w celu ochrony przed reorganizacją łańcucha bloków Bitcoin. Ponieważ Bitcoin działa na zasadzie probabilistycznej ostateczności, zawsze istnieje niewielka szansa, że bloki mogą zostać zreorganizowane, potencjalnie unieważniając transakcje. Czekając na 102 potwierdzenia, system zapewnia, że transakcja Bitcoin wysyłająca środki na adres federacji jest głęboko zakopana i niezwykle mało prawdopodobne jest jej odwrócenie. Zapobiega to scenariuszowi, w którym L-BTC jest wybijany na Liquid, ale podstawowa transakcja Bitcoin zostaje odwrócona z powodu reorganizacji. Pozostałe opcje są nieprawidłowe, ponieważ: weryfikacja tożsamości nie jest częścią zautomatyzowanego procesu peg-in, przepustowość sieci nie jest czynnikiem ograniczającym wymagającym takich opóźnień, a autoryzacja multisig 11 z 15 jest używana do peg-outów, a nie peg-inów.

@@ -1,0 +1,8 @@
+question: Hur hanterar UniFFI felfortplantning från Rust-funktioner till målspråk som Kotlin och Python?
+answer: Funktioner som returnerar Result-typer är markerade med "throws" i UDL och generate inbyggda undantag i målspråken
+wrong_answers:
+  - Feltyper konverteras automatiskt till strängmeddelanden och returneras som valfria värden på alla målspråk
+  - Alla Rust-fel är förpackade i en generisk UniFFI-filtyp som måste packas upp manuellt av utvecklare
+  - Felhantering kräver att utvecklare manuellt implementerar felöversättningskod för varje målspråksplattform
+explanation: |
+  UniFFI tillhandahåller sofistikerad felhantering som bevarar Rust:s resultatbaserade felmodell samtidigt som den översätts på lämpligt sätt för varje målspråk. Funktioner som returnerar Result-typer i Rust är markerade med nyckelordet "throws" i UDL, och dessa generate har inbyggd undantagshantering i målspråken - Kotlin-metoder kastar undantag enligt Java/Kotlin-konventioner, medan Python använder Pythons undantagsmodell. Detta säkerställer att felhanteringen känns naturlig och idiomatisk på varje språk samtidigt som den semantiska betydelsen av de ursprungliga Rust-felstyperna bevaras, till skillnad från generiska omslag eller manuella översättningsmetoder.

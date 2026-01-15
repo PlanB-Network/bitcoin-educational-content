@@ -39,7 +39,6 @@ Evita:
 - Chromebooks: a menudo la capacidad de almacenamiento es demasiado baja
 - Cualquier computadora con una unidad eMMC; si tiene una unidad SSD, eso es perfecto
 - Mac: son caras y el hardware no se lleva bien con los sistemas operativos Linux en nuestra experiencia
-- Cualquier cosa reacondicionada o de segunda mano (aunque no es un factor decisivo absoluto)
   En su lugar, busca una laptop con Windows 11 (Actualmente, Windows 11 es la última versión. Nos desharemos de ese software, no te preocupes). Busqué en amazon.com "Laptop con Windows 11" y encontré este buen ejemplo:
   ![imagen](assets/1.webp)
 

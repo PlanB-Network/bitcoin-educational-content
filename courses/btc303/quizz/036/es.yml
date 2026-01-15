@@ -6,3 +6,4 @@ wrong_answers:
   - Los costes de la subvención de bloques los sufragan las bolsas a través de las comisiones de negociación, mientras que las comisiones de transacción las pagan los proveedores de wallet
 explanation: |
   Como señaló Paul Sztorc, la subvención por bloque y las comisiones por transacción son de naturaleza fundamentalmente diferente. La subvención por bloque representa la creación de nuevos bitcoins, lo que diluye la oferta existente y supone un coste efectivo para todos los titulares de bitcoins a través de la inflación monetaria. Por el contrario, las tasas de transacción son pagos directos realizados por los usuarios que desean realizar transacciones, lo que significa que los gastadores soportan este coste directamente. El capítulo ilustra esta transición mostrando cómo los costes de seguridad pasarán de los titulares a los gastadores a medida que la subvención por bloque disminuya con el tiempo.
+reviewed: false

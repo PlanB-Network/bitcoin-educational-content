@@ -1,0 +1,8 @@
+question: What is the primary reason Bitcoin's difficulty adjustment mechanism limits changes to within a factor of four during each 2016-block adjustment period?
+answer: To prevent extreme oscillations that could destabilize the network when hash rate changes dramatically
+wrong_answers:
+  - To ensure miners have sufficient time to upgrade their hardware before difficulty increases significantly
+  - To maintain compatibility with the 32-bit timestamp field which becomes unreliable with larger adjustments
+  - To prevent the block subsidy halving schedule from being disrupted by rapid difficulty changes
+explanation: |
+  The four-fold limit prevents dangerous feedback loops where extreme difficulty changes could cause wild swings in block times. Without this constraint, a sudden hash rate drop could trigger massive difficulty reductions, making blocks too easy and potentially destabilizing consensus. Conversely, huge increases could make blocks nearly impossible to mine. The limit ensures gradual, manageable adjustments that maintain network stability even during major disruptions like mining bans, allowing the system to self-correct predictably over multiple adjustment periods rather than creating chaotic oscillations.

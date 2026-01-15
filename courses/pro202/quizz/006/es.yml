@@ -1,0 +1,8 @@
+question: ¿Cuál es el elemento de identidad del grupo de curvas elípticas utilizado para las operaciones de suma de puntos?
+answer: El punto en el infinito
+wrong_answers:
+  - El punto de origen (0,0)
+  - El punto generador G
+  - El parámetro de curva a
+explanation: |
+  El punto en el infinito sirve como elemento de identidad en los grupos de curvas elípticas, lo que significa que si se suma cualquier punto P al punto en el infinito, P no cambia. Esto es análogo a cómo funciona la adición de cero en aritmética regular. El origen (0,0) no está necesariamente en la curva, el punto generador G se utiliza para crear claves públicas y el parámetro de curva a es sólo un coeficiente en la ecuación de la curva, no un elemento de identidad.

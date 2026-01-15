@@ -1,0 +1,8 @@
+question: Según el texto, ¿qué paradoja existe entre seguridad y progreso económico?
+answer: La seguridad es tanto un requisito previo para el desarrollo como una consecuencia del mismo
+wrong_answers:
+  - La seguridad siempre llega después del desarrollo económico
+  - El progreso económico elimina naturalmente la necesidad de medidas de seguridad
+  - La seguridad y el progreso económico son completamente independientes entre sí
+explanation: |
+  El capítulo explica que la seguridad y el progreso económico crean una relación paradójica: la seguridad es necesaria antes de que pueda producirse el desarrollo (no se puede innovar o invertir a largo plazo sin ella), pero también se necesita el excedente económico de la producción para financiar las instituciones que proporcionan seguridad. Esto crea un ciclo difícil de iniciar, pero una vez comenzado, se autorrefuerza. Las otras respuestas son erróneas porque sugieren una simple relación unidireccional o independencia, en lugar de esta compleja interdependencia.

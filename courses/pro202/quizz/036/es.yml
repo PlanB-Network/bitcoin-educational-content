@@ -1,0 +1,8 @@
+question: ¿Qué ocurre con la privacidad de las condiciones de gasto de una transacción P2SH a lo largo del tiempo?
+answer: Las condiciones de gasto permanecen ocultas hasta el primer gasto, después se hacen visibles de forma permanente on-chain
+wrong_answers:
+  - Las condiciones de gasto se mantienen permanentemente privadas incluso después de realizar múltiples transacciones
+  - Las condiciones de gasto son inmediatamente visibles cuando se crea por primera vez la dirección P2SH
+  - Las condiciones de gasto se hacen visibles temporalmente durante el gasto, pero vuelven a ocultarse después
+explanation: |
+  P2SH proporciona privacidad ocultando las condiciones de gasto reales (redimir script) detrás de un hash en el scriptPubKey. Sólo el hash de 20 bytes es visible inicialmente, ocultando si es multisig, timelock, u otras condiciones complejas. Sin embargo, cuando se gasta P2SH por primera vez, el script de canje completo debe revelarse on-chain para su validación, haciendo que las condiciones de gasto sean permanentemente visibles para todos los participantes de la red. Esta revelación única es el compromiso que P2SH establece entre privacidad y funcionalidad.

@@ -320,7 +320,7 @@ Sügavamaks mõistmiseks mündiühendamisest ja selle kasutamisest Bitcoinil, ku
 
 Pärast mündiühendamiste tegemist Whirlpooliga on kasulik täpselt hinnata saavutatud privaatsuse taset teie segatud UTXO-de jaoks. Selleks võite kasutada Pythoni tööriista *Whirlpool Stat Tool*. See tööriist võimaldab teil mõõta nii teie UTXO-de tuleviku- kui ka tagasivaatelisi hindeid, analüüsides samal ajal nende leviku määra basseinis.
 
-Oma anonüümsete komplektide arvutusmehhanismide mõistmise süvendamiseks soovitan lugeda artiklit: [REMIX - WHIRLPOOL](https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa), mis kirjeldab nende indeksite toimimist.
+Oma anonüümsete komplektide arvutusmehhanismide mõistmise süvendamiseks soovitan lugeda artiklit: [REMIX - WHIRLPOOL](https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa), mis kirjeldab nende indeksite toimimist.
 
 WST tööriista kasutamiseks minge RoninCLI juurde. Selleks avage oma isiklikul arvutil terminal ja looge SSH ühendus oma noodiga, kasutades järgmist käsku:
 `SSH ronindojo@[IP]`

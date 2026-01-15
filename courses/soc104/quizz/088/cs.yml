@@ -1,0 +1,9 @@
+question: Jaká je podle Karla Poppera základní charakteristika, která odlišuje otevřenou společnost od společnosti uzavřené?
+answer: Schopnost jednotlivců uplatňovat kritický úsudek a osobní odpovědnost při rozhodování
+wrong_answers:
+  - Míra ekonomické svobody a tržní směny mezi různými sociálními skupinami
+  - Úroveň technologického pokroku a vědeckého pokroku, kterého společnost dosáhla
+  - Míra demokratické účasti a vlády většiny v politických rozhodovacích procesech
+explanation: |
+  Popper definuje otevřenou společnost jako společnost, v níž jsou jednotlivci konfrontováni s osobními rozhodnutími a mohou uplatňovat kritický úsudek, zatímco uzavřená společnost kritickou svobodu a individuální odpovědnost odmítá.
+  Toto rozlišení se v zásadě týká spíše poznávací a morální autonomie než ekonomických systémů, technologického pokroku nebo demokratických procedur. Uzavřené společnosti se obávají změny a kritiky a idealizují statický řád, zatímco otevřené společnosti přijímají dynamickou kritiku a individuální volbu v rámci abstraktních pravidel chování.

@@ -1,0 +1,8 @@
+question: Millised on kolm komponenti, mis moodustavad stringi struktuuri Rust mälu paigutuses?
+answer: Viide kuhja andmetele, praegune pikkus ja kogumaht
+wrong_answers:
+  - Viide virna andmetele, praegune suurus ja maksimaalne pikkus
+  - Mälu aadress, tähemärkide arv ja eraldamise tüüp
+  - Andmeviide, baitide suurus ja omandistaatus
+explanation: |
+  String koosneb Rust-s täpselt kolmest komponendist, mis on salvestatud virna: viide kuhjaga eraldatud tähemärkide andmetele, stringi sisu praegune pikkus ja eraldatud puhvri kogumaht. See struktuur võimaldab stringidel tõhusalt kasvada ja kahaneda, säilitades samal ajal teadmise nende piiridest. Teised valikud on valed, sest nad kas viitavad valele asukohale (virna asemel kuhja), kasutavad ebatäpseid termineid (suurus vs. pikkus, tähemärkide arv vs. baitide pikkus) või sisaldavad olematuid komponente, nagu eraldamise tüüp või omandistaatus.

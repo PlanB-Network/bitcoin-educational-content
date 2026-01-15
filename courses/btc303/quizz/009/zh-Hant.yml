@@ -6,3 +6,4 @@ wrong_answers:
   - 「Bitcoin加密演算法中的技術漏洞」
 explanation: |
   根據本章引用的 Gregory Maxwell 在 Reddit 發表的文章，雖然 51% 的攻擊在理論上是存在的，但更大的風險是 Bitcoin 使用者不瞭解、不關心或不保護去中心化的特性，而這些特性讓 Bitcoin 比中心化的替代方案更有價值。這是因為去中心化提供了 Bitcoin 抵抗審查的能力，也就是與傳統貨幣系統的主要差異。如果人們不積極保護這些特性，Bitcoin 可能會逐漸變得集中化，直到審查成為可能，從而破壞其大部分的價值主張。其他選項雖然有潛在的隱憂，但並不是 Maxwell 特別指出的對 Bitcoin 長期成功的更大威脅。
+reviewed: false

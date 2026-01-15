@@ -344,11 +344,11 @@ CAP 定理强调，分布式系统不可能同时满足一致性（*一致性*�
 这一过程可概括如下
 
 ```txt
-# Défini par Alice, validé ou accepté par Bob
+# Defined by Alice, validated or accepted by Bob
 seal <- Define()
-# Fermeture du sceau par Alice avec le message
+# Seal is closed by Alice with the message
 witness <- Close(seal, message)
-# Vérification par Bob
+# Verification by Bob
 bool <- Verify(seal, witness, message)
 ```
 
@@ -3174,7 +3174,7 @@ rgb:iZgIN9EL-2H21UgQ-x!A3uJc-WwXhCSm-$9Lwcc1-v!mUkKY/RGB20/100+utxob:zlVS28Rb-..
 要从本发票转账 ：
 
 
-- 鲍勃（在他的储藏中持有代币）有一个比特币钱包。他需要准备一个比特币交易（以 PSBT 的形式，例如 `tx.psbt`），花费所需 RGB 代币所在的 UTXO，外加一个用于货币（兑换）的 UTXO；
+- Bob（在其stash中持有代币）拥有一个比特币钱包。他必须准备一笔比特币交易（以PSBT形式，例如`tx.psbt`），该交易花费包含所需RGB代币的UTXO，另外还需要一个用于找零的UTXO（change）；
 - 鲍勃执行以下命令
 
 ```bash

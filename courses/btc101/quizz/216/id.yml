@@ -1,9 +1,9 @@
-question: Apa itu trilema blockchain?
-answer: Sebuah protokol berbasis blockchain hanya dapat memenuhi dua dari tiga aspek; desentralisasi, keamanan, dan skalabilitas.
+question: Risiko apa yang dihadapi node Lightning jika mempublikasikan status kanal lama?
+answer: Penalti
 wrong_answers:
-  - Sebuah protokol berbasis blockchain hanya dapat memenuhi satu dari desentralisasi, keamanan, dan skalabilitas.
-  - Sebuah protokol berbasis blockchain dapat memenuhi semua aspek desentralisasi, keamanan, dan skalabilitas.
-  - Sebuah protokol berbasis blockchain tidak dapat memenuhi aspek desentralisasi, keamanan, dan skalabilitas sama sekali.
+  - Peringatan
+  - Biaya penambangan tambahan
+  - Pembekuan sementara
 explanation: |
-  Trilema blockchain merujuk pada tantangan bahwa sebuah protokol berbasis blockchain hanya dapat memenuhi dua dari tiga aspek: desentralisasi, keamanan, dan skalabilitas.
+  Protokol menetapkan penalti yang bersifat pencegah, sehingga pihak lain dapat memulihkan seluruh dana.
 reviewed: false

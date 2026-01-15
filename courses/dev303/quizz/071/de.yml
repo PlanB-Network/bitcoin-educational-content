@@ -1,0 +1,8 @@
+question: Was ist die angemessenste Reaktion, wenn eine Bitcoin-Anwendung auf einen ungültigen Eingabefehler stößt, z. B. wenn ein negativer Wert für ein Feld empfangen wird, das nur positive Ganzzahlen erfordert?
+answer: Ablehnung der Eingabe und Rückgabe einer Fehlermeldung an den Aufrufer
+wrong_answers:
+  - Den negativen Wert in seinen absoluten Wert umwandeln und weiterverarbeiten
+  - Den Fehler protokollieren, aber den Vorgang mit einem Standardwert fortsetzen
+  - Beenden Sie die gesamte Anwendung sofort, um eine Datenbeschädigung zu verhindern
+explanation: |
+  Ungültige Eingabefehler stellen Vertragsverletzungen zwischen dem Aufrufer und der Funktion dar, bei denen die übergebenen Parameter nicht den Anforderungen der Funktion entsprechen. Der korrekte Ansatz besteht darin, die Eingabe abzulehnen und eine Fehlermeldung zurückzugeben, so dass der Aufrufer die Möglichkeit hat, die Situation angemessen zu behandeln. Die Umwandlung negativer in positive Werte verschleiert den Fehler und kann zu unbeabsichtigtem Verhalten führen. Die Verwendung von Standardwerten ignoriert die Absicht des Aufrufers und kann zu einer fehlerhaften Datenverarbeitung führen. Das Beenden der gesamten Anwendung ist bei Eingabevalidierungsfehlern übertrieben und würde bei Bitcoin-Anwendungen, bei denen eine gute Fehlerbehandlung wichtig ist, zu einer schlechten Benutzererfahrung führen.

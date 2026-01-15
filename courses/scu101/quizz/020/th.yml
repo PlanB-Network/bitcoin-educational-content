@@ -1,0 +1,9 @@
+question: โปรแกรมป้องกันไวรัสที่ติดตั้งมากับ Windows คืออะไร?
+answer: Windows Defender
+wrong_answers:
+  - แคสเปอร์สกี้
+  - นอร์ตัน
+  - McAfee
+explanation: |
+  Windows Defender เป็นโปรแกรมป้องกันไวรัสที่ติดตั้งมาพร้อมกับ Windows มันเป็นโซลูชันที่ปลอดภัยและมีประสิทธิภาพสำหรับการปกป้องระบบจากภัยคุกคาม
+reviewed: true

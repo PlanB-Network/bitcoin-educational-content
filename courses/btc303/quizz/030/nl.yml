@@ -6,3 +6,4 @@ wrong_answers:
   - Ze moeten worden vervangen door extra mining om het beoogde leveringsniveau te handhaven
 explanation: |
   Satoshi Nakamoto legde uit dat verloren munten functioneren als een donatie aan alle andere bitcoinhouders door hun munten waardevoller te maken door de verminderde effectieve voorraad. Dit is een positief deflatoir effect, geen destabiliserende kracht. Verloren munten hebben geen invloed op de mining beloningen, omdat die afkomstig zijn van nieuw geslagen munten en transactiekosten, niet van de bestaande voorraad. Het protocol van Bitcoin vervangt verloren munten niet - ze blijven permanent uit omloop, wat de resterende houders juist ten goede komt door de toegenomen schaarste.
+reviewed: false

@@ -1,0 +1,26 @@
+id: 499efc08-bccf-41c5-aa30-cab630f264ec
+start_date: 2025-10-25 20:30:00
+end_date: 2025-10-25 23:30:00
+timezone: Europe/Zurich
+address_city_country: Lugano, Switzerland
+address_line_2: Casino Lugano
+address_line_3:
+name: Black Jack Tournament Lugano 2025
+type: meetup
+book_online: false
+book_in_person: false
+price_dollars: 0
+description: |
+  "A special Black Jack tournament will be held exclusively for Plan B participants in the casino's gaming room, in an elegant and engaging atmosphere.
+  Play Responsibly 18+ / Required ID"
+language:
+  - en
+  - it
+links:
+  website: https://planb.lugano.ch/planb-forum/
+  replay_url:
+  live_url:
+tags:
+  - adoption
+  - business
+  - market-trends

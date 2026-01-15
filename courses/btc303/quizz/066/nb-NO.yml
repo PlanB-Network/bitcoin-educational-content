@@ -6,3 +6,4 @@ wrong_answers:
   - De risikerer å skape dobbeltutgiftsangrep fordi de ikke kan verifisere at innkommende transaksjoner er legitime
 explanation: |
   Når utvinnere praktiserer valideringsløs mining, sjekker de bare proof-of-work i blokkhodet og starter umiddelbart mining på toppen av den mens de laster ned og validerer hele blokken parallelt. Den kritiske risikoen er at de kan bygge på en ugyldig blokk, noe som betyr at beregningsinnsatsen deres er bortkastet på en blokkjedegren som vil bli avvist når den ugyldige blokken blir oppdaget. Dette undergraver nettverkssikkerheten fordi en del av mining-kraften ikke bidrar til den sterkeste, gyldige kjeden, som er Bitcoins grunnleggende sikkerhetsmekanisme.
+reviewed: false

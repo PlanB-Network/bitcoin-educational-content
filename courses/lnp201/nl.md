@@ -221,7 +221,7 @@ Het meest voorkomende script vereist een handtekening met de privé-sleutel geas
 ### UTXO's: Ongebruikte transactie-uitgangen
 
 
-Op Bitcoin, wat we eigenlijk Exchange zijn niet direct bitcoins, maar **UTXOs** (_Unspent Transaction Outputs_), wat betekent "niet uitgegeven transactie-uitgangen".
+Op Bitcoin, wat we eigenlijk Exchange zijn niet direct bitcoins, maar **[UTXO](https://planb.academy/resources/glossary/utxo)s** (_Unspent Transaction Outputs_), wat betekent "niet uitgegeven transactie-uitgangen".
 
 
 Een UTXO is een stuk Bitcoin dat elke waarde kan hebben, bijvoorbeeld **2.000 bitcoins**, **8 bitcoins**, of zelfs **8.000 Sats**. Elke UTXO wordt vergrendeld door een script, en om het uit te geven moet men voldoen aan de voorwaarden van het script, vaak een handtekening met de private sleutel die overeenkomt met een bepaalde ontvangende Address.
@@ -431,7 +431,7 @@ Om deze overdracht te valideren, creëren Alice en Bob een nieuwe **niet-gepubli
 ### Overdrachtsproces: De Invoice
 
 
-Wanneer Bob geld wil ontvangen, stuurt hij Alice een **_invoice_** voor 30.000 satoshis. Alice gaat dan verder met het betalen van deze Invoice door de overdracht binnen het kanaal te starten. Zoals we hebben gezien, berust dit proces op het aanmaken en ondertekenen van een nieuwe **Commitment Transaction**.
+Wanneer Bob geld wil ontvangen, stuurt hij Alice een **_[invoice](https://planb.academy/resources/glossary/invoice-lightning)_** voor 30.000 satoshis. Alice gaat dan verder met het betalen van deze Invoice door de overdracht binnen het kanaal te starten. Zoals we hebben gezien, berust dit proces op het aanmaken en ondertekenen van een nieuwe **Commitment Transaction**.
 
 
 Elke Commitment Transaction vertegenwoordigt de nieuwe verdeling van fondsen in het kanaal na de overdracht. In dit voorbeeld heeft Bob na de transactie 30.000 satoshi en Alice 100.000 satoshi. Als een van de twee deelnemers zou besluiten om deze Commitment Transaction te publiceren op Blockchain, zou dit resulteren in het sluiten van het kanaal en zouden de fondsen worden verdeeld volgens deze laatste verdeling.
@@ -916,7 +916,7 @@ In dit hoofdstuk hebben we het routeren van betalingen op de Lightning Network o
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 
-In dit hoofdstuk zullen we ontdekken hoe Lightning betalingen door tussenliggende knooppunten laat lopen zonder ze te hoeven vertrouwen, dankzij **HTLC** (_Hashed Time-Locked Contracts_). Deze slimme contracten zorgen ervoor dat elk tussenliggend knooppunt alleen het geld van zijn kanaal ontvangt als het de betaling doorstuurt naar de eindontvanger, anders wordt de betaling niet gevalideerd.
+In dit hoofdstuk zullen we ontdekken hoe Lightning betalingen door tussenliggende knooppunten laat lopen zonder ze te hoeven vertrouwen, dankzij **[HTLC](https://planb.academy/resources/glossary/htlc)** (_Hashed Time-Locked Contracts_). Deze slimme contracten zorgen ervoor dat elk tussenliggend knooppunt alleen het geld van zijn kanaal ontvangt als het de betaling doorstuurt naar de eindontvanger, anders wordt de betaling niet gevalideerd.
 
 
 Het probleem dat zich voordoet bij het routeren van betalingen is daarom het noodzakelijke vertrouwen in de tussenliggende knooppunten en tussen de tussenliggende knooppunten onderling. Om dit te illustreren, gaan we terug naar ons vereenvoudigde Lightning Network voorbeeld met 3 knooppunten en 2 kanalen:
@@ -1524,7 +1524,7 @@ In de eerste hoofdstukken hebben we onderzocht hoe twee partijen, door het opene
 - **Kanaal openen**: Het aanmaken van het kanaal gebeurt via een Bitcoin transactie die de fondsen vergrendelt in een 2/2 Address met meerdere handtekeningen. Deze storting vertegenwoordigt het Lightning-kanaal op de Blockchain.
 
 
-![LNP201](assets/en/076.webp) 2. **Transactions in the Channel**: In this channel, it is then possible to carry out numerous transactions without having to publish them on the blockchain. Each Lightning transaction creates a new state of the channel reflected in a commitment transaction.
+![LNP201](assets/en/076.webp) 2. **Transactions in the Channel**: In this channel, it is then possible to carry out numerous transactions without having to publish them on the blockchain. Each Lightning transaction creates a new state of the channel reflected in a [commitment transaction](https://planb.academy/resources/glossary/commitment-transaction).
 
 ![LNP201](assets/en/077.webp)
 

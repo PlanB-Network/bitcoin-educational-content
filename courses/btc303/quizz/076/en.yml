@@ -6,3 +6,4 @@ wrong_answers:
   - Determining the appropriate financial compensation for vulnerability discovery before agreeing to disclose the information to developers
 explanation: |
   The core ethical challenge in responsible disclosure is the delicate balance between transparency and security. Researchers must ensure vulnerabilities are addressed without inadvertently providing a roadmap for malicious exploitation. This involves carefully coordinating with developers, timing disclosures appropriately, and considering the broader ecosystem impact. The other options focus on financial or regulatory concerns that, while potentially relevant, are not the primary ethical dilemma outlined in responsible disclosure practices.
+reviewed: false

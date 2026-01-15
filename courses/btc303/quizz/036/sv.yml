@@ -6,3 +6,4 @@ wrong_answers:
   - Kostnader för blocksubventioner bärs av börser genom handelsavgifter, medan transaktionsavgifter betalas av wallet-leverantörer
 explanation: |
   Som Paul Sztorc noterade är blocksubvention och transaktionsavgifter fundamentalt olika till sin natur. Blocksubventionen representerar skapandet av nya bitcoin, vilket späder ut det befintliga utbudet och effektivt kostar alla bitcoininnehavare genom monetär inflation. Transaktionsavgifter är däremot direkta betalningar som görs av användare som vill genomföra transaktioner, vilket innebär att spenderarna bär denna kostnad direkt. Kapitlet illustrerar denna övergång och visar hur säkerhetskostnaderna kommer att flyttas från innehavare till användare i takt med att blocksubventionen minskar över tid.
+reviewed: false

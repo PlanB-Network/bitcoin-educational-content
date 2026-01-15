@@ -6,3 +6,4 @@ wrong_answers:
   - Mehanizam konsenzusa bi trošio previše računske energije da bi bio praktičan
 explanation: |
   Prva rečenica prvog odgovora putem e-pošte na Satoshi najavu Bitcoin belog papira specifično je navela 'ne čini se da se skalira na potrebnu veličinu.' Ovo pokazuje da su zabrinutosti oko skaliranja postojale od najranijih javnih diskusija o Bitcoin, čak i pre nego što je mreža pokrenuta. Druge opcije, iako potencijalno validne zabrinutosti za kriptovalutni sistem, nisu bile fokus tog početnog odgovora, koji je odmah identifikovao skalabilnost kao primarni problem sa Satoshi predlogom.
+reviewed: false

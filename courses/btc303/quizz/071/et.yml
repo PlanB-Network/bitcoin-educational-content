@@ -6,3 +6,4 @@ wrong_answers:
   - Konsensusmehhanism kulutab liiga palju arvutamisenergiat, et olla praktiline
 explanation: |
   Juba esimese e-kirja vastuse esimeses lauses Satoshi Bitcoin teabepaberi teadaandele märgiti konkreetselt, et "see ei tundu olevat vajaliku suurusega skaleeritav" See näitab, et skaleerimisega seotud probleemid olid olemas juba Bitcoin esimestest avalikest aruteludest alates, isegi enne võrgu käivitamist. Muud võimalused, kuigi need võivad olla krüptovaluutasüsteemi puhul põhjendatud probleemid, ei olnud selle esialgse vastuse keskmes, milles Satoshi ettepaneku peamiseks probleemiks nimetati kohe skaleeritavust.
+reviewed: false

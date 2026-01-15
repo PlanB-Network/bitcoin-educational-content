@@ -1,0 +1,9 @@
+question: Which of these platforms allows you to buy incoming liquidity?
+answer: Magma
+wrong_answers:
+  - Bitcoin Core
+  - 1ML
+  - Boltz
+explanation: |
+  Magma makes it easy to purchase incoming liquidity via an automated marketplace.
+reviewed: false

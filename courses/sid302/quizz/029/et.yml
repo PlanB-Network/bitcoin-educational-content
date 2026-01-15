@@ -1,0 +1,8 @@
+question: Millise põhimõttelise kompromissiga peavad investorid nõustuma, kui nad osalevad Blockstream AMP varade ökosüsteemides võrreldes tavaliste Liquid Network tehingutega?
+answer: Täielik nähtavus oma osaluse ja tehinguajaloo kohta varade emitendile, hoolimata privaatsuse säilitamisest teiste kasutajate eest
+wrong_answers:
+  - Kõrgemad tehingutasud, mis tulenevad kaasallkirjastamise autoriseerimismehhanismide jaoks vajalikust täiendavast arvutuslikust koormusest
+  - Vähenenud tehingukiirus, sest kõik ülekanded tuleb enne kinnitamist kinnitada tsentraliseeritud vastavusserverite kaudu
+  - Piiratud vara ülekantavus, kuna AMP-tokeneid saab saata ainult eelnevalt heakskiidetud rahakottidesse samas regulatiivses jurisdiktsioonis
+explanation: |
+  Õige vastus määratleb AMP põhilise kompromissi privaatsuse vastu: kuigi Confidential Transactions säilitab kasutajate vahelise privaatsuse, võimaldavad AMP varad emitentidele täielikku unblinded nähtavust regulatiivse vastavuse tagamiseks. Valed vastused kirjeldavad pigem tegevuspiiranguid (tasud, kiirus, ülekantavus) kui põhilist läbipaistvuse kompromissi, mis eristab AMP-d standardse Liquid täielikult konfidentsiaalsest mudelist.

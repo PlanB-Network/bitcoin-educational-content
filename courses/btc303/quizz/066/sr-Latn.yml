@@ -6,3 +6,4 @@ wrong_answers:
   - Rizikuju stvaranje napada dvostrukog trošenja jer ne mogu verifikovati da su dolazne transakcije legitimne.
 explanation: |
   Kada rudari praktikuju mining bez validacije, proveravaju samo proof-of-work u zaglavlju bloka i odmah započinju mining na njemu dok paralelno preuzimaju i validiraju ceo blok. Kritični rizik je da bi mogli graditi na nevažećem bloku, što znači da je njihov računski napor uzaludan na grani blokčejna koja će biti odbačena kada se otkrije nevažeći blok. Ovo podriva bezbednost mreže jer deo mining snage ne doprinosi najjačem važećem lancu, što je osnovni mehanizam bezbednosti Bitcoin.
+reviewed: false

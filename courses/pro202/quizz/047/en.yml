@@ -1,0 +1,8 @@
+question: What is the mathematical formula used to calculate the block subsidy at any given block height h in Bitcoin's protocol?
+answer: subsidy = 5_000_000_000 >> (h // 210_000)
+wrong_answers:
+  - subsidy = 50_000_000_000 / (2^(h / 210_000))
+  - subsidy = 5_000_000_000 * (0.5^(h % 210_000))
+  - subsidy = 50_000_000_000 >> (h % 210_000)
+explanation: |
+  The correct formula uses bit-shifting operations where 5_000_000_000 represents 50 BTC in satoshis, and the right-shift operator >> effectively divides by powers of 2. The floor division h // 210_000 determines how many halving periods have occurred. The first wrong answer uses regular division instead of bit-shifting and starts with an incorrect base value. The second uses modulo instead of floor division, which would create a cyclical pattern rather than progressive halving. The third uses modulo operation which would reset the halving counter every 210,000 blocks instead of accumulating halvings over time.

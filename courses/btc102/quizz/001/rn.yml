@@ -1,9 +1,9 @@
-question: Ni igiki wokora kugira umenye ko hari uwugerageza guhenda abantu mu gisata c’amahera y’amahera?
-answer: Genzura akaranga k'uwarungitse
+question: N'iki wokora kugira umenye igikorwa co kugerageza gutabwa mu mutego kugira bakwibe mw'iki gisata c'ama cryptos?
+answer: Genzura umwidondoro w'uwurungitse
 wrong_answers:
-  - Fyonda gusa ku mahuza wakiriye muri imeyili
-  - Sangira imfunguruzo zawe bwite kugira ngo wemeze ukuri
-  - Kwizigira gusa ibimenyetso n'amashusho muri imeyili
+  - Fyonda gusa ku mahuza(links) uronse biciye kuri imeyiri gusa
+  - Sangira imfunguruzo zawe bwite kugira ngo wemeze ko arivyu'ukuri
+  - Kwizigira gusa ibimenyetso n'amashusho muri imeyiri
 explanation: |
-  Ushobora kwama uraba neza ko uriko urakorana n’umuntu akwiriye, kandi ntukigere ukoresha amahuzu atangwa mu ma email. Ahubwo, genda kuri urwo rubuga n’amaboko, ukoresheje ibimenyetso vy’umucukumbuzi wawe.
+  Ushobora kwama uraba neza ko uriko urakorana n’umuntu akwiriye, kandi ntukigere ukoresha amahuzu atangwa mu ma email. Ahubwo, genda kuri urwo rubuga n’amaboko, ukoresheje ivyo ukunda vy’umucukumbuzi wawe.
 reviewed: false

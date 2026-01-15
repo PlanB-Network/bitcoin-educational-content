@@ -1,5 +1,5 @@
 ---
-name: ケーキ Wallet
+name: Cake Wallet
 description: Cake Walletとサイレント・ペイメントについてのチュートリアル
 ---
 

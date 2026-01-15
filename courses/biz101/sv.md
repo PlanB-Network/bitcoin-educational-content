@@ -596,7 +596,7 @@ Eftersom Bitcoin fungerar som ett bytesmedel är det möjligt att föreställa s
 
 Detta innebär att man tjänar belöningar på att använda mining-maskiner. För icke-specialiserade företag är detta fortfarande relativt marginellt. Du kan delta genom mellanhänder som säljer eller hyr ut datorer, nätverk och underhåll till dig. Om du äger maskinerna kan du redovisa dem som avskrivningsbara tillgångar. I stor skala måste du noggrant beräkna avkastningen på investeringen eftersom marknaden är mycket konkurrensutsatt och kräver en god framförhållning när det gäller kostnader, särskilt el.
 
-Om du vill lära dig mer om mining-metoderna kan du [läsa avsnittet "Mining" i våra handledningar] (https://planb.academy/tutorials/mining).
+Om du vill lära dig mer om mining-metoderna kan du [läsa avsnittet "Mining" i våra handledningar](https://planb.academy/tutorials/mining).
 
 
 - **Köp av Bitcoin:**
@@ -635,7 +635,7 @@ Fastighetsbranschen upprepar ofta att "det alltid är rätt tid att köpa" och g
 
 ![BIZ101](assets/sv/013.webp)
 
-*Källa: [Bitcoin Office] (https://Bitcoin.gob.sv/)*
+*Källa: [Bitcoin Office](https://Bitcoin.gob.sv/)*
 
 ### I vilken form ska man köpa? (Metoder för förvaring)
 
@@ -906,7 +906,7 @@ https://planb.academy/tutorials/business/point-of-sale/open-node-e69a0c1c-47f7-4
 Om du är redo att smutsa ner dina händer och vill ha full kontroll över processen är BTCPay Server-programvaran ett utmärkt alternativ. Den största nackdelen med BTCPay Server är dock att dess installation och hantering är tidskrävande och kräver en viss nivå av teknisk expertis, men du kan följa våra guider:
 
 https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
-Slutligen, som ett komplement till fysiska försäljningsställen, kan du överväga att sätta upp [en Bitcoinize PoS] (https://bitcoinize.com/).
+Slutligen, som ett komplement till fysiska försäljningsställen, kan du överväga att sätta upp [en Bitcoinize PoS](https://bitcoinize.com/).
 
 ## Den professionella
 
@@ -926,7 +926,7 @@ När det gäller teknik och verktyg utgör lösningar som **BTC Pay Server** oft
 
 ![BIZ101-profiles](assets/sv/026.webp)
 
-Dessutom kan verktyg som [Zaprite] (https://zaprite.com/) eller [Musqet] (https://musqet.tech/) ytterligare förfina kassaupplevelsen, vilket möjliggör mer detaljerad anpassning (från varumärkesval till sofistikerade rapporteringsfunktioner). De som föredrar en allt-i-ett-miljö för detaljhandel online kan dras till [Be-BOP] (https://be-bop.io/), en e-butik lösning byggd för att underlätta Bitcoin betalningar utan att offra användarvänligheten.
+Dessutom kan verktyg som [Zaprite](https://zaprite.com/) eller [Musqet](https://musqet.tech/) ytterligare förfina kassaupplevelsen, vilket möjliggör mer detaljerad anpassning (från varumärkesval till sofistikerade rapporteringsfunktioner). De som föredrar en allt-i-ett-miljö för detaljhandel online kan dras till [Be-BOP](https://be-bop.io/), en e-butik lösning byggd för att underlätta Bitcoin betalningar utan att offra användarvänligheten.
 
 ![BIZ101-profiles](assets/sv/027.webp)
 
@@ -938,7 +938,7 @@ När det gäller exempel från verkligheten kan man tänka sig en medelstor e-ha
 
 ![BIZ101-profiles](assets/sv/028.webp)
 
-*[Källa: Bitcoin Bazar-butik i Paris, Frankrike.] (https://bitcoinbazar.fr/)*
+*[Källa: Bitcoin Bazar-butik i Paris, Frankrike.](https://bitcoinbazar.fr/)*
 
 För att gå djupare in på implementeringsdetaljer och utforska praktiska konfigurationer av BTC Pay Server, se följande kurs:
 

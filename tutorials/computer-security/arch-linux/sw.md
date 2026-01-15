@@ -7,7 +7,7 @@ description: Usambazaji mdogo, wa utendaji wa juu ulioundwa kulingana na falsafa
 
 
 
-Arch Linux ni usambazaji unaojulikana kwa uimara, utendakazi na uwezo wake wa kubadilika, hasa kwa madhumuni ya maendeleo. Inatoa uthabiti bora na mazingira yanayofaa kubinafsisha, inayoungwa mkono na msimamizi wa kifurushi wa haraka sana na anayetegemewa. Falsafa yake inategemea kanuni ya **KISS** (*Iweke Rahisi, Kijinga*): kutoa usambazaji mwepesi, rahisi, wa haraka na usio na vitu vingi, huku ukiacha uhuru mwingi kwa mtumiaji.
+Arch Linux ni usambazaji unaojulikana kwa uimara, utendakazi na uwezo wake wa kubadilika, hasa kwa madhumuni ya maendeleo. Inatoa uthabiti bora na mazingira yanayofaa kubinafsisha, inayoungwa mkono na msimamizi wa kifurushi wa haraka sana na anayetegemewa. Falsafa yake inategemea kanuni ya **KISS** (*Keep It Simple, Stupid*): kutoa usambazaji mwepesi, rahisi, wa haraka na usio na vitu vingi, huku ukiacha uhuru mwingi kwa mtumiaji.
 
 
 
@@ -17,7 +17,7 @@ Arch Linux ni usambazaji unaojulikana kwa uimara, utendakazi na uwezo wake wa ku
 
 
 
-- **Chanzo huria na huria**: Kama ugawaji mwingi wa Linux, Arch Linux ni bure kabisa. Hakuna ada za leseni, na kuifanya kuwa chaguo bora kwa wanafunzi, wafanyikazi wa kujitegemea au wapendaji.
+- **Chanzo huria na wazi**: Kama ugawaji mwingi wa Linux, Arch Linux ni bure kabisa. Hakuna ada za leseni, na kuifanya kuwa chaguo bora kwa wanafunzi, wafanyikazi wa kujitegemea au wapendaji.
 - **Falsafa ya KISS**: Arch imeundwa kuwa rahisi, nyepesi na bora. Inatoa tu mambo muhimu, hukuruhusu kujenga mazingira yako à la carte.
 - **Kidhibiti kifurushi cha Pacman**: Pacman ni meneja wa kifurushi wa haraka, anayetegemewa na iliyoundwa vizuri. Inawezesha usakinishaji na usasishaji bora wa programu, na kudhibiti utegemezi kwa usahihi.
 - **Uhifadhi wa kina na jumuiya inayotumika**: [Arch Wiki](https://wiki.archlinux.org) pengine ni mojawapo ya hati bora zaidi za kiufundi katika ulimwengu wa Linux. Ni mgodi wa dhahabu kwa kuelewa unachofanya. Jumuiya, inayojumuisha wasifu wenye uzoefu, ina shughuli nyingi na inaweza kukusaidia ikiwa utakwama, mradi tu umefanya utafiti kidogo hapo awali.
@@ -38,7 +38,7 @@ Nyenzo zinazohitajika:
 
 
 
-- Kitufe cha USB cha angalau **8 GB**
+- USB drive ya angalau **8 GB**
 - **2 GB** kiwango cha chini cha RAM
 - Kompyuta iliyo na angalau GB 20 ya nafasi ya bure ya diski
 
@@ -66,7 +66,7 @@ Tangu 2017, Arch Linux haitumii tena usanifu wa 32-bit. Matoleo ya 64-bit pekee 
 
 
 
-Ili kuunda kiendeshi cha USB cha bootable, unaweza kutumia zana kama **Balena Etcher**:
+Ili bootable USB drive, unaweza kutumia zana kama **Balena Etcher**:
 
 
 
@@ -87,7 +87,7 @@ Ili kuunda kiendeshi cha USB cha bootable, unaweza kutumia zana kama **Balena Et
 
 
 
-## Inawasha kitufe cha USB
+## Inawasha USB drive
 
 
 
@@ -96,7 +96,7 @@ Ili kuunda kiendeshi cha USB cha bootable, unaweza kutumia zana kama **Balena Et
 - Zima kompyuta yako kabisa
 - Chomeka ufunguo wa USB unaoweza kuwashwa
 - Washa upya na uingize BIOS/UEFI kwa kubofya **F1**, **Escape**, **F9**, n.k. (kulingana na mtindo wako)
-- Katika menyu ya kuwasha, chagua kitufe cha USB kama kifaa cha kuwasha. Ikiwa kila kitu kimewekwa kwa usahihi, utapelekwa kwenye skrini ya boot ya Arch Linux Interface.
+- Katika menyu ya kuwasha, chagua USB drive kama kifaa cha kuwasha. Ikiwa kila kitu kimewekwa kwa usahihi, utapelekwa kwenye skrini ya boot ya Arch Linux Interface.
 
 
 
@@ -104,7 +104,7 @@ Ili kuunda kiendeshi cha USB cha bootable, unaweza kutumia zana kama **Balena Et
 
 
 
-Kwenye skrini ya boot, chagua chaguo la kwanza ili kuzindua usakinishaji. Kumbuka kuwa Arch Linux haitoi kisakinishi cha picha. Mara baada ya kuzinduliwa, utapelekwa kwenye terminal katika hali ya mizizi.
+Kwenye skrini ya boot, chagua chaguo la kwanza ili kuzindua usakinishaji. Kumbuka kuwa Arch Linux haitoi kisakinishi cha picha. Mara baada ya kuzinduliwa, utapelekwa kwenye terminal katika hali ya roots.
 
 
 
@@ -191,14 +191,14 @@ timedatectl status
 - Iwashe ikiwa ni lazima:
 
 
-```shell
+```sserverhell
 timedatectl set-ntp true
 ```
 
 
 
 
-Hii inawasha NTP, itifaki ya ulandanishi otomatiki na seva za wakati. Hatua hii ni muhimu ili kuepuka hitilafu za tarehe wakati wa kusakinisha vifurushi au kusanidi vyeti vya SSL baadaye.
+Hii inawasha NTP, protocol ya ulandanishi otomatiki na server za wakati. Hatua hii ni muhimu ili kuepuka hitilafu za tarehe wakati wa kusakinisha vifurushi au kusanidi vyeti vya SSL baadaye.
 
 
 
@@ -223,7 +223,7 @@ Ikiwa faili iko, uko kwenye **UEFI**. Vinginevyo, uko kwenye **BIOS (Legacy)**.
 
 
 
-- Orodhesha diski zinazopatikana:
+- Orodhesha disk zinazopatikana:
 
 
 ```shell
@@ -284,7 +284,7 @@ Chagua **GPT** ikiwa uko kwenye UEFI, **DOS** ikiwa uko kwenye BIOS.
 
 
 
-Chagua **Andika**, chapa **ndiyo**, kisha **Toka**.
+Chagua **Write**, chapa **Yes**, kisha **Exit**.
 
 
 
@@ -329,7 +329,7 @@ mkfs.ext4 /dev/sda2
 
 
 
-Panda kizigeu cha **mizizi**:
+Panda partition ya **roots**:
 
 
 
@@ -368,7 +368,7 @@ pacstrap -K /mnt base linux linux-firmware
 
 
 
-generate faili ya **fstab**, ambayo huwezesha mfumo wa uendeshaji kudhibiti kiotomatiki uwekaji kizigeu kwenye kila buti, bila uingiliaji kati wa mikono:
+generate faili ya **fstab**, ambayo huwezesha mfumo wa uendeshaji kudhibiti kiotomatiki uwekaji partition kwenye kila boot, bila uingiliaji kati wa mikono:
 
 
 
@@ -435,7 +435,7 @@ echo nom_machine > /etc/hostname
 
 
 
-- Weka nenosiri la mizizi:
+- Weka nenosiri la roots:
 
 
 
@@ -566,7 +566,7 @@ Kisha usanidi mtandao wa Interface kwa kuingiza maandishi yafuatayo kwenye termi
 
 
 ```shell
-cat <<EOF > /etc/systemd/network/20-wired.network
+cat <<EOF > /etc/systemd/academy/20-wired.network
 [Match]
 Name=nom_de_l_interface
 
@@ -577,7 +577,7 @@ EOF
 
 
 
-## Michoro ya Interface (GNOME)
+## GNU Network Object Model Environment (GNOME)
 
 
 
@@ -634,7 +634,7 @@ systemctl start gdm
 
 
 
-Mfumo unaanza upya kiotomatiki na unapata kuingia kwa picha ya Interface. Ingia na mzizi jina la mtumiaji na nenosiri.
+Mfumo unaanza upya kiotomatiki na unapata kuingia kwa picha ya Interface. Ingia na jina root ya mtumiaji na nenosiri.
 
 
 
@@ -770,7 +770,7 @@ pacman -S vim firefox net-tools
 
 
 
-Arch Linux inasimama nje kwa utulivu wake wa ajabu, falsafa ndogo na uimara, na kuifanya kuwa chaguo bora kwa mazingira ya maendeleo. Kwa kutoa tu mambo muhimu, inatoa msingi mwepesi, wa utendaji wa juu ambao ni rahisi kubinafsisha kulingana na mahitaji yako mahususi. Mbinu hii ndogo pia inapendelea udhibiti mkubwa zaidi wa mfumo, ikiimarisha usalama kwa kupunguza eneo la mashambulizi. Shukrani kwa jumuiya yake inayofanya kazi na uwekaji kumbukumbu kamili, Arch Linux inaweza kukusaidia kuunda mazingira salama, yanayonyumbulika yaliyoboreshwa kwa maendeleo ya kitaaluma.
+Arch Linux inasimama nje kwa utulivu wake wa ajabu, falsafa ndogo, na uimara, na kufanya iwe chaguo bora kwa mazingira ya maendeleo. Kwa kutoa tu mambo muhimu, inatoa msingi mwepesi na wenye utendaji wa juu ambao ni rahisi kubinafsisha kulingana na mahitaji yako maalum. Mbinu hii ndogo pia inapendelea udhibiti mkubwa zaidi wa mfumo, ikiimarisha usalama kwa kupunguza eneo la mashambulizi. Shukrani kwa jumuiya yake yenye ushirikiano na uwekaji kumbukumbu kamili, Arch Linux inaweza kukusaidia kuunda mazingira salama, yanayonyumbulika, yaliyoboreshwa kwa maendeleo ya kitaaluma.
 
 
 

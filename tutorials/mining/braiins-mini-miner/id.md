@@ -168,7 +168,7 @@ dan kita perlu mengklik tombol ungu di sebelah kanan yang bertuliskan "Hubungkan
 
 
 
-Ini dia jendela yang berisi informasi yang kita perlukan untuk menghubungkan mini Miner ke kolam renang. Di sini satu-satunya perubahan yang dapat kita lakukan adalah memilih Stratum V2. Untuk mengetahui apa itu Stratum v2, lihat entri ini di [glosarium] (https://planb.academy/en/resources/glossary/stratum-v2).
+Ini dia jendela yang berisi informasi yang kita perlukan untuk menghubungkan mini Miner ke kolam renang. Di sini satu-satunya perubahan yang dapat kita lakukan adalah memilih Stratum V2. Untuk mengetahui apa itu Stratum v2, lihat entri ini di [glosarium](https://planb.academy/en/resources/glossary/stratum-v2).
 
 
 

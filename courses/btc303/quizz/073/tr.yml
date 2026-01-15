@@ -6,3 +6,4 @@ wrong_answers:
   - Görevlendirme durumuna bakılmaksızın standart 90 günlük ambargo süresinden sonra
 explanation: |
   Bitcoin Core, sabit bir zaman dilimi yerine dağıtım tabanlı bir ifşa zaman çizelgesini takip eder. 80 eşiği, ağın büyük çoğunluğunun saldırganlar güvenlik açığını kamuya açık hale getirmeden önce korunmasını sağlar. Bu yaklaşım, ağ güvenliğini keyfi zaman çizelgelerine göre önceliklendirir, çünkü erken açıklama düğümlerin geri kalan %20'sini hedefli saldırılara maruz bırakabilir. Diğer seçenekler geleneksel yazılım güvenliğindeki yaygın uygulamaları temsil eder ancak Bitcoin'nin kullanıcıların düğümlerini gönüllü olarak yükseltmeleri gereken merkezi olmayan yapısını hesaba katmaz.
+reviewed: false

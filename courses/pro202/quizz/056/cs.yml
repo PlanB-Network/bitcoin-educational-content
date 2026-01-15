@@ -1,0 +1,8 @@
+question: Jaký je hlavní důvod, proč transakce P2SH zabalené do SegWit používají při ověřování tři vrstvy ověřovacích pravidel?
+answer: Zajištění zpětné kompatibility mezi uzly před BIP16, po BIP16 a SegWit při zachování konsensu
+wrong_answers:
+  - Ztrojnásobení zabezpečení tím, že před přijetím transakce budou vyžadovány tři samostatné kryptografické důkazy
+  - Rozložení validační zátěže mezi různé typy uzlů s cílem zlepšit výkonnost a škálovatelnost sítě
+  - Zabránit útokům double-spending ověřením stejných údajů o transakci třemi nezávislými metodami
+explanation: |
+  P2SH-obal SegWit používá tři vrstvy ověřování speciálně pro zpětnou kompatibilitu: uzly před BIP16 přijímají redeemScript jako platný, uzly po BIP16 jej vyhodnocují s ponecháním OP_0 + hash na zásobníku a uzly SegWit provádějí úplné ověření svědků. Tento vrstevnatý přístup zajišťuje, že se všechny typy uzlů mohou účastnit konsensu, aniž by došlo k jeho porušení, na rozdíl od chybných odpovědí, které jako primární motivaci naznačují násobení bezpečnosti, distribuci výkonu nebo prevenci dvojího utrácení.

@@ -6,3 +6,4 @@ wrong_answers:
   - Kho lưu trữ GitHub duy trì một khóa chính xác thực tất cả các bản sao kho lưu trữ khác trên toàn thế giới
 explanation: |
   Theo phân tích của Jameson Lopp được trích dẫn trong chương này, kho lưu trữ GitHub của Bitcoin Core về mặt kỹ thuật giống hệt với tất cả các bản sao khác. Tầm quan trọng của nó hoàn toàn mang tính xã hội - nó đã trở thành trọng tâm cho việc điều phối phát triển. Kho lưu trữ này mang tính tiện lợi hơn là thẩm quyền kỹ thuật, và nếu nó biến mất, một trọng tâm mới sẽ tự nhiên xuất hiện. Điều này chứng minh tính phi tập trung của Bitcoin, nơi không một kho lưu trữ nào có ưu thế kỹ thuật so với các kho lưu trữ khác.
+reviewed: false

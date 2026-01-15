@@ -6,3 +6,4 @@ wrong_answers:
   - Administratieve vergoedingen kunnen vereist zijn, maar alleen voor commerciële herdistributies
 explanation: |
   De definitie van open bron stelt expliciet onder 'Gratis herverspreiding' dat 'De licentie geen royalty's of andere vergoeding voor een dergelijke verkoop vereist' Dit betekent dat open source software vrij verspreid moet kunnen worden zonder verplichte vergoedingen of royalty's. De andere opties suggereren ten onrechte dat verschillende soorten vergoedingen zijn toegestaan, wat in strijd zou zijn met het fundamentele principe van vrije herdistributie dat open source software definieert.
+reviewed: false

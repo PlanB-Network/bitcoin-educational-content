@@ -423,7 +423,7 @@ Blockstream Green je software pro dokončení nastavení JadeDIY a musí být ve
 
 
 
-- Pořiďte si oficiální aplikaci Blockstream - odkaz na ni najdete na jejich webových stránkách. Až tam budete, klikněte na [Download now] (https://blockstream.com/app/).
+- Pořiďte si oficiální aplikaci Blockstream - odkaz na ni najdete na jejich webových stránkách. Až tam budete, klikněte na [Download now](https://blockstream.com/app/).
 
 
 ![image](assets/fr/12.webp)

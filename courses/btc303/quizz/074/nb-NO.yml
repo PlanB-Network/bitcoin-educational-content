@@ -6,3 +6,4 @@ wrong_answers:
   - For å bekrefte at oppdateringen gir tilstrekkelige ytelsesforbedringer
 explanation: |
   I henhold til ansvarlig offentliggjøringspraksis tester utviklere om en oppdatering er godt nok skjult ved å gi den til erfarne utviklere som ikke har blitt informert om sårbarheten, og ber dem om å identifisere hva den fikser. Hvis disse ekspertene ikke kan oppdage sårbarheten selv om de vet at en oppdatering retter den, er den sannsynligvis godt skjult for potensielle angripere. Dette er avgjørende fordi oppdateringer i seg selv kan avsløre sårbarheter og potensielt muliggjøre ondsinnet utnyttelse. Selv om de andre alternativene er viktige aspekter ved kodegjennomgang, er de ikke det primære formålet med denne spesifikke praksisen i sårbarhetshåndtering.
+reviewed: false

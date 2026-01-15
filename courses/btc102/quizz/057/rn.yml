@@ -1,9 +1,9 @@
-question: Ni ubuhe buryo bwo kuronka umuntu yirinda?
-answer: Imbuga zihurikiye hamwe zifise KYC
+question: Ni ubuhe buryo bwo kuronka ama bitcoin umu nyabwoba yirinda?
+answer: Imbuga zigendurwa kandi zisaba KYC
 wrong_answers:
-  - P2P imbuga zo gushaka abagenzi
-  - Bitcoin ama ATM
-  - Gugura amahera ataco akora ku makoraniro
+  - Guhana hagati y'abantu babiri ku imbuga zo guhura
+  - Ivyuma bitanga ama Bitcoin
+  - Kugura ubwonyene ukoresheje amahera muhuye
 explanation: |
-  Kugira ngo umuntu ntamenyekane, uwo muntu afise ubwoba aririnda amakuru asaba ko umuntu asuzuma ko ari we.
+  Kugira ngo umuntu ntamenyekane, umunyabwoba afise ubwoba ararinda amakuru asaba ko umuntu asuzuma ko ari we.
 reviewed: false

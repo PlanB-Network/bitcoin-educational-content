@@ -1,0 +1,8 @@
+question: Vad är den primära arkitektoniska skillnaden mellan Blockstream AMP version 1 och version 2 när det gäller transaktionskonstruktion och nodkrav?
+answer: Version 2 flyttar komplexiteten till servern som hanterar transaktionskonstruktion och presenterar emittenter med PSET, vilket eliminerar behovet av full node-synkronisering
+wrong_answers:
+  - Version 2 kräver att emittenter kör flera synkroniserade Elements-noder för redundans medan version 1 endast krävde en enda nodanslutning
+  - Version 2 flyttar alla kryptografiska operationer till hårdvaruplånböcker på klientsidan medan version 1 utförde alla signeringsoperationer på serverinfrastrukturen
+  - Version 2 eliminerar kravet på medsignering helt och hållet och tillåter direkta peer-to-peer-överföringar medan version 1 krävde serverauktorisering för varje transaktion
+explanation: |
+  Utvecklingen från AMP version 1 till version 2 representerar ett grundläggande skifte från en "smart klient, komplex infrastruktur"-modell till en "smart server, förenklad klient"-strategi. Version 1 krävde att emittenter skulle upprätthålla helt synkroniserade Elements-noder och förlita sig starkt på den monolitiska Green SDK, vilket skapade höga tekniska hinder. Version 2 flyttar komplexiteten till serversidan, där AMP-servern hanterar transaktionskonstruktion, UTXO-val och avgiftsberäkning och sedan presenterar emittenter med delvis signerade Elements-transaktioner (PSET) som endast kräver signaturer. Detta eliminerar behovet av fullständiga noder och möjliggör standard wallet-integrationer.

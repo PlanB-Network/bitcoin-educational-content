@@ -6,3 +6,4 @@ wrong_answers:
   - Om te bevestigen dat de patch voldoende prestatieverbeteringen biedt
 explanation: |
   Volgens verantwoordelijke openbaarmakingspraktijken testen ontwikkelaars of een patch goed genoeg verborgen is door hem aan ervaren ontwikkelaars te geven die niet op de hoogte zijn gebracht van de kwetsbaarheid en hen te vragen om te identificeren wat hij verhelpt. Als deze experts de kwetsbaarheid niet kunnen ontdekken, zelfs als ze weten dat een patch er een verhelpt, dan is deze waarschijnlijk goed verborgen voor potentiële aanvallers. Dit is cruciaal omdat patches zelf kwetsbaarheden kunnen onthullen, waardoor kwaadwillige uitbuiting mogelijk wordt. De andere opties, hoewel belangrijke aspecten van code review, zijn niet het primaire doel van deze specifieke praktijk in kwetsbaarhedenbeheer.
+reviewed: false

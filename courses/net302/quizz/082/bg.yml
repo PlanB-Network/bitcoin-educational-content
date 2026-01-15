@@ -1,0 +1,9 @@
+question: Кой съвременен инструмент замества arp в последните дистрибуции на Linux?
+answer: iP съседство
+wrong_answers:
+  - ifconfig
+  - traceroute
+  - маршрут
+explanation: |
+  ip neigh, от пакета iproute2, замества arp за управление на IP/MAC асоциации в съвременна Linux.
+reviewed: false

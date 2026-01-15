@@ -1,0 +1,8 @@
+question: What ensures that both parties in a cross-layer swap either successfully complete the transaction or both fail without losing funds?
+answer: The same hash lock is used on both networks, creating cryptographic binding between the swap legs
+wrong_answers:
+  - Time locks prevent either party from claiming funds until both networks confirm the transactions
+  - MuSig2 key aggregation requires both parties to co-sign before any funds can be moved
+  - "Taproot's script path automatically reverses transactions if one network fails to complete"
+explanation: |
+  The atomic nature of cross-layer swaps relies on using identical hash locks across both networks. When the receiver reveals the secret preimage to claim funds on one layer, that same secret becomes visible and usable by the sender to claim reciprocal funds on the other layer. This cryptographic binding ensures atomicity - either both parties get their funds or neither does, eliminating counterparty risk in trustless swaps.

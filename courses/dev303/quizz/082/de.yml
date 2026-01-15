@@ -1,0 +1,8 @@
+question: Welche Rolle spielt die Unified Definition Language (UDL)-Datei im UniFFI-Workflow?
+answer: Sie dient als Schnittstellenspezifikation, die beschreibt, welche Teile der Rust-Bibliothek für andere Sprachen zugänglich sein sollen
+wrong_answers:
+  - Sie enthält den eigentlichen Rust-Implementierungscode, der in die Zielsprachenbindungen kompiliert wird
+  - Sie dient als Laufzeitkonfigurationsdatei, die die Speicherzuweisung zwischen verschiedenen Sprachumgebungen verwaltet
+  - Es bietet einen Testrahmen für die Validierung der Korrektheit der generierten Bindungen über mehrere Plattformen hinweg
+explanation: |
+  Die UDL-Datei dient als Vertrag oder Spezifikation zwischen der Rust-Implementierung und den generierten Sprachbindungen. Sie enthält weder Rust-Code selbst, noch führt sie Laufzeitoperationen oder Tests durch. Stattdessen definiert sie deklarativ, welche Funktionen, Typen und Schnittstellen aus der Rust-Bibliothek anderen Sprachen zur Verfügung gestellt werden sollen, und gibt an, wie sie in der nativen Schnittstelle der Zielsprache abgebildet und dargestellt werden sollen.

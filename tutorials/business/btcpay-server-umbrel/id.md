@@ -1,5 +1,5 @@
 ---
-name: Server BTCPay - Payung
+name: BTCPay Server - Umbrel
 description: Menginstal dan menggunakan Server BTCPay di Umbrel untuk menerima Bitcoin dan Lightning
 ---
 

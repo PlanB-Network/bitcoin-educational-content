@@ -32,7 +32,7 @@ När det gäller anslutning låter Sparrow dig ansluta till din egen Bitcoin-nod
 ## Installera Sparrow wallet
 
 
-Gå till [den officiella nedladdningssidan för Sparrow wallet] (https://sparrowwallet.com/download/) och välj den programvaruversion som motsvarar ditt operativsystem.
+Gå till [den officiella nedladdningssidan för Sparrow wallet](https://sparrowwallet.com/download/) och välj den programvaruversion som motsvarar ditt operativsystem.
 
 
 ![Image](assets/fr/01.webp)
@@ -191,7 +191,7 @@ Denna operation kan också utföras via Bitcoin-QT Interface grafiska Interface.
 ![Image](assets/fr/12.webp)
 
 
-Hitta IP Address för den maskin som är värd för Bitcoin Core i ditt lokala nätverk. För att göra detta kan du använda ett verktyg som [Angry IP Scanner] (https://angryip.org/). Låt oss anta, för argumentets skull, att IP Address för din nod är `192.168.1.18`.
+Hitta IP Address för den maskin som är värd för Bitcoin Core i ditt lokala nätverk. För att göra detta kan du använda ett verktyg som [Angry IP Scanner](https://angryip.org/). Låt oss anta, för argumentets skull, att IP Address för din nod är `192.168.1.18`.
 
 
 I filen `Bitcoin.conf` lägger du till följande rader och ställer in `rpcbind=192.168.1.18` så att den matchar IP Address för din nod.

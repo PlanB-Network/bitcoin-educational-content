@@ -1,0 +1,8 @@
+question: What is the most critical limitation revealed when the Cumulative View shows balanced liquidity ratios but the Detailed View exposes severe channel-level imbalances?
+answer: Aggregate metrics can mask individual channel bottlenecks that prevent successful routing despite appearing healthy at the node level
+wrong_answers:
+  - The simulation engine is misconfiguring payment size parameters causing false positives in the liquidity assessment calculations
+  - "Fee rate analysis becomes unreliable when channel count exceeds the optimal threshold for Lightning Terminal's visualization algorithms"
+  - Inbound and outbound liquidity measurements are being calculated using different time windows creating temporal inconsistencies
+explanation: |
+  The correct answer identifies a fundamental analytical problem where node-level aggregation obscures channel-specific issues. While a node might show 50/50 inbound/outbound balance overall, individual channels could be completely depleted in one direction, creating routing failures. The wrong answers incorrectly attribute the problem to technical malfunctions, algorithmic limitations, or measurement errors rather than the inherent limitation of aggregate versus granular analysis in complex routing scenarios.

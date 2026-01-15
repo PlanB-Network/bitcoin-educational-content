@@ -1,0 +1,8 @@
+question: Jaka zależność matematyczna musi zachodzić w procesie weryfikacji podpisu ECDSA, aby podpis został uznany za ważny?
+answer: Współrzędna x układu UG + VP musi być równa R, gdzie U = Z/S i V = R/S
+wrong_answers:
+  - Współrzędna y układu UG + VP musi być równa S, gdzie U = R/Z i V = S/Z
+  - Współrzędna x KG + ZP musi być równa S, gdzie K to nonce, a Z to hash
+  - Suma R + S musi być równa współrzędnej x punktu klucza publicznego P
+explanation: |
+  Weryfikacja ECDSA działa poprzez rekonstrukcję oryginalnego punktu KG za pomocą równania UG + VP, gdzie U = Z/S (hash podzielony przez S) i V = R/S. Jeśli współrzędna x zrekonstruowanego punktu jest równa R z podpisu, weryfikacja przebiega pomyślnie. Ta matematyczna zależność pozwala na weryfikację bez znajomości klucza prywatnego lub nonce K, ponieważ algebra rekonstruuje KG pośrednio poprzez klucz publiczny i komponenty podpisu.

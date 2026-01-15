@@ -1,0 +1,8 @@
+question: 在處理 Result 和 Option 種類時，unwrap_or() 和 unwrap_or_default() 方法的主要差異是什麼？
+answer: unwrap_or() 需要您指定回退值，而 unwrap_or_default() 則使用類型的預設實作
+wrong_answers:
+  - unwrap_or() 會在發生錯誤時恐慌，而 unwrap_or_default() 會返回 None，在生產中提供更安全的錯誤處理。
+  - unwrap_or() 只適用於 Result 種類，而 unwrap_or_default() 則只適用於 Option 種類的數值萃取。
+  - unwrap_or() 將錯誤往上傳到呼叫堆疊，而 unwrap_or_default() 則將所有錯誤轉換成預設字串訊息
+explanation: |
+  unwrap_or() 方法允許您在 Result 包含錯誤或 Option 包含 None 時提供特定的後備值，讓您可以控制在失敗情況下使用的值。相反地，unwrap_or_default() 會自動使用類型的 Default 特質實作，當預設值適合您的使用情況時，這會很方便。這兩個方法都可以對 Result 和 Option 類型運作，而且都不會恐慌或傳播錯誤 - 它們都提供優雅的降級，返回可用的值而不是失敗。

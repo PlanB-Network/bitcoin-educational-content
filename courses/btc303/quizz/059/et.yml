@@ -6,3 +6,4 @@ wrong_answers:
   - "See näitab, et GitHubi platvormil on tehnilised piirangud Bitcoin koodibaasi käsitlemiseks"
 explanation: |
   Peatüki sisu kohaselt võtab pull-päringute ühendamine kaua aega peamiselt läbivaatamise puudumise tõttu, mis tuleneb pigem ebapiisavast arvustajate arvustamisest kui hooldajate takistustest või tehnilistest probleemidest. Läbivaatamise protsess on Bitcoin turvalisuse jaoks väga oluline, sest see tagab koodi kvaliteedi ja hoiab ära pahatahtlikud muudatused. See kitsaskoht on olemas, sest keerulise krüptograafilise koodi läbivaatamine nõuab teadmisi ja aega, mistõttu kvalifitseeritud läbivaatajad on arendusprotsessis piiratud ressurss.
+reviewed: false

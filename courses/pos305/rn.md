@@ -436,9 +436,9 @@ Hashingiwe ku buhinga bwa telefone yawe ngendanwa (Android canke iOS), abakoresh
 1. Gukuraho igikoresho co kwemeza ko umuntu ari we afise ibintu bibiri.
 
 
-   - Uburenganzira bwa [Android] (ibisobanuro?id=com.uburenganzira) canke [iOS](iOS]
+   - Uburenganzira bwa [Android](ibisobanuro?id=com.uburenganzira) canke [iOS](iOS]
    - Igikoresho co kwemeza ivy'ukuri ca Microsoft kuri [Android](ibisobanuro?id=com.azure.igikoresho co kwemeza ivy'ukuri) canke [iOS]
-   - Igikoresho co kwemeza ivy'ukuri ca Google kuri [Android] (ibisobanuro? id=com.google.iporogaramu.
+   - Igikoresho co kwemeza ivy'ukuri ca Google kuri [Android](ibisobanuro? id=com.google.iporogaramu.
 
 2. Uhejeje gukuraho no gushiramwo App y’Ivyemezo.
 
@@ -2082,7 +2082,7 @@ Abarongozi ba server barashobora gufungura ibindi kugira ngo babone.
 #### LND (IRUHUKO)
 
 
-BTCPay igaragaza igikorwa ca LND’s REST kugira ngo abantu bakoreshe hanze; uzosanga amakuru y’ihuriro hano; ama wallets ahuye n’ivyo biri aha. Mu bikoresho bihuye n’ivyo bikoresho harimwo Joule, Alby na ZeusLN. BTCPay Server itanga kode ya QR yo guhuza, ishobora gucapurwa no gukoreshwa muri Wallet ihuye.
+BTCPay igaragaza igikorwa ca LND’s REST kugira ngo abantu bakoreshe hanze; uzosanga amakuru y’ihuriro [hano]((https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay); ama wallets ahuye n’ivyo biri [aha](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server). Mu bikoresho bihuye n’ivyo bikoresho harimwo Joule, Alby na ZeusLN. BTCPay Server itanga kode ya QR yo guhuza, ishobora gucapurwa no gukoreshwa muri Wallet ihuye.
 
 
 
@@ -2452,7 +2452,7 @@ Mu BTCPay Server, Invoice igereranya inyandiko itegerezwa kwishurwa mu kiringo c
 Ishingiro rya BTCPay Server ni ubushobozi bwo gukora nk’uburyo bwo gucunga Bitcoin Invoice. Invoice ni igikoresho gihambaye co gukurikirana no gucunga amahera yaronse.
 
 
-Keretse ukoresheje [Wallet] (https://docs.btcpayserver.org/Wallet/) yubatswemwo kugira ngo wakire amahera n’amaboko, amahera yose yishuye mu iduka azokwerekanwa kuri paji y’Ifagitire. Iyi paji itoranya amahera yishurwa hakurikijwe itariki kandi ikora nk’uburyo nyamukuru bwo gucunga Invoice no gutorera umuti ingorane z’amahera yishurwa.
+Keretse ukoresheje [Wallet](https://docs.btcpayserver.org/Wallet/) yubatswemwo kugira ngo wakire amahera n’amaboko, amahera yose yishuye mu iduka azokwerekanwa kuri paji y’Ifagitire. Iyi paji itoranya amahera yishurwa hakurikijwe itariki kandi ikora nk’uburyo nyamukuru bwo gucunga Invoice no gutorera umuti ingorane z’amahera yishurwa.
 
 
 ![image](assets/en/093.webp)

@@ -1,5 +1,5 @@
 ---
-name: Ashigaru Terminali
+name: Ashigaru Terminal
 description: Coinjoins yapmak için masaüstünde Ashigaru kullanın
 ---
 
@@ -41,7 +41,7 @@ Ashigaru Terminal'i yüklemek için Tor Browser'a ihtiyacınız olacak, çünkü
 
 
 
-Tor Browser'dan, işletim sisteminiz için Ashigaru Terminal'in en son sürümünü indirmek için [Git depolarının sürümler sayfasına] (http://ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.onion/Ashigaru/Ashigaru-Terminal/releases/) gidin.
+Tor Browser'dan, işletim sisteminiz için Ashigaru Terminal'in en son sürümünü indirmek için [Git depolarının sürümler sayfasına](http://ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.onion/Ashigaru/Ashigaru-Terminal/releases/) gidin.
 
 
 
@@ -73,7 +73,7 @@ Yazılımı cihazınızda çalıştırmadan önce, orijinalliğini ve bütünlü
 
 
 
-Yeni bir tarayıcı sekmesi açın ve [Keybase doğrulama aracı] (https://keybase.io/verify) adresine gidin. İndirdiğiniz `.txt` dosyasının içeriğini verilen alana yapıştırın ve ardından `Doğrula` düğmesine tıklayın.
+Yeni bir tarayıcı sekmesi açın ve [Keybase doğrulama aracı](https://keybase.io/verify) adresine gidin. İndirdiğiniz `.txt` dosyasının içeriğini verilen alana yapıştırın ve ardından `Doğrula` düğmesine tıklayın.
 
 
 
@@ -81,7 +81,7 @@ Yeni bir tarayıcı sekmesi açın ve [Keybase doğrulama aracı] (https://keyba
 
 
 
-Doğrulama kaynaklarınızı çeşitlendirmek için, mesajı clearnet [ashigaru.rs] (https://ashigaru.rs/download/) sitesinde `/download` bölümünde mevcut olanla da karşılaştırabilirsiniz.
+Doğrulama kaynaklarınızı çeşitlendirmek için, mesajı clearnet [ashigaru.rs](https://ashigaru.rs/download/) sitesinde `/download` bölümünde mevcut olanla da karşılaştırabilirsiniz.
 
 
 
@@ -109,7 +109,7 @@ Bu aşamada bir hata görünürse, imza geçersizdir. Bu durumda, **indirilen ya
 
 
 
-Keybase size uygulamanın doğrulanmış hash'ini sağladı. Şimdi indirdiğiniz `.deb`, `.zip` veya `.dmg` dosyasının hash'inin Keybase'de doğrulanmış olanla eşleşip eşleşmediğini kontrol edeceğiz. Bunu yapmak için [HASH FILE ONLINE] (https://hash-file.online/) adresine gidin.
+Keybase size uygulamanın doğrulanmış hash'ini sağladı. Şimdi indirdiğiniz `.deb`, `.zip` veya `.dmg` dosyasının hash'inin Keybase'de doğrulanmış olanla eşleşip eşleşmediğini kontrol edeceğiz. Bunu yapmak için [HASH FILE ONLINE](https://hash-file.online/) adresine gidin.
 
 
 

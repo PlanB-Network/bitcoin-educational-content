@@ -3869,10 +3869,10 @@ Muszą tylko upewnić się, że mogą dokonać tych transferów, ale nie ma obow
 
 
 
-Aby zrozumieć związek między pieniądzem a inflacją, polecam kurs, który mam na Plan ₿ Network poświęcony temu tematowi. Dowiesz się, jaka jest różnica między wzrostem cen, czyli tym, co widzimy w życiu, a inflacją. To nie jest to samo. W rzeczywistości, kiedy mówimy o inflacji, często mówimy o wzroście cen, a nie o samej inflacji. Inflacja jest dość precyzyjną koncepcją, wyjaśnioną przez wzrost podaży pieniądza.
+Aby zrozumieć związek między pieniądzem a inflacją, polecam kurs, który mam na Plan ₿ Academy poświęcony temu tematowi. Dowiesz się, jaka jest różnica między wzrostem cen, czyli tym, co widzimy w życiu, a inflacją. To nie jest to samo. W rzeczywistości, kiedy mówimy o inflacji, często mówimy o wzroście cen, a nie o samej inflacji. Inflacja jest dość precyzyjną koncepcją, wyjaśnioną przez wzrost podaży pieniądza.
 
 
-https://planb.academy/courses/hyperinflation-case-studies-caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 Na zakończenie tej sekcji dotyczącej świata pieniądza fiducjarnego, chciałbym wskazać źródło, które pomoże ci lepiej zrozumieć zjawiska, które właśnie wyjaśniłem, takie jak inflacja.
 

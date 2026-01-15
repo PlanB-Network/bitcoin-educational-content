@@ -6,3 +6,4 @@ wrong_answers:
   - "Social engineering-aanval; niet effectief omdat Bitcoin-ontwikkelaars formele verificatiemethoden gebruiken om manipulatie te voorkomen"
 explanation: |
   Een Sybil-aanval vindt plaats wanneer één entiteit meerdere nodes controleert om zich voor te doen als vele afzonderlijke entiteiten. Deze aanval is echter niet effectief tegen Bitcoin, omdat het netwerk niet vertrouwt op het tellen van knooppunten of democratisch stemmen onder netwerkdeelnemers. In plaats daarvan gebruikt Bitcoin proof-of-work consensus waarbij rekenkracht (hashpower) netwerkbeslissingen bepaalt, niet het aantal nodes. Dit maakt het onmogelijk voor een aanvaller om invloed te krijgen door simpelweg veel nodes te laten draaien zonder de bijbehorende rekenkracht.
+reviewed: false

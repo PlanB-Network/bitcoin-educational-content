@@ -1,11 +1,9 @@
-question: Czym jest trylemat łańcucha bloków?
-answer: Protokół oparty na łańcuchu bloków może spełnić tylko dwa z następujących kryteriów, decentralizacja, bezpieczeństwo i skalowalność.
+question: Jakie ryzyko ponosi węzeł Lightning publikujący stary stan kanału?
+answer: Kara
 wrong_answers:
-  - Protokół oparty na łańcuchu bloków może spełnić tylko jedno z następujących kryteriów: decentralizacja, bezpieczeństwo i skalowalność.
-  - Protokół oparty na łańcuchu bloków może spełnić wszystkie z następujących kryteriów: decentralizacja, bezpieczeństwo i skalowalność.
-  - Protokół oparty na łańcuchu bloków nie może spełnić żadnego z następujących kryteriów: decentralizacja, bezpieczeństwo i skalowalność.
+  - Ostrzeżenie
+  - Dodatkowe opłaty górnicze
+  - Tymczasowe zamrożenie
 explanation: |
-  Trylemat łańcucha bloków odnosi się do wyzwania polegającego na tym, że
-  protokół na nim oparty może spełnić tylko dwa spośrod następujących kryteriów:
-  decentralizacja, bezpieczeństwo i skalowalność.
-reviewed: true
+  Protokół przewiduje odstraszającą karę, która pozwala drugiej stronie odzyskać całość środków.
+reviewed: false

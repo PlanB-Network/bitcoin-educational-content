@@ -6,3 +6,4 @@ wrong_answers:
   - Błędy wydajności powodują wycieki pamięci, które ostatecznie powodują awarię węzłów, prowadząc do tymczasowej niestabilności sieci i zmniejszonej szybkości mieszania
 explanation: |
   Gregory Maxwell ostrzegł w szczególności, że błędy w wydajności, gdy są fachowo wdrożone, mogą zostać wykorzystane do strategicznego podziału sieci - na przykład oddzielenia "górnika A i giełdy B" do jednej partycji, podczas gdy wszyscy inni przechodzą do innej, tworząc warunki do ataków podwójnych wydatków. Pokazuje to, dlaczego pozornie drobne kwestie powinny być traktowane jako potencjalnie poważne, ponieważ mogą być uzbrojone w wyrafinowane sposoby, które nie są od razu oczywiste.
+reviewed: false

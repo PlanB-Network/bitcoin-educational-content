@@ -1,0 +1,8 @@
+question: Jaką rolę pełni plik Unified Definition Language (UDL) w przepływie pracy UniFFI?
+answer: Działa jako specyfikacja interfejsu, która opisuje, które części biblioteki Rust powinny być dostępne dla innych języków
+wrong_answers:
+  - Zawiera rzeczywisty kod implementacji Rust, który jest kompilowany do wiązań języka docelowego
+  - Służy on jako plik konfiguracyjny środowiska uruchomieniowego, który zarządza alokacją pamięci pomiędzy różnymi środowiskami językowymi
+  - Zapewnia on ramy testowe do sprawdzania poprawności wygenerowanych powiązań na wielu platformach
+explanation: |
+  Plik UDL służy jako umowa lub specyfikacja między implementacją Rust a wygenerowanymi wiązaniami językowymi. Nie zawiera samego kodu Rust, ani nie obsługuje operacji lub testów w czasie wykonywania. Zamiast tego deklaratywnie definiuje, które funkcje, typy i interfejsy z biblioteki Rust powinny zostać udostępnione innym językom, określając sposób ich mapowania i prezentacji w natywnym interfejsie języka docelowego.

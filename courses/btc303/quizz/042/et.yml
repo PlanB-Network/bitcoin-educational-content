@@ -6,3 +6,4 @@ wrong_answers:
   - Bitcoin Core arendajad taotlesid alternatiivi, et vähendada nende vastutust uuenduste eest
 explanation: |
   Peatüki sõnul oli 2016. aasta oktoobris, kui Segwiti aktiveerimiskood avaldati, Bitcoin kasutajate seas ülekaalukas toetus, kuid kaevurid ei andnud märku uuenduse toetusest, mis peatas aktiveerimise ilma lahenduse nägemata. See tekitas vajaduse alternatiivse mehhanismi järele, mis ei sõltuks kaevurite signalisatsioonist, mis viis Shaolinfry ettepanekuni UASF-i kui lahenduse kohta, mis kasutaks hash-võimsuse aktiveerimise asemel majanduslikku enamuse jõustamist.
+reviewed: false

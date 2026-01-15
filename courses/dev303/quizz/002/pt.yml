@@ -1,0 +1,8 @@
+question: O que acontece quando se declara uma variável em Rust utilizando 'let x = 5' sem quaisquer palavras-chave adicionais?
+answer: A variável torna-se imutável e não pode ser alterada após a atribuição
+wrong_answers:
+  - A variável torna-se mutável e pode ser modificada em qualquer altura
+  - A variável é automaticamente optimizada apenas para compilações de lançamento
+  - A variável requer anotação de tipo explícita para compilar com sucesso
+explanation: |
+  No Rust, as variáveis são imutáveis por padrão quando declaradas com 'let'. Isto significa que uma vez atribuído um valor a uma variável como 'let x = 5', não é possível alterar esse valor mais tarde no programa. Se tentar modificá-lo, o compilador produzirá um erro. Esta imutabilidade predefinida é uma caraterística de segurança fundamental que evita muitos erros de programação comuns causados por alterações de estado inesperadas. Para tornar uma variável mutável, é necessário usar explicitamente a palavra-chave 'mut', como em 'let mut x = 5'.

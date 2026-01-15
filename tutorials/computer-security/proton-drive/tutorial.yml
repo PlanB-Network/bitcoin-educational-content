@@ -1,5 +1,7 @@
 id: 03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
+last_update_date: 2024-08-31
+
 category: data
 
 level: beginner
@@ -9,6 +11,8 @@ professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 
 # Proofreading metadata
 project_id: d655e18b-d299-4c88-beb5-e6b688d86024
+license: CC-BY-SA-V4
+
 original_language: fr
 proofreading:
   - language: fr
@@ -31,7 +35,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.34
+    reward: 2.8
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -82,7 +86,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.34
+    reward: 2.8
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -92,7 +96,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.88
+    reward: 2.8
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -105,10 +109,11 @@ proofreading:
       - Sanja22B
     reward: 1.13
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 2.26
+      - Tinnah924
+    reward: 1.13
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
@@ -143,7 +148,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.34
+    reward: 2.8
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.26
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.8
 tags:
   - backup
   - good-practice

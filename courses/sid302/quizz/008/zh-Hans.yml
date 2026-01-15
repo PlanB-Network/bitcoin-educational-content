@@ -1,0 +1,8 @@
+question: 开发人员希望在 Elements 上测试资产发行，而无需外部依赖或等待区块确认--他们应该使用哪种配置？
+answer: 设置 chain=elementsregtest，可创建即时生成区块的本地测试环境
+wrong_answers:
+  - 设置 chain=liquidv1 以连接到 Liquid 主网络进行即时测试
+  - 使用带有 --testmode 标记的 issueasset RPC 命令进行隔离开发
+  - "配置 chain=bitcoin-regtest 以访问 Bitcoin 测试环境中的 Elements 功能"
+explanation: |
+  elementsregtest 配置可创建一个本地回归测试环境，开发人员可在此使用生成区块等命令即时生成 generate 区块，从而无需等待网络确认或依赖外部节点即可测试资产发行和其他功能。设置 chain=liquidv1 可连接到生产型 Liquid 网络，该网络的区块时间为 1 分钟，并依赖于外部节点。issueasset 命令没有 --testmode 标志，bitcoin-regtest 用于 Bitcoin 核心，而非 Elements 功能。

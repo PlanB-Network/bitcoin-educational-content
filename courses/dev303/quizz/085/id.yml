@@ -1,0 +1,8 @@
+question: Ketika mendefinisikan antarmuka callback di UniFFI, batas sifat Rust tambahan apa yang biasanya diperlukan pada sifat callback untuk memastikan pemanggilan lintas bahasa yang aman?
+answer: Batas Kirim dan Sinkronisasi diperlukan karena callback dapat melintasi batas utas antara Rust dan bahasa target
+wrong_answers:
+  - Batas Klon dan Salin diperlukan untuk memungkinkan data panggilan balik diduplikasi melintasi batas bahasa
+  - Batas Debug dan Tampilan diperlukan untuk mengaktifkan pelaporan kesalahan yang tepat ketika callback gagal selama eksekusi
+  - Batas Serialisasi dan Deserialisasi diperlukan untuk mengumpulkan parameter pemanggilan balik antara runtime bahasa yang berbeda
+explanation: |
+  Antarmuka callback di UniFFI memerlukan batas Send dan Sync karena mereka memungkinkan komunikasi dua arah di mana kode Rust memanggil kembali kode aplikasi yang ditulis dalam bahasa target. Karena callback ini dapat melintasi batas thread selama eksekusi, sistem tipe Rust memerlukan batas Send (aman untuk mentransfer antar thread) dan Sync (aman untuk berbagi referensi antar thread) untuk memastikan keamanan memori. Opsi lainnya tidak benar: Clone/Copy tidak diperlukan untuk panggilan lintas bahasa, Debug/Display adalah untuk pemformatan, bukan keamanan, dan Serialize/Deserialize ditangani secara otomatis oleh sistem marshalling UniFFI.

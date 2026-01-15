@@ -6,3 +6,4 @@ wrong_answers:
   - Il réduit le taux de hachage total du réseau car les mineurs dépensent des ressources pour la connectivité au lieu de mining
 explanation: |
   Le chapitre explique que lorsque la taille des blocs augmente, le temps de propagation s'allonge, ce qui entraîne une augmentation du nombre de blocs périmés. Pour éviter de perdre les récompenses liées aux blocs périmés, les mineurs recherchent des pools disposant d'une meilleure bande passante et d'une meilleure connectivité. Cela pousse les mineurs vers des pools plus importants et bien connectés, ce qui réduit la décentralisation du mining. Les autres options sont incorrectes : la difficulté s'ajuste automatiquement indépendamment de la connectivité du pool, les coûts de connectivité ne créent pas de frais de transaction supplémentaires et les mineurs ne réduisent pas le taux de hachage lorsqu'ils rejoignent des pools mieux connectés.
+reviewed: false

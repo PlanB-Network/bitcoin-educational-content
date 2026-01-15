@@ -6,3 +6,4 @@ wrong_answers:
   - Arvioidaan kukin haavoittuvuus erikseen ottamatta huomioon sitä, miten useat pienet ongelmat voivat yhdessä aiheuttaa suuria turvallisuusriskejä
 explanation: |
   Maxwell katsoo, että kehittäjien tulisi suhtautua haavoittuvuuksiin vakavampina kuin miltä ne näyttävät, koska vaikeasti hyödynnettävät ongelmat voivat muuttua triviaaleiksi oikealla tekniikalla, ja näennäisesti vähäiset ongelmat voivat kehittyä vakaviksi uhkiksi. Hän korostaa, että yksinkertaisia suorituskykyongelmia voidaan käyttää aseena verkon jakamiseksi ja double-spending-hyökkäysten mahdollistamiseksi. Tämä konservatiivinen lähestymistapa tunnustaa, että kehittäjät eivät ehkä aluksi ymmärrä haavoittuvuuden kaikkia hyödyntämismahdollisuuksia, joten on järkevää olettaa pahin mahdollinen skenaario sen sijaan, että uhka aliarvioidaan.
+reviewed: false

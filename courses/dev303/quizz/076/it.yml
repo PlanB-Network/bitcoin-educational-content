@@ -1,0 +1,8 @@
+question: Perché l'uso di expect() su valori codificati che sembrano verificati dal compilatore è potenzialmente problematico nel codice di produzione?
+answer: I valori hard-coded possono evolvere nel tempo attraverso il refactoring, trasformando valori precedentemente validi in errori di runtime
+wrong_answers:
+  - Il compilatore non può verificare la validità dei valori hard-coded in fase di compilazione, rendendo expect() inaffidabile
+  - I valori codificati in modo rigido consumano più memoria dei valori dinamici, causando problemi di prestazioni con expect()
+  - Il metodo expect() aggiunge un sovraccarico non necessario rispetto a unwrap() quando si tratta di valori validi conosciuti
+explanation: |
+  La risposta corretta mette in luce un aspetto critico del capitolo: anche i valori codificati in modo rigido e apparentemente sicuri possono diventare pericolosi nel tempo. L'esempio mostra come un indirizzo IP valido possa essere trasformato in una costante e successivamente cambiato in 'localhost', rompendo l'assunto originale. Le risposte sbagliate sono errate perché: il compilatore può verificare i valori hard-coded in fase di compilazione, il consumo di memoria non è un problema con expect() e expect() non ha un sovraccarico di prestazioni significativo rispetto a unwrap().

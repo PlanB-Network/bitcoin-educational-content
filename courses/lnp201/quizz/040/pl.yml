@@ -6,4 +6,4 @@ wrong_answers:
   - Komunikuje się bezpośrednio ze wszystkimi węzłami pośredniczącymi
 explanation: |
   Węzeł wysyłający jest odpowiedzialny za obliczenie całej trasy do odbiorcy, ponieważ węzły pośredniczące znają tylko swoich bezpośrednich sąsiadów.
-reviewed: false
+reviewed: true

@@ -1,0 +1,8 @@
+question: Milline on peamine ohutusprobleem, kui kasutate RefCelli mitmikeelses keskkonnas?
+answer: RefCell ei ole niidikindel ja põhjustab määratlemata käitumist, kui seda kasutatakse mitmest niidist
+wrong_answers:
+  - RefCell sünkroniseerib automaatselt juurdepääsu lõimede vahel, kuid see toob kaasa märkimisväärse jõudluse ülekoormuse
+  - RefCell satub jooksuajal paanikasse, kui mitu niiti üritab sellele samaaegselt ligi pääseda
+  - RefCell läheb ummikusse, kui mitu niiti üritavad samaaegselt samu andmeid laenata
+explanation: |
+  RefCell on loodud ainult ühe niidi stsenaariumide jaoks ja sellel puuduvad niidi sünkroniseerimise mehhanismid. Erinevalt niidikindlatest alternatiividest, nagu Mutex, ei tee RefCell mingeid aatomioperatsioone ega lukustusi, mistõttu samaaegne juurdepääs mitmest niidist põhjustab määratlemata käitumist ja võimalikke andmevõistlusi. RefCelli poolt teostatavad laenutuskontrollid ei ole niidikindlad ja neid võib rikkuda samaaegne juurdepääs, mis viib mälu ohutuse rikkumiseni, mida Rust tavaliselt takistab.

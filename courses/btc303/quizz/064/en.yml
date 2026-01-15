@@ -6,3 +6,4 @@ wrong_answers:
   - Bitcoin splits into multiple parallel chains to distribute the computational load while maintaining the same security guarantees for all users
 explanation: |
   Maxwell identified a fundamental trade-off where excessive resource requirements push users toward trusted third parties rather than independent validation. When validation costs become prohibitive, users can't afford to run full nodes and must rely on others, undermining Bitcoin's trustless nature. The wrong answers incorrectly suggest beneficial outcomes (increased security, automatic adjustments, or maintained guarantees) when high resource usage actually forces centralization and trust dependencies.
+reviewed: false

@@ -14,7 +14,7 @@ I denne veiledningen lærer vi om Aurora Store, et enkelt, åpent og sikkert alt
 
 
 
-# Kom i gang med Aurora Store
+## Kom i gang med Aurora Store
 
 
 
@@ -32,7 +32,7 @@ Aurora Store er en av de mest populære alternative appbutikkene til Google Play
 
 
 
-Du kan laste ned Aurora Store fra [offisielt nettsted] (https://auroraoss.com/aurora-store) ved å klikke på "Release"-knappen i build-typene. Velg Vanilla-alternativet hvis du bruker et annet telefonmerke enn Huawei. Nyere Huawei-telefonmodeller har sin egen versjon av Aurora Store på grunn av deres begrensninger for Google-tjenester som følge av amerikanske sanksjoner.
+Du kan laste ned Aurora Store fra [offisielt nettsted](https://auroraoss.com/aurora-store) ved å klikke på "Release"-knappen i build-typene. Velg Vanilla-alternativet hvis du bruker et annet telefonmerke enn Huawei. Nyere Huawei-telefonmodeller har sin egen versjon av Aurora Store på grunn av deres begrensninger for Google-tjenester som følge av amerikanske sanksjoner.
 
 
 
@@ -88,7 +88,7 @@ Fra Aurora Store kan du få tilgang til katalogen over applikasjoner som er tilg
 
 
 
-## Funksjoner
+### Funksjoner
 
 
 

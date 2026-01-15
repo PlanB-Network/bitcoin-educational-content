@@ -63,13 +63,13 @@ SimpleX Chat er tilgjengelig på alle plattformer. Du kan laste ned applikasjone
 
 
 
-- [Google Play] (https://play.google.com/store/apps/details?id=chat.simplex.app);
-- [App Store] (https://apps.apple.com/us/app/simplex-chat-secure-messenger/id1605771084);
-- [F-Droid] (https://simplex.chat/fdroid/).
+- [Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app);
+- [App Store](https://apps.apple.com/us/app/simplex-chat-secure-messenger/id1605771084);
+- [F-Droid](https://simplex.chat/fdroid/).
 
 
 
-På Android er det også mulig å [installere via APK] (https://github.com/simplex-chat/simplex-chat/releases).
+På Android er det også mulig å [installere via APK](https://github.com/simplex-chat/simplex-chat/releases).
 
 
 

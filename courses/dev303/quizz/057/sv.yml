@@ -1,0 +1,8 @@
+question: Vad är det primära syftet med utropstecknet (!) som följer ett makronamn i Rust?
+answer: Det fungerar som en visuell indikator på att kodgenerering sker under kompilering snarare än ett funktionsanrop under körtid
+wrong_answers:
+  - Det anger att makrot får panik om det får ogiltiga inmatningsparametrar under exekveringen
+  - Det markerar makrot som osäkert och kräver uttrycklig bekräftelse av potentiella minnessäkerhetsproblem
+  - Det anger att makrot returnerar en Result-typ som måste hanteras med felkontroll
+explanation: |
+  Utropstecknet i Rust:s makrosyntax är ett medvetet designval som visuellt skiljer makron från funktioner. När du ser `println!()` eller `vec![]` signalerar `!` omedelbart att kodutvidgning under kompilering kommer att ske, inte ett funktionsanrop under körning. Denna distinktion är avgörande eftersom makron fungerar fundamentalt annorlunda än funktioner - de generate-kod under kompilering genom mönstermatchning och expansion. I de felaktiga svaren förväxlas detta med körtidsbeteenden som panik, osäkra operationer eller felhantering, men utropstecknet indikerar specifikt makronas metaprogrammering under kompilering.

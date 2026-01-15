@@ -1,0 +1,17 @@
+title: "Timestamps: main issues on their use and implementation"
+original_language: en
+authors:
+  - H. Massias
+  - X. Serret Avila
+  - J.-J. Quisquater
+abstract: |
+  This paper discusses some of the issues that appear on the creation and use of secure digital timestamps. From the timestamp creation side, it first introduces a review of the existing systems, giving a recommendation for the one we believe is more suitable for the general use. Afterwards, it deals with an extension of the basic scheme in order to be used in the enterprise environments. Finally, it discusses the general scalability problem, analyzing an existing system and proposing a more adequate solution. From the timestamp use side, it discusses one of the possible misuses and it proposes a solution to secure it.
+publication_date: 1999-06-19
+paper_type: conference
+source: IEEE Xplore
+type: SSCI
+topics:
+  - Timestamping Protocols
+  - Cryptographic Commitment Schemes
+pdf_url: https://www.researchgate.net/profile/Jean-Jacques-Quisquater/publication/3824437_Timestamps_main_issues_on_their_use_and_implementation/links/02bfe51001990cf6b1000000/Timestamps-main-issues-on-their-use-and-implementation.pdf
+id: 269a9ab4-085d-49f9-8e3e-c8a315654dde

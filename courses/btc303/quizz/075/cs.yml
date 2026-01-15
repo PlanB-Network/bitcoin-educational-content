@@ -6,3 +6,4 @@ wrong_answers:
   - Hodnotit každou zranitelnost izolovaně, aniž by se zvážilo, jak může kombinace více menších problémů vytvářet významná bezpečnostní rizika
 explanation: |
   Maxwell tvrdí, že vývojáři by měli zranitelnosti považovat za závažnější, než se zdá, protože obtížně zneužitelné problémy se mohou stát triviálními pomocí správné techniky a zdánlivě drobné problémy mohou přerůst v závažné hrozby. Zdůrazňuje, že jednoduché výkonnostní chyby lze využít jako zbraň k rozdělení sítě a umožnění útoků double-spending. Tento konzervativní přístup uznává, že vývojáři nemusí zpočátku chápat plný potenciál zneužití zranitelnosti, a proto je rozumné předpokládat spíše nejhorší možný scénář než podcenit hrozbu.
+reviewed: false

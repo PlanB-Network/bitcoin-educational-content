@@ -1,9 +1,9 @@
 question: Giải pháp lưu trữ nào được khuyến nghị cho người nắm giữ?
-answer: Một Hardware Wallet
+answer: Một ví lạnh (thiết bị phần cứng)
 wrong_answers:
-  - Một Hot Wallet
+  - Một ví nóng (phần mềm)
   - Một dịch vụ bảo vệ
-  - Một tờ giấy Wallet
+  - Một ví giấy
 explanation: |
-  Người nắm giữ bitcoin trong thời gian dài nên sử dụng Hardware Wallet để tối đa hóa tính bảo mật.
+  Người nắm giữ bitcoin trong thời gian dài nên sử dụng ví lạnh (thiết bị phần cứng) để tối đa hóa tính bảo mật.
 reviewed: false

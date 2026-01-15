@@ -1,0 +1,8 @@
+question: Dlaczego współcześni górnicy ASIC modyfikują dane w ramach transakcji Coinbase, zamiast polegać wyłącznie na polu nonce nagłówka bloku?
+answer: 4-bajtowe pole nonce zapewnia niewystarczającą przestrzeń wyszukiwania dla nowoczesnych układów ASIC, więc górnicy modyfikują dane Coinbase, aby zmienić korzeń Merkle i stworzyć dodatkową przestrzeń wyszukiwania
+wrong_answers:
+  - Modyfikacja transakcji Coinbase pozwala górnikom ubiegać się o wyższe nagrody blokowe niż pozwala na to standardowa kwota dotacji
+  - "Transakcja Coinbase musi zostać zmodyfikowana, aby zawierała podpis cyfrowy górnika do celów walidacji bloku"
+  - Zmiana danych Coinbase zmniejsza trudność obliczeniową, pozwalając górnikom ominąć standardowe wymagania proof-of-work
+explanation: |
+  Nowoczesne układy ASIC mogą niezwykle szybko wyczerpać 4-bajtową przestrzeń nonce (2^32 możliwości), wymagając dodatkowej przestrzeni wyszukiwania. Modyfikując dane w transakcji Coinbase, górnicy zmieniają hash transakcji, który zmienia korzeń Merkle w nagłówku bloku, skutecznie tworząc miliardy dodatkowych wartości podobnych do nonce do wypróbowania. Technika ta, zwana "extra-nonce", jest niezbędna dla nowoczesnych operacji mining, w których sprzęt znacznie przekracza pojemność oryginalnego pola nonce.

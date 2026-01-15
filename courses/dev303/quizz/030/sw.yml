@@ -1,0 +1,8 @@
+question: Je, lengo kuu la opereta wa alama za kuuliza za Rust (?) ni lipi linapotumika na aina za Matokeo?
+answer: Ili kufungua kiotomatiki thamani zilizofanikiwa na kurejesha makosa mara moja kutoka kwa chaguo-msingi la sasa
+wrong_answers:
+  - Kubadilisha aina zote za Matokeo kuwa aina za Chaguo kwa urahisi wa kushughulikia null
+  - Kuogopa kiotomatiki na ujumbe maalum wakati hitilafu yoyote inapotokea
+  - Kufunga thamani zilizofanikiwa katika safu ya ziada ya Matokeo kwa usalama zaidi
+explanation: |
+  Opereta ya alama ya kuuliza (?) imeundwa mahsusi kwa ajili ya uenezaji wa hitilafu katika Rust. Inapotumika kwenye Matokeo, hutoa thamani ya mafanikio ikiwa operesheni ilifanikiwa, na kuruhusu msimbo kuendelea na thamani hiyo. Hata hivyo, ikiwa hitilafu ilitokea, opereta ya ? hurudisha hitilafu hiyo mara moja kutoka kwa chaguo la sasa, na kuieneza kwa ufanisi kwenye rundo la simu. Hii huondoa hitaji la misemo ya ulinganisho wa vitenzi huku ikidumisha semantiki dhahiri ya kushughulikia hitilafu. Opereta inaweza kutumika tu katika chaguo la kazi zinazorudisha aina za Matokeo, kuhakikisha mifumo sahihi ya uenezaji wa hitilafu.

@@ -6,3 +6,4 @@ wrong_answers:
   - Služby třetích stran získají možnost vytvářet nové bitcoiny nad rámec běžného emisního plánu
 explanation: |
   Pokud uživatelé neprovozují své vlastní uzly, přenechávají svou pravomoc prosazovat pravidla Bitcoin jiným uživatelům. To oslabuje decentralizaci Bitcoin, protože transakce a bloky ověřuje méně nezávislých stran. Jak vysvětluje David Harding, vzniká tak situace, kdy by malý počet těžařů a poskytovatelů služeb mohl potenciálně měnit pravidla Bitcoin pro neověřující uživatele, zatímco tito uživatelé by nemohli provádět transakce s lidmi provozujícími plné validační uzly, kteří tyto změny pravidel odmítají.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Sie haben es versäumt, angemessene Mechanismen zur Benutzerauthentifizierung einzuführen
 explanation: |
   Frühe digitale Währungen scheiterten, weil sie für die Transaktionsverarbeitung und -validierung auf zentrale Server angewiesen waren. Wie im Kapitel erläutert, wurde diese Zentralisierung zu ihrer "Achillesferse", da Regierungen oder andere Gegner diese zentralen Fehlerpunkte leicht zensieren, kontrollieren oder ausschalten konnten. Selbst bei Versuchen, mehrere Server in einem Verbund zu verwenden, blieb das System anfällig, da jeder Server "einzeln ausfallen oder zum Ausfall gebracht werden" konnte Bitcoin löste dieses Problem, indem es durch sein dezentrales proof-of-work-System den Bedarf an einer zentralen Autorität beseitigte.
+reviewed: false

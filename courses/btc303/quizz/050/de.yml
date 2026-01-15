@@ -6,3 +6,4 @@ wrong_answers:
   - "Social-Engineering-Angriff; er ist unwirksam, weil Bitcoin-Entwickler formale Überprüfungsmethoden verwenden, um Manipulationen zu verhindern"
 explanation: |
   Ein Sybil-Angriff liegt vor, wenn eine Einheit mehrere Knoten kontrolliert, um sich als viele verschiedene Einheiten auszugeben. Dieser Angriff ist jedoch gegen Bitcoin unwirksam, da sich das Netzwerk nicht auf das Zählen von Knoten oder demokratische Abstimmungen unter den Netzwerkteilnehmern stützt. Stattdessen verwendet Bitcoin den proof-of-work-Konsens, bei dem die Rechenleistung (hashpower) die Netzwerkentscheidungen bestimmt und nicht die Anzahl der Knoten. Dies macht es für einen Angreifer unmöglich, Einfluss zu gewinnen, indem er einfach viele Knoten ohne die entsprechenden Rechenressourcen betreibt.
+reviewed: false

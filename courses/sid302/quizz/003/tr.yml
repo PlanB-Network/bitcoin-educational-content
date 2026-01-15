@@ -1,0 +1,8 @@
+question: Liquid Network tarafından kullanılan ana mutabakat mekanizması nedir?
+answer: Federe Konsensüs
+wrong_answers:
+  - Proof-of-Work
+  - Proof-of-Stake
+  - Yetkilendirilmiş Proof-of-Stake
+explanation: |
+  Liquid Network, Bitcoin'ün Proof-of-Work sisteminden temelde farklı olan bir Federated Consensus modeli üzerinde çalışmaktadır. Bu modelde, on beş görevliden oluşan seçilmiş bir grup, deterministik bir round-robin tarzında bloklar üreten blok imzalayıcıları olarak hareket eder. Proof-of-Work, Bitcoin'ün mining'yı içeren mutabakat mekanizmasıdır; Proof-of-Stake ve Delegated Proof-of-Stake ise diğer blok zinciri ağları tarafından kullanılan ancak Liquid tarafından kullanılmayan mutabakat mekanizmalarıdır.

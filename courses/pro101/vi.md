@@ -11,7 +11,7 @@ objectives:
 
 Cần gì để xây dựng trên Bitcoin? Khóa học 20 giờ này đưa bạn đi sâu vào bề mặt của Bitcoin và Mạng Lightning, khám phá các giao thức cung cấp sức mạnh cho cơ sở hạ tầng tài chính kiên cường nhất thế giới. Cho dù bạn đang tìm cách đóng góp cho các dự án mã nguồn mở hay xây dựng thế hệ ứng dụng Bitcoin tiếp theo, bạn sẽ có được chiều sâu kỹ thuật cần thiết để bắt đầu làm việc một cách tự tin trong hệ sinh thái này.
 
-Được ghi hình trong bootcamp CUBO+ 2023 tại El Salvador, khóa học này tập hợp các quan điểm từ các nhà phát triển và giáo viên Bitcoin hàng đầu đã định hình nên công nghệ. Phần tuyệt vời nhất? Nó hoàn toàn miễn phí, được thực hiện nhờ Fulgure Venture, Bitcoin Office và DecouvreBitcoin. Nếu bạn tò mò về cách Bitcoin thực sự hoạt động ở cấp độ giao thức, đây là cơ hội để bạn tìm hiểu.
+Được ghi hình trong bootcamp CUBO+ 2023 tại El Salvador, khóa học này tập hợp các quan điểm từ các nhà phát triển và giáo viên Bitcoin hàng đầu đã định hình nên công nghệ. Phần tuyệt vời nhất? Nó hoàn toàn miễn phí, được thực hiện nhờ Fulgure Ventures, Bitcoin Office và DecouvreBitcoin. Nếu bạn tò mò về cách Bitcoin thực sự hoạt động ở cấp độ giao thức, đây là cơ hội để bạn tìm hiểu.
 +++
 # Khóa học giới thiệu và dự bị
 
@@ -59,7 +59,7 @@ Trong suốt khóa học, học viên sẽ được tận dụng các công cụ
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-Chào mừng bạn đến với bài giảng đầu tiên của chương trình giáo dục **Cubo Plus**. Hôm nay, chúng ta sẽ khám phá thế giới của Bitcoin, do Ricky, người sáng lập **Bitcoin Italia Podcast** dẫn dắt. Ricky là một nhà hoạt động nhân quyền nhiệt thành, người sử dụng Bitcoin như một công cụ để bảo vệ và thúc đẩy nhân quyền. Với hơn sáu năm kinh nghiệm, Ricky đã đi khắp nơi, ghi lại quá trình áp dụng Bitcoin tại các thị trường mới nổi như El Salvador và Guatemala. Công việc của anh không chỉ dừng lại ở podcasting; anh còn hoạt động trên YouTube (**Bitcoin Explorers**) và Twitter (**BTC Explorer**, **Ricky6**). Từ Commitment đến Bitcoin của Ricky bắt nguồn từ niềm tin của anh rằng nó mang lại sự tự do tài chính và quyền riêng tư, thách thức các hệ thống ngân hàng tập trung truyền thống.
+Chào mừng bạn đến với bài giảng đầu tiên của chương trình giáo dục **Cubo Plus**. Hôm nay, chúng ta sẽ khám phá thế giới của Bitcoin, do Rikki, người sáng lập **Bitcoin Italia Podcast** dẫn dắt. Rikki là một nhà hoạt động nhân quyền nhiệt thành, người sử dụng Bitcoin như một công cụ để bảo vệ và thúc đẩy nhân quyền. Với hơn sáu năm kinh nghiệm, Rikki đã đi khắp nơi, ghi lại quá trình áp dụng Bitcoin tại các thị trường mới nổi như El Salvador và Guatemala. Công việc của anh không chỉ dừng lại ở podcasting; anh còn hoạt động trên YouTube (**Bitcoin Explorers**) và Twitter (**BTC Explorer**, **Rikki6**). Từ Commitment đến Bitcoin của Rikki bắt nguồn từ niềm tin của anh rằng nó mang lại sự tự do tài chính và quyền riêng tư, thách thức các hệ thống ngân hàng tập trung truyền thống.
 
 
 ![Unbanked Population](assets/en/001.webp)
@@ -73,18 +73,18 @@ _Dân số toàn cầu không có tài khoản ngân hàng_
 Bài giảng này, **"Tại sao El Salvador cần Bitcoin,"** cung cấp tổng quan về **giao thức Bitcoin**, nguồn gốc của giao thức này trong **phong trào Cypherpunk** và vai trò của giao thức này như một công cụ cho tự do—cho phép **tiền tệ không bị kiểm duyệt**, **hòa nhập tài chính** và nhiều hơn nữa.
 
 
-> **Định nghĩa:**
->
-
-> - _Giao thức Bitcoin:_ Các quy tắc và cấu trúc chi phối cách Bitcoin hoạt động như một loại tiền kỹ thuật số phi tập trung.
-> - _Phong trào Cypherpunk:_ Một nhóm ủng hộ việc sử dụng mật mã để đảm bảo quyền riêng tư và tự do trong không gian kỹ thuật số.
-> - _Tăng cường tài chính:_ Cung cấp khả năng tiếp cận các dịch vụ tài chính cho những người bị loại khỏi hệ thống ngân hàng truyền thống, thường được gọi là "những người không có tài khoản ngân hàng".
-> - _Tiền không kiểm duyệt:_ Tiền không thể bị chính phủ hoặc các tổ chức tài chính kiểm soát hoặc hạn chế.
-
-#### Bối cảnh của Ricky và hoạt động ủng hộ Bitcoin
+**Định nghĩa:**
 
 
-Hành trình của Ricky đến với Bitcoin bắt nguồn từ công việc của anh với tư cách là một nhà hoạt động nhân quyền. Anh tin rằng Bitcoin có thể cung cấp cho cá nhân quyền kiểm soát tài chính, cho phép họ bảo vệ quyền riêng tư và tránh những hạn chế của các ngân hàng tập trung. Việc anh tìm hiểu về việc áp dụng Bitcoin ở những nơi như El Salvador làm nổi bật cách công nghệ này có thể trao quyền cho người dân ở các thị trường mới nổi đạt được sự độc lập về tài chính.
+- _Giao thức Bitcoin:_ Các quy tắc và cấu trúc chi phối cách Bitcoin hoạt động như một loại tiền kỹ thuật số phi tập trung.
+- _Phong trào Cypherpunk:_ Một nhóm ủng hộ việc sử dụng mật mã để đảm bảo quyền riêng tư và tự do trong không gian kỹ thuật số.
+- _Tăng cường tài chính:_ Cung cấp khả năng tiếp cận các dịch vụ tài chính cho những người bị loại khỏi hệ thống ngân hàng truyền thống, thường được gọi là "những người không có tài khoản ngân hàng".
+- _Tiền không kiểm duyệt:_ Tiền không thể bị chính phủ hoặc các tổ chức tài chính kiểm soát hoặc hạn chế.
+
+#### Bối cảnh của Rikki và hoạt động ủng hộ Bitcoin
+
+
+Hành trình của Rikki đến với Bitcoin bắt nguồn từ công việc của anh với tư cách là một nhà hoạt động nhân quyền. Anh tin rằng Bitcoin có thể cung cấp cho cá nhân quyền kiểm soát tài chính, cho phép họ bảo vệ quyền riêng tư và tránh những hạn chế của các ngân hàng tập trung. Việc anh tìm hiểu về việc áp dụng Bitcoin ở những nơi như El Salvador làm nổi bật cách công nghệ này có thể trao quyền cho người dân ở các thị trường mới nổi đạt được sự độc lập về tài chính.
 
 
 ### Ý nghĩa và thách thức toàn cầu của Bitcoin
@@ -102,11 +102,11 @@ Trong các chế độ độc tài, nơi sự đàn áp tài chính là phổ bi
 Mặc dù có tiềm năng, Bitcoin vẫn phải đối mặt với những thách thức đáng kể. Ở những khu vực như Châu Phi và Ấn Độ, cơ sở hạ tầng cơ bản như điện và truy cập internet thường thiếu thốn, hạn chế việc áp dụng. Hơn nữa, việc **hòa nhập kỹ thuật số** - đảm bảo mọi người ở mọi lứa tuổi và trình độ học vấn đều có thể sử dụng công nghệ - vẫn là một rào cản lớn.
 
 
-> **Định nghĩa:**
->
+**Định nghĩa:**
 
-> - _Khóa riêng:_ Mã bí mật cho phép truy cập vào Bitcoin của người dùng.
-> - _Mã nguồn mở:_ Phần mềm mà bất kỳ ai cũng có thể kiểm tra, sửa đổi và cải thiện.
+
+- _Khóa riêng:_ Mã bí mật cho phép truy cập vào Bitcoin của người dùng.
+- _Mã nguồn mở:_ Phần mềm mà bất kỳ ai cũng có thể kiểm tra, sửa đổi và cải thiện.
 
 ### Trường hợp của El Salvador
 
@@ -135,10 +135,10 @@ Tóm lại, Bitcoin hứa hẹn mang lại nhiều triển vọng to lớn cho v
 Phong trào Cypherpunk nổi lên vào cuối thế kỷ 20, ủng hộ quyền riêng tư và tự do thông qua mật mã. Những người tiên phong như Eric Hughes và Tim May tin rằng mã hóa mạnh là điều cần thiết để bảo vệ quyền tự do cá nhân trong thế giới kỹ thuật số. Ý tưởng của họ đã ảnh hưởng sâu sắc đến việc tạo ra Bitcoin.
 
 
-> **Sự định nghĩa:**
->
+**Sự định nghĩa:**
 
-> - _Cypherpunk:_ Một phong trào thúc đẩy quyền riêng tư và tự do bằng cách sử dụng mật mã.
+
+- _Cypherpunk:_ Một phong trào thúc đẩy quyền riêng tư và tự do bằng cách sử dụng mật mã.
 
 #### Kinh tế học Áo
 
@@ -146,10 +146,10 @@ Phong trào Cypherpunk nổi lên vào cuối thế kỷ 20, ủng hộ quyền 
 Đồng thời, **Kinh tế học Áo** đã đặt nền móng cho các nguyên tắc tiền tệ của Bitcoin. Các nhà kinh tế như **Ludwig von Mises** và **Friedrich Hayek** lập luận rằng đồng tiền lành mạnh phải khan hiếm, bền vững và là một kho lưu trữ giá trị tốt—những nguyên tắc cốt lõi đã định hình nên thiết kế của Bitcoin.
 
 
-> **Sự định nghĩa:**
->
+**Sự định nghĩa:**
 
-> - _Sự khan hiếm:_ Tính khả dụng hạn chế, tạo ra giá trị thông qua nhu cầu phân bổ cẩn thận.
+
+- _Sự khan hiếm:_ Tính khả dụng hạn chế, tạo ra giá trị thông qua nhu cầu phân bổ cẩn thận.
 
 ### Sự ra đời của Bitcoin
 
@@ -157,10 +157,10 @@ Phong trào Cypherpunk nổi lên vào cuối thế kỷ 20, ủng hộ quyền 
 **Satoshi Nakamoto** đã kết hợp những ý tưởng này để tạo ra Bitcoin vào năm 2008, một loại tiền kỹ thuật số phi tập trung, chống kiểm duyệt. Bằng cách kết hợp lý tưởng về quyền riêng tư của Cypherpunk với các nguyên tắc tiền tệ lành mạnh của Áo, Bitcoin mang đến một hệ thống tài chính thách thức các ngân hàng truyền thống và sự kiểm soát của chính phủ.
 
 
-> **Sự định nghĩa:**
->
+**Sự định nghĩa:**
 
-> - _Khả năng chống kiểm duyệt:_ Tiền không thể bị kiểm soát hoặc ngăn chặn bởi các thế lực bên ngoài.
+
+- _Khả năng chống kiểm duyệt:_ Tiền không thể bị kiểm soát hoặc ngăn chặn bởi các thế lực bên ngoài.
 
 #### Các nguyên tắc kinh tế chính
 
@@ -171,11 +171,11 @@ Phong trào Cypherpunk nổi lên vào cuối thế kỷ 20, ủng hộ quyền 
 - Tiết kiệm:** Lưu trữ giá trị cho nhu cầu trong tương lai, dẫn đến đầu tư và đổi mới.
 
 
-> **Định nghĩa:**
->
+**Định nghĩa:**
 
-> - _Sở thích về thời gian:_ Đánh giá cao hàng hóa hiện tại hơn hàng hóa trong tương lai.
-> - _Lưu trữ:_ Lưu trữ giá trị để sử dụng trong tương lai.
+
+- _Sở thích về thời gian:_ Đánh giá cao hàng hóa hiện tại hơn hàng hóa trong tương lai.
+- _Lưu trữ:_ Lưu trữ giá trị để sử dụng trong tương lai.
 
 ### Bitcoin ở El Salvador
 
@@ -243,11 +243,11 @@ Bitcoin dựa vào **chữ ký số** sử dụng **mật mã đường cong ell
 **Satoshi Nakamoto**, người sáng lập ẩn danh của Bitcoin, đã mở rộng những ý tưởng này bằng cách chuyển đổi mô hình PoW sang mô hình phi tập trung **Blockchain**. Điều này cho phép một mạng lưới các nút phân tán xác thực và ghi lại các giao dịch mà không cần cơ quan quản lý trung ương, đánh dấu một bước tiến đáng kể so với các nỗ lực tiền kỹ thuật số trước đây.
 
 
-> **Định nghĩa:**
->
+**Định nghĩa:**
 
-> - _Bằng chứng công việc (PoW):_ Một hệ thống mà người tham gia phải giải các câu đố tính toán để xác thực giao dịch và bảo mật mạng.
-> - _Mã hóa đường cong Elliptic:_ Một phương pháp mã hóa cho phép tạo ra chữ ký số an toàn và hiệu quả.
+
+- _Bằng chứng công việc (PoW):_ Một hệ thống mà người tham gia phải giải các câu đố tính toán để xác thực giao dịch và bảo mật mạng.
+- _Mã hóa đường cong Elliptic:_ Một phương pháp mã hóa cho phép tạo ra chữ ký số an toàn và hiệu quả.
 
 ### Cơ chế Blockchain và xác thực giao dịch
 
@@ -264,12 +264,12 @@ Mỗi **khối** trong Blockchain bao gồm một **tiêu đề** (với dữ li
 Trước khi các giao dịch được đưa vào một khối, chúng nằm trong **Mempool**, chờ xác thực. Sau khi được xác thực, các giao dịch này được thêm vào khối mới được khai thác và sau đó vào Blockchain.
 
 
-> **Định nghĩa:**
->
+**Định nghĩa:**
 
-> - _Khai thác:_ Quá trình giải các câu đố mật mã để thêm các khối mới vào Blockchain.
-> - _Nonce:_ Giá trị được sử dụng để tìm Hash chính xác trong Mining.
-> - _Mempool:_ Khu vực chờ cho các giao dịch chưa được xác nhận trước khi chúng được thêm vào khối.
+
+- _Khai thác:_ Quá trình giải các câu đố mật mã để thêm các khối mới vào Blockchain.
+- _Nonce:_ Giá trị được sử dụng để tìm Hash chính xác trong Mining.
+- _Mempool:_ Khu vực chờ cho các giao dịch chưa được xác nhận trước khi chúng được thêm vào khối.
 
 ### Khả năng mở rộng, quyền riêng tư và phát triển trong Bitcoin
 
@@ -283,12 +283,12 @@ Việc chạy **Full node** là điều cần thiết để đảm bảo tính p
 Quá trình phát triển Bitcoin đã được cải thiện để nâng cao hiệu suất và bảo mật. Các nâng cấp chính bao gồm **Segregated Witness (SegWit)**, giải quyết vấn đề về tính linh hoạt của giao dịch và tăng kích thước khối hiệu dụng, và **Taproot**, cải thiện quyền riêng tư và cho phép các hợp đồng phức tạp hơn sử dụng **Merkleized Abstract Syntax Trees (MAST)**.
 
 
-> **Định nghĩa:**
->
+**Định nghĩa:**
 
-> - _SegWit:_ Bản nâng cấp Bitcoin giúp tách dữ liệu chữ ký khỏi dữ liệu giao dịch, cải thiện hiệu quả.
-> - _Taproot:_ Bản nâng cấp giúp tăng cường tính riêng tư và khả năng mở rộng của Bitcoin bằng cách cho phép các hợp đồng thông minh phức tạp hơn.
-> - _Lightning Network:_ Giải pháp Layer thứ hai cho các giao dịch Bitcoin nhanh hơn, rẻ hơn bằng cách sử dụng các kênh thanh toán.
+
+- _SegWit:_ Bản nâng cấp Bitcoin giúp tách dữ liệu chữ ký khỏi dữ liệu giao dịch, cải thiện hiệu quả.
+- _Taproot:_ Bản nâng cấp giúp tăng cường tính riêng tư và khả năng mở rộng của Bitcoin bằng cách cho phép các hợp đồng thông minh phức tạp hơn.
+- _Lightning Network:_ Giải pháp Layer thứ hai cho các giao dịch Bitcoin nhanh hơn, rẻ hơn bằng cách sử dụng các kênh thanh toán.
 
 #### Phần kết luận
 
@@ -316,11 +316,11 @@ Trong bài giảng này, chúng ta sẽ vạch trần những quan niệm sai l�
 Một quan niệm sai lầm thường gặp là **Bitcoin** và **Blockchain** là một. Mặc dù Bitcoin là một loại tiền kỹ thuật số, **Blockchain** mới là công nghệ vận hành nó. Blockchain cung cấp hồ sơ giao dịch đã được xác minh nhưng đi kèm với những đánh đổi như tốc độ chậm hơn và chi phí cao hơn, mà các giải pháp như **Lightning Network** Address là lựa chọn phù hợp.
 
 
-> **Định nghĩa:**
->
+**Định nghĩa:**
 
-> - _Blockchain:_ Công nghệ cơ bản được sử dụng để ghi lại các giao dịch trong Ledger phi tập trung, không thể thay đổi.
-> - _Lightning Network:_ Giải pháp Layer thứ hai giúp cải thiện hiệu quả giao dịch của Bitcoin bằng cách cho phép giao dịch off-chain.
+
+- _Blockchain:_ Công nghệ cơ bản được sử dụng để ghi lại các giao dịch trong Ledger phi tập trung, không thể thay đổi.
+- _Lightning Network:_ Giải pháp Layer thứ hai giúp cải thiện hiệu quả giao dịch của Bitcoin bằng cách cho phép giao dịch off-chain.
 
 ### Bitcoin so với Crypto
 
@@ -328,10 +328,10 @@ Một quan niệm sai lầm thường gặp là **Bitcoin** và **Blockchain** l
 Một điểm khác biệt quan trọng nữa là **Bitcoin** được tạo ra với mục đích duy nhất là cung cấp một hình thức tiền tệ phi tập trung, chống kiểm duyệt, không chịu sự kiểm soát của bất kỳ công ty hay chính phủ nào. Ngược lại, **shitcoin** tiền điện tử thường được thiết kế với sự kiểm soát tập trung, chủ yếu tồn tại để làm giàu cho các công ty đứng sau chúng thông qua các hoạt động săn mồi, các chiêu trò bơm-dump, hoặc lừa đảo trắng trợn. Những token này thường không phục vụ mục đích thực sự nào ngoài việc kiếm lợi nhuận nhanh chóng cho người tạo ra chúng bằng cách gây thiệt hại cho các nhà đầu tư thiếu hiểu biết. Tuy nhiên, Bitcoin là đồng tiền kỹ thuật số phi tập trung thực sự duy nhất có thành tích đã được chứng minh về tính bảo mật và khả năng phục hồi.
 
 
-> **Định nghĩa:**
->
+**Định nghĩa:**
 
-> - _Shitcoin:_ Shitcoin là loại tiền điện tử có giá trị thấp hoặc chất lượng đáng ngờ, thiếu tiện ích thực sự. Chúng thường mang tính đầu cơ cao và đôi khi được tạo ra cho mục đích gian lận hoặc không có mục đích rõ ràng, lợi dụng sự bùng nổ của thị trường tiền điện tử.
+
+- _Shitcoin:_ Shitcoin là loại tiền điện tử có giá trị thấp hoặc chất lượng đáng ngờ, thiếu tiện ích thực sự. Chúng thường mang tính đầu cơ cao và đôi khi được tạo ra cho mục đích gian lận hoặc không có mục đích rõ ràng, lợi dụng sự bùng nổ của thị trường tiền điện tử.
 
 ![Image](assets/en/005.webp)
 
@@ -342,10 +342,10 @@ Một điểm khác biệt quan trọng nữa là **Bitcoin** được tạo ra 
 Một trong những lời chỉ trích phổ biến nhất về Bitcoin là mức tiêu thụ năng lượng. Mặc dù Bitcoin và Mining có sử dụng năng lượng, nhưng nó chỉ chiếm chưa đến 1% tổng mức tiêu thụ điện toàn cầu và chưa đến 3% lượng năng lượng bị lãng phí. Hơn nữa, Bitcoin và Mining** thường khai thác các nguồn năng lượng chưa sử dụng hoặc tái tạo, khiến nó xanh hơn so với những gì thường được mô tả.
 
 
-> **Định nghĩa:**
->
+**Định nghĩa:**
 
-> - _Bitcoin Mining:_ Quá trình xác thực giao dịch và bảo mật mạng bằng cách giải các câu đố mật mã, đòi hỏi sức mạnh tính toán.
+
+- _Bitcoin Mining:_ Quá trình xác thực giao dịch và bảo mật mạng bằng cách giải các câu đố mật mã, đòi hỏi sức mạnh tính toán.
 
 ### Những quan niệm sai lầm về việc sử dụng tội phạm
 
@@ -359,10 +359,10 @@ Bitcoin thường bị chỉ trích vì được sử dụng trong các hoạt �
 **Quyền riêng tư** và **tính linh hoạt** là những tính năng thiết yếu của Bitcoin. Quyền riêng tư bảo vệ người dùng trong các chế độ áp bức, và tính linh hoạt đảm bảo rằng mọi Bitcoin đều bình đẳng, bất kể lịch sử của nó. Điều này làm cho Bitcoin trở thành một hình thức tiền tệ đáng tin cậy và công bằng.
 
 
-> **Định nghĩa:**
->
+**Định nghĩa:**
 
-> - _Tính thay thế:_ Tính chất của tiền tệ mà mỗi đơn vị có thể hoán đổi cho nhau, đảm bảo giá trị ngang nhau.
+
+- _Tính thay thế:_ Tính chất của tiền tệ mà mỗi đơn vị có thể hoán đổi cho nhau, đảm bảo giá trị ngang nhau.
 
 ### Xử lý FUD và động lực thị trường
 
@@ -2967,7 +2967,7 @@ Có nhiều loại ví Lightning khác nhau, mỗi loại đáp ứng nhu cầu 
 
 
 
-- Tính năng**: Tương tự như Breeze, sử dụng mô hình LSP cho thanh khoản, mã nguồn mở, tập trung vào sự đơn giản cho người dùng và quản lý thanh khoản hiệu quả.
+- Tính năng**: Tương tự như Breez, sử dụng mô hình LSP cho thanh khoản, mã nguồn mở, tập trung vào sự đơn giản cho người dùng và quản lý thanh khoản hiệu quả.
 
 
 #### Mở Bitcoin Wallet (OBW):
@@ -2985,7 +2985,7 @@ Ví có thể được phân loại dựa trên người nắm giữ khóa riên
 
 
 - Ví lưu ký**: Bên thứ ba nắm giữ khóa riêng tư, thường cung cấp dịch vụ quản lý thanh khoản tự động. Ví dụ bao gồm Wallet hoặc Satoshi.
-- Ví không lưu ký**: Người dùng giữ khóa riêng tư, có thể cần quản lý thanh khoản thủ công. Ví dụ bao gồm Breeze và OBW.
+- Ví không lưu ký**: Người dùng giữ khóa riêng tư, có thể cần quản lý thanh khoản thủ công. Ví dụ bao gồm Breez và OBW.
 
 
 ![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
@@ -3096,11 +3096,11 @@ Các nhà phát triển phải đối mặt với thách thức triển khai qu�
 - Các giải pháp khả thi**: Các nhà phát triển đang khám phá các thuật toán tiên tiến để **định tuyến thanh khoản** và sử dụng **kênh tài trợ kép** để đảm bảo tính thanh khoản có sẵn ở cả hai đầu của giao dịch.
 
 
-> **Định nghĩa**:
->
+**Định nghĩa**:
 
-> - **Tính thanh khoản**: Tính khả dụng của tiền trong kênh Lightning để thực hiện hoặc nhận thanh toán.
-> - **LSP (Nhà cung cấp dịch vụ Lightning)**: Dịch vụ giúp người dùng quản lý tính thanh khoản và các kênh trên Lightning Network.
+
+- **Tính thanh khoản**: Tính khả dụng của tiền trong kênh Lightning để thực hiện hoặc nhận thanh toán.
+- **LSP (Nhà cung cấp dịch vụ Lightning)**: Dịch vụ giúp người dùng quản lý tính thanh khoản và các kênh trên Lightning Network.
 
 ---
 
@@ -3129,12 +3129,12 @@ Các nhà phát triển được giao nhiệm vụ trừu tượng hóa sự ph�
 - Các giải pháp khả thi**: Các nhà phát triển đang nghiên cứu các tính năng như **nối** (cho phép thêm hoặc bớt tiền khỏi kênh mà không cần đóng kênh) và các công cụ quản lý kênh tự động.
 
 
-> **Định nghĩa**:
->
+**Định nghĩa**:
 
-> - **L1 (Layer 1)**: Blockchain Layer chính của Bitcoin.
-> - **L2 (Layer 2)**: Lightning Network hoạt động trên Bitcoin để cho phép giao dịch nhanh hơn và rẻ hơn.
-> - **Nối**: Một kỹ thuật cho phép sửa đổi sự cân bằng của kênh Lightning mà không cần phải đóng kênh đó.
+
+- **L1 (Layer 1)**: Blockchain Layer chính của Bitcoin.
+- **L2 (Layer 2)**: Lightning Network hoạt động trên Bitcoin để cho phép giao dịch nhanh hơn và rẻ hơn.
+- **Nối**: Một kỹ thuật cho phép sửa đổi sự cân bằng của kênh Lightning mà không cần phải đóng kênh đó.
 
 ---
 
@@ -3163,11 +3163,11 @@ Các nhà phát triển đang tìm cách cho phép người dùng nhận thanh t
 - Các giải pháp khả thi**: Nghiên cứu về **phiếu thanh toán ngoại tuyến**, cho phép người nhận yêu cầu thanh toán sau khi kết nối lại mạng, đang được tiến hành.
 
 
-> **Định nghĩa**:
->
+**Định nghĩa**:
 
-> - **Thanh toán ngoại tuyến**: Thanh toán được gửi hoặc nhận khi một bên không kết nối với Lightning Network.
-> - **Ví lưu ký**: Ví mà bên thứ ba kiểm soát khóa riêng tư và quản lý giao dịch thay mặt cho người dùng.
+
+- **Thanh toán ngoại tuyến**: Thanh toán được gửi hoặc nhận khi một bên không kết nối với Lightning Network.
+- **Ví lưu ký**: Ví mà bên thứ ba kiểm soát khóa riêng tư và quản lý giao dịch thay mặt cho người dùng.
 
 ---
 
@@ -3196,10 +3196,10 @@ Các nhà phát triển cần triển khai các giải pháp sao lưu cho phép 
 - Các giải pháp khả thi**: **Sao lưu kênh tĩnh (SCB)** đã được phát triển để đơn giản hóa quá trình khôi phục, nhưng cần có các giải pháp tiên tiến hơn để sao lưu hoàn toàn tự động và an toàn.
 
 
-> **Định nghĩa**:
->
+**Định nghĩa**:
 
-> - **Sao lưu kênh tĩnh (SCB)**: Một loại sao lưu cho phép người dùng khôi phục tiền của mình từ kênh Lightning trong trường hợp xảy ra lỗi bằng cách khôi phục trạng thái mới nhất của kênh.
+
+- **Sao lưu kênh tĩnh (SCB)**: Một loại sao lưu cho phép người dùng khôi phục tiền của mình từ kênh Lightning trong trường hợp xảy ra lỗi bằng cách khôi phục trạng thái mới nhất của kênh.
 
 ---
 
@@ -3293,7 +3293,7 @@ Tháp canh là các thực thể bên thứ ba giám sát Blockchain để tìm 
 
 **Nhà cung cấp dịch vụ Lightning (LSP)**
 
-Được khái niệm hóa bởi Breeze Wallet, các Nhà cung cấp dịch vụ Lightning (LSP) hướng đến mục tiêu cải thiện trải nghiệm người dùng bằng cách cho phép khả năng tiếp nhận tức thì. LSP mở ra các kênh cho người dùng, tương tự như cách các nhà cung cấp dịch vụ internet cung cấp dịch vụ kết nối. Cải tiến này đơn giản hóa quy trình đăng ký người dùng và đảm bảo tương tác liền mạch trên Lightning Network.
+Được khái niệm hóa bởi Breez Wallet, các Nhà cung cấp dịch vụ Lightning (LSP) hướng đến mục tiêu cải thiện trải nghiệm người dùng bằng cách cho phép khả năng tiếp nhận tức thì. LSP mở ra các kênh cho người dùng, tương tự như cách các nhà cung cấp dịch vụ internet cung cấp dịch vụ kết nối. Cải tiến này đơn giản hóa quy trình đăng ký người dùng và đảm bảo tương tác liền mạch trên Lightning Network.
 
 
 **Tài nguyên để cập nhật thông tin**
@@ -3342,12 +3342,12 @@ Tuy nhiên, hóa đơn truyền thống có những hạn chế riêng. Ví dụ
 - Giới hạn về kích thước**: Hóa đơn lớn có thể khó xử lý ở dạng mã QR, khiến chúng không thực tế đối với một số ứng dụng.
 
 
-> **Định nghĩa**:
->
+**Định nghĩa**:
 
-> - **Invoice**: Yêu cầu thanh toán trong Lightning Network, thường bao gồm số tiền và thông tin người nhận.
-> - **HTLC (Hash Khóa thời gian Contract)**: Một loại Smart contract được sử dụng để đảm bảo thanh toán có điều kiện trong thời hạn nhất định.
-> - **Định tuyến củ hành**: Một kỹ thuật bảo mật trong đó dữ liệu giao dịch được phân lớp giống như một củ hành để bảo vệ danh tính của người gửi và người nhận.
+
+- **Invoice**: Yêu cầu thanh toán trong Lightning Network, thường bao gồm số tiền và thông tin người nhận.
+- **HTLC (Hash Khóa thời gian Contract)**: Một loại Smart contract được sử dụng để đảm bảo thanh toán có điều kiện trong thời hạn nhất định.
+- **Định tuyến củ hành**: Một kỹ thuật bảo mật trong đó dữ liệu giao dịch được phân lớp giống như một củ hành để bảo vệ danh tính của người gửi và người nhận.
 
 ### Giao thức và trường hợp sử dụng
 
@@ -3374,15 +3374,15 @@ Một giao thức khác, **RGB**, mở rộng hơn nữa chức năng của Ligh
 **Các Nhà cung cấp Dịch vụ Thanh khoản Lightning (LSP)** cũng đóng vai trò quan trọng trong việc mở rộng thanh toán Lightning. LSP cung cấp thanh khoản để nhận thanh toán, giúp mở **các kênh tài trợ kép** và đảm bảo giao dịch liền mạch bằng cách chặn thanh toán và mở kênh ngay lập tức.
 
 
-> **Định nghĩa**:
->
+**Định nghĩa**:
 
-> - **LNURL**: Một giao thức cho phép tạo Invoice động, giúp thanh toán dễ dàng và linh hoạt hơn.
-> - **Bolt 12**: Một phần mở rộng của Lightning tận dụng tính năng nhắn tin Onion để đảm bảo quyền riêng tư trong khi tự động hóa việc truy xuất Invoice.
-> - **Nostr**: Một nền tảng phi tập trung tích hợp LProtocols và Use Cases
-> thanh toán nhanh cho các giao dịch nhỏ.
-> - **Giao thức RGB**: Giao thức cho phép chuyển giao tài sản, như mã thông báo, qua Lightning Network.
-> - **LSP (Nhà cung cấp dịch vụ Lightning)**: Một thực thể cung cấp tính thanh khoản và mở các kênh cho các giao dịch Lightning, giúp mạng lưới dễ tiếp cận hơn với người dùng.
+
+- **LNURL**: Một giao thức cho phép tạo Invoice động, giúp thanh toán dễ dàng và linh hoạt hơn.
+- **Bolt 12**: Một phần mở rộng của Lightning tận dụng tính năng nhắn tin Onion để đảm bảo quyền riêng tư trong khi tự động hóa việc truy xuất Invoice.
+- **Nostr**: Một nền tảng phi tập trung tích hợp LProtocols và Use Cases
+- thanh toán nhanh cho các giao dịch nhỏ.
+- **Giao thức RGB**: Giao thức cho phép chuyển giao tài sản, như mã thông báo, qua Lightning Network.
+- **LSP (Nhà cung cấp dịch vụ Lightning)**: Một thực thể cung cấp tính thanh khoản và mở các kênh cho các giao dịch Lightning, giúp mạng lưới dễ tiếp cận hơn với người dùng.
 
 ### Mô hình kinh doanh và giao thức tiên tiến
 
@@ -3405,12 +3405,12 @@ Các giao thức tiên tiến như **Hợp đồng Khóa Thời gian Điểm (PT
 Các giao thức như **LNURL** và **Bolt 12** hợp lý hóa các khoản thanh toán bằng cách giảm tương tác thủ công, đảm bảo rằng Lightning Network trở nên thân thiện với người dùng hơn và được áp dụng rộng rãi.
 
 
-> **Định nghĩa**:
->
+**Định nghĩa**:
 
-> - **PTLC (Contract khóa thời gian điểm)**: Một nguyên hàm mật mã cải tiến HTLC, cho phép thanh toán linh hoạt và an toàn hơn.
-> - **Hình ảnh trước**: Giá trị được sử dụng để mở khóa HTLC, cũng có thể dùng làm khóa truy cập dịch vụ.
-> - **Mô hình đấu giá**: Mô hình thanh toán trong đó các khoản thanh toán được giữ lại trong quá trình đấu giá và chỉ được giải ngân khi giá thầu cao nhất được chấp nhận.
+
+- **PTLC (Contract khóa thời gian điểm)**: Một nguyên hàm mật mã cải tiến HTLC, cho phép thanh toán linh hoạt và an toàn hơn.
+- **Hình ảnh trước**: Giá trị được sử dụng để mở khóa HTLC, cũng có thể dùng làm khóa truy cập dịch vụ.
+- **Mô hình đấu giá**: Mô hình thanh toán trong đó các khoản thanh toán được giữ lại trong quá trình đấu giá và chỉ được giải ngân khi giá thầu cao nhất được chấp nhận.
 
 ### Phần kết luận
 

@@ -1,0 +1,8 @@
+question: Jaký je hlavní bezpečnostní mechanismus, který zajišťuje, že infrastruktura Greenlight nemá přístup k prostředkům uživatelů, přestože jsou uzly Lightning umístěny v cloudu?
+answer: Soukromé klíče nikdy neopouštějí zařízení uživatele a všechny operace vyžadují aktivní podepisování aplikací
+wrong_answers:
+  - Peněženky s více podpisy s distribuovanými oddíly klíčů u více poskytovatelů cloudových služeb
+  - Hardwarové bezpečnostní moduly, které šifrují všechny transakce před zpracováním v cloudu
+  - Časově uzamčené chytré smlouvy, které automaticky vracejí prostředky, pokud dojde k neoprávněnému přístupu
+explanation: |
+  Soubor Breez SDK zajišťuje bezpečnost díky architektuře bez důvěry, kde soukromé klíče zůstávají výhradně v uživatelských zařízeních. Ačkoli Greenlight hostí infrastrukturu uzlu Lightning, nemůže provádět žádné operace bez aktivně připojené aplikace, která může podepisovat transakce a zprávy. Tato konstrukce zajišťuje, že i když uzel běží v cloudu, Greenlight nikdy nemá přístup k uživatelským klíčům a nemůže přesouvat finanční prostředky bez výslovné autorizace uživatele prostřednictvím jeho místní aplikace. Ostatní možnosti popisují různé bezpečnostní mechanismy, které se v této architektuře nepoužívají.

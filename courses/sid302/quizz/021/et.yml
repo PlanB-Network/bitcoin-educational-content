@@ -1,0 +1,8 @@
+question: Milline on peamine äriline eelis, mida Liquid 2-minutiline arveldusaeg pakub võrreldes traditsiooniliste finantssüsteemidega?
+answer: Vähendab vastaspoole riski, võimaldades aatomiarveldusi, mille puhul tarne ja makse toimuvad samaaegselt
+wrong_answers:
+  - Kaob vajadus regulatiivse vastavuse ja KYC nõuete järele varadega kauplemisel
+  - Võimaldab piiramatut skaleeritavust kõrgsageduslikuks kauplemiseks ilma tehingutasudeta
+  - Võimaldab automaatset hinna leidmist sisseehitatud turutegemise algoritmide abil
+explanation: |
+  Liquid 2-minutiline arveldus võimaldab aatomiarveldust, mis on oluline vastaspoole riski vähendamiseks, sest mõlemad pooled saavad võlgnetava summa samaaegselt, kõrvaldades vahe, mille puhul üks pool võib maksejõuetuks jääda. Traditsiooniline T+2 arveldus loob akna, kus esineb vastaspoole risk. Teised võimalused on valed: Liquid nõuab endiselt vastavust AMP kaudu, tal on tehingutasud ja skaleerimislimiidid ning ta ei paku automaatset turutehingut.

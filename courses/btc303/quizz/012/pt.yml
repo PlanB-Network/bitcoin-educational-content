@@ -6,3 +6,4 @@ wrong_answers:
   - Calendários de emissão de moedas incorrectos que violam o protocolo
 explanation: |
   Embora um full node possa verificar se os blocos seguem as regras de consenso, impedir a emissão de moedas inválidas e detetar violações de protocolo, ele não pode impedir a reescrita da cadeia, em que os mineiros reorganizam a cadeia de blocos para duplicar as transações. O capítulo afirma especificamente que não importa o quão avançado é o seu software, você ainda deve confiar que os blocos contendo suas moedas não serão reescritos. É por isso que o mecanismo de defesa do Bitcoin se baseia na espera de múltiplas confirmações para reduzir a probabilidade de uma reescrita de cadeia a um nível aceitável.
+reviewed: false

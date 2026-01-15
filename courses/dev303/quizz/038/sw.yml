@@ -1,0 +1,8 @@
+question: Ni sintaksia gani inayotumika kufafanua vigezo katika kufungwa kwa Rust?
+answer: Herufi za bomba (|) ili kuambatanisha vigezo
+wrong_answers:
+  - Mabano () ili kuambatanisha vigezo
+  - Mabano ya mraba [] ili kuambatanisha vigezo
+  - Vibandiko vilivyopinda {} ili kuambatanisha vigezo
+explanation: |
+  Vifungashio vya Rust hutumia herufi za bomba (|) kufafanua vigezo, ambavyo huvitofautisha na vitendaji vya kawaida vinavyotumia mabano. Kwa mfano, kifungashio kisicho na vigezo huandikwa kama ||, huku kifungashio chenye vigezo kikionekana kama |x, y|. Sintaksia hii ya kipekee hufanya vifungashio kutambulika kwa urahisi na kuvitofautisha na ufafanuzi wa vitendashio. Mabano hutumika kwa vitendashio vya kawaida, huku mabano ya mraba na vibandiko vilivyopinda hutumikia madhumuni mengine katika sintaksia ya Rust.

@@ -66,7 +66,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.15
+    reward: 0.14
   - language: id
     last_contribution_date:
     urgency: 1
@@ -142,6 +142,16 @@ proofreading:
     urgency: 1
     contributor_names:
     reward: 0.15
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.13
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.14
 tags:
   - finance
   - user-friendly

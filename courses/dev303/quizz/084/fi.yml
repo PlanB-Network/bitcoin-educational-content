@@ -1,0 +1,8 @@
+question: Mikä on UniFFIn kerroksittaisen lähestymistavan ensisijainen arkkitehtuurinen hyöty integroitaessa Rust-kirjastoja kohdekieliin, kuten Swift tai Kotlin?
+answer: Sidontakerros hoitaa tyyppikääntämisen ja muistinhallinnan samalla kun se tarjoaa täysin natiivin käyttöliittymän kohdekielelle
+wrong_answers:
+  - UDL-tiedosto kääntää Rust-koodin automaattisesti tavukoodiksi, jota voidaan käyttää natiivisti mobiilialustoilla ilman kääntämistä
+  - Rust-kirjastokoodi kirjoitetaan automaattisesti uudelleen kohdekielen syntaksilla, jotta vältetään kaikki vieraan funktion rajapintakutsut
+  - Kohdekielen sovellukset käyttävät Rust-muistirakenteita suoraan jaettujen osoittimien kautta, jotta vältetään datan siirtämisestä aiheutuvat yleiskustannukset
+explanation: |
+  UniFFI:n arkkitehtuuri luo eron, jossa luotu sidontakoodi toimii käännöskerroksena kohdekielen ja Rust:n välillä. Tämä kerros käsittelee tietotyyppien monimutkaista marshaling/unmarshaling-toimintoa, hallitsee muistia turvallisesti yli kielirajojen ja huolehtii virheenkäsittelystä kohdekielen konventioiden mukaisesti. Muut vaihtoehdot ovat virheellisiä, koska UniFFI ei käännä tavukoodiksi (se luo sidoksia), ei kirjoita Rust-koodia uudelleen muille kielille (se säilyttää alkuperäisen Rust-toteutuksen) eikä käytä jaettua muistia (se siirtää dataa turvallisesti yli kielirajojen).

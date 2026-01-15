@@ -1,0 +1,8 @@
+question: Zgodnie z analizą fizjokratów, dlaczego państwowe planowanie działalności gospodarczej zasadniczo zawodzi?
+answer: Państwo nie ma "oka mistrza" - szczegółowej wiedzy lokalnej, którą posiadają tylko indywidualne podmioty gospodarcze w swojej codziennej działalności
+wrong_answers:
+  - Państwo nie ma wystarczających zasobów finansowych, aby skutecznie koordynować wszystkie sektory gospodarki na dużych terytoriach
+  - Przywódcy polityczni są z natury skorumpowani i przedkładają osobiste korzyści nad efektywne zarządzanie gospodarką
+  - Demokratyczne procesy głosowania są zbyt powolne, aby szybko reagować na szybko zmieniające się warunki rynkowe
+explanation: |
+  Fizjokraci zidentyfikowali fundamentalny problem epistemologiczny z planowaniem państwowym: niemożność centralnego gromadzenia i przetwarzania ogromnych, złożonych i stale zmieniających się informacji, które napędzają działalność gospodarczą. Twierdzili oni, że tylko indywidualne podmioty gospodarcze, działające w określonych kontekstach, posiadają szczegółową wiedzę ("l'œil du maître") niezbędną do podejmowania właściwych decyzji gospodarczych. To spostrzeżenie poprzedzało i przewidywało współczesne argumenty szkoły austriackiej dotyczące problemu wiedzy w kalkulacjach socjalistycznych, pokazując, że niepowodzenie centralnego planowania nie wynika z ograniczeń zasobów lub korupcji, ale z nieodłącznej niemożności zastąpienia rozproszonej indywidualnej wiedzy scentralizowanym biurokratycznym procesem decyzyjnym.

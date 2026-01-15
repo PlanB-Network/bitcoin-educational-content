@@ -58,7 +58,7 @@ Od 2017 roku Arch Linux nie obsługuje już architektur 32-bitowych. Dostępne s
 
 
 
-- Odwiedź [oficjalną stronę internetową] (https://mir.archlinux.fr/iso/latest/), aby pobrać najnowszą oficjalną wersję obrazu ISO.
+- Odwiedź [oficjalną stronę internetową](https://mir.archlinux.fr/iso/latest/), aby pobrać najnowszą oficjalną wersję obrazu ISO.
 
 
 
@@ -72,7 +72,7 @@ Aby utworzyć bootowalną pamięć flash USB, można użyć narzędzia takiego j
 
 
 
-- Pobierz Balena Etcher z [oficjalnej strony internetowej] (https://etcher.balena.io).
+- Pobierz Balena Etcher z [oficjalnej strony internetowej](https://etcher.balena.io).
 - Uruchom oprogramowanie i wybierz obraz ISO systemu Arch Linux.
 - Wybierz klucz USB jako urządzenie docelowe.
 - Kliknij **Flash**, aby rozpocząć tworzenie klucza rozruchowego.

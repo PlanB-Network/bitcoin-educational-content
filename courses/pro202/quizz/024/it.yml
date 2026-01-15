@@ -1,0 +1,8 @@
+question: Qual è la ragione principale per cui gli script puzzle che si basano solo su dati pubblici senza controlli della firma sono vulnerabili in Bitcoin?
+answer: I minatori possono copiare la soluzione dalla mempool e reindirizzare il pagamento a se stessi
+wrong_answers:
+  - L'esecuzione dello script diventa non deterministica tra i diversi nodi di rete
+  - Il tempo di convalida della transazione aumenta quadraticamente con la complessità del puzzle
+  - Il modello di esecuzione basato sullo stack non è in grado di gestire in modo sicuro operazioni matematiche complesse
+explanation: |
+  I puzzle script che si basano solo su dati pubblici (come i problemi matematici o le preimmagini hash) senza controlli sulla firma sono vulnerabili al front-running dei minatori. Una volta che una soluzione valida appare nella mempool, qualsiasi miner può osservarla, copiare la soluzione e creare la propria transazione reindirizzando il pagamento al proprio indirizzo. Questo è il motivo per cui i contratti Bitcoin del mondo reale includono quasi sempre controlli sulla firma: le firme vincolano la soluzione a una parte specifica e impediscono ad altri di rubare il pagamento, preservando gli incentivi adeguati per i risolutori di puzzle.

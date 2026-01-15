@@ -2085,7 +2085,7 @@ Administratorzy serwerów mogą wyświetlić więcej szczegółów;
 #### LND (REST)
 
 
-BTCPay udostępnia usługę REST LND do użytku zewnętrznego; informacje o połączeniu można znaleźć tutaj; kompatybilne portfele są wymienione tutaj. Wśród kompatybilnych portfeli są Joule, Alby i ZeusLN. Serwer BTCPay udostępnia kod QR do połączenia, zeskanowania i zastosowania w kompatybilnym Wallet.
+BTCPay udostępnia usługę REST LND do użytku zewnętrznego; informacje o połączeniu można znaleźć [tutaj](https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay); kompatybilne portfele są wymienione [tutaj](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server). Wśród kompatybilnych portfeli są Joule, Alby i ZeusLN. Serwer BTCPay udostępnia kod QR do połączenia, zeskanowania i zastosowania w kompatybilnym Wallet.
 
 
 
@@ -2624,7 +2624,7 @@ Odbiorca płatności i wnioskujący mogą wyświetlić status wniosku o płatno�
 Treść opisu można edytować za pomocą edytora tekstu żądania płatności. Obie opcje są dostępne, jeśli chcesz użyć dodatkowych motywów kolorystycznych lub niestandardowych stylów CSS.
 
 
-Użytkownicy nietechniczni mogą użyć motywu [bootstrap] (https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes). Dalsze dostosowanie można wykonać, dostarczając dodatkowy kod CSS, jak pokazano poniżej.
+Użytkownicy nietechniczni mogą użyć motywu [bootstrap](https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes). Dalsze dostosowanie można wykonać, dostarczając dodatkowy kod CSS, jak pokazano poniżej.
 
 
 ```css
@@ -2673,7 +2673,7 @@ A co, jeśli zamiast naciskać na płatność, nadawca pozwoli odbiorcy na pobra
 ### Wypłaty
 
 
-Funkcja wypłat jest powiązana z [Pull Payments] (https://docs.btcpayserver.org/PullPayments/). Ta funkcja umożliwia tworzenie wypłat w BTCPay. Ta funkcja umożliwia przetwarzanie płatności typu pull (zwroty, wypłaty wynagrodzeń lub wypłaty).
+Funkcja wypłat jest powiązana z [Pull Payments](https://docs.btcpayserver.org/PullPayments/). Ta funkcja umożliwia tworzenie wypłat w BTCPay. Ta funkcja umożliwia przetwarzanie płatności typu pull (zwroty, wypłaty wynagrodzeń lub wypłaty).
 
 
 #### Przykład 1: Zwrot
@@ -2703,7 +2703,7 @@ Klient zostanie teraz zaktualizowany na stronie zgłaszania roszczeń. Może on 
 #### Przykład 2: Wynagrodzenie
 
 
-Przejdźmy teraz do wypłaty wynagrodzenia, ponieważ jest ona sterowana z poziomu sklepu, a nie na żądanie klienta. Podstawa jest taka sama; wykorzystuje płatności Pull. Ale zamiast tworzyć zwrot, dokonamy [Pull Payment] (https://docs.btcpayserver.org/PullPayments/).
+Przejdźmy teraz do wypłaty wynagrodzenia, ponieważ jest ona sterowana z poziomu sklepu, a nie na żądanie klienta. Podstawa jest taka sama; wykorzystuje płatności Pull. Ale zamiast tworzyć zwrot, dokonamy [Pull Payment](https://docs.btcpayserver.org/PullPayments/).
 
 
 Przejdź do zakładki Pull Payments na swoim serwerze BTCPay. W prawym górnym rogu kliknij przycisk Utwórz płatność Pull.
@@ -2747,7 +2747,7 @@ Następnie nadawca może udostępnić płatność za pomocą linku odbiorcy, umo
 Po utworzeniu wypłaty będzie ona wliczana do limitu płatności pull w bieżącym okresie. Następnie nadawca zatwierdzi wypłatę, ustawiając stawkę, po której wypłata zostanie wysłana, i dokona płatności.
 
 
-Dla nadawców zapewniamy łatwy w użyciu sposób zbiorczej płatności kilku wypłat z [BTCPay Internal Wallet] (https://docs.btcpayserver.org/Wallet/).
+Dla nadawców zapewniamy łatwy w użyciu sposób zbiorczej płatności kilku wypłat z [BTCPay Internal Wallet](https://docs.btcpayserver.org/Wallet/).
 
 
 #### Greenfield API

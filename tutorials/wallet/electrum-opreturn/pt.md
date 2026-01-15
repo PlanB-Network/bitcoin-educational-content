@@ -22,7 +22,7 @@ Este tutorial passo a passo mostra como escrever uma mensagem no Blockchain Bitc
 - Um computador (Windows, macOS ou Linux).
 - Ligação à Internet.
 - Alguns satoshis (Sats) ou bitcoins (BTC) no seu Wallet para cobrir o montante da transação e as taxas.
-- Um conversor de texto para hexadecimal (por exemplo, um sítio em linha) ou uma ferramenta específica como [este gerador de guião OP_RETURN] (https://resources.davidcoen.it/opreturnelectrum/).
+- Um conversor de texto para hexadecimal (por exemplo, um sítio em linha) ou uma ferramenta específica como [este gerador de guião OP_RETURN](https://resources.davidcoen.it/opreturnelectrum/).
 
 
 
@@ -164,7 +164,7 @@ Converta a sua mensagem em hexadecimal :
 
 
 
-- Pode utilizar uma [ferramenta em linha] (https://www.rapidtables.com/convert/number/ascii-to-hex.html), mas tenha cuidado para não tratar aí dados sensíveis (embora, em princípio, as informações destinadas a publicação no Blockchain Bitcoin através de um OP_RETURN não apresentem quaisquer problemas de confidencialidade);
+- Pode utilizar uma [ferramenta em linha](https://www.rapidtables.com/convert/number/ascii-to-hex.html), mas tenha cuidado para não tratar aí dados sensíveis (embora, em princípio, as informações destinadas a publicação no Blockchain Bitcoin através de um OP_RETURN não apresentem quaisquer problemas de confidencialidade);
 - Para maior confidencialidade, efectue a conversão localmente utilizando um pequeno ficheiro Python :
 
 
@@ -218,7 +218,7 @@ que é constituído por :
 
 
 
-Dica: Utiliza a ferramenta [OP_RETURN Generator] (https://resources.davidcoen.it/opreturnelectrum/) para criar automaticamente o script generate. Mesmo que esta ferramenta sugira introduzir o montante em BTC, mantém a unidade configurada em Electrum.
+Dica: Utiliza a ferramenta [OP_RETURN Generator](https://resources.davidcoen.it/opreturnelectrum/) para criar automaticamente o script generate. Mesmo que esta ferramenta sugira introduzir o montante em BTC, mantém a unidade configurada em Electrum.
 
 
 

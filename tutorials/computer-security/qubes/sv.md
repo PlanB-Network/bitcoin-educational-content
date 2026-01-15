@@ -122,7 +122,7 @@ Innan du installerar Qubes OS är det viktigt att se till att din maskinvara upp
 
 
 
-För att installera Qubes OS, hämta den officiella ISO-bilden från Qubes OS [officiella webbplats] (https://www.qubes-os.org/downloads/). Det är viktigt att kontrollera ISO-filens integritet med hjälp av de GPG-signaturer som tillhandahålls, för att säkerställa att filen inte har manipulerats och att nedladdningen är säker.
+För att installera Qubes OS, hämta den officiella ISO-bilden från Qubes OS [officiella webbplats](https://www.qubes-os.org/downloads/). Det är viktigt att kontrollera ISO-filens integritet med hjälp av de GPG-signaturer som tillhandahålls, för att säkerställa att filen inte har manipulerats och att nedladdningen är säker.
 
 
 

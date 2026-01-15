@@ -1,0 +1,8 @@
+question: Qual è la risposta più appropriata quando un'applicazione Bitcoin incontra un errore di input non valido, come la ricezione di un valore negativo per un campo che richiede solo numeri interi positivi?
+answer: Rifiuta l'input e restituisce un'indicazione di errore al chiamante
+wrong_answers:
+  - Convertire il valore negativo nel suo valore assoluto e continuare l'elaborazione
+  - Registrare l'errore ma procedere con l'operazione utilizzando un valore predefinito
+  - Termina immediatamente l'intera applicazione per evitare il danneggiamento dei dati
+explanation: |
+  Gli errori di input non validi rappresentano violazioni del contratto tra il chiamante e la funzione, dove i parametri forniti non soddisfano i requisiti della funzione. L'approccio corretto è quello di rifiutare l'input e restituire un'indicazione di errore, consentendo al chiamante di gestire la situazione in modo appropriato. La conversione di valori negativi in positivi maschera l'errore e può portare a un comportamento indesiderato. L'uso di valori predefiniti ignora l'intento del chiamante e può elaborare dati errati. L'interruzione dell'intera applicazione è eccessiva in caso di errori di convalida dell'input e creerebbe un'esperienza negativa per l'utente nelle applicazioni Bitcoin, dove la gestione degli errori è fondamentale.

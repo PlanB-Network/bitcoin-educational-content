@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Le principe de la consolidation est de profiter des périodes où les frais sont bas sur Bitcoin pour fusionner ses petits UTXOs en un seul plus gros.
 
-reviewed: false
+reviewed: true 

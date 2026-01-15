@@ -1,0 +1,8 @@
+question: Kui Bitcoin raskusastme kohandamise mehhanism satub stsenaariumisse, kus eelmiste 2016. aasta plokkide kaevandamiseks kulus oodatud 2 nädala asemel täpselt 6 nädalat, siis millist kohandamistegurit kohaldatakse?
+answer: Raskust vähendatakse 4 korda (maksimaalne lubatud vähendamine)
+wrong_answers:
+  - Raskus väheneks 3 korda (6 nädalat ÷ 2 nädalat)
+  - Raskust vähendatakse 2,5-kordse teguri võrra, et vältida ülekorrektsiooni
+  - Raskust vähendatakse aja suhte alusel 6-kordselt
+explanation: |
+  Bitcoin raskusastme kohandamisel on sisseehitatud piirangud, mis piiravad muutusi kuni neljakordse arvu piires mõlemas suunas. Kuigi 6 nädalat ÷ 2 nädalat = 3, mis viitab 3x vähendamisele, piirab protokoll kohandusi 4x, et vältida äärmuslikku volatiilsust. See turvamehhanism tagab võrgu stabiilsuse suuremate hash-kiiruse muutuste ajal, nagu mining keelud või seadmete rikked, vältides liigset korrigeerimist, mis võib destabiliseerida plokkide ajastust.

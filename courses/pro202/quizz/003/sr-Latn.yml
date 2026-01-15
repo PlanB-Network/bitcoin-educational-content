@@ -1,0 +1,8 @@
+question: Funkcija `pow()` je posebno pomenuta za efikasno modularno eksponenciranje u kriptografskim operacijama.
+answer: pow(base, exp, mod)
+wrong_answers:
+  - mod(base, exp, prime)
+  - exp(base, mod, field)
+  - mult(base, exp, modulo)
+explanation: |
+  Ugrađena Python funkcija pow(base, exp, mod) je posebno dizajnirana za efikasnu modularnu eksponencijaciju, što je ključno za kriptografske operacije koje uključuju velike eksponente. Ova funkcija koristi optimizovane algoritme za izračunavanje (base^exp) mod mod bez potrebe da se prvo izračuna potencijalno ogroman međurezultat base^exp. Ostale opcije nisu važeće Python funkcije - mod(), exp() i mult() sa ovim obrascima parametara ne postoje u Python standardnoj biblioteci za kriptografsku modularnu aritmetiku.

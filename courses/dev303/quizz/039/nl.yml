@@ -1,0 +1,8 @@
+question: Welke eigenschap vertegenwoordigt afsluitingen die meerdere keren kunnen worden aangeroepen zonder hun vastgelegde omgeving te muteren?
+answer: Fn
+wrong_answers:
+  - FnOnce
+  - FnMut
+  - FnCapture
+explanation: |
+  Fn is de meest restrictieve closure eigenschap die closures representeert die meerdere keren aangeroepen kunnen worden zonder hun vastgelegde omgeving te muteren. Deze afsluitingen vangen alleen op via onveranderlijke verwijzingen en kunnen veilig gelijktijdig aangeroepen worden. FnOnce vertegenwoordigt afsluitingen die slechts eenmaal aangeroepen kunnen worden, terwijl FnMut afsluitingen vertegenwoordigt die meerdere keren aangeroepen kunnen worden, maar hun vastgelegde omgeving kunnen muteren. FnCapture is geen echt Rust kenmerk.

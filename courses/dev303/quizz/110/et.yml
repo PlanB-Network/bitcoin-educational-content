@@ -1,0 +1,8 @@
+question: Kuidas lahendab Breez SDK Lightning Service Provider (LSP) integratsioon maksete vastuvõtmise likviidsuse juhtimise probleemi?
+answer: LSPd avavad automaatselt uued Lightning-kanalid sissetuleva likviidsusega makse saabumise hetkel, kasutades just-in-time kanali loomist
+wrong_answers:
+  - LSPd rahastavad eelnevalt kõiki kasutajakanaleid maksimaalse likviidsusvõimsusega ja tasakaalustavad perioodiliselt vahendeid kogu võrgutopoloogias
+  - LSPd haldavad ühist likviidsusparki, mis laenab kasutajatele ajutiselt raha maksete vastuvõtmise ajal enne arveldamist
+  - LSP-d suunavad makseid läbi mitme vahekanali, et leida olemasolevaid likviidsusradasid ilma uusi kanali suhteid loomata
+explanation: |
+  Breez SDK rakendab "just-in-time" kanaleid, mille puhul LSPd avavad automaatselt uued Lightning-kanalid just siis, kui kasutajal on vaja saada makse, kuid tal puudub piisav sissetulev likviidsus. See toimub sujuvalt ilma kasutaja sekkumiseta, lahendades Lightningi põhilise likviidsuspiirangu, mille kohaselt saavad vahendid voolata ainult nendesse suundadesse, kus kanalite maht on olemas. Teised võimalused kirjeldavad erinevaid lähenemisviise, mis ei vasta SDK tegelikule dünaamilise kanali loomise rakendusele.

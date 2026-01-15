@@ -6,4 +6,4 @@ wrong_answers:
   - 192.168.0.0/16
 explanation: |
   El rango 127.0.0.0/8 se utiliza para el loopback local. Cualquier petición a este rango permanece dentro de la máquina de origen.
-reviewed: false
+reviewed: true

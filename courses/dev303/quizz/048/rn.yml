@@ -1,0 +1,8 @@
+question: Ni iyihe ntumbero nyamukuru yo gufatanya RC na RefCell muri porogarama ya Rust?
+answer: Kugira ngo ushobore gusangira no guhindura amakuru amwe amwe n'isuzuma ry'inguzanyo ry'igihe co gukora
+wrong_answers:
+  - Kugira ngo ushire mu ngiro amategeko y'inguzanyo kuva ku gihe co gukora ugasubira ku gihe co gukoranya kugira ngo ukore neza
+  - Kugira ngo ureme amakuru asangiye adahinduka ashobora gushikwako ata nkomanzi ku ndodo nyinshi
+  - Kugira ngo wirinde inzinguzingu z'ibisobanuro n'ugusohoka kw'ubwenge igihe usangira amakuru hagati y'abafise amakuru menshi
+explanation: |
+  RC<RefCell<T>> ifatanya uguharura kw’ibimenyetso ku bijanye n’ubutunzi busangiye n’uguhinduka kw’imbere ku bijanye n’uguhinduka gusuzumwa mu gihe c’urugendo. RC iremeza ko ibice vyinshi vya kode bigira amakuru amwe, mu gihe RefCell ishobora guhindura biciye mu bimenyetso bidahinduka mu kugenzura amategeko yo kugurana mu gihe co gukora. Ayandi mahitamwo ntabwo ari meza: iyi nzira mu vy'ukuri yimurira amatohoza mu gihe co gukora (atari igihe co gukoranya), irema amakuru asangiye ashobora guhinduka (atahinduka), kandi mu vy'ukuri ishobora gutuma habaho inzinguzingu z'ishingiro aho kuyabuza.

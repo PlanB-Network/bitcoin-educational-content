@@ -1,0 +1,8 @@
+question: What is the identity element in the elliptic curve group used for point addition operations?
+answer: The point at infinity
+wrong_answers:
+  - The origin point (0,0)
+  - The generator point G
+  - The curve parameter a
+explanation: |
+  The point at infinity serves as the identity element in elliptic curve groups, meaning that adding any point P to the point at infinity returns P unchanged. This is analogous to how adding zero works in regular arithmetic. The origin (0,0) is not necessarily on the curve, the generator point G is used for creating public keys, and the curve parameter a is just a coefficient in the curve equation, not an identity element.

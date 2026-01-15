@@ -3,7 +3,7 @@ name: My Node
 description: 設定您的 Bitcoin MyNode
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 
 [My Node](https://mynodebtc.com/) 是運行 Bitcoin 和 Lightning 節點的最簡單、最強大的方式！我們結合最好的開放原始碼軟體與我們的 Interface、管理和支援，讓您可以輕鬆、私密且安全地使用 Bitcoin 和 Lightning。

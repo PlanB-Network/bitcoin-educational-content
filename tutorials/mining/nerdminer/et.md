@@ -26,11 +26,11 @@ Samuti võite osta eelmonteeritud NerdMiner komplekti mitmelt edasimüüjalt, na
 
 Esmalt vaatame, kuidas tarkvara ESP-32 S3-le vilkuda, ja seejärel vaatame, kuidas seda taaskäivitada wifi-võrgu muutmiseks. Need sammud on Windowsi kasutajatele, kui kasutate Linuxi OS-i, palun sooritage [eelnevad sammud](#etapes-preliminaires-pour-utilisateurs-linux), et võimaldada teie süsteemil ESP-32 S3 ära tunda.
 
-# NerdMiner_v2 tarkvara paigaldamine
+## NerdMiner_v2 tarkvara paigaldamine
 
 Tarkvara paigaldamine on oluliselt lihtsustatud tänu veebiflasheri kasutamisele.
 
-## 1. samm: Veebiflasheri ettevalmistamine
+### 1. samm: Veebiflasheri ettevalmistamine
 
 Esmalt peate minema [online NM2 flasherile](https://bitmaker-hub.github.io/diyflasher/).
 
@@ -40,7 +40,7 @@ Seejärel valige oma ESP-32-le vastav püsivara. Enamasti on see vaikimisi: T-Di
 
 ![](assets/webflasher.webp)
 
-## 2. samm: ESP-32 ühendamine
+### 2. samm: ESP-32 ühendamine
 
 Kui veebiflasher on käivitatud, avaneb hüpikaken, mis näitab brauseri poolt tuvastatud erinevaid USB-porte.
 Seejärel saate ühendada oma ESP-32 ja kuvatakse uus port (sel juhul on see ttyACM0 port). Peate selle valima ja klõpsama nupul "ühenda".
@@ -50,7 +50,7 @@ Tarkvara laaditakse seejärel teie ESP32-le mõne sekundi jooksul.
 
 ![](assets/NM2-sucessfully-installed.webp)
 
-## 3. samm: NerdMineri seadistamine
+### 3. samm: NerdMineri seadistamine
 
 Teie NerdMineri seadistamine toimub nutitelefoni või arvuti kaudu.
 Luba WiFi ja ühenda kohaliku NerdMinerAP võrguga. Kui kasutate nutitelefoni, avaneb seadistusportaal automaatselt. Vastasel juhul sisestage brauseris aadress 192.168.4.1.
@@ -77,7 +77,7 @@ Nüüd võite klõpsata "salvesta".
 
 Palju õnne, olete nüüd osa Bitcoinide kaevandamise võrgustikust!
 
-## NerdMineri töö
+### NerdMineri töö
 
 NerdMinerv2 tarkvaral on 3 erinevat ekraani, millele pääsete ligi klõpsates ekraani paremal küljel asuval ülemisel nupul:
 
@@ -90,7 +90,7 @@ Kui soovite oma NerdMineri taaskäivitada, näiteks WiFi-võrgu vahetamiseks, pe
 
 Alumise nupu ühekordne vajutamine lülitab teie NerdMineri välja. Kaks korda klõpsates pööratakse ekraani orientatsiooni.
 
-### Eelsammud Linuxi kasutajatele
+#### Eelsammud Linuxi kasutajatele
 
 Siin on sammud, et Chrome tuvastaks teie jadapordi Linuxis.
 
@@ -110,13 +110,13 @@ Vaikimisi võib jadaportidele juurdepääsuks vaja minna root-õigusi, seega tee
 
 Nüüd, kui teie ESP-32 on süsteemi poolt ära tuntud, võite naasta [esimese sammu juurde](#etape-1-preparation-du-webflasher) tarkvara paigaldamiseks.
 
-## Järeldus
+### Järeldus
 
 Ja ongi kõik! Teie NerdMiner_v2 on nüüd seadistatud ja kasutusvalmis.
 
 Õnnelikku kaevandamist ja edu teie ettevõtmistes!
 
-### Võiduvõimaluse hindamine
+#### Võiduvõimaluse hindamine
 
 Lõbustagem end võiduvõimaluse hindamisega. See hinnang on üldine ja otsib vaid võimaluse suurusjärku.
 Bassein, millega NerdMiner saab ühenduda, on ainult "solo mining pool", mis tähendab, et bassein ei ühenda kõikide ühendatud kaevurite hashrate'i, vaid toimib lihtsalt koordinaatorina.
@@ -124,7 +124,7 @@ Oletame nüüd, et meie NerdMineril on hashrate umbes 45kH/s.
 
 Teades, et kogu hashrate on umbes 450 EH/s (või 4,5 x 10^20 hashi sekundis), võime arvestada, et järgmise ploki leidmise tõenäosus on 1 100 miljonis miljardis, mis on väga-väga-väga ebatõenäoline. Seega lisaks sellele, et olla hariduslik vahend ja uudishimu objekt, võib NerdMiner toimida ka loteriipiletina bitcoinide kaevandamisel marginaalse elektrikuluga 0,5 W - kuigi nagu me just nägime, on võiduvõimalus naeruväärselt madal. Kuid miks mitte proovida oma õnne?
 
-### Lisainformatsioon
+#### Lisainformatsioon
 
 Siin on mõned lingid, kui soovite teemal rohkem lugeda:
 

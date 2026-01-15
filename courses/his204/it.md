@@ -593,7 +593,7 @@ Grazie alla collaborazione di diversi membri della cerchia di Gournay, molti aut
 Il gruppo ha inoltre svolto un ruolo fondamentale nella pubblicazione di
 
 
-- [Saggio sulla natura del commercio in generale] (https://archive.org/details/essayonnatureofc0000cant) di Richard Cantillon.
+- [Saggio sulla natura del commercio in generale](https://archive.org/details/essayonnatureofc0000cant) di Richard Cantillon.
 
 
 ![image](assets/it/034.webp)
@@ -608,7 +608,7 @@ La produzione intellettuale del circolo di Gournay ha avuto un grande impatto su
 ![image](assets/it/035.webp)
 
 
-Per diffondere il gusto per le discussioni economiche tra la popolazione francese, Gournay e i suoi amici si adoperarono per renderle accessibili attraverso i romanzi. Dopo il *Memoir sui mestieri*, che criticava le corporazioni, Gournay e Cliquot-Blervache aiutarono Gabriel-François Coyer a scrivere un breve romanzo satirico intitolato Chinki: [Racconto cocinese applicabile ad altre nazioni] (https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
+Per diffondere il gusto per le discussioni economiche tra la popolazione francese, Gournay e i suoi amici si adoperarono per renderle accessibili attraverso i romanzi. Dopo il *Memoir sui mestieri*, che criticava le corporazioni, Gournay e Cliquot-Blervache aiutarono Gabriel-François Coyer a scrivere un breve romanzo satirico intitolato Chinki: [Racconto cocinese applicabile ad altre nazioni](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf).
 
 
 ![image](assets/it/036.webp)
@@ -694,7 +694,7 @@ Con il suo più grande successo alle spalle, Mirabeau fu corteggiato. François 
 I due discussero furiosamente e alla fine accadde qualcosa che normalmente non accade mai nei dibattiti: Mirabeau ammise apertamente di essersi sbagliato. Concordò con le idee di Quesnay e si disse pronto a diffonderle.
 
 
-Insieme, formarono il nucleo di quella che sarebbe diventata la scuola fisiocratica, rafforzata dalle regolari reclute che portarono con sé. Poco dopo la conversione di Mirabeau, Quesnay lo arruolò per difendere le sue idee sulla tassazione. Ne nacque la ["Teoria della tassazione"] (https://archive.org/details/thoriedelimpot00mira), per la quale Mirabeau fu inviato per qualche giorno nella prigione di Vincennes e poi esiliato a Bignon.
+Insieme, formarono il nucleo di quella che sarebbe diventata la scuola fisiocratica, rafforzata dalle regolari reclute che portarono con sé. Poco dopo la conversione di Mirabeau, Quesnay lo arruolò per difendere le sue idee sulla tassazione. Ne nacque la ["Teoria della tassazione"](https://archive.org/details/thoriedelimpot00mira), per la quale Mirabeau fu inviato per qualche giorno nella prigione di Vincennes e poi esiliato a Bignon.
 
 
 ![image](assets/it/042.webp)
@@ -962,7 +962,7 @@ Nelle sue già citate *Massime*, Quesnay afferma:
 I fisiocratici avevano visto i danni causati dall'interferenza del governo, soprattutto nel commercio dei cereali. Bisogna riconoscere, dicono, che l'autorità non sarà mai in grado di gestire il commercio come fanno i singoli individui, perché dovrebbe rispondere a ogni esigenza e reagire a ogni cambiamento nella domanda o nel Supply. Tutto ciò è ben al di là delle capacità anche del governo più saggio che si possa concepire. Tutto questo va ben oltre le capacità anche del governo più saggio che si possa concepire. Pertanto, è necessario lasciare che le cose siano e che scorrano.
 
 
-Benefico per natura, il commercio deve essere interamente e perfettamente libero. Uno dei loro membri, Le Trosne, scrisse persino un pamphlet intitolato [*La libertà del commercio del grano: sempre utile, mai dannosa*] (https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
+Benefico per natura, il commercio deve essere interamente e perfettamente libero. Uno dei loro membri, Le Trosne, scrisse persino un pamphlet intitolato [*La libertà del commercio del grano: sempre utile, mai dannosa*](https://www.institutcoppet.org/liberte-commerce-grains-toujours-utile-jamais-nuisible/).
 
 
 ### Quinto principio: Tutti gli uomini sono fratelli
@@ -1409,7 +1409,7 @@ L'abate di Condillac ha svolto un ruolo fondamentale nello smantellare definitiv
 "Definitivamente" è forse un'esagerazione, perché nel dibattito pubblico questo sofisma riappare spesso. È forse per questo che Condillac rimane un economista poco conosciuto. A parte gli economisti austriaci, pochi hanno capito l'importanza della sua teoria del Exchange, nessuno si interessa più a lui.
 
 
-Per la maggior parte degli storici del pensiero economico, l'anno 1776 è segnato dalla pubblicazione de *La ricchezza delle nazioni*, che ha fondato la scienza economica. Le quindici lezioni che abbiamo appena concluso, in cui abbiamo studiato la scienza economica francese prima di Adam Smith, sono sufficienti a dimostrare l'errore di questa concezione. In quello stesso anno 1776, inoltre, un altro libro merita forse più elogi da parte degli storici di quello di Adam Smith: è stato scritto da Condillac e si intitola semplicemente [*Commercio e governo considerati nelle loro reciproche relazioni*] (https://archive.org/details/commercegovernme0000cond).
+Per la maggior parte degli storici del pensiero economico, l'anno 1776 è segnato dalla pubblicazione de *La ricchezza delle nazioni*, che ha fondato la scienza economica. Le quindici lezioni che abbiamo appena concluso, in cui abbiamo studiato la scienza economica francese prima di Adam Smith, sono sufficienti a dimostrare l'errore di questa concezione. In quello stesso anno 1776, inoltre, un altro libro merita forse più elogi da parte degli storici di quello di Adam Smith: è stato scritto da Condillac e si intitola semplicemente [*Commercio e governo considerati nelle loro reciproche relazioni*](https://archive.org/details/commercegovernme0000cond).
 
 
 ![image](assets/it/085.webp)
@@ -1498,7 +1498,7 @@ Da quel momento in poi, la carriera di Condorcet subì una svolta, entrando nel 
 Tra il 1774 e il 1776, durante il ministero di Turgot, Condorcet fece numerosi interventi, tutti caratterizzati dal suo Commitment al laissez-faire. Tra le sue opere si ricordano le *Lettere di un contadino della Piccardia al signor Necker*, che difende il libero commercio; *Monopoli e monopolisti*, che sostiene la libera concorrenza; *Riflessioni sulle corvée*, che ne chiede l'abolizione; e *Riflessioni sul commercio del grano*, che ancora una volta elogia il libero commercio e critica il libro di Necker sullo stesso argomento.
 
 
-Nelle sue [*Lettere sul commercio del grano*] (https://archive.org/details/bub_gb_hg8jFw-y6bwC), Condorcet espone diversi punti chiave.
+Nelle sue [*Lettere sul commercio del grano*](https://archive.org/details/bub_gb_hg8jFw-y6bwC), Condorcet espone diversi punti chiave.
 
 
 ![image](assets/it/089.webp)
@@ -1565,7 +1565,7 @@ La proposta è stata respinta.
 
 Nello stesso anno, il 1790, iniziarono i dibattiti sull'emissione di nuova cartamoneta per coprire le spese del governo.
 
-Dupont de Nemours si oppose fermamente e pubblicò un opuscolo intitolato [*Effetti degli Assignat sul prezzo del pane*] (https://archive.org/details/effetdesassignat00dupo). Il titolo era esatto, in quanto spiegava che l'emissione di assignat avrebbe inevitabilmente portato all'inflazione, ovvero all'aumento dei prezzi dei prodotti di base, compreso il pane.
+Dupont de Nemours si oppose fermamente e pubblicò un opuscolo intitolato [*Effetti degli Assignat sul prezzo del pane*](https://archive.org/details/effetdesassignat00dupo). Il titolo era esatto, in quanto spiegava che l'emissione di assignat avrebbe inevitabilmente portato all'inflazione, ovvero all'aumento dei prezzi dei prodotti di base, compreso il pane.
 
 
 

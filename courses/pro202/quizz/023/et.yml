@@ -1,0 +1,8 @@
+question: Mis on Bitcoin tehingu sisendites oleva järjekorranumbri välja esmane eesmärk?
+answer: Ajakellade ja Replace-by-Fee (RBF) funktsioonide lubamiseks
+wrong_answers:
+  - Määrata, millises järjekorras peavad kaevandajad sisendeid töötlema
+  - double-spending vältimiseks, luues igale sisendile unikaalse identifikaatori
+  - Tehingu prioriteetsusastme märkimiseks tasu arvutamisel
+explanation: |
+  Bitcoin tehingu sisendites olev järjestusnumbri väli täidab kahte peamist eesmärki: ajalukkude rakendamine (mis lükkab edasi, millal tehingu saab kinnitada) ja tasu asendamise funktsiooni (RBF) võimaldamine (mis võimaldab kasutajatel suurendada kinnitamata tehingute tasusid). Teised võimalused on valed, sest: sisendid ei pea kaevandajad töötlema mingis kindlas järjekorras, double-spending ennetamisega tegeleb UTXO mudel ja plokiahela konsensus, mitte järjekorranumbrid, ning tehingute prioriteetsus määratakse pigem tasumäärade kui järjekorranumbrite alusel.

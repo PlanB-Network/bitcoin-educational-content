@@ -6,3 +6,4 @@ wrong_answers:
   - Potvrzení, že oprava poskytuje dostatečné zlepšení výkonu
 explanation: |
   Podle postupů zodpovědného zveřejňování vývojáři testují, zda byla záplata dostatečně dobře zamaskována, tak, že ji poskytnou zkušeným vývojářům, kteří o zranitelnosti nebyli informováni, a požádají je, aby určili, co opravuje. Pokud tito odborníci nedokážou zranitelnost odhalit, i když vědí, že ji záplata opravuje, je pravděpodobně před potenciálními útočníky dobře zamaskovaná. To je zásadní, protože samotné záplaty mohou odhalit zranitelnosti a potenciálně umožnit jejich zneužití. Ostatní možnosti, ačkoli jsou důležitými aspekty revize kódu, nejsou primárním účelem této specifické praxe ve správě zranitelností.
+reviewed: false

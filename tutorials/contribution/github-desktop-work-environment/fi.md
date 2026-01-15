@@ -97,6 +97,6 @@ Tähän on saatavilla useita vaihtoehtoja. Vaikka tietokoneesi vakionotepad-ohje
 - Asenna jompikumpi näistä ohjelmista ja pidä se sivussa tulevia muokkauksiasi varten. ![github-desktop](assets/26.webp)
 Onnittelut! Työympäristösi on nyt valmis osallistumaan PlanB Networkiin. Voit nyt tutustua muihin erityisoppaisiimme kunkin panostustyypin (kääntäminen, oikoluku, kirjoittaminen.
 
-https://planb.academy/tutorials/others
+https://planb.academy/tutorials/contribution
 
 ..) osalta.

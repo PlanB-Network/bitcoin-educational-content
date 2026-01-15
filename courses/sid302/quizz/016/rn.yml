@@ -1,0 +1,8 @@
+question: Ni iyihe ntumbero nyamukuru y’igihe co kurindira kwemeza 102 mu gihe c’ugushiramwo ivy’ubuhinga kuva kuri Bitcoin gushika kuri Liquid?
+answer: Kugira ngo ukingire Bitcoin blockchain gusubira gutunganya imbere yo gukora L-BTC
+wrong_answers:
+  - Kugira ngo ishirahamwe ribone umwanya uhagije wo kugenzura akaranga k'abakoresha n'ukuntu yubahiriza amategeko
+  - Kugira ngo urubuga rwa Liquid rube rufise ubushobozi buhagije bwo gukora amafaranga yinjira
+  - Kugira ngo haboneke umwanya wo gutanga uruhusha rw’imikono myinshi y’abantu 11 kuri 15 bavuye mu bagize ishirahamwe
+explanation: |
+  Igihe co kurindira kwemeza 102 (amasaha nka 17) gigenewe canecane gukingira Bitcoin blockchain gusubira gutunganya. Kubera ko Bitcoin ikora ku mpera y'ibishoboka, hama hariho amahirwe make y'uko amabuye yoshobora gusubirwamwo, bishobora gutuma amafaranga adakora. Mu kurindira ivyemezo 102, iyo sisitemu iratuma igikorwa ca Bitcoin co kohereza amahera kuri aderesi y’ishirahamwe gihambwa cane kandi ko kidashobora gusubirwamwo. Ivyo bikabuza ivy’aho L-BTC icukurwa kuri Liquid ariko igikorwa ca Bitcoin kiri inyuma kigasubira inyuma kubera ugusubira gutunganya. Ayandi mahitamwo ntabwo ari meza kuko: kugenzura akaranga ntabwo ari igice c’igikorwa c’ugushiramwo ivyuma, ubushobozi bw’urubuga si ikintu gihagarika gisaba mwene ukwo gucererwa, kandi uburenganzira bwa 11-ku-15 bwa multisig bukoreshwa ku bikorwa vy’ugushiramwo ivyuma, atari ivyuma vy’ivyuma.

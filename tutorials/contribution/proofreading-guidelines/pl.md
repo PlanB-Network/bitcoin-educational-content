@@ -1,58 +1,58 @@
 ---
-name: Wytyczne dotyczące korekty
-description: Jakie są ważne czynniki, o których należy pamiętać podczas korekty Plan ₿ Academy?
+name: Diretrizes de revisão
+description: Quais são os factores importantes a ter em conta durante a revisão de provas na Plan ₿ Academy?
 ---
 
 ![github](assets/cover.webp)
 
 
-Witamy w tym samouczku dotyczącym **wytycznych, których należy przestrzegać podczas korekty treści na Plan ₿ Academy**. Cieszymy się, że podzielasz naszą misję tłumaczenia materiałów Bitcoin w jak największej liczbie języków, aby pomóc ludziom zdobyć wiedzę na temat tego, jak działa i jak można go używać w codziennym życiu.
+Bem-vindo a este tutorial sobre as **diretrizes a seguir na revisão de conteúdos na Plan ₿ Academy**. Congratulamo-nos por partilhar a nossa missão de traduzir os materiais do Bitcoin no maior número de línguas possível, a fim de ajudar as pessoas a conhecerem como funciona e como pode ser utilizado na sua vida quotidiana.
 
 
-Przede wszystkim, współtworzenie Plan ₿ Academy [publiczne repozytorium](https://github.com/PlanB-Network/Bitcoin-educational-content) daje ci szansę na pisanie samouczków, korektę istniejących treści, a nawet zaproponowanie dodania nowego języka do platformy. Aby dowiedzieć się więcej, dołącz najpierw do naszej [grupy Telegram](https://t.me/PlanBNetwork_ContentBuilder) i napisz krótką prezentację o sobie i językach, którymi potrafisz się posługiwać.
+Em primeiro lugar, contribuir para o [repositório público] da Plan ₿ Academy (https://github.com/PlanB-Network/bitcoin-educational-content) dá-lhe a oportunidade de escrever tutoriais, rever o conteúdo existente ou até propor a adição de uma nova língua à plataforma. Para saberes mais, junta-te primeiro ao nosso [Grupo de Telegramas](https://t.me/PlanBNetwork_ContentBuilder) e escreve uma breve apresentação sobre ti e as línguas que sabes falar.
 
 
-Niniejszy samouczek jest przeznaczony dla współpracowników, którzy chcą dokonać korekty treści. Większość z nich nie wie zbyt wiele o [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) lub [języku Markdown](https://www.markdownguide.org/basic-syntax/), którego używamy w repozytorium, więc ważne jest, aby podzielić się kilkoma spostrzeżeniami na temat kluczowych czynników związanych z tym zadaniem.
+O presente tutorial é dedicado aos colaboradores que pretendem rever conteúdos. A maioria deles não sabe muito sobre o [Github](https://planb.academy/en/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c) ou a [linguagem Markdown](https://www.markdownguide.org/basic-syntax/) que usamos dentro do repositório, por isso é importante partilhar algumas ideias sobre os principais factores envolvidos nesta tarefa.
 
 
-Poniżej zebrałem najczęstsze problemy, z którymi spotykają się korektorzy. Nie krępuj się zasugerować więcej, ponieważ może to pomóc innym w poprawie.
+Aqui em baixo, reuni os problemas mais comuns que os revisores encontram. Não hesite em sugerir mais, pois isso pode ajudar outros a melhorar.
 
 
-Przed zagłębieniem się w szczegóły, pierwszą rzeczą do zrobienia jest przeczytanie tego samouczka na temat praktycznych działań, które należy wykonać na Githubie, poprzez forkowanie repozytorium Plan ₿ Academy, zatwierdzanie zmian i wysyłanie PR-ów:
+Antes de mergulhar nas especificidades, a primeira coisa a fazer é ler este tutorial sobre as acções práticas a seguir no Github, bifurcando o repositório da Plan ₿ Academy, cometendo alterações e enviando PRs:
 
 
 https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
 
 
-## Co to jest korekta?
+## O que é a revisão de provas?
 
 
-Korekta to końcowy proces przeglądu tekstu pisanego, mający na celu zidentyfikowanie i poprawienie błędów gramatycznych, ortograficznych, interpunkcyjnych i formatowania. Zapewnia, że tekst jest jasny, spójny i wolny od błędów przed publikacją lub przesłaniem.
+A revisão de provas é o processo de revisão final de um texto escrito, para identificar e corrigir erros de gramática, ortografia, pontuação e formatação. Garante que o texto é claro, coerente e isento de erros antes da sua publicação ou apresentação.
 
 
-Podczas wykonywania tego typu zadań ważne jest, aby podążać za znaczeniem oryginalnego języka (EN lub FR), ale upewnić się, że tekst w języku końcowym jest tak płynny, jak to możliwe dla native speakera.
+Quando se submete a este tipo de tarefa, é importante seguir o significado da língua original (EN ou FR), mas certificar-se de que o texto na língua final é tão fluido quanto possível para um falante nativo.
 
 
-Zawsze pamiętaj, że tłumaczenie/proofreading to EDUKACJA!
+Lembre-se sempre que a tradução/revisão é EDUCAÇÃO!
 
 
-W rzeczywistości naszym wspólnym celem jest edukowanie jak największej liczby osób na temat Bitcoin, więc ważne jest, aby materiał, który czytają, był płynny i przejrzysty.
+De facto, o nosso objetivo comum é educar o maior número possível de pessoas sobre o Bitcoin, pelo que é fundamental que o material que lêem seja simples e claro.
 
-W tym sensie wszyscy współpracownicy Plan ₿ Academy są edukatorami!
-
-
-## Pierwsze kroki przed korektą na Plan ₿ Academy
+Neste sentido, todos os colaboradores da Plan ₿ Academy são educadores!
 
 
-Przed rozpoczęciem nowego zadania korekty należy ogłosić je w [grupie Telegram](https://t.me/PlanBNetwork_ContentBuilder) lub poinformować koordynatora Plan ₿ Academy, który otworzy dedykowane [zagadnienie](https://github.com/orgs/Plan ₿ Academy/projects/3). Po otrzymaniu linku do tematu wystarczy **skomentować rozpoczęcie** zadania korekty tej treści.
+## Os primeiros passos antes da revisão de provas no Plan ₿ Academy
 
 
-System ten pomaga koordynatorowi śledzić postępy wewnątrz repozytorium i pozwala na "zastrzeżenie" treści przez korektora, zapobiegając powielaniu wysiłków przez kogoś innego.
-
-W samym wydaniu znajdziesz linki, które przekierują Cię do treści do sprawdzenia. Możesz po prostu je kliknąć lub, jeszcze lepiej, wrócić do własnego rozwidlonego repo i pracować bezpośrednio z niego. Zobaczmy, jak można to zrobić!
+Antes de iniciar uma nova tarefa de revisão, anuncie-a no [grupo de Telegrama](https://t.me/PlanBNetwork_ContentBuilder) ou informe o coordenador da Plan ₿ Academy, que abrirá uma [issue] dedicada (https://github.com/orgs/PlanB-Network/projects/3). Quando receberes o link da edição, basta **comentar que estás a começar** a tarefa de revisão desse conteúdo.
 
 
-Po pierwsze, **ZAWSZE pamiętaj o SYNCHRONIZACJI swojego repozytorium na gałęzi "dev "**. W ten sposób zawartość będzie zawsze zaktualizowana przed rozpoczęciem jakiegokolwiek zadania i nie będzie żadnych konfliktów między starym i nowym materiałem. Upewnij się, że kliknąłeś "Synchronizuj Fork" i "Aktualizuj gałąź".
+Este sistema ajuda o coordenador a acompanhar o progresso dentro do repositório e permite que o conteúdo seja "reclamado" pelo revisor, evitando a duplicação de esforços por outra pessoa.
+
+No próprio problema, encontrará as ligações que o redireccionam para o conteúdo a verificar. Pode simplesmente clicar neles ou, melhor ainda, pode voltar ao seu próprio repositório bifurcado e trabalhar diretamente a partir daí. Vamos ver como o pode fazer!
+
+
+Antes de mais, **Lembre-se SEMPRE de SINCRONIZAR o seu repo, no ramo "dev "**. Desta forma, o conteúdo estará sempre atualizado antes de iniciar qualquer tipo de tarefa, e não criará conflitos entre material antigo e novo. Certifique-se de clicar em "Sync fork" e "Update branch".
 
 
 
@@ -60,7 +60,7 @@ Po pierwsze, **ZAWSZE pamiętaj o SYNCHRONIZACJI swojego repozytorium na gałęz
 
 
 
-Po pomyślnej synchronizacji można bezpośrednio uzyskać dostęp do interesującej zawartości i zatwierdzić w nowej gałęzi, jak pokazano w tym [samouczku](https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). W przeciwnym razie możesz otworzyć nową gałąź, w której chcesz pracować, klikając "Gałęzie", jak pokazano poniżej.
+Após a sincronização bem sucedida, pode aceder diretamente ao conteúdo de interesse e fazer o commit num novo ramo, como mostrado neste [tutorial](https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Caso contrário, pode abrir um novo ramo onde trabalhar, clicando em "Branches" (Ramos), como mostrado abaixo.
 
 
 
@@ -68,7 +68,7 @@ Po pomyślnej synchronizacji można bezpośrednio uzyskać dostęp do interesuj�
 
 
 
-Na tej nowej stronie znajdziesz wszystkie oddziały, które już otworzyłeś pod tytułem "Twoje oddziały". Ta sekcja jest bardzo przydatna, ponieważ pozwala łatwo znaleźć miejsce, w którym zmodyfikowano niektóre treści. Jeśli chcesz otworzyć nowy oddział, możesz kliknąć "Nowy oddział" w prawym górnym rogu strony.
+Nesta nova página, encontra todas as ramificações que já abriu sob o título "As suas ramificações". Esta secção é muito útil porque lhe permite encontrar facilmente onde modificou algum conteúdo. Se pretender abrir um novo ramo, pode clicar em "Novo ramo" no canto superior direito da página.
 
 
 
@@ -76,10 +76,10 @@ Na tej nowej stronie znajdziesz wszystkie oddziały, które już otworzyłeś po
 
 
 
-Następnie pojawi się wyskakujące okienko, w którym należy wprowadzić nazwę nowego oddziału. W poniższym przypadku wybrałem nazwę "BTC101-FR". W ten sposób zawsze będę pamiętać, że ta konkretna gałąź musi być używana do korekty kursu BTC101 w języku francuskim i **nie będę jej używać do żadnych innych zadań**.
+De seguida, aparece uma janela onde é necessário inserir o nome da nova sucursal. No caso abaixo, optei por chamar-lhe "BTC101-FR". Desta forma, lembrar-me-ei sempre que este ramo específico tem de ser utilizado para a revisão do curso BTC101 em francês e **não o utilizarei para qualquer outra tarefa**.
 
 
-Proponuję zrobić to samo: upewnij się, że otwierasz nową gałąź za każdym razem, gdy musisz rozpocząć nowe zadanie.
+Sugiro que faça o mesmo: certifique-se de que abre um novo ramo sempre que precisar de iniciar uma nova tarefa.
 
 
 
@@ -87,35 +87,35 @@ Proponuję zrobić to samo: upewnij się, że otwierasz nową gałąź za każdy
 
 
 
-Po utworzeniu nowej gałęzi należy kliknąć na nią w sekcji "Twoje gałęzie" na poprzedniej stronie i rozpocząć pracę nad plikiem *.md* związanym z konkretną zawartością (w moim przypadku kliknę "kursy" -> "BTC101" -> "fr.md"). Wszystkie zatwierdzenia związane z określonym plikiem będą musiały zostać zatwierdzone (zapisane) w tej samej gałęzi.
+Depois de criar este novo ramo, certifique-se de que clica nele a partir de "Your Branches" (Os seus ramos) na página anterior e começa a trabalhar no ficheiro *.md* relacionado com o conteúdo específico (no meu caso, vou clicar em "courses" (cursos) -> "BTC101" -> "fr.md"). Todos os commits relacionados com o ficheiro específico terão de ser feitos (guardados) dentro do mesmo ramo.
 
 
 
-## Oryginalny język czy tłumaczenie?
+## Língua original ou tradução?
 
 
-Podczas korekty treści ważne jest, aby **zawsze sprawdzać oryginalną wersję angielską (lub francuską)**. Należy pamiętać, że tłumaczymy za pomocą narzędzi językowych AI, więc renderowanie w języku docelowym może nie być płynne lub zrozumiałe dla końcowego czytelnika.
+Ao efetuar a revisão de um conteúdo, é importante **verificar sempre a versão original em inglês (ou francês)** do mesmo. Tenha em atenção que traduzimos utilizando ferramentas linguísticas de IA, pelo que a tradução na língua de destino pode não ser fluida ou bem compreensível para o leitor final.
 
 
-W związku z tym zachęcamy do wprowadzania zmian w tekście i modyfikowania zdań, jeśli zajdzie taka potrzeba. Naszym celem jest zwiększenie płynności, ale zawsze zgodnie z oryginalnym znaczeniem. W przypadku wątpliwości co do tego, jak traktować konkretne słowo, należy zapytać koordynatora ds. tłumaczeń.
+Assim, sinta-se à vontade para fazer ajustes no texto e modificar frases, se necessário. O nosso objetivo é aumentar a fluidez, mas sempre seguindo o sentido original. Em caso de dúvidas sobre como tratar uma palavra específica, não deixe de perguntar ao coordenador de tradução.
 
 
-Narzędzia LLM mogą tłumaczyć niektóre słowa związane z Bitcoin dosłownie, tak jak Lightning Network. Dzieje się tak zwłaszcza w przypadku bardzo technicznych słów. W takich przypadkach zaleca się zachowanie oryginalnego angielskiego słowa w języku docelowym dla lepszej przejrzystości, chyba że zasady językowe narzucają tłumaczenie każdego słowa.
+As ferramentas LLM podem traduzir literalmente algumas palavras relacionadas com o Bitcoin, tal como o Lightning Network. É especialmente o caso quando se trata de palavras muito técnicas. Nestes casos, é aconselhável manter a palavra original em inglês na sua língua de destino para maior clareza, a menos que as suas regras linguísticas imponham a tradução de todas as palavras.
 
 
-W tym drugim przypadku **zawsze sprawdź, czy ktoś inny w twojej społeczności Bitcoin nie przetłumaczył już tego słowa** i czy nie jest ono obecnie powszechnie używane.
-
-
-
-- Jednym z rozwiązań może być **sprawdzenie na [BitcoinWiki](https://en.Bitcoin.it/wiki/Main_Page)** w języku docelowym, aby sprawdzić, czy słowo zostało przetłumaczone, czy nie. Jeśli nie, słowo pozostaje w języku angielskim.
+Neste segundo caso, **faz sempre alguma pesquisa para ver se alguém na tua comunidade Bitcoin já traduziu essa palavra** e se ela é agora amplamente utilizada.
 
 
 
-- W każdym przypadku radziłbym **wstawić słowo EN mimo wszystko**, dodając odpowiadające mu znaczenie w języku docelowym w nawiasie okrągłym, zgodnie ze schematem EN (LANG) lub odwrotnie. Np. Address (indirizzo), lub indirizzo (Address).
+- Uma solução poderia ser **verificar em [BitcoinWiki](https://en.bitcoin.it/wiki/Main_Page)** na sua língua de destino para ver se a palavra foi traduzida ou não. Se não for, mantém a palavra em inglês.
 
 
 
-- Innym dobrym rozwiązaniem jest zachowanie oryginalnego słowa/zwrotu, a następnie **utworzenie hiperłącza**, które przekierowuje do [glosariusza](https://planb.academy/en/resources/glossary) na planb.network. Aby to zrobić, musisz wstawić słowo/frazę w nawiasach kwadratowych, a link w nawiasach okrągłych, jak widać na poniższym przykładzie:
+- Em qualquer caso, o meu conselho seria **inserir a palavra EN nonetheless**, acrescentando o significado correspondente na língua de destino dentro de parêntesis redondos, seguindo o esquema EN (LANG), ou vice-versa. Ex. Address (indirizzo), ou indirizzo (endereço).
+
+
+
+- Outra boa solução é manter a palavra/frase original EN e depois **criar uma hiperligação** que redireccione para o [glossário](https://planb.academy/en/resources/glossary) em planb.network. Para o fazer, tem de inserir a palavra/frase entre parênteses rectos e a hiperligação entre parênteses rectos, como pode ver no exemplo abaixo:
 
 
 ```
@@ -123,7 +123,7 @@ W tym drugim przypadku **zawsze sprawdź, czy ktoś inny w twojej społeczności
 ```
 
 
-W efekcie końcowym (obrazek poniżej) nie będzie widoczny cały link, a słowo stanie się klikalne.
+No resultado final (imagem abaixo), não visualizará a ligação completa e a palavra tornar-se-á clicável.
 
 
 
@@ -131,34 +131,34 @@ W efekcie końcowym (obrazek poniżej) nie będzie widoczny cały link, a słowo
 
 
 
-Należy pamiętać, że link do glosariusza, który zostanie pobrany ze strony internetowej, zawiera kod języka po słowie "sieć" (przykład: ``https://planb.academy/en/resources/glossary/utxo``-> tutaj można odczytać kod języka "en"). W takim przypadku należy **usunąć kod języka z linku**, jak widać w ramce powyżej. W ten sposób system automatycznie przeniesie czytelnika do wyznaczonego języka.
+Tenha em atenção que a hiperligação para o glossário que irá retirar do sítio Web contém o código da língua a seguir à palavra "rede" (exemplo: ``https://planb.academy/en/resources/glossary/utxo``-> aqui pode ler o código da língua "en"). Neste caso, **remove o código da língua da ligação**, como viu na caixa acima. Desta forma, o sistema levará automaticamente o leitor para a sua língua designada.
 
 
-Zawartość repozytorium jest pełna hiperłączy, takich jak te powyżej. Teraz, gdy już wiesz, co one oznaczają, **upewnij się, że nie usuniesz żadnego linku** wstawionego przez oryginalnego autora.
-
-
-
-- Kolejna rzecz związana z renderowaniem słów jest następująca. Jeśli w tekście znajduje się słowo "Plan ₿ Academy", **pozostaw je w oryginalnej formie**. Nie tłumacz słowa "plan" ani słowa "sieć". Poza tym, NIE używaj przedimka "The" przy wprowadzaniu Plan ₿ Academy: **traktuj to jako markę**.
+O conteúdo do repositório está cheio de hiperligações como estas acima. Agora que já sabe o que significam, **certifique-se de que não apaga nenhuma hiperligação** inserida pelo autor original.
 
 
 
-- To samo dotyczy "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", które również powinny być zachowane w oryginalnej formie.
-
-
-Ostatnia uwaga do tego akapitu: jak wspomnieliśmy powyżej, używamy narzędzi AI do tłumaczenia treści, a następnie prosimy o interwencję współpracowników, aby upewnić się, że wszystko jest płynne i dobrze sprawdzone.
-
-
-Jeśli użyjesz SI do korekty większości tekstu, z pewnością to zauważymy, ponieważ znamy typowe struktury zdań generowane przez SI. Jeśli okaże się, że korekta polegała wyłącznie na sztucznej inteligencji, bez wprowadzenia znaczących zmian, ostateczna nagroda w Sats może zostać zmniejszona o połowę!
+- Outra coisa relacionada com a reprodução de palavras é o seguinte. Se encontrar "Plan ₿ Academy" no texto, **deixe-o nesta forma original**. Não traduzas a palavra "plan" ou a palavra "network". Para além disso, NÃO utilize o artigo "The" quando apresentar a Plan ₿ Academy: **considere-a como uma marca**.
 
 
 
-## Struktura nagłówków
+- O mesmo se aplica a "₿-CERT", "BIZ SCHOOL", "TECH SCHOOL", que também devem ser mantidos na forma original.
 
 
-W języku markdown nagłówki (i tytuły akapitów) zaczynają się od znaku Hash ``#``. Liczba znaków Hash odpowiada poziomowi nagłówka. Na przykład nagłówek poziomu trzeciego ma trzy znaki numeryczne przed tekstem (np. `## My Header`).
+Uma nota final a este parágrafo: como dissemos acima, utilizamos ferramentas de IA para traduzir o conteúdo e, depois, pedimos a intervenção dos colaboradores para garantir que tudo é fluido e bem revisto.
 
 
-W kursach najważniejsze części są wprowadzane przez jeden znak Hash, podczas gdy podczęści mogą mieć od dwóch do czterech znaków Hash. W samouczkach zwykle używamy tylko nagłówków z dwoma znakami Hash.
+Se utilizar a IA para rever a maior parte do texto, iremos certamente reparar, pois estamos familiarizados com as estruturas de frases típicas que a IA gera. Se descobrirmos que se baseou apenas na IA para a revisão, sem aplicar alterações significativas, a recompensa final no sats pode ser reduzida para metade!
+
+
+
+## A estrutura dos cabeçalhos
+
+
+Na linguagem markdown, os cabeçalhos (e títulos de parágrafos) começam todos com o sinal de hash ``#``. O número de sinais de hash corresponde ao nível do cabeçalho. Por exemplo, um título de nível três tem três sinais de número antes do texto (por exemplo, `### Meu Cabeçalho`).
+
+
+Nos cursos, as partes mais importantes são introduzidas por um único sinal de hash, enquanto as sub-partes podem ter de dois a quatro sinais de hash. Nos tutoriais, normalmente só usamos cabeçalhos com dois sinais de hash.
 
 
 
@@ -166,23 +166,23 @@ W kursach najważniejsze części są wprowadzane przez jeden znak Hash, podczas
 
 
 
-Upewnij się, że **nigdy nie usuwasz znaków Hash** przed tytułem, w przeciwnym razie spowodujesz problemy ze strukturą tekstu.
+Certifique-se de que **NUNCA elimina os sinais de hash** antes de um título, caso contrário criará problemas com a estrutura do texto.
 
 
-Jednocześnie **nie zmieniaj** części chapterID, którą możesz zobaczyć na powyższym obrazku, ``<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>`` lub odniesień do wideo, takich jak ``:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::``.
+Ao mesmo tempo, **não altere** a parte do chapterID que pode ver na imagem acima, ``<chapterId>d668fdf6-fb4c-4bbf-82e1-afcb95c122e0</chapterId>`` ou as referências de vídeo como ``:::video id=ba99951f-81d2-418f-b5e7-4b8c9f8b8cc8:::```.
 
 
-Gdy wstawimy ``#`` przed tytułem, zostanie on automatycznie pogrubiony w podglądzie kursu, więc **unikamy pogrubiania tytułów podczas korekty**.
+Quando inserimos ``#`` antes de um título, este fica automaticamente a negrito na pré-visualização da disciplina, por isso **evite colocar os títulos a negrito durante a correção**.
 
 
-Na marginesie, w angielskiej wersji kursów **tytuły wprowadzane przez jeden lub dwa ``#`` mają wszystkie słowa zaczynające się wielkimi literami**, podczas gdy tytuły zaczynające się od trzech lub czterech ``#`` zwykle nie przestrzegają tej zasady. Jeśli to możliwe, upewnij się, że tytuły w języku docelowym są zgodne z tą strukturą.
+Como nota lateral, na versão EN dos cursos, os **títulos introduzidos por um ou dois ``#`` têm todas as palavras a começar em maiúsculas**, enquanto os títulos que começam com três ou quatro ``#``, normalmente não seguem esta regra. Se possível, certifique-se de que os títulos na sua língua de chegada seguem esta estrutura.
 
 
 
-## Początkowa sekcja kursów
+## A primeira secção de cursos
 
 
-Na początku każdej treści znajdują się następujące statyczne słowa pisane małymi literami: "nazwa", "opis", "cele". Są one używane przez witrynę do dekodowania samej treści i **zawsze pozostają w EN**. W związku z tym NIE należy ich tłumaczyć, w przeciwnym razie zawartość spowoduje problemy z synchronizacją. Upewnij się, że sprawdzasz tylko część po dwukropku, która jest automatycznie tłumaczona przez sztuczną inteligencję.
+No início de qualquer conteúdo, encontrará as seguintes palavras estáticas em minúsculas: "nome", "descrição", "objectivos". São utilizadas pelo sítio Web para descodificar o próprio conteúdo e são **sempre deixadas em EN**. Por conseguinte, NÃO as traduza, caso contrário o conteúdo criará problemas de sincronização. Certifique-se de que revê apenas a parte após os dois pontos, que é traduzida automaticamente pela IA.
 
 
 
@@ -190,147 +190,23 @@ Na początku każdej treści znajdują się następujące statyczne słowa pisan
 
 
 
-W tej samej sekcji początkowej zachowaj dotychczasowy format. Nie dodawaj niczego na początku tekstu. Np. unikaj dodawania "tt" przed myślnikami, jak na poniższym obrazku!
+Nesta mesma secção inicial, mantenha o formato como está. Não acrescente nada no início do texto. Por exemplo, evite acrescentar "tt" antes dos travessões, como na imagem abaixo!
 
 
 
 ![REVIEW](assets/en/8.webp)
 
 
+## Como lidar com as imagens da disciplina
 
-## Zalecenia dotyczące formatu
 
+O nosso sítio Web inclui agora imagens traduzidas para quase todos os cursos!
 
-Poniżej znajduje się kilka przykładów kwestii formatu, na które należy zwrócić uwagę podczas korekty treści w języku docelowym.
 
+Ao rever, verifique sempre se todas as imagens estão presentes e são apresentadas corretamente. Na `visualização de código`, se encontrar este tipo de linha `![IMAGE](assets/en/001.webp)`, significa que será apresentada uma imagem nesse local.
 
 
-- Zwróć uwagę na dziwne znaki interpunkcyjne, takie jak `**` lub `**`, które mogą reprezentować złe renderowanie pogrubionego symbolu. Na poniższym obrazku widać, że gwiazdki znajdują się tylko po prawej stronie słowa, co wygląda dziwnie.
-
-
-
-![REVIEW](assets/en/9.webp)
-
-
-
-Dlatego zawsze sprawdzaj oryginalny tekst w języku angielskim, aby zobaczyć, czy pogrubiony tekst powinien się tam znajdować. W takim przypadku wystarczy dodać dwie gwiazdki na początku słowa, aby poprawnie wyświetlić je na stronie internetowej. W rzeczywistości, w języku markdown, **aby wyrenderować pogrubienie, należy wstawić dwie gwiazdki ``**`` zarówno przed, jak i po słowie/zdaniu** (patrz przykład poniżej).
-
-
-
-![REVIEW](assets/en/10.webp)
-
-
-
-
-- Te same problemy mogą wystąpić w przypadku symboli takich jak $ i `` ``.
-
-Upewnij się, że sprawdziłeś oryginalny plik językowy (często EN lub FR), aby zobaczyć, gdzie powinny znajdować się te symbole. Zawsze możesz poprosić koordynatora o pomoc w tej kwestii.
-
-
-
-- Jeśli znajdziesz cytaty, poszukaj w Internecie odpowiedniego tłumaczenia na swój język. Cudzysłowy są zwykle wstawiane po symbolu ``>``.
-
-
-
-![REVIEW](assets/en/11.webp)
-
-## Korekta quizów
-
-
-Czy wiesz, że możesz również sprawdzać pytania quizowe w każdym kursie? Na przykład, jeśli chcesz zweryfikować quizy dla BTC101 w IT, możesz otworzyć dedykowaną gałąź i podążać następującą ścieżką: "kursy" -> "BTC101" -> "quiz". Znajdziesz tam wszystkie foldery poświęcone każdemu pytaniu, wraz z powiązanym plikiem językowym w formacie _yml_.
-
-
-Ponownie, upewnij się, że jesteś w dedykowanym oddziale, który otwierasz specjalnie w tym celu i zawsze informuj o tym koordynatora.
-
-
-Ważną rzeczą, o której należy pamiętać podczas korekty tego typu plików _yml_, jest unikanie dodawania dwukropków ``:`` wewnątrz tekstu. W rzeczywistości dwukropek jest **tylko** używany do oddzielania par klucz-wartość, takich jak "wrong_answers" od reszty. Przykład można zobaczyć na poniższym obrazku:
-
-
-![REVIEW](assets/en/12.webp)
-
-
-Po sprawdzeniu pytania upewnij się, że zmieniłeś status "sprawdzone" z "fałszywe" na "prawdziwe", jak pokazano na poniższym obrazku. Upewnij się, że te słowa statusu są w języku angielskim, bez względu na język, w którym pracujesz!
-
-
-
-![REVIEW](assets/en/13.webp)
-
-
-Jeśli brakuje linii statusu "reviewed:true", upewnij się, że **dodałeś ją na końcu quizu**.
-
-
-## Korekta słowniczka
-
-
-Podobnie jak w przypadku quizów, możesz również sprawdzić słowniczek. Oryginalny słowniczek został napisany w języku francuskim, więc znajdziesz w nim zdania takie jak: "W języku francuskim wyrażenie to można przetłumaczyć na..."
-
-
-W takich przypadkach należy dostosować zdanie do języka docelowego lub angielskiego. Na przykład można napisać "W języku angielskim wyrażenie to...".
-
-Jeśli tytuł jest w języku angielskim, możesz dostosować zdanie do swojego języka: "W języku suahili wyrażenie to..."
-
-
-Dodatkowo, upewnij się, że tytuły są pisane WIELKIMI LITERAMI.
-
-
-![REVIEW](assets/en/14.webp)
-
-
-## Tytuł i opis PR
-
-
-Kiedy wysyłasz swój PR, byłoby wspaniale, gdybyś nazwał go w tym formacie: [KOREKTA] NAZWA TREŚCI - JĘZYK:
-
-
-```
-[PROOFREADING] BTC101 - ENGLISH
-```
-
-
-Poza tym, w sekcji **komentarza PR** możesz wpisać "zamyka" + numer sprawy, którą koordynator wysłał ci, gdy rozpocząłeś zadanie korekty, poprzedzony ``#``.
-
-Na przykład, jeśli właśnie wysłałeś PR z korektą cyp201 + quizy, możesz napisać "zamyka [#2934](https://github.com/PlanB-Network/Bitcoin-educational-content/issues/2934)".
-
-
-W ten sposób PR i wydanie zostaną połączone, a każdy, kto czyta publiczne repozytorium Github, może łatwo znaleźć informacje.
-
-
-
-## Inne najlepsze praktyki
-
-
-
-- Jeśli chcesz wyszukać określone słowa w tekście, możesz kliknąć ``CTRL+F``, a pojawi się sekcja wyszukiwania-zamiany. Ta część jest bardzo przydatna, gdy trzeba przejść do określonej części tekstu lub zastąpić określone słowa / zdania w partii, bez przewijania całej zawartości.
-
-
-
-![REVIEW](assets/en/15.webp)
-
-
-
-Podczas korzystania z funkcji "zamień wszystko" ważne jest, aby dwukrotnie sprawdzić wyniki, aby upewnić się, że linki również nie zostały zmienione. Na przykład, jeśli chcesz zmienić słowo "Bitcoin" na "Bitkoin" (co może być konieczne w niektórych językach), użycie funkcji "zamień wszystko" może skutecznie zaktualizować wszystkie wystąpienia w tekście. Należy jednak pamiętać, że narzędzie to zmodyfikuje również wszystkie linki zawierające to słowo, potencjalnie prowadząc do problemów z przekierowaniem.
-
-
-W poniższym przykładzie korektor użył powyższej funkcji, aby zamienić "Satoshi" na "Satoshi(Sats)", a także zmienił link do samouczka zawierającego samo słowo. W rezultacie link stał się nieprawidłowy.
-
-
-Zawsze dokładnie sprawdzaj wszystkie hiperłącza w tekście, aby upewnić się, że są poprawne.
-
-
-
-![REVIEW](assets/en/16.webp)
-
-
-
-
-- Kontynuując temat, jeśli autor wstawi link odnoszący się do kursu Plan ₿ Academy lub samouczka (**nie** w nawiasie), strona automatycznie utworzy "kartę" pokazującą powiązaną miniaturę. W związku z tym zawsze upewnij się, że **dodałeś nową linię między tekstem a samym linkiem**, w przeciwnym razie możesz zobaczyć następujący błąd na stronie.
-
-
-
-![REVIEW](assets/en/17.webp)
-
-
-To samo dzieje się z "kodami obrazów", takimi jak ten ``[IMAGE](asset/fr/001.webp)``: upewnij się, że zawsze dodajesz nową linię między kodem obrazu a tekstem. Przykład poniżej:
+Certifique-se de que adiciona sempre uma nova linha entre o código da imagem e o texto. Um exemplo abaixo:
 
 
 ```
@@ -349,16 +225,201 @@ To save, click on `save`!
 ```
 
 
-## Wnioski
+
+Além disso, não se esqueça de ler o conteúdo de cada imagem. Se detetar algum problema com a tradução do texto das imagens, informe o seu coordenador e terá a oportunidade de as rever também!
 
 
-Podsumowując, świadomość typowych błędów korektorskich może naprawdę pomóc w doskonaleniu umiejętności sprawdzania treści. Łatwo jest przeoczyć takie rzeczy jak kontekst lub spójność, a wychwycenie tych błędów może mieć duże znaczenie.
+Pode visualizar a imagem na secção `Preview` do Github (ou no nosso site, abrir noutro separador). Depois, volte à secção `código` ao lado para fazer a revisão.
 
 
-Zawsze pamiętaj, że początkujący mogą czytać te kursy i samouczki, więc naszym obowiązkiem jest upewnienie się, że w pełni je rozumieją. Jako korektor jesteś nauczycielem!
+![REVIEW](assets/en/9.webp)
 
 
-Teraz możesz rozpocząć korektę kursów, samouczków, quizów i słowniczków. Bądź na bieżąco, aby rozpocząć sprawdzanie obrazów i transkrypcji wideo ;)
+## Recomendações de formato
 
 
-Dziękujemy za przeczytanie tego poradnika i życzymy miłej podróży!
+Em seguida, encontrará alguns exemplos de questões de formato a que deve prestar atenção ao rever o conteúdo na sua língua de chegada.
+
+
+
+- Preste atenção a pontuações estranhas como `\*\*\`, ou ``**`` que podem representar uma má representação do símbolo de negrito. Na imagem abaixo, pode ver que os asteriscos estão apenas à direita da palavra, o que parece estranho.
+
+
+
+![REVIEW](assets/en/10.webp)
+
+
+
+Assim, verifique sempre o texto original em inglês para ver se um texto a negrito é suposto estar lá. Neste caso, basta adicionar dois asteriscos no início da palavra, para que apareça corretamente no sítio Web. De facto, na linguagem markdown, **para tornar o negrito, tem de inserir dois asteriscos ``**`` antes e depois da palavra/frase*** (ver exemplo abaixo).
+
+
+
+![REVIEW](assets/en/11.webp)
+
+
+
+
+- Os mesmos problemas podem ocorrer com símbolos como $ e `` ` ` ``.
+
+Certifique-se de que verifica o ficheiro da língua original (frequentemente EN ou FR) para ver onde estes símbolos devem estar. Pode sempre pedir ajuda ao coordenador nesta matéria.
+
+
+
+- Se encontrar aspas, não se esqueça de fazer uma pesquisa online para encontrar a tradução correta na sua língua. As aspas são geralmente inseridas após o símbolo ``>``.
+
+
+
+![REVIEW](assets/en/12.webp)
+
+
+
+
+## Revisão de tutoriais
+
+
+Se decidir rever os tutoriais, o coordenador abrirá uma edição dedicada para a **secção completa de tutoriais**. Quando terminar a sua tarefa, pode documentar o seu progresso comentando a questão com uma lista dos tutoriais revistos: desta forma, cria um sistema de acompanhamento claro para referência futura, o que é importante porque todos os meses são adicionados novos conteúdos. Pode ver um exemplo desta abordagem [aqui](https://github.com/PlanB-Network/bitcoin-educational-content/issues/3023#issuecomment-3364923190).
+
+
+![REVIEW](assets/en/13.webp)
+
+
+Uma vez que são adicionados novos tutoriais mensalmente, o seu ramo pode ficar desatualizado durante o processo de revisão. Alguns revisores abordaram este problema sincronizando o ramo exato onde estão a trabalhar: **por favor, NUNCA faça isso! Se o fizeres, arriscas-te a perder todo o progresso que fizeste até esse momento!
+
+
+Em vez disso, você deve terminar de revisar os tutoriais no seu fork atual primeiro. Então, **sincronize o `dev`**, e crie um novo ramo onde você se concentra em revisar os novos tutoriais adicionados (apenas os que faltam no ramo anterior).
+
+
+Nos tutoriais, existe a possibilidade de **as imagens não estarem traduzidas**. Uma vez que a maioria dos tutoriais são **originalmente escritos em francês ou inglês**, é provável que encontre imagens que contêm comandos ou instruções na sua língua original. Vejamos um exemplo do tutorial sobre o Sparrow em neerlandês, relatando tanto o texto como a imagem relacionada.
+
+
+```
+Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Publieke server_".
+```
+
+
+![REVIEW](assets/en/14.webp)
+
+
+Como se pode ver, a imagem aponta claramente para `Public Server`, em inglês, enquanto o texto menciona a expressão `_Publieke server_`. Neste caso, existe um problema de coerência, pois o leitor encontra informações contraditórias ao confrontar a imagem com o texto.
+
+
+Para resolver este problema, pode inserir o comando tal como aparece na imagem (inglês ou francês), seguido da tradução na sua língua entre parênteses, como se mostra abaixo:
+
+
+```
+Verbinding maken met een openbaar knooppunt is heel eenvoudig. Klik op het tabblad "_Public Server_" (Publieke server).
+```
+
+
+
+## Revisão de questionários
+
+
+Sabia que também pode rever as perguntas dos questionários de cada curso? Por exemplo, se quiser rever os testes do curso BTC101 em TI, pode abrir uma secção específica e seguir este caminho: "cursos" -> "BTC101" -> "questionário". Aí, encontrará todas as pastas dedicadas a cada pergunta, juntamente com o ficheiro de língua correspondente no formato _yml_.
+
+
+Mais uma vez, certifique-se de que se encontra num balcão específico que abriu especificamente para este efeito e informe sempre o coordenador.
+
+
+Uma coisa importante a ter em mente ao revisar este tipo de arquivo _yml_ é evitar adicionar dois pontos ``:`` ou sinais de aspas dentro do texto. De facto, os dois pontos são **apenas** usados para separar pares de valores chave como "wrong_answers" do resto. Pode ver um exemplo na imagem abaixo:
+
+
+![REVIEW](assets/en/15.webp)
+
+
+Depois de rever a pergunta, certifique-se de que altera o estado "revisto" de "falso" para "verdadeiro", como mostra a imagem abaixo. Certifique-se de que **mantém estas palavras de estado em inglês**, independentemente da língua em que está a trabalhar!
+
+
+
+![REVIEW](assets/en/16.webp)
+
+
+Se a linha de estado "reviewed:true" estiver em falta, certifique-se de que a **adiciona no final do teste**.
+
+
+## Revisão do glossário
+
+
+Tal como os testes, também pode rever o glossário. O glossário original foi escrito em francês, pelo que encontrarás frases como: "Em francês, esta expressão pode ser traduzida por..."
+
+
+Em casos como este, adapte a frase à sua língua de chegada ou ao inglês. Por exemplo, pode escrever "Em inglês, esta expressão...".
+
+Se o título for deixado em inglês, pode adaptar a frase à sua língua: "Em suaíli, esta expressão..."
+
+
+Além disso, certifique-se de que escreve os títulos em LETRAS MAIÚSCULAS.
+
+
+![REVIEW](assets/en/17.webp)
+
+
+
+## O título e a descrição do seu PR
+
+
+Quando enviar o seu RP, seria ótimo se o nomeasse utilizando este formato: [REVISÃO] NOME DO CONTEÚDO - LÍNGUA:
+
+
+```
+[PROOFREADING] BTC101 - ENGLISH
+```
+
+
+Além disso, na secção **comentário do PR**, pode escrever "fecha" + o número do problema que o coordenador lhe enviou quando iniciou a tarefa de revisão, precedido de ``#``.
+
+Por exemplo, se acabou de enviar um PR com a revisão do cyp201 + quizzes, pode escrever "fecha [#2934](https://github.com/PlanB-Network/bitcoin-educational-content/issues/2934)".
+
+
+Desta forma, o PR e o problema estarão ligados e quem ler o repositório público do Github poderá encontrar facilmente as informações.
+
+
+
+## Outras boas práticas
+
+
+
+- Se precisar de procurar palavras específicas dentro do texto, pode clicar em ``CTRL+F`` e aparecerá a secção encontrar-substituir. Esta parte é muito útil quando precisa de saltar para uma parte específica do texto, ou precisa de substituir palavras/sentenças específicas em lote, sem percorrer todo o conteúdo.
+
+
+
+![REVIEW](assets/en/18.webp)
+
+
+
+Ao utilizar a função "substituir tudo", é importante verificar novamente os resultados para garantir que as hiperligações também não foram alteradas. Por exemplo, se pretender alterar a palavra "Bitcoin" para "Bitkoin" (o que pode ser necessário em algumas línguas), a utilização da função "substituir tudo" pode atualizar eficazmente todas as instâncias no texto. No entanto, tenha em atenção que esta ferramenta também modificará todas as hiperligações que contenham essa palavra, o que poderá levar a problemas de redireccionamento.
+
+
+No exemplo abaixo, o revisor utilizou a função acima para substituir "satoshi" por "satoshi(sats)" e também alterou a hiperligação para um tutorial que contém a própria palavra. Como consequência, a hiperligação tornou-se inválida.
+
+
+Verifique sempre todas as hiperligações no texto, para se certificar de que estão corretas.
+
+
+
+![REVIEW](assets/en/19.webp)
+
+
+
+
+- No seguimento do tópico, se o autor inserir uma ligação que remeta para um curso ou tutorial da Plan ₿ Academy (**não** dentro de parêntesis), o sítio Web criará automaticamente um "cartão" com a miniatura relacionada. Por conseguinte, certifique-se sempre de que **acrescenta uma nova linha entre o texto e a própria ligação**, caso contrário, poderá ver o seguinte erro no sítio Web.
+
+
+
+![REVIEW](assets/en/20.webp)
+
+
+
+## Conclusão
+
+
+Em suma, estar ciente dos erros comuns dos revisores pode ajudá-lo a melhorar as suas competências na verificação de conteúdos. É fácil ignorar aspectos como o contexto ou a coerência, e a deteção destes erros pode fazer uma grande diferença.
+
+
+Tenha sempre em mente que um principiante pode ler estes cursos e tutoriais, pelo que é da nossa responsabilidade garantir que eles compreendem plenamente. **Como revisor, é um educador!
+
+
+Agora está pronto para começar a rever cursos, tutoriais, questionários e glossários. Fique atento para começar a verificar também as transcrições de vídeo!
+
+
+Obrigado por ter lido este tutorial e desfrute da sua jornada de revisão de textos!

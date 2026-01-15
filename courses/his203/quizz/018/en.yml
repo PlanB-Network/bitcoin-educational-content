@@ -1,0 +1,9 @@
+question: Which libertarian radio show in the U.S. was one of the first to mention the existence of the Silk Road marketplace?
+answer: Free Talk Live
+wrong_answers:
+  - The Bitcoin Show
+  - All Things Considered
+  - Infowars Nightly News
+explanation: |
+ Free Talk Live was hosted by Ian Freeman and Mark Edge, who discovered Bitcoin in December 2010 and met Gavin Andresen in February 2011. On March 16, 2011, half of the show was devoted to the use of Bitcoin on Silk Road, which convinced Roger Ver to get more involved with Bitcoin.
+reviewed: false

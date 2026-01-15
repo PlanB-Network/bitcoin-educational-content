@@ -1,0 +1,9 @@
+question: What conditions make a Lightning penalty effective?
+answer: Detection before end of timelock
+wrong_answers:
+  - Detection before timelock begins
+  - Pre-release detection of cheating TX
+  - Detection after end of timelock
+explanation: |
+  The justice transaction must be released before the timelock expires to sanction the cheating. It can't be released before the timelock begins or the TX is published, as this would mean that the cheating simply didn't take place.
+reviewed: false

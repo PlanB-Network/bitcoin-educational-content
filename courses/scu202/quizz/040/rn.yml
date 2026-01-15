@@ -1,9 +1,9 @@
-question: Ni igikoresho ikihe c’ubuntu, kiboneka kuri sisitemu zose, gishobora gukoreshwa mu kugenzura umukono wa dosiye n’ukuntu ihuye n’urufunguzo rwa bose?
+question: Ni igikoresho ikihe c’ubuntu, kiboneka kuri sisiteme zose, gishobora gukoreshwa mu kugenzura umukono wa dosiye n’ivyo bihuye hakoresheje urufunguzo rwa rusange?
 answer: GnuPG
 wrong_answers:
-  - VeraIbanga
-  - GufunguraSSH
+  - VeraCrypt
+  - OpenSSH
   - 7-Zip
 explanation: |
-  GnuPG (gpg) ni igikoresho co gukoresha mu kugenzura umukono wa digitale no gucunga urufunguzo rwa bose.
-reviewed: false
+  GnuPG (gpg) ni igikoresho co gukoresha mu kugenzura umukono w'ubuhinga bwa none no gucunga urufunguzo rwa rusange.
+reviewed: true

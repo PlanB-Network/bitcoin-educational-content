@@ -11,13 +11,13 @@ Wakati wa kupakua programu, ni muhimu sana kuhakikisha kuwa haijabadilishwa na k
 Kuthibitisha uadilifu kunahusisha kuhakikisha kuwa faili iliyopakuliwa haijarekebishwa kwa kulinganisha alama ya vidole vyake dijitali (yaani, Hash yake) na ile iliyotolewa na msanidi rasmi. Ikiwa zote mbili zinalingana, inamaanisha kuwa faili inafanana na ya asili na haijaharibiwa au kurekebishwa na mshambulizi.
 
 
-Kuthibitisha uhalisi, kwa upande mwingine, huhakikisha kwamba faili kweli inatoka kwa msanidi rasmi na si mdanganyifu. Hii inafanywa kwa kuthibitisha sahihi ya dijiti. Sahihi hii inathibitisha kuwa programu ilitiwa saini na ufunguo halali wa faragha wa msanidi programu.
+Kuthibitisha uhalisi, kwa upande mwingine, huhakikisha kuwa faili kweli limetoka kwa msanidi rasmi na si kutoka kwa mdanganyifu. Hili hufanyika kwa kukagua sahihi ya dijiti, ambayo inathibitisha kwamba programu imetiwa saini kwa kutumia ufunguo halali wa faragha wa msanidi programu.
 
 
 Kama ukaguzi huu haujafanywa, kuna hatari ya kusakinisha programu hasidi ambayo inaweza kuwa na msimbo uliorekebishwa. Msimbo huu unaweza kuiba maelezo kama vile funguo zako za faragha au kuzuia ufikiaji wa faili zako. Aina hii ya mashambulizi ni ya kawaida sana, hasa katika muktadha wa programu huria ambapo matoleo ghushi yanaweza kusambazwa.
 
 
-Ili kutekeleza uthibitishaji huu, tutatumia zana mbili: utendakazi wa hashing ili kuthibitisha uadilifu, na GnuPG, zana huria inayotekeleza itifaki ya PGP, ili kuthibitisha uhalisi.
+Ili kutekeleza uthibitishaji huu, tutatumia zana mbili: utendakazi wa hashing ili kuthibitisha uadilifu, na GnuPG, zana huria inayotekeleza protocol ya PGP, ili kuthibitisha uhalisi.
 
 
 ## Masharti
@@ -147,7 +147,7 @@ Ikiwa saini ni halali, GPG itakuonyesha hili. Kisha unaweza kuendelea hadi hatua
 
 ## Inathibitisha Hash
 
-Kwa kuwa sasa uhalisi wa programu umethibitishwa, ni muhimu pia kuthibitisha uadilifu wake. Tutalinganisha Hash ya programu na Hash iliyotolewa na msanidi. Ikiwa zote mbili zinalingana, inahakikisha kwamba msimbo wa programu haujabadilishwa.
+Kwa kuwa sasa uhalisi wa programu umethibitishwa, ni muhimu pia kuthibitisha uadilifu wake. Tutalinganisha hash ya programu na hash iliyotolewa na msanidi programu. Ikiwa zote mbili zinalingana, inathibitisha kwamba msimbo wa programu haujabadilishwa.
 
 
 Kwenye **Windows**, fungua terminal na utekeleze amri ifuatayo:
@@ -231,7 +231,7 @@ Sasa umehakikishiwa kuwa programu uliyopakua ni ya kweli na dhabiti. Unaweza kue
 Ikiwa umepata mafunzo haya kuwa ya manufaa, ningeshukuru kidole gumba hapa chini. Jisikie huru kushiriki nakala hii kwenye mitandao yako ya kijamii. Asante sana!
 
 
-Ninapendekeza pia kuangalia mafunzo haya mengine kwenye VeraCrypt, programu ambayo hukuruhusu kusimba na kusimbua vifaa vya kuhifadhi.
+Ninapendekeza pia kuangalia mafunzo haya mengine kuhusu VeraCrypt, programu ambayo hukuruhusu kusimba na kusimbua vifaa vya kuhifadhi.
 
 
 https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5

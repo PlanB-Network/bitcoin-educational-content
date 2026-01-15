@@ -221,7 +221,7 @@ Najpopularniejszy skrypt wymaga podpisu kluczem prywatnym powiązanym z adresem.
 ### UTXOs: Niewykorzystane środki z poprzednich transakcji
 
 
-W Bitcoinie to, co faktycznie jest wymieniane, to nie bezpośrednio bitcoiny, ale **UTXOs** (_Unspent Transaction Outputs_), co oznacza „niewydane wyjścia transakcji”.
+W Bitcoinie to, co faktycznie jest wymieniane, to nie bezpośrednio bitcoiny, ale **[UTXO](https://planb.academy/resources/glossary/utxo)s** (_Unspent Transaction Outputs_), co oznacza „niewydane wyjścia transakcji”.
 
 
 UTXO to kawałek Bitcoina, który może mieć dowolną wartość, na przykład **2 000 bitcoinów**, **8 bitcoinów**, a nawet **8 000 satów**. Każdy UTXO jest zablokowany przez skrypt i aby go wydać, należy spełnić warunki skryptu, często chodzi o podpis kluczem prywatnym odpowiadający danemu adresowi odbiorcy.

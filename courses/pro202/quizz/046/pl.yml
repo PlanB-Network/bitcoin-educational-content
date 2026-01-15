@@ -1,0 +1,8 @@
+question: Jaki jest matematyczny związek między wartością trudności Bitcoin a bieżącym celem używanym do walidacji bloku?
+answer: Trudność jest równa najniższemu możliwemu celowi podzielonemu przez aktualny cel
+wrong_answers:
+  - Trudność jest równa aktualnemu celowi podzielonemu przez najniższy możliwy cel
+  - Trudność jest równa aktualnemu celowi pomnożonemu przez najniższy możliwy cel
+  - Trudność równa się współczynnikowi razy 256 podniesionemu do wykładnika minus 3
+explanation: |
+  Trudność Bitcoin jest konkretnie zdefiniowana jako najniższy_cel / aktualny_cel, co wyraża, ile razy trudniejszy jest mining w porównaniu do najłatwiejszego możliwego poziomu trudności. Ta odwrotna zależność oznacza, że wraz ze zmniejszaniem się celu (przez co trudniej jest znaleźć prawidłowe hashe), trudność wzrasta proporcjonalnie. Wzór zapewnia, że trudność równa 1 reprezentuje najłatwiejsze warunki mining, podczas gdy wyższe wartości oznaczają proporcjonalnie więcej pracy obliczeniowej wymaganej do znalezienia prawidłowych bloków.

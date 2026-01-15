@@ -1,0 +1,8 @@
+question: Quale sintassi di pattern macro corrisponde correttamente a zero o più espressioni separate da virgole in una macro simile a una funzione personalizzata?
+answer: $($x:expr),*
+wrong_answers:
+  - $($x:expr)*,
+  - $[x:expr],*
+  - ${$x:expr},*
+explanation: |
+  La sintassi corretta $($x:expr),* utilizza lo schema di ripetizione di Rust, dove il segno del dollaro introduce un gruppo di ripetizione, $x:expr corrisponde a ogni espressione con lo specificatore del frammento expr, la virgola agisce come separatore tra le espressioni e l'asterisco (*) indica zero o più ripetizioni. Le risposte sbagliate contengono errori di sintassi: $($x:expr)*, pone la virgola al di fuori del gruppo di ripetizione, $[x:expr],* usa le parentesi quadre al posto delle parentesi e omette il segno del dollaro prima di x, e ${$x:expr},* usa le parentesi graffe al posto delle parentesi per il gruppo di ripetizione.

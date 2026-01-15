@@ -1,0 +1,8 @@
+question: Abbé de Saint-Pierren kaupallista vaihtoa koskevan analyysin mukaan mikä perusperiaate selittää, miksi kauppiaat käyvät vapaaehtoista kauppaa?
+answer: Sekä ostaja että myyjä hyötyvät kaupasta molemminpuolisesti, sillä muuten kumpikaan ei suostuisi kauppaan
+wrong_answers:
+  - Yksi osapuoli saa aina enemmän kuin toinen, mikä luo kilpailuedun tulevissa neuvotteluissa
+  - Hallitus sääntelee hintoja varmistaakseen voittojen oikeudenmukaisen jakautumisen kaupan osapuolten kesken
+  - Markkinavoimat tasapainottavat voitot automaattisesti niin, että kokonaisvarallisuus pysyy vakiona kaikissa liiketoimissa
+explanation: |
+  Abbé de Saint-Pierre tunnusti, että vapaaehtoinen vaihto on positiivisen summan peli, jossa molemmat osapuolet hyötyvät. Hän totesi, että kun kauppiaat tekevät kauppaa keskenään, sekä myyjä että ostaja hyötyvät, koska ilman molemminpuolista hyötyä kumpikaan ei suostuisi kauppaan kyseiseen hintaan. Tämä periaate osoittaa, että vapaaehtoinen kaupankäynti luo arvoa molemmille osapuolille sen sijaan, että se vain siirtäisi varallisuutta yhdeltä toiselle, minkä vuoksi ihmiset päättävät harjoittaa kauppaa ja tehdä sopimuksia.

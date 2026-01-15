@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste gevolg als je vergeet een wijzigingsuitgang op te nemen bij het uitgeven van een UTXO die meer Bitcoin bevat dan nodig?
+answer: Het overschot wordt automatisch een mijnwerkersvergoeding
+wrong_answers:
+  - De transactie wordt door het netwerk geweigerd als ongeldig
+  - "Het teveel betaalde bedrag wordt teruggestuurd naar het adres van de oorspronkelijke afzender"
+  - Het overtollige bedrag blijft vergrendeld in de oorspronkelijke UTXO
+explanation: |
+  In het UTXO model van Bitcoin worden transactiekosten impliciet berekend als het verschil tussen de totale inputs en de totale outputs (vergoeding = som(inputs) - som(outputs)). Wanneer je een UTXO uitgeeft, moet je het volledig uitgeven - gedeeltelijke uitgaven zijn onmogelijk. Als je slechts een deel van de waarde van een UTXO moet uitgeven, moet je een wisseluitgang maken om de rest te ontvangen. Als je deze wisseluitgang vergeet, wordt het onberekende verschil tussen inputs en outputs automatisch het mijnwerkersloon. Dit is de reden waarom een goede wisseluitgang essentieel is - zonder dit kun je per ongeluk enorme vergoedingen betalen aan mijnwerkers.

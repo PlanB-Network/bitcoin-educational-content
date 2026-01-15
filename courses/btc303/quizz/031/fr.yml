@@ -6,3 +6,4 @@ wrong_answers:
   - Les coûts de sécurité ne sont plus supportés par les développeurs à travers la maintenance du code, mais par les utilisateurs à travers la participation au réseau
 explanation: |
   Le chapitre explique clairement qu'aujourd'hui, les détenteurs paient pour la sécurité de Bitcoin par le biais de l'inflation monétaire (création de nouvelles pièces via la subvention des blocs), mais qu'à l'avenir, lorsque la subvention des blocs approchera de zéro, les dépensiers paieront pour la sécurité par le biais des frais de transaction. Il s'agit d'un changement économique fondamental qui consiste à déterminer qui supporte le coût du maintien de la sécurité du réseau, en passant d'un modèle où la création de nouvelles pièces finance la mining à un modèle où les frais de transaction doivent inciter suffisamment les mineurs à sécuriser le réseau.
+reviewed: false

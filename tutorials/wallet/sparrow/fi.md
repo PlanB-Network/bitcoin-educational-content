@@ -20,7 +20,7 @@ Yhteyden osalta Sparrow antaa sinun muodostaa yhteyden omaan Bitcoin-solmuun jok
 
 ## Asenna Sparrow Wallet
 
-Siirry [Sparrow Wallet:n viralliselle lataussivulle] (https://sparrowwallet.com/download/) ja valitse käyttöjärjestelmääsi vastaava ohjelmistoversio.
+Siirry [Sparrow Wallet:n viralliselle lataussivulle](https://sparrowwallet.com/download/) ja valitse käyttöjärjestelmääsi vastaava ohjelmistoversio.
 
 ![Image](assets/fr/01.webp)
 

@@ -6,3 +6,4 @@ wrong_answers:
   - Dá ênfase à redução dos requisitos computacionais dos nós em vez de expandir a capacidade da rede
 explanation: |
   O livro define escalonamento como "aumentar a capacidade de utilização do Bitcoin sem comprometer a sua resistência à censura", o que inclui explicitamente a restrição de resistência à censura. Isto distingue-a de outras definições que se concentram apenas em aumentos da capacidade de transação, melhorias de eficiência ou sistemas em camadas sem considerar a preservação das propriedades fundamentais do Bitcoin. O requisito de resistência à censura garante que as soluções de escalonamento não prejudiquem a proposta de valor central do Bitcoin de ser um sistema descentralizado e sem confiança que não pode ser controlado por nenhuma entidade única.
+reviewed: false

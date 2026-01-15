@@ -1,0 +1,9 @@
+question: โปรโตคอลใดที่ใช้ในการเชื่อมโยงที่อยู่ IP กับที่อยู่ MAC บนเครือข่าย Ethernet?
+answer: ARP
+wrong_answers:
+  - RIP
+  - DNS
+  - OSPF
+explanation: |
+  Address Resolution Protocol (ARP) ทำหน้าที่จับคู่ที่อยู่ IP กับที่อยู่ MAC บนเครือข่ายท้องถิ่น
+reviewed: false

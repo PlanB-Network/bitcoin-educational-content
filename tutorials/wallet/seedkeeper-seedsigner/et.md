@@ -64,7 +64,7 @@ SeedSigneri kasutamiseks koos Seedkeeperiga tuleb paigaldada alternatiivne firmw
 
 
 
-Kui teil seda veel ei ole, laadige alla tarkvara [Balena Etcher] (https://etcher.balena.io/), seejärel toimige järgmiselt:
+Kui teil seda veel ei ole, laadige alla tarkvara [Balena Etcher](https://etcher.balena.io/), seejärel toimige järgmiselt:
 
 
 

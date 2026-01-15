@@ -1,0 +1,8 @@
+question: Ưu điểm quan trọng nhất của việc sử dụng kiểu dữ liệu Result và Option thay vì panic để xử lý lỗi trong mã Rust sản xuất là gì?
+answer: Chúng buộc phải thừa nhận rõ ràng những lỗi tiềm ẩn và cho phép phục hồi lỗi một cách khéo léo.
+wrong_answers:
+  - Chúng mang lại hiệu suất tốt hơn bằng cách tránh việc giải nén ngăn xếp trong điều kiện xảy ra lỗi.
+  - Chúng tự động chuyển đổi tất cả các loại lỗi thành thông báo dạng chuỗi để dễ dàng gỡ lỗi hơn.
+  - Chúng loại bỏ nhu cầu lan truyền lỗi bằng cách xử lý lỗi ngay tại điểm xảy ra sự cố.
+explanation: |
+  Các kiểu dữ liệu Result và Option giúp xử lý lỗi một cách rõ ràng và có thể khắc phục bằng cách buộc các nhà phát triển phải thừa nhận rằng các thao tác có thể thất bại và cung cấp các cơ chế để xử lý những thất bại đó một cách khéo léo. Không giống như panic, kiểu dữ liệu này ngay lập tức chấm dứt quá trình thực thi, các kiểu dữ liệu này cho phép chương trình tiếp tục chạy và phản hồi thích hợp với các điều kiện lỗi. Các câu trả lời sai đã mô tả sai khả năng của chúng: hiệu suất không phải là lợi thế chính, chúng không tự động chuyển đổi lỗi thành chuỗi (đó là tính năng của anyhow), và chúng thực sự tạo điều kiện thuận lợi chứ không phải loại bỏ sự lan truyền lỗi thông qua các toán tử như ?.

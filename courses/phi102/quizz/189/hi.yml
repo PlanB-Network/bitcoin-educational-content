@@ -1,0 +1,8 @@
+question: What fundamental relationship between law and individual rights distinguishes Benjamin Constant's theory from Montesquieu's conception of liberty?
+answer: Constant distinguishes the sphere of innocent individual action from the sphere of power, where government guarantees rights without determining individual will or actions
+wrong_answers:
+  - Constant argues that laws should expand their scope to cover all aspects of individual behavior while Montesquieu limits legal intervention to economic matters
+  - Constant believes that individual liberty depends on the multiplication of laws while Montesquieu advocates for the reduction of legal frameworks
+  - Constant proposes that government should actively shape individual desires and choices while Montesquieu leaves this entirely to social customs
+explanation: |
+  Benjamin Constant developed his theory specifically in contradiction to Montesquieu's dangerous definition of liberty as 'the right to do everything that laws permit.' Constant's key insight was to clearly separate the sphere of innocent individual action (which should remain free) from the sphere of governmental power (which should only guarantee the exercise of rights). This prevents the state from determining individual will or actions, unlike Montesquieu's conception which allows any restriction as long as it's legally authorized.

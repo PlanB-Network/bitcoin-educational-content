@@ -6,3 +6,4 @@ wrong_answers:
   - Johdettujen teosten on sisällettävä alkuperäinen Bitcoin Core -brändi, eikä niitä saa nimetä uudelleen tai brändätä uudelleen
 explanation: |
   MIT-lisenssi edellyttää, että johdettuja teoksia jaetaan samoilla lisenssiehdoilla kuin alkuperäistä ohjelmistoa, mikä takaa avoimen lähdekoodin luonteen säilymisen. Tämä ei kiellä kaupallista myyntiä (väärä vastaus 1), ei vaadi lupaa kehittäjiltä (väärä vastaus 2) eikä edellytä alkuperäisen tuotemerkin säilyttämistä (väärä vastaus 3). Lisenssissä todetaan nimenomaan, että muutokset ja johdetut teokset on sallittava samoilla ehdoilla, jolloin säilytetään luvaton kehitysmalli, joka mahdollistaa Lightning Network:n ja sivuketjujen kaltaiset innovaatiot.
+reviewed: false

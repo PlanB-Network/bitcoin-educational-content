@@ -26,11 +26,11 @@ ___
 
 
 
-Graylog ni suluhisho la chanzo huria la "sink ya kumbukumbu" iliyoundwa ili kuweka kati, kuhifadhi na kuchambua kumbukumbu kutoka kwa mashine na vifaa vyako vya mtandao kwa wakati halisi. Katika somo hili, tutajifunza jinsi ya kusakinisha toleo lisilolipishwa la Graylog kwenye mashine ya Debian 12!
+Graylog ni suluhisho la chanzo huria la "log sink" iliyoundwa ili kuweka kati, kuhifadhi na kuchambua kumbukumbu kutoka kwa mashine na vifaa vyako vya mtandao kwa wakati halisi. Katika somo hili, tutajifunza jinsi ya kusakinisha toleo lisilolipishwa la Graylog kwenye mashine ya Debian 12!
 
 
 
-Ndani ya mfumo wa taarifa, kila **seva**, iwe inaendesha **Linux** au **Windows**, na kila **kifaa cha mtandao** (badili, kipanga njia, ngome, n.k...) **huzalisha kumbukumbu zake**, zilizohifadhiwa ndani. Na magogo yaliyohifadhiwa ndani ya kila mashine, uchanganuzi wa tukio na uunganisho ni mgumu sana... Hapa ndipo **Graylog** inapoingia. Itafanya kama **sinki la kumbukumbu**, ikimaanisha kuwa **mashine zako zote zitaituma kumbukumbu zake** (kupitia syslog, kwa mfano). Kisha Greylog ** itahifadhi na kuashiria kumbukumbu hizi **, huku ikikuruhusu kufanya utafutaji wa kimataifa na kuunda arifa.
+Ndani ya mfumo wa taarifa, kila **server**, iwe inaendesha **Linux** au **Windows**, na kila **kifaa cha mtandao** (badili, kipanga njia, ngome, n.k...) **huzalisha kumbukumbu zake**, zilizohifadhiwa ndani. Na magogo yaliyohifadhiwa ndani ya kila mashine, uchanganuzi wa tukio na uunganisho ni mgumu sana... Hapa ndipo **Graylog** inapoingia. Itafanya kama **logs sink**, ikimaanisha kuwa **mashine zako zote zitaituma kumbukumbu zake** (kupitia syslog, kwa mfano). Kisha Greylog ** itahifadhi na kuashiria kumbukumbu hizi **, huku ikikuruhusu kufanya utafutaji wa kimataifa na kuunda arifa.
 
 
 
@@ -43,7 +43,7 @@ Graylog ni chombo cha uchambuzi na ufuatiliaji ambacho hurahisisha kutambua tabi
 
 
 
-**Kumbuka: toleo lisilolipishwa, Graylog Open, si SIEM kama Wazuh ilivyo, hasa kwa vile haina vitendaji halisi vya kugundua uvamizi.**
+**Kumbuka: toleo lisilolipishwa, **Graylog Open**, si SIEM kama Wazuh ilivyo, hasa kwa vile haina vitendaji halisi vya kugundua uvamizi.
 
 
 
@@ -51,19 +51,19 @@ Graylog ni chombo cha uchambuzi na ufuatiliaji ambacho hurahisisha kutambua tabi
 
 
 
-**Stack Graylog** inatokana na **vijenzi kadhaa** ambavyo tutahitaji kusakinisha na kusanidi. Hapa, tutasakinisha vipengele vyote kwenye seva moja, lakini inawezekana kuunda makundi kulingana na nodi kadhaa na kusambaza majukumu kwenye seva kadhaa. Kwa madhumuni ya mafunzo haya, tutakuwa tunasakinisha **Graylog 6.1**, toleo la hivi punde zaidi hadi sasa.
+**Stack Graylog** inatokana na **vijenzi kadhaa** ambavyo tutahitaji kusakinisha na kusanidi. Hapa, tutasakinisha vipengele vyote kwenye server moja, lakini inawezekana kuunda makundi kulingana na node kadhaa na kusambaza majukumu kwenye server kadhaa. Kwa madhumuni ya mafunzo haya, tutakuwa tunasakinisha **Graylog 6.1**, toleo la hivi punde zaidi hadi sasa.
 
 
 
 
 
-- MongoDB 7, toleo la sasa linalopendekezwa kwa Graylog (kiwango cha chini 5.0.7, cha juu zaidi 7.x)
+- **MongoDB 7**, toleo la sasa linalopendekezwa kwa Graylog (kiwango cha chini 5.0.7, cha juu zaidi 7.x)
 - **OpenSearch**, chanzo huria cha Fork cha Elasticsearch kilichoundwa na Amazon (kiwango cha chini 1.1.x, cha juu zaidi 2.15.x)
 - **OpenJDK 17**
 
 
 
-**Seva ya Greylog** inafanya kazi kwenye **Debian 12**, lakini usakinishaji unawezekana kwenye usambazaji mwingine, pamoja na kupitia Docker. Mashine ya kawaida ina vifaa vya ** 8 GB RAM ** na ** nafasi ya diski 256 GB **, ili kuwa na rasilimali za kutosha kwa vipengele vyote (vinginevyo hii inaweza kuwa na athari kubwa juu ya utendaji). Walakini, ninatoa hii kama mwongozo mbaya, kwani ** ukubwa wa usanifu wa Graylog unategemea kiwango cha habari cha kuchakatwa **. Graylog inaweza kuchakata MB 30 au MB 300 za data kwa siku, pamoja na GB 300 za data kwa siku... Ni **suluhisho la hatari** lenye uwezo wa kushughulikia **terabaiti za kumbukumbu** (ona [hii ukurasa](https://go2docs.graylog.org/current/planning_your_deployment/planning_your_deployment.html?tocpath=Plan%20Your%20Deployment%7C___0)).
+**Server ya Greylog** inafanya kazi kwenye **Debian 12**, lakini usakinishaji unawezekana kwenye usambazaji mwingine, pamoja na kupitia Docker. Mashine ya kawaida ina vifaa vya ** 8 GB RAM ** na ** nafasi ya diski 256 GB **, ili kuwa na rasilimali za kutosha kwa vipengele vyote (vinginevyo hii inaweza kuwa na athari kubwa juu ya utendaji). Walakini, ninatoa hii kama mwongozo mbaya, kwani ** ukubwa wa usanifu wa Graylog unategemea kiwango cha habari cha kuchakatwa. Graylog inaweza kuchakata MB 30 au MB 300 za data kwa siku, pamoja na GB 300 za data kwa siku... Ni **suluhisho la hatari** lenye uwezo wa kushughulikia **terabaiti za kumbukumbu** (ona [hii ukurasa](https://go2docs.graylog.org/current/planning_your_deployment/planning_your_deployment.html?tocpath=Plan%20Your%20Deployment%7C___0)).
 
 
 
@@ -75,7 +75,7 @@ Chanzo: Graylog
 
 
 
-Kabla ya kuanza usanidi, toa IP tuli Address kwa mashine ya Graylog na usakinishe masasisho ya hivi karibuni. Hakikisha umeweka saa za eneo la mashine ya karibu na ubainishe seva ya NTP kwa ulandanishi wa tarehe na saa. Hapa kuna amri ya kukimbia:
+Kabla ya kuanza usanidi, toa static IP address  kwa mashine ya Graylog na usakinishe masasisho ya hivi karibuni. Hakikisha umeweka saa za eneo la mashine ya karibu na ubainishe server ya NTP kwa ulandanishi wa tarehe na saa. Hapa kuna amri ya kukimbia:
 
 
 
@@ -85,7 +85,7 @@ sudo timedatectl set-timezone Europe/Paris
 
 
 
-**Kumbuka:** Usakinishaji wa OpenSearch ni wa hiari ikiwa unatumia **Njia ya Data ya Graylog** badala yake.
+**Kumbuka: **Usakinishaji wa OpenSearch ni wa hiari** ikiwa unatumia **Njia ya Data ya Graylog** badala yake.
 
 
 
@@ -181,7 +181,7 @@ sudo apt-get install -y mongodb-org
 
 
 
-Kisha anza upya huduma ya MongoDB na uiwezeshe kuanza kiotomatiki seva ya Debian inapozinduliwa.
+Kisha anza upya huduma ya MongoDB na uiwezeshe kuanza kiotomatiki server ya Debian inapozinduliwa.
 
 
 
@@ -202,7 +202,7 @@ Na MongoDB imewekwa, tunaweza kuendelea na kusakinisha sehemu inayofuata.
 
 
 
-Wacha tuendelee kusakinisha OpenSearch kwenye seva. Amri ifuatayo inaongeza ufunguo wa saini kwa vifurushi vya OpenSearch:
+Wacha tuendelee kusakinisha OpenSearch kwenye server. Amri ifuatayo inaongeza ufunguo wa saini kwa vifurushi vya OpenSearch:
 
 
 
@@ -279,14 +279,14 @@ Usanidi huu wa OpenSearch umeundwa ili kusanidi nodi moja. Hapa kuna baadhi ya m
 
 
 
-- cluster.name: graylog: kigezo hiki kinataja nguzo ya OpenSearch yenye jina "**graylog**".
-- node.name: ${HOSTNAME}: jina la nodi limewekwa kwa nguvu ili lilingane na mashine ya ndani ya Linux. Hata kama tuna nodi moja tu, ni muhimu kuipa jina kwa usahihi.
-- path.data: /var/lib/opensearch: njia hii inabainisha ambapo OpenSearch huhifadhi data yake kwenye mashine ya ndani, katika hali hii katika "**/var/lib/opensearch**".
-- path.logs: /var/log/opensearch: njia hii inafafanua ambapo faili za kumbukumbu za OpenSearch zimehifadhiwa, hapa katika "**/var/log/opensearch**".
-- discovery.type: single-nodi**: parameta hii inasanidi OpenSearch kufanya kazi na nodi moja, hivyo basi chaguo la "**single-nodi**" chaguo.
-- network.host: 127.0.0.1: usanidi huu unahakikisha kwamba OpenSearch inasikiza tu kwenye kitanzi chake cha ndani cha Interface, ambacho kinatosha kwa vile kiko kwenye seva sawa na Graylog.
+- **cluster.name: graylog**: kigezo hiki kinataja nguzo ya OpenSearch yenye jina "**graylog**".
+- **node.name: ${HOSTNAME}**: jina la nodi limewekwa kwa nguvu ili lilingane na mashine ya ndani ya Linux. Hata kama tuna nodi moja tu, ni muhimu kuipa jina kwa usahihi.
+- **path.data: /var/lib/opensearch**: njia hii inabainisha ambapo OpenSearch huhifadhi data yake kwenye mashine ya ndani, katika hali hii katika "**/var/lib/opensearch**".
+- **path.logs: /var/log/opensearch**: njia hii inafafanua ambapo faili za kumbukumbu za OpenSearch zimehifadhiwa, hapa katika "**/var/log/opensearch**".
+- **discovery.type: single-node**: parameta hii inasanidi OpenSearch kufanya kazi na nodi moja, hivyo basi chaguo la "**single-nodi**" chaguo.
+- **network.host: 127.0.0.1**: usanidi huu unahakikisha kwamba OpenSearch inasikiza tu kwenye kitanzi chake cha ndani cha Interface, ambacho kinatosha kwa vile kiko kwenye seva sawa na Graylog.
 - **action.auto_create_index: false**: kwa kuzima uundaji wa faharasa otomatiki, OpenSearch haitaunda faharasa kiotomatiki hati inapotumwa bila faharasa iliyopo.
-- plugins.security.disabled: **kweli**: chaguo hili huzima programu-jalizi ya usalama ya OpenSearch, kumaanisha kuwa hakutakuwa na uthibitishaji, udhibiti wa ufikiaji au usimbaji fiche wa mawasiliano. Mpangilio huu huokoa muda wakati wa kusanidi Graylog, lakini unapaswa kuepukwa katika toleo la umma (angalia [ukurasa huu](https://opensearch.org/docs/1.0/security-plugin/index/)).
+- **plugins.security.disabled: true**: chaguo hili huzima programu-jalizi ya usalama ya OpenSearch, kumaanisha kuwa hakutakuwa na uthibitishaji, udhibiti wa ufikiaji au usimbaji fiche wa mawasiliano. Mpangilio huu huokoa muda wakati wa kusanidi Graylog, lakini unapaswa kuepukwa katika toleo la umma (angalia [ukurasa huu](https://opensearch.org/docs/1.0/security-plugin/index/)).
 
 
 
@@ -408,7 +408,7 @@ Hatua inayofuata: usakinishaji uliosubiriwa kwa muda mrefu wa Graylog!
 
 
 
-Ili **kusakinisha Graylog 6.1** katika toleo lake jipya zaidi, endesha amri 4 zifuatazo ili **kupakua na kusakinisha Seva ya Greylog**:
+Ili **kusakinisha Graylog 6.1** katika toleo lake jipya zaidi, endesha amri 4 zifuatazo ili **kupakua na kusakinisha Server ya Greylog**:
 
 
 
@@ -431,10 +431,10 @@ Wacha tuanze kwa kusanidi chaguzi hizi mbili:
 
 
 
-- **password_secret**: parameta hii inatumika kufafanua ufunguo unaotumiwa na Graylog ili kupata hifadhi ya nywila za mtumiaji (kwa roho ya ufunguo wa salting). Ufunguo huu lazima uwe **kipekee** na **nasibu**.
-- **root_password_sha2**: parameter hii inafanana na nenosiri la msimamizi wa default katika Graylog. Imehifadhiwa kama Hash SHA-256.
+- **password_secret**: parameter hii inatumika kufafanua ufunguo unaotumiwa na Graylog ili kupata hifadhi ya password za mtumiaji (kwa roho ya ufunguo wa salting). Ufunguo huu lazima uwe **Unique** na **Random**.
+- **r.      oot_password_sha2**: parameter hii inafanana na nenosiri la msimamizi wa default katika Graylog. Imehifadhiwa kama Hash SHA-256.
 
-
+  
 
 Tutaanza kwa kutengeneza ufunguo wa herufi 96 kwa kigezo cha **password_secret**:
 
@@ -502,7 +502,7 @@ Bandika thamani kwenye **root_password_sha2** chaguo kama hii:
 
 
 
-Ukiwa kwenye faili ya usanidi, weka chaguo la "**http_bind_address**". Bainisha "**0.0.0.0:9000**" ili wavuti ya Interface ya Graylog iweze kufikiwa kwenye bandari **9000**, kupitia seva yoyote ya IP Address.
+Ukiwa kwenye faili ya usanidi, weka chaguo la "**http_bind_address**". Bainisha "**0.0.0.0:9000**" ili wavuti ya Interface ya Graylog iweze kufikiwa kwenye bandari **9000**, kupitia server yoyote ya IP Address.
 
 
 
@@ -510,7 +510,7 @@ Ukiwa kwenye faili ya usanidi, weka chaguo la "**http_bind_address**". Bainisha 
 
 
 
-Kisha weka chaguo la "**elasticsearch_hosts**" kuwa `http://127.0.0.1:9200` ili kutangaza mfano wetu wa OpenSearch. Hii ni muhimu, kwani hatutumii **Njia ya Data ya Graylog**. Na bila chaguo hili, haitawezekana kwenda mbali zaidi ...
+Kisha weka chaguo la "**elasticsearch_hosts**" kuwa `http://127.0.0.1:9200` ili kutangaza mfano wetu wa OpenSearch. Hii ni muhimu, kwani hatutumii **Graylog Data Path**. Na bila chaguo hili, haitawezekana kwenda mbali zaidi ...
 
 
 
@@ -522,7 +522,7 @@ Hifadhi na funga faili.
 
 
 
-Amri hii inawasha Greylog ili ianze kiotomatiki kwenye buti inayofuata, na mara moja inazindua seva ya Graylog.
+Amri hii inawasha Greylog ili ianze kiotomatiki kwenye buti inayofuata, na mara moja inazindua server ya Graylog.
 
 
 
@@ -532,7 +532,7 @@ sudo systemctl enable --now graylog-server
 
 
 
-Mara hii imefanywa, jaribu kuunganisha kwa Graylog kutoka kwa kivinjari. Ingiza IP ya seva Address (au jina) na mlango 9000.
+Mara hii imefanywa, jaribu kuunganisha kwa Graylog kutoka kwa kivinjari. Ingiza IP Address server (au jina) na mlango 9000.
 
 
 
@@ -540,7 +540,7 @@ Mara hii imefanywa, jaribu kuunganisha kwa Graylog kutoka kwa kivinjari. Ingiza 
 
 
 
-Sio muda mrefu uliopita, dirisha la uthibitishaji sawa na lililo hapa chini lilionekana wakati ulipoingia kwa mara ya kwanza kwenye Graylog. Ilibidi uingize kuingia kwako "**admin**" na nenosiri lako. Na kisha utashangaa bila kupendeza kupata kwamba muunganisho haukufanya kazi.
+Sio muda mrefu uliopita, window ya uthibitishaji sawa na lililo hapa chini lilionekana wakati ulipoingia kwa mara ya kwanza kwenye Graylog. Ilibidi uingize kuingia kwako "**admin**" na nenosiri lako. Na kisha utashangaa bila kupendeza kupata kwamba muunganisho haukufanya kazi.
 
 
 
@@ -548,7 +548,7 @@ Sio muda mrefu uliopita, dirisha la uthibitishaji sawa na lililo hapa chini lili
 
 
 
-Ilikuwa ni lazima kurudi kwenye mstari wa amri kwenye seva ya Graylog na kushauriana na magogo. Kisha tunaweza kuona kwamba **kwa muunganisho wa kwanza**, ni muhimu **kutumia nenosiri la muda**, lililobainishwa kwenye kumbukumbu.
+Ilikuwa ni lazima kurudi kwenye mstari wa amri kwenye server ya Graylog na kushauriana na magogo. Kisha tunaweza kuona kwamba **kwa muunganisho wa kwanza**, ni muhimu **kutumia nenosiri la muda**, lililobainishwa kwenye kumbukumbu.
 
 
 
@@ -566,7 +566,7 @@ Kisha ulilazimika kujaribu tena muunganisho na mtumiaji "**admin**" na nenosiri 
 
 
 
-**Hii sivyo ilivyo tena. Unachohitajika kufanya ni kuingia na akaunti yako ya msimamizi na nenosiri lililowekwa kwenye mstari wa amri**
+**Hii sivyo ilivyo tena. Unachohitajika kufanya ni kuingia na akaunti yako ya msimamizi na nenosiri lililowekwa kwenye mstari wa amri
 
 
 
@@ -574,7 +574,7 @@ Kisha ulilazimika kujaribu tena muunganisho na mtumiaji "**admin**" na nenosiri 
 
 
 
-**Karibu kwenye Interface ya Graylog!**
+**Karibu kwenye Interface ya Graylog!
 
 
 
@@ -594,7 +594,7 @@ Badala ya kutumia akaunti ya msimamizi iliyoundwa asili na Graylog, unaweza kuun
 
 
 
-Akaunti iliyobinafsishwa inaweza kuwa na maelezo ya ziada, kama vile jina la kwanza na la mwisho na barua pepe ya Address, tofauti na akaunti asili ya msimamizi. Zaidi ya hayo, hii inahakikisha ufuatiliaji bora zaidi wakati kila mtu anafanya kazi na akaunti iliyotajwa.
+Akaunti iliyobinafsishwa inaweza kujumuisha maelezo ya ziada, kama vile jina la kwanza, jina la mwisho, na barua pepe Address, tofauti na akaunti ya asili ya msimamizi. Zaidi ya hayo, hii inahakikisha ufuatiliaji bora zaidi wakati kila mtu anatumia akaunti iliyopewa jina.
 
 
 
@@ -606,11 +606,11 @@ Akaunti iliyobinafsishwa inaweza kuwa na maelezo ya ziada, kama vile jina la kwa
 
 
 
-Katika sehemu hii ya pili, tutajifunza jinsi ya kusanidi mashine ya Linux kutuma kumbukumbu zake kwa seva ya Graylog. Ili kufanya hivyo, tutasakinisha na kusanidi Rsyslog kwenye mfumo.
+Katika sehemu hii ya pili, tutajifunza jinsi ya kusanidi mashine ya Linux kutuma kumbukumbu zake kwa server ya Graylog. Ili kufanya hivyo, tutasakinisha na kusanidi Rsyslog kwenye mfumo.
 
 
 
-### II. Inasanidi Graylog ili kupokea kumbukumbu za Linux
+### II. Inasanidi Graylog ili kupokea logs za Linux
 
 
 
@@ -621,7 +621,7 @@ Tutaanza kwa kusanidi Graylog. Kuna hatua tatu za kukamilisha:
 
 
 - Kuundwa kwa **Ingizo** ili kuunda mahali pa kuingilia kuruhusu mashine za Linux **kutuma kumbukumbu za Syslog kupitia UDP**.
-- Kuundwa kwa **Fahasi** mpya ya kuhifadhi na **kuorodhesha kumbukumbu zote za Linux**.
+- Kuundwa kwa **Index** mpya ya kuhifadhi na **kuorodhesha logs zote za Linux**.
 - Uundaji wa **Tiririsha** ili **kuelekeza** kumbukumbu zilizopokelewa na Graylog hadi Fahirisi mpya ya Linux.
 
 
@@ -630,7 +630,7 @@ Tutaanza kwa kusanidi Graylog. Kuna hatua tatu za kukamilisha:
 
 
 
-Ingia kwenye Graylog Interface, bofya "**Mfumo**" kwenye menyu na kisha kwenye "**Ingizo**". Katika orodha kunjuzi, chagua "**Syslog UDP**" kisha ubofye kitufe kilichoandikwa "**Zindua ingizo jipya**". Inawezekana pia kuunda Uingizaji wa Syslog wa TCP, lakini hii inahitaji matumizi ya cheti cha TLS: nyongeza kwa usalama, lakini haijaangaziwa katika nakala hii.
+Ingia kwenye Graylog Interface, bofya "**Mfumo**" kwenye menyu na kisha kwenye "**input**". Katika orodha kunjuzi, chagua "**Syslog UDP**" kisha ubofye kitufe kilichoandikwa "**Zindua input mpya**". Inawezekana pia kuunda Uingizaji wa Syslog wa TCP, lakini hii inahitaji matumizi ya cheti cha TLS: nyongeza kwa usalama, lakini haijaangaziwa katika nakala hii.
 
 
 
@@ -646,7 +646,7 @@ Mchawi utaonekana kwenye skrini. Anza kwa kutoa Ingizo hili jina, kwa mfano "**G
 
 
 
-Unaweza pia kuangalia chaguo la "**Hifadhi ujumbe kamili**" ili kuhifadhi ujumbe kamili wa kumbukumbu katika Graylog. Bonyeza "**Anzisha Ingizo **".
+Unaweza pia kuangalia chaguo la "**Hifadhi ujumbe kamili**" ili kuhifadhi ujumbe kamili wa kumbukumbu katika Graylog. Bonyeza "**Anzisha Ingizo**".
 
 
 
@@ -661,7 +661,7 @@ Ingizo jipya limeundwa na sasa linatumika. Graylog sasa inaweza kupokea kumbukum
 ![Image](assets/fr/018.webp)
 
 
-**Kumbuka:** Ingizo moja linaweza kutumika kuhifadhi kumbukumbu kutoka kwa mashine kadhaa za Linux.
+**Kumbuka: Ingizo moja linaweza kutumika kuhifadhi kumbukumbu kutoka kwa mashine kadhaa za Linux.
 
 
 
@@ -669,7 +669,7 @@ Ingizo jipya limeundwa na sasa linatumika. Graylog sasa inaweza kupokea kumbukum
 
 
 
-Tunahitaji kuunda Index katika Graylog ili kuhifadhi kumbukumbu kutoka kwa mashine za Linux. **faharasa** katika Graylog ni muundo wa hifadhi ambao una kumbukumbu zilizopokelewa, yaani, ujumbe uliopokelewa. Graylog hutumia OpenSearch kama injini yake ya kuhifadhi, na ujumbe huwekwa katika faharasa ili kuwezesha utafutaji wa haraka na bora.
+Tunahitaji kuunda Index katika Graylog ili kuhifadhi kumbukumbu kutoka kwa mashine za Linux. **Index** katika Graylog ni muundo wa hifadhi ambao una kumbukumbu zilizopokelewa, yaani, ujumbe uliopokelewa. Graylog hutumia OpenSearch kama injini yake ya kuhifadhi, na ujumbe huwekwa katika faharasa ili kuwezesha utafutaji wa haraka na bora.
 
 
 
@@ -701,7 +701,7 @@ Ili kuunda mtiririko mpya, bofya "**Mitiririko**" katika menyu kuu ya Graylog. K
 
 
 
-**Kumbuka: barua pepe zinazolingana na mtiririko huu pia zitajumuishwa katika "Mtiririko Chaguomsingi", isipokuwa ukiangalia chaguo la "Ondoa mechi kutoka kwa 'Mtiririko Chaguomsingi'".**
+**Kumbuka: barua pepe zinazolingana na mtiririko huu pia zitajumuishwa katika "**Mtiririko Chaguomsingi **", isipokuwa ukiangalia chaguo la "**Ondoa mechi kutoka kwa 'Mtiririko Chaguomsingi'**".
 
 
 
@@ -713,7 +713,7 @@ Kisha, katika mipangilio yako ya mvuke, bofya kitufe cha "**Ongeza kanuni ya mti
 
 
 
-Chagua aina ya "**lingana**" na uchague ingizo lililoundwa awali **Rsyslog katika UDP**. Thibitisha kwa kitufe cha "**Unda Sheria**". Barua pepe zote kwa Ingizo letu jipya sasa zitatumwa kwa Fahirisi ya Linux.
+Chagua aina ya "**lingana*" na uchague ingizo lililoundwa awali **Rsyslog katika UDP**. Thibitisha kwa kitufe cha "** Unda Sheria **". Barua pepe zote kwa Ingizo letu jipya sasa zitatumwa kwa Fahirisi ya Linux.
 
 
 
@@ -917,7 +917,7 @@ message:Failed password AND application_name:sshd
 
 
 
-Ikiwa una seva kadhaa na ungependa kuchambua kumbukumbu za seva maalum, taja jina lake kwa kuongeza:
+Ikiwa una server kadhaa na ungependa kuchambua kumbukumbu za server maalum, taja jina lake kwa kuongeza:
 
 
 
@@ -935,7 +935,7 @@ Hapa kuna muhtasari wa matokeo kwenye mashine ambapo nilitoa makosa kadhaa ya un
 
 
 
-Majaribio ya uunganisho yasiyofanikiwa yanafanywa kutoka kwa mashine na IP Address "** 192.168.10.199 **". Iwapo ungependa kujua zaidi kuhusu shughuli za seva pangishi hii, unaweza **kutafuta IP hii Address**. Graylog itatoa kumbukumbu zote ambapo IP hii Address imerejelewa, kwa wapangishi wote (ambao utumaji wa kumbukumbu umesanidiwa).
+Majaribio ya uunganisho yasiyofanikiwa yanafanywa kutoka kwa mashine na IP Address "** 192.168.10.199 **". Iwapo ungependa kujua zaidi kuhusu shughuli za seva pangishi hii, unaweza **kutafuta IP Address hii**. Graylog itatoa kumbukumbu zote ambapo IP Address hii  imerejelewa, kwa wapangishi wote (ambao utumaji wa kumbukumbu umesanidiwa).
 
 
 
@@ -961,7 +961,7 @@ Tunapata matokeo ya ziada (haishangazi, kwani hatuchuji kwenye programu ya SSH):
 
 
 
-Kwa kufuata mafunzo haya, unapaswa kuwa na uwezo wa kusanidi mashine ya Linux kutuma kumbukumbu zake kwa seva ya Graylog. Kwa njia hii, utaweza kuweka kumbukumbu za wapangishi wako wa Linux kwenye sinki yako ya logi!
+Kwa kufuata mafunzo haya, unapaswa kuwa na uwezo wa kusanidi mashine ya Linux kutuma kumbukumbu zake kwa server ya Graylog. Kwa njia hii, utaweza kuweka kumbukumbu za wapangishi wako wa Linux kwenye log sink yako!
 
 
 

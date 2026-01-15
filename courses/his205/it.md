@@ -3869,10 +3869,10 @@ Devono solo assicurarsi di poter effettuare questi trasferimenti, ma non c'è un
 
 
 
-Per capire il legame tra denaro e inflazione, vi consiglio un corso che ho su Plan ₿ Network dedicato a questo argomento. Imparerete la differenza tra l'aumento dei prezzi, che è ciò che vediamo nella vita, e l'inflazione. Non sono la stessa cosa. Infatti, quando si parla di inflazione, spesso si parla di aumento dei prezzi, non di inflazione in sé. L'inflazione è un concetto abbastanza preciso, che si spiega con l'aumento dell'offerta di moneta.
+Per capire il legame tra denaro e inflazione, vi consiglio un corso che ho su Plan ₿ Academy dedicato a questo argomento. Imparerete la differenza tra l'aumento dei prezzi, che è ciò che vediamo nella vita, e l'inflazione. Non sono la stessa cosa. Infatti, quando si parla di inflazione, spesso si parla di aumento dei prezzi, non di inflazione in sé. L'inflazione è un concetto abbastanza preciso, che si spiega con l'aumento dell'offerta di moneta.
 
 
-https://planb.academy/courses/hyperinflation-case-studies-caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 Per concludere questa sezione sul mondo fiat, vorrei segnalarvi una risorsa che vi aiuterà a comprendere meglio i fenomeni che ho appena spiegato, come l'inflazione.
 

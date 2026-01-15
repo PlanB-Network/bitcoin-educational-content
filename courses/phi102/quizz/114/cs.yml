@@ -1,0 +1,8 @@
+question: Co se podle ekonomické teorie volného trhu stane, když podnikatelé předčasně očekávají poptávku spotřebitelů po inovaci, která ještě neexistuje?
+answer: Absence zisku je přirozeně odrazuje od pokračování a brání ostatním následovat jejich příkladu
+wrong_answers:
+  - Vládní zásahy přesměrovávají jejich úsilí na společensky prospěšnější projekty prostřednictvím dotací
+  - Pokračují v investování, dokud se preference spotřebitelů nakonec nesrovnají s jejich původními předpověďmi
+  - Regulace trhu je nutí opustit své projekty, aby se zabránilo ekonomickému plýtvání
+explanation: |
+  V systému volného trhu slouží zisky jako klíčový signál, který ukazuje skutečnou poptávku spotřebitelů. Pokud podnikatelé špatně odhadnou načasování trhu a očekávají poptávku, která neexistuje, nedosáhnou zisku, což přirozeně odrazuje od dalších investic tímto směrem. Tento samoopravný mechanismus zabraňuje plýtvání zdroji na předčasné inovace. Ostatní možnosti nesprávně navrhují vnější zásah nebo trvalé investice navzdory signálům trhu, což je v rozporu s důrazem kapitoly na to, jak signály o zisku řídí racionální ekonomické rozhodování.

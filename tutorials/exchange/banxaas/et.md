@@ -20,7 +20,7 @@ Selles õpetuses avastame **Banxaas**, barterplatvormi, mis toob senegali inimes
 
 
 
-Banxaas pärineb senegali murdekeelest (Wolof), mis tähendab haru. Ideoloogiliselt võime Banxaas'i vaadelda kui haru, mis seob senegali inimesi Bitcoin kasutamisega. Filiaal, millele saab toetuda, et kaitsta oma sääste inflatsiooni ja tsensuuri eest. Senegali idufirma (Yité Technologies) poolt välja töötatud [Banxaas] (https://banxaas.com) pakub tänu Lightning Network võimsusele Exchange vahetut teenust Bitcoin ja CFA frangi (XOF) vahel. Banxaasil on Lääne-Aafrika allpiirkonnas Exchange platvormidele ebatavaline lähenemine.
+Banxaas pärineb senegali murdekeelest (Wolof), mis tähendab haru. Ideoloogiliselt võime Banxaas'i vaadelda kui haru, mis seob senegali inimesi Bitcoin kasutamisega. Filiaal, millele saab toetuda, et kaitsta oma sääste inflatsiooni ja tsensuuri eest. Senegali idufirma (Yité Technologies) poolt välja töötatud [Banxaas](https://banxaas.com) pakub tänu Lightning Network võimsusele Exchange vahetut teenust Bitcoin ja CFA frangi (XOF) vahel. Banxaasil on Lääne-Aafrika allpiirkonnas Exchange platvormidele ebatavaline lähenemine.
 
 
 
@@ -37,7 +37,7 @@ https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Esimest korda kauplemine Banxaasiga
 

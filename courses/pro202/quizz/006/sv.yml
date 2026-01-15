@@ -1,0 +1,8 @@
+question: Vad är identitetselementet i den elliptiska kurvans grupp som används för punktadditionsoperationer?
+answer: Punkten vid oändligheten
+wrong_answers:
+  - Ursprungspunkten (0,0)
+  - Generatorpunkten G
+  - Kurvparametern a
+explanation: |
+  Punkten i oändligheten fungerar som identitetselement i elliptiska kurvgrupper, vilket innebär att om man adderar en punkt P till punkten i oändligheten blir P oförändrad. Detta är analogt med hur addition av noll fungerar i vanlig aritmetik. Ursprunget (0,0) ligger inte nödvändigtvis på kurvan, generatorpunkten G används för att skapa publika nycklar och kurvparametern a är bara en koefficient i kurvekvationen, inte ett identitetselement.

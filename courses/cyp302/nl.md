@@ -681,18 +681,18 @@ Laten we het eerst definiëren. Stel dat er een woordenboek *D* is dat alle lett
 De modulo operator in het shift cijfer zorgt ervoor dat letters omwikkeld worden, zodat alle cijfertekst letters gedefinieerd worden. Ter illustratie, bekijk de toepassing van het shift cijfer op het woord "DOG".
 
 
-Stel dat je een sleutel uniform hebt geselecteerd om de waarde 17 te hebben. De letter "O" komt overeen met 15. Zonder de modulo-operatie zou de optelling van dit klaartekstgetal met de sleutel een cijfertekstgetal van 32 opleveren. Dit cijfertekstnummer kan echter niet worden omgezet in een cijfertekstletter, aangezien het Engelse alfabet slechts 26 letters telt. De modulo-operatie zorgt ervoor dat het cijfertekstgetal in werkelijkheid 6 is (het resultaat van $32 mod 26$), wat overeenkomt met de cijfertekstletter "G".
+Stel dat u een sleutel gelijkmatig selecteerde met de waarde $17$. De letter “O” komt overeen met $14$. Zonder de modulo-operatie zou de optelling van dit cijfer van de duidelijke tekst met de sleutel leiden tot een cijfer van de cijfertekst van $31$. Dat cijfer kan echter niet worden omgezet in een cijferletter, omdat het Engelse alfabet slechts $26$ letters heeft. De modulo-operatie zorgt ervoor dat het cijfer van de cijfertekst eigenlijk $5$ is (het resultaat van $31 \mod 26$), wat overeenkomt met de cijferletter “F”.
 
 
 De volledige versleuteling van het woord "DOG" met een sleutelwaarde van 17 is als volgt:
 
 
 
-- Bericht = DOG = D,O,G = 3,15,6
+**Bericht = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \ 26] = [(20) \ 26] = 20 = U$
-- $c_1 = [(15 + 17) \ 26] = [(32) \ 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \ 26] = [(23) \ 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 
 Iedereen kan intuïtief begrijpen hoe het shift cijfer werkt en het waarschijnlijk zelf gebruiken. Om je kennis van cryptografie te vergroten is het echter belangrijk om meer vertrouwd te raken met formalisatie, aangezien de schema's veel moeilijker worden. Daarom zijn de stappen voor het shift cijfer geformaliseerd.
@@ -1332,7 +1332,7 @@ Voor verdere discussie over moderne getaltheorie kun je veel geavanceerde discus
 [3] Bekijk [YouTube Video](https://www.youtube.com/watch?v=NOMUnMuxDZY&feature=youtu.be)
 
 
-[4] Socratica, [Abstracte Algebra] (https://www.socratica.com/subject/abstract-algebra)
+[4] Socratica, [Abstracte Algebra](https://www.socratica.com/subject/abstract-algebra)
 
 
 [5] Katz en Lindell, *Introduction to Modern Cryptography*, 2nd edn, 2015 (CRC Press: Boca Raton, FL). Paar en Pelzl, *Understanding Cryptography*, 2010 (Springer-Verlag: Berlijn).
@@ -2719,7 +2719,7 @@ Botsingsbestendige Hash functies zijn bijvoorbeeld belangrijk bij de verificatie
 
 2.	Vervolgens moet je de publieke sleutels die je hebt geïmporteerd verifiëren. Ten minste één stap die je moet nemen is controleren of de publieke sleutels die je gevonden hebt dezelfde zijn als die gepubliceerd zijn op verschillende andere locaties. Je zou bijvoorbeeld de persoonlijke webpagina's, Twitter-pagina's of Github-pagina's kunnen raadplegen van de mensen van wie je de publieke sleutels hebt geïmporteerd. Meestal wordt deze vergelijking van publieke sleutels gedaan door een korte Hash van de publieke sleutel te vergelijken, ook wel bekend als een vingerafdruk.
 
-3.	Vervolgens moet je de executable voor Bitcoin Core downloaden van hun [website] (www.bitcoincore.org). Er zijn pakketten beschikbaar voor Linux, Windows en MAC besturingssystemen.
+3.	Vervolgens moet je de executable voor Bitcoin Core downloaden van hun [website](www.bitcoincore.org). Er zijn pakketten beschikbaar voor Linux, Windows en MAC besturingssystemen.
 
 4.	Vervolgens moet je twee release bestanden vinden. Het eerste bevat de officiële SHA-256 Hash voor het uitvoerbare bestand dat je hebt gedownload, samen met de hashes van alle andere pakketten die zijn uitgebracht. Een ander releasebestand bevat de handtekeningen van verschillende bijdragers over het releasebestand met de hashes van de pakketten. Beide release bestanden zouden zich op de Bitcoin Core website moeten bevinden.
 

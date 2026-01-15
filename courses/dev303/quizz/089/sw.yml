@@ -1,0 +1,8 @@
+question: Ni sababu gani kuu ya UniFFI kuwataka watengenezaji kuunda faili tofauti ya UDL badala ya kutoa kiotomatiki vifungo moja kwa moja kutoka kwa msimbo wa Rust?
+answer: UDL hutumika kama mkataba wa kiolesura dhahiri unaobainisha ni sehemu gani za maktaba ya Rust zinapaswa kufichuliwa kwa lugha zingine
+wrong_answers:
+  - "UDL inahitajika kwa sababu mfumo wa aina ya Rust hauendani na lugha zingine za programu bila tafsiri"
+  - Faili za UDL zinahitajika ili kuboresha utendaji wa simu za chaguo-msingi za lugha mtambuka wakati wa utekelezaji wa wakati wa utekelezaji
+  - "UDL hutoa njia ya kubadilisha kiotomatiki mfumo wa umiliki wa Rust kuwa ukusanyaji wa takataka kwa lugha lengwa"
+explanation: |
+  UniFFI hutumia UDL kama chaguo la makusudi la kubuni ili kudumisha utenganisho wa masuala kati ya utekelezaji na kiolesura. Faili ya UDL hufanya kazi kama mkataba dhahiri unaowaruhusu wasanidi programu kufichua kwa hiari sehemu za maktaba yao ya Rust huku wakiweka maelezo ya utekelezaji wa ndani kuwa ya faragha. Mbinu hii huzuia ufichuzi otomatiki wa vipengee vyote vya umma vya Rust, na kuwapa wasanidi programu udhibiti mzuri wa uso wao wa API. Chaguzi zingine si sahihi kwa sababu aina za Rust zinaweza kupangwa bila UDL (ingawa si za kifahari sana), uboreshaji wa utendaji sio kusudi kuu la UDL, na UDL haibadilishi mifumo ya umiliki.

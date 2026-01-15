@@ -892,7 +892,7 @@ Ne zaboravite da komunicirate sa svojim timovima pre implementacije: potrebno je
 
 
 
-Konačno, možete uporediti **Lynis** sa drugim alatima, kojih ima nekoliko. Ako želite preći na centralizovano upravljanje, a da ostanete open source, preporučujem alat [Wazuh] (https://wazuh.com/).
+Konačno, možete uporediti **Lynis** sa drugim alatima, kojih ima nekoliko. Ako želite preći na centralizovano upravljanje, a da ostanete open source, preporučujem alat [Wazuh](https://wazuh.com/).
 
 
 

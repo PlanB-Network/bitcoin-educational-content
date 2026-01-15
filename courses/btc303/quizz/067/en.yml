@@ -6,3 +6,4 @@ wrong_answers:
   - Improving signature verification performance to process blocks faster
 explanation: |
   The chapter explicitly defines Bitcoin scaling as 'increasing Bitcoin's usage capacity without compromising its censorship resistance.' The correct answer violates this definition because requiring users to trust centralized payment processors directly compromises Bitcoin's censorship resistance - a core value proposition. The wrong answers all represent legitimate scaling approaches mentioned in the chapter: efficient encoding reduces resource usage, layered solutions enable additional capacity while preserving the base layer's properties, and improved signature verification enhances performance without centralization trade-offs.
+reviewed: false

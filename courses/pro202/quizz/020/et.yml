@@ -1,0 +1,8 @@
+question: Milline matemaatiline probleem on aluseks ECDSA allkirjade turvalisusele Bitcoin-s?
+answer: Elliptilise kõvera diskreetse logaritmi probleem
+wrong_answers:
+  - Tervikliku faktoriseerimise probleem
+  - Kvadraatilise jäägi probleem
+  - Hash-kokkupõrke probleem
+explanation: |
+  ECDSA turvalisus tugineb elliptilise kõvera diskreetse logaritmi probleemile: antud P = eG, P arvutamine e-st ja G-st on lihtne, kuid avaliku võtme e tuletamine avalikust võtmest P on arvutuslikult teostamatu. See ühesuunaline matemaatiline seos võimaldab turvalist avaliku võtme krüptograafiat väiksema võtmesuurusega kui RSA, mis sõltub täisarvufaktoritest.

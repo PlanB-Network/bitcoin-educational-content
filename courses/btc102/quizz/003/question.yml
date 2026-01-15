@@ -63,7 +63,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.26
+    reward: 0.23
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -103,17 +103,19 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.29
+    reward: 0.23
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 0.21
+      - Arianebtc
+    reward: 0.1
   - language: vi
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 0.26
+      - Anh-La
+    reward: 0.12
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -141,7 +143,19 @@ proofreading:
     contributor_names:
     reward: 0.23
   - language: rn
+    last_contribution_date: '2025-12-04'
+    urgency: 1
+    contributor_names:
+      - barakana
+    reward: 0.12
+  - language: bg
+    last_contribution_date: '2025-12-04'
+    urgency: 1
+    contributor_names:
+      - dnabg
+    reward: 0.1
+  - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.26
+    reward: 0.23

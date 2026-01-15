@@ -6,3 +6,4 @@ wrong_answers:
   - De mining hardware wordt door verschillende bedrijven gemaakt om monopolisering van apparatuur te voorkomen
 explanation: |
   Miner decentralisatie betekent specifiek dat het bestellen van transacties niet wordt gecontroleerd door een enkele entiteit of vaste groep, maar eerder door een collectief van miners die zich vrij kunnen aansluiten of vertrekken. Dit is anders dan blokvalidatie (wat te maken heeft met full node decentralisatie), beloningsdistributie of hardwarefabricage. De dynamische aard van het mining collectief - waar iedereen zonder toestemming aan kan deelnemen - is wat Bitcoin censuurbestendig maakt en voorkomt dat een enkele partij kan bepalen welke transacties in blokken worden opgenomen.
+reviewed: false

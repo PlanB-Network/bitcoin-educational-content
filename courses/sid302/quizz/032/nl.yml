@@ -1,0 +1,8 @@
+question: Wat gebeurt er wanneer een reverse submarine swap mislukt of een time-out krijgt in de Breez SDK-architectuur?
+answer: De SDK stelt automatisch een restitutietransactie samen en zendt deze uit om geld terug te storten op de wallet van de gebruiker
+wrong_answers:
+  - De swapprovider zet handmatig binnen 24 uur een herstelproces in gang waarbij tussenkomst van de gebruiker vereist is
+  - De fondsen blijven permanent geblokkeerd totdat de Lightning Network verbinding is hersteld
+  - De gebruiker moet contact opnemen met Boltz support om handmatig een federated peg-uit transactie te triggeren
+explanation: |
+  De Breez SDK implementeert Automated Refund Management als een kritisch veiligheidsmechanisme. Wanneer swaps mislukken of time-out gaan, bewaakt de SDK alle swapstatussen en handelt het herstelproces automatisch af zonder tussenkomst van de gebruiker. Dit neemt de complexiteit van contracten met tijdslot weg en zorgt ervoor dat fondsen nooit permanent verloren gaan. De andere opties zijn onjuist omdat ze ofwel handmatige tussenkomst vereisen, veronderstellen dat fondsen permanent verloren gaan of processen omvatten die niet bestaan in het geautomatiseerde systeem.

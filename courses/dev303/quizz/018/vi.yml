@@ -1,0 +1,8 @@
+question: Rust sử dụng cơ chế nào để tự động dọn dẹp các biến và tài nguyên của chúng khi chúng nằm ngoài phạm vi?
+answer: Cơ chế thả gọi các hàm thả trên các biến.
+wrong_answers:
+  - Bộ thu gom rác định kỳ quét các vùng nhớ không sử dụng.
+  - Giải phóng bộ nhớ thủ công thông qua các lệnh gọi hàm free() tường minh.
+  - Bộ đếm tham chiếu theo dõi số lượng con trỏ tham chiếu đến mỗi giá trị.
+explanation: |
+  Rust sử dụng cơ chế loại bỏ (drop) để tự động dọn dẹp tài nguyên khi các biến nằm ngoài phạm vi. Hệ thống này ngầm gọi một hàm loại bỏ trên mỗi biến khi nó nằm ngoài phạm vi, đánh dấu bộ nhớ là có thể sử dụng lại và thực hiện bất kỳ thao tác dọn dẹp cần thiết nào như đóng các file handle. Cách tiếp cận này, được mượn từ mẫu RAII của C++, đảm bảo quản lý tài nguyên tự động mà không cần đến cơ chế thu gom rác, quản lý bộ nhớ thủ công hoặc hệ thống đếm tham chiếu được sử dụng bởi các ngôn ngữ khác.

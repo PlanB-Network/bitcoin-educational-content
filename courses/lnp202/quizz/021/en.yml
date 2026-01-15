@@ -1,0 +1,9 @@
+question: Which file contains LND's detailed channel status?
+answer: channel.db
+wrong_answers:
+  - wallet.db
+  - lightning.db
+  - peers.db
+explanation: |
+  The channel.db file stores channel states, peers and commitment transactions.
+reviewed: false

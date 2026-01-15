@@ -1,0 +1,8 @@
+question: Kada se Bitcoin čvor prvi put pokreće i pridružuje mreži, koji je primarni mehanizam koji koristi za otkrivanje aktivnih vršnjaka?
+answer: Kontakti sa hardkodiranim DNS semenkama koje održavaju glavni programeri za primanje IP adresa aktivnih čvorova
+wrong_answers:
+  - Prenosi poruku otkrića svim IP adresama u unapred definisanim opsezima podmreže
+  - Povezuje se sa centralnim registarskim serverom koji održava listu svih aktivnih čvorova
+  - Koristi DHT (Distributed Hash Table) protokol za pronalaženje peer-ova putem rutiranja zasnovanog na heširanju
+explanation: |
+  Bitcoin koristi hardkodirane DNS seed-ove kao mehanizam za pokretanje jer pruža decentralizovan način za nove čvorove da uđu u mrežu bez oslanjanja na centralni autoritet. DNS seed-ove održavaju glavni programeri i vraćaju IP adrese trenutno aktivnih vršnjaka. Kada se povežu, čvorovi mogu koristiti getaddr komandu za otkrivanje dodatnih vršnjaka. Pogrešni odgovori opisuju centralizovane pristupe ili protokole koje Bitcoin ne koristi - nema centralnog registra, nema emitovanja podmreže i nema otkrivanja vršnjaka zasnovanog na DHT-u u dizajnu Bitcoin.

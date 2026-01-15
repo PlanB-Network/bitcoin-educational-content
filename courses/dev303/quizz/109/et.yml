@@ -1,0 +1,8 @@
+question: Milline on Breez SDK lähenemisviisi põhiline arhitektuuriline eelis Lightning-sõlmede haldamisel võrreldes traditsiooniliste isehostetavate Lightning-tulemustega?
+answer: Kasutajad haldavad oma Lightning-sõlmi Greenlight'i infrastruktuuris, säilitades samal ajal ainukontrolli privaatvõtmete üle, mis ei lahku kunagi nende seadmetest
+wrong_answers:
+  - Kasutajad kasutavad ühiselt Breez hallatavaid koondatud välgukanaleid, säilitades samal ajal rahaliste vahendite individuaalset säilitamist mitme allkirja andmise korra kaudu
+  - "Kasutajad kasutavad kohalikult kergekaalulisi Lightning-sõlmi, mis sünkroonivad Breez peasõlmedega, et suurendada usaldusväärsust ja vähendada ribalaiusnõudeid"
+  - Kasutajad delegeerivad kanali haldamise Lightning Service Providers'ile, säilitades samal ajal järelevalve mobiilseadmetesse integreeritud riistvaraliste turvamoodulite kaudu
+explanation: |
+  Breez SDK arhitektuur annab igale kasutajale oma spetsiaalse Lightning-sõlme, mis töötab Greenlight'i pilveinfrastruktuuris, kuid oluline on see, et privaatvõtmed ei lahku kunagi kasutaja seadmest. See tähendab, et Greenlight ei saa teha ühtegi Lightning-operatsiooni ilma kasutaja rakenduse aktiivse allkirjastamiseta. See erineb jagatud kanalipoolidest, kohalikest kergsõlmedest või riistvaralistest turvamoodulitest - see on ainulaadne hübriidlähenemine, mis kõrvaldab operatiivse keerukuse, säilitades samas tõelise isehalduse põhimõtted.

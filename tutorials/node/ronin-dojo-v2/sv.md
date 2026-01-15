@@ -56,7 +56,7 @@ Nu när vi har beskrivit RoninDojo, låt oss tillsammans se hur man ställer in 
 
 ## Vilken hårdvara ska man välja för att installera RoninDojo v2?
 
-RoninDojo erbjuder en bild för automatisk installation av sin programvara på en [RockPro64] (https://ronindojo.io/en/download). Vår handledning fokuserar dock på den manuella installationsproceduren på en Raspberry Pi 4. Även om Raspberry Pi 5 nyligen har lanserats, och denna handledning teoretiskt sett borde vara kompatibel med den nya modellen, har jag ännu inte haft möjlighet att testa den personligen, och jag har inte hittat någon feedback från communityn. Så snart jag får tag på Pi 5 och kompatibla komponenter kommer jag att uppdatera den här handledningen för att hålla dig informerad. Under tiden rekommenderar jag att du prioriterar Pi 4, eftersom den fungerar perfekt för min nod.
+RoninDojo erbjuder en bild för automatisk installation av sin programvara på en [RockPro64](https://ronindojo.io/en/download). Vår handledning fokuserar dock på den manuella installationsproceduren på en Raspberry Pi 4. Även om Raspberry Pi 5 nyligen har lanserats, och denna handledning teoretiskt sett borde vara kompatibel med den nya modellen, har jag ännu inte haft möjlighet att testa den personligen, och jag har inte hittat någon feedback från communityn. Så snart jag får tag på Pi 5 och kompatibla komponenter kommer jag att uppdatera den här handledningen för att hålla dig informerad. Under tiden rekommenderar jag att du prioriterar Pi 4, eftersom den fungerar perfekt för min nod.
 
 För egen del kör jag RoninDojo på en Raspberry Pi med 8 GB RAM-minne. Även om vissa communitymedlemmar har lyckats få det att fungera på enheter med endast 4 GB RAM, har jag inte testat den här konfigurationen själv. Med tanke på den lilla prisskillnaden verkar det klokt att välja 8 GB RAM-versionen. Detta kan också visa sig vara användbart om du planerar att återanvända din Raspberry Pi för andra användningsområden i framtiden.
 
@@ -333,7 +333,7 @@ När du är på RoninUI:s hemsida kommer du att uppmanas att starta installation
 ![lets start](assets/notext/25.webp)
 
 
-I detta skede presenterar RoninUI ditt `root`-lösenord för dig. Det är viktigt att hålla det säkert. Du kan välja en fysisk säkerhetskopia, på papper, eller spara det i en [lösenordshanterare] (https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
+I detta skede presenterar RoninUI ditt `root`-lösenord för dig. Det är viktigt att hålla det säkert. Du kan välja en fysisk säkerhetskopia, på papper, eller spara det i en [lösenordshanterare](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f).
 
 
 ![root password](assets/notext/26.webp)
@@ -543,7 +543,7 @@ Efter att ha utfört coinjoins med Whirlpool är det användbart att exakt utvä
 För att fördjupa din förståelse för beräkningsmekanismerna för dessa anonsets rekommenderar jag att du läser artikeln: REMIX - Whirlpool, som beskriver hur dessa index fungerar.
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

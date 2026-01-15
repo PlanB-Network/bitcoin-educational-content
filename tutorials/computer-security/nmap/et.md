@@ -165,7 +165,7 @@ Selles jaotises vaatleme võrgu skaneerimise tööriista Nmap peamisi kasutusala
 
 
 
-Nmap'i saab kasutada võrgu diagnostikaks ja laiemalt jälgimiseks. Samamoodi nagu pingi abil saab kindlaks teha, kas kaks hosti suhtlevad, saab Nmapi abil kiiresti kindlaks teha, kas host on aktiivne või kas konkreetne teenus töötab. Tänu [Nmapile] (https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap") saame täpseid andmeid hostide vastamisaja, pakettide poolt läbitud marsruudi, konkreetse teenuse poolt tehtud vastuse jne kohta.
+Nmap'i saab kasutada võrgu diagnostikaks ja laiemalt jälgimiseks. Samamoodi nagu pingi abil saab kindlaks teha, kas kaks hosti suhtlevad, saab Nmapi abil kiiresti kindlaks teha, kas host on aktiivne või kas konkreetne teenus töötab. Tänu [Nmapile](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap") saame täpseid andmeid hostide vastamisaja, pakettide poolt läbitud marsruudi, konkreetse teenuse poolt tehtud vastuse jne kohta.
 
 
 
@@ -312,7 +312,7 @@ Selles jaotises õpime, kuidas paigaldada Nmap võrgu skaneerimise tööriist Li
 
 
 
-Nmap oli algselt mõeldud GNU/Linuxi operatsioonisüsteemidele. Selle tulemusena ja tänu selle pikaealisusele ja populaarsusele leiate selle kõigist suuremate Unix-distributsioonide ametlikest repositooriumidest. Selles õpetuses kasutan ma Debianil põhinevat operatsioonisüsteemi [Kali Linux] (https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux"). Kuid te võite seda kasutada täpselt samamoodi ka klassikalisest Debianist, CentOSist, Red Hatist või millest iganes!
+Nmap oli algselt mõeldud GNU/Linuxi operatsioonisüsteemidele. Selle tulemusena ja tänu selle pikaealisusele ja populaarsusele leiate selle kõigist suuremate Unix-distributsioonide ametlikest repositooriumidest. Selles õpetuses kasutan ma Debianil põhinevat operatsioonisüsteemi [Kali Linux](https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux"). Kuid te võite seda kasutada täpselt samamoodi ka klassikalisest Debianist, CentOSist, Red Hatist või millest iganes!
 
 
 
@@ -901,7 +901,7 @@ uDP pakettide edastamine ja ICMP vastuvõtt (port kättesaamatu) Nmap skaneerimi
 
 
 
-Ülaltoodud ekraanipildil näeme, et Nmap saadab suure hulga UDP-pakette ja saab vastuseks enamiku neist ICMP-paketi "Destination unreachable (Port unreachable)". See on normaalne, sest see on [RFC 1122] (https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") määratletud asjakohane vastus, kui UDP-port on kättesaamatu:
+Ülaltoodud ekraanipildil näeme, et Nmap saadab suure hulga UDP-pakette ja saab vastuseks enamiku neist ICMP-paketi "Destination unreachable (Port unreachable)". See on normaalne, sest see on [RFC 1122](https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122") määratletud asjakohane vastus, kui UDP-port on kättesaamatu:
 
 
 

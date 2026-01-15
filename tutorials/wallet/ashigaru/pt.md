@@ -86,7 +86,7 @@ Para saber mais sobre o Dojo e aprender a instalá-lo, convido-o a seguir este t
 
 https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
-Se realmente não tem meios para gerir o seu próprio Dojo, pode encontrar pessoas dispostas a partilhar a sua instância gratuitamente em [dojobay.pw] (https://www.dojobay.pw/mainnet/). Esta pode ser uma solução temporária, mas, a longo prazo, recomendo que utilize o seu próprio Dojo para garantir a sua soberania e confidencialidade.
+Se realmente não tem meios para gerir o seu próprio Dojo, pode encontrar pessoas dispostas a partilhar a sua instância gratuitamente em [dojobay.pw](https://www.dojobay.pw/mainnet/). Esta pode ser uma solução temporária, mas, a longo prazo, recomendo que utilize o seu próprio Dojo para garantir a sua soberania e confidencialidade.
 
 
 
@@ -98,7 +98,7 @@ Se realmente não tem meios para gerir o seu próprio Dojo, pode encontrar pesso
 
 
 
-No telemóvel, abra o navegador Tor e aceda ao [site oficial do Ashigaru] (https://ashigaru.rs/download/), na secção `Download`. Em seguida, clique no botão `Download for Android` para baixar o arquivo de instalação.
+No telemóvel, abra o navegador Tor e aceda ao [site oficial do Ashigaru](https://ashigaru.rs/download/), na secção `Download`. Em seguida, clique no botão `Download for Android` para baixar o arquivo de instalação.
 
 
 
@@ -114,7 +114,7 @@ Antes de instalar a aplicação no seu dispositivo, vamos verificar a sua autent
 
 
 
-Volta ao [site oficial do Ashigaru] (https://ashigaru.rs/download/) na secção `Download`, depois copia a mensagem apresentada sob o título `SHA-256 Hash do ficheiro APK`. Copie todo o bloco, desde `BEGIN PGP SIGNED MESSAGE` até `END PGP SIGNATURE`.
+Volta ao [site oficial do Ashigaru](https://ashigaru.rs/download/) na secção `Download`, depois copia a mensagem apresentada sob o título `SHA-256 Hash do ficheiro APK`. Copie todo o bloco, desde `BEGIN PGP SIGNED MESSAGE` até `END PGP SIGNATURE`.
 
 
 
@@ -122,7 +122,7 @@ Volta ao [site oficial do Ashigaru] (https://ashigaru.rs/download/) na secção 
 
 
 
-Ainda no seu telefone, abra uma nova aba no Navegador Tor e vá para [a ferramenta de verificação Keybase] (https://keybase.io/verify). Cola a mensagem que acabaste de copiar no campo fornecido, depois clica no botão `Verificar`.
+Ainda no seu telefone, abra uma nova aba no Navegador Tor e vá para [a ferramenta de verificação Keybase](https://keybase.io/verify). Cola a mensagem que acabaste de copiar no campo fornecido, depois clica no botão `Verificar`.
 
 
 
@@ -142,7 +142,7 @@ No entanto, se aparecer um erro nesta fase, isso significa que a assinatura é i
 
 
 
-O Keybase forneceu-lhe o hash da aplicação. Vamos agora verificar se o hash do ficheiro `.apk` que descarregou corresponde ao verificado no Keybase. Para isso, acede a [HASH FILE ONLINE] (https://hash-file.online/).
+O Keybase forneceu-lhe o hash da aplicação. Vamos agora verificar se o hash do ficheiro `.apk` que descarregou corresponde ao verificado no Keybase. Para isso, acede a [HASH FILE ONLINE](https://hash-file.online/).
 
 
 

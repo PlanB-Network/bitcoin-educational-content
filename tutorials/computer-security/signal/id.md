@@ -44,7 +44,7 @@ Signal tersedia di semua platform. Anda dapat mengunduh aplikasi ini langsung da
 
 Di Android, juga memungkinkan untuk [menginstal melalui APK](https://github.com/signalapp/Signal-Android/releases).
 
-Dalam tutorial ini, kami akan berkonsentrasi pada versi seluler, tetapi harap dicatat bahwa [versi desktop juga tersedia] (https://signal.org/fr/download/) (MacOS, Linux, dan Windows). Namun, Anda harus menyiapkan aplikasi seluler terlebih dahulu sebelum Anda dapat menyinkronkan akun Anda dengan versi desktop.
+Dalam tutorial ini, kami akan berkonsentrasi pada versi seluler, tetapi harap dicatat bahwa [versi desktop juga tersedia](https://signal.org/fr/download/) (MacOS, Linux, dan Windows). Namun, Anda harus menyiapkan aplikasi seluler terlebih dahulu sebelum Anda dapat menyinkronkan akun Anda dengan versi desktop.
 
 Dalam tutorial ini, kami akan fokus pada versi seluler. Namun, perlu diketahui bahwa [versi desktop juga tersedia](https://signal.org/fr/download/) (macOS, Linux, dan Windows). Anda perlu mengatur aplikasi seluler terlebih dahulu sebelum dapat menyinkronkan akun Anda dengan versi desktop.
 

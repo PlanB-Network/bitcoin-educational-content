@@ -6,3 +6,4 @@ wrong_answers:
   - Le matériel mining est fabriqué par différentes entreprises afin d'éviter la monopolisation de l'équipement
 explanation: |
   La décentralisation Miner signifie spécifiquement que l'ordre des transactions n'est pas contrôlé par une entité unique ou un groupe fixe, mais plutôt par un collectif de mineurs qui peuvent librement se joindre ou se retirer. Cela diffère de la validation des blocs (qui est liée à la décentralisation full node), de la distribution des récompenses ou de la fabrication du matériel. La nature dynamique du collectif mining - où tout le monde peut participer sans autorisation - est ce qui rend le Bitcoin résistant à la censure et empêche une seule partie de contrôler les transactions qui sont incluses dans les blocs.
+reviewed: false

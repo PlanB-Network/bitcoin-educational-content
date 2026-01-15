@@ -6,3 +6,4 @@ wrong_answers:
   - Meki fork može biti implementiran tajno u commit-ovima dok tvrdi fork zahteva javno objavljivanje
 explanation: |
   Poglavlje jasno definiše tipove kompatibilnosti: forward kompatibilnost omogućava starom softveru da obrađuje nove podatke ignorišući nepoznate delove, dok backward kompatibilnost omogućava novom softveru da obrađuje stare podatke. Soft fork održava oba tipa kompatibilnosti, čineći ga potpuno kompatibilnim. Hard fork održava samo backward kompatibilnost, što znači da novi softver može obrađivati stare podatke, ali stari softver ne može obrađivati nove podatke iz nadograđenog sistema. Ova razlika je ključna za razumevanje Bitcoin mehanizama nadogradnje i zašto su soft forkovi preferirani za održavanje harmonije mreže.
+reviewed: false

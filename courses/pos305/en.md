@@ -111,7 +111,7 @@ Customers buy a product from the store with Bitcoin.
   - Customer- browsing the store online and finds an item for $25, which they want, and informs the Merchant they would like to purchase
   - Merchant- asks for payment.
   - Customer- sends card information to Merchant
-  - Merchant- forwards information to the Bank (identifying both their own and the identity/information), requesting payment of
+  - Merchant- forwards information to the Bank (identifying both their own and the identity/information), requesting payment of $25
   - Bank collects information about the Customer and Merchant (Alice and Bob) and checks that the customer’s balance is sufficient.
   - Deducts \$25 from Alice’s account, adds \$24 to Bob’s account, takes \$1 for the service
   - The Merchant receives a thumbs-up from the Bank and ships the item to the customer.
@@ -456,7 +456,7 @@ Hot wallets are the most convenient way of interacting with Bitcoin through mobi
 
 ### Cold Wallet
 
-Individuals move their Bitcoin into a cold wallet because it can isolate the private keys from the internet, thereby protecting them from potential online threats. Removing the internet connection from the equation reduces the risk of malware, spyware, and SIM swaps. Cold storage is believed to be superior to hot storage for security and autonomy, provided adequate precautions are taken to prevent losing the Bitcoin private keys. Cold storage is most suitable for large amounts of Bitcoin, which are not intended to be spent often due to the wallet setup’s complexity.
+Individuals move their private keys into a cold wallet because it can isolate them from the internet, thereby protecting their funds from potential online threats. Removing the internet connection from the equation reduces the risk of malware, spyware, and SIM swaps. Cold storage is believed to be superior to hot storage for security and autonomy, provided adequate precautions are taken to prevent losing the Bitcoin private keys. Cold storage is most suitable for large amounts of Bitcoin, which are not intended to be spent often due to the wallet setup’s complexity.
 
 There are various methods of storing Bitcoin keys in cold storage, from paper wallets to brain wallets, hardware wallets, or, from the beginning, a wallet file. Most wallets use BIP 39 to generate the seed phrase. However, within the Bitcoin Core software, a consensus has yet to be reached on its use. Bitcoin Core software will still generate a Wallet.dat file, which you need to store in a secure offline location.
 
@@ -1444,7 +1444,7 @@ Server administrators can open more details to see.
 
 #### LND (REST)
 
-BTCPay exposes LND’s REST service for outside consumption; you will find connection information here; compatible wallets are listed here. Among the compatible wallets are Joule, Alby, and ZeusLN. BTCPay Server provides a QR code for connection, which can be scanned and applied in a compatible wallet.
+BTCPay exposes LND’s REST service for outside consumption; you will find connection information [here](https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay); compatible wallets are listed [here](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server). Among the compatible wallets are Joule, Alby, and ZeusLN. BTCPay Server provides a QR code for connection, which can be scanned and applied in a compatible wallet.
 
 - REST URI
 - Macaroon
@@ -1657,7 +1657,7 @@ bitcoin-lightning-cli.sh getlog
 
 In addition to [looking at logs](https://docs.btcpayserver.org/Troubleshooting/#2-looking-through-the-logs) of your Bitcoind container, you can also use any of the [bitcoin-cli commands](https://developer.bitcoin.org/reference/rpc/index.html)
 
-[(opens new window)](https://developer.bitcoin.org/reference/rpc/index.html) to obtain information from your bitcoin node. BTCPay includes a script to allow you to communicate with your Bitcoin node easily.
+Open a new window to obtain information from your bitcoin node. BTCPay includes a script to allow you to communicate with your Bitcoin node easily.
 
 Inside the btcpayserver-docker folder, get the blockchain information using your node:
 
@@ -2076,7 +2076,7 @@ Click on the Crowdfund plugin through the main menu on the left of your BTCPay S
 
 ![image](assets/en/107.webp)
 
-#### Update the newly created Point of Sale
+#### Update the newly created Crowdfund
 
 Once the App is given a name, its next screen will be to update the App to have context.
 
@@ -2241,30 +2241,6 @@ Store owners can click on the dropdown menu and select their desired App; once t
 As BTCPay Server’s Payment button is an easily embeddable HTML, BTCPay Server shows the generated code to copy into a website at the bottom after configuring the Payment button.
 
 Store owners can copy the generated code into their website, and the Payment button from BTCPay Server is directly active on their website.
-
-#### Payment Notifications
-
-Server IPN (Instant Payment Notification) is designed for webhooks and can be configured with a URL to post purchase data.
-
-#### Email Notifications
-
-Whenever a payment is made, BTCPay Server can notify the store owner.
-
-#### Browser redirect
-
-When the customer completes the purchase, he will be redirected to this link if set by the store owner.
-
-#### Advanced Payment Button Options
-
-Specify additional query string parameters that should be appended to the checkout page once the invoice is created. For example, `lang=da-DK` would load the checkout page in Danish by default.
-
-#### Use App as Endpoint
-
-You can directly link the payment button to an item in one of the PoS or Crowdfund apps that you have used before. Store owners can click on the drop-down menu and select their desired app. Once the app is selected, the store owner can add the item that needs to be linked.
-
-#### Generated Code
-
-As BTCPay Server’s Payment button is an easily embeddable HTML, BTCPay Server shows the generated code to copy into a website at the bottom after configuring the Payment button. Store owners can copy the generated code into their website, and the Payment button from BTCPay Server is directly active on their website.
 
 ### Skill Summary
 

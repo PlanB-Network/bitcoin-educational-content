@@ -1,6 +1,6 @@
 ---
 name: Peach
-description: Guía completa para usar Peach e intercambiar bitcoins P2P
+description: Guía completa para usar Peach e intercambiar Bitcoin P2P
 ---
 ![cover](assets/cover.webp)
 
@@ -12,16 +12,15 @@ Los intercambios P2P (peer-to-peer) son esenciales para preservar la confidencia
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-### 1. ¿Qué es el melocotón?
+### 1. ¿Qué es Peach?
 
-Peach es una plataforma de intercambio P2P que permite a los usuarios comprar y vender bitcoins sin KYC. Ofrece una interfaz intuitiva y funciones de seguridad avanzadas. En comparación con otras soluciones como Bisq, HodlHodl y Robosat, Peach destaca por su facilidad de uso y sus bajas comisiones.
+Peach es una plataforma de intercambio P2P que permite a los usuarios comprar y vender Bitcoin sin KYC. Ofrece una interfaz intuitiva y funciones de seguridad avanzadas. En comparación con otras soluciones como Bisq, HodlHodl y Robosat, Peach destaca por su facilidad de uso y sus bajas comisiones.
 
-### 2. Privacidad y recogida de datos
+### 2. Privacidad y recopilación de datos
 
 **¿Qué información recopila Peach?**
 
 Peach se esfuerza por almacenar el mínimo absoluto de datos sobre sus usuarios. He aquí un resumen de los datos almacenados en sus servidores:
-
 
 - Un hash de su identificador único de aplicación (AdID)
 - Un hash de sus datos de pago
@@ -38,8 +37,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 **¿Quién puede ver mis datos de pago?**
 
-
-- Sólo su contraparte puede ver sus datos de pago
+- Sólo tu contraparte puede ver tus datos de pago
 - Los datos se transmiten a través de servidores Peach, pero totalmente encriptados de extremo a extremo
 - En caso de litigio, los datos de pago y el historial de conversaciones serán visibles para el mediador Peach asignado
 
@@ -50,15 +48,15 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 ![Installation de Peach](assets/fr/01.webp)
 
 
-- Descargue la aplicación desde [Peach Bitcoin](https://peachbitcoin.com/fr/quick-start/).
+- Descarga la aplicación desde [Peach Bitcoin](https://peachbitcoin.com/fr/quick-start/).
 - Sigue las instrucciones de instalación de tu dispositivo.
-- Durante la instalación, se le pedirá que elija si desea compartir ciertos datos para mejorar la aplicación Peach (imagen 1)
-- En la siguiente pantalla (imagen 2), tiene dos opciones:
- - Si es un nuevo usuario, haga clic en "Nuevo usuario" para crear un nuevo perfil
- - Si ya tiene una cuenta, utilice "Restaurar" para restaurar su perfil existente
-- Si tiene un código de referencia, puede introducirlo aquí.
-- Para restaurar una cuenta existente (imagen 3), necesitarás :
- - Su archivo de copia de seguridad
+- Durante la instalación, se te pedirá que elijas si deseas compartir ciertos datos para mejorar la aplicación Peach (imagen 1)
+- En la siguiente pantalla (imagen 2), tienes dos opciones:
+ - Si eres un nuevo usuario, haz clic en "Nuevo usuario" para crear un nuevo perfil
+ - Si ya tienes una cuenta, utiliza "Restaurar" para restaurar tu perfil existente
+- Si tienes un código de referencia, puedes introducirlo aquí.
+- Para restaurar una cuenta existente (imagen 3), necesitarás:
+ - Tu archivo de copia de seguridad
  - La contraseña para descifrar este archivo
 
 ### 2. Vista general de las pantallas principales
@@ -67,24 +65,23 @@ La aplicación Peach está organizada en torno a cuatro pantallas principales ac
 
 ![Navigation dans l'application](assets/fr/02.webp)
 
-
-- **Inicio**: La pantalla principal para comprar y vender bitcoins. Aquí es donde puedes crear nuevas transacciones y acceder a las ofertas disponibles.
-- **Monedero**: Tu monedero bitcoin integrado que te permite :
- - Compruebe su saldo
- - Recibir bitcoins
- - Enviar bitcoins
+- **Inicio**: La pantalla principal para comprar y vender Bitcoin. Aquí es donde puedes crear nuevas transacciones y acceder a las ofertas disponibles.
+- **Monedero**: Tu monedero Bitcoin integrado que te permite:
+ - Comprobar tu saldo
+ - Recibir Bitcoin
+ - Enviar Bitcoin
  - Consultar el historial de transacciones
-- **Comercios**: Su centro de gestión comercial donde encontrará:
- - Sus transacciones actuales
- - Un historial completo de sus intercambios
+- **Comercios**: Tu centro de gestión comercial donde encontrarás:
+ - Tus transacciones actuales
+ - Un historial completo de tus intercambios
  - El estado de cada transacción
-- **Configuración**: El centro de configuración de su cuenta para:
- - Gestione sus medios de pago
- - Configura tus copias de seguridad
- - Personaliza tus preferencias
+- **Configuración**: El centro de configuración de tu cuenta para:
+ - Gestionar tus medios de pago
+ - Configurar tus copias de seguridad
+ - Personalizar tus preferencias
  - Acceso a ayuda y apoyo
 
-### 3. Configure sus métodos de pago
+### 3. Configura tus métodos de pago
 
 ![Accès aux paramètres de paiement](assets/fr/03.webp)
 
@@ -95,63 +92,57 @@ Acceda a los métodos de pago a través de la pestaña Configuración (imagen 8)
 ![Configuration des paiements en ligne](assets/fr/04.webp)
 
 
-- Haga clic en el botón para añadir un nuevo método de pago
-- Elija su moneda
-- Seleccione su forma de pago preferida
+- Haz clic en el botón para añadir un nuevo método de pago
+- Elige tu moneda
+- Selecciona tu forma de pago preferida
 
 *Tipos de métodos de pago disponibles:*
 
-***Transferencias bancarias disponibles: ***
-
+***Transferencias bancarias disponibles:***
 
 - SEPA (estándar o instantánea)
-- Introduzca sus datos bancarios SEPA
+- Introduce tus datos bancarios SEPA
 
 ***Se aceptan monederos electrónicos :***
 
+- Varias opciones disponibles en función de tu país (Revolut, Paypal, Wise, Strike, etc.)
+- Sigue las instrucciones para añadir tus datos de acceso
 
-- Varias opciones disponibles en función de su país (Revolut, Paypal, Wise, Strike, etc.)
-- Siga las instrucciones para añadir sus datos de acceso
-
-***La tarjeta regalo que se puede utilizar :***
-
+***La tarjeta de regalo que se puede utilizar:***
 
 - Amazon
-- Introduzca el país de emisión de la tarjeta y otra información necesaria
+- Introduce el país de emisión de la tarjeta y otra información necesaria
 
 ***Opciones de pago nacionales:***
 
-Sistemas de pago específicos de cada país :
-
+Sistemas de pago específicos de cada país:
 
 - Satispay (Italia)
 - MB Way (Portugal)
 - Bizum (España)
-- Pagos más rápidos (Reino Unido)
+- Faster Payments (Reino Unido)
 
 ***Pagos en persona:***
 
 ![Configuration des paiements en personne](assets/fr/05.webp)
 
-
-- Seleccione "Meetup
-- A continuación, seleccione su reunión de la lista
+- Selecciona "Meetup"
+- A continuación, selecciona tu reunión de la lista
 
 ### Instrucciones de uso
 
+- Puedes configurar varios métodos de pago simultáneamente
+- Cuantos más métodos añadas, mayor será la gama de ofertas a las que tendrás acceso
+- Comprueba que tus datos son correctos antes de inscribirte
+- Puedes cambiar o eliminar tus métodos de pago en cualquier momento
 
-- Puede configurar varios métodos de pago simultáneamente
-- Cuantos más métodos añada, mayor será la gama de ofertas a las que tendrá acceso
-- Compruebe que sus datos son correctos antes de inscribirse
-- Puede cambiar o eliminar sus métodos de pago en cualquier momento
+**Nota de seguridad**: Tu información de pago está encriptada y sólo se comparte con tu socio de intercambio durante una transacción.
 
-**Nota de seguridad**: Su información de pago está encriptada y sólo se comparte con su socio de intercambio durante una transacción.
+### 4. Cómo asegurar tu billetera
 
-### 4. Cómo asegurar su cartera
+**Entender tu cuenta Peach**
 
-**Entender su cuenta Peach**
-
-Una cuenta Peach no es una cuenta tradicional de nombre de usuario y contraseña. Es un archivo almacenado localmente en tu teléfono, lo que significa que Peach no necesita almacenar tus datos ni conocer tu identidad: tú tienes el control. Este archivo contiene todos tus datos, desde las claves de tu monedero bitcoin hasta tus detalles de pago.
+Una cuenta Peach no es una cuenta tradicional de nombre de usuario y contraseña. Es un archivo almacenado localmente en tu teléfono, lo que significa que Peach no necesita almacenar tus datos ni conocer tu identidad: tú tienes el control. Este archivo contiene todos tus datos, desde las claves de tu monedero Bitcoin hasta tus detalles de pago.
 
 Este enfoque garantiza una mayor confidencialidad, pero también implica una mayor responsabilidad. Perder tu teléfono sin una copia de seguridad significa perder el acceso a tu cuenta Peach y a tus fondos. Así que es crucial hacer una copia de seguridad de este archivo y protegerlo con una contraseña segura.
 
@@ -159,9 +150,8 @@ Este enfoque garantiza una mayor confidencialidad, pero también implica una may
 
 ![Accéder aux sauvegardes](assets/fr/13.webp)
 
-
 - Accede a los ajustes desde la pestaña situada en la parte inferior derecha de la pantalla de inicio
-- Seleccione la opción "copias de seguridad" en el menú de configuración
+- Selecciona la opción "copias de seguridad" en el menú de configuración
 
 ![Processus de sauvegarde](assets/fr/06.webp)
 
@@ -169,119 +159,110 @@ Existen dos tipos de copias de seguridad:
 
 **Guardar archivo de cuenta (imagen 14)**
 
-
-- Haga clic en "Crear nueva copia de seguridad"
+- Haz clic en "Crear nueva copia de seguridad"
 - Crea una contraseña segura para cifrar tu archivo de copia de seguridad
-- Guarde este archivo en un lugar seguro
+- Guarda este archivo en un lugar seguro
 
-La copia de seguridad de archivos restaura toda tu cuenta de Peach, incluidos los archivos :
+La copia de seguridad de archivos restaura toda tu cuenta de Peach, incluyendo:
 
-
-- Su cartera
-- Sus formas de pago
-- Historia de la conversación
+- Tu cartera
+- Tus formas de pago
+- Historial de conversaciones
 - Datos de pago
 - Historial de transacciones con datos de la contraparte
 
 **Guardando la frase de recuperación (imagen 15)**
 
-
-- Siga las instrucciones para visualizar su frase de recuperación
+- Sigue las instrucciones para visualizar tu frase de recuperación
 - Escribe cuidadosamente las palabras en el orden correcto
-- Guarde esta copia de seguridad en un lugar seguro, idealmente distinto del archivo de la cuenta
+- Guarda esta copia de seguridad en un lugar seguro, idealmente distinto del archivo de la cuenta
 
-La frase de recuperación sólo recupera :
+La frase de recuperación sólo recupera:
 
+- Acceso a tu cuenta
+- Tus fondos en bitcoin
 
-- Acceso a su cuenta
-- Sus fondos en bitcoin
+Perderás:
 
-Perderás :
-
-
-- Historia de la conversación
+- Historial de conversaciones
 - Datos de pago
 - Información sobre la contraparte en el historial de transacciones
 
-Para una seguridad óptima, le recomendamos que realice ambos tipos de copia de seguridad.
+Para una seguridad óptima, te recomendamos que realices ambos tipos de copia de seguridad.
 
-## Compra y venta de bitcoins
+## Compra y venta de Bitcoin
 
-### 1. Cómo comprar Bitcoins
+### 1. Cómo comprar Bitcoin
 
 ![Création et vue des offres](assets/fr/07.webp)
 
 
-- En la pantalla de inicio, pulse el botón "Comprar" (imagen 16)
+- En la pantalla de inicio, pulsa el botón "Comprar" (imagen 16)
 - Configura tu compra según tus preferencias (imagen 17)
-- Consultar la lista de ofertas disponibles (imagen 18)
+- Consulta la lista de ofertas disponibles (imagen 18)
 
 ![Sélection et confirmation d'achat](assets/fr/08.webp)
 
 
-- Seleccione la oferta que más le convenga (imagen 19)
-- Realizar el pago mediante el método acordado
-- Confirme el pago en la aplicación y evalúe la transacción (imagen 20)
+- Selecciona la oferta que más te convenga (imagen 19)
+- Realiza el pago mediante el método acordado
+- Confirma el pago en la aplicación y evalúa la transacción (imagen 20)
 
-![Réception des bitcoins](assets/fr/09.webp)
+![Réception des Bitcoin](assets/fr/09.webp)
 
 
-- Seguimiento del estado de su transacción
-- Comprobar confirmación de recepción de bitcoins
-- Los fondos estarán disponibles en su cartera Peach
+- Seguimiento del estado de tu transacción
+- Comprobar confirmación de recepción de Bitcoin
+- Los fondos estarán disponibles en tu cartera Peach
 
-### 2. Cómo vender Bitcoins
+### 2. Cómo vender Bitcoin
 
 ![Création d'un ordre de vente](assets/fr/10.webp)
 
 
-- Configure su oferta de venta (imagen 24)
-- Financie la transacción enviando los bitcoins a la dirección facilitada (imagen 25)
-- Espere la confirmación de la transacción (imagen 26)
-- Su oferta es ahora visible para los compradores (imagen 27)
+- Configure tu oferta de venta (imagen 24)
+- Solventa la transacción enviando el Bitcoin a la dirección facilitada (imagen 25)
+- Espera la confirmación de la transacción (imagen 26)
+- Tu oferta es ahora visible para los compradores (imagen 27)
 
 ![Attente du paiement](assets/fr/11.webp)
 
 
-- Supervise el estado de su oferta
-- Esperar la confirmación del pago por parte del comprador
-- Comprobar los detalles de la transacción
+- Supervisa el estado de tu oferta
+- Espera la confirmación del pago por parte del comprador
+- Comprueba los detalles de la transacción
 
 ![Finalisation de la vente](assets/fr/12.webp)
 
 
-- Comprobar el estado del pago
-- Confirmar la recepción del pago
-- Evaluar la transacción
-- Los bitcoins se entregan automáticamente al comprador
+- Comprueba el estado del pago
+- Confirma la recepción del pago
+- Evalúa la transacción
+- El Bitcoin se entrega automáticamente al comprador
 
-**Consejos para una transacción con éxito**
+**Consejos para una transacción exitosa**
 
+- Responde rápidamente a los mensajes de tu contraparte
+- Comprueba cuidadosamente los datos de pago
+- No dudes en recurrir al servicio de mediación si tienes un problema
 
-- Responda rápidamente a los mensajes de su contraparte
-- Compruebe cuidadosamente los datos de pago
-- No dude en recurrir al servicio de mediación si tiene un problema
-
-**Nota de seguridad**: No confirme nunca la recepción de un pago hasta que haya comprobado que se ha recibido en su cuenta.
+**Nota de seguridad**: No confirmes nunca la recepción de un pago hasta que hayas comprobado que se ha recibido en tu cuenta.
 
 ## Ventajas e inconvenientes
 
-### Beneficios del melocotón
-
+### Beneficios de Peach
 
 - **No se requiere KYC**: Preserva la confidencialidad del usuario.
 - **Sin acceso a datos bancarios**: Peach no tiene acceso a tus datos bancarios ni a tu identidad.
 - **Interfaz intuitiva**: Fácil de usar para usuarios intermedios.
 - **Código abierto**: El código fuente es público y verificable por la comunidad.
 
-### Desventajas del melocotón
-
+### Desventajas de Peach
 
 - **Liquidez limitada**: Menor volumen de negociación que plataformas más consolidadas.
 - **Riesgo reglamentario**: La aplicación está gestionada por una empresa suiza. Por tanto, está sujeta a la normativa suiza, que podría evolucionar y potencialmente censurar la aplicación.
 
 ## Recursos útiles
-
 
 - Vídeo explicativo en francés: [YouTube](https://youtu.be/ziwhv9KqVkM)
 - Guía de inicio rápido: [Peach Bitcoin](https://peachbitcoin.com/fr/quick-start/)

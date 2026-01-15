@@ -1,0 +1,9 @@
+question: ขั้นตอนใดบ้างที่ต้องดำเนินการให้เสร็จก่อนที่จะติดตั้ง UmbrelOS ได้?
+answer: สร้าง USB ที่สามารถบูตได้ด้วยอิมเมจ
+wrong_answers:
+  - กำลังคอมไพล์ซอร์สโค้ด Bitcoin core
+  - การจัดรูปแบบ Blockchain
+  - สร้างบัญชีบน umbrel.com
+explanation: |
+  การติดตั้งเริ่มต้นด้วยการเตรียม USB ที่สามารถบูตได้ด้วย UmbrelOS ผ่าน Balena Etcher
+reviewed: true

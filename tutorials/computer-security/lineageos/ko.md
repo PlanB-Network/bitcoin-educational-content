@@ -1,5 +1,5 @@
 ---
-name: 리니지OS
+name: LineageOS
 description: 스마트폰용 무료, 접착되지 않은 안드로이드 운영 체제
 ---
 

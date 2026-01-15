@@ -1,0 +1,9 @@
+question: Кой браузър въвежда JavaScript през 1995 г.?
+answer: Netscape Navigator
+wrong_answers:
+  - Internet Explorer
+  - Firefox
+  - Сафари
+explanation: |
+  Netscape Navigator интегрира езика JavaScript, разработен от Брендън Айх през 1995 г., за да осигури динамична интерактивност на уеб страниците.
+reviewed: false

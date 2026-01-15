@@ -20,7 +20,7 @@ Arch Linux är en distribution som är känd för sin robusthet, prestanda och a
 - **Fri och öppen källkod**: Som de flesta Linux-distributioner är Arch Linux helt gratis. Det finns inga licensavgifter, vilket gör det till ett utmärkt val för studenter, frilansare eller entusiaster.
 - **KISS** filosofi: Arch är utformat för att vara enkelt, lätt och effektivt. Den innehåller bara det viktigaste, så att du kan bygga din miljö à la carte.
 - **Pacman** är en pakethanterare: Pacman är en snabb, pålitlig och väldesignad pakethanterare. Den möjliggör effektiv installation och uppdatering av programvara och hanterar beroenden med precision.
-- **Omfattande dokumentation och en aktiv gemenskap**: [Arch Wiki] (https://wiki.archlinux.org) är förmodligen en av de bästa tekniska dokumentationerna i Linux-världen. Det är en guldgruva för att förstå vad du gör. Communityt, som mestadels består av erfarna profiler, är mycket aktivt och kan hjälpa dig om du kör fast, förutsatt att du har gjort lite efterforskningar i förväg.
+- **Omfattande dokumentation och en aktiv gemenskap**: [Arch Wiki](https://wiki.archlinux.org) är förmodligen en av de bästa tekniska dokumentationerna i Linux-världen. Det är en guldgruva för att förstå vad du gör. Communityt, som mestadels består av erfarna profiler, är mycket aktivt och kan hjälpa dig om du kör fast, förutsatt att du har gjort lite efterforskningar i förväg.
 
 
 
@@ -58,7 +58,7 @@ Sedan 2017 har Arch Linux inte längre stöd för 32-bitarsarkitekturer. Endast 
 
 
 
-- Besök [den officiella webbplatsen] (https://mir.archlinux.fr/iso/latest/) för att ladda ner den senaste officiella versionen av ISO-bilden.
+- Besök [den officiella webbplatsen](https://mir.archlinux.fr/iso/latest/) för att ladda ner den senaste officiella versionen av ISO-bilden.
 
 
 

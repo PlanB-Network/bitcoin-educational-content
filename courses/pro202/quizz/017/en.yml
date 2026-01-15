@@ -1,0 +1,8 @@
+question: What critical security requirement must be met when generating the nonce K in ECDSA signature creation?
+answer: K must be unique and unpredictable for every signature to prevent private key compromise
+wrong_answers:
+  - K must be derived from the public key to ensure signature verification works correctly
+  - K must be the same across multiple signatures to maintain consistency in the signing process
+  - K must be equal to the private key multiplied by the message hash for mathematical correctness
+explanation: |
+  The nonce K must be unique and unpredictable for each signature because reusing K or having it be predictable allows attackers to recover the private key. If the same K is used twice with different messages, simple algebra can reveal the private key. Modern implementations use deterministic K generation (RFC 6979) to avoid random number generator failures while ensuring uniqueness. The other options are incorrect: K should never be derived from the public key, never be reused, and never equal the private key times message hash.

@@ -1,9 +1,9 @@
-question: Ni ubuhe buryo bugufasha gusubiza inyuma amahera yakoreshejwe mu gihe uzigama amahera uzigamye?
+question: Ni ubuhe buryo bugufasha gusubizaho amahera yakoreshejwe kandi ukaguma urinze ivyo waziganije?
 answer: Gukoresha no gusubirira
 wrong_answers:
   - Gufata no gusubirira
   - Gukoresha no gucungera
   - Gucuruza no gukoresha
 explanation: |
-  Uburyo bwa Spend and Replace bujanye n’ugukoresha amafaranga y’ama bitcoins hanyuma ugasubira kugura ayo mahera nyene kugira ngo ugume ufise ivyo ufise.
+  Uburyo bwa Gukoresha no gusubirira bujanye n’ugukoresha amafaranga y’ama bitcoins hanyuma ugasubira kugura ayo mahera nyene kugira ngo ugume ufise ivyo ufise.
 reviewed: false

@@ -1,0 +1,8 @@
+question: Koji je primarni mehanizam koji Rust koristi za sprečavanje grešaka povezanih sa memorijom kao što su use-after-free i buffer overflow?
+answer: Staticka analiza izvedena u potpunosti u vreme kompajliranja
+wrong_answers:
+  - Automatsko prikupljanje smeća u izvršnom okruženju sa čišćenjem memorije
+  - Dinamičko proveravanje memorije tokom izvršavanja programa
+  - Ručna uprava memorijom sa eksplicitnim pozivima za alokaciju
+explanation: |
+  Rust sprečava greške povezane sa memorijom kroz statičku analizu koja se u potpunosti izvodi u vreme kompajliranja, gde kompajler ispituje izvorni kod i sa sigurnošću utvrđuje da li su memorijske operacije bezbedne. Ovo se razlikuje od sakupljanja smeća (koje koriste Java/Go) koje uvodi opterećenje u vreme izvršavanja, dinamičkog proveravanja koje zahteva verifikaciju u vreme izvršavanja, i ručnog upravljanja memorijom (koje koriste C/C++) koje se oslanja na disciplinu programera. Rust-ov pristup u vreme kompajliranja obezbeđuje bezbednost memorije bez troškova u vreme izvršavanja ili nepredvidivih pauza.

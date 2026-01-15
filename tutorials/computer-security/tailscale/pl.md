@@ -635,4 +635,4 @@ Tailscale jest niezbędnym narzędziem do samodzielnego hostingu, dzięki swojej
 
 
 
-Tailscale regularnie udostępnia nowe treści i funkcje. Sprawdź ich [oficjalny blog] (https://tailscale.com/blog/), aby uzyskać najnowsze wiadomości i studia przypadków.
+Tailscale regularnie udostępnia nowe treści i funkcje. Sprawdź ich [oficjalny blog](https://tailscale.com/blog/), aby uzyskać najnowsze wiadomości i studia przypadków.

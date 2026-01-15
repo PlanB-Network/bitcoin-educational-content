@@ -1,0 +1,9 @@
+question: In the NWC protocol, what mechanism is used to transport the request between the application and the node?
+answer: Events on Nostr relays
+wrong_answers:
+  - Direct REST calls to LND
+  - Point-to-point VPN connection
+  - Encrypted DNS requests
+explanation: |
+  The request is encrypted and then published as an event on a Nostr relay, which the node reads to execute the action.
+reviewed: false

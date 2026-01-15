@@ -1,0 +1,8 @@
+question: Welk mechanisme gebruikt Rust om variabelen en hun bronnen automatisch op te ruimen als ze buiten scope gaan?
+answer: Het druppelmechanisme dat druppelfuncties op variabelen aanroept
+wrong_answers:
+  - Een afvalverzamelaar die periodiek scant op ongebruikt geheugen
+  - Handmatige deallocatie van geheugen door expliciete free() functieaanroepen
+  - Referentietelling die bijhoudt hoeveel verwijzingen elke waarde heeft
+explanation: |
+  Rust gebruikt het drop mechanisme om automatisch bronnen op te ruimen wanneer variabelen uit scope gaan. Dit systeem roept impliciet een drop functie aan op elke variabele wanneer deze uit scope gaat, markeert geheugen als beschikbaar voor hergebruik en voert alle noodzakelijke opruim operaties uit zoals het sluiten van file handles. Deze aanpak, geleend van C++'s RAII-patroon, zorgt voor automatisch beheer van bronnen zonder garbage collection, handmatig geheugenbeheer of verwijzingen-telsystemen die door andere talen worden gebruikt.

@@ -1,0 +1,8 @@
+question: Jakie słowo kluczowe jest używane do definiowania bloków implementacji, które zawierają metody i powiązane funkcje dla struktur w Rust?
+answer: implikacja
+wrong_answers:
+  - metoda
+  - struktura
+  - fn
+explanation: |
+  Słowo kluczowe `impl` jest specjalnie używane do tworzenia bloków implementacji, w których definiuje się metody i powiązane funkcje dla struktur. Podczas gdy `struct` definiuje samą strukturę, `fn` definiuje indywidualne funkcje, a `method` nie jest w ogóle słowem kluczowym Rust, tylko `impl` tworzy blok, który zawiera zachowanie związane z typem. Bloki implementacji używające `impl` pozwalają na dodanie funkcjonalności do struktur, czyniąc je czymś więcej niż tylko kontenerami danych.

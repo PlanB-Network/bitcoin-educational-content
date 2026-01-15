@@ -6,3 +6,4 @@ wrong_answers:
   - Konsenzus pravila automatski validiraju i autorizuju svaki novi protokol izgrađen na Bitcoin putem procesa verifikacije blokčejna.
 explanation: |
   Razvoj bez dozvole je tačan odgovor jer je to osnovni princip koji omogućava svakome da gradi na Bitcoin bez traženja dozvole. Pogrešni odgovori su netačni jer: licenciranje otvorenog koda ne zahteva automatsko odobrenje ili integraciju u Bitcoin Core; MIT Licenca zapravo daje široka ovlašćenja bez potrebe za odobrenjem od strane programera; i pravila konsenzusa validiraju transakcije i blokove, a ne protokole višeg nivoa izgrađene na vrhu Bitcoin.
+reviewed: false

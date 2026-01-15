@@ -6,3 +6,4 @@ wrong_answers:
   - Soft fork muutoksista tulee pysyviä, eikä niitä voida muuttaa, kun kaivostyöläiset ovat aktivoineet ne
 explanation: |
   Shaolinfry havaitsi, että kaivostyöläisten signalointi luo luonnollisen veto-järjestelmän, jossa jopa pieni osa hashrate:stä voi estää päivitysten aktivoinnin koko verkossa. Tämä "päivitysinertia" muuttuu ongelmallisemmaksi, kun mining:sta tulee hajautetumpi, mikä saattaa estää hyödyllisiä protokollan parannuksia. Muut vaihtoehdot antavat väärän kuvan siitä, miten pehmeät haarautumat toimivat - louhijat eivät voi peruuttaa aktivointeja yksipuolisesti, taloussolmut säilyttävät validointivaltuudet, ja pehmeät haarautumat voidaan teoriassa muuttaa myöhemmillä päivityksillä.
+reviewed: false

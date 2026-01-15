@@ -1,4 +1,7 @@
 id: f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+
+last_update_date: 2025-05-06
+
 project_id: d1918770-fe6a-44aa-b639-977e9ece2450
 professor_id: 81a82a0f-3003-4459-9d6a-67f860efb20e
 level: beginner
@@ -7,9 +10,11 @@ tags:
   - technical-analysis
   - onchain
 
-category: analysis
+category: explorer
 
 # proofreading metadata
+
+license: CC-BY-SA-V4
 
 original_language: fr
 proofreading:
@@ -53,22 +58,24 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.68
-  - language: id
-    last_contribution_date:
-    urgency: 1
-    contributor_names:
     reward: 3.37
-  - language: it
-    last_contribution_date:
+  - language: id
+    last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
-    reward: 2.06
+      - 62maximalist
+    reward: 1.69
+  - language: it
+    last_contribution_date: '2025-12-29'
+    urgency: 1
+    contributor_names:
+      - overbomb
+    reward: 1.03
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.03
+    reward: 3.37
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -106,7 +113,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.03
+    reward: 3.37
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -146,4 +153,14 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.03
+    reward: 3.37
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.72
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 3.37

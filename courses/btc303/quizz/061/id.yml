@@ -6,3 +6,4 @@ wrong_answers:
   - Pengguna harus mengandalkan tanda tangan kriptografi dari pengembang tepercaya untuk memvalidasi perilaku perangkat lunak
 explanation: |
   Bab ini secara eksplisit menyatakan bahwa agar pengguna dapat memverifikasi perangkat lunak Bitcoin 'berfungsi seperti yang diiklankan,' mereka harus memiliki akses tak terbatas ke kode sumber. Hal ini berhubungan langsung dengan prinsip 'Jangan Percaya, Verifikasi' dan persyaratan definisi open source untuk ketersediaan kode sumber. Jawaban yang salah bertentangan dengan prinsip-prinsip inti open source: membutuhkan izin melanggar prinsip akses gratis, membayar biaya bertentangan dengan persyaratan distribusi tanpa biaya, dan hanya mengandalkan tanda tangan melemahkan kemampuan verifikasi-melalui-pemeriksaan yang disediakan oleh open source.
+reviewed: false

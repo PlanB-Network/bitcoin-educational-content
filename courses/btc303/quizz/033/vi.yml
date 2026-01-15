@@ -6,3 +6,4 @@ wrong_answers:
   - 2160
 explanation: |
   Theo chương này, BIP42 đã khắc phục lỗi lạm phát rất dài hạn và đảm bảo trợ cấp khối sẽ đạt mức 0 vào khoảng năm 2140. Đây là thời điểm Bitcoin sẽ chuyển đổi từ hệ thống phần thưởng dựa trên trợ cấp sang hệ thống hoàn toàn dựa trên phí, về cơ bản thay đổi cách chi trả chi phí bảo mật mạng từ người nắm giữ trả thông qua lạm phát cho người chi tiêu trả thông qua phí giao dịch.
+reviewed: false

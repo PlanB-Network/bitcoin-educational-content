@@ -6,3 +6,4 @@ wrong_answers:
   - Identyfikatory transakcji w łańcuchu bloków
 explanation: |
   Bitcoin używa adresów pochodzących z kluczy publicznych jako pseudonimów, a nie arbitralnych nazw użytkowników lub innych identyfikatorów. Ten wybór projektowy służy wielu ważnym celom: eliminuje potrzebę wcześniejszej rejestracji pseudonimów w łańcuchu bloków, zmniejsza zachęty do ponownego użycia tego samego pseudonimu, pozwala uniknąć niepotrzebnego rozrostu łańcucha bloków i znacznie utrudnia złośliwym podmiotom podszywanie się pod innych. Korzystanie z opisowych nazw użytkowników wymagałoby systemu rejestracji i stworzyłoby luki w zabezpieczeniach, podczas gdy klucze prywatne muszą pozostać tajne, a identyfikatory transakcji służą innemu celowi w systemie.
+reviewed: false

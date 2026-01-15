@@ -1,0 +1,8 @@
+question: Faili ya Unified Definition Language (UDL) ina jukumu gani katika mtiririko wa kazi wa UniFFI?
+answer: Inafanya kazi kama vipimo vya kiolesura vinavyoelezea ni sehemu gani za maktaba ya Rust zinapaswa kuonyeshwa kwa lugha zingine
+wrong_answers:
+  - Ina msimbo halisi wa utekelezaji wa Rust ambao hukusanywa katika vifungo vya lugha lengwa
+  - Inatumika kama faili ya usanidi wa wakati wa utekelezaji ambayo hudhibiti ugawaji wa kumbukumbu kati ya mazingira tofauti ya lugha
+  - Inatoa mfumo wa majaribio wa kuthibitisha usahihi wa vifungo vilivyozalishwa katika mifumo mingi
+explanation: |
+  Faili ya UDL hutumika kama mkataba au vipimo kati ya utekelezaji wa Rust na vifungo vya lugha vilivyozalishwa. Haina msimbo wa Rust yenyewe, wala haishughulikii shughuli au majaribio ya wakati wa utekelezaji. Badala yake, inafafanua kwa uwazi ni kazi gani, aina, na violesura kutoka kwa maktaba ya Rust vinapaswa kupatikana kwa lugha zingine, ikibainisha jinsi zinavyopaswa kuchorwa na kuwasilishwa katika kiolesura asilia cha lugha lengwa.

@@ -6,3 +6,4 @@ wrong_answers:
   - Blok zincirindeki işlem kimlikleri
 explanation: |
   Bitcoin, rasgele kullanıcı adları veya diğer tanımlayıcılar yerine açık anahtarlardan türetilen adresleri takma ad olarak kullanır. Bu tasarım tercihi birçok önemli amaca hizmet eder: takma adların blok zincirine önceden kaydedilmesi ihtiyacını ortadan kaldırır, aynı takma adın tekrar kullanılmasına yönelik teşvikleri azaltır, gereksiz blok zinciri şişkinliğini önler ve kötü niyetli aktörlerin başkalarını taklit etmesini çok daha zor hale getirir. Açıklayıcı kullanıcı adlarının kullanılması bir kayıt sistemi gerektirecek ve güvenlik açıkları yaratacaktır, özel anahtarların gizli kalması gerekirken işlem kimlikleri sistemde farklı bir amaca hizmet eder.
+reviewed: false

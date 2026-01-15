@@ -1,0 +1,8 @@
+question: 在 P2PKH 交易驗證中，ScriptPubKey 會執行哪些特定的操作順序來驗證支出條件？
+answer: 複製公開金鑰、散列、與已提交的散列比較，然後驗證簽章
+wrong_answers:
+  - 散列簽章，與公開金鑰散列值比較，然後與承諾值進行驗證
+  - 首先驗證簽章，然後雜湊公開金鑰，並與已承諾的雜湊進行比較
+  - 結合簽章和公開金鑰，散列結果，然後與已承諾的散列比較
+explanation: |
+  P2PKH 的 ScriptPubKey 遵循特定順序：OP_DUP OP_HASH160 <pubkey_hash> OP_EQUALVERIFY OP_CHECKSIG。這會複製提供的公開金鑰，套用 SHA256 然後再套用 RIPEMD160 散列，驗證結果是否與承諾的散列相符，最後檢查簽章。其他選項會錯誤描述作業順序，或建議散列簽章而非公開金鑰，這會破壞驗證邏輯。

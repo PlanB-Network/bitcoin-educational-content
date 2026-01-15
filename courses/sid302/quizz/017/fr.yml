@@ -1,0 +1,8 @@
+question: Dans le modèle de consensus fédéré de Liquid, quel est le nombre minimum de signatures de fonctionnaires requis pour valider un bloc, et quel est le nombre maximum de défaillances de nœuds que le réseau peut tolérer ?
+answer: 11 signatures requises, peut tolérer jusqu'à 4 défaillances de nœuds
+wrong_answers:
+  - 8 signatures requises, peut tolérer jusqu'à 7 défaillances de nœuds
+  - 15 signatures requises, peut tolérer jusqu'à 2 défaillances de nœuds
+  - 9 signatures requises, peut tolérer jusqu'à 6 défaillances de nœuds
+explanation: |
+  Le Liquid utilise un système de seuil de 11 sur 15, selon lequel au moins 11 des 15 fonctionnaires doivent signer chaque bloc pour qu'il soit valide. Cette conception permet au réseau de continuer à fonctionner même si jusqu'à 4 nœuds tombent en panne (15 - 11 = 4). Les autres options fournissent des seuils de signature incorrects ou calculent mal la tolérance aux pannes, qui correspond toujours au nombre total de nœuds moins les signatures requises.

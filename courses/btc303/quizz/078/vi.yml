@@ -6,3 +6,4 @@ wrong_answers:
   - Để duy trì khả năng tương thích ngược với các phiên bản nút cũ hơn không thể xử lý các bản vá khẩn cấp
 explanation: |
   Câu trả lời đúng nêu bật một nghịch lý quan trọng trong việc vá lỗi bảo mật: bản thân bản vá có thể làm lộ lỗ hổng. Chương này nhấn mạnh rằng các nhà phát triển phải cẩn thận che giấu các bản vá vì việc phát hành chúng ngay lập tức có thể tiết lộ lỗ hổng cho kẻ tấn công trước khi hầu hết các nút được bảo vệ. Các câu trả lời sai, mặc dù hợp lý, nhưng lại trình bày sai các ưu tiên: thông báo về altcoin xảy ra sau khi triển khai mạng Bitcoin, việc kiểm tra nhóm mining không phải là mối quan tâm chính đối với các sự cố không nghiêm trọng, và khả năng tương thích ngược không quyết định thời điểm phát hành các bản vá bảo mật.
+reviewed: false

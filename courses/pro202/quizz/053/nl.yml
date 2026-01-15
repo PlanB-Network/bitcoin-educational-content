@@ -1,0 +1,8 @@
+question: Welke specifieke endianness conversie uitdaging moeten Bitcoin knooppunten aangaan bij het construeren en verifiëren van Merkle bomen van transactiedata?
+answer: Transactiehashes moeten worden omgekeerd van little-endian geserialiseerd formaat naar big-endian voor interne boomstructuurberekening, en dan teruggekeerd voor opslag
+wrong_answers:
+  - Block headers moeten geconverteerd worden van big-endian naar little-endian voor het berekenen van de Merkle root om overeen te komen met het netwerk transmissie formaat
+  - De uiteindelijke Merkle root moet alleen worden geconverteerd van big-endian naar little-endian bij verzending naar andere knooppunten via P2P berichten
+  - Transactie-ID's worden opgeslagen in big-endian formaat, maar moeten worden geconverteerd naar little-endian voordat paren in de Merkle-boom worden gehasht
+explanation: |
+  Bitcoin's Merkle tree constructie bevat een kritieke endianness conversiestap. Terwijl geserialiseerde blokgegevens het little-endian formaat gebruiken, vereist de interne Merkle boom berekening big-endian hashes. Knooppunten moeten transactie hashes omkeren van hun geserialiseerde little-endian formaat naar big-endian voor boomconstructie, en dan de uiteindelijke root terugkeren naar little-endian voor opslag in de block header. Deze conversie is essentieel voor een goede verificatie.

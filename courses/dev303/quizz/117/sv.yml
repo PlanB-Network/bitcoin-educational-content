@@ -1,0 +1,8 @@
+question: Vad är det grundläggande skälet till att Breez SDK:s arkitektur förhindrar regleringshinder som vanligtvis påverkar depåbaserade blixttjänster?
+answer: Användarna behåller fullständig kontroll över sina privata nycklar som aldrig lämnar deras enheter, vilket gör det till en programvara som inte är frihetsberövande
+wrong_answers:
+  - SDK fungerar genom decentraliserade LSP:er som fördelar regleringsansvaret över flera jurisdiktioner
+  - Greenlight-infrastrukturen är hostad i regleringsvänliga jurisdiktioner som undantar molnbaserade Lightning-tjänster
+  - Mekanismen för just-in-time-kanaler skapar tillfälliga betalningskanaler som faller utanför traditionella finansiella regelverk
+explanation: |
+  Breez SDK undviker regulatoriska hinder eftersom den upprätthåller principer om icke-förvaring - användarnas privata nycklar lämnar aldrig deras enheter och Greenlight kan inte komma åt användarnas medel eller utföra obehöriga operationer. Denna icke-depåarkitektur innebär att programvaran inte innehar kundmedel, till skillnad från depåtjänster som står inför betydande regleringskrav eftersom de kontrollerar användarnas tillgångar. De andra alternativen antyder felaktigt att de regulatoriska fördelarna kommer från tekniska funktioner eller jurisdiktionsstrategier, när den centrala fördelen helt enkelt är att icke-förvaltande programvara står inför färre regulatoriska hinder globalt.

@@ -276,7 +276,7 @@ Beri nama kunci Anda dan tekan _Lanjutkan_.
 
 
 
-Pada akhir langkah ini, Anda akan ditanya apakah akan menambahkan [passphrase] (https://planb.academy/en/resources/glossary/passphrase-bip39) pada frasa Mnemonic Anda. Jika Anda tidak memiliki pengetahuan yang diperlukan tentang cara menggunakan passphrase, mengatur cadangannya, atau bagaimana cara kerjanya, saya sarankan Anda memilih _Saya tidak memerlukan frasa sandi_.
+Pada akhir langkah ini, Anda akan ditanya apakah akan menambahkan [passphrase](https://planb.academy/en/resources/glossary/passphrase-bip39) pada frasa Mnemonic Anda. Jika Anda tidak memiliki pengetahuan yang diperlukan tentang cara menggunakan passphrase, mengatur cadangannya, atau bagaimana cara kerjanya, saya sarankan Anda memilih _Saya tidak memerlukan frasa sandi_.
 
 
 
@@ -375,7 +375,7 @@ Setelah Anda puas, tekan _Buat dompet_
 
 
 
-Wallet telah dibuat dan Anda dapat mengunduh file [.BSMS] (https://github.com/Bitcoin/bips/blob/master/bip-0129.mediawiki) sebagai cadangan. Untuk kembali ke menu utama, klik tanda panah di sudut kiri atas.
+Wallet telah dibuat dan Anda dapat mengunduh file [.BSMS](https://github.com/Bitcoin/bips/blob/master/bip-0129.mediawiki) sebagai cadangan. Untuk kembali ke menu utama, klik tanda panah di sudut kiri atas.
 
 
 
@@ -394,7 +394,7 @@ Anda berada di _Home_, di mana Anda diperlihatkan Wallet yang baru saja dibuat y
 
 
 - Ikon lensa di sudut kanan atas memungkinkan Anda melakukan pencarian transaksi;
-- `Lihat konfigurasi Wallet` memberikan akses ke menu konfigurasi, di mana Anda dapat mengedit nama Wallet dan mengaktifkan opsi lanjutan, di kanan atas (di mana Anda tidak dapat mengambil tangkapan layar). Di sini Anda dapat mengekspor konfigurasi Wallet, label, mengganti kunci, mengubah [gap limit] (https://planb.academy/en/resources/glossary/gap-limit) dan banyak lagi.
+- `Lihat konfigurasi Wallet` memberikan akses ke menu konfigurasi, di mana Anda dapat mengedit nama Wallet dan mengaktifkan opsi lanjutan, di kanan atas (di mana Anda tidak dapat mengambil tangkapan layar). Di sini Anda dapat mengekspor konfigurasi Wallet, label, mengganti kunci, mengubah [gap limit](https://planb.academy/en/resources/glossary/gap-limit) dan banyak lagi.
 
 
 

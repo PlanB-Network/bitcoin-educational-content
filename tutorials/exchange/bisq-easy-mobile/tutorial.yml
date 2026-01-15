@@ -1,6 +1,6 @@
 id: 59b05226-9afc-4c6d-a54e-6f9e75111f9d
 
-last_update_date: 2026-01-14
+last_update_date: 2026-01-15
 
 project_id: 9a5bbbc3-22ac-4c98-b10a-c953f9fae337
 
@@ -26,4 +26,5 @@ proofreading:
     urgency: 1
     contributor_names:
       - runningbitcoin
+      - LoicPandul
     reward: 0

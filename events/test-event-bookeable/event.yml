@@ -1,0 +1,23 @@
+id: 4132ec2c-06f4-4488-b1d9-d03dd1c7518e
+test_only: true
+start_date: 2026-01-22 10:00:00
+end_date: 2026-01-22 15:00:00
+timezone: Europe/Paris
+address_city_country: Paris, France
+name: TEST event Bookeable
+type: conference
+book_in_person: true
+available_seats: 12
+is_gdpr_compliance: true
+custom_tc_disclaimer: This is a test of custom gdpr message.
+price: 0
+description: |
+  This is a test event bookeable
+language:
+  - en
+project_id: cd62a137-baad-4133-b90d-711963e510c7 
+links:
+  website: ""
+tags:
+  - proof-of-work
+  - hardware

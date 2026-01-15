@@ -105,464 +105,301 @@ Aunque estos periodos experimentaron una inflación significativa, no alcanzaron
 
 ![image](assets/es/004.webp)
 
-
-
 - Denario de Marco Aurelio (160 d.C.):
 
-Una de las monedas más emblemáticas de la antigua Roma es el denario, una Coin de plata. Poseo un Coin específico de Marco Aurelio que data del año 160 d.C., antes de la gran devaluación. Aunque a la cámara le cueste captar los detalles más finos, a simple vista es evidente que el Coin es hermoso y refleja un contenido de plata relativamente alto.
-
-
+Una de las monedas más emblemáticas de la antigua Roma es el denario, una moneda de plata. Se trata de una moneda específica de Marco Aurelio que data del año 160 d.C., antes de la gran devaluación. Aunque a la cámara le cueste captar los detalles más finos, a simple vista es evidente que la moneda es hermosa y refleja un contenido de plata relativamente alto.
 
 - El Antoniniano (finales del siglo III d.C.):
 
-Con la devaluación monetaria, apareció una nueva moneda, el Antoninianus. Esta moneda debía valer dos denarios, pero contenía mucha menos plata. Mi Antoninianus Coin muestra claramente que el contenido de plata se ha reducido considerablemente. Está adornado con una corona, típica de las monedas romanas de este periodo, llamada "radiada". Comparando el color y la calidad, puede verse que el Antoninianus dista mucho de ser un Coin de plata pura.
+Con la devaluación monetaria, apareció una nueva moneda, el Antoninianus. Esta moneda debía valer dos denarios, pero contenía mucha menos plata. La siguiente moneda Antoninianus muestra claramente que el contenido de plata se ha reducido considerablemente. Está adornado con una corona, típica de las monedas romanas de este periodo, llamada "radiada". Comparando el color y la calidad, puede verse que el Antoninianus dista mucho de ser una moneda de plata pura.
 
 Al comparar las dos monedas, la diferencia es notable. El denario de 160 d.C. tiene un marcado aspecto plateado, mientras que el antoniniano de finales del siglo III d.C. es mucho más apagado, lo que indica una importante disminución del contenido de plata. Esta comparación visual ilustra claramente la devaluación monetaria que sufrió la antigua Roma a lo largo de varios siglos.
 
-
 ![image](assets/es/005.webp)
-
 
 Para completar esta demostración, sería ideal un gráfico que ilustrase la devaluación de estas monedas a lo largo del tiempo. Aunque es difícil de visualizar a través de esta plataforma, imaginemos un gráfico que muestre el valor del denario, seguido de su declive hacia finales del siglo II, cuando fue sustituido por el Antoninianus, supuestamente de dos denarios pero con un contenido en plata significativamente inferior. Estos artefactos son testigos mudos de las fluctuaciones económicas de civilizaciones pasadas.
 
-
 #### 3. El Maravedí español: testigo de la devaluación selectiva
-
 
 ![image](assets/es/006.webp)
 
-
 El Maravedí, como moneda de cobre, ocupa un lugar especial en la historia de la moneda española. Como ya se ha mencionado, el dólar español fue originalmente el patrón internacional, una moneda de reserva esencial para España. Sin embargo, ante ciertos retos económicos, España tuvo que recurrir a ingeniosas estrategias monetarias.
-
 
 La devaluación monetaria es una herramienta utilizada a menudo por los Estados para financiar sus gastos o estimular la economía. Sin embargo, España se encontraba en una situación delicada. Diluir el dólar español habría comprometido su posición en el comercio internacional. Para superar este dilema, España recurrió al Maravedí.
 
-
-A diferencia del preciado dólar de plata español, el Maravedí era una moneda de cobre utilizada principalmente entre la población local. Esta moneda fue objeto de devaluación. Cuando un Coin maravedí valía inicialmente dos maravedises, el Estado lo recuperaba, lo volvía a sellar con un nuevo valor, por ejemplo, "cuatro", y sólo devolvía un Coin al propietario. La Coin, marcada con el sello "ocho", es una prueba de este proceso, ya que ha sufrido varios ciclos de devaluación.
-
+A diferencia del preciado dólar de plata español, el Maravedí era una moneda de cobre utilizada principalmente entre la población local. Esta moneda fue objeto de devaluación. Cuando un Maravedí valía inicialmente dos maravedises, el Estado lo recuperaba, lo volvía a sellar con un nuevo valor, por ejemplo, "cuatro", y sólo devolvía una moneda al propietario. La moneda, marcada con el sello "ocho", es una prueba de este proceso, ya que ha sufrido varios ciclos de devaluación.
 
 Esta estrategia permitió al Estado devaluar eficazmente una moneda, creando inflación y financiando indirectamente al Estado, al tiempo que preservaba la integridad del dólar español en la escena internacional. Sin embargo, esta devaluación selectiva tuvo consecuencias para la población local, que vio cómo se diluía el valor de su moneda común.
 
-
 El caso de los maravedíes ilustra cómo un Estado puede devaluar selectivamente una moneda local para satisfacer sus necesidades económicas internas, preservando al mismo tiempo el valor de una moneda de reserva en el escenario mundial. Es un ejemplo sorprendente de la complejidad y delicadeza de la política monetaria en la historia.
-
 
 ![image](assets/es/007.webp)
 
-
 ¿Quieres saber más? -> [Enlace](https://docs.google.com/document/d/1aZa7gvz1nt8ZHDCoWKQdS9RGGjBHdipH1ApC8dW1xpM/edit?usp=sharing)
-
 
 #### 4. Revolución de los precios del siglo XV al XVII
 
-
-Entre los siglos XV y XVII, Europa fue testigo de un notable fenómeno económico, a menudo denominado "revolución de los precios" Este periodo de inflación fue desencadenado en gran medida por una afluencia masiva de metales preciosos, en particular oro y plata, procedentes de América. Con la economía europea basada en gran medida en el patrón metálico de la época, este Supply adicional de metales aumentó el Supply monetario. Como resultado, surgió una tasa de inflación de alrededor del 1 al 2% anual. A primera vista, esta inflación puede parecer modesta. Sin embargo, en aquella época, tales fluctuaciones de precios eran lo bastante inusuales como para ser consideradas una "revolución" Esto pone de relieve cómo los cambios en las reservas monetarias pueden influir en todo el sistema económico.
-
+Entre los siglos XV y XVII, Europa fue testigo de un notable fenómeno económico, a menudo denominado "revolución de los precios" Este periodo de inflación fue desencadenado en gran medida por una afluencia masiva de metales preciosos, en particular oro y plata, procedentes de América. Con la economía europea basada en gran medida en el patrón metálico de la época, este suministro adicional de metales aumentó la oferta monetaria. Como resultado, surgió una tasa de inflación de alrededor del 1 al 2% anual. A primera vista, esta inflación puede parecer modesta. Sin embargo, en aquella época, tales fluctuaciones de precios eran lo bastante inusuales como para ser consideradas una "revolución" Esto pone de relieve cómo los cambios en las reservas monetarias pueden influir en todo el sistema económico.
 
 #### 5. John Law y los Assignat
 
-
 En el siglo XVIII, la historia económica francesa estuvo marcada por dos acontecimientos significativos relacionados con la moneda. En primer lugar, John Law, economista y financiero escocés, convenció al gobierno francés para que adoptara un sistema monetario basado en el papel moneda. Aunque en un principio se consideró una solución innovadora a los problemas financieros del país, esta iniciativa desembocó rápidamente en una inflación galopante. Poco después, durante la agitación de la Revolución Francesa, el gobierno introdujo los "assignats".
-
 
 ![image](assets/es/008.webp)
 
-
 Assignats de 1793
-
 
 Estos billetes son un testimonio vivo del primer gran periodo de hiperinflación de la historia. Concebidos inicialmente como respuesta a sucesivas crisis financieras, los assignats se convirtieron rápidamente en un símbolo de inestabilidad monetaria. El gobierno, al depender excesivamente de este papel moneda para financiar sus gastos, provocó una crisis económica sin precedentes y condujo a un importante periodo de hiperinflación en Francia tras la revolución.
 
-
 #### 6. La Orden Ejecutiva 6102 y la devaluación del dólar
-
 
 La Orden Ejecutiva 6102 y la devaluación del dólar
 
-
 En Estados Unidos, a principios de la década de 1930 se produjo un importante cambio en la política monetaria. He aquí una visión detallada de esta transformación:
-
-
 
 - El billete de 20 dólares de 1928
 
-
 ![image](assets/es/009.webp)
-
 
 En 1928, un billete de 20 dólares en Estados Unidos decía: "canjeable en oro a la vista" Esto significa que cada billete era literalmente convertible en oro. Concretamente, un billete de 20,67 dólares equivalía a una onza de oro.
 
-
-
 - Decreto 6102
-
 
 En 1933, se produjo un gran revuelo con la promulgación del Decreto 6102. Este decreto ilegalizaba la posesión de oro por parte de los ciudadanos, ya fuera en forma de lingotes, monedas o certificados.
 
-
 ![image](assets/es/010.webp)
 
-
-El Certificado de Oro es un buen ejemplo. Estaba marcado: "En oro Coin pagadero al portador a la vista" Poseer un certificado de este tipo pasó a ser ilegal y así permaneció hasta 1964.
-
+El Certificado de Oro es un buen ejemplo. Estaba marcado: "En oro pagadero al portador a la vista" Poseer un certificado de este tipo pasó a ser ilegal y así permaneció hasta 1964.
 
 ![image](assets/es/011.webp)
 
-
-
 - Introducción de nuevos billetes
 
-
 Tras la incautación del oro en 1934, se puso en circulación una nueva serie de billetes.
-
 
 ![image](assets/es/012.webp)
 
 Se ha suprimido la mención que indicaba su convertibilidad en oro y se ha sustituido por "Este billete es de curso legal para todas las deudas" (Ce billet est une monnaie légale pour toutes dettes).
 
-
-
 - Revalorización del oro
-
 
 Lo fascinante de esta transición es la estrategia del gobierno. En 1934, el precio del oro se revalorizó a 35 dólares la onza, en lugar de 20,67 dólares. Esencialmente, el gobierno devaluó el dólar que la gente poseía. Al comprar oro a la población a 20,67 dólares la onza en 1933 y luego revalorizar el precio del oro en 1934, el gobierno generó un beneficio sustancial al tiempo que devaluaba los ahorros de sus ciudadanos.
 
-
 En resumen, en el plazo de un año, el gobierno se apoderó efectivamente del oro de los ciudadanos y, a continuación, cambió las reglas del juego reevaluando el valor del oro en beneficio del Tesoro y en perjuicio de quienes habían canjeado inicialmente su oro por billetes.
-
 
 ### Estados Unidos cambia la historia.
 
-
 Estados Unidos dio un giro histórico al convertirse en el primero en devaluar la moneda de reserva mundial, el dólar estadounidense, contrariamente a las prácticas anteriores observadas en pequeñas naciones comerciales.
-
 
 Anteriormente, durante el Renacimiento, el florín italiano emitido por Florencia en el siglo XIII era la moneda de reserva internacional, y no se había registrado ninguna devaluación durante su periodo de uso, lo que refleja la importancia de la estabilidad monetaria para el comercio internacional.
 
-
 Con el mismo espíritu, España y los Países Bajos, como poseedores de la moneda de reserva mundial debido a su floreciente comercio internacional, mantuvieron la integridad de sus monedas para preservar la confianza y el statu quo en los intercambios internacionales. Los Países Bajos fueron incluso testigos de la creación del primer banco central, un hito significativo en la evolución mundial de los sistemas monetarios.
-
 
 ![image](assets/es/013.webp)
 
-
 Sin embargo, la situación cambió con el ascenso de Estados Unidos como potencia económica dominante. Optaron por devaluar su moneda de reserva, aprovechando así la inflación en su beneficio. Esta decisión suele atribuirse al cambio de dinámica, en el que la elección de la moneda de reserva ya no era tan libre como antes. La hegemonía estadounidense estableció el dólar como moneda de reserva mundial, permitiendo la manipulación de su valor. Este cambio revela el impacto potencial de las políticas monetarias sobre el comercio internacional en una economía globalizada, marcando una transición significativa en la gestión de las monedas de reserva mundiales.
 
-
-### Último ejemplo para el camino: el dinar suizo
-
+### Último ejemplo para el camino: El dinar suizo
 
 El dinar suizo ilustra otro aspecto fascinante de la devaluación monetaria, esta vez anclado en el contexto iraquí anterior a la Guerra del Golfo. Llamada así por la notable calidad de sus billetes, esta moneda fue emitida por el Banco Central de Irak y gozaba de una reputación de estabilidad en la región de Oriente Medio. Esta confianza se debía principalmente a la calidad de la impresión de los billetes, que se realizaba en Inglaterra, lo que implicaba una cierta solidez frente a la devaluación.
 
-
 ![image](assets/es/014.webp)
-
 
 Sin embargo, las Guerras del Golfo marcaron un punto de inflexión en la historia del dinar suizo. Irak, que ya no podía confiar en su proveedor inglés para la impresión de billetes, recurrió a China en busca de ayuda. Esta transición dio lugar a una clara diferencia en la calidad de los billetes, percibiéndose la versión china como inferior. Esta percepción no era infundada; los billetes chinos eran más fácilmente falsificables y susceptibles de ser sobreimpresos por el gobierno, lo que ponía en peligro su valor.
 
-
 ![image](assets/es/015.webp)
-
 
 En la economía iraquí posterior a la guerra del Golfo surgió un fenómeno característico: el sistema dual de precios. Los comerciantes ofrecían precios diferentes según el tipo de billete utilizado para el pago, favoreciendo el dinar suizo original frente al billete chino. Este sistema reflejaba la confianza que se mantenía en los billetes de mayor calidad, menos propensos a la devaluación, incluso en un contexto en el que el valor lo imponía principalmente el Estado. Este episodio pone de relieve la importancia de las características intrínsecas de la moneda y cómo, incluso en un régimen de moneda fiduciaria, la calidad percibida de una moneda puede influir en su valor relativo y, por extensión, en la confianza de los agentes económicos.
 
-
 #### Sí, ¡hemos pesado las monedas!
 
-
 La percepción común suele asociar la moneda con la creación estatal, donde su emisión y valor están regulados por el Estado. Este concepto tiene sus raíces en civilizaciones antiguas, como Roma, donde las monedas eran estandarizadas y selladas por el Imperio, confiriendo así valor oficial a la moneda. Sin embargo, una exploración más profunda revela que el valor intrínseco de la moneda se derivaba principalmente de su contenido en metales preciosos.
-
 
 ![image](assets/es/016.webp)
 
 Un ejemplo de ello es el examen de un peso monetario equivalente a ocho reales españoles, o un dólar español. Este peso, marcado con un número romano que indicaba su valor, era utilizado por los cambistas para evaluar el valor de las monedas basándose en su peso, en lugar de sólo en su estampación. Al pesar las monedas, los cambistas podían determinar si habían sido alteradas o dañadas, lo que podría haber reducido su valor. Esta práctica pone de relieve que, aunque el cuño estandarizado por el Estado confería cierto valor nominal a la moneda, el verdadero valor residía en el peso del metal precioso que contenía.
 
-
-Este análisis demuestra que la confianza en la moneda, y por extensión en su valor, estaba anclada en su sustancia tangible y no en la mera afirmación del Estado. Subraya la dualidad entre el valor nominal impuesto por el Estado y el valor intrínseco dictado por el contenido del metal precioso. Así pues, la moneda va más allá de ser un mero instrumento estatal, ya que su valor fundamental está intrínsecamente ligado a Elements tangible y mensurable.
-
+Este análisis demuestra que la confianza en la moneda, y por extensión en su valor, estaba anclada en su sustancia tangible y no en la mera afirmación del Estado. Subraya la dualidad entre el valor nominal impuesto por el Estado y el valor intrínseco dictado por el contenido del metal precioso. Así pues, la moneda va más allá de ser un mero instrumento estatal, ya que su valor fundamental está intrínsecamente ligado a elementos tangibles y mensurables.
 
 #### Conclusión
 
-
-En conclusión, este estudio sobre la devaluación monetaria proporciona una comprensión más profunda de los mecanismos de la inflación, que se explorarán en los siguientes vídeos. Discutiremos los diferentes tipos de inflación y el umbral en el que pasan a ser alta o hiperinflación. Esta sólida base nos permitirá Address las complejidades de la inflación en las próximas sesiones. Gracias por su atención. Esperamos continuar esta exploración de la dinámica monetaria en el próximo vídeo.
-
+En conclusión, este estudio sobre la devaluación monetaria proporciona una comprensión más profunda de los mecanismos de la inflación, que se explorarán en los siguientes vídeos. Discutiremos los diferentes tipos de inflación y el umbral en el que pasan a ser alta o hiperinflación. Esta sólida base nos permitirá analizar las complejidades de la inflación en las próximas sesiones. Gracias por tu atención. Esperamos continuar esta exploración de la dinámica monetaria en el próximo vídeo.
 
 ## Tipos de inflación
 
-
 <chapterId>b438fe09-375e-5bb2-9196-7dd687b9f98c</chapterId>
-
 
 ### La inflación no es un fenómeno multifactorial
 
-
 En esta sección examinaremos los diversos aspectos de la inflación, un fenómeno que a menudo se malinterpreta. Aunque en los medios de comunicación y en los debates cotidianos la inflación se percibe con frecuencia como un fenómeno multifactorial, es crucial recordar que se trata fundamentalmente de un fenómeno monetario.
-
 
 ![image](assets/es/017.webp)
 
-
 A continuación se desglosa el tema en varios puntos clave:
 
-
-
 - Distinción entre aumento de precios e inflación:
-
 
 Un aumento de los precios puede ser específico de un sector e inducido por diversos factores, como una disminución de la producción de petróleo de la OPEP o unas condiciones meteorológicas desfavorables que afecten a la producción de trigo.
 
 La inflación, en cambio, se define por un aumento generalizado de los precios en toda una gama de bienes y servicios, no sólo en un sector concreto.
 
-
-
 - La esencia monetaria de la inflación:
 
-Con una Supply monetaria fija, un aumento de los precios en un sector provocaría una disminución de los precios en otros sectores, ya que se reduciría la cantidad de dinero disponible para gastar en otros sectores. La inflación está estrechamente relacionada con un aumento del Supply monetario, que permite una subida simultánea de los precios en todos los sectores.
+Con una oferta monetaria fija, un aumento de los precios en un sector provocaría una disminución de los precios en otros sectores, ya que se reduciría la cantidad de dinero disponible para gastar en otros sectores. La inflación está estrechamente relacionada con un aumento del suministro monetario, que permite una subida simultánea de los precios en todos los sectores.
 
+- Impacto de la oferta monetaria en la inflación y la deflación:
 
+En un sistema de suministro de dinero fijo, un aumento de la producción debería conducir teóricamente a la deflación, es decir, a una disminución de los precios, ya que habría más bienes y servicios disponibles.
 
-- Impacto de la Supply monetaria en la inflación y la deflación:
+En el sistema monetario fiduciario actual, un aumento del suminitro monetario anula la deflación potencial causada por un aumento de la producción.
 
+- Efectos negativos del ajuste en el suministro monetario:
 
-En un sistema de dinero fijo Supply, un aumento de la producción debería conducir teóricamente a la deflación, es decir, a una disminución de los precios, ya que habría más bienes y servicios disponibles.
+Un aumento del suministro monetario, sin un aumento correspondiente de la producción, provoca inflación, ya que hay más dinero en circulación para la misma cantidad de bienes y servicios.
 
-En el sistema monetario fiduciario actual, un aumento del Supply monetario anula la deflación potencial causada por un aumento de la producción.
+Aunque el aumento de la producción debería haber provocado una deflación, el aumento simultáneo del suministro anuló este efecto, provocando en su lugar una inflación.
 
+- Inflación, deflación y suministro de dinero - Vasos comunicantes:
 
+La inflación y la deflación son como vasos comunicantes en una economía. Un aumento de la producción puede conducir a la deflación, pero si simultáneamente aumenta el suministro monetario, el efecto deflacionista se anula, dando lugar a la inflación.
 
-- Efectos negativos del ajuste monetario Supply:
-
-
-Un aumento del Supply monetario, sin un aumento correspondiente de la producción, provoca inflación, ya que hay más dinero en circulación para la misma cantidad de bienes y servicios.
-
-Aunque el aumento de la producción debería haber provocado una deflación, el aumento simultáneo del Supply anuló este efecto, provocando en su lugar una inflación.
-
-
-
-- Inflación, deflación y dinero Supply - Vasos comunicantes:
-
-
-La inflación y la deflación son como vasos comunicantes en una economía. Un aumento de la producción puede conducir a la deflación, pero si simultáneamente aumenta el Supply monetario, el efecto deflacionista se anula, dando lugar a la inflación.
-
-
-Este debate subraya la importancia de comprender los mecanismos subyacentes de la inflación y la deflación, así como la profunda influencia que puede tener en la economía la alteración del Supply monetario. Probablemente volveremos sobre estos conceptos más adelante para comprender mejor su interconexión y el impacto que tienen en la economía mundial.
-
+Este debate subraya la importancia de comprender los mecanismos subyacentes de la inflación y la deflación, así como la profunda influencia que puede tener en la economía la alteración del suministro monetario. Probablemente volveremos sobre estos conceptos más adelante para comprender mejor su interconexión y el impacto que tienen en la economía mundial.
 
 ### ¿Por qué la impresión de dinero no siempre provoca inflación?
 
-
 #### Inflación ≠ IPC
 
-
-La inflación, aunque a menudo se asocia con un aumento del Supply monetario, no siempre tiene una correlación directa con la impresión de dinero, como ilustra el periodo posterior a la crisis financiera de 2008. A pesar de la importante impresión de dinero para salvar a los bancos, la década siguiente no experimentó una inflación elevada, con una media de entre el 0 y el 2% anual. Esta situación plantea la pregunta: ¿Por qué la impresión masiva de dinero no se tradujo en una inflación proporcional? La respuesta radica en varios matices relacionados con la medición de la inflación y el Índice de Precios de Consumo (IPC).
-
+La inflación, aunque a menudo se asocia con un aumento del suministro monetario, no siempre tiene una correlación directa con la impresión de dinero, como ilustra el periodo posterior a la crisis financiera de 2008. A pesar de la importante impresión de dinero para salvar a los bancos, la década siguiente no experimentó una inflación elevada, con una media de entre el 0 y el 2% anual. Esta situación plantea la pregunta: ¿Por qué la impresión masiva de dinero no se tradujo en una inflación proporcional? La respuesta radica en varios matices relacionados con la medición de la inflación y el Índice de Precios de Consumo (IPC).
 
 ![image](assets/es/018.webp)
 
-
 La primera explicación reside en la forma de medir la inflación. El Índice de Precios de Consumo (IPC), que sirve de principal indicador de la inflación, tiene ciertas limitaciones. Por ejemplo, no tiene en cuenta de forma exhaustiva la evolución de los precios inmobiliarios. Aunque el IPC incluye un componente relacionado con los alquileres, la sustancial revalorización de los precios de la vivienda no se refleja plenamente en el índice. En consecuencia, pueden producirse aumentos significativos de los costes de la vivienda sin que el IPC los recoja en su totalidad, lo que podría subestimar la inflación real.
-
 
 Además, el cálculo del IPC emplea ciertas metodologías que pueden contrarrestar o enmascarar los aumentos reales de los precios. Por ejemplo, las mejoras cualitativas de los productos pueden utilizarse para ajustar el índice. Si el precio de un producto aumenta, pero su calidad o características también mejoran, el IPC puede considerar que el valor real para el consumidor no ha cambiado y, por tanto, no reflejar la inflación. Un caso ilustrativo es aquel en el que, a pesar de un aumento de los precios de la carne de vacuno y de los ordenadores debido a la inyección monetaria, la mejora de las prestaciones de los ordenadores sirve para compensar este aumento. Si un ordenador cuesta el doble pero es cuatro veces más potente, el IPC puede interpretarlo como una disminución de los precios, enmascarando así el aumento de los precios de la carne de vacuno.
 
-
 ![image](assets/es/019.webp)
-
 
 Estos matices en la medición de la inflación por el IPC ponen de relieve la complejidad de la relación entre la impresión monetaria y la inflación. También sugieren que la inflación real puede ser superior a la declarada si se tuvieran más en cuenta todos los aumentos de precios, especialmente en sectores clave como el inmobiliario. Este análisis subraya la importancia de comprender los mecanismos subyacentes de la inflación y las limitaciones de los índices convencionales utilizados para medirla, facilitando así una comprensión más profunda de las implicaciones económicas de las políticas monetarias.
 
-
-#### Argumentos del MMT
-
+#### Argumentos de la TMM
 
 La Teoría Monetaria Moderna (TMM) ofrece una perspectiva distinta sobre la creación de dinero y la inflación. Según la TMM, el dinero procede principalmente del gobierno, que puede imprimir cantidades sustanciales para financiar sus necesidades sin provocar inflación siempre que los sectores a los que se destinan estos fondos no estén saturados. Este planteamiento se aparta de las teorías monetarias tradicionales, al subrayar la importancia de las capacidades de absorción sectoriales en la dinámica inflacionista.
 
-
 ![image](assets/es/020.webp)
 
-
-Un ejemplo ilustrativo de la MMT es el complejo militar-industrial estadounidense. Según el MMT, pueden destinarse cientos de miles de millones de dólares a este sector sin provocar inflación, gracias a su capacidad para absorber los fondos. En cambio, si se inyectan cuantiosos fondos en la construcción de carreteras en Estados Unidos, donde hay un número limitado de empresas y mano de obra, podría producirse inflación debido a la escasez de recursos y al aumento de los costes exigidos por los proveedores.
+Un ejemplo ilustrativo de la TMM es el complejo militar-industrial estadounidense. Según la TMM, pueden destinarse cientos de miles de millones de dólares a este sector sin provocar inflación, gracias a su capacidad para absorber los fondos. En cambio, si se inyectan cuantiosos fondos en la construcción de carreteras en Estados Unidos, donde hay un número limitado de empresas y mano de obra, podría producirse inflación debido a la escasez de recursos y al aumento de los costes exigidos por los proveedores.
 
 Los partidarios de la TMM suelen citar a Japón como otro ejemplo de ausencia de inflación a pesar de una importante impresión monetaria. Sin embargo, la situación en Japón también pone de manifiesto las limitaciones de las medidas tradicionales de la inflación, como el Índice de Precios al Consumo (IPC). En Japón, una parte significativa del dinero impreso se ahorra o se invierte en bienes inmuebles o en el mercado de valores, en lugar de gastarse en consumo corriente. El IPC, al no captar plenamente esta dinámica, puede subestimar la inflación real.
 
-
 El análisis de Japón (https://ideas.repec.org/p/ces/ceswps/_9821.html) también pone de relieve que el comportamiento de los agentes económicos, como ahorrar o invertir en activos no incluidos en el IPC, puede enmascarar el impacto inflacionista de la impresión monetaria. Además, la capacidad de los distintos sectores para absorber la liquidez inyectada desempeña un papel crucial a la hora de determinar si se produce inflación.
-
 
 #### Balances de bancos y bancos centrales
 
-
 El tercer ejemplo de por qué la impresión monetaria no causaría inflación es que la relación entre la impresión monetaria y la inflación está modulada por cómo se introduce en la economía el dinero recién creado. Si este dinero permanece en los balances de los bancos privados sin ser prestado a los agentes económicos, no repercutirá directamente en la economía real y, por tanto, no provocará inflación.
-
 
 ![image](assets/es/021.webp)
 
-
 La impresión monetaria puede considerarse como una espada de Damocles que pende sobre la economía. El dinero creado puede permanecer latente durante cierto tiempo, sin ningún efecto inflacionista visible, mientras no se inyecte en la economía a través de préstamos bancarios u otros mecanismos. Sin embargo, cuando este dinero latente se pone finalmente en circulación, pueden manifestarse entonces efectos inflacionistas. Esto es lo que se ha observado en la década de 2020, en la que el dinero creado previamente ha entrado en la economía, provocando inflación.
 
-Este escenario pone de relieve la importancia de los mecanismos de transmisión monetaria para influir en los efectos inflacionistas de la impresión de dinero. La creación de dinero por el banco central es sólo una pieza del rompecabezas. El comportamiento de los bancos privados, que deciden el volumen de préstamos a conceder, y el de los prestatarios, que deciden cómo gastar el dinero prestado, son también Elements cruciales en esta dinámica.
-
+Este escenario pone de relieve la importancia de los mecanismos de transmisión monetaria para influir en los efectos inflacionistas de la impresión de dinero. La creación de dinero por el banco central es sólo una pieza del rompecabezas. El comportamiento de los bancos privados, que deciden el volumen de préstamos a conceder, y el de los prestatarios, que deciden cómo gastar el dinero prestado, son también elementos cruciales en esta dinámica.
 
 #### La inflación es social
 
-
-El ejemplo de la República de Weimar ilustra otro aspecto crucial de la relación entre la impresión de dinero y la inflación: el papel de las expectativas y el comportamiento de los agentes económicos. Cuando el Banco Central de la República de Weimar comenzó a imprimir una gran cantidad de dinero, la incertidumbre económica llevó a los individuos a atesorar, es decir, a almacenar dinero en lugar de gastarlo. Esta reacción retrasó temporalmente los efectos inflacionistas de la impresión de dinero.
-
+El ejemplo de la República de Weimar ilustra otro aspecto crucial de la relación entre la impresión de dinero y la inflación: El papel de las expectativas y el comportamiento de los agentes económicos. Cuando el Banco Central de la República de Weimar comenzó a imprimir una gran cantidad de dinero, la incertidumbre económica llevó a los individuos a atesorar, es decir, a almacenar dinero en lugar de gastarlo. Esta reacción retrasó temporalmente los efectos inflacionistas de la impresión de dinero.
 
 ![image](assets/es/022.webp)
 
+Sin embargo, cuando la situación económica empezó a mejorar ligeramente, se restableció gradualmente la confianza. Los particulares sacaron entonces sus ahorros de sus escondites y empezaron a gastar masivamente en la economía. Este repentino cambio de comportamiento, combinado con una oferta monetaria ya de por sí elevada, provocó una explosión de la demanda. Con más dinero en circulación y una mayor demanda, los precios empezaron a subir rápidamente, provocando una notable inflación.
 
-Sin embargo, cuando la situación económica empezó a mejorar ligeramente, se restableció gradualmente la confianza. Los particulares sacaron entonces sus ahorros de sus escondites y empezaron a gastar masivamente en la economía. Este repentino cambio de comportamiento, combinado con una Supply monetaria ya de por sí elevada, provocó una explosión de la demanda. Con más dinero en circulación y una mayor demanda, los precios empezaron a subir rápidamente, provocando una notable inflación.
-
-
-Este ejemplo subraya la importancia del momento y del comportamiento de los agentes en la aparición de la inflación. La inflación no sólo se produce en respuesta a un aumento del Supply monetario, sino que también depende de cómo y cuándo se gasta ese dinero en la economía. Las incertidumbres económicas y las expectativas de los agentes económicos desempeñan un papel crucial en esta dinámica y pueden acelerar o retrasar los efectos inflacionistas de la impresión de dinero.
-
+Este ejemplo subraya la importancia del momento y del comportamiento de los agentes en la aparición de la inflación. La inflación no sólo se produce en respuesta a un aumento del suministro monetario, sino que también depende de cómo y cuándo se gasta ese dinero en la economía. Las incertidumbres económicas y las expectativas de los agentes económicos desempeñan un papel crucial en esta dinámica y pueden acelerar o retrasar los efectos inflacionistas de la impresión de dinero.
 
 #### Recapitulemos:
 
-
-
 - Índice de Precios de Consumo (IPC): El IPC está estructurado de forma que subestima la inflación, lo que puede dar una imagen distorsionada de la realidad inflacionista.
-
-
-
 - Absorción sectorial: La inyección monetaria en sectores capaces de absorberla no siempre provoca inflación. Un ejemplo notable es el complejo militar-industrial estadounidense, que puede absorber grandes sumas de dinero sin provocar inflación.
-
-
-
 - El caso de Japón: A pesar de la importante impresión de dinero, la inflación sigue siendo baja en Japón porque los fondos suelen ahorrarse o invertirse en el sector inmobiliario o bursátil. Estos sectores absorben el dinero impreso, y el IPC no refleja necesariamente las subidas de precios en estos ámbitos.
 - Correlación entre la impresión monetaria y los mercados. Se observa que las curvas de los mercados inmobiliario y bursátil suelen seguir a la impresión monetaria, indicando hacia dónde se dirige el dinero impreso.
 - Reservas monetarias de los bancos: Cuando el dinero impreso permanece en los balances de los bancos y no circula en la economía, no causa inflación. Esto se ilustra con el ejemplo de 2008, donde el dinero impreso permaneció en gran medida en los balances de los bancos, retrasando el impacto inflacionista.
-
-
-
 - República de Weimar: Este periodo histórico muestra cómo la incertidumbre económica llevó a atesorar dinero, retrasando la inflación. Sin embargo, una vez restablecida la confianza y gastado el dinero, la inflación estalló.
-
 
 Estos ejemplos pueden utilizarse en los debates para explicar por qué la inflación no es siempre una consecuencia inmediata de la impresión monetaria, y cómo influyen en la inflación los contextos económicos y los comportamientos de los agentes.
 
-
 ![image](assets/es/023.webp)
-
 
 Porque, como muestra este [hilo](https://twitter.com/saifedean/status/1673639779433590786): La inflación es todo menos culpa de los bancos centrales.
 
-
-
 - Los economistas achacan la inflación al cambio climático
-
 
 ![image](assets/es/024.webp)
 
-
-
 - Ejemplo de Suecia culpando a Beyoncé de la inflación durante un mes concreto.
-
 
 ![image](assets/es/025.webp)
 
-
-
 - El banco central de Polonia atribuye la inflación a la agresión rusa en Ucrania y a la pandemia
-
 
 ![image](assets/es/026.webp)
 
-
-
 - Se culpa al Brexit de la inflación en el Reino Unido.
-
 
 ![image](assets/es/027.webp)
 
-
-
 - Lanzamiento del juego Zelda asociado a un choque inflacionista.
-
 
 ![image](assets/es/028.webp)
 
-
-
 - Taylor Swift está causando supuestamente la inflación.
-
 
 ![image](assets/es/029.webp)
 
-
 Dígame, ¿cómo podrían Beyoncé o Taylor Swift provocar la subida generalizada de los precios? No tiene ningún sentido. Resumiendo:
-
 
 ![image](assets/es/030.webp)
 
-
 ### Exploración de los tipos de inflación
-
 
 Es fundamental entender la distinción entre los distintos tipos de inflación, lo que nos permite comprender las variadas manifestaciones de este fenómeno económico. He aquí una explicación de estos distintos tipos:
 
-
-
 - Inflación progresiva: Es el tipo de inflación que suelen perseguir los bancos centrales, fijado en torno al 2% anual. Este objetivo se viene adoptando desde la década de 1990 y pretende mantener un crecimiento económico estable sin sobrecalentamiento ni deflación.
-- Inflación moderada: Esta forma de inflación se produce cuando la inflación supera el objetivo del 2%. Suele asociarse a un recalentamiento de la economía, un estado en el que un exceso de dinero Supply estimula un aumento general de los precios. Este escenario expone los límites de las políticas monetarias y a veces revela contradicciones en el discurso económico.
+- Inflación moderada: Esta forma de inflación se produce cuando la inflación supera el objetivo del 2%. Suele asociarse a un recalentamiento de la economía, un estado en el que un exceso del suministro de dinero estimula un aumento general de los precios. Este escenario expone los límites de las políticas monetarias y a veces revela contradicciones en el discurso económico.
 - Inflación galopante: La inflación galopante, a menudo denominada inflación de dos dígitos, se produce cuando la tasa de inflación anual supera el 10%. Supone una importante subida de precios que puede comprometer la estabilidad económica.
-
-
-
 - Hiperinflación: La hiperinflación es un fenómeno extremo en el que la tasa de inflación supera el 50% mensual, lo que, debido a la naturaleza exponencial de la inflación, equivale a una tasa de inflación anual superior al 13.000%. Este nivel de inflación desestabiliza gravemente la economía, dejando la moneda casi sin valor y erosionando la confianza en el sistema monetario.
-
 
 ![image](assets/es/031.webp)
 
-
 Al estudiar los tipos de inflación, es frecuente encontrar en los recursos educativos términos como "tirón de la demanda" y "empuje de los costes". Estos conceptos, aunque válidos, tienden a explicar el aumento de los precios más que la inflación como fenómeno monetario. He aquí un análisis más profundo:
-
-
 
 - Tirón de la demanda:
 
-La inflación inducida por la demanda suele describirse como un escenario en el que la demanda de la economía supera la capacidad de producción disponible. Sin embargo, sin un aumento correspondiente del Supply monetario, esta situación conducirá simplemente a una redistribución del gasto. Los consumidores pueden gastar más en bienes esenciales y menos en artículos no esenciales, neutralizando así el efecto inflacionista global.
-
-
+La inflación inducida por la demanda suele describirse como un escenario en el que la demanda de la economía supera la capacidad de producción disponible. Sin embargo, sin un aumento correspondiente del suministro monetario, esta situación conducirá simplemente a una redistribución del gasto. Los consumidores pueden gastar más en bienes esenciales y menos en artículos no esenciales, neutralizando así el efecto inflacionista global.
 
 - Empuje de costes:
 
-Por otra parte, la inflación impulsada por los costes se atribuye al aumento de los costes de producción, como los de los recursos naturales o la mano de obra. De nuevo, sin un aumento del Supply monetario, el incremento de los costes en un sector puede simplemente reducir el gasto en otros, sin provocar una inflación generalizada.
+Por otra parte, la inflación impulsada por los costes se atribuye al aumento de los costes de producción, como los de los recursos naturales o la mano de obra. De nuevo, sin un aumento del suministro monetario, el incremento de los costes en un sector puede simplemente reducir el gasto en otros, sin provocar una inflación generalizada.
 
-Estas explicaciones tradicionales suelen asociar el aumento de los precios con la inflación, lo que puede dar lugar a confusión y malentendidos. En realidad, para que se produzca una inflación generalizada es necesario un aumento del Supply monetario. En este contexto, los conceptos de Demand Pull y Cost Push pueden explicar las variaciones de precios sectoriales, pero no captan la naturaleza monetaria de la inflación. Esto pone de relieve la importancia de distinguir entre los aumentos de precios sectoriales y la inflación generalizada, y reafirma la necesidad de un aumento del Supply monetario para evitar que la inflación se manifieste en toda la economía. Este análisis ofrece una perspectiva más matizada y precisa de las causas reales de la inflación, desmitificando interpretaciones comunes que pueden ocultar la dinámica monetaria subyacente.
-
+Estas explicaciones tradicionales suelen asociar el aumento de los precios con la inflación, lo que puede dar lugar a confusión y malentendidos. En realidad, para que se produzca una inflación generalizada es necesario un aumento del suministro monetario. En este contexto, los conceptos de Demand Pull y Cost Push pueden explicar las variaciones de precios sectoriales, pero no captan la naturaleza monetaria de la inflación. Esto pone de relieve la importancia de distinguir entre los aumentos de precios sectoriales y la inflación generalizada, y reafirma la necesidad de un aumento del suministro monetario para evitar que la inflación se manifieste en toda la economía. Este análisis ofrece una perspectiva más matizada y precisa de las causas reales de la inflación, desmitificando interpretaciones comunes que pueden ocultar la dinámica monetaria subyacente.
 
 ### Clasificación de la inflación según Bernholz
 
-
 Bernholz propone una clasificación simplificada pero precisa de la inflación en tres categorías, lo que permite comprender mejor este complejo fenómeno monetario:
 
-
 ![image](assets/es/032.webp)
-
-
 
 - Inflación moderada:
 
 La inflación moderada se produce cuando el nivel de dinero Supply es superior al normal, pero sin que el Estado recurra a grandes déficits financiados con la creación de dinero. Aunque el término "moderada" pueda parecer insignificante, esta forma de inflación puede causar problemas sustanciales, aunque no está clasificada como inflación alta.
 
-
-
 - Inflación elevada:
 
-La inflación elevada se produce cuando el valor real del dinero Supply disminuye a pesar de un aumento en términos nominales. Esta situación paradójica surge de la sustitución monetaria, en la que los individuos pierden la confianza en la moneda nacional y tratan de Exchange cambiarla por bienes, servicios o divisas. Este proceso reduce aún más el valor real de la moneda, exacerbando la inflación.
-
-
+La inflación elevada se produce cuando el valor real del dinero en suministro disminuye a pesar de un aumento en términos nominales. Esta situación paradójica surge de la sustitución monetaria, en la que los individuos pierden la confianza en la moneda nacional y tratan de cambiarla por bienes, servicios o divisas. Este proceso reduce aún más el valor real de la moneda, exacerbando la inflación.
 
 - Hiperinflación:
 
-La hiperinflación es una forma extrema de inflación elevada, caracterizada por grandes déficits presupuestarios que se financian mediante la creación de dinero. Históricamente, no se ha observado ningún caso de hiperinflación sin una financiación sustancial del déficit mediante la impresión de dinero. La hiperinflación crea un círculo vicioso: la inflación erosiona el valor de la moneda tan rápidamente que los ingresos fiscales se deprecian antes incluso de que el Estado pueda recaudarlos, lo que obliga al Estado a imprimir aún más dinero para financiarse. Este ciclo que se refuerza a sí mismo conduce a tasas de inflación astronómicas, que a menudo superan el 50% mensual.
+La hiperinflación es una forma extrema de inflación elevada, caracterizada por grandes déficits presupuestarios que se financian mediante la creación de dinero. Históricamente, no se ha observado ningún caso de hiperinflación sin una financiación sustancial del déficit mediante la impresión de dinero. La hiperinflación crea un círculo vicioso: La inflación erosiona el valor de la moneda tan rápidamente que los ingresos fiscales se deprecian antes incluso de que el Estado pueda recaudarlos, lo que obliga al Estado a imprimir aún más dinero para financiarse. Este ciclo que se refuerza a sí mismo conduce a tasas de inflación astronómicas, que a menudo superan el 50% mensual.
 
 Esta clasificación de Bernholz pone de relieve la peligrosa progresión de la inflación moderada a la hiperinflación, subrayando la importancia vital del control monetario y fiscal para evitar espirales inflacionistas destructivas. También demuestra que las consecuencias perjudiciales para la financiación del Estado pueden producirse mucho antes de alcanzar la fase de hiperinflación, proporcionando una perspectiva matizada sobre las implicaciones de la inflación en diversos grados.
 
-
 ### Conclusiones: Resumen de los tipos de inflación
-
 
 En conclusión, hemos explorado una serie de tipos de inflación, empezando por términos comúnmente escuchados como "inflación sigilosa", "inflación andante" e "inflación galopante", cada uno de los cuales denota diferentes niveles de porcentajes de inflación dentro de una economía. Sin embargo, para nuestro estudio en profundidad de la hiperinflación, las categorías de inflación moderada, inflación alta e hiperinflación, descritas por Bernholz, resultan ser puntos de referencia cruciales.
 

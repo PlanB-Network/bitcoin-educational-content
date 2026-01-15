@@ -264,7 +264,7 @@ https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
 
-Hyperinflation is a monetary phenomenon that is specific to fiat currencies: it is charterized by a complete loss of confidence in a currency and a drastic increase in inflation due to monetary printing by authorities. As a result, the savings accumulated by individuals can dissipate in a relatively short period of time, pushing the country on the brink of economic, social, and political collapse.
+Hyperinflation is a monetary phenomenon that is specific to fiat currencies: it is characterized by a complete loss of confidence in a currency and a drastic increase in inflation due to monetary printing by authorities. As a result, the savings accumulated by individuals can dissipate in a relatively short period of time, pushing the country on the brink of economic, social, and political collapse.
 
 ### Inflation running wild!
 

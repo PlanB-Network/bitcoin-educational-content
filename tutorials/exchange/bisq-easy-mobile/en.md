@@ -1,10 +1,10 @@
 ---
 name: Bisq Easy Mobile
-description: A trade protocol designed for new bitcoin buyers to get their first bitcoin
+description: A peer-to-peer trading protocol for new bitcoin users - no intermediaries, no KYC.
 ---
 ![cover](assets/cover.webp)
 
-## **Introduction**
+## Introduction
 
 The [Bisq Easy](https://bisq.network/bisq-easy/) trade protocol is designed for [Bisq 2](https://github.com/bisq-network/bisq2), the successor to [Bisq v1](https://github.com/bisq-network/bisq). Bisq 2 will support multiple trade protocols, privacy networks, and identities. It facilitates the purchase of Bitcoin with zero trade fees and no security deposit requirement. It is intended for new Bitcoin buyers seeking a non-KYC option who want to be efficiently onboarded by experienced and knowledgeable sellers who are familiar with the Bisq platform.
 
@@ -68,7 +68,7 @@ Finally, when the seller confirms payment receipt, you must also confirm receipt
 
 ![image](assets/en/10.webp) 
 
-## 4️⃣ **Dispute Resolution on Bisq Easy**
+## 4️⃣ Dispute Resolution on Bisq Easy
 
 If anything goes wrong with your trade, both buyers and sellers can request mediation support.
 
@@ -112,4 +112,4 @@ Bisq Easy enables Bitcoin purchases without collateral, solving the classic chic
 
 ## 📚 Bisq Easy Mobile Resources
 
-[Github](https://github.com/bisq-network/bisq-mobile) | [Website ](https://bisq.network/bisq-easy/)| [W](https://bisq.wiki/Bisq_Easy)[iki](https://bisq.wiki/Bisq_Easy)
+[Github](https://github.com/bisq-network/bisq-mobile) | [Website ](https://bisq.network/bisq-easy/)| [Wiki](https://bisq.wiki/Bisq_Easy)

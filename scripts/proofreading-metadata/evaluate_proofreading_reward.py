@@ -58,7 +58,7 @@ def main():
                 print()
                 print(f"For {content_name}:")
                 print(f"The proofreading reward is: {reward} sats")
-                left = 3 - proofread_iteration
+                left = 2 - proofread_iteration
                 print(f"{left} proofreading(s) are/is missing for {selected_language}")
                 print()
                     

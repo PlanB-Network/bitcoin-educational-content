@@ -1,5 +1,5 @@
 ---
-name: عبارت Mnemonic خود را ذخیره کنید
+name: ذخیره عبارت بازیابی
 description: بهترین روش‌ها برای حفاظت از Bitcoin Wallet را کشف کنید
 ---
 ![cover](assets/cover.webp)

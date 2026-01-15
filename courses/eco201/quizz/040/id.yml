@@ -5,5 +5,6 @@ wrong_answers:
   - Ekonomi memasuki stagnasi; harga aset tetap sama, upah riil tetap sama, harga konsumen tetap sama, dan persediaan tetap sama.
   - Ekonomi memasuki deflasi; harga aset turun, upah riil meningkat, harga konsumen turun, dan persediaan bertambah.
 explanation: |
-  Menurut Teori Siklus Bisnis Austria, ketika terjadi penurunan suku bunga akibat peningkatan kredit, ekonomi memasuki resesi; harga aset turun, upah riil menurun, harga konsumen turun, dan persediaan menumpuk. Ini karena penurunan suku bunga menyebabkan alokasi modal yang salah, yang pada akhirnya mengakibatkan resesi.
-reviewed: false
+  Menurut Teori Siklus Bisnis Austria, ketika terjadi penurunan suku bunga akibat peningkatan kredit, ekonomi memasuki resesi; harga aset turun,
+  upah riil menurun, harga konsumen turun, dan persediaan menumpuk. Ini karena penurunan suku bunga menyebabkan alokasi modal yang salah, yang pada akhirnya mengakibatkan resesi.
+reviewed: true

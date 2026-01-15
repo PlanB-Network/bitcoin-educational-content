@@ -1,6 +1,6 @@
 ---
-name: Apa kecenderungan politik Anda?
-goal: Pahami kompleksitas spektrum politik modern untuk mengidentifikasi kecenderungan Anda sendiri dan menempatkan keluarga ideologi utama di luar perpecahan kiri-kanan.
+name: Apa kecenderungan politik kamu?
+goal: Pahami kompleksitas spektrum politik modern untuk mengidentifikasi kecenderungan kamu sendiri dan menempatkan keluarga ideologi utama di luar perpecahan kiri-kanan.
 objectives: 
   - Memahami bahwa tipologi politik lebih bernuansa daripada sekadar sumbu kiri/kanan
   - Mengidentifikasi dua dimensi utama yang menyusun spektrum politik
@@ -11,11 +11,11 @@ objectives:
 
 ---
 
-Apakah posisi politik Anda bermuara ke kanan atau ke kiri? Kursus ini menawarkan pendekatan revolusioner untuk memahami spektrum politik melalui poros Kebebasan-Paksaan yang mendasar. Dengan menggunakan Diagram Nolan, kami menganalisis keluarga politik - sosialis, konservatif, sentris, dan libertarian - bukan berdasarkan niat yang mereka nyatakan, tetapi berdasarkan tingkat kepercayaan mereka terhadap kontrol pemerintah. Temukan logika tatanan spontan, jelajahi isu-isu filosofis yang sebenarnya (individualisme vs kolektivisme) dan pelajari cara mendefinisikan nilai-nilai Anda sendiri tanpa jatuh ke dalam jebakan label-label tradisional.
+Apakah posisi politik kamu bermuara ke kanan atau ke kiri? Kursus ini menawarkan pendekatan revolusioner untuk memahami spektrum politik melalui poros Kebebasan-Paksaan yang mendasar. Dengan menggunakan Diagram Nolan, kami menganalisis keluarga politik seperti sosialis, konservatif, sentris, dan libertarian, bukan berdasarkan niat yang mereka nyatakan, tetapi berdasarkan tingkat kepercayaan mereka terhadap kontrol pemerintah. Temukan logika tatanan spontan, jelajahi isu-isu filosofis yang sebenarnya seperti individualisme vs kolektivisme, dan pelajari cara mendefinisikan nilai-nilai kamu sendiri tanpa terjebak pada label-label tradisional.
 
 
 
-Kursus ini juga akan mengungkapkan mengapa Bitcoin lebih dari sekadar mata uang: Bitcoin adalah proyek politik yang diwarisi dari Cypherpunks. Jauh dari dapat diklasifikasikan pada sumbu linier, Bitcoin adalah kekuatan desentralisasi yang menentang mata uang negara, menawarkan jalan keluar yang damai dari inflasi dan pengawasan. Dengan membatasi kekuasaan terpusat atas uang, Bitcoin mendefinisikan ulang pertanyaan politik yang penting: Apakah Anda yang menentukan hidup Anda, atau orang lain? Selami analisis ini untuk mempertajam kompas ideologis Anda dan memahami dampak politik yang mendalam dari teknologi ini terhadap kebebasan individu Anda.
+Kursus ini juga akan mengungkapkan mengapa Bitcoin lebih dari sekadar mata uang. Bitcoin adalah proyek politik yang diwarisi dari Cypherpunks. Jauh dari bisa diklasifikasikan pada sumbu linier, Bitcoin merupakan kekuatan desentralisasi yang menentang mata uang negara dan menawarkan jalan keluar yang damai dari inflasi serta pengawasan. Dengan membatasi kekuasaan terpusat atas uang, Bitcoin mendefinisikan ulang pertanyaan politik yang paling penting: apakah kamu yang menentukan hidup kamu sendiri, atau orang lain? Selami analisis ini untuk mempertajam kompas ideologis kamu dan memahami dampak politik yang mendalam dari teknologi ini terhadap kebebasan individu kamu.
 
 
 
@@ -42,60 +42,36 @@ Kursus ini juga akan mengungkapkan mengapa Bitcoin lebih dari sekadar mata uang:
 
 
 
-Banyak yang percaya bahwa perpecahan yang paling mencolok di Barat saat ini adalah antara sayap kiri dan sayap kanan. Media mencurahkan sebagian besar diskusi mereka pada konfrontasi ini, yang disajikan sebagai penentu masa depan peradaban.
+Banyak orang percaya bahwa perpecahan yang paling mencolok di Barat saat ini adalah antara sayap kiri dan sayap kanan. Media mencurahkan sebagian besar diskusi mereka pada konfrontasi ini, yang sering disajikan sebagai penentu masa depan peradaban.
 
-
-
-Jadi, untuk mengidentifikasi kecenderungan politik seseorang, kami memplotnya pada garis horizontal sederhana. Kita memposisikan diri kita di ujung kiri, kiri, tengah, kanan, dan kanan garis, sesuai dengan kecenderungan yang berbeda.
-
+Jadi, untuk mengidentifikasi kecenderungan politik seseorang, kita sering memetakannya pada sebuah garis horizontal sederhana. Kita menempatkan diri kita di ujung kiri, kiri, tengah, kanan, dan ujung kanan garis tersebut, sesuai dengan kecenderungan yang berbeda.
 
 
 ![Political spectrum](./assets/fr/001.webp)
 
 
 
-Beberapa orang condong ke arah mereka yang harus dipertahankan dan ditegakkan dengan cara apa pun, itulah kelompok **kanan**. Sebagian lagi condong kepada mereka yang menganggap bahwa kesetaraan harus diterapkan dengan cara apa pun, meskipun itu berarti mereformasi segala sesuatu - ini adalah kelompok **kiri**.
+Sebagian orang condong ke arah mereka yang percaya bahwa hierarki harus dipertahankan dan ditegakkan dengan cara apa pun. Itulah kelompok kanan. Sebagian lainnya condong ke mereka yang menganggap bahwa kesetaraan harus diterapkan dengan cara apa pun, meskipun itu berarti mereformasi segalanya. Ini adalah kelompok **kiri.**
 
+Namun, kategorisasi ini sering kali terlalu sederhana dan kurang efektif. Secara tradisional, misalnya, sayap kiri dipandang sebagai reformis, sementara sayap kanan lebih konservatif. Tapi pandangan ini mulai dipertanyakan di zaman sekarang, karena sayap kiri justru banyak berjuang untuk mempertahankan pencapaian yang sudah diperoleh, yang dari sudut pandang ini membuatnya bersifat konservatif.
 
+Kebanyakan orang yang berada di antara dua ekstrem tersebut sering disebut sebagai sentris, tetapi label ini juga terlalu menyederhanakan posisi mereka.
 
-Namun, kategorisasi ini sering kali terlalu sederhana dan tidak efektif. Secara tradisional, misalnya, sayap kiri dipandang sebagai reformis, sementara sayap kanan lebih konservatif. Namun hal ini menjadi dipertanyakan di zaman kita sekarang, karena sayap kiri sekarang berjuang untuk mempertahankan keuntungan yang telah diperoleh, yang membuatnya, dari sudut pandang itu, konservatif.
+Mari ambil contoh. Jika seseorang mendukung kebebasan ekonomi tetapi juga mendukung hak untuk berimigrasi, di mana kamu akan menempatkan mereka pada garis kiri dan kanan yang sederhana? Posisi seseorang dalam spektrum politik tidak bersifat statis dan sering kali bergantung pada isu yang sedang dibahas.
 
+Banyak orang merasa tidak cocok, karena kiri atau kanan, sosialis atau konservatif, tidak secara akurat menggambarkan pandangan mereka.
 
+Pernahkah kamu merasa bahwa kerangka ini tidak cukup untuk menjelaskan nuansa dan kompleksitas opini politik? Banyak orang tidak menemukan tempat mereka di dalamnya dan merasa bahwa label kiri atau kanan, sosialis atau konservatif, tidak benar-benar merepresentasikan apa yang mereka yakini.
 
-Kebanyakan orang yang berada di antara kedua ekstrem tersebut sering disebut sebagai sentris, tetapi label ini juga menyederhanakan posisi mereka.
+Meskipun kriteria penentuan posisi ini masih berguna untuk menunjukkan kepekaan politik secara umum, pendekatan ini gagal secara konseptual dalam menjelaskan keragaman perdebatan dan posisi ideologis.
 
+Masalah utama dari poros kiri dan kanan adalah bahwa poros ini tidak menyisakan ruang bagi pemikiran liberal klasik, yang tidak bisa disamakan dengan egalitarianisme kiri maupun nasionalisme kanan.
 
+Lalu, di mana kita menempatkan tokoh-tokoh seperti Thomas Jefferson, Alexis de Tocqueville, Frédéric Bastiat, Ron Paul, Elon Musk, atau Javier Milei dalam spektrum kiri dan kanan?
 
-Mari kita ambil contoh: jika seseorang mendukung kebebasan ekonomi tetapi juga mendukung hak untuk berimigrasi, di mana Anda akan menempatkan mereka pada garis kiri-kanan yang sederhana? Posisi seseorang dalam spektrum politik tidaklah statis, dan sering kali bergantung pada isu yang sedang dibahas.
+Bagaimana dengan kaum liberal klasik dan aliran pemikiran kontemporer seperti libertarian? Mereka sering kali secara keliru disamakan dengan sayap kanan, atau bahkan kanan ekstrem. Namun, dalam banyak kasus, mereka justru berada di luar kerangka acuan ini.
 
-
-
-Banyak orang yang tidak cocok, berpikir bahwa kiri atau kanan, sosialis atau konservatif, tidak secara akurat menggambarkan pendapat mereka.
-
-
-
-Pernahkah Anda merasa bahwa tidak selalu cukup untuk menggambarkan nuansa dan kompleksitas opini politik? Banyak orang tidak menemukan tempat mereka di dalamnya, dan berpikir bahwa kiri atau kanan, sosialis atau konservatif tidak secara akurat menggambarkan pendapat mereka.
-
-
-
-Meskipun kriteria penentuan posisi ini tetap berguna untuk menunjukkan kepekaan politik, kriteria ini tidak mampu secara konseptual memperhitungkan keragaman perdebatan dan posisi ideologis.
-
-
-
-Masalah dengan poros kiri-kanan adalah bahwa poros ini tidak menyisakan ruang bagi pemikiran liberal klasik, yang tidak dapat disamakan dengan egalitarianisme kiri atau nasionalisme kanan.
-
-
-
-Memang, di mana pada spektrum kiri-kanan kita menempatkan orang-orang seperti Thomas Jefferson, Alexis de Tocqueville, Frédéric Bastiat, Ron Paul, Elon Musk, Javier Milei?
-
-
-
-Bagaimana dengan kaum liberal klasik dan aliran pemikiran kontemporer seperti libertarian? Kadang-kadang mereka disamakan secara keliru dengan sayap kanan, atau bahkan sayap kanan. Namun, lebih seringnya, mereka tidak berada dalam kerangka acuan ini.
-
-
-
-Pada masanya, ekonom dan anggota parlemen Frédéric Bastiat mengatakan bahwa ia terkadang memilih dengan sayap kiri, terkadang dengan sayap kanan, tergantung pada rancangan undang-undang yang sedang dibahas.
-
+Pada masanya, ekonom sekaligus anggota parlemen Frédéric Bastiat pernah mengatakan bahwa ia terkadang memilih bersama sayap kiri, terkadang bersama sayap kanan, tergantung pada rancangan undang-undang yang sedang dibahas.
 
 
 ![Frédéric Bastiat](./assets/fr/002.webp)
@@ -106,7 +82,7 @@ Ini bukan berarti dia seorang sentris atau demokrat sosial. Bastiat dengan tegas
 
 
 
-Mari kita ambil contoh lain: **Apakah Bitcoin berada di sebelah kanan atau kiri?
+Mari kita ambil contoh lain: **Apakah Bitcoin berada di sebelah kanan atau kiri?**
 
 
 
@@ -114,12 +90,9 @@ Mari kita ambil contoh lain: **Apakah Bitcoin berada di sebelah kanan atau kiri?
 
 
 
-Tidak dapat disangkal, Bitcoin adalah sebuah proyek yang bertentangan dengan kebijakan moneter saat ini. Jadi ini adalah proyek politik. Namun sulit untuk menempatkan Bitcoin pada sumbu linier sederhana yang membentang dari ujung kiri ke ujung kanan.
+Tidak dapat disangkal, Bitcoin adalah sebuah proyek yang bertentangan dengan kebijakan moneter saat ini. Jadi, ini adalah proyek politik. Namun, sulit untuk menempatkan Bitcoin pada sumbu linier sederhana yang membentang dari ujung kiri ke ujung kanan.
 
-
-
-Sebagai permulaan, definisi kanan dan kiri itu sendiri sangat kompleks dan berkembang dari waktu ke waktu, sehingga membuat klasifikasi yang ketat menjadi sulit. Namun di atas semua itu, Bitcoin, sebagai teknologi terdesentralisasi, melampaui perpecahan politik tradisional, menarik pendukung dari berbagai latar belakang politik, dari kiri dan kanan, termasuk kaum anarkis dan orang-orang yang menganggap diri mereka apolitis.
-
+Sebagai permulaan, definisi kanan dan kiri itu sendiri sangat kompleks dan terus berkembang dari waktu ke waktu, sehingga membuat klasifikasi yang kaku menjadi sulit. Di atas semua itu, Bitcoin sebagai teknologi terdesentralisasi melampaui perpecahan politik tradisional dan menarik pendukung dari berbagai latar belakang politik, baik dari kiri maupun kanan, termasuk kaum anarkis dan orang-orang yang menganggap diri mereka apolitis.
 
 
 
@@ -129,11 +102,9 @@ Sebagai permulaan, definisi kanan dan kiri itu sendiri sangat kompleks dan berke
 
 
 
-Pada kenyataannya, dikotomi tradisional antara kanan dan kiri tidak memadai, sewenang-wenang, dan tidak cocok untuk menempatkan Bitcoin dengan benar, yang merupakan mata uang publik yang dapat diadopsi oleh siapa pun, terlepas dari kecenderungan politik mereka.
+Pada kenyataannya, dikotomi tradisional antara kanan dan kiri tidak memadai, bersifat sewenang-wenang, dan tidak cocok untuk menempatkan Bitcoin secara tepat, yang merupakan mata uang publik yang dapat diadopsi oleh siapa pun, terlepas dari kecenderungan politik mereka.
 
-
-
-Terlebih lagi, sumbu linier sederhana yang berjalan dari kiri ke kanan tidak bekerja dengan baik, karena ideologi seperti fasisme dan komunisme memiliki kemiripan (totalitarianisme) yang tidak terlihat pada sumbu seperti itu.
+Selain itu, sumbu linier sederhana yang membentang dari kiri ke kanan juga tidak bekerja dengan baik, karena ideologi seperti fasisme dan komunisme memiliki kesamaan berupa totalitarianisme yang tidak terlihat pada sumbu tersebut.
 
 
 
@@ -141,38 +112,23 @@ Terlebih lagi, sumbu linier sederhana yang berjalan dari kiri ke kanan tidak bek
 
 
 
-Terlebih lagi, meskipun sayap kanan tidak diragukan lagi lebih liberal secara ekonomi daripada sayap kiri, kedua kubu sama-sama tidak percaya pada pasar bebas, kebebasan berkontrak dan kepemilikan pribadi, serta tertarik pada intervensionisme negara. Bagi mereka yang berkuasa, baik di kanan maupun di kiri, setiap masalah diselesaikan dengan peraturan atau pajak baru, bukan dengan pengaturan mandiri interaksi individu.
+Terlebih lagi, meskipun sayap kanan tidak diragukan lagi lebih liberal secara ekonomi dibandingkan sayap kiri, kedua kubu sama-sama tidak percaya pada pasar bebas, kebebasan berkontrak, dan kepemilikan pribadi, serta sama-sama tertarik pada intervensionisme negara. Bagi mereka yang berkuasa, baik di kanan maupun di kiri, setiap masalah selalu diselesaikan dengan peraturan atau pajak baru, bukan melalui pengaturan mandiri atas interaksi individu.
 
+Menariknya, posisi politik tertentu sering kali melintasi batas-batas tradisional kanan dan kiri. Sebagai contoh, proteksionisme, yang kerap dipertahankan oleh kaum kiri, dapat dengan mudah dipadukan dengan nasionalisme, sebuah nilai yang secara tradisional diasosiasikan dengan kaum kanan. Demikian pula, kaum tani, meskipun terikat pada tanah dan tradisi keluarga, yang merupakan nilai-nilai sayap kanan, tidak ragu untuk berdemonstrasi secara keras demi menuntut subsidi negara, sebuah pendekatan yang sejalan dengan logika sosialis.
 
+Pada akhirnya, bukankah polarisasi partisan ini justru menutupi perpecahan yang jauh lebih dalam dan lebih tua, yaitu perpecahan yang selama berabad-abad memisahkan mereka yang memerintah dan mereka yang diperintah?
 
-Sangat menarik untuk dicatat bahwa posisi politik tertentu dapat melintasi batas-batas tradisional kanan/kiri. Sebagai contoh, proteksionisme, yang sering dipertahankan oleh kaum kiri, dapat dengan mudah didamaikan dengan nasionalisme, sebuah nilai yang secara tradisional diasosiasikan dengan kaum kanan. Demikian pula, kaum tani, meskipun terikat pada tanah dan tradisi keluarga - nilai-nilai sayap kanan - tidak ragu-ragu untuk berdemonstrasi dengan keras untuk menuntut subsidi negara, sebuah pendekatan yang sejalan dengan logika sosialis.
+Selama pandemi Covid, sebagian besar negara Barat menerapkan kontrol yang bersifat totaliter. Meskipun banyak kebijakan tersebut telah dicabut, kesenjangan antara kelas penguasa dan warga biasa justru semakin melebar.
 
+Melalui utang pemerintah dan inflasi, kita menyaksikan bentuk perbudakan modern berupa hilangnya daya beli dan kemampuan masyarakat untuk menyimpan nilai.
 
+Faktanya, sistem uang fiat menguntungkan orang-orang terkaya dan entitas keuangan yang paling kuat, terutama pemerintah sebagai peminjam terbesar. Dengan terus meminjam, mereka mendorong bank-bank untuk menciptakan uang baru. Inflasi yang dihasilkan menjadi mekanisme tersembunyi yang mendevaluasi nilai uang dan secara perlahan menghancurkan tabungan masyarakat.
 
-Akhirnya, bukankah polarisasi partisan ini menutupi perpecahan yang jauh lebih dalam dan lebih kuno: perpecahan yang telah memisahkan mereka yang memerintah dan yang diperintah selama berabad-abad?
+Mata uang fiat merupakan fondasi dari perluasan kekuasaan negara. Sistem ini memungkinkan pemerintah membiayai pengeluaran tanpa batas, dengan menghilangkan batasan anggaran yang sebelumnya ada di bawah standar emas. Perbudakan modern ini dipertahankan oleh elit yang bertekad menjaga hak-hak istimewa mereka, sementara masyarakat yang semakin lemah dan tidak berdaya menghadapi ekspansi negara, perlahan melihat setiap aspek kehidupannya berada di bawah kendali.
 
+Dalam kursus ini, kita akan melihat bahwa lanskap politik jauh lebih kaya dan kompleks dibandingkan sekadar dua kategori kiri dan kanan, melalui model visual yang membantu kita memahami berbagai keluarga politik dengan lebih baik.
 
-
-Selama pandemi Covid, sebagian besar negara Barat menerapkan kontrol totaliter, dan meskipun banyak di antaranya telah dicabut, kesenjangan antara kelas penguasa dan warga biasa semakin lebar.
-
-
-
-Dengan utang pemerintah dan inflasi, kita menyaksikan bentuk perbudakan modern melalui hilangnya daya beli dan daya simpan masyarakat.
-
-
-Faktanya, sistem uang fiat menguntungkan orang-orang terkaya dan entitas keuangan yang paling kuat, terutama pemerintah, yang merupakan peminjam terbesar. Dengan meminjam, mereka mendorong bank-bank untuk mencetak uang baru. Inflasi yang dihasilkan adalah mekanisme yang secara diam-diam mendevaluasi nilai uang, menghancurkan tabungan masyarakat.
-
-
-
-Mata uang fiat adalah landasan dari perluasan kekuasaan negara. Mata uang ini memungkinkan pemerintah untuk membiayai pengeluaran tanpa batas, menghilangkan batasan anggaran yang ada di bawah standar emas. Perbudakan modern ini dipertahankan oleh elit yang bertekad untuk mempertahankan hak-hak istimewanya, sementara populasi yang lemah, dilucuti dalam menghadapi ekspansi negara, secara bertahap melihat setiap bidang keberadaannya berada di bawah kendali.
-
-
-
-Dalam kursus ini, kita akan melihat bahwa lanskap politik jauh lebih kaya dan lebih kompleks daripada sekadar dua kategori kiri dan kanan, berkat model visual yang akan membantu kita lebih memahami keluarga politik yang berbeda.
-
-
-
-Sebelum memulai kursus ini, saya ingin mengajak Anda untuk mengikuti kuis singkat. Coba jawab pertanyaan-pertanyaan berikut:
+Sebelum memulai kursus ini, aku ingin mengajakmu untuk mengikuti kuis singkat. Coba jawab pertanyaan-pertanyaan berikut:
 
 
 
@@ -212,15 +168,11 @@ Sebelum memulai kursus ini, saya ingin mengajak Anda untuk mengikuti kuis singka
 
 
 
-Dalam semua pertanyaan ini, ada satu masalah utama dan menentukan yang muncul: tingkat kontrol pemerintah yang dapat Anda tolerir, dan oleh karena itu juga tingkat pendanaan yang sedikit banyak memaksa Anda untuk berpartisipasi.
+Dalam semua pertanyaan ini, ada satu masalah utama dan menentukan yang muncul, yaitu tingkat kontrol pemerintah yang bisa kamu tolerir, dan dengan demikian juga tingkat pendanaan yang, secara sadar atau tidak, memaksa kamu untuk ikut berpartisipasi.
 
+Jadi, pertanyaan politik yang paling mendasar adalah: **Siapa yang harus memutuskan?** Dengan kata lain: **Apakah kamu yang membuat keputusan penting mengenai kehidupan pribadi dan sosial kamu, atau orang lain yang membuat keputusan untuk kamu?**
 
-
-Jadi pertanyaan politik yang mendasar adalah: **Siapa yang harus memutuskan? ** Dengan kata lain: **Apakah Anda yang membuat keputusan penting mengenai kehidupan pribadi dan sosial Anda, atau orang lain yang membuat keputusan untuk Anda?
-
-
-
-Pada tahun 1966, dalam *Revolt on the Moon* (The Moon is a Harsh Mistress), novelis Robert Heinlein mengembangkan gagasan bahwa pemerintah selalu berakhir dengan mengumpulkan kekuasaan dan mengendalikan warga negara, yang ia sebut sebagai penyakit manusia yang tak terelakkan.
+Pada tahun 1966, dalam **Revolt on the Moon** (The Moon is a Harsh Mistress), novelis Robert Heinlein mengembangkan gagasan bahwa pemerintah pada akhirnya selalu cenderung mengumpulkan kekuasaan dan mengendalikan warga negara, sesuatu yang ia sebut sebagai penyakit manusia yang tidak terelakkan.
 
 
 
@@ -238,11 +190,9 @@ Dia mengamati bahwa umat manusia terbagi secara politis antara mereka yang ingin
 
 
 
-Saat ini, semua partai politik, baik kiri, tengah maupun kanan, membela hak negara untuk mengatur kehidupan masyarakat dan mengintervensi semua hal melalui peraturan dan pajak. Di media arus utama, kita menemukan hal yang sama: kerangka acuannya adalah statistik.
+Saat ini, semua partai politik, baik kiri, tengah, maupun kanan, membela hak negara untuk mengatur kehidupan masyarakat dan melakukan intervensi dalam hampir semua hal melalui peraturan dan pajak. Di media arus utama, kita melihat pola yang sama, di mana kerangka acuannya didominasi oleh statistik.
 
-
-
-Jadi, haruskah model politik tradisional kiri versus kanan diatasi? Dan jika ya, untuk mendukung model yang mana?
+Jadi, apakah model politik tradisional kiri versus kanan perlu ditinggalkan? Dan jika iya, model apa yang seharusnya digunakan sebagai gantinya?
 
 
 
@@ -266,14 +216,11 @@ Jadi, haruskah model politik tradisional kiri versus kanan diatasi? Dan jika ya,
 
 
 
-Alih-alih membagi doktrin politik dalam poros kanan/kiri, akan lebih masuk akal jika kita melihat segala sesuatunya melalui prisma kebebasan. Kita kemudian akan memiliki poros kebebasan-kekuasaan, sehingga pemikiran liberal klasik akhirnya akan menemukan tempatnya di papan catur politik.
+Alih-alih membagi doktrin politik pada poros kanan dan kiri, akan jauh lebih masuk akal jika kita melihat segala sesuatu melalui prisma kebebasan. Dengan begitu, kita akan memiliki poros kebebasan dan kekuasaan, sehingga pemikiran liberal klasik akhirnya bisa menemukan tempatnya di papan catur politik.
 
+Dengan demikian, cara pandang yang lebih tepat adalah mengontraskan para pembela kebebasan dengan para pembela Negara, yaitu mereka yang percaya pada kemampuan individu untuk mengatur diri mereka sendiri secara bertanggung jawab, dan mereka yang menginginkan otoritas yang kuat untuk menenangkan mereka sekaligus mengendalikan kehidupan orang lain.
 
-
-Maka, cara yang tepat untuk melihat segala sesuatunya adalah dengan mengkontraskan para pembela kebebasan dengan para pembela Negara-mereka yang percaya pada kemampuan individu untuk mengatur diri mereka sendiri secara bertanggung jawab, dan mereka yang menginginkan otoritas yang kuat untuk menentramkan mereka dan mengendalikan kehidupan orang lain.
-
-
-David Nolan, pendiri Partai Libertarian pada tahun 1971 dan penulis Bagan Nolan yang sekarang terkenal, memahami hal ini. Sebagai alumni Massachusetts Institute of Technology (MIT), ia telah merancang bagan yang kemungkinan besar dapat mewakili kompleksitas spektrum politik dengan lebih baik.
+David Nolan, pendiri Partai Libertarian pada tahun 1971 sekaligus pencetus Bagan Nolan yang kini dikenal luas, memahami hal ini dengan sangat baik. Sebagai alumni Massachusetts Institute of Technology (MIT), ia merancang sebuah bagan yang kemungkinan besar mampu merepresentasikan kompleksitas spektrum politik dengan lebih akurat.
 
 
 

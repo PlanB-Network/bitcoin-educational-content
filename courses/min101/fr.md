@@ -719,7 +719,7 @@ En 2009 et dans les premières années, le minage se faisait principalement avec
 
 Un CPU sait tout faire, mais il n’est optimisé pour rien. Il exécute des instructions très générales, avec une logique complexe. Pour une tâche comme le hachage répétitif des entêtes de bloc, ce n’est pas l’outil idéal, mais au démarrage du réseau, la difficulté est si faible que cela suffit largement.
 
-Cette période est importante, car elle nous rappelle un point important : la preuve de travail ne dépend pas d’une catégorie de matériel en particulier. Ce qui compte, c’est la capacité à calculer des hachages plus vite que les autres, à coût donné. Dès qu’un avantage technique apparaît, il se transforme mécaniquement en avantage économique. Mais dans l’absolu, il est toujours possible aujourd’hui de tenter de trouver des blocs Bitcoin à l’aide d’un CPU classique. C’est d’ailleurs l’approche adoptée par le projet NerdMiner. Les chances de découvrir un bloc sont quasiment nulles, mais il subsiste néanmoins une probabilité infinitésimale.
+Cette période est importante, car elle nous rappelle un point important : la preuve de travail ne dépend pas d’une catégorie de matériel en particulier. Ce qui compte, c’est la capacité à calculer des hachages plus vite que les autres, à coût donné. Dès qu’un avantage technique apparaît, il se transforme mécaniquement en avantage économique. Mais dans l’absolu, il est toujours possible aujourd’hui de tenter de trouver des blocs Bitcoin à l’aide d’un CPU classique. C’est d’ailleurs l’approche adoptée par le projet NerdMiner par exemple. Les chances de découvrir un bloc sont quasiment nulles, mais il subsiste néanmoins une probabilité infinitésimale.
 
 https://planb.academy/tutorials/mining/hardware/nerdminer-c9826fd9-c2b4-4d1e-8c78-809122de1654
 
@@ -731,11 +731,19 @@ Le résultat est immédiat : à consommation électrique comparable, un GPU peut
 
 C’est à ce moment-là que la difficulté de minage commence à exploser. Entre mi-2010 et mi-2011, elle est même multipliée par 1 000 ! Mécaniquement, la spécialisation s’amorce, tout comme les premières formes d’industrialisation, et les utilisateurs normaux, qui se contentent de faire tourner le logiciel Bitcoin sur leur ordinateur personnel, n’ont désormais plus qu’une probabilité extrêmement faible de trouver un bloc valide.
 
+044
+
+*Source: [CoinWarz.com](https://www.coinwarz.com/mining/bitcoin/hashrate-chart)*
+
 Entre l’ère GPU et l’ère moderne des ASIC, on observe une phase intermédiaire : l’utilisation de FPGA. Un FPGA est un composant reprogrammable : il peut être configuré pour implémenter directement un circuit logique dédié à un calcul particulier, ici `SHA256d`. L’intérêt est de s’éloigner encore davantage du matériel généraliste (CPU/GPU) pour gagner en efficacité énergétique. Mais rapidement, les améliorations réalisées virtuellement sur les FPGA seront appliquées physiquement aux puces elles-mêmes : c'est l'arrivée des ASIC.
 
 ### L’arrivée des ASIC
 
 L’étape finale de la spécialisation du matériel de minage est l’apparition des ASIC (*Application-Specific Integrated Circuits*). Un ASIC est une puce conçue pour une tâche unique. Dans le cas du minage Bitcoin, cette tâche est précisément l’exécution de `SHA256d` à une vitesse maximale et avec une efficacité énergétique optimale. Contrairement à un GPU, un ASIC ne sert pas à faire tourner des jeux, du rendu 3D ou de l’IA. Il sert à hacher, et c'est tout.
+
+045
+
+*ASIC S21 XP fabriqué par l'entreprise Bitmain.*
 
 Cette spécialisation a deux conséquences majeures :
 - La première est un saut de performance et d’efficacité. À génération équivalente, un ASIC produit un nombre de hachages par seconde très supérieur à un GPU, pour une consommation plus maîtrisée. Rapidement, miner avec un GPU devient non compétitif : même si cela fonctionne techniquement, le coût électrique dépasse largement les revenus espérés dans la plupart des contextes.

@@ -183,6 +183,7 @@ Pour installer des applications, vous avez plusieurs possibilités :
 - **Logiciels**, le magasin d’applications de Zorin OS. Les applications proviennent de plusieurs sources : apt, Flatpak et Snap.  
 
     ![capture](/assets/fr/38.webp)
+
     ![capture](/assets/fr/39.webp)
 
 - **apt** install (ligne de commande) :
@@ -214,6 +215,7 @@ Pour installer une application .exe ou .msi Windows, vous avez deux possibilité
 - Double-cliquez sur le **fichier .exe ou .msi** de l’application et laissez-vous guider par le programme d’installation.  
   
     ![capture](/assets/fr/42.webp)
+
     ![capture](/assets/fr/43.webp)
 
 ## Conclusion et ressources complémentaires

@@ -33,11 +33,12 @@ proofreading:
     contributor_names:
     reward: 0.22
   - language: fr
-    last_contribution_date: 2024-09-01
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0.1
+      - ProfScofield21
+    reward: 0.05
   - language: it
     last_contribution_date:
     urgency: 1
@@ -47,7 +48,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.29
+    reward: 0.26
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -57,7 +58,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.29
+    reward: 0.26
   - language: et
     last_contribution_date:
     urgency: 1
@@ -67,7 +68,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.25
+    reward: 0.26
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -82,7 +83,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.25
+    reward: 0.26
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -92,7 +93,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.32
+    reward: 0.26
   - language: sr-Latn
     last_contribution_date: '2025-08-19'
     urgency: 1
@@ -109,7 +110,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.25
+    reward: 0.26
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -129,14 +130,25 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.25
+    reward: 0.26
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.25
+    reward: 0.26
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.29
+    reward: 0.26
+  - language: bg
+    last_contribution_date: '2025-12-29'
+    urgency: 1
+    contributor_names:
+      - dnabg
+    reward: 0.11
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0.26

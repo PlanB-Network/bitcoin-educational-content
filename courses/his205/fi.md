@@ -3869,10 +3869,10 @@ Heidän on vain varmistettava, että he voivat tehdä nämä siirrot, mutta mit�
 
 
 
-Jos haluatte ymmärtää rahan ja inflaation välisen yhteyden, suosittelen Plan ₿ Network:ssä pitämääni kurssia, joka on omistettu tälle aiheelle. Opit eron hintojen nousun, jota näemme elämässä, ja inflaation välillä. Ne eivät ole sama asia. Itse asiassa, kun puhumme inflaatiosta, puhumme usein hintojen noususta, emme itse inflaatiosta. Inflaatio on melko tarkka käsite, joka selittyy rahan määrän kasvulla.
+Jos haluatte ymmärtää rahan ja inflaation välisen yhteyden, suosittelen Plan ₿ Academy:ssä pitämääni kurssia, joka on omistettu tälle aiheelle. Opit eron hintojen nousun, jota näemme elämässä, ja inflaation välillä. Ne eivät ole sama asia. Itse asiassa, kun puhumme inflaatiosta, puhumme usein hintojen noususta, emme itse inflaatiosta. Inflaatio on melko tarkka käsite, joka selittyy rahan määrän kasvulla.
 
 
-https://planb.academy/courses/hyperinflation-case-studies-caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 Tämän fiat-maailmaa käsittelevän osion lopuksi haluan mainita erään resurssin, joka auttaa sinua ymmärtämään paremmin äsken selittämäni ilmiöt, kuten inflaation.
 

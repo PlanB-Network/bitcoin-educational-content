@@ -304,7 +304,7 @@ Bu üç uzantı, kolektif anonimliği tehlikeye atacak özelleştirme olasılı�
 
 
 
-Mullvad Browser Windows, macOS ve Linux için ücretsiz olarak kullanılabilir. Yüklemek için [resmi Mullvad web sitesine] (https://mullvad.net/browser) gidin.
+Mullvad Browser Windows, macOS ve Linux için ücretsiz olarak kullanılabilir. Yüklemek için [resmi Mullvad web sitesine](https://mullvad.net/browser) gidin.
 
 
 

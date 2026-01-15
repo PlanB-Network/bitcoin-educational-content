@@ -1,0 +1,8 @@
+question: Na co pozwala składnia struct update podczas tworzenia nowych instancji struktury w Rust?
+answer: Utwórz nową instancję, określając tylko zmienione pola, kopiując pozostałe pola z istniejącej instancji
+wrong_answers:
+  - Modyfikowanie istniejących pól struktury w miejscu bez tworzenia nowej instancji
+  - Automatycznie generate wartości domyślne dla nieokreślonych pól przy użyciu cechy Default
+  - Scalanie wielu instancji struktury w jedną połączoną instancję
+explanation: |
+  Składnia aktualizacji struktury w Rust umożliwia utworzenie nowej instancji struktury poprzez określenie tylko pól, które chcesz zmienić, automatycznie kopiując wszystkie inne pola z istniejącej instancji. Odbywa się to przy użyciu składni `..existing_instance`. Pozostałe opcje są niepoprawne: składnia struct update zawsze tworzy nową instancję zamiast modyfikować istniejące, nie używa wartości domyślnych generate, ale kopiuje z istniejących instancji i działa z jedną instancją źródłową zamiast łączyć wiele instancji.

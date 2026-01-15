@@ -6,4 +6,4 @@ wrong_answers:
   - Criptoanálisis
 explanation: |
   La criptografía simétrica es una rama principal de la criptografía, que involucra esquemas de cifrado donde se utiliza una única clave para cifrar y descifrar mensajes.
-reviewed: false
+reviewed: true

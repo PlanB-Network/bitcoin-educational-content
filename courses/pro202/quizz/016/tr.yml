@@ -1,0 +1,8 @@
+question: Bir Bitcoin işleminde girdi tutarları ile çıktı tutarları arasındaki farka ne olur?
+answer: Aradaki fark otomatik olarak madencilere ödenen işlem ücreti haline gelir
+wrong_answers:
+  - "Aradaki fark değişiklik olarak göndericinin orijinal adresine iade edilir"
+  - Aradaki fark yakılır ve kalıcı olarak dolaşımdan kaldırılır
+  - Fark, işlem onaylanana kadar emanet olarak tutulur
+explanation: |
+  Bitcoin'in ücret sisteminde ücretler, toplam girdi miktarları ile toplam çıktı miktarları arasındaki fark olarak dolaylı bir şekilde hesaplanır (ücret = sum(girdiler) - sum(çıktılar)). Bir çıktıya açıkça atanmayan herhangi bir değer otomatik olarak madenci ücreti haline gelir. Bu nedenle uygun değişiklik çıktıları oluşturmak kritik önem taşır - büyük bir UTXO harcarken bir değişiklik çıktısı eklemeyi unutursanız, kalanın tamamı madenci için pahalı bir ücret haline gelir. Diğer seçenekler yanlıştır çünkü Bitcoin otomatik olarak değişim çıktıları oluşturmaz, atanmamış değeri yakmaz ve işlem farkları için emanet mekanizmaları kullanmaz.

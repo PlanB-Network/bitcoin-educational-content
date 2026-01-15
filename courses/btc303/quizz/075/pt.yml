@@ -6,3 +6,4 @@ wrong_answers:
   - Avaliar cada vulnerabilidade isoladamente, sem considerar como vários problemas menores podem se combinar para criar grandes riscos de segurança
 explanation: |
   Maxwell argumenta que os desenvolvedores devem tratar as vulnerabilidades como mais graves do que parecem, porque problemas difíceis de explorar podem se tornar triviais com a técnica certa, e problemas aparentemente menores podem se transformar em ameaças sérias. Ele enfatiza que erros simples de desempenho podem ser usados como arma para dividir a rede e permitir ataques double-spending. Esta abordagem conservadora reconhece que os programadores podem não compreender inicialmente todo o potencial de exploração de uma vulnerabilidade, tornando prudente assumir o pior cenário possível em vez de subestimar a ameaça.
+reviewed: false

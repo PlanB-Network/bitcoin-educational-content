@@ -4,6 +4,12 @@ description: Najjednostavniji skrbnički Wallet za početak
 ---
 ![cover](assets/cover.webp)
 
+---
+
+*Pažnja: od početka 2026. godine Wallet of Satoshi u custodial režimu (kako je predstavljeno u ovom tutorijalu) više nije dostupan unutar Evropske unije. Ako živite u ovoj oblasti i želite da nastavite da koristite ovaj alat, moraćete da koristite VPN koji se nalazi van EU. Druga opcija je korišćenje Wallet of Satoshi u self-custodial režimu. Poseban tutorijal biće uskoro objavljen na Plan ₿ Academy.*
+
+---
+
 _Ovaj vodič je napisao_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 

@@ -63,7 +63,7 @@ Como o Aegis Authenticator é de código aberto, os seus criadores favorecem can
 
 
 
-A forma mais segura e fácil é através do F-Droid, a loja alternativa gratuita. Se o F-Droid ainda não estiver instalado no seu telemóvel, comece por transferi-lo a partir do sítio Web oficial [F-Droid.org] (https://f-droid.org). Depois :
+A forma mais segura e fácil é através do F-Droid, a loja alternativa gratuita. Se o F-Droid ainda não estiver instalado no seu telemóvel, comece por transferi-lo a partir do sítio Web oficial [F-Droid.org](https://f-droid.org). Depois :
 
 
 

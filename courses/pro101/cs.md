@@ -11,7 +11,7 @@ objectives:
 
 Co je potřeba k tomu, abyste mohli stavět na Bitcoinu? Tento 20hodinový kurz vás zavede pod povrch Bitcoinu a Lightning Network a prozkoumá protokoly, které pohánějí nejodolnější finanční infrastrukturu světa. Ať už chcete přispívat do open-source projektů nebo budovat další generaci bitcoinových aplikací, získáte technickou hloubku potřebnou k tomu, abyste mohli v tomto ekosystému pracovat s jistotou.
 
-Nahráno během bootcampu CUBO+ 2023 v El Salvadoru, tento kurz spojuje perspektivy předních bitcoinových vývojářů a vzdělavatelů, kteří formovali tuto technologii. Ta nejlepší část? Je zcela zdarma, umožněno společnostmi Fulgure Venture, Bitcoin Office a DecouvreBitcoin. Pokud jste byli zvědaví, jak Bitcoin skutečně funguje na úrovni protokolu, toto je vaše příležitost to zjistit.
+Nahráno během bootcampu CUBO+ 2023 v El Salvadoru, tento kurz spojuje perspektivy předních bitcoinových vývojářů a vzdělavatelů, kteří formovali tuto technologii. Ta nejlepší část? Je zcela zdarma, umožněno společnostmi Fulgure Ventures, Bitcoin Office a DecouvreBitcoin. Pokud jste byli zvědaví, jak Bitcoin skutečně funguje na úrovni protokolu, toto je vaše příležitost to zjistit.
 +++
 # Úvod a přípravné kurzy
 
@@ -59,7 +59,7 @@ V průběhu kurzu budou účastníci využívat klíčové nástroje, které jim
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-Vítejte na první přednášce vzdělávacího programu **Cubo Plus**. Dnes se ponoříme do světa Bitcoin pod vedením Rickyho, zakladatele **Bitcoin Italia Podcast**. Ricky je vášnivý aktivista v oblasti lidských práv, který používá Bitcoin jako nástroj na ochranu a podporu lidských práv. S více než šestiletou praxí Ricky hodně cestoval a dokumentoval zavádění Bitcoin na rozvíjejících se trzích, jako je Salvador a Guatemala. Jeho práce přesahuje rámec podcastů; je také aktivní na YouTube (**Bitcoin Explorers**) a Twitteru (**BTC Explorer**, **Ricky6**). Rickyho vztah k Commitment vychází z jeho přesvědčení, že Bitcoin nabízí finanční svobodu a soukromí a zpochybňuje tradiční centralizované bankovní systémy.
+Vítejte na první přednášce vzdělávacího programu **Cubo Plus**. Dnes se ponoříme do světa Bitcoin pod vedením Rikkiho, zakladatele **Bitcoin Italia Podcast**. Rikki je vášnivý aktivista v oblasti lidských práv, který používá Bitcoin jako nástroj na ochranu a podporu lidských práv. S více než šestiletou praxí Rikki hodně cestoval a dokumentoval zavádění Bitcoin na rozvíjejících se trzích, jako je Salvador a Guatemala. Jeho práce přesahuje rámec podcastů; je také aktivní na YouTube (**Bitcoin Explorers**) a Twitteru (**BTC Explorer**, **Rikki6**). Rikkiho vztah k Commitment vychází z jeho přesvědčení, že Bitcoin nabízí finanční svobodu a soukromí a zpochybňuje tradiční centralizované bankovní systémy.
 
 
 ![Unbanked Population](assets/en/001.webp)
@@ -73,18 +73,18 @@ globální nebankovní populace_
 Tato přednáška **"Proč Salvador potřebuje Bitcoin"** poskytuje přehled o protokolu **Bitcoin**, jeho kořenech v hnutí **Cypherpunk** a jeho úloze jako nástroje umožňujícího svobodu **necenzurovaných peněz**, **finanční inkluzi** a mnoho dalšího.
 
 
-> **Definice:**
->
-
-> - _Bitcoinový protokol:_ Pravidla a struktura, kterými se řídí fungování Bitcoin jako decentralizované digitální měny.
-> - _Cypherpunk movement:_ Skupina prosazující používání kryptografie k zajištění soukromí a svobody v digitálním prostoru.
-> - _Finanční začleňování:_ Zajištění přístupu k finančním službám lidem, kteří jsou vyloučeni z tradičních bankovních systémů, často označovaným jako "nebankovní"
-> - _Necenzurované peníze:_ Peníze, které nemohou být kontrolovány nebo omezovány vládami nebo finančními institucemi.
-
-#### Rickyho minulost a obhajoba Bitcoin
+**Definice:**
 
 
-Rickyho cesta do Bitcoin má kořeny v jeho práci obhájce lidských práv. Věří, že Bitcoin může jednotlivcům poskytnout kontrolu nad jejich financemi, což jim umožní chránit jejich soukromí a vyhnout se omezením centralizovaných bank. Jeho zkoumání přijetí Bitcoin v místech, jako je Salvador, zdůrazňuje, jak tato technologie může lidem na rozvíjejících se trzích umožnit získat finanční nezávislost.
+- _Bitcoinový protokol:_ Pravidla a struktura, kterými se řídí fungování Bitcoin jako decentralizované digitální měny.
+- _Cypherpunk movement:_ Skupina prosazující používání kryptografie k zajištění soukromí a svobody v digitálním prostoru.
+- _Finanční začleňování:_ Zajištění přístupu k finančním službám lidem, kteří jsou vyloučeni z tradičních bankovních systémů, často označovaným jako "nebankovní"
+- _Necenzurované peníze:_ Peníze, které nemohou být kontrolovány nebo omezovány vládami nebo finančními institucemi.
+
+#### Rikkiho minulost a obhajoba Bitcoin
+
+
+Rikkiho cesta do Bitcoin má kořeny v jeho práci obhájce lidských práv. Věří, že Bitcoin může jednotlivcům poskytnout kontrolu nad jejich financemi, což jim umožní chránit jejich soukromí a vyhnout se omezením centralizovaných bank. Jeho zkoumání přijetí Bitcoin v místech, jako je Salvador, zdůrazňuje, jak tato technologie může lidem na rozvíjejících se trzích umožnit získat finanční nezávislost.
 
 
 ### Globální význam a výzvy Bitcoin
@@ -102,11 +102,11 @@ V autoritářských režimech, kde jsou běžné finanční represe, umožňuje 
 Navzdory svému potenciálu čelí Bitcoin významným výzvám. V oblastech, jako je Afrika a Indie, často chybí základní infrastruktura, jako je elektřina a přístup k internetu, což omezuje její zavádění. Kromě toho zůstává hlavní překážkou **digitální inkluze** - zajištění toho, aby technologie mohli využívat lidé všech věkových kategorií a úrovní vzdělání.
 
 
-> **Definice:**
->
+**Definice:**
 
-> - _Soukromé klíče:_ Tajné kódy, které umožňují přístup k uživatelskému účtu Bitcoin.
-> - _Open-source:_ Software, který může kdokoli kontrolovat, upravovat a vylepšovat.
+
+- _Soukromé klíče:_ Tajné kódy, které umožňují přístup k uživatelskému účtu Bitcoin.
+- _Open-source:_ Software, který může kdokoli kontrolovat, upravovat a vylepšovat.
 
 ### Případ Salvadoru
 
@@ -135,10 +135,10 @@ Souhrnně lze říci, že Bitcoin je obrovským příslibem pro finanční posí
 Koncem 20. století vzniklo hnutí **Cypherpunk**, které prosazovalo soukromí a svobodu prostřednictvím kryptografie. Průkopníci jako **Eric Hughes** a **Tim May** věřili, že silné šifrování je nezbytné pro ochranu osobní svobody v digitálním světě. Jejich myšlenky výrazně ovlivnily vznik Bitcoin.
 
 
-> **Definice:**
->
+**Definice:**
 
-> - _Cypherpunk:_ Hnutí prosazující soukromí a svobodu pomocí kryptografie.
+
+- _Cypherpunk:_ Hnutí prosazující soukromí a svobodu pomocí kryptografie.
 
 #### Rakouská ekonomie
 
@@ -146,10 +146,10 @@ Koncem 20. století vzniklo hnutí **Cypherpunk**, které prosazovalo soukromí 
 Zároveň **Rakouská ekonomie** poskytla základ pro měnové zásady Bitcoin. Ekonomové jako **Ludwig von Mises** a **Friedrich Hayek** tvrdili, že zdravé peníze by měly být vzácné, trvanlivé a měly by být dobrým uchovatelem hodnoty, což byly základní zásady, které formovaly návrh Bitcoin.
 
 
-> **Definice:**
->
+**Definice:**
 
-> - _Scarcity:_ Omezená dostupnost, která vytváří hodnotu díky nutnosti pečlivého rozdělování.
+
+- _Scarcity:_ Omezená dostupnost, která vytváří hodnotu díky nutnosti pečlivého rozdělování.
 
 ### Vytvoření Bitcoin
 
@@ -157,10 +157,10 @@ Zároveň **Rakouská ekonomie** poskytla základ pro měnové zásady Bitcoin. 
 **Satoshi Nakamoto** spojil tyto myšlenky a v roce 2008 vytvořil Bitcoin jako decentralizovanou digitální měnu odolnou proti cenzuře. Spojením ideálů soukromí Cypherpunk s rakouskými principy zdravých peněz nabízí Bitcoin finanční systém, který zpochybňuje tradiční banky a vládní kontrolu.
 
 
-> **Definice:**
->
+**Definice:**
 
-> - _Censorship-resistant:_ Peníze, které nelze kontrolovat nebo blokovat vnějšími silami.
+
+- _Censorship-resistant:_ Peníze, které nelze kontrolovat nebo blokovat vnějšími silami.
 
 #### Klíčové ekonomické zásady
 
@@ -171,11 +171,11 @@ Zároveň **Rakouská ekonomie** poskytla základ pro měnové zásady Bitcoin. 
 - Úspory:** Ukládání hodnoty pro budoucí potřeby, což vede k investicím a inovacím.
 
 
-> **Definice:**
->
+**Definice:**
 
-> - _Časová preference:_ Oceňování současných statků před budoucími.
-> - _Uložení:_ Uložení hodnoty pro budoucí použití.
+
+- _Časová preference:_ Oceňování současných statků před budoucími.
+- _Uložení:_ Uložení hodnoty pro budoucí použití.
 
 ### Bitcoin v Salvadoru
 
@@ -243,11 +243,11 @@ Bitcoin se při zabezpečení a ověřování transakcí spoléhá na **digitál
 **Satoshi Nakamoto**, pseudonymní tvůrce Bitcoin, tyto myšlenky rozvinul přechodem modelu PoW na decentralizovaný **Blockchain**. To umožnilo distribuované síti uzlů ověřovat a zaznamenávat transakce bez centrální autority, což znamenalo významný vývoj oproti předchozím pokusům o digitální měnu.
 
 
-> **Definice:**
->
+**Definice:**
 
-> - _Proof-of-Work (PoW):_ Systém, v němž účastníci musí řešit výpočetní hádanky, aby ověřili transakce a zabezpečili síť.
-> - _Eliptická kryptografie:_ Kryptografická metoda, která umožňuje bezpečné a účinné digitální podpisy.
+
+- _Proof-of-Work (PoW):_ Systém, v němž účastníci musí řešit výpočetní hádanky, aby ověřili transakce a zabezpečili síť.
+- _Eliptická kryptografie:_ Kryptografická metoda, která umožňuje bezpečné a účinné digitální podpisy.
 
 ### Mechanika Blockchain a ověřování transakcí
 
@@ -264,12 +264,12 @@ Každý **blok** v Blockchain se skládá z **záhlaví** (s údaji jako předch
 Než jsou transakce zařazeny do bloku, nacházejí se v **Mempool**, kde čekají na ověření. Po validaci jsou tyto transakce přidány do nově vytěženého bloku a poté do Blockchain.
 
 
-> **Definice:**
->
+**Definice:**
 
-> - _Mining:_ Proces řešení kryptografických hádanek za účelem přidání nových bloků do Blockchain.
-> - _Nonce:_ Hodnota používaná k nalezení správné hodnoty Hash během Mining.
-> - _Mempool:_ Čekárna pro nepotvrzené transakce před jejich přidáním do bloku.
+
+- _Mining:_ Proces řešení kryptografických hádanek za účelem přidání nových bloků do Blockchain.
+- _Nonce:_ Hodnota používaná k nalezení správné hodnoty Hash během Mining.
+- _Mempool:_ Čekárna pro nepotvrzené transakce před jejich přidáním do bloku.
 
 ### Škálovatelnost, soukromí a vývoj v Bitcoin
 
@@ -283,12 +283,12 @@ Provozování **Full node** je nezbytné pro zajištění decentralizace a bezpe
 Vývoj systému Bitcoin se vyvíjel s cílem zlepšit výkon a zabezpečení. Mezi hlavní vylepšení patří **Segregovaný svědek (SegWit)**, který řeší záludnosti transakcí a zvyšuje efektivní velikost bloku, a **Taproot**, který zlepšuje soukromí a umožňuje uzavírat složitější smlouvy pomocí **Merkleizovaných abstraktních syntaktických stromů (MAST)**.
 
 
-> **Definice:**
->
+**Definice:**
 
-> - _SegWit:_ Upgrade Bitcoin, který odděluje podpisová data od transakčních dat a zvyšuje efektivitu.
-> - _Taproot:_ Upgrade, který zvyšuje soukromí a škálovatelnost Bitcoin tím, že umožňuje uzavírat složitější chytré smlouvy.
-> - _Lightning Network:_ Řešení druhého Layer pro rychlejší a levnější transakce Bitcoin pomocí platebních kanálů.
+
+- _SegWit:_ Upgrade Bitcoin, který odděluje podpisová data od transakčních dat a zvyšuje efektivitu.
+- _Taproot:_ Upgrade, který zvyšuje soukromí a škálovatelnost Bitcoin tím, že umožňuje uzavírat složitější chytré smlouvy.
+- _Lightning Network:_ Řešení druhého Layer pro rychlejší a levnější transakce Bitcoin pomocí platebních kanálů.
 
 #### Závěr
 
@@ -316,11 +316,11 @@ V této přednášce vyvrátíme běžné mýty o **Bitcoin**, **blockchainech**
 Častým omylem je, že **Bitcoin** a **Blockchain** jsou stejné. Zatímco Bitcoin je digitální měna, **Blockchain** je technologie, která ji pohání. Blokové řetězce poskytují ověřený záznam transakcí, ale jsou spojeny s kompromisy, jako je nižší rychlost a vyšší náklady, což řešení jako **Lightning Network** Address.
 
 
-> **Definice:**
->
+**Definice:**
 
-> - _Blockchain:_ Základní technologie používaná k záznamu transakcí v decentralizovaném, neměnném systému Ledger.
-> - _Lightning Network:_ Druhé řešení Layer, které zlepšuje efektivitu transakcí Bitcoin tím, že umožňuje transakce off-chain.
+
+- _Blockchain:_ Základní technologie používaná k záznamu transakcí v decentralizovaném, neměnném systému Ledger.
+- _Lightning Network:_ Druhé řešení Layer, které zlepšuje efektivitu transakcí Bitcoin tím, že umožňuje transakce off-chain.
 
 ### Bitcoin vs. Crypto
 
@@ -328,10 +328,10 @@ V této přednášce vyvrátíme běžné mýty o **Bitcoin**, **blockchainech**
 Dalším klíčovým rozdílem je, že **Bitcoin** byl vytvořen s jediným cílem - poskytnout decentralizovanou formu peněz odolnou vůči cenzuře, která není kontrolována žádnou společností ani vládou. Naproti tomu kryptoměny **shitcoins** jsou často navrženy s centralizovanou kontrolou a existují především za účelem obohacení společností, které za nimi stojí, prostřednictvím predátorských praktik, pump-and-dump schémat nebo přímo podvodů. Tyto tokeny obvykle neslouží žádnému skutečnému účelu kromě rychlého zisku jejich tvůrců na úkor neinformovaných investorů. Bitcoin však stojí osamoceně jako jediná skutečně decentralizovaná digitální měna s prokazatelnou bezpečností a odolností.
 
 
-> **Definice:**
->
+**Definice:**
 
-> - _Shitcoiny:_ Shitcoiny jsou kryptoměny s nízkou hodnotou nebo pochybnou kvalitou, které postrádají skutečný užitek. Často jsou vysoce spekulativní a někdy jsou vytvářeny za podvodnými účely nebo bez jasného účelu, přičemž využívají boomu na trhu kryptoměn.
+
+- _Shitcoiny:_ Shitcoiny jsou kryptoměny s nízkou hodnotou nebo pochybnou kvalitou, které postrádají skutečný užitek. Často jsou vysoce spekulativní a někdy jsou vytvářeny za podvodnými účely nebo bez jasného účelu, přičemž využívají boomu na trhu kryptoměn.
 
 ![Image](assets/en/005.webp)
 
@@ -342,10 +342,10 @@ Dalším klíčovým rozdílem je, že **Bitcoin** byl vytvořen s jediným cíl
 Jednou z nejčastějších výtek vůči Bitcoin je jeho **spotřeba energie**. Bitcoin Mining sice spotřebovává energii, ale představuje méně než 1 % celosvětové spotřeby elektřiny a méně než 3 % plýtvání energií. Navíc **Bitcoin Mining** často využívá nevyužívané nebo obnovitelné zdroje energie, takže je ekologičtější, než se často uvádí.
 
 
-> **Definice:**
->
+**Definice:**
 
-> - _Bitcoin Mining:_ Proces ověřování transakcí a zabezpečení sítě řešením kryptografických hádanek, který vyžaduje výpočetní výkon.
+
+- _Bitcoin Mining:_ Proces ověřování transakcí a zabezpečení sítě řešením kryptografických hádanek, který vyžaduje výpočetní výkon.
 
 ### Mylné představy o trestné činnosti
 
@@ -359,10 +359,10 @@ Přípravek Bitcoin je často kritizován za to, že se používá k trestné č
 **Soukromí** a **fungibilita** jsou základními vlastnostmi Bitcoin. Ochrana soukromí chrání uživatele v represivních režimech a zaměnitelnost zajišťuje, že každý Bitcoin je rovnocenný bez ohledu na jeho historii. Díky tomu je Bitcoin spolehlivou a spravedlivou formou peněz.
 
 
-> **Definice:**
->
+**Definice:**
 
-> - _Fungibilita:_ Vlastnost peněz, kdy je každá jednotka zaměnitelná s jinou a zajišťuje stejnou hodnotu.
+
+- _Fungibilita:_ Vlastnost peněz, kdy je každá jednotka zaměnitelná s jinou a zajišťuje stejnou hodnotu.
 
 ### Zvládání FUD a dynamiky trhu
 
@@ -2956,7 +2956,7 @@ K dispozici jsou různé peněženky Lightning, z nichž každá vyhovuje různ�
 - Vlastnosti**: Rozšíření prohlížeče, otevřený zdrojový kód, podporuje opatrovnické i neopatrovnické modely, což zvyšuje univerzálnost.
 
 
-#### Breeze:
+#### Breez:
 
 
 
@@ -2967,7 +2967,7 @@ K dispozici jsou různé peněženky Lightning, z nichž každá vyhovuje různ�
 
 
 
-- Vlastnosti**: Podobně jako Breeze využívá model LSP pro likviditu, open-source, zaměřuje se na uživatelskou jednoduchost a efektivní správu likvidity.
+- Vlastnosti**: Podobně jako Breez využívá model LSP pro likviditu, open-source, zaměřuje se na uživatelskou jednoduchost a efektivní správu likvidity.
 
 
 #### Otevřít Bitcoin Wallet (OBW):
@@ -2985,7 +2985,7 @@ Peněženky lze rozdělit podle toho, kdo drží soukromé klíče a kdo spravuj
 
 
 - Pečovatelské peněženky**: Třetí strana drží soukromé klíče, obvykle nabízí automatickou správu likvidity. Příklady: Wallet Satoshi.
-- Peněženky, které nejsou určeny k opatrování**: Mohou vyžadovat manuální správu likvidity. Příklady: Breeze a OBW.
+- Peněženky, které nejsou určeny k opatrování**: Mohou vyžadovat manuální správu likvidity. Příklady: Breez a OBW.
 
 
 ![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
@@ -3096,11 +3096,11 @@ Vývojáři se potýkají s výzvou implementovat do aplikací bezproblémovou s
 - Možná řešení**: Vývojáři zkoumají pokročilé algoritmy pro **směrování likvidity** a využití **dvojitě financovaných kanálů** k zajištění likvidity na obou stranách transakce.
 
 
-> **Definice**:
->
+**Definice:**
 
-> - **Likvidita**: Dostupnost finančních prostředků v bleskovém kanálu pro provádění nebo přijímání plateb.
-> - **LSP (Lightning Service Provider)**: Služba, která pomáhá uživatelům spravovat likviditu a kanály na Lightning Network.
+
+- **Likvidita**: Dostupnost finančních prostředků v bleskovém kanálu pro provádění nebo přijímání plateb.
+- **LSP (Lightning Service Provider)**: Služba, která pomáhá uživatelům spravovat likviditu a kanály na Lightning Network.
 
 ---
 
@@ -3129,12 +3129,12 @@ Vývojáři mají za úkol abstrahovat složitosti L1 a L2 pro uživatele a vytv
 - Možná řešení**: Vývojáři pracují na funkcích, jako je **splicing** (který umožňuje přidávat nebo odebírat prostředky z kanálu bez jeho uzavření) a nástroje pro automatickou správu kanálů.
 
 
-> **Definice**:
->
+**Definice:**
 
-> - **L1 (Layer 1)**: Bitcoin hlavní Blockchain Layer.
-> - **L2 (Layer 2)**: Lightning Network, který funguje nad Bitcoin a umožňuje rychlejší a levnější transakce.
-> - **Splikování**: Technika, která umožňuje upravit vyvážení kanálu Lightning, aniž by bylo nutné jej uzavřít.
+
+- **L1 (Layer 1)**: Bitcoin hlavní Blockchain Layer.
+- **L2 (Layer 2)**: Lightning Network, který funguje nad Bitcoin a umožňuje rychlejší a levnější transakce.
+- **Splikování**: Technika, která umožňuje upravit vyvážení kanálu Lightning, aniž by bylo nutné jej uzavřít.
 
 ---
 
@@ -3163,11 +3163,11 @@ Vývojáři zkoumají způsoby, jak umožnit uživatelům přijímat platby Ligh
 - Možná řešení**: Probíhá výzkum **offline platebních poukázek**, které by příjemcům umožnily žádat o platby po opětovném připojení k síti.
 
 
-> **Definice**:
->
+**Definice:**
 
-> - **Offline platby**: Platby odeslané nebo přijaté v době, kdy jedna ze stran není připojena ke Lightning Network.
-> - **Peněženky pro poručníky**: Peněženky, kde soukromé klíče kontroluje třetí strana a spravuje transakce jménem uživatele.
+
+- **Offline platby**: Platby odeslané nebo přijaté v době, kdy jedna ze stran není připojena ke Lightning Network.
+- **Peněženky pro poručníky**: Peněženky, kde soukromé klíče kontroluje třetí strana a spravuje transakce jménem uživatele.
 
 ---
 
@@ -3196,10 +3196,10 @@ Vývojáři musí implementovat zálohovací řešení, která uživatelům umo�
 - Možná řešení**: **Statické zálohování kanálů (SCB)** bylo vyvinuto pro zjednodušení obnovy, ale pro plně automatizované a bezpečné zálohování jsou zapotřebí pokročilejší řešení.
 
 
-> **Definice**:
->
+**Definice:**
 
-> - **Statické zálohování kanálů (SCB)**: Zálohování je typ zálohy, který umožňuje uživatelům obnovit jejich prostředky z kanálu Lightning v případě selhání obnovením posledního stavu kanálu.
+
+- **Statické zálohování kanálů (SCB)**: Zálohování je typ zálohy, který umožňuje uživatelům obnovit jejich prostředky z kanálu Lightning v případě selhání obnovením posledního stavu kanálu.
 
 ---
 
@@ -3293,7 +3293,7 @@ Cesty blinded jsou navrženy tak, aby zvýšily soukromí přijímače Lightning
 
 **Poskytovatelé bleskových služeb (LSP)**
 
-Koncepce Lightning Service Providers (LSP), kterou vytvořila společnost Breeze Wallet, má za cíl zlepšit uživatelskou zkušenost tím, že umožňuje okamžitý příjem. LSP otevírají uživatelům kanály, podobně jako poskytovatelé internetových služeb nabízejí služby připojení. Tato inovace zjednodušuje proces přijímání uživatelů a zajišťuje bezproblémovou interakci na Lightning Network.
+Koncepce Lightning Service Providers (LSP), kterou vytvořila společnost Breez Wallet, má za cíl zlepšit uživatelskou zkušenost tím, že umožňuje okamžitý příjem. LSP otevírají uživatelům kanály, podobně jako poskytovatelé internetových služeb nabízejí služby připojení. Tato inovace zjednodušuje proces přijímání uživatelů a zajišťuje bezproblémovou interakci na Lightning Network.
 
 
 **Zdroje, které vám pomohou zůstat v obraze**
@@ -3342,12 +3342,12 @@ Tradiční faktury však mají svá omezení. Například:
 - Omezení velikosti**: Velké faktury mohou být ve formě QR kódu obtížně zpracovatelné, což je pro některé aplikace nepraktické.
 
 
-> **Definice**:
->
+**Definice:**
 
-> - **Invoice**: Žádost o platbu v Lightning Network, která obvykle obsahuje částku a údaje o příjemci.
-> - **HTLC (Hash s časovým zámkem Contract)**: Typ Smart contract používaný k zajištění podmíněných plateb v časovém limitu.
-> - **Směrování cibule**: V tomto případě se údaje o transakcích vrství jako cibule, aby se ochránila identita odesílatele a příjemce.
+
+- **Invoice**: Žádost o platbu v Lightning Network, která obvykle obsahuje částku a údaje o příjemci.
+- **HTLC (Hash s časovým zámkem Contract)**: Typ Smart contract používaný k zajištění podmíněných plateb v časovém limitu.
+- **Směrování cibule**: V tomto případě se údaje o transakcích vrství jako cibule, aby se ochránila identita odesílatele a příjemce.
 
 ### Protokoly a případy použití
 
@@ -3374,15 +3374,15 @@ Další protokol, **RGB**, dále rozšiřuje funkce Lightningu tím, že umožň
 **Poskytovatelé služeb bleskové likvidity (LSP)** rovněž hrají zásadní roli při rozšiřování plateb Lightning. Poskytovatelé LSP poskytují likviditu pro příjem plateb, pomáhají otevírat **duálně financované kanály** a zajišťují bezproblémové transakce tím, že zachycují platby a otevírají kanály za chodu.
 
 
-> **Definice**:
->
+**Definice:**
 
-> - **LNURL**: Protokol, který umožňuje dynamické vytváření Invoice, což usnadňuje a zpružňuje platby.
-> - **Bolt 12**: Rozšíření Lightningu, které využívá Onion messaging pro zajištění soukromí a zároveň automatizuje načítání Invoice.
-> - **Nostr**: Decentralizovaná platforma, která integruje LProtocols a případy užití
-> bleskové platby za mikrotransakce.
-> - **Protokol RGB**: Protokol umožňující přenos aktiv, jako jsou tokeny, prostřednictvím Lightning Network.
-> - **LSP (Lightning Service Provider)**: Subjekt, který poskytuje likviditu a otevírá kanály pro transakce Lightning, čímž zpřístupňuje síť uživatelům.
+
+- **LNURL**: Protokol, který umožňuje dynamické vytváření Invoice, což usnadňuje a zpružňuje platby.
+- **Bolt 12**: Rozšíření Lightningu, které využívá Onion messaging pro zajištění soukromí a zároveň automatizuje načítání Invoice.
+- **Nostr**: Decentralizovaná platforma, která integruje LProtocols a případy užití
+- bleskové platby za mikrotransakce.
+- **Protokol RGB**: Protokol umožňující přenos aktiv, jako jsou tokeny, prostřednictvím Lightning Network.
+- **LSP (Lightning Service Provider)**: Subjekt, který poskytuje likviditu a otevírá kanály pro transakce Lightning, čímž zpřístupňuje síť uživatelům.
 
 ### Obchodní modely a pokročilé protokoly
 
@@ -3405,12 +3405,12 @@ Pokročilé protokoly, jako jsou **Point Time-Locked Contracts (PTLC)**, posunuj
 Protokoly jako **LNURL** a **Bolt 12** zefektivňují platby tím, že omezují manuální interakce, a zajišťují tak, že se Lightning Network stává uživatelsky přívětivějším a rozšířenějším.
 
 
-> **Definice**:
->
+**Definice:**
 
-> - **PTLC (Point Time-Locked Contract)**: Je to kryptografický primitiv, který vylepšuje HTLC a umožňuje flexibilnější a bezpečnější platby.
-> - **Předobraz**: Hodnota, která se používá k odemknutí HTLC a která může sloužit také jako přístupový klíč pro služby.
-> - **Aukční model**: Model platby, kdy jsou platby během aukce zadržovány a uvolněny až po přijetí nejvyšší nabídky.
+
+- **PTLC (Point Time-Locked Contract)**: Je to kryptografický primitiv, který vylepšuje HTLC a umožňuje flexibilnější a bezpečnější platby.
+- **Předobraz**: Hodnota, která se používá k odemknutí HTLC a která může sloužit také jako přístupový klíč pro služby.
+- **Aukční model**: Model platby, kdy jsou platby během aukce zadržovány a uvolněny až po přijetí nejvyšší nabídky.
 
 ### Závěr
 

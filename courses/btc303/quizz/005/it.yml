@@ -6,3 +6,4 @@ wrong_answers:
   - L'hardware del mining è prodotto da diverse aziende per evitare la monopolizzazione delle apparecchiature
 explanation: |
   La decentralizzazione Miner significa specificamente che l'ordine delle transazioni non è controllato da una singola entità o da un gruppo fisso, ma piuttosto da un collettivo di minatori che possono liberamente aderire o lasciare. Ciò è diverso dalla convalida dei blocchi (che riguarda la decentralizzazione full node), dalla distribuzione delle ricompense o dalla produzione di hardware. La natura dinamica del collettivo mining - dove chiunque può partecipare senza autorizzazione - è ciò che rende il Bitcoin resistente alla censura e impedisce a una singola parte di controllare quali transazioni vengono incluse nei blocchi.
+reviewed: false

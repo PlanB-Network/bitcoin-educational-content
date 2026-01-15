@@ -1,0 +1,9 @@
+question: Hvilken grunnleggende tilnærming skiller, ifølge Eric Hughes' Cypherpunk Manifesto, cypherpunks fra dem som bare håper på beskyttelse av privatlivet?
+answer: De skriver aktivt kode for å bygge kryptografiske systemer i stedet for å vente på at institusjonene skal sørge for personvern
+wrong_answers:
+  - De fokuserer på politisk lobbyvirksomhet og juridiske reformer for å etablere grunnlovsfestede personvernrettigheter
+  - De prioriterer å opplyse allmennheten om overvåkningsrisiko gjennom akademisk forskning og publikasjoner
+  - De jobber innenfor eksisterende finansinstitusjoner for gradvis å implementere personvernbevarende teknologi
+explanation: |
+  Eric Hughes uttalte eksplisitt at "Cypherpunks skriver kode" som deres definerende metode. Manifestet understreker at cypherpunks ikke venter på at myndigheter, selskaper eller andre organisasjoner skal sørge for beskyttelse av personvernet.
+  I stedet tar de direkte grep ved å skape kryptografiske verktøy og desentraliserte systemer. Denne aktive konstruksjonstilnærmingen, i stedet for passivt håp eller institusjonell reform, ble grunnlaget for innovasjoner som Bitcoin, som legemliggjorde deres filosofi om å bygge alternative systemer utenfor tradisjonelle maktstrukturer.

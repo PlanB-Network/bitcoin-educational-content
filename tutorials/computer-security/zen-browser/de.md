@@ -729,9 +729,9 @@ Für Bitcoiner und Techniknutzer, die sowohl Produktivität als auch Privatsphä
 
 
 - [Zen Browser offizielle Website](https://zen-browser.app)
-- [Vollständige Dokumentation] (https://docs.zen-browser.app)
+- [Vollständige Dokumentation](https://docs.zen-browser.app)
 - [GitHub-Quellcode](https://github.com/zen-browser/desktop)
-- [Seite herunterladen] (https://zen-browser.app/download)
+- [Seite herunterladen](https://zen-browser.app/download)
 
 
 ### Gemeinschaft und Unterstützung

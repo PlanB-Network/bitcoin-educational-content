@@ -1,5 +1,5 @@
 ---
-name: Jahe Wallet
+name: Ginger Wallet
 description: Perangkat lunak Bitcoin wallet yang bersumber terbuka dan mandiri, fork dari Wasabi Wallet, yang mengintegrasikan Coinjoins
 ---
 ![cover](assets/cover.webp)
@@ -10,7 +10,7 @@ Ginger Wallet adalah portofolio Bitcoin sumber terbuka, non-kustodian yang berfo
 
 
 
-Ginger Wallet mempertahankan arsitektur teknis Wasabi sambil menambahkan beberapa fitur khusus. Menurut [dokumentasi Ginger Wallet] (https://docs.gingerwallet.io/why-ginger/difference.html#gingerwallet), Wasabi menekankan pada **otonomi dan kontrol**, sementara Ginger berfokus pada **kemudahan penggunaan, keamanan, dan pengalaman yang disederhanakan**, sehingga dapat diakses oleh mereka yang tidak terlalu paham dengan aspek teknis.
+Ginger Wallet mempertahankan arsitektur teknis Wasabi sambil menambahkan beberapa fitur khusus. Menurut [dokumentasi Ginger Wallet](https://docs.gingerwallet.io/why-ginger/difference.html#gingerwallet), Wasabi menekankan pada **otonomi dan kontrol**, sementara Ginger berfokus pada **kemudahan penggunaan, keamanan, dan pengalaman yang disederhanakan**, sehingga dapat diakses oleh mereka yang tidak terlalu paham dengan aspek teknis.
 
 
 
@@ -44,7 +44,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-Untuk menginstal Ginger Wallet, kunjungi situs web [Ginger Wallet] (https://gingerwallet.io).
+Untuk menginstal Ginger Wallet, kunjungi situs web [Ginger Wallet](https://gingerwallet.io).
 
 
 

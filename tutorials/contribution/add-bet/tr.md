@@ -8,7 +8,7 @@ description: Plan ₿ Academy'e yeni eğitim materyalleri nasıl eklenir?
 PlanB'nin misyonu, Bitcoin konusunda mümkün olduğunca çok dilde önde gelen eğitim kaynakları sağlamaktır. Sitede yayınlanan tüm içerik açık kaynaklıdır ve GitHub'da barındırılmaktadır, bu da herkesin platformu zenginleştirmeye katılmasına olanak tanır.
 
 
-Plan ₿ Academy, öğreticiler ve eğitimin ötesinde, Bitcoin hakkında herkesin erişebileceği çeşitli eğitim içeriklerinden oluşan geniş bir kütüphane de sunmaktadır [BET (_Bitcoin Educational Toolkit_) bölümünde] (https://planb.academy/resources/bet). Bu veritabanı eğitici posterler, memler, mizahi propaganda posterleri, teknik diyagramlar, logolar ve kullanıcılar için diğer araçları içermektedir. Bu girişimin amacı, dünyanın dört bir yanında Bitcoin'i öğreten birey ve topluluklara gerekli görsel kaynakları sağlayarak onları desteklemektir.
+Plan ₿ Academy, öğreticiler ve eğitimin ötesinde, Bitcoin hakkında herkesin erişebileceği çeşitli eğitim içeriklerinden oluşan geniş bir kütüphane de sunmaktadır [BET (_Bitcoin Educational Toolkit_) bölümünde](https://planb.academy/resources/bet). Bu veritabanı eğitici posterler, memler, mizahi propaganda posterleri, teknik diyagramlar, logolar ve kullanıcılar için diğer araçları içermektedir. Bu girişimin amacı, dünyanın dört bir yanında Bitcoin'i öğreten birey ve topluluklara gerekli görsel kaynakları sağlayarak onları desteklemektir.
 
 
 Bu veritabanını zenginleştirmeye katılmak istiyor ama nasıl yapılacağını bilmiyor musunuz? Bu eğitim sizin için!

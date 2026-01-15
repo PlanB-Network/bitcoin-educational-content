@@ -6,4 +6,4 @@ wrong_answers:
   - Azimio la pili
 explanation: |
   Kwa azimio la kinyume, kila nukta ya IPv6 Address kamili inabadilishwa na kutenganishwa na vitone kabla ya kupachikwa na ip6.arpa.
-reviewed: false
+reviewed: true

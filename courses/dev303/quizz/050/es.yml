@@ -1,0 +1,8 @@
+question: ¿Cuál es el riesgo más importante cuando se utiliza RC<RefCell<T>> para el estado mutable compartido, y qué mecanismo ayuda a evitarlo?
+answer: Ciclos de referencia que provocan fugas de memoria, que se evitan utilizando referencias débiles
+wrong_answers:
+  - Las carreras de datos entre hilos se evitan utilizando Mutex en lugar de RefCell
+  - El tiempo de ejecución entra en pánico por violaciones del préstamo, que se evitan con la comprobación en tiempo de compilación
+  - Desbordamiento de pila por recursión profunda, evitado limitando la profundidad de las referencias
+explanation: |
+  Cuando se utiliza RC<RefCell<T>>, el principal peligro es crear ciclos de referencia donde las estructuras de datos se referencian a sí mismas directamente o a través de cadenas. Estos ciclos impiden que el recuento de referencias llegue a cero, provocando fugas de memoria ya que los datos parecen tener siempre referencias activas. Las referencias débiles solucionan esto al no contribuir al recuento de referencias utilizado para la gestión de memoria, rompiendo los ciclos a la vez que se preservan las conexiones. Las otras opciones son incorrectas: RC<RefCell<T>> no es seguro para hilos, por lo que las carreras de datos no son la principal preocupación, RefCell traslada específicamente las comprobaciones al tiempo de ejecución en lugar de evitarlas en tiempo de compilación, y el desbordamiento de pila no está relacionado con el mecanismo de recuento de referencias.

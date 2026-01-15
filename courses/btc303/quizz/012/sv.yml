@@ -6,3 +6,4 @@ wrong_answers:
   - Felaktiga myntutgivningsscheman som bryter mot protokollet
 explanation: |
   Även om en full node kan verifiera att block följer konsensusregler, förhindra att ogiltiga mynt utfärdas och upptäcka protokollöverträdelser, kan den inte förhindra kedjeomskrivningar där miners omorganiserar blockkedjan för att dubblera transaktioner. I kapitlet står det specifikt att oavsett hur avancerad din programvara är måste du fortfarande lita på att block som innehåller dina mynt inte skrivs om. Det är därför Bitcoin:s försvarsmekanism bygger på att vänta på flera bekräftelser för att minska sannolikheten för en kedjeomskrivning till en acceptabel nivå.
+reviewed: false

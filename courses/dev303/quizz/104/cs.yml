@@ -1,0 +1,8 @@
+question: Co umožňuje LDK podporovat různé transportní mechanismy, jako jsou sokety TCP, WebSockets a sériová připojení USB pro komunikaci Lightning Network?
+answer: Systém správy peerů pracuje nezávisle na základním transportním mechanismu a zároveň zpracovává šifrování šumového protokolu
+wrong_answers:
+  - Správce kanálů koordinuje svou činnost s více síťovými adaptéry prostřednictvím jednotné vrstvy abstrakce soketů
+  - LDK implementuje ovladače specifické pro jednotlivé typy přenosů v rámci svého základního síťového modulu
+  - Systém událostí automaticky rozpozná dostupné metody přenosu a nakonfiguruje příslušné obsluhy připojení
+explanation: |
+  Systém správy vrstevníků LDK je speciálně navržen tak, aby zvládal komunikaci protokolu Lightning (včetně šifrování šumu a struktur zpráv) nezávisle na vlastní transportní vrstvě. Toto architektonické oddělení umožňuje vývojářům implementovat libovolný obousměrný komunikační kanál, zatímco správce peerů se zaměřuje výhradně na soulad s protokolem Lightning. Ostatní možnosti nesprávně naznačují, že LDK poskytuje vestavěné implementace transportu nebo automatickou detekci, zatímco ve skutečnosti síla LDK spočívá v tom, že od konkrétních transportních mechanismů zcela abstrahuje.

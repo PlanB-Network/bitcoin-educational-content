@@ -1,0 +1,9 @@
+question: วิธีการติดตั้ง ROM ทางเลือกบนสมาร์ทโฟน Android ทำได้อย่างไร?
+answer: ปลดล็อก Bootloader
+wrong_answers:
+  - สร้างบัญชี Apple
+  - การติดตั้งซิมการ์ดพิเศษ
+  - เปิดโหมดนักพัฒนาบน iOS
+explanation: |
+  การปลดล็อก bootloader เป็นสิ่งสำคัญสำหรับการเขียนภาพระบบใหม่ไปยังสมาร์ทโฟน Android
+reviewed: false

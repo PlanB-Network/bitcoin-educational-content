@@ -6,3 +6,4 @@ wrong_answers:
   - Usługi stron trzecich zyskują możliwość tworzenia nowych bitcoinów poza normalnym harmonogramem emisji
 explanation: |
   Gdy użytkownicy nie uruchamiają własnych pełnych węzłów, przekazują swoje uprawnienia do egzekwowania zasad Bitcoin innym osobom. Osłabia to decentralizację Bitcoin, ponieważ mniej niezależnych stron weryfikuje transakcje i bloki. Jak wyjaśnia David Harding, stwarza to sytuację, w której niewielka liczba górników i dostawców usług mogłaby potencjalnie zmienić zasady Bitcoin dla użytkowników niezweryfikujących, podczas gdy ci użytkownicy nie byliby w stanie dokonywać transakcji z osobami prowadzącymi pełne węzły walidacyjne, które odrzuciłyby te zmiany zasad.
+reviewed: false

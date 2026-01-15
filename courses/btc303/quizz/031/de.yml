@@ -6,3 +6,4 @@ wrong_answers:
   - Die Sicherheitskosten werden nicht mehr von den Entwicklern durch die Wartung des Codes getragen, sondern von den Nutzern durch die Teilnahme am Netz
 explanation: |
   Das Kapitel erklärt deutlich, dass heute die Inhaber für die Sicherheit von Bitcoin durch monetäre Inflation bezahlen (neue Münzen werden durch Blocksubventionierung geschaffen), aber in der Zukunft, wenn die Blocksubventionierung gegen Null geht, werden die Ausgeber für die Sicherheit durch Transaktionsgebühren bezahlen. Dies stellt einen grundlegenden wirtschaftlichen Wandel in Bezug darauf dar, wer die Kosten für die Aufrechterhaltung der Netzwerksicherheit trägt, und führt von einem Modell, bei dem die Schaffung neuer Münzen mining finanziert, zu einem Modell, bei dem die Transaktionsgebühren einen ausreichenden Anreiz für die Miner bieten müssen, das Netzwerk zu sichern.
+reviewed: false

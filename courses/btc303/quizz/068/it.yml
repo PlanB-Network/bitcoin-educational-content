@@ -6,3 +6,4 @@ wrong_answers:
   - Riduce il tasso di hash totale della rete in quanto i minatori spendono risorse per la connettività invece che per il mining
 explanation: |
   Il capitolo spiega che quando le dimensioni dei blocchi aumentano, i tempi di propagazione aumentano, portando a un maggior numero di blocchi stantii. Per evitare di perdere le ricompense dei blocchi stantii, i minatori cercano pool con una migliore larghezza di banda e connettività. Questo spinge i minatori verso pool più grandi e ben collegati, riducendo la decentralizzazione di mining. Le altre opzioni non sono corrette: la difficoltà si adatta automaticamente indipendentemente dalla connettività del pool, i costi di connettività non creano commissioni di transazione aggiuntive e i minatori non riducono il tasso di hash quando si uniscono a pool meglio connessi.
+reviewed: false

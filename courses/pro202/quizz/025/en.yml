@@ -1,0 +1,8 @@
+question: In P2PKH transaction validation, what specific sequence of operations does the ScriptPubKey perform to verify the spending conditions?
+answer: Duplicates the public key, hashes it, compares to the committed hash, then verifies the signature
+wrong_answers:
+  - Hashes the signature, compares to the public key hash, then verifies against the committed value
+  - Verifies the signature first, then hashes the public key and compares to the committed hash
+  - Combines the signature and public key, hashes the result, then compares to the committed hash
+explanation: |
+  P2PKH's ScriptPubKey follows a specific sequence: OP_DUP OP_HASH160 <pubkey_hash> OP_EQUALVERIFY OP_CHECKSIG. This duplicates the provided public key, applies SHA256 then RIPEMD160 hashing, verifies the result matches the committed hash, and finally checks the signature. The other options incorrectly describe the order of operations or suggest hashing signatures instead of public keys, which would break the validation logic.

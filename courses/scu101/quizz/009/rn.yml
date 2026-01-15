@@ -1,13 +1,11 @@
-question: Ni igiki gikorwa nyamukuru ca VPN mu bijanye n’umwuga?
-answer: Bituma abakozi bashobora gukoresha urubuga rw’imbere muri iyo sosiyete bari kure kandi ata nkomanzi.
+question: Ni ikihe gikorwa nyamukuru ca VPN mu bijanye n’umwuga?
+answer: Ituma abakozi bashobora gushika ku muhora w’imbere mw’ishirahamwe bari mubice vyakure muburyo burinzwe ata nkomanzi.
 wrong_answers:
-  - Bituma abakozi bashobora guca ku ruhande rw’aho baba ata nkomanzi.
+  - Bituma abakozi bashobora kurenga kubibujijwe mukarere. ata nkomanzi.
   - Bituma abakozi bashobora guhagarika burundu amatangazo yo kuri Internet.
-  - Ituma abakozi bakoresha neza ama network ya Wi-Fi ya bose.
+  - Ituma abakozi bakoresha imihora ya Wi-Fi ya bose muburyo buriinzwe atankomanzi.
 explanation: |
-  Mu bijanye n’umwuga, VPNs zikoreshwa canecane kugira ngo
-  gutanga uburyo bwo gushika kure butekanye ku bijanye n'imbere mu sosiyete
-  umuhora. Ivyo bishikwako mu gupfuka amakuru yahinduwe .
-  hagati y’umukozi n’urubuga rw’ishirahamwe, bikaba bituma .
-  bigoye ko abandi bagira gatatu bashobora kubifata.
+  Mu bijanye n’umwuga, VPN zituma abakozi bashobora gushika ku muhora
+  w’imbere mw’ishirahamwe bari mubice vyakure. Amakuru ahanahanwa aranyegezwa, ivyo bikaba
+  bituma bigorana cane ko abandi bantu bashobora kubinjirira.
 reviewed: true

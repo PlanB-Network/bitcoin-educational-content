@@ -194,7 +194,7 @@ The third role of the node involves managing mined blocks. When a miner discover
 ![Image](assets/fr/051.webp)
 
 
-## What's the difference between a bow and a wallet?
+## What's the difference between a node and a wallet?
 
 <chapterId>de5af634-a628-4b90-b869-468c208e178b</chapterId>
 
@@ -248,7 +248,7 @@ In the face of this evolution, the roles of the Bitcoin node and the miner have 
 A miner needs a Bitcoin node to interact with the network.
 
 
-The role of the miner is also sometimes differentiated from that of the chopper. A mincer is a machine whose task is to hash template blocks supplied by a pool's server, looking for hashes that satisfy the difficulty target defined for shares, and not that of Bitcoin. The rest of the mining process, which includes actual block construction, transaction selection, or proof-of-work search according to Bitcoin's own difficulty, as well as distribution, is carried out directly by the pools.
+The role of the miner is also sometimes differentiated from that of the chopper. A miner is a machine whose task is to hash template blocks supplied by a pool's server, looking for hashes that satisfy the difficulty target defined for shares, and not that of Bitcoin. The rest of the mining process, which includes actual block construction, transaction selection, or proof-of-work search according to Bitcoin's own difficulty, as well as distribution, is carried out directly by the pools.
 
 
 ![Image](assets/fr/054.webp)
@@ -1848,7 +1848,7 @@ Once the application is installed, simply open it to access your own explorer.
 To learn more about using the Mempool.Space explorer, I recommend this comprehensive tutorial:
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Lightning Node
 
@@ -2112,7 +2112,7 @@ As a reminder, a Bitcoin block consists of an 80-byte header and a list of trans
 ![Image](assets/fr/094.webp)
 
 
-Transactions are committed to a Merkle tree. This is a structure that summarizes a large set of data (in this case, all the transactions in the block) by aggregating their hashes progressively two by two down to a single "root", thus proving that an element belongs to the set (and detecting any modification). In this way, any modification to a transaction also modifies the root of the Merkle tree and therefore the block header's fingerprint. SegWit has introduced a separate additional commitment for cookies (signatures), placed in the coinbase.
+Transactions are committed to a Merkle tree. This is a structure that summarizes a large set of data (in this case, all the transactions in the block) by aggregating their hashes progressively two by two down to a single "root", thus proving that an element belongs to the set (and detecting any modification). In this way, any modification to a transaction also modifies the root of the Merkle tree and therefore the block header's fingerprint. SegWit has introduced a separate additional commitment for the witness (signatures), placed in the coinbase.
 
 
 ![Image](assets/fr/095.webp)

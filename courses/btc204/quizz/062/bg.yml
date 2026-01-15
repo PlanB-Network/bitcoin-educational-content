@@ -1,0 +1,10 @@
+question: Коя от тези възможности не е метод за автоматичен избор на част?
+answer: silent payments
+wrong_answers:
+  - Разклонения и връзки
+  - FIFO
+  - Knapsack Solver
+explanation: |
+  За разлика от другите три опции, silent payments не е метод за избор на части, а протокол за използване на статични адреси.
+  
+reviewed: true

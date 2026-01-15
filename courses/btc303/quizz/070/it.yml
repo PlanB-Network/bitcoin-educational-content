@@ -6,3 +6,4 @@ wrong_answers:
   - Si concentra sulla riduzione dei requisiti computazionali dei nodi piuttosto che sull'espansione della capacità della rete
 explanation: |
   Il libro definisce lo scaling come "aumento della capacità d'uso di Bitcoin senza compromettere la sua resistenza alla censura", includendo esplicitamente il vincolo di resistenza alla censura. Ciò la distingue da altre definizioni che si concentrano esclusivamente sull'aumento della capacità di transazione, sui miglioramenti dell'efficienza o sui sistemi stratificati senza considerare la conservazione delle proprietà fondamentali di Bitcoin. Il requisito di resistenza alla censura garantisce che le soluzioni di scalabilità non compromettano la proposta di valore principale del Bitcoin, ovvero un sistema decentralizzato e privo di fiducia che non può essere controllato da una singola entità.
+reviewed: false

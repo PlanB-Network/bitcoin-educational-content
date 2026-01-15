@@ -1,15 +1,14 @@
-question: Ni itandukaniro irihe rikomeye riri hagati yo gukoresha urubuga rwa TOR no gukoresha urubuga rwa TOR?
-answer: Tor ipfuka IP y'ukoresha Address, mu gihe gusesangura kw'ibanga bitabikora.
+question: Ni itandukaniro nyamukuru irihe riri hagati yo kurondera kumbuga mu buryo bwihariye no gukoresha umuhora wa TOR?
+answer: Tor inyegeza aderese IP y'uwuyikoresha, mugihe kurondera kumbuga mu buryo bwihariye bitayinyegeza.
 wrong_answers:
-  - Gucapura mu buryo bwihariye na TOR ni kimwe.
-  - Gushakisha mu buryo bwihariye bipfuka IP Address y’ukoresha, mu gihe TOR itabipfuka.
-  - TOR isiga ibimenyetso vyo mu karere kuri mudasobwa yawe, mu gihe gusura mu buryo bwihariye bitabikora.
+  - Kurondera kumbuga mu buryo bwihariye no gukoresha umuhora wa TOR nico kimwe.
+  - Kurondera kumbuga mu buryo bwihariye bipfuka aderese IP y’ukoresha, mu gihe TOR itayipfuka.
+  - TOR isiga ibimenyetso ku nyabwonko yawe, mu gihe Kurondera kumbuga mu buryo bwihariye bitabikora.
 explanation: |
-  Gusura mu buryo bwihariye ni ikintu kibuza interineti
-  umucukumbuzi kuva mu kubika amateka y'umucukumbuzi, interineti y'igihe gito
-  dosiye, amakuru y’ifomu, amakuru, n’amazina y’abakoresha n’amajambobanga.
-  Ariko rero, ntibihisha gusura kuri interineti yawe .
-  uwutanga ibikorwa. Ku rundi ruhande, urubuga rwa TOR rutanga .
-  kutamenyekana mu gupfuka IP y'ukoresha Address no kwemera
-  gushika ku rubuga rw’umwiza.
+  Kurondera mu buryo bwihariye ni uburyo budufasha kubuza mucukumbuzi 
+  kubika ibimenyetso vyivyo twarondereye ko, amadosiye amara igihe gito yo kuri interineti,
+  amakuru y’ifomu, amakuki, n’amazina y’abayikoresha n’amajambo y'ibanga.
+  Ariko rero, ntibihisha ivyo urondera aba guhai interineti.
+  Ku rundi ruhande, umuhora wa TOR utanga kutamenyekana mu gupfuka aderese I
+  y'uwuyikoresha be nokumwemera gushika ku rubuga rwa Darknet.
 reviewed: true

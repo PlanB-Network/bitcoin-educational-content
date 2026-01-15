@@ -1,0 +1,8 @@
+question: Vad är den grundläggande arkitektoniska fördelen med Breez SDK:s metod för Lightning-nodhantering jämfört med traditionella Lightning-implementeringar med egen värd?
+answer: Användare underhåller sina egna Lightning-noder på Greenlight-infrastruktur och behåller exklusiv kontroll över privata nycklar som aldrig lämnar deras enheter
+wrong_answers:
+  - Användare delar poolade Lightning-kanaler som hanteras av Breez samtidigt som de behåller individuell förvaring av medel genom arrangemang med flera signaturer
+  - "Användare kör lättviktiga Lightning-noder lokalt som synkroniseras med Breez:s masternoder för ökad tillförlitlighet och minskade bandbreddskrav"
+  - Användarna delegerar kanalhanteringen till Lightning Service Providers samtidigt som de behåller kontrollen genom säkerhetsmoduler integrerade i mobila enheter
+explanation: |
+  Breez SDK:s arkitektur ger varje användare sin egen dedikerade Lightning-nod som körs på Greenlights molninfrastruktur, men det är viktigt att de privata nycklarna aldrig lämnar användarens enhet. Detta innebär att Greenlight inte kan utföra några Lightning-operationer utan att användarens applikation aktivt signerar transaktioner. Detta skiljer sig från delade kanalpooler, lokala lättviktsnoder eller hårdvarusäkerhetsmoduler - det är en unik hybridmetod som eliminerar operativ komplexitet samtidigt som man bevarar sanna principer för självförvaring.

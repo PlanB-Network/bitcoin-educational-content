@@ -1,0 +1,8 @@
+question: I forbindelse med kompakte blokkfiltre (BIP158) for personvernbevarende lysklienter, hva er den kritiske avveiningen som gjør dem effektive for wallet-personvern?
+answer: De kan gi falske positiver, men aldri falske negativer, slik at klienter kan laste ned potensielt irrelevante blokker uten å avsløre spesifikke adresser
+wrong_answers:
+  - De kan gi falske negativer, men aldri falske positiver, og sikrer at kundene bare laster ned blokker som inneholder transaksjonene deres
+  - De eliminerer både falske positive og falske negative ved hjelp av deterministisk filtrering basert på wallet-adresser
+  - "De produserer både falske positive og falske negative svar i like store proporsjoner for å tilsløre kundens faktiske transaksjonsmønster."
+explanation: |
+  Kompakte blokkfiltre er utformet med en asymmetrisk feilmodell: De kan indikere at en blokk inneholder relevante transaksjoner når den ikke gjør det (falske positive), men de vil aldri gå glipp av en blokk som faktisk inneholder relevante transaksjoner (ingen falske negativer). Dette er avgjørende fordi falske negativer vil bety at man går glipp av faktiske betalinger, mens falske positiver bare fører til nedlasting av unødvendige blokker. Falske positive gir personvern ved å tvinge kundene til å laste ned noen irrelevante blokker, noe som gjør det umulig for observatører å finne ut hvilke blokker som faktisk inneholder kundens transaksjoner.

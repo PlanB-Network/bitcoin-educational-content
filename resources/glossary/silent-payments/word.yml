@@ -70,12 +70,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.32
+    reward: 1.12
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.32
+    reward: 1.12
   - language: zh-Hans
     last_contribution_date: '2025-08-19'
     urgency: 1
@@ -86,7 +86,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.53
+    reward: 1.12
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -136,4 +136,4 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.32
+    reward: 1.12

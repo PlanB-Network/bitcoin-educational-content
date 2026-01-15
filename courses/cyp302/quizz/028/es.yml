@@ -6,4 +6,4 @@ wrong_answers:
   - -1
 explanation: |
   Con XOR, 0 XOR 1 da como resultado 1 porque los bits son diferentes.
-reviewed: false
+reviewed: true

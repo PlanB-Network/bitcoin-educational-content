@@ -1,0 +1,9 @@
+question: อัลกอริธึมลายเซ็นดิจิทัลใดที่ถูกใช้ในช่วงเปิดตัวของ Bitcoin?
+answer: ECDSA
+wrong_answers:
+  - ชอร์
+  - อาร์เอสเอ
+  - HMAC
+explanation: |
+  Bitcoin ใช้ ECDSA ซึ่งเป็นโปรโตคอลลายเซ็นที่อิงตามเส้นโค้งวงรีในตอนแรก ก่อนที่จะมีการแนะนำลายเซ็น Schnorr ในปี 2021
+reviewed: false

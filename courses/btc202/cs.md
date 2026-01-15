@@ -1521,7 +1521,7 @@ Jednou z klíčových výhod společnosti Umbrel oproti konkurenci je rozsáhlá
 
 
 
-Kód Umbrelu je veřejně dostupný (můžete si ho prohlížet, Fork a upravovat), ale není pod skutečnou open-source licencí. Ve skutečnosti je umbrelOS šířen pod licencí [*PolyForm Noncommercial 1.0*] (https://polyformproject.org/licenses/noncommercial/1.0.0/), ačkoli některé související vývojové nástroje jsou k dispozici pod licencí MIT.
+Kód Umbrelu je veřejně dostupný (můžete si ho prohlížet, Fork a upravovat), ale není pod skutečnou open-source licencí. Ve skutečnosti je umbrelOS šířen pod licencí [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0/), ačkoli některé související vývojové nástroje jsou k dispozici pod licencí MIT.
 
 
 
@@ -2472,7 +2472,7 @@ Chcete-li se dozvědět více o používání průzkumníka Mempool.Space, dopor
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Uzel Lightning
 

@@ -6,3 +6,4 @@ wrong_answers:
   - Họ đã không triển khai cơ chế xác thực người dùng phù hợp
 explanation: |
   Tiền kỹ thuật số ban đầu thất bại vì chúng phụ thuộc vào các máy chủ trung tâm để xử lý và xác thực giao dịch. Như đã giải thích trong chương, sự tập trung hóa này đã trở thành "gót chân Achilles" của chúng bởi vì chính phủ hoặc các đối thủ khác có thể dễ dàng kiểm duyệt, kiểm soát hoặc vô hiệu hóa các điểm lỗi trung tâm này. Ngay cả những nỗ lực sử dụng nhiều máy chủ trong một liên bang vẫn khiến hệ thống dễ bị tấn công vì mỗi máy chủ có thể "bị lỗi, hoặc bị lỗi, từng máy chủ một". Bitcoin đã giải quyết vấn đề này bằng cách loại bỏ nhu cầu về bất kỳ cơ quan quản lý trung tâm nào thông qua hệ thống proof-of-work phi tập trung của nó.
+reviewed: false

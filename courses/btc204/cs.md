@@ -66,7 +66,7 @@ Ve třetí části našeho vzdělávacího kurzu přejdeme k samotné podstatě:
 
 ![BTC204](assets/cs/003.webp)
 
-**Oddíl 4: Porozumění transakcím coinjoin**
+**Oddíl 4: Porozumění transakcím [coinjoin](https://planb.academy/resources/glossary/coinjoin)**
 
 Jak můžeme mluvit o soukromí v Bitcoinu, aniž bychom zmínili coinjoiny? V části 4 se dozvíte vše, co potřebujete vědět o této metodě míchání. Dozvíte se, co jsou coinjoiny, jaká je jejich historie a cíle a jaké různé typy coinjoinů existují. Nakonec se pro zkušenější uživatele podíváme na to, co jsou to anonsety a entropie a jak je vypočítat.
 
@@ -74,7 +74,7 @@ Jak můžeme mluvit o soukromí v Bitcoinu, aniž bychom zmínili coinjoiny? V �
 
 **Oddíl 5: Porozumění problémům dalších pokročilých technik utajení**
 
-V páté části se podíváme na všechny ostatní dostupné techniky ochrany soukromí na Bitcoinu, kromě coinjoinu. V průběhu let prokázali vývojáři pozoruhodnou kreativitu při navrhování nástrojů věnovaných ochraně soukromí. Podíváme se na všechny tyto metody, jako je payjoin, kolaborativní transakce, coin swap a atomic swap, a podrobně popíšeme, jak fungují, jaké jsou jejich cíle a případné slabiny.
+V páté části se podíváme na všechny ostatní dostupné techniky ochrany soukromí na Bitcoinu, kromě coinjoinu. V průběhu let prokázali vývojáři pozoruhodnou kreativitu při navrhování nástrojů věnovaných ochraně soukromí. Podíváme se na všechny tyto metody, jako je [payjoin](https://planb.academy/resources/glossary/payjoin), kolaborativní transakce, coin swap a atomic swap, a podrobně popíšeme, jak fungují, jaké jsou jejich cíle a případné slabiny.
 
 Budeme se také zabývat soukromím na úrovni sítě uzlů a šířením transakcí. Probereme také různé protokoly, které byly v průběhu let navrženy ke zvýšení soukromí uživatelů v Bitcoinu, včetně protokolů statických adres.
 
@@ -85,7 +85,7 @@ Připraveni prozkoumat zákoutí soukromí na Bitcoinu? Jdeme na to!
 
 <partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>
 
-## Model UTXO společnosti Bitcoin
+## Model [UTXO](https://planb.academy/resources/glossary/utxo) společnosti Bitcoin
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
@@ -572,7 +572,7 @@ Source : [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec
 
 Na druhém z nich vidíme, že vstup č. 0 a výstup č. 1 používají skripty P2WPKH (SegWit V0), zatímco výstup č. 0 používá jiný skript P2PKH (Legacy).
 
-Na počátku roku 2010 byla tato heuristika založená na verzování skriptů poměrně neužitečná vzhledem k omezenému počtu dostupných typů skriptů. Postupem času a s postupnými aktualizacemi systému Bitcoin však byla zavedena stále větší rozmanitost typů skriptů. Tato heuristika se proto stává stále relevantnější, protože s širší škálou typů skriptů se uživatelé rozdělují do menších skupin, čímž se zvyšuje šance na uplatnění této interní heuristiky opakovaného použití verzí. Z tohoto důvodu je pouze z hlediska důvěrnosti vhodné zvolit nejběžnější typ skriptu. Například v době, kdy píšu tyto řádky, jsou skripty Taproot (`bc1p`) používány méně často než skripty SegWit V0 (`bc1q`). Ačkoli první z nich nabízí v určitých specifických kontextech ekonomické výhody a výhody v oblasti důvěrnosti, pro tradičnější použití s jedním podpisem může mít smysl zůstat u staršího standardu z důvodu důvěrnosti, dokud se nový standard nerozšíří.
+Na počátku roku 2010 byla tato heuristika založená na verzování skriptů poměrně neužitečná vzhledem k omezenému počtu dostupných typů skriptů. Postupem času a s postupnými aktualizacemi systému Bitcoin však byla zavedena stále větší rozmanitost typů skriptů. Tato heuristika se proto stává stále relevantnější, protože s širší škálou typů skriptů se uživatelé rozdělují do menších skupin, čímž se zvyšuje šance na uplatnění této interní heuristiky opakovaného použití verzí. Z tohoto důvodu je pouze z hlediska důvěrnosti vhodné zvolit nejběžnější typ skriptu. Například v době, kdy píšu tyto řádky, jsou skripty [Taproot](https://planb.academy/resources/glossary/taproot) (`bc1p`) používány méně často než skripty SegWit V0 (`bc1q`). Ačkoli první z nich nabízí v určitých specifických kontextech ekonomické výhody a výhody v oblasti důvěrnosti, pro tradičnější použití s jedním podpisem může mít smysl zůstat u staršího standardu z důvodu důvěrnosti, dokud se nový standard nerozšíří.
 
 ### Zaokrouhlení plateb
 
@@ -2548,7 +2548,7 @@ Bohužel po zatčení zakladatelů společnosti Samourai již tyto nástroje nej
 
 Nyní, když jsme se podrobně věnovali coinjoins, se v závěrečné části našeho kurzu podíváme na další techniky ochrany soukromí dostupné v Bitcoinu. Budeme se zabývat payjoiny, specifickými typy pseudo-coinjoin transakcí, protokoly statických adres a také opatřeními k posílení důvěrnosti nikoli na úrovni samotných transakcí, ale na úrovni sítě uzlů.
 
-https://planb.academy/tutorials/privacy/analysis/boltzmann-entropy-738e45af-18a6-4ce6-af1a-1bf58e15f1fe
+
 
 # Pochopení výzev dalších pokročilých technik utajení
 

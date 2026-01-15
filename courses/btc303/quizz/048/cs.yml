@@ -6,3 +6,4 @@ wrong_answers:
   - Formální důkazy bezpečnosti by protivníkům odhalily zranitelnosti, proto je vývojáři jádra utajují
 explanation: |
   Jak vysvětluje Jameson Lopp, systém Bitcoin byl vytvořen bez formálně definované specifikace nebo bezpečnostního modelu kvůli své vlastní složitosti a mlhavé povaze. Na rozdíl od jednodušších systémů, jako jsou podpisové protokoly, které mají jasně stanovené bezpečnostní předpoklady, Bitcoin zahrnuje více vzájemně se ovlivňujících složek včetně kryptografie, ekonomie, teorie her a lidského chování. Tato složitost znemožňuje vytvoření formálních matematických důkazů bezpečnosti, přestože systém prokazuje praktickou bezpečnost prostřednictvím reálného provozu.
+reviewed: false

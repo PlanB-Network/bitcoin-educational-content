@@ -1,0 +1,8 @@
+question: Koji specifični mehanizam osigurava da čvorovi pre-SegWit prihvataju P2WPKH transakcije kao validne bez razumevanja pravila validacije svedoka?
+answer: Pre-SegWit čvorovi interpretiraju OP_0 + 20-bajtni heš skript kao 'anyone-can-spend' izlaz koji ne zahteva verifikaciju potpisa
+wrong_answers:
+  - Pre-SegWit čvorovi automatski prosleđuju P2WPKH transakcije nadograđenim čvorovima radi validacije svedoka pre nego što ih prihvate
+  - Pre-SegWit čvorovi prepoznaju P2WPKH obrazac i potpuno preskaču validaciju, tretirajući sve transakcije svedoka kao unapred validirane.
+  - Pre-SegWit čvorovi konvertuju podatke svedoka nazad u tradicionalni scriptSig format koristeći pravila transformacije unazad kompatibilnosti
+explanation: |
+  Genijalnost dizajna SegWit leži u iskorišćavanju načina na koji čvorovi pre-SegWit obrađuju nepoznate skriptne obrasce. Kada ovi stariji čvorovi naiđu na P2WPKH skriptu (OP_0 praćen 20-bajtovnim unosom), oni je ne prepoznaju kao poseban program svedoka. Umesto toga, procenjuju je kao standardnu skriptu koja ostavlja OP_0 i heš na steku. Pošto OP_0 procenjuje kao netačno u Bitcoin skriptnom sistemu, čvorovi pre-SegWit ovo tumače kao 'anyone-can-spend' uslov - što znači da nije potrebna verifikacija potpisa iz njihove perspektive. Ovo omogućava transakciji da bude prihvaćena u njihov mempool i blokove bez narušavanja konsenzusa, dok čvorovi svesni SegWit obavljaju stvarnu kriptografsku validaciju koristeći podatke svedoka.

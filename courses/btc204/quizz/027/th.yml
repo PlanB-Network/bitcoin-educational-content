@@ -1,0 +1,9 @@
+question: เทคนิคใดช่วยป้องกันความเสี่ยงจากการติดตามที่เกิดจาก KYC?
+answer: ธุรกรรม Coinjoin
+wrong_answers:
+  - การใช้ VPN
+  - การใช้ full node
+  - การตรวจสอบผ่าน proof of work
+explanation: |
+  Coinjoins มีผลในการทำลายประวัติของเหรียญ ซึ่งช่วยให้คุณต่อต้านความเสี่ยงของการติดตามที่เกี่ยวข้องกับ KYC
+reviewed: true

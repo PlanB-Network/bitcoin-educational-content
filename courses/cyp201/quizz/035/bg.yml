@@ -1,0 +1,9 @@
+question: Кой стандарт Bitcoin въвежда йерархични детерминистични портфейли?
+answer: BIP32
+wrong_answers:
+  - BIP39
+  - BIP44
+  - BIP141
+explanation: |
+  BIP32 дефинира работата на портфейлите HD, като позволява йерархично извеждане на частни ключове от seed.
+reviewed: false

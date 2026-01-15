@@ -1,0 +1,8 @@
+question: Mikä on Rust:n staattisen tyypityksen ensisijainen etu verrattuna dynaamiseen tyypitykseen Bitcoin-sovelluksia kehitettäessä?
+answer: Tyyppivirheet havaitaan kääntämisaikana ennen käyttöönottoa, mikä ehkäisee virheitä suoritusaikana käyttäjän varoja käsiteltäessä
+wrong_answers:
+  - Staattinen tyypitys mahdollistaa nopeamman suoritusnopeuden, kun Bitcoin-transaktioita käsitellään lohkoketjussa
+  - "Dynaaminen tyypitys vaatii enemmän muistin varaamista, mikä on ristiriidassa Bitcoin:n kevyen solmun vaatimusten kanssa"
+  - Staattinen tyypitys mahdollistaa automaattisen koodin luomisen Bitcoin-protokollan toteutuksia ja älykkäitä sopimuksia varten
+explanation: |
+  Rust:n staattinen tyypitys havaitsee tyyppivirheet kääntämisen aikana ja varmistaa, että virheet korjataan ennen kuin ohjelmisto voidaan rakentaa tai ottaa käyttöön. Tämä on ratkaisevan tärkeää Bitcoin:n kehitykselle, sillä kun ohjelmisto käsittelee todellisia käyttäjien varoja, ajonaikaiset tyyppivirheet voivat aiheuttaa peruuttamattomia taloudellisia menetyksiä. Dynaaminen tyypitys paljastaa virheet vasta suorituksen aikana, mahdollisesti käyttöönoton jälkeen, kun käyttäjien rahat ovat vaarassa. Muut vaihtoehdot ovat virheellisiä, koska staattisen tyypityksen ensisijainen hyöty ei ole suoritusnopeus, muistin käyttö tai koodin luominen vaan käännöksen aikaisten virheiden estäminen.

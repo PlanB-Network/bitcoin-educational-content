@@ -48,12 +48,12 @@ Wat betreft individuele bestedingstools werkt alles normaal, mits je natuurlijk 
 
 Reacties op Twitter hebben erop gewezen dat de privacy die een Stonewall-transactie biedt, nu mogelijk wordt verminderd. De toegevoegde waarde van een Stonewall-transactie ligt in het feit dat deze qua structuur niet te onderscheiden is van een Stonewall x2-transactie. Wanneer een analist dit specifieke patroon tegenkomt, kan hij niet bepalen of het een standaard Stonewall is met één gebruiker of een Stonewall x2 met twee gebruikers. Zoals we in de volgende paragrafen zullen zien, is het uitvoeren van Stonewall x2-transacties complexer geworden door het niet beschikbaar zijn van Soroban. Sommigen denken daarom dat een analist nu zou kunnen aannemen dat elke transactie met deze structuur een normale Stonewall is. Persoonlijk deel ik deze veronderstelling niet. Hoewel Stonewall x2 transacties misschien minder vaak voorkomen (en ik denk dat ze dat voor dit incident al waren), kan het feit dat ze nog steeds mogelijk zijn een hele analyse ontkrachten die gebaseerd is op de aanname dat ze dat niet zijn.
 
-**[-> Meer informatie over Stonewall-transacties](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
+**[-> Meer informatie over Stonewall-transacties](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 
 Wat Ricochet betreft, ik heb niet kunnen verifiëren of de dienst nog steeds operationeel is, omdat ik geen Dojo op de Testnet bezit, en ik verkies niet het risico te lopen `100 000 Sats` uit te geven aan een Wallet die door de autoriteiten gecontroleerd zou kunnen worden. Als je onlangs de kans hebt gehad om deze tool te testen, nodig ik je uit om contact met me op te nemen, zodat we dit artikel kunnen bijwerken.
 
 
-Als je Ricochet moet gebruiken, weet dan dat je deze handeling altijd handmatig kunt uitvoeren met Wallet software. Om te leren hoe je handmatig de verschillende hops correct uitvoert, raad ik je aan dit andere artikel te raadplegen: [**RICOCHET**](https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589)
+Als je Ricochet moet gebruiken, weet dan dat je deze handeling altijd handmatig kunt uitvoeren met Wallet software. Om te leren hoe je handmatig de verschillende hops correct uitvoert, raad ik je aan dit andere artikel te raadplegen: [**RICOCHET**](https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589)
 
 
 De tool JoinBot is niet langer operationeel, omdat het volledig afhankelijk was van de deelname van een Wallet die door Samourai werd beheerd.
@@ -75,10 +75,10 @@ Na verschillende tests blijkt dat Soroban niet meer functioneert. Om deze samenw
 - Als je ver weg bent van je medewerker, kun je de PSBT's Exchange via een extern communicatiekanaal naar de applicatie. Wees echter voorzichtig, want de gegevens in deze PSBT's zijn privacygevoelig. Ik raad aan een versleutelde berichtendienst te gebruiken om de vertrouwelijkheid van de Exchange te garanderen.
 
 
-**[-> Meer informatie over Stonewall x2 transacties.](https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
+**[-> Meer informatie over Stonewall x2 transacties.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
 
 
-**[-> Meer informatie over Stowaway-transacties](https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
+**[-> Meer informatie over Stowaway-transacties](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 
 Wat Whirlpool betreft, het protocol lijkt niet meer te werken, zelfs niet voor gebruikers die hun eigen Dojo hebben. Ik heb de afgelopen dagen mijn RoninDojo in de gaten gehouden en wat basismanipulaties geprobeerd, maar Whirlpool CLI heeft geen verbinding meer kunnen maken sinds de server werd afgesloten.

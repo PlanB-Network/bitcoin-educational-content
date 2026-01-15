@@ -1,0 +1,8 @@
+question: In Blockstream AMP's blinding architecture, what cryptographic mechanism enables asset amount encryption while maintaining transaction validity verification?
+answer: Elliptic Curve Diffie-Hellman key exchange with range proofs that verify transaction validity without revealing encrypted values
+wrong_answers:
+  - Zero-knowledge SNARKs with commitment schemes that hide transaction amounts while proving computational integrity
+  - Ring signatures with stealth addresses that obfuscate sender identity while maintaining cryptographic auditability
+  - Homomorphic encryption with merkle tree commitments that enable mathematical operations on encrypted transaction data
+explanation: |
+  AMP uses ECDH key exchange where senders encrypt asset amounts using receivers' blinding public keys, generating range proofs that mathematically verify transaction validity without exposing values. This differs from SNARKs (computational proofs), ring signatures (anonymity focus), or homomorphic encryption (computation on encrypted data) - AMP specifically needs confidential but verifiable transactions.

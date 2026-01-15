@@ -6,3 +6,4 @@ wrong_answers:
   - Bug kinerja membuat kebocoran memori yang akhirnya membuat node crash, yang menyebabkan ketidakstabilan jaringan sementara dan mengurangi tingkat hash
 explanation: |
   Gregory Maxwell secara khusus memperingatkan bahwa bug performa, ketika digunakan secara ahli, dapat digunakan untuk mempartisi jaringan secara strategis - contohnya, memisahkan 'penambang A dan bursa B' ke dalam satu partisi sementara yang lainnya masuk ke partisi yang lain, sehingga menciptakan kondisi untuk melakukan serangan pengeluaran ganda. Hal ini menunjukkan mengapa masalah yang kelihatannya kecil harus dianggap sebagai masalah yang berpotensi besar, karena mereka dapat digunakan dengan cara yang canggih yang tidak langsung terlihat.
+reviewed: false

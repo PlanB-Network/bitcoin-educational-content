@@ -6,3 +6,4 @@ wrong_answers:
   - Trustless og betrodde systemer må fungere uavhengig av hverandre og kan ikke legges oppå hverandre
 explanation: |
   Matt Corallos hovedinnsikt er at Bitcoins tillitsløse basislag muliggjør fleksibilitet i systemdesign. Et tillitsløst fundament som Bitcoins protokoll gjør det mulig for utviklere å skape pålitelige tjenester (som for eksempel depotlommebøker) på høyere lag, samtidig som de underliggende sikkerhetsgarantiene bevares. Det motsatte er imidlertid umulig - du kan ikke lage virkelig tillitsløse systemer hvis selve fundamentet krever tillit, ettersom eventuelle tillitsløse egenskaper vil bli undergravd av sårbarhetene i det betrodde basislaget.
+reviewed: false

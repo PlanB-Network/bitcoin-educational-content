@@ -1,0 +1,9 @@
+question: Laquelle de ces plateformes permet d'acheter de la liquidité entrante ?
+answer: Magma
+wrong_answers:
+  - Bitcoin Core
+  - 1ML
+  - Boltz
+explanation: |
+  Magma permet d’acheter facilement de la liquidité entrante via une place de marché automatisée.
+reviewed: false

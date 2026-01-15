@@ -1,0 +1,9 @@
+question: Pourquoi éviter les très gros nœuds pour un premier canal ?
+answer: Politiques restrictives
+wrong_answers:
+  - Faible connectivité
+  - Frais trop faibles
+  - Manque de liquidité
+explanation: |
+  Les très gros nœuds imposent souvent des montants minimums élevés et ferment facilement les petits canaux.
+reviewed: false

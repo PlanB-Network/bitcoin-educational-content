@@ -1,0 +1,9 @@
+question: อะไรคือการใช้งานโหนด Bitcoin ที่ใช้กันอย่างแพร่หลายที่สุด?
+answer: Bitcoin Core
+wrong_answers:
+  - Bitcoin Knots
+  - Bitcoin Classic
+  - Bcoin
+explanation: |
+  ด้วยจำนวนโหนดประมาณ 9 ใน 10 บนเครือข่าย Bitcoin Core เป็นลูกค้าส่วนใหญ่
+reviewed: true

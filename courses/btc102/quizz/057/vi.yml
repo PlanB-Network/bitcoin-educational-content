@@ -1,9 +1,9 @@
-question: Người dùng hoang tưởng tránh sử dụng phương pháp thu thập nào?
-answer: Nền tảng tập trung với KYC
+question: Người dùng đa nghi và thận trọng thường tránh sử dụng phương pháp mua nào?
+answer: Nền tảng giao dịch tập trung với KYC
 wrong_answers:
-  - Nền tảng ghép đôi P2P
+  - Nền tảng giao dịch thương mại ngang hàng (P2P)
   - Máy ATM Bitcoin
-  - Mua tiền mặt trực tiếp tại buổi gặp mặt
+  - Mua tiền mặt trực tiếp qua giải pháp OTC (Over-The-Counter)
 explanation: |
-  Để bảo vệ tính ẩn danh, người dùng hoang tưởng sẽ tránh các nền tảng yêu cầu xác minh danh tính.
+  Để bảo vệ tính ẩn danh, người dùng đa nghi và thận trọng sẽ tránh các nền tảng yêu cầu xác minh danh tính.
 reviewed: false

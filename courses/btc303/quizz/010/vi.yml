@@ -6,3 +6,4 @@ wrong_answers:
   - Cài đặt phần mềm wallet đã được xác minh từ các nguồn chính thức có chữ ký số
 explanation: |
   Để sử dụng Bitcoin một cách không cần tin cậy, bạn phải chạy một nút Bitcoin xác thực đầy đủ, nút này sẽ tự động xác minh tất cả các khối tuân theo các quy tắc đồng thuận, kiểm tra lịch phát hành coin và ngăn chặn chi tiêu kép. Điều này đảm bảo bạn không thuê ngoài việc xác minh cho người khác, duy trì tính chất không cần tin cậy. Sử dụng các sàn giao dịch hoặc dịch vụ của bên thứ ba đồng nghĩa với việc tin tưởng người khác sẽ cung cấp cho bạn thông tin chính xác về trạng thái blockchain. Mặc dù phần mềm đã được xác minh rất quan trọng đối với bảo mật, nhưng nó không loại bỏ nhu cầu sử dụng nút xác thực của riêng bạn để đạt được tính không cần tin cậy thực sự trong hệ thống Bitcoin.
+reviewed: false

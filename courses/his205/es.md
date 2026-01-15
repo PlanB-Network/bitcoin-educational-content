@@ -3869,10 +3869,10 @@ Sólo tienen que asegurarse de que pueden hacer estas transferencias, pero no ha
 
 
 
-Para entender la relación entre dinero e inflación, recomiendo un curso que tengo en Plan ₿ Network dedicado a este tema. Aprenderás la diferencia entre el aumento de los precios, que es lo que vemos en la vida, y la inflación. No son lo mismo. De hecho, cuando nos referimos a la inflación, a menudo estamos hablando del aumento de los precios, no de la inflación en sí. La inflación es un concepto bastante preciso, que se explica por el aumento de la oferta monetaria.
+Para entender la relación entre dinero e inflación, recomiendo un curso que tengo en Plan ₿ Academy dedicado a este tema. Aprenderás la diferencia entre el aumento de los precios, que es lo que vemos en la vida, y la inflación. No son lo mismo. De hecho, cuando nos referimos a la inflación, a menudo estamos hablando del aumento de los precios, no de la inflación en sí. La inflación es un concepto bastante preciso, que se explica por el aumento de la oferta monetaria.
 
 
-https://planb.academy/courses/hyperinflation-case-studies-caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 Para concluir esta sección sobre el mundo fiduciario, me gustaría señalar un recurso que le ayudará a comprender mejor los fenómenos que acabo de explicar, como la inflación.
 

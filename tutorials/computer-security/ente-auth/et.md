@@ -14,7 +14,7 @@ Kahefaktoriline autentimine (2FA) on muutunud hädavajalikuks meie võrgukontode
 
 
 
-**Ente Auth** paistab silma kui kaasaegne ja turvaline alternatiiv. See tasuta, avatud lähtekoodiga, platvormideülene rakendus, mille on välja töötanud [Ente Photos] (https://ente.io) taga olev meeskond, pakub läbivalt krüpteeritud pilves varukoopiaid ja sujuvat sünkroniseerimist kõigi teie seadmete vahel. Erinevalt patenteeritud lahendustest annab Ente Auth teile täieliku kontrolli oma autentimiskoodide üle, ilma et teie privaatsust ohustataks.
+**Ente Auth** paistab silma kui kaasaegne ja turvaline alternatiiv. See tasuta, avatud lähtekoodiga, platvormideülene rakendus, mille on välja töötanud [Ente Photos](https://ente.io) taga olev meeskond, pakub läbivalt krüpteeritud pilves varukoopiaid ja sujuvat sünkroniseerimist kõigi teie seadmete vahel. Erinevalt patenteeritud lahendustest annab Ente Auth teile täieliku kontrolli oma autentimiskoodide üle, ilma et teie privaatsust ohustataks.
 
 
 

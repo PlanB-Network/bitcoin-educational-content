@@ -1,0 +1,9 @@
+question: ค่าเริ่มต้นของพารามิเตอร์ dbcache ใน Bitcoin Core คืออะไร?
+answer: 450 MiB
+wrong_answers:
+  - 128 MiB
+  - 1 กิ๊บ
+  - 4 กิ๊บ
+explanation: |
+  ตามค่าเริ่มต้น Bitcoin Core จัดสรร 450 MiB (472 MB) ให้กับแคช
+reviewed: true

@@ -6,3 +6,4 @@ wrong_answers:
   - Sotsiaalmeedia postituste ja avalike tehingu teadaannete kaudu
 explanation: |
   Peatüki sisu kohaselt võivad privaatsed andmed lekkida peamiselt kahel viisil: on-chain ja off-chain. Kettasisesed lekked tekivad avaliku plokiahela analüüsi kaudu, kus tehingumustrid, aadresside korduvkasutamine ja klasterdamine võivad paljastada finantsteavet. Ahela välised lekked toimuvad siis, kui pahatahtlikud osalejad pealtkuulavad internetisuhtlust või muudel mitteblokiahelaga seotud viisidel. Kuigi valed vastused mainivad tegelikke julgeolekuprobleeme Bitcoin ökosüsteemis, ei esinda need materjalis kirjeldatud eraelu puutumatuse lekete tekkimise põhimõttelist kategoriseerimist.
+reviewed: false

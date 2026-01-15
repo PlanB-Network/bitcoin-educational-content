@@ -6,3 +6,4 @@ wrong_answers:
   - 2160
 explanation: |
   Dem Kapitel zufolge wurde mit BIP42 ein sehr langfristiger Inflationsfehler behoben und sichergestellt, dass die Blocksubvention um das Jahr 2140 herum Null erreicht. Zu diesem Zeitpunkt wird Bitcoin von einem subventionsbasierten Belohnungssystem zu einem rein gebührenbasierten System übergehen, wodurch sich die Art und Weise, wie die Kosten für die Netzwerksicherheit gedeckt werden, grundlegend ändert - von Inhabern, die durch die Inflation zahlen, zu Ausgebern, die durch Transaktionsgebühren zahlen.
+reviewed: false

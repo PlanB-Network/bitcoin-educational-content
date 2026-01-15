@@ -1,11 +1,10 @@
 ---
-name: NOSTR
-
+name: Nostr
 description: Oppdag og begynn å bruke NOSTR
 ---
 
 
-![En ny utfordrer har ankommet](assets/1.webp)
+![En ny utfordrer har ankommet](assets/cover.webp)
 
 *På slutten av denne guiden vil du forstå hva Nostr er, du vil ha opprettet en konto, og du vil kunne bruke den.*
 

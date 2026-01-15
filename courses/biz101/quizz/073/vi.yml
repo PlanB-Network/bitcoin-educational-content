@@ -1,9 +1,9 @@
-question: What enables real-time data sync between Enterprise Bitcoin systems and ERP software?
-answer: APIs
+question: Yếu tố nào cho phép đồng bộ dữ liệu thời gian thực giữa hệ thống Enterprise Bitcoin và phần mềm ERP?
+answer: API
 wrong_answers:
-  - CSV files
-  - Batch uploads
-  - Email reports
+  - Tệp CSV
+  - Tải lên hàng loạt
+  - Báo cáo qua email
 explanation: |
-  APIs allow continuous, real-time integration.
-reviewed: false
+  API cho phép tích hợp liên tục, theo thời gian thực.
+reviewed: true

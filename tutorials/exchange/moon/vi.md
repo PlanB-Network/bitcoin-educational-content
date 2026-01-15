@@ -1,11 +1,19 @@
 ---
-name: Mặt trăng
+name: Moon
 description: Thanh toán bằng bitcoin ở bất cứ nơi nào chấp nhận thẻ Visa.
 ---
 
 ![cover](assets/cover.webp)
 
 
+
+---
+
+⚠️ *Cập nhật tháng 12 năm 2025: Lưu ý, **kể từ đầu tháng 12 năm 2025, một phần dịch vụ của Moon không còn khả dụng**, đặc biệt là các thẻ ngân hàng Visa có thể nạp lại. Chúng tôi hiện chưa biết liệu sự gián đoạn này là tạm thời hay vĩnh viễn. Hướng dẫn này sẽ được cập nhật ngay khi có thêm thông tin.*
+
+*Nếu bạn đã sử dụng thẻ Visa trả trước trước khi thẻ bị khóa, hiện bạn có thể khôi phục lại số tiền của mình bằng cách thực hiện quy trình xác minh danh tính trực tiếp trên bảng điều khiển Moon. Về nguyên tắc, Moon lẽ ra đã gửi cho bạn một email để thông báo về thủ tục cần thực hiện và các bước cần thiết để hoàn tất việc khôi phục này.*
+
+---
 
 Moon cho phép bạn sử dụng tiền điện tử như Bitcoin để mua thẻ Visa ảo và thẻ quà tặng không cần KYC, có thể được sử dụng tại hàng triệu cửa hàng trực tuyến, giống như thẻ ngân hàng truyền thống. Nhờ đó, bạn có thể dễ dàng chi tiêu sats của mình ở bất kỳ nơi nào chấp nhận Visa mà không cần thông qua sàn giao dịch.
 
@@ -177,7 +185,7 @@ Với thẻ ảo này, bạn có thể thanh toán sản phẩm và dịch vụ 
 
 
 
-https://planb.academy/courses/the-world-of-bitcoin-mining-7750d9da-417a-4377-8e35-85c377168477
+https://planb.academy/courses/7750d9da-417a-4377-8e35-85c377168477
 
 ![buycourse](assets/fr/13.webp)
 

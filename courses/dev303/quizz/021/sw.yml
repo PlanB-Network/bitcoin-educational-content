@@ -1,0 +1,8 @@
+question: Ni aina gani ya kigezo ambayo mbinu ya Rust inapaswa kutumia ikiwa inahitaji kurekebisha muundo huku ikimruhusu mpigaji kudumisha umiliki?
+answer: "&kujisemea"
+wrong_answers:
+  - "&mwenyewe"
+  - nafsi
+  - nafsi ya mut
+explanation: |
+  Mbinu zinazohitaji kurekebisha mfano wa muundo huku zikimruhusu mpigaji kudumisha umiliki zinapaswa kutumia `&mut self` kama kigezo chao cha kwanza. Hii huunda marejeleo yanayoweza kubadilishwa kwa mfano, na kuwezesha mbinu kubadilisha sehemu za muundo bila kuondoa umiliki kutoka kwa mpigaji. Kutumia `&self` kungeruhusu tu kusoma mfano, `self` ingetumia mfano kabisa, na `mut self` sintaksia halali ya Rust kwa vigezo vya mbinu.

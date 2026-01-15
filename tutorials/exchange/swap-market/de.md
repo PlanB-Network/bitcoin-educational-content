@@ -639,7 +639,7 @@ Der Wettbewerb zwischen den Anbietern verbessert die Kurse und vervielfacht die 
 
 - [SwapMarket - Webanwendung](https://swapmarket.github.io)
 - [GitHub SwapMarket](https://github.com/SwapMarket/swapmarket.github.io)
-- [Technische Dokumentation] (https://docs.boltz.exchange/)
+- [Technische Dokumentation](https://docs.boltz.exchange/)
 - [Leitfaden zur Selbstverwaltung](https://github.com/SwapMarket/swapmarket.github.io/blob/main/README.md)
 
 

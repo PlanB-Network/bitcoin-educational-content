@@ -1,0 +1,8 @@
+question: What type of mathematical structure do elliptic curve points form under the addition operation?
+answer: A mathematical group with closure, associativity, identity, and inverses
+wrong_answers:
+  - A finite field with multiplication and division operations defined
+  - A vector space with scalar multiplication and linear combinations
+  - A ring structure with both addition and multiplication operations
+explanation: |
+  Elliptic curve points form a mathematical group under addition, which means they satisfy four essential properties: closure (adding two points gives another point on the curve), associativity (the order of operations doesn't matter), identity (the point at infinity acts as zero), and inverses (every point has a reflection across the x-axis that cancels it out). This group structure is fundamental to elliptic curve cryptography because it ensures that operations like scalar multiplication (adding a point to itself repeatedly) are well-defined and predictable, enabling secure cryptographic protocols like those used in Bitcoin.

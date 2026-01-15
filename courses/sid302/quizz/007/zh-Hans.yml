@@ -1,0 +1,8 @@
+question: Elements 和 Liquid Network 之间的关系是什么？
+answer: Liquid 是配置用于生产的 Elements 侧链的特定实例
+wrong_answers:
+  - Elements 是为测试目的配置的 Liquid Network 的特定实例
+  - Liquid 和 Elements 是两个相互竞争的区块链平台，其代码库各不相同
+  - "Elements是为Liquid Network的区块验证提供动力的共识机制"
+explanation: |
+  Elements 是开源区块链平台软件，而 Liquid 则是 Elements 侧链的具体实现或 "实例"，已配置为联盟共识模型用于生产。将 Elements 视为底层技术框架，而将 Liquid 视为使用该框架构建的一个特定网络。这类似于 Bitcoin Core 是为 Bitcoin 网络提供动力的软件，而 Elements 是为 Liquid 和其他定制侧链提供动力的软件引擎。

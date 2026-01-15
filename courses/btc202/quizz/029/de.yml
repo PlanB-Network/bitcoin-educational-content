@@ -1,9 +1,9 @@
-question: Was ist das Hauptmerkmal eines Full node?
-answer: Es lädt und validiert das gesamte Blockchain
+question: Was ist das Hauptmerkmal einer Full Node?
+answer: Sie lädt und validiert die gesamte Blockchain
 wrong_answers:
-  - Es werden nur die Blockköpfe beibehalten
-  - Es löscht alte Blöcke nach der Überprüfung
-  - Er hängt von einem anderen Knoten ab, um Transaktionen zu validieren
+  - Sie speichert nur die Blockheader
+  - Sie löscht alte Blöcke nach der Überprüfung
+  - Sie hängt von einer anderen Node ab, um Transaktionen zu validieren
 explanation: |
-  Der Full node speichert den gesamten Blockchain und validiert jeden Block und jede Transaktion unabhängig.
+  Die Full Node speichert die gesamte Blockchain und validiert jeden Block und jede Transaktion unabhängig.
 reviewed: true

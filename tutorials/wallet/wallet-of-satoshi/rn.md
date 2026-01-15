@@ -4,6 +4,12 @@ description: Wallet yoroshe cane yo gucungera kugira ngo utangure
 ---
 ![cover](assets/cover.webp)
 
+---
+
+*Iciyumviro: kuva mu ntango ya mbere y’umwaka wa 2026, Wallet of Satoshi mu buryo bwa custodial (nk’uko vyerekanwa muri iyi nyigisho) ntibikiboneka mu Muryango w’Ubumwe bw’Uburaya. Nimba uba muri aka karere kandi wipfuza kuguma ukoresha iki gikoresho, uzokenera gukoresha VPN iri hanze y’UE. Iyindi nzira ni ugukoresha Wallet of Satoshi mu buryo bwa self-custodial. Inyigisho yihariye izosohorwa vuba kuri Plan ₿ Academy.*
+
+---
+
 _Iyi nyigisho yanditswe na_ [Ishure ryisumbuye rya Bitcoin]
 
 

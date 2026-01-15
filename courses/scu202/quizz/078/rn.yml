@@ -1,9 +1,9 @@
-question: Ni ubuhe buryo bwiza bwo gufunga igicapo ca telefone ngendanwa?
-answer: Ijambobanga ry'inyuguti n'imibare
+question: Ni ubuhe buryo bwiza bwo kwugara terefone ngendanwa?
+answer: Ijambo ry’ibanga ry’indome n’ibiharuro
 wrong_answers:
-  - Igishushanyo
-  - Kumenya mu maso
-  - Nta gufunga
+  - Igicapo
+  - Gukoresha isura
+  - Nta kwugara
 explanation: |
-  Amajambo y’ibanga y’inyuguti n’imibare aratanga uburyo bwiza bwo kurwanya ukugerageza kwinjira ata wemerewe, bitandukanye n’imigambi y’ibishushanyo canke ubuhinga bwo gupima ubuzima.
-reviewed: false
+ Amajambo y’ibanga y’indome n’ibiharuro aratanga uburyo bwiza bwo kurwanya ukugerageza kwinjira mu buryo butemerewe, bitandukanye n’ibicapo canke biometric.
+reviewed: true

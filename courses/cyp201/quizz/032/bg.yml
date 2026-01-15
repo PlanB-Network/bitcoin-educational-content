@@ -1,0 +1,9 @@
+question: Кой флаг на Sighash позволява групово финансиране, като обхваща един вход и всички изходи?
+answer: SIGHASH_ALL | SIGHASH_ANYONECANPAY
+wrong_answers:
+  - SIGHASH_NONE | SIGHASH_ANYONECANPAY
+  - SIGHASH_SINGLE | SIGHASH_ANYONECANPAY
+  - SIGHASH_ALL
+explanation: |
+  SIGHASH_ALL в комбинация със SIGHASH_ANYONECANPAY позволява да се добавят входове, без да се променят изходите.
+reviewed: false

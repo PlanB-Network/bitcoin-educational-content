@@ -1,0 +1,8 @@
+question: Üretim Rust kodunda hata işleme için panik yerine Result ve Option türlerini kullanmanın en önemli avantajı nedir?
+answer: Olası hataların açık bir şekilde onaylanmasını zorlar ve zarif hata kurtarma sağlarlar
+wrong_answers:
+  - Hata durumlarında yığının çözülmesini önleyerek daha iyi performans sağlarlar
+  - Daha kolay hata ayıklama için tüm hata türlerini otomatik olarak dize mesajlarına dönüştürürler
+  - Hataları arıza noktasında ele alarak hata yayılımı ihtiyacını ortadan kaldırırlar
+explanation: |
+  Result ve Option türleri, geliştiricileri işlemlerin başarısız olabileceğini kabul etmeye zorlayarak ve bu hataları zarif bir şekilde ele almak için mekanizmalar sağlayarak hata işlemeyi açık ve kurtarılabilir hale getirir. Yürütmeyi derhal sonlandıran paniğin aksine, bu türler programların çalışmaya devam etmesine ve hata koşullarına uygun şekilde yanıt vermesine olanak tanır. Yanlış cevaplar bu türlerin yeteneklerini yanlış yansıtmaktadır: performans bu türlerin birincil avantajı değildir, hataları otomatik olarak dizelere dönüştürmezler (bu anyhow'un özelliğidir) ve ? gibi operatörler aracılığıyla hata yayılımını ortadan kaldırmak yerine aslında kolaylaştırırlar.

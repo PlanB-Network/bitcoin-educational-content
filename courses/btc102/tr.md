@@ -101,7 +101,7 @@ Bu eğitimin sonunda, Bitcoin ekosisteminde güvenle gezinmek ve en gelişmiş k
 Bitcoin dünyasına yolculuğunuza başlamaya hazır mısınız? Hadi başlayalım!
 
 
-**N.B.**: Kurs sırasında bilmediğiniz terimlerle karşılaşırsanız, lütfen tanımlar için [sözlüğe] (https://planb.academy/resources/glossary) başvurunuz.
+**N.B.**: Kurs sırasında bilmediğiniz terimlerle karşılaşırsanız, lütfen tanımlar için [sözlüğe](https://planb.academy/resources/glossary) başvurunuz.
 
 
 # Bitcoin'yi anlamak için ön koşullar
@@ -544,7 +544,7 @@ Bitcoin dünyasının derinliklerine daldıkça, Wallet'ünüzün değeri arttı
 Kısacası: siber güvenliği hafife almayın, temelleri kurmak için zaman ayırın ve tutarlılığın anahtar olduğunu unutmayın. İyi bir dijital hijyen olmadan, en iyi araçlar bile sizin için fazla bir şey yapmayacaktır.
 
 
-Ayrıca Plan ₿ Academy'teki [bilgisayar güvenliği eğitimlerimize] (https://planb.academy/tutorials/computer-security) göz attığınızdan emin olun.
+Ayrıca Plan ₿ Academy'teki [bilgisayar güvenliği eğitimlerimize](https://planb.academy/tutorials/computer-security) göz attığınızdan emin olun.
 
 
 ![BTC102-Bitcoin](assets/tr/016.webp)
@@ -1009,7 +1009,7 @@ Bu yaklaşım daha teknik olmasına rağmen, en talepkar kullanıcılara üçün
 #### Esnek, Sınır Ötesi Bir Ödeme Yöntemi
 
 
-Merkezi olmayan yapısı nedeniyle Bitcoin, sınırlardan veya saat dilimlerinden etkilenmeden 7/24 çalışır. Geleneksel bankacılık altyapısının eksik olduğu bölgelerde, Bitcoin genellikle pahalı aracılara güvenmeden para göndermek veya almak için hızlı, düşük maliyetli bir çözüm olarak kullanılır. İşlem ücretleri ağ tıkanıklığına bağlı olarak değişebilmekle birlikte, genellikle uluslararası transferler için bankalar tarafından alınan ücretlerden çok daha düşüktür. Ayrıca, Layer gibi Lightning Network-2 çözümleri daha da hızlı ve ucuz Bitcoin işlemlerine olanak sağlar.
+Merkezi olmayan yapısı nedeniyle Bitcoin, sınırlardan veya saat dilimlerinden etkilenmeden 7/24 çalışır. Geleneksel bankacılık altyapısının eksik olduğu bölgelerde, Bitcoin genellikle pahalı aracılara güvenmeden para göndermek veya almak için hızlı, düşük maliyetli bir çözüm olarak kullanılır. İşlem ücretleri ağ tıkanıklığına bağlı olarak değişebilmekle birlikte, genellikle uluslararası transferler için bankalar tarafından alınan ücretlerden çok daha düşüktür. Ayrıca, Layer gibi [Lightning Network](https://planb.academy/resources/glossary/lightning-network)-2 çözümleri daha da hızlı ve ucuz Bitcoin işlemlerine olanak sağlar.
 
 
 #### Bir değer deposu
@@ -1540,7 +1540,7 @@ Bitcoin Wallet endüstrisi, her biri farklı ihtiyaçlara ve teknik uzmanlık se
 
 
 
-- Hardware Wallet Üreticileri**: Bu şirketler güvenli anahtar depolama için tasarlanmış fiziksel cihazlar geliştirmektedir. Bazıları açık kaynaklıdır, diğerleri ise çeşitli özelliklere ve güvenlik seviyelerine sahip tescilli çözümler sunar. Önemli isimler arasında Ledger, Trezor, Coinkite, Foundation ve Shiftcrypto bulunmaktadır.
+- [Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) Üreticileri**: Bu şirketler güvenli anahtar depolama için tasarlanmış fiziksel cihazlar geliştirmektedir. Bazıları açık kaynaklıdır, diğerleri ise çeşitli özelliklere ve güvenlik seviyelerine sahip tescilli çözümler sunar. Önemli isimler arasında Ledger, Trezor, Coinkite, Foundation ve Shiftcrypto bulunmaktadır.
 - Software Wallet Geliştiriciler**: Bunlar, mobil ve masaüstü uygulamalar yaratan şirketlerden bağımsız geliştiricilere kadar uzanmaktadır. Sundukları teklifler kullanıcı deneyimi, güvenlik ve özellikler açısından farklılık gösterir. Örnekler arasında Sparrow, Wizard Sardine, Galoy, Synonym ve Blockstream bulunmaktadır.
 - DIY (*Kendin Yap*) Cüzdanlar**: Bu açık kaynaklı çözümler, tam kontrol ve üçüncü taraflara minimum bağımlılık isteyen ileri düzey kullanıcılar için tasarlanmıştır. Kendi Wallet'nizi oluşturmak güven bağımlılıklarını azaltır ve güvenlik duruşunuzu artırabilir. Önemli DIY seçenekleri arasında Seedsigner ve Specter DIY bulunmaktadır.
 
@@ -2116,7 +2116,7 @@ Kimliğinizi açıklamadan Bitcoin satın almak, gizliliğe öncelik verenler i�
 - P2P Platformları**: Bisq, RoboSats ve Peach gibi platformlar, işlemleri güvence altına almak için emanet sistemleri kullanarak kimlik doğrulamasına gerek kalmadan özel kişiler arasında alışverişi kolaylaştırır. Bu platformlar, karşı tarafın işbirliği yapmaması halinde hırsızlık riskini hala taşımaktadır, ancak risk emanet hizmetleri ile en aza indirilmiştir.
 - Bitcoin Otomatik Vezne Makineleri (ATM'ler)**: Bazı ATM'ler (kiosklar) nakit para ile Bitcoin satın almanıza izin verir, ancak ücretler yüksek olma eğilimindedir ve bazıları daha büyük işlemler için kimlik doğrulaması gerektirir.
 - KYC içermeyen Exchange platformları**: Özellikle İsviçre'deki bazı platformlar, kimlik doğrulaması gerektirmeden küçük miktarlarda Bitcoin satın almanıza izin verir.
-- Mining**: Bireyler Bitcoin madenciliği yapabilir. Daha eski veya daha küçük makinelere erişilebilir ve KYC olmadan Bitcoin elde etmek için geleneksel olmayan bir yol sağlar. Bir Mining pool'e katılarak, temel ekipmanlarla bile düzenli ödemeler kazanabilirsiniz. Daha fazla bilgi için [Mining eğitimlerimize göz atın] (https://planb.academy/tutorials/mining).
+- Mining**: Bireyler Bitcoin madenciliği yapabilir. Daha eski veya daha küçük makinelere erişilebilir ve KYC olmadan Bitcoin elde etmek için geleneksel olmayan bir yol sağlar. Bir Mining pool'e katılarak, temel ekipmanlarla bile düzenli ödemeler kazanabilirsiniz. Daha fazla bilgi için [Mining eğitimlerimize göz atın](https://planb.academy/tutorials/mining).
 - Ödemeler / Maaş bitcoin olarak**: Eğer bir işletme işletiyorsanız, ödeme olarak Bitcoin kabul edebilirsiniz. Çalışıyorsanız, yargı alanınıza bağlı olarak, Bitcoin ile ödeme yapılmasını isteyebilirsiniz. Bu yöntemler KYC olmadan Bitcoin elde etmenizi sağlar.
 
 
@@ -2689,7 +2689,7 @@ https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-5
 
 https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.academy/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
+https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92d7-f6ec4d1fadfb
 
 https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
@@ -2815,7 +2815,7 @@ Bitcoin harcama tercihi sıklıkla eleştiri konusu olmaktadır. Bazı Bitcoin k
 Daha mantıklı bir yaklaşım "Harca ve Değiştir" yöntemidir. Bu, daha önce bahsedilen tüm nedenlerle Bitcoin harcamak ve ardından Bitcoin birikimlerinizin azalmasına izin vermek yerine, fiat para birimi ile yenilerini satın alarak harcanan Sats'ü değiştirmek anlamına gelir.
 
 
-Bitcoin harcamalarını kolaylaştırmak için, dünya çapında Bitcoin kabul eden tüccarları gösteren [BTC Map] (https://btcmap.org/) gibi birçok araç mevcuttur. Bu tüccarlardan bazıları çevrimiçi sipariş vermenize ve ürünlerin teslim edilmesine bile izin verir.
+Bitcoin harcamalarını kolaylaştırmak için, dünya çapında Bitcoin kabul eden tüccarları gösteren [BTC Map](https://btcmap.org/) gibi birçok araç mevcuttur. Bu tüccarlardan bazıları çevrimiçi sipariş vermenize ve ürünlerin teslim edilmesine bile izin verir.
 
 
 Hala tüm günlük tüccarların BTC'yi kabul etmediği bir geçiş aşamasında olduğumuz için, bazı basit ama etkili geçici çözümler var. Örneğin, Bitcoin ile hediye kartları satın almak pratik bir çözümdür ve Bitrefill, Coinsbee veya The Bitcoin Company gibi birçok sağlayıcı bu hizmeti sunmaktadır.
@@ -2910,7 +2910,7 @@ Paranoyak kullanıcı fonları asla kaynağına veya kullanımına göre karış
 
 
 
-- Bir Cold Wallet (hava boşluklu ve/veya kendin yap)** Uzun vadeli varlıklar yüksek güvenlikli, hava boşluklu veya kendin yap cüzdanlarda saklanır. Bunlar genellikle açık kaynaklı cihazlar veya Jade, Coldcard, SeedSigner, Portal veya Passport gibi doğrulanabilir koda sahip cihazlardır... Mümkün olduğunda, bu cihazları anonim olarak edinecekler; ya nakit ödeme yaparak ya da fiziksel bir mağazada Bitcoin kullanarak ya da gizli nakliye seçenekleri ve BTC ödemeleri ile çevrimiçi sipariş vererek. Örneğin Fransa'da [Bitcoin Bazar] (https://bitcoinbazar.fr/) böyle bir mağaza. Bölgenizdeki benzer sağlayıcıları arayabilirsiniz.
+- Bir Cold Wallet (hava boşluklu ve/veya kendin yap)** Uzun vadeli varlıklar yüksek güvenlikli, hava boşluklu veya kendin yap cüzdanlarda saklanır. Bunlar genellikle açık kaynaklı cihazlar veya Jade, Coldcard, SeedSigner, Portal veya Passport gibi doğrulanabilir koda sahip cihazlardır... Mümkün olduğunda, bu cihazları anonim olarak edinecekler; ya nakit ödeme yaparak ya da fiziksel bir mağazada Bitcoin kullanarak ya da gizli nakliye seçenekleri ve BTC ödemeleri ile çevrimiçi sipariş vererek. Örneğin Fransa'da [Bitcoin Bazar](https://bitcoinbazar.fr/) böyle bir mağaza. Bölgenizdeki benzer sağlayıcıları arayabilirsiniz.
 
 
 https://planb.academy/tutorials/wallet/hardware/jade-plus-sparrow-938abf16-e10a-4618-860d-cd771373a262
@@ -3184,7 +3184,7 @@ Miras planı için sadece 15 dakika ila bir saat harcamak büyük fark yaratabil
 ### Bitcoin Yedekleme Planının Hedefleri
 
 
-Pamela Morgan, *[Cryptoasset Inheritance Planning] (https://www.amazon.com/gp/product/1947910116/)* adlı kitabında, sağlam bir miras planı için dört temel hedefin ana hatlarını çizmektedir:
+Pamela Morgan, *[Cryptoasset Inheritance Planning](https://www.amazon.com/gp/product/1947910116/)* adlı kitabında, sağlam bir miras planı için dört temel hedefin ana hatlarını çizmektedir:
 
 
 
@@ -3600,7 +3600,7 @@ Bitcoin finansal bir araçtan daha fazlasıdır; bu bir harekettir. Becerilerini
 - Yerel bir topluluğa katılın**: Diğer bitcoin kullanıcılarıyla tanışmak ve en son gelişmeler hakkında Exchange görüşlerini almak için etkinliklere, buluşmalara ve forumlara katılın.
 
 
-Başkalarını eğitmeye yardımcı olmak isterseniz, Plan ₿ Academy her zaman katkıda bulunacak kişiler arıyor! Tüm eğitim içeriğimiz açık kaynaklıdır ve GitHub'da barındırılmaktadır. İçeriği düzeltmeye ve çeşitli dillere çevirmeye yardımcı olacak katılımcıları bekliyoruz; birkaç Sats için Exchange'da! İster şimdi ister daha sonra Bitcoin yolculuğunuzda, Plan ₿ Academy'un [katkıda bulunanlar için Telegram grubumuza] (https://t.me/PlanBNetwork_ContentBuilder) katılmaya davetlisiniz.
+Başkalarını eğitmeye yardımcı olmak isterseniz, Plan ₿ Academy her zaman katkıda bulunacak kişiler arıyor! Tüm eğitim içeriğimiz açık kaynaklıdır ve GitHub'da barındırılmaktadır. İçeriği düzeltmeye ve çeşitli dillere çevirmeye yardımcı olacak katılımcıları bekliyoruz; birkaç Sats için Exchange'da! İster şimdi ister daha sonra Bitcoin yolculuğunuzda, Plan ₿ Academy'un [katkıda bulunanlar için Telegram grubumuza](https://t.me/PlanBNetwork_ContentBuilder) katılmaya davetlisiniz.
 
 
 ### Son Sözler

@@ -4,9 +4,9 @@ name: LNbits
 description: Platforma za računovodstvo trgovaca
 ---
 
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
-# Računovodstveni sistem
+## Računovodstveni sistem
 
 
 LNbits je prepun mnogih alata za kontrolu i usmeravanje vaših dolaznih i odlaznih sredstava, povezivanje vaše veb prodavnice ili čak uređaja kao što su Hardware Wallet ili bankomat koji ste sami izgradili. Tipovi korisnika uključuju:
@@ -19,7 +19,7 @@ LNbits je prepun mnogih alata za kontrolu i usmeravanje vaših dolaznih i odlazn
 - Svi oni imaju različite potrebe. Gradimo LNbits na modularan način tako da svaki korisnik može koristiti naše funkcije na način koji vam najbolje odgovara.
 
 
-# Wallet menadžer
+## Wallet menadžer
 
 
 LNbits je besplatan i otvoren sistem za računovodstvo - nije menadžer čvorova. Upravljanje kanalima je domen Lightning čvora koji je povezan sa LNbits kao izvor finansiranja, kao što su LND ili c-lightning. Superkorisnik ili Administratorski korisnici u sistemu LNbits su odgovorni za upravljanje ukupnom pristupačnošću i konfiguracijom računovodstvenih funkcija i internih ekstenzija.
@@ -40,13 +40,13 @@ Ponudićete im jednostavan način da otvore „bankovni račun“ na vašem čvo
 NAPOMENA: sva sredstva koja vaši „kupci“ polože na svoje LNbits bankovne račune na vašem čvoru, ići će direktno u kanale vašeg čvora LN. To znači da ste VI zapravo pravi vlasnik tih sredstava. Imaćete veliku odgovornost za njihova sredstva. Nemojte biti zli i pobeći sa sredstvima, nemojte biti zli i naplaćivati visoke naknade. Želimo da zeznemo fiat bankare, ne da zeznemo jedni druge (korisnike Bitcoin).
 
 
-# Demo platforma
+## Demo platforma
 
 
 Demo se može pronaći na [https://legend.lnbits.com](https://legend.lnbits.com). Potpuno je funkcionalan i može se koristiti za učenje o Lightning Network i funkcijama LNbits i LNURL uopšte. Iako vas ne možemo sprečiti, zamolili bismo vas da ga ne koristite za vašu produkcijsku postavku. Ne samo da često radimo na serverima kako bismo testirali nove funkcije, već bismo vas želeli ohrabriti da pokrenete svoj sopstveni čvor i LNbits na suveren način. Ako mislite da je pokretanje čvora previše za sada, možete povezati LNbits sa uslugom čuvara u oblaku kao što su Opennode, Luna ili Votage ili sa Lightning Tipbot-om na Telegramu, da navedemo neke.
 
 
-# LNbits flajer
+## LNbits flajer
 
 
 Želite da predate osnovne informacije trgovcu ili prijatelju koji se bavi građevinom? Veoma smo srećni da objavimo naš prvi flajer koji svi mogu koristiti. Veličina je globalno tipičan format flajera sa 6 stranica (2 preklopa) i širinom od 3508 i visinom od 2480px.
@@ -58,10 +58,10 @@ LNbits za trgovce: [EN](/assets/lnbits-merchants-en.pdf) | [DE](/assets/lnbits-m
 LNbits za graditelje: [EN](/assets/lnbits-builders-en.pdf) | [DE](/assets/lnbits-builders-de.pdf) | [ES](/assets/lnbits-builders-es.pdf) | [IT](/assets/lnbits-builders-it.pdf) | [PL](/assets/lnbits-builders-pl.pdf)
 
 
-# Neke Osnove
+## Neke Osnove
 
 
-LNbits radi na osnovu LNURL protokola što znači da su zahtevi validni u dva oblika: ili kao https:// clearnet link (samopotpisani sertifikati nisu dozvoljeni) ili kao http:// v2/v3 onion link. Da biste ponudili LNbits usluge kao što su LNURLp/w QR kodovi ili NFC kartice, koje se mogu koristiti na terenu, potrebno je da otvorite LNbits prema clearnet-u (https).
+LNbits radi na osnovu LNURL protokola što znači da su zahtevi validni u dva oblika: ili kao https://clearnet link (samopotpisani sertifikati nisu dozvoljeni) ili kao http://v2/v3 onion link. Da biste ponudili LNbits usluge kao što su LNURLp/w QR kodovi ili NFC kartice, koje se mogu koristiti na terenu, potrebno je da otvorite LNbits prema clearnet-u (https).
 
 
 Pre nego što instalirate LNbits, obavezno pročitajte i razumite sledeće opšte vodiče o tome šta je LNbits i koje mogućnosti vam otvara.
@@ -90,10 +90,10 @@ Detaljniji vodiči za korišćenje LNbits-a u specifičnim scenarijima upotrebe 
 
 
 
-# Instaliraj LNbits
+## Instaliraj LNbits
 
 
-## Osnovni vodič za instalaciju
+### Osnovni vodič za instalaciju
 
 
 LNbits se može instalirati na bilo koju Linux OS mašinu. Ne zahteva moćnu mašinu ili server, već samo dovoljno RAM memorije i malo prostora na disku za bazu podataka. Može se pokretati odvojeno od BTC/LN čvora (lokalni PC ili udaljeni VPS) ili zajedno na istoj mašini sa čvorom ili već instaliranom u mašini sa softverom za čvor u paketu.
@@ -119,7 +119,7 @@ Možete pronaći i video o [dockerizovanom podešavanju na VPS-u sa PostgreSQ, L
 Za čvorove softverskih paketa, molimo vas da pogledate njihovu specifičnu dokumentaciju o LNbits: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
 
-## LNbits SaaS
+### LNbits SaaS
 
 
 Kada niste zainteresovani za tehničke stvari i ne želite da hostujete svoj izvor finansiranja niti svoj lnbits, postoji [LNbits SaaS verzija](https://saas.lnbits.com) (Softver-kao-usluga) koju možete koristiti. To je u osnovi kao LNbits u oblaku, ali možete sami definisati izvor finansiranja (npr. vaš Node, LNbits Wallet, LNtipbot, fakewallet itd.) i promenljive okruženja - što uglavnom nije slučaj kod drugih cloud-rešenja.
@@ -128,7 +128,7 @@ Kada niste zainteresovani za tehničke stvari i ne želite da hostujete svoj izv
 [Evo detaljnog vodiča kako koristiti LNbits SaaS za specifične slučajeve upotrebe](https://darthcoin.substack.com/p/lnbits-saas-a-solution-for-schools).
 
 
-## Izvori finansiranja
+### Izvori finansiranja
 
 
 LNbits nije softver za upravljanje čvorovima već računovodstveni sistem fokusiran na LN na vrhu LND ili CLN izvora finansiranja. Nakon prve instalacije možete posetiti vaš LNbits na http://localhost:5000/.
@@ -157,7 +157,7 @@ Ako želite da koristite .env verziju, parametre možete pronaći ovde:
 
 
 
-### CoreLightning
+#### CoreLightning
 
 
 - CLN
@@ -168,7 +168,7 @@ Ako želite da koristite .env verziju, parametre možete pronaći ovde:
   - `SPARK_URL`: http://10.147.17.230:9737/RPC
    - `SPARK_TOKEN`: secret_access_key
 
-### Lightning Network Daemon
+#### Lightning Network Daemon
 
 
 - LND (REST)
@@ -192,7 +192,7 @@ Takođe možete koristiti macaroon šifrovan AES-om (više informacija) umesto t
 Da biste šifrovali svoj macaroon, pokrenite `./venv/bin/python lnbits/wallets/macaroon/macaroon.py`.
 
 
-### LNbits (još jedna LNbits instanca)
+#### LNbits (još jedna LNbits instanca)
 
 
 
@@ -205,7 +205,7 @@ Da biste šifrovali svoj macaroon, pokrenite `./venv/bin/python lnbits/wallets/m
   - `LNBITS_ENDPOINT`: https://legend.lnbits.com
   - `LNBITS_KEY`: legend-lnbits-AdminKey
 
-### Lightning TipBot
+#### Lightning TipBot
 
 
 Da povežete svoj [Lightning Tipbot](https://t.me/LightningTipBot) sa Telegramom, potrebno je da postavite sledeći parametar:
@@ -219,7 +219,7 @@ Da povežete svoj [Lightning Tipbot](https://t.me/LightningTipBot) sa Telegramom
 Takođe pogledajte ovaj vodič kako instalirati [LNbits sa LightningTipBot preko vps](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)
 
 
-### IBEX HUB
+#### IBEX HUB
 
 
 Registrujte se [ovde](https://ibexpay.ibexmercado.com/onboard) zatim preuzmite svoje ključeve/token-e odatle, krajnja tačka je https://ibexpay-api.ibexmercado.com.
@@ -227,7 +227,7 @@ Registrujte se [ovde](https://ibexpay.ibexmercado.com/onboard) zatim preuzmite s
 Više informacija pogledajte [IBEX API-Documentation](https://ibexpay-api.readme.io/reference/getting-started-with-your-api).
 
 
-### LNPay
+#### LNPay
 
 Da bi Invoice listener radio, morate imati javno dostupnu URL adresu u vašem LNbits i postaviti [LNPay webhook](https://dashboard.lnpay.co/webhook/) koji pokazuje na `<your LNbits host>/Wallet/webhook` sa događajem "Wallet Receive" i bez datog tajnog ključa. Postavka `https://mylnbits/Wallet/webhook` će biti krajnja URL adresa koja će biti obaveštena o svakoj uplati.
 
@@ -238,7 +238,7 @@ Da bi Invoice listener radio, morate imati javno dostupnu URL adresu u vašem LN
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
 
-### OpenNode
+#### OpenNode
 
 Da bi Invoice radio, potrebno je da imate javno dostupnu URL adresu u vašem LNbits. Podešavanje webhook-a je opcionalno.
 
@@ -248,7 +248,7 @@ Da bi Invoice radio, potrebno je da imate javno dostupnu URL adresu u vašem LNb
   - `OPENNODE_KEY`: opennodeAdminApiKey
 
 
-### Alby
+#### Alby
 
 
 Alby je ekstenzija za pregledač sa funkcionalnostima LN Wallet i LNDHUB nalogom koji se može koristiti kao izvor finansiranja za LNbits. [Više detalja ovde](https://getalby.com/).
@@ -263,13 +263,13 @@ Da bi Invoice radio, morate imati javno dostupnu URL adresu u vašem LNbits. Ru�
 - `ALBY_ACCESS_TOKEN`: AlbyAccessToken
 
 
-## Dodatni / Vodiči za rešavanje problema
+### Dodatni / Vodiči za rešavanje problema
 
 
 Evo nekoliko dodatnih uputstava u slučaju da su vam potrebna. Kliknite na strelicu da biste proširili opis.
 
 
-### The Killswitch 🚨
+#### The Killswitch 🚨
 
 
 U poslednje vreme bilo je mnogo opasnih grešaka ne samo u celom prostoru već i u LNbits, pa smo odlučili da nešto preduzmemo po tom pitanju. Sada možete da se prijavite za upozorenja i/ili da preduzmete direktne mere kada se ponovo pojavi ranjivost ili greška koja bi mogla dovesti do gubitka sredstava.
@@ -285,13 +285,13 @@ Kako to funkcioniše? Kada je killswitch omogućen, tajni GitHub repozitorijum d
 
 
 
-### Razlika između admina i superusera
+#### Razlika između admina i superusera
 
 
 LNbits Admin UI vam omogućava da promenite LNbits postavke putem LNbits frontend-a. Podrazumevano je onemogućeno i prvi put kada postavite promenljivu okruženja `LNBITS_ADMIN_UI=true` u `.env` fajlu, postavke se inicijalizuju i biće korišćene. Od tog trenutka se koriste odgovarajuće postavke iz baze podataka umesto onih iz .env fajla.
 
 
-### Super User
+#### Super User
 
 
 Sa Admin UI smo uveli super korisnika koji ima pristup serveru tako da može menjati postavke koje mogu srušiti server ili učiniti ga neodgovarajućim putem frontend-a i API-ja, kao npr. menjanje izvora finansiranja. Super korisnik je smešten samo unutar tabele postavki baze podataka. Nakon što se postavke "resetuju na podrazumevane" i ponovo pokrenu, kreira se novi super korisnik. Takođe smo dodali dekorator za API rute da proveri postojanje super korisnika. Njegov ID se nikada ne šalje preko API-ja i frontend-a i samo prima bool (da/ne) da li ste super korisnik ili ne.
@@ -306,13 +306,13 @@ Možete takođe poslati super korisnika putem webhoka na drugu uslugu kada je kr
 Na frontend-u ćete takođe pronaći mogućnost promene slike prodavnice koja se prikazuje na stranici "create Wallet" otvaranjem sekcije Manage Server i izborom Theme -> Custom Logo.
 
 
-### Admin Users
+#### Admin Users
 
 
 Enviroment varijabla: `LNBITS_ADMIN_USERS`, lista ID-ova korisnika odvojena zarezima. Admin korisnici mogu menjati podešavanja u admin ui - sa izuzetkom podešavanja izvora finansiranja, jer bi to zahtevalo restart servera i potencijalno moglo učiniti server nedostupnim. Takođe, imaju pristup svim ekstenzijama posvećenim njima u `LNBITS_ADMIN_EXTENSIONS`.
 
 
-### Dozvoljeni korisnici
+#### Dozvoljeni korisnici
 
 
 Promenljiva okruženja: `LNBITS_ALLOWED_USERS`, lista ID-ova korisnika odvojena zarezima. Definisanjem ovih korisnika LNbits više neće biti dostupan javnosti. Samo definisani korisnici i administratori mogu tada pristupiti LNbits interfejsu.
@@ -320,7 +320,7 @@ Promenljiva okruženja: `LNBITS_ALLOWED_USERS`, lista ID-ova korisnika odvojena 
 
 
 
-#### Ažuriraj LNbits
+##### Ažuriraj LNbits
 
 Normalno ažuriranje vaše lokalne instance LNbits jednostavno je kopiranjem i lepljenjem sledećih CLI komandi:
 
@@ -357,7 +357,7 @@ sudo ~/scripts/app start lnbits
 ```
 
 
-#### Migracija sa SQLite na PostgreSQL
+##### Migracija sa SQLite na PostgreSQL
 
 
 Ako već imate instaliran i pokrenut LNbits na SQLite bazi podataka, toplo preporučujemo migraciju na postgres ako planirate da pokrećete LNbits u većem obimu.
@@ -385,14 +385,14 @@ Nadam se da sada sve radi i da je migrirano... Ponovo pokreni LNbits i proveri d
 
 
 
-#### Bekap i obnova baze podataka
+##### Bekap i obnova baze podataka
 
 
 Molimo pogledajte [ovaj veoma detaljan vodič o procesu pravljenja rezervnih kopija i vraćanja podataka](https://ereignishorizont.xyz/lnbits-server/en/#94_LNbits_-_Databases_Backup_Restore).
 
 
 
-#### Finansiranje mog LNbits Wallet sa mog čvora ne radi
+##### Finansiranje mog LNbits Wallet sa mog čvora ne radi
 
 
 Ako želite poslati Sats sa istog čvora koji je izvor finansiranja vašeg LNbits, potrebno je da uredite LND.conf datoteku.
@@ -407,7 +407,7 @@ Molim vas, uradite to u odeljku Application options vašeg LND.conf. Na nekim č
 NAPOMENA: Preporučuje se da umesto toga koristite novu adminUI ekstenziju sa opcijom "TopUp" za dodavanje sredstava na LNbits nalog.
 
 
-#### Greška 426
+##### Greška 426
 
 Dobio sam grešku: "lnurl treba da bude isporučen preko javno dostupnog https domena ili tor. 426 upgrade required"
 
@@ -426,7 +426,7 @@ RequestHeader set "X-Forwarded-SSL" expr=%{HTTPS}
 ```
 
 
-#### Greška mreže
+##### Greška mreže
 
 Dobio sam "https error", "network error" ili druge greške prilikom skeniranja QR koda</summary>
 
@@ -443,7 +443,7 @@ LNbits radi samo putem Tor-a, ne možete ga otvoriti na javnoj domeni kao što j
 
 
 
-#### Sprečite druge da generišu novčanike na mom LNbits-u
+##### Sprečite druge da generišu novčanike na mom LNbits-u
 
 
 Kada pokrećete svoj LNbits na clearnet-u, u suštini svako može generate na Wallet na njemu. Pošto su sredstva vašeg čvora vezana za ove novčanike, možda ćete želeti da to sprečite. Postoje dva načina da to uradite:
@@ -454,7 +454,7 @@ Konfigurišite dozvoljene korisnike i ekstenzije u `.env` fajlu ([pogledajte pri
 
 
 
-#### Prilagodite vremenski okvir isteka Invoice
+##### Prilagodite vremenski okvir isteka Invoice
 
 
 Sada možete generate fakture sa prilagođenim istekom. Kompatibilno sa backend-ovima: LndRestWallet, LndWallet, CoreLightningWallet, EclairWallet, LnbitsWallet, SparkWallet za sada!
@@ -465,16 +465,16 @@ Možete postaviti `LIGHTNING_INVOICE_EXPIRY` u vašoj .env datoteci ili koristit
 
 
 
-## Wallet-URL izbrisano
+### Wallet-URL izbrisano
 
 
-### Wallet na demo serveru legend.lnbits
+#### Wallet na demo serveru legend.lnbits
 
 
 Uvek sačuvajte kopiju vašeg Wallet-URL, Export2phone-QR ili LNDhub za vaše sopstvene novčanike na sigurnom mestu. LNbits NE MOŽE da vam pomogne da ih povratite kada se izgube.
 
 
-### Wallet na vašem sopstvenom izvoru finansiranja/čvoru
+#### Wallet na vašem sopstvenom izvoru finansiranja/čvoru
 
 Uvek sačuvajte kopiju vašeg Wallet-URL, Export2phone-QR ili LNDhub za vaše sopstvene novčanike na sigurnom mestu. Sve LNbits korisnike i Wallet-ID možete pronaći u vašem LNbits menadžeru korisnika ili u vašoj sqlite bazi podataka. Da biste uredili ili pročitali LNbits bazu podataka, idite u LNbits /data folder i potražite fajl pod nazivom sqlite.db. Možete ga otvoriti i urediti pomoću excela ili sa posvećenim SQL-Editorom kao što je [SQLite browser](https://sqlitebrowser.org/).
 
@@ -511,14 +511,14 @@ Gde zamenjujete f8a43fc363ea428db5c53b3559935f1f sa vrednošću koja dolazi pre 
 .quit
 ```
 
-#### LNURL za lightning-Address obrnuto
+##### LNURL za lightning-Address obrnuto
 
 
 Pokušajte ovaj [enkoder](https://lnurl-codec.netlify.app/) od fiatjaf ili [ovaj](https://lightningdecoder.com/). Za plaćanje ili proveru LNURLp možete takođe koristiti [LNurlpay](https://wwww.lnurlpay.com/). Trebalo bi da bude HTTPS, a ne HTTP.
 
 
 
-#### Podesite komentar koji će ljudi videti kada plaćaju putem mog LNURLp QR-a.
+##### Podesite komentar koji će ljudi videti kada plaćaju putem mog LNURLp QR-a.
 
 Kada kreirate LNURL-p, po defaultu polje za komentar nije popunjeno. To znači da komentari nisu dozvoljeni da budu priloženi uz uplate.
 
@@ -529,18 +529,18 @@ Da biste omogućili komentare, dodajte dužinu karaktera okvira, od 1 do 250. Ka
 ![lnbits comments](assets/lnbits-comments.webp)
 
 
-#### Depozitujte onchain BTC na LNbits
+##### Depozitujte onchain BTC na LNbits
 
 Postoje dva načina za Exchange Sats sa onchain BTC na LN BTC (odnosno na LNbits).
 
 
-##### Putem spoljnog servisa za zamenu.
+###### Putem spoljnog servisa za zamenu.
 
 
 Drugi korisnici koji nemaju pristup vašem LNb mogu koristiti uslugu zamene kao što su [Boltz](https://boltz.Exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) ili [ZigZag](https://zigzag.io/). Ovo je korisno ako pružate samo LNURL/LN fakture iz vaše LNbits instance, ali platiša ima samo onchain Sats pa će morati prvo da zamene te Sats na svojoj strani. Procedura je jednostavna: korisnik šalje onchain btc usluzi zamene i pruža LNURL / LN Invoice iz LNbits kao odredište zamene.
 
 
-##### Korišćenje Onchain i Boltz LNbits ekstenzije.
+###### Korišćenje Onchain i Boltz LNbits ekstenzije.
 
 
 Imajte na umu da je ovo zaseban Wallet, a ne LN btc koji je predstavljen od strane LNbits kao "vaš Wallet" na vašem LN izvoru finansiranja. Ovaj onchain Wallet se takođe može koristiti za zamenu LN btc u (npr. vaš hardverski novčanik) korišćenjem LNbits Boltz ili Deezy ekstenzije. Ako vodite veb prodavnicu koja je povezana sa vašim LNbits za LN uplate, veoma je korisno redovno prebacivati sve Sats sa LN u onchain. Ovo vodi ka više prostora u vašim LN kanalima kako biste mogli primati nove sveže Sats.
@@ -592,7 +592,7 @@ Ako imate grešku "unsupported Hash type" kada koristite ypub u On-Chain ekstenz
 
 
 
-## Alati i izgradnja sa LNbits
+### Alati i izgradnja sa LNbits
 
 
 LNbits ima sve vrste [otvorenih API-ja](https://legend.lnbits.com/docs) i alata za programiranje i povezivanje sa mnogo različitih uređaja za bezbroj slučajeva upotrebe.
@@ -601,10 +601,10 @@ LNbits ima sve vrste [otvorenih API-ja](https://legend.lnbits.com/docs) i alata 
 Kada ste novi u izgradnji, počnite sa ovim [MakerBits prezentacijama](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) od Ben Arc-a o izgradnji gedžeta baziranih na LNbits.
 
 
-### VAŽNO:
+#### VAŽNO:
 
 
-- LNbits radi na osnovu LNURL protokola čiji su zahtevi validni u dva oblika: ili kao https:// clearnet link (nisu dozvoljeni samopotpisani sertifikati) ili kao http:// v2/v3 onion link. Da biste ponudili LNbits usluge kao što su LNURLp/w QR kodovi ili NFC kartice, koje mogu biti korišćene na terenu, potrebno je da otvorite LNbits za clearnet (https).
+- LNbits radi na osnovu LNURL protokola čiji su zahtevi validni u dva oblika: ili kao https://clearnet link (nisu dozvoljeni samopotpisani sertifikati) ili kao http://v2/v3 onion link. Da biste ponudili LNbits usluge kao što su LNURLp/w QR kodovi ili NFC kartice, koje mogu biti korišćene na terenu, potrebno je da otvorite LNbits za clearnet (https).
 - Koristite samo DATA-kablove za napajanje vašeg esp32. Nisu svi kablovi podržavaju prenos podataka pored napajanja esp-a. Ne biste bili prvi ako je kabl koji ste dobili uz esp samo za napajanje.
 - Obavezno nemojte koristiti USB-Hub sa drugim priključenim uređajima. Ovo može dovesti do čudnih efekata koji su Hard za otklanjanje grešaka (npr. ne pokretanje ili zaustavljanje).
 - Da biste realizovali esp projekte sa MacOS-om, biće vam potreban UART Bridge Driver. Ako imate problema sa drajverom na Mac ili Linux sistemima, možete ih pronaći ovde ili, ako je uključen TTGO Display, ovaj ovde. Ako ste na Windows-u i imate problema sa povezivanjem, obavezno preuzmite STARU verziju 11.1.0 jer novija ne radi! Takođe možete pronaći serijski terminal ovde da proverite vašu konekciju - postavite na baudrate 115200.

@@ -1,0 +1,8 @@
+question: ¿Por qué la filosofía de "moverse rápido y romper cosas" es especialmente inadecuada para el desarrollo de Bitcoin en comparación con el desarrollo de software tradicional?
+answer: Las transacciones de Bitcoin son irreversibles y no existe una autoridad central que pueda recuperar los fondos en caso de error
+wrong_answers:
+  - El desarrollo de Bitcoin requiere ciclos de iteración más rápidos que las aplicaciones web tradicionales
+  - "El compilador de Rust impide la rápida creación de prototipos necesaria para la innovación en blockchain"
+  - "La naturaleza de código abierto de Bitcoin dificulta la corrección de errores tras su despliegue"
+explanation: |
+  La respuesta correcta destaca la característica fundamental de Bitcoin: su naturaleza descentralizada significa que no hay ninguna autoridad a la que recurrir para recuperar los fondos una vez emitidas las transacciones. A diferencia de los sistemas financieros tradicionales, con protecciones normativas y mecanismos de devolución, los errores de Bitcoin son permanentes e irreversibles. Las respuestas erróneas malinterpretan la cuestión central: no se trata de la velocidad de desarrollo, las limitaciones del compilador o los retos del código abierto, sino de la naturaleza irreversible de las operaciones financieras en un sistema descentralizado en el que los fondos de los usuarios corren un riesgo permanente.

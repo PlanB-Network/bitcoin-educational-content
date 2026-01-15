@@ -6,3 +6,4 @@ wrong_answers:
   - Le problème de la rapidité des paiements en ligne
 explanation: |
   La percée de Bitcoin a consisté à résoudre le problème double-spending sans nécessiter d'autorité centrale. Le problème double-spending consiste à empêcher quelqu'un de dépenser deux fois la même pièce numérique. Les monnaies numériques précédentes ont échoué parce qu'elles reposaient sur des serveurs centraux ou des autorités de confiance, ce qui les rendait vulnérables à la censure et aux points de défaillance uniques. Le Bitcoin a résolu ce problème grâce à son serveur d'horodatage distribué pair-à-pair utilisant le proof-of-work, permettant au réseau de se mettre d'accord sur l'ordre des transactions sans aucun contrôle central.
+reviewed: false

@@ -1,0 +1,8 @@
+question: What type of channels does Lightning Terminal specifically evaluate when assessing Channel Health and Stability metrics?
+answer: Public channels only
+wrong_answers:
+  - Private channels only
+  - Both public and private channels equally
+  - Channels with the highest capacity regardless of type
+explanation: |
+  Lightning Terminal's Health Checks specifically evaluate public channels when assessing Channel Health and Stability metrics. The system focuses on public channels because these are the ones that contribute to network routing capabilities and are visible to the broader Lightning Network. Private channels, while they may exist on your node, won't negatively impact your Health Check scores even if they have lower activity levels, since they're not part of the public routing infrastructure that these metrics are designed to measure.

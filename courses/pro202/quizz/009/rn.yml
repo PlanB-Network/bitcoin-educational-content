@@ -1,0 +1,8 @@
+question: Ni iyihe nsiguro y’umurongo w’uruzitiro ikoreshwa na secp256k1 ya Bitcoin?
+answer: y2 = x3 + 7
+wrong_answers:
+  - y2 = x3 + 3
+  - y2 = x3 + 5
+  - y2 = x3 + 1
+explanation: |
+  Bitcoin ikoresha umurongo wa secp256k1 usobanurwa n’ingero y2 = x3 + 7 hejuru y’umurima ufise impera. Iyi nkuru yihariye yatowe kubera ko izigama uburinganire n’inyifato idashingiye ku murongo bihambaye ku mutekano w’ubuhinga bwo gukingira amakuru. Igitigiri 7 ni kimwe mu bimenyetso vya secp256k1 kandi kigitandukanya n'ibindi bigobe bishobora gukoresha ibidahinduka bitandukanye nka 1, 3, canke 5.

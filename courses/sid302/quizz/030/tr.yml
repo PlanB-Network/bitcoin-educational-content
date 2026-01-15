@@ -1,0 +1,8 @@
+question: Liquid'in Confidential Transactions mimarisindeki ECDH anahtar değişim mekanizmasının birincil amacı nedir?
+answer: Göndericilerin, doğrulanabilir aralık kanıtları oluştururken alıcının kör edici açık anahtarını kullanarak varlık miktarlarını ve türlerini şifrelemelerini sağlamak
+wrong_answers:
+  - İşlem yetkilendirme süreçleri sırasında AMP sunucuları ve wallet istemcileri arasında güvenli iletişim kanalları kurmak
+  - Cüzdanlar ve AMP sunucu altyapısı arasında çoklu imza tanımlayıcısı kaydı için paylaşılan gizli diziler oluşturmak için
+  - Altta yatan özel anahtar bilgilerini ifşa etmeden varlık sahipliğini kanıtlayan generate kriptografik imzalar için
+explanation: |
+  Liquid'in Confidential Transactions'ündeki ECDH (Eliptik Eğri Diffie-Hellman) anahtar değişimi, özellikle göndericilerin alıcının kör edici genel anahtarını kullanarak işlem çıktı değerlerini şifrelemesine izin vererek gizliliği koruyan varlık transferlerini mümkün kılar. Bu, yalnızca alıcının özel körleme anahtarıyla şifresini çözebileceği paylaşılan bir sır oluştururken, aynı zamanda ağ doğrulayıcılarının gerçek tutarları görmeden işlem geçerliliğini doğrulamasına olanak tanıyan aralık kanıtları oluşturur. Diğer seçenekler ECDH'yi yanlış bir şekilde iletişim güvenliği, tanımlayıcı kaydı veya sahiplik kanıtı işlevlerine hizmet ediyor olarak tanımlamaktadır ki bunlar Liquid ekosisteminde farklı kriptografik mekanizmalar tarafından ele alınmaktadır.

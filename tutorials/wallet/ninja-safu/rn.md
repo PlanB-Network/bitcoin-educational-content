@@ -354,13 +354,13 @@ Nk’uko Jameson Lopp abivuga:
 
 
 
-- [Raporo] (ivy'ububiko-bw'ivyuma-Bitcoin-ibisubirwamwo/ibisubirwamwo/safu-ninja/) ku buryo bwa Ninja SAFU
+- [Raporo](ivy'ububiko-bw'ivyuma-Bitcoin-ibisubirwamwo/ibisubirwamwo/safu-ninja/) ku buryo bwa Ninja SAFU
 
 
 
 
 
-- Imbonerahamwe y'ukugereranya [yuzuye] (ivyuma-Bitcoin-ibisubirwamwo-vy'ububiko/?ref=blog.lopp.net)
+- Imbonerahamwe y'ukugereranya [yuzuye](ivyuma-Bitcoin-ibisubirwamwo-vy'ububiko/?ref=blog.lopp.net)
 
 
 

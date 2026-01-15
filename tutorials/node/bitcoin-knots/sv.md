@@ -38,7 +38,7 @@ Det finns två huvudsakliga skäl till att använda en alternativ klient som Kno
 ## Hur installerar jag Bitcoin Knots?
 
 
-Gå till [den officiella webbplatsen för Bitcoin Knots] (https://bitcoinknots.org/#download) för att ladda ner versionen för ditt operativsystem. Glöm inte att ladda ner fingeravtryck och signaturer för att verifiera programvaran. Dessa filer finns också tillgängliga [på Bitcoin Knots GitHub repository](https://github.com/bitcoinknots/Bitcoin).
+Gå till [den officiella webbplatsen för Bitcoin Knots](https://bitcoinknots.org/#download) för att ladda ner versionen för ditt operativsystem. Glöm inte att ladda ner fingeravtryck och signaturer för att verifiera programvaran. Dessa filer finns också tillgängliga [på Bitcoin Knots GitHub repository](https://github.com/bitcoinknots/Bitcoin).
 
 
 ![Image](assets/fr/02.webp)
@@ -356,7 +356,7 @@ Denna operation kan också utföras via Bitcoin-QT:s Interface-grafik. Gå till 
 ![Image](assets/fr/37.webp)
 
 
-Hitta IP Address för den maskin som är värd för Bitcoin Knots i ditt lokala nätverk. För att göra detta kan du använda ett verktyg som [Angry IP Scanner] (https://angryip.org/). Låt oss anta, för argumentets skull, att IP Address för din nod är `192.168.1.18`.
+Hitta IP Address för den maskin som är värd för Bitcoin Knots i ditt lokala nätverk. För att göra detta kan du använda ett verktyg som [Angry IP Scanner](https://angryip.org/). Låt oss anta, för argumentets skull, att IP Address för din nod är `192.168.1.18`.
 
 
 I filen `Bitcoin.conf` lägger du till följande rader och ställer in `rpcbind=192.168.1.18` så att den matchar IP Address för din nod.

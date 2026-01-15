@@ -6,3 +6,4 @@ wrong_answers:
   - "Lỗ hổng kỹ thuật trong thuật toán mã hóa của Bitcoin"
 explanation: |
   Theo bài đăng trên Reddit của Gregory Maxwell được trích dẫn trong chương này, mặc dù các cuộc tấn công 51% tồn tại như một mối lo ngại về mặt lý thuyết, nhưng rủi ro lớn hơn nhiều là người dùng Bitcoin sẽ không hiểu, không quan tâm hoặc không bảo vệ các đặc tính phi tập trung khiến Bitcoin có giá trị hơn các giải pháp tập trung. Điều này là do tính phi tập trung chính là yếu tố mang lại khả năng chống kiểm duyệt của Bitcoin - điểm khác biệt chính của nó so với các hệ thống tiền tệ truyền thống. Nếu mọi người không chủ động bảo vệ những đặc tính này, Bitcoin có thể dần dần trở nên tập trung cho đến khi việc kiểm duyệt trở nên khả thi, phá hủy phần lớn giá trị của nó. Các lựa chọn khác, mặc dù có tiềm năng gây lo ngại, nhưng không phải là những gì Maxwell xác định cụ thể là mối đe dọa lớn hơn đối với thành công lâu dài của Bitcoin.
+reviewed: false

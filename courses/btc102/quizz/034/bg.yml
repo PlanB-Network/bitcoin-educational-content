@@ -1,0 +1,9 @@
+question: Кой протокол от второ ниво позволява почти незабавни плащания?
+answer: Lightning Network
+wrong_answers:
+  - Странични вериги
+  - RGB
+  - Ядро Bitcoin
+explanation: |
+  Lightning Network дава възможност за бързи и евтини транзакции чрез операции off-chain извън блокчейна Bitcoin.
+reviewed: false

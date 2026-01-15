@@ -92,7 +92,7 @@ Blue Wallet lets you configure the parameters of your Bitcoin shipment as you wi
 You can therefore select the transaction fee ratio that suits you if you want to see your transaction quickly validated in a Mempool and included in a block by the miners. Depending on the ratio you choose, miners will prioritize your transaction to a greater or lesser extent. Find out more in our Mempool Space tutorial.
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 

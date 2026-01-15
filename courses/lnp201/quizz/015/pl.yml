@@ -6,4 +6,4 @@ wrong_answers:
   - Otwarcie nowego kanału płatności
 explanation: |
   Transkacja zobowiązująca przedstawia bieżącą dystrybucję środków w kanale po każdej transakcji Lightning, ale nie jest publikowana w łańcuchu bloków, dopóki kanał pozostaje otwarty.
-reviewed: false
+reviewed: true

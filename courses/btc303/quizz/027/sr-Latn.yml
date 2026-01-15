@@ -6,3 +6,4 @@ wrong_answers:
   - Pomaže poboljšanju ukupne anonimnosti Bitcoin sistema
 explanation: |
   Privatnost Bitcoin je međusobno povezana među korisnicima. Kada jedna osoba ne vodi računa o svojim praksama privatnosti, to može negativno uticati na privatnost drugih korisnika sa kojima obavlja transakcije. Ovo se dešava zato što obrasci transakcija, grupisanje adresa i druge tehnike analize blockchaina mogu otkriti informacije o više strana uključenih u transakcije. Poglavlje naglašava da mere privatnosti koje preduzimate ne štite samo vas - one takođe pomažu u zaštiti šire Bitcoin zajednice, čineći privatnost kolektivnom odgovornošću, a ne samo individualnom brigom.
+reviewed: false

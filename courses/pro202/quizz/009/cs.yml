@@ -1,0 +1,8 @@
+question: Jaká je konkrétní rovnice eliptické křivky, kterou používá secp256k1 v Bitcoin?
+answer: y² = x³ + 7
+wrong_answers:
+  - y² = x³ + 3
+  - y² = x³ + 5
+  - y² = x³ + 1
+explanation: |
+  Bitcoin používá křivku secp256k1 definovanou rovnicí y² = x³ + 7 nad konečným polem. Tato konkrétní rovnice byla zvolena proto, že zachovává symetrii a nelineární chování, které jsou pro kryptografickou bezpečnost zásadní. Koeficient 7 je součástí standardizované specifikace secp256k1 a odlišuje ji od jiných eliptických křivek, které mohou používat jiné konstanty, například 1, 3 nebo 5.

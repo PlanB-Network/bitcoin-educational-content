@@ -6,3 +6,4 @@ wrong_answers:
   - Hämtade verk kan endast distribueras under äganderättsligt skyddade licenser som kräver betalning av royalties
 explanation: |
   I definitionen av öppen källkod anges uttryckligen att "licensen måste tillåta modifieringar och härledda verk, och måste tillåta att de distribueras enligt samma villkor som licensen för den ursprungliga programvaran" Detta säkerställer att härledda verk bibehåller samma friheter som originalet, vilket förhindrar att någon tar öppen källkod och gör den proprietär. De andra alternativen bryter mot denna grundläggande princip genom att antingen begränsa friheten eller ändra licenskompatibiliteten.
+reviewed: false

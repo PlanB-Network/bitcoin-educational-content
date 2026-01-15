@@ -1,5 +1,5 @@
 ---
-name: LNbitsサーバー
+name: LNbits Server
 description: PhoenixdまたはUmbrelを使用したUbuntu VPSへのLNbitsサーバーのインストールと設定
 ---
 

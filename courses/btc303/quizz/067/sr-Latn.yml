@@ -6,3 +6,4 @@ wrong_answers:
   - Poboljšanje performansi verifikacije potpisa za bržu obradu blokova
 explanation: |
   Poglavlje eksplicitno definiše Bitcoin skaliranje kao 'povećanje kapaciteta korišćenja Bitcoin bez kompromitovanja njegove otpornosti na cenzuru.' Tačan odgovor krši ovu definiciju jer zahtevati od korisnika da veruju centralizovanim procesorima plaćanja direktno kompromituje otpornost Bitcoin na cenzuru - osnovnu vrednosnu ponudu. Pogrešni odgovori svi predstavljaju legitimne pristupe skaliranju pomenute u poglavlju: efikasno kodiranje smanjuje upotrebu resursa, slojevita rešenja omogućavaju dodatni kapacitet uz očuvanje svojstava osnovnog sloja, a poboljšana verifikacija potpisa poboljšava performanse bez kompromisa centralizacije.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Kullanıcılara düğüm yazılımlarını yükseltmeleri için yeterli zaman tanımadan sabit fork'in hemen etkinleştirilmesi
 explanation: |
   Eric Lombrozo'nun analizine göre, Satoshi'nin sorunlu yaklaşımı, fikir birliğini bozan bir değişikliği, bozan değişiklikleri belirtmeden yalnızca 'makefile.unix wx-config sürüm 0.3.6 geri alındı' şeklinde yanıltıcı bir açıklama ile gizlemekti. Kritik fikir birliği değişikliklerini zararsız görünen taahhütlerde gizlemeye yönelik bu uygulama, fikir birliği değişiklikleri hakkında şeffaflık ve açık iletişimin Bitcoin geliştirmenin temel ilkeleri olduğu günümüz standartlarına göre kabul edilemez olarak değerlendirilecektir.
+reviewed: false

@@ -1,0 +1,8 @@
+question: P2WSH neden tanık programlarında komut dosyası taahhüdü için hash160 (RIPEMD160+SHA256) yerine SHA256 hashing kullanıyor?
+answer: SHA256, P2WSH'yi P2WPKH'ın 20 baytlık karmasından160 ayıran 32 baytlık bir karma sağlar ve karmaşık komut dosyaları için daha güçlü güvenlik sunar
+wrong_answers:
+  - SHA256'nın hesaplanması hash160'tan daha hızlıdır ve yüksek verimli senaryolarda karmaşık çok haneli işlemler için doğrulama süresini azaltır
+  - "Hash160, Bitcoin'in erken geliştirme aşamasında keşfedilen potansiyel çarpışma açıkları nedeniyle SegWit'de kullanımdan kaldırılmıştır"
+  - SHA256, tanık komut dosyalarının 520 bayttan daha büyük olmasına izin verirken, hash160 komut dosyası karmaşıklığına katı boyut sınırlamaları getirmiştir
+explanation: |
+  P2WSH, özellikle P2WPKH'ün 20 baytlık hash160 taahhüdünden farklı olarak 32 baytlık hash'ler oluşturmak için SHA256 kullanır ve düğümlerin tanık program sürümünü hemen tanımlamasına olanak tanır. Daha uzun hash ayrıca daha yüksek değere veya daha fazla saldırı yüzeyine sahip olabilecek karmaşık komut dosyaları için gelişmiş güvenlik sağlar. Diğer seçenekler yanlıştır: SHA256'nın hash160'tan daha hızlı olması gerekmez, hash160 güvenlik açıkları nedeniyle kullanımdan kaldırılmamıştır ve hash işlevi seçimi komut dosyası boyutu sınırlarını etkilemez.

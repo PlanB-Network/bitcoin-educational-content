@@ -1,0 +1,8 @@
+question: Hva er hovedgrunnen til at Bitcoins mekanisme for justering av vanskelighetsgrad begrenser endringer til innenfor en faktor på fire i løpet av hver justeringsperiode for 2016-blokken?
+answer: For å forhindre ekstreme svingninger som kan destabilisere nettverket når hashfrekvensen endres dramatisk
+wrong_answers:
+  - For å sikre at utvinnerne har tilstrekkelig tid til å oppgradere maskinvaren sin før vanskelighetsgraden øker betydelig
+  - For å opprettholde kompatibilitet med 32-biters tidsstempelfeltet, som blir upålitelig med større justeringer
+  - For å forhindre at tidsplanen for halvering av blokktilskuddet forstyrres av raske endringer i vanskelighetsgraden
+explanation: |
+  Firedoblingsgrensen forhindrer farlige tilbakekoblingssløyfer der ekstreme endringer i vanskelighetsgrad kan føre til voldsomme svingninger i blokkeringstiden. Uten denne begrensningen kan et plutselig fall i hashraten utløse massive reduksjoner i vanskelighetsgraden, noe som kan gjøre blokker for enkle og potensielt destabilisere konsensus. Motsatt kan store økninger gjøre blokker nesten umulige å utvinne. Grensen sikrer gradvise, håndterbare justeringer som opprettholder nettverksstabiliteten selv under store forstyrrelser som mining-forbud, slik at systemet kan korrigere seg selv på en forutsigbar måte over flere justeringsperioder i stedet for å skape kaotiske svingninger.

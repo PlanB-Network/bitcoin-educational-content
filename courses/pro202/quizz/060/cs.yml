@@ -1,0 +1,8 @@
+question: Jaký konkrétní mechanismus zajistí, že uzly před SegWit přijmou transakce P2WPKH jako platné, aniž by rozuměly pravidlům ověřování svědků?
+answer: Uzly před SegWit interpretují skript OP_0 + 20bajtový hash jako výstup "anyone-can-spend", který nevyžaduje ověření podpisu
+wrong_answers:
+  - Uzly předcházející SegWit automaticky předávají transakce P2WPKH modernizovaným uzlům k ověření svědky před jejich přijetím
+  - Uzly před SegWit rozpoznávají vzor P2WPKH a zcela vynechávají ověřování, přičemž všechny svědecké transakce považují za předem ověřené
+  - Uzly před SegWit převádějí data svědků zpět do tradičního formátu scriptSig pomocí transformačních pravidel zpětné kompatibility
+explanation: |
+  Genialita návrhu SegWit spočívá ve využití toho, jak uzly před SegWit zpracovávají neznámé vzory skriptů. Když se tyto starší uzly setkají se skriptem P2WPKH (OP_0 následovaný 20bajtovým push), nerozpoznají jej jako speciální svědecký program. Místo toho jej vyhodnotí jako standardní skript, který ponechává OP_0 a hash na zásobníku. Protože OP_0 se ve skriptovacím systému Bitcoin vyhodnotí jako false, uzly před SegWit jej interpretují jako podmínku "anyone-can-spend" - což znamená, že z jejich pohledu není vyžadováno žádné ověření podpisu. To umožňuje přijetí transakce do jejich mempoolu a bloků bez porušení konsensu, zatímco uzly s podporou SegWit provedou skutečné kryptografické ověření pomocí údajů svědků.

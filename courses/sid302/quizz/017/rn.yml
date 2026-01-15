@@ -1,0 +1,8 @@
+question: Mu citegererezo c’ubumwe bwa Liquid, ni umubare mutoyi w’imikono y’abakozi isabwa kugira ngo umuntu yemeze igice, kandi ni umubare munini w’ugusenyuka kw’ibihimba urubuga rushobora kwihanganira?
+answer: 11 imikono irakenewe, ishobora kwihanganira kunanirwa kw'imirongo 4
+wrong_answers:
+  - Imikono 8 irakenewe, ishobora kwihanganira gushika ku kunanirwa kw'imirongo 7
+  - Imikono 15 irakenewe, ishobora kwihanganira kunanirwa kw'imirongo 2
+  - Imikono 9 irakenewe, ishobora kwihanganira kunanirwa kw'imirongo 6
+explanation: |
+  Liquid ikoresha uburyo bwo gushiramwo 11 kuri 15 aho nibura abakozi 11 kuri 15 bategerezwa gushira umukono kuri buri bubiko kugira ngo bube ubw’ukuri. Iyi nzira ituma urubuga rukomeza gukora naho nyene ama node ashika kuri 4 yoba yananiwe (15 - 11 = 4). Ayandi mahitamwo ashobora gutanga ibipimo vy'imikono bitari vyo canke agaharura nabi ukwihanganira amakosa, ari vyo vyama ari umubare wose w'imikono ikenewe.

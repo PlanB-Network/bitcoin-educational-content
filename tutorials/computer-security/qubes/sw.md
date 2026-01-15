@@ -29,7 +29,7 @@ Qubes OS inategemea kanuni ya compartmentalization. Badala ya kutumia mfumo mmoj
 
 
 
-Mtumiaji Interface inadhibitiwa na kikoa kikuu, salama kinachoitwa **dom0**. Kikoa hiki kimetengwa kabisa na Mtandao, na kuifanya kuwa moyo wa mfumo. Ingawa madirisha na menyu huonyeshwa na dom0, utekelezaji halisi wa programu hufanyika katika qubes husika.
+Mtumiaji Interface inadhibitiwa na kikoa kikuu, salama kinachoitwa **dom0**. Kikoa hiki kimetengwa kabisa na Mtandao, na kuifanya kuwa moyo wa mfumo. Ingawa windows na menyu huonyeshwa na dom0, utekelezaji halisi wa programu hufanyika katika qubes husika.
 
 
 
@@ -77,16 +77,15 @@ Hatimaye, kwa kazi za mara kwa mara au hatari, Qubes OS hutoa **DisposableVM**. 
 
 
 
-Ubadilishanaji kati ya qubes unatokana na **qrexec**, mfumo wa mawasiliano kati ya VM ulioundwa kwa ajili ya usalama. Badala ya kuruhusu qubes kuwasiliana kwa uhuru, qrexec inaweka **sera mahususi**: faili iliyonakiliwa kutoka AppVM moja hadi nyingine, au maandishi yanayohamishwa kupitia ubao wa kunakili, hupitia kila mara kituo kinachofuatiliwa na kuthibitishwa na mfumo. Kwa njia hii, hata kitendo rahisi cha kunakili na kubandika kinadhibitiwa ili kuzuia kuenea kwa programu hasidi.
+Exchange kati ya qubes unatokana na **qrexec**, mfumo wa mawasiliano kati ya VM ulioundwa kwa ajili ya usalama. Badala ya kuruhusu qubes kuwasiliana kwa uhuru, qrexec inaweka **sera mahususi**: faili iliyonakiliwa kutoka AppVM moja hadi nyingine, au maandishi yanayohamishwa kupitia ubao wa kunakili, hupitia kila mara kituo kinachofuatiliwa na kuthibitishwa na mfumo. Kwa njia hii, hata kitendo rahisi cha kunakili na kubandika kinadhibitiwa ili kuzuia kuenea kwa programu hasidi.
 
 
 
-### Usimamizi wa diski
+### Usimamizi wa disk
 
 
 
-Qubes OS hutumia mfumo wa busara kwa usimamizi wa uhifadhi. TemplateVM zina msingi wa programu za kawaida, huku AppVM zinaongeza tu data zao za kibinafsi na faili mahususi. Hii inapunguza matumizi ya nafasi ya diski na kuwezesha masasisho ya kimataifa. DisposableVMs, kwa upande mwingine, hutumia viwango vya muda ambavyo hupotea kabisa wakati imefungwa. Mfano huu sio tu dhamana ya usalama zaidi, lakini pia usimamizi bora wa rasilimali.
-
+Qubes OS hutumia mfumo wa busara kwa usimamizi wa uhifadhi. TemplateVM zina msingi wa programu za kawaida, huku AppVM zikiwa na data za kibinafsi na faili mahususi pekee. Hii hupunguza matumizi ya nafasi kwenye diski na kuwezesha masasisho ya kimataifa kwa urahisi. DisposableVMs, kwa upande mwingine, hutumia mazingira ya muda ambayo hufutwa kabisa mara tu yanapofungwa. Mfumo huu hauleti tu ulinzi bora wa usalama, bali pia unasababisha usimamizi bora wa rasilimali.
 
 
 ## Kwa nini uchague Qubes OS?
@@ -97,7 +96,7 @@ Faida za Qubes OS ziko juu ya yote katika muundo wake wa kipekee wa usalama. Kii
 
 
 
-Qubes OS pia hutoa uwazi na udhibiti kamili wa mazingira yako ya kidijitali. Unajua ni programu gani ina ufikiaji wa rasilimali gani, iwe ni mtandao, kifaa cha USB au vipengee vingine nyeti. Mfumo huu unajumuisha vipengele vya juu vya usalama kwa chaguomsingi, kama vile usimbaji fiche kamili wa diski, na kuwezesha matumizi ya huduma za kutokutambulisha kama vile mfumo wa uendeshaji wa Whonix.
+Qubes OS pia hutoa uwazi na udhibiti kamili wa mazingira yako ya kidijitali. Unajua ni programu gani ina ufikiaji wa rasilimali gani, iwe ni mtandao, kifaa cha USB au vipengee vingine nyeti. Mfumo huu unajumuisha vipengele vya juu vya usalama kwa chaguomsingi, kama vile usimbaji fiche kamili wa disk, na kuwezesha matumizi ya huduma za kutokutambulisha kama vile mfumo wa uendeshaji wa Whonix.
 
 
 
@@ -132,7 +131,7 @@ https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21
 
 
 
-Mara baada ya ISO kuthibitishwa, unahitaji kuunda kati ya usakinishaji wa bootable, kwa kawaida fimbo ya USB. Ili kufanya hivyo, pakua na usakinishe programu kama vile **Rufus** kwenye Windows au **Etcher** kwenye Windows, Linux au macOS. Zana hizi hukuwezesha kunakili ISO kwenye fimbo ya USB ili iweze kuendeshwa.
+Mara baada ya ISO kuthibitishwa, unahitaji kuunda kati ya usakinishaji wa bootable, kwa kawaida USB stick. Ili kufanya hivyo, pakua na usakinishe programu kama vile **Rufus** kwenye Windows au **Etcher** kwenye Windows, Linux au macOS. Zana hizi hukuwezesha kunakili ISO kwenye USB stick ili iweze kuendeshwa.
 
 
 
@@ -151,7 +150,7 @@ Mara tu masharti haya yametimizwa, fungua upya kompyuta yako na ufikie BIOS/UEFI
 **Skrini ya kuanza**
 
 
-Unapoanzisha kutoka kwa fimbo ya USB, utachukuliwa moja kwa moja kwenye menyu ya **GRUB**, ambapo unaweza kuchagua kitendo cha kufanywa. Kwa kutumia vitufe vya mshale kwenye kibodi yako, chagua "Sakinisha Qubes OS" na ubonyeze "Ingiza".
+Unapoanzisha kutoka kwa USB stick, utachukuliwa moja kwa moja kwenye menyu ya **GRUB**, ambapo unaweza kuchagua kitendo cha kufanywa. Kwa kutumia vitufe vya mshale kwenye kibodi yako, chagua "Sakinisha Qubes OS" na ubonyeze "Ingiza".
 
 
 
@@ -195,7 +194,7 @@ Bofya chaguo la **Kibodi**, kisha uchague **mpangilio unaofaa** wa kompyuta yako
 
 
 
-Teua chaguo la "Njia ya usakinishaji" ili kuchagua diski ambayo ungependa kusakinisha Qubes OS. Kwa chaguo-msingi, ugawaji hufanyika moja kwa moja, kukuwezesha kuondoa data zote kutoka kwenye diski na kufunga mfumo juu yake. Hata hivyo, unaweza kuchagua **Iliyobinafsishwa** au **Ubinafsishaji wa Hali ya Juu** ili kutekeleza ugawaji uliobinafsishwa. Kisha bonyeza "Imefanyika". Mfumo utakuuliza uweke **nenosiri**, ambalo hutumika kama Layer ya usalama ili kusimba data yako. Hakikisha kuchagua nenosiri ngumu na la kipekee.
+Teua chaguo la "Njia ya usakinishaji" ili kuchagua disk ambayo ungependa kusakinisha Qubes OS. Kwa chaguo-msingi, ugawaji hufanyika moja kwa moja, kukuwezesha kuondoa data zote kutoka kwenye disk na kufunga mfumo juu yake. Hata hivyo, unaweza kuchagua **Iliyobinafsishwa** au **Ubinafsishaji wa Hali ya Juu** ili kutekeleza ugawaji uliobinafsishwa. Kisha bonyeza "Imefanyika". Mfumo utakuuliza uweke **nenosiri**, ambalo hutumika kama Layer ya usalama ili kusimba data yako. Hakikisha kuchagua nenosiri ngumu na la kipekee.
 
 
 
@@ -259,7 +258,7 @@ Subiri **mwisho wa usakinishaji**, kisha ubofye kwenye **anzisha upya mfumo** il
 **Mipangilio ya ziada** :
 
 
-Baada ya kuwasha upya, Qubes OS inakuomba ukamilishe **violezo chaguomsingi na usanidi wa qubes**. Ingiza nenosiri lililofafanuliwa ili kusimba diski kwa njia fiche.
+Baada ya kuwasha upya, Qubes OS inakuomba ukamilishe **violezo chaguomsingi na usanidi wa qubes**. Ingiza nenosiri lililofafanuliwa ili kusimba disk kwa njia fiche.
 
 
 
@@ -283,7 +282,7 @@ Katika sehemu ya **Usanidi Mkuu**, unaweza kuchagua kuunda kiotomatiki qubes muh
 
 
 
-Qubes OS pia hukuruhusu kuunda **qube iliyoundwa kwa vifaa vya USB** (sys-usb) na usanidi **Whonix Gateway na Workstation qubes** ili kulinda mawasiliano yako kupitia mtandao wa Tor. Kwa watumiaji wa hali ya juu, sehemu ya **Usanidi wa hali ya juu** hukuruhusu kuunda **dimbwi nyembamba la LVM** ili kudhibiti vyema nafasi ya diski kati ya qubes.
+Qubes OS pia hukuruhusu kuunda **qube iliyoundwa kwa vifaa vya USB** (sys-usb) na usanidi **Whonix Gateway na Workstation qubes** ili kulinda mawasiliano yako kupitia mtandao wa Tor. Kwa watumiaji wa hali ya juu, sehemu ya **Usanidi wa hali ya juu** hukuruhusu kuunda **dimbwi nyembamba la LVM** ili kudhibiti vyema nafasi ya disk kati ya qubes.
 
 
 

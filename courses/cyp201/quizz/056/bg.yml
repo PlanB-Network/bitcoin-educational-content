@@ -1,0 +1,8 @@
+question: Каква константа се използва за извличане на главния частен ключ от seed?
+answer: Семена Bitcoin
+wrong_answers:
+  - Основен ключ
+  - HD Wallet Семена
+  - Корен Blockchain
+explanation: |
+  Константата Bitcoin Seed се използва като ключ във функцията HMAC-SHA512 за получаване на главния частен ключ и главния chain code.

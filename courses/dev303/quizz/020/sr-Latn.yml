@@ -1,0 +1,8 @@
+question: Koja je glavna razlika između metoda i pridruženih funkcija u Rust strukturama?
+answer: Metode uzimaju self kao svoj prvi parametar, dok pridružene funkcije to ne čine.
+wrong_answers:
+  - Metode su javne po podrazumevanoj vrednosti, dok su pridružene funkcije privatne po podrazumevanoj vrednosti.
+  - Metode mogu samo čitati podatke, dok pridružene funkcije mogu menjati polja strukture.
+  - Metode koriste tačku za pozivanje, dok povezane funkcije koriste strelicu za pozivanje
+explanation: |
+  Metode u Rust su funkcije definisane u impl bloku koje uzimaju neki oblik self kao svoj prvi parametar (self, &self, ili &mut self), omogućavajući im da rade na instancama strukture. Asocirane funkcije su takođe definisane u impl blokovima, ali ne uzimaju self kao parametar, što ih čini sličnim statičkim metodama u drugim jezicima. Asocirane funkcije se pozivaju koristeći sintaksu sa dvostrukim dvotačkom (Type::function_name()) i često se koriste kao konstruktori, dok se metode pozivaju na instancama koristeći tačku. Ostale opcije su netačne jer i metode i asocirane funkcije prate ista pravila vidljivosti, obe mogu biti dizajnirane da modifikuju ili čitaju podatke u zavisnosti od njihove implementacije, a asocirane funkcije koriste sintaksu sa dvostrukim dvotačkom, a ne strelicom.

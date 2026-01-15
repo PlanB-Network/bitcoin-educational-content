@@ -6,3 +6,4 @@ wrong_answers:
   - Det minskar nätverkets totala hashfrekvens eftersom gruvarbetare spenderar resurser på konnektivitet istället för mining
 explanation: |
   I kapitlet förklaras att när blockstorleken ökar ökar spridningstiderna, vilket leder till fler inaktuella block. För att undvika att förlora blockbelöningar från inaktuella block söker sig miners till pooler med bättre bandbredd och anslutning. Detta driver miners mot större, välanslutna pooler, vilket minskar mining-decentraliseringen. De andra alternativen är felaktiga: svårighetsgraden justeras automatiskt oavsett poolanslutning, anslutningskostnader skapar inte ytterligare transaktionsavgifter och miners minskar inte hashhastigheten när de går med i bättre anslutna pooler.
+reviewed: false

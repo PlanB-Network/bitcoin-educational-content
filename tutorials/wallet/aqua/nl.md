@@ -57,7 +57,7 @@ De eerste stap is natuurlijk het downloaden van de Aqua applicatie. Ga naar je a
 ![AQUA](assets/fr/04.webp)
 
 
-Voor Android gebruikers heb je ook de optie om de applicatie te installeren via het `.apk` bestand [beschikbaar op hun GitHub] (https://github.com/AquaWallet/Aqua-Wallet/releases).
+Voor Android gebruikers heb je ook de optie om de applicatie te installeren via het `.apk` bestand [beschikbaar op hun GitHub](https://github.com/AquaWallet/Aqua-Wallet/releases).
 
 
 ![AQUA](assets/fr/05.webp)

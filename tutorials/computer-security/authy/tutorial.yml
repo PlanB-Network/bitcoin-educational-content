@@ -1,5 +1,7 @@
 id: a76ab26b-71b0-473c-aa7c-c49153705eb7
 
+last_update_date: 2024-08-31
+
 category: authentication
 
 level: beginner
@@ -9,6 +11,8 @@ professor_id: 6516474c-c190-41f2-b2ab-3d452ce7bdf0
 
 # Proofreading metadata
 project_id: 4c46c260-bc35-4c8c-8cf7-24ec0b2d8688
+license: CC-BY-SA-V4
+
 original_language: fr
 proofreading:
   - language: fr
@@ -31,7 +35,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.38
+    reward: 2.0
   - language: ru
     last_contribution_date:
     urgency: 1
@@ -82,7 +86,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.38
+    reward: 2.0
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -92,7 +96,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.76
+    reward: 2.0
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -105,10 +109,11 @@ proofreading:
       - Sanja22B
     reward: 0.81
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 1.62
+      - Tinnah924
+    reward: 0.81
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
@@ -143,7 +148,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.38
+    reward: 2.0
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 1.62
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 2.0
 tags:
   - personal-security
   - guides

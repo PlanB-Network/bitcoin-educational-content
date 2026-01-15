@@ -6,3 +6,4 @@ wrong_answers:
   - Verbesserung der Leistung der Signaturprüfung zur schnelleren Verarbeitung von Blöcken
 explanation: |
   Das Kapitel definiert Bitcoin-Skalierung ausdrücklich als "Erhöhung der Nutzungskapazität von Bitcoin ohne Beeinträchtigung seiner Zensurresistenz" Die richtige Antwort verstößt gegen diese Definition, da die Anforderung an die Nutzer, zentralisierten Zahlungsverarbeitern zu vertrauen, direkt die Zensurresistenz von Bitcoin beeinträchtigt - ein zentrales Wertversprechen. Die falschen Antworten stellen alle legitime Skalierungsansätze dar, die im Kapitel erwähnt wurden: effiziente Verschlüsselung reduziert den Ressourcenverbrauch, mehrschichtige Lösungen ermöglichen zusätzliche Kapazität unter Beibehaltung der Eigenschaften der Basisschicht, und verbesserte Signaturprüfung erhöht die Leistung ohne Kompromisse bei der Zentralisierung.
+reviewed: false

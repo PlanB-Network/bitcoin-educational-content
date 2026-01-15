@@ -1,11 +1,11 @@
-question: Ni kuki ari vyiza kwirinda umucukumbuzi wa Google Chrome?
-answer: Kubera abayikurikirana.
+question: Ni kuki ari vyiza kwirinda mucukumbuzi ya Google Chrome?
+answer: Kubera ubushobozi ibifise bwo gukurikirana.
 wrong_answers:
-  - Kubera ko ata mutekano ufise.
-  - Kuko ntabwo ari ikintu gikoreshwa neza.
-  - Kuko ntashigikira ivyungura.
+  - Kubera ko ata mutekano ifise.
+  - Kubera ko itoroshe gukoresha.
+  - Kubera ko itajamwo inyongerabushobozi.
 explanation: |
-  Mucukumbuzi ya Google Chrome izwi kubera abayikurikirana, bashobora
-  kwegeranya amakuru yerekeye igikorwa cawe co kuri interineti. Ivyo bishobora kuba
-  ivyerekeye ubuzima bwite ku bamwebamwe bakoresha.
+  Mucukumbuzi ya Google Chrome izwi kubera ubushobozi ifise bwo gukurikirana, bishobora gutuma 
+  yegeranya amakuru yerekeye ibikorwa vyawe vyo kuri interineti. Ivyo bishobora kuba
+  vyahangayikisha umuntu mubuzima bwe bwihariye kuri bamwebamwe.
 reviewed: true

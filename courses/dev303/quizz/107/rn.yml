@@ -1,0 +1,8 @@
+question: Ni ubuhe bushobozi buhambaye butuma LDK iguma ikora Lightning mu bikoresho vyose bigendagenda bifise ubufatanye bugenda buhinduka ugereranyije n’ibikoresho vya Lightning bishingiye kuri daemon?
+answer: Ubushobozi bwa LDK bwo gukorana n'abatanga ibikorwa vy'umuravyo (LSPs) igihe baza kuri interineti mu gihe bagumana ubugenzuzi bw'urufunguzo rw'ibanga rudafise ububiko
+wrong_answers:
+  - "LDK yubatswemwo ubuhinga bwo kwishura ata murongo bushira ku murongo amafaranga gushika ubufatanye bw'urubuga bugarutse"
+  - "Uburyo bwo gucungera amakuru bwa LDK bukwiragiye busubiramwo amakuru ku batanga amakuru mu bicu vyinshi"
+  - "Imirongo ngenderwako y'urubuga rwa LDK yemerera kwishura ku gikoresho ku kindi ata internet"
+explanation: |
+  Ubwubatsi bwa LDK bushobora gutuma porogarama zigendanwa zishira mu ngiro uburyo bwo gukorana n’ibindi bihugu mu gukorana n’ama LSP iyo zije kuri Internet, bikaba bituma abakoresha bashobora kwakira amahera no gucunga imihora mbere n’igihe igikoresho co kuri interineti cari kitari ku rubuga. Ivyo bitandukanye cane n’amadayimoni y’umuravyo asanzwe asaba gukora ubudasiba. Inyishu zitari zo zidondora ibintu bitabaho - LDK nta bushobozi bwo kwishura bushingiye ku nzira, ububiko busanzwe, canke ubushobozi bwo gukorana n'urusenga.

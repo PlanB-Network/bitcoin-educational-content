@@ -681,7 +681,7 @@ Từ Graylog, nhấp vào "**Hệ thống**" trong menu, sau đó nhấp vào "*
 
 
 
-Đặt tên cho chỉ mục này, ví dụ: "**Linux Index**", thêm mô tả và tiền tố trước khi xác nhận. Tại đây, chúng tôi sẽ **lưu trữ tất cả nhật ký Linux trong chỉ mục này**. Bạn cũng có thể tạo các chỉ mục cụ thể để chỉ lưu trữ một số nhật ký nhất định (chỉ nhật ký [SSH] (https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/ "SSH"), nhật ký dịch vụ web, v.v.).
+Đặt tên cho chỉ mục này, ví dụ: "**Linux Index**", thêm mô tả và tiền tố trước khi xác nhận. Tại đây, chúng tôi sẽ **lưu trữ tất cả nhật ký Linux trong chỉ mục này**. Bạn cũng có thể tạo các chỉ mục cụ thể để chỉ lưu trữ một số nhật ký nhất định (chỉ nhật ký [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/ "SSH"), nhật ký dịch vụ web, v.v.).
 
 
 

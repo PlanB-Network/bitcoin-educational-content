@@ -1,0 +1,8 @@
+question: Tính chất toán học nào đảm bảo rằng các điểm trên đường cong elip có thể được cộng lại với nhau một cách nhất quán và có thể dự đoán được trong các hoạt động mật mã?
+answer: Các điểm tạo thành một nhóm toán học có tính chất đóng, tính chất kết hợp, tính chất đơn vị và tính chất nghịch đảo.
+wrong_answers:
+  - Các điểm duy trì các đường cong mượt mà liên tục, bảo toàn các mối quan hệ hình học.
+  - Các điểm số tuân theo các mô hình tiến triển tuyến tính tạo ra các chuỗi có thể dự đoán được.
+  - Hệ thống tính điểm sử dụng phép toán số học modulo, tự động ngăn ngừa các lỗi tính toán.
+explanation: |
+  Các điểm trên đường cong elip tạo thành một nhóm toán học dưới phép cộng, có nghĩa là chúng thỏa mãn bốn tính chất thiết yếu: tính đóng (cộng hai điểm cho ra một điểm khác trên đường cong), tính kết hợp (thứ tự các phép toán không quan trọng), tính đơn vị (điểm vô cực hoạt động như số không), và tính nghịch đảo (mỗi điểm đều có một điểm phản chiếu triệt tiêu nó). Các tính chất nhóm này là điều làm cho mật mã đường cong elip hoạt động đáng tin cậy và cho phép các phép toán như phép nhân vô hướng hoạt động nhất quán, bất kể chúng ta đang làm việc với các đường cong thực trơn tru hay các điểm trường hữu hạn rời rạc.

@@ -1521,7 +1521,7 @@ Jedną z kluczowych przewag Umbrel nad konkurencją jest ogromna i bardzo aktywn
 
 
 
-Kod Umbrel jest publicznie dostępny (można go przeglądać, Fork i modyfikować), ale nie jest objęty prawdziwą licencją open-source. W rzeczywistości umbrelOS jest rozpowszechniany na licencji [*PolyForm Noncommercial 1.0*] (https://polyformproject.org/licenses/noncommercial/1.0.0/), chociaż niektóre powiązane narzędzia programistyczne są dostępne na licencji MIT.
+Kod Umbrel jest publicznie dostępny (można go przeglądać, Fork i modyfikować), ale nie jest objęty prawdziwą licencją open-source. W rzeczywistości umbrelOS jest rozpowszechniany na licencji [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0/), chociaż niektóre powiązane narzędzia programistyczne są dostępne na licencji MIT.
 
 
 
@@ -2472,7 +2472,7 @@ Aby dowiedzieć się więcej na temat korzystania z eksploratora Mempool.Space, 
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Węzeł Lightning
 

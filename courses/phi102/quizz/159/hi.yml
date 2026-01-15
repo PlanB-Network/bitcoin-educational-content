@@ -1,0 +1,8 @@
+question: According to liberal economic theory, what is the primary reason why progressive taxation is considered problematic compared to proportional taxation?
+answer: It treats individuals as property of the group rather than recognizing equal protection under law
+wrong_answers:
+  - It creates administrative complexity that makes tax collection inefficient and costly
+  - It reduces government revenue by discouraging economic activity at higher income levels
+  - It violates the principle of majority rule by favoring minority interests over collective needs
+explanation: |
+  Liberal economists argued that progressive taxation represents a return to ancient conceptions where individuals belong to the collective. Since all citizens receive equal protection under the legal framework, they should contribute proportionally rather than progressively. Progressive taxation implies that some individuals owe more to society simply because of their success, treating them as property of the group rather than as equal citizens with equal rights and responsibilities.

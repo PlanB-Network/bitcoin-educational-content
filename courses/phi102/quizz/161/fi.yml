@@ -1,0 +1,8 @@
+question: Tocquevillen demokraattisia yhteiskuntia koskevan analyysin mukaan mikä perustavanlaatuinen mekanismi estää hallituksia säästelemästä julkisten menojen kanssa?
+answer: Kansalaisilla on luonnollisesti taipumus torjua maksuja, vaikka he nauttivat hyödyistä, mikä katkaisee yhteyden palveluista nauttimisen ja niiden kustannusten kantamisen välillä
+wrong_answers:
+  - Demokraattisilla hallituksilla ei ole teknistä asiantuntemusta julkisten resurssien tehokkaaseen hallinnointiin verrattuna yksityisen sektorin johtajiin
+  - Perustuslailliset rajoitukset estävät demokraattisia johtajia tekemästä nopeita päätöksiä budjettileikkauksista talouskriisien aikana
+  - Vaalikierrokset pakottavat poliitikot asettamaan lyhyen aikavälin suosion pitkän aikavälin finanssipoliittisen vastuun ja taloussuunnittelun edelle
+explanation: |
+  Tocqueville totesi, että ydinongelma on ihmisluonnossa itsessään - ihmiset haluavat luonnostaan siirtää kustannukset muille ja pitää hyödyt itsellään. Tämä katkaisee keskeisen yhteyden julkisista palveluista nauttimisen ja niiden kustannusten kantamisen välillä. Tämä mekanismi mahdollistaa alijäämäisen varainkäytön ja velkaantumisen, kun nykyiset kansalaiset voivat nauttia palveluista ja sysätä taloudellisen taakan tuleville sukupolville, jotka eivät voi puolustaa etujaan, koska heitä ei vielä ole olemassa eivätkä he voi äänestää.

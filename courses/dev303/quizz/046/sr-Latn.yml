@@ -1,0 +1,8 @@
+question: Šta se dešava kada klonirate instancu RC<T> koja sadrži veliku strukturu podataka?
+answer: Samo se referenca kopira i brojač referenci se povećava, ostavljajući originalne podatke nepromenjenim.
+wrong_answers:
+  - Cela struktura podataka je duplicirana u memoriji i obe kopije održavaju zasebne brojače referenci
+  - Plitka kopija je kreirana gde su primitivna polja kopirana, ali kompleksna polja ostaju deljene reference.
+  - Podaci se premeštaju na novu memorijsku lokaciju i originalni RC postaje nevažeći dok se ponovo ne inicijalizuje.
+explanation: |
+  Kada klonira RC, Rust samo kopira pokazivač reference i povećava interni brojač referenci, čineći operaciju izuzetno efikasnom bez obzira na veličinu podataka. Osnovni podaci ostaju na istoj lokaciji u memoriji i dele se između svih instanci RC. Ovo je suštinski različito od kloniranja stvarnih podataka, što bi poništilo svrhu deljenog vlasništva i trošilo memoriju.

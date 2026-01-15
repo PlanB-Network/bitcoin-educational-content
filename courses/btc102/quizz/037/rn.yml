@@ -1,9 +1,9 @@
-question: Ni igiki cokwirindwa rwose kugira ngo umutekano w’ama bitcoins yawe ube mwiza?
-answer: Kubika amafaranga yawe ku rubuga rwa Exchange
+question: Ni igiki cokwirindwa rwose kugira urinde umutekano w'ama bitcoins yawe?
+answer: Kubika amafaranga yawe ku rubuga zo guhanahana
 wrong_answers:
-  - Gukoresha inkomoko yuguruye Hardware Wallet.
+  - Gukoresha inkomoko yuguruye y'ingodo.
   - Gukoresha Hot Wallet ku bikorwa vya misi yose
   - Guhindura uburyo bwo kubika
 explanation: |
-  Ingingo ngenderwako ngo "Si imfunguruzo zawe, si ama bitcoins yawe" irashira ahabona akamaro ko kugira imfunguruzo zawe bwite. Ku rubuga rwa Exchange, ama bitcoins yawe arashikirwa n’ingorane zidakenewe.
+  Ingingo ngenderwako ngo "ata imfunguruzo zawe, ntana bitcoins yawe" irashira ahabona akamaro ko kugira imfunguruzo zawe bwite. Ku mbuga zo guhanahana, ama bitcoins yawe arashikirwa n’ingorane zidakenewe.
 reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - Aktualizacja spowodowała trwały podział łańcucha, ponieważ górnicy i użytkownicy nie zgadzali się co do szczegółów implementacji
 explanation: |
   Incydent BIP66 ujawnił krytyczną wadę soft forków aktywowanych przez górników: sygnalizowanie gotowości nie gwarantuje faktycznej walidacji. Pomimo tego, że 95% górników wskazało, że są gotowi na aktualizację, około połowa z nich nie zweryfikowała prawidłowo nowych zasad i omyłkowo dokonała wydobycia na nieprawidłowym bloku. Pokazało to, że sygnalizacja mocy hashowania może być myląca i nie zapewnia prawidłowej implementacji, co było jednym z kluczowych argumentów Shaolinfry za zaproponowaniem User Activated Soft Forks jako bardziej niezawodnego mechanizmu aktualizacji.
+reviewed: false

@@ -16,7 +16,7 @@ Lengo la somo hili ni kumwezesha mmiliki wa biashara ndogo, hasa duka, mchuuzi w
 ### Mifano Maarufu
 
 
-Katika baadhi ya maeneo ya dunia, kuna jumuiya zinazoweza kufafanuliwa kama "mviringo", ambapo Bitcoin inakubaliwa na kutumiwa sana na idadi ya watu kulipia huduma katika shughuli za kibiashara. Hata wafanyabiashara, baada ya kulipwa katika Bitcoin na wateja wao, wameingia makubaliano na wasambazaji wao kulipia bidhaa katika Bitcoin.
+Katika baadhi ya maeneo ya dunia, kuna jumuiya zinazoweza kufafanuliwa kama "cycle", ambapo Bitcoin inakubaliwa na kutumiwa sana na idadi ya watu kulipia huduma katika shughuli za kibiashara. Hata wafanyabiashara, baada ya kulipwa katika Bitcoin na wateja wao, wameingia makubaliano na wasambazaji wao kulipia bidhaa katika Bitcoin.
 
 
 ## Inakubali Bitcoin
@@ -52,7 +52,7 @@ Faida za kutumia kipengele cha Point of Sale ni mara tatu:
 
 
 - utendaji wa mapokezi pekee, kamili kwa kuwaacha wafanyikazi kukusanya malipo kutoka kwa wateja bila wao kuweza kutumia pesa hizo;
-- inaruhusu kuunda orodha ya bei na bidhaa za duka lako, ili uweze kuunda ankara za Umeme kwa kuchagua bidhaa zilizonunuliwa;
+- inaruhusu kuunda orodha ya bei na bidhaa za duka lako, ili uweze kuunda lightning invoice kwa kuchagua bidhaa zilizonunuliwa;
 - hupakua ripoti za mauzo katika umbizo la CSV.
 
 
@@ -64,13 +64,13 @@ https://planb.academy/tutorials/business/point-of-sale/wallet-of-satoshi-pos-efc
 ## Udhibiti
 
 
-Udhibiti wa Bitcoin unatofautiana sana kutoka nchi moja hadi nyingine. Baadhi ya nchi zina kanuni zilizo wazi na kali, wakati zingine hazieleweki na hazieleweki. Nchi nyingi zinahitaji kutangaza Bitcoin katika milki yako (kama mtu binafsi na biashara) kwa ajili ya ufuatiliaji wa kodi au madhumuni ya kodi.
+Udhibiti wa Bitcoin unatofautiana sana kutoka nchi moja hadi nyingine. Baadhi ya nchi zina kanuni zilizo wazi na kali, wakati zingine hazina ufafanuzi na kueleweka vizuri. Nchi nyingi zinahitaji kutangaza umiliki wa Bitcoin (kwa mtu binafsi na biashara) kwa ajili ya ufuatiliaji wa kodi au madhumuni ya kodi.
 
 
 ## Suluhisho kwa Wafanyabiashara
 
 
-Bila kujali udhibiti katika nchi yako, hatua rahisi zaidi kwa mfanyabiashara mdogo ni kubadilisha Bitcoins zilizopokewa kuwa fedha za ndani mara baada ya kuzipokea. Kwa njia hii, unaweza kuepuka matatizo katika kukubali, kutangaza na kuhesabu Bitcoin ndani ya shughuli zako za kibiashara.
+Bila kujali udhibiti katika nchi yako, hatua rahisi zaidi kwa mfanyabiashara mdogo ni kubadilisha Bitcoin zilizopokewa kuwa fedha za ndani mara baada ya kuzipokea. Kwa njia hii, unaweza kuepuka matatizo katika kukubali, kutangaza na kuhesabu Bitcoin ndani ya shughuli zako za kibiashara.
 
 
 **Kumbuka**: Katika baadhi ya aina za biashara, kunaweza kusiwe na hati zozote za karatasi zinazohusiana na shughuli kati ya mteja na muuzaji, kwa hivyo kwa mmiliki wa biashara, itakuwa rahisi zaidi na mara moja!
@@ -82,7 +82,7 @@ Wacha tuangalie faida na hasara za suluhisho hili:
 ### Faida
 
 
-Mbinu hii rahisi hukuruhusu kuepuka matatizo kadhaa: huondoa hitaji la taratibu za KYC (Mjue Mteja Wako) kwenye Bitcoins zilizopokelewa kama malipo, ambayo ni mbinu inayodhuru sana faragha na usalama wa mtu binafsi; na huweka shughuli za uhasibu bila kubadilika, kwani hakuna haja ya kurekodi Bitcoins hizo.
+Mbinu hii rahisi hukuruhusu kuepuka matatizo kadhaa: huondoa hitaji la taratibu za KYC (Mjue Mteja Wako) kwenye Bitcoin zilizopokelewa kama malipo, ambayo ni mbinu inayodhuru sana faragha na usalama wa mtu binafsi; na huweka shughuli za uhasibu bila kubadilika, kwani hakuna haja ya kurekodi Bitcoin hizo.
 
 
 Hutahitaji kuwekeza muda na pesa zaidi na mshauri wako wa kodi ili kufuatilia mapato haya, kwa kuwa yatakuwa sawa na mapato mengine yote.
@@ -91,16 +91,16 @@ Hutahitaji kuwekeza muda na pesa zaidi na mshauri wako wa kodi ili kufuatilia ma
 ### Hasara
 
 
-Kadiri kiasi cha miamala ya Bitcoin kinavyoongezeka, kuingiza pesa kwenye till kunaweza kuwa jambo lisilowezekana, kwa mfano, pesa zinazopatikana haziwezi kulipia risiti zote za Bitcoin. Hata hivyo, hii ni hali isiyowezekana kwa wamiliki wengi wa biashara ambao wanaanza kukubali Bitcoin. Tatizo jingine linaloweza kutokea katika baadhi ya nchi za Ulaya ni kwamba aina ya biashara yako inaweza kukuzuia kupokea pesa kama njia ya malipo ya bidhaa na huduma zinazotolewa kwa wateja. Katika hali hiyo, ufumbuzi uliopendekezwa hautatosha tena.
+Kadiri kiasi cha miamala ya Bitcoin kinavyoongezeka, kuingiza pesa kwenye till kinaweza kuwa jambo lisilowezekana; kwa mfano, pesa zinazopatikana haziwezi kulipia risiti zote za Bitcoin. Hata hivyo, hii ni hali isiyowezekana kwa wamiliki wengi wa biashara wanaoanza kukubali Bitcoin. Tatizo jingine linaloweza kutokea katika baadhi ya nchi za Ulaya ni kwamba aina ya biashara yako inaweza kukuzuia kupokea pesa kama njia ya malipo kwa bidhaa na huduma unazotoa kwa wateja. Katika hali hiyo, ufumbuzi uliopendekezwa hautatosha tena.
 
 
 ## Ripoti ya Bitcoin
 
 
-Kama tulivyoona, ni rahisi kukubali Bitcoin bila kuanzisha taratibu mpya za uhasibu zinazodhuru faragha ya mtu binafsi; hata hivyo, bado itakuwa vyema kudumisha mfumo wa uhasibu sambamba ili kufuatilia mtiririko wako wa Bitcoin. Usijali, inaweza kuwa rahisi upendavyo, mradi tu unaelewa ni Bitcoins ngapi zinaingia na kuondoka kwenye Wallet yako.
+Kama tulivyoona, ni rahisi kukubali Bitcoin bila kuanzisha taratibu mpya za uhasibu zinazodhuru faragha ya mtu binafsi; hata hivyo, bado itakuwa vyema kudumisha mfumo wa uhasibu sambamba ili kufuatilia mtiririko wako wa Bitcoin. Usijali, inaweza kuwa rahisi upendavyo, mradi tu unaelewa ni Bitcoin ngapi zinaingia na kuondoka kwenye Wallet yako.
 
 
-**Tahadhari**: kujaza sehemu ya `Kumbuka` unapounda LN Invoice kwa ajili ya mteja kutarahisisha kusasisha hesabu ya Bitcoin. Vile vile kwa kufanya malipo ya LN kwa wauzaji. Kwa kweli, kila shughuli inahusishwa na dokezo la malipo.
+**Tahadhari**: kujaza sehemu ya `Kumbuka` unapounda LN Invoice kwa ajili ya mteja kutarahisisha kusasisha hesabu ya Bitcoin. Vile vile kwa kufanya malipo ya LN kwa wauzaji. Kwa kweli, kila muamala unahusishwa na dokezo la malipo.
 
 
 ## Hitimisho

@@ -1,0 +1,8 @@
+question: Millaisen matemaattisen rakenteen elliptisen käyrän pisteet muodostavat yhteenlaskuoperaatiossa?
+answer: Matemaattinen ryhmä, jolla on sulkeutuneisuus, assosiatiivisuus, identiteetti ja käänteisluvut
+wrong_answers:
+  - Äärellinen kenttä, jossa on määritelty kerto- ja jako-operaatiot
+  - Vektoriavaruus, jossa on skalaarikertoja ja lineaarikombinaatioita
+  - Rengasrakenne, jossa on sekä yhteenlasku- että kertolaskuoperaatioita
+explanation: |
+  Elliptisen käyrän pisteet muodostavat matemaattisen ryhmän yhteenlaskussa, mikä tarkoittaa, että ne täyttävät neljä olennaista ominaisuutta: sulkeutuneisuus (kahden pisteen lisääminen antaa toisen pisteen käyrälle), assosiatiivisuus (operaatioiden järjestyksellä ei ole väliä), identtisyys (äärettömyyspiste toimii nollana) ja inversiot (jokaisella pisteellä on x-akselin poikki kulkeva heijastus, joka kumoaa sen). Tämä ryhmärakenne on elliptisten käyrien kryptografian kannalta olennainen, koska se varmistaa, että operaatiot, kuten skalaarikertolasku (pisteen lisääminen itseensä toistuvasti), ovat hyvin määriteltyjä ja ennustettavia, mikä mahdollistaa Bitcoin:ssa käytettyjen salausprotokollien kaltaiset turvalliset kryptografiset protokollat.

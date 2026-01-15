@@ -6,3 +6,4 @@ wrong_answers:
   - I nodi economici hanno rifiutato l'aggiornamento a causa delle preoccupazioni legate all'aumento delle commissioni di transazione
 explanation: |
   L'aggiornamento di Segwit è stato unico perché ha affrontato un problema di coordinamento: c'era un sostegno schiacciante tra gli utenti del Bitcoin, ma i minatori si sono rifiutati di segnalare il supporto per l'aggiornamento. Questo ha creato una situazione di stallo in cui l'aggiornamento non poteva attivarsi attraverso il normale meccanismo soft fork attivato dai minatori. Gli aggiornamenti precedenti erano stati relativamente indolori perché godevano del supporto di utenti e minatori. Questa situazione ha portato alla proposta di User Activated Soft Forks (UASF) come meccanismo di attivazione alternativo che non si basa sulla segnalazione dei minatori, mettendo in evidenza la tensione tra le diverse parti interessate nell'ecosistema Bitcoin.
+reviewed: false

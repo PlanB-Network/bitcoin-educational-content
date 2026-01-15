@@ -154,7 +154,7 @@ Os clientes compram um produto na loja com Bitcoin.
 
 
 - Preparar:
-  - Ver diagramas/explicação no Figjam em anexo - [Esquema da atividade] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Ver diagramas/explicação no Figjam em anexo - [Esquema da atividade](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
   - Peça a três alunos voluntários para desempenharem os papéis de Cliente (Alice), Comerciante (Bob) e Banco.
 - Representar a sequência dos acontecimentos:
   - Cliente - está a navegar na loja em linha e encontra um artigo por 25 dólares que pretende comprar e informa o comerciante de que gostaria de o fazer
@@ -176,7 +176,7 @@ Os clientes compram um produto na loja com Bitcoin.
 
 
 - Preparar:
-  - Ver diagramas/explicação no Figjam em anexo - [Esquema da atividade] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Ver diagramas/explicação no Figjam em anexo - [Esquema da atividade](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
   - Substituir o Banco por nove alunos que desempenharão o papel de um Computador (Bitcoin Nodos/Miners) numa rede para substituir o Banco.
 - Cada um dos 9 computadores tem um registo histórico completo de todas as transacções passadas já efectuadas (portanto, saldos exactos sem falsificações), bem como um conjunto de regras:
   - Verificar se a transação está devidamente assinada (thekeyfitsthelock)
@@ -436,9 +436,9 @@ Com base no sistema operativo do seu telemóvel (Android ou iOS), os utilizadore
 1. Descarregar um autenticador de dois factores.
 
 
-   - Authy para [Android] (https://play.google.com/store/apps/details?id=com.authy.authy) ou [iOS] (https://apps.apple.com/us/app/authy/id494168017)
-   - Microsoft Authenticator para [Android] (https://play.google.com/store/apps/details?id=com.azure.authenticator) ou [iOS] (https://apps.apple.com/us/app/microsoft-authenticator/id983156458)
-   - Google Authenticator para [Android] (https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=e%C2%80) ou [iOS] (https://apps.apple.com/us/app/google-authenticator/id388497605)
+   - Authy para [Android](https://play.google.com/store/apps/details?id=com.authy.authy) ou [iOS](https://apps.apple.com/us/app/authy/id494168017)
+   - Microsoft Authenticator para [Android](https://play.google.com/store/apps/details?id=com.azure.authenticator) ou [iOS](https://apps.apple.com/us/app/microsoft-authenticator/id983156458)
+   - Google Authenticator para [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=e%C2%80) ou [iOS](https://apps.apple.com/us/app/google-authenticator/id388497605)
 
 2. Depois de descarregar e instalar a aplicação Authenticator.
 
@@ -2082,7 +2082,7 @@ Os administradores do servidor podem abrir mais pormenores para ver.
 #### LND (REST)
 
 
-A BTCPay expõe o serviço REST do LND para consumo externo; encontrará informações de ligação aqui; as carteiras compatíveis estão listadas aqui. Entre as carteiras compatíveis estão Joule, Alby e ZeusLN. O servidor BTCPay fornece um código QR para ligação, que pode ser digitalizado e aplicado num Wallet compatível.
+A BTCPay expõe o serviço REST do LND para consumo externo; encontrará informações de ligação [aqui](https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay); as carteiras compatíveis estão listadas [aqui](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server). Entre as carteiras compatíveis estão Joule, Alby e ZeusLN. O servidor BTCPay fornece um código QR para ligação, que pode ser digitalizado e aplicado num Wallet compatível.
 
 
 
@@ -2222,7 +2222,7 @@ Antes de mais, tente determinar quando é que o problema ocorre. Tente reproduzi
 ##### Atualizar o servidor
 
 
-Verifique se a sua versão do BTCPay Server é muito mais antiga do que a [última versão] (https://github.com/btcpayserver/btcpayserver/releases) do BTCPay Server. A atualização do seu servidor pode resolver o problema.
+Verifique se a sua versão do BTCPay Server é muito mais antiga do que a [última versão](https://github.com/btcpayserver/btcpayserver/releases) do BTCPay Server. A atualização do seu servidor pode resolver o problema.
 
 
 ##### Reiniciar o servidor
@@ -2621,7 +2621,7 @@ O beneficiário e o requerente podem ver o estado do pedido de pagamento depois 
 O conteúdo da descrição pode ser editado usando o editor de texto da ordem de pagamento. Ambas as opções estão disponíveis se pretender utilizar temas de cores adicionais ou estilos CSS personalizados.
 
 
-Os utilizadores não técnicos podem utilizar um [tema bootstrap] (https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes). Pode ser efectuada uma personalização adicional fornecendo código CSS adicional, como se mostra abaixo.
+Os utilizadores não técnicos podem utilizar um [tema bootstrap](https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes). Pode ser efectuada uma personalização adicional fornecendo código CSS adicional, como se mostra abaixo.
 
 
 ```css
@@ -2670,13 +2670,13 @@ E se, em vez de um remetente empurrar o pagamento, o remetente permitir que o de
 ### Pagamentos
 
 
-A funcionalidade de pagamento está ligada à funcionalidade [Pull Payments] (https://docs.btcpayserver.org/PullPayments/). Esta funcionalidade permite-lhe criar pagamentos dentro do seu BTCPay. Esta funcionalidade permite-lhe processar pagamentos pull (reembolsos, pagamentos de salários ou levantamentos).
+A funcionalidade de pagamento está ligada à funcionalidade [Pull Payments](https://docs.btcpayserver.org/PullPayments/). Esta funcionalidade permite-lhe criar pagamentos dentro do seu BTCPay. Esta funcionalidade permite-lhe processar pagamentos pull (reembolsos, pagamentos de salários ou levantamentos).
 
 
 #### Exemplo 1: Reembolso
 
 
-Comecemos pelo exemplo do reembolso. O cliente comprou um artigo na sua loja, mas, infelizmente, tem de o devolver. Ele quer um reembolso. No BTCPay, você pode criar um [Refund] (https://docs.btcpayserver.org/Refund/) e fornecer ao cliente o link para solicitar seus fundos. Assim que o cliente tiver fornecido o seu Address e reclamado os fundos, estes serão exibidos na secção Pagamentos.
+Comecemos pelo exemplo do reembolso. O cliente comprou um artigo na sua loja, mas, infelizmente, tem de o devolver. Ele quer um reembolso. No BTCPay, você pode criar um [Refund](https://docs.btcpayserver.org/Refund/) e fornecer ao cliente o link para solicitar seus fundos. Assim que o cliente tiver fornecido o seu Address e reclamado os fundos, estes serão exibidos na secção Pagamentos.
 
 
 O primeiro estado que tem é Aguardando aprovação. Os funcionários da loja podem verificar se existem vários em espera e, depois de fazer a seleção, utilizar o botão Acções.
@@ -2700,7 +2700,7 @@ O cliente é agora atualizado na página de reclamação. O cliente pode seguir 
 #### Exemplo 2: Salário
 
 
-Passemos agora ao pagamento de salários, uma vez que este é efectuado a partir do interior da loja e não de acordo com o pedido do cliente. O conceito subjacente é o mesmo: utiliza pagamentos pull. Mas, em vez de criar um reembolso, faremos um [Pull Payment] (https://docs.btcpayserver.org/PullPayments/).
+Passemos agora ao pagamento de salários, uma vez que este é efectuado a partir do interior da loja e não de acordo com o pedido do cliente. O conceito subjacente é o mesmo: utiliza pagamentos pull. Mas, em vez de criar um reembolso, faremos um [Pull Payment](https://docs.btcpayserver.org/PullPayments/).
 
 
 Vá para o separador Pull Payments no seu servidor BTCPay. No canto superior direito, clique no botão Criar pagamento pull.
@@ -2744,7 +2744,7 @@ Depois disso, o remetente pode partilhar o pagamento pull utilizando uma ligaç�
 Uma vez criado um pagamento, este contará para o limite do pagamento pull para o período atual. O remetente aprovará então o pagamento, definindo a taxa à qual o pagamento será enviado, e procederá ao pagamento.
 
 
-Para o remetente, fornecemos um método fácil de usar para agrupar vários pagamentos a partir do [BTCPay Internal Wallet] (https://docs.btcpayserver.org/Wallet/).
+Para o remetente, fornecemos um método fácil de usar para agrupar vários pagamentos a partir do [BTCPay Internal Wallet](https://docs.btcpayserver.org/Wallet/).
 
 
 #### API de raiz

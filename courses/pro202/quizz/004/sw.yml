@@ -1,0 +1,8 @@
+question: Ni operesheni gani ya hisabati inayotumika kupata nukta P + Q kwenye mkunjo wa duaradufu?
+answer: Chora mstari kupitia nukta P na Q, tafuta nukta ya tatu ya makutano R, kisha onyesha R kwenye mhimili wa x
+wrong_answers:
+  - Ongeza viwianishi vya x na viwianishi vya y vya P na Q moja kwa moja kwa kutumia hesabu ya moduli
+  - Zidisha viwianishi vya P na Q pamoja na utumie mlinganyo wa mkunjo ili kupata matokeo
+  - Hesabu sehemu ya kati kati ya P na Q kisha tumia mbinu ya mstari wa tangent ili kupata jumla
+explanation: |
+  Nyongeza ya nukta za mkunjo wa duaradufu hufuata kanuni maalum ya kijiometri: chora mstari kupitia nukta mbili P na Q, ambazo huingilia mkunjo kwenye nukta ya tatu R, kisha huakisi R kwenye mhimili wa x ili kupata P + Q. Operesheni hii ya kijiometri inakuwa ya aljebra wakati wa kufanya kazi kwenye sehemu zenye kikomo lakini hudumisha kanuni hiyo hiyo ya msingi. Chaguzi zingine zinaelezea mbinu zisizo sahihi ambazo hazifuati sheria ya kikundi iliyowekwa kwa mikunjo ya duaradufu.

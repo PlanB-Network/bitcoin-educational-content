@@ -38,11 +38,11 @@ OPNsense inajulikana kwa mtumiaji wake wa kisasa zaidi Interface na **mwako wa k
 
 
 
-## II. Vipengele vya OPNsense
+## II. Elements zaa OPNsense
 
 
 
-OPNsense ni mfumo wa uendeshaji ulioundwa kufanya kazi kama ngome na kipanga njia, ingawa vipengele vyake ni vingi na vinaweza kupanuliwa kwa kusakinisha vifurushi vya ziada. Inafaa kwa matumizi ya uzalishaji, hutumiwa hasa kwa usalama wa mtandao na usimamizi wa mtiririko.
+OPNsense ni mfumo wa uendeshaji ulioundwa kufanya kazi kama ngome na router, ingawa vipengele vyake ni vingi na vinaweza kupanuliwa kwa kusakinisha vifurushi vya ziada. Inafaa kwa matumizi ya uzalishaji, hutumiwa hasa kwa usalama wa mtandao na usimamizi wa mtiririko.
 
 
 
@@ -62,31 +62,31 @@ Hapa kuna baadhi ya vipengele muhimu vya OPNsense:
 
 
 
-- **DNS/DHCP**: OPNsense inaweza kusanidiwa ili kudhibiti huduma za DNS na DHCP kwenye mtandao. Inaweza kufanya kazi kama seva ya DHCP, lakini pia inaweza kutumika kama kisuluhishi cha DNS kwa mashine kwenye mtandao wa ndani. Dnsmasq pia imeunganishwa na chaguo-msingi.
+- **DNS/DHCP**: OPNsense inaweza kusanidiwa ili kudhibiti huduma za DNS na DHCP kwenye mtandao. Inaweza kufanya kazi kama server ya DHCP, lakini pia inaweza kutumika kama kisuluhishi cha DNS kwa mashine kwenye mtandao wa ndani. Dnsmasq pia imeunganishwa na chaguo-msingi.
 
 
 
 
 
-- **VPN**: OPNsense inasaidia itifaki kadhaa za VPN, ikiwa ni pamoja na IPsec, OpenVPN na WireGuard, kuwezesha miunganisho salama ya ufikiaji wa mbali kwa vituo vya kazi vya rununu au unganisho la tovuti.
+- **VPN**: OPNsense inasaidia protocol kadhaa za VPN, ikiwa ni pamoja na IPsec, OpenVPN na WireGuard, kuwezesha miunganisho salama ya ufikiaji wa mbali kwa vituo vya kazi vya rununu au unganisho la tovuti.
 
 
 
 
 
-- **Wakala wa wavuti**: OPNsense inajumuisha seva mbadala ya wavuti ili kudhibiti na kuchuja ufikiaji wa Mtandao. Inaweza pia kutumika kuchuja maudhui na kudhibiti ufikiaji wa mtandao.
+- **Wakala wa wavuti**: OPNsense inajumuisha server mbadala ya wavuti ili kudhibiti na kuchuja ufikiaji wa Mtandao. Inaweza pia kutumika kuchuja maudhui na kudhibiti ufikiaji wa mtandao.
 
 
 
 
 
-- **Usimamizi wa Bandwidth (QoS)**: OPNsense inatoa vipengele vya usimamizi wa Ubora wa Huduma (QoS) ili kutanguliza trafiki ya mtandao na kudhibiti vyema kipimo data cha mtandao.
+- **Usimamizi wa Bandwidth  (Quality of Service) (QoS)**: OPNsense inatoa vipengele vya usimamizi wa Ubora wa Huduma (QoS) ili kutanguliza trafiki ya mtandao na kudhibiti vyema kipimo data cha mtandao.
 
 
 
 
 
-- **Lango lililofungwa**: kipengele hiki hukuwezesha kudhibiti ufikiaji wa mtumiaji kwa mtandao kupitia ukurasa wa uthibitishaji (msingi wa ndani, vocha, n.k.). Ni kipengele kinachotumika kwa mitandao ya umma ya Wi-Fi.
+- **Gateway iliyofungwa**: kipengele hiki hukuwezesha kudhibiti ufikiaji wa mtumiaji kwa mtandao kupitia ukurasa wa uthibitishaji (msingi wa ndani, vocha, n.k.). Ni kipengele kinachotumika kwa mitandao ya umma ya Wi-Fi.
 
 
 
@@ -98,7 +98,7 @@ Hapa kuna baadhi ya vipengele muhimu vya OPNsense:
 
 
 
-- **Upatikanaji wa juu (CARP)**: OPNsense inaauni CARP (*Itifaki ya Kawaida ya Upungufu ya Address*) kwa upatikanaji wa juu kati ya ngome nyingi za OPNsense, kuhakikisha kuwa huduma inasalia amilifu hata kukitokea hitilafu ya maunzi.
+- **Upatikanaji wa juu (CARP)**: OPNsense inaauni CARP (*Common Address Redundancy Protocol*) kwa upatikanaji wa juu kati ya ngome nyingi za OPNsense, kuhakikisha kuwa huduma inasalia amilifu hata kukitokea hitilafu ya maunzi.
 
 
 
@@ -179,11 +179,11 @@ Lengo letu ni
 
 
 
-- Unda mtandao pepe wa ndani (192.168.10.0/24 - LAN), ambao unaweza kufikia Mtandao kupitia ngome ya OPNsense. Kwa matumizi ya uzalishaji, hii inaweza kuwa mtandao wa ndani, kebo na/au Wi-Fi.
-- Washa na usanidi **NAT** ili VM katika mtandao pepe wa ndani ziweze kufikia Mtandao
-- **Washa na usanidi seva ya DHCP kwenye OPNsense** ili kusambaza usanidi wa IP kwa mashine za siku zijazo zilizounganishwa kwenye mtandao pepe wa ndani.
-- Sanidi **ngome** ili kuruhusu LAN inayotoka tu kwa mtiririko wa WAN katika HTTP (80) na HTTPS (443).
-- Sanidi **ngome** ili kuruhusu LAN pepe kutumia OPNsense kama kisuluhishi cha DNS (53).
+- **Unda mtandao pepe wa ndani (192.168.10.0/24 - LAN)**, ambao unaweza kufikia Mtandao kupitia ngome ya OPNsense. Kwa matumizi ya uzalishaji, hii inaweza kuwa mtandao wa ndani, kebo na/au Wi-Fi.
+- **Washa na usanidi NAT** ili VM katika mtandao pepe wa ndani ziweze kufikia Mtandao
+- **Washa na usanidi server ya DHCP kwenye OPNsense** ili kusambaza usanidi wa IP kwa mashine za siku zijazo zilizounganishwa kwenye mtandao pepe wa ndani.
+- **Sanidi ngome** ili kuruhusu LAN inayotoka tu kwa mtiririko wa WAN katika HTTP (80) na HTTPS (443).
+- **Sanidi ngome** ili kuruhusu LAN pepe kutumia OPNsense kama kisuluhishi cha DNS (53).
 
 
 
@@ -257,7 +257,7 @@ Kisha utakuja kwa Interface sawa na iliyo hapa chini. Ingia kwa kuingia "**kisak
 
 
 
-Mchawi mpya huonekana kwenye skrini. Hatua ya kwanza ni kuchagua mpangilio wa kibodi unaolingana na usanidi wako. Kwa kibodi ya AZERTY, chagua chaguo **"Kifaransa (vifunguo vya lafudhi)"** kutoka kwenye orodha, kisha ubofye mara mbili.
+Mchawi mpya huonekana kwenye skrini. Hatua ya kwanza ni kuchagua mpangilio wa kibodi unaolingana na usanidi wako. Kwa kibodi ya AZERTY, chagua chaguo "**Kifaransa (vifunguo vya lafudhi)**" kutoka kwenye orodha, kisha ubofye mara mbili**.
 
 
 
@@ -305,7 +305,7 @@ Sasa utahitaji kusubiri OPNsense inaposakinishwa... Mchakato huu unachukua kama 
 
 
 
-Baada ya usakinishaji kukamilika, tunaweza kubadilisha nenosiri la "**root**" kabla ya kuwasha upya. Chagua "**Nenosiri la Mizizi **", bonyeza ** Ingiza ** na uweke nenosiri "** mizizi **" mara mbili.
+Baada ya usakinishaji kukamilika, tunaweza kubadilisha nenosiri la "**root**" kabla ya kuwasha upya. Chagua "**Nenosiri la roots **", bonyeza ** Ingiza ** na uweke nenosiri "** roots **" mara mbili.
 
 
 
@@ -321,7 +321,7 @@ Hatimaye, chagua "**Kamilisha Kusakinisha**" na ubonyeze **Ingiza**. Chukua furs
 
 
 
-Mashine pepe itaanza upya na kupakia mfumo wa OPNsense kutoka kwa diski, kwa kuwa tumeisakinisha hivi punde. Ingia na akaunti ya "mizizi" kwenye console, na nenosiri lako jipya (vinginevyo, nenosiri la msingi ni "**pnsense **").
+Mashine pepe itaanza upya na kupakia mfumo wa OPNsense kutoka kwa diski, kwa kuwa tumeisakinisha hivi punde. Ingia na akaunti ya "roots" kwenye console, na nenosiri lako jipya (vinginevyo, nenosiri la msingi ni "**pnsense **").
 
 
 
@@ -382,7 +382,7 @@ pfctl -d
 
 
 
-Utawala wa OPNsense Interface unaweza kufikiwa kupitia HTTPS, kwa kutumia IP Address ya **LAN Interface** (au WAN). Kivinjari chako kitakupeleka kwenye ukurasa wa kuingia. Ingia na akaunti ya "mizizi" na nenosiri ulilochagua hapo awali.
+Utawala wa OPNsense Interface unaweza kufikiwa kupitia HTTPS, kwa kutumia IP Address ya LAN** Interface (au WAN). Kivinjari chako kitakupeleka kwenye ukurasa wa kuingia. Ingia na akaunti ya "roots" na nenosiri ulilochagua hapo awali.
 
 
 
@@ -398,7 +398,7 @@ Subiri sekunde chache... Utaombwa ufuate mchawi ili kutekeleza usanidi wa kimsin
 
 
 
-Hatua ya kwanza ni kufafanua jina la mwenyeji, jina la kikoa, kuchagua lugha na kufafanua seva za DNS zitakazotumika kwa utatuzi wa jina. Kuweka chaguo la "**Wezesha Kitatuzi**" kutaruhusu ngome kutumika kama kisuluhishi cha DNS, ambacho kitakuwa muhimu kwa mashine katika LAN yetu pepe.
+Hatua ya kwanza ni kufafanua jina la mwenyeji, jina la kikoa, kuchagua lugha na kufafanua server za DNS zitakazotumika kwa utatuzi wa jina. Kuweka chaguo la "**Wezesha Kitatuzi**" kutaruhusu ngome kutumika kama kisuluhishi cha DNS, ambacho kitakuwa muhimu kwa mashine katika LAN yetu pepe.
 
 
 
@@ -406,7 +406,7 @@ Hatua ya kwanza ni kufafanua jina la mwenyeji, jina la kikoa, kuchagua lugha na 
 
 
 
-Endelea hadi hatua inayofuata. Mchawi hukupa chaguo la **kufafanua seva ya NTP kwa ulandanishi wa tarehe na saa**, ingawa tayari kuna seva zilizosanidiwa kwa chaguomsingi. Kwa kuongeza, ni muhimu kuchagua eneo la saa linalolingana na eneo lako la kijiografia (isipokuwa kama una mahitaji maalum).
+Endelea hadi hatua inayofuata. Mchawi hukupa chaguo la **kufafanua server ya NTP kwa ulandanishi wa tarehe na saa**, ingawa tayari kuna server zilizosanidiwa kwa chaguomsingi. Kwa kuongeza, ni muhimu kuchagua eneo la saa linalolingana na eneo lako la kijiografia (isipokuwa kama una mahitaji maalum).
 
 
 
@@ -414,7 +414,7 @@ Endelea hadi hatua inayofuata. Mchawi hukupa chaguo la **kufafanua seva ya NTP k
 
 
 
-Kisha inakuja hatua muhimu: **kusanidi Interface WAN**. Kwa sasa, imesanidiwa katika DHCP na itasalia katika hali hii ya usanidi, isipokuwa ungetaka kuweka IP tuli Address.
+Kisha inakuja hatua muhimu: **kusanidi Interface WAN**. Kwa sasa, imesanidiwa katika DHCP na itasalia katika hali hii ya usanidi, isipokuwa ungetaka kuweka Static IP Address.
 
 
 
@@ -422,7 +422,7 @@ Kisha inakuja hatua muhimu: **kusanidi Interface WAN**. Kwa sasa, imesanidiwa ka
 
 
 
-Bado kwenye ukurasa wa usanidi wa Interface WAN, unahitaji kubatilisha uteuzi wa chaguo la "**Zuia ufikiaji wa mitandao ya kibinafsi kupitia WAN**" ikiwa mtandao kwenye upande wa WAN unatumia anwani ya faragha. Hii labda itakuwa hivyo ikiwa unaendesha Maabara, na kwa hivyo inaweza kukuzuia kufikia Mtandao.
+Bado kwenye ukurasa wa usanidi wa Interface WAN, unahitaji kubatilisha uteuzi wa chaguo la "**Zuia ufikiaji wa mitandao ya kibinafsi kupitia WAN**" ikiwa mtandao kwenye upande wa WAN unatumia Address ya faragha. Hii labda itakuwa hivyo ikiwa unaendesha Maabara, na kwa hivyo inaweza kukuzuia kufikia Mtandao.
 
 
 
@@ -458,7 +458,7 @@ Hayo ndiyo yote yaliyopo kwake!
 
 
 
-Lengo letu ni kutumia seva ya OPNsense DHCP kusambaza anwani za IP kwenye LAN pepe. Ili kufanya hivyo, tunahitaji kufikia eneo la menyu hii:
+Lengo letu ni kutumia server ya OPNsense DHCP kusambaza  IP Address kwenye LAN pepe. Ili kufanya hivyo, tunahitaji kufikia eneo la menyu hii:
 
 
 
@@ -472,7 +472,7 @@ Services > ISC DHCPv4 > [LAN]
 
 
 
-Ikihitajika, unaweza kubadilisha anuwai ya anwani za IP zitakazosambazwa: **192.168.10.10** hadi **192.168.10.245**, kulingana na mipangilio ya sasa.
+Ikihitajika, unaweza kubadilisha anuwai ya  IP Address zitakazosambazwa: **192.168.10.10** hadi **192.168.10.245**, kulingana na mipangilio ya sasa.
 
 
 
@@ -480,7 +480,7 @@ Ikihitajika, unaweza kubadilisha anuwai ya anwani za IP zitakazosambazwa: **192.
 
 
 
-Tunaweza pia kuona kwamba sehemu "**DNS seva**", "**Lango**", "**Jina la kikoa**", n.k., ni tupu kwa chaguomsingi. Kwa kweli, kuna urithi wa moja kwa moja wa chaguo fulani na maadili ya msingi kwa nyanja hizi mbalimbali. Kwa mfano, kwa seva ya DNS, IP Address ya Interface LAN itasambazwa, na hivyo kuwezesha ngome ya OPNsense kutumika kama kitatuzi cha DNS.
+Tunaweza pia kuona kwamba sehemu "**DNS server**", "**Gateway**", "**Domain Name**", n.k., ni tupu kwa chaguomsingi. Kwa kweli, kuna urithi wa moja kwa moja wa chaguo fulani na maadili ya msingi kwa nyanja hizi mbalimbali. Kwa mfano, kwa server ya DNS, IP Address ya Interface LAN itasambazwa, na hivyo kuwezesha ngome ya OPNsense kutumika kama kitatuzi cha DNS.
 
 
 
@@ -492,11 +492,11 @@ Hifadhi usanidi baada ya kufanya mabadiliko yoyote, ikiwa ni lazima.
 
 
 
-Ili kujaribu seva ya DHCP, unahitaji kuunganisha mashine kwenye mtandao wa LAN wa ngome yako.
+Ili kujaribu server ya DHCP, unahitaji kuunganisha mashine kwenye mtandao wa LAN wa ngome yako.
 
 
 
-Mashine hii lazima ipate IP Address kutoka kwa seva ya OPNsense DHCP, na mashine yetu lazima iwe na ufikiaji wa mtandao. Ufikiaji wa mtandao lazima ufanye kazi. Tafadhali kumbuka kuwa ikiwa umelemaza kitendakazi cha ngome ili kufikia OPNsense kutoka kwa WAN, hii itazima NAT, kukuzuia kufikia Wavuti.
+Mashine hii lazima ipate IP Address kutoka kwa server ya OPNsense DHCP, na mashine yetu lazima iwe na ufikiaji wa mtandao. Ufikiaji wa mtandao lazima ufanye kazi. Tafadhali kumbuka kuwa ikiwa umelemaza kitendakazi cha ngome ili kufikia OPNsense kutoka kwa WAN, hii itazima NAT, kukuzuia kufikia Wavuti.
 
 
 
@@ -534,7 +534,7 @@ Chagua hali ya kiotomatiki kupitia chaguo la "**Kizazi otomatiki cha sheria zina
 
 
 
-Kwa sasa, kompyuta zote zilizounganishwa kwenye LAN pepe "**192.168.10.0/24**" zinaweza kufikia Mtandao bila kizuizi. Hata hivyo, lengo letu ni kuzuia ufikiaji wa WAN kwa itifaki za HTTP na HTTPS, pamoja na DNS kwenye Interface LAN ya ngome.
+Kwa sasa, kompyuta zote zilizounganishwa kwenye LAN pepe "**192.168.10.0/24**" zinaweza kufikia Mtandao bila kizuizi. Hata hivyo, lengo letu ni kuzuia ufikiaji wa WAN kwa protocol za HTTP na HTTPS, pamoja na DNS kwenye Interface LAN ya ngome.
 
 
 
@@ -554,7 +554,7 @@ Kisha unda sheria tatu mpya za kuidhinisha **mtandao wa LAN** (yaani "**LAN net*
 
 - fikia maeneo yote kwa kutumia **HTTP**.
 - fikia maeneo yote ukitumia **HTTPS**.
-- omba **OPNsense** kwenye **Interface LAN** yake (yaani "**LAN Address**"), kupitia **Itifaki ya DNS** (hii inamaanisha kutumia ngome kama DNS), vinginevyo idhinisha kisuluhishi chako cha DNS kupitia IP Address yake.
+- omba **OPNsense** kwenye **Interface LAN** yake (yaani "**LAN Address**"), kupitia **protocol ya DNS** (hii inamaanisha kutumia ngome kama DNS), vinginevyo idhinisha kisuluhishi chako cha DNS kupitia IP Address yake.
 
 
 
@@ -566,11 +566,11 @@ Hii inatoa matokeo yafuatayo:
 
 
 
-Kilichosalia ni kubofya "**Tekeleza mabadiliko**" ili kubadilisha sheria mpya za ngome ziwe za uzalishaji. **Tafadhali kumbuka kuwa mitiririko yote ambayo haijaidhinishwa kwa njia dhahiri itazuiwa kwa chaguomsingi.**
+Kilichosalia ni kubofya "**Tekeleza mabadiliko**" ili kubadilisha sheria mpya za ngome ziwe za uzalishaji. **Tafadhali kumbuka kuwa mitiririko yote ambayo haijaidhinishwa kwa njia dhahiri itazuiwa kwa chaguomsingi
 
 
 
-Mashine ya LAN inaweza kufikia Mtandao, kwa kutumia HTTP na HTTPS. Itifaki zingine zote zitazuiwa.
+Mashine ya LAN inaweza kufikia Mtandao, kwa kutumia HTTP na HTTPS. protocol zingine zote zitazuiwa.
 
 
 

@@ -1,9 +1,9 @@
 question: Ni ikihe kintu nyamukuru gitandukanya Bitcoin n’ama altcoins?
-answer: Kwegera ubutegetsi
+answer: Kugenzurwa
 wrong_answers:
   - Amafaranga
-  - Izina gyiza
-  - Ubuzima bwite
+  - Ishusho
+  - Ubuzima bw'ibanga
 explanation: |
-  Bitcoin izwi cane kubera ugusenyura, bitandukanye n’ama altcoins menshi akoreshwa cane canke make.
+  Bitcoin izwi cane kubera ugusenyura, bitandukanye n’ama altcoins yoyo agenzurwa.
 reviewed: false

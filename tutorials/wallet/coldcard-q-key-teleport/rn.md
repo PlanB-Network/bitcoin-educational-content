@@ -32,7 +32,7 @@ Ibi bishobora gukoreshwa mu kwimurira:
 
 
 - gW-0 amajambo** (umukuru wa seed wa ColdCard Q canke amabanga abitswe mu [seed Vault] ya ColdCardQ.
-- amajambo y’ibanga n’amajambo y’ibanga**: ivyo bishobora kuba ibanga iryo ari ryo ryose canke ububiko bwose [Ivyanditswe n’amajambo y’ibanga] (https://coldcard.com/docs/secure_notes/) kuri ColdCardQ yawe.
+- amajambo y’ibanga n’amajambo y’ibanga**: ivyo bishobora kuba ibanga iryo ari ryo ryose canke ububiko bwose [Ivyanditswe n’amajambo y’ibanga](https://coldcard.com/docs/secure_notes/) kuri ColdCardQ yawe.
 - ububiko bwa **ColdCardQ** yawe yose: ColdCardQ yakira ubu bubiko ntitegerezwa kuba ifise Umukuru wa seed kugira ngo ivyo bikore.
 - gW-3 (*Ibikorwa vya Bitcoin vyasinywe igice*) nk’igice c’**umugambi w’imikono myinshi**.
 

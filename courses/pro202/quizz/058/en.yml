@@ -1,0 +1,8 @@
+question: When a Bitcoin wallet scans blocks for incoming payments, why is downloading entire blocks preferred over requesting individual transactions from network peers?
+answer: Downloading entire blocks provides better privacy protection by not revealing which specific transactions or addresses the wallet is interested in monitoring
+wrong_answers:
+  - Downloading entire blocks is more computationally efficient because it requires fewer cryptographic hash operations to verify transaction authenticity
+  - Downloading entire blocks ensures faster synchronization since peers can send compressed block data rather than individual transaction responses
+  - Downloading entire blocks provides better security because it allows the wallet to verify the complete proof-of-work for every transaction
+explanation: |
+  Privacy is the key advantage of block-based retrieval. When a wallet requests specific transactions, it leaks strong signals about user activity and reveals which addresses belong to that wallet. Downloading entire blocks masks the wallet's actual interests among all block transactions. The wrong answers focus on efficiency, speed, or security benefits that aren't the primary motivation - individual transaction requests could theoretically be just as secure or efficient, but they fundamentally compromise privacy by revealing the wallet's monitoring patterns to network peers.

@@ -178,6 +178,6 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 बधाई हो! अब आपका कार्य वातावरण Plan ₿ Academy में योगदान करने के लिए तैयार है। अब आप प्रत्येक प्रकार के योगदान (अनुवाद, प्रूफरीडिंग, लेखन) के लिए हमारे अन्य विशिष्ट ट्यूटोरियल देख सकते हैं।
 
 
-https://planb.academy/tutorials/others
+https://planb.academy/tutorials/contribution
 
 ..).

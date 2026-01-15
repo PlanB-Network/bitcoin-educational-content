@@ -6,4 +6,4 @@ wrong_answers:
   - Mwisho wa usaidizi wa DHCP
 explanation: |
   Kuchoka kwa anwani za IPv4 kulisukuma mpito hadi IPv6, ambayo hutoa nafasi kubwa zaidi ya Address.
-reviewed: false
+reviewed: true

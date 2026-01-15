@@ -139,7 +139,7 @@ Também pode adquirir **um aparelho OPNsense montável em bastidor** através da
 
 
 
-É necessário ter em conta os recursos de hardware necessários para executar o OPNsense. Isto está detalhado em [esta página de documentação] (https://docs.opnsense.org/manual/hardware.html).
+É necessário ter em conta os recursos de hardware necessários para executar o OPNsense. Isto está detalhado em [esta página de documentação](https://docs.opnsense.org/manual/hardware.html).
 
 
 
@@ -157,7 +157,7 @@ Por fim, **as suas necessidades de recursos dependem sobretudo do número de lig
 
 
 
-Também precisará da imagem ISO de instalação do OPNsense, que pode ser descarregada a partir do [sítio Web oficial] (https://opnsense.org/download/). Para a instalação numa VM, selecione "**dvd**" como o tipo de imagem para obter uma imagem ISO (e faça o que quiser com ela...). Para a instalação através de uma chave USB de arranque, selecione a opção "**vga**" para obter um ficheiro "**.img**".
+Também precisará da imagem ISO de instalação do OPNsense, que pode ser descarregada a partir do [sítio Web oficial](https://opnsense.org/download/). Para a instalação numa VM, selecione "**dvd**" como o tipo de imagem para obter uma imagem ISO (e faça o que quiser com ela...). Para a instalação através de uma chave USB de arranque, selecione a opção "**vga**" para obter um ficheiro "**.img**".
 
 
 

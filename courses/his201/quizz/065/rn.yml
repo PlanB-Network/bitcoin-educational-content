@@ -1,9 +1,9 @@
-question: Ni nde yaremye Block explorer ya mbere mu kwezi kwa 11/2010?
-answer: Mikaheli Markuardt (Teyimo)
+question: Ni nde yaremye Block explorer ya mbere mu kwezi kwa Munyonyo 2010?
+answer:  Michael Marquardt (Theymos)
 wrong_answers:
-  - Jefu Garziki (Umunyamahanga)
-  - Nils Sineyider (tcatm)
-  - Piyeteri Wuille (sipa)
+  - Jeff Garzik (jgarzik)
+  - Nils Schneider (tcatm)
+  - Pieter Wuille (sipa)
 explanation: |
-  Iyi Bitcoin Block explorer ituma abakoresha babona amakuru arambuye yerekeye amabarabara, amaderesi, n’ibikorwa biciye ku mucukumbuzi w’urubuga.
+  Iyi Bitcoin Block explorer ituma abakoresha babona amakuru arambuye yerekeye ama blocks, amaderesi, n’ibikorwa biciye ku mucukumbuzi w’urubuga.
 reviewed: true

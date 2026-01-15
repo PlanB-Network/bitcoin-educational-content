@@ -1443,7 +1443,7 @@ Un Amministratore di BTCPay Server può cliccare su "Vedi informazioni" dietro o
 
 #### LND (gRPC)
 
-BTCPay espone il servizio gRPC di LND per l'utilizzo esterno, dove troverai le informazioni di connessione in questo specifico menù delle impostazioni, inoltre qui sono elencati anche i wallet compatibili. BTCPay Server fornisce anche un codice QR per la connessione da scansionare e applicare nel wallet mobile.
+BTCPay espone il servizio gRPC di LND per l'utilizzo esterno, dove troverai le informazioni di connessione in questo specifico menù delle impostazioni, inoltre [qui](https://docs.btcpayserver.org/FAQ/Wallet/#can-i-use-a-hardware-wallet-with-btcpay-server). sono elencati anche i wallet compatibili. BTCPay Server fornisce anche un codice QR per la connessione da scansionare e applicare nel wallet mobile.
 
 Gli amministratori del server possono aprire più dettagli per vedere:
 
@@ -1457,7 +1457,7 @@ Gli amministratori del server possono aprire più dettagli per vedere:
 
 #### LND (REST)
 
-BTCPay espone il servizio REST di LND per l'utilizzo esterno, dove troverai le informazioni di connessione e inoltre sono elencati anche i wallet compatibili. Tra i wallet compatibili ci sono Joule, Alby e ZeusLN. BTCPay Server fornisce un codice QR per la connessione, da scansionare e applicare nel wallet compatibile.
+BTCPay espone il servizio REST di LND per l'utilizzo esterno; [qui](https://docs.btcpayserver.org/FAQ/LightningNetwork/#how-to-find-node-info-and-open-a-direct-channel-with-a-store-using-btcpay) troverai le informazioni di connessione, e qui inoltre sono elencati anche i wallet compatibili. Tra i wallet compatibili ci sono Joule, Alby e ZeusLN. BTCPay Server fornisce un codice QR per la connessione, da scansionare e applicare nel wallet compatibile.
 
 - REST Uri
 - Macaroon

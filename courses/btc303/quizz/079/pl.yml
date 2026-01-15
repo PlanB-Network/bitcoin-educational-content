@@ -6,3 +6,4 @@ wrong_answers:
   - Aby uniknąć kwestii odpowiedzialności prawnej, które mogłyby wyniknąć z przedwczesnego ujawnienia informacji o projektach stron trzecich
 explanation: |
   Strategia czasowa odzwierciedla podejście oparte na bezpieczeństwie, w którym sieć Bitcoin musi być chroniona przed udzieleniem pomocy innym. Gdyby altcoiny zostały powiadomione jednocześnie, atakujący mogliby zbadać implementacje altcoinów lub wykorzystać je, aby zrozumieć lukę, a następnie potencjalnie zaatakować węzły Bitcoin, które nie zostały jeszcze zaktualizowane. Podejście sekwencyjne zapewnia powszechną ochronę Bitcoin przed rozszerzeniem pomocy na inne sieci, minimalizując okno wykorzystania podatności w całym ekosystemie.
+reviewed: false

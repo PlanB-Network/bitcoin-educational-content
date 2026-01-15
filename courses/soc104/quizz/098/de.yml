@@ -1,0 +1,9 @@
+question: Welches Grundprinzip unterscheidet laut Eric Hughes' Cypherpunk Manifesto die Cypherpunks von denen, die lediglich auf den Schutz der Privatsphäre hoffen?
+answer: Cypherpunks schreiben aktiv Code, um anonyme Systeme zu entwickeln, anstatt darauf zu warten, dass Institutionen für Privatsphäre sorgen
+wrong_answers:
+  - Cypherpunks konzentrieren sich auf politische Lobbyarbeit und Gesetzesreformen, um Datenschutzrechte durch demokratische Prozesse zu etablieren
+  - Cypherpunks glauben an die Zusammenarbeit mit bestehenden Finanzinstitutionen, um deren Schutz der Privatsphäre schrittweise zu verbessern
+  - Cypherpunks legen mehr Wert auf die Aufklärung der Öffentlichkeit über Datenschutzrisiken als auf die Entwicklung technischer Lösungen
+explanation: |
+  Im Manifest heißt es ausdrücklich: "Cypherpunks schreiben Code", und es wird betont, dass sie sich nicht mit Hoffnungen und Wünschen zufrieden geben, sondern aktiv in das Geschehen eingreifen.
+  Hughes argumentiert, dass die Menschen nicht von Regierungen, Unternehmen oder anderen großen Organisationen erwarten können, dass sie die Privatsphäre garantieren, daher müssen Cypherpunks selbst kryptografische Systeme entwickeln. Diese aktive, technische Herangehensweise durch Code-Entwicklung unterscheidet sie von passiven Ansätzen wie Lobbying, der Arbeit innerhalb bestehender Systeme oder der bloßen Aufklärung anderer, ohne konkrete technische Lösungen zu schaffen.

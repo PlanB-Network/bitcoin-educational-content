@@ -7,7 +7,7 @@ description: Je, ninawezaje kusakinisha na kutumia programu kwenye Pears?
 
 
 
-Katika somo hili, tutajifunza jinsi ya kuendesha programu kwenye **Pears**, teknolojia ya peer-to-peer (P2P) iliyotengenezwa na **Holepunch** na kusaidiwa na **Tether**. Kusudi ni rahisi: kufanya uwezekano wa kusambaza na kutumia programu za wavuti bila kutegemea miundombinu yoyote ya kati (hakuna seva, hakuna wapangishi, hakuna wapatanishi). Kwa maneno mengine, hata kama mtoa huduma wa wingu atafunga au nchi itazuia kikoa, programu huishi kati ya programu zingine za mtandao.
+Katika somo hili, tutajifunza jinsi ya kuendesha programu kwenye **Pears**, teknolojia ya peer-to-peer (P2P) iliyotengenezwa na **Holepunch** na kusaidiwa na **Tether**. Kusudi ni rahisi: kufanya uwezekano wa kusambaza na kutumia programu za wavuti bila kutegemea miundombinu yoyote ya kati (hakuna server, hakuna wapangishi, hakuna wapatanishi). Kwa maneno mengine, hata kama mtoa huduma wa wingu atafunga au nchi itazuia kikoa, programu huishi kati ya programu zingine za mtandao.
 
 
 
@@ -15,7 +15,7 @@ Katika somo hili, tutajifunza jinsi ya kuendesha programu kwenye **Pears**, tekn
 
 
 
-Pears ni mazingira ya wakati wa utekelezaji, zana ya ukuzaji na jukwaa la kusambaza kwa programu za programu kati ya marafiki. Zana hii ya chanzo huria huwezesha kuunda, kushiriki na kuendesha programu bila seva au miundombinu, moja kwa moja kati ya watumiaji. Kwa maneno madhubuti, hii inamaanisha kuwa badala ya kukaribisha programu kwenye seva kuu, kila mtumiaji anakuwa nodi ya mtandao, akishiriki sehemu ya programu na data na wenzao wengine. Mfumo mzima huunda mtandao uliosambazwa, huku kila mfano ukishirikiana ili kuweka huduma ipatikane.
+Pears ni mazingira ya wakati wa utekelezaji, zana ya ukuzaji na jukwaa la kusambaza kwa programu za programu kati ya marafiki. Zana hii ya chanzo huria huwezesha kuunda, kushiriki na kuendesha programu bila server au miundombinu, moja kwa moja kati ya watumiaji. Kwa maneno madhubuti, hii inamaanisha kuwa badala ya kukaribisha programu kwenye server kuu, kila mtumiaji anakuwa node ya mtandao, akishiriki sehemu ya programu na data na wenzao wengine. Mfumo mzima huunda mtandao uliosambazwa, huku kila mfano ukishirikiana ili kuweka huduma ipatikane.
 
 
 
@@ -28,15 +28,15 @@ Njia hii inategemea seti ya matofali ya programu ya kawaida iliyoundwa na Holepu
 
 
 
-- Hypercore**: kumbukumbu iliyosambazwa ambayo huhakikisha uthabiti wa data na usalama bila hifadhidata kuu.
-- Hyperbee**: faharasa juu ya Hypercore, kwa ajili ya kupanga na kuvinjari data kwa ufanisi.
-- Hyperdrive**: mfumo wa faili uliosambazwa unaotumiwa kuhifadhi na kusawazisha faili za programu kati ya programu zingine.
-- Hyperswarm** na **HyperDHT**: safu za mtandao zinazowezesha ugunduzi na muunganisho kati ya programu zingine ulimwenguni kote, bila seva kuu.
-- Secretstream**: itifaki ya usimbaji fiche ya E2E ili kulinda ubadilishanaji kati ya wenzao wawili.
+- **Hypercore**: kumbukumbu iliyosambazwa ambayo huhakikisha uthabiti wa data na usalama bila hifadhidata kuu.
+- **Hyperbee**: faharasa juu ya Hypercore, kwa ajili ya kupanga na kuvinjari data kwa ufanisi.
+- **Hyperdrive**: mfumo wa faili uliosambazwa unaotumiwa kuhifadhi na kusawazisha faili za programu kati ya programu zingine.
+- **Hyperswarm** na **HyperDHT**: safu za mtandao zinazowezesha ugunduzi na muunganisho kati ya programu zingine ulimwenguni kote, bila server kuu.
+- **Secretstream**: protocol ya usimbaji fiche ya E2E ili kulinda ubadilishanaji kati ya wenzao wawili.
 
 
 
-Kwa kuchanganya vipengele hivi, Pears hufanya iwezekanavyo kuunda programu za uhuru, zilizosimbwa na kusambazwa, ambapo kila mtumiaji anashiriki kikamilifu kwenye mtandao. Usanifu huu uliogatuliwa huondoa gharama za miundombinu, hatari za udhibiti na SPOF (*Hati Moja ya Kushindwa*).
+Kwa kuchanganya vipengele hivi, Pears hufanya iwezekanavyo kuunda programu za uhuru, zilizosimbwa na kusambazwa, ambapo kila mtumiaji anashiriki kikamilifu kwenye mtandao. Usanifu huu uliogatuliwa huondoa gharama za miundombinu, hatari za udhibiti na SPOF (*Single Point of Failure*).
 
 
 
@@ -44,7 +44,7 @@ Kwa kuchanganya vipengele hivi, Pears hufanya iwezekanavyo kuunda programu za uh
 
 
 
-Pears inatengenezwa na Holepunch, kampuni iliyoanzishwa na Mathias Buus na Paolo Ardoino (Mkurugenzi Mtendaji Mkuu wa Tether na CTO ya Bitfinex), kwa dhamira ya kupanua mantiki ya rika-kwa-rika zaidi ya Bitcoin. Matarajio yao ni kujenga "Mtandao wa Peer-to-Rika", ambapo kila programu inaweza kufanya kazi bila idhini, bila seva, na bila waamuzi. Holepunch tayari iko nyuma ya **Keet**, programu kamili ya P2P ya mikutano ya video na kutuma ujumbe.
+Pears inatengenezwa na Holepunch, kampuni iliyoanzishwa na Mathias Buus na Paolo Ardoino (Mkurugenzi Mtendaji Mkuu wa Tether na CTO ya Bitfinex), kwa dhamira ya kupanua mantiki ya Peer-to-Peer zaidi ya Bitcoin. Matarajio yao ni kujenga "Mtandao wa Peer-to-Peer", ambapo kila programu inaweza kufanya kazi bila idhini, bila server, na bila waamuzi. Holepunch tayari iko nyuma ya **Keet**, programu kamili ya P2P ya mikutano ya video na kutuma ujumbe.
 
 
 
@@ -53,9 +53,9 @@ Pears inatengenezwa na Holepunch, kampuni iliyoanzishwa na Mathias Buus na Paolo
 
 
 
-- Linux (Debian)** → Sehemu **3**
-- Windows** → Sehemu **4**
-- macOS** → Sehemu **5**
+- **Linux (Debian)** → Sehemu **3**
+- **Windows** → Sehemu **4**
+- **macOS** → Sehemu **5**
 
 
 
@@ -210,7 +210,7 @@ pear
 
 
 
-Wakati wa uanzishaji wa kwanza, Pears itaunganishwa kwenye mtandao wa rika-kwa-rika ili kupakua vipengele muhimu. Mchakato huu hauhitaji seva kuu: faili zinapatikana moja kwa moja kutoka kwa wenzao wengine.
+Wakati wa uanzishaji wa kwanza, Pears itaunganishwa kwenye mtandao wa peer-to-peer ili kupakua vipengele muhimu. Mchakato huu hauhitaji server kuu: faili zinapatikana moja kwa moja kutoka kwa wenzao wengine.
 
 
 
@@ -240,7 +240,7 @@ Ikiwa kila kitu kimewekwa kwa usahihi, Msaada wa Pears utaonyeshwa na orodha ya 
 
 
 
-Ili kuhakikisha kuwa Pears inafanya kazi kikamilifu, unaweza kuzindua programu ya P2P ambayo tayari inapatikana kwenye mtandao, kama vile Keet, programu huria ya Holepunch ya kutuma ujumbe na mikutano ya video.
+Ili kuhakikisha kuwa Pears inafanya kazi kikamilifu, unaweza kuzindua programu ya P2P ambayo tayari inapatikana mtandaoni kama vile Keet, programu huria ya Holepunch ya kutuma ujumbe na mikutano ya video.
 
 
 
@@ -250,7 +250,7 @@ pear run pear://keet
 
 
 
-Amri hii hupakia programu ya Keet moja kwa moja kutoka kwa mtandao wa Pears, bila kupitia seva kuu. Ikiwa Keet itazinduliwa kwa usahihi, usakinishaji wako wa Pears utafanya kazi kikamilifu.
+Amri hii hupakia programu ya Keet moja kwa moja kutoka kwa mtandao wa Pears, bila kupitia server kuu. Ikiwa Keet itazinduliwa kwa usahihi, usakinishaji wako wa Pears utafanya kazi kikamilifu.
 
 
 
@@ -286,7 +286,7 @@ Kwanza kabisa, endesha PowerShell na haki za msimamizi:
 - Bonyeza kwenye menyu ya Mwanzo;
 - Chapa PowerShell ;
 - Bonyeza kulia kwenye "*Windows PowerShell*" ;
-- Chagua "*Run kama msimamizi*".
+- Chagua "*Endesha kama msimamizi*".
 
 
 
@@ -405,7 +405,7 @@ pear
 
 
 
-Katika uzinduzi wa kwanza, Pears itapakua kiotomatiki vipengee muhimu kutoka kwa mtandao wa rika-kwa-rika. Mchakato huu unaweza kuchukua muda mfupi.
+Katika uzinduzi wa kwanza, Pears itapakua kiotomatiki vipengee muhimu kutoka kwa mtandao wa peer-to-peer. Mchakato huu unaweza kuchukua muda mfupi.
 
 
 
@@ -431,7 +431,7 @@ pear run pear://keet
 
 
 
-Amri hii hupakia programu ya Keet moja kwa moja kutoka kwa mtandao wa Pears, bila kupitia seva kuu. Ikiwa Keet itazinduliwa kwa usahihi, usakinishaji wako wa Pears utafanya kazi kikamilifu.
+Amri hii inapakia programu ya Keet moja kwa moja kutoka kwenye mtandao wa Pears bila kupitia seva kuu. Ikiwa Keet itazinduka kwa usahihi, usakinishaji wako wa Pears unafanya kazi vizuri.
 
 
 
@@ -582,7 +582,7 @@ pear
 
 
 
-Wakati wa uanzishaji wa kwanza, Pears itaunganishwa kwenye mtandao wa rika-kwa-rika ili kupakua vipengele muhimu. Mchakato huu hauhitaji seva kuu: faili zinapatikana moja kwa moja kutoka kwa wenzao wengine.
+Wakati wa uanzishaji wa kwanza, Pears itaunganishwa kwenye mtandao wa peer-to-peer ili kupakua vipengele muhimu. Mchakato huu hauhitaji server kuu: faili zinapatikana moja kwa moja kutoka kwa wenzao wengine.
 
 
 
@@ -614,11 +614,10 @@ pear run pear://keet
 
 
 
-Amri hii hupakia programu ya Keet moja kwa moja kutoka kwa mtandao wa Pears, bila kupitia seva kuu. Ikiwa Keet itazinduliwa kwa usahihi, usakinishaji wako wa Pears utafanya kazi kikamilifu.
+Amri hii hupakia programu ya Keet moja kwa moja kutoka kwa mtandao wa Pears, bila kupitia server kuu. Ikiwa Keet itazinduliwa kwa usahihi, usakinishaji wako wa Pears utafanya kazi kikamilifu.
 
 
-
-Mfumo wako wa macOS sasa uko tayari kutumika na kukaribisha programu-tumizi za rika-kwa-rika na Pears.
+Mfumo wako wa macOS sasa uko tayari kutumika na kukaribisha programu-tumizi za peer-to-peer na Pears.
 
 
 

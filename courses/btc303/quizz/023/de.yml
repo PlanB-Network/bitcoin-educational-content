@@ -6,3 +6,4 @@ wrong_answers:
   - Die Nutzer sind völlig anonym und haben keine Möglichkeit, Transaktionen miteinander in Verbindung zu bringen
 explanation: |
   Der pseudonyme Charakter von Bitcoin bedeutet, dass die Nutzer zwar unter Pseudonymen (Adressen, die von öffentlichen Schlüsseln abgeleitet sind) agieren, ihre Transaktionen aber dennoch zurückverfolgt und zwischen diesen Pseudonymen in der Blockchain verknüpft werden können. Dies unterscheidet sich von echter Anonymität, bei der Transaktionen überhaupt keine nachvollziehbaren Verbindungen hinterlassen würden. Bei Bitcoin können Sie den Geldfluss zwischen den Adressen verfolgen, aber die reale Identität hinter diesen Adressen wird nicht direkt offengelegt, es sei denn, jemand gibt sie freiwillig preis oder macht Fehler, die seine privaten Informationen preisgeben.
+reviewed: false

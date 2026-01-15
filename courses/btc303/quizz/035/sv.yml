@@ -6,3 +6,4 @@ wrong_answers:
   - x/(1-x)^2
 explanation: |
   Den korrekta formeln är (x/(1-x))^2 eftersom fee sniping kräver att en gruvarbetare lyckas bryta två block i följd för att ersätta det föregående blocket och förlänga kedjan. Sannolikheten för mining ett block mot ärliga gruvarbetare är x/(1-x), och eftersom två block måste brytas i följd är denna sannolikhet i kvadrat. De andra formlerna är matematiskt rimliga men representerar olika sannolikhetsscenarier som inte matchar de specifika kraven för fee sniping, där den oärliga utvinnaren måste övervinna det ärliga nätverket två gånger i följd.
+reviewed: false

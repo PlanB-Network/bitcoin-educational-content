@@ -6,3 +6,4 @@ wrong_answers:
   - Pengguna mengaktifkan sistem aktivasi hari bendera fork (UASF) lunak
 explanation: |
   Menurut analisis Eric Lombrozo, hard fork Satoshi (yang tidak dikomunikasikan dengan baik dan disembunyikan dalam commit tentang perubahan makefile) secara tidak sengaja menciptakan opcode OP_NOP1 hingga OP_NOP10. Kode-kode 'tidak ada operasi' ini dirancang untuk tidak melakukan apa pun saat dieksekusi, tetapi mereka menyediakan placeholder yang nantinya dapat digunakan kembali untuk fungsionalitas baru melalui soft fork. Hal ini terbukti tepat, karena OP_NOP2 menjadi OP_CHECKLOCKTIMEVERIFY (BIP65) dan OP_NOP3 menjadi OP_CHECKSEQUENCEVERIFY (BIP112). Pilihan lain tidak benar karena BIP65 dan BIP113 adalah peningkatan yang menggunakan opcode ini daripada membuatnya, kerangka kerja kompatibilitas adalah pendekatan konseptual daripada fitur teknis, dan UASF diusulkan jauh setelah kontroversi Segwit.
+reviewed: false

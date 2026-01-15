@@ -6,3 +6,4 @@ wrong_answers:
   - Nó được bảo vệ hợp pháp bởi Giấy phép MIT với tư cách là nguồn duy nhất có thẩm quyền của mã Bitcoin
 explanation: |
   Như Jameson Lopp giải thích, kho lưu trữ GitHub của Bitcoin Core về mặt kỹ thuật giống hệt hàng ngàn bản sao khác trên toàn thế giới, nhưng đã trở thành điểm tập trung được xã hội chấp nhận cho việc điều phối phát triển. Nó không có bất kỳ tính năng kỹ thuật đặc biệt, cơ chế xác thực mật mã hay biện pháp bảo vệ pháp lý nào khiến nó vượt trội. Giấy phép MIT thực sự đảm bảo bất kỳ ai cũng có thể sao chép và phân phối lại mã một cách tự do. Nếu kho lưu trữ này biến mất, cộng đồng sẽ chỉ cần thiết lập một điểm tập trung mới ở nơi khác, chứng tỏ tầm quan trọng của nó hoàn toàn là do quy ước xã hội chứ không phải do nhu cầu kỹ thuật.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Miten LDK:n modulaarinen komponenttiarkkitehtuuri mahdollistaa laitteiston turvamoduulin (HSM) integroinnin Lightning-transaktioihin?
+answer: Mahdollistamalla sellaisten erityisten allekirjoituskomponenttien erottamisen, jotka voivat analysoida salamatapahtuman kontekstia ja turvallisuusvaikutuksia
+wrong_answers:
+  - Tarjoamalla täydellisen HSM daemon:n, joka toimii itsenäisesti ja kommunikoi salattujen kanavien kautta
+  - Toteuttamalla laitteistokohtaisia ajureita, jotka ovat suoraan yhteydessä HSM-piirisarjoihin salausoperaatioita varten
+  - Luomalla eristettyjä hiekkalaatikoita, jotka suorittavat Lightning-protokollan logiikan kokonaan HSM-ympäristössä
+explanation: |
+  LDK:n modulaarisen rakenteen ansiosta kehittäjät voivat poimia HSM-integrointiin vain transaktioiden allekirjoitus- ja verifiointikomponentit. Tämä mahdollistaa Lightning-tietoisten allekirjoitusvälineiden luomisen, jotka ymmärtävät tapahtuman kontekstin pelkkää allekirjoittamista paremmin - ne voivat arvioida, onko tapahtuma laillinen maksu, reititysoperaatio vai mahdollinen turvallisuusuhka. Muut vaihtoehdot kuvaavat monoliittisia tai laitteistokohtaisia lähestymistapoja, jotka ovat ristiriidassa LDK:n joustavan ja modulaarisen filosofian kanssa, jonka mukaan kokonaisratkaisujen sijaan tarjotaan yhdisteltäviä komponentteja.

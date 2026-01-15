@@ -1,0 +1,8 @@
+question: Dans l'architecture aveugle de Blockstream AMP, quel mécanisme cryptographique permet de crypter le montant des actifs tout en maintenant la vérification de la validité des transactions ?
+answer: Échange de clés Diffie-Hellman à courbe elliptique avec des preuves de portée qui vérifient la validité des transactions sans révéler les valeurs cryptées
+wrong_answers:
+  - SNARKs à connaissance nulle avec des schémas d'engagement qui cachent les montants des transactions tout en prouvant l'intégrité du calcul
+  - Signatures en anneau avec adresses furtives qui masquent l'identité de l'expéditeur tout en maintenant la vérifiabilité cryptographique
+  - Cryptage homomorphique avec des engagements d'arbres de merkle qui permettent des opérations mathématiques sur les données de transaction cryptées
+explanation: |
+  AMP utilise l'échange de clés ECDH où les expéditeurs chiffrent les montants des actifs en utilisant les clés publiques aveuglantes des destinataires, générant des preuves de portée qui vérifient mathématiquement la validité de la transaction sans exposer les valeurs. Cela diffère des SNARK (preuves de calcul), des signatures en anneau (accent mis sur l'anonymat) ou du cryptage homomorphique (calcul sur des données cryptées) - AMP a spécifiquement besoin de transactions confidentielles mais vérifiables.

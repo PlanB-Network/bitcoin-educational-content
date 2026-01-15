@@ -1,0 +1,8 @@
+question: Miks P2WSH kasutab SHA256 hashimise asemel hash160 (RIPEMD160+SHA256) skripti kohustust tunnistajaprogrammides?
+answer: SHA256 pakub 32 baidi suurust hashi, mis eristab P2WSH-i 20 baidi suurusest P2WPKH hashist160 ja pakub tugevamat turvalisust keerukate skriptide jaoks
+wrong_answers:
+  - SHA256 on kiiremini arvutatav kui hash160, mis vähendab keeruliste mitmemääraliste tehingute valideerimisaega suure läbilaskevõimega stsenaariumides
+  - "Hash160 kaotas SegWit-s oma kehtivuse Bitcoin varajases arendusetapis avastatud võimalike kokkupõrke haavatavuste tõttu"
+  - SHA256 lubab tunnistajaskriptide suurust 520 baiti, samas kui hash160 kehtestas ranged piirangud skriptide keerukusele
+explanation: |
+  P2WSH kasutab SHA256-i, et luua 32 baidi suurused hashid, mis eristuvad P2WPKH 20 baidi suurusest hash160 kohustusest, võimaldades sõlmedel kohe tuvastada tunnistajaprogrammi versiooni. Pikem hash pakub ka suuremat turvalisust keerukate skriptide puhul, millel võib olla suurem väärtus või suurem ründepind. Teised valikud on valed: SHA256 ei ole tingimata kiirem kui hash160, hash160 ei ole haavatavuste tõttu kaotanud kehtivuse ja hash-funktsiooni valik ei mõjuta skriptide suuruse piiranguid.

@@ -34,11 +34,11 @@ Liquid-nettverket er avhengig av en føderasjon av deltakere, som består av ane
 
 Det første trinnet er selvfølgelig å laste ned Aqua-applikasjonen. Gå til applikasjonsbutikken din:
 
-- [For Android] (https://play.google.com/store/apps/details?id=io.aquawallet.android);
-- [For Apple] (https://apps.apple.com/us/app/aqua-wallet/id6468594241).
+- [For Android](https://play.google.com/store/apps/details?id=io.aquawallet.android);
+- [For Apple](https://apps.apple.com/us/app/aqua-wallet/id6468594241).
 ![AQUA](assets/fr/04.webp)
 
-For Android-brukere har du også muligheten til å installere applikasjonen via `.apk`-filen [tilgjengelig på deres GitHub] (https://github.com/AquaWallet/aqua-wallet/releases).
+For Android-brukere har du også muligheten til å installere applikasjonen via `.apk`-filen [tilgjengelig på deres GitHub](https://github.com/AquaWallet/aqua-wallet/releases).
 
 ![AQUA](assets/fr/05.webp)
 

@@ -6,3 +6,4 @@ wrong_answers:
   - Trustless i zaufane systemy muszą działać niezależnie i nie mogą być nakładane na siebie
 explanation: |
   Kluczowym spostrzeżeniem Matta Corallo jest to, że niezaufana warstwa bazowa Bitcoin umożliwia elastyczność w projektowaniu systemu. Zaufany fundament, taki jak protokół Bitcoin, pozwala programistom tworzyć zaufane usługi (takie jak portfele powiernicze) na wyższych warstwach, zachowując jednocześnie podstawowe gwarancje bezpieczeństwa. Odwrotna sytuacja jest jednak niemożliwa - nie można stworzyć prawdziwie niezaufanych systemów, jeśli sama podstawa wymaga zaufania, ponieważ wszelkie niezaufane właściwości zostałyby podważone przez luki w zaufanej warstwie bazowej.
+reviewed: false

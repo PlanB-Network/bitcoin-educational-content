@@ -1,0 +1,9 @@
+question: บน RLN คำสั่งใดที่ใช้ติดตั้งไบนารี "rgb-lightning-node" หลังจากโคลนที่เก็บข้อมูล?
+answer: "cargo install --locked --debug --path ."
+wrong_answers:
+  - "cargo build --release --path ."
+  - "cargo run --locked --path ."
+  - "cargo deploy --debug --path ."
+explanation: |
+  คำสั่ง "cargo install --locked --debug --path ." ทำการคอมไพล์และติดตั้งไบนารี "rgb-lightning-node"
+reviewed: false

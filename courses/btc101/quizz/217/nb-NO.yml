@@ -1,9 +1,9 @@
-question: Hva muliggjør Lightning Network?
-answer: Øyeblikkelige, kostnadsbesparende Bitcoin-transaksjoner.
+question: Hva er hovedmålet med Lightning Network?
+answer: Å muliggjøre offchain-betalinger som er raske og rimelige
 wrong_answers:
-  - Øyeblikkelige, høykostnads Bitcoin-transaksjoner.
-  - Forsinkede, kostnadsbesparende Bitcoin-transaksjoner.
-  - Forsinkede, høykostnads Bitcoin-transaksjoner.
-explanation: >-
-  Lightning Network muliggjør øyeblikkelige, kostnadsbesparende Bitcoin-transaksjoner,
-  og løser dermed skalerbarhetsproblemet til Bitcoin.
+  - Å øke blokkstørrelsen på Bitcoin-blokkjeden
+  - Å gradvis erstatte Bitcoin-blokkjeden med et mer effektivt system
+  - Å gjøre gruvefarmer svært rike
+explanation: |
+  Lightning Network har som mål å muliggjøre nesten øyeblikkelige bitcoin-betalinger med lave gebyrer, uten å overbelaste hovedblokkjeden.
+reviewed: false

@@ -177,7 +177,7 @@ Periksa dan konfirmasikan nomor dan jumlah Exchange Anda, lalu bayar Lightning I
 
 
 
-Melalui BitSpenda, [Bitcoin Dua] (https://www.bitcoindua.org/) bertujuan untuk membuat kerangka kerja yang ideal untuk adopsi Bitcoin di Afrika. BitSpenda menonjol terutama untuk :
+Melalui BitSpenda, [Bitcoin Dua](https://www.bitcoindua.org/) bertujuan untuk membuat kerangka kerja yang ideal untuk adopsi Bitcoin di Afrika. BitSpenda menonjol terutama untuk :
 
 
 

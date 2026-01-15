@@ -1,0 +1,8 @@
+question: Mục đích chính của giai đoạn chờ xác nhận 102 giây trong quá trình kết nối từ Bitcoin đến Liquid là gì?
+answer: Để phòng ngừa các đợt tái cấu trúc chuỗi khối Bitcoin trước khi đúc L-BTC
+wrong_answers:
+  - Để tạo đủ thời gian cho liên đoàn xác minh danh tính người dùng và sự tuân thủ.
+  - Để đảm bảo mạng Liquid có đủ dung lượng để xử lý các giao dịch đến.
+  - Để tạo thời gian cho việc phê duyệt đa chữ ký 11/15 từ các thành viên liên đoàn
+explanation: |
+  Thời gian chờ xác nhận 102 lần (khoảng 17 giờ) được thiết kế đặc biệt để bảo vệ chống lại việc tổ chức lại chuỗi khối Bitcoin. Vì Bitcoin hoạt động dựa trên tính xác suất cuối cùng, luôn có một xác suất nhỏ các khối có thể bị tổ chức lại, có khả năng làm mất hiệu lực các giao dịch. Bằng cách chờ 102 lần xác nhận, hệ thống đảm bảo rằng giao dịch Bitcoin gửi tiền đến địa chỉ liên bang được chôn vùi sâu và cực kỳ khó bị đảo ngược. Điều này ngăn chặn kịch bản L-BTC được tạo trên Liquid nhưng giao dịch Bitcoin cơ bản bị đảo ngược do tổ chức lại. Các lựa chọn khác không chính xác vì: xác minh danh tính không phải là một phần của quy trình ghim tự động, dung lượng mạng không phải là yếu tố hạn chế yêu cầu sự chậm trễ như vậy, và ủy quyền đa chữ ký 11/15 được sử dụng cho việc rút tiền, không phải ghim tiền.

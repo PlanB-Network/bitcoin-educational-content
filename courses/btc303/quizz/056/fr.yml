@@ -6,3 +6,4 @@ wrong_answers:
   - Les œuvres dérivées doivent inclure la marque originale Bitcoin Core et ne peuvent pas être renommées ou changer de marque
 explanation: |
   La licence MIT exige que les travaux dérivés soient distribués selon les mêmes conditions de licence que le logiciel original, ce qui permet de préserver le caractère open source. Elle n'interdit pas la vente commerciale (mauvaise réponse 1), n'exige pas l'autorisation des développeurs (mauvaise réponse 2) et n'impose pas de conserver la marque d'origine (mauvaise réponse 3). La licence stipule expressément que les modifications et les travaux dérivés doivent être autorisés selon les mêmes conditions, ce qui préserve le modèle de développement sans autorisation qui permet des innovations telles que le Lightning Network et les sidechains.
+reviewed: false

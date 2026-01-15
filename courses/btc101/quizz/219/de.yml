@@ -1,10 +1,9 @@
-question: Welche Art von Netzwerk wird durch das Lightning Network erstellt?
-answer: Ein Netzwerk von Zahlungskanälen.
+question: Welcher Ansatz strukturiert die in diesem Kapitel beschriebene Entwicklung von Bitcoin?
+answer: Entwicklung in Schichten
 wrong_answers:
-  - Ein Netzwerk von Mining-Nodes.
-  - Ein Netzwerk von Blockchain-Nodes.
-  - Ein Netzwerk von Kryptowährungsbörsen.
-explanation: >-
-  Das Lightning Network fungiert als ein Netzwerk von Zahlungskanälen und ermöglicht
-  sofortige Transaktionen mit niedrigen Gebühren für den Sender.
-reviewed: true
+  - Monolithische Blockchain
+  - Natives Sharding
+  - Verallgemeinerte Onchain-Ausführung
+explanation: |
+  Bitcoin behält eine einfache und robuste Basisschicht bei, während übergeordnete Protokolle spezifische Funktionen hinzufügen.
+reviewed: false

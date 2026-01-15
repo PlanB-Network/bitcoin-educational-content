@@ -6,3 +6,4 @@ wrong_answers:
   - Uživatelem aktivovaný systém aktivace příznakového dne fork (UASF)
 explanation: |
   Podle analýzy Erica Lombroza vytvořil Satoshi tvrdý fork (který byl špatně komunikován a skryt v revizi o změnách v souboru makefile) neúmyslně opkódy OP_NOP1 až OP_NOP10. Tyto kódy "bez operace" byly navrženy tak, aby při spuštění nic nedělaly, ale poskytovaly zástupné kódy, které mohly být později znovu použity pro nové funkce prostřednictvím měkkých vidlic. To se ukázalo jako prozíravé, protože OP_NOP2 se stal OP_CHECKLOCKTIMEVERIFY (BIP65) a OP_NOP3 se stal OP_CHECKSEQUENCEVERIFY (BIP112). Ostatní možnosti jsou nesprávné, protože BIP65 a BIP113 byly upgrady, které tyto opkódy používaly, nikoliv vytvářely, rámec kompatibility je spíše koncepční přístup než technická funkce a UASF byl navržen mnohem později během sporu o Segwit.
+reviewed: false

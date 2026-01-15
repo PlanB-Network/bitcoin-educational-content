@@ -1,0 +1,9 @@
+question: ความหมายของสุภาษิต "Not your hash rate, not your reward" ในบริบทของ Bitcoin mining คืออะไร?
+answer: หากคุณไม่ควบคุม hashrate คุณจะไม่สามารถควบคุมรางวัล mining ได้
+wrong_answers:
+  - หากคุณไม่มี hashrate สูง คุณจะไม่ได้รับรางวัลใด ๆ
+  - หากคุณไม่ได้เป็นเจ้าของ Bitcoin คุณจะไม่ได้รับรางวัลใด ๆ
+  - หากคุณไม่มีเครื่อง mining คุณจะไม่ได้รับรางวัลใด ๆ
+explanation: |
+  สุภาษิตที่ว่า Not your hashrate, not your reward คล้ายกับสุภาษิตที่รู้จักกันดีในโลกของสกุลเงินดิจิทัลว่า Not your keys, not your Bitcoins. ซึ่งหมายความว่าหากคุณไม่ควบคุม hashrate คุณก็จะไม่สามารถควบคุมรางวัลจาก mining ได้ เนื่องจากรางวัลจาก mining นั้นเป็นสัดส่วนโดยตรงกับ hashrate
+reviewed: true

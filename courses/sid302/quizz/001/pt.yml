@@ -1,0 +1,8 @@
+question: Quantas assinaturas de funcionários são necessárias para validar um bloco no Liquid Network?
+answer: Pelo menos 11 dos 15 funcionários devem assinar
+wrong_answers:
+  - Pelo menos 8 dos 15 funcionários devem assinar
+  - Pelo menos 10 dos 15 funcionários devem assinar
+  - Pelo menos 12 dos 15 funcionários devem assinar
+explanation: |
+  O Liquid Network exige assinaturas de pelo menos 11 dos 15 funcionários para validar um bloco, o que representa um limiar de dois terços mais um. Este requisito específico garante um consenso sólido e impede que um pequeno grupo controle a rede. As outras opções são incorrectas: 8 assinaturas seriam demasiado poucas para garantir a segurança, 10 não cumpririam o limite de dois terços e 12 seriam desnecessariamente restritivas para as operações normais.

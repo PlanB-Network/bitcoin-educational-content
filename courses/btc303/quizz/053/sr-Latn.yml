@@ -6,3 +6,4 @@ wrong_answers:
   - Bitcoin koristi kriptografske potpise za zaštitu dok se zgrade oslanjaju na sisteme kontrole pristupa i nadzora
 explanation: |
   Ključna razlika je u tome što se onlajn sistemi poput Bitcoin suočavaju sa anonimnim protivnicima koji će neizbežno iskoristiti svaku poznatu slabost, za razliku od fizičkih sistema gde možemo prihvatiti određeni rizik jer se počinioci mogu identifikovati i procesuirati. Kao što je Andrew Poelstra primetio, onlajn nemamo luksuz odvraćanja putem sprovođenja zakona - ako je moguće naštetiti sistemu na neprijateljski način, anonimni akteri će to učiniti. Ovo primorava Bitcoin da se pozabavi svim ranjivostima umesto da prihvati proračunate rizike.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Šta desna strana ekonomske ose (prema 100) predstavlja u dvodimenzionalnom političkom dijagramu?
+answer: Preferencija za ekonomsku slobodu sa manje državne intervencije, nižim porezima i slobodnim tržištima
+wrong_answers:
+  - Preferencija za snažnu državnu intervenciju u ekonomiji sa visokim porezima i regulacijama
+  - Preferencija za individualne lične slobode i socijalnu toleranciju uz minimalna moralna ograničenja
+  - Preferencija za tradicionalne vrednosti, red i sigurnost uz državom nametnute moralne standarde
+explanation: |
+  Desna strana ekonomske ose predstavlja ekonomsku slobodu, koju karakteriše minimalna intervencija države u ekonomiji, niži propisi i porezi, i naglasak na slobodnim tržištima, privatnoj svojini i konkurenciji. Ovo je u kontrastu sa levom stranom koja favorizuje snažnu državnu ekonomsku intervenciju. Druge opcije opisuju ili levu ekonomsku poziciju ili pozicije na osi ličnih sloboda (gore za individualnu slobodu, dole za tradicionalni poredak).

@@ -45,7 +45,7 @@ Vereisten voordat je de tutorial start:
 
 
 - Een [GitHub account] hebben (https://github.com/signup);
-- Een fork hebben van de [Plan ₿ Academy bron repository] (https://github.com/PlanB-Network/Bitcoin-educational-content);
+- Een fork hebben van de [Plan ₿ Academy bron repository](https://github.com/PlanB-Network/Bitcoin-educational-content);
 - Heb [een leraarsprofiel op Plan ₿ Academy](https://planb.academy/professors) (alleen als je een volledige tutorial aanbiedt).
 
 
@@ -197,11 +197,11 @@ Dit zijn de verplichte velden:
 
 
 
-- **project_id**: De UUID van het bedrijf of de organisatie achter de tool die in de tutorial wordt gepresenteerd [uit de projectlijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Als je bijvoorbeeld een tutorial maakt over de Green Wallet software, kun je deze `project_id` vinden in het volgende bestand: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Deze informatie is toegevoegd aan het YAML-bestand van je tutorial, omdat Plan ₿ Academy een database bijhoudt van alle bedrijven en organisaties die werken aan Bitcoin of gerelateerde projecten. Door de `project_id` van de entiteit die gelinkt is aan je tutorial toe te voegen, creëer je een link tussen de twee elementen;
+- **project_id**: De UUID van het bedrijf of de organisatie achter de tool die in de tutorial wordt gepresenteerd [uit de projectlijst](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Als je bijvoorbeeld een tutorial maakt over de Green Wallet software, kun je deze `project_id` vinden in het volgende bestand: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Deze informatie is toegevoegd aan het YAML-bestand van je tutorial, omdat Plan ₿ Academy een database bijhoudt van alle bedrijven en organisaties die werken aan Bitcoin of gerelateerde projecten. Door de `project_id` van de entiteit die gelinkt is aan je tutorial toe te voegen, creëer je een link tussen de twee elementen;
 
 
 
-- **tags**: 2 of 3 relevante sleutelwoorden gerelateerd aan de inhoud van de tutorial, exclusief gekozen [uit de Plan ₿ Academy tag lijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**: 2 of 3 relevante sleutelwoorden gerelateerd aan de inhoud van de tutorial, exclusief gekozen [uit de Plan ₿ Academy tag lijst](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
 
 
@@ -217,7 +217,7 @@ Dit zijn de verplichte velden:
 
 
 
-- **professor_id**: Uw `professor_id` (UUID) zoals weergegeven op [uw professorprofiel] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Uw `professor_id` (UUID) zoals weergegeven op [uw professorprofiel](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 
@@ -483,7 +483,7 @@ Als je je eigen schema's wilt maken, zorg er dan voor dat je de grafische richtl
 **Het is noodzakelijk dat alle afbeeldingen die je in je tutorials opneemt vrij zijn van copyright of de licentie van het bronbestand respecteren**. Daarom zijn alle diagrammen die gepubliceerd zijn op Plan ₿ Academy beschikbaar onder een CC-BY-SA-licentie, op dezelfde manier als de tekst.
 
 
-**-> Tip:** Wanneer je bestanden in het openbaar deelt, zoals afbeeldingen, is het belangrijk om overbodige metadata te verwijderen. Deze kunnen gevoelige informatie bevatten, zoals locatiegegevens, aanmaakdata en auteurgegevens. Om je privacy te beschermen, is het een goed idee om deze metadata te verwijderen. Om dit te vereenvoudigen, kun je gespecialiseerde tools gebruiken zoals [Exif Cleaner] (https://exifcleaner.com/), waarmee je de metadata van een document kunt opschonen met een simpele drag-and-drop.
+**-> Tip:** Wanneer je bestanden in het openbaar deelt, zoals afbeeldingen, is het belangrijk om overbodige metadata te verwijderen. Deze kunnen gevoelige informatie bevatten, zoals locatiegegevens, aanmaakdata en auteurgegevens. Om je privacy te beschermen, is het een goed idee om deze metadata te verwijderen. Om dit te vereenvoudigen, kun je gespecialiseerde tools gebruiken zoals [Exif Cleaner](https://exifcleaner.com/), waarmee je de metadata van een document kunt opschonen met een simpele drag-and-drop.
 
 
 ## 9 - Stel de tutorial voor

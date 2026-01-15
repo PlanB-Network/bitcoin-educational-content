@@ -6,3 +6,4 @@ wrong_answers:
   - "Kerentanan teknis dalam algoritma kriptografi Bitcoin"
 explanation: |
   Menurut postingan Reddit Gregory Maxwell yang dikutip dalam bab ini, meskipun serangan 51% merupakan kekhawatiran teoritis, risiko yang jauh lebih besar adalah pengguna Bitcoin tidak akan memahami, peduli, atau melindungi properti desentralisasi yang membuat Bitcoin lebih berharga daripada alternatif yang tersentralisasi. Hal ini karena desentralisasi adalah apa yang memberikan ketahanan terhadap sensor Bitcoin - pembeda utamanya dari sistem uang tradisional. Jika orang tidak secara aktif melindungi properti ini, Bitcoin secara bertahap dapat menjadi tersentralisasi hingga penyensoran menjadi mungkin, menghancurkan sebagian besar proposisi nilainya. Opsi-opsi lain, meskipun berpotensi menimbulkan kekhawatiran, bukanlah hal yang secara khusus diidentifikasi oleh Maxwell sebagai ancaman yang lebih besar terhadap kesuksesan jangka panjang Bitcoin.
+reviewed: false

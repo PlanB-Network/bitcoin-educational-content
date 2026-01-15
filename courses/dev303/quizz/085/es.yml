@@ -1,0 +1,8 @@
+question: Al definir interfaces de devolución de llamada en UniFFI, ¿qué límites de rasgo Rust adicionales se requieren normalmente en el rasgo de devolución de llamada para garantizar una invocación segura entre idiomas?
+answer: Los límites de envío y sincronización son necesarios porque las retrollamadas pueden cruzar los límites de los subprocesos entre Rust y los lenguajes de destino
+wrong_answers:
+  - Los límites de clonación y copia son necesarios para permitir que los datos de la llamada de retorno se dupliquen a través de los límites del idioma
+  - Los límites de depuración y visualización son necesarios para permitir la notificación adecuada de errores cuando las retrollamadas fallan durante la ejecución
+  - Los límites de serialización y deserialización son necesarios para transferir parámetros de devolución de llamada entre diferentes tiempos de ejecución de lenguajes
+explanation: |
+  Las interfaces de devolución de llamada en UniFFI requieren límites Send y Sync porque permiten la comunicación bidireccional en la que el código Rust devuelve la llamada al código de aplicación escrito en los lenguajes de destino. Dado que estas devoluciones de llamada pueden cruzar los límites de los hilos durante la ejecución, el sistema de tipos de Rust requiere límites Send (seguro para transferir entre hilos) y Sync (seguro para compartir referencias entre hilos) para garantizar la seguridad de la memoria. Las otras opciones son incorrectas: Clone/Copy no son necesarias para llamadas entre lenguajes, Debug/Display son para formateo no para seguridad, y Serialize/Deserialize son manejadas automáticamente por el sistema marshaling de UniFFI.

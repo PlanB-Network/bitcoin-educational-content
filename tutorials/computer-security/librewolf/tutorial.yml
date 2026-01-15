@@ -1,5 +1,7 @@
 id: 1783e9dc-9d41-4449-a3cf-ed116849057c
 
+last_update_date: 2025-08-02
+
 project_id: 08c3df81-8321-428e-88e4-03384d61c8e7
 
 tags:
@@ -12,6 +14,8 @@ category: communication
 level: intermediate
 
 professor_id: 93e251db-ee1c-4966-8dce-b54df9fca287
+
+license: CC-BY-SA-V4
 
 # Proofreading metadata
 
@@ -62,7 +66,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 10.27
+    reward: 7.36
   - language: id
     last_contribution_date: '2025-11-05'
     urgency: 1
@@ -78,7 +82,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.82
+    reward: 7.36
   - language: nb-NO
     last_contribution_date:
     urgency: 1
@@ -110,15 +114,16 @@ proofreading:
     contributor_names:
     reward: 4.46
   - language: sw
-    last_contribution_date:
+    last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
-    reward: 5.91
+      - Tinnah924
+    reward: 2.96
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.82
+    reward: 7.36
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
@@ -148,4 +153,14 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.82
+    reward: 7.36
+  - language: bg
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 5.91
+  - language: th
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 7.36

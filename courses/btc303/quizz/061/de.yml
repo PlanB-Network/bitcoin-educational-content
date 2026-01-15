@@ -6,3 +6,4 @@ wrong_answers:
   - Benutzer müssen sich auf kryptografische Signaturen von vertrauenswürdigen Entwicklern verlassen, um das Softwareverhalten zu validieren
 explanation: |
   In diesem Kapitel wird ausdrücklich darauf hingewiesen, dass die Nutzer uneingeschränkten Zugang zum Quellcode haben müssen, um überprüfen zu können, ob Bitcoin-Software "wie angekündigt funktioniert". Dies steht in direktem Zusammenhang mit dem Grundsatz "Don't Trust, Verify" und der in der Open-Source-Definition enthaltenen Forderung nach Verfügbarkeit des Quellcodes. Die falschen Antworten widersprechen den Kernprinzipien von Open Source: Die Forderung nach einer Erlaubnis verstößt gegen das Prinzip des freien Zugangs, die Zahlung von Gebühren widerspricht dem Gebot der kostenlosen Weitergabe, und das ausschließliche Vertrauen auf Signaturen untergräbt die Möglichkeit der Überprüfung durch Inspektion, die Open Source bietet.
+reviewed: false

@@ -101,7 +101,7 @@ Machankura pakt dit probleem echter aan door de functionaliteit uit te breiden v
 
 
 
-Raadpleeg regelmatig hun [website] (https://8333.mobi) om op de hoogte te blijven van nieuwe landen waar de service beschikbaar zal zijn.
+Raadpleeg regelmatig hun [website](https://8333.mobi) om op de hoogte te blijven van nieuwe landen waar de service beschikbaar zal zijn.
 
 
 
@@ -370,7 +370,7 @@ De tweede, die een logische uitbreiding is van de eerste, is een inclusieve en l
 
 
 
-Om te beginnen moet je een bericht schrijven naar Machankura's WhatsApp-bot (een simpel "Hoi" is meer dan genoeg). Zijn WhatsApp-nummer is [+27 73 762 5720] (https://wa.me/+27737625720).
+Om te beginnen moet je een bericht schrijven naar Machankura's WhatsApp-bot (een simpel "Hoi" is meer dan genoeg). Zijn WhatsApp-nummer is [+27 73 762 5720](https://wa.me/+27737625720).
 
 
 

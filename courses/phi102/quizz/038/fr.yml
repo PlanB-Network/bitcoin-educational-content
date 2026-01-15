@@ -1,0 +1,8 @@
+question: D'après le texte, que se passe-t-il lorsque la propriété est détenue collectivement plutôt que de manière privée ?
+answer: Les citoyens ne se sentent pas vraiment propriétaires et les ressources sont négligées sans "l'œil du maître
+wrong_answers:
+  - Les citoyens s'investissent davantage dans le maintien et l'amélioration des ressources partagées
+  - Le gouvernement gère efficacement les ressources grâce à des administrateurs professionnels
+  - Les ressources sont réparties plus équitablement entre tous les membres de la société
+explanation: |
+  L'analyse de Paul Leroy-Beaulieu montre que la propriété collective crée un problème fondamental : lorsque tout le monde possède théoriquement une infime partie de quelque chose (comme une forêt publique), personne ne se sent vraiment propriétaire. Cela conduit à la perte de "l'œil du maître" - l'attention particulière et le soin que seul un véritable propriétaire apporte. Sans cet investissement personnel, les ressources sont négligées et sous-utilisées. La propriété privée crée de fortes incitations à l'entretien et à l'amélioration que la propriété collective ne peut pas reproduire, car les individus ont des intérêts directs dans la préservation et l'amélioration de la valeur de leur propriété.

@@ -6,3 +6,4 @@ wrong_answers:
   - A través de mensajes en las redes sociales y anuncios públicos de transacciones
 explanation: |
   Según el contenido del capítulo, los datos privados pueden filtrarse de dos formas principales: on-chain y off-chain. Las filtraciones dentro de la cadena se producen a través del análisis de la cadena de bloques pública, donde los patrones de transacción, la reutilización de direcciones y la agrupación pueden revelar información financiera. Las filtraciones fuera de la cadena se producen cuando agentes malintencionados interceptan las comunicaciones por Internet o a través de otros medios ajenos a la cadena de bloques. Aunque las respuestas erróneas mencionan problemas de seguridad reales en el ecosistema de la Bitcoin, no representan la categorización fundamental de cómo se producen las filtraciones de privacidad tal y como se expone en el material.
+reviewed: false

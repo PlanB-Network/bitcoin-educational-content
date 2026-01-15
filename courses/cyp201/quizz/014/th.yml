@@ -1,0 +1,9 @@
+question: จำนวนรอบที่ใช้โดย PBKDF2 ใน Bitcoin คือเท่าไร?
+answer: 2048
+wrong_answers:
+  - 1024
+  - 4096
+  - 512
+explanation: |
+  PBKDF2 ทำซ้ำกระบวนการ HMAC-SHA512 จำนวน 2048 ครั้งเพื่อเพิ่มความปลอดภัย
+reviewed: false

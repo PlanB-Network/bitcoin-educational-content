@@ -6,3 +6,4 @@ wrong_answers:
   - Leistungsfehler verursachen Speicherlecks, die schließlich zum Absturz von Knoten führen, was eine vorübergehende Instabilität des Netzwerks und eine verringerte Hash-Rate zur Folge hat
 explanation: |
   Gregory Maxwell warnte insbesondere davor, dass Leistungsfehler, wenn sie geschickt eingesetzt werden, dazu genutzt werden können, das Netzwerk strategisch aufzuteilen - zum Beispiel, indem "Miner A und Exchange B" in eine Partition eingeteilt werden, während alle anderen in eine andere gehen, was die Voraussetzungen für Double-Spend-Angriffe schafft. Dies verdeutlicht, warum scheinbar geringfügige Probleme als potenziell schwerwiegend behandelt werden sollten, da sie auf raffinierte Art und Weise als Waffe eingesetzt werden können, die nicht sofort offensichtlich ist.
+reviewed: false

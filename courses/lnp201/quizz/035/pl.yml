@@ -6,4 +6,4 @@ wrong_answers:
   - Ustanowienie bezpośrednich połączeń między wszystkimi węzłami sieci, którym się ufa
 explanation: |
   Kontrakty HTLC (Hashed Time-Locked Contracts) zapewniają, że każdy węzeł pośredniczący przekaże płatność bez zatrzymywania środków, ponieważ może je odblokować tylko poprzez zakończenie transakcji u ostatecznego odbiorcy.
-reviewed: false
+reviewed: true

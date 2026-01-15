@@ -34,7 +34,7 @@ Giống như [Mempool Space](https://Mempool.space), cung cấp thông tin hữu
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 Trong hướng dẫn này, chúng tôi sẽ đưa bạn tham quan nền tảng này, đây là tài nguyên thiết yếu cho người dùng Lightning Network, những người muốn kết nối nút của mình để mở rộng mạng, v.v.
 
@@ -304,4 +304,4 @@ Bạn đã khám phá đầy đủ các tính năng và công cụ phân tích c
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

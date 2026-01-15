@@ -1,0 +1,8 @@
+question: Welche kritische Einschränkung der Ökosysteme für mobile Anwendungen hat die ursprüngliche Breez-Anwendung offenbart, die die Entwicklung der SDK-Architektur beeinflusst hat?
+answer: Mobile Apps können nicht einfach miteinander kommunizieren, was Entwickler dazu zwingt, alle Lightning-Funktionen in einzelne Anwendungen zu integrieren, anstatt die Lightning-Infrastruktur gemeinsam zu nutzen
+wrong_answers:
+  - Mobile Geräte verfügen nicht über genügend Rechenleistung, um Lightning-Knoten zuverlässig zu betreiben, so dass eine Cloud-basierte Infrastruktur erforderlich ist, um komplexe Routing-Berechnungen durchzuführen
+  - Mobile Betriebssysteme schränken Hintergrundprozesse zu stark ein, so dass Lightning-Knoten keine dauerhaften Verbindungen zum Netz aufrechterhalten können
+  - Mobile App Stores verbieten nicht-verwahrte Finanzanwendungen, so dass Entwickler gezwungen sind, verwahrte Lösungen zu implementieren, um eine Zulassung im App Store zu erhalten
+explanation: |
+  Die ursprüngliche Breez-App hat gezeigt, dass mobile Ökosysteme die Kommunikation zwischen Apps nicht erleichtern und verhindern, dass spezialisierte Anwendungen die gemeinsame Lightning-Infrastruktur nutzen können. Diese architektonische Einschränkung zwang alle Lightning-Funktionen in monolithische Anwendungen. Die anderen Optionen sind falsch: Mobile Geräte können Lightning-Knoten ausführen (wie Breez bewiesen hat), Hintergrundbeschränkungen sind mit der richtigen Architektur handhabbar, und App-Stores erlauben in der Regel nicht-kustodiale Finanzanwendungen.

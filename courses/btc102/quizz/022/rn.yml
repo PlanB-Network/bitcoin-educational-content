@@ -1,9 +1,9 @@
-question: Ni ingaruka izihe politike y’amahera y’ukwagura igira ku mafaranga y’amahera?
-answer: Bigabanya agaciro k'amahera azigamiwe .
+question: Ni ingaruka izihe politike y’amahera y’ukwagura igira ku mafaranga y’igihugu?
+answer: Bigabanya agaciro k'amahera aziganijwe.
 wrong_answers:
   - Birongera ubushobozi bwo kugura .
   - Bahagarika inyungu .
   - Bituma ubutunzi butera imbere .
 explanation: |
-  Gucapura amahera menshi cane bituma ubushobozi bwo kugura bugabanuka, ivyo bikaba bituma buhorobuhoro ubushobozi bwo kugura bw’uwuzigama bugabanuka.
+  Gucapura amahera menshi cane bituma ubushobozi bwo kugura bugabanuka, ivyo bikaba bituma buhorobuhoro ubushobozi bwo kugura bw’uwuziganya bugabanuka.
 reviewed: false

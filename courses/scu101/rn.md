@@ -1,24 +1,24 @@
 ---
-name: Guhindura umutekano wawe wo kuri interineti
-goal: Guhindura ijambobanga n’uburongozi bw’amakuru y’umuntu ku giti ciwe. Rema ububiko, ukingire abasuma, kandi umenyeshe abantu ibijanye no gucungera abantu benshi.
+name: Gushira kugihe umutekano wawe wo kuri interineti
+goal: Gushira kugihe ijambo ry'ibanga n'ugutunganywa kw’amakuru y’umuntu bwite. Rema ububiko bw' inyongera bw'amakuru, wikingire abatera, kandi umenyeshe abandi ibijanye n'icungerwa ry'abantu rikorerwa kuri interineti kubwinshi.
 objectives: 
 
-  - Ivyagezwe ku bijanye n’ugucungera amakuru y’umuntu ku giti ciwe be n’ibikoresho vyo kwongereza umutekano wawe.
-  - Gushira mu ngiro umucungerezi w’ijambobanga ry’umutekano kandi ryoroshe gukoresha.
-  - Gushira mu ngiro ivyemezo bibiri kugira ngo hakomezwe umutekano no kugabanya ingorane zo gusuma.
+  - Kumenya bishasha bijanye n’ugutunganywa kw’amakuru y’umuntu bwite be n’ibikoresho vyo kwongereza umutekano wawe.
+  - Gushira mu ngiro ubutunganyirizo bw'ijambo ry'ibanga burinzwe kandi bworoshe gukoresha
+  - Gushira mu ngiro uburyo bwo kwinjira hakoreshejwe ivyemezo bibiri mukwimenyekanisha kugira ngo hongerezwe umutekano no kugabanya ingorane zo kwinjirirwa.
 
 ---
 
-# Urugendo rwo kurinda amakuru yawe
+# Urugendo rwo gucungera amakuru yawe
 
 
-Murakaze, mwese, muri iyi porogarama y’inyigisho yihariye ku mutekano wa digitale. Iryo shure ryateguwe kugira ngo umuntu wese ashobore kurironka, rero nta bumenyi bw’ivy’informatique busabwa imbere y’igihe. Intumbero yacu nyamukuru ni ukuguha ubumenyi n’ubuhinga bikenewe kugira ngo ushobore kugendera mw’isi y’ubuhinga bwa none ata nkomanzi kandi ata nkomanzi.
+Murakaze, mwese, muri iyi porogarame y’inyigisho yahariwe ivy'umutekano muvy'ubuhinga bwa none. Iki cigwa categuwe kuburyo umuntu wese ashobore kukironka, rero nibisaba ko uba usanzwe ufise ubumenyi mubijanye na siyance y'inyabwonko. Intego yacu nyamukuru ni ukuguha ubumenyi n’ubuhinga bikenewe kugira ngo ushobore kugendera mw’isi y'ubuhinga bwa none ata nkomanzi kandi mumutekano birushijeho.
 
 
-Ivyo bizosaba ko hashirwa mu ngiro ibikoresho vyinshi, harimwo n’ubuhinga bwo gukoresha ubutumwa kuri e-mail butekanye, ubuhinga bwo gucungera ijambobanga, be n’ubuhinga butandukanye bwo kwongereza umutekano wo kuri Internet.
+Ivyo bizosaba ko hashirwa mu ngiro ikoreshwa ry'ibikoresho bimwe na bimwe, harimwo serivisi ya imeyiri irinzwe, ubutunganyirizo bw'ijambo ry'ibanga, be na porogarame z'inyabwonko zitandukanye mu kwongereza umutekano wo kuri interineti.
 
 
-Muri iri shure, ntidufise intumbero yo kuguhindura umuhinga, uwutazwi, canke uwudashobora gushikirwa n’ingorane, kuko ivyo ntibishoboka. Ahubwo, turaguha inyishu zimwe zimwe zoroshe kandi zishikira kugira ngo utangure guhindura ingeso zawe zo kuri internet no gusubira kugenzura ubusegaba bwawe bwo kuri interineti.
+Muri iki cigwa, ntidufise intumbero yo kuguhindura umuhinga, uwutazwi, canke uwudashobora gushikirwa n’ingorane, kuko ivyo ntibishoboka. Ahubwo, turaguha inyishu zimwe zimwe zoroshe kandi woshikako kugira ngo utangure guhindura akameyero ko gukoresha interineti usanganywe no gusubirana ububasha k'ubusegaba bwawe muvy'ubuhinga bwa none.
 
 
 Ishirahamwe ry'abatererano:
@@ -32,13 +32,13 @@ Tewo; intererano
 
 +++
 
-# Imenyekanisha
+# Intangamarara
 
 
 <partId>534ab66c-b0e6-5757-a7dd-6ea04647edf2</partId>
 
 
-## Incamake y'amashure
+## Incamake y'icigwa
 
 
 <chapterId>2f3d005d-8b49-5a3f-b90d-94c11f613407</chapterId>
@@ -46,84 +46,83 @@ Tewo; intererano
 :::video id=de7236a0-2985-41ef-86f7-3fa0b7f94531:::
 
 
-**Intego: Guhindura ubuhinga bwawe bwo gucungera umutekano !**
+**Ihangiro: Gushira kugihe ubuhinga bwawe bwo gucungera umutekano !**
 
 
-Murakaze, mwese, muri iyi porogarama y’inyigisho yihariye ku mutekano wa digitale. Iryo shure ryateguwe kugira ngo umuntu wese ashobore kurironka, rero nta bumenyi bw’ivy’informatique busabwa imbere y’igihe. Intumbero yacu nyamukuru ni ukuguha ubumenyi n’ubuhinga bikenewe kugira ngo ushobore kugendera mw’isi y’ubuhinga bwa none ata nkomanzi kandi ata nkomanzi.
+Murakaze, mwese, muri iyi porogarame y’inyigisho yahariwe ivy'umutekano muvy'ubuhinga bwa none. Iki cigwa categuwe kuburyo umuntu wese ashobore kukironka, rero nibisaba ko uba usanzwe ufise ubumenyi mubijanye na siyanse y'inyabwonko. Intego yacu nyamukuru ni ukuguha ubumenyi n’ubuhinga bikenewe kugira ngo ushobore kugendera mw’isi y'ubuhinga bwa none ata nkomanzi kandi mumutekano birushijeho.
 
 
-Ivyo bizosaba ko hashirwa mu ngiro ibikoresho vyinshi, harimwo n’ubuhinga bwo gukoresha ubutumwa kuri e-mail butekanye, ubuhinga bwo gucungera ijambobanga, be n’ubuhinga butandukanye bwo kwongereza umutekano wo kuri Internet.
+Ivyo bizosaba ko hashirwa mu ngiro ikoreshwa ry'ibikoresho bimwe na bimwe, harimwo serivisi ya imeyiri irinzwe, ubutunganyirizo bw'ijambo ry'ibanga, be na porogarame z'inyabwonko zitandukanye mu kwongereza umutekano wo kuri interineti.
 
 
-Iryo shure ni igikorwa c’ubufatanye c’abaporofeseri bacu batatu:
-
-
-
-- Renaud Lifchitz, umuhinga mu vy'umutekano wo kuri Internet
-- Théo Pantamis, umuhinga mu vy'imibare
-- Rogzy, Umushingwamanza wa Plan ₿ Academy.
-
-
-Isuku ryawe ry’ubuhinga bwa none ni ngirakamaro cane mw’isi iriko iratera imbere mu vy’ubuhinga bwa none. Naho ubusuma bw’abantu buguma bwiyongera no gucungera abantu benshi, ntibiracererwa gutera intambwe ya mbere no kwikingira.
-
-Muri iri shure, ntituriko turagerageza kukugira umuhinga, uwutazwi, canke uwudashobora gushikirwa n’ingorane, kuko ivyo ntibishoboka. Ahubwo, turaguha inyishu zoroshe kandi zishikira kugira ngo umuntu wese atangure guhindura ingeso zawe zo kuri internet no gusubira kugenzura ubusegaba bwawe bwo kuri interineti.
-
-Niba uriko urarondera ubuhinga buteye imbere ku bijanye n’ico kibazo, ibikoresho vyacu, inyigisho canke ibindi vyigwa bijanye n’umutekano wo kuri interineti biri hano ku bwawe. Hagati aho, ng’iyi insiguro ngufi y’iporogarama yacu y’amasaha make azokurikira turi kumwe.
-
-
-**Igice ca 1: Ivyo ukeneye kumenya vyose ku bijanye no gusura kuri internet**
+Iki cigwa ni igikorwa c’ubufatanye c’abaporofeseri bacu batatu:
 
 
 
-- Igice ca 1 - Gushakisha kuri interineti
-- Igice ca 2 - Gukoresha Internet mu buryo butekanye
+- Renaud Lifchitz, umuhinga mu vy'umutekano wo kuri interineti
+- Théo Pantamis, umuhinga mu vy'ibiharuro
+- Rogzy,  umwe mubashinze Plan ₿ Network.
 
 
-Kugira ngo dutangure, turaza kuganira ku kamaro ko guhitamwo umucukumbuzi w’urubuga be n’ingaruka zijanye n’umutekano wawo. Tuzoheza tubone ivyerekeye ama browser, cane cane ku bijanye n’ugucungera amakuru y’ibanga. Turabona kandi ingene twomenya ko ubuhinga bwo gusura amakuru butekanye kandi butamenyekana, dukoresheje ibikoresho nka TOR. Inyuma y’aho, tuzokwibanda ku gukoresha VPNs kugira ngo amakuru yawe akingirwe neza. Ubwa nyuma, tuzoheza n’impanuro zo gukoresha neza ama connexions ya WiFi.
+Isuku ryawe muvy'ubuhinga bwa none ni rirahambaye cane mw’isi iriko iratera imbere mu vy’ubuhinga bwa none. Naho kwinjirirwa biguma vyiyongera n'icungerwa ry'abantu rikorerwa kuri interineti kubwinshi, nturacererwa gutera intambwe ya mbere mu kwikingira.
 
+Muri iki cigwa, ntituriko turagerageza kukugira umuhinga, uwutazwi, canke uwudashobora gushikirwa n’ingorane, kuko ivyo ntibishoboka. Ahubwo, dutanga inyishu zoroshe kandi zishikira bose kugira ngo utangure guhindura ingeso zawe kuri interineti usanganywe no gusubirana ububasha k'ubusegaba bwawe muvy'ubuhinga bwa none.
+
+Niba uriko urarondera ubuhinga buteye imbere ku bijanye nibi, ibikoresho vyacu, inyigisho canke ibindi vyigwa bijanye n’umutekano wo kuri interineti birahari ku bwawe. Hagati aho, ng’iyi incamke ya porogarame yacu mumamasaha make akurikira turi kumwe.
+
+
+**Igisata ca 1: Ivyo ukeneye kumenya vyose ku bijanye no gushakisha kuri interineti**
+
+
+
+- Igice ca 1 - Kurondera kuri interineti
+- Igice ca 2 - Gukoresha interineti mumutekano
+
+
+Kugira ngo dutangure, turaza kuganira ku kamaro ko guhitamwo  igikoresho cokurondera kumbuga(mucukumbuzi) n’ibijanye numutekano wicogikoresho. Tuzoheza tubone ivyerekeye ivyobikoresha, cane cane ku bijanye n’ugutuganywa kw'ububiko bw'amakuru bwite y'uwugenderera urubuga (Cookies). Tuzoheza tubone ingene tworonderera kumbuga hakoreshejwe uburyo burinzwe kandi butagaragaza umwidondoro w'umuntu nibimuranga, dukoresheje ibikoresho nka TOR. Inyuma y’aho, tuzokwibanda ku gukoresha za VPNs kugira ngo hakazwe ugukingirwa kw'amakuru yawe. Ubwa nyuma, tuzoheza n’impanuro zo gukoresha inzira ya WiFi muburyo burinzwe.
 
 ![image](assets/rn/001.webp)
 
 
-**Igice ca 2: Ivyiza vyo gukoresha mudasobwa**
+**Igisata ca 2: Imigenzo myiza  yo gukoresha inyabwonko**
 
 
 
-- Igice ca 3 - Ikoreshwa rya mudasobwa
-- Igice ca 4 - Gutera no gucungera ububiko
+- Igice ca 3 - Ikoreshwa ry'inyabwonko
+- Igice ca 4 - Ukwinjirigwa be n'ugutunganywa kw'ububiko bw' inyongera bw'amakuru 
 
 
-Muri iki gice, turaza kuvuga ibintu bitatu nyamukuru bijanye n’umutekano wa mudasobwa. Ubwa mbere, tuzokwihweza uburyo butandukanye bwo gukoresha, harimwo Mac, PC, na Linux, tugaragaze ibiranga n’inkomezi zavyo vyihariye. Inyuma y’aho, tuzokwihweza uburyo bwo kwikingira neza abagerageza gutera no kwongereza umutekano w’ibikoresho vyawe. Ubwa nyuma, tuzoshimika ku kamaro ko kwama urinda no gukora backup y’amakuru yawe kugira ngo ntihagire ikintu na kimwe atakaza canke ngo agire ransomware.
+Muri iki gisata, turaza kuraba ibintu bitatu nyamukuru bijanye n’umutekano w'inyabwonko. Ubwa mbere, tuzokwihweza sisiteme z'ikoresha zitandukanye, harimwo Mac, PC, na Linux, tugaragaze ibiziranga n’inkomezi zazo. Inyuma y’aho, tuzokwihweza uburyo bwo kwikingira neza abagerageza gutera no kwongereza umutekano w’ibikoresho vyawe. Ubwa nyuma, tuzokwibanda ku kamaro ko kwama urinda no gukora ububiko bw' inyongera bw'amakuru yawe kugira ngo wirinde kugira ikintu na kimwe utakaza canke ransomware.
 
 ![image](assets/rn/002.webp)
 
 
-**Igice ca 3: Gushira mu ngiro inyishu**
+**Igisata ca 3: Gushira mu ngiro inyishu**
 
 
 
-- Igice ca 6 - Gucungera imeyili
-- Igice ca 7 - Umuyobozi w'ijambobanga
-- Igice ca 8 - Ivyemezo bibiri
+- Igice ca 6 - Ugutunganywa kwa imeyiri
+- Igice ca 7 - Ubutunganyirizo bw'ijambo ry'ibanga
+- Igice ca 8 - Ivyemezo bibiri mukwimenyekanisha
 
 
-Muri iki gice ca gatatu gikora, tuzoja ku gushirwa mu ngiro kw’imiti yawe nyayo.
+Muri iki gice co gushira mungiro ca gatatu , tuzoja ku gushirwa mu ngiro kw’imiti yawe nyayo.
 
 
-Ubwa mbere, turabona ingene wokingira inbox yawe ya email, iyo na yo ikaba ari ngirakamaro ku bijanye n’uguhanahana amakuru yawe kandi akenshi ikaba iterwa n’abasuma. Hanyuma, tuzogumenyesha umucungerezi w’amajambo banga: umuti ngirakamaro wo kwirinda kwibagirwa canke kuvanga amajambo banga yawe mu gihe uyazigama. Ubwa nyuma, tuzovuga ku ngingo y’umutekano y’inyongera, ni ukuvuga kwemeza ko umuntu ari umunyakuri, ivyo bikaba vyongera Layer y’inyongera y’uburinzi ku makonti yawe. Ivyo vyose bizosigurwa neza kandi bishikira.
+Ubwa mbere, tuzobona ingene wokingira agasanduku kawe ka imeyiri, ako nako ningombwa ku bijanye n’uguhanahana amakuru yawe kandi akenshi kakaba gakunda guterwa cane n’abatera. Hanyuma, tuzokwereka ubutunganyirizo bw'ijambo ry'ibanga: umuti wogushira mungiro wo kwirinda kwibagirwa canke kuvanga Amajambo y' ibanga yawe mu gihe uyarinda. Ubwa nyuma, tuzovuga ku ngingo y’umutekano y’inyongera, ivyemezo bibiri mukwimenyekanisha, ivyo bikaba vyongera ubundu burinzi bw’inyongera ku makonti yawe. Ivyo vyose bizosigurwa neza kandi muburyo bworoshe gushikako.
 
 ![image](assets/rn/003.webp)
 
 
-Ni mwiteguye gukomeza umutekano wawe wa digitale no gusubira kugenzura amakuru yawe? Reka tugende!
+Uriteguye gukomeza umutekano wawe muvy'ubuhinga bwa none no gusubirana ububasha ku amakuru yawe? Reka tugende!
 
-# Ivyo ukeneye kumenya vyose ku bijanye no gusura kuri internet
+# Ivyo ukeneye kumenya vyose ku bijanye no kurondera kuri interineti
 
 
 <partId>b4b5379a-d8ef-59ae-94d3-a6e88959c149</partId>
 
 
-## Gushakisha kuri interineti
+## kurondera kuri interineti
 
 
 <chapterId>3a935da9-fa6e-57eb-bf85-7b3ec35e6ee2</chapterId>
@@ -131,61 +130,61 @@ Ni mwiteguye gukomeza umutekano wawe wa digitale no gusubira kugenzura amakuru y
 :::video id=f1cead27-ed41-4ca2-afd2-b08a994d0119:::
 
 
-Igihe uriko urarondera kuri internet, birahambaye cane ko wirinda amakosa asanzwe kugira ngo ugume ufise umutekano wo kuri internet. Akira inama zimwe zimwe zo kuzirinda:
+Igihe uriko urarondera kuri interineti, birahambaye cane ko wirinda amakosa asanzwe akogwa kugira ngo ugume ufise umutekano wawe kuri interineti. Ngizi inama zimwe zimwe zo kuzirinda:
 
 
-### Urabe maso mu gukura kuri porogaramu:
+### Urabe maso mu kuvoma porogarame ku rubuga
 
 
-Ni vyiza gukura porogarama ku rubuga rwemewe rw’uwasohoye iyo porogarama aho kuyikura ku mbuga rusangi.
+uhanuwe kuvoma porogarame ku rubuga rwemewe rw’uwasohoye iyo porogarame aho kuyikura ku mbuga rusangi.
 
-Akarorero: Koresha urubuga www.ikimenyetso.org/gukuraho aho gukoresha urubuga www.
+Akarorero: Koresha urubuga www.signal.org/download aho gukoresha urubuga www.logicieltelechargement.fr/signal.
 
 ![image](assets/rn/004.webp)
 
 
-Ni vyiza kandi gushira imbere porogarama zifunguye kuko akenshi zitekanye kandi zidafise porogarama mbi. Porogaramu "open-source" ni ubwoko bwa porogaramu kode yayo iboneka ku mugaragaro kandi ishobora gushikirwa na bose. Ivyo bituma umuntu ashobora kugenzura, mu bindi, ko ata nzira yihishije yo kwiba amakuru yawe.
+Ni vyiza kandi gushira imbere porogarame zisoko yuguruye(open-source) kuko akenshi usanga atankomanzi kandi ataho zihuriye na porogarame mbi. porogarame "open-source" ni ubwoko bwa porogarame kode yayo iboneka ku mugaragaro kandi ishobora gushikirwa na bose. Ivyo bituma umuntu ashobora gusuzuma, mu bindi, ko ata nzira yihishije yo kwiba amakuru yawe.
 
 
-> Ivyiza: Porogarama zifunguye akenshi zitangwa ku buntu! Iyi kaminuza ni 100% y’inkomoko yuguruye, rero urashobora no gusubiramwo kode yacu kuri GitHub.
+> Akarusho: porogarame zisoko yuguruye akenshi zitangwa ku buntu! Iyi kaminuza n'isoko yuguruye 100%, rero urashobora no gusubiramwo kode yacu kuri GitHub.
 
 ![image](assets/rn/005.webp)
 
-### Uburongozi bw'ibikuki: Amakosa n'imigenzo myiza
+### Ugutunganywa kwa kuki(cookie): Amakosa n'imigenzo myiza
 
 
-Cookies ni amadosiye aremeshwa n’imbuga kugira ngo ibike amakuru kuri mudasobwa yawe canke kuri telefone ngendanwa yawe. Naho imbuga zimwe zimwe zisaba ko izo cookies zikora neza, zirashobora kandi gukoreshwa n’izindi mbuga, canecane kugira ngo zikurikirane amatangazo. Mu mategeko nka GDPR, birashoboka—kandi biraremeshwa—kwanka amakuru y’ukurikirana y’uwundi muntu mu gihe wemera ayo ari ngirakamaro kugira ngo urubuga rukore neza. Inyuma y’aho umuntu asuye urubuga, biraba vyiza asubiyemwo amakuru ajanye n’urubuga, akoresheje amaboko canke biciye ku yindi nzira canke kuri porogarama yihariye. Hari mbere n’ama browser atanga ubushobozi bwo gukuraho amakuru y’ibanga. Naho ivyo vyitonderwa, birahambaye cane gutahura ko amakuru yegeranywa n’imbuga zitandukanye ashobora kuguma ahuye, ni co gituma bihambaye kurondera uburinganire hagati y’ugutuma umuntu ashobora gukora neza n’ugutekanirwa.
+amakuki ni amadosiye aremwa n’imbuga kugira ngo zibike amakuru ku mashini nyabwonko yawe canke kuri terefone ngendanwa yawe. Naho imbuga zimwe zimwe bibabisaba ko habako ayo makuki kugira zishobore gukora neza, ayo makuki ashobora kandi gukoreshwa n’izindi mbuga, cane cane kugira ngo zikurikirane ibijanye no kwamamaza. Mu mategeko nka GDPR, birashoboka kandi uhanuwe kwankira amakuki y'izindi mbuga gukurikirana amakuru mu gihe wemera amakuki yangombwa kugira ngo urubuga rukore neza. Inyuma y’aho umuntu agendereye urubuga, ni vyiza ko akurako amakuki ajanye n’urubuga, avyikoreye canke biciye ku nyongera bushobozi canke kuri porogarame yihariye. Hari mbere n'ibikoresho vyokurondera kumbuga (mucukumbuzi) bitanga ubushobozi bwo gukurako amakuki muburyo bwo guhitamo. Naho ivyo vyitonderwa, birahambaye cane gutahura ko amakuru yegeranywa n’imbuga zitandukanye ashobora kuguma afite aho ahuriye, ni co gituma bihambaye kurondera ukunganisha ugutuma umuntu ashobora gukora neza n’ugutekanirwa.
 
 
-> Iciyumviro: Vyongeye, nugabanye igitigiri c’ibintu vy’inyongera bishizwe kuri mucukumbuzi wawe kugira ngo wirinde ingorane zishobora guterwa n’umutekano n’imikorere.
+> Iciyumviro: Vyongeye, nugabanye igitigiri c’inyongera bushobozi ushira mugikoresho cawe cokurondera kumbuga (mucukumbuzi) kugira ngo wirinde ingorane zikomeye z'umutekano n’imikorere.
 
-### Umucukumbuzi w'urubuga: amahitamwo, umutekano
+### Ibikoresho vyokurondera kumbuga (mucukumbuzi): amahitamwo, umutekano
 
 
-Hari imiryango ibiri ikomeye y’ibikoresho vy’ubuhinga bwa none: ivyo bishingiye kuri Chrome n’ivyo bishingiye kuri Firefox.
+Hari imiryango ibiri ikomeye y’ibikoresho vyokurondera kumbuga (mucukumbuzi): ivyo bishingiye kuri Chrome n’ivyo bishingiye kuri Firefox.
 
-Naho iyo miryango yompi itanga urugero rumwe rw’umutekano, birakenewe ko umuntu yirinda gukoresha umucukumbuzi wa Google Chrome kubera ubushobozi afise bwo gukurikirana. Ibindi bikoresho vyoroshe kuruta Chrome, nka Chromium canke Brave, bishobora gukundwa. Brave iraremeshwa cane cane kubera ubuhinga bwayo bwo kubuza amatangazo. Bishobora kuba ngombwa ko ukoresha ama browser menshi kugira ngo ugere ku mbuga zimwezimwe.
+Naho iyo miryango yompi itanga urugero rumwe rw’umutekano, birakenewe ko umuntu yirinda gukoresha igikoresho cokurondera kumbuga (mucukumbuzi) ca Google Chrome kubera ubushobozi gifise bwo gukurikirana amakuru yumuntu. Ibindi bikoresho vyoroshe kuruta Chrome, nka Chromium canke Brave, bishobora gukundwa kurusha ibindi. Uhanuwe muburyo bwihariye gukoresha Brave  cane cane kubera ubuhinga bwayo ikoranye bwo guhagarika amatangazo. Bishobora kuba ngombwa ko ukoresha ibikoresho vyo kurondera kumbuga (mucukumbuzi) vyinshi kugira ngo ugere ku mbuga zimwezimwe.
 
 ![image](assets/rn/006.webp)
 
 
-### Gushakisha mu buryo bwihariye, TOR, n'ubundi buryo bwo gushakisha mu buryo butekanye kandi butazwi
+### Kurondera mu buryo bwihariye, TOR, n'ubundi buryo bwo gushakisha mu buryo butekanye kandi butazwi
 
 
-Gucapura mu buryo bw’ibanga, naho nyene bitanyegeza gucapura ku muntu aguha interineti, biragufasha kwirinda gusiga ibimenyetso vy’aho uba kuri mudasobwa yawe. Ama cookies aca asubirwamwo ubwo nyene iyo ikiganiro cose kirangiye, ivyo bikaba bituma wemera ama cookies yose ata n’umwe akukurikirana. Guca ku rubuga rw’ibanga birashobora kuba ngirakamaro igihe ugura ibikorwa vyo kuri Internet, kuko imbuga zikurikirana ingeso zacu zo kurondera kandi zigahindura ibiciro bivanye n’ivyo. Ariko rero, birahambaye kumenya ko gukoresha urubuga rwiwe bwite ari vyiza ku bihe vy’igihe gito no mu bihe vyihariye, aho gukoresha urubuga rwa interineti muri rusangi.
+Kurondera mu buryo bw’ibanga, naho nyene bitanyegeza uko urondera ku wuguha interineti, biragufasha kwirinda gusiga ibimenyetso ku mashine nyabwonko yawe. Amakuki aca akugwako ubwo nyene ugiheza kurondera, ivyo bikaba bituma wemera amakuki yose udakurikiranwa. kurondera kumbuga mw’ibanga birashobora kugirakamaro igihe ugura serivisi zokuri interineti, kuko imbuga zikurikirana ingeso zacu zo kurondera zigahindura ibiciro bivanye n’ivyo. Ariko rero, birahambaye kumenya ko Kurondera mu buryo bw’ibanga bihanuwe mugihe biba arivy’igihe gito no mu bihe vyihariye, aho kubikora urondera kuri interineti muri rusangi.
 
 
-Iyindi nzira iteye imbere cane ni urubuga rwa TOR (The Onion Router), rutanga ubutamenyekana mu gupfuka IP Address y’uwukoresha no kwemerera umuntu gushika ku rubuga rwa Darknet. TOR Browser ni umucukumbuzi yagenewe gukoresha urubuga rwa TOR. Bigufasha gusura imbuga zisanzwe n’imbuga za .onion, zikoreshwa n’abantu ku giti cabo kandi zishobora kuba zifitaniye isano n’ibikorwa bitemewe n’amategeko.
+Ubundi buryo buteye imbere cane ni umuhora wa TOR (The Onion Router), utanga ubutamenyekana mu kutagaragaza IP Address y’uwuyikoresha no kwemerera umuntu gushika kuri Darknet. TOR ni igikoresha cokurondera kumbuga (mucukumbuzi) cagenewe vyihariye gukoresha umuhora wa TOR. Bigufasha kugenderera imbuga zisanzwe n’imbuga za .onion, zikoreshwa n’abantu ku giti cabo kandi zishobora kuba zifite ahozihuriye n’ibikorwa bitemewe n’amategeko.
 
 
-TOR ni igikoresho gitegekanijwe n’amategeko kandi gikoreshwa cane n’abanyamakuru, abaharanira umwidegemvyo, n’abandi barondera gukingira ubugenzuzi mu bihugu vy’ubutegetsi bw’agahomerabunwa. Ariko rero, birahambaye gutahura ko TOR idakingira imbuga zasuwe canke mudasobwa ubwayo. Ikindi kandi, gukoresha TOR birashobora gutuma internet igenda buhoro kuko amakuru aca muri mudasobwa z’abandi bantu batatu imbere y’uko ashika aho aja. Ni ngombwa kandi kumenya ko TOR atari umuti w’ubujuju wo gutuma umuntu atamenyekana 100% kandi ko udakwiye gukoreshwa mu bikorwa bitemewe n’amategeko.
+TOR ni igikoresho cemewe n’amategeko kandi gikoreshwa cane n’abanyamakuru, abaharanira ukwishira ukizana, n’abandi barondera guca kuruhande ibibujijwe mubihugu bidatanga ukwishira ukizana muri vyose. Ariko rero, nivyakamaro gutahura ko TOR itarinda imbuga zagenderewe canke inyabwonko ubwayo. Ikindi kandi, gukoresha TOR birashobora gutuma interineti igenda gahoro kuko amakuru aca mu nyabwonko z’abandi bantu batatu imbere y’uko ashika aho aja. Ni ngombwa kandi kumenya ko TOR atari umuti uzirintenge wo gutuma umuntu atamenyekana 100% kandi ko idakwiye gukoreshwa mu bikorwa bitemewe n’amategeko.
 
 ![image](assets/rn/007.webp)
 
 
 https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
-## VPN n'ihuriro rya interineti
+## VPN n'inzira ya interineti
 
 
 <chapterId>5aac83f4-a685-54b0-9759-d71bea7eeed2</chapterId>
@@ -193,57 +192,60 @@ https://planb.academy/tutorials/computer-security/communication/tor-browser-a847
 :::video id=737d30ac-43d8-4a69-afda-89b9d7e8c4e1:::
 
 
-### VPNs
+### Ama VPN
 
 
-Gukingira uruja n’uruza rwawe rwa interineti ni ikintu gihambaye cane mu bijanye n’umutekano wo kuri interineti, kandi gukoresha imihora y’ibanga (VPNs) ni uburyo bwiza bwo kwongereza uwo mutekano, haba ku bucuruzi canke ku bakoresha ku giti cabo.
+Gukingira inzira ya interineti yawe ni ikintu gihambaye cane mu bijanye n’umutekano wo kuri interineti, kandi gukoresha imihora y’ibanga (VPNs) ni uburyo bwiza bwo gukaza uwo mutekano, haba ku bucuruzi canke ku bayikoresha ku giti cabo.
 
 
-VPNs ni ibikoresho bipfuka amakuru yoherezwa kuri internet, bikaba bituma iyo nzira iguma itekanye. Mu bijanye n’umwuga, VPN zituma abakozi bashobora gushika ku rubuga rw’imbere rw’ishirahamwe ata nkomanzi bari kure. Amakuru ahindurwa arashirwa mu buryo buziguye, ivyo bikaba bituma bigorana cane ko abandi bantu bashobora kuyafata. Uretse gukingira urubuga rw’imbere, gukoresha VPN birashobora gutuma uwukoresha ashobora gukoresha urubuga rwiwe rwa internet biciye ku rubuga rw’imbere rw’ishirahamwe, bikaba bitanga iciyumviro c’uko urubuga rwiwe ruva kuri iyo sosiyete. Ivyo birashobora kuba ngirakamaro canecane ku bijanye no kuronka ubuhinga bwo kuri Internet bufise aho bugarukira.
+VPN ni ibikoresho bi nyegeza amakuru yoherezwa kuri interinetii, bikaba bituma iyo nzira iguma irinzwe. Mu bijanye n’umwuga, VPN zituma abakozi bashobora gushika ku muhora w’imbere mw’ishirahamwe bari mubice vyakure na kure. Amakuru ahanahanwa aranyegezwa, ivyo bikaba bituma bigorana cane ko abandi bantu bashobora kubinjirira. Uretse gukingira umuhora w’imbere, gukoresha VPN birashobora gutuma uwuyikoresha ashobora gukoresha inzira ya interineti yiwe biciye ku muhora w’imbere mw’ishirahamwe, bikitwa ko inzira yiwe iva muri iryo shirahamwe. Ivyo birashobora kuba ingirakamaro cane cane ku bijanye no kuronka serivisi zo kuri interineti zibujijwe mukarere.
 
 ![image](assets/rn/008.webp)
 
 
-### Ubwoko bwa VPNs
+### Ubwoko bwa VPN
 
 
-Hari ubwoko bubiri bw’intango bwa VPN: VPN z’amashirahamwe na VPN z’abaguzi, nka Nordvpn. VPNs z’amashirahamwe zikunda kuba zizimvye kandi zigoye, mu gihe VPNs z’abaguzi muri rusangi zishobora gushikirwa kandi zikoreshwa neza. Nk’akarorero, NordVPN ituma abayikoresha bashobora kwinjira kuri internet biciye ku server iri mu kindi gihugu, gutyo ntibacike ku nzira zibujijwe.
+Hari ubwoko bubiri bw’ibanze bwa VPN: VPN z’amashirahamwe na VPN z’abaguzi, nka Nordvpn. VPN z’amashirahamwe zikunda kuba zizimvye kandi zigoye, mu gihe VPN z’abaguzi muri rusangi ushobora kuzironka kandi zoroshe gukoresha. Nk’akarorero, NordVPN ituma abayikoresha bashobora kwinjira kuri interinetii biciye ku rusenge(seriveri) ruri mu kindi gihugu, gutyo bakarenga kubibujijwe mukarere.
 
 
-Ariko rero, gukoresha VPN y’abaguzi ntibituma umuntu atamenyekana. Abatanga VPN benshi barazigama amakuru yerekeye abakoresha babo, ivyo bishobora gutuma batamenyekana. Naho VPNs zishobora kuba ngirakamaro mu gutuma umutekano wo kuri internet utera imbere, si umuti w’abantu bose. Birakora neza mu bikorwa vyihariye, nk’ugushika ku bikorwa bifise aho bigarukira canke kwongerera umutekano igihe uri mu rugendo, ariko ntibituma umuntu agira umutekano wose. Igihe uhitamwo VPN, birahambaye cane ko ushira imbere ukwizigirwa n’ubuhinga bw’ubuhinga kuruta ukumenyekana. Abatanga VPN bakorakoranya amakuru makeyi cane y’umuntu ku giti ciwe ni bo muri rusangi batekanye kuruta abandi bose. Servisi nka iVPN na Mullvad ntizikusanya amakuru y’umuntu ku giti ciwe mbere ziremera no kwishura muri Bitcoin kugira ngo umuntu agire ubuzima bwiwe bwite.
+Ariko rero, gukoresha VPN y’abaguzi ntibituma umuntu atamenyekana. Abatanga VPN benshi bafata amakuru yerekeye abazikoresha, ivyo bishobora gutuma badashika kukutamenyekana kwabo. Naho VPNs zishobora kuba ingirakamaro mu gutuma umutekano wo kuri interineti uja kuyindi ntambwe, si umuti w’abantu bose. zikora neza mu bikorwa vyihariye, nk’ugushika ku bibujijwe mukarere canke gukaza umutekano igihe uri kurugendo, ariko ntibituma umuntu agira umutekano wose ukwiye. Igihe uhitamwo VPN, birahambaye cane ko ushira imbere ukwizigirwa n’ukuba utahura neza uko ikora kuruta ukumenyekana. Abatanga VPN bakorakoranya amakuru makeyi cane y’umuntu ku giti ciwe ni bo muri rusangi badateye ikibazo. Servisi nka iVPN na Mullvad ntizikusanya amakuru y’umuntu ku giti ciwe mbere ziremera no kwishura muri Bitcoin kugira ngo hongerezwe ukwigenga kumuntu bwite.
 
 ![image](assets/rn/009.webp)
 
-Ubwa nyuma, VPN irashobora kandi gukoreshwa mu guhagarika amatangazo yo kuri Internet, bikaba bituma umuntu ashobora gukoresha neza kandi akagira umutekano. Ariko rero, ni ngombwa gukora ubushakashatsi bwimbitse kugira uronke VPN ihuye neza n’ivyo ukeneye. Gukoresha VPN ni vyiza kugira ngo umuntu agire umutekano mwinshi, mbere n’igihe ariko arakoresha internet muhira. Ivyo bifasha kumenya ko amakuru ahindurwa kuri Internet akingirwa cane. Ubwa nyuma, woba ushobora gusuzuma ama URL n’agafunguzo gatoyi kari mu murongo wa Address kugira ngo wemeze ko uri ku rubuga wipfuza?
+Ubwa nyuma, VPN irashobora kandi gukoreshwa mu guhagarika amatangazo yo kuri interineti, bikaba bitanga uburyo bwiza kandi burinzwe bwo kurondera. Ariko rero, ni ngombwa gukora ubushakashatsi bwimbitse kugira uronke VPN ihuye neza n’ivyo ukeneye. Birahanuwe gukoresha VPN kugira ngo ukaze umutekano, mbere n’igihe uriko urakoresha interineti muhira. 
+
+Ibi bifasha mugutuma habako ugukingira guhambaye kw'amakuru ahanahanwa kuri interineti. Ubwa nyuma, woba ushobora kuraba ama URL(bumwe mu bwoko bw'amahuza) n’agafunguzo gatoyi kari ahagenewe kwandikwa Aderese kugira ngo wemeze ko uri ku rubuga wagomvye kuba uriko?
 
 
 https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-### HTTPS & imihora ya Wi-Fi ya bose
+### HTTPS n'imihora ya Wi-Fi ya rusangi
 
 
-Ku bijanye n’umutekano wo kuri internet, ni ngombwa gutahura ko muri rusangi 4G itekanye kuruta Wi-Fi ya bose. Ariko rero, gukoresha 4G birashobora gukuraho ningoga umugambi wawe w’amakuru yo kuri telefone ngendanwa. Itegeko rya HTTPS ryacitse iryo tegeko ryo gupfuka amakuru ku mbuga ngurukanabumenyi. Bituma amakuru ahindurwa hagati y’uwukoresha n’urubuga aba afise umutekano. Ni ngombwa rero ko usuzuma ko urubuga uriko urasura rukoresha ubuhinga bwa HTTPS.
+Ku bijanye n’umutekano wo kuri interineti, ni ngombwa gutahura ko muri rusangi 4G irinzwe kuruta Wi-Fi ya rusange. Ariko rero, gukoresha 4G birashobora guheza ningoga umutekero wawe wa interineti. Itegeko rya HTTPS ryacitse umurungongendegwako wo kunyegeza amakuru ku mbuga. Bituma amakuru ahanahanwa hagati y’uwukoresha urubuga n’urubuga aba arinzwe. Kubwivyo ni ngombwa ko wihweza ko urubuga uriko uragenderera rukoresha itegeko rya HTTPS. Ushobora gukora ivyo wihweza aderese ko itanguzwa na "https://" canke uraba ko akagufuri gatoyi kagaragara ahagenewe kwandikwa aderese
 
 
-Mu Bumwe bw’Uburaya, ugukingira amakuru bigenwa n’Itegeko Rusangi ryerekeye Ugukingira Amakuru (GDPR). Ku bw’ivyo, birarushiriza kuba vyiza gukoresha amashirahamwe y’i Buraya atanga amakuru y’ugukoresha Wi-Fi, nka SNCF, adasubira kugurisha amakuru y’uguhuza n’abakoresha. Ariko rero, kuba gusa urubuga rwerekana urufunguzo ntivyemeza ko ari urw’ukuri. Ni ngombwa kugenzura urufunguzo rwa bose rw’urubuga hakoreshejwe uburyo bwo gutanga icemeza ko ari urw’ukuri. Naho gushiramwo amakuru mu buryo butari bwo bibuza abandi gufata amakuru yahinduwe, birashoboka ko umuntu w’umunyaruyeri yokwigira urubuga maze akarungika amakuru mu nyandiko rusangi.
+Mu Bumwe bw’Uburaya, ugukingira amakuru bigenwa n’itegeko Rusangi ryerekeye Ugukingira Amakuru
+(GDPR). Ku bw’ivyo, birarushiriza kuba vyiza gukoresha ibikoresho bifasha kuronka Wi-Fi bitangwa namashirahamwe y’i Buraya, nka SNCF, idasubira kugurisha amakuru y’uguhuza ya babikoresha. Ariko rero, kuba gusa urubuga rwerekana urufunguzo ntivyemeza ko ari urw’ukuri. N'ivyakamaro gusuzuma urufunguzo rwa rusange rw’urubuga hakoreshejwe uburyo bwo gutanga icemeza ko ari urw’ukuri. Kugira ivyo ubikore vyinshi mubikoresho vyokurondeza kuri interineti ushobora gufyonda ku kamenyetso kurufunguzo kugire uronke amakuru yandi kw'ico cemezo. Naho kunyegeza amakuru bibuza abandi kwitambika amakuru ahanahanwa, birashoboka ko umuntu mubi yokwigira urubuga akarungika amakuru mu nyandiko itanyegeje.
 
 
-Kugira ngo wirinde ubusuma bwo kuri Internet, birahambaye cane ko usuzuma akaranga k’urubuga uriko urarondera, canecane mu kugenzura extension n’izina ry’urubuga. Ikindi, nube maso ku bahendanyi bakoresha amajambo asa n’ayo mu ma URL kugira ngo bahenda abakoresha.
+Kugira ngo wirinde ububeshi, birahambaye cane ko usuzuma akaranga k’urubuga uriko urarondererako, cane cane mu gusuzuma izina ry'urubuga n'ikirihereza. Ikindi, ba maso ku bahendanyi bakoresha amajambo asa mu ma URL (bumwe mu bwoko bw'amahuza) kugira ngo bahenda abakoresha urubuga.
 
 ![image](assets/rn/010.webp)
 
-Mu ncamake, gukoresha VPN birashobora gutuma umutekano wo kuri internet utera imbere cane ku bucuruzi no ku bakoresha ku giti cabo. Vyongeye, kwimenyereza ingeso nziza zo gusura amakuru birashobora gutuma umuntu agira isuku ryiza ryo kuri interineti. Mu gice gikurikira c’iri shure, tuzovuga ibijanye n’umutekano wa mudasobwa, harimwo n’ivyo guhindura, porogarama zikingira virusi be n’ugucungera ijambobanga.
+Mu ncamake, gukoresha VPN birashobora gutuma umutekano wo kuri interineti utera imbere cane ku bucuruzi no ku bayikoresha ku giti cabo. Vyongeye, kwimenyereza ingeso nziza zo kurondeza kumbuga birashobora gutuma umuntu agira isuku ryiza muvyubuhinga bwa none. Mu gice gikurikira c’icigwa, tuzoraba ibijanye n’umutekano w'inyabwonko, harimwo n’ivyo gushira kugihe, porogarame zikingira umugera(nyabwonko) be n’ugutunganywa kw'ijambo ry'ibanga.
 
 
-# Ivyiza vyo gukoresha mudasobwa
+# Imigenzo Myiza y'Ugukoresha Inyabwonko
 
 
 <partId>e6eac20b-ba24-5d9a-8d86-8e0164074457</partId>
 
 
-## Gukoresha mudasobwa
+## Ikoreshwa ry'inyabwonko
 
 
 <chapterId>16745632-b56b-5423-9873-ddf70fdf1efd</chapterId>
@@ -251,72 +253,72 @@ Mu ncamake, gukoresha VPN birashobora gutuma umutekano wo kuri internet utera im
 :::video id=35892007-5ea5-4956-bf80-3363d69c96d5:::
 
 
-Umutekano wa mudasobwa zacu ni ikintu gihambaye cane mw’isi y’ubu y’ubuhinga bwa none. Uyu musi, tuzogira Address ingingo zitatu z’ingenzi:
+Umutekano w'inyabwonko zacu ni ikintu gihangayikishije cane mw’isi y’ubu y’ubuhinga bwa none. Uyu musi, tuza kuraba ibintu bitatu bikomeye:
 
 
 
-- Guhitamwo mudasobwa
-- Ivyagezwe n'umugera kugira ngo ugire umutekano mwiza
-- Ivyiza vyo gukingira mudasobwa yawe n’amakuru yawe.
+- Guhitamwo inyabwonko
+- Gushira kugihe na porogarame zikingira umugera(nyabwonko) kugira ngo ugire umutekano wikirenga
+- Imigenzo myiza kugira ngo habeho umutekano w'inyabwonko yawe n’amakuru yawe.
 
 
-### Guhitamwo mudasobwa n'uburyo bwo kuyikoresha
+### Guhitamwo Inyabwonko na Sisiteme ikoresha
 
 
-Ku bijanye n’uguhitamwo mudasobwa, nta tandukaniro rikomeye riri hagati ya mudasobwa za kera n’izishasha mu bijanye n’umutekano. Ariko rero, hariho itandukaniro mu bijanye n’umutekano hagati y’ibikoresho bikoreshwa, harimwo Windows, Linux na Mac.
+Ku bijanye n’uguhitamwo inyabwonko, nta tandukaniro rikomeye riri hagati ya inyabwonko za kera n’izishasha mu bijanye n’umutekano. Ariko rero, hariho itandukaniro mu bijanye n’umutekano hagati ya sisteme zikoresho, harimwo Windows, Linux na Mac.
 
 ![image](assets/rn/011.webp)
 
-Ku bijanye na Windows, birakenewe ko udakoresha konti y’umuyobozi ku musi, ahubwo ugakora konti zibiri zitandukanye: imwe y’umuyobozi n’iyindi y’umuyobozi ku musi. Windows akenshi irashobora gushikirwa n’ibintu bibi kubera umubare munini w’abayikoresha n’uko yoroshe kuva ku muntu asanzwe akoresha ukaja ku muyobozi. Ku rundi ruhande, iterabwoba ntirikunda gushika kuri Linux na Mac.
+Ku bijanye na Windows, birakenewe ko udakoresha konti y’umuyobozi vya minsi yose, ahubwo ugakora konti zibiri zitandukanye: imwe y’ibikorwa bijanye n'umuyobozi n’iyindi yibikorwa vya minsi yose. Windows akenshi irashobora gushikirwa cane n’ibintu bibi kubera igitigiri kinini cabayikoresha n’ukuba vyoroshe kuva muri konti isanzwe uja muri konti y'umuyobozi. Ku rundi ruhande, ivyo ntibikunze gushika kuri Linux na Mac.
 
 
-Guhitamwo uburyo bwo gukoresha bikwiye gushingiye ku vyo ukeneye n’ivyo ukunda. Sisitemu za Linux zarateye imbere cane mu myaka iheze, zica zirushiriza gukoreshwa neza. Ubuntu ni uburyo bushimishije ku batangura, bufise igishushanyo coroshe gukoresha Interface. Birashoboka gucapura mudasobwa kugira ngo ugerageze Linux mu gihe uguma ufise Windows, ariko ivyo bishobora kuba igikorwa kigoye. Akenshi ni vyiza kugira mudasobwa yihariye, imashini y’ivy’ubuhinga, canke urufunguzo rwa USB kugira ngo ugerageze Linux canke Ubuntu.
+Guhitamwo sisteme yo gukoresha bikwiye gushingira ku vyo ukeneye n’ivyo ukunda. sisiteme za Linux zarateye imbere cane mu myaka iheze, zica zirushiriza kuba zorohera abazikoresha. "Ubuntu" ni yindi sisteme yabagitangura, ifise igicapo cyoroshe gukoresha. Birashoboka kugabura inyabwonko mwo ibice kugira ngo ugerageze Linux mu gihe uguma ufise Windows, ariko ivyo bishobora kuba igikorwa kigoye. Akenshi ni vyiza kugira inyabwonko yihariye, inyabwonko iri muyindi (virtual), canke urufunguzo rwa USB kugira ngo ugerageze Linux canke "Ubuntu".
 
 ![image](assets/rn/012.webp)
 
 
-### Ivugurura rya porogaramu
+### Gushira kugihe porogarame
 
 
-Ku bijanye n'uguhindura, itegeko ryoroshe: **Guhindura ubudasiba uburyo bwo gukoresha n'ibikoresho ni ngombwa.**
+Ku bijanye n'ugushira kugihe, itegeko riroroshe: **Gushira kugihe sisteme na porogarame buri munsi ni ngombwa.**
 
 
-Kuri Windows 10, ibintu bishasha birabandanya hafi, kandi ni ngombwa cane ko utabibuza canke ngo ubicereze. Buri mwaka, haraboneka ibintu nka 15.000 bishobora gutuma umuntu agira ingorane, ivyo bikaba bishimika ku kamaro ko kuguma ukoresha porogarama zishasha kugira ngo umuntu akingirwe porogarama mbi be n’ibindi bintu bishobora gutuma umuntu agira ingorane zo kuri Internet. Muri rusangi, ugushigikira porogarama birahera hagati y’imyaka 3 n’itanu inyuma y’aho isohokeye, ni co gituma bikenewe ko umuntu asubira ku yindi nkuru kugira ngo akomeze kwungukira ku bintu bishasha bijanye n’umutekano.
+Kuri Windows 10, gushira kugihe bisa nkibidahera, kandi birahambaye cane ko utabibuza canke ngo ubicereze. Buri mwaka, haboneka integenke za sisteme nkibihumbi cumi na bitanu 15000, ivyo bikaba bishimika ku kamaro ko kuguma ushira sisteme kugihe kugira ngo wikingire porogarame mbi be n’ibindi bintu vyokuri interineti bishobora konona sistem. Muri rusangi, ubufasha kuri sisteme buhera hagati y’imyaka 3 n’imyaka 5 inyuma y’aho isohorewe, ni co gituma bikenewe ko umuntu ashirakuyindi ntera sisteme kugira ngo akomeze kwunguka bishasha bijanye n’umutekano.
 
 
-Iryo tegeko rikoreshwa hafi kuri porogarama zose. Nkako, ivyo guhindura ntibigamije gutuma imashini yawe idakoreshwa canke igenda buhoro; ahubwo bigenewe kuyirinda ibintu bishasha bishobora kuyitera ubwoba. Hari mbere n’ibintu bimwebimwe bivugururwa bibonwa ko ari bihambaye, kandi iyo bitavuguruwe, orodinateri yawe irashobora gukoreshwa nabi.
+Iryo tegeko rihakwa gukoreshwa kuri porogarame zose. Vyukuri, gushira kugihe ntibigamije gutuma imashini yawe idakoreshwa canke igenda buhoro; ahubwo bigenewe kuyirinda ibintu bishasha bishobora kuyonona. Hari mbere n'ugushira kugihe bifatwa nkibikomeye, utabikoze, inyabwonko yawe yawe iba iri mukaga gakomeye ko kuba yokoreshwa nabi.
 
 
-Kugira ngo dutange akarorero nyako k’ikosa, porogarama zisadutse zidashobora guhindurwa zirashobora gutera ingorane zibiri. Ugushika kw’umugera mu gihe wowukura ku rubuga ruteye amakenga mu buryo butemewe n’amategeko be n’ugukoresha nabi uburyo bushasha bwo gutera.
+Kugira ngo dutange akarorero nyako k’ikosa, porogarame zitarishwe zidashobora gushirwa kugihe zirashobora gutera ingorane zindi. Ugushika kw’umugera(nyabwonko) mumashini yawe mu gihe uyivoma ku rubuga ruteye amakenga mu buryo butemewe n’amategeko be n’ukuyikoresha muburyo butokurinda ibitero bishasha.
 
 
-### Uwurwanya umugera
+### porogarame ikingira umugera (nyabwonko)
 
 
 
-- Ukeneye umuti wo kurwanya umugera? EGOME
-- Mbega ubwirizwa kwishura? Bivana n’ivyo!
+- Ukeneye porogarame ikingira umugera? EGOME
+- Mbega utegerezwa kuriha? Biravana!
 
 
-Guhitamwo no gushira mu ngiro umuti wo kurwanya umugera ni ikintu gihambaye. Windows Defender, ni umuti wo gukingira virusi wubakiwe muri Windows, ni umuti utekanye kandi ukora neza. Ku bijanye n’umuti w’ubuntu, ni mwiza cane kandi ni mwiza cane kuruta umuti mwinshi w’ubuntu usanga kuri internet. Nkako, umuntu akwiye kwiyubara igihe akura kuri Internet porogarama zikingira virusi, kuko yoshobora kuba ari mbi canke ikaba yashize igihe.
+Guhitamwo no gushira mu ngiro porogarame ikingira umugera nivy'akamaro. Windows Defender, porogarame ikingira umugera yubakiye muri Windows, ni umuti udateye ikibazo kandi ukora neza. Ku bijanye n’kuba ari umuti w’ubuntu, ni mwiza cane knd birengeje kuruta iyindi miti myinshi y’ubuntu usanga kuri interineti. Vyukuri, umuntu akwiye kugira amakenga igihe avoma kuri interineti porogarame zikingira umugera(nyabwonko), kuko yoshobora kuba ari mbi canke ikaba yarataye igihe.
 
-Ku bipfuza gushiramwo amahera mu gikoresho co gukingira virusi kirihwa, ni vyiza guhitamwo igikoresho co gukingira virusi gisesangura mu buryo bw’ubwenge ibintu bitazwi n’ibiriko biraza, nka Kaspersky. Ivyagezwe vya antivirus ni ngirakamaro mu gukingira ibigeragezo bishobora kuza.
+Ku bipfuza gushiramwo imitahe muri porogarame zikingira umugera zirihwa, uhanuwe guhitamwo porogram ikingira umugera(nyabwonko) ikora umwihwezo mu buryo bw’ubwenge ibintu vyokonona bitaramenyekana n’ibiza biravuka, nka Kaspersky. Gushira kugihe poragarame ikingira umugera(nyabwonko) birahambaye mu gukingira ibintu vyokonona biza biravuka.
 
 ![image](assets/rn/013.webp)
 
 
-> Iciyumviro: Linux na Mac, kubera uburyo bwavyo bwo gutandukanya uburenganzira bw’abakoresha, kenshi ntibikeneye antivirus.
+> Iciyumviro: Linux na Mac, kubera uburyo bwazo bwo gutandukanya uburenganzira bw’amakonti yaba zikoresha, kenshi ntizikeneye antivirus.
 
-Ubwa nyuma, ng’ibi uburyo bwiza bwo gukingira mudasobwa yawe n’amakuru yawe. Ni vyiza guhitamwo antivirus ikora neza kandi ikoreshwa neza. Ni ngombwa kandi ko ukoresha ingeso nziza kuri mudasobwa yawe, nk’ukudashiramwo imfunguruzo za USB zitazwi canke zikekwa. Izo mfunguruzo za USB zishobora kuba zirimwo porogarama mbi zishobora guca zitangura iyo zishizwemwo. Gusuzuma urufunguzo rwa USB ntibizogira akamaro iyo rumaze kwinjira. Amashirahamwe amwe amwe yarashikiwe n’ibintu vy’ubusuma kubera imfunguruzo za USB zisigazwa ataco zitwaye ahantu umuntu ashobora gushika, nk’aho abantu bahagarara.
-
-
-Fata mudasobwa yawe nk’uko woyifata mu nzu yawe: guma uri maso, uhora uhindura porogarama yawe, usibe amadosiye adakenewe, kandi ukoreshe ijambobanga rikomeye kugira ngo urushirize kugira umutekano. Ni ngombwa cane gushiramwo amakuru ku ma laptops na smartphones kugira ngo ntiyibwe canke ngo amakuru atakazwe. BitLocker ya Windows, LUKS ya Linux, n’uburyo bushizwemwo kuri Mac ni inyishu zo gupfuka amakuru. Ni vyiza gukoresha ubuhinga bwo gupfuka amakuru ata gukekeranya no kwandika ijambo banga ku mpapuro kugira ngo ubike ahantu heza.
+Ubwa nyuma, ng’iyi imigenzo myiza yo gucungera inyabwonko yawe n’amakuru yawe. Ni vy'akamaro guhitamwo porogarame ikingira umugera(nyabwonko) ikora neza kandi yoroshe gukoresha. Kandi birahamabaye ko utangura kwimenereza imigenzo myiza ku nyabwonko yawe, nk’ukudacomeka imfunguruzo za USB ziteye amakenga. Izo mfunguruzo za USB zishobora kuba zirimwo porogarame mbi zishobora guca zitangura uki zi comeka. Gusuzuma urufunguzo rwa USB ntibizogira akamaro mugihe ruzoba rumaze gucomekwa. Ibigo bimwe bimwe vyarinjiriwe kubera imfunguruzo za USB basiga ataco bitayeko ahantu umuntu ashobora gushika, nk’aho abantu bahagarika imiduga(parikingi).
 
 
-Mu gusozera, ni ngombwa guhitamwo ubuhinga bwo gukoresha bujanye n’ivyo ukeneye kandi ukabuhindura ubudasiba, be n’ibikoresho vyashizwemwo. Ni ngombwa kandi gukoresha porogarama nziza kandi yoroshe gukingira virusi no kwemera ingendo nziza zo gukingira mudasobwa yawe n’amakuru yawe.
+Fata inyabwonko yawe nk’uko wofata inzu yawe: guma uri maso, uhore ushira kugihe sisteme yawe, ufute amadosiye adakenewe, kandi ukoreshe ijambo ry'ibanga rigoye kumenya kugira ngo urushirize kugira umutekano. Birahambaye kunyegeza amakuru ari ku ma laptop na ma smartphone kugira ngo uyakingire ntiyibwe canke ngo atakare. BitLocker ya Windows, LUKS ya Linux, n’uburyo bwubakiye muri Mac ni imiti yo kunyegeza amakuru. Birahanuwe gukoresha ubuhinga bwo kunyegeza amakuru ata gukekeranya no kwandika ijambo ry'ibanga ku rupapuro kugira ngo ubike ahantu harinzwe.
 
 
-## Gucungera no gukingira amakuru yawe: Gukingira amakuru yawe
+Mu gusozera, ni ngombwa guhitamwo sisteme ijanye n’ivyo ukeneye kandi ukama uyishira kugihe, be na porogarame zirimwo. Birahamabye kandi gukoresha porogarame ikingira umugera(nyabwonko) ikora neza kandi yoroshe gukoresha no kwimenyereza imigenzo myiza yo gukingira inyabwonko yawe n’amakuru yawe.
+
+
+## Ukwinjirigwa be n'ugutunganywa kw'ububiko bw' inyongera bw'amakuru: Gukingira amakuru yawe
 
 
 <chapterId>9ddfcb6a-a253-5542-b7eb-df7222b46dc7</chapterId>
@@ -324,59 +326,59 @@ Mu gusozera, ni ngombwa guhitamwo ubuhinga bwo gukoresha bujanye n’ivyo ukeney
 :::video id=c6a2c152-f1ae-492c-8993-304d64cdda45:::
 
 
-### None abasuma batera gute?
+### None abatwinjirira batera gute?
 
 
-Kugira ngo wikingire neza, birakenewe ko utahura ingene abasuma bagerageza kwinjira muri mudasobwa yawe. Nkako, amavirusi ntaboneka kenshi mu buryo bw’amageza, ahubwo ni ingaruka z’ibikorwa vyacu, naho vyoba tutabishaka.
+Kugira ngo wikingire neza, ningombwa ko utahura ingene abakwinjirira bagerageza kwinjira mu nyabwonko yawe. Vyukuri, imigera(nyabwonko) ntipfa kuza uko, ahubwo ni ingaruka z’ibikorwa vyacu, naho tubigira tutabibona.
 
 
-Nk’itegeko rusangi, amavirusi arashika kubera ko wemereye mudasobwa yawe ikayatumira mu nzu yawe. Ivyo birashobora kubonwa mu gukuraho porogarama ziteye amakenga, dosiye ya torrent ishobora guhungabanywa, canke gusa mu gufyonda kuri iyo nzira iri muri e-mail y’ubuhendanyi.
+Nk’itegeko rusangi, imigera(nyabwonko) iza kubera ko wemereye inyabwonko yawe ko iyitumira. Ibi birashobora kugaragara mu kuvoma porogarame ziteye amakenga, dosiye ya torrent izayamaze gufata umugera, canke gusa mu gufyonda kuri iryo huza (link) riri muri imeyiri y’ububeshi.
 
 
-### Phishing, kwirinda ama email y'ubuhendanyi:
+### Ububeshi buciye mudutego (Phishing), ukuba maso kuma imeyiri y'ububeshi
 
 
-Kwitwararika! Emails ni zo zibanza gutera. Dore inama zimwe zimwe:
+Itwararike! imeyiri nizo ziza ubwambere mugutegwa. Dore inama zimwe zimwe:
 
 
 
-- Guma uri maso ku bijanye n’ukugerageza gukura amakuru y’agaciro, nk’amakuru yawe y’ibanga be n’amajambo y’ibanga yawe. Irinde gufyonda ku mahuza akekwa no gusangira amakuru yawe bwite utasuzumye ko uwo yarungitse ari we yemewe.
-- Urabe maso n'ivyo kuri email n'amashusho:
+- Guma uri maso kutwo dutego (phishing) tugambiriye kugukuramwo amakuru y’agaciro, nk’amakuru yawe y’ibanga be n’amajambo y’ibanga yawe. Irinde gufyonda ku mahuza (link) ateye amakenga no gutanga amakuru yawe bwite utasuzumye uwakurungikiye ko yizewe.
+- Urabe maso n'ibifatanijwe na imeyiri n'amashusho:
 
-Ivyo bifatanijwe na imeyili n’amashusho bishobora kubamwo ibintu bibi. Ntukikure canke ngo ufungure ibintu bifatanye n’ibintu bivuye ku bantu batazwi canke bakekeranya, kandi urabe neza ko porogarama yawe yo gukingira virusi iri ku gihe.
-
-
-Itegeko ry’inzahabu aha ni ugusuzuma neza izina ryose ry’uwarungitse be n’aho iyo email ikomoka. Igihe ufise amakenga, uyifute!
+Ivyo bifatanijwe na imeyiri n’amashusho bishobora kubamwo ibintu bibi. Ntuvome canke ngo wugurure ivyo bifatanijwe na email bivuye ku bantu utazi canke bateye amakenga, kandi urabe neza ko porogarame yawe ikingira umugera(nyabwonko) iri ku gihe.
 
 
-### Ransomware n’ubwoko bw’ibitero vyo kuri interineti:
+Itegeko ry’inzahabu aha ni ugusuzuma neza izina ryose ry’uwarungitse imeyiri be n’aho iyo imeyiri ikomoka. Igihe ufise amakenga, uyifute!
 
 
-Ransomware ni ubwoko bwa porogarama mbi zipfuka amakuru y’abakoresha kandi zigasaba incungu kugira ngo zifungurwe. Ubwo bwoko bw’igitero buragenda buragwira kandi burashobora gutera ingorane cane amashirahamwe n’abantu ku giti cabo. Kugira ngo wikingire, ni ngombwa cane gukora backups z’amadosiye ahambaye cane! Ivyo ntibizohagarika iyo ransomware, ariko bizokuronsa uburenganzira bwo kuyirengagiza.
+### Ransomware n’ubwoko bw’ibitero vyo kuri interineti
+
+
+Ransomware ni ubwoko bwa porogarame mbi zinyegeza amakuru y’abakoresha kandi zigasaba incungu kugira ngo zigarukane ayo amakuru. Ubwo bwoko bw’igitero bugenda buragwira kandi burashobora gutera ingorane cane ku mashirahamwe n’abantu ku giti cabo. Kugira ngo wikingire, nivyakamaro cane kugira ububiko bw' inyongera bw’amadosiye yakamaro cane! Ivyo ntibizohagarika iyo ransomware(igitero cincungu), ariko bizotuma ushobora kuyirengagiza.
 
 ![image](assets/rn/014.webp)
 
-Uhora ubika amakuru yawe ahambaye ku kindi gikoresho co hanze canke ku gikoresho co kubika amakuru co kuri Internet gitekanye. Uko ni ko, iyo habaye igitero co kuri Internet canke ibikoresho vyawe bikabura, urashobora kugarura amakuru yawe ata makuru ahambaye utakaje.
+Uhore ukora ububiko bw' inyongera bw'amakuru yawe yakamaro kugikoresho cokubika amakuri kindi canke ku gikoresho co kubika amakuru co kuri interineti kirinzwe. Mubwo buryo, mugihe habaye igitero co kuri interineti canke igikoresho cawe kigapfa, urashobora kugarukana amakuru yawe ata makuru ahambaye utakaje.
 
 
 Umuti woroshe:
 
 
 
-- Gura drive ya Hard yo hanze maze uyikope amakuru yawe. Uyikuremwo maze uyibike ahantu hatagira inkomanzi mu nzu. (Gukora ivyo incuro zibiri no kubika kimwe muri ivyo bikoresho mu kindi kibanza birafasha kwikingira umuriro ushobora gutera.)
+- Gura Hard drive (kimwe mubikoresho vyokubika amakuru) yindi maze ubikeko amakuru yawe. Uyicomore maze uyibike mukibanza kirinzwe atankomanzi mu nzu. (Gukora ivyo incuro zibiri no kubika imwe muri izo hard drive mu kindi kibanza birafasha kwikingira umuriro ushobora gutera.)
 
 
 
-- Rema ububiko bw'igicu ukoresheje ProtonMail Drive, Guhuza, canke Google Drive. Shira amakuru yawe y'agaciro kuri iyi nzira yo kuri interineti. Ariko rero, menya neza ko amakuru yawe ashobora kuba ari kuri internet kandi ko afise uwundi muntu yizigirwa.
+- Rema ububiko bw'inyongera kuri cloud (igicu) ukoresheje ProtonMail Drive, Sync, canke Google Drive. Ushirako amakuru yawe y'agaciro. Ariko rero, menya neza ko amakuru yawe ashobora kuba ari kuri interineti kandi ko afise uwundi muntu yizigiwe.
 
 
-### None woba ukwiye kuriha abo ba hackers?
+### None woba ukwiye kuriha abo ba kwinjiriye?
 
 
-OYA, muri rusangi ntivyiza guhemba abasuma mu gihe habayeho ibitero vy’incungu canke ubundi bwoko bw’ibitero. Kwishura iyo ncungu ntibituma amakuru yawe azosubira kuronka kandi birashobora gutuma abagizi ba nabi bo kuri Internet babandanya ibikorwa vyabo bibi. Ahubwo, nushire imbere ukwikingira no gukora ububiko bw’amakuru ubudasiba kugira ngo wikingire.
+OYA, muri rusangi ntuhanuriwe kuriha abakwinjiriye mu gihe habayeho igitero cy’incungu (ransomware) canke ubundi bwoko bw’ibitero. Kuriha iyo ncungu ntibituma amakuru yawe usubira kuyaronka kandi birashobora gutuma abagizi ba nabi bo kuri interineti babandanya ibikorwa vyabo bibi. Ahubwo, nushire imbere ukwirinda no gukora ububiko bw'inyongera bw’amakuru umunsi kumunsi kugira ngo wikingire.
 
 
-Niwabona umugera kuri mudasobwa yawe, nuwukure kuri internet, ukore scanner yuzuye y’umugera, hanyuma usibe amadosiye yanduye. Hanyuma, nuhindure porogarama yawe n’uburyo bwo gukoresha, wongere uhindure amajambo y’ibanga yawe kugira ngo ntihagire uwundi muntu yinjiramwo.
+Niwabona umugera(nyabwonko) ku nyabwonko yawe, yikure kuri interineti, ukore irondera rikwiye ry’umugera, hanyuma ufute amadosiye yagizweko ingaruka. Hanyuma, ushire kugihe porogarame yawe na sisiteme, wongere uhindure amajambo y’ibanga yawe kugira ngo ntihagire ukundi gutegwa kubaho.
 
 
 https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
@@ -389,7 +391,7 @@ https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 <partId>215ec902-ba05-5549-87fc-cb8d82665f7b</partId>
 
 
-## Gucungera konti za imeyili
+## Gutunganya konti za imeyiri
 
 
 <chapterId>dfceea33-8712-5557-ace1-6ba5598d33d8</chapterId>
@@ -397,46 +399,46 @@ https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 :::video id=75cc914d-9c11-4d3f-86a7-6faf2077f00f:::
 
 
-### Gushinga konti nshasha ya imeyili!
+### Gukora konti nshasha ya imeyiri!
 
 
-Konti ya email ni yo nzira nyamukuru y'ibikorwa vyawe vyo kuri internet: iyo ihinduwe, umunyaruyeri ashobora kuyikoresha kugira ngo asubiremwo amajambo y'ibanga yawe yose biciye ku gikorwa ca "forgot password" maze akaronka uburenganzira bwo gushika ku yindi mihora myinshi. Ni co gituma ukeneye kuyicungera neza.
+Konti ya imeyiri ni yo nzira nyamukuru y'ibikorwa vyawe vyo kuri interineti: iyo ihungabanyijwe igiye mumaboko mabi, uwugutera ashobora kuyikoresha kugira ngo ahindure amajambo y'ibanga yawe yose biciye kuburyo bwa "forgot password" maze akaronka uburenganzira bwo gushika ku zindi mbuga nyinshi. Ni co gituma ukeneye kuyirinda neza.
 
 
-Konti ya email ikwiye gukorwa n’ijambobanga ry’umwihariko kandi rikomeye (ibisobanuro biri mu kigabane ca 7) kandi vyiza cane hakoreshejwe uburyo bwo kwemeza ko umuntu ari uwundi (ibisobanuro biri mu kigabane ca 8).
+Konti ya imeyiri ikwiye gukorwa ifise ijambo ry'ibanga ry’umwihariko kandi rikomeye (ibisobanuro biri mu gice ca 7) kandi vyiza cane hakoreshejwe sisteme y'ivyemezo bibiri mukwimenyekanisha (ibisobanuro biri mu gice ca 8).
 
 
-Naho twese dusanzwe dufise konti ya email, ni ngombwa ko twiyumvira guhingura iyindi nshasha, igezweho kugira ngo dutangure bushasha.
+Naho twese dusanzwe dufise konti ya imeyiri, ni ngombwa ko twiyumvira gukora iyindi nshasha, igezweho kugira ngo dutangure bushasha.
 
 
-### Guhitamwo uwutanga imeyili no gucunga aderesi za imeyili
+### Guhitamwo abatanga imeyiri no gutunganya aderesi za imeyiri
 
 
-Gucungera neza aderesi zacu za email ni ikintu gihambaye cane kugira ngo tubone ko umutekano wacu wo kuri Internet ushobora gukoreshwa. Ni ngombwa guhitamwo uwuguha ubutumwa kuri email butekanye kandi bubaha ubuzima bwite. Nk’akarorero, ProtonMail ni ubuhinga bwo gukoresha imeyili butekanye kandi bubaha ubuzima bwite.
+Gutunganywa neza kw'aderesi zacu za imeyiri ni ikintu gihambaye cane kugira ngo tubone neza ko umutekano wacu wo kuri interineti ukwiye. Ni ngombwa guhitamwo abaguha service za imeyiri zirinzwe kandi buhaha ubuzima bwibanga bwawe. Nk’akarorero, ProtonMail irizewe kandi yubaha ubuzima bwibanga bwawe.
 
 ![image](assets/rn/015.webp)
 
-Igihe uhisemwo uwuguha imeyili no gukora ijambobanga, birahambaye ko udasubira gukoresha ijambobanga rimwe ku bikorwa bitandukanye vyo kuri Internet. Ni vyiza ko uhora ukora aderesi nshasha za email ukayakoresha mu bintu bitandukanye. Ni vyiza gukoresha ubuhinga bwa email butekanye ku makonti ahambaye. Birabereye kandi kumenya ko hariho ibikorwa bimwebimwe bigabanya uburebure bw’amajambo y’ibanga, ni ngombwa rero kumenya iyo nzira. Hariho kandi ibikorwa vyo guhingura amaderesi y’iposita y’igihe gito, ashobora gukoreshwa ku makonti afise igihe gito.
+Igihe uhisemwo abaguha imeyiri no gukora ijambo ry'ibanga, ningombwa ko udasubira gukoresha ijambo ry'ibanga rimwe ku ma serivise atandukanye yo kuri interineti. Uhanuwe ko uhora ukora aderesi nshasha za imeyiri bivanye nivyo ushaka gukora. Ni vyiza gukoresha serivise ya imeyiri irinzwe kuma makonti ahambaye. Birabereye kandi kumenya ko hariho serivisi zimwezimwe zigabanya uburebure bw’amajambo y’ibanga, ni ngombwa rero ko uba ubizi. Hariho kandi na service zo gukora aderesi emeyiri vy’igihe gito, bikaba vyokwifashishwa ku makonti amara umwanya muto.
 
 
-Kugira ndabamenyeshe gusa, abatanga ubutumwa kuri email ba kera, nka La Poste, Arobase, Wig, na Hotmail, baracariho, ariko uburyo bwabo bwo gucungera umutekano bushobora kuba butakomeye nk’ubwa Gmail. Ni vyiza rero ko umuntu agira aderesi zibiri zitandukanye z’iposita: imwe ni iyo guhanahana amakuru muri rusangi, iyindi ni iyo gusubiza konti, iyo ya nyuma ikaba ari yo itekanye cane. Ni vyiza kwirinda kuvanga email yawe Address n’iy’uwukoresha telefone yawe canke uwuguha internet, kuko ivyo bishobora gukora nk’inzira y’igitero.
+Kugira ndabamenyeshe gusa, abatanga emeyiri ba kera, nka La Poste, Arobase, Wig, na Hotmail, baracariho, ariko uburyo bwabo bwo gucungera umutekano bushobora kuba budahamabaye nk’ubwa Gmail. Kubw'ivyo, uhanuwe kugira aderesi zibiri zitandukanye za email: imwe ni iyo guhanahana amakuru muri rusangi, iyindi ni iyo kugarukana konti, iyo ya nyuma ikaba ari yo irinzwe cane. Ni vyiza kwirinda kuvanga aderese imeyiri yawe niy’uwuguha serivise za terefone yawe canke uwuguha interineti, kuko ivyo bishobora gukoreshwa nk’inzira yo guterwa.
 
 
-### Noba nohindura konti yanje ya email?
+### Noba nohindura konti yanje ya imeyiri?
 
 
-Ushobora gukoresha urubuga rwa Have I Been Pwned (https://haveibeenpwned.com/) kugira ngo umenye nimba imeyili yawe Address yashizwe mu kaga no kugira ngo uronke amatangazo y’uguhungabanya amakuru muri kazoza. Abasuma barashobora gukoresha urutonde rw’amakuru rwaciwe kugira ngo bohereze ubutumwa bwo kuri email canke basubire gukoresha amajambo y’ibanga yaciwe.
+Ushobora gukoresha urubuga rwa Have I Been Pwned (https://haveibeenpwned.com/) kugira ngo umenye nimba imeyiri yawe Address yahungabanijwe no kugira ngo uronke ubutumwa mugihe amakuru yawe yinjiriwe  muri kazoza. Abakwinjirira barashobora gukoresha urutonde rw’amakuru rwinjiriwe kugira ngo barungike ubutumwa bwububeshi bwo kuri imeyiri  canke basubire gukoresha amajambo y’ibanga yamenenyekanye.
 
 ![image](assets/rn/016.webp)
 
-Muri rusangi, gutangura gukoresha imeyili nshasha, itekanye cane Address si umugenzo mubi kandi mbere ni ngombwa nimba umuntu ashaka gutangura bushasha ku buryo bubereye.
+Muri rusangi, gutangura gukoresha aderese imeyiri nshasha, irinzwe cane si umugenzo mubi kandi mbere birakenewe nimba umuntu ashaka gutangura bushasha muburyo buryo bubereye.
 
-Bonus Bitcoin: Bishobora kuba vyiza dukoze email yihariye Address ku bikorwa vyacu vya Bitcoin, nk’ugukora amakonti ya Exchange, kugira ngo dutandukanye ivyo bice vy’ibikorwa mu buzima bwacu vy’ukuri.
+akarusho Bitcoin: Bishobora kuba vyiza dukoze aderese imeyiri yihariye ku bikorwa vyacu vya Bitcoin, nk’ugukora amakonti yo guhanahana, kugira ngo dutandukanye ivyo bice vy’ibikorwa mu buzima bwacu vy’ukuri.
 
 
 https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-## Umuyobozi w'ijambobanga
+## Ubutunganyirizo bw'ijambo ry'ibanga
 
 
 <chapterId>0b3c69b2-522c-56c8-9fb8-1562bd55930f</chapterId>
@@ -444,81 +446,82 @@ https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b0
 :::video id=106b6f17-a5c1-4155-abdf-043ce469d45b:::
 
 
-### Umucungerezi w’ijambobanga ni iki?
+### Ubutunganyirizo bw'ijambo ry'ibanga ni iki?
 
 
-Igikoresho co gucungera ijambobanga ni igikoresho kigufasha kubika, generate, no gucunga amajambobanga y’amakonti atandukanye yo kuri Internet. Aho kwibuka amajambo y’ibanga menshi, ukeneye ijambo ry’ibanga rimwe gusa kugira ngo ushikire ayandi yose.
+Ubutunganyirizo bw'ijambo ry'ibanga ni igikoresho kigufasha kubika, Kurema, no gutunganya amajambo y' ibanga y’amakonti atandukanye yo kuri interineti. Aho kwibuka amajambo y’ibanga menshi, ukeneye ijambo ry’ibanga rimwe gusa kugira ngo ushikire ayandi yose.
 
 
-Iyo ufise umucungerezi w’amajambo banga, ntugikeneye kwiganyira ku bijanye no kwibagirwa amajambo banga yawe canke kuyandika ahantu kanaka. Ukeneye kwibuka ijambobanga rimwe gusa. Ikindi, vyinshi muri ivyo bikoresho generate amajambo y’ibanga akomeye kuri wewe, ivyo bikaba bituma umutekano wa konti yawe urushiriza kuba mwiza.
+Iyo ufise ubutunganyirizo bw'ijambo ry'ibanga, ntuba ugikeneye kwiganyira ku bijanye no kwibagirwa amajambo y'ibanga yawe canke kuyandika ahantu kanaka. Ukeneye kwibuka ijambo ry'ibanga rimwe gusa. Ikindi, vyinshi muri ivyo bikoresho bikuremera amajambo y’ibanga akomeye, ivyo bikaba bituma umutekano wa konti yawe urushiriza kuba mwiza.
 
 
-### Ubutandukane hagati y'abarongozi bamwebamwe bazwi cane:
-
-
-
-- LastPass: Umwe mu barongozi bazwi cane. Ni igikorwa c’uwundi muntu, bisobanura ko amajambo banga yawe abikwa kuri server zabo. Itanga verisiyo y’ubuntu n’iyihembwa, ifise Interface ikoreshwa neza.
+### Itandukaniro hagati y'ubutunganyirizo bumwe bumwe buzwi cane:
 
 
 
-- Dashlane: Ni n’igikorwa c’uwundi muntu, gifise Interface ishobora gukoreshwa neza be n’ibindi nk’ugukurikirana amakuru y’ikarita y’inguzanyo n’amakete atekanye.
+- LastPass:  bumwe m'ubutunganyirizo buzwi cane. Ni serivise yu wundi muntu, bisobanura ko Amajambo y' ibanga yawe abikwa ku bisenge(seriveri) vyabo . Hariho ukuyikoresha k'ubuntu n'ukuyikoresha urishe, ifise igicapo cyoroshe gukoresha.
+
+
+
+- Dashlane: Nayo Ni serivise yu wundi muntu, ifise igicapo cyoroshe gukoresha be n’ibindi nk’ugukurikirana amakuru y’ikarita y’inguzanyo n’amakete arinzwe.
 
 ![image](assets/rn/017.webp)
 
 
-### Ukwiyakira kugira ngo ushobore kugenzura cane:
+### kwitunganyiriza ubwawe (Self-hosting) kugira ngo ushobore kugira ububasha bwisumbuye:
 
 
 
-- Bitwarden: Ni igikoresho gifunguye, bisobanura ko ushobora gusubiramwo kode yaco kugira ngo ugenzure umutekano waco. Naho Bitwarden itanga ubuhinga bwo kwakira abashitsi, iratuma kandi abakoresha bashobora kwakira abashitsi, ivyo bisigura ko ushobora kugenzura aho amajambo y’ibanga yawe abikwa, bikaba bishobora gutanga umutekano n’ubugenzuzi bwinshi.
+- Bitwarden: Ni igikoresho c'isoko y'uguruye, bisobanura ko ushobora gusubiramwo kode yayo kugira ngo usuzume umutekano wayo. Naho Bitwarden itanga serivice itunganywa nabandi yemerera kandi abayikoresha ko bashobora kwitunganyiriza ubwabo, ivyo bisigura ko ushobora kugenzura aho amajambo y’ibanga yawe abikwa, bikaba bishobora gutanga umutekano n’ububasha bwisumbuye.
 
 
 
-- KeePass: Ni umuti w’inkomoko yuguruye ugenewe cane cane kwiyakira. Amakuru yawe abikwa mu karere ku buryo busanzwe, ariko ushobora guhuza urutonde rw'ijambobanga ukoresheje uburyo butandukanye niwabishaka. KeePass izwi cane kubera umutekano wayo n’uguhinduranya, naho yoba ishobora kuba idakoreshwa neza gatoyi ku batangura.
+- KeePass: Ni umuti w’isoko y'uguruye wagenewe cane cane kwitunganyiriza. Amakuru yawe abikwa iwawe mubisanzwe, ariko ushobora gusanisha n'urutonde rw'ijambo ry'ibanga ukoresheje uburyo butandukanye mugihe ubishaka. KeePass izwi cane kubera umutekano wayo n’uguhinduranya vyoroshe, naho yoba igoye gukoresha gatoyi ku bagitangura kuyikoresha.
 
 ![image](assets/rn/018.webp)
 
-(Iciyumviro: Guhitamwo hagati y’igikorwa c’uwundi muntu canke igikorwa c’uwundi muntu bivana n’urugero rw’ubuhinga bwawe n’ingene ushira imbere ubugenzuzi n’uburyo bwo gukoresha. Ibikorwa vy’uwundi muntu muri rusangi birabereye abantu benshi, mu gihe kwiyakira bisaba ubumenyi bwinshi mu vy’ubuhinga ariko bishobora gutanga ubugenzuzi bwinshi n’amahoro)
+Ku bijanye n'imiti y'ukwitunganyiriza nka KeePass, birashoboka gusanisha urutonde rw'amakuru yawe hagati y'ibikoresho byinshi utakoresheje serivisi zo zigenzurwa z'abandi. Ibikoresho nka **Syncthing** bituma habaho ugusanisha kunyegejwe kandi kutagenzurwa hagati yibikoresho vyawe. Ubu buryo bugufasha kugumana amakuru yawe mu bubasha bwawe kandi ukaba ushoboraku yabona ku bikoresho vyawe vyose.
 
 
-### Igituma ijambobanga ryiza:
+(Iciyumviro: Guhitamwo hagati ya  serivise yu wundi muntu canke  kwitunganyiriza bivana n’urugero rw’ubuhinga bwawe n’ingene ushira imbere ububasha kuruta uburyo bwo gukoresha.  serivise yu wundi muntu muri rusangi irabereye abantu benshi, mu gihe  kwitunganyiriza bisaba ubumenyi bwinshi mu vy’ubuhinga ariko bishobora gutanga ububasha bwinshi n’amahoro muvy'umutekano)
 
 
-Ijambobanga ryiza muri rusangi ni:
+### Ijambo ry'ibanga ryiza rirangwa niki
+
+
+ijambo ry'ibanga ryiza muri rusangi ni:
 
 
 
-- Igihe kirekire: nibura inyuguti 12.
-- Ivyiyumviro bikomeye: ni uruvange rw’inyuguti nini n’into, imibare n’ibimenyetso.
-- Ikintu kidasanzwe: ntusubire gukoresha ijambobanga rimwe ku makonti atandukanye.
-- Ntibishingiye ku makuru y’umuntu ku giti ciwe: wirinde amatariki y’amavuko, amazina, n’ibindi.
+- Rirerire: nimiburiburi indome 12.
+- Rirakomeye: ni uruvange rw’indome nini n’intoyi, ibiharuro n’ibimenyetso.
+- Umwihariko(Ryihariye): ntusubire gukoresha ijambo ry'ibanga rimwe ku makonti agiye atandukanye.
+- Ritegerezwa kuba ridashingiye ku makuru y’umuntu ku giti ciwe: wirinde amatariki y’amavuko, amazina, n’ibindi.
 
 
-Kugira ngo konti yawe ibe itekanye, birahambaye cane ko ukora amajambo y’ibanga akomeye kandi atekanye. Uburebure bw’ijambobanga ntibuhagije kugira ngo ribe ryiza. Ivyo bimenyetso bitegerezwa kuba ari ivy’impfagusa kugira ngo birwanye ibitero vy’inkomezi z’agahomerabunwa. Ukwigenga kw’ibintu na kwo nyene ni ikintu gihambaye kugira ngo umuntu yirinde ibintu bishobora guhurizwa hamwe. Amajambo banga asanzwe nka "password" arashobora guhungabanywa bitagoranye.
+Kugira ngo konti yawe ibe ifite umutekano, birahambaye cane ko ukora amajambo y’ibanga akomeye kandi arinzwe. Uburebure bw’ijambo ry'ibanga ntibuhagije kugira ngo ribe rifise umutekano. Ibirigizwe indome n' ibimenyetso bitegerezwa kuba bidasanzwe kugira ngo birwanye ibitero vy’inkomezi vy’agahomerabunwa(Brute force attacks). Ukwigenga kw’ibintu na kwo nyene ni ikintu gihambaye kugira ngo umuntu yirinde ibintu bishobora guhurizwa hamwe. Amajambo y' ibanga asanzwe nka "password" arashobora guhungabanywa bitagoranye.
 
 
-Kugira ngo ureme ijambobanga rikomeye, birakenewe ko ukoresha inyuguti nyinshi zidasanzwe, udakoresheje amajambo canke ibigereranyo bishobora gutegekanirwa. Ni ngombwa kandi ko habamwo imibare n’ibimenyetso bidasanzwe. Ariko rero, birabereye kumenya yuko imbuga zimwezimwe zishobora kubuza gukoresha inyuguti zimwezimwe zidasanzwe. Amajambo y’ibanga atavugwa mu buryo bw’impfagusa yoroshe gutekereza ku bintu. Impinduka canke kwongerwa ku majambo y’ibanga ntibitekanye. Imbuga ntizishobora kwizigira umutekano w’amajambo y’ibanga yatowe n’abazikoresha.
+Kugira ngo ukore ijambo ry'ibanga rikomeye, uhanuwe ko ukoresha indome nyinshi zidasanzwe, udakoresheje amajambo canke ibigereranyo vyoroshe ku kwiyumvira. Ni ngombwa kandi ko habamwo ibiharuro n’ibimenyetso bidasanzwe. Ariko rero, birabereye kumenya yuko imbuga zimwezimwe zishobora kukubuza gukoresha indome zimwezimwe zidasanzwe. Amajambo y’ibanga asanzwe aroroshye kw'iyumvira. Impinduka canke inyongera ku majambo y’ibanga ntibitekanye. Imbuga ntizishobora Kukwizeza umutekano w’amajambo y’ibanga yatowe n’abazikoresha.
 
 
-Amajambo y’ibanga akomoka ku buryo butari bwo aratanga umutekano mwinshi, naho yoba agoye kwibuka. Abacungezi b’amajambo banga barashobora gutegura amajambo banga atekanye cane. Mu gukoresha umucungerezi w’ijambobanga, ntukeneye gufata mu mutwe amajambobanga yawe yose. Ni ngombwa ko buhoro buhoro usubiriza amajambo y’ibanga yawe ya kera n’ayo yashizweho n’umuyobozi, kuko akomeye kandi afise umutekano. Raba neza ko ijambobanga ry’umucungerezi wawe w’ijambobanga na ryo nyene rikomeye kandi ritekanye.
+Amajambo y’ibanga aremwa ku buryo nkubwo bwokuvangitiranya indome canke ibimenyetso atanga umutekano mwinshi, naho yoba agoye kwibuka. Ubutunganyirizo bw’Amajambo y' ibanga burashobora gutegura Amajambo y' ibanga afise umuteakano cane. Mu gukoresha ubutunganyirizao bw’ijambo ry'ibanga, ntukeneye gufata ku mutwe amajambo y' ibanga yawe yose. Ni ngombwa ko buhoro buhoro usubiriza amajambo y’ibanga yawe ya kera nayo ategugwa n'ubutunganyirizo bw'ijambo ry'ibanga, kuko akomeye kandi afise umutekano. Raba neza ko ijambo ry'ibanga ry’ubutunganyirizo bwawe bw’ijambo ry'ibanga na ryo nyene rikomeye kandi rifise umutekano.
 
 
 https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
 https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-## Ivyemezo vy'ibintu bibiri
+## Ivyemezo Bibiri mukwimenyekanisha(2FA)
 
 
 <chapterId>9391e02e-e61b-5a86-93e0-91a07f217d35</chapterId>
 
-:::video id=10fede6f-c839-4455-b324-e887c502667e:::
+
+### Kubera iki habaho gushira mu ngiro 2FA
 
 
-### Kubera iki gushira mu ngiro 2FA
-
-
-Ivyemezo bibiri (2FA) ni Layer y’inyongera y’umutekano ituma umuntu agerageza kwinjira muri konti yo kuri Internet ari uwo yivugira ko ari we. Aho kwinjiza gusa izina ry’ukoresha n’ijambobanga, 2FA isaba uburyo bwo kugenzura bwongereweko.
+Ivyemezo bibiri (2FA) ni uwundi mutekano  w'inyongera bituma bigaragara ko umuntu agerageza kwinjira muri konti kuri interineti ari uwo yivugira ko ari we. Aho kwinjiza gusa izina ry’ukoresha urubuga n’ijambo ry'ibanga, 2FA isaba uburyo bwo kugenzura bwongereweko.
 
 
 Iyi ntambwe ya kabiri ishobora kuba:
@@ -526,64 +529,64 @@ Iyi ntambwe ya kabiri ishobora kuba:
 
 
 - Kode y’igihe gito yoherezwa biciye kuri SMS.
-- Kode yashizweho na porogaramu nka Google Ivyemezo canke Authy.
-- Urufunguzo rw’umutekano rw’umubiri winjiza muri mudasobwa yawe.
+- Kode yashizweho na porogarame nka Google Authenicator canke Authy.
+- Urufunguzo rw’umutekano ucomeka ku nyabwonko yawe.
 
 
 ![image](assets/rn/019.webp)
 
 
-Iyo ukoresheje 2FA, naho umusuma yoronka ijambo banga ryawe, ntazoshobora kwinjira muri konti yawe ataco kintu ca kabiri co kugenzura. Ivyo bituma 2FA iba ngirakamaro mu kurinda amakonti yawe yo kuri internet kugira ngo umuntu ntayironke ata wemerewe.
+Iyo ukoresheje 2FA, naho umusuma yoronka ijambo banga ryawe, ntazoshobora kwinjira muri konti yawe ataco kindi kintu kigira kabiri co kugenzura. Ivyo bituma 2FA iba ngombwa mu gukingira amakonti yawe yo kuri interineti abagerageza kukwinjirira batavyemerewe.
 
 
 ### Ni ubuhe buryo bwo guhitamwo?
 
 
-Amahitamwo atandukanye yo kwemeza ko umuntu ari umunyakuri atanga ingero zitandukanye z’umutekano.
+Amahitamwo atandukanye yo kwemeza ko uwinjira ari we bitanga ingero zitandukanye z’umutekano.
 
 
 
-- SMS ntiyitwa uburyo bwiza kuko itanga gusa ikimenyamenya c’uko umuntu afise inomero ya telefone.
-- 2FA (ugushingira intahe ibintu bibiri) iratekanye cane kuko ikoresha ubwoko bwinshi bw’ibimenyamenya, nk’ubumenyi, ukugira, n’ukumenya. Amajambo y’ibanga akoreshwa rimwe (HOTP na TOTP) aratekanye kuruta SMS kuko asaba guharura mu buryo bw’ibanga kandi abikwa aho hantu aho kubikwa mu mutwe.
-- Ivyuma vy’ibikoresho, nk’imfunguruzo za USB canke amakarata y’ubwenge, biratanga umutekano mwiza mu gutanga urufunguzo rw’ibanga rwihariye ku rubuga rumwe rumwe no kugenzura URL imbere y’uko umuntu yemera ko umuntu ashobora gukorana.
+- SMS ntiyitwa uburyo bwiza kuko itanga gusa ikimenyamenya c’uko umuntu afise inomero ya terefone.
+- 2FA (ivyemezo bibiri mukwimenyekanisha) irarinzwe cane kuko ikoresha ubwoko bwinshi bw’ibimenyamenya, nk’ubumenyi, ivyo ufise, n’ibikuranga. Amajambo y’ibanga akoreshwa rimwe (HOTP na TOTP) niyo afise umutekano kuruta SMS kuko asaba ubuhinga bw'ibiharuro mu buryo bw’ibanga kandi aremerwa aho nyene kugikoresho canke inyabwonko yawe, mugihe SMS zo zishobora guciribwa mo.
+- Token z’ibikoresho, nk’imfunguruzo za USB canke amakarata y’ikoranabuhanga (smart card), biratanga umutekano ukwiye mu gutanga urufunguzo rw’ibanga rwihariye kuri buri rubuga kandi hakabaho kugenzura URL (bumwe mu bwoko bw'amahuza) imbere y’uko wemerewa kwinjira.
 
 
-Kugira ngo ubone umutekano mwiza n’ukwemeza gukomeye, birakenewe ko ukoresha imeyili itekanye Address, umucungerezi w’ijambobanga itekanye, kandi ugakoresha 2FA ukoresheje YubiKeys. Ni vyiza kandi kugura YubiKeys zibiri kugira ngo witege gutakaza canke kwiba, nk’akarorero, kubika kopi y’inyuma muhira no ku muntu wawe.
+Kugira ngo ubone umutekano ukwiye n’ukwemeza gukomeye, uhanuwe ko ukoresha aderese imeyiri irinzwe, ubutunganyirizo bw'ijambo ry'ibanga butekanye, kandi ugakoresha 2FA ukoresheje YubiKeys. Ni vyiza kandi kugura YubiKeys zibiri kugira ngo witege ko wotakaza canke ukibwa, nk’akarorero, kugira ububiko bw'inyongera muhira no ku muntu wawe.
 
 
-Naho ku bijanye n’ibintu bishobora gutera ubwoba SIM 2FA, akarorero gasanzwe ni igitero co guhindura SIM, aho uwutera yiba inomero ya telefone y’uwuyikoresha mu kuyihuza n’ikarita SIM igenzurwa n’uwutera, hari uburyo bwinshi uwutera ashobora kurangiza igitero; ariko rero, iyo ngeso mbi akenshi iba ari ikintu gihambaye gusa gihangayikishije abantu b’abanyacubahiro be n’abantu bafise inyungu.
+Naho ku bijanye n’ibintu bishobora kugutera ubwoba SIM 2FA, akarorero gasanzwe ni igitero co guhindura SIM, aho uwutera yiba inomero ya terefone uwuyikoresha mu kuyihuza n’ikarita SIM igenzurwa n’uwutera, hari uburyo bwinshi uwutera ashobora kurangiza igitero; ariko rero, ivyo bikunda kuba ibiteye ubwoba canke ibihangayikishije kubantu b’abanyacubahiro be n’abantu bafise bivyozana inyungu.
 
 
-Biometrics irashobora gukoreshwa nk’igisubizo, ariko ntiyitekanye cane nk’uguhuza ubumenyi n’ivyo umuntu afise. Amakuru y’ibinyabuzima akwiye kubikwa ku gikoresho co kwemeza ko umuntu ari uwuriho, ntamenyekane kuri Internet. Ni ngombwa kwihweza uburyo bwo gutera ubwoba bujanye n’uburyo butandukanye bwo kwemeza ko umuntu ari uwuriho no guhindura ingendo bivanye n’ivyo.
+Biometrics irashobora gukoreshwa nk’iyindi nyishu, ariko nitanga umutekano ukwiye cane nk’uguhuza ubumenyi n’ivyo umuntu afise. Amakuru ya biometric akwiye kubikwa ku gikoresho co kwemeza ko umuntu ari we ntagomba kuba ari kuri interineti. Ni vyumumaro kwihweza uburyo bwo gutera ubwoba bujanye n’uburyo butandukanye bwo kwemeza ko umuntu ari we hama ukaza urahindura imigenzo yawe uko bikwiye.
 
 
-Ubwa nyuma, bishobora kuba vyiza gutanga insiguro ngufi ku bijanye n’ama OTP ya HOTP na TOTP: HOTP ni ijambobanga ry’igihe kimwe rishingiye ku buhinga bwa HMAC (Kode y’Ukwemeza Ubutumwa bushingiye kuri Hash), mu gihe TOTP ari OTP ishingiye ku gihe. Ibintu nyamukuru biranga izo nzira ni uko amajambo y’ibanga ashobora gukoreshwa rimwe gusa, agaciro kose kavutse ni akadasanzwe, kandi urufunguzo rusangi ruriho hagati y’igikoresho c’uwukoresha (umukiriya) n’igikorwa co kwemeza ko umuntu ari we (server). Itandukaniro ry’intango hagati y’izo nzira zibiri riri mu kuntu iyo factor ivyara: TOTP ishingiye ku gihe, mu gihe HOTP ishingiye ku vyo guharura.
+Ubwa nyuma, bishobora kuba vyiza gutanga insiguro ngufi ku bijanye na HOTP be na TOTP OTPs: HOTP ni ijambo ry'ibanga rikoreshwa rimwe rishingiye ku buhinga bwa HMAC (Message ya Kode y’Ukwemeza ishingiye Hash), mu gihe TOTP ari OTP ishingiye ku gihe. Ibintu nyamukuru biranga ubwo buryo ni uko amajambo y’ibanga ashobora gukoreshwa rimwe gusa, Ijambo ryose rivutse riba ryihariye, kandi urufunguzo rusangi ruriho hagati y’igikoresho c’uwakira n’igisenge(seriveri) co kwemeza ko umuntu ari we. Itandukaniro ry’ibanze hagati y’izo sistem zibiri riri mu kuntu ijambo ry'ibanga rivuka: TOTP ishingiye ku gihe, mu gihe HOTP ishingiye ku vyo guharura.
 
 
-### Insozero y'amashure:
+### Gusozera icigwa
 
 
-Nk’uko mwabitahuye, gushirwa mu ngiro isuku ryiza ry’ubuhinga bwa none si ngombwa ngo bibe vyoroshe, ariko biraguma bishoboka!
+Nk’uko mwabitahuye, gushirwa mu ngiro isuku ryiza muvy'ubuhinga bwa none si ngombwa ngo bibe vyoroshe, ariko biguma bishoboka!
 
 
 
-- Gukora imeyili nshasha itekanye Address.
-- Gushinga umucungerezi w'ijambobanga.
+- Gukora aderese imeyiri nshasha irinzwe.
+- Gushinga ubutunganyirizo bw'ijambo ry'ibanga.
 - Gukoresha 2FA.
-- Buhoro buhoro gusubirira amajambo y’ibanga yacu ya kera amajambo y’ibanga akomeye akoresheje 2FA.
+- Gusubirira amajambo y’ibanga yacu ya kera Buhoro buhoro na yakomeye akoresha 2FA.
 
 
-Komeza kwiga kandi buhorobuhoro ushire mu ngiro ingeso nziza!
+Komeza kwiga kandi buhoro buhoro ushire mu ngiro imigenzo myiza!
 
 
-Itegeko rya zahabu: Umutekano wo kuri Internet ni intumbero igendagenda izohuza n’urugendo rwawe rwo kwiga!
+Itegeko ry'inzahabu: Umutekano wo kuri interineti ni intumbero igendagenda izohuza n’urugendo rwawe rwo kwiga!
 
 
 https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
 https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
-# Igice c'ibikorwa
+# Igisata c'ibikorwa
 
 
 <partId>98ccf14b-4053-5839-878c-7a73ff02eb95</partId>
@@ -595,43 +598,42 @@ https://planb.academy/tutorials/computer-security/authentication/security-key-61
 <chapterId>afc9ab5d-7664-5a9b-ab50-225ac9ba8f7c</chapterId>
 
 
-Gukingira konti yawe ya email ni intambwe ihambaye mu gukingira ibikorwa vyawe vyo kuri Internet no kurinda amakuru yawe. Iyi nyigisho izoguyobora, intambwe ku yindi, mu kurema no gushinga konti ya ProtonMail, umuhinga azwi kubera umutekano wiwe wo hejuru utanga ububiko bw’amakuru yawe kuva ku mpera kugeza ku mpera. Waba uri umukoresha mushasha canke uwuzi gukoresha, uburyo bwiza bushikirijwe aha buzogufasha gukomeza umutekano wa email yawe mu gihe uzoba uriko urakoresha ubuhinga buteye imbere bwa ProtonMail:
+Gukingira konti yawe ya imeyiri ni intambwe ihambaye mu gukingira ibikorwa vyawe vyo kuri interineti no gucungera amakuru yawe. Iyi nyigisho izokuyobora, intambwe ku yindi, mu kurema no gushinga konti ya ProtonMail, Izwi kubera umutekano wayo wo hejuru utanga ububiko bunyegeje bw’amakuru yawe uhanahana kuva ku mpera kugeza kuyindi(end-to-end encryption). Waba uri umukoresha mushasha canke usanzwe uzi gukoresha ivyikoranabuhanga, imigenzo myiza ishikirijwe aha izogufasha gukomeza umutekano wa imeyiri yawe mu gihe uzoba uriko urakoresha ubuhinga buteye imbere bwa ProtonMail:
 
 
 https://planb.academy/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2
 
-## Gukingira muri 2FA
+## Gukingira biciye muri 2FA
 
 
 <chapterId>09468ec1-95b7-56a4-a636-7618044568e1</chapterId>
 
 
-Ivyemezo bibiri (2FA) vyacitse ikintu gihambaye kugira ngo ukingire amakonti yawe yo kuri Internet. Muri iyi nyigisho, uzomenya ingene woshiraho no gukoresha porogarama ya 2FA Authy, itanga amakode y’imirongo 6 akora neza kugira ngo ukinge amakonti yawe. Authy yoroshe cane gukoresha kandi irakorana n’ibikoresho vyinshi. Tora ingene woshiramwo no gutunganya Authy, gutyo ukomeze umutekano wa konti zawe zo kuri internet ubu nyene:
+Ivyemezo bibiri (2FA) vyacitse ikintu gihambaye kugira ngo ukingire amakonti yawe yo kuri interineti. Muri iyi nyigisho, uzomenya ingene woshirako no gukoresha porogarame ya 2FA Authy, itanga amakode y’ibiharuro 6 akora neza kugira ngo ukingire amakonti yawe. Authy yoroshe cane gukoresha kandi irakorana n’ibikoresho vyinshi. Tora ingene woshiramwo no gutunganya Authy, gutyo ukomeze umutekano wa amakonti yawe yo kuri interineti ubu nyene:
 
 
 https://planb.academy/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-Iyindi nzira ni ugukoresha urufunguruzo rw’umutekano rw’umubiri. Iyi nyigisho y'inyongera ikwereka ingene woshiraho no gukoresha urufunguzo rw'umutekano nk'ikintu ca kabiri co kwemeza:
+Iyindi nzira ni ugukoresha urufunguruzo rw’umutekano rufadika. Iyi nyigisho y'inyongera ikwereka ingene woshirako be n' ugukoresha urufunguzo rw'umutekano nk'ikintu ca kabiri co kwemeza:
 
 
 https://planb.academy/tutorials/computer-security/authentication/security-key-61438267-74db-4f1a-87e4-97c8e673533e
 
-## Gukora umucungerezi w'ijambobanga
+## Gukora ubutunganirizo bw'ijambo ry'ibanga
 
 
 <chapterId>ed579680-4e7b-5f65-8541-14e519a3b242</chapterId>
 
 
-Gucungera ijambobanga ni ingorane mu gihe c’ubuhinga bwa none. Twese turafise amakonti menshi yo kuri Internet yo gukingira. Umucungerezi w’ijambobanga aragufasha kurema no kubika amajambobanga akomeye kandi yihariye kuri konti yose.
+Ubutunganirizo bw'ijambo ry'ibanga n'ikibazo gikomeye mw'iki gihe c'ubuhinga bwa none. Twese turafise ama konti menshi yo kuri interineti yo gukingira. ubutunganirizo bw'ijambo ry'ibanga buragufasha kurema no gushingura amajambo y'ibanga akomeye kandi atahandi woyasanga.
 
 
-Muri iyi nyigisho, menya ingene woshiraho Bitwarden, umucungerezi w’ijambobanga ry’inkomoko yuguruye, n’ingene wohuza amakuru yawe ku bikoresho vyawe vyose kugira ngo worohereze ikoreshwa ryawe rya misi yose:
+Muri iyi nyigisho, menya ingene woshirako Bitwarden, ubutunganirizo bw’ijambo ry'ibanga bw’isoko yuguruye, n’ingene wohuza amakuru yawe ku bikoresho vyawe vyose kugira ngo woroherwe muvyukora misi yose:
 
 
 https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
 
-Ku bakoresha bateye imbere cane, ndatanga kandi inyigisho ku yindi porogarama y’ubuntu kandi yuguruye yo gukoresha mu karere mu gucunga amajambo banga yawe:
-
+Ku bakoresha b'inzobere, ndatanga kandi inyigisho ku yindi porogarame y’ubuntu kandi y'isoko yuguruye yo gukoresha ku gikoresho cawe mu gutunganya amajambo y'ibanga yawe:
 
 https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
@@ -641,7 +643,7 @@ https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb
 <chapterId>7a774b34-aed0-57dd-b8f7-cf3be51c0d70</chapterId>
 
 
-Muri izi nyigisho zibiri, ndakuyobora kandi mu gucungera amakonti yawe yo kuri internet no kubasigurira ingene wofata buhoro buhoro uburyo bwo gucunga amajambo y’ibanga yawe ku musi ku musi.
+Muri izi nyigisho zibiri, ndakuyobora kandi mu gucungera amakonti yawe yo kuri interineti no kubigisha neza ingene wofata buhoro buhoro imigenzo y'umutekano wose kugira ushobore kwitunganiriza neza amajambo y'ibanga yawe mu buzima bwa minsi yose.
 
 
 https://planb.academy/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
@@ -654,38 +656,38 @@ https://planb.academy/tutorials/computer-security/authentication/keepass-f8073bb
 <chapterId>8dc08feb-313c-5259-a54f-64aa68a07608</chapterId>
 
 
-Gukingira ubuzima bwite bwawe bwo kuri Internet na vyo nyene ni ikintu gihambaye cane kugira ngo ubone umutekano wawe. Gukoresha VPN birashobora kuba umuti wa mbere wo gushika kuri ivyo.
+Gukingira ubuzima bwawe bw'ibanga kuri interineti ni ikintu gihamabaye utegerezwa kwitwararika kugira urinde umutekano wawe. Gukoresha VPN birashobora kuba inyishu nyamukuru kugira ushike kuri uwo mutekano wawe.
 
 
-Ndabagira inama yo gutohoza inyishu zibiri zishobora kwizigirwa za VPN zemera kwishura Bitcoin, arizo IVPN na Mullvad. Aya nyigisho arakuyobora ingene woshiramwo, gutunganya, no gukoresha Mullvad canke IVPN ku bikoresho vyawe vyose:
+Ndabagira inama yo kumenya inyishu z'ama VPN zizewe kandi zirihishwa muma Bitcoin, arizo IVPN na Mullvad. Izi nyigisho zirakuyobora ingene woshiramwo, gutunganya, no gukoresha Mullvad canke IVPN ku bikoresho vyawe vyose:
 
 
 https://planb.academy/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
 https://planb.academy/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-Kandi, menya gukoresha Tor Browser, umucukumbuzi yagenewe canecane kurinda ubuzima bwite bwawe bwo kuri Internet:
+Kandi, menya gukoresha mucukumbuzi Tor Browser, Igikoresho cagenewe kugufasha kurondera kuri interineti cane gucungera ubuzima bw'ibanga bwo kuri interineti:
 
 
 https://planb.academy/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
-## Gusubiza inyuma
+## Gukora ububiko bwinyongera
 
 
 <chapterId>01cfcde1-77cb-506c-8df1-fa18a2e8cc6b</chapterId>
 
 
-Gukingira amadosiye yawe na vyo nyene ni ikintu gihambaye cane. Iyi nyigisho irakwereka ingene woshira mu ngiro ubuhinga bwiza bwo gusubiza inyuma ukoresheje Proton Drive. Tora ingene wokoresha uyu muti w’igicu utekanye kugira ngo ukoreshe uburyo bwa 3-2-1: kopi zitatu z’amakuru yawe ku bimenyeshamakuru bibiri bitandukanye, kopi imwe iri hanze y’aho uri. Ibi bituma amadosiye yawe y'agaciro ashobora gushikwako kandi akagira umutekano:
+Gukingira amadosiye yawe kandi ni ikintu gihambaye. Iyi nyigisho irakwereka neza ingene woshira mungiro umukenyuro wo gukora ububiko bwinyongera wizewe cane wifashishije Proton Drive. Tora ingene wokoresha uyu muti wa cloud utekanye kugira ngo ukoreshe uburyo bwa 3-2-1: kopi zitatu z’amakuru yawe zibitse ku bikoresho bibiri bitandukanye, na kopi imwe itari kuri interineti. Ibi bituma amadosiye yawe y'agaciro ashobora kworoha gushikwako kandi ari mu mutekano:
 
 
 https://planb.academy/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-Kandi kugira ngo ukingire amadosiye yawe abitswe ku bikoresho bishobora gukurwaho nk’umuduga wa USB canke umuduga wa Hard wo hanze, ndakwereka kandi ingene woshiramwo no gufungura ivyo bikoresho ukoresheje VeraCrypt mu buryo bworoshe:
+Kandi kugira ngo ukingire amadosiye yawe ashinguye ku bikoresho bicomorwa nka USB(flash) canke hard drive(kimwe mubikoresho vyokubika amakuru), ndakwereka kandi ingene wonyegeza canke ukanyegurura ivyo bikoresho ukoresheje VeraCrypt mu buryo bworoshe:
 
 
 https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
-# Genda kure
+# Shika kure
 
 
 <partId>77113cad-a6d8-57e5-b903-50c223b277ba</partId>
@@ -699,49 +701,49 @@ https://planb.academy/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 :::video id=4c818b5c-ea5d-496a-8e82-bc5d96d91430:::
 
 
-### Umutekano wo kuri Internet: Umurima uriko urakura ufise amahirwe atagira iherezo
+### Umutekano wo kuri interineti: Igisata kiriko kirakura gifise amahirwe atagira iherezo
 
 
-Niba ukunda cane gukingira ubuhinga n’amakuru, igice c’umutekano wo kuri interineti kiratanga uturyo twinshi. Nimba iyo nganda igutera umunezero, ng’izi intambwe z’ingenzi zizoguyobora.
+Niba ukunda cane gukingira ama sisteme na’amakuru, igisata c’umutekano wo kuri interineti kiratanga uturyo twinshi. Nimba iki gisata kigutera umunezero, ng’izi intambwe nyamukuru zizokuyobora.
 
 
-### Ishingiro ry'inyigisho n'ivyemezo:
+### Ishingiro ry'inyigisho n'ivyemezo
 
 
-Inyigisho ikomeye mu vy’ubuhinga bwa orodinateri, ubuhinga bwo gutanga amakuru canke ikindi kintu gifitaniye isano n’ivyo, akenshi ni co kintu ciza co gutangura. Izo nyigisho zitanga umushinge ukenewe kugira ngo umuntu atahure ingorane z’ubuhinga zijanye n’umutekano wo kuri Internet. Kugira ngo umuntu yuzuze iyo nyigisho, ni vyiza ko aronka ivyemezo vyemewe muri uwo mwuga. Naho ivyo vyemezo bishobora gutandukanywa hakurikijwe akarere, bimwebimwe, nka CISSP canke CEH, biremerwa kw’isi yose.
+Ubumenyi bukomeye mubijanye na siyanse y'inyabwonko, ubuhinga bwo gutanga amakuru canke ikindi gisata gifitaniye isano n’ivyo, akenshi ni co kintu ciza co gutangurirako. Izi nyigisho zitanga umushinge wa nkenerwa kugira ngo umuntu atahure ibihanze ubuhinga bwa none bijanye n’umutekano wo kuri interineti. Kugira ngo umuntu yuzuze iyo nyigisho, ni vyiza ko aronka ivyemezo vyemewe muri ico gisata. Naho ivyo vyemezo bishobora gutandukanywa hakurikijwe akarere, bimwebimwe, nka CISSP canke CEH, biremerwa kw’isi yose.
 
 
-Ivy’umutekano wo kuri Internet ni ikintu kinini kandi kiguma gitera imbere. Kumenya neza ibikoresho bihambaye be n’uburyo butandukanye ni ikintu gihambaye cane. Ikindi, n’ibice vyinshi, kuva ku kwishura ku bibazo gushika ku gutera imbere mu vy’inyifato runtu, ni vyiza kumenya aho ushaka no kuvyiyumvamwo.
+Ivy’umutekano wo kuri interineti ni igisata kinini kandi kiguma gitera imbere. Kwimenyereza neza ibikoresho vyangombwa be na sisteme zigiye zitandukanye n'ikintu gihambaye. Ikindi, hamwe n’ibice vyinshi, kuva ku kwishura ku bibazo gushika ku gutera/kwinjirira vy’inyifato runtu, ni vyiza kubimenya cane canke no kubinonosora.
 
 
-### Kuronka ubumenyi ngirakamaro:
+### Kuronka ubumenyi bushingiye ku bikorwa
 
 
-Ntidushobora gufata minenerwe akamaro k’ubumenyi ngirakamaro. Kurondera amashure y’ubuhinga canke ivyicaro bitobito mu mashirahamwe afise amashirahamwe y’umutekano wo kuri internet ni uburyo bwiza cane bwo gukoresha ubumenyi ufise mu vy’inyigisho no kuronka ubumenyi ngirakamaro. Ikindi kandi, kwifatanya n’amarushanwa yo gutera ivyatsi canke kwigana ivy’umutekano wo kuri Internet birashobora gutuma ubuhinga bwawe butera imbere mu bihe vy’ukuri.
+Ntidushobora gufata minenerwe akamaro k’ubumenyi bushingiye ku bikorwa. Kurondera kwimenyereza umwuga mu vy'icaro vya bashasha mu mashirahamwe afise uturwi two gucunga umutekano wo kuri interineti ni uburyo bwiza cane bwo gukoresha ubumenyi ufise mu vy’inyigisho no kuronka ubumenyi ngirakamaro bishingiye kubikorwa. Ikindi kandi, kwifatanya n’amarushanwa yo guterara/kwinjirira vy’inyifato runtu canke kwigana ivy’umutekano wo kuri interineti birashobora gutuma ubuhinga bwawe butera imbere mu bihe vy’ukuri.
 
 
-Inkomezi z’urubuga rw’abahinga ni iz’agaciro kanini cane. Kwifatanya n’amashirahamwe y’abahinga, hackerspaces, canke amahuriro yo kuri internet bitanga urubuga rwo gutanga ivyiyumviro vya Exchange n’abandi bahinga. Na wewe nyene, kuja mu nama n’amahugurwa yerekeye umutekano wo kuri Internet ntibituma wiga gusa, ariko kandi biragufasha kwubaka ubucuti n’abahinga mu vy’ubuhinga.
+Inkomezi z’urumuhora wa kinyamwuga ni iz’agaciro kanini cane. Kwifatanya n’amashirahamwe akora kinyamwuga, hackerspaces, canke amahuriro yo kuri interineti atanga urubuga rwo guhanahana ivyiyumviro n'abandi bahinga. Ikindi kandi nuko, kuja mu nama n’inyigisho yerekeye umutekano wo kuri interineti ntibituma wiga gusa, ariko kandi biragufasha kwubaka ubucuti n’ababigize umwuga mu vy’ubuhinga.
 
 
-Ugutera imbere kw’iterabwoba bisaba ko amakuru n’amahuriro yihariye aguma akurikirana. Mu rwego aho ukwizigirana ari kwo guhambaye cane, gukorana n’inyifato runtu n’ubunyankamugayo ni ngombwa ku ntambwe yose y’akazi kawe.
+Ukubangamirwa cane kuguma gutera imbere ivyo rero bikaba bica bituma hakenerwa gucungera umwanya wose kandi kenshi amakuru n'inyigisho zabigenewe. Mu rwego aho ukwizigirana ari kwo guhambaye cane, gukorana n’inyifato runtu ni ngombwa ku ntambwe yose y’akazi kawe.
 
 
-### Ubuhinga n’Ibikoresho vyo Gukomeza:
+### Ubuhinga n’Ibikoresho vyo kunonosora
 
 
 
 - Ibikoresho vyo gucungera umutekano wo kuri interineti: Wireshark, Metasploit, Nmap.
-- Uburyo bwo gukoresha: Linux, Windows, MacOS.
-- Indimi zo gukora porogaramu: Inyuguti, C, Java.
-- Ivyuma: TCP/IP, VPN, uruhome rw’umuriro.
-- Ivyiyumviro: SQL, NoSQL.
-- Ivy’ugushiramwo amakuru: SSL/TLS, ugushiramwo amakuru bihuye n’ibitaringaniye.
-- Uburongozi bw’ivyabaye: Isesengura ry’ivyabaye, inyishu y’ivyabaye.
-- Ethical Hacking: Ubuhinga bwo kugerageza kwinjira mu mubiri no kugerageza kwinjira mu mubiri.
-- Intwaro: Ivyagezwe vya ISO, GDPR, n’amabwirizwa ya CCPA.
+- Ubuhinga bwo gukoresha(sisteme): Linux, Windows, MacOS.
+- Indimi zo kwandikamwo porogarame: python, C, Java.
+- Imihora: TCP/IP, VPN, fire wall.
+- Urutonde rw'amakuru: SQL, NoSQL.
+- Ivy’ukunyegeza amakuru: SSL/TLS, ukunyegeza amakuru bihuye n’ibitaringaniye.
+- Ugutunganywa kw'ibiba: Isesengura ry’ivyabaye, inyishu kubiba.
+- Gutera/Kwinjirira vy’inyifato runtu(Ethical Hacking): kugerageza kwinjira no kw'injirirwa.
+- Intwaro: Ivyagezwe vya ISO, GDPR, n’ivyagenwe na CCPA.
 
 
-Niwamenya neza ubwo buhinga n’ibikoresho, uzoba ufise ibikenewe vyose kugira ngo ushobore kugendera neza mw’isi y’umutekano wo kuri Internet.
+Niwamenya neza ubwo buhinga n’ibikoresho, uzoba ufise ibikenewe vyose kugira ngo ushobore kugendera neza mw’isi y’umutekano wo kuri interineti.
 
 ![image](assets/rn/020.webp)
 
@@ -754,73 +756,73 @@ Niwamenya neza ubwo buhinga n’ibikoresho, uzoba ufise ibikenewe vyose kugira n
 :::video id=ec7014aa-5ebe-444c-80d1-7b14f1fe7bb8:::
 
 
-### Gucungera neza ijambobanga no gukomeza kwemeza: Uburyo bwo kwiga
+### Gutunganya neza ijambo ry'ibanga no gukomeza ukwemeza uwinjira: Uburyo bwo kwiga
 
 
-Hariho ibintu bitatu vy’ingenzi vyo kwitwararika igihe tuvuga ibijanye n’abacungera amajambo y’ibanga: uguhingura, uguhindura no gushira mu ngiro amajambo y’ibanga ku mbuga ngurukanabumenyi.
+Hariho ibintu bitatu ngenderwako vyo kwitwararika igihe tuvuga ibijanye n’ubutunganyirizo bw' amajambo y’ibanga: ukurema, ugushira ku gihe no gushiraho amajambo y’ibanga ku mbuga.
 
 
-Muri rusangi ntivyiza gukoresha ama extensions y’umucukumbuzi kugira ngo umuntu yuzuze ijambobanga ryiwe. Ivyo bikoresho birashobora gutuma uwubikoresha ashobora guterwa n’ibitero vy’ubuhendanyi. Renaud, umuhinga mu vy’umutekano wo kuri internet, akunda gukoresha amaboko akoresheje KeePass, ivyo bikaba birimwo gukopa no gushiramwo amajambo y’ibanga muri iyo porogarama. Ivyongeyeko bikunda kwongerera igitero, birashobora gutuma umucukumbuzi akora buhoro, bigatuma bitera ingorane nyinshi. Gutyo, kugabanya ikoreshwa ry’ibintu vy’inyongera ku mucukumbuzi ni akamenyero keza.
+Muri rusangi sivyiza gukoresha inyongerabushobozi muri mucukumbuzi kugira ngo umuntu yuzuze ijambobanga ryiwe. Ivyo bikoresho birashobora gutuma uwubikoresha ashobora guterwa n’ibitero vy'ububeshi bw'udutego. Renaud, umuhinga mu vy’umutekano wo kuri interineti, akunda gukoresha amaboko akoresheje KeePass, ivyo bikaba birimwo kwimura no gushiramwo amajambo y’ibanga muri iyo porogarame. Izo nyongera bushobozi zikunda kwongereza uburyo bwo guterwa, birashobora gutuma mucukumbuzi igenda bukebuke, bigatuma bitera ingorane nyinshi. Gutyo, kugabanya ikoreshwa ry'inyongerabushobozi ni akamenyero keza kandi uhamagarirwa.
 
 
-Abacungezi b’ijambobanga muri rusangi bararemesha gukoresha ibindi bintu vyo kwemeza, nk’ugushingira intahe ibintu bibiri. Kugira ngo ugire umutekano mwiza, ni vyiza ko uguma ufise amajambo y’ibanga y’igihe kimwe (OTPs) ku gikoresho cawe co kuri telefone ngendanwa. AndOTP itanga umuti w’inkomoko yuguruye wo guhingura no kubika amakode y’ijambobanga ry’igihe kimwe (OTP) ku gikoresho cawe co kuri telefone ngendanwa. Naho Google Authenticator yemera kohereza hanze imbuto za kode y’ukwemeza, ukwizigira ububiko kuri konti ya Google kuguma ari bike. Ni co gituma, ibikorwa vya OTI na AndoTP birasabwa ku bijanye n’uburongozi bwa OTP bwigenga.
+Ubutunganyirizo bw'amajambo y'ibanga muri rusangi bukangurira gukoresha ibindi bintu vyo kwemeza uwinjira, nka 2FA (ivyemezo bibiri mukwimenyekanisha). Kugira ngo ugire umutekano ukwiye, ni vyiza ko uguma ufise amajambo y’ibanga y’igihe gito (OTPs) kuri ngendanwa yawe. AndOTP itanga umuti w’isoko yuguruye wo guhingura no kubika amakode y’ijambo ry'ibanga ry’igihe kimwe (OTP) ku gikoresho cawe co ngendanwa. Naho Google Authenticator yemera kohereza hanze kode y’ukwemeza, ukwizigira ububiko bw'inyongera kuri konti ya Google kuguma ari guke. Ni co gituma, ibikorwa vya OTI na AndoTP bihanuwe mubijanye n’ugutunganywa kwa OTP kwigenga.
 
 ![image](assets/rn/021.webp)
 
-Ikibazo c’iragi ry’ubuhinga bwa none n’ugucura intimba kw’ubuhinga bwa none kirerekana akamaro ko kugira uburyo bwo gutanga amajambo y’ibanga umuntu amaze gupfa. Umucungerezi w’ijambobanga arafasha iyo mpinduka mu kubika neza amabanga yose y’ubuhinga bwa none ahantu hamwe. Umucungerezi w’ijambobanga kandi aragufasha kumenya amakonti yose yuguruye no gucunga ugufunga canke uguhererekanya kwayo. Ni vyiza kwandika ijambo banga ry’ibanze ku mpapuro, ariko rikwiye kubikwa ahantu hiherereye kandi hatagira umutekano. Iyo umuduga wa Hard ushizwemwo amakuru y’ibanga kandi mudasobwa ikaba ipfungiwe, ijambo banga ntirizoshobora gushikwako, mbere n’igihe umuntu yivye.
+Ikibazo c’iragi ry’ubuhinga bwa none n’ugucura intimba kw’ubuhinga bwa none kirerekana akamaro ko kugira uburyo bwo gutanga amajambo y’ibanga umuntu amaze gupfa. Ubutunganyirizo bw'amajambo y'ibanga burafasha iyo mpinduka mu kubika neza amabanga yose y’ubuhinga bwa none ahantu hamwe. Ubutunganyirizo bw'amajambo y'ibanga kandi budufasha kumenya amakonti yose yuguruye no gutunganya ukugarwa kwayo canke uguhererekanywa kwayo. Ni vyiza kwandika ijambo banga ry’ibanze ku rupapuro, ariko rikwiye kubikwa ahantu hiherereye kandi hafise umutekano. Iyo amakuru ari kuri Hard drive anyegeje kandi inyabwonko ikaba yugaye, ijambo ry'banga ntiri zoshobora gushikwako, mbere n’igihe umuntu yibwe.
 
 
-### Kuja mu gihe c'inyuma y'ijambobanga: Gutohoza ubundi buryo bwo kwizerwa
+### Kuja mu gihe c'inyuma y'ijambo ry'ibanga: Gutohoza ubundi buryo bwizewe
 
 
-Amajambo y’ibanga, naho ari hose, arafise ingorane nyinshi, harimwo n’ingorane zo gutanga amakuru mu gihe c’ugushingira intahe. Amashirahamwe akomeye nka Microsoft na Apple, aratanga uburyo bushasha bwo gukoresha, harimwo n’ibimenyetso vy’ubuhinga bwa biometric n’ivy’ubuhinga, ivyo bikaba vyerekana ko hariho iterambere ry’uguheba amajambo y’ibanga.
+Amajambo y’ibanga, naho ari hose arafise ingaruka mbi nyinshi, harimwo n’ingorane zo gutanga amakuru mu gihe c'ukwimenyekanisha. Amashirahamwe akomeye nka Microsoft na Apple, aratanga uburyo bushasha bwo gukoresha, harimwo n’ibimenyetso vy’ubuhinga(Tokens) bwa biometric n’ivy'ibikoresho, ivyo bikaba vyerekana ko hariho iterambere ry’uguheba amajambo y’ibanga.
 
 
-Nk’akarorero, amafunguro y’ibanga atanga imfunguruzo zidasanzwe zifatanijwe n’ikintu co mu karere (nk’ibiharuro vy’ubuzima canke PIN), ivyo umutanga amakuru ashobora kwakira ariko bikaguma kure y’aho ashobora kubishikira. Naho ivyo bisaba guhindura imbuga, iyo nzira irakuraho ivy’ugukenera amajambo y’ibanga, gutyo bikaba bitanga umutekano wo ku rugero rwo hejuru ata ngorane zijanye n’amajambo y’ibanga ya kera canke ikibazo co gucunga isanduku y’ibanga y’ubuhinga bwa none.
+Nk’akarorero, Passkeys zitanga imfunguruzo zidasanzwe zinyegeje zifatanijwe n’ikintu co mu mashini yawe (nka biometrics canke PIN), ivyo uwubitanga naho abitanga biaguma kure y’aho ashobora gushika. Naho ivyo bisaba gushira kugihe imbuga, iyo nzira irakurako ivy’ugukenera amajambo y’ibanga, ivyo bikaba bitanga umutekano wo ku rugero rwo hejuru ata ngorane zijanye n’amajambo y’ibanga ya kera canke ikibazo co gucunga ububiko bw’ibanga bw’ubuhinga bwa none.
 
 
-Passkiz ni ubundi buryo bushoboka kandi butekanye bwo gucunga ijambobanga. Ariko rero, ikibazo gikomeye kiracariho: ukuboneka mu gihe uwutanga ubuvuzi yoba ananiwe. Vyoba vyiza rero ko ibigo bikomeye vyo kuri internet bitanga uburyo bwo gutuma ivyo bishobora kuboneka.
+Passkiz ni ubundi buryo bushoboka kandi butekanye bwo gucunga ijambobanga. Ariko rero, ikibazo gikomeye kiracariho: ukuboneka mu gihe uwubutanga abuze. Vyoba vyiza rero ko ibigo bikomeye vyo kuri interineti bitanga uburyo bwo gutuma ivyo bishobora kuboneka.
 
 
-Kwemeza umuntu ataco akora ku bijanye n’ivyo ni uburyo bushoboka bushobora gutuma umuntu adakenera uwundi muntu. Ariko rero, iyo nzira yitwa Single Sign-On (SSO) itangwa n’ibigo bikomeye vyo kuri internet na yo nyene iratera ingorane mu bijanye n’ukuntu iboneka be n’ingorane zo gucengera. Kugira ngo amakuru ntasohoke, birahambaye cane ko amakuru yegeranywa agabanywa mu gihe c’ugushingira intahe.
+Kwimenyekanisha vyihuse ataco umuntu akoze kuri serivise kanaka ni uburyo bushoboka bushobora gutuma umuntu adakenera uwundi muntu. Ariko rero, iyo nzira yitwa Single Sign-On (SSO) itangwa n’ibigo bikomeye vyo kuri interineti na yo nyene iratera ingorane mu bijanye n’ukuntu iboneka be n’ingorane zo gucungerwa. Kugira ngo amakuru ntasohoke, birahambaye cane ko amakuru yegeranywa agabanywa mu gihe c’ukwimenyekanisha.
 
 
-### Umutekano wa mudasobwa: ivy'ingenzi vy'imigenzo y'umutekano n'ingorane zijanye n'ubujuju bwa muntu
+### Umutekano w'inyabwonko: Akamaro k'imigenzo y'umutekano n'ingorane zijanye n'ukwanjanjwa kw'umuntu
 
 
-Umutekano wa mudasobwa ushobora guhungabanywa n'ibikorwa vyoroshe no gukoresha amajambo banga y'imbere, nka "admin". Ibitero bikomeye ntivyama bikenewe kugira ngo umutekano wa orodinateri ushire mu kaga. Nk'akarorero, amajambo y'ibanga y'umuyobozi w'umurongo wa YouTube yanditswe muri kode y'inkomoko y'ibanga y'ishirahamwe. Akenshi uguhungabana kw’umutekano biterwa n’ubujuju bw’abantu.
+Umutekano w'inyabwonko ushobora guhungabanywa n'ibikorwa bisanze no gukoresha amajambo y'ibanga asanzwe ariho, nka "admin". Ibitero bikomeye ntivyama bikenewe kugira ngo umutekano w' inyabwonko yawe ugire ikibazo. Nk'akarorero, amajambo y'ibanga y'umuyobozi w'umurongo wa YouTube yanditswe muri kode y'isoko y'ibanga y'ishirahamwe. Akenshi uguhungabana kw’umutekano biterwa n’ubujuju bw’abantu.
 
 
-Birabereye kandi kumenya ko Internet iri ahantu hamwe cane kandi ahanini igenzurwa n’Abanyamerika. Server ya DNS irashobora gucengera kandi akenshi ikoresha DNS ihenda kugira ngo ibuze abantu kwinjira ku mbuga zimwe zimwe. DNS ni umurongo wa kera kandi udatekanye ushobora gutuma haba ibibazo vy’umutekano. Amasezerano mashasha, nka DNSsec, yarasohotse ariko n’ubu ntakoreshwa cane. Kugira ngo ushire kure ugucengera no kubuza amatangazo, birashoboka guhitamwo abandi batanga DNS.'
+Birabereye kandi kumenya ko interineti iri ahantu hagendurwa kandi ahanini igenzurwa n’Abanyamerika. Server ya DNS irashobora gukengera kandi akenshi irashobora gukoresha DNS ihendabantu kugira ngo ibuze imbuga zimwe zimwe kugenderwa. DNS ni umurongo wa kera kandi udatekanye ushobora gutuma haba ibibazo vy’umutekano. Amategeko mashasha, nka DNSsec, yarasohotse ariko n’ubu ntakoreshwa cane. Kugira ngo ushire kure ugucengera no kubuza amatangazo, birashoboka guhitamwo abandi batanga DNS.'
 
 
-Ubundi buryo bwo kwamamaza butera ubwoba harimwo Google DNS, OpenDNS, n’izindi serivisi zigenga. Itegeko rya DNS risanzwe risiga ibibazo vya DNS biboneka ku wutanga serivisi ya Internet. DOH (DNS kuri HTTPS) na DOT (DNS kuri TLS) zipfuka uruja n’uruza rwa DNS, zigatuma umuntu agira ubuzima bwite n’umutekano mwinshi. Izo porotokole zikoreshwa cane mu bigo kubera umutekano wazo kandi zishigikirwa na Windows, Android, na iPhone. Kugira ngo ukoreshe DOH na DOT, izina ry'umushitsi TLS ritegerezwa kwinjira aho gukoresha IP Address. Abatanga ubufasha bwa DOH na DOT ku buntu baraboneka kuri internet. DOH na DOT zituma ubuzima bwite n'umutekano bitera imbere mu kwirinda ibitero vy'abantu "bari hagati".
+Ubundi buryo bwo kwamamaza butera ubwoba harimwo Google DNS, OpenDNS, n’izindi serivisi zigenga. Itegeko rya DNS risanzwe risiga ibibazo vya DNS biboneka ku wutanga serivisi ya interineti. DOH (DNS kuri HTTPS) na DOT (DNS kuri TLS) zinyegeza uruja n’uruza rwa DNS, zigatuma umuntu agira ubuzima bwite n’umutekano mwinshi. ayomategeko akoreshwa cane mu bigo kubera umutekano wayo kandi asanzwe ashigikirwa na Windows, Android, na iPhone. Kugira ngo ukoreshe DOH na DOT, izina ry'ubushitsi TLS ritegerezwa kuba ariryo ryandikwa aho gukoresha Aderese IP . Abatanga DOH na DOT ku buntu baraboneka kuri interineti. DOH na DOT zituma ubuzima bwite n'umutekano bitera imbere mu kwirinda ibitero vy'abantu babaja hagati (man-in-the-middle) mugihe amakuru ahana hanwa.
 
 
-Ni vyiza kandi kuvuga uburyo bwitwa "Lightning authentication", butanga ikimenyetso gitandukanye ku gikorwa cose, ataco bimaze gutanga email Address canke amakuru y'umuntu ku giti ciwe. Birashoboka ko haba akaranga k’abantu bose kagenzurwa n’abakoresha, ariko hariho ukubura uguhuza n’ugusanura mu migambi y’akaranga k’abantu bose. Abacungezi b’amapaki nka NuGet na Chocolaté, bashobora gukuraho porogarama zifunguye hanze y’iduka rya Microsoft, barasabwa kwirinda ibitero bibi. Mu ncamake, DNS ni ikintu gihambaye cane ku mutekano wo kuri internet; ariko rero, ni ngombwa ko umuntu aguma ari maso ku bitero bishobora gutera ama server ya DNS.
+Ni vyiza kandi kuvuga uburyo bwitwa "Lightning authentication", butanga ikimenyetso gitandukanye kuri buri serivise yose, idatanze aderese imeyiri canke amakuru y'umuntu bwite. Birashoboka ko haba akaranga k’abantu bose kagenzurwa n’abakoresha, ariko hariho ukubura uguhuza n’ugusanura mu migambi y’akaranga k’abantu katagenzurwa. Abatunganya amapaki nka NuGet na Chocolaté, bashobora kwemerera kuvoma porogarame z'isoko yuguruye hanze y’ubudandarizo bwa Microsoft, nibo muhanuriwe gukoresha kugira wirinde ibitero bibi. Mu ncamake, DNS ni ikintu gihambaye cane ku mutekano wo kuri interineti; ariko rero, ni ngombwa ko umuntu aguma ari maso ku bitero bishobora gutera ibisenge(server) vya DNS.
 
 
-# Igice ca nyuma
+# Igisata ca nyuma
 
 
 <partId>3d8ac4c9-f05b-4133-a40a-6e19d579f05f</partId>
 
 
-## Amasuzuma n'Ibipimo
+## Guterera iciyumviro n'amanota
 
 
 <chapterId>6be74d2d-2116-5386-9d92-c4c3e2103c68</chapterId>
 
 <isCourseReview>true</isCourseReview>
 
-## Ikizame canyuma
+## Ikibazo canyuma
 
 
 <chapterId>a894b251-a85a-5fa4-bf2a-c2a876939b49</chapterId>
 
 <isCourseExam>true</isCourseExam>
 
-## Iciyumviro
+## Gusozera
 
 
 <chapterId>6270ea6b-7694-4ecf-b026-42878bfc318f</chapterId>

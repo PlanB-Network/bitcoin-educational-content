@@ -543,7 +543,7 @@ När du dyker djupare in i Bitcoin-världen kommer du att märka att riskerna v�
 Kort sagt: underskatta inte cybersäkerheten, ta dig tid att installera grunderna och kom ihåg att konsekvens är nyckeln. Utan god digital hygien kommer inte ens de bästa verktygen att göra mycket för dig.
 
 
-Se också till att kolla in [våra handledningar om datasäkerhet] (https://planb.academy/tutorials/computer-security) på Plan ₿ Academy.
+Se också till att kolla in [våra handledningar om datasäkerhet](https://planb.academy/tutorials/computer-security) på Plan ₿ Academy.
 
 
 ![image](assets/sv/020.webp)
@@ -669,7 +669,7 @@ Framför allt ska du aldrig investera mer än du har råd att förlora. Undvik a
 ### Hantering och säkring av din Bitcoin Wallet
 
 
-En av Bitcoin:s mest kraftfulla (och ofta underskattade) funktioner är **self-custody**. Med en självhostad Wallet är du ensam ansvarig för dina medel. Dessa plånböcker genereras vanligtvis från en **återvinningsfras** (även känd som en seed-fras), en serie med 12 eller 24 ord som ger full tillgång till din BTC. Om du förlorar den här frasen (eller om någon annan får tag på den) är dina bitcoins borta för gott. ** Ingen kundsupport. Ingen återställningsknapp.**
+En av Bitcoin:s mest kraftfulla (och ofta underskattade) funktioner är **[self-custody](https://planb.academy/resources/glossary/selfcustody)**. Med en självhostad Wallet är du ensam ansvarig för dina medel. Dessa plånböcker genereras vanligtvis från en **återvinningsfras** (även känd som en seed-fras), en serie med 12 eller 24 ord som ger full tillgång till din BTC. Om du förlorar den här frasen (eller om någon annan får tag på den) är dina bitcoins borta för gott. ** Ingen kundsupport. Ingen återställningsknapp.**
 
 
 ![image](assets/sv/025.webp)
@@ -1008,7 +1008,7 @@ Bitcoin gör det möjligt för vem som helst att kontrollera riktigheten i Block
 #### En motståndskraftig, gränsöverskridande betalningsmetod
 
 
-På grund av sin decentraliserade natur fungerar Bitcoin dygnet runt, oberoende av gränser eller tidszoner. I regioner där traditionell bankinfrastruktur saknas används Bitcoin ofta som en snabb och billig lösning för att skicka eller ta emot pengar utan att förlita sig på dyra mellanhänder. Även om transaktionsavgifterna kan variera beroende på överbelastning i nätverket är de i allmänhet mycket lägre än de avgifter som bankerna tar ut för internationella överföringar. Layer-2-lösningar som Lightning Network möjliggör dessutom ännu snabbare och billigare Bitcoin-transaktioner.
+På grund av sin decentraliserade natur fungerar Bitcoin dygnet runt, oberoende av gränser eller tidszoner. I regioner där traditionell bankinfrastruktur saknas används Bitcoin ofta som en snabb och billig lösning för att skicka eller ta emot pengar utan att förlita sig på dyra mellanhänder. Även om transaktionsavgifterna kan variera beroende på överbelastning i nätverket är de i allmänhet mycket lägre än de avgifter som bankerna tar ut för internationella överföringar. Layer-2-lösningar som [Lightning Network](https://planb.academy/resources/glossary/lightning-network) möjliggör dessutom ännu snabbare och billigare Bitcoin-transaktioner.
 
 
 #### En värdebevarare
@@ -1430,7 +1430,7 @@ Utbyten spelar en kritisk roll i Bitcoin-ekosystemet och fungerar som broar mell
 - enkelt, gratis uttag av bitcoins till en personlig Wallet.
 
 
-Börser som följer lokala bestämmelser måste vanligtvis följa strikta **"Know Your Customer"** (KYC)-protokoll, vilket kräver att användare tillhandahåller identitetshandlingar innan de får tillgång till tjänster. Även om dessa processer är utformade för att förhindra olaglig aktivitet kan de äventyra den integritet som Bitcoin i sig erbjuder.
+Börser som följer lokala bestämmelser måste vanligtvis följa strikta **"[Know Your Customer](https://planb.academy/resources/glossary/kyc-know-your-customer)"** (KYC)-protokoll, vilket kräver att användare tillhandahåller identitetshandlingar innan de får tillgång till tjänster. Även om dessa processer är utformade för att förhindra olaglig aktivitet kan de äventyra den integritet som Bitcoin i sig erbjuder.
 
 
 ![image](assets/sv/058.webp)
@@ -1539,7 +1539,7 @@ Bitcoin Wallet-branschen är indelad i flera kategorier, som var och en tillgodo
 
 
 
-- **Hardware Wallet Tillverkare**: Dessa företag utvecklar fysiska enheter som är utformade för säker lagring av nycklar. Vissa har öppen källkod, medan andra erbjuder proprietära lösningar med varierande funktioner och säkerhetsnivåer. Anmärkningsvärda namn inkluderar Ledger, Trezor, Coinkite, Foundation och Shiftcrypto.
+- **[Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) Tillverkare**: Dessa företag utvecklar fysiska enheter som är utformade för säker lagring av nycklar. Vissa har öppen källkod, medan andra erbjuder proprietära lösningar med varierande funktioner och säkerhetsnivåer. Anmärkningsvärda namn inkluderar Ledger, Trezor, Coinkite, Foundation och Shiftcrypto.
 - **Software Wallet-utvecklare**: Dessa omfattar allt från företag till oberoende utvecklare som skapar mobila och stationära applikationer. Deras erbjudanden varierar i användarupplevelse, säkerhet och funktioner. Exempel på detta är Sparrow, Wizard Sardine, Galoy, Synonym och Blockstream.
 - DIY (*Do It Yourself*)-plånböcker: Dessa lösningar med öppen källkod är utformade för avancerade användare som vill ha full kontroll och minimalt beroende av tredje part. Att bygga din egen Wallet minskar förtroendeberoenden och kan öka din säkerhetsställning. Anmärkningsvärda DIY-alternativ inkluderar Seedsigner och Specter DIY.
 
@@ -2688,7 +2688,7 @@ https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-5
 
 https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.academy/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
+https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92d7-f6ec4d1fadfb
 
 https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 
@@ -2814,7 +2814,7 @@ Valet av att spendera bitcoins är ofta föremål för kritik. Vissa Bitcoin-anv
 Ett mer logiskt tillvägagångssätt är "Spendera och ersätt"-metoden. Det innebär att du spenderar Bitcoin av alla de skäl som nämnts tidigare, och sedan, istället för att låta dina Bitcoin besparingar krympa, ersätter du de förbrukade Sats genom att köpa nya med fiatvaluta.
 
 
-För att göra Bitcoin-utgifterna enklare finns det gott om verktyg tillgängliga, till exempel [BTC Map] (https://btcmap.org/), som visar dig handlare runt om i världen som accepterar Bitcoin. Vissa av dessa handlare låter dig till och med beställa online och få produkter levererade.
+För att göra Bitcoin-utgifterna enklare finns det gott om verktyg tillgängliga, till exempel [BTC Map](https://btcmap.org/), som visar dig handlare runt om i världen som accepterar Bitcoin. Vissa av dessa handlare låter dig till och med beställa online och få produkter levererade.
 
 
 Eftersom vi fortfarande befinner oss i en övergångsfas där inte alla dagliga handlare accepterar BTC, finns det några enkla men effektiva lösningar. Att köpa presentkort med Bitcoin är till exempel en praktisk lösning, och många leverantörer som Bitrefill, Coinsbee eller The Bitcoin Company erbjuder den här tjänsten.
@@ -3183,7 +3183,7 @@ Att ägna bara 15 minuter till en timme åt en arvsplan kan göra hela skillnade
 ### Målen för en Bitcoin Successionsplan
 
 
-Pamela Morgan, i sin bok * [Cryptoasset Inheritance Planning] (https://www.amazon.com/gp/product/1947910116/)*, beskriver fyra viktiga mål för en solid arvsplan:
+Pamela Morgan, i sin bok * [Cryptoasset Inheritance Planning](https://www.amazon.com/gp/product/1947910116/)*, beskriver fyra viktiga mål för en solid arvsplan:
 
 
 
@@ -3471,7 +3471,7 @@ https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb
 Referens: [*Cryptoasset Inheritance Planning, A Simple Guide for Owners* - Pamela Morgan, 2018.](https://www.amazon.com/gp/product/1947910116/)
 
 
-Ett särskilt tack till [Pamela Morgan] (https://x.com/pamelawjd) för hennes arbete och för att ha tillåtit att detta innehåll anpassades.
+Ett särskilt tack till [Pamela Morgan](https://x.com/pamelawjd) för hennes arbete och för att ha tillåtit att detta innehåll anpassades.
 
 
 
@@ -3599,7 +3599,7 @@ Bitcoin är mer än bara ett finansiellt verktyg; det är en rörelse. Beroende 
 - Gå med i en lokal gemenskap: Delta i evenemang, möten och forum för att träffa andra bitcoinare och **exchange** åsikter om den senaste utvecklingen.
 
 
-Om du vill hjälpa till att utbilda andra letar Plan ₿ Academy alltid efter bidragsgivare! Allt vårt utbildningsinnehåll är öppen källkod och finns på GitHub. Vi välkomnar bidragsgivare som hjälper till att korrekturläsa och översätta innehåll till olika språk; i Exchange för några Sats! Oavsett om det är nu eller senare i din Bitcoin-resa, är du inbjuden att gå med i [vår Telegram-grupp för bidragsgivare] (https://t.me/PlanBNetwork_ContentBuilder) i Plan ₿ Academy.
+Om du vill hjälpa till att utbilda andra letar Plan ₿ Academy alltid efter bidragsgivare! Allt vårt utbildningsinnehåll är öppen källkod och finns på GitHub. Vi välkomnar bidragsgivare som hjälper till att korrekturläsa och översätta innehåll till olika språk; i Exchange för några Sats! Oavsett om det är nu eller senare i din Bitcoin-resa, är du inbjuden att gå med i [vår Telegram-grupp för bidragsgivare](https://t.me/PlanBNetwork_ContentBuilder) i Plan ₿ Academy.
 
 
 ### Slutord

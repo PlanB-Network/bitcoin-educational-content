@@ -1007,7 +1007,7 @@ Ačkoli je tento přístup technicky náročnější, nabízí nejnáročnějš�
 #### Odolný způsob přeshraniční platby
 
 
-Díky své decentralizované povaze funguje Bitcoin nepřetržitě, bez ohledu na hranice nebo časová pásma. V regionech, kde chybí tradiční bankovní infrastruktura, se Bitcoin často používá jako rychlé a levné řešení pro zasílání nebo přijímání finančních prostředků bez závislosti na drahých zprostředkovatelích. Poplatky za transakce se sice mohou lišit v závislosti na přetížení sítě, ale obecně jsou mnohem nižší než poplatky účtované bankami za mezinárodní převody. Řešení Layer-2, jako je Lightning Network, navíc umožňují ještě rychlejší a levnější transakce Bitcoin.
+Díky své decentralizované povaze funguje Bitcoin nepřetržitě, bez ohledu na hranice nebo časová pásma. V regionech, kde chybí tradiční bankovní infrastruktura, se Bitcoin často používá jako rychlé a levné řešení pro zasílání nebo přijímání finančních prostředků bez závislosti na drahých zprostředkovatelích. Poplatky za transakce se sice mohou lišit v závislosti na přetížení sítě, ale obecně jsou mnohem nižší než poplatky účtované bankami za mezinárodní převody. Řešení Layer-2, jako je [Lightning Network](https://planb.academy/resources/glossary/lightning-network), navíc umožňují ještě rychlejší a levnější transakce Bitcoin.
 
 
 #### Úložiště hodnoty
@@ -1538,7 +1538,7 @@ Odvětví Bitcoin Wallet je rozděleno do několika kategorií, z nichž každá
 
 
 
-- **Hardware Wallet Výrobci**: Tyto společnosti vyvíjejí fyzická zařízení určená pro bezpečné ukládání klíčů. Některé jsou open-source, jiné nabízejí proprietární řešení s různými funkcemi a úrovní zabezpečení. Mezi nejvýznamnější jména patří Ledger, Trezor, Coinkite, Foundation a Shiftcrypto.
+- **[Hardware Wallet](https://planb.academy/resources/glossary/hardware-wallet) Výrobci**: Tyto společnosti vyvíjejí fyzická zařízení určená pro bezpečné ukládání klíčů. Některé jsou open-source, jiné nabízejí proprietární řešení s různými funkcemi a úrovní zabezpečení. Mezi nejvýznamnější jména patří Ledger, Trezor, Coinkite, Foundation a Shiftcrypto.
 - **Software Wallet Vývojáři**: Jedná se o různé společnosti i nezávislé vývojáře, kteří vytvářejí mobilní a desktopové aplikace. Jejich nabídky se liší v uživatelském prostředí, zabezpečení a funkcích. Mezi příklady patří Sparrow, Wizard Sardine, Galoy, Synonym a Blockstream.
 - Peněženky DIY (*Do It Yourself*): Tato řešení s otevřeným zdrojovým kódem jsou určena pro pokročilé uživatele, kteří chtějí mít plnou kontrolu a minimálně se spoléhat na třetí strany. Sestavení vlastní peněženky Wallet snižuje závislost na důvěře a může zvýšit vaši bezpečnost. Mezi významné možnosti DIY patří Seedsigner a Specter DIY.
 
@@ -1712,7 +1712,7 @@ Někde uprostřed mezi nimi najdete Swiss Bitcoin Pay, uživatelsky přívětiv�
 
 https://planb.academy/tutorials/business/point-of-sale/swiss-bitcoin-pay-2-a78b057e-ed11-47ac-860c-71019fcb451a
 
-Přijetí Bitcoin může podniku přinést několik praktických a finančních výhod. Stejně jako hotovost umožňuje Bitcoin přímé platby mezi zákazníkem a obchodníkem (není potřeba tradiční banka). Platby provedené prostřednictvím Lightning Network jsou okamžité a konečné, což snižuje riziko zpětných plateb. A pokud obchodníci drží vlastní Bitcoin (self-custody), získávají větší finanční autonomii.
+Přijetí Bitcoin může podniku přinést několik praktických a finančních výhod. Stejně jako hotovost umožňuje Bitcoin přímé platby mezi zákazníkem a obchodníkem (není potřeba tradiční banka). Platby provedené prostřednictvím Lightning Network jsou okamžité a konečné, což snižuje riziko zpětných plateb. A pokud obchodníci drží vlastní Bitcoin ([self-custody](https://planb.academy/resources/glossary/selfcustody)), získávají větší finanční autonomii.
 
 
 Může také pomoci snížit náklady, protože odpadají bankovní poplatky a potřeba tradičních platebních terminálů; často stačí chytrý telefon nebo notebook. I v případě zapojení zpracovatelů plateb jsou poplatky obvykle nižší než poplatky účtované bankami.
@@ -2682,7 +2682,7 @@ https://planb.academy/tutorials/wallet/hardware/portal-bd6e83f0-0100-4689-aeb3-5
 
 https://planb.academy/tutorials/wallet/hardware/satochip-e9bc81d9-d59b-420d-9672-3360212237ba
 
-https://planb.academy/tutorials/wallet/hardware/seed-signer-ee2c284a-0e23-49a4-b0ca-4a4702072973
+https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92d7-f6ec4d1fadfb
 
 https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4a-2f2be1e7d5d2
 

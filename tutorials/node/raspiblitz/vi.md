@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: Hướng dẫn thiết lập RaspiBlitz của bạn
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 RaspiBlitz là một dự án tự làm Node Lightning (LND và/hoặc Core Lightning) chạy cùng với một Bitcoin-Fullnode trên RaspberryPi (ổ cứng SSD 1TB) và một màn hình đẹp để thiết lập & giám sát dễ dàng.
 
@@ -12,7 +12,7 @@ RaspiBlitz chủ yếu nhắm đến việc học cách tự chạy node của r
 ![video](https://youtu.be/DTHlSPMz3ns)
 RASPIBLITZ - Cách Chạy Một Node Lightning và Bitcoin Full Node bởi BTC session
 
-# Hướng dẫn Thiết lập Raspiblitz của Parman
+## Hướng dẫn Thiết lập Raspiblitz của Parman
 
 Raspiblitz là một hệ thống tuyệt vời để chạy một Nút Bitcoin và các ứng dụng liên quan. Tôi khuyên dùng hệ thống này và nút MyNode cho hầu hết người dùng (lý tưởng là nên có hai nút để dự phòng). Một lợi thế lớn là nút Raspiblitz là “Free Open Source Software”, không giống như MyNode hay Umbrel. [Tại sao điều đó quan trọng? Vlad Costa giải thích.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Bạn cũng có thể chạy Raspiblitz bằng kết nối WiFi thay vì ethernet – đây là [hướng dẫn bổ sung](https://armantheparman.com/headless-wifi/) cho việc đó. (Tôi chưa tìm ra cách làm điều này với MyNode).
 
@@ -22,7 +22,7 @@ Bạn có thể mua một node đã được làm sẵn với một màn hình m
 
 Về cơ bản, quá trình này rất giống với việc thiết lập một [nút MyNode](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) với Raspberry Pi 4. Hướng dẫn của Raspiblitz gợi ý bạn mua một màn hình, nhưng thực sự bạn không cần một cái, và tôi cũng không khuyên dùng. Bạn thậm chí không cần bàn phím hoặc chuột bổ sung. Chỉ cần truy cập menu terminal của thiết bị thông qua một máy tính trong cùng mạng gia đình và sử dụng lệnh ssh trong terminal. Điều này có thể thực hiện được với Linux/Mac (dễ dàng) và khó hơn một chút với Windows.
 
-## Bước 1: Mua thiết bị.
+### Bước 1: Mua thiết bị.
 
 Bạn cần chính xác cùng một thiết bị mà bạn cần để chạy một node MyNode. Bạn có thể thử một trong hai, sự khác biệt duy nhất là dữ liệu trên thẻ micro SD.
 
@@ -48,7 +48,7 @@ Loại này nhanh hơn, nhưng không cần thiết và đắt:
 
 ![image](assets/3.webp)
 
-## Bước 2: Tải xuống Hình ảnh Raspiblitz
+### Bước 2: Tải xuống Hình ảnh Raspiblitz
 Đi tới [trang web GitHub của Raspiblitz](https://github.com/rootzoll/raspiblitz), và tìm liên kết “download image”:
 ![image](assets/4.webp)
 
@@ -56,7 +56,7 @@ Hash sha-256 của tệp đã tải xuống được cung cấp trên trang web.
 
 ![image](assets/5.webp)
 
-## Bước 3: Xác minh Hình Ảnh
+### Bước 3: Xác minh Hình Ảnh
 
 Trước khi tiếp tục, nếu bạn không biết cách sử dụng hệ thống tệp trên dòng lệnh, việc học cách sử dụng nó rất dễ dàng, và bạn nên làm.
 
@@ -87,7 +87,7 @@ trong đó xxxxxxxxxxxxxx là tên của tệp bạn vừa tải xuống. Nếu 
 
 Máy tính sẽ xử lý trong khoảng 20 giây hoặc hơn. Kiểm tra xem mã hashfile đầu ra có trùng khớp với mã được tải xuống từ trang web ở bước trước không. Nếu giống hệt, bạn có thể tiếp tục.
 
-## Bước 4: Ghi vào thẻ SD
+### Bước 4: Ghi vào thẻ SD
 
 Bạn có thể sử dụng Balena Etcher để làm điều này. [Tải xuống tại đây](https://www.balena.io/etcher/).
 
@@ -103,7 +103,7 @@ Etcher rất dễ sử dụng. Chèn thẻ micro SD của bạn và ghi phần m
 
 Khi hoàn tất, ổ đĩa sẽ không còn đọc được. Bạn có thể nhận được một thông báo lỗi từ hệ điều hành, và ổ đĩa sẽ biến mất khỏi màn hình desktop. Rút thẻ ra.
 
-## Bước 5: Thiết lập Pi và chèn thẻ SD
+### Bước 5: Thiết lập Pi và chèn thẻ SD
 
 Các bộ phận (vỏ không được hiển thị):
 
@@ -123,7 +123,7 @@ Cuối cùng, kết nối nguồn:
 
 ![image](assets/14.webp)
 
-## Bước 6: Tìm địa chỉ IP của Pi
+### Bước 6: Tìm địa chỉ IP của Pi
 
 Bạn không cần một màn hình với Raspiblitz. Tuy nhiên, bạn cần một máy tính khác trên mạng nhà. Nếu Pi của bạn không được kết nối qua ethernet, và bạn muốn dùng WiFi, việc tìm địa chỉ IP đòi hỏi một số kỹ năng máy tính. Xin lỗi, tôi không thể giúp bạn. Bạn cần một kết nối ethernet. (Vấn đề xuất phát từ việc cần truy cập vào màn hình và hệ điều hành để kết nối WiFi và nhập mật khẩu.)
 
@@ -133,7 +133,7 @@ Việc tìm kiếm địa chỉ IP là rất quan trọng.
 
 > CẬP NHẬT: bạn có thể sử dụng terminal trên máy Mac hoặc Linux để tìm địa chỉ IP của tất cả các thiết bị kết nối Ethernet trên mạng gia đình bằng lệnh “arp -a”. Kết quả không đẹp mắt như những gì router hiển thị, nhưng tất cả thông tin bạn cần đều ở đó. Nếu không rõ đâu là Pi, hãy thử và sai.
 
-## Bước 7: SSH vào Pi
+### Bước 7: SSH vào Pi
 
 Nhớ đặt thẻ SD vào Pi trước khi bật nó lên. Đợi vài phút, sau đó trên một máy Linux/Mac khác, mở terminal.
 

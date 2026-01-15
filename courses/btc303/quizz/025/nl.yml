@@ -6,3 +6,4 @@ wrong_answers:
   - Via berichten op sociale media en aankondigingen van openbare transacties
 explanation: |
   Volgens de inhoud van het hoofdstuk kunnen privégegevens op twee manieren uitlekken: on-chain en off-chain. On-chain lekken ontstaan door analyse van de publieke blockchain, waar transactiepatronen, hergebruik van adressen en clustering financiële informatie kunnen onthullen. Lekken buiten de keten gebeuren wanneer kwaadwillende actoren internetcommunicatie onderscheppen of via andere niet-blockchain middelen. Hoewel de foute antwoorden echte beveiligingsproblemen in het Bitcoin ecosysteem vermelden, vertegenwoordigen ze niet de fundamentele categorisatie van hoe privacylekken zich voordoen zoals beschreven in het materiaal.
+reviewed: false

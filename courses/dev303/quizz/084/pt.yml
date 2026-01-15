@@ -1,0 +1,8 @@
+question: Qual é o principal benefício arquitetónico da abordagem em camadas da UniFFI ao integrar bibliotecas Rust com linguagens de destino como Swift ou Kotlin?
+answer: A camada de ligação trata da tradução de tipos e da gestão da memória, apresentando uma interface completamente nativa para a linguagem de destino
+wrong_answers:
+  - O ficheiro UDL compila automaticamente o código Rust em bytecode que pode ser executado nativamente em plataformas móveis sem tradução
+  - O código da biblioteca Rust é automaticamente reescrito na sintaxe da linguagem de destino para eliminar quaisquer chamadas de interface de funções estrangeiras
+  - As aplicações da linguagem de destino acedem diretamente às estruturas de memória do Rust através de apontadores partilhados para evitar a sobrecarga de armazenamento de dados
+explanation: |
+  A arquitetura do UniFFI cria uma separação em que o código de ligação gerado actua como uma camada de tradução entre a linguagem de destino e o Rust. Esta camada lida com o complexo "marshaling/unmarshaling" de tipos de dados, gere a memória com segurança através das fronteiras da linguagem e fornece tratamento de erros seguindo as convenções da linguagem de destino. As outras opções estão incorrectas porque o UniFFI não compila para bytecode (gera ligações), não reescreve código Rust noutras linguagens (mantém a implementação original do Rust) e não utiliza o acesso à memória partilhada (gere com segurança os dados através das fronteiras).

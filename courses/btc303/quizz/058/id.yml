@@ -6,3 +6,4 @@ wrong_answers:
   - Kode yang dikaburkan harus tersedia melalui unduhan terpisah dengan biaya reproduksi
 explanation: |
   Definisi open source secara eksplisit menyatakan bahwa 'kode sumber yang disamarkan dengan sengaja tidak diperbolehkan' Ini adalah persyaratan mendasar karena pengaburan mencegah pemeriksaan, modifikasi, dan pemahaman yang berarti terhadap kode, yang mengalahkan tujuan utama perangkat lunak sumber terbuka. Kode sumber harus dalam 'bentuk yang disukai oleh pemrogram untuk memodifikasi program,' sehingga penyamaran tidak sesuai dengan prinsip-prinsip open source terlepas dari dokumentasi atau metode distribusi.
+reviewed: false

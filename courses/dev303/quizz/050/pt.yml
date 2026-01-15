@@ -1,0 +1,8 @@
+question: Qual é o risco mais significativo ao usar RC<RefCell<T>> para estado mutável compartilhado, e que mecanismo ajuda a evitá-lo?
+answer: Ciclos de referência que provocam fugas de memória, evitados através da utilização de referências fracas
+wrong_answers:
+  - Corridas de dados entre threads, evitadas com a utilização de Mutex em vez de RefCell
+  - O tempo de execução entra em pânico devido a violações de empréstimos, evitadas pela verificação em tempo de compilação
+  - Estouro de pilha devido a recursão profunda, evitado pela limitação da profundidade de referência
+explanation: |
+  Ao utilizar RC<RefCell<T>>, o principal perigo é criar ciclos de referência em que as estruturas de dados se referenciam diretamente ou através de cadeias. Estes ciclos impedem que a contagem de referências chegue a zero, causando fugas de memória, uma vez que os dados parecem ter sempre referências activas. As referências fracas resolvem este problema ao não contribuírem para a contagem de referências utilizada para a gestão da memória, quebrando os ciclos e preservando as ligações. As outras opções estão incorrectas: O RC<RefCell<T>> não é thread-safe, portanto as corridas de dados não são a principal preocupação, o RefCell move especificamente as verificações para o tempo de execução em vez de evitá-las no tempo de compilação, e o estouro de pilha não está relacionado ao mecanismo de contagem de referências.

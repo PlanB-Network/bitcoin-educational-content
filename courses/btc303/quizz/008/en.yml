@@ -6,3 +6,4 @@ wrong_answers:
   - Transaction fees are automatically adjusted to prevent economic attacks from centralized authorities
 explanation: |
   Bitcoin achieves censorship resistance through miner decentralization, where transaction ordering is carried out collectively by all miners who choose to participate. This creates a dynamic system where anyone can join or leave the mining process freely, eliminating any single point of control that could be pressured to censor transactions. The wrong answers describe technical features, trusted parties, or economic mechanisms that don't address the core issue of decentralized control over transaction processing.
+reviewed: false

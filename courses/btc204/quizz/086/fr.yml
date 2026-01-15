@@ -10,4 +10,4 @@ wrong_answers:
 explanation: |
   Chainalysis n'est absolument pas une implémentation de coinjoin, puisque c'est une société d'analyse de chaîne.
 
-reviewed: false
+reviewed: true 

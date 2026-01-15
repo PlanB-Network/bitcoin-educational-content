@@ -1,5 +1,5 @@
 ---
-name: Umugenzuzi w'umugezi
+name: Blockstream Explorer
 description: Gutohoza igice nyamukuru ca Bitcoin na Liquid Network.
 ---
 
@@ -225,4 +225,4 @@ Ubu rero witeguye gukoresha ubushobozi bwose bwa Blockstream Explorer bwo kubaza
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

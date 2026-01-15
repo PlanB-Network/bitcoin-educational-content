@@ -1,4 +1,4 @@
-question: /8
+question: Koji je uobičajeni CIDR opseg IPv4 bloka koji IANA dodeljuje regionalnom internet registru (RIR)?
 answer: /8
 wrong_answers:
   - /12
@@ -6,4 +6,4 @@ wrong_answers:
   - /24
 explanation: |
   IANA deli IPv4 prostor na blokove veličine /8, od kojih svaki sadrži 2^24 adresa.
-reviewed: false
+reviewed: true

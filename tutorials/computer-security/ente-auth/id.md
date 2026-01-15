@@ -50,7 +50,7 @@ Ente Auth dikembangkan oleh tim di balik Ente Photos, sebuah layanan penyimpanan
 
 
 
-**Sumber terbuka dan telah diaudit**: Kode sumber Ente Auth adalah [publik di GitHub] (https://github.com/ente-io/auth) di bawah lisensi AGPL v3.0. Setiap pengembang dapat mengauditnya untuk memeriksa kekurangan atau perilaku yang tidak diinginkan. Kriptografi yang diimplementasikan telah menjadi subjek dari [audit eksternal independen] (https://ente.io/blog/cryptography-audit/), sebuah jaminan keseriusan keamanan aplikasi.
+**Sumber terbuka dan telah diaudit**: Kode sumber Ente Auth adalah [publik di GitHub](https://github.com/ente-io/auth) di bawah lisensi AGPL v3.0. Setiap pengembang dapat mengauditnya untuk memeriksa kekurangan atau perilaku yang tidak diinginkan. Kriptografi yang diimplementasikan telah menjadi subjek dari [audit eksternal independen](https://ente.io/blog/cryptography-audit/), sebuah jaminan keseriusan keamanan aplikasi.
 
 
 
@@ -87,7 +87,7 @@ Ente Auth dikembangkan oleh tim di balik Ente Photos, sebuah layanan penyimpanan
 
 
 
-Ente Auth tersedia di sebagian besar platform populer. Anda dapat mengunduh aplikasi ini dari [situs web resmi] (https://ente.io/auth) atau dari toko-toko resmi.
+Ente Auth tersedia di sebagian besar platform populer. Anda dapat mengunduh aplikasi ini dari [situs web resmi](https://ente.io/auth) atau dari toko-toko resmi.
 
 
 
@@ -123,7 +123,7 @@ Instal Ente Auth langsung dari Apple App Store dengan mencari nama aplikasinya. 
 ### Komputer (Windows, macOS, Linux)
 
 
-Ente Auth menawarkan aplikasi desktop asli. Kunjungi [ente.io/download] (https://ente.io/download) atau [bagian Rilis GitHub] (https://github.com/ente-io/auth/releases):
+Ente Auth menawarkan aplikasi desktop asli. Kunjungi [ente.io/download](https://ente.io/download) atau [bagian Rilis GitHub](https://github.com/ente-io/auth/releases):
 
 
 
@@ -350,7 +350,7 @@ Ente Auth menawarkan beberapa fitur praktis:
 
 
 
-**Ikon otomatis**: Setiap entri dapat diilustrasikan dengan logo layanan, berkat integrasi paket ikon [Ikon Sederhana] (https://simpleicons.org/).
+**Ikon otomatis**: Setiap entri dapat diilustrasikan dengan logo layanan, berkat integrasi paket ikon [Ikon Sederhana](https://simpleicons.org/).
 
 
 

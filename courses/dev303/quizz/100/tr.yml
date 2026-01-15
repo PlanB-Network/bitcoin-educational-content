@@ -1,0 +1,8 @@
+question: LDK'nın geleneksel Lightning düğümlerinin çalışamadığı WebAssembly tarayıcı ortamlarında çalışmasını sağlayan birincil mimari avantaj nedir?
+answer: LDK'nın sistem çağrısı içermeyen tasarım felsefesi, dosya sistemlerine, ağ soketlerine veya entropi kaynaklarına doğrudan erişim olmadan çalışmasına olanak tanır
+wrong_answers:
+  - "LDK'nın modüler Rust kütüphane yapısı, yerel Rust-to-WASM derleme özellikleri aracılığıyla otomatik olarak WebAssembly uyumluluğu sağlar"
+  - "LDK'nın olay odaklı mimarisi kalıcı bağlantılara olan ihtiyacı ortadan kaldırır ve tamamen HTTP istek-yanıt döngüleri üzerinden çalışabilir"
+  - "LDK'nın hafif blok zinciri entegrasyonu, WebAssembly'nin katı kaynak kısıtlamalarını ve sınırlamalarını karşılamak için bellek kullanımını yeterince azaltıyor"
+explanation: |
+  LDK'nın sistem çağrısı içermeyen tasarımı, özellikle tarayıcı uyumluluğunu sağlayan şeydir. Geleneksel Lightning düğümleri, WebAssembly ortamlarının güvenlik nedenleriyle yasakladığı ağ, dosya I/O ve rastgelelik için doğrudan sistem çağrılarına dayanır. LDK bu bağımlılıkları soyutlayarak geliştiricilerin ağ için WebSockets, kalıcılık ve rastgelelik için tarayıcı API'lerini kullanarak tarayıcı uyumlu uygulamalar sağlamasına olanak tanırken Lightning protokolü ile tam uyumluluğu da korur.

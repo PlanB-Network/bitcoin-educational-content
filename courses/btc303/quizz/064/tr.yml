@@ -6,3 +6,4 @@ wrong_answers:
   - Bitcoin, tüm kullanıcılar için aynı güvenlik garantilerini korurken hesaplama yükünü dağıtmak için birden fazla paralel zincire ayrılır
 explanation: |
   Maxwell, aşırı kaynak gereksinimlerinin kullanıcıları bağımsız doğrulama yerine güvenilir üçüncü taraflara ittiği temel bir değiş tokuş tespit etmiştir. Doğrulama maliyetleri engelleyici hale geldiğinde, kullanıcılar tam düğümleri çalıştırmayı göze alamaz ve başkalarına güvenmek zorunda kalır, bu da Bitcoin'in güvenilmez doğasını zayıflatır. Yanlış cevaplar, yüksek kaynak kullanımı aslında merkezileşmeyi ve güven bağımlılıklarını zorladığında faydalı sonuçları (artan güvenlik, otomatik ayarlamalar veya sürdürülen garantiler) yanlış bir şekilde önermektedir.
+reviewed: false

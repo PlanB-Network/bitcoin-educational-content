@@ -1,11 +1,10 @@
 ---
-name: NOSTR
-
+name: Nostr
 description: NOSTR 알아보기 및 사용 시작하기
 ---
 
 
-![A new challenger has arrived](assets/1.webp)
+![A new challenger has arrived](assets/cover.webp)
 
 
 

@@ -1,0 +1,8 @@
+question: Vapaiden markkinoiden talousteorian mukaan mitä tapahtuu, kun yrittäjät ennakoivat ennenaikaisesti kuluttajakysyntää innovaatiolle, jota ei vielä ole olemassa?
+answer: Voittojen puuttuminen luonnollisesti estää heitä jatkamasta ja estää muita seuraamasta heidän esimerkkiään
+wrong_answers:
+  - Valtion väliintulo ohjaa niiden ponnistelut tukien avulla yhteiskunnallisesti hyödyllisempiin hankkeisiin
+  - Ne jatkavat investointeja, kunnes kuluttajien mieltymykset lopulta vastaavat niiden alkuperäisiä ennusteita
+  - Markkinasäännökset pakottavat ne luopumaan hankkeistaan taloudellisen tuhlauksen estämiseksi
+explanation: |
+  Vapaassa markkinajärjestelmässä voitot ovat ratkaisevia signaaleja, jotka osoittavat todellista kuluttajakysyntää. Kun yrittäjät arvioivat markkinoiden ajoituksen väärin ja ennakoivat kysyntää, jota ei ole olemassa, he eivät saa generate-voittoja, mikä luonnollisesti vähentää investointeja kyseiseen suuntaan. Tämä itsekorjautuva mekanismi estää resurssien tuhlaamisen ennenaikaisiin innovaatioihin. Muut vaihtoehdot viittaavat virheellisesti ulkoiseen interventioon tai jatkuviin investointeihin markkinasignaaleista huolimatta, mikä on ristiriidassa sen kanssa, että luvussa korostetaan sitä, miten voittosignaalit ohjaavat rationaalista taloudellista päätöksentekoa.

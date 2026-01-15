@@ -1,0 +1,9 @@
+question: Quelle fermeture de canal est à privilégier sur Lightning ?
+answer: Fermeture coopérative
+wrong_answers:
+  - Fermeture forcée
+  - Fermeture avec triche
+  - Fermeture par watchtower
+explanation: |
+  La fermeture coopérative est plus rapide et permet de choisir les frais onchain.
+reviewed: false

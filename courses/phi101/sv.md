@@ -215,9 +215,9 @@ Olaglig plundring är stöld eller brott som begås av en medborgare mot en anna
 Bastiat säger att det fortfarande finns två former av laglig plundring:
 
 
-> Extern plundring kallas krig, erövringar och kolonier. Intern plundring benämns ofta skatter, positioner och monopol. ([_Cobden and the League_] (http://bastiat.org/fr/introduction_cobden_ligue.html), Inledning).
+> Extern plundring kallas krig, erövringar och kolonier. Intern plundring benämns ofta skatter, positioner och monopol. ([_Cobden and the League_](http://bastiat.org/fr/introduction_cobden_ligue.html), Inledning).
 
-I [_The Physiology of Plunder_] (http://bastiat.org/fr/physiologie_de_la_spoliation.html) utvecklar han detta:
+I [_The Physiology of Plunder_](http://bastiat.org/fr/physiologie_de_la_spoliation.html) utvecklar han detta:
 
 
 > Den sanna och rättvisa lagen för män är: Fritt debatterad Exchange av tjänst för tjänst. Plundring består i att med våld eller bedrägeri förbjuda friheten att debattera för att få en tjänst utan att ge en i gengäld. Plundring med våld utövas på följande sätt: Man väntar på att en man ska producera något och rycker det sedan från honom med vapen i hand. Dekalogen fördömer formellt detta: Du skall icke stjäla. När det sker från individ till individ kallas det stöld och leder till fängelse; när det sker från nation till nation kallas det erövring och leder till ära.
@@ -234,7 +234,7 @@ Historiskt sett har den styrande eliten alltid levt på plundring. Bastiat konst
 > Våld som används för plundring är grunden för människans historia. Att spåra dess historia skulle vara att nästan helt och hållet återge alla folks historia: Assyrierna, babylonierna, mederna, perserna, egyptierna, grekerna, romarna, goterna, frankerna, hunnerna, turkarna, araberna, mongolerna, tartarerna, för att inte tala om spanjorerna i Amerika, engelsmännen i Indien, fransmännen i Afrika, ryssarna i Asien osv.
 >
 
-> ([_Economic Sophisms_] (http://bastiat.org/fr/conclusion_sophismes.html), avslutning av första bandet).
+> ([_Economic Sophisms_](http://bastiat.org/fr/conclusion_sophismes.html), avslutning av första bandet).
 > Plundring, i sin mest brutala form, beväpnad med fackla och svärd, fyller annalerna i mänsklighetens historia. Vilka är de namn som sammanfattar historien? Cyrus, Sesostris, Alexander, Scipio, Caesar, Attila, Tamerlan, Muhammed, Pizarro, Vilhelm Erövraren; detta är naiv plundring genom erövringar. Till det hör lagerkransarna, monumenten, statyerna och triumfbågarna. ([_Economic Harmonies_](http://bastiat.org/fr/conclusion_eo_harmonies.html), avslutning av originalutgåvan).
 > Världens historia är historien om hur en grupp människor plundrade andra, ofta systematiskt, genom krig, slaveri och teokrati. Numera är det monopolet, det vill säga de ekonomiska privilegier som staten delar ut till sina kunder.
 
@@ -262,10 +262,10 @@ Det är känt att segrarna skriver historien. Uppmärksamheten riktas ofta mot e
 
 Detta gäller särskilt läroböcker som är avsedda för offentliga skolor och skrivna av professorer som är anställda av staten.
 
-Så är inte fallet med ett verk i två volymer skrivet av en historiker från Cambridge på 1800-talet, [Lord Acton] (https://www.lesbelleslettres.com/livre/9782251447858/le-pouvoir-corrompt). Hans fullständiga namn är John Emerich Edward Dalberg, Baron of Acton (1834-1902). Han är författare till _History of Liberty in Antiquity and Christianity_. Hans verk anses vara ett av de viktigaste i ämnet och han ägnade en stor del av sin karriär åt det. Även om hans verk är ofullbordat är det en kraftfull varning för farorna med maktmissbruk, och hans förespråkande av frihet och individuellt ansvar är fortfarande relevant idag.
+Så är inte fallet med ett verk i två volymer skrivet av en historiker från Cambridge på 1800-talet, [Lord Acton](https://www.lesbelleslettres.com/livre/9782251447858/le-pouvoir-corrompt). Hans fullständiga namn är John Emerich Edward Dalberg, Baron of Acton (1834-1902). Han är författare till _History of Liberty in Antiquity and Christianity_. Hans verk anses vara ett av de viktigaste i ämnet och han ägnade en stor del av sin karriär åt det. Även om hans verk är ofullbordat är det en kraftfull varning för farorna med maktmissbruk, och hans förespråkande av frihet och individuellt ansvar är fortfarande relevant idag.
 
 
-Denna författare är mest känd för sin maxim: "Makt tenderar att korrumpera, och absolut makt korrumperar absolut." En formel som är ett eko av Montesquieus i [_Lagarnas anda_] (https://fr.wikisource.org/wiki/Page:Montesquieu_-_Esprit_des_Lois_-_Tome_1.djvu/316):
+Denna författare är mest känd för sin maxim: "Makt tenderar att korrumpera, och absolut makt korrumperar absolut." En formel som är ett eko av Montesquieus i [_Lagarnas anda_](https://fr.wikisource.org/wiki/Page:Montesquieu_-_Esprit_des_Lois_-_Tome_1.djvu/316):
 
 
 > Det är en evig erfarenhet att varje människa som har makt är frestad att missbruka den.
@@ -295,7 +295,7 @@ Hans centrala tes är att "frihet skapas genom en konflikt mellan olika makter" 
 Men tanken att friheten i Europa föddes ur interna strider mellan olika makthavare, som förhindrade att absolut dominans etablerades, är inte unik för Acton. Den finns redan hos tänkare som Voltaire och Condorcet.
 
 
-Voltaire tillskriver således i sina [_Philosophical Letters_] (https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6) den engelska friheten konflikter mellan kungar och adelsmän, vilka förhindrade en alltför stor maktkoncentration. Och han noterar:
+Voltaire tillskriver således i sina [_Philosophical Letters_](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6) den engelska friheten konflikter mellan kungar och adelsmän, vilka förhindrade en alltför stor maktkoncentration. Och han noterar:
 
 
 > Om det bara fanns en religion i England skulle dess despotism vara att frukta; om det bara fanns två skulle de skära halsen av varandra; men det finns trettio, och de lever i fred och lycka. ([Om presbyterianerna](https://fr.wikisource.org/wiki/Lettres_philosophiques/Lettre_6))
@@ -303,7 +303,7 @@ Voltaire tillskriver således i sina [_Philosophical Letters_] (https://fr.wikis
 ![image](assets/sv/012.webp)
 
 
-Condorcet tillskriver i sin [_Sketch for a Historical Picture of the Progress of the Human Mind_] (https://fr.wikisource.org/wiki/Esquisse_d%E2%80%99un_tableau_historique_des_progr%C3%A8s_de_l%E2%80%99esprit_humain) den decentraliserade maktstrukturen i Italien rivaliteten mellan påven och kejsaren, som gjorde det möjligt för många oberoende stadsstater att blomstra.
+Condorcet tillskriver i sin [_Sketch for a Historical Picture of the Progress of the Human Mind_](https://fr.wikisource.org/wiki/Esquisse_d%E2%80%99un_tableau_historique_des_progr%C3%A8s_de_l%E2%80%99esprit_humain) den decentraliserade maktstrukturen i Italien rivaliteten mellan påven och kejsaren, som gjorde det möjligt för många oberoende stadsstater att blomstra.
 
 
 Denna tes återfinns också i ett monumentalt verk från 1983: _Law and Revolution: The Formation of the Western Legal Tradition_, av Harold J. Berman ([fransk översättning av Raoul Audouin](https://www.eyrolles.com/Entreprise/Livre/droit-et-revolution-9782903449667/), utgiven av University of Aix en Provence Bookstore 2002). Bermans analys belyser den juridiska pluralismens avgörande roll i västerlandets historia. Detta system, som långt ifrån bara var en källa till komplexitet, var en drivkraft för utveckling, frihet och innovation och formade de västerländska rättstraditionerna på ett bestående sätt.
@@ -324,7 +324,7 @@ Men det finns ett annat perspektiv på historien. Det har varit ganska framgång
 Europas extraordinära tillväxt förklaras främst av teknikens framsteg i kombination med en "primitiv ackumulation" av kapital, som härrör från imperialism, slaveri, triangelhandel, expropriering av småbönder och exploatering av arbetarklassen. Slutsatsen är tydlig. Denna exceptionella europeiska tillväxt uppnåddes på bekostnad av miljoner och åter miljoner slavar och förtryckta individer.
 
 
-Till att börja med har Marx rätt i en sak: historien är klasskampens och exploateringens historia. Citatet är välkänt, eftersom det är den första meningen i det första kapitlet i [_Communistiska manifestet_] (https://fr.wikisource.org/wiki/Manifeste_du_parti_communiste/Andler): "Alla hittills existerande samhällens historia är klasskampens historia." Marx erkände själv att han hade lånat sin teori om klasskampen från tidigare författare:
+Till att börja med har Marx rätt i en sak: historien är klasskampens och exploateringens historia. Citatet är välkänt, eftersom det är den första meningen i det första kapitlet i [_Communistiska manifestet_](https://fr.wikisource.org/wiki/Manifeste_du_parti_communiste/Andler): "Alla hittills existerande samhällens historia är klasskampens historia." Marx erkände själv att han hade lånat sin teori om klasskampen från tidigare författare:
 
 
 > Det är inte min förtjänst att ha upptäckt klasser och klasskamp i det moderna samhället. Långt före mig hade borgerliga historiker beskrivit den historiska utvecklingen av denna klasskamp, och borgerliga ekonomer klassernas ekonomiska anatomi.
@@ -1881,7 +1881,7 @@ Staten blir då, enligt Bastiats ord,
 
 
 > den stora fiktionen genom vilken alla försöker leva på bekostnad av alla andra. ([_The State_](http://bastiat.org/fr/l_etat.html))
-> Bastiat utvecklar också idén om att konflikter uppstår när lagen avviker från sin rättmätiga roll. I sin berömda pamflett [_The Law_] (http://bastiat.org/fr/la_loi.html) visar han varför och hur lagen har blivit "alla girigheters slagfält", det vill säga en källa till privilegier, situationsanpassade hyror och godtycklig beskattning. Så snart det i princip erkänns att lagen kan avledas från sitt verkliga uppdrag, att den kan kränka egendomar i stället för att garantera dem, följer med nödvändighet en klasskamp, antingen för att försvara sig mot plundring eller för att organisera den till sin egen fördel.
+> Bastiat utvecklar också idén om att konflikter uppstår när lagen avviker från sin rättmätiga roll. I sin berömda pamflett [_The Law_](http://bastiat.org/fr/la_loi.html) visar han varför och hur lagen har blivit "alla girigheters slagfält", det vill säga en källa till privilegier, situationsanpassade hyror och godtycklig beskattning. Så snart det i princip erkänns att lagen kan avledas från sitt verkliga uppdrag, att den kan kränka egendomar i stället för att garantera dem, följer med nödvändighet en klasskamp, antingen för att försvara sig mot plundring eller för att organisera den till sin egen fördel.
 
 ![image](assets/sv/077.webp)
 
@@ -1984,7 +1984,7 @@ Ludwig von Mises framhåller att Marx inte lyckades skilja mellan vad som är bo
 I _The Ethics of Liberty_ och _Anatomy of the State_ förklarade Murray Rothbard att exploatering endast är meningsfull som en aggression mot privat egendom och att endast staten får sina intäkter genom aggression, det vill säga genom beskattning, skuldsättning, tryckning av pengar och därmed genom inflation. I själva verket är det statliga ingripanden, och inte klasskampen, som är källan till våld och konflikter i samhället. Genom att staten tillägnar sig resurser och reglerar ekonomin skapar den snedvridningar och orättvisor som leder till konflikter och förtryck. För att få slut på exploateringen krävs därför att man minskar makten hos den rovgiriga kasten: staten.
 
 
-På denna punkt, se även: _Marxist and Austrian Class Analysis_, Hans Hermann Hoppe, Journal of Libertarian Studies, Vol IX No. 2, Fall 1990. [Översättning av François Guillaumat] (https://fr.liberpedia.org/L%E2%80%99analyse_de_classe_marxiste_et_celle_des_Autrichiens). Ingår som kapitel 4 i _The Economics and Ethics of Private Property_ (Boston: Kluwer Academic Publishers, 1993).
+På denna punkt, se även: _Marxist and Austrian Class Analysis_, Hans Hermann Hoppe, Journal of Libertarian Studies, Vol IX No. 2, Fall 1990. [Översättning av François Guillaumat](https://fr.liberpedia.org/L%E2%80%99analyse_de_classe_marxiste_et_celle_des_Autrichiens). Ingår som kapitel 4 i _The Economics and Ethics of Private Property_ (Boston: Kluwer Academic Publishers, 1993).
 
 
 ### Polylogism

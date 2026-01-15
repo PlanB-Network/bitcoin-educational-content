@@ -1,5 +1,5 @@
 ---
-name: Ububiko bw'amahera
+name: StashPay
 description: Igikoresho gitoyi Bitcoin Wallet ku muntu wese
 ---
 

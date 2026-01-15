@@ -1,0 +1,8 @@
+question: What is the relationship between Elements and the Liquid Network?
+answer: Liquid is a specific instance of an Elements sidechain configured for production use
+wrong_answers:
+  - Elements is a specific instance of the Liquid Network configured for testing purposes
+  - Liquid and Elements are two competing blockchain platforms with different codebases
+  - "Elements is the consensus mechanism that powers the Liquid Network's block validation"
+explanation: |
+  Elements is the open-source blockchain platform software, while Liquid is a specific implementation or 'instance' of an Elements sidechain that has been configured for production use with a federated consensus model. Think of Elements as the underlying technology framework, and Liquid as one particular network built using that framework. This is similar to how Bitcoin Core is the software that powers the Bitcoin network - Elements is the software engine that powers Liquid and other custom sidechains.

@@ -6,3 +6,4 @@ wrong_answers:
   - "Útok sociálního inženýrství; je neúčinný, protože vývojáři Bitcoin používají formální metody ověřování, aby zabránili manipulaci."
 explanation: |
   K útoku Sybil dochází, když jedna entita ovládá více uzlů a vydává se za mnoho samostatných entit. Tento útok je však proti Bitcoin neúčinný, protože síť nespoléhá na počítání uzlů nebo demokratické hlasování mezi účastníky sítě. Místo toho Bitcoin využívá konsenzus proof-of-work, kde o rozhodnutích sítě rozhoduje výpočetní výkon (hashpower), nikoli počet uzlů. To znemožňuje útočníkovi získat vliv pouhým spuštěním mnoha uzlů bez odpovídajících výpočetních zdrojů.
+reviewed: false

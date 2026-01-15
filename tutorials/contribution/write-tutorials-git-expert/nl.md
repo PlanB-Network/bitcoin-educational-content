@@ -80,7 +80,7 @@ Diagrammen en visuals maken:
 
 
 
-- Je moet je eigen fork van de [Plan ₿ Academy repository op GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content) hebben.
+- Je moet je eigen fork van de [Plan ₿ Academy repository op GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content) hebben.
 - Synchroniseer de hoofdbranch (`dev`) van je fork met het bronrepository.
 - Werk je lokale kloon bij.
 
@@ -131,7 +131,7 @@ git push -u origin tuto-green-wallet-loic
 ### 3 - De tutorialdocumenten toevoegen
 
 
-***Noot:*** Je kunt stappen 3 en 4 automatiseren met [mijn Python GUI-script] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Start het direct vanuit de map in je lokale kloon en vul dan de vereiste velden in op de GUI. Zie de [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md) voor meer informatie over de installatie en het gebruik ervan.
+***Noot:*** Je kunt stappen 3 en 4 automatiseren met [mijn Python GUI-script](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Start het direct vanuit de map in je lokale kloon en vul dan de vereiste velden in op de GUI. Zie de [README](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md) voor meer informatie over de installatie en het gebruik ervan.
 
 
 Als je het liever handmatig doet, volg dan deze stappen:
@@ -213,7 +213,7 @@ Dit zijn de verplichte velden:
 
 
 
-- **project_id**: De UUID van het bedrijf of de organisatie achter de tool dat in de tutorial wordt gepresenteerd [uit de projectlijst] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Als je bijvoorbeeld een tutorial maakt over de Green Wallet software, kun je deze `project_id` vinden in het volgende bestand: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Deze informatie wordt toegevoegd aan het YAML-bestand van je tutorial, omdat Plan ₿ Academy een database bijhoudt van alle bedrijven en organisaties die aan Bitcoin of gerelateerde projecten werken. Door de `project_id` toe te voegen van de entiteit die gelinkt is aan je tutorial, creëer je een link tussen de twee elementen;
+- **project_id**: De UUID van het bedrijf of de organisatie achter de tool dat in de tutorial wordt gepresenteerd [uit de projectlijst](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/resources/projects). Als je bijvoorbeeld een tutorial maakt over de Green Wallet software, kun je deze `project_id` vinden in het volgende bestand: `Bitcoin-educational-content/resources/projects/blockstream/project.yml`. Deze informatie wordt toegevoegd aan het YAML-bestand van je tutorial, omdat Plan ₿ Academy een database bijhoudt van alle bedrijven en organisaties die aan Bitcoin of gerelateerde projecten werken. Door de `project_id` toe te voegen van de entiteit die gelinkt is aan je tutorial, creëer je een link tussen de twee elementen;
 
 
 
@@ -233,7 +233,7 @@ Dit zijn de verplichte velden:
 
 
 
-- **professor_id**: Je `professor_id` (UUID) zoals weergegeven op [uw professorprofiel] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: Je `professor_id` (UUID) zoals weergegeven op [uw professorprofiel](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors);
 
 
 

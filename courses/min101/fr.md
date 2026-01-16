@@ -800,6 +800,8 @@ Les participants à une pool de minage sont alors souvent désignés comme des "
 
 Attention de ne pas confondre la pool de minage avec la ferme de minage. Ce sont deux concepts différents. Comme nous l'avons vu dans le chapitre précédent, une ferme est un site physique où une même entité opère de nombreuses machines de minage. Une pool, elle, est avant tout un regroupement virtuel : des milliers de machines, souvent dispersées géographiquement, travaillent sous une coordination commune. Une ferme peut toutefois participer à une pool, et c’est même souvent le cas.
 
+048
+
 ### Réduire la variance des revenus
 
 Mais alors pourquoi se regrouper en pool ? Tout simplement car le résultat de l'activité de minage est probabiliste : à chaque tentative de hachage, vous avez une chance infime de tomber sous la cible de difficulté et donc de produire un bloc valide. Sur le très long terme, vos gains moyens devraient être proportionnels à votre part du hashrate global. Ce principe découle directement des lois de la probabilité : chaque calcul de hachage constitue un tirage aléatoire indépendant, et, par la loi des grands nombres, la fréquence à laquelle vous découvrez des blocs converge mathématiquement vers votre fraction du hashrate total du réseau. En revanche, à court et moyen terme, vos gains réels peuvent être extrêmement irréguliers. C’est ce décalage entre moyenne théorique et réalité aléatoire que l’on appelle **la variance** en mathématiques.
@@ -819,13 +821,15 @@ La pool de minage change la nature de ce problème : en mutualisant les hashrate
 
 Plus votre puissance de calcul est élevée, plus votre fréquence attendue de blocs trouvés est élevée. Mais surtout, plus les événements deviennent fréquents, plus les résultats observés se rapprochent de la moyenne statistique sur une période donnée.
 
-En solo, un petit mineur peut passer des années sans aucun bloc, puis toucher un gros gain un jour, puis plus rien. Dans une pool, la même réalité probabiliste existe, mais elle est lissée à l’échelle du collectif : la pool trouve des blocs plus souvent, et la redistribution transforme ces événements en paiements plus réguliers pour chaque participant. **La pool de minage vend de la prévisibilité sur l'activité de minage.**
+En solo, un petit mineur peut passer des années sans aucun bloc, puis toucher un gros gain un jour, puis plus rien. Dans une pool, la même réalité probabiliste existe, mais elle est lissée à l’échelle du collectif : la pool trouve des blocs plus souvent, et la redistribution transforme ces événements en paiements plus réguliers pour chaque participant. **La pool de minage vend de la prévisibilité sur l'activité de minage**.
 
 ### Repères historiques
 
 Nous l'avons vu dans le chapitre précédent, au tout début, le minage pouvait se faire en solo avec un ordinateur classique, car la difficulté était très faible. Mais à mesure que le hashrate global a explosé (GPU, puis ASIC), le minage solo est devenu un pari très long pour la majorité des participants.
 
 Les premières pools apparaissent précisément pour répondre à cette nouvelle réalité. Braiins Pool (anciennement Slush Pool / Bitcoin.cz) est la première pool de minage de Bitcoin : elle a été lancée en décembre 2010 et a miné son premier bloc le 16 décembre. Le succès de cette première pool de minage est rapide, puisqu'en quelques jours seulement, elle obtient près de 3,5% du hashrate global.
+
+047
 
 Côté technique, les pools se sont ensuite structurées autour de protocoles de communication spécialisés entre la pool et les mineurs (par exemple Stratum, puis Stratum V2), afin d’orchestrer efficacement le travail distribué. L’enjeu n’est pas seulement la performance : c’est aussi la standardisation des échanges, la fiabilité, et, de plus en plus, la question de l’autonomie des mineurs (notamment sur la construction des blocs).
 
@@ -863,28 +867,11 @@ Voici un classement, à date, des principales pools de minage et de leur part re
 |   22 | Unknown        |            2 |          0.05% |
 |   23 | Public Pool    |            1 |          0.02% |
 
+046
+
 *Source [mempool.space](https://mempool.space/graphs/mining/pools), données sur un mois, du 16 décembre 2025 au 16 janvier 2025.*
 
 Dans un cours plus avancé, on ira plus loin sur le fonctionnement interne des pools (shares, protocoles réseaux, méthodes de paiement...), car c’est là que se jouent les détails qui déterminent à la fois la rentabilité pour le mineur, et les implications possibles sur Bitcoin.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 # Partie finale

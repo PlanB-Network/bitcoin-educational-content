@@ -279,12 +279,53 @@ class SchemaValidator:
             return [self._convert_dates_to_strings(item) for item in obj]
         return obj
 
+    def _find_and_remove_null_values(self, obj: Any, path: str = "") -> tuple[Any, list[str]]:
+        """
+        Recursively find null values and remove them from the data structure.
+        Returns the cleaned object and a list of paths where null values were found.
+        """
+        null_paths = []
+
+        if obj is None:
+            return None, [path] if path else []
+        elif isinstance(obj, dict):
+            cleaned = {}
+            for k, v in obj.items():
+                current_path = f"{path} -> {k}" if path else k
+                if v is None:
+                    null_paths.append(current_path)
+                    # Don't include null values in cleaned dict
+                else:
+                    cleaned_v, sub_nulls = self._find_and_remove_null_values(v, current_path)
+                    null_paths.extend(sub_nulls)
+                    if cleaned_v is not None:
+                        cleaned[k] = cleaned_v
+            return cleaned, null_paths
+        elif isinstance(obj, list):
+            cleaned = []
+            for i, item in enumerate(obj):
+                current_path = f"{path}[{i}]"
+                if item is None:
+                    null_paths.append(current_path)
+                else:
+                    cleaned_item, sub_nulls = self._find_and_remove_null_values(item, current_path)
+                    null_paths.extend(sub_nulls)
+                    if cleaned_item is not None:
+                        cleaned.append(cleaned_item)
+            return cleaned, null_paths
+        return obj, null_paths
+
     def validate_yaml_against_schema(self, yaml_data: dict, schema: dict, file_path: str) -> ValidationResult:
         """Validate YAML data against a JSON schema."""
         result = ValidationResult(file_path=file_path)
 
+        # Find and remove null values, reporting them as warnings
+        cleaned_data, null_paths = self._find_and_remove_null_values(yaml_data)
+        for null_path in null_paths:
+            result.add_warning(f"[{null_path}] Empty/null value")
+
         validator = Draft7Validator(schema)
-        errors = list(validator.iter_errors(yaml_data))
+        errors = list(validator.iter_errors(cleaned_data))
 
         for error in errors:
             path = " -> ".join(str(p) for p in error.absolute_path) if error.absolute_path else "root"

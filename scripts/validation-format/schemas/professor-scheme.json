@@ -7,9 +7,10 @@
       "type": "string",
       "description": "Full name of the professor"
     },
-    "contributor_id": {
+    "id": {
       "type": "string",
-      "description": "Unique identifier using two words from the BIP39 dictionary"
+      "format": "uuid",
+      "description": "Unique identifier (UUID) for the professor"
     },
     "links": {
       "type": "object",
@@ -26,7 +27,7 @@
           "description": "Personal or professional website of the professor"
         }
       },
-      "additionalProperties": false
+      "additionalProperties": true
     },
     "tags": {
       "type": "array",
@@ -42,9 +43,13 @@
         "lightning_address": {
           "type": "string",
           "description": "Lightning network address for tips"
+        },
+        "silent_payment": {
+          "type": "string",
+          "description": "Silent payment address for tips"
         }
       },
-      "additionalProperties": false
+      "additionalProperties": true
     },
     "company": {
       "type": "string",
@@ -103,7 +108,7 @@
       }
     }
   },
-  "required": ["name", "contributor_id", "links", "tags", "tips", "company", "affiliations"],
+  "required": ["name", "id"],
   "additionalProperties": false
 }
 

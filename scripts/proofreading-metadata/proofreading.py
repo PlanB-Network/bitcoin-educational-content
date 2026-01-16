@@ -146,7 +146,7 @@ def update_proofreading_reward(file_path, language, evaluated_reward):
     data = get_yml_content(file_path)
     proofread_iteration = get_proofreading_state(data, language)
 
-    if proofread_iteration < 3:
+    if proofread_iteration < 2:
       reward = evaluated_reward
     else:
       reward = 0

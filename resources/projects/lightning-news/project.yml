@@ -9,3 +9,11 @@ tags:
   - lightning
   - software
   - education
+
+proofreading:
+  - language: en
+    last_contribution_date: 2026-01-15
+    urgency: 1
+    contributor_names:
+      - Asi0Flammeus
+    reward: 1

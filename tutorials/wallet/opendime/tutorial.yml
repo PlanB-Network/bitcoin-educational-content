@@ -27,14 +27,14 @@ proofreading:
     contributor_names:
       - LoicPandul
       - nrak10
-    reward: 1.04
+    reward: 0
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.52
+    reward: 3.49
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.87
+    reward: 4.62

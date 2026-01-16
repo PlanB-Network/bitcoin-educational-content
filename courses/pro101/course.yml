@@ -16,146 +16,146 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 24.72
+    reward: 30.87
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.56
+    reward: 20.61
   - language: en
     last_contribution_date: 2024-08-30
     urgency: 1
     contributor_names:
       - jramos0
-    reward: 9.28
+    reward: 10.31
   - language: es
     last_contribution_date: 2024-11-16
     urgency: 1
     contributor_names:
       - OscarG673
-    reward: 9.28
+    reward: 10.31
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 24.72
+    reward: 30.87
   - language: fr
     last_contribution_date: 2025-12-04
     urgency: 1
     contributor_names:
       - ProfScofield21
-    reward: 9.28
+    reward: 10.31
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.56
+    reward: 20.61
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 30.87
+    reward: 51.38
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.56
+    reward: 20.61
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 24.72
+    reward: 30.87
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 30.87
+    reward: 51.38
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 24.72
+    reward: 30.87
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 30.87
+    reward: 41.13
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 30.87
+    reward: 41.13
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 24.72
+    reward: 30.87
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 24.72
+    reward: 30.87
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 30.87
+    reward: 51.38
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 24.72
+    reward: 41.13
   - language: sw
     last_contribution_date: 2025-12-29
     urgency: 1
     contributor_names:
       - Tinnah924
-    reward: 12.36
+    reward: 15.44
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 30.87
+    reward: 41.13
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 24.72
+    reward: 30.87
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 18.56
+    reward: 20.61
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 24.72
+    reward: 30.87
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 30.87
+    reward: 41.13
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 30.87
+    reward: 41.13
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 30.87
+    reward: 51.38
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 24.72
+    reward: 30.87
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 30.87
+    reward: 41.13
 tags:
   - development
   - protocols

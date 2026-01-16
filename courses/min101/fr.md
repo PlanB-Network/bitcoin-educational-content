@@ -43,11 +43,11 @@ Avant de comprendre ce qu'est le minage de Bitcoin, il faut d’abord suivre le 
 
 Sur Bitcoin, une transaction est une structure de données qui transfère la propriété de bitcoins d'un utilisateur à un autre. Concrètement, elle consomme des `outputs` de transactions passées (ce qu'on appelle des UTXO) en les référant comme `inputs`, puis elle crée de nouveaux `outputs` qui définissent à qui appartiennent désormais ces bitcoins et sous quelles conditions ils pourront être dépensés plus tard.
 
-001
+![Image](assets/fr/001.webp)
 
 Un point important sur Bitcoin est l’autorisation de dépenser. Les bitcoins ne sont pas dans un comptes, comme le pourraient être votre argent à la banque, mais ils sont verrouillés par des conditions de dépense. Lorsqu’un portefeuille veut utiliser un UTXO comme `inputs`, il doit fournir une preuve cryptographique qui prouve qu'il a bien le droit de le déverrouiller. Dans la pratique, cette preuve prend souvent la forme d’une signature numérique produite à partir d’une clé privée. C’est pour cette raison que les bitcoiners insistent sur la nécessité de sécuriser vos clés privées : ce sont elles qui permettent de déverrouiller l’accès à vos bitcoins et, par conséquent, de les dépenser.
 
-002
+![Image](assets/fr/002.webp)
 
 La signature numérique dans Bitcoin joue ainsi deux rôles importants :
 - Autoriser la dépense : elle prouve que l’utilisateur possède la clé privée attendue par la condition de dépense de l’UTXO ;
@@ -68,7 +68,7 @@ Quand vous envoyez une transaction depuis un portefeuille, celui-ci la transmet 
 
 Si la transaction passe tous ces contrôles, le nœud la propage aux autres nœuds du réseau avec lesquels il est connecté. Eux-mêmes la vérifient à leur tour et la relaient, et ainsi de suite. En quelques secondes, la transaction est propagée et devient connue de l’ensemble, ou du moins d’une large partie, du réseau Bitcoin.
 
-003
+![Image](assets/fr/003.webp)
 
 ### La mempool : la salle d’attente des transactions
 
@@ -76,7 +76,7 @@ Entre le moment où une transaction est diffusée et le moment où elle est conf
 
 Point important : il n’existe pas une mempool unique, mais des mempools. En effet, chaque nœud maintient la sienne, avec ses propres contraintes locales. Cela implique qu’à un instant donné, deux nœuds peuvent avoir des contenus de mempool légèrement différents (selon ce qu’ils ont reçu, ce qu’ils ont rejeté, ou ce qu’ils ont purgé).
 
-004
+![Image](assets/fr/004.webp)
 
 À ce stade, on a donc un réseau qui connaît la transaction, l’a vérifiée, et la garde en mémoire en attendant qu’elle soit confirmée. Mais la confirmation de cette transaction n'arrivera que lorsqu'un mineur l’insère dans un bloc, et que ce bloc est accepté par le réseau.
 
@@ -90,11 +90,11 @@ Autrement dit, pour savoir qu’un bitcoin n’a pas déjà été dépensé, il 
 
 C’est le rôle de la blockchain : un registre public qui contient l’historique des transactions. Mais plutôt que d’écrire chaque transaction au fil de l’eau, Bitcoin les regroupe dans des blocs. Chaque bloc agit comme une page d’historique, et le système fonctionne ainsi comme un serveur d’horodatage : il ordonne les transactions dans le temps, de manière vérifiable.
 
-Ce registre ne peut pas être réécrit grâce à un principe simple : chaque bloc inclut l’empreinte cryptographique (le hash) du bloc précédent. Ainsi, les blocs s’enchaînent : si vous modifiez un bloc du passé, son empreinte change, ce qui casse le lien avec le bloc suivant, ce qui casse le lien avec le bloc d’après, etc. C’est cette chaîne de dépendances qui donne son nom à la "blockchain".
+Ce registre ne peut pas être réécrit grâce à un principe simple : chaque bloc inclut l’empreinte cryptographique (le hash) du bloc précédent. Ainsi, les blocs s’enchaînent : si vous modifiez un bloc du passé, son empreinte change, ce qui casse le lien avec le bloc suivant, ce qui casse le lien avec le bloc d’après, etc. C’est cette chaîne de dépendances qui donne son nom à la "*blockchain*".
 
-005
+![Image](assets/fr/005.webp)
 
-Une fois que l'on a compris ces principes de base de Bitcoin, on peut décrire l’objectif d’un mineur de manière plus concrète : construire un nouveau bloc qui prolonge la chaîne existante, en y inscrivant des transactions en attente, puis tenter de le rendre valide (c'est la fameuse "preuve de travail" que l'on étudiera dans le chapitre suivant). Ici, on se concentre sur la construction du bloc candidat.
+Une fois que l'on a compris ces principes de base de Bitcoin, on peut décrire l’objectif d’un mineur de manière plus concrète : construire un nouveau bloc qui prolonge la chaîne existante, en y inscrivant des transactions en attente, puis tenter de le rendre valide (c'est la fameuse "*preuve de travail*" que l'on étudiera dans le chapitre suivant). Ici, on se concentre sur la construction du bloc candidat.
 
 ### Le bloc candidat
 
@@ -103,13 +103,13 @@ Les mineurs ne trouvent pas des blocs qui existeraient déjà quelque part : il 
 - organiser ces transactions de manière compatible avec les règles de Bitcoin ;
 - produire les métadonnées du bloc, contenues dans son entête.
 
-Le choix des transactions répond à une logique économique simple : un bloc a une capacité limitée par le protocole Bitcoin, donc le mineur cherche à maximiser ce qu’il gagne pour cet espace. Il sélectionne en priorité les transactions offrant les frais les plus élevés relativement à la place qu’elles occupent dans le bloc (on parle ainsi de "taux de frais", par exemple en `sats/vB`). Les détails des frais seront traités plus tard ; retenez ici l’idée de tri par rentabilité de l’espace.
+Le choix des transactions répond à une logique économique simple : un bloc a une capacité limitée par le protocole Bitcoin, donc le mineur cherche à maximiser ce qu’il gagne pour cet espace. Il sélectionne en priorité les transactions offrant les frais les plus élevés relativement à la place qu’elles occupent dans le bloc (on parle ainsi de "*taux de frais*", par exemple en `sats/vB`). Les détails des frais seront traités plus tard ; retenez ici l’idée de tri par rentabilité de l’espace.
 
 Un bloc Bitcoin se compose donc de deux grandes parties :
 * une liste de transactions ;
 * une entête de bloc, qui sert, en quelque sorte, de carte d’identité du bloc.
 
-006
+![Image](assets/fr/006.webp)
 
 L’entête est essentielle, car c’est elle qui est utilisée comme base pour la preuve de travail : dans Bitcoin, on ne mine pas directement un bloc entier ; on mine uniquement l’entête d'un bloc, qui résume les informations nécessaires pour lier le bloc à la chaîne et engager son contenu. Pour que l’entête puisse représenter l’ensemble des transactions, Bitcoin utilise un outil cryptographique : l’arbre de Merkle.
 
@@ -122,7 +122,7 @@ Le principe est le suivant :
 * on regroupe ces empreintes deux par deux, on les met bout-à-bout, puis on les hache de nouveau pour obtenir une nouvelle couche d’empreintes ;
 * on répète cette opération jusqu’à obtenir une seule empreinte finale : la racine de Merkle.
 
-007
+![Image](assets/fr/007.webp)
 
 Ainsi, si une seule transaction change, même d’un seul bit, cela entraîne une modification de son empreinte, laquelle se propage jusqu'à la racine de Merkle. Or cette racine est incluse dans l’entête du bloc. Donc modifier une transaction passée revient à modifier l’entête du bloc dans lequel elle est incluse, et donc l’empreinte du bloc, puis le lien avec les blocs suivants.
 
@@ -173,23 +173,23 @@ Comprendre le processus du minage, c'est assez simple. Cela tient en 3 notions q
 
 ### La fonction de hachage
 
-Une fonction de hachage est un outil qui prend un message en entrée et produit une sortie de taille fixe, qu'on appelle "empreinte" ou "hash".
+Une fonction de hachage est un outil qui prend un message en entrée et produit une sortie de taille fixe, qu'on appelle "*empreinte*" ou "*hash*".
 
-010
+![Image](assets/fr/010.webp)
 
 La fonction de hachage est intéressante dans des systèmes informatiques, car elle dispose de certaines propriétés :
 
 * Si vous changez un seul bit de l’entrée, l’empreinte obtenue en sortie change totalement et de manière imprévisible ;
 
-011
+![Image](assets/fr/011.webp)
 
 * Il est impossible de remonter de la sortie vers l’entrée : la fonction est irréversible ;
 
-012
+![Image](assets/fr/012.webp)
 
 * Il est impossible de trouver deux messages différents qui donnent exactement la même empreinte.
 
-013
+![Image](assets/fr/013.webp)
 
 La fonction de hachage utilisée dans Bitcoin pour le minage est `SHA256`, appliquée deux fois de suite. On parle de double SHA256, noté `SHA256d`. C’est cette double application qui produit l’empreinte du bloc.
 
@@ -199,7 +199,7 @@ hash = SHA256(SHA256(message))
 
 Dans notre cas, le `message` correspond en fait à l’entête du bloc, que vous avez vu au chapitre précédent. Pour rappel, l’entête est une petite structure qui résume tout ce qu'il y a dans le bloc.
 
-014
+![Image](assets/fr/014.webp)
 
 ### La preuve de travail : trouver une empreinte inférieure à une cible
 
@@ -208,7 +208,7 @@ La Proof-of-Work est souvent décrite comme le fait de résoudre un problème co
 Cette condition se formule ainsi :
 * on calcule l’empreinte de l’entête du bloc à l'aide de la fonction de hachage ;
 * on interprète cette empreinte comme un nombre ;
-* pour que le bloc soit valide, ce nombre doit être inférieur ou égal à une valeur appelée "cible de difficulté" ou "facteur de difficulté".
+* pour que le bloc soit valide, ce nombre doit être inférieur ou égal à une valeur appelée "*cible de difficulté*" ou "*facteur de difficulté*".
 
 Autrement dit, un bloc est valide si :
 
@@ -216,7 +216,7 @@ Autrement dit, un bloc est valide si :
 SHA256d(block_header) <= target
 ```
 
-015
+![Image](assets/fr/015.webp)
 
 La cible est un nombre de 256 bits. Comme l’empreinte produite par `SHA256d` fait aussi 256 bits, on peut les comparer comme deux nombres. Plus la cible est basse, plus la condition à remplir est difficile, car il existe moins de résultats possibles en dessous de ce seuil. À l’inverse, plus la cible est élevée, plus la condition est facile à satisfaire, et plus le minage d’un bloc devient simple. Nous détaillerons dans les prochains chapitre comment cette cible est déterminée.
 
@@ -232,7 +232,7 @@ Reste une question pratique : si l'entête du bloc candidat construit par le min
 
 Rappelez-vous la première propriété d’une fonction de hachage : modifier un seul bit de l’entrée suffit à produire une empreinte de sortie totalement différente et imprévisible. Chaque calcul de hash s’apparente donc à un tirage aléatoire.
 
-016
+![Image](assets/fr/016.webp)
 
 Pour tenter à nouveau sa chance, le mineur n’a pas besoin de modifier entièrement l’entête de son bloc candidat : il lui suffit d’en changer une infime partie, car le moindre bit différent entraînera une empreinte complètement nouvelle, et potentiellement valide si elle est inférieure à la cible.
 
@@ -245,13 +245,13 @@ Le processus de minage est donc très simple :
 - il recommence ;
 - etc.
 
-017
+![Image](assets/fr/017.webp)
 
-En réalité, le nonce n’est pas le seul champ que l’on peut modifier. Toute modification au sein des transactions d'un bloc entraîne un changement de la racine de l’arbre de Merkle, et donc une modification de l’entête de ce bloc. Avec la puissance de calcul moderne, parcourir les 4,29 milliards de valeurs possibles du nonce peut se faire relativement rapidement. C’est pourquoi il existe un autre champ, que l’on appelle généralement "extra-nonce", qui permet de démultiplier encore les possibilités de variation de l’entête. Nous reviendrons plus en détail sur ce mécanisme dans un prochain chapitre.
+En réalité, le nonce n’est pas le seul champ que l’on peut modifier. Toute modification au sein des transactions d'un bloc entraîne un changement de la racine de l’arbre de Merkle, et donc une modification de l’entête de ce bloc. Avec la puissance de calcul moderne, parcourir les 4,29 milliards de valeurs possibles du nonce peut se faire relativement rapidement. C’est pourquoi il existe un autre champ, que l’on appelle généralement "*extra-nonce*", qui permet de démultiplier encore les possibilités de variation de l’entête. Nous reviendrons plus en détail sur ce mécanisme dans un prochain chapitre.
 
 ### Quel est l'intérêt de cette preuve de travail ?
 
-On parle de "preuve" parce que le résultat est immédiatement vérifiable : une fois un bloc produit, n’importe quel nœud peut contrôler, en une fraction de seconde, que l’empreinte cryptographique de son en-tête est bien inférieure à la cible exigée. On parle de "travail" parce que parvenir à cette empreinte a requis une multitude d’essais, donc un coût réel en calcul et en énergie.
+On parle de "*preuve*" parce que le résultat est immédiatement vérifiable : une fois un bloc produit, n’importe quel nœud peut contrôler, en une fraction de seconde, que l’empreinte cryptographique de son en-tête est bien inférieure à la cible exigée. On parle de "*travail*" parce que parvenir à cette empreinte a requis une multitude d’essais, donc un coût réel en calcul et en énergie.
 
 Dans le White Paper de Bitcoin, Satoshi Nakamoto met en avant deux intêrets à l'utilisation d'un système de preuve de travail dans Bitcoin :
 
@@ -261,9 +261,9 @@ Une fois la charge de calcul dépensée, le bloc est figé : le modifier impliqu
 
 - **Définir la règle de majorité (consensus) et neutraliser les Sybil :**
 
-La preuve de travail permet à Bitcoin d’obtenir un consensus sans s’appuyer sur la règle de vote "un identifiant = une voix", facilement truqué par la création massive d’identités (IP, nœuds, clés...). Dans Bitcoin, la "majorité" n’est pas le plus grand nombre de participants, mais la **chaîne qui cumule le plus de travail** : comme l’écrit Satoshi, c’est un principe "une CPU = une voix", c’est-à-dire un vote pondéré par la puissance de calcul réellement dépensée pour produire des blocs valides. Ainsi, déployer des milliers de nœuds n’apporte aucun avantage en soi. Sans puissance de calcul supplémentaire, on n’accumule pas davantage de preuve de travail, et l’attaque Sybil devient inutile, tandis que la règle de décision reste objective et ne nécessite aucune identification des participants.
+La preuve de travail permet à Bitcoin d’obtenir un consensus sans s’appuyer sur la règle de vote "*un identifiant = une voix*", facilement truqué par la création massive d’identités (IP, nœuds, clés...). Dans Bitcoin, la "*majorité*" n’est pas le plus grand nombre de participants, mais la **chaîne qui cumule le plus de travail** : comme l’écrit Satoshi, c’est un principe "*une CPU = une voix*", c’est-à-dire un vote pondéré par la puissance de calcul réellement dépensée pour produire des blocs valides. Ainsi, déployer des milliers de nœuds n’apporte aucun avantage en soi. Sans puissance de calcul supplémentaire, on n’accumule pas davantage de preuve de travail, et l’attaque Sybil devient inutile, tandis que la règle de décision reste objective et ne nécessite aucune identification des participants.
 
-018
+![Image](assets/fr/018.webp)
 
 [Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System.*](https://bitcoin.org/bitcoin.pdf)
 
@@ -281,7 +281,7 @@ C’est l’objectif de Hashcash, proposé par Adam Back en 1997, que l'on consi
 
 Hashcash ne cherchait pas à créer de la monnaie. Il cherchait à imposer un coût marginal à une action numérique facilement automatisable.
 
-008
+![Image](assets/fr/008.webp)
 
 #### Bit Gold
 
@@ -293,7 +293,7 @@ Bit Gold n’a pas abouti à un système déployé comme Bitcoin, mais il contie
 
 Hal Finney propose en 2004 RPOW (*Reusable Proofs of Work*). L’idée est de produire des preuves de travail qui pourraient ensuite être échangées, plutôt que d’être simplement consommées. RPOW visait à créer des jetons numériques basés sur la preuve de travail, avec un système permettant de vérifier et de transférer ces jetons sans les dupliquer. RPOW, là encore, ne résout pas de façon satisfaisante le problème d’un registre totalement décentralisé comme Bitcoin le fera plus tard, mais il reste l'un des grands précurseurs de Bitcoin.
 
-009
+![Image](assets/fr/009.webp)
 
 Hashcash, Bit Gold et RPOW utilisent la preuve de travail pour imposer un coût, créer de la rareté, ou construire des objets échangeables. Bitcoin reprend ce mécanisme, mais lui donne un rôle central et collectif : la preuve de travail ne sert pas seulement à créer quelque chose, elle sert à départager qui a le droit d’écrire la prochaine page du registre (le prochain bloc), et à rendre ce registre coûteux à falsifier.
 
@@ -305,7 +305,7 @@ Dans le chapitre précédent, vous avez vu le cœur de la preuve de travail : le
 
 Bitcoin vise un rythme moyen d’un bloc trouvé toutes les 10 minutes. Ce rythme n’est évidemment pas une promesse à la seconde près. En pratique, certains blocs sont trouvés quelques secondes après le précédent, quand d’autres le sont après plus d'une heure. Ce qui importe ici, c’est la moyenne sur une période suffisamment longue.
 
-019
+![Image](assets/fr/019.webp)
 
 Cette variabilité découle du caractère probabiliste du minage : chaque hachage est un essai indépendant, avec une probabilité constante (à cible inchangée) de produire un résultat inférieur à la cible. On peut donc le comparer à une loterie au tirage continu : plus les mineurs effectuent de hachages par seconde, plus le délai attendu avant l’apparition d’un bloc valide diminue, mais sans jamais supprimer l’aléa d’un tirage à l’autre.
 
@@ -315,15 +315,15 @@ Même si l'on n'a aucune preuve de cela, Satoshi Nakamoto a sûrement choisi 10 
 
 Lorsqu’un mineur trouve un bloc valide, il le diffuse immédiatement à ses pairs. Les nœuds qui le reçoivent vérifient sa validité (transactions, preuve de travail, règles de consensus...), puis le relaient à leur tour. Cette propagation prend un certain temps, limité par la latence d'Internet, la bande passante, et la capacité de chaque nœud à vérifier le bloc.
 
-020
+![Image](assets/fr/020.webp)
 
 Si, durant ce délai de diffusion, un autre mineur découvre lui aussi un bloc valide à la même hauteur, le réseau peut se retrouver temporairement scindé : une partie des nœuds et des mineurs se base sur le bloc A, tandis que l’autre se base sur le bloc B. C'est une division temporaire du réseau.
 
-021
+![Image](assets/fr/021.webp)
 
-Ces divisions ne sont pas catastrophiques. Le consensus de Nakamoto prévoit qu’à terme, une seule branche l’emportera : celle qui accumule le plus de travail. En effet, dès qu’un nouveau bloc est miné par-dessus le bloc A par exemple, l’ensemble du réseau se resynchronise sur cette branche et abandonne le bloc B, qui devient alors un "stale block", parfois appelé à tort un "bloc orphelin" dans le langage courant.
+Ces divisions ne sont pas catastrophiques. Le consensus de Nakamoto prévoit qu’à terme, une seule branche l’emportera : celle qui accumule le plus de travail. En effet, dès qu’un nouveau bloc est miné par-dessus le bloc A par exemple, l’ensemble du réseau se resynchronise sur cette branche et abandonne le bloc B, qui devient alors un "*stale block*", parfois appelé à tort un "*bloc orphelin*" dans le langage courant.
 
-022
+![Image](assets/fr/022.webp)
 
 En revanche, elles ont un coût : pendant quelques minutes, une fraction des mineurs travaille sur une branche qui sera abandonnée. Ce travail est alors gaspillé du point de vue de la sécurité globale, car il n’a pas contribué à la chaîne finale. Plus l'intervalle entre chaque bloc est rapide, plus la probabilité de ces divisions augmente, puisque le temps de propagation représente une part plus importante du temps entre chaque bloc.
 
@@ -331,7 +331,7 @@ L’intervalle de 10 minutes laisse généralement suffisamment de temps pour qu
 
 ### Comprendre la notion de hashrate
 
-Le "hashrate" désigne la quantité de calcul de hachage produite par seconde, que ce soit par un seul mineur, par un groupe de mineur, ou bien par l'ensemble des mineurs sur Bitcoin. On l’exprime en `H/s` (hashs par seconde), avec des multiples comme `TH/s` (térahashs par seconde) ou `EH/s` (exahashs par seconde). Cela représente donc le nombre d’essais que les mineurs peuvent faire chaque seconde pour tenter d’obtenir un hash inférieur à la cible.
+Le "*hashrate*" désigne la quantité de calcul de hachage produite par seconde, que ce soit par un seul mineur, par un groupe de mineur, ou bien par l'ensemble des mineurs sur Bitcoin. On l’exprime en `H/s` (hashs par seconde), avec des multiples comme `TH/s` (térahashs par seconde) ou `EH/s` (exahashs par seconde). Cela représente donc le nombre d’essais que les mineurs peuvent faire chaque seconde pour tenter d’obtenir un hash inférieur à la cible.
 
 Si la cible reste fixe, alors :
 * chaque essai a une probabilité fixe de réussite ;
@@ -345,7 +345,7 @@ Bitcoin résout ce problème avec un mécanisme d’ajustement périodique de la
 
 L’objectif de ce mécanisme est de ramener le temps moyen de production d’un bloc autour de 10 minutes, alors que le hashrate global du réseau varie en permanence, en raison de machines qui se débranchent ou, au contraire, de nouvelles machines qui sont ajoutées.
 
-023
+![Image](assets/fr/023.webp)
 
 Le calcul se fait à partir du temps observé pour la période écoulée :
 * si les 2016 derniers blocs ont été trouvés trop vite, cela signifie que le hashrate a augmenté pendant cette période ; Bitcoin rend alors la condition plus difficile en abaissant la cible pour la prochaine période ;
@@ -414,7 +414,7 @@ Dans les chapitres précédents, nous avons vu comment les mineurs parviennent �
 - **la subvention de bloc** ;
 - **les frais de transaction**.
 
-024
+![Image](assets/fr/024.webp)
 
 Voyons ensemble à quoi correspondent ces deux parties de la récompense.
 
@@ -433,7 +433,7 @@ Le second rôle est lié à la distribution de la monnaie. Toute nouvelle monnai
 
 En revanche, puisque ces bitcoins sont créés à partir de rien, leur valeur ne provient pas de nulle part. En augmentant la quantité de monnaie en circulation, la subvention dilue mécaniquement la valeur des bitcoins déjà existants. Elle introduit donc une forme d’inflation monétaire. Nous verrons toutefois dans le prochain chapitre que cette subvention est destinée à disparaître progressivement, et qu’à terme, cette inflation cessera.
 
-025
+![Image](assets/fr/025.webp)
 
 ### Les frais de transaction
 
@@ -452,11 +452,11 @@ Autrement dit, l’utilisateur engage en inputs des bitcoins qui lui appartienne
 
 Prenons un exemple. Une transaction consomme deux inputs, l’un de `100 000 sats` et l’autre de `150 000 sats`, et crée trois outputs de `35 000 sats`, `42 000 sats` et `170 000 sats`.
 
-027
+![Image](assets/fr/027.webp)
 
 La somme des inputs est donc de `250 000 sats`, tandis que la somme des outputs est de `247 000 sats`. Cela signifie que `3 000 sats` ont été consommés en inputs sans être recréés en outputs : ce montant correspond aux frais proposés par cette transaction.
 
-028
+![Image](assets/fr/028.webp)
 
 Si un mineur inclut cette transaction dans un bloc valide, il aura le droit de récupérer ces `3 000 sats`, en plus des frais de toutes les autres transactions incluses dans le bloc. En revanche, il n’existe aucun lien direct on-chain entre la transaction qui paie les frais et les sats effectivement perçus par le mineur. Techniquement, les `3 000 sats` de frais sont détruits, et, en contrepartie, le mineur obtient le droit de les recréer pour lui-même.
 
@@ -464,7 +464,7 @@ Si un mineur inclut cette transaction dans un bloc valide, il aura le droit de r
 
 Un bloc n’est pas limité par le nombre de transactions, mais par sa capacité totale (aujourd’hui, en pratique, par le poids du bloc). Certaines transactions prennent plus de place que d’autres : une transaction avec de nombreux inputs et outputs sera plus volumineuse qu’une transaction simple avec un seul input et deux outputs. Les scripts utilisés vont aussi influencer la taille.
 
-026
+![Image](assets/fr/026.webp)
 
 Deux transactions peuvent donc payer le même montant de frais en valeur absolue, mais ne pas être équivalentes économiquement du point de vue du mineur. Si l’une est deux fois plus grosse, elle coûte deux fois plus d’espace dans le bloc. Or l’espace est rare : le mineur cherche donc à maximiser ses revenus par unité d’espace.
 
@@ -500,7 +500,7 @@ Le halving est un événement programmé dans le protocole Bitcoin qui réduit d
 
 Lors du lancement de Bitcoin en 2009, la subvention de bloc était fixée à 50 BTC pour chaque bloc miné. Depuis, cette subvention a été divisée par deux à plusieurs reprises, lors de chaque halving.
 
-029
+![Image](assets/fr/029.webp)
 
 Le halving n’est pas déclenché par une date, mais par la hauteur de bloc. Il est exécuté **tous les 210 000 blocs**. Comme Bitcoin vise un intervalle moyen d’environ 10 minutes par bloc, 210 000 blocs correspondent à peu près à quatre ans.
 
@@ -551,7 +551,7 @@ L’arrêt définitif de la subvention de bloc interviendra à la hauteur de blo
 
 En revanche, comme la subvention de bloc suit une suite géométrique de raison 1/2 à chaque halving, la création monétaire a été extrêmement élevée aux débuts de Bitcoin, puis décroît très rapidement. Dès le 7ème halving, plus de 99 % des bitcoins auront déjà été mis en circulation. Le franchissement de ce seuil des 99 % devrait avoir lieu entre 2032 et 2036. Cela veut dire qu'il faudra ensuite plus de 100 ans pour miner le dernier 1 % des bitcoins restants. Si l’inflation monétaire était donc très forte au lancement de Bitcoin afin de permettre une distribution large de la monnaie, elle est aujourd’hui très faible et continuera de décroître, jusqu’à atteindre une véritable monnaie dure, dont l’offre en circulation ne pourra plus augmenter.
 
-030
+![Image](assets/fr/030.webp)
 
 ### Pourquoi il n’y aura jamais 21 millions de BTC ?
 
@@ -574,23 +574,23 @@ Dans les chapitres précédents, nous avons présenté deux points importants. D
 - une subvention de bloc (des bitcoins créés ex nihilo, dont le montant maximal est fixé par le protocole et diminue progressivement via les halvings) ;
 - l’ensemble des frais de transaction payés par les utilisateurs dont les transactions ont été incluses dans le bloc.
 
-Il reste toutefois une question : par quel mécanisme le mineur perçoit-il cette récompense sur Bitcoin ? C’est précisément le rôle d’une transaction particulière appelée "coinbase".
+Il reste toutefois une question : par quel mécanisme le mineur perçoit-il cette récompense sur Bitcoin ? C’est précisément le rôle d’une transaction particulière appelée "*coinbase*".
 
 ### Le fonctionnement de la transaction coinbase
 
 Nous l’avons vu dans la première partie du cours : chaque bloc Bitcoin contient une liste de transactions en attente qu’il va venir confirmer. La toute première d’entre elles est toujours la transaction coinbase. C’est elle qui permet au mineur gagnant de percevoir sa récompense.
 
-031
+![Image](assets/fr/031.webp)
 
 À première vue, elle ressemble à une transaction Bitcoin classique : elle possède un TXID, des outputs, et elle est incluse dans l’arbre de Merkle du bloc. Toutefois, elle se distingue par un point important : elle ne dépense aucun véritable UTXO existant. Dans une transaction Bitcoin classique, les `inputs` référencent des outputs non dépensés antérieurs (UTXOs), qui apportent la valeur en entrée. Les `outputs` redistribuent ensuite cette valeur vers de nouveaux UTXOs, avec de nouvelles conditions de dépense. Autrement dit, pour envoyer des bitcoins, il faut déjà les posséder. La transaction coinbase, elle, ne consomme aucun bitcoin en input : elle crée directement des bitcoins en outputs à partir de rien.
 
 C’est précisément ce mécanisme qui permet à la fois d’introduire de nouveaux bitcoins en circulation via la subvention de bloc, et de créditer le mineur des frais associés aux transactions incluses dans le bloc. La transaction coinbase ne peut pas référencer de véritable UTXO existant (en réalité, elle référence un UTXO fictif), puisque son rôle est justement de créer une partie de la valeur (la subvention) et de récupérer l’autre partie (les frais), sans les recevoir d’une transaction précédente. Pour que l’ensemble reste cohérent, la part correspondant aux frais doit exactement égaler la somme des bitcoins consommés en inputs mais non recréés en outputs dans les autres transactions du bloc.
 
-032
+![Image](assets/fr/032.webp)
 
 Cette transaction n’est pas optionnelle. Un bloc qui ne contient pas de transaction coinbase est invalide et sera systématiquement rejeté par les nœuds du réseau.
 
-⚠️ Précision utile : le terme "coinbase" n’a ici aucun lien avec la plateforme d’échange du même nom. Sur Bitcoin, "coinbase" désigne historiquement la transaction qui crée la récompense de bloc. L’entreprise a simplement repris ce terme pour son nom.
+⚠️ Précision utile : le terme "*coinbase*" n’a ici aucun lien avec la plateforme d’échange du même nom. Sur Bitcoin, "*coinbase*" désigne historiquement la transaction qui crée la récompense de bloc. L’entreprise a simplement repris ce terme pour son nom.
 
 La transaction coinbase remplit en réalité plusieurs rôles simultanés. Le premier est celui que nous venons de détailler : elle attribue au mineur la récompense à laquelle il a droit pour avoir produit un bloc valide.
 
@@ -618,7 +618,7 @@ Directement suivi du faux index :
 0xffffffff
 ```
 
-033
+![Image](assets/fr/033.webp)
 
 Dans le protocole Bitcoin de base, tel que décrit par Satoshi Nakamoto, ce faux input constitue la seule contrainte imposée à la transaction coinbase. Comme tout UTXO référencé en input, il est associé à un champ `scriptSig`. Dans une transaction classique, ce champ `scriptSig` contient les éléments nécessaires pour satisfaire le `scriptPubKey` et ainsi déverrouiller l’UTXO dépensé. Mais dans le cas particulier de la coinbase, puisque l’UTXO référencé est volontairement fictif, le champ `scriptSig` est entièrement libre. Le mineur peut donc y inscrire n’importe quelle donnée. Nous verrons plus loin quels usages sont faits de cette liberté.
 
@@ -638,7 +638,7 @@ Cette évolution permet, d’une part, de clarifier la manière dont le réseau 
 
 Ainsi, le `scriptSig` de la coinbase n’est pas totalement libre. Depuis l’activation du BIP-34, il est simplement contraint de commencer par la hauteur du bloc dans lequel cette transaction coinbase est incluse.
 
-035
+![Image](assets/fr/035.webp)
 
 #### L’extra-nonce
 
@@ -646,7 +646,7 @@ Nous l’avons vu dans les premiers chapitres de ce cours : dans l’entête de 
 
 Comme la transaction coinbase offre un champ libre via le `scriptSig` de son input, la solution utilisée pour étendre l’espace du nonce consiste à exploiter une partie de ce `scriptSig`. C’est ce que l’on appelle généralement l’extra-nonce. En modifiant l’extra-nonce, le mineur modifie le `scriptSig` de la coinbase, donc l’identifiant de cette transaction, puis la racine de Merkle du bloc, et enfin l’entête du bloc lui-même. Il obtient ainsi un nouvel espace de recherche de hachages à explorer, sans avoir à toucher aux autres composantes de son bloc candidat.
 
-036
+![Image](assets/fr/036.webp)
 
 #### L’identification des pools et des mineurs
 
@@ -654,7 +654,7 @@ Aujourd’hui, une part très importante du hashrate mondial est organisée au s
 
 Pour des raisons opérationnelles, les pools de minage exploitent également le champ libre du `scriptSig` de l’input de la coinbase pour y insérer différentes informations. Celles-ci varient selon les pools et selon le protocole réseau utilisé, mais on y retrouve généralement un identifiant unique (souvent un extra-nonce structuré en plusieurs sous-parties) attribué à chaque hacheur afin d’éviter la duplication du travail au sein de la pool. On y ajoute généralement un tag d’identification du pool, utilisé pour l’attribution publique des blocs trouvés, les statistiques de minage, et d’autres besoins de suivi.
 
-037
+![Image](assets/fr/037.webp)
 
 #### L’engagement de SegWit
 
@@ -662,11 +662,11 @@ Depuis le soft fork SegWit activé en 2017, les données de témoins (c’est-à
 
 Pour cela, les témoins sont regroupés au sein d’un autre arbre de Merkle dédié, dont la racine est ensuite engagée dans la transaction coinbase via un output `OP_RETURN`.
 
-038
+![Image](assets/fr/038.webp)
 
 Je ne détaillerai pas davantage ce mécanisme dans ce cours, car il sort de son périmètre, mais retenez simplement que depuis l’introduction de SegWit, la transaction coinbase sert de support pour ancrer dans le bloc une empreinte résumant l’ensemble des témoins SegWit. Les témoins sont placés dans un arbre de Merkle indépendant, la racine de cet arbre est inscrite dans un output de la transaction coinbase, et cette transaction coinbase est elle-même incluse dans l’arbre de Merkle principal avec toutes les autres transactions, dont la racine figure dans l’entête du bloc. C'est de cette manière qu'on engage les témoins, pourtant séparés, dans l'entête.
 
-039
+![Image](assets/fr/039.webp)
 
 #### Les messages arbitraires
 
@@ -680,17 +680,17 @@ Ce message, présent dans le bloc de Genèse (le tout premier bloc de Bitcoin) e
 5468652054696d65732030332f4a616e2f32303039204368616e63656c6c6f72206f6e206272696e6b206f66207365636f6e64206261696c6f757420666f722062616e6b73
 ```
 
-034
+![Image](assets/fr/034.webp)
 
 ### La période de maturité
 
 Une fois le bloc miné et diffusé, la transaction coinbase apparaît dans la blockchain comme n’importe quelle autre transaction. Elle crée des UTXOs au bénéfice du mineur gagnant, lui permettant de récupérer sa récompense. Toutefois, ces UTXOs ne sont pas immédiatement dépensables : ils sont soumis à une période de maturité. Cette maturité est fixée à 100 blocs après le bloc qui contient la coinbase. Concrètement, la transaction coinbase doit donc totaliser 101 confirmations pour que ses outputs deviennent dépensables par leur propriétaire.
 
-040
+![Image](assets/fr/040.webp)
 
 L’objectif de cette règle est de limiter l’impact des réorganisations de chaîne sur l’économie. Comme nous l’avons vu dans les chapitres précédents, il arrive qu’à une même hauteur, deux blocs valides distincts soient trouvés presque simultanément par des mineurs différents. Pendant un court instant, le réseau peut alors se scinder : certains nœuds reçoivent d’abord le bloc A, tandis que d’autres voient d’abord le bloc B. Puis, au fil des blocs suivants, l’une des deux branches accumule davantage de travail et devient la branche de référence. L’autre branche est abandonnée et ses blocs deviennent obsolètes. Les transactions qu’elle contenait peuvent alors, en théorie, retourner dans les mempools en attente de confirmation. Dans la pratique, cela arrive rarement, car le marché des frais conduit souvent à retrouver quasiment les mêmes transactions dans deux blocs concurrents à une même hauteur. C’est notamment pour cette raison qu’il est courant de considérer qu’une transaction Bitcoin devient immuable après six confirmations : les réorganisations de plus de six blocs sont si peu probables qu’on peut raisonnablement les considérer comme impossibles.
 
-041
+![Image](assets/fr/041.webp)
 
 Le problème posé par ces réorganisations dans le cas de la transaction coinbase est qu’il ne s’agit pas d’une transaction ordinaire. Elle introduit des bitcoins tous neufs en circulation. Si la récompense coinbase pouvait être dépensée immédiatement, une situation problématique en cascade pourrait apparaître :
 - un mineur dépense des bitcoins issus d’une coinbase,
@@ -731,7 +731,7 @@ Le résultat est immédiat : à consommation électrique comparable, un GPU peut
 
 C’est à ce moment-là que la difficulté de minage commence à exploser. Entre mi-2010 et mi-2011, elle est même multipliée par 1 000 ! Mécaniquement, la spécialisation s’amorce, tout comme les premières formes d’industrialisation, et les utilisateurs normaux, qui se contentent de faire tourner le logiciel Bitcoin sur leur ordinateur personnel, n’ont désormais plus qu’une probabilité extrêmement faible de trouver un bloc valide.
 
-044
+![Image](assets/fr/044.webp)
 
 *Source: [CoinWarz.com](https://www.coinwarz.com/mining/bitcoin/hashrate-chart)*
 
@@ -741,7 +741,7 @@ Entre l’ère GPU et l’ère moderne des ASIC, on observe une phase intermédi
 
 L’étape finale de la spécialisation du matériel de minage est l’apparition des ASIC (*Application-Specific Integrated Circuits*). Un ASIC est une puce conçue pour une tâche unique. Dans le cas du minage Bitcoin, cette tâche est précisément l’exécution de `SHA256d` à une vitesse maximale et avec une efficacité énergétique optimale. Contrairement à un GPU, un ASIC ne sert pas à faire tourner des jeux, du rendu 3D ou de l’IA. Il sert à hacher, et c'est tout.
 
-045
+![Image](assets/fr/045.webp)
 
 *ASIC S21 XP fabriqué par l'entreprise Bitmain.*
 
@@ -766,13 +766,13 @@ Une ferme de minage, dans sa forme la plus simple, c’est un bâtiment (ou un e
 * filtrer la poussière, contrôler l’humidité, nettoyer ;
 * surveiller en temps réel la performance des machines (températures, erreurs matérielles, baisse de hashrate...).
 
-043
+![Image](assets/fr/043.webp)
 
 *L’un des sept bâtiments dédiés au minage de Bitcoin sur le site de Rockdale de Riot Platforms, à proximité d’Austin, au Texas. Celui-ci est spécifiquement dédié au minage par immersion.*
 
 Le minage est désormais porté par des acteurs industriels, parfois cotés en bourse, qui construisent et exploitent des fermes à très grande échelle. On peut notamment citer MARA Holdings (Nasdaq: `MARA`) ou Riot Platforms (Nasdaq: `RIOT`).
 
-042
+![Image](assets/fr/042.webp)
 
 Même sans entrer dans les détails des modèles de rentabilité, il est important de comprendre pourquoi le minage a pris cette forme. La preuve de travail est un mécanisme compétitif : la probabilité de trouver un bloc, et donc de gagner de l'argent, est proportionnelle à la part de hashrate que l’on déploie. Par conséquent, la pression est permanente pour augmenter la puissance de calcul, réduire le coût par unité de calcul et limiter les pertes. Dès lors, les environnements qui offrent de l’électricité moins chère, un climat favorable au refroidissement, ou une infrastructure énergétique abondante, deviennent naturellement plus attractifs.
 
@@ -796,11 +796,11 @@ Le minage de Bitcoin implique des coûts continus et incompressibles, au premier
 
 Une pool de minage est une organisation (souvent un service en ligne) qui agrège la puissance de calcul de nombreux mineurs indépendants, afin d’augmenter la fréquence à laquelle leur groupe trouve des blocs. Quand la pool trouve un bloc, la récompense de bloc est ensuite redistribuée entre les participants selon des règles internes à la pool (qui seront abordées dans le cours MIN 201, car trop complexes pour MIN 101).
 
-Les participants à une pool de minage sont alors souvent désignés comme des "hacheurs", et non plus comme des "mineurs", car ils n’effectuent plus l’ensemble du travail de minage, mais se contentent de hacher les données qui leur sont transmises par la pool.
+Les participants à une pool de minage sont alors souvent désignés comme des "*hacheurs*", et non plus comme des "*mineurs*", car ils n’effectuent plus l’ensemble du travail de minage, mais se contentent de hacher les données qui leur sont transmises par la pool.
 
 Attention de ne pas confondre la pool de minage avec la ferme de minage. Ce sont deux concepts différents. Comme nous l'avons vu dans le chapitre précédent, une ferme est un site physique où une même entité opère de nombreuses machines de minage. Une pool, elle, est avant tout un regroupement virtuel : des milliers de machines, souvent dispersées géographiquement, travaillent sous une coordination commune. Une ferme peut toutefois participer à une pool, et c’est même souvent le cas.
 
-048
+![Image](assets/fr/048.webp)
 
 ### Réduire la variance des revenus
 
@@ -829,7 +829,7 @@ Nous l'avons vu dans le chapitre précédent, au tout début, le minage pouvait 
 
 Les premières pools apparaissent précisément pour répondre à cette nouvelle réalité. Braiins Pool (anciennement Slush Pool / Bitcoin.cz) est la première pool de minage de Bitcoin : elle a été lancée en décembre 2010 et a miné son premier bloc le 16 décembre. Le succès de cette première pool de minage est rapide, puisqu'en quelques jours seulement, elle obtient près de 3,5% du hashrate global.
 
-047
+![Image](assets/fr/047.webp)
 
 Côté technique, les pools se sont ensuite structurées autour de protocoles de communication spécialisés entre la pool et les mineurs (par exemple Stratum, puis Stratum V2), afin d’orchestrer efficacement le travail distribué. L’enjeu n’est pas seulement la performance : c’est aussi la standardisation des échanges, la fiabilité, et, de plus en plus, la question de l’autonomie des mineurs (notamment sur la construction des blocs).
 
@@ -867,7 +867,7 @@ Voici un classement, à date, des principales pools de minage et de leur part re
 |   22 | Unknown        |            2 |          0.05% |
 |   23 | Public Pool    |            1 |          0.02% |
 
-046
+![Image](assets/fr/046.webp)
 
 *Source [mempool.space](https://mempool.space/graphs/mining/pools), données sur un mois, du 16 décembre 2025 au 16 janvier 2025.*
 

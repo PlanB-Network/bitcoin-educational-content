@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "quiz-question-content",
+  "type": "object",
+  "properties": {
+    "question": {
+      "type": "string",
+      "description": "The complete question text."
+    },
+    "answer": {
+      "type": "string",
+      "description": "The correct answer to the question."
+    },
+    "wrong_answers": {
+      "type": "array",
+      "description": "A list of three incorrect answers to the question.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "explanation": {
+      "type": "string",
+      "description": "Additional information explaining why the correct answer is true and why the other answers are incorrect."
+    },
+    "reviewed": {
+      "type": "boolean",
+      "description": "Indicates whether the question has been reviewed by at least two different persons."
+    }
+  },
+  "required": ["question", "answer", "wrong_answers", "explanation", "reviewed"],
+  "additionalProperties": false
+}
+

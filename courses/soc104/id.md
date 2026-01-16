@@ -271,7 +271,7 @@ Skema ini didasarkan pada gagasan bahwa sebagian besar masalah politik dapat dib
 ### Kebebasan ekonomi
 
 
-Kategori Kebebasan Ekonomi mencakup apa yang Anda lakukan sebagai produsen dan konsumen - apa yang dapat Anda beli, jual, atau hasilkan. Di mana Anda bekerja, siapa yang Anda pekerjakan, atau apa yang Anda lakukan dengan uang Anda.
+Kategori Kebebasan Ekonomi mencakup apa yang kamu lakukan sebagai produsen dan konsumen, apa yang bisa kamu beli, jual, atau hasilkan. Ini juga mencakup di mana kamu bekerja, siapa yang kamu pekerjakan, serta apa yang kamu lakukan dengan uangmu.
 
 
 
@@ -281,7 +281,7 @@ Contoh aktivitas ekonomi: memulai bisnis; membeli rumah; membangun gedung; berbe
 
 
 
-- Di sebelah kanan sumbu** (menuju 100 pada skala Masalah Ekonomi): preferensi untuk **kebebasan ekonomi**. Ini berarti lebih sedikit intervensi negara dalam perekonomian, lebih sedikit peraturan, pajak yang lebih rendah, dan kebebasan yang lebih besar bagi perusahaan dan individu untuk berproduksi, berdagang, dan mengkonsumsi. Penekanannya adalah pada pasar bebas, kepemilikan pribadi, dan kompetisi sebagai mesin kemakmuran.
+- Di sumbu sebelah kanan** (menuju 100 pada skala Masalah Ekonomi) terdapat preferensi terhadap **kebebasan ekonomi.** Ini berarti intervensi negara yang lebih minim dalam perekonomian, peraturan yang lebih sedikit, pajak yang lebih rendah, serta kebebasan yang lebih besar bagi perusahaan dan individu untuk berproduksi, berdagang, dan mengonsumsi. Penekanannya ada pada pasar bebas, kepemilikan pribadi, dan kompetisi sebagai mesin kemakmuran.
  - Tokoh-tokoh simbolis:* Margaret Thatcher (Inggris), Ronald Reagan (Amerika Serikat), Javier Milei (Argentina).
 
 
@@ -292,7 +292,7 @@ Contoh aktivitas ekonomi: memulai bisnis; membeli rumah; membangun gedung; berbe
 
 
 
-- Di sebelah kiri sumbu** (menuju 0 pada skala Masalah Ekonomi): preferensi untuk **intervensi negara yang kuat dalam perekonomian**. Hal ini menyiratkan regulasi, pajak yang tinggi untuk membiayai layanan publik (kesehatan, pendidikan, transportasi), nasionalisasi, dan redistribusi kekayaan. Tujuannya sering kali untuk mengurangi ketidaksetaraan dan menjamin keadilan sosial.
+- Di sumbu sebelah kiri** (menuju 0 pada skala Masalah Ekonomi): preferensi untuk **intervensi negara yang kuat dalam perekonomian**. Hal ini menyiratkan regulasi, pajak yang tinggi untuk membiayai layanan publik (kesehatan, pendidikan, transportasi), nasionalisasi, dan redistribusi kekayaan. Tujuannya sering kali untuk mengurangi ketidaksetaraan dan menjamin keadilan sosial.
   - Tokoh-tokoh lambang:* Franklin D. Roosevelt (AS), Jean Jaurès (Prancis), Bernie Sanders, Barack Obama.
 
 
@@ -305,17 +305,16 @@ Contoh aktivitas ekonomi: memulai bisnis; membeli rumah; membangun gedung; berbe
 
 
 
-Kategori Kebebasan Pribadi mencakup apa yang Anda lakukan dalam hubungan pribadi Anda, dengan pendapat dan keyakinan Anda. Secara umum, ini adalah segala sesuatu yang Anda lakukan dengan tubuh dan pikiran Anda sendiri.
+Kategori Kebebasan Pribadi mencakup apa yang kamu lakukan dalam hubungan pribadi, serta pendapat dan keyakinanmu. Secara umum, ini mencakup segala hal yang kamu lakukan dengan tubuh dan pikiranmu sendiri.
+
+
+*Contoh aktivitas pribadi:* pernikahan; memilih buku yang kamu baca dan film yang kamu tonton; makanan dan obat-obatan yang kamu pilih untuk dikonsumsi; olahraga; pilihan agamamu; organisasi yang kamu ikuti; orang-orang yang kamu pilih untuk bergaul.
 
 
 
-*Contoh aktivitas pribadi:* pernikahan; memilih buku yang Anda baca dan film yang Anda tonton; makanan, obat-obatan, dan obat-obatan yang Anda pilih untuk dikonsumsi; olahraga; pilihan agama Anda; organisasi yang Anda ikuti; orang-orang yang Anda pilih untuk bergaul.
 
 
-
-
-
-- Bagian atas sumbu** (menuju 100 pada skala Masalah Sosial): preferensi untuk **kebebasan individu** dan toleransi. Negara harus sesedikit mungkin mencampuri pilihan hidup individu (hak aborsi, hak LGBTQ+, kebebasan berekspresi, legalisasi zat-zat tertentu, dll.). Kami menghargai otonomi dan keragaman.
+- Di sumbu bagian atas** (menuju 100 pada skala Masalah Sosial): preferensi untuk **kebebasan individu** dan toleransi. Negara harus sesedikit mungkin mencampuri pilihan hidup individu (hak aborsi, hak LGBTQ+, kebebasan berekspresi, legalisasi zat-zat tertentu, dll.). Kami menghargai otonomi dan keragaman.
   - Tokoh-tokoh simbolis:* Nelson Mandela, Simone Veil, Noam Chomsky.
 
 
@@ -327,7 +326,7 @@ Kategori Kebebasan Pribadi mencakup apa yang Anda lakukan dalam hubungan pribadi
 
 
 
-- Di bagian bawah sumbu** (menuju 0 pada skala Masalah Sosial): preferensi untuk **ketertiban, keamanan, dan nilai-nilai tradisional**. Negara memiliki peran dalam mengatur moral, menjaga ketertiban umum, dan terkadang mempertahankan visi moralitas atau tradisi tertentu, termasuk melalui kekerasan. Hal ini termasuk posisi yang mendukung hukuman mati, pembatasan imigrasi, atau promosi keluarga tradisional yang dipimpin oleh pemerintah.
+- Di sumbu bagian bawah** (menuju 0 pada skala Masalah Sosial): preferensi untuk **ketertiban, keamanan, dan nilai-nilai tradisional**. Negara memiliki peran dalam mengatur moral, menjaga ketertiban umum, dan terkadang mempertahankan visi moralitas atau tradisi tertentu, termasuk melalui kekerasan. Hal ini termasuk posisi yang mendukung hukuman mati, pembatasan imigrasi, atau promosi keluarga tradisional yang dipimpin oleh pemerintah.
   - Tokoh-tokoh yang menjadi simbol:* Joseph de Maistre (filsuf kontra-revolusioner Prancis) - karena gagasannya tentang tatanan dan otoritas ilahi. Pemimpin otoriter kontemporer seperti Vladimir Putin di Rusia dan Xi Jinping di Tiongkok.
 
 
@@ -337,7 +336,7 @@ Kategori Kebebasan Pribadi mencakup apa yang Anda lakukan dalam hubungan pribadi
 
 
 
-## Apakah Anda seorang statist sayap kanan atau sayap kiri?
+## Apakah kamu seorang statist sayap kanan atau sayap kiri?
 
 
 
@@ -349,51 +348,32 @@ Kategori Kebebasan Pribadi mencakup apa yang Anda lakukan dalam hubungan pribadi
 
 
 
-Seseorang bisa saja menjadi sayap kiri dalam hal ekonomi (mendukung redistribusi) tetapi sayap kanan dalam hal isu-isu sosial (sangat terikat pada tatanan dan tradisi). Dan sebaliknya! Model berbentuk berlian menangkap kerumitan ini.
+Seseorang bisa saja berada di sayap kiri dalam hal ekonomi (mendukung redistribusi), tetapi di sayap kanan dalam isu-isu sosial (sangat terikat pada tatanan dan tradisi). Dan bisa juga sebaliknya. Model berbentuk berlian menangkap kerumitan ini.
 
+Kiri secara tradisional didefinisikan sebagai sesuatu yang berkaitan dengan sosialisme, yaitu sebuah sistem di mana negara memiliki kekuasaan yang signifikan atas individu dan organisasi dalam masyarakat, terutama dalam hal redistribusi pendapatan. Kanan sering dilihat sebagai kebalikannya, yakni kondisi di mana negara tidak memiliki kekuasaan yang signifikan, yang kemudian didefinisikan sebagai liberal. Namun, pada kenyataannya, situasinya jauh lebih kompleks, dan sayap kanan bukan sekadar kebalikan dari sayap kiri.
 
+Faktanya, kebijakan yang diterapkan oleh pemerintah sayap kanan maupun kiri selama beberapa dekade terakhir tidak berbeda secara fundamental, dan tidak ada satu pun yang benar-benar liberal dalam pengertian klasik Eropa.
 
-Kiri secara tradisional didefinisikan sebagai sesuatu yang berhubungan dengan sosialisme, sebuah sistem di mana negara memiliki kekuasaan yang signifikan atas individu dan organisasi masyarakat, terutama dalam hal redistribusi pendapatan. Kanan dapat dilihat sebagai kebalikannya, situasi di mana negara tidak memiliki kekuasaan yang signifikan, yang akan mendefinisikannya sebagai liberal. Namun, kenyataannya lebih kompleks, dan sayap kanan bukan hanya kebalikan dari sayap kiri.
+Gagasan utama dari diagram Nolan adalah bahwa perbedaan utama antara berbagai filosofi politik, faktor penentu yang sesungguhnya, terletak pada tingkat kontrol pemerintah terhadap tindakan manusia, baik dalam ranah pribadi maupun ekonomi.
 
+Dengan kata lain, bukan hanya poros kiri-kanan yang mencerminkan nilai-nilai pribadimu, tetapi juga poros atas-bawah yang mencerminkan sejauh mana kamu bersedia menggunakan kekuatan untuk memaksa orang lain mengikuti nilai-nilaimu.
 
+Dari sudut pandang ini, kanan dan kiri memiliki tujuan politik yang sama, yaitu memenangkan kekuasaan agar mereka dapat mengatur masyarakat sesuai dengan visi mereka tentang dunia dan memaksakannya kepada semua orang.
 
-Memang, kebijakan yang diambil oleh pemerintah sayap kanan dan kiri selama beberapa dekade terakhir tidak berbeda secara fundamental, dan tidak ada yang benar-benar liberal dalam pengertian klasik Eropa.
+Inilah definisi dari statisme, yaitu penggunaan undang-undang untuk mengontrol dan membentuk masyarakat.
 
-
-
-Ide utama dari diagram Nolan adalah bahwa perbedaan utama antara filosofi politik, faktor penentu yang sebenarnya, adalah tingkat kontrol pemerintah terhadap tindakan manusia dalam bidang pribadi dan ekonomi.
-
-
-
-Dengan kata lain, tidak hanya sumbu kiri-kanan yang mencerminkan nilai-nilai pribadi Anda, tetapi juga sumbu atas-bawah yang mencerminkan kesediaan Anda untuk menggunakan kekuatan untuk memaksa orang lain mengikuti nilai-nilai Anda.
-
-
-
-Dari sudut pandang ini, kanan dan kiri memiliki tujuan politik yang sama: untuk memenangkan kekuasaan sehingga mereka dapat mengatur masyarakat sesuai dengan visi mereka tentang dunia dan memaksakannya pada semua orang.
-
-
-
-Ini adalah definisi dari statisme: menggunakan undang-undang untuk mengontrol dan membentuk masyarakat.
-
-
-
-Inilah sebabnya mengapa kita dapat mengatakan bahwa beberapa orang adalah **statist sayap kanan**, sementara yang lain adalah **statist sayap kiri** atau condong ke tengah.
-
+Karena itulah kita bisa mengatakan bahwa sebagian orang adalah statist sayap kanan, sementara yang lain adalah **statist sayap kiri** atau condong ke tengah.
 
 
 ![Libertes Graphique](./assets/fr/013.webp)
 
 
 
-Bagi sebagian orang, hal ini dilakukan atas nama membela peradaban, bagi sebagian yang lain, hal ini dilakukan atas nama membela kelas pekerja, alam, atau kaum tertindas. Dan kaum sentris juga menyetujui hal ini, jika hal ini sesuai dengan mereka.
+Bagi sebagian orang, hal ini dilakukan atas nama membela peradaban, bagi sebagian yang lain atas nama membela kelas pekerja, alam, atau kaum tertindas. Kaum sentris juga menyetujui hal ini, selama dianggap sesuai dengan kepentingan mereka.
 
+Sayap kanan percaya bahwa moralitas pribadi adalah hal yang paling penting, sehingga mereka siap memberikan kebebasan dalam hal kepemilikan dan ekonomi. Di sisi lain, mereka ingin secara bersamaan menetapkan undang-undang yang mengatur moralitas dan agama.
 
-
-Sayap kanan percaya bahwa moralitas pribadi adalah hal yang paling penting, sehingga mereka siap untuk memberikan kebebasan dalam hal properti dan ekonomi. Di sisi lain, mereka ingin membuat undang-undang tentang moralitas dan agama secara bersamaan.
-
-
-
-Sementara itu, kelompok kiri tidak terlalu mementingkan persyaratan moral dan agama tradisional. Tidak terlalu mementingkan keadilan ilahi, namun lebih mementingkan keadilan sosial, atau mungkin dengan gagasan bahwa keadilan ilahi *akan* menjadi keadilan sosial. Bagi mereka, distribusi imbalan yang tepat dalam masyarakat dipandang sebagai masalah keputusan yudisial atau politik. Oleh karena itu, kaum kiri politik memusuhi kebebasan ekonomi dan pasar bebas, yang tampaknya tidak mendistribusikan kekayaan dan imbalan sesuai dengan kebutuhan individu.
+Sementara itu, kelompok kiri tidak terlalu mementingkan persyaratan moral dan agama tradisional. Mereka juga tidak terlalu menekankan keadilan ilahi, melainkan lebih mementingkan keadilan sosial, atau mungkin gagasan bahwa keadilan ilahi akan terwujud sebagai keadilan sosial. Bagi mereka, distribusi imbalan yang dianggap tepat dalam masyarakat dipandang sebagai persoalan keputusan yudisial atau politik. Oleh karena itu, kaum kiri politik cenderung memusuhi kebebasan ekonomi dan pasar bebas, yang dianggap tidak mendistribusikan kekayaan dan imbalan sesuai dengan kebutuhan individu.
 
 
 
@@ -412,7 +392,7 @@ Konservatisme budaya adalah kepatuhan pribadi terhadap apa yang disebut nilai-ni
 
 
 
-Jika Anda seorang konservatif budaya, Anda mendukung keluarga tradisional, etika kebajikan, dan kepercayaan pada Tuhan. Konservatif budaya percaya bahwa manusia, untuk menjadi bahagia, membutuhkan peningkatan jiwa, nilai-nilai spiritual, dan kemuliaan perasaan.
+Jika kamu seorang konservatif budaya, kamu mendukung keluarga tradisional, etika kebajikan, dan kepercayaan kepada Tuhan. Konservatif budaya percaya bahwa manusia, untuk bisa bahagia, membutuhkan pengembangan jiwa, nilai-nilai spiritual, dan keluhuran perasaan.
 
 
 
@@ -424,7 +404,7 @@ Secara politis, konservatif budaya sering kali bergabung dengan barisan konserva
 
 
 
-Sebagai contoh, seseorang dapat mempertahankan tradisi budaya (seperti keluarga, agama, atau adat istiadat setempat) dalam kehidupan pribadi atau komunitasnya, sambil mengadvokasi pemerintahan terbatas yang tidak memaksakan nilai-nilai ini melalui hukum. Orang seperti ini mungkin mendorong norma-norma konservatif melalui persuasi, pendidikan, atau memberikan contoh, sambil tetap menghormati hak orang lain untuk hidup dengan cara yang berbeda, sesuai dengan prinsip-prinsip libertarian.
+Sebagai contoh, seseorang bisa mempertahankan tradisi budaya seperti keluarga, agama, atau adat istiadat setempat dalam kehidupan pribadi atau komunitasnya, sambil mendukung pemerintahan yang terbatas dan tidak memaksakan nilai-nilai tersebut melalui hukum. Orang seperti ini mungkin mendorong norma-norma konservatif lewat persuasi, pendidikan, atau dengan memberi teladan, sambil tetap menghormati hak orang lain untuk hidup dengan cara yang berbeda, sesuai dengan prinsip-prinsip libertarian.
 
 
 
@@ -459,7 +439,7 @@ Di Eropa dan Amerika Serikat, beberapa kata tertentu tidak lagi memiliki arti ya
 
 
 
-Di Amerika Utara, *liberalisme* diklasifikasikan di sebelah kiri dan disamakan dengan progresivisme. Bahkan, kaum *liberal* Amerika telah menjadi pendukung intervensi negara dan *Pemerintah Besar*. Evolusi historis ini sangat kontras dengan makna yang terus berlanjut dari istilah liberal dan konservatif di Eropa.
+Di Amerika Utara, *liberalisme* diklasifikasikan di sebelah kiri dan disamakan dengan ideologi progresif. Bahkan, kaum *liberal* Amerika telah menjadi pendukung intervensi negara dan *Pemerintah Besar*. Evolusi historis ini sangat kontras dengan makna yang terus berlanjut dari istilah liberal dan konservatif di Eropa.
 
 
 
@@ -471,7 +451,7 @@ Inilah sebabnya mengapa istilah *liberal* menyesatkan bagi orang Eropa. Politik 
 
 
 
-Secara historis, *liberalisme* Amerika telah mendukung intervensionisme negara yang signifikan (*New Deal* Franklin Delano Roosevelt dan *Great Society* Lyndon B. Johnson), termasuk redistribusi kekayaan dan program-program sosial. Di Amerika Serikat, istilah *liberal* oleh karena itu diasosiasikan dengan kebijakan sayap kiri atau sosial-demokratik, seperti asuransi kesehatan publik dan rencana anti-kemiskinan publik.
+Secara historis, *liberalisme* Amerika telah mendukung campur tangan negara yang signifikan (*New Deal* Franklin Delano Roosevelt dan *Great Society* Lyndon B. Johnson), termasuk redistribusi kekayaan dan program-program sosial. Di Amerika Serikat, istilah *liberal* oleh karena itu diasosiasikan dengan kebijakan sayap kiri atau sosial-demokratik, seperti asuransi kesehatan publik dan rencana anti-kemiskinan publik.
 
 
 
@@ -509,7 +489,7 @@ Anarkis sosialis seperti Mikhail Bakunin dan Pierre Kropotkin melihat kepemilika
 
 
 
-Seorang anarkis mungkin akan mengadvokasi komune-komune yang dikelola sendiri, koperasi, atau gerakan anti-hierarki, sambil menolak otoritas negara dan struktur kapitalis.
+Seorang anarkis mungkin akan mengadvokasi kelompok-kelompok yang dikelola sendiri, koperasi, atau gerakan anti-hierarki, sambil menolak otoritas negara dan struktur kapitalis.
 
 
 

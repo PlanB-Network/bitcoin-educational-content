@@ -1,4 +1,4 @@
-question: `wpkh` ใน descriptor หมายถึงอะไร?
+question: "`wpkh` ใน descriptor หมายถึงอะไร?"
 answer: จ่าย-เพื่อ-เป็นพยาน-กุญแจสาธารณะ-Hash
 wrong_answers:
   - จ่ายไปยังคีย์สาธารณะ

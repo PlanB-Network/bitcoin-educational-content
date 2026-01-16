@@ -3,10 +3,10 @@ name: Au cœur de la géopolitique de Bitcoin
 goal: Expliquer pourquoi la monnaie en général, et Bitcoin en particulier, sont des objets géopolitiques.
 
 objectives:
-  -	Comprendre la manière dont le protocole Bitcoin repose sur un jeu subtil d’incitations pour ses parties prenantes
-  -	Analyser des cas concrets d’utilisation de bitcoins, s’inscrivant dans des situations à différentes échelles
-  -	Déterminer la manière dont les individus, les entreprises et les États s’approprient de manière croissante cet instrument
-  -	Anticiper, évaluer et nuancer les risques pouvant peser sur le protocole 
+  - Comprendre la manière dont le protocole Bitcoin repose sur un jeu subtil d'incitations pour ses parties prenantes
+  - Analyser des cas concrets d'utilisation de bitcoins, s'inscrivant dans des situations à différentes échelles
+  - Déterminer la manière dont les individus, les entreprises et les États s'approprient de manière croissante cet instrument
+  - Anticiper, évaluer et nuancer les risques pouvant peser sur le protocole
 
 ---
 

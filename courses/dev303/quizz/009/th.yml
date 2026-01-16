@@ -1,11 +1,12 @@
-question: คำสั่ง `cargo new project_name` จะสร้างโครงสร้างโปรเจกต์ดังนี้:
+question: |
+  คำสั่ง `cargo new project_name` จะสร้างโครงสร้างโปรเจกต์ดังนี้:
 
-```
-project_name
-├── Cargo.toml
-└── src
-    └── main.rs
-```
+  ```
+  project_name
+  ├── Cargo.toml
+  └── src
+      └── main.rs
+  ```
 answer: ที่เก็บ Git, ไฟล์ Cargo.toml, และไฟล์ main.rs พื้นฐานพร้อมโปรแกรม Hello World
 wrong_answers:
   - เฉพาะไฟล์การกำหนดค่า Cargo.toml และโครงสร้างไดเรกทอรีต้นทางที่ว่างเปล่า

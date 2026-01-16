@@ -1,4 +1,4 @@
-question: "Seal Definition" ในบริบทของ RGB Assignment คืออะไร?
+question: '"Seal Definition" ในบริบทของ RGB Assignment คืออะไร?'
 answer: การอ้างอิงถึง UTXO ที่กำหนดความเป็นเจ้าของของ Owned State
 wrong_answers:
   - การจัดกลุ่มข้อมูลที่แลกเปลี่ยนระหว่างคู่สัญญา ภายใต้ Client-side Validation

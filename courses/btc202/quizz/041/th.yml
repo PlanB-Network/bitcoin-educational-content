@@ -1,4 +1,4 @@
-question: แอปพลิเคชันที่สามารถติดตั้งผ่าน Umbrel ได้แก่:
+question: "แอปพลิเคชันที่สามารถติดตั้งผ่าน Umbrel ได้แก่:"
 answer: Nextcloud
 wrong_answers:
   - Google Drive

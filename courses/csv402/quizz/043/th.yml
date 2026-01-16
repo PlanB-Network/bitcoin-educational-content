@@ -1,4 +1,4 @@
-question: "RGB state transition" แทนถึงอะไรในบริบทของ Lightning Network?
+question: '"RGB state transition" แทนถึงอะไรในบริบทของ Lightning Network?'
 answer: อัปเดตการจัดสรรสินทรัพย์ RGB รวมเข้ากับธุรกรรมข้อผูกพันแล้ว
 wrong_answers:
   - สถานะใหม่ของ multisig 2/2 บนเชน

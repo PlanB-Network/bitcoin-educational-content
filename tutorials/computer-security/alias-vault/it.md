@@ -7,7 +7,7 @@ description: Potente tool per gestire password, autenticazione a due fattori e a
 
 La privacy e la sicurezza online sono un argomento che chiunque, a prescindere dalla propria attività, dovrebbe tenere in grande considerazione.
 
-Questi questioni sono, inoltre, parte di un mondo in continuo fermento: sempre più sviluppatori partecipano al tema, portando implementazioni a soluzioni già consolidate e nuovi prodotti.
+Queste questioni sono, inoltre, parte di un mondo in continuo fermento: sempre più sviluppatori partecipano al tema, portando implementazioni a soluzioni già consolidate e nuovi prodotti.
 
 È il caso di **Leendert de Borst** e del suo `Alias Vault`, un rivoluzionario strumento (il primo nel suo genere) che consente di gestire e memorizzare le password, usare i record delle stesse per autenticarsi ai servizi web, amministrare l'autenticazione a due fattori, ma soprattutto generare veri e propri _alias_, tutto in un'unica interfaccia.
 

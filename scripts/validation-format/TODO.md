@@ -125,18 +125,19 @@ Note: Some content types show validation errors due to schema drift (schemas nee
 
 ---
 
-## Phase 5: Create Validate-All Wrapper (Optional)
+## Phase 5: Create Validate-All Wrapper ✓
 
 ### 5.1 Create bulk validation script
-- [ ] Create `scripts/validation-format/validate_all.py`
-- [ ] Iterate over all content folders
-- [ ] Call `validate.py` for each
-- [ ] Aggregate results
-- [ ] Support filtering by content type (`--courses-only`, `--tutorials-only`, `--resources-only`)
+- [x] Create `scripts/validation-format/validate_all.py`
+- [x] Iterate over all content folders
+- [x] Call `validate.py` for each
+- [x] Aggregate results
+- [x] Support filtering by content type (`--courses-only`, `--tutorials-only`, `--resources-only`, `--type`)
 
 ### 5.2 Generate reports
-- [ ] Summary report in terminal
-- [ ] Optional HTML report (`--html-report`)
+- [x] Summary report in terminal (with progress bar)
+- [x] JSON output (`--json`)
+- [ ] Optional HTML report (`--html-report`) - deferred
 
 ---
 
@@ -201,6 +202,6 @@ python scripts/validation-format/validate_all.py --resources-only
 - [ ] Not started
 - [x] Completed
 
-**Current Phase**: Phase 4 Complete
+**Current Phase**: Phase 5 Complete
 
-**Last Updated**: 2026-01-16 - Phase 1-4 completed (schemas centralized, paper schema added, validator with JSON output and exit codes)
+**Last Updated**: 2026-01-16 - Phase 1-5 completed (schemas centralized, paper schema added, validator with JSON output and exit codes, bulk validation wrapper)

@@ -542,7 +542,8 @@ class SchemaValidator:
             return [result]
 
         # Get all quiz subfolders (numbered folders like 000, 001, etc.)
-        quiz_subfolders = sorted([d for d in quizz_folder.iterdir() if d.is_dir()])
+        # Skip hidden folders (starting with '.')
+        quiz_subfolders = sorted([d for d in quizz_folder.iterdir() if d.is_dir() and not d.name.startswith('.')])
 
         if not quiz_subfolders:
             result = ValidationResult(file_path=str(quizz_folder))
@@ -651,7 +652,10 @@ class SchemaValidator:
                         results.append(result)
             else:
                 # Validate .md content files
+                # Skip presentation.md as it has no frontmatter requirements
                 for md_file in folder.glob("*.md"):
+                    if md_file.name == "presentation.md":
+                        continue  # Skip presentation files - they don't have frontmatter
                     if content_schema:
                         result = self.validate_markdown_content(md_file, content_schema)
                     else:

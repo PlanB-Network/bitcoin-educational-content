@@ -54,9 +54,9 @@ def load_difficulty_dict():
     return difficulty_dict
 
 
-def compute_reward(words, difficulty_factor, language_factor, urgency, base_fee, proofread_iteration):
-    euros_per_word = 0.0006
-    reward = (urgency * (euros_per_word * words * difficulty_factor * language_factor) + base_fee) * 2**(-proofread_iteration)
+def compute_reward(words, language_factor, urgency, base_fee, proofread_iteration):
+    dollars_per_word = 0.001
+    reward = (urgency * (dollars_per_word * words * language_factor) + base_fee) * 2**(-proofread_iteration)
     reward = round(reward, 2)
     return reward
 
@@ -132,21 +132,20 @@ def is_original(data, language):
 def evaluate_proofreading_reward(file_path, language):
     data = get_yml_content(file_path)
     words = get_words(file_path)
-    difficulty_factor = get_difficulty_factor(data)
 
     language_factors = load_supported_languages()
     language_factor = language_factors[language]
 
     proofread_iteration = get_proofreading_state(data, language)
     urgency = get_proofreading_property(data, language, 'urgency')
-    reward = compute_reward(words, difficulty_factor, language_factor, urgency, BASE_FEE, proofread_iteration)
+    reward = compute_reward(words, language_factor, urgency, BASE_FEE, proofread_iteration)
     return reward
     
 def update_proofreading_reward(file_path, language, evaluated_reward):
     data = get_yml_content(file_path)
     proofread_iteration = get_proofreading_state(data, language)
 
-    if proofread_iteration < 3:
+    if proofread_iteration < 2:
       reward = evaluated_reward
     else:
       reward = 0
@@ -186,4 +185,3 @@ def add_proofreading_contributor(data, language, contributor_names):
 
             entry['contributor_names'].append(contributor_names)
             break
-    

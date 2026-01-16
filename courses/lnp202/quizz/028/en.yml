@@ -1,5 +1,5 @@
 question: What is watchtower's role when it detects a cheating attempt?
-answer: Publish the court settlement
+answer: Publish the penalty transaction
 wrong_answers:
   - Close the channel cooperatively
   - Freeze funds

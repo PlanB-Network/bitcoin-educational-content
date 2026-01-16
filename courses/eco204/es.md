@@ -403,96 +403,65 @@ Esta clasificación de Bernholz pone de relieve la peligrosa progresión de la i
 
 En conclusión, hemos explorado una serie de tipos de inflación, empezando por términos comúnmente escuchados como "inflación sigilosa", "inflación andante" e "inflación galopante", cada uno de los cuales denota diferentes niveles de porcentajes de inflación dentro de una economía. Sin embargo, para nuestro estudio en profundidad de la hiperinflación, las categorías de inflación moderada, inflación alta e hiperinflación, descritas por Bernholz, resultan ser puntos de referencia cruciales.
 
-
-
 - Inflación moderada:
 
-Indica un nivel de dinero Supply por encima de lo normal, aunque este nivel puede mantenerse sin una importante financiación deficitaria por parte del Estado.
-
-
+Indica un nivel de suministro de dinero por encima de lo normal, aunque este nivel puede mantenerse sin una importante financiación deficitaria por parte del Estado.
 
 - Inflación elevada:
 
-Se produce cuando el valor real del dinero Supply disminuye, a menudo debido a la sustitución monetaria, en la que los individuos buscan Exchange su moneda por bienes, servicios u otras formas de moneda.
-
-
+Se produce cuando el valor real del dinero disminuye, a menudo debido a la sustitución monetaria, en la que los individuos buscan cambiar su moneda por bienes, servicios u otras formas de moneda.
 
 - Hiperinflación:
 
 Representa una versión extrema de la alta inflación, en la que la creación excesiva de dinero para financiar grandes déficits presupuestarios conduce a una rápida erosión del valor real de la moneda.
 
+Lo que se desprende de nuestra exploración es que la hiperinflación es un fenómeno complejo y contraintuitivo. Aunque se podría suponer que la hiperinflación es el resultado de un aumento masivo del suministro monetario, en realidad se deriva de una disminución del valor real de ese suministro. Este matiz es crucial para entender por qué algunos países luchan por salir de la hiperinflación, incluso con el apoyo de instituciones internacionales como el Banco Mundial o el FMI. Caracterizar erróneamente el tipo de inflación puede llevar a aplicar remedios inadecuados, agravando los problemas económicos en lugar de resolverlos.
 
-Lo que se desprende de nuestra exploración es que la hiperinflación es un fenómeno complejo y contraintuitivo. Aunque se podría suponer que la hiperinflación es el resultado de un aumento masivo del Supply monetario, en realidad se deriva de una disminución del valor real de ese Supply monetario. Este matiz es crucial para entender por qué algunos países luchan por salir de la hiperinflación, incluso con el apoyo de instituciones internacionales como el Banco Mundial o el FMI. Caracterizar erróneamente el tipo de inflación puede llevar a aplicar remedios inadecuados, agravando los problemas económicos en lugar de resolverlos.
+En nuestros futuros debates profundizaremos en la hiperinflación, explorando sus definiciones y manifestaciones en diversos contextos económicos. Nuestro objetivo es descubrir los mecanismos subyacentes de la hiperinflación y explorar posibles soluciones para abordar este problema. Esta comprensión matizada nos permitirá comprender mejor los retos asociados y proponer estrategias informadas para gestionar la inflación.
 
-
-En nuestros futuros debates profundizaremos en la hiperinflación, explorando sus definiciones y manifestaciones en diversos contextos económicos. Nuestro objetivo es descubrir los mecanismos subyacentes de la hiperinflación y explorar posibles soluciones para Address este problema. Esta comprensión matizada nos permitirá comprender mejor los retos asociados y proponer estrategias informadas para gestionar la inflación.
-
-Gracias por su atención. La próxima sesión estará enteramente dedicada a definir y desmitificar la hiperinflación, considerando diversas perspectivas académicas y prácticas. Esperamos continuar esta exploración con ustedes en nuestra próxima reunión.
-
+Gracias por tu atención. La próxima sesión estará enteramente dedicada a definir y desmitificar la hiperinflación, considerando diversas perspectivas académicas y prácticas. Esperamos continuar esta exploración junto contigo en nuestra próxima reunión.
 
 # ¿Qué es la hiperinflación?
 
-
 <partId>3f541663-1e2f-5410-8ee0-f61c5d009fa5</partId>
-
 
 ## Definiciones de hiperinflación
 
-
 <chapterId>d2a71a2e-5f36-58d9-993c-d431f4aa07fd</chapterId>
-
 
 ### Definiciones de hiperinflación
 
-
 En esta sección, exploramos las diversas definiciones de hiperinflación, un término crucial en el estudio de los fenómenos monetarios extremos. La definición más reconocida procede de Philip Cagan, quien, en su obra de 1956, "The Monetary Dynamics of Hyperinflation", propone una comprensión cuantitativa de la hiperinflación. Según Cagan
-
-
 
 - Principio y fin de la hiperinflación:
   - La hiperinflación comienza cuando la inflación mensual supera el 50%.
   - Finaliza cuando la tasa de inflación cae por debajo del 50% mensual durante al menos un año.
 
-
 A modo de ejemplo, si la inflación cae al 40% en julio y no supera el 50% hasta julio del año siguiente, se considera que el periodo de hiperinflación ha finalizado en julio del año anterior al año en que se observó por primera vez. Esta definición permite una caracterización precisa de los episodios de hiperinflación, facilitando un análisis estructurado.
-
 
 Esta definición se ha adoptado en la tabla Hanke-Krus, que documenta 56 episodios de hiperinflación. Sin embargo, la tabla no cubre todos los episodios, como el de Venezuela en 2016, que eleva el total a 57.
 
-
 ![image](assets/es/033.webp)
-
 
 zoom
 
-
 ![image](assets/es/034.webp)
-
 
 Cabe señalar que esta definición, aunque precisa, podría excluir algunos episodios de hiperinflación debido a la rigurosidad del umbral del 50%. Existe la posibilidad de ampliar esta definición para incluir otros episodios que, aunque no cumplan estrictamente los criterios de Cagan, representen no obstante periodos de inflación extremadamente elevada. Esta observación abre la puerta a una exploración más amplia de los fenómenos de hiperinflación, permitiendo una comprensión más matizada de sus causas y efectos. En discusiones posteriores, consideraremos la posibilidad de revisar esta definición y examinar episodios de hiperinflación no cubiertos por los estrictos criterios de Cagan.
 
-
 ### La definición de hiperinflación por Cagan
-
 
 Es posible que Philip Cagan haya establecido un hito arbitrario con el umbral de inflación mensual del 50% al definir la hiperinflación. Él mismo admite que esta definición es arbitraria y sirve principalmente para su análisis basado en siete episodios de hiperinflación. El examen de los datos de Cagan revela que los tres episodios de hiperinflación con las tasas de inflación mensual más bajas se situaron en torno al 47%, 46% y 57%. Parece que el umbral del 50% se eligió para abarcar estos casos en su estudio.
 
-
 ![image](assets/es/035.webp)
-
-
 
 - Contexto histórico:
 
 La definición de Cagan data de 1956 y se basa en un número limitado de episodios de hiperinflación disponibles en aquel momento.
 
-
-
 - Observaciones de Cagan:
 
 Según Cagan, ningún episodio alcanzó este umbral de alrededor del 50% sin progresar hacia una hiperinflación más grave, lo que podría justificar la elección de este umbral.
-
-
 
 - Crítica a la definición de Cagan:
 
@@ -500,120 +469,81 @@ Otros economistas, como Bernholz, autor de Régimen monetario e inflación, tamb
 
 Bernholz señala que existen episodios de alta inflación con las mismas características cualitativas que los episodios de hiperinflación, sin alcanzar el umbral del 50%.
 
-
 ![image](assets/es/036.webp)
-
 
 Esta reflexión nos lleva a cuestionar la rigidez de la definición tradicional de hiperinflación y pone de relieve la necesidad de revisar quizá este umbral incorporando más episodios y datos históricos. La definición de hiperinflación puede requerir flexibilidad para abarcar diversas manifestaciones de inflación extrema en diferentes contextos económicos e históricos.
 
-
 ### La definición de hiperinflación según el Consejo de Normas Internacionales de Contabilidad (CNIC)
-
 
 El IASB ofrece una perspectiva única sobre la hiperinflación, centrándose en las prácticas contables durante periodos de hiperinflación. Este enfoque es crucial para los contables y las empresas que operan en entornos hiperinflacionarios, donde el valor monetario fluctúa rápidamente. Las directrices del IASB identifican varios indicadores de hiperinflación:
 
-
-
-- Preferencia por activos no monetarios:**
+- **Preferencia por activos no monetarios:**
 
 Debido a la rápida depreciación del valor monetario, los particulares prefieren mantener el valor en bienes y no en moneda.
 
-
-
-- Valoración de bienes y servicios:**
+- **Valoración de bienes y servicios:**
 
 Los residentes no calculan el valor de los bienes y servicios en moneda local, lo que refleja una pérdida de confianza en la moneda local.
 
-
-
-- Indemnización por pérdida de valor monetario:**
+- **Indemnización por pérdida de valor monetario:**
 
 Los precios incorporan una compensación por la pérdida de valor monetario durante las compras a crédito, lo que ilustra el impacto de la inflación en las transacciones diarias.
 
-
-
-- Indexación de precios, salarios e intereses:**
+- **Indexación de precios, salarios e intereses:**
 
 Los precios, salarios e intereses se ajustan en función de un índice para compensar la inflación.
 
-
-
-- Inflación acumulada en tres años:**
+- **Inflación acumulada en tres años:**
 
 La inflación acumulada durante tres años se acerca al 100% (aproximadamente un 24% anual), lo que contrasta con la definición de Cagan de una inflación mensual del 50%.
 
-
 ![image](assets/es/037.webp)
-
 
 Según los criterios del IASB, varios países, como Argentina, Etiopía, Haití, Irán, Líbano, Sudán, Sudán del Sur, Surinam, Siria, Turquía, Venezuela, Yemen y Zimbabue, sufren actualmente hiperinflación.
 
-
 ![image](assets/es/038.webp)
-
 
 Esta definición proporcionada por el IASB se aleja del estricto umbral cuantitativo de Cagan al incorporar un análisis cualitativo de los comportamientos económicos y los ajustes prácticos ante la hiperinflación. Demuestra que la hiperinflación es un fenómeno complejo que requiere una comprensión multidimensional para captar sus implicaciones reales, en particular en el ámbito de la contabilidad, crucial para la estabilidad y la transparencia financiera de las empresas y los mercados.
 
-
 ### ¿Cuántas hiperinflaciones hay en total?
-
 
 Las definiciones comunes de hiperinflación, como la propuesta por Cagan, que estipula una tasa de inflación mensual del 50%, pueden resultar a veces confusas o excesivamente simplistas. Por ejemplo, dos países que experimentan tasas de inflación anuales del 1.000% y el 3.000% respectivamente pueden percibirse de forma diferente en función de la distribución mensual de esa inflación. Si ningún mes supera el umbral del 50%, según la definición de Cagan, esos países no se clasificarían como en estado de hiperinflación. Así pues, este planteamiento puede dar lugar a anomalías en la clasificación de la hiperinflación, especialmente cuando se comparan las inflaciones acumuladas a lo largo del año.
 
-
 ![image](assets/es/039.webp)
-
-
 
 - La obra de Cagan, "Dinámica monetaria de la hiperinflación", ofrece un análisis fundamental de la hiperinflación.
 - El libro de Bernholz, que estudia 30 periodos distintos de hiperinflación, amplía así el alcance del análisis.
 - La colección personal de David St-Onge (autor de este curso) de billetes de 36 periodos de hiperinflación permite una comprensión tangible e histórica.
 - La tabla Hanky Cross (versión de 2012, actualizada en 2016 con Venezuela), que enumera 57 periodos de hiperinflación según la definición de Cagan.
 
-
 Cabe señalar que ciertos periodos históricos de alta inflación no se incluyen en las tablas clásicas de hiperinflación, a menudo debido a estrictos criterios de clasificación. Por ejemplo, durante la Guerra de Independencia estadounidense, en noviembre de 1779, y durante la Guerra Civil estadounidense, en marzo de 1864, las tasas mensuales de inflación fueron del 47,4% y el 40% respectivamente. Estas tasas, aunque elevadas, no superan el umbral del 50% estipulado por Cagan, por lo que estos periodos quedan excluidos de la clasificación de casos de hiperinflación. Esta omisión pone de manifiesto las limitaciones de las definiciones rígidas y subraya la necesidad de una comprensión más matizada de la hiperinflación en toda su complejidad.
-
 
 ## Semejanzas entre Weimar y Zimbabue
 
-
 <chapterId>11eef458-aab8-5c63-8523-264d0ba69f5d</chapterId>
-
 
 ### Dos épocas, dos catástrofes
 
-
-En este capítulo examinaremos los efectos de la hiperinflación, centrándonos en las experiencias de Zimbabue y la República de Weimar. A lo largo de mi investigación, he dado prioridad a la exploración de testimonios directos de individuos que vivieron estos periodos de hiperinflación, en lugar de adoptar un enfoque puramente económico o estadístico.
-
+En este capítulo examinaremos los efectos de la hiperinflación, centrándonos en las experiencias de Zimbabue y la República de Weimar. A lo largo de esta investigación, hemos dado prioridad a la exploración de testimonios directos de individuos que vivieron estos periodos de hiperinflación, en lugar de adoptar un enfoque puramente económico o estadístico.
 
 Varios libros han sido especialmente informativos:
 
-
 ![image](assets/es/040.webp)
-
-
 
 - "Cuando el dinero muere", de Adam Ferguson, describe la hiperinflación posterior a la Primera Guerra Mundial en Alemania, Austria y Hungría.
 - Dos libros sobre la hiperinflación en Zimbabue, "Zimbabwe Warm Heart Ugly Face" y "Hard Boiled Egg Index", de Jérôme Gardner y Kudzai Joseph Gou Min-Yu, respectivamente, ofrecen conmovedores testimonios de un director general de una cadena de tiendas de ropa y un banquero agrícola sobre sus experiencias durante este tumultuoso periodo.
 
-
 ![image](assets/es/041.webp)
 
-
-Mientras consolidaba mis notas, observé numerosas similitudes entre las experiencias de hiperinflación en Zimbabue y la República de Weimar, a pesar de los 90 años de diferencia entre ambas. Identifiqué unas 17 similitudes, de las cuales 13 ilustraban una especie de progresión hacia el desastre económico descrito en estos testimonios. Estos fascinantes paralelismos demuestran la naturaleza repetitiva y devastadora de la hiperinflación a través del tiempo y de las fronteras. Hoy examinaremos estas similitudes y cómo describen una trayectoria preocupante durante los periodos de hiperinflación.
-
+Mientras consolidabamos nuestras notas, observamos numerosas similitudes entre las experiencias de hiperinflación en Zimbabue y la República de Weimar, a pesar de los 90 años de diferencia entre ambas. Identificamos unas 17 similitudes, de las cuales 13 ilustraban una especie de progresión hacia el desastre económico descrito en estos testimonios. Estos fascinantes paralelismos demuestran la naturaleza repetitiva y devastadora de la hiperinflación a través del tiempo y de las fronteras. Hoy examinaremos estas similitudes y cómo describen una trayectoria preocupante durante los periodos de hiperinflación.
 
 ### Análisis comparativo: Zimbabue y la República de Weimar
 
-
 El juego de las 14 diferencias
-
 
 #### 1. Escasez de dinero
 
-
 Cuando la moneda se deprecia a una velocidad vertiginosa, incluso los intentos más ambiciosos de inundar el mercado con nuevos billetes pueden resultar insuficientes. La incesante demanda de moneda tangible puede superar con creces la capacidad de los bancos centrales para producir billetes, creando crisis de liquidez sin precedentes.
-
 
 > Weimar: "Durante este mes se aumentará a casi 4.000 millones de marcos, cifra con la que se espera superar definitivamente la escasez de moneda."
 
@@ -621,9 +551,7 @@ Cuando la moneda se deprecia a una velocidad vertiginosa, incluso los intentos m
 
 #### 2. "¡Y eso es estiércol!"
 
-
 La velocidad a la que la moneda puede perder su valor en determinadas situaciones económicas es asombrosa. Pueden emitirse cantidades astronómicas de billetes en un tiempo récord, transformando instantáneamente sumas antaño considerables en algo tan insignificante como el estiércol.
-
 
 > Weimar: "La emisión total actual asciende a 63.000 billones. Dentro de unos días, por tanto, podremos emitir dos tercios de la circulación total en un solo día."
 
@@ -639,12 +567,9 @@ En determinadas circunstancias económicas, el valor intrínseco de un billete p
 
 ![image](assets/es/042.webp)
 
-
 #### 4. Contar dinero
 
-
-Cuando la moneda pierde rápidamente su valor, incluso las transacciones más sencillas pueden convertirse en tareas laboriosas. Calcular el precio de un artículo o simplemente contar los billetes necesarios para el pago puede llevar varios minutos, lo que añade un Layer de complejidad a las interacciones cotidianas.
-
+Cuando la moneda pierde rápidamente su valor, incluso las transacciones más sencillas pueden convertirse en tareas laboriosas. Calcular el precio de un artículo o simplemente contar los billetes necesarios para el pago puede llevar varios minutos, lo que añade una capa de complejidad a las interacciones cotidianas.
 
 > Weimar: "La compra más ordinaria en una tienda requería tres o cuatro minutos de cálculo, y una vez determinado el precio, solían necesitarse varios minutos más para contar los billetes."
 
@@ -654,47 +579,32 @@ Cuando la moneda pierde rápidamente su valor, incluso las transacciones más se
 
 Técnica uzbeka para contar dinero
 
-
 #### 5. Pagos por cheque
-
 
 En las economías perturbadas, los métodos de pago tradicionales, como los cheques, pueden perder rápidamente su eficacia. Los bancos, abrumados por la creciente demanda de divisas debida a la hiperinflación, pueden racionar o retrasar el cobro de cheques, reduciendo así su valor real. Esta inestabilidad conduce a menudo a una priorización de los métodos de pago, donde los precios pueden variar en función del método de pago elegido.
 
-
 > Weimar: "El aumento de los precios intensificó la demanda de dinero, tanto por parte del Estado como de otros empresarios. Los bancos privados no podían satisfacer la demanda en absoluto y tuvieron que racionar el cobro de cheques, por lo que los cheques no cobrados permanecieron congelados mientras disminuía su poder adquisitivo."
-> Zimbabue: "El valor temporal del dinero creó tres precios para los bienes y servicios: un precio en efectivo, un precio de liquidación bruta en tiempo real y un precio en cheque. Al final, nadie aceptaba cheques, que tardaban cinco días en cobrarse"
-
-
+> Zimbabue: "El valor temporal del dinero creó tres precios para los bienes y servicios: Un precio en efectivo, un precio de liquidación bruta en tiempo real y un precio en cheque. Al final, nadie aceptaba cheques, que tardaban cinco días en cobrarse"
 
 #### 6. Los "quemadores-empresarios"
 
-
 A medida que el valor de la moneda se erosiona, surgen nuevas oportunidades económicas que explotan las distorsiones del mercado. Estos empresarios, a menudo denominados "Burner-preneurs", pueden prosperar tomando prestada moneda devaluada para invertir en activos tangibles y luego devolver sus deudas con moneda aún más devaluada.
-
 
 Weimar: "La especulación con la inflación consistía en pedir prestados marcos de papel, convertirlos en bienes y fábricas, y luego devolver el dinero a los prestamistas con papel depreciado."
 
-
 Zimbabue: Los "quemadores-empresarios"
 
-
-#### 7. La honestidad y el trabajo de Hard pierden atractivo
-
+#### 7. La honestidad y el trabajo duro pierden atractivo
 
 En contextos económicos inestables, los valores tradicionales de trabajo, ahorro e integridad pueden verse eclipsados por el atractivo de la riqueza rápida. La especulación y el comercio de divisas suelen ofrecer recompensas mucho mayores que el trabajo normal, lo que altera las prioridades de la sociedad.
 
+Weimar: "A medida que las viejas virtudes del ahorro, la honradez y el trabajo duro perdían su atractivo, todo el mundo buscaba enriquecerse rápidamente, sobre todo porque la especulación monetaria o bursátil podía aparentemente rendir mucho más que el trabajo."
 
-Weimar: "A medida que las viejas virtudes del ahorro, la honradez y el trabajo Hard perdían su atractivo, todo el mundo buscaba enriquecerse rápidamente, sobre todo porque la especulación monetaria o bursátil podía aparentemente rendir mucho más que el trabajo."
-
-
-Zimbabue: "Estas prácticas, al tiempo que enriquecían a unos pocos individuos, empobrecían a la clase trabajadora urbana y a la población rural. La educación perdió su valor, ya que este comercio estaba dirigido por personas que no necesitaban educación ni trabajo Hard para justificarlo. Todo lo que necesitaban eran contactos y un capital inicial para empezar su negocio de dinero fácil"
-
+Zimbabue: "Estas prácticas, al tiempo que enriquecían a unos pocos individuos, empobrecían a la clase trabajadora urbana y a la población rural. La educación perdió su valor, ya que este comercio estaba dirigido por personas que no necesitaban educación ni trabajo para justificarlo. Todo lo que necesitaban eran contactos y un capital inicial para empezar su negocio de dinero fácil"
 
 ![image](assets/es/043.webp)
 
-
 #### 8. Los "bancos del mundo
-
 
 En situaciones de hiperinflación o crisis monetaria, suelen surgir mercados paralelos y no regulados de divisas. Estos "bancos" informales, a menudo denominados con humor "bancos mundiales" o con otros nombres locales, sirven de refugio a quienes buscan proteger sus activos de la devaluación. Aunque estos mercados pueden proporcionar un salvavidas económico necesario, a menudo ponen de manifiesto la desconfianza generalizada en las instituciones financieras oficiales y las políticas gubernamentales.
 
@@ -704,61 +614,43 @@ Zimbabue: "También eran cambistas de moneda. Operaban impunemente entre la 2ª 
 
 Argentina: "Así que fui a donde van todos los argentinos: las cuevas, que se encuentran en el barrio de Florida, en el corazón de Buenos Aires." - TheBigWhale
 
-
 #### 9. Los cambios de divisas eran ilegales
-
 
 Los gobiernos, en un esfuerzo por estabilizar su propia moneda y controlar el flujo de capitales, pueden declarar ilegales estas transacciones de divisas. Estas medidas represivas, aunque pretenden proteger la economía nacional, a menudo pueden tener el efecto contrario, exacerbando la desconfianza pública y fomentando el mercado negro.
 
-
-Weimar: "La gente recurre al trueque y gradualmente pasa a utilizar divisas extranjeras como único medio fiable de Exchange. Se introducen nuevos decretos relativos a la compra de letras extranjeras y al uso de divisas para pagos nacionales. Se introdujeron nuevos decretos sobre la compra de letras extranjeras y el uso de divisas para pagos nacionales. Además de penas de prisión, ahora se podían imponer multas de hasta diez veces el importe de una transacción ilegal."
-
+Weimar: "La gente recurre al trueque y gradualmente pasa a utilizar divisas extranjeras como único medio fiable de intercambio. Se introducen nuevos decretos relativos a la compra de letras extranjeras y al uso de divisas para pagos nacionales. Se introdujeron nuevos decretos sobre la compra de letras extranjeras y el uso de divisas para pagos nacionales. Además de penas de prisión, ahora se podían imponer multas de hasta diez veces el importe de una transacción ilegal."
 
 Zimbabue: "Las redadas en los comercios llevaron al encarcelamiento de varios empresarios de Bulawayo durante el fin de semana y a multas equivalentes al doble del importe de las divisas recuperadas, esta valentía luego remitió"
 
-
 #### 10. Control de capitales
-
 
 Cuando un país se enfrenta a una crisis monetaria o económica, una respuesta habitual de los gobiernos es ejercer un estricto control sobre los movimientos y las formas de capital. Ya sea mediante órdenes que obligan a aceptar monedas nacionales devaluadas o mediante severas sanciones contra quienes rechazan determinados métodos de pago, estas medidas suelen tener por objeto contener el pánico y restablecer la confianza. Sin embargo, su eficacia varía, y a veces estas medidas pueden resultar contraproducentes o estar desconectadas de la realidad que viven los ciudadanos.
 
 Weimar: "Recientemente, un nuevo decreto había obligado a los comerciantes a aceptar billetes del Estado; pero como también permitía seguir utilizando monedas extranjeras para todas las compras, los comerciantes en general encontraban excusas para no aceptar casi nada más."
 
-
-Zimbabue: "El gobierno introdujo el SI 175/2008 el 12 de diciembre de 2008, relativo al pago con cheques. Decía: 'La sanción por negarse a pagar con cheque/tarjeta bancaria o cualquier otro método de pago electrónico mediado por un banco será una multa de nivel 8 o una pena de prisión de seis meses o ambas' Obviamente, ignoramos la IS porque estaba completamente fuera de la realidad"
-
+Zimbabue: "El gobierno introdujo el SI 175/2008 el 12 de diciembre de 2008, relativo al pago con cheques. Decía: 'La sanción por negarse a pagar con cheque/tarjeta bancaria o cualquier otro método de pago electrónico mediado por un banco será una multa de nivel 8 o una pena de prisión de seis meses o ambas' Obviamente, ignoramos el SI porque estaba completamente fuera de la realidad"
 
 ![image](assets/es/044.webp)
 
-
 #### 11. Obligados a mantener abiertas sus tiendas
-
 
 Cuando la economía se hunde y la moneda pierde su valor, los gobiernos pueden recurrir a medidas drásticas para mantener una apariencia de normalidad.
 
-
-Weimar: "Los comerciantes que continuaban con sus actividades estaban sujetos a una nueva ordenanza, promulgada el 22 de octubre, que les obligaba a mantener abiertas sus tiendas y ofrecer mercancías en Exchange a cambio de marcos de papel."
-
+Weimar: "Los comerciantes que continuaban con sus actividades estaban sujetos a una nueva ordenanza, promulgada el 22 de octubre, que les obligaba a mantener abiertas sus tiendas y ofrecer mercancías a cambio de marcos de papel."
 
 Zimbabue: "Sólo quedaban estanterías de acero vacías y frigoríficos, neveras y congeladores. Lo trágico era que la tienda seguía abierta porque no se atrevían a cerrar debido a las tensiones políticas y al miedo de los dirigentes a ser detenidos por la fuerza de control de precios del gobierno. Ni siquiera se despidió a los trabajadores porque todos pensaban que habría una solución rápida"
 
-
 #### 12. Todo el mundo es un delincuente
-
 
 Ante una economía que se hunde y una normativa omnipresente, la línea que separa la supervivencia de la delincuencia se difumina.
 
-
 Weimar: "Todos los crímenes contra el Estado, todos y cada uno de ellos, en mayor o menor grado, se convirtieron en una cuestión de supervivencia para los individuos."
-
 
 > Zimbabue: "Todos los residentes en Zimbabue eran delincuentes. Por duro que pueda sonar, era cierto. Con la miríada de pequeñas leyes que rigen todos los aspectos de la vida, era inevitable que todo el mundo infringiera una ley cada día. Poseer moneda extranjera era ilegal, según un SI publicado en 2004. Tener varias cuentas bancarias para saltarse el límite de reintegro diario era ilegal. No tener las matrículas adecuadas en el coche, o una licencia de radio de coche, o un permiso de generador, eran todas leyes que alguien, en algún lugar, infringía"
 
 #### 13. Comprar divisas a cualquier precio
 
-
 La compra frenética de divisas ha marcado a menudo un punto de inflexión crítico en la devaluación de la moneda, exacerbando la caída de su valor intrínseco.
-
 
 > Weimar: "Fritz Mannheimer, siguiendo instrucciones de su jefe, salió en agosto de 1921 y empezó a comprar divisas extranjeras a cualquier precio - 'porque Alemania tenía una cantidad infinita de marcos de papel pero no de divisas extranjeras' Esta fue la primera señal del hundimiento absoluto del valor del marco."
 
@@ -766,39 +658,27 @@ La compra frenética de divisas ha marcado a menudo un punto de inflexión crít
 
 ### Resumen del proceso
 
-
 ![image](assets/es/045.webp)
 
+Al analizar la trayectoria económica, se observa que cuando se alcanza una inflación elevada, el valor de la masa monetaria se deteriora. Esta devaluación provoca varias complicaciones, entre ellas la escasez de billetes. En este contexto, surgen oportunidades de arbitraje, sobre todo en respuesta a las fluctuaciones de los tipos de cambio. Como consecuencia, muchos particulares recurren a este arbitraje, invirtiendo fuertemente en activos tangibles en previsión de una futura devaluación de la moneda que les permitiría pagar sus deudas con una moneda debilitada. Este entorno económico socava el atractivo de los empleos tradicionales y, en consecuencia, erosiona la cohesión social.
 
-Al analizar la trayectoria económica, se observa que cuando se alcanza una inflación elevada, el valor de la masa monetaria se deteriora. Esta devaluación provoca varias complicaciones, entre ellas la escasez de billetes. En este contexto, surgen oportunidades de arbitraje, sobre todo en respuesta a las fluctuaciones de los tipos Exchange. Como consecuencia, muchos particulares recurren a este arbitraje, invirtiendo fuertemente en activos tangibles en previsión de una futura devaluación de la moneda que les permitiría pagar sus deudas con una moneda debilitada. Este entorno económico socava el atractivo de los empleos tradicionales y, en consecuencia, erosiona la cohesión social.
-
-
-En respuesta a esta situación, el gobierno impone normativas draconianas, incluido el control de capitales. También obliga a los comerciantes a aceptar la moneda nacional y cheques. Con el tiempo, se promulgan nuevas leyes que amplían la definición de conducta delictiva. En última instancia, la tasa de Exchange sube exponencialmente, ya que el gobierno está dispuesto a Exchange su moneda, impresa a menor coste, por divisas extranjeras más robustas.
-
+En respuesta a esta situación, el gobierno impone normativas draconianas, incluido el control de capitales. También obliga a los comerciantes a aceptar la moneda nacional y cheques. Con el tiempo, se promulgan nuevas leyes que amplían la definición de conducta delictiva. En última instancia, la tasa de intercambio sube exponencialmente, ya que el gobierno está dispuesto a intercambiar su moneda, impresa a menor coste, por divisas extranjeras más robustas.
 
 ### 4 Similitudes en las consecuencias de la hiperinflación
 
-
 ![image](assets/es/046.webp)
-
 
 #### 1. Petróleo y metales
 
-
 Durante el periodo de Weimar en Alemania, el robo de materiales valiosos estaba tan extendido que era frecuente sustraer el plomo de los tejados. En Zimbabue, la desesperación llevó a algunos a interrumpir la red eléctrica para extraer aceite de los transformadores y utilizarlo en sus vehículos.
-
 
 Weimar: "Las placas metálicas de los monumentos nacionales tuvieron que ser retiradas para su custodia. Se robaron placas de timbre de latón de las puertas de la embajada británica en Berlín"
 
-
 Zimbabue: "Para empeorar las cosas, debido a la falta de divisas, hubo escasez de aceite lubricante para coches, y los transformadores se convirtieron en un blanco fácil para los ladrones que desviaban el aceite refrigerante durante los cortes de electricidad"
-
 
 #### 2. Trenes
 
-
 La devaluación de la moneda puede empujar a los ciudadanos a adoptar comportamientos de supervivencia, incluido el vandalismo. Ante el colapso de la economía, las costosas infraestructuras públicas, como los sistemas de transporte, pueden verse comprometidas, con consecuencias sociales desastrosas.
-
 
 > Weimar: "En Berlín, el sistema de tranvías dejó de funcionar por falta de fondos"
 
@@ -806,9 +686,7 @@ La devaluación de la moneda puede empujar a los ciudadanos a adoptar comportami
 
 #### 3. "Mealie Meal"
 
-
 En un contexto de salarios exiguos y economía inestable, las empresas se vieron obligadas a proporcionar alimentos a sus empleados para mantener la productividad y la eficiencia operativa. Esta iniciativa no era sólo una forma de compensar la escasez y los elevados costes de los alimentos, sino también una estrategia para retener al personal en un entorno económico difícil.
-
 
 > Weimar: "En Berlín, los empleados de oficina, que formaban una clase muy importante en la capital, tenían sueldos totalmente insuficientes que oscilaban entre 12.000 y 20.000 al mes (equivalentes a entre 12 y 19 libras al año), y que disminuían constantemente; pero la mayoría aún podía obtener sus almuerzos por una cantidad simbólica, proporcionada por sus oficinas, de modo que el cuerpo y el alma apenas podían mantenerse juntos."
 
@@ -816,15 +694,11 @@ En un contexto de salarios exiguos y economía inestable, las empresas se vieron
 
 #### 4. Cupones de gasolina
 
+Las poblaciones buscaban alternativas estables para las transacciones. En Weimar, productos como el latón y el combustible sirvieron como medios de intercambio debido a su constante valor intrínseco. En Zimbabue, ante la rápida devaluación del dólar zimbabuense, los cupones de gasolina, que representaban una cantidad fija de un producto esencial, se convirtieron en una moneda de facto. Estas situaciones ponen de relieve cómo las sociedades se adaptan a condiciones económicas extremas, ideando soluciones innovadoras para mantener el comercio y la economía.
 
-Las poblaciones buscaban alternativas estables para las transacciones. En Weimar, productos como el latón y el combustible sirvieron como medios de Exchange debido a su constante valor intrínseco. En Zimbabue, ante la rápida devaluación del dólar zimbabuense, los cupones de gasolina, que representaban una cantidad fija de un producto esencial, se convirtieron en una moneda de facto. Estas situaciones ponen de relieve cómo las sociedades se adaptan a condiciones económicas extremas, ideando soluciones innovadoras para mantener el comercio y la economía.
-
-
-Weimar: "El trueque ya era una forma habitual de Exchange; pero ahora, bienes como el latón y el combustible se convirtieron en la moneda común de compra y pago"
-
+Weimar: "El trueque ya era una forma habitual de intercambio; pero ahora, bienes como el latón y el combustible se convirtieron en la moneda común de compra y pago"
 
 Zimbabue: "Estos vales los utilizamos ahora para pagar el alquiler a los caseros, los impuestos municipales, las facturas de teléfono -de hecho, casi todo-, porque todo el mundo había dejado de aceptar pagos en dólares zimbabuenses y cheques"
-
 
 #### Conclusión
 

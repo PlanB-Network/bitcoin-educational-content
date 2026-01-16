@@ -144,13 +144,13 @@ Note: Some content types show validation errors due to schema drift (schemas nee
 ## Phase 6: Cleanup
 
 ### 6.1 Remove old files
-- [ ] Remove `docs/PBN-template-repo/scripts/schema_validator.py`
-- [ ] Remove old `scripts/validate_all.py` (if exists)
-- [ ] Remove schemas from `docs/PBN-template-repo/` subdirectories
+- [ ] Remove `docs/PBN-template-repo/scripts/schema_validator.py` - deferred (template may be standalone)
+- [ ] Remove old `scripts/validate_all.py` (if exists) - deferred (has HTML report feature)
+- [ ] Remove schemas from `docs/PBN-template-repo/` subdirectories - deferred (template is self-contained)
 
 ### 6.2 Update documentation
-- [ ] Update any references to old script locations
-- [ ] Add usage documentation to `scripts/validation-format/README.md`
+- [x] Update any references to old script locations (none found)
+- [x] Add usage documentation to `scripts/validation-format/README.md`
 
 ---
 
@@ -202,6 +202,6 @@ python scripts/validation-format/validate_all.py --resources-only
 - [ ] Not started
 - [x] Completed
 
-**Current Phase**: Phase 5 Complete
+**Current Phase**: Phase 6.2 Complete (documentation)
 
-**Last Updated**: 2026-01-16 - Phase 1-5 completed (schemas centralized, paper schema added, validator with JSON output and exit codes, bulk validation wrapper)
+**Last Updated**: 2026-01-16 - Phase 1-5 completed, Phase 6.2 documentation complete (schemas centralized, paper schema added, validator with JSON output and exit codes, bulk validation wrapper, README.md)

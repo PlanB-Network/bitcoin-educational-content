@@ -1,9 +1,9 @@
-question: What can seed LND restore on its own?
-answer: The onchain portfolio
+question: What can the LND seed restore on its own?
+answer: The onchain wallet
 wrong_answers:
   - Open channels
   - Channel states
   - Nothing
 explanation: |
-  The seed retrieves the Bitcoin onchain portfolio, but not the active Lightning channels.
+  The seed retrieves the Bitcoin onchain wallet, but not the active Lightning channels.
 reviewed: false

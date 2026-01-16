@@ -5,5 +5,5 @@ wrong_answers:
   - lnseed
   - BIP32
 explanation: |
-  LND uses a specific seed called aezeed, distinct from a classic seed BIP39.
+  LND uses a specific seed called aezeed, distinct from a classic BIP39 seed.
 reviewed: false

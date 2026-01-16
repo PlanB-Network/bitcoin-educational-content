@@ -1,7 +1,7 @@
 question: What must a Lightning node connect to?
 answer: A Bitcoin node
 wrong_answers:
-  - A minor
+  - A miner
   - A block explorer
   - A federated server
 explanation: |

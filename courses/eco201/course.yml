@@ -19,154 +19,154 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 30.58
+    reward: 19.15
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.96
+    reward: 12.8
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 11.48
+    reward: 6.4
   - language: es
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - lutxoitalico
-    reward: 11.48
+    reward: 6.4
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 30.58
+    reward: 19.15
   - language: fr
     last_contribution_date: 2025-12-04
     urgency: 1
     contributor_names:
       - nrak10
       - user28238
-    reward: 5.74
+    reward: 0
   - language: it
     last_contribution_date: 2024-03-27
     urgency: 1
     contributor_names:
       - TinF0ilHat1
-    reward: 11.48
+    reward: 6.4
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 38.21
+    reward: 31.86
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.96
+    reward: 12.8
   - language: ru
     last_contribution_date: 2024-09-09
     urgency: 1
     contributor_names:
       - Reshetenko
-    reward: 15.29
+    reward: 9.58
   - language: vi
     last_contribution_date: 2024-11-16
     urgency: 1
     contributor_names:
       - Henry-Da0
-    reward: 19.1
+    reward: 15.93
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 38.21
+    reward: 25.5
   - language: zh-Hans
     last_contribution_date: 2025-11-06
     urgency: 1
     contributor_names:
       - MilankovicProtocol
-    reward: 19.1
+    reward: 12.75
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 30.58
+    reward: 19.15
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 30.58
+    reward: 19.15
   - language: pl
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - MisinhaP
-    reward: 15.29
+    reward: 9.58
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 38.21
+    reward: 31.86
   - language: sr-Latn
     last_contribution_date: 2025-08-18
     urgency: 1
     contributor_names:
       - Sanja993
-    reward: 15.29
+    reward: 12.75
   - language: sw
     last_contribution_date: 2025-11-06
     urgency: 1
     contributor_names:
       - Tinnah924
-    reward: 15.29
+    reward: 9.58
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 38.21
+    reward: 25.5
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 30.58
+    reward: 19.15
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 22.96
+    reward: 12.8
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 30.58
+    reward: 19.15
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 38.21
+    reward: 25.5
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 38.21
+    reward: 25.5
   - language: rn
     last_contribution_date: 2025-10-31
     urgency: 1
     contributor_names:
       - Dahl23
-    reward: 19.1
+    reward: 15.93
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 30.58
+    reward: 19.15
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 38.21
+    reward: 25.5
 tags:
   - finance
   - market-trends

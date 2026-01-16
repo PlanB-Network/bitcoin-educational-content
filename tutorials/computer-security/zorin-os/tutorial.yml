@@ -17,9 +17,8 @@ proofreading:
     last_contribution_date: 2026-01-13
     urgency: 1
     contributor_names:
-    - Bened45
-    reward: 0
- 
+      - Bened45
+    reward: 0.59
 tags:
   - software
   - network-security

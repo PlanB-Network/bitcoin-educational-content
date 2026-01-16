@@ -20,140 +20,140 @@ proofreading:
     urgency: 1
     contributor_names:
       - heyolaniran
-    reward: 0.88
+    reward: 0.97
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.31
+    reward: 2.87
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.76
+    reward: 1.94
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.76
+    reward: 1.94
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.76
+    reward: 1.94
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.31
+    reward: 2.87
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.31
+    reward: 2.87
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.31
+    reward: 2.87
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.87
+    reward: 4.71
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.87
+    reward: 3.79
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.76
+    reward: 1.94
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.87
+    reward: 4.71
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.31
+    reward: 2.87
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.31
+    reward: 2.87
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.31
+    reward: 2.87
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.76
+    reward: 1.94
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.31
+    reward: 2.87
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.31
+    reward: 3.79
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.76
+    reward: 1.94
   - language: sw
     last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
       - Tinnah924
-    reward: 1.16
+    reward: 1.43
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.87
+    reward: 3.79
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.87
+    reward: 4.71
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.87
+    reward: 3.79
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.87
+    reward: 3.79
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.87
+    reward: 3.79
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.87
+    reward: 4.71
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.31
+    reward: 2.87
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.87
+    reward: 3.79

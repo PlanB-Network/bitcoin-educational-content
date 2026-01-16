@@ -1,0 +1,95 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Paper Schema",
+  "description": "Schema for validating paper.yml metadata files in resources/papers/",
+  "type": "object",
+  "required": [
+    "title",
+    "original_language",
+    "authors",
+    "abstract",
+    "paper_type",
+    "topics",
+    "pdf_url",
+    "id"
+  ],
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "The title of the paper",
+      "minLength": 1
+    },
+    "original_language": {
+      "type": "string",
+      "description": "ISO 639-1 language code of the original paper",
+      "pattern": "^[a-z]{2}(-[A-Z]{2})?$",
+      "default": "en"
+    },
+    "authors": {
+      "type": "array",
+      "description": "List of paper authors",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "abstract": {
+      "type": "string",
+      "description": "Paper abstract or summary",
+      "minLength": 10
+    },
+    "publication_date": {
+      "type": "string",
+      "description": "Publication date in YYYY-MM-DD format",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "paper_type": {
+      "type": "string",
+      "description": "Type of paper",
+      "enum": [
+        "whitepaper",
+        "conference",
+        "academic",
+        "pre-print",
+        "review",
+        "PhD Thesis",
+        "book"
+      ]
+    },
+    "source": {
+      "type": "string",
+      "description": "Publication source (journal, conference, website)",
+      "minLength": 1
+    },
+    "type": {
+      "type": "string",
+      "description": "Academic index type",
+      "enum": ["SCI", "SCIE", "SSCI"]
+    },
+    "category": {
+      "type": "string",
+      "description": "Academic category classification"
+    },
+    "topics": {
+      "type": "array",
+      "description": "List of topics covered by the paper",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "pdf_url": {
+      "type": "string",
+      "description": "URL to the PDF version of the paper",
+      "format": "uri"
+    },
+    "id": {
+      "type": "string",
+      "description": "Unique identifier (UUID format)",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    }
+  },
+  "additionalProperties": false
+}

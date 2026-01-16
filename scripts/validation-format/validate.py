@@ -171,6 +171,12 @@ CONTENT_TYPES: dict[str, ContentTypeConfig] = {
         content_schema_file="project-content-scheme.json",
         content_uses_yml=True,
     ),
+    "resources/papers": ContentTypeConfig(
+        name="Paper",
+        yaml_file="paper.yml",
+        schema_file="paper-scheme.json",
+        has_markdown_content=False,
+    ),
 }
 
 

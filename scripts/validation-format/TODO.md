@@ -49,40 +49,40 @@ Create a modular, centralized validation system for all content types in the rep
 
 ---
 
-## Phase 2: Create Paper Schema
+## Phase 2: Create Paper Schema ✓
 
 ### 2.1 Analyze paper structure
-- [ ] Document all fields found in existing `paper.yml` files:
+- [x] Document all fields found in existing `paper.yml` files:
   - `title` (required, string)
   - `original_language` (required, string, ISO 639-1)
   - `authors` (required, array of strings)
   - `abstract` (required, string, multiline)
   - `publication_date` (optional, string, YYYY-MM-DD)
-  - `paper_type` (required, enum: whitepaper, conference, academic)
-  - `source` (required, string)
-  - `type` (optional, enum: SCI, SCIE)
+  - `paper_type` (required, enum: whitepaper, conference, academic, pre-print, review, PhD Thesis, book)
+  - `source` (optional, string)
+  - `type` (optional, enum: SCI, SCIE, SSCI)
   - `category` (optional, string)
   - `topics` (required, array of strings)
   - `pdf_url` (required, string, URL format)
   - `id` (required, string, UUID format)
 
 ### 2.2 Create paper schema
-- [ ] Create `scripts/validation-format/schemas/paper-scheme.json`
-- [ ] Follow same JSON Schema format as other schemas (draft-07)
-- [ ] Define required vs optional fields
-- [ ] Add proper validation patterns (UUID, date, URL)
+- [x] Create `scripts/validation-format/schemas/paper-scheme.json`
+- [x] Follow same JSON Schema format as other schemas (draft-07)
+- [x] Define required vs optional fields
+- [x] Add proper validation patterns (UUID, date, URL)
 
 ---
 
-## Phase 3: Update Validator Script
+## Phase 3: Update Validator Script ✓
 
 ### 3.1 Add paper support
-- [ ] Add `resources/papers` to CONTENT_TYPES mapping
-- [ ] Map to `paper.yml` and `paper-scheme.json`
+- [x] Add `resources/papers` to CONTENT_TYPES mapping
+- [x] Map to `paper.yml` and `paper-scheme.json`
 
 ### 3.2 Fix schema path resolution
-- [ ] Update all schema path lookups to use `scripts/validation-format/schemas/`
-- [ ] Ensure relative path resolution works from any working directory
+- [x] Update all schema path lookups to use `scripts/validation-format/schemas/`
+- [x] Ensure relative path resolution works from any working directory
 
 ### 3.3 Verify all content types work
 - [ ] Test courses validation
@@ -200,6 +200,6 @@ python scripts/validation-format/validate_all.py --resources-only
 - [ ] Not started
 - [x] Completed
 
-**Current Phase**: Phase 1 Complete
+**Current Phase**: Phase 3 Complete
 
-**Last Updated**: 2026-01-16 - Phase 1 completed (schemas centralized, validator updated)
+**Last Updated**: 2026-01-16 - Phase 1-3 completed (schemas centralized, paper schema added, validator updated)

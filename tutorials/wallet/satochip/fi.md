@@ -1,6 +1,6 @@
 ---
 name: Satochip
-kuvaus: Satochip-älykortin käyttöönotto ja käyttäminen
+description: Satochip-älykortin käyttöönotto ja käyttäminen
 ---
 ![kansi](assets/cover.webp)
 

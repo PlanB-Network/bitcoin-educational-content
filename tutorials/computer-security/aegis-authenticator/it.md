@@ -129,7 +129,7 @@ Facciamo un esempio concreto di attivazione della 2FA su Bitwarden per illustrar
 
 *Esempio di attivazione 2FA su Bitwarden: interfaccia web con le opzioni di autenticazione e la raccomandazione Aegis*
 
-- **Accesso alle impostazioni**: accedi al proprio account Bitwarden e accedi alle impostazioni, scheda "Sicurezza";
+- **Accesso alle impostazioni**: accedi al tuo account Bitwarden e accedi alle impostazioni e poi alla scheda "Sicurezza";
 - **Sezione Provider**: accedi alla sezione "Provider" e fai clic su "Gestisci" nella sezione "Authenticator app".
 
 ![Configuration 2FA avec QR code](assets/fr/05.webp)

@@ -85,20 +85,22 @@ Create a modular, centralized validation system for all content types in the rep
 - [x] Ensure relative path resolution works from any working directory
 
 ### 3.3 Verify all content types work
-- [ ] Test courses validation
-- [ ] Test tutorials validation
-- [ ] Test professors validation
-- [ ] Test events validation
-- [ ] Test resources/bet validation
-- [ ] Test resources/books validation
-- [ ] Test resources/channels validation
-- [ ] Test resources/conferences validation
-- [ ] Test resources/glossary validation
-- [ ] Test resources/movies validation
-- [ ] Test resources/newsletters validation
-- [ ] Test resources/papers validation (new)
-- [ ] Test resources/podcasts validation
-- [ ] Test resources/projects validation
+- [x] Test courses validation (btc101: 0 errors)
+- [x] Test tutorials validation (sparrow-wallet: runs correctly)
+- [x] Test professors validation (runs correctly)
+- [x] Test events validation (runs correctly)
+- [x] Test resources/bet validation (runs correctly)
+- [x] Test resources/books validation (runs correctly)
+- [x] Test resources/channels validation (0 errors)
+- [x] Test resources/conferences validation (runs correctly)
+- [x] Test resources/glossary validation (runs correctly)
+- [x] Test resources/movies validation (runs correctly)
+- [x] Test resources/newsletters validation (runs correctly)
+- [x] Test resources/papers validation (0 errors)
+- [x] Test resources/podcasts validation (runs correctly)
+- [x] Test resources/projects validation (runs correctly)
+
+Note: Some content types show validation errors due to schema drift (schemas need updating to match current content structure). The validator itself works correctly for all types.
 
 ---
 

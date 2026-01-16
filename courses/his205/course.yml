@@ -16,143 +16,143 @@ proofreading:
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 41.76
+    reward: 23.22
   - language: en
     last_contribution_date: 2025-12-29
     urgency: 1
     contributor_names:
       - Trabolo
-    reward: 41.76
+    reward: 23.22
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 111.32
+    reward: 69.61
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 83.52
+    reward: 46.44
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 83.52
+    reward: 46.44
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 111.32
+    reward: 69.61
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 111.32
+    reward: 69.61
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 111.32
+    reward: 69.61
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 139.13
+    reward: 115.95
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 139.13
+    reward: 92.78
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 83.52
+    reward: 46.44
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 139.13
+    reward: 115.95
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 139.13
+    reward: 92.78
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 111.32
+    reward: 69.61
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 111.32
+    reward: 69.61
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 111.32
+    reward: 69.61
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 83.52
+    reward: 46.44
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 139.13
+    reward: 115.95
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 111.32
+    reward: 69.61
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 111.32
+    reward: 92.78
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 83.52
+    reward: 46.44
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 111.32
+    reward: 69.61
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 139.13
+    reward: 92.78
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 139.13
+    reward: 115.95
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 139.13
+    reward: 92.78
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 139.13
+    reward: 92.78
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 111.32
+    reward: 69.61
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 139.13
+    reward: 92.78
 tags:
   - historical
   - case-studies

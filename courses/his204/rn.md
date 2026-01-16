@@ -535,55 +535,55 @@ Ivyo dufise birimwo:
 4. Kandi ikiruta vyose, ivyibutso bitandukanye biva ku ruhara rwiwe rwo kuba gusuzuma imibereho y’Ubucuruzi.
 
 
-Ivyo vyanditswe vyerekana neza ko hariho akosho k’amahanga be n’uko hariho ivyiyumviro bimwebimwe bihambaye vy’imiterere. Inkurikizi z’amahanga, muri Gournay, ni ukwemera ko Abongereza n’Abaholandi baruta abandi. Gournay yari yemera neza ko ivyo bihugu bibiri bitahura neza cane ubutunzi kuruta Ubufaransa, kandi ko Ubufaransa butegerezwa gukurikira akarorero kavyo. Gournay yasozereye ati: "Ivyo bihugu bibiri nivyo biteye imbere kuruta ibindi vyose, kandi bikurikiza uburyo butandukanye cane n'ubwacu. Turabuza kwinjira kw'ibicuruzwa vyo hanze, turahagarika ibikorwa vy'ubutunzi mu mategeko akomeye, mu gihe bo bagenda mu buryo bunyuranye.
+Ivyo vyanditswe vyerekana neza ko habayeho koshwa n'amahanga be n’uko hariho ivyiyumviro bimwebimwe bihambaye vy’imiterere. Ingaruka z’amahanga, kwa Gournay, ni ukwemera ko Abongereza n’Abaholandi baruta abandi. Gournay yari yemera neza ko ivyo bihugu bibiri bitahura neza cane ubutunzi kuruta Ubufaransa, kandi ko Ubufaransa butegerezwa gukurikira akarorero kavyo. Gournay yasozereye ati: "Ivyo bihugu bibiri nivyo biteye imbere kuruta ibindi vyose, kandi bikurikiza uburyo butandukanye cane n'ubwacu. Turabuza kwinjira kw'ibicuruzwa vyo hanze, turahagarika ibikorwa vy'ubutunzi mu mategeko akomeye, mu gihe bo bagenda mu buryo bunyuranye.
 
 
 Ivyiyumviro vyiwe vyo guhindura vyari vyishimikije ingingo nyamukuru zitari nke.
 
 
-Ica mbere, yarizera ko igikorwa gikeneye kurindwa no kuremeshwa. Iciyo gihe, abakozi b’Abafaransa bafatwa nk’abanyavyaha, bakaguma bakurikiranwa, kandi bakaguma bafise ubwoba bw’uko batazokurikiza rimwe mu mabwirizwa ibihumbi n’ibihumbi. Ukwo kubabaza birenze urugero kwatuma abantu badakora, ahubwo bikabatuma bagira ubunebwe. Yamara, Gournay yavuze ko "akazi ari keza kandi ni bwo buryo bwonyene bwo gutunga igihugu".
+Ica mbere, yarizera ko igikorwa gikeneye kurindwa no guterwa intege. Iciyo gihe, abakozi b’Abafaransa bafatwa nk’abagizi ba nabi, bakaguma bakurikiranwa, kandi bakaguma bafise ubwoba bw’uko batazokurikiza rimwe mu mabwirizwa ibihumbi n’ibihumbi. Ukwo kubabaza birenze urugero kwatuma abantu badakora, ahubwo bikabatuma bagira ubunebwe. Yamara, Gournay yavuze ko "akazi ari keza kandi ni bwo buryo bwonyene butuma igihugu gitunga".
 
 
-Ica kabiri, yaraneguye uburyo bwo kubuzanya abahinguzi. Kwifatanya n’ubudandaji vyari bitwara umwanya kandi bikaba bizimvye, kandi umukozi mushasha wese ategerezwa rero gukurikiza yitonze urutonde rwashinzwe n’amategeko y’ishirahamwe ryiwe. Mwene urwo rutonde ntirwasiga ikibanza co gukora ibintu vyiza cane, co gukora ibintu bishasha canke co gutera imbere.
+Ica kabiri, yaraneguye uburyo bwo kuburabuza abahinguzi. Kwifatanya n’ubudandaji vyari bitwara umwanya kandi bikaba bizimvye, kandi umukozi mushasha wese ategerezwa rero gukurikiza yitonze urutonde rwashinzwe n’amategeko y’ishirahamwe ryiwe. Mwene urwo rutonde ntirwasiga ikibanza co gukora ibintu vyiza cane, co gukora ibintu bishasha canke co gutera imbere.
 
 
-Ica gatatu, ubudandaji bwo mu Bufaransa bwari bufise aho bugarukira kubera amategeko abuzanya abantu. Mu vyiyumviro vya Gournay, abaguzi bokwungukira cane iyo ivyambu bishobora guhiganwa mu mwidegemvyo kandi ibintu vyose, nk’intete n’ibipande vy’ibipande, bikemererwa kwinjizwa hanze ata n’umwe abujijwe. Ni umwe mu ba mbere bagaragaje inkomoko nyakuri y’ubudandaji bw’ibinyoma: bwariho gusa kubera ko ubudandaji bw’ingirakamaro kandi bw’ingirakamaro bwari bwabujijwe. Yongeyeko ikindi ciyumviro gikomeye: ubusuma bwari umwuga "w'ubuntu", ata mategeko, ata mashirahamwe, ata misoro yo gufata ibintu. Yamara rero, ni itegeko rya Leta ry’agahomerabunwa ryatumye abakozi benshi b’inzirabugunge bakora ibikorwa bitemewe n’amategeko.
+Ica gatatu, ubudandaji bwo mu Bufaransa bwari bufise aho bugarukira kubera amategeko yo kugira imbibe abantu. Mu vyiyumviro vya Gournay, abaguzi bokwungukira cane iyo ibivuko bishobora guhiganwa mu mwidegemvyo kandi ibintu vyose, nk’intete n’ibipande vy'impapuro zicapuye, bikemererwa kwinjizwa hanze ata n’umwe abujijwe. Ni umwe mu ba mbere bagaragaje inkomoko nyakuri y’ubudandaji bwa magendo(budaciye mu mategeko): bwariho gusa kubera ko ubudandaji bw’ingirakamaro kandi bukenewe bwari bwabujijwe. Yongeyeko ikindi ciyumviro gikomeye: Urudandazwa rudaciye mu mategeko rwari umwuga "w'umwidegemvyo", ata mategeko, ata mashirahamwe, ata makori yo gufata ibintu. Yamara rero, ni itegeko rya Leta rirenze urugero ryatumye abakozi benshi bubahiriza amategeko bisuka mu bikorwa bitemewe n’amategeko.
 
 
 Ubwa nyuma, Gournay yavuze yuko inyungu zari hasi cane mu Bwongereza no mu Buholandi, ivyo bikaba ari ibihugu vyari biteye imbere kuruta Ubufaransa. Yasavye ko inyungu zigabanywa no mu Bufaransa, kugira ngo ibikorwa vy’ubutunzi bishobore gufashwa ng’aho ku buryo bubereye nk’ahandi. Ariko rero, Gournay ntiyarondeye uburyo bwo guhatira, bwo gushinga amategeko; ahubwo yashimikiye ko bikenewe ko inguzanyo y’amahera yemezwa, ivyo bikaba vyari bikiriko biracirwa urubanza na Ekleziya Gatolika.
 
 
-Ku bijanye n’izo ngingo zose, Gournay yarafise uruhara runini mu mpari z’ubwenge zo hagati mu kinjana ca 18. Ugukingira kwiwe umwidegemvyo w’ubutunzi kwabanjirije aba Physiocrates imyaka cumi, Adamu Smith na we imyaka mirongo ibiri. Ariko akosho kiwe karamba cane kari kuri Turgot. Gournay yafashe uwo musore Turgot munsi y’amababa yiwe, aramumenyereza n’ivyiyumviro vyiwe.
+Ku bijanye n’izo ngingo zose, Gournay yarafise uruhara runini mu mpari z’ubwenge zo hagati mu kinjana ca 18. Ugukingira kwiwe umwidegemvyo w’ubutunzi kwabanjirije aba Physiocrates imyaka cumi, Adamu Smith na we imyaka mirongo ibiri. Ariko akosho kiwe karamba cane kari kuri Turgot. Gournay yafashe uwo musore Turgot munsi munsi y'amababa yiwe, aramumenyereza n’ivyiyumviro vyiwe.
 
 
 ![image](assets/fr/040.webp)
 
 
-Haciye imyaka, Turgot, uno akaba yari umusuku mu gihe ca Louis XVI, yaranditse igitabu citwa Éloge (igitabu co gushimira umugenzi wiwe) amaze gupfa. Kandi nimba Turgot atigeze yemera bimwe bishitse ubutegetsi bw’umubiri bwa François Quesnay, ni kubera ko yazigamye urukundo rudashobora gutsindwa na shebuja wa mbere, Vincent de Gournay.
+Haciye imyaka, Turgot, uno akaba yari umushikiranganji ku ntwaro ya Louis XVI, yaranditse igitabu citwa Éloge (igitabu co gushimira umugenzi wiwe) amaze gupfa. Kandi nimba Turgot atigeze yemera bimwe bishitse ubutegetsi bwa François Quesnay, ni kubera ko yazigamye urukundo rudashobora gutsindwa yarafitiye umwigisha wiwe wa mbere, Vincent de Gournay.
 
 
-## Uruziga rwa Gournay
+## Umuzingi wa Gournay
 
 
 <chapterId>b86ba6bd-8f3a-5d8f-b098-4d0413f00deb</chapterId>
 
 
-Ku bijanye n’imisi ya mbere y’ubuhinga bw’ubutunzi, amateka akunda gushira ahabona ishure rya mbere ry’ivyiyumviro: aba Physiocrates, bayobowe na François Quesnay n’abigishwa biwe. Ariko rero, hafi imyaka cumi imbere y’uko bavyuka, hariho uwundi mugwi utari mu buryo busanzwe ariko uhambaye nk’uwo, wari ushingiye ku muhinga mu vy’ubutunzi yitwa Vincent de Gournay.
+Ku bijanye n’imisi ya mbere y’ubuhinga bw’ubutunzi, amateka akunda gushira ahabona ishure rya mbere ry’ivyiyumviro: aba Physiocrates, bayobowe na François Quesnay n’abigishwa biwe. Ariko rero, hafi imyaka cumi imbere y’uko bavyuka, nka hafi imyaka cumi imbere y'uko batera imbere cane, hariho uwundi mugwi utari mu buryo busanzwe ariko uhambaye nk’uwo, wari ushingiye ku muhinga mu vy’ubutunzi yitwa Vincent de Gournay.
 
 
 ![image](assets/fr/041.webp)
 
 
-Nk’uko twabibonye mu gice ca mbere, Gournay yarashimishijwe n’akarorero k’ibihugu vy’amahanga nk’Ubwongereza n’Ubuholandi. Yarashima cane abahinga mu vy’ubutunzi babo, ni ukuvuga abantu nka Yosiya Child, Johan de Witt na David Hume.
+Nk’uko twabibonye mu gice ca mbere, Gournay yaratangazwa n’akarorero k’ibihugu vy’amahanga nk’Ubwongereza n’Ubuholandi. Yarashima cane abahinga mu vy’ubutunzi babo, ni ukuvuga abantu nka Yosiya Child, Johan de Witt na David Hume.
 
 
 ![image](assets/fr/042.webp)
 
 
-Ukwo gushima kwatumye ahindura, yongera agatanga ubuhinduzi bw’ivyanditswe vyabo vy’ubutunzi.
+Ukwo gushima kwatumye ahindura, yongera atuma hahindurwa, ivyanditse vyabo vy’ubutunzi.
 
 
-Vyabonetse ko ikibanza yari afise mu butegetsi bukuru catumye Gournay ashobora guhura n’abahinga bose mu vy’ubutunzi bari bazwi mu Bufaransa ico gihe. Muri ubwo buryo, yarakoranije umugwi w’abahinduzi b’abahinga cane. Ni we ubwiwe yahinduye ibitabu vya Child na Culpeper. Abbé Le Blanc ni we yahinduye igitabu citwa Insiguro za politike ca David Hume. Véron de Forbonnais ni we yahinduye umuhinga mu vy’ubutunzi w’Umunyasipani Geronimo de Uztariz. Turgot yarakoze ku vyanditswe na Yosiya Tucker, umuhungu wa Montesquieu na we arahindura Yosuwa Gee.
+Vyabonetse ko ikibanza yari afise mu butegetsi bukuru catumye Gournay ashobora guhura n’abahinga bose mu vy’ubutunzi bari bazwi mu Bufaransa ico gihe. Muri ubwo buryo, yarakoranije umugwi w’abahinduzi b’abahinga cane. Ni we ubwiwe yahinduye ibitabu vya Child na Culpeper. Abbé Le Blanc ni we yahinduye igitabu citwa Insiguro za politike ca David Hume. Véron de Forbonnais ni we yahinduye umuhinga mu vy’ubutunzi w’Umunya esupanye Geronimo de Uztariz. Turgot yarakoze ku vyanditswe na Josiah Tucker, umuhungu wa Montesquieu na we arahindura Joshua Gee.
 
 
 Biciye ku gukorana n’abantu benshi bo mu mugwi wa Gournay, abanditsi benshi barashoboye gusohora ibitabu vy’intango mu mazina yabo bwite. Ivyo bitabu, hamwe n’ivyo vyahinduwe, vyarateye imbere bitangaje. Ingero zimwe zimwe zihambaye ni:
@@ -607,7 +607,7 @@ Biciye ku gukorana n’abantu benshi bo mu mugwi wa Gournay, abanditsi benshi ba
 - Igitabo ca Plumard de Dangeul [Ivyiyumviro ku vyiza n’ibibi vy’Ubufaransa n’Ubwongereza](https://archive.org/details/bim_ibisobanuro-vy’inyungu_za_plumard-de-dangeul-loui_1754) (integuro y’imyaka 3 mu mwaka wa mbere)
 - Cliquot-Blervache na Gournay [Ivyiyumviro vyerekeye ubuhinga] (Ivyasohowe 2 mu 1758)
 
-Iryo tsinda ryaragize kandi uruhara runini mu gusohora igitabu ca 1914.
+Uwo murwi waragize kandi uruhara runini mu gusohora igitabu ca 1914.
 
 
 - [Inyandiko ku kamere k’ubudandaji muri rusangi](inyandiko yerekeye kamere y’ubudandaji muri rusangi) na Richard Cantillon.
@@ -616,31 +616,31 @@ Iryo tsinda ryaragize kandi uruhara runini mu gusohora igitabu ca 1914.
 ![image](assets/fr/045.webp)
 
 
-Ico gitabu ca nyuma canditswe nko mu 1730, caragumye mu nyandiko z’intoke inyuma y’urupfu rw’umwanditsi waco. Gournay, afashijwe n’abagenzi biwe b’abahinga mu vy’ubutunzi, yarasohoye mu 1755. Nk’uko Abbot Morellet, umwe mu bagize uwo mugwi abivuga, Gournay yarayisavye umuhinga mu vy’ubutunzi wese yari azi.
+Ico gitabu ca nyuma canditswe nko mu 1730, caragumye mu nyandiko z’intoke inyuma y’urupfu rw’umwanditsi waco. Gournay, afashijwe n’abagenzi biwe b’abahinga mu vy’ubutunzi, yarasohoye mu 1755. Nk’uko padiri Morellet, umwe mu bagize uwo mugwi abivuga, Gournay yarakangurira umuhinga mu vy’ubutunzi wese yari azi.
 
 
-Ivyo ubwenge bwavuye mu nzinguzingu ya Gournay vyaragize ingaruka nyinshi ku mateka y’ivyiyumviro. Muri ubwo buryo, barashobora gufatwa nk’abashinze ubuhinga bw’ubutunzi mu Bufaransa. Christine Théré wo muri INED, yize amateka y’ibitabu vy’ubutunzi, yasanze hagati y’umwaka wa 1750 n’uwa 1759, ata bitabu birenga **349** vyerekeye ubutunzi vyasohowe, ugereranyije n’ibitabu **83** gusa vyasohowe mu myaka cumi yose iheze (1740–1749). Iryo hinduka ryo mu myaka ya 1750 ahanini riterwa n’uruziga rwa Gournay.
+Ivyo ubwenge bwavuye mu muzingi(abegereye) Gournay vyaragize ingaruka nyinshi ku mateka y’ivyiyumviro. Muri ubwo buryo, barashobora gufatwa nk’abashinze ubuhinga bw’ubutunzi mu Bufaransa. Christine Théré wo muri INED, yize amateka y’ibitabu vy’ubutunzi, yasanze hagati y’umwaka wa 1750 n’uwa 1759, ata bitabu birenga **349** ibitabo vy'ubutunzi vyasohowe, ugereranyije n’ibitabu **83** gusa vyasohowe mu myaka cumi yari iheze (1740–1749). Iryo hinduka ryo mu myaka ya 1750 ahanini riterwa n’umuzingi wa Gournay.
 
 
 ![image](assets/fr/046.webp)
 
 
-Kugira ngo Gournay n’abagenzi biwe bamenye ibiganiro vy’ubutunzi mu banyagihugu b’Abafaransa, barakoze kugira ngo bishobore gushikirwa n’abantu biciye mu bitabu vy’inkuru ndende. Inyuma y’igitabu *Iciyumviro c’ubudandaji*, canegura amashirahamwe y’ubudandaji, Gournay na Cliquot-Blervache barafashije Gabriel-François Coyer kwandika igitabu kigufi c’ugushinyagurira citwa Chinki: [Inkuru y’ikikochini ikoreshwa ku bandi . Amahanga](ibirimwo/ivyo gushiramwo/2013/06/Amateka-y'Ikishinki-Coyer-Igishinwa.pdf).
+Kugira ngo Gournay n’abagenzi biwe bamenye ibiganiro vy’ubutunzi mu banyagihugu b’Abafaransa, barakoze kugira ngo bishobore gushikirwa n’abantu biciye mu bitabu vy’inkuru ndende. Inyuma y’igitabu *Iciyumviro c’ubudandaji(Mémoires sur les métiers)*, canegura amashirahamwe y’ubudandaji, Gournay na Cliquot-Blervache barafashije Gabriel-François Coyer kwandika igitabu kigufi c’ugushinyagurira citwa Chinki: [ Un conte cochinchinois applicable à d'autres nations .](ibirimwo/ivyo gushiramwo/2013/06/Amateka-y'Ikishinki-Coyer-Igishinwa.pdf).
 
 
 ![image](assets/fr/047.webp)
 
 
-Inkuru ikurikira umukinyi nyamukuru, Chinki, agoberwa no kuva mw’itongo ryiwe kubera imisoro myinshi cane, akagerageza kurondera abana biwe akazi k’ubuhinga mu gisagara. Ariko ubudandaji bwose burabafunga kubera amategeko y’amashirahamwe y’ubudandaji akoresha nabi, ni co gituma iyo nkuru yerekana ukuntu agenda arahemuka biciye mu majwi atwenza.
+Inkuru ikurikira umukinyi nyamukuru, Chinki, vyabaye ngombwa ko ava mw’itongo ryiwe kubera amakori menshi cane, akagerageza kurondera abana biwe akazi k’ubuhinga mu gisagara. Ariko ubudandaji bwose burabafunga kubera amategeko y’amashirahamwe y’ubudandaji akoresha nabi, ni co gituma iyo nkuru yerekana ukuntu agenda arahemuka biciye mu majwi atwenza.
 
 
-Uruziga rwa Gournay rero rwari intango y’umupfunda mwinshi w’ibitabu. Naho iyo ntererano nini yaribagiwe n’abahinga mu vya kahise b’ivyiyumviro vy’ubutunzi, yari igaragara cane ku bantu bo mu gihe cabo. Aba Physiocrates, batunganije ishure ryabo mu myaka ya 1760, mu nyuma bazoshira ahabona umugwi wa Gournay nk’uwabarongoye ata guca ku ruhande. Mu 1767, umuhinga mu vy’ubutunzi yitwa Jacques Accarias de Serionne yarabivuze neza kuruta mu gitabu ciwe co gushimira. Yanditse ati: "Abafaransa bakeyi, bompi abafilozofe n'abanyagihugu, batanguye mu myaka mikeyi iheze kwigana abanditsi b'Abongereza. Babanje guhindura ivyitegererezo vyabo maze ntibatevye kubirenga mu buryo bwinshi. uguterimbere kwa Leta".
+Umuzingi wa Gournay rero wari intango y’umupfunda munini w’ibitabu. Naho iyo ntererano nini yaribagiwe n’abahinga mu vya kahise b’ivyiyumviro vy’ubutunzi, yari igaragara cane ku bantu bo mu gihe cabo. Aba Physiocrates, batunganije ishure ryabo mu myaka ya 1760, mu nyuma bazoshira ahabona umugwi wa Gournay nk’uwabarongoye ata guca ku ruhande. Mu 1767, umuhinga mu vy’ubutunzi yitwa Jacques Accarias de Serionne yarabivuze neza kuruta mu gitabu ciwe co gushimira. Yanditse ati: "Abafaransa bakeyi, bompi abafilozofe n'abanyagihugu, batanguye mu myaka mikeyi iheze kwigana abanditsi b'Abongereza. Babanje guhindura ivyitegererezo vyabo maze ntibatevye kubirenga mu buryo bwinshi. uguterimbere kwa Leta".
 
 
-Kandi vy’ukuri, mu myaka ya 1750, ibibazo vy’ubutunzi vyaciye bihinduka umuderi. Voltaire yaravuze cane yuko nko mu 1750, Abafaransa bahevye ibitabu kugira ngo baganire ku mwidegemvyo w’ubudandaji bw’intete. Ivyo vyabonetse kandi n'ikinyamakuru Mercure de France, canditse mu nomero yo mu 1758, amezi make imbere y'urupfu rwa Gournay: "Ubutunzi bwa politike ubu ni ubuhinga buri mu mideri. Ibitabu vyerekeye uburimyi, abantu, inganda, ubudandaji, n'ivy'ubutunzi ubu biri mu minwe y'abantu batagira uko bangana, gusa". Nta muntu yoshobora gushimira Gournay n’igikorwa c’umugwi wiwe w’abahinga mu vy’ubutunzi.
+Kandi vy’ukuri, mu myaka ya 1750, ibibazo vy’ubutunzi vyaciye bihinduka nk'imuderi. Voltaire yaravuze cane yuko nko mu 1750, Abafaransa bahevye ibitabu kugira ngo baganire ku mwidegemvyo w’ubudandaji bw’ibinyantete. Ivyo vyabonetse kandi n'ikinyamakuru Mercure de France, canditse mu nomero yo mu 1758, amezi make imbere y'urupfu rwa Gournay: "Ubutunzi bwa politike ubu ni ubuhinga buri mu mideri. Ibitabu vyerekeye uburimyi, abantu, inganda, ubudandaji, n'ivy'ubutunzi ubu biri mu minwe y'abantu batagira uko bangana, gusa". Nta muntu yoshobora gushimira Gournay n’igikorwa c’umugwi wiwe w’abahinga mu vy’ubutunzi.
 
 
-## Mirabo
+## Mirabeau
 
 
 <chapterId>2d2f802b-e3b6-556f-9025-a1b1dc4409ca</chapterId>
@@ -664,21 +664,21 @@ Mu vy’ukuri, Marquis de Mirabeau yari amaze kuronka izina rikomeye cane mbere 
 ![image](assets/fr/050.webp)
 
 
-Hagati y’umwaka wa 1757 n’uwa 1760, harasohowe ibitabu birenga 20, ivyo bikaba bishobora kuba ari vyo bituma ari co gitabu c’ubutunzi caroraniwe kuruta ibindi vyose mu mateka. Abasomyi bamwebamwe mbere biyumvira ko ico gitabu canditswe na Montesquieu kubera ko cari gifise ivyiyumviro bikomeye. Uwo Dauphin, se wiwe Umwami Louis XVI, mbere yavuze ko yari yabifashe mu mutwe. Mu kiringo kanaka, ni co gitabu abantu bose bo muri Versailles bariko barasoma.
+Hagati y’umwaka wa 1757 n’uwa 1760, harasohowe ibitabu birenga 20, ivyo bikaba bishobora kuba ari vyo bituma ari co gitabu c’ubutunzi camenyekenye cane kuruta ibindi vyose mu mateka. Abasomyi bamwebamwe mbere biyumvira ko ico gitabu canditswe na Montesquieu kubera ko cari gifise ivyiyumviro bikomeye. Uwo Dauphin, se wiwe Umwami Louis XVI, mbere yavuze ko yari yabifashe mu mutwe. Mu kiringo kanaka, ni co gitabu abantu bose bo muri Versailles bariko barasoma.
 
 
 Uyu musi ni igitabu kitagisomwa, ariko benshi baracariko baragikoresha. Mbere no mu kinjana ca 19, Edmond Roussel yavuze ati:
 
 
-> L’Ami des Hommes ni kimwe muri ivyo bitabu abantu bose bavuga, ata n’umwe abizi. Mu ruvyaro rwose, umunyagihugu umwe w’intwari akwiye kuyisoma; kugira ngo abandi bose ntibabwirizwa kubigira.
+>L’Ami des Hommes(umugenzi w'abantu)  ni kimwe muri ivyo bitabu abantu bose bavuga, ata n’umwe abizi. Mu ruvyaro rwose, umunyagihugu umwe w’intwari akwiye kuyisoma; kugira ngo abandi bose ntibabwirizwa kubigira.
 
-Mu ntango z’ubuhinga bwiwe bwo kuba umuhinga mu vy’ubutunzi, Mirabeau yararonse inyigisho kuri Richard Cantillon. Yari amaze imyaka 15 afise inyandiko y’intoke y’igitabu ca Cantillon kivuga ku kamere k’ubudandaji muri rusangi, kandi yari yaragisuzumye yihanganye yongera aragitanga inyishu.
+Mu ntango z’ubuhinga bwiwe bwo kuba umuhinga mu vy’ubutunzi, Mirabeau yararonse inyigisho kuri Richard Cantillon. Yari amaze imyaka 15 afise inyandiko y’intoke y’igitabu ca Cantillon kivuga ku kamere k’ubudandaji muri rusangi, kandi yari yaragisuzumye yitonze yongera aragitanga inyishu.
 
 
 ![image](assets/fr/051.webp)
 
 
-L’Ami des Hommes mu ntango yari ivuzwe nk’igisobanuro coroshe c’Inyandiko ya Cantillon. Ariko kuko Mirabeau yari afise ubwenge bumwe bumwe, ni ukuvuga, mu kuvuga ukuri, yari umusazi gatoyi, yaciye yihuta guheba umugambi wiwe w’intango. Ico gitabu kivuga gusa ibibazo vyose vy’ubutunzi yari azi, rimwe na rimwe akava kuri Cantillon. Ni igitabu kigoye gusoma, gifise umugambi udasanzwe n’ugukevya mu kigabane cose. Mirabeau ubwiwe yaremeye ko ari akajagari kandi ko uburyo bwiwe bwo kwandika bwari ubw’iherezo ry’isi.
+L’Ami des Hommes mu ntango yari ivuzwe nk’igisobanuro coroshe c’Inyandiko ya Cantillon. Ariko kuko Mirabeau yari afise ubwenge bumwe bumwe, ni ukuvuga, mu kuvuga ukuri, yari umusazi gatoyi, yaciye yihuta guheba umugambi wiwe w’intango. Ico gitabu kivuga gusa ibibazo vyose vy’ubutunzi yari azi, rimwe na rimwe akava kuri Cantillon. Ni igitabu kigoye gusoma, gifise umugambi udasanzwe n’ugukevya mu kigabane cose. Mirabeau ubwiwe yaremeye ko canditse mu kajagari kandi ko uburyo bwiwe bwo kwandika bwari ubw’iherezo ry’isi.
 
 
 ![image](assets/fr/052.webp)
@@ -688,21 +688,21 @@ Naho ari akajagari, hari ivyiyumviro bibereye kwitwararikwa:
 
 
 
-- Mirabeau arwanya urwanko rw’abacuruzi ku bijanye n’ingene ubutunzi bumeze.
-- Arashimagiza uburimyi, akanegura no kubuheba.
-- Yidoga ku kuntu abantu bameze, cane cane abarimyi.
-- Ubwa nyuma, araburanira umwidegemvyo wo gucuruza n’ubuvukanyi bw’amahanga mu mahoro.
+- Mirabeau arwanya urwanko rw’abacuruzi ku bijanye na kamere k'ubutunzi.
+- Arashimagiza uburimyi, akanegura cane uguheba uburimyi.
+- Yidoga ku kuntu abanyagihugu babayeho, cane cane abarimyi.
+- Ubwa nyuma, arahagararira umwidegemvyo wo gucuruza n’umuvukanyi w’amahanga mu mahoro.
 
 
 ![image](assets/fr/053.webp)
 
 
-Ni Hard gushiramwo ivyiyumviro vya Mirabeau ko ari ivy’uburenganzira canke ivy’uburenganzira. Akenshi yaragendagenda, rimwe na rimwe ataco abizi, hagati y’iyerekwa rimwe n’irindi. Naho ari ukwo, ivyiyumviro vy’ukwidegemvya ni vyo kenshi vyari vyiganje mu vyo yandika. Imwe mu mirongo yiwe izwi cane ni iyi:
+Biragoye gushiramwo ivyiyumviro vya Mirabeau ko ari ivy’umwidegemvyo canke n'abarwanya umwidegemvyo. Akenshi yaragendagenda, rimwe na rimwe nk'ikitazi, hagati y’iyerekwa rimwe n’irindi. Naho ari ukwo, ivyiyumviro vy’ukwidegemvya ni vyo kenshi vyari vyiganje mu vyo yandika. Imwe mu mirongo yiwe izwi cane ni iyi:
 
 
 > Ingingo ngenderwako y’ukuri kandi yonyene y’ubutunzi bwa politike ni ukureka vyose bikagira umwidegemvyo.
 
-Kubera ko Mirabeau yari amaze kuroranirwa cane, yarakundanye. François Quesnay, uwari ahejeje gukunda ivy’ubutunzi, yaramutumiye ku kibanza ciwe co gukoreramwo i Versailles.
+Kubera ko Mirabeau yari amaze guterimbere cane, yarareshejwe. François Quesnay, uwari ahejeje gukunda cane ivy’ubutunzi, yaramutumiye ku kibanza ciwe akoreramwo i Versailles.
 
 
 ![image](assets/fr/054.webp)
@@ -711,7 +711,7 @@ Kubera ko Mirabeau yari amaze kuroranirwa cane, yarakundanye. François Quesnay,
 Baciye baharira n’ishavu ryinshi maze amaherezo, ikintu mu bisanzwe kitari bwigere kiba mu mpari, kiraba: Mirabeau yaremeye ata gufyina ko yari yibeshe. Yaremeye ivyiyumviro vya Quesnay, avuga ko yiteguriye kubikwiragiza.
 
 
-Bompi hamwe, ni bo bagize umushinge w’ishure ryobaye ishure ry’ubuhinga bwa none, rikomezwa n’abantu bahora bazana. Haciye igihe gitoyi Mirabeau ahindukiye, Quesnay yaramusavye ngo arwanire ivyiyumviro vyiwe ku bijanye n’imisoro. Ivyo vyatumye haba ["Ivyiyumviro vy'Imisoro"](Ivyiyumviro vy'Imisoro"], ivyo bikaba vyatumye Mirabeau arungikwa imisi mikeyi mw'ibohero ry'i Vincennes, hanyuma aja mu bunyagano i Bignon.
+Bompi hamwe, ni bo bagize umushinge w’ishure ryobaye ishure ry’ubuhinga bwa none, rikomezwa n’abantu bahora bakira. Haciye igihe gitoyi Mirabeau ahindukiye, Quesnay yaramusavye ngo arwanire ivyiyumviro vyiwe ku bijanye n’amakori. Ivyo vyatumye haba ["Ivyiyumviro vy'amakori*(  Théorie de l'impôt )"], ivyo bikaba vyatumye Mirabeau arungikwa imisi mikeyi mw'ibohero ry'i Vincennes, hanyuma aja ahungira i Bignon.
 
 
 ![image](assets/fr/055.webp)
@@ -726,7 +726,7 @@ Mirabeau kandi yarafise uruhara runini mu gutora abashasha bo mw’ishure rya Qu
 Ni no kwa Mirabeau aho aba Fiziyokarate bahurira buri wa kabiri. Abantu nka Turgot na Adam Smith basa n’abaje muri ayo makoraniro rimwe canke kenshi.
 
 
-Mu buzima bwiwe bwose, Mirabeau yagumye ari umwanditsi ataruha. Yanditse ibitabu vyinshi vyerekeye ubutunzi biburanira inyigisho ya Quesnay. Ariko rero, mu mpera z’ubuzima bwiwe, akosho yari afise karagabanutse. Uburyo bwiwe bwo kwandika bwarasenyutse ku buryo mwenewabo bwite yamundikiye avuga ko atagishobora gutahura amajambo yiwe. Ivyiyumviro vyiwe, bimaze kuba ivy’ukwidegemvya bimwe bishitse, vyahuye n’ingene abanyabwenge nka Mably mbere na Rousseau bavyifatamwo mu buryo bw’abanyagihugu canke b’abakomunisita. Yarananiwe kuronka abasomyi n’abasohora ibitabu, maze ahanini apfa ata wumumenye mu 1789, ku musi mukuru w’igihuhusi c’i Bastille.
+Mu buzima bwiwe bwose, Mirabeau yagumye ari umwanditsi ataruha. Yanditse ibitabu vyinshi vyerekeye ubutunzi biburanira inyigisho ya Quesnay. Ariko rero, mu mpera z’ubuzima bwiwe, uruhara yari afise rwaragabanutse. Uburyo bwiwe bwo kwandika bwaragabanuye uburyohe ku buryo mwenewabo bwite yamwandikiye avuga ko atagishobora gutahura amajambo yiwe. Ivyiyumviro vyiwe, bimaze kuba ivy’ukwidegemvya bimwe bishitse, vyahuye n’ingene abanyabwenge nka Mably mbere na Rousseau bavyifatamwo mu buryo bw’abanyagihugu canke b’abakomunisita. Yarananiwe kuronka abasomyi n’abasohora ibitabu, maze ahanini apfa ata wumumenya mu 1789, umunsi umwe imbere yo gufata Bastille.
 
 
 ## Ikibazo
@@ -741,62 +741,62 @@ François Quesnay ni umwe mu bahinga b'ubutunzi bazwi cane mu Bufaransa.
 ![image](assets/fr/057.webp)
 
 
-Izina ryiwe riboneka mu gitabu cose c’inyigisho z’ubutunzi n’amateka y’ivyiyumviro vy’ubutunzi. Bivugwa ko yaremye "Tableau Économique" kugira ngo aserukire ubutunzi mu buryo butegekanijwe, ko ari we yarongoye ishure ry'ubuhinga bwa none, kandi ko yihenze mu kwizera ko ubutaka bwonyene ari bwo butanga umwimbu, kandi ko mu nyuma, ko Adamu Smith yaje gugorora ivy'ubutunzi. Ivyo, cane canke bike, ni ko ibitabu vy’inyigisho bikunda gucapura mu ncamake François Quesnay.
+Izina ryiwe riboneka mu gitabu cose c’inyigisho z’ubutunzi n’amateka y’ivyiyumviro vy’ubutunzi. Bivugwa ko yaremye "Tableau Économique(ikibaho c'ubutunzi)" kugira ngo aserukire ubutunzi mu buryo butegekanijwe, ko ari we yarongoye ishure ry'ubuhinga bwa none, kandi ko yihenze mu kwizera ko ubutaka bwonyene ari bwo butanga umwimbu, kandi ko mu nyuma, ko Adamu Smith yaje kugorora ivy'ubutunzi. Ivyo, cane canke bike, ni ko ibitabu vy’inyigisho bikunda gucapura mu ncamake François Quesnay.
 
 
 ![image](assets/fr/058.webp)
 
 
-Kumugabanya kuri ivyo ni isoni, kuko Quesnay na we nyene ni we muhinga mu vy’ubutunzi wa mbere yagerageje gushingira uburinzi bw’umwidegemvyo w’ubutunzi ku ngingo ngenderwako za siyansi. Yari umwe mu bahinga b’ubutunzi bumvirizwa cane kandi bafise akosho kanini mu gihe ciwe. Vyongeye, yashinze inyigisho y’ubuhinga bwa Physiocracy, iyo na yo ikaba ari inyigisho itunze cane kuruta iciyumviro coroshe c’uko kamere yonyene ari yo itanga ubutunzi, iciyumviro akenshi kivugwa nabi.
+Kumugabanya kuri ivyo ni isoni, kuko Quesnay na we nyene ni we muhinga mu vy’ubutunzi wa mbere yagerageje gushingira uburinzi bw’umwidegemvyo w’ubutunzi ku ngingo ngenderwako za siyansi. Yari umwe mu bahinga b’ubutunzi bumvirizwa cane kandi bafise uruhara runini mu gihe ciwe. Vyongeye, yashinze inyigisho y’ubuhinga bwa Physiocracy, iyo na yo ikaba ari inyigisho itunze cane kuruta iciyumviro coroshe c’uko kamere yonyene ari yo itanga ubutunzi, iciyumviro akenshi kivugwa nabi.
 
 
 Tuzovuga ku vyerekeye Physiocracy mu buryo burambuye mu bice bitatu bikurikira. Reka tubanze twihweze neza François Quesnay ubwiwe.
 
 
-Yavutse mu 1694 i Méré mu muryango w’abarimyi utashobora kwigisha Quesnay gusoma. Yamenyerejwe n’umugabo wo ng’aho, amaherezo aja kwiga mw’ishure ryisumbuye ry’ubuvuzi, hanyuma yiga mw’ishure ry’ubuvuzi. Igihe yari afise imyaka 24, yarabaye umuganga abaga i Mantes.
+Yavutse mu 1694 i Méré mu muryango w’abarimyi utashobora kwigisha gusoma. Yamenyerejwe n’umugabo wo ngaho mu gasagara, amaherezo aja kwiga mw’ishure ryisumbuye ry’ubuvuzi, hanyuma yiga mw’ishure rikuru ry'ubuvuzi nyene. Igihe yari afise imyaka 24, yarabaye umuganga abaga i Mantes.
 
 
 Yaramenyekanye cane mu 1730, afise imyaka 36, ​​kubera ko yarwanya umugenzo usanzwe wo gusesa amaraso, uwo yizera ko wari ushingiye ku vyiyumviro bitari vyo no ku kwiyumvira nabi abantu. Yarateye kandi ubwoba bwo gutera umugere urutonde rw’amashirahamwe, rwategeka ko abaganga bonyene ari bo bashobora kubaga, abaganga bonyene bakaba ari bo bashobora kwandika imiti. Ivyo kenshi vyatuma abakene bariha incuro zibiri maze bakazana abantu babiri, ivyo bikaba ari ibintu Quesnay yasanze biteye ubwoba.
 
 
-Mu 1740, yarabaye umunyamabanga w’Ishure ry’Ivy’Ukubaga. Mu 1748, afise imyaka 54, yarabaye umuganga w’umuntu ku giti ciwe wa Madamu de Pompadour, aca yimukira i Versailles.
+Mu 1740, yarabaye umunyamabanga w’Ishure ry’Ivy’Ukubaga. Mu 1748, afise imyaka 54, yarabaye umuganga bwite wa Madamu de Pompadour, aca yimukira i Versailles.
 
 
 ![image](assets/fr/059.webp)
 
 
-Yari hafi cane ya Madamu de Pompadour. Quesnay mbere yavuze, mu gihe isoni z’uwo mukunzi zamenyeshejwe, ko atazokwipfuza kuguma ari umuganga i Versailles ata we:
+Yari hafi cane ya Madamu de Pompadour. Quesnay mbere yavuze, mu gihe isoni z’uwo mukunzi zamenyeshejwe, ko atipfuza kuguma ari umuganga i Versailles ata we:
 
-« Nari mfatanye na Madame de Pompadour mu guterimbere kwiwe, nzoba gutyo mu nsoni ziwe ».
+« Nari mfitanye ubucuti bunini na Madame de Pompadour mu guterimbere kwiwe, nzoba gutyo mwi soni ziwe ».
 
 
 Hanyuma asohora ibitabu vyinshi vy’ubuvuzi: Igitabu citwa Traité sur la suppuration (1749), Traité sur le gangrene (1749), na Traité sur le fièvres continues (1753), ivyo vyose bikaba vyasubiwemwo incuro nyinshi mu kiringo c’ubuzima bwiwe.
 
 
-Ku myaka 60, amaze kumenya impaka z’ubutunzi zari ziri mu muco ico gihe, yaciye atangura kwandika ivyerekeye ubutunzi. Mu mwaka w'1755, yanditse ingingo "Abarimyi" na "Ingano" mu kinyamakuru *Encyclopédie*.
+Ku myaka 60, amaze kumenya mpari z’ubutunzi zari ziri mu muco ico gihe, yaciye atangura kwandika ivyerekeye ubutunzi. Mu mwaka w'1755, yanditse ingingo "Abarimyi(agriculteurs)" na "grain(intete)" mu kinyamakuru *Encyclopédie*.
 
 
 ![image](assets/fr/060.webp)
 
 
-Zasohowe mu 1757. Muri uwo mwaka nyene, yarahuye na Mirabeau rurangiranwa maze arashobora kumuhindura mu vyiyumviro vyiwe vy’ubutunzi—ni ho havutse umushinge w’ubuhinga bwa Physiocracy. Quesnay yaciye akora igitabu citwa Tableau Économique, kikaba cacapwa ku mashini z’umwami, bivugwa ko cacapwe umwami ubwiwe ku ngoro y’i Versailles. Kuva ico gihe, yarakira ubudasiba abahinga mu vy’ubutunzi n’abanyabwenge mu nzu yiwe yo mu gisagara ca Versailles, aho bagira ibiyago ata co bibangamiye. Quesnay kandi yarafashije mu vyiyumviro vya Mirabeau vyerekeye imisoro, vyasohowe mu 1759.
+Zasohowe mu 1757. Muri uwo mwaka nyene, yarahuye na Mirabeau rurangiranwa maze arashobora kumuhindura mu vyiyumviro vyiwe vy’ubutunzi ni ho havutse umushinge w’ubuhinga bwa Physiocracy. Quesnay yaciye akora igitabu citwa Tableau Économique, kikaba cacapwa ku mashini z’umwami, bivugwa ko cacapwe umwami ubwiwe ku ngoro y’i Versailles. Kuva ico gihe, yarakira ubudasiba abahinga mu vy’ubutunzi n’abanyabwenge mu nzu yiwe yo mu gisagara ca Versailles, aho bagira ibiyago ata co bibangamiye. Quesnay kandi yarafashije mu vyiyumviro vya Mirabeau vyerekeye imisoro, vyasohowe mu 1759.
 
 
 ![image](assets/fr/061.webp)
 
 
-Ivy’ugucengera ntivyatevye gutera. Mirabeau yarafunzwe, Quesnay na we arahanwa. Inyuma y’ivyo, Quesnay yarabonye ko adashobora gusohora ku mugaragaro kandi ko azokenera abigishwa kugira ngo bakwiragize ivyiyumviro vyiwe.
+Ivy’ugucengera ntivyatevye gutera. Mirabeau yarafunzwe, Quesnay na we aratukwa. Inyuma y’ivyo, Quesnay yarabonye ko adashobora gusohora ku mugaragaro kandi ko azokenera abigishwa kugira ngo bakwiragize ivyiyumviro vyiwe.
 
 
 Yaciye abaronka ningoga: Baudeau, Dupont de Nemours, Le Trosne, Mercier de la Rivière n’abandi. Abo ni bo bagabo bokwiragije no gukwiragiza iciyumviro ca Quesnay. Ariko rero, Quesnay, uwari akeneye abigishwa, ntiyanyuzwe bimwe bishitse n’umuce w’amadini wo mu mugwi wiwe. Nimwihweze amakete yandikiye Mirabeau, aho amubwira ati:
 
 
-> "Nimwiyumvire mwebwe nyene. Nabonye ko ivyiyumviro vyanje bibabaje bituma mugira ubunebwe. Ubu ni mwebwe muzokwiyumvira. Murazi nk'uko nanje ndabizi".
+> "Nimwiyumvire na mwebwe nyene. Nabonye ko ivyiyumviro vyanje ataco bimaze bituma mugira ubunebwe. Ubu ni mwebwe mugezweho kwiyumvira. Mubizi kurusha uko ndabizi".
 
-Naho ari ukwo, abigishwa biwe bari bihebeye cane kandi barafashije cane kugira ngo Quesnay amenyekane cane. Mirabeau amaze gupfa, yaravuze amajambo yiwe yo gushima, ati: «Twaratakaje data, kuko twari tumufitiye umwenda wa vyose». Mu vy’ukuri, Quesnay ni we yari abafitiye umwenda wa vyose, kuko iyo ataba bo, yari kuguma ahagaze i Versailles, aho ivyiyumviro vyiwe, naho vyari bifise vyinshi vyo guhendahenda canke bitera amaganya, vyari bishimishije bake.
+Naho ari ukwo, abigishwa biwe bari bihebeye cane kandi barafashije cane kugira ngo Quesnay amenyekane cane. Mirabeau amaze gupfa, yaravuze amajambo yiwe yo gushima, ati: «Twaratakaje data, kuko twari tumukesha vyose». Mu vy’ukuri, Quesnay ni we yari abafitiye umwenda wa vyose, kuko iyo ataba bo, yari kuguma ahagaze i Versailles, aho ivyiyumviro vyiwe, naho vyari bifise vyinshi vyo guhendahenda canke bitera amaganya, vyari bishimishije bake.
 
 
-Kubera ibikorwa vy’abo bakorana, ivyiyumviro vyiwe vyaronse urubuga: ubwa mbere biciye mu binyamakuru nka *Ikinyamakuru c’Uburimyi* na *Ephémérides du Citoyen*.
+Kubera ibikorwa vy’abo bakorana, ivyiyumviro vyiwe vyaronse urubuga: ubwa mbere biciye mu binyamakuru nka *Journal d’agriculture* na *Ephémérides du Citoyen*.
 
 
 ![image](assets/fr/062.webp)
@@ -811,22 +811,22 @@ Hanyuma biciye mu bitabu, atari ivy’abigishwa biwe gusa ariko n’igitabu giha
 Ico gitabu carakoranije intererano nyamukuru za Quesnay. Yashizeho iciyumviro c’ubutunzi c’umurongozi w’aba Physiocrates: akarorero k’ubutunzi bw’uburimyi aho itegeko ryemeza umuntu wese uburenganzira bwo kugira umutungo n’umwidegemvyo wo gucuruza.
 
 
-# Ishure ry'ubuhinga bw'umubiri
+# Ishure ry'aba physiocrates
 
 
 <partId>27af82c1-ad82-5c3b-8ce9-c674b67bbf7c</partId>
 
 
-## Amateka y'abanyafiziyokarate
+## Amateka y'aba physiocrates
 
 
 <chapterId>4236ff8b-b53a-59e7-92c0-f96f9afa1c00</chapterId>
 
 
-Ubutegetsi bw’umubiri bwaciye buba umuco mu Bufaransa, eka mbere no mu Buraya bwose, mu myaka cumi gusa. Inyuma y’igihe kirekire c’iterambere, ryaciye rimenyekana hagati mu myaka ya 1760. Igihe Turgot yaza ku butegetsi mu 1776, uwo muhari wari umaze gutakaza ukumenyekana kwawo, kandi uwo mushikiranganji yagumye ashigikira ishure rya Quesnay ahanini yihishije.
+Abu physiocratie bwaciye buba umuco mu Bufaransa, eka mbere no mu Buraya bwose, mu myaka cumi gusa. Inyuma y’igihe kirekire c’iterambere, ryaciye rimenyekana hagati mu myaka ya 1760. Igihe Turgot yaza ku butegetsi mu 1776, uwo muhari wari umaze gutakaza ukumenyekana kwawo, kandi uwo mushikiranganji yagumye ashigikira ishure rya Quesnay ahanini yihishije.
 
 
-Inkomoko yayo iri mu gutera imbere kw’ivyiyumviro vy’ubutunzi mu myaka ya 1750. Abanditsi benshi barafashije gukuraho ikinogo cari hagati ya Boisguilbert n’ico caje kwitwa Physiocracy. Nk’uko twabibonye mbere, Vincent de Gournay n’umugwi wiwe w’abahinga mu vy’ubutunzi ni bo bari inyuma y’ibitabu vyinshi vyamenyesheje abasomyi b’Abafaransa ivyiyumviro vy’ubutunzi bw’amahanga, bigatuma bakunda cane ubutunzi. Ishingiro ry'ubutegetsi bw'umubiri ryari risanzwe riri mu bitabu nka "Détail de la France" vya Boisguilbert na ["Inyandiko ku kamere k'ubudandaji muri rusangi"] vyanditswe na Cantillon.
+Inkomoko yayo iri mu gutera imbere kw’ivyiyumviro vy’ubutunzi mu myaka ya 1750. Abanditsi benshi barafashije gukuraho ikinogo cari hagati ya Boisguilbert n’ico caje kwitwa Physiocracy. Nk’uko twabibonye mbere, Vincent de Gournay n’umugwi wiwe w’abahinga mu vy’ubutunzi ni bo bari inyuma y’ibitabu vyinshi vyamenyesheje abasomyi b’Abafaransa ivyiyumviro vy’ubutunzi bw’amahanga, bigatuma bakunda cane ivy'ubutunzi. Ishingiro ry'ubutegetsi bwa physiocratie ryari risanzwe riri mu bitabu nka "Détail de la France" vya Boisguilbert na ["Kugereageza kamere kubudandaji muri rusangi(Essai sur la nature du commerce en général )"] vyanditswe na Cantillon.
 
 
 ![image](assets/fr/064.webp)
@@ -835,10 +835,10 @@ Inkomoko yayo iri mu gutera imbere kw’ivyiyumviro vy’ubutunzi mu myaka ya 17
 ![image](assets/fr/065.webp)
 
 
-Iciyumviro co kurekura uburenganzira bwa muntu cari gifise ababuranira benshi kuva kuri Boisguilbert, cane cane Vincent de Gournay na Marquis d’Argenson.
+Iciyumviro co kurekura uburenganzira bwa muntu cari gifise abakiburanira benshi kuva kuri Boisguilbert, cane cane Vincent de Gournay na Marquis d’Argenson.
 
 
-Icasigaye ni uguhindura iyo nzira y’ivyiyumviro ngo ibe inyigisho ihuye kandi yuzuye, kandi Marquis de Mirabeau ni we yabanje kugerageza. Yahumekewe n'igitabu ca Cantillon citwa Essay, aca atangura kwandika igitabu gikomeye cane ku bijanye n'ubutunzi citwa "L'Ami des Hommes", kikaba carakunze cane.
+Icasigaye ni uguhindura iyo nzira y’ivyiyumviro ngo ibe inyigisho ihuye kandi yuzuye, kandi Marquis de Mirabeau ni we yabanje kugerageza. Yishimikije igitabu ca Cantillon citwa Essai de Cantillon, aca atangura kwandika igitabu gikomeye cane ku bijanye n'ubutunzi citwa "L'Ami des Hommes", kikaba carakunzwe cane.
 
 
 Gutyo, mu 1756, inkuru ya Fiziyokarasi yarashobora gutangura. François Quesnay, uwo gihe yari umuganga abaga, aca aba umuganga w’umuntu ku giti ciwe kuri Madamu de Pompadour, yaratumiye Mirabeau i Versailles kugira ngo baganire ku vyiyumviro vy’ubutunzi.
@@ -847,7 +847,7 @@ Gutyo, mu 1756, inkuru ya Fiziyokarasi yarashobora gutangura. François Quesnay,
 ![image](assets/fr/066.webp)
 
 
-Igihe ikiyago cabo cari kirangiye, Mirabeau yaremeye ivyiyumviro vya Quesnay. Kuva ico gihe, barandika bati: Quesnay yararemye *Tableau économique* (1758) kugira ngo yerekane ingene ubutunzi bugenda mu bukungu, maze bose hamwe barasohora igitabu citwa Theory of Misoro (1759).
+Igihe ikiyago cabo cari kirangiye, Mirabeau yaremeye ivyiyumviro vya Quesnay. Kuva ico gihe, barandika bati: Quesnay yararemye *Tableau économique* (1758) kugira ngo yerekane ingene ubutunzi bugenda mu butunzi, maze bose hamwe barasohora igitabu citwa la Théorie de l’impôt (1759).
 
 
 ![image](assets/fr/067.webp)
@@ -857,7 +857,7 @@ Igihe ikiyago cabo cari kirangiye, Mirabeau yaremeye ivyiyumviro vya Quesnay. Ku
 ![image](assets/fr/068.webp)
 
 
-Utwigoro bagize ntitwakiriwe n’igishika. Ku rubanza, ukuntu abantu benshi bavyifatamwo kwari ukutagira ico bitaho. Umwami yaremeye ko Quesnay akunda cane inyigisho, aca amwita "umunyavyiyumviro wanje". Ariko uretse iyo nkuru nziza, igikorwa cabo ntaco cavuyemwo. Nkako, iyo nyigisho yabo y’imisoro yarababaje abarongozi b’imisoro yanegura, ku buryo basaba ko Mirabeau afungwa kandi baramuha umutekano. Madame de Pompadour amaherezo yaramurekuye, ariko abandanya kuba mu bunyagano mu nzu yiwe i Bignon, amara indwi nkeyi.
+Utwigoro bagize ntitwakiriwe n’igishika. Ku rubanza, ukuntu abantu benshi bavyifatamwo kwari ukutagira ico bitaho. Umwami yaremeye ko Quesnay akunda cane inyigisho, aca amwita "umunyavyiyumviro wanje(mon penseur)". Ariko uretse iyo nkuru nziza, igikorwa cabo ntaco cavuyemwo. Nkako, iyo nyigisho yabo y’amakori yarababaje abarongozi b’amakori yanegura, ku buryo basaba ko Mirabeau afungwa kandi baramuha umutekano. Madame de Pompadour amaherezo yaramurekuye, ariko abandanya kuba mu bunyagano mu nzu yiwe i Bignon, amara indwi nkeyi.
 
 
 
@@ -874,10 +874,10 @@ Inyuma y’ukwo guceceka gutoyi, abo bahinga babiri b’ubutunzi batangura gutor
 ![image](assets/fr/070.webp)
 
 
-Hagati y’umwaka wa 1765 n’uwa 1775, uwo mugwi w’abafiziyokarate bari kumwe wari uhagaze ku rwego rwo hejuru rw’icubahiro cabo. Isi y’ubuhinga n’ubuhinga bwa filozofiya yari ifise amaso kuri bo gusa, ivyo bikaba vyatuma ivyiyumviro vyabo bikwiragira cane kandi vyihuta. Abantu babita "abahinga mu vy'ubutunzi", canke, mu gutwenga, "umuhari w'abahinga mu vy'ubutunzi". Utitaye ku ijwi ryabo, ukumenyekana kwabo kwari gukomeye cane. Mu mwaka w’1774, amaze gukora urugendo rwo kuja i Metz, M. de Vaublanc yanditse ukuntu yatangaye mu bitabu vyiwe vy’ivyiyumviro: abantu bose bari bamukikuje bariko bavuga ivy’ubutunzi n’uguzirikana nk’abigishwa ba Quesnay. "Byari umuderi", niko yavuze. "Bose bari abahinga mu vy'ubutunzi".
+Hagati y’umwaka wa 1765 n’uwa 1775, uwo mugwi w’aba physiocrates bari kumwe wari uhagaze ku rwego rwo hejuru rw’icubahiro cabo. Isi y’ubuhinga n’ubuhinga bwa filozofiya yari ifise amaso kuri bo gusa, ivyo bikaba vyatuma ivyiyumviro vyabo bikwiragira cane kandi vyihuta. Abantu babita "abahinga mu vy'ubutunzi", canke, mu gutwenga, "umuhari w'abahinga mu vy'ubutunzi". Utitaye ku ijwi ryabo, ukumenyekana kwabo kwari gukomeye cane. Mu mwaka w’1774, amaze gukora urugendo rwo kuja i Metz, M. de Vaublanc yanditse ukuntu yatangaye mu bitabu vyiwe vy’ivyiyumviro: abantu bose bari bamukikuje bariko bavuga ivy’ubutunzi n’uguzirikana nk’abigishwa ba Quesnay. "Byari umuderi", niko yavuze. "Bose bari abahinga mu vy'ubutunzi".
 
 
-Ariko rero, mu 1770, ukumenyekana kwabo kwaratanguye kugabanuka. Iryo tsinda ryarashikiwe n’uguhunga kwaryo kwa mbere, kandi ubushobozi bwabo bwo kwihanganira ukunegurwa bwaracitse intege. Kandi abanegura bari benshi, Condillac, Mably, Voltaire, Galiani, Linguet, Graslin, mbere na Adam Smith wo muri Ecosse, bose bararwanya ivyiyumviro vyabo.
+Ariko rero, mu 1770, ukumenyekana kwabo kwaratanguye kugabanuka. Uwo murwi warashikiwe n’uguhungabana kwaryo kwa mbere, kandi ubushobozi bwabo bwo kwihanganira ukunegurwa bwaracitse intege. Kandi abanegura bari benshi, Condillac, Mably, Voltaire, Galiani, Linguet, Graslin, mbere na Adam Smith wo muri Ecosse, bose bararwanya ivyiyumviro vyabo.
 
 
 ![image](assets/fr/071.webp)
@@ -886,16 +886,16 @@ Ariko rero, mu 1770, ukumenyekana kwabo kwaratanguye kugabanuka. Iryo tsinda rya
 Ikinyamakuru cabo nticari kigisohoka ubudasiba. Ivyo ni vyo vyabaye iherezo ry’igihe uwo muhari wariko urakora cane.
 
 
-Ubutegetsi bw’umubiri bwobandanije kugira akosho gushika mu gihe c’Impinduka. Mu Bufaransa, ubwa mbere biciye kuri Turgot, umugenzi mugenziwe kuruta umwigishwa, be no biciye ku muserukira wayo Dupont de Nemours, ubuzima bwiwe n’ibikorwa vyiwe tuzovyiga mu nyuma. Ariko no mu Buraya bwose, aho inyigisho y’ubutegetsi bw’umubiri yakiriwe n’igishika. Mu Budagi, biciye kuri Margrave w’i Baden, no mu Butaliyano, biciye kuri Leopold w’i Toscane, inyigisho z’ubutegetsi bw’abantu mbere zatumye habaho amahinduka mu vy’ubutunzi ashigikira umutungo w’abantu ku giti cabo be n’umwidegemvyo.
+Ubutegetsi bw’aba physiocrates bwobandanije kugira uruhara gushika mu gihe c’Impinduka. Mu Bufaransa, ubwa mbere biciye kuri Turgot, yari cane umurwaneza kuruta umwigishwa, be no biciye ku muserukira wayo Dupont de Nemours, ubuzima bwiwe n’ibikorwa vyiwe tuzovyiga mu nyuma. Ariko no mu Buraya bwose, aho inyigisho ya physiocatie yakiriwe n’igishika. Mu Budagi, biciye kuri Margrave w’i Baden, no mu Butaliyano, biciye kuri Leopold de Toscane, inyigisho z’ubutegetsi bw’abantu mbere zatumye habaho amahinduka mu vy’ubutunzi ashigikira amatungo y’abantu ku giti cabo be n’umwidegemvyo.
 
 
 
-## Ishingiro ry’inyigisho y’abanyafiziyokarate .
+## Ishingiro ry’inyigisho y’aba physiocrats .
 
 
 <chapterId>4dbe5436-0578-57c2-b054-03ed00aa091a</chapterId>
 
-Ijambo Physiocracy, risobanura "intwaro ku kameremere", ryaciwe na Dupont de Nemours rikoreshwa nk'izina ry'igitabu *Physiocracy*, igitabu c'ingingo za Quesnay zasohowe mu 1768.
+Ijambo Physiocracy, risobanura "intwaro kuri kamere", ryavumbuwe na Dupont de Nemours rikoreshwa nk'izina ry'igitabu *Physiocracy*, igitabu c'ingingo za Quesnay zasohowe mu 1768.
 
 
 
@@ -910,26 +910,26 @@ Iryo ni ijambo ridatomoye. Nta munyeshure wo muri Quesnay yaduhaye insobanuro ya
 
 
 
-Ico ciyumviro ca mbere ni co cateye umutima abahinga mu vya kahise. Ubu, mu bitabu vy’inyigisho canke mu vyigwa vy’ubutunzi, ni ko aba Physiocrates bavugwa mu ncamake. Bivugwa ko barizera ataco bazi ko uburimyi bwonyene ari bwo butanga umwimbu. Kuri ivyo, inyigisho yabo irakurwaho nk’iyitagira akamaro, maze isesengura rikaja kuri Adamu Smith.
+Ico ciyumviro ca mbere ni co cateye umutima uhagaze abahinga mu vya kahise. Ubu, mu bitabu vy’inyigisho canke mu vyigwa vy’ubutunzi, ni ko aba Physiocrates bavugwa mu ncamake. Bivugwa ko barizera ataco bazi ko uburimyi bwonyene ari bwo butanga umwimbu. Kuri ivyo, inyigisho yabo irakurwaho nk’iyitagira akamaro, maze isesengura rikaja kuri Adamu Smith.
 
 
-Ariko rero, ntibibereye kunegura aba Fiziyokarate ko baha agaciro kadasanzwe uburimyi, kuko hagati mu kinjana ca 18, uburimyi bwakoresha 90% vy’abanyagihugu, kandi ni bwo bwari umushinge w’ubutunzi bw’Ubufaransa.
+Ariko rero, ntibibereye kunegura aba physiocrats ko baha agaciro kadasanzwe uburimyi, kuko hagati mu kinjana ca 18, uburimyi bwakoresha ibice 90 kw'ijana(90%) vy’abanyagihugu, kandi ni bwo bwari umushinge w’ubutunzi bw’Ubufaransa.
 
 
 
 ![image](assets/fr/073.webp)
 
 
-Iciyumviro c’Abafiziyokarate mu vy’ukuri ni ikintu giteye ubwoba. Nk’uko babivuga, hariho itandukaniro hagati y’uguhingura n’uguronka inyungu. Umunyabuhinga n’umucuruzi bashobora kuronka inyungu, ariko umurimyi ni we wenyene atanga vy’ukuri, kuko guhingura ni uguhingura ibintu vy’ingirakamaro, aho kwongera akamaro ku bintu vyariho mbere.
+Iciyumviro c’Aba physiocrats mu vy’ukuri ni ikintu giteye ubwoba. Nk’uko babivuga, hariho itandukaniro hagati y’uguhingura n’ukuronka inyungu. Umunyabuhinga n’umucuruzi bashobora kuronka inyungu, ariko umurimyi ni we wenyene atanga vy’ukuri, kuko guhingura ni uguhingura ibintu vy’ingirakamaro, aho kwongera akamaro ku bintu vyariho mbere.
 
 
 Turakwiye kandi kugerageza gutahura igituma banse inganda n’ubuhinga nk’aho ata co bimaze. Iciyo gihe, ivyo bikorwa vy’ubudandaji vyari bifunzwe mu rwego rw’amashirahamwe, ivyo bikaba vyari bibujije gukora ibintu bishasha, gushiramwo amahera no gutera imbere.
 
 
-### Ingingo ya kabiri: ubutegetsi bw’agahomerabunwa bushingiye ku mategeko aho kuba demokarasi .
+### Ingingo ya kabiri: ubutegetsi bwo mu minwe y'umutware umwe bwemewe n'amategerko aho kuba demokarasi .
 
 
-Uyu musi, kugira umuntu atuke, tuvuga ngo si umudemokrate. Naho abahinga mu vya kahise bababarira Abafiziyokarate iciyumviro cabo gikomeye ku bijanye n’umwimbu w’uburimyi, ntibababarira ukuntu barwanya demokarasi, cane cane ko babayeho mu gihe ivyiyumviro vy’Umuco vyari biteye imbere cane. Kuva hagati mu kinjana ca 18 gushika imbere gato y’Impinduka, Abafiziyokarate babonwa ko ari abansi b’iterambere.
+Uyu musi, kugira umuntu atuke, tuvuga ngo si umudemokarate. Naho abahinga mu vya kahise bababarira Aba physiocrats iciyumviro cabo gikomeye ku bijanye n’umwimbu w’uburimyi, ntibababarira ukuntu barwanya demokarasi, cane cane ko babayeho mu gihe ivyiyumviro vy’Umuco vyari biteye imbere cane. Kuva hagati mu kinjana ca 18 gushika imbere gato y’Impinduka, Abafiziyokarate babonwa ko ari abansi b’iterambere.
 
 
 ![image](assets/fr/074.webp)
@@ -938,21 +938,21 @@ Uyu musi, kugira umuntu atuke, tuvuga ngo si umudemokrate. Naho abahinga mu vya 
 Tocqueville yashimikiye kuri ico ciyumviro:
 
 
-> Abafiziyokarate bari vy’ukuri bakunda cane ubudandaji bw’ibintu ataco buvuze, laissez-faire canke laissez-passer mu bucuruzi no mu nganda; ariko ku bijanye n’umwidegemvyo wa politike ukwiye, ntibawuzirikana, mbere n’igihe mwene ivyo vyiyumviro vyashika bikajabuka mu muzirikanyi wabo, mu ntango baravyanka.
+> Aba physiocrats bari vy’ukuri bakunda cane ubudandaji bwo mu mwidegemvyo w'ibidandazwa, laissez-faire canke laissez-passer(reka birengane) mu bucuruzi no mu nganda; ariko ku bijanye n’umwidegemvyo wa politike ukwiye, ntibawuzirikana, mbere n’igihe mwene ivyo vyiyumviro vyashika bikajabuka mu muzirikanyi wabo, mu ntango baravyanka.
 
-Abafiziyokarate rero bari bafise umwidegemvyo mu vy’ubutunzi, ntibari bafise umwidegemvyo mu vy’ubutegetsi. Quesnay yanditse mu *maxims* yiwe ati: "Ubutegetsi bw'agahebuzo bube ubwihariye kandi burengeye abantu bose bo mu kibano n'ibikorwa vyose bitari vyo vy'inyungu z'abantu ku giti cabo." Kandi mu nyuma, muri iyo nkuru nyene: «Uburyo bwo kugenzura no gucungera ubutegetsi ni iciyumviro gitera urupfu, kigaragaza gusa ukutumvikana hagati y'abakuru n'uguhahaza abato».
+Aba physiocrats rero bari bafise umwidegemvyo mu vy’ubutunzi, ntibari bafise umwidegemvyo mu vy’ubutegetsi. Quesnay yanditse mu *maxims* yiwe ati: "Ubutegetsi bw'agahebuzo bube ubwihariye kandi burengeye abantu bose bo mu kibano n'ibikorwa vyose bitari vyo vy'inyungu z'abantu ku giti cabo." Kandi mu nyuma, muri iyo nkuru nyene: «Uburyo bwo kugenzura no gucungera ubutegetsi ni iciyumviro gishobora gucisha agatwe, kigaragaza gusa ukutumvikana hagati y'abakuru n'uguhahaza abato».
 
 
 ![image](assets/fr/075.webp)
 
 
-Tocqueville yaravuze neza yuko Abafiziyokarate banse demokarasi bakibona uburyo bwayo. Bari bafise amakenga kuri demokarasi, iyo demokarasi yobaye ikintu kidahinduka mu bukungu bwa politike bw’Ubufaransa, kuko demokarasi iri kure y’uburyo butunganye: ishobora kwemera ko abantu batobato bahahazwa n’abantu benshi, kandi ishobora kuba igikoresho co kwigarurira, ububisha, no gusahura.
+Tocqueville yaravuze neza yuko Aba physiocrats banse demokarasi bakibona uburyo bwayo. Bari bafise amakenga kuri demokarasi, iyo demokarasi yobaye ikintu kidahinduka mu butunzi bwa politike y'Ubufaransa, kuko demokarasi iri kure y’uburyo butunganye: ishobora kwemera ko abantu batobato bahahazwa n’abantu benshi, kandi ishobora kuba igikoresho co kwigarurira, ububisha, no gusahura.
 
 
-### Ingingo ya gatatu: kwubahiriza ata gukeka umutungo w’umuntu ku giti ciwe
+### Ingingo ya gatatu: kwubahiriza ata gukeka utbutunzi(itongo) ry’umuntu yigabira
 
 
-Abanyafiziyokarate bemera ko abantu bakeneye kugira ivyo bavuye mu bikorwa vyabo no kubizigama. Mu vyiyumviro vyabo, uburenganzira bwo kuronka itunga ni bwo bwari umushinge nyawo w’ikibano. Biyumvira ko Leta ifise igikorwa kimwe nyamukuru: ni ugukingira ivy’abantu. Ikindi kandi, mu vy’ubutunzi, aba Physiocrates bemeza ko ukudashobora guhungabanywa kw’itunga biremesha igikorwa n’inguvu kandi ko ari ikintu gikenewe kugira ngo ubutunzi butere imbere.
+Aba physiocrats bemera ko abantu bakeneye kugira ivyo bavuye mu bikorwa vyabo no kubizigama. Mu vyiyumviro vyabo, uburenganzira bwo kuronka itunga ni bwo bwari umushinge nyawo w’ikibano. Biyumvira ko Leta ifise igikorwa kimwe nyamukuru: ni ugukingira ivy’abantu. Ikindi kandi, mu vy’ubutunzi, aba Physiocrates bemeza ko ukudashobora guhungabanywa kw’itunga biremesha igikorwa n’inguvu kandi ko ari ikintu gikenewe kugira ngo ubutunzi butere imbere.
 
 
 ![image](assets/fr/076.webp)
@@ -961,10 +961,10 @@ Abanyafiziyokarate bemera ko abantu bakeneye kugira ivyo bavuye mu bikorwa vyabo
 Quesnay yabivuze mu buryo bworoshe ati:
 
 
-> Reka Ownership y’ubutaka n’ubutunzi bwimukanwa yizezwe n’abayifise mu buryo bubereye, kuko umutekano w’itunga ari wo mushinge w’ingenzi w’urutonde rw’ubutunzi n’umutekano w’ikibano; ni ukudakeka ko umuntu afise ubutaka ubudasiba biremesha gukora cane no gukoresha ubutunzi mu gutegura no kurima ubutaka, no mu bikorwa vy’ubudandaji n’inganda.
+> Reka gufita ubutaka n’ubutunzi bwimukanwa yizezwe n’abayifise mu buryo bubereye, kuko umutekano w’itunga ari wo mushinge nyamukuru w’urutonde rw’ubutunzi n’umutekano w’ikibano; ni ukudakeka ko umuntu afise ubutaka ubudasiba biremesha gukora cane no gukoresha ubutunzi mu gutegura no kurima ubutaka, no mu bikorwa vy’ubudandaji n’inganda.
 
 
-### Ingingo ya kane: umwidegemvyo w'ubudandaji
+### Ingingo ya kane: umwidegemvyo ukomeye w'ubudandaji
 
 
 Mu gitabu ciwe *Maxims* twamaze kuvuga, Quesnay avuga ati:
@@ -982,20 +982,20 @@ Abafiziyokarate bari babonye ingorane zatewe n’ukuntu Leta yivanga mu vyo guko
 Kubera ko ubudandaji bufise akamaro mu kameremere, butegerezwa kuba ubw’ubuntu bwose kandi butagira agasembwa. Umwe mu bagize umurwi wabo, Le Trosne, mbere yaranditse agatabu kavuga ngo [*Umwidegemvyo w’ubudandaji bw’intete: Buma ari ngirakamaro, ntibugira akamaro*](https://www.institucoppet.org/liberte-commerce-intete-tour-utile-jamais-nuisible/).
 
 
-### Iciyumviro ca gatanu: Abagabo bose ni abavukanyi .
+### Iciyumviro ca gatanu: Abantu bose ni abavukanyi .
 
 
-Abafiziyokarate barwanya cane ubuja, na bo nyene bari abakunda amahoro bakomeye. Mirabeau yavuze gusa ati: «Ingingo yacu y’ububanyi n’amahanga yitwa amahoro». Mu 1790, mw’Inama Nshingamateka, Dupont de Nemours yarabandanije iyo ngingo y’uguharanira amahoro igihe yatanga itegeko ribuza intambara zitera.
+Aba physiocrats barwanya cane ubuja, na bo nyene bari abakunda amahoro bakomeye. Mirabeau yavuze gusa ati: «Ingingo yacu y’ububanyi n’amahanga yitwa amahoro(Our foreign policy is called peace)». Mu 1790, mw’Inama Nshingamateka, Dupont de Nemours yarabandanije iyo ngingo y’uguharanira amahoro igihe yatanga itegeko ribuza intambara zitera.
 
 
 
-## Ivyo aba Physiocrates bashitseko n'ivyo bakoze
+## Ivyo aba Physiocrats bakoze n'ico vyateye
 
 
 <chapterId>5b911105-796a-5e2e-a501-c7a364fc758e</chapterId>
 
 
-Nk’uko twabibonye mu kigabane ca mbere mu bigabane bitatu vyerekeye aba Fiziyokarate, abayoboke ba Quesnay bose ni bo bari abashavu mu Bufaransa mu myaka nk’icumi. Uwo mutima wo gukunda ivyiyumviro vyabo warateye imbere mu bihe vyabo, kandi warabandanije gushika mu mpera z’ikinjana. Aha, turaza kuraba bimwe mu vyo bagezeko n’ingene bagize ico bakoze ku babakurikiye mu bijanye n’ivyiyumviro vy’ubutunzi.
+Nk’uko twabibonye mu kigabane ca mbere mu bigabane bitatu vyerekeye aba physiocrats, abayoboke ba Quesnay bose ni bo bari abashavu mu Bufaransa mu myaka nk’icumi. Uwo mutima wo gukunda ivyiyumviro vyabo warateye imbere mu bihe vyabo, kandi warabandanije gushika mu mpera z’ikinjana. Aha, turaza kuraba bimwe mu vyo bagezeko n’ingene bagize ico bakoze ku babakurikiye mu bijanye n’ivyiyumviro vy’ubutunzi.
 
 
 Ico bashoboye gukora cane, bakurikije umugwi wa Gournay, ni ugukwiragiza ivyiyumviro vy’ubutunzi. Imvugo izwi cane ya Voltaire irazwi cane: nko mu 1750, ihanga, ryari ryuzuye imivugo n’ibitabu, ryaratanguye gutekereza ku bijanye n’intete. Abafiziyokarate bari muri uwo muhari, barasohora amajana n’amajana y’ingingo, udutabu n’ibitabu vyerekeye umwidegemvyo w’ubudandaji bw’intete. Inguvu zikomeye aba Physiocrates bahaye ibiganiro vy’ubutunzi ziraboneka kandi mu mubare munini w’ibitabu vy’ubutunzi n’udutabu twasohowe mu Bufaransa kuva mu 1760 gushika mu 1775. Nk’ikindi kimenyamenya c’uko ivyiyumviro vy’ubutunzi vyakwiragiye mu Bufaransa, umuntu aribuka amajambo ya M. de Vaublanc yavuze mu mwaka wa 1760. nta kindi yavuga atari ubutunzi. Ati: «Ni co cari umuderi». "Bose bari abahinga mu vy'ubutunzi".

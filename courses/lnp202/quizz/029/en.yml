@@ -2,8 +2,8 @@ question: What is the main risk a watchtower aims to prevent?
 answer: Cheating with old state
 wrong_answers:
   - 51% attack
-  - Flight of seed
+  - Seed theft
   - Cheat with new state
 explanation: |
-  A watchtower protects against the publication of an old channel statement aimed at embezzling funds.
+  A watchtower protects against the publication of an old channel state aimed at embezzling funds.
 reviewed: false

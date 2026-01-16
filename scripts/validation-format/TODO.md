@@ -104,25 +104,24 @@ Note: Some content types show validation errors due to schema drift (schemas nee
 
 ---
 
-## Phase 4: Enhance Output Options
+## Phase 4: Enhance Output Options ✓
 
 ### 4.1 Add JSON output flag
-- [ ] Add `--json` / `-j` flag for JSON output
-- [ ] Structure JSON output with:
-  - `path`: content path validated
-  - `content_type`: detected type
-  - `valid`: boolean
-  - `errors`: array of error objects
-  - `warnings`: array of warning objects
+- [x] Add `--json` / `-j` flag for JSON output
+- [x] Structure JSON output with:
+  - `folder`: content path validated
+  - `results`: array with file, valid, errors, warnings
+  - `total_errors`: total error count
+  - `total_warnings`: total warning count
 
 ### 4.2 Add exit codes
-- [ ] Exit code 0: validation passed
-- [ ] Exit code 1: validation failed (errors)
-- [ ] Exit code 2: validation passed with warnings
+- [x] Exit code 0: validation passed
+- [x] Exit code 1: validation failed (errors)
+- [x] Exit code 2: validation passed with warnings only
 
 ### 4.3 Keep terminal output as default
-- [ ] Colored output for human readability
-- [ ] Summary statistics at the end
+- [x] Colored output for human readability (ANSI codes)
+- [x] Summary statistics at the end
 
 ---
 
@@ -202,6 +201,6 @@ python scripts/validation-format/validate_all.py --resources-only
 - [ ] Not started
 - [x] Completed
 
-**Current Phase**: Phase 3 Complete
+**Current Phase**: Phase 4 Complete
 
-**Last Updated**: 2026-01-16 - Phase 1-3 completed (schemas centralized, paper schema added, validator updated)
+**Last Updated**: 2026-01-16 - Phase 1-4 completed (schemas centralized, paper schema added, validator with JSON output and exit codes)

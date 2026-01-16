@@ -815,11 +815,20 @@ Supported content types:
             "total_warnings": sum(len(r.warnings) for r in results),
         }
         print(json.dumps(output, indent=2))
-        success = output["total_errors"] == 0
+        total_errors = output["total_errors"]
+        total_warnings = output["total_warnings"]
     else:
-        success = validator.print_results(results)
+        validator.print_results(results)
+        total_errors = sum(len(r.errors) for r in results)
+        total_warnings = sum(len(r.warnings) for r in results)
 
-    sys.exit(0 if success else 1)
+    # Exit codes: 0 = passed, 1 = errors, 2 = warnings only
+    if total_errors > 0:
+        sys.exit(1)
+    elif total_warnings > 0:
+        sys.exit(2)
+    else:
+        sys.exit(0)
 
 
 if __name__ == "__main__":

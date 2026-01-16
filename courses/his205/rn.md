@@ -937,15 +937,15 @@ Muri iki gice, citwa "Amahera ikimenyetso n'imitunganirize y'ubutunzi n'amahera 
 
 
 
-### Iciyumviro c'amafaranga y'ikimenyetso n'ibiranga
+### Iciyumviro c'amafaranga y'ikimenyetso n'ibiranga bitandukanye
 
 
 
-Nk’uko uwo mwanditsi abivuga, amahera y’ibimenyetso angana n’amahera y’ubu. Ni amafaranga adafise agaciro gafitaniye isano n’ivyuma birimwo. Kuva mu ntango, vyari nk’amasezerano, ni ukuvuga ukwiyumvikana kw’abantu ku bijanye n’agaciro k’ivyo biceri.
+Nk’uko uwo mwanditsi abivuga, amahera y’ibimenyetso angana n’amahera y’ubu. Ni amafaranga adafise agaciro gafitaniye isano nakamere yicuma. Kuva mu ntango, vyari nk’amasezerano, ni ukuvuga ukwumvikana kw’abantu ku bijanye n’agaciro k’ivyo biceri.
 
 
 
-Ibiceri vya kera vy’Abashinwa birafise ibiranga bitandukanye n’imigenzo y’Abanyaburaya. Ahanini yari icuma, ariko yari icuzwe aho gucukurwa, kandi ntiyari ifise ishusho y’umukuru w’igihugu. Igitangaje ni uko Leta y’Ubushinwa itagira ububasha bwo gutanga amahera. Ukwo kwidegemvya kugaragara gushobora gusigurwa n’uko ata nkenegwa iyo ari yo yose y’ubutunzi yo gukoresha mu gutanga amahera, bivuye ku misoro myinshi itegekanijwe ku bantu benshi bashobora gusoreshwa.
+Ibiceri vya kera vy’Abashinwa birafise ibiranga bitandukanye n’imigenzo y’Abanyaburaya. Ahanini vyari ivyuma, ariko vyarashongeshwa ariko ntivyahingurwa, kandi ntivyari bifise ishusho y’umukuru w’igihugu. Igitangaje ni uko Leta y’Ubushinwa  ntiyakorera kumafaranga amwe hose. Ukwo kwidegemvya kwogukora amahera  gushobora gusigurwa n’uko ata nkenegwa iyo ari yo yose y’ubutunzi yo gukoresha mu gutanga amahera, bivuye ku misoro myinshi itegekanijwe ku bantu benshi bashobora gusoreshwa.
 
 
 

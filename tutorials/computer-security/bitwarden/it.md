@@ -39,7 +39,7 @@ Inoltre, Bitwarden è open-source, il che significa che il software può essere 
 ![BITWARDEN](assets/notext/02.webp)
 
 A mio parere, questi prezzi sono equi. La versione gratuita è un'ottima opzione per i principianti, e la versione premium offre un ottimo rapporto qualità-prezzo rispetto ad altri gestori di password sul mercato, offrendo inoltre più funzionalità. Inoltre, il fatto che Bitwarden sia open-source rappresenta un grande vantaggio. Pertanto, è un compromesso interessante, specialmente per i principianti.
-Un'altra caratteristica di Bitwarden è la possibilità di auto-ospitare il proprio gestore di password se si possiede, ad esempio, un NAS in casa. Configurando questa opzione, le tue password non sono memorizzate sui server di Bitwarden, ma sui tuoi server personali. Questo ti dà il controllo completo sulla disponibilità delle tue password. Tuttavia, questa opzione richiede una gestione rigorosa dei backup per evitare qualsiasi perdita di accesso. Pertanto, il self-hosting di Bitwarden è più adatto agli utenti avanzati, e ne parleremo in un altro tutorial.
+Un'altra caratteristica di Bitwarden è la possibilità di auto-ospitare il tuo gestore di password se possiedi, ad esempio, un NAS in casa. Configurando questa opzione, le tue password non sono memorizzate sui server di Bitwarden, ma sui tuoi server personali. Questo ti dà il controllo completo sulla disponibilità delle tue password. Tuttavia, questa opzione richiede una gestione rigorosa dei backup per evitare qualsiasi perdita di accesso. Pertanto, il self-hosting di Bitwarden è più adatto agli utenti avanzati, e ne parleremo in un altro tutorial.
 
 
 ## Come creare un account Bitwarden?

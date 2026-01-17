@@ -55,13 +55,13 @@ Aurora Store non solo rispecchia Google Play Store, ma include anche funzioni ch
 
 - **Indipendenza da Google:**
 
-In un contesto in cui si decide di disabilitare i servizi di Google Play per proteggere i propri dati, o si utilizza un telefono che non supporta più i servizi di Google, Aurora Store, grazie a MicroG, un progetto open source, consente di installare e utilizzare le applicazioni mobili disponibili su Google Play Store. Questa funzione è particolarmente utile se vi trovate in un Paese soggetto a sanzioni da parte degli Stati Uniti.
+In un contesto in cui si decide di disabilitare i servizi di Google Play per proteggere i propri dati, o si utilizza un telefono che non supporta più i servizi di Google, Aurora Store, grazie a MicroG, un progetto open source, consente di installare e utilizzare le applicazioni mobili disponibili su Google Play Store. Questa funzione è particolarmente utile se ti trovi in un Paese soggetto a sanzioni da parte degli Stati Uniti.
 
 ![microG](assets/fr/07.webp)
 
 - **Controllo del download:**
 
-Aurora Store consente di scaricare manualmente le applicazioni mobili specificando il codice della versione che si desidera installare. Il controllo del download è un vantaggio quando gli aggiornamenti delle applicazioni richiedono più dati di quelli necessari: hai il controllo sui tuoi dati.
+Aurora Store consente di scaricare manualmente le applicazioni mobili specificando il codice della versione che desideri installare. Il controllo del download è un vantaggio quando gli aggiornamenti delle applicazioni richiedono più dati di quelli necessari: hai il controllo sui tuoi dati.
 
 ![manual](assets/fr/04.webp)
 

@@ -135,7 +135,7 @@ lsblk
 cfdisk /dev/nome-del-disco
 ```
 
-Scegli **GPT** se si è in UEFI, **DOS** se si è in BIOS.
+Scegli **GPT** se sei in UEFI, **DOS** se sei in BIOS.
 
 ![0_9](assets/fr/09.webp)
 

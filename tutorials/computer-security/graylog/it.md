@@ -328,7 +328,7 @@ tail -f /var/log/graylog-server/server.log
 
 È stato quindi necessario riprovare la connessione con l'utente "**admin**" e la password temporanea, che ha permesso di effettuare il login!
 
-**Ora non è più così. Tutto ciò che dovi fare è accedere con il tuo account di amministratore e la password configurata alla riga di comando**
+**Ora non è più così. Tutto ciò che devi fare è accedere con il tuo account di amministratore e la password configurata alla riga di comando**
 
 ![Image](assets/fr/033.webp)
 

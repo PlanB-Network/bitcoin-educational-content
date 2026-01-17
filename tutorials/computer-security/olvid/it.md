@@ -47,7 +47,7 @@ Olvid è disponibile su tutte le piattaforme. È possibile scaricare l'applicazi
 
 Su Android, è anche possibile [installare via APK](https://www.olvid.io/download/).
 
-In questo tutorial ci concentreremo sulla versione mobile, ma vi ricordiamo che [sono disponibili anche versioni per computer](https://www.olvid.io/download/) (MacOS, Linux e Windows). Se scegli la versione a pagamento, puoi sincronizzare il tuo account su più dispositivi.
+In questo tutorial ci concentreremo sulla versione mobile, ma ti ricordiamo che [sono disponibili anche versioni per computer](https://www.olvid.io/download/) (MacOS, Linux e Windows). Se scegli la versione a pagamento, puoi sincronizzare il tuo account su più dispositivi.
 
 ![Image](assets/fr/01.webp)
 

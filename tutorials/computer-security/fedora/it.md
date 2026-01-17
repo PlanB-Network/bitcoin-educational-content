@@ -185,9 +185,9 @@ Fedora include di default la suite per ufficio **LibreOffice**, che offre divers
 
 Per installare nuove applicazioni, puoi usare il **gestore software** di Fedora (chiamato _Software_), che rende l'installazione visivamente facile.  Tuttavia, l'uso del **terminale** è spesso più veloce e preciso.
 
-Prima di installare qualsiasi software, ricordateti sempre di aggiornare i **repository** per assicurarti di avere accesso alle ultime versioni disponibili.
+Prima di installare qualsiasi software, ricordati sempre di aggiornare i **repository** per assicurarti di avere accesso alle ultime versioni disponibili.
 
-Utilizzate quindi il seguente comando per avviare l'installazione dell'applicazione desiderata:
+Utilizza quindi il seguente comando per avviare l'installazione dell'applicazione desiderata:
 
 `sudo dnf install software_name`
 

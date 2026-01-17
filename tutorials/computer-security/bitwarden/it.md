@@ -20,7 +20,7 @@ In questo tutorial, esploreremo come configurare e utilizzare un gestore di pass
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-**_Attenzione_**: un gestore di password è ottimo per memorizzare le password, ma **non dovreste mai memorizzare la frase mnemonica del tuo portafoglio Bitcoin in esso!** Ricordate, una frase mnemonica dovrebbe essere salvata esclusivamente in un formato fisico, come un pezzo di carta o metallo.
+**_Attenzione_**: un gestore di password è ottimo per memorizzare le password, ma **non ci dovresti mai memorizzare la frase mnemonica del tuo portafoglio Bitcoin!** Ricorda, una frase mnemonica dovrebbe essere salvata esclusivamente in un formato fisico, come un pezzo di carta o metallo.
 
 
 ## Introduzione a Bitwarden

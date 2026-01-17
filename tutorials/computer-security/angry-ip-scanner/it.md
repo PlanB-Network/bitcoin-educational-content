@@ -37,7 +37,7 @@ https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6d
 
 ![Image](assets/fr/016.webp)
 
-Lanciate l'eseguibile per procedere con l'installazione. Non c'è nulla di particolare da fare durante l'installazione.
+Lancia l'eseguibile per procedere con l'installazione. Non c'è nulla di particolare da fare durante l'installazione.
 
 ![Image](assets/fr/013.webp)
 

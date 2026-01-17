@@ -219,7 +219,7 @@ sr0        11:0    1 1024M  0 rom
 Ora, il volume decrittografato della nostra chiavetta USB presenta un volume che il nostro file system e il sistema operativo possono utilizzare, quindi monteremo il suo contenuto in una cartella qualsiasi, ad esempio "**/home/mickael/mnt**" nel mio caso:
 
 ```
-# Montare il volume decifrato sul tuo file system
+# Monta il volume decifrato sul tuo file system
 $ mkdir /home/mickael/mnt
 $ sudo mount /dev/mapper/usbkey1 /home/mickael/mnt
 

@@ -109,7 +109,7 @@ Scegli la zona geografica per impostare automaticamente la data e l'ora.
 
 - Layout della tastiera
 
-Seleziona la lingua e il layout della tastiera. Utilizzate il campo di prova incorporato per verificare che ogni tasto produca il carattere previsto.
+Seleziona la lingua e il layout della tastiera. Utilizza il campo di prova incorporato per verificare che ogni tasto produca il carattere previsto.
 
 ![keyboard](assets/fr/08.webp)
 

@@ -414,19 +414,19 @@ Ad esempio, per installare l'editor di testo **nano**, si può digitare:
 pacman -S nano
 ```
 
-Per installare un browser web leggero come `firefox`, utilizzare:
+Per installare un browser web leggero come `firefox`, utilizza:
 
 ```shell
 pacman -S firefox
 ```
 
-Infine, se si vogliono aggiungere strumenti di rete essenziali come `net-tools`, il comando sarà:
+Infine, se vuoi aggiungere strumenti di rete essenziali come `net-tools`, il comando sarà:
 
 ```shell
 pacman -S net-tools
 ```
 
-Non dimenticate che potete installare più pacchetti con un solo comando, elencandoli separatamente:
+Non dimenticare che puoi installare più pacchetti con un solo comando, elencandoli separatamente:
 
 ```shell
 pacman -S vim firefox net-tools

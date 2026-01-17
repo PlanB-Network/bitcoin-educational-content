@@ -51,7 +51,7 @@ Da Aurora Store è possibile accedere al catalogo delle applicazioni disponibili
 
 ## Caratteristiche
 
-Aurora Store non solo rispecchia Google Play Store, ma include anche funzioni che forniscono tutte le informazioni necessarie sulle applicazioni che si desidera installare. Grazie a queste caratteristiche, Aurora Store ti permette di avere il controllo dei tuoi dati e della tua vita digitale.
+Aurora Store non solo rispecchia Google Play Store, ma include anche funzioni che forniscono tutte le informazioni necessarie sulle applicazioni che desideri installare. Grazie a queste caratteristiche, Aurora Store ti permette di avere il controllo dei tuoi dati e della tua vita digitale.
 
 - **Indipendenza da Google:**
 

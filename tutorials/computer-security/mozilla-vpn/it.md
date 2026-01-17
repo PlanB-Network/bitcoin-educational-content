@@ -27,7 +27,7 @@ Sulla base di questo principio, [Mozilla VPN](https://www.mozilla.org/it/product
 - Facilità d'uso: un' interfaccia grafica snella e minimalista che mostra gli elementi essenziali dei server e dei paesi tra cui è possibile scegliere.
 - Tecnologia [WireGuard](https://planb.academy/en/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779): un protocollo di comunicazione e un software open-source che utilizza la crittografia più avanzata per creare tunnel criptati, offrendo un'alternativa leggera e più facile da implementare, con una base di codice più piccola e un'attenzione particolare alla velocità e alla sicurezza.
 - Prezzi trasparenti: circa 10 euro per un canone mensile e 5 euro al mese per un abbonamento annuale.
-- Dispositivi multipli connessi: Collegate fino a 5 dispositivi contemporaneamente al tuo account Mozilla VPN.
+- Dispositivi multipli connessi: Collega fino a 5 dispositivi contemporaneamente al tuo account Mozilla VPN.
 
 
 ## Come iniziare con Mozilla VPN

@@ -144,7 +144,7 @@ Questo file di backup ti consentirà di ricollegarti al tuo account.
 
 ### Connessione tramite archivio
 
-A tale scopo, fare clic sul pulsante **Importa da un archivio di backup** e seleziona il file di backup del proprio account Jami.
+A tale scopo, fai clic sul pulsante **Importa da un archivio di backup** e seleziona il file di backup del tuo account Jami.
 
 ![0_14](assets/fr/14.webp)
 

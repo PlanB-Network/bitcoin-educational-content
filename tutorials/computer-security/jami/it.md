@@ -115,7 +115,7 @@ Una volta avviata l'applicazione, si potrà scegliere se creare un account o con
 
 ### Creare un account
 
-Creare un account Jami è relativamente semplice. Non è necessario un indirizzo di posta elettronica o un numero di telefono: Jami raccoglie solo il minimo di informazioni. Se lo si desidera, è possibile registrare un nome utente (alias) che punta al proprio *Jami ID* (impronta digitale crittografica). L'associazione *alias ↔ Jami ID* è pubblicata su un server di nomi predefinito (sostituibile / self-hosting), quindi l'alias non è necessariamente obbligatorio.
+Creare un account Jami è relativamente semplice. Non è necessario un indirizzo di posta elettronica o un numero di telefono: Jami raccoglie solo il minimo di informazioni. Se lo desideri, è possibile registrare un nome utente (alias) che punta al proprio *Jami ID* (impronta digitale crittografica). L'associazione *alias ↔ Jami ID* è pubblicata su un server di nomi predefinito (sostituibile / self-hosting), quindi l'alias non è necessariamente obbligatorio.
 
 ![0_08](assets/fr/08.webp)
 

@@ -47,7 +47,7 @@ Nelle impostazioni dell'applicazione, è possibile definire la frequenza degli a
 
 ![update-modes](assets/fr/02.webp)
 
-Da Aurora Store è possibile accedere al catalogo delle applicazioni disponibili su Google Play Store, leggerne la descrizione, ottenere il feedback degli utenti e installarle sul proprio telefono. Tuttavia, questo non significa che tutte le applicazioni siano gratuite. Se l'applicazione, da te scelta, deve essere pagata su Play Store, dovrai prima effettuare il pagamento, utilizzando l'applicazione Play Store o visitando il sito web ufficiale di Play Store.
+Da Aurora Store è possibile accedere al catalogo delle applicazioni disponibili su Google Play Store, leggine la descrizione, ottieni il feedback degli utenti e installale sul tuo telefono. Tuttavia, questo non significa che tutte le applicazioni siano gratuite. Se l'applicazione, da te scelta, deve essere pagata su Play Store, dovrai prima effettuare il pagamento, utilizzando l'applicazione Play Store o visitando il sito web ufficiale di Play Store.
 
 ## Caratteristiche
 

@@ -60,7 +60,7 @@ Ente Auth è disponibile sulle piattaforme più diffuse. È possibile scaricare 
 
 Hai diverse opzioni:
 
-- **Google Play Store**: cercare "Ente Auth" per l'installazione classica
+- **Google Play Store**: cerca "Ente Auth" per l'installazione classica
 - **F-Droid**: disponibile dal catalogo di applicazioni open-source di Android, con la garanzia di una costruzione verificata e senza contenuti proprietari
 - **Installazione manuale**: i file APK possono essere scaricati dalla [pagina GitHub del progetto](https://github.com/ente-io/auth/releases) con notifica integrata delle nuove versioni
 

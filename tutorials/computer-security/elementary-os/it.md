@@ -34,7 +34,7 @@ Prima di iniziare l'installazione, accertarsi di disporre delle seguenti apparec
 
 Vai sul sito ufficiale del sistema operativo [ElementaryOS](https://elementary.io/) e scegli un importo per sostenere il progetto. Questo passo è facoltativo.
 
-Se si desidera scaricare gratuitamente l'immagine ISO, inserisci '0' nel campo **"Altro "** e avvia il download dell'immagine ISO del sistema.
+Se desideri scaricare gratuitamente l'immagine ISO, inserisci '0' nel campo **"Altro "** e avvia il download dell'immagine ISO del sistema.
 
 ![0_01](assets/fr/01.webp)
 

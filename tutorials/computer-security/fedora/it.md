@@ -101,7 +101,7 @@ Il primo passo è quello di selezionare la **lingua di installazione** e il **di
 
 - Selezione del disco di installazione:
 
-Scegliere il disco rigido su cui si vuole installare Fedora.
+Scegli il disco rigido su cui vuoi installare Fedora.
 
 Se il disco è vuoto, Fedora utilizzerà automaticamente tutto lo spazio disponibile. Altrimenti, è possibile personalizzare il partizionamento (manuale o automatico).
 

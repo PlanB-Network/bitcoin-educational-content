@@ -150,7 +150,7 @@ Subito dopo scegli la tua password principale.
 
 ![KEEPASS](assets/notext/17.webp)
 
-Come abbiamo visto nell'introduzione, questa password è molto importante, poiché ti dà accesso a tutte le tue altre password salvate nel database. Questa password verrà utilizzata per criptare il database `Database.kdbx`. Cioò presenta due principali rischi: la perdita e il compromesso. Se perdi l'accesso a questa password, non sarai più in grado di accedere a tutte le tue credenziali. Se la tua password viene rubata, oltre al database criptato, l'attaccante sarà in grado di accedere a tutti i tuoi account.
+Come abbiamo visto nell'introduzione, questa password è molto importante, poiché ti dà accesso a tutte le tue altre password salvate nel database. Questa password verrà utilizzata per criptare il database `Database.kdbx`. Ciò presenta due principali rischi: la perdita e il compromesso. Se perdi l'accesso a questa password, non sarai più in grado di accedere a tutte le tue credenziali. Se la tua password viene rubata, oltre al database criptato, l'attaccante sarà in grado di accedere a tutti i tuoi account.
 
 Per minimizzare il rischio di perdita, ti consiglio di fare un backup fisico della tua password principale su carta e di conservarlo in un luogo sicuro. Se possibile, sigilla questo backup in una busta sicura per assicurarti regolarmente che nessun altro ci abbia avuto accesso.
 

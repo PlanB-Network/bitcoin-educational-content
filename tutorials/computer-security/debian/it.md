@@ -116,7 +116,7 @@ Seleziona la lingua e il layout della tastiera. Utilizza il campo di prova incor
 ### Partizionamento del disco
 
 - **Cancella disco**: se hai una partizione dedicata, questa opzione cancellerà tutto il suo contenuto.
-- **Partizionamento manuale**: sceglie questa opzione per creare, ridimensionare o eliminare le partizioni come richiesto.
+- **Partizionamento manuale**: scegli questa opzione per creare, ridimensionare o eliminare le partizioni come richiesto.
 
 ![disk](assets/fr/09.webp)
 

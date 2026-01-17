@@ -93,7 +93,7 @@ In questo modo si garantisce che non ci saranno dati in chiaro persistenti sulla
 Ora inizializzerai la partizione LUKS sulla tua chiave USB. Questo comporta la creazione della partizione LUKS:
 
 ```
-# Formattazione di na partizione LUKS sulla chiavetta USB
+# Formattazione di una partizione LUKS sulla chiavetta USB
 $ sudo cryptsetup luksFormat /dev/sdb
 
 WARNING!

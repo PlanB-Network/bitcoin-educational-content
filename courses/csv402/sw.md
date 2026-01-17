@@ -5,7 +5,7 @@ objectives:
 - Kuelewa dhana za kimsingi za RGB protocol 
 - Bidii kanuni za ahadi za Client-side Validation na Bitcoin
 - Jifunze jinsi ya kuunda, kudhibiti na kuhamisha mikataba ya RGB
-- Jinsi ya kuendesha nodi ya lightening inayoendana na RGB
+- Jinsi ya kuendesha node ya lightening inayoendana na RGB
 ---
 # Kugundua RGB protocol
 
@@ -83,10 +83,10 @@ Katika sura hii, tunachunguza misingi ya **mifumo ya makubaliano iliyosambazwa**
 
 ### Utangulizi
 
-Kompyuta iliyosambazwa, tawi maalum la sayansi ya kompyuta, husoma itifaki zinazotumiwa kusambaza na kuchakata habari kwenye mtandao wa nodi. Kwa pamoja, nodi hizi na sheria za itifaki zinaunda kile kinachojulikana kama mfumo uliosambazwa. Miongoni mwa sifa muhimu za mfumo kama huu ni:
+Kompyuta iliyosambazwa, tawi maalum la sayansi ya kompyuta, husoma itifaki zinazotumiwa kusambaza na kuchakata habari kwenye mtandao wa node. Kwa pamoja, node hizi na sheria za itifaki zinaunda kile kinachojulikana kama mfumo uliosambazwa. Miongoni mwa sifa muhimu za mfumo kama huu ni:
 
 
-- **uwezo wa uthibitishaji huru na uthibitishaji** wa data fulani kwa kila nodi;
+- **uwezo wa uthibitishaji huru na uthibitishaji** wa data fulani kwa kila node;
 - **Uwezekano wa nodes kujenga (kulingana na itifaki) mtazamo kamili au sehemu ya habari**. Maoni haya ni **majimbo** ya mfumo uliosambazwa;
 - **Mpangilio wa matukio** wa utendakazi, ili data iwekwe muhuri wa wakati kwa uhakika na kuwe na makubaliano juu ya mlolongo wa matukio (mfuatano wa majimbo).
 
@@ -125,7 +125,7 @@ Blockchain ina ugatuzi wa hali ya juu, lakini sio hatari sana. Zaidi ya hayo, kw
 
 - **Lightning/state**
 
-Njia za serikali (kama ilivyo kwa Lightning Network) ni hatari zaidi na ni za faragha zaidi kuliko Blockchain, kwani shughuli zinafanyika off-chain. Hata hivyo, wajibu wa kutangaza hadharani baadhi ya Elements (miamala ya ufadhili, topolojia ya mtandao) na ufuatiliaji wa trafiki ya mtandao inaweza kwa kiasi fulani kuhatarisha usiri. Ugatuaji pia unateseka: uelekezaji unatumia pesa nyingi, na nodi kuu zinaweza kuwa sehemu kuu za uwekaji. Hili ndilo jambo ambalo tunaanza kuona kwenye Lightning.
+Njia za serikali (kama ilivyo kwa Lightning Network) ni hatari zaidi na ni za faragha zaidi kuliko Blockchain, kwani shughuli zinafanyika off-chain. Hata hivyo, wajibu wa kutangaza hadharani baadhi ya Elements (miamala ya ufadhili, topolojia ya mtandao) na ufuatiliaji wa trafiki ya mtandao inaweza kwa kiasi fulani kuhatarisha usiri. Ugatuaji pia unateseka: uelekezaji unatumia pesa nyingi, na node kuu zinaweza kuwa sehemu kuu za uwekaji. Hili ndilo jambo ambalo tunaanza kuona kwenye Lightning.
 
 
 - **Client-side Validation (RGB)**
@@ -146,7 +146,7 @@ Blockchain inapendelea uthabiti na upatikanaji, lakini haifanyi vizuri na ugawaj
 
 - **Lightning** (kwa Kifaransa)
 
-Mfumo wa chaneli za serikali una upatikanaji na uvumilivu wa kugawa (kwa kuwa nodi mbili zinaweza kubaki zimeunganishwa kwa kila mmoja hata ikiwa mtandao umegawanyika), lakini uthabiti wa jumla unategemea ufunguzi na kufungwa kwa njia kwenye Blockchain.
+Mfumo wa chaneli za serikali una upatikanaji na uvumilivu wa kugawa (kwa kuwa node mbili zinaweza kubaki zimeunganishwa kwa kila mmoja hata ikiwa mtandao umegawanyika), lakini uthabiti wa jumla unategemea ufunguzi na kufungwa kwa njia kwenye Blockchain.
 
 
 - **Client-side Validation (RGB)**
@@ -197,7 +197,7 @@ Ili kuelewa jinsi uthibitisho huu unavyofanya kazi katika muktadha wa **Bitcoin*
 Kwa upande wa Bitcoin Blockchain, uthibitishaji wa shughuli unategemea kanuni rahisi:
 
 
-- Nodi zote za mtandao hupakua kila kitalu na shughuli;
+- Node zote za mtandao hupakua kila kitalu na shughuli;
 - Wanathibitisha shughuli hizi ili kuthibitisha mabadiliko sahihi ya seti ya UTXO (matokeo yote ambayo hayajatumika);
 - Wanahifadhi data hii (kwa njia ya vitalu) ili historia iweze kurudiwa ikiwa ni lazima.
 
@@ -206,7 +206,7 @@ Kwa upande wa Bitcoin Blockchain, uthibitishaji wa shughuli unategemea kanuni ra
 Walakini, muundo huu una shida mbili kuu:
 
 
-- **Uwezo wa kukua**: kwa kuwa kila nodi lazima ichakate, ithibitishe na kuhifadhi shughuli za kila mtu kwenye kumbukumbu, kuna kikomo dhahiri cha uwezo wa muamala, unaohusishwa haswa na ukubwa wa juu wa kitalu (MB 1 kwa wastani zaidi ya dakika 10 kwa Bitcoin, bila kujumuisha vidakuzi);
+- **Uwezo wa kukua**: kwa kuwa kila node lazima ichakate, ithibitishe na kuhifadhi shughuli za kila mtu kwenye kumbukumbu, kuna kikomo dhahiri cha uwezo wa muamala, unaohusishwa haswa na ukubwa wa juu wa kitalu (MB 1 kwa wastani zaidi ya dakika 10 kwa Bitcoin, bila kujumuisha vidakuzi);
 - **Faragha**: kila kitu kinatangazwa na kuhifadhiwa hadharani (kiasi, anwani lengwa, n.k.), ambayo inazuia usiri wa ubadilishanaji.
 
 ![RGB-Bitcoin](assets/en/012.webp)

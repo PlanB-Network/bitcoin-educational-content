@@ -67,7 +67,7 @@ Aurora Store consente di scaricare manualmente le applicazioni mobili specifican
 
 - **Autorizzazioni**:
 
-Nella descrizione dell'applicazione che si desidera installare, otterrai un elenco completo delle autorizzazioni che verranno concesse a questa applicazione dopo l'installazione.
+Nella descrizione dell'applicazione che desideri installare, otterrai un elenco completo delle autorizzazioni che verranno concesse a questa applicazione dopo l'installazione.
 
 ![autorisations](assets/fr/05.webp)
 

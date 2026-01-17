@@ -89,5 +89,3 @@ Sempre nell'ottica di garantire una maggiore riservatezza ai propri utenti, Mozi
 Ora sei pronto a navigare in Internet in modo sicuro e riservato. Se questo tutorial ti è piaciuto, ti invitiamo a mettere un pollice in su. Siamo certi che apprezzerai anche il nostro tutorial su MULLVAD VPN, un'altra soluzione VPN che non richiede dati personali ai suoi utenti e consente di pagare l'abbonamento in bitcoin (un'opzione più riservata rispetto alle carte di credito):
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
-
-Se ti interessa sapere di più sulle VPN guarda il nostro corso SCU101 su PlanB Accademy o [qui](https://planb.academy/it/courses/99c46148-7080-4915-a7e0-9df0e145cd47/vpn-e-connessione-internet-5aac83f4-a685-54b0-9759-d71bea7eeed2)

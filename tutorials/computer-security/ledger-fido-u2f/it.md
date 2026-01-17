@@ -4,13 +4,13 @@ description: Migliora la tua sicurezza online con Ledger
 ---
 ![cover](assets/cover.webp)
 
-I dispositivi Ledger sono portafogli hardware originariamente progettati per proteggere un wallet Bitcoin, ma presentano anche opzioni avanzate per un'autenticazione forte sul web. Grazie alla compatibilità con i protocolli **U2F** e **FIDO2**, consentono di proteggere l'accesso ai propri account online impostando un secondo fattore di autenticazione.
+I dispositivi Ledger sono portafogli hardware originariamente progettati per proteggere un wallet Bitcoin, ma presentano anche opzioni avanzate per un'autenticazione forte sul web. Grazie alla compatibilità con i protocolli **U2F** e **FIDO2**, consentono di proteggere l'accesso ai tuoi account online impostando un secondo fattore di autenticazione.
 
 Il protocollo U2F (Universal 2nd Factor) è stato introdotto da Google e Yubico nel 2014 e poi standardizzato dalla FIDO Alliance. Consente di aggiungere un secondo fattore di autenticazione fisica (2FA) al momento dell'accesso. Una volta attivato, oltre alla classica password, l'utente deve approvare ogni tentativo di connessione al proprio account premendo un pulsante sul proprio Ledger. In questo contesto, il Ledger funziona in modo simile a uno Yubikey. U2F è di fatto un sottocomponente dello standard FIDO2, che lo ingloba apportando notevoli miglioramenti, tra cui il supporto nativo per i browser moderni e una maggiore flessibilità nella gestione delle chiavi di autenticazione.
 
 Questi metodi si basano sulla crittografia asimmetrica: non vengono trasmessi dati segreti, rendendo inefficaci gli attacchi di phishing o di intercettazione. U2F e FIDO2 sono ora supportati da molti servizi online.
 
-In questa esercitazione ti mostrero come attivare U2F e FIDO2 per l'autenticazione a due fattori con il tuo Ledger.
+In questa esercitazione ti mostrerò come attivare U2F e FIDO2 per l'autenticazione a due fattori con il tuo Ledger.
 
 **Nota:** U2F e FIDO2 sono supportati su tutti i dispositivi Ledger dotati di firmware recente: dalla versione 2.1.0 per Nano X e Nano S classic e dalla versione 1.1.0 per Nano S Plus. I modelli Stax e Flex sono nativamente compatibili.
 

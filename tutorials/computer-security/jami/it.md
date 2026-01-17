@@ -132,7 +132,7 @@ Dopo aver crittografato il tuo account, imposta il tuo nome completo.
 
 ## Accesso a un account esistente
 
-Jami non utilizza **identificatori** e non ha un database da collegare al tuo account. Tutti i tuoi dati sono memorizzati direttamente sul tuo dispositivo. Per connettersi al vecchio account, è necessario eseguire un **backup** del vecchio account.
+Jami non utilizza **identificatori** e non ha un database da collegare al tuo account. Tutti i tuoi dati sono memorizzati direttamente sul tuo dispositivo. Per connetterti al vecchio account, è necessario eseguire un **backup** del vecchio account.
 
 Vai su **Impostazioni**, poi **Account**, poi **Gestione account**. Scorri fino in fondo ed eseguire un **backup del proprio account**. Scegli la posizione in cui salvare il file di backup, inserire la **password** definita al momento della creazione dell'account e convalidare.
 

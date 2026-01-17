@@ -137,7 +137,7 @@ La seconda scheda contiene tutti i contatti.
 
 ![Image](assets/fr/20.webp)
 
-Congratulazioni, ora sei in grado di utilizzare la messaggistica di Olvid, un'ottima alternativa a WathsApp! Se hai trovato utile questo tutorial, ti sarei molto grato se lasciasti un pollice verde qui sotto. Sentiti libero di condividere questo tutorial sui tuoi social network. Grazie mille!
+Congratulazioni, ora sei in grado di utilizzare la messaggistica di Olvid, un'ottima alternativa a WathsApp! Se hai trovato utile questo tutorial, ti sarei molto grato se lasciassi un pollice verde qui sotto. Sentiti libero di condividere questo tutorial sui tuoi social network. Grazie mille!
 
 Ti consiglio anche quest'altro tutorial, in cui ti presento Proton Mail, un'alternativa a Gmail molto più rispettosa della privacy:
 

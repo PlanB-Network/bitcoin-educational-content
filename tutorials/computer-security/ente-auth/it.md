@@ -94,7 +94,7 @@ Quando si avvia Ente Auth per la prima volta, si hanno due opzioni:
 *Schermata iniziale di Ente Auth con opzioni di creazione dell'account*
 
 **Con un account (consigliato)**: scegli "Crea account" e inserisci il tuo indirizzo e-mail Address e una password.
-**Importante**: questa password serve come password principale per la crittografia dei dati. Scegliere una password forte e unica, poiché non esiste una procedura di ripristino convenzionale senza perdita di dati. Se la si smarrisce, i dati crittografati saranno irrecuperabili.
+**Importante**: questa password serve come password principale per la crittografia dei dati. Scegli una password forte e unica, poiché non esiste una procedura di ripristino convenzionale senza perdita di dati. Se la si smarrisce, i dati crittografati saranno irrecuperabili.
 
 **Modalità offline**: seleziona "Usa senza backup" per utilizzare l'applicazione in locale senza cloud. In questa modalità, i codici rimangono sul dispositivo, ma è necessario esportarli manualmente per evitare di perderli.
 

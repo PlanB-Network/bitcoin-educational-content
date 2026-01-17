@@ -39,7 +39,7 @@ Dal 2017, Arch Linux non supporta più le architetture a 32 bit. Sono disponibil
 Per creare una chiavetta USB avviabile, è possibile utilizzare uno strumento come **Balena Etcher**:
 
 - Scarica Balena Etcher dal [sito ufficiale](https://etcher.balena.io).
-- Avvia il software, selezionare l'immagine ISO di Arch Linux.
+- Avvia il software, seleziona l'immagine ISO di Arch Linux.
 - Scegli la chiave USB come dispositivo di destinazione.
 - Clicca su **Flash** per avviare la creazione della chiave avviabile.
 

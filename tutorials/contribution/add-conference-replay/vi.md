@@ -107,8 +107,9 @@ https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![conference](assets/24.webp)
 - Nhấn vào nút `Add file`, sau đó chọn `Upload files`:
 ![conference](assets/25.webp)
-- Một trang mới sẽ mở ra. Kéo thả một ảnh đại diện cho hội nghị của bạn vào đây; ảnh này sẽ được hiển thị trên trang web của Plan ₿ Academy: ![conference](assets/26.webp)
-- Đó có thể là một logo, một ảnh thu nhỏ (thumbnail), hoặc thậm chí là một poster:
+- Một trang mới sẽ mở ra. Kéo thả một ảnh đại diện cho hội nghị của bạn vào đây; ảnh này sẽ được hiển thị trên trang web của Plan ₿ Academy:
+![conference](assets/26.webp)
+- Đó có thể là logo, ảnh thu nhỏ (thumbnail), hoặc thậm chí là poster:
 ![conference](assets/27.webp)
 - Sau khi hình ảnh được tải lên, đảm bảo rằng ô `Commit directly to the patch-1 branch` được chọn, sau đó nhấn `Commit changes`:
 ![conference](assets/28.webp)
@@ -215,6 +216,5 @@ Chúc mừng! Pull Request của bạn đã được khởi tạo thành công. 
 
 Đừng quên theo dõi tiến độ của bản PR nhé. Quản trị viên có thể để lại bình luận yêu cầu bổ sung thông tin hoặc điều chỉnh. Chừng nào PR của bạn chưa được phê duyệt, bạn vẫn có thể theo dõi PR này trong thẻ `Pull requests` trên repository của Plan ₿ Academy:
 ![conference](assets/46.webp)
-
 Chân thành cảm ơn sự đóng góp quý giá của bạn! :)
 

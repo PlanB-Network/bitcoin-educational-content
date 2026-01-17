@@ -25,7 +25,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 ![event](assets/04.webp)
 - Ngay sau đó, giao diện chỉnh sửa của GitHub sẽ hiện ra:
 ![event](assets/05.webp)
-- Tạo một thư mục cho nội dung của bạn. Tại ô `Name your file...`, bạn nhập tên nội dung bằng chữ thường và dùng dấu gạch ngang `-` thay cho khoảng trắng. Ví dụ: tôi muốn thêm một tài liệu PDF minh họa cho danh sách từ vựng BIP39 (BIP39 wordlist) gồm 2048 từ, tôi sẽ đặt tên thư mục là `bip39-wordlist`: ![event](assets/06.webp)
+- Tạo một thư mục cho nội dung của bạn. Tại ô `Name your file...`, bạn nhập tên nội dung bằng chữ thường và dùng dấu gạch ngang `-` thay cho khoảng trắng. Ví dụ, tôi muốn thêm một tài liệu PDF minh họa cho danh sách từ vựng BIP39 (BIP39 wordlist) gồm 2048 từ, tôi sẽ đặt tên thư mục là `bip39-wordlist`: ![event](assets/06.webp)
 - Để đảm bảo rằng bạn đang tạo thư mục thay vì tạo tệp tin, chỉ cần thêm một dấu gạch chéo ngay sau tên vừa nhập, ví dụ: `bip39-wordlist/`. Thao tác thêm dấu `/` này sẽ giúp GitHub tự động nhận diện đây là một thư mục:
 ![event](assets/07.webp)
 - Trong thư mục vừa tạo, bạn sẽ tạo một tệp YAML đầu tiên có tên `bet.yml`:
@@ -70,7 +70,7 @@ https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 	- education
 	- meme...
 
-- **`contributors`**: Điền mã định danh người đóng góp (contributor identifier) của bạn nếu đã có.
+- **`contributors`**: Thêm ID người đóng góp (contributor) của bạn nếu có.
 
 Ví dụ, tệp YAML của bạn có thể trông như thế này:
 
@@ -208,7 +208,7 @@ Thao tác này giúp chúng ta xác định trước đường dẫn cố địn
 ![event](assets/55.webp)
 Chúc mừng! Pull Request của bạn đã được khởi tạo thành công. Đội ngũ quản trị viên sẽ tiến hành kiểm tra và nếu mọi thứ đều đạt yêu cầu, họ sẽ gộp (merge) nó vào repository chính của Plan ₿ Academy. Bạn sẽ thấy bộ công cụ giáo dục (BET) của mình xuất hiện trên website sau vài ngày.
 
-Đừng quên theo dõi tiến độ của bản PR nhé. Quản trị viên có thể để lại bình luận yêu cầu bổ sung thông tin hoặc điều chỉnh. Chừng nào PR của bạn chưa được phê duyệt, bạn vẫn có thể theo dõi PR này trong thẻ "Pull requests" trên repository của Plan ₿ Academy:
+Đừng quên theo dõi tiến độ của bản PR nhé. Quản trị viên có thể để lại bình luận yêu cầu bổ sung thông tin hoặc điều chỉnh. Chừng nào PR của bạn chưa được phê duyệt, bạn vẫn có thể theo dõi PR này trong thẻ `Pull requests` trên repository của Plan ₿ Academy:
 ![event](assets/56.webp)
 Chân thành cảm ơn sự đóng góp quý giá của bạn! :)
 

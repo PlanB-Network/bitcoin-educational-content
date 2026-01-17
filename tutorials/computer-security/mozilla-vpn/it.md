@@ -1,4 +1,4 @@
----Se ti interessa sapere di più sulle VPN guarda il nostro corso SCU101 su PlanB Accademy o [qui](https://planb.academy/it/courses/99c46148-7080-4915-a7e0-9df0e145cd47/vpn-e-connessione-internet-5aac83f4-a685-54b0-9759-d71bea7eeed2)
+---
 name: Mozilla VPN
 description: Proteggi i tuoi dispositivi e i tuoi dati di navigazione in Internet.
 ---

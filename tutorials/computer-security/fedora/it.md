@@ -1,6 +1,6 @@
 ---
 name: Fedora
-description: La distribuzione Linux che offre uno spazio di lavoro libero, completo e sicuro.
+description: La distribuzione Linux che offre uno spazio di lavoro gratuito, completo e sicuro.
 ---
 
 ![cover](assets/cover.webp)

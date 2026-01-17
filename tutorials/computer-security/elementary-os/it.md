@@ -14,7 +14,7 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 - **Semplicità e facilità d'uso**: la grafica dell'interfaccia di Elementary OS è a metà strada tra quelle di MacOs e Windows. Questa familiarità lo rende facile da adottare, anche per gli utenti meno esperti.
 - **Sicurezza**: come la maggior parte delle distribuzioni Linux, Elementary OS beneficia di un elevato livello di sicurezza. Aggiornamenti regolari, gestione dei diritti e assenza di virus comuni ne fanno un sistema affidabile.
-- **Velocità**: Elementary OS è una distribuzione leggera. Richiede poche risorse, il che la rende veloce e adatto a computer con configurazioni modeste.
+- **Velocità**: Elementary OS è una distribuzione leggera. Richiede poche risorse, il che la rende veloce e adatta a computer con configurazioni modeste.
 - **Gratuito**: il sistema è completamente gratuito. Tuttavia, quando lo si scarica, è possibile effettuare una donazione per sostenere gli sviluppatori.
 - **Comunità attiva**: la comunità intorno a Elementary OS è varia e reattiva. In caso di difficoltà, è facile trovare aiuto nei forum o nei social network.
 

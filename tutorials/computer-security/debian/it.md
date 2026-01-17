@@ -91,7 +91,7 @@ Quando si avvia dalla chiavetta USB, la schermata di benvenuto di Debian offre d
 - **Avvia installer**: avvia l'installazione direttamente sul disco rigido.
 - **Opzioni di installazione avanzate**: consente di accedere a modalità di installazione personalizzate.
 
-Per esplorare Debian in modalità live, seleziona **Live System** e confermare con **Enter**. È quindi possibile avviare l'installazione facendo clic su **Installa Debian** nell'ambiente live.
+Per esplorare Debian in modalità live, seleziona **Live System** e conferma con **Enter**. È quindi possibile avviare l'installazione facendo clic su **Installa Debian** nell'ambiente live.
 
 ![system](assets/fr/05.webp)
 

@@ -102,7 +102,7 @@ timedatectl set-timezone Europe/Paris
 timedatectl status
 ```
 
-- Se necessario, attivarla:
+- Se necessario, attivala:
 
 ```shell
 timedatectl set-ntp true

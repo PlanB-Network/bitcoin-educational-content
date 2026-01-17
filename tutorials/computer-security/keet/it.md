@@ -150,7 +150,7 @@ Vai quindi al menu "*I miei dispositivi*".
 
 ![Image](assets/fr/23.webp)
 
-Fai clic su "*Aggiungi dispositivo*". Keet visualizzerà un link per sincronizzare un nuovo dispositivo. Copiare questo link.
+Fai clic su "*Aggiungi dispositivo*". Keet visualizzerà un link per sincronizzare un nuovo dispositivo. Copia questo link.
 
 ![Image](assets/fr/24.webp)
 
@@ -178,8 +178,8 @@ Ora puoi accedere a tutte le tue "*Camere*" e conversazioni da questo nuovo disp
 
 ![Image](assets/fr/30.webp)
 
-Congratulazioni, ora sei in grado di utilizzare la messaggistica di Keet, un'ottima alternativa a WathsApp! Se hai trovato utile questo tutorial, ti sarei molto grato se lasci un pollice verde qui sotto. Sentiti libero di condividere questo tutorial sui tuoi social network. Grazie mille!
+Congratulazioni, ora sei in grado di utilizzare la messaggistica di Keet, un'ottima alternativa a WathsApp! Se hai trovato utile questo tutorial, ti sarei molto grato se lasciassi un pollice verde qui sotto. Sentiti libero di condividere questo tutorial sui tuoi social network. Grazie mille!
 
-Ti consiglio anche quest'altro tutorial, in cui vi presento Proton Mail, un'alternativa a Gmail molto più rispettosa della privacy:
+Ti consiglio anche quest'altro tutorial, in cui ti presento Proton Mail, un'alternativa a Gmail molto più rispettosa della privacy:
 
 https://planb.network/tutorials/computer-security/communication/proton-mail-c3b010ce-254d-4546-b382-19ab9261c6a2

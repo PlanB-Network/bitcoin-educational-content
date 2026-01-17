@@ -164,7 +164,7 @@ Aegis è compatibile con tutti i servizi che utilizzano gli standard TOTP e HOTP
 
 ### Organizzazione all'apertura
 
-Una volta aggiunti diversi account, si apprezzeranno gli strumenti organizzativi di Aegis:
+Una volta aggiunti diversi account, apprezzerai gli strumenti organizzativi di Aegis:
 
 - **Ordinamento personalizzato**: per impostazione predefinita, gli account sono elencati in ordine alfabetico, ma è possibile modificare l'ordine manualmente
 - **Gruppi e categorie**: crea gruppi per separare i tuoi account personali da quelli aziendali, oppure raggruppali per tipo di servizio (banca, e-mail, social network, ecc...)

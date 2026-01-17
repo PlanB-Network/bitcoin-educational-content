@@ -158,7 +158,7 @@ Nella scheda "*Generale*", ci sono diverse impostazioni del client. Ti consiglio
 
 ![IVPN](assets/notext/27.webp)
 
-Nella scheda "*Connessione*", troverai varie opzioni relative alla connessione. Qui è ls pagina dove puoi cambiare il protocollo VPN utilizzato.
+Nella scheda "*Connessione*", troverai varie opzioni relative alla connessione. Qui è la pagina dove puoi cambiare il protocollo VPN utilizzato.
 La scheda "*IVPN Firewall*" ti permette di attivare sistematicamente il firewall all'avvio del computer, assicurando che nessuna connessione venga stabilita al di fuori della VPN.
 La scheda "*Split Tunnel*" offre la possibilità di escludere determinati software dalla connessione VPN. Le applicazioni aggiunte qui continueranno a funzionare con una normale connessione internet anche quando la VPN è attivata.
 Nella scheda "*Controllo WiFi*", hai l'opzione di configurare azioni specifiche in base alle reti a cui sei connesso. Ad esempio, puoi designare la tua rete domestica come "*Affidabile*" e configurare la VPN per non attivarsi su questa rete, ma per attivarsi automaticamente su qualsiasi altra rete WiFi.

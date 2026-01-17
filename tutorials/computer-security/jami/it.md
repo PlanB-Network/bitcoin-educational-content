@@ -70,9 +70,9 @@ Una volta scaricato l'eseguibile, avviare il processo di installazione facendo d
 
 ### Per gli utenti di Linux
 
-Per installare Jami su Linux, è meglio usare la riga di comando. È importante notare che Jami è disponibile per diverse distribuzioni Linux. Prima di iniziare l'installazione di Jami, assicuratevi di scegliere la distribuzione giusta per il tuo sistema.
+Per installare Jami su Linux, è meglio usare la riga di comando. È importante notare che Jami è disponibile per diverse distribuzioni Linux. Prima di iniziare l'installazione di Jami, assicurati di scegliere la distribuzione giusta per il tuo sistema.
 
-Una volta selezionata la distribuzione, è possibile installare il sistema. È necessario installare le dipendenze necessarie per eseguire Jami sul proprio sistema operativo Linux. I comandi sono disponibili direttamente su [questa pagina](https://jami.net/download-jami-linux/).
+Una volta selezionata la distribuzione, è possibile installare il sistema. È necessario installare le dipendenze necessarie per eseguire Jami sul tuo sistema operativo Linux. I comandi sono disponibili direttamente su [questa pagina](https://jami.net/download-jami-linux/).
 
 ![0_06](assets/fr/06.webp)
 

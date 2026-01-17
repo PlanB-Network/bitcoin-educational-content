@@ -57,7 +57,7 @@ Nella fase successiva, Cryptomator probabilmente **rileverà il** "**Drive**" pr
 
 ![Image](assets/fr/018.webp)
 
-Successivamente, è possibile regolare un'opzione in impostazioni esperto.
+Successivamente, è possibile regolare un'opzione in impostazioni avanzate.
 
 ![Image](assets/fr/021.webp)
 

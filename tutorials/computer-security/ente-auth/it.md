@@ -335,7 +335,7 @@ Per i team che gestiscono account sensibili, Ente Auth facilita la collaborazion
 
 Ente Auth rappresenta una soluzione moderna e completa per l'autenticazione a due fattori. Combinando sicurezza, trasparenza e facilità d'uso, questa applicazione open source soddisfa le esigenze degli utenti più esigenti senza sacrificare la convenienza.
 
-A differenza delle soluzioni proprietarie che vi bloccano in un ecosistema opaco, Ente Auth ti restituisce il controllo dei tuoi dati di autenticazione proteggendoti da perdite accidentali grazie ai suoi backup criptati.
+A differenza delle soluzioni proprietarie che ti bloccano in un ecosistema opaco, Ente Auth ti restituisce il controllo dei tuoi dati di autenticazione proteggendoti da perdite accidentali grazie ai suoi backup criptati.
 
 Sia che si tratti di un individuo che desidera proteggere i propri account personali, sia che si tratti di un team che gestisce gli accessi aziendali, Ente Auth è una scelta intelligente per modernizzare l'approccio alla sicurezza digitale senza compromettere la privacy.
 

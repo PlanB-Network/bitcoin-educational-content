@@ -27,140 +27,140 @@ proofreading:
     contributor_names:
       - LoicPandul
       - nrak10
-    reward: 0.58
+    reward: 0
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.07
+    reward: 3.81
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.32
+    reward: 2.57
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.32
+    reward: 2.57
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.32
+    reward: 2.57
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.07
+    reward: 3.81
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.07
+    reward: 3.81
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.81
+    reward: 6.28
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.81
+    reward: 5.04
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.32
+    reward: 2.57
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.81
+    reward: 6.28
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.07
+    reward: 3.81
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.07
+    reward: 3.81
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.32
+    reward: 2.57
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.07
+    reward: 3.81
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.07
+    reward: 5.04
   - language: sw
     last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
       - Tinnah924
-    reward: 1.53
+    reward: 1.9
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.81
+    reward: 6.28
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.81
+    reward: 5.04
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.81
+    reward: 5.04
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.07
+    reward: 3.81
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.32
+    reward: 2.57
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.07
+    reward: 3.81
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.81
+    reward: 5.04
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.81
+    reward: 5.04
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.81
+    reward: 6.28
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.07
+    reward: 3.81
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.81
+    reward: 5.04

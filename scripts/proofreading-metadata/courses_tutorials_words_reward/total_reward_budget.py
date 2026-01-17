@@ -263,30 +263,21 @@ def main():
         second_proofreading['Word Count EN'] = None
         for col in columns[2:]:
             second_proofreading[col] = first_proofreading[col] / 2
-        
-        # Calculate third proofreading
-        third_proofreading = {}
-        third_proofreading['Folder'] = 'Total for third proofreading'
-        third_proofreading['Word Count EN'] = None
-        for col in columns[2:]:
-            third_proofreading[col] = second_proofreading[col] / 2
-        
-        # Calculate total for all proofreading
+
+        # Calculate total for all proofreading (2 rounds now)
         total_all = {}
         total_all['Folder'] = 'Total for all the proofreading'
         total_all['Word Count EN'] = None
         for col in columns[2:]:
-            total_all[col] = first_proofreading[col] + second_proofreading[col] + third_proofreading[col]
-        
+            total_all[col] = first_proofreading[col] + second_proofreading[col]
+
         # Append all new rows to the DataFrame
-        df = pd.concat([df, 
+        df = pd.concat([df,
                        pd.DataFrame([first_proofreading]),
                        pd.DataFrame([empty_row]),
                        pd.DataFrame([second_proofreading]),
                        pd.DataFrame([empty_row]),
-                       pd.DataFrame([third_proofreading]),
-                       pd.DataFrame([empty_row]),
-                       pd.DataFrame([total_all])], 
+                       pd.DataFrame([total_all])],
                       ignore_index=True)
         
         # Create Excel file with formatting

@@ -27,7 +27,7 @@ Per seguire questa esercitazione, è necessario avere:
 Per prima cosa, dobbiamo assicurarci di avere il comando "**cryptsetup**" sul nostro sistema:
 
 ```
-# Verificare la presenza del comando cryptsetup
+# Verifica la presenza del comando cryptsetup
 which cryptsetup
 ```
 

@@ -195,7 +195,7 @@ Scegliete solo uno dei due approcci seguenti:
 
 ### Approccio A: modifiche manuali tramite about:config
 
-Digitare `about:config` nella barra Address → Accetta il rischio.
+Digita `about:config` nella barra Address → Accetta il rischio.
 
 ![Avertimenti about:config](assets/fr/13.webp)
 
@@ -211,7 +211,7 @@ privacy.resistFingerprinting = true
 
 Effetti: Fuso orario UTC, **letterboxing** (dimensioni standard delle finestre), User-Agent/politiche standardizzate, restrizioni Canvas/WebGL/AudioContext. Maggiore uniformità, ma alcune "stranezze" (orario sfalsato, a volte un po' di inglese).
 
-- Disattivare WebRTC (evita le fughe di dati IP, ma interrompe la visone Web)
+- Disattiva WebRTC (evita le fughe di dati IP, ma interrompe la visone Web)
 
 ```text
 media.peerconnection.enabled = false
@@ -321,11 +321,11 @@ Le migliori pratiche:
 - Modificare troppo può renderti **unico**. **RFP** standardizza; gli strumenti di randomizzazione (ad esempio Chameleon) possono... differenziarti. Testa, confronta, aggiusta.
 - Alternative/complementi:
   - Tor Browser: anonimato in rete tramite Tor; più lento. Consulta la nostra guida completa all'installazione e alla configurazione:
-  - 
+    
 https://planb.network/tutorials/computer-security/communication/tor-browser-a847e83c-31ef-4439-9eac-742b255129bb
 
   - Browser Mullvad: "Tor senza Tor", da abbinare alla VPN; footprint standardizzato. Scopri come installarlo nel nostro tutorial dedicato:
-  - 
+    
 https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
 - Combinazioni consigliate: Firefox (livello 2) + VPN per l'uso quotidiano; Tor/Mullvad per le attività sensibili; profili separati per la compartimentazione.

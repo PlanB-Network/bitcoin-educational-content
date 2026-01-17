@@ -608,10 +608,10 @@ Katika muktadha wa RGB, njia hii ilitarajiwa hadi 2021, lakini ilionekana kuwa n
 
 ***Marekebisho ya mashahidi:***
 
-Wazo lingine, ambalo baadhi ya itifaki kama vile _inscriptions Ordinals_ zimeweka katika vitendo, ni kuweka data moja kwa moja katika sehemu ya `shahidi` ya shughuli ya ununuzi (kwa hivyo usemi "shahidi tweak"). Walakini, njia hii:
+Wazo lingine, ambalo baadh_TaptProtocol kama vile _inscriptions Ordinals_ zimeweka katika vitendo, ni kuweka data moja kwa moja katika sehemu ya `shahidi` ya shughuli ya ununuzi (kwa hivyo usemi "shahidi tweak"). Walakini, njia hii:
 
 
-- Hufanya uchumba uonekane mara moja (unabandika data mbichi kwenye shahidi);
+- Hufanya uchumba uonekane mara moja (unabandika data raw kwenye shahidi);
 - Inaweza kuwa chini ya udhibiti (wachimbaji wa madini au node wanaweza kukataa relay ikiwa ni kubwa sana au tabia nyingine yoyote ya kiholela);
 - Hutumia nafasi kwenye blocks, kinyume na lengo la RGB la busara na wepesi.
 

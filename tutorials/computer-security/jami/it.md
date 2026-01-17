@@ -54,7 +54,7 @@ L'applicazione è disponibile direttamente su App Store o Play Store. È suffici
 
 ### Per gli utenti di Windows o macOS
 
-Per installare Jami sul tuo dispositivo, dovi prima visitare il sito ufficiale di Jami. Per impostazione predefinita, il sito visualizza il software corrispondente al sistema operativo del dispositivo e si può fare clic direttamente sul pulsante di download per avviarlo. Tuttavia, è anche possibile scaricare l'eseguibile per Windows direttamente dalla [pagina di download] (https://jami.net/download-jami-windows/).
+Per installare Jami sul tuo dispositivo, devi prima visitare il sito ufficiale di Jami. Per impostazione predefinita, il sito visualizza il software corrispondente al sistema operativo del dispositivo e si può fare clic direttamente sul pulsante di download per avviarlo. Tuttavia, è anche possibile scaricare l'eseguibile per Windows direttamente dalla [pagina di download] (https://jami.net/download-jami-windows/).
 
 ![0_02](assets/fr/02.webp)
 

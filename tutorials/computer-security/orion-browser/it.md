@@ -81,7 +81,7 @@ Al primo avvio, Orion guida l'utente attraverso diverse fasi:
 
 _La schermata di benvenuto di Orion Browser evidenzia le caratteristiche principali: navigazione più veloce, zero telemetria, blocco degli annunci e supporto delle estensioni_
 
-**2. Personalizzazione l'interfaccia**
+**2. Personalizzazione dell'interfaccia**
 
 ![Options de personnalisation](assets/fr/05.webp)
 

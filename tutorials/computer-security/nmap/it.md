@@ -1320,7 +1320,7 @@ echo "changezmoi" >> /tmp/passlist
 nmap --script ssh-brute --script-args userdb=/tmp/userlist,passdb=/tmp/passlist 10.10.10.245 192.168.1.19
 ```
 
-Come si può vedere in quest'ultimo comando, è possibile specificare gli argomenti necessari a uno script Nmap utilizzando l'opzione `-scripts-args key=value,key=value`. Ecco un possibile risultato dell'output di Nmap quando si esegue un brute force SSH tramite lo script NSE `ssh-brute`:
+Come puoi vedere in quest'ultimo comando, è possibile specificare gli argomenti necessari a uno script Nmap utilizzando l'opzione `-scripts-args key=value,key=value`. Ecco un possibile risultato dell'output di Nmap quando si esegue un brute force SSH tramite lo script NSE `ssh-brute`:
 
 ![nmap-image](assets/fr/49.webp)
 

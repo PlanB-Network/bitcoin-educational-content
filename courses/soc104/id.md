@@ -534,7 +534,7 @@ Tetapi pertama-tama, kami perlu menjelaskan perbedaan penting.
 Milton Friedman menulis
 
 
-> Salah satu kesalahan terbesar adalah menilai kebijakan dan program berdasarkan niatnya, bukan hasilnya. Kita semua tahu jalan yang terkenal diaspal dengan niat baik. [Program-program yang dilabeli sebagai program untuk orang miskin atau bagi mereka yang membutuhkan hampir selalu memiliki dampak yang berlawanan dengan apa yang diharapkan oleh para sponsor yang berniat baik.
+> Salah satu kesalahan terbesar adalah menilai kebijakan dan program berdasarkan niatnya, bukan hasilnya. Kita semua tahu jalan yang terkenal diaspal dengan niat baik. Program-program yang dilabeli sebagai program untuk orang miskin atau bagi mereka yang membutuhkan hampir selalu memiliki dampak yang berlawanan dengan apa yang diharapkan oleh para sponsor yang berniat baik.
 
 Memang, kebijakan, yang sering kali dimotivasi oleh niat baik, dapat menimbulkan konsekuensi yang tidak terduga atau berbahaya jika tidak didasarkan pada analisis yang cermat terhadap insentif dan perilaku manusia. Sebagai contoh, sebuah kebijakan sosial yang bertujuan untuk membantu masyarakat miskin sering kali menimbulkan dampak buruk seperti ketergantungan ekonomi atau distorsi pasar.
 
@@ -575,10 +575,9 @@ Bab-bab berikut ini menjelaskan bagaimana mendefinisikan keluarga politik secara
 
 - Kebebasan:** cukup kuat di bidang sosial, tetapi lemah di bidang ekonomi.
 - Nilai-nilai utama:** kesetaraan, kemajuan, keadilan sosial, solidaritas.
-- Filosofi dan prinsip:** Keutamaan organisasi kolektif. Sosialisme adalah praktik yang didasarkan pada masyarakat secara keseluruhan (holisme) dan diekspresikan melalui negara. Negara sosialis bertujuan untuk mengambil alih dan mengarahkan aktivitas manusia secara maksimal. Kaum sosialis memiliki keyakinan yang hampir tak terbatas pada kemungkinan membangun tatanan sosial baru berdasarkan akal.
-- Politik:** Kaum sosialis menganjurkan program kesehatan, kenaikan pajak, dan subsidi untuk menjamin kesetaraan. Hal ini menyiratkan arah ekonomi dan sosial negara, perencanaan (organisasi produksi di bagian hulu). Hayek berbicara tentang konstruktivisme, yaitu gagasan bahwa terserah kepada negara untuk membangun masyarakat dan memberinya bentuk tertentu, berbeda dengan tatanan liberal di mana masyarakat membangun dirinya sendiri (tatanan spontan). Sosialisme yang paling radikal dan sukses adalah totaliter, karena negara mengambil alih semua aktivitas manusia.
-- Ekonomi:** Sosialisme menyiratkan kontrol negara yang kuat atas ekonomi, demi kesetaraan (memungkinkan setiap orang untuk memenuhi kebutuhan mereka sendiri). Kaum sosialis mencurigai pasar bebas, yang mereka anggap sebagai sistem yang memungkinkan pihak yang kuat memangsa pihak yang lemah. Mereka lebih menyukai redistribusi kekayaan dan program-program sosial terpusat yang dibiayai oleh pajak dan pendapatan yang tinggi.
-
+- Filosofi dan prinsip:** Keutamaan organisasi kolektif. Sosialisme adalah praktik yang bertumpu pada masyarakat secara keseluruhan (holisme) dan diwujudkan melalui negara. Negara sosialis bertujuan mengambil alih serta mengarahkan aktivitas manusia secara maksimal. Kaum sosialis memiliki keyakinan yang nyaris tak terbatas terhadap kemungkinan membangun tatanan sosial baru yang berlandaskan akal.
+- Politik:** Kaum sosialis menganjurkan program kesehatan, kenaikan pajak, dan subsidi untuk menjamin kesetaraan. Ini menyiratkan arah ekonomi dan sosial negara, termasuk perencanaan (organisasi produksi di bagian hulu). Hayek berbicara tentang konstruktivisme, yaitu gagasan bahwa negara berhak membangun masyarakat dan memberinya bentuk tertentu, berbeda dengan tatanan liberal di mana masyarakat membangun dirinya sendiri (tatanan spontan). Sosialisme yang paling radikal dan paling berhasil bersifat totaliter, karena negara mengambil alih seluruh aktivitas manusia.
+- Ekonomi:** Sosialisme menyiratkan kontrol negara yang kuat atas ekonomi demi kesetaraan (memungkinkan setiap orang memenuhi kebutuhannya sendiri). Kaum sosialis mencurigai pasar bebas, yang mereka anggap sebagai sistem yang memungkinkan pihak kuat memangsa pihak lemah. Mereka lebih menyukai redistribusi kekayaan dan program sosial terpusat yang dibiayai oleh pajak dan pendapatan yang tinggi.
 
 
 **Jenis-jenis sosialis:**
@@ -629,12 +628,7 @@ Menurut Bernie Sanders, *reformasi ini, telah menjadi tatanan sosial bangsa dan 
 
 
 
-
-
 - Kebebasan:** mereka kuat di bidang ekonomi tetapi lemah di bidang sosial.
-
-
-
 
 
 - Nilai-nilai utama:** kebajikan, ketertiban, tradisi, peradaban.
@@ -643,13 +637,13 @@ Menurut Bernie Sanders, *reformasi ini, telah menjadi tatanan sosial bangsa dan 
 
 
 
-- Filosofi dan prinsip:** Kaum konservatif percaya bahwa segala sesuatunya pada umumnya sudah baik sebagaimana adanya, dan bahwa setiap perubahan dapat memperburuk keadaan. Mereka berusaha mempertahankan apa yang sudah ada, mempertahankannya sebagai sesuatu yang baik, dan tidak menyukai perubahan dalam sistem yang menurut mereka telah terbukti efektif. Inti dari konsepsi tradisional konservatisme adalah rasa hormat yang mendalam terhadap lembaga-lembaga sosial yang telah lama ada, yang dipandang sebagai pelindung penting terhadap kekacauan, ketidakadilan, dan kekejaman. Bangunan-bangunan sosial ini menopang solidaritas, keamanan, dan kekuatan yang dibutuhkan manusia untuk melawan ekses modernitas.
+- Filosofi dan prinsip:** Kaum konservatif percaya bahwa pada umumnya segala sesuatu sudah baik sebagaimana adanya, dan bahwa setiap perubahan justru berpotensi memperburuk keadaan. Mereka berupaya menjaga apa yang sudah ada, mempertahankannya sebagai sesuatu yang baik, dan tidak menyukai perubahan dalam sistem yang mereka anggap telah terbukti efektif. Inti dari konsepsi tradisional konservatisme adalah rasa hormat yang mendalam terhadap lembaga-lembaga sosial yang telah lama ada, yang dipandang sebagai pelindung penting dari kekacauan, ketidakadilan, dan kekejaman. Bangunan sosial ini menopang solidaritas, keamanan, serta kekuatan yang dibutuhkan manusia untuk melawan ekses modernitas.
 
 
 
 
 
-- Politik:** Kaum konservatif menganjurkan kontrol sosial tradisional dan intervensi negara untuk menegakkan standar sosial dan moral (ketertiban, keamanan, nilai-nilai). Mereka mendukung pertahanan nasional yang kuat. Mereka cenderung mendukung kekuasaan polisi yang lebih luas. Sosialisme dianggap sebagai pemutusan hubungan secara brutal dengan peradaban Barat. Kaum konservatif memainkan peran yang menentukan dalam perang melawan komunisme dan penolakan terhadap intervensionisme pemerintah yang berlebihan.
+- Politik:** Kaum konservatif menganjurkan kontrol sosial tradisional dan intervensi negara untuk menegakkan standar sosial dan moral (ketertiban, keamanan, nilai-nilai). Mereka mendukung pertahanan nasional yang kuat dan cenderung mendukung kewenangan polisi yang lebih luas. Sosialisme dipandang sebagai pemutusan hubungan yang brutal dengan peradaban Barat. Kaum konservatif memainkan peran yang menentukan dalam perang melawan komunisme serta dalam penolakan terhadap intervensionisme pemerintah yang berlebihan.
 
 
 
@@ -675,7 +669,7 @@ Di negara-negara Anglo-Saxon, konservatisme mirip dengan politik sayap kanan di 
 
 
 
-1.  **Konservatisme tradisional Amerika **didirikan berdasarkan gagasan "kebebasan yang teratur", yang bertujuan untuk menggabungkan aspirasi komunitas dan individu yang terkadang bertentangan, kebebasan dan tanggung jawab individu, pemerintah terbatas dan pasar bebas. Setelah Perang Dunia Kedua, konservatisme Amerika menemukan kembali dirinya sendiri, berusaha untuk mendamaikan nilai-nilai liberal dan konservatif tradisional. Mereka menentang komunisme, tetapi juga ekspansi pemerintah federal Amerika yang berlebihan, dengan alasan bahwa masalah yang ditimbulkannya tidak dapat diselesaikan hanya dengan memperbaiki manajemennya, tetapi juga dengan memulihkan nilai-nilai moral dan agama.
+1.  **Konservatisme tradisional Amerika **didirikan berdasarkan gagasan "kebebasan yang teratur", yang bertujuan untuk menggabungkan aspirasi komunitas dan individu yang terkadang bertentangan, kebebasan dan tanggung jawab individu, pemerintah terbatas dan pasar bebas. Setelah Perang Dunia Kedua, konservatisme Amerika menemukan kembali jati dirinya sendiri, berusaha untuk mendamaikan nilai-nilai liberal dan konservatif tradisional. Mereka menentang komunisme, tetapi juga ekspansi pemerintah federal Amerika yang berlebihan, dengan alasan bahwa masalah yang ditimbulkannya tidak dapat diselesaikan hanya dengan memperbaiki manajemennya, tetapi juga dengan memulihkan nilai-nilai moral dan agama.
 
 
 
@@ -723,7 +717,7 @@ Beberapa orang sekarang menyebut diri mereka "paleokonservatif", untuk membedaka
 
 
 
-- Politik:** Libertarian percaya bahwa tidak ada seorang pun, atau kelompok mana pun (termasuk pemerintah), yang memiliki hak untuk memulai atau mengancam kekerasan fisik terhadap orang lain atau properti mereka. Ini adalah prinsip non-agresi. Ini berarti bahwa penipuan, pencurian, dan pemaksaan secara moral tercela. Penggunaan kekerasan hanya dapat dibenarkan untuk membela diri.
+- Politik:** Libertarian percaya bahwa tidak ada seorang pun, atau kelompok mana pun (termasuk pemerintah), yang memiliki hak untuk memulai atau mengancam kekerasan fisik terhadap orang lain atau properti mereka. Ini adalah prinsip non-agresi. Ini berarti bahwa penipuan, pencurian, dan pemaksaan secara moral itu tercela. Penggunaan kekerasan hanya dapat dibenarkan untuk membela diri.
 
 
 
@@ -788,7 +782,7 @@ Namun, keduanya setuju dengan prinsip dasar kedaulatan individu. Ide-ide liberta
 
 
 
-- Filosofi:** Sentris menghindari hal-hal yang ekstrem dan lebih menyukai solusi pragmatis. Mereka memikirkan masalah berdasarkan kasus per kasus, bukan dari segi prinsip. Sifat sentrisme sering kali mendekati subjek dengan mencari keseimbangan pragmatis di antara berbagai sudut pandang. Pragmatisme adalah filosofi politik yang mengutamakan adaptasi terhadap konteks tertentu daripada penerapan prinsip-prinsip ideologis yang kaku. Ini adalah pendekatan politik yang didasarkan pada moderasi dan kompromi. Pemikiran pragmatis ini didasarkan pada gagasan bahwa hanya para teknokrat yang mampu membuat keputusan yang tepat untuk mencapai hasil sosio-ekonomi yang terbaik.
+- Filosofi:** Sentris menghindari hal-hal yang ekstrem dan lebih menyukai solusi pragmatis. Mereka memandang persoalan secara kasus per kasus, bukan dari sudut pandang prinsip. Sifat sentrisme sering kali mendekati suatu isu dengan mencari keseimbangan pragmatis di antara berbagai sudut pandang. Pragmatisme adalah filosofi politik yang mengutamakan adaptasi terhadap konteks tertentu dibandingkan penerapan prinsip ideologis yang kaku. Ini merupakan pendekatan politik yang bertumpu pada moderasi dan kompromi. Pemikiran pragmatis ini didasarkan pada gagasan bahwa hanya para teknokrat yang mampu membuat keputusan yang tepat untuk mencapai hasil sosio-ekonomi terbaik.
 
 
 

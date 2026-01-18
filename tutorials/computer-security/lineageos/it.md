@@ -213,11 +213,11 @@ fastboot flash dtbo /chemin/vers/dtbo.img
 fastboot flash boot /chemin/vers/boot.img
 ```
 
-- **Riavviare in recovery** per verificare
+- **Riavvia in recovery** per verificare
 
 #### Passo 5: Installazione di LineageOS
 
-- **Riavviare in recovery**: Volume giù + accensione → modalità di recupero
+- **Riavvia in recovery**: Volume giù + accensione → modalità di recupero
 
 ![recovery-mode](assets/fr/14.webp)
 

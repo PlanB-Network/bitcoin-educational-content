@@ -202,7 +202,7 @@ Ou bien de passer par un service tiers, une sorte de proxy qu'on appellera "solo
 
 Quoi qu'il en soit cette fois-ci quand un mineur trouve un bloc, ce dernier garde **100 % de la récompense**. On peut également préciser que même lorsqu'on choisit le solomining, 2 approches sont possibles:
 
- **La première** consiste à déléguer à un tiers la responsabilité de connecter notre machine de minage au réseau Bitcoin en mettant à notre disposition un noeud Bitcoin, et le logiciel qui sert à contruire le block template sur lequel va travailler notre machine. Ce tiers prélèvera la plupart du temps des frais pour le service rendu, et est un source de confiance avec des risques de censure ou pourquoi pas de malhonnêteté (le manager de la "solopool" peut théoriquement tenter de tricher et s'auto attribuer la récompense de block si le miner n'est pas attentif.
+ **La première** consiste à déléguer à un tiers la responsabilité de connecter notre machine de minage au réseau Bitcoin en mettant à notre disposition un noeud Bitcoin, et le logiciel qui sert à contruire le block template sur lequel va travailler notre machine. Ce tiers prélèvera la plupart du temps des frais pour le service rendu, et est une source de confiance avec des risques de censure ou pourquoi pas de malhonnêteté (le manager de la "solopool" peut théoriquement tenter de tricher et s'auto attribuer la récompense de block si le miner n'est pas attentif.
  
 
 ![Image](assets/fr/007.webp)
@@ -266,11 +266,11 @@ Ici certaines des machines présentées sont même marketées par leur fabriquan
 
 Le projet Bitaxe est né du constat que la centralisation du minage tant au niveau des pool de minage que de fabricants de machines pouvait à terme causer un problème pour Bitcoin. Il était temps de tenter de reprendre un peu de contrôle sur cet aspect fondamental du projet qu'est le mining.
 
-Le problème c'est que les puces ASIC qui sont ensuite assemblées par centaines au sein des grosses machines que nous connaissons bien et qu'on retrouve dans les ferme de mining) ne sont pas vendues au détail par leurs fabricants pour être utilisée par qui le veut. Par exemple Bitmain, le plus gros constructeur de machine ASIC du monde, réserve précieusement ses propres puces ASIC à ses propres machines (les fameux Antminer). Et c'est également le cas pour tous les autres fabricants.
+Le problème c'est que les puces ASIC qui sont ensuite assemblées par centaines au sein des grosses machines que nous connaissons bien et qu'on retrouve dans les ferme de mining, ne sont pas vendues au détail par leurs fabricants pour être utilisées par qui le veut. Par exemple Bitmain, le plus gros constructeur de machine ASIC du monde, réserve précieusement ses propres puces ASIC à ses propres machines (les fameux Antminer). Et c'est également le cas pour tous les autres fabricants.
 
 Comment faire pour proposer une solution Open Source dans ces conditions. Tout simplement en achetant des machines Antminer complètes, en les désossant, et un déssoudant les puces ASIC, pour les réhabiliter et leur donner une seconde vie au sein du projet de mining open source le plus célèbre de l'écosystème Bitcoin: **[Bitaxe](https://github.com/bitaxeorg)**
 
-Cerise sur le gateau l'ensemble du projet est 100% open source, tant au niveau du hardware que du software. N'importe qui peut donc s'approvisionner en composants et construire sont propre appareil rendant le projet quasiment inarétable. Dans la pratique les particuliers se fournissent auprès de constructeurs (autrement dit des geeks bricoleurs) spécialisés répartis autour du monde, plutôt que de se munir des pièces et de son faire à souder pour le fabriquer soit-même.
+Cerise sur le gâteau l'ensemble du projet est 100% open source, tant au niveau du hardware que du software. N'importe qui peut donc s'approvisionner en composants et construire sont propre appareil rendant le projet quasiment inaltérable. Dans la pratique les particuliers se fournissent auprès de constructeurs (autrement dit des geeks bricoleurs) spécialisés répartis autour du monde, plutôt que de se munir des pièces et de son faire à souder pour le fabriquer soit-même.
 
 Au moment où ces lignes sont écrites, la version la plus performante du projet Bitaxe est le Bitaxe Gamma, propulsée par une puce Bitmain BM1370, et délivrant environ 1,2 Th/s de hashrate, pour moins de 20W de consommation.
 
@@ -764,12 +764,96 @@ Une donnée particulièrement importante à surveiller pour un opérateur de Bit
 
 ### Onglet "Swarm"
 
+L'onglet Swarm vous permettra d'obtenir une vision d'ensemble de tous les appareils de la famille Bitaxe sur votre réseau local pour un management global facilité. Tout ce qui tourne sous AxeOS sera visible ici, et un clique sur chaque appareil listé permet de s'y connecter. Très pratique pour s'assurer que tous vos appareils fonctionnent bien, qu'aucun n'a surchauffer sans que vous en rendiez compte, même si certains d'entre eux sont cachés dans votre grenier ou votre cave.
+
 ![Image](assets/fr/062.webp)
 
-# Miner via sa propre pool de mining 
+### Onglet "Logs"
+
+Ici votre Bitaxe enregistre étqpe par étape ce qu'il fait, et les erreurs éventuelles qu'il rencontre. Peut-être très utilse pour débugguer l'appareil et comprendre d'où vient une panne éventuelle ou la manière dont on peut résoudre un bug.
+
+![Image](assets/fr/063.webp)
+
+### Onglet "System"
+
+Ce menu permet d'avoir une vision d'ensemble du système justement. Version du firmware installée, uptime, adresse Ip, réseau WIFI....
+
+![Image](assets/fr/064.webp)
+
+### Onglet "Pool"
+
+Ici évidemment il s'agit du menu permettant de choisir à quelle pool on souhaite se connecter comme déjà vu plus haut lors du tutoriel de paramétrage de notre Bitaxe.
+
+![Image](assets/fr/065.webp)
+
+### Onglet "Network"
+
+Là on règle les connexion WIFI à notre réseau local. Si vous changer le mot de passe de votre routeur ou voulez connecter votre appareil à un réseau WIFI différent, c'est ici que ça se passe.
+
+![Image](assets/fr/066.webp)
+
+### Onglet "Theme"
+
+Il ne s'agit là que de cosmétique, pour changer l'apparence de votre interface. Vous pouvez changer la couleur des boutons en Orange / Rouge / Bleu / Vert / Violet ou passer d'un thème sombre à clair et inversement.
+
+Profitons en pour opter pour un thème "Orange" pour la suite de ce cours.
+
+![Image](assets/fr/067.webp)
+
+### Onglet "Settings"
+
+Nous sommes ici dans le cœur du réacteur. C'est là que le management de l'appareil  s'effectue.
+Vous serez en mesure de régler la fréquence de la puce ASIC, son Voltage et la vitesse de rotation du ventilateur via la partie haute de ce menu.
+
+Bien sûr plus la fréquence de votre puce est grande, plus le hashrate en sortie est important, mais plus la puissance requise l'est également, et surtout plus le besoin en refroidissement s'accentue. En effet suivant la température dans laquelle évolue votre appareil, il sera parfois nécessaire d'ajuster ces paramètres pour éviter une surchauffe. Par exemple en été lorsqu'il fait chaud, il peut être nécessaire de baisser la fréquence de la puce afin d'en faire diminuer la température. A l'inverse en hiver, il va être possible de pousser l'appareil au delà de ses réglages par défaut sans surchauffe à la clé.
+Soyer prudent quand vous jouez avec ses paramètres et augmentez les valeurs progressivement par palier pour éviter de détériorer la puce.
+
+Le reste du menu permet de gérer l'écran du Bitaxe, de choisir de l'éteindre complètement, ou au bout d'un certain temps, d'inverser ses couleurs etc...
+
+![Image](assets/fr/068.webp)
+
+### Onglet "Update"
+
+Il s'agit là d'un des principaux menu d'AxeOs, celui vous permettant de très facilement mettre à jour l'interface graphique et l'OS de manière extrêmement simple. L'équipe en charge du développement publie très régulièrement des mise à jour corrigeant des bugs et améliorant l'expérience générale, donc n'hésitez pas à aller vérifier si une nouvelle version n'est pas disponible de temps en temps.
+
+![Image](assets/fr/069.webp)
+
+Pour ce faire cliquez sur le bouton "Check". Cette commande va alors directement interroger le répertoire de la plateforme Github dédié au projet Bitaxe afin d'essayer d'y déceler une nouvelle version du logiciel AxeOS et du firmware.
+
+Un message d'alerte apparaîttalors pour vous avertir qu'une requête va être réalisée auprès des serveurs de Github, qui aurons donc connaissance de votre adresse IP et du fait que vous chercher à mettre à jour un appareil "bitcoin".
+Le VPN installé sur votre ordinateur ne vous servira à rien ici, car c'est le BItaxe lui-même qui va faire la requête. Donc pour les amoureux de la vie privée, allez directement chercher les nouvelles versions du logiciel via votre PC si vous souhaitez rester discrets.
+
+![Image](assets/fr/070.webp)
+
+Si vous acceptez que votre IP soit exposée, cliquez sur "Continue". Sera affichée à l'écran la version actuelle d'AxeOS ainsi que la plus récente détectée. Dans notre exemple nous sommes à jour. Mais si vous avez du retard et n'êtes pas, cliquez sur les deux liens "esp-miner.bin" et "www.bin" afin de télécharger les fichier de mise à jour, et enregistrez les dans un répertoire quelconque de votre ordinateur.
+
+![Image](assets/fr/071.webp)
+
+Une fois que c'est fait cliquez sur "Browse" en dessous de "Update AxeOS" et allez chercher dans le répertoire de votre ordinateur le fichier "www.bin" que vous venez de télécharger. Quand vous l'aurez sélectionné, la mise à jour d'AxeOS commencera. De la même manière pour mettre à jour le firmware de l'appareil, cliquez sur "Browse" en dessous de "Update Firmware" et sélectionnez le fichier "esp-miner.bin". La mise à jour démarrera et l'appareil redémarrera automatiquement une fois cela terminé.
+
+![Image](assets/fr/072.webp)
+
+### Onglet "Whitepaper"
+
+Petit clin d'oeil de l'équipe de développement du projet Bitaxe, chaque appareil embarque au sein de son firmware une copie du White Paper de Satoshi Nakamoto. Si vous cliquez sur "Whitepaper" le fichier enregistré sur votre appareil s'ouvrira. Une manière amusante de rendre encore plus immuable si besoin le document fondateur de l'outil le plus révolutionnaire que l'humanité ait connue jusque là.
+
+# Miner via sa propre pool de mining
+
+Cette partie du cours présentera les raison pour lesquelles un solominer peut vouloir opter pour une souveraineté totale quand il s'agit de miner. Originellement, le logiciel Bitcoin publié par Satoshi Nakamoto permettait par défaut aux utilisateurs de miner. Au fur et à mesure que l'activité de mining s'est professionnalisé et qu'un particulier seul n'avait plus de chance de trouver un block en minant sur son ordinateur directement, la partie du code permettant le minage a été supprimée par les développeurs de Bitcoin Core. Le mineur interne a d'abord été déprécié, puis complètement supprimé dans Bitcoin Core version 0.13.0, sortie en août 2016.
+
+Les notes de version indiquent : **"As CPU mining has been useless for a long time, the internal miner has been removed in this release, and replaced with a simpler implementation for the test framework."**
+
+Ainsi un mineur doit désormais installer cette partie du code de son côté et y connecter sa machine.
+
+C'est ce qu'on fait lorsqu’on se connecte à une pool distante telles que celles listées plus haut, qu'elles soient des solopool, ou des pool classiques "mutualistes". Ainsi nous dépendons et faisons confiance à un tiers qui construit les blocs pour nous, calcule notre puissance de calcul et les récompenses associées, et nous paye éventuellement.
+
 ## 4.1 Pourquoi ? (Block Template / intermédiare etc...)
-## 4.2 Public Pool & Bassin sur Umbrel / Start 9
-## 4.3 Datum et Stratum V2
+
+En Solomining particulièrement, l'intérêt de dépendre de quelqu'un est quasiment nul.
+
+## 4.2 Datum et Stratum V2
+## 4.3 Public Pool & Bassin sur Umbrel / Start 9
+
 
 
 

@@ -194,7 +194,7 @@ Sul dispositivo, utilizza i tasti del volume per navigare e premere il tasto **P
 
 ⚠️ **Richieste per il corretto funzionamento del recupero**
 
-- **Riavviare il bootloader**: volume giù + alimentazione
+- **Riavvia il bootloader**: volume giù + alimentazione
 - **Flash** (sostituire `/path/to/` con la cartella in cui è stato scaricato il file):
 
 ```

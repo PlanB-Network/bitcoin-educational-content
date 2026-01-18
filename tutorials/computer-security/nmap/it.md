@@ -11,7 +11,7 @@ ___
 
 Benvenuti in questo tutorial introduttivo a Nmap, pensato per tutti coloro che desiderano padroneggiare questo potente strumento di scansione di rete. L'obiettivo è quello di fornire le conoscenze fondamentali necessarie per utilizzare Nmap in modo efficace ogni giorno.
 
-Nmap è uno strumento versatile, ampiamente utilizzato dai professionisti dell'IT, delle reti e della cybersecurity per la diagnostica, l'esplorazione della rete e l'auditing della sicurezza. Questo tutorial è rivolta a coloro che sono alle prime armi in questi campi e desiderano apprendere le basi di Nmap. Si raccomanda una conoscenza di base dell'amministrazione dei sistemi e della rete.
+Nmap è uno strumento versatile, ampiamente utilizzato dai professionisti dell'IT, delle reti e della cybersecurity per la diagnostica, l'esplorazione della rete e l'auditing della sicurezza. Questo tutorial è rivolto a coloro che sono alle prime armi in questi campi e desiderano apprendere le basi di Nmap. Si raccomanda una conoscenza di base dell'amministrazione dei sistemi e della rete.
 
 Imparerai le basi di Nmap, come eseguire scansioni di porte, identificare gli host attivi su una rete, rilevare versioni di servizi e sistemi operativi, eseguire scansioni di vulnerabilità e molto altro ancora. Ogni sezione comprende spiegazioni dettagliate ed esempi pratici per aiutarvi a padroneggiare l'uso di Nmap in una varietà di contesti.
 

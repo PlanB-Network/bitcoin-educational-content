@@ -987,7 +987,7 @@ $ grep -E "^rarity" nmap-service-probes |sort |uniq -c
 
 Può sembrare controintuitivo, ma ci sono più sonde di `rarità` 8 e 9 rispetto alle altre. Questo è dovuto al fatto che le sonde di rarità 1 sono generiche e funzionano nella maggior parte dei casi, indipendentemente dal servizio (ricordate la sonda `NULL` che invia semplicemente un pacchetto TCP vuoto). Mentre le _Probe_ più complesse sono quasi uniche per ogni servizio.
 
-Se si desidera gestire manualmente le indagini da usare nella scansione delle versioni, si può usare l'opzione `--version-intensity`. Ecco due esempi:
+Se desideri gestire manualmente le indagini da usare nella scansione delle versioni, si può usare l'opzione `--version-intensity`. Ecco due esempi:
 
 ```
 # Less accurate version detection than default

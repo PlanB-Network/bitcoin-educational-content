@@ -9,7 +9,7 @@ In un mondo in cui la sorveglianza digitale sta diventando onnipresente, protegg
 - **Cookie di terze parti**: piccoli file depositati da siti esterni per seguirti da un sito all'altro
 - **Fingerprinting**: raccoglie le caratteristiche uniche del tuo browser e del tuo dispositivo (risoluzione dello schermo, font installati, plugin, ecc.) per identificarti senza cookie
 - **Script di tracciamento**: codici JavaScript invisibili che analizzano il comportamento di navigazione dell'utente (clic, scorrimento, tempo trascorso)
-- **Analisi IP Address**: localizzazione geografica e identificazione del tuo fornitore di servizi Internet
+- **Analisi di indirizzi IP**: localizzazione geografica e identificazione del tuo fornitore di servizi Internet.
 
 Questi dati vengono poi combinati per creare profili dettagliati del tuo comportamento online e monetizzarli, spesso a tua insaputa. Questa realtà solleva una domanda fondamentale: come si può navigare in Internet mantenendo l'anonimato e la riservatezza?
 

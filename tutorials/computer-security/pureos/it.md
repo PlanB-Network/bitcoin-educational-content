@@ -43,7 +43,7 @@ In tre semplici passaggi, otterrai una chiavetta USB avviabile con il sistema op
 
 ![0_01](assets/fr/01.webp)
 
-Una volta avviata la chiave USB, riavvia il computer su cui si desidera installare PureOS.
+Una volta avviata la chiave USB, riavvia il computer su cui desideri installare PureOS.
 
 All'avvio, accedi al BIOS premendo i tasti `ESC`, `F9` o `F11`, a seconda della macchina. Seleziona la chiave USB come dispositivo di avvio, quindi premi `ENTER` per confermare.
 

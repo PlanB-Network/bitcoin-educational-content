@@ -174,7 +174,7 @@ fastboot devices
 
 *Display fastboot del Pixel 4 con informazioni di sistema*
 
-- **Sbloccare il bootloader**:
+- **Sblocca il bootloader**:
 
 ```
 fastboot flashing unlock

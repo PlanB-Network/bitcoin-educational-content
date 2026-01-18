@@ -26,142 +26,142 @@ proofreading:
     urgency: 1
     contributor_names:
       - runningbitcoin21
-    reward: 0.94
+    reward: 1.04
   - language: en
     last_contribution_date: 2025-09-06
     urgency: 1
     contributor_names:
       - runningbitcoin21
-    reward: 0.94
+    reward: 1.04
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.47
+    reward: 3.06
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.88
+    reward: 2.08
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.47
+    reward: 3.06
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.47
+    reward: 3.06
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.47
+    reward: 3.06
   - language: fr
     last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
       - nrak10
-    reward: 0.94
+    reward: 1.04
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.06
+    reward: 5.04
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.06
+    reward: 4.05
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.88
+    reward: 2.08
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.06
+    reward: 5.04
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.06
+    reward: 4.05
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.47
+    reward: 3.06
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.47
+    reward: 3.06
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.47
+    reward: 3.06
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.88
+    reward: 2.08
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.06
+    reward: 5.04
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.47
+    reward: 3.06
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.47
+    reward: 4.05
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.88
+    reward: 2.08
   - language: sw
     last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
       - Tinnah924
-    reward: 1.23
+    reward: 1.53
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.06
+    reward: 4.05
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.06
+    reward: 5.04
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.06
+    reward: 4.05
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.06
+    reward: 4.05
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.47
+    reward: 3.06
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.06
+    reward: 4.05

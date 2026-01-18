@@ -1,7 +1,7 @@
 question: What can a watchtower in normal operation deduce about the channel it is protecting?
 answer: How often its status is updated
 wrong_answers:
-  - Allocating cash
+  - Liquidity allocation
   - Its capacity
   - Expense policy
 explanation: |

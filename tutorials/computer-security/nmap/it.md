@@ -2253,10 +2253,10 @@ nmap -sN 192.168.1.15
 nmap -sA 192.168.1.15
 ```
 
-Spero che questi comandi vi siano utili. Non dimenticare di adattare l'obiettivo delle scansioni al tuo contesto e di fare riferimento alla documentazione ufficiale per padroneggiare appieno i test eseguiti.
+Spero che questi comandi ti siano utili. Non dimenticare di adattare l'obiettivo delle scansioni al tuo contesto e di fare riferimento alla documentazione ufficiale per padroneggiare appieno i test eseguiti.
 
 ### III. Conclusione
 
-L'esercitazione su Nmap è terminata. Ora avete le basi necessarie per utilizzare questo strumento completo e potente. Si consiglia vivamente di fare pratica su ambienti controllati (Hack The Box, VulnHub, macchine virtuali) prima di utilizzarlo in produzione.
+L'esercitazione su Nmap è terminata. Ora hai le basi necessarie per utilizzare questo strumento completo e potente. Si consiglia vivamente di fare pratica su ambienti controllati (Hack The Box, VulnHub, macchine virtuali) prima di utilizzarlo in produzione.
 
 Rimane ancora molto da esplorare sul funzionamento interno dello strumento e sulle sue funzioni avanzate. Tuttavia, la padronanza dei comandi e dei concetti qui presentati ti consentirà di utilizzare Nmap con sicurezza e pertinenza.

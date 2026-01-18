@@ -127,7 +127,7 @@ Secondo le statistiche ufficiali, i modelli più utilizzati includono una variet
 
 **Download specifici di Pixel 4**
 - **Build LineageOS**: [download.lineageos.org/devices/flame/builds](https://download.lineageos.org/devices/flame/builds)
-- **File richiesti**: ccarica i 3 file necessari da questa pagina (verranno utilizzati nei passaggi successivi):
+- **File richiesti**: carica i 3 file necessari da questa pagina (verranno utilizzati nei passaggi successivi):
   - `lineage-22.2-YYYMMDD-nightly-flame-signed.zip` (ROM principale)
   - `dtbo.img` (blob della struttura dei dispositivi di partizione)
   - `boot.img` (LineageOS di ripristino)

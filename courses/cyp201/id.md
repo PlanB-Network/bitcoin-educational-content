@@ -144,7 +144,7 @@ bb038b4503ac5d90e1205788b00f8f314583c5e22f72bec84b8735ba5a36df3f
 
 ![CYP201](assets/en/008.webp)
 
-Properti ini memastikan bahwa bahkan perubahan kecil dari pesan asli segera terdeteksi, karena tidak hanya mengubah bagian kecil dari hash, tetapi seluruh hash. Ini bisa menjadi menarik di berbagai bidang untuk memverifikasi integritas pesan, perangkat lunak, atau bahkan transaksi Bitcoin.
+Hal ini memastikan bahwa perubahan kecil dari pesan asli segera terdeteksi, karena tidak hanya mengubah bagian kecil dari hash, tetapi seluruh hash. Ini bisa menjadi menarik di berbagai bidang untuk memverifikasi integritas pesan, perangkat lunak, atau bahkan transaksi Bitcoin.
 
 #### 3. Ketahanan terhadap Tabrakan
 
@@ -519,10 +519,14 @@ Setiap variabel adalah integer 32-bit, sehingga penggabungan mereka selalu mengh
 Lalu, bagaimana fungsi ini tidak dapat dibalikkan, tahan terhadap tabrakan, dan tahan terhadap perubahan?
 
 Untuk ketahanan terhadap perubahan, cukup mudah untuk dipahami. Ada begitu banyak perhitungan yang dilakukan secara berurutan, yang bergantung baik pada input maupun konstanta, sehingga perubahan terkecil pada pesan awal sepenuhnya mengubah jalur yang diambil, dan dengan demikian sepenuhnya mengubah hash output. Ini adalah apa yang disebut efek salju. Properti ini sebagian dijamin oleh pencampuran keadaan-keadaan antara dengan keadaan-keadaan awal untuk setiap bagian.
-Selanjutnya, ketika membahas fungsi hash kriptografi, istilah "irreversibility" umumnya tidak digunakan. Sebaliknya, kita berbicara tentang "preimage resistance," yang menentukan bahwa untuk setiap $y$ yang diberikan, sulit untuk menemukan $x$ sedemikian sehingga $h(x) = y$. Preimage resistance ini dijamin oleh kompleksitas aljabar dan non-linearitas kuat dari operasi yang dilakukan dalam fungsi kompresi, serta oleh kehilangan informasi tertentu dalam proses tersebut. Sebagai contoh, untuk hasil penambahan modulo yang diberikan, ada beberapa operan yang mungkin:$$
+Selanjutnya, ketika membahas fungsi hash kriptografi, istilah "irreversibility" umumnya tidak digunakan. Sebaliknya, kita berbicara tentang "preimage resistance," yang menentukan bahwa untuk setiap $y$ yang diberikan, sulit untuk menemukan $x$ sedemikian sehingga $h(x) = y$. Preimage resistance ini dijamin oleh kompleksitas aljabar dan non-linearitas kuat dari operasi yang dilakukan dalam fungsi kompresi, serta oleh kehilangan informasi tertentu dalam proses tersebut. Sebagai contoh, untuk hasil penambahan modulo yang diberikan, ada beberapa operan yang mungkin:
+
+$$
+
 3+2 \mod 10 = 5 \\
 7+8 \mod 10 = 5 \\
 5+10 \mod 10 = 5
+
 $$
 
 Dalam contoh ini, hanya dengan mengetahui modulo yang digunakan (10) dan hasilnya (5), seseorang tidak dapat menentukan dengan pasti operan mana yang benar digunakan dalam penambahan. Dikatakan bahwa ada beberapa kongruensi modulo 10.
@@ -532,7 +536,7 @@ Untuk operasi XOR, kita dihadapkan pada masalah yang sama. Ingatlah tabel kebena
 Fungsi kompresi juga menggunakan operasi $\text{ShR}$. Operasi ini menghilangkan sebagian informasi dasar, yang kemudian tidak mungkin untuk diambil kembali. Sekali lagi, tidak ada cara aljabar untuk membalikkan operasi ini. Semua operasi satu arah dan kehilangan informasi ini digunakan sangat sering dalam fungsi kompresi. Jumlah input yang mungkin untuk sebuah output hampir tak terbatas, dan setiap upaya perhitungan balik akan menghasilkan persamaan dengan jumlah yang tidak diketahui sangat tinggi, yang akan meningkat secara eksponensial pada setiap langkahnya.
 
 Akhirnya, untuk karakteristik tahan benturan (collision resistance), beberapa parameter berperan. Pra-pemrosesan pesan asli memainkan peran penting. Tanpa pra-pemrosesan ini, mungkin lebih mudah untuk menemukan benturan pada fungsi tersebut. Meskipun, secara teoritis, benturan ada (karena prinsip pigeonhole), struktur fungsi hash, dikombinasikan dengan sifat-sifat yang disebutkan di atas, membuat kemungkinan menemukan benturan sangat rendah.
-Agar sebuah fungsi hash tahan benturan, sangat penting bahwa:
+Agar sebuah fungsi hash tahan benturan, al-hal berikut sangat penting:
 
 - Outputnya tidak dapat diprediksi: Setiap kemungkinan prediksi dapat dimanfaatkan untuk menemukan benturan lebih cepat daripada dengan serangan brute force. Fungsi tersebut memastikan bahwa setiap bit dari output bergantung pada input dengan cara yang tidak trivial. Dengan kata lain, fungsi tersebut dirancang sehingga setiap bit dari hasil akhir memiliki probabilitas independen untuk menjadi 0 atau 1, meskipun kemandirian ini tidak absolut dalam praktiknya.
 - Distribusi hash adalah pseudo-random: Ini memastikan bahwa hash didistribusikan secara seragam.

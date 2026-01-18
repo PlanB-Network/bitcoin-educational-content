@@ -309,11 +309,11 @@ Alcune informazioni sui pacchetti installati:
 - **Clamav** è un antivirus.
 - **unattend-upgrades** vi consentirà di gestire automaticamente gli aggiornamenti e persino di riavviare la macchina o di eliminare automaticamente i vecchi pacchetti, è completamente configurabile.
 - **rkhunter** è un anti-rootkit che analizza il file system.
-- **Fail2ban** si baserà sui vostri file di log analizzando ciò che gli darete da leggere e funzionerà con **iptables**, ad esempio per bandire gli indirizzi IP che cercano di "forzare" il vostro server in SSH.
+- **Fail2ban** si baserà sui tuoi file di log analizzando ciò che gli darai da leggere e funzionerà con **iptables**, ad esempio per bandire gli indirizzi IP che cercano di "forzare" il tuo server in SSH.
 
 ### C. Raccomandazioni per SSH
 
-Diamo un'occhiata alle raccomandazioni SSH. Sono elencate di seguito. Non preoccupatevi, vi spiegheremo subito come migliorare la configurazione.
+Diamo un'occhiata alle raccomandazioni SSH. Sono elencate di seguito. Non preoccuparti, ti spiegheremo subito come migliorare la configurazione.
 
 ![Image](assets/fr/034.webp)
 

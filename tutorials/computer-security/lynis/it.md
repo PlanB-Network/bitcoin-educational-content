@@ -228,7 +228,7 @@ Sarebbe interessante attivare **auditd** per avere i log in caso di analisi **fo
 
 ![Image](assets/fr/036.webp)
 
-Lynis esamina poi gli elemnti crittografati, la virtualizzazione, i container e i framework di sicurezza. Alcune sezioni sono vuote perché non c'è corrispondenza con la macchina analizzata. Tuttavia, possiamo vedere che hai due certificati SSL scaduti e non hai attivato **SELinux**.
+Lynis esamina poi gli elementi crittografati, la virtualizzazione, i container e i framework di sicurezza. Alcune sezioni sono vuote perché non c'è corrispondenza con la macchina analizzata. Tuttavia, possiamo vedere che hai due certificati SSL scaduti e non hai attivato **SELinux**.
 
 ![Image](assets/fr/027.webp)
 

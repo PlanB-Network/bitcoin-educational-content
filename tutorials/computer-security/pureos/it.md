@@ -1,4 +1,4 @@
----
+ ---
 name: PureOS
 description: La distribuzione Linux che ti dà il controllo sulla tua vita digitale.
 ---
@@ -32,11 +32,11 @@ L'installazione e la configurazione di PureOS sul computer richiedono le seguent
 - 4 GB DI RAM.
 - 30 GB di spazio libero sull'hard disk.
 
-Accedi al [sito web ufficiale di PureOS](https://pureos.net/) e scarica l'immagine ISO del sistema operativo in base all'architettura della propria macchina.
+Accedi al [sito web ufficiale di PureOS](https://pureos.net/) e scarica l'immagine ISO del sistema operativo in base all'architettura della tua macchina.
 
 Per avviare l'installazione di PureOS, è necessario creare una chiave USB avviabile utilizzando un software flash come [Balena Etcher](https://www.balena.io/etcher).
 
-In tre semplici passaggi, otterrete una chiavetta USB avviata con il sistema operativo PureOS:
+In tre semplici passaggi, otterrai una chiavetta USB avviabile con il sistema operativo PureOS:
 - Collega la chiave USB ed esegui il software scaricato Balena Etcher.
 - Quindi seleziona l'immagine ISO di PureOS.
 - Scegli la chiave USB come dispositivo di output, quindi fai clic sul pulsante **Flash** e attendi il completamento del processo.

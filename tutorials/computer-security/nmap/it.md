@@ -797,7 +797,7 @@ Nmap scan report for 192.168.0.12
 
 In questo modo si garantisce che l'elenco degli host da scansionare sia accurato.
 
-Un ultimo importante suggerimento che vorrei condividere con voi riguarda l'**esclusione di un host o di una rete nell'ambito di una scansione**. La necessità di escludere un host può essere necessaria in diversi casi, in particolare se vogliamo essere sicuri che **un componente sensibile del sistema informatico non venga disturbato o interrotto dalle nostre scansioni**.
+Un ultimo importante suggerimento che vorrei condividere con te riguarda l'**esclusione di un host o di una rete nell'ambito di una scansione**. La necessità di escludere un host può essere necessaria in diversi casi, in particolare se vogliamo essere sicuri che **un componente sensibile del sistema informatico non venga disturbato o interrotto dalle nostre scansioni**.
 
 Esempi frequenti di tali esigenze si hanno quando un'azienda possiede apparecchiature industriali (PLC) o sanitarie. Tali apparecchiature sono talvolta mal progettate e non sono affatto destinate a ricevere pacchetti mal formattati o troppo numerosi. Per ovvie ragioni di disponibilità o di rischio aziendale/umano, è preferibile escluderle dai test.
 

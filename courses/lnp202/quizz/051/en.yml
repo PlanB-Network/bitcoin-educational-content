@@ -5,5 +5,5 @@ wrong_answers:
   - 8332
   - 50001
 explanation: |
-  To access API from your LND node on Umbrel, you need to use port 8080 when configuring Zeus.
+  To access the API from your LND node on Umbrel, you need to use port 8080 when configuring Zeus.
 reviewed: false

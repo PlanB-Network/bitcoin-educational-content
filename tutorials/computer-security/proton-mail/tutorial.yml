@@ -20,146 +20,146 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0.91
+    reward: 1.0
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.39
+    reward: 2.96
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.82
+    reward: 2.01
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.96
+    reward: 4.87
   - language: ru
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - Reshetenko
-    reward: 1.19
+    reward: 1.48
   - language: id
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - AgoesRichie
-    reward: 1.48
+    reward: 1.96
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.39
+    reward: 2.96
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.39
+    reward: 2.96
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.82
+    reward: 2.01
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.82
+    reward: 2.01
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.82
+    reward: 2.01
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.96
+    reward: 3.91
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.82
+    reward: 2.01
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.96
+    reward: 4.87
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.39
+    reward: 2.96
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.96
+    reward: 4.87
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.39
+    reward: 2.96
   - language: sr-Latn
     last_contribution_date: '2025-08-19'
     urgency: 1
     contributor_names:
       - Sanja22B
-    reward: 1.19
+    reward: 1.96
   - language: sw
     last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
       - Tinnah924
-    reward: 1.19
+    reward: 1.48
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.96
+    reward: 3.91
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.39
+    reward: 2.96
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.82
+    reward: 2.01
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.39
+    reward: 2.96
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.96
+    reward: 3.91
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.96
+    reward: 3.91
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.96
+    reward: 4.87
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.39
+    reward: 2.96
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.96
+    reward: 3.91
 tags:
   - personal-security
   - privacy

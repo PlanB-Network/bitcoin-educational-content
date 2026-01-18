@@ -1778,7 +1778,7 @@ Come abbiamo visto in questo tutorial, Nmap può essere molto prolisso a livello
 
 Per evitare incidenti, è necessario padroneggiare il comportamento di Nmap e sapere come adattarlo al contesto in cui viene utilizzato, mediante le varie opzioni discusse in questa esercitazione. Non necessariamente utilizzeremo Nmap allo stesso modo in un sistema informatico contenente [hardware industriale](https://www.it-connect.fr/actualites/actu-materiel/) e in una rete utente composta da sistemi Windows protetti da un firewall locale o in un nucleo di rete.
 
-Si spera che le varie lezioni di questo tutorial vi abbiano insegnato a padroneggiare e analizzare il comportamento di Nmap, ma il modo migliore per imparare è fare. Assicurati quindi di conoscere bene le opzioni di Nmap che utilizzerai.
+Spero che le varie lezioni di questo tutorial ti abbia insegnato a padroneggiare e analizzare il comportamento di Nmap, ma il modo migliore per imparare è fare. Assicurati quindi di conoscere bene le opzioni di Nmap che utilizzerai.
 
 ### V. Protezione del sistema di scansione
 

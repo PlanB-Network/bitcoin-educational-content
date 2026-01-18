@@ -4,7 +4,7 @@ description: Rendere più accessibile la potenza di Arch Linux
 ---
 ![cover](assets/cover.webp)
 
-Arch Linux è un sistema operativo molto diffuso in molti settori, grazie alla sua robustezza e stabilità. Tuttavia, può essere difficile da usare per gli utenti inesperti. È proprio per risolvere questo problema che è stato creato **Manjaro**: offrire la potenza di Arch Linux, ma con un'esperienza più semplice e accessibile, basata su un'interfaccia intuitivo e facile da imparare.
+Arch Linux è un sistema operativo molto diffuso in molti settori, grazie alla sua robustezza e stabilità. Tuttavia, può essere difficile da usare per gli utenti inesperti. È proprio per risolvere questo problema che è stato creato **Manjaro**: offrire la potenza di Arch Linux, ma con un'esperienza più semplice e accessibile, basata su un'interfaccia intuitiva e facile da imparare.
 
 
 ## Come iniziare con Manjaro

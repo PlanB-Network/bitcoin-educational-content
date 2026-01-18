@@ -175,7 +175,7 @@ Evita soprattutto le estensioni "VPN gratuite" o i proxy di dubbia qualità: uBl
 
 ### Navigazione quotidiana sul web
 
-Utilizzate LibreWolf per le tue attività quotidiane su Internet. La differenza principale rispetto agli altri browser è che si lasciano molte meno tracce pubblicitarie. I banner di "accettazione dei cookie" scompaiono su molti siti, grazie agli elenchi di filtraggio di uBlock.
+Utilizza LibreWolf per le tue attività quotidiane su Internet. La differenza principale rispetto agli altri browser è che si lasciano molte meno tracce pubblicitarie. I banner di "accettazione dei cookie" scompaiono su molti siti, grazie agli elenchi di filtraggio di uBlock.
 
 ### Utilizzare le schede private per compartimentare
 

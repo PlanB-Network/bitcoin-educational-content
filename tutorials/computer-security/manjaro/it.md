@@ -211,7 +211,7 @@ sudo EDITOR=nano visudo
 
 Ora sei pronto a utilizzare Manjaro Linux sulla tua macchina. Grazie alla sua **semplice installazione**, ai **facili aggiornamenti** e alla **flessibilità**, avrai un sistema potente e performante, adatto allo sviluppo, all'uso quotidiano e alla gestione dei bitcoin con strumenti come Electrum.
 
-Manjaro combina **stabilità, velocità e sicurezza**, rimanendo **completamente gratuito**, il che lo rende una scelta ideale sia per i principianti che per gli utenti avanzati. Prendetevi il tempo necessario per esplorare le sue varie caratteristiche e personalizzare il tuo ambiente in base alle tue esigenze. Se vuoi saperne di più e scoprire il sistema Arch Linux, ti consigliamo il nostro tutorial.
+Manjaro combina **stabilità, velocità e sicurezza**, rimanendo **completamente gratuito**, il che lo rende una scelta ideale sia per i principianti che per gli utenti avanzati. Prenditi il tempo necessario per esplorare le sue varie caratteristiche e personalizzare il tuo ambiente in base alle tue esigenze. Se vuoi saperne di più e scoprire il sistema Arch Linux, ti consigliamo il nostro tutorial.
 
 
 https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973

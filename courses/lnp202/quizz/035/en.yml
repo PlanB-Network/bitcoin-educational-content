@@ -3,7 +3,7 @@ answer: Earn money with routing fees
 wrong_answers:
   - Make money by showing the way
   - Making money by selling incoming liquidity
-  - Make money by publishing outdated channel reports
+  - Make money by publishing outdated channel states
 explanation: |
   The router seeks to route payments from others by collecting routing fees.
 reviewed: false

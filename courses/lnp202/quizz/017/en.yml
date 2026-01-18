@@ -1,8 +1,8 @@
 question: What does the Lightning wallet balance displayed on the LND application interface represent?
-answer: The sum of cash outflows
+answer: The sum of outbound liquidity
 wrong_answers:
   - The sum of onchains
-  - The sum of incoming cash
+  - The sum of inbound liquidity
   - The sum of channel capacities
 explanation: |
   The Lightning balance corresponds to the sats available to be spent via the channels, i.e. the sum of outgoing liquidity from all the node's channels.

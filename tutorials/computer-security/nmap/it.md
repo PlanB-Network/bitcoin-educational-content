@@ -282,9 +282,9 @@ D'ora in poi, ricordati di scansionare solo gli host in un ambiente controllato 
 
 - Come promemoria: [Codice Privacy D.lgs 196/2003 (s.m.i. con D.Lgs. 10 agosto 2018, n. 101 per l'aggiornamento al GDPR - Regolamento UE 2016/679) - Trattamento illecito di dati art.167 e seguenti](https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=56&art.flagTipoArticolo=0&art.codiceRedazionale=003G0218&art.idArticolo=167&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2003-07-29&art.progressivo=0) e [art.167 bis - ter aggiornato](https://www.gazzettaufficiale.it/atto/stampa/serie_generale/originario).
 
-**Se non ne avete uno a portata di mano**, ti consiglio le seguenti soluzioni gratuite, che fanno al caso tuo!
+**Se non ne hai uno a portata di mano**, ti consiglio le seguenti soluzioni gratuite, che fanno al caso tuo!
 
-- [Hack The Box](https://app.hackthebox.com/ "Hack The Box"): Piattaforma di addestramento all'hacking, Hack The Box mette costantemente a disposizione sistemi vulnerabili da attaccare come meglio credete. Sono disponibili diverse centinaia di sistemi, ma un pool rinnovato di 20 macchine è offerto gratuitamente tutto l'anno, con accesso tramite una VPN OpenVPN.
+- [Hack The Box](https://app.hackthebox.com/ "Hack The Box"): Piattaforma di addestramento all'hacking, Hack The Box mette costantemente a disposizione sistemi vulnerabili da attaccare come meglio credi. Sono disponibili diverse centinaia di sistemi, ma un pool rinnovato di 20 macchine è offerto gratuitamente tutto l'anno, con accesso tramite una VPN OpenVPN.
 
 - [Vulnhub](https://www.vulnhub.com/ "Vulnhub"): Questa piattaforma offre numerosi sistemi intenzionalmente vulnerabili da scaricare, che possono essere utilizzati tramite VirtualBox (anch'essa una soluzione gratuita) o altri mezzi. Una volta scaricati, non c'è bisogno di una VPN: tutto è locale.
 

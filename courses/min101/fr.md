@@ -10,12 +10,13 @@ objectives:
 ---
 
 # Découvrez les fondamentaux du minage de Bitcoin
+<partId>b581d7e4-b97f-4bf8-aaec-313acd0ec0e2</partId>
 
 Comprendre la preuve de travail, c’est comprendre le fonctionnement même de Bitcoin. Sans cette invention et son usage ingénieux, Bitcoin n’aurait tout simplement pas pu exister. Ce cours vous fournit l’ensemble des bases théoriques sur le minage nécessaires dans votre parcours de bitcoiner.
 
 MIN 101 s’adresse avant tout aux débutants, puisque l’ensemble des notions y est expliqué précisément depuis zéro. Toutefois, si vous disposez déjà d’un niveau intermédiaire, ce cours vous permettra de consolider votre compréhension, de corriger certaines intuitions approximatives et d’explorer des détails souvent absents des explications grand public.
 
-À l’issue de ce cours, vous serez capable d’expliquer le fonctionnement de la preuve de travail de façon simple et rigoureuse, afin de mieux juger les débats, comprendre l’évolution de Bitcoin et prendre des décisions plus éclairées dans votre utilisation. MIN 101 constitue également une porte d’entrée idéale avant d’aborder l’ensemble des autres cours plus avancés consacrés au minage de Bitcoin sur Plan ₿ Academy, qu’ils soient théoriques ou pratiques.
+À l’issue de ce cours, vous serez capable d’expliquer le fonctionnement de la preuve de travail de façon simple et rigoureuse. MIN 101 constitue également une porte d’entrée idéale avant d’aborder l’ensemble des autres cours plus avancés consacrés au minage de Bitcoin sur Plan ₿ Academy, qu’ils soient théoriques ou pratiques.
 
 +++
 
@@ -34,11 +35,11 @@ https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
 ### Partie 1 – Le fonctionnement de la preuve de travail
 
-Après cette courte introduction, la partie 1 est le socle technique de la formation. Son but est de vous expliquer, pas à pas, comment Bitcoin produit des blocs valides. Nous commencerons par découvrir la structure d’un bloc Bitcoin, avant d’entrer dans le mécanisme de la preuve de travail : le rôle de la cible, du nonce et de la fonction de hachage. Enfin, nous verrons comment Bitcoin parvient à maintenir un rythme de production des blocs stable malgré les variations de la puissance de hachage, grâce au mécanisme d’ajustement de la difficulté. À l’issue de cette partie, vous comprendrez l’ensemble des rouages et des principes fondamentaux de la preuve de travail sur Bitcoin.
+Après cette courte introduction, la partie 1 est le socle technique de la formation. Son but est de vous expliquer, pas à pas, comment Bitcoin produit des blocs valides. Nous commencerons par découvrir la structure d’un bloc, avant d’entrer dans le mécanisme de la preuve de travail : le rôle de la cible, du nonce et de la fonction de hachage. Enfin, nous verrons comment Bitcoin parvient à maintenir un rythme de production des blocs stable malgré les variations de la puissance de hachage, grâce au mécanisme d’ajustement de la difficulté. À l’issue de cette partie, vous comprendrez l’ensemble des rouages et des principes fondamentaux de la preuve de travail sur Bitcoin.
 
 ### Partie 2 – Le système d’incitations du minage de Bitcoin
 
-Dans la deuxième partie, nous verrons pourquoi les mineurs sont incités à participer honnêtement au minage. Nous détaillerons le principe de la récompense de bloc, sa composition et son mode de calcul, son évolution dans le temps à travers les halvings, ainsi que le rôle spécifique de la transaction coinbase. L’objectif sera de comprendre comment les incitations économiques s’alignent avec la sécurité du protocole, sans jamais faire appel à une autorité centrale.
+Dans la deuxième partie, nous verrons pourquoi les mineurs sont incités à participer honnêtement au minage. Nous détaillerons le principe de la récompense de bloc, sa composition et son mode de calcul, son évolution dans le temps à travers les halvings, ainsi que le rôle spécifique de la transaction coinbase.
 
 ### Partie 3 – L’industrie du minage de Bitcoin
 
@@ -48,7 +49,7 @@ La troisième partie replace le minage dans sa réalité opérationnelle. Elle r
 
 Dans la partie finale du cours, vous pourrez évaluer vos connaissances sur le minage en passant votre diplôme.
 
-L’objectif de ce cours MIN 101 est de vous permettre de repartir avec une compréhension claire, structurée et durable du minage de Bitcoin, aussi bien sur le plan technique qu’économique.
+L’objectif de ce cours MIN 101 est donc de vous permettre de repartir avec une compréhension claire, structurée et durable du minage de Bitcoin, aussi bien sur le plan technique qu’économique.
 
 Prêt à découvrir le minage de Bitcoin ? C’est parti !
 
@@ -56,18 +57,16 @@ Prêt à découvrir le minage de Bitcoin ? C’est parti !
 # Le fonctionnement de la preuve de travail
 <partId>e917e8e3-37f2-46fb-91b2-6a5ce6f0f5c3</partId>
 
-## La construction d'un bloc Bitcoin
+## Le parcours de la transaction Bitcoin
 <chapterId>3b7a3502-4814-4554-8de1-86ac961a2958</chapterId>
 
 Avant de comprendre ce qu'est le minage de Bitcoin, il faut d’abord suivre le trajet d’une transaction typique sur Bitcoin. Cela permet de voir où intervient exactement le bloc, et pourquoi il est au cœur du système. C'est ce que je vous propose de découvrir dans ce premier chapitre.
-
-### Le parcours de la transaction Bitcoin
 
 Sur Bitcoin, une transaction est une structure de données qui transfère la propriété de bitcoins d'un utilisateur à un autre. Concrètement, elle consomme des `outputs` de transactions passées (ce qu'on appelle des UTXO) en les référant comme `inputs`, puis elle crée de nouveaux `outputs` qui définissent à qui appartiennent désormais ces bitcoins et sous quelles conditions ils pourront être dépensés plus tard.
 
 ![Image](assets/fr/001.webp)
 
-Un point important sur Bitcoin est l’autorisation de dépenser. Les bitcoins ne sont pas dans un comptes, comme le pourraient être votre argent à la banque, mais ils sont verrouillés par des conditions de dépense. Lorsqu’un portefeuille veut utiliser un UTXO comme `inputs`, il doit fournir une preuve cryptographique qui prouve qu'il a bien le droit de le déverrouiller. Dans la pratique, cette preuve prend souvent la forme d’une signature numérique produite à partir d’une clé privée. C’est pour cette raison que les bitcoiners insistent sur la nécessité de sécuriser vos clés privées : ce sont elles qui permettent de déverrouiller l’accès à vos bitcoins et, par conséquent, de les dépenser.
+Un point important sur Bitcoin est l’autorisation de dépenser. Les bitcoins ne sont pas dans un comptes, comme le pourraient être votre argent à la banque, mais ils sont verrouillés par des conditions de dépense. Lorsqu’un portefeuille veut utiliser un UTXO comme `input`, il doit fournir une preuve cryptographique qui atteste qu'il a bien le droit de le déverrouiller. Cette preuve prend souvent la forme d’une signature numérique produite à partir d’une clé privée. C’est pour cette raison que les bitcoiners insistent sur la nécessité de sécuriser vos clés privées : ce sont elles qui permettent de déverrouiller l’accès à vos bitcoins et, par conséquent, de les dépenser.
 
 ![Image](assets/fr/002.webp)
 
@@ -116,16 +115,21 @@ Ce registre ne peut pas être réécrit grâce à un principe simple : chaque bl
 
 ![Image](assets/fr/005.webp)
 
-Une fois que l'on a compris ces principes de base de Bitcoin, on peut décrire l’objectif d’un mineur de manière plus concrète : construire un nouveau bloc qui prolonge la chaîne existante, en y inscrivant des transactions en attente, puis tenter de le rendre valide (c'est la fameuse "*preuve de travail*" que l'on étudiera dans le chapitre suivant). Ici, on se concentre sur la construction du bloc candidat.
+Une fois que l'on a compris ces principes de base de Bitcoin, on peut décrire l’objectif d’un mineur de manière plus concrète : construire un nouveau bloc qui prolonge la chaîne existante, en y inscrivant des transactions en attente, puis tenter de le rendre valide (c'est la fameuse "*preuve de travail*" que l'on étudiera dans un prochain chapitre). Mais d'abord, découvrons ensemble dans le prochain chapitre comment est construit un bloc candidat.
+
+## La construction d'un bloc Bitcoin
+<chapterId>2b5cd04b-d400-4865-b0a0-e70fa7e67c17</chapterId>
+
+Vous avez maintenant compris le parcours d’une transaction sur Bitcoin ainsi que le rôle de la blockchain. Avant d’étudier plus en détail le fonctionnement de la preuve de travail, il reste toutefois une étape essentielle que le mineur doit réaliser : la construction d’un bloc candidat. Découvrons ensemble ce qu’est un bloc candidat et comment le mineur le construit, avant de se lancer dans la recherche d’une preuve valide.
 
 ### Le bloc candidat
 
-Les mineurs ne trouvent pas des blocs qui existeraient déjà quelque part : il doivent le fabriquer avant d'essayer de le miner. Chaque mineur, de son côté, construit ce que l'on appelle un bloc candidat à partir des transactions en attente dans sa mempool. Construire un bloc candidat consiste donc à :
+Les mineurs doivent fabriquer leur bloc eux-même avant d'essayer de le miner. Chaque mineur, de son côté, construit ce que l'on appelle un bloc candidat à partir des transactions en attente dans sa mempool. Construire un bloc candidat consiste donc à :
 - choisir quelles transactions inclure ;
 - organiser ces transactions de manière compatible avec les règles de Bitcoin ;
 - produire les métadonnées du bloc, contenues dans son entête.
 
-Le choix des transactions répond à une logique économique simple : un bloc a une capacité limitée par le protocole Bitcoin, donc le mineur cherche à maximiser ce qu’il gagne pour cet espace. Il sélectionne en priorité les transactions offrant les frais les plus élevés relativement à la place qu’elles occupent dans le bloc (on parle ainsi de "*taux de frais*", par exemple en `sats/vB`). Les détails des frais seront traités plus tard ; retenez ici l’idée de tri par rentabilité de l’espace.
+Le choix des transactions répond à une logique économique simple : un bloc a une capacité limitée par le protocole Bitcoin, donc le mineur cherche à maximiser ce qu’il gagne pour cet espace. Il sélectionne en priorité les transactions offrant les frais les plus élevés relativement à la place qu’elles occupent dans le bloc (on parle ainsi de "*taux de frais*", exprimé en `sats/vB`). Les détails des frais seront traités plus tard ; retenez ici simplement l’idée de tri par rentabilité de l’espace.
 
 Un bloc Bitcoin se compose donc de deux grandes parties :
 * une liste de transactions ;
@@ -137,7 +141,7 @@ L’entête est essentielle, car c’est elle qui est utilisée comme base pour 
 
 ### L’arbre de Merkle : résumer un grand ensemble de transactions
 
-Lister toutes les transactions dans l’entête serait impossible : un bloc peut contenir des milliers de transactions, alors que l’entête a une taille fixe (80 octets). La solution consiste donc à calculer un hash unique qui dépend de toutes les transactions du bloc : c'est la racine de Merkle.
+Lister toutes les transactions dans l’entête serait impossible : un bloc peut contenir des milliers de transactions, alors que l’entête a une taille fixe (80 octets). La solution consiste donc à calculer un hachage unique qui dépend de toutes les transactions du bloc : c'est la racine de Merkle.
 
 Le principe est le suivant :
 * on calcule l’empreinte cryptographique de chaque transaction ;
@@ -150,7 +154,7 @@ Ainsi, si une seule transaction change, même d’un seul bit, cela entraîne un
 
 Depuis SegWit, on sépare ce qui relève des signatures (témoins) du reste. Il y a donc en réalité 2 arbres de Merkle imbriqués dans chaque bloc. Cette séparation a des conséquences sur la manière de compter la taille d’un bloc et sur certains engagements cryptographiques, mais l’idée de base reste la même : l’entête doit engager, de manière compacte, tout le contenu du bloc.
 
-### L’entête de bloc : ce que le mineur prépare réellement
+### L’entête de bloc
 
 L’entête de bloc fait 80 octets et contient exactement 6 champs. Ce sont ces six éléments qui seront hachés lors de la recherche d'une preuve de travail (voir chapitre suivant) :
 
@@ -162,9 +166,9 @@ L’entête de bloc fait 80 octets et contient exactement 6 champs. Ce sont ces 
 
 - L’horodatage (`time`) : C’est un timestamp (temps Unix) choisi par le mineur (avec des contraintes de validité), qui doit indiquer quand le bloc a été miné. Il n’a pas besoin d’être parfaitement exact à la seconde près, mais il doit respecter certaines conditions pour rester acceptable par le réseau.
 
-- La cible de difficulté encodée (`bits`) : Ce champ encode la cible de difficulté en vigueur. Nous détaillerons ce point dans le chapitre sur la difficulté, mais retenez ici que ce paramètre fait partie intégrante de l’entête.
+- La cible de difficulté encodée (`bits`) : Ce champ encode la cible de difficulté en vigueur. Nous détaillerons ce point dans le chapitre sur la difficulté, mais retenez ici que ce paramètre fait partie de l’entête.
 
-- Le nonce (`nonce`) : C’est une valeur que le mineur peut modifier librement. Elle sert de variable d’ajustement durant la preuve de travail. Je vous expliquerai son rôle plus précisément dans le prochain chapitre, mais il est important de comprendre que le nonce fait partie de l’entête du bloc et qu’il est prévu précisément pour permettre des essais successifs.
+- Le nonce (`nonce`) : C’est une valeur que le mineur peut modifier librement. Elle sert de variable d’ajustement durant la preuve de travail. Je vous expliquerai son rôle plus précisément dans le prochain chapitre, mais il est important de comprendre que le nonce fait partie de l’entête du bloc et qu’il est prévu pour permettre des essais successifs.
 
 Pour rendre cela plus facile à visualiser, voici un exemple d’entête de bloc au format hexadécimal (80 octets) :
 
@@ -190,7 +194,7 @@ Cette entête du bloc candidat construit par le mineur constitut sa base de trav
 ## Le hachage, la cible et le nonce
 <chapterId>d054323b-16bd-4556-bac5-4878654e59a3</chapterId>
 
-Dans le chapitre précédent, vous avez suivi le chemin d’une transaction Bitcoin : créée et signée par un portefeuille, relayée par les nœuds, stockée dans les mempools, puis confirmée lorsqu’un mineur l’inclut dans un bloc accepté par le réseau. Mais nous n'avons pas encore vu comment un mineur peut ajouter son bloc à la blockchain. Autrement dit, quel est le processus concret derrière le minage ?
+Dans les chapitres précédents, vous avez suivi le chemin d’une transaction Bitcoin : créée et signée par un portefeuille, relayée par les nœuds, stockée dans les mempools, puis confirmée lorsqu’un mineur l’inclut dans un bloc accepté par le réseau. Mais nous n'avons pas encore vu comment un mineur peut ajouter son bloc à la blockchain. Quel est le processus derrière le minage ?
 
 Comprendre le processus du minage, c'est assez simple. Cela tient en 3 notions qui vont ensemble : une fonction de hachage, une valeur cible et une variable que le mineur peut modifier. Voyons ensemble comment tout cela fonctionne.
 
@@ -243,11 +247,11 @@ SHA256d(block_header) <= target
 
 La cible est un nombre de 256 bits. Comme l’empreinte produite par `SHA256d` fait aussi 256 bits, on peut les comparer comme deux nombres. Plus la cible est basse, plus la condition à remplir est difficile, car il existe moins de résultats possibles en dessous de ce seuil. À l’inverse, plus la cible est élevée, plus la condition est facile à satisfaire, et plus le minage d’un bloc devient simple. Nous détaillerons dans les prochains chapitre comment cette cible est déterminée.
 
-Dans ce système, la fonction de hachage est intéressante. Rappelez-vous qu’il est facile de calculer la sortie à partir de l’entrée, mais qu’il est impossible de retrouver une entrée en ne connaissant que la sortie. Dans le cadre du minage, on ne demande pas aux mineurs de trouver une empreinte précise, mais plutôt de trouver une empreinte inférieure à une valeur cible. Le seul moyen d’y parvenir consiste à effectuer un très grand nombre de tentatives, jusqu’à ce qu’une entête particulière de leur bloc candidat, une fois hachée, produise une empreinte inférieure à cette cible.
+Dans ce système, la fonction de hachage est intéressante. Rappelez-vous qu’il est facile de calculer la sortie à partir de l’entrée, mais qu’il est impossible de retrouver une entrée en ne connaissant que la sortie de la fonction. Dans le cadre du minage, on ne demande pas aux mineurs de trouver une empreinte précise, mais plutôt de trouver une empreinte inférieure à une valeur cible. Le seul moyen d’y parvenir consiste à effectuer un très grand nombre de tentatives, jusqu’à ce qu’une entête particulière de leur bloc candidat, une fois hachée, produise une empreinte inférieure à cette cible.
 
 À partir du moment où la cible est suffisamment basse, ce processus devient coûteux. Le mineur calcule le hash de l’entête de son bloc candidat, vérifie le résultat, puis, si la condition n’est pas remplie, modifie l’entête et recommence le calcul. Cette boucle se répète jusqu’à ce qu’une entête valide soit trouvée. Lorsque le hash de l’entête satisfait enfin la condition, la preuve de travail est établie, le bloc est considéré comme valide et peut être diffusé sur le réseau Bitcoin afin que les nœuds l’ajoutent à leur blockchain. Le mineur gagnant reçoit alors la récompense associée (nous détaillerons sa composition plus tard), tandis que l’ensemble des mineurs repart immédiatement à la recherche d’une nouvelle entête valide pour le bloc suivant.
 
-L’intérêt fondamental de ce mécanisme réside dans son asymétrie. Produire une preuve de travail est coûteux pour les mineurs, car cela nécessite un grand nombre de calculs de hachage. En revanche, pour les vérificateurs, c’est-à-dire les nœuds du réseau, la vérification est extrêmement simple : il suffit de hacher l’entête du bloc et de vérifier que l’empreinte obtenue est bien inférieure à la cible. Trouver une preuve demande donc beaucoup de travail et de ressources, tandis que vérifier sa validité est rapide et peu coûteux. C’est précisément cette propriété qui définit un système de preuve de travail efficace.
+L’intérêt fondamental de ce mécanisme réside dans son asymétrie. Produire une preuve de travail est coûteux pour les mineurs, car cela nécessite un grand nombre de calculs de hachage. En revanche, pour les vérificateurs, c’est-à-dire les nœuds du réseau, la vérification est extrêmement simple : il suffit de hacher l’entête du bloc fournie par le mineur et de vérifier que l’empreinte obtenue est bien inférieure à la cible. Trouver une preuve demande donc beaucoup de travail et de ressources, tandis que vérifier sa validité est rapide et peu coûteux. C’est précisément cette propriété qui définit un système de preuve de travail efficace.
 
 ### Le nonce
 
@@ -263,7 +267,7 @@ C’est précisément pour cette raison que l’entête de bloc contient un nonc
 
 Le processus de minage est donc très simple :
 - le mineur construit un bloc candidat (transactions + entête) ;
-- il calcule l'empreinte `SHA256d(header)` ;
+- il calcule l'empreinte de l'entête `SHA256d(header)` ;
 - si le résultat est supérieur à la cible, il change le nonce ;
 - il recommence ;
 - etc.
@@ -274,58 +278,67 @@ En réalité, le nonce n’est pas le seul champ que l’on peut modifier. Toute
 
 ### Quel est l'intérêt de cette preuve de travail ?
 
-On parle de "*preuve*" parce que le résultat est immédiatement vérifiable : une fois un bloc produit, n’importe quel nœud peut contrôler, en une fraction de seconde, que l’empreinte cryptographique de son en-tête est bien inférieure à la cible exigée. On parle de "*travail*" parce que parvenir à cette empreinte a requis une multitude d’essais, donc un coût réel en calcul et en énergie.
+On parle de "*preuve*" parce que le résultat est immédiatement vérifiable : une fois un bloc produit, n’importe quel nœud peut contrôler, en une fraction de seconde, que l’empreinte cryptographique de son entête est bien inférieure à la cible exigée. On parle de "*travail*" parce que parvenir à cette empreinte a requis une multitude d’essais, donc un coût réel en calcul et en énergie.
 
-Dans le White Paper de Bitcoin, Satoshi Nakamoto met en avant deux intêrets à l'utilisation d'un système de preuve de travail dans Bitcoin :
+Dans le White Paper de Bitcoin, Satoshi Nakamoto met en avant deux intérêts à l'utilisation d'un système de preuve de travail dans Bitcoin :
 
 - **Sceller l’historique économique :**
 
-Une fois la charge de calcul dépensée, le bloc est figé : le modifier impliquerait de refaire la preuve de travail de ce bloc. Et comme les blocs sont enchaînés les uns avec les autres, altérer un bloc ancien obligerait aussi à recalculer tous les blocs suivants, puis à rattraper et dépasser le travail continu de la chaîne honnête. Autrement dit, la preuve de travail sert d’armature à un horodatage cumulatif qui rend la falsification du passé de plus en plus coûteuse à mesure que les blocs s’accumulent. Lorsqu’un nouveau bloc est miné, la sécurité fournie par la preuve de travail s’applique de manière simultanée et uniforme à l’ensemble des UTXOs existants. À chaque bloc ajouté, chaque UTXO accumule ainsi une quantité supplémentaire de sécurité issue de la Proof-of-Work.
+Une fois la charge de calcul dépensée, le bloc est figé : le modifier impliquerait de refaire la preuve de travail de ce bloc. Et comme les blocs sont enchaînés les uns avec les autres, altérer un bloc ancien obligerait aussi à recalculer tous les blocs suivants, puis à rattraper et dépasser le travail continu de la chaîne honnête.
+
+Autrement dit, la preuve de travail sert d’armature à l'horodatage qui rend la falsification du passé de plus en plus coûteuse à mesure que les blocs s’accumulent. Lorsqu’un nouveau bloc est miné, la sécurité fournie par la preuve de travail s’applique de manière simultanée et uniforme à l’ensemble des UTXOs existants. À chaque bloc ajouté, chaque UTXO accumule ainsi une quantité supplémentaire de sécurité issue de la Proof-of-Work.
 
 - **Définir la règle de majorité (consensus) et neutraliser les Sybil :**
 
-La preuve de travail permet à Bitcoin d’obtenir un consensus sans s’appuyer sur la règle de vote "*un identifiant = une voix*", facilement truqué par la création massive d’identités (IP, nœuds, clés...). Dans Bitcoin, la "*majorité*" n’est pas le plus grand nombre de participants, mais la **chaîne qui cumule le plus de travail** : comme l’écrit Satoshi, c’est un principe "*une CPU = une voix*", c’est-à-dire un vote pondéré par la puissance de calcul réellement dépensée pour produire des blocs valides. Ainsi, déployer des milliers de nœuds n’apporte aucun avantage en soi. Sans puissance de calcul supplémentaire, on n’accumule pas davantage de preuve de travail, et l’attaque Sybil devient inutile, tandis que la règle de décision reste objective et ne nécessite aucune identification des participants.
+La preuve de travail permet également à Bitcoin d’obtenir un consensus sans s’appuyer sur la règle de vote "*un identifiant = une voix*", qui pourrait être facilement truqué par la création massive d’identités (IP, nœuds, clés...).
+
+Dans Bitcoin, la "*majorité*" n’est pas le plus grand nombre de participants, mais la **chaîne qui cumule le plus de travail**. Comme l’écrit Satoshi, c’est un principe "*un CPU = une voix*", c’est-à-dire un vote pondéré par la puissance de calcul réellement dépensée pour produire des blocs valides. Ainsi, déployer des milliers de nœuds n’apporte aucun avantage en soi sur Bitcoin. Sans puissance de calcul supplémentaire, on n’accumule pas davantage de preuve de travail, et l’attaque Sybil devient inutile, tandis que la règle de décision reste objective et ne nécessite aucune identification des participants.
 
 ![Image](assets/fr/018.webp)
 
 [Nakamoto, S. (2008). *Bitcoin: A Peer-to-Peer Electronic Cash System.*](https://bitcoin.org/bitcoin.pdf)
 
-Les principes liés à l’utilité et aux pouvoirs des mineurs constituent un sujet très complexe que je ne détaillerai pas davantage dans cette formation. Nous y reviendrons cependant de manière approfondie dans la formation MIN 201.
+Les principes liés à l’utilité et aux pouvoirs des mineurs constituent un sujet très complexe que je ne détaillerai pas davantage dans cette formation. Nous y reviendrons cependant de manière approfondie dans la future formation MIN 201.
 
-### D’où vient l’idée de la preuve de travail ?
+Pour l’instant, vous pouvez résumer le fonctionnement du minage ainsi : les mineurs construisent un bloc candidat avec les transactions en attente dans les mempools, puis cherchent une empreinte de son entête (via `SHA256d`) qui soit inférieure ou égale à une cible. Ils y parviennent en testant des nonces par tâtonnement.
+
+Dans le chapitre suivant, nous ferons un bref détour historique sur le principe de la preuve de travail afin d’en comprendre le contexte, puis nous verrons ensuite comment la cible de difficulté est déterminée par le système.
+
+## L'histoire de la preuve de travail
+<chapterId>919d9f3e-8b3b-41d9-b45a-54df4f3c31a3</chapterId>
 
 La preuve de travail n’a pas été inventée pour Bitcoin. Satoshi Nakamoto a repris et assemblé plusieurs idées plus anciennes, déjà explorées dans des contextes différents.
 
-#### Hashcash
+### Hashcash
 
-À la fin des années 1990, le problème du spam des e-mails devient important. Une idée simple apparaît : si envoyer un e-mail coûte presque zéro, un spammeur peut en envoyer des millions. Mais si chaque message exige un petit effort de calcul, envoyer un message reste facile pour un utilisateur normal, tandis qu’envoyer des millions de messages devient très cher.
+À la fin des années 1990, le problème du spam des e-mails devient important. En effet, si envoyer un e-mail coûte presque zéro, un spammeur peut en envoyer des millions. Mais si chaque message exige un petit effort de calcul, envoyer un seul message légitime reste facile pour un utilisateur normal, tandis qu’envoyer des millions de messages devient très cher.
 
-C’est l’objectif de Hashcash, proposé par Adam Back en 1997, que l'on considère comme l'invention du principe de preuve de travail. Le principe de Hashcash ressemble fortement au minage : produire un hash qui respecte une condition (par exemple avoir un certain nombre de zéros en début d’empreinte). La preuve accompagne ensuite le message et peut être vérifiée très rapidement par le destinataire. En cas de réception d’un e-mail ne contenant pas cette preuve, celui-ci peut être immédiatement considéré comme du spam. Les spammeurs sont alors contraints de dépenser une quantité d’énergie considérable pour envoyer des millions de messages, ce qui réduit drastiquement (voire annule complètement) la rentabilité de ce type d’opérations, qu’elles soient marketing ou frauduleuses.
+C’est l’objectif de Hashcash, proposé par Adam Back en 1997, que l'on considère comme l'invention du principe de preuve de travail. Le principe de Hashcash ressemble fortement au minage : produire un hash qui respecte une condition (avoir un certain nombre de zéros en début d’empreinte). La preuve accompagne ensuite le message et peut être vérifiée très rapidement par le destinataire. En cas de réception d’un e-mail ne contenant pas cette preuve, celui-ci peut être immédiatement considéré comme du spam, et donc filtré. Les spammeurs sont alors contraints de dépenser une quantité d’énergie considérable pour envoyer des millions de messages, ce qui réduit drastiquement (voire annule complètement) la rentabilité de ce type d’opérations, qu’elles soient marketing ou frauduleuses.
+
+De nos jours, Hashcash n’est pas utilisé pour les e-mails. Le filtrage du spam repose désormais en grande partie sur des systèmes centralisés. L’intérêt de Hashcash par rapport aux solutions actuelles réside dans le fait qu’il ne nécessite aucune centralisation du filtrage : chacun pourrait en ajuster les paramètres selon ses propres critères. Il ne requiert pas non plus d’identification, puisque la recherche d’un hash peut être effectuée de manière anonyme, et surtout, il ne s’appuie pas sur un système de réputation, lequel tend rapidement à introduire des formes de filtrage subjectives.
 
 Hashcash ne cherchait pas à créer de la monnaie. Il cherchait à imposer un coût marginal à une action numérique facilement automatisable.
 
 ![Image](assets/fr/008.webp)
 
-#### Bit Gold
+### Bit Gold
 
 Nick Szabo, à la fin des années 1990 et au début des années 2000, explore l’idée d’une rareté numérique basée sur la preuve de travail. Son projet conceptuel, appelé Bit Gold, imagine la création d’unités de valeur en résolvant une preuve de travail coûteuse, puis en enregistrant ces preuves dans un registre afin d’établir une forme de propriété.
 
 Bit Gold n’a pas abouti à un système déployé comme Bitcoin, mais il contient plusieurs intuitions importantes : l’idée que du calcul peut produire une rareté, et l’idée d'horodater des éléments dans le temps pour créer un historique difficile à réécrire.
 
-#### RPOW
+### RPOW
 
 Hal Finney propose en 2004 RPOW (*Reusable Proofs of Work*). L’idée est de produire des preuves de travail qui pourraient ensuite être échangées, plutôt que d’être simplement consommées. RPOW visait à créer des jetons numériques basés sur la preuve de travail, avec un système permettant de vérifier et de transférer ces jetons sans les dupliquer. RPOW, là encore, ne résout pas de façon satisfaisante le problème d’un registre totalement décentralisé comme Bitcoin le fera plus tard, mais il reste l'un des grands précurseurs de Bitcoin.
 
 ![Image](assets/fr/009.webp)
 
-Hashcash, Bit Gold et RPOW utilisent la preuve de travail pour imposer un coût, créer de la rareté, ou construire des objets échangeables. Bitcoin reprend ce mécanisme, mais lui donne un rôle central et collectif : la preuve de travail ne sert pas seulement à créer quelque chose, elle sert à départager qui a le droit d’écrire la prochaine page du registre (le prochain bloc), et à rendre ce registre coûteux à falsifier.
-
-Pour l’instant, vous pouvez résumer le fonctionnement du minage ainsi : les mineurs construisent un bloc candidat avec les transactions en attente dans les mempools, puis cherchent une empreinte de son entête (via `SHA256d`) qui soit inférieure ou égale à une cible. Ils y parviennent en testant des nonces par tâtonnement. Dans le chapitre suivant, nous allons découvrir comment cette cible de difficulté est déterminée par le système.
+Hashcash, Bit Gold et RPOW utilisent la preuve de travail pour imposer un coût et créer une forme de rareté. Bitcoin reprend ce mécanisme, mais lui donne un rôle central et collectif : la preuve de travail ne sert pas seulement à créer quelque chose, elle sert à départager qui a le droit d’écrire la prochaine page du registre (le prochain bloc), et à rendre ce registre coûteux à falsifier.
 
 ## L'ajustement de la cible de difficulté
 <chapterId>528bcaa8-351e-4eae-887a-426a78a223e3</chapterId>
 
-Dans le chapitre précédent, vous avez vu le cœur de la preuve de travail : les mineurs hachent l’entête de leur bloc candidat avec `SHA256d`, et le bloc n’est considéré valide que si l’empreinte obtenue est numériquement inférieure ou égale à une valeur de référence appelée la cible. Il reste alors une question : d’où vient cette cible, et comment le système s’assure qu’elle reste cohérente au fil du temps ?
+Dans les chapitres précédents, vous avez vu le cœur de la preuve de travail : les mineurs hachent l’entête de leur bloc candidat avec `SHA256d`, et le bloc n’est considéré valide que si l’empreinte obtenue est numériquement inférieure ou égale à une valeur de référence appelée la cible. Il reste alors une question : d’où vient cette cible, et comment le système s’assure qu’elle reste cohérente au fil du temps ?
 
 Bitcoin vise un rythme moyen d’un bloc trouvé toutes les 10 minutes. Ce rythme n’est évidemment pas une promesse à la seconde près. En pratique, certains blocs sont trouvés quelques secondes après le précédent, quand d’autres le sont après plus d'une heure. Ce qui importe ici, c’est la moyenne sur une période suffisamment longue.
 

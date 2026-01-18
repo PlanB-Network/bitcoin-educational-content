@@ -358,9 +358,9 @@ Questi aggiornamenti regolari sono una risorsa importante, soprattutto per i dis
 
 ### Raccomandazioni per l'uso
 
-**Scegliete GrapheneOS** se possedete un Pixel, se la massima sicurezza è la tua priorità e se accetti vincoli per una maggiore protezione.
+**Scegli GrapheneOS** se possiedi un Pixel, se la massima sicurezza è la tua priorità e se accetti vincoli per una maggiore protezione.
 
-**Scegliete LineageOS** se avete un dispositivo non-Pixel, se cercate un buon equilibrio tra privacy e praticità o se vuoi scegliere il tuo livello di compromesso con l'ecosistema Google.
+**Scegliete LineageOS** se hai un dispositivo non-Pixel, se cerchi un buon equilibrio tra privacy e praticità o se vuoi scegliere il tuo livello di compromesso con l'ecosistema Google.
 
 ## Conclusione
 

@@ -45,7 +45,7 @@ Fin dall'inizio, LibreWolf offre una serie di funzioni orientate alla privacy:
 
 **Motore di ricerca privato per impostazione predefinita**: LibreWolf utilizza per impostazione predefinita DuckDuckGo come motore di ricerca iniziale, che non conserva la cronologia delle query effettuate. Sono disponibili anche altre alternative orientate alla privacy (Searx, Qwant, Whoogle).
 
-**Protezione anti-fingerprint rinforzata**: Il fingerprinting consente di identificare in modo univoco un browser attraverso la sua configurazione, anche senza cookie. Per contrastare questo fenomeno, LibreWolf attiva la tecnologia RFP (Resist Fingerprinting) del progetto Tor, per rendere il browser il più generico possibile. I test dimostrano che un Firefox standard è unico per circa il ~90% su strumenti come coveryourtracks.eff.org, mentre LibreWolf lo è solo per circa il ~10-20% (queste cifre sono indicative e possono variare in base alla configurazione del software e dell'hardware e alle estensioni installate).
+**Protezione anti-fingerprint rinforzata**: il fingerprinting consente di identificare in modo univoco un browser attraverso la sua configurazione, anche senza cookie. Per contrastare questo fenomeno, LibreWolf attiva la tecnologia RFP (Resist Fingerprinting) del progetto Tor, per rendere il browser il più generico possibile. I test dimostrano che un Firefox standard è unico per circa il ~90% su strumenti come coveryourtracks.eff.org, mentre LibreWolf lo è solo per circa il ~10-20% (queste cifre sono indicative e possono variare in base alla configurazione del software e dell'hardware e alle estensioni installate).
 
 ![LIBREWOLF](assets/fr/07.webp)
 

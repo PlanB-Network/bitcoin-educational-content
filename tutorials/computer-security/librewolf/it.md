@@ -168,7 +168,7 @@ In linea di principio, LibreWolf scoraggia l'aggiunta di estensioni non necessar
 - **Firefox Multi-Account Containers** (di Mozilla) per la navigazione a compartimenti stagni
 - **Decentraleyes** o **LocalCDN** per servire localmente le librerie comuni
 
-Evitate soprattutto le estensioni "VPN gratuite" o i proxy di dubbia qualità: uBlock Origin copre già il 99% delle tue esigenze.
+Evita soprattutto le estensioni "VPN gratuite" o i proxy di dubbia qualità: uBlock Origin copre già il 99% delle tue esigenze.
 
 
 ## Uso quotidiano

@@ -368,7 +368,7 @@ L’intervalle de 10 minutes laisse généralement suffisamment de temps pour qu
 
 ### Comprendre la notion de hashrate
 
-Le "*hashrate*" désigne la quantité de calcul de hachage produite par seconde, que ce soit par un seul mineur, par un groupe de mineur, ou bien par l'ensemble des mineurs sur Bitcoin. On l’exprime en `H/s` (hashs par seconde), avec des multiples comme `TH/s` (térahashs par seconde) ou `EH/s` (exahashs par seconde). Cela représente donc le nombre d’essais que les mineurs peuvent faire chaque seconde pour tenter d’obtenir un hash inférieur à la cible.
+Le "*hashrate*" désigne la quantité de calcul de hachage produite par seconde, que ce soit par un seul mineur, par un groupe de mineur, ou bien par l'ensemble des mineurs sur Bitcoin. On l’exprime en `H/s` (hachages par seconde), avec des multiples comme `TH/s` (térahashs par seconde) ou `EH/s` (exahashs par seconde). Cela représente donc le nombre d’essais que les mineurs peuvent faire chaque seconde pour tenter d’obtenir un hash inférieur à la cible.
 
 Si la cible reste fixe, alors :
 * chaque essai a une probabilité fixe de réussite ;
@@ -376,7 +376,7 @@ Si la cible reste fixe, alors :
 
 Autrement dit, si demain le réseau Bitcoin double sa puissance de calcul en branchant deux fois plus de machines de minage, sans mécanisme correcteur, les blocs seraient trouvés en moyenne deux fois plus vite. Il faut donc ajuster la cible pour compenser les variations de hashrate.
 
-### L'ajustement
+### L'ajustement de la cible de difficulté
 
 Bitcoin résout ce problème avec un mécanisme d’ajustement périodique de la cible, qui vient donc ajuster la difficulté du minage. Le principe est le suivant : tous les 2016 blocs (environ toutes les 2 semaines), chaque nœud recalcule la cible de difficulté en observant combien de temps a réellement été nécessaire pour produire ces 2016 blocs.
 
@@ -406,7 +406,7 @@ Avec un temps cible de deux semaines, soit `Tt = 1 209 600` secondes :
 Tn = To * (Ta / 1 209 600)
 ```
 
-Pour bien comprendre l'ajustement de la difficulté du minage de Bitcoin, voici un exemple avec des valeurs réelles :
+Pour bien comprendre l'ajustement de la difficulté du minage de Bitcoin, voici un exemple avec des valeurs fictives :
 
 ```txt
 Tn = To * (Ta / 1 209 600)
@@ -417,7 +417,7 @@ Tn = 14 918 779 020
 Avec :
 * **`To = 18 045 755 102`** : Ancienne cible, c’est-à-dire la valeur de référence avant l’ajustement.
 * **`Ta = 1 000 000` secondes** : Temps réellement passé pour produire les 2016 derniers blocs. Ce temps étant inférieur au temps cible, le réseau a miné trop rapidement.
-* **`1 209 600` secondes** : Temps cible correspondant à deux semaines, utilisé comme référence pour l’ajustement.
+* **`1 209 600` secondes** : Temps cible correspondant à 10 minutes par bloc pour 2016 blocs, utilisé comme référence pour l’ajustement.
 * **`Tn = 14 918 779 020`** : Nouvelle cible calculée après l’ajustement de difficulté.
 
 La nouvelle cible est ici plus basse que l’ancienne, ce qui implique une augmentation de la difficulté de minage afin de ralentir la production des blocs lors de la période suivante.
@@ -426,13 +426,13 @@ La nouvelle cible est ici plus basse que l’ancienne, ce qui implique une augme
 
 Ce calcul est exécuté localement par chaque nœud, à partir des horodatages inscrits dans les blocs. Comme tous les nœuds appliquent les mêmes règles, ils aboutissent au même résultat, et la nouvelle cible devient la référence commune pour les 2016 blocs suivants.
 
-Il y a un détail important à noter sur cet ajustement : **il est borné**. Bitcoin limite la variation de difficulté par période afin d’éviter des changements trop brutaux qui pourraient le bloquer. En effet, le temps réel pris en compte est contraint à rester dans une fourchette équivalente à un facteur 4 (au minimum un quart de deux semaines, au maximum quatre fois deux semaines). Cela empêche un reciblage extrême si les horodatages étaient très atypiques ou manipulés.
+Il y a un détail important à noter sur cet ajustement : **il est borné**. Bitcoin limite la variation de difficulté par période afin d’éviter des changements trop brutaux qui pourraient le bloquer. En effet, le temps réel pris en compte est contraint à rester dans une fourchette équivalente à un facteur 4 (au minimum un quart de l'ancienne cible, au maximum quatre fois l'ancienne cible). Cela empêche un reciblage extrême si les horodatages étaient très atypiques ou manipulés.
 
 ### La représentation de la cible
 
-Dans l’entête de bloc, la cible n’apparaît pas sous sa forme complète de 256 bits, car cela prendrait trop de place. À la place, le champ `nBits` (de 32 bits) encode la cible dans un format compact, comparable à une notation scientifique en base 256 : un exposant (1 octet) et un coefficient (3 octets). La cible complète est ensuite reconstruite à partir de ces deux valeurs. Nous n’allons pas entrer dans le détail ici, car le sujet est relativement complexe et n’apporte rien à la compréhension du minage. Retenez simplement que la cible n’est pas stockée de manière brute dans l’entête du bloc, mais sous une forme compacte et normalisée.
+Dans l’entête de bloc, la cible n’apparaît pas sous sa forme complète de 256 bits, car cela prendrait trop de place. À la place, le champ `nBits` (de 32 bits) encode la cible dans un format compact, comparable à une notation scientifique en base 256 : un exposant (1 octet) et un coefficient (3 octets). La cible complète est ensuite reconstruite à partir de ces deux valeurs. Nous n’allons pas entrer dans le détail ici, car le sujet est relativement complexe et n’apporte rien à la compréhension du minage. Retenez simplement que la cible n’est pas stockée de manière brute dans l’entête du bloc, mais sous une forme compacte.
 
-Avec ce dernier chapitre, nous avons fait le tour du fonctionnement de la preuve de travail sur Bitcoin : le mineur construit un bloc candidat en sélectionnant des transactions dans sa mempool, calcule l’entête du bloc candidat, la hache, compare l’empreinte obtenue à la cible de la période, puis recommence en modifiant le nonce jusqu’à obtenir une empreinte valide. Enfin, tous les 2016 blocs, le réseau recalcule une nouvelle cible afin de maintenir un temps moyen d’environ 10 minutes par bloc, malgré les variations permanentes du hashrate.
+Avec ce dernier chapitre de la première partie, nous avons fait le tour du fonctionnement de la preuve de travail sur Bitcoin : le mineur construit un bloc candidat en sélectionnant des transactions dans sa mempool, calcule l’entête du bloc candidat, la hache, compare l’empreinte obtenue à la cible de la période, puis recommence en modifiant le nonce jusqu’à obtenir une empreinte valide. Enfin, tous les 2016 blocs, le réseau recalcule une nouvelle cible afin de maintenir un temps moyen d’environ 10 minutes par bloc, malgré les variations permanentes du hashrate.
 
 
 # Le système d’incitations du minage de Bitcoin
@@ -445,11 +445,13 @@ Vous vous en doutez sûrement : miner sur Bitcoin n’est pas une activité altr
 
 Cette logique relève de la théorie des jeux : le protocole rend l’honnêteté rationnelle. Un mineur gagne de l’argent lorsqu’il produit un bloc valide accepté par les nœuds. À l’inverse, s'il essaie de tricher, son bloc sera rejeté par les nœuds, et il n’obtiendra rien. Comme produire un bloc a un coût, un bloc rejeté représente une perte sèche. Dans un environnement concurrentiel où des milliers d’acteurs cherchent simultanément un bloc valide, la stratégie la plus rentable, la plupart du temps, consiste donc à suivre strictement les règles et à maximiser son revenu de manière honnête.
 
-Pour ce faire, le protocole Bitcoin prévoit que le mineur qui trouve un bloc valide remporte le droit d’y inclure une transaction particulière qui lui attribue une certaine somme de BTC. C'est ce que l'on appelle **la récompense de bloc**. Dans ce premier chapitre, l’objectif est de comprendre de quoi elle est composée et comment elle est déterminée. Nous verrons plus tard comment la partie création monétaire évolue au fil du temps (avec les halvings) et comment elle est effectivement récupérée techniquement (via la transaction coinbase).
+Pour ce faire, le protocole Bitcoin prévoit que le mineur qui trouve un bloc valide remporte le droit d’y inclure une transaction particulière qui lui attribue une certaine somme de BTC. C'est ce que l'on appelle **la récompense de bloc**. Dans ce premier chapitre de cette partie, l’objectif est de comprendre de quoi elle est composée et comment elle est déterminée. Nous verrons plus tard comment la partie création monétaire évolue au fil du temps (avec les halvings) et comment elle est effectivement récupérée techniquement (via la transaction coinbase).
 
 ### De quoi se compose la récompense de bloc ?
 
-Dans les chapitres précédents, nous avons vu comment les mineurs parviennent à trouver un bloc valide. Une fois qu’un mineur a trouvé une entête dont le hash est inférieur à la cible, son bloc candidat est considéré comme valide. Il peut alors le diffuser à l’ensemble du réseau Bitcoin. Le bloc est ajouté à la suite de la blockchain et permet de confirmer les transactions qu’il contient. C’est précisément cet événement (l’ajout effectif du bloc à la blockchain) qui déclenche l’attribution d’une récompense au mineur gagnant. Cette récompense se compose de deux éléments distincts que l'on additionne :
+Dans les chapitres précédents, nous avons vu comment les mineurs parviennent à trouver un bloc valide. Une fois qu’un mineur a trouvé une entête dont le hash est inférieur à la cible, son bloc candidat est considéré comme valide. Il peut alors le diffuser à l’ensemble du réseau Bitcoin. Le bloc est ajouté à la suite de la blockchain et permet de confirmer les transactions qu’il contient. 
+
+C’est précisément cet événement (l’ajout effectif du bloc à la blockchain) qui déclenche l’attribution d’une récompense au mineur gagnant. Cette récompense se compose de deux éléments distincts que l'on additionne :
 - **la subvention de bloc** ;
 - **les frais de transaction**.
 
@@ -463,12 +465,12 @@ La subvention de bloc correspond à la partie création monétaire de la récomp
 
 Toutefois, la quantité de bitcoins nouvellement créés n’est absolument pas arbitraire. Elle est strictement définie par les règles du protocole Bitcoin et identique pour tous les mineurs. Nous détaillerons ce mécanisme dans le chapitre suivant, car la subvention n’est pas une valeur fixe indéfiniment : elle est divisée périodiquement selon un calendrier précis. Pour l’instant, retenez simplement que :
 - la subvention de bloc constitue une des deux composantes de la récompense de bloc ;
-- elle est plafonnée et déterminée par le protocole, et non par le mineur (même si le mineur peut techniquement demander moins que le montant prévu) ;
+- elle est plafonnée et déterminée par le protocole, et non par le mineur (même si le mineur peut techniquement demander moins que le montant maximal prévu) ;
 - elle crée des bitcoins à partir de rien.
 
 Cette subvention joue principalement deux rôles au sein du protocole Bitcoin. Le premier est d’inciter les acteurs à participer au minage. Durant les premières années de Bitcoin (et c’est encore parfois le cas aujourd’hui) les frais de transaction étaient très faibles. La subvention garantissait donc une rémunération suffisante pour attirer des mineurs et maintenir un niveau de sécurité pour le système.
 
-Le second rôle est lié à la distribution de la monnaie. Toute nouvelle monnaie fait face à une question : comment distribuer les unités monétaires de manière juste ? La subvention de bloc apporte une réponse juste à ce problème. En créant des bitcoins via le minage, elle permet leur distribution initiale de façon ouverte et neutre : n’importe qui peut en obtenir, à condition de participer au minage, sans autorisation préalable ni identité requise.
+Le second rôle est lié à la distribution de la monnaie. Toute nouvelle monnaie fait face à une question : comment distribuer les unités monétaires de manière juste à la population ? La subvention de bloc apporte une réponse à ce problème. En créant des bitcoins via le minage, elle permet leur distribution initiale de façon ouverte et neutre : n’importe qui peut en obtenir, à condition de participer au minage, sans autorisation préalable ni identification requise.
 
 En revanche, puisque ces bitcoins sont créés à partir de rien, leur valeur ne provient pas de nulle part. En augmentant la quantité de monnaie en circulation, la subvention dilue mécaniquement la valeur des bitcoins déjà existants. Elle introduit donc une forme d’inflation monétaire. Nous verrons toutefois dans le prochain chapitre que cette subvention est destinée à disparaître progressivement, et qu’à terme, cette inflation cessera.
 
@@ -497,7 +499,7 @@ La somme des inputs est donc de `250 000 sats`, tandis que la somme des outputs 
 
 ![Image](assets/fr/028.webp)
 
-Si un mineur inclut cette transaction dans un bloc valide, il aura le droit de récupérer ces `3 000 sats`, en plus des frais de toutes les autres transactions incluses dans le bloc. En revanche, il n’existe aucun lien direct on-chain entre la transaction qui paie les frais et les sats effectivement perçus par le mineur. Techniquement, les `3 000 sats` de frais sont détruits, et, en contrepartie, le mineur obtient le droit de les recréer pour lui-même.
+Si un mineur inclut cette transaction dans un bloc valide, il aura le droit de récupérer ces `3 000 sats`, en plus des frais de toutes les autres transactions incluses dans le bloc. En revanche, il n’existe aucun lien direct on-chain entre la transaction qui paie les frais et les sats effectivement perçus par le mineur. Techniquement, les `3 000 sats` de frais sont détruits, et, en contrepartie, le mineur obtient le droit de recréer la même somme pour lui-même.
 
 #### Le ratio de frais
 
@@ -519,7 +521,7 @@ Par exemple, si l'on a une transaction qui pèse `141 vB` et qui alloue `1 974 s
 1 974 / 141 ≈ 14 sats/vB
 ```
 
-Ce ratio explique la stratégie des mineurs : à capacité fixe, inclure des transactions à taux élevé maximise les frais totaux du bloc, donc la rémunération du mineur. C’est aussi ce qui explique les périodes où les transactions à bas frais restent longtemps en attente dans les mempools : elles sont en concurrence avec d’autres transactions qui payent davantage par unité d’espace.
+Ce ratio explique les choix économiques des mineurs : à capacité fixe, inclure des transactions à taux élevé maximise les frais totaux du bloc, donc la rémunération du mineur. C’est aussi ce qui explique les périodes où les transactions à bas frais restent longtemps en attente dans les mempools : elles sont en concurrence avec d’autres transactions qui payent davantage par unité d’espace.
 
 ### La protection du réseau contre le spam
 
@@ -527,7 +529,9 @@ Les frais ont également une utilité de sécurité opérationnelle : ils introd
 
 Dans la pratique, les nœuds appliquent des politiques locales de relais (règles de mempool) et fixent souvent un seuil minimal de frais en dessous duquel ils ne relaient pas une transaction (par défaut, `0.1 sat/vB` sur Bitcoin Core via `minRelayTxFee`). Une transaction peut être valide au sens strict des règles de consensus tout en étant non relayée par la plupart des nœuds si ses frais sont trop bas. Résultat : elle ne circule pas, n’atteint pas les mineurs, et a très peu de chances d’être confirmée.
 
-À ce stade, vous avez compris l’essentiel de la récompense de bloc : elle correspond à la rémunération du mineur gagnant et se compose de deux éléments distincts. D’une part, une subvention de bloc, définie par les règles du protocole, qui crée de nouveaux bitcoins ex nihilo. D’autre part, les frais des transactions incluses dans le bloc miné. Dans le chapitre suivant, nous allons nous concentrer plus en détail sur la subvention de bloc, afin de comprendre précisément comment elle est calculée et comment elle évolue au fil du temps selon les règles du protocole Bitcoin.
+À ce stade, vous avez compris l’essentiel de la récompense de bloc : elle correspond à la rémunération du mineur gagnant et se compose de deux éléments distincts. D’une part, une subvention de bloc, définie par les règles du protocole, qui crée de nouveaux bitcoins ex nihilo. D’autre part, les frais des transactions incluses dans le bloc miné.
+
+Dans le chapitre suivant, nous allons nous concentrer plus en détail sur la subvention de bloc, afin de comprendre précisément comment elle est calculée et comment elle évolue au fil du temps selon les règles du protocole Bitcoin.
 
 ## Le halving
 <chapterId>7cdca211-7300-48f8-a1e4-53e5c2678cd8</chapterId>
@@ -589,7 +593,7 @@ Le halving se répète tant que la subvention reste exprimable dans l’unité m
 
 L’arrêt définitif de la subvention de bloc interviendra à la hauteur de bloc 6 930 000, soit lors du 33ème et dernier halving. Cet événement est attendu aux alentours de l’année 2140. Il est toutefois impossible de donner une date exacte, car celle-ci dépendra de la vitesse réelle à laquelle les blocs seront trouvés d’ici là.
 
-En revanche, comme la subvention de bloc suit une suite géométrique de raison 1/2 à chaque halving, la création monétaire a été extrêmement élevée aux débuts de Bitcoin, puis décroît très rapidement. Dès le 7ème halving, plus de 99 % des bitcoins auront déjà été mis en circulation. Le franchissement de ce seuil des 99 % devrait avoir lieu entre 2032 et 2036. Cela veut dire qu'il faudra ensuite plus de 100 ans pour miner le dernier 1 % des bitcoins restants. Si l’inflation monétaire était donc très forte au lancement de Bitcoin afin de permettre une distribution large de la monnaie, elle est aujourd’hui très faible et continuera de décroître, jusqu’à atteindre une véritable monnaie dure, dont l’offre en circulation ne pourra plus augmenter.
+Comme la subvention de bloc suit une suite géométrique de raison 1/2 à chaque halving, la création monétaire a été extrêmement élevée aux débuts de Bitcoin, puis décroît très rapidement. Dès le 7ème halving, plus de 99 % des bitcoins auront déjà été mis en circulation. Le franchissement de ce seuil des 99 % devrait avoir lieu entre 2032 et 2036. Cela veut dire qu'il faudra ensuite plus de 100 ans pour miner le dernier 1 % des bitcoins restants. Si l’inflation monétaire était donc très forte au lancement de Bitcoin afin de permettre une distribution large de la monnaie, elle est aujourd’hui très faible et continuera de décroître, jusqu’à atteindre une véritable monnaie dure, dont l’offre en circulation ne pourra plus augmenter.
 
 ![Image](assets/fr/030.webp)
 
@@ -623,7 +627,9 @@ Nous l’avons vu dans la première partie du cours : chaque bloc Bitcoin contie
 
 ![Image](assets/fr/031.webp)
 
-À première vue, elle ressemble à une transaction Bitcoin classique : elle possède un TXID, des outputs, et elle est incluse dans l’arbre de Merkle du bloc. Toutefois, elle se distingue par un point important : elle ne dépense aucun véritable UTXO existant. Dans une transaction Bitcoin classique, les `inputs` référencent des outputs non dépensés antérieurs (UTXOs), qui apportent la valeur en entrée. Les `outputs` redistribuent ensuite cette valeur vers de nouveaux UTXOs, avec de nouvelles conditions de dépense. Autrement dit, pour envoyer des bitcoins, il faut déjà les posséder. La transaction coinbase, elle, ne consomme aucun bitcoin en input : elle crée directement des bitcoins en outputs à partir de rien.
+À première vue, elle ressemble à une transaction Bitcoin classique : elle possède un TXID, des outputs, et elle est incluse dans l’arbre de Merkle du bloc. Toutefois, elle se distingue par un point important : elle ne dépense aucun véritable UTXO existant.
+
+Dans une transaction Bitcoin classique, les `inputs` référencent des outputs non dépensés antérieurs (UTXOs), qui apportent la valeur en entrée. Les `outputs` redistribuent ensuite cette valeur vers de nouveaux UTXOs, avec de nouvelles conditions de dépense. Autrement dit, pour envoyer des bitcoins, il faut déjà les posséder. La transaction coinbase, elle, ne consomme aucun bitcoin en input : elle crée directement des bitcoins en outputs à partir de rien.
 
 C’est précisément ce mécanisme qui permet à la fois d’introduire de nouveaux bitcoins en circulation via la subvention de bloc, et de créditer le mineur des frais associés aux transactions incluses dans le bloc. La transaction coinbase ne peut pas référencer de véritable UTXO existant (en réalité, elle référence un UTXO fictif), puisque son rôle est justement de créer une partie de la valeur (la subvention) et de récupérer l’autre partie (les frais), sans les recevoir d’une transaction précédente. Pour que l’ensemble reste cohérent, la part correspondant aux frais doit exactement égaler la somme des bitcoins consommés en inputs mais non recréés en outputs dans les autres transactions du bloc.
 
@@ -633,11 +639,10 @@ Cette transaction n’est pas optionnelle. Un bloc qui ne contient pas de transa
 
 ⚠️ Précision utile : le terme "*coinbase*" n’a ici aucun lien avec la plateforme d’échange du même nom. Sur Bitcoin, "*coinbase*" désigne historiquement la transaction qui crée la récompense de bloc. L’entreprise a simplement repris ce terme pour son nom.
 
-La transaction coinbase remplit en réalité plusieurs rôles simultanés. Le premier est celui que nous venons de détailler : elle attribue au mineur la récompense à laquelle il a droit pour avoir produit un bloc valide.
-
-Son second rôle, plus technique, est qu’elle sert de point d’ancrage à l’engagement cryptographique portant sur les témoins (les signatures) des transactions SegWit incluses dans le bloc.
-
-Un troisième rôle, cette fois-ci non directement protocolaire mais lié à l’industrialisation moderne du minage, est que la coinbase est aujourd’hui fréquemment utilisée pour ancrer des données arbitraires techniques. Ces données sont généralement liées au fonctionnement des pools de minage et à leur organisation interne.
+La transaction coinbase remplit en réalité plusieurs rôles simultanés :
+- Le premier est celui que nous venons de détailler : elle attribue au mineur la récompense à laquelle il a droit pour avoir produit un bloc valide.
+- Son second rôle, plus technique, est qu’elle sert de point d’ancrage à l’engagement cryptographique portant sur les témoins (les signatures) des transactions SegWit incluses dans le bloc.
+- Un troisième rôle, cette fois-ci non directement protocolaire mais lié à l’industrialisation moderne du minage, est que la coinbase est aujourd’hui fréquemment utilisée pour ancrer des données arbitraires techniques. Ces données sont généralement liées au fonctionnement des pools de minage et à leur organisation interne.
 
 Pour bien comprendre ces différents usages, nous allons maintenant détailler ces éléments en étudiant plus précisément la structure de la transaction coinbase.
 
@@ -661,7 +666,9 @@ Directement suivi du faux index :
 
 ![Image](assets/fr/033.webp)
 
-Dans le protocole Bitcoin de base, tel que décrit par Satoshi Nakamoto, ce faux input constitue la seule contrainte imposée à la transaction coinbase. Comme tout UTXO référencé en input, il est associé à un champ `scriptSig`. Dans une transaction classique, ce champ `scriptSig` contient les éléments nécessaires pour satisfaire le `scriptPubKey` et ainsi déverrouiller l’UTXO dépensé. Mais dans le cas particulier de la coinbase, puisque l’UTXO référencé est volontairement fictif, le champ `scriptSig` est entièrement libre. Le mineur peut donc y inscrire n’importe quelle donnée. Nous verrons plus loin quels usages sont faits de cette liberté.
+Dans le protocole Bitcoin de base, tel que décrit par Satoshi Nakamoto, ce faux input constitue la seule contrainte imposée à la transaction coinbase.
+
+Comme tout UTXO référencé en input d'une transaction, il est associé à un champ `scriptSig`. Dans une transaction classique, ce champ `scriptSig` contient les éléments nécessaires pour satisfaire le `scriptPubKey` et ainsi déverrouiller l’UTXO dépensé. Mais dans le cas particulier de la coinbase, puisque l’UTXO référencé est volontairement fictif, le champ `scriptSig` est entièrement libre. Le mineur peut donc y inscrire n’importe quelle donnée. Nous verrons plus loin quels usages sont faits de cette liberté.
 
 À ce faux input s’ajoutent ensuite, de manière tout à fait classique, un ou plusieurs outputs parfaitement standards, qui permettent au mineur de percevoir les bitcoins issus de la récompense sur l’une de ses adresses Bitcoin. Ces outputs sont des UTXOs verrouillés par un `scriptPubKey` (par exemple un script pointant vers une adresse contrôlée par le mineur ou par la pool). La seule particularité réside ici dans la règle de calcul de leur valeur : la somme totale des outputs de la coinbase ne doit jamais excéder la subvention maximale autorisée, à laquelle s’ajoutent les frais du bloc.
 
@@ -691,9 +698,9 @@ Comme la transaction coinbase offre un champ libre via le `scriptSig` de son inp
 
 #### L’identification des pools et des mineurs
 
-Aujourd’hui, une part très importante du hashrate mondial est organisée au sein de pools de minage. Ces structures regroupent des hacheurs individuels afin de mutualiser le travail et de réduire la variance de leurs revenus. Le fonctionnement détaillé des pools de minage ne sera pas abordé dans ce cours, car il constituera l’un des sujets centraux d’un prochain module.
+Aujourd’hui, une part très importante du hashrate mondial est organisée au sein de pools de minage. Ces structures regroupent des hacheurs individuels afin de mutualiser le travail et de réduire la variance de leurs revenus.
 
-Pour des raisons opérationnelles, les pools de minage exploitent également le champ libre du `scriptSig` de l’input de la coinbase pour y insérer différentes informations. Celles-ci varient selon les pools et selon le protocole réseau utilisé, mais on y retrouve généralement un identifiant unique (souvent un extra-nonce structuré en plusieurs sous-parties) attribué à chaque hacheur afin d’éviter la duplication du travail au sein de la pool. On y ajoute généralement un tag d’identification du pool, utilisé pour l’attribution publique des blocs trouvés, les statistiques de minage, et d’autres besoins de suivi.
+Pour des raisons opérationnelles, les pools de minage exploitent également le champ libre du `scriptSig` de l’input de la coinbase pour y insérer différentes informations. Celles-ci varient selon les pools et selon le protocole réseau utilisé, mais on y retrouve généralement un identifiant unique (souvent un extra-nonce structuré en plusieurs sous-parties) attribué à chaque hacheur afin d’éviter la duplication du travail au sein de la pool. On y ajoute généralement un tag d’identification de la pool, utilisé pour l’attribution publique des blocs trouvés, les statistiques de minage, et d’autres besoins de suivi.
 
 ![Image](assets/fr/037.webp)
 
@@ -725,15 +732,17 @@ Ce message, présent dans le bloc de Genèse (le tout premier bloc de Bitcoin) e
 
 ### La période de maturité
 
-Une fois le bloc miné et diffusé, la transaction coinbase apparaît dans la blockchain comme n’importe quelle autre transaction. Elle crée des UTXOs au bénéfice du mineur gagnant, lui permettant de récupérer sa récompense. Toutefois, ces UTXOs ne sont pas immédiatement dépensables : ils sont soumis à une période de maturité. Cette maturité est fixée à 100 blocs après le bloc qui contient la coinbase. Concrètement, la transaction coinbase doit donc totaliser 101 confirmations pour que ses outputs deviennent dépensables par leur propriétaire.
+Une fois le bloc miné et diffusé, la transaction coinbase apparaît dans la blockchain comme n’importe quelle autre transaction. Elle crée des UTXOs au bénéfice du mineur gagnant, lui permettant de récupérer sa récompense. Toutefois, ces UTXOs ne sont pas immédiatement dépensables : ils sont soumis à une période de maturité. Cette maturité est fixée à 100 blocs après le bloc qui contient la coinbase. Concrètement, la transaction coinbase doit donc totaliser 101 confirmations pour que ses outputs deviennent dépensables par le mineur gagnant.
 
 ![Image](assets/fr/040.webp)
 
-L’objectif de cette règle est de limiter l’impact des réorganisations de chaîne sur l’économie. Comme nous l’avons vu dans les chapitres précédents, il arrive qu’à une même hauteur, deux blocs valides distincts soient trouvés presque simultanément par des mineurs différents. Pendant un court instant, le réseau peut alors se scinder : certains nœuds reçoivent d’abord le bloc A, tandis que d’autres voient d’abord le bloc B. Puis, au fil des blocs suivants, l’une des deux branches accumule davantage de travail et devient la branche de référence. L’autre branche est abandonnée et ses blocs deviennent obsolètes. Les transactions qu’elle contenait peuvent alors, en théorie, retourner dans les mempools en attente de confirmation. Dans la pratique, cela arrive rarement, car le marché des frais conduit souvent à retrouver quasiment les mêmes transactions dans deux blocs concurrents à une même hauteur. C’est notamment pour cette raison qu’il est courant de considérer qu’une transaction Bitcoin devient immuable après six confirmations : les réorganisations de plus de six blocs sont si peu probables qu’on peut raisonnablement les considérer comme impossibles.
+L’objectif de cette règle est de limiter l’impact des réorganisations de chaîne sur l’économie. Comme nous l’avons vu dans les chapitres précédents, il arrive qu’à une même hauteur, deux blocs valides distincts soient trouvés presque simultanément par des mineurs différents. Pendant un court instant, le réseau peut alors se scinder : certains nœuds reçoivent d’abord le bloc A, tandis que d’autres voient d’abord le bloc B. Puis, au fil des blocs suivants, l’une des deux branches accumule davantage de travail et devient la branche de référence. L’autre branche est abandonnée et ses blocs deviennent obsolètes. Les transactions qu’elle contenait peuvent alors, en théorie, retourner dans les mempools en attente de confirmation.
+
+Dans la pratique, cela arrive rarement, car le marché des frais conduit souvent à retrouver quasiment les mêmes transactions dans deux blocs concurrents à une même hauteur. C’est notamment pour cette raison qu’il est courant de considérer qu’une transaction Bitcoin devient immuable après six confirmations : les réorganisations de plus de six blocs sont si peu probables qu’on peut raisonnablement les considérer comme impossibles.
 
 ![Image](assets/fr/041.webp)
 
-Le problème posé par ces réorganisations dans le cas de la transaction coinbase est qu’il ne s’agit pas d’une transaction ordinaire. Elle introduit des bitcoins tous neufs en circulation. Si la récompense coinbase pouvait être dépensée immédiatement, une situation problématique en cascade pourrait apparaître :
+Le problème posé par ces réorganisations dans le cas de la transaction coinbase est qu’il ne s’agit pas d’une transaction ordinaire. Elle introduit des bitcoins tous neufs en circulation. Si la récompense de bloc pouvait être dépensée immédiatement, une situation problématique en cascade pourrait apparaître :
 - un mineur dépense des bitcoins issus d’une coinbase,
 - ces bitcoins circulent dans l’économie,
 - puis le bloc d’origine est finalement abandonné lors d’une réorganisation.
@@ -744,7 +753,11 @@ La période de maturité impose donc un délai suffisamment long pour rendre ce 
 
 Cette règle évite donc que la monnaie nouvellement créée via la récompense de bloc ne commence à circuler avant que le bloc qui l’a engendrée ne soit extrêmement solidement ancré sous une grande quantité de travail accumulé.
 
-Nous arrivons désormais à la fin de cette explication consacrée au fonctionnement du minage de Bitcoin. Vous devriez à présent avoir une vision claire des mécanismes fondamentaux en jeu. Dans la dernière partie de la formation, nous allons revenir à des aspects plus concrets, afin de vous montrer comment le minage de Bitcoin se matérialise dans le monde réel : son industrialisation, les machines utilisées, le regroupement des acteurs, etc. L’objectif sera d’aboutir à une vision d’ensemble du minage de Bitcoin, à la fois sous l’angle théorique et protocolaire que nous venons de voir, mais aussi dans sa dimension pratique et opérationnelle.
+---
+
+Nous arrivons désormais à la fin de cette explication consacrée au fonctionnement du minage de Bitcoin. Vous devriez à présent avoir une vision claire des mécanismes fondamentaux en jeu.
+
+Dans la dernière partie de la formation, nous allons revenir à des aspects plus concrets, afin de vous montrer comment le minage de Bitcoin se matérialise dans le monde réel : son industrialisation, les machines utilisées, le regroupement des acteurs, etc. L’objectif sera d’aboutir à une vision d’ensemble du minage de Bitcoin, à la fois sous l’angle théorique et protocolaire que nous venons de voir, mais aussi dans sa dimension pratique et opérationnelle.
 
 # L'industrie du minage de Bitcoin
 <partId>906a6e18-4718-4a1f-85f5-18854cebdf7c</partId>
@@ -760,7 +773,7 @@ Au fil des années, cette activité a connu une transformation : les machines on
 
 En 2009 et dans les premières années, le minage se faisait principalement avec le processeur (CPU) d’un ordinateur classique. Bitcoin est alors un simple logiciel, qui endosse le rôle de wallet, de nœud et de mineur. Le simple fait de lancer le logiciel de Satoshi Nakamoto sur son ordinateur personnel suffisait alors pour participer au minage et, bien souvent, pour trouver des blocs.
 
-Un CPU sait tout faire, mais il n’est optimisé pour rien. Il exécute des instructions très générales, avec une logique complexe. Pour une tâche comme le hachage répétitif des entêtes de bloc, ce n’est pas l’outil idéal, mais au démarrage du réseau, la difficulté est si faible que cela suffit largement.
+Un CPU sait tout faire, mais il n’est optimisé pour rien. Il exécute des instructions très générales, avec une logique complexe. Pour une tâche comme le hachage répétitif des entêtes de bloc, ce n’est pas l’outil idéal, mais au démarrage du réseau, la difficulté est si faible que cela suffit largement pour trouver des blocs.
 
 Cette période est importante, car elle nous rappelle un point important : la preuve de travail ne dépend pas d’une catégorie de matériel en particulier. Ce qui compte, c’est la capacité à calculer des hachages plus vite que les autres, à coût donné. Dès qu’un avantage technique apparaît, il se transforme mécaniquement en avantage économique. Mais dans l’absolu, il est toujours possible aujourd’hui de tenter de trouver des blocs Bitcoin à l’aide d’un CPU classique. C’est d’ailleurs l’approche adoptée par le projet NerdMiner par exemple. Les chances de découvrir un bloc sont quasiment nulles, mais il subsiste néanmoins une probabilité infinitésimale.
 
@@ -770,9 +783,9 @@ https://planb.academy/tutorials/mining/hardware/nerdminer-c9826fd9-c2b4-4d1e-8c7
 
 Assez vite, des mineurs ont compris que le goulot d’étranglement n’était pas la puissance, mais la capacité à effectuer énormément d’opérations similaires en parallèle. C’est exactement ce que savent faire les cartes graphiques (GPU). À l’origine, un GPU est conçu pour exécuter les mêmes opérations sur de grandes quantités de données. Cette architecture se prête très bien à une tâche comme le hachage répété : au lieu d’avoir quelques cœurs très polyvalents, on dispose de centaines, puis de milliers d’unités capables d’exécuter les mêmes instructions simultanément.
 
-Le résultat est immédiat : à consommation électrique comparable, un GPU peut produire bien plus de hachages par seconde qu’un CPU. En parallèle, le bitcoin dispose désormais d’un taux de change face au dollar, sa valeur augmente, et des plateformes d’échange font leur apparition. À partir de là, le minage commence à changer de nature. Il ne s’agit plus seulement de participer, mais d’optimiser. On voit apparaître des configurations dédiées : des machines montées autour de plusieurs cartes graphiques, parfois sans écran, avec un système minimal et des logiciels spécialisés, dont le seul objectif est de miner.
+À consommation électrique comparable, un GPU peut produire bien plus de hachages par seconde qu’un CPU. En parallèle, le bitcoin dispose désormais d’un taux de change face au dollar, sa valeur augmente, et des plateformes d’échange font leur apparition. À partir de là, le minage commence à changer de nature. Il ne s’agit plus seulement de participer, mais de chercher à gagner de l'argent. On voit apparaître des configurations dédiées : des machines montées autour de plusieurs cartes graphiques, parfois sans écran, avec un système minimal et des logiciels spécialisés, dont le seul objectif est de miner.
 
-C’est à ce moment-là que la difficulté de minage commence à exploser. Entre mi-2010 et mi-2011, elle est même multipliée par 1 000 ! Mécaniquement, la spécialisation s’amorce, tout comme les premières formes d’industrialisation, et les utilisateurs normaux, qui se contentent de faire tourner le logiciel Bitcoin sur leur ordinateur personnel, n’ont désormais plus qu’une probabilité extrêmement faible de trouver un bloc valide.
+C’est à ce moment-là que la difficulté de minage commence à exploser. Entre mi-2010 et mi-2011, elle est même multipliée par 1 000. Mécaniquement, la spécialisation s’amorce, tout comme les premières formes d’industrialisation, et les utilisateurs normaux, qui se contentent de faire tourner le logiciel Bitcoin sur leur ordinateur personnel, n’ont désormais plus qu’une probabilité très faible de trouver un bloc valide.
 
 ![Image](assets/fr/044.webp)
 
@@ -789,7 +802,7 @@ L’étape finale de la spécialisation du matériel de minage est l’apparitio
 *ASIC S21 XP fabriqué par l'entreprise Bitmain.*
 
 Cette spécialisation a deux conséquences majeures :
-- La première est un saut de performance et d’efficacité. À génération équivalente, un ASIC produit un nombre de hachages par seconde très supérieur à un GPU, pour une consommation plus maîtrisée. Rapidement, miner avec un GPU devient non compétitif : même si cela fonctionne techniquement, le coût électrique dépasse largement les revenus espérés dans la plupart des contextes.
+- La première est un saut de performance et d’efficacité. À génération équivalente, un ASIC produit un nombre de hachages par seconde très supérieur à un GPU, pour une consommation plus maîtrisée. Rapidement, miner avec un GPU devient non compétitif : même si cela fonctionne techniquement, le coût électrique dépasse largement les revenus espérés dans la plupart des contextes ;
 - La seconde est un changement de modèle : l’investissement devient principalement du matériel industriel. Miner implique désormais d’acheter des machines conçues pour cela, de les alimenter en continu, de les refroidir, de les maintenir, et d’absorber leur obsolescence. Car un ASIC n’est pas éternel économiquement : lorsqu’une nouvelle génération plus efficace arrive sur le marché, les anciennes machines deviennent progressivement moins rentables, même si elles restent fonctionnelles.
 
 À partir de là, on ne parle plus seulement d’un hobby. On parle d’un secteur où la compétitivité dépend d’une équation :
@@ -797,11 +810,12 @@ Cette spécialisation a deux conséquences majeures :
 * coût du matériel et de son amortissement ;
 * capacité à refroidir et opérer à grande échelle ;
 * disponibilité et fiabilité des machines ;
-* rapidité des communications.
+* rapidité des communications ;
+* etc.
 
 ### Les fermes de minage
 
-L’industrialisation du minage découle naturellement des ASIC. Une machine isolée peut miner, mais en regroupant des centaines, puis des milliers d’ASIC dans un même lieu, on mutualise les coûts fixes, on optimise la logistique, et on se rapproche d’un modèle de data center spécialisé.
+Une machine isolée peut miner, mais en regroupant des centaines, puis des milliers d’ASIC dans un même lieu, on mutualise les coûts fixes, on optimise la logistique, et on se rapproche d’un modèle de data center spécialisé.
 
 Une ferme de minage, dans sa forme la plus simple, c’est un bâtiment (ou un ensemble de conteneurs) rempli d'ASIC qui tournent 24/7. Le défi est dorénavant de maintenir des conditions d’exploitation stables :
 * fournir une puissance électrique importante, à bas coût et stable ;
@@ -819,7 +833,7 @@ Le minage est désormais porté par des acteurs industriels, parfois cotés en b
 
 Même sans entrer dans les détails des modèles de rentabilité, il est important de comprendre pourquoi le minage a pris cette forme. La preuve de travail est un mécanisme compétitif : la probabilité de trouver un bloc, et donc de gagner de l'argent, est proportionnelle à la part de hashrate que l’on déploie. Par conséquent, la pression est permanente pour augmenter la puissance de calcul, réduire le coût par unité de calcul et limiter les pertes. Dès lors, les environnements qui offrent de l’électricité moins chère, un climat favorable au refroidissement, ou une infrastructure énergétique abondante, deviennent naturellement plus attractifs.
 
-Miner du Bitcoin est donc passé d’une activité accessible à n’importe qui à ses débuts, à une activité dominée par du matériel spécialisé et des opérations professionnelles. Cela ne change pas les règles du protocole. N’importe qui peut en théorie miner avec n'importe quel machine. Mais en pratique, le niveau de difficulté et l’efficacité des ASIC ont rendu le minage domestique largement non compétitif dans la plupart des contextes.
+Miner du Bitcoin est donc passé d’une activité accessible à n’importe qui à ses débuts, à une activité dominée par du matériel spécialisé et des opérations professionnelles. Cela ne change pas les règles du protocole. N’importe qui peut en théorie miner avec n'importe quelle machine. Mais en pratique, le niveau de difficulté et l’efficacité des ASIC ont rendu le minage domestique largement non compétitif dans la plupart des contextes.
 
 Il subsiste évidemment des situations dans lesquelles le minage domestique peut présenter un intérêt, par exemple si vous bénéficiez d’une électricité très peu chère, ou si vous valorisez la chaleur dégagée par votre mineur, par exemple pour chauffer un logement en hiver. Mais dans tous les cas, vous devrez néanmoins acquérir une machine équipée d’une puce ASIC. De plus, puisque votre puissance de minage restera extrêmement limitée à l’échelle du réseau Bitcoin, il vous faudra trouver un moyen de réduire la variance de vos revenus : c’est précisément le rôle des pools de minage dont nous allons parler dans le prochaine chapitre.
 
@@ -848,36 +862,34 @@ Attention de ne pas confondre la pool de minage avec la ferme de minage. Ce sont
 
 ### Réduire la variance des revenus
 
-Mais alors pourquoi se regrouper en pool ? Tout simplement car le résultat de l'activité de minage est probabiliste : à chaque tentative de hachage, vous avez une chance infime de tomber sous la cible de difficulté et donc de produire un bloc valide. Sur le très long terme, vos gains moyens devraient être proportionnels à votre part du hashrate global. Ce principe découle directement des lois de la probabilité : chaque calcul de hachage constitue un tirage aléatoire indépendant, et, par la loi des grands nombres, la fréquence à laquelle vous découvrez des blocs converge mathématiquement vers votre fraction du hashrate total du réseau. En revanche, à court et moyen terme, vos gains réels peuvent être extrêmement irréguliers. C’est ce décalage entre moyenne théorique et réalité aléatoire que l’on appelle **la variance** en mathématiques.
+Mais alors pourquoi se regrouper en pool ? Tout simplement car le résultat de l'activité de minage est probabiliste : à chaque tentative de hachage, vous avez une chance infime de tomber sous la cible de difficulté et donc de produire un bloc valide.
+
+Sur le très long terme, vos gains moyens devraient être proportionnels à votre part du hashrate global. Ce principe découle directement des lois de la probabilité : chaque calcul de hachage constitue un tirage aléatoire indépendant, et, par la loi des grands nombres, la fréquence à laquelle vous découvrez des blocs converge mathématiquement vers votre fraction du hashrate total du réseau. En revanche, à court et moyen terme, vos gains réels peuvent être extrêmement irréguliers. C’est ce décalage entre moyenne théorique et réalité aléatoire que l’on appelle **la variance** en mathématiques.
 
 Voici un exemple très simple pour comprendre ce principe :
 * Le réseau Bitcoin produit en moyenne 144 blocs par jour (environ un bloc toutes les 10 minutes) ;
 * Si vous disposez de `0.0001 %` du hashrate total, votre espérance est de `144 × 0.000001`, soit `0.000144` bloc/jour ;
 * Autrement dit, vous devriez trouver un bloc en moyenne tous les `1 / 0,000144` jours, c'est-à-dire tous les 6 944 jours, soit environ 19 ans.
 
-Mais cette valeur correspond uniquement à une espérance mathématique : la distribution des temps de découverte suit une loi aléatoire, et il est donc parfaitement possible, en pratique, de ne jamais découvrir le moindre bloc, même sur une durée très longue.
+Mais cette valeur correspond uniquement à une espérance mathématique : la distribution des temps de découverte suit une loi aléatoire, et il est donc parfaitement possible, en pratique, de ne jamais découvrir le moindre bloc, même sur une durée très longue. Vous pouvez être malchanceux et ne rien trouver pendant très longtemps, tout en payant des coûts récurrents (électricité, maintenance, amortissement du matériel...).
 
-Vous pouvez donc être malchanceux et ne rien trouver pendant très longtemps, tout en payant des coûts récurrents (électricité, maintenance, amortissement du matériel...).
-
-La pool de minage change la nature de ce problème : en mutualisant les hashrates, la pool trouve des blocs plus souvent. Chaque participant accepte alors de ne toucher qu’une fraction de chaque bloc trouvé, mais beaucoup plus fréquemment. En pratique, c’est une transformation d’un revenu très volatil et très espacé en un revenu plus régulier, au prix d’un partage et de frais de service.
+La pool de minage change la nature de ce problème : en mutualisant les hashrates, la pool trouve des blocs plus souvent. Chaque participant accepte alors de ne toucher qu’une fraction de chaque bloc trouvé, mais beaucoup plus fréquemment. C’est une transformation d’un revenu très volatil et très espacé en un revenu plus régulier, au prix d’un partage et de frais de service.
 
 ### Pourquoi la variance baisse quand on se regroupe ?
 
 Plus votre puissance de calcul est élevée, plus votre fréquence attendue de blocs trouvés est élevée. Mais surtout, plus les événements deviennent fréquents, plus les résultats observés se rapprochent de la moyenne statistique sur une période donnée.
 
-En solo, un petit mineur peut passer des années sans aucun bloc, puis toucher un gros gain un jour, puis plus rien. Dans une pool, la même réalité probabiliste existe, mais elle est lissée à l’échelle du collectif : la pool trouve des blocs plus souvent, et la redistribution transforme ces événements en paiements plus réguliers pour chaque participant. **La pool de minage vend de la prévisibilité sur l'activité de minage**.
+En solo, un petit mineur peut passer des années sans aucun bloc, puis toucher un gros gain un jour, puis plus rien. Dans une pool, la même réalité probabiliste existe, mais elle est lissée à l’échelle du collectif : la pool trouve des blocs plus souvent, et la redistribution transforme ces événements en paiements plus réguliers pour chaque participant. **La pool de minage vend donc de la prévisibilité sur l'activité de minage**.
 
 ### Repères historiques
 
 Nous l'avons vu dans le chapitre précédent, au tout début, le minage pouvait se faire en solo avec un ordinateur classique, car la difficulté était très faible. Mais à mesure que le hashrate global a explosé (GPU, puis ASIC), le minage solo est devenu un pari très long pour la majorité des participants.
 
-Les premières pools apparaissent précisément pour répondre à cette nouvelle réalité. Braiins Pool (anciennement Slush Pool / Bitcoin.cz) est la première pool de minage de Bitcoin : elle a été lancée en décembre 2010 et a miné son premier bloc le 16 décembre. Le succès de cette première pool de minage est rapide, puisqu'en quelques jours seulement, elle obtient près de 3,5% du hashrate global.
+Les premières pools apparaissent précisément pour répondre à cette nouvelle réalité. Braiins Pool (anciennement Slush Pool / Bitcoin.cz) est la première pool de minage de Bitcoin : elle a miné son premier bloc le 16 décembre 2010. Le succès de cette première pool de minage est rapide, puisqu'en quelques jours seulement, elle obtient près de 3,5% du hashrate global.
 
 ![Image](assets/fr/047.webp)
 
-Côté technique, les pools se sont ensuite structurées autour de protocoles de communication spécialisés entre la pool et les mineurs (par exemple Stratum, puis Stratum V2), afin d’orchestrer efficacement le travail distribué. L’enjeu n’est pas seulement la performance : c’est aussi la standardisation des échanges, la fiabilité, et, de plus en plus, la question de l’autonomie des mineurs (notamment sur la construction des blocs).
-
-Nous évoquerons plus précisément tous ces concepts dans la formation MIN 201. 
+Côté technique, les pools se sont ensuite structurées autour de protocoles de communication spécialisés entre la pool et les mineurs (par exemple Stratum, puis Stratum V2), afin d’orchestrer efficacement le travail distribué. Nous évoquerons plus précisément tous ces concepts dans la formation MIN 201.
 
 ### La situation moderne
 
@@ -885,38 +897,43 @@ Nous évoquerons plus précisément tous ces concepts dans la formation MIN 201.
 
 Voici un classement, à date, des principales pools de minage et de leur part respective du hashrate. Ce classement est susceptible d’évoluer au moment où vous lirez ce cours. Pour consulter des données actualisées, vous pouvez vous rendre sur le site de [mempool.space](https://mempool.space/graphs/mining/pools).
 
-| Rank | Pool           | Blocks found | Hashrate share |
-| ---: | -------------- | -----------: | -------------: |
-|    1 | Foundry USA    |         1297 |         29.57% |
-|    2 | AntPool        |          755 |         17.21% |
-|    3 | ViaBTC         |          514 |         11.72% |
-|    4 | F2Pool         |          467 |         10.65% |
-|    5 | SpiderPool     |          349 |          7.96% |
-|    6 | MARA Pool      |          229 |          5.22% |
-|    7 | SECPOOL        |          197 |          4.49% |
-|    8 | Luxor          |          128 |          2.92% |
-|    9 | Binance Pool   |          105 |          2.39% |
-|   10 | OCEAN          |           78 |          1.78% |
-|   11 | SBI Crypto     |           70 |          1.60% |
-|   12 | Braiins Pool   |           54 |          1.23% |
-|   13 | WhitePool      |           33 |          0.75% |
-|   14 | Mining Squared |           26 |          0.59% |
-|   15 | BTC.com        |           16 |          0.36% |
-|   16 | Poolin         |           14 |          0.32% |
-|   17 | ULTIMUSPOOL    |           14 |          0.32% |
-|   18 | GDPool         |           12 |          0.27% |
-|   19 | Innopolis Tech |           11 |          0.25% |
-|   20 | NiceHash       |            8 |          0.18% |
-|   21 | RedRock Pool   |            8 |          0.18% |
-|   22 | Unknown        |            2 |          0.05% |
-|   23 | Public Pool    |            1 |          0.02% |
-
 ![Image](assets/fr/046.webp)
+
+| Classement | Pool           | Blocs trouvés | Part du hashrate |
+| ---------: | -------------- | ------------: | ---------------: |
+|          1 | Foundry USA    |          1297 |           29.57% |
+|          2 | AntPool        |           755 |           17.21% |
+|          3 | ViaBTC         |           514 |           11.72% |
+|          4 | F2Pool         |           467 |           10.65% |
+|          5 | SpiderPool     |           349 |            7.96% |
+|          6 | MARA Pool      |           229 |            5.22% |
+|          7 | SECPOOL        |           197 |            4.49% |
+|          8 | Luxor          |           128 |            2.92% |
+|          9 | Binance Pool   |           105 |            2.39% |
+|         10 | OCEAN          |            78 |            1.78% |
+|         11 | SBI Crypto     |            70 |            1.60% |
+|         12 | Braiins Pool   |            54 |            1.23% |
+|         13 | WhitePool      |            33 |            0.75% |
+|         14 | Mining Squared |            26 |            0.59% |
+|         15 | BTC.com        |            16 |            0.36% |
+|         16 | Poolin         |            14 |            0.32% |
+|         17 | ULTIMUSPOOL    |            14 |            0.32% |
+|         18 | GDPool         |            12 |            0.27% |
+|         19 | Innopolis Tech |            11 |            0.25% |
+|         20 | NiceHash       |             8 |            0.18% |
+|         21 | RedRock Pool   |             8 |            0.18% |
+|         22 | Unknown        |             2 |            0.05% |
+|         23 | Public Pool    |             1 |            0.02% |
 
 *Source [mempool.space](https://mempool.space/graphs/mining/pools), données sur un mois, du 16 décembre 2025 au 16 janvier 2025.*
 
 Dans un cours plus avancé, on ira plus loin sur le fonctionnement interne des pools (shares, protocoles réseaux, méthodes de paiement...), car c’est là que se jouent les détails qui déterminent à la fois la rentabilité pour le mineur, et les implications possibles sur Bitcoin.
 
+---
+
+Nous arrivons maintenant à la fin de ce cours MIN 101. Merci de l’avoir suivi jusqu’au bout. Si vous souhaitez évaluer les compétences acquises au fil de ce cours, un examen final vous attend dans la partie suivante.
+
+Avec les connaissances de base que vous venez d’acquérir, vous pouvez désormais suivre des cours plus avancés sur le minage sur Plan ₿ Academy, qu’il s’agisse de formations théoriques, comme celle-ci, ou de cours plus pratiques, afin de commencer, vous aussi, à participer au minage sur Bitcoin !
 
 # Partie finale
 <partId>eced8ca1-971d-4a22-9254-dbf8bce15d1b</partId>

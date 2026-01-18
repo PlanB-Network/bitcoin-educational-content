@@ -109,7 +109,7 @@ ProtonMail visualizzerà quindi un codice QR da scansionare con la propria appli
 
 _Codice QR ProtonMail da scansionare con la tua applicazione di autenticazione, con l'opzione "Inserisci manualmente la chiave" disponibile_
 
-Se si preferisce inserire la chiave manualmente, fai clic su "Enter key manually instead" per visualizzare la chiave segreta.
+Se preferisci inserire la chiave manualmente, fai clic su "Enter key manually instead" per visualizzare la chiave segreta.
 
 ![PROTON AUTHENTICATOR](assets/fr/11.webp)
 

@@ -105,7 +105,7 @@ _Pagina iniziale dell'interfaccia di Orion Browser: la freccia indica i tre stru
 Una volta completata la configurazione, si scoprirà la semplificata interfaccia di Orion con i suoi **tre strumenti essenziali** (indicati dalla freccia):
 - **Shield 🛡️**: visualizza il rapporto sulla privacy con il numero di elementi bloccati nella pagina corrente
 - **Pennello 🖌️**: personalizzazione della visualizzazione delle pagine (tema, font, rimozione di elementi che distraggono)
-- **Gear ⚙️**: configurare i parametri specifici del sito web (permessi, blocco, ecc.)
+- **Gear ⚙️**: configura i parametri specifici del sito web (permessi, blocco, ecc.)
 
 Questi strumenti sono sempre disponibili e consentono di controllare l'esperienza di navigazione su base individuale.
 

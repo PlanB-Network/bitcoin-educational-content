@@ -146,7 +146,7 @@ Per impostazione predefinita, se l'interfaccia WAN è collegato a un box o a un 
 
 ## V. Primo accesso all'iterfaccia web
 
-Una volta completato l'avvio iniziale e configurate le interfacce di rete, è possibile accedere all'interfaccia web di pfSense per finalizzare e mettere a punto la configurazione.
+Una volta completato l'avvio iniziale e configura le interfacce di rete, è possibile accedere all'interfaccia web di pfSense per finalizzare e mettere a punto la configurazione.
 
 ### 1. Connessione iniziale
 

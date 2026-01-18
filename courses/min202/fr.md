@@ -185,7 +185,7 @@ Cela **réduit la variance** : au lieu de tout miser sur une "loterie" où les c
 
 ## 2.2 Pourquoi faire du solo mining
 
-Le **solo mining** (ou minage en solo) consiste à miner  **sans passer par un pool mutualiste**. 
+Le **solo mining** (ou minage en solo) consiste à miner  **sans passer par une pool mutualiste**. 
 
 Aujourd'hui les solominer sont clairement extrêmement minoritaires, et sont majoritairement des particuliers qui le font par passion. On se rapporche là de la manière originelle de miner, à l'époque ou Satoshi Nakamoto, Hall Finey, et tous les 1ers Bitcoiners légendaires encaissaient 50 bitcoins toutes les 10 minutes par le seul travail de leur processeur de laptop.
 
@@ -198,11 +198,11 @@ Les professionnels ayant eux besoin de revenus réguliers pour palier à leurs o
 On vient de voir que dans le minage en **pool**, on contribue à un effort collectif pour trouver le prochain bloc. On soumet  des “shares” et si le pool trouve un bloc, la récompense (3,125 BTC actuellement + les frais de transaction) est **répartie**  au pro-rata la puissance de chacun.
 
 En **solo mining**, il est soit possible de faire tourner son propre noeud et son propre logiciel de minage afin de miner de manière totalement souveraine.
-Ou bien de passer par un service tiers, une sorte de proxy qu'on appellera "solo pool", et qui nous apportera la couche logicielle nécessaire à la construction des blocs et le noeud Bitcoin.
+Ou bien de passer par un service tiers, une sorte de proxy qu'on appellera "solo pool", et qui nous apportera la couche logicielle nécessaire à la construction des blocs ainsi que le noeud Bitcoin.
 
 Quoi qu'il en soit cette fois-ci quand un mineur trouve un bloc, ce dernier garde **100 % de la récompense**. On peut également préciser que même lorsqu'on choisit le solomining, 2 approches sont possibles:
 
- **La première** consiste à déléguer à un tiers la responsabilité de connecter notre machine de minage au réseau Bitcoin en mettant à notre disposition un noeud Bitcoin, et le logiciel qui sert à contruire le block template sur lequel va travailler notre machine. Ce tiers prélèvera la plupart du temps des frais pour le service rendu, et est une source de confiance avec des risques de censure ou pourquoi pas de malhonnêteté (le manager de la "solopool" peut théoriquement tenter de tricher et s'auto attribuer la récompense de block si le miner n'est pas attentif.
+ **La première** consiste à déléguer à un tiers qu'on appellera "solopool", la responsabilité de connecter notre machine de minage au réseau Bitcoin en mettant à notre disposition un nœud Bitcoin, et le logiciel qui sert à construire le bloc template sur lequel va travailler notre machine. Ce tiers prélèvera la plupart du temps des frais pour le service rendu, et est une source de confiance avec des risques de censure ou pourquoi pas de malhonnêteté (le manager de la "solopool" peut théoriquement tenter de tricher et s'auto attribuer la récompense de bloc si le miner n'est pas attentif.
  
 
 ![Image](assets/fr/007.webp)
@@ -716,7 +716,7 @@ Synthèse:
 
 Ocean Mining est une des pool d'envergure (environ 25Eh/s au moment où sont écrit ces lignes) les plus récentes du paysage du mining. Lancée en novembre 2023 sous l'impulsion de [Luke Dashjr](https://x.com/LukeDashjr)  (une figure tumultueuse de l'écosystème bitcoin doublé d'un développeur talentueux, contributeur à Bitcoin Core et beaucoup d'autres projets) et financé notemment pas le célèbre [Jack Dorsey](https://x.com/jack) a pour objectif de redonner le pouvoir aux mineurs individuels.
 
-L'accent est ainsi mis sur la possibilité pour chaque mineur de construire son propre bloc en sélectionnant les transactions qui lui importent grâce au protocole DATUM, un dérivé de STRATUM V2. En synthèse les mineurs sont en contrôle, la pool ne sert qu'à répartir les récompense et calculer le travail fournit par chacun, mais ne choisit pas les transactions à inclure, augmentant ainsi la décentralisation et diminuant ale risque de censure.
+L'accent est ainsi mis sur la possibilité pour chaque mineur de construire son propre bloc en sélectionnant les transactions qui lui importent grâce au protocole DATUM, un dérivé de STRATUM V2. En synthèse les mineurs sont en contrôle, la pool ne sert qu'à répartir les récompense et calculer le travail fournit par chacun, mais ne choisit pas les transactions à inclure, augmentant ainsi la décentralisation et diminuant le risque de censure.
 
 ![Image](assets/fr/058.webp)
 
@@ -849,7 +849,14 @@ C'est ce qu'on fait lorsqu’on se connecte à une pool distante telles que cell
 
 ## 4.1 Pourquoi ? (Block Template / intermédiare etc...)
 
-En Solomining particulièrement, l'intérêt de dépendre de quelqu'un est quasiment nul.
+En Solomining particulièrement, l'intérêt de dépendre de quelqu'un est quasiment nul si ce n'est la facilité. Autant s'il s'agit de s'associer à d'autre mineur pour obtenir un revenu régulier, le passage par un tiers est quasi obligatoire. Autant lorsqu'il s'agit de miner seul, rien ne dit que ce tiers de confiance n'essaiera pas de vous subtiliser la récompense éventuelle en substituant son adresse à la votre....
+Rien ne dit non plus comme déjà évoqué plus haut, que l'entité manageant la pool à laquelle vous faites confiance, ne décidera pas de censurer les transactions des gens qu'elle n'aime pas ou qu'une autorité lui demande de bloquer. 
+
+Si vous êtes un Bitcoiner souverain adepte du solomining ce qui est le cas de la plupart d'entre vous qui lisez ces lignes, vous serez certainement ravis d'apprendre qu'aujourd'hui il est devenu très facile pour n'importe qui de miner sur sa propre solopool, auto hébergée sur un serveur Umbrel ou Start9 par exemple.
+
+L'autre bonne nouvelle c'est que même pour mineur en "pool mutualiste" de innovations permettent désormais aux mineurs indépendants de soumettre leurs propre block template. C'est à dire que chaque mineur de la pool sélectionne ces transactions indépendamment  et construit son block template. Ainsi le pouvoir de censure de la pool est quasiment réduit à néant.
+
+==Insérer les liens vers les tuto / cours existants==
 
 ## 4.2 Datum et Stratum V2
 ## 4.3 Public Pool & Bassin sur Umbrel / Start 9

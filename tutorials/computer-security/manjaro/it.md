@@ -9,7 +9,7 @@ Arch Linux è un sistema operativo molto diffuso in molti settori, grazie alla s
 
 ## Come iniziare con Manjaro
 
-Uno dei maggiori punti di forza di Manjaro è il suo **sistema di aggiornamento semplice ed efficiente**. Non c'è bisogno di gestire gli aggiornamneti manualmente: Manjaro se ne occupa per te! Un'icona nell'area di notifica (la posizione varia a seconda dell'edizione) ti avvisa quando è disponibile un aggiornamento. Tutto quello che dovi fare è seguire le istruzioni e il processo è veloce e senza sforzo.
+Uno dei maggiori punti di forza di Manjaro è il suo **sistema di aggiornamento semplice ed efficiente**. Non c'è bisogno di gestire gli aggiornamneti manualmente: Manjaro se ne occupa per te! Un'icona nell'area di notifica (la posizione varia a seconda dell'edizione) ti avvisa quando è disponibile un aggiornamento. Tutto quello che devi fare è seguire le istruzioni e il processo è veloce e senza sforzo.
 
 Manjaro offre anche un **vasto catalogo di applicazioni**. Poiché Manjaro è basato su Arch Linux, beneficia dell'accesso diretto ai suoi repository ufficiali, ricchi di una varietà di software, comprese le applicazioni proprietarie. Manjaro ritarda leggermente alcuni aggiornamenti di Arch Linux per ulteriori test; questo migliora la stabilità al costo di un leggero ritardo nelle nuove versioni. E se questa scelta non ti basta, puoi anche accedere all'**AUR (*Arch User Repository*)**, un'enorme libreria gestita dalla comunità. Se un programma non esiste nei repository ufficiali, è probabile che sia disponibile in AUR.
 

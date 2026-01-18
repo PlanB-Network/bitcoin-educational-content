@@ -119,7 +119,7 @@ _Schermata di abbonamento a Orion+ nelle preferenze, che offre un abbonamento op
 - comunicare direttamente con il team di sviluppo
 - influenzare l'evoluzione del browser in base alle proprie esigenze
 - accesso alle versioni Nightly con le ultime funzionalità sperimentali
-- usufruite dell'ultimo motore WebKit
+- usufruire dell'ultimo motore WebKit
 - ottenere un badge distintivo sul forum di feedback
 
 Orion+ garantisce l'indipendenza del progetto: "Il tuo contributo finanziario ci aiuta a rimanere indipendenti e a mantenere la promessa di diventare il miglior browser per i nostri utenti". È questo modello di finanziamento degli utenti che mantiene Orion privo di pubblicità e di telemetria.

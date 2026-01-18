@@ -1077,7 +1077,7 @@ nmap -sC 10.10.10.152
 
 Ricordate che per impostazione predefinita, se non si specifica nulla, Nmap scansiona solo le 1000 porte più comuni. Non rileverà le vulnerabilità sulle porte più esotiche che gli obiettivi potrebbero esporre.
 
-Prima di utilizzare questa funzionalità in un sistema informativo di produzione, vi invito a continuare a leggere il tutorial. Nelle sezioni successive, vedremo come controllare meglio l'impatto e i tipi di test che verranno eseguiti.
+Prima di utilizzare questa funzionalità in un sistema informativo di produzione, ti invito a continuare a leggere il tutorial. Nelle sezioni successive, vedremo come controllare meglio l'impatto e i tipi di test che verranno eseguiti.
 
 Riutilizzando ciò che abbiamo imparato in precedenza, possiamo, ad esempio, essere più completi e scansionare tutte le porte TCP di un obiettivo:
 

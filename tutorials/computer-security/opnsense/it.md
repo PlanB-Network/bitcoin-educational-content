@@ -281,6 +281,6 @@ La macchina LAN può accedere a Internet, utilizzando HTTP e HTTPS. Tutti gli al
 
 ## IV. Conclusione
 
-Seguendo questa guida, potrete installare OPNsense e inizia subito a lavorare. OPNsense offre un'ampia gamma di funzioni per proteggere e gestire in modo efficiente il traffico di rete ed è adatto all'uso in ambienti professionali.
+Seguendo questa guida, potrai installare OPNsense e inizia subito a lavorare. OPNsense offre un'ampia gamma di funzioni per proteggere e gestire in modo efficiente il traffico di rete ed è adatto all'uso in ambienti professionali.
 
 Questa installazione è solo l'inizio: sentiti libero di esplorare i menu e di configurare altre funzioni per adattare OPNsense alle tue esigenze.

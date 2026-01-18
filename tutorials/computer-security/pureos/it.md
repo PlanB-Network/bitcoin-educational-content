@@ -99,7 +99,7 @@ Per il partizionamento dell'hard disk sono disponibili due opzioni:
 
 ![0_15](assets/fr/15.webp)
 
-Attiva la **crittografia del disco** se si desidera proteggere i dati. Inserisci una password forte e complessa.
+Attiva la **crittografia del disco** se desideri proteggere i dati. Inserisci una password forte e complessa.
 
 Associa un utente al sistema operativo definendo un nome utente e una password alfanumerica di almeno 20 caratteri per rafforzare la sicurezza dei dati.
 

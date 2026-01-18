@@ -31,7 +31,7 @@ Le statistiche ufficiali rivelano la portata del progetto: con oltre 4,4 milioni
 
 ## Caratteristiche principali
 
-### Interfacci e esperienza utente
+### Interfaccia e esperienza utente
 
 **Android puro**: LineageOS offre un'autentica esperienza Android vicina ad AOSP, senza sovrapposizioni di produttori o applicazioni superflue. Il Interface rimane familiare agli utenti Android e offre una fluidità ottimale grazie all'assenza di bloatware.
 

@@ -712,7 +712,7 @@ Come avrete notato, per impostazione predefinita Nmap **esegue una scansione del
 
 Tuttavia, è possibile utilizzare le opzioni di Nmap per eseguire **solo una scoperta degli host attivi** su una rete, senza scoprire i loro servizi.
 
-Se si vuole solo sapere quali host sono raggiungibili, senza alcuna informazione sui servizi e sulle porte che espongono, si può usare l'opzione "-sn" per eseguire **solo una scansione utilizzando richieste ICMP Echo (ping) e ARP**. In altre parole, disabilitare del tutto la scansione delle porte:
+Se vuoi solo sapere quali host sono raggiungibili, senza alcuna informazione sui servizi e sulle porte che espongono, puoi usare l'opzione "-sn" per eseguire **solo una scansione utilizzando richieste ICMP Echo (ping) e ARP**. In altre parole, disabilitare del tutto la scansione delle porte:
 
 ```
 # Scan a CIDR in Echo ICMP

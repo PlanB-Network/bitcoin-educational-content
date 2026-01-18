@@ -65,7 +65,7 @@ Scegli quindi la chiave USB come dispositivo di avvio per avviare il processo di
 
 La prima volta che avvii Manjaro dalla chiavetta USB, vieni portato direttamente al menu di installazione. Prima di avviare l'installazione, è possibile cambiare il layout della tastiera o la lingua del sistema.
 
-Seleziona quindi l'opzione **Boot with open source drivers** per avviare l'installazione di Manjaro. Questi driver open source sono compatibili con la maggior parte dell'hardware e sono sufficienti nella maggior parte dei casi. Se si dispone di una scheda grafica NVIDIA, ad esempio, o si richiedono prestazioni grafiche superiori, è possibile scegliere **Boot with proprietary drivers**, che utilizza driver proprietari.
+Seleziona quindi l'opzione **Boot with open source drivers** per avviare l'installazione di Manjaro. Questi driver open source sono compatibili con la maggior parte dell'hardware e sono sufficienti nella maggior parte dei casi. Se disponi di una scheda grafica NVIDIA, ad esempio, o richiedi prestazioni grafiche superiori, è possibile scegliere **Boot with proprietary drivers**, che utilizza driver proprietari.
 
 ![0_04](assets/fr/04.webp)
 

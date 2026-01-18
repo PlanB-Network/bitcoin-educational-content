@@ -1681,7 +1681,7 @@ Per impostazione predefinita, Nmap utilizza la parallelizzazione nelle sue scans
 - `--min-parallelismo/max-parallelismo <numprobes>`: parallelizzazione delle indagini.
 - `--scan-delay/--max-scan-delay <time>`: regola il ritardo tra le indagini.
 
-Sappiate che esistono e che possono essere utilizzati.
+Sappi che esistono e che possono essere utilizzati.
 
 #### B. Gestione del numero di pacchetti al secondo
 

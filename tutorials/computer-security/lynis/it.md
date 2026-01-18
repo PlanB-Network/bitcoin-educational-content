@@ -249,7 +249,7 @@ Sei arrivato alla fine dell'analisi... Quest'ultimo punto dimostra che avrai tut
 
 Dopo la verifica, è il momento di leggere e analizzare le raccomandazioni. Qui si trovano le raccomandazioni e le spiegazioni per ciascuno dei test effettuati da Lynis.
 
-Prendi ad esempio le raccomandazioni per SSH. **Per ogni suggerimento, troverete il parametro consigliato e un link che spiegherà il punto di sicurezza ** Sta a voi decidere, a seconda del contesto e dell'utilizzo.
+Prendi ad esempio le raccomandazioni per SSH. **Per ogni suggerimento, troverai il parametro consigliato e un link che spiegherà il punto di sicurezza ** Sta a te decidere, a seconda del contesto e dell'utilizzo.
 
 Vediamo alcuni esempi di raccomandazioni che riprendono direttamente i punti evidenziati nell'audit...
 

@@ -183,7 +183,7 @@ pfctl -d
 
 ![Image](assets/fr/034.webp)
 
-Attendi qualche secondo... Verrà richiesto di seguire una procedura guidata per eseguire la configurazione di base. Fare clic su "**Avanti**" per continuare.
+Attendi qualche secondo... Verrà richiesto di seguire una procedura guidata per eseguire la configurazione di base. Fai clic su "**Avanti**" per continuare.
 
 ![Image](assets/fr/036.webp)
 

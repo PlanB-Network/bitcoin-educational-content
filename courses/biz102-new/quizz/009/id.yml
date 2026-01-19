@@ -1,0 +1,9 @@
+question: Protokol Layer kedua mana yang memungkinkan pembayaran nyaris instan?
+answer: Lightning Network
+wrong_answers:
+  - Rantai samping
+  - RGB
+  - Inti Bitcoin
+explanation: |
+  Lightning Network memungkinkan transaksi yang cepat dan berbiaya rendah melalui operasi off-chain di luar Bitcoin Blockchain.
+reviewed: false

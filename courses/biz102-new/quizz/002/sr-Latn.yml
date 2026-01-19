@@ -1,0 +1,9 @@
+question: Šta znači nepromenljivost Bitcoin Blockchain?
+answer: Ne može se promeniti tokom vremena
+wrong_answers:
+  - Ne može biti hakovano
+  - Ne može se kopirati
+  - Ne može se izbrisati
+explanation: |
+  Neizmenljivost Bitcoin Blockchain znači da kada je transakcija zabeležena, ne može biti promenjena ili izbrisana. Ovo osigurava integritet i pouzdanost Blockchain.
+reviewed: false

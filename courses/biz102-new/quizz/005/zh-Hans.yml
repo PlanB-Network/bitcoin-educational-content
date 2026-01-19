@@ -1,0 +1,9 @@
+question: 分层方法为 Bitcoin 带来了哪些主要优势？
+answer: 维护基础协议的安全
+wrong_answers:
+  - 主网络日益集中化
+  - 基础协议的快速创新
+  - 各层具有与基本协议相同的功能
+explanation: |
+  分层方法允许在不影响基本协议的安全性和简易性的情况下增加功能。
+reviewed: false

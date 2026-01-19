@@ -1,0 +1,9 @@
+question: Which major player designs ASICs for Bitcoin mining?
+answer: Bitmain
+wrong_answers:
+  - Trezor
+  - Ledger
+  - Foundry USA
+explanation: |
+  Bitmain is one of the leading manufacturers of specialized hardware for Bitcoin mining.
+reviewed: false

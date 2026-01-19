@@ -1,0 +1,9 @@
+question: Jaki mechanizm RGB zapewnia odporność na podwójne wydatki?
+answer: Single-Use Seal
+wrong_answers:
+  - Wielofunkcyjny Seal
+  - Podwójny podpis
+  - Proof-of-Stake
+explanation: |
+  Single-Use Seal wykorzystuje fakt, że UTXO można wydać tylko raz, zapewniając odporność na podwójne wydatki w ramach inteligentnych kontraktów RGB.
+reviewed: false

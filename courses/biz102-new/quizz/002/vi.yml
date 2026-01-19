@@ -1,0 +1,9 @@
+question: Có bao nhiêu người bảo trì Bitcoin Core vào năm 2025?
+answer: 5
+wrong_answers:
+  - 7
+  - 12
+  - 23
+explanation: |
+  Năm 2025, có năm người bảo trì: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao và Ryan Ofsky.
+reviewed: false

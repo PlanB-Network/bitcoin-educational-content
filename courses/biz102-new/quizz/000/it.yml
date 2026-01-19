@@ -1,0 +1,9 @@
+question: Quale caratteristica distingue principalmente Bitcoin dalle altcoin?
+answer: Decentralizzazione
+wrong_answers:
+  - Liquidità
+  - Reputazione
+  - Privacy
+explanation: |
+  Bitcoin è rinomato per la sua decentralizzazione, a differenza della maggior parte delle altcoin, che sono più o meno centralizzate.
+reviewed: true

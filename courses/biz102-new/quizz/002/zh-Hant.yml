@@ -1,0 +1,9 @@
+question: 2025 年 Bitcoin Core 上有多少維護人員？
+answer: 5
+wrong_answers:
+  - 7
+  - 12
+  - 23
+explanation: |
+  2025 年有五位維護員：Hennadii Stepanov、Michael Ford、Ava Chow、Gloria Zhao 和 Ryan Ofsky。
+reviewed: false

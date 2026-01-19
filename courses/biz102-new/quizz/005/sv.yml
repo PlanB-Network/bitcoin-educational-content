@@ -1,0 +1,9 @@
+question: Vilken stor fördel erbjuder det skiktade tillvägagångssättet för Bitcoin?
+answer: Upprätthållande av säkerheten för basprotokollet
+wrong_answers:
+  - Ökad centralisering av huvudnätet
+  - Snabb innovation på basprotokollet
+  - Har samma funktioner på lagren som på basprotokollet
+explanation: |
+  Den skiktade metoden gör det möjligt att lägga till funktioner utan att äventyra säkerheten och enkelheten i grundprotokollet.
+reviewed: false

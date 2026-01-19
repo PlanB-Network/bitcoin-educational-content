@@ -1,0 +1,29 @@
+id: 8b2e6f3a-1c4d-5e7f-9a0b-2c3d4e5f6a7b
+topic: business
+subtopic: bitcoin-industry
+type: theory
+level: beginner
+hours: 2
+teaching_format: self_paced
+
+professors_id:
+  - 2e1b5182-567e-453a-af29-36009340ff02
+
+contributor_names:
+  - Plan B Network
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0
+
+tags:
+  - bitcoin
+  - industry
+  - exchanges
+  - mining
+  - lightning-network
+  - business

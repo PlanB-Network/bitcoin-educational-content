@@ -1,0 +1,9 @@
+question: 分層方式為 Bitcoin 提供了什麼主要優勢？
+answer: 維持基本通訊協定的安全性
+wrong_answers:
+  - 主網路日益集中化
+  - 基礎通訊協定的快速創新
+  - 在圖層上具有與基本通訊協定相同的功能
+explanation: |
+  分層方式可在不影響基本通訊協定的安全性和簡易性的情況下增加功能。
+reviewed: false

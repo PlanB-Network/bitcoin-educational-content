@@ -1,0 +1,9 @@
+question: Jaký mechanismus RGB zajišťuje odolnost proti dvojímu vynakládání prostředků?
+answer: Single-Use Seal
+wrong_answers:
+  - Víceúčelové použití Seal
+  - Dvojí podpis
+  - Proof-of-Stake
+explanation: |
+  Single-Use Seal využívá skutečnosti, že UTXO lze utratit pouze jednou, což zajišťuje odolnost proti dvojímu utrácení v rámci inteligentních smluv RGB.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Který protokol druhého Layer umožňuje téměř okamžité platby?
+answer: Lightning Network
+wrong_answers:
+  - Postranní řetězce
+  - RGB
+  - Jádro Bitcoin
+explanation: |
+  Lightning Network umožňuje rychlé a levné transakce prostřednictvím operací off-chain mimo Bitcoin Blockchain.
+reviewed: false

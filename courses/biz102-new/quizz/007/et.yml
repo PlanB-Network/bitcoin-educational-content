@@ -1,0 +1,9 @@
+question: Milline RGB mehhanism tagab vastupanu topeltkulutustele?
+answer: Single-Use Seal
+wrong_answers:
+  - Mitmeotstarbeline Seal
+  - Topeltallkirjaga
+  - Proof-of-Stake
+explanation: |
+  Single-Use Seal kasutab ära asjaolu, et UTXO saab kulutada ainult üks kord, tagades RGB arukate lepingute raames vastupidavuse topeltkulutamisele.
+reviewed: false

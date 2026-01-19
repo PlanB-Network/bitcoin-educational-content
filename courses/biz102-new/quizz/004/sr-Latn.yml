@@ -1,0 +1,9 @@
+question: Kakva je važnost oskudice Bitcoin?
+answer: U svetu će biti samo 21 milion bitkoina i nikada više
+wrong_answers:
+  - Vrednost Bitcoin će uvek rasti
+  - Bitcoin je teško iskopati
+  - Transakcije Bitcoin su ograničene po broju
+explanation: |
+  Osnovna karakteristika Bitcoin je njegova ograničena količina, jer će ikada postojati samo 21 milion bitkoina. Ova karakteristika, slična zlatu, sprečava razvodnjavanje vrednosti Bitcoin kroz prekomerno štampanje novca.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hvor mange vedlikeholdere er det på Bitcoin Core i 2025?
+answer: 5
+wrong_answers:
+  - 7
+  - 12
+  - 23
+explanation: |
+  I 2025 er det fem vedlikeholdere: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao og Ryan Ofsky.
+reviewed: false

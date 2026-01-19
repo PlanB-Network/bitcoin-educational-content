@@ -1,0 +1,9 @@
+question: Welk groot voordeel biedt de gelaagde aanpak voor Bitcoin?
+answer: De veiligheid van het basisprotocol handhaven
+wrong_answers:
+  - Toenemende centralisatie van het hoofdnetwerk
+  - Snelle innovatie op het basisprotocol
+  - De lagen hebben dezelfde functies als het basisprotocol
+explanation: |
+  De gelaagde aanpak maakt het mogelijk om functionaliteiten toe te voegen zonder afbreuk te doen aan de veiligheid en eenvoud van het basisprotocol.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Berapa banyak pengelola yang ada di Bitcoin Core pada tahun 2025?
+answer: 5
+wrong_answers:
+  - 7
+  - 12
+  - 23
+explanation: |
+  Pada tahun 2025, ada lima pengelola: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao, dan Ryan Ofsky.
+reviewed: false

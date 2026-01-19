@@ -1,0 +1,9 @@
+question: Milline teise Layer protokoll võimaldab peaaegu koheseid makseid?
+answer: Lightning Network
+wrong_answers:
+  - Sidechains
+  - RGB
+  - Bitcoin tuum
+explanation: |
+  Lightning Network võimaldab kiireid ja odavaid tehinguid off-chain operatsioonide kaudu väljaspool Bitcoin Blockchain.
+reviewed: false

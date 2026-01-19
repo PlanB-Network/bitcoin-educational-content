@@ -1,0 +1,9 @@
+question: ¿Cuáles son las cadenas laterales de Bitcoin?
+answer: Liquid y portainjertos
+wrong_answers:
+  - Polígono y Arbitrio
+  - Júpiter y Fantom
+  - Bitcoin Cash y Bitcoin Satoshi Vision
+explanation: |
+  Liquid y RSK son cadenas laterales que tienen una clavija de 2 vías con Bitcoin. Las otras opciones no son sidechains, o no tienen un 2WP con el Bitcoin Blockchain.
+reviewed: false

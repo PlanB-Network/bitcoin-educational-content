@@ -1,0 +1,9 @@
+question: Mitu hooldajat on Bitcoin Core'il 2025. aastal?
+answer: 5
+wrong_answers:
+  - 7
+  - 12
+  - 23
+explanation: |
+  Aastal 2025 on viis hooldajat: Hennadii Stepanov, Michael Ford, Ava Chow, Gloria Zhao ja Ryan Ofsky.
+reviewed: false

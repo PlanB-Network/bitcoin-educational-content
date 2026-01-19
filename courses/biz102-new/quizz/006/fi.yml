@@ -1,0 +1,9 @@
+question: Mitkä niistä ovat Bitcoin-sivuketjuja?
+answer: Liquid ja perusrunko
+wrong_answers:
+  - Polygon ja Arbitrum
+  - Jupiter ja Fantom
+  - Bitcoin Käteinen ja Bitcoin Satoshi Visio
+explanation: |
+  Liquid ja RSK ovat sivuketjuja, joilla on kaksisuuntainen kytkentä Bitcoin:n kanssa. Muut vaihtoehdot eivät ole sivuketjuja tai niissä ei ole 2WP:tä Bitcoin Blockchain:n kanssa.
+reviewed: false

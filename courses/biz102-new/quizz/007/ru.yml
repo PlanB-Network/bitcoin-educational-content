@@ -1,0 +1,9 @@
+question: Какой механизм RGB обеспечивает устойчивость к двойным тратам?
+answer: Single-Use Seal
+wrong_answers:
+  - Многоцелевой Seal
+  - Двойная подпись
+  - Proof-of-Stake
+explanation: |
+  Single-Use Seal использует тот факт, что UTXO может быть потрачен только один раз, что обеспечивает устойчивость к двойным тратам в смарт-контрактах RGB.
+reviewed: false

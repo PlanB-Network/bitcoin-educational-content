@@ -1,0 +1,9 @@
+question: 什么 RGB 机制能确保抵制双重支出？
+answer: Single-Use Seal
+wrong_answers:
+  - 多用途 Seal
+  - 双签名
+  - 取证
+explanation: |
+  Single-Use Seal 利用了 UTXO 只能使用一次这一事实，确保 RGB 智能合约不会出现重复消费。
+reviewed: false

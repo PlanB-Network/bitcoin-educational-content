@@ -1,0 +1,9 @@
+question: Qual é a principal caraterística que distingue o Bitcoin das altcoins?
+answer: Descentralização
+wrong_answers:
+  - Liquidez
+  - Reputação
+  - Privacidade
+explanation: |
+  O Bitcoin é conhecido por sua descentralização, ao contrário da maioria das altcoins que são mais ou menos centralizadas.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mikä merkittävä toimija suunnittelee ASIC-ohjaimia Bitcoin Mining:tä varten?
+answer: Bitmain
+wrong_answers:
+  - Trezor
+  - Ledger
+  - Foundry USA
+explanation: |
+  Bitmain on yksi johtavista Bitcoin Mining:n erikoislaitteistojen valmistajista.
+reviewed: false

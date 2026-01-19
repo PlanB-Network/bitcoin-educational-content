@@ -1,0 +1,9 @@
+question: ¿Qué gran empresa diseña ASIC para Bitcoin Mining?
+answer: Bitmain
+wrong_answers:
+  - Trezor
+  - Ledger
+  - Fundición EE.UU
+explanation: |
+  Bitmain es uno de los principales fabricantes de hardware especializado para Bitcoin Mining.
+reviewed: false

@@ -1,0 +1,9 @@
+question: What must users store themselves to truly own their bitcoins?
+answer: Private keys
+wrong_answers:
+  - Receiving addresses
+  - Exchange platform passwords
+  - Blockchain blocks
+explanation: |
+  Without holding your private keys, you do not truly own your bitcoins.
+reviewed: false

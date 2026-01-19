@@ -1,0 +1,9 @@
+question: Mekanisme RGB apa yang memastikan ketahanan terhadap pengeluaran ganda?
+answer: Single-Use Seal
+wrong_answers:
+  - Seal multi guna
+  - Tanda tangan ganda
+  - Bukti Kepemilikan
+explanation: |
+  Single-Use Seal memanfaatkan fakta bahwa UTXO hanya dapat dibelanjakan satu kali, memastikan resistensi terhadap pembelanjaan ganda dalam kontrak pintar RGB.
+reviewed: false

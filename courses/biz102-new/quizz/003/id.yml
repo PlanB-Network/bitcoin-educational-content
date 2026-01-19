@@ -1,0 +1,9 @@
+question: Platform mana yang direkomendasikan untuk menghindari KYC saat membeli bitcoin?
+answer: Platform Exchange peer-to-peer
+wrong_answers:
+  - Platform Exchange untuk keperluan umum
+  - Platform Bitcoin khusus Exchange
+  - Platform Exchange yang berfokus pada perdagangan
+explanation: |
+  Platform P2P memungkinkan pengguna untuk membeli bitcoin secara langsung dari satu sama lain tanpa memerlukan KYC.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Apa yang harus disimpan sendiri oleh pengguna untuk benar-benar memiliki bitcoin mereka?
+answer: Kunci pribadi
+wrong_answers:
+  - Alamat penerima
+  - Kata sandi platform Exchange
+  - Blok Blockchain
+explanation: |
+  Tanpa memegang kunci pribadi Anda, Anda tidak benar-benar memiliki bitcoin Anda.
+reviewed: false

@@ -1,0 +1,9 @@
+question: کدام بازیگر اصلی برای Bitcoin Mining ASIC طراحی می‌کند؟
+answer: بیت‌مین
+wrong_answers:
+  - ترزور
+  - Ledger
+  - فاندری ایالات متحده آمریکا
+explanation: |
+  بیت‌مین یکی از تولیدکنندگان پیشرو سخت‌افزارهای تخصصی برای Bitcoin Mining است.
+reviewed: false

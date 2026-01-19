@@ -1,0 +1,9 @@
+question: Mitä käyttäjien on tallennettava itse, jotta he todella omistaisivat bitcoininsa?
+answer: Yksityiset avaimet
+wrong_answers:
+  - Vastaanottavat osoitteet
+  - Exchange-alustan salasanat
+  - Blockchain-lohkot
+explanation: |
+  Ilman yksityisten avainten hallussapitoa et todellakaan omista bitcoinejasi.
+reviewed: false

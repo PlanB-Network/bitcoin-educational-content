@@ -1,0 +1,9 @@
+question: کدام‌ها زنجیره‌های جانبی Bitcoin هستند؟
+answer: Liquid و Rootstock
+wrong_answers:
+  - پالیگان و آربیتروم
+  - مشتری و فانتوم
+  - Bitcoin Cash و Bitcoin Satoshi Vision
+explanation: |
+  Liquid و RSK زنجیره‌های جانبی هستند که با Bitcoin یک پیوند دوطرفه دارند. گزینه‌های دیگر زنجیره‌های جانبی نیستند یا پیوند دوطرفه‌ای با Bitcoin Blockchain ندارند.
+reviewed: false

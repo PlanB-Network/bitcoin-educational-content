@@ -1,0 +1,9 @@
+question: Quale protocollo di Layer2 consente pagamenti quasi istantanei?
+answer: Lightning Network
+wrong_answers:
+  - Side chain
+  - RGB
+  - Bitcoin Core
+explanation: |
+  Lightning Network consente transazioni rapide e a basso costo, attraverso operazioni off-chain che avvengono al di fuori della blockchain dil Bitcoin.
+reviewed: true

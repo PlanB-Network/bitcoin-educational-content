@@ -1,0 +1,9 @@
+question: 거의 즉각적인 결제를 가능하게 하는 두 번째 Layer 프로토콜은 무엇인가요?
+answer: Lightning Network
+wrong_answers:
+  - 사이드체인
+  - RGB
+  - Bitcoin core
+explanation: |
+  Lightning Network는 Bitcoin Blockchain 외부에서 off-chain 작업을 통해 빠르고 저렴한 비용으로 거래를 가능하게 합니다.
+reviewed: false

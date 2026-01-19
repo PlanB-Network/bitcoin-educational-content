@@ -1,0 +1,9 @@
+question: Welches grosse Unternehmen entwickelt ASICs für Bitcoin Mining?
+answer: Bitmain
+wrong_answers:
+  - Trezor
+  - Ledger
+  - Foundry USA
+explanation: |
+  Bitmain ist einer der führenden Hersteller von Spezialhardware für Bitcoin Mining.
+reviewed: false

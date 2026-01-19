@@ -1,0 +1,9 @@
+question: Keitä ovat Lightning Network:n keksijät?
+answer: Thaddeus Dryja ja Joseph Poon
+wrong_answers:
+  - Andreas Antonopoulos ja Adam Back
+  - Pieter Wuille ja Gregory Maxwell
+  - Satoshi Nakamoto ja Hal Finney
+explanation: |
+  Thaddeus Dryja ja Joseph Poon keksivät Lightning Network:n vuonna 2016 parantaakseen Bitcoin:n skaalautuvuutta.
+reviewed: false

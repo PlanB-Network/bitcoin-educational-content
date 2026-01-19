@@ -1,0 +1,9 @@
+question: 哪个主要公司为 Bitcoin Mining 设计 ASIC？
+answer: 比特大陆
+wrong_answers:
+  - 特雷佐
+  - Ledger
+  - 美国铸造厂
+explanation: |
+  Bitmain 是 Bitcoin Mining 专用硬件的主要制造商之一。
+reviewed: false

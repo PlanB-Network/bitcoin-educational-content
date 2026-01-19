@@ -1,0 +1,9 @@
+question: ライトニング・ネットワークの発明者は？
+answer: Thaddeus DryjaとJoseph Poon
+wrong_answers:
+  - Andreas AntonopoulosとAdam Back
+  - Pieter WuilleとGregory Maxwell
+  - Satoshi NakamotoとHal Finney
+explanation: |
+  Thaddeus DryjaとJoseph Poonは2016年、ビットコインのスケーラビリティを向上させるためにライトニング・ネットワークを発明した。
+reviewed: false

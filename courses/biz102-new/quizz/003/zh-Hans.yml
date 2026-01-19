@@ -1,0 +1,9 @@
+question: 购买比特币时，建议在哪些平台上避免 KYC？
+answer: 点对点 Exchange 平台
+wrong_answers:
+  - 通用 Exchange 平台
+  - 仅 Bitcoin 平台 Exchange 平台
+  - 以交易为重点的 Exchange 平台
+explanation: |
+  P2P 平台允许用户直接相互购买比特币，而不需要 KYC。
+reviewed: false

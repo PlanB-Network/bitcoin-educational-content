@@ -1,0 +1,9 @@
+question: Hvilke er Bitcoin sidekjeder?
+answer: Liquid og rotstamme
+wrong_answers:
+  - Polygon og Arbitrum
+  - Jupiter og Fantomet
+  - Bitcoin Cash og Bitcoin Satoshi Vision
+explanation: |
+  Liquid og RSK er sidekjeder som har en 2-veis peg med Bitcoin. De andre alternativene er ikke sidekjeder, eller har ikke en 2WP med Bitcoin Blockchain.
+reviewed: false

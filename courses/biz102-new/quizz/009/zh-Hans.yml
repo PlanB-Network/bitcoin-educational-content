@@ -1,0 +1,9 @@
+question: 哪种第二 Layer 协议可实现近乎即时的支付？
+answer: Lightning Network
+wrong_answers:
+  - 侧链
+  - RGB
+  - Bitcoin 核心
+explanation: |
+  Lightning Network 可在 Bitcoin Blockchain 以外通过 off-chain 操作实现快速、低成本的交易。
+reviewed: false

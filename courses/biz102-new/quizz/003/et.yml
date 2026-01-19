@@ -1,0 +1,9 @@
+question: Milliseid platvorme soovitatakse bitcoinide ostmisel KYC-i vältimiseks?
+answer: Peer-to-peer Exchange platvormid
+wrong_answers:
+  - Üldotstarbelised Exchange platvormid
+  - Ainult Bitcoin Exchange platvormid
+  - Kaubandusele suunatud Exchange platvormid
+explanation: |
+  P2P platvormid võimaldavad kasutajatel osta bitcoine otse üksteiselt ilma KYC-i nõudmata.
+reviewed: false

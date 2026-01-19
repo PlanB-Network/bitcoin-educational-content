@@ -1,0 +1,9 @@
+question: 谁是 Lightning Network 的发明者？
+answer: Thaddeus Dryja 和 Joseph Poon
+wrong_answers:
+  - 安德烈亚斯-安东纳普洛斯和亚当-巴克
+  - 彼得-乌耶和格雷戈里-马克斯韦尔
+  - Satoshi 中本聪和哈尔-芬尼
+explanation: |
+  Thaddeus Dryja 和 Joseph Poon 于 2016 年发明了 Lightning Network，以提高 Bitcoin 的可扩展性。
+reviewed: false

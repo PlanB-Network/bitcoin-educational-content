@@ -1,0 +1,9 @@
+question: Apa keuntungan utama yang ditawarkan oleh pendekatan berlapis untuk Bitcoin?
+answer: Menjaga keamanan protokol dasar
+wrong_answers:
+  - Meningkatkan sentralisasi jaringan utama
+  - Inovasi cepat pada protokol dasar
+  - Memiliki fitur yang sama pada lapisan seperti pada protokol dasar
+explanation: |
+  Pendekatan berlapis memungkinkan penambahan fungsi tanpa mengorbankan keamanan dan kesederhanaan protokol dasar.
+reviewed: false

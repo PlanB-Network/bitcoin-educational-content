@@ -1,0 +1,9 @@
+question: ビットコイン・マイニング用のASICを設計している主要プレーヤーは？
+answer: Bitmain
+wrong_answers:
+  - Trezor
+  - Ledger
+  - Foundry USA
+explanation: |
+  Bitmain社は、ビットコイン・マイニングに特化したハードウェアの主要メーカーの一つである。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Pemain utama mana yang mendesain ASIC untuk Bitcoin Mining?
+answer: Bitmain
+wrong_answers:
+  - Trezor
+  - Ledger
+  - Pengecoran AS
+explanation: |
+  Bitmain adalah salah satu produsen perangkat keras khusus terkemuka untuk Bitcoin Mining.
+reviewed: false

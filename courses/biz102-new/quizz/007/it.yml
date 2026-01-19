@@ -1,0 +1,9 @@
+question: Quale meccanismo di RGB previene la doppia spesa?
+answer: Single-Use Seal
+wrong_answers:
+  - Multi-use Seal
+  - Doppia firma
+  - Proof-of-Stake
+explanation: |
+  Il Single-Use Seal sfrutta il fatto che un UTXO può essere speso una sola volta, prevenendo la doppia spesa all'interno degli smart contract su RGB.
+reviewed: true

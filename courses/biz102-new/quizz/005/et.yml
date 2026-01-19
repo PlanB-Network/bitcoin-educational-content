@@ -1,0 +1,9 @@
+question: Millist suurt eelist pakub Bitcoin jaoks mitmekihiline lähenemisviis?
+answer: Baasprotokolli turvalisuse säilitamine
+wrong_answers:
+  - Põhivõrgu suurenev tsentraliseerimine
+  - Kiire innovatsioon põhiprotokollis
+  - Kihtidel on samad omadused kui alusprotokollis
+explanation: |
+  Mitmekihiline lähenemisviis võimaldab lisada funktsioone, ilma et see kahjustaks põhiprotokolli turvalisust ja lihtsust.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hvilken stor aktør designer ASIC-er for Bitcoin Mining?
+answer: Bitmain
+wrong_answers:
+  - Trezor
+  - Ledger
+  - Støperi USA
+explanation: |
+  Bitmain er en av de ledende produsentene av spesialisert maskinvare for Bitcoin Mining.
+reviewed: false

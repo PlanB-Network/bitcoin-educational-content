@@ -1,0 +1,9 @@
+question: Hangi ikinci katman (Layer) protokolü neredeyse anında ödeme yapılmasını sağlar?
+answer: Lightning Network (Ağı)
+wrong_answers:
+  - Yan Zincirler
+  - RGB
+  - Bitcoin Core
+explanation: |
+  Lightning Network, off-chain (zincir dışı, yani bitcoin blok zincir dışı) işlemleri aracılığıyla hızlı ve düşük maliyetli işlemlere olanak sağlar.
+reviewed: false

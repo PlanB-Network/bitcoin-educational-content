@@ -1,0 +1,9 @@
+question: ¿Qué mecanismo de RGB garantiza la resistencia al doble gasto?
+answer: Single-Use Seal
+wrong_answers:
+  - Multiusos Seal
+  - Doble firma
+  - Prueba de consumo
+explanation: |
+  El Single-Use Seal aprovecha el hecho de que un UTXO sólo puede gastarse una vez, asegurando la resistencia al doble gasto dentro de los contratos inteligentes RGB.
+reviewed: false

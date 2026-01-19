@@ -1,0 +1,9 @@
+question: Mitä etuja kerroksittainen lähestymistapa tarjoaa Bitcoin:lle?
+answer: Perusprotokollan turvallisuuden ylläpitäminen
+wrong_answers:
+  - Pääverkon lisääntyvä keskittäminen
+  - Nopea innovointi perusprotokollaan
+  - Kerroksissa on samat ominaisuudet kuin peruspöytäkirjassa
+explanation: |
+  Kerroksittainen lähestymistapa mahdollistaa toimintojen lisäämisen tinkimättä perusprotokollan turvallisuudesta ja yksinkertaisuudesta.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hvilken stor fordel gir den lagdelte tilnærmingen for Bitcoin?
+answer: Opprettholde sikkerheten til basisprotokollen
+wrong_answers:
+  - Økende sentralisering av hovednettverket
+  - Rask innovasjon på basisprotokollen
+  - Har de samme funksjonene på lagene som på basisprotokollen
+explanation: |
+  Den lagdelte tilnærmingen gjør det mulig å legge til funksjonalitet uten at det går på bekostning av sikkerheten og enkelheten i basisprotokollen.
+reviewed: false

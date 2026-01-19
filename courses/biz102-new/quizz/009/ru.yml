@@ -1,0 +1,9 @@
+question: Какой протокол второго поколения Layer позволяет осуществлять платежи практически мгновенно?
+answer: Lightning Network
+wrong_answers:
+  - Сайдчейны
+  - RGB
+  - Bitcoin Core
+explanation: |
+  Lightning Network обеспечивает быстрые и недорогие транзакции с помощью операций off-chain за пределами Bitcoin Blockchain.
+reviewed: false

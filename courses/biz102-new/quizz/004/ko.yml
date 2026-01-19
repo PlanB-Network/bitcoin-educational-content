@@ -1,0 +1,9 @@
+question: Bitcoin Mining용 ASIC을 설계하는 주요 업체는 어디인가요?
+answer: Bitmain
+wrong_answers:
+  - Trezor
+  - Ledger
+  - 파운드리 미국
+explanation: |
+  Bitmain은 Bitcoin Mining용 특수 하드웨어를 제조하는 선도적인 업체 중 하나입니다.
+reviewed: false

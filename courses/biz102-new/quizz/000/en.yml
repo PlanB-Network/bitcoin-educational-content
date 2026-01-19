@@ -1,0 +1,9 @@
+question: What characteristic primarily distinguishes Bitcoin from altcoins?
+answer: Decentralization
+wrong_answers:
+  - Liquidity
+  - Reputation
+  - Privacy
+explanation: |
+  Bitcoin is renowned for its decentralization, unlike most altcoins which are more or less centralized.
+reviewed: false

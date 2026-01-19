@@ -269,24 +269,24 @@ Peter Thiel 于 1999 年 10 月 20 日，在加利福尼亚州奥克兰为独立
 这些系统的关闭与比特币的创建和早期日子是同时期的。因此，中本聪和比特币的早期用户对它们非常了解。至于中本聪，他[了解](https://www.metzdowd.com/pipermail/cryptography/2009-January/015041.html) e-gold 使用的模型，并在他的公开和私下干预中多次[提到](https://bitcointalk.org/index.php?topic=87.msg807#msg807) Pecunix 和 Liberty Reserve。
 正是由于集中式系统的脆弱性，自由的支持者们——特别是密码朋克们——寻求创建一种*去中心化*货币。有必要找到一种方式，避免将整个系统的基础设施放在单一点上。这就是为何在比特币被发现之前的 1990 年代末和 2000 年代初，出现了几种 “最小化信任” 的模型。下一章将专门介绍这些模型。
 
-## 在中本聪之前的去中心化模型
+## 中本聪之前的去中心化模型
 <chapterId>a104f23c-e9c3-4457-a194-d87cc5f35f13</chapterId>
 
 :::video id=67e5f851-5ff6-4876-a74d-c5f8130b555c:::
 
-比特币代表了一种去中心化的数字货币模型。通过这种方式，它避免了对可信第三方的需求，这将构成系统中的单点故障。正如eCash、数字黄金货币和自由储备金的例子所示，意图作为现有系统替代品的系统的中心化最终不可避免地导致其以某种方式关闭。
-然而，比特币并不是第一个被提出的去中心化货币概念。自1990年代末以来，这样的模型就已经被密码朋克们描述过，他们对互联网上个人的自由和隐私着迷，并且相信（像David Chaum一样）被监控的系统会导致一个反乌托邦的未来。他们[呼吁](https://cypherpunks.venona.com/date/1993/03/msg00392.html)“编写代码”，并认为“电子货币”是他们理想中的一个重要元素。（*原文：“密码朋克写代码。（...）我们用密码学、匿名邮件转发系统、数字签名和电子货币来保护我们的隐私。”*）
+比特币代表了一种去中心化的数字货币模型。通过这种方式，它避免了对可信第三方的需求，这将构成系统中的单点故障。正如 eCash、数字黄金货币和自由储备金的例子所示，意图作为现有系统替代品的系统的中心化最终不可避免地导致其以某种方式关闭。
+然而，比特币并不是第一个被提出的去中心化货币概念。自 1990 年代末以来，这样的模型就已经被密码朋克们描述过，他们对互联网上个人的自由和隐私着迷，并且相信（像 David Chaum 一样）被监控的系统会导致一个反乌托邦的未来。他们[提倡](https://cypherpunks.venona.com/date/1993/03/msg00392.html)“编写代码”，并认为“电子货币”是他们理想中的一个重要元素。（*原文：“密码朋克写代码。（...）我们用密码学、匿名邮件转发系统、数字签名和电子货币来保护我们的隐私。”*）
 
-在本章中，我们将研究比特币后来使用的各种基础技术元素的出现：分布式共识、时间戳和工作证明。然后，我们将分别讨论由密码朋克Wei Dai、Nick Szabo和Hal Finney设计的b-money、bit gold和RPOW。最后，我们将讨论Ripple的案例，其模型略有不同，但在比特币创建的历史中占有一席之地。
+在本章中，我们将研究比特币后来使用的各种基础技术元素的出现：分布式共识、时间戳和工作量证明。然后，我们将分别讨论由密码朋克 Wei Dai、Nick Szabo 和 Hal Finney 设计的 b-money、bit gold 和 RPOW（可重用工作量证明）。最后，我们将讨论 Ripple 的案例，其模型略有不同，但在比特币创建的历史中占有一席之地。
 
 ### 分布式共识
 
-随着1950年代计算机的出现，将它们相互连接的可能性出现了。这就是最初的计算机网络形成的方式，导致了1970年代“网络中的网络”即互联网的发展。这些网络的基础设施问题不可避免地出现了。这就是为什么波兰裔美国计算机科学家Paul Baran在他的1964年的基础性文章中（描述了分组交换）列出了三种类型的网络：依赖单一节点的集中式网络；每个点都是节点的分布式网络；依赖多个节点的分布式网络的去中心化（非分布式）网络。
+随着 1950 年代计算机的出现，将它们相互连接的可能性出现了。这就是最初的计算机网络形成的方式，导致了1970 年代 “网络中的网络” 即互联网的发展。这些网络的基础设施问题不可避免地出现了。这就是为什么波兰裔美国计算机科学家 Paul Baran 在他的 1964 年的基础性文章中（描述了分组交换）列出了三种类型的网络：依赖单一节点的集中式网络；每个点都是节点的分布式网络；依赖多个节点的分布式网络的去中心化（非分布式）网络。
 
 ![根据Paul Baran的定义，集中式、去中心化和分布式网络](assets/zh-Hans/012.webp)
 
-从这些考虑中可以衍生出两种纯粹的模型：客户端-服务器模型，其中中央服务器响应客户端的请求，以及对等网络模型，其中每个节点在系统中扮演相同的角色。后者模型在2000年代用于文件共享特别有用，随着BitTorrent和其他类似协议的创建。Tor网络是去中心化的，不是纯粹的对等网络。
-在分布式架构中遇到的一个问题是分布式共识的问题，通常被称为拜占庭将军问题，这个问题由Leslie Lamport、Robert Shostak和Marshall Pease在1982年发表的一篇[论文](https://lamport.azurewebsites.net/pubs/byz.pdf)中正式提出。这个问题涉及到点对点系统中传输可靠性和参与者完整性的挑战，并且适用于计算机系统的组件需要达成一致的情况。
+从这些考虑中可以衍生出两种纯粹的模型：客户端-服务器模型，其中中央服务器响应客户端的请求，以及对等网络模型，其中每个节点在系统中扮演相同的角色。后者模型在 2000 年代用于文件共享特别有用，随着 BitTorrent 和其他类似协议的创建。Tor 网络是去中心化的，不是纯粹的点对点网络。
+在分布式架构中遇到的一个问题是分布式共识的问题，通常被称为拜占庭将军问题，这个问题由 Leslie Lamport、Robert Shostak 和 Marshall Pease 在 1982 年发表的一篇[论文](https://lamport.azurewebsites.net/pubs/byz.pdf)中正式提出。这个问题涉及到点对点系统中传输可靠性和参与者真实性的挑战，并且适用于计算机系统的部分需要达成一致的情况。
 
 问题以一种隐喻的形式陈述，涉及拜占庭帝国军队的将军们，他们正围攻一个敌人城市，打算发动攻击，并且只能通过信使进行通信。目标是找到一种策略（即算法），能够管理叛徒的存在并确保所有忠诚的将军就战斗计划达成一致，以便攻击成功。以下是一个插图（来源：*L'Élégance de Bitcoin*）：
 
@@ -296,101 +296,103 @@ Peter Thiel 于 1999 年 10 月 20 日，在加利福尼亚州奥克兰为独立
 
 在比特币出现之前，这个问题是通过所谓的“经典”算法以绝对方式解决的，这些算法要求节点事先已知，并且其中三分之二必须是诚实的。其中最著名的大概是 [PBFT](https://css.csail.mit.edu/6.824/2014/papers/castro-practicalbft.pdf) 共识算法（*Practical Byzantine Fault Tolerance* 的首字母缩略词），它由 Miguel Castro 和 Barbara Liskov 于 1999 年开发，允许给定数量的参与者通过处理每秒数千个请求并在不到一毫秒的延迟内达成一致。
 
-通过比特币共识算法，中本聪以一种概率方式解决了它，允许去除某些约束，牺牲交易的严格终结性。2008年11月13日，他[写道](https://www.metzdowd.com/pipermail/cryptography/2008-November/014849.html)，“工作量证明链是解决拜占庭将军问题的一个方案。”
+通过比特币共识算法，中本聪以一种概率方式解决了它，允许去除某些约束，牺牲交易的严格终结性。2008 年 11 月 13 日，他[写道](https://www.metzdowd.com/pipermail/cryptography/2008-November/014849.html)，“工作量证明链是解决拜占庭将军问题（Byzantine General's Problem）的一个方案。”
 
 ### 文档时间戳
-时间戳是一种技术，涉及将日期和时间与信息（如事件或文档）关联起来。从法律角度来看，这可以例如确保合同在给定日期之前的存在。在现实世界中，有许多方法可以对某物进行时间戳标记，例如发送一个密封的信封或在笔记本中记录时间线。
+时间戳是一种技术，涉及将日期和时间与信息（如事件或文档）关联起来。从法律角度来看，作为一个例子，这可以确保合同在给定日期之前的存在。在现实世界中，有许多方法可以对某物进行时间戳标记，例如发送一个密封的信封或在笔记本中记录时间线。
 然而，在数字世界中，时间戳特别有用，其中的文件（文本、图像、音频或视频）很容易被修改。时间戳可以由中心化服务执行，这些服务负责保存收到的文档（或其指纹）并将其与接收日期和时间关联。这被称为可信时间戳。
-1991年，两位为新泽西州的贝尔通信研究公司（通常称为“Bellcore”）工作的研究员斯图尔特·哈伯（Stuart Haber）和斯科特·斯托内塔（Scott Stornetta）提出了一种机密且安全的时间戳技术。在他们的论文[《如何为数字文档打上时间戳》](http://www.staroceans.org/e-book/Haber_Stornetta.pdf)中，他们描述了认证时间戳服务如何使用单向函数（例如MD4哈希函数）和签名算法来增加客户文档的机密性和认证的可靠性。特别是，这个想法是通过在应用单向函数时涉及前一个时间戳来链接信息。
+1991 年，两位为新泽西州的贝尔通信研究公司（通常称为 “Bellcore”）工作的研究员 Stuart Haber 和 Scott Stornetta 提出了一种机密且安全的时间戳技术。在他们的论文[《如何为数字文档打上时间戳》](http://www.staroceans.org/e-book/Haber_Stornetta.pdf)中，他们描述了认证时间戳服务如何使用单向函数（例如 MD4 哈希函数）和签名算法来增加客户文档的机密性和认证的可靠性。特别是，这个想法是通过在应用单向函数时涉及前一个时间戳来链接信息。
 ![认证时间戳的示例](assets/zh-Hans/014.webp)
 认证时间戳的示例（来源：[维基媒体](https://en.m.wikipedia.org/wiki/File:Trusted_timestamping.svg)）
 
-哈伯和斯托内塔通过从1992年开始在《纽约时报》的分类广告中发布加密指纹（由有用数据的哈希结果产生）来实施他们的想法。然后，他们在1994年创立了自己的公司Surety Technologies，旨在全身心投入这项活动。因此，他们以创建第一个时间戳链而[闻名](https://www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain)，在计算要在报纸上发布的新指纹时考虑了之前的指纹，这预示了比特币区块链的出现。
-中本聪在[比特币白皮书](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20090324.pdf)中引用了哈伯和斯托内塔的三篇论文：前面提到的1991年的论文，一篇1993年的[论文](https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf)对早期提出的协议进行了改进，特别是通过使用默克尔树，以及一篇1997年的[论文](https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf)介绍了使用单向函数为文件命名的方法。还引用了一篇1999年由比利时鲁汶天主教大学密码学研究小组的三位成员亨利·马西亚斯（Henri Massias）、哈维尔·塞雷特-阿维拉（Xavier Serret-Avila）和让-雅克·基斯夸特（Jean-Jacques Quisquater）撰写的描述新时间戳系统的[论文](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf)。
-### 工作量证明和Hashcash
+Haber 和 Stornetta 通过从 1992 年开始在《纽约时报》的分类广告中发布加密指纹（由有用数据的哈希结果产生）来实施他们的想法。然后，他们在 1994 年创立了自己的公司 Surety Technologies，旨在全身心投入这项活动。因此，他们以创建第一个时间戳链而[闻名](https://www.vice.com/en/article/j5nzx4/what-was-the-first-blockchain)，在计算要在报纸上发布的新指纹时考虑了之前的指纹，这预示了比特币区块链的出现。
+中本聪在[比特币白皮书](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20090324.pdf)中引用了 Haber 和 Stornetta 的三篇论文：前面提到的 1991 年论文，一篇 1993 年的[论文](https://www.math.columbia.edu/~bayer/papers/Timestamp_BHS93.pdf)对早期提出的协议进行了改进，特别是通过使用哈希树，以及一篇 1997 年的[论文](https://cdn.nakamotoinstitute.org/docs/secure-names-bit-strings.pdf)介绍了使用单向函数为文件命名的方法。还引用了一篇 1999 年由比利时鲁汶天主教大学密码学研究小组的三位成员（Henri Massias、Xavier Serret-Avila 和 Jean-Jacques Quisquater）撰写的描述新时间戳系统的[论文](https://cdn.nakamotoinstitute.org/docs/secure-timestamping-service.pdf)。
 
-工作量证明是一个过程，它允许计算机设备以客观和可量化的方式证明它已经耗费了能量，以便被选中访问服务或特权。它本质上是一种抵抗Sybil攻击的机制，这使得攻击者难以过度增加身份以破坏或控制任何声誉系统。
-工作量证明（Proof of Work）的概念最初由计算机科学家Cynthia Dwork和Moni Naor在1992年描述，当时他们在位于加利福尼亚州圣何塞南部的IBM Almaden研究中心工作。在一篇名为“通过处理定价或对抗垃圾邮件”（Pricing via Processing or Combatting Junk Mail）的[研究论文](https://www.wisdom.weizmann.ac.il/~naor/PAPERS/pvp.pdf)中，他们提出了一种对抗电子邮件收件箱中垃圾邮件的方法。该模型包括强迫用户为每封发送的电子邮件解决一个密码学难题，以限制发送大量电子邮件的能力，同时允许偶尔的发送者不受阻碍。然而，他们从未实施过他们的想法。随着互联网在1990年代的普及，不受欢迎的电子邮件问题变得越来越紧迫，包括在密码朋克（cypherpunks）的邮件列表上。这就是为什么Dwork和Naor的概念在1997年被年轻的英国密码朋克Adam Back通过Hashcash实现的原因，Hashcash是一种使用哈希函数产生简单工作量证明的算法。更具体地说，它涉及找到考虑的哈希函数的部分碰撞，即获得两个具有以相同数据位开始的足迹的消息（注：从2002年发布的1.0版本开始，它涉及发现零印的部分碰撞，即找到一个前像，其足迹以确定数量的二进制零开始）。由于哈希函数是单向的，这样的成就只能通过逐一测试不同的可能性来实现，这需要能量消耗。
+### 工作量证明和 Hashcash
+
+工作量证明是一个过程，它允许计算机设备以客观和可量化的方式证明它已经耗费了能量，以便被选中访问服务或特权。它本质上是一种抵抗女巫攻击的机制，这使得攻击者难以过度增加身份以破坏或控制任何声誉系统。
+工作量证明（Proof of Work）的概念最初由计算机科学家 Cynthia Dwork 和 Moni Naor 在 1992 年描述，当时他们在位于加利福尼亚州圣何塞南部的 IBM Almaden 研究中心工作。在一篇名为 “通过处理定价或对抗垃圾邮件”（Pricing via Processing or Combatting Junk Mail）的[研究论文](https://www.wisdom.weizmann.ac.il/~naor/PAPERS/pvp.pdf)中，他们提出了一种对抗电子邮件收件箱中垃圾邮件的方法。该模型包括强迫用户为每封发送的电子邮件解决一个密码学难题，以限制发送大量电子邮件的能力，同时允许偶尔的发送者不受阻碍。然而，他们从未实施过他们的想法。随着互联网在 1990 年代的普及，不受欢迎的电子邮件问题变得越来越紧迫，包括在密码朋克（cypherpunks）的邮件列表上。这就是为什么 Dwork 和 Naor 的概念在 1997 年被年轻的英国密码朋克 Adam Back 通过 Hashcash 实现的原因，Hashcash 是一种使用哈希函数产生简单工作量证明的算法。更具体地说，它涉及找到某个哈希函数的部分碰撞，即获得两个具有以相同数据位开始的足迹的消息（注：从 2002 年发布的 1.0 版本开始，它涉及发现零印的部分碰撞，即找到一个前像，其足迹以确定数量的二进制零开始）。由于哈希函数是单向的，这样的成就只能通过逐一测试不同的可能性来实现，这需要能量消耗。
 
 ![Adam Back in 2001](assets/zh-Hans/015.webp)
-2001年的Adam Back（来源：[Adam Back个人页面的存档](https://web.archive.org/web/20040404011747/http://www.cypherspace.org/adam/)）
+2001 年的 Adam Back（来源：[Adam Back 个人页面的存档](https://web.archive.org/web/20040404011747/http://www.cypherspace.org/adam/)）
 
-但是，密码朋克们并不仅仅将工作量证明视为限制垃圾邮件的简单手段；他们还想将其用作保证生产数字货币成本的方式。因此，在1997年，Adam Back[设想](https://cypherpunks.venona.com/date/1997/04/msg00822.html)了这个想法，但他意识到这样获得的工作量证明不能以完全分布式的方式转移（因为双重支付问题），因此有必要通过像eCash这样的中心化系统。同样，在1996年，密码学家Ronald Rivest和Adi Shamir描述了[MicroMint](https://people.csail.mit.edu/rivest/pubs/RS96a.pdf)，一个中心化的小额支付系统，其硬币被认为是无法伪造的，这要归功于工作量证明的产生。
+但是，密码朋克们并不仅仅将工作量证明视为限制垃圾邮件的简单手段；他们还想将其用作保证生产数字货币成本的方式。因此，在 1997 年，Adam Back [设想](https://cypherpunks.venona.com/date/1997/04/msg00822.html)了这个想法，但他意识到这样获得的工作量证明不能以完全分布式的方式转移（由于双重支付问题），因此有必要通过像 eCash 的中心化系统完成。同样，在 1996 年，密码学家 Ronald Rivest 和 Adi Shamir 描述了[MicroMint](https://people.csail.mit.edu/rivest/pubs/RS96a.pdf)，一个中心化的小额支付系统，其硬币被认为是无法伪造的，这要归功于工作量证明的产生。
 
-必须找到一个好的安排，使这样的模型能够稳健且可持续地运作。这就是密码朋克Wei Dai、Nick Szabo和Hal Finney试图用他们各自的协议——b-money、bit gold和RPOW——来开发的。而这正是Satoshi Nakamoto通过在他的比特币设计中包含Hashcash所做的。
+为了让这种模型能稳健而持久地运作，人们必须找到一种合适的机制。这就是密码朋克 Wei Dai、Nick Szabo和 Hal Finney 试图用他们各自的协议—— b-money、bit gold 和 RPOW——来开发的。而这正是中本聪通过在他的比特币设计中包含 Hashcash 所做的。
 
 ### b-money：去中心化的稳定币
-从密码朋克运动中涌现的第一个协议是b-money，这是一个由魏戴（Wei Dai）在1998年构想的去中心化数字货币模型。他是一位居住在西雅图、为微软工作的年轻华裔美国密码学家，自1994年起参与了邮件列表。他通过创建开源的Crypto++库为自己赢得了名声，该库后来被用于比特币软件中。
+从密码朋克运动中涌现的第一个协议是 b-money，这是一个由魏戴（Wei Dai）在 1998 年构想的去中心化数字货币模型。他是一位居住在西雅图、为微软工作的年轻华裔美国密码学家，自 1994 年起参与了邮件列表。他通过创建开源的 Crypto++ 库为自己赢得了名声，该库后来被用于比特币软件中。
 
-魏戴于1998年11月26日在他的个人页面上发布了b-money的描述性文本，并在同一天将链接分享到了密码朋克邮件列表。在他的[电子邮件](https://cypherpunks.venona.com/date/1998/11/msg00941.html)中，他将b-money描述为“一个用于货币交换和为化名执行合约的新协议。”
+魏戴于 1998 年 11 月 26 日在他的个人页面上发布了 b-money 的描述性文本，并在同一天将链接分享到了密码朋克邮件列表。在他的[电子邮件](https://cypherpunks.venona.com/date/1998/11/msg00941.html)中，他将 b-money 描述为“一个用于货币交换和为化名执行合约的新协议。”
 
-在他的概念中，该系统基于一个无法追踪的点对点网络。每个参与者都由一个“数字化名”标识，即一个公钥，每个交易消息都由发送者签名并为接收者加密。每个参与者维护一个数据库，列出了每个化名持有的b-money单位数量。
+在他的概念中，该系统基于一个无法追踪的点对点网络。每个参与者都由一个 “数字化名” 标识，即一个公钥，每个交易消息都由发送者签名并为接收者加密。每个参与者维护一个数据库，列出了每个化名持有的 b-money 单位数量。
 
-货币的创建对所有参与者开放，并通过广播对已知且之前未解决的计算问题的解决方案来通过工作量证明完成。创建的单位数量取决于这项努力的成本，相对于一篮子标准商品（例如，贵金属）来表达，以维持单位价值围绕一个“稳定”的平衡点。该系统还提供了直接在网络上创建和执行合约的可能性，感谢一个原始的托管过程。
+货币的创建对所有参与者开放，并通过广播对已知且之前未解决的计算问题的解决方案来通过工作量证明完成。创建的单位数量取决于这项付出的成本，相对于一篮子标准商品（例如，贵金属）来表达，以维持单位价值围绕一个“稳定” 的平衡点。该系统还提供了直接在网络上创建和执行合约的可能性，感谢一个原始的托管过程。
 
-尽管相当巧妙，魏戴提出的b-money概念并非完全可行。因此，它存在主要缺陷，如对网络的Sybil攻击的脆弱性（理论上任何人都可以向网络添加新节点）、在服务器被预选的情况下的网络中心化，以及与账户单位稳定性相关的问题（谁来决定市场上的可观察价格？）。
-在列表上发布后，b-money引起了密码朋克的注意，特别是[亚当·贝克的注意](https://cypherpunks.venona.com/date/1998/12/msg00203.html)。然而，魏戴从未实施他的模型，不仅因为它功能失调，还因为这位密码学家对加密无政府主义的[幻灭](https://www.lesswrong.com/posts/YdfpDyRpNyypivgdu/aalwa-ask-any-lesswronger-anything#XKwphuwm366RegQ3d)。尽管如此，b-money最终被引用在比特币白皮书中，成为其前身之一。
+尽管相当巧妙，魏戴提出的 b-money 概念并非完全可行。因此，它存在主要缺陷，如对网络的女巫攻击的脆弱性（理论上任何人都可以向网络添加新节点）、在服务器被预选的情况下的网络中心化，以及与账户单位稳定性相关的问题（谁来决定市场上的可观察价格？）。
+在列表上发布后，b-money 引起了密码朋克的注意，特别是[ Adam Back 的注意](https://cypherpunks.venona.com/date/1998/12/msg00203.html)。然而，魏戴从未实施他的模型，不仅因为它功能失调，还因为这位密码学家对加密无政府主义的[幻灭](https://www.lesswrong.com/posts/YdfpDyRpNyypivgdu/aalwa-ask-any-lesswronger-anything#XKwphuwm366RegQ3d)。尽管如此，b-money 最终被引用在比特币白皮书中，成为其前身之一。
 
 ![比特币白皮书中提到的b-money](assets/zh-Hans/016.webp)
 
 ### 比特金：比特币之前的数字黄金
 
 从密码朋克（cypherpunks）的想法中诞生的第二个模型是 Nick Szabo 在 1998 年构想的 bit gold（比特黄金）概念。后者是一位匈牙利裔美国计算机科学家，他曾在 DigiCash 担任顾问六个月。作为一名密码朋克，他以在 1995 年将 *smart contract*（智能合约）的概念正式化而闻名。
-1994年，Nick Szabo 创建了一个名为 libtech-l 的私人邮件列表，其目的如其名称所示，旨在主持关于解放技术的讨论，允许保护个人自由，抵御权威的侵犯。像 Wei Dai 和 Hal Finney 这样的密码朋克，以及经济学家 Larry White 和 George Selgin 都可以访问，他们是哈耶克货币竞争和自由银行制度的支持者。
+1994年，Nick Szabo 创建了一个名为 libtech-l 的私人邮件列表，其目的如其名称所示，旨在主持关于解放技术的讨论，允许保护个人自由，抵御权威的侵犯。像 Wei Dai 和 Hal Finney 这样的密码朋克，以及经济学家 Larry White 和 George Selgin 都可以访问，他们是哈耶克货币竞争（Hayekian currency competition）和自由银行制度的支持者。
 ![Nick Szabo in 1997](assets/zh-Hans/017.webp)
-1997年的Nick Szabo（来源：[Adrien Chen](https://twitter.com/AdrianChen/status/456922865992863744/photo/1)）
+1997 年的 Nick Szabo（来源：[Adrien Chen](https://twitter.com/AdrianChen/status/456922865992863744/photo/1)）
 
-正是在 libtech-l 列表上，Nick Szabo 最初描述了他的概念，然后在1999年在他的个人网站上托管了一份[草案](https://web.archive.org/web/20140406003811/http://szabo.best.vwh.net/bitgold.html)。之后，他在2005年通过在他的博客Unenumerated上发布的[文章](https://unenumerated.blogspot.com/2005/12/bit-gold.html)中介绍了比特黄金。
+正是在 libtech-l 列表上，Nick Szabo 最初描述了他的概念，然后在 1999 年在他的个人网站上托管了一份[草案](https://web.archive.org/web/20140406003811/http://szabo.best.vwh.net/bitgold.html)。之后，他在 2005 年通过在他的博客 Unenumerated 上发布的[文章](https://unenumerated.blogspot.com/2005/12/bit-gold.html)中介绍了比特黄金。
 
-该协议旨在管理一种称为比特黄金的虚拟资源的创建和交换。与由实物黄金担保的电子黄金或理论上以一篮子商品为基准的b-money不同，比特黄金不会由任何其他资产支持，但它具有不可伪造的稀缺性，因此构成了一种完全数字化的黄金。
-协议的核心元素是，货币的创建是通过工作证明完成的：比特黄金的位是使用计算机的计算能力创建的，每个解决方案都是从另一个计算出来的，从而形成了一系列工作证明链。这些工作证明的生产日期和时间使用多个时间戳服务器进行认证。该系统依赖于一个公共的产权登记册，引用用户的拥有物和交换，用户通过他们的公钥被识别并使用他们的私钥授权交易。该登记册由一个名为“产权俱乐部”的服务器网络验证和维护，通过一个叫做[拜占庭仲裁系统](https://dahliamalkhi.wordpress.com/wp-content/uploads/2015/12/byzquorums-distcomputing1998.pdf)的经典共识算法协调。
+该协议旨在管理一种称为比特黄金的虚拟资源的创建和交换。与由实物黄金担保的电子黄金或理论上以一篮子商品为基准的 b-money 不同，bit-gold 不会由任何其他资产支持，但它具有不可伪造的稀缺性，因此构成了一种完全数字化的黄金。
+协议的核心元素是，货币的创建是通过工作证明完成的：bit-gold 的位是使用计算机的计算能力创建的，每个解决方案都是从另一个计算出来的，从而形成了一系列工作证明链。这些工作证明的生产日期和时间使用多个时间戳服务器进行认证。该系统依赖于一个公共的产权登记册，引用用户的拥有物和交换，用户通过他们的公钥被识别并使用他们的私钥授权交易。该登记册由一个名为 “产权俱乐部” 的服务器网络验证和维护，通过一个叫做[拜占庭仲裁系统](https://dahliamalkhi.wordpress.com/wp-content/uploads/2015/12/byzquorums-distcomputing1998.pdf)的经典共识算法协调。
 
-比特黄金与比特币的相似之处是惊人的。系统的三个组成元素（工作证明的生产、时间戳记和产权登记册的管理），在比特黄金中是分开的，在比特币中被找到作为一个单一概念：区块链。这就是为什么许多人将其视为比特币的草稿，并推测Nick Szabo可能是中本聪。
+Bit-gold 与比特币的相似之处是惊人的。系统的三个组成元素（工作证明的生产、时间戳记和产权登记册的管理），在比特黄金中是分开的，在比特币中被找到作为一个单一概念：区块链。这就是为什么许多人将其视为比特币的草稿，并推测 Nick Szabo 可能是中本聪本人。
 
-然而，两人的愿景存在分歧。在 bit gold 中，数字黄金碎片的生产方式意味着它们是不可替代的（non-fungible），即它们不能相互混合：因此，它们必须在系统外部的市场进行估值，才能作为真正的同质记账单位的基础。因此，bit gold 模型被设想为一个结算系统，允许管理一种稀有的储备货币，并在此之上建立一个自由的银行经济，如果可能的话，使用查姆模型。因此，在 2008 年 4 月，在他的博客上的一篇[评论](https://web.archive.org/web/20171227190431/http://unenumerated.blogspot.com/2008/04/bit-gold-markets.html?showComment=1207799580000#c3741843833998921269)中，尼克·萨博仍在寻求帮助以实现他的概念。然而，这种实现从未发生过。
+然而，两人的愿景存在分歧。在 bit gold 中，数字黄金碎片的生产方式意味着它们是不可替代的（non-fungible），即它们不能相互混合：因此，它们必须在系统外部的市场进行估值，才能作为真正的同质记账单位的基础。因此，bit gold 模型被设想为一个结算系统，允许管理一种稀有的储备货币，并在此之上建立一个自由的银行经济，如果可能的话，使用查姆模型。因此，在 2008 年 4 月，在他的博客上的一篇[评论](https://web.archive.org/web/20171227190431/http://unenumerated.blogspot.com/2008/04/bit-gold-markets.html?showComment=1207799580000#c3741843833998921269)中，Nick Szabo 仍在寻求帮助以实现他的概念。然而，这种实现从未发生过。
 
-### RPOW: 可重用工作证明
-从密码朋克的思想中涌现出的第三个系统是RPOW系统，这是可重用工作证明（Reusable Proofs of Work）的缩写，由Hal Finney于2004年开发。Hal Finney是一位居住在洛杉矶地区的美国计算机科学家和密码学家。作为早期的密码朋克，他对David Chaum及其著名的eCash模型的理念充满热情。自1996年以来，他一直在与Phil Zimmermann一起开发PGP加密软件。
+### RPOW: 可重复使用的工作量证明
+从密码朋克的思想中涌现出的第三个系统是RPOW系统，这是可重用工作证明（Reusable Proofs of Work）的缩写，由 Hal Finney 于 2004 年开发。Hal Finney 是一位居住在洛杉矶地区的美国计算机科学家和密码学家。作为早期的密码朋克，他对 David Chaum 及其著名的 eCash 模型的理念充满热情。自 1996 年以来，他一直在与 Phil Zimmermann 一起开发 PGP 加密软件。
 
-为了设计他的RPOW系统，Hal Finney采用了eCash和比特黄金背后的理念。他的系统的独特之处在于，它基于一个透明的服务器，该服务器允许转移由Hashcash产生的工作证明。这个服务器使用了IBM 4758安全加密协处理器，这是一个高安全性、抗篡改的元素，通过IBM设计的认证过程，可以验证机器上运行的程序。因此，外部用户可以随时确保RPOW服务器正在运行正确的程序，其代码也是公开可用的。
+为了设计他的 RPOW 系统，Hal Finney 采用了 eCash 和 bit-gold 背后的理念。他的系统的独特之处在于，它基于一个透明的服务器，该服务器允许转移由 Hashcash 产生的工作证明。这个服务器使用了 IBM 4758安全加密协处理器，这是一个高安全性、抗篡改的元素，通过 IBM 设计的认证过程，可以验证机器上运行的程序。因此，外部用户可以随时确保 RPOW 服务器正在运行正确的程序，其代码也是公开可用的。
 
-可重用工作证明令牌由服务器管理，负责使用RSA加密对它们进行签名。它们是通过产生Hashcash的工作证明或从之前的RPOW令牌创建的。在支付过程中，发送者将他们的RPOW令牌给予接收者，后者会立即与服务器通信，以接收一个或多个新令牌，其总价值等于输入值。因此，RPOWs的运作类似于eCash中的数字票证。
+可重用工作证明代币由服务器管理，负责使用 RSA 加密对它们进行签名。它们是通过产生 Hashcash 的工作证明或从之前的 RPOW 代币创建的。在支付过程中，发送者将他们的 RPOW 代币给予接收者，后者会立即与服务器通信，以接收一个或多个新代币，其总价值等于输入值。因此，RPOW 的运作类似于 eCash 中的数字票证。
 
-以下是Hal Finney本人设计的插图：
+以下是 Hal Finney 本人设计的插图：
 
 ![RPOW中的交换](assets/zh-Hans/018.webp)
 
-Hal Finney不仅设计了模型，而且还亲自实施了它。2004年8月15日，他在密码朋克邮件列表上[宣布](https://lists.cpunks.org/pipermail/cypherpunks-legacy/2004-August/134945.html)了RPOW系统的启动，并在专用网站（rpow.net）上记录了其操作。然后，他在旧金山举行的2005年CodeCon会议上[展示](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html)了它，讨论了工作证明令牌的潜在用途，即：价值转移、垃圾邮件调控、视频游戏中的商业活动、在线赌博如扑克，以及像BitTorrent这样的文件共享协议中的反吸血鬼策略。
-然而，RPOW存在内在缺陷，这可能解释了为什么它没有达到预期的成功：
+Hal Finney 不仅设计了模型，而且还亲自实施了它。2004 年 8 月 15 日，他在密码朋克邮件列表上[宣布](https://lists.cpunks.org/pipermail/cypherpunks-legacy/2004-August/134945.html)了RPOW 系统的启动，并在专用网站（rpow.net）上记录了其操作。然后，他在旧金山举行的 2005 年 CodeCon 会议上[展示](https://web.archive.org/web/20050204193327/http://rpow.net/slides/slide001.html)了它，讨论了工作证明代币的潜在用途，即：价值转移、垃圾邮件调控、视频游戏中的商业活动、在线赌博如扑克，以及像 BitTorrent 的文件共享协议中的反吸血鬼策略。
+然而，RPOW 存在内在缺陷，这可能解释了为什么它没有达到预期的成功：
 
 - 其安全模型相当脆弱，因为它依赖于中心化服务器；
-- 由于计算性能的指数增长，其货币政策（基于散列）并不特别吸引人。
+- 由于计算性能的指数增长，其货币政策（基于散列）并不特别吸引人家。
 
-因此，RPOW的实际使用是轶事性的，但Hal Finney因为在比特币出现四年前，建立了一个实验性的概念验证，为之“[铺平了道路](https://mmalmi.github.io/satoshi/#email-24)”（原文："carried this torch"），值得赞扬。
+因此，RPOW 的实际使用仅停留在零星的尝试阶段，但 Hal Finney 因为在比特币出现四年前，建立了一个实验性的概念验证，为之“[铺平了道路](https://mmalmi.github.io/satoshi/#email-24)”（原文："carried this torch"），值得赞扬。
 
 ### Ripple：信用的去中心化
-比特币的另一个鲜为人知但同样重要的前身模型是分布式信用协议Ripple，这是由加拿大开发者Ryan Fugger在2004年设计的。这位年轻的加拿大人受到了[本地交换贸易系统](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27%C3%A9change_local)（LETS）概念的启发，这是他在设计协议之前在温哥华经历过的。他于2004年4月14日发布了Ripple的[白皮书](https://web.archive.org/web/20060221162102/http://ripple.sourceforge.net/decentralizedcurrency.pdf)，然后通过一个名为RipplePay的概念验证实现了它，该系统运行在一个中央服务器上，允许用户仅使用电子邮件地址连接。
+
+比特币的另一个鲜为人知但同样重要的前身模型是分布式信用协议 Ripple，这是由加拿大开发者 Ryan Fugger 在 2004 年设计的。这位年轻的加拿大人受到了[本地交换贸易系统](https://en.wikipedia.org/wiki/Local_exchange_trading_system)（LETS）概念的启发，这是他在设计协议之前在温哥华经历过的。他于 2004 年 4 月 14 日发布了 Ripple 的[白皮书](https://web.archive.org/web/20060221162102/http://ripple.sourceforge.net/decentralizedcurrency.pdf)，然后通过一个名为 RipplePay 的概念验证实现了它，该系统运行在一个中央服务器上，允许用户仅使用电子邮件地址连接。
 ![Ryan Fugger circa 2010](assets/zh-Hans/019.webp)
 Ryan Fugger circa 2010 (来源：[Crunchbase](https://www.crunchbase.com/person/ryan-fugger))
 
-Ripple的概念基于这样一个观点，即金钱本质上是由借据组成的，也就是信用。它旨在建立一个点对点网络，其链接将是人与人之间的信用关系。然后通过一系列贷款的路由来进行支付，所有参与者都充当彼此借贷金钱的银行家。Alice可以通过借给Bob 10美元，并要求Bob对Carole做同样的事，然后Carole再对David做同样的事来支付David 10美元：David的账户随后被记入了Alice创造的10美元。该系统在某种程度上通过涟漪作用运行，这解释了项目名称的由来。
+Ripple 的概念基于这样一个观点，即金钱本质上是由借据组成的，也就是信用。它旨在建立一个点对点网络，其链接将是人与人之间的信用关系。然后通过一系列贷款的路由来进行支付，所有参与者都充当彼此借贷金钱的银行家。Alice 可以通过借给 Bob 10 美元，并要求 Bob 对 Carole 做同样的操作，然后 Carole 再对 David 做同样的操作来支付 David 10 美元：David 的账户随后被记入了 Alice 创造的 10 美元。该系统在某种程度上通过涟漪作用运行，这解释了项目名称的由来。
 
-这是2011年制作的Ripple的介绍视频：
+这是 2011 年制作的 Ripple 的介绍视频：
 
 :::video id=056364f2-a222-4d79-a4a1-cb0dc4cea751:::
 
-尽管社区对此充满热情并且拥有几千名用户，但Ripple存在重大缺陷，阻碍了其成功。特别是，它[遭受](https://fiatjaf.com/3cb7c325.html)了“分散承诺问题”：在支付过程中，参与者无法以安全的方式承诺以确保贷款链，这是一个后来由Lightning解决的问题。（*原文：“the problem of the decentralized commit”*）
+尽管社区对此充满热情并且拥有几千名用户，但 Ripple 存在重大缺陷，阻碍了其成功。特别是，它[遭受](https://fiatjaf.com/3cb7c325.html)了“去中心化承诺问题”：在支付过程中，参与者无法以安全的方式承诺以确保贷款链，这是一个后来由闪电网路（Lightning Network）解决的问题。（*原文：“the problem of the decentralized commit”*）
 
-看到他的项目无处可去，Ryan Fugger在2012年11月将Ripple的控制权移交给了OpenCoin Inc.的领导人Chris Larsen和Jed McCaleb。该公司在2013年更名为Ripple Labs。他们将其改造成一个与最初概念显著不同的协议，基于共识算法和一种原生账户单位，即XRP。Ryan Fugger最终在2020年将他的概念验证更名为[Rumplepay](https://rumplepay.com/)，以避免混淆。
+看到他的项目无处可去，Ryan Fugger 在 2012 年 11 月将 Ripple 的控制权移交给了 OpenCoin Inc. 的领导人 Chris Larsen 和 Jed McCaleb。该公司在 2013 年更名为 Ripple Labs。他们将其改造成一个与最初概念显著不同的协议，基于共识算法和一种原生账户单位，即 XRP。Ryan Fugger 最终在2020年将他的概念验证更名为 [Rumplepay](https://rumplepay.com/)，以避免混淆。
 
-可以说，Ripple与比特币是同时代的，而且事实证明，许多对后者感兴趣的人也对前者感兴趣。实际上，Ripple构成了一个创新模型，基于分布式架构，这是其与比特币共享的特征。对此，中本聪[写道](https://diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February.txt.gz)：“Ripple的独特之处在于它传播信任而不是集中信任。”
+可以说，Ripple 与比特币是同时代的，而且事实证明，许多对后者感兴趣的人也对前者感兴趣。实际上，Ripple 构成了一个创新模型，基于分布式架构，这是其与比特币共享的特征。对此，中本聪[写道](https://diyhpl.us/~bryan/irc/bitcoin-satoshi/p2presearch-again/p2pfoundation.net/backups/p2p_research-archives/2009-February.txt.gz)：“Ripple 的独特之处在于它传播信任而不是将信任集中起来。”
 
-### 比特币，一次探索的顶点
-因此，到了2000年代末，比特币的所有组成要素都已为人所知，且已有几次尝试将它们结合起来。然而，这些提议的组合并没有说服力。特别是密码朋克逐渐对这个问题失去了兴趣，他们认为设计一种真正去中心化的数字货币是不可能的。中本聪证明了他们是错误的。
+### 比特币，一次探索的结晶
+因此，到了 2000 年代末，比特币的所有组成要素都已为人所知，且已有几次尝试将它们结合起来。然而，这些提议的组合并没有说服力。特别是密码朋克逐渐对这个问题失去了兴趣，他们认为设计一种真正去中心化的数字货币是不可能的。中本聪证明了他们是错误的。
 
-比特币确实构成了所有这些概念的巧妙组合。它基于数字签名，源自Diffie和Hellmann在1976年提出的非对称密码学。它是David Chaum在90年代实现的eCash模型所期望的“电子现金”。通过其创新的共识算法，它稳健地解决了由Lamport、Shostak和Pease在1982年提出的拜占庭将军问题。通过在点对点网络上管理其区块链，它是一种“分布式时间戳服务器”，重新审视了Haber和Stornetta从1991年开始的概念。对于交易区块的选择和单位的产生，它利用工作量证明，使用了一个类似于Adam Back在1997年提出的Hashcash的过程。最后，在其设计中，它回顾了b-money、bit gold、RPOW和Ripple的项目，中本聪以某种方式向它们致敬。
+比特币确实构成了这些概念的巧妙组合。它基于数字签名，源自 Diffie 和 Hellmann 在 1976 年提出的非对称密码学。它是 David Chaum 在 90 年代实现的 eCash 模型所期望的 “电子现金”。通过其创新的共识算法，它稳健地解决了由 Lamport、Shostak 和 Pease 在 1982 年提出的拜占庭将军问题。通过在点对点网络上管理其区块链，它是一种 “分布式时间戳服务器”，重新审视了 Haber 和 Stornetta 从 1991 年开始的概念。对于交易区块的选择和单位的产生，它利用工作量证明，使用了一个类似于 Adam Back 在 1997 年提出的Hashcash 过程。最后，在其设计中，它回顾了 b-money、bit gold、RPOW 和 Ripple 的项目，中本聪以某种方式向它们致敬。
 
-因此，比特币形成了对网络货币的追求的高潮，这是一种完全存在于互联网上、不受国家控制的货币。在本课程的剩余部分，我们将讲述它是如何诞生的，以及它早期年份的重大事件。这个故事是独一无二的，如果你已经走到这一步，肯定会对你产生兴趣。请做好准备！
+因此，比特币形成了对网络货币的追求的高潮，这是一种完全存在于互联网上、不受国家控制的货币。在本课程的剩余部分，我们将讲述它是如何诞生的，以及它早期年份的重大事件。这个故事是独一无二的，如果您已经走到这一步，肯定会对您产生兴趣。请做好准备！
 
 # 比特币的缓慢出现
 <partId>7db760c0-dcce-4564-9c71-53873ee66d6d</partId>
@@ -400,40 +402,40 @@ Ripple的概念基于这样一个观点，即金钱本质上是由借据组成�
 
 :::video id=825522d8-1ccc-4d14-80ac-e292a85a608a:::
 
-在了解比特币的来源之后，我们现在将聚焦于它自身的历史。这一主题已经是无数文章、播客和视频的主题，以至于它几乎成了一种创始神话。正如我们所见，比特币与其创造的背景密不可分；其早期年份发生的事件也是如此，这些事件塑造了今天的比特币，以及它的优点和缺陷。
+了解比特币的来源之后，我们现在将聚焦于它自身的历史。这一主题已经是无数文章、播客和视频的主题，以至于它几乎成了一种创始神话。正如我们所见，比特币与其创造的背景密不可分；其早期年份发生的事件也是如此，这些事件塑造了今天的比特币，以及它的优点和缺陷。
 比特币由一个自称是日本人的未知个体中本聪创建，他在向公众揭露之前花时间深思熟虑地设计了它。随后，他们尽一切努力确保比特币在最佳条件下启动，它在讨论中得到了良好的呈现，并且被越来越多的人使用。最终，创造者的努力不仅仅在于系统的经济启动，如果不是更多的话，还在于其最初的设计。
 
-本章讲述的是比特币的诞生，这发生在2008年秋季到2009年冬季之间。这一时期被两个重大事件标记：2008年10月31日白皮书的发布，这是解释系统技术工作原理的基础性文件；以及2009年1月9日原型网络的启动，仅仅两个多月后。因此，我们将关注中本聪在此期间的行动以及他与比特币早期采用者和首批反对者的几次互动。
+本章讲述的是比特币的诞生，这发生在 2008 年秋季到 2009 年冬季之间。这一时期被两个重大事件标记：2008 年 10 月 31 日白皮书的发布，这是解释系统技术工作原理的基础性文件；以及 2009 年 1 月 9 日原型网络的启动，仅仅两个多月后。因此，我们将关注中本聪在此期间的行动以及他与比特币早期采用者和首批反对者的几次互动。
 
-### 发现
-根据他[自己的](https://www.metzdowd.com/pipermail/cryptography/2008-November/014863.html) [证言](https://bitcointalk.org/index.php?topic=13.msg46#msg46)，中本聪从2007年春季开始研究比特币。在对数字货币主题进行了各种研究后，他最终找到了一种解决双重支付问题的方法，而不需要可信的第三方。超过一年的时间里，他保守着自己的模型秘密，希望对其进行完善，以确保其健壮性。正如他后来[写道](https://bitcointalk.org/index.php?topic=195.msg1617#msg1617)的：
+### 比特币的发现
+根据他[本人的](https://www.metzdowd.com/pipermail/cryptography/2008-November/014863.html) [说法](https://bitcointalk.org/index.php?topic=13.msg46#msg46)，中本聪从 2007 年春季开始研究比特币。在对数字货币主题进行了各种研究后，他最终找到了一种解决双重支付问题的方法，而不需要可信的第三方。超过一年的时间里，他保守着自己的模型秘密，希望对其进行完善，以确保其健壮性。正如他后来[写道](https://bitcointalk.org/index.php?topic=195.msg1617#msg1617)的：
 
-> “在某个时刻，我确信有一种方法可以做到完全不需要任何信任，我无法抗拒继续思考它。&nbsp;更多的工作是设计而不是编码。”
+> “在某个时刻，我确信有一种方法可以做到完全不需要任何信任，我无法抗拒继续思考它。更多的工作是设计而不是编写代码。”
 
 为了确保其正确运行，中本聪在起草白皮书之前[编程](https://www.metzdowd.com/pipermail/cryptography/2008-November/014832.html)了一个原型。这种方法与学术界通常的做法相反，在学术界，概念通常在科学论文中正式提出，然后再实施。比特币的创造者[表示](https://www.metzdowd.com/pipermail/cryptography/2008-November/014832.html)：
 
-> “我实际上是倒过来做的。&nbsp;我必须先编写所有代码，才能说服自己我能解决每一个问题，然后我才写论文。”
+> “我实际上是倒过来做的。我必须先编写所有代码，才能说服自己我能解决每一个问题，然后我才写论文。”
 
 ### 准备工作
 
-2008年8月，中本聪决定为比特币的启动做准备。18日，他通过匿名服务AnonymousSpeech预留了域名Bitcoin.org（以及[Netcoin.org](https://twitter.com/orweinberger/status/1573234325046558720)，可能是因为他还没有最终确定他的概念的名称）。该域名将托管主要的比特币网站。然而，中本聪未能预留域名Bitcoin.com，当时该域名被一名[投机者](https://mmalmi.github.io/satoshi/#email-28)持有，并且在2009年至2011年间被一家名为BitCoin Ltd.的公司[使用](https://web.archive.org/web/20090719065532/http://www.bitcoin.com/)，该公司专门从事微支付。
+2008 年 8 月，中本聪决定为比特币的启动做准备。18 日，他通过匿名服务 AnonymousSpeech 预留了域名Bitcoin.org（以及[Netcoin.org](https://twitter.com/orweinberger/status/1573234325046558720)，可能是因为他还没有最终确定他的概念的名称）。该域名将托管主要的比特币网站。然而，中本聪未能预留域名 Bitcoin.com，当时该域名被一名[投机者](https://mmalmi.github.io/satoshi/#email-28)持有，并且在 2009 年至 2011 年间被一家名为 BitCoin Ltd. 的公司[使用](https://web.archive.org/web/20090719065532/http://www.bitcoin.com/)，该公司专门从事网络微型支付。
 
-8月20日，比特币的创造者[联系](https://s3.documentcloud.org/documents/24439625/adam-back-exhibit-ab1-1.pdf)了Adam Back，通过发送电子邮件向他询问如何在白皮书中引用他关于Hashcash的论文。很难不将此视为一个借口，以确保Hashcash的发明者意识到他的新系统。
+8 月 20 日，比特币的创造者[联系](https://s3.documentcloud.org/documents/24439625/adam-back-exhibit-ab1-1.pdf)了 Adam Back，通过发送电子邮件向他询问如何在白皮书中引用他关于 Hashcash 的论文。很难不将此视为一个借口，以确保 Hashcash 的发明者意识到他的新系统。
 
 ![Adam Back in 2012](assets/zh-Hans/020.webp)
-2012年的Adam Back（来源：[Adam Back的个人页面](http://www.cypherspace.org/adam/)）
+2012 年的 Adam Back（来源：[Adam Back 的个人页面](http://www.cypherspace.org/adam/)）
 
-电子邮件中包含了白皮书草稿的链接。PDF文件名为`ecash.pdf`，标题为“无需可信第三方的电子现金”。摘要与10月发布的第一版相同，只有一个词的差异。不幸的是，我们没有完整的文档。
-在阅读了中本聪发送的摘要（但未阅读论文）的第二天，亚当·贝克（Adam Back）将他引向了魏戴（Wei Dai）的b-money提案，这似乎与他的概念有相似之处。中本聪回应感谢他的指引，并指出“我的想法正是从那一点开始的。”亚当·贝克还提到了MicroMint的存在，但中本聪没有回应。
-之后的一天，也就是8月22日，中本聪给魏戴发送了一封电子邮件，说他“正准备发布一篇扩展了你的想法成为一个完整工作系统的论文”，并询问他的b-money页面的发布年份，以便在白皮书中引用。就像他与亚当·贝克的交流一样，他与魏戴分享了白皮书的草稿。
+电子邮件中包含了白皮书草稿的链接。PDF 文件名为 `ecash.pdf`，标题为 “无需可信第三方的电子现金”。摘要与 10 月发布的第一版相同，只有一个词的差异。不幸的是，我们没有完整的文档。阅读了中本聪发送的摘要（但未阅读论文）的第二天，Adam Back 将他引向了魏戴（Wei Dai）的 b-money 提案，这似乎与他的概念有相似之处。中本聪回应感谢他的指引，并指出“我的想法正是从那一点开始的。” Adam Back 还提到了 MicroMint 的存在，但中本聪没有回应。
 
-尽管有这些互动，亚当·贝克和魏戴并没有立即对中本聪的概念产生兴趣。直到几年后，他们才回到比特币：魏戴在2010-2011年，亚当·贝克在2013年。
+第二天（8 月 22 日），中本聪给魏戴发送了一封电子邮件，说他 “正准备发布一篇扩展了你的想法成为一个完整工作系统的论文”，并询问他的 b-money 页面的发布年份，以便在白皮书中引用。就像他与 Adam Back 的交流一样，他与魏戴分享了白皮书的草稿。
 
-至于中本聪自己，他完成了让他的发明公之于众的准备工作。10月3日，他完成了比特币白皮书的第一版，现在已经选定了其名称。10月5日，他在SourceForge项目管理平台上注册，该平台将托管和维护开源软件的源代码，直到2011年。
+尽管有这些互动，Adam Back 和魏戴并没有立即对中本聪的概念产生兴趣。他们直到几年后才重新关注比特币：魏戴在 2010-2011 年，Adam Back 在 2013 年。
+
+至于中本聪本人，他完成了让他的发明公之于众的准备工作。10 月 3 日，他完成了比特币白皮书的第一版，现在已经选定了其名称。10 月 5 日，他在 SourceForge 项目管理平台上注册，该平台将托管和维护开源软件的源代码，直到 2011 年。
 
 ### 白皮书的发布
 
-2008年10月31日，中本聪在一个专门讨论密码学的电子邮件邮件列表上发布了[白皮书的第一版](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf)，这个邮件列表简称为“密码学邮件列表”。该列表自1996年以来一直由开发者佩里·梅茨格（Perry Metzger）管理，自[2003年](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html)起，它一直托管在他的个人网站Metdowd.com上。它是cypherpunks列表的继承者，不同之处在于它受到严格的审核。2008年，一些前cypherpunks成员仍然参与其中，如约翰·吉尔摩（John Gilmore）、哈尔·芬尼（Hal Finney）和伦·萨萨曼（Len Sassaman）。
+2008 年 10 月 31 日，中本聪在一个专门讨论密码学的电子邮件邮件列表上发布了[白皮书的第一版](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/courses/his201/assets/bitcoin-20081003.pdf)，这个邮件列表简称为“密码学邮件列表”。该列表自 1996 年以来一直由开发者 Perry Metzger 管理，自 [2003 年](https://www.metzdowd.com/pipermail/cryptography/2003-April/004484.html)起将其托管在他的个人网站 Metdowd.com 上。它是 cypherpunks 列表的继承者，不同之处在于它受到严格的审核。2008年，一些前密码朋克成员仍然参与其中，如 John Gilmore、Hal Finney 和 Len Sassaman。
 
 在他发给列表的第一封[电子邮件](https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html)中，中本聪简单地写道：
 
@@ -442,21 +444,21 @@ Ripple的概念基于这样一个观点，即金钱本质上是由借据组成�
 他还列出了他的模型的主要特性：
 
 - “通过点对点网络防止双重支付。”
-- “没有铸币厂或其他可信任方。”
-- “参与者可以匿名。”
-- “新单位是通过Hashcash风格的工作量证明制造出来的。”
+- “没有铸币或其他可信任方。”
+- “参与者可以匿名化。”
+- “新单位是通过 Hashcash 风格的工作量证明制造出来的。”
 - “用于生成新单位的工作量证明也允许网络防止双重支付。”
 
-在他的电子邮件中，他包含了一个指向白皮书的链接，该白皮书已经托管在Bitcoin.org上，这是一份简短的9页文档，以科学文章的形式呈现，描述了比特币的技术工作原理。这份文件着重讨论了在线支付的问题。
+在他的电子邮件中，他包含了一个指向白皮书的链接，该白皮书已经托管在 Bitcoin.org 上，这是一份简短的 9 页文档，以科学文章的形式呈现，描述了比特币的技术工作原理。这份文件着重讨论了在线支付的问题。
 
 ![第一版白皮书的标题和摘要（2008年10月）](assets/zh-Hans/021.webp)
 
 在这次公告之后，中本聪收到了一些回复，但大多数都持怀疑态度。他主要因三件事受到批评：
-- 首先，密码朋克James A. Donald[挑战](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html)系统的可扩展性，他说“它似乎无法扩展到所需的规模。”中本聪[回复](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html)说，“带宽可能没有你想象的那么禁止性。”
-- 第二个负面评论来自《互联网入门》一书的作者、专门从事电子邮件基础设施、垃圾邮件过滤和软件专利咨询的John R. Levine。他[批评](https://www.metzdowd.com/pipermail/cryptography/2008-November/014817.html)比特币的安全性，提到由黑客控制的计算机组成的“僵尸机器农场”拥有的计算能力。他特别指出，在互联网上，“好人的计算能力显著低于坏人。”中本聪[巧妙地回应](https://www.metzdowd.com/pipermail/cryptography/2008-November/014818.html)：“要求是好人集体拥有的计算能力超过任何单一攻击者。”
+- 首先，密码朋克 James A. Donald [怀疑](https://www.metzdowd.com/pipermail/cryptography/2008-November/014814.html)系统的可扩展性，他说 “它似乎无法扩展到所需的规模。” 中本聪[回复](https://www.metzdowd.com/pipermail/cryptography/2008-November/014815.html)说，“带宽可能没有你想象的那么有限。”
+- 第二个负面评论来自《Internet for Dummies》一书的作者、专门从事电子邮件基础设施、垃圾邮件过滤和软件专利咨询的 John R. Levine。他[批评](https://www.metzdowd.com/pipermail/cryptography/2008-November/014817.html)比特币的安全性，提到由黑客控制的计算机组成的 “僵尸机器农场”（zombie machine farm）拥有的计算能力。他特别指出，在互联网上，“好人的计算能力显著低于坏人。” 中本聪[巧妙地回应](https://www.metzdowd.com/pipermail/cryptography/2008-November/014818.html)：“要求是好人集体拥有的计算能力超过任何单一攻击者的计算能力。”
 
-- 最后，一个名叫Ray Dillinger（使用化名bear）的个体[对](https://www.metzdowd.com/pipermail/cryptography/2008-November/014822.html)账户单位的价值表示好奇，他哀叹“工作量证明没有内在价值”并批评它们因计算机硬件的技术进步而具有通货膨胀的性质。中本聪[回复](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html)说，“硬件速度的增加已经被考虑在内”通过定期调整生产难度。
-尽管怀疑是邮件列表上的主导态度，但并非每个订阅该邮件列表的人都持有这种态度。特别是，有一个人因其热情而脱颖而出：Hal Finney，他对未来持乐观态度，并且尽管90年代的失败，他从未放弃电子现金的想法。几年后，他在这个问题上[声明](https://bitcointalk.org/index.php?topic=155054.msg1643833#msg1643833)说，“我注意到密码学的老前辈们（我当时50多岁）往往会变得愤世嫉俗。我更加理想主义；我一直热爱密码学，它的神秘和悖论。”因此，在11月7日，他在一封[电子邮件](https://www.metzdowd.com/pipermail/cryptography/2008-November/014827.html)中写给列表说，“比特币似乎是一个非常有前途的想法”并将中本聪的模型与Nick Szabo的比特黄金进行比较。
+- 最后，一个名叫 Ray Dillinger（使用化名 bear）的个体[对](https://www.metzdowd.com/pipermail/cryptography/2008-November/014822.html)账户单位的价值表示好奇，他哀叹“工作量证明没有内在价值”并批评它们因计算机硬件的技术进步而具有通货膨胀的性质。中本聪[回复](https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html)说，“硬件速度的增加已经被考虑在内”通过定期调整生产难度。
+尽管怀疑是邮件列表上的主导态度，但并非每个订阅该邮件列表的人都持有这种态度。特别是，有一个人因其热情而脱颖而出：Hal Finney，他对未来持乐观态度，并且尽管 90 年代的失败，他从未放弃电子现金的想法。几年后，他在这个问题上[声明](https://bitcointalk.org/index.php?topic=155054.msg1643833#msg1643833)说，“我注意到密码学的老前辈们（我当时 50 多岁）往往会变得愤世嫉俗。我更加理想主义；我一直热爱密码学，它的神秘和悖论。”因此，在 11 月 7 日，他在一封[电子邮件](https://www.metzdowd.com/pipermail/cryptography/2008-November/014827.html)中写给列表说，“比特币似乎是一个非常有前途的想法” 并将中本聪的模型与 Nick Szabo 的比特黄金进行比较。
 
 ![Hal Finney 2007年](assets/zh-Hans/022.webp)
 Hal Finney 2007年

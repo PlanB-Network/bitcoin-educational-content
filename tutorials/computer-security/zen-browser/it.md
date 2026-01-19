@@ -244,7 +244,7 @@ Impostazioni > Privacy e sicurezza > DNS su HTTPS (in fondo alla pagina)
 - Avvertenza di sicurezza prima di utilizzare il sistema DNS
 - **Attenzione**: i siti potrebbero non essere caricati se il DNS sicuro non è disponibile
 
-**4. Abilitare solo la modalità HTTPS**:
+**4. Abilita solo la modalità HTTPS**:
 Impostazioni > Privacy e sicurezza > Solo modalità HTTPS > **Abilitato**
 
 - Forza tutte le connessioni a HTTPS

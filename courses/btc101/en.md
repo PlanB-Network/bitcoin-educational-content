@@ -39,40 +39,6 @@ In this course, we will discuss some monetary aspects of Bitcoin, including how 
 
 It is essential to understand that Bitcoin is a new monetary system that completely changes our relationship with money, so learning how to use it is a necessary skill for anyone who wants to be in control of their own funds.
 
-**Section 1 - Introduction**  
-- Chapter 1 - Course Overview  
-- Chapter 2 - The Prehistory of Bitcoin  
-
-**Section 2 - Money**  
-- Chapter 3 - Money Throughout History  
-- Chapter 4 - Fiat Currencies  
-- Chapter 5 - Hyperinflation  
-- Chapter 6 - 21 Million Bitcoins  
-
-**Section 3 - Bitcoin Wallets**  
-- Chapter 7 - What is a Bitcoin Wallet?  
-- Chapter 8 - Bitcoin Wallets and Security  
-- Chapter 9 - Setting Up a Wallet  
-- Chapter 10 - Standing the Test of Time  
-
-**Section 4 - The Technical Aspects of Bitcoin**  
-- Chapter 11 - Launching Bitcoin  
-- Chapter 12 - Bitcoin Transactions  
-- Chapter 13 - Bitcoin Nodes  
-- Chapter 14 - Miners  
-- Chapter 15 - Bitcoin and Ecology  
-
-**Section 5 - How to Obtain Bitcoins?**  
-- Chapter 16 - Bitcoin Never Sleeps!  
-- Chapter 17 - Earning Bitcoins Through Work  
-- Chapter 18 - Saving with Bitcoin  
-- Chapter 19 - Hyperbitcoinization  
-
-**Section 6 - The Future of Bitcoin: The Lightning Network**  
-- Chapter 20 - A Brief Introduction to the Lightning Network  
-- Chapter 21 - Lightning Network Use Cases  
-- Chapter 22 - Red Pill or Blue Pill?  
-
 Before introducing the definition of money and its function in society (Chapter 1), we should start from the genesis of Bitcoin. Launched in 2009, Bitcoin is a relatively new technology unlike anything else. It is therefore normal not to understand everything about it, all at once. In fact, just like when learning how to use the Internet or to drive a car, you don’t need to know all the technical details right away: you can start by learning how to receive, pay, and secure your funds, and then take small steps to study it more deeply.
 
 After all, we are only at the beginning stages of its adoption, as we have passed the takeoff phase: you are just in time to acquire as much knowledge as you wish regarding this important innovation.

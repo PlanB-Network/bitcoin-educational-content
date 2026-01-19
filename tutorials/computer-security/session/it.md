@@ -41,7 +41,7 @@ Session si rivolge soprattutto agli utenti che pongono la riservatezza al centro
 
 ## Installare l'applicazione Session
 
-Session è disponibile su tutte le piattaforme. È possibile scaricare l'applicazione direttamente dallo store delle applicazioni del telefono:
+Session è disponibile su tutte le piattaforme. Puoi scaricare l'applicazione direttamente dallo store delle applicazioni del telefono:
 - [Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger);
 - [App Store](https://apps.apple.com/us/app/session-private-messenger/id1470168868);
 - [F-Droid](https://fdroid.getsession.org/).

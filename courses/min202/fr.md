@@ -845,20 +845,22 @@ Les notes de version indiquent : **"As CPU mining has been useless for a long ti
 
 Ainsi un mineur doit désormais installer cette partie du code de son côté et y connecter sa machine.
 
-C'est ce qu'on fait lorsqu’on se connecte à une pool distante telles que celles listées plus haut, qu'elles soient des solopool, ou des pool classiques "mutualistes". Ainsi nous dépendons et faisons confiance à un tiers qui construit les blocs pour nous, calcule notre puissance de calcul et les récompenses associées, et nous paye éventuellement.
+C'est ce qu'on fait lorsque l'on se connecte à une pool distante telles que celles listées plus haut, qu'elles soient des solopool, ou des pool classiques "mutualistes". Ainsi nous dépendons et faisons confiance à un tiers qui construit les blocs pour nous, calcule notre puissance de calcul et les récompenses associées, et nous paye éventuellement.
 
 ## 4.1 Pourquoi ? (Block Template / intermédiare etc...)
 
-En Solomining particulièrement, l'intérêt de dépendre de quelqu'un est quasiment nul si ce n'est la facilité. Autant s'il s'agit de s'associer à d'autre mineur pour obtenir un revenu régulier, le passage par un tiers est quasi obligatoire. Autant lorsqu'il s'agit de miner seul, rien ne dit que ce tiers de confiance n'essaiera pas de vous subtiliser la récompense éventuelle en substituant son adresse à la votre....
+En Solomining particulièrement, les avantages qu'apporte la dépendance à un tiers sont quasiment inexistants, si ce n'est la facilité. Autant s'il s'agit de s'associer à d'autre mineur pour obtenir un revenu régulier, le passage par un tiers est quasi obligatoire. Autant lorsqu'il s'agit de miner seul, rien ne dit que ce tiers de confiance n'essaiera pas de vous subtiliser la récompense éventuelle en substituant son adresse à la votre....
 Rien ne dit non plus comme déjà évoqué plus haut, que l'entité manageant la pool à laquelle vous faites confiance, ne décidera pas de censurer les transactions des gens qu'elle n'aime pas ou qu'une autorité lui demande de bloquer. 
 
 Si vous êtes un Bitcoiner souverain adepte du solomining ce qui est le cas de la plupart d'entre vous qui lisez ces lignes, vous serez certainement ravis d'apprendre qu'aujourd'hui il est devenu très facile pour n'importe qui de miner sur sa propre solopool, auto hébergée sur un serveur Umbrel ou Start9 par exemple.
 
-L'autre bonne nouvelle c'est que même pour mineur en "pool mutualiste" de innovations permettent désormais aux mineurs indépendants de soumettre leurs propre block template. C'est à dire que chaque mineur de la pool sélectionne ces transactions indépendamment  et construit son block template. Ainsi le pouvoir de censure de la pool est quasiment réduit à néant.
+L'autre bonne nouvelle c'est que même pour mineur en "pool mutualiste" qui souhaite recevoir des récompenses régulières, des innovations permettent désormais aux mineurs indépendants de soumettre leurs propre bloc template. C'est à dire que chaque mineur de la pool sélectionne les transactions qu'il inscrira dans le bloc si c'est lui qui le trouve. Ainsi le pouvoir de censure de la pool est quasiment réduit à néant. Celle ci se cantonne à son rôle de distributeur de récompenses au prorata de la puissance de calcul de chacun.
 
 ==Insérer les liens vers les tuto / cours existants==
 
-## 4.2 Datum et Stratum V2
+## 4.2 Stratum V2 & Datum
+
+Statum V2
 ## 4.3 Public Pool & Bassin sur Umbrel / Start 9
 
 

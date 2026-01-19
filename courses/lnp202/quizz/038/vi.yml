@@ -1,0 +1,9 @@
+question: Tại sao hồ sơ khách hàng lại dễ quản lý?
+answer: Ít cần đến nguồn vốn đầu vào
+wrong_answers:
+  - Không cần kênh nào
+  - Ít cần đến thanh khoản ra nước ngoài
+  - Không cần sao lưu
+explanation: |
+  Người tiêu dùng không cần nhiều tiền mặt đổ vào, và các khoản thanh toán đi ra tự nhiên tạo ra một lượng tiền mặt nhất định mà không cần chiến lược phức tạp.
+reviewed: false

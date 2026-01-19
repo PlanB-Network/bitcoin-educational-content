@@ -1,0 +1,9 @@
+question: Qual é a liquidez de saída de um nó Lightning?
+answer: Capacidade de pagamento
+wrong_answers:
+  - Capacidade de ligação
+  - Capacidade de receção
+  - Capacidade de fechar canais
+explanation: |
+  A liquidez de saída representa o sats disponível do lado do operador para efetuar pagamentos.
+reviewed: false

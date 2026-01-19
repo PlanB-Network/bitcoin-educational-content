@@ -1,0 +1,9 @@
+question: Какие общие черты есть у Aqua и Bull Bitcoin Wallet?
+answer: Молниеносный атомный обмен
+wrong_answers:
+  - Родные каналы Lightning
+  - Централизованное хранение
+  - Интегрированный узел Lightning
+explanation: |
+  Эти wallet используют атомарные свопы для оплаты счетов Lightning без использования узла Lightning непосредственно на вашем телефоне, оставаясь при этом на самообслуживании.
+reviewed: false

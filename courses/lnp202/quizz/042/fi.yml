@@ -1,0 +1,9 @@
+question: Mikä on pakkosulkemisen suurin haitta?
+answer: Timelockin estämät varat
+wrong_answers:
+  - Varojen osittainen menetys
+  - Lightning-solmun vanhentuminen
+  - Salaman solmun desynkronointi
+explanation: |
+  Varat on estetty aikarajoituksella, ja maksut ovat usein korkeita.
+reviewed: false

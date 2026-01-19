@@ -1,0 +1,9 @@
+question: Bước nào diễn ra ngay sau khi ứng dụng di động đăng tải yêu cầu NWC lên máy chủ chuyển tiếp?
+answer: Nút giải mã và xác minh quyền ủy quyền
+wrong_answers:
+  - Bộ chuyển tiếp ký yêu cầu cho nút
+  - Relay thực hiện thanh toán trên LND
+  - Nút này tự động mở một kênh
+explanation: |
+  Nút này đọc sự kiện, giải mã nó, sau đó kiểm tra xem tác giả có được ủy quyền hay không trước khi thực hiện hành động.
+reviewed: false

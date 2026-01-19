@@ -1,0 +1,9 @@
+question: 携帯電話で本物のLightningノードを実行できるソリューションは？
+answer: 組み込みLNノード
+wrong_answers:
+  - カストーディアル・ライトニング wallet
+  - ライトニング・アトミック・スワップ
+  - 統合チャンネル
+explanation: |
+  PhoenixやZeus Embeddedのようなソリューションは、本物のLightningノードをアプリケーションに直接組み込む。
+reviewed: false

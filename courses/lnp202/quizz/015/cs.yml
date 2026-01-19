@@ -1,0 +1,9 @@
+question: Co lze upravit v pokročilém nastavení uzlu Lightning?
+answer: Veřejný název uzlu
+wrong_answers:
+  - Pravidla konsensu uzlů
+  - Soukromé klíče uzlu
+  - Trasy vybrané uzlem
+explanation: |
+  Pokročilá nastavení umožňují přizpůsobit prvky identifikace uzlů, aniž by byl ovlivněn konsensus nebo provoz sítě Lightning.
+reviewed: false

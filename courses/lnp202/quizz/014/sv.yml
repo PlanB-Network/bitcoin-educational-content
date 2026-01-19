@@ -1,0 +1,9 @@
+question: Vilka gemensamma egenskaper har Aqua och Bull Bitcoin Wallet?
+answer: Blixtsnabba atombyten
+wrong_answers:
+  - Inbyggda blixtkanaler
+  - Centraliserad förvaring
+  - Integrerad Lightning-nod
+explanation: |
+  Dessa wallet använder atombyten för att betala Lightning-fakturor utan att utnyttja en Lightning-nod direkt på din telefon och samtidigt som de förblir i egen förvaring.
+reviewed: false

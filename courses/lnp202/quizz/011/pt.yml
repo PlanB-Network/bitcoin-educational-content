@@ -1,0 +1,9 @@
+question: Qual é a solução que oferece mais soberania aos utilizadores do Lightning?
+answer: Nó de relâmpago clássico
+wrong_answers:
+  - Wallet com troca atómica
+  - Nó LN integrado
+  - Relâmpago de custódia wallet
+explanation: |
+  O nó clássico proporciona um controlo total sobre os canais, a liquidez e as políticas de taxas. É o único que lhe permite ser verdadeiramente independente.
+reviewed: false

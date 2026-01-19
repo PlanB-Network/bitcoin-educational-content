@@ -1,0 +1,9 @@
+question: Jakie informacje wskazują na zdolność odbiorczą węzła Lightning?
+answer: Płynność przychodząca
+wrong_answers:
+  - Aktywne połączenia
+  - Płynność wychodząca
+  - Liczba bloków
+explanation: |
+  Płynność przychodząca reprezentuje sats, które węzeł może odbierać za pośrednictwem Lightning.
+reviewed: false

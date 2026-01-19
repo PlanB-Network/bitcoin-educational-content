@@ -1,0 +1,9 @@
+question: Milline on peamine kompromiss LN pardasõlmede puhul?
+answer: Sõltuvus operaatorist
+wrong_answers:
+  - Privaatvõtmete kadumine
+  - Ei ole isekeskne hoidmine
+  - Onchaini maksed kohustuslikud kõigi Lightning-tehingute puhul
+explanation: |
+  Kasutaja sõltub ühenduvuse ja kanali haldamise osas suurel määral peamisest operaatorist.
+reviewed: false

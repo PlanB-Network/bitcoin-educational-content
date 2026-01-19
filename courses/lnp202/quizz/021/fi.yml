@@ -1,0 +1,9 @@
+question: Mikä tiedosto sisältää LND:n yksityiskohtaisen kanavan tilan?
+answer: channel.db
+wrong_answers:
+  - wallet.db
+  - lightning.db
+  - peers.db
+explanation: |
+  Channel.db-tiedostoon tallennetaan kanavan tilat, vertaisverkot ja commitment transaction:t.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quale di questi criteri è più importante per la connettività tra pari?
+answer: Posizione centrale nel grafico
+wrong_answers:
+  - Nome del nodo nel grafo
+  - Colore dei nodi nel grafico
+  - Numero di messaggi nel grafico
+explanation: |
+  Un nodo ben posizionato nel grafo di Lightning facilita l'routing verso molte destinazioni.
+reviewed: false

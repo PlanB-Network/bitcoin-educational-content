@@ -1,0 +1,9 @@
+question: Koja besplatna rešenja za dolaznu likvidnost se zasnivaju na saradnji?
+answer: LN+
+wrong_answers:
+  - Magma
+  - Boltz
+  - 1ML
+explanation: |
+  Lightning Network Plus pruža dolaznu likvidnost putem kružnih otvaranja kanala.
+reviewed: false

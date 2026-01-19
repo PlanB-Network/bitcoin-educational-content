@@ -1,0 +1,9 @@
+question: Que solução permite executar um verdadeiro nó Lightning em telemóveis?
+answer: Nó LN incorporado
+wrong_answers:
+  - Relâmpago de custódia wallet
+  - Troca atómica de raios
+  - Canais federados
+explanation: |
+  Soluções como o Phoenix ou o Zeus Embedded incorporam um nó Lightning genuíno diretamente na aplicação.
+reviewed: false

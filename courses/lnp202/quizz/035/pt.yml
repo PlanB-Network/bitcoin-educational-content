@@ -1,0 +1,9 @@
+question: Qual é o principal objetivo de um router no Lightning?
+answer: Ganhe dinheiro com taxas de encaminhamento
+wrong_answers:
+  - Ganhe dinheiro mostrando o caminho
+  - Ganhar dinheiro com a venda de liquidez de entrada
+  - Ganhar dinheiro publicando estados de canais desactualizados
+explanation: |
+  O encaminhador procura encaminhar os pagamentos de outros através da cobrança de taxas de encaminhamento.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Šta osmatračnica u normalnom radu može zaključiti o kanalu koji štiti?
+answer: Koliko često se njegov status ažurira
+wrong_answers:
+  - Liquidity alokacija
+  - Njegov kapacitet
+  - Politika troškova
+explanation: |
+  Prima enkriptovane pakete za svako novo stanje, otkrivajući samo normalnu stopu aktivnosti.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Qué criterios determinan su elección de una solución de Rayo?
+answer: Frecuencia de uso y voluntad de gestión
+wrong_answers:
+  - Cantidades intercambiadas y velocidad del protocolo
+  - Geolocalización y educación
+  - Tolerancia al riesgo y diseño de software
+explanation: |
+  La elección depende principalmente de la frecuencia de uso de Rayo y de cuánto le guste la gestión técnica.
+reviewed: false

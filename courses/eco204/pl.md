@@ -424,7 +424,7 @@ Ilustrującym przykładem MMT jest amerykański kompleks wojskowo-przemysłowy. 
 Japonia jest często przywoływana przez zwolenników MMT jako kolejny przykład braku inflacji pomimo znacznego dodruku pieniądza. Jednak sytuacja w Japonii podkreśla również ograniczenia tradycyjnych miar inflacji, takich jak wskaźnik cen konsumpcyjnych (CPI). W Japonii znaczna część wydrukowanych pieniędzy jest oszczędzana lub inwestowana w nieruchomości lub giełdę, a nie wydawana na bieżącą konsumpcję. Wskaźnik CPI, nie uwzględniając w pełni tej dynamiki, może zaniżać rzeczywistą inflację.
 
 
-Analiza Japonii (https://ideas.repec.org/p/ces/ceswps/_9821.html) podkreśla również, że zachowanie podmiotów gospodarczych, takie jak oszczędzanie lub inwestowanie w aktywa nieuwzględnione w CPI, może maskować inflacyjny wpływ dodruku pieniądza. Co więcej, zdolność różnych sektorów do absorpcji wstrzykniętej płynności odgrywa kluczową rolę w określeniu, czy inflacja wystąpi.
+[Analiza Japonii](https://ideas.repec.org/p/ces/ceswps/_9821.html) pokazuje również, że zachowanie podmiotów gospodarczych, takie jak oszczędzanie lub inwestowanie w aktywa nieuwzględnione w CPI, może maskować inflacyjny wpływ kreacji pieniądza. Ponadto zdolność poszczególnych sektorów do absorpcji wstrzykiwanej płynności odgrywa kluczową rolę w wystąpieniu bądź niewystąpieniu inflacji.
 
 
 #### Bilanse banków i banków centralnych

@@ -1,0 +1,9 @@
+question: Ni faili gani inayo hali ya kina ya kituo cha LND?
+answer: channel.db
+wrong_answers:
+  - wallet.db
+  - umeme.db
+  - rika.db
+explanation: |
+  Faili ya channel.db huhifadhi hali za chaneli, rika na commitment transaction.
+reviewed: false

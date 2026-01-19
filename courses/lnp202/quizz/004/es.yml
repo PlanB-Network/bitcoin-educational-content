@@ -1,0 +1,9 @@
+question: ¿A qué debe conectarse un nodo Rayo?
+answer: Un nodo Bitcoin
+wrong_answers:
+  - Un minero
+  - Un explorador de bloques
+  - Un servidor federado
+explanation: |
+  El nodo Lightning depende de un nodo Bitcoin para acceder a la información de la blockchain principal.
+reviewed: false

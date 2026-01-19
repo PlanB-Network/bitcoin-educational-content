@@ -1,0 +1,9 @@
+question: Wie sieht die anfängliche Verteilung der Liquidität aus Sicht Ihres Knotens aus, nachdem er einen Kanal eröffnet hat?
+answer: 100% ausgehend
+wrong_answers:
+  - 50% eingehend 50% ausgehend
+  - 100% eingehend
+  - 90% ausgehend 10% eingehend
+explanation: |
+  Wenn ein Kanal eröffnet wird, befindet sich die gesamte Liquidität zunächst auf der Seite des Initiators.
+reviewed: false

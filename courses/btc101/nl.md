@@ -39,39 +39,11 @@ In deze cursus zullen we enkele monetaire aspecten van Bitcoin bespreken, waaron
 
 Het is essentieel om te begrijpen dat Bitcoin een nieuw monetair systeem is dat onze relatie met geld volledig verandert, dus leren hoe je het kunt gebruiken is een noodzakelijke vaardigheid voor iedereen die controle wil hebben over zijn/haar eigen tegoeden.
 
-**Sectie 1 - Inleiding**
-- Hoofdstuk 1 - Cursusoverzicht
-- Hoofdstuk 2 - De Voorgeschiedenis Van Bitcoin
 
-**Deel 2 - Geld**
-- Hoofdstuk 3 - Geld Door De Geschiedenis Heen
-- Hoofdstuk 4 - Fiatvaluta's
-- Hoofdstuk 5 - Hyperinflatie
-- Hoofdstuk 6 - 21 Miljoen Bitcoins
 
-**Deel 3 - Bitcoin Wallets**
-- Hoofdstuk 7 - Wat Is Een Bitcoin Wallet?
-- Hoofdstuk 8 - Bitcoin Wallets En Beveiliging
-- Hoofdstuk 9 - Een Wallet Instellen
-- Hoofdstuk 10 - De Tand Des Tijds Doorstaan
 
-**Deel 4 - De Technische Aspecten Van Bitcoin**
-- Hoofdstuk 11 - Bitcoin Lanceren
-- Hoofdstuk 12 - Bitcoin Transacties
-- Hoofdstuk 13 - Bitcoin Nodes
-- Hoofdstuk 14 - Miners
-- Hoofdstuk 15 - Bitcoin En Ecologie
 
-**Sectie 5 - Hoe Kom Ik Aan Bitcoins?**
-- Hoofdstuk 16 - Bitcoin Slaapt Nooit!
-- Hoofdstuk 17 - Bitcoins Verdienen Door Werk
-- Hoofdstuk 18 - Sparen Met Bitcoin
-- Hoofdstuk 19 - Hyperbitcoinisatie
 
-**Deel 6 - De Toekomst Van Bitcoin: Het Lightning Network**
-- Hoofdstuk 20 - Een Korte Introductie Tot Het Lightning Network
-- Hoofdstuk 21 - Lightning Network Usecases
-- Hoofdstuk 22 - Rode Pil Of Blauwe Pil?
 
 Voordat we de definitie van geld en de functie ervan binnen de maatschappij introduceren (Hoofdstuk 1), moeten we beginnen bij de oorsprong van Bitcoin. Bitcoin werd in 2009 gelanceerd en is een relatief nieuwe technologie, die met niets te vergelijken is. Het is daarom normaal dat je niet alles in één keer begrijpt. In werkelijkheid hoef je, net als bij het leren gebruiken van internet of autorijden, niet meteen alle technische details te weten: je kunt beginnen met leren hoe je bitcoins ontvangt, verstuurt en beveiligt, vervolgens kun je kleine stapjes nemen om je er verder in te verdiepen.
 

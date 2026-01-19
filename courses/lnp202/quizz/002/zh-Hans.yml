@@ -1,0 +1,9 @@
+question: 从 Bitcoin onchain 的角度来看，什么是闪电通道？
+answer: Multisig 自然输出 2/2
+wrong_answers:
+  - 脚本 P2MS 2/2
+  - UTXO 单
+  - 联邦合同
+explanation: |
+  在链上，"闪电 "通道由多签名输出表示，需要两个参与者的签名。
+reviewed: false

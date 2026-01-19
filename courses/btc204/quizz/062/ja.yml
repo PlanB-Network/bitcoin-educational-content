@@ -8,4 +8,4 @@ wrong_answers:
   - Knapsack Solver
 
 explanation: |
-  他の3つの選択肢とは異なり、Silent Paymentsは部品を選択する方法ではなく、静的アドレスを使用するためのプロトコルです。
+  他の3つの選択肢とは異なり、サイレント・ペイメント（Silent Payments）は部品を選択する方法ではなく、静的アドレスを使用するためのプロトコルです。

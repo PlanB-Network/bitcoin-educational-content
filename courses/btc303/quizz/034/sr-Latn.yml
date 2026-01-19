@@ -1,9 +1,11 @@
-question: Koji je glavni razlog zašto će stvarna cirkulišuća ponuda Bitcoin biti značajno niža od teoretskog maksimuma od približno 21 milion BTC?
-answer: Izgubljeni privatni ključevi, krađa wallet i novčići poslati na pogrešne adrese trajno uklanjaju bitkoine iz opticaja
+question: Koji je glavni razlog zašto će stvarna cirkulišuća ponuda bitcoina biti značajno niža od teoretskog maksimuma od približno 21 milion BTC?
+answer: Izgubljeni privatni ključevi, krađa novčanika i novčići poslati na pogrešne adrese trajno uklanjaju bitkoine iz opticaja
 wrong_answers:
-  - Mining prilagođavanja težine automatski smanjuju ukupnu ponudu kako bi se održala oskudica tokom vremena
+  - Prilagođavanja težine rudarenja automatski smanjuju ukupnu ponudu kako bi se održala oskudica tokom vremena
   - Naknade za transakcije se spaljuju tokom obrade, postepeno smanjujući dostupnu ponudu bitcoina.
-  - "Bitcoin protokol automatski zaključava novčiće koji se nisu pomerali duži vremenski period kako bi sprečio inflaciju"
+  - Bitcoin protokol automatski zaključava novčiće koji se nisu pomerali duži vremenski period kako bi sprečio inflaciju
 explanation: |
-  Iako je teorijski maksimum 20 999 999.9769 BTC, stvarna upotrebljiva ponuda je znatno niža zbog ljudskih grešaka i gubitaka. Izgubljeni privatni ključevi čine bitkoine trajno nedostupnim, novčanici se kradu ili zaboravljaju, a novčići se ponekad šalju na nevažeće adrese. Ovi faktori dovode do trajnog smanjenja ponude, što koristi preostalim vlasnicima, kako je primetio Satoši: izgubljeni novčići povećavaju vrednost novčića drugih.
-reviewed: false
+  Iako je teorijski maksimum 20 999 999.9769 BTC, stvarna upotrebljiva ponuda je znatno niža zbog ljudskih grešaka i gubitaka. Izgubljeni privatni ključevi 
+  čine bitkoine trajno nedostupnim, novčanici se kradu ili zaboravljaju, a novčići se ponekad šalju na nevažeće adrese. Ovi faktori dovode do trajnog smanjenja 
+  ponude, što koristi preostalim vlasnicima, kako je primetio Satoši: izgubljeni novčići povećavaju vrednost ostalih novčića.
+reviewed: true

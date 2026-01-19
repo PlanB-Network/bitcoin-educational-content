@@ -1,0 +1,9 @@
+question: Hva er en Lightning-kanal fra et Bitcoin onchain-synspunkt?
+answer: Multisignatureffekt 2/2
+wrong_answers:
+  - Skript P2MS 2/2
+  - UTXO singel
+  - Forbundskontrakt
+explanation: |
+  På kjeden representeres en Lightning-kanal av en multisignaturutgang som krever signaturer fra begge deltakerne.
+reviewed: false

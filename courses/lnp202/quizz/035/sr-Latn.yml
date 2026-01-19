@@ -1,0 +1,9 @@
+question: Koja je glavna svrha rutera na Lightning-u?
+answer: Zaradite novac putem naknada za usmeravanje
+wrong_answers:
+  - Zaradite novac pokazujući put
+  - Zarađivanje novca prodajom dolazne likvidnosti
+  - Zaradite novac objavljivanjem zastarelih stanja kanala
+explanation: |
+  Ruter nastoji da usmeri plaćanja od drugih prikupljanjem naknada za usmeravanje.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Dlaczego operator węzła handlowego Lightning nie może polegać na własnych płatnościach w celu generate płynności przychodzącej?
+answer: Głównie przepływy przychodzące
+wrong_answers:
+  - Głównie przepływy wychodzące
+  - Zbyt małe kanały
+  - Wysokie opłaty onchain
+explanation: |
+  Wypłacając gotówkę bez dokonywania wydatków, sprzedawca w naturalny sposób nie przenosi płynności ze swoich kanałów.
+reviewed: false

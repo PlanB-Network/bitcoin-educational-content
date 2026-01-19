@@ -51,7 +51,7 @@ Boken beställdes och finansierades av [Chaincode Labs](https://learning.chainco
 <chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
 
 
-Välkommen till denna kurs PHI 301 om Bitcoin:s utvecklingsfilosofi.
+Välkommen till denna kurs BTC 303 om Bitcoin:s utvecklingsfilosofi.
 
 
 Bitcoin är mer än bara en kryptovaluta, den förkroppsligar en filosofisk vision om decentralisering, integritet, pålitlighet och motståndskraft. Den här kursen är utformad speciellt för utvecklare som redan är bekanta med Bitcoin:s tekniska grunder och som nu vill fördjupa sin förståelse för de principer som ligger till grund för Bitcoin:s design och styrning.
@@ -1168,14 +1168,14 @@ Bitcoin Core följer denna definition genom att distribueras under [MIT-licensen
 
 
 ```
-The MIT License (MIT)
+MIT-licensen (MIT)
 
-Copyright (c) 2009-2022 The Bitcoin Core developers
-Copyright (c) 2009-2022 Bitcoin Developers
+Copyright (c) 2009-2022 Bitcoin Core-utvecklarna
+Copyright (c) 2009-2022 Bitcoin-utvecklare
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Härmed ges tillstånd, utan kostnad, till varje person som erhåller en kopia av denna programvara och tillhörande dokumentationsfiler ("Programvaran"), att hantera Programvaran utan begränsning, inklusive utan begränsning rättigheterna att använda, kopiera, modifiera, slå samman, publicera, distribuera, underlicensiera och/eller sälja kopior av Programvaran, och att tillåta personer som Programvaran tillhandahålls att göra detsamma, under följande villkor:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+Ovanstående upphovsrättsmeddelande och detta tillståndsmeddelande ska inkluderas i alla kopior eller väsentliga delar av Programvaran.
 ```
 
 

@@ -1,0 +1,9 @@
+question: Vad kan ett vakttorn i normal drift utläsa om den kanal som det skyddar?
+answer: Hur ofta dess status uppdateras
+wrong_answers:
+  - Liquidity-tilldelning
+  - Dess kapacitet
+  - Kostnadspolicy
+explanation: |
+  Den tar emot krypterade paket för varje nytt tillstånd, vilket endast avslöjar den normala aktivitetsnivån.
+reviewed: false

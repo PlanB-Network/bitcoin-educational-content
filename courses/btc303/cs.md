@@ -51,7 +51,7 @@ Kniha vznikla na objednávku a za finanční podpory vývojového centra [Chainc
 <chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
 
 
-Vítejte v kurzu PHI 301 o filozofii vývoje Bitcoin.
+Vítejte v kurzu BTC 303 o filozofii vývoje Bitcoin.
 
 
 Bitcoin je víc než jen kryptoměna, ztělesňuje filozofickou vizi decentralizace, soukromí, nedůvěryhodnosti a odolnosti. Tento kurz je určen speciálně pro vývojáře, kteří se již seznámili s technickými základy Bitcoin a nyní se snaží prohloubit své znalosti principů, na nichž je založen design a správa Bitcoin.
@@ -1168,14 +1168,14 @@ Jádro Bitcoin dodržuje tuto definici tím, že je šířeno pod licencí [MIT 
 
 
 ```
-The MIT License (MIT)
+Licence MIT (MIT)
 
-Copyright (c) 2009-2022 The Bitcoin Core developers
-Copyright (c) 2009-2022 Bitcoin Developers
+Copyright (c) 2009-2022 Vývojáři Bitcoin Core
+Copyright (c) 2009-2022 Vývojáři Bitcoinu
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Tímto se bezplatně uděluje oprávnění jakékoli osobě, která získá kopii tohoto softwaru a souvisejících dokumentačních souborů („Software"), nakládat se Softwarem bez omezení, včetně, nikoli však výhradně, práva Software používat, kopírovat, upravovat, slučovat, publikovat, distribuovat, poskytovat sublicence a/nebo prodávat kopie Softwaru a umožnit osobám, kterým je Software poskytnut, činit totéž, a to za následujících podmínek:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+Výše uvedené oznámení o autorských právech a toto oznámení o oprávnění musí být zahrnuto ve všech kopiích nebo podstatných částech Softwaru.
 ```
 
 

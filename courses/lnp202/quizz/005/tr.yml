@@ -1,0 +1,9 @@
+question: Bir gözetim Lightning wallet operatörü kullanıcıları hakkında hangi verileri gözlemleyebilir?
+answer: Tüm akışları
+wrong_answers:
+  - Onların kimlikleri
+  - Ödemelerinin meta verileri, ancak tutarlar olmadan
+  - Ödemelerinin maliyetleri, ancak tutarlar olmadan
+explanation: |
+  Operatör, kullanıcının miktarlarına, sıklıklarına, alıcılarına ve ödeme alışkanlıklarına erişebilir - kısacası, bu hizmetler genellikle KYC içermese de her şeyi gözlemleyebilir.
+reviewed: false

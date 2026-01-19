@@ -27,7 +27,7 @@ Från antiken genom upplysningstiden steg friheten när samhällen omfamnade tol
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
 
-Välkommen till PHI201!
+Välkommen till PHI101!
 
 
 Den här kursen bjuder in dig att utforska frihetens utveckling genom historien genom att analysera de stora tankeskolor som har format den. Du kommer att utforska hur frihetsbegreppet har utvecklats under århundradena, antingen i motsats till eller i samarbete med makten, genom en historisk resa från antiken till samtida debatter.

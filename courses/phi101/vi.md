@@ -23,7 +23,7 @@ Từ thời Cổ đại qua thời Khai sáng, tự do đã vươn lên khi các
 
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
-Chào mừng bạn đến với khóa học PHI201!
+Chào mừng bạn đến với khóa học PHI101!
 
 Khóa học này mời bạn khám phá sự tiến hóa của tự do qua lịch sử bằng cách phân tích các trường phái tư tưởng lớn đã định hình nó. Bạn sẽ khám phá cách khái niệm tự do được xây dựng qua các thế kỷ, dù là trong sự đối lập hay hợp tác với quyền lực, qua một hành trình lịch sử từ Thời cổ đại đến các cuộc tranh luận đương đại.
 

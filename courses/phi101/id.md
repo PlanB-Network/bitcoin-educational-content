@@ -23,7 +23,7 @@ Dari Zaman Kuno hingga Pencerahan, kebebasan meningkat seiring masyarakat merang
 
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
-Selamat datang di kursus PHI201!
+Selamat datang di kursus PHI101!
 
 Pelatihan ini mengundang Anda untuk mengeksplorasi evolusi kebebasan sepanjang sejarah dengan menganalisis aliran pemikiran besar yang membentuknya. Anda akan menemukan bagaimana konsep kebebasan dibangun selama berabad-abad, baik dalam oposisi maupun kerja sama dengan kekuasaan, melalui perjalanan sejarah dari Zaman Kuno hingga perdebatan kontemporer.
 

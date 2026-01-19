@@ -51,7 +51,7 @@ Ico gitabu cashinzwe kandi giterwa inkunga na [Chaincode Labs](https://learning.
 <chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
 
 
-Murakaze muri iri shure PHI 301 ryerekeye filozofiya y'iterambere rya Bitcoin.
+Murakaze muri iri shure BTC 303 ryerekeye filozofiya y'iterambere rya Bitcoin.
 
 
 Bitcoin ni ikintu kirenze amafaranga y’ibanga gusa, irimwo iyerekwa rya filozofiya ku bijanye n’ugusenyura ubutegetsi, ubuzima bwite, ukutagira icizigiro, n’ukwitanga. Iryo shure ryagenewe cane cane abahinguzi bamaze kumenya imishinge y’ubuhinga bwa Bitcoin ubu barondera gutahura cane ingingo ngenderwako zishingiye ku guhingura n’uburongozi bwa Bitcoin.
@@ -1168,14 +1168,14 @@ Bitcoin core yubahiriza iyi nsobanuro mu gukwiragizwa hakurikijwe [Uruhusha rwa 
 
 
 ```
-The MIT License (MIT)
+Uruhushirizo rwa MIT (MIT)
 
-Copyright (c) 2009-2022 The Bitcoin Core developers
-Copyright (c) 2009-2022 Bitcoin Developers
+Copyright (c) 2009-2022 Abahinguzi ba Bitcoin Core
+Copyright (c) 2009-2022 Abahinguzi ba Bitcoin
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Harahina, uruhushirizo rutangwa ku buntu ku muntu wese aronka kopi y'iyi software n'amadosiye y'inyandiko zijyanye nayo ("Software"), gukoresha Software nta nkomyi, harimo nta nkomyi uburenganzira bwo gukoresha, gukoporora, guhindura, guhuza, gutangaza, gukwirakwiza, gutanga uruhushirizo rw'epfo, na/cyangwa kugurisha kopi za Software, no kureka abantu Software ibaherewe gukora ibisa, munsi y'ibisabwa bikurikira:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+Itangazo ry'uburenganzira bw'umwanditsi riri hejuru n'iri tangazo ry'uruhushirizo bigomba kuba muri kopi zose cyangwa ibice by'ingenzi bya Software.
 ```
 
 

@@ -10,7 +10,6 @@ objectives:
 ---
 
 # Découvrez les fondamentaux du minage de Bitcoin
-<partId>b581d7e4-b97f-4bf8-aaec-313acd0ec0e2</partId>
 
 Comprendre la preuve de travail, c’est comprendre le fonctionnement même de Bitcoin. Sans cette invention et son usage ingénieux, Bitcoin n’aurait tout simplement pas pu exister. Ce cours vous fournit l’ensemble des bases théoriques sur le minage nécessaires dans votre parcours de bitcoiner.
 

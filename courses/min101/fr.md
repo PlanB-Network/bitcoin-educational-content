@@ -275,7 +275,7 @@ Le processus de minage est donc très simple :
 
 En réalité, le nonce n’est pas le seul champ que l’on peut modifier. Toute modification au sein des transactions d'un bloc entraîne un changement de la racine de l’arbre de Merkle, et donc une modification de l’entête de ce bloc. Avec la puissance de calcul moderne, parcourir les 4,29 milliards de valeurs possibles du nonce peut se faire relativement rapidement. C’est pourquoi il existe un autre champ, que l’on appelle généralement "*extra-nonce*", qui permet de démultiplier encore les possibilités de variation de l’entête. Nous reviendrons plus en détail sur ce mécanisme dans un prochain chapitre.
 
-### Quel est l'intérêt de cette preuve de travail ?
+### Quel est l'intérêt de la preuve de travail ?
 
 On parle de "*preuve*" parce que le résultat est immédiatement vérifiable : une fois un bloc produit, n’importe quel nœud peut contrôler, en une fraction de seconde, que l’empreinte cryptographique de son entête est bien inférieure à la cible exigée. On parle de "*travail*" parce que parvenir à cette empreinte a requis une multitude d’essais, donc un coût réel en calcul et en énergie.
 

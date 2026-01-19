@@ -949,55 +949,55 @@ Ibiceri vya kera vy’Abashinwa birafise ibiranga bitandukanye n’imigenzo y’
 
 
 
-Amafaranga y’Ubushinwa na yo arangwa n’umuce wayo w’ukwizigira. Kuva mu ntango nyene, ibishushanyo vy’umuringa vy’ibikoko vyitwa cowries (ibikoko vyo mu kiyaga) vyakoreshwa nk’amahera, ata sano ryari rifise n’agaciro k’imbere k’icuma cakoreshwa. Nitwasubira kure cane mu mateka, Abashinwa bakoresha ibikoko vyo mu kiyaga nk’amahera. Amaherezo, igihe ibikoko vyari bike cane, barabikora mu muringa, kandi ivyo bikopi vyari bifise agaciro nk’ak’ico kintu nyaco.
+Amafaranga y’Ubushinwa na yo arangwa n’umuce wayo w’ukwizigira. Kuva mu ntango nyene,  vy’ibikoko vyitwa  cauris (ibikoko vyo mu kiyaga) vyakoreshwa nk’amahera, ata sano ryari rifise n’agaciro k’imbere k’icuma cakoreshwa. Nitwasubira kure cane mu mateka, Abashinwa bakoresha ibikoko vyo mu kiyaga nk’amahera. Amaherezo, igihe ibikoko vyari bike cane, baciye bakora ibisa navyo muri cuivre , kandi ivyo vyiganano vyari bifise agaciro nk’ak’ivyo bikoko.
 
 
 
-Amafaranga y’Ubushinwa rero ntiyashingiye ku gaciro k’ikintu canke ku kuntu ikintu c’intango cari gito cane (nk’akarorero, ibikoko vyo mu mazi), ahubwo yari ashingiye ku kwizigira rusangi mu gukoreshwa kwayo nk’uburyo bwo guhinduranya - mu yandi majambo, ikimenyetso c’amahera.
+Amafaranga y’Ubushinwa rero ntiyashingiye ku gaciro k’ikintu canke ku kuntu ikintu c’intango cari gito cane (nk’akarorero, ibikoko vyo mu mazi), ahubwo yari ashingiye ku kwizigira rusangi mu gukoreshwa kwayo nk’uburyo bwo guhanahana - mu yandi majambo, ikimenyetso c’amahera.
 
 
 
-### Kuva ku bikoko vy'ibisiga gushika ku bishushanyo vy'ivyuma
+### ibikoko "cauris" ibigereranyo vyicuma
 
 
 
-Igikoko citwa cowrie cari gikoreshwa cane nk’ikintu c’amahera ca kera. Ivyanditswe vya kera vyerekana ko, kuva mu ngoma za Shang na Zhou (ingoma za mbere z’ikimpumbi ca mbere n’ica kabiri imbere ya Kristu), ibikoko vy’ibisiga vyitwa cowrie ntivyakoreshwa gusa mu guhemba ibikorwa vya gisirikare, ariko kandi no mu **guhemba akazi, gupima agaciro no kugura ubutaka**.
+Igikoko citwa "cauris" cari gikoreshwa cane nkuburyo bw'amafaranga ya kera. Ivyanditswe vya kera vyerekana ko, kuva mu ngoma za Shang na Zhou (ingoma za mbere z’ikimpumbi ca mbere n’ica kabiri imbere ya Kristu), ibikoko vya "cauris" ntivyakoreshwa gusa mu guhemba ibikorwa vya gisirikare, ariko kandi no mu **guhemba akazi, gupima agaciro no kugura ubutaka**.
 
 
 
-Ikintu gihambaye co kwibuka aha ni uko atari igikoresho cose gusa gikoreshwa n’abantu ku ntumbero zibujijwe. Yakoreshwa mu guhabwa impembo z’igisirikare, mu kwishura akazi no mu gupima agaciro. Ivyo turabibona mu vyanditswe n’abacukuzi. Naho tutazi nimba yakoreshwa mu kugura umukate ku musi ku musi, turafise ibimenyamenya vyerekana ko yari gushobora gukoreshwa mu bwoko bw’ibikorwa twavuze haruguru.
+Ikintu gihambaye co kwibuka aha ni uko atari igikoresho cose gusa gikoreshwa n’abantu mu bikorwa bibujijwe. Yakoreshwa mu guhabwa impembo z’igisirikare, mu kwishura akazi no mu gupima agaciro. Ivyo turabibona mu vyanditswe n’abacukuzi bivyakera. Naho tutazi nimba yakoreshwa mu kugura umukate mubuzima bwa misi yose, turafise ibimenyetso vyerekana ko vyashobora gukoreshwa mu bwoko bw’ibikorwa twavuze haruguru.
 
 
 
-Uko igihe cagenda kirarenga, ukubura kw’ibikoko vy’ukuri vy’ibikoko vyitwa cowrie vyatumye hakorwa ibintu vyigana mu muringa, mu magufa, mu mabuye y’agaciro canke mu mabuye, cane cane kugira ngo bikoreshwe mu bikorwa vy’amaziko kugira ngo ntihagire agaciro nyakuri mu mva hadakora. Iryo hinduka ry’ubuvuzi rirafitaniye isano n’iciyumviro c’uko umuganwa ari we agenzura amahera, ivyo bikaba vyoroshe cane iyo umuganwa ari we akora ayo mahera.
+Uko igihe cagenda kirarenga, ukubura kw’ibikoko nyakuri vya "cauris" vyatumye hakorwa ukwiganwa kwavyo mumu jumbu (bronze), mu magufa,"nacre", no mu mabuye cane cane kugira ngo bikoreshwe mu bikorwa vy’amaziko kugira ngo ntihagire agaciro nyakuri mu mva hadakora. Iryo hinduka ry’ubuvuzi rirafitaniye isano n’iciyumviro c’uko umuganwa ari we agenzura amahera, ivyo bikaba vyoroshe cane iyo umuganwa ari we akora ayo mahera.
 
 
 
-Ico dukwiye gutahura aha ni uko, mu kurenga urugero rw’ubukene bw’ibikoko vyo mu kiyaga, iyo umuganwa ashobora kwiremera amafaranga, bimuha ububasha bwinshi ku bijanye n’uburongozi bw’ubutunzi.
+Ico dukwiye gutahura aha ni uko, aho kugarukira kutaboneka cane kwivyo bikoko vyo mu kiyaga, iyo umuganwa ashobora kwikorera amafaranga, bimuha ububasha bwinshi ku bijanye n’uburongozi bw’ubutunzi.
 
 
 
-Mu buryo butandukanye n’i Mezopotamiya, aho ibiceri vyari bifitaniye isano n’uburemere bw’icuma c’agaciro, amajambo y’ibiceri vy’Abashinwa akomoka ata guca ku ruhande ku mibumbe y’intango y’ibintu vyakoreshwa nk’amahera: ama cowries (bei), ibyuma (dao), ama spade (bu), n’ibiceri vy’ikibumbano (quan canke qian). Gutyo, turashobora kubona ko inkomoko y’amajambo yerekeye amahera mu Bushinwa yerekeza kuri ivyo bintu. Mu buryo butandukanye n’ubwo, mu Burengero, turafise amajambo y’amahera menshi ava mu vyiyumviro bitandukanye cane n’ivyo, afitaniye isano cane n’ibiranga umubiri n’uburemere bw’ibintu vy’amahera. Ivyo bitandukanye mu bijanye n’inkomoko vyerekana neza ukuntu amajambo atandukanye ari hagati y’ivyo Abanyaburengero n’Abashinwa babona ku bijanye n’amahera.
+Mu buryo butandukanye n’i Mezopotamiya, aho ibiceri agaciro kavyo kari gafatiye k’uburemere bw’icuma c’agaciro, amajambo y’ibiceri vy’Abashinwa akomoka ata guca ku ruhande kumiterere yibikoresho bakoresha nk’amahera: ama  cauris (bei), imbugita (dao),  bêches (bu), n’ibiceri vyiburungushuye (quan canke qian). Gutyo, turashobora kubona ko inkomoko y’amajambo yerekeye amahera mu Bushinwa yerekeza kuri ivyo bintu. Mu buryo butandukanye n’ubwo, mu Burengero, turafise amajambo y’amahera menshi ava mu vyiyumviro bitandukanye cane n’ivyo, afitaniye isano cane n’ibiranga kamere n’uburemere bw’ibintu vy’amahera. Ivyo bitandukanye mu bijanye n’inkomoko vyerekana neza ukuntu amajambo atandukanye ari hagati y’ivyo Abanyaburengero n’Abashinwa babona ku bijanye n’amahera.
 
 
 
-Mu Bushinwa, agaciro k’amahera kari ako kwizigirwa rwose, gashingiye ku masezerano y’imibano hagati ya Leta, abahingura n’abadandaza.
+Mu Bushinwa, agaciro k’amahera kari gafatiye kukuyizigira gusa, gashingiye ku masezerano y’imibano hagati ya Leta, abahingura n’abadandaza.
 
 
 
-### Amabwirizwa y'ubutunzi na filozofiya y'amahera
+### Itunganywa ry'ubutunzi na philosophie y'amahera
 
 
 
-Leta y’Ubushinwa yakoresha amahera nk’igikoresho co gutegeka ubutunzi: mu bihe vy’ubutunzi bwinshi, agaciro k’amahera karagabanuka, bigatuma abantu boroherwa no kugura ibintu. Ku rundi ruhande, mu bihe vy’ubukene bw’amahera, agaciro k’amahera karaduga, ivyo bikaba bikomeza ubushobozi bwa Leta bwo kugura ibikorwa vyayo vyakurikiye.
+Leta y’Ubushinwa yakoresha amahera nk’igikoresho co gutunganya ubutunzi: mu bihe vy’ubutunzi bwinshi bwamafaranga, agaciro k’amahera karagabanuka, bigatuma abantu boroherwa no kugura ibintu. Ku rundi ruhande, mu bihe vy’ubukene bw’amafaranga, agaciro k’amahera karaduga, ivyo bikaba bikomeza ubushobozi bwa Leta bwo kugura ibikorwa vyayo vyakurikiye.
 
 
 
-Ihuriro rishobora gukorwa hano n’ugutera imbere kw’ibiciro n’ugutera imbere kw’ibiciro. Iyo amafaranga adahinduka, iyo umusaruro w’ubutunzi wiyongera, agaciro k’amahera karaduga. Ku ruhande rumwe, iyo umusaruro ugabanutse, agaciro k’amahera karagabanuka. Ariko rero, muri aka karorero, ni ibihushanye n’ivyo. Kumbure kubera ko uwo mwami atagira ububasha bwose bwo guhingura amahera, yamara rero biracagaragaza ko agaciro k’amahera kari gafitaniye isano n’ivy’ubutunzi.
+Ihuriro rishobora gukorwa hano mw'iduga n'imanuka ryagaciro kamahera. Iyo amafaranga adahinduka, iyo umusaruro w’ubutunzi wiyongera, agaciro k’amahera karaduga. kurundi ruhande, iyo umusaruro ugabanutse, agaciro k’amahera karagabanuka. Ariko rero, muri aka karorero, ni ibihushanye n’ivyo. Kumbure kubera ko uwo muganwa atagira atakora amahera akora kimwe mugihugu, yamara rero biracagaragaza ko agaciro k’amahera kari gafitaniye isano nuko ivy'ubutunzi vyifashe.
 
 
 
-Umunyabwenge Mo Di (mu kinjana ca 5-4 BC) yari amaze gusuzuma ubu bucuti buri hagati y'igiciro n'agaciro: nk'uko abivuga, uguhinduka kw'ibiciro ntikwerekana iciyumviro nyaco c'uguhenda canke ubuzimvye bushitse, ahubwo ni ubucuti buhinduka hagati y'ibicuruzwa n'amafaranga, bitandukanye n'agaciro k'izina k'ikimenyetso c'amafaranga.
+Umunyabwenge Mo Di (mu kinjana ca 5-4 BC) yari amaze gusuzuma ubu bucuti buri hagati y'ikiguzi n'agaciro: nk'uko abivuga, uguhinduka kw'ibiciro ntikwerekana iciyumviro nyaco yisoko.... canke ubuzimvye bushitse, ahubwo ni ubucuti buhinduka hagati y'ibicuruzwa n'amafaranga, bitandukanye n'agaciro k'izina k'ikimenyetso c'amafaranga.
 
 
 

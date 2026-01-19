@@ -1,15 +1,15 @@
 ---
-name: LN+
-description: Comment améliorer la connectivité et la liquidité d’un nœud Lightning sans recourir à des solutions centralisées ni à des hubs imposés.
+name: Lightning Network+
+description: Obtenez de la liquidité entrante gratuitement grâce aux ouverture coopératives sur votre nœud Lightning
 ---
 
 ![cover](assets/cover.webp)
 
 ## Introduction
 
-LN+ (Lightning Network Plus) est une plateforme communautaire conçue pour faciliter la coopération entre opérateurs de nœuds Lightning Network. Son objectif principal est d’améliorer la connectivité, la liquidité et la décentralisation du réseau Lightning, sans passer par des intermédiaires centralisés.
+[LN+ (Lightning Network Plus)](https://lightningnetwork.plus/) est une plateforme communautaire conçue pour faciliter la coopération entre opérateurs de nœuds Lightning Network. Son objectif principal est d’améliorer la connectivité, la liquidité et la décentralisation du réseau Lightning, sans passer par des intermédiaires centralisés.
 
-Ce tutoriel se concentre principalement sur le service **« Swaps »**, qui constitue aujourd’hui la fonctionnalité la plus utilisée et la plus structurante de LN+. Les autres services proposés par la plateforme seront brièvement présentés, sans entrer dans des détails opérationnels.
+Ce tutoriel se concentre principalement sur le service **"Swaps"**, qui constitue aujourd’hui la fonctionnalité la plus utilisée et la plus structurante de LN+. Les autres services proposés par la plateforme seront également présentés.
 
 ## Présentation générale de LN+
 
@@ -150,7 +150,7 @@ Une fois l’ensemble des paramètres renseignés, cliquez sur **Start Liquidity
 
 ## Finaliser un swap
 
-###  Ouverture effective des canaux
+### Ouverture effective des canaux
 
 Toutes les places du swap ayant été prises, chaque participant peut voir, depuis son interface LN+, vers quel nœud il doit ouvrir un canal Lightning.
 
@@ -164,25 +164,25 @@ Une fois l’ouverture lancée, le canal apparaît dans la section des canaux en
 
 ![capture](assets/fr/15.webp)
 
-###  Confirmation dans LN+
+### Confirmation dans LN+
 
 Retournez ensuite sur LN+ afin de confirmer que vous avez bien initié l’ouverture du canal, en cliquant sur le bouton `Channel Opening Started`.
 
 ![capture](assets/fr/16.webp)
 
-###  Fin du swap
+### Fin du swap
 
 Lorsque tous les participants ont ouvert les canaux auxquels ils s’étaient engagés, le swap est considéré comme terminé.
 
-##  Réputation et bonnes pratiques de communication
+## Réputation et bonnes pratiques de communication
 
-###  Le système de réputation sur LN+
+### Le système de réputation sur LN+
 
 LN+ intègre un système de réputation basé sur les avis laissés par les participants à l’issue des swaps. Ces avis sont publics et influencent directement la capacité d’un opérateur à rejoindre ou créer de futurs swaps.
 
 ![capture](assets/fr/17.webp)
 
-###  Bonnes pratiques recommandées
+### Bonnes pratiques recommandées
 
 Afin de préserver une bonne réputation et de garantir le bon déroulement des swaps, il est recommandé de :
 
@@ -194,7 +194,7 @@ Afin de préserver une bonne réputation et de garantir le bon déroulement des 
 
 ![capture](assets/fr/18.webp)
 
-###  Pourquoi la réputation est centrale dans LN+
+### Pourquoi la réputation est centrale dans LN+
 
 LN+ repose sur un modèle de coopération volontaire, sans contrainte technique forte. La réputation constitue donc le principal mécanisme incitatif garantissant le sérieux et la fiabilité des participants.
 

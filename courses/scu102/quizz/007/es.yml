@@ -1,0 +1,9 @@
+question: ¿Qué significa la regla 3-2-1 en términos de copia de seguridad de datos?
+answer: 3 copias en 2 soportes diferentes, 1 de ellas almacenada fuera de las instalaciones
+wrong_answers:
+  - 3 copias en 2 soportes en línea y 1 dispositivo físico
+  - 3 soportes con 2 copias, una de ellas externa
+  - 3 copias, 2 de ellas cifradas y 1 almacenada fuera de las instalaciones
+explanation: |
+  Esta norma recomienda tener 3 copias de los datos en 2 tipos diferentes de soportes, con 1 copia almacenada fuera de las instalaciones para una mayor resiliencia.
+reviewed: false

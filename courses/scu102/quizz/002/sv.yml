@@ -1,0 +1,9 @@
+question: Vilka försiktighetsåtgärder bör vidtas mot donationsbedrägerier och bedrägliga lotterier?
+answer: Skicka aldrig pengar för att ta emot bitcoins
+wrong_answers:
+  - Skicka alltid ett litet belopp för att testa erbjudandet
+  - Investera för att få en snabb och enkel vinst
+  - Dela personlig information för att säkra transaktionen
+explanation: |
+  Att begära en förskottsbetalning är ett vanligt tecken på bedrägeri i den här typen av bedrägerier.
+reviewed: false

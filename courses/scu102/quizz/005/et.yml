@@ -1,0 +1,9 @@
+question: Miks on soovitatav kahefaktoriline autentimine?
+answer: See lisab täiendava Layer turvalisuse
+wrong_answers:
+  - See lihtsustab juurdepääsu, vähendades koodide arvu
+  - See võimaldab sisselogimist ilma paroolita
+  - See asendab paroolihalduri kasutamise
+explanation: |
+  2FA nõuab lisaks paroolile ka ajutist koodi, mis tugevdab oluliselt võrgukonto kaitset.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mitä Pump and Dump tarkoittaa kryptovaluutta-alalla?
+answer: Omaisuuserän manipulointi kampanjan avulla, jotta se voidaan myydä huipulla
+wrong_answers:
+  - Omaisuuserän ostaminen massiivisesti sen hinnan tukemiseksi myymättä sitä koskaan
+  - Markkinoiden vakauttaminen pitkällä aikavälillä vastakkaisten kauppojen avulla
+  - Toistuvien ostojen tekeminen pitkäaikaisen altistumisen saamiseksi omaisuuserälle
+explanation: |
+  Tässä petollisessa tekniikassa hintaa nostetaan keinotekoisesti, jotta se voitaisiin myydä kriittisellä hetkellä ja saada arvo romahtamaan.
+reviewed: false

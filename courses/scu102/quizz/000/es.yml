@@ -1,0 +1,9 @@
+question: ¿Cuáles son las características típicas de un esquema Ponzi en el ecosistema criptográfico?
+answer: Rendimientos garantizados, retiradas difíciles y remisiones
+wrong_answers:
+  - Rendimientos bajos, retiradas difíciles y total transparencia
+  - Rendimientos garantizados, retiradas difíciles y sin sistema de recomendación
+  - Rentabilidad garantizada, retiros fáciles y sin sistema de recomendación
+explanation: |
+  Estas características pueden indicar una estafa piramidal. Si las observa en un proyecto, sea muy precavido.
+reviewed: false

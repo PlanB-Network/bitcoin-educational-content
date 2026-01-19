@@ -1,0 +1,9 @@
+question: Miksi verkkoturvallisuus on ratkaisevan tärkeää Bitcoin-käyttäjille?
+answer: Koska hakkerointi johtaa bitcoinien peruuttamattomaan menetykseen
+wrong_answers:
+  - Koska pankit vakuuttavat varat Bitcoin:n täydellisen tappion varalta
+  - Koska bitcoinien menettämisestä voi joutua vankilaan..
+  - Koska hyökkäykset johtavat erittäin raskaaseen hallinnolliseen taakkaan
+explanation: |
+  Ilman välikäsiä hakkerointi tarkoittaa bitcoinien lopullista menetystä.
+reviewed: false

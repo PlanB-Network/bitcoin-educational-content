@@ -1,0 +1,9 @@
+question: Dlaczego należy regularnie aktualizować system i oprogramowanie?
+answer: Aby naprawić znane luki w zabezpieczeniach
+wrong_answers:
+  - Zwiększenie szybkości komputerów PC, a tym samym szybsze reagowanie na cyberataki
+  - Aby dodać funkcje hakerskie
+  - Aby zoptymalizować kompatybilność gier wideo z Bitcoin
+explanation: |
+  Aktualizacje często usuwają znane luki, które są wykorzystywane przez hakerów.
+reviewed: false

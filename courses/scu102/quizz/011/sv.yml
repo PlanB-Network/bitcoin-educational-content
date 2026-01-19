@@ -1,0 +1,9 @@
+question: Varför är det viktigt att skydda din Mnemonic-fras?
+answer: För att förlora det resulterar i permanent förlust av bitcoins
+wrong_answers:
+  - Eftersom Blockchain är för lång för att återskapa den
+  - För att förlusten av den leder till att personuppgifter läcker ut
+  - Eftersom Exchange-plattformar kräver många dokument för att regenerera det
+explanation: |
+  Mnemonic-frasen gör det möjligt att återfå åtkomsten. Om den går förlorad och Wallet inte längre är tillgänglig på enheten, är bitcoins permanent förlorade.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hva betyr begrepet "self-custody" i Bitcoin-verdenen?
+answer: Oppbevar de private nøklene dine selv
+wrong_answers:
+  - Betro nøklene dine til en spesialisert Exchange-plattform
+  - Overlat nøklene dine til en investeringsbank
+  - Oppbevar de offentlige nøklene dine selv
+explanation: |
+  Selvoppbevaring sikrer at brukeren opprettholder full kontroll over bitcoinsene sine gjennom sine egne private nøkler.
+reviewed: false

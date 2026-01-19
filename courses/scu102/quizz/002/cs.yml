@@ -1,0 +1,9 @@
+question: Jaká opatření je třeba přijmout proti podvodům s dary a podvodným loteriím?
+answer: Nikdy neposílejte peníze, abyste obdrželi bitcoiny
+wrong_answers:
+  - Vždy posílejte malou částku na otestování nabídky
+  - Investujte a získejte rychlý a snadný zisk
+  - Sdílet osobní údaje pro zabezpečení transakce
+explanation: |
+  Požadavek na platbu předem je u tohoto typu podvodu běžným znakem podvodu.
+reviewed: false

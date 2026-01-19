@@ -1,0 +1,9 @@
+question: Vad innebär Pump and Dump i kryptovalutasammanhang?
+answer: Manipulera en tillgång genom en kampanj för att sälja vid toppnoteringen
+wrong_answers:
+  - Massiva köp av en tillgång för att stödja dess pris utan att någonsin sälja
+  - Stabilisering av marknaden på lång sikt genom motsatta affärer
+  - Genomföra återkommande köp för att få en långsiktig exponering mot tillgången
+explanation: |
+  Denna bedrägliga teknik går ut på att artificiellt blåsa upp priset för att sälja vid ett kritiskt tillfälle och få värdet att krascha.
+reviewed: false

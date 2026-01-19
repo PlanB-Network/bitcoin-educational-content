@@ -1,0 +1,9 @@
+question: Miks on soovitatav investeerida ainult sellesse, mida võite endale lubada kaotada?
+answer: Teie rahalise turvalisuse säilitamiseks kao korral
+wrong_answers:
+  - Maksimeerida kasumit kiiresti karuturul
+  - Oma investeeringute massiliseks mitmekesistamiseks
+  - Laenata, et investeerida rohkem
+explanation: |
+  Investeerimine üle oma võimaluste (st üle teie säästuvõime) seab teid liiga suurtele finantsriskidele.
+reviewed: false

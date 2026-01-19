@@ -1,0 +1,9 @@
+question: Dlaczego zalecane jest uwierzytelnianie dwuskładnikowe?
+answer: Dodaje to dodatkowe Layer bezpieczeństwa
+wrong_answers:
+  - Upraszcza dostęp poprzez zmniejszenie liczby kodów
+  - Umożliwia logowanie bez hasła
+  - Zastępuje korzystanie z menedżera haseł
+explanation: |
+  2FA wymaga tymczasowego kodu oprócz hasła, co znacznie wzmacnia ochronę konta online.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Apa yang harus Anda lakukan untuk mengidentifikasi upaya phishing di sektor kripto?
+answer: Verifikasi identitas pengirim
+wrong_answers:
+  - Hanya klik tautan yang diterima di email
+  - Bagikan kunci pribadi Anda untuk mengonfirmasi keaslian
+  - Hanya mengandalkan logo dan gambar dalam email
+explanation: |
+  Anda harus selalu memastikan bahwa Anda berinteraksi dengan orang yang tepat, dan jangan pernah menggunakan tautan yang disediakan dalam email. Sebaliknya, buka langsung situs tersebut secara manual, dengan menggunakan penanda peramban Anda.
+reviewed: false

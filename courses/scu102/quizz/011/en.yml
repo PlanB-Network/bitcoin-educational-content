@@ -1,0 +1,9 @@
+question: Why is it important to protect your mnemonic phrase?
+answer: Because losing it results in the permanent loss of bitcoins
+wrong_answers:
+  - Because the blockchain is too long to regenerate it
+  - Because losing it leads to a leak of personal data
+  - Because exchange platforms require a lot of documents to regenerate it
+explanation: |
+  The mnemonic phrase allows access to be recovered. If it is lost and the wallet is no longer accessible on its device, the bitcoins are permanently lost.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hvilke forholdsregler bør man ta mot donasjonssvindel og falske lotterier?
+answer: Send aldri penger for å motta bitcoins
+wrong_answers:
+  - Send alltid et lite beløp for å teste tilbudet
+  - Invester for å få rask og uanstrengt fortjeneste
+  - Del personlig informasjon for å sikre transaksjonen
+explanation: |
+  Forespørsler om forhåndsbetaling er et vanlig tegn på svindel i denne typen svindel.
+reviewed: false

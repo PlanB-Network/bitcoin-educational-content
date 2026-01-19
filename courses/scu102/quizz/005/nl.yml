@@ -1,0 +1,9 @@
+question: Waarom wordt twee-factor authenticatie aanbevolen?
+answer: Het voegt een extra Layer aan beveiliging toe
+wrong_answers:
+  - Het vereenvoudigt de toegang door het aantal codes te verminderen
+  - Het maakt inloggen zonder wachtwoord mogelijk
+  - Het vervangt het gebruik van een wachtwoordmanager
+explanation: |
+  2FA vereist een tijdelijke code naast het wachtwoord, wat de bescherming van een online account enorm versterkt.
+reviewed: false

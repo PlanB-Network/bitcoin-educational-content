@@ -1,0 +1,10 @@
+question: Koja je zajednička karakteristika prevara u domenu kriptovaluta?
+answer: Obećanja o nerealnim prinosima.
+wrong_answers:
+  - Obećanja fizičkih dobara.
+  - Obećanja softverskih proizvoda.
+  - Obećanja fiat valute.
+explanation: |
+  Prevare u domenu kriptovaluta često obećavaju nerealne prinose.
+  Ključno je ne verovati slepo, posebno kada je u pitanju internet baner.
+reviewed: false

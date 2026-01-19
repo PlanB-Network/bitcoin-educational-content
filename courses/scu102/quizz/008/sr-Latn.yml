@@ -1,0 +1,11 @@
+question: Koja je glavna svrha ažuriranja softvera?
+answer: Da popravite greške i poboljšate sigurnost vašeg softvera
+wrong_answers:
+  - Da dodate nove funkcije
+  - Da promenite softver Interface
+  - Da povećate veličinu softvera
+explanation: |
+  Iako softverska ažuriranja često dolaze sa novim funkcijama, njihova glavna svrha
+  je da isprave greške i poboljšaju bezbednost softvera. Ovo je ključno kako bi
+  vaš računar bio u optimalnom radnom stanju.
+reviewed: false

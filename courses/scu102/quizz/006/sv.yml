@@ -1,0 +1,9 @@
+question: Vad är den största fördelen med att använda en lösenordshanterare?
+answer: Den lagrar och genererar komplexa lösenord
+wrong_answers:
+  - Det ger tips för att komma ihåg dina lösenord
+  - Återanvänder samma lösenord på olika onlinekonton
+  - Ersätter behovet av antivirusprogram
+explanation: |
+  Lösenordshanteraren skapar starka lösenord och lagrar dem på ett säkert sätt så att de enkelt kan hämtas utan att du behöver memorera dem.
+reviewed: false

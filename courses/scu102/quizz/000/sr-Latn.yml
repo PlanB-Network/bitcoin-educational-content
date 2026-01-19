@@ -1,0 +1,9 @@
+question: Koja je zajednička karakteristika Ponzi šema u domenu kriptovaluta?
+answer: Oni koriste novac novih investitora da isplate starije učesnike.
+wrong_answers:
+  - Oni uvek uključuju Bitcoin.
+  - Oni su uvek legalni i regulisani.
+  - Oni uvek uključuju fizičku imovinu.
+explanation: |
+  Ponzi šeme u domenu kriptovaluta često funkcionišu korišćenjem novca novih investitora za isplatu starijih učesnika. Ova neodrživa priroda i zavisnost od novih pridošlica čine ih sklonim neizbežnom kolapsu.
+reviewed: false

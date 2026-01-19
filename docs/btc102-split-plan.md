@@ -1,0 +1,574 @@
+# BTC 102 Split Project - Master Plan
+
+## Project Overview
+
+**Objective**: Split the current BTC 102 course ("Getting your first bitcoins" - 14 hours) into 7 smaller, focused courses with ~5-minute content bites. Each new course will be standalone while maintaining coherence with the broader curriculum.
+
+**Branch**: `split-btc102`
+
+**Key Principles**:
+1. Only modify English markdown files (`en.md`)
+2. Keep original BTC 102 intact until all new courses are created
+3. Document all content mappings for future multi-language bootstrap
+4. Mark NEW content vs ORIGINAL content (from BTC102) clearly
+5. Follow standard course structure (Introduction → Content Sections → Conclusion)
+6. All courses are FREE
+
+---
+
+## Project Workflow
+
+### Current Phase: Course Definition & Review
+We are reviewing each of the 7 new courses one by one to define their detailed structure before any implementation begins.
+
+### Course Review Status
+
+| # | Course Code | Course Name | Review Status | Implementation Status | Notes |
+|---|-------------|-------------|---------------|----------------------|-------|
+| 1 | SCU102 | Financial Fraud, Scams & Online Security | ✅ REVIEWED | ✅ **IMPLEMENTED** | Completed 2026-01-19 |
+| 2 | ECO105 | Why Bitcoin Matters | NOT STARTED | - | Next to review |
+| 3 | BIZ102 | Bitcoin Industry Overview | NOT STARTED | - | |
+| 4 | BTC103 | How to Acquire Bitcoin | NOT STARTED | - | |
+| 5 | BTC104 | How to Secure Bitcoin | NOT STARTED | - | |
+| 6 | SOV102 | Bitcoin Inheritance Planning | NOT STARTED | - | |
+| 7 | BTC102v2 | Your First Bitcoin Journey (Hub) | NOT STARTED | - | Created last |
+
+### After All Reviews Complete
+Once all 7 courses have been reviewed and approved:
+1. Set up implementation plan
+2. Fork/create courses one at a time
+3. Final cleanup
+
+---
+
+## Current BTC 102 Structure Analysis
+
+| Part | Title | Chapters | Lines (approx) |
+|------|-------|----------|----------------|
+| Intro | Course overview | 1 | 23-74 |
+| Part 1 | Prerequisites for understanding Bitcoin | Scams & fraud, Online security, Tips for newcomers | 75-549 |
+| Part 2 | Understanding what you're getting into | Bitcoin in 5 min, Why BTC matters, BTC industry, Layered architecture | 550-1194 |
+| Part 3 | Setting up your plan | Choose profile, Hodler, Stacker, Active User, Paranoid | 1195-2191 |
+| Part 4 | Protecting Your Heirs and Wealth | Inheritance plan, Conclusion | 2192-2527 |
+| Final | Reviews, Exam, Conclusion | 3 | 2528-2545 |
+
+**Available Assets**: 28 language translations, 100+ images per language, quizzes (000-013+), videos
+
+---
+
+## Proposed New Courses (7 Total)
+
+### Course 1: SCU102 - Financial Fraud, Scams & Online Security
+**Discipline**: Security (SCU)
+**Level**: Beginner (102)
+**Estimated Duration**: 3 hours
+**Source**: BTC102 Part 1 - ALL chapters (Scams, Online Security, Tips for newcomers)
+**Review Status**: ✅ REVIEWED (2026-01-19)
+**Implementation Doc**: [scu102-creation.md](scu102-creation.md)
+
+---
+
+#### Source Content Mapping (BTC102 en.md)
+
+| BTC102 Chapter | Lines | Content |
+|----------------|-------|---------|
+| Scams and financial fraud | 79-234 | All fraud types, how to avoid scams |
+| Online security | 236-373 | Cybersecurity basics, privacy |
+| Tips for newcomers | 376-549 | Common mistakes, investment strategy, discretion |
+
+---
+
+#### Course Structure (Parts & Chapters)
+
+The structure follows standard course format:
+- `#` = Part (with `<partId>`)
+- `##` = Chapter (with `<chapterId>`)
+- `###` = Subsection within chapter
+
+```
+# Part 1: Introduction
+└── ## Chapter 1: Introduction [NEW]
+
+# Part 2: Financial Fraud
+├── ## Chapter 2: Understanding Financial Fraud [ORIGINAL + NEW]
+├── ## Chapter 3: Pyramid & Ponzi Schemes [ORIGINAL]
+├── ## Chapter 4: Pump & Dump Schemes [ORIGINAL]
+└── ## Chapter 5: Fake Giveaways & Lotteries [ORIGINAL]
+
+# Part 3: Crypto Scams
+├── ## Chapter 6: Shitcoins & Airdrops [ORIGINAL + NEW expansion]
+├── ## Chapter 7: Phishing & Identity Theft [ORIGINAL]
+├── ## Chapter 8: Bitcoin Hardforks Confusion [ORIGINAL]
+└── ## Chapter 9: Dishonest Influencers [ORIGINAL]
+
+# Part 4: How to Protect Yourself
+└── ## Chapter 10: Red Flags & Verification [ORIGINAL]
+
+# Part 5: Online Security
+├── ## Chapter 11: Why Cybersecurity Matters [ORIGINAL]
+├── ## Chapter 12: Clean Computer Practices [ORIGINAL]
+├── ## Chapter 13: Password Security [ORIGINAL + SCU101 ref]
+├── ## Chapter 14: Two-Factor Authentication [ORIGINAL + SCU101 ref]
+├── ## Chapter 15: Privacy Protection [ORIGINAL + SCU101 ref]
+└── ## Chapter 16: Step-by-Step Security Progression [ORIGINAL]
+
+# Part 6: Tips for Bitcoin Beginners
+├── ## Chapter 17: Common Mistakes to Avoid [ORIGINAL]
+├── ## Chapter 18: Investment Strategy Basics [ORIGINAL]
+├── ## Chapter 19: Understanding Volatility [ORIGINAL]
+├── ## Chapter 20: Wallet Security Fundamentals [ORIGINAL]
+├── ## Chapter 21: Confidentiality & Discretion [ORIGINAL]
+├── ## Chapter 22: Tax Awareness [ORIGINAL]
+└── ## Chapter 23: Trading vs Investing vs Holding [ORIGINAL]
+
+# Part 7: Conclusion
+├── ## Chapter 24: Keep Learning [ORIGINAL + NEW]
+├── ## Chapter 25: Golden Rules [ORIGINAL]
+└── ## Chapter 26: Next Steps [NEW]
+```
+
+**Total: 7 Parts, 26 Chapters**
+
+---
+
+#### Quiz Mapping (15 quizzes)
+
+| Quiz # | Question Topic | Target Chapter |
+|--------|----------------|----------------|
+| 000 | Ponzi scheme characteristics | Ch 3: Pyramid & Ponzi |
+| 001 | Phishing identification | Ch 7: Phishing |
+| 002 | Donation scam precautions | Ch 5: Fake Giveaways |
+| 003 | Pump & Dump definition | Ch 4: Pump & Dump |
+| 004 | Ponzi scheme mechanism | Ch 3: Pyramid & Ponzi |
+| 005 | Two-factor authentication | Ch 14: 2FA |
+| 006 | Password manager advantages | Ch 13: Password Security |
+| 007 | 3-2-1 backup rule | Ch 12: Clean Computer |
+| 008 | System/software updates | Ch 12: Clean Computer |
+| 009 | Online security importance | Ch 11: Why Cybersecurity |
+| 010 | Discretion about holdings | Ch 21: Confidentiality |
+| 011 | Protecting mnemonic phrase | Ch 20: Wallet Security |
+| 012 | Self-custody definition | Ch 20: Wallet Security |
+| 013 | Trading vs investing | Ch 23: Trading vs Investing |
+| 014 | Invest what you can afford | Ch 18: Investment Strategy |
+
+**Total quizzes for SCU102**: 15 (quizz 000-014)
+
+---
+
+#### Asset Mapping (25 images)
+
+| BTC102 Image | SCU102 Image | Topic | Chapter |
+|--------------|--------------|-------|---------|
+| 005 | 001 | Bitcoin vs Crypto ecosystem | Ch 2 |
+| 006 | 002 | Crypto ecosystem warning | Ch 2 |
+| 007 | 003 | Ponzi/Pyramid diagram | Ch 3 |
+| 008 | 004 | Pump & Dump cycle | Ch 4 |
+| 009 | 005 | Signal groups warning | Ch 4 |
+| 010 | 006 | Fake giveaway example | Ch 5 |
+| 011 | 007 | Bitcoin hardforks diagram | Ch 8 |
+| 012 | 008 | Dishonest influencers | Ch 9 |
+| 013 | 009 | Clean computer/antivirus | Ch 12 |
+| 014 | 010 | 3-2-1 Backup rule | Ch 12 |
+| 015 | 011 | Password manager concept | Ch 13 |
+| 016 | 012 | 2FA concept | Ch 14 |
+| 017 | 013 | 2FA app screenshot | Ch 14 |
+| 018 | 014 | SIM swap warning | Ch 14 |
+| 019 | 015 | VPN concept | Ch 15 |
+| 020 | 016 | Privacy tools summary | Ch 15 |
+| 021 | 017 | Tips overview | Ch 17 |
+| 022 | 018 | Common mistakes list | Ch 17 |
+| 023 | 019 | Budget planning | Ch 18 |
+| 024 | 020 | Volatility chart | Ch 19 |
+| 025 | 021 | Seed phrase importance | Ch 20 |
+| 026 | 022 | Not your keys warning | Ch 20 |
+| 027 | 023 | Tax implications | Ch 22 |
+| 028 | 024 | Tax calendar | Ch 22 |
+| 029 | 025 | Learning resources | Ch 24 |
+
+**Total images**: 25 (renumbered from BTC102 005-029 to SCU102 001-025)
+
+---
+
+#### Content Classification
+
+| Content Type | Chapters | Notes |
+|--------------|----------|-------|
+| ORIGINAL (copy from BTC102) | Ch 2-5, 7-25 | Lines 79-549 restructured |
+| NEW | Ch 1, 26 | Introduction, Next Steps |
+| ORIGINAL + NEW expansion | Ch 6 | Shitcoins section needs expansion |
+| ORIGINAL + SCU101 refs | Ch 13, 14, 15 | Add cross-references to tutorials |
+
+---
+
+#### SCU101 Cross-Reference Strategy
+
+For chapters 13, 14, 15, add reference boxes pointing to SCU101 tutorials:
+- Ch 13: Bitwarden/KeePass tutorials
+- Ch 14: Authy 2FA tutorial
+- Ch 15: IVPN/Mullvad VPN tutorials, Tor browser
+
+SCU102 explains **why** these tools matter; SCU101 shows **how** to set them up.
+
+---
+
+#### Implementation Checklist
+
+See [scu102-creation.md](scu102-creation.md) for detailed implementation steps.
+
+---
+
+### Course 2: ECO105 - Why Bitcoin Matters
+**Discipline**: Economy (ECO)
+**Level**: Beginner (105)
+**Estimated Duration**: 1.5-2 hours
+**Source**: BTC102 Part 2 - "Why is Bitcoin important?" chapter
+**Review Status**: NOT STARTED
+
+**Proposed Structure**:
+- Section 1: Introduction
+- Section 2: Bitcoin as Universal Currency
+  - Borderless transactions
+  - Remittances & financial inclusion
+- Section 3: Protection Against Economic Instability
+  - Currency crises
+  - Inflation hedge
+- Section 4: Bitcoin & Individual Freedom
+  - Response to state control
+  - Financial sovereignty
+- Section 5: Bitcoin vs Monetary Corruption
+  - Banking system critique
+  - Sound money principles
+- Section 6: Bitcoin as a Movement
+  - Political implications
+  - Social change
+- Section 7: Conclusion
+
+**Detailed Review Notes**:
+*(To be filled during in-depth review session)*
+
+---
+
+### Course 3: BIZ102 - Bitcoin Industry Overview
+**Discipline**: Business (BIZ)
+**Level**: Beginner (102)
+**Estimated Duration**: 1.5-2 hours
+**Source**: BTC102 Part 2 - "Understanding the Bitcoin industry" + "Layered Architecture" chapters
+**Review Status**: NOT STARTED
+
+**Proposed Structure**:
+- Section 1: Introduction
+- Section 2: Birth of a Global Industry
+  - History of Bitcoin business
+  - Proliferation of altcoins (cautionary)
+- Section 3: Institutional Adoption
+  - Major institutions
+  - Regulation landscape
+  - Banks' stance
+- Section 4: Industry Infrastructure
+  - Exchanges & custody
+  - Wallets ecosystem
+  - Mining industry
+  - Development community
+- Section 5: Bitcoin's Layered Architecture
+  - Extension layers
+  - Merchant tools
+- Section 6: Conclusion
+
+**Detailed Review Notes**:
+*(To be filled during in-depth review session)*
+
+---
+
+### Course 4: BTC103 - How to Acquire Bitcoin
+**Discipline**: Bitcoin (BTC)
+**Level**: Beginner (103)
+**Estimated Duration**: 1.5-2 hours
+**Source**: BTC102 Part 3 - Profile chapters (acquisition methods)
+**Review Status**: NOT STARTED
+
+**Proposed Structure**:
+- Section 1: Introduction
+- Section 2: Understanding Your Profile
+  - Hodler, Stacker, User, Paranoid profiles
+- Section 3: Acquisition Methods
+  - Exchanges (KYC)
+  - P2P platforms
+  - Bitcoin ATMs
+  - Earning Bitcoin
+- Section 4: DCA Strategy (Dollar Cost Averaging)
+  - Regular purchasing
+  - Automated tools
+- Section 5: First Purchase Walkthrough
+  - Step-by-step guide
+  - Common pitfalls
+- Section 6: Conclusion
+
+**Detailed Review Notes**:
+*(To be filled during in-depth review session)*
+
+---
+
+### Course 5: BTC104 - How to Secure Bitcoin
+**Discipline**: Bitcoin (BTC)
+**Level**: Beginner (104)
+**Estimated Duration**: 1.5-2 hours
+**Source**: BTC102 Part 3 - Profile chapters (security strategies)
+**Review Status**: NOT STARTED
+
+**Proposed Structure**:
+- Section 1: Introduction
+- Section 2: Wallet Types
+  - Hot vs Cold wallets
+  - Custodial vs Non-custodial
+- Section 3: Security by Profile
+  - Hodler security (hardware wallets)
+  - Stacker security
+  - Active user security
+  - Paranoid-level security
+- Section 4: Backup & Recovery
+  - Seed phrase management
+  - Multi-signature setups
+- Section 5: Best Practices
+  - Transaction verification
+  - Address management
+- Section 6: Conclusion
+
+**Detailed Review Notes**:
+*(To be filled during in-depth review session)*
+
+---
+
+### Course 6: SOV102 - Bitcoin Inheritance Planning
+**Discipline**: Sovereignty (SOV)
+**Level**: Beginner (102)
+**Estimated Duration**: 1-1.5 hours
+**Source**: BTC102 Part 4 - "Protecting Your Heirs and Wealth"
+**Review Status**: NOT STARTED
+
+**Proposed Structure**:
+- Section 1: Introduction
+- Section 2: Why Inheritance Planning Matters
+  - The problem of lost Bitcoin
+  - Goals of a succession plan
+- Section 3: Preparation Steps
+  - Inventory creation
+  - Selecting trusted assistants
+- Section 4: Creating Your Plan
+  - The inheritance letter
+  - Technical vs non-technical heirs
+- Section 5: Review & Storage
+  - Secure storage methods
+  - Regular updates
+- Section 6: Conclusion
+
+**Detailed Review Notes**:
+*(To be filled during in-depth review session)*
+
+---
+
+### Course 7: BTC102v2 - Your First Bitcoin Journey (Hub Course)
+**Discipline**: Bitcoin (BTC)
+**Level**: Beginner (102)
+**Estimated Duration**: 1-2 hours
+**Source**: NEW content + navigation guide
+**Review Status**: NOT STARTED
+**Note**: This course is created LAST after all others are complete
+
+**Proposed Structure**:
+- Section 1: Introduction
+  - Course overview (shortened)
+  - Learning path overview
+- Section 2: Quick Start Guide
+  - Condensed Bitcoin basics (link to BTC101)
+  - Your first steps
+- Section 3: Your Learning Path
+  - Profile quiz
+  - Recommended course sequence
+- Section 4: Course Directory
+  - Links to all split courses with descriptions
+- Section 5: Conclusion
+  - Next steps
+  - Resources
+
+**Detailed Review Notes**:
+*(To be filled during in-depth review session)*
+
+---
+
+## Content Mapping & Tracking System
+
+### Tagging Convention for Content Origin
+
+When creating new courses, all content will be tagged:
+
+```markdown
+<!-- ORIGINAL: btc102/en.md lines XXX-YYY -->
+[Original content here]
+<!-- END ORIGINAL -->
+
+<!-- NEW -->
+[Newly written content here]
+<!-- END NEW -->
+```
+
+This allows:
+1. Clear tracking of what came from BTC102
+2. Future automated splitting of other language files
+3. Translation teams to know what needs fresh translation vs reuse
+
+---
+
+## Quiz Mapping
+
+| Original Quiz | Target Course | Notes |
+|---------------|---------------|-------|
+| 000 | TBD | Needs content review |
+| 001 | TBD | Needs content review |
+| 002 | TBD | Needs content review |
+| ... | ... | ... |
+
+*Quiz content needs to be analyzed and mapped to appropriate new courses*
+
+---
+
+## Asset Mapping
+
+| Image Range | Topic | Target Course |
+|-------------|-------|---------------|
+| 001-004 | Course overview | BTC102v2 |
+| 005-0XX | Scams/fraud/security | SCU102 |
+| ... | ... | ... |
+
+*Full asset mapping to be completed during each course's in-depth review*
+
+---
+
+## Implementation Plan of Action
+
+### Phase 1: Documentation & Planning
+- [x] Analyze BTC102 structure
+- [x] Define 7 new courses
+- [x] Create this master plan document
+- [x] Finalize course codes
+- [x] Merge SCU103 into SCU102
+
+### Phase 2: In-Depth Course Reviews (CURRENT PHASE)
+Review each course one by one to:
+- Define exact content mapping from BTC102
+- Identify what's NEW vs ORIGINAL content
+- Map specific assets (images)
+- Map specific quizzes
+- Finalize section structure
+- Note any dependencies or cross-references
+
+**Review Order**:
+1. [x] SCU102 - Financial Fraud, Scams & Online Security ✅ **IMPLEMENTED**
+2. [ ] ECO105 - Why Bitcoin Matters ← **NEXT**
+3. [ ] BIZ102 - Bitcoin Industry Overview
+4. [ ] BTC103 - How to Acquire Bitcoin
+5. [ ] BTC104 - How to Secure Bitcoin
+6. [ ] SOV102 - Bitcoin Inheritance Planning
+7. [ ] BTC102v2 - Hub Course
+
+### Phase 3: Course Creation (After all reviews approved)
+For each course:
+1. Create course folder (`courses/XXX###/`)
+2. Create `course.yml` with proper metadata
+3. Create `en.md` with tagged content
+4. Copy relevant assets to new `assets/` folder
+5. Map relevant quizzes
+6. Create placeholder for: thumbnail, videos
+7. Review and validate structure
+
+**Implementation Order** (after all reviews complete):
+1. SCU102 (Financial Fraud, Scams & Online Security)
+2. ECO105 (Why Bitcoin Matters)
+3. BIZ102 (Industry Overview)
+4. BTC103 (How to Acquire)
+5. BTC104 (How to Secure)
+6. SOV102 (Inheritance Planning)
+7. BTC102v2 (Hub course) - created last, ties everything together
+
+### Phase 3: BTC102 Revision
+- Create BTC102 v2 as navigation/hub course
+- Keep original BTC102 files untouched until v2 is validated
+- Implement v2 as replacement
+
+### Phase 4: Cleanup
+- Remove temporary files/tools created during split
+- Final validation
+- PR preparation
+
+---
+
+## Decisions Made
+
+| Decision | Outcome | Date |
+|----------|---------|------|
+| SCU103 merged into SCU102 | Online security content combined with fraud/scams into single SCU102 course | 2026-01-19 |
+| Course codes finalized | SCU102, ECO105, BIZ102, BTC103, BTC104, SOV102, BTC102v2 | 2026-01-19 |
+
+## Open Questions (To Address During Reviews)
+
+1. **Video Strategy**: New videos will be created - should placeholder chapters be marked?
+
+2. **Quiz Splitting**: Should quizzes be reviewed and split now or during each course review?
+
+3. **Thumbnail Creation**: Handle separately or use placeholders?
+
+4. **SCU102 vs SCU101 overlap**: Ensure SCU102 references SCU101 for technical tools, doesn't duplicate
+
+---
+
+## File Structure Preview
+
+```
+courses/
+├── btc102/          # KEEP INTACT until v2 ready - DO NOT MODIFY
+│   ├── course.yml
+│   ├── en.md        # Source file for splitting
+│   ├── [28 language files]
+│   ├── assets/
+│   └── quizz/
+│
+├── scu102/          # NEW - Financial Fraud, Scams & Online Security
+│   ├── course.yml
+│   ├── en.md
+│   ├── assets/
+│   │   ├── en/
+│   │   └── thumbnail.webp (placeholder)
+│   └── quizz/
+│
+├── eco105/          # NEW - Why Bitcoin Matters
+├── biz102/          # NEW - Bitcoin Industry Overview
+├── btc103/          # NEW - How to Acquire Bitcoin
+├── btc104/          # NEW - How to Secure Bitcoin
+├── sov102/          # NEW - Bitcoin Inheritance Planning
+└── btc102v2/        # LAST - Hub course (replaces btc102 eventually)
+```
+
+---
+
+## Document History
+
+| Date | Author | Changes |
+|------|--------|---------|
+| 2026-01-19 | Claude/Rogzy | Initial plan creation |
+| 2026-01-19 | Claude/Rogzy | Merged SCU103 into SCU102, finalized course codes, added review status tracking |
+| 2026-01-19 | Claude/Rogzy | **REVISED** SCU102 review: 7 Parts, 26 Chapters, 15 quizzes (000-014), 25 images. Created scu102-creation.md implementation doc |
+| 2026-01-19 | Claude/Rogzy | **IMPLEMENTED** SCU102: Created folder structure, en.md (with ORIGINAL/NEW tags), copied quizzes (000-014), copied & renumbered assets (005-029 → 001-025). Ready for review. |
+
+---
+
+## How to Resume This Project
+
+When starting a new session, point Claude to this document:
+1. Read `docs/btc102-split-plan.md` for full context
+2. Check the "Course Review Status" table to see what's next
+3. Continue with the next course marked "NOT STARTED"
+
+**Current Next Step**: User review of SCU102 implementation, then in-depth review of ECO105 (Why Bitcoin Matters)
+
+---
+
+*This document serves as the single source of truth for the BTC102 split project. Update as decisions are made.*

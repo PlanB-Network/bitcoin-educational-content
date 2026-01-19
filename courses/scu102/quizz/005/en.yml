@@ -1,0 +1,9 @@
+question: Why is two-factor authentication recommended?
+answer: It adds an extra layer of security
+wrong_answers:
+  - It simplifies access by reducing the number of codes
+  - It allows login without a password
+  - It replaces the use of a password manager
+explanation: |
+  2FA requires a temporary code in addition to the password, which greatly strengthens the protection of an online account.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Por qué es importante proteger su frase Mnemonic?
+answer: Porque perderlo supone la pérdida permanente de bitcoins
+wrong_answers:
+  - Porque la Blockchain es demasiado larga para regenerarla
+  - Porque perderlo conlleva una fuga de datos personales
+  - Porque las plataformas Exchange requieren muchos documentos para regenerarla
+explanation: |
+  La frase Mnemonic permite recuperar el acceso. Si se pierde y la Wallet deja de ser accesible en su dispositivo, los bitcoins se pierden definitivamente.
+reviewed: false

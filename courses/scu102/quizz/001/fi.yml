@@ -1,0 +1,9 @@
+question: Mitä sinun pitäisi tehdä, jotta tunnistaisit kryptoalalla tapahtuvan phishing-yrityksen?
+answer: Tarkista lähettäjän henkilöllisyys
+wrong_answers:
+  - Napsauta vain sähköpostissa olevia linkkejä
+  - Jaa yksityiset avaimesi aitouden vahvistamiseksi
+  - Luota sähköpostiviesteissä pelkästään logoihin ja kuviin
+explanation: |
+  Varmista aina, että olet vuorovaikutuksessa oikean henkilön kanssa, äläkä koskaan käytä sähköpostiviesteissä annettuja linkkejä. Siirry sen sijaan suoraan sivustolle manuaalisesti selaimesi kirjanmerkkien avulla.
+reviewed: false

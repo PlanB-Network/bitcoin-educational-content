@@ -1,0 +1,9 @@
+question: Waarom is online beveiliging cruciaal voor Bitcoin gebruikers?
+answer: Omdat hacken resulteert in het onomkeerbare verlies van bitcoins
+wrong_answers:
+  - Omdat banken fondsen verzekeren in geval van totaal Bitcoin verlies
+  - Omdat iemand naar de gevangenis kan gaan voor het verliezen van bitcoins
+  - Omdat aanvallen leiden tot zeer zware administratieve lasten
+explanation: |
+  Zonder tussenpersonen betekent een hack een definitief verlies van bitcoins.
+reviewed: false

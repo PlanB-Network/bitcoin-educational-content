@@ -1,0 +1,9 @@
+question: What is the main difference between trading and investing?
+answer: Trading is short-term and speculative, investing is long-term and strategic
+wrong_answers:
+  - Trading involves fixed fees, investing involves variable fees
+  - Trading is based on fundamental analysis, investing on macro trends
+  - Trading is less risky than investing
+explanation: |
+  Trading requires constant monitoring and technical skills, while investing relies on a long-term vision.
+reviewed: false

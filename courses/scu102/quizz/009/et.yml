@@ -1,0 +1,9 @@
+question: Miks on veebiturvalisus Bitcoin kasutajate jaoks ülioluline?
+answer: Kuna häkkimise tulemuseks on bitcoinide pöördumatu kaotus
+wrong_answers:
+  - Kuna pangad kindlustavad vahendeid Bitcoin kogukahju korral
+  - Sest bitcoinide kaotamise eest võib sattuda vangi
+  - Kuna rünnakud toovad kaasa väga suure halduskoormuse
+explanation: |
+  Ilma vahendajateta tähendab häkkimine bitcoinide lõplikku kaotust.
+reviewed: false

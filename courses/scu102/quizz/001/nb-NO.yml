@@ -1,0 +1,9 @@
+question: Hva bør du gjøre for å identifisere et phishing-forsøk i kryptosektoren?
+answer: Bekreft avsenderens identitet
+wrong_answers:
+  - Klikk bare på lenker som du har mottatt i e-posten
+  - Del dine private nøkler for å bekrefte ektheten
+  - Stol utelukkende på logoer og bilder i e-poster
+explanation: |
+  Du bør alltid forsikre deg om at du kommuniserer med riktig person, og aldri bruke lenker i e-poster. Gå i stedet direkte til nettstedet manuelt ved å bruke bokmerkene i nettleseren din.
+reviewed: false

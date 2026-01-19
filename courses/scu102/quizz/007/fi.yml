@@ -1,0 +1,9 @@
+question: Mitä 3-2-1-sääntö tarkoittaa tietojen varmuuskopioinnin kannalta?
+answer: 3 kappaletta kahdella eri tallennusvälineellä, joista yksi tallennetaan muualla kuin toimipaikassa
+wrong_answers:
+  - 3 kappaletta kahdella verkkovälineellä ja yhdellä fyysisellä laitteella
+  - 3 tallennusvälinettä ja 2 kopiota, joista toinen on muualla kuin toimipaikassa
+  - 3 kopiota, joista 2 on salattu ja 1 säilytetään muualla kuin toimipaikassa
+explanation: |
+  Tässä säännössä suositellaan, että tiedoista on kolme kopiota kahdella erityyppisellä tietovälineellä, ja yksi kopio on tallennettu muualle, jotta se olisi varmempi.
+reviewed: false

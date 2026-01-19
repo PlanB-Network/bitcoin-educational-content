@@ -1,0 +1,9 @@
+question: Mida peaksite tegema, et tuvastada andmepüügikatsed krüptosektoris?
+answer: Kontrollida saatja isikusamasust
+wrong_answers:
+  - Klõpsake ainult e-kirjas saadud linkidel
+  - Jagage oma isiklikke võtmeid autentsuse kinnitamiseks
+  - Tugineda e-kirjades ainult logodele ja piltidele
+explanation: |
+  Peaksite alati veenduma, et suhtlete õige isikuga, ja ärge kunagi kasutage e-kirjades esitatud linke. Selle asemel minge otse veebilehele käsitsi, kasutades oma brauseri järjehoidjaid.
+reviewed: false

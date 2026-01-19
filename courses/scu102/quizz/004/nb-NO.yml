@@ -1,0 +1,9 @@
+question: Hva er hovedmekanismen i et pyramidespill?
+answer: Tidlige investorer betales med pengene fra nye investorer
+wrong_answers:
+  - Avkastningen kommer fra et reelt produkt på markedet
+  - Investorer mottar utbytte fra selskaper
+  - Overskudd genereres av smarte kontrakter på Blockchain
+explanation: |
+  I et pyramidespill skapes det ikke noe reelt produkt, og utbetalingene avhenger utelukkende av at nye deltakere kommer til.
+reviewed: false

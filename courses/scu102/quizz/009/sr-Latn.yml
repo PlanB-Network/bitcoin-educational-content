@@ -1,0 +1,13 @@
+question: Koja je glavna funkcija menadžera lozinki?
+answer: Da čuvate i upravljate svojim lozinkama
+wrong_answers:
+  - Za generate nasumične lozinke
+  - Da zapamtite svoje korisničke imena
+  - Da zaštitite svoj računar od virusa
+explanation: |
+  Menadžer lozinki je softver koji čuva i upravlja vašim lozinkama.
+  
+  Pomaže vam da nikada ne koristite istu lozinku dva puta, birate složene i sigurne lozinke,
+  
+  i olakšava upravljanje vašom onlajn bezbednošću.
+reviewed: false

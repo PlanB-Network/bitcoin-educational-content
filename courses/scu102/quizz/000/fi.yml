@@ -1,0 +1,9 @@
+question: Mitkä ovat tyypilliset Ponzi-järjestelmän piirteet kryptoekosysteemissä?
+answer: Taatut tuotot, vaikeat nostot ja suosittelut
+wrong_answers:
+  - Alhainen tuotto, vaikeat nostot ja täysi läpinäkyvyys
+  - Taatut tuotot, vaikeat nostot, eikä suosittelujärjestelmää
+  - Taatut tuotot, helpot nostot, eikä suosittelujärjestelmää
+explanation: |
+  Nämä ominaisuudet voivat viitata pyramidihuijaukseen. Jos havaitset niitä hankkeessa, ole hyvin varovainen.
+reviewed: false

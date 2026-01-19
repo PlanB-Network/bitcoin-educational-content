@@ -1,0 +1,9 @@
+question: Co byste měli udělat, abyste rozpoznali pokus o phishing v kryptografickém sektoru?
+answer: Ověření totožnosti odesílatele
+wrong_answers:
+  - Klikejte pouze na odkazy obdržené v e-mailu
+  - Sdílení soukromých klíčů pro potvrzení pravosti
+  - Spoléhat se v e-mailech pouze na loga a obrázky
+explanation: |
+  Vždy byste se měli ujistit, že komunikujete se správnou osobou, a nikdy nepoužívat odkazy uvedené v e-mailech. Místo toho přejděte na stránky přímo ručně pomocí záložek v prohlížeči.
+reviewed: false

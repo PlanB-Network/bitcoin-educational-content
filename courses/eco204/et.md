@@ -270,7 +270,7 @@ Ilmekas näide MMT-st on Ameerika sõjalis-tööstuslik kompleks. MMT kohaselt v
 
 Jaapanit tuuakse sageli MMT pooldajate poolt näitena inflatsiooni puudumisest hoolimata märkimisväärsest rahatrükkimisest. Siiski toob Jaapani olukord esile ka traditsiooniliste inflatsiooni mõõtmiste, nagu Tarbijahinnaindeks (CPI), piirangud. Jaapanis hoitakse suur osa trükitud rahast kas säästuna või investeerituna kinnisvarasse või aktsiaturgudele, mitte kulutatuna jooksvas tarbimismajanduses. CPI, mitte täielikult neid dünaamikaid tabades, võib alahinnata tegelikku inflatsiooni.
 
-Jaapani analüüs (https://ideas.repec.org/p/ces/ceswps/_9821.html) toob samuti esile, et majandusagentide käitumine, nagu säästmine või varadesse investeerimine, mis ei kuulu THI (Tarbijahinnaindeks) alla, võib varjata rahatrüki inflatsioonilist mõju. Lisaks mängib erinevate sektorite võime neelduda süstitud likviidsust olulist rolli selles, kas inflatsioon toimub või mitte.
+[Jaapani analüüs](https://ideas.repec.org/p/ces/ceswps/_9821.html) toob samuti esile, et majandusagentide käitumine, näiteks säästmine või investeerimine varadesse, mis ei kuulu tarbijahinnaindeksi hulka, võib varjata rahatrüki inflatsioonilist mõju. Lisaks mängib erinevate sektorite võime süstitud likviidsust absorbeerida otsustavat rolli selles, kas inflatsioon avaldub või mitte.
 
 #### Pangad ja Keskpankade Bilansid
 

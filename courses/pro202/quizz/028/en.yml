@@ -1,0 +1,8 @@
+question: What is the fundamental difference between P2PK and P2PKH in terms of what information is revealed before coins are spent?
+answer: P2PK exposes the full public key in the ScriptPubKey before spending, while P2PKH only reveals a hash of the public key until spent
+wrong_answers:
+  - P2PK requires multiple signatures for validation, while P2PKH only needs one signature to unlock the coins
+  - P2PK uses a different hashing algorithm than P2PKH, making it more secure against quantum computing attacks
+  - P2PK stores the private key in the ScriptPubKey, while P2PKH stores only the signature verification result
+explanation: |
+  P2PK locks coins directly to a full public key that is visible in the ScriptPubKey before any spending occurs. P2PKH improves privacy by only showing a 20-byte hash of the public key in the ScriptPubKey, hiding the actual public key until the owner provides it in the ScriptSig during spending. This privacy enhancement is one of P2PKH's key advantages over the earlier P2PK pattern.

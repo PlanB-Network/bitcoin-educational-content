@@ -1,0 +1,8 @@
+question: Apa keuntungan utama dari enum Rust yang dapat membawa data dalam setiap varian?
+answer: Ini mencegah ketidakcocokan antara indikator jenis dan data terkait dengan menggabungkannya bersama
+wrong_answers:
+  - Ini memungkinkan enum untuk secara otomatis mengimplementasikan semua sifat standar tanpa deklarasi eksplisit
+  - Ini memungkinkan enum digunakan sebagai parameter umum dalam fungsi atau metode apa pun
+  - Hal ini membuat enum mengkonsumsi lebih sedikit memori daripada struktur tradisional dengan data yang sama
+explanation: |
+  Enum Rust dapat melampirkan data secara langsung ke setiap varian, yang menghilangkan kesalahan pemrograman yang umum terjadi dalam mempertahankan variabel terpisah untuk indikator tipe dan data terkait. Desain ini memastikan bahwa data selalu sesuai dengan variannya, mencegah inkonsistensi yang dapat menyebabkan kesalahan runtime. Tidak seperti bahasa lain di mana Anda mungkin memiliki enum terpisah untuk tipe dan variabel untuk data, Rust menggabungkan semuanya, sehingga tidak mungkin tipe dan data menjadi tidak cocok.

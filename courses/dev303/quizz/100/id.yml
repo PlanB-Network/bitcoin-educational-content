@@ -1,0 +1,8 @@
+question: Apa keunggulan arsitektur utama yang memungkinkan LDK berfungsi di lingkungan peramban WebAssembly di mana node Lightning tradisional tidak dapat beroperasi?
+answer: Filosofi desain bebas-panggilan sistem LDK memungkinkannya beroperasi tanpa akses langsung ke sistem file, soket jaringan, atau sumber entropi
+wrong_answers:
+  - "Struktur pustaka Rust modular LDK secara otomatis menyediakan kompatibilitas WebAssembly melalui fitur kompilasi Rust-ke-WASM asli"
+  - "Arsitektur LDK yang digerakkan oleh peristiwa menghilangkan kebutuhan akan koneksi yang terus-menerus dan dapat beroperasi sepenuhnya melalui siklus permintaan-permintaan HTTP"
+  - "Integrasi blockchain LDK yang ringan mengurangi penggunaan memori yang cukup untuk memenuhi kendala dan batasan sumber daya yang ketat dari WebAssembly"
+explanation: |
+  Desain LDK yang bebas panggilan sistem secara khusus memungkinkan kompatibilitas peramban. Node Lightning tradisional bergantung pada pemanggilan sistem langsung untuk jaringan, I/O file, dan pengacakan, yang dilarang oleh lingkungan WebAssembly karena alasan keamanan. LDK mengabstraksikan ketergantungan ini, memungkinkan pengembang untuk menyediakan implementasi yang kompatibel dengan peramban menggunakan WebSockets untuk jaringan dan API peramban untuk ketekunan dan keacakan, sambil mempertahankan kepatuhan protokol Lightning secara penuh.

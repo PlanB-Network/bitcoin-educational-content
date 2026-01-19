@@ -1,0 +1,8 @@
+question: Cơ chế cơ bản nào cho phép RC cho phép nhiều người cùng sở hữu bộ nhớ trong khi vẫn đảm bảo an toàn bộ nhớ?
+answer: Một bộ đếm nội bộ theo dõi các tham chiếu và chỉ giải phóng bộ nhớ khi bộ đếm đạt đến giá trị 0.
+wrong_answers:
+  - Phân tích thời gian biên dịch nhằm xác minh tất cả các mẫu tham chiếu trước khi chương trình được thực thi.
+  - Một bộ thu gom rác định kỳ quét và dọn dẹp các vùng nhớ không thể truy cập được.
+  - Một hệ thống dựa trên khóa giúp đồng bộ hóa quyền truy cập giữa nhiều người cùng sở hữu dữ liệu.
+explanation: |
+  RC duy trì một bộ đếm tham chiếu nội bộ, tăng lên khi được sao chép và giảm xuống khi bị loại bỏ, đảm bảo bộ nhớ chỉ được giải phóng khi không còn tham chiếu nào. Điều này khác với phân tích thời gian biên dịch (mà Box sử dụng), thu gom rác (mà Rust không sử dụng) hoặc các cơ chế khóa (được sử dụng để đồng bộ hóa luồng, chứ không phải theo dõi quyền sở hữu). Phương pháp dựa trên bộ đếm cho phép chia sẻ quyền sở hữu an toàn mà không cần chi phí thời gian chạy của việc thu gom rác hoặc các hạn chế của quyền sở hữu đơn lẻ.

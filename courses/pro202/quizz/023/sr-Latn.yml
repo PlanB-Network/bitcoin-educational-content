@@ -1,0 +1,8 @@
+question: Koja je primarna svrha polja broja sekvence u unosima transakcije Bitcoin?
+answer: Da biste omogućili funkcionalnost vremenskih zaključavanja i zamene naknade (RBF)
+wrong_answers:
+  - Da se odredi redosled kojim ulazi moraju biti obrađeni od strane rudara
+  - Da bi se sprečio double-spending kreiranjem jedinstvenog identifikatora za svaki unos
+  - Da označi nivo prioriteta transakcije za obračun naknade
+explanation: |
+  Polje broja sekvence u unosima transakcija Bitcoin služi dve glavne svrhe: implementaciju vremenskih zaključavanja (koja odlažu kada transakcija može biti potvrđena) i omogućavanje funkcionalnosti Zamene-po-Naknadi (RBF) (koja omogućava korisnicima da povećaju naknade na nepotvrđenim transakcijama). Ostale opcije su netačne jer: unosi ne moraju biti obrađeni u bilo kom specifičnom redosledu od strane rudara, prevencija double-spending je rešena modelom UTXO i konsenzusom blokčejna, a prioritet transakcije je određen stopama naknada, a ne brojevima sekvenci.

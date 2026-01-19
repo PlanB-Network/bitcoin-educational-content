@@ -350,7 +350,7 @@ Ente Auth ofrece varias funciones prácticas:
 
 
 
-**Iconos automáticos**: Cada entrada puede ilustrarse con el logotipo del servicio, gracias a la integración del paquete de iconos [Simple Icons] (https://simpleicons.org/).
+**Iconos automáticos**: Cada entrada puede ilustrarse con el logotipo del servicio, gracias a la integración del paquete de iconos [Simple Icons](https://simpleicons.org/).
 
 
 

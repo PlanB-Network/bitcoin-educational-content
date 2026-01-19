@@ -1,0 +1,9 @@
+question: Mengapa menggunakan pengelola simpul Lightning?
+answer: Akses mudah ke fungsi lanjutan
+wrong_answers:
+  - Mengganti implementasi LND
+  - Menghilangkan ketergantungan pada Umbrel
+  - Memodifikasi protokol Lightning
+explanation: |
+  Manajer tingkat lanjut menawarkan fungsionalitas yang tidak tersedia di antarmuka dasar, namun tetap memiliki antarmuka yang sederhana.
+reviewed: false

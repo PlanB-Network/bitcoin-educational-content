@@ -1,0 +1,8 @@
+question: Vilken syntax används för att definiera parametrar i Rust closures?
+answer: Pipe-tecken (|) för att innesluta parametrar
+wrong_answers:
+  - Parenteser () för att innesluta parametrar
+  - Hakparenteser [] för att innesluta parametrar
+  - Hakparenteser {} för att innesluta parametrar
+explanation: |
+  Rust:s stängningar använder pipe-tecken (|) för att definiera parametrar, vilket skiljer dem från vanliga funktioner som använder parenteser. Till exempel skrivs en closure utan parametrar som ||, medan en closure med parametrar ser ut som |x, y|. Den här unika syntaxen gör det lätt att känna igen stängningar och skiljer dem från funktionsdefinitioner. Parenteser används för vanliga funktioner, medan hakparenteser och krullparenteser har andra syften i Rust-syntaxen.

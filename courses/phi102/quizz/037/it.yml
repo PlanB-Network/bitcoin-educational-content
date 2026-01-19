@@ -1,0 +1,8 @@
+question: Secondo l'analisi di Bastiat, qual è il problema logico dell'affermazione di Proudhon "la proprietà è un furto"?
+answer: Se la proprietà è un furto, allora il furto diventa proprietà, creando una contraddizione logica
+wrong_answers:
+  - La proprietà non può esistere senza una regolamentazione governativa e un quadro giuridico
+  - Il furto è moralmente sbagliato, mentre la proprietà è moralmente giusta in ogni circostanza
+  - La proprietà richiede il possesso fisico, mentre il furto comporta un'acquisizione temporanea
+explanation: |
+  Bastiat ha dimostrato la contraddizione logica interna alla famosa frase di Proudhon dimostrando che se accettiamo che la proprietà sia uguale al furto, allora per estensione logica il furto deve essere uguale alla proprietà. Questo crea un impossibile ragionamento circolare in cui qualcosa di legittimo è contemporaneamente illegittimo. Bastiat sosteneva invece che la proprietà deriva naturalmente dal lavoro, dalla proprietà personale e dalle facoltà umane, rendendola un concetto fondamentale e logico piuttosto che una forma di furto.

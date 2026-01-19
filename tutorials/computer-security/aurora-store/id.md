@@ -14,7 +14,7 @@ Dalam tutorial ini, kita akan menemukan Aurora Store, sebuah alternatif yang sed
 
 
 
-# Memulai dengan Toko Aurora
+## Memulai dengan Toko Aurora
 
 
 
@@ -32,7 +32,7 @@ Aurora Store adalah salah satu toko aplikasi alternatif yang paling populer untu
 
 
 
-Anda dapat mengunduh Aurora Store dari [situs resmi] (https://auroraoss.com/aurora-store) dengan mengklik tombol "Release" pada jenis build. Pilih opsi Vanilla jika Anda menggunakan merek ponsel selain Huawei. Model ponsel Huawei terbaru memiliki Aurora Store versi mereka sendiri karena pembatasan mereka terhadap layanan Google sebagai akibat dari sanksi AS.
+Anda dapat mengunduh Aurora Store dari [situs resmi](https://auroraoss.com/aurora-store) dengan mengklik tombol "Release" pada jenis build. Pilih opsi Vanilla jika Anda menggunakan merek ponsel selain Huawei. Model ponsel Huawei terbaru memiliki Aurora Store versi mereka sendiri karena pembatasan mereka terhadap layanan Google sebagai akibat dari sanksi AS.
 
 
 
@@ -88,7 +88,7 @@ Dari Aurora Store, Anda dapat mengakses katalog aplikasi yang tersedia di Google
 
 
 
-## Fitur
+### Fitur
 
 
 

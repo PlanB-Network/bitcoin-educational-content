@@ -3869,10 +3869,10 @@ De behöver bara se till att de kan göra dessa överföringar, men det finns in
 
 
 
-För att förstå kopplingen mellan pengar och inflation rekommenderar jag en kurs som jag har på Plan ₿ Network som handlar om detta ämne. Du kommer att lära dig skillnaden mellan prisökningar, vilket är vad vi ser i livet, och inflation. De är inte samma sak. Faktum är att när vi hänvisar till inflation talar vi ofta om prisökningar, inte själva inflationen. Inflation är ett ganska precist begrepp som förklaras av att penningmängden ökar.
+För att förstå kopplingen mellan pengar och inflation rekommenderar jag en kurs som jag har på Plan ₿ Academy som handlar om detta ämne. Du kommer att lära dig skillnaden mellan prisökningar, vilket är vad vi ser i livet, och inflation. De är inte samma sak. Faktum är att när vi hänvisar till inflation talar vi ofta om prisökningar, inte själva inflationen. Inflation är ett ganska precist begrepp som förklaras av att penningmängden ökar.
 
 
-https://planb.academy/courses/hyperinflation-case-studies-caa75343-ac90-4249-bcca-0e2e57c3a0f1
+https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 
 Som avslutning på det här avsnittet om fiatvärlden vill jag tipsa om en resurs som kan hjälpa dig att bättre förstå de fenomen som jag just har förklarat, till exempel inflation.
 

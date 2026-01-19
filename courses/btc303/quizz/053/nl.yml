@@ -6,3 +6,4 @@ wrong_answers:
   - Bitcoin gebruikt cryptografische handtekeningen voor bescherming, terwijl gebouwen vertrouwen op toegangscontrole en bewakingssystemen
 explanation: |
   Het belangrijkste verschil is dat online systemen zoals Bitcoin te maken hebben met anonieme tegenstanders die onvermijdelijk misbruik zullen maken van elke bekende zwakte, in tegenstelling tot fysieke systemen waar we enig risico kunnen accepteren omdat daders geïdentificeerd en vervolgd kunnen worden. Zoals Andrew Poelstra opmerkte, hebben we online niet de luxe van afschrikking door wetshandhaving - als het mogelijk is om het systeem kwaad te doen, zullen anonieme actoren dat doen. Dit dwingt Bitcoin om alle kwetsbaarheden aan te pakken in plaats van berekende risico's te accepteren.
+reviewed: false

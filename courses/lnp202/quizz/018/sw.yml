@@ -1,0 +1,9 @@
+question: Kifungu cha mnemonic cha LND kina maneno mangapi?
+answer: Maneno 24
+wrong_answers:
+  - Maneno 10
+  - Maneno 18
+  - Maneno 36
+explanation: |
+  LND generates ni msemo wa mnemonic wenye maneno 24 kwa ajili ya kuhifadhi nakala rudufu na kurejesha nodi.
+reviewed: false

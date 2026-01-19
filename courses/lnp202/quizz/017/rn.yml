@@ -1,0 +1,9 @@
+question: Ni igiki umubare w’umuravyo wallet ugaragazwa ku rubuga rwa LND ugereranya?
+answer: Igitigiri c'amahera ava hanze
+wrong_answers:
+  - Igitigiri c'iminyororo
+  - Igitigiri c'amahera yinjira
+  - Igitigiri c'ubushobozi bw'umuyoboro
+explanation: |
+  Igiciro c’umuravyo gihuye n’igiciro ca sats kiboneka kugira ngo gikoreshwe biciye mu mihora, ni ukuvuga umubare w’amahera asohoka ava mu mihora yose y’uruzitiro.
+reviewed: false

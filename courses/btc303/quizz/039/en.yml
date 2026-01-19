@@ -6,3 +6,4 @@ wrong_answers:
   - Soft fork changes become permanent and cannot be modified once miners activate them
 explanation: |
   Shaolinfry identified that miner signalling creates a natural veto system where even a small percentage of hashrate can prevent upgrades from activating for the entire network. This 'upgrade inertia' becomes more problematic as mining becomes more decentralized, potentially blocking beneficial protocol improvements. The other options misrepresent how soft forks work - miners cannot reverse activations unilaterally, economic nodes retain validation authority, and soft forks can theoretically be modified through subsequent upgrades.
+reviewed: false

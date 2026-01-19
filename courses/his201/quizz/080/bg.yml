@@ -1,0 +1,9 @@
+question: Към кое име на домейн беше преместен форумът Bitcoin на 1 август 2011 г.?
+answer: bitcointalk.org
+wrong_answers:
+  - forum.bitcoin.org
+  - bitcoinforum.org
+  - bitco.in/forum
+explanation: |
+  След като на 17 май се премества на forum.bitcoin.org, от 1 август той преминава на URL адрес bitcointalk.org.През годините става известен като BitcoinTalk.
+reviewed: true

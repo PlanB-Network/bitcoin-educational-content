@@ -1,0 +1,9 @@
+question: Jaki mechanizm zapobiega uwolnieniu starego stanu kanału Lightning?
+answer: Klucz odwołania
+wrong_answers:
+  - Opłaty transakcyjne
+  - Bezwzględne zegary sterujące
+  - Plotki sieciowe
+explanation: |
+  Klucze odwołania są używane do karania węzła, który próbuje opublikować stary stan kanału.
+reviewed: false

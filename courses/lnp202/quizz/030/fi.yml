@@ -1,0 +1,9 @@
+question: Mikä on solmunne näkökulmasta likviditeetin alkuperäinen jakautuminen sen jälkeen, kun se on avannut kanavan?
+answer: 100 % lähtevä
+wrong_answers:
+  - 50 % saapuva 50 % lähtevä
+  - 100 % saapuva
+  - 90 % lähtevä 10 % saapuva
+explanation: |
+  Kun kanava avataan, kaikki likviditeetti on aluksi aloittajan puolella.
+reviewed: false

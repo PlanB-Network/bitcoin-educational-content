@@ -1,0 +1,9 @@
+question: Quelle étape suit immédiatement la publication d’une requête NWC par l’application mobile sur un relais ?
+answer: Le nœud déchiffre et vérifie l’autorisation
+wrong_answers:
+  - Le relais signe la requête pour le nœud
+  - Le relais exécute le paiement sur LND
+  - Le nœud ouvre un canal automatiquement
+explanation: |
+  Le nœud lit l’événement, le déchiffre, puis vérifie que l’auteur est autorisé avant d’exécuter l’action.
+reviewed: false

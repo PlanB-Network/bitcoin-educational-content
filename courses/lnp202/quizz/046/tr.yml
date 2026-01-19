@@ -1,0 +1,9 @@
+question: Giden bir ödeme neden otomatik olarak gelen likidite yaratır?
+answer: Değişen likidite
+wrong_answers:
+  - Yeni kanallar oluşturma
+  - Kapasite artışı
+  - Daha düşük yönlendirme maliyetleri
+explanation: |
+  Giden bir ödeme sats'ı başabaş seviyeye taşıyarak kanalın bu tarafında gelen likidite yaratır.
+reviewed: false

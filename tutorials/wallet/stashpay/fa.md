@@ -1,5 +1,5 @@
 ---
-name: استش‌پی
+name: StashPay
 description: مینیمالیست Bitcoin Wallet برای همه
 ---
 

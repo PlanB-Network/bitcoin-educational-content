@@ -1,0 +1,9 @@
+question: Které řešení umožňuje spustit skutečný uzel Lightning na mobilních telefonech?
+answer: Vestavěný uzel LN
+wrong_answers:
+  - Ošetřovatelský blesk wallet
+  - Blesková atomová výměna
+  - Sdružené kanály
+explanation: |
+  Řešení jako Phoenix nebo Zeus Embedded zabudovávají skutečný uzel Lightning přímo do aplikace.
+reviewed: false

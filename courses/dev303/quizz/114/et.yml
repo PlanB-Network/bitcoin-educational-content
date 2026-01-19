@@ -1,0 +1,8 @@
+question: Milline on peamine turvamehhanism, mis tagab, et Greenlight'i infrastruktuur ei pääse ligi kasutajate rahalistele vahenditele, hoolimata sellest, et Lightning-sõlmed asuvad pilves?
+answer: Privaatvõtmed ei lahku kunagi kasutaja seadmetest ja kõik toimingud nõuavad rakenduse aktiivset allkirjastamist
+wrong_answers:
+  - Mitme allkirjaga rahakotid, millel on hajutatud võtmeosakonnad mitme pilvepakkuja vahel
+  - Riistvaralised turvamoodulid, mis krüpteerivad kõik tehingud enne pilvetöötlust
+  - Ajalukuga arukad lepingud, mis automaatselt tagastavad raha, kui toimub volitamata juurdepääs
+explanation: |
+  Breez SDK säilitab turvalisuse usaldusteta arhitektuuri kaudu, kus privaatvõtmed jäävad ainult kasutaja seadmetesse. Kuigi Greenlight majutab Lightning-sõlme infrastruktuuri, ei saa see teha ühtegi toimingut ilma aktiivselt ühendatud rakenduseta, mis suudab tehinguid ja sõnumeid allkirjastada. Selline ülesehitus tagab, et kuigi sõlmpunkt töötab pilves, ei ole Greenlightil kunagi juurdepääsu kasutajate võtmetele ja ta ei saa liigutada raha ilma kasutaja selgesõnalise loata tema kohaliku rakenduse kaudu. Teised valikud kirjeldavad erinevaid turvamehhanisme, mida selles arhitektuuris ei kasutata.

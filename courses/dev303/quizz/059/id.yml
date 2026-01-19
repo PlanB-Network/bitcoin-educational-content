@@ -1,0 +1,8 @@
+question: Apa keuntungan utama menggunakan makro derive seperti #[derive(Debug)] dibandingkan dengan mengimplementasikan sifat secara manual untuk tipe kustom?
+answer: Mereka secara otomatis generate implementasi sifat lengkap pada waktu kompilasi, mengurangi kode boilerplate
+wrong_answers:
+  - Mereka memberikan kinerja runtime yang lebih baik dengan mengoptimalkan pemanggilan metode sifat selama eksekusi
+  - Mereka memungkinkan sifat-sifat diimplementasikan beberapa kali untuk jenis yang sama dengan perilaku yang berbeda
+  - Mereka memungkinkan implementasi sifat dinamis yang dapat dimodifikasi pada saat runtime berdasarkan status program
+explanation: |
+  Menurunkan makro secara otomatis implementasi sifat generate selama kompilasi, menghilangkan kebutuhan untuk menulis kode boilerplate yang berulang secara manual. Ketika Anda menggunakan #[derive(Debug)], kompilator akan membuat semua logika pemformatan yang diperlukan untuk sifat tersebut. Jawaban yang salah adalah salah karena: derive macro tidak meningkatkan kinerja runtime (mereka generate kode yang sama dengan yang Anda tulis secara manual), trait hanya bisa diimplementasikan satu kali per tipe tanpa melihat bagaimana implementasinya, dan derive macro generate kode statis pada saat kompilasi daripada mengaktifkan modifikasi runtime.

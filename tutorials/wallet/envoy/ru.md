@@ -63,12 +63,12 @@ https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 
 
 - В [Google Play Store](https://play.google.com/store/apps/details?id=com.foundationdevices.envoy);
-- В [App Store] (https://apps.apple.com/us/app/envoy-by-foundation/id1584811818);
+- В [App Store](https://apps.apple.com/us/app/envoy-by-foundation/id1584811818);
 - На [F-Cold](https://foundation.xyz/fdroid/).
 
 ![Image](assets/fr/50.webp)
 
-Вы также можете скачать APK-файл напрямую [из репозитория Foundation на GitHub] (https://github.com/Foundation-Devices/envoy/releases).
+Вы также можете скачать APK-файл напрямую [из репозитория Foundation на GitHub](https://github.com/Foundation-Devices/envoy/releases).
 
 ![Image](assets/fr/51.webp)
 
@@ -164,7 +164,7 @@ https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 
 ### Без приложения Envoy
 
-Для этого воспользуйтесь картой MicroSD, входящей в комплект поставки Passport (или другой картой), и вставьте ее в компьютер. Загрузите последнюю версию прошивки с [сайта документации Foundation] (https://docs.foundation.xyz/firmware-updates/passport/) или [их репозитория GitHub] (https://github.com/Foundation-Devices/passport2/releases).
+Для этого воспользуйтесь картой MicroSD, входящей в комплект поставки Passport (или другой картой), и вставьте ее в компьютер. Загрузите последнюю версию прошивки с [сайта документации Foundation](https://docs.foundation.xyz/firmware-updates/passport/) или [их репозитория GitHub](https://github.com/Foundation-Devices/passport2/releases).
 
 ![Image](assets/fr/21.webp)
 

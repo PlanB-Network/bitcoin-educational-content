@@ -6,3 +6,4 @@ wrong_answers:
   - Formelle sikkerhetsbevis ville avslørt sårbarheter for motstandere, så de holdes hemmelig av kjerneutviklerne
 explanation: |
   Som Jameson Lopp forklarer, ble Bitcoin bygget uten en formelt definert spesifikasjon eller sikkerhetsmodell på grunn av sin iboende kompleksitet og uklare natur. I motsetning til enklere systemer som signeringsprotokoller, som har klare sikkerhetsforutsetninger, involverer Bitcoin flere interagerende komponenter, inkludert kryptografi, økonomi, spillteori og menneskelig atferd. Denne kompleksiteten gjør det umulig å lage formelle matematiske bevis for sikkerheten, selv om systemet demonstrerer praktisk sikkerhet gjennom bruk i den virkelige verden.
+reviewed: false

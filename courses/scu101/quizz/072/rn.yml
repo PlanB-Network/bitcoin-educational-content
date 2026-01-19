@@ -1,9 +1,9 @@
-question: Umucungerezi w’ijambobanga ni iki?
-answer: Igikoresho kibika, kigatanga, kigacungera amajambo y’ibanga.
+question: Ubutunganyirizo bw’ijambo ry'ibanga ni iki?
+answer: Igikoresho kibika, kirema, kigatunganya amajambo y’ibanga.
 wrong_answers:
-  - Porogaramu irwanya virusi zirwanya ibitero vy’abanyaruyeri.
-  - Servisi ya imeyili itekanye.
+  - Porogarame ikingira umugera(nyabwonko) ikagwanya ibitero vy'abatwinjirira.
+  - Serivisi ya imeyiri irinzwe.
   - Igikoresho co gucungera amakuru y’akaranga k’umuntu.
 explanation: |
-  Umucungerezi w’ijambobanga ashira hamwe ububiko n’uguhingura amajambobanga.
+  Ubutunganyirizo bw’ijambo ry'ibanga bushira hamwe ububiko n’uguhingura amajambo y'ibanga.
 reviewed: true

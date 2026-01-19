@@ -1,0 +1,8 @@
+question: Koji metod vam omogućava da izdvojite vrednost iz Result uz prilagođenu poruku panike ako dođe do greške?
+answer: očekivati
+wrong_answers:
+  - unwrap_or_else
+  - odmotaj_sa_porukom
+  - panic_with
+explanation: |
+  Metoda expect je posebno dizajnirana da izdvoji uspešnu vrednost iz Result-a dok vam omogućava da obezbedite prilagođenu poruku panike koja će biti prikazana ako dođe do greške. Ovo olakšava debagovanje u poređenju sa unwrap, koji koristi generičku poruku panike. Metoda unwrap_or_else ne izaziva paniku već umesto toga izvršava closure kada dođe do greške. Druge opcije (unwrap_with_message i panic_with) nisu stvarne Rust metode za rukovanje Result tipovima.

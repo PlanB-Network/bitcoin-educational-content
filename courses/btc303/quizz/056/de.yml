@@ -6,3 +6,4 @@ wrong_answers:
   - Abgeleitete Werke müssen das ursprüngliche Branding des Bitcoin-Kerns enthalten und dürfen nicht umbenannt oder umbenannt werden
 explanation: |
   Die MIT-Lizenz verlangt, dass abgeleitete Werke unter denselben Lizenzbedingungen wie die ursprüngliche Software vertrieben werden, damit der Open-Source-Charakter erhalten bleibt. Dies verbietet nicht den kommerziellen Verkauf (falsche Antwort 1), erfordert keine Erlaubnis von den Entwicklern (falsche Antwort 2) und schreibt nicht vor, das ursprüngliche Branding beizubehalten (falsche Antwort 3). Die Lizenz besagt ausdrücklich, dass Modifikationen und abgeleitete Werke unter denselben Bedingungen erlaubt sein müssen, um das erlaubnisfreie Entwicklungsmodell zu erhalten, das Innovationen wie Lightning Network und Sidechains ermöglicht.
+reviewed: false

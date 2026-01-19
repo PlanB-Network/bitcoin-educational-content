@@ -1,0 +1,8 @@
+question: Millest sõltub tehingutasu suurus Bitcoin tehingu puhul ehitusprotsessi ajal?
+answer: Kõigi sisendite koguväärtuse ja kõigi väljundite koguväärtuse vahe
+wrong_answers:
+  - Fikseeritud protsent tehingu koguväärtusest, mille arvutab võrguprotokoll
+  - Tehingu suurus baitides korrutatud kaevurite poolt kehtestatud standardmääraga
+  - Kõikide sisendite puhul nõutav allkirjade arv pluss põhiline võrgutasu
+explanation: |
+  Bitcoin tehingutasud määratakse kindlaks sisendite ja väljundite kogusumma vahe alusel. Tehingu konstrueerimisel valite sisenditeks UTXOd ja loote väljundid saajate ja muutuste jaoks. Ülejäänud summast saab tasu, mis motiveerib kaevandajaid teie tehingu kaasamiseks. Tasu ei arvutata protsentide, fikseeritud määrade ega allkirjade arvu järgi - see on lihtsalt see, mis jääb tehingu väärtuse saldosse jaotamata.

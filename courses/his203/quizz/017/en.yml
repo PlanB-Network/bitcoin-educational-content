@@ -1,0 +1,9 @@
+question: What was the main criticism levelled at bitcoin by the American libertarians who invoked Mises' regression theorem?
+answer: It had no intrinsic value and was not backed by anything concrete
+wrong_answers:
+  - It had monetary inflation, with an issue rate of 40% per annum in 2011
+  - It was not used as a unit of account, an essential quality of money
+  - It created a profoundly unequal distribution of wealth
+explanation: |
+ Some American libertarians, attached to the Austrian school, rejected Bitcoin because it contradicted (in their view) Ludwig von Mises' regression theorem, which states that a good must have an objective non-monetary use value before it can become a currency. This was particularly true of Peter Schiff, son of anti-tax campaigner Irwin Schiff and a staunch supporter of the gold standard.
+reviewed: false

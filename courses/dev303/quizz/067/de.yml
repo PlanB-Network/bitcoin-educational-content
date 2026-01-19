@@ -1,0 +1,8 @@
+question: Welchen Nutzen hat die plattformübergreifende Kompatibilität von Rust für die Entwicklung von Bitcoin-Anwendungen in verschiedenen Einsatzumgebungen?
+answer: Es ermöglicht die Ausführung einheitlicher Codebasen auf mobilen Plattformen, Webbrowsern über WebAssembly und herkömmlichen Betriebssystemen
+wrong_answers:
+  - Es wickelt automatisch die Umrechnung von Kryptowährungskursen zwischen verschiedenen regionalen Märkten und Währungen ab
+  - Es bietet integrierte Blockchain-Synchronisierungsprotokolle, die in allen Netzwerkarchitekturen identisch funktionieren
+  - Es bietet native Integration mit Hardware-Wallets und Sicherheitsmodulen auf jeder unterstützten Plattform
+explanation: |
+  Die plattformübergreifenden Fähigkeiten von Rust ermöglichen es Entwicklern, Bitcoin-Anwendungen zu schreiben, die in verschiedenen Umgebungen eingesetzt werden können, darunter Mobilgeräte (Android/iOS), Webbrowser (durch WebAssembly-Kompilierung) und traditionelle Desktop-Betriebssysteme. Diese Vielseitigkeit wird durch Projekte wie Mutiny Wallet demonstriert, das die WebAssembly-Unterstützung von Rust nutzt, um Lightning-Brieftaschen zu erstellen, die direkt in Browsern laufen. Die falschen Antworten beschreiben Funktionen, die nichts mit plattformübergreifender Kompatibilität zu tun haben - die Währungsumrechnung ist eine Funktion auf Anwendungsebene, Blockchain-Protokolle sind eine Angelegenheit der Netzwerkschicht, und die Hardware-Integration erfordert spezifische APIs und keine allgemeine plattformübergreifende Unterstützung.

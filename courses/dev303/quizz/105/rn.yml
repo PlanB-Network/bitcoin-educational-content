@@ -1,0 +1,8 @@
+question: Ni itandukaniro irihe rikomeye hagati y’umubumbe w’urugero rw’ugushikama rwa LDK n’uburongozi bw’amakuru y’uruzitiro rwa Lightning busanzwe bushoboza gukoresha uburyo bwo gukoresha amakuru ku mbuga zitandukanye?
+answer: LDK itanga amakuru y'ibice bibiri vy'ububiko mu gihe ibikorwa bishira mu ngiro uburyo bwavyo bwo kubika
+wrong_answers:
+  - LDK ikoresha ububiko bw'amakuru bwa SQL busanzwe mu gihe amanode ya kera asaba gushirwa mu ngiro kwa dosiye zisanzwe
+  - LDK ihita ihuza amakuru ku mbuga nyinshi mu gihe amanode ya kera abika amakuru mu karere gusa
+  - LDK ipfuka amakuru yose y'ubudasiba ku buryo busanzwe mu gihe amanode ya kera yizigira gupfuka amakuru ku rwego rw'ibikorwa
+explanation: |
+  LDK's persistence layer abstracts ububiko mu gutanga ibikorwa bifise amakuru y'uruhererekane ategerezwa kubikwa no gusubirwamwo mu buryo bwizigirwa, mu gihe akora ibikorwa vyose bigoranye vyo gukurikirana amakuru y'imirongo ya Lightning n'amakuru y'urubuga imbere. Ivyo bituma porogarama zihitamwo umuti wose wo kubika (uburyo bwo kubika amadosiye, ububiko bwo mu gicu, amakuru) uhuye n’ibisabwa ku rubuga rwabo. Ivyuma vya kera vy’umuravyo bikoresha uburyo bwavyo bwo gucunga amakuru buboshe ku buryo bumwe bumwe bwo kubika, bikaba bituma bidashobora guhinduka mu bidukikije bitandukanye.

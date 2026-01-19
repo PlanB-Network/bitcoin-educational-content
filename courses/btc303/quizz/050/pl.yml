@@ -6,3 +6,4 @@ wrong_answers:
   - "Atak socjotechniczny; jest nieskuteczny, ponieważ programiści Bitcoin używają formalnych metod weryfikacji, aby zapobiec manipulacji"
 explanation: |
   Atak typu Sybil ma miejsce, gdy jeden podmiot kontroluje wiele węzłów, podszywając się pod wiele odrębnych podmiotów. Atak ten jest jednak nieskuteczny przeciwko Bitcoin, ponieważ sieć nie opiera się na liczeniu węzłów ani demokratycznym głosowaniu wśród uczestników sieci. Zamiast tego Bitcoin wykorzystuje konsensus proof-of-work, w którym moc obliczeniowa (hashpower) określa decyzje sieciowe, a nie liczbę węzłów. Uniemożliwia to atakującemu uzyskanie wpływu po prostu poprzez uruchomienie wielu węzłów bez odpowiednich zasobów obliczeniowych.
+reviewed: false

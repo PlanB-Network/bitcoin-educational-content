@@ -6,3 +6,4 @@ wrong_answers:
   - Všichni uživatelé Bitcoin musí souhlasit s platností transakcí prostřednictvím demokratického hlasování, aby byla zachována stabilita sítě
 explanation: |
   David Harding v analogii s harmonií zdůrazňuje, že síla Bitcoin vychází z tisíců nezávislých plnohodnotných uzlů, z nichž každý pracuje samostatně na ověřování transakcí, a vytváří tak harmonickou dohodu o stavu účetní knihy, aniž by kterýkoli provozovatel uzlu musel důvěřovat ostatním. To přirovnává ke sboru, kde každý člen zpívá samostatně, ale společně vytváří krásnou harmonii. Špatné odpovědi tento koncept dezinterpretují tím, že naznačují požadavky na koordinaci mezi těžaři, vývojáři nebo uživateli, což je v rozporu se základním principem nezávislého ověřování, díky němuž je Bitcoin nedůvěryhodný a decentralizovaný.
+reviewed: false

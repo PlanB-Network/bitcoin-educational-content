@@ -1,0 +1,8 @@
+question: Šta razlikuje regulisane od neregulisanih sredstava u Liquid-ovom sistemu izvornih sredstava?
+answer: Regulisana sredstva zahtevaju drugi potpis od autorizacionog servera pre nego što mogu biti premeštena, omogućavajući usklađenost sa KYC/AML.
+wrong_answers:
+  - Regulisana aktiva koristi pametne ugovore dok neregulisana aktiva koristi jednostavne RPC pozive za izdavanje
+  - Regulisana aktiva je podržana rezervama Bitcoin dok neregulisana aktiva postoji samo na bočnom lancu
+  - Regulisana sredstva zahtevaju odobrenje funkcionera za kreiranje dok se neregulisana sredstva mogu izdavati bez dozvole
+explanation: |
+  U arhitekturi Liquid, i regulisana i neregulisana sredstva mogu biti izdata bez dozvole koristeći jednostavne RPC pozive bez pametnih ugovora. Ključna razlika je u njihovom kretanju: regulisana sredstva koriste Blockstream-ovu Platformu za upravljanje sredstvima (AMP) za sprovođenje usklađenosti zahtevajući dodatni potpis za autorizaciju pre prenosa, dok neregulisana sredstva mogu slobodno da se kreću bez takvih ograničenja.

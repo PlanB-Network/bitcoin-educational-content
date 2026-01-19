@@ -635,4 +635,4 @@ Tailscale on yksinkertainen ja tehokas väline, joka on olennainen väline itsep
 
 
 
-Tailscale tarjoaa säännöllisesti uutta sisältöä ja ominaisuuksia. Tarkista heidän [virallinen bloginsa] (https://tailscale.com/blog/) uusimmat uutiset ja tapaustutkimukset.
+Tailscale tarjoaa säännöllisesti uutta sisältöä ja ominaisuuksia. Tarkista heidän [virallinen bloginsa](https://tailscale.com/blog/) uusimmat uutiset ja tapaustutkimukset.

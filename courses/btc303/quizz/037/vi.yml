@@ -6,3 +6,4 @@ wrong_answers:
   - Các nút kinh tế đã từ chối nâng cấp do lo ngại về việc tăng phí giao dịch
 explanation: |
   Bản nâng cấp Segwit độc đáo ở chỗ nó gặp phải vấn đề phối hợp, khi có sự ủng hộ áp đảo từ người dùng Bitcoin, nhưng các thợ đào lại từ chối phát tín hiệu hỗ trợ nâng cấp. Điều này tạo ra tình huống bế tắc khi bản nâng cấp không thể kích hoạt thông qua cơ chế fork mềm thông thường do thợ đào kích hoạt. Các bản nâng cấp trước đây tương đối dễ dàng vì có sự hỗ trợ của cả người dùng và thợ đào. Tình huống này dẫn đến đề xuất về Ngã ba Soft do Người dùng Kích hoạt (UASF) như một cơ chế kích hoạt thay thế không phụ thuộc vào tín hiệu của thợ đào, làm nổi bật sự căng thẳng giữa các bên liên quan khác nhau trong hệ sinh thái Bitcoin.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Ni changamoto gani ya msingi katika uundaji wa mifumo mtambuka ambayo UniFFI inashughulikia inapofanya kazi na maktaba za Rust?
+answer: Haja ya kuunda msimbo maalum wa kufunga kwa kila lugha lengwa kwa mikono wakati wa kufichua FFI ya kiwango cha chini ya Rust
+wrong_answers:
+  - Kutoweza kwa Rust kukusanya data kwenye mifumo ya jozi asilia ambayo inaweza kufanya kazi kwenye mifumo mingi ya uendeshaji
+  - Ukosefu wa dhamana ya usalama wa kumbukumbu wakati msimbo wa Rust unapoingiliana na lugha zilizokusanywa kwa takataka
+  - "Utendaji wa ziada ulianzishwa wakati wa kutafsiri mfumo wa umiliki wa Rust kuwa lugha zilizohesabiwa marejeleo"
+explanation: |
+  UniFFI hutatua tatizo la kuandika msimbo wa kuunganisha kwa mikono kwa kila lugha lengwa. Wakati Rust inapoundwa kwa matokeo ya binary, hutoa Interface ya Kazi ya Kigeni (FFI) ambayo ni ya kiwango cha chini na yenye changamoto kuitumia moja kwa moja kutoka kwa lugha za kiwango cha juu. Kijadi, wasanidi programu walilazimika kuandika msimbo maalum wa kuunganisha kwa kila lugha lengwa (Python, Swift, Kotlin, n.k.), na hivyo kusababisha vikwazo vikubwa vya kupitishwa. UniFFI huondoa upungufu huu kwa kuzalisha kiotomatiki vifungo hivi kupitia mfumo wake wa vipimo vya UDL.

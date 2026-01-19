@@ -1,0 +1,8 @@
+question: Kapan operator tanda tanya (?) harus lebih dipilih daripada metode unwrap() atau expect() dalam penanganan kesalahan Rust?
+answer: Saat Anda perlu menyebarkan kesalahan ke atas tumpukan panggilan untuk ditangani oleh fungsi pemanggilan
+wrong_answers:
+  - Saat Anda ingin memberikan pesan kesalahan khusus untuk men-debug operasi yang gagal
+  - Ketika Anda yakin operasi akan berhasil dan ingin menghindari penanganan kesalahan
+  - Saat Anda perlu mengubah kesalahan ke nilai default dan melanjutkan eksekusi program
+explanation: |
+  Operator tanda tanya (?) didesain untuk penyebaran kesalahan - operator ini mengekstrak nilai keberhasilan namun segera mengembalikan kesalahan dari fungsi yang sedang berjalan, sehingga pemanggil dapat menanganinya. Tidak seperti operator unwrap()/expect() yang panik terhadap kesalahan, atau unwrap_or() yang memberikan default, operator ? mempertahankan konteks kesalahan dan memberikan tanggung jawab kepada kode yang lebih tinggi yang dapat membuat keputusan penanganan yang tepat.

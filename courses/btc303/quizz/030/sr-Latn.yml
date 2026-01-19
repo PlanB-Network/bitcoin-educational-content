@@ -6,3 +6,4 @@ wrong_answers:
   - Moraju biti zamenjeni dodatnim mining kako bi se održao planirani nivo snabdevanja.
 explanation: |
   Satoshi Nakamoto je objasnio da izgubljeni novčići funkcionišu kao donacija svim ostalim vlasnicima bitcoina tako što čine njihove novčiće vrednijim zbog smanjenog efektivnog snabdevanja. Ovo je pozitivan deflatorni efekat, a ne destabilizirajuća sila. Izgubljeni novčići ne utiču na mining nagrade jer one dolaze iz novoizdatih novčića i naknada za transakcije, a ne iz postojećeg snabdevanja. Protokol Bitcoin ne zamenjuje izgubljene novčiće - oni ostaju trajno van opticaja, što zapravo koristi preostalim vlasnicima kroz povećanu oskudicu.
+reviewed: false

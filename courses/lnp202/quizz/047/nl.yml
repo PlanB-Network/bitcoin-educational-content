@@ -1,0 +1,9 @@
+question: Waarom is LN+ ongeschikt voor handelaars?
+answer: Aanzienlijke kapitaalinvestering
+wrong_answers:
+  - Gebrek aan betrouwbaarheid van de betrokken knooppunten
+  - Geen reputatiesysteem
+  - Kanalen te klein
+explanation: |
+  Voor elke inkomende sat die wordt verkregen, moet een uitgaande sat worden geblokkeerd, wat de schaalbaarheid voor een bedrijf beperkt.
+reviewed: false

@@ -6,3 +6,4 @@ wrong_answers:
   - "Napad socijalnog inženjeringa; neefikasan je jer programeri Bitcoin koriste metode formalne verifikacije kako bi sprečili manipulaciju"
 explanation: |
   Sybil napad se dešava kada jedan entitet kontroliše više čvorova kako bi se predstavio kao mnogo odvojenih entiteta. Međutim, ovaj napad je neefikasan protiv Bitcoin jer mreža ne zavisi od brojanja čvorova ili demokratskog glasanja među učesnicima mreže. Umesto toga, Bitcoin koristi proof-of-work konsenzus gde računska snaga (hashpower) određuje odluke mreže, a ne broj čvorova. Ovo čini nemogućim za napadača da stekne uticaj jednostavno pokretanjem mnogih čvorova bez odgovarajućih računskih resursa.
+reviewed: false

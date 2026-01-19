@@ -1,0 +1,9 @@
+question: پیش‌نیازهای نصب LND بر روی Umbrel چیست؟
+answer: گره Bitcoin همگام‌سازی‌شده
+wrong_answers:
+  - حساب Umbrel Premium
+  - کانال لایتنینگ موجود
+  - آدرس لایتنینگ فعال است
+explanation: |
+  ‏LND به یک نود Bitcoin که ۱۰۰٪ همگام‌سازی شده است، وابسته است که پیش‌نیازی برای عملکرد آن می‌باشد.
+reviewed: false

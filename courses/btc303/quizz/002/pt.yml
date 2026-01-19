@@ -6,3 +6,4 @@ wrong_answers:
   - Descentralização do utilizador e descentralização do programador
 explanation: |
   A descentralização do Bitcoin tem dois componentes principais: a descentralização dos mineiros e a descentralização do full node. A descentralização Miner significa que o processamento e a ordenação de transacções não são controlados por uma única entidade, mas sim por um coletivo dinâmico de mineiros que podem entrar ou sair livremente. A descentralização Full node refere-se à validação dos blocos que é realizada na extremidade da rede pelos próprios utilizadores, em vez de por autoridades de confiança. Estes dois aspectos trabalham em conjunto para alcançar a resistência à censura - os mineiros impedem a ordenação centralizada das transacções, enquanto os nós completos asseguram a validação sem confiança da cadeia de blocos.
+reviewed: false

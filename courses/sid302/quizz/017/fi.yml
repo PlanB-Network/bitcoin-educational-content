@@ -1,0 +1,8 @@
+question: Mikä on Liquid:n federoidussa konsensusmallissa lohkon validointiin tarvittavien funktionaalisten allekirjoitusten vähimmäismäärä ja mikä on verkon sietämien solmuvikojen enimmäismäärä?
+answer: tarvitaan 11 allekirjoitusta, kestää jopa 4 solmun vikaantumista
+wrong_answers:
+  - tarvitaan 8 allekirjoitusta, kestää jopa 7 solmun vikaantumista
+  - tarvitaan 15 allekirjoitusta, kestää jopa 2 solmun vikaantumista
+  - tarvitaan 9 allekirjoitusta, kestää jopa 6 solmun vikaantumista
+explanation: |
+  Liquid:ssä käytetään 11-15-kynnysjärjestelmää, jossa vähintään 11 toimihenkilön 15:stä on allekirjoitettava kukin lohko, jotta se olisi pätevä. Tämän rakenteen ansiosta verkko voi jatkaa toimintaansa, vaikka jopa neljä solmua menisi epäkuntoon (15 - 11 = 4). Muissa vaihtoehdoissa annetaan joko väärät allekirjoituskynnykset tai lasketaan väärin vikasietoisuus, joka on aina solmujen kokonaismäärä miinus vaaditut allekirjoitukset.

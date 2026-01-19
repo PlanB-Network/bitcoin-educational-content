@@ -1,0 +1,8 @@
+question: Jaký je hlavní důvod, proč mechanismus úpravy obtížnosti Bitcoin omezuje změny na čtyřnásobek během každého období úpravy bloku 2016?
+answer: Aby se zabránilo extrémním oscilacím, které by mohly destabilizovat síť při prudkých změnách rychlosti hashování
+wrong_answers:
+  - Aby měli těžaři dostatek času na modernizaci hardwaru, než se obtížnost výrazně zvýší
+  - Zachování kompatibility s 32bitovým polem časových značek, které se při větších úpravách stává nespolehlivým
+  - Aby se zabránilo narušení harmonogramu snižování blokových dotací na polovinu v důsledku rychlých změn obtížnosti
+explanation: |
+  Čtyřnásobné omezení zabraňuje nebezpečným zpětným vazbám, kdy by extrémní změny obtížnosti mohly způsobit divoké výkyvy v časech blokování. Bez tohoto omezení by náhlý pokles hash rate mohl vyvolat masivní snížení obtížnosti, čímž by se bloky staly příliš snadnými a mohlo by dojít k destabilizaci konsensu. Naopak obrovské zvýšení by mohlo způsobit, že bloky by bylo téměř nemožné těžit. Omezení zajišťuje postupné, zvládnutelné úpravy, které udržují stabilitu sítě i během velkých poruch, jako jsou zákazy mining, a umožňuje systému předvídatelně se korigovat během několika období úprav, místo aby vytvářel chaotické oscilace.

@@ -6,4 +6,4 @@ wrong_answers:
   - SRV (localizador de servicios)
 explanation: |
   El registro SOA define la autoridad de zona y es necesario en todos los archivos de zona DNS.
-reviewed: false
+reviewed: true

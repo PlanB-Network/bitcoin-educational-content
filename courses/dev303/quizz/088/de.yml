@@ -1,0 +1,8 @@
+question: Welcher grundlegenden Herausforderung bei der plattformübergreifenden Entwicklung begegnet UniFFI bei der Arbeit mit Rust-Bibliotheken?
+answer: Die Notwendigkeit, manuell benutzerdefinierten Bindungscode für jede Zielsprache zu erstellen, wenn das Low-Level-FVI von Rust offengelegt wird
+wrong_answers:
+  - Die Unfähigkeit von Rust, zu nativen Binärdateien zu kompilieren, die auf mehreren Betriebssystemen laufen können
+  - Das Fehlen von Speichersicherheitsgarantien bei der Interaktion von Rust-Code mit Garbage-Collected-Sprachen
+  - "Der Leistungs-Overhead, der durch die Übersetzung des Rust Eigentumsmodells in referenzgezählte Sprachen entsteht"
+explanation: |
+  UniFFI löst speziell das Problem des manuellen Schreibens von Bindungscode für jede Zielsprache. Wenn Rust zu einer Binärausgabe kompiliert wird, wird eine Foreign Function Interface (FFI) erzeugt, die auf niedriger Ebene angesiedelt ist und nur schwer direkt von höheren Sprachen aus verwendet werden kann. Bisher mussten Entwickler für jede Zielsprache (Python, Swift, Kotlin usw.) einen eigenen Bindungscode schreiben, was die Akzeptanz erheblich erschwerte. UniFFI beseitigt diese Redundanz durch die automatische Generierung dieser Bindungen durch sein UDL-Spezifikationssystem.

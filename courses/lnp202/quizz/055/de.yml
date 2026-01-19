@@ -1,0 +1,9 @@
+question: Wann findet im NWC-Fluss die Verschlüsselung auf der Anwendungsseite statt?
+answer: Vor der Veröffentlichung auf dem Relais
+wrong_answers:
+  - Nach dem Lesen des Knotens
+  - Nach der Veröffentlichung auf dem Relais
+  - Niemals
+explanation: |
+  Die Anwendung serialisiert die Anfrage, verschlüsselt sie und veröffentlicht sie dann als Ereignis auf einem Nostr-Relais.
+reviewed: false

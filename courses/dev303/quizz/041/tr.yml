@@ -1,0 +1,8 @@
+question: Rust'da kapanışların çevrelerinden değişkenleri yakalayabilmesinin üç yolu nedir?
+answer: Değişmez referansla, değiştirilebilir referansla veya sahiplik alarak
+wrong_answers:
+  - Değer kopyalama, referans ödünç alma veya işaretçi dereferencing yoluyla
+  - Yığın tahsisi, yığın tahsisi veya statik depolama ile
+  - Paylaşımlı erişim, özel erişim veya eşzamanlı erişim ile
+explanation: |
+  Rust'deki kapanışlar ortam değişkenlerini tam olarak üç şekilde yakalar: değişmez referansla (yalnızca okumaları gerektiğinde), değiştirilebilir referansla (değiştirmeleri gerektiğinde) veya sahiplik alarak (genellikle iş parçacığı güvenliği için değeri taşımaları gerektiğinde). Derleyici, en az ayrıcalık ilkesini izleyerek otomatik olarak kapanışın ihtiyaçlarını karşılayan en kısıtlayıcı yöntemi seçer.

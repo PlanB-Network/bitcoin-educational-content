@@ -1,0 +1,8 @@
+question: What happens to the arithmetic operations when elliptic curves are defined over finite fields instead of real numbers?
+answer: All operations use modular arithmetic while maintaining the same algebraic rules
+wrong_answers:
+  - The point addition formulas must be completely rewritten for discrete mathematics
+  - The slope calculations become undefined due to the discrete nature of points
+  - All algebraic rules change fundamentally to accommodate the finite field structure
+explanation: |
+  When elliptic curves are moved from real numbers to finite fields, the underlying algebraic structure and rules remain identical - only the arithmetic changes to modular arithmetic. All point addition formulas, slope calculations, and geometric relationships work exactly the same way, but every calculation is performed modulo p. This preservation of algebraic rules while changing only the arithmetic foundation is what makes finite field elliptic curves so powerful for cryptography, maintaining all the mathematical properties needed while creating the discrete, unpredictable behavior essential for security.

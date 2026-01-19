@@ -6,3 +6,4 @@ wrong_answers:
   - Il est légalement protégé par la licence MIT en tant qu'unique source de code Bitcoin faisant autorité
 explanation: |
   Comme l'explique Jameson Lopp, le dépôt GitHub de Bitcoin Core est techniquement identique à des milliers d'autres copies dans le monde, mais il est devenu le point central socialement accepté pour la coordination du développement. Il ne présente aucune caractéristique technique particulière, aucun mécanisme d'authentification cryptographique ni aucune protection juridique qui le rendrait supérieur. La licence MIT garantit en fait que tout le monde peut copier et redistribuer le code librement. Si ce dépôt disparaissait, la communauté établirait simplement un nouveau point focal ailleurs, démontrant que son importance est purement une convention sociale plutôt qu'une nécessité technique.
+reviewed: false

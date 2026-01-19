@@ -24,7 +24,7 @@ Es gibt zwei Hauptgründe für die Verwendung eines alternativen Clients wie Kno
 
 ## Wie installiere ich Bitcoin-Knoten?
 
-Gehen Sie auf [die offizielle Bitcoin-Knoten-Website] (https://bitcoinknots.org/#download), um die Version für Ihr Betriebssystem herunterzuladen. Vergessen Sie nicht, den Fingerabdruck und die Signaturen herunterzuladen, um die Software zu verifizieren. Diese Dateien sind auch [im Bitcoin Knots GitHub Repository](https://github.com/bitcoinknots/Bitcoin) verfügbar.
+Gehen Sie auf [die offizielle Bitcoin-Knoten-Website](https://bitcoinknots.org/#download), um die Version für Ihr Betriebssystem herunterzuladen. Vergessen Sie nicht, den Fingerabdruck und die Signaturen herunterzuladen, um die Software zu verifizieren. Diese Dateien sind auch [im Bitcoin Knots GitHub Repository](https://github.com/bitcoinknots/Bitcoin) verfügbar.
 
 ![Image](assets/fr/02.webp)
 

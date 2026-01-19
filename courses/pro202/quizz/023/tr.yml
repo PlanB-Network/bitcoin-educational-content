@@ -1,0 +1,8 @@
+question: Bitcoin işlem girdilerindeki sıra numarası alanının birincil amacı nedir?
+answer: Zaman kilitlerini ve Ücretle Değiştir (RBF) işlevselliğini etkinleştirmek için
+wrong_answers:
+  - Girdilerin madenciler tarafından işlenmesi gereken sırayı belirtmek için
+  - Her giriş için benzersiz bir tanımlayıcı oluşturarak double-spending'yi önlemek için
+  - Ücret hesaplaması için işlemin öncelik seviyesini belirtmek için
+explanation: |
+  Bitcoin işlem girdilerindeki sıra numarası alanı iki ana amaca hizmet eder: zaman kilitlerinin uygulanması (bir işlemin onaylanabileceği zamanı geciktirir) ve Ücretle Değiştirme (RBF) işlevselliğinin etkinleştirilmesi (kullanıcıların onaylanmamış işlemlerde ücretleri artırmasına olanak tanır). Diğer seçenekler yanlıştır çünkü: girdilerin madenciler tarafından belirli bir sırada işlenmesi gerekmez, double-spending önleme, sıra numaraları yerine UTXO modeli ve blok zinciri mutabakatı ile ele alınır ve işlem önceliği sıra numaraları yerine ücret oranları ile belirlenir.

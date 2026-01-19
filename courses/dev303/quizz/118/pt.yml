@@ -1,0 +1,8 @@
+question: Qual é a principal razão técnica pela qual as carteiras equipadas com o Greenlight alcançam uma fiabilidade de encaminhamento de pagamentos superior à das implementações móveis tradicionais do Lightning?
+answer: Os nós Greenlight são executados continuamente na nuvem, mantendo a sincronização de gráficos de rede em tempo real e o acesso instantâneo a dados de gráficos completos
+wrong_answers:
+  - A Greenlight utiliza algoritmos avançados de aprendizagem automática para prever as melhores vias de pagamento com base em padrões históricos de transacções
+  - A Greenlight implementa uma divisão proprietária de pagamentos por vários caminhos que distribui as transacções por vários canais em simultâneo para efeitos de redundância
+  - A Greenlight mantém ligações dedicadas de elevada largura de banda aos principais centros Lightning, assegurando o encaminhamento prioritário através dos canais mais líquidos
+explanation: |
+  A resposta correta identifica a vantagem arquitetónica fundamental da abordagem baseada na nuvem da Greenlight. As carteiras Lightning móveis tradicionais têm de sincronizar os dados gráficos da rede quando arrancam, criando atrasos e podendo trabalhar com informações de encaminhamento obsoletas. A Greenlight resolve este problema executando nós Lightning continuamente na nuvem, garantindo que têm sempre conhecimento atual da rede e podem fornecer instantaneamente dados gráficos completos quando os utilizadores se ligam. As respostas erradas descrevem caraterísticas plausíveis mas inexistentes - o Greenlight não utiliza algoritmos de encaminhamento ML, divisão de pagamentos proprietários para além dos protocolos Lightning padrão ou ligações de hub especiais para encaminhamento prioritário.

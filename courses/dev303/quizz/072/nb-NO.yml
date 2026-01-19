@@ -1,0 +1,8 @@
+question: Hva skiller kjøretidsressursfeil fra ugyldige inputfeil og logiske feil i Bitcoin-applikasjonsutvikling?
+answer: Feil i kjøretidsressursene oppstår når eksterne avhengigheter som filer eller nettverkstilkoblinger er utilgjengelige, noe som krever miljørettinger i stedet for kodeendringer
+wrong_answers:
+  - "Kjøretidsressursfeil oppstår når funksjonsparametere ikke oppfyller kravene, noe som indikerer kontraktsbrudd mellom den som kaller opp og funksjonen."
+  - Feil i kjøretidsressursene representerer feil i programimplementeringen som krever feilsøking og kodemodifisering for å løses på riktig måte
+  - Kjøretidsressursfeil oppstår når typesystemet ikke fanger opp feilmatchinger, slik at feil datatyper kan forplante seg gjennom systemet
+explanation: |
+  Kjøretidsressursfeil ligger utenfor programlogikken og oppstår når avhengigheter som filer, nettverkstilkoblinger eller lagringsenheter ikke er tilgjengelige. I motsetning til ugyldige inndatafeil (som innebærer brudd på parameterkontrakten) eller logikkfeil (som er implementasjonsfeil), krever kjøretidsressursfeil vanligvis miljørettinger i stedet for kodeendringer. Programmet må håndtere disse på en elegant måte, siden de ofte er midlertidige og utenfor programmets direkte kontroll.

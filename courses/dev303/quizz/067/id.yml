@@ -1,0 +1,8 @@
+question: Bagaimana kompatibilitas lintas platform Rust bermanfaat bagi pengembangan aplikasi Bitcoin di berbagai lingkungan penerapan?
+answer: Ini memungkinkan basis kode terpadu untuk berjalan di platform seluler, browser web melalui WebAssembly, dan sistem operasi tradisional
+wrong_answers:
+  - Secara otomatis menangani konversi nilai tukar mata uang kripto di berbagai pasar dan mata uang regional
+  - Ini menyediakan protokol sinkronisasi blockchain bawaan yang bekerja secara identik di semua arsitektur jaringan
+  - Menawarkan integrasi asli dengan dompet perangkat keras dan modul keamanan pada setiap platform yang didukung
+explanation: |
+  Kemampuan lintas platform Rust memungkinkan pengembang untuk menulis aplikasi Bitcoin yang dapat digunakan di berbagai lingkungan termasuk seluler (Android/iOS), browser web (melalui kompilasi WebAssembly), dan sistem operasi desktop tradisional. Keserbagunaan ini ditunjukkan oleh proyek-proyek seperti Mutiny Wallet, yang memanfaatkan dukungan WebAssembly Rust untuk membuat dompet Lightning yang berjalan langsung di browser. Jawaban yang salah menggambarkan fitur-fitur yang tidak berhubungan dengan kompatibilitas lintas platform - konversi mata uang merupakan fitur tingkat aplikasi, protokol blockchain merupakan masalah lapisan jaringan, dan integrasi perangkat keras membutuhkan API khusus daripada dukungan lintas platform secara umum.

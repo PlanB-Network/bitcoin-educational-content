@@ -1,0 +1,8 @@
+question: Elements' Confidential Transactions'daki Pedersen Taahhütlerinin birincil amacı nedir?
+answer: Görünür işlem tutarlarını, gerçek değerleri göstermeden doğrulanabilen kriptografik taahhütlerle değiştirmek
+wrong_answers:
+  - Elements blok zincirinde yeni çıkarılan varlıklar için generate'e özgü 64 karakterli onaltılık tanımlayıcılar
+  - Gizli değerlerin geçerli aralıklar içinde pozitif tam sayılar olduğuna dair matematiksel kanıtlar oluşturarak double-spending'ü önlemek
+  - Kriptografik sabitleme mekanizmaları aracılığıyla Bitcoin'nın ana zincirden Elements yan zincirlerine aktarılmasını sağlamak
+explanation: |
+  Pedersen Taahhütleri, görünür miktarları matematiksel taahhütlerle değiştirerek Confidential Transactions'de gizliliği sağlayan temel kriptografik mekanizmadır. Homomorfik özellikleri nedeniyle, doğrulayıcılar gerçek değerleri görmeden girdilerin çıktılara artı ücretlere eşit olduğunu doğrulayabilir. Aralık Kanıtları negatif miktarları önler, varlık kimlikleri tokenları tanımlar ve sabitleme mekanizmaları zincirler arası transferleri ele alır, ancak bunların hiçbiri özellikle Pedersen Taahhütlerinin işlevi değildir.

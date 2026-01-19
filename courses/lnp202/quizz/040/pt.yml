@@ -1,0 +1,9 @@
+question: Por que usar um gerenciador de nós do Lightning?
+answer: Fácil acesso a funções avançadas
+wrong_answers:
+  - Substituir a implementação do LND
+  - Eliminar a dependência do Umbrel
+  - Modificar o protocolo Lightning
+explanation: |
+  Os gestores avançados oferecem funcionalidades que não estão disponíveis na interface básica, embora continuem a ser interfaces simples.
+reviewed: false

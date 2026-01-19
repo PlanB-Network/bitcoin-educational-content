@@ -1,0 +1,9 @@
+question: Bir Lightning satıcısının en önemli önceliği nedir?
+answer: Gelen likiditenin satın alınması
+wrong_answers:
+  - Dışarıya giden likidite edinme
+  - Yönlendirme maliyetlerinde tasarruf
+  - İyi LN+ değerlendirmeleri edinme
+explanation: |
+  Bir tüccarın başarısız olmadan nakde çevirebilmesi gerekir, bu da yeterli miktarda likidite gerektirir.
+reviewed: false

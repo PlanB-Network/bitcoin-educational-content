@@ -1,0 +1,9 @@
+question: Which of these criteria is most important for peer connectivity?
+answer: Central position in the graph
+wrong_answers:
+  - Name of node in graph
+  - Node color in the graph
+  - Number of messages in the graph
+explanation: |
+  A well-positioned node in the Lightning graph facilitates routing to many destinations.
+reviewed: false

@@ -36,7 +36,7 @@ Video van [het *Vortex Bitcoin* YouTube kanaal](https://www.youtube.com/@VortexB
 
 
 
-Video van [het *Vortex Bitcoin* YouTube-kanaal] (https://www.youtube.com/@VortexBitcoin).
+Video van [het *Vortex Bitcoin* YouTube-kanaal](https://www.youtube.com/@VortexBitcoin).
 
 
 

@@ -446,7 +446,7 @@ Hoewel het bepaalde beperkingen heeft (geen automatische updates, verminderde co
 
 
 
-- [Privacyrichtlijnen] (https://www.privacyguides.org/en/desktop-browsers/)
+- [Privacyrichtlijnen](https://www.privacyguides.org/en/desktop-browsers/)
 - [Vergelijkende privacytests](https://privacytests.org)
 
 

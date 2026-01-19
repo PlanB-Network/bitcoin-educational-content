@@ -6,3 +6,4 @@ wrong_answers:
   - The GitHub repository maintains a master key that validates all other repository copies worldwide
 explanation: |
   According to Jameson Lopp's analysis cited in the chapter, Bitcoin Core's GitHub repository is technically identical to all other copies. Its significance is purely social - it has become the focal point for development coordination. The repository serves as a matter of convenience rather than technical authority, and if it disappeared, a new focal point would naturally emerge. This demonstrates Bitcoin's decentralized nature where no single repository has technical supremacy over others.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Eş bağlantı için bu kriterlerden hangisi en önemlidir?
+answer: Grafikteki merkezi konum
+wrong_answers:
+  - Grafikteki düğümün adı
+  - Grafikteki düğüm rengi
+  - Grafikteki mesaj sayısı
+explanation: |
+  Lightning grafiğinde iyi konumlandırılmış bir düğüm, birçok hedefe yönlendirmeyi kolaylaştırır.
+reviewed: false

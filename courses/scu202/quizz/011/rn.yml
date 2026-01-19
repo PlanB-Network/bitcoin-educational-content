@@ -1,9 +1,9 @@
-question: Ni itandukaniro irihe rikomeye hagati y’umuvuduko wa porogarama z’ubuntu n’inkomoko yuguruye?
-answer: Imbere y'ibindi ni umwidegemvyo canke ubuhinga
+question: Ni itandukaniro irihe rikomeye hagati y’umuhari wa porogarame z’ubuntu n’isoko y’uguruye (open-source)?
+answer: Agaciro gahabwa umwidegemvyo canke ukwikwiza mu vy’ubuhinga
 wrong_answers:
-  - Gukoresha C canke ururimi rw'ikoraniro
-  - Iterambere ry'ubuhinga bwa none canke PC
-  - Ukubaho canke ukutabaho kw'ishirahamwe mpuzamakungu .
+  - Gukoresha C canke ururimi rw’ikoraniro
+  - Gutegurwa kwa porogarame z’umwimerere canke za PC ngendanwa
+  - Ukubaho canke ukutabaho kw’umuryango wagutse mpuzamakungu.
 explanation: |
-  Porogaramu y’ubuntu ni ivyerekeye umwidegemvyo w’abakoresha; open source ni ivyerekeye uguseruka no gukora neza mu vy’ubuhinga.
-reviewed: false
+  Porogarame z’ubuntu ni ivyerekeye umwidegemvyo w’abakoresha; open source ni ivyerekeye ugukorera mu muco be ukwikwiza muvy’ubuhinga.
+reviewed: true

@@ -1,0 +1,9 @@
+question: ¿Por qué es más complejo hacer una copia de seguridad de un nodo Lightning que de un Bitcoin onchain wallet?
+answer: El estado de los canales evoluciona
+wrong_answers:
+  - La liquidez del canal depende del mempool
+  - Graba los cotilleos de la red Lightning
+  - Las claves de revocación caducan con el tiempo
+explanation: |
+  Los canales de rayos cambian de estado con cada pago, lo que hace peligrosa una simple copia de seguridad fija o periódica.
+reviewed: false

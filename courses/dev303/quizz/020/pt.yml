@@ -1,0 +1,8 @@
+question: Qual é a principal diferença entre métodos e funções associadas nas estruturas Rust?
+answer: Os métodos tomam self como primeiro parâmetro, enquanto as funções associadas não o fazem
+wrong_answers:
+  - Os métodos são públicos por defeito, enquanto as funções associadas são privadas por defeito
+  - Os métodos só podem ler dados, enquanto as funções associadas podem modificar campos de estrutura
+  - Os métodos utilizam a notação de ponto para serem chamados, enquanto as funções associadas utilizam a notação de seta
+explanation: |
+  Os métodos no Rust são funções definidas num bloco de implantes que tomam alguma forma de self como primeiro parâmetro (self, &self, ou &mut self), permitindo-lhes operar em instâncias da estrutura. Funções associadas também são definidas em blocos impl, mas não tomam self como parâmetro, tornando-as similares a métodos estáticos em outras linguagens. As funções associadas são chamadas usando a sintaxe de dois pontos (Type::nome_da_função()) e são normalmente usadas como construtores, enquanto os métodos são chamados em instâncias usando a notação de ponto. As outras opções estão incorrectas porque tanto os métodos como as funções associadas seguem as mesmas regras de visibilidade, ambos podem ser concebidos para modificar ou ler dados, dependendo da sua implementação, e as funções associadas utilizam a sintaxe de dois pontos e não a notação de seta.

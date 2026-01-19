@@ -1,0 +1,8 @@
+question: Hoeveel handtekeningen van functionarissen zijn er nodig om een blok in de Liquid Network te valideren?
+answer: Minstens 11 van de 15 functionarissen moeten ondertekenen
+wrong_answers:
+  - Minstens 8 van de 15 functionarissen moeten ondertekenen
+  - Minstens 10 van de 15 functionarissen moeten ondertekenen
+  - Ten minste 12 van de 15 functionarissen moeten ondertekenen
+explanation: |
+  De Liquid Network vereist handtekeningen van ten minste 11 van de 15 functionarissen om een blok te valideren, wat een tweederde plus één drempel vertegenwoordigt. Deze specifieke vereiste zorgt voor een robuuste consensus en voorkomt dat een kleine groep het netwerk controleert. De andere opties zijn onjuist: 8 handtekeningen zou te weinig zijn voor de veiligheid, 10 zou de tweederde drempel niet halen en 12 zou onnodig beperkend zijn voor normale operaties.

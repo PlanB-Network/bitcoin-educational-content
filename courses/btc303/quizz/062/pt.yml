@@ -6,3 +6,4 @@ wrong_answers:
   - As obras derivadas só podem ser distribuídas ao abrigo de licenças proprietárias que exijam o pagamento de royalties
 explanation: |
   A definição de código aberto afirma explicitamente que 'a licença deve permitir modificações e trabalhos derivados, e deve permitir que sejam distribuídos sob os mesmos termos que a licença do software original' Isto assegura que os trabalhos derivados mantêm as mesmas liberdades que o original, impedindo que alguém pegue no código-fonte aberto e o torne proprietário. As outras opções violam este princípio fundamental, quer restringindo a liberdade, quer alterando a compatibilidade das licenças.
+reviewed: false

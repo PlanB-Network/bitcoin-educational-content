@@ -6,3 +6,4 @@ wrong_answers:
   - Soukromé klíče jsou uloženy ve více zařízeních namísto jediného wallet
 explanation: |
   Decentralizace Full node znamená, že k ověřování bloků (dat, která těžaři vytvářejí) dochází na okraji sítě jednotlivými uživateli, kteří provozují své vlastní uzly, místo aby se při ověřování transakcí spoléhali na několik důvěryhodných autorit. Tím se liší od decentralizace těžařů, která se zabývá řazením a zpracováním transakcí. Ostatní možnosti zaměňují decentralizaci full node s distribucí mining, řídicími strukturami nebo bezpečnostními postupy, ale žádná z nich nevystihuje základní koncept distribuovaného ověřování bloků účastníky sítě.
+reviewed: false

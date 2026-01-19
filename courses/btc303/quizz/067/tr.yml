@@ -6,3 +6,4 @@ wrong_answers:
   - Blokları daha hızlı işlemek için imza doğrulama performansının iyileştirilmesi
 explanation: |
   Bölüm, Bitcoin ölçeklendirmesini açıkça "Bitcoin'nin kullanım kapasitesini sansüre karşı direncinden ödün vermeden artırmak" olarak tanımlamaktadır Doğru cevap bu tanımı ihlal etmektedir çünkü kullanıcıların merkezi ödeme işlemcilerine güvenmesini gerektirmek, Bitcoin'nin temel değer önerisi olan sansüre karşı direncini doğrudan tehlikeye atmaktadır. Yanlış cevapların hepsi bölümde bahsedilen meşru ölçeklendirme yaklaşımlarını temsil etmektedir: verimli kodlama kaynak kullanımını azaltır, katmanlı çözümler temel katmanın özelliklerini korurken ek kapasite sağlar ve gelişmiş imza doğrulama merkezileştirme ödünleri olmadan performansı artırır.
+reviewed: false

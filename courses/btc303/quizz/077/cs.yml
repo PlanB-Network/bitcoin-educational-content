@@ -6,3 +6,4 @@ wrong_answers:
   - Zveřejnění vyžaduje okamžitou akci a opravy, zatímco zveřejnění umožňuje postupné opravy v rámci běžného vývoje
 explanation: |
   Gregory Maxwell zdůraznil tento zásadní rozdíl v diskusi v mailing listu. Odhalení se týká zodpovědného činu, kterým je soukromé informování správců softwaru (dodavatele) o zranitelnosti, aby mohli pracovat na její opravě. Zveřejnění však znamená, že informace o zranitelnosti jsou veřejně dostupné, což potenciální útočníky účinně informuje o možnosti zneužití. Toto rozlišení je zásadní, protože zatímco zveřejnění pomáhá chránit systém, předčasné zveřejnění může způsobit škodu tím, že umožní záškodníkům zneužít zranitelnost dříve, než bude zavedena odpovídající obrana.
+reviewed: false

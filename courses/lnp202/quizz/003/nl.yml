@@ -1,0 +1,9 @@
+question: Welke van deze Lightning-bewerkingen vereist de publicatie van een onchain-transactie?
+answer: Kanaalopening
+wrong_answers:
+  - Bliksem betaling
+  - Multi-hoproutering
+  - Verbinding met mobiele client
+explanation: |
+  De opening van een kanaal komt overeen met een Bitcoin transactie die gepubliceerd wordt op de blockchain.
+reviewed: false

@@ -20,7 +20,7 @@ Namun, masalah utama tetap ada di antara lapisan protokol Bitcoin: interoperabil
 
 
 
-[Boltz] (https://boltz.Exchange) adalah platform non-kustodian yang ideal bagi siapa saja yang ingin bertransaksi di antara berbagai lapisan protokol Bitcoin:
+[Boltz](https://boltz.Exchange) adalah platform non-kustodian yang ideal bagi siapa saja yang ingin bertransaksi di antara berbagai lapisan protokol Bitcoin:
 
 
 
@@ -54,7 +54,7 @@ Dengan cara ini, Anda memiliki hak kepemilikan permanen atas bitcoin Anda, dan E
 
 
 
-Exchange atom bekerja dengan kontrak pintar [HTLC] (https://planb.academy/resources/glossary/htlc) (*Hashed Timelock Contract*). Pada jenis Contract ini, jumlahnya "dikunci" dalam saluran dua arah dan ada batasan waktu yang diberlakukan, sehingga jika transaksi tidak diselesaikan dalam waktu tertentu, saldo akan kembali ke deposan. Ini adalah mekanisme yang digunakan oleh platform Boltz.
+Exchange atom bekerja dengan kontrak pintar [HTLC](https://planb.academy/resources/glossary/htlc) (*Hashed Timelock Contract*). Pada jenis Contract ini, jumlahnya "dikunci" dalam saluran dua arah dan ada batasan waktu yang diberlakukan, sehingga jika transaksi tidak diselesaikan dalam waktu tertentu, saldo akan kembali ke deposan. Ini adalah mekanisme yang digunakan oleh platform Boltz.
 
 
 

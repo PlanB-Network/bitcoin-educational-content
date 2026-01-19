@@ -1,9 +1,9 @@
-question: What advanced features are typically demanded by Professional profile businesses?
-answer: Advanced reporting dashboards and multiple administrative roles
+question: Các doanh nghiệp chuyên nghiệp thường yêu cầu những tính năng nâng cao nào?
+answer: Bảng thông tin báo cáo nâng cao và nhiều vai trò quản trị
 wrong_answers:
-  - Basic transaction recording and standard receipts
-  - Simple wallet integration and QR code generation
-  - Automatic conversion to fiat without any reporting options
+  - Ghi chép giao dịch cơ bản và biên lai tiêu chuẩn
+  - Tích hợp wallet đơn giản và tạo mã QR
+  - Tự động chuyển đổi sang tiền pháp định mà không có bất kỳ tùy chọn báo cáo nào
 explanation: |
-  Professional businesses require customizable invoices, sophisticated reporting, and role management to suit their complex workflows.
-reviewed: false
+  Các doanh nghiệp chuyên nghiệp cần hóa đơn có thể tùy chỉnh, báo cáo phức tạp và quản lý vai trò để phù hợp với quy trình làm việc phức tạp của họ.
+reviewed: true

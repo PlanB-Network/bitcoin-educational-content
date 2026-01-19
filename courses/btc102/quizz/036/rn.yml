@@ -1,9 +1,9 @@
-question: Ni iyihe ntumbero nyamukuru yo gusobanura urutonde rw’abakoresha bawe?
-answer: Gufata ingamba zihuye n'ivyo ukeneye .
+question: Ni iyihe ntumbero nyamukuru yo gushiramwo umwidondoro wawe nk'uwukoresha?
+answer: Gufata imikenyuro ihuye n'ivyo ukeneye .
 wrong_answers:
   - Kugira ngo umuntu ashobore gutera imbere mu vyiyumviro, rero akaronka inyungu .
-  - Gufata ingamba rusangi zikorera bose .
-  - Kumenya uwo Bitcoin influencer wokurikira ku mbuga ngurukanabumenyi
+  - Gufata imikenyuro rusangi ikoreshwa na bose .
+  - Kumenya ni uruhe ruhara rwa bitcoin wokurikira ku mbuga ngurukanabumenyi
 explanation: |
   Kumenya urutonde rwawe no kubasha kuruhindura bigufasha guhitamwo inyishu zo kuronka no kubika zihuye n’ivyo wewe ubwawe urimwo.
 reviewed: false

@@ -1,0 +1,8 @@
+question: Apa keuntungan utama yang diberikan bukti Merkle kepada klien SPV (Simplified Payment Verification) saat memverifikasi penyertaan transaksi?
+answer: Mereka memungkinkan verifikasi penyertaan transaksi tanpa mengunduh seluruh blok, hanya membutuhkan beberapa ratus byte bahkan untuk blok dengan ribuan transaksi
+wrong_answers:
+  - Mereka menghilangkan kebutuhan untuk memverifikasi hash blok terhadap target kesulitan, mengurangi kebutuhan komputasi untuk klien yang ringan
+  - Mereka menyediakan bukti kriptografi yang mencegah serangan double-spending dengan memvalidasi semua input transaksi di dalam blok
+  - Mereka memungkinkan klien SPV untuk merekonstruksi riwayat transaksi lengkap tanpa terhubung ke beberapa node penuh secara bersamaan
+explanation: |
+  Bukti Merkle mengeksploitasi properti pertumbuhan logaritmik dari pohon Merkle, yang memungkinkan klien SPV untuk memverifikasi penyertaan transaksi hanya dengan hash saudara di sepanjang jalur menuju root. Hal ini hanya membutuhkan beberapa ratus byte terlepas dari ukuran blok, membuatnya praktis untuk klien yang ringan. Jawaban yang salah akan membingungkan bukti Merkle dengan mekanisme Bitcoin lainnya - bukti ini tidak menghilangkan kesulitan verifikasi, tidak mencegah double-spending secara langsung, dan tidak merekonstruksi riwayat transaksi.

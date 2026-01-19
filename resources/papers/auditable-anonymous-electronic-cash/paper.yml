@@ -1,0 +1,29 @@
+title: "Auditable, Anonymous Electronic Cash"
+original_language: en
+authors:
+  - Tomas Sander
+  - Amnon Ta-Shma
+abstract: |
+  Most anonymous, electronic cash systems are signature-
+  based. A side effect of this is that in these systems the bank has the
+  technical ability to issue unreported, valid money. It has been noticed in
+  the past that this may lead to a disaster if the secret key of the bank
+  is compromised. Furthermore, the above feature prevents any effective
+  monitoring of the system.
+  In this paper we build a fully anonymous, auditable system, by con-
+  structing an electronic cash system that is signature-free, and where the
+  bank needs to have no secret at all. The security of the system relies
+  instead on the ability of the bank to maintain the integrity of a public
+  database. Our system takes a completely new direction for meeting the
+  above requirements, and, in particular, it is the first to do so without the
+  necessity of making individual transactions potentially traceable: pay-
+  ers enjoy unconditional anonymity for their payment transactions. The
+  system is theoretically efficient but not yet practical.
+publication_date: 1999-12-16
+paper_type: conference
+source: Crypto
+topics:
+  - Anonymous Transaction Systems
+  - Privacy-Preserving Protocols
+pdf_url: https://link.springer.com/content/pdf/10.1007/3-540-48405-1_35.pdf
+id: 3d8fdd4b-1312-4e7f-9f59-0370f1d43c0f

@@ -1,0 +1,9 @@
+question: 強制關閉的主要缺點是什麼？
+answer: 因時間鎖而被凍結的資金
+wrong_answers:
+  - 部分資金損失
+  - Lightning 節點過時
+  - 閃電節點非同步化
+explanation: |
+  資金會被時間鎖封，而且費用通常很高。
+reviewed: false

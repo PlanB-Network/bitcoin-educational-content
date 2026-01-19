@@ -6,3 +6,4 @@ wrong_answers:
   - İşlemlerin hiç kimse tarafından geri alınamadığı veya itiraz edilemediği bir sistem
 explanation: |
   Trustless özellikle dağıtık bir sistemin herhangi bir güvenilir tarafa ihtiyaç duymadan doğru bir şekilde çalışabildiği teknik bir özelliği ifade eder. Bu, tüm güveni ortadan kaldırmaktan (yazılımınıza/donanımınıza hala güvenirsiniz) veya tersine çevirmeleri önlemekten (Bitcoin işlemleri zincirin yeniden yazılması yoluyla tersine çevrilebilir) farklıdır. Bu terim aynı zamanda kullanıcıların katılımcılara güvenemeyeceği anlamına gelmez - daha ziyade sistemin doğruluğunun onlara güvenmeye bağlı olmadığı anlamına gelir.
+reviewed: false

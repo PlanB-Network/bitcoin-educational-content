@@ -1,9 +1,9 @@
-question: Ni uwuhe muti uwundi uvugwa ku bucuruzi bukunda gukoresha ubuhinga bwo kugurisha ibintu vyose kuri Internet?
+question: Ni uwuhe muti uwundi uvugwa ku nganda zikunda gukoresha ubuhinga bwo kugurisha ibintu vyose kuri Internet?
 answer: Kuba-BOP
 wrong_answers:
-  - Fenikisi
-  - Gufungura urudodo
-  - Ubusuwisi Bitcoin kwishura
+ - Phoenix
+ - Open Node
+ - Swiss Bitcoin Pay
 explanation: |
-  Be-BOP ni nk’uburyo bwo guhitamwo ku bipfuza iduka ry’ubuhinga bwa none ry’ubuhinga bwa none ryorohereza abantu kwishura Bitcoin.
-reviewed: false
+  Be-BOP ni nk’uburyo bwo guhitamwo ku bipfuza iduka ry’ubuhinga bwa none r ryorohereza abantu kwishura Bitcoin.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Que informação indica a capacidade de receção do nó Lightning?
+answer: Liquidez de entrada
+wrong_answers:
+  - Ligações activas
+  - Liquidez de saída
+  - Número de blocos
+explanation: |
+  A liquidez de entrada representa o sats que o nó pode receber através do Lightning.
+reviewed: false

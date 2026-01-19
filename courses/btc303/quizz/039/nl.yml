@@ -6,3 +6,4 @@ wrong_answers:
   - Soft fork veranderingen worden permanent en kunnen niet worden gewijzigd zodra mijnwerkers ze activeren
 explanation: |
   Shaolinfry stelde vast dat signalen van mijnwerkers een natuurlijk vetosysteem creëren waarbij zelfs een klein percentage van hashrate kan voorkomen dat upgrades voor het hele netwerk worden geactiveerd. Deze 'upgrade inertie' wordt problematischer naarmate mining meer gedecentraliseerd wordt, en blokkeert mogelijk nuttige protocolverbeteringen. De andere opties geven een verkeerd beeld van hoe soft forks werken - miners kunnen activeringen niet eenzijdig terugdraaien, economische knooppunten behouden validatiebevoegdheid en soft forks kunnen theoretisch worden aangepast door opeenvolgende upgrades.
+reviewed: false

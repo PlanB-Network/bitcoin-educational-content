@@ -1,9 +1,9 @@
-question: Kako da instaliram alternativni ROM na Android pametni telefon?
-answer: Otključavanje bootloadera
+question: Kako se instalira alternativni ROM na Android pametnom telefonu?
+answer: Otključavanjem bootloadera
 wrong_answers:
-  - Kreiraj Apple nalog
-  - Instaliranje posebne SIM kartice
-  - Aktiviraj režim za programere na iOS-u
+  - Kreiranjem Apple naloga
+  - Instaliranjem posebne SIM kartice
+  - Aktiviranjem režima za programere na iOS-u
 explanation: |
-  Otključavanje bootloader-a je neophodno za pisanje nove sistemske slike na Android pametni telefon.
-reviewed: false
+  Otključavanje bootloader-a je neophodno za pisanje nove sistemske slike na Android pametnom telefonu.
+reviewed: true

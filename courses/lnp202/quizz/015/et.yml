@@ -1,0 +1,9 @@
+question: Mida saab Lightning-sõlme täiustatud seadetes kohandada?
+answer: Sõlme avalik nimi
+wrong_answers:
+  - Sõlme konsensuse reeglid
+  - Sõlme privaatvõtmed
+  - Sõlme valitud marsruudid
+explanation: |
+  Täiustatud seaded võimaldavad kohandada sõlme identifitseerimiselemente, ilma et see mõjutaks konsensust või Lightning-võrgu tööd.
+reviewed: false

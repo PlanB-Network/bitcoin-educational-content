@@ -1,0 +1,2 @@
+description: |
+  Frostsnap, bitcoinleriniz için dağıtılmış çoklu imza modeline dayanan ve tek bir hata noktasını ortadan kaldıran bir güvenlik sistemidir. Frostsnap, FROST (Flexible Round-Optimized Schnorr Treshold Signatures) protokolünü kullanır.

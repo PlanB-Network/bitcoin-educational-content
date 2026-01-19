@@ -1,5 +1,5 @@
 ---
-name: Trình khám phá Blockstream
+name: Blockstream Explorer
 description: Khám phá lớp chính của Bitcoin và Liquid Network
 ---
 
@@ -225,4 +225,4 @@ Giờ đây, bạn đã sẵn sàng khai thác toàn bộ tiềm năng của Blo
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

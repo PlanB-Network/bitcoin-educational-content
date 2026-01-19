@@ -3,7 +3,7 @@ name: My Node
 description: Bitcoin 마이노드 설정
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 
 [마이 노드](https://mynodebtc.com/)는 Bitcoin와 라이트닝 노드를 가장 쉽고 강력하게 실행할 수 있는 방법입니다! 최고의 오픈 소스 소프트웨어와 Interface, 관리 및 지원을 결합하여 Bitcoin와 Lightning을 쉽고, 비공개적으로, 안전하게 사용할 수 있습니다.

@@ -1,0 +1,9 @@
+question: 行動應用程式在中繼器上發佈 NWC 請求後，緊接著哪個步驟？
+answer: 節點解密並驗證授權
+wrong_answers:
+  - 中繼為節點簽署請求
+  - 中繼在 LND 上執行付款
+  - 節點自動開啟通道
+explanation: |
+  節點會讀取事件、解密，然後在執行動作前檢查作者是否獲得授權。
+reviewed: false

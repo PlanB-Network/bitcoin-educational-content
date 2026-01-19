@@ -1,9 +1,9 @@
-question: Why is volatility considered a natural aspect of Bitcoin as an emerging asset?
-answer: Because Bitcoin is still relatively young, attracting speculators and responding to market news, causing price swings before stabilizing over longer periods.
+question: Tại sao tính biến động được coi là khía cạnh tự nhiên của Bitcoin khi là một tài sản mới nổi?
+answer: Vì Bitcoin vẫn còn tương đối mới nên nó thu hút các nhà đầu cơ và phản ứng với tin tức thị trường, gây ra biến động giá trước khi ổn định trong thời gian dài hơn.
 wrong_answers:
-  - Because it’s centrally controlled and prices are set by one authority.
-  - Because Bitcoin lacks any users holding it long-term.
-  - Because merchants must set prices unpredictably every hour.
+  - Bởi vì nó được kiểm soát tập trung và giá cả được thiết lập bởi một cơ quan có thẩm quyền.
+  - Bởi vì Bitcoin không có nhiều người dùng nắm giữ lâu dài.
+  - Bởi vì các thương gia phải đặt giá một cách không thể đoán trước mỗi giờ.
 explanation: |
-  As a developing asset, Bitcoin’s price is influenced by speculation, sentiment, and varying adoption rates. Over time, as more stable, long-term holders participate, volatility may diminish, but it remains a feature of early-stage growth.
-reviewed: false
+  Là một tài sản đang phát triển, giá của Bitcoin chịu ảnh hưởng của đầu cơ, tâm lý thị trường và tỷ lệ chấp nhận khác nhau. Theo thời gian, khi ngày càng có nhiều nhà đầu tư dài hạn và ổn định tham gia, tính biến động có thể giảm bớt; tuy nhiên, đây vẫn là đặc điểm của giai đoạn tăng trưởng ban đầu.
+reviewed: true

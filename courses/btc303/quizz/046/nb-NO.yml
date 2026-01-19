@@ -6,3 +6,4 @@ wrong_answers:
   - Nettbaserte systemer behandler transaksjoner raskere, noe som gjør det lettere for motstandere å iverksette koordinerte angrep
 explanation: |
   Andrew Poelstra fremhever at fysiske systemer kan stole på at politiet og motstanderne er synlige for å avskrekke angrep, og til og med akseptere en viss risiko, for eksempel at bygninger blir brent ned. Nettbaserte systemer som Bitcoin opererer imidlertid i et miljø der motstanderne kan opptre pseudonymt eller anonymt, koble seg til hvor som helst og utnytte svakheter uten å bli identifisert eller tatt. Denne grunnleggende forskjellen betyr at alle kjente svakheter i Bitcoin må utbedres, ettersom de uunngåelig vil bli utnyttet av usynlige motstandere som ikke får noen konsekvenser i den virkelige verden.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Tailscaleはどのようなプロトコルに基づいているのですか？
+answer: WireGuard
+wrong_answers:
+  - オープンVPN
+  - IPsec IKEv2
+  - PPTP
+explanation: |
+  TailscaleはWireGuardをベースにしたVPNソリューションである。
+reviewed: false

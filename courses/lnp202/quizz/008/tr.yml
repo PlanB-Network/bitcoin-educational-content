@@ -1,0 +1,9 @@
+question: Gözetimli bir Lightning wallet ile bitcoinlerin sahibi kimdir?
+answer: Şirket
+wrong_answers:
+  - Kullanıcı
+  - Lightning ağı
+  - Bitcoin Çekirdek
+explanation: |
+  Saklama modelinde, şirket anahtarları elinde tutar ve fonları kontrol ederken, kullanıcı yalnızca muhasebe bakiyesine sahiptir.
+reviewed: false

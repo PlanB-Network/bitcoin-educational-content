@@ -77,7 +77,7 @@ Nawigacja po urządzeniu jest bardzo prosta:
 
 
 
-W tym samouczku pokażę, jak używać Trezor Model One z [oprogramowaniem do zarządzania portfelem Sparrow Wallet] (https://sparrowwallet.com/download/). Jeśli jeszcze nie zainstalowałeś tego oprogramowania, zrób to teraz. Jeśli potrzebujesz pomocy, mamy również szczegółowy samouczek dotyczący konfiguracji Sparrow Wallet :
+W tym samouczku pokażę, jak używać Trezor Model One z [oprogramowaniem do zarządzania portfelem Sparrow Wallet](https://sparrowwallet.com/download/). Jeśli jeszcze nie zainstalowałeś tego oprogramowania, zrób to teraz. Jeśli potrzebujesz pomocy, mamy również szczegółowy samouczek dotyczący konfiguracji Sparrow Wallet :
 
 
 
@@ -307,7 +307,7 @@ Nie będziemy już potrzebować oprogramowania Trezor Suite, z wyjątkiem przepr
 
 
 
-Zacznij od pobrania i zainstalowania Sparrow Wallet [z oficjalnej strony internetowej] (https://sparrowwallet.com/) na swoim komputerze, jeśli jeszcze tego nie zrobiłeś.
+Zacznij od pobrania i zainstalowania Sparrow Wallet [z oficjalnej strony internetowej](https://sparrowwallet.com/) na swoim komputerze, jeśli jeszcze tego nie zrobiłeś.
 
 
 

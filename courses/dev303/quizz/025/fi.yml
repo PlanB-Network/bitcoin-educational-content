@@ -1,0 +1,8 @@
+question: Mitä avainsanaa käytetään määrittelemään toteutuslohkoja, jotka sisältävät Rust:n rakenteiden metodeja ja niihin liittyviä funktioita?
+answer: impl
+wrong_answers:
+  - menetelmä
+  - struct
+  - fn
+explanation: |
+  Avainsanaa `impl` käytetään erityisesti sellaisten toteutuslohkojen luomiseen, joissa määritellään metodeja ja niihin liittyviä funktioita rakenteille. Vaikka `struct` määrittelee itse rakenteen, `fn` määrittelee yksittäisiä funktioita ja `method` ei ole lainkaan Rust-avainsana, vain `impl` luo lohkon, joka sisältää tyyppiin liittyvän käyttäytymisen. `impl`:n avulla voit lisätä toimintoja rakenteisiisi, jolloin niistä tulee muutakin kuin pelkkiä datasäiliöitä.

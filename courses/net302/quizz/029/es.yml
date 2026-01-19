@@ -5,5 +5,5 @@ wrong_answers:
   - Distribuir direcciones IP a hosts remotos
   - Comprobar la longitud total de los paquetes IP
 explanation: |
-  Las primitivas de servicio definen la comunicación Interface entre las distintas capas, permitiendo establecer, mantener o finalizar los intercambios en la red.
-reviewed: false
+  Las primitivas de servicio definen la comunicación de interfaces entre las distintas capas, permitiendo establecer, mantener o finalizar los intercambios en la red.
+reviewed: true

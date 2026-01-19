@@ -1,0 +1,8 @@
+question: During the batch channel opening workflow in Lightning Terminal, what is the primary purpose of the iterative "Add Channel" function?
+answer: To stack additional peers into the same transaction session before finalizing, reducing the marginal cost per channel
+wrong_answers:
+  - To create separate transactions for each channel while maintaining a sequential order in the mempool
+  - To automatically distribute equal channel capacity amounts across all selected peers in the batch
+  - "To validate each peer's routing capacity before committing funds to prevent failed channel establishments"
+explanation: |
+  The "Add Channel" function allows operators to aggregate multiple channel openings into a single on-chain transaction rather than finalizing after each peer configuration. This stacking approach is the core mechanism that makes batch opens economically advantageous, as the marginal cost of each additional channel becomes negligible compared to the base transaction cost. The other options describe functions that either don't exist in the batch system or misrepresent how the workflow operates.

@@ -194,7 +194,7 @@ The third role of the node involves managing mined blocks. When a miner discover
 ![Image](assets/fr/051.webp)
 
 
-## What's the difference between a bow and a wallet?
+## What's the difference between a node and a wallet?
 
 <chapterId>de5af634-a628-4b90-b869-468c208e178b</chapterId>
 
@@ -248,7 +248,7 @@ In the face of this evolution, the roles of the Bitcoin node and the miner have 
 A miner needs a Bitcoin node to interact with the network.
 
 
-The role of the miner is also sometimes differentiated from that of the chopper. A mincer is a machine whose task is to hash template blocks supplied by a pool's server, looking for hashes that satisfy the difficulty target defined for shares, and not that of Bitcoin. The rest of the mining process, which includes actual block construction, transaction selection, or proof-of-work search according to Bitcoin's own difficulty, as well as distribution, is carried out directly by the pools.
+The role of the miner is also sometimes differentiated from that of the chopper. A miner is a machine whose task is to hash template blocks supplied by a pool's server, looking for hashes that satisfy the difficulty target defined for shares, and not that of Bitcoin. The rest of the mining process, which includes actual block construction, transaction selection, or proof-of-work search according to Bitcoin's own difficulty, as well as distribution, is carried out directly by the pools.
 
 
 ![Image](assets/fr/054.webp)
@@ -1848,7 +1848,7 @@ Once the application is installed, simply open it to access your own explorer.
 To learn more about using the Mempool.Space explorer, I recommend this comprehensive tutorial:
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Lightning Node
 
@@ -1881,8 +1881,10 @@ Finally, I recommend the *Lightning Network+* application, which allows you to f
 ![Image](assets/fr/089.webp)
 
 
-Thanks to Umbrel, managing a personal Lightning node has been greatly simplified, but it is still relatively complex. For this reason, we'll be taking a closer look at this subject in a future course devoted entirely to this use.
+Thanks to Umbrel, managing a personal Lightning node is simplified, but it nonetheless remains relatively complex. This is why I recommend that you take the LNP 202 course, which is the logical continuation of the BTC 202 course, and in which I guide you step by step through the setup and management of your Lightning node on Umbrel.
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Tailscale
 
@@ -2112,7 +2114,7 @@ As a reminder, a Bitcoin block consists of an 80-byte header and a list of trans
 ![Image](assets/fr/094.webp)
 
 
-Transactions are committed to a Merkle tree. This is a structure that summarizes a large set of data (in this case, all the transactions in the block) by aggregating their hashes progressively two by two down to a single "root", thus proving that an element belongs to the set (and detecting any modification). In this way, any modification to a transaction also modifies the root of the Merkle tree and therefore the block header's fingerprint. SegWit has introduced a separate additional commitment for cookies (signatures), placed in the coinbase.
+Transactions are committed to a Merkle tree. This is a structure that summarizes a large set of data (in this case, all the transactions in the block) by aggregating their hashes progressively two by two down to a single "root", thus proving that an element belongs to the set (and detecting any modification). In this way, any modification to a transaction also modifies the root of the Merkle tree and therefore the block header's fingerprint. SegWit has introduced a separate additional commitment for the witness (signatures), placed in the coinbase.
 
 
 ![Image](assets/fr/095.webp)
@@ -2890,10 +2892,12 @@ We've reached the conclusion of this BTC 202 course, which will have enabled you
 You can now move on to the final part of the course, where you'll be able to evaluate BTC 202, then take your diploma to check that you've mastered all the concepts covered.
 
 
-You now have several options open to you. The next logical step is to set up your own Lightning node, allowing you to be fully independent for your off-chain transactions. This will be the subject of a forthcoming course, to be published this autumn 2025 on Plan ₿ Academy.
+Several paths are now open to you. The next logical step is to set up your own Lightning node, in order to be fully independent for your off-chain transactions. This is precisely the topic of another course on Plan ₿ Academy:
 
 
-In the meantime, I invite you to discover the BTC 204 training, which will enable you to understand and master the principles of privacy protection in your use of Bitcoin:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+I also invite you to discover the BTC 204 course, which will enable you to understand and master the principles of privacy protection in your use of Bitcoin:
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c

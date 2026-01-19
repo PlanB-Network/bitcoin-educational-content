@@ -6,3 +6,4 @@ wrong_answers:
   - Ne ovat vaarassa aiheuttaa tuplakulutushyökkäyksiä, koska ne eivät voi tarkistaa, että saapuvat maksutapahtumat ovat laillisia
 explanation: |
   Kun louhijat harjoittavat validoimatonta mining:ää, he tarkistavat vain lohkon otsikon proof-of-work:n ja aloittavat välittömästi sen päälle mining:n samalla kun he lataavat ja validoivat koko lohkon rinnakkain. Kriittinen riski on, että he saattavat rakentaa virheellisen lohkon päälle, jolloin heidän laskentaponnistuksensa tuhlataan lohkoketjun haaraan, joka hylätään, kun virheellinen lohko havaitaan. Tämä heikentää verkon turvallisuutta, koska osa mining:n tehosta ei osallistu vahvimpaan validiin ketjuun, joka on Bitcoin:n perustavanlaatuinen turvamekanismi.
+reviewed: false

@@ -1,0 +1,8 @@
+question: ¿Qué palabra clave se utiliza para definir bloques de implementación que contienen métodos y funciones asociadas para estructuras en Rust?
+answer: impl
+wrong_answers:
+  - método
+  - struct
+  - fn
+explanation: |
+  La palabra clave `impl` se utiliza específicamente para crear bloques de implementación donde se definen métodos y funciones asociadas para estructuras. Mientras que `struct` define la estructura en sí, `fn` define funciones individuales, y `method` no es una palabra clave de Rust en absoluto, sólo `impl` crea el bloque que contiene el comportamiento asociado a un tipo. Los bloques de implementación que utilizan `impl` te permiten añadir funcionalidad a tus estructuras, convirtiéndolas en algo más que simples contenedores de datos.

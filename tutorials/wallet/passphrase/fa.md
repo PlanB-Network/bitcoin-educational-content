@@ -66,7 +66,7 @@ https://planb.academy/tutorials/wallet/backup/trezor-passphrase-0474b5bf-496f-4f
 روی یک SeedSigner:
 https://planb.academy/tutorials/wallet/backup/seedsigner-passphrase-7a61f64d-aa03-4bcf-8308-00c89a74cffe
 بر روی SeedSigner با یک Seedkeeper:
-https://planb.academy/tutorials/wallet/backup/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
+https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
 
 
 

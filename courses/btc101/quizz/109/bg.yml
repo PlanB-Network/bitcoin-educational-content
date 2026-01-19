@@ -1,0 +1,10 @@
+question: Коя е първата записана транзакция в Bitcoin?
+answer: Транзакция за 10 BTC между Satoshi Nakamoto и Hal Finney.
+wrong_answers:
+  - Транзакция от 10 000 BTC за 2 пици.
+  - Транзакция за 1 BTC между Satoshi Nakamoto и Hal Finney.
+  - Транзакция за 10 000 BTC между Ласло Ханиец и Hal Finney.
+explanation: |
+  Първата регистрирана транзакция в Bitcoin е транзакция за
+  10 BTC между Satoshi Nakamoto и Hal Finney.
+reviewed: true

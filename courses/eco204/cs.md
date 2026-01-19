@@ -423,7 +423,7 @@ Názorným příkladem MMT je americký vojensko-průmyslový komplex. Podle MMT
 Zastánci MMT často uvádějí Japonsko jako další příklad absence inflace navzdory výraznému měnovému tisku. Situace v Japonsku však také poukazuje na omezení tradičních měřítek inflace, jako je index spotřebitelských cen (CPI). V Japonsku je značná část natištěných peněz buď uložena, nebo investována do nemovitostí či akciového trhu, nikoliv utracena na běžnou spotřebu. Protože index spotřebitelských cen tuto dynamiku plně nezachycuje, může skutečnou inflaci podhodnocovat.
 
 
-Analýza Japonska (https://ideas.repec.org/p/ces/ceswps/_9821.html) také zdůrazňuje, že chování ekonomických subjektů, jako jsou úspory nebo investice do aktiv nezahrnutých do indexu spotřebitelských cen, může maskovat inflační dopad měnového tisku. Navíc schopnost různých sektorů absorbovat napumpovanou likviditu hraje zásadní roli při určování toho, zda dojde k inflaci.
+[Analýza Japonska](https://ideas.repec.org/p/ces/ceswps/_9821.html) rovněž ukazuje, že chování ekonomických subjektů, jako je spoření nebo investování do aktiv nezahrnutých v indexu spotřebitelských cen, může maskovat inflační dopad měnové expanze. Dále schopnost jednotlivých sektorů absorbovat vstřikovanou likviditu hraje klíčovou roli v tom, zda se inflace projeví, či nikoli.
 
 
 #### Rozvahy bank a centrálních bank

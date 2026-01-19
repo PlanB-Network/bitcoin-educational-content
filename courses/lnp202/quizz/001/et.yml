@@ -1,0 +1,9 @@
+question: Milline mehhanism takistab vana välgukanali oleku vabastamist?
+answer: Tagasivõtmise võti
+wrong_answers:
+  - Tehingutasud
+  - Absoluutsed ajamärgid
+  - Võrgujutud
+explanation: |
+  Tagasivõtmise võtmeid kasutatakse selleks, et karistada sõlme, kes üritab avaldada vana kanali olekut.
+reviewed: false

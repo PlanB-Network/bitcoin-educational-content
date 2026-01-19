@@ -1,0 +1,9 @@
+question: Was bedeutet der auf der LND-Anwendungsschnittstelle angezeigte Saldo von Lightning wallet?
+answer: Die Summe der ausgehenden Liquidität
+wrong_answers:
+  - Die Summe der Onchains
+  - Die Summe der eingehenden Liquidität
+  - Die Summe der Kanalkapazitäten
+explanation: |
+  Der Blitzsaldo entspricht dem sats, das über die Kanäle ausgegeben werden kann, d. h. der Summe der ausgehenden Liquidität aus allen Kanälen des Knotens.
+reviewed: false

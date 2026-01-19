@@ -236,7 +236,7 @@ Ini adalah pustaka yang diandalkan Nmap untuk mengelola komunikasi jaringan, yai
 
 
 
-Seperti pada Linux, Anda dapat memvalidasi bahwa Nmap telah terinstal dengan membuka Command Prompt atau terminal [Powershell] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") dan mengetikkan perintah berikut:
+Seperti pada Linux, Anda dapat memvalidasi bahwa Nmap telah terinstal dengan membuka Command Prompt atau terminal [Powershell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") dan mengetikkan perintah berikut:
 
 Ini adalah library tempat Nmap mengandalkan untuk mengelola komunikasi jaringan, yaitu membangun, mengirim, dan menerima paket jaringan. Anda mungkin pernah menemukan library ini jika Anda menggunakan Wireshark di Windows, karena Wireshark juga menggunakannya dan memerlukan instalasi.
 

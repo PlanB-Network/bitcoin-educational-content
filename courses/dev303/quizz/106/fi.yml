@@ -1,0 +1,8 @@
+question: Minkä suunnitteluperiaatteen avulla LDK voi luoda Lightning-tietoisia HSM-järjestelmiä, jotka voivat älykkäästi arvioida, onko maksutapahtuma laillinen maksujen reititys vai mahdollisesti haitallinen yritys?
+answer: LDK:n modulaarinen arkkitehtuuri mahdollistaa tiettyjen transaktioiden allekirjoitus- ja varmennuskomponenttien erottamisen säilyttäen samalla Lightning-protokollan kontekstin tuntemuksen
+wrong_answers:
+  - "LDK:n tapahtumapohjainen järjestelmä tunnistaa automaattisesti epäilyttävät transaktiot koneoppimisalgoritmien avulla, jotka on integroitu keskeiseen allekirjoitusprosessiin."
+  - "LDK:n lohkoketjun abstraktiokerros tarjoaa reaaliaikaisen petosten havaitsemisen vertaamalla kaikkia transaktioita verkon juorutietoihin"
+  - "LDK:n vertaishallintajärjestelmä toteuttaa kehittyneitä kryptografisia allekirjoituksia, jotka erottelevat luonnostaan lailliset ja haitalliset transaktiomallit"
+explanation: |
+  LDK:n modulaarisen rakenteen ansiosta kehittäjät voivat poistaa vain allekirjoitus- ja varmennuskomponentit säilyttäen samalla Lightning-protokollan älykkyyden, jota tarvitaan tapahtuman kontekstin ymmärtämiseen. Näin HSM:t voivat tehdä tietoon perustuvia päätöksiä maksujen välittämisestä, kanavatoiminnoista ja turvallisuusuhkista sen sijaan, että ne allekirjoittaisivat transaktioita sokeasti. Väärissä vastauksissa tämä kyky liitetään virheellisesti automaattiseen petosten havaitsemiseen, lohkoketjun seurantaan tai kryptografisiin allekirjoituksiin, vaikka itse asiassa modulaarisen arkkitehtuurin kyky ylläpitää protokollatietoisuutta eristetyissä komponenteissa mahdollistaa älykkään tapahtuman arvioinnin.

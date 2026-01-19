@@ -1,5 +1,5 @@
 ---
-name: Ashigaru-Terminal
+name: Ashigaru Terminal
 description: Ashigaru auf dem Desktop verwenden, um Coinjoins zu erstellen
 ---
 
@@ -41,7 +41,7 @@ Um Ashigaru Terminal zu installieren, benötigst du den Tor-Browser, da die Bin�
 
 
 
-Gehe im Tor-Browser auf [die Veröffentlichungsseite des Git-Repositorys] (http://ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.onion/Ashigaru/Ashigaru-Terminal/releases/), um die neueste Version von Ashigaru Terminal für dein Betriebssystem herunterzuladen.
+Gehe im Tor-Browser auf [die Veröffentlichungsseite des Git-Repositorys](http://ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.onion/Ashigaru/Ashigaru-Terminal/releases/), um die neueste Version von Ashigaru Terminal für dein Betriebssystem herunterzuladen.
 
 
 
@@ -73,7 +73,7 @@ Bevor Sie die Software auf Ihrem Gerät ausführen, müssen Sie ihre Authentizit
 
 
 
-Öffnen Sie eine neue Browser-Registerkarte und gehen Sie zu [Keybase-Verifizierungstool] (https://keybase.io/verify). Fügen Sie den Inhalt der soeben heruntergeladenen "txt"-Datei in das dafür vorgesehene Feld ein und klicken Sie dann auf die Schaltfläche "Überprüfen".
+Öffnen Sie eine neue Browser-Registerkarte und gehen Sie zu [Keybase-Verifizierungstool](https://keybase.io/verify). Fügen Sie den Inhalt der soeben heruntergeladenen "txt"-Datei in das dafür vorgesehene Feld ein und klicken Sie dann auf die Schaltfläche "Überprüfen".
 
 
 
@@ -81,7 +81,7 @@ Bevor Sie die Software auf Ihrem Gerät ausführen, müssen Sie ihre Authentizit
 
 
 
-Um Ihre Überprüfungsquellen zu diversifizieren, können Sie die Nachricht auch mit der auf der Website clearnet [ashigaru.rs] (https://ashigaru.rs/download/) im Bereich "Downloads" verfügbaren Nachricht vergleichen.
+Um Ihre Überprüfungsquellen zu diversifizieren, können Sie die Nachricht auch mit der auf der Website clearnet [ashigaru.rs](https://ashigaru.rs/download/) im Bereich "Downloads" verfügbaren Nachricht vergleichen.
 
 
 

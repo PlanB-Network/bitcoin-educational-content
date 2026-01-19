@@ -1,0 +1,9 @@
+question: Aqua 和 Bull Bitcoin Wallet 有哪些共通點？
+answer: 閃電原子交換
+wrong_answers:
+  - 原生 Lightning 通道
+  - 集中保管
+  - 整合式 Lightning 節點
+explanation: |
+  這些 wallet 使用原子交換來支付 Lightning 發票，無需直接在手機上利用 Lightning 節點，同時保持自我監控。
+reviewed: false

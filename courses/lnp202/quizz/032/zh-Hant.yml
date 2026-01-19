@@ -1,0 +1,9 @@
+question: 為什麼第一個通道要避免非常大的節點？
+answer: 限制性政策
+wrong_answers:
+  - 低連線性
+  - 成本過低
+  - 缺乏流動資金
+explanation: |
+  非常大的節點通常會施加很高的最低金額，並輕易關閉小型通道。
+reviewed: false

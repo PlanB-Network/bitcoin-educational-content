@@ -1,0 +1,9 @@
+question: 哪种入境流动性免费解决方案以合作为基础？
+answer: LN+
+wrong_answers:
+  - 岩浆
+  - Boltz
+  - 1ML
+explanation: |
+  Lightning Network Plus 通过圆形通道开口提供流入的流动性。
+reviewed: false

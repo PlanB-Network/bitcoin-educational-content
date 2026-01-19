@@ -6,3 +6,4 @@ wrong_answers:
   - Corren el riesgo de crear ataques de doble gasto porque no pueden verificar que las transacciones entrantes sean legítimas
 explanation: |
   Cuando los mineros practican la mining sin validación, sólo comprueban la proof-of-work en la cabecera del bloque e inmediatamente comienzan la mining sobre ella mientras descargan y validan el bloque completo en paralelo. El riesgo crítico es que podrían estar construyendo sobre un bloque no válido, lo que significa que su esfuerzo computacional se desperdicia en una rama de la cadena de bloques que será rechazada una vez que se descubra el bloque no válido. Esto socava la seguridad de la red porque una parte de la potencia de mining no está contribuyendo a la cadena válida más fuerte, que es el mecanismo de seguridad fundamental de Bitcoin.
+reviewed: false

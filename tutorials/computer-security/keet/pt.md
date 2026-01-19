@@ -61,7 +61,7 @@ O Keet está disponível em todas as plataformas. Pode descarregar a aplicação
 
 
 
-No Android, também é possível [instalar via APK] (https://github.com/holepunchto/keet-mobile-releases/releases).
+No Android, também é possível [instalar via APK](https://github.com/holepunchto/keet-mobile-releases/releases).
 
 
 

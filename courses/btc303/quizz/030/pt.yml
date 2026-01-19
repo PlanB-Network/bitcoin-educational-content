@@ -6,3 +6,4 @@ wrong_answers:
   - Devem ser substituídos através de mining adicionais para manter o nível de abastecimento pretendido
 explanation: |
   Satoshi Nakamoto explicou que as moedas perdidas funcionam como uma doação a todos os outros detentores de bitcoin, tornando as suas moedas mais valiosas devido à redução da oferta efectiva. Este é um efeito deflacionário positivo, não uma força desestabilizadora. As moedas perdidas não afectam as recompensas do mining, uma vez que estas provêm de moedas recém-cunhadas e de taxas de transação, e não da oferta existente. O protocolo Bitcoin não substitui as moedas perdidas - elas permanecem permanentemente fora de circulação, o que na verdade beneficia os detentores restantes através do aumento da escassez.
+reviewed: false

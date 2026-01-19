@@ -6,4 +6,4 @@ wrong_answers:
   - Reducir el tamaño de los paquetes en el cable RJ45
 explanation: |
   La unión de redes combina varias interfaces físicas en una sola lógica, lo que proporciona redundancia o un mayor ancho de banda.
-reviewed: false
+reviewed: true

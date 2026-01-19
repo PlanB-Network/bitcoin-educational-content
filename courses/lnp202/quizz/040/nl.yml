@@ -1,0 +1,9 @@
+question: Waarom een Lightning-knooppuntmanager gebruiken?
+answer: Eenvoudige toegang tot geavanceerde functies
+wrong_answers:
+  - LND implementatie vervangen
+  - Afhankelijkheid van Umbrel elimineren
+  - Het Lightning-protocol wijzigen
+explanation: |
+  Geavanceerde managers bieden functionaliteiten die niet beschikbaar zijn in de basisinterface, maar blijven eenvoudige interfaces.
+reviewed: false

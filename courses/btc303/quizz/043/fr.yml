@@ -6,3 +6,4 @@ wrong_answers:
   - Tous les utilisateurs de Bitcoin doivent se mettre d'accord sur la validité des transactions par le biais d'un processus de vote démocratique afin de maintenir la stabilité du réseau
 explanation: |
   L'analogie de David Harding avec l'harmonie souligne que la force de Bitcoin provient de milliers de nœuds complets indépendants qui travaillent chacun séparément pour vérifier les transactions, créant ainsi un accord harmonieux sur l'état du grand livre sans qu'aucun opérateur de nœud n'ait besoin de faire confiance aux autres. On peut comparer cela à un chœur dont chaque membre chante indépendamment, mais qui produit une belle harmonie ensemble. Les mauvaises réponses interprètent mal ce concept en suggérant des exigences de coordination entre les mineurs, les développeurs ou les utilisateurs, ce qui contredit le principe fondamental de la vérification indépendante qui rend le Bitcoin sans confiance et décentralisé.
+reviewed: false

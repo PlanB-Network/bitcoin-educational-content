@@ -1,0 +1,8 @@
+question: Co dzieje się ze stosem po wykonaniu OP_CHECKSIG, gdy weryfikacja podpisu się powiedzie?
+answer: Wartość 1 jest przesuwana na stos
+wrong_answers:
+  - Podpis i klucz publiczny pozostają na stosie
+  - Stos jest czyszczony i resetowany do stanu pustego
+  - Hash klucza publicznego jest przesuwany na stos
+explanation: |
+  OP_CHECKSIG jest kodem operacyjnym przekształcającym stos, który pobiera podpis i klucz publiczny ze stosu, weryfikuje podpis względem sighash transakcji i przesuwa albo 1 (dla ważnej) albo 0 (dla nieważnej) na stos. Oryginalny podpis i klucz publiczny są usuwane podczas tego procesu. Stos nie zostaje całkowicie wyczyszczony, a żadne wartości hash nie są wypychane - tylko wynik logiczny operacji weryfikacji.

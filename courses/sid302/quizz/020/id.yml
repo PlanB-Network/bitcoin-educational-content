@@ -1,0 +1,8 @@
+question: Apa yang terjadi pada konfigurasi jaringan selama proses transisi Federasi Dinamis (Dynafed) Liquid ketika seorang pejabat perlu diganti?
+answer: Jaringan menyiarkan transaksi transisi yang diikuti dengan periode tumpang tindih selama dua minggu sebelum konfigurasi baru mengambil alih
+wrong_answers:
+  - Jaringan segera beralih ke konfigurasi fungsional baru setelah menyiarkan transaksi transisi
+  - Semua pejabat harus secara bersamaan memberikan suara untuk menyetujui penggantian sebelum perubahan konfigurasi terjadi
+  - Jaringan memerlukan hard fork dan pematian sementara untuk memperbarui daftar fungsionaris dan memulai kembali operasi
+explanation: |
+  Dynamic Federation memungkinkan Liquid berevolusi tanpa percabangan yang sulit melalui proses transisi yang diatur dengan hati-hati. Ketika penggantian pejabat diperlukan, jaringan menyiarkan transaksi transisi yang menandakan perubahan yang akan datang. Hal ini diikuti dengan periode tumpang tindih wajib selama dua minggu di mana konfigurasi lama dan baru hidup berdampingan, memastikan kesinambungan yang mulus. Pilihan lainnya tidak tepat karena peralihan langsung akan berisiko ketidakstabilan jaringan, pemungutan suara serentak bukanlah mekanisme yang digunakan, dan hard fork secara khusus dirancang untuk menghindari Dynafed.

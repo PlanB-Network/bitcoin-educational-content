@@ -1,0 +1,9 @@
+question: 哪一種入境流動資金的免費解決方案是以合作為基礎？
+answer: LN+
+wrong_answers:
+  - 岩漿
+  - Boltz
+  - 1ML
+explanation: |
+  Lightning Network Plus 可透過圓形通道開口提供流入的流動性。
+reviewed: false

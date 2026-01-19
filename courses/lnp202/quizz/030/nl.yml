@@ -1,0 +1,9 @@
+question: Wat is, vanuit het oogpunt van jouw knooppunt, de initiële verdeling van liquiditeit nadat het een kanaal heeft geopend?
+answer: 100% uitgaand
+wrong_answers:
+  - 50% inkomend 50% uitgaand
+  - 100% inkomend
+  - 90% uitgaand 10% inkomend
+explanation: |
+  Wanneer een kanaal wordt geopend, bevindt alle liquiditeit zich in eerste instantie aan de kant van de initiator.
+reviewed: false

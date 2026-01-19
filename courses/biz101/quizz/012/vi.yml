@@ -1,9 +1,9 @@
-question: Why can the Lightning Network be compared to “email for payments”?
-answer: Because it enables seamless, global, and permissionless value exchange as easily as sending a message.
+question: Tại sao Lightning Network có thể được so sánh với “email để thanh toán”?
+answer: Bởi vì nó cho phép trao đổi giá trị liền mạch, toàn cầu và không cần xin phép dễ dàng như gửi tin nhắn.
 wrong_answers:
-  - Because it sends payments through traditional email providers.
-  - Because it only works when attached to regular email messages.
-  - Because it stores user balances in the body of an email.
+  - Bởi vì nó gửi thanh toán thông qua các nhà cung cấp email truyền thống.
+  - Bởi vì nó chỉ hoạt động khi được đính kèm vào các email thông thường.
+  - Bởi vì nó lưu trữ số dư của người dùng trong nội dung email.
 explanation: |
-  Just as email revolutionized communication by removing intermediaries and enabling anyone to send messages worldwide, the Lightning Network simplifies and speeds up transactions, making value transfer as frictionless and accessible as email.
-reviewed: false
+  Cũng giống như email đã cách mạng hóa giao tiếp bằng cách loại bỏ các trung gian và cho phép bất kỳ ai cũng có thể gửi tin nhắn trên toàn thế giới, Lightning Network đơn giản hóa và tăng tốc các giao dịch, giúp việc chuyển giao giá trị trở nên dễ dàng và thuận tiện như email.
+reviewed: true

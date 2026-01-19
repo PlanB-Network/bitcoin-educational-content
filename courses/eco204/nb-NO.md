@@ -423,7 +423,7 @@ Et illustrerende eksempel på MMT er det amerikanske militærindustrielle komple
 Japan trekkes ofte frem av MMT-tilhengere som et annet eksempel på fravær av inflasjon til tross for betydelig pengetrykking. Situasjonen i Japan viser imidlertid også begrensningene ved tradisjonelle inflasjonsmål, som for eksempel konsumprisindeksen (KPI). I Japan blir en betydelig del av de trykte pengene enten spart eller investert i eiendom eller aksjemarkedet, i stedet for å bli brukt på løpende forbruk. KPI fanger ikke opp denne dynamikken fullt ut, og kan derfor undervurdere den faktiske inflasjonen.
 
 
-Analysen av Japan (https://ideas.repec.org/p/ces/ceswps/_9821.html) viser også at atferden til økonomiske aktører, som sparing eller investering i aktiva som ikke er inkludert i KPI, kan maskere inflasjonseffekten av pengetrykking. Videre spiller de ulike sektorenes evne til å absorbere tilført likviditet en avgjørende rolle for om det oppstår inflasjon.
+[Analysen av Japan](https://ideas.repec.org/p/ces/ceswps/_9821.html) fremhever også at økonomiske aktørers atferd, som sparing eller investering i aktiva som ikke er inkludert i KPI, kan skjule den inflatoriske effekten av pengeprinting. Videre spiller de ulike sektorenes evne til å absorbere den injiserte likviditeten en avgjørende rolle for om inflasjon oppstår eller ikke.
 
 
 #### Bank- og sentralbankbalanser
@@ -482,7 +482,7 @@ Disse eksemplene kan brukes i diskusjoner for å forklare hvorfor inflasjon ikke
 ![image](assets/nb-NO/023.webp)
 
 
-Fordi, som denne [tråden] (https://twitter.com/saifedean/status/1673639779433590786) viser: Inflasjon er alt annet enn sentralbankenes skyld.
+Fordi, som denne [tråden](https://twitter.com/saifedean/status/1673639779433590786) viser: Inflasjon er alt annet enn sentralbankenes skyld.
 
 
 
@@ -1119,7 +1119,7 @@ Weimarrepublikkens historie viser at man i denne perioden konfiskerte eiendeler 
 
 > Weimar: "All tysk kapital i utlandet var blitt konfiskert."
 
-> [20minutes.fr] (https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Omtrent 300 milliarder dollar av russiske reserver i utlandet har blitt frosset som en del av de vestlige sanksjonene, av de 640 milliarder dollar i reserver som den russiske sentralbanken sitter på."
+> [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Omtrent 300 milliarder dollar av russiske reserver i utlandet har blitt frosset som en del av de vestlige sanksjonene, av de 640 milliarder dollar i reserver som den russiske sentralbanken sitter på."
 
 #### 3. Begrepet markedspris
 

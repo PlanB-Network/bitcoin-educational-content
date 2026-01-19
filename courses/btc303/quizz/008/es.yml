@@ -6,3 +6,4 @@ wrong_answers:
   - Las comisiones por transacción se ajustan automáticamente para evitar ataques económicos de las autoridades centralizadas
 explanation: |
   Bitcoin logra la resistencia a la censura mediante la descentralización de los mineros, en la que la ordenación de las transacciones se lleva a cabo de forma colectiva por todos los mineros que deciden participar. Esto crea un sistema dinámico en el que cualquiera puede unirse o abandonar el proceso de mining libremente, eliminando cualquier punto único de control que pudiera ser presionado para censurar las transacciones. Las respuestas incorrectas describen características técnicas, partes de confianza o mecanismos económicos que no abordan la cuestión central del control descentralizado sobre el procesamiento de las transacciones.
+reviewed: false

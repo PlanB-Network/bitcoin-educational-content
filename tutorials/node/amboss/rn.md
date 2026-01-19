@@ -1,5 +1,5 @@
 ---
-name: Ambosi
+name: Amboss
 description: Gutohoza no gusuzuma Lightning Network.
 ---
 
@@ -34,7 +34,7 @@ Nka [Ikibanza ca Mempool](https://Mempool.ikibanza), itanga amakuru ngirakamaro 
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 Muri iyi nyigisho, tuzogutwara mu rugendo rwo kuri iyi platform, ariyo nzira y’ingenzi ku bakoresha Lightning Network, abashaka gufatanya node yabo kugira ngo bagure urubuga, n’ibindi.
 
@@ -304,4 +304,4 @@ Ubu waragendeye vyose ibiranga urubuga n’ibikoresho vyo gusesangura. Turagusav
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

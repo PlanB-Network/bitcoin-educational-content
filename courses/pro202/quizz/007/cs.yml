@@ -1,0 +1,8 @@
+question: Jaká matematická vlastnost způsobuje, že je výpočetně nemožné zvrátit operaci k-P na eliptické křivce?
+answer: Problém diskrétního logaritmu
+wrong_answers:
+  - Modulární aritmetika konečného pole
+  - Vlastnost bodu v nekonečnu
+  - Rovnice křivky y² = x³ + 7
+explanation: |
+  Problém diskrétního logaritmu je matematickým základem, který zajišťuje bezpečnost kryptografie s eliptickou křivkou. Zatímco výpočet k-P (skalární násobení) je výpočetně snadný, nalezení k při zadání P a k-P je nesmírně obtížné - to je známé jako problém diskrétního logaritmu eliptické křivky. Ostatní možnosti jsou důležitými matematickými komponentami, ale neposkytují bezpečnostní bariéru: aritmetika konečného pole umožňuje operace, bod v nekonečnu slouží jako identifikační prvek a rovnice křivky definuje strukturu, ale žádná z nich nevytváří výpočetní nesnadnost, která chrání kryptografickou bezpečnost Bitcoin.

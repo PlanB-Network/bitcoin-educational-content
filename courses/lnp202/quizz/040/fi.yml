@@ -1,0 +1,9 @@
+question: Miksi käyttää Lightning-solmuhallintaa?
+answer: Helppo pääsy kehittyneisiin toimintoihin
+wrong_answers:
+  - Korvaa LND-toteutus
+  - Poistetaan riippuvuus Umbrel:stä
+  - Lightning-protokollan muuttaminen
+explanation: |
+  Edistyneet managerit tarjoavat toimintoja, joita ei ole saatavilla perusliittymässä, mutta ovat silti yksinkertaisia käyttöliittymiä.
+reviewed: false

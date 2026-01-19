@@ -6,3 +6,4 @@ wrong_answers:
   - Bitcoin dibagi menjadi beberapa rantai paralel untuk mendistribusikan beban komputasi dengan tetap mempertahankan jaminan keamanan yang sama untuk semua pengguna
 explanation: |
   Maxwell mengidentifikasi pertukaran mendasar di mana kebutuhan sumber daya yang berlebihan mendorong pengguna ke arah pihak ketiga yang tepercaya daripada validasi independen. Ketika biaya validasi menjadi mahal, pengguna tidak mampu menjalankan node penuh dan harus bergantung pada pihak lain, sehingga merusak sifat tidak dapat dipercaya dari Bitcoin. Jawaban yang salah secara keliru menunjukkan hasil yang menguntungkan (peningkatan keamanan, penyesuaian otomatis, atau jaminan yang dipertahankan) ketika penggunaan sumber daya yang tinggi sebenarnya memaksa sentralisasi dan ketergantungan kepercayaan.
+reviewed: false

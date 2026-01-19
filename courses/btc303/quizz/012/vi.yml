@@ -6,3 +6,4 @@ wrong_answers:
   - Lịch trình phát hành tiền xu không chính xác vi phạm giao thức
 explanation: |
   Mặc dù full node có thể xác minh các khối tuân theo các quy tắc đồng thuận, ngăn chặn việc phát hành coin không hợp lệ và phát hiện các vi phạm giao thức, nhưng nó không thể ngăn chặn việc viết lại chuỗi, trong đó các thợ đào tổ chức lại blockchain để thực hiện các giao dịch chi tiêu gấp đôi. Chương này nêu rõ rằng dù phần mềm của bạn có tiên tiến đến đâu, bạn vẫn phải tin tưởng rằng các khối chứa coin của bạn sẽ không bị viết lại. Đây là lý do tại sao cơ chế phòng thủ của Bitcoin dựa vào việc chờ đợi nhiều xác nhận để giảm khả năng viết lại chuỗi xuống mức chấp nhận được.
+reviewed: false

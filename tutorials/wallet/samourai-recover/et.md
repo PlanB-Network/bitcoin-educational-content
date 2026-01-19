@@ -29,10 +29,10 @@ Teisest küljest on mõned tööriistad kas serveri sulgemise tõttu mõjutatud 
 Individuaalsete kulutamise tööriistade osas töötab kõik tavaliselt, eeldusel, et teil on oma Dojo. Tavalised Stonewall tehingud (ja mitte Stonewall x2) töötavad probleemideta.
 
 Twitteri kommentaarides on rõhutatud, et Stonewall tehingu pakutav privaatsus võib nüüd olla vähendatud. Stonewall tehingu lisaväärtus seisneb selles, et selle struktuur on eristamatu Stonewall x2 tehingust. Kui analüütik kohtab seda konkreetset mustrit, ei saa ta kindlaks teha, kas tegemist on standardse Stonewalliga ühe kasutajaga või Stonewall x2-ga, kus osaleb kaks kasutajat. Siiski, nagu järgmistes lõikudes näeme, on Sorobani kättesaamatus tõttu Stonewall x2 tehingute sooritamine muutunud keerulisemaks. Seetõttu arvavad mõned, et analüütik võib nüüd eeldada, et iga sellise struktuuriga tehing on tavaline Stonewall. Isiklikult ei jaga ma seda eeldust. Kuigi Stonewall x2 tehingud võivad olla vähem sagedased (ja ma arvan, et need olid juba enne seda intsidenti), võib asjaolu, et need on endiselt võimalikud, tühistada terve analüüsi, mis põhineb eeldusel, et neid ei ole.
-**[-> Lugege lisaks Stonewall tehingute kohta.](https://planb.academy/tutorials/privacy/on-chain/stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
+**[-> Lugege lisaks Stonewall tehingute kohta.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42c-40e1-9511-cea89751c3d4)**
 Ricocheti osas ei ole ma suutnud kontrollida, kas teenus on endiselt töös, kuna mul ei ole Testnetis Dojot, ja ma eelistan mitte riskida `100 000 sats` kulutamisega rahakotile, mida võivad kontrollida võimud. Kui teil on olnud võimalus hiljuti seda tööriista testida, kutsun teid üles minuga ühendust võtma, et saaksime seda artiklit uuendada.
 
-Kui vajate Ricocheti kasutamist, pidage meeles, et saate seda toimingut alati käsitsi teostada mis tahes rahakotitarkvaraga. Selleks, et õppida, kuidas erinevaid hüppeid korrektselt käsitsi sooritada, soovitan konsulteerida selle teise artikliga: [**RICOCHET**](https://planb.academy/tutorials/privacy/on-chain/ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
+Kui vajate Ricocheti kasutamist, pidage meeles, et saate seda toimingut alati käsitsi teostada mis tahes rahakotitarkvaraga. Selleks, et õppida, kuidas erinevaid hüppeid korrektselt käsitsi sooritada, soovitan konsulteerida selle teise artikliga: [**RICOCHET**](https://planb.academy/tutorials/privacy/on-chain/ashigaru-ricochet-e0bb1afe-becd-44a6-a940-88a463756589).
 
 JoinBot tööriist ei ole enam töökorras, kuna see sõltus täielikult rahakoti osalemisest, mida haldas Samourai.
 
@@ -43,9 +43,9 @@ Teiste koostöötehingute tüüpide osas, mida sageli nimetatakse "kaasosalistek
 Pärast mitmeid katseid selgub, et Soroban ei toimi enam. Nende koostöötehingute sooritamiseks tuleb andmevahetus seega teha käsitsi. Siin on kaks võimalust selle vahetuse sooritamiseks:
 - Kui olete füüsiliselt oma kaasosalise lähedal, saate järjestikku skaneerida QR-koode;
 - Kui te olete oma koostööpartnerist kaugel, saate PSBT-sid vahetada välise suhtluskanali kaudu rakendusest väljaspool. Olge siiski ettevaatlikud, kuna nendes PSBT-des sisalduvad andmed on privaatsuse seisukohast tundlikud. Soovitan kasutada krüpteeritud sõnumside teenust, et tagada vahetuse konfidentsiaalsus.
-**[-> Uuri lähemalt Stonewall x2 tehingute kohta.](https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
+**[-> Uuri lähemalt Stonewall x2 tehingute kohta.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)**
 
-**[-> Uuri lähemalt Stowaway tehingute kohta.](https://planb.academy/tutorials/privacy/on-chain/payjoin-samourai-wallet-48a5c711-ee3d-44db-b812-c55913080eab)**
+**[-> Uuri lähemalt Stowaway tehingute kohta.](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stowaway-48a5c711-ee3d-44db-b812-c55913080eab)**
 
 Mis puutub Whirlpooli, siis tundub, et protokoll ei toimi enam, isegi kasutajatele, kellel on oma Dojo. Olen viimastel päevadel jälgitud oma RoninDojo't ja proovinud mõningaid lihtsaid manipulatsioone, kuid Whirlpool CLI pole serveri sulgemisest saadik suutnud ühendust luua.
 

@@ -1,0 +1,9 @@
+question: อัลกอริทึมการแลกเปลี่ยนกุญแจเข้ารหัสใดที่เป็นหัวใจของการทำงานของ BIP47?
+answer: ECDH
+wrong_answers:
+  - อาร์เอสเอ
+  - เอลกามาล
+  - Diffie-Hellman
+explanation: |
+  อัลกอริทึมที่ใช้คือ ECDH (Elliptic Curve Diffie-Hellman) ซึ่งเป็นรูปแบบหนึ่งของอัลกอริทึม Diffie-Hellman แบบคลาสสิกที่ใช้เส้นโค้งวงรี
+reviewed: true

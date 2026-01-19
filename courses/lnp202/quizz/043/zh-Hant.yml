@@ -1,0 +1,9 @@
+question: 哪個通道封閉最適合 Lightning？
+answer: 合作關閉
+wrong_answers:
+  - 強制關閉
+  - 以作弊結束
+  - Watchtower 關閉
+explanation: |
+  合作式結帳更快，並允許您選擇在線費用。
+reviewed: false

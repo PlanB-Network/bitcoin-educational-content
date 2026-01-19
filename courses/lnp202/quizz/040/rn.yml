@@ -1,0 +1,9 @@
+question: Ni kuki ukoresha umuyobozi w’inzira y’umuravyo?
+answer: Biroroshe gushika ku bikorwa biteye imbere
+wrong_answers:
+  - Gusubirira LND gushirwa mu ngiro
+  - Gukuraho ukuvyifatamwo na Umbrel
+  - Guhindura amasezerano y'umuravyo
+explanation: |
+  Abarongozi bateye imbere batanga ibikorwa bitaboneka mu nzira y’ishimikiro, mu gihe basigaye ari nzira yoroshe.
+reviewed: false

@@ -1,8 +1,9 @@
-question: Tatizo la Bitcoin ni nini?
-answer: Changamoto ya kutekeleza mfumo wa fedha wenye uwezo wa kutoa idadi inayoongezeka ya miamala kwa sekunde kadri inavyokubaliwa.
+question: Ni utaratibu gani unaofanya malipo ya Lightning kuwa atomiki?
+answer: HTLC
 wrong_answers:
-  - Ugumu wa Mining Bitcoins mpya na thamani inayoongezeka kwa wakati.
-  - Kubadilika kwa bei ya Bitcoin ambayo itaongezeka baada ya kila Halving.
-  - Ukosefu wa udhibiti wa Bitcoin ambao utafanya shughuli kuwa haramu.
-explanation: >-
-reviewed: true
+  - Multisignature
+  - Proof of Work
+  - SegWit
+explanation: |
+  HTLC hufanya malipo yategemee kufichuliwa kwa siri, na hivyo kuhakikisha mafanikio kamili au kushindwa bila hasara.
+reviewed: false

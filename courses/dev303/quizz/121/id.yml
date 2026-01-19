@@ -1,0 +1,8 @@
+question: Apa mekanisme utama yang digunakan oleh fitur cadangan saluran nol Breez SDK untuk menciptakan risiko tambahan yang harus diserap oleh Penyedia Layanan Lightning?
+answer: LSP harus menerima risiko pengguna menghabiskan seluruh saldo saluran mereka, sehingga menghilangkan penyangga keamanan yang secara tradisional melindungi dari penutupan paksa saluran
+wrong_answers:
+  - LSP bertanggung jawab untuk mempertahankan sinkronisasi grafik jaringan yang berkelanjutan di beberapa perangkat pengguna tanpa kompensasi biaya berbasis cadangan tradisional
+  - LSP harus menjamin perutean pembayaran instan tanpa bantalan likuiditas yang disediakan oleh cadangan saluran untuk menangani skenario kemacetan jaringan
+  - LSP bertanggung jawab atas kegagalan swap on-chain ketika pengguna mencoba mengubah saldo Lightning penuh mereka ke Bitcoin selama periode biaya tinggi
+explanation: |
+  Cadangan saluran nol memungkinkan pengguna untuk menggunakan seluruh saldo yang ditampilkan, tetapi hal ini menghilangkan penyangga keamanan tradisional yang melindungi Penyedia Layanan Lightning selama penutupan paksa saluran. Cadangan saluran biasanya memastikan bahwa sejumlah dana tetap terkunci untuk menutupi biaya penutupan dan memberikan keamanan terhadap perilaku jahat. Dengan menghapus cadangan ini untuk meningkatkan pengalaman pengguna, LSP harus menyerap risiko operasional dan keuangan tambahan yang dirancang untuk mengurangi risiko ini, yang mewakili pertukaran yang jelas di mana kompleksitas teknis dan risiko dialihkan dari pengguna ke penyedia layanan.

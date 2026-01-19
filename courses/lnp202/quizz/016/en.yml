@@ -1,0 +1,9 @@
+question: What information indicates the Lightning node's reception capacity?
+answer: Inbound liquidity
+wrong_answers:
+  - Active connections
+  - Outbound liquidity
+  - Number of blocks
+explanation: |
+  Inbound liquidity represents the sats that the node can receive via Lightning.
+reviewed: false

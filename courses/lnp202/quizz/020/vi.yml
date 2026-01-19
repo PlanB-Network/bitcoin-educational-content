@@ -1,0 +1,9 @@
+question: Tại sao việc khôi phục tệp channel.db cũ lại nguy hiểm?
+answer: Rủi ro phạt
+wrong_answers:
+  - Mất seed
+  - Tham nhũng tin đồn
+  - Chặn định tuyến
+explanation: |
+  Trạng thái lỗi thời có thể được hiểu là hành vi gian lận và dẫn đến việc mất tiền của kênh.
+reviewed: false

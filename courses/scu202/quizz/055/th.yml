@@ -1,0 +1,9 @@
+question: เอนจินการเรนเดอร์ใดที่แพร่หลายที่สุดในปัจจุบัน และเป็นพื้นฐานของเบราว์เซอร์สมัยใหม่ส่วนใหญ่?
+answer: Blink
+wrong_answers:
+  - ตุ๊กแก
+  - ตรีศูล
+  - WebKit
+explanation: |
+  Blink ซึ่งพัฒนามาจาก WebKit Fork โดย Google ปัจจุบันเป็นเอนจินการเรนเดอร์ที่โดดเด่น ใช้งานใน Chrome, Edge, Opera, Brave, Vivaldi และอื่น ๆ
+reviewed: false

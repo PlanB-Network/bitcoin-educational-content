@@ -1,13 +1,12 @@
-question: Ni akamaro akahe nyamukuru ko gukoresha porogarama zifunguye?
-answer: Bituma umuntu ashobora kugenzura ko ata nzira yihishije yo kwiba amakuru yawe bwite.
+question: Ni akamaro akahe nyamukuru ko gukoresha porogarame zisoko yuguruye?
+answer: Bituma umuntu ashobora gusuzuma, ko ata nzira yihishije yo kwiba amakuru yawe.
 wrong_answers:
-  - Igihe cose ari ubuntu.
-  - Yama ari umutekano kuruta porogarama zifise inkomoko yugaye.
-  - Yama ari nziza cane kuruta porogarama zifise inkomoko yugaye.
+  - Igihe cose ziba ari ubuntu.
+  - Zama atankomanzi kuruta porogarame y'isoko yugaye.
+  - Zama zoroshe gukoresha kuruta porogarame y'isoko yugaye.
 explanation: |
-  Porogaramu y'inkomoko yuguruye ni porogaramu kode yayo izwi kandi
-  umuntu wese ashobora kuronka. Ivyo bituma umuntu ashobora kugenzura, hagati y’
-  ibindi bintu, ko ata nzira yihishije yo kwiba ivyawe .
-  amakuru y’ibanga. Ariko rero, si ko vyama ari ubuntu, bifise umutekano mwinshi canke .
-  n’ugukoresha neza kuruta porogarama zifise inkomoko yugaye.
+  Porogaramu y'isoko yuguruye ni porogarame kode yayo izwi kandi
+  umuntu wese ashobora kuronka. Ivyo bituma umuntu ashobora gusuzuma, mu bindi,
+  ko ata nzira yihishije yo kwiba amakuru yawe bwite. Ariko rero, si ko yama ari ubuntu, atankomanzi,
+  canke yoroshe gukoresha kuruta porogarame y'isoko yugaye.
 reviewed: true

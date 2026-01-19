@@ -1,5 +1,5 @@
 ---
-name: Ciasto Wallet
+name: Cake Wallet
 description: Samouczek na temat Cake Wallet i cichych płatności
 ---
 

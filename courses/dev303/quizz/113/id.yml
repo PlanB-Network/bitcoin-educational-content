@@ -1,0 +1,8 @@
+question: Batasan kritis ekosistem aplikasi seluler apa yang diungkapkan oleh aplikasi Breez asli yang memengaruhi pengembangan arsitektur SDK?
+answer: Aplikasi seluler tidak dapat dengan mudah berkomunikasi satu sama lain, memaksa pengembang untuk membangun semua fitur Lightning ke dalam satu aplikasi daripada berbagi infrastruktur Lightning
+wrong_answers:
+  - Perangkat seluler tidak memiliki daya komputasi yang cukup untuk menjalankan node Lightning dengan andal, sehingga membutuhkan infrastruktur berbasis cloud untuk menangani perhitungan perutean yang kompleks
+  - Sistem operasi seluler membatasi proses latar belakang terlalu ketat, sehingga mencegah node Lightning mempertahankan koneksi yang terus-menerus ke jaringan
+  - Toko aplikasi seluler melarang aplikasi keuangan non-kustodian, memaksa pengembang untuk menerapkan solusi kustodian untuk mendapatkan persetujuan toko aplikasi
+explanation: |
+  Aplikasi Breez yang asli menunjukkan bahwa ekosistem seluler tidak memfasilitasi komunikasi antar-aplikasi, mencegah aplikasi khusus memanfaatkan infrastruktur Lightning bersama. Keterbatasan arsitektur ini memaksa semua fungsionalitas Lightning menjadi aplikasi monolitik. Pilihan lainnya tidak benar: perangkat seluler dapat menjalankan node Lightning (seperti yang dibuktikan oleh Breez), pembatasan latar belakang dapat dikelola dengan arsitektur yang tepat, dan toko aplikasi pada umumnya mengizinkan aplikasi keuangan non-kustodian.

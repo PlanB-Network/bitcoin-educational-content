@@ -6,3 +6,4 @@ wrong_answers:
   - Rudari će potpuno zaustaviti mining jer same naknade za transakcije ne mogu pokriti troškove električne energije
 explanation: |
   Fee sniping se dešava kada rudari pokušavaju ponovo da rudare prethodne blokove koji su sadržali transakcije sa visokim naknadama, umesto da pošteno produžavaju lanac. Ovo postaje ekonomski racionalno kada naknade u prethodnom bloku značajno premašuju one u trenutnom mempool-u. Iako je verovatnoća uspeha manja nego kod poštenog mining, potencijalna nagrada može biti mnogo veća. Ovo ponašanje je posebno zabrinjavajuće jer može stvoriti efekat lavine gde više rudara učestvuje u nepoštenim praksama, što na kraju ugrožava sigurnosni model Bitcoin kada se subvencije za blokove smanje.
+reviewed: false

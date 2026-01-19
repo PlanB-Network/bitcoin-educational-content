@@ -1,0 +1,8 @@
+question: Ni uwuhe mupaka w’ishimikiro w’akarorero ka UTXO usaba gufata mu buryo budasanzwe igihe ukoresha Bitcoin?
+answer: UTXOs zitegerezwa gukoreshwa zose kandi ntizishobora gukoreshwa igice .
+wrong_answers:
+  - UTXOs zishobora gukoreshwa rimwe gusa kuri block kugira ngo ntizikoreshwe kabiri .
+  - UTXOs zitegerezwa gukoreshwa mu buryo bujanye n'igihe zishingiye ku gihe c'irema .
+  - UTXOs zisaba imikono myinshi iva ku mfunguruzo zitandukanye kugira ngo zibe zifise akamaro
+explanation: |
+  Icogereranyo ca UTXO gifise inzitizi y'ishimikiro y'uko ibiva mu bikorwa bitakoreshejwe bitegerezwa gukoreshwa vyose - nta buryo bwo gukoresha igice. Iyo ukeneye gukoresha amahera makeyi kuruta ayo UTXO yose, utegerezwa gukora igikorwa gikoresha UTXO yose kandi kikaba kirimwo igisubizo c’ihinduka kigaruka kuri wewe ku gisigaye. Ayandi mahitamwo adondora imipaka itabaho: UTXOs zishobora gukoreshwa incuro nyinshi ku bubiko (UTXOs zitandukanye), ntizisaba urutonde rw’ibihe, kandi mu bisanzwe zikeneye umukono umwe gusa ubereye kiretse iyo zateguwe mu buryo bwihariye nk’umukono mwinshi.

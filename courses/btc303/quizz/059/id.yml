@@ -6,3 +6,4 @@ wrong_answers:
   - "Hal ini menunjukkan bahwa platform GitHub memiliki keterbatasan teknis untuk menangani basis kode Bitcoin"
 explanation: |
   Menurut isi bab ini, pull request membutuhkan waktu lama untuk digabungkan terutama karena kurangnya tinjauan, yang berasal dari peninjau yang tidak mencukupi daripada halangan dari pengelola atau masalah teknis. Proses peninjauan sangat penting untuk keamanan Bitcoin, karena memastikan kualitas kode dan mencegah perubahan berbahaya. Hambatan ini terjadi karena peninjauan kode kriptografi yang kompleks membutuhkan keahlian dan waktu, membuat peninjau yang memenuhi syarat menjadi sumber daya yang langka dalam proses pengembangan.
+reviewed: false

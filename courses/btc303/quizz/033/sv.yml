@@ -6,3 +6,4 @@ wrong_answers:
   - 2160
 explanation: |
   Enligt kapitlet fixade BIP42 en mycket långsiktig inflationsbugg och säkerställer att blockbidraget når noll runt år 2140. Det är då Bitcoin kommer att övergå från ett subventionsbaserat belöningssystem till ett rent avgiftsbaserat system, vilket i grunden förändrar hur nätverkssäkerhetskostnader täcks från innehavare som betalar genom inflation till spenders som betalar genom transaktionsavgifter.
+reviewed: false

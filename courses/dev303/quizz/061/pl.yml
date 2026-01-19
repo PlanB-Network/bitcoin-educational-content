@@ -1,0 +1,8 @@
+question: Jaka jest podstawowa różnica między sposobem przetwarzania makr i funkcji w Rust?
+answer: Makra są rozszerzane przez kompilator w czasie kompilacji przed rozpoczęciem kompilacji, podczas gdy funkcje są wywoływane w czasie wykonywania programu
+wrong_answers:
+  - Makra używają dopasowywania wzorców do sprawdzania typu, podczas gdy funkcje używają analizy statycznej do sprawdzania poprawności w czasie wykonywania
+  - Makra generate zoptymalizowały kod asemblera bezpośrednio, podczas gdy funkcje są interpretowane przez maszynę wirtualną Rust
+  - Makra są przechowywane w pamięci podczas wykonywania, podczas gdy funkcje są ładowane z dysku podczas wywoływania
+explanation: |
+  Prawidłowa odpowiedź identyfikuje kluczowe rozróżnienie czasowe: makra działają podczas kompilacji poprzez rozszerzanie kodu, podczas gdy funkcje wykonują się podczas wykonywania programu. Błędne odpowiedzi mylą różne koncepcje programowania - Rust nie używa maszyny wirtualnej, zarówno makra, jak i funkcje przechodzą sprawdzanie typu (ale na różnych etapach), a ani funkcje, ani makra nie są ładowane z dysku podczas wykonywania w opisany sposób.

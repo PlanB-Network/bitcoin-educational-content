@@ -1,0 +1,9 @@
+question: Tailscale 基于什么协议？
+answer: WireGuard
+wrong_answers:
+  - OpenVPN
+  - IPsec IKEv2
+  - PPTP
+explanation: |
+  Tailscale 是基于 WireGuard 的 VPN 解决方案。
+reviewed: false

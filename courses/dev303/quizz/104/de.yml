@@ -1,0 +1,8 @@
+question: Was ermöglicht es LDK, verschiedene Transportmechanismen wie TCP-Sockets, WebSockets und serielle USB-Verbindungen für die Lightning Network-Kommunikation zu unterstützen?
+answer: Das Peer-Management-System arbeitet unabhängig vom zugrundeliegenden Transportmechanismus mit der Verschlüsselung des Rauschprotokolls
+wrong_answers:
+  - Der Kanalmanager koordiniert mit mehreren Netzwerkadaptern über eine einheitliche Socket-Abstraktionsschicht
+  - LDK implementiert protokollspezifische Treiber für jeden Transporttyp innerhalb seines Kernnetzmoduls
+  - Das Ereignissystem erkennt automatisch die verfügbaren Transportmethoden und konfiguriert die entsprechenden Verbindungshandler
+explanation: |
+  Das Peer-Management-System von LDK wurde speziell dafür entwickelt, die Lightning-Protokollkommunikation (einschließlich Rauschverschlüsselung und Nachrichtenstrukturen) unabhängig von der eigentlichen Transportschicht zu handhaben. Diese architektonische Trennung ermöglicht es Entwicklern, jeden beliebigen bidirektionalen Kommunikationskanal zu implementieren, während sich der Peer-Manager ausschließlich auf die Einhaltung des Lightning-Protokolls konzentriert. Die anderen Optionen suggerieren fälschlicherweise, dass LDK eingebaute Transportimplementierungen oder eine automatische Erkennung bietet, während in Wirklichkeit die Stärke von LDK darin liegt, von spezifischen Transportmechanismen vollständig zu abstrahieren.

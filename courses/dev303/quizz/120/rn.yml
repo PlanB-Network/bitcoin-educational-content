@@ -1,0 +1,8 @@
+question: Ni igiki gihambaye cane co guhindura ubuzima bwite cashizweho igihe umuntu yimukiye mu gushirwa mu ngiro kwa LDK yigenzura aja mu nyubakwa ya Breez SDK ishingiye ku gicu?
+answer: Greenlight ishobora kuboneka aho umuntu yishura n'ibikorwa vyo gutanga invoice biciye mu nzira ishingiye ku gicu
+wrong_answers:
+  - "Imfunguruzo z'ibanga zibikwa kuri server za Blockstream aho kubikwa mu karere ku gikoresho c'ukoresha"
+  - Amakuru y'imirongo y'imirongo araboneka ku mugaragaro ku gicapo ca Lightning Network biciye ku nzira z'umuco w'icatsi kibisi
+  - Ibikorwa vya LSP ubu birashobora gukurikirana amafaranga yose ya on-chain no kuyahuza n'uburyo bwo kwishura bwa Lightning
+explanation: |
+  Inyishu ibereye yerekana ugusenyuka kw’ubuzima bwite: inzira ishingiye ku gicu ituma Greenlight ishobora kwihweza aho umuntu yishura, mu gihe uguhingura invoice mu gicu kwagura ugushirwa ahabona kw’amakuru birenze ivyo ubuhinga bwa kera bukoresha LSP gusa bwahishuriye. Inyishu zitari zo ntizibereye kuko: imfunguruzo z’ibanga ziguma zigenzurwa n’abakoresha naho nyene hariho ubuhinga bwo gukora igicu; intara z’imirongo ntiziboneka ku mugaragaro biciye mu nzira; kandi LSPs ntizironka ubushobozi bwo kugenzura ibikorwa vya on-chain vy’inyongera biciye muri iryo hinduka ry’ubwubatsi.

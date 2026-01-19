@@ -6,3 +6,4 @@ wrong_answers:
   - Nie udało im się wdrożyć odpowiednich mechanizmów uwierzytelniania użytkowników
 explanation: |
   Wczesne waluty cyfrowe zawiodły, ponieważ polegały na centralnych serwerach do przetwarzania i walidacji transakcji. Jak wyjaśniono w rozdziale, ta centralizacja stała się ich "piętą achillesową", ponieważ rządy lub inni przeciwnicy mogli łatwo cenzurować, kontrolować lub wyłączać te centralne punkty awarii. Nawet próby użycia wielu serwerów w federacji nadal narażały system na ataki, ponieważ każdy serwer mógł "zawieść lub zostać uszkodzony, jeden po drugim" Bitcoin rozwiązał ten problem, eliminując potrzebę jakiegokolwiek centralnego organu poprzez zdecentralizowany system proof-of-work.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Kiedy operator znaku zapytania (?) powinien być preferowany zamiast metod unwrap() lub expect() w obsłudze błędów Rust?
+answer: Gdy trzeba propagować błędy w górę stosu wywołań, aby funkcja wywołująca mogła je obsłużyć
+wrong_answers:
+  - Jeśli chcesz dostarczyć niestandardowe komunikaty o błędach do debugowania nieudanych operacji
+  - Gdy masz pewność, że operacja się powiedzie i chcesz uniknąć obsługi błędów
+  - Gdy trzeba przekonwertować błędy na wartość domyślną i kontynuować wykonywanie programu
+explanation: |
+  Operator znaku zapytania (?) jest przeznaczony do propagacji błędów - pobiera wartości sukcesu, ale natychmiast zwraca błędy z bieżącej funkcji, umożliwiając wywołującym ich obsługę. W przeciwieństwie do unwrap()/expect(), które wywołują panikę w przypadku błędów, lub unwrap_or(), który zapewnia wartości domyślne, operator ? utrzymuje kontekst błędu i przekazuje odpowiedzialność do kodu wyższego poziomu, który może podjąć odpowiednie decyzje dotyczące obsługi.

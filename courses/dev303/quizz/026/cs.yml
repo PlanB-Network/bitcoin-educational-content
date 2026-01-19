@@ -1,0 +1,8 @@
+question: Jaká je hlavní výhoda toho, že enumy Rust mohou přenášet data v rámci každé varianty?
+answer: Zabraňuje nesouladu mezi ukazateli typu a souvisejícími daty tím, že je spojuje dohromady
+wrong_answers:
+  - Umožňuje enumům automaticky implementovat všechny standardní rysy bez explicitní deklarace
+  - Umožňuje použití enumů jako obecných parametrů v libovolné funkci nebo metodě
+  - Díky tomu enumy spotřebovávají méně paměti než tradiční struktury s podobnými daty
+explanation: |
+  Výčty Rust mohou připojovat data přímo ke každé variantě, což eliminuje běžnou programátorskou chybu spočívající v udržování samostatných proměnných pro indikátory typu a jejich přidružená data. Tato konstrukce zajišťuje, že data vždy odpovídají variantě, a zabraňuje tak nekonzistencím, které by mohly vést k chybám za běhu. Na rozdíl od jiných jazyků, kde můžete mít samostatný enum pro typ a proměnné pro data, Rust spojuje vše dohromady, což znemožňuje, aby se typ a data neshodovaly.

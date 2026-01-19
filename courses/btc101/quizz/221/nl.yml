@@ -1,8 +1,9 @@
-question: Kosten voor transacties op de Lightning Network zijn extreem laag, vaak minder dan...?
-answer: 0.5%.
+question: Welk voordeel biedt Ark ten opzichte van Lightning voor het ontvangen van betalingen?
+answer: Geen inkomende liquiditeit nodig
 wrong_answers:
-  - 1%.
-  - 2%.
-  - 3%.
-explanation: >-
-reviewed: true
+  - Onmiddellijke betalingsfinaliteit
+  - Geen transactiekosten
+  - Geen wallet nodig
+explanation: |
+  Ark maakt het mogelijk om betalingen te ontvangen zonder vooraf over inkomende liquiditeit te beschikken.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-term: WASABI Wallet.
+term: WASABI Wallet
 ---
 
 Bitcoin Wallet yibanze ku buzima bwite, itanga ibintu nka CoinJoin.

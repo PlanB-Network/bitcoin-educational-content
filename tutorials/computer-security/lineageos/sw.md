@@ -1,6 +1,6 @@
 ---
 name: LineageOS
-description: Mfumo wa uendeshaji wa Android usiolipishwa na usio na waya kwa simu mahiri
+description: Mfumo wa OS wa Android usiolipishwa na usio na waya kwa simu mahiri
 ---
 
 ![cover](assets/cover.webp)

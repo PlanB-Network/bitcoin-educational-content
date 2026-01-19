@@ -1,0 +1,9 @@
+question: ¿Qué propiedad fundamental de Bitcoin se pierde en la custodia?
+answer: Soberanía monetaria
+wrong_answers:
+  - Escalabilidad monetaria
+  - Pago rápido
+  - Interoperabilidad monetaria
+explanation: |
+  Sin control de claves, el usuario renuncia a la soberanía monetaria, pilar central de la Bitcoin.
+reviewed: false

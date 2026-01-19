@@ -1,9 +1,9 @@
-question: Ni ibihe biranga umugambi wa Ponzi mu bidukikije vy’ubuhinga bwa none?
-answer: Ibisubizo vyemewe, gukura bigoye, no kurungikwa
+question: Ni ibihe biranga ububeshi bwo mu bwoko bwa Ponzi mu gisata c'ama cryptos?
+answer: Inyungu zizewe, kubikura biragoye cane, no gufashwa(kwinjizwa)
 wrong_answers:
-  - Inyungu nto, gukura amahera bigoye, n'uguserukira abantu bose
-  - Ibisubizo vyemewe, gukura bigoye, kandi nta buryo bwo kurungika
-  - Ibisubizo vyemewe, gukuraho vyoroshe, kandi nta buryo bwo kurungika
+  - Umwimbu muke, gukura amahera bigoye, n'uguserukira abantu bose
+  - Inyungu zizewe gukura bigoye, kandi nta buryo bwo kurungika
+  - Inyungu zizewe, kubikura biroroshe cane, kandi ntavyo gufashwa mu kwinjira
 explanation: |
-  Ivyo bimenyetso bishobora kwerekana umugambi w’ipiramide. Niwabibona mu mugambi, urabe maso cane.
+  Ivyo bimenyetso bishobora kwerekana umugambi w'ipiramide. Niwabibona mu mugambi yawe, uritonda cane ugabe.
 reviewed: false

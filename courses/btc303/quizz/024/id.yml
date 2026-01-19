@@ -6,3 +6,4 @@ wrong_answers:
   - Untuk mengizinkan penggunaan ulang nama samaran yang sama tanpa batas di beberapa transaksi
 explanation: |
   Bitcoin menggunakan alamat yang berasal dari kunci publik sebagai nama samaran karena sistem ini memungkinkan pengguna untuk membuat alamat baru secara offline dengan aman tanpa perlu mendaftarkannya di blockchain terlebih dahulu. Menggunakan nama pengguna deskriptif akan membutuhkan pengumuman hubungan antara nama pengguna dan kunci publik pada blockchain, yang akan memakan biaya, membebani blockchain, dan mengurangi keamanan. Selain itu, nama pengguna akan mendorong penggunaan ulang (mengurangi privasi) dan menciptakan risiko peniruan. Sistem berbasis alamat menghilangkan masalah ini dengan tetap menjaga keamanan kriptografi yang dibutuhkan agar Bitcoin dapat berfungsi dengan baik.
+reviewed: false

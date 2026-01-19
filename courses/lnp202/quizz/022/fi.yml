@@ -1,0 +1,9 @@
+question: Mitä LND seed te palauttaa yksinään?
+answer: Onchain wallet
+wrong_answers:
+  - Atemet kanavat
+  - Kanavan tilat
+  - Ei mitään
+explanation: |
+  seed hakee Bitcoin:n ketjussa wallet:n, mutta ei aktiivisia Lightning-kanavia.
+reviewed: false

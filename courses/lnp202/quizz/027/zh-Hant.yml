@@ -1,0 +1,9 @@
+question: watchtower 收到哪些資訊來監控作弊？
+answer: 作弊交易的部分 TXID
+wrong_answers:
+  - 私人通道金鑰
+  - 完整的通道狀態
+  - 作弊交易的 TXID
+explanation: |
+  瞭望塔只接收作弊交易的部分 TXID，以辨識可疑交易，而不知道通道。
+reviewed: false

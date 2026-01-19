@@ -1,0 +1,9 @@
+question: What problem was Namecoin, the first alternative cryptocurrency to Bitcoin, supposed to solve?
+answer: Domain name centralization
+wrong_answers:
+  - Online reputation management
+  - The problem of mining variance
+  - The unequal distribution of bitcoins
+explanation: |
+ The domain name system is overseen by ICANN, a non-profit corporation incorporated under Californian law, which poses problems of censorship. The BitDNS concept (later renamed Namecoin) consisted in placing the management of these domain names on a blockchain similar to Bitcoin to get around this problem.
+reviewed: false

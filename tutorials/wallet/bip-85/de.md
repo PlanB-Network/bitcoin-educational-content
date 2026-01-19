@@ -416,12 +416,12 @@ Weitere Ressourcen in den Anhängen.
 
 
 - [BEEP](https://planb.academy/resources/glossary/bip)
-- [BIP-32] (https://planb.academy/resources/glossary/bip0032)
-- [BIP-39] (https://planb.academy/resources/glossary/bip0039)
+- [BIP-32](https://planb.academy/resources/glossary/bip0032)
+- [BIP-39](https://planb.academy/resources/glossary/bip0039)
 - [BIP-85](https://planb.academy/resources/glossary/bip0085)
-- [seed-Satz] (https://planb.academy/resources/glossary/recovery-phrase)
-- [passphrase] (https://planb.academy/resources/glossary/passphrase-bip39)
-- [Multisig] (https://planb.academy/resources/glossary/multisig)
+- [seed-Satz](https://planb.academy/resources/glossary/recovery-phrase)
+- [passphrase](https://planb.academy/resources/glossary/passphrase-bip39)
+- [Multisig](https://planb.academy/resources/glossary/multisig)
 
 
 

@@ -6,3 +6,4 @@ wrong_answers:
   - De concurrentie tussen laag-twee oplossingen en on-chain schaalbenaderingen voor beperkte ontwikkelingsmiddelen en steun van de gemeenschap
 explanation: |
   Maxwell identificeerde een tweezijdig probleem waarbij Bitcoin zijn voordelen in beide richtingen verliest: als het gebruik van middelen te hoog is in verhouding tot de beschikbare technologie, wordt validatie te duur en worden gebruikers weggeconcurreerd die dan moeten vertrouwen op vertrouwde derde partijen in plaats van zelfstandig te valideren. Omgekeerd, als de capaciteit te laag is en de transactiemethoden inefficiënt, wordt toegang tot de blockchain voor geschillenbeslechting onbetaalbaar, waardoor gebruikers opnieuw naar vertrouwde diensten worden geduwd. Dit creëert een delicaat evenwicht waar oplossingen voor schaalvergroting doorheen moeten navigeren.
+reviewed: false

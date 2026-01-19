@@ -6,3 +6,4 @@ wrong_answers:
   - Consensusregels valideren en autoriseren automatisch elk nieuw protocol dat bovenop Bitcoin wordt gebouwd via het verificatieproces van de blockchain
 explanation: |
   Ontwikkeling zonder toestemming is het juiste antwoord, omdat dit het basisprincipe is dat iedereen toestaat om op Bitcoin te bouwen zonder toestemming te vragen. De foute antwoorden zijn onjuist omdat: open source licenties geen automatische goedkeuring of integratie in Bitcoin Core vereisen; de MIT Licentie eigenlijk brede permissies verleent zonder goedkeuring van ontwikkelaars te vereisen; en consensusregels transacties en blokken valideren, geen protocollen op een hoger niveau die bovenop Bitcoin gebouwd zijn.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: COLDCARD - Co-assinatura
+name: COLDCARD - Co-Sign
 description: Descubra a funcionalidade Co-Sign e utilize-a no seu COLDCARD
 ---
 

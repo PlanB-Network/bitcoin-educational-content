@@ -6,4 +6,4 @@ wrong_answers:
   - Po wyczerpaniu dostępnych środków
 explanation: |
   Transakcje zobowiązujące są tworzone i podpisywane dla każdej zmiany alokacji środków, ale są one ostatecznie publikowane w łańcuchu bloków tylko w przypadku zamknięcia kanału.
-reviewed: false
+reviewed: true

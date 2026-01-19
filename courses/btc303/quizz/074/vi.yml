@@ -6,3 +6,4 @@ wrong_answers:
   - Để xác nhận rằng bản vá cung cấp đủ cải tiến về hiệu suất
 explanation: |
   Theo các thông lệ tiết lộ có trách nhiệm, các nhà phát triển kiểm tra xem bản vá đã được ngụy trang đủ tốt hay chưa bằng cách cung cấp bản vá cho các nhà phát triển giàu kinh nghiệm, những người chưa được thông báo về lỗ hổng, yêu cầu họ xác định lỗ hổng mà bản vá đã khắc phục. Nếu các chuyên gia này không thể phát hiện ra lỗ hổng ngay cả khi biết rằng bản vá đã khắc phục được lỗ hổng, thì rất có thể lỗ hổng đã được che giấu kỹ khỏi những kẻ tấn công tiềm năng. Điều này rất quan trọng vì bản thân các bản vá có thể tiết lộ lỗ hổng, tạo điều kiện cho việc khai thác độc hại. Các lựa chọn khác, mặc dù là những khía cạnh quan trọng của việc rà soát mã, không phải là mục đích chính của thông lệ cụ thể này trong quản lý lỗ hổng.
+reviewed: false

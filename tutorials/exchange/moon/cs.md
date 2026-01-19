@@ -1,11 +1,19 @@
 ---
-name: Měsíc
+name: Moon
 description: Platit bitcoiny můžete všude, kde jsou přijímány bankovní karty Visa.
 ---
 
 ![cover](assets/cover.webp)
 
 
+
+---
+
+⚠️ *Aktualizace prosinec 2025: Pozor, **od začátku prosince 2025 již není část služeb Moon dostupná**, zejména dobíjecí platební karty Visa. Zatím nevíme, zda je tato nedostupnost dočasná, nebo trvalá. Tento návod bude aktualizován, jakmile budeme mít více informací.*
+
+*Pokud jste používali předplacenou kartu Visa před jejím zablokováním, můžete nyní získat zpět své prostředky tím, že projdete procesem ověření totožnosti přímo na svém ovládacím panelu Moon. V zásadě vám měl Moon zaslat e-mail s informacemi o postupu a nezbytných krocích k provedení tohoto obnovení.*
+
+---
 
 Moon umožňuje používat kryptoměny, jako je bitcoin, k nákupu virtuálních karet Visa a dárkových karet bez nutnosti KYC, které lze používat u milionů online obchodníků stejně jako tradiční bankovní karty. Nabízí tak jednoduchý způsob, jak utratit své sats všude, kde je Visa akceptována, aniž byste museli procházet směnárenskou platformou.
 
@@ -177,7 +185,7 @@ S touto virtuální kartou můžete platit za produkty a služby online stejně 
 
 
 
-https://planb.academy/courses/the-world-of-bitcoin-mining-7750d9da-417a-4377-8e35-85c377168477
+https://planb.academy/courses/7750d9da-417a-4377-8e35-85c377168477
 
 ![buycourse](assets/fr/13.webp)
 

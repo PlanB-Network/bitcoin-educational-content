@@ -1,0 +1,8 @@
+question: Co powoduje błąd off-by-one w OP_CHECKMULTISIG, który wymaga dodatkowego OP_0 w gołych ScriptSigach multisig?
+answer: OP_CHECKMULTISIG zużywa dodatkowy element stosu poza oczekiwanymi podpisami i kluczami publicznymi
+wrong_answers:
+  - Proces weryfikacji podpisu wymaga dodatkowego bajtu dla poprawnego działania walidacji ECDSA
+  - "Implementacja stosu Bitcoin ma sprawdzanie granic, które wymaga elementu dopełniającego do wyrównania pamięci"
+  - Zliczanie progów multisig zaczyna się od zera zamiast od jednego, co wymaga przesunięcia wartości zastępczej
+explanation: |
+  Kod operacyjny OP_CHECKMULTISIG ma błąd implementacji, w którym wyskakuje o jeden element więcej ze stosu niż powinien podczas wykonywania. Oznacza to, że oprócz wymaganych m podpisów i n kluczy publicznych, zużywa on dodatkowy element stosu. Aby zapobiec niepowodzeniu operacji, bare multisig ScriptSigs musi zawierać początkowy OP_0 (który wypycha pustą tablicę bajtów), aby zaspokoić to nieoczekiwane zużycie stosu. Pozostałe opcje opisują wiarygodnie brzmiące kwestie techniczne, ale nie są faktyczną przyczyną tego dobrze znanego dziwactwa Bitcoin.

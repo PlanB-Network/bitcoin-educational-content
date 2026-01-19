@@ -1,0 +1,8 @@
+question: Wat moet een knooppunt tijdens de Bitcoin transactievalidatie controleren om er zeker van te zijn dat elke invoer de juiste autorisatie heeft om de uitvoer waarnaar verwezen wordt uit te geven?
+answer: De ScriptSig moet de corresponderende ScriptPubKey met succes ontgrendelen wanneer deze samen wordt uitgevoerd
+wrong_answers:
+  - "De digitale handtekening van de invoer moet exact overeenkomen met de ingesloten openbare sleutel van de uitvoer"
+  - De hash van de transactie moet gelijk zijn aan de merkle root die is opgeslagen in de koptekst van het blok waarnaar verwezen wordt
+  - Het inputbedrag moet groter of gelijk zijn aan het outputbedrag dat wordt uitgegeven
+explanation: |
+  Het scriptsysteem van Bitcoin vereist dat ScriptSig (ontgrendelingsscript) van elke invoer succesvol moet worden uitgevoerd met ScriptPubKey (vergrendelingsscript) van de uitvoer waarnaar wordt verwezen om een waar resultaat op de stapel te produceren. Dit scriptuitvoeringsmodel maakt flexibele bestedingsvoorwaarden mogelijk die verder gaan dan het eenvoudig overeenkomen van handtekeningen. De andere opties beschrijven onjuiste validatievereisten - handtekeningen hoeven niet exact overeen te komen met ingesloten sleutels, transactie-hashes worden niet vergeleken met Merkle Roots tijdens ingangsvalidatie en individuele invoer hoeft niet groter te zijn dan hun uitvoer (alleen de totale invoer moet groter zijn dan de totale uitvoer).

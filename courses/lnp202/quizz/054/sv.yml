@@ -1,0 +1,9 @@
+question: Vilken av de nämnda anslutningsmetoderna mellan en Lightning-nod och en mobil klient är uttryckligen inte rekommenderad för denna användning?
+answer: Tor
+wrong_answers:
+  - Tailscale
+  - Nostr Wallet Anslut
+  - Ingen
+explanation: |
+  Tor fungerar mycket dåligt i praktiken för detta ändamål, med fel och fördröjningar som ger en dålig användarupplevelse.
+reviewed: false

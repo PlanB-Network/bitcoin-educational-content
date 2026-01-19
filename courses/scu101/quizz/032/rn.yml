@@ -1,9 +1,9 @@
-question: Incungu ni iki?
-answer: Ubwoko bwa porogarama mbi ipfuka amakuru y’abakoresha maze igasaba incungu kugira ngo iyafungurwe.
+question: Incungu (ransomware) ni iki?
+answer: ni ubwoko bwa porogarame mbi zinyegeza amakuru y’abakoresha kandi zigasaba incungu kugira ngo zigarukane ayo amakuru.
 wrong_answers:
-  - Ubwoko bwa porogarama irwanya virusi ishobora gusukura ububiko bwa mudasobwa n’amakuru y’inyuma iyo umuntu yishuye amahera y’igihe kimwe.
-  - Ubwoko bwa porogarama ikoreshwa mu gusubiza amakuru, iriko iramenyekana cane mu Buraya muri iki gihe.
-  - Ubwoko bwa porogaramu ikoreshwa mu gucungera amakuru, akenshi ikora ububiko bumwe buri misi 7.
+  - Ubwoko bwa porogarama irwanya umugera ishobora gusukura ububiko bw'inyabwonko n’amakuru y’inyuma iyo umuntu yishuye amahera y’igihe kimwe.
+  - Ubwoko bwa porogarama ikoreshwa mu kugarukana amakuru, iriko iramenyekana cane mu Buraya muri iki gihe.
+  - Ubwoko bwa porogaramu ikoreshwa mu gucungera amakuru, akenshi ikora ububiko bwinyongera buri misi 7.
 explanation: |
-  Ransomware ni ubwoko bwa porogarama mbi zipfuka amakuru y’abakoresha kandi zigasaba incungu kugira ngo zifungurwe. Biriko biragenda biramenyekana kandi bishobora gutera ingorane cane ishirahamwe canke umuntu ku giti ciwe.
+  Ransomware ni ubwoko bwa porogarame mbi zinyegeza amakuru y’abakoresha kandi zigasaba incungu kugira ngo zigarukane ayo amakuru. Ubwo bwoko bw’igitero bugenda buragwira kandi burashobora gutera ingorane cane ku mashirahamwe n’abantu ku giti cabo.
 reviewed: true

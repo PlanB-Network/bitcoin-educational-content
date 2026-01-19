@@ -25,7 +25,7 @@ Etter min mening har Seedkeeper to hovedbruksområder, som vi vil utforske i to 
 
 
 
-Teknisk sett har Seedkeeper en kapasitet på 8192 byte, noe som gjør det mulig å lagre minst 50 separate hemmeligheter (det nøyaktige antallet avhenger av størrelsen på hemmelighetene og metadataene som er knyttet til hver av dem). Seedkeeper er tilgjengelig enten [via en smartkortleser som er koblet til] (https://satochip.io/accessories/) til en datamaskin, eller via mobilapplikasjonen med NFC-tilkobling. Hele systemet fungerer i frakoblet modus, uten Internett-tilkobling, noe som garanterer en begrenset angrepsflate.
+Teknisk sett har Seedkeeper en kapasitet på 8192 byte, noe som gjør det mulig å lagre minst 50 separate hemmeligheter (det nøyaktige antallet avhenger av størrelsen på hemmelighetene og metadataene som er knyttet til hver av dem). Seedkeeper er tilgjengelig enten [via en smartkortleser som er koblet til](https://satochip.io/accessories/) til en datamaskin, eller via mobilapplikasjonen med NFC-tilkobling. Hele systemet fungerer i frakoblet modus, uten Internett-tilkobling, noe som garanterer en begrenset angrepsflate.
 
 
 
@@ -125,7 +125,7 @@ Hvis du ønsker å bruke Seedkeepers backup-funksjonalitet, må du selvsagt kjø
 
 
 
-I denne veiledningen tar vi sikkerhetskopi av seed-porteføljen vår på Seedkeeper. Det første trinnet er å installere programvaren på datamaskinen eller smarttelefonen din. På en PC må du [laste ned den nyeste versjonen av Satochip-Utils] (https://github.com/Toporin/Satochip-Utils/releases). På mobil er Seedkeeper-applikasjonen tilgjengelig på [Google Play Store](https://play.google.com/store/apps/details?id=org.satochip.seedkeeper) og på [Apple App Store](https://apps.apple.com/be/app/seedkeeper/id6502836060).
+I denne veiledningen tar vi sikkerhetskopi av seed-porteføljen vår på Seedkeeper. Det første trinnet er å installere programvaren på datamaskinen eller smarttelefonen din. På en PC må du [laste ned den nyeste versjonen av Satochip-Utils](https://github.com/Toporin/Satochip-Utils/releases). På mobil er Seedkeeper-applikasjonen tilgjengelig på [Google Play Store](https://play.google.com/store/apps/details?id=org.satochip.seedkeeper) og på [Apple App Store](https://apps.apple.com/be/app/seedkeeper/id6502836060).
 
 
 

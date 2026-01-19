@@ -1,0 +1,8 @@
+question: No modelo de consenso federado do Liquid, qual é o número mínimo de assinaturas funcionais necessárias para validar um bloco e qual é o número máximo de falhas de nós que a rede pode tolerar?
+answer: 11 assinaturas necessárias, pode tolerar até 4 falhas de nós
+wrong_answers:
+  - são necessárias 8 assinaturas, podendo tolerar até 7 falhas de nós
+  - 15 assinaturas necessárias, pode tolerar até 2 falhas de nós
+  - 9 assinaturas necessárias, pode tolerar até 6 falhas de nós
+explanation: |
+  O Liquid utiliza um sistema de limiar de 11 de 15, em que pelo menos 11 dos 15 funcionários têm de assinar cada bloco para que este seja válido. Esta conceção permite que a rede continue a funcionar mesmo que até 4 nós falhem (15 - 11 = 4). As outras opções ou fornecem limiares de assinatura incorrectos ou calculam mal a tolerância a falhas, que é sempre o total de nós menos as assinaturas necessárias.

@@ -1,0 +1,9 @@
+question: Hvilken fil inneholder LNDs detaljerte kanalstatus?
+answer: channel.db
+wrong_answers:
+  - wallet.db
+  - lightning.db
+  - peers.db
+explanation: |
+  Channel.db-filen lagrer kanaltilstander, peers og commitment transaction-er.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Zgodnie z systemem własności Rust, ilu właścicieli może mieć wartość w danym momencie?
+answer: Dokładnie jeden właściciel
+wrong_answers:
+  - Dozwolone jest posiadanie wielu właścicieli
+  - Maksymalnie dwóch właścicieli
+  - Brak właścicieli do czasu uzyskania dostępu
+explanation: |
+  System własności Rust działa w oparciu o trzy podstawowe zasady, z których pierwszą jest to, że każda wartość ma dokładnie jednego właściciela w danym momencie. Ta zasada pojedynczego właściciela ma kluczowe znaczenie dla bezpieczeństwa pamięci, ponieważ zapobiega jednoczesnym próbom zwolnienia tej samej pamięci lub modyfikacji danych przez wiele części programu. Posiadanie wielu właścicieli prowadziłoby do błędów typu use-after-free i wyścigów danych, podczas gdy brak właścicieli oznaczałby, że pamięć nigdy nie mogłaby zostać prawidłowo wyczyszczona.

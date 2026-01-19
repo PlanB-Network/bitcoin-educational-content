@@ -6,3 +6,4 @@ wrong_answers:
   - 2160
 explanation: |
   Ifølge kapittelet har BIP42 rettet en svært langsiktig inflasjonsfeil og sørger for at blokktilskuddet vil nå null rundt år 2140. Det er da Bitcoin vil gå fra et tilskuddsbasert belønningssystem til et rent avgiftsbasert system, noe som fundamentalt endrer hvordan nettverkets sikkerhetskostnader dekkes, fra at innehavere betaler gjennom inflasjon til at forbrukere betaler gjennom transaksjonsgebyrer.
+reviewed: false

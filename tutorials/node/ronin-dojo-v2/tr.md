@@ -37,7 +37,7 @@ https://planb.academy/tutorials/node/bitcoin/ronin-dojo-31d96647-029b-43e8-9fb5-
 Dojo başlangıçta Bitcoin'e dayanan ve Samourai Bitcoin core ekipleri tarafından geliştirilen tam bir Wallet düğüm uygulamasıdır. Bu çözüm herhangi bir ekipmana kurulabilir. Diğer Çekirdek uygulamalarının aksine Dojo, Samourai Wallet'nın Android uygulama ortamıyla entegre olacak şekilde özel olarak optimize edilmiştir. RoninDojo ise bir Dojo'nun ve diğer çeşitli tamamlayıcı araçların kurulumunu ve yönetimini kolaylaştırmak için tasarlanmış bir yardımcı programdır. Kısacası RoninDojo, kurulumunu ve yönetimini basitleştirirken çok sayıda ek aracı entegre ederek Dojo'nun temel uygulamasını zenginleştirir.
 
 
-Ronin ayrıca "*Tanto*" olarak adlandırılan [kutu içinde düğüm çözümü] (https://ronindojo.io/en/products), RoninDojo'nun kendi ekipleri tarafından bir araya getirilmiş bir sisteme zaten yüklenmiş olduğu bir cihaz sunmaktadır. Tanto ücretli bir seçenektir ve teknik komplikasyonlardan kaçınmayı tercih edenler için ilginç olabilir. Ancak RoninDojo'nun kaynak kodu açık olduğundan, kendi donanımınıza yerleştirmek de mümkündür. Daha ekonomik olan bu alternatif, yine de bu eğitimde ele alacağımız bazı ek manipülasyonlar gerektirir.
+Ronin ayrıca "*Tanto*" olarak adlandırılan [kutu içinde düğüm çözümü](https://ronindojo.io/en/products), RoninDojo'nun kendi ekipleri tarafından bir araya getirilmiş bir sisteme zaten yüklenmiş olduğu bir cihaz sunmaktadır. Tanto ücretli bir seçenektir ve teknik komplikasyonlardan kaçınmayı tercih edenler için ilginç olabilir. Ancak RoninDojo'nun kaynak kodu açık olduğundan, kendi donanımınıza yerleştirmek de mümkündür. Daha ekonomik olan bu alternatif, yine de bu eğitimde ele alacağımız bazı ek manipülasyonlar gerektirir.
 
 RoninDojo bir Dojo'dur, bu nedenle mümkün olan en iyi CoinJoin deneyimini sağlamak için Whirlpool CLI'un Bitcoin düğümünüze kolayca entegre edilmesini sağlar. Whirlpool CLI ile, kişisel bilgisayarınızın açık kalmasına gerek kalmadan, haftanın 7 günü, günün 24 saati bitcoinlerinizi sürekli olarak yeniden karıştırmak mümkün hale gelir.
 
@@ -56,7 +56,7 @@ Umbrel tarafından sunulan genel işlevlere veya Lightning Network ile ilgili i�
 
 ## RoninDojo v2'yi yüklemek için hangi donanımı seçmeliyim?
 
-RoninDojo, yazılımının [RockPro64] (https://ronindojo.io/en/download) üzerine otomatik kurulumu için bir görüntü sunmaktadır. Ancak, bizim eğitimimiz Raspberry Pi 4'e manuel kurulum prosedürüne odaklanmaktadır. Raspberry Pi 5 yakın zamanda piyasaya sürülmüş olmasına ve bu öğreticinin teorik olarak bu yeni modelle uyumlu olması gerekmesine rağmen, henüz kişisel olarak test etme şansım olmadı ve topluluktan herhangi bir geri bildirim bulamadım. Pi 5'i ve uyumlu bileşenleri edinir edinmez, sizi bilgilendirmek için bu öğreticiyi güncelleyeceğim. Bu arada, benim node'umda mükemmel çalıştığı için Pi 4'e öncelik vermenizi öneririm.
+RoninDojo, yazılımının [RockPro64](https://ronindojo.io/en/download) üzerine otomatik kurulumu için bir görüntü sunmaktadır. Ancak, bizim eğitimimiz Raspberry Pi 4'e manuel kurulum prosedürüne odaklanmaktadır. Raspberry Pi 5 yakın zamanda piyasaya sürülmüş olmasına ve bu öğreticinin teorik olarak bu yeni modelle uyumlu olması gerekmesine rağmen, henüz kişisel olarak test etme şansım olmadı ve topluluktan herhangi bir geri bildirim bulamadım. Pi 5'i ve uyumlu bileşenleri edinir edinmez, sizi bilgilendirmek için bu öğreticiyi güncelleyeceğim. Bu arada, benim node'umda mükemmel çalıştığı için Pi 4'e öncelik vermenizi öneririm.
 
 Kendi adıma, RoninDojo'yu 8 GB RAM ile donatılmış bir Raspberry Pi üzerinde çalıştırıyorum. Bazı topluluk üyeleri yalnızca 4 GB RAM'e sahip cihazlarda çalıştırmayı başarmış olsa da, bu yapılandırmayı kendim test etmedim. Aradaki küçük fiyat farkı göz önüne alındığında, 8 GB RAM versiyonunu tercih etmek akıllıca görünüyor. Bu, Raspberry Pi'nizi gelecekte başka kullanımlar için yeniden kullanmayı planlıyorsanız da yararlı olabilir.
 
@@ -333,7 +333,7 @@ RoninUI ana sayfasına girdiğinizde, kurulumu başlatmanız istenecektir. Bunu 
 ![lets start](assets/notext/25.webp)
 
 
-Bu aşamada RoninUI size `root` şifrenizi sunar. Bunu güvende tutmak çok önemlidir. Fiziksel bir yedekleme, kağıt üzerinde veya bir [şifre yöneticisi] (https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f) içinde kaydetmeyi tercih edebilirsiniz.
+Bu aşamada RoninUI size `root` şifrenizi sunar. Bunu güvende tutmak çok önemlidir. Fiziksel bir yedekleme, kağıt üzerinde veya bir [şifre yöneticisi](https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47/0b3c69b2-522c-56c8-9fb8-1562bd55930f) içinde kaydetmeyi tercih edebilirsiniz.
 
 
 ![root password](assets/notext/26.webp)
@@ -543,7 +543,7 @@ Whirlpool ile coinjoins gerçekleştirdikten sonra, karışık UTXO'larınız i�
 Bu anons setlerinin hesaplama mekanizmalarını daha iyi anlamak için makaleyi okumanızı tavsiye ederim: Bu endekslerin işleyişini detaylandıran REMIX - Whirlpool.
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 
 

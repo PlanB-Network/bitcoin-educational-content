@@ -1,0 +1,8 @@
+question: Wat zijn de drie manieren waarop afsluitingen variabelen uit hun omgeving kunnen vastleggen in Rust?
+answer: Door onveranderlijke verwijzing, door muteerbare verwijzing of door eigendom te nemen
+wrong_answers:
+  - Door waarde te kopiëren, door referentie te lenen of door pointer dereferencing
+  - Door stackallocatie, heaptoewijzing of statische opslag
+  - Door gedeelde toegang, exclusieve toegang of gelijktijdige toegang
+explanation: |
+  Closures in Rust vangen omgevingsvariabelen op precies drie manieren op: door onveranderlijke referentie (wanneer ze alleen hoeven te lezen), door muteerbare referentie (wanneer ze moeten wijzigen), of door eigenaarschap te nemen (wanneer ze de waarde moeten verplaatsen, vaak voor thread veiligheid). De compiler kiest automatisch de meest restrictieve methode die voldoet aan de behoeften van de closure, volgens het principe van least privilege.

@@ -6,3 +6,4 @@ wrong_answers:
   - Các trình xác thực mạng bỏ phiếu về tính hợp lệ của giao dịch thông qua một quy trình dân chủ
 explanation: |
   Giới hạn nguồn cung của Bitcoin được thực thi thông qua các full node chạy mã xác minh để kiểm tra giao dịch coinbase của từng khối so với các quy tắc đồng thuận. Ngay cả khi một số node trở nên độc hại và chấp nhận các khối không hợp lệ với phần thưởng quá mức, các node trung thực sẽ đơn giản bỏ qua chúng và tiếp tục với chuỗi hợp lệ. Điều này tạo ra một hệ thống không cần tin cậy, nơi bạn không cần phải tin tưởng bất kỳ cá nhân hay cơ quan nào - bạn chỉ cần chạy mã xác minh các quy tắc đang được tuân thủ, giúp mạng lưới được bảo mật tổng thể trước các nỗ lực lạm phát nguồn cung.
+reviewed: false

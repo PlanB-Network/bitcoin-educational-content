@@ -21,7 +21,7 @@ Låt oss gå igenom hur enkelt det är att börja stapla Sats med Bittr.
 ## Komma igång med Bittr
 
 
-- På webben eller mobilen gå till [getbittr.com] (https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) och klicka på "Köp Bitcoin"
+- På webben eller mobilen gå till [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) och klicka på "Köp Bitcoin"
 
 
 
@@ -61,7 +61,7 @@ Vi rekommenderar att du gör installationen på en lugn och avskild plats. Det b
 - Välj "bluewallet" på webbplatsen
 
 
-- Ladda ner BlueWallet-appen här: [App Store] (https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play] (https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
+- Ladda ner BlueWallet-appen här: [App Store](https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
 
 
 ![image3](assets/en/03.webp)

@@ -4,6 +4,12 @@ description: Wallet bảo vệ đơn giản nhất để bắt đầu
 ---
 ![cover](assets/cover.webp)
 
+---
+
+*Lưu ý: kể từ đầu năm 2026, Wallet of Satoshi ở chế độ custodial (như được trình bày trong hướng dẫn này) không còn khả dụng trong Liên minh Châu Âu. Nếu bạn cư trú tại khu vực này và muốn tiếp tục sử dụng công cụ này, bạn sẽ cần sử dụng một VPN được đặt bên ngoài EU. Một lựa chọn khác là sử dụng Wallet of Satoshi ở chế độ self-custodial. Một hướng dẫn chuyên biệt sẽ sớm được công bố trên Plan ₿ Academy.*
+
+---
+
 _Bài hướng dẫn này được viết bởi_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 

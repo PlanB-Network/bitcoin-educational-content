@@ -1,0 +1,8 @@
+question: Hvilket nøkkelord brukes for å tvinge en closure til å ta eierskap over variabler i stedet for å låne dem?
+answer: flytte
+wrong_answers:
+  - egen
+  - fange
+  - ta
+explanation: |
+  Nøkkelordet `move` brukes før closure-parametere for å tvinge closure til å ta eierskap over alle variabler som fanges opp fra omgivelsene. Dette er viktig når lukningen kan overleve utenfor det området der variablene opprinnelig ble definert, for eksempel ved spawning av tråder. Uten `move` vil lukninger vanligvis fange opp variabler med den minst restriktive metoden (uforanderlig referanse, deretter muterbar referanse, deretter eierskap), men `move` overstyrer denne automatiske oppførselen for å sikre overføring av eierskap. De andre alternativene (`own`, `capture`, `take`) er ikke gyldige Rust-nøkkelord for dette formålet.

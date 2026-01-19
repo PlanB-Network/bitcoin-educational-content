@@ -6,3 +6,4 @@ wrong_answers:
   - Rischiano di creare attacchi di doppia spesa perché non possono verificare che le transazioni in entrata siano legittime
 explanation: |
   Quando i minatori praticano il mining senza convalida, controllano solo il proof-of-work nell'intestazione del blocco e iniziano immediatamente il mining sopra di esso, scaricando e convalidando l'intero blocco in parallelo. Il rischio critico è che possano costruire su un blocco non valido, il che significa che il loro sforzo computazionale viene sprecato su un ramo della blockchain che verrà rifiutato una volta scoperto il blocco non valido. Questo mina la sicurezza della rete perché una parte della potenza del mining non contribuisce alla catena valida più forte, che è il meccanismo di sicurezza fondamentale del Bitcoin.
+reviewed: false

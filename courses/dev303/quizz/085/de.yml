@@ -1,0 +1,8 @@
+question: Welche zusätzlichen Rust-Trait-Grenzen sind bei der Definition von Callback-Schnittstellen in UniFFI typischerweise für den Callback-Trait erforderlich, um einen sicheren sprachübergreifenden Aufruf zu gewährleisten?
+answer: Sende- und Sync-Grenzen sind erforderlich, weil Rückrufe Thread-Grenzen zwischen Rust und den Zielsprachen überschreiten können
+wrong_answers:
+  - Clone- und Copy-Bounds sind erforderlich, damit die Callback-Daten über Sprachgrenzen hinweg dupliziert werden können
+  - Debug- und Display-Grenzen sind erforderlich, um eine ordnungsgemäße Fehlermeldung zu ermöglichen, wenn Callbacks während der Ausführung fehlschlagen
+  - Serialize- und Deserialize-Grenzen sind erforderlich, um Callback-Parameter zwischen verschiedenen Sprachlaufzeiten zu marschieren
+explanation: |
+  Callback-Schnittstellen in UniFFI erfordern Send- und Sync-Beschränkungen, da sie eine bidirektionale Kommunikation ermöglichen, bei der Rust-Code zurück in den in Zielsprachen geschriebenen Anwendungscode ruft. Da diese Rückrufe während der Ausführung Thread-Grenzen überschreiten können, erfordert das Rust-Typsystem Send- (sichere Übertragung zwischen Threads) und Sync-Grenzen (sichere gemeinsame Nutzung von Referenzen zwischen Threads), um Speichersicherheit zu gewährleisten. Die anderen Optionen sind falsch: Clone/Copy werden für sprachübergreifende Aufrufe nicht benötigt, Debug/Display dienen der Formatierung, nicht der Sicherheit, und Serialize/Deserialize werden automatisch vom Marshaling-System von UniFFI behandelt.

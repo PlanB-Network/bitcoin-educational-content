@@ -1,0 +1,8 @@
+question: What is the key advantage of using compressed SEC format over uncompressed SEC format for Bitcoin public keys?
+answer: It reduces storage size from 65 bytes to 33 bytes while maintaining the same cryptographic security
+wrong_answers:
+  - It provides stronger cryptographic security by using additional encryption layers
+  - It enables faster point multiplication operations during signature verification processes
+  - It allows for multiple public keys to be derived from a single compressed format
+explanation: |
+  Compressed SEC format reduces public key size from 65 bytes (uncompressed) to 33 bytes by storing only the x-coordinate and a parity bit (0x02 or 0x03 prefix) instead of both full coordinates. The y-coordinate can be mathematically reconstructed from the x-coordinate and parity information since elliptic curves have at most two y-values for any given x. This compression provides significant storage savings without any loss of security, which is why Bitcoin now prefers compressed keys for efficiency.

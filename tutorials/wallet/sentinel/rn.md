@@ -56,7 +56,7 @@ Intambamyi zidasanzwe za Sentinel ziri mu kuba iyo porogarama iboneka kuri Andro
 Ku bashaka gukurikirana Wallet ifise amasinya menshi, Blue Wallet ni yo porogarama yonyene nzi itanga uburyo bwo kuraba gusa kuri ubwo bwoko bw’amasakoshi, kandi iraboneka kuri Android na iOS.
 
 
-Ku bakoresha iOS barondera ubundi buryo bwo gukoresha Sentinel, [Green Wallet] canke [Blue Wallet] (Blue Wallet] (Blue Wallet) bishobora kuba amahitamwo, naho nyene uburyo bwabo bwo gukoresha isaha gusa butasobanukiwe.
+Ku bakoresha iOS barondera ubundi buryo bwo gukoresha Sentinel, [Green Wallet] canke [Blue Wallet](Blue Wallet] (Blue Wallet) bishobora kuba amahitamwo, naho nyene uburyo bwabo bwo gukoresha isaha gusa butasobanukiwe.
 
 ![watch-only](assets/notext/2.webp)
 

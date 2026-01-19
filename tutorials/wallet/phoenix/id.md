@@ -31,7 +31,7 @@ Buka toko aplikasi Anda dan instal Phoenix :
 
 ![Image](assets/fr/02.webp)
 
-Anda juga dapat menginstal aplikasi [dengan file apk di repositori GitHub mereka] (https://github.com/ACINQ/phoenix/releases).
+Anda juga dapat menginstal aplikasi [dengan file apk di repositori GitHub mereka](https://github.com/ACINQ/phoenix/releases).
 
 ![Image](assets/fr/03.webp)
 

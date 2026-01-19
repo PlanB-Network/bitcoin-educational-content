@@ -175,9 +175,9 @@ Bir Mining pool, Mining şanslarını artırmak için bilgi işlem kaynakların�
 ### Sektör tarafından kullanılan yazılımlar
 
 
-Bitcoin Mining bağlamında, yazılımın rolü donanım kadar önemlidir. Buna bir örnek olarak Antminer S9'u geliştiren üretken bir üretici olan Bitmain'in rolü gösterilebilir. Mining donanımına ek olarak, sektör büyük ölçüde Bitcoin ağının küresel Hashrate'unun yaklaşık %5'ini kontrol eden Brainspool gibi işbirliğine dayalı Mining havuzlarına güvenmektedir.
+Bitcoin Mining bağlamında, yazılımın rolü donanım kadar önemlidir. Buna bir örnek olarak Antminer S9'u geliştiren üretken bir üretici olan Bitmain'in rolü gösterilebilir. Mining donanımına ek olarak, sektör büyük ölçüde Bitcoin ağının küresel Hashrate'unun yaklaşık %5'ini kontrol eden Braiinspool gibi işbirliğine dayalı Mining havuzlarına güvenmektedir.
 
-Bu sektördeki aktörler sürekli olarak donanım ve yazılım yoluyla verimliliği artırma arayışındadır. Örneğin, bu bağlamda kullanılan popüler bir yazılım BrainsOS Plus'tır. Bu yazılım, Mining makinesinin orijinal işletim sisteminin yerini alarak aynı işlemlerin daha verimli bir şekilde gerçekleştirilmesini sağlıyor. Bu tür bir yazılımla, bir Miner makinelerinin verimliliğini %25 oranında artırabilir. Bu, eşdeğer miktarda elektrik için makinenin %25 daha fazla Hashrate üretebileceği ve böylece Miner tarafından alınan ödüllerin artacağı anlamına gelir. Bu yazılım optimizasyonu, Bitcoin Mining'te rekabet gücünün temel bir unsurudur ve verimliliği ve getirileri en üst düzeye çıkarmak için hem donanım hem de yazılım iyileştirmelerini birleştiren entegre bir yaklaşımın önemini göstermektedir.
+Bu sektördeki aktörler sürekli olarak donanım ve yazılım yoluyla verimliliği artırma arayışındadır. Örneğin, bu bağlamda kullanılan popüler bir yazılım BraiinsOS Plus'tır. Bu yazılım, Mining makinesinin orijinal işletim sisteminin yerini alarak aynı işlemlerin daha verimli bir şekilde gerçekleştirilmesini sağlıyor. Bu tür bir yazılımla, bir Miner makinelerinin verimliliğini %25 oranında artırabilir. Bu, eşdeğer miktarda elektrik için makinenin %25 daha fazla Hashrate üretebileceği ve böylece Miner tarafından alınan ödüllerin artacağı anlamına gelir. Bu yazılım optimizasyonu, Bitcoin Mining'te rekabet gücünün temel bir unsurudur ve verimliliği ve getirileri en üst düzeye çıkarmak için hem donanım hem de yazılım iyileştirmelerini birleştiren entegre bir yaklaşımın önemini göstermektedir.
 
 
 ### Yönetmelik ve elektrik tarifeleri
@@ -783,7 +783,7 @@ gW-278'i açtıktan 2 dakika sonra, lütfen "Reset" düğmesine 5 saniye boyunca
 Antminer tarafından Mining makinelerine yüklenen orijinal yazılım işlevsellik açısından sınırlıdır. Bu nedenle bu kılavuzda BraiinsOS+ adlı başka bir yazılım yükleyeceğiz. Bu, ilk Bitcoin Mining pool tarafından geliştirilen ve daha fazla özelliğe sahip olan ve örneğin makinenin gücünü değiştirmeye izin veren üçüncü taraf bir yazılımdır.
 
 
-Braiins OS+'ı bir ASIC'ye kurmanın birkaç yolu vardır. Bu kılavuzun yanı sıra [resmi Braiins belgelerine] (https://academy.braiins.com/en/braiins-os/about/) başvurabilirsiniz.
+Braiins OS+'ı bir ASIC'ye kurmanın birkaç yolu vardır. Bu kılavuzun yanı sıra [resmi Braiins belgelerine](https://academy.braiins.com/en/braiins-os/about/) başvurabilirsiniz.
 
 
 Burada, Braiins OS+'yı BOS araç kutusu yazılımını kullanarak doğrudan Antminer'inizin belleğine nasıl kolayca yükleyeceğinizi ve orijinal işletim sistemini aşağıdaki ayrıntılı adımlarla nasıl değiştireceğinizi göreceğiz.

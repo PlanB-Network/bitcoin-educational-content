@@ -1,0 +1,8 @@
+question: Apa tujuan utama Rustup dalam ekosistem pengembangan Rust?
+answer: Sistem manajemen rantai alat yang komprehensif untuk menginstal dan mengelola Rust
+wrong_answers:
+  - Manajer paket untuk menangani ketergantungan dalam proyek Rust
+  - Linter tingkat lanjut yang menganalisis kode dan memberikan saran perbaikan
+  - Sistem pembangunan yang mengkompilasi program Rust dan mengelola struktur proyek
+explanation: |
+  Rustup secara khusus dirancang sebagai sistem manajemen toolchain yang menangani instalasi, pembaruan, dan manajemen Rust itu sendiri di berbagai proyek dan platform. Sementara Cargo berfungsi sebagai manajer paket dan sistem build untuk proyek Rust, dan Clippy berfungsi sebagai linter untuk analisis kode, Rustup beroperasi pada tingkat yang lebih tinggi dengan mengelola seluruh lingkungan pengembangan Rust. Hal ini memungkinkan pengembang untuk menginstal versi Rust yang berbeda, mengelola target kompilasi untuk berbagai platform, dan dengan mudah memperbarui ke rilis Rust baru dengan perintah sederhana seperti 'rustup update'.

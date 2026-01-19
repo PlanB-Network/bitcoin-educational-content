@@ -86,7 +86,7 @@ Untuk mengetahui lebih lanjut tentang Dojo dan mempelajari cara menginstalnya, s
 
 https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
-Jika Anda benar-benar tidak mampu menjalankan Dojo Anda sendiri, Anda dapat menemukan orang yang bersedia membagikan instance mereka secara gratis di [dojobay.pw] (https://www.dojobay.pw/mainnet/). Ini mungkin merupakan solusi sementara, tetapi dalam jangka panjang, saya sarankan Anda menggunakan Dojo Anda sendiri untuk menjamin kedaulatan dan kerahasiaan Anda.
+Jika Anda benar-benar tidak mampu menjalankan Dojo Anda sendiri, Anda dapat menemukan orang yang bersedia membagikan instance mereka secara gratis di [dojobay.pw](https://www.dojobay.pw/mainnet/). Ini mungkin merupakan solusi sementara, tetapi dalam jangka panjang, saya sarankan Anda menggunakan Dojo Anda sendiri untuk menjamin kedaulatan dan kerahasiaan Anda.
 
 
 
@@ -98,7 +98,7 @@ Jika Anda benar-benar tidak mampu menjalankan Dojo Anda sendiri, Anda dapat mene
 
 
 
-Pada ponsel Anda, buka Tor Browser dan buka [situs web resmi Ashigaru] (https://ashigaru.rs/download/), di bagian `Unduh`. Kemudian klik pada tombol `Unduh untuk Android` untuk mengunduh berkas instalasi.
+Pada ponsel Anda, buka Tor Browser dan buka [situs web resmi Ashigaru](https://ashigaru.rs/download/), di bagian `Unduh`. Kemudian klik pada tombol `Unduh untuk Android` untuk mengunduh berkas instalasi.
 
 
 
@@ -355,7 +355,7 @@ Setiap aplikasi palsu yang ditawarkan memiliki metode khusus untuk membuka antar
 
 
 
-Parameter penting kedua yang harus diaktifkan adalah [**RBF** (*Replace-by-Fee*)] (https://planb.academy/resources/glossary/rbf-replacebyfee). Opsi ini memungkinkan Anda untuk meningkatkan biaya transaksi jika terjebak dalam mempool karena biayanya terlalu rendah. Anda dapat mengaktifkannya melalui menu `Transactions > Spend using RBF`.
+Parameter penting kedua yang harus diaktifkan adalah [**RBF** (*Replace-by-Fee*)](https://planb.academy/resources/glossary/rbf-replacebyfee). Opsi ini memungkinkan Anda untuk meningkatkan biaya transaksi jika terjebak dalam mempool karena biayanya terlalu rendah. Anda dapat mengaktifkannya melalui menu `Transactions > Spend using RBF`.
 
 
 

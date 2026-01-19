@@ -1,0 +1,9 @@
+question: Mu masezerano ya NWC, ni uburyo ubuhe bukoreshwa mu gutwara igisabwa hagati y’ikoreshwa n’urudodo?
+answer: Ivyabaye ku nzira za Nostr
+wrong_answers:
+  - Uguhamagara REST kuri LND
+  - Ihuriro rya VPN kuva ku ntumbero ku ntumbero
+  - Ibisabwa vya DNS vyashizwemwo
+explanation: |
+  Ico gisaba kirashirwa mu nzira hanyuma kigasohorwa nk’ikintu cabaye ku nzira ya Nostr, iyo node isoma kugira ngo ikore ico gikorwa.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilken grundläggande egenskap hos Bitcoin går förlorad i förvaret?
+answer: Monetär suveränitet
+wrong_answers:
+  - Monetär skalbarhet
+  - Snabb betalning
+  - Monetär interoperabilitet
+explanation: |
+  Utan nyckelkontroll avstår användaren från monetär suveränitet, den centrala pelaren i Bitcoin.
+reviewed: false

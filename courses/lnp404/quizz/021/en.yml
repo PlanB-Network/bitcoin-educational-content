@@ -1,0 +1,8 @@
+question: What is the primary security mechanism that ensures administrative access to a Lightning node through Terminal requires two separate authentication factors?
+answer: The combination of the connection string and a locally-defined session password
+wrong_answers:
+  - "The combination of the node's private key and the Lightning Node Connect protocol"
+  - The combination of network type specification and administrative permission scope
+  - The combination of the human-readable label and cryptographic pairing phrase
+explanation: |
+  Terminal implements a two-factor security model where the connection string serves as the first authentication factor (containing cryptographic pairing data), and the locally-defined session password serves as the second factor. This dual-layer approach ensures that even if someone gains access to the connection string, they still cannot interact with the node without the session password. The other options describe components of the connection process but not the complete two-factor authentication system that protects against unauthorized access.

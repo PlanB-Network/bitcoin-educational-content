@@ -1,9 +1,9 @@
-question: Công ty lớn nào thiết kế ASIC cho Bitcoin Mining?
+question: Công ty nào thiết kế thiết bị ASIC cho khai thác Bitcoin lớn nhất hiện nay?
 answer: Bitmain
 wrong_answers:
   - Trezor
   - Ledger
-  - Xưởng đúc Hoa Kỳ
+  - Foundry USA
 explanation: |
-  Bitmain là một trong những nhà sản xuất hàng đầu về phần cứng chuyên dụng cho Bitcoin Mining.
+  Bitmain là một trong những nhà sản xuất hàng đầu về phần cứng chuyên dụng cho khai thác Bitcoin.
 reviewed: false

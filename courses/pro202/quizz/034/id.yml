@@ -1,0 +1,8 @@
+question: Elemen spesifik apa yang harus disertakan dalam P2SH ScriptSig yang membedakannya dari input transaksi biasa?
+answer: Skrip penukaran lengkap itu sendiri bersama dengan data pembuka kunci
+wrong_answers:
+  - HASH160 dari skrip penukaran dan kunci publik
+  - Hanya tanda tangan dan kunci publik yang diperlukan untuk memenuhi persyaratan
+  - Pengkodean byte versi dan alamat untuk validasi P2SH
+explanation: |
+  Input P2SH membutuhkan data pembuka kunci (tanda tangan, dll.) DAN skrip penukaran lengkap dalam ScriptSig. Ini unik karena skrip penukaran sebelumnya disembunyikan di balik hash dan sekarang harus diungkapkan untuk validasi. Langkah validasi pertama memeriksa apakah HASH160(redeem_script) cocok dengan hash di scriptPubKey, kemudian skrip penukaran dieksekusi dengan data pembuka kunci yang disediakan. Pilihan lainnya tidak benar: hash sudah ada di dalam scriptPubKey asli, tanda tangan saja tidak cukup tanpa skrip, dan byte versi digunakan untuk pengkodean alamat, bukan untuk validasi pengeluaran.

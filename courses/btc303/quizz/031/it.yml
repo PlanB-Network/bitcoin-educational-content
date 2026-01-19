@@ -6,3 +6,4 @@ wrong_answers:
   - I costi della sicurezza passano dall'essere pagati dagli sviluppatori attraverso la manutenzione del codice all'essere pagati dagli utenti attraverso la partecipazione alla rete
 explanation: |
   Il capitolo spiega chiaramente che oggi i detentori pagano per la sicurezza del Bitcoin attraverso l'inflazione monetaria (creazione di nuove monete attraverso la sovvenzione dei blocchi), ma in futuro, quando la sovvenzione dei blocchi si avvicinerà a zero, gli spenditori pagheranno per la sicurezza attraverso le commissioni di transazione. Questo rappresenta un cambiamento economico fondamentale in merito a chi sostiene il costo del mantenimento della sicurezza della rete, passando da un modello in cui la creazione di nuove monete finanzia il mining a uno in cui le commissioni di transazione devono fornire un incentivo sufficiente ai minatori per proteggere la rete.
+reviewed: false

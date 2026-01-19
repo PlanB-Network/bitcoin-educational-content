@@ -1,0 +1,9 @@
+question: Кое безплатно решение за входяща ликвидност се основава на сътрудничество?
+answer: LN+
+wrong_answers:
+  - Магма
+  - Boltz
+  - 1ML
+explanation: |
+  Lightning Network Plus осигурява входяща ликвидност чрез кръгли отвори за канали.
+reviewed: false

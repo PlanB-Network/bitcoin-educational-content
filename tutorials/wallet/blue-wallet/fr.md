@@ -62,7 +62,7 @@ Blue Wallet vous permet de configurer à votre convenance les paramètres de vot
 
 Vous pouvez donc sélectionner le ratio de frais de transaction qui vous correspond si vous voulez voir la transaction rapidement validée dans un mempool et incluse dans un bloc par les mineurs. Selon le ratio choisi, les mineurs prioriseront plus ou moins votre transaction. Apprenez en plus dans notre tutoriel sur le mempool Space.
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ![feerate](assets/fr/06.webp)
 
@@ -128,7 +128,7 @@ Tout comme le portefeuille Bitcoin standard de Blue Wallet, vous pouvez définir
 
 Lors de la validation de votre transaction, vous aurez besoin d'une seconde signature pour approuver la dépense des bitcoins, rappelez vous nous sommes dans une configuration 2-de-3 multi signatures.
 
-Le second portefeuille signataire s'il utilise également a la possibilité de signer la transaction même en étant d'un hors réseau internet (Pas de Wi-Fi, pas de donnés mobile) en scannant le code QR de la [transaction partiellement signée](https://planb.academy/resources/glossary/psbt) que vous venez de créer.
+Le second portefeuille signataire, s’il est également utilisateur, a la possibilité de signer la transaction même en étant d'un hors réseau internet (Pas de Wi-Fi, pas de donnés mobile) en scannant le code QR de la [transaction partiellement signée](https://planb.academy/resources/glossary/psbt) que vous venez de créer.
 
 ![mutisig-send](assets/fr/13.webp)
 

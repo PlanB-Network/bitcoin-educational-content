@@ -6,3 +6,4 @@ wrong_answers:
   - Oppgraderingen førte til en permanent splittelse av kjeden fordi utvinnere og brukere var uenige om implementeringsdetaljene
 explanation: |
   BIP66-hendelsen avslørte en kritisk feil i utvinneraktiverte soft forks: signalering av beredskap garanterer ikke faktisk validering. Til tross for at 95 % av utvinnerne indikerte at de var klare for oppgraderingen, validerte omtrent halvparten av dem ikke de nye reglene på riktig måte og utvunnet feilaktig på en ugyldig blokk. Dette viste at hashkraftsignalering kan være misvisende og ikke sikrer riktig implementering, noe som var et av Shaolinfrys hovedargumenter for å foreslå brukeraktiverte Soft-forks som en mer pålitelig oppgraderingsmekanisme.
+reviewed: false

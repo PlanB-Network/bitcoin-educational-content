@@ -1,0 +1,8 @@
+question: Mu nzira yo gufatanya ukuboko kw’urubuga rwa Bitcoin rwa P2P, ni ibihe bintu vyihariye bitegerezwa gushitswako imbere y’uko amanode abiri ashobora gutangura gutanga amakuru y’ivy’ububiko n’ay’ibikorwa?
+answer: Ivyo bihimba vyose bitegerezwa guhana ubutumwa bwa verisiyo n'ubutumwa bwa verack hagati yavyo
+wrong_answers:
+  - Igikoresho co guhuza kigomba kwakira icemezo ca DNS seed kivuye ku bategura ivy'ishimikiro
+  - "Izo nzira zompi zitegerezwa kugenzura uburebure bw'ibara ry'iyindi n'uruzitiro rw'isonga"
+  - "Igikoresho cakira kigomba kwemeza icemeza c'urunganwe rw'igikoresho gihuza"
+explanation: |
+  Ivyo gufata ukuboko kwa Bitcoin P2P bisaba uguhanahana kw’inzira zibiri aho urudodo rufatanya rwohereza ubutumwa bwa verisiyo, uwuronka ubutumwa bwishura na verack n’ubutumwa bwayo bwite bwa verisiyo, uwurungitse w’intango agasubiza n’ubutumwa bwa verisiyo bwiwe. Inyuma y’ivyo guhanahana ubutumwa bune bushitse (verisiyo→verack+verisiyo→verack) ni ho gusa amanode ashobora gutangura guhanahana amakuru. Imbuto za DNS zikoreshwa gusa ku kuvumbura kw’intango kw’urunganwe, si ugufatanya ibiganza. Bitcoin ntikoresha ivyemezo, kandi kwemeza uruhererekane bishika inyuma y’aho ihuriro rishizweho.

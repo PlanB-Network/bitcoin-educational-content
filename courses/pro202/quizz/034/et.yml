@@ -1,0 +1,8 @@
+question: Milline konkreetne element peab sisalduma P2SH ScriptSigis, mis eristab seda tavalisest tehingu sisendist?
+answer: Täielik lunastusskript ise koos avamisandmetega
+wrong_answers:
+  - HASH160 lunastusskripti ja avalikud võtmed
+  - Ainult allkirjad ja avalikud võtmed, mis on vajalikud tingimuste täitmiseks
+  - Versioonibait ja aadressi kodeering P2SH valideerimiseks
+explanation: |
+  P2SH sisendid nõuavad nii avamisandmeid (allkirjad jne) kui ka täielikku lunastusskripti ScriptSigis. See on ainulaadne, sest lunastusskript oli varem varjatud hashi taha ja nüüd tuleb see valideerimiseks avalikustada. Esimeses valideerimisetapis kontrollitakse, kas HASH160(redeem_script) vastab scriptPubKey's sisalduvale hashile, seejärel käivitatakse redeem-skript koos esitatud lukustuse avamise andmetega. Teised valikud on valed: hash on juba algses scriptPubKey's, allkirjadest üksi ei piisa ilma skriptita ja versioonibaitide kasutamine toimub aadressi kodeerimiseks, mitte kulutuste valideerimiseks.

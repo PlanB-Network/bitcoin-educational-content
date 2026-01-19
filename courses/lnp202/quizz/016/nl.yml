@@ -1,0 +1,9 @@
+question: Welke informatie geeft de ontvangstcapaciteit van het Lightning-knooppunt aan?
+answer: Inkomende liquiditeit
+wrong_answers:
+  - Actieve verbindingen
+  - Uitgaande liquiditeit
+  - Aantal blokken
+explanation: |
+  Inkomende liquiditeit vertegenwoordigt de sats die het knooppunt kan ontvangen via Lightning.
+reviewed: false

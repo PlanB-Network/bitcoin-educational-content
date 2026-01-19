@@ -1,5 +1,5 @@
 question: Tại sao nên sử dụng xác thực hai yếu tố?
-answer: Nó bổ sung thêm một Layer về bảo mật
+answer: Nó bổ sung thêm một lớp phòng thủ về bảo mật
 wrong_answers:
   - Nó đơn giản hóa việc truy cập bằng cách giảm số lượng mã
   - Nó cho phép đăng nhập mà không cần mật khẩu

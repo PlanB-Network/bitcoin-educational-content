@@ -6,3 +6,4 @@ wrong_answers:
   - En mjuk fork kan implementeras i hemlighet i commits medan en hård fork kräver offentligt tillkännagivande
 explanation: |
   Kapitlet definierar tydligt kompatibilitetstyper: framåtkompatibilitet gör det möjligt för gammal programvara att bearbeta nya data genom att ignorera okända delar, medan bakåtkompatibilitet gör det möjligt för ny programvara att bearbeta gamla data. En mjuk fork upprätthåller båda typerna av kompatibilitet, vilket gör den fullt kompatibel. En hård fork upprätthåller endast bakåtkompatibilitet, vilket innebär att ny programvara kan bearbeta gamla data men att gammal programvara inte kan bearbeta nya data från det uppgraderade systemet. Denna distinktion är avgörande för att förstå Bitcoin:s uppgraderingsmekanismer och varför mjuka gafflar är att föredra för att upprätthålla harmoni i nätverket.
+reviewed: false

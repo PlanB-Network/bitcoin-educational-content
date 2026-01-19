@@ -7,6 +7,14 @@ description: Makske bitcoin'idega kõikjal, kus Visa pangakaardid on aktsepteeri
 
 
 
+---
+
+⚠️ *Värskendus detsember 2025: Tähelepanu, **alates 2025. aasta detsembri algusest ei ole osa Mooni teenustest enam saadaval**, sealhulgas taaslaetavad Visa pangakaardid. Me ei tea veel, kas see kättesaamatus on ajutine või püsiv. Seda juhendit ajakohastatakse niipea, kui meil on rohkem teavet.*
+
+*Kui kasutasite ettemakstud Visa kaarti enne selle blokeerimist, saate nüüd oma vahendid tagasi, järgides isikutuvastusprotsessi otse oma Mooni juhtpaneelil. Põhimõtteliselt oleks Moon pidanud teile saatma e-kirja, et teavitada teid järgitavast menetlusest ja selle taastamise jaoks vajalikest sammudest.*
+
+---
+
 Moon võimaldab teil kasutada krüptovaluutasid, nagu bitcoin, KYC-vabade virtuaalsete Visa kaartide ja kinkekaartide ostmiseks, mida saab kasutada miljonites veebikauplustes, nagu traditsioonilist pangakaarti. Seega pakub see lihtsat võimalust kulutada oma sats kõikjal, kus Visa't aktsepteeritakse, ilma vahetusplatvormi kaudu käimata.
 
 
@@ -42,7 +50,7 @@ Mooniga on teil tõeline sild teie bitcoinide ja Visa kaardimakse süsteemi vahe
 
 
 
-Mine Mooni [ametlikule platvormile] (https://paywithmoon.com), seejärel klõpsa nupule **"Registreeri "**, läbige inimkontrolli (CAPTCHA), seejärel registreeru, sisestades oma e-posti aadressi ja parooli.
+Mine Mooni [ametlikule platvormile](https://paywithmoon.com), seejärel klõpsa nupule **"Registreeri "**, läbige inimkontrolli (CAPTCHA), seejärel registreeru, sisestades oma e-posti aadressi ja parooli.
 
 
 
@@ -177,7 +185,7 @@ Selle virtuaalkaardiga saate Internetis toodete ja teenuste eest maksta nagu tav
 
 
 
-https://planb.academy/courses/the-world-of-bitcoin-mining-7750d9da-417a-4377-8e35-85c377168477
+https://planb.academy/courses/7750d9da-417a-4377-8e35-85c377168477
 
 ![buycourse](assets/fr/13.webp)
 

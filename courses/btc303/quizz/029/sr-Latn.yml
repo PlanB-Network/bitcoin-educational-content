@@ -6,3 +6,4 @@ wrong_answers:
   - 20.500.000,0000 BTC approximately
 explanation: |
   Pieter Wuille je izračunao da je teoretski maksimalni broj 20,999,999.9769 BTC, što je nešto manje od često navođenih 21 milion. Ovo je zbog specifičnog rasporeda prepolovljavanja i zaokruživanja u Bitcoin kodu. Brojka od 21 milion je zaokružena aproksimacija. Brojka 20,999,817.3131 predstavlja stvarnu cirkulišuću ponudu nakon uračunavanja izgubljenih novčića i grešaka mining do određenog bloka, a ne teoretski maksimum.
+reviewed: false

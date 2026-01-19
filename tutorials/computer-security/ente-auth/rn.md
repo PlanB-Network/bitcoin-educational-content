@@ -681,4 +681,4 @@ Waba uri umuntu ku giti ciwe arondera gucungera amakonti yawe bwite, canke umugw
 
 
 - Ugutahura**: [ugutahura.gg/z2YVKkycX3](https://ugutahura.gg/z2YVKkyc3)
-- Reddit **: [Ikiganiro] (Ikiganiro)
+- Reddit **: [Ikiganiro](Ikiganiro)

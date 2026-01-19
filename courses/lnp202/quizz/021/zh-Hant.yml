@@ -1,0 +1,9 @@
+question: 哪個檔案包含 LND 的詳細通道狀態？
+answer: channel.db
+wrong_answers:
+  - wallet.db
+  - lightning.db
+  - peers.db
+explanation: |
+  channel.db 檔案儲存通道狀態、對等體和 commitment transaction。
+reviewed: false

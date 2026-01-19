@@ -1,0 +1,9 @@
+question: Wat zijn de vereisten voor het installeren van LND op Umbrel?
+answer: Gesynchroniseerd Bitcoin knooppunt
+wrong_answers:
+  - Umbrel Premium account
+  - Bestaand bliksemafvoerkanaal
+  - Bliksemadres actief
+explanation: |
+  LND is afhankelijk van een 100% gesynchroniseerd Bitcoin knooppunt, een voorwaarde voor de werking ervan.
+reviewed: false

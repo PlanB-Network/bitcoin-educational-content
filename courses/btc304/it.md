@@ -28,7 +28,7 @@ In BTC304, esamineremo perché la costruzione della comunità è importante, esp
 
 
 
-Benvenuti a BTC302!
+Benvenuti a BTC 304!
 
 
 
@@ -245,7 +245,7 @@ Molte di queste possibilità saranno trattate in dettaglio nella parte 6/8 di qu
 
 
 
-Mentre ogni comunità è libera di formare le proprie opinioni, lanciare progetti e sperimentare a modo suo, i meetup si stanno rivelando sempre più **essenziali per lo sviluppo del Bitcoin e per la crescita dei bitcoiners**. **Organizzarli richiede tempo e impegno**, ed è per questo che questo corso condivide l'esperienza combinata di [circa sessanta comunità Bitcoin in Francia e Belgio] (https://btcmap.org/communities/map#2/5.24949/0.20000) **per aiutarvi a costruire e far crescere la vostra comunità e i vostri meetup nel modo più semplice possibile**.
+Mentre ogni comunità è libera di formare le proprie opinioni, lanciare progetti e sperimentare a modo suo, i meetup si stanno rivelando sempre più **essenziali per lo sviluppo del Bitcoin e per la crescita dei bitcoiners**. **Organizzarli richiede tempo e impegno**, ed è per questo che questo corso condivide l'esperienza combinata di [circa sessanta comunità Bitcoin in Francia e Belgio](https://btcmap.org/communities/map#2/5.24949/0.20000) **per aiutarvi a costruire e far crescere la vostra comunità e i vostri meetup nel modo più semplice possibile**.
 
 
 
@@ -782,7 +782,7 @@ Ad esempio, **in Francia, Germania e Italia, Telegram e Twitter sono le piattafo
 Nella Repubblica Ceca, invece, molte comunità utilizzano **Matrix**, un protocollo di messaggistica istantanea sicuro, invece di Telegram.
 
 
-Suggerimento: prima di scegliere i canali, **guardate cosa fanno le comunità vicine**. Utilizzate la mappa [btcmap.org] (https://btcmap.org/communities/map#0/0/0/) per vedere quali piattaforme sono più popolari nella vostra regione.
+Suggerimento: prima di scegliere i canali, **guardate cosa fanno le comunità vicine**. Utilizzate la mappa [btcmap.org](https://btcmap.org/communities/map#0/0/0/) per vedere quali piattaforme sono più popolari nella vostra regione.
 
 
 Ad esempio, le comunità svizzere utilizzano principalmente Telegram, Twitter e il proprio sito web:
@@ -2086,7 +2086,7 @@ Per la maggior parte delle comunità, questo prezzo è proibitivo, soprattutto p
 Naturalmente sono possibili altre proiezioni.
 
 
-Ad esempio, in Francia, la **regista [Alana Mediavilla] (https://twitter.com/AlanaMediavilla) ha concesso ai meet-up locali il diritto di presentare in anteprima il suo documentario "Stranded "**, che include filmati del prossimo film del 2024 [film "Dirty Coin"] (https://www.dirtycointhemovie.com/).
+Ad esempio, in Francia, la **regista [Alana Mediavilla](https://twitter.com/AlanaMediavilla) ha concesso ai meet-up locali il diritto di presentare in anteprima il suo documentario "Stranded "**, che include filmati del prossimo film del 2024 [film "Dirty Coin"](https://www.dirtycointhemovie.com/).
 
 
 Alcuni bitcoiners hanno persino preso l'iniziativa di tradurre completamente "Stranded" in francese, aggiungere i sottotitoli e condividerlo con i meetup di tutto il Paese. Durante la settimana del 4 marzo 2024, il film è stato proiettato simultaneamente in una dozzina di meetup in tutto il Paese.
@@ -2831,14 +2831,14 @@ Da soli, potete esplorare rapidamente uno dei tanti tunnel della tana del conigl
 
 
 
-## BTC302, Cosa c'è dopo
+## BTC 304, Cosa c'è dopo
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-In questo corso BTC302 abbiamo approfondito come creare una comunità o un meet-up e come lanciare una serie di progetti.
+In questo corso BTC 304 abbiamo approfondito come creare una comunità o un meet-up e come lanciare una serie di progetti.
 
 
 Quando la vostra comunità è pronta a fare il passo successivo, **potete creare un'associazione formale**.

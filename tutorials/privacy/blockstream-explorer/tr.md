@@ -91,7 +91,7 @@ Bu ayrıntılar bölümünün altında, bu bloğa dahil olan tüm işlemleri bul
 
 
 
-Bloktaki ilk işleme **transaction coinbase** adı verilir. Madencinin mining ödülünü (blokta yer alan işlemlerle ilişkili tüm ücretler ve blok hibesi) tahsis etmek için kullanılır. Bu işlemle yaratılan bitcoinler ancak 100 ardışık blok daha kazıldıktan sonra harcanabilir. Başka bir deyişle, madencinin bunları kullanabilmesi için **919430** bloğunun üretilmesini beklemesi gerekecektir. Bu, [*"vade süresi "*] (https://planb.academy/fr/resources/glossary/maturity-period) olarak bilinir.
+Bloktaki ilk işleme **transaction coinbase** adı verilir. Madencinin mining ödülünü (blokta yer alan işlemlerle ilişkili tüm ücretler ve blok hibesi) tahsis etmek için kullanılır. Bu işlemle yaratılan bitcoinler ancak 100 ardışık blok daha kazıldıktan sonra harcanabilir. Başka bir deyişle, madencinin bunları kullanabilmesi için **919430** bloğunun üretilmesini beklemesi gerekecektir. Bu, [*"vade süresi "*](https://planb.academy/fr/resources/glossary/maturity-period) olarak bilinir.
 
 
 
@@ -225,4 +225,4 @@ Artık Blockstream Explorer'ın on-chain ve Liquid katmanlarındaki blok zincirl
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

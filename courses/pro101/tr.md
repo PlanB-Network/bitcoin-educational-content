@@ -11,7 +11,7 @@ objectives:
 
 Bitcoin üzerinde inşa etmek için ne gerekir? Bu 20 saatlik kurs sizi Bitcoin ve Lightning Network'ün yüzeyinin altına götürerek, dünyanın en dayanıklı finansal altyapısını güçlendiren protokolleri keşfetmenizi sağlar. İster açık kaynak projelerine katkıda bulunmak ister yeni nesil Bitcoin uygulamaları oluşturmak isteyin, bu ekosistemde güvenle çalışmaya başlamak için gereken teknik derinliği kazanacaksınız.
 
-El Salvador'daki CUBO+ 2023 bootcamp'i sırasında kaydedilen bu kurs, teknolojiyi şekillendirmiş önde gelen Bitcoin geliştiricilerinin ve eğitimcilerinin bakış açılarını bir araya getiriyor. En iyi yanı? Fulgure Venture, Bitcoin Office ve DecouvreBitcoin tarafından mümkün kılınan tamamen ücretsiz. Bitcoin'in protokol düzeyinde gerçekten nasıl çalıştığını merak ediyorsanız, bunu öğrenme şansınız bu.
+El Salvador'daki CUBO+ 2023 bootcamp'i sırasında kaydedilen bu kurs, teknolojiyi şekillendirmiş önde gelen Bitcoin geliştiricilerinin ve eğitimcilerinin bakış açılarını bir araya getiriyor. En iyi yanı? Fulgure Ventures, Bitcoin Office ve DecouvreBitcoin tarafından mümkün kılınan tamamen ücretsiz. Bitcoin'in protokol düzeyinde gerçekten nasıl çalıştığını merak ediyorsanız, bunu öğrenme şansınız bu.
 +++
 # Giriş ve Hazırlık Kursları
 
@@ -59,7 +59,7 @@ Kurs boyunca katılımcılar, anlayışlarına yardımcı olacak ve öğrenme de
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-Cubo Plus** eğitim programının ilk dersine hoş geldiniz. Bugün, **Bitcoin Italia Podcast**'in kurucusu Ricky'nin liderliğinde Bitcoin dünyasına dalıyoruz. Ricky, Bitcoin'yı insan haklarını korumak ve teşvik etmek için bir araç olarak kullanan tutkulu bir insan hakları aktivistidir. Altı yılı aşkın deneyimiyle Ricky, El Salvador ve Guatemala gibi gelişmekte olan pazarlarda Bitcoin'nın benimsenmesini belgelemek için kapsamlı seyahatler gerçekleştirmiştir. Çalışmaları podcast yayıncılığının ötesine geçiyor; YouTube (**Bitcoin Explorers**) ve Twitter'da (**BTC Explorer**, **Ricky6**) da aktif. Ricky'nin Commitment'ten Bitcoin'ya geçişi, geleneksel, merkezi bankacılık sistemlerine meydan okuyarak finansal özgürlük ve gizlilik sunduğuna olan inancından kaynaklanıyor.
+Cubo Plus** eğitim programının ilk dersine hoş geldiniz. Bugün, **Bitcoin Italia Podcast**'in kurucusu Rikki'nin liderliğinde Bitcoin dünyasına dalıyoruz. Rikki, Bitcoin'yı insan haklarını korumak ve teşvik etmek için bir araç olarak kullanan tutkulu bir insan hakları aktivistidir. Altı yılı aşkın deneyimiyle Rikki, El Salvador ve Guatemala gibi gelişmekte olan pazarlarda Bitcoin'nın benimsenmesini belgelemek için kapsamlı seyahatler gerçekleştirmiştir. Çalışmaları podcast yayıncılığının ötesine geçiyor; YouTube (**Bitcoin Explorers**) ve Twitter'da (**BTC Explorer**, **Rikki6**) da aktif. Rikki'nin Commitment'ten Bitcoin'ya geçişi, geleneksel, merkezi bankacılık sistemlerine meydan okuyarak finansal özgürlük ve gizlilik sunduğuna olan inancından kaynaklanıyor.
 
 
 ![Unbanked Population](assets/en/001.webp)
@@ -73,18 +73,18 @@ _Bankasız Küresel Nüfus_
 "El Salvador'un Neden Bitcoin'a İhtiyacı Var? "** başlıklı bu konferans, **Bitcoin protokolüne**, **Cypherpunk hareketindeki** köklerine ve özgürlüğü mümkün kılan **sansürsüz para**, **finansal katılım** ve çok daha fazlası için bir araç olarak rolüne genel bir bakış sunmaktadır.
 
 
-> **Tanımlar:**
->
-
-> - _Bitcoin protokolü:_ Bitcoin'nin merkezi olmayan bir dijital para birimi olarak nasıl çalıştığını yöneten kurallar ve yapı.
-> - _Cypherpunk hareketi:_ Dijital alanlarda gizlilik ve özgürlüğü sağlamak için kriptografinin kullanılmasını savunan bir grup.
-> - finansal içerme:_ Geleneksel bankacılık sistemlerinden dışlanmış olan ve genellikle "bankasızlar" olarak adlandırılan kişilerin finansal hizmetlere erişiminin sağlanması
-> - sansürsüz para:_ Hükümetler veya finansal kurumlar tarafından kontrol edilemeyen veya kısıtlanamayan para.
-
-#### Ricky'nin geçmişi ve Bitcoin savunuculuğu
+**Tanımlar:**
 
 
-Ricky'nin Bitcoin'ye yolculuğu, bir insan hakları savunucusu olarak yaptığı çalışmalara dayanıyor. Bitcoin'nin bireylere mali durumları üzerinde kontrol sağlayarak mahremiyetlerini korumalarına ve merkezi bankaların sınırlamalarından kaçınmalarına olanak tanıyabileceğine inanıyor. Bitcoin'nin El Salvador gibi yerlerde benimsenmesini araştırması, bu teknolojinin gelişmekte olan pazarlardaki insanları finansal bağımsızlık kazanmaları için nasıl güçlendirebileceğini vurgulamaktadır.
+- _Bitcoin protokolü:_ Bitcoin'nin merkezi olmayan bir dijital para birimi olarak nasıl çalıştığını yöneten kurallar ve yapı.
+- _Cypherpunk hareketi:_ Dijital alanlarda gizlilik ve özgürlüğü sağlamak için kriptografinin kullanılmasını savunan bir grup.
+- finansal içerme:_ Geleneksel bankacılık sistemlerinden dışlanmış olan ve genellikle "bankasızlar" olarak adlandırılan kişilerin finansal hizmetlere erişiminin sağlanması
+- sansürsüz para:_ Hükümetler veya finansal kurumlar tarafından kontrol edilemeyen veya kısıtlanamayan para.
+
+#### Rikki'nin geçmişi ve Bitcoin savunuculuğu
+
+
+Rikki'nin Bitcoin'ye yolculuğu, bir insan hakları savunucusu olarak yaptığı çalışmalara dayanıyor. Bitcoin'nin bireylere mali durumları üzerinde kontrol sağlayarak mahremiyetlerini korumalarına ve merkezi bankaların sınırlamalarından kaçınmalarına olanak tanıyabileceğine inanıyor. Bitcoin'nin El Salvador gibi yerlerde benimsenmesini araştırması, bu teknolojinin gelişmekte olan pazarlardaki insanları finansal bağımsızlık kazanmaları için nasıl güçlendirebileceğini vurgulamaktadır.
 
 
 ### Bitcoin'ün küresel önemi ve karşılaştığı zorluklar
@@ -102,11 +102,11 @@ Finansal baskının yaygın olduğu otoriter rejimlerde, Bitcoin'in **duyarsız 
 Potansiyeline rağmen Bitcoin önemli zorluklarla karşı karşıyadır. Afrika ve Hindistan gibi bölgelerde, elektrik ve internet erişimi gibi temel altyapı genellikle eksiktir ve bu da benimsenmeyi sınırlamaktadır. Ayrıca, **dijital katılım** - her yaştan ve eğitim seviyesinden insanın teknolojiyi kullanabilmesini sağlamak- büyük bir engel olmaya devam etmektedir.
 
 
-> **Tanımlar:**
->
+**Tanımlar:**
 
-> - _Özel anahtarlar:_ Bir kullanıcının Bitcoin'sine erişim sağlayan gizli kodlar.
-> - açık kaynak:_ Herkesin inceleyebileceği, değiştirebileceği ve geliştirebileceği yazılım.
+
+- _Özel anahtarlar:_ Bir kullanıcının Bitcoin'sine erişim sağlayan gizli kodlar.
+- açık kaynak:_ Herkesin inceleyebileceği, değiştirebileceği ve geliştirebileceği yazılım.
 
 ### El Salvador örneği
 
@@ -135,10 +135,10 @@ Bununla birlikte, Bitcoin'un küresel olarak benimsenmesi cehalet, yeni teknoloj
 20. yüzyılın sonlarında ortaya çıkan **Cypherpunk hareketi** kriptografi yoluyla mahremiyet ve özgürlüğü savunuyordu. Eric Hughes** ve **Tim May** gibi öncüler, dijital bir dünyada kişisel özgürlüğü korumak için güçlü şifrelemenin gerekli olduğuna inanıyordu. Onların fikirleri Bitcoin'in yaratılmasını büyük ölçüde etkilemiştir.
 
 
-> **Tanım:**
->
+**Tanım:**
 
-> - _Cypherpunk:_ Kriptografi kullanarak gizliliği ve özgürlüğü teşvik eden bir hareket.
+
+- _Cypherpunk:_ Kriptografi kullanarak gizliliği ve özgürlüğü teşvik eden bir hareket.
 
 #### Avusturya ekonomisi
 
@@ -146,10 +146,10 @@ Bununla birlikte, Bitcoin'un küresel olarak benimsenmesi cehalet, yeni teknoloj
 Aynı zamanda, **Avusturya Ekonomisi** Bitcoin'nın parasal ilkelerinin temelini oluşturmuştur. Ludwig von Mises** ve **Friedrich Hayek** gibi ekonomistler, sağlam paranın kıt, dayanıklı ve iyi bir değer deposu olması gerektiğini savundular - Bitcoin'nın tasarımını şekillendiren temel ilkeler.
 
 
-> **Tanım:**
->
+**Tanım:**
 
-> - kıtlık:_ Sınırlı bulunabilirlik, dikkatli tahsis ihtiyacı yoluyla değer yaratma.
+
+- kıtlık:_ Sınırlı bulunabilirlik, dikkatli tahsis ihtiyacı yoluyla değer yaratma.
 
 ### Bitcoin'nin yaratılışı
 
@@ -157,10 +157,10 @@ Aynı zamanda, **Avusturya Ekonomisi** Bitcoin'nın parasal ilkelerinin temelini
 **Satoshi Nakamoto** bu fikirleri birleştirerek 2008 yılında merkezi olmayan, sansüre dayanıklı bir dijital para birimi olarak Bitcoin'u yarattı. Cypherpunk'in mahremiyet ideallerini Avusturya'nın sağlam para ilkeleriyle birleştiren Bitcoin, geleneksel bankalara ve devlet kontrolüne meydan okuyan bir finansal sistem sunmaktadır.
 
 
-> **Tanım:**
->
+**Tanım:**
 
-> - sansüre dayanıklı:_ Dış güçler tarafından kontrol edilemeyen veya engellenemeyen para.
+
+- sansüre dayanıklı:_ Dış güçler tarafından kontrol edilemeyen veya engellenemeyen para.
 
 #### Temel ekonomik ilkeler
 
@@ -171,11 +171,11 @@ Aynı zamanda, **Avusturya Ekonomisi** Bitcoin'nın parasal ilkelerinin temelini
 - Tasarruf:** Gelecekteki ihtiyaçlar için değer depolamak, bu da yatırım ve inovasyona yol açar.
 
 
-> **Tanımlar:**
->
+**Tanımlar:**
 
-> - zaman tercihi:_ Şimdiki mallara gelecektekilere kıyasla değer biçmek.
-> - _Kaydetmek:_ Gelecekte kullanmak üzere değer depolamak.
+
+- zaman tercihi:_ Şimdiki mallara gelecektekilere kıyasla değer biçmek.
+- _Kaydetmek:_ Gelecekte kullanmak üzere değer depolamak.
 
 ### El Salvador'da Bitcoin
 
@@ -243,11 +243,11 @@ Bitcoin, işlemleri güvence altına almak ve doğrulamak için **eliptik eğri 
 *gW-63'ün takma adlı yaratıcısı *Satoshi Nakamoto**, PoW modelini merkezi olmayan bir **Blockchain**'ye geçirerek bu fikirleri genişletti. Bu, merkezi bir otorite olmadan işlemleri doğrulamak ve kaydetmek için dağıtılmış bir düğüm ağına izin verdi ve önceki dijital para birimi girişimlerinden önemli bir evrime işaret etti.
 
 
-> **Tanımlar:**
->
+**Tanımlar:**
 
-> - i̇ş Kanıtı (PoW):_ Katılımcıların işlemleri doğrulamak ve ağı güvence altına almak için hesaplama bulmacalarını çözmeleri gereken bir sistem.
-> - eliptik Eğri Kriptografisi:_ Güvenli, verimli dijital imzalar sağlayan bir kriptografik yöntem.
+
+- i̇ş Kanıtı (PoW):_ Katılımcıların işlemleri doğrulamak ve ağı güvence altına almak için hesaplama bulmacalarını çözmeleri gereken bir sistem.
+- eliptik Eğri Kriptografisi:_ Güvenli, verimli dijital imzalar sağlayan bir kriptografik yöntem.
 
 ### Blockchain mekaniği ve işlem doğrulaması
 
@@ -264,12 +264,12 @@ Blockchain'teki her **blok** bir **başlık** (bir önceki bloğun Hash'si gibi 
 İşlemler bir bloğa dahil edilmeden önce, onaylanmayı bekledikleri **Mempool**'te bulunurlar. Onaylandıktan sonra, bu işlemler yeni çıkarılan bloğa ve ardından Blockchain'e eklenir.
 
 
-> **Tanımlar:**
->
+**Tanımlar:**
 
-> - madencilik:_ Blockchain'e yeni bloklar eklemek için kriptografik bulmacaları çözme süreci.
-> - _Nonce:_ Mining sırasında doğru Hash'yi bulmak için kullanılan bir değer.
-> - _Mempool:_ Bir bloğa eklenmeden önce onaylanmamış işlemler için bir bekleme alanı.
+
+- madencilik:_ Blockchain'e yeni bloklar eklemek için kriptografik bulmacaları çözme süreci.
+- _Nonce:_ Mining sırasında doğru Hash'yi bulmak için kullanılan bir değer.
+- _Mempool:_ Bir bloğa eklenmeden önce onaylanmamış işlemler için bir bekleme alanı.
 
 ### Bitcoin'de ölçeklenebilirlik, gizlilik ve geliştirme
 
@@ -283,12 +283,12 @@ Bir **Full node** çalıştırmak, ademi merkeziyetçiliği ve güvenliği sağl
 Bitcoin gelişimi, performansı ve güvenliği artırmak için gelişmiştir. Başlıca yükseltmeler arasında, işlem hatalarını ele alan ve etkin blok boyutunu artıran **Segregated Witness (SegWit)** ve gizliliği artıran ve **Merkleized Abstract Syntax Trees (MAST)** kullanarak daha karmaşık sözleşmelere izin veren **Taproot** bulunmaktadır.
 
 
-> **Tanımlar:**
->
+**Tanımlar:**
 
-> - _SegWit:_ İmza verilerini işlem verilerinden ayırarak verimliliği artıran bir Bitcoin yükseltmesi.
-> - _Taproot:_ Daha karmaşık akıllı sözleşmelere olanak sağlayarak Bitcoin'un gizliliğini ve ölçeklenebilirliğini artıran bir yükseltme.
-> - _Lightning Network:_ Ödeme kanallarını kullanarak daha hızlı, daha ucuz Bitcoin işlemleri için ikinci bir Layer çözümü.
+
+- _SegWit:_ İmza verilerini işlem verilerinden ayırarak verimliliği artıran bir Bitcoin yükseltmesi.
+- _Taproot:_ Daha karmaşık akıllı sözleşmelere olanak sağlayarak Bitcoin'un gizliliğini ve ölçeklenebilirliğini artıran bir yükseltme.
+- _Lightning Network:_ Ödeme kanallarını kullanarak daha hızlı, daha ucuz Bitcoin işlemleri için ikinci bir Layer çözümü.
 
 #### Sonuç
 
@@ -316,11 +316,11 @@ Bu derste, **Bitcoin**, **blok zincirler** ve **kripto para birimleri** ile ilgi
 Sıklıkla yapılan bir yanlış anlama, **Bitcoin** ve **Blockchain**'ün aynı olduğudur. Bitcoin dijital bir para birimi iken, **Blockchain** ona güç veren teknolojidir. Blok zincirleri, işlemlerin doğrulanmış bir kaydını sağlar, ancak **Lightning Network** Address gibi çözümlerin daha düşük hızlar ve daha yüksek maliyetler gibi değiş tokuşlarla birlikte gelir.
 
 
-> **Tanımlar:**
->
+**Tanımlar:**
 
-> - blockchain:_ İşlemleri merkezi olmayan, değişmez bir Ledger'ye kaydetmek için kullanılan temel teknoloji.
-> - _Lightning Network:_ off-chain işlemlerini etkinleştirerek Bitcoin'un işlem verimliliğini artıran ikinci bir Layer çözümü.
+
+- blockchain:_ İşlemleri merkezi olmayan, değişmez bir Ledger'ye kaydetmek için kullanılan temel teknoloji.
+- _Lightning Network:_ off-chain işlemlerini etkinleştirerek Bitcoin'un işlem verimliliğini artıran ikinci bir Layer çözümü.
 
 ### Bitcoin vs. Kripto
 
@@ -328,10 +328,10 @@ Sıklıkla yapılan bir yanlış anlama, **Bitcoin** ve **Blockchain**'ün aynı
 Bir diğer önemli ayrım ise **Bitcoin**'nin herhangi bir şirket veya hükümet tarafından kontrol edilmeyen, merkezi olmayan, sansüre dayanıklı bir para biçimi sağlamak amacıyla yaratılmış olmasıdır. Buna karşılık, **shitcoins** kripto para birimleri genellikle merkezi kontrolle tasarlanır, öncelikle arkalarındaki şirketleri yağmacı uygulamalar, pompalama ve boşaltma planları veya düpedüz dolandırıcılık yoluyla zenginleştirmek için var olurlar. Bu tokenlar genellikle bilgisiz yatırımcılar pahasına yaratıcıları için hızlı bir kar elde etmenin ötesinde gerçek bir amaca hizmet etmez. Ancak Bitcoin, kanıtlanmış bir güvenlik ve esneklik geçmişine sahip, gerçek anlamda merkezi olmayan tek dijital para birimi olarak tek başına durmaktadır.
 
 
-> **Tanımlar:**
->
+**Tanımlar:**
 
-> - shitcoins:_ Shitcoins, gerçek faydadan yoksun, düşük değerli veya şüpheli kalitede kripto para birimleridir. Genellikle son derece spekülatiftirler ve bazen kripto para piyasasındaki patlamadan faydalanarak dolandırıcılık amacıyla veya net bir amaç olmaksızın yaratılırlar.
+
+- shitcoins:_ Shitcoins, gerçek faydadan yoksun, düşük değerli veya şüpheli kalitede kripto para birimleridir. Genellikle son derece spekülatiftirler ve bazen kripto para piyasasındaki patlamadan faydalanarak dolandırıcılık amacıyla veya net bir amaç olmaksızın yaratılırlar.
 
 ![Image](assets/en/005.webp)
 
@@ -342,10 +342,10 @@ Bir diğer önemli ayrım ise **Bitcoin**'nin herhangi bir şirket veya hüküme
 Bitcoin'e yönelik en yaygın eleştirilerden biri **enerji tüketimidir**. Bitcoin Mining enerji kullanıyor olsa da, küresel elektrik tüketiminin %1'inden azını ve boşa harcanan enerjinin %3'ünden azını oluşturmaktadır. Dahası, **Bitcoin Mining** genellikle kullanılmayan veya yenilenebilir enerji kaynaklarından yararlanır, bu da onu genellikle tasvir edilenden daha çevreci yapar.
 
 
-> **Tanımlar:**
->
+**Tanımlar:**
 
-> - _Bitcoin Mining:_ Hesaplama gücü gerektiren kriptografik bulmacaları çözerek işlemleri doğrulama ve ağı güvence altına alma süreci.
+
+- _Bitcoin Mining:_ Hesaplama gücü gerektiren kriptografik bulmacaları çözerek işlemleri doğrulama ve ağı güvence altına alma süreci.
 
 ### Suç kullanımına ilişkin yanlış anlamalar
 
@@ -359,10 +359,10 @@ Bitcoin genellikle suç faaliyetlerinde kullanıldığı için eleştirilmektedi
 **Gizlilik** ve **fungibility** Bitcoin'in temel özellikleridir. Gizlilik, baskıcı rejimlerdeki kullanıcıları korur ve değiştirilebilirlik, geçmişine bakılmaksızın her Bitcoin'in eşit olmasını sağlar. Bu da Bitcoin'i güvenilir ve adil bir para biçimi haline getirir.
 
 
-> **Tanımlar:**
->
+**Tanımlar:**
 
-> - değişebilirlik:_ Her birimin bir diğeriyle değiştirilebilir olduğu ve eşit değer sağladığı para özelliği.
+
+- değişebilirlik:_ Her birimin bir diğeriyle değiştirilebilir olduğu ve eşit değer sağladığı para özelliği.
 
 ### FUD ve pazar dinamiklerinin ele alınması
 
@@ -2967,7 +2967,7 @@ Her biri farklı kullanıcı ihtiyaçlarına ve tercihlerine hitap eden çeşitl
 
 
 
-- Özellikler**: Breeze'e benzer şekilde, likidite için LSP modeli kullanır, açık kaynaklıdır, kullanıcı basitliğine ve etkili likidite yönetimine odaklanır.
+- Özellikler**: Breez'e benzer şekilde, likidite için LSP modeli kullanır, açık kaynaklıdır, kullanıcı basitliğine ve etkili likidite yönetimine odaklanır.
 
 
 #### Bitcoin Wallet'yi (OBW) açın:
@@ -2985,7 +2985,7 @@ Cüzdanlar, özel anahtarları kimin elinde tuttuğuna ve likiditeyi kimin yöne
 
 
 - Saklama cüzdanları**: Üçüncü taraf özel anahtarları tutar, genellikle otomatik likidite yönetimi sunar. Örnekler arasında Satoshi'ün Wallet'i yer alır.
-- Gözetim dışı cüzdanlar**: Kullanıcılar özel anahtarlara sahiptir, manuel likidite yönetimi gerektirebilir. Örnekler Breeze ve OBW'yi içerir.
+- Gözetim dışı cüzdanlar**: Kullanıcılar özel anahtarlara sahiptir, manuel likidite yönetimi gerektirebilir. Örnekler Breez ve OBW'yi içerir.
 
 
 ![Liquidity Lightning](assets/en/055.webp)_2x2 Matrix of LN Clients_
@@ -3096,11 +3096,11 @@ Geliştiriciler, uygulamalar içinde sorunsuz likidite yönetimi uygulama zorlu�
 - Olası çözümler**: Geliştiriciler, **likidite yönlendirmesi** için gelişmiş algoritmalar araştırıyor ve bir işlemin her iki ucunda da likiditenin mevcut olmasını sağlamak için **çift finansmanlı kanallar** kullanıyor.
 
 
-> **Tanımlar**:
->
+**Tanımlar**:
 
-> - **Likidite**: Ödeme yapmak veya almak için bir Yıldırım kanalındaki fonların mevcudiyeti.
-> - **LSP (Lightning Service Provider)**: Kullanıcıların Lightning Network üzerindeki likiditeyi ve kanalları yönetmesine yardımcı olan bir hizmet.
+
+- **Likidite**: Ödeme yapmak veya almak için bir Yıldırım kanalındaki fonların mevcudiyeti.
+- **LSP (Lightning Service Provider)**: Kullanıcıların Lightning Network üzerindeki likiditeyi ve kanalları yönetmesine yardımcı olan bir hizmet.
 
 ---
 
@@ -3129,12 +3129,12 @@ Geliştiriciler, L1 ve L2'nin karmaşıklıklarını kullanıcılar için soyutl
 - Olası çözümler**: Geliştiriciler, **ekleme** (bir kanalı kapatmadan fonların eklenmesine veya çıkarılmasına olanak tanıyan) ve otomatik kanal yönetimi araçları gibi özellikler üzerinde çalışmaktadır.
 
 
-> **Tanımlar**:
->
+**Tanımlar**:
 
-> - **L1 (Layer 1)**: Bitcoin'in ana Blockchain Layer.
-> - **L2 (Layer 2)**: Daha hızlı ve daha ucuz işlemler sağlamak için Bitcoin'in üzerinde çalışan Lightning Network.
-> - **Ekleme**: Kapatmaya gerek kalmadan bir Lightning kanalının dengesinde değişiklik yapılmasına izin veren bir teknik.
+
+- **L1 (Layer 1)**: Bitcoin'in ana Blockchain Layer.
+- **L2 (Layer 2)**: Daha hızlı ve daha ucuz işlemler sağlamak için Bitcoin'in üzerinde çalışan Lightning Network.
+- **Ekleme**: Kapatmaya gerek kalmadan bir Lightning kanalının dengesinde değişiklik yapılmasına izin veren bir teknik.
 
 ---
 
@@ -3163,11 +3163,11 @@ Geliştiriciler, kullanıcıların düğümleri çevrimdışı olsa bile Lightni
 - Olası çözümler**: Alıcıların ağa yeniden bağlandıklarında ödeme talep etmelerine olanak tanıyacak **offline ödeme kuponları** ile ilgili araştırmalar devam etmektedir.
 
 
-> **Tanımlar**:
->
+**Tanımlar**:
 
-> - **Çevrimdışı ödemeler**: Taraflardan biri Lightning Network'e bağlı değilken gönderilen veya alınan ödemeler.
-> - **Gözetim cüzdanları**: Üçüncü bir tarafın özel anahtarları kontrol ettiği ve işlemleri kullanıcı adına yönettiği cüzdanlar.
+
+- **Çevrimdışı ödemeler**: Taraflardan biri Lightning Network'e bağlı değilken gönderilen veya alınan ödemeler.
+- **Gözetim cüzdanları**: Üçüncü bir tarafın özel anahtarları kontrol ettiği ve işlemleri kullanıcı adına yönettiği cüzdanlar.
 
 ---
 
@@ -3196,10 +3196,10 @@ Geliştiricilerin, kullanıcıların fonlarını yıkıcı arızalardan sonra bi
 - Olası çözümler**: *kurtarmayı basitleştirmek için *Statik Kanal Yedeklemeleri (SCB'ler)** geliştirilmiştir, ancak tam otomatik ve güvenli yedeklemeler için daha gelişmiş çözümlere ihtiyaç vardır.
 
 
-> **Tanımlar**:
->
+**Tanımlar**:
 
-> - **Statik Kanal Yedekleme (SCB)**: Kullanıcıların, arıza durumunda kanalın en son durumunu geri yükleyerek fonlarını bir Yıldırım kanalından kurtarmalarına olanak tanıyan bir yedekleme türü.
+
+- **Statik Kanal Yedekleme (SCB)**: Kullanıcıların, arıza durumunda kanalın en son durumunu geri yükleyerek fonlarını bir Yıldırım kanalından kurtarmalarına olanak tanıyan bir yedekleme türü.
 
 ---
 
@@ -3293,7 +3293,7 @@ blinded yolları, Lightning Network'da alıcı gizliliğini artırmak için tasa
 
 **Yıldırım Hizmet Sağlayıcıları (LSP'ler)**
 
-Breeze Wallet tarafından kavramsallaştırılan Lightning Hizmet Sağlayıcıları (LSP'ler), anında alım yetenekleri sağlayarak kullanıcı deneyimini iyileştirmeyi amaçlamaktadır. LSP'ler, internet servis sağlayıcılarının bağlantı hizmetleri sunmasına benzer şekilde kullanıcılar için kanallar açar. Bu yenilik, kullanıcı katılım sürecini basitleştirir ve Lightning Network üzerinde sorunsuz etkileşimler sağlar.
+Breez Wallet tarafından kavramsallaştırılan Lightning Hizmet Sağlayıcıları (LSP'ler), anında alım yetenekleri sağlayarak kullanıcı deneyimini iyileştirmeyi amaçlamaktadır. LSP'ler, internet servis sağlayıcılarının bağlantı hizmetleri sunmasına benzer şekilde kullanıcılar için kanallar açar. Bu yenilik, kullanıcı katılım sürecini basitleştirir ve Lightning Network üzerinde sorunsuz etkileşimler sağlar.
 
 
 **Güncel kalmak için kaynaklar**
@@ -3342,12 +3342,12 @@ Bununla birlikte, geleneksel faturaların sınırlamaları vardır. Örneğin:
 - Boyut sınırlamaları**: Büyük faturaların QR kod formunda işlenmesi zor olabilir, bu da onları belirli uygulamalar için kullanışsız hale getirir.
 
 
-> **Tanımlar**:
->
+**Tanımlar**:
 
-> - **Invoice**: Lightning Network'da tipik olarak tutar ve alıcı ayrıntılarını içeren bir ödeme talebi.
-> - **HTLC (Hash Zaman Kilitli Contract)**: Bir zaman sınırı içinde koşullu ödemeleri sağlamak için kullanılan bir Smart contract türü.
-> - **Soğan yönlendirme**: Gönderici ve alıcının kimliklerini korumak için işlem verilerinin bir soğan gibi katmanlandığı bir gizlilik tekniği.
+
+- **Invoice**: Lightning Network'da tipik olarak tutar ve alıcı ayrıntılarını içeren bir ödeme talebi.
+- **HTLC (Hash Zaman Kilitli Contract)**: Bir zaman sınırı içinde koşullu ödemeleri sağlamak için kullanılan bir Smart contract türü.
+- **Soğan yönlendirme**: Gönderici ve alıcının kimliklerini korumak için işlem verilerinin bir soğan gibi katmanlandığı bir gizlilik tekniği.
 
 ### Protokoller ve kullanım durumları
 
@@ -3374,15 +3374,15 @@ Başka bir protokol olan **RGB**, Lightning Network üzerinden **varlık transfe
 **Lightning Likidite Hizmet Sağlayıcıları (LSP'ler)** da Lightning ödemelerinin yaygınlaştırılmasında kritik bir rol oynamaktadır. LSP'ler ödeme almak için likidite sağlar, **çift finansmanlı kanalların** açılmasına yardımcı olur ve ödemeleri durdurarak ve anında kanallar açarak sorunsuz işlemler sağlar.
 
 
-> **Tanımlar**:
->
+**Tanımlar**:
 
-> - **LNURL**: Dinamik Invoice oluşturulmasına olanak tanıyan, ödemeleri daha kolay ve esnek hale getiren bir protokol.
-> - **Bolt 12**: Invoice getirmeyi otomatikleştirirken gizlilik için Onion mesajlaşmasından yararlanan bir Lightning uzantısı.
-> - **Nostr**: LProtocols ve Use Cases'i entegre eden merkezi olmayan bir platform
-> mikro işlemler için yıldırım ödemeleri.
-> - **RGB protokolü**: Token gibi varlıkların Lightning Network üzerinden transferini sağlayan bir protokol.
-> - **LSP (Lightning Hizmet Sağlayıcısı)**: Likidite sağlayan ve Lightning işlemleri için kanallar açarak ağı kullanıcılar için daha erişilebilir hale getiren bir varlık.
+
+- **LNURL**: Dinamik Invoice oluşturulmasına olanak tanıyan, ödemeleri daha kolay ve esnek hale getiren bir protokol.
+- **Bolt 12**: Invoice getirmeyi otomatikleştirirken gizlilik için Onion mesajlaşmasından yararlanan bir Lightning uzantısı.
+- **Nostr**: LProtocols ve Use Cases'i entegre eden merkezi olmayan bir platform
+- mikro işlemler için yıldırım ödemeleri.
+- **RGB protokolü**: Token gibi varlıkların Lightning Network üzerinden transferini sağlayan bir protokol.
+- **LSP (Lightning Hizmet Sağlayıcısı)**: Likidite sağlayan ve Lightning işlemleri için kanallar açarak ağı kullanıcılar için daha erişilebilir hale getiren bir varlık.
 
 ### İş modelleri ve gelişmiş protokoller
 
@@ -3405,12 +3405,12 @@ Nokta Zaman Kilitli Sözleşmeler (PTLC'ler)** gibi gelişmiş protokoller, daha
 LNURL** ve **Bolt 12** gibi protokoller, manuel etkileşimleri azaltarak ödemeleri kolaylaştırır ve Lightning Network'in daha kullanıcı dostu olmasını ve yaygın olarak benimsenmesini sağlar.
 
 
-> **Tanımlar**:
->
+**Tanımlar**:
 
-> - **PTLC (Point Time-Locked Contract)**: HTLC'leri geliştirerek daha esnek ve güvenli ödemelere olanak sağlayan bir kriptografik ilkel.
-> - **Ön görüntü**: Bir HTLC'in kilidini açmak için kullanılan ve hizmetler için erişim anahtarı olarak da kullanılabilen bir değer.
-> - **Açık Artırma Modeli**: Ödemelerin bir açık artırma sırasında beklemede tutulduğu ve yalnızca en yüksek teklif kabul edildiğinde serbest bırakıldığı bir ödeme modeli.
+
+- **PTLC (Point Time-Locked Contract)**: HTLC'leri geliştirerek daha esnek ve güvenli ödemelere olanak sağlayan bir kriptografik ilkel.
+- **Ön görüntü**: Bir HTLC'in kilidini açmak için kullanılan ve hizmetler için erişim anahtarı olarak da kullanılabilen bir değer.
+- **Açık Artırma Modeli**: Ödemelerin bir açık artırma sırasında beklemede tutulduğu ve yalnızca en yüksek teklif kabul edildiğinde serbest bırakıldığı bir ödeme modeli.
 
 ### Sonuç
 

@@ -6,3 +6,4 @@ wrong_answers:
   - Validator jaringan yang memberikan suara untuk keabsahan transaksi melalui proses yang demokratis
 explanation: |
   Batas suplai Bitcoin diberlakukan melalui node penuh yang menjalankan kode verifikasi untuk memeriksa setiap transaksi coinbase blok terhadap aturan konsensus. Bahkan jika beberapa node berubah menjadi jahat dan menerima blok yang tidak valid dengan hadiah yang berlebihan, node yang jujur akan mengabaikannya dan melanjutkan rantai yang valid. Hal ini menciptakan sebuah sistem tanpa kepercayaan di mana Anda tidak perlu mempercayai individu atau otoritas mana pun - Anda hanya perlu menjalankan kode yang memverifikasi aturan yang diikuti, membuat jaringan secara kolektif aman dari upaya penggelembungan pasokan.
+reviewed: false

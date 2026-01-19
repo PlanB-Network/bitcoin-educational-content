@@ -1,0 +1,9 @@
+question: LND + Tailscale + Zeus 구성의 주요 목적은 무엇인가요?
+answer: 라이트닝 노드에서 모바일 wallet 사용
+wrong_answers:
+  - 라이트닝 노드 없이 관리형 wallet 사용
+  - 여러 LND 노드 멀티플렉싱
+  - Mining sats 사용 Umbrel
+explanation: |
+  목표는 자체 노드에서 백그라운드에서 실행되는 모바일 Lightning wallet 애플리케이션을 사용하는 것입니다.
+reviewed: false

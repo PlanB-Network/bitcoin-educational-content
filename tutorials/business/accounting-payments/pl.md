@@ -45,7 +45,7 @@ Nieco bardziej zaawansowaną konfiguracją jest użycie funkcji punktu sprzedaż
 ![image](assets/en/01.webp)
 
 
-Jest to jeden z dwóch sposobów uzyskania dostępu do funkcji punktu sprzedaży. Druga metoda to dedykowana aplikacja [Wallet of Satoshi PoS app] (https://www.walletofsatoshi.com/pos.)
+Jest to jeden z dwóch sposobów uzyskania dostępu do funkcji punktu sprzedaży. Druga metoda to dedykowana aplikacja [Wallet of Satoshi PoS app](https://www.walletofsatoshi.com/pos.)
 
 
 Korzyści z korzystania z funkcji punktu sprzedaży są trojakie:

@@ -1,5 +1,5 @@
 ---
-name: Blockstream-Explorer
+name: Blockstream Explorer
 description: Erkunden Sie die Hauptschicht von Bitcoin und Liquid Network
 ---
 
@@ -91,7 +91,7 @@ Unterhalb dieses Detailbereichs finden Sie alle in diesem Block enthaltenen Tran
 
 
 
-Die allererste Transaktion im Block wird **Transaktionscoinbase** genannt. Sie wird verwendet, um die mining-Belohnung des Miners (alle Gebühren im Zusammenhang mit den im Block enthaltenen Transaktionen und dem Block Grant) zu verteilen. Die durch diese Transaktion erzeugten Bitcoins können erst ausgegeben werden, wenn weitere 100 aufeinanderfolgende Blöcke geschürft worden sind. Mit anderen Worten, um sie verwenden zu können, muss der Miner auf die Produktion von Block **919430** warten. Dies wird als [*"Fälligkeitsperiode "*] (https://planb.academy/fr/resources/glossary/maturity-period) bezeichnet.
+Die allererste Transaktion im Block wird **Transaktionscoinbase** genannt. Sie wird verwendet, um die mining-Belohnung des Miners (alle Gebühren im Zusammenhang mit den im Block enthaltenen Transaktionen und dem Block Grant) zu verteilen. Die durch diese Transaktion erzeugten Bitcoins können erst ausgegeben werden, wenn weitere 100 aufeinanderfolgende Blöcke geschürft worden sind. Mit anderen Worten, um sie verwenden zu können, muss der Miner auf die Produktion von Block **919430** warten. Dies wird als [*"Fälligkeitsperiode "*](https://planb.academy/fr/resources/glossary/maturity-period) bezeichnet.
 
 
 
@@ -225,4 +225,4 @@ Sie sind nun bereit, das volle Potenzial des Blockstream Explorers für die Abfr
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

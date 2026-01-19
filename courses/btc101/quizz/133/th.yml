@@ -1,0 +1,9 @@
+question: ขนาดปัจจุบันของบล็อกเชน Bitcoin คือเท่าใด?
+answer: ประมาณ 500GB.
+wrong_answers:
+  - ประมาณ 100GB.
+  - ประมาณ 1TB.
+  - ประมาณ 2TB.
+explanation: |
+  บล็อกเชน Bitcoin มีขนาดประมาณ 500GB ณ ปี 2023
+reviewed: true

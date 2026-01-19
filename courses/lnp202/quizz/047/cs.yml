@@ -1,0 +1,9 @@
+question: Proč je LN+ nevhodný pro obchodníky?
+answer: Významné kapitálové investice
+wrong_answers:
+  - Nedostatečná spolehlivost zapojených uzlů
+  - Žádný systém reputace
+  - Příliš malé kanály
+explanation: |
+  Každý získaný příchozí satelit vyžaduje zablokování odchozího satelitu, což omezuje škálovatelnost podniku.
+reviewed: false

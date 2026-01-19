@@ -1,0 +1,8 @@
+question: 什么加密功能允许 Liquid 隐藏交易金额和资产类型，不让公众看到？
+answer: Confidential Transactions (CT)
+wrong_answers:
+  - 硬件安全模块（HSM）
+  - 动态联邦（Dynafed）协议
+  - Peg-out 授权密钥（PAK）
+explanation: |
+  Confidential Transactions (CT) 是一种加密功能，它使 Liquid 能够从公共分类账中隐藏资产类型和交易金额，同时仍允许网络验证交易的有效性。这为机构提供了至关重要的商业隐私。硬件安全模块是确保私钥安全的物理设备，Dynafed 协议管理联盟变更，PAK 控制挂接流程--这些都无法从公众视角隐藏交易细节。

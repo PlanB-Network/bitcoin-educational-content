@@ -1,0 +1,8 @@
+question: Co dzieje się z oryginalną instancją struktury, gdy używana jest składnia struct update z typami innymi niż Copy?
+answer: Pola, które są kopiowane, stają się bezużyteczne w oryginalnej instancji z powodu semantyki przenoszenia
+wrong_answers:
+  - Oryginalna instancja pozostaje całkowicie niezmieniona i w pełni dostępna
+  - Cała oryginalna instancja jest klonowana, pozostawiając obie instancje w pełni funkcjonalne
+  - Tylko pola, które zostały wyraźnie zmienione, stają się niedostępne w oryginalnej wersji
+explanation: |
+  Podczas korzystania ze składni struct update z typami innymi niż Copy, system własności Rust przenosi skopiowane pola z oryginalnej instancji do nowej. Oznacza to, że te konkretne pola stają się bezużyteczne w oryginalnej instancji, chociaż pola, które nie zostały skopiowane, pozostają dostępne. Kompilator inteligentnie śledzi te częściowe ruchy, uniemożliwiając dostęp do przeniesionych pól, jednocześnie umożliwiając dalsze korzystanie z pól nieporuszonych. Takie zachowanie zapewnia bezpieczeństwo pamięci, zapobiegając wielokrotnemu posiadaniu tych samych danych.

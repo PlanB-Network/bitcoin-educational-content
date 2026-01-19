@@ -1,0 +1,8 @@
+question: Qual è il compromesso più significativo per la privacy introdotto quando si passa da un'implementazione LDK autogestita all'architettura basata sul cloud di Breez SDK?
+answer: Greenlight ottiene una potenziale visibilità sulle destinazioni dei pagamenti e sulle attività di generazione delle fatture grazie al routing basato su cloud
+wrong_answers:
+  - "Le chiavi private sono memorizzate sui server di Blockstream invece che localmente sul dispositivo dell'utente"
+  - Le informazioni sullo stato del canale diventano pubblicamente visibili sul grafo Lightning Network attraverso i nodi Greenlight
+  - I servizi LSP possono ora monitorare tutte le transazioni on-chain e collegarle ai modelli di pagamento Lightning
+explanation: |
+  La risposta corretta identifica la degradazione chiave della privacy: l'instradamento basato sul cloud consente a Greenlight di osservare potenzialmente le destinazioni dei pagamenti, mentre la generazione di fatture nel cloud espande l'esposizione delle informazioni al di là di quanto rivelato dalle architetture tradizionali dei soli LSP. Le risposte sbagliate sono errate perché: le chiavi private rimangono sotto il controllo dell'utente nonostante l'architettura cloud; gli stati dei canali non sono resi pubblicamente visibili attraverso l'instradamento; e gli LSP non ottengono ulteriori capacità di monitoraggio delle transazioni on-chain grazie a questo cambiamento architettonico.

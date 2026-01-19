@@ -38,7 +38,7 @@ Langkah pertama, tentu saja, mengunduh aplikasi Aqua. Buka toko aplikasi Anda:
 - [Untuk Apple](https://apps.apple.com/us/app/aqua-wallet/id6468594241).
 ![AQUA](assets/fr/04.webp)
 
-Untuk pengguna Android, Anda juga memiliki opsi untuk menginstal aplikasi melalui file `.apk` [tersedia di GitHub mereka] (https://github.com/AquaWallet/aqua-wallet/releases).
+Untuk pengguna Android, Anda juga memiliki opsi untuk menginstal aplikasi melalui file `.apk` [tersedia di GitHub mereka](https://github.com/AquaWallet/aqua-wallet/releases).
 
 ![AQUA](assets/fr/05.webp)
 

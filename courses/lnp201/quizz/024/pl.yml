@@ -6,4 +6,4 @@ wrong_answers:
   - Wymuszają one otwarcie nowego kanału, jeśli transakcja jest nieprawidłowa
 explanation: |
   Blokada czasowa i klucz unieważniający zniechęcają uczestników do oszukiwania, zapewniając, że każda próba oszustwa skutkuje natychmiastową utratą środków przez winowajcę.
-reviewed: false
+reviewed: true

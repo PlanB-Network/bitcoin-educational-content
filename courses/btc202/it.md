@@ -98,7 +98,7 @@ Ora che avete configurato un nodo Bitcoin, è il momento di usarlo! In questa se
 
 
 
-Esamineremo anche il ruolo degli indicizzatori e i vari metodi di connessione al proprio nodo (LAN, Tor, Tailscale, ecc.). Infine, nell'ultimo capitolo, passeremo in rassegna le applicazioni più utili disponibili su Umbrel per il bitcoiner di tutti i giorni.
+Esaminermo anche il ruolo degli indicizzatori e i vari metodi di connessione al proprio nodo (LAN, Tor, Tailscale, ecc.). Infine, nell'ultimo capitolo, passeremo in rassegna le applicazioni più utili disponibili su Umbrel per il bitcoiner di tutti i giorni.
 
 
 
@@ -106,7 +106,7 @@ Esamineremo anche il ruolo degli indicizzatori e i vari metodi di connessione al
 
 
 
-In questa parte finale di BTC 202, l'obiettivo è quello di approfondire le vostre conoscenze. In primo luogo, esamineremo le migliori pratiche da adottare con il vostro nuovo nodo Bitcoin e come mantenerlo a lungo termine.
+In questa parte finale di BTC 202, l'obiettivo è quello di approfondire le vostre conoscenze. In primo luogo, esaminermo le migliori pratiche da adottare con il vostro nuovo nodo Bitcoin e come mantenerlo a lungo termine.
 
 
 
@@ -938,7 +938,7 @@ Lanciato nel 2020 come semplice nodo Bitcoin accompagnato da alcune applicazioni
 
 
 
-Non entrerò nel dettaglio di come funziona e delle sue caratteristiche specifiche, perché le esamineremo in modo più approfondito nel primo capitolo della prossima parte. Infatti, per gli scopi di questo corso BTC 202, ho scelto di utilizzare UmbrelOS, che ritengo sia la migliore soluzione node-in-a-box attuale per gli utenti principianti e intermedi.
+Non entrerò nel dettaglio di come funziona e delle sue caratteristiche specifiche, perché le esaminermo in modo più approfondito nel primo capitolo della prossima parte. Infatti, per gli scopi di questo corso BTC 202, ho scelto di utilizzare UmbrelOS, che ritengo sia la migliore soluzione node-in-a-box attuale per gli utenti principianti e intermedi.
 
 
 
@@ -1521,7 +1521,7 @@ Uno dei vantaggi principali di Umbrel rispetto ai suoi concorrenti è la sua vas
 
 
 
-Il codice di Umbrel è pubblicamente disponibile (è possibile visualizzarlo, Fork e modificarlo), ma non è sotto una vera licenza open-source. Infatti, umbrelOS è distribuito sotto la licenza [*PolyForm Noncommercial 1.0*] (https://polyformproject.org/licenses/noncommercial/1.0.0/), sebbene alcuni strumenti di sviluppo associati siano disponibili sotto la licenza MIT.
+Il codice di Umbrel è pubblicamente disponibile (è possibile visualizzarlo, Fork e modificarlo), ma non è sotto una vera licenza open-source. Infatti, umbrelOS è distribuito sotto la licenza [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0/), sebbene alcuni strumenti di sviluppo associati siano disponibili sotto la licenza MIT.
 
 
 
@@ -2472,7 +2472,7 @@ Per saperne di più sull'uso dell'explorer Mempool.Space, vi consiglio di consul
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 ### Nodo fulmineo
 
@@ -2514,9 +2514,11 @@ Infine, vi consiglio l'applicazione *Lightning Network+*, che vi permette di tro
 
 
 
-Grazie a Umbrel, la gestione di un nodo Lightning personale è stata notevolmente semplificata, ma è ancora relativamente complessa. Per questo motivo, approfondiremo l'argomento in un prossimo corso interamente dedicato a questo utilizzo.
+Grazie a Umbrel, la gestione di un nodo Lightning personale è semplificata, ma rimane comunque relativamente complessa. Per questo motivo vi consiglio di seguire il corso LNP 202, che rappresenta il naturale proseguimento del corso BTC 202 e nel quale vi accompagno passo dopo passo nell’installazione e nella gestione del vostro nodo Lightning su Umbrel.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Scala della coda
 
@@ -3394,7 +3396,7 @@ Ecco i parametri di base che potete modificare nel vostro `Bitcoin.conf` per qua
 
 
 
-- `maxmempool=<n>`: Limita la dimensione massima del Mempool locale a `<n>` megabyte (default: `300`). Quando il limite viene raggiunto, il nodo aumenta dinamicamente la soglia della tariffa effettiva e dà priorità alle transazioni meno redditizie (in base alla tariffa, non al valore assoluto) per rimanere al di sotto del limite. È possibile lasciare questa impostazione come predefinita. Aumentarla può essere utile se si lavora da soli o se si vuole avere una visione più precisa della congestione del Mempool e migliorare la stima delle tariffe. Al contrario, riducendola si risparmia RAM e, in misura minore, altre risorse di sistema.
+- `maxmempool=<n>`: Limita la dimensione massima del Mempool locale a `<n>` megabyte (default: `300`). Quando il limite viene raggiunto, il nodo aumenta dinamicamente la soglia della tariffa effettiva e dà priorità alle transazioni meno redditizie (in base alla tariffa, non al valore assoluto) per rimanere al di sotto del limite. È possibile lasciare questa impostazione come predefinita. Aumentarla può essere utile se si lavora da soli o se si vuole avere una visione più precisa della congestione del Mempool e migliorare la stima delle tariffe. Al contrario, riducendola si risparmia RAM e, in misura miner, altre risorse di sistema.
 
 
 
@@ -3448,7 +3450,7 @@ Ecco le impostazioni avanzate per il Mempool e la politica dei relè. Se si è a
 
 
 
-- `datacarrier=1` : Consente il relay e (se il mining avviene tramite il nodo) l’inclusione di transazioni contenenti dati non finanziari tramite un output `OP_RETURN` (predefinito: `1`). Disattivare questo parametro riduce leggermente la superficie di spam dei dati non finanziari a scapito di una minore compatibilità con alcuni usi. In ogni caso, dovrai accettare gli `OP_RETURN` minati.
+- `datacarrier=1` : Consente il relay e (se il mining avviene tramite il nodo) l’inclusione di transazioni contenenti dati non finanziari tramite un output `OP_RETURN` (predefinito: `1`). Disattivare questo parametro riduce leggermente la superficie di spam dei dati non finanziari a scapito di una miner compatibilità con alcuni usi. In ogni caso, dovrai accettare gli `OP_RETURN` minati.
 
 
 
@@ -3894,11 +3896,13 @@ Ora potete passare alla parte finale del corso, dove potrete valutare il BTC 202
 
 
 
-Ora avete diverse opzioni a disposizione. Il passo logico successivo è quello di creare un proprio nodo Lightning, che vi permetta di essere completamente indipendenti per le vostre transazioni off-chain. Questo sarà l'argomento di un prossimo corso, che sarà pubblicato nell'autunno del 2025 sul Plan ₿ Academy.
+Ora avete davanti a voi diverse possibilità. Il passo successivo più logico consiste nel configurare il vostro nodo Lightning, così da essere completamente indipendenti per le vostre transazioni off-chain. È proprio questo l’argomento di un altro corso su Plan ₿ Academy:
 
 
 
-Nel frattempo, vi invito a scoprire la formazione BTC 204, che vi consentirà di comprendere e padroneggiare i principi di protezione della privacy nell'utilizzo di Bitcoin:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Vi invito inoltre a scoprire la formazione BTC 204, che vi consentirà di comprendere e padroneggiare i principi di tutela della privacy nel vostro utilizzo di Bitcoin:
 
 
 

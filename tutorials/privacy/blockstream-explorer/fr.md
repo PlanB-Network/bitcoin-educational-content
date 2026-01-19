@@ -113,4 +113,4 @@ Ce réseau se caractérise par une longueur de chaîne différente, auquel vous 
 
 Vous êtes désormais prêts à exploiter tout le potentiel de Blockstream Explorer pour interroger les blockchains sur les couches on-chain et Liquid. Nous espérons que ce tutoriel vous a été instructif et nous vous recommandons notre tutoriel sur un autre explorateur Bitcoin :
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

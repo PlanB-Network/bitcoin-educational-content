@@ -63,7 +63,7 @@ Bu girişi okuduktan sonra bu çözüme ikna oldunuz mu? Geriye kalan tek şey o
 
 
 
-WireGuard'ın kurulumuna ilişkin laboratuvarımı sunmadan önce, WireGuard'ı **iki uzak altyapıyı birbirine bağlamak için**, aynı zamanda **uzak bir istemciyi kurumsal ağ veya ev ağınız gibi bir altyapıya bağlamak için** kullanabileceğinizi bilmelisiniz. Bu, yakın zamanda "[Synology üzerinde OpenVPN] (https://www.it-connect.fr/tuto-vpn-configurer-openvpn-server-sur-un-nas-synology/)" eğitiminde gördüğümüz gibi OpenVPN ile aynı ruha sahiptir.
+WireGuard'ın kurulumuna ilişkin laboratuvarımı sunmadan önce, WireGuard'ı **iki uzak altyapıyı birbirine bağlamak için**, aynı zamanda **uzak bir istemciyi kurumsal ağ veya ev ağınız gibi bir altyapıya bağlamak için** kullanabileceğinizi bilmelisiniz. Bu, yakın zamanda "[Synology üzerinde OpenVPN](https://www.it-connect.fr/tuto-vpn-configurer-openvpn-server-sur-un-nas-synology/)" eğitiminde gördüğümüz gibi OpenVPN ile aynı ruha sahiptir.
 
 
 
@@ -282,7 +282,7 @@ sudo systemctl enable wg-quick@wg0.service
 
 
 
-Debian 11 makinemizin **paketleri farklı ağlar arasında (bir yönlendirici gibi)**, yani VPN ağı ile yerel ağ arasında yönlendirebilmesi için [IP Yönlendirme] (https://www.it-connect.fr/activer-lip-forwarding-sous-linux-ipv4ipv6/) özelliğini etkinleştirmemiz gerekir. Varsayılan olarak bu özellik devre dışıdır.
+Debian 11 makinemizin **paketleri farklı ağlar arasında (bir yönlendirici gibi)**, yani VPN ağı ile yerel ağ arasında yönlendirebilmesi için [IP Yönlendirme](https://www.it-connect.fr/activer-lip-forwarding-sous-linux-ipv4ipv6/) özelliğini etkinleştirmemiz gerekir. Varsayılan olarak bu özellik devre dışıdır.
 
 
 

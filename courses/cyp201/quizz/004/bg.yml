@@ -1,0 +1,9 @@
+question: Коя комбинация от хеш функции се използва за generate по-кратки пръстови отпечатъци в Bitcoin?
+answer: HASH160
+wrong_answers:
+  - SHA512-SHA256
+  - HASH256
+  - SHA160
+explanation: |
+  HASH160 комбинира SHA256 и RIPEMD160 за 160-битови пръстови отпечатъци на generate, особено за адреси Bitcoin.
+reviewed: false

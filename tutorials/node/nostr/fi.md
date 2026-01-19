@@ -1,11 +1,10 @@
 ---
-name: NOSTR
-
-description: Tutustu ja aloita NOSTR:n käyttö
+name: Nostr
+description: Tutustu ja aloita Nostr:n käyttö
 ---
 
 
-![Uusi haastaja on saapunut](assets/1.webp)
+![Uusi haastaja on saapunut](assets/cover.webp)
 
 *Tämän oppaan lopussa ymmärrät, mitä Nostr on, olet luonut tilin ja pystyt käyttämään sitä.*
 

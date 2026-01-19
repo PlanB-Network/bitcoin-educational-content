@@ -1,9 +1,9 @@
-question: Ni akamaro akahe kanini uburyo bwo gukorana n’ibindi bice buha Bitcoin?
+question: Ni akamaro akahe kanini uburyo bwo gukorana n’ibindi bice bwa Bitcoin?
 answer: Kubungabunga umutekano w'amasezerano y'ishimikiro
 wrong_answers:
-  - Kwongerekana kw'ihuriro ry'urubuga nyamukuru
+  - Kwongereza ukugendura urubuga nyamukuru
   - Ubuhinga bushasha bwihuta ku masezerano y'ishimikiro
   - Kugira ibiranga bimwe ku bice nk'ivyo biri ku masezerano y'ishimikiro
 explanation: |
-  Uburyo bwo gukorana n’ibindi bushobora kwongerako ibikorwa ataco bihungabanya ku mutekano no ku kworoha kw’itegeko ry’ishimikiro.
+  Uburyo bwo gukorana n’ibindi bushobora kwongerako ibikorwa ataco bihungabanya ku mutekano n'uguca bugufu kw’itegeko ry’ishimikiro.
 reviewed: false

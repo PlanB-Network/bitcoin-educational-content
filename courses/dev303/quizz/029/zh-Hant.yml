@@ -1,0 +1,8 @@
+question: 用於處理可恢復錯誤的 Rust 結果枚舉的兩個變體是什麼？
+answer: Ok(T) 表示操作成功，Err(E) 表示操作失敗。
+wrong_answers:
+  - Success(T) 代表成功的作業，Failure(E) 代表失敗的作業。
+  - Some(T) 表示操作成功，None 表示操作失敗
+  - Pass(T) 表示操作成功，Panic(E) 表示操作失敗
+explanation: |
+  Rust 中的 Result 枚舉有兩個變體：Ok(T) 包含 T 類型的成功值，Err(E) 則包含 E 類型的錯誤。這個設計強迫開發者明確地處理成功與失敗的情況。其他選項是不正確的 - Success/Failure 不是 Result 變數，Some/None 屬於處理 null 值的 Option 枚舉，Pass/Panic 不是錯誤處理的標準 Rust 枚舉變數。

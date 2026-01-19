@@ -6,3 +6,4 @@ wrong_answers:
   - Need tuleb asendada täiendava mining abil, et säilitada kavandatud tarnetase
 explanation: |
   Satoshi Nakamoto selgitas, et kaotatud mündid toimivad annetusena kõigile teistele bitcoini omanikele, muutes nende mündid väärtuslikumaks, kuna nende tegelik pakkumine on vähenenud. See on positiivne deflatsiooniefekt, mitte destabiliseeriv jõud. Kaotatud mündid ei mõjuta mining preemiaid, kuna need tulevad äsja vermitud müntidest ja tehingutasudest, mitte olemasolevast pakkumisest. Bitcoin protokoll ei asenda kaotatud münte - need jäävad püsivalt ringlusest välja, mis tegelikult toob allesjäänud omanikele kasu, kuna nende arvete vähesus suureneb.
+reviewed: false

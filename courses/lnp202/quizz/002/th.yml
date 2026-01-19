@@ -1,0 +1,9 @@
+question: จากมุมมองของ Bitcoin บนเชน, Lightning channel คืออะไร?
+answer: Multisignature output 2/2
+wrong_answers:
+  - สคริปต์ P2MS 2/2
+  - UTXO เดี่ยว
+  - สัญญาแบบสหพันธ์
+explanation: |
+  Onchain, ช่อง Lightning แสดงด้วยผลลัพธ์แบบ multisignature ที่ต้องการลายเซ็นของผู้เข้าร่วมทั้งสองฝ่าย
+reviewed: false

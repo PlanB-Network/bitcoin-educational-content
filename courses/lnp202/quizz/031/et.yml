@@ -1,0 +1,9 @@
+question: Mida tähistab Lightning-sõlme Node ID?
+answer: Sõlme avalik võti ja aadress
+wrong_answers:
+  - Sõlme seed ja aadress
+  - Sõlme alias ja avalik võti
+  - Hash sõlme alias ja seed
+explanation: |
+  Sõlme ID ühendab sõlme avaliku võtme, võrgu aadressi ja pordi.
+reviewed: false

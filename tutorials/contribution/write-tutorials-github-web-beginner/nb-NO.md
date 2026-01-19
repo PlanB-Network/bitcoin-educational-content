@@ -12,7 +12,7 @@ Du har allerede:
 
 
 - Velg et tema for opplæringen din;
-- Kontaktet Plan ₿ Academy-teamet via [Telegramgruppe] (https://t.me/PlanBNetwork_ContentBuilder) eller paolo@planb.network ;
+- Kontaktet Plan ₿ Academy-teamet via [Telegramgruppe](https://t.me/PlanBNetwork_ContentBuilder) eller paolo@planb.network ;
 - Velg dine bidragsverktøy.
 
 I denne veiledningen skal vi se på hvordan du legger til opplæringen din i Plan ₿ Academy ved hjelp av nettversjonen av GitHub. Hvis du allerede behersker Git, er det ikke sikkert at denne svært detaljerte opplæringen er nødvendig for deg. I stedet anbefaler jeg at du tar en titt på en av disse to andre veiledningene, der jeg beskriver retningslinjene som skal følges og trinnene for å gjøre endringer fra en lokal:
@@ -31,9 +31,9 @@ https://planb.academy/tutorials/contribution/content/write-tutorials-github-desk
 Forutsetninger før du starter opplæringen:
 
 
-- Har en [GitHub-konto] (https://github.com/signup);
-- Ha en gaffel av [Plan ₿ Academy source repository] (https://github.com/PlanB-Network/bitcoin-educational-content);
-- Ha [en lærerprofil på Plan ₿ Academy] (https://planb.academy/professors) (bare hvis du tilbyr en fullstendig veiledning).
+- Har en [GitHub-konto](https://github.com/signup);
+- Ha en gaffel av [Plan ₿ Academy source repository](https://github.com/PlanB-Network/bitcoin-educational-content);
+- Ha [en lærerprofil på Plan ₿ Academy](https://planb.academy/professors) (bare hvis du tilbyr en fullstendig veiledning).
 
 Hvis du trenger hjelp med å skaffe deg disse forutsetningene, kan du finne hjelp i de andre veiledningene mine:
 
@@ -321,7 +321,7 @@ Språkundermappen i mappen `/assets` (i mitt eksempel: `/assets/en`) brukes til 
 
 Når du skal navngi bildene dine, bruker du ganske enkelt numre som tilsvarer rekkefølgen de vises i i opplæringen, formatert som to sifre (eller tre sifre hvis opplæringen inneholder mer enn 99 bilder). Gi for eksempel det første bildet navnet `01.webp`, det andre `02.webp`, og så videre.
 
-Bildene dine må kun være i `.webp`-format. Om nødvendig kan du bruke [my image conversion software] (https://github.com/LoicPandul/ImagesConverter).
+Bildene dine må kun være i `.webp`-format. Om nødvendig kan du bruke [my image conversion software](https://github.com/LoicPandul/ImagesConverter).
 
 ![GITHUB](assets/fr/32.webp)
 
@@ -354,7 +354,7 @@ Hvis du ønsker å lage dine egne skjemaer, må du følge Plan ₿ Academy grafi
 
 **Det er viktig at alle bilder som integreres i opplæringsvideoene dine er fri for opphavsrett eller respekterer kildefilens lisens**. Derfor er alle diagrammer som publiseres på Plan ₿ Academy gjort tilgjengelig under en CC-BY-SA-lisens, på samme måte som teksten.
 
-**-> Tips:** Når du deler filer offentlig, for eksempel bilder, er det viktig å fjerne overflødige metadata. Disse kan inneholde sensitiv informasjon, for eksempel stedsdata, dato for opprettelse og forfatterdetaljer. For å beskytte personvernet ditt er det lurt å fjerne disse metadataene. For å forenkle denne operasjonen kan du bruke spesialiserte verktøy som [Exif Cleaner] (https://exifcleaner.com/), som gjør det mulig å rydde opp i et dokuments metadata ved hjelp av enkel dra-og-slipp-funksjon.
+**-> Tips:** Når du deler filer offentlig, for eksempel bilder, er det viktig å fjerne overflødige metadata. Disse kan inneholde sensitiv informasjon, for eksempel stedsdata, dato for opprettelse og forfatterdetaljer. For å beskytte personvernet ditt er det lurt å fjerne disse metadataene. For å forenkle denne operasjonen kan du bruke spesialiserte verktøy som [Exif Cleaner](https://exifcleaner.com/), som gjør det mulig å rydde opp i et dokuments metadata ved hjelp av enkel dra-og-slipp-funksjon.
 
 ## 9 - Foreslå veiledningen
 
@@ -390,4 +390,4 @@ Hvis du ønsker å gjøre endringer i bidraget ditt etter at du allerede har sen
 - Hvis PR-en din fortsatt er åpen og ennå ikke har blitt slått sammen, kan du gjøre endringene på samme arbeidsgren. Endringene vil bli lagt til i den fortsatt åpne PR-en din;
 - Hvis PR-en din allerede har blitt slått sammen med hovedgrenen, må du gjøre prosessen på nytt fra begynnelsen ved å opprette en ny gren og deretter sende inn en ny PR. Sørg for at gaffelen din er synkronisert med Plan ₿ Academy-kilderegisteret på `dev`-grenen før du fortsetter.
 
-Hvis du har tekniske problemer med å sende inn opplæringen din, ikke nøl med å be om hjelp på [vår dedikerte Telegram-gruppe for bidrag] (https://t.me/PlanBNetwork_ContentBuilder). Tusen takk skal du ha!
+Hvis du har tekniske problemer med å sende inn opplæringen din, ikke nøl med å be om hjelp på [vår dedikerte Telegram-gruppe for bidrag](https://t.me/PlanBNetwork_ContentBuilder). Tusen takk skal du ha!

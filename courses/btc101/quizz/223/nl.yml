@@ -1,10 +1,9 @@
-question: Wat maakt de Lightning Network mogelijk?
-answer: Om transacties uit te voeren tussen individuen die geen directe kanaalverbinding hebben.
+question: Hoe heten de bitcoins die op Liquid worden gebruikt?
+answer: L-BTC
 wrong_answers:
-  - Alleen directe kanaalverbindingen maken met gecentraliseerde centrales.
-  - Kanaalverbindingen maken die meerdere bevestigingen vereisen voor elke transactie.
-  - Om directe kanaalverbindingen tot stand te brengen die beperkt zijn tot grote transacties.
+  - W-BTC
+  - S-BTC
+  - T-BTC
 explanation: |
-  De Lightning Network maakt het mogelijk om transacties uit te voeren tussen
-  personen die geen directe kanaalverbinding hebben.
-reviewed: true
+  Op Liquid worden bitcoins weergegeven als L-BTC, 1-op-1 gekoppeld aan BTC.
+reviewed: false

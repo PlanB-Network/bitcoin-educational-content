@@ -1,0 +1,37 @@
+id: 6b3b8619-f430-464a-9127-74077d1372b9
+
+published_at: 2026-01-08
+
+topic: social studies
+subtopic: economy
+
+type: theory
+level: intermediate
+hours: 3
+
+teaching_format: professor_led
+professors_id:
+  - d8700e71-ab8e-441a-b8c0-d86f3ce5f01c
+
+format: inperson
+address_city_country: Paris, France
+start_date: 2026-01-22
+end_date: 2026-01-22
+requires_payment: true
+inperson_price_dollars: 0
+payment_expiration_date: 2026-01-23
+available_seats: 30
+paid_description: |
+  Séminaire philosophique sur l'héritage de Friedrich von Hayek et ses implications sur la question monétaire. Une exploration approfondie de la pensée hayékienne à travers ses fondements épistémiques, ses conséquences politiques et sociales, et son ontologie.
+
+is_gdpr_compliance: true
+custom_tc_disclaimer: I accept that some information such as Username, Display Name and Email may be shared with the course instructor for course delivery purposes.
+
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2026-01-08
+    urgency: 1
+    contributor_names:
+      - Asi0Flammeus
+    reward: 0.22

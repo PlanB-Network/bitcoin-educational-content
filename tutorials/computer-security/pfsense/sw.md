@@ -26,7 +26,7 @@ ___
 
 
 
-pfSense ni mfumo wa uendeshaji wa chanzo huria usiolipishwa ambao hubadilisha kompyuta yoyote, seva iliyojitolea au kifaa cha maunzi kuwa kipanga njia cha utendakazi wa juu, kinachoweza kusanidiwa sana na ngome. Kulingana na FreeBSD na maarufu kwa usanifu wake thabiti na thabiti wa mtandao, pfSense imekuwa ikiweka kiwango cha ngome huria za biashara, serikali za mitaa na watumiaji wa nyumbani wanaodai kwa zaidi ya miaka kumi na tano.
+pfSense ni mfumo wa uendeshaji wa chanzo huria, usiolipishwa, ambao unaweza kubadilisha kompyuta yoyote, server iliyojitolea, au kifaa cha maunzi kuwa kipanga njia cha utendakazi wa juu, kinachoweza kusanidiwa kwa kiwango kikubwa na kutumika kama firewall ya mtandao. Kimejengwa kwa msingi wa FreeBSD na kinajulikana kwa usanifu thabiti na imara wa mtandao, pfSense kimekuwa kiwango cha firewall huria kwa biashara, serikali za mitaa, na watumiaji wa nyumbani wenye mahitaji makali, kwa zaidi ya miaka kumi na tano.
 
 
 
@@ -37,11 +37,11 @@ Kazi zake kuu zimebadilika sana kwa miaka mingi, na zimeimarishwa kwa kila toleo
 
 
 - Utawala kamili na wa kati kupitia mtandao wa kisasa, angavu na salama wa Interface wa Interface.
-- Ngome yenye utendakazi wa hali ya juu yenye usaidizi wa hali ya juu wa NAT (ikiwa ni pamoja na NAT-T) na udhibiti wa sheria punjepunje.
+- Firewall yenye utendakazi wa hali ya juu yenye usaidizi wa hali ya juu wa NAT (ikiwa ni pamoja na NAT-T) na udhibiti wa sheria punjepunje.
 - Usaidizi asilia wa WAN nyingi, kuwezesha ujumlishaji au kutohitajika tena kwa miunganisho ya Mtandao.
-- Seva ya DHCP iliyounganishwa na relay.
+- server ya DHCP iliyounganishwa na relay.
 - Upatikanaji wa juu shukrani kwa itifaki ya CARP kwa kushindwa na uwezekano wa kusanidi makundi ya pfSense.
-- Kusawazisha mzigo kati ya miunganisho kadhaa au seva.
+- Kusawazisha mzigo kati ya miunganisho kadhaa au server.
 - Usaidizi kamili wa VPN: IPsec, OpenVPN na WireGuard (inabadilisha L2TP, sasa imepitwa na wakati).
 - Lango la ndani linaloweza kusanidiwa kwa udhibiti wa ufikiaji wa wageni, haswa katika mazingira ya umma au hoteli.
 
@@ -51,7 +51,7 @@ pfSense pia ina mfumo wa kifurushi unaoweza kupanuliwa ambao hurahisisha kuongez
 
 
 
-pfSense inasambazwa kwa majukwaa ya 64-bit pekee, kulingana na mapendekezo ya sasa ya FreeBSD. Inaweza kusakinishwa kwenye maunzi ya kawaida (Kompyuta, seva za rack) au kwenye majukwaa yaliyopachikwa yenye nguvu ya chini kama vile vifaa vya Netgate au visanduku fulani vya hali ya chini x86, ambavyo vina nguvu zaidi kuliko visanduku vya zamani vya Alix.
+pfSense inasambazwa kwa majukwaa ya 64-bit pekee, kulingana na mapendekezo ya sasa ya FreeBSD. Inaweza kusakinishwa kwenye maunzi ya kawaida (Kompyuta, server za rack) au kwenye majukwaa yaliyopachikwa yenye nguvu ya chini kama vile vifaa vya Netgate au visanduku fulani vya hali ya chini x86, ambavyo vina nguvu zaidi kuliko visanduku vya zamani vya Alix.
 
 
 
@@ -112,7 +112,7 @@ Kwa usambazaji wa kawaida, tunapendekeza:
 
 
 - 1 GB RAM** kiwango cha chini (**2 GB au zaidi inapendekezwa ili kuwezesha vifurushi vya ziada au usaidizi wa ZFS).
-- Nafasi ya diski ya **GB 8** (GB 20 au zaidi inapendekezwa kwa usanidi wa hali ya juu zaidi, haswa ikiwa unasakinisha akiba ya seva mbadala, IDS/IPS au kumbukumbu za kina).
+- Nafasi ya disk ya **GB 8** (GB 20 au zaidi inapendekezwa kwa usanidi wa hali ya juu zaidi, haswa ikiwa unasakinisha akiba ya server mbadala, IDS/IPS au kumbukumbu za kina).
 - Angalau miingiliano miwili ya mtandao pepe (moja ya WAN, moja ya LAN). Katika VirtualBox, waongeze kwenye mipangilio ya VM kabla ya kuanza.
 
 
@@ -145,7 +145,7 @@ Wakati menyu kuu inaonekana, bonyeza haraka kitufe cha "**I**" ili kuanzisha usa
 
 
 
-Skrini ya kwanza hukuruhusu kuweka vigezo vichache vya kikanda, kama vile fonti ya kuonyesha na usimbaji wa herufi. Mipangilio hii ni muhimu katika hali maalum (kibodi zisizo za kawaida, skrini za mfululizo, lugha za mashariki). Kwa usakinishaji mwingi, weka thamani chaguo-msingi na uchague "**Kubali Mipangilio hii**".
+Skrini ya kwanza hukuruhusu kuweka vigezo vichache vya kikanda, kama vile fonti za kuonyesha na usimbaji wa herufi. Mipangilio hii ni muhimu katika hali maalum, kama vile kibodi zisizo za kawaida, skrini za mfululizo, au lugha za Mashariki. Kwa usakinishaji wa kawaida, weka thamani chaguo-msingi na endelea na mchakato wa usakinishaji "**Kubali Mipangilio hii**".
 
 
 
@@ -177,7 +177,7 @@ Kisha kisakinishi kinakili faili zinazohitajika kwenye diski. Kulingana na maunz
 
 
 
-Wakati kisakinishi kinakuhimiza kuchagua aina ya kernel, acha "**Standard Kernel**" iliyochaguliwa. Kerneli hii ya jumla inafaa kabisa kwa uwekaji wa kawaida, iwe kwenye Kompyuta, seva au VM.
+Wakati kisakinishi kinakuhimiza kuchagua aina ya kernel, acha "**Standard Kernel**" iliyochaguliwa. Kerneli hii ya jumla inafaa kabisa kwa uwekaji wa kawaida, iwe kwenye Kompyuta, server au VM.
 
 
 
@@ -197,7 +197,7 @@ Mara usakinishaji utakapokamilika, chagua "**Washa upya**" ili kuwasha upya mash
 
 
 
-Wakati wa kuanza kwa mara ya kwanza, pfSense lazima isanidiwe ili kutambua na kugawa kwa usahihi violesura vyake vya mtandao (WAN, LAN, DMZ, VLAN, n.k.). Utambulisho makini wa kadi zako za mtandao ni muhimu ili kuepuka hitilafu zozote za usanidi ambazo zinaweza kukunyima ufikiaji wa wavuti ya Interface au kufanya ngome yako isifanye kazi.
+Wakati wa kuanza kwa mara ya kwanza, pfSense lazima isanidiwe ili kutambua na kugawa kwa usahihi violesura vyake vya mtandao (WAN, LAN, DMZ, VLAN, n.k.). Utambulisho makini wa kadi zako za mtandao ni muhimu ili kuepuka hitilafu zozote za usanidi ambazo zinaweza kukunyima ufikiaji wa wavuti ya Interface au kufanya firewall yako isifanye kazi.
 
 
 
@@ -228,7 +228,7 @@ pfSense kisha inakuhimiza kufafanua ni Interface gani itatumika kwa WAN (ufikiaj
 
 
 - Weka jina la Interface wewe mwenyewe (linapendekezwa kwa mazingira pepe).
-- Tumia utambuzi wa kiotomatiki kwa kubonyeza "**A**". Chaguo hili ni muhimu kwa seva pangishi halisi, mradi nyaya za mtandao wako zimeunganishwa na viungo vinatumika.
+- Tumia utambuzi wa kiotomatiki kwa kubonyeza "**A**". Chaguo hili ni muhimu kwa server pangishi halisi, mradi nyaya za mtandao wako zimeunganishwa na viungo vinatumika.
 
 
 
@@ -248,7 +248,7 @@ Rudia operesheni sawa ili kufafanua Interface LAN. Hapa, tunatumia "**em1**".
 
 
 
-pfSense inathibitisha kuwa Interface LAN huwasha ngome na NAT ili kulinda mtandao wako wa ndani na kudhibiti tafsiri ya Address.
+pfSense inathibitisha kuwa Interface LAN huwasha firewall na NAT ili kulinda mtandao wako wa ndani na kudhibiti tafsiri ya Address.
 
 
 
@@ -336,7 +336,7 @@ Unaweza:
 
 
 - Bainisha jina la mwenyeji na kikoa cha ndani (mfano: `pfsense` na `lan.local`).
-- Bainisha seva za DNS na uchague ikiwa pfSense inapaswa kutumia DNS ya ISP yako au huduma ya nje (Cloudflare, OpenDNS, Quad9...).
+- Bainisha server za DNS na uchague ikiwa pfSense inapaswa kutumia DNS ya ISP yako au huduma ya nje (Cloudflare, OpenDNS, Quad9...).
 
 
 
@@ -383,13 +383,13 @@ Linda pfSense yako kwa kuweka mara moja nenosiri dhabiti kwa mtumiaji `admin`.
 
 
 
-Kabla ya kupeleka ngome yako, hakikisha una toleo jipya zaidi la:
+Kabla ya kupeleka firewall yako, hakikisha una toleo jipya zaidi la:
 
 
 
 
 
-- Nenda kwa **Mfumo > Sasisha **.
+- Nenda kwa **Mfumo > Sasisha**.
 - Chagua kituo cha sasisho (kawaida **Imara**).
 - Angalia masasisho na uyatumie.
 
@@ -415,7 +415,7 @@ Kabla ya kufanya mabadiliko yoyote makubwa, tekeleza sera ya kuhifadhi nakala:
 
 
 
-Kwa mazingira muhimu ya dhamira, zingatia nakala rudufu ya usanidi otomatiki kwenye seva ya nje au kupitia hati iliyoratibiwa.
+Kwa mazingira muhimu ya dhamira, zingatia nakala rudufu ya usanidi otomatiki kwenye server ya nje au kupitia hati iliyoratibiwa.
 
 
 
@@ -429,14 +429,14 @@ Kumaliza utumaji wako kwa amani ya akili:
 
 
 
-- **Rekebisha sheria za ngome**: kwa chaguo-msingi, pfSense inaruhusu trafiki yote inayotoka kwenye LAN na kuzuia trafiki inayoingia kwenye WAN. Rekebisha sheria hizi kama inavyotakiwa.
+- **Rekebisha sheria za firewall**: kwa chaguo-msingi, pfSense inaruhusu trafiki yote inayotoka kwenye LAN na kuzuia trafiki inayoingia kwenye WAN. Rekebisha sheria hizi kama inavyotakiwa.
 - **Sanidi ufikiaji salama wa mbali**: ikihitajika, wezesha ufikiaji wa mtandao wa Interface kutoka kwa WAN kupitia VPN pekee au kwa vizuizi vya IP.
-- **Washa arifa**: sanidi seva ya SMTP ili kupokea arifa (kushindwa, masasisho, hitilafu).
+- **Washa arifa**: sanidi server ya SMTP ili kupokea arifa (kushindwa, masasisho, hitilafu).
 - **Sakinisha viendelezi muhimu**: kwa mfano, IDS/IPS (Snort, Suricata), proksi (Squid), uchujaji wa DNS (pfBlockerNG).
 
 
 
-Ngome yako ya ulinzi ya pfSense sasa iko na inafanya kazi, iko tayari kulinda mtandao wako. Shukrani kwa unyumbufu wake na jumuiya inayofanya kazi, una zana yenye nguvu, inayoweza kubadilika ambayo inaweza kukabiliana na mahitaji yako ya baadaye (WAN nyingi, VLAN, VPN ya tovuti hadi tovuti, lango la wafungwa, n.k.).
+Firewall yako ya ulinzi ya pfSense sasa iko na inafanya kazi, iko tayari kulinda mtandao wako. Shukrani kwa unyumbufu wake na jumuiya inayofanya kazi, una zana yenye nguvu, inayoweza kubadilika ambayo inaweza kukabiliana na mahitaji yako ya baadaye (WAN nyingi, VLAN, VPN ya tovuti hadi tovuti, lango la wafungwa, n.k.).
 
 
 

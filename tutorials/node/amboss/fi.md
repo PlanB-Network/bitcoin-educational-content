@@ -34,7 +34,7 @@ Kuten [Mempool Space](https://Mempool.space), joka tarjoaa hyödyllistä tietoa 
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 Tässä opetusohjelmassa tutustumme tähän alustaan, joka on tärkeä resurssi Lightning Network-käyttäjille, niille, jotka haluavat liittää solmunsa laajentaakseen verkkoa jne.
 
@@ -147,7 +147,7 @@ Tämä Interface kertoo tämän solmun Address-yhteyden: se on muotoa `pubkey@ip
 
 - Saapuva suhdeluku**: Määrä, jonka solmu veloittaa sinua jokaisesta vastaanottamastaan miljoonasta Satoshi:sta valitusta kanavasta riippuen.
 - Suhdeluku (miljoonasosaa)** : joka kuvaa Satoshi:n määrää miljoonaa yksikköä kohti, jonka solmu veloittaa sinulta, kun päätät suorittaa maksun jonkin sen kanavan kautta. Oletetaan, että päätät maksaa `10_000 Sats`:n suuruisen maksun kanavan kautta, jonka ppm-suhde on `500 Sats`, sinun on maksettava solmulle `10_000 * 500 / 1_000_000` satosheja, mikä vastaa `5 Sats`.
-- [HTLC] (https://planb.academy/resources/glossary/htlc) enimmäismäärä** : Enimmäismäärä, jonka tämä solmu sallii sinun kulkea jonkin kanavan kautta.
+- [HTLC](https://planb.academy/resources/glossary/htlc) enimmäismäärä** : Enimmäismäärä, jonka tämä solmu sallii sinun kulkea jonkin kanavan kautta.
 
 
 
@@ -304,4 +304,4 @@ Olet nyt tutustunut alustan ominaisuuksiin ja analyysityökaluihin. Alla on arti
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

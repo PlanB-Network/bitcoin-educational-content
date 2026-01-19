@@ -1,0 +1,9 @@
+question: Prema filozofiji Satoshi Nakamota, koji fundamentalni problem sa konvencionalnim valutama pokušava da reši Bitcoin?
+answer: Prekomerno poverenje potrebno u centralizovanim institucijama koje istorijski narušavaju to poverenje kroz devalvaciju valute
+wrong_answers:
+  - Tehnička neefikasnost tradicionalnih sistema za obradu plaćanja koji stvaraju kašnjenja u međunarodnim transakcijama
+  - Ekološki uticaj proizvodnje fizičke valute i karbonski otisak tradicionalne bankarske infrastrukture
+  - Matematička složenost trenutne monetarne politike koja otežava građanima razumevanje ekonomskih odluka
+explanation: |
+  Satoshi Nakamoto je eksplicitno naveo da je 'osnovni problem sa konvencionalnom valutom sav taj poverenje koje je potrebno da bi funkcionisala' i da je 'istorija fiat valuta puna kršenja tog poverenja'.
+  Ovaj citat otkriva osnovnu svrhu Bitcoin: eliminisanje potrebe za poverenjem u centralne banke da ne devalviraju valutu. Referenca Genesis Bloka na spasavanje banaka pojačava ovu kritiku institucionalnih neuspeha. Pogrešni odgovori se fokusiraju na tehnička, ekološka ili pitanja složenosti koja, iako potencijalno validna zabrinutost, nisu bila fundamentalna filozofska motivacija iza stvaranja Bitcoin kako je to artikulisao njegov tvorac.

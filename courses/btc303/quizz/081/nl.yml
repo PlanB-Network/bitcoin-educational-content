@@ -6,3 +6,4 @@ wrong_answers:
   - Prestatiebugs creëren geheugenlekken die uiteindelijk nodes laten crashen, wat leidt tot tijdelijke netwerkinstabiliteit en verminderde hashsnelheid
 explanation: |
   Gregory Maxwell waarschuwde specifiek dat performance bugs, wanneer ze vakkundig worden ingezet, kunnen worden gebruikt om het netwerk strategisch te partitioneren - bijvoorbeeld door 'miner A en exchange B' in één partitie te scheiden terwijl alle anderen in een andere partitie gaan, waardoor de voorwaarden worden gecreëerd voor double-spend aanvallen. Dit laat zien waarom ogenschijnlijk kleine problemen moeten worden behandeld als potentieel ernstig, omdat ze kunnen worden bewapend op geraffineerde manieren die niet direct duidelijk zijn.
+reviewed: false

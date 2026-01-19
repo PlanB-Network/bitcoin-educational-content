@@ -1,0 +1,8 @@
+question: Hangi özellik, yakalanan ortamlarını değiştirmeden birden çok kez çağrılabilen kapanışları temsil eder?
+answer: Fn
+wrong_answers:
+  - FnOnce
+  - FnMut
+  - FnCapture
+explanation: |
+  Fn, yakalanan ortamlarını değiştirmeden birden çok kez çağrılabilen kapanışları temsil eden en kısıtlayıcı kapanış özelliğidir. Bu kapanışlar yalnızca değişmez referansla yakalanır ve eşzamanlı olarak güvenli bir şekilde çağrılabilir. FnOnce yalnızca bir kez çağrılabilen kapanışları temsil ederken, FnMut birden çok kez çağrılabilen ancak yakalanan ortamlarını değiştirebilen kapanışları temsil eder. FnCapture gerçek bir Rust özelliği değildir.

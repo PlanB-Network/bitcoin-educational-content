@@ -1,0 +1,8 @@
+question: Was ist der Hauptgrund dafür, dass die Architektur des Breez SDK regulatorische Hürden vermeidet, die typischerweise für verwahrte Lightning-Dienste gelten?
+answer: Die Nutzer behalten die vollständige Kontrolle über ihre privaten Schlüssel, die ihr Gerät nie verlassen, so dass die Software nicht aufbewahrt werden muss
+wrong_answers:
+  - Die SDK arbeitet mit dezentralen LSPs, die die Verantwortung für die Regulierung auf mehrere Gerichtsbarkeiten verteilen
+  - Die Greenlight-Infrastruktur wird in aufsichtsrechtlichen Ländern gehostet, die Cloud-basierte Lightning-Dienste von der Steuer befreien
+  - Der Mechanismus der Just-in-Time-Kanäle schafft temporäre Zahlungskanäle, die nicht unter die traditionellen Finanzvorschriften fallen
+explanation: |
+  Das Breez SDK vermeidet regulatorische Hürden, da es nicht-verwahrende Prinzipien beibehält - die privaten Schlüssel der Nutzer verlassen nie ihre Geräte und Greenlight kann nicht auf die Gelder der Nutzer zugreifen oder nicht autorisierte Operationen durchführen. Diese nicht-verwahrende Architektur bedeutet, dass die Software keine Kundengelder hält, im Gegensatz zu Verwahrungsdiensten, die mit erheblichen regulatorischen Anforderungen konfrontiert sind, da sie die Vermögenswerte der Nutzer kontrollieren. Die anderen Optionen suggerieren fälschlicherweise, dass die regulatorischen Vorteile aus technischen Merkmalen oder Rechtsprechungsstrategien resultieren, während der Kernvorteil einfach darin besteht, dass nicht verwahrungspflichtige Software weltweit weniger regulatorische Hindernisse aufweist.

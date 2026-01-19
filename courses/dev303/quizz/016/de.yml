@@ -1,0 +1,8 @@
+question: Welche Art von Operation führt Rust standardmäßig durch, wenn eine String-Variable einer anderen zugewiesen wird?
+answer: Ein Verschiebevorgang, der das Eigentum überträgt und die Quellvariable ungültig macht
+wrong_answers:
+  - Eine tiefe Kopie, die alle Heap-Daten dupliziert, um unabhängige Strings zu erstellen
+  - Eine oberflächliche Kopie, die zwei Zeiger auf denselben Heap-Speicher erzeugt
+  - Eine Referenzerstellung, die beiden Variablen einen gemeinsamen Nur-Lese-Zugriff ermöglicht
+explanation: |
+  Rust führt standardmäßig eine Verschiebeoperation durch, wenn komplexe Typen wie String zugewiesen werden. Dadurch wird das Eigentum von der Quell- auf die Zielvariable übertragen, während die Quelle ungültig gemacht wird, wodurch gefährliche Szenarien verhindert werden, in denen mehrere Variablen denselben Heap-Speicher verändern könnten. Eine tiefe Kopie wäre für große Strings ineffizient, eine flache Kopie würde bei mehreren Zeigern auf dieselben Daten zu Problemen mit der Speichersicherheit führen, und die Referenzerstellung erfordert eine explizite Syntax mit dem Ampersand-Operator.

@@ -218,7 +218,7 @@ Impostazioni > Ricerca > Motore di ricerca predefinito:
 - **DuckDuckGo**: nessuna profilazione, nessun filtro a bolle, risultati neutrali
 - **Startpage**: risultati anonimizzati di Google, con sede nei Paesi Bassi (RGPD)
 - **Searx**: Motore di metaricerca decentralizzato, senza log, open source
-- **Brave Searcha**: indicizzatore indipendente, non di Google
+- **Brave Search**: indicizzatore indipendente, non di Google
 - **Evita**: Google, Bing, Yahoo (raccolta massiccia di dati)
 
 **3. Configurare il DNS sicuro (DNS su HTTPS)**:

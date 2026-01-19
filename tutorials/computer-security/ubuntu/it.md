@@ -158,7 +158,7 @@ L'aggiornamento del sistema è una fase importante dopo una nuova installazione.
 **Opzione 2: via terminale**
 
 - Apri il terminale (Ctrl + Alt + T)
-- Digitaril seguente comando per verificare la disponibilità di aggiornamenti:
+- Digitare il seguente comando per verificare la disponibilità di aggiornamenti:
 
 ```bash
 sudo apt update

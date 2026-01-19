@@ -69,7 +69,7 @@ _Scelta del motore di ricerca predefinito e configurazione delle schede_
 
 ![Personnalisation visuelle](assets/fr/06.webp)
 
-_Selezionare il colore dell'area di lavoro e convalidare l'accesso al browser_
+_Seleziona il colore dell'area di lavoro e convalida l'accesso al browser_
 
 ![Page d'accueil Zen Browser](assets/fr/07.webp)
 

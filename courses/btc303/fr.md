@@ -51,7 +51,7 @@ Ce livre a été commandé et financé par [Chaincode Labs](https://learning.cha
 <chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
 
 
-Bienvenue dans ce cours PHI 302 sur la philosophie de développement de Bitcoin.
+Bienvenue dans ce cours BTC 303 sur la philosophie de développement de Bitcoin.
 
 
 Le Bitcoin est plus qu'une simple crypto-monnaie, il incarne une vision philosophique de la décentralisation, de la vie privée, de l'absence de confiance et de la résilience. Ce cours est conçu spécifiquement pour les développeurs qui connaissent déjà les fondements techniques du Bitcoin et qui cherchent maintenant à approfondir leur compréhension des principes qui sous-tendent la conception et la gouvernance du Bitcoin.
@@ -1139,14 +1139,14 @@ Bitcoin Core respecte cette définition en étant distribué sous la [MIT Licens
 
 
 ```
-The MIT License (MIT)
+La Licence MIT (MIT)
 
-Copyright (c) 2009-2022 The Bitcoin Core developers
-Copyright (c) 2009-2022 Bitcoin Developers
+Copyright (c) 2009-2022 Les développeurs de Bitcoin Core
+Copyright (c) 2009-2022 Les développeurs Bitcoin
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Par la présente, l'autorisation est accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « Logiciel »), de traiter le Logiciel sans restriction, y compris, sans limitation, les droits d'utiliser, copier, modifier, fusionner, publier, distribuer, sous-licencier et/ou vendre des copies du Logiciel, et de permettre aux personnes à qui le Logiciel est fourni de le faire, sous réserve des conditions suivantes :
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+L'avis de copyright ci-dessus et cet avis d'autorisation doivent être inclus dans toutes les copies ou portions substantielles du Logiciel.
 ```
 
 

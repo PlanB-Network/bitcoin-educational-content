@@ -51,7 +51,7 @@ Raamatu tellis ja rahastas [Chaincode Labs](https://learning.chaincode.com/), ar
 <chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
 
 
-Tere tulemast sellele kursusele PHI 301 Bitcoin arengufilosoofia kohta.
+Tere tulemast sellele kursusele BTC 303 Bitcoin arengufilosoofia kohta.
 
 
 Bitcoin on midagi enamat kui lihtsalt krüptoraha, see kehastab filosoofilist nägemust detsentraliseerimisest, privaatsusest, usaldamatusest ja vastupidavusest. See kursus on mõeldud spetsiaalselt arendajatele, kes on juba tuttavad Bitcoin tehniliste alustega ja kes soovivad nüüd süvendada oma arusaamist Bitcoin disaini ja juhtimise aluseks olevatest põhimõtetest.
@@ -1168,14 +1168,14 @@ Bitcoin Core järgib seda määratlust, kuna seda levitatakse [MIT License](http
 
 
 ```
-The MIT License (MIT)
+MIT litsents (MIT)
 
-Copyright (c) 2009-2022 The Bitcoin Core developers
-Copyright (c) 2009-2022 Bitcoin Developers
+Copyright (c) 2009-2022 Bitcoin Core'i arendajad
+Copyright (c) 2009-2022 Bitcoini arendajad
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Käesolevaga antakse tasuta luba igale isikule, kes saab selle tarkvara ja sellega seotud dokumentatsioonifailide ("Tarkvara") koopia, kasutada Tarkvara ilma piiranguteta, sealhulgas piiranguteta õigusi kasutada, kopeerida, muuta, ühendada, avaldada, levitada, all-litsentsida ja/või müüa Tarkvara koopiaid ning lubada isikutel, kellele Tarkvara antakse, teha sama, järgmistel tingimustel:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+Ülaltoodud autoriõiguse teatis ja käesolev loateatis peavad sisalduma kõigis Tarkvara koopiates või olulistes osades.
 ```
 
 

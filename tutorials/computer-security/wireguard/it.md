@@ -192,7 +192,7 @@ Utilizzeremo queste informazioni. Modifica il seguente file:
 sudo nano /etc/ufw/before.rules
 ```
 
-Aggiungete queste righe alla fine del file per **abilitare la mascheratura IP sull'interfaccia ens192** (adattare il nome dell'interfaccia) all'interno della stringa POSTROUTING della tabella NAT del firewall locale:
+Aggiungi queste righe alla fine del file per **abilitare la mascheratura IP sull'interfaccia ens192** (adatta il nome dell'interfaccia) all'interno della stringa POSTROUTING della tabella NAT del firewall locale:
 ```
 # NAT - IP masquerade
 *nat*

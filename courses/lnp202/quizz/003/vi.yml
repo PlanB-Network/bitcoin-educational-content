@@ -1,0 +1,9 @@
+question: Trong số các thao tác Lightning này, thao tác nào yêu cầu công bố giao dịch trên chuỗi?
+answer: Kênh mở
+wrong_answers:
+  - Thanh toán nhanh chóng
+  - Định tuyến đa bước
+  - Kết nối máy khách di động
+explanation: |
+  Việc mở một kênh tương ứng với một giao dịch Bitcoin được công bố trên chuỗi khối.
+reviewed: false

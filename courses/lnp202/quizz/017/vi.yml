@@ -1,0 +1,9 @@
+question: Số dư Lightning wallet hiển thị trên giao diện ứng dụng LND thể hiện điều gì?
+answer: Tổng lượng thanh khoản chảy ra
+wrong_answers:
+  - Tổng của các chuỗi
+  - Tổng lượng tiền chảy vào
+  - Tổng dung lượng kênh
+explanation: |
+  Số dư Lightning tương ứng với sats có sẵn để chi tiêu thông qua các kênh, tức là tổng lượng thanh khoản chảy ra từ tất cả các kênh của nút.
+reviewed: false

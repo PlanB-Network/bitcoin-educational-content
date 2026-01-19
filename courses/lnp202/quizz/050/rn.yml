@@ -1,0 +1,9 @@
+question: Ni iyihe ntumbero nyamukuru y’ugutunganya LND + Tailscale + Zeus?
+answer: Gukoresha wallet igendagenda ku nzira yawe y'umuravyo
+wrong_answers:
+  - Gukoresha wallet y'ububiko ata nzira y'umuravyo
+  - Guteranya uturongo twinshi twa LND
+  - Mining sats ukoresheje Umbrel
+explanation: |
+  Intumbero ni ugukoresha porogarama y’umuyagankuba wallet igendagenda ikora inyuma ku nzira yawe bwite.
+reviewed: false

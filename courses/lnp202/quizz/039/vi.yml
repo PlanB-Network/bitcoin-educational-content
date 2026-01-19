@@ -1,0 +1,9 @@
+question: Lượng thanh khoản đầu ra của một nút Lightning là bao nhiêu?
+answer: Khả năng thanh toán
+wrong_answers:
+  - Khả năng kết nối
+  - Khả năng tiếp nhận
+  - Khả năng đóng các kênh
+explanation: |
+  Lượng tiền chi ra thể hiện lượng sats có sẵn ở phía nhà điều hành để thực hiện thanh toán.
+reviewed: false

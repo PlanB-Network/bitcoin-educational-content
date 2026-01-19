@@ -1,0 +1,9 @@
+question: Milline on vahitorni roll, kui ta avastab petmiskatse?
+answer: Avalda trahvitehing
+wrong_answers:
+  - Sulgege kanal koostöös
+  - Rahaliste vahendite külmutamine
+  - Aruanne Bitcoin Core'ile
+explanation: |
+  Valvetorn edastab kasutaja nimel automaatselt trahvitehingu.
+reviewed: false

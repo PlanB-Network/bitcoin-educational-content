@@ -1,0 +1,9 @@
+question: Welke macht heeft een bewaarbedrijf over de betalingen van zijn gebruikers?
+answer: Kracht van censuur
+wrong_answers:
+  - Mining vermogen
+  - Kracht van consensus
+  - Halving vermogen
+explanation: |
+  Een operator die fondsen en kanalen beheert, kan betalingen blokkeren, vertragen of filteren.
+reviewed: false

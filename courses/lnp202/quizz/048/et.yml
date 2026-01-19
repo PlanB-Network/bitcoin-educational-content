@@ -1,0 +1,9 @@
+question: Milline tasuta lahendus sissetuleva likviidsuse jaoks põhineb koostööl?
+answer: LN+
+wrong_answers:
+  - Magma
+  - Boltz
+  - 1ML
+explanation: |
+  Lightning Network Plus tagab sissetuleva likviidsuse ümmarguste kanaliavade kaudu.
+reviewed: false

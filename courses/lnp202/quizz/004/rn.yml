@@ -1,0 +1,9 @@
+question: Ni igiki urudodo rw’umuravyo rutegerezwa gufatanya?
+answer: Urudodo rwa Bitcoin
+wrong_answers:
+  - Umucukuzi w'amabuye y'agaciro
+  - Umugenzuzi w'ibarabara
+  - Serveri y'ubumwe
+explanation: |
+  Igikoresho c’umuravyo kivana n’igikoresho ca Bitcoin kugira ngo umuntu ashobore kuronka amakuru ava ku nzira nyamukuru.
+reviewed: false

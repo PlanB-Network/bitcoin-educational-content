@@ -1,0 +1,9 @@
+question: 为什么商家闪电节点运营商不能依靠自己的支付来实现 generate 入站流动性？
+answer: 大部分为入境流量
+wrong_answers:
+  - 主要是出境流量
+  - 通道太小
+  - 高昂的链上费用
+explanation: |
+  通过兑现而不消费，商家自然不会将流动资金从其渠道中转移出去。
+reviewed: false

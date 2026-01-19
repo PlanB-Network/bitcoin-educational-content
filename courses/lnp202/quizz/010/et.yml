@@ -1,0 +1,9 @@
+question: Milliste kriteeriumide alusel valite Lightning lahenduse?
+answer: Kasutamise sagedus ja valmisolek hallata
+wrong_answers:
+  - Vahetatud summad ja protokolli kiirus
+  - Geolokatsioon ja haridus
+  - Riskitaluvus ja tarkvara disain
+explanation: |
+  Valik sõltub peamiselt sellest, kui sageli Lightningut kasutatakse ja kui palju teile meeldib tehniline haldus.
+reviewed: false

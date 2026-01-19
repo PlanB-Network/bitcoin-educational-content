@@ -1,0 +1,9 @@
+question: LND seed 可以自行還原什麼？
+answer: onchain wallet
+wrong_answers:
+  - 開放通道
+  - 通道狀態
+  - 無
+explanation: |
+  seed 會檢索 Bitcoin onchain wallet，但不會檢索作用中的 Lightning 頻道。
+reviewed: false

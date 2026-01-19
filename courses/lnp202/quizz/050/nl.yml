@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste doel van de LND + Tailscale + Zeus configuratie?
+answer: Een mobiele wallet gebruiken op uw Lightning-knooppunt
+wrong_answers:
+  - Een wallet zonder Lightning-knooppunt gebruiken
+  - Meerdere LND knooppunten multiplexen
+  - Mining sats met Umbrel
+explanation: |
+  Het doel is om een mobiele Lightning wallet applicatie te gebruiken die op de achtergrond draait op je eigen node.
+reviewed: false

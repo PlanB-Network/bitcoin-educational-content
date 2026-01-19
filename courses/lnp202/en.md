@@ -309,7 +309,7 @@ The principle is straightforward: your funds stay in Bitcoin, either on-chain or
 The major advantage of this approach, compared with a conventional Lightning custodial wallet, is that you remain in 100% possession of your funds at all times. The bitcoins are in your onchain or Liquid wallet, with your own mnemonic phrase. Even during the swap, you remain in possession of your funds, because the swap is atomic. It relies on a cryptographic mechanism that ensures there are only two possible outcomes: either the swap succeeds entirely, or it fails and the service cannot appropriate your funds.
 
 
-Most portfolios offering this type of functionality rely on [Boltz](https://boltz.exchange/) for the technical part of the swap.
+Most wallets offering this type of functionality rely on [Boltz](https://boltz.exchange/) for the technical part of the swap.
 
 
 This solution also offers interesting advantages in terms of confidentiality, especially when coupled with Liquid. For a beginner, it's also very easy to set up and save: a classic mnemonic phrase, no channels, no liquidity to balance...
@@ -494,7 +494,7 @@ Your Lightning node is now ready to open its first channels for making payments.
 <chapterId>638fa75d-62af-4bf3-ab4a-b7d10ea75815</chapterId>
 
 
-Before sending your first sats to your node, it's important to understand how its backup works and what the associated risks are. Unlike a simple Bitcoin onchain portfolio, backing up a Lightning node is quite complex: the wrong strategy can lead to the permanent loss of your funds. In this chapter, we'll look at what really needs to be backed up, and how Umbrel handles this process with LND.
+Before sending your first sats to your node, it's important to understand how its backup works and what the associated risks are. Unlike a simple Bitcoin onchain wallet, backing up a Lightning node is quite complex: the wrong strategy can lead to the permanent loss of your funds. In this chapter, we'll look at what really needs to be backed up, and how Umbrel handles this process with LND.
 
 
 In this course, we'll be using the LND (*Lightning Network Daemon*) implementation. Although the principles are similar on the other implementations, the recovery files and procedures I'm going to talk about are specific to LND.
@@ -557,7 +557,7 @@ When recovering via SCB, the process is as follows:
 - It contacts each peer, tells them that you've suffered a data loss and asks them to "force-close" your channel with them, so that you can recover your onchain share.
 
 
-The idea is that your peers, noticing that you're reporting a loss of data, will broadcast their last commitment transaction and close the force channel. Once these transactions have been confirmed, your funds reappear in your onchain portfolio (linked to the seed).
+The idea is that your peers, noticing that you're reporting a loss of data, will broadcast their last commitment transaction and close the force channel. Once these transactions have been confirmed, your funds reappear in your onchain wallet (linked to the seed).
 
 
 This recovery mechanism isn't perfect, however. Firstly, it doesn't actually restore your Lightning node, since all channels will be closed. You'll then have to build a new Lightning node from scratch. Secondly, it does not guarantee 100% recovery, although it does considerably increase the chances of recovering your onchain balances in the event of a problem. Indeed, this recovery protocol depends on the cooperation and availability of your peers: if one of them is offline, has lost its own data or refuses to cooperate, your funds may remain blocked, or even be permanently lost. That's why it's important not to keep channels open on your Lightning node with unreachable peers for long periods of time. If you suffer a data loss at that point and the peer remains unreachable, recovery via SCB will be impossible, and your funds will remain lost until that peer comes back online (perhaps forever).
@@ -916,7 +916,7 @@ Scroll down to the main interface, then click on `+ OPEN CHANNEL`.
 ![Image](assets/fr/034.webp)
 
 
-Enter the `Node ID` of the node you wish to open a channel with, indicate the amount you wish to lock in, and then adjust the opening transaction fee according to the state of the onchain fee market. Of course, make sure you have sufficient funds in your LND onchain portfolio beforehand.
+Enter the `Node ID` of the node you wish to open a channel with, indicate the amount you wish to lock in, and then adjust the opening transaction fee according to the state of the onchain fee market. Of course, make sure you have sufficient funds in your LND onchain wallet beforehand.
 
 
 Once all the parameters have been set, click on the `OPEN CHANNEL` button.
@@ -1102,7 +1102,7 @@ ThunderHub is relatively easy to learn. All menus are accessible from the left-h
 - rebalance": a tool for rebalancing channels via circular payments;
 - transactions: history of Lightning payments sent and received;
 - forwards`: routing statistics and costs generated by your node;
-- `Chain`: Bitcoin onchain portfolio (UTXOs and transactions);
+- `Chain`: Bitcoin onchain wallet (UTXOs and transactions);
 - gW-201 integration for monitoring and backup;
 - `Tools`: advanced tools (backups, reports, macaroons, signatures, etc.);
 - swap: Lightning/onchain swaps via Boltz;

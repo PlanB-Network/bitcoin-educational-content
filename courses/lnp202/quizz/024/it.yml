@@ -1,0 +1,9 @@
+question: Perché il backup di un nodo Lightning è più complesso di un Bitcoin onchain wallet?
+answer: Lo stato dei canali è in evoluzione
+wrong_answers:
+  - La liquidità del canale dipende dalla mempool
+  - Registrare i gossip della rete Lightning
+  - Le chiavi di revoca scadono nel tempo
+explanation: |
+  I canali Lightning cambiano stato a ogni pagamento, rendendo pericoloso un semplice backup fisso o periodico.
+reviewed: false

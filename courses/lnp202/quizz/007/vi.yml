@@ -1,0 +1,9 @@
+question: Thuộc tính cơ bản nào của Bitcoin bị mất đi trong quá trình bảo quản?
+answer: Chủ quyền tiền tệ
+wrong_answers:
+  - Khả năng mở rộng về mặt tiền tệ
+  - Thanh toán nhanh chóng
+  - Khả năng tương tác tiền tệ
+explanation: |
+  Nếu không có quyền kiểm soát chính, người dùng sẽ từ bỏ quyền tự chủ về tài chính, trụ cột trung tâm của Bitcoin.
+reviewed: false

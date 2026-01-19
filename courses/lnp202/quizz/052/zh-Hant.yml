@@ -1,0 +1,9 @@
+question: 關於 Tailscale 的使用，Android 有提到什麼特定的限制？
+answer: 一次一個 VPN
+wrong_answers:
+  - VPN 必須使用藍牙
+  - DNS-over-HTTPS 不相容
+  - 需要手機 root
+explanation: |
+  Android 不允許您同時使用兩個 VPN，因此在使用 Tailscale 之前，您需要停用任何其他使用中的 VPN。
+reviewed: false

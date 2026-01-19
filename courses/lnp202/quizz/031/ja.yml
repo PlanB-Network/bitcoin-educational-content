@@ -1,0 +1,9 @@
+question: LightningノードのノードIDは何を表しますか？
+answer: ノードの公開鍵とアドレス
+wrong_answers:
+  - ノードseedとアドレス
+  - ノードのエイリアスと公開鍵
+  - Hashのノードエイリアスとseed
+explanation: |
+  ノードIDは、ノードの公開鍵とネットワーク・アドレスおよびポートを組み合わせたものである。
+reviewed: false

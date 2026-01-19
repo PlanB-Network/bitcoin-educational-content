@@ -1,0 +1,9 @@
+question: Mida saab LND seed ise taastada?
+answer: Onchain wallet
+wrong_answers:
+  - Avatud kanalid
+  - Kanali riigid
+  - Mitte midagi
+explanation: |
+  seed hangib Bitcoin onchain wallet, kuid mitte aktiivseid Lightning-kanaleid.
+reviewed: false

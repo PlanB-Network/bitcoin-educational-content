@@ -1,0 +1,9 @@
+question: LND、seedは単独で何を復元できますか？
+answer: オンチェーンwallet
+wrong_answers:
+  - オープン・チャンネル
+  - チャンネルの状態
+  - 何もない
+explanation: |
+  seedはBitcoinのオンチェーンwalletを取り出すが、アクティブなライトニング・チャンネルは取り出さない。
+reviewed: false

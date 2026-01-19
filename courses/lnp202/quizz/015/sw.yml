@@ -1,0 +1,9 @@
+question: Ni nini kinachoweza kubinafsishwa katika mipangilio ya hali ya juu ya nodi ya Lightning?
+answer: Jina la umma la nodi hiyo
+wrong_answers:
+  - Sheria za makubaliano ya nodi
+  - Funguo za faragha za nodi
+  - Njia zilizochaguliwa na nodi
+explanation: |
+  Mipangilio ya hali ya juu hukuruhusu kubinafsisha vipengele vya utambuzi wa nodi, bila kuathiri makubaliano au uendeshaji wa mtandao wa Lightning.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welche Befugnisse hat ein Verwahrstellenbetreiber in Bezug auf die Zahlungen seiner Nutzer?
+answer: Macht der Zensur
+wrong_answers:
+  - Mining Leistung
+  - Die Macht des Konsenses
+  - Halving Leistung
+explanation: |
+  Ein Betreiber, der Geldmittel und Kanäle kontrolliert, kann Zahlungen blockieren, verzögern oder filtern.
+reviewed: false

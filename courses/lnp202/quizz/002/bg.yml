@@ -1,0 +1,9 @@
+question: Какво представлява каналът Lightning от гледна точка на Bitcoin onchain?
+answer: Изход Multisignature 2/2
+wrong_answers:
+  - Сценарий P2MS 2/2
+  - UTXO единичен
+  - Федерален договор
+explanation: |
+  В онлайн веригата каналът на Lightning се представя като многоподписващ изход, който изисква подписите на двамата участници.
+reviewed: false

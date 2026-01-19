@@ -1,0 +1,9 @@
+question: 瞭望塔旨在預防的主要風險是什麼？
+answer: 與舊國家作弊
+wrong_answers:
+  - 51% 攻擊
+  - 種子盜竊
+  - 以新狀態作弊
+explanation: |
+  瞭望塔可以防止旨在侵吞資金的舊頻道狀態的發布。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Qual é o papel da Torre de Vigilância quando detecta uma tentativa de batota?
+answer: Publicar a transação de penalização
+wrong_answers:
+  - Fechar o canal de forma cooperativa
+  - Congelar fundos
+  - Reportar pares ao núcleo Bitcoin
+explanation: |
+  A torre de vigia transmite automaticamente a transação de penalização em nome do utilizador.
+reviewed: false

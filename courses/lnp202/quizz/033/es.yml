@@ -1,0 +1,9 @@
+question: ¿Cuál de estas herramientas no identifica pares relevantes en Lightning?
+answer: Electrum
+wrong_answers:
+  - Terminal de rayos
+  - Amboss
+  - 1ML
+explanation: |
+  Electrum no es un explorador Lightning para obtener información sobre los nodos de la red. En cambio, las otras tres herramientas cumplen bien esta función.
+reviewed: false

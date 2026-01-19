@@ -1,0 +1,9 @@
+question: LNDのニモニックフレーズにはいくつの単語が含まれていますか？
+answer: 24の言葉
+wrong_answers:
+  - 10の言葉
+  - 18の言葉
+  - 36の言葉
+explanation: |
+  LND generateはノードのバックアップとリカバリのための24語のニーモニック・フレーズ。
+reviewed: false

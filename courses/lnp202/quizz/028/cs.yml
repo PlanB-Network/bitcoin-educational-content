@@ -1,0 +1,9 @@
+question: Jaká je úloha strážní věže, když zjistí pokus o podvod?
+answer: Zveřejnit sankční transakci
+wrong_answers:
+  - Uzavřít kanál ve spolupráci
+  - Zmrazení finančních prostředků
+  - Nahlásit vrstevníka do jádra Bitcoin
+explanation: |
+  Strážní věž automaticky odvysílá jménem uživatele sankční transakci.
+reviewed: false

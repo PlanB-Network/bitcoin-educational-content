@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe ThunderHub ifise mu bijanye n’urudodo rwawe rwa LND?
+answer: Ubuyobozi bwa Interface
+wrong_answers:
+  - Gushirwa mu ngiro kw'umuravyo
+  - Ibikorwa vyo kubungabunga
+  - Inzira y'inzira
+explanation: |
+  ThunderHub ni interface ifatanya na LND kugira ngo icungere urudodo.
+reviewed: false

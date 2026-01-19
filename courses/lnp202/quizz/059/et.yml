@@ -1,0 +1,9 @@
+question: Milline neist mobiilirakendustest ühildub NWC-ühendustega?
+answer: Alby Go
+wrong_answers:
+  - Phoenix
+  - Wallet of Satoshi
+  - Muun
+explanation: |
+  Ettepanekutest on ainult Alby Go NWC-ga ühilduv, kuigi ka teised rakendused, nagu Zeus, on seda.
+reviewed: false

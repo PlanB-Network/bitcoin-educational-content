@@ -1,0 +1,9 @@
+question: Mengapa pembayaran keluar secara otomatis menciptakan likuiditas masuk?
+answer: Pergeseran likuiditas
+wrong_answers:
+  - Membuat saluran baru
+  - Peningkatan kapasitas
+  - Biaya perutean yang lebih rendah
+explanation: |
+  Pembayaran keluar memindahkan sats ke par, menciptakan likuiditas yang masuk di sisi saluran ini.
+reviewed: false

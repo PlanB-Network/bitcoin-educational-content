@@ -1,0 +1,9 @@
+question: Koji od ovih alata ne identifikuje relevantne vršnjake na Lightning-u?
+answer: Electrum
+wrong_answers:
+  - Lightning Terminal
+  - Amboss
+  - 1ML
+explanation: |
+  Electrum nije Lightning explorer za dobijanje informacija o mrežnim čvorovima. S druge strane, ostala tri alata dobro obavljaju ovu funkciju.
+reviewed: false

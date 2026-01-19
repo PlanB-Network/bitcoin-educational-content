@@ -1,0 +1,9 @@
+question: Lightning için en iyi kanal kapatma yöntemi hangisidir?
+answer: Kooperatif kapanışı
+wrong_answers:
+  - Zorla kapatma
+  - Hile ile kapanış
+  - Watchtower kapatma
+explanation: |
+  Kooperatif kapanışı daha hızlıdır ve zincirleme ücretleri seçmenize olanak tanır.
+reviewed: false

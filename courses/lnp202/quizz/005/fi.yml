@@ -1,0 +1,9 @@
+question: Mitä tietoja Lightning wallet -operaattori te havaita käyttäjistään?
+answer: Kaikki niiden virrat
+wrong_answers:
+  - Heidän identiteettinsä
+  - Maksujen metatiedot, mutta ilman määriä
+  - Maksujen kustannukset, mutta ilman määriä
+explanation: |
+  Operaattorilla on pääsy käyttäjän rahamääriin, maksutiheyteen, vastaanottajiin ja maksutottumuksiin - lyhyesti sanottuna hän te tarkkailla kaikkea, vaikka nämä palvelut ovat usein KYC-vapaita.
+reviewed: false

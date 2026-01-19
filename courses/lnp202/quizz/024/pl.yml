@@ -1,0 +1,9 @@
+question: Dlaczego tworzenie kopii zapasowej węzła Lightning jest bardziej skomplikowane niż Bitcoin onchain wallet?
+answer: Stan kanałów ewoluuje
+wrong_answers:
+  - Płynność kanału zależy od mempool
+  - Nagrywanie plotek z sieci Lightning
+  - Klucze odwołania wygasają z czasem
+explanation: |
+  Kanały Lightning zmieniają stan przy każdej płatności, co sprawia, że prosta stała lub okresowa kopia zapasowa jest niebezpieczna.
+reviewed: false

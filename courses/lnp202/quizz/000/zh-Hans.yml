@@ -1,0 +1,9 @@
+question: 闪电通道的容量是多少？
+answer: 锁定的总金额
+wrong_answers:
+  - 单向可用流动资金总额
+  - 最高收费
+  - 可能的最大付款次数
+explanation: |
+  容量与通道多位输出中阻塞的 sats 总和相对应。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Những tiêu chí nào quyết định sự lựa chọn giải pháp Lightning của bạn?
+answer: Tần suất sử dụng và mức độ sẵn sàng quản lý
+wrong_answers:
+  - Số tiền trao đổi và tốc độ giao thức
+  - Định vị địa lý và giáo dục
+  - Khả năng chịu rủi ro và thiết kế phần mềm
+explanation: |
+  Sự lựa chọn chủ yếu phụ thuộc vào tần suất sử dụng Lightning và mức độ bạn thích quản lý kỹ thuật.
+reviewed: false

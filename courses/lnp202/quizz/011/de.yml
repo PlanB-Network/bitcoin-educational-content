@@ -1,0 +1,9 @@
+question: Welche Lösung bietet die größte Souveränität für Lightning-Nutzer?
+answer: Klassischer Blitznodeen
+wrong_answers:
+  - Wallet mit atomarem Tausch
+  - Eingebauter LN-Knoten
+  - Hausmeisterliche Beleuchtung wallet
+explanation: |
+  Der klassische Knotenpunkt bietet die vollständige Kontrolle über Kanäle, Liquidität und Gebührenpolitik. Er ist der einzige, der es Ihnen ermöglicht, wirklich unabhängig zu sein.
+reviewed: false

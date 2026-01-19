@@ -1,0 +1,9 @@
+question: Vilken är den största risken som ett vakttorn syftar till att förhindra?
+answer: Otrohet med gammal stat
+wrong_answers:
+  - 51% attack
+  - Stöld av utsäde
+  - Fuska med nytt tillstånd
+explanation: |
+  Ett vakttorn skyddar mot publicering av en gammal kanalstat som syftar till förskingring av medel.
+reviewed: false

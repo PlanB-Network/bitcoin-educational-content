@@ -5,5 +5,5 @@ wrong_answers:
   - Liquidités sortantes
   - Nombre de blocs
 explanation: |
-  Les liquidités entrantes représentent les sats que le nœud peut recevoir via Lightning.
+  Les liquidités entrantes représentent les sats que le nœud peut receter via Lightning.
 reviewed: false

@@ -1,0 +1,9 @@
+question: Apa saja prasyarat untuk memasang LND pada Umbrel?
+answer: Node Bitcoin yang disinkronkan
+wrong_answers:
+  - Akun Umbrel Premium
+  - Saluran Petir yang ada
+  - Alamat petir aktif
+explanation: |
+  LND bergantung pada node Bitcoin yang 100% tersinkronisasi, sebuah prasyarat untuk pengoperasiannya.
+reviewed: false

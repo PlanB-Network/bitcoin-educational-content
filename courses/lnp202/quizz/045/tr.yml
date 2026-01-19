@@ -1,0 +1,9 @@
+question: Neden bir tüccar Lightning düğümü operatörü generate gelen likidite için kendi ödemelerine güvenemiyor?
+answer: Çoğunlukla gelen akışlar
+wrong_answers:
+  - Çoğunlukla giden akışlar
+  - Kanallar çok küçük
+  - Yüksek zincir içi ücretler
+explanation: |
+  Tüccar, harcama yapmadan nakde çevirerek likiditeyi doğal olarak kanallarının dışına taşımaz.
+reviewed: false

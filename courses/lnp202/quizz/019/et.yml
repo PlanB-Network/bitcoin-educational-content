@@ -1,0 +1,9 @@
+question: Millised on LND paigaldamise eeltingimused Umbrel-le?
+answer: Sünkroniseeritud Bitcoin sõlme
+wrong_answers:
+  - Umbrel Premium konto
+  - Olemasolev Lightning kanal
+  - Välgu aadress aktiivne
+explanation: |
+  LND tugineb 100 % sünkroniseeritud Bitcoin sõlmpunktile, mis on selle toimimise eeltingimus.
+reviewed: false

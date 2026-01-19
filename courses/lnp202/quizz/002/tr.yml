@@ -1,0 +1,9 @@
+question: Bitcoin onchain bakış açısından Lightning kanalı nedir?
+answer: Multisigdoğa çıkışı 2/2
+wrong_answers:
+  - Senaryo P2MS 2/2
+  - UTXO tekli
+  - Federe sözleşme
+explanation: |
+  Zincir üzerinde, bir Lightning kanalı, her iki katılımcının da imzasını gerektiren bir çoklu imza çıktısı ile temsil edilir.
+reviewed: false

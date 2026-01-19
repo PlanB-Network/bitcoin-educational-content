@@ -1,0 +1,9 @@
+question: Dlaczego warto unikać bardzo dużych węzłów dla pierwszego kanału?
+answer: Restrykcyjna polityka
+wrong_answers:
+  - Niska łączność
+  - Zbyt niskie koszty
+  - Brak płynności finansowej
+explanation: |
+  Bardzo duże węzły często narzucają wysokie kwoty minimalne i łatwo zamykają małe kanały.
+reviewed: false

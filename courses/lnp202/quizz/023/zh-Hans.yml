@@ -1,0 +1,9 @@
+question: 针对 LND 的 seed 格式的名称是什么？
+answer: 锛
+wrong_answers:
+  - BIP39
+  - lnseed
+  - BIP32
+explanation: |
+  LND 使用一种名为 aezeed 的特殊 seed，有别于传统的 BIP39 seed。
+reviewed: false

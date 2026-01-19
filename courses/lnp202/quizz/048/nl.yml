@@ -1,0 +1,9 @@
+question: Welke gratis oplossing voor inkomende liquiditeit is gebaseerd op samenwerking?
+answer: LN+
+wrong_answers:
+  - Magma
+  - Boltz
+  - 1ML
+explanation: |
+  Lightning Network Plus biedt inkomende liquiditeit via ronde kanaalopeningen.
+reviewed: false

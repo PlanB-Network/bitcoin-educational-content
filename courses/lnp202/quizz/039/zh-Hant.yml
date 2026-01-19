@@ -1,0 +1,9 @@
+question: Lightning 節點的流出流動性是多少？
+answer: 支付能力
+wrong_answers:
+  - 連接能力
+  - 接收能力
+  - 關閉通路的能力
+explanation: |
+  流出流動資金代表營運商一方可用於付款的 sats。
+reviewed: false

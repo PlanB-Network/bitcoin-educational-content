@@ -1,0 +1,9 @@
+question: Ni iyihe muri izo nzira iguha uburenganzira bwo kugura amahera yinjira?
+answer: Magma
+wrong_answers:
+  - Bitcoin Ishingiro
+  - 1ML
+  - Boltz
+explanation: |
+  Magma ituma vyoroha kugura amahera yinjira biciye ku isoko ry’ivyuma.
+reviewed: false

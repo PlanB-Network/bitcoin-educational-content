@@ -1,0 +1,9 @@
+question: Miksi lähtevä maksu luo automaattisesti tulevaa likviditeettiä?
+answer: Likviditeetin siirtyminen
+wrong_answers:
+  - Uusien kanavien luominen
+  - Kapasiteetin lisäys
+  - Pienemmät reitityskustannukset
+explanation: |
+  Lähtevä maksu siirtää sats:n nimellisarvoon, mikä luo uutta likviditeettiä kanavan tälle puolelle.
+reviewed: false

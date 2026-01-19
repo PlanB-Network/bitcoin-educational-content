@@ -1,0 +1,9 @@
+question: Umbrel'da, bir NWC bağlantısı kurmak için hangi uygulama yüklenmelidir?
+answer: Alby Hub
+wrong_answers:
+  - NWC Bağlayıcı
+  - ThunderHub
+  - Zeus Sunucu
+explanation: |
+  NWC'ye özel Umbrel uygulaması artık mevcut olmadığından, bu tür bir bağlantı için artık Alby Hub kullanmanız gerekmektedir.
+reviewed: false

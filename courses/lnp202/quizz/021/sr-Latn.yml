@@ -1,0 +1,9 @@
+question: Koja datoteka sadrži detaljan status kanala za LND?
+answer: channel.db
+wrong_answers:
+  - wallet.db
+  - lightning.db
+  - peers.db
+explanation: |
+  Datoteka channel.db čuva stanja kanala, peer-ove i commitment transactions.
+reviewed: false

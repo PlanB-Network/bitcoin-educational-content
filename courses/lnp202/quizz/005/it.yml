@@ -1,0 +1,9 @@
+question: Quali dati può osservare un operatore di Lightning wallet sui suoi utenti?
+answer: Tutti i loro flussi
+wrong_answers:
+  - Le loro identità
+  - I metadati dei loro pagamenti, ma senza gli importi
+  - I costi dei loro pagamenti, ma senza gli importi
+explanation: |
+  L'operatore ha accesso agli importi, alle frequenze, ai destinatari e alle abitudini di pagamento dell'utente - in breve, può osservare tutto, anche se questi servizi sono spesso privi di KYC.
+reviewed: false

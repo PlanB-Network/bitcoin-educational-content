@@ -1,0 +1,9 @@
+question: Ni ikihe muri ivyo bikorwa vya Lightning gisaba gutangaza ibikorwa vy’ubudandaji vy’uruzitiro?
+answer: Gufungura umurongo
+wrong_answers:
+  - Ukwishura kw'umuravyo
+  - Inzira y'amaguru menshi
+  - Ihuza ry'abaguzi ba telefone ngendanwa
+explanation: |
+  Ugufungura umurongo bihuye n’ugucuruza kwa Bitcoin kwasohowe ku rubuga rwa blockchain.
+reviewed: false

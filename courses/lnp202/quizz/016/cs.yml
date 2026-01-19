@@ -1,0 +1,9 @@
+question: Jaké informace udávají přijímací kapacitu uzlu Lightning?
+answer: Příchozí likvidita
+wrong_answers:
+  - Aktivní připojení
+  - Odchozí likvidita
+  - Počet bloků
+explanation: |
+  Příchozí likvidita představuje sats, které může uzel přijímat prostřednictvím Lightning.
+reviewed: false

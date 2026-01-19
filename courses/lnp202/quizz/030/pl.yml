@@ -1,0 +1,9 @@
+question: Z punktu widzenia węzła, jaki jest początkowy rozkład płynności po otwarciu kanału?
+answer: 100% wychodzące
+wrong_answers:
+  - 50% przychodzące 50% wychodzące
+  - 100% przychodzące
+  - 90% wychodzące 10% przychodzące
+explanation: |
+  Gdy kanał jest otwarty, cała płynność jest początkowo po stronie inicjatora.
+reviewed: false

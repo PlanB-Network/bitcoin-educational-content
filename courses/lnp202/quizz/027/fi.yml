@@ -1,0 +1,9 @@
+question: Mitä tietoja valvontatorni saa huijaamisen valvomiseksi?
+answer: Huijaustapahtuman osittainen TXID
+wrong_answers:
+  - Yksityinen kanava-avain
+  - Täydellinen kanavan tila
+  - Huijaustapahtuman TXID
+explanation: |
+  Valvontatorni vastaanottaa vain osan huijaustapahtuman TXID-tunnuksesta, jotta se te tunnistaa epäilyttävän tapahtuman tuntematta kanavaa.
+reviewed: false

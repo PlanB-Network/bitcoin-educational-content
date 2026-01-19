@@ -1,0 +1,9 @@
+question: 什麼機制可以防止舊的 Lightning 通道狀態釋放？
+answer: 廢止金鑰
+wrong_answers:
+  - 交易費用
+  - 絕對時鐘
+  - 網路八卦
+explanation: |
+  撤銷金鑰用於懲罰嘗試發佈舊通道狀態的節點。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koji od ovih kriterijuma je najvažniji za povezivanje sa vršnjacima?
+answer: Centralna pozicija na grafu
+wrong_answers:
+  - Ime čvora u grafu
+  - Boja čvora u grafu
+  - Broj poruka na grafikonu
+explanation: |
+  Dobro pozicioniran čvor u Lightning grafu olakšava rutiranje do mnogih odredišta.
+reviewed: false

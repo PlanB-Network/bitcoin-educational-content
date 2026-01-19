@@ -1,0 +1,9 @@
+question: Was kann ein Wachturm im Normalbetrieb über den Kanal, den er schützt, aussagen?
+answer: Wie oft der Status aktualisiert wird
+wrong_answers:
+  - Liquidity-Zuweisung
+  - Seine Kapazität
+  - Spesenpolitik
+explanation: |
+  Er empfängt für jeden neuen Zustand verschlüsselte Pakete, die nur die normale Aktivitätsrate offenbaren.
+reviewed: false

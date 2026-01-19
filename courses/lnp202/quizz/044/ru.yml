@@ -1,0 +1,9 @@
+question: Какую роль играет ThunderHub по отношению к вашему узлу LND?
+answer: Управление Interface
+wrong_answers:
+  - Внедрение молнии
+  - Служба хранения
+  - Маршрутный узел
+explanation: |
+  ThunderHub - это интерфейс, который подключается к LND для управления узлом.
+reviewed: false

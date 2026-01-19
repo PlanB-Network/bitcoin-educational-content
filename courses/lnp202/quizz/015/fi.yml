@@ -1,0 +1,9 @@
+question: Mitä Lightning-solmun lisäasetuksissa tedaan mukauttaa?
+answer: Solmun julkinen nimi
+wrong_answers:
+  - Solmujen konsensussäännöt
+  - Solmun yksityiset avaimet
+  - Solmun valitsemat reitit
+explanation: |
+  Lisäasetusten avulla tet mukauttaa solmujen tunniste-elementtejä vaikuttamatta konsensukseen tai salamaverkon toimintaan.
+reviewed: false

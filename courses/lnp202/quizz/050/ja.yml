@@ -1,0 +1,9 @@
+question: LND＋Tailscale＋ゼウスという構成の主な目的は何ですか？
+answer: モバイルwalletをLightningノードで使用する
+wrong_answers:
+  - Lightningノードのないカストディアルwalletの使用
+  - 複数のLNDノードを多重化
+  - Mining sats（Umbrelを使用
+explanation: |
+  目的は、自分のノード上でバックグラウンドで動作するモバイルLightning walletアプリケーションを使用することです。
+reviewed: false

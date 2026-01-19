@@ -1,0 +1,9 @@
+question: Je, usawa wa Lightning wallet unaoonyeshwa kwenye kiolesura cha programu ya LND unawakilisha nini?
+answer: Jumla ya ukwasi unaotoka
+wrong_answers:
+  - Jumla ya minyororo
+  - Jumla ya ukwasi unaoingia
+  - Jumla ya uwezo wa chaneli
+explanation: |
+  Salio la Umeme linalingana na sats inayopatikana kutumika kupitia njia, yaani jumla ya ukwasi unaotoka kutoka kwa njia zote za nodi.
+reviewed: false

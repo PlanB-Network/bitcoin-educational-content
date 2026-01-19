@@ -1,0 +1,9 @@
+question: Perché il profilo del consumatore è facile da gestire?
+answer: Scarsa necessità di liquidità in entrata
+wrong_answers:
+  - Non è richiesto alcun canale
+  - Scarsa necessità di liquidità in uscita
+  - Non è necessario un backup
+explanation: |
+  I consumatori non hanno bisogno di molta liquidità in entrata e i pagamenti in uscita creano naturalmente un po' di liquidità in entrata senza una strategia complessa.
+reviewed: false

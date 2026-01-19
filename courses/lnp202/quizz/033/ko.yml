@@ -1,0 +1,9 @@
+question: 다음 중 Lightning에서 관련 피어를 식별하지 못하는 도구는 무엇인가요?
+answer: Electrum
+wrong_answers:
+  - 라이트닝 터미널
+  - Amboss
+  - 1ML
+explanation: |
+  Electrum는 네트워크 노드에 대한 정보를 얻기 위한 Lightning 탐색기가 아닙니다. 반면에 다른 세 가지 도구는 이 기능을 잘 수행합니다.
+reviewed: false

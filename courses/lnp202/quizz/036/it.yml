@@ -1,0 +1,9 @@
+question: Perché è difficile rendere redditizio il routing su Lightning?
+answer: Costi e concorrenza
+wrong_answers:
+  - Limite del canale
+  - Nessuna richiesta
+  - Mancanza di liquidità globale
+explanation: |
+  I costi della catena, la concorrenza e i requisiti operativi rendono incerta la redditività dell'attività di routing.
+reviewed: false

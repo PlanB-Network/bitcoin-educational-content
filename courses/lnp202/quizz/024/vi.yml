@@ -1,0 +1,9 @@
+question: Tại sao việc sao lưu một node Lightning lại phức tạp hơn so với việc sao lưu wallet trên chuỗi wallet?
+answer: Tình trạng của các kênh đang thay đổi
+wrong_answers:
+  - Tính thanh khoản của kênh phụ thuộc vào mempool
+  - Ghi lại những lời bàn tán trên mạng Lightning
+  - Các khóa thu hồi sẽ hết hạn theo thời gian
+explanation: |
+  Các kênh Lightning thay đổi trạng thái sau mỗi lần thanh toán, khiến việc sao lưu cố định hoặc định kỳ đơn giản trở nên nguy hiểm.
+reviewed: false

@@ -1,0 +1,9 @@
+question: AquaとBull Bitcoin Walletの共通点は？
+answer: ライトニング・アトミック・スワップ
+wrong_answers:
+  - ライトニング・ネイティブ・チャンネル
+  - 集中管理
+  - 統合されたLightningノード
+explanation: |
+  これらのwalletは、アトミックスワップを使用して、携帯電話上のライトニング・ノードを直接利用することなく、また自己保管のままでライトニング請求書を支払う。
+reviewed: false

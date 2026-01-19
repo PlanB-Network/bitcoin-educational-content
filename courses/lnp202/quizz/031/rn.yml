@@ -1,0 +1,9 @@
+question: Node ID y’urudodo rw’umuravyo igereranya iki?
+answer: Urufunguzo rwa bose n'aderesi
+wrong_answers:
+  - Urudodo seed na aderesi
+  - Urudodo rw'ibanga n'urufunguzo rwa bose
+  - Hash izina ry'urudodo na seed
+explanation: |
+  Indangamuntu y'uruzitiro ifatanya urufunguzo rwa bose rw'uruzitiro n'aderesi y'urubuga rwayo n'icuma.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 強制閉鎖の主なデメリットは？
+answer: タイムロックによる資金ブロック
+wrong_answers:
+  - 資金の一部損失
+  - Lightningノードの陳腐化
+  - ライトニング・ノードの非同期化
+explanation: |
+  資金はタイムロックでブロックされ、手数料はしばしば高額になる。
+reviewed: false

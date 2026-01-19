@@ -1,0 +1,9 @@
+question: Perché un pagamento in uscita crea automaticamente liquidità in entrata?
+answer: Spostamento della liquidità
+wrong_answers:
+  - Creare nuovi canali
+  - Aumento della capacità
+  - Riduzione dei costi di routing
+explanation: |
+  Un pagamento in uscita sposta il sats alla pari, creando liquidità in entrata su questo lato del canale.
+reviewed: false

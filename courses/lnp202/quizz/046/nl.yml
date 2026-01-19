@@ -1,0 +1,9 @@
+question: Waarom creëert een uitgaande betaling automatisch inkomende liquiditeit?
+answer: Verschuivende liquiditeit
+wrong_answers:
+  - Nieuwe kanalen creëren
+  - Capaciteitsverhoging
+  - Lagere routingkosten
+explanation: |
+  Een uitgaande betaling beweegt sats naar par, en creëert daarmee inkomende liquiditeit aan deze kant van het kanaal.
+reviewed: false

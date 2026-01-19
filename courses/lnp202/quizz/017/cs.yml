@@ -1,0 +1,9 @@
+question: Co představuje zůstatek Lightning wallet zobrazený na rozhraní aplikace LND?
+answer: Součet odchozí likvidity
+wrong_answers:
+  - Součet řetězců
+  - Součet příchozí likvidity
+  - Součet kapacit kanálů
+explanation: |
+  Zůstatek blesku odpovídá sats, který je k dispozici k utracení prostřednictvím kanálů, tj. součtu odchozí likvidity ze všech kanálů uzlu.
+reviewed: false

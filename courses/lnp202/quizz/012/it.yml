@@ -1,0 +1,9 @@
+question: Qual è il principale compromesso con i nodi LN on-board?
+answer: Dipendenza dall'operatore
+wrong_answers:
+  - Perdita delle chiavi private
+  - Nessuna autocustodia
+  - Pagamenti onchain obbligatori per tutte le transazioni Lightning
+explanation: |
+  L'utente dipende fortemente dall'operatore principale per la connettività e la gestione dei canali.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Gözaltında Bitcoin'ın hangi temel özelliği kaybolur?
+answer: Parasal egemenlik
+wrong_answers:
+  - Parasal ölçeklenebilirlik
+  - Hızlı ödeme
+  - Parasal birlikte çalışabilirlik
+explanation: |
+  Anahtar kontrolü olmadan, kullanıcı Bitcoin'in temel direği olan parasal egemenlikten feragat eder.
+reviewed: false

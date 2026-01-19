@@ -1,0 +1,9 @@
+question: วลีช่วยจำ LND มีทั้งหมดกี่คำ?
+answer: 24 คำ
+wrong_answers:
+  - 10 คำ
+  - 18 คำ
+  - 36 คำ
+explanation: |
+  LND generates วลีช่วยจำ 24 คำสำหรับการสำรองข้อมูลและกู้คืนโหนด
+reviewed: false

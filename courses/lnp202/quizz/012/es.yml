@@ -1,0 +1,9 @@
+question: ¿Cuál es el principal compromiso con los nodos a bordo de LN?
+answer: Dependencia del operador
+wrong_answers:
+  - Pérdida de claves privadas
+  - Sin autocustodia
+  - Pagos Onchain obligatorios para todas las transacciones Lightning
+explanation: |
+  El usuario depende en gran medida del operador principal para la conectividad y la gestión de canales.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bitcoin 온체인 관점에서 라이트닝 채널이란 무엇인가요?
+answer: Multisig자연 출력 2/2
+wrong_answers:
+  - 스크립트 P2MS 2/2
+  - UTXO 싱글
+  - 연합 계약
+explanation: |
+  온체인에서 라이트닝 채널은 두 참여자의 서명이 필요한 다중 서명 출력으로 표현됩니다.
+reviewed: false

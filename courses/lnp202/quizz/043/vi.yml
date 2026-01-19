@@ -1,0 +1,9 @@
+question: Kênh đóng nào là tốt nhất cho Lightning?
+answer: Đóng cửa hợp tác xã
+wrong_answers:
+  - Buộc đóng cửa
+  - Kết thúc bằng gian lận
+  - Đóng cửa Watchtower
+explanation: |
+  Việc đóng giao dịch hợp tác diễn ra nhanh hơn và cho phép bạn lựa chọn phí giao dịch trên chuỗi.
+reviewed: false

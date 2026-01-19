@@ -1,0 +1,9 @@
+question: 부정 행위 시도를 감지했을 때 워치타워의 역할은 무엇인가요?
+answer: 페널티 거래 게시
+wrong_answers:
+  - 협력하여 채널 닫기
+  - 자금 동결
+  - Bitcoin 코어에 피어 보고
+explanation: |
+  감시탑은 사용자를 대신하여 페널티 거래를 자동으로 브로드캐스트합니다.
+reviewed: false

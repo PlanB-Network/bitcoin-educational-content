@@ -1,0 +1,9 @@
+question: Jaké je z pohledu vašeho uzlu počáteční rozložení likvidity po otevření kanálu?
+answer: 100% odchozí
+wrong_answers:
+  - 50 % příchozích 50 % odchozích
+  - 100% příchozí
+  - 90% odchozí 10% příchozí
+explanation: |
+  Při otevření kanálu je veškerá likvidita zpočátku na straně iniciátora.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Was ist der größte Nachteil der Zwangsschließung?
+answer: Durch Zeitsperre blockierte Mittel
+wrong_answers:
+  - Teilweiser Verlust von Mitteln
+  - Veralterung des Lightning-Knotens
+  - Blitznodeen-Desynchronisation
+explanation: |
+  Die Gelder werden durch eine Zeitsperre blockiert und die Gebühren sind oft hoch.
+reviewed: false

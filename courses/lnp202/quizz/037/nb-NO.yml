@@ -1,0 +1,9 @@
+question: Hva er en Lightning-forhandlers høyeste prioritet?
+answer: Anskaffelse av inngående likviditet
+wrong_answers:
+  - Anskaffelse av utgående likviditet
+  - Besparelser på rutingskostnader
+  - Skaffe gode LN+-anmeldelser
+explanation: |
+  En kjøpmann må kunne innkassere penger uten å mislykkes, noe som krever tilstrekkelig inngående likviditet.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 守望先锋接收哪些信息来监控作弊？
+answer: 作弊交易的部分 TXID
+wrong_answers:
+  - 私人通道密钥
+  - 完整的通道状态
+  - 作弊交易的 TXID
+explanation: |
+  监视塔只能接收到作弊交易的部分 TXID，从而在不知道信道的情况下识别可疑交易。
+reviewed: false

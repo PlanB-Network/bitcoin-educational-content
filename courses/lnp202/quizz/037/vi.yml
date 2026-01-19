@@ -1,0 +1,9 @@
+question: Ưu tiên hàng đầu của một người bán hàng trên Lightning là gì?
+answer: Thu hút thanh khoản đầu tư nước ngoài
+wrong_answers:
+  - Thu hút thanh khoản ra nước ngoài
+  - Tiết kiệm chi phí định tuyến
+  - Nhận được đánh giá tốt về LN+
+explanation: |
+  Người bán phải có khả năng thu tiền mà không gặp rủi ro, điều này đòi hỏi phải có đủ nguồn vốn đầu vào.
+reviewed: false

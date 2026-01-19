@@ -1,0 +1,9 @@
+question: Met een custodial Lightning wallet, wie is de eigenaar van de bitcoins?
+answer: Het bedrijf
+wrong_answers:
+  - De gebruiker
+  - Het Lightning-netwerk
+  - Bitcoin Kern
+explanation: |
+  In een custodiaal model bezit het bedrijf de sleutels en beheert het de fondsen, terwijl de gebruiker alleen een boekhoudkundig saldo heeft.
+reviewed: false

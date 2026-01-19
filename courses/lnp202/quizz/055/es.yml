@@ -1,0 +1,9 @@
+question: En el flujo NWC, ¿cuándo tiene lugar el cifrado en el lado de la aplicación?
+answer: Antes de la publicación en el relé
+wrong_answers:
+  - Después de leer el nodo
+  - Tras la publicación en el relé
+  - Nunca
+explanation: |
+  La aplicación serializa la solicitud, la cifra y la publica como un evento en un relé Nostr.
+reviewed: false

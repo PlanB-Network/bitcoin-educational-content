@@ -1,9 +1,13 @@
-question: Koju specifičnu potrebu Bitcoin-ovo svojstvo bez poverenja eliminiše u digitalnim transakcijama?
+question: Koju specifičnu potrebu Bitcoin-ovo svojstvo za odsustvom potrebe za poverenjem eliminiše u digitalnim transakcijama?
 answer: Pouzdane treće strane za obradu i validaciju transakcija
 wrong_answers:
   - Hardverske i softverske komponente za pokretanje Bitcoin čvorova
   - Kriptografski algoritmi za zaštitu privatnih ključeva i potpisa
-  - Mreže konsenzus mehanizmi za dogovor o važećim blokovima
+  - Mehanizmi mrežnog konsenzusa za utvrđivanje važećih blokova
 explanation: |
-  Bitcoin-ova svojstvo bez poverenja posebno eliminiše potrebu za pouzdanim trećim stranama kao što su banke ili finansijske institucije za obradu i validaciju transakcija. Kao što je Satoshi Nakamoto objasnio u Bitcoin beloj knjizi, tradicionalna trgovina se oslanja na finansijske institucije koje služe kao pouzdani posrednici, ali dizajn Bitcoin omogućava sistemu da funkcioniše ispravno bez ikakvih pouzdanih strana kroz svoj decentralizovani mehanizam konsenzusa. Ostale opcije predstavljaju osnovne tehničke komponente koje Bitcoin i dalje zahteva - i dalje vam je potreban hardver/softver za učešće, kriptografska sigurnost ostaje fundamentalna, a mrežni konsenzus je način na koji Bitcoin postiže svojstvo bez poverenja, a ne nešto što eliminiše.
-reviewed: false
+  Bitcoin-ova svojstvo bez poverenja posebno eliminiše potrebu za pouzdanim trećim stranama kao što su banke ili finansijske institucije za obradu
+  i validaciju transakcija. Kao što je Satoshi Nakamoto objasnio u Bitcoin whitepaper-u, tradicionalna trgovina se oslanja na finansijske institucije koje
+  služe kao pouzdani posrednici, ali Bitcoin dizajn omogućava sistemu da funkcioniše ispravno bez ikakvih pouzdanih strana kroz svoj decentralizovani 
+  mehanizam konsenzusa. Ostale opcije predstavljaju osnovne tehničke komponente koje Bitcoin i dalje zahteva - i dalje vam je potreban hardver/softver za učešće, 
+  kriptografska sigurnost ostaje fundamentalna, a mrežni konsenzus je način na koji Bitcoin postiže svojstvo bez poverenja, a ne nešto što eliminiše.
+reviewed: true

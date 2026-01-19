@@ -5,6 +5,6 @@ wrong_answers:
   - Niezwykle wysoka tygodniowa stopa inflacji
   - Niezwykle wysoka dzienna stopa inflacji
 explanation: |
-  Zgodnie z definicją Cagana, hiperinflacja charakteryzuje się
+  Zgodnie z definicją Cagana hiperinflacja charakteryzuje się
   niezwykle wysoką miesięczną stopą inflacji, która przekracza 50%.
-reviewed: false
+reviewed: true

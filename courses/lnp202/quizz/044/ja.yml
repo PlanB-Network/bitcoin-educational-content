@@ -1,0 +1,9 @@
+question: ThunderHubはLNDノードに対してどのような役割を果たしていますか？
+answer: Interface管理
+wrong_answers:
+  - ライトニングの実装
+  - カストディアル・サービス
+  - ルーティングノード
+explanation: |
+  ThunderHubはノードを管理するためにLNDに接続するインターフェースである。
+reviewed: false

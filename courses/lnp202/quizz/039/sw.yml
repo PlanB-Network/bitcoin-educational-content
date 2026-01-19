@@ -1,0 +1,9 @@
+question: Umwagiliaji unaotoka wa nodi ya umeme ni upi?
+answer: Uwezo wa kulipa
+wrong_answers:
+  - Uwezo wa kuunganisha
+  - Uwezo wa kupokea
+  - Uwezo wa kufunga njia
+explanation: |
+  Ukwasi unaotoka unawakilisha sats inayopatikana kwa upande wa mwendeshaji ili kufanya malipo.
+reviewed: false

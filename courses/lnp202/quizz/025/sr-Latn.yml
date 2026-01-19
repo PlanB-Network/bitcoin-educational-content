@@ -1,0 +1,9 @@
+question: Koji uslovi čine kaznu za Lightning efikasnom?
+answer: Detekcija pre kraja vremenskog zaključavanja
+wrong_answers:
+  - Detekcija pre nego što počne vremensko zaključavanje
+  - Otkrivanje varanja pre objavljivanja TX
+  - Detekcija nakon isteka vremenskog zaključavanja
+explanation: |
+  Pravosudna transakcija mora biti objavljena pre nego što istekne vremenska blokada kako bi se sankcionisala prevara. Ne može biti objavljena pre nego što vremenska blokada počne ili pre nego što je TX objavljen, jer bi to značilo da prevara jednostavno nije nastupila.
+reviewed: false

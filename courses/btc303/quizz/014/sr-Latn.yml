@@ -5,5 +5,7 @@ wrong_answers:
   - Kompanije za kreditne kartice odbijaju da obrade plaćanja za digitalnu robu i online usluge
   - Vladini propisi sprečavaju finansijske institucije da posluju preko međunarodnih granica
 explanation: |
-  Satoshi posebno identifikuje da finansijske institucije koje služe kao pouzdane treće strane ne mogu izbeći posredovanje u sporovima, što sprečava potpuno nepovratne transakcije. Ovo stvara inherentne slabosti u modelu zasnovanom na poverenju, povećava troškove kroz posredovanje i primorava trgovce da budu oprezni prema kupcima. Druge opcije opisuju različite probleme koji nisu pomenuti u analizi tradicionalnih platnih sistema u Satoshi.
-reviewed: false
+  Satoshi posebno identifikuje da finansijske institucije koje služe kao pouzdane treće strane ne mogu izbeći posredovanje u sporovima, što sprečava potpuno
+  nepovratne transakcije. Ovo stvara inherentne slabosti u modelu zasnovanom na poverenju, povećava troškove kroz posredovanje i primorava trgovce da budu 
+  oprezni prema kupcima. Druge opcije opisuju različite probleme koji nisu pomenuti u analizi tradicionalnih platnih sistema od strane Satoshi-ja.
+reviewed: true

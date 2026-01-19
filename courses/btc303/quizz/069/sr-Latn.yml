@@ -1,9 +1,12 @@
 question: Prema definiciji iz knjige, koji scenario predstavlja legitimno Bitcoin skaliranje uz očuvanje otpornosti na cenzuru?
 answer: Implementacija algoritama za verifikaciju potpisa koji su efikasniji u pogledu prostora i smanjuju veličine ulaza transakcija
 wrong_answers:
-  - Podsticanje korisnika da prebace transakcije na centralizovane berze kako bi se smanjio obim on-chain
+  - Podsticanje korisnika da prebace transakcije na centralizovane berze kako bi se smanjio obim na on-chain-u
   - Implementacija automatskog filtriranja transakcija radi prioritizacije određenih tipova ekonomske aktivnosti
   - Kreiranje čvorova za validaciju odobrenih od strane vlade koji mogu efikasnije obrađivati transakcije
 explanation: |
-  Knjiga definiše Bitcoin skaliranje kao 'povećanje kapaciteta korišćenja Bitcoin bez ugrožavanja njegove otpornosti na cenzuru.' Prostor-efikasna verifikacija potpisa direktno odgovara ovoj definiciji tako što transakcije koriste manje bajtova dok održavaju decentralizaciju. Pogrešni odgovori svi ugrožavaju otpornost na cenzuru: centralizovane berze uvode pouzdane treće strane, filtriranje transakcija stvara mehanizme cenzure, a čvorovi odobreni od strane vlade centralizuju autoritet validacije. Pravo skaliranje očuva osnovne osobine Bitcoin dok poboljšava efikasnost.
-reviewed: false
+  Knjiga definiše Bitcoin skaliranje kao 'povećanje kapaciteta korišćenja Bitcoin bez ugrožavanja njegove otpornosti na cenzuru.' Prostorno efikasna verifikacija 
+  potpisa direktno odgovara ovoj definiciji tako što transakcije koriste manje bajtova dok održavaju decentralizaciju. Pogrešni odgovori svi ugrožavaju otpornost 
+  na cenzuru: centralizovane berze uvode pouzdane treće strane, filtriranje transakcija stvara mehanizme cenzure, a čvorovi odobreni od strane vlade 
+  centralizuju autoritet validacije. Pravo skaliranje očuva osnovne osobine Bitcoina dok poboljšava efikasnost.
+reviewed: true

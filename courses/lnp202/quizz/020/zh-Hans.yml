@@ -1,0 +1,9 @@
+question: 为什么恢复旧的 channel.db 会有危险？
+answer: 处罚风险
+wrong_answers:
+  - 失去 seed
+  - 八卦腐败
+  - 阻断路由
+explanation: |
+  过时的状态会被解释为试图作弊，并导致渠道资金的损失。
+reviewed: false

@@ -51,7 +51,7 @@ Il libro è stato commissionato e finanziato da [Chaincode Labs](https://learnin
 <chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
 
 
-Benvenuti a questo corso PHI 301 sulla filosofia di sviluppo del Bitcoin.
+Benvenuti a questo corso BTC 303 sulla filosofia di sviluppo del Bitcoin.
 
 
 Bitcoin è molto più di una semplice criptovaluta: incarna una visione filosofica sulla decentralizzazione, la privacy, l'assenza di fiducia e la resilienza. Questo corso è stato progettato specificamente per gli sviluppatori che hanno già familiarità con le basi tecniche del Bitcoin e che ora cercano di approfondire la comprensione dei principi alla base del design e della governance del Bitcoin.
@@ -1168,14 +1168,14 @@ Bitcoin Core aderisce a questa definizione essendo distribuito sotto la [MIT Lic
 
 
 ```
-The MIT License (MIT)
+La Licenza MIT (MIT)
 
-Copyright (c) 2009-2022 The Bitcoin Core developers
-Copyright (c) 2009-2022 Bitcoin Developers
+Copyright (c) 2009-2022 Gli sviluppatori di Bitcoin Core
+Copyright (c) 2009-2022 Sviluppatori Bitcoin
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Con la presente viene concesso il permesso, gratuitamente, a chiunque ottenga una copia di questo software e dei file di documentazione associati (il "Software"), di trattare il Software senza restrizioni, inclusi senza limitazione i diritti di utilizzare, copiare, modificare, unire, pubblicare, distribuire, concedere in sublicenza e/o vendere copie del Software, e di consentire alle persone a cui il Software viene fornito di fare lo stesso, alle seguenti condizioni:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+L'avviso di copyright sopra riportato e questo avviso di autorizzazione devono essere inclusi in tutte le copie o porzioni sostanziali del Software.
 ```
 
 

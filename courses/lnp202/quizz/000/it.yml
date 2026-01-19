@@ -1,0 +1,9 @@
+question: Qual è la capacità di un canale Lightning?
+answer: Importo totale bloccato
+wrong_answers:
+  - Liquidità totale disponibile in una direzione
+  - Tariffe massime
+  - Numero massimo di pagamenti possibili
+explanation: |
+  La capacità corrisponde alla somma totale dei sats bloccati nell'uscita multisig del canale.
+reviewed: false

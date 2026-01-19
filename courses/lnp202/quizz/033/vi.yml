@@ -1,0 +1,9 @@
+question: Công cụ nào trong số này không xác định được các thiết bị ngang hàng có liên quan trên mạng Lightning?
+answer: Electrum
+wrong_answers:
+  - Trạm thu sét
+  - Amboss
+  - 1ML
+explanation: |
+  Electrum không phải là công cụ khám phá Lightning để thu thập thông tin về các nút mạng. Ngược lại, ba công cụ còn lại thực hiện chức năng này rất tốt.
+reviewed: false

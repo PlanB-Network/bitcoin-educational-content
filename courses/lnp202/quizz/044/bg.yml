@@ -1,0 +1,9 @@
+question: Каква е ролята на ThunderHub по отношение на вашия възел LND?
+answer: Управление на Interface
+wrong_answers:
+  - Внедряване на Lightning
+  - Услуга по попечителство
+  - Възел за маршрутизиране
+explanation: |
+  ThunderHub е интерфейс, който се свързва с LND, за да управлява възела.
+reviewed: false

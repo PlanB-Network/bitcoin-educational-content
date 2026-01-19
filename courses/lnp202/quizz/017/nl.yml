@@ -1,0 +1,9 @@
+question: Wat betekent het Lightning wallet-saldo dat wordt weergegeven op de LND applicatie-interface?
+answer: De som van uitgaande liquiditeit
+wrong_answers:
+  - De som van onchains
+  - De som van inkomende liquiditeit
+  - De som van kanaalcapaciteiten
+explanation: |
+  Het Lightning-saldo komt overeen met het sats dat beschikbaar is om te worden uitgegeven via de kanalen, d.w.z. de som van de uitgaande liquiditeit van alle kanalen van het knooppunt.
+reviewed: false

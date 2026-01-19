@@ -1,0 +1,9 @@
+question: Kusudi kuu la usanidi wa LND + Tailscale + Zeus ni nini?
+answer: Kutumia wallet ya simu kwenye nodi yako ya Umeme
+wrong_answers:
+  - Kutumia wallet ya kuhifadhi bila nodi ya Umeme
+  - Kuzidisha nodi nyingi za LND
+  - Mining sats kwa kutumia Umbrel
+explanation: |
+  Lengo ni kutumia programu ya simu ya Lightning wallet inayofanya kazi chinichini kwenye nodi yako mwenyewe.
+reviewed: false

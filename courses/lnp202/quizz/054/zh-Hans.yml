@@ -1,0 +1,9 @@
+question: Lightning 节点与移动客户端之间的连接方法中，哪种方法明确不推荐用于此用途？
+answer: 托尔
+wrong_answers:
+  - Tailscale
+  - Nostr Wallet 连接
+  - 无
+explanation: |
+  为此，Tor 的实际效果很差，故障和延迟导致用户体验不佳。
+reviewed: false

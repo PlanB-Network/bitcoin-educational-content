@@ -1,0 +1,9 @@
+question: Hva er den viktigste risikoen et vakttårn har som mål å forebygge?
+answer: Juks med gammel stat
+wrong_answers:
+  - 51 % angrep
+  - Tyveri av frø
+  - Juks med ny tilstand
+explanation: |
+  Et vakttårn beskytter mot publisering av en gammel kanalstat som tar sikte på å underslå midler.
+reviewed: false

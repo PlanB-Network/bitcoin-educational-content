@@ -1,0 +1,9 @@
+question: Uvuye ku mbonerahamwe ya Bitcoin onchain, umurongo w’umuravyo ni iki?
+answer: Multisigumusaruro w'ibidukikije 2/2
+wrong_answers:
+  - Inyandiko P2MS 2/2
+  - UTXO imwe
+  - Amasezerano y'ubumwe
+explanation: |
+  Onchain, umurongo w’umuravyo ugereranywa n’igisohoka c’imikono myinshi isaba imikono y’abaje mu nama bompi.
+reviewed: false

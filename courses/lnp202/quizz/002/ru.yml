@@ -1,0 +1,9 @@
+question: Что такое канал Lightning с точки зрения ончейна Bitcoin?
+answer: Multisignature output 2/2
+wrong_answers:
+  - Сценарий P2MS 2/2
+  - UTXO одиночный
+  - Федеративный договор
+explanation: |
+  В Onchain канал Lightning представлен мультиподписным выводом, требующим подписей обоих участников.
+reviewed: false

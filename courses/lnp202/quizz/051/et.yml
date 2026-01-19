@@ -1,0 +1,9 @@
+question: Milline port tuleb Zeusis määrata käesolevas peatükis kirjeldatud LND (REST) ühenduse jaoks?
+answer: 8080
+wrong_answers:
+  - 8333
+  - 8332
+  - 50001
+explanation: |
+  Umbrel LND-sõlme kaudu API-le juurdepääsuks peate Zeuse konfigureerimisel kasutama porti 8080.
+reviewed: false

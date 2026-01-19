@@ -1,0 +1,9 @@
+question: Miksi Lightning-solmun varmuuskopiointi on monimutkaisempaa kuin Bitcoin onchain wallet:n?
+answer: Kanavien tila kehittyy
+wrong_answers:
+  - Kanavan likviditeetti riippuu mempoolista
+  - Tallenna Lightning-verkon juorut
+  - Peruutusavaimet vanhenevat ajan myötä
+explanation: |
+  Salamakanavat vaihtavat tilaa jokaisen maksun yhteydessä, joten yksinkertainen kiinteä tai säännöllinen varmuuskopiointi on vaarallista.
+reviewed: false

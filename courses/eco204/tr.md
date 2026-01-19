@@ -423,7 +423,7 @@ MMT'nin açıklayıcı bir örneği Amerikan askeri-endüstriyel kompleksidir. M
 Japonya, MMT savunucuları tarafından sık sık önemli miktarda parasal baskıya rağmen enflasyonun olmadığına dair bir başka örnek olarak gösterilmektedir. Ancak Japonya'daki durum, Tüketici Fiyat Endeksi (TÜFE) gibi geleneksel enflasyon ölçümlerinin sınırlılıklarını da vurgulamaktadır. Japonya'da basılan paranın önemli bir kısmı cari tüketime harcanmak yerine ya tasarruf ediliyor ya da gayrimenkule veya borsaya yatırılıyor. TÜFE, bu dinamikleri tam olarak yakalayamadığı için gerçek enflasyonu olduğundan düşük gösterebilir.
 
 
-Japonya'ya ilişkin analiz (https://ideas.repec.org/p/ces/ceswps/_9821.html), TÜFE'ye dahil edilmeyen varlıklarda tasarruf veya yatırım gibi ekonomik birimlerin davranışlarının parasal baskının enflasyonist etkisini maskeleyebileceğini de vurgulamaktadır. Ayrıca, farklı sektörlerin enjekte edilen likiditeyi emme kabiliyeti enflasyonun ortaya çıkıp çıkmayacağını belirlemede önemli bir rol oynamaktadır.
+[Japonya’nın analizi](https://ideas.repec.org/p/ces/ceswps/_9821.html) ayrıca, tasarruf ya da TÜFE’ye dahil olmayan varlıklara yatırım gibi ekonomik aktörlerin davranışlarının, para basımının enflasyonist etkisini gizleyebileceğini ortaya koymaktadır. Ayrıca, farklı sektörlerin enjekte edilen likiditeyi absorbe etme kapasitesi, enflasyonun ortaya çıkıp çıkmamasında kritik bir rol oynamaktadır.
 
 
 #### Banka ve Merkez Bankası Bilançoları

@@ -1,0 +1,9 @@
+question: Warum ist es schwierig, die Weiterleitung über Lightning rentabel zu gestalten?
+answer: Kosten und Wettbewerb
+wrong_answers:
+  - Kanalbegrenzung
+  - Kein Antrag
+  - Mangel an globaler Liquidität
+explanation: |
+  Kettenkosten, Wettbewerb und betriebliche Anforderungen machen die Rentabilität des Routing-Geschäfts unsicher.
+reviewed: false

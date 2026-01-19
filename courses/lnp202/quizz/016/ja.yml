@@ -1,0 +1,9 @@
+question: ライトニング・ノードの受信能力を示す情報は？
+answer: インバウンド流動性
+wrong_answers:
+  - アクティブ・コネクション
+  - アウトバウンド流動性
+  - ブロック数
+explanation: |
+  インバウンド流動性は、ノードがライトニング経由で受信できるsatsを表す。
+reviewed: false

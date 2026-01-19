@@ -1,0 +1,9 @@
+question: Zašto je obnavljanje starog channel.db opasno?
+answer: Rizik od kazne
+wrong_answers:
+  - Gubitak seed
+  - Trač korupcija
+  - Blokiranje rutiranja
+explanation: |
+  Zastarelo stanje može se protumačiti kao pokušaj varanja i rezultirati gubitkom sredstava kanala.
+reviewed: false

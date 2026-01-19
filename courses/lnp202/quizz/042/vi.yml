@@ -1,0 +1,9 @@
+question: Nhược điểm chính của việc đóng cửa bắt buộc là gì?
+answer: Tiền bị phong tỏa do hạn chế thời gian
+wrong_answers:
+  - Mất một phần tiền
+  - Sự lỗi thời của nút Lightning
+  - mất đồng bộ nút sét
+explanation: |
+  Tiền bị khóa theo thời gian và phí thường rất cao.
+reviewed: false

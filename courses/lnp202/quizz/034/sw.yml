@@ -1,0 +1,9 @@
+question: Ni kipi kati ya vigezo hivi ambacho ni muhimu zaidi kwa muunganisho wa rika?
+answer: Nafasi ya kati kwenye grafu
+wrong_answers:
+  - Jina la nodi kwenye grafu
+  - Rangi ya nodi kwenye grafu
+  - Idadi ya ujumbe kwenye grafu
+explanation: |
+  Nodi iliyowekwa vizuri kwenye grafu ya Umeme hurahisisha uelekezaji hadi sehemu nyingi.
+reviewed: false

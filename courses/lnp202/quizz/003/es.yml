@@ -1,0 +1,9 @@
+question: ¿Cuál de estas operaciones Lightning requiere la publicación de una transacción onchain?
+answer: Apertura del canal
+wrong_answers:
+  - Pago relámpago
+  - Enrutamiento multisalto
+  - Conexión cliente móvil
+explanation: |
+  La apertura de un canal corresponde a una transacción Bitcoin publicada en la blockchain.
+reviewed: false

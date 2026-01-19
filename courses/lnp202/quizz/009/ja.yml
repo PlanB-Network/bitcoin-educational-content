@@ -1,0 +1,9 @@
+question: カストディアン事業者は、利用者の支払いに対してどのような権限を持つのか？
+answer: 検閲の力
+wrong_answers:
+  - Miningパワー
+  - コンセンサスの力
+  - Halvingパワー
+explanation: |
+  資金とチャネルを管理するオペレーターは、支払いをブロック、遅延、フィルターすることができる。
+reviewed: false

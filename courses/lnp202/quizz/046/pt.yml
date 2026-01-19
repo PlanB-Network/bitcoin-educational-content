@@ -1,0 +1,9 @@
+question: Porque é que uma saída de pagamento cria automaticamente uma entrada de liquidez?
+answer: Mudança de liquidez
+wrong_answers:
+  - Criar novos canais
+  - Aumento da capacidade
+  - Custos de encaminhamento mais baixos
+explanation: |
+  Um pagamento de saída move o sats para o par, criando liquidez de entrada neste lado do canal.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bu araçlardan hangisi Lightning'deki ilgili eşleri tanımlamaz?
+answer: Electrum
+wrong_answers:
+  - Yıldırım Terminali
+  - Amboss
+  - 1ML
+explanation: |
+  Electrum ağ düğümleri hakkında bilgi edinmek için bir Lightning explorer değildir. Diğer üç araç ise bu işlevi iyi bir şekilde yerine getirmektedir.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Który krok następuje bezpośrednio po opublikowaniu żądania NWC przez aplikację mobilną na przekaźniku?
+answer: Węzeł odszyfrowuje i weryfikuje autoryzację
+wrong_answers:
+  - Przekaźnik podpisuje żądanie dla węzła
+  - Przekaźnik wykonuje płatność na LND
+  - Węzeł automatycznie otwiera kanał
+explanation: |
+  Węzeł odczytuje zdarzenie, odszyfrowuje je, a następnie sprawdza, czy autor jest autoryzowany przed wykonaniem akcji.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Lightning 節點的進階設定可以自訂哪些內容？
+answer: 節點的公開名稱
+wrong_answers:
+  - 節點共識規則
+  - 節點的私密金鑰
+  - 節點選擇的路由
+explanation: |
+  進階設定可讓您自訂節點識別元素，而不會影響共識或 Lightning 網路運作。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni masharti gani hufanya adhabu ya umeme iweze kutumika?
+answer: Ugunduzi kabla ya mwisho wa muda wa kufunga
+wrong_answers:
+  - Ugunduzi kabla ya muda kuanza
+  - Ugunduzi wa kabla ya kutolewa kwa udanganyifu wa TX
+  - Ugunduzi baada ya kuisha kwa muda wa kufunga
+explanation: |
+  Muamala wa haki lazima uachiliwe kabla ya muda wa kufungwa kuisha ili kuidhinisha udanganyifu. Hauwezi kutolewa kabla muda wa kufungwa kuanza au TX kuchapishwa, kwani hii itamaanisha kwamba udanganyifu haukufanyika.
+reviewed: false

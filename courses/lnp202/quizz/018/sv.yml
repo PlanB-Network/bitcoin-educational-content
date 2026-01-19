@@ -1,0 +1,9 @@
+question: Hur många ord innehåller den mnemotekniska frasen LND?
+answer: 24 ord
+wrong_answers:
+  - 10 ord
+  - 18 ord
+  - 36 ord
+explanation: |
+  LND generates en 24 ord lång minnesfras för backup och återställning av noder.
+reviewed: false

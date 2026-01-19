@@ -1,0 +1,9 @@
+question: Ni protocole iyihe Tailscale ishingiyeko?
+answer: WireGuard
+wrong_answers:
+  - GufunguraVPN
+  - IPsec IKEv2
+  - PPTP
+explanation: |
+  Tailscale ni umuti wa VPN ushingiye kuri WireGuard.
+reviewed: false

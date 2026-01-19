@@ -1,0 +1,9 @@
+question: Trong số các phương thức kết nối được đề cập giữa nút Lightning và thiết bị di động, phương thức nào không được khuyến nghị sử dụng trong trường hợp này?
+answer: Tor
+wrong_answers:
+  - Tailscale
+  - Nostr Wallet Kết nối
+  - Không có
+explanation: |
+  Trên thực tế, Tor hoạt động rất kém hiệu quả cho mục đích này, với các lỗi và độ trễ dẫn đến trải nghiệm người dùng tồi tệ.
+reviewed: false

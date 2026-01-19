@@ -1,0 +1,9 @@
+question: Apa yang dapat dipulihkan sendiri oleh LND seed?
+answer: Onchain wallet
+wrong_answers:
+  - Saluran terbuka
+  - Status saluran
+  - Tidak ada
+explanation: |
+  seed mengambil Bitcoin onchain wallet, tetapi tidak mengambil saluran Lightning yang aktif.
+reviewed: false

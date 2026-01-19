@@ -1,0 +1,9 @@
+question: Quale soluzione consente di eseguire un vero nodo Lightning sui telefoni cellulari?
+answer: Nodo LN integrato
+wrong_answers:
+  - wallet lightning custodial
+  - swap atomico Lightning
+  - Canali federati
+explanation: |
+  Soluzioni come Phoenix o Zeus Embedded incorporano un vero nodo Lightning direttamente nell'applicazione.
+reviewed: false

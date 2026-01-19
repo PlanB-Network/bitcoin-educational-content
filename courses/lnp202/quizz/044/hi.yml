@@ -1,0 +1,9 @@
+question: आपके LND नोड के संबंध में ThunderHub की क्या भूमिका है?
+answer: जीडब्ल्यू-2 प्रबंधन
+wrong_answers:
+  - बिजली की गति से कार्यान्वयन
+  - अभिरक्षा सेवा
+  - रूटिंग नोड
+explanation: |
+  ThunderHub एक इंटरफेस है जो नोड को प्रबंधित करने के लिए LND से जुड़ता है।
+reviewed: false

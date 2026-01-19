@@ -221,7 +221,7 @@ Impostazioni > Ricerca > Motore di ricerca predefinito:
 - **Brave Search**: indicizzatore indipendente, non di Google
 - **Evita**: Google, Bing, Yahoo (raccolta massiccia di dati)
 
-**3. Configurare il DNS sicuro (DNS su HTTPS)**:
+**3. Configura il DNS sicuro (DNS su HTTPS)**:
 
 Impostazioni > Privacy e sicurezza > DNS su HTTPS (in fondo alla pagina)
 

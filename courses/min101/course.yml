@@ -14,7 +14,7 @@ professors_id:
 contributor_names:
   - LoicPandul
 
-published_at: 2026-01-20
+published_at: 2026-01-19
 
 test_only: true
 
@@ -29,7 +29,7 @@ original_language: fr
 
 proofreading:
   - language: fr
-    last_contribution_date: 2026-01-20
+    last_contribution_date: 2026-01-18
     urgency: 1
     contributor_names:
       - LoicPandul

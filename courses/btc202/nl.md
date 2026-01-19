@@ -2514,9 +2514,11 @@ Tot slot raad ik de applicatie *Lightning Network+* aan, waarmee je collega's ku
 
 
 
-Dankzij Umbrel is het beheren van een persoonlijke Lightning-node sterk vereenvoudigd, maar het is nog steeds relatief complex. Daarom zullen we in een toekomstige cursus die volledig aan dit gebruik is gewijd dieper op dit onderwerp ingaan.
+Dankzij Umbrel is het beheer van een persoonlijke Lightning-node vereenvoudigd, maar het blijft niettemin relatief complex. Daarom raad ik u aan de cursus LNP 202 te volgen, die het logische vervolg vormt op de cursus BTC 202, en waarin ik u stap voor stap begeleid bij het opzetten en beheren van uw Lightning-node op Umbrel.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Tailscale
 
@@ -3894,11 +3896,13 @@ Je kunt nu overgaan naar het laatste deel van de cursus, waar je BTC 202 kunt ev
 
 
 
-U hebt nu verschillende opties voor u open. De volgende logische stap is het opzetten van je eigen Lightning node, zodat je volledig onafhankelijk bent voor je off-chain transacties. Dit zal het onderwerp zijn van een komende cursus, die dit najaar zal worden gepubliceerd in 2025 over Plan ₿ Academy.
+Er liggen nu meerdere wegen voor u open. De volgende logische stap bestaat erin uw eigen Lightning-node op te zetten, zodat u volledig onafhankelijk bent voor uw off-chain-transacties. Dit is precies het onderwerp van een andere cursus op Plan ₿ Academy:
 
 
 
-Ondertussen nodig ik je uit om de BTC 204 training te ontdekken, die je in staat zal stellen om de principes van privacybescherming te begrijpen en te beheersen bij je gebruik van Bitcoin:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Ik nodig u tevens uit om de opleiding BTC 204 te ontdekken, die u in staat zal stellen de principes van privacybescherming bij uw gebruik van Bitcoin te begrijpen en te beheersen:
 
 
 

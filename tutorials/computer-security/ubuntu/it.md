@@ -31,7 +31,7 @@ Un sistema operativo (OS) è il software principale che gestisce tutte le risors
 ### 2. Scaricare
 
 - Vai su [ubuntu.com/download](https://ubuntu.com/download);
-- Sceglie la versione stabile (si consiglia la LTS);
+- Scegli la versione stabile (si consiglia la LTS);
 - Scarica l'immagine ISO.
 
 ![Page de téléchargement Ubuntu](assets/fr/01.webp)

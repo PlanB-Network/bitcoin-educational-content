@@ -387,7 +387,7 @@ Quindi, **nel blocco `[Interface]`, si aggiunge il server DNS da usare**. Nel mi
 DNS = 192.168.100.11
 ```
 
-Salvare il file, quindi riavviare l'interfaccia:
+Salva il file, quindi riavvia l'interfaccia:
 ```
 sudo wg-quick up /etc/wireguard/wg0.conf
 ```
@@ -402,7 +402,7 @@ Con:
 ```
 AllowedIPs = 0.0.0.0/0
 ```
-Si può notare che in questo modo si attiva anche l'opzione "**Kill switch**".
+Puoi notare che in questo modo si attiva anche l'opzione "**Kill switch**".
 
 ![Image](assets/fr/040.webp)
 

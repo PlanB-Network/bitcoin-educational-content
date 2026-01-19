@@ -702,51 +702,37 @@ Zimbabue: "Estos vales los utilizamos ahora para pagar el alquiler a los caseros
 
 #### Conclusión
 
-
 Con esto concluye este vídeo sobre las similitudes de las experiencias durante los periodos de hiperinflación en Zimbabue y la República de Weimar. En el próximo vídeo hablaremos de las diferencias y los paralelismos contemporáneos. Gracias.
-
 
 ## Weimar vs Zimbabue: Diferencias y paralelismos contemporáneos
 
-
 <chapterId>643f279c-d89f-5600-a2e2-b1bbbba0ab69</chapterId>
-
 
 En este capítulo, exploraremos las diferencias y los paralelismos contemporáneos entre los periodos de hiperinflación pasados y presentes, con anécdotas y comparaciones relevantes para la actualidad.
 
-
 ### Diferencias entre la República de Weimar y Zimbabue
-
 
 #### 1. ¡Es culpa del dólar!
 
-
-En Alemania, era habitual que la población atribuyera la inflación a la subida del dólar y no a la devaluación intrínseca de su propia moneda. Muchos creían que el fenómeno observado se debía a una apreciación del dólar. Esta percepción descartaba cualquier reconocimiento del vínculo entre sus dificultades económicas y la devaluación monetaria, inducida principalmente por una creación excesiva de dinero. El libro "When Money Dies" ilustra claramente esta falta de comprensión entre la población alemana. En cambio, en Zimbabue la situación era diferente: los ciudadanos eran plenamente conscientes de la causa subyacente de la hiperinflación que estaban sufriendo.
-
+En Alemania, era habitual que la población atribuyera la inflación a la subida del dólar y no a la devaluación intrínseca de su propia moneda. Muchos creían que el fenómeno observado se debía a una apreciación del dólar. Esta percepción descartaba cualquier reconocimiento del vínculo entre sus dificultades económicas y la devaluación monetaria, inducida principalmente por una creación excesiva de dinero. El libro "When Money Dies" ilustra claramente esta falta de comprensión entre la población alemana. En cambio, en Zimbabue la situación era diferente: Los ciudadanos eran plenamente conscientes de la causa subyacente de la hiperinflación que estaban sufriendo.
 
 ![image](assets/es/047.webp)
 
-
 #### 2. Dinero de emergencia (Notgeld)
 
-
-Ante la crisis monetaria y económica, Alemania recurrió al "Notgeld" (dinero de emergencia). Estos billetes, impresos por las ciudades o determinadas empresas, estaban concebidos para Address una escasez de moneda común.
+Ante la crisis monetaria y económica, Alemania recurrió al "Notgeld" (dinero de emergencia). Estos billetes, impresos por las ciudades o determinadas empresas, estaban concebidos para abordar una escasez de moneda común.
 
 Curiosamente, Francia también recurrió al Notgeld, sobre todo en los años veinte. Esta iniciativa no sólo fue consecuencia directa de la hiperinflación, sino que también tuvo su origen en los trastornos causados por la Primera Guerra Mundial. La guerra no sólo desestabilizó la economía, sino que también incrementó el coste de los metales. Como consecuencia, el valor intrínseco de las monedas metálicas superaba a menudo su valor nominal, lo que incitaba a la gente a atesorarlas. A falta de monedas, algunas instituciones, como la Cámara de Comercio de Lyon, imprimieron su propio Notgeld.
 
 ![image](assets/es/048.webp)
 
-
 > "Lo que hay que hacer, se hace" - un dicho local
 
-Entre los Notgeld, destaca un billete en particular. Presenta una ilustración conmovedora: en el centro, se representa a un individuo defecando un marco. En el reverso, una tabla de precios de 1913 a 1921 ilustra el aumento de la inflación durante este periodo.
-
+Entre los Notgeld, destaca un billete en particular. Presenta una ilustración conmovedora: En el centro, se representa a un individuo defecando un marco. En el reverso, una tabla de precios de 1913 a 1921 ilustra el aumento de la inflación durante este periodo.
 
 El artista que está detrás de este Notgeld parece hacer una crítica irónica a las autoridades responsables de la crisis de hiperinflación. El billete lleva la inscripción "La necesidad no conoce ley". Otra expresión propia de la localidad de origen del Notgeld es: "Lo que hay que hacer, hay que hacerlo"
 
-
 ![image](assets/es/049.webp)
-
 
 > "la necesidad no conoce ley"
 
@@ -754,9 +740,7 @@ El artista que está detrás de este Notgeld parece hacer una crítica irónica 
 
 #### 3. Obligaciones e hipotecas
 
-
 En Weimar, algunas deudas se revalorizaron para compensar el impacto de la inflación. Esta medida no se adoptó en Zimbabue.
-
 
 > Weimar: "La decisión de revalorizar los préstamos estatales se convirtió en ley en 1925, por lo que los accionistas recibían el 2,5% de su inversión inicial siempre que se hubieran pagado todas las reparaciones"
 
@@ -764,17 +748,13 @@ En Weimar, algunas deudas se revalorizaron para compensar el impacto de la infla
 
 Para saber más sobre la gestión de la crisis alemana, este libro también es esencial.
 
-
 ![image](assets/es/050.webp)
 
-
 ### Paralelismos contemporáneos
-
 
 #### 1. Manipulación de la política monetaria para controlar la economía.
 
 En la historia de la República de Weimar es evidente que los industriales eran reacios a la apreciación del valor del marco. Su capacidad para obtener préstamos y reembolsar sus deudas con una moneda muy depreciada les proporcionaba una ventaja considerable. Este mecanismo facilitó la construcción de enormes complejos industriales casi sin coste alguno. Estos industriales temían una apreciación del marco, ya que obstaculizaba sus actividades. Algunos incluso veían la inflación galopante como un hecho positivo, creyendo que garantizaría empleo a la población. Sin embargo, no se dieron cuenta del impacto perjudicial de esta inflación sobre el ahorro y la economía en su conjunto. Para estos agentes económicos, la impresión monetaria era una bendición.
-
 
 > Weimar: "Por eso se temía mucho una apreciación del marco, e incluso las pocas semanas de "estabilidad" después de Génova provocaron un estancamiento del negocio."
 
@@ -782,14 +762,11 @@ En la historia de la República de Weimar es evidente que los industriales eran 
 
 Se puede establecer un paralelismo contemporáneo con las declaraciones de Christine Lagarde, sugiriendo que los ciudadanos deberían priorizar la perspectiva del empleo sobre la protección de sus ahorros. Al igual que los industriales de Weimar, parece abogar por la impresión monetaria como herramienta para estimular el empleo, a expensas del valor de los ahorros.
 
-
 > Christine Lagarde: "Deberíamos alegrarnos más de tener trabajo que de ver protegidos nuestros ahorros"
 
 #### 2. La propiedad privada en tiempos de conflicto
 
-
-La historia de la República de Weimar revela que durante este periodo se confiscaron los bienes y capitales poseídos en el extranjero. Esta medida recuerda acontecimientos más recientes en Rusia, especialmente al inicio de un conflicto. Estas situaciones ponen de manifiesto una realidad preocupante: en tiempos de crisis, el respeto de la propiedad privada puede verse comprometido. Se trata de un paralelismo histórico y contemporáneo que subraya las posibles repercusiones de las crisis en los derechos individuales.
-
+La historia de la República de Weimar revela que durante este periodo se confiscaron los bienes y capitales poseídos en el extranjero. Esta medida recuerda acontecimientos más recientes en Rusia, especialmente al inicio de un conflicto. Estas situaciones ponen de manifiesto una realidad preocupante: En tiempos de crisis, el respeto de la propiedad privada puede verse comprometido. Se trata de un paralelismo histórico y contemporáneo que subraya las posibles repercusiones de las crisis en los derechos individuales.
 
 > Weimar: "Todo el capital alemán en el extranjero había sido confiscado"
 
@@ -797,109 +774,77 @@ La historia de la República de Weimar revela que durante este periodo se confis
 
 #### 3. La noción de precio de mercado
 
-
-Durante la República de Weimar, los agricultores expresaron su descontento con el "Umlage", que les obligaba a entregar los dos primeros millones de toneladas de trigo producidas cada año. Esta reglamentación hizo que la mitad del total del pan Supply se comercializara a precios subvencionados. A partir de agosto, se suponía que a estos agricultores se les pagaba el precio del mercado mundial, porque aunque se les obligaba a entregar su trigo a precios reducidos, aún tenían que comprar fertilizantes a los precios del mercado mundial.
-
+Durante la República de Weimar, los agricultores expresaron su descontento con el "Umlage", que les obligaba a entregar los dos primeros millones de toneladas de trigo producidas cada año. Esta reglamentación hizo que la mitad del total de la producción de pan se comercializara a precios subvencionados. A partir de agosto, se suponía que a estos agricultores se les pagaba el precio del mercado mundial, porque aunque se les obligaba a entregar su trigo a precios reducidos, aún tenían que comprar fertilizantes a los precios del mercado mundial.
 
 Esta situación plantea una cuestión central relacionada con la noción de precio de mercado durante la hiperinflación. En el contexto alemán de la época, los agricultores se veían obligados a vender su trigo a un precio inferior a su valor, mientras que tenían que adquirir fertilizantes a precios del mercado mundial. Semejante discrepancia económica pone de relieve los retos que plantean hoy los precios de los alimentos. Los productores agrícolas, enfrentados al aumento de los costes de los insumos debido a la inflación, repercuten estos costes en los productos finales. Criticarles por este aumento equivale a ignorar la dinámica de los precios de mercado y las presiones económicas a las que se enfrentan. Vender a precios artificialmente bajos mientras se incurre en costes elevados es insostenible para cualquier empresa.
 
+> Weimar: "Los intereses agrarios estaban descontentos con el 'Umlage', la entrega forzosa de los dos primeros millones de toneladas de trigo producidas cada año, que permitía vender a bajo precio la mitad del total de suministro para pan. A partir de agosto, los agricultores debían cobrar el precio del mercado mundial porque, aunque estaban obligados a vender trigo a bajo precio, siempre tenían que pagar el precio del mercado mundial por los fertilizantes."
 
-> Weimar: "Los intereses agrarios estaban descontentos con el 'Umlage', la entrega forzosa de los dos primeros millones de toneladas de trigo producidas cada año, que permitía vender a bajo precio la mitad del total de Supply para pan. A partir de agosto, los agricultores debían cobrar el precio del mercado mundial porque, aunque estaban obligados a vender trigo a bajo precio, siempre tenían que pagar el precio del mercado mundial por los fertilizantes."
+#### 4. Negación de la relación entre el suministro de dinero y la inflación
 
-#### 4. Negación de la relación entre el dinero Supply y la inflación
+> Weimar: "Siguió firmemente aferrado a su opinión de que el suministro de dinero no estaba relacionado ni con los niveles de precios ni con los tipos de cambio;"
 
-
-> Weimar: "Siguió firmemente aferrado a su opinión de que el dinero Supply no estaba relacionado ni con los niveles de precios ni con los tipos Exchange;"
-
-En los tiempos modernos, esta tendencia persiste, como se ve en el ejemplo del capítulo anterior de una lista de explicaciones presentadas por diversos economistas e institutos económicos para justificar la inflación. Estas razones varían, desde acontecimientos culturales y celebridades como Taylor Swift, Zelda o Beyoncé, hasta factores globales como la guerra y la pandemia. Todas estas razones, aunque pueden contribuir a las fluctuaciones económicas a corto plazo, desvían la atención de la verdadera causa subyacente: la expansión del dinero Supply.
-
+En los tiempos modernos, esta tendencia persiste, como se ve en el ejemplo del capítulo anterior de una lista de explicaciones presentadas por diversos economistas e institutos económicos para justificar la inflación. Estas razones varían, desde acontecimientos culturales y celebridades como Taylor Swift, Zelda o Beyoncé, hasta factores globales como la guerra y la pandemia. Todas estas razones, aunque pueden contribuir a las fluctuaciones económicas a corto plazo, desvían la atención de la verdadera causa subyacente: La expansión del suministro de dinero.
 
 #### 5. Empresas zombis
-
 
 > Weimar: "La estabilización había puesto fin al periodo en que los empresarios podían endeudarse cuanto quisieran a costa de todos los demás. Un gran número de empresas, creadas o expandidas durante la abundancia monetaria, se volvieron rápidamente improductivas una vez que el capital empezó a escasear."
 
 Una empresa zombi es una empresa que, en condiciones normales de mercado, sería insolvente o estaría al borde de la quiebra, pero sigue funcionando gracias principalmente a préstamos a bajo coste. Estas empresas ganan lo justo para cubrir sus deudas, pero son incapaces de crecer de forma significativa.
 
-
 La noción de empresa zombi no es nueva. De hecho, ya existía durante la República de Weimar. En aquella época, muchas empresas parecían florecer, beneficiándose en gran medida del acceso al crédito gratuito. Pidieron prestadas sumas considerables con la expectativa de devolverlas más tarde con una moneda depreciada debido a la inflación galopante. Sin embargo, cuando la inflación cesó y el marco alemán recuperó su valor, estas empresas, que no eran realmente viables ni desde el punto de vista operativo ni financiero, dejaron de ser rentables y tuvieron que cerrar.
-
 
 ![image](assets/es/051.webp)
 
-
 El fenómeno de las empresas zombis no se limita a la Alemania de posguerra. Incluso hoy en día, muchas grandes empresas siguen prosperando gracias a su acceso privilegiado al crédito a tipos de interés extremadamente bajos. Si tuvieran que endeudarse a tipos más convencionales, muchas de ellas dejarían de ser rentables. Esto es especialmente relevante en 2023, tras un prolongado periodo de tipos de interés cercanos a cero, ya que ahora los tipos han empezado a subir. Este reciente cambio en el panorama financiero será sin duda una prueba decisiva para estas empresas, antes tachadas de "zombis"
-
 
 #### 6. ¡Hágase rico rápidamente!
 
-
 La historia revela casos en los que los individuos trataron de acumular riqueza rápidamente, como ocurrió en Weimar y Zimbabue mediante el arbitraje. Hoy se observa una tendencia similar con el auge de ciertas criptodivisas. La gente se siente tentada por las ganancias rápidas, asumiendo riesgos con la esperanza de un aumento exponencial de su inversión. Este enfoque recuerda al observado durante los periodos de hiperinflación, en los que se recurría al arbitraje para obtener beneficios rápidos, a menudo a expensas de los demás.
-
 
 ![image](assets/es/052.webp)
 
-
 #### 7. El ahorro, remedio contra la incertidumbre
-
 
 > La influencia omnipresente y destructiva de la erosión constante del valor del capital y de la renta, así como la incertidumbre sobre el futuro.
 
 Merece la pena destacar una cita que subraya el efecto destructivo de la erosión del valor del capital sobre la cohesión social, así como la incertidumbre que genera. En ella se afirma: "la influencia omnipresente y destructiva de la erosión constante del valor del capital y de la renta, así como la incertidumbre sobre el futuro"
 
-
-Imagine una situación en la que tiene una familia o unos seres queridos a los que desea proteger. Trabajas Hard y ahorras para anticiparte a las incertidumbres futuras. Si todo fuera previsible, ahorrar sería inútil. Sin embargo, ante circunstancias imprevistas, como la avería de un coche, los ahorros se convierten en un salvavidas. Reducen la incertidumbre del mundo. Sin embargo, durante la hiperinflación, ahorrar se convierte en un reto. El dinero pierde rápidamente su valor, lo que dificulta la planificación a largo plazo. Esta inestabilidad financiera puede generate estrés y ansiedad.
-
+Imaginemos una situación en la que tiene una familia o unos seres queridos a los que deseamos proteger. Trabajamos duro y ahorramos para anticiparnos a las incertidumbres futuras. Si todo fuera previsible, ahorrar sería inútil. Sin embargo, ante circunstancias imprevistas, como la avería de un coche, los ahorros se convierten en un salvavidas. Reducen la incertidumbre del mundo. Sin embargo, durante la hiperinflación, ahorrar se convierte en un reto. El dinero pierde rápidamente su valor, lo que dificulta la planificación a largo plazo. Esta inestabilidad financiera puede generar estrés y ansiedad.
 
 Hoy en día, con la disminución del poder de ahorro, la inversión ha ocupado su lugar. Sin embargo, este enfoque conlleva sus propios riesgos. El ahorro siempre ha sido un remedio contra la incertidumbre. Disponer de reservas financieras para hacer frente a situaciones imprevistas contribuye a la tranquilidad y refuerza la cohesión social. En conclusión, proteger nuestro poder de ahorro es esencial para mantener la estabilidad tanto social como individual.
 
-
-
 ## Redenominaciones en América Latina
-
 
 <chapterId>918eafd7-409d-5205-ad52-a52e63b23a64</chapterId>
 
-
 A continuación examinaremos los distintos periodos de redenominación en los países latinoamericanos.
-
 
 ### Explicación de los gráficos
 
-
-En la diapositiva, a la izquierda, figuran los años de redenominación, el nombre de la nueva moneda y el tipo Exchange con la antigua moneda. Tomando el ejemplo de Argentina, el peso moneda nacional se convirtió a un tipo de 25 a 1 con respecto a la moneda anterior, el peso reàl. En este contexto, examinaremos la evolución de la moneda argentina a lo largo del tiempo. Además, indicaremos las denominaciones iniciales y finales de los billetes para cada periodo.
-
+En la diapositiva, a la izquierda, figuran los años de redenominación, el nombre de la nueva moneda y el tipo de cambio con la antigua moneda. Tomando el ejemplo de Argentina, el peso moneda nacional se convirtió a un tipo de 25 a 1 con respecto a la moneda anterior, el peso reàl. En este contexto, examinaremos la evolución de la moneda argentina a lo largo del tiempo. Además, indicaremos las denominaciones iniciales y finales de los billetes para cada periodo.
 
 ![image](assets/es/053.webp)
 
-
 A la derecha de la diapositiva aparece un gráfico de la inflación. Las flechas rojas representan años de hiperinflación, según el criterio de Cagan, que es una tasa de inflación del 50% mensual. Este criterio puede a veces dar lugar a interpretaciones ambiguas, ya que años con altas tasas de inflación pueden no ajustarse a la definición estricta de hiperinflación.
 
-Cabe destacar la redenominación, una medida común adoptada por los gobiernos en periodos de inflación. Sin embargo, esto no resuelve el problema subyacente de la inflación o la hiperinflación. Es sólo una forma de cambiar el nombre de la moneda y eliminar ceros, sin abordar verdaderamente la causa fundamental de la hiperinflación: la expansión del dinero Supply. En un vídeo posterior, hablaremos de las verdaderas soluciones a la Address y resolveremos el problema de la hiperinflación. En esta serie, pondremos de relieve las consecuencias de una simple redenominación sin las reformas adecuadas: la inflación persiste.
+Cabe destacar la redenominación, una medida común adoptada por los gobiernos en periodos de inflación. Sin embargo, esto no resuelve el problema subyacente de la inflación o la hiperinflación. Es sólo una forma de cambiar el nombre de la moneda y eliminar ceros, sin abordar verdaderamente la causa fundamental de la hiperinflación: la expansión del suministro de dinero. En un vídeo posterior, hablaremos de las verdaderas soluciones a abordar y resolveremos el problema de la hiperinflación. En esta serie, pondremos de relieve las consecuencias de una simple redenominación sin las reformas adecuadas: La inflación persiste.
 
 Después de Argentina, nuestro estudio abarcará Brasil, Bolivia, Perú, Nicaragua y Venezuela. Examinaremos las redenominaciones que han tenido lugar en estos países.
 
-
 ### Argentina
-
 
 ![image](assets/es/054.webp)
 
-
 Antes de 1826, Argentina utilizaba el dólar español. Tras su independencia en 1816, introdujo su propia moneda basada en el reàl español, lo que dio lugar a la creación de una moneda similar. La tabla comienza en 1881, año de la introducción del "peso moneda nacional", con billetes de hasta 10.000 unidades. Le siguió el "peso ley", que se cambiaba a razón de 100 por 1 y tenía billetes de hasta un millón. A continuación, llegó el "peso argentino", con un tipo de cambio de 10.000 a 1 (equivalente a quitar cuatro ceros) y billetes de hasta 10.000. En 1985, se introdujeron los "australes", que se cambiaban a un tipo de 1.000 a 1, con billetes disponibles de hasta 500.000. En 1992, se estableció el actual "peso ley" a un tipo de cambio de 10.000 a 1, eliminando de nuevo cuatro ceros. Sólo los años 1989 y 1990 experimentaron hiperinflación.
-
 
 ### Brasil
 
-
 ![image](assets/es/055.webp)
-
 
 Brasil es un ejemplo notable de redenominación monetaria, como ilustra su historia de cambios de moneda. Antes de su independencia, Brasil utilizaba el reàl portugués como moneda. Sin embargo, ya en 1747, el país comenzó a utilizar su propio "reàl brasileño", mucho antes de su declaración de independencia en 1822. La tabla comienza en 1818, marcando el inicio de la emisión de billetes brasileños. Anteriormente, la moneda era principalmente en forma de monedas. Estos billetes alcanzaban valores de hasta un millón de reales.
 
-A partir de 1942, Brasil inició una serie de redenominaciones. En la mayoría de los casos (1942, 1967, 1986, 1989, 1993), el tipo de conversión fue de 1:1.000. En 1990, se produjo un cambio de nombre sin conversión. En 1990, se produjo un cambio de nombre sin conversión. La secuencia de estas monedas es la siguiente:
-
-
+A partir de 1942, Brasil inició una serie de redenominaciones. En la mayoría de los casos (1942, 1967, 1986, 1989, 1993), el tipo de conversión fue de 1:1.000. En 1990, se produjo un cambio de nombre sin conversión. La secuencia de estas monedas es la siguiente:
 
 - Réals (versión antigua) hasta 1942.
 - Cruzeiros en 1942.
@@ -910,43 +855,31 @@ A partir de 1942, Brasil inició una serie de redenominaciones. En la mayoría d
 - Cruzeiros Reais en 1993.
 - Finalmente, la reàl brasileña en 1994.
 
-
 El billete de mayor denominación alcanzó los 500.000, y la última redenominación en 1994 se hizo a un tipo de 2.750 a 1. Los años 1989 y 1990 estuvieron marcados por la hiperinflación, mientras que en 1993-1994 se registraron altas tasas de inflación que no alcanzaron el umbral de la hiperinflación (50% mensual). Tras este tumultuoso periodo, Brasil volvió a redenominar su moneda eliminando varios ceros.
-
 
 ### Bolivia
 
-
 ![image](assets/es/056.webp)
-
 
 Bolivia es otro ejemplo de país que ha experimentado periodos de inflación aguda que han obligado a redenominar la moneda. He aquí un resumen de su historia monetaria:
 
-
 Antes de su independencia en 1825, Bolivia utilizaba el dólar español como moneda. Tras la independencia, el país introdujo el Sol boliviano entre 1827 y 1864, sustituyendo al dólar español. Sin embargo, cabe señalar que los primeros billetes en Bolivia no se introdujeron hasta 1864.
-
 
 En 1864 se introdujo el primer "boliviano", con una cotización de 1.000 a 1 respecto al sol boliviano. Esta moneda permaneció en circulación hasta alcanzar una denominación de 10.000 bolivianos.
 
 Posteriormente, Bolivia cambió su moneda por el "peso boliviano", que experimentó una grave hiperinflación, llegando a alcanzar denominaciones de hasta 10 millones. Este episodio de inflación alcanzó su punto álgido en los años 1984-1985, con tasas de inflación mensuales que a menudo se acercaban al umbral de hiperinflación del 50%. Para tener una cierta perspectiva, una tasa de inflación constante del 50% mensual a lo largo de todo un año da como resultado una tasa de inflación anual de aproximadamente el 12.800%. En 1985, la tasa de inflación anual de Bolivia alcanzó el 11.749%, lo que indica que la inflación se acercó o superó el umbral del 50% casi todos los meses.
 
-
-En respuesta a esta crisis monetaria, en 1987 Bolivia introdujo una nueva moneda, llamada simplemente "Boliviano", con un tipo de cambio Exchange de 1 millón de pesos bolivianos por 1 boliviano. Esta versión del Boliviano sigue en circulación hoy en día.
-
+En respuesta a esta crisis monetaria, en 1987 Bolivia introdujo una nueva moneda, llamada simplemente "Boliviano", con un tipo de cambio de 1 millón de pesos bolivianos por 1 boliviano. Esta versión del Boliviano sigue en circulación hoy en día.
 
 Este es un resumen de la tumultuosa historia monetaria de Bolivia, marcada por periodos de hiperinflación y redenominaciones.
 
-
 ### Perú
-
 
 ![image](assets/es/057.webp)
 
-
-Perú presenta un caso interesante en cuanto a los efectos de la regla arbitraria del 50%. Empezando por su historia monetaria, Perú utilizó el oro español hasta el siglo XIX, cuando declaró su independencia en 1821. El dólar peruano se utilizó de 1822 a 1863. En 1863, el reàl peruano fue sustituido por el soldi oro, a razón de 10 a 1, alcanzando un valor máximo de 50.000. En 1985, se introdujo la moneda "Inti", con un tipo de conversión de 1.000 a 1, alcanzando un valor máximo de 5 millones. En 1991, se lanzó el "SOL" con un tipo de Exchange de 1 millón a 1, con billetes de 10 a 200.
+Perú presenta un caso interesante en cuanto a los efectos de la regla arbitraria del 50%. Empezando por su historia monetaria, Perú utilizó el oro español hasta el siglo XIX, cuando declaró su independencia en 1821. El dólar peruano se utilizó de 1822 a 1863. En 1863, el reàl peruano fue sustituido por el soldi oro, a razón de 10 a 1, alcanzando un valor máximo de 50.000. En 1985, se introdujo la moneda "Inti", con un tipo de conversión de 1.000 a 1, alcanzando un valor máximo de 5 millones. En 1991, se lanzó el "SOL" con un tipo de cambio de 1 millón a 1, con billetes de 10 a 200.
 
 Examinando los periodos de redenominación, 1988 se considera un año de hiperinflación, especialmente en septiembre. Julio-agosto de 1990 también fue un periodo de hiperinflación. En 1988, la tasa de inflación anual fue del 667%, con un pico del 50% en septiembre. En cambio, 1989 experimentó una tasa de inflación del 3000% sin que ningún mes superara el 50%, por lo que no se clasificó como hiperinflación. En 1990, la inflación alcanzó un máximo del 7481%. Está claro que la regla del 50% puede ser arbitraria, ya que 1988 se consideró un año de hiperinflación, a diferencia de 1989. Si se reconsiderara esta regla, sería prudente bajar el umbral para incluir periodos como el que vivió Perú en 1989.
-
 
 > Entender lo que ocurre
 >
@@ -955,302 +888,201 @@ Examinando los periodos de redenominación, 1988 se considera un año de hiperin
 
 ### Nicaragua
 
-
 ![image](assets/es/058.webp)
 
 Nicaragua, anteriormente bajo dominio español, utilizó inicialmente el dólar español, como muchos otros países colonizados por España. Tras integrarse en el Imperio Español, el Imperio Mexicano y luego en la República Federal de Centroamérica, Nicaragua declaró su independencia. A partir de 1878, el peso se convirtió en la moneda oficial del país, con valores que fluctuaban entre 1 y 100. En 1912, el país introdujo el euro. En 1912, el país introdujo el primer córdoba, al que siguieron el segundo en 1988 y el tercero en 1991, que sigue en uso hoy en día. El primer Córdoba alcanzó un valor de 1 millón, y el segundo de 10 millones. La redenominación de 1991 se produjo tras varios años de hiperinflación.
 
-
 ### Venezuela
-
 
 ![image](assets/es/059.webp)
 
-
-Venezuela es el último país mencionado en este vídeo. El país ha sufrido cuatro redenominaciones de moneda a lo largo del tiempo. En sus inicios, Venezuela utilizó el dólar español antes de declarar su independencia en 1811. En 1879, introdujo el bolívar como moneda oficial, que estuvo en vigor hasta 1983, cuando el gobierno optó por un sistema de tipo Exchange flotante utilizando el dólar.
-
+Venezuela es el último país mencionado en este vídeo. El país ha sufrido cuatro redenominaciones de moneda a lo largo del tiempo. En sus inicios, Venezuela utilizó el dólar español antes de declarar su independencia en 1811. En 1879, introdujo el bolívar como moneda oficial, que estuvo en vigor hasta 1983, cuando el gobierno optó por un sistema de tipo de cambio flotante utilizando el dólar.
 
 Un hecho destacable de Venezuela es su pertenencia a la Unión Monetaria Latina. Esta unión incluía monedas como las 5 pesetas de España, los 5 dracmas de Grecia, los 5 bolívares de Venezuela, las 5 liras de Italia, los 5 francos belgas y los 5 francos franceses.
 
-
 ![image](assets/es/060.webp)
-
 
 ![image](assets/es/061.webp)
 
-
 ![image](assets/es/062.webp)
-
 
 ![image](assets/es/063.webp)
 
+Durante este periodo, la moneda de 5 bolívares de Venezuela tenía el mismo peso que los de los países miembros de la Unión, entre ellos Italia, España, Bélgica y Francia. Estos bolívares eran de plata, y una moneda específica de 1929 pesaba 25 gramos y tenía una pureza de 900, es decir, un 90% de plata pura. Con el precio actual de la plata, esta moneda vale aproximadamente entre 17 y 18 dólares estadounidenses.
 
-Durante este periodo, el Coin de 5 bolívares de Venezuela tenía el mismo peso que los de los países miembros de la Unión, entre ellos Italia, España, Bélgica y Francia. Estos bolívares eran de plata, y un Coin específico de 1929 pesaba 25 gramos y tenía una pureza de 900, es decir, un 90% de plata pura. Con el precio actual de la plata, este Coin vale aproximadamente entre 17 y 18 dólares estadounidenses.
-
-
-Tras la adopción de un tipo flotante Exchange en 1983, se produjeron varias redenominaciones:
-
-
+Tras la adopción de un tipo de cambio flotante en 1983, se produjeron varias redenominaciones:
 
 - En 2008 se introdujo el bolívar fuerte, que llegó a alcanzar los 100.000 antes de una redenominación de mil a uno.
 - En 2018, se introdujo el Soberano, cuyos billetes alcanzaron el millón. En 2021, fue sustituido por el bolívar digital, que también alcanzó el millón, antes de una nueva redenominación de un millón a uno. Hoy, el billete de 10 o 20 equivale a 10 millones o 20 millones en Soberano.
 
 Los billetes de este periodo, que datan de 2018, se distribuyen en varias conferencias de Bitcoin en Biarritz, Toronto y Miami. Estos billetes de Soberano alcanzaron un valor máximo de 1 millón. Entonces se produjo una redenominación que redujo el valor de 1 millón a unos 3 céntimos. Actualmente, 10 billetes de 1 millón corresponden a un billete de 10. Desde 2016, Venezuela sufre hiperinflación, lo que representa el 57º periodo en una tabla específica.
 
-
 En el siguiente vídeo, se presentará una colección de billetes de la hiperinflación, centrada en Venezuela y otros países de la lista. Esta colección contiene casi todos los billetes venezolanos. El estudio se centrará en las diferentes redenominaciones de cada uno de los países mencionados. Además, se estudiarán las redenominaciones en Zimbabue, un tema de gran interés.
-
 
 ### Conclusión
 
-
 Hemos visto que la hiperinflación no es el único indicador de una catástrofe económica. Redenominar varias veces, quitar ceros o cambiar el nombre de la moneda tiene repercusiones directas en la población, que van desde la pérdida de ayudas hasta problemas alimentarios. Aunque la hiperinflación es preocupante, el número de redenominaciones, como las observadas en Brasil, muestra una realidad más compleja.
-
 
 Basándose en el criterio del 50% de inflación mensual, varios periodos podrían haberse clasificado como hiperinflación. Esto es especialmente cierto cuando se examinan los criterios de la organización internacional de contabilidad, que tiene en cuenta características como el rápido abandono de la moneda por parte de la población, la indexación salarial y los préstamos con elevados tipos de interés para compensar la inflación.
 
-
 En conclusión, la hiperinflación es sólo un aspecto de los retos económicos. Una inflación elevada por sí sola puede ser igualmente perjudicial. La próxima sección explorará posibles soluciones para superar la hiperinflación.
-
 
 ## Cómo superar la hiperinflación
 
-
 <chapterId>e3484a31-a851-5f92-8af5-00eddae67db1</chapterId>
-
 
 ### Cómo acabar con la inflación moderada y alta
 
-
-Las conclusiones mencionadas proceden del libro "Régimen monetario e inflación" de Peter Bernholz. Según Bernholz, el único método para acabar con la inflación es aplicar una reforma monetaria e imponer restricciones fiscales al gobierno. Estas restricciones implican la creación de una institución, como un banco central, que funcione con independencia de las decisiones políticas del gobierno. La inflación alta y la hiperinflación suelen ser el resultado de la financiación de déficits presupuestarios mediante la creación de dinero. Para Address moderar la inflación, es esencial disminuir el crecimiento del Supply dinero. Bernholz también sugiere que este crecimiento monetario sea relativo al de los países vecinos. Un punto sorprendente es que, durante periodos de alta o hiperinflación, el valor total del dinero Supply puede de hecho disminuir. Un ejemplo sorprendente de esta situación es Zimbabue.
-
+Las conclusiones mencionadas proceden del libro "Régimen monetario e inflación" de Peter Bernholz. Según Bernholz, el único método para acabar con la inflación es aplicar una reforma monetaria e imponer restricciones fiscales al gobierno. Estas restricciones implican la creación de una institución, como un banco central, que funcione con independencia de las decisiones políticas del gobierno. La inflación alta y la hiperinflación suelen ser el resultado de la financiación de déficits presupuestarios mediante la creación de dinero. Para abordar moderar la inflación, es esencial disminuir el crecimiento del suministro de dinero. Bernholz también sugiere que este crecimiento monetario sea relativo al de los países vecinos. Un punto sorprendente es que, durante periodos de alta o hiperinflación, el valor total del dinero suministrado puede de hecho disminuir. Un ejemplo sorprendente de esta situación es Zimbabue.
 
 ### Soluciones contraintuitivas
 
+Al estudiar Zimbabue, se observó que 10 billones de unidades del dinero en circulación habían perdido todo su valor. En Weimar, fue posible imprimir dos tercios del valor nominal total de 65 billones de unidades del suministro de dinero en un solo día. Esto demuestra cómo puede devaluarse el dinero. Para remediar esta situación, es necesario aumentar significativamente el suministro de dinero hasta alcanzar un nivel adecuado. Entonces, es indispensable una reforma monetaria. En una situación de inflación elevada, esta reforma es inevitable, pero debe garantizar que haya suficiente dinero en circulación. Tras este paso, se pueden imponer restricciones al gobierno.
 
-Al estudiar Zimbabue, se observó que 10 billones de unidades del dinero Supply habían perdido todo su valor. En Weimar, fue posible imprimir dos tercios del valor nominal total de 65 billones de unidades del dinero Supply en un solo día. Esto demuestra cómo puede devaluarse el dinero Supply. Para remediar esta situación, es necesario aumentar significativamente el dinero Supply hasta alcanzar un nivel adecuado. Entonces, es indispensable una reforma monetaria. En una situación de inflación elevada, esta reforma es inevitable, pero debe garantizar que haya suficiente dinero en circulación. Tras este paso, se pueden imponer restricciones al gobierno.
+Según las observaciones de Bernholz, al abordar los problemas de inflación, instituciones como el FMI y el Banco Mundial no siempre adoptan las estrategias más eficaces. En algunos casos, cuando un país necesita aumentar su suministro monetario, estas instituciones tratan de reducirlo. La clave está en alcanzar un nivel monetario adecuado y luego imponer límites a su crecimiento, evitando así financiar los gastos del gobierno mediante la creación monetaria.
 
-
-Según las observaciones de Bernholz, al abordar los problemas de inflación, instituciones como el FMI y el Banco Mundial no siempre adoptan las estrategias más eficaces. En algunos casos, cuando un país necesita aumentar su Supply monetario, estas instituciones tratan de reducirlo. La clave está en alcanzar un nivel monetario adecuado y luego imponer límites a su crecimiento, evitando así financiar los gastos del gobierno mediante la creación monetaria.
-
-
-Un aspecto interesante planteado por Bernholz es que el éxito de una reforma monetaria depende no sólo de su pertinencia técnica, sino también de la confianza que la población deposite en ella. Algunas reformas bien diseñadas pueden fracasar porque el público no confía en ellas, mientras que otras, mal diseñadas, pueden tener éxito porque la población confía en ellas. La percepción y la confianza de la población son, por tanto, Elements esenciales en el éxito o el fracaso de una reforma monetaria.
-
-
+Un aspecto interesante planteado por Bernholz es que el éxito de una reforma monetaria depende no sólo de su pertinencia técnica, sino también de la confianza que la población deposite en ella. Algunas reformas bien diseñadas pueden fracasar porque el público no confía en ellas, mientras que otras, mal diseñadas, pueden tener éxito porque la población confía en ellas. La percepción y la confianza de la población son, por tanto, elementos esenciales en el éxito o el fracaso de una reforma monetaria.
 
 - En Zimbabue, la solución adoptada para contrarrestar la inflación fue la dolarización, lo que significa que adoptaron el dólar estadounidense u otras monedas de países vecinos. Este planteamiento impide al gobierno imprimir dinero a discreción.
 - En Alemania, la solución fue crear una nueva moneda, el Rentenmark. Esta moneda estaba respaldada por los activos territoriales del Reich, y esta estrategia resultó eficaz.
 
-
 ### El caso de Zimbabue
-
 
 ![image](assets/es/064.webp)
 
-
 Zimbabue obtuvo la independencia en 1980 e introdujo su propia moneda, el dólar zimbabuense. Inicialmente, dos dólares zimbabuenses valían alrededor de 1,60 dólares estadounidenses. Sin embargo, en 1997, a raíz de unas medidas sociales en favor de los veteranos de guerra, la moneda se devaluó un 72% en un solo día, durante el Viernes Negro. Después, a principios de la década de 2000, el país lanzó un programa de redistribución de tierras, que consistía en quitar tierras a los propietarios blancos y distribuirlas entre la población local. Esta decisión perjudicó a las exportaciones porque los nuevos propietarios carecían a menudo de los conocimientos necesarios para gestionar explotaciones a gran escala. Como resultado, mientras que Zimbabue era exportador neto en 1999, se convirtió en importador neto en 2003.
 
-
-En 2006, el país introdujo una nueva versión de su moneda, el ZWN, con un tipo Exchange de 1 a 1.000. En 2008 se introdujo otra denominación, el ZWR, con un tipo Exchange de 1 a 10.000 millones. En 2008, se introdujo otra denominación, el ZWR, con una Exchange de 1 a 10 billones. Esto llevó a la creación de los emblemáticos billetes de 100 billones.
-
+En 2006, el país introdujo una nueva versión de su moneda, el ZWN, con un tipo de cambio de 1 a 1.000. En 2008 se introdujo otra denominación, el ZWR, con un tipo de cambio de 1 a 10.000 millones. En 2008, se introdujo otra denominación, el ZWR, con un tipo de cambio de 1 a 10 billones. Esto llevó a la creación de los emblemáticos billetes de 100 billones.
 
 ![image](assets/es/065.webp)
 
-
 #### Dolarización y resolución de crisis
-
 
 Por ello, a partir de 2009, ante una crisis monetaria persistente y una hiperinflación galopante, Zimbabue abandonó su moneda nacional y permitió el uso de divisas extranjeras, principalmente el dólar estadounidense. Esta decisión, aunque radical, puso fin a la hiperinflación. Una lección clave que hay que aprender es que detener la emisión excesiva de dinero y poner fin a la financiación del déficit presupuestario por parte del banco central puede ayudar a prevenir la hiperinflación.
 
-
 Sin embargo, la dolarización no es una solución milagrosa. Aunque puede acabar con la hiperinflación, presenta otros retos económicos. Una de sus consecuencias es la pérdida de autonomía de la política monetaria. Sin su propia moneda, un país no puede ajustar su política monetaria para responder a las perturbaciones económicas internas.
-
 
 En 2007, la tasa de inflación de Zimbabue alcanzó el umbral del 50% mensual, marcando oficialmente al país como en estado de hiperinflación. Tras la dolarización en 2009, la hiperinflación cesó; sin embargo, el país siguió enfrentándose a otros retos económicos.
 
 Es preocupante observar que Zimbabue ha intentado desde entonces reintroducir su propia moneda, y han reaparecido signos de alta inflación. Según algunas organizaciones internacionales, el país podría cumplir ya de nuevo los criterios de hiperinflación, aunque todavía no haya alcanzado el umbral oficial del 50% mensual. Esto sirve de recordatorio de los peligros de la emisión excesiva de dinero y la financiación del déficit por el banco central.
 
-
 ### Conclusión
 
-
-En mi libro titulado "Todo sobre la Bitcoin", dediqué un capítulo entero a la hiperinflación en Zimbabue. En él detallo los acontecimientos más significativos, proporcionando varios ejemplos que ilustran cómo el país acabó finalmente con la hiperinflación.
-
+En el libro titulado "Todo sobre Bitcoin", se dedica un capítulo entero a la hiperinflación en Zimbabue. En él se detallan los acontecimientos más significativos, proporcionando varios ejemplos que ilustran cómo el país acabó finalmente con la hiperinflación.
 
 ![image](assets/es/066.webp)
 
-
-Para los curiosos sobre la experiencia alemana tras la Primera Guerra Mundial, recomiendo encarecidamente el cómic "El banquero del Reich" Narra cómo Alemania logró superar la hiperinflación, en particular mediante la creación del Rentenmark.
-
+Para los curiosos sobre la experiencia alemana tras la Primera Guerra Mundial, recomendamos el cómic "El banquero del Reich" Narra cómo Alemania logró superar la hiperinflación, en particular mediante la creación del Rentenmark.
 
 ![image](assets/es/067.webp)
 
-
-La clave es que existen varias estrategias para superar la hiperinflación. Se puede optar por la dolarización o introducir una nueva moneda. Estas soluciones sólo funcionarán si la población confía en ellas. Es crucial imponer restricciones estrictas. Un banco central verdaderamente independiente es esencial. No debe inflar el dinero Supply para cubrir los déficits públicos. En caso de inflación leve, debería bastar con limitar el crecimiento del Supply monetario. Sin embargo, cuando nos enfrentamos a una hiperinflación, es crucial contar primero con una Supply monetaria adecuada en relación con el tamaño de la economía. Después, es imperativo imponer restricciones estrictas al gobierno para estabilizar la situación.
-
+La clave es que existen varias estrategias para superar la hiperinflación. Se puede optar por la dolarización o introducir una nueva moneda. Estas soluciones sólo funcionarán si la población confía en ellas. Es crucial imponer restricciones estrictas. Un banco central verdaderamente independiente es esencial. No debe inflar la emisión de dinero para cubrir los déficits públicos. En caso de inflación leve, debería bastar con limitar el crecimiento del suministro monetario. Sin embargo, cuando nos enfrentamos a una hiperinflación, es crucial contar primero con una emisión monetaria adecuada en relación con el tamaño de la economía. Después, es imperativo imponer restricciones estrictas al gobierno para estabilizar la situación.
 
 ## Presentación de la colección de billetes de la hiperinflación
-
 
 <chapterId>f3ffbb47-3aeb-54bd-80a9-adccb0f419e2</chapterId>
 
 [Descubre la colección escaneada en el *Bitcoin Educational Toolkit* (también accesible desde la sección *Recursos* de la plataforma Plan ₿ Academy.](https://penpot.planb.network/#/view?page-id=c157057b-fd28-8042-8004-4f081b21defc&file-id=c157057b-fd28-8042-8004-4f081b21defb&section=interactions&index=0&share-id=7154756b-3ebd-8040-8004-6475c2af5889&interactions-mode=show-on-click)
 
-
 ![image](assets/es/068.webp)
 
 # ¿Cómo hemos llegado hasta aquí?
 
-
 <partId>f66ca17e-be9e-5d30-a098-f7affd8962a1</partId>
 
-
-## La aparición del segundo Layer del dinero y los bancos centrales
-
+## La aparición de la segunda capa del dinero y los bancos centrales
 
 <chapterId>0455ffe3-9d45-5a67-ac96-3f815dc507a1</chapterId>
 
-
 Transcripción:
 
-
-La aparición de la segunda Layer del dinero y de los primeros bancos centrales es un tema fascinante. Este tema se trata ampliamente en el libro "Layered Money" de Nick Battia. Lo recomiendo encarecidamente a quienes estén interesados en la evolución y los entresijos de nuestros sistemas monetarios. El objetivo de esta sección es comprender el origen de la creación de dinero y cómo podría conducir a la hiperinflación.
-
+La aparición de la segunda capa del dinero y de los primeros bancos centrales es un tema fascinante. Este tema se trata ampliamente en el libro "Layered Money" de Nick Battia. Lo recomendamos a quienes estén interesados en la evolución y los entresijos de nuestros sistemas monetarios. El objetivo de esta sección es comprender el origen de la creación de dinero y cómo podría conducir a la hiperinflación.
 
 ![image](assets/es/069.webp)
 
-
 ### Dinero piramidal y bancos centrales
-
 
 #### El Florín
 
-
-La historia del dinero se remonta al siglo XIII en Italia, concretamente en la ciudad de Florencia. En aquella época, el florín y los billetes de Exchange eran comunes. Un ejemplo notable es el florín, adornado con la figura de San Juan Bautista.
-
+La historia del dinero se remonta al siglo XIII en Italia, concretamente en la ciudad de Florencia. En aquella época, el florín y los billetes de intercambio eran comunes. Un ejemplo notable es el florín, adornado con la figura de San Juan Bautista.
 
 ![image](assets/es/070.webp)
 
-
 ![image](assets/es/071.webp)
-
 
 Aunque poseer un florín auténtico es caro hoy en día, existen reproducciones. También existen otras monedas de la época, como el soldo de los estados italianos del siglo XVII, que presenta una imagen de Cristo.
 
+#### Facturas de intercambio (siglo XIII)
 
-#### Facturas de Exchange (siglo XIII)
+La práctica habitual en aquella época era la siguiente: Los orfebres emitían billetes de intercambio en cambio por los florines depositados. Estos florines se guardaban cuidadosamente en sus cámaras acorazadas. De este modo, el oro real, representado por el florín, formaba la primer capa de dinero, mientras que los billetes de intercambio formaban una segunda capa. Sin embargo, la liquidez de este sistema era limitada. Si alguien quería reclamar su oro en cambio por su billete, la transacción era sencilla. Sin embargo, el intercambio de estos billetes entre particulares no era una práctica habitual.
 
+#### El intercambio de Amberes (siglo XVI)
 
-La práctica habitual en aquella época era la siguiente: los orfebres emitían billetes de Exchange en Exchange por los florines depositados. Estos florines se guardaban cuidadosamente en sus cámaras acorazadas. De este modo, el oro real, representado por el florín, formaba el primer Layer de dinero, mientras que los billetes de Exchange formaban un segundo Layer. Sin embargo, la liquidez de este sistema era limitada. Si alguien quería Redeem su oro en Exchange por su billete, la transacción era sencilla. Sin embargo, el intercambio de estos billetes entre particulares no era una práctica habitual.
+El intercambio de Amberes marcó un hito clave en la evolución del papel moneda. Fue allí donde se introdujo la práctica del descuento de pagarés. Estos pagarés eran instrumentos de papel que representaban un valor monetario, pero su singularidad radicaba en que llevaban nombre y fecha de vencimiento. Esto dificultaba su intercambio antes de la fecha de vencimiento.
 
+La revolución que supuso el intercambio de Amberes consistió en la posibilidad de descontar estos pagarés antes de su vencimiento. Por ejemplo, si un pagaré vencía dentro de un mes, era posible comprarlo con descuento para tener en cuenta el tiempo que faltaba hasta la fecha de vencimiento. Esta innovación no sólo hizo que el papel moneda fuera más líquido, sino que también introdujo el concepto del valor temporal del dinero.
 
-#### La Exchange de Amberes (siglo XVI)
-
-
-El Exchange de Amberes marcó un hito clave en la evolución del papel moneda. Fue allí donde se introdujo la práctica del descuento de pagarés. Estos pagarés eran instrumentos de papel que representaban un valor monetario, pero su singularidad radicaba en que llevaban nombre y fecha de vencimiento. Esto dificultaba su Exchange antes de la fecha de vencimiento.
-
-La revolución que supuso la Exchange de Amberes consistió en la posibilidad de descontar estos pagarés antes de su vencimiento. Por ejemplo, si un pagaré vencía dentro de un mes, era posible comprarlo con descuento para tener en cuenta el tiempo que faltaba hasta la fecha de vencimiento. Esta innovación no sólo hizo que el papel moneda fuera más Liquid, sino que también introdujo el concepto del valor temporal del dinero.
-
-
-Este concepto, aunque asociado a Nick Bell a través de su seudónimo en Twitter "valor temporal de BTC", no es una invención suya. Sin embargo, lo discute en detalle en su obra. La idea principal es que el tiempo tiene valor. Así, si alguien decide pagar un pagaré por valor de 100 dólares con un mes de antelación, puede obtenerlo por, por ejemplo, 98 dólares y recibir los 100 dólares en la fecha de vencimiento. Esta innovación monetaria se originó en la Bolsa de Amberes Exchange.
-
+Este concepto, aunque asociado a Nick Bell a través de su seudónimo en Twitter "valor temporal de BTC", no es una invención suya. Sin embargo, lo discute en detalle en su obra. La idea principal es que el tiempo tiene valor. Así, si alguien decide pagar un pagaré por valor de 100 dólares con un mes de antelación, puede obtenerlo por, por ejemplo, 98 dólares y recibir los 100 dólares en la fecha de vencimiento. Esta innovación monetaria se originó en la Bolsa de cambio de Amberes.
 
 #### El VOC y la Bolsa de Ámsterdam (siglo XVII)
 
-
 ![image](assets/es/072.webp)
 
-
-Tras la creación de la Bolsa de Amberes Exchange, un hito importante fue la fundación de la VOC, la Compañía Holandesa de las Indias Orientales. Esta compañía, con sede en los Países Bajos, llegó a emitir su propia moneda. Tras la creación de la VOC, se estableció el primer mercado de valores en Ámsterdam, lo que marcó el inicio de las operaciones bursátiles de la compañía. Lo interesante es saber cómo consiguieron los holandeses acabar con la supremacía de Amberes como centro económico internacional. Simplemente bloquearon el acceso al río Escalda. Esta estrategia formaba parte de un movimiento histórico mayor, la revuelta de los mendigos. Un acontecimiento crucial en la historia europea.
-
+Tras la creación de la Bolsa de valores de Amberes, un hito importante fue la fundación de la VOC, la Compañía Holandesa de las Indias Orientales. Esta compañía, con sede en los Países Bajos, llegó a emitir su propia moneda. Tras la creación de la VOC, se estableció el primer mercado de valores en Ámsterdam, lo que marcó el inicio de las operaciones bursátiles de la compañía. Lo interesante es saber cómo consiguieron los holandeses acabar con la supremacía de Amberes como centro económico internacional. Simplemente bloquearon el acceso al río Escalda. Esta estrategia formaba parte de un movimiento histórico mayor, la revuelta de los mendigos. Un acontecimiento crucial en la historia europea.
 
 #### La intervención del Banco de Amsterdam
 
-
 ![image](assets/es/073.webp)
 
-
-Tras la creación de la VOC, otro acontecimiento importante en la historia monetaria fue la introducción de monedas de oro por el Banco de Ámsterdam. Estas monedas, que datan de 1722, eran de plata. Sin embargo, lo que realmente revolucionó las finanzas en aquella época no fue tanto el Coin en sí, sino las cuentas asociadas a esta moneda en el Banco de Amsterdam. Estas cuentas se convirtieron en el principal medio de Exchange internacional. Las transacciones se anotaban simplemente en registros o libros de contabilidad. Gracias a este sistema, Ámsterdam se convirtió en el centro económico mundial. Con el tiempo, el Banco de Amsterdam decidió imponer el uso de estas cuentas. Se exigió a los cambistas independientes que Exchange depositaran diariamente sus monedas en el banco.
-
+Tras la creación de la VOC, otro acontecimiento importante en la historia monetaria fue la introducción de monedas de oro por el Banco de Ámsterdam. Estas monedas, que datan de 1722, eran de plata. Sin embargo, lo que realmente revolucionó las finanzas en aquella época no fue tanto la moneda en sí, sino las cuentas asociadas a esta moneda en el Banco de Amsterdam. Estas cuentas se convirtieron en el principal medio de intercambio internacional. Las transacciones se anotaban simplemente en registros o libros de contabilidad. Gracias a este sistema, Ámsterdam se convirtió en el centro económico mundial. Con el tiempo, el Banco de Amsterdam decidió imponer el uso de estas cuentas. Se exigió a los cambistas independientes que depositaran diariamente sus monedas en el banco.
 
 #### Creación del Banco de Inglaterra para financiar la guerra
 
+La creación del Banco de Inglaterra estuvo motivada por la necesidad de financiar la guerra de finales del siglo XVII. Al igual que el Banco de Amsterdam, impuso los depósitos por decreto. La particularidad del Banco de Inglaterra consistió en relegar a los bancos privados a una posición secundaria en el sistema monetario, creando así lo que podría denominarse una "tercera capa" de la moneda.
 
-La creación del Banco de Inglaterra estuvo motivada por la necesidad de financiar la guerra de finales del siglo XVII. Al igual que el Banco de Amsterdam, impuso los depósitos por decreto. La particularidad del Banco de Inglaterra consistió en relegar a los bancos privados a una posición secundaria en el sistema monetario, creando así lo que podría denominarse una "tercera Layer" de la moneda.
-
-Inicialmente, la primera Layer de moneda estaba representada por el oro. Los depósitos realizados en bancos privados formaban la segunda Layer. Sin embargo, cuando estos depósitos ya no pudieron convertirse en oro, apareció una tercera Layer de moneda. A partir de entonces, los billetes emitidos por los bancos privados ya no eran convertibles en oro, sino en papel moneda del Banco de Inglaterra, que a su vez era convertible en oro. Esta evolución condujo a una complejización del sistema monetario con la adición de capas adicionales.
-
+Inicialmente, la primer capa de moneda estaba representada por el oro. Los depósitos realizados en bancos privados formaban la segunda capa. Sin embargo, cuando estos depósitos ya no pudieron convertirse en oro, apareció una tercera capa de moneda. A partir de entonces, los billetes emitidos por los bancos privados ya no eran convertibles en oro, sino en papel moneda del Banco de Inglaterra, que a su vez era convertible en oro. Esta evolución condujo a una complejización del sistema monetario con la adición de capas adicionales.
 
 #### El pánico de 1796
-
 
 ![image](assets/es/074.webp)
 
 Pánico bancario en la Seamen's Savings Bank durante el Pánico de 1857.
 
-
-Tras el pánico bancario de 1796, se produjo un fenómeno en el que todo el mundo intentó ascender en la "pirámide monetaria" La gente quería Exchange su moneda de tercera Layer por moneda de segunda Layer y, en última instancia, por moneda de primera Layer, que era el oro. Ante esta avalancha masiva, el Banco de Inglaterra se vio obligado a tomar medidas para estabilizar la situación. Para evitar una posible deflación de las reservas de oro, decidió suspender la convertibilidad de sus billetes en oro. Esta suspensión, prevista inicialmente como una medida temporal, duró aproximadamente dos décadas.
-
+Tras el pánico bancario de 1796, se produjo un fenómeno en el que todo el mundo intentó ascender en la "pirámide monetaria" La gente quería cambiar su moneda de tercer capa por moneda de segunda capa y, en última instancia, por moneda de primer capa, que era el oro. Ante esta avalancha masiva, el Banco de Inglaterra se vio obligado a tomar medidas para estabilizar la situación. Para evitar una posible deflación de las reservas de oro, decidió suspender la convertibilidad de sus billetes en oro. Esta suspensión, prevista inicialmente como una medida temporal, duró aproximadamente dos décadas.
 
 ### Conclusión:
 
-
 Los bancos centrales han evolucionado hasta convertirse en prestamistas de última instancia, suspendiendo la convertibilidad de su moneda en oro. Aunque en un principio esta medida se concibió como una solución temporal, finalmente se convirtió en permanente, marcando el advenimiento del concepto de prestamista de última instancia. Esta transformación ha dado forma a los bancos centrales tal y como se conocen hoy en día. Sin embargo, en las economías más frágiles, esta capacidad de imprimir dinero a voluntad puede acarrear consecuencias indeseables, como la hiperinflación, si se utiliza de forma irresponsable.
-
 
 ## Libros y recursos
 
-
 <chapterId>c44e4519-0741-527b-b3b0-3f513e87147d</chapterId>
 
-
-La hiperinflación es un tema fascinante que se ha estudiado a través de diversos acontecimientos históricos. Si desea profundizar en este tema, aquí tiene una lista de 10 recursos esenciales para leer y estudiar:
-
-
+La hiperinflación es un tema fascinante que se ha estudiado a través de diversos acontecimientos históricos. Si deseas profundizar en este tema, aquí tienes una lista de 10 recursos esenciales para leer y estudiar:
 
 - "Cuando el dinero muere: La pesadilla del gasto deficitario, la devaluación y la hiperinflación en la Alemania de Weimar", de Adam Fergusson. Este libro detalla la crisis de hiperinflación en Alemania tras la Primera Guerra Mundial.
 
-
-
 - "The Economics of Inflation - A Study of Currency Depreciation in Post-War Germany", de Costantino Bresciani-Turroni. Un análisis en profundidad de la hiperinflación alemana en la década de 1920.
-
-
 
 - "Esta vez es diferente: Eight Centuries of Financial Folly", de Carmen M. Reinhart y Kenneth S. Rogoff. Aunque el libro abarca varios tipos de crisis financieras, analiza en profundidad la hiperinflación a lo largo de la historia.
 
-
-
 - "La hiperinflación de Zimbabue, análisis y lecciones aprendidas", por Steve Hanke. Estudio de la hiperinflación de Zimbabue a principios de la década de 2000.
-
-
 
 - "Regímenes monetarios e inflación: Historia, relaciones económicas y políticas", de Peter Bernholz. El libro examina casos históricos de hiperinflación y trata de comprender los factores subyacentes.
 
-
-
 - "La guía de supervivencia a la hiperinflación: Estrategias para las empresas estadounidenses", de Gerald Swanson. Una guía práctica sobre cómo las empresas pueden navegar en un entorno hiperinflacionista.
-
-
 
 - "Morir de dinero: Lecciones de las grandes inflaciones alemana y estadounidense", de Jens O. Parsson. Un análisis comparativo de las crisis de inflación en Alemania y Estados Unidos.
 
-
-
 - "La caída del dinero: La hiperinflación alemana y la destrucción de la clase media", de Frederick Taylor. Una exploración narrativa del impacto social y económico de la hiperinflación en la sociedad alemana.
-
-
 
 - "Cajas de conversión para países en desarrollo: A Handbook", de Steve Hanke y Kurt Schuler. Aunque se centra en las cajas de conversión, este libro ofrece una perspectiva sobre cómo evitar situaciones de hiperinflación.
 
-
 # Sección final
-
 
 <partId>cb1f4a4b-556a-4e47-a5cc-136be35a1f9a</partId>
 
-
 ## Opiniones y valoraciones
-
 
 <chapterId>1a37317e-372a-5241-b478-8316d44f9283</chapterId>
 
@@ -1258,13 +1090,11 @@ La hiperinflación es un tema fascinante que se ha estudiado a través de divers
 
 ## Examen final
 
-
 <chapterId>d01831c3-6c4d-59e3-95bc-03e97a05c142</chapterId>
 
 <isCourseExam>true</isCourseExam>
 
 ## Conclusión
-
 
 <chapterId>45d410b0-71ed-4502-8d8d-8b6df761db23</chapterId>
 

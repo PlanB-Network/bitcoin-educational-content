@@ -2514,9 +2514,11 @@ https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-
 
 
 
-感謝 Umbrel，個人 Lightning 節點的管理已大大簡化，但仍相對複雜。基於這個原因，我們將在未來的課程中更仔細地探討這個主題。
+得益於 Umbrel，個人 Lightning 節點的管理得以簡化，但仍然相對複雜。因此，我建議您修讀 LNP 202 課程，該課程是 BTC 202 課程的邏輯延續，並在其中我將一步一步地指導您在 Umbrel 上部署與管理您的 Lightning 節點。
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### 尾尺
 

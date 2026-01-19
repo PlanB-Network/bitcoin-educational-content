@@ -2514,9 +2514,11 @@ Tot slot raad ik de applicatie *Lightning Network+* aan, waarmee je collega's ku
 
 
 
-Dankzij Umbrel is het beheren van een persoonlijke Lightning-node sterk vereenvoudigd, maar het is nog steeds relatief complex. Daarom zullen we in een toekomstige cursus die volledig aan dit gebruik is gewijd dieper op dit onderwerp ingaan.
+Dankzij Umbrel is het beheer van een persoonlijke Lightning-node vereenvoudigd, maar het blijft niettemin relatief complex. Daarom raad ik u aan de cursus LNP 202 te volgen, die het logische vervolg vormt op de cursus BTC 202, en waarin ik u stap voor stap begeleid bij het opzetten en beheren van uw Lightning-node op Umbrel.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Tailscale
 

@@ -2514,9 +2514,11 @@ https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-
 
 
 
-Umbrelのおかげで、パーソナル・ライトニング・ノードの管理は大幅に簡素化されましたが、それでも比較的複雑です。そのため、将来、この用途に特化したコースでこのテーマを詳しく取り上げる予定です。
+Umbrelのおかげで、個人用Lightningノードの管理は簡素化されていますが、それでもなお比較的複雑です。そのため、BTC 202コースの論理的な続編であるLNP 202コースの受講をお勧めします。このコースでは、Umbrel上でのLightningノードの構築と管理を、段階的にご案内します。
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### テールスケール
 

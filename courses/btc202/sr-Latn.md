@@ -2514,9 +2514,11 @@ Na kraju, preporučujem aplikaciju *Lightning Network+*, koja vam omogućava pro
 
 
 
-Zahvaljujući Umbrel-u, upravljanje ličnim Lightning čvorom je značajno pojednostavljeno, ali je i dalje relativno složeno. Iz tog razloga, detaljnije ćemo se baviti ovom temom u budućem kursu posvećenom isključivo ovoj upotrebi.
+Zahvaljujući Umbrelu, upravljanje ličnim Lightning čvorom je pojednostavljeno, ali i dalje ostaje relativno složeno. Iz tog razloga preporučujem da pohađate kurs LNP 202, koji predstavlja logičan nastavak kursa BTC 202, i u okviru kojeg vas korak po korak pratim u postavljanju i upravljanju vašim Lightning čvorom na Umbrelu.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Tailscale
 

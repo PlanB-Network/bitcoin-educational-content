@@ -2510,9 +2510,11 @@ Por último, te recomiendo la aplicación *Lightning Network+*, que te permite e
 
 
 
-Gracias a Umbrel, la gestión de un nodo Lightning personal se ha simplificado mucho, pero sigue siendo relativamente compleja. Por este motivo, profundizaremos en este tema en un próximo curso dedicado íntegramente a este uso.
+Gracias a Umbrel, la gestión de un nodo Lightning personal se simplifica, pero sigue siendo relativamente compleja. Por ello, le recomiendo seguir el curso LNP 202, que constituye la continuación lógica del curso BTC 202, y en el cual le acompaño paso a paso en la puesta en marcha y la gestión de su nodo Lightning en Umbrel.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Tailscale
 

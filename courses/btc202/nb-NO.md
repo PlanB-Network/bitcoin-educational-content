@@ -2514,9 +2514,11 @@ Til slutt anbefaler jeg *Lightning Network+*-applikasjonen, som lar deg finne je
 
 
 
-Takket være Umbrel er det blitt mye enklere å administrere en personlig Lightning-node, men det er fortsatt relativt komplisert. Derfor kommer vi til å se nærmere på dette emnet i et fremtidig kurs som er viet denne bruken.
+Takket være Umbrel er administrasjonen av en personlig Lightning-node forenklet, men den forblir likevel relativt kompleks. Av denne grunn anbefaler jeg at du følger kurset LNP 202, som er den logiske fortsettelsen av kurset BTC 202, og der jeg veileder deg steg for steg i oppsettet og administrasjonen av din Lightning-node på Umbrel.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Haleskala
 

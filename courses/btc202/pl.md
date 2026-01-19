@@ -2514,9 +2514,11 @@ Na koniec polecam aplikację *Lightning Network+*, która pozwala znaleźć part
 
 
 
-Dzięki Umbrel zarządzanie osobistym węzłem Lightning zostało znacznie uproszczone, ale nadal jest stosunkowo złożone. Z tego powodu przyjrzymy się bliżej temu tematowi w przyszłym kursie poświęconym w całości temu zastosowaniu.
+Dzięki Umbrel zarządzanie osobistym węzłem Lightning jest uproszczone, jednak nadal pozostaje stosunkowo złożone. Dlatego polecam Państwu udział w kursie LNP 202, który stanowi logiczną kontynuację kursu BTC 202 i w ramach którego krok po kroku przeprowadzam Państwa przez proces konfiguracji i zarządzania węzłem Lightning na Umbrel.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Skala ogonowa
 

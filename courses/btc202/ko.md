@@ -2514,9 +2514,11 @@ https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-
 
 
 
-엄브렐 덕분에 개인 라이트닝 노드 관리가 크게 간소화되었지만, 여전히 비교적 복잡합니다. 이러한 이유로 향후 이 사용법에 대한 강좌에서 이 주제에 대해 자세히 살펴보도록 하겠습니다.
+Umbrel 덕분에 개인 Lightning 노드의 관리는 간소화되었지만, 여전히 비교적 복잡합니다. 따라서 BTC 202 과정의 논리적 연속인 LNP 202 과정을 수강하시기를 권장하며, 이 과정에서 Umbrel에서 Lightning 노드를 설정하고 관리하는 방법을 단계별로 안내해 드립니다.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### 테일 스케일
 

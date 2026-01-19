@@ -2514,9 +2514,11 @@ Nakonec doporučuji aplikaci *Lightning Network+*, která umožňuje vyhledat pa
 
 
 
-Díky Umbrelu se správa osobního uzlu Lightning výrazně zjednodušila, ale stále je poměrně složitá. Z tohoto důvodu se tomuto tématu budeme blíže věnovat v některém z budoucích kurzů, který bude celý věnován tomuto využití.
+Díky Umbrelu je správa osobního Lightning uzlu zjednodušená, nicméně stále zůstává poměrně složitá. Proto vám doporučuji absolvovat kurz LNP 202, který je logickým pokračováním kurzu BTC 202 a ve kterém vás krok za krokem provedu nastavením a správou vašeho Lightning uzlu na Umbrelu.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Stupnice ocasu
 

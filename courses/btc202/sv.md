@@ -2514,9 +2514,11 @@ Slutligen rekommenderar jag applikationen * Lightning Network+*, som gör det m�
 
 
 
-Tack vare Umbrel har det blivit mycket enklare att hantera en personlig Lightning-nod, men det är fortfarande relativt komplext. Av denna anledning kommer vi att titta närmare på detta ämne i en framtida kurs som helt ägnas åt denna användning.
+Tack vare Umbrel är hanteringen av en personlig Lightning-nod förenklad, men den förblir ändå relativt komplex. Därför rekommenderar jag att du följer kursen LNP 202, som utgör den logiska fortsättningen på kursen BTC 202, och i vilken jag steg för steg guidar dig i installationen och hanteringen av din Lightning-nod på Umbrel.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Svansvåg
 

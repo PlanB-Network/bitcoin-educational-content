@@ -2514,9 +2514,11 @@ Lõpuks soovitan *Lightning Network+* rakendust, mis võimaldab teil leida eakaa
 
 
 
-Tänu Umbrelile on isikliku Lightning-sõlme haldamine oluliselt lihtsustatud, kuid see on siiski suhteliselt keeruline. Seetõttu käsitleme seda teemat lähemalt tulevases kursuses, mis on täielikult sellele kasutusalale pühendatud.
+Tänu Umbrelile on isikliku Lightningi sõlme haldamine lihtsustatud, kuid jääb siiski suhteliselt keerukaks. Seetõttu soovitan teil läbida kursuse LNP 202, mis on kursuse BTC 202 loogiline jätk ning milles juhendan teid samm-sammult oma Lightningi sõlme seadistamisel ja haldamisel Umbrelis.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Tailscale
 

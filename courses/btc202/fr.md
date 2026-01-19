@@ -1249,7 +1249,9 @@ Enfin, je vous recommande l’application *Lightning Network+*, qui permet de tr
 
 ![Image](assets/fr/089.webp)
 
-Grâce à Umbrel, la gestion d’un nœud Lightning personnel est grandement simplifiée, mais elle demeure malgré tout relativement complexe. C’est pourquoi nous aborderons ce sujet en profondeur dans un prochain cours entièrement consacré à cet usage.
+Grâce à Umbrel, la gestion d’un nœud Lightning personnel est simplifiée, mais elle reste néanmoins relativement complexe. C’est pourquoi je vous recommande de suivre le cours LNP 202, qui constitue la suite logique de ce cours BTC 202, et dans lequel je vous accompagne pas à pas dans la mise en place et la gestion de votre nœud Lightning sur Umbrel.
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Tailscale
 

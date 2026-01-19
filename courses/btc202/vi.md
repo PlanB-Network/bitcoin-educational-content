@@ -2514,9 +2514,11 @@ Cuối cùng, tôi khuyên bạn nên sử dụng ứng dụng *Lightning Networ
 
 
 
-Nhờ Umbrel, việc quản lý một node Lightning cá nhân đã được đơn giản hóa đáng kể, nhưng vẫn còn tương đối phức tạp. Vì lý do này, chúng ta sẽ xem xét kỹ hơn chủ đề này trong một khóa học sắp tới dành riêng cho việc sử dụng này.
+Nhờ Umbrel, việc quản lý một nút Lightning cá nhân trở nên đơn giản hơn, nhưng vẫn tương đối phức tạp. Chính vì vậy, tôi khuyến nghị bạn theo học khóa LNP 202, là phần tiếp nối hợp lý của khóa BTC 202, trong đó tôi sẽ đồng hành cùng bạn từng bước trong việc thiết lập và quản lý nút Lightning của bạn trên Umbrel.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Vảy đuôi
 

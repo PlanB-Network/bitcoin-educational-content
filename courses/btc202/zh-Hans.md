@@ -2507,9 +2507,11 @@ https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-
 
 
 
-有了 Umbrel，个人闪电节点的管理将大大简化，但仍然相对复杂。因此，我们将在后面专门针对这一用途的课程中对这一主题进行更深入的探讨。
+得益于 Umbrel，个人 Lightning 节点的管理得以简化，但仍然相对复杂。因此，我建议您学习 LNP 202 课程，该课程是 BTC 202 课程的逻辑延续，并在其中我将一步一步地指导您在 Umbrel 上部署和管理您的 Lightning 节点。
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Tailscale
 

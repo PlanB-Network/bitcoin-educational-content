@@ -2514,9 +2514,11 @@ Hatimaye, ninapendekeza programu ya *Lightning Network+*, inayokuruhusu kupata m
 
 
 
-Shukrani kwa Umbrel, kusimamia lightning node ya kibinafsi imerahisishwa sana, lakini bado ni ngumu. Kwa sababu hii, tutakuwa tukiangalia kwa karibu somo hili katika kozi ya baadaye inayohusu matumizi haya kikamilifu.
+Kupitia Umbrel, usimamizi wa nodi binafsi ya Lightning unarahisishwa, lakini bado unabaki kuwa changamano kwa kiasi fulani. Ndiyo sababu ninakupendekezea ufuate kozi ya LNP 202, ambayo ni mwendelezo wa kimantiki wa kozi ya BTC 202, na ambayo ninakuongoza hatua kwa hatua katika usanidi na usimamizi wa nodi yako ya Lightning kwenye Umbrel.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Mkia wa mkia
 

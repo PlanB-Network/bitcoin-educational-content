@@ -2514,9 +2514,11 @@ Por último, recomendo a aplicação *Lightning Network+*, que permite encontrar
 
 
 
-Graças à Umbrel, o gerenciamento de um nó Lightning pessoal foi bastante simplificado, mas ainda é relativamente complexo. Por esse motivo, analisaremos mais de perto esse assunto em um curso futuro dedicado inteiramente a esse uso.
+Graças ao Umbrel, a gestão de um nó Lightning pessoal é simplificada, mas continua a ser relativamente complexa. Por esse motivo, recomendo que siga o curso LNP 202, que constitui a continuação lógica do curso BTC 202, e no qual o acompanho passo a passo na implementação e gestão do seu nó Lightning no Umbrel.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Escala de cauda
 

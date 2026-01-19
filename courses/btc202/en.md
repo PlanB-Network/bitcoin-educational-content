@@ -1881,8 +1881,10 @@ Finally, I recommend the *Lightning Network+* application, which allows you to f
 ![Image](assets/fr/089.webp)
 
 
-Thanks to Umbrel, managing a personal Lightning node has been greatly simplified, but it is still relatively complex. For this reason, we'll be taking a closer look at this subject in a future course devoted entirely to this use.
+Thanks to Umbrel, managing a personal Lightning node is simplified, but it nonetheless remains relatively complex. This is why I recommend that you take the LNP 202 course, which is the logical continuation of the BTC 202 course, and in which I guide you step by step through the setup and management of your Lightning node on Umbrel.
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Tailscale
 

@@ -2514,9 +2514,11 @@ Lopuksi suosittelen *Lightning Network+*-sovellusta, jonka avulla voit löytää
 
 
 
-Umbrelin ansiosta henkilökohtaisen Lightning-solmun hallinta on yksinkertaistunut huomattavasti, mutta se on silti suhteellisen monimutkaista. Tästä syystä tarkastelemme aihetta tarkemmin tulevalla kurssilla, joka on omistettu kokonaan tälle käyttötarkoitukselle.
+Umbrelin ansiosta henkilökohtaisen Lightning-solmun hallinta on yksinkertaistunut, mutta se on silti suhteellisen monimutkaista. Tästä syystä suosittelen osallistumaan LNP 202 -kurssille, joka on looginen jatko BTC 202 -kurssille ja jossa opastan teitä vaihe vaiheelta Lightning-solmunne käyttöönotossa ja hallinnassa Umbrelissa.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Tailscale
 

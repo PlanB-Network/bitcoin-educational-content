@@ -2514,9 +2514,11 @@ Ubwa nyuma, ndabagira inama yo gukoresha porogarama ya *Lightning Network+*, ish
 
 
 
-Kubera Umbrel, gucunga urudodo rw’umuravyo rw’umuntu ku giti ciwe vyaroroshe cane, ariko biracari bigoye cane. Kubera iyo mpamvu, tuzokwihweza neza iyo nkuru mu nyigisho izoza izoba igenewe gusa iyo nkoresha.
+Kubera Umbrel, gucunga node ya Lightning yawe bwite vyaroroshe, ariko biracari bigoye mu rugero runaka. Ni co gituma ndagusaba gukurikira isomo LNP 202, ari ryo rikurikirana mu buryo bubereye isomo BTC 202, kandi aho ndaguherekeza intambwe ku yindi mu gushiraho no gucunga node yawe ya Lightning kuri Umbrel.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Umurizo
 

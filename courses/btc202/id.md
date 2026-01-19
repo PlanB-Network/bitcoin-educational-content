@@ -2514,9 +2514,11 @@ Terakhir, saya merekomendasikan aplikasi *Lightning Network+*, yang memungkinkan
 
 
 
-Berkat Umbrel, mengelola Lightning node pribadi sudah sangat disederhanakan, tetapi masih relatif rumit. Untuk alasan ini, kita akan melihat lebih dekat pada subjek ini dalam kursus mendatang yang dikhususkan sepenuhnya untuk penggunaan ini.
+Berkat Umbrel, pengelolaan node Lightning pribadi menjadi lebih sederhana, namun tetap relatif kompleks. Oleh karena itu, saya merekomendasikan Anda untuk mengikuti kursus LNP 202, yang merupakan kelanjutan logis dari kursus BTC 202, dan di mana saya mendampingi Anda langkah demi langkah dalam menyiapkan dan mengelola node Lightning Anda di Umbrel.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Skala ekor
 

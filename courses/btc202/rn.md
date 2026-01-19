@@ -3896,11 +3896,13 @@ Ubu ushobora kuja ku gice ca nyuma c’amashure, aho uzoshobora gusuzuma BTC 202
 
 
 
-Ubu ufise uburyo bwinshi bwo guhitamwo. Intambwe ikurikira yumvikana ni ugushinga node yawe bwite ya Lightning, bikagufasha kwigenga bimwe bishitse ku bikorwa vyawe vya off-chain. Ivyo bizoca bivugwa mu nyigisho izoza, izosohoka muri iri 2025 kuri Plan ₿ Academy.
+Ubu hari hari inzira nyinshi ziri imbere yawe. Intambwe ikurikirana mu buryo bwumvikana ni ugushiraho node yawe bwite ya Lightning, kugira ngo wigenga rwose mu bikorwa vyawe vya off-chain. Ivyo nyene ni vyo bigize insiguro y’iyindi nyigisho iri kuri Plan ₿ Academy:
 
 
 
-Hagati aho, ndabatumiye ngo muvumbure inyigisho za BTC 204, zizotuma mutahura no kumenya neza ingingo ngenderwako zo kurinda ubuzima bwite mu gukoresha Bitcoin:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Ndabatumira kandi kumenya inyigisho BTC 204, izobafasha gutahura no kugenzura ingingo ngenderwako zo kurinda ubuzima bwite mu gukoresha Bitcoin:
 
 
 

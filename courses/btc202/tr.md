@@ -3896,11 +3896,13 @@ Artık kursun son bölümüne geçebilir, burada BTC 202'yi değerlendirebilir v
 
 
 
-Artık önünüzde birkaç seçenek var. Bir sonraki mantıklı adım, off-chain işlemleriniz için tamamen bağımsız olmanızı sağlayacak şekilde kendi Lightning düğümünüzü kurmaktır. Bu, 2025 sonbaharında Plan ₿ Academy üzerine yayınlanacak olan gelecek bir kursun konusu olacaktır.
+Artık önünüzde birden fazla yol bulunmaktadır. Bir sonraki mantıklı adım, off-chain işlemleriniz için tamamen bağımsız olabilmek adına kendi Lightning düğümünüzü kurmaktır. Bu da Plan ₿ Academy’deki başka bir kursun tam olarak konusudur:
 
 
 
-Bu arada, sizi Bitcoin kullanımınızda gizlilik koruma ilkelerini anlamanızı ve bu konuda uzmanlaşmanızı sağlayacak BTC 204 eğitimini keşfetmeye davet ediyorum:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Ayrıca, Bitcoin kullanımınızda gizliliğin korunmasına ilişkin ilkeleri anlamanızı ve bunlara hâkim olmanızı sağlayacak olan BTC 204 eğitimini keşfetmenizi öneririm:
 
 
 

@@ -3896,11 +3896,13 @@ Możesz teraz przejść do ostatniej części kursu, w której będziesz mógł 
 
 
 
-Dostępnych jest teraz kilka opcji. Następnym logicznym krokiem jest skonfigurowanie własnego węzła Lightning, co pozwoli ci być w pełni niezależnym od transakcji off-chain. Będzie to przedmiotem nadchodzącego kursu, który zostanie opublikowany jesienią 2025 r. na Plan ₿ Academy.
+Przed Państwem otwiera się teraz kilka ścieżek. Kolejnym logicznym krokiem jest uruchomienie własnego węzła Lightning, aby być w pełni niezależnym w zakresie transakcji off-chain. Właśnie temu poświęcony jest kolejny kurs na Plan ₿ Academy:
 
 
 
-W międzyczasie zapraszam do zapoznania się ze szkoleniem BTC 204, które pozwoli Ci zrozumieć i opanować zasady ochrony prywatności podczas korzystania z Bitcoin:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Zachęcam Państwa również do zapoznania się ze szkoleniem BTC 204, które pozwoli zrozumieć i opanować zasady ochrony prywatności w korzystaniu z Bitcoina:
 
 
 

@@ -1926,9 +1926,11 @@ Wir sind am Ende dieses BTC 202-Kurses angelangt, der dich nicht nur in die Lage
 
 Du kannst nun zum letzten Teil des Kurses übergehen, in dem du BTC 202 bewerten kannst, und anschließend dein Diplom ablegst, um zu überprüfen, ob du alle behandelten Konzepte beherrschst.
 
-Dir stehen nun mehrere Optionen offen. Der nächste logische Schritt ist die Einrichtung einer eigenen Lightning Node, die es dir ermöglicht, bei deinen Off-Chain-Transaktionen völlig unabhängig zu sein. Dies wird das Thema eines kommenden Kurses sein, der im Herbst 2025 über Plan ₿ Academy veröffentlicht wird.
+Nun stehen Ihnen mehrere Wege offen. Der nächste logische Schritt besteht darin, Ihren eigenen Lightning-Node einzurichten, um bei Ihren Off-Chain-Transaktionen vollständig unabhängig zu sein. Genau dies ist das Thema eines weiteren Kurses bei der Plan ₿ Academy:
 
-In der Zwischenzeit lade ich dich ein, den BTC 204-Kurs kennenzulernen, der dich in die Lage versetzen wird, die Grundsätze des Datenschutzes bei der Nutzung von Bitcoin zu verstehen und zu beherrschen:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Ich lade Sie außerdem ein, die Schulung BTC 204 zu entdecken, die es Ihnen ermöglicht, die Prinzipien des Schutzes der Privatsphäre bei der Nutzung von Bitcoin zu verstehen und zu beherrschen:
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 

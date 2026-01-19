@@ -1891,9 +1891,11 @@ Nous arrivons à la conclusion de ce cours BTC 202, qui vous aura permis non seu
 
 Vous pouvez à présent passer à la partie finale du cours, où vous pourrez évaluer BTC 202, puis passer votre diplôme pour vérifier que toutes les notions abordées sont bien acquises.
 
-Plusieurs chemins s’offrent maintenant à vous. La prochaine étape logique consiste à mettre en place votre propre nœud Lightning, afin d’être entièrement indépendant pour vos transactions off-chain. Ce sera le sujet d’une formation à venir, qui sera publiée cet automne 2025 sur Plan ₿ Academy.
+Plusieurs chemins s’offrent maintenant à vous. La prochaine étape logique consiste à mettre en place votre propre nœud Lightning, afin d’être entièrement indépendant pour vos transactions off-chain. C'est justement le sujet d'un autre cours sur Plan ₿ Academy :
 
-En attendant, je vous invite à découvrir la formation BTC 204, qui vous permettra de comprendre et de maîtriser les principes de protection de la vie privée dans votre utilisation de Bitcoin :
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Je vous invite également à découvrir la formation BTC 204, qui vous permettra de comprendre et de maîtriser les principes de protection de la vie privée dans votre utilisation de Bitcoin :
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 

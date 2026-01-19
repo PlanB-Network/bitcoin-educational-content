@@ -3896,11 +3896,13 @@ Bây giờ bạn có thể chuyển sang phần cuối cùng của khóa học, 
 
 
 
-Bây giờ bạn có một số lựa chọn. Bước hợp lý tiếp theo là thiết lập nút Lightning của riêng bạn, cho phép bạn hoàn toàn độc lập với các giao dịch off-chain. Đây sẽ là chủ đề của một khóa học sắp tới, dự kiến được xuất bản vào mùa thu năm 2025 trên Plan ₿ Academy.
+Hiện tại có nhiều hướng đi mở ra trước mắt bạn. Bước tiếp theo hợp lý là thiết lập nút Lightning của riêng bạn, nhằm đạt được sự độc lập hoàn toàn trong các giao dịch off-chain. Đây chính là chủ đề của một khóa học khác trên Plan ₿ Academy:
 
 
 
-Trong khi đó, tôi mời bạn khám phá khóa đào tạo BTC 204, khóa đào tạo này sẽ giúp bạn hiểu và nắm vững các nguyên tắc bảo vệ quyền riêng tư khi sử dụng Bitcoin:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Tôi cũng mời bạn khám phá khóa học BTC 204, khóa học sẽ giúp bạn hiểu và làm chủ các nguyên tắc bảo vệ quyền riêng tư trong việc sử dụng Bitcoin của mình:
 
 
 

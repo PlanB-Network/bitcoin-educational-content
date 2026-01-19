@@ -3896,11 +3896,13 @@ Sada možete preći na poslednji deo kursa, gde ćete moći da ocenite BTC 202, 
 
 
 
-Sada imate nekoliko opcija na raspolaganju. Sledeći logičan korak je da postavite svoj sopstveni Lightning čvor, što će vam omogućiti da budete potpuno nezavisni za vaše off-chain transakcije. Ovo će biti tema predstojećeg kursa, koji će biti objavljen ove jeseni 2025. na Plan ₿ Academy.
+Sada vam se otvara više puteva. Sledeći logičan korak jeste postavljanje sopstvenog Lightning čvora, kako biste bili potpuno nezavisni za svoje off-chain transakcije. Upravo je to tema još jednog kursa na Plan ₿ Academy:
 
 
 
-U međuvremenu, pozivam vas da otkrijete obuku BTC 204, koja će vam omogućiti da razumete i savladate principe zaštite privatnosti u vašem korišćenju Bitcoin:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Pozivam vas takođe da otkrijete obuku BTC 204, koja će vam omogućiti da razumete i savladate principe zaštite privatnosti u vašem korišćenju Bitcoina:
 
 
 

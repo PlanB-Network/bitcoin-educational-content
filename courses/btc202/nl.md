@@ -3896,11 +3896,13 @@ Je kunt nu overgaan naar het laatste deel van de cursus, waar je BTC 202 kunt ev
 
 
 
-U hebt nu verschillende opties voor u open. De volgende logische stap is het opzetten van je eigen Lightning node, zodat je volledig onafhankelijk bent voor je off-chain transacties. Dit zal het onderwerp zijn van een komende cursus, die dit najaar zal worden gepubliceerd in 2025 over Plan ₿ Academy.
+Er liggen nu meerdere wegen voor u open. De volgende logische stap bestaat erin uw eigen Lightning-node op te zetten, zodat u volledig onafhankelijk bent voor uw off-chain-transacties. Dit is precies het onderwerp van een andere cursus op Plan ₿ Academy:
 
 
 
-Ondertussen nodig ik je uit om de BTC 204 training te ontdekken, die je in staat zal stellen om de principes van privacybescherming te begrijpen en te beheersen bij je gebruik van Bitcoin:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Ik nodig u tevens uit om de opleiding BTC 204 te ontdekken, die u in staat zal stellen de principes van privacybescherming bij uw gebruik van Bitcoin te begrijpen en te beheersen:
 
 
 

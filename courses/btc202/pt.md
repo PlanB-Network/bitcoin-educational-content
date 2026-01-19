@@ -3896,11 +3896,13 @@ Pode agora passar à parte final do curso, onde poderá avaliar o BTC 202 e obte
 
 
 
-Agora tem várias opções à sua disposição. O próximo passo lógico é criar o seu próprio nó Lightning, permitindo-lhe ser totalmente independente para as suas transacções off-chain. Este será o tema de um próximo curso, a ser publicado neste outono de 2025 sobre o Plan ₿ Academy.
+Vários caminhos se apresentam agora a si. O próximo passo lógico consiste em configurar o seu próprio nó Lightning, de modo a ser totalmente independente nas suas transações off-chain. É precisamente este o tema de outro curso na Plan ₿ Academy:
 
 
 
-Entretanto, convido-o a descobrir a formação BTC 204, que lhe permitirá compreender e dominar os princípios da proteção da vida privada na sua utilização do Bitcoin:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Convido-o igualmente a descobrir a formação BTC 204, que lhe permitirá compreender e dominar os princípios de proteção da privacidade na sua utilização do Bitcoin:
 
 
 

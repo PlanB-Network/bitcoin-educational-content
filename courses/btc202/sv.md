@@ -3896,11 +3896,13 @@ Du kan nu gå vidare till den sista delen av kursen, där du kommer att kunna ut
 
 
 
-Du har nu flera alternativ öppna för dig. Nästa logiska steg är att sätta upp din egen Lightning-nod, så att du kan vara helt oberoende för dina off-chain-transaktioner. Detta kommer att bli föremål för en kommande kurs, som kommer att publiceras i höst 2025 på Plan ₿ Academy.
+Flera vägar står nu öppna för dig. Nästa logiska steg är att sätta upp din egen Lightning-nod, för att vara helt oberoende när det gäller dina off-chain-transaktioner. Det är just detta som är ämnet för en annan kurs på Plan ₿ Academy:
 
 
 
-Under tiden inbjuder jag dig att upptäcka BTC 204-utbildningen, som gör det möjligt för dig att förstå och behärska principerna för integritetsskydd i din användning av Bitcoin:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Jag bjuder även in dig att upptäcka utbildningen BTC 204, som gör det möjligt för dig att förstå och behärska principerna för integritetsskydd i din användning av Bitcoin:
 
 
 

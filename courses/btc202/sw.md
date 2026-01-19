@@ -3896,11 +3896,13 @@ Sasa unaweza kuendelea hadi sehemu ya mwisho ya kozi, ambapo utaweza kutathmini 
 
 
 
-Sasa una chaguo kadhaa ambazo zimefunguliwa kwako. Hatua inayofuata ya kimantiki ni kusanidi Lightning node yako, kukuruhusu kujitegemea kikamilifu kwa shughuli zako za off-chain. Hili litakuwa somo la kozi ijayo, itakayochapishwa msimu huu wa vuli 2025 kwenye Plan ₿ Academy.
+Njia kadhaa sasa ziko wazi kwako. Hatua inayofuata ya kimantiki ni kuanzisha nodi yako binafsi ya Lightning, ili uwe huru kabisa katika miamala yako ya off-chain. Hili ndilo hasa somo la kozi nyingine kwenye Plan ₿ Academy:
 
 
 
-Wakati huo huo, ninakualika ugundue mafunzo ya BTC 204, ambayo yatakuwezesha kuelewa na kufahamu kanuni za ulinzi wa faragha katika matumizi yako ya Bitcoin:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Ninakualika pia kugundua mafunzo ya BTC 204, ambayo yatakuwezesha kuelewa na kumudu kanuni za kulinda faragha katika matumizi yako ya Bitcoin:
 
 
 

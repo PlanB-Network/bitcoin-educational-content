@@ -3896,11 +3896,13 @@ Sekarang Anda dapat melanjutkan ke bagian akhir kursus, di mana Anda akan dapat 
 
 
 
-Anda sekarang memiliki beberapa opsi yang terbuka untuk Anda. Langkah logis berikutnya adalah menyiapkan node Lightning Anda sendiri, yang memungkinkan Anda untuk sepenuhnya mandiri untuk transaksi off-chain Anda. Ini akan menjadi subjek dari kursus yang akan datang, yang akan diterbitkan pada musim gugur 2025 di Plan ₿ Academy.
+Kini tersedia beberapa jalur bagi Anda. Langkah logis berikutnya adalah menyiapkan node Lightning Anda sendiri, agar sepenuhnya mandiri dalam transaksi off-chain Anda. Inilah tepatnya topik dari kursus lain di Plan ₿ Academy:
 
 
 
-Sementara itu, saya mengundang Anda untuk mengikuti pelatihan BTC 204, yang akan memungkinkan Anda untuk memahami dan menguasai prinsip-prinsip perlindungan privasi dalam penggunaan Bitcoin:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Saya juga mengundang Anda untuk mengenal pelatihan BTC 204, yang akan memungkinkan Anda memahami dan menguasai prinsip-prinsip perlindungan privasi dalam penggunaan Bitcoin:
 
 
 

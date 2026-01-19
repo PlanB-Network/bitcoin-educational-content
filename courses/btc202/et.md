@@ -3896,11 +3896,13 @@ Nüüd saate liikuda edasi kursuse lõpuosasse, kus saate hinnata BTC 202, seej�
 
 
 
-Nüüd on teil mitu võimalust. Järgmine loogiline samm on luua oma Lightning-sõlm, mis võimaldab teil off-chain tehingute puhul olla täiesti sõltumatu. See on tulevase kursuse teema, mis avaldatakse 2025. aasta sügisel Plan ₿ Academy kohta.
+Nüüd on teie ees mitu võimalikku teed. Järgmine loogiline samm on luua oma Lightningi sõlm, et olla oma off-chain tehingutes täielikult sõltumatu. Just sellele teemale on pühendatud üks teine kursus Plan ₿ Academys:
 
 
 
-Vahepeal kutsun teid üles avastama BTC 204 koolitust, mis võimaldab teil mõista ja omandada privaatsuse kaitse põhimõtteid Bitcoin kasutamisel:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Kutsun teid samuti avastama koolitust BTC 204, mis võimaldab teil mõista ja omandada privaatsuse kaitse põhimõtteid Bitcoini kasutamisel:
 
 
 

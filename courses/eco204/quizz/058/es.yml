@@ -6,4 +6,4 @@ wrong_answers:
   - Eran convertibles en florines.
 explanation: |
   La Bolsa de Valores de Amberes introdujo pagarés que llevaban nombres y fechas de vencimiento. Esto los hacía difíciles de intercambiar antes de la fecha de vencimiento. Sin embargo, la bolsa introdujo la práctica de descontar estos pagarés antes de su vencimiento, lo que los hizo más líquidos e introdujo el concepto del valor temporal del dinero.
-reviewed: false
+reviewed: true

@@ -40,39 +40,11 @@ Sellel kursusel arutame Bitcoini mõningaid rahalisi aspekte, sealhulgas seda, k
 Oluline on mõista, et Bitcoin on uus rahasüsteem, mis muudab täielikult meie suhet rahaga, nii et selle kasutamise õppimine on vajalik oskus kõigile, kes soovivad oma raha kontrolli all hoida.
 
 
-**Sektsioon 1 - Sissejuhatus**  
-- Peatükk 1 - Kursuse ülevaade  
-- Peatükk 2 - Bitcoini eellugu  
 
-**Sektsioon 2 - Raha**  
-- Peatükk 3 - Raha läbi ajaloo  
-- Peatükk 4 - Fiat-valuutad  
-- Peatükk 5 - Hüperinflatsioon  
-- Peatükk 6 - 21 miljonit bitcoini  
 
-**Sektsioon 3 - Bitcoin Rahakotid**  
-- Peatükk 7 - Mis on Bitcoin rahakott?  
-- Peatükk 8 - Bitcoin Rahakotid ja Turvalisus  
-- Peatükk 9 - Rahakoti seadistamine  
-- Peatükk 10 - Ajaproovile vastu pidamine  
 
-**Sektsioon 4 - Bitcoini tehnilised aspektid**  
-- Peatükk 11 - Bitcoini käivitamine  
-- Peatükk 12 - Bitcoini tehingud  
-- Peatükk 13 - Bitcoini sõlmed  
-- Peatükk 14 - Kaevandajad  
-- Peatükk 15 - Bitcoin ja ökoloogia  
 
-**Sektsioon 5 - Kuidas bitcoine saada?**  
-- Peatükk 16 - Bitcoin ei maga kunagi!  
-- Peatükk 17 - Bitcoinide saamine töö kaudu  
-- Peatükk 18 - Säästmine Bitcoiniga  
-- Peatükk 19 - Hüperbitcoiniseerimine  
 
-**Sektsioon 6 - Bitcoini tulevik: Lightning Network**  
-- Peatükk 20 - Lühike sissejuhatus Lightning Networki  
-- Peatükk 21 - Lightning Networki kasutusjuhtumid  
-- Peatükk 22 - Punane pill või sinine pill?  
 
 
 Enne raha määratluse ja selle funktsiooni tutvustamist ühiskonnas (1. peatükk) peaksime alustama Bitcoini tekkimisest. 2009. aastal käivitatud Bitcoin on suhteliselt uus tehnoloogia, mis erineb kõigest muust. Seetõttu on normaalne, et sellest ei saa kõike korraga aru. Tegelikult, nagu interneti kasutamise või autojuhtimise õppimisel, ei pea te kohe kõiki tehnilisi üksikasju tundma: võite alustada sellest, kuidas raha vastu võtta, maksta ja kindlustada, ning seejärel astuda väikeste sammudega sügavamale õppimisse.

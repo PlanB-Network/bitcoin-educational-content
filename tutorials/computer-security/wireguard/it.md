@@ -122,12 +122,12 @@ La sezione `[Interface]` è usata per dichiarare la parte server. Ecco alcune in
 - **ListenPort**: Porta di ascolto di WireGuard. In questo caso, 51820 è la porta predefinita, ma è possibile personalizzarla
 - **PrivateKey**: il valore della chiave privata del nostro server (_wg-private.key_)
 
-Salvare il file e chiuderlo. Con il comando "**wg-quick**", possiamo avviare questa interfaccia specificandone il nome (wg0, poiché il file si chiama wg0.conf):
+Salva il file e chiudilo. Con il comando "**wg-quick**", possiamo avviare questa interfaccia specificandone il nome (wg0, poiché il file si chiama wg0.conf):
 ```
 sudo wg-quick up wg0
 ```
 
-Se si elencano gli indirizzi IP del server Debian 11, si vedrà una nuova interfaccia chiamata "wg0" con l'indirizzo IP definito nel file di configurazione:
+Se elenchi gli indirizzi IP del server Debian 11, vedrai una nuova interfaccia chiamata "wg0" con l'indirizzo IP definito nel file di configurazione:
 ```
 ip a
 ```

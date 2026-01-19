@@ -1,9 +1,0 @@
-question: Was ist der Hauptvorteil der Verwendung eines Passwortmanagers?
-answer: Er speichert und generiert komplexe Passwörter
-wrong_answers:
-  - Er bietet Hinweise, um sich an die Passwörter zu erinnern
-  - Es werden dieselben Passwörter für verschiedene Online-Konten wiederverwendet
-  - Ersetzt die Notwendigkeit von Antiviren-Software
-explanation: |
-  Der Passwort-Manager erstellt starke Passwörter und speichert sie sicher. Sie können leicht abgerufen werden, ohne dass man sich diese merken muss.
-reviewed: false

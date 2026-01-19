@@ -1,9 +1,0 @@
-question: Was bedeutet der Begriff der Selbstverwahrung in der Bitcoin-Welt?
-answer: Seine privaten Schlüssel selbst aufbewahren
-wrong_answers:
-  - Anvertrauen deiner Schlüssel an eine spezialisierte Exchange-Plattform
-  - Deine Schlüssel einer Investmentbank anvertrauen
-  - Deine öffentlichen Schlüssel selbst aufbewahren
-explanation: |
-  Die Selbstverwahrung stellt sicher, dass der Nutzer die volle Kontrolle über seine Bitcoins durch seine eigenen privaten Schlüssel behält.
-reviewed: false

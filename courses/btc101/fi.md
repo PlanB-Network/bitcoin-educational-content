@@ -39,39 +39,11 @@ Tällä kurssilla keskustelemme Bitcoinin rahapoliittisista näkökohdista, kute
 
 On tärkeää ymmärtää, että Bitcoin on uusi rahajärjestelmä, joka muuttaa täysin suhteemme rahaan, joten sen käytön oppiminen on välttämätön taito kaikille, jotka haluavat hallita omia varojaan.
 
-**Osio 1 - Johdanto**  
-- Luku 1 - Kurssin yleiskatsaus  
-- Luku 2 - Bitcoinin esihistoria  
 
-**Osio 2 - Raha**  
-- Luku 3 - Raha historian aikana  
-- Luku 4 - Fiat-valuutat  
-- Luku 5 - Hyperinflaatio  
-- Luku 6 - 21 miljoonaa bitcoinia  
 
-**Osio 3 - Bitcoin-lompakot**  
-- Luku 7 - Mikä on Bitcoin-lompakko?  
-- Luku 8 - Bitcoin-lompakot ja turvallisuus  
-- Luku 9 - Lompakon käyttöönotto  
-- Luku 10 - Ajan testin läpäiseminen  
 
-**Osio 4 - Bitcoinin tekniset näkökohdat**  
-- Luku 11 - Bitcoinin käynnistäminen  
-- Luku 12 - Bitcoin-tapahtumat  
-- Luku 13 - Bitcoin-solmut  
-- Luku 14 - Louhijat  
-- Luku 15 - Bitcoin ja ekologia  
 
-**Osio 5 - Miten hankkia bitcoineja?**  
-- Luku 16 - Bitcoin ei koskaan nuku!  
-- Luku 17 - Bitcoinien ansaitseminen työn kautta  
-- Luku 18 - Säästäminen Bitcoinilla  
-- Luku 19 - Hyperbitcoinisaatio  
 
-**Osio 6 - Bitcoinin tulevaisuus: Lightning Network**  
-- Luku 20 - Lyhyt johdanto Lightning Networkiin  
-- Luku 21 - Lightning Network -käyttötapaukset  
-- Luku 22 - Punainen pilleri vai sininen pilleri?  
 
 Ennen kuin esitellään rahan määritelmä ja sen tehtävä yhteiskunnassa (luku 1), on syytä aloittaa Bitcoinin synnystä. Vuonna 2009 lanseerattu Bitcoin on suhteellisen uusi teknologia, joka eroaa kaikesta muusta. Siksi on normaalia, ettei siitä ymmärrä kaikkea kerralla. Itse asiassa, aivan kuten internetin käytön tai auton ajamisen opettelun yhteydessä, sinun ei tarvitse tietää kaikkia teknisiä yksityiskohtia heti: voit aloittaa opettelemalla, miten varoja vastaanotetaan, maksetaan ja turvataan, ja tutkia sitä sitten pienin askelin syvällisemmin.
 

@@ -1,0 +1,9 @@
+question: Welcher Mechanismus wird im NWC-Protokoll für den Transport der Anfrage zwischen der Anwendung und dem Knoten verwendet?
+answer: Ereignisse auf Nostr-Relais
+wrong_answers:
+  - Direkte REST-Aufrufe an LND
+  - Punkt-zu-Punkt-VPN-Verbindung
+  - Verschlüsselte DNS-Anfragen
+explanation: |
+  Die Anfrage wird verschlüsselt und dann als Ereignis auf einem Nostr-Relais veröffentlicht, das der Knoten liest, um die Aktion auszuführen.
+reviewed: false

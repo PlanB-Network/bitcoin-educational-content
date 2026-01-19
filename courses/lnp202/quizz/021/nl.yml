@@ -1,0 +1,9 @@
+question: Welk bestand bevat LND's gedetailleerde kanaalstatus?
+answer: kanaal.db
+wrong_answers:
+  - wallet.db
+  - bliksem.db
+  - peers.db
+explanation: |
+  Het bestand channel.db slaat kanaaltoestanden, peers en commitment transaction's op.
+reviewed: false

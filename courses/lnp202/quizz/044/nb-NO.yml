@@ -1,0 +1,9 @@
+question: Hvilken rolle spiller ThunderHub i forhold til LND-noden din?
+answer: Interface-ledelse
+wrong_answers:
+  - Lyn-implementering
+  - Vaktmestertjeneste
+  - Ruteknutepunkt
+explanation: |
+  ThunderHub er et grensesnitt som kobles til LND for å administrere noden.
+reviewed: false

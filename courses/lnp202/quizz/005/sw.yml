@@ -1,0 +1,9 @@
+question: Ni data gani ambayo mwendeshaji wa Lightning wallet anayesimamia anaweza kuona kuhusu watumiaji wake?
+answer: Mitiririko yao yote
+wrong_answers:
+  - Utambulisho wao
+  - Metadata ya malipo yao, lakini bila kiasi
+  - Gharama za malipo yao, lakini bila kiasi
+explanation: |
+  Mhudumu anaweza kufikia kiasi, masafa, wapokeaji na tabia za malipo za mtumiaji - kwa kifupi, anaweza kuona kila kitu, ingawa huduma hizi mara nyingi hazina KYC.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Waarom kan een handelaar op een Lightning-knooppunt niet vertrouwen op zijn eigen betalingen om generate inkomende liquiditeit te genereren?
+answer: Meestal inkomende stromen
+wrong_answers:
+  - Voornamelijk uitgaande stromen
+  - Kanalen te klein
+  - Hoge onchain fees
+explanation: |
+  Door te incasseren zonder uit te geven, verplaatst de handelaar niet op natuurlijke wijze liquiditeit uit zijn kanalen.
+reviewed: false

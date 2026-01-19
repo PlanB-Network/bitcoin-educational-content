@@ -1,0 +1,9 @@
+question: Ni iyihe ntumbero nyamukuru y’umuyagankuba kuri Lightning?
+answer: Uronke amafranga n'amafaranga y'inzira
+wrong_answers:
+  - Uronke amahera mu kwerekana inzira 
+  - Gukora amahera mu kugurisha amahera yinjira
+  - Ukore amafranga mu gutangaza amakuru y'imirongo ya kera
+explanation: |
+  Ico gikoresho kirondera gukoresha amahera y’ugutanga amahera y’abandi mu gutora amahera y’ugutanga amahera.
+reviewed: false

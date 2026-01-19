@@ -1,0 +1,9 @@
+question: Mikä portti on määritettävä Zeuksessa tässä luvussa kuvattua LND (REST) -yhteyttä varten?
+answer: 8080
+wrong_answers:
+  - 8333
+  - 8332
+  - 50001
+explanation: |
+  Jos haluat käyttää API:ta LND-solmusta Umbrel:ssä, sinun on käytettävä porttia 8080 Zeusta määritettäessä.
+reviewed: false

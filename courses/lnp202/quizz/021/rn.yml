@@ -1,0 +1,9 @@
+question: Ni iyihe dosiye irimwo ivyerekeye umurongo wa LND?
+answer: umurongo.db
+wrong_answers:
+  - wallet.db
+  - umuravyo.db
+  - urunganwe.db
+explanation: |
+  Dosiye channel.db ibika ibihugu vy'imirongo, abagenzi na commitment transactions.
+reviewed: false

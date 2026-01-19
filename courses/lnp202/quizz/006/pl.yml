@@ -1,0 +1,9 @@
+question: Jakie jest ryzyko finansowe w przypadku usługi Custodial Lightning wallet?
+answer: Rezerwa cząstkowa
+wrong_answers:
+  - Arbitralny wzrost opłat za mining
+  - 51% ataku
+  - Ostateczne zatrzymanie rynku niedźwiedzia
+explanation: |
+  Użytkownik nie może zweryfikować, czy wyświetlane salda faktycznie odpowiadają posiadanym bitcoinom. Istnieje zatem ryzyko rezerwy cząstkowej.
+reviewed: false

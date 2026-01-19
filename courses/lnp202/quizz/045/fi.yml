@@ -1,0 +1,9 @@
+question: Miksi kauppias Lightning-solmun operaattori ei te luottaa omiin maksuihinsa generate:n saapuvan likviditeetin saamiseksi?
+answer: Lähinnä saapuvat virrat
+wrong_answers:
+  - Lähinnä lähtevät virrat
+  - Liian pienet kanavat
+  - Korkeat onchain-maksut
+explanation: |
+  Kun kauppias lunastaa rahaa kuluttamatta, hän ei luonnollisesti siirrä likviditeettiä pois kanavistaan.
+reviewed: false

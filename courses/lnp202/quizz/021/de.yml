@@ -1,0 +1,9 @@
+question: Welche Datei enthält den detaillierten Kanalstatus von LND?
+answer: kanal.db
+wrong_answers:
+  - wallet.db
+  - lightning.db
+  - peers.db
+explanation: |
+  Die Datei channel.db speichert Kanalzustände, Peers und commitment transactions.
+reviewed: false

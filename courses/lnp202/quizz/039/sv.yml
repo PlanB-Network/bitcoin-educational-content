@@ -1,0 +1,9 @@
+question: Vad är den utgående likviditeten för en Lightning-nod?
+answer: Betalningsförmåga
+wrong_answers:
+  - Förmåga att ansluta
+  - Kapacitet att ta emot
+  - Förmåga att stänga kanaler
+explanation: |
+  Utgående likviditet representerar den sats som är tillgänglig på operatörens sida för att göra betalningar.
+reviewed: false

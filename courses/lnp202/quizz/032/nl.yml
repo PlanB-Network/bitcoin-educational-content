@@ -1,0 +1,9 @@
+question: Waarom zeer grote knooppunten vermijden voor een eerste kanaal?
+answer: Beperkend beleid
+wrong_answers:
+  - Lage connectiviteit
+  - Kosten te laag
+  - Gebrek aan liquiditeit
+explanation: |
+  Zeer grote knooppunten leggen vaak hoge minimumbedragen op en sluiten gemakkelijk kleine kanalen.
+reviewed: false

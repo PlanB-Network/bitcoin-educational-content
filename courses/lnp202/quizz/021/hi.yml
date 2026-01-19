@@ -1,0 +1,9 @@
+question: LND की विस्तृत चैनल स्थिति किस फ़ाइल में मौजूद है?
+answer: चैनल.डीबी
+wrong_answers:
+  - जीडब्ल्यू-1.डीबी
+  - lightning.db
+  - सहकर्मी.डीबी
+explanation: |
+  channel.db फ़ाइल में चैनल की स्थिति, पीयर और commitment transactions संग्रहीत होते हैं।
+reviewed: false

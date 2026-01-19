@@ -1,0 +1,9 @@
+question: Který soubor obsahuje podrobný stav kanálu LND?
+answer: channel.db
+wrong_answers:
+  - wallet.db
+  - lightning.db
+  - peers.db
+explanation: |
+  V souboru channel.db jsou uloženy stavy kanálů, peerů a commitment transaction.
+reviewed: false

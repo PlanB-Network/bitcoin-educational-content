@@ -1,0 +1,9 @@
+question: 哪些信息表明 "闪电 "节点的接收能力？
+answer: 入境流动性
+wrong_answers:
+  - 活动连接
+  - 出境流动性
+  - 区块数
+explanation: |
+  入站流动性表示节点可通过 Lightning 接收的 sats。
+reviewed: false

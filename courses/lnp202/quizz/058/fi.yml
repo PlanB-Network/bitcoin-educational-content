@@ -1,0 +1,9 @@
+question: Mitä mekanismia NWC-protokollassa käytetään pyynnön siirtämiseen sovelluksen ja solmun välillä?
+answer: Tapahtumat Nostr-releillä
+wrong_answers:
+  - Suorat REST-kutsut LND:een
+  - Point-to-point VPN-yhteys
+  - Salatut DNS-pyynnöt
+explanation: |
+  Pyyntö salataan ja julkaistaan sen jälkeen tapahtumana Nostr-releessä, jonka solmu lukee suorittaakseen toiminnon.
+reviewed: false

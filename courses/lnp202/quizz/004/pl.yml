@@ -1,0 +1,9 @@
+question: Z czym musi łączyć się węzeł Lightning?
+answer: Węzeł Bitcoin
+wrong_answers:
+  - Górnik
+  - Eksplorator bloków
+  - Serwer federacyjny
+explanation: |
+  Węzeł Lightning zależy od węzła Bitcoin, aby uzyskać dostęp do informacji z głównego łańcucha bloków.
+reviewed: false

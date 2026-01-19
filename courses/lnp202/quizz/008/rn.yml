@@ -1,0 +1,9 @@
+question: N’umuravyo wallet ucungera, ni nde afise ama bitcoins?
+answer: Iryo shirahamwe
+wrong_answers:
+  - Uwukoresha
+  - Urubuga rw'umuravyo
+  - Bitcoin Ishingiro
+explanation: |
+  Mu buryo bwo kubungabunga, iyo sosiyete ni yo ifata imfunguruzo kandi igacungera amahera, mu gihe uwuyikoresha afise gusa amahera asigaye mu vy’ubuhinga bwo guharura.
+reviewed: false

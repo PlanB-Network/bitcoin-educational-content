@@ -1,0 +1,9 @@
+question: ¿Qué se puede personalizar en la configuración avanzada del nodo Lightning?
+answer: Nombre público del nodo
+wrong_answers:
+  - Reglas de consenso de los nodos
+  - Las claves privadas del nodo
+  - Las rutas elegidas por el nodo
+explanation: |
+  Los ajustes avanzados permiten personalizar los elementos de identificación de los nodos, sin afectar al consenso ni al funcionamiento de la red Lightning.
+reviewed: false

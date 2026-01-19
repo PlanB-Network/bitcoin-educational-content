@@ -1,0 +1,9 @@
+question: ¿Por qué es peligroso restaurar un channel.db antiguo?
+answer: Riesgo de sanción
+wrong_answers:
+  - Pérdida de seed
+  - Chismes de corrupción
+  - Bloqueo de rutas
+explanation: |
+  Un estado desfasado puede interpretarse como un intento de engaño y dar lugar a la pérdida de los fondos del canal.
+reviewed: false

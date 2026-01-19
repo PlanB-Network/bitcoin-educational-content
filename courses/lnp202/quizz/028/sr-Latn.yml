@@ -1,0 +1,9 @@
+question: Koja je uloga watchtower-a kada otkrije pokušaj varanja?
+answer: Objavi transakciju kazne
+wrong_answers:
+  - Zatvorite kanal kooperativno
+  - Zamrzni sredstva
+  - Prijavi vršnjaka Bitcoin Core
+explanation: |
+  Stražarski toranj automatski emituje kaznenu transakciju u ime korisnika.
+reviewed: false

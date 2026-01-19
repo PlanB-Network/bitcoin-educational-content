@@ -1,0 +1,9 @@
+question: Aqua 和 Bull Bitcoin Wallet 有哪些共同特征？
+answer: 闪电原子交换
+wrong_answers:
+  - 本地闪电通道
+  - 集中保管
+  - 集成 "闪电 "节点
+explanation: |
+  这些 wallet 使用原子交换来支付闪电发票，无需直接利用手机上的闪电节点，同时保持自我保管。
+reviewed: false

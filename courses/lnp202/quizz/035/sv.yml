@@ -1,0 +1,9 @@
+question: Vad är huvudsyftet med en router på Lightning?
+answer: Tjäna pengar med routningsavgifter
+wrong_answers:
+  - Tjäna pengar genom att visa vägen
+  - Tjäna pengar genom att sälja inkommande likviditet
+  - Tjäna pengar genom att publicera föråldrade kanaltillstånd
+explanation: |
+  Routern försöker förmedla betalningar från andra genom att ta ut förmedlingsavgifter.
+reviewed: false

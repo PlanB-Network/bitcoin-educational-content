@@ -1,0 +1,9 @@
+question: Miks vältida väga suuri sõlmi esimese kanali puhul?
+answer: Piiranguline poliitika
+wrong_answers:
+  - Madal ühenduvus
+  - Liiga madalad kulud
+  - Likviidsuse puudumine
+explanation: |
+  Väga suured sõlmed kehtestavad sageli suuri miinimumsummasid ja sulgevad kergesti väikesed kanalid.
+reviewed: false

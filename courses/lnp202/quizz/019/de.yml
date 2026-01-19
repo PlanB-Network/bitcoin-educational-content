@@ -1,0 +1,9 @@
+question: Was sind die Voraussetzungen für die Installation von LND auf Umbrel?
+answer: Synchronisierter Bitcoin-Knoten
+wrong_answers:
+  - Umbrel Premium-Konto
+  - Bestehender Blitzkanal
+  - Blitzadresse aktiv
+explanation: |
+  LND ist auf einen zu 100 % synchronisierten Bitcoin-Knoten angewiesen, eine Voraussetzung für seinen Betrieb.
+reviewed: false

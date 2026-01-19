@@ -1,0 +1,9 @@
+question: Zašto izbegavati veoma velike čvorove za prvi kanal?
+answer: Restriktivne politike
+wrong_answers:
+  - Niska povezanost
+  - Troškovi su preniski
+  - Nedostatak likvidnosti
+explanation: |
+  Vrlo veliki čvorovi često nameću visoke minimalne iznose i lako zatvaraju male kanale.
+reviewed: false

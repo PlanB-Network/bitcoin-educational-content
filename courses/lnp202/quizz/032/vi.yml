@@ -1,0 +1,9 @@
+question: Tại sao nên tránh sử dụng các nút có kích thước rất lớn cho kênh đầu tiên?
+answer: Chính sách hạn chế
+wrong_answers:
+  - Kết nối yếu
+  - Chi phí quá thấp
+  - Thiếu thanh khoản
+explanation: |
+  Các nút mạng rất lớn thường đặt ra mức phí tối thiểu cao và dễ dàng đóng các kênh nhỏ.
+reviewed: false

@@ -1,0 +1,9 @@
+question: LND seed이 자체적으로 복원할 수 있는 항목은 무엇인가요?
+answer: 온체인 wallet
+wrong_answers:
+  - 채널 열기
+  - 채널 상태
+  - 아무것도
+explanation: |
+  seed는 Bitcoin 온체인 wallet를 검색하지만 활성 라이트닝 채널은 검색하지 않습니다.
+reviewed: false

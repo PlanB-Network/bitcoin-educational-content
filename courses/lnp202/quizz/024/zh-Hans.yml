@@ -1,0 +1,9 @@
+question: 为什么备份 "闪电 "节点比 Bitcoin onchain wallet 更复杂？
+answer: 渠道状况不断变化
+wrong_answers:
+  - 通道流动性取决于 mempool
+  - 记录 "闪电 "网络闲话
+  - 撤销密钥随时间过期
+explanation: |
+  闪电通道在每次付款时都会改变状态，因此简单的固定或定期备份非常危险。
+reviewed: false

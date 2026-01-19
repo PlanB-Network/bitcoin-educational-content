@@ -1,0 +1,9 @@
+question: Který uzávěr kanálu je pro Lightning nejlepší?
+answer: Uzavření spolupráce
+wrong_answers:
+  - Nucené uzavření
+  - Uzavření s podváděním
+  - Uzávěr Watchtower
+explanation: |
+  Družstevní uzavření je rychlejší a umožňuje zvolit si poplatky v řetězci.
+reviewed: false

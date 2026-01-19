@@ -1,0 +1,9 @@
+question: Co jest najważniejszym priorytetem sprzedawcy Lightning?
+answer: Pozyskiwanie płynności przychodzącej
+wrong_answers:
+  - Pozyskiwanie płynności wychodzącej
+  - Oszczędności na kosztach routingu
+  - Pozyskiwanie dobrych recenzji LN+
+explanation: |
+  Sprzedawca musi być w stanie spieniężyć towar bez niepowodzenia, co wymaga wystarczającej płynności przychodzącej.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Quale fase segue immediatamente la pubblicazione di una richiesta NWC da parte dell'applicazione mobile su un relay?
+answer: Il nodo decodifica e verifica l'autorizzazione
+wrong_answers:
+  - Il relay firma la richiesta per il nodo
+  - Il relay esegue il pagamento su LND
+  - Il nodo apre automaticamente un canale
+explanation: |
+  Il nodo legge l'evento, lo decifra e verifica che l'autore sia autorizzato prima di eseguire l'azione.
+reviewed: false

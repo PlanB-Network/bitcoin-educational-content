@@ -1,0 +1,9 @@
+question: Vad är en Lightning-handlares högsta prioritet?
+answer: Förvärv av inkommande likviditet
+wrong_answers:
+  - Förvärv av utgående likviditet
+  - Besparingar på rutten
+  - Förvärva bra LN+ recensioner
+explanation: |
+  En handlare måste kunna ta in pengar utan att misslyckas, vilket kräver tillräcklig inkommande likviditet.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Hạn chế cụ thể nào trên Android được đề cập liên quan đến việc sử dụng Tailscale?
+answer: Chỉ một VPN tại một thời điểm
+wrong_answers:
+  - Bluetooth là bắt buộc đối với VPN
+  - Không tương thích DNS-over-HTTPS
+  - Yêu cầu quyền root trên điện thoại
+explanation: |
+  Android không cho phép bạn sử dụng hai VPN cùng lúc, vì vậy bạn cần tắt bất kỳ VPN nào khác đang hoạt động trước khi sử dụng Tailscale.
+reviewed: false

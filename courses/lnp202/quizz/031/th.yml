@@ -1,0 +1,9 @@
+question: Node ID ของโหนด Lightning แทนอะไร?
+answer: คีย์สาธารณะของโหนดและที่อยู่
+wrong_answers:
+  - โหนด seed และที่อยู่
+  - นามแฝงของโหนดและคีย์สาธารณะ
+  - Hash node alias and seed
+explanation: |
+  Node ID รวมคีย์สาธารณะของโหนดเข้ากับที่อยู่เครือข่ายและพอร์ตของมัน
+reviewed: false

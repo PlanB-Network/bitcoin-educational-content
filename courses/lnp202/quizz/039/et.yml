@@ -1,0 +1,9 @@
+question: Milline on Lightning-sõlme väljaminev likviidsus?
+answer: Maksevõime
+wrong_answers:
+  - Võimalus ühendada
+  - Vastuvõtuvõime
+  - Võimalus sulgeda kanaleid
+explanation: |
+  Väljaminev likviidsus kujutab endast operaatori poolt maksete tegemiseks kättesaadavat sats.
+reviewed: false

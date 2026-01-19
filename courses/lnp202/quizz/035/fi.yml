@@ -1,0 +1,9 @@
+question: Mikä on Lightningin reitittimen päätarkoitus?
+answer: Ansaitse rahaa reitityspalkkioilla
+wrong_answers:
+  - Tienaa rahaa näyttämällä tietä
+  - Rahan ansaitseminen myymällä tulevaa likviditeettiä
+  - Tienaa rahaa julkaisemalla vanhentuneita kanavan tiloja
+explanation: |
+  Reititin pyrkii reitittämään muiden maksuja keräämällä reititysmaksuja.
+reviewed: false

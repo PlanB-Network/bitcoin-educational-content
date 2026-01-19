@@ -1,0 +1,9 @@
+question: Proč se provozovatel obchodního uzlu Lightning nemůže spoléhat na vlastní platby generate příchozí likvidity?
+answer: Převážně příchozí toky
+wrong_answers:
+  - Převážně odchozí toky
+  - Příliš malé kanály
+  - Vysoké onchain poplatky
+explanation: |
+  Tím, že obchodník inkasuje peníze bez výdajů, přirozeně nepřesouvá likviditu ze svých kanálů.
+reviewed: false

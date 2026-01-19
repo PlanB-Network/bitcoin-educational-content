@@ -1,14 +1,12 @@
 ---
-name: Setting up your first Lightning node
-goal: Understanding, installing, configuring and using a Lightning node
-objectives: 
-
-  - Understand the role and purpose of a Lightning node.
+name: Set up your first Lightning node
+goal: Understand, install, configure, and use a Lightning node
+objectives:
+  - Understand the role and usefulness of a Lightning node.
   - Identify the different software solutions available.
   - Install and configure a Lightning node (LND).
-  - Connect an expense account.
-  - Know the risks of using a Lightning node.
-
+  - Connect a spending wallet.
+  - Understand the risks associated with using a Lightning node.
 ---
 
 # Your first step towards autonomy on Lightning
@@ -67,7 +65,7 @@ If you follow this LNP202 course in the right order, by the end of it you'll hav
 
 
 
-## Understanding Lightning nodes
+## Understanding what a Lightning node is
 
 <chapterId>8275dfd8-7a72-48cc-bf7f-bc2a46063003</chapterId>
 
@@ -288,7 +286,7 @@ The good news is that today, operating your own Lightning node is no longer the 
 
 
 
-## Choosing the right solution for the job
+## Choosing the solution that fits your use case
 
 <chapterId>615870e3-741d-4ec1-875d-a483e70f39d4</chapterId>
 
@@ -491,7 +489,7 @@ Then click on the green `SAVE AND RESTART` button to restart your node and apply
 Your Lightning node is now ready to open its first channels for making payments. But first, let's take a look at how to protect your sats!
 
 
-## Saving your Lightning node
+## Backing up your Lightning node
 
 <chapterId>638fa75d-62af-4bf3-ab4a-b7d10ea75815</chapterId>
 
@@ -655,7 +653,7 @@ Now you know how to protect your Lightning node's sats from data loss. In the ne
 
 
 
-## Watchtower: role and set-up
+## Watchtowers: role and setup
 
 <chapterId>e6c654dd-26c5-4e4d-8d11-a215bac37812</chapterId>
 
@@ -780,7 +778,7 @@ If you return to this same menu, you'll see that your Lightning node is now prot
 An altruistic watchtower is generally sufficient, especially if you don't place large amounts of money on your Lightning node and if you manage your node well (don't leave it off for too long). For even greater security, you can also add several by repeating the same process.
 
 
-## Open your first Lightning channel
+## Opening your first Lightning channel
 
 <chapterId>00642af7-8f3d-4a25-96d7-34e85de7bd5d</chapterId>
 
@@ -971,7 +969,7 @@ To improve the reliability of our payments, it will obviously be necessary to op
 <partId>e27c3e1e-487b-4414-ad6b-d67bdb91c7c5</partId>
 
 
-## Define your node operator profile
+## Defining your node operator profile
 
 <chapterId>d3b2e163-50f6-4d1d-a5fc-8fd177dfac76</chapterId>
 
@@ -1157,7 +1155,7 @@ Finally, to open a new channel, go to the `Home` menu and click on `Open a Chann
 These are the main actions you'll need to perform on ThunderHub. We'll discover other features as we go along in this LNP202 course.
 
 
-## Obtaining incoming liquidity
+## Obtaining inbound liquidity
 
 <chapterId>b740c656-a897-4d95-af4b-116b718447cd</chapterId>
 
@@ -1393,12 +1391,12 @@ Some participants may wish to rebalance the circular channels from the outset, b
 
 
 
-# Unleashing the potential of your Lightning node
+# Unlocking your Lightning node’s full potential
 
 <partId>8dcc24b1-6eb9-4a5f-a56b-8a823e5ac0fd</partId>
 
 
-## Connect a mobile wallet via Tailscale
+## Connecting a mobile wallet via Tailscale
 
 <chapterId>5fefb222-3f50-4f9d-a170-2ea628be4437</chapterId>
 
@@ -1527,7 +1525,7 @@ https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7
 In the next chapter, we'll look at another, equally effective way of connecting a mobile client to your Lightning node: Nostr Wallet Connect. We'll be using a different application from Zeus (although Zeus is also compatible with NWC), namely Alby Go.
 
 
-## Connect a mobile wallet via NWC
+## Connecting a mobile wallet via NWC
 
 <chapterId>f5c97e43-e66e-4ba3-bcc9-fee1a04fc7f4</chapterId>
 
@@ -1647,7 +1645,7 @@ If I go to the basic interface of my Lightning node on Umbrel, I can see that th
 Now you know how to easily use your Lightning node from anywhere.
 
 
-## Long-lasting autonomy on Lightning
+## Sustaining your Lightning self-sovereignty
 
 <chapterId>691a0942-b46d-482a-8fbc-fe19b3814992</chapterId>
 
@@ -1680,7 +1678,7 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 But before moving on, you can write a review of this LNP202 course and, of course, take the diploma to confirm that you've understood all of its content.
 
 
-# Final part
+# Final Section
 
 <partId>683c998f-ba0a-4ffb-a7e8-4cd8369cb9b3</partId>
 
@@ -1692,7 +1690,7 @@ But before moving on, you can write a review of this LNP202 course and, of cours
 
 <isCourseReview>true</isCourseReview>
 
-## Final examination
+## Final Exam
 
 <chapterId>3951ccbb-14a3-4322-b81b-8dd2a6da19cb</chapterId>
 

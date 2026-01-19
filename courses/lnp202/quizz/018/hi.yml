@@ -1,0 +1,9 @@
+question: LND स्मरणात्मक वाक्यांश में कितने शब्द हैं?
+answer: 24 शब्द
+wrong_answers:
+  - 10 शब्द
+  - 18 शब्द
+  - 36 शब्द
+explanation: |
+  LND generates नोड बैकअप और रिकवरी के लिए 24 शब्दों का एक स्मरणीय वाक्यांश है।
+reviewed: false

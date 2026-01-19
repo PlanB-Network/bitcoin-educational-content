@@ -1,0 +1,9 @@
+question: Welk mechanisme wordt in het NWC-protocol gebruikt om het verzoek tussen de applicatie en het knooppunt te transporteren?
+answer: Gebeurtenissen op Nostr relais
+wrong_answers:
+  - Directe REST-oproepen naar LND
+  - Punt-tot-punt VPN-verbinding
+  - Versleutelde DNS-verzoeken
+explanation: |
+  Het verzoek wordt versleuteld en dan gepubliceerd als een gebeurtenis op een Nostr relais, dat het knooppunt leest om de actie uit te voeren.
+reviewed: false

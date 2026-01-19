@@ -1,0 +1,9 @@
+question: 이전 라이트닝 채널 상태의 릴리스를 방지하는 메커니즘은 무엇인가요?
+answer: 해지 키
+wrong_answers:
+  - 거래 수수료
+  - 절대 시간 잠금
+  - 네트워크 가십
+explanation: |
+  해지 키는 이전 채널 상태를 게시하려는 노드에 불이익을 주는 데 사용됩니다.
+reviewed: false

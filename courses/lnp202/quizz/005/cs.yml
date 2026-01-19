@@ -1,0 +1,9 @@
+question: Jaké údaje může provozovatel služby Lightning wallet sledovat o svých uživatelích?
+answer: Všechny jejich toky
+wrong_answers:
+  - Jejich identita
+  - Metadata o jejich platbách, ale bez částek
+  - Náklady na jejich platby, ale bez částek
+explanation: |
+  Provozovatel má přístup k částkám, frekvenci, příjemcům a platebním zvyklostem uživatele - zkrátka může sledovat vše, i když tyto služby často neobsahují KYC.
+reviewed: false

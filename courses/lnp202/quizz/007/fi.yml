@@ -1,0 +1,9 @@
+question: Mikä Bitcoin:n perusominaisuus menetetään huostaanotossa?
+answer: Rahapoliittinen suvereniteetti
+wrong_answers:
+  - Rahamääräinen skaalautuvuus
+  - Nopea maksu
+  - Rahan yhteentoimivuus
+explanation: |
+  Ilman avainten hallintaa käyttäjä luopuu rahapoliittisesta itsemääräämisoikeudesta, joka on Bitcoin:n keskeinen pilari.
+reviewed: false

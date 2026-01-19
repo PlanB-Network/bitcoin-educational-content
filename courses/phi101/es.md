@@ -23,7 +23,7 @@ Desde la Antigüedad hasta la Ilustración, la libertad ascendió a medida que l
 
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
-¡Bienvenido al curso PHI201!
+¡Bienvenido al curso PHI101!
 
 Este curso te invita a explorar la evolución de la libertad a lo largo de la historia analizando las grandes corrientes de pensamiento que la han moldeado. Descubrirás cómo se ha construido la noción de libertad a lo largo de los siglos, ya sea en oposición o en colaboración con el poder, a través de un recorrido histórico que va desde la Antigüedad hasta los debates contemporáneos.
 

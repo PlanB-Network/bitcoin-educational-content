@@ -1,0 +1,9 @@
+question: Mikä on Lightning-solmun lähtevä likviditeetti?
+answer: Maksukyky
+wrong_answers:
+  - Kyky muodostaa yhteys
+  - Vastaanottokyky
+  - Kyky sulkea kanavia
+explanation: |
+  Lähtevä likviditeetti edustaa operaattorin käytettävissä olevaa sats:ta maksujen suorittamiseen.
+reviewed: false

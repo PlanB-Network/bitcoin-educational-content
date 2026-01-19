@@ -1,0 +1,9 @@
+question: Koje rešenje nudi najviše suvereniteta za korisnike Lightning-a?
+answer: Klasični Lightning čvor
+wrong_answers:
+  - Wallet sa atomskom zamenom
+  - Na brodu LN čvor
+  - Custodial Lightning wallet
+explanation: |
+  Klasični čvor pruža potpunu kontrolu nad kanalima, likvidnošću i politikama naknada. To je jedini koji vam omogućava da budete zaista nezavisni.
+reviewed: false

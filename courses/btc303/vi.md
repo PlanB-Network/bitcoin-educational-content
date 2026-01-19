@@ -1128,14 +1128,14 @@ Bitcoin Core tuân thủ định nghĩa này bằng cách được phân phối 
 
 
 ```
-The MIT License (MIT)
+Giấy phép MIT (MIT)
 
-Copyright (c) 2009-2022 The Bitcoin Core developers
-Copyright (c) 2009-2022 Bitcoin Developers
+Copyright (c) 2009-2022 Các nhà phát triển Bitcoin Core
+Copyright (c) 2009-2022 Các nhà phát triển Bitcoin
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Theo đây, quyền được cấp miễn phí cho bất kỳ ai có được bản sao của phần mềm này và các tệp tài liệu liên quan ("Phần mềm"), để xử lý Phần mềm mà không có hạn chế, bao gồm nhưng không giới hạn các quyền sử dụng, sao chép, sửa đổi, hợp nhất, xuất bản, phân phối, cấp phép lại và/hoặc bán các bản sao của Phần mềm, và cho phép những người được cung cấp Phần mềm làm như vậy, theo các điều kiện sau:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+Thông báo bản quyền trên và thông báo cấp phép này phải được bao gồm trong tất cả các bản sao hoặc các phần quan trọng của Phần mềm.
 ```
 
 

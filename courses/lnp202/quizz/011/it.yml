@@ -1,0 +1,9 @@
+question: Quale soluzione offre la maggiore sovranità agli utenti di Lightning?
+answer: Nodo classico Lightning
+wrong_answers:
+  - Wallet con swap atomico
+  - Nodo LN on-board
+  - wallet lightning custodial
+explanation: |
+  Il nodo classico offre un controllo totale su canali, liquidità e politiche di commissione. È l'unico che vi permette di essere veramente indipendenti.
+reviewed: false

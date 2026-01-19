@@ -1,0 +1,9 @@
+question: LND seed अपने आप क्या-क्या पुनर्स्थापित कर सकता है?
+answer: ऑनचेन wallet
+wrong_answers:
+  - खुले चैनल
+  - चैनल राज्य
+  - कुछ नहीं
+explanation: |
+  seed, Bitcoin के ऑनचेन wallet को पुनः प्राप्त करता है, लेकिन सक्रिय लाइटनिंग चैनलों को नहीं।
+reviewed: false

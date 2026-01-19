@@ -1,0 +1,9 @@
+question: Peran apa yang dimainkan oleh ThunderHub dalam kaitannya dengan node LND Anda?
+answer: Manajemen Interface
+wrong_answers:
+  - Implementasi petir
+  - Layanan kustodian
+  - Simpul perutean
+explanation: |
+  ThunderHub adalah antarmuka yang terhubung ke LND untuk mengelola node.
+reviewed: false

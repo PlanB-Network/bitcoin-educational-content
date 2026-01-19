@@ -1,0 +1,9 @@
+question: Sa tačke gledišta Bitcoin onchain, šta je Lightning kanal?
+answer: Multisignature izlaz 2/2
+wrong_answers:
+  - Skript P2MS 2/2
+  - UTXO singlе
+  - Federisani ugovor
+explanation: |
+  Na lancu, Lightning kanal je predstavljen višepotpisnim izlazom koji zahteva potpise oba učesnika.
+reviewed: false

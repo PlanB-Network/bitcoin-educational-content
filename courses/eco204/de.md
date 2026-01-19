@@ -266,7 +266,7 @@ Ein anschauliches Beispiel für die MMT ist der amerikanische militärisch-indus
 
 Der Fall Japans wird von den Befürwortern der MMT oft als ein weiteres Beispiel für das Fehlen von Inflation trotz einer erheblichen Geldschöpfung angeführt. Allerdings verdeutlicht die Situation in Japan auch die Grenzen herkömmlicher Inflationsmaßnahmen wie dem Verbraucherpreisindex (VPI). In Japan wird ein großer Teil des gedruckten Geldes entweder gespart, in Immobilien oder Aktienmärkte investiert und nicht in die alltägliche Konsumwirtschaft ausgegeben. Der VPI erfasst diese Dynamiken nicht vollständig und kann die tatsächliche Inflation unterschätzen.
 
-Die Analyse Japans (https://ideas.repec.org/p/ces/ceswps/_9821.html) zeigt auch, dass das Verhalten der Wirtschaftsteilnehmer, wie Sparen oder Investitionen in nicht im VPI enthaltene Vermögenswerte, die inflatorische Wirkung der Geldschöpfung verdecken kann. Darüber hinaus spielt die Fähigkeit verschiedener Sektoren, die injizierten Liquiditäten aufzunehmen, eine entscheidende Rolle bei der Manifestation von Inflation.
+[Die Analyse Japans](https://ideas.repec.org/p/ces/ceswps/_9821.html) zeigt ebenfalls, dass das Verhalten der Wirtschaftsakteure, etwa Sparen oder Investitionen in nicht im VPI enthaltene Vermögenswerte, die inflatorischen Auswirkungen der Geldschöpfung verschleiern kann. Zudem spielt die Fähigkeit der verschiedenen Sektoren, die zugeführte Liquidität zu absorbieren, eine entscheidende Rolle für das Auftreten oder Ausbleiben von Inflation.
 
 #### Die Bilanz der Banken und der Zentralbank
 

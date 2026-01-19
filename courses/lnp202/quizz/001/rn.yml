@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo bubuza kurekura igihugu ca kera c’umurongo w’umuravyo?
+answer: Urufunguzo rwo gukuraho
+wrong_answers:
+  - Amafaranga y'ugucuruza
+  - Igihe co gufunga
+  - Urusaku rw'urubuga
+explanation: |
+  Imfunguruzo zo gukuraho zikoreshwa mu guhana urudodo rugerageza gutangaza umurongo wa kera.
+reviewed: false

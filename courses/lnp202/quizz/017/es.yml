@@ -1,0 +1,9 @@
+question: ¿Qué representa el saldo de wallet Lightning que aparece en la interfaz de la aplicación LND?
+answer: La suma de la liquidez de salida
+wrong_answers:
+  - La suma de oncadenas
+  - La suma de la liquidez entrante
+  - La suma de las capacidades de los canales
+explanation: |
+  El saldo Rayo corresponde al sats disponible para gastar a través de los canales, es decir, la suma de la liquidez saliente de todos los canales del nodo.
+reviewed: false

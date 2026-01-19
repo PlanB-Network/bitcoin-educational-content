@@ -1,0 +1,9 @@
+question: Wat is het grootste nadeel van gedwongen sluiting?
+answer: Fondsen geblokkeerd door tijdslot
+wrong_answers:
+  - Gedeeltelijk verlies van fondsen
+  - Veroudering van het Lightning knooppunt
+  - Bliksemknooppunt desynchronisatie
+explanation: |
+  Fondsen worden geblokkeerd door een tijdslot en de kosten zijn vaak hoog.
+reviewed: false

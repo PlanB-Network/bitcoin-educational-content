@@ -1,0 +1,9 @@
+question: Tại sao nên sử dụng trình quản lý node Lightning?
+answer: Dễ dàng truy cập các chức năng nâng cao
+wrong_answers:
+  - Thay thế việc triển khai LND
+  - Loại bỏ sự phụ thuộc vào Umbrel
+  - Sửa đổi giao thức Lightning
+explanation: |
+  Các trình quản lý nâng cao cung cấp các chức năng không có trong giao diện cơ bản, trong khi vẫn giữ được giao diện đơn giản.
+reviewed: false

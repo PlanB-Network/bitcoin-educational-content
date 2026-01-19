@@ -1,0 +1,9 @@
+question: Tôi nên cài đặt ThunderHub ở đâu trên Umbrel?
+answer: App Store
+wrong_answers:
+  - Bảng điều khiển SSH
+  - Cài đặt hệ thống
+  - Interface Bitcoin Lõi
+explanation: |
+  ThunderHub được cài đặt như một ứng dụng thông qua App Store của Umbrel.
+reviewed: false

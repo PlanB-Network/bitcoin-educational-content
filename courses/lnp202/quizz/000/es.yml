@@ -1,0 +1,9 @@
+question: ¿Cuál es la capacidad de un canal de rayos?
+answer: Importe total bloqueado
+wrong_answers:
+  - Liquidez total disponible en una dirección
+  - Cuotas máximas
+  - Número máximo de pagos posibles
+explanation: |
+  La capacidad corresponde a la suma total de sats bloqueados en la salida multisig del canal.
+reviewed: false

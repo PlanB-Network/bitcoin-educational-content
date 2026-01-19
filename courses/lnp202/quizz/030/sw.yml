@@ -1,0 +1,9 @@
+question: Kwa mtazamo wa nodi yako, usambazaji wa awali wa ukwasi baada ya kufungua chaneli ni upi?
+answer: 100% ya kutoka
+wrong_answers:
+  - 50% inayoingia 50% inayotoka
+  - Ingizo 100%
+  - 90% ya bidhaa zinazotoka 10% ya bidhaa zinazoingia
+explanation: |
+  Wakati njia inafunguliwa, ukwasi wote mwanzoni huwa upande wa mwanzilishi.
+reviewed: false

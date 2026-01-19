@@ -1,0 +1,9 @@
+question: Nền tảng nào trong số này cho phép bạn mua thanh khoản sắp có?
+answer: Dung nham
+wrong_answers:
+  - Lõi Bitcoin
+  - 1ML
+  - Boltz
+explanation: |
+  Magma giúp việc mua thanh khoản trở nên dễ dàng hơn thông qua một thị trường tự động.
+reviewed: false

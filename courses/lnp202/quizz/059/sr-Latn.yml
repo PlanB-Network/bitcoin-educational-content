@@ -1,0 +1,9 @@
+question: Koje od ovih mobilnih aplikacija je kompatibilno sa NWC vezama?
+answer: Alby Go
+wrong_answers:
+  - Phoenix
+  - Wallet of Satoshi
+  - Muun
+explanation: |
+  Među predlozima, samo Alby Go je kompatibilan sa NWC, iako su i druge aplikacije poput Zeus-a takođe.
+reviewed: false

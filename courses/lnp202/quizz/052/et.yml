@@ -1,0 +1,9 @@
+question: Millist konkreetset piirangut on mainitud Androidi puhul seoses Tailscale kasutamisega?
+answer: Üks VPN korraga
+wrong_answers:
+  - VPN-i jaoks kohustuslik Bluetooth
+  - DNS-over-HTTPS ühildamatu
+  - Nõuab telefoni juurdevoolu
+explanation: |
+  Android ei võimalda teil kasutada kahte VPN-i samaaegselt, seega peate enne Tailscale kasutamist lülitama välja kõik teised aktiivsed VPN-id.
+reviewed: false

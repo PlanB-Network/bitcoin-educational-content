@@ -1,0 +1,9 @@
+question: Com um Lightning wallet de custódia, a quem pertencem os bitcoins?
+answer: A empresa
+wrong_answers:
+  - O utilizador
+  - A rede Lightning
+  - Núcleo Bitcoin
+explanation: |
+  Num modelo de custódia, a empresa detém as chaves e controla os fundos, enquanto o utilizador tem apenas um saldo contabilístico.
+reviewed: false

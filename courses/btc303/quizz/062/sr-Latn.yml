@@ -1,9 +1,11 @@
-question: Prema definiciji otvorenog koda, izvedena dela moraju biti licencirana pod istim uslovima kao i originalni softver.
+question: Prema definiciji otvorenog koda (Open Source Definition), kakav odnos moraju imati izvedena dela u pogledu svojih licencnih uslova u poređenju sa originalnim softverom?
 answer: Izvedena dela moraju biti dozvoljena za distribuciju pod istim uslovima kao i licenca originalnog softvera.
 wrong_answers:
   - Izvedena dela moraju biti distribuirana pod restriktivnijim uslovima licenciranja od originalnog softvera.
   - Izvedena dela moraju biti objavljena pod potpuno drugačijom licencom koja nije kompatibilna sa originalnom.
   - Izvedena dela mogu se distribuirati samo pod vlasničkim licencama koje zahtevaju plaćanje tantijema.
 explanation: |
-  Definicija otvorenog koda eksplicitno navodi da 'licenca mora dozvoliti izmene i izvedena dela, i mora dozvoliti njihovu distribuciju pod istim uslovima kao i licenca originalnog softvera.' Ovo osigurava da izvedena dela zadrže iste slobode kao i original, sprečavajući nekoga da uzme kod otvorenog koda i učini ga vlasničkim. Druge opcije krše ovaj fundamentalni princip ili ograničavanjem slobode ili promenom kompatibilnosti licenci.
-reviewed: false
+  Definicija otvorenog koda eksplicitno navodi da 'licenca mora dozvoliti izmene i izvedena dela, i mora dozvoliti njihovu distribuciju pod istim uslovima kao i
+  licenca originalnog softvera.' Ovo osigurava da izvedena dela zadrže iste slobode kao i original, sprečavajući nekoga da uzme kod otvorenog koda i učini ga 
+  vlasničkim. Druge opcije krše ovaj fundamentalni princip ili ograničavanjem slobode ili promenom kompatibilnosti licenci.
+reviewed: true

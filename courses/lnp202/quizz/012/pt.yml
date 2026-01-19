@@ -1,0 +1,9 @@
+question: Qual é o principal compromisso com os nós de bordo do LN?
+answer: Dependência do operador
+wrong_answers:
+  - Perda de chaves privadas
+  - Sem auto-custódia
+  - Pagamentos Onchain obrigatórios para todas as transacções Lightning
+explanation: |
+  O utilizador está fortemente dependente do operador principal para a conetividade e a gestão dos canais.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Waarom is het back-uppen van een Lightning-node complexer dan een Bitcoin onchain wallet?
+answer: De staat van de kanalen evolueert
+wrong_answers:
+  - Kanaalliquiditeit hangt af van mempool
+  - Neem de Lightning-netwerkroddels op
+  - Intrekkingscodes verlopen na verloop van tijd
+explanation: |
+  Lightning-kanalen veranderen van status bij elke betaling, waardoor een eenvoudige vaste of periodieke back-up gevaarlijk is.
+reviewed: false

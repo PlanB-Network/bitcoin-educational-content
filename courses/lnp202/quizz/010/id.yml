@@ -1,0 +1,9 @@
+question: Kriteria apa yang menentukan pilihan solusi Lightning Anda?
+answer: Frekuensi penggunaan dan kemauan untuk mengelola
+wrong_answers:
+  - Jumlah yang dipertukarkan dan kecepatan protokol
+  - Geolokasi dan pendidikan
+  - Toleransi risiko dan desain perangkat lunak
+explanation: |
+  Pilihannya terutama bergantung pada seberapa sering Lightning digunakan, dan seberapa besar Anda menyukai manajemen teknis.
+reviewed: false

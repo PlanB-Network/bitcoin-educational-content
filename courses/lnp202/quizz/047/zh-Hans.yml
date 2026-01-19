@@ -1,0 +1,9 @@
+question: 为什么 LN+ 不适合商家？
+answer: 大量资本投资
+wrong_answers:
+  - 相关节点缺乏可靠性
+  - 无声誉系统
+  - 通道太小
+explanation: |
+  每获得一个入站卫星，就需要阻止一个出站卫星，这限制了企业的可扩展性。
+reviewed: false

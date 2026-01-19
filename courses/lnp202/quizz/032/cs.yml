@@ -1,0 +1,9 @@
+question: Proč se vyhnout velmi velkým uzlům pro první kanál?
+answer: Restriktivní politiky
+wrong_answers:
+  - Nízká konektivita
+  - Příliš nízké náklady
+  - Nedostatek likvidity
+explanation: |
+  Velmi velké uzly často ukládají vysoké minimální částky a snadno uzavírají malé kanály.
+reviewed: false

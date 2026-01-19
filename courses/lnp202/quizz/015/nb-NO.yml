@@ -1,0 +1,9 @@
+question: Hva kan tilpasses i Lightning-nodens avanserte innstillinger?
+answer: Nodens offentlige navn
+wrong_answers:
+  - Regler for knutepunktkonsensus
+  - Nodens private nøkler
+  - Rutene som velges av noden
+explanation: |
+  Med avanserte innstillinger kan du tilpasse nodeidentifikasjonselementer uten at det påvirker konsensus eller driften av Lightning-nettverket.
+reviewed: false

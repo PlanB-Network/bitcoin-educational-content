@@ -1,0 +1,9 @@
+question: Katika Umbrel, ni programu gani lazima isakinishwe ili kuanzisha muunganisho wa NWC?
+answer: Alby Hub
+wrong_answers:
+  - Kiunganishi cha NWC
+  - ThunderHub
+  - Mtumishi wa Zeus
+explanation: |
+  Kwa kuwa programu ya Umbrel iliyotengwa mahususi kwa NWC haipatikani tena, sasa unahitaji kutumia Alby Hub kwa aina hii ya muunganisho.
+reviewed: false

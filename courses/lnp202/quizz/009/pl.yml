@@ -1,0 +1,9 @@
+question: Jaką władzę nad płatnościami użytkowników ma operator usług przechowywania?
+answer: Siła cenzury
+wrong_answers:
+  - Moc Mining
+  - Siła konsensusu
+  - Moc Halving
+explanation: |
+  Operator kontrolujący środki i kanały może blokować, opóźniać lub filtrować płatności.
+reviewed: false

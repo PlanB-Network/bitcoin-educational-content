@@ -1,0 +1,9 @@
+question: Lightning'de yönlendirmeyi kârlı hale getirmek neden zor?
+answer: Maliyetler ve rekabet
+wrong_answers:
+  - Kanal sınırı
+  - İstek yok
+  - Küresel likidite eksikliği
+explanation: |
+  Zincirleme maliyetler, rekabet ve operasyonel gereklilikler, yönlendirme işinin karlılığını belirsiz hale getirmektedir.
+reviewed: false

@@ -38,46 +38,18 @@ I den här kursen kommer vi att diskutera några monetära aspekter av Bitcoin, 
 
 Det är viktigt att förstå att Bitcoin är ett nytt monetärt system som helt förändrar vår relation till pengar, så att lära sig hur man använder det är en nödvändig färdighet för alla som vill ha kontroll över sina egna medel.
 
-**Avsnitt 1 - Introduktion**
-
-    Kapitel 1 - Kursöversikt
-    Kapitel 2 - Bitcoins Förhistoria
-
-**Avsnitt 2 - Pengar**
-
-    Kapitel 3 - Pengar Genom Historien
-    Kapitel 4 - Fiat-valutor
-    Kapitel 5 - Hyperinflation
-    Kapitel 6 - 21 Miljoner Bitcoins
-
-**Avsnitt 3 - Bitcoin-plånböcker**
-
-    Kapitel 7 - Vad är en Bitcoin-plånbok?
-    Kapitel 8 - Bitcoin-plånböcker och Säkerhet
-    Kapitel 9 - Ställa in en Plånbok
-    Kapitel 10 - Stå Tidens Prov
-
-**Avsnitt 4 - De Tekniska Aspekterna av Bitcoin**
-
-    Kapitel 11 - Lansera Bitcoin
-    Kapitel 12 - Bitcoin-transaktioner
-    Kapitel 13 - Bitcoin-noder
-    Kapitel 14 - Miners
-    Kapitel 15 - Bitcoin och Ekologi
-
-**Avsnitt 5 - Hur Ska Man Skaffa Bitcoins?**
-
-    Kapitel 16 - Bitcoin Sover Aldrig!
-    Kapitel 17 - Tjäna Bitcoins Genom Arbete
-    Kapitel 18 - Spara med Bitcoin
-    Kapitel 19 - Hyperbitcoinisering
-
-**Avsnitt 6 - Framtiden för Bitcoin: Lightning Network**
 
 
-    Kapitel 20 - En Kort Introduktion till Lightning Network
-    Kapitel 21 - Användningsfall för Lightning Network
-    Kapitel 22 - Röd Piller eller Blå Piller?
+
+
+
+
+
+
+
+
+
+
 
 Innan vi introducerar definitionen av pengar och dess funktion i samhället (kapitel 1) bör vi börja med uppkomsten av Bitcoin. Bitcoin lanserades 2009 och är en relativt ny teknik som skiljer sig från allt annat. Det är därför normalt att inte förstå allt om den, allt på en gång. Precis som när man lär sig använda internet eller köra bil behöver man inte kunna alla tekniska detaljer på en gång: man kan börja med att lära sig hur man tar emot, betalar och säkrar sina pengar och sedan ta små steg för att fördjupa sig.
 

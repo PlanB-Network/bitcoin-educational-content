@@ -1,0 +1,9 @@
+question: Tailscale dựa trên giao thức nào?
+answer: WireGuard
+wrong_answers:
+  - OpenVPN
+  - IPsec IKEv2
+  - PPTP
+explanation: |
+  Tailscale là giải pháp VPN dựa trên WireGuard.
+reviewed: false

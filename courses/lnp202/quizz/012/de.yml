@@ -1,0 +1,9 @@
+question: Was ist der Hauptkompromiss bei den LN-On-Board-Knoten?
+answer: Abhängigkeit von den Betreibern
+wrong_answers:
+  - Verlust von privaten Schlüsseln
+  - Keine Selbstbehauptung
+  - Onchain-Zahlungen obligatorisch für alle Lightning-Transaktionen
+explanation: |
+  Der Nutzer ist in Bezug auf Konnektivität und Kanalmanagement stark vom Hauptbetreiber abhängig.
+reviewed: false

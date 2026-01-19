@@ -1,0 +1,9 @@
+question: ¿Qué cierre de canal es mejor para el Rayo?
+answer: Cierre cooperativo
+wrong_answers:
+  - Cierre forzoso
+  - Cerrar con trampa
+  - Cierre Watchtower
+explanation: |
+  El cierre cooperativo es más rápido y le permite elegir las comisiones en cadena.
+reviewed: false

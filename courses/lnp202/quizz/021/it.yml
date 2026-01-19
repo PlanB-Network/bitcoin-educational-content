@@ -1,0 +1,9 @@
+question: Quale file contiene lo stato dettagliato del canale di LND?
+answer: channel.db
+wrong_answers:
+  - wallet.db
+  - Lightning.db
+  - peers.db
+explanation: |
+  Il file channel.db memorizza gli stati dei canali, i peer e i commitment transaction.
+reviewed: false

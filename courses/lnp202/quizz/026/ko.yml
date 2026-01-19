@@ -1,0 +1,9 @@
+question: 정상 작동 중인 감시탑은 보호 중인 채널에 대해 무엇을 추론할 수 있나요?
+answer: 상태 업데이트 빈도
+wrong_answers:
+  - Liquid리티 할당
+  - 용량
+  - 비용 정책
+explanation: |
+  새로운 상태마다 암호화된 패킷을 수신하여 정상적인 활동 속도만 표시합니다.
+reviewed: false

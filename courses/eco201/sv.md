@@ -770,10 +770,9 @@ Konsekvenserna av en sådan felallokering är bland annat finansiella och ekonom
 Idag dyker debatten om ekonomiska kalkyler upp igen, främst i diskussioner om energi, där felinvesteringar som drivs av en Green-agenda blir alltmer uppenbara. Den dyker också upp i diskussioner om penningmarknaderna, där österrikiska ekonomer påpekar att krisen 2008, som de etablerade ekonomerna inte lyckades förutse, var en klassisk boom and bust-cykel som kännetecknades av överinvesteringar på bostadsmarknaden på grund av långa perioder med låga räntor. Vidare sprider neomarxister och andra socialistiska falanger uppfattningen att framväxten av AI skulle kunna lösa det ekonomiska beräkningsproblemet. Detta perspektiv bottnar dock i en felaktig förståelse av frågan; det ekonomiska beräkningsproblemet är inte en fråga om datorkraft utan snarare en fråga om att generera och distribuera information relaterad till produktion och resursallokering. Denna information kan bara genereras lokalt av aktörer med specialkunskaper och ett egenintresse av resultatet. AI kan inte ersätta denna bottom-up-process och kan därför inte hjälpa centrala planerare att Address resursallokeringsproblemet. På grund av ett århundrade av missförstånd förväntar vi oss tyvärr en spridning av påståenden om att AI kommer att inleda en ny era av ekonomiskt välstånd som leds av upplysta centralplanerare som med hjälp av AI kan korrigera de fria marknadernas misslyckanden.
 
 
-För en konkret tillämpning av det ekonomiska kalkylproblemet på en aktuell situation kan du läsa denna artikel som behandlar problemet med resursfördelning i det moderna Kina.
+För en konkret tillämpning av problemet med ekonomisk kalkyl i en samtida situation kan du hänvisa till denna artikel som behandlar resursallokering i det moderna Kina: *[The Road to Financial Repression: China the Paper Tiger](https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web)*, av Théo Mogenet.
 
 
-> Vägen till finansiell repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 
 ### Slutsats

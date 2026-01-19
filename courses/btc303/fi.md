@@ -51,7 +51,7 @@ Kirjan tilasi ja rahoitti [Chaincode Labs](https://learning.chaincode.com/), keh
 <chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
 
 
-Tervetuloa kurssille PHI 301 Bitcoin kehitysfilosofiasta.
+Tervetuloa kurssille BTC 303 Bitcoin kehitysfilosofiasta.
 
 
 Bitcoin on enemmän kuin pelkkä kryptovaluutta, se ilmentää filosofista näkemystä hajauttamisesta, yksityisyydestä, luotettavuudesta ja kestävyydestä. Tämä kurssi on suunniteltu erityisesti Bitcoin:n tekniset perusteet jo tunteville kehittäjille, jotka haluavat nyt syventää ymmärrystään Bitcoin:n suunnittelun ja hallinnon perustana olevista periaatteista.
@@ -1168,14 +1168,14 @@ Bitcoin Core noudattaa tätä määritelmää jakelemalla sitä [MIT-lisenssin](
 
 
 ```
-The MIT License (MIT)
+MIT-lisenssi (MIT)
 
-Copyright (c) 2009-2022 The Bitcoin Core developers
-Copyright (c) 2009-2022 Bitcoin Developers
+Copyright (c) 2009-2022 Bitcoin Core -kehittäjät
+Copyright (c) 2009-2022 Bitcoin-kehittäjät
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Täten myönnetään maksutta lupa kenelle tahansa, joka saa kopion tästä ohjelmistosta ja siihen liittyvistä dokumentaatiotiedostoista ("Ohjelmisto"), käsitellä Ohjelmistoa ilman rajoituksia, mukaan lukien rajoituksetta oikeudet käyttää, kopioida, muokata, yhdistää, julkaista, jakaa, alilisensoida ja/tai myydä Ohjelmiston kopioita, ja sallia henkilöiden, joille Ohjelmisto toimitetaan, tehdä samoin, seuraavilla ehdoilla:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+Yllä oleva tekijänoikeusilmoitus ja tämä lupailmoitus on sisällytettävä kaikkiin Ohjelmiston kopioihin tai olennaisiin osiin.
 ```
 
 

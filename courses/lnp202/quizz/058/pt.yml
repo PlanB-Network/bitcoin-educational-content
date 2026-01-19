@@ -1,0 +1,9 @@
+question: No protocolo NWC, que mecanismo é utilizado para transportar o pedido entre a aplicação e o nó?
+answer: Eventos em relés Nostr
+wrong_answers:
+  - Chamadas REST diretas para o LND
+  - Ligação VPN ponto a ponto
+  - Pedidos de DNS encriptados
+explanation: |
+  O pedido é encriptado e depois publicado como um evento num retransmissor Nostr, que o nó lê para executar a ação.
+reviewed: false

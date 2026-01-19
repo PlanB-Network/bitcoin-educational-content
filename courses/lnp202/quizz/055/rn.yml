@@ -1,0 +1,9 @@
+question: Mu nzira ya NWC, ni ryari gushiramwo amakuru bibera ku ruhande rw’ibikorwa?
+answer: Imbere y’uko bisohoka ku bijanye n’ugusubiramwo
+wrong_answers:
+  - Amaze gusoma urudodo
+  - Inyuma y’aho isohokeye ku bijanye n’ugusubiramwo
+  - Ntiyigera
+explanation: |
+  Iryo koraniro rikora urutonde rw’ivyo bisabwa, rikabipfuka, hanyuma rikabitangaza nk’ikintu cabaye ku nzira ya Nostr.
+reviewed: false

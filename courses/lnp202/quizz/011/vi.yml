@@ -1,0 +1,9 @@
+question: Giải pháp nào mang lại quyền tự chủ cao nhất cho người dùng Lightning?
+answer: Nút Lightning cổ điển
+wrong_answers:
+  - Wallet với hoán đổi nguyên tử
+  - Nút LN trên tàu
+  - Sét canh giữ wallet
+explanation: |
+  Mô hình node cổ điển cung cấp quyền kiểm soát hoàn toàn đối với các kênh, tính thanh khoản và chính sách phí. Đây là mô hình duy nhất cho phép bạn thực sự độc lập.
+reviewed: false

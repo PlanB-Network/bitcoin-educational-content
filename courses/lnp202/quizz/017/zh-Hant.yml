@@ -1,0 +1,9 @@
+question: LND 應用程式介面上顯示的 Lightning wallet 結餘代表什麼？
+answer: 出境流動資金總和
+wrong_answers:
+  - onchains 的總和
+  - 流入流動性的總和
+  - 通道容量的總和
+explanation: |
+  Lightning 結餘對應於可透過通道花費的 sats，也就是節點所有通道流出的流動資金總和。
+reviewed: false

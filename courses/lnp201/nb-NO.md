@@ -1019,6 +1019,10 @@ Vi har sett at likviditetsstyring er en utfordring på Lightning for å sikre en
 
 ![LNP201](assets/en/084.webp)
 
+Nå som du har forstått den teoretiske funksjonen til Lightning Network, kan du gå videre til praksis og sette opp din første Lightning-node for å oppnå større autonomi i bruken. For dette, følg kurset LNP 202:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
 # Siste seksjon
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>

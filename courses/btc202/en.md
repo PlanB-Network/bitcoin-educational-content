@@ -1881,8 +1881,10 @@ Finally, I recommend the *Lightning Network+* application, which allows you to f
 ![Image](assets/fr/089.webp)
 
 
-Thanks to Umbrel, managing a personal Lightning node has been greatly simplified, but it is still relatively complex. For this reason, we'll be taking a closer look at this subject in a future course devoted entirely to this use.
+Thanks to Umbrel, managing a personal Lightning node is simplified, but it nonetheless remains relatively complex. This is why I recommend that you take the LNP 202 course, which is the logical continuation of the BTC 202 course, and in which I guide you step by step through the setup and management of your Lightning node on Umbrel.
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Tailscale
 
@@ -2890,10 +2892,12 @@ We've reached the conclusion of this BTC 202 course, which will have enabled you
 You can now move on to the final part of the course, where you'll be able to evaluate BTC 202, then take your diploma to check that you've mastered all the concepts covered.
 
 
-You now have several options open to you. The next logical step is to set up your own Lightning node, allowing you to be fully independent for your off-chain transactions. This will be the subject of a forthcoming course, to be published this autumn 2025 on Plan ₿ Academy.
+Several paths are now open to you. The next logical step is to set up your own Lightning node, in order to be fully independent for your off-chain transactions. This is precisely the topic of another course on Plan ₿ Academy:
 
 
-In the meantime, I invite you to discover the BTC 204 training, which will enable you to understand and master the principles of privacy protection in your use of Bitcoin:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+I also invite you to discover the BTC 204 course, which will enable you to understand and master the principles of privacy protection in your use of Bitcoin:
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c

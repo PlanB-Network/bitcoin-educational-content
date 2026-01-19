@@ -1028,6 +1028,10 @@ We have observed that liquidity management poses a challenge on Lightning, neces
 
 ![LNP201](assets/en/084.webp)
 
+Now that you have understood the theoretical functioning of the Lightning Network, you can move on to practice and set up your first Lightning node in order to gain greater autonomy in your usage. To do so, follow the LNP 202 course:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
 # Final Section
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>

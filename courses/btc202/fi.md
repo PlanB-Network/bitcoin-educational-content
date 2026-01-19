@@ -2514,9 +2514,11 @@ Lopuksi suosittelen *Lightning Network+*-sovellusta, jonka avulla voit löytää
 
 
 
-Umbrelin ansiosta henkilökohtaisen Lightning-solmun hallinta on yksinkertaistunut huomattavasti, mutta se on silti suhteellisen monimutkaista. Tästä syystä tarkastelemme aihetta tarkemmin tulevalla kurssilla, joka on omistettu kokonaan tälle käyttötarkoitukselle.
+Umbrelin ansiosta henkilökohtaisen Lightning-solmun hallinta on yksinkertaistunut, mutta se on silti suhteellisen monimutkaista. Tästä syystä suosittelen osallistumaan LNP 202 -kurssille, joka on looginen jatko BTC 202 -kurssille ja jossa opastan teitä vaihe vaiheelta Lightning-solmunne käyttöönotossa ja hallinnassa Umbrelissa.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Tailscale
 
@@ -3894,11 +3896,13 @@ Voit nyt siirtyä kurssin viimeiseen osaan, jossa voit arvioida BTC 202:n ja teh
 
 
 
-Sinulla on nyt useita vaihtoehtoja. Seuraava looginen askel on perustaa oma Lightning-solmusi, jolloin voit olla täysin riippumaton off-chain-tapahtumissasi. Tämä on aiheena tulevassa kurssissa, joka julkaistaan syksyllä 2025 Plan ₿ Academy:sta.
+Useita polkuja on nyt avoinna edessäsi. Seuraava looginen askel on oman Lightning-solmun perustaminen, jotta olisit täysin itsenäinen off-chain-transaktioissasi. Juuri tästä aiheesta käsittelee toinen kurssi Plan ₿ Academyssa:
 
 
 
-Sillä välin kutsun sinut tutustumaan BTC 204 -koulutukseen, jonka avulla voit ymmärtää ja hallita yksityisyyden suojan periaatteet Bitcoin:n käytössäsi:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Kutsun teid myös tutustumaan koulutukseen BTC 204, jonka avulla voitte ymmärtää ja hallita yksityisyyden suojan periaatteita Bitcoinin käytössänne:
 
 
 

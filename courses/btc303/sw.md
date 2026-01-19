@@ -1131,14 +1131,14 @@ Bitcoin Core inazingatia ufafanuzi huu kwa kusambazwa chini ya [MIT Leseni](http
 
 
 ```
-The MIT License (MIT)
+Leseni ya MIT (MIT)
 
-Copyright (c) 2009-2022 The Bitcoin Core developers
-Copyright (c) 2009-2022 Bitcoin Developers
+Copyright (c) 2009-2022 Waendelezaji wa Bitcoin Core
+Copyright (c) 2009-2022 Waendelezaji wa Bitcoin
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Kwa hii, ruhusa inatolewa bila malipo, kwa mtu yeyote anayepata nakala ya programu hii na faili za nyaraka zinazohusiana ("Programu"), kushughulikia Programu bila vikwazo, ikiwa ni pamoja na bila vikwazo haki za kutumia, kunakili, kurekebisha, kuunganisha, kuchapisha, kusambaza, kutoa leseni ndogo, na/au kuuza nakala za Programu, na kuruhusu watu ambao Programu inatolewa kwao kufanya vivyo hivyo, chini ya masharti yafuatayo:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+Notisi ya hakimiliki hapo juu na notisi hii ya ruhusa zitajumuishwa katika nakala zote au sehemu kubwa za Programu.
 ```
 
 

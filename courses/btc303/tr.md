@@ -51,7 +51,7 @@ Kitap, Bitcoin geliştirme hakkında bilgi edinmek isteyen geliştiriciler için
 <chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
 
 
-Bitcoin gelişim felsefesi hakkındaki bu PHI 301 kursuna hoş geldiniz.
+Bitcoin gelişim felsefesi hakkındaki bu BTC 303 kursuna hoş geldiniz.
 
 
 Bitcoin bir kripto para biriminden çok daha fazlasıdır; merkeziyetsizlik, gizlilik, güvensizlik ve esneklik hakkında felsefi bir vizyona sahiptir. Bu eğitim, Bitcoin'ün teknik temellerine zaten aşina olan ve şimdi Bitcoin'ün tasarım ve yönetişiminin altında yatan ilkeler hakkındaki anlayışlarını derinleştirmek isteyen geliştiriciler için özel olarak tasarlanmıştır.
@@ -1168,14 +1168,14 @@ Bitcoin core, [MIT Lisansı](https://github.com/Bitcoin/Bitcoin/blob/master/COPY
 
 
 ```
-The MIT License (MIT)
+MIT Lisansı (MIT)
 
-Copyright (c) 2009-2022 The Bitcoin Core developers
-Copyright (c) 2009-2022 Bitcoin Developers
+Copyright (c) 2009-2022 Bitcoin Core geliştiricileri
+Copyright (c) 2009-2022 Bitcoin Geliştiricileri
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Bu yazılımın ve ilgili dokümantasyon dosyalarının ("Yazılım") bir kopyasını edinen herhangi bir kişiye, Yazılımı kısıtlama olmaksızın kullanma, kopyalama, değiştirme, birleştirme, yayınlama, dağıtma, alt lisans verme ve/veya Yazılımın kopyalarını satma hakları dahil ancak bunlarla sınırlı olmaksızın Yazılımla ilgilenme izni ücretsiz olarak verilmektedir ve Yazılımın sağlandığı kişilere aşağıdaki koşullara tabi olarak aynısını yapma izni verilmektedir:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+Yukarıdaki telif hakkı bildirimi ve bu izin bildirimi, Yazılımın tüm kopyalarına veya önemli bölümlerine dahil edilecektir.
 ```
 
 

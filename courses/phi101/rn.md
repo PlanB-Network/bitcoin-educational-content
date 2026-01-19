@@ -27,7 +27,7 @@ Kuva mu bihe vya kera ukwinjira mu gihe c'uburambe, ubwigenge bwarazamutse uko i
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
 
-Murakaze muri PHI201!
+Murakaze muri PHI101!
 
 
 Iryo shure rigutumira gutohoza ingene umwidegemvyo wateye imbere mu mateka yose mu gusuzuma amashure akomeye y’ivyiyumviro yawugize. Uzotohoza ingene iciyumviro c’umwidegemvyo cateye imbere mu binjana n’ibindi, haba mu kurwanya canke mu gukorana n’ubutegetsi, biciye mu rugendo rw’amateka kuva kera gushika ku mpari zo muri iki gihe.

@@ -1111,14 +1111,14 @@ Bitcoin Core se pridržava ove definicije tako što je distribuiran pod [MIT lic
 
 
 ```
-The MIT License (MIT)
+MIT Licenca (MIT)
 
-Copyright (c) 2009-2022 The Bitcoin Core developers
-Copyright (c) 2009-2022 Bitcoin Developers
+Copyright (c) 2009-2022 Bitcoin Core programeri
+Copyright (c) 2009-2022 Bitcoin programeri
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Ovim se besplatno daje dozvola svakom licu koje dobije kopiju ovog softvera i povezanih datoteka dokumentacije ("Softver"), da koristi Softver bez ograničenja, uključujući bez ograničenja prava na korišćenje, kopiranje, modifikovanje, spajanje, objavljivanje, distribuciju, podlicenciranje i/ili prodaju kopija Softvera, i da dozvoli licima kojima je Softver obezbeđen da čine isto, pod sledećim uslovima:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+Gorenavedeno obaveštenje o autorskim pravima i ovo obaveštenje o dozvoli moraju biti uključeni u sve kopije ili značajne delove Softvera.
 ```
 
 

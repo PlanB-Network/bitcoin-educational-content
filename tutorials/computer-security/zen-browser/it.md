@@ -190,7 +190,7 @@ Fin dall'inizio, Zen Browser applica una configurazione ad alta privacy che supe
 
 ### Impostazioni di privacy consigliate
 
-**1. Selezionare il livello di protezione anti-tracciamento**:
+**1. Seleziona il livello di protezione anti-tracciamento**:
 Impostazioni > Privacy e sicurezza > Protezione avanzata dal tracciamento
 
 ![Protection anti-pistage](assets/fr/18.webp)

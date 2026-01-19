@@ -1,0 +1,9 @@
+question: Mikä on Ponzi-huijauksen päämekanismi?
+answer: Varhaissijoittajille maksetaan uusien sijoittajien rahoilla
+wrong_answers:
+  - Tuotot tulevat todellisesta tuotteesta markkinoilla
+  - Sijoittajat saavat osinkoja yrityksiltä
+  - Voitot syntyvät Blockchain:n älykkäiden sopimusten avulla
+explanation: |
+  Ponzi-huijauksessa ei luoda mitään todellista tuotetta, ja maksut riippuvat yksinomaan uusien osallistujien saapumisesta.
+reviewed: false

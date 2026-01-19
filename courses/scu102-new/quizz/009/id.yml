@@ -1,0 +1,9 @@
+question: Mengapa keamanan online sangat penting bagi pengguna Bitcoin?
+answer: Karena peretasan mengakibatkan hilangnya bitcoin secara permanen
+wrong_answers:
+  - Karena bank mengasuransikan dana jika terjadi kerugian total Bitcoin
+  - Karena seseorang bisa masuk penjara karena kehilangan bitcoin
+  - Karena serangan menyebabkan beban administrasi yang sangat berat
+explanation: |
+  Tanpa perantara, peretasan berarti hilangnya bitcoin secara pasti.
+reviewed: false

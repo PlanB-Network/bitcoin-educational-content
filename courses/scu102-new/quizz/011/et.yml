@@ -1,0 +1,9 @@
+question: Miks on oluline kaitsta oma Mnemonic fraasi?
+answer: Sest selle kaotamine toob kaasa bitcoinide püsiva kaotuse
+wrong_answers:
+  - Kuna Blockchain on liiga pikk, et seda regenereerida
+  - Sest selle kaotamine toob kaasa isikuandmete lekke
+  - Kuna Exchange platvormid nõuavad palju dokumente, et seda taastada
+explanation: |
+  Mnemonic fraas võimaldab juurdepääsu taastada. Kui see kaob ja Wallet ei ole enam oma seadmes kättesaadav, on bitcoinid jäädavalt kadunud.
+reviewed: false

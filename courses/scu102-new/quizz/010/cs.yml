@@ -1,0 +1,9 @@
+question: Proč se doporučuje zachovávat diskrétnost ohledně držby Bitcoin?
+answer: Aby se zabránilo upoutání pozornosti zločinců a vlád
+wrong_answers:
+  - Využití lepších sazeb Exchange v některých zemích
+  - Abyste nepřitahovali pozornost podnikatelů, kteří hledají finanční prostředky
+  - Zlepšení výpůjční kapacity
+explanation: |
+  Diskrétnost chrání před rizikem, že se stanete terčem podvodníků, závistivců nebo zlodějů.
+reviewed: false

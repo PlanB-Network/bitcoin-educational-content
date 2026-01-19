@@ -1,0 +1,9 @@
+question: Miks on soovitatav jääda oma Bitcoin osaluste suhtes diskreetseks?
+answer: Et vältida kurjategijate ja valitsuste tähelepanu äratamist
+wrong_answers:
+  - Et saada kasu parematest Exchange määradest teatavates riikides
+  - Et vältida rahastamist taotlevate ettevõtjate tähelepanu äratamist
+  - Parandada laenuvõimet
+explanation: |
+  Diskreetsus kaitseb petturite, armukadedate isikute või varaste rünnakuohu eest.
+reviewed: false

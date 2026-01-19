@@ -1,0 +1,9 @@
+question: 庞氏骗局的主要机制是什么？
+answer: 用新投资者的资金支付早期投资者的费用
+wrong_answers:
+  - 回报来自市场上的真实产品
+  - 投资者从公司获得红利
+  - 利润由 Blockchain 上的智能合约产生
+explanation: |
+  在庞氏骗局中，没有创造真正的产品，支付完全依赖于新参与者的到来。
+reviewed: false

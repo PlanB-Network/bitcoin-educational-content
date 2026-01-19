@@ -1,0 +1,9 @@
+question: Co oznacza zasada 3-2-1 w kontekście tworzenia kopii zapasowych danych?
+answer: 3 kopie na 2 różnych nośnikach, z czego 1 przechowywana poza siedzibą firmy
+wrong_answers:
+  - 3 kopie na 2 nośnikach online i 1 urządzeniu fizycznym
+  - 3 nośniki z 2 kopiami, z których jedna znajduje się poza siedzibą firmy
+  - 3 kopie, z których 2 są zaszyfrowane, a 1 przechowywana poza siedzibą firmy
+explanation: |
+  Zasada ta zaleca posiadanie 3 kopii danych na 2 różnych typach nośników, z 1 kopią przechowywaną poza siedzibą firmy w celu zwiększenia odporności.
+reviewed: false

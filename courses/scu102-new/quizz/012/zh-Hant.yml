@@ -1,0 +1,9 @@
+question: 在 Bitcoin 世界中，自我監護的概念是什麼意思？
+answer: 自己保管私密金鑰
+wrong_answers:
+  - 將鑰匙託付給專門的 Exchange 平台
+  - 將鑰匙託付給投資銀行
+  - 自行保管您的公開金鑰
+explanation: |
+  自我保管可確保使用者透過自己的私人密碼匙維持對其比特幣的完全控制。
+reviewed: false

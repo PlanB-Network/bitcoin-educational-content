@@ -1,0 +1,9 @@
+question: Jaký je hlavní mechanismus Ponziho schématu?
+answer: První investoři jsou placeni z peněz nových investorů
+wrong_answers:
+  - Návratnost pochází ze skutečného produktu na trhu
+  - Investoři dostávají od společností dividendy
+  - Zisky jsou generovány chytrými smlouvami na Blockchain
+explanation: |
+  V Ponziho schématu se nevytváří žádný skutečný produkt a výplaty závisí pouze na příchodu nových účastníků.
+reviewed: false

@@ -1,0 +1,9 @@
+question: What does the notion of self-custody mean in the Bitcoin world?
+answer: Keeping your private keys yourself
+wrong_answers:
+  - Entrusting your keys to a specialized exchange platform
+  - Entrusting your keys to an investment bank
+  - Keeping your public keys yourself
+explanation: |
+  Self-custody ensures that the user maintains full control of their bitcoins through their own private keys.
+reviewed: false

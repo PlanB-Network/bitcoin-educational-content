@@ -1,0 +1,31 @@
+id: 7cf4360f-4491-43c4-a3d2-a746e92b2c48
+
+# Characteristics of the course
+topic: security
+subtopic: fraud-protection
+type: theory
+level: beginner
+hours: 3
+teaching_format: self_paced
+
+# Professors
+professors_id:
+  - 2e1b5182-567e-453a-af29-36009340ff02
+contributor_names:
+  - Asi0Flammeus
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0
+
+tags:
+  - scams
+  - fraud
+  - security
+  - privacy
+  - bitcoin-beginners

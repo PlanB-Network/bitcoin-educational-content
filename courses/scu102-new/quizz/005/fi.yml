@@ -1,0 +1,9 @@
+question: Miksi kaksitekijätodennusta suositellaan?
+answer: Se lisää turvallisuutta Layer:lla
+wrong_answers:
+  - Se yksinkertaistaa pääsyä vähentämällä koodien määrää
+  - Se mahdollistaa kirjautumisen ilman salasanaa
+  - Se korvaa salasanahallinnan käytön
+explanation: |
+  2FA edellyttää salasanan lisäksi väliaikaista koodia, joka vahvistaa huomattavasti verkkotilin suojausta.
+reviewed: false

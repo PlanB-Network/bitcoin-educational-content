@@ -1,0 +1,9 @@
+question: ¿Qué debe hacer para identificar un intento de phishing en el sector de las criptomonedas?
+answer: Verificar la identidad del remitente
+wrong_answers:
+  - Haga clic sólo en los enlaces recibidos en el correo electrónico
+  - Comparta sus claves privadas para confirmar la autenticidad
+  - Utilizar únicamente logotipos e imágenes en los correos electrónicos
+explanation: |
+  Asegúrese siempre de que está interactuando con la persona correcta, y no utilice nunca los enlaces proporcionados en los correos electrónicos. En su lugar, vaya directamente al sitio de forma manual, utilizando los marcadores de su navegador.
+reviewed: false

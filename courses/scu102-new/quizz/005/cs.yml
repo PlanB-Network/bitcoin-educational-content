@@ -1,0 +1,9 @@
+question: Proč se doporučuje dvoufaktorové ověřování?
+answer: Přidává další stupeň zabezpečení Layer
+wrong_answers:
+  - Zjednodušuje přístup tím, že snižuje počet kódů
+  - Umožňuje přihlášení bez hesla
+  - Nahrazuje používání správce hesel
+explanation: |
+  2FA vyžaduje kromě hesla také dočasný kód, který výrazně posiluje ochranu online účtu.
+reviewed: false

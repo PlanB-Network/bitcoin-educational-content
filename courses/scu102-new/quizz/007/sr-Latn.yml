@@ -1,0 +1,11 @@
+question: Koja je uobičajena prevara vezana za onlajn donacije u kripto sektoru?
+answer: Ponude koje tvrde da će udvostručiti ili umnožiti bitkoine koje pošaljete.
+wrong_answers:
+  - Ponude koje tvrde da će udvostručiti ili umnožiti vašu fizičku robu.
+  - Ponude koje tvrde da će udvostručiti ili umnožiti vašu fiat valutu.
+  - Ponude koje tvrde da udvostručuju ili umnožavaju vaše softverske proizvode.
+explanation: |
+  Klasičan primer ove vrste prevare je ponuda koja tvrdi da će udvostručiti
+  ili umnožiti bitkoine koje pošaljete. Važno je razumeti da ne postoji
+  magično rešenje za trenutno bogaćenje.
+reviewed: false

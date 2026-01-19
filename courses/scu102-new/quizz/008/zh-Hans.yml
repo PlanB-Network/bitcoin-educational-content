@@ -1,0 +1,9 @@
+question: 为什么必须定期更新系统和软件？
+answer: 修复已知的安全漏洞
+wrong_answers:
+  - 提高电脑速度，从而更快地应对网络攻击
+  - 添加黑客功能
+  - 优化视频游戏与 Bitcoin 的兼容性
+explanation: |
+  更新通常会修复被黑客利用的已知漏洞。
+reviewed: false

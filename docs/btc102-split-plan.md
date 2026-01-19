@@ -119,15 +119,14 @@ The structure follows standard course format:
 ├── ## Chapter 20: Wallet Security Fundamentals [ORIGINAL]
 ├── ## Chapter 21: Confidentiality & Discretion [ORIGINAL]
 ├── ## Chapter 22: Tax Awareness [ORIGINAL]
-└── ## Chapter 23: Trading vs Investing vs Holding [ORIGINAL]
+├── ## Chapter 23: Trading vs Investing vs Holding [ORIGINAL]
+└── ## Chapter 24: Going Further [ORIGINAL + NEW] ← Resources, golden rules, next steps
 
 # Part 7: Conclusion
-├── ## Chapter 24: Keep Learning [ORIGINAL + NEW]
-├── ## Chapter 25: Golden Rules [ORIGINAL]
-└── ## Chapter 26: Next Steps [NEW]
+└── ## Chapter 25: Conclusion [STANDARDIZED - isCourseConclusion tag only]
 ```
 
-**Total: 7 Parts, 26 Chapters**
+**Total: 7 Parts, 25 Chapters**
 
 ---
 
@@ -416,6 +415,64 @@ This allows:
 2. Future automated splitting of other language files
 3. Translation teams to know what needs fresh translation vs reuse
 
+### Course Structure Formatting Rules
+
+**CRITICAL**: The desktop app has specific rendering rules that must be followed:
+
+1. **No text between Part and first Chapter**: Text placed between a `# Part Name` and the first `## Chapter Name` will NOT be displayed in the desktop app. Part introductions must go inside the first chapter of that part.
+
+   ```markdown
+   # Part Name
+
+   <partId>part-id</partId>
+
+   This text WILL NOT be shown in the app!  ❌
+
+   ## First Chapter
+   ```
+
+   **Correct format:**
+   ```markdown
+   # Part Name
+
+   <partId>part-id</partId>
+
+   ## First Chapter
+
+   <chapterId>chapter-id</chapterId>
+
+   Introduction text goes here inside the chapter. ✅
+   ```
+
+2. **Part separators**: The `#` heading itself is the part separator. Do NOT use `+++` between parts. The `+++` is only used once in some courses to separate a course intro text block (before any `#`) from the first `# Part`. If your course starts directly with `# Part`, no `+++` is needed.
+
+3. **IDs are required**: Every `#` part needs a `<partId>` and every `##` chapter needs a `<chapterId>`.
+
+4. **Standardized Conclusion Format**: Every course must end with a standardized conclusion section. Do NOT create custom conclusion content with multiple chapters. Instead:
+
+   ```markdown
+   ## Going Further
+
+   <chapterId>going-further-ch##</chapterId>
+
+   [Content about next steps, resources, golden rules, etc. goes here as a regular chapter in the last content Part]
+
+   # Conclusion
+
+   <partId>conclusion-part#</partId>
+
+   ## Conclusion
+
+   <chapterId>conclusion-ch##</chapterId>
+   <isCourseConclusion>true</isCourseConclusion>
+   ```
+
+   **Key rules:**
+   - The `# Conclusion` Part should contain ONLY the `## Conclusion` chapter
+   - The `<isCourseConclusion>true</isCourseConclusion>` tag is REQUIRED
+   - All "going further", "next steps", "golden rules", and similar content should go in a **chapter** (not section) called "Going Further" as the LAST chapter of the previous Part
+   - Do NOT create elaborate conclusion content - the standardized conclusion is intentionally minimal
+
 ---
 
 ## Quiz Mapping
@@ -520,6 +577,99 @@ For each course:
 
 ---
 
+## Standard Course Structure Requirements
+
+### Required course.yml Fields
+
+Every course MUST have these fields in `course.yml`:
+
+```yaml
+# REQUIRED FIELDS
+id: [UUID]                    # Unique identifier (generate with uuidgen or Python uuid)
+topic: [string]               # bitcoin, business, mining, protocol, security, sociology, sovereignty
+subtopic: [string]            # Specific subtopic within the topic
+type: [theory|practice]       # Course type
+level: [beginner|intermediate|expert|wizard]  # Difficulty level
+hours: [number]               # Estimated completion time
+teaching_format: [self_paced|professor_led]   # Teaching format
+
+professors_id:                # List of professor UUIDs
+  - [UUID]
+contributor_names:            # List of contributor names
+  - [name]
+
+original_language: [lang]     # Original language code (e.g., "en")
+proofreading:                 # At minimum, the original language
+  - language: [lang]
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0
+
+# OPTIONAL FIELDS (add when ready)
+published_at: [YYYY-MM-DD]    # Publication date
+project_id: [UUID]            # Project identifier
+tags:                         # Searchable tags
+  - [tag1]
+  - [tag2]
+videos:                       # Video metadata (add when videos created)
+  - id: [UUID]
+    youtube:
+      - [lang]: [youtube_id]
+```
+
+### Required Markdown Structure
+
+Every course `en.md` MUST follow this structure:
+
+```markdown
+---
+name: [Course Title]
+goal: [One-sentence goal]
+objectives:
+  - [Objective 1]
+  - [Objective 2]
+---
+
+# Part Name
+<partId>[unique-part-id]</partId>
+
+## Chapter Name
+<chapterId>[unique-chapter-id]</chapterId>
+
+[Content here]
+
+# Conclusion
+<partId>conclusion-part#</partId>
+
+## Conclusion
+<chapterId>conclusion-ch##</chapterId>
+<isCourseConclusion>true</isCourseConclusion>
+```
+
+### Required Directory Structure
+
+```
+courses/[course-code]/
+├── course.yml           # REQUIRED - Course metadata
+├── en.md                # REQUIRED - English content (minimum)
+├── [lang].md            # OPTIONAL - Translations (fr.md, de.md, etc.)
+├── assets/
+│   ├── en/              # REQUIRED - English assets
+│   │   ├── 001.webp
+│   │   └── ...
+│   ├── [lang]/          # OPTIONAL - Translated assets
+│   └── thumbnail.webp   # OPTIONAL - Course thumbnail
+└── quizz/
+    ├── 000/
+    │   ├── question.yml  # Quiz metadata
+    │   ├── en.yml        # English answers
+    │   └── [lang].yml    # Translated answers
+    └── .../
+```
+
+---
+
 ## File Structure Preview
 
 ```
@@ -531,13 +681,12 @@ courses/
 │   ├── assets/
 │   └── quizz/
 │
-├── scu102/          # NEW - Financial Fraud, Scams & Online Security
-│   ├── course.yml
-│   ├── en.md
+├── scu102-new/      # NEW - Financial Fraud, Scams & Online Security
+│   ├── course.yml   # ✅ Has id, type, teaching_format
+│   ├── en.md        # ✅ Correct structure (7 parts, 25 chapters)
 │   ├── assets/
-│   │   ├── en/
-│   │   └── thumbnail.webp (placeholder)
-│   └── quizz/
+│   │   └── en/      # ✅ 25 images (001-025.webp)
+│   └── quizz/       # ✅ 15 quizzes (000-014)
 │
 ├── eco105/          # NEW - Why Bitcoin Matters
 ├── biz102/          # NEW - Bitcoin Industry Overview
@@ -557,6 +706,7 @@ courses/
 | 2026-01-19 | Claude/Rogzy | Merged SCU103 into SCU102, finalized course codes, added review status tracking |
 | 2026-01-19 | Claude/Rogzy | **REVISED** SCU102 review: 7 Parts, 26 Chapters, 15 quizzes (000-014), 25 images. Created scu102-creation.md implementation doc |
 | 2026-01-19 | Claude/Rogzy | **IMPLEMENTED** SCU102: Created folder structure, en.md (with ORIGINAL/NEW tags), copied quizzes (000-014), copied & renumbered assets (005-029 → 001-025). Ready for review. |
+| 2026-01-19 | Claude/Rogzy | **STRUCTURE AUDIT**: Renamed scu201-new → scu102-new. Added missing course.yml fields (id, type, teaching_format). Added "Standard Course Structure Requirements" section documenting required fields, markdown structure, and directory layout for all future courses. |
 
 ---
 

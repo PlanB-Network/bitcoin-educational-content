@@ -1,0 +1,9 @@
+question: Mida tähendab 3-2-1 reegel andmete varundamisel?
+answer: 3 koopiat kahel erineval andmekandjal, millest 1 on salvestatud väljaspool asukohta
+wrong_answers:
+  - 3 koopiat 2 veebipõhisel andmekandjal ja 1 füüsilisel seadmel
+  - 3 andmekandjat koos 2 koopiaga, millest üks on väljaspool tootmiskohta
+  - 3 koopiat, millest 2 on krüpteeritud ja 1 salvestatud väljaspool asukohta
+explanation: |
+  Selle reegli kohaselt soovitatakse hoida 3 koopiat andmetest kahel erineval andmekandjal, kusjuures 1 koopia on suurema vastupidavuse tagamiseks salvestatud väljaspool asukohta.
+reviewed: false

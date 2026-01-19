@@ -1,0 +1,9 @@
+question: Milliseid ettevaatusabinõusid tuleks rakendada annetuskelmuste ja petturlike loteriide vastu?
+answer: Ärge kunagi saatke raha, et saada bitcoine
+wrong_answers:
+  - Saada alati väike summa, et pakkumist testida
+  - Investeeri, et saada kiiret ja vaevata kasumit
+  - Jagage isikuandmeid tehingu tagamiseks
+explanation: |
+  Ettemaksu nõudmine on tavaline pettuse märk seda tüüpi pettuse puhul.
+reviewed: false

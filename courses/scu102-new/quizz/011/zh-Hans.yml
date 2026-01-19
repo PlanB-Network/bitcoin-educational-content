@@ -1,0 +1,9 @@
+question: 为什么要保护您的 Mnemonic 短语？
+answer: 因为丢失它将导致比特币的永久损失
+wrong_answers:
+  - 因为 Blockchain 太长，无法再生
+  - 因为丢失会导致个人数据泄露
+  - 因为 Exchange 平台的再生需要大量文件
+explanation: |
+  Mnemonic 短语允许恢复访问。如果丢失，Wallet 无法在其设备上访问，比特币就会永久丢失。
+reviewed: false

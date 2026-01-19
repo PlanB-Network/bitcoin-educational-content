@@ -1,0 +1,9 @@
+question: Apa mekanisme utama dari skema Ponzi?
+answer: Investor awal dibayar dengan uang dari investor baru
+wrong_answers:
+  - Imbal hasil berasal dari produk nyata di pasar
+  - Investor menerima dividen dari perusahaan
+  - Keuntungan dihasilkan oleh kontrak pintar pada Blockchain
+explanation: |
+  Dalam skema Ponzi, tidak ada produk nyata yang dibuat, dan pembayaran hanya bergantung pada kedatangan peserta baru.
+reviewed: false

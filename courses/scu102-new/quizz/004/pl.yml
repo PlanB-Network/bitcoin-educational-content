@@ -1,0 +1,9 @@
+question: Jaki jest główny mechanizm schematu Ponziego?
+answer: Pierwsi inwestorzy są opłacani pieniędzmi od nowych inwestorów
+wrong_answers:
+  - Zwroty pochodzą z rzeczywistego produktu na rynku
+  - Inwestorzy otrzymują dywidendy od spółek
+  - Zyski są generowane przez inteligentne kontrakty na Blockchain
+explanation: |
+  W schemacie Ponziego nie jest tworzony żaden rzeczywisty produkt, a wypłaty zależą wyłącznie od napływu nowych uczestników.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Miksi on tärkeää suojata Mnemonic-lauseesi?
+answer: Koska sen menettäminen johtaa bitcoinien pysyvään menettämiseen
+wrong_answers:
+  - Koska Blockchain on liian pitkä regeneroitavaksi, se
+  - Koska sen menettäminen johtaa henkilötietojen vuotamiseen
+  - Koska Exchange-alustat vaativat paljon asiakirjoja sen uudistamiseen
+explanation: |
+  Mnemonic-lauseen avulla pääsy voidaan palauttaa. Jos se katoaa, eikä Wallet-lausekkeeseen pääse enää käsiksi laitteella, bitcoinit menetetään pysyvästi.
+reviewed: false

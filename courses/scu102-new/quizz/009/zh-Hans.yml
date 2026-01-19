@@ -1,0 +1,9 @@
+question: 为什么在线安全对 Bitcoin 用户至关重要？
+answer: 因为黑客攻击会造成比特币不可逆转的损失
+wrong_answers:
+  - 因为银行为 Bitcoin 全损情况下的资金投保
+  - 因为丢失比特币会坐牢
+  - 因为攻击会导致非常沉重的行政负担
+explanation: |
+  如果没有中介，黑客攻击就意味着比特币的彻底丢失。
+reviewed: false

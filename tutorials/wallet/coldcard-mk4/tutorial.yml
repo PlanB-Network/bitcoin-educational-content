@@ -1,4 +1,6 @@
-id: 0dc326e1-4f48-4c9f-898a-e45b7296edcc
+id: 5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+
+last_update_date: 2025-12-12
 
 project_id: 317a3aa2-d9e0-49e2-8bb7-620ea76e4ea1
 
@@ -9,17 +11,18 @@ tags:
 
 category: hardware
 
-level: beginner
+level: intermediate
 
-professor_id:
+professor_id: 9080327a-c252-40e7-8d53-74b0a65e0266
+
+license: CC-BY-SA-V4
 
 # Proofreading metadata
-
 original_language: en
 proofreading:
-  - language: en 
-    last_contribution_date:
+  - language: en
+    last_contribution_date: 2025-12-12
     urgency: 1
     contributor_names:
-      - 
-    reward: 0
+      - MilankovicProtocol
+    reward: 2.56

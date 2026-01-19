@@ -133,6 +133,6 @@ https://planb.network/tutorials/wallet/desktop/electrum-efec9166-46b5-4937-8cee-
 
 Whonix è più di un semplice sistema operativo: è un vero e proprio **ambiente sicuro** progettato per proteggere l'anonimato, la privacy e le attività sensibili. Grazie alla sua architettura basata su Tor, al partizionamento intelligente tra Gateway e Workstation e a strumenti preinstallati come Tor Browser, KeePassXC ed Electrum, offre una soluzione chiavi in mano a chiunque desideri **navigare in internet in modo anonimo**, **lavorare in modo sicuro** o **gestire dati riservati**.
 
-Per rafforzare la sicurezza del tuo sistema Unix, date un'occhiata al nostro tutorial sull'auditing del tuo computer: controllate le falle di sicurezza del tuo sistema operativo e assicuratevi che i tuoi dati non siano compromessi.
+Per rafforzare la sicurezza del tuo sistema Unix, dai un'occhiata al nostro tutorial sull'auditing del tuo computer: controlla le falle di sicurezza del tuo sistema operativo e assicurati che i tuoi dati non siano compromessi.
 
 https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b3-a352-4dd2-94d2-f17fa65547af

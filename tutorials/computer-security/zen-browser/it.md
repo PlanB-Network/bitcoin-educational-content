@@ -53,7 +53,7 @@ Il sito rileva automaticamente il sistema e propone il link appropriato:
 **Su Linux**:
 - **Flatpak**: installazione automatica tramite il gestore di pacchetti
   - **AppImage**: `chmod +x ZenBrowser.AppImage` quindi fare doppio clic su
-  - **tar.gz**: Estrarre ed eseguire l'eseguibile di zen-browser
+  - **tar.gz**: Estrai ed esegui l'eseguibile di zen-browser
 
 ### Primo lancio e configurazione iniziale
 

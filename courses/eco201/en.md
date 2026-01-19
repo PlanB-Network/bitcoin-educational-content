@@ -528,7 +528,6 @@ Today, the economic calculation debate resurfaces primarily in discussions about
 
 For a concrete application of the economic calculation problem to a contemporary situation, you can refer to this article tackling the problem of resource allocation in modern China.
 
-> The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 
 ### Conclusion

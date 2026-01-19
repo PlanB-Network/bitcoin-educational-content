@@ -773,7 +773,6 @@ Vandaag de dag duikt het debat over economische berekeningen vooral weer op in d
 Voor een concrete toepassing van het economische berekeningsprobleem op een hedendaagse situatie, kun je dit artikel raadplegen over het probleem van de toewijzing van middelen in het moderne China.
 
 
-> De weg naar financiële repressie: China de papieren tijger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 
 ### Conclusie

@@ -773,7 +773,6 @@ Alice와 Bob 사이의 직접 Exchange(물물교환)에서는 둘 다 같은 시
 경제 계산 문제를 현대 상황에 구체적으로 적용하려면 현대 중국의 자원 배분 문제를 다룬 이 글을 참조하세요.
 
 
-> 금융 억압으로 가는 길: 종이 호랑이 중국, 테오 모게네, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 
 ### 결론

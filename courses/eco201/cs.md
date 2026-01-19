@@ -495,7 +495,6 @@ Dnes se debata o ekonomickém výpočtu znovu objevuje především v diskusích
 
 Pro konkrétní aplikaci problému ekonomického výpočtu na současnou situaci se můžete odkázat na tento článek, který se zabývá problémem alokace zdrojů v moderní Číně.
 
-> Cesta k finanční represi: Čína papírový tygr, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Závěr
 

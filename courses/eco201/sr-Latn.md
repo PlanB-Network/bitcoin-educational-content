@@ -773,7 +773,6 @@ Danas se debata o ekonomskoj kalkulaciji ponovo pojavljuje prvenstveno u diskusi
 Za konkretan primer primene problema ekonomskog obračuna na savremenu situaciju, možete se pozvati na ovaj članak koji se bavi problemom raspodele resursa u modernoj Kini.
 
 
-> Put do finansijske represije: Kina papirni tigar, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 
 ### Zaključak

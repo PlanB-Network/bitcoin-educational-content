@@ -778,7 +778,6 @@ objectives:
 За конкретно приложение на проблема за икономическото изчисление в съвременна ситуация можете да се запознаете с тази статия, в която се разглежда проблемът за разпределението на ресурсите в съвременен Китай.
 
 
-> [The Road to Financial Repression #2 - THE PAPER TIGER, Тео Могенет](https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web)
 
 
 ### Заключение

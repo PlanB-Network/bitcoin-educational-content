@@ -778,7 +778,6 @@ Mises และ Hayek เริ่มต้นการวิเคราะห�
 สำหรับการประยุกต์ใช้ปัญหาการคำนวณทางเศรษฐกิจในสถานการณ์ร่วมสมัย คุณสามารถอ้างอิงบทความนี้ที่จัดการกับปัญหาการจัดสรรทรัพยากรในประเทศจีนยุคใหม่
 
 
-> The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 
 ### บทสรุป

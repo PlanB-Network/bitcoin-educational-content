@@ -506,7 +506,6 @@ Oggi, il dibattito sul calcolo economico riemerge principalmente nelle discussio
 
 Per un'applicazione concreta del problema del calcolo economico a una situazione contemporanea, puoi fare riferimento a questo articolo che affronta il problema dell'allocazione delle risorse nella Cina moderna.
 
-> The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Conclusioni
 

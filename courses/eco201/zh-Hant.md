@@ -518,7 +518,6 @@ Ludwig Von Mises 是 Böhm-Bawerk 最有成就的學生，也可說是 20 世紀
 
 若要將經濟計算問題具體應用於現代情況，您可以參考這篇文章，以解決現代中國的資源分配問題。
 
-> 金融鎮壓之路：紙老虎中國》，Theo Mogenet，https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 ### 總結
 
 在最後一章，我們探討了社會主義下經濟計算的不可能性，這是奧地利經濟學派的核心信條。本課程所提出的奧地利觀點將此結論推向高潮，並為不干預政策提供了有力的論據。奧地利思想的核心，都是圍繞價格在經濟協調中的重要性。奧地利經濟學家透過強調機會成本和經濟計算對合理利用資源的重要性，展現出人類在不斷變化的世界中行動的複雜性和微妙性。

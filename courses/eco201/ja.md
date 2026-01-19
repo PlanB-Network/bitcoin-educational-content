@@ -512,7 +512,6 @@ Figure 6: Public & Private Debt as % of GDP (World, weighted by GDP per country)
 
 現代の状況における経済計算問題の具体的な応用例として、この記事を参照することができます。この記事では、現代中国における資源配分の問題に取り組んでいます。
 
-> 「金融抑圧への道:紙の虎中国」、テオ・モジュネ、https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### 結論
 

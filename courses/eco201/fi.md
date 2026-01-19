@@ -500,7 +500,6 @@ Nykyään taloudellisen laskennan keskustelu nousee esiin pääasiassa keskustel
 
 Konkreettiseksi sovellukseksi taloudellisen laskennan ongelmasta nykyaikaisessa tilanteessa, voit viitata tähän artikkeliin, joka käsittelee resurssien allokaation ongelmaa nyky-Kiinassa.
 
-> The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Johtopäätös
 

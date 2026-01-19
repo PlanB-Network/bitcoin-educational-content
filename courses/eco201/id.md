@@ -499,7 +499,6 @@ Hari ini, debat perhitungan ekonomi muncul kembali terutama dalam diskusi tentan
 
 Untuk aplikasi konkret dari masalah perhitungan ekonomi pada situasi kontemporer, Anda dapat merujuk ke artikel ini yang menangani masalah alokasi sumber daya di China modern.
 
-> Jalan Menuju Represi Keuangan: China Harimau Kertas, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Kesimpulan
 

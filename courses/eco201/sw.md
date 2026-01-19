@@ -521,7 +521,6 @@ Leo, mjadala wa hesabu za kiuchumi unaibuka tena hasa katika majadiliano kuhusu 
 
 Kwa matumizi madhubuti ya shida ya hesabu ya kiuchumi kwa hali ya kisasa, unaweza kurejelea nakala hii inayoshughulikia shida ya ugawaji wa rasilimali katika Uchina wa kisasa.
 
-> Barabara ya Ukandamizaji wa Kifedha: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 ### Hitimisho
 
 Katika sura hii ya mwisho, tumechunguza kutowezekana kwa hesabu ya kiuchumi chini ya ujamaa, kanuni kuu ya shule ya uchumi ya Austria. Mtazamo wa Austria uliowasilishwa katika kozi hii unakamilika kwa hitimisho hili na unatoa hoja thabiti kwa sera zisizoingilia kati. Katika msingi wake, mawazo yote ya Austria yanahusu umuhimu wa bei katika uratibu wa kiuchumi. Kwa kusisitiza umuhimu wa gharama za fursa na ukokotoaji wa kiuchumi kwa matumizi bora ya rasilimali, wanauchumi wa Austria wanaonyesha utata na ujanja wa vitendo vya binadamu katika ulimwengu unaobadilika kila mara.

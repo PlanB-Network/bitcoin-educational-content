@@ -773,7 +773,6 @@ objectives:
 برای یک کاربرد مشخص از مسئله محاسبه اقتصادی در یک وضعیت معاصر، می‌توانید به این مقاله که به مشکل تخصیص منابع در چین مدرن می‌پردازد، مراجعه کنید.
 
 
-> جاده به سوی سرکوب مالی: چین ببر کاغذی، تئو موژنت، https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 
 ### نتیجه‌گیری

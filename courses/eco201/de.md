@@ -504,7 +504,6 @@ Heutzutage taucht die Debatte über die wirtschaftliche Berechnung hauptsächlic
 
 Für eine konkrete Anwendung des Problems der wirtschaftlichen Berechnung auf eine zeitgenössische Situation können Sie sich auf diesen Artikel beziehen, der sich mit dem Problem der Ressourcenallokation im modernen China befasst.
 
-> The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Fazit
 

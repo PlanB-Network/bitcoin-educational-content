@@ -494,7 +494,6 @@ Tänapäeval kerkib majandusarvestuse debatt esile peamiselt energiaküsimustes,
 
 Konkreetse näite majandusarvestuse probleemi rakendamisest kaasaegses olukorras leiate sellest artiklist, mis käsitleb ressursside jaotamise probleemi kaasaegses Hiinas.
 
-> The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Järeldus
 

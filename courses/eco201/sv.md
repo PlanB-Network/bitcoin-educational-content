@@ -773,7 +773,6 @@ Idag dyker debatten om ekonomiska kalkyler upp igen, främst i diskussioner om e
 För en konkret tillämpning av det ekonomiska kalkylproblemet på en aktuell situation kan du läsa denna artikel som behandlar problemet med resursfördelning i det moderna Kina.
 
 
-> Vägen till finansiell repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 
 ### Slutsats

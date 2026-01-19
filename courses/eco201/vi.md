@@ -500,7 +500,6 @@ Ngày nay, cuộc tranh luận về tính toán kinh tế lại nổi lên chủ
 
 Để áp dụng cụ thể vấn đề tính toán kinh tế vào một tình huống hiện đại, bạn có thể tham khảo bài viết phân tích về vấn đề phân bổ tài nguyên ở Trung Quốc hiện đại.
 
-> Con đường đến với sự áp bức tài chính: Trung Quốc, một con hổ giấy, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Kết luận
 

@@ -773,7 +773,6 @@ Dziś debata na temat kalkulacji ekonomicznej powraca przede wszystkim w dyskusj
 Konkretne zastosowanie problemu kalkulacji ekonomicznej we współczesnej sytuacji można znaleźć w tym artykule poświęconym problemowi alokacji zasobów we współczesnych Chinach.
 
 
-> Droga do represji finansowych: Chiny papierowym tygrysem, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 
 ### Wnioski

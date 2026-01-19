@@ -509,7 +509,6 @@ ZIRP的另一个意外后果是，它刺激政府进行大规模支出。由于�
 
 对于将经济计算问题应用于当代情境的具体例子，您可以参考这篇文章，它处理了现代中国资源分配的问题。
 
-> 通往金融压制之路：中国这只纸老虎，Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### 结论
 

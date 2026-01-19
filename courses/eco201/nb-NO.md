@@ -495,7 +495,6 @@ I dag gjenoppstår debatten om økonomisk kalkulasjon hovedsakelig i diskusjoner
 
 For en konkret anvendelse av det økonomiske kalkulasjonsproblemet på en samtidsituasjon, kan du referere til denne artikkelen som tar for seg problemet med ressursallokering i moderne Kina.
 
-> The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 ### Konklusjon
 

@@ -773,7 +773,6 @@ Günümüzde ekonomik hesaplama tartışması, öncelikle Green gündemi tarafı
 Ekonomik hesaplama probleminin güncel bir duruma somut bir uygulaması için, modern Çin'de kaynak tahsisi sorununu ele alan bu makaleye başvurabilirsiniz.
 
 
-> Finansal Baskıya Giden Yol: Kağıttan Kaplan Çin, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 
 ### Sonuç

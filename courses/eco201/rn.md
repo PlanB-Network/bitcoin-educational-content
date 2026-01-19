@@ -786,7 +786,6 @@ Ubu, impari z’uguharura ubutunzi zisubira kuvyuka ahanini mu biganiro vyerekey
 Kugira ngo ubone neza ingene ingorane y’uguharura ubutunzi ikoreshwa mu buryo bubereye mu gihe ca none, urashobora kuraba iyi ngingo ivuga ku ngorane yo gutanga ubutunzi(amafaranga) mu Bushinwa bwa none.
 
 
-> Inzira ija mu gukandamiza ivy'amahera: Ubushinwa, Ingwe y'Impapuro, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/inzira-ija-mu-gukandamiza-ivy'amahera
 
 
 ### Ico tugezeko muri rusangi

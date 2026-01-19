@@ -4470,16 +4470,16 @@ m/47'/0'/0'/
 ```
 
 
-Concreet, om de gecomprimeerde publieke sleutel en stringcode geassocieerd met de herbruikbare betalingscode te berekenen, beginnen we met het berekenen van de master private sleutel uit wallet seed. Daarna leiden we een paar dochtersleutels af met de index `47 + 2^31` (versterkte afleiding). Dit wordt gevolgd door nog twee opeenvolgende afleidingen van dochterparen, elk met de index `2^31` (versterkte afleiding).
+Concreet, om de gecomprimeerde publieke sleutel en stringcode geassocieerd met de herbruikbare betalingscode te berekenen, beginnen we met het berekenen van de master private sleutel uit de wallet seed. Daarna leiden we een paar dochtersleutels af met de index `47 + 2^31` (hardened derivation). Dit wordt gevolgd door nog twee opeenvolgende afleidingen (derivations) van dochterparen, elk met de index `2^31` (versterkte afleiding).
 
 
 ![BTC204](assets/nl/224.webp)
 
 
-### Diffie-Hellman sleutel exchange op elliptische krommen (ECDH)
+### Diffie-Hellman sleuteluitwisseling op elliptische krommen (ECDH)
 
 
-Het cryptografische protocol in het hart van BIP47 staat bekend onder het acroniem ECDH, voor *Elliptic-Curve Diffie-Hellman*. Deze methode is een variant van de originele Diffie-Hellman sleutel Exchange.
+Het cryptografische protocol in het hart van BIP47 staat bekend onder het acroniem ECDH, voor *Elliptic-Curve Diffie-Hellman*. Deze methode is een variant van de originele Diffie-Hellman sleuteluitwisseling.
 
 
 Diffie-Hellman, geïntroduceerd in 1976, is een sleutelovereenkomstprotocol waarmee twee partijen, elk uitgerust met een sleutelpaar (openbaar en privé), het eens kunnen worden over een gemeenschappelijk geheim, zelfs als ze alleen communiceren via een openbaar, onbeveiligd kanaal.
@@ -4501,31 +4501,31 @@ Om dit te bereiken gebruikt Diffie-Hellman modulaire rekenkunde om het gedeelde 
 
 - Alice en Bob zijn het eens over een gemeenschappelijke kleur, in dit geval geel, wat openbare gegevens zijn (de aanvallers kennen deze kleur);
 - Alice selecteert een geheime kleur, in dit geval rood, en mengt de twee om oranje te krijgen;
-- Bob kiest ook een geheime kleur, in dit geval blauw, en mengt die met geel om Green te krijgen;
-- Ze exchange vervolgens de resulterende kleuren, oranje en Green. Dit exchange kan plaatsvinden op een onveilig netwerk en geobserveerd worden door aanvallers;
-- Door Bob's Green te mengen met haar eigen geheime kleur, Alice, ontstaat bruin;
+- Bob kiest ook een geheime kleur, in dit geval blauw, en mengt die met geel om groen te krijgen;
+- Ze wisselen vervolgens de resulterende kleuren, oranje en groen, uit. Deze uitwisseling kan plaatsvinden op een onveilig netwerk en geobserveerd worden door aanvallers;
+- Door Bob's groen te mengen met Alice haar eigen geheime kleur, ontstaat bruin;
 - Bob, die hetzelfde doet met Alice's oranje en geheime blauw, krijgt ook bruin.
 
 
 ![BTC204](assets/nl/227.webp)
 
 
-In deze popularisatie vertegenwoordigt de kleur bruin het geheim dat gedeeld wordt door Alice en Bob. Stel je voor dat het in werkelijkheid onmogelijk is voor de aanvaller om de kleuren oranje en Green te scheiden, om zo de geheime kleuren van Alice of Bob te vinden.
+In deze popularisatie vertegenwoordigt de kleur bruin het geheim dat gedeeld wordt door Alice en Bob. Stel je voor dat het in werkelijkheid onmogelijk is voor de aanvaller om de kleuren oranje en groen te scheiden, om zo de geheime kleuren van Alice of Bob te vinden.
 
 
 Laten we nu eens kijken hoe dit protocol eigenlijk werkt, niet met kleuranalogieën, maar met echte getallen en modulair rekenen!
 
 
-Voordat we ons gaan verdiepen in de Diffie-Hellman mechanismen, wil ik u kort herinneren aan twee essentiële wiskundige concepten die we nodig hebben:
+Voordat we ons gaan verdiepen in de Diffie-Hellman mechanismen, wil ik je kort herinneren aan twee essentiële wiskundige concepten die we nodig hebben:
 
 
 
 
 - Een **priemgetal** is een natuurlijk getal dat slechts twee delers heeft: $1$ en zichzelf. Bijvoorbeeld, $7$ is een priemgetal omdat het alleen kan worden gedeeld door $1$ en $7$. Anderzijds is $8$ geen priemgetal, omdat het deelbaar is door $1$, $2$, $4$ en $8$. Het heeft dus vier positieve gehele delers in plaats van twee;
-- De **modulo** (ook wel $mod$ of $%$ genoemd) is een wiskundige bewerking die tussen twee gehele getallen de rest geeft van de Euclidische deling van de eerste door de tweede. Bijvoorbeeld: $16 modulo 5 = $1$.
+- De **modulo** (ook wel $mod$ of $\%$ genoemd) is een wiskundige bewerking die tussen twee gehele getallen de rest geeft van de Euclidische deling van de eerste door de tweede. Bijvoorbeeld: $16 modulo 5 = $1$.
 
 
-**De Diffie-Hellman sleutel exchange tussen Alice en Bob verloopt als volgt:**
+**De Diffie-Hellman sleuteluitwisseling tussen Alice en Bob verloopt als volgt:**
 
 
 
@@ -4553,7 +4553,7 @@ $$
 
 
 
-- De waarden $A$ (gelijk aan **de kleur oranje**) en $B$ (gelijk aan **de kleur Green**) worden uitgewisseld tussen de twee partijen. Deze exchange kan in heldere tekst plaatsvinden op een onbeveiligd netwerk;
+- De waarden $A$ (gelijk aan **de kleur oranje**) en $B$ (gelijk aan **de kleur groen**) worden uitgewisseld tussen de twee partijen. Deze uitwisseling kan in leesbare tekst plaatsvinden op een onbeveiligd netwerk;
 - Alice, die $B$ heeft ontvangen, berekent de waarde van $z$ als volgt:
 
 
@@ -4565,7 +4565,7 @@ z = B^a \bmod p
 $$
 
 
-Een herinnering:
+Als herinnering:
 
 
 $$
@@ -4633,7 +4633,7 @@ z = g^{ba} \bmod p
 $$
 
 
-Dankzij de distributiviteit van de modulo-operator krijgen Alice en Bob precies dezelfde waarde $z$. Dit getal vertegenwoordigt hun gemeenschappelijke geheim, gelijk aan **de kleur bruin** in de vorige popularisatie met verfblikken. Ze kunnen dit gemeenschappelijke geheim nu gebruiken om hun communicatie over een onbeveiligd netwerk symmetrisch te versleutelen.
+Dankzij de distributiviteit van de modulo-operator krijgen Alice en Bob precies dezelfde waarde $z$. Dit getal vertegenwoordigt hun gemeenschappelijke geheim, gelijk aan **de kleur bruin** in de vorige popularisatie met verfpotten. Ze kunnen dit gemeenschappelijke geheim nu gebruiken om hun communicatie over een onbeveiligd netwerk symmetrisch te versleutelen.
 
 
 ![BTC204](assets/nl/228.webp)
@@ -4651,7 +4651,7 @@ Hierin ligt het grootste nadeel van het Diffie-Hellman protocol. Om veilig te zi
 Het algemene principe van het algoritme blijft hetzelfde. Maar in plaats van een willekeurig getal $a$ en een getal $A$ berekend uit $a$ door modulaire exponentiatie, gebruiken we een sleutelpaar vastgesteld op een elliptische kromme. In plaats van te vertrouwen op de distributiviteit van de modulo operator, gebruiken we de groepswet op elliptische krommen, en meer precies de associativiteit van deze wet.
 
 
-Om het principe van cryptografie op elliptische krommen kort uit te leggen: een privésleutel wordt voorgesteld door een willekeurig getal tussen $1$ en $n-1$, waarbij $n$ de orde van de kromme voorstelt. De publieke sleutel daarentegen is een specifiek punt op deze kromme, verkregen uit de private sleutel door punten van het genererende punt op te tellen en te verdubbelen, volgens de vergelijking :
+Om het principe van cryptografie op elliptische krommen kort uit te leggen: een privésleutel wordt voorgesteld door een willekeurig getal tussen $1$ en $n-1$, waarbij $n$ de volgorde van de kromme voorstelt. De publieke sleutel daarentegen is een specifiek punt op deze kromme, verkregen uit de private sleutel door punten van het genererende punt op te tellen en te verdubbelen, volgens de vergelijking :
 
 
 $$
@@ -4691,7 +4691,7 @@ $$
 
 
 
-- Alice en Bob exchange hun openbare sleutels $Ka$ en $Kb$ op een onbeveiligd openbaar netwerk.
+- Alice en Bob wisselen hun openbare sleutels $Ka$ en $Kb$ op een onbeveiligd openbaar netwerk.
 - Alice berekent een punt $(x,y)$ op de curve door haar privésleutel $ka$ toe te passen op de openbare sleutel $Kb$ van Bob:
 
 
@@ -4726,7 +4726,7 @@ $$
 Een potentiële aanvaller die het onbeveiligde openbare netwerk observeert, kan alleen de openbare sleutels van elk individu en de parameters van de gekozen elliptische curve verkrijgen. Zoals hierboven uitgelegd, is deze informatie alleen niet voldoende om de privésleutels te bepalen. Bijgevolg kan de aanvaller het gedeelde geheim tussen Alice en Bob niet vinden.
 
 
-ECDH is daarom een exchange sleutelalgoritme. Het wordt vaak gebruikt in combinatie met andere cryptografische methoden om een compleet protocol op te zetten. ECDH vormt bijvoorbeeld het hart van TLS (*Transport Layer Security*), een encryptie- en authenticatieprotocol dat gebruikt wordt voor het internettransport Layer. TLS gebruikt ECDHE voor sleutel Exchange, een variant van ECDH waarbij sleutels efemeer zijn, om aanhoudende vertrouwelijkheid te bieden. Daarnaast gebruikt TLS authenticatiealgoritmen zoals ECDSA, encryptiealgoritmen zoals AES en hash functies zoals SHA256.
+ECDH is daarom een algoritme voor sleuteluitwisseling. Het wordt vaak gebruikt in combinatie met andere cryptografische methoden om een compleet protocol op te zetten. ECDH vormt bijvoorbeeld het hart van TLS (*Transport Layer Security*), een encryptie- en authenticatieprotocol dat gebruikt wordt voor het internettransportlaag. TLS gebruikt ECDHE voor sleuteluitwisseling, een variant van ECDH waarbij sleutels efemeer zijn, om aanhoudende vertrouwelijkheid te bieden. Daarnaast gebruikt TLS authenticatiealgoritmen zoals ECDSA, encryptiealgoritmen zoals AES en hash functies zoals SHA256.
 
 
 TLS is verantwoordelijk voor de `s` in `https` en het hangslotje in de adresbalk van je browser - symbolen van versleutelde communicatie. Als je deze cursus volgt, gebruik je ECDH, en het is zeer waarschijnlijk dat je het dagelijks gebruikt zonder dat je het weet.

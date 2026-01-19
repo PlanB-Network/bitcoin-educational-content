@@ -778,7 +778,7 @@ Karakteristik utama dari operasi ini adalah bahwa itu adalah fungsi satu arah. M
 
 ### Penambahan dan Penggandaan Titik pada Kurva Eliptik
 
-Konsep penambahan pada kurva eliptik didefinisikan secara geometris. Jika kita memiliki dua titik $P$ dan $Q$ pada kurva, operasi $P + Q$ dihitung dengan menggambar garis yang melewati $P$ dan $Q$. Garis ini akan selalu berpotongan dengan kurva di titik ketiga $R'$. Kemudian kita mengambil citra cermin dari titik ini terhadap sumbu-x untuk mendapatkan titik $R$, yang merupakan hasil dari penambahan:
+Konsep penambahan pada kurva eliptik didefinisikan secara geometris. Jika kita memiliki dua titik $P$ dan $Q$ pada kurva, operasi $P + Q$ dihitung dengan menggambar garis yang melewati $P$ dan $Q$. Garis ini akan selalu berpotongan dengan kurva di titik ketiga $R'$. Kemudian kita mengambil bayangan cermin dari titik ini terhadap sumbu-x untuk mendapatkan titik $R$, yang merupakan hasil dari penambahan:
 
 $$
 P + Q = R
@@ -788,7 +788,7 @@ Secara grafis, ini dapat diwakili sebagai berikut:
 
 ![CYP201](assets/en/024.webp)
 
-Untuk penggandaan titik, yaitu operasi $P + P$, kita menggambar tangen ke kurva di titik $P$. Tangen ini berpotongan dengan kurva di titik lain $S'$. Kemudian kita mengambil citra cermin dari titik ini terhadap sumbu-x untuk mendapatkan titik $S$, yang merupakan hasil dari penggandaan:
+Untuk penggandaan titik, yaitu operasi $P + P$, kita menggambar tangen ke kurva di titik $P$. Tangen ini berpotongan dengan kurva di titik lain $S'$. Kemudian kita mengambil bayangan cermin dari titik ini terhadap sumbu-x untuk mendapatkan titik $S$, yang merupakan hasil dari penggandaan:
 
 $$
 2P = S
@@ -1179,7 +1179,7 @@ Dalam bab-bab berikutnya, kita akan menjelajahi cara kerja internal dompet HD, t
 
 :::video id=4b6c3bd5-2d5c-42ff-8f47-141bd20569bd:::
 
-Dompet HD modern (deterministik dan hierarkis) mengandalkan satu potongan informasi awal yang disebut "entropi" untuk menghasilkan seluruh set kunci dompet secara deterministik. Entropi ini adalah nomor pseudo-acak yang tingkat kekacaunya sebagian menentukan keamanan dompet.
+Dompet HD modern (deterministik dan hierarkis) mengandalkan satu potongan informasi awal yang disebut "entropi" untuk menghasilkan seluruh set kunci dompet secara deterministik. Entropi ini adalah nomor pseudo-acak yang sebagian menentukan keamanan dompet.
 
 ### Definisi Entropi
 

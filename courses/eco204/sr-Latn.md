@@ -420,7 +420,7 @@ Ilustrativni primer MMT-a je američki vojno-industrijski kompleks. Prema MMT-u,
 Japan se često navodi od strane zagovornika MMT-a kao još jedan primer odsustva inflacije uprkos značajnom štampanju novca. Međutim, situacija u Japanu takođe ističe ograničenja tradicionalnih mera inflacije kao što je Indeks potrošačkih cena (CPI). U Japanu, veliki deo štampanog novca se ili štedi ili investira u nekretnine ili berze, umesto da se troši u trenutnoj potrošačkoj ekonomiji. CPI, time što ne obuhvata u potpunosti ove dinamike, može potceniti stvarnu inflaciju.
 
 
-Analiza Japana (https://ideas.repec.org/p/ces/ceswps/_9821.html) takođe ističe da ponašanje ekonomskih agenata, kao što su štednja ili ulaganje u imovinu koja nije uključena u CPI, može prikriti inflatorni uticaj monetarnog štampanja. Nadalje, sposobnost različitih sektora da apsorbuju ubrizganu likvidnost igra ključnu ulogu u tome da li će doći do inflacije ili ne.
+[Analiza Japana](https://ideas.repec.org/p/ces/ceswps/_9821.html) takođe ukazuje na to da ponašanje ekonomskih agenata, poput štednje ili ulaganja u aktive koji nisu uključeni u indeks potrošačkih cena, može prikriti inflatorni efekat monetarne emisije. Pored toga, sposobnost različitih sektora da apsorbuju ubrizganu likvidnost ima ključnu ulogu u tome da li će se inflacija ispoljiti ili ne.
 
 
 #### Bilansi banaka i centralne banke

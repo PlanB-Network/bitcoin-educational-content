@@ -770,10 +770,9 @@ De gevolgen van een dergelijke verkeerde allocatie zijn onder andere financiële
 Vandaag de dag duikt het debat over economische berekeningen vooral weer op in discussies over energie, waar desinvesteringen gedreven door een Green agenda steeds duidelijker worden. Het komt ook naar voren in discussies over geldmarkten, waarbij Oostenrijkse economen erop wijzen dat de crisis van 2008, die mainstream economen niet konden voorspellen, een klassieke boom en bust cyclus was die gekenmerkt werd door overinvesteringen in de huizenmarkt als gevolg van langdurige periodes van lage rente. Verder propageren neomarxisten en andere socialistische groeperingen het idee dat de opkomst van AI het economische calculatieprobleem zou kunnen oplossen. Dit perspectief komt echter voort uit een verkeerd begrip van het probleem; het economische rekenprobleem is geen kwestie van rekenkracht maar eerder van het genereren en distribueren van informatie die gerelateerd is aan productie en het toewijzen van middelen. Deze informatie kan alleen lokaal worden gegenereerd door agenten met gespecialiseerde kennis en een gevestigd belang in de uitkomst. AI kan dit bottom-up proces niet vervangen en kan centrale planners daarom niet helpen bij het Address probleem van de toewijzing van middelen. Helaas verwachten we, door een eeuw van misverstanden, een proliferatie van beweringen dat AI een nieuw tijdperk van economische voorspoed zal inluiden, geleid door verlichte centrale planners die, met behulp van AI, het falen van vrije markten kunnen corrigeren.
 
 
-Voor een concrete toepassing van het economische berekeningsprobleem op een hedendaagse situatie, kun je dit artikel raadplegen over het probleem van de toewijzing van middelen in het moderne China.
+Voor een concrete toepassing van het probleem van economische calculatie op een hedendaagse situatie kunt u verwijzen naar dit artikel over de allocatie van middelen in het moderne China: *[The Road to Financial Repression: China the Paper Tiger](https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web)*, door Théo Mogenet.
 
 
-> De weg naar financiële repressie: China de papieren tijger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 
 ### Conclusie

@@ -1,0 +1,9 @@
+question: 哪个系统能在 Bitcoin 上实现快速、低成本的交易？
+answer: Lightning Network
+wrong_answers:
+  - SegWit
+  - 瑞波网络
+  - RGB
+explanation: |
+  Lightning Network 是第二代 Layer 解决方案，可实现快速结算并降低 BTC 交易成本。
+reviewed: false

@@ -26,9 +26,9 @@ We are reviewing each of the 7 new courses one by one to define their detailed s
 | # | Course Code | Course Name | Review Status | Implementation Status | Notes |
 |---|-------------|-------------|---------------|----------------------|-------|
 | 1 | SCU102 | Financial Fraud, Scams & Online Security | ✅ REVIEWED | ✅ **IMPLEMENTED** | Completed 2026-01-19 |
-| 2 | ECO105 | Why Bitcoin Matters | NOT STARTED | - | Next to review |
+| 2 | BTC103 | Why Bitcoin Matters | ✅ REVIEWED | ✅ **IMPLEMENTED** | Completed 2026-01-19 |
 | 3 | BIZ102 | Bitcoin Industry Overview | NOT STARTED | - | |
-| 4 | BTC103 | How to Acquire Bitcoin | NOT STARTED | - | |
+| 4 | BTC105 | How to Acquire Bitcoin | NOT STARTED | - | |
 | 5 | BTC104 | How to Secure Bitcoin | NOT STARTED | - | |
 | 6 | SOV102 | Bitcoin Inheritance Planning | NOT STARTED | - | |
 | 7 | BTC102v2 | Your First Bitcoin Journey (Hub) | NOT STARTED | - | Created last |
@@ -216,34 +216,111 @@ See [scu102-creation.md](scu102-creation.md) for detailed implementation steps.
 
 ---
 
-### Course 2: ECO105 - Why Bitcoin Matters
-**Discipline**: Economy (ECO)
-**Level**: Beginner (105)
-**Estimated Duration**: 1.5-2 hours
-**Source**: BTC102 Part 2 - "Why is Bitcoin important?" chapter
-**Review Status**: NOT STARTED
+### Course 2: BTC103 - Why Bitcoin Matters
+**Discipline**: Bitcoin (BTC)
+**Level**: Beginner (103)
+**Estimated Duration**: 2 hours
+**Source**: BTC102 Part 2 - "Bitcoin in 5 minutes" + "Why is Bitcoin important?" chapters (lines 554-841)
+**Review Status**: ✅ REVIEWED (2026-01-19)
+**Implementation Status**: ✅ **IMPLEMENTED** (2026-01-19)
+**Implementation Doc**: [btc103-creation.md](btc103-creation.md)
 
-**Proposed Structure**:
-- Section 1: Introduction
-- Section 2: Bitcoin as Universal Currency
-  - Borderless transactions
-  - Remittances & financial inclusion
-- Section 3: Protection Against Economic Instability
-  - Currency crises
-  - Inflation hedge
-- Section 4: Bitcoin & Individual Freedom
-  - Response to state control
-  - Financial sovereignty
-- Section 5: Bitcoin vs Monetary Corruption
-  - Banking system critique
-  - Sound money principles
-- Section 6: Bitcoin as a Movement
-  - Political implications
-  - Social change
-- Section 7: Conclusion
+---
 
-**Detailed Review Notes**:
-*(To be filled during in-depth review session)*
+#### Source Content Mapping (BTC102 en.md)
+
+| BTC102 Chapter | Lines | Content |
+|----------------|-------|---------|
+| Bitcoin in 5 minutes | 554-701 | Origins, Cypherpunks, blockchain, mining, monetary properties |
+| Why is Bitcoin important? | 702-841 | Universal currency, protection against crises, sound money |
+
+---
+
+#### Course Structure (4 Parts, 9 Chapters)
+
+```
+# Part 1: Introduction
+└── ## Chapter 1: Welcome to ECO105 [NEW]
+
+# Part 2: Bitcoin in 5 Minutes
+├── ## Chapter 2: The Origins [ORIGINAL: lines 564-604]
+├── ## Chapter 3: A Decentralized Network [ORIGINAL: lines 605-636]
+├── ## Chapter 4: Monetary Properties & Transparency [ORIGINAL: lines 637-672]
+└── ## Chapter 5: Use Cases [ORIGINAL: lines 673-695]
+
+# Part 3: Why Bitcoin Matters
+├── ## Chapter 6: A Universal Currency [ORIGINAL: lines 710-728]
+├── ## Chapter 7: Protection Against Crises [ORIGINAL: lines 730-776]
+└── ## Chapter 8: Sound Money & Political Movement [ORIGINAL: lines 778-841]
+
+# Part 4: Conclusion
+└── ## Chapter 9: Conclusion [STANDARD]
+```
+
+---
+
+#### Quiz Mapping (9 quizzes)
+
+| BTC102 Quiz | BTC103 Quiz | Question Topic | Target Chapter |
+|-------------|-------------|----------------|----------------|
+| 015 | 000 | Bitcoin in 5 min | Ch 2: The Origins |
+| 016 | 001 | Bitcoin in 5 min | Ch 2: The Origins |
+| 017 | 002 | Bitcoin in 5 min | Ch 2: The Origins |
+| 018 | 003 | Bitcoin in 5 min | Ch 2: The Origins |
+| 019 | 004 | Bitcoin in 5 min | Ch 2: The Origins |
+| 020 | 005 | Why Bitcoin matters | Ch 6: A Universal Currency |
+| 021 | 006 | Why Bitcoin matters | Ch 6: A Universal Currency |
+| 022 | 007 | Why Bitcoin matters | Ch 6: A Universal Currency |
+| 023 | 008 | Why Bitcoin matters | Ch 6: A Universal Currency |
+
+---
+
+#### Asset Mapping (24 images)
+
+| BTC102 Image | BTC103 Image | Topic |
+|--------------|--------------|-------|
+| 030 | 001 | Cypherpunks |
+| 031 | 002 | Cypherpunk manifesto |
+| 032 | 003 | Genesis block |
+| 033 | 004 | Times headline |
+| 034 | 005 | P2P network |
+| 035 | 006 | Blockchain visual |
+| 036 | 007 | Ledger concept |
+| 037 | 008 | Halving chart |
+| 038 | 009 | Satoshis divisibility |
+| 039 | 010 | Open source |
+| 040 | 011 | Bitcoin future |
+| 041 | 012 | Universal currency |
+| 042 | 013 | Inclusion vs liberation |
+| 043 | 014 | Monetary crisis |
+| 044 | 015 | Hyperinflation |
+| 045 | 016 | Devaluation |
+| 046 | 017 | Hanke study |
+| 047 | 018 | Inequality |
+| 048 | 019 | Sovereignty |
+| 049 | 020 | Central banks |
+| 050 | 021 | Gold standard |
+| 051 | 022 | Bitcoiners |
+| 052 | 023 | Censorship resistance |
+| 053 | 024 | Financial sovereignty |
+
+---
+
+#### Implementation Checklist
+
+- [x] Create `courses/eco105/` folder
+- [x] Create `course.yml` with UUID
+- [x] Copy images (030-053 → 001-024)
+- [x] Copy quizzes (015-023 → 000-008)
+- [x] Create `en.md` with frontmatter
+- [x] Write NEW intro chapter
+- [x] Copy Part 2 content (Bitcoin in 5 Minutes)
+- [x] Copy Part 3 content (Why Bitcoin Matters)
+- [x] Add conclusion chapter
+- [x] Update all image references
+- [x] Add ORIGINAL/NEW tags
+- [x] Update quiz chapterIds
+- [x] Validate markdown
 
 ---
 
@@ -278,9 +355,9 @@ See [scu102-creation.md](scu102-creation.md) for detailed implementation steps.
 
 ---
 
-### Course 4: BTC103 - How to Acquire Bitcoin
+### Course 4: BTC105 - How to Acquire Bitcoin
 **Discipline**: Bitcoin (BTC)
-**Level**: Beginner (103)
+**Level**: Beginner (105)
 **Estimated Duration**: 1.5-2 hours
 **Source**: BTC102 Part 3 - Profile chapters (acquisition methods)
 **Review Status**: NOT STARTED
@@ -520,9 +597,9 @@ Review each course one by one to:
 
 **Review Order**:
 1. [x] SCU102 - Financial Fraud, Scams & Online Security ✅ **IMPLEMENTED**
-2. [ ] ECO105 - Why Bitcoin Matters ← **NEXT**
-3. [ ] BIZ102 - Bitcoin Industry Overview
-4. [ ] BTC103 - How to Acquire Bitcoin
+2. [x] BTC103 - Why Bitcoin Matters ✅ **IMPLEMENTED**
+3. [ ] BIZ102 - Bitcoin Industry Overview ← **NEXT**
+4. [ ] BTC105 - How to Acquire Bitcoin
 5. [ ] BTC104 - How to Secure Bitcoin
 6. [ ] SOV102 - Bitcoin Inheritance Planning
 7. [ ] BTC102v2 - Hub Course
@@ -539,9 +616,9 @@ For each course:
 
 **Implementation Order** (after all reviews complete):
 1. SCU102 (Financial Fraud, Scams & Online Security)
-2. ECO105 (Why Bitcoin Matters)
+2. BTC103 (Why Bitcoin Matters)
 3. BIZ102 (Industry Overview)
-4. BTC103 (How to Acquire)
+4. BTC105 (How to Acquire)
 5. BTC104 (How to Secure)
 6. SOV102 (Inheritance Planning)
 7. BTC102v2 (Hub course) - created last, ties everything together
@@ -688,9 +765,14 @@ courses/
 │   │   └── en/      # ✅ 25 images (001-025.webp)
 │   └── quizz/       # ✅ 15 quizzes (000-014)
 │
-├── eco105/          # NEW - Why Bitcoin Matters
+├── btc103-new/      # NEW - Why Bitcoin Matters ✅ IMPLEMENTED
+│   ├── course.yml   # ✅ Has id, type, teaching_format
+│   ├── en.md        # ✅ Correct structure (4 parts, 9 chapters)
+│   ├── assets/
+│   │   └── en/      # ✅ 24 images (001-024.webp)
+│   └── quizz/       # ✅ 9 quizzes (000-008)
 ├── biz102/          # NEW - Bitcoin Industry Overview
-├── btc103/          # NEW - How to Acquire Bitcoin
+├── btc105/          # NEW - How to Acquire Bitcoin
 ├── btc104/          # NEW - How to Secure Bitcoin
 ├── sov102/          # NEW - Bitcoin Inheritance Planning
 └── btc102v2/        # LAST - Hub course (replaces btc102 eventually)
@@ -707,6 +789,9 @@ courses/
 | 2026-01-19 | Claude/Rogzy | **REVISED** SCU102 review: 7 Parts, 26 Chapters, 15 quizzes (000-014), 25 images. Created scu102-creation.md implementation doc |
 | 2026-01-19 | Claude/Rogzy | **IMPLEMENTED** SCU102: Created folder structure, en.md (with ORIGINAL/NEW tags), copied quizzes (000-014), copied & renumbered assets (005-029 → 001-025). Ready for review. |
 | 2026-01-19 | Claude/Rogzy | **STRUCTURE AUDIT**: Renamed scu201-new → scu102-new. Added missing course.yml fields (id, type, teaching_format). Added "Standard Course Structure Requirements" section documenting required fields, markdown structure, and directory layout for all future courses. |
+| 2026-01-19 | Claude/Rogzy | **IMPLEMENTED** ECO105: Created folder structure, en.md (with ORIGINAL/NEW tags), copied quizzes (015-023 → 000-008), copied & renumbered assets (030-053 → 001-024), updated quiz chapterIds. 4 Parts, 9 Chapters, 9 quizzes, 24 images. |
+| 2026-01-19 | Claude/Rogzy | **RENAMED** ECO105 → BTC103-new: Renamed folder eco105 to btc103-new, updated btc103-creation.md (formerly eco105-creation.md), updated all references in master plan. |
+| 2026-01-19 | Claude/Rogzy | **FIX** Course code conflict: Renamed "How to Acquire Bitcoin" from BTC103 → BTC105 to avoid conflict with renamed "Why Bitcoin Matters" course. |
 
 ---
 
@@ -717,7 +802,7 @@ When starting a new session, point Claude to this document:
 2. Check the "Course Review Status" table to see what's next
 3. Continue with the next course marked "NOT STARTED"
 
-**Current Next Step**: User review of SCU102 implementation, then in-depth review of ECO105 (Why Bitcoin Matters)
+**Current Next Step**: In-depth review of BIZ102 (Bitcoin Industry Overview)
 
 ---
 

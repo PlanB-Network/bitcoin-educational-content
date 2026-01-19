@@ -1,0 +1,9 @@
+question: Kto opublikował Białą Księgę Bitcoin?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - David Chaum
+  - Tim May
+  - Eric Hughes
+explanation: |
+  Biała księga została opublikowana pod koniec 2008 roku przez Satoshi Nakamoto (pseudonim).
+reviewed: false

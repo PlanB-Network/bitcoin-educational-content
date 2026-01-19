@@ -1,0 +1,9 @@
+question: Pada tahun berapa blok Bitcoin Genesis dibuat?
+answer: 2009
+wrong_answers:
+  - 2008
+  - 2010
+  - 2011
+explanation: |
+  Blok Genesis, blok pertama dari Blockchain, ditambang pada bulan Januari 2009.
+reviewed: false

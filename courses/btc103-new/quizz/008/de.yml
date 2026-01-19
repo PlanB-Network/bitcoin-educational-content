@@ -1,0 +1,9 @@
+question: Was ist der Hauptvorteil von Bitcoin angesichts von Währungskrisen?
+answer: Ersparnisse vor der Inflation bewahren
+wrong_answers:
+  - Steigende Zinssätze
+  - Feste Renditen garantieren
+  - Versicherung von Banken
+explanation: |
+  Bitcoin bietet dank seiner vorhersehbaren Emissionspolitik Schutz vor Währungsabwertung.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Genesis block ya Bitcoin iliundwa mwaka gani?
+answer: 2009
+wrong_answers:
+  - 2008
+  - 2010
+  - 2011
+explanation: |
+  Block ya Genesis, block ya kwanza cha Blockchain, ilikiniwa mnamo Januari 2009.
+reviewed: true

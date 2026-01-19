@@ -1,0 +1,9 @@
+question: Kuka julkaisi Bitcoin:n valkoisen kirjan?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - David Chaum
+  - Tim May
+  - Eric Hughes
+explanation: |
+  Valkoisen kirjan julkaisi vuoden 2008 lopulla Satoshi Nakamoto (salanimi).
+reviewed: false

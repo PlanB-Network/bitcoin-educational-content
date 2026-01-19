@@ -1,0 +1,9 @@
+question: Koje su neke od uobičajenih grešaka koje početnici investitori prave kada ulaze u svet Bitcoin?
+answer: Prekomerno ulaganje
+wrong_answers:
+  - Nedovoljno ulaganje
+  - Ulaganje samo u Bitcoin
+  - Ne ulagati u Bitcoin uopšte
+explanation: |
+  Jedna od uobičajenih grešaka koje početnici investitori prave kada ulaze u svet Bitcoin je prekomerno ulaganje, što znači ulaganje više novca nego što mogu priuštiti da izgube. Ovo može dovesti do finansijskih problema ako vrednost Bitcoin opadne.
+reviewed: false

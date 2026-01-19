@@ -1,0 +1,9 @@
+question: Bitcoin 的 Genesis 区块是哪一年创建的？
+answer: 2009
+wrong_answers:
+  - 2008
+  - 2010
+  - 2011
+explanation: |
+  Genesis 区块是 Blockchain 的第一个区块，于 2009 年 1 月开采。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Který systém umožňuje rychlé a levné transakce v systému Bitcoin?
+answer: Lightning Network
+wrong_answers:
+  - SegWit
+  - Síť Ripple
+  - RGB
+explanation: |
+  Lightning Network je druhé řešení Layer, které umožňuje rychlé vypořádání a snižuje náklady na transakce BTC.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mis on Bitcoin peamine eelis rahakriiside puhul?
+answer: Säästude säilitamine inflatsiooni vastu
+wrong_answers:
+  - Intressimäärade tõstmine
+  - Fikseeritud tulude tagamine
+  - Pangakindlustuse pakkumine
+explanation: |
+  Bitcoin pakub kaitset valuuta devalveerimise vastu tänu prognoositavale emissioonipoliitikale.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Wie publiceerde het Bitcoin Witboek?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - David Chaum
+  - Tim Mei
+  - Eric Hughes
+explanation: |
+  Het witboek werd eind 2008 gepubliceerd door Satoshi Nakamoto (een pseudoniem).
+reviewed: false

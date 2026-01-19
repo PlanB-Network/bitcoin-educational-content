@@ -1,0 +1,30 @@
+id: d08be07f-c643-44dd-a994-512e10bf8331
+
+# Characteristics of the course
+topic: economy
+subtopic: bitcoin-importance
+type: theory
+level: beginner
+hours: 2
+teaching_format: self_paced
+
+# Professors
+professors_id:
+  - 2e1b5182-567e-453a-af29-36009340ff02
+contributor_names:
+  - Plan B Network
+
+# Proofreading metadata
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0
+
+tags:
+  - bitcoin
+  - economics
+  - sound-money
+  - financial-freedom

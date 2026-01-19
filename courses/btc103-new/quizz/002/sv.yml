@@ -1,0 +1,9 @@
+question: Vilken term avser den programmerade uppdelningen av Mining-subventionen?
+answer: Halving
+wrong_answers:
+  - Fork
+  - Bisektion
+  - Coinbase
+explanation: |
+  Halving avser Halving av Mining-subventionen var 210.000:e kvarter.
+reviewed: false

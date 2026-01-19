@@ -1,0 +1,9 @@
+question: ¿Cuál es la principal ventaja del Bitcoin frente a las crisis monetarias?
+answer: Preservar los ahorros frente a la inflación
+wrong_answers:
+  - Aumento de los tipos de interés
+  - Garantizar rendimientos fijos
+  - Seguro bancario
+explanation: |
+  La Bitcoin ofrece protección contra la devaluación de la moneda gracias a su política de emisión previsible.
+reviewed: false

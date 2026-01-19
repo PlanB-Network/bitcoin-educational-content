@@ -1,0 +1,9 @@
+question: ビットコインは小数点以下第何位まで割り切れるか？
+answer: 第8位
+wrong_answers:
+  - 第6位
+  - 第12位
+  - 第7位
+explanation: |
+  ビットコインは小数点第8位まで分割でき、1単位はサトシまたはsat(sats)と呼ばれる。
+reviewed: false

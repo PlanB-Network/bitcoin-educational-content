@@ -1,0 +1,9 @@
+question: Que sistema permite transacções rápidas e de baixo custo no Bitcoin?
+answer: Lightning Network
+wrong_answers:
+  - SegWit
+  - Rede Ripple
+  - RGB
+explanation: |
+  O Lightning Network é uma solução de segundo Layer que permite uma liquidação rápida e reduz o custo das transacções BTC.
+reviewed: false

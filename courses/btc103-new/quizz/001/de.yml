@@ -1,0 +1,9 @@
+question: Bis zu wie vielen Dezimalstellen kann ein Bitcoin geteilt werden?
+answer: Acht
+wrong_answers:
+  - Sechs
+  - Zwölf
+  - Sieben
+explanation: |
+  Ein Bitcoin kann bis auf die achte Dezimalstelle unterteilt werden, wobei eine Einheit als Satoshi oder sat bezeichnet wird.
+reviewed: false

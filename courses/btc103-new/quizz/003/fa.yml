@@ -1,0 +1,9 @@
+question: بلوک Genesis در چه سالی از Bitcoin ایجاد شد؟
+answer: ۲۰۰۹
+wrong_answers:
+  - ۲۰۰۸
+  - ۲۰۱۰
+  - ۲۰۱۱
+explanation: |
+  بلوک Genesis، اولین بلوک از Blockchain، در ژانویه 2009 استخراج شد.
+reviewed: false

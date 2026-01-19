@@ -1,0 +1,9 @@
+question: Genişlemeci para politikalarının itibari para birimleri üzerindeki etkisi nedir?
+answer: Tasarrufların değerini sulandırırlar
+wrong_answers:
+  - Satın alma gücünü artırırlar
+  - Faiz oranlarını dengelerler
+  - Ekonomik büyümeyi garanti ederler
+explanation: |
+  Kitlesel para basımı, satın alma gücünün değer kaybetmesine yol açar ve bu da tasarruf sahibinin satın alma gücünü kademeli olarak aşındırır.
+reviewed: false

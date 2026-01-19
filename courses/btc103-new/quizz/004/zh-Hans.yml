@@ -1,0 +1,9 @@
+question: 谁出版了《Bitcoin 白皮书》？
+answer: Satoshi 中本
+wrong_answers:
+  - 戴维-肖姆
+  - 蒂姆-梅
+  - 埃里克-休斯
+explanation: |
+  白皮书》由 Satoshi Nakamoto（化名）于 2008 年底发布。
+reviewed: false

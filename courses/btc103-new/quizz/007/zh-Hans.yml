@@ -1,0 +1,9 @@
+question: 扩张性货币政策对法定货币有何影响？
+answer: 它们稀释了储蓄的价值
+wrong_answers:
+  - 提高购买力
+  - 它们能稳定利率
+  - 它们保证了经济增长
+explanation: |
+  大量印钞导致购买力贬值，从而逐渐削弱储蓄者的购买力。
+reviewed: false

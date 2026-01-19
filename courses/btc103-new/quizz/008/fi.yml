@@ -1,0 +1,9 @@
+question: Mikä on Bitcoin:n tärkein etu rahakriiseissä?
+answer: Säästöjen säilyttäminen inflaatiota vastaan
+wrong_answers:
+  - Korkojen nousu
+  - Kiinteän tuoton takaaminen
+  - Pankkivakuutusten tarjoaminen
+explanation: |
+  Bitcoin tarjoaa suojaa valuutan devalvoitumista vastaan ennustettavan liikkeeseenlaskupolitiikkansa ansiosta.
+reviewed: false

@@ -1,0 +1,9 @@
+question: マイニング報酬のプログラム分割を指す言葉は？
+answer: 半減期
+wrong_answers:
+  - フォーク
+  - バイセクション
+  - Coinbase
+explanation: |
+  半減期とは、21万ブロックごとのマイニング報酬の半減を指す。
+reviewed: false

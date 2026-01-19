@@ -1,0 +1,9 @@
+question: Até quantas casas decimais se pode dividir um Bitcoin?
+answer: Oito
+wrong_answers:
+  - Seis
+  - Doze
+  - Sete
+explanation: |
+  Um Bitcoin pode ser dividido até à oitava casa decimal, sendo uma unidade designada por Satoshi ou sat.
+reviewed: false

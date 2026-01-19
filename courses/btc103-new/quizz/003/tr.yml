@@ -1,0 +1,9 @@
+question: Bitcoinun Genesis bloğu hangi yıl oluşturuldu?
+answer: 2009
+wrong_answers:
+  - 2008
+  - 2010
+  - 2011
+explanation: |
+  Blockchain'nin ilk bloğu olan Genesis bloğu Ocak 2009'da çıkarılmıştır.
+reviewed: false

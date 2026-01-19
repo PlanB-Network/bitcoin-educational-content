@@ -1,0 +1,9 @@
+question: Kdo vydal bílou knihu Bitcoin?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - David Chaum
+  - Tim May
+  - Eric Hughes
+explanation: |
+  Bílou knihu zveřejnil koncem roku 2008 Satoshi Nakamoto (pseudonym).
+reviewed: false

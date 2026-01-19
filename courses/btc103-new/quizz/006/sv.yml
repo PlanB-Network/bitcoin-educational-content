@@ -1,0 +1,9 @@
+question: Vilken är Bitcoin:s viktigaste politiska implikation?
+answer: Minskad statlig kontroll över pengar
+wrong_answers:
+  - Ökad centralisering av bankverksamheten
+  - Främja inflation
+  - Förstärkning av finansiella regleringar
+explanation: |
+  Bitcoin är ett alternativ som försvagar statliga institutioners makt över pengar genom seigniorage och transaktionscensur.
+reviewed: false

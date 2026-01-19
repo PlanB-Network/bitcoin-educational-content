@@ -1,0 +1,9 @@
+question: Какой термин обозначает программируемое разделение субсидии Mining?
+answer: Halving
+wrong_answers:
+  - Fork
+  - Биссектриса
+  - Coinbase
+explanation: |
+  Halving относится к Halving субсидии Mining каждые 210 000 блоков.
+reviewed: false

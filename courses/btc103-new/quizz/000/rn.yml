@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo bushobora gufasha umuntu gukoresha amafaranga yihuta kandi azimbukiwe kuri Bitcoin?
+answer: Lightning Network.
+wrong_answers:
+  - SegWit
+  - Ripple Network
+  - RGB
+explanation: |
+  Lightning Network ni umuti wa kabiri utuma umuntu ashobora gutanga amafaranga yihuta kandi ugabanura igiciro c’amafaranga akatwa ya BTC.
+reviewed: false

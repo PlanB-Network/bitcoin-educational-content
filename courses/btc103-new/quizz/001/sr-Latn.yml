@@ -1,0 +1,13 @@
+question: Koja je jedna od mera za održavanje vašeg računara u optimalnom radnom stanju?
+answer: Redovno pravite rezervne kopije svojih podataka
+wrong_answers:
+  - Podeli svoje lozinke
+  - Koristite istu lozinku za sve naloge
+  - Zanemarite ažuriranje vašeg računara
+explanation: |
+  Redovno pravljenje rezervnih kopija vaših podataka jedna je od mera za održavanje vašeg računara
+  
+  u optimalnom radnom stanju. To je takođe osnovna mera za poboljšanje navika
+  
+  online bezbednosti.
+reviewed: false

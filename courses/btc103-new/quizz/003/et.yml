@@ -1,0 +1,9 @@
+question: Mis aastal loodi Bitcoin Genesis plokk?
+answer: 2009
+wrong_answers:
+  - 2008
+  - 2010
+  - 2011
+explanation: |
+  Genesis plokk, Blockchain esimene plokk, kaevandati 2009. aasta jaanuaris.
+reviewed: false

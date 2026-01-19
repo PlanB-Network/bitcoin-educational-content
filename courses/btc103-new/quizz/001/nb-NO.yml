@@ -1,0 +1,9 @@
+question: Hvor mange desimaler kan en Bitcoin divideres med?
+answer: Åtte
+wrong_answers:
+  - Seks
+  - Tolv
+  - Sju
+explanation: |
+  En Bitcoin kan deles ned til åttende desimal, med en enhet som kalles Satoshi eller sat.
+reviewed: false

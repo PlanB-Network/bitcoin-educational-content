@@ -1,0 +1,9 @@
+question: Bitcoinun başlıca siyasi etkisi nedir?
+answer: Para üzerindeki devlet kontrolünün azaltılması
+wrong_answers:
+  - Bankacılıkta merkezileşmenin artması
+  - Enflasyonun desteklenmesi
+  - Mali düzenlemelerin güçlendirilmesi
+explanation: |
+  Bitcoin, senyoraj ve işlem sansürü yoluyla devlet kurumlarının para üzerindeki gücünü zayıflatan bir alternatiftir.
+reviewed: false

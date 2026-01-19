@@ -1,0 +1,13 @@
+question: Koja je glavna prednost korišćenja menadžera lozinki prema poglavlju?
+answer: Pomaže vam da nikada ne koristite istu lozinku dva puta
+wrong_answers:
+  - Pomaže vam da zapamtite svoje korisničke imena
+  - Štiti vaš računar od virusa
+  - Generiše nasumične lozinke
+explanation: |
+  Prema poglavlju, menadžer lozinki pomaže vam da nikada ne koristite
+  
+  istu lozinku dva puta, izaberete složene i sigurne lozinke, i olakšava upravljanje vašom
+  
+  online sigurnošću.'
+reviewed: false

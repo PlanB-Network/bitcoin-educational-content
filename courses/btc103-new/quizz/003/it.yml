@@ -1,0 +1,9 @@
+question: In quale anno è stato creato il blocco Genesi di Bitcoin?
+answer: 2009
+wrong_answers:
+  - 2008
+  - 2010
+  - 2011
+explanation: |
+  Il blocco Genesi, il primo blocco della Blockchain, è stato minato nel gennaio 2009.
+reviewed: true

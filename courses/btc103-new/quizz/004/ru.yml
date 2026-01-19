@@ -1,0 +1,9 @@
+question: Кто опубликовал "Белую книгу Bitcoin"?
+answer: Satoshi Накамото
+wrong_answers:
+  - Дэвид Чаум
+  - Тим Мэй
+  - Эрик Хьюз
+explanation: |
+  Белая книга" была опубликована в конце 2008 года Satoshi Накамото (псевдоним).
+reviewed: false

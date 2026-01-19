@@ -1,0 +1,9 @@
+question: Mining 보조금의 프로그램 분할을 가리키는 용어는 무엇인가요?
+answer: Halving
+wrong_answers:
+  - Fork
+  - 분할
+  - 코인베이스
+explanation: |
+  Halving은 21만 블록마다 지급되는 Mining 보조금 중 Halving을 의미합니다.
+reviewed: false

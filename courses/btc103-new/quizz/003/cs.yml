@@ -1,0 +1,9 @@
+question: Ve kterém roce byl vytvořen blok Bitcoin Genesis?
+answer: 2009
+wrong_answers:
+  - 2008
+  - 2010
+  - 2011
+explanation: |
+  Blok Genesis, první blok bloku Blockchain, byl vytěžen v lednu 2009.
+reviewed: false

@@ -1,0 +1,9 @@
+question: ¿Qué impacto tienen las políticas monetarias expansivas en la moneda fiduciaria?
+answer: Diluyen el valor del ahorro
+wrong_answers:
+  - Aumentan el poder adquisitivo
+  - Estabilizan los tipos de interés
+  - Garantizan el crecimiento económico
+explanation: |
+  La impresión masiva de dinero conduce a una depreciación del poder adquisitivo, que erosiona gradualmente el poder adquisitivo del ahorrador.
+reviewed: false

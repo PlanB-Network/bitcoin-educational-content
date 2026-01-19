@@ -1,0 +1,9 @@
+question: Bitcoin ishobora kugaburwa gushika ku biharuro nyagakwabu bingahe?
+answer: Umunani
+wrong_answers:
+  - Zitandatu
+  - Cumi na bibiri
+  - Indwi
+explanation: |
+  Bitcoin ishobora kuburwa gushika ku giharuro nyagakwabu ca munani c’icumi, hakaba hariho igice kimwe citwa Satoshi canke sat.
+reviewed: false

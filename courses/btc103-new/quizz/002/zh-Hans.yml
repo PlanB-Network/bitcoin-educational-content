@@ -1,0 +1,9 @@
+question: 什么术语指 Mining 补贴的计划划分？
+answer: Halving
+wrong_answers:
+  - Fork
+  - 分割
+  - Coinbase
+explanation: |
+  Halving 是指每 21 万块 Mining 补贴中的 Halving。
+reviewed: false

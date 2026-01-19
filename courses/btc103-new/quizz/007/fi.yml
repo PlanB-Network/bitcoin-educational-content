@@ -1,0 +1,9 @@
+question: Mikä vaikutus ekspansiivisella rahapolitiikalla on fiat-valuuttaan?
+answer: Ne laimentavat säästöjen arvoa
+wrong_answers:
+  - Ne lisäävät ostovoimaa
+  - Ne vakauttavat korkotason
+  - Ne takaavat talouskasvun
+explanation: |
+  Massiivinen rahan painaminen johtaa ostovoiman heikkenemiseen, mikä vähitellen heikentää säästäjän ostovoimaa.
+reviewed: false

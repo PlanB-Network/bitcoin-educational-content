@@ -1,0 +1,9 @@
+question: Do ilu miejsc po przecinku można podzielić Bitcoin?
+answer: Osiem
+wrong_answers:
+  - Sześć
+  - Dwanaście
+  - Siedem
+explanation: |
+  Bitcoin można podzielić do ósmego miejsca po przecinku, z jedną jednostką zwaną Satoshi lub sat.
+reviewed: false

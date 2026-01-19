@@ -1,0 +1,9 @@
+question: Jaký termín označuje naprogramované rozdělení dotace Mining?
+answer: Halving
+wrong_answers:
+  - Fork
+  - Bisekce
+  - Coinbase
+explanation: |
+  Halving se vztahuje na Halving dotace Mining každých 210 000 bloků.
+reviewed: false

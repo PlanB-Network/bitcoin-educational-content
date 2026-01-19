@@ -1,0 +1,9 @@
+question: Hvem publiserte hvitboken om Bitcoin?
+answer: Satoshi Nakamoto
+wrong_answers:
+  - David Chaum
+  - Tim May
+  - Eric Hughes
+explanation: |
+  Hvitboken ble publisert i slutten av 2008 av Satoshi Nakamoto (et pseudonym).
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mikä järjestelmä mahdollistaa nopeat ja edulliset liiketoimet Bitcoin:lla?
+answer: Lightning Network
+wrong_answers:
+  - SegWit
+  - Ripple Network
+  - RGB
+explanation: |
+  Lightning Network on toinen Layer-ratkaisu, joka mahdollistaa nopean selvityksen ja vähentää BTC-tapahtumien kustannuksia.
+reviewed: false

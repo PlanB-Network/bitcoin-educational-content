@@ -1,0 +1,9 @@
+question: I hvilket år ble Bitcoins Genesis-blokk opprettet?
+answer: 2009
+wrong_answers:
+  - 2008
+  - 2010
+  - 2011
+explanation: |
+  Genesis-blokken, den første blokken av Blockchain, ble utvunnet i januar 2009.
+reviewed: false

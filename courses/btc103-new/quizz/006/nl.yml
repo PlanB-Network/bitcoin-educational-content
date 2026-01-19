@@ -1,0 +1,9 @@
+question: Wat is de belangrijkste politieke implicatie van Bitcoin?
+answer: De controle van de staat over geld verminderen
+wrong_answers:
+  - Toenemende centralisatie van banken
+  - Inflatie bevorderen
+  - Versterking van financiële regelgeving
+explanation: |
+  Bitcoin is een alternatief dat de macht van staatsinstellingen over geld verzwakt door seigniorage en transactiecensuur.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 誰出版了 Bitcoin 白皮書？
+answer: Satoshi Nakamoto
+wrong_answers:
+  - David Chaum
+  - Tim May
+  - Eric Hughes
+explanation: |
+  白皮書由 Satoshi Nakamoto（化名）於 2008 年底發表。
+reviewed: false

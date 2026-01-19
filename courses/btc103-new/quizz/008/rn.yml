@@ -1,0 +1,9 @@
+question: Ni akahe kamaro kanini Bitcoin ifise mu gihe c'ingorane z’amahera?
+answer: Kuziganya amafaranga kugira yarinde guta agaciro
+wrong_answers:
+  - Kwongera inyungu
+  - Kwemeza inyungu zidahinduka
+  - Gutanga ubwishingizi bwa banki
+explanation: |
+  Bitcoin itanga uburinzi ku gutakaza agaciro k’amahera kubera politike yayo yo gutanga amafaranga ishobora gutegekanirwa.
+reviewed: false

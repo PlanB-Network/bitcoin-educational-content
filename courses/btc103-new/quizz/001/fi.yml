@@ -1,0 +1,9 @@
+question: Kuinka moneen desimaaliin asti Bitcoin voidaan jakaa?
+answer: Kahdeksan
+wrong_answers:
+  - Kuusi
+  - Kaksitoista
+  - Seitsemän
+explanation: |
+  Bitcoin voidaan jakaa kahdeksanteen desimaaliin asti, jolloin yhtä yksikköä kutsutaan Satoshi:ksi tai sat.
+reviewed: false

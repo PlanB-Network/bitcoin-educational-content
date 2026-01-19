@@ -1,0 +1,9 @@
+question: Hvilken innvirkning har ekspansiv pengepolitikk på fiat-valutaen?
+answer: De utvanner verdien av sparepengene
+wrong_answers:
+  - De øker kjøpekraften
+  - De stabiliserer rentenivået
+  - De garanterer økonomisk vekst
+explanation: |
+  Massiv pengetrykking fører til en depresiering av kjøpekraften, noe som gradvis uthuler sparernes kjøpekraft.
+reviewed: false

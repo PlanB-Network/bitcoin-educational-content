@@ -1,0 +1,28 @@
+id: d493c2bb-c0d0-4d77-9a68-c9ee5631c8ba
+topic: bitcoin
+subtopic: getting-started
+type: theory
+level: beginner
+hours: 1
+teaching_format: self_paced
+
+professors_id:
+  - 2e1b5182-567e-453a-af29-36009340ff02
+
+contributor_names:
+  - Plan B Network
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0
+
+tags:
+  - bitcoin
+  - getting-started
+  - beginner
+  - learning-path
+  - hub

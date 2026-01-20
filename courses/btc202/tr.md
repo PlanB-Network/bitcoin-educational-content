@@ -328,7 +328,7 @@ Bir Miner ağ ile etkileşime geçmek için bir Bitcoin düğümüne ihtiyaç du
 
 
 
-Miner'ün rolü de bazen kıyıcıdan farklıdır. Kıyıcı, görevi bir havuzun sunucusu tarafından sağlanan Hash şablon bloklarını, Bitcoin'nin değil, paylaşımlar için tanımlanan zorluk hedefini karşılayan hash'leri aramak olan bir makinedir. Gerçek blok yapımı, işlem seçimi veya Bitcoin'nin kendi zorluk derecesine göre Proof-of-Work aramasının yanı sıra dağıtımı da içeren Mining sürecinin geri kalanı doğrudan havuzlar tarafından gerçekleştirilir.
+Miner'ün rolü de bazen grind farklıdır. Grind, görevi bir havuzun sunucusu tarafından sağlanan Hash şablon bloklarını, Bitcoin'nin değil, paylaşımlar için tanımlanan zorluk hedefini karşılayan hash'leri aramak olan bir makinedir. Gerçek blok yapımı, işlem seçimi veya Bitcoin'nin kendi zorluk derecesine göre Proof-of-Work aramasının yanı sıra dağıtımı da içeren Mining sürecinin geri kalanı doğrudan havuzlar tarafından gerçekleştirilir.
 
 
 

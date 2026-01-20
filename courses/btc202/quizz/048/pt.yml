@@ -1,5 +1,5 @@
 question: Qual comando recupera o IP local Address do seu Umbrel se o acesso via umbrel.local falhar?
-answer: nome do anfitrião -I
+answer: hostname -I
 wrong_answers:
   - ifconfig -usb
   - umbrel-ip --show

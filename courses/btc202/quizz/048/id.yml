@@ -1,5 +1,5 @@
 question: Perintah mana yang mengambil IP lokal Address dari Umbrel Anda jika akses melalui umbrel.local gagal?
-answer: nama host -I
+answer: hostname -I
 wrong_answers:
   - ifconfig -usb
   - umbrel-ip --show

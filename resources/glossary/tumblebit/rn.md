@@ -1,5 +1,0 @@
----
-term: UMUNTU
----
-
-TumbleBit ni iciyumviro c’ikibanza co kwishura kitazwi gihuye na Bitcoin, cashikirijwe mu 2016 na Ethan Heilman, Leen AlShenibr, Foteini Baldimtsi, Alessandra Scafuro, na Sharon Goldberg. TumbleBit ni uburyo bwo guvanga Bitcoin butasaba kwizigira umuhuza. Ituma abakoresha bashobora kwishura vyihuta, ata mazina yabo, kandi ata off-chain biciye ku muhuzabikorwa yitwa Tumbler. TumbleBit ituma umuntu atamenyekana mu kumenya neza ko mbere na Tumbler idashobora guhuza amahera y’uwutanga n’uwuyakira. Iryo tegeko rya TumbleBit rituma Tumbler idashobora kwiba ama bitcoins canke ngo isohore ama bitcoins y’ibinyoma mu kwirihira. Ugutanga izina ry’umuntu bitangwa na TumbleBit bigereranywa n’ivy’ubuhinga bwa Chaum eCash. Ariko rero, ico ciyumviro nticigeze cemerwa cane, ubuhinga bwo gukingira ubuzima bwite nk’ubwa Chaumian CoinJoin ni bwo bushimwa.

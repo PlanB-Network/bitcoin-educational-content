@@ -1,0 +1,9 @@
+question: Lightning上で関連するピアを特定できないツールはどれですか？
+answer: Electrum
+wrong_answers:
+  - ライトニングターミナル
+  - Amboss
+  - 1ML
+explanation: |
+  Electrumは、ネットワーク・ノードの情報を得るためのライトニング・エクスプローラーではない。一方、他の3つのツールはこの機能を十分に果たしている。
+reviewed: false

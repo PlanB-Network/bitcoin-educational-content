@@ -1,0 +1,9 @@
+question: Mitkä ovat edellytykset LND:n asentamiselle Umbrel:een?
+answer: Synkronoitu Bitcoin-solmu
+wrong_answers:
+  - Umbrel Premium-tili
+  - Nykyinen salamakanava
+  - Salamaosoite aktiivinen
+explanation: |
+  LND on riippuvainen 100-prosenttisesti synkronoidusta Bitcoin-solmusta, mikä on sen toiminnan edellytys.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koje podatke može posmatrati operater skrbničkog Lightning wallet o svojim korisnicima?
+answer: Svi njihovi tokovi
+wrong_answers:
+  - Njihovi identiteti
+  - Metapodaci njihovih uplata, ali bez iznosa
+  - Troškovi njihovih plaćanja, ali bez iznosa
+explanation: |
+  Operater ima pristup korisnikovim iznosima, učestalostima, primaocima i navikama plaćanja - ukratko, može posmatrati sve, iako su ove usluge često bez KYC-a.
+reviewed: false

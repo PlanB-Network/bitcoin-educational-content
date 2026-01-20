@@ -1,0 +1,9 @@
+question: Quelle fonction de hachage est utilisée pour le minage dans Bitcoin ?
+answer: SHA256d
+wrong_answers:
+  - SHA1d
+  - RIPEMD160d
+  - SHA512d
+explanation: |
+  Le minage de Bitcoin utilise SHA256 appliquée deux fois, généralement noté SHA256d.
+reviewed: false

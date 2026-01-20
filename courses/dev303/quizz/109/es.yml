@@ -2,7 +2,7 @@ question: ¿Cuál es la ventaja arquitectónica fundamental del enfoque del SDK 
 answer: Los usuarios mantienen sus propios nodos Lightning en la infraestructura de Greenlight, al tiempo que conservan el control exclusivo de las claves privadas, que nunca abandonan sus dispositivos
 wrong_answers:
   - Los usuarios comparten canales agrupados de Rayo gestionados por Breez al tiempo que mantienen la custodia individual de los fondos mediante acuerdos multi-firma
-  - "Los usuarios ejecutan localmente nodos Lightning ligeros que se sincronizan con los nodos maestros de Breez para mejorar la fiabilidad y reducir los requisitos de ancho de banda"
+  - Los usuarios ejecutan localmente nodos Lightning ligeros que se sincronizan con los nodos maestros de Breez para mejorar la fiabilidad y reducir los requisitos de ancho de banda
   - Los usuarios delegan la gestión de los canales en los proveedores de servicios de rayos, al tiempo que mantienen la custodia mediante módulos de seguridad de hardware integrados en los dispositivos móviles
 explanation: |
   La arquitectura del SDK de Breez proporciona a cada usuario su propio nodo Lightning dedicado que se ejecuta en la infraestructura en la nube de Greenlight, pero lo más importante es que las claves privadas nunca salen del dispositivo del usuario. Esto significa que Greenlight no puede realizar ninguna operación Lightning sin que la aplicación del usuario firme activamente las transacciones. Esto difiere de las agrupaciones de canales compartidos, los nodos ligeros locales o los módulos de seguridad de hardware: es un enfoque híbrido único que elimina la complejidad operativa al tiempo que preserva los verdaderos principios de autocustodia.

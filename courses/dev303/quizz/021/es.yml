@@ -2,7 +2,7 @@ question: ¿Qué tipo de parámetro debe utilizar un método Rust si necesita mo
 answer: "&mut self"
 wrong_answers:
   - "&self"
-  - auto
-  - mut self
+  - "auto"
+  - "mut self"
 explanation: |
   Los métodos que necesitan modificar la instancia de una estructura mientras permiten que la persona que llama mantenga la propiedad deben utilizar `&mut self` como primer parámetro. Esto crea una referencia mutable a la instancia, permitiendo que el método cambie los campos de la estructura sin quitar la propiedad a la persona que llama. Usar `&self` sólo permitiría leer la instancia, `self` consumiría la instancia por completo, y `mut self` no es una sintaxis Rust válida para parámetros de método.

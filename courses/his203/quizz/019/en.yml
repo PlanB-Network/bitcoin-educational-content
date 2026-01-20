@@ -5,5 +5,6 @@ wrong_answers:
   - 6 $
   - 17,5 $
 explanation: |
- After peaking at $32 in June 2011, the price of bitcoin dropped drastically to $6 in early August, then continued to fall, finally reaching around $2 in November 2011. This represented a drop of over 90% from the June peak.
-reviewed: false
+ After peaking at $32 in June 2011, the price of bitcoin dropped drastically to $6 in early August, then continued to fall, finally reaching around $2 in
+ November 2011. This represented a drop of over 90% from the June peak.
+reviewed: true

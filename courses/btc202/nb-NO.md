@@ -328,7 +328,7 @@ En Miner trenger en Bitcoin-node for å samhandle med nettverket.
 
 
 
-Rollen til Miner skilles også noen ganger fra rollen til hakkeren. En hakker er en maskin som har som oppgave å Hash malblokker levert av en pool-server, på jakt etter hasher som tilfredsstiller vanskelighetsmålet som er definert for aksjer, og ikke Bitcoin. Resten av Mining-prosessen, som inkluderer faktisk blokkkonstruksjon, transaksjonsvalg eller Proof-of-Work-søk i henhold til Bitcoins egen vanskelighetsgrad, samt distribusjon, utføres direkte av poolene.
+Rollen til Miner skilles også noen ganger fra rollen til grind. En grind er en maskin som har som oppgave å Hash malblokker levert av en pool-server, på jakt etter hasher som tilfredsstiller vanskelighetsmålet som er definert for aksjer, og ikke Bitcoin. Resten av Mining-prosessen, som inkluderer faktisk blokkkonstruksjon, transaksjonsvalg eller Proof-of-Work-søk i henhold til Bitcoins egen vanskelighetsgrad, samt distribusjon, utføres direkte av poolene.
 
 
 
@@ -2514,9 +2514,11 @@ Til slutt anbefaler jeg *Lightning Network+*-applikasjonen, som lar deg finne je
 
 
 
-Takket være Umbrel er det blitt mye enklere å administrere en personlig Lightning-node, men det er fortsatt relativt komplisert. Derfor kommer vi til å se nærmere på dette emnet i et fremtidig kurs som er viet denne bruken.
+Takket være Umbrel er administrasjonen av en personlig Lightning-node forenklet, men den forblir likevel relativt kompleks. Av denne grunn anbefaler jeg at du følger kurset LNP 202, som er den logiske fortsettelsen av kurset BTC 202, og der jeg veileder deg steg for steg i oppsettet og administrasjonen av din Lightning-node på Umbrel.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Haleskala
 
@@ -3894,11 +3896,13 @@ Du kan nå gå videre til den siste delen av kurset, der du kan evaluere BTC 202
 
 
 
-Du har nå flere alternativer åpne for deg. Det neste logiske steget er å sette opp din egen Lightning-node, slik at du kan være helt uavhengig for off-chain-transaksjonene dine. Dette vil være temaet for et kommende kurs, som vil bli publisert i høst 2025 på Plan ₿ Academy.
+Flere veier ligger nå åpne for deg. Det neste logiske steget er å sette opp din egen Lightning-node, slik at du er fullstendig uavhengig for dine off-chain-transaksjoner. Dette er nettopp temaet for et annet kurs hos Plan ₿ Academy:
 
 
 
-I mellomtiden inviterer jeg deg til å ta BTC 204-opplæringen, som vil gjøre deg i stand til å forstå og mestre prinsippene for personvern i din bruk av Bitcoin:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Jeg inviterer deg også til å oppdage kurset BTC 204, som vil gjøre deg i stand til å forstå og beherske prinsippene for personvern i din bruk av Bitcoin:
 
 
 

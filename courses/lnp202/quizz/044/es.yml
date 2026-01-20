@@ -1,0 +1,9 @@
+question: ¿Qué papel desempeña ThunderHub en relación con su nodo LND?
+answer: Gestión de Interface
+wrong_answers:
+  - Implantación del rayo
+  - Servicio de custodia
+  - Nodo de enrutamiento
+explanation: |
+  ThunderHub es una interfaz que se conecta a LND para gestionar el nodo.
+reviewed: false

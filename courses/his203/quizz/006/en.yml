@@ -5,5 +5,6 @@ wrong_answers:
   - 30 %
   - 90 %
 explanation: |
- According to a subsequent report by Chainalysis, Silk Road activity accounted for almost 10% of the volume traded on the Bitcoin channel at the beginning of September 2011.
-reviewed: false
+ According to a subsequent report by Chainalysis, Silk Road activity accounted for almost 10% of the volume traded on the Bitcoin channel at the beginning of 
+ September 2011.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Katika mtiririko wa NWC, usimbaji fiche hufanyika lini upande wa programu?
+answer: Kabla ya kuchapishwa kwenye relay
+wrong_answers:
+  - Baada ya kusoma nodi
+  - Baada ya kuchapishwa kwenye relay
+  - Kamwe
+explanation: |
+  Programu huweka ombi katika mpangilio, hulisimba kwa njia fiche, kisha hulichapisha kama tukio kwenye kipokezi cha Nostr.
+reviewed: false

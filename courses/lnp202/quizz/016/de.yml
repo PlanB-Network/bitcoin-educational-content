@@ -1,0 +1,9 @@
+question: Welche Information gibt die Empfangskapazität des Lightning-Knotens an?
+answer: Liquidität im Eingang
+wrong_answers:
+  - Aktive Verbindungen
+  - Ausgehende Liquidität
+  - Anzahl der Blöcke
+explanation: |
+  Eingehende Liquidität stellt die sats dar, die der Knoten über Lightning empfangen kann.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mikä on salamakauppiaan tärkein prioriteetti?
+answer: Saapuvan likviditeetin hankkiminen
+wrong_answers:
+  - Lähtevän likviditeetin hankkiminen
+  - Säästöt reitityskustannuksissa
+  - Hyvien LN+ arvostelujen hankkiminen
+explanation: |
+  Kauppiaan on pystyttävä lunastamaan rahansa ilman epäonnistumisia, mikä edellyttää riittävää maksuvalmiutta.
+reviewed: false

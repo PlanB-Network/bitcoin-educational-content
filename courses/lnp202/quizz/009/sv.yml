@@ -1,0 +1,9 @@
+question: Vilken makt har en depåoperatör över sina användares betalningar?
+answer: Kraften i censur
+wrong_answers:
+  - Mining kraft
+  - Kraften i samförstånd
+  - Halving kraft
+explanation: |
+  En operatör som kontrollerar medel och kanaler kan blockera, fördröja eller filtrera betalningar.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaké konkrétní omezení systému Android se týká použití Tailscale?
+answer: Jedna VPN najednou
+wrong_answers:
+  - Povinné připojení Bluetooth pro síť VPN
+  - Nekompatibilita služby DNS-over-HTTPS
+  - Vyžaduje root telefonu
+explanation: |
+  Systém Android neumožňuje používat dvě sítě VPN současně, takže před použitím sítě Tailscale musíte vypnout všechny ostatní aktivní sítě VPN.
+reviewed: false

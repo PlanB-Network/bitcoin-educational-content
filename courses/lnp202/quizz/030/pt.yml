@@ -1,0 +1,9 @@
+question: Do ponto de vista do seu nó, qual é a distribuição inicial da liquidez após a abertura de um canal?
+answer: 100% de saída
+wrong_answers:
+  - 50% de entrada 50% de saída
+  - 100% de entrada
+  - 90% de saída 10% de entrada
+explanation: |
+  Quando um canal é aberto, toda a liquidez está inicialmente do lado do iniciador.
+reviewed: false

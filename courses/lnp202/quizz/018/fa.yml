@@ -1,0 +1,9 @@
+question: عبارت یادآور LND چند کلمه دارد؟
+answer: 24 کلمه
+wrong_answers:
+  - 10 کلمه
+  - 18 کلمه
+  - ۳۶ کلمه
+explanation: |
+  LND generate یک عبارت یادآور ۲۴ کلمه‌ای برای پشتیبان‌گیری و بازیابی نود است.
+reviewed: false

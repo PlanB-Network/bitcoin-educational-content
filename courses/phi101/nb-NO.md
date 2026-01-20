@@ -23,7 +23,7 @@ Fra antikken gjennom opplysningstiden steg friheten frem ettersom samfunn omfavn
 
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
-Velkommen til kurset PHI201!
+Velkommen til kurset PHI101!
 
 Dette kurset inviterer deg til å utforske frihetens utvikling gjennom historien ved å analysere de store tankeretningene som har formet den. Du vil oppdage hvordan frihetsbegrepet har blitt konstruert gjennom århundrene, enten i opposisjon til eller i samarbeid med makt, gjennom en historisk reise fra antikken til dagens debatter.
 

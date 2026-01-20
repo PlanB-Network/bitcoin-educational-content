@@ -1,0 +1,9 @@
+question: LND 니모닉 문구에는 몇 개의 단어가 포함되어 있나요?
+answer: 24 단어
+wrong_answers:
+  - 10 단어
+  - 18 단어
+  - 36 단어
+explanation: |
+  LND generate은 노드 백업 및 복구를 위한 24단어 니모닉 문구입니다.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welche gemeinsamen Merkmale haben Aqua und Bull Bitcoin Wallet?
+answer: Blitz-Atomtausch
+wrong_answers:
+  - Native Lightning-Kanäle
+  - Zentralisierte Verwahrung
+  - Integrierter Lightning-Knoten
+explanation: |
+  Diese wallets verwenden atomare Tauschgeschäfte, um Lightning-Rechnungen zu bezahlen, ohne einen Lightning-Knoten direkt auf Ihrem Telefon zu nutzen, und bleiben dabei in Eigenregie.
+reviewed: false

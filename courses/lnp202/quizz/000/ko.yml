@@ -1,0 +1,9 @@
+question: 라이트닝 채널의 용량은 어떻게 되나요?
+answer: 잠긴 총 금액
+wrong_answers:
+  - 한 방향으로 사용 가능한 총 유동성
+  - 최대 수수료
+  - 가능한 최대 결제 횟수
+explanation: |
+  용량은 채널의 멀티서명 출력에서 차단된 sats의 총합에 해당합니다.
+reviewed: false

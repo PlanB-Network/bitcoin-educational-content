@@ -1,0 +1,9 @@
+question: Trong giao thức NWC, cơ chế nào được sử dụng để truyền tải yêu cầu giữa ứng dụng và nút?
+answer: Các sự kiện trên trạm chuyển tiếp Nostr
+wrong_answers:
+  - Gọi trực tiếp REST tới LND
+  - Kết nối VPN điểm-đến-điểm
+  - Yêu cầu DNS được mã hóa
+explanation: |
+  Yêu cầu được mã hóa và sau đó được công bố dưới dạng sự kiện trên máy chủ chuyển tiếp Nostr, mà nút mạng sẽ đọc để thực hiện hành động.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 正常運作中的瞭望塔可以推斷出它所保護的頻道的哪些資訊？
+answer: 其狀態的更新頻率
+wrong_answers:
+  - Liquidity 分配
+  - 其容量
+  - 費用政策
+explanation: |
+  它會接收每個新狀態的加密封包，只透露正常的活動速率。
+reviewed: false

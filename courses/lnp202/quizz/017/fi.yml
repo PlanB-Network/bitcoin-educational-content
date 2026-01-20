@@ -1,0 +1,9 @@
+question: Mitä LND-sovelluksen käyttöliittymässä näkyvä Lightning wallet -saldo tarkoittaa?
+answer: Lähtevän likviditeetin summa
+wrong_answers:
+  - Onchain-ketjujen summa
+  - Saapuvan likviditeetin summa
+  - Kanavien kapasiteettien summa
+explanation: |
+  Salaman saldo vastaa sats:ta, joka on käytettävissä kanavien kautta käytettäväksi, eli solmun kaikista kanavista lähtevän likviditeetin summaa.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Šta se može prilagoditi u naprednim postavkama Lightning čvora?
+answer: Javno ime čvora
+wrong_answers:
+  - Pravila konsenzusa čvora
+  - Privatni ključevi čvora
+  - Putanje koje je izabrao čvor
+explanation: |
+  Napredna podešavanja omogućavaju vam prilagođavanje elemenata identifikacije čvorova, bez uticaja na rad konsenzusa ili Lightning mreže.
+reviewed: false

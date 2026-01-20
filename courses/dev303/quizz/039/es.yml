@@ -5,4 +5,4 @@ wrong_answers:
   - FnMut
   - FnCapture
 explanation: |
-  Fn es el rasgo de cierre más restrictivo que representa cierres invocables múltiples veces sin mutar su entorno capturado. Estos cierres sólo capturan por referencia inmutable y pueden ser llamados concurrentemente de forma segura. FnOnce representa cierres que sólo pueden ser llamados una vez, mientras que FnMut representa cierres que pueden ser llamados múltiples veces pero pueden mutar su entorno capturado. FnCapture no es un rasgo real de Rust.
+  Fn es el rasgo de cierre más restrictivo que representa cierres invocables múltiples veces sin mutar su entorno capturado. Estos cierres solo capturan por referencia inmutable y pueden ser llamados concurrentemente de forma segura. FnOnce representa cierres que sólo pueden ser llamados una vez, mientras que FnMut representa cierres que pueden ser llamados múltiples veces pero pueden mutar su entorno capturado. FnCapture no es un rasgo real de Rust.

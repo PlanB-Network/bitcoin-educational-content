@@ -1,9 +1,12 @@
-question: Prema Bitcoin dokumentu, koje rešenje Satoshi Nakamoto predlaže za rešavanje problema double-spending?
+question: Prema Bitcoin dokumentu, koje rešenje Satoshi Nakamoto predlaže za rešavanje problema dvostruke potrošnje?
 answer: Ravnopravni distribuirani server vremenskih oznaka koji koristi računsku proveru hronološkog redosleda transakcija
 wrong_answers:
   - Centralizovani server sa pragom potpisa od više pouzdanih autoriteta
   - Federacija fiksnih servera gde većina mora odobriti svaku transakciju
   - Sistem slepog potpisa sa centralnom pouzdanom stranom za sprečavanje dvostrukog trošenja
 explanation: |
-  Satoshi Nakamoto je posebno predložio korišćenje 'peer-to-peer distribuiranog servera vremenskih oznaka za generate računsku potvrdu hronološkog reda transakcija' kako je navedeno u Bitcoin beležnici. Ključna reč je 'distribuiran,' što znači da nema centralne tačke kontrole. Pogrešni odgovori predstavljaju ranije neuspele pokušaje digitalnog novca koji su se oslanjali na centralizovane ili polucentralizovane pristupe, što ih je činilo podložnim cenzuri i neuspehu - upravo problemima koje je Bitcoin bio dizajniran da reši kroz pravu decentralizaciju.
-reviewed: false
+  Satoshi Nakamoto je posebno predložio korišćenje 'peer-to-peer distribuiranog servera vremenskih oznaka za generisanje računskih potvrda hronološkog reda 
+  transakcija' kako je navedeno u Bitcoin dokumentu. Ključna reč je 'distribuiran,' što znači da nema centralne tačke kontrole. Pogrešni odgovori 
+  predstavljaju ranije neuspele pokušaje digitalnog novca koji su se oslanjali na centralizovane ili polucentralizovane pristupe, 
+  što ih je činilo podložnim cenzuri i neuspehu - upravo problemima koje je Bitcoin bio dizajniran da reši kroz pravu decentralizaciju.
+reviewed: true

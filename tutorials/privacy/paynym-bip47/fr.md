@@ -4,9 +4,9 @@ description: Utiliser un code de paiement réutilisable sur Ashigaru
 ---
 ![cover](assets/cover.webp)
 
-La pire erreur que vous puissiez commettre sur Bitcoin en matière de confidentialité est la réutilisation d’adresses. Chaque fois qu’une même adresse reçoit plusieurs paiements, ces opérations sont liées entre elles, et offrent ainsi au monde entier une cartographie de vos transactions. Il est donc fortement recommandé de toujours générer, pour chaque réception, une adresse unique. Mais pour certains cas d'utilisation de Bitcoin, respecter cette pratique n'est pas simple.
+La pire erreur que vous puissiez commettre sur Bitcoin en matière de confidentialité est la réutilisation d’adresses. Chaque fois qu’une même adresse reçoit plusieurs paiements, ces opérations sont liées entre elles et offrent ainsi au monde entier une cartographie de vos transactions. Il est donc fortement recommandé de toujours générer, pour chaque réception, une adresse unique. Mais pour certains cas d'utilisation de Bitcoin, respecter cette pratique n'est pas simple.
 
-Le BIP47, proposé par Justus Ranvier en 2015, apporte une réponse élégante à ce problème. Il introduit le concept de **code de paiement réutilisable** : un identifiant unique permettant de recevoir un nombre quasi illimité de paiements en bitcoins onchain, sans jamais réutiliser d’adresse. Grâce à un mécanisme cryptographique basé sur un échange ECDH (*Diffie-Hellman sur courbes elliptiques*), chaque paiement vers un même code aboutit sur une adresse vierge, propre à la relation entre l'expéditeur et le destinataire.
+Le BIP47, proposé par Justus Ranvier en 2015, apporte une réponse élégante à ce problème. Il introduit le concept de **code de paiement réutilisable** : un identifiant unique permettant de recevoir un nombre quasi illimité de paiements en bitcoins on-chain, sans jamais réutiliser d’adresse. Grâce à un mécanisme cryptographique basé sur un échange ECDH (*Diffie-Hellman sur courbes elliptiques*), chaque paiement vers un même code aboutit sur une adresse vierge, propre à la relation entre l'expéditeur et le destinataire.
 
 ![Image](assets/fr/01.webp)
 
@@ -46,13 +46,13 @@ Votre PayNym est désormais actif et prêt à être utilisé pour vos premières
 
 ## Se connecter avec un contact
 
-Deux types de connexions existent entre les PayNym : **suivre** et **connecter**. L’opération de suivi (`follow`) est totalement gratuite. Elle établit un lien entre deux PayNym à travers Soroban, un protocole de communication chiffré reposant sur Tor, développé par l’équipe de Samourai et repris par Ashigaru. Cette liaison permet aux deux utilisateurs qui se suivent d’échanger des informations de manière privée, notamment pour coordonner des transactions collaboratives comme Stowaway ou StonewallX2 que nous verrons dans un autre tutoriel. Cette étape est propre à PayNym et ne fait pas partie du protocole BIP47.
+Deux types de connexions existent entre les PayNym : **suivre** et **connecter**. L’opération de suivi (`follow`) est totalement gratuite. Elle établit un lien entre deux PayNym à travers Soroban, un protocole de communication chiffré reposant sur Tor, développé par l’équipe de Samourai et repris par Ashigaru. Cette liaison permet aux deux utilisateurs qui se suivent d’échanger des informations de manière privée, notamment pour coordonner des transactions collaboratives comme Stowaway ou StonewallX2, que nous verrons dans un autre tutoriel. Cette étape est propre à PayNym et ne fait pas partie du protocole BIP47.
 
 ![Image](assets/fr/06.webp)
 
-L’opération de connexion (`connect`), quant à elle, est payante puisqu'il faut faire une transaction on-chain. Elle consiste à réaliser une transaction de notification telle que définie dans le BIP47. Cette transaction Bitcoin contient des métadonnées dans une sortie `OP_RETURN` qui permet d’établir un canal de communication chiffré entre le payeur et le destinataire. À partir de ce canal, le payeur pourra générer des adresses de réception uniques pour chaque paiement, et le destinataire sera notifié de ces paiements, et pourra générer les clés privées associées aux adresses pour dépenser ces fonds par la suite.
+L’opération de connexion (`connect`), quant à elle, est payante puisqu'il faut faire une transaction on-chain. Elle consiste à réaliser une transaction de notification telle que définie dans le BIP47. Cette transaction Bitcoin contient des métadonnées dans une sortie `OP_RETURN` qui permet d’établir un canal de communication chiffré entre le payeur et le destinataire. À partir de ce canal, le payeur pourra générer des adresses de réception uniques pour chaque paiement, et le destinataire sera notifié de ces paiements et pourra générer les clés privées associées aux adresses pour dépenser ces fonds par la suite.
 
-Cette transaction de notification a un coût : les frais de minage et 546 sats envoyés à l’adresse de notification du destinataire pour signaler la connexion. Une fois la connexion établie, on peut faire une quasi infinité de paiements via le BIP47.
+Cette transaction de notification a un coût : les frais de minage et 546 sats envoyés à l’adresse de notification du destinataire pour signaler la connexion. Une fois la connexion établie, on peut faire une quasi-infinité de paiements via le BIP47.
 
 En résumé :
 * `Follow` : gratuit, établit une communication chiffrée via Soroban, utile pour les outils collaboratifs d'Ashigaru ;
@@ -112,7 +112,7 @@ Dans cet exemple, le paiement a été effectué vers un autre de mes PayNym. Je 
 
 ![Image](assets/fr/18.webp)
 
-Vous savez désormais comment utiliser les codes de paiement réutilisables BIP47 grâce à l’implémentation PayNym sur l’application Ashigaru. Vous pouvez désormais partager ce code de paiement avec toute personne souhaitant vous envoyer des paiements (notamment des paiements récurrents). Vous pouvez également publier votre identifiant PayNym sur votre site web ou vos réseaux sociaux afin de recevoir des dons.
+Vous savez désormais comment utiliser les codes de paiement réutilisables BIP47 grâce à l’implémentation PayNym sur l’application Ashigaru. Vous pouvez partager ce code de paiement avec toute personne souhaitant vous envoyer des paiements (notamment des paiements récurrents). Vous pouvez également publier votre identifiant PayNym sur votre site web ou vos réseaux sociaux afin de recevoir des dons.
 
 Pour approfondir vos connaissances sur ce protocole, comprendre en détail son fonctionnement et ses implications en matière de confidentialité, je vous recommande vivement de suivre mon cours BTC 204 :
 

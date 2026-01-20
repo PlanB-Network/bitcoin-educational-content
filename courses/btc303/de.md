@@ -51,7 +51,7 @@ Das Buch wurde von [Chaincode Labs](https://learning.chaincode.com/) in Auftrag 
 <chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
 
 
-Willkommen zu diesem Kurs PHI 301 über die Entwicklungsphilosophie von Bitcoin.
+Willkommen zu diesem Kurs BTC 303 über die Entwicklungsphilosophie von Bitcoin.
 
 
 Bitcoin ist mehr als nur eine Kryptowährung, es verkörpert eine philosophische Vision über Dezentralisierung, Privatsphäre, Vertrauenslosigkeit und Widerstandsfähigkeit. Dieser Kurs richtet sich speziell an Entwickler, die bereits mit den technischen Grundlagen von Bitcoin vertraut sind und nun ihr Verständnis für die Prinzipien, die dem Design und der Governance von Bitcoin zugrunde liegen, vertiefen möchten.
@@ -1168,14 +1168,14 @@ Bitcoin Core hält sich an diese Definition, indem es unter der [MIT-Lizenz](htt
 
 
 ```
-The MIT License (MIT)
+Die MIT-Lizenz (MIT)
 
-Copyright (c) 2009-2022 The Bitcoin Core developers
-Copyright (c) 2009-2022 Bitcoin Developers
+Copyright (c) 2009-2022 Die Bitcoin Core Entwickler
+Copyright (c) 2009-2022 Bitcoin-Entwickler
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Hiermit wird jeder Person, die eine Kopie dieser Software und der zugehörigen Dokumentationsdateien (die „Software") erhält, kostenlos die Erlaubnis erteilt, ohne Einschränkung mit der Software zu handeln, einschließlich und ohne Einschränkung der Rechte zur Nutzung, zum Kopieren, Modifizieren, Zusammenführen, Veröffentlichen, Verteilen, Unterlizenzieren und/oder Verkaufen von Kopien der Software, und Personen, denen die Software zur Verfügung gestellt wird, dies unter den folgenden Bedingungen zu gestatten:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+Der obige Urheberrechtshinweis und dieser Genehmigungshinweis müssen in allen Kopien oder wesentlichen Teilen der Software enthalten sein.
 ```
 
 

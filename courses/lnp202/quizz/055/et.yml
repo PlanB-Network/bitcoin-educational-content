@@ -1,0 +1,9 @@
+question: Millal toimub NWC-voolus rakenduse poolel krüpteerimine?
+answer: Enne avaldamist relee kohta
+wrong_answers:
+  - Pärast sõlme lugemist
+  - Pärast avaldamist relee kohta
+  - Mitte kunagi
+explanation: |
+  Rakendus seerialiseerib taotluse, krüpteerib selle ja avaldab selle seejärel sündmuse kujul Nostr relees.
+reviewed: false

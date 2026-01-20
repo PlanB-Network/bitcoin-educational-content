@@ -1,0 +1,9 @@
+question: 托管运营商对其用户的付款有什么权力？
+answer: 审查的权力
+wrong_answers:
+  - Mining 功率
+  - 共识的力量
+  - Halving 功率
+explanation: |
+  控制资金和渠道的运营商可以阻止、延迟或过滤付款。
+reviewed: false

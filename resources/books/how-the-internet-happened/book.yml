@@ -43,7 +43,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.12
+    reward: 0.13
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -58,17 +58,17 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.12
+    reward: 0.13
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.12
+    reward: 0.13
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.12
+    reward: 0.13
   - language: et
     last_contribution_date:
     urgency: 1
@@ -83,7 +83,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.12
+    reward: 0.13
   - language: pl
     last_contribution_date:
     urgency: 1
@@ -93,7 +93,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.12
+    reward: 0.13
   - language: sw
     last_contribution_date:
     urgency: 1
@@ -103,7 +103,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.12
+    reward: 0.13
   - language: fa
     last_contribution_date:
     urgency: 1
@@ -123,7 +123,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.12
+    reward: 0.13
 tags:
   - historical
   - high-level

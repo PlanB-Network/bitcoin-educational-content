@@ -1,10 +1,9 @@
-question: Hva er rollen til gruvearbeidere i Bitcoin-nettverket?
-answer: Gruvearbeidere er essensielle for å skape nye bitcoins og sikre Bitcoin-nettverket.
+question: Når fant blokkstørrelseskrigen sted?
+answer: I 2017.
 wrong_answers:
-  - Gruvearbeidere er ansvarlige for å regulere prisen på Bitcoin.
-  - Gruvearbeidere er ansvarlige for å opprette Bitcoin-lommebøker.
-  - Gruvearbeidere er ansvarlige for å kontrollere Bitcoin-protokollen.
-explanation: >-
-  Gruvearbeidere spiller en avgjørende rolle i Bitcoin-nettverket ettersom de er ansvarlige
-  for å skape nye bitcoins og sikre Bitcoin-nettverket ved å forbruke elektrisitet for hashing av en blokk med transaksjoner.
+  - I 2008.
+  - I 2010.
+  - I 2019.
+explanation: |
+  Blokkstørrelseskrigen fant sted i 2017. Denne konflikten satte aktører som ønsket å modifisere Bitcoin ved å øke blokkstørrelsen for å øke transaksjonskapasiteten, opp mot de som søkte å bevare brukernes uavhengighet og makt ved å holde størrelsen på 1 MB.
 reviewed: true

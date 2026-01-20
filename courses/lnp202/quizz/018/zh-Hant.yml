@@ -1,0 +1,9 @@
+question: LND 記憶詞組包含多少個單詞？
+answer: 24 個字
+wrong_answers:
+  - 10 個字
+  - 18 個字
+  - 36 個字
+explanation: |
+  LND generates 是用於節點備份和復原的 24 個字的助記詞組。
+reviewed: false

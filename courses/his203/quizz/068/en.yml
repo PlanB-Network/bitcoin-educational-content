@@ -5,5 +5,6 @@ wrong_answers:
   - Tradehill
   - BTC-e
 explanation: |
- On the night of September 3 to 4, 2012, a hacker accessed an unencrypted backup of Bitfloor's wallet keys, and managed to withdraw just over 24,000 BTC, or around $250,000 at the time.
-reviewed: false
+ On the night of September 3 to 4, 2012, a hacker accessed an unencrypted backup of Bitfloor's wallet keys, and managed to withdraw just over 24,000 BTC, or 
+ around $250,000 at the time.
+reviewed: true

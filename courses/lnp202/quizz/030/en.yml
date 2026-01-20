@@ -2,7 +2,7 @@ question: From your node's point of view, what is the initial distribution of li
 answer: 100% outbound
 wrong_answers:
   - 50% inbound 50% outbound
-  - 100% incoming
+  - 100% inbound
   - 90% outbound 10% inbound
 explanation: |
   When a channel is opened, all the liquidity is initially on the initiator's side.

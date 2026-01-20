@@ -1,0 +1,9 @@
+question: Mengapa operator node Lightning pedagang tidak dapat mengandalkan pembayarannya sendiri untuk likuiditas masuk generate?
+answer: Sebagian besar arus masuk
+wrong_answers:
+  - Terutama arus keluar
+  - Saluran terlalu kecil
+  - Biaya onchain yang tinggi
+explanation: |
+  Dengan menguangkan tanpa membelanjakan, pedagang tidak secara alami memindahkan likuiditas dari salurannya.
+reviewed: false

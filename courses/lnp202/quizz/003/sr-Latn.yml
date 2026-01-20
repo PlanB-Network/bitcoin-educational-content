@@ -1,0 +1,9 @@
+question: Koje od ovih Lightning operacija zahteva objavljivanje onchain transakcije?
+answer: Otvaranje kanala
+wrong_answers:
+  - Lightning plaćanje
+  - Višeslojno usmeravanje
+  - Povezivanje mobilnog klijenta
+explanation: |
+  Otvaranje kanala odgovara Bitcoin transakciji objavljenoj na blockchainu.
+reviewed: false

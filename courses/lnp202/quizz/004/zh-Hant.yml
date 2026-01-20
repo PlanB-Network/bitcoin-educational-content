@@ -1,0 +1,9 @@
+question: Lightning 節點必須連接什麼？
+answer: 一個 Bitcoin 節點
+wrong_answers:
+  - 一名礦工
+  - 區塊探索器
+  - 聯合伺服器
+explanation: |
+  Lightning 節點依賴 Bitcoin 節點從主區塊鏈存取資訊。
+reviewed: false

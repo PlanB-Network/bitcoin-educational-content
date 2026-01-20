@@ -1,0 +1,9 @@
+question: ¿Para qué sirve principalmente un router en Lightning?
+answer: Gane dinero con las comisiones de encaminamiento
+wrong_answers:
+  - Gana dinero mostrando el camino
+  - Ganar dinero vendiendo liquidez entrante
+  - Gana dinero publicando estados de canales obsoletos
+explanation: |
+  El encaminador trata de encaminar los pagos de otros cobrando tasas de encaminamiento.
+reviewed: false

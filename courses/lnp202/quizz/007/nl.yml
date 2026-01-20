@@ -1,0 +1,9 @@
+question: Welke fundamentele eigenschap van Bitcoin gaat verloren in bewaring?
+answer: Monetaire soevereiniteit
+wrong_answers:
+  - Monetaire schaalbaarheid
+  - Snelle betaling
+  - Monetaire interoperabiliteit
+explanation: |
+  Zonder sleutelcontrole geeft de gebruiker zijn monetaire soevereiniteit, de centrale pijler van Bitcoin, op.
+reviewed: false

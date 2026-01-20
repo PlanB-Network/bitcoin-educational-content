@@ -1,0 +1,9 @@
+question: Quale meccanismo impedisce il rilascio di un vecchio stato del canale Lightning?
+answer: La chiave di revoca
+wrong_answers:
+  - Commissioni di transazione
+  - Orologi a tempo assoluto
+  - Pettegolezzi di rete
+explanation: |
+  Le chiavi di revoca sono utilizzate per penalizzare un nodo che tenta di pubblicare un vecchio stato del canale.
+reviewed: false

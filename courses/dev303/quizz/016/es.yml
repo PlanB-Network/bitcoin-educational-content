@@ -1,8 +1,8 @@
 question: ¿Qué tipo de operación realiza Rust por defecto al asignar una variable String a otra?
-answer: Una operación de movimiento que transfiere la propiedad e invalida la variable de origen
+answer: Una operación de movimiento que transfiere la propiedad e invalida la variable de origen.
 wrong_answers:
-  - Una copia profunda que duplica todos los datos del montón para crear cadenas independientes
-  - Una copia superficial que crea dos punteros a la misma memoria heap
-  - Una creación de referencia que permite a ambas variables compartir el acceso de sólo lectura
+  - Una copia profunda que duplica todos los datos del montón para crear cadenas independientes.
+  - Una copia superficial que crea dos punteros a la misma memoria heap.
+  - Una creación de referencia que permite a ambas variables compartir el acceso de sólo lectura.
 explanation: |
-  Rust realiza una operación move por defecto al asignar tipos complejos como String. Esto transfiere la propiedad de la variable de origen a la de destino a la vez que invalida la de origen, evitando escenarios peligrosos en los que múltiples variables podrían modificar la misma memoria heap. Una copia profunda sería ineficiente para cadenas grandes, una copia superficial crearía problemas de seguridad de memoria con múltiples punteros a los mismos datos, y la creación de referencias requiere una sintaxis explícita con el operador ampersand.
+  Rust realiza una operación "move" por defecto al asignar tipos complejos como String. Esto transfiere la propiedad de la variable de origen a la de destino a la vez que invalida la de origen, evitando escenarios peligrosos en los que múltiples variables podrían modificar la misma memoria heap. Una copia profunda sería ineficiente para cadenas grandes, una copia superficial crearía problemas de seguridad de memoria con múltiples punteros a los mismos datos, y la creación de referencias requiere una sintaxis explícita con el operador ampersand.

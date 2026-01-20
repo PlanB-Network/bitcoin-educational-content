@@ -1,0 +1,9 @@
+question: Muri ivyo bipimo ni ikihe gihambaye cane ku bijanye n’uguhuza urunganwe?
+answer: Ikibanza co hagati mu gicapo
+wrong_answers:
+  - Izina ry'urudodo mu gicapo
+  - Ibara ry'urudodo mu gicapo
+  - Umubare w'ubutumwa buri ku gicapo
+explanation: |
+  Igipande gishizwe neza mu gicapo c’umuravyo kiratuma umuntu ashobora gushika ahantu henshi.
+reviewed: false

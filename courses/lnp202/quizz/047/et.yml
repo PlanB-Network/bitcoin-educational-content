@@ -1,0 +1,9 @@
+question: Miks ei sobi LN+ kaupmeeste jaoks?
+answer: Märkimisväärsed kapitaliinvesteeringud
+wrong_answers:
+  - Asjaomaste sõlmede ebausaldusväärsus
+  - Maine süsteem puudub
+  - Liiga väikesed kanalid
+explanation: |
+  Iga saadud sissetulev satelliit nõuab väljamineva satelliidi blokeerimist, mis piirab ettevõtte skaleeritavust.
+reviewed: false

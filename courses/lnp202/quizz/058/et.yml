@@ -1,0 +1,9 @@
+question: Millist mehhanismi kasutatakse NWC-protokollis taotluse edastamiseks rakenduse ja sõlme vahel?
+answer: Sündmused Nostr releedel
+wrong_answers:
+  - Otsesed REST-kutsed LND-le
+  - Point-to-point VPN ühendus
+  - Krüpteeritud DNS päringud
+explanation: |
+  Taotlus krüpteeritakse ja seejärel avaldatakse Nostr relees sündmusena, mida sõlmpunkt loeb, et teostada toiming.
+reviewed: false

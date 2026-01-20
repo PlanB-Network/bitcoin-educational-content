@@ -1,0 +1,9 @@
+question: Milline neist Lightning-operatsioonidest nõuab onchain-tehingu avaldamist?
+answer: Kanali avamine
+wrong_answers:
+  - Välkmakse
+  - Multi-hop marsruutimine
+  - Mobiilse kliendi ühendus
+explanation: |
+  Kanali avamine vastab plokiahelas avaldatud Bitcoin tehingule.
+reviewed: false

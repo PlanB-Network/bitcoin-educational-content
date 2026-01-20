@@ -1,0 +1,9 @@
+question: Co reprezentuje identyfikator węzła Lightning?
+answer: Klucz publiczny i adres węzła
+wrong_answers:
+  - Węzeł seed i adres
+  - Alias węzła i klucz publiczny
+  - Alias węzła Hash i seed
+explanation: |
+  Node ID łączy klucz publiczny węzła z jego adresem sieciowym i portem.
+reviewed: false

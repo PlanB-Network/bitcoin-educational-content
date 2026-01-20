@@ -1,0 +1,9 @@
+question: Hvorfor kan ikke en operatør av en Lightning-node stole på sine egne betalinger for å få innkommende likviditet?
+answer: Hovedsakelig innkommende strømmer
+wrong_answers:
+  - Hovedsakelig utgående strømmer
+  - Kanalene er for små
+  - Høye avgifter på kjeden
+explanation: |
+  Ved å innløse uten å bruke penger, flytter ikke selgeren naturlig nok likviditet ut av sine kanaler.
+reviewed: false

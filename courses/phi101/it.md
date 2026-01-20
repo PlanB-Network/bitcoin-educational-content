@@ -23,7 +23,7 @@ Dall'Antichità all'Illuminismo, la libertà è ascesa mentre le società abbrac
 
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
-Benvenuto al corso PHI201!
+Benvenuto al corso PHI101!
 
 Questo corso ti invita a esplorare l'evoluzione della libertà attraverso la storia analizzando le grandi correnti di pensiero che l'hanno plasmata. Scoprirai come il concetto di libertà si sia sviluppato nel corso dei secoli, sia in opposizione che in collaborazione con il potere, attraverso un percorso storico che va dall'antichità ai dibattiti contemporanei.
 

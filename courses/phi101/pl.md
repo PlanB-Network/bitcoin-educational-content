@@ -27,7 +27,7 @@ Od starożytności przez oświecenie wolność wzrastała, gdy społeczeństwa p
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
 
-Witamy w PHI201!
+Witamy w PHI101!
 
 
 Kurs ten zaprasza do zbadania ewolucji wolności na przestrzeni dziejów poprzez analizę głównych szkół myślenia, które ją ukształtowały. Odkryjesz, w jaki sposób koncepcja wolności była konstruowana na przestrzeni wieków, w opozycji do władzy lub we współpracy z nią, poprzez historyczną podróż od starożytności po współczesne debaty.

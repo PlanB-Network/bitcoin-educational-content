@@ -1,9 +1,9 @@
 question: Hva er størrelsen på Bitcoin-blockchainen?
-answer: Omtrent 500GB
+answer: Omtrent 660GB
 wrong_answers:
-  - Omtrent 100GB
+  - Omtrent 110GB
   - Omtrent 1TB
   - Omtrent 2TB
-explanation: >-
-  Bitcoin-blockchainen er omtrent 500GB stor.
-reviewed: false
+explanation: |
+  Bitcoin-blockchainen er omtrent 660GB stor i 2025.
+reviewed: true

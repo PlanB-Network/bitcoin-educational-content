@@ -1,0 +1,9 @@
+question: Miksi LN+ ei sovellu kauppiaille?
+answer: Merkittävä pääomasijoitus
+wrong_answers:
+  - Asianomaisten solmupisteiden luotettavuuden puute
+  - Ei mainejärjestelmää
+  - Liian pienet kanavat
+explanation: |
+  Jokainen saatu saapuva satelliitti edellyttää lähtevän satelliitin estämistä, mikä rajoittaa yrityksen skaalautuvuutta.
+reviewed: false

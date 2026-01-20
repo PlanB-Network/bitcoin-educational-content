@@ -1,0 +1,9 @@
+question: Ni igiki gisohoka mu gice c’umubiri c’umuravyo?
+answer: Ubushobozi bwo kwishura
+wrong_answers:
+  - Ubushobozi bwo guhuza
+  - Ubushobozi bwo kwakira
+  - Ubushobozi bwo gufunga imirongo
+explanation: |
+  Ivy’amahera asohoka bigereranya sats iriho ku ruhande rw’umukoresha kugira ngo ashobore kwishura.
+reviewed: false

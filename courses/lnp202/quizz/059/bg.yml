@@ -1,0 +1,9 @@
+question: Кое от тези мобилни приложения е съвместимо с връзките на NWC?
+answer: Alby Go
+wrong_answers:
+  - Phoenix
+  - Wallet of Satoshi
+  - Muun
+explanation: |
+  Сред предложенията само Alby Go е съвместим с NWC, въпреки че други приложения като Zeus също са съвместими.
+reviewed: false

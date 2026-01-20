@@ -21,7 +21,7 @@ Probabilmente conosci il detto "Not your keys, not your coins", che incoraggia l
 
 
 
-BTC 202 è una formazione accessibile pensata per insegnarti a gestire il tuo nodo Bitcoin, anche se non sei un esperto tecnico. Inizieremo definendo cos’è un nodo Bitcoin, a cosa serve e perché è assolutamente essenziale gestirne uno autonomamente. Ti guiderò poi passo dopo passo nella scelta dell’hardware, nell’installazione dei software necessari, nel collegamento del tuo portafoglio e nelle prime ottimizzazioni possibili per progredire ulteriormente.
+BTC 202 è una formazione accessibile pensata per insegnarti a gestire il tuo nodo Bitcoin, anche se non sei un esperto tecnico. Inizieremo definendo cos’è un nodo Bitcoin, a cosa serve e perché è assolutamente essenziale gestirne uno autonomamente. Ti guiderò poi passo dopo passo nella scelta dell’hardware, nell’installazione dei software necessari, nel collegamento del tuo walleto e nelle prime ottimizzazioni possibili per progredire ulteriormente.
 
 
 
@@ -173,11 +173,11 @@ Possiamo quindi distinguere e definire dei concetti, in modo da rendere più chi
 
 
 
-- Valuta Bitcoin: l'unità di conto utilizzata per le transazioni all'interno di questo sistema;
+- La valuta Bitcoin: l'unità di conto utilizzata per le transazioni all'interno di questo sistema;
 - Il network Bitcoin: l'insieme di tutti i nodi connessi;
-- Nodi Bitcoin: macchine che eseguono un'implementazione di Bitcoin;
-- Implementazioni Bitcoin: software che traduce il protocollo in istruzioni eseguibili;
-- Protocollo Bitcoin: l'insieme delle regole che governano il funzionamento del sistema;
+- I Nodi Bitcoin: macchine che eseguono un'implementazione di Bitcoin;
+- Le implementazioni di Bitcoin: dei software che traducono il protocollo in istruzioni eseguibili;
+- Il protocollo Bitcoin: l'insieme delle regole che governano il funzionamento del sistema;
 - Il sistema Bitcoin: la combinazione coerente di tutti questi elementi.
 
 
@@ -190,7 +190,7 @@ L'insieme dei nodi Bitcoin forma il cosiddetto Bitcoin network. Essi consentono 
 
 
 
-Fin dall'inizio, Bitcoin è stato progettato per consentire a ciascun utente di gestire un nodo personale. Questo concetto rimane valido con l'attuale software Bitcoin Core, che combina i ruoli di wallet e nodo. Al giorno d'oggi, però, questa funzione è spesso dissociata: molti portafogli Bitcoin moderni sono solo wallet che si collegano a nodi esterni (di proprietà della stessa persona o meno).
+Fin dall'inizio, Bitcoin è stato progettato per consentire a ciascun utente di gestire un nodo personale. Questo concetto rimane valido con l'attuale software Bitcoin Core, che combina i ruoli di wallet e nodo. Al giorno d'oggi, però, questa funzione è spesso dissociata: molti wallet Bitcoin moderni sono solo wallet che si collegano a nodi esterni (di proprietà della stessa persona o meno).
 
 
 
@@ -224,12 +224,12 @@ Il nodo mantiene anche un registro locale di tutti gli UTXO esistenti in un dato
 
 
 
-Il secondo ruolo di un nodo è quello di assicurare la verifica e la propagazione delle transazioni. Quando una nuova transazione raggiunge il nodo (tramite il software del wallet o un altro nodo), esso verifica che sia conforme a un insieme di regole (regole di consenso e regole di propagazione). Ad esempio:
+Il secondo ruolo di un nodo è quello di assicurare la verifica e la propagazione delle transazioni. Quando una nuova transazione raggiunge il nodo (tramite il wallet o un altro nodo), esso verifica che sia conforme a un insieme di regole (regole di consenso e regole di propagazione). Ad esempio:
 
 
 
 
-- i bitcoin spesi devono esistere nel suo set UTXO (il database degli output non spesi);
+- i bitcoin spesi devono esistere nel suo UTXO set (il database degli output non spesi);
 - la firma deve essere valida e tutte le condizioni di spesa devono essere soddisfatte (script valido);
 - l'importo totale delle uscite non deve superare l'importo totale delle entrate, il che significa che i costi non possono essere negativi.
 
@@ -304,7 +304,7 @@ Inizialmente, quando Bitcoin fu lanciato da Satoshi Nakamoto nel 2009, ci si asp
 
 
 
-Tuttavia, con la graduale diffusione di Bitcoin e l'aumento del numero di minatori, il panorama competitivo del mining ha subito un cambiamento radicale. Oggi il mining è diventato un'attività estremamente competitiva, dominata da operatori industriali dotati di infrastrutture specializzate. La potenza richiesta per estrarre un nuovo blocco è ora così grande che è praticamente impossibile per un singolo utente raggiungere questo obiettivo utilizzando solo un computer convenzionale. Di conseguenza, il mining viene ora eseguito principalmente con dispositivi specializzati chiamati ASIC (*Application-Specific Integrated Circuits*). Questi chip sono ottimizzati esclusivamente per eseguire il double SHA-256, l'algoritmo utilizzato per il mining di Bitcoin.
+Tuttavia, con la graduale diffusione di Bitcoin e l'aumento del numero di miner, il panorama competitivo del mining ha subito un cambiamento radicale. Oggi il mining è diventato un'attività estremamente competitiva, dominata da operatori industriali dotati di infrastrutture specializzate. La potenza richiesta per estrarre un nuovo blocco è ora così grande che è praticamente impossibile per un singolo utente raggiungere questo obiettivo utilizzando solo un computer convenzionale. Di conseguenza, il mining viene ora eseguito principalmente con dispositivi specializzati chiamati ASIC (*Application-Specific Integrated Circuits*). Questi chip sono ottimizzati esclusivamente per eseguire il double SHA-256, l'algoritmo utilizzato per il mining di Bitcoin.
 
 
 
@@ -328,7 +328,7 @@ Un miner ha bisogno di un nodo Bitcoin per interagire con la rete.
 
 
 
-Anche il ruolo del miner è talvolta differenziato da quello del trinciatore. Un "mincer" è una macchina il cui compito è quello di calcolare l'hash dei blocchi modello forniti dal server di una pool, cercando hash che soddisfino l'obiettivo di difficoltà definito per le "shares", e non quello di Bitcoin. Il resto del processo di mining , che comprende la costruzione dei blocchi veri e propri, la selezione delle transazioni o la ricerca proof-of-work in base alla difficoltà propria di Bitcoin, nonché la distribuzione, viene eseguito direttamente dalle pool.
+Anche il ruolo del miner è talvolta differenziato da quello del "grind". Un "grind" è una macchina il cui compito è quello di calcolare l'hash dei blocchi modello forniti dal server di una pool, cercando hash che soddisfino l'obiettivo di difficoltà definito per le "shares", e non quello di Bitcoin. Il resto del processo di mining , che comprende la costruzione dei blocchi veri e propri, la selezione delle transazioni o la ricerca proof-of-work in base alla difficoltà propria di Bitcoin, nonché la distribuzione, viene eseguito direttamente dalle pool.
 
 
 
@@ -336,7 +336,7 @@ Anche il ruolo del miner è talvolta differenziato da quello del trinciatore. Un
 
 
 
-Infine, c'è un'importante differenza in termini di incentivo economico tra il miner e il nodo. La gestione di un nodo Bitcoin non fornisce alcun beneficio monetario diretto. D'altro canto, partecipare al mining comporta ricompense (subsidies e transaction fees) per ogni blocco trovato.
+Infine, c'è un'importante differenza in termini di incentivo economico tra il miner e il nodo. La gestione di un nodo Bitcoin non fornisce alcun beneficio monetario diretto. D'altro canto, partecipare al mining comporta permette di ottenere delle ricompense (subsidies e transaction fees) per ogni blocco trovato.
 
 
 
@@ -375,7 +375,7 @@ Bitcoin Core è il software di riferimento per il protocollo Bitcoin. È derivat
 
 
 
-In teoria, Bitcoin Core non rappresenta il protocollo Bitcoin; piuttosto, è solo un'implementazione tra le tante. Tuttavia, si distingue per la sua massiccia adozione, la sua età, la robustezza del suo codice e il rigore del suo processo di sviluppo. Di conseguenza, nella pratica, le regole applicate da Bitcoin Core sono di fatto quelle del protocollo Bitcoin: gli utenti, gli sviluppatori, i minatori e i servizi ecosistemici fanno riferimento quasi esclusivamente ad esso.
+In teoria, Bitcoin Core non rappresenta il protocollo Bitcoin; piuttosto, è solo un'implementazione tra le tante. Tuttavia, si contraddistingue sugli altri per la sua massiccia adozione, la sua longevità, la robustezza del suo codice e il rigore del suo processo di sviluppo. Di conseguenza, nella pratica, le regole applicate da Bitcoin Core sono di fatto quelle del protocollo Bitcoin: gli utenti, gli sviluppatori, i miner e i servizi dell'ecosistema fanno riferimento quasi esclusivamente ad esso.
 
 
 
@@ -415,9 +415,9 @@ Bitcoin Core è un software scritto in C++. È anche un progetto open source man
 
 
 
-- I **contributori** presentano proposte sotto forma di _richieste di modifica_ (PR). In linea di principio, chiunque può proporre una modifica, ma questa deve essere testata, documentata e sottoposta a un processo di revisione paritaria.
-- I **manutentori** hanno il diritto di approvare e unire le PR. Sono coloro che garantiscono la coerenza e la stabilità del progetto. Nel luglio 2025, ce ne sono cinque: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao e Ryan Ofsky.
-- Dal febbraio 2023 non c'è più un **principal maintainer**. Questo ruolo è stato inizialmente ricoperto da Satoshi Nakamoto al momento del lancio di Bitcoin, poi da Gavin Andresen dopo la partenza di Nakamoto all'inizio del 2011 e infine da Wladimir J. Van Der Laan dal 2014 al 2023.
+- I **contributori** presentano proposte sotto forma di _richieste di modifica_ (PR). In linea di principio, chiunque può proporre una modifica, ma quest'ultima deve essere testata, documentata e sottoposta a un processo di revisione paritaria.
+- I **maintainer** hanno il diritto di approvare e inglobare le modifiche delle PR nel codice. Sono coloro che garantiscono la coerenza e la stabilità del progetto. Nel luglio 2025, ce n'erano cinque: Hennadii Stepanov, Michael Ford, Andrew Chow, Gloria Zhao e Ryan Ofsky.
+- Dal febbraio 2023 non c'è più un **maintainer principale**. Questo ruolo è stato inizialmente ricoperto da Satoshi Nakamoto quando fu lanciato Bitcoin, poi da Gavin Andresen dopo la partenza di Nakamoto all'inizio del 2011 e infine da Wladimir J. Van Der Laan dal 2014 al 2023.
 
 
 
@@ -464,11 +464,11 @@ Si potrebbe pensare che gli sviluppatori di Bitcoin Core abbiano un controllo di
 
 
 
-Ciò significa che se una modifica in Bitcoin Core non trova il consenso, può essere ignorata dai nodi, non aggiornando Bitcoin Core o semplicemente cambiando l'implementazione. Al contrario, se una funzionalità desiderata dagli utenti viene bloccata nel processo di sviluppo di Core, è sempre possibile passare a un'altra implementazione o fare un fork del progetto.
+Ciò significa che se una modifica in Bitcoin Core non ottiene il consenso, può essere ignorata dai nodi, non aggiornando Bitcoin Core o semplicemente cambiando l'implementazione. Al contrario, se una funzionalità desiderata dagli utenti viene bloccata nel processo di sviluppo di Core, è sempre possibile passare a un'altra implementazione o fare un fork del progetto.
 
 
 
-Come discuteremo più avanti in questo corso, sono i nodi, in base al loro peso economico (cioè i commercianti), a conferire utilità a una versione del protocollo (e quindi alla valuta corrispondente), accettando unità che rispettano le sue regole. Il vero potere di governance di Bitcoin, quindi, spetta a questi commercianti, non agli sviluppatori.
+Come discuteremo più avanti in questo corso, sono i nodi, in base al loro peso nell'economia (cioè i commercianti), a conferire "utilità" a una versione del protocollo (e quindi alla valuta corrispondente), accettando unità che rispettano le sue regole. Il vero potere di governance di Bitcoin, quindi, è mantenuto da questi commercianti, non agli sviluppatori.
 
 
 
@@ -604,7 +604,7 @@ Cambiare queste regole equivale a cambiare il protocollo, e quindi la moneta (Ha
 
 
 
-- **Regole del Relay(relè)**:
+- **Regole del Relay**:
 
 
 
@@ -648,11 +648,11 @@ Finché `p` rimane al di sotto di `p_c`, una transazione resta confinata in zone
 
 
 
-In ultima analisi, sono sempre i miner a decidere se includere o meno una transazione in un blocco. Tuttavia, i nodi intervengono a monte influenzando la distribuzione delle transazioni: determinano se i minatori saranno o meno a conoscenza di una determinata transazione. Se una transazione non viene trasmessa ai minatori, è ovviamente impossibile per loro includerla in un blocco.
+In ultima analisi, sono sempre i miner a decidere se includere o meno una transazione in un blocco. Tuttavia, i nodi intervengono a monte influenzando la distribuzione delle transazioni: determinano se i miner saranno o meno a conoscenza di una determinata transazione. Se una transazione non viene trasmessa ai miner, è ovviamente impossibile per loro includerla in un blocco.
 
 
 
-L'aggiunta di qualche altro nodo avrà quindi un impatto marginale se la rete è già in fase di percolazione per un determinato tipo di transazione, ma può rivelarsi decisiva quando la soglia di percolazione si avvicina. Possedere o influenzare diversi nodi, soprattutto se ben collegati, può aumentare o ridurre il valore di `p` e, di conseguenza, indirizzare indirettamente le regole di relay che determinano quali transazioni vengono viste e infine accettate dai minatori.
+L'aggiunta di qualche altro nodo avrà quindi un impatto marginale se la rete è già in fase di percolazione per un determinato tipo di transazione, ma può rivelarsi decisiva quando la soglia di percolazione si avvicina. Possedere o influenzare diversi nodi, soprattutto se ben collegati, può aumentare o ridurre il valore di `p` e, di conseguenza, indirizzare indirettamente le regole di relay che determinano quali transazioni vengono viste e infine accettate dai miner.
 
 
 
@@ -660,11 +660,11 @@ L'aggiunta di qualche altro nodo avrà quindi un impatto marginale se la rete è
 
 
 
-Per quanto riguarda l'influenza del tuo nodo sulle regole del consenso, sarà soprattutto il suo peso economico a essere decisivo. Si tratta di un concetto cruciale: il valore di qualsiasi moneta è direttamente correlato alla sua capacità di facilitare lo scambio. Infatti, se un oggetto non è accettato da nessuno per lo scambio di beni o servizi, teoricamente non ha alcuna utilità monetaria. Ad esempio, se nessun commerciante accetta i sassolini come mezzo di pagamento, essi non hanno alcuna utilità come denaro. Naturalmente, l'utilità rimane una nozione soggettiva su scala individuale, ma in un dato territorio, maggiore è il numero di mercanti che accettano un oggetto come mezzo di pagamento nello scambio, più è probabile che questo oggetto abbia un'utilità monetaria per le persone che vivono in questo territorio.
+Per quanto riguarda l'influenza del tuo nodo sulle regole del consenso, sarà soprattutto il suo peso economico a essere decisivo. Si tratta di un concetto cruciale: il valore di qualsiasi moneta è direttamente correlato alla sua capacità di facilitare lo scambio. Infatti, se un oggetto non è accettato da nessuno per lo scambio di beni o servizi, teoricamente non ha alcuna utilità monetaria. Ad esempio, se nessun commerciante accetta i sassolini come mezzo di pagamento, essi non hanno alcuna utilità come denaro. Naturalmente, l'utilità rimane una nozione soggettiva su scala individuale, ma in un dato territorio, maggiore è il numero di commercanti che accettano un oggetto come mezzo di pagamento nello scambio, più è probabile che questo oggetto abbia un'utilità monetaria per le persone che vivono in questo territorio.
 
 
 
-Prendiamo l'esempio di un villaggio in cui molti mercanti accettano oro in cambio per le merci: è probabile che l'oro abbia un'utilità monetaria per gli abitanti del villaggio. Ciò indica che l'utilità di una moneta dipende direttamente dalle decisioni dei mercanti di accettarla o rifiutarla.
+Prendiamo l'esempio di un villaggio in cui molti mercanti accettano oro in cambio delle merci: è probabile che l'oro abbia un'utilità monetaria per gli abitanti del villaggio. Ciò indica che l'utilità di una moneta dipende direttamente dalle decisioni dei mercanti di accettarla o rifiutarla.
 
 
 
@@ -742,7 +742,7 @@ Il pruned node convalida tutto come un full node, dal blocco genesis alla testa 
 
 
 
-Le implicazioni tecniche di questa opzione sono abbastanza semplici: il pruned node è perfettamente in grado di trasmettere le transazioni, partecipare al relay, verificare blocchi e transazioni e tracciare la catena. D'altra parte, non può servire come fonte di dati storici oltre i suoi limiti per altre applicazioni (ad esempio, esploratori completi, indicizzatori, portafogli). Le funzioni che richiedono l'archivio (o un indice globale) non saranno quindi disponibili.
+Le implicazioni tecniche di questa opzione sono abbastanza semplici: il pruned node è perfettamente in grado di trasmettere le transazioni, partecipare al relay, verificare blocchi e transazioni e tracciare la catena. D'altra parte, non può servire come fonte di dati storici oltre i suoi limiti per altre applicazioni (ad esempio, esploratori completi, indicizzatori, wallet). Le funzioni che richiedono l'archivio (o un indice globale) non saranno quindi disponibili.
 
 
 
@@ -758,7 +758,7 @@ In breve, il tracciamento del wallet funziona senza problemi su un pruned node s
 
 
 
-Un nodo SPV (*Simplified Payment Verification*), o nodo leggero, conserva solo le intestazioni dei blocchi, non i dettagli delle transazioni, e si affida ad altri nodi completi per ottenere la prova che una transazione si trova in un blocco (tramite Merkle proofs trees) di cui possiede l'intestazione. Il concetto di verifica semplificata dei pagamenti non è nuovo, essendo stato proposto dallo stesso Satoshi Nakamoto nella parte 8 del White Paper.
+Un nodo SPV (*Simplified Payment Verification*), o nodo leggero, conserva solo le intestazioni dei blocchi, non i dettagli delle transazioni, e si affida ad altri full node per ottenere la prova che una transazione si trova in un blocco (tramite Merkle proofs trees) di cui possiede l'intestazione. Il concetto di verifica semplificata dei pagamenti non è nuovo, essendo stato proposto dallo stesso Satoshi Nakamoto nella parte 8 del White Paper.
 
 
 
@@ -774,7 +774,7 @@ Questo tipo di nodo è ovviamente molto più leggero in termini di memoria e di 
 
 
 
-Il compromesso è la fiducia e la riservatezza: un client SPV non controlla autonomamente gli script o le politiche di convalida; presume che la blockchain con il maggior PoW(proof of work) sia valida e dipende da uno o più nodi completi per le risposte. L'utilizzo di questo tipo di nodo è quindi un'opzione migliore rispetto alla connessione a un nodo di terze parti; tuttavia, è ancora meno vantaggioso rispetto a un full o pruned node.
+Il compromesso è la fiducia e la riservatezza: un client SPV non controlla autonomamente gli script o le politiche di convalida; presume che la blockchain con il maggior numero di PoW (proof of work) sia valida e dipende da uno o più full node per le risposte. L'utilizzo di questo tipo di nodo è quindi un'opzione migliore rispetto alla connessione a un nodo di terze parti; tuttavia, è ancora meno vantaggioso rispetto a un full o pruned node.
 
 
 
@@ -802,7 +802,7 @@ Per un utente alle prime armi con un semplice wallet su un'applicazione mobile, 
 
 
 
-Un utente intermedio con un PC può installare un pruned node per beneficiare di quasi tutti i vantaggi di un full node, senza sovraccaricare il proprio computer su base giornaliera: convalida completa, utilizzo moderato del disco e manutenzione semplice. È una soluzione ideale per collegare i portafogli desktop e rimanere indipendenti nella distribuzione delle transazioni, senza investire in un dispositivo dedicato o sovraccaricare lo spazio su disco.
+Un utente intermedio con un PC può installare un pruned node per beneficiare di quasi tutti i vantaggi di un full node, senza sovraccaricare il proprio computer su base giornaliera: convalida completa, utilizzo moderato del disco e manutenzione semplice. È una soluzione ideale per collegare i wallet desktop e rimanere indipendenti nella distribuzione delle transazioni, senza investire in un dispositivo dedicato o sovraccaricare lo spazio su disco.
 
 
 
@@ -829,7 +829,7 @@ Dal punto di vista del software, esistono due modi principali per gestire un nod
 
 
 - installare direttamente un'implementazione del protocollo, come Bitcoin Core (consigliato) o Bitcoin Knots,
-- oppure utilizzare una distribuzione "chiavi in mano" (spesso chiamata "_node-in-a-box_") che integri un'implementazione di Bitcoin allo stesso modo, ma che includa anche un sistema con interfaccia di amministrazione, un archivio di applicazioni e strumenti pronti all'uso (Lightning, browser, index server, persino applicazioni self-hosting esterne a Bitcoin...).
+- oppure utilizzare una distribuzione "chiavi in mano" (spesso chiamata "_node-in-a-box_") che integri un'implementazione di Bitcoin allo stesso modo, ma che includa anche un sistema con interfaccia da amministratore, un archivio di applicazioni e strumenti pronti all'uso (Lightning, browser, index server, persino applicazioni self-hosting esterne a Bitcoin...).
 
 
 
@@ -849,11 +849,11 @@ Questo è l'approccio più sovrano e flessibile: si sa esattamente cosa sta funz
 
 
 
-#### Bitcoin Core (client ultra-maggioritario)
+#### Bitcoin Core (client maggiormente usato)
 
 
 
-[Bitcoin Core è il client ultra-maggioritario della rete](https://bitcoincore.org/). Scarica, convalida e mantiene la blockchain, fornisce API RPC/REST e può integrare un wallet. Se si preferiscono strumenti standard e ci si sente a proprio agio nell'aggiungere servizi (come il server Electrum, explorer e LND), è meglio usare Core così com'è.
+[Bitcoin Core](https://bitcoincore.org/) è il client maggiormente usato dalla rete. Scarica, convalida e mantiene la blockchain, fornisce API RPC/REST e può integrare un wallet. Se si preferiscono strumenti standard e ci si sente a proprio agio nell'aggiungere servizi (come il server Electrum, explorer e LND), è meglio usare Core così com'è.
 
 
 
@@ -1222,7 +1222,7 @@ Storicamente, il grande vantaggio degli SBC come il Raspberry Pi era il loro pre
 
 
 
-Tecnicamente, è possibile far funzionare un nodo Bitcoin su un HDD. Il problema è che tutto rallenterà notevolmente, soprattutto l'IBD, che diventerà estremamente lungo a causa dell'uso intensivo del disco come cache da parte di Bitcoin Core (soprattutto per il set UTXO). Per questo motivo sconsiglio vivamente l'uso di un HDD: crea un vero e proprio collo di bottiglia, limita fortemente l'evoluzione futura (ad esempio, per un nodo Lightning) e può persino portare a un disallineamento della sincronizzazione con la blockchain. Inoltre, lo stress costante sul disco meccanico aumenta il rischio di usura prematura.
+Tecnicamente, è possibile far funzionare un nodo Bitcoin su un HDD. Il problema è che tutto rallenterà notevolmente, soprattutto l'IBD, che diventerà estremamente lungo a causa dell'uso intensivo del disco come cache da parte di Bitcoin Core (soprattutto per l'UTXO set). Per questo motivo sconsiglio vivamente l'uso di un HDD: crea un vero e proprio collo di bottiglia, limita fortemente l'evoluzione futura (ad esempio, per un nodo Lightning) e può persino portare a un disallineamento della sincronizzazione con la blockchain. Inoltre, lo stress costante sul disco meccanico aumenta il rischio di usura prematura.
 
 
 
@@ -2026,7 +2026,7 @@ Con un PC di configurazione standard (un processore decente, da 8 a 16 GB di RAM
 
 
 
-Per accelerare leggermente l'IBD, è possibile aumentare la RAM allocata alla cache del nodo (utilizzata principalmente per il set UTXO, che verrà rivisto più avanti nel corso) tramite il parametro `dbcache`. Su Umbrel, questa modifica si effettua nei parametri del nodo, nella scheda "*Optimization*".
+Per accelerare leggermente l'IBD, è possibile aumentare la RAM allocata alla cache del nodo (utilizzata principalmente per l'UTXO set, che verrà rivisto più avanti nel corso) tramite il parametro `dbcache`. Su Umbrel, questa modifica si effettua nei parametri del nodo, nella scheda "*Optimization*".
 
 
 
@@ -2121,7 +2121,7 @@ Fino alla versione 0.8.0 di Bitcoin Core, la convalida delle transazioni si basa
 
 
 
-Tuttavia, questo approccio aveva i suoi limiti: era lento, costoso in termini di archiviazione e ridondante in termini di informazioni. Per ovviare a ciò, la versione 0.8.0 introduce una revisione del modello di convalida chiamata ***Ultraprune***. Invece di memorizzare tutto sotto forma di indici di transazioni, Bitcoin Core mantiene un semplice database dedicato esclusivamente agli UTXO, chiamato `chainstate` (nel linguaggio comune, questo è noto come "set UTXO"), e ne aggiorna l'elenco man mano che gli output vengono consumati e creati.
+Tuttavia, questo approccio aveva i suoi limiti: era lento, costoso in termini di archiviazione e ridondante in termini di informazioni. Per ovviare a ciò, la versione 0.8.0 introduce una revisione del modello di convalida chiamata ***Ultraprune***. Invece di memorizzare tutto sotto forma di indici di transazioni, Bitcoin Core mantiene un semplice database dedicato esclusivamente agli UTXO, chiamato `chainstate` (nel linguaggio comune, questo è noto come "UTXO set"), e ne aggiorna l'elenco man mano che gli output vengono consumati e creati.
 
 
 
@@ -2167,7 +2167,7 @@ Se si desidera semplicemente collegare un wallet, come Sparrow, al proprio nodo 
 
 
 
-D'altra parte, per utilizzare software più avanzati, come l'esecuzione di un Mempool.Locally, l'installazione di un indicizzatore di indirizzi diventa indispensabile per lo space block explorer.
+D'altra parte, per utilizzare software più avanzati, come l'esecuzione di mempool.space in locale, l'installazione di un indicizzatore di indirizzi diventa indispensabile per lo space block explorer.
 
 
 
@@ -2179,7 +2179,7 @@ L'indicizzatore richiede un certo tempo di sincronizzazione (inferiore a quello 
 
 
 
-Per costruire questo tipo di indice di indirizzi e renderlo accessibile si utilizzano comunemente due software: **Electrs** e **Fulcrum**. Questi strumenti indicizzano la blockchain in base agli script-hash (indirizzi) e propongono poi un'interfaccia standardizzata (il protocollo Electrum), al quale si collegano numerosi portafogli, come Electrum Wallet, Sparrow o Phoenix.
+Per costruire questo tipo di indice di indirizzi e renderlo accessibile si utilizzano comunemente due software: **Electrs** e **Fulcrum**. Questi strumenti indicizzano la blockchain in base agli script-hash (indirizzi) e propongono poi un'interfaccia standardizzata (il protocollo Electrum), al quale si collegano numerosi wallet, come Electrum Wallet, Sparrow o Phoenix.
 
 
 
@@ -2718,7 +2718,7 @@ Esegui questa operazione regolarmente per mantenere aggiornati il sistema operat
 
 
 
-Se si utilizza il proprio nodo Bitcoin solo per convalidare e distribuire le transazioni, ma i portafogli sono gestiti al di fuori di Umbrel (ad esempio, con un hardware wallet e un Sparrow wallet), non c'è nulla di cui eseguire il backup direttamente su Umbrel. In questo caso, il backup essenziale rimane quello della frase di recupero e del Descriptor del vostro wallet esterno, e questo vale sia che usi il tuo nodo sia che non lo usi. Quindi non cambia nulla rispetto alla configurazione precedente.
+Se si utilizza il proprio nodo Bitcoin solo per convalidare e distribuire le transazioni, ma i wallet sono gestiti al di fuori di Umbrel (ad esempio, con un hardware wallet e un Sparrow wallet), non c'è nulla di cui eseguire il backup direttamente su Umbrel. In questo caso, il backup essenziale rimane quello della frase di recupero e del Descriptor del vostro wallet esterno, e questo vale sia che usi il tuo nodo sia che non lo usi. Quindi non cambia nulla rispetto alla configurazione precedente.
 
 
 
@@ -2830,7 +2830,7 @@ Le transazioni vengono impegnate in un Merkle Tree. Si tratta di una struttura c
 
 
 
-Questo passaggio _**headers-first**_ permette al nodo di identificare il ramo con più lavoro (indipendentemente dal numero di blocchi), che è il ramo su cui i nodi Bitcoin si sincronizzano. Una volta identificato questo ramo, il nodo scarica il contenuto dei blocchi in parallelo da diverse connessioni, quindi convalida ogni transazione: formato, validità degli script (tranne `assumevalid=1`), importi, e assenza di doppia spesa. A ogni verifica andata a buon fine, lo stato attuale delle monete non spese (set UTXO) viene aggiornato nel database `chainstate/`: gli output spesi vengono rimossi, mentre vengono aggiunti nuovi output validi.
+Questo passaggio _**headers-first**_ permette al nodo di identificare il ramo con più lavoro (indipendentemente dal numero di blocchi), che è il ramo su cui i nodi Bitcoin si sincronizzano. Una volta identificato questo ramo, il nodo scarica il contenuto dei blocchi in parallelo da diverse connessioni, quindi convalida ogni transazione: formato, validità degli script (tranne `assumevalid=1`), importi, e assenza di doppia spesa. A ogni verifica andata a buon fine, lo stato attuale delle monete non spese (UTXO set) viene aggiornato nel database `chainstate/`: gli output spesi vengono rimossi, mentre vengono aggiunti nuovi output validi.
 
 
 
@@ -2870,7 +2870,7 @@ Tutte le altre regole (struttura dei blocchi, Proof of Work, limiti di dimension
 
 
 
-Il nodo diventa così rapidamente operativo per gli usi comuni (RPC, connessione di portafogli, ecc.), avviando contemporaneamente la ricostruzione completa e verificata del proprio set UTXO in background. Una volta completata questa fase, lo snapshot iniziale viene sostituito dallo stato ricostruito localmente. Questo approccio separa la fornitura rapida di nodi dalla verifica completa, senza compromettere quest'ultima.
+Il nodo diventa così rapidamente operativo per gli usi comuni (RPC, connessione di wallet, ecc.), avviando contemporaneamente la ricostruzione completa e verificata del proprio UTXO set in background. Una volta completata questa fase, lo snapshot iniziale viene sostituito dallo stato ricostruito localmente. Questo approccio separa la fornitura rapida di nodi dalla verifica completa, senza compromettere quest'ultima.
 
 
 
@@ -2946,7 +2946,7 @@ Quando il nodo ha completato la sincronizzazione iniziale, memorizza localmente 
 
 
 
-Inoltre, diversi file ausiliari (pari, preventivi, liste di esclusione, portafogli, ecc.) completano il quadro. Scopriamo il ruolo di tutti questi file.
+Inoltre, diversi file ausiliari (pari, preventivi, liste di esclusione, wallet, ecc.) completano il quadro. Scopriamo il ruolo di tutti questi file.
 
 
 
@@ -2966,7 +2966,7 @@ Per impostazione predefinita, Bitcoin Core salva i propri dati in una specifica 
 
 
 
-LA blockchain è quindi un insieme di blocchi. Un full node memorizza questi blocchi come file piatti sequenziali e mantiene un indice parallelo per un rapido recupero. Quando è necessario (riorganizzazione, wallet rescan, peer service), questi dati vengono riletti così come sono.
+LA blockchain è quindi un insieme di blocchi. Un full node memorizza questi blocchi come ["flat file"](https://it.wikipedia.org/wiki/Flat_file) sequenziali e mantiene un indice parallelo per un rapido recupero. Quando è necessario (nel caso di riorganizzazione, wallet rescan, peer service), questi dati vengono riletti così come sono.
 
 
 
@@ -2978,7 +2978,7 @@ LA blockchain è quindi un insieme di blocchi. Un full node memorizza questi blo
 
 
 
-I blocchi ricevuti e convalidati vengono scritti in contenitori sequenziali denominati `blkNNNN.dat`, memorizzati nella cartella `blocks/`. Ogni file viene riempito in sequenza fino a raggiungere la dimensione massima di 128 MiB, a quel punto Core apre il file successivo. All'interno, ogni blocco è serializzato in formato di network, preceduto da un identificatore "magic"(una sequenza di byte fissa che segnala l’inizio del blocco e il tipo di rete), e una lunghezza. Questa organizzazione consente una scrittura veloce su disco e facilita il servizio di blocco per la sincronizzazione dei peer.
+I blocchi ricevuti e convalidati vengono scritti in contenitori sequenziali denominati `blkNNNN.dat`, memorizzati nella cartella `blocks/`. Ogni file viene riempito in sequenza fino a raggiungere la dimensione massima di 128 MiB, a quel punto Core apre il file successivo. All'interno, ogni blocco è serializzato in formato di network, preceduto da un "magic identifier" (una sequenza di byte fissa che segnala l’inizio del blocco e il tipo di rete), e una lunghezza. Questa organizzazione consente una scrittura veloce su disco e facilita il servizio di blocco per la sincronizzazione dei peer.
 
 
 
@@ -2986,7 +2986,7 @@ I blocchi ricevuti e convalidati vengono scritti in contenitori sequenziali deno
 
 
 
-In modalità pruned, il nodo conserva solo una finestra recente di questi file per limitare l'ingombro su disco. Elimina i contenitori `blk*.dat` più vecchi non appena viene raggiunto l'obiettivo di spazio configurato, pur conservando una cronologia sufficiente per rimanere coerente con la catena più conosciuta. L'indice e il set UTXO rimangono normali, consentendo la convalida delle transazioni e dei blocchi successivi.
+In modalità pruned, il nodo conserva solo una finestra recente di questi file per limitare l'ingombro su disco. Elimina i contenitori `blk*.dat` più vecchi non appena viene raggiunto l'obiettivo di spazio configurato, pur conservando una cronologia sufficiente per rimanere coerente con la catena più conosciuta. L'indice e l'UTXO set rimangono normali, consentendo la convalida delle transazioni e dei blocchi successivi.
 
 
 
@@ -2994,7 +2994,7 @@ In modalità pruned, il nodo conserva solo una finestra recente di questi file p
 
 
 
-Per poter tornare indietro nel tempo durante una riorganizzazione, Core salva, parallelamente a ogni file `blk`, un file `revNNNN.dat` in `blocks/`. Questo file contiene le informazioni necessarie per annullare l'effetto di un blocco sul set di UTXO: per ogni uscita consumata dal blocco, viene memorizzato lo stato precedente della UTXO corrispondente (quantità, script, altezza...). In caso di interruzione del blocco, il nodo può ricostituire rapidamente lo stato precedente senza dover riesaminare l'intera catena.
+Per poter tornare indietro nel tempo durante una riorganizzazione, Core salva, parallelamente a ogni file `blk`, un file `revNNNN.dat` in `blocks/`. Questo file contiene le informazioni necessarie per annullare l'effetto di un blocco sul set di UTXO: per ogni uscita consumata dal blocco, viene memorizzato lo stato precedente dell'UTXO corrispondente (quantità, script, altezza...). In caso di interruzione del blocco, il nodo può ricostituire rapidamente lo stato precedente senza dover riesaminare l'intera catena.
 
 
 
@@ -3028,7 +3028,7 @@ Alcuni indici sono opzionali e disabilitati per impostazione predefinita, in qua
 
 
 
-### Set UTXO (chainstate)
+### UTXO set (chainstate)
 
 
 
@@ -3060,11 +3060,11 @@ Il nodo mantiene una cache di memoria sopra LevelDB per assorbire le operazioni 
 
 
 
-Teoricamente, si potrebbe convalidare una transazione ricontrollando la cronologia dei blocchi per verificare che un'uscita non sia mai stata spesa. In pratica, tuttavia, ciò richiederebbe troppo tempo, poiché l'intera blockchain dovrebbe essere scansionata per ogni nuova transazione. Il set UTXO, pertanto, fornisce la visualizzazione minima necessaria per dimostrare localmente e in tempi ragionevoli l'assenza del double-spending.
+Teoricamente, si potrebbe convalidare una transazione ricontrollando la cronologia dei blocchi per verificare che un'uscita non sia mai stata spesa. In pratica, tuttavia, ciò richiederebbe troppo tempo, poiché l'intera blockchain dovrebbe essere scansionata per ogni nuova transazione. l'UTXO set, pertanto, fornisce la visualizzazione minima necessaria per dimostrare localmente e in tempi ragionevoli l'assenza del double-spending.
 
 
 
-Si noti che il set UTXO è spesso al centro delle preoccupazioni sulla decentralizzazione di Bitcoin, poiché le sue dimensioni aumentano naturalmente in modo rapido. Ciò è dovuto in parte all'aumento del prezzo di Bitcoin, che incoraggia la frammentazione delle parti, e in parte alla crescente adozione del sistema: più utenti ci sono, maggiore è la richiesta di UTXO.
+Si noti che l'UTXO set è spesso al centro delle preoccupazioni sulla decentralizzazione di Bitcoin, poiché le sue dimensioni aumentano naturalmente in modo rapido. Ciò è dovuto in parte all'aumento del prezzo di Bitcoin, che incoraggia la frammentazione delle parti, e in parte alla crescente adozione del sistema: più utenti ci sono, maggiore è la richiesta di UTXO.
 
 
 
@@ -3072,7 +3072,7 @@ Si noti che il set UTXO è spesso al centro delle preoccupazioni sulla decentral
 
 
 
-La crescita dell'insieme UTXO deriva anche dalla struttura delle semplici transazioni di pagamento su Bitcoin. Infatti, quando si effettua un pagamento, si consuma una singola UTXO come input e si creano 2 nuove UTXO come output (una per il pagamento e l'altra per lo scambio). Infine, un'euristica di analisi della catena, chiamata CIOH (*Common Input Ownership Heuristic*), fornisce un ulteriore incentivo a evitare il consolidamento della moneta.
+La crescita dell'insieme UTXO deriva anche dalla struttura delle semplici transazioni di pagamento su Bitcoin. Infatti, quando si effettua un pagamento, si consuma un singolo UTXO come input e si creano due nuovi UTXO come output (uno per il pagamento e l'altro come resto). Infine, un'euristica di analisi della catena, chiamata CIOH (*Common Input Ownership Heuristic*), fornisce un ulteriore incentivo a evitare il consolidamento della moneta.
 
 
 
@@ -3097,7 +3097,7 @@ La Mempool è l'insieme locale delle transazioni valide che sono state ricevute 
 
 
 
-È importante notare che le Mempool dei nodi non hanno valore di consenso. Bitcoin funziona perfettamente anche se ogni nodo ha una Mempool diversa. In definitiva, i blocchi autorevoli sono sempre quelli aggiunti alla blockchain. Ad esempio, anche se un nodo inizialmente rifiuta una determinata transazione nella sua Mempool (valida secondo le regole del consenso), sarà obbligato ad accettarla se alla fine viene inclusa in un blocco con una Proof of Work valida. Se non lo facesse e rifiutasse questo blocco, pur essendo conforme alle regole di consenso, innescherebbe un hard fork, cioè la creazione di un nuovo Bitcoin separato in cui sarebbe solo.
+È importante notare che le Mempool dei nodi non hanno valore in termini di consenso. Bitcoin funziona perfettamente anche se ogni nodo ha una Mempool diversa. In definitiva, i blocchi autorevoli sono sempre quelli aggiunti alla blockchain. Ad esempio, anche se un nodo inizialmente rifiuta una determinata transazione nella sua Mempool (valida secondo le regole del consenso), sarà obbligato ad accettarla se alla fine viene inclusa in un blocco con una Proof of Work valida. Se non lo facesse e rifiutasse questo blocco, pur essendo conforme alle regole di consenso, innescherebbe un hard fork, cioè la creazione di un nuovo Bitcoin separato in cui sarebbe solo.
 
 
 
@@ -3147,7 +3147,7 @@ Diversi altri file allo stesso livello di `blocks/`, `chainstate/` e `indexes/` 
 
 
 
-Come abbiamo visto nelle prime parti di questo corso, Bitcoin Core è sia il software del nodo Bitcoin che wallet. Tuttavia, non è necessariamente la soluzione che consiglierei per la gestione dei wallet, poiché la sua interfaccia rimane basica e le sue funzionalità sono limitate rispetto a software moderni come Sparrow o Liana. Core include anche i file per la gestione dei portafogli:
+Come abbiamo visto nelle prime parti di questo corso, Bitcoin Core è sia il software del nodo Bitcoin che wallet. Tuttavia, non è necessariamente la soluzione che consiglierei per la gestione dei wallet, poiché la sua interfaccia rimane basica e le sue funzionalità sono limitate rispetto a software moderni come Sparrow o Liana. Core include anche i file per la gestione dei wallet:
 
 
 
@@ -3207,11 +3207,11 @@ Per riassumere, ecco la struttura del file Bitcoin Core:
 
 
 
-Alla ricezione di un nuovo blocco, il nodo controlla la Proof of Work e, più in generale, il rispetto delle regole di consenso. Se tutto è a posto, applica le modifiche transazione per transazione al suo set UTXO: controlla che ogni voce spenda le UTXO esistenti con uno script valido, cancella queste UTXO e aggiunge le nuove uscite. Se tutto è valido, le modifiche vengono impegnate in `chainstate/`.
+Alla ricezione di un nuovo blocco, il nodo controlla la Proof of Work e, più in generale, il rispetto delle regole di consenso. Se tutto è a posto, applica le modifiche transazione per transazione al suo set dell'UTXO: controlla che ogni voce spenda le dell'UTXO esistenti con uno script valido, cancella queste UTXO e aggiunge le nuove uscite. Se tutto è valido, le modifiche vengono impegnate in `chainstate/`.
 
 
 
-In parallelo, i dati di annullamento vengono scritti in `rev*.dat` e i metadati nell'indice `blocks/index/`. Il blocco viene quindi serializzato nel file `blk*.dat` corretto. In caso di riorganizzazione, il nodo legge `rev*.dat` al contrario per scollegare in modo pulito i blocchi abbandonati, ripristinare il set UTXO e quindi collegare i blocchi della nuova catena migliore.
+In parallelo, i dati di annullamento vengono scritti in `rev*.dat` e i metadati nell'indice `blocks/index/`. Il blocco viene quindi serializzato nel file `blk*.dat` corretto. In caso di riorganizzazione, il nodo legge `rev*.dat` al contrario per scollegare in modo pulito i blocchi abbandonati, ripristinare l'UTXO set e quindi collegare i blocchi della nuova catena migliore.
 
 
 
@@ -3411,13 +3411,13 @@ Ecco i parametri di base che potete modificare nel vostro `Bitcoin.conf` per qua
 
 
 
-- `maxorphantx=<n>`: Numero massimo di transazioni orfane mantenute (input dipendenti da UTXO non ancora visti nel set UTXO, default: `100`). Oltre questa soglia, le transazioni più vecchie vengono eliminate per evitare una crescita incontrollata della cache.
+- `maxorphantx=<n>`: Numero massimo di transazioni orfane mantenute (input dipendenti da UTXO non ancora visti nell'UTXO set, default: `100`). Oltre questa soglia, le transazioni più vecchie vengono eliminate per evitare una crescita incontrollata della cache.
 
 
 
 
 
-- `blocksonly=1` : Disattiva l'accettazione e la ritrasmissione delle transazioni non confermate ricevute dai peer (tranne permessi speciali). Il nodo scarica e annuncia solo i blocchi. Le transazioni create localmente possono comunque essere trasmesse (per utilizzare il nodo con il software del wallet). Questo riduce notevolmente la larghezza di banda e il consumo di RAM, a scapito dell'utilità per il relay e della totale mancanza di conoscenza della Mempool.
+- `blocksonly=1` : Disattiva l'accettazione e la ritrasmissione delle transazioni non confermate ricevute dai peer (tranne permessi speciali). Il nodo scarica e annuncia solo i blocchi. Le transazioni create localmente possono comunque essere trasmesse (per utilizzare il nodo con il wallet). Questo riduce notevolmente la larghezza di banda e il consumo di RAM, a scapito dell'utilità per il relay e della totale mancanza di conoscenza della Mempool.
 
 
 
@@ -3459,7 +3459,7 @@ Ecco le impostazioni avanzate per la Mempool e la politica dei relay. Se si è a
 
 
 
-- `bytespersigop=<n>`: Parametro che converte le transazioni di firma in byte equivalenti per la valutazione del limite del relè (default: `20`). Questo influenzerà l'accettazione delle transazioni ricche di `sigops` secondo le regole locali.
+- `bytespersigop=<n>`: Parametro che converte le transazioni di firma in byte equivalenti per la valutazione del limite del relay (default: `20`). Questo influenzerà l'accettazione delle transazioni ricche di `sigops` secondo le regole locali.
 
 
 
@@ -3531,19 +3531,19 @@ Come promemoria, tutte queste regole di relay non hanno alcun impatto sulla vali
 
 
 
-- `Wallet=<percorso>`: Carica un wallet esistente all'avvio (può essere ripetuto per caricare più portafogli).
+- `Wallet=<percorso>`: Carica un wallet esistente all'avvio (può essere ripetuto per caricare più wallet).
 
 
 
 
 
-- `walletdir=<dir>`: Directory contenente i wallet (predefinita: `<datadir>/wallets` se esiste, altrimenti `<datadir>`). Questo può essere utile se si desidera memorizzare i portafogli su un volume dedicato o criptato.
+- `walletdir=<dir>`: Directory contenente i wallet (predefinita: `<datadir>/wallets` se esiste, altrimenti `<datadir>`). Questo può essere utile se si desidera memorizzare i wallet su un volume dedicato o criptato.
 
 
 
 
 
-- `walletbroadcast=1`: Trasmette automaticamente le transazioni create dai portafogli caricati (default: `1`). Impostare `0` se si desidera gestire la trasmissione tramite un altro canale.
+- `walletbroadcast=1`: Trasmette automaticamente le transazioni create dai wallet caricati (default: `1`). Impostare `0` se si desidera gestire la trasmissione tramite un altro canale.
 
 
 
@@ -3561,7 +3561,7 @@ Come promemoria, tutte queste regole di relay non hanno alcun impatto sulla vali
 
 
 
-- `paytxfee=<amt>`: Tariffa fissa (BTC/kvB) applicata alle transazioni wallet. Generalmente sconsigliato:è preferibile utilizzare la stima adattiva tramite `txconfirmtarget`.
+- `paytxfee=<amt>`: Tariffa fissa (BTC/kvB) applicata alle transazioni. Generalmente sconsigliato: è preferibile utilizzare la stima flessibile tramite `txconfirmtarget`.
 
 
 
@@ -3579,28 +3579,25 @@ Come promemoria, tutte queste regole di relay non hanno alcun impatto sulla vali
 
 
 
-- `maxtxfee=<amt>`: Limite assoluto alle commissioni totali per una transazione wallet (default: `0,10` BTC). Protegge da commissioni anomalmente alte che distruggerebbero inutilmente i bitcoin.
+- `maxtxfee=<amt>`: Limite assoluto alle commissioni totali per una transazione wallet (default: `0,10` BTC). Protegge da commissioni troppo alte che distruggerebbero inutilmente i bitcoin.
 
 
 
 
 
-- `avoidpartialspends=1`: Seleziona le UTXO per cluster(gruppo o insieme) di indirizzi per evitare spese parziali.
+- `avoidpartialspends=1`: Seleziona gli UTXO per cluster(gruppo o insieme) di indirizzi per evitare spese parziali.
 
 
 
 
 
-- `spendzeroconfchange=1`: Consente di riutilizzare una UTXO di resto non confermato come voce in una nuova transazione (default: `1`).
+- `spendzeroconfchange=1`: Consente di riutilizzare un UTXO di resto non confermato come voce in una nuova transazione (default: `1`).
 
 
 
 
 
-- `consolidatefeerate=<amt>`: Tasso massimo (BTC/kvB) oltre il quale il wallet evita di aggiungere più input del necessario per consolidare. Ciò consente consolidamenti opportunistici a prezzi bassi riducendo i costi, quando elevati.
-
-
-
+- `consolidatefeerate=<amt>`: Tasso massimo (BTC/kvB) oltre il quale il wallet evita di aggiungere più input del necessario per consolidare. Ciò consente di consolidare a prezzi bassi dei piccoli UTXO in uno più grande, e riduce i costi quando sono alti.
 
 
 - `maxapsfee=<n>`: Budget per le spese aggiuntive (BTC, valore assoluto) che il wallet accetta di pagare per attivare l'opzione "*evita spese parziali*".
@@ -3609,7 +3606,7 @@ Come promemoria, tutte queste regole di relay non hanno alcun impatto sulla vali
 
 
 
-- `discardfee=<amt>`: Tasso (BTC/kvB) che indica la tolleranza a buttare via il resto aggiungendolo alla tariffa. Le uscite che costerebbero più di un terzo del loro valore a questo tasso vengono eliminate.
+- `discardfee=<amt>`: Tasso (BTC/kvB) che indica la tolleranza a buttare via il resto aggiungendolo alle fee. Gli output che costerebbero più di un terzo del loro valore a questo tasso vengono eliminati.
 
 
 
@@ -3659,7 +3656,7 @@ Il file di configurazione consente anche di regolare i parametri relativi alla m
 
 
 
-- `txindex=1` : Costruisce e mantiene un indice globale delle transazioni confermate. Indispensabile per alcune richieste (`getrawtransaction` fuori dal portafoglio) e per scopi di esplorazione, ma aumenta notevolmente l'utilizzo del disco. Incompatibile con la modalità ridotta.
+- `txindex=1` : Costruisce e mantiene un indice globale delle transazioni confermate. Indispensabile per alcune richieste (`getrawtransaction` fuori dal walleto) e per scopi di esplorazione, ma aumenta notevolmente l'utilizzo del disco. Incompatibile con la modalità ridotta.
 
 
 
@@ -3689,7 +3686,7 @@ Il file di configurazione consente anche di regolare i parametri relativi alla m
 
 
 
-- `coinstatsindex=1`: Mantiene un indice delle statistiche dei set UTXO gestito dalla chiamata `gettxoutsetinfo`. Utile per le verifiche e le metriche, eliminando la necessità di un costoso ricalcolo. Disattivato per impostazione predefinita.
+- `coinstatsindex=1`: Mantiene un indice delle statistiche degli UTXO set gestito dalla chiamata `gettxoutsetinfo`. Utile per le verifiche e le metriche, eliminando la necessità di un costoso ricalcolo. Disattivato per impostazione predefinita.
 
 
 
@@ -3811,7 +3808,7 @@ Infine, il file `Bitcoin.conf` consente di configurare i parametri di accesso al
 
 
 
-- `daemon=1` / `daemonwait=1`: Avvia `bitcoind` in background e, con `daemonwait`, attendi che l'inizializzazione finisca prima di consegnarla. Questo facilita l'integrazione con i supervisori (systemd, runit).
+- `daemon=1` / `daemonwait=1`: Avvia `bitcoind` in background e, con `daemonwait`, attendi che l'inizializzazione finisca prima di consegnarla. Ciò facilita l'integrazione con i supervisori (systemd, runit).
 
 
 

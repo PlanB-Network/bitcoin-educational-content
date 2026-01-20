@@ -1,9 +1,11 @@
-question: Which foreign exchange platform competes with Mt. Gox was launched in December 2010 by David François?
+question: Which foreign exchange platform competing with Mt. Gox was launched in December 2010 by David François?
 answer: Bitcoin-Central
 wrong_answers:
   - Paymium
   - Britcoin
   - Bitomat
 explanation: |
- Bitcoin-Central was a French platform, initially accepting Liberty Reserve dollars and euros, as well as conventional euro transfers. Its source code was published under an open source license (AGPL). The platform subsequently merged with Paymium, a company co-founded by Gonzague Grandval, Pierre Noizat and David François in June 2011, which originally focused on the payments domain.
-reviewed: false
+ Bitcoin-Central was a French platform, initially accepting Liberty Reserve dollars and euros, as well as conventional euro transfers. Its source code was 
+ published under an open source license (AGPL). The platform subsequently merged with Paymium, a company co-founded by Gonzague Grandval, Pierre Noizat and David
+ François in June 2011, which originally focused on the payments domain.
+reviewed: true

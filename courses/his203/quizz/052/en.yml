@@ -5,5 +5,7 @@ wrong_answers:
   - Instant transfers
   - Regulatory compliance
 explanation: |
- BitInstant added this payment method to its offering on December 21, 2011. It was possible for US citizens to deposit cash in specific locations and be credited almost instantly in dollars on the exchange platform of their choice. Robert Faiella, aka BTCKing, took advantage of the relative confidentiality of this method to operate a resale business on Silk Road, for a higher fee.
-reviewed: false
+ BitInstant added this payment method to its offering on December 21, 2011. It was possible for US citizens to deposit cash in specific locations and be 
+ credited almost instantly in dollars on the exchange platform of their choice. Robert Faiella, aka BTCKing, took advantage of the relative confidentiality of 
+ this method to operate a resale business on Silk Road, for a higher fee.
+reviewed: true

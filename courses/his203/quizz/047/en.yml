@@ -5,5 +5,6 @@ wrong_answers:
   - Succeeding Bitcoin when it collapses
   - Financing the world of free software
 explanation: |
- Litecoin was both faster (block time is 2 minutes 30 instead of 10 minutes) and less scarce (84 million units rather than 21) than Bitcoin, hence the precious metals analogy. It was Charlie Lee himself who included this comparison in the initial description of his cryptocurrency.
-reviewed: false
+ Litecoin was both faster (block time is 2 minutes 30 instead of 10 minutes) and less scarce (84 million units rather than 21) than Bitcoin, hence the precious
+ metals analogy. It was Charlie Lee himself who included this comparison in the initial description of his cryptocurrency.
+reviewed: true

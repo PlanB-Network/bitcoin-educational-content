@@ -1,0 +1,9 @@
+question: Après combien de confirmations les outputs d'une coinbase deviennent-ils dépensables ?
+answer: 101 confirmations
+wrong_answers:
+  - 6 confirmations
+  - 201 confirmations
+  - 210 confirmations
+explanation: |
+  La période de maturité est de 100 blocs, donc il faut 101 confirmations pour rendre ces UTXOs dépensables.
+reviewed: false

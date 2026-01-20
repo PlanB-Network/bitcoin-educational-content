@@ -1,0 +1,9 @@
+question: Varför skapar en utgående betalning automatiskt en inkommande likviditet?
+answer: Förändrad likviditet
+wrong_answers:
+  - Skapa nya kanaler
+  - Kapacitetsökning
+  - Lägre routningskostnader
+explanation: |
+  En utgående betalning flyttar sats till par, vilket skapar inkommande likviditet på den här sidan av kanalen.
+reviewed: false

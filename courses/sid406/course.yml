@@ -5,6 +5,7 @@ subtopic: sidechain
 type: practice
 level: expert
 hours: 8
+test_only: true
 
 professors_id:
   - 7668500c-ed9e-44f2-bdbf-b05a66415742
@@ -20,7 +21,7 @@ proofreading:
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 3.06
+    reward: 0.89
 tags:
   - sidechains
   - technical-analysis

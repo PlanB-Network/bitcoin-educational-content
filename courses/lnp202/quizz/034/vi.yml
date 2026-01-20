@@ -1,0 +1,9 @@
+question: Tiêu chí nào trong số này là quan trọng nhất đối với khả năng kết nối giữa các cá nhân?
+answer: Vị trí trung tâm trên đồ thị
+wrong_answers:
+  - Tên của nút trong đồ thị
+  - Màu sắc của nút trong biểu đồ
+  - Số lượng tin nhắn trong biểu đồ
+explanation: |
+  Một nút mạng được định vị tốt trong đồ thị Lightning sẽ tạo điều kiện thuận lợi cho việc định tuyến đến nhiều đích đến.
+reviewed: false

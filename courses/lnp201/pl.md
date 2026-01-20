@@ -1592,6 +1592,10 @@ Widzieliśmy, że zarządzanie płynnością przepływu płatności jest wyzwani
 ![LNP201](assets/en/084.webp)
 
 
+Teraz, gdy zrozumieli Państwo teoretyczne działanie Lightning Network, mogą Państwo przejść do praktyki i uruchomić swój pierwszy węzeł Lightning, aby zyskać większą autonomię w jego użytkowaniu. W tym celu proszę skorzystać z kursu LNP 202:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
 # Sekcja końcowa
 
 

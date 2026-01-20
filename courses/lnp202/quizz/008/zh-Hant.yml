@@ -1,0 +1,9 @@
+question: 有了託管的 Lightning wallet，誰擁有比特幣？
+answer: 公司
+wrong_answers:
+  - 使用者
+  - 閃電網路
+  - Bitcoin 核心
+explanation: |
+  在託管模式中，公司持有鑰匙並控制資金，而使用者只有會計結餘。
+reviewed: false

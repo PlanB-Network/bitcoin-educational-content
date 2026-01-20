@@ -1,0 +1,9 @@
+question: Millä edellytyksillä salamarangaistus on tehokas?
+answer: Havaitseminen ennen aikalukon päättymistä
+wrong_answers:
+  - Havaitseminen ennen aikalukon alkamista
+  - Huijauksen havaitseminen ennen julkaisua TX
+  - Havaitseminen aikalukon päättymisen jälkeen
+explanation: |
+  Oikeustapahtuma on vapautettava ennen aikarajan umpeutumista, jotta huijauksesta tedaan määrätä seuraamuksia. Sitä ei te vapauttaa ennen timelockin alkamista tai TX:n julkaisemista, koska se tarkoittaisi, että huijausta ei yksinkertaisesti tapahtunut.
+reviewed: false

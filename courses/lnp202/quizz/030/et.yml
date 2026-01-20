@@ -1,0 +1,9 @@
+question: Milline on teie sõlme seisukohalt likviidsuse esialgne jaotumine pärast kanali avamist?
+answer: 100% väljaminev
+wrong_answers:
+  - 50% sissetulev 50% väljaminev
+  - 100% sissetulev
+  - 90% väljaminev 10% sissetulev
+explanation: |
+  Kui kanal avatakse, on kogu likviidsus esialgu algataja poolel.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Wat kan een wachttoren in normaal bedrijf afleiden over het kanaal dat hij beschermt?
+answer: Hoe vaak de status wordt bijgewerkt
+wrong_answers:
+  - Liquidity toewijzing
+  - Zijn capaciteit
+  - Onkostenbeleid
+explanation: |
+  Het ontvangt versleutelde pakketten voor elke nieuwe status, waardoor alleen de normale snelheid van activiteit zichtbaar wordt.
+reviewed: false

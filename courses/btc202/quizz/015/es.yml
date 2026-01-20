@@ -1,7 +1,7 @@
 question: ¿Cuál es la principal alternativa de aplicación de Bitcoin core?
 answer: Bitcoin Knots
 wrong_answers:
-  - Bitcoin Efectivo
+  - Bitcoin Cash
   - BTCD
   - Bcoin
 explanation: |

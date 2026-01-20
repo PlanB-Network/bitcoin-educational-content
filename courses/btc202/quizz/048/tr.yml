@@ -1,5 +1,5 @@
 question: Umbrel.local üzerinden erişim başarısız olursa hangi komut Umbrel'inizin yerel IP Address'ını alır?
-answer: ana bilgisayar adı -I
+answer: hostname -I
 wrong_answers:
   - ifconfig -usb
   - umbrel-ip --show

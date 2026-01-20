@@ -1,0 +1,9 @@
+question: Která z těchto platforem umožňuje nákup příchozí likvidity?
+answer: Magma
+wrong_answers:
+  - Jádro Bitcoin
+  - 1ML
+  - Boltz
+explanation: |
+  Magma usnadňuje nákup příchozí likvidity prostřednictvím automatizovaného tržiště.
+reviewed: false

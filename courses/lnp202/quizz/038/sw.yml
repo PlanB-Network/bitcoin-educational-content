@@ -1,0 +1,9 @@
+question: Kwa nini wasifu wa mtumiaji ni rahisi kusimamia?
+answer: Haja ndogo ya ukwasi unaoingia
+wrong_answers:
+  - Hakuna kituo kinachohitajika
+  - Haja ndogo ya ukwasi unaotoka
+  - Hakuna haja ya kuhifadhi nakala rudufu
+explanation: |
+  Wateja hawahitaji ukwasi mwingi unaoingia, na malipo yanayotoka kwa kawaida huunda ukwasi unaoingia bila mkakati tata.
+reviewed: false

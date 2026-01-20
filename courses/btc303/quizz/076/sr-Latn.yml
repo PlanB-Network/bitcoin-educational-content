@@ -1,9 +1,12 @@
-question: Prema praksama odgovornog otkrivanja, primarna etička dilema sa kojom se suočavaju istraživači bezbednosti koji otkriju ranjivosti u decentralizovanim sistemima kao što je Bitcoin je kako balansirati između obaveze da zaštite korisnike i sistema od potencijalne zloupotrebe i potrebe da javno objave informacije kako bi podstakli brže rešavanje problema i unapređenje bezbednosti.
-answer: Uravnoteženje potrebe da se informišu odgovorne strane, uz izbegavanje otkrivanja potencijalno zlonamernim akterima koji bi mogli iskoristiti ranjivost.
+question: Prema praksama odgovornog obelodanjivanja, sa kojom se osnovnom etičkom dilemom suočavaju istraživači bezbednosti kada otkriju ranjivosti u decentralizovanim sistemima poput Bitcoina?
+answer: Uravnoteženje potrebe da se informišu odgovorne strane, uz izbegavanje otkrivanja potencijalno zlonamernim akterima koji bi mogli iskoristiti ranjivost
 wrong_answers:
   - Odlučivanje da li profitirati od otkrića ranjivosti kroz programe nagrada za greške ili besplatno donirati informacije zajednici
   - Biranje između prijavljivanja vladinim vlastima prvo naspram direktnog prijavljivanja timu za razvoj softvera kako bi se izbegle regulatorne komplikacije
   - Određivanje odgovarajuće finansijske naknade za otkrivanje ranjivosti pre nego što se pristane na otkrivanje informacija programerima
 explanation: |
-  Osnovni etički izazov u odgovornom otkrivanju je delikatna ravnoteža između transparentnosti i sigurnosti. Istraživači moraju osigurati da se ranjivosti rešavaju bez nenamernog pružanja plana za zlonamernu eksploataciju. Ovo uključuje pažljivu koordinaciju sa programerima, pravovremeno otkrivanje i razmatranje šireg uticaja na ekosistem. Druge opcije se fokusiraju na finansijske ili regulatorne brige koje, iako potencijalno relevantne, nisu primarna etička dilema navedena u praksama odgovornog otkrivanja.
-reviewed: false
+  Osnovni etički izazov u odgovornom otkrivanju je delikatna ravnoteža između transparentnosti i sigurnosti. Istraživači moraju osigurati da se ranjivosti 
+  rešavaju bez nenamernog pružanja plana za zlonamernu eksploataciju. Ovo uključuje pažljivu koordinaciju sa programerima, pravovremeno otkrivanje i razmatranje 
+  šireg uticaja na ekosistem. Druge opcije se fokusiraju na finansijske ili regulatorne brige koje, iako potencijalno relevantne, nisu primarna etička dilema 
+  navedena u praksama odgovornog otkrivanja.
+reviewed: true

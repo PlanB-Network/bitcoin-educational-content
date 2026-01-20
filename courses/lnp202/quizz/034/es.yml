@@ -1,0 +1,9 @@
+question: ¿Cuál de estos criterios es más importante para la conectividad entre iguales?
+answer: Posición central en el gráfico
+wrong_answers:
+  - Nombre del nodo en el gráfico
+  - Color del nodo en el gráfico
+  - Número de mensajes en el gráfico
+explanation: |
+  Un nodo bien situado en el grafo Rayo facilita el encaminamiento a muchos destinos.
+reviewed: false

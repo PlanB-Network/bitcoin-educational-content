@@ -39,39 +39,11 @@ Tällä kurssilla keskustelemme Bitcoinin rahapoliittisista näkökohdista, kute
 
 On tärkeää ymmärtää, että Bitcoin on uusi rahajärjestelmä, joka muuttaa täysin suhteemme rahaan, joten sen käytön oppiminen on välttämätön taito kaikille, jotka haluavat hallita omia varojaan.
 
-**Osio 1 - Johdanto**  
-- Luku 1 - Kurssin yleiskatsaus  
-- Luku 2 - Bitcoinin esihistoria  
 
-**Osio 2 - Raha**  
-- Luku 3 - Raha historian aikana  
-- Luku 4 - Fiat-valuutat  
-- Luku 5 - Hyperinflaatio  
-- Luku 6 - 21 miljoonaa bitcoinia  
 
-**Osio 3 - Bitcoin-lompakot**  
-- Luku 7 - Mikä on Bitcoin-lompakko?  
-- Luku 8 - Bitcoin-lompakot ja turvallisuus  
-- Luku 9 - Lompakon käyttöönotto  
-- Luku 10 - Ajan testin läpäiseminen  
 
-**Osio 4 - Bitcoinin tekniset näkökohdat**  
-- Luku 11 - Bitcoinin käynnistäminen  
-- Luku 12 - Bitcoin-tapahtumat  
-- Luku 13 - Bitcoin-solmut  
-- Luku 14 - Louhijat  
-- Luku 15 - Bitcoin ja ekologia  
 
-**Osio 5 - Miten hankkia bitcoineja?**  
-- Luku 16 - Bitcoin ei koskaan nuku!  
-- Luku 17 - Bitcoinien ansaitseminen työn kautta  
-- Luku 18 - Säästäminen Bitcoinilla  
-- Luku 19 - Hyperbitcoinisaatio  
 
-**Osio 6 - Bitcoinin tulevaisuus: Lightning Network**  
-- Luku 20 - Lyhyt johdanto Lightning Networkiin  
-- Luku 21 - Lightning Network -käyttötapaukset  
-- Luku 22 - Punainen pilleri vai sininen pilleri?  
 
 Ennen kuin esitellään rahan määritelmä ja sen tehtävä yhteiskunnassa (luku 1), on syytä aloittaa Bitcoinin synnystä. Vuonna 2009 lanseerattu Bitcoin on suhteellisen uusi teknologia, joka eroaa kaikesta muusta. Siksi on normaalia, ettei siitä ymmärrä kaikkea kerralla. Itse asiassa, aivan kuten internetin käytön tai auton ajamisen opettelun yhteydessä, sinun ei tarvitse tietää kaikkia teknisiä yksityiskohtia heti: voit aloittaa opettelemalla, miten varoja vastaanotetaan, maksetaan ja turvataan, ja tutkia sitä sitten pienin askelin syvällisemmin.
 
@@ -717,7 +689,7 @@ Vuonna 2010, kun Bitcoin alkoi herättää huomiota tiedotusvälineissä, Satosh
 
 Joidenkin mielestä Bitcoin on määritelty sienimäiseksi kokonaisuudeksi, kuten [myseeli](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), kun taas toiset kuvaavat sitä [mustaksi aukoksi](https://dergigi.com/). Rakastetaan sitä tai vihataan sitä, Bitcoin jatkaa olemassaoloaan, ja sen jatkuva rytmi on 10 minuuttia lohkoa kohden kuin uuden rahajärjestelmän sydämen syke.
 
-Jos haluat lisätietoja Satoshi Nakamoton kirjoituksista, suosittelemme lukemaan Phil Champagnen kirjoittaman ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) tai ARTE:n dokumentin "Le mystaire Satoshi".
+Satoshi Nakamoton kirjoituksiin syventymiseksi suosittelen Phil Champagnen teosta [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30), joka kokoaa ja kontekstualisoi hänen keskeiset tekstinsä, sekä ARTE:n dokumenttia [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), joka tarjoaa helposti lähestyttävän ja hyvin dokumentoidun tutkinnan hänen identiteetistään ja perinnöstään.
 
 ![image](assets/fi/044.webp)
 

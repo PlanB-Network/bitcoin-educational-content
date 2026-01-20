@@ -1,0 +1,9 @@
+question: Dlaczego przywracanie starego channel.db jest niebezpieczne?
+answer: Ryzyko związane z karą
+wrong_answers:
+  - Utrata seed
+  - Plotkarska korupcja
+  - Blokowanie routingu
+explanation: |
+  Nieaktualny stan może zostać zinterpretowany jako próba oszustwa i skutkować utratą funduszy kanału.
+reviewed: false

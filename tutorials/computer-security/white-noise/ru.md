@@ -53,16 +53,17 @@ MLS (Messaging Layer Security), с другой стороны, представ
 
 
 
-| Points de comparaisons      | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
-| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
-| Chiffrement E2EE / 1:1      | ✅ Oui       | Facultatif | ✅ Oui           | ✅ Oui   | ✅ Oui    | ✅ Oui            | ✅ Oui  |
-| Chiffrement de groupe E2EE  | ✅ Oui       | ❌ Non      | ✅ Oui           | ✅ Oui   | ✅ Oui    | Facultatif       | ✅ Oui  |
-| Anonymisation de l'identité | ✅ Oui       | Facultatif | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Serveur open source         | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Client open source          | ✅ Oui       | ✅ Oui      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Serveur décentralisé        | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Année de création           | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
+
+| Пункты сравнения            | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| Шифрование E2EE / 1:1       | ✅ Да         | Опционально| ✅ Да             | ✅ Да    | ✅ Да     | ✅ Да              | ✅ Да   |
+| Групповое шифрование E2EE   | ✅ Да         | ❌ Нет      | ✅ Да             | ✅ Да    | ✅ Да     | Опционально       | ✅ Да   |
+| Анонимизация личности       | ✅ Да         | Опционально| ❌ Нет            | ✅ Да    | ❌ Нет    | ❌ Нет             | ❌ Нет  |
+| Сервер с открытым исходным кодом| ✅ Да    | ❌ Нет      | ❌ Нет            | ✅ Да    | ❌ Нет    | ❌ Нет             | ✅ Да   |
+| Клиент с открытым исходным кодом| ✅ Да    | ✅ Да        | ❌ Нет            | ✅ Да    | ❌ Нет    | ❌ Нет             | ✅ Да   |
+| Децентрализованный сервер   | ✅ Да         | ❌ Нет      | ❌ Нет            | ✅ Да    | ❌ Нет    | ❌ Нет             | ❌ Нет  |
+| Год создания                | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
 ## Начало работы с White Noise
 

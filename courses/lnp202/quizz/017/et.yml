@@ -1,0 +1,9 @@
+question: Mida kujutab endast LND rakendusliideses kuvatav Lightning wallet saldo?
+answer: Väljamineva likviidsuse summa
+wrong_answers:
+  - Onchains summa
+  - Sissetuleva likviidsuse summa
+  - Kanali võimsuste summa
+explanation: |
+  Välkkiiruse saldo vastab kanalite kaudu kulutamiseks saadaolevale sats, st kõikide sõlme kanalite väljamineva likviidsuse summa.
+reviewed: false

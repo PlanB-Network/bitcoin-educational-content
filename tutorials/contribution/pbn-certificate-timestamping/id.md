@@ -70,7 +70,7 @@ Pertama, buka terminal di folder tempat file-file tersebut berada (klik kanan pa
 1. Paket Impor ₿ Kunci PGP publik jaringan dengan perintah berikut:
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
 ```
 
 Anda akan melihat pesan seperti berikut ini jika Anda berhasil mengimpor Kunci PGP

@@ -53,16 +53,17 @@ https://planb.academy/tutorials/node/others/nostr-f6d21a64-9b04-4f21-ba1c-02c98c
 
 
 
-| Points de comparaisons      | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
-| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
-| Chiffrement E2EE / 1:1      | ✅ Oui       | Facultatif | ✅ Oui           | ✅ Oui   | ✅ Oui    | ✅ Oui            | ✅ Oui  |
-| Chiffrement de groupe E2EE  | ✅ Oui       | ❌ Non      | ✅ Oui           | ✅ Oui   | ✅ Oui    | Facultatif       | ✅ Oui  |
-| Anonymisation de l'identité | ✅ Oui       | Facultatif | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Serveur open source         | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Client open source          | ✅ Oui       | ✅ Oui      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Serveur décentralisé        | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Année de création           | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
+
+| 비교 항목                   | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| E2EE 암호화 / 1:1           | ✅ 예         | 선택 사항 | ✅ 예             | ✅ 예    | ✅ 예     | ✅ 예              | ✅ 예   |
+| 그룹 E2EE 암호화            | ✅ 예         | ❌ 아니요   | ✅ 예             | ✅ 예    | ✅ 예     | 선택 사항         | ✅ 예   |
+| 신원 익명화                 | ✅ 예         | 선택 사항 | ❌ 아니요         | ✅ 예    | ❌ 아니요 | ❌ 아니요          | ❌ 아니요|
+| 오픈 소스 서버              | ✅ 예         | ❌ 아니요   | ❌ 아니요         | ✅ 예    | ❌ 아니요 | ❌ 아니요          | ✅ 예   |
+| 오픈 소스 클라이언트        | ✅ 예         | ✅ 예        | ❌ 아니요         | ✅ 예    | ❌ 아니요 | ❌ 아니요          | ✅ 예   |
+| 분산형 서버                 | ✅ 예         | ❌ 아니요   | ❌ 아니요         | ✅ 예    | ❌ 아니요 | ❌ 아니요          | ❌ 아니요|
+| 생성 연도                   | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
 ## White Noise 시작하기
 

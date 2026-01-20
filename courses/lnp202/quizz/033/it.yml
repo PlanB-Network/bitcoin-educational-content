@@ -1,0 +1,9 @@
+question: Quale di questi strumenti non identifica i peer rilevanti su Lightning?
+answer: Electrum
+wrong_answers:
+  - Terminale per lightning
+  - Amboss
+  - 1ML
+explanation: |
+  Electrum non è un Lightning explorer per ottenere informazioni sui nodi di rete. Gli altri tre strumenti, invece, svolgono bene questa funzione.
+reviewed: false

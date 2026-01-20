@@ -1,0 +1,9 @@
+question: 라이트닝에 가장 적합한 채널 폐쇄는 무엇인가요?
+answer: 협동조합 폐쇄
+wrong_answers:
+  - 강제 종료
+  - 부정 행위로 마감하기
+  - Watchtower 폐쇄
+explanation: |
+  협동 결제가 더 빠르며 온체인 수수료를 선택할 수 있습니다.
+reviewed: false

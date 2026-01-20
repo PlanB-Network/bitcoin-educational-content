@@ -39,40 +39,6 @@ In this course, we will discuss some monetary aspects of Bitcoin, including how 
 
 It is essential to understand that Bitcoin is a new monetary system that completely changes our relationship with money, so learning how to use it is a necessary skill for anyone who wants to be in control of their own funds.
 
-**Section 1 - Introduction**  
-- Chapter 1 - Course Overview  
-- Chapter 2 - The Prehistory of Bitcoin  
-
-**Section 2 - Money**  
-- Chapter 3 - Money Throughout History  
-- Chapter 4 - Fiat Currencies  
-- Chapter 5 - Hyperinflation  
-- Chapter 6 - 21 Million Bitcoins  
-
-**Section 3 - Bitcoin Wallets**  
-- Chapter 7 - What is a Bitcoin Wallet?  
-- Chapter 8 - Bitcoin Wallets and Security  
-- Chapter 9 - Setting Up a Wallet  
-- Chapter 10 - Standing the Test of Time  
-
-**Section 4 - The Technical Aspects of Bitcoin**  
-- Chapter 11 - Launching Bitcoin  
-- Chapter 12 - Bitcoin Transactions  
-- Chapter 13 - Bitcoin Nodes  
-- Chapter 14 - Miners  
-- Chapter 15 - Bitcoin and Ecology  
-
-**Section 5 - How to Obtain Bitcoins?**  
-- Chapter 16 - Bitcoin Never Sleeps!  
-- Chapter 17 - Earning Bitcoins Through Work  
-- Chapter 18 - Saving with Bitcoin  
-- Chapter 19 - Hyperbitcoinization  
-
-**Section 6 - The Future of Bitcoin: The Lightning Network**  
-- Chapter 20 - A Brief Introduction to the Lightning Network  
-- Chapter 21 - Lightning Network Use Cases  
-- Chapter 22 - Red Pill or Blue Pill?  
-
 Before introducing the definition of money and its function in society (Chapter 1), we should start from the genesis of Bitcoin. Launched in 2009, Bitcoin is a relatively new technology unlike anything else. It is therefore normal not to understand everything about it, all at once. In fact, just like when learning how to use the Internet or to drive a car, you don’t need to know all the technical details right away: you can start by learning how to receive, pay, and secure your funds, and then take small steps to study it more deeply.
 
 After all, we are only at the beginning stages of its adoption, as we have passed the takeoff phase: you are just in time to acquire as much knowledge as you wish regarding this important innovation.
@@ -264,7 +230,7 @@ https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
 
 <chapterId>b04c024c-54f3-50cb-997f-58721cfc74be</chapterId>
 
-Hyperinflation is a monetary phenomenon that is specific to fiat currencies: it is charterized by a complete loss of confidence in a currency and a drastic increase in inflation due to monetary printing by authorities. As a result, the savings accumulated by individuals can dissipate in a relatively short period of time, pushing the country on the brink of economic, social, and political collapse.
+Hyperinflation is a monetary phenomenon that is specific to fiat currencies: it is characterized by a complete loss of confidence in a currency and a drastic increase in inflation due to monetary printing by authorities. As a result, the savings accumulated by individuals can dissipate in a relatively short period of time, pushing the country on the brink of economic, social, and political collapse.
 
 ### Inflation running wild!
 
@@ -716,7 +682,7 @@ Despite Satoshi's absence, Bitcoin continued to be developed: the history of Bit
 
 For some, Bitcoin is a defined as fungal entity like a [mycelium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), while others describe it as a [black hole](https://dergigi.com/). Love it or hate it, Bitcoin continues to exist, with its constant rhythm of 10 minutes per block, like the heartbeat of a new monetary system.
 
-To learn more about Satoshi Nakamoto's writings, we recommend reading ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) by Phil Champagne or the ARTE documentary "Le mystaire Satoshi".
+To delve deeper into the writings of Satoshi Nakamoto, I recommend reading [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) by Phil Champagne, which brings together and contextualizes his main texts, as well as the ARTE documentary [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), which offers an accessible and well-documented investigation into his identity and legacy.
 
 ![image](assets/en/044.webp)
 

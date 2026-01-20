@@ -55,56 +55,28 @@ Muri kino cigwa, turaza kuganira ubuhinga bumwebumwe bwa Bitcoin, harimwo nigute
 Ni ngirakamaro gutahurako Bitcoin ari uburyo bw'amafaranga bushasha bwashoboye guhindura imigenderanire yacu hamwe n'amafaranga, rero kwiga uko woshobora kuyakoresha n'ubumenyi bukenewe kuri burimuntu wese ashaka kwigenzurira ubutunzi bwiwe.
 
 
-**Igice ca 1 - Intangamarara**
 
 
-- Ikigabane ca 1 - Incamake y'icigwa
-- Ikigabane ca 2 - Imbere ya kahise ka Bitcoin
 
 
-**Igice ca 2 - Amafaranga**
 
 
-- Ikigabane ca 3 - Amafaranga muri kahise kose
-- Ikigabane ca 4 - Amahera afatiye kucizere (Fiat)
-- Ikigabane ca 5 - Ukuduga kw'ibiciro birenze urugero
-- Ikigabane ca 6 - Imiriyoni 21 z'ama Bitcoins
 
 
-**Igice ca 3 - Ingodo za Bitcoins**
 
 
-- Ikigabane ca 7 - Ingodo za Bitcoin n'iki ?
-- Ikigabane ca 8 - Ingodo za Bitcoin hamwe n'umutekano
-- Ikigabane ca 9 - Gutanguza ingodo
-- Ikigabane ca 10 - Guhagarara mu kigeragezo c'igihe
 
 
-**Igice ca 4 - Ivyerekeye ubuhinga bwa Bitcoin**
 
 
-- Ikigabane ca 11 - Gutanguza Bitcoin
-- Ikigabane ca 12 - Ihanahanwa rya Bitcoin
-- Ikigabane ca 13 - Amapfundo ya Bitcoin
-- Ikigabane ca 14 - Abacukuzi
-- Ikigabane ca 15 - Bitcoin n'Ibidukikije
 
 
-**Igice ca 5 - Nigute woronka ama Bitcoins?**
 
 
-- Ikigabane ca 16 - Bitcoin ntiyigera isinzira!
-- Ikigabane ca 17 - kuronka ama Bitcoins biciye mukazi
-- Ikigabane ca 18 - kuziganya ama Bitcoins
-- Ikigabane ca 19 - Gutuma haba ama bitcoins menshi cane
 
 
-**Igice ca 6 - Kazoza ka Bitcoin: Lightning Network**
 
 
-- Ikigabane ca 20- Intangamarara ngufi ya Lightning Network
-- Igice ca 21 - Uko Lightning Network Ikoreshwa
-- Igice ca 22 - Ikinini gitukura canke Ikinini c'ubururu ?
 
 
 Imbere yo gutanga n'indangurakintu y'amafaranga hamwe n'akamaro kayo mukibano (ikigabaneca 1), dukwiye gutangurana n'amamuko ya Bitcoin. Bitcoin yatangujwe mu mwaka w’2009, n'ubuhinga bushasha cane ugereranije n'ubundi bwose . Ni ibisanzwe rero kudatahura vyose ku bijanye na yo, vyose icarimwe. Ariko, nk’uko nyene bigenda igihe wiga gukoresha Internet canke kunyonga imodoka, ntukeneye kumenya ubuhina bwose bukoreshwa : urashobora gutangura wiga ingene wokwakira, uko woriha,n'uko wokingira ubutunzibwawe, hanyuma ugatera intambwe ntoyi mukuyiga vyimbitse.
@@ -1059,7 +1031,7 @@ Naho Satoshi itahari, Bitcoin yarabandanije itera imbere: kahise ka Bitcoin kagu
 Kuri bamwe, Bitcoin isigura ikintu kibi cane  nk’[igikoko](Bitcoin-ni-igikoko-c’amahera/), mu gihe abandi bagisigura nk’[ikinogo cirirabura](https://dergigi.com/). Muyikunde canke muyanke, Bitcoin irabandanya kubaho, n’umuvuduko wayo uhoraho w’iminota 10 kuri buri nyubako, nk'itera ry'umutima ry'ugwubako rusha rw'tunganywa ry'amahera.
 
 
-Ushaka kwiga vyinshi vyerekeye inyandiko za Satoshi Nakamoto, turaguhanura gusoma ["Igitabo ca Satoshi"] ca Phil Champagne canke inyandiko ya ARTE "Le mystaire Satoshi".
+Kugira ngo wimbitse inyandiko za Satoshi Nakamoto, ndagusaba gusoma [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) ya Phil Champagne, ikusanya ikanashyira mu miterere inyandiko ziwe nyamukuru, hamwe n’inyandiko ndangamuntu ya ARTE [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), itanga iperereza ryoroshe kandi ryanditswe neza ku bijanye n’akaranga kiwe n’iragi ryiwe.
 
 
 ![image](assets/rn/044.webp)

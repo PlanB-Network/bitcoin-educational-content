@@ -1,0 +1,9 @@
+question: Koja rešenja vam omogućavaju da pokrenete pravi Lightning čvor na mobilnim telefonima?
+answer: Ugrađeni LN čvor
+wrong_answers:
+  - Custodial Lightning wallet
+  - Munja atomski zamena
+  - Federisani kanali
+explanation: |
+  Rešenja kao što su Phoenix ili Zeus Embedded ugrađuju pravi Lightning čvor direktno u aplikaciju.
+reviewed: false

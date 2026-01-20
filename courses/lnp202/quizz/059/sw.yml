@@ -1,0 +1,9 @@
+question: Ni programu gani kati ya hizi za simu zinazoendana na miunganisho ya NWC?
+answer: Alby Go
+wrong_answers:
+  - Phoenix
+  - Wallet of Satoshi
+  - Muun
+explanation: |
+  Miongoni mwa mapendekezo hayo, ni Alby Go pekee inayoendana na NWC, ingawa programu zingine kama Zeus pia zinaendana.
+reviewed: false

@@ -1,9 +1,9 @@
-question: Qual è il rischio principale rappresentato dall'accumulo di Dust nel vostro mini-PC?
+question: Qual è il rischio principale rappresentato dall'accumulo di polvere nel vostro mini-PC?
 answer: Strozzatura del processore
 wrong_answers:
-  - Eliminazione del blocco Blockchain
+  - Eliminazione del blocco blockchain
   - Corruzione del disco
   - Capacità RAM ridotta
 explanation: |
-  Il Dust blocca la ventilazione, provoca il surriscaldamento e porta al throttling, riducendo l'efficienza del processore.
+  La polvere blocca la ventilazione, provoca il surriscaldamento e porta al throttling, riducendo l'efficienza del processore.
 reviewed: true

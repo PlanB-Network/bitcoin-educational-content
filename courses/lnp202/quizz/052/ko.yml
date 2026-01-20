@@ -1,0 +1,9 @@
+question: Tailscale 사용과 관련하여 Android에서 언급된 구체적인 제약 사항은 무엇인가요?
+answer: 한 번에 하나의 VPN
+wrong_answers:
+  - VPN을 위한 블루투스 필수
+  - DNS-over-HTTPS 비호환
+  - 휴대폰 루트가 필요합니다
+explanation: |
+  Android에서는 두 개의 VPN을 동시에 사용할 수 없으므로, Tailscale을 사용하기 전에 다른 활성 VPN을 모두 비활성화해야 합니다.
+reviewed: false

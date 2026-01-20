@@ -1,0 +1,9 @@
+question: ¿Por qué es difícil rentabilizar el enrutamiento en Lightning?
+answer: Costes y competencia
+wrong_answers:
+  - Límite del canal
+  - Ninguna solicitud
+  - Falta de liquidez mundial
+explanation: |
+  Los costes de la cadena, la competencia y los requisitos operativos hacen que la rentabilidad del negocio de las rutas sea incierta.
+reviewed: false

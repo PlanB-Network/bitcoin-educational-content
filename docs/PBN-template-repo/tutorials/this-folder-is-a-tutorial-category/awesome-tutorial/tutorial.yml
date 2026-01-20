@@ -2,7 +2,9 @@
 # generate a random uuid v4
 id: bf76be99-bf95-4606-8103-e7a072839ee9
 
-# Characteristic of tutorial
+# insert when the tutorial received a big content update, see below
+# 2 options avilable: the date of first publication, the date of last relevant edit
+last_update_date: YYYY-MM-DD
 
 # Project
 # Write the project name
@@ -83,8 +85,6 @@ license: CC-BY-SA-V4
 # - urgency: level of urgency from 1 (low urgency) to X (high urgency)
 # - contributor_names: list of contributors PBN ids
 # - reward: amount of sats available for reward
-licence: CC-BY-SA-V4
-
 original_language: en
 proofreading:
   - language: en

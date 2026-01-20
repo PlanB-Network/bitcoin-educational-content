@@ -53,16 +53,17 @@ Siin on kiire võrdlus White Noise ja mitmete tuntuimate sõnumivahetuse rakendu
 
 
 
-| Points de comparaisons      | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
-| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
-| Chiffrement E2EE / 1:1      | ✅ Oui       | Facultatif | ✅ Oui           | ✅ Oui   | ✅ Oui    | ✅ Oui            | ✅ Oui  |
-| Chiffrement de groupe E2EE  | ✅ Oui       | ❌ Non      | ✅ Oui           | ✅ Oui   | ✅ Oui    | Facultatif       | ✅ Oui  |
-| Anonymisation de l'identité | ✅ Oui       | Facultatif | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Serveur open source         | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Client open source          | ✅ Oui       | ✅ Oui      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ✅ Oui  |
-| Serveur décentralisé        | ✅ Oui       | ❌ Non      | ❌ Non           | ✅ Oui   | ❌ Non    | ❌ Non            | ❌ Non  |
-| Année de création           | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
+
+| Võrdluspunktid              | White Noise | Telegram   | Whatsapp (Meta) | Bitchat | iMessage | Messenger (Meta) | Signal |
+| --------------------------- | ----------- | ---------- | --------------- | ------- | -------- | ---------------- | ------ |
+| E2EE krüpteerimine / 1:1    | ✅ Jah        | Valikuline | ✅ Jah            | ✅ Jah   | ✅ Jah    | ✅ Jah             | ✅ Jah  |
+| Grupipõhine E2EE krüpteerimine| ✅ Jah       | ❌ Ei       | ✅ Jah            | ✅ Jah   | ✅ Jah    | Valikuline        | ✅ Jah  |
+| Identiteedi anonümiseerimine| ✅ Jah        | Valikuline | ❌ Ei             | ✅ Jah   | ❌ Ei     | ❌ Ei              | ❌ Ei   |
+| Avatud lähtekoodiga server  | ✅ Jah        | ❌ Ei       | ❌ Ei             | ✅ Jah   | ❌ Ei     | ❌ Ei              | ✅ Jah  |
+| Avatud lähtekoodiga klient  | ✅ Jah        | ✅ Jah       | ❌ Ei             | ✅ Jah   | ❌ Ei     | ❌ Ei              | ✅ Jah  |
+| Detsentraliseeritud server  | ✅ Jah        | ❌ Ei       | ❌ Ei             | ✅ Jah   | ❌ Ei     | ❌ Ei              | ❌ Ei   |
+| Loomise aasta               | 2025        | 2013       | 2009            | 2025    | 2011     | 2011             | 2014   |
 
 ## White Noise kasutamise alustamine
 

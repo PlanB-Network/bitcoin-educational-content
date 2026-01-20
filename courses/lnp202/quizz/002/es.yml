@@ -1,0 +1,9 @@
+question: Desde el punto de vista de Bitcoin onchain, ¿qué es un canal Lightning?
+answer: Multisignaturaleza salida 2/2
+wrong_answers:
+  - Guión P2MS 2/2
+  - UTXO individual
+  - Contrato federado
+explanation: |
+  Onchain, un canal Lightning se representa mediante una salida multifirma que requiere las firmas de ambos participantes.
+reviewed: false

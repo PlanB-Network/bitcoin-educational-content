@@ -1,0 +1,9 @@
+question: Milline samm järgneb kohe NWC taotluse avaldamisele mobiilirakenduse poolt relees?
+answer: Sõlm dekrüpteerib ja kontrollib autoriseerimist
+wrong_answers:
+  - Edasisaatja allkirjastab sõlme taotluse
+  - Relee teostab makse LND kohta
+  - Sõlm avab kanali automaatselt
+explanation: |
+  Sõlm loeb sündmuse, dekrüpteerib selle ja kontrollib enne tegevuse täitmist, kas autor on autoriseeritud.
+reviewed: false

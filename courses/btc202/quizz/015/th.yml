@@ -1,7 +1,7 @@
 question: ทางเลือกหลักในการใช้งาน Bitcoin Core คืออะไร?
 answer: Bitcoin Knots
 wrong_answers:
-  - Bitcoin เงินสด
+  - Bitcoin Cash
   - BTCD
   - Bcoin
 explanation: |

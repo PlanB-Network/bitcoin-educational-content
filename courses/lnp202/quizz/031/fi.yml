@@ -1,0 +1,9 @@
+question: Mitä Lightning-solmun solmutunnus tarkoittaa?
+answer: Solmun julkinen avain ja osoite
+wrong_answers:
+  - Solmu seed ja osoite
+  - Solmun alias ja julkinen avain
+  - Hash-solmun alias ja seed
+explanation: |
+  Solmutunnus yhdistää solmun julkisen avaimen, verkko-osoitteen ja portin.
+reviewed: false

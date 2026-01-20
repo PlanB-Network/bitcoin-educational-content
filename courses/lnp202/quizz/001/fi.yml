@@ -1,0 +1,9 @@
+question: Mikä mekanismi estää vanhan salamakanavan tilan vapauttamisen?
+answer: Peruutusavain
+wrong_answers:
+  - Transaktiomaksut
+  - Absoluuttiset kellot
+  - Verkon juorut
+explanation: |
+  Peruutusavaimia käytetään rankaisemaan solmua, joka yrittää julkaista vanhan kanavan tilan.
+reviewed: false

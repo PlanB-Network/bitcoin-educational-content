@@ -328,7 +328,7 @@ Miner 需要 Bitcoin 節點才能與網路互動。
 
 
 
-Miner 的角色有時亦會與剁肉機有所區別。剁手機的任務是 Hash 模版區塊，由池的伺服器提供，尋找滿足為股份定義的難度目標的哈希值，而不是 Bitcoin 的哈希值。Mining 程序的其餘部分，包括實際區塊建構、交易選擇或根據 Bitcoin 本身的難度進行 Proof-of-Work 搜尋，以及分發，則直接由池執行。
+Miner 的角色有時亦會與grind有所區別。grind的任務是 Hash 模版區塊，由池的伺服器提供，尋找滿足為股份定義的難度目標的哈希值，而不是 Bitcoin 的哈希值。Mining 程序的其餘部分，包括實際區塊建構、交易選擇或根據 Bitcoin 本身的難度進行 Proof-of-Work 搜尋，以及分發，則直接由池執行。
 
 
 
@@ -2514,9 +2514,11 @@ https://planb.academy/tutorials/node/lightning-network/thunderhub-16909a39-2484-
 
 
 
-感謝 Umbrel，個人 Lightning 節點的管理已大大簡化，但仍相對複雜。基於這個原因，我們將在未來的課程中更仔細地探討這個主題。
+得益於 Umbrel，個人 Lightning 節點的管理得以簡化，但仍然相對複雜。因此，我建議您修讀 LNP 202 課程，該課程是 BTC 202 課程的邏輯延續，並在其中我將一步一步地指導您在 Umbrel 上部署與管理您的 Lightning 節點。
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### 尾尺
 
@@ -3894,11 +3896,13 @@ Full node 透過接受傳入的連線，為網路增加更多的價值。listen=
 
 
 
-現在您有多種選擇。下一個合乎邏輯的步驟是建立您自己的 Lightning 節點，讓您的 off-chain 交易完全獨立。這將是 2025 年秋季出版的 Plan ₿ Academy 課程的主題。
+現在您面前有多種選擇。下一個合乎邏輯的步驟是建立您自己的 Lightning 節點，以便在鏈下交易中實現完全的獨立性。這正是 Plan ₿ Academy 另一門課程的主題：
 
 
 
-與此同時，我邀請您探索 BTC 204 培訓，讓您在使用 Bitcoin 的過程中了解並掌握隱私權保護的原則：
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+我也邀請您了解 BTC 204 課程，該課程將幫助您理解並掌握在使用比特幣時的隱私保護原則：
 
 
 

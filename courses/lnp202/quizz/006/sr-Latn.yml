@@ -1,0 +1,9 @@
+question: Kakav je finansijski rizik sa kustodijalnim Lightning wallet?
+answer: Frakcionalne rezerve
+wrong_answers:
+  - Samovoljno povećanje naknada za mining
+  - 51% napad
+  - Definitivni kraj medveđeg tržišta
+explanation: |
+  Korisnik ne može da verifikuje da prikazani saldi zaista odgovaraju bitkoinima koji se drže. Stoga postoji rizik od frakcionih rezervi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: NWCプロトコルでは、アプリケーションとノード間のリクエスト伝送にどのようなメカニズムが使われていますか？
+answer: Nostrリレーでの出来事
+wrong_answers:
+  - LNDへの直接RESTコール
+  - ポイント・ツー・ポイントVPN接続
+  - 暗号化されたDNSリクエスト
+explanation: |
+  リクエストは暗号化され、Nostrリレー上でイベントとして発行され、ノードはそれを読み込んでアクションを実行する。
+reviewed: false

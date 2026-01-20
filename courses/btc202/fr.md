@@ -1249,7 +1249,9 @@ Enfin, je vous recommande l’application *Lightning Network+*, qui permet de tr
 
 ![Image](assets/fr/089.webp)
 
-Grâce à Umbrel, la gestion d’un nœud Lightning personnel est grandement simplifiée, mais elle demeure malgré tout relativement complexe. C’est pourquoi nous aborderons ce sujet en profondeur dans un prochain cours entièrement consacré à cet usage.
+Grâce à Umbrel, la gestion d’un nœud Lightning personnel est simplifiée, mais elle reste néanmoins relativement complexe. C’est pourquoi je vous recommande de suivre le cours LNP 202, qui constitue la suite logique de ce cours BTC 202, et dans lequel je vous accompagne pas à pas dans la mise en place et la gestion de votre nœud Lightning sur Umbrel.
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Tailscale
 
@@ -1889,9 +1891,11 @@ Nous arrivons à la conclusion de ce cours BTC 202, qui vous aura permis non seu
 
 Vous pouvez à présent passer à la partie finale du cours, où vous pourrez évaluer BTC 202, puis passer votre diplôme pour vérifier que toutes les notions abordées sont bien acquises.
 
-Plusieurs chemins s’offrent maintenant à vous. La prochaine étape logique consiste à mettre en place votre propre nœud Lightning, afin d’être entièrement indépendant pour vos transactions off-chain. Ce sera le sujet d’une formation à venir, qui sera publiée cet automne 2025 sur Plan ₿ Academy.
+Plusieurs chemins s’offrent maintenant à vous. La prochaine étape logique consiste à mettre en place votre propre nœud Lightning, afin d’être entièrement indépendant pour vos transactions off-chain. C'est justement le sujet d'un autre cours sur Plan ₿ Academy :
 
-En attendant, je vous invite à découvrir la formation BTC 204, qui vous permettra de comprendre et de maîtriser les principes de protection de la vie privée dans votre utilisation de Bitcoin :
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Je vous invite également à découvrir la formation BTC 204, qui vous permettra de comprendre et de maîtriser les principes de protection de la vie privée dans votre utilisation de Bitcoin :
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 

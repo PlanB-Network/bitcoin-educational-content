@@ -1,0 +1,9 @@
+question: Quel était le montant de la subvention de bloc au lancement de Bitcoin en 2009 ?
+answer: 50 BTC
+wrong_answers:
+  - 25 BTC
+  - 12,5 BTC
+  - 100 BTC
+explanation: |
+  La subvention initiale était de 50 BTC par bloc, avant les divisions successives.
+reviewed: false

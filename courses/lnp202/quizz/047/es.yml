@@ -1,0 +1,9 @@
+question: ¿Por qué LN+ no es adecuado para los comerciantes?
+answer: Importantes inversiones de capital
+wrong_answers:
+  - Falta de fiabilidad de los nodos implicados
+  - Sin sistema de reputación
+  - Canales demasiado pequeños
+explanation: |
+  Cada satélite entrante obtenido requiere el bloqueo de un satélite saliente, lo que limita la escalabilidad de una empresa.
+reviewed: false

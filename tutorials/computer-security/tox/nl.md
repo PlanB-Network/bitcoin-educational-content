@@ -10,25 +10,26 @@ End-to-end-encryptie is een dienst die wordt aangeboden door veel berichtenapps 
 
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
-| -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| **Tox**              | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+
+| Applicatie           | E2EE 1:1       | E2EE groepen | Anonieme registratie | Open-source clientlicentie | Open-source serverlicentie | Gedecentraliseerde server | Oprichtingsjaar |
+| -------------------- | -------------- | -------------- | -------------------- | -------------------------- | --------------------------- | ----------------------- | ---------------- |
+| WhatsApp             | ✅              | ✅              | ❌                    | ❌                          | ❌                           | ❌                       | 2009             |
+| WeChat               | ❌              | ❌              | ❌                    | ❌                          | ❌                           | ❌                       | 2011             |
+| Facebook Messenger   | ✅              | 🟡 (optioneel) | ❌                    | ❌                          | ❌                           | ❌                       | 2011             |
+| Telegram             | 🟡 (optioneel) | ❌              | 🟡                   | ✅                          | ❌                           | ❌                       | 2013             |
+| LINE                 | ✅              | ✅              | ❌                    | ❌                          | ❌                           | ❌                       | 2011             |
+| Signal               | ✅              | ✅              | ❌                    | ✅                          | ✅                           | ❌                       | 2014             |
+| Threema              | ✅              | ✅              | ✅                    | ✅                          | ❌                           | ❌                       | 2012             |
+| Element (Matrix)     | ✅              | ✅              | ✅                    | ✅                          | ✅                           | 🟡 (gefedereerd)        | 2016             |
+| Delta Chat           | ✅              | ✅              | ✅                    | ✅                          | N/A                         | 🟡 (via e-mail)         | 2017             |
+| Conversations (XMPP) | ✅              | ✅              | ✅                    | ✅                          | ✅                           | 🟡 (gefedereerd)        | 2014             |
+| Session              | ✅              | ✅              | ✅                    | ✅                          | ✅                           | ✅                       | 2020             |
+| SimpleX              | ✅              | ✅              | ✅                    | ✅                          | ✅                           | ✅                       | 2021             |
+| Olvid                | ✅              | ✅              | ✅                    | ✅                          | ❌                           | 🟡(geen directory)      | 2019             |
+| Keet                 | ✅              | ✅              | ✅                    | ❌                          | N/A                         | ✅                       | 2022             |
+| Jami                 | ✅              | ✅              | ✅                    | ✅                          | N/A                         | ✅                       | 2005             |
+| Briar                | ✅              | ✅              | ✅                    | ✅                          | N/A                         | ✅                       | 2018             |
+| **Tox**              | ✅              | ✅              | ✅                    | ✅                          | N/A                         | ✅                       | 2013             |
 
 *E2EE = End-to-endencryptie*
 

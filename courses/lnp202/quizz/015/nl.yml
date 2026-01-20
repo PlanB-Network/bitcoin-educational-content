@@ -1,0 +1,9 @@
+question: Wat kan worden aangepast in de geavanceerde instellingen van het Lightning-knooppunt?
+answer: De openbare naam van het knooppunt
+wrong_answers:
+  - Consensusregels voor knooppunten
+  - De privésleutels van het knooppunt
+  - De door het knooppunt gekozen routes
+explanation: |
+  Met geavanceerde instellingen kun je knooppuntidentificatie-elementen aanpassen zonder de consensus of de werking van het Lightning-netwerk te beïnvloeden.
+reviewed: false

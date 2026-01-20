@@ -1,0 +1,9 @@
+question: LND 애플리케이션 인터페이스에 표시되는 Lightning wallet 잔액은 무엇을 의미하나요?
+answer: 아웃바운드 유동성의 합계
+wrong_answers:
+  - 온체인 합계
+  - 인바운드 유동성의 합계
+  - 채널 용량의 합계
+explanation: |
+  라이트닝 잔액은 채널을 통해 사용할 수 있는 sats, 즉 모든 노드의 채널에서 나가는 유동성의 합에 해당합니다.
+reviewed: false

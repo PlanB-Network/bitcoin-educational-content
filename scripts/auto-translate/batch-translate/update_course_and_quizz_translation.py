@@ -12,7 +12,7 @@ class TranslationConfig:
     """Configuration class for translation settings."""
     script_dir: Path = Path(__file__).resolve().parent
     project_root: Path = script_dir.parent.parent.parent
-    excluded_subfolders: Set[str] = frozenset({'biz221' , 'biz205' , 'csv404', 'ene101', 'his203', 'lnp206', 'btc208', 'lnp404'  })  
+    excluded_subfolders: Set[str] = frozenset({'biz221' , 'biz205' , 'csv404', 'ene101', 'lnp206', 'btc208', 'lnp404', 'eco208', 'his203', 'sid402', 'sid406'  })
     to_en_dir: Path = script_dir / "translate-to-en"
     from_en_dir: Path = script_dir / "translate-from-en"
 

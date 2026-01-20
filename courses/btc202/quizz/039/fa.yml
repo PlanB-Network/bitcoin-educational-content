@@ -1,9 +1,9 @@
 question: حداقل ظرفیت SSD توصیه شده در سال 2025 برای یک نود Bitcoin چقدر است؟
-answer: ۲ تا
+answer: 2 TB
 wrong_answers:
-  - ۵۱۲ گیگابایت
-  - ۱۰ تا
-  - ۲۵۶ گیگابایت
+  - 512 GB
+  - 10 TB
+  - 256 GB
 explanation: |
   با Blockchain که بیش از 700 گیگابایت است و برنامه‌های اضافی، 2 ترابایت به حداقل معقول تبدیل شده است.
 reviewed: true

@@ -1,0 +1,9 @@
+question: Hva er den økonomiske risikoen med en depotbasert Lightning wallet?
+answer: Brøkdelsreserve
+wrong_answers:
+  - Vilkårlig økning i mining-avgifter
+  - 51 % angrep
+  - Definitivt slutt på bear-markedet
+explanation: |
+  Brukeren kan ikke verifisere at saldoen som vises, faktisk tilsvarer de bitcoins som holdes. Det er derfor en fraksjonell reserverisiko.
+reviewed: false

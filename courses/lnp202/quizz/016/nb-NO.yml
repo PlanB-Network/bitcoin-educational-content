@@ -1,0 +1,9 @@
+question: Hvilken informasjon indikerer Lightning-nodens mottakskapasitet?
+answer: Innkommende likviditet
+wrong_answers:
+  - Aktive tilkoblinger
+  - Utgående likviditet
+  - Antall blokker
+explanation: |
+  Innkommende likviditet representerer sats som noden kan motta via Lightning.
+reviewed: false

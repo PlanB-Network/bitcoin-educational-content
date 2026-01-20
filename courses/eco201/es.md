@@ -536,11 +536,7 @@ Las consecuencias de esta mala asignación incluyen crisis financieras y económ
 
 Hoy en día, el debate sobre el cálculo económico resurge principalmente en discusiones sobre energía, donde las malas inversiones impulsadas por una agenda verde son cada vez más evidentes. También surge en discusiones sobre los mercados monetarios, con los economistas austriacos señalando que la crisis de 2008, que los economistas convencionales no lograron predecir, fue un clásico ciclo de auge y caída caracterizado por una sobreinversión en el mercado inmobiliario debido a períodos prolongados de tasas de interés bajas. Además, los neo-marxistas y otras facciones socialistas propagan la idea de que la aparición de la inteligencia artificial podría resolver el problema del cálculo económico. Sin embargo, esta perspectiva se basa en una comprensión errónea del problema; el problema del cálculo económico no es una cuestión de capacidad de cómputo, sino más bien una cuestión de generar y distribuir información relacionada con la producción y la asignación de recursos. Esta información solo puede ser generada localmente por agentes con conocimientos especializados y un interés personal en el resultado. La inteligencia artificial no puede reemplazar este proceso que surge desde las decisiones individuales y, por lo tanto, no puede ayudar a los planificadores centrales a abordar el problema de asignación de recursos. Desafortunadamente, debido a un siglo de malentendidos, anticipamos una proliferación de afirmaciones de que la inteligencia artificial abrirá una nueva era de prosperidad económica liderada por planificadores centrales iluminados que, con la ayuda de la inteligencia artificial, pueden corregir los fracasos de los mercados libres.
 
-Para una aplicación concreta del problema del cálculo económico a una situación contemporánea, puedes consultar este artículo que aborda el problema de la asignación de recursos en la China moderna.
-
-> The Road to Financial Repression: China the Paper Tiger, Theo Mogenet,
-> 
-> https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
+Para una aplicación concreta del problema del cálculo económico a una situación contemporánea, puede remitirse a este artículo que trata de la asignación de recursos en la China moderna: *[The Road to Financial Repression: China the Paper Tiger](https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web)*, por Théo Mogenet.
 
 ### Conclusión
 

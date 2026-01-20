@@ -1,0 +1,9 @@
+question: Hva må en Lightning-node koble seg til?
+answer: En Bitcoin-node
+wrong_answers:
+  - En gruvearbeider
+  - En blokkutforsker
+  - En føderert server
+explanation: |
+  Lightning-noden er avhengig av en Bitcoin-node for å få tilgang til informasjon fra hovedblokkjeden.
+reviewed: false

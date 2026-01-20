@@ -1,7 +1,7 @@
-question: Qual è il rischio se un Wallet dipende da un nodo di terze parti?
+question: Qual è il rischio se un wallet dipende da un nodo di terze parti?
 answer: Rischio di sorveglianza e censura
 wrong_answers:
-  - Rischio di Double-spending automatico
+  - Rischio di double-spending automatico
   - Rischio di perdita delle chiavi private
   - Rischio di perdita e monitoraggio
 explanation: |

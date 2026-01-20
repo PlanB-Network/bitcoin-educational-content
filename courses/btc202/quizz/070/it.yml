@@ -3,7 +3,7 @@ answer: Sviluppatori di ecosistemi
 wrong_answers:
   - Fornitori di servizi Internet
   - Satoshi Nakamoto
-  - Piscine Mining
+  - Mining Pools
 explanation: |
   I semi DNS sono gestiti da sviluppatori noti (Wuille, Corallo, Dashjr, ecc.) e forniscono IP di nodi attivi per avviare le connessioni.
 reviewed: true

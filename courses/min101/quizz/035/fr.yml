@@ -1,0 +1,9 @@
+question: Depuis SegWit, où est engagé le résumé des témoins du bloc ?
+answer: Dans un output de la coinbase
+wrong_answers:
+  - Dans le scriptSig de la coinbase
+  - Dans le champs version
+  - Dans les frais de la coinbase
+explanation: |
+  SegWit utilise un engagement inscrit dans la coinbase via un output OP_RETURN.
+reviewed: false

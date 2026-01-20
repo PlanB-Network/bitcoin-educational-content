@@ -1,0 +1,9 @@
+question: Quel intervalle moyen Bitcoin vise-t-il entre chaque bloc ?
+answer: 10 minutes
+wrong_answers:
+  - 1 minute
+  - 30 minutes
+  - 60 minutes
+explanation: |
+  Le protocole vise une moyenne d’environ un bloc toutes les 10 minutes sur une période longue.
+reviewed: false

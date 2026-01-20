@@ -1,0 +1,9 @@
+question: Pourquoi la transaction coinbase se distingue-t-elle des autres transactions ?
+answer: Elle ne dépense aucun UTXO réel
+wrong_answers:
+  - Elle n’a pas de TXID
+  - Elle n’a pas d’outputs
+  - Elle n’est pas dans l’arbre de Merkle
+explanation: |
+  Son input pointe vers un UTXO fictif, ce qui permet de créer la subvention et de capter les frais.
+reviewed: false

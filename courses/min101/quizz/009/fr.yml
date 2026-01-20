@@ -1,0 +1,9 @@
+question: Qu’est-ce qu’un bloc candidat dans Bitcoin ?
+answer: Un bloc préparé par un mineur, mais pas encore valide
+wrong_answers:
+  - Un bloc validé par le réseau, mais pas encore partagé
+  - Un bloc créé par un portefeuille, mais pas encore valide
+  - Un bloc stocké dans la mempool
+explanation: |
+  Chaque mineur assemble localement un bloc candidat, avant de tenter de trouver une preuve de travail valide.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 建議使用何種裝置來確保長期累積的資金？
+answer: Hardware Wallet
+wrong_answers:
+  - Hot Wallet
+  - 閃電 Wallet
+  - Exchange 平台
+explanation: |
+  Hardware Wallet 可以離線儲存私人密碼鑰匙，長期提供大量的強化安全性。
+reviewed: false

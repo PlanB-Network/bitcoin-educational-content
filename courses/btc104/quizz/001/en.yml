@@ -1,0 +1,9 @@
+question: What device is recommended to secure long-term accumulated funds?
+answer: Hardware wallet
+wrong_answers:
+  - Hot wallet
+  - Lightning wallet
+  - Exchange platform
+explanation: |
+  A hardware wallet stores private keys offline, providing enhanced security for significant amounts over the long term.
+reviewed: false

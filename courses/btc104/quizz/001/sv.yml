@@ -1,0 +1,9 @@
+question: Vilken anordning rekommenderas för att säkra långsiktigt ackumulerade medel?
+answer: Hardware Wallet
+wrong_answers:
+  - Hot Wallet
+  - Blixt Wallet
+  - Exchange-plattform
+explanation: |
+  En Hardware Wallet lagrar privata nycklar offline, vilket ger ökad säkerhet för betydande belopp på lång sikt.
+reviewed: false

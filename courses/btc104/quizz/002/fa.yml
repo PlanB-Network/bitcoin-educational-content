@@ -1,0 +1,9 @@
+question: چرا توصیه می‌شود که به‌طور منظم وجوه را از Hot Wallet به Hardware Wallet منتقل کنید؟
+answer: برای کاهش خطر هک شدن
+wrong_answers:
+  - برای افزایش نقدینگی Wallet
+  - برای کاهش هزینه‌های تراکنش
+  - برای بهینه‌سازی حریم خصوصی UTXO
+explanation: |
+  انتقال به Hardware Wallet با ذخیره‌سازی کلیدهای خصوصی به صورت آفلاین، وجوه را ایمن می‌کند.
+reviewed: false

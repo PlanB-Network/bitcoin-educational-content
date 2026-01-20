@@ -1,0 +1,9 @@
+question: 為什麼建議定期將資金從 Hot Wallet 轉移到 Hardware Wallet？
+answer: 為了降低駭客入侵的風險
+wrong_answers:
+  - 增加 Wallet 的流動性
+  - 減少交易費用
+  - 優化 UTXO 隱私權
+explanation: |
+  轉移到 Hardware Wallet 透過離線儲存私人金鑰來確保資金安全。
+reviewed: false

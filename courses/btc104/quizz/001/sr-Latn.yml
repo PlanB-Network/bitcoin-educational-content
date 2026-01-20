@@ -1,0 +1,11 @@
+question: Šta je Wallet u kontekstu Bitcoin?
+answer: Digitalni sef za vaše bitkoine
+wrong_answers:
+  - Fizički uređaj za čuvanje bitkoina
+  - Softver za Mining bitkoine
+  - Platforma za kupovinu i prodaju bitkoina
+explanation: |
+  Sadržaj poglavlja objašnjava da su bitkoini pohranjeni u onome što se zove
+  Wallet, što je digitalni sef za vaš novac. Samo vlasnik ključa može pristupiti
+  njemu.
+reviewed: false

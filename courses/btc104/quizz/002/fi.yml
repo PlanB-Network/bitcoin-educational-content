@@ -1,0 +1,9 @@
+question: Miksi on suositeltavaa siirtää varoja säännöllisesti Hot Wallet:stä Hardware Wallet:een?
+answer: Hakkeroinnin riskin vähentäminen
+wrong_answers:
+  - Wallet:n likviditeetin lisääminen
+  - Transaktiomaksujen vähentäminen
+  - UTXO:n yksityisyyden optimointi
+explanation: |
+  Siirtäminen Hardware Wallet:een turvaa varat tallentamalla yksityiset avaimet offline-tilassa.
+reviewed: false

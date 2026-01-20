@@ -1,0 +1,9 @@
+question: Koja je glavna uloga Bitcoin Core developera?
+answer: Oni su odgovorni za glavni razvoj Bitcoin protokola i njegovih osnovnih funkcija.
+wrong_answers:
+  - Oni kontrolišu Bitcoin mrežu
+  - Oni stvaraju nove bitkoine
+  - Oni regulišu cenu Bitcoin
+explanation: |
+  Sadržaj poglavlja objašnjava da su Bitcoin Core developeri odgovorni za glavnu razvojnu fazu Bitcoin protokola i njegovih osnovnih funkcija. Oni ne kontrolišu Bitcoin mrežu, ne stvaraju nove bitkoine, niti regulišu cenu Bitcoin.
+reviewed: false

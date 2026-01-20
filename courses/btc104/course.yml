@@ -1,0 +1,30 @@
+id: 8b4e6c2a-1d9f-5e3b-7a0c-4f2d8e6a9b1c
+topic: bitcoin
+subtopic: security
+type: theory
+level: beginner
+hours: 2
+teaching_format: self_paced
+
+professors_id:
+  - 2e1b5182-567e-453a-af29-36009340ff02
+
+contributor_names:
+  - Plan B Network
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0
+
+tags:
+  - bitcoin
+  - security
+  - wallet
+  - self-custody
+  - seed-phrase
+  - backup
+  - beginner

@@ -1,0 +1,9 @@
+question: Apa saja yang harus dihindari untuk memastikan keamanan bitcoin Anda?
+answer: Menyimpan bitcoin Anda di platform Exchange
+wrong_answers:
+  - Menggunakan Hardware Wallet sumber terbuka
+  - Menggunakan Hot Wallet untuk transaksi harian
+  - Diversifikasi metode penyimpanan
+explanation: |
+  Prinsip "Bukan kunci Anda, bukan bitcoin Anda" menyoroti pentingnya memegang kunci pribadi Anda sendiri. Pada platform Exchange, bitcoin Anda terekspos pada risiko yang tidak perlu.
+reviewed: false

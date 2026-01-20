@@ -1,0 +1,9 @@
+question: Mengapa disarankan untuk mentransfer dana secara teratur dari Hot Wallet ke Hardware Wallet?
+answer: Untuk mengurangi risiko peretasan
+wrong_answers:
+  - Untuk meningkatkan likuiditas Wallet
+  - Untuk mengurangi biaya transaksi
+  - Untuk mengoptimalkan privasi UTXO
+explanation: |
+  Mentransfer ke Hardware Wallet mengamankan dana dengan menyimpan kunci pribadi secara offline.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 为了确保比特币的安全，应该绝对避免什么？
+answer: 将比特币保存在 Exchange 平台上
+wrong_answers:
+  - 使用开源 Hardware Wallet
+  - 使用 Hot Wallet 进行日常交易
+  - 存储方式多样化
+explanation: |
+  不是你的密钥，就不是你的比特币 "这一原则强调了持有自己私钥的重要性。在 Exchange 平台上，您的比特币会面临不必要的风险。
+reviewed: false

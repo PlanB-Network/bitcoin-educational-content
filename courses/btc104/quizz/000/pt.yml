@@ -1,0 +1,9 @@
+question: O que deve ser absolutamente evitado para garantir a segurança dos seus bitcoins?
+answer: Manter os seus bitcoins numa plataforma Exchange
+wrong_answers:
+  - Utilizar um Hardware Wallet de código aberto
+  - Utilização de um Hot Wallet para transacções diárias
+  - Diversificação dos métodos de armazenagem
+explanation: |
+  O princípio "Not your keys, not your bitcoins" sublinha a importância de possuir as suas próprias chaves privadas. Numa plataforma Exchange, os seus bitcoins estão expostos a riscos desnecessários.
+reviewed: false

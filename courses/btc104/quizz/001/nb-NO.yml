@@ -1,0 +1,9 @@
+question: Hvilken enhet anbefales for å sikre langsiktige akkumulerte midler?
+answer: Hardware Wallet
+wrong_answers:
+  - Hot Wallet
+  - Lyn Wallet
+  - Exchange-plattformen
+explanation: |
+  En Hardware Wallet lagrer private nøkler offline, noe som gir økt sikkerhet for betydelige beløp på lang sikt.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Miks on soovitatav regulaarselt kanda raha Hot Wallet-st Hardware Wallet-sse?
+answer: Häkkimisohu vähendamiseks
+wrong_answers:
+  - Wallet likviidsuse suurendamiseks
+  - Tehingutasude vähendamiseks
+  - UTXO privaatsuse optimeerimiseks
+explanation: |
+  Ülekandmine Hardware Wallet-le kindlustab raha, salvestades privaatvõtmed võrguühenduseta.
+reviewed: false

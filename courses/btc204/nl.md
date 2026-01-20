@@ -4735,7 +4735,7 @@ TLS is verantwoordelijk voor de `s` in `https` en het hangslotje in de adresbalk
 ### De kennisgevingstransactie
 
 
-Zoals we in de vorige sectie zagen, is ECDH een variant van de Diffie-Hellman exchange waarbij sleutelparen op een elliptische curve worden gebruikt. Het is maar goed dat we al veel sleutelparen hebben die aan deze standaard voldoen in onze Bitcoin portemonnees! Het idee van BIP47 is om de sleutelparen van de hiërarchische deterministische Bitcoin wallets van beide partijen te gebruiken om gedeelde, kortstondige geheimen tussen hen vast te stellen. BIP47 gebruikt in plaats daarvan ECDHE (*Elliptic Curve Diffie-Hellman **Ephemeral***).
+Zoals we in de vorige sectie zagen, is ECDH een variant van de Diffie-Hellman-uitwisseling waarbij sleutelparen op een elliptische curve worden gebruikt. Het is maar goed dat we al veel sleutelparen hebben die aan deze standaard voldoen in onze Bitcoin-wallets! Het idee van BIP47 is om de sleutelparen van de hiërarchisch deterministische Bitcoin-wallets van beide partijen te gebruiken om gedeelde, kortstondige geheimen tussen hen vast te stellen. BIP47 gebruikt in plaats daarvan ECDHE (*Elliptic Curve Diffie-Hellman **Ephemeral***).
 
 
 ![BTC204](assets/nl/229.webp)
@@ -4744,7 +4744,7 @@ Zoals we in de vorige sectie zagen, is ECDH een variant van de Diffie-Hellman ex
 ECDHE wordt voor het eerst gebruikt in BIP47 om de betaalcode van de verzender naar de ontvanger te sturen. Dit is de beroemde **notificatietransactie**. Deze stap is essentieel omdat BIP47 alleen effectief kan werken als beide betrokken partijen (verzender en ontvanger) elkaars betaalcodes kennen. Deze kennis maakt het mogelijk om efemere publieke sleutels af te leiden en dus ook de bijbehorende lege ontvangstadressen.
 
 
-Voorafgaand hieraan exchange is de verzender logischerwijs al op de hoogte van de betaalcode van de ontvanger, omdat hij deze off-chain heeft opgehaald van bijvoorbeeld zijn of haar website, Invoice of sociale netwerken. De ontvanger is echter niet noodzakelijkerwijs op de hoogte van de betaalcode van de verzender. De code moet echter wel aan hem worden doorgegeven, anders kan hij niet de efemere sleutels afleiden die nodig zijn om de adressen te identificeren waar zijn bitcoins zijn opgeslagen, of toegang krijgen tot zijn geld. Hoewel deze overdracht van de code van de verzender technisch off-chain kan worden uitgevoerd via andere communicatiemiddelen, levert dit een probleem op als de wallet alleen moet worden opgehaald uit de seed.
+Voorafgaand aan deze uitwisseling is de verzender logischerwijs al op de hoogte van de betaalcode van de ontvanger, omdat hij deze off-chain heeft opgehaald van bijvoorbeeld zijn of haar website, factuur of sociale netwerken. De ontvanger is echter niet noodzakelijkerwijs op de hoogte van de betaalcode van de verzender. De code moet echter wel aan hem worden doorgegeven, anders kan hij de efemere sleutels niet afleiden die nodig zijn om de adressen te identificeren waar zijn bitcoins zijn opgeslagen, of toegang krijgen tot zijn geld. Hoewel deze overdracht van de code van de verzender technisch off-chain kan worden uitgevoerd via andere communicatiemiddelen, levert dit een probleem op als de wallet moet  verkregen worden van de seed alleen.
 
 
 Dit komt omdat, in tegenstelling tot conventionele adressen, BIP47-adressen niet direct worden afgeleid van de seed van de ontvanger - het gebruik van een `xpub` zou in dit geval eenvoudiger zijn - maar het resultaat zijn van een berekening die de twee betaalcodes combineert: die van de verzender en die van de ontvanger. Dus, als de ontvanger zijn wallet verliest en het probeert te herstellen vanuit zijn seed, zal hij zijn eigen betalingscode terugkrijgen, die direct is afgeleid van zijn seed. Om efemere adressen terug te krijgen, heeft hij echter ook de betaalcodes nodig van iedereen die hem bitcoins heeft gestuurd via BIP47. Vandaar het belang van de kennisgevingstransactie, die het mogelijk maakt om deze informatie op te slaan op de Bitcoin blockchain, terwijl het nog steeds mogelijk is om het heel gemakkelijk terug te vinden zonder te hoeven zoeken in de miljard transacties die zijn uitgevoerd sinds de lancering in 2009.
@@ -4753,19 +4753,19 @@ Dit komt omdat, in tegenstelling tot conventionele adressen, BIP47-adressen niet
 ![BTC204](assets/nl/230.webp)
 
 
-Het zou dus mogelijk zijn om BIP47 te implementeren zonder gebruik te maken van de kennisgevingstransactie, op voorwaarde dat elke gebruiker een back-up bijhoudt van de betalingscodes van zijn gelijken. Deze methode blijkt echter moeilijk te beheren totdat er een eenvoudige, robuuste en efficiënte oplossing is ontwikkeld voor het maken, opslaan en bijwerken van deze back-ups. In de huidige situatie is de kennisgevingstransactie bijna onvermijdelijk.
+Het zou dus mogelijk zijn om BIP47 te implementeren zonder gebruik te maken van de kennisgevingstransactie, op voorwaarde dat elke gebruiker een back-up bijhoudt van de betalingscodes van zijn contactpersonen. Deze methode blijkt echter moeilijk te beheren zolang er geen eenvoudige, robuuste en efficiënte oplossing is ontwikkeld voor het maken, opslaan en bijwerken van deze back-ups. In de huidige situatie is de kennisgevingstransactie bijna onvermijdelijk.
 
 
-In de volgende hoofdstukken zullen we echter kijken naar andere protocollen met vergelijkbare doelstellingen als BIP47, maar die geen meldingstransactie vereisen. Deze alternatieven introduceren echter hun eigen afwegingen.
+In de volgende hoofdstukken zullen we echter kijken naar andere protocollen met vergelijkbare doelstellingen als BIP47, maar die geen kennisgevingstransactie vereisen. Deze alternatieven introduceren echter hun eigen afwegingen.
 
 
 Naast het opslaan van betaalcodes heeft de kennisgevingstransactie ook een kennisgevingsfunctie voor de ontvanger, zoals de naam al aangeeft. Het waarschuwt de klant van de ontvanger dat er een nieuwe betalingstunnel is gemaakt en stelt voor dat hij of zij de resulterende efemere adressen in de gaten houdt.
 
 
-### Het BIP47 vertrouwelijkheidsmodel
+### Het BIP47-vertrouwelijkheidsmodel
 
 
-Alvorens in te gaan op de technische werking van de meldingstransactie, is het belangrijk om het vertrouwelijkheidsmodel van BIP47 te bespreken, dat bepaalde maatregelen bij het aanmaken van deze initiële transactie rechtvaardigt.
+Alvorens in te gaan op de technische werking van de kennisgevingstransactie, is het belangrijk om het vertrouwelijkheidsmodel van BIP47 te bespreken, dat bepaalde maatregelen bij het aanmaken van deze initiële transactie rechtvaardigt.
 
 
 De betaalcode zelf vormt geen direct risico voor de vertrouwelijkheid. In tegenstelling tot het traditionele Bitcoin-model, dat de link tussen de identiteit van de gebruiker en zijn transacties (die openbaar zijn) wil verbreken door de anonimiteit van sleutels en adressen te bewaren, kan de betaalcode openlijk worden geassocieerd met een identiteit zonder een bedreiging te vormen.
@@ -4774,7 +4774,7 @@ De betaalcode zelf vormt geen direct risico voor de vertrouwelijkheid. In tegens
 Dit komt omdat de betaalcode niet wordt gebruikt om de adressen die BIP47-betalingen ontvangen rechtstreeks af te leiden. In plaats daarvan worden deze adressen via de ECDH-toepassing gegenereerd tussen de sleutels die zijn afgeleid van de betalingscodes van de twee betrokken partijen.
 
 
-Een betaalcode op zich leidt dus niet direct tot verlies van vertrouwelijkheid, omdat alleen de melding adres ervan wordt afgeleid. Hoewel dit adres bepaalde informatie kan onthullen, onthult het normaal gesproken niet met welke partijen je een transactie doet, tenzij er een grondige ketenanalyse wordt uitgevoerd. Immers, als de verzender UTXO's gebruikt die aan zijn identiteit kunnen worden gekoppeld om de meldingstransactie uit te voeren, dan wordt het mogelijk om af te leiden dat zijn identiteit waarschijnlijk is gekoppeld aan BIP47-betalingen aan jouw betaalcode. Dit onthult niet de onderliggende transacties, maar geeft wel aan dat ze waarschijnlijk bestaan.
+Een betaalcode op zich leidt dus niet direct tot verlies van vertrouwelijkheid, omdat alleen het kennisgevingsadres ervan wordt afgeleid. Hoewel dit adres bepaalde informatie kan onthullen, onthult het normaal gesproken niet met welke partijen je een transactie doet, tenzij er een grondige ketenanalyse wordt uitgevoerd. Immers, als de verzender UTXO's gebruikt die aan zijn identiteit kunnen worden gekoppeld om de kennisgevingstransactie uit te voeren, dan wordt het mogelijk om af te leiden dat zijn identiteit waarschijnlijk is gekoppeld aan BIP47-betalingen aan jouw betaalcode. Dit onthult niet de onderliggende transacties, maar geeft wel aan dat ze waarschijnlijk bestaan.
 
 
 Het is daarom essentieel om deze strikte scheiding tussen de betalingscodes van gebruikers te handhaven. Met dit in gedachten is de eerste communicatie van de code een kritiek moment voor de vertrouwelijkheid van de betaling, maar wel een moment dat essentieel is voor de goede werking van het protocol. Als een van de betaalcodes openbaar kan worden verkregen (zoals op een website), mag de tweede code, die van de verzender, in geen geval worden gekoppeld aan de eerste.
@@ -4791,7 +4791,7 @@ Laten we een concreet voorbeeld nemen: Ik wil een donatie doen aan een politieke
 - Voordat ik een betaling verstuur, moet ik ervoor zorgen dat ze mijn eigen betaalcode kennen, die ook aan mijn identiteit is gekoppeld omdat ik deze gebruik om transacties te ontvangen op mijn sociale netwerken.
 
 
-Hoe kan ik mijn code zonder risico doorgeven? Het gebruik van conventionele communicatiemiddelen zou kunnen leiden tot het uitlekken van informatie, waardoor ik geassocieerd zou worden met deze politieke beweging. De meldingstransactie biedt een oplossing, dankzij een Layer codering die precies zo'n associatie tussen twee codes voorkomt. Hoewel het niet de enige methode is om de betaalcode van de afzender stiekem te verzenden, is het een zeer effectieve methode.
+Hoe kan ik mijn code zonder risico doorgeven? Het gebruik van conventionele communicatiemiddelen zou kunnen leiden tot het uitlekken van informatie, waardoor ik geassocieerd zou worden met deze politieke beweging. De kennisgevingstransactie biedt een oplossing, dankzij een encryptie-laag die precies zo'n associatie tussen twee codes voorkomt. Hoewel het niet de enige methode is om de betaalcode van de afzender stiekem te verzenden, is het een zeer effectieve methode.
 
 
 In het onderstaande diagram geven de oranje lijnen de punten aan waar de informatiestroom moet worden onderbroken en de zwarte pijlen de verbindingen die mogelijk door derden kunnen worden waargenomen:
@@ -4800,16 +4800,16 @@ In het onderstaande diagram geven de oranje lijnen de punten aan waar de informa
 ![BTC204](assets/nl/231.webp)
 
 
-In werkelijkheid is het in het traditionele vertrouwelijkheidsmodel van Bitcoin vaak complex om de informatiestroom tussen het sleutelpaar en de gebruiker volledig te scheiden, vooral bij transacties op afstand. Bijvoorbeeld, in de context van een donatiecampagne moet de ontvanger onvermijdelijk een adres of publieke sleutel vrijgeven via zijn of haar website of sociale netwerken. Het juiste gebruik van BIP47, vooral bij de kennisgevingstransactie, maakt het mogelijk om dit probleem te omzeilen dankzij ECDHE en de Layer encryptie die we later zullen bekijken.
+In werkelijkheid is het in het traditionele Bitcoin-vertrouwelijkheidsmodel vaak complex om de informatiestroom tussen het sleutelpaar en de gebruiker volledig te scheiden, vooral bij transacties op afstand. Bijvoorbeeld, in de context van een donatiecampagne moet de ontvanger onvermijdelijk een adres of publieke sleutel vrijgeven via zijn of haar website of sociale netwerken. Het juiste gebruik van BIP47, vooral bij de kennisgevingstransactie, maakt het mogelijk om dit probleem te omzeilen dankzij ECDHE en de encryptie-laag die we later zullen bekijken.
 
 
-Natuurlijk is het klassieke vertrouwelijkheidsmodel van Bitcoin nog steeds van toepassing op efemere publieke sleutels, die zijn afgeleid van de combinatie van de twee betalingscodes. De twee modellen zijn in feite complementair. Wat ik hier wil benadrukken is dat, in tegenstelling tot het gebruikelijke gebruik van een publieke sleutel om bitcoin te ontvangen, de betaalcode gekoppeld kan worden aan een specifieke identiteit, omdat de informatie "_Alice doet een transactie met Bob_" in een ander stadium verbroken wordt. De betaalcode wordt gebruikt voor generate betaaladressen, maar alleen gebaseerd op observatie van de blockchain is het onmogelijk om een BIP47 betalingstransactie te koppelen aan de betaalcodes die gebruikt zijn om het uit te voeren, tenzij de betrokken UTXO's al eerder gekoppeld waren aan een identiteit en de gebruikers hun betaalcodes associeerden met hun respectievelijke identiteiten.
+Natuurlijk is het klassieke Bitcoin-vertrouwelijkheidsmodel nog steeds van toepassing op efemere publieke sleutels, die zijn afgeleid van de combinatie van de twee betalingscodes. De twee modellen zijn in feite complementair. Wat ik hier wil benadrukken is dat, in tegenstelling tot het gebruikelijke gebruik van een publieke sleutel om bitcoin te ontvangen, de betaalcode gekoppeld kan worden aan een specifieke identiteit, omdat de informatie "_Alice doet een transactie met Bob_" in een ander stadium verbroken wordt. De betaalcode wordt gebruikt om betaaladressen te genereren, maar alleen gebaseerd op observatie van de blockchain is het onmogelijk om een BIP47-betalingstransactie te koppelen aan de betaalcodes die gebruikt zijn om het uit te voeren, tenzij de betrokken UTXO's al eerder gekoppeld waren aan een identiteit en de gebruikers hun betaalcodes associeerden met hun respectievelijke identiteiten.
 
 
 Kortom, het vertrouwelijkheidsmodel dat wordt aangeboden door BIP47 betalingen kan worden beschouwd als superieur aan het basismodel van Bitcoin, hoewel dit niet betekent dat het magisch is.
 
 
-### De meldingstransactie bouwen
+### De kennisgevingstransactie bouwen
 
 
 Laten we nu eens kijken hoe deze kennisgevingstransactie werkt. Stel dat Alice geld wil sturen naar Bob met behulp van BIP47. In mijn voorbeeld treedt Alice op als afzender en Bob als ontvanger. Bob heeft zijn betaalcode gepubliceerd op zijn website. Alice kent Bob's betaalcode dus al.
@@ -4820,7 +4820,7 @@ Laten we nu eens kijken hoe deze kennisgevingstransactie werkt. Stel dat Alice g
 
 
 
-- Ze selecteert een sleutelpaar van haar HD wallet op een andere tak dan haar betaalcode. Merk op dat dit paar niet gemakkelijk geassocieerd kan worden met Alice's kennisgeving adres, noch met Alice's identiteit (zie vorige sectie);
+- Ze selecteert een sleutelpaar van haar HD-wallet op een andere tak dan haar betaalcode. Merk op dat dit paar niet gemakkelijk geassocieerd kan worden met Alice's kennisgevingsadres, noch met Alice's identiteit (zie vorige sectie);
 - Alice selecteert de privésleutel voor dit paar. We noemen het $a$ (kleine letters);
 
 
@@ -4831,7 +4831,7 @@ $$
 
 
 
-- Alice haalt de openbare sleutel op die hoort bij Bob's kennisgeving adres. Deze sleutel is het eerste kind dat is afgeleid van de betalingscode van Bob (index $/0$). We noemen deze openbare sleutel $B$ (hoofdletters). De privésleutel die bij deze openbare sleutel hoort, heet $b$ (kleine letters). $B$ wordt bepaald door het optellen en verdubbelen van punten op de elliptische curve van $G$ (het genererende punt) met $b$ (de privésleutel):
+- Alice haalt de openbare sleutel op die hoort bij Bob's kennisgevingsadres. Deze sleutel is het eerste kind dat is afgeleid van de betalingscode van Bob (index $/0$). We noemen deze openbare sleutel $B$ (hoofdletters). De privésleutel die bij deze openbare sleutel hoort, heet $b$ (kleine letters). $B$ wordt bepaald door het optellen en verdubbelen van punten op de elliptische curve van $G$ (het genererende punt) met $b$ (de privésleutel):
 
 
 $$ B = b \dot G $$
@@ -4853,10 +4853,10 @@ $$ S = a \dot B $$
 $$ f = \text{HMAC-SHA512}(o, x) $$
 
 
-**2 - Alice converteert haar persoonlijke betaalcode naar basis 2 (binair) **
+**2 - Alice converteert haar persoonlijke betaalcode naar basis 2 (binair)**
 
 
-**3- Het gebruikt deze verblindende factor als een sleutel om symmetrische versleuteling uit te voeren op de payload van zijn betaalcode.** Het gebruikte versleutelingsalgoritme is simpelweg een `XOR`. De uitgevoerde bewerking is vergelijkbaar met het Vernam-cijfer, ook bekend als "One-Time Pad".
+**3- Ze gebruikt deze verblindende factor als een sleutel om symmetrische versleuteling uit te voeren op de payload van haar betaalcode.** Het gebruikte versleutelingsalgoritme is simpelweg een `XOR`. De uitgevoerde bewerking is vergelijkbaar met het Vernam-cijfer, ook bekend als "One-Time Pad".
 
 
 
@@ -4869,7 +4869,7 @@ $$ f = f1 || f2 $$
 
 
 
-- Alice berekent afzonderlijk de vercijfering $x'$ van de abscis van de openbare sleutel $x$ van haar betaalcode en de vercijfering $c'$ van haar stringcode $c$. respectievelijk $f1$ en $f2$ fungeren als cijfersleutels. De gebruikte operatie is `XOR` (of exclusief).
+- Alice berekent afzonderlijk de versleuteling $x'$ van de abscis van de openbare sleutel $x$ van haar betaalcode en de versleuteling $c'$ van haar stringcode $c$. $f1$ en $f2$ fungeren respectievelijk als cijfersleutels. De gebruikte operatie is `XOR` (of exclusief).
 
 
 $$ x' = x \oplus f1 $$
@@ -4883,35 +4883,35 @@ $$ c' = c \oplus f2 $$
 - Alice vervangt de werkelijke waarden van de openbare sleutel abscis $x$ en de stringcode $c$ in haar betalingscode door de versleutelde waarden $x'$ en $c'$.
 
 
-**4-** Alice heeft dus op dit moment haar betalingscode met een versleutelde payload. Ze zal een transactie construeren en uitzenden met haar openbare sleutel $A$ als invoer, een output naar Bob's kennisgeving adres, en een output `OP_RETURN` bestaande uit haar betalingscode met de versleutelde lading. **Deze transactie is de kennisgevingstransactie**.
+**4-** Alice heeft dus op dit moment haar betalingscode met een versleutelde payload. Ze zal een transactie construeren en uitzenden met haar openbare sleutel $A$ als input, een output naar Bob's kennisgeving adres, en een output `OP_RETURN` bestaande uit haar betalingscode met de versleutelde lading. **Deze transactie is de kennisgevingstransactie**.
 
 
-Een `OP_RETURN` is een opcode die de output van een Bitcoin-transactie als ongeldig markeert. Tegenwoordig wordt het gebruikt om Anchor informatie over de Bitcoin blockchain uit te zenden. Het kan tot 80 bytes aan data opslaan, die dan naar de ketting wordt geschreven en zichtbaar is voor alle andere gebruikers.
+Een `OP_RETURN` is een opcode die de output van een Bitcoin-transactie als ongeldig markeert. Tegenwoordig wordt het gebruikt om informatie te verankeren of uit te zenden over de Bitcoin blockchain. Het kan tot 80 bytes aan data opslaan, die dan naar de blockchain wordt geschreven en zichtbaar is voor alle andere gebruikers.
 
 
-Zoals we in voorgaande secties hebben gezien, wordt ECDH gebruikt om generate een gedeeld geheim tussen twee gebruikers te communiceren over een onveilig netwerk, en mogelijk geobserveerd door aanvallers. In BIP47 wordt ECDH gebruikt om te communiceren op het Bitcoin-netwerk, dat van nature een transparant communicatienetwerk is en door veel aanvallers kan worden geobserveerd. Het gedeelde geheim dat is berekend met de ECDH-sleutel exchange wordt vervolgens gebruikt om de geheime informatie die moet worden verzonden te versleutelen: de betaalcode van de verzender (Alice).
+Zoals we in voorgaande secties hebben gezien, wordt ECDH gebruikt om een gedeeld geheim tussen twee gebruikers te communiceren over een onveilig netwerk, en mogelijk wordt geobserveerd door aanvallers. In BIP47 wordt ECDH gebruikt om te communiceren op het Bitcoin-netwerk, dat van nature een transparant communicatienetwerk is en door veel aanvallers kan worden geobserveerd. Het gedeelde geheim dat is berekend met de ECDH-sleuteluitwisseling wordt vervolgens gebruikt om de geheime informatie die moet worden verzonden te versleutelen: de betaalcode van de verzender (Alice).
 
 
-Ik zal de stappen die we net hebben gezien samenvatten om een meldingstransactie uit te voeren:
+Ik zal de stappen die we net hebben gezien samenvatten om een kennisgevingstransactie uit te voeren:
 
 
 
 
-- Alice haalt de betalingscode van Bob op en meldt adres;
-- Alice selecteert een UTXO uit haar HD-portfolio met het bijbehorende sleutelpaar;
-- Het berekent een geheim punt op de elliptische curve met ECDH ;
-- Het gebruikt dit geheime punt om een HMAC te berekenen, wat de verblindingsfactor is;
+- Alice haalt de betalingscode het kennisgevingsadres van Bob op;
+- Alice selecteert een UTXO uit haar HD-wallet met het bijbehorende sleutelpaar;
+- Ze berekent een geheim punt op de elliptische curve met ECDH ;
+- Ze gebruikt dit geheime punt om een HMAC te berekenen, wat de verblindingsfactor is;
 - Ze gebruikt deze verblindende factor om de payload van haar persoonlijke betaalcode te versleutelen;
-- Het gebruikt een `OP_RETURN` transactie-uitgang om de verborgen betalingscode door te geven aan Bob.
+- Ze gebruikt een `OP_RETURN` transactie-uitgang om de verborgen betalingscode door te geven aan Bob.
 
 
 ![BTC204](assets/nl/232.webp)
 
 
-### Transactiemelding: een praktische studie
+### Kennisgevingstransactie: een praktische studie
 
 
-Om meer in detail te begrijpen hoe het werkt, en in het bijzonder het gebruik van `OP_RETURN`, laten we eens kijken naar een echte meldingstransactie. Ik heb een dergelijke transactie uitgevoerd op de Testnet, die je kunt vinden [door hier te klikken](https://Mempool.space/fr/Testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e).
+Om meer in detail te begrijpen hoe het werkt, en in het bijzonder het gebruik van `OP_RETURN`, laten we eens kijken naar een echte kennisgevingstransactie. Ik heb een dergelijke transactie uitgevoerd op de Testnet, die je kunt vinden [door hier te klikken](https://Mempool.space/fr/Testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e).
 
 
 ![BTC204](assets/nl/233.webp)
@@ -5226,7 +5226,7 @@ $$ S = a \dot B = a \dot (b \dot G) = (b \dot a) \dot G = b \dot A $$
 Nu Bob Alice's betalingscode kent, kan hij haar BIP47-betalingen opsporen en de privésleutels afleiden die de ontvangen bitcoins blokkeren.
 
 
-Ik zal de stappen samenvatten die we zojuist hebben gezien om een meldingstransactie te ontvangen en te interpreteren:
+Ik zal de stappen samenvatten die we zojuist hebben gezien om een kennisgevingstransactie te ontvangen en te interpreteren:
 
 
 
@@ -5486,7 +5486,7 @@ https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95
 BIP47 is alom bekritiseerd vanwege de on-chain inefficiëntie. Zoals uitgelegd in het vorige hoofdstuk, moet er voor elke nieuwe ontvanger een kennisgevingstransactie worden uitgevoerd. Deze beperking wordt verwaarloosbaar als we van plan zijn om een duurzaam betalingskanaal met deze ontvanger op te zetten. Een enkele kennisgevingstransactie maakt de weg vrij voor een bijna oneindig aantal volgende BIP47 betalingen.
 
 
-In bepaalde situaties kan de meldingstransactie echter een obstakel vormen voor de gebruiker. Laten we het voorbeeld nemen van een eenmalige donatie aan een ontvanger: met een klassieke Bitcoin adres is een enkele transactie voldoende om de donatie te voltooien. Maar met BIP47 zijn er twee transacties nodig: één voor de melding en één voor de daadwerkelijke betaling. Wanneer de vraag naar blokruimte laag is en de transactiekosten laag, is deze extra stap meestal geen probleem. In tijden van congestie kunnen de transactiekosten echter exorbitant hoog worden voor een enkele betaling, waardoor de kosten voor de gebruiker mogelijk verdubbelen in vergelijking met een standaard Bitcoin-transactie, wat onaanvaardbaar kan blijken voor de gebruiker.
+In bepaalde situaties kan de kennisgevingstransactie echter een obstakel vormen voor de gebruiker. Laten we het voorbeeld nemen van een eenmalige donatie aan een ontvanger: met een klassieke Bitcoin adres is een enkele transactie voldoende om de donatie te voltooien. Maar met BIP47 zijn er twee transacties nodig: één voor de melding en één voor de daadwerkelijke betaling. Wanneer de vraag naar blokruimte laag is en de transactiekosten laag, is deze extra stap meestal geen probleem. In tijden van congestie kunnen de transactiekosten echter exorbitant hoog worden voor een enkele betaling, waardoor de kosten voor de gebruiker mogelijk verdubbelen in vergelijking met een standaard Bitcoin-transactie, wat onaanvaardbaar kan blijken voor de gebruiker.
 
 
 Voor situaties waarin de gebruiker slechts enkele betalingen aan een statische identifier wil doen, zijn andere oplossingen ontwikkeld. Deze omvatten Stille Betalingen, beschreven in [BIP352](https://github.com/Bitcoin/bips/blob/master/bip-0352.mediawiki). Dit protocol maakt het mogelijk om een statische identifier te gebruiken om betalingen te ontvangen zonder adres hergebruik te produceren en zonder het gebruik van kennisgevingstransacties te vereisen. Laten we eens kijken hoe dit protocol werkt.
@@ -5500,7 +5500,7 @@ Voor situaties waarin de gebruiker slechts enkele betalingen aan een statische i
 ### Waarom verplaatsen we de melding niet?
 
 
-Zoals besproken in het hoofdstuk BIP47, heeft de meldingstransactie twee hoofdfuncties:
+Zoals besproken in het hoofdstuk BIP47, heeft de kennisgevingstransactie twee hoofdfuncties:
 
 
 
@@ -5515,7 +5515,7 @@ Men zou naïef kunnen denken dat dit kennisgevingsproces off-chain kan worden ui
 
 
 - Ten eerste zou het codeoverdrachtsproces naar een ander communicatieprotocol worden verplaatst. Problemen met betrekking tot de kosten en vertrouwelijkheid van de exchange zouden blijven bestaan, maar zouden simpelweg worden overgebracht naar dit nieuwe protocol. In termen van vertrouwelijkheid zou dit ook een link kunnen leggen tussen de identiteit van een gebruiker en activiteiten op de keten, wat we proberen te vermijden door de melding direct op de blockchain uit te voeren. Bovendien zou het maken van de melding buiten de blockchain risico's van censuur introduceren (zoals het blokkeren van fondsen) die niet bestaan op de Bitcoin;
-- Ten tweede zou dit een terugvorderingsprobleem opleveren. Met BIP47 moet de ontvanger de betalingscodes van de verzenders kennen om toegang te krijgen tot de fondsen. Dit geldt bij ontvangst, maar ook in het geval dat fondsen worden teruggevorderd via de seed als de wallet verloren gaat. Met on-chain meldingen wordt dit risico vermeden, omdat de gebruiker de meldingstransacties kan opvragen en ontsleutelen door simpelweg zijn seed te kennen. Als de melding echter buiten de blockchain wordt gedaan, zou de gebruiker een dynamische back-up van alle ontvangen betaalcodes moeten bijhouden, wat onpraktisch is voor de gemiddelde gebruiker.
+- Ten tweede zou dit een terugvorderingsprobleem opleveren. Met BIP47 moet de ontvanger de betalingscodes van de verzenders kennen om toegang te krijgen tot de fondsen. Dit geldt bij ontvangst, maar ook in het geval dat fondsen worden teruggevorderd via de seed als de wallet verloren gaat. Met on-chain meldingen wordt dit risico vermeden, omdat de gebruiker de kennisgevingstransacties kan opvragen en ontsleutelen door simpelweg zijn seed te kennen. Als de melding echter buiten de blockchain wordt gedaan, zou de gebruiker een dynamische back-up van alle ontvangen betaalcodes moeten bijhouden, wat onpraktisch is voor de gemiddelde gebruiker.
 
 
 Al deze beperkingen maken het gebruik van on-chain notificatie essentieel voor BIP47. Silent Payments probeert deze on-chain notificatiestap echter te vermijden, juist vanwege de kosten. De gekozen oplossing is daarom niet om de kennisgeving te verplaatsen, maar om deze volledig te elimineren. Om dit te bereiken moet een compromis worden aanvaard: scannen. In tegenstelling tot BIP47, waar de gebruiker dankzij notificatietransacties precies weet waar hij zijn geld kan vinden, moet de gebruiker met Silent Payments alle bestaande Bitcoin-transacties onderzoeken om voor hem bestemde betalingen op te sporen. Om deze operationele last te verminderen, is de zoekopdracht voor Stille Betalingen beperkt tot transacties die waarschijnlijk dergelijke betalingen bevatten, d.w.z. transacties met ten minste één Taproot P2TR uitgang. De scan richt zich ook uitsluitend op transacties vanaf de aanmaakdatum van wallet (het is niet nodig om transacties uit 2009 te scannen als de wallet in 2024 werd aangemaakt).

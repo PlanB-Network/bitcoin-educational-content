@@ -328,7 +328,7 @@ Um Miner precisa de um nó Bitcoin para interagir com a rede.
 
 
 
-O papel do Miner também é por vezes diferenciado do papel do picador. Um picador é uma máquina cuja tarefa consiste em Hash blocos de modelos fornecidos pelo servidor de um pool, procurando hashes que satisfaçam o objetivo de dificuldade definido para as acções, e não o do Bitcoin. O resto do processo Mining, que inclui a construção de blocos propriamente dita, a seleção de transacções ou a pesquisa Proof-of-Work de acordo com a dificuldade própria do Bitcoin, bem como a distribuição, é realizado diretamente pelos pools.
+O papel do Miner também é por vezes diferenciado do papel do grind. Um grind é uma máquina cuja tarefa consiste em Hash blocos de modelos fornecidos pelo servidor de um pool, procurando hashes que satisfaçam o objetivo de dificuldade definido para as acções, e não o do Bitcoin. O resto do processo Mining, que inclui a construção de blocos propriamente dita, a seleção de transacções ou a pesquisa Proof-of-Work de acordo com a dificuldade própria do Bitcoin, bem como a distribuição, é realizado diretamente pelos pools.
 
 
 

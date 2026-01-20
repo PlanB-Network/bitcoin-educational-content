@@ -328,7 +328,7 @@ Miner vajab võrguga suhtlemiseks Bitcoin sõlme.
 
 
 
-Mõnikord eristatakse ka Miner rolli kopterist. Hakkur on masin, mille ülesanne on Hash malliplokid, mis on tarnitud basseiniserveri poolt, otsides häkke, mis vastavad aktsiate jaoks määratletud raskusastme eesmärgile, mitte aga Bitcoin-le. Ülejäänud Mining protsessi, mis hõlmab tegelikku plokkide konstrueerimist, tehingu valimist või Bitcoin enda raskusastme järgi Bitcoin otsimist, samuti jaotamist, teostavad otse basseinid.
+Mõnikord eristatakse ka Miner rolli grind. Grind on masin, mille ülesanne on Hash malliplokid, mis on tarnitud basseiniserveri poolt, otsides häkke, mis vastavad aktsiate jaoks määratletud raskusastme eesmärgile, mitte aga Bitcoin-le. Ülejäänud Mining protsessi, mis hõlmab tegelikku plokkide konstrueerimist, tehingu valimist või Bitcoin enda raskusastme järgi Bitcoin otsimist, samuti jaotamist, teostavad otse basseinid.
 
 
 
@@ -2168,7 +2168,7 @@ Kui soovite lihtsalt ühendada Wallet, näiteks Sparrow, oma sõlme, et vaadata 
 
 
 
-Teisest küljest, et kasutada keerukamat tarkvara, näiteks käivitada Mempool.Locally, paigaldamine Address indekseri muutub hädavajalikuks ruumi Block explorer.
+Teisest küljest, et kasutada keerukamat tarkvara, näiteks käivitada mempool.space plokiuurija lokaalselt, muutub aadressi indekseerija paigaldamine hädavajalikuks.
 
 
 

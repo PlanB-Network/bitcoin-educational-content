@@ -328,7 +328,7 @@ Miner ikeneye urudodo rwa Bitcoin kugira ngo ikoreshe n’urubuga.
 
 
 
-Uruhara rwa Miner na rwo nyene rimwe na rimwe ruratandukanye n’urw’ico gikoresho gicapura. Mincer ni imashini ifise igikorwa co gukora Hash template blocks zitangwa na server y'ikidengeri, irondera ama hashes ahaza ingorane zisobanuwe ku migabane, atari iya Bitcoin. Ibindi bikorwa vya Mining, birimwo kwubaka amabuye nyayo, guhitamwo ibikorwa, canke gushaka Proof-of-Work hakurikijwe ingorane za Bitcoin ubwayo, hamwe n’ugusangira, bikorwa ataco bimaze n’ibidengeri.
+Uruhara rwa Miner na rwo nyene rimwe na rimwe ruratandukanye n’urw’ico grind. Grind ni imashini ifise igikorwa co gukora Hash template blocks zitangwa na server y'ikidengeri, irondera ama hashes ahaza ingorane zisobanuwe ku migabane, atari iya Bitcoin. Ibindi bikorwa vya Mining, birimwo kwubaka amabuye nyayo, guhitamwo ibikorwa, canke gushaka Proof-of-Work hakurikijwe ingorane za Bitcoin ubwayo, hamwe n’ugusangira, bikorwa ataco bimaze n’ibidengeri.
 
 
 

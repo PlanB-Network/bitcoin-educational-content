@@ -175,7 +175,7 @@ Angesichts dieser Entwicklung haben sich die Rollen der Nodes und der Miner deut
 
 Ein Miner benötigt eine Bitcoin-Node, um mit dem Netzwerk zu interagieren.
 
-Die Rolle des Miner wird manchmal auch von der des Hashers unterschieden. Ein Hasher ist eine Maschine, deren Aufgabe darin besteht, potenzielle Blöcke, die vom Server eines Pools geliefert werden, nach Hashes zu durchsuchen, die dem für die Anteile definierten Schwierigkeitsziel entsprechen, und nicht dem von Bitcoin. Der Rest des Mining-Prozesses, der die eigentliche Blockkonstruktion, die Transaktionsauswahl oder die Proof-of-Work-Suche nach der Bitcoin-eigenen Schwierigkeit sowie die Verteilung umfasst, wird direkt von den Pools durchgeführt.
+Die Rolle des Miner wird manchmal auch von der des Grind unterschieden. Ein Grind ist eine Maschine, deren Aufgabe darin besteht, potenzielle Blöcke, die vom Server eines Pools geliefert werden, nach Hashes zu durchsuchen, die dem für die Anteile definierten Schwierigkeitsziel entsprechen, und nicht dem von Bitcoin. Der Rest des Mining-Prozesses, der die eigentliche Blockkonstruktion, die Transaktionsauswahl oder die Proof-of-Work-Suche nach der Bitcoin-eigenen Schwierigkeit sowie die Verteilung umfasst, wird direkt von den Pools durchgeführt.
 
 ![Image](assets/fr/054.webp)
 

@@ -328,7 +328,7 @@ En Miner behöver en Bitcoin-nod för att interagera med nätverket.
 
 
 
-Miner:s roll skiljer sig också ibland från hackarens. En huggare är en maskin vars uppgift är att Hash mallblock som levereras av en pools server, leta efter hashes som uppfyller svårighetsmålet som definierats för aktier, och inte Bitcoin. Resten av Mining-processen, som inkluderar faktisk blockkonstruktion, transaktionsval eller Proof-of-Work-sökning enligt Bitcoin:s egen svårighetsgrad, samt distribution, utförs direkt av poolerna.
+Miner:s roll skiljer sig också ibland från grind. En grind är en maskin vars uppgift är att Hash mallblock som levereras av en pools server, leta efter hashes som uppfyller svårighetsmålet som definierats för aktier, och inte Bitcoin. Resten av Mining-processen, som inkluderar faktisk blockkonstruktion, transaktionsval eller Proof-of-Work-sökning enligt Bitcoin:s egen svårighetsgrad, samt distribution, utförs direkt av poolerna.
 
 
 

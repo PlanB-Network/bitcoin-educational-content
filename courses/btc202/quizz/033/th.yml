@@ -1,9 +1,9 @@
 question: ใครเป็นผู้ดูแลโครงการ Bitcoin Knots?
-answer: ลุค แดชจูเนียร์
+answer: Luke Dashjr
 wrong_answers:
-  - กาวิน แอนเดรเซน
+  - Gavin Andresen
   - Wladimir J. Van Der Laan
-  - ปีเตอร์ วีลล์
+  - Pieter Wuille
 explanation: |
   Bitcoin Knots ได้รับการดูแลโดย Luke Dashjr และทำหน้าที่เป็นไคลเอนต์ทางเลือกหลักให้กับ Bitcoin Core
 reviewed: true

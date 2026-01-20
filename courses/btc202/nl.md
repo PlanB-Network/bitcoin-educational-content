@@ -328,7 +328,7 @@ Een miner heeft een Bitcoin node nodig voor interactie met het netwerk.
 
 
 
-De rol van de miner wordt soms ook onderscheiden van die van de hakker. Een hakker is een machine wiens taak het is om door de pool server aangeleverde sjabloonblokken te hashen, op zoek naar hashes die voldoen aan de moeilijkheidsdoelstelling gedefinieerd voor aandelen, en niet die van Bitcoin. De rest van het mining proces, dat de eigenlijke blokconstructie, transactieselectie of Proof-of-Work zoeken volgens Bitcoin's eigen moeilijkheidsgraad en distributie omvat, wordt direct door de pools uitgevoerd.
+De rol van de miner wordt soms ook onderscheiden van die van de grind. Een grind is een machine wiens taak het is om door de pool server aangeleverde sjabloonblokken te hashen, op zoek naar hashes die voldoen aan de moeilijkheidsdoelstelling gedefinieerd voor aandelen, en niet die van Bitcoin. De rest van het mining proces, dat de eigenlijke blokconstructie, transactieselectie of Proof-of-Work zoeken volgens Bitcoin's eigen moeilijkheidsgraad en distributie omvat, wordt direct door de pools uitgevoerd.
 
 
 
@@ -2168,7 +2168,7 @@ Als je gewoon een wallet, zoals Sparrow, op je node wilt aansluiten om saldi te 
 
 
 
-Aan de andere kant, om meer geavanceerde software te gebruiken, zoals het draaien van een Mempool.Locally, wordt de installatie van een adres indexer onontbeerlijk voor de space block explorer.
+Aan de andere kant, om meer geavanceerde software te gebruiken, zoals het lokaal draaien van een mempool.space blok explorer, wordt de installatie van een adres indexer onontbeerlijk.
 
 
 

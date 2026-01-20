@@ -328,7 +328,7 @@ K interakci se sítí potřebuje uzel Miner uzel Bitcoin.
 
 
 
-Úloha Miner se také někdy odlišuje od úlohy vrtulníku. Sekáček je stroj, jehož úkolem je Hash šablonovat bloky dodané serverem poolu a hledat hashe, které splňují cíl obtížnosti definovaný pro sdílení, a nikoliv pro Bitcoin. Zbytek procesu Mining, který zahrnuje vlastní konstrukci bloků, výběr transakcí nebo vyhledávání Proof-of-Work podle vlastní obtížnosti Bitcoin a také distribuci, provádí přímo pooly.
+Úloha Miner se také někdy odlišuje od úlohy grind. Grind je stroj, jehož úkolem je Hash šablonovat bloky dodané serverem poolu a hledat hashe, které splňují cíl obtížnosti definovaný pro sdílení, a nikoliv pro Bitcoin. Zbytek procesu Mining, který zahrnuje vlastní konstrukci bloků, výběr transakcí nebo vyhledávání Proof-of-Work podle vlastní obtížnosti Bitcoin a také distribuci, provádí přímo pooly.
 
 
 

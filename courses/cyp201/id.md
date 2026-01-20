@@ -1323,12 +1323,14 @@ Frasa sandi bekerja bersama dengan frasa mnemonik, memodifikasi benih dari mana 
 
 Frasa sandi bersifat sewenang-wenang dan bisa berupa kombinasi karakter apa pun yang dipilih oleh pengguna. Menggunakan frasa sandi dengan demikian menawarkan beberapa keuntungan. Pertama-tama, ini mengurangi semua risiko yang terkait dengan kompromi frasa mnemonik dengan memerlukan faktor kedua untuk mengakses dana (pencurian, akses ke rumah Anda, dll.).
 
-Selanjutnya, ini dapat digunakan secara strategis untuk menciptakan dompet umpan, untuk menghadapi kendala fisik mencuri dana Anda seperti serangan "_$5 wrench_" yang terkenal. Dalam skenario ini, ideanya adalah memiliki dompet tanpa frasa sandi yang hanya berisi sejumlah kecil bitcoin, cukup untuk memuaskan penyerang potensial, sambil memiliki dompet tersembunyi. Yang terakhir ini menggunakan frasa mnemonik yang sama tetapi diamankan dengan frasa sandi tambahan.
+Selanjutnya, ini dapat digunakan secara strategis untuk menciptakan dompet umpan, untuk menghadapi kendala fisik mencuri dana Anda seperti serangan "_$5 wrench_" yang terkenal. Dalam skenario ini, ideanya adalah memiliki dompet tanpa frasa sandi yang hanya berisi sejumlah kecil bitcoin, cukup untuk memuaskan calon penyerang potensial, sambil memiliki dompet tersembunyi. Yang terakhir ini menggunakan frasa mnemonik yang sama tetapi diamankan dengan frasa sandi tambahan.
 Akhirnya, penggunaan frasa sandi menarik ketika seseorang ingin mengontrol keacakan dari generasi benih dompet HD.
+
 ### Bagaimana memilih frasa sandi yang baik?
 
-Agar frasa sandi efektif, harus cukup panjang dan acak. Seperti dengan kata sandi yang kuat, saya merekomendasikan memilih frasa sandi yang sepanjang dan seacak mungkin, dengan keragaman huruf, angka, dan simbol untuk membuat serangan brute force menjadi mustahil.
+Agar frasa sandi efektif, harus cukup panjang dan acak. Seperti dengan kata sandi yang kuat, saya merekomendasikan memilih frasa sandi yang cukup panjang dan seacak mungkin, dengan keragaman huruf, angka, dan simbol untuk membuat serangan brute force menjadi mustahil.
 Juga penting untuk menyimpan passphrase ini dengan benar, sama seperti frase mnemonik. **Kehilangannya berarti kehilangan akses ke bitcoin Anda**. Saya sangat menyarankan agar tidak hanya mengingatnya di kepala, karena ini meningkatkan risiko kehilangan secara tidak wajar. Yang ideal adalah menuliskannya pada media fisik (kertas atau logam) yang terpisah dari frase mnemonik. Cadangan ini jelas harus disimpan di tempat yang berbeda dari tempat penyimpanan frase mnemonik Anda untuk mencegah keduanya dikompromikan secara bersamaan.
+
 ![CYP201](assets/en/047.webp)
 
 Pada bagian berikut, kita akan menemukan bagaimana kedua elemen ini di dasar dompet Anda — frase mnemonik dan passphrase — digunakan untuk menurunkan pasangan kunci yang digunakan dalam *scriptPubKey* yang mengunci UTXO Anda.
@@ -1373,8 +1375,10 @@ Nilai seed ini dipengaruhi oleh nilai frase mnemonik dan passphrase. Dengan meng
 **Catatan:** Dalam bahasa umum, istilah "seed" sering kali merujuk, karena penyalahgunaan bahasa, ke frase mnemonik. Memang, tanpa passphrase, satu hanyalah pengkodean dari yang lain. Namun, seperti yang telah kita lihat, dalam realitas teknis dompet, seed dan frase mnemonik memang dua elemen yang berbeda.
 
 Sekarang kita memiliki seed kita, kita dapat melanjutkan dengan penurunan dompet Bitcoin kita.
+
 ### Kunci Utama dan Kode Rantai Utama
-Setelah benih diperoleh, langkah selanjutnya dalam menghasilkan dompet HD melibatkan perhitungan kunci privat utama dan kode rantai utama, yang akan mewakili kedalaman 0 dari dompet kita.
+
+Setelah seed diperoleh, langkah selanjutnya dalam menghasilkan dompet HD melibatkan perhitungan kunci privat utama dan kode rantai utama, yang akan mewakili kedalaman 0 dari dompet kita.
 
 Untuk mendapatkan kunci privat utama dan kode rantai utama, fungsi HMAC-SHA512 diterapkan pada benih, menggunakan kunci tetap "*Bitcoin Seed*" yang identik untuk semua pengguna Bitcoin. Konstanta ini dipilih untuk memastikan bahwa derivasi kunci spesifik untuk Bitcoin. Berikut adalah elemennya:
 - $\text{HMAC-SHA512}$: fungsi derivasi;
@@ -1509,23 +1513,27 @@ xpub6CTNzMUkzpurBWaT4HQoYzLP4uBbGJuWY358Rj7rauiw4rMHCyq3Rfy9w4kyJXJzeFfyrKLUar2r
 
 Kunci ekstensi ini terpecah menjadi beberapa elemen berbeda:
 
-- **Versi**: `0488B21E`
+1.**Versi**: `0488B21E`
 
 4 byte pertama adalah versi. Di sini, ini sesuai dengan kunci publik ekstensi pada Mainnet dengan tujuan derivasi baik *Legacy* atau *SegWit v1*.
 
-- **Kedalaman**: `03`
+2.**Kedalaman**: `03`
 
 Bidang ini menunjukkan tingkat hierarkis kunci dalam dompet HD. Dalam kasus ini, kedalaman `03` berarti bahwa kunci ini adalah tiga tingkat derivasi di bawah kunci induk.
 
-- **Sidik jari induk**: `6D5601AD`
+3.**Sidik jari induk**: `6D5601AD`
+
 Ini adalah 4 byte pertama dari hash HASH160 dari kunci publik induk yang digunakan untuk menurunkan `xpub` ini.
-- **Nomor Indeks**: `80000000`
+
+4.**Nomor Indeks**: `80000000`
 
 Indeks ini menunjukkan posisi kunci di antara anak-anak induknya. Prefiks `0x80` menunjukkan bahwa kunci diturunkan dengan cara yang diperketat, dan karena sisanya diisi dengan nol, ini menunjukkan bahwa kunci ini adalah yang pertama di antara saudara kandungnya yang mungkin.
 
-- **Kode Rantai**: `C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A893`
-- **Kunci Publik**: `03772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF5065805`
-- **Checksum**: `1F067C3A`
+5.**Kode Rantai**: `C605DF9FBD77FD6965BD02B77831EC5C78646AD3ACA14DC3984186F72633A893`
+
+6.**Kunci Publik**: `03772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF5065805`
+
+7.**Checksum**: `1F067C3A`
 
 Checksum ini sesuai dengan 4 byte pertama dari hash (SHA256 ganda) dari semua yang lain.
 
@@ -1781,7 +1789,9 @@ Untuk memberi Anda contoh lain, berikut adalah indeks dari beberapa mata uang:
 Setiap dompet dapat dibagi menjadi beberapa akun, bernomor dari $2^{31}$, dan diwakili pada kedalaman 3 oleh $/0'/$ untuk akun pertama, $/1'/$ untuk kedua, dan seterusnya. Umumnya, ketika merujuk pada kunci terluas `xpub`, ini merujuk pada kunci pada kedalaman turunan ini.
 
 Pemisahan ke dalam akun yang berbeda ini opsional. Ini bertujuan untuk menyederhanakan organisasi dompet bagi pengguna. Dalam praktiknya, seringkali hanya satu akun yang digunakan, biasanya yang pertama secara default. Namun, dalam beberapa kasus, jika seseorang ingin membedakan pasangan kunci untuk penggunaan yang berbeda secara jelas, ini bisa berguna. Sebagai contoh, dimungkinkan untuk membuat akun pribadi dan akun profesional dari benih yang sama, dengan kelompok kunci yang sepenuhnya berbeda dari kedalaman turunan ini.
+
 **Kedalaman 4: Rantai (BIP32)**
+
 Setiap akun yang ditentukan pada kedalaman 3 kemudian terstruktur menjadi dua rantai:
 - **Rantai eksternal**: Dalam rantai ini, apa yang dikenal sebagai alamat "publik" diturunkan. Alamat penerima ini dimaksudkan untuk mengunci UTXO yang datang dari transaksi eksternal (yaitu, berasal dari konsumsi UTXO yang tidak milik Anda). Secara sederhana, rantai eksternal ini digunakan kapan pun seseorang ingin menerima bitcoin. Ketika Anda mengklik "*terima*" di perangkat lunak dompet Anda, selalu alamat dari rantai eksternal yang ditawarkan kepada Anda. Rantai ini diwakili oleh pasangan kunci yang diturunkan dengan indeks $/0/$.
 - **Rantai internal (kembalian)**: Rantai ini diperuntukkan bagi alamat penerima yang mengunci bitcoin yang berasal dari konsumsi UTXO yang milik Anda, dengan kata lain, alamat kembalian. Ini diidentifikasi oleh indeks $/1/$.

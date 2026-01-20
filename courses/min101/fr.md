@@ -165,7 +165,7 @@ L’entête de bloc fait 80 octets et contient exactement 6 champs. Ce sont ces 
 
 - L’horodatage (`time`) : C’est un timestamp (temps Unix) choisi par le mineur (avec des contraintes de validité), qui doit indiquer quand le bloc a été miné. Il n’a pas besoin d’être parfaitement exact à la seconde près, mais il doit respecter certaines conditions pour rester acceptable par le réseau.
 
-- La cible de difficulté encodée (`bits`) : Ce champ encode la cible de difficulté en vigueur. Nous détaillerons ce point dans le chapitre sur la difficulté, mais retenez ici que ce paramètre fait partie de l’entête.
+- La cible de difficulté encodée (`nbits`) : Ce champ encode la cible de difficulté en vigueur. Nous détaillerons ce point dans le chapitre sur la difficulté, mais retenez ici que ce paramètre fait partie de l’entête.
 
 - Le nonce (`nonce`) : C’est une valeur que le mineur peut modifier librement. Elle sert de variable d’ajustement durant la preuve de travail. Je vous expliquerai son rôle plus précisément dans le prochain chapitre, mais il est important de comprendre que le nonce fait partie de l’entête du bloc et qu’il est prévu pour permettre des essais successifs.
 
@@ -184,7 +184,7 @@ version: 00e0ff3f
 previousblockhash: 5ffe3b0d9247dc437e18edc19252e4517cee941752d501000000000000000000
 merkleroot: 206bde3a10826e2acb2f28fba70463601c789293d0c9c4348d7a0d06711e97c0
 time: bcb13a64
-bits: b2e00517
+nbits: b2e00517
 nonce: 43f09a40
 ```
 
@@ -275,7 +275,7 @@ Le processus de minage est donc très simple :
 
 En réalité, le nonce n’est pas le seul champ que l’on peut modifier. Toute modification au sein des transactions d'un bloc entraîne un changement de la racine de l’arbre de Merkle, et donc une modification de l’entête de ce bloc. Avec la puissance de calcul moderne, parcourir les 4,29 milliards de valeurs possibles du nonce peut se faire relativement rapidement. C’est pourquoi il existe un autre champ, que l’on appelle généralement "*extra-nonce*", qui permet de démultiplier encore les possibilités de variation de l’entête. Nous reviendrons plus en détail sur ce mécanisme dans un prochain chapitre.
 
-### Quel est l'intérêt de cette preuve de travail ?
+### Quel est l'intérêt de la preuve de travail ?
 
 On parle de "*preuve*" parce que le résultat est immédiatement vérifiable : une fois un bloc produit, n’importe quel nœud peut contrôler, en une fraction de seconde, que l’empreinte cryptographique de son entête est bien inférieure à la cible exigée. On parle de "*travail*" parce que parvenir à cette empreinte a requis une multitude d’essais, donc un coût réel en calcul et en énergie.
 

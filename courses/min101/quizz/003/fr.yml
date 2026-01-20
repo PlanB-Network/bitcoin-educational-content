@@ -1,0 +1,9 @@
+question: Sur Bitcoin, quelle preuve sert le plus souvent à déverrouiller un UTXO ?
+answer: Une signature numérique
+wrong_answers:
+  - Un mot de passe de compte
+  - Un hash du bloc courant
+  - Un certificat SSL
+explanation: |
+  La condition de dépense attend généralement une signature produite avec la clé privée correspondante.
+reviewed: false

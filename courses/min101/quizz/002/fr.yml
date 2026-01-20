@@ -1,0 +1,9 @@
+question: À propos de la mempool, quel énoncé est correct ?
+answer: Chaque nœud a sa propre mempool
+wrong_answers:
+  - Il existe une mempool unique
+  - La mempool est un fichier contenu dans chaque bloc
+  - La mempool est un serveur central
+explanation: |
+  La mempool est locale à chaque nœud, donc son contenu peut varier d’un nœud à l’autre en fonction des règles que chacun applique.
+reviewed: false

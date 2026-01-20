@@ -1,0 +1,9 @@
+question: Qui est à l’origine du concept de Bit Gold ?
+answer: Nick Szabo
+wrong_answers:
+  - Satoshi Nakamoto
+  - Hal Finney
+  - Wei Dai
+explanation: |
+  Bit Gold est un projet conceptuel de système de monnaie électronique proposé par Nick Szabo.
+reviewed: false

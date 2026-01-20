@@ -1,0 +1,9 @@
+question: Quelle est la toute première pool de minage sur Bitcoin ?
+answer: Braiins Pool
+wrong_answers:
+  - Foundry USA
+  - AntPool
+  - F2Pool
+explanation: |
+  Braiins Pool, anciennement Slush Pool et Bitcoin CZ, est la première pool de minage sur Bitcoin, créée en 2010.
+reviewed: false

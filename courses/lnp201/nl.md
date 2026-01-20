@@ -1592,6 +1592,10 @@ We hebben gezien dat liquiditeitsbeheer een uitdaging is voor Lightning om een s
 ![LNP201](assets/en/084.webp)
 
 
+Nu u de theoretische werking van het Lightning Network hebt begrepen, kunt u overgaan tot de praktijk en uw eerste Lightning-node opzetten om meer autonomie in uw gebruik te verkrijgen. Volg hiervoor de cursus LNP 202:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
 # Laatste Sectie
 
 

@@ -1,0 +1,9 @@
+question: Data apa yang dapat diamati oleh operator kustodian Lightning wallet tentang penggunanya?
+answer: Semua aliran mereka
+wrong_answers:
+  - Identitas mereka
+  - Metadata pembayaran mereka, tetapi tanpa jumlahnya
+  - Biaya pembayaran mereka, tetapi tanpa jumlah
+explanation: |
+  Operator memiliki akses ke jumlah, frekuensi, penerima, dan kebiasaan pembayaran pengguna - singkatnya, dia dapat mengamati semuanya, meskipun layanan ini sering kali bebas KYC.
+reviewed: false

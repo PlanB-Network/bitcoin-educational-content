@@ -1,0 +1,9 @@
+question: Hoeveel woorden bevat de mnemonische zin LND?
+answer: 24 woorden
+wrong_answers:
+  - 10 woorden
+  - 18 woorden
+  - 36 woorden
+explanation: |
+  LND generate is een 24-woorden mnemonische zin voor back-up en herstel van knooppunten.
+reviewed: false

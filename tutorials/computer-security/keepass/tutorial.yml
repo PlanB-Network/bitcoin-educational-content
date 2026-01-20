@@ -1,5 +1,7 @@
 id: f8073bb7-5b4a-4664-9246-228e307be246
 
+last_update_date: 2024-08-31
+
 category: authentication
 
 level: beginner
@@ -18,145 +20,145 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 1.23
+    reward: 1.36
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.23
+    reward: 4.02
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.45
+    reward: 2.71
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.02
+    reward: 6.63
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.23
+    reward: 4.02
   - language: id
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - AgoesRichie
-    reward: 2.01
+    reward: 2.66
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.23
+    reward: 4.02
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.23
+    reward: 4.02
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.45
+    reward: 2.71
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.45
+    reward: 2.71
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.45
+    reward: 2.71
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.02
+    reward: 5.32
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.45
+    reward: 2.71
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.02
+    reward: 6.63
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.23
+    reward: 4.02
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.02
+    reward: 6.63
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.23
+    reward: 4.02
   - language: sr-Latn
     last_contribution_date: '2025-08-19'
     urgency: 1
     contributor_names:
       - Sanja22B
-    reward: 1.62
+    reward: 2.66
   - language: sw
     last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
       - Tinnah924
-    reward: 1.62
+    reward: 2.01
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.02
+    reward: 5.32
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.23
+    reward: 4.02
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.45
+    reward: 2.71
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.23
+    reward: 4.02
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.02
+    reward: 5.32
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.02
+    reward: 5.32
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.02
+    reward: 6.63
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.23
+    reward: 4.02
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.02
+    reward: 5.32
 tags:
   - guides
   - personal-security

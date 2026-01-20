@@ -1,0 +1,9 @@
+question: Kondisi apa yang membuat penalti Lightning menjadi efektif?
+answer: Deteksi sebelum akhir penguncian waktu
+wrong_answers:
+  - Deteksi sebelum penguncian waktu dimulai
+  - Deteksi pra-pelepasan TX yang curang
+  - Deteksi setelah akhir penguncian waktu
+explanation: |
+  Transaksi keadilan harus dirilis sebelum penguncian waktu berakhir untuk memberikan sanksi terhadap kecurangan. Transaksi ini tidak dapat dirilis sebelum timelock dimulai atau TX diterbitkan, karena ini berarti kecurangan tidak terjadi.
+reviewed: false

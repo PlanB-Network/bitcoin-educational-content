@@ -1,0 +1,9 @@
+question: Hangi dosya LND'ın ayrıntılı kanal durumunu içerir?
+answer: channel.db
+wrong_answers:
+  - wallet.db
+  - lightning.db
+  - eşler.db
+explanation: |
+  Channel.db dosyası kanal durumlarını, eşleri ve commitment transaction'leri depolar.
+reviewed: false

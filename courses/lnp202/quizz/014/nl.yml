@@ -1,0 +1,9 @@
+question: Welke gemeenschappelijke kenmerken hebben Aqua en Bull Bitcoin Wallet?
+answer: Bliksem atoomwisselingen
+wrong_answers:
+  - Native Lightning-kanalen
+  - Gecentraliseerde bewaring
+  - Geïntegreerd Lightning-knooppunt
+explanation: |
+  Deze wallet's gebruiken atomaire swaps om Lightning-facturen te betalen zonder een Lightning-knooppunt direct op je telefoon te gebruiken en terwijl ze in zelfbehoud blijven.
+reviewed: false

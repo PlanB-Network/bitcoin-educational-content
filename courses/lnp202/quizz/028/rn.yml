@@ -1,0 +1,9 @@
+question: Ni uruhara uruhe watchtower ifise iyo ibonye ko hari uwugerageza guhenda?
+answer: Gutangaza igihano
+wrong_answers:
+  - Funga umurongo mu bufatanye
+  - Gufunga amafranga
+  - Raporo y'umugenzi kuri Bitcoin Core
+explanation: |
+  Umunara w’inderetsi uhita utangaza igihano c’ugucuruza mu izina ry’uwuwukoresha.
+reviewed: false

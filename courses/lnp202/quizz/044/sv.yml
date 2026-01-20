@@ -1,0 +1,9 @@
+question: Vilken roll spelar ThunderHub i förhållande till din LND-nod?
+answer: Interface-hantering
+wrong_answers:
+  - Blixtsnabb implementering
+  - Vaktmästarservice
+  - Routing-nod
+explanation: |
+  ThunderHub är ett gränssnitt som ansluter till LND för att hantera noden.
+reviewed: false

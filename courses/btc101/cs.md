@@ -39,39 +39,11 @@ V tomto kurzu probereme některé peněžní aspekty bitcoinu, včetně toho, ja
 
 Je nutné si uvědomit, že Bitcoin je nový peněžní systém, který zcela mění náš vztah k penězům, takže naučit se ho používat je nezbytnou dovedností pro každého, kdo chce mít kontrolu nad svými vlastními prostředky.
 
-**Sekce 1 - Úvod**  
-- Kapitola 1 - Přehled kurzu  
-- Kapitola 2 - Prehistorie Bitcoinu  
 
-**Sekce 2 - Peníze**  
-- Kapitola 3 - Peníze napříč historií  
-- Kapitola 4 - Fiat měny  
-- Kapitola 5 - Hyperinflace  
-- Kapitola 6 - 21 milionů bitcoinů  
 
-**Sekce 3 - Bitcoinové peněženky**  
-- Kapitola 7 - Co je to bitcoinová peněženka?  
-- Kapitola 8 - Bitcoinové peněženky a bezpečnost  
-- Kapitola 9 - Nastavení peněženky  
-- Kapitola 10 - Překonání zkoušky času  
 
-**Sekce 4 - Technické aspekty Bitcoinu**  
-- Kapitola 11 - Spuštění Bitcoinu  
-- Kapitola 12 - Bitcoinové transakce  
-- Kapitola 13 - Bitcoinové uzly  
-- Kapitola 14 - Mineři  
-- Kapitola 15 - Bitcoin a ekologie  
 
-**Sekce 5 - Jak získat bitcoiny?**  
-- Kapitola 16 - Bitcoin nikdy nespí!  
-- Kapitola 17 - Získání bitcoinů prací  
-- Kapitola 18 - Spoření s Bitcoinem  
-- Kapitola 19 - Hyperbitcoinizace  
 
-**Sekce 6 - Budoucnost Bitcoinu: Lightning Network**  
-- Kapitola 20 - Stručný úvod do Lightning Network  
-- Kapitola 21 - Případové použití Lightning Network  
-- Kapitola 22 - Červená pilulka nebo modrá pilulka?  
 
 Než se seznámíme s definicí peněz a jejich funkcí ve společnosti (kapitola 1), měli bychom začít od vzniku Bitcoinu. Bitcoin, který byl uveden na trh v roce 2009, je relativně nová technologie, která se liší od všech ostatních. Je proto normální, že o něm nepochopíme všechno a najednou. Stejně jako když se učíte používat internet nebo řídit auto, nemusíte hned znát všechny technické detaily: můžete začít tím, že se naučíte přijímat, platit a zabezpečovat své finanční prostředky, a pak po malých krocích Bitcoin studovat hlouběji.
 
@@ -717,7 +689,7 @@ V roce 2010, kdy Bitcoin začal přitahovat pozornost médií, se Satoshi rozhod
 
 Pro některé je Bitcoin definován jako houbová entita, jako [mycelium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), zatímco jiní ho popisují jako [černou díru](https://dergigi.com/). Ať už ho milujete, nebo nenávidíte, Bitcoin nadále existuje, se svým stálým rytmem 10 minut na blok, jako tlukot srdce nového peněžního systému.
 
-Chcete-li se o Satoshi Nakamotovi dozvědět více, doporučujeme přečíst si ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) od Phila Champagneho nebo dokumentární film od ARTE "Le mystaire Satoshi".
+Pro hlubší porozumění spisům Satoshiho Nakamota doporučuji knihu [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) od Phila Champagnea, která shromažďuje a zasazuje do kontextu jeho hlavní texty, a také dokument stanice ARTE [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), jenž nabízí přístupné a dobře zdokumentované pátrání po jeho identitě a odkazu.
 
 ![image](assets/cs/044.webp)
 

@@ -1,0 +1,9 @@
+question: ThunderHub, LND düğümünüzle ilişkili olarak nasıl bir rol oynuyor?
+answer: Interface yönetimi
+wrong_answers:
+  - Yıldırım uygulaması
+  - Gözetim hizmeti
+  - Yönlendirme düğümü
+explanation: |
+  ThunderHub, düğümü yönetmek için LND'e bağlanan bir arayüzdür.
+reviewed: false

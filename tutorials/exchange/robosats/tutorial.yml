@@ -1,5 +1,7 @@
 id: b60e4f7c-533a-4295-9f6d-5368152e8c06
 
+last_update_date: 2024-09-01
+
 level: intermediate
 
 category: peer-to-peer
@@ -17,148 +19,148 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.76
+    reward: 3.01
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.6
+    reward: 2.04
   - language: en
     last_contribution_date: 2024-09-01
     urgency: 1
     contributor_names:
       - Asi0Flammeus
-    reward: 1.8
+    reward: 1.02
   - language: es
     last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
       - Salgraphics
-    reward: 1.8
+    reward: 1.02
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.76
+    reward: 3.01
   - language: fr
     last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
       - marshal-opsource
-    reward: 1.8
+    reward: 1.02
   - language: it
     last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
       - SatoSats
-    reward: 1.8
+    reward: 1.02
   - language: ja
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - yutaro21jp
-    reward: 2.96
+    reward: 2.48
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.6
+    reward: 2.04
   - language: ru
     last_contribution_date: 2025-05-14
     urgency: 1
     contributor_names:
       - Reshetenko
-    reward: 2.38
+    reward: 1.51
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.93
+    reward: 4.96
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.76
+    reward: 3.01
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.93
+    reward: 3.99
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.93
+    reward: 3.99
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.76
+    reward: 3.01
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.93
+    reward: 4.96
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.76
+    reward: 3.01
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.76
+    reward: 3.99
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.76
+    reward: 3.01
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.93
+    reward: 3.99
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.76
+    reward: 3.01
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 3.6
+    reward: 2.04
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.76
+    reward: 3.01
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.93
+    reward: 3.99
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.93
+    reward: 3.99
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.93
+    reward: 4.96
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.76
+    reward: 3.01
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 5.93
+    reward: 3.99
 tags:
   - guides
   - privacy

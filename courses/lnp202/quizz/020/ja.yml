@@ -1,0 +1,9 @@
+question: 古いchannel.dbのリストアはなぜ危険なのか？
+answer: ペナルティ・リスク
+wrong_answers:
+  - seedの喪失
+  - ゴシップ汚職
+  - ルーティングのブロック
+explanation: |
+  古い状態は不正行為と解釈され、チャンネル資金を失うことになる。
+reviewed: false

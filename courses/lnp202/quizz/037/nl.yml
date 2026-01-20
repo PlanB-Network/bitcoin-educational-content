@@ -1,0 +1,9 @@
+question: Wat is de topprioriteit van een Lightning-handelaar?
+answer: Verwerving van inkomende liquiditeit
+wrong_answers:
+  - Verwerven van uitgaande liquiditeit
+  - Besparingen op routingkosten
+  - Goede LN+ beoordelingen krijgen
+explanation: |
+  Een winkelier moet kunnen incasseren zonder faillissement, wat voldoende inkomende liquiditeit vereist.
+reviewed: false

@@ -423,7 +423,7 @@ Contoh ilustrasi MMT adalah kompleks industri militer Amerika. Menurut MMT, ratu
 Jepang sering dikutip oleh para pendukung MMT sebagai contoh lain dari tidak adanya inflasi meskipun ada pencetakan uang yang signifikan. Namun, situasi di Jepang juga menyoroti keterbatasan ukuran inflasi tradisional, seperti Indeks Harga Konsumen (IHK). Di Jepang, sebagian besar uang yang dicetak ditabung atau diinvestasikan di real estate atau pasar saham, daripada dibelanjakan untuk konsumsi saat ini. CPI, dengan tidak sepenuhnya menangkap dinamika ini, dapat meremehkan inflasi yang sebenarnya.
 
 
-Analisis Jepang (https://ideas.repec.org/p/ces/ceswps/_9821.html) juga menyoroti bahwa perilaku pelaku ekonomi, seperti menabung atau berinvestasi pada aset yang tidak termasuk dalam IHK, dapat menutupi dampak inflasi dari pencetakan uang. Selain itu, kemampuan berbagai sektor untuk menyerap likuiditas yang disuntikkan memainkan peran penting dalam menentukan apakah inflasi terjadi.
+[Analisis Jepang](https://ideas.repec.org/p/ces/ceswps/_9821.html) juga menyoroti bahwa perilaku pelaku ekonomi, seperti menabung atau berinvestasi pada aset yang tidak termasuk dalam IHK, dapat menutupi dampak inflasioner dari pencetakan uang. Selain itu, kemampuan berbagai sektor untuk menyerap likuiditas yang disuntikkan memainkan peran krusial dalam muncul atau tidaknya inflasi.
 
 
 #### Neraca Bank dan Bank Sentral

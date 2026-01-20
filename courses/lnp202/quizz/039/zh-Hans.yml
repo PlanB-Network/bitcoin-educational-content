@@ -1,0 +1,9 @@
+question: 什么是 "闪电 "节点的流出流动性？
+answer: 支付能力
+wrong_answers:
+  - 连接能力
+  - 接收能力
+  - 关闭渠道的能力
+explanation: |
+  流出的流动资金代表运营商一方可用于支付的 sats。
+reviewed: false

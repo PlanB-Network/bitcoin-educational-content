@@ -1,5 +1,7 @@
 id: 5a0cd5df-29f1-4382-a817-975a96646e68
 
+last_update_date: 2024-08-31
+
 category: communication
 
 level: beginner
@@ -18,145 +20,145 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 0.87
+    reward: 0.96
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.28
+    reward: 2.82
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.73
+    reward: 1.92
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.82
+    reward: 4.64
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.28
+    reward: 2.82
   - language: id
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - AgoesRichie
-    reward: 1.41
+    reward: 1.86
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.28
+    reward: 2.82
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.28
+    reward: 2.82
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.73
+    reward: 1.92
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.73
+    reward: 1.92
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.73
+    reward: 1.92
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.82
+    reward: 3.73
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.73
+    reward: 1.92
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.82
+    reward: 4.64
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.28
+    reward: 2.82
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.82
+    reward: 4.64
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.28
+    reward: 2.82
   - language: sr-Latn
     last_contribution_date: '2025-08-19'
     urgency: 1
     contributor_names:
       - Sanja22B
-    reward: 1.14
+    reward: 1.86
   - language: sw
     last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
       - Tinnah924
-    reward: 1.14
+    reward: 1.41
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.82
+    reward: 3.73
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.28
+    reward: 2.82
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.73
+    reward: 1.92
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.28
+    reward: 2.82
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.82
+    reward: 3.73
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.82
+    reward: 3.73
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.82
+    reward: 4.64
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.28
+    reward: 2.82
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 2.82
+    reward: 3.73
 tags:
   - guides
   - user-friendly

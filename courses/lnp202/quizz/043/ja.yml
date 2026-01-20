@@ -1,0 +1,9 @@
+question: ライトニングに最適なチャンネル閉鎖は？
+answer: 協同組合閉鎖
+wrong_answers:
+  - 強制閉鎖
+  - 不正行為によるクロージング
+  - Watchtower閉鎖
+explanation: |
+  共同クロージングはより迅速で、オンチェーン手数料を選択できる。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Warum ist das Verbraucherprofil einfach zu verwalten?
+answer: Geringer Bedarf an Liquiditätszuflüssen
+wrong_answers:
+  - Kein Kanal erforderlich
+  - Geringer Bedarf an abfließender Liquidität
+  - Keine Sicherung erforderlich
+explanation: |
+  Die Verbraucher brauchen nicht viel Liquiditätszufluss, und die Zahlungsausgänge schaffen natürlich einen gewissen Liquiditätszufluss, ohne dass eine komplexe Strategie erforderlich ist.
+reviewed: false

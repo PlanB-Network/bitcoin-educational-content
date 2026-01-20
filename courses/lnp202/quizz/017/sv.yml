@@ -1,0 +1,9 @@
+question: Vad representerar saldot för Lightning wallet som visas i LND:s applikationsgränssnitt?
+answer: Summan av utgående likviditet
+wrong_answers:
+  - Summan av onchains
+  - Summan av inkommande likviditet
+  - Summan av kanalernas kapacitet
+explanation: |
+  Lightning-saldot motsvarar den sats som är tillgänglig för att spenderas via kanalerna, dvs. summan av utgående likviditet från alla nodens kanaler.
+reviewed: false

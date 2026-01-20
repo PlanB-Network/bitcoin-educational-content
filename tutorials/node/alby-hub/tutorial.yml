@@ -1,5 +1,6 @@
 id: 62e6356c-6a6d-4134-8f22-c3b6afb9882a
 
+last_update_date: 2024-12-04
 
 category: lightning-network
 
@@ -20,146 +21,146 @@ proofreading:
     contributor_names:
       - LoicPandul
       - JosephQuaye
-    reward: 1.24
+    reward: 0
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.57
+    reward: 4.14
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.95
+    reward: 2.79
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.95
+    reward: 2.79
   - language: es
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - Salgraphics
-    reward: 2.47
+    reward: 1.4
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.57
+    reward: 4.14
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.57
+    reward: 4.14
   - language: id
     last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
       - 62maximalist
-    reward: 4.09
+    reward: 2.74
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.95
+    reward: 2.79
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.18
+    reward: 6.83
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.57
+    reward: 4.14
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.95
+    reward: 2.79
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.57
+    reward: 4.14
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.18
+    reward: 6.83
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.18
+    reward: 5.49
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.18
+    reward: 6.83
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.57
+    reward: 4.14
   - language: sr-Latn
     last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
       - Sanja22B
-    reward: 3.28
+    reward: 2.74
   - language: sw
     last_contribution_date: '2025-08-18'
     urgency: 1
     contributor_names:
       - monyangi10
-    reward: 3.28
+    reward: 2.07
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.18
+    reward: 5.49
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.57
+    reward: 4.14
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 4.95
+    reward: 2.79
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.57
+    reward: 4.14
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.18
+    reward: 5.49
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.18
+    reward: 5.49
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.18
+    reward: 6.83
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 6.57
+    reward: 4.14
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 8.18
+    reward: 5.49
 tags:
   - lightning
   - node

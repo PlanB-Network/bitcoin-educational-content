@@ -1,0 +1,9 @@
+question: Ni vipengele gani vya kawaida ambavyo Aqua na Bull Bitcoin Wallet vinashiriki?
+answer: Ubadilishaji wa atomiki ya umeme
+wrong_answers:
+  - Njia za Umeme Asilia
+  - Utunzaji wa kati
+  - Nodi ya Umeme Iliyounganishwa
+explanation: |
+  wallet hizi hutumia ubadilishaji wa atomiki kulipa ankara za Lightning bila kutumia nodi ya Lightning moja kwa moja kwenye simu yako na huku zikibaki chini ya ulinzi wa kibinafsi.
+reviewed: false

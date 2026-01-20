@@ -39,39 +39,11 @@ In questo corso discuteremo alcuni aspetti monetari di Bitcoin, tra cui come acq
 
 È essenziale capire che Bitcoin è un nuovo sistema monetario che cambia completamente il nostro rapporto con il denaro, quindi imparare a usarlo è una competenza necessaria per chiunque voglia avere il controllo dei propri fondi.
 
-**Sezione 1 - Introduzione**  
-- Capitolo 1 - Panoramica del corso  
-- Capitolo 2 - La preistoria di Bitcoin  
 
-**Sezione 2 - Il Denaro**  
-- Capitolo 3 - Che cos'è il denaro? 
-- Capitolo 4 - La moneta Fiat 
-- Capitolo 5 - Iperinflazione  
-- Capitolo 6 - La politica monetaria di Bitcoin  
 
-**Sezione 3 - Wallet Bitcoin**  
-- Capitolo 7 - Come funzionano i wallet Bitcoin?
-- Capitolo 8 - Scelta della sicurezza
-- Capitolo 9 - Impostazione del tuo wallet
-- Capitolo 10 - Salvaguardia nel tempo
 
-**Sezione 4 - Aspetti tecnici di Bitcoin**  
-- Capitolo 11 - Lancio di Bitcoin  
-- Capitolo 12 - Che cos'è una transazione?  
-- Capitolo 13 - Nodi Bitcoin  
-- Capitolo 14 - Miner  
-- Capitolo 15 - Miner ed ecologia 
 
-**Sezione 5 - Come ottenere bitcoin?**  
-- Capitolo 16 - Bitcoin non dorme mai!  
-- Capitolo 17 - Guadagnare bitcoin lavorando  
-- Capitolo 18 - Risparmiare con Bitcoin  
-- Capitolo 19 - L'iperbitcoinizzazione  
 
-**Sezione 6 - Il futuro di Bitcoin: Lightning Network**  
-- Capitolo 20 - Introduzione a Lightning Network  
-- Capitolo 21 - Casi d'uso per Lightning Network 
-- Capitolo 22 - Pillola rossa o pillola blu?
 
 Prima di introdurre la definizione di denaro e la sua funzione nella società (Capitolo 1), dovremmo partire dalla genesi di Bitcoin. Lanciato nel 2009, Bitcoin è una tecnologia relativamente nuova e diversa da qualsiasi altra. È quindi normale che non si riesca a capire tutto e subito. Proprio come quando si impara a usare Internet o a guidare un'automobile, non è necessario conoscere subito tutti i dettagli tecnici: si può iniziare imparando a ricevere, inviare e mettere al sicuro i propri fondi, per poi fare piccoli passi approfondendo l'argomento'.
 
@@ -716,7 +688,7 @@ centralmente come Napster, ma reti P2P pure come
 
 Per alcuni Bitcoin è definito un'entità fungina come un [micelio](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), mentre altri lo descrivono come un [buco nero](https://dergigi.com/). Che lo si ami o lo si odi, Bitcoin continua a esistere, con il suo ritmo costante di un blocco ogni 10 minuti, quasi fosse il battito del cuore di un nuovo sistema monetario.
 
-Per saperne di più sugli scritti di Satoshi Nakamoto, si consiglia la lettura di ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) di Phil Champagne o del documentario ARTE "Il mistero di Satoshi".
+Per approfondire gli scritti di Satoshi Nakamoto, consiglio la lettura di [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) di Phil Champagne, che raccoglie e contestualizza i suoi principali testi, nonché il documentario di ARTE [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), che propone un’indagine accessibile e ben documentata sulla sua identità e sul suo lascito.
 
 ![image](assets/it/044.webp)
 

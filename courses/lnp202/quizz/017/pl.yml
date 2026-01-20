@@ -1,0 +1,9 @@
+question: Co oznacza saldo Lightning wallet wyświetlane w interfejsie aplikacji LND?
+answer: Suma płynności wychodzącej
+wrong_answers:
+  - Suma łańcuchów
+  - Suma płynności przychodzącej
+  - Suma przepustowości kanałów
+explanation: |
+  Saldo Lightning odpowiada sats dostępnemu do wydania za pośrednictwem kanałów, tj. sumie płynności wychodzącej ze wszystkich kanałów węzła.
+reviewed: false

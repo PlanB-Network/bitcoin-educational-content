@@ -1,0 +1,9 @@
+question: LND + Tailscale + Zeus 配置的主要用途是什么？
+answer: 在 Lightning 节点上使用移动 wallet
+wrong_answers:
+  - 使用无 "闪电 "节点的托管 wallet
+  - 复用多个 LND 节点
+  - Mining sats 使用 Umbrel
+explanation: |
+  目的是使用一个移动 Lightning wallet 应用程序，在自己的节点上后台运行。
+reviewed: false

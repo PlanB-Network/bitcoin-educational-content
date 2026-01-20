@@ -1,0 +1,9 @@
+question: Kwa nini kuhifadhi nakala rudufu ya nodi ya Umeme ni ngumu zaidi kuliko wallet kwenye mnyororo wa Bitcoin?
+answer: Hali ya njia inabadilika
+wrong_answers:
+  - Ugavi wa chaneli hutegemea mempool
+  - Rekodi uvumi wa mtandao wa Lightning
+  - Funguo za kubatilisha muda wake huisha baada ya muda
+explanation: |
+  Njia za umeme hubadilisha hali kwa kila malipo, na kufanya nakala rudufu rahisi iliyorekebishwa au ya mara kwa mara kuwa hatari.
+reviewed: false

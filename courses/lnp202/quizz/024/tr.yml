@@ -1,0 +1,9 @@
+question: Bir Lightning düğümünü yedeklemek neden Bitcoin zincirindeki bir wallet'den daha karmaşıktır?
+answer: Kanalların durumu gelişiyor
+wrong_answers:
+  - Kanal likiditesi mempool'a bağlıdır
+  - Lightning ağ dedikodularını kaydedin
+  - İptal anahtarlarının süresi zamanla dolar
+explanation: |
+  Yıldırım kanalları her ödemede durum değiştirir, bu da basit bir sabit veya periyodik yedeklemeyi tehlikeli hale getirir.
+reviewed: false

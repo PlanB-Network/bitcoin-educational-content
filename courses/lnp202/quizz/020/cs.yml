@@ -1,0 +1,9 @@
+question: Proč je obnovení starého souboru channel.db nebezpečné?
+answer: Riziko sankce
+wrong_answers:
+  - Ztráta seed
+  - Korupce drby
+  - Blokování směrování
+explanation: |
+  Neaktuální stav může být vykládán jako pokus o podvod a vést ke ztrátě prostředků kanálu.
+reviewed: false

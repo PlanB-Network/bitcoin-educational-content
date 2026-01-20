@@ -1,0 +1,9 @@
+question: Proč je obtížné zajistit ziskové směrování v systému Lightning?
+answer: Náklady a hospodářská soutěž
+wrong_answers:
+  - Omezení kanálu
+  - Žádná žádost
+  - Nedostatek globální likvidity
+explanation: |
+  Náklady na řetězec, konkurence a provozní požadavky činí ziskovost směrování nejistou.
+reviewed: false

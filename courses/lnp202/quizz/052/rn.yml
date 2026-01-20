@@ -1,0 +1,9 @@
+question: Ni ikihe kintu kidasanzwe kiri kuri Android kivugwa ku bijanye n’ugukoresha Tailscale?
+answer: VPN imwe ku gihe
+wrong_answers:
+  - Bulutooth ni ngombwa kuri VPN
+  - DNS-ku-HTTPS ntihuye
+  - Bisaba imizi ya telefone
+explanation: |
+  Android ntikwemerera gukoresha VPN zibiri icarimwe, rero ukeneye guhagarika iyindi VPN yose ikora imbere yo gukoresha Tailscale.
+reviewed: false

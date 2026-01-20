@@ -1,0 +1,9 @@
+question: Qual é o risco financeiro de uma custódia do Lightning wallet?
+answer: Reserva fraccionada
+wrong_answers:
+  - Aumento arbitrário das taxas mining
+  - 51% de ataque
+  - Paragem definitiva do mercado em baixa
+explanation: |
+  O utilizador não pode verificar se os saldos apresentados correspondem efetivamente aos bitcoins detidos. Existe, portanto, um risco de reserva fraccionada.
+reviewed: false

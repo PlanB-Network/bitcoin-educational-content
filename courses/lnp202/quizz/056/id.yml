@@ -1,0 +1,9 @@
+question: Langkah mana yang segera mengikuti publikasi permintaan NWC oleh aplikasi seluler secara estafet?
+answer: Node mendekripsi dan memverifikasi otorisasi
+wrong_answers:
+  - Relai menandatangani permintaan untuk node
+  - Relay mengeksekusi pembayaran pada LND
+  - Node membuka saluran secara otomatis
+explanation: |
+  Node membaca peristiwa, mendekripsinya, lalu memeriksa apakah penulis memiliki izin sebelum menjalankan tindakan.
+reviewed: false

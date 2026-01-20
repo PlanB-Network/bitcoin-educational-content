@@ -1,0 +1,9 @@
+question: 託管業者對其使用者的付款有什麼權力？
+answer: 審查的權力
+wrong_answers:
+  - Mining 功率
+  - 共識的力量
+  - Halving 功率
+explanation: |
+  控制資金和管道的營運者可以攔截、延遲或過濾付款。
+reviewed: false

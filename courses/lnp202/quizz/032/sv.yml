@@ -1,0 +1,9 @@
+question: Varför undvika mycket stora noder för en första kanal?
+answer: Restriktiv politik
+wrong_answers:
+  - Låg anslutningsgrad
+  - För låga kostnader
+  - Bristande likviditet
+explanation: |
+  Mycket stora noder inför ofta höga minimibelopp och stänger lätt små kanaler.
+reviewed: false

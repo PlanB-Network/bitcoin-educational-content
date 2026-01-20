@@ -1,0 +1,9 @@
+question: Qual é a principal desvantagem do encerramento forçado?
+answer: Fundos bloqueados por timelock
+wrong_answers:
+  - Perda parcial de fundos
+  - Obsolescência do nó Lightning
+  - Dessincronização do nó do relâmpago
+explanation: |
+  Os fundos são bloqueados por um relógio e as comissões são frequentemente elevadas.
+reviewed: false

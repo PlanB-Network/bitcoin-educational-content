@@ -1,0 +1,9 @@
+question: ¿Cuáles son los requisitos previos para instalar LND en Umbrel?
+answer: Nodo Bitcoin sincronizado
+wrong_answers:
+  - Umbrel Cuenta Premium
+  - Canal del rayo existente
+  - Dirección del rayo activa
+explanation: |
+  LND depende de un nodo Bitcoin sincronizado al 100%, un requisito previo para su funcionamiento.
+reviewed: false

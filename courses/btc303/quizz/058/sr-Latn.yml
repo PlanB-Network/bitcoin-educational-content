@@ -1,9 +1,11 @@
-question: Prema zahtevima definicije otvorenog koda, kada je izvorni kod namerno zamagljen u distribuciji softvera otvorenog koda, mora biti dostupan u obliku koji omogućava modifikaciju i razumevanje.
-answer: Namerno zamagljen izvorni kod krši principe otvorenog koda i nije dozvoljen
+question: Prema zahtevima definicije otvorenog koda, šta se mora desiti kada je izvorni kod namerno zamaskiran u distribuciji softvera otvorenog koda?
+answer: Namerno zamaskiran izvorni kod krši principe otvorenog koda i nije dozvoljen
 wrong_answers:
-  - Zamagljeni kod mora biti praćen detaljnom dokumentacijom koja objašnjava njegovu funkcionalnost.
-  - Zamagljeni kod je prihvatljiv sve dok su obezbeđeni i kompajlirani binarni fajlovi.
-  - Zamagljeni kod mora biti dostupan putem posebnog preuzimanja uz troškove reprodukcije
+  - Zamaskiran kod mora biti praćen detaljnom dokumentacijom koja objašnjava njegovu funkcionalnost
+  - Zamaskiran kod je prihvatljiv sve dok su obezbeđeni i kompajlirani binarni fajlovi
+  - Zamaskiran kod mora biti dostupan putem posebnog preuzimanja uz troškove reprodukcije
 explanation: |
-  Definicija otvorenog koda eksplicitno navodi da 'namerno zamagljen izvorni kod nije dozvoljen.' Ovo je osnovni zahtev jer zamagljivanje sprečava smisleno ispitivanje, modifikaciju i razumevanje koda, što poništava osnovne svrhe softvera otvorenog koda. Izvorni kod mora biti u 'preferiranom obliku u kojem bi programer modifikovao program,' što čini zamagljivanje nekompatibilnim sa principima otvorenog koda bez obzira na dokumentaciju ili metode distribucije.
-reviewed: false
+  Definicija otvorenog koda eksplicitno navodi da 'namerno zamaskiran izvorni kod nije dozvoljen.' Ovo je osnovni zahtev jer maskiranje sprečava smisleno
+  ispitivanje, modifikaciju i razumevanje koda, što poništava osnovne svrhe softvera otvorenog koda. Izvorni kod mora biti u 'preferiranom obliku u kojem bi 
+  programer modifikovao program,' što čini maskiranje nekompatibilnim sa principima otvorenog koda bez obzira na dokumentaciju ili metode distribucije.
+reviewed: true

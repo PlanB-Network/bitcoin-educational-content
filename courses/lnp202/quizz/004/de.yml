@@ -1,0 +1,9 @@
+question: Womit muss ein Lightning-Knoten verbunden sein?
+answer: Ein Bitcoin-Knoten
+wrong_answers:
+  - Ein Bergmann
+  - Ein Blocksucher
+  - Ein föderierter Server
+explanation: |
+  Der Lightning-Knoten hängt von einem Bitcoin-Knoten ab, um auf Informationen aus der Hauptblockchain zuzugreifen.
+reviewed: false

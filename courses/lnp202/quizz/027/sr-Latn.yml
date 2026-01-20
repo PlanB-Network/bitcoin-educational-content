@@ -1,0 +1,9 @@
+question: Koje informacije dobija watchtower za praćenje varanja?
+answer: Delimični TXID transakcije varanja
+wrong_answers:
+  - Privatni ključ kanala
+  - Kompletan status kanala
+  - TXID varalice transakcije
+explanation: |
+  Stražarnica prima samo deo TXID-a varajuće transakcije kako bi identifikovala sumnjivu transakciju bez poznavanja kanala.
+reviewed: false

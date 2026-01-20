@@ -1,0 +1,9 @@
+question: โหนด Lightning ต้องเชื่อมต่อกับอะไร?
+answer: โหนด Bitcoin
+wrong_answers:
+  - คนงานเหมือง
+  - บล็อกเอ็กซ์พลอเรอร์
+  - เซิร์ฟเวอร์แบบสหพันธ์
+explanation: |
+  โหนด Lightning ขึ้นอยู่กับโหนด Bitcoin ในการเข้าถึงข้อมูลจากบล็อกเชนหลัก
+reviewed: false

@@ -1,0 +1,9 @@
+question: Was ist ein Lightning-Kanal aus Sicht der Bitcoin-Onchain?
+answer: Multisignatur Ausgang 2/2
+wrong_answers:
+  - Drehbuch P2MS 2/2
+  - UTXO einzeln
+  - Föderationsvertrag
+explanation: |
+  Onchain wird ein Lightning-Kanal durch eine Multisignatur-Ausgabe dargestellt, die die Unterschriften beider Teilnehmer erfordert.
+reviewed: false

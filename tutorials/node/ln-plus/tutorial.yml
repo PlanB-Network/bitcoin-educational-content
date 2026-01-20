@@ -1,0 +1,30 @@
+id: 1e21f3ad-7dca-43fd-b383-befabe7fd896
+
+last_update_date: 2026-01-19
+
+project_id: 456389ac-a73a-4f68-ae78-e4941cfb3626
+
+level: intermediate
+
+category: lightning-network
+
+professor_id: 47064624-48d3-4099-a3c2-3269a6213c2e
+
+license: CC-BY-SA-V4
+
+tags:
+  - lightning
+  - node
+  - guides
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2026-01-19
+    urgency: 1
+    contributor_names: 
+      - Bened45
+      - LoicPandul
+    reward: 0
+ 

@@ -1,0 +1,9 @@
+question: Ni ipi kati ya shughuli hizi za Umeme inayohitaji kuchapishwa kwa muamala wa onchain?
+answer: Kufunguliwa kwa kituo
+wrong_answers:
+  - Malipo ya umeme
+  - Uelekezaji wa njia nyingi
+  - Muunganisho wa mteja wa simu
+explanation: |
+  Kufunguliwa kwa chaneli kunalingana na muamala wa Bitcoin uliochapishwa kwenye blockchain.
+reviewed: false

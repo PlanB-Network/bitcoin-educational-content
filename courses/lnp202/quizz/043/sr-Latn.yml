@@ -1,0 +1,9 @@
+question: Koje zatvaranje kanala je najbolje za Lightning?
+answer: Kooperativno zatvaranje
+wrong_answers:
+  - Prinudno zatvaranje
+  - Zatvaranje sa varanjem
+  - Watchtower zatvaranje
+explanation: |
+  Kooperativno zatvaranje je brže i omogućava vam da izaberete naknade na lancu.
+reviewed: false

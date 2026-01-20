@@ -1,0 +1,9 @@
+question: Hvorfor skaper en utgående betaling automatisk inngående likviditet?
+answer: Skiftende likviditet
+wrong_answers:
+  - Opprette nye kanaler
+  - Kapasitetsøkning
+  - Lavere rutingkostnader
+explanation: |
+  En utgående betaling flytter sats til pari, noe som skaper innkommende likviditet på denne siden av kanalen.
+reviewed: false

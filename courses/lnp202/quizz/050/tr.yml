@@ -1,0 +1,9 @@
+question: LND + Tailscale + Zeus konfigürasyonunun temel amacı nedir?
+answer: Lightning düğümünüzde mobil bir wallet kullanma
+wrong_answers:
+  - Lightning düğümü olmadan gözetimli bir wallet kullanma
+  - Çoklu LND düğümlerini çoğullama
+  - Mining sats Umbrel kullanarak
+explanation: |
+  Amaç, kendi düğümünüzde arka planda çalışan bir mobil Lightning wallet uygulaması kullanmaktır.
+reviewed: false

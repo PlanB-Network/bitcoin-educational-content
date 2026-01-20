@@ -1,0 +1,9 @@
+question: Che cosa può dedurre una watchtower in funzionamento normale dal canale che sta proteggendo?
+answer: Con quale frequenza viene aggiornato il suo stato
+wrong_answers:
+  - Assegnazione di Liquidity
+  - La sua capacità
+  - Politica delle spese
+explanation: |
+  Riceve pacchetti criptati per ogni nuovo stato, rivelando solo il normale tasso di attività.
+reviewed: false

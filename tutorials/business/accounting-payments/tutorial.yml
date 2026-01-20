@@ -1,5 +1,7 @@
 id: cb4da704-8857-4301-bd8b-e776e6fde136
 
+last_update_date: 2025-08-03
+
 category: others
 
 level: beginner
@@ -18,144 +20,144 @@ proofreading:
     urgency: 1
     contributor_names:
       - PaoloFoti
-    reward: 0.51
+    reward: 0.56
   - language: it
     last_contribution_date: 2025-08-03
     urgency: 1
     contributor_names:
       - PaoloFoti
-    reward: 0.51
+    reward: 0.56
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.32
+    reward: 1.63
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.02
+    reward: 1.12
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.02
+    reward: 1.12
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.32
+    reward: 1.63
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.32
+    reward: 1.63
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.32
+    reward: 1.63
   - language: fr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.02
+    reward: 1.12
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.63
+    reward: 2.65
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.63
+    reward: 2.14
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.63
+    reward: 2.65
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.32
+    reward: 1.63
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.32
+    reward: 1.63
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.32
+    reward: 1.63
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.02
+    reward: 1.12
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.32
+    reward: 1.63
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.32
+    reward: 2.14
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.02
+    reward: 1.12
   - language: sw
     last_contribution_date: '2025-12-29'
     urgency: 1
     contributor_names:
       - Tinnah924
-    reward: 0.66
+    reward: 0.81
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.63
+    reward: 2.14
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.63
+    reward: 2.65
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.63
+    reward: 2.14
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.63
+    reward: 2.14
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.63
+    reward: 2.14
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.63
+    reward: 2.65
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.32
+    reward: 1.63
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.63
+    reward: 2.14
 tags:
   - regulation
   - business

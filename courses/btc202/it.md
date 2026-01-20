@@ -2513,7 +2513,7 @@ Infine, ti consiglio l'applicazione *Lightning Network+*, che ti permette di tro
 
 
 
-Grazie a Umbrel, la gestione di un nodo Lightning personale è stata notevolmente semplificata, ma è ancora relativamente complessa. Per questo motivo, approfondiremo l'argomento in un prossimo corso interamente dedicato a questo utilizzo.
+Grazie a Umbrel, la gestione di un nodo Lightning personale è semplificata, ma rimane comunque relativamente complessa. Per questo motivo vi consiglio di seguire il corso LNP 202, che rappresenta il naturale proseguimento del corso BTC 202 e nel quale vi accompagno passo dopo passo nell’installazione e nella gestione del vostro nodo Lightning su Umbrel.
 
 
 
@@ -3893,8 +3893,9 @@ Ora potrai passare alla parte finale del corso, dove potrai valutare il corso BT
 Ora hai diverse opzioni a disposizione. Il passo logico successivo è quello di creare un proprio nodo Lightning, che ti permetta di essere completamente indipendenti per le tue transazioni off-chain. Questo sarà l'argomento di un prossimo corso, che sarà pubblicato nell'autunno del 2025 sul Plan ₿ Academy.
 
 
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
-Nel frattempo, ti invito a scoprire la formazione BTC 204, che ti consentirà di comprendere e padroneggiare i principi di protezione della privacy nell'utilizzo di Bitcoin:
+Nel frattempo, ti invito a scoprire il corso BTC 204, che ti consentirà di comprendere e padroneggiare i principi di protezione della privacy nell'utilizzo di Bitcoin:
 
 
 

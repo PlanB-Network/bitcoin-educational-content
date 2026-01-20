@@ -1,0 +1,9 @@
+question: Varför är konsumentprofilen lätt att hantera?
+answer: Litet behov av inkommande likviditet
+wrong_answers:
+  - Ingen kanal krävs
+  - Litet behov av utgående likviditet
+  - Inget behov av backup
+explanation: |
+  Konsumenterna behöver inte så mycket inkommande likviditet, och utgående betalningar skapar naturligt en del inkommande likviditet utan någon komplicerad strategi.
+reviewed: false

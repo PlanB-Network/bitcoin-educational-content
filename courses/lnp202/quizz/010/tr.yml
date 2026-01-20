@@ -1,0 +1,9 @@
+question: Lightning çözümü seçiminizi hangi kriterler belirliyor?
+answer: Kullanım sıklığı ve yönetme istekliliği
+wrong_answers:
+  - Değiş tokuş edilen miktarlar ve protokol hızı
+  - Coğrafi konum ve eğitim
+  - Risk toleransı ve yazılım tasarımı
+explanation: |
+  Seçim esas olarak Lightning'in ne sıklıkta kullanıldığına ve teknik yönetimi ne kadar sevdiğinize bağlıdır.
+reviewed: false

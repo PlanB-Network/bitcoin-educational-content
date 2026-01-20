@@ -1,0 +1,9 @@
+question: Hvorfor er det farlig å gjenopprette en gammel channel.db?
+answer: Risiko for straff
+wrong_answers:
+  - Tap av seed
+  - Sladder og korrupsjon
+  - Blokkering av ruting
+explanation: |
+  En utdatert tilstand kan tolkes som et forsøk på juks og føre til tap av kanalmidler.
+reviewed: false

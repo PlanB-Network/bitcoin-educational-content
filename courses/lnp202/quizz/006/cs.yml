@@ -1,0 +1,9 @@
+question: Jaké je finanční riziko v případě úschovného účtu Lightning wallet?
+answer: Frakční rezerva
+wrong_answers:
+  - Svévolné zvýšení poplatků mining
+  - 51% útok
+  - Definitivní zastavení medvědího trhu
+explanation: |
+  Uživatel nemůže ověřit, zda zobrazené zůstatky skutečně odpovídají drženým bitcoinům. Existuje tedy riziko částečné rezervy.
+reviewed: false

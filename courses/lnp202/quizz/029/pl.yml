@@ -1,0 +1,9 @@
+question: Jakie jest główne zagrożenie, któremu ma zapobiegać wieża strażnicza?
+answer: Oszukiwanie ze starym państwem
+wrong_answers:
+  - 51% ataku
+  - Kradzież nasion
+  - Oszukiwanie z nowym stanem
+explanation: |
+  Wieża strażnicza chroni przed publikacją starego stanu kanału mającego na celu defraudację funduszy.
+reviewed: false

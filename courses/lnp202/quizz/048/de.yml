@@ -1,0 +1,9 @@
+question: Welche kostenlose Lösung für eingehende Liquidität basiert auf Zusammenarbeit?
+answer: LN+
+wrong_answers:
+  - Magma
+  - Boltz
+  - 1ML
+explanation: |
+  Lightning Network Plus sorgt über kreisförmige Kanalöffnungen für eingehende Liquidität.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Каково основное назначение конфигурации LND + Tailscale + Zeus?
+answer: Использование мобильного wallet на узле Lightning
+wrong_answers:
+  - Использование хранителя wallet без узла Lightning
+  - Мультиплексирование нескольких узлов LND
+  - Mining sats с использованием Umbrel
+explanation: |
+  Цель состоит в том, чтобы использовать мобильное приложение Lightning wallet, которое работает в фоновом режиме на вашем собственном узле.
+reviewed: false

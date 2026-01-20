@@ -1,5 +1,7 @@
 id: 61019fbd-deb7-4b3c-8cda-0402a4b2e780
 
+last_update_date: 2025-02-13
+
 project_id: 9e772cca-d361-49f2-96d3-0607dcde0403
 
 category: mobile
@@ -20,143 +22,143 @@ proofreading:
     contributor_names:
       - Pivii
       - nrak10
-    reward: 0.29
+    reward: 0
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.52
+    reward: 1.87
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.16
+    reward: 1.28
   - language: en
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.16
+    reward: 1.28
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.16
+    reward: 1.28
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.52
+    reward: 1.87
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.52
+    reward: 1.87
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.87
+    reward: 2.46
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.16
+    reward: 1.28
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.87
+    reward: 3.05
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.52
+    reward: 1.87
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.16
+    reward: 1.28
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.52
+    reward: 1.87
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.87
+    reward: 2.46
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.87
+    reward: 3.05
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.87
+    reward: 3.05
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.52
+    reward: 1.87
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.52
+    reward: 2.46
   - language: sw
     last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
       - Tinnah924
-    reward: 0.76
+    reward: 0.94
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.87
+    reward: 2.46
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.52
+    reward: 1.87
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.16
+    reward: 1.28
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.52
+    reward: 1.87
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.87
+    reward: 2.46
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.87
+    reward: 2.46
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.87
+    reward: 3.05
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.52
+    reward: 1.87
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 1.87
+    reward: 2.46
 tags:
   - lightning
   - wallets

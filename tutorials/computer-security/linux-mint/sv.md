@@ -56,7 +56,6 @@ Undvik:
 - Chromebooks - ofta är lagringskapaciteten för låg
 - Alla datorer med en eMMC-enhet; om den har en SSD-enhet är det perfekt
 - Mac-datorer - de är dyra, och hårdvaran fungerar inte bra med Linux-operativsystem enligt min erfarenhet
-- Allt som är renoverat eller begagnat (dock inte en absolut deal-breaker)
 
 
 Leta istället efter en bärbar dator med Windows 11 (Windows 11 är för närvarande den senaste versionen. Vi kommer att bli av med den programvaran, oroa dig inte.). Jag sökte på amazon.com efter "Windows 11 Laptop" och hittade det här bra exemplet:

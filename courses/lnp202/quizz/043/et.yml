@@ -1,0 +1,9 @@
+question: Milline kanali sulgemine on Lightningi jaoks parim?
+answer: Ühistegevuse lõpetamine
+wrong_answers:
+  - Sulgemine sunniviisiliselt
+  - Sulgemine petmisega
+  - Watchtower sulgemine
+explanation: |
+  Ühistu sulgemine on kiirem ja võimaldab teil valida onchain tasud.
+reviewed: false

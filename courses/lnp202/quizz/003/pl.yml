@@ -1,0 +1,9 @@
+question: Która z tych operacji Lightning wymaga opublikowania transakcji onchain?
+answer: Otwarcie kanału
+wrong_answers:
+  - Błyskawiczna płatność
+  - Routing z wieloma przeskokami
+  - Połączenie z klientem mobilnym
+explanation: |
+  Otwarcie kanału odpowiada transakcji Bitcoin opublikowanej w łańcuchu bloków.
+reviewed: false

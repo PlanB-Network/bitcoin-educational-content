@@ -1,0 +1,9 @@
+question: Mis on LND-le omase seed formaadi nimi?
+answer: aezeed
+wrong_answers:
+  - BIP39
+  - inseed
+  - BIP32
+explanation: |
+  LND kasutab spetsiaalset seed, mida nimetatakse aezeediks ja mis erineb klassilisest BIP39 seed-st.
+reviewed: false

@@ -23,7 +23,7 @@ Desde a Antiguidade até o Iluminismo, a liberdade ascendeu à medida que as soc
 
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
-Bem-vindo ao curso PHI201!
+Bem-vindo ao curso PHI101!
 
 Este curso convida você a explorar a evolução da liberdade ao longo da história, analisando as principais correntes de pensamento que a moldaram. Você descobrirá como o conceito de liberdade foi construído ao longo dos séculos, seja em oposição ou em colaboração com o poder, através de uma jornada histórica que vai da Antiguidade aos debates contemporâneos.
 

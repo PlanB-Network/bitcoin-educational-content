@@ -1,0 +1,9 @@
+question: Que dados pode um operador de guarda do Lightning wallet observar sobre os seus utilizadores?
+answer: Todos os seus fluxos
+wrong_answers:
+  - As suas identidades
+  - Os metadados dos seus pagamentos, mas sem os montantes
+  - Os custos dos seus pagamentos, mas sem os montantes
+explanation: |
+  O operador tem acesso aos montantes, às frequências, aos destinatários e aos hábitos de pagamento do utilizador - em suma, pode observar tudo, apesar de estes serviços serem frequentemente isentos de KYC.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Apa yang dapat disimpulkan oleh menara pengawas dalam operasi normal tentang saluran yang dilindunginya?
+answer: Seberapa sering statusnya diperbarui
+wrong_answers:
+  - Alokasi Liquidity
+  - Kapasitasnya
+  - Kebijakan pengeluaran
+explanation: |
+  Ia menerima paket terenkripsi untuk setiap status baru, hanya mengungkapkan tingkat aktivitas normal.
+reviewed: false

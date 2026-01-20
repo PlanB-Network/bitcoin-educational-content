@@ -1,0 +1,9 @@
+question: ライトニング・ノードは何に接続しなければならないのか？
+answer: Bitcoinノード
+wrong_answers:
+  - 鉱夫
+  - ブロック・エクスプローラー
+  - 連合サーバー
+explanation: |
+  ライトニング・ノードは、メインのブロックチェーンから情報にアクセスするためにBitcoinノードに依存している。
+reviewed: false

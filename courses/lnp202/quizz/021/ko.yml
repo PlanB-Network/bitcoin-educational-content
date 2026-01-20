@@ -1,0 +1,9 @@
+question: LND의 자세한 채널 상태가 포함된 파일은 무엇인가요?
+answer: channel.db
+wrong_answers:
+  - wallet.db
+  - lightning.db
+  - peers.db
+explanation: |
+  Channel.db 파일은 채널 상태, 피어 및 commitment transaction를 저장합니다.
+reviewed: false

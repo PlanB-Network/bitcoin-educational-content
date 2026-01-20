@@ -397,7 +397,7 @@ const rl = readline.createInterface({
 3. **Experiment** with different built-in modules
 4. **Practice** the require/module.exports pattern
 
-#### Prepare for Lesson 2
+#### Prepare for the next Lesson
 In our next lesson, we'll dive into building our first server using Express.js. We'll cover:
 - Setting up an Express server
 - Creating routes and endpoints
@@ -416,7 +416,7 @@ Every expert was once a beginner. Node.js might seem overwhelming at first, but 
 
 The journey from frontend to full-stack developer starts with this single step. You're not just learning Node.js – you're building the foundation for creating powerful, scalable applications that can handle real-world traffic and solve real problems.
 
-Ready to build your first server? Let's continue to Lesson 2! 🚀 
+Ready to build your first server? Let's continue to the next Lesson! 🚀 
 
 # Building APIs with Express
 <partId>159cb08d-a0de-4259-94cb-a5c7df238ac1</partId>
@@ -1052,7 +1052,7 @@ server.post("/users", (req, res) => {
 
 
 #### What's Coming Next
-In Lesson 3, we'll dive deeper into:
+In the next Lesson, we'll dive deeper into:
 - Advanced routing with Express Router
 - Database integration with SQL
 - User authentication and authorization
@@ -1103,7 +1103,7 @@ This foundation is crucial for everything we'll build in the rest of the course.
 
 The journey from understanding Node.js to building production-ready APIs is well underway. You're not just learning Express.js - you're mastering the patterns and practices that power modern web applications.
 
-Ready to add a database to your server? Let's continue to Lesson 3! 🚀 
+Ready to add a database to your server? Let's continue to next Lesson! 🚀 
 
 
 ## Modular Routing
@@ -1457,8 +1457,10 @@ In this lesson, we covered:
 We now have a solid foundation for our pleb-wallet-backend with organized, testable endpoints ready for the next phase of development! 
 
 
+# API Security & Authentication with Express
+<partId>9ed87758-5c2c-4ec0-9a94-392e780376e2</partId>
 
-## Lesson 4: Express Middleware Logic
+## Express Middleware Logic
 <chapterId>07e08ea3-904a-44c0-a7ed-4cdac8c2dc98</chapterId>
 
 
@@ -1958,7 +1960,7 @@ In the next lesson, we'll dive deeper into custom middleware by building our own
 
 ---
 
-*Great job completing Lesson 4! You've successfully enhanced your server with essential middleware for security, logging, and development efficiency. Your Pleb Wallet backend is becoming more robust and production-ready with each lesson.* 
+*Great job completing this Lesson! You've successfully enhanced your server with essential middleware for security, logging, and development efficiency. Your Pleb Wallet backend is becoming more robust and production-ready with each lesson.* 
 
 
 ## JWT Authentication & Hashing
@@ -4349,7 +4351,7 @@ Now let's apply what we've learned to create the actual database tables for our 
 
 #### Our Database Schema
 
-Based on our design from Lesson 8, we need two tables:
+Based on our design from the last Lesson, we need two tables:
 
 ##### Users Table
 Stores information about wallet users:
@@ -7452,7 +7454,7 @@ Remember: This is just the beginning. The patterns and techniques you've learned
 # Production Deployment
 <partId>ccc611f9-4369-4e18-a096-758cde12a97b</partId>
 
-## Lesson 13: Deploy Your Production Database and Node
+## Deploy Your Production Database and Node
 <chapterId>f2f066a1-63a5-4a8a-9d92-32ba07d8a645</chapterId>
 
 

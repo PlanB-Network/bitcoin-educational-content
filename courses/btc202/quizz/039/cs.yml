@@ -1,8 +1,8 @@
 question: Jaká je doporučená minimální kapacita SSD v roce 2025 pro uzel Bitcoin?
-answer: 2 Chcete-li
+answer: 2 TB
 wrong_answers:
   - 512 GB
-  - 10 To
+  - 10 TB
   - 256 GB
 explanation: |
   Při velikosti Blockchain přesahující 700 GB a dalších aplikacích se 2 TB staly rozumným minimem.

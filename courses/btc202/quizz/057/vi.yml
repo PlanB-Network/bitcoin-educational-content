@@ -1,9 +1,9 @@
 question: Tùy chọn máy chủ Sparrow wallet nào tương ứng với kết nối RPC?
-answer: Bitcoin core
+answer: Bitcoin Core
 wrong_answers:
-  - Máy chủ công cộng
-  - Electrum riêng tư
-  - API từ xa
+  - Public Server
+  - Private Electrum
+  - Remote API
 explanation: |
   Trong Sparrow, tùy chọn Bitcoin core tương ứng với kết nối trực tiếp tới nút thông qua RPC.
 reviewed: true

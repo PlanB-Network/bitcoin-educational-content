@@ -6,8 +6,8 @@ objectives:
 
   - Kuelewa kuibuka na mageuzi ya aina mbalimbali za fedha katika historia
   - Kuchambua mifumo ya fedha ya ustaarabu mkubwa na himaya
-  - Soma mpito kutoka kwa pesa za chuma hadi karatasi na mfumo wa fiat
-  - Kuchunguza nafasi ya benki na benki kuu katika maendeleo ya fedha
+  - Soma mpito kutoka kwa pesa za chuma hadi kwa karatasi na mfumo wa fiat
+  - Kuchunguza nafasi ya benki na benki kuu katika maendeleo ya kifedha
   - Anzisha uhusiano kati ya historia ya fedha na migogoro ya kiuchumi ya kisasa
 
 
@@ -17,7 +17,7 @@ objectives:
 
 
 
-Kozi hii ya kuvutia itakupeleka kwenye uchunguzi wa mageuzi ya kuvutia ya pesa kutoka kwa ustaarabu wa awali hadi mfumo wetu wa sasa wa fedha. Tutavuka enzi, kutoka Neolithic hadi nyakati za kisasa, tukigundua jinsi pesa imeundwa na kutengenezwa na ustaarabu mkuu wa wanadamu. Kutoka kwa proto-pesa ya Mesopotamia hadi sarafu ya siri, sarafu za Lydia, florin ya Renaissance, na ujio wa benki kuu - kozi hii inatoa mtazamo wa kina juu ya mojawapo ya nguzo za msingi za jamii zetu.
+Kozi hii ya kuvutia itakupeleka kwenye uchunguzi wa mageuzi ya kuvutia ya pesa kutoka kwa ustaarabu wa awali hadi mfumo wetu wa sasa wa fedha. Tutavuka enzi, kutoka Neolithic hadi nyakati za kisasa, tukigundua jinsi pesa zimeundwa na kutengenezwa kwa ustaarabu mkuu wa wanadamu. Kutoka kwa proto-pesa ya Mesopotamia hadi sarafu ya siri, sarafu za Lydia, florin ya Renaissance, na ujio wa benki kuu - kozi hii inatoa mtazamo wa kina juu ya mojawapo ya nguzo za msingi za jamii zetu.
 
 
 
@@ -39,7 +39,7 @@ Kozi hii ya kuvutia itakupeleka kwenye uchunguzi wa mageuzi ya kuvutia ya pesa k
 :::video id=08ff35ca-8a40-4286-abaf-71283faf6e78:::
 
 
-Karibu kwenye kozi hii ya historia ya pesa. Kama kichwa kinapendekeza, tutachunguza mabadiliko ya kihistoria ya sarafu pamoja. Kuanzia enzi ya Neolithic hadi leo, tutaangalia milki kuu na ustaarabu wa zamani.
+Karibu kwenye kozi hii ya historia ya pesa. Kama kichwa kilivyopendekezwa, tutachunguza mabadiliko ya kihistoria ya sarafu pamoja. Kuanzia enzi ya Neolithic hadi leo, tutaangalia milki kuu na ustaarabu wa zamani.
 
 
 
@@ -59,11 +59,11 @@ Tunaanza safari yetu ya kutumia sarafu za proto kwa kuibuka kwa pesa za deni na 
 
 
 
-Kisha tunaendelea na kuonekana kwa sarafu za kwanza huko Lydia, wakati muhimu ambao mara nyingi huzingatiwa kama mwanzo wa kweli wa pesa kulingana na vitabu vya kiada vya uchumi. Tutachunguza jinsi sarafu hizi ziliweza kueneza shukrani kwa Waajemi, Alexander Mkuu, kisha Roma, kabla ya hatimaye kujilazimisha, kutawala na kuanguka.
+Kisha tunaendelea na kuonekana kwa sarafu za kwanza huko Lydia, wakati muhimu ambao mara nyingi huzingatiwa kama mwanzo wa kweli wa pesa kulingana na vitabu vya kiada vya uchumi. Tutachunguza jinsi sarafu hizi ziliweza kueneza shukrani kwa Waajemi, Alexander Mkuu, kisha Roma, kabla na hatimaye kujilazimisha, kutawala na kuanguka.
 
 
 
-Kuanzia hapo, tukiwa na kila kitu ambacho tumejifunza, tutachukua wakati tunaohitaji kutafakari pamoja juu ya ufafanuzi hasa wa pesa, tukienda zaidi ya mawazo ya awali kama vile "fedha daima ni deni" au "fedha daima ni bidhaa". Kwa kweli, pesa ni mkutano mzuri na wa kijamii. Hasa, tutajadili dhana ya malipo ya fedha na kujaribu kuunganisha nadharia mbalimbali zinazoelezea kuibuka kwa fedha.
+Kuanzia hapo, tukiwa na kila kitu ambacho tumejifunza, tutachukua wakati ili tutafakari pamoja juu ya ufafanuzi hasa wa pesa, tukienda zaidi ya mawazo ya awali kama vile "fedha daima ni deni" au "fedha daima ni bidhaa". Kwa kweli, pesa ni mkutano mzuri na wa kijamii. Hasa, tutajadili dhana ya malipo ya fedha na kujaribu kuunganisha nadharia mbalimbali zinazoelezea kuibuka kwa fedha.
 
 
 
@@ -75,11 +75,11 @@ Kisha tunageukia kipindi cha shida, kilichoonyeshwa na kukosekana kwa utulivu ka
 
 
 
-Tutaangalia pia jinsi Vita vya Msalaba viliona kuibuka kwa mifumo ya kwanza ya uhamishaji pesa ya mbali. Kisha ni wakati wa kuangalia athari za Florin, sarafu iliyoambatana na Renaissance, na kuwasili kwa madini ya thamani kutoka Amerika, ambayo ilikuwa na athari kubwa kwa bei za Ulaya.
+Tutaangalia pia jinsi Vita vya Msalaba viliweza kuibuka kwa mifumo ya kwanza ya uhamishaji pesa wa mbali. Kisha ni wakati wa kuangalia athari za Florin, sarafu iliyoambatana na Renaissance, na kuwasili kwa madini ya thamani kutoka Amerika, ambayo ilikuwa na athari kubwa kwa bei za Ulaya.
 
 
 
-Tutaangalia kwa undani ujio wa pesa za karatasi na benki kuu, tukichora sambamba na historia ya migogoro ya kifedha na athari zao za vurugu mara nyingi.
+Tutaangalia kwa undani ujio wa pesa za karatasi na benki kuu, tukichora historia ya migogoro ya kifedha na athari zao za vurugu mara nyingi.
 
 
 
@@ -87,7 +87,7 @@ Hatimaye, tutatoa ulinganifu na mfumo wetu wa kisasa wa fedha, tukichunguza mato
 
 
 
-Na, kama bonasi, tutaangalia pia viungo vingi vya kuvutia vya etimolojia vinavyohusiana na pesa, ambavyo vinaendelea kuathiri maisha yetu ya kila siku katika lugha tofauti.
+Na, kama bonasi, tutaviangalia viungo vingi vya kuvutia vya etimolojia vinavyohusiana na pesa, ambavyo vinaendelea kuathiri maisha yetu ya kila siku katika lugha tofauti.
 
 
 
@@ -99,11 +99,11 @@ Kozi hii imegawanywa katika sehemu kuu tatu.
 
 
 
-Sehemu ya I inaangalia kuibuka kwa pesa, Sehemu ya II katika ufufuaji upya wa pesa na anguko lake, na Sehemu ya Tatu inaonyesha jinsi taasisi za serikali au serikali zilichukua udhibiti wa pesa, na kusababisha mfumo wa sasa wa fiat.
+Sehemu ya I inaangalia kuibuka kwa pesa, Sehemu ya II inaangalia ufufuaji mpya wa pesa na anguko lake, na Sehemu ya Tatu inaonyesha jinsi taasisi za serikali au serikali zilichukua udhibiti wa pesa, na kusababisha mfumo wa sasa wa fiat.
 
 
 
-Asante na kufurahia!
+Asante na furahia!
 
 
 
@@ -127,11 +127,11 @@ Asante na kufurahia!
 
 
 
-Kwa nini urudi kwa Neolithic kuzungumza juu ya pesa? Jibu ni rahisi: hatuwezi kuelewa kikamilifu kuibuka kwa pesa bila kuangalia pia kuibuka kwa ustaarabu wenyewe. Ili kuelewa ni kwa nini mifumo ya kwanza ya kifedha ilikuja, tunahitaji kuelewa ni nini kilisababisha vikundi vya wawindaji wa kuhamahama kutulia.
+Kwa nini urudi kwa Neolithic kuzungumza juu ya pesa? Jibu ni rahisi: hatuwezi kuelewa kikamilifu kuibuka kwa pesa bila kuangalia pia kuibuka kwa ustaarabu wenyewe. Ili kuelewa ni kwa nini mifumo ya kwanza ya kifedha ilikuja, tunahitaji kuelewa ni kipi kilisababisha vikundi vya wawindaji wa kuhamahama kutulia.
 
 
 
-Kabila lisilo na mgawanyiko wa kazi, bila utaalamu, ambapo kila mtu ana jukumu la kuzalisha kile anachohitaji, hawana haja ya pesa. Kadhalika, jumuiya ya kilimo inayofanya kilimo cha kujikimu tu, ambapo kila mtu anajilima mwenyewe, bado haioni haja ya kuwa na mpatanishi wa kubadilishana watu wote.
+Kabila lisilo na mgawanyiko wa kazi, bila utaalamu, ambapo kila mtu ana jukumu la kuzalisha kile anachohitaji, hawana haja ya pesa. Kadhalika, jumuiya ya kilimo inayofanya kilimo cha kujikimu tu, ambapo kila mtu anajilimi  a mwenyewe, bado haioni haja ya kuwa na mpatanishi wa kubadilishana watu wote.
 
 
 
@@ -155,7 +155,7 @@ Lakini kwanza, hebu tuangalie muktadha mpana zaidi wa kihistoria.
 
 
 
-Kama wasilisho lolote la kwanza, nitafanya kinyume kabisa cha kile nilichosema katika utangulizi wa kozi na kukupa orodha ya tarehe na matukio ya kihistoria yanayofuata kutoka kwa kila mmoja. Wazo hapa ni kuweka uibukaji wa pesa katika muktadha wake wa kihistoria, kuhusiana na maendeleo mengine ya wanadamu kama vile kupika chakula, gurudumu, ufugaji wa nafaka na wanyama fulani, ujenzi wa piramidi na kuanzishwa kwa miji ya kwanza.
+Kama wasilisho lolote la kwanza, nitafanya kinyume kabisa cha kile nilichosema katika utangulizi wa kozi na kukupa orodha ya tarehe na matukio ya kihistoria yanayofuata kutoka kwa kila mmoja. Wazo hapa ni kuweka uibukaji wa pesa katika muktadha wake wa kihistoria, kuhusiana na maendeleo mengine ya wanadamu kama vile upishi, gurudumu, ufugaji wa nafaka na wanyama fulani, ujenzi wa piramidi na kuanzishwa kwa miji ya kwanza.
 
 
 
@@ -236,19 +236,19 @@ Kilimo cha kwanza kilionekana karibu miaka 10,500 iliyopita katika Mashariki ya 
 
 
 
-**Vijiji vya kwanza vilijengwa wazi kabla ya ufugaji wa mimea na wanyama.** Watu hawakutulia kwa sababu kilimo kiliwaruhusu; kinyume chake, walikaa kwanza na baadaye tu, miaka 3,000 hivi baadaye, walianza kulima.
+**Vijiji vya kwanza vilijengwa wazi kabla ya ufugaji wa mimea na wanyama.** Watu hawakutulia kwa sababu kilimo kiliwaruhusu; kinyume chake, walikaa kwanza na baad ya miaka 3,000 hivi wakaanza kulima.
 
 
 
-Uwindaji na kukusanya ulifanya kazi vizuri sana, kwa hivyo hawakuhitaji kupanda mbegu ili kuzalisha chakula chao. Leo, wawindaji-wakusanyaji wana wakati mwingi zaidi wa bure kuliko wakulima wa kwanza, ambao walitumia teknolojia za ujinga sana.
+Uwindaji na ukusanyaji ulifanya kazi vizuri sana, kwa hivyo hawakuhitaji kupanda mbegu ili kuzalisha chakula chao. Leo, wawindaji-wakusanyaji wana wakati mwingi zaidi wa bure kuliko wakulima wa kwanza, ambao walitumia teknolojia za ujinga sana.
 
 
 
-Kwa hivyo, tunachosema hapa ni kwamba watu wa kisasa wa wawindaji-wakusanyaji wana wakati zaidi wa bure kuliko tunavyoelewa kutoka kwa wakulima wa kwanza wa kipindi cha Neolithic, ambao walikuwa na, baada ya yote, teknolojia za kilimo cha awali. Watu hawa walifanya kazi kwa bidii zaidi kuzalisha chakula kuliko makabila yetu ya kisasa, ambayo huishi kwa kuwinda na kukusanya.
+Kwa hivyo, tunachosema hapa ni kwamba watu wa kisasa wa wawindaji-wakusanyaji wana wakati zaidi wa bure kuliko tunavyoelewa kutoka kwa wakulima wa kwanza wa kipindi cha Neolithic, ambao walikuwa na, baada ya yote, teknolojia za kilimo cha awali. Watu hawa walifanya kazi kwa bidii zaidi kuzalisha chakula kuliko makabila yetu ya mwanzo wa kisasa, ambayo huishi kwa kuwinda na kukusanya.
 
 
 
-Uchunguzi wa mifupa pia unaonyesha kwamba wakulima wa kwanza walikuwa wadogo na wasio na nguvu zaidi kuliko wawindaji wa wawindaji waliowatangulia. Mlo wa wakulima ulikuwa na vikwazo zaidi kuliko wale wa wawindaji-wakusanyaji. Walikula mkate mwingi zaidi, lakini nyama kidogo, na pia walikuwa na meno duni kwa sababu ya miamba iliyotumika katika utengenezaji wa unga. Walipotengeneza unga kwa mawe, ulitengeneza vipande.
+Uchunguzi wa mifupa pia unaonyesha kwamba wakulima wa kwanza walikuwa wadogo na wasio na nguvu zaidi kuliko wawindaji waliowatangulia. Mlo wa wakulima ulikuwa na vikwazo zaidi kuliko ule wa wawindaji-wakusanyaji. Walikula mkate mwingi zaidi, lakini nyama kidogo, na pia walikuwa na meno duni kwa sababu ya miamba iliyotumika katika utengenezaji wa unga. Walipotengeneza unga kwa mawe, ulitengeneza vipande.
 
 
 
@@ -260,11 +260,11 @@ Wale wanaofuata lishe ya "keto" watakubali: kula mkate mwingi labda sio sawa na 
 
 
 
-Kutokana na hasara hizi zote, ni nani angechagua kuwa mkulima wakati huo? Naam, baadhi ya nadharia maarufu zinaonyesha kwamba wanadamu walilazimishwa kufuata kilimo na kwamba haikuwa chaguo. Hata na nafaka pori, kulikuwa na tatizo kubwa. Kiasi kikubwa cha nafaka haikuweza kusafirishwa kwa urahisi. Ilibidi zihifadhiwe mahali fulani. Mara tu nafaka ilipohifadhiwa, ilikuwa na maana kukaa karibu. Kwa hiyo, ulikuza nafaka za mwitu, ambazo hazikuwa za kilimo, na ulipokua kwa wingi, ulipaswa kuzihifadhi mahali fulani, na kufanya iwe vigumu kusafirisha. Labda hii ilichangia awamu za kwanza za kukaa chini. Huenda ikawa ndiyo sababu ya kwanza kwa nini watu kukaa mahali fulani. Ikiwa mahali hapa palitoa chakula mwaka mzima, hakukuwa na haja ya kufuata mifugo au kusafiri kila wakati.
+Kutokana na hasara hizi zote, ni nani angechagua kuwa mkulima wakati huo? Naam, baadhi ya nadharia maarufu zinaonyesha kwamba wanadamu walilazimishwa kufuata kilimo na kwamba haikuwa chaguo. Hata na nafaka pori, kulikuwa na tatizo kubwa. Kiasi kikubwa cha nafaka haikuweza kusafirishwa kwa urahisi. Ilibidi zihifadhiwe mahali fulani. Mara tu nafaka zilipohifadhiwa, ilikuwa na maana kukaa karibu. Kwa hiyo, ulikuza nafaka za mwitu, ambazo hazikuwa za kilimo, na zilipokua kwa wingi, ulipaswa kuzihifadhi mahali fulani, na kufanya iwe vigumu kusafirisha. Labda hili lilichangia awamu za kwanza za kukaa chini. Huenda ikawa ndiyo sababu ya kwanza kwa nini watu kukaa mahali fulani. Ikiwa mahali hapa palitoa chakula mwaka mzima, hakukuwa na haja ya kufuata mifugo au kusafiri kila wakati.
 
 
 
-Katika tamaduni ya Natoufian, hadi watu mia moja waliishi pamoja katika vijiji vilivyoundwa na nyumba za duara. Nadharia maarufu inayoelezea mwanzo wa kilimo ni kwamba mabadiliko haya yalichochewa na mabadiliko ya hali ya hewa. Karibu miaka 11,000 iliyopita, hali ya hewa katika Mashariki ya Karibu ilizidi kuwa baridi na ukame zaidi kuliko hapo awali. Mimea na wanyama ambao hapo awali walikuwa wengi walipungua. Kisha jamii zingeanza kulima mimea ambayo waliitegemea, au kuweka wanyama wachanga wa kufuga na kufaidika nayo, kama vile kondoo, mbuzi, na ng'ombe, ambayo ingejikopesha vizuri kwa ufugaji huo. Huu ungekuwa mchakato wa taratibu sana. Kwa hivyo, hakukuwa na wakati sahihi ambapo wote wakawa wakulima ambao walifuga wanyama wa ndani.
+Katika tamaduni ya Natoufian, hadi watu mia moja waliishi pamoja katika vijiji vilivyoundwa na nyumba za duara. Nadharia maarufu inayoelezea mwanzo wa kilimo ni kwamba mabadiliko haya yalichochewa na mabadiliko ya hali ya hewa. Karibu miaka 11,000 iliyopita, hali ya hewa katika Mashariki ya Karibu ilizidi kuwa baridi na ukame zaidi kuliko hapo awali. Mimea na wanyama ambao hapo awali walikuwa wengi walipungua. Kisha jamii zingeanza kulima mimea ambayo waliitegemea, au kuweka wanyama wachanga wa kufuga na kufaidika nao, kama vile kondoo, mbuzi, na ng'ombe, ambao ingejikopesha vizuri kwa ufugaji huo. Huu ungekuwa mchakato wa taratibu sana. Kwa hivyo, hakukuwa na wakati sahihi ambapo wote wakawa wakulima ambao walifuga wanyama wa ndani.
 
 
 
@@ -297,7 +297,7 @@ Ongezeko la joto duniani mwishoni mwa Enzi ya Barafu kulibadilisha kwa kiasi kik
 
 
 
-Kukaa huku kwa taratibu kulisababisha mabadiliko makubwa ya kijamii. **Kilimo cha Neolithic kilizua dhana ya kisasa ya kazi **: kushikamana na eneo maalum kulimaanisha kutunza mali ya mtu, kuhifadhi matunda ya kazi yake na kupanga mavuno ya baadaye. Uhusiano huu mpya na wakati - kuahirisha matumizi ya sasa kwa manufaa ya baadaye - ulileta mapinduzi ya shirika la kijamii.
+Kukaa huku taratibu kulisababisha mabadiliko makubwa ya kijamii. **Kilimo cha Neolithic kilizua dhana ya kisasa ya kazi**: kushikamana na eneo maalum kulimaanisha kutunza mali ya mtu, kuhifadhi matunda ya kazi yake na kupanga mavuno ya baadaye. Uhusiano huu mpya baada ya mda - kuahirisha matumizi ya sasa kwa manufaa ya baadaye - ulileta mapinduzi ya shirika la kijamii.
 
 
 
@@ -305,11 +305,11 @@ Ufinyanzi ni kielelezo kamili cha mageuzi haya: awali ilitengenezwa kuhifadhi na
 
 
 
-** Mali ya kibinafsi iliibuka kama taasisi kuu ** ya jamii hizi mpya. Wakati mali ya mtu binafsi tayari ilikuwepo katika Paleolithic (mikuki ya uwindaji wa kibinafsi), katika Neolithic ilichukua mwelekeo wa eneo ambao haujawahi kutokea. Ugawaji huu wa ardhi ulizalisha mizozo ya kwanza kati ya binadamu iliyoandikwa kiakiolojia, na hivyo kulazimisha kuibuka kwa kazi ya usalama wa eneo.
+**Mali ya kibinafsi iliibuka kama taasisi kuu** ya jamii hizi mpya. Wakati mali ya mtu binafsi tayari ilikuwepo katika Paleolithic (mikuki ya uwindaji wa kibinafsi), katika Neolithic ilichukua mwelekeo wa eneo ambao haujawahi kutokea. Ugawaji huu wa ardhi ulizalisha mizozo ya kwanza kati ya binadamu iliyoandikwa kiakiolojia, na hivyo kulazimisha kuibuka kwa kazi ya usalama wa eneo.
 
 
 
-### Umaalumu na Idara ya Kazi
+### Umaalumu na Mgawanyiko wa Kazi
 
 
 
@@ -329,7 +329,7 @@ Uchunguzi wa akiolojia unaonyesha mitandao ya kubadilishana ya kushangaza kwa wa
 
 
 
-Mabadilishano haya yanahusu malighafi na vitu vilivyomalizika, ikionyesha kuthamini utaalam wa ufundi. Thamani inayohusishwa inaunganisha adimu ya nyenzo na ustadi wa kiufundi unaohitajika ili kuibadilisha.
+Mabadilishano haya yanahusu malighafi na vitu vilivyomalizika, kuonyesha kuthamini utaalam wa ufundi. Thamani inayohusishwa inaunganisha adimu ya nyenzo na ustadi wa kiufundi unaohitajika ili kuibadilisha.
 
 
 
@@ -401,7 +401,7 @@ Mfumo uliotengenezwa uliitwa "cuneiform", kutoka kwa Kilatini "cuneus" ikimaanis
 
 
 
-Hapa chini, unaweza kupendeza nakala yangu ya kompyuta kibao iliyo na maandishi ya kikabari. Ili kuandika kwenye vidonge hivi, naamini walitumia aina ya kalamu iliyofanywa kutoka kwa mwanzi, ili kufuatilia udongo wa mvua na kuunda maumbo, maandishi ya cuneiform.
+Hapa chini, unaweza kupendezwa na nakala yangu ya kidonge kilicho na maandishi ya kikabari. Ili kuandika kwenye vidonge hivi, naamini walitumia aina ya kalamu iliyotengenezwa kutoka kwa mwanzi, ili kufuatilia udongo wa mvua na kuunda maumbo, maandishi ya cuneiform.
 
 
 
@@ -409,7 +409,7 @@ Hapa chini, unaweza kupendeza nakala yangu ya kompyuta kibao iliyo na maandishi 
 
 
 
-Pia nina kile ninachoamini kuwa kompyuta kibao ya Kisumeri iliyo na hati ndogo ya kikabari katikati. Kwenye kompyuta hii kibao, kuna saini zilizotengenezwa kwa kuviringisha silinda, ambazo nitakuonyesha baadaye.
+Pia nina kile ninachoamini kuwa kidonge cha Kisumeri kilicho na hati ndogo ya kikabari katikati. Kwenye kidonge hiki, kuna saini zilizotengenezwa kwa kuviringisha silinda, ambazo nitakuonyesha baadaye.
 
 
 
@@ -447,7 +447,7 @@ Hapo awali, majina hayakuweza kuonyeshwa katika hati ya kikabari kwa sababu iliw
 Ikiwa jina la mtu huyo lilikuwa Laura, kwa mfano, tungeweza kuchukua neno, kifupi ambacho kilisikika kama "maji" na la pili kama "ras", na kuunda jina Laura nalo. Hivyo ndivyo aina ya kwanza ya lugha ya maandishi ilivyositawi.
 
 
-Kwa rekodi, ili kuwakilisha vifupisho awali, ikiwa ungependa kuchora kichwa cha ng'ombe, unaweza kuona sura ya kichwa cha ng'ombe. Kidogo kidogo, michoro ilirahisishwa isiwakilishi chochote zaidi ya aina ya mstari. Wasomi wanaamini kwamba hii ilitokea kwa sababu watu walishikilia bamba la udongo lenye unyevu kwa mkono mmoja, kwa hiyo ilikuwa rahisi kuchora tena herufi za kwanza kwa kuzigeuza. Inafikiriwa pia kuwa ni kwa jinsi waandishi walivyoshikilia mabamba.
+Kwa rekodi, ili kuwakilisha vifupisho awali, ikiwa ungependa kuchora kichwa cha ng'ombe, unaweza kuona sura ya kichwa cha ng'ombe. Kidogo kidogo, michoro ilirahisishwa isiwakilishi chochote zaidi ya aina ya mstari. Wasomi wanaamini kwamba hii ilitokea kwa sababu watu walishikilia kidonge vya udongo vyenye unyevu kwa mkono mmoja, kwa hiyo ilikuwa rahisi kuchora tena herufi za kwanza kwa kuzigeuza. Inafikiriwa pia kuwa ni kwa jinsi waandishi walivyoshikilia vidonge.
 
 
 Bado unaweza kuona uhusiano na, tuseme, ngano au kichwa cha ng'ombe katika vifupisho vya cuneiform, na daima huegemea upande mmoja.
@@ -481,14 +481,14 @@ Ili kukidhi mahitaji ya kiutawala na kiuchumi haswa ndipo maandishi ya kikabari 
 
 
 
-Inafaa pia kutaja kuwa baadhi ya vidonge hivi vilisambazwa kama vifungo vya kubeba, kubadilisha mikono kwa uhuru.
+Inafaa pia kutaja kuwa baadhi ya vidonge hivi vilisambazwa kama vifungo vya kubeba na kubadilisha mikono kwa uhuru.
 
 
 
-Kwa mfano, kulikuwa na aina ya mpira wa udongo na mawe madogo ndani.
+Kwa mfano, kulikuwa na aina ya mpira wa udongo na mawe kidogo ndani.
 
 
-Kwenye nje ya mpira wa udongo, nambari iliandikwa na kusainiwa, inayowakilisha idadi ya vitengo. Ndani, kulikuwa na miamba hii na mtu ambaye alitaka kuthibitisha, ili kuthibitisha kweli kwamba chombo hiki kiliwakilisha idadi ya X ya vitengo.
+Kwenye nje ya mpira wa udongo, nambari iliandikwa na kusainiwa, inayowakilisha idadi ya vitengo. Ndani, kulikuwa na miamba hii na mtu ambaye alitaka kuthibitisha, ili kuthibitisha ukweli kwamba chombo hiki kiliwakilisha idadi ya X ya vitengo.
 
 
 
@@ -496,7 +496,7 @@ Mfano mwingine, kibao kilichopatikana kusini-magharibi mwa Baghdad ya sasa, kina
 
 
 
-Kuanzia mwaka 2000 KK na kuendelea, kulikuwa na sheria inayotaka shughuli zote za kibiashara, hata zile ndogo kabisa, kurasimishwa kwa maandishi na kusainiwa mbele ya mashahidi. Fikiria jinsi urasimu mkubwa ulivyokuwa siku hizo kurekodi shughuli zote katika rejista zilizofanywa, nakukumbusha, za udongo na waandishi. Ukali huu wa kisheria ulikusudiwa kuzuia migogoro ya siku zijazo juu ya umiliki na haki za bidhaa zilizobadilishwa. Mashahidi waliitwa mara nyingi ili kutoa ushahidi kwamba mkataba huo ulikuwa umetiwa sahihi.
+Kuanzia mwaka 2000 KK na kuendelea, kulikuwa na sheria iliyotaka shughuli zote za kibiashara, hata zile ndogo kabisa, kurasimishwa kwa maandishi na kusainiwa mbele ya mashahidi. Fikiria jinsi urasimu mkubwa ulivyokuwa siku hizo kurekodi shughuli zote katika rejista zilizofanywa, nakukumbusha, za udongo na waandishi. Ukali huu wa kisheria ulikusudiwa kuzuia migogoro ya siku zijazo juu ya umiliki na haki za bidhaa zilizobadilishwa. Mashahidi waliitwa mara nyingi ili kutoa ushahidi kwamba mkataba huo ulikuwa umetiwa sahihi.
 
 
 
@@ -504,7 +504,7 @@ Katika nyanja ya kibinafsi pia, baadhi ya familia na watu binafsi wanaojishughul
 
 
 
-Inafahamika kwamba barua zilizoandikwa na waandishi zilihusu tu maslahi ya kifedha: malalamiko kuhusu posho za kutosha, malipo ya mahari yanayosubiri au maombi mengine ya dharura. Katika siku hizo, maandishi ya kibinafsi kama barua za upendo hayakuwepo, na hata kutajwa kwa ugonjwa kulikuwa nadra.
+Inafahamika kwamba barua zilizoandikwa na waandishi zilihusu tu maslahi ya kifedha: malalamiko kuhusu posho za kutosha, malipo ya mahari yanayosubiri au maombi mengine ya dharura. Katika siku hizo, maandishi ya kibinafsi kama barua za mapenzi hayakuwepo, na hata kutajwa kwa ugonjwa kulikuwa nadra.
 
 
 
@@ -516,7 +516,7 @@ Barua hii, iliyotumwa kwa mwenzi wake, inaonekana kuashiria kwamba alikuwa ameen
 
 
 
-Kwa hivyo, hati za Mesopotamia ambazo zimetujia hasa zinaonyesha ubadilishanaji wa kiuchumi, kwani ziliundwa kwa uhamishaji wa bidhaa zenye thamani inayotambulika: pesa, nafaka, bidhaa anuwai, mali isiyohamishika, malipo ya ushuru wa hekalu. Kumbukumbu hizi hazifichui tu ufanisi na usahihi wa kiutawala wa ustaarabu huu wa kale, lakini pia uwezo wake wa kusimamia mabadilishano magumu ya kiuchumi kwa muda mrefu sana.
+Kwa hivyo, hati za Mesopotamia ambazo zimetujia hasa zinaonyesha ubadilishanaji wa kiuchumi, kwani ziliundwa kwa uhamishaji wa bidhaa zenye thamani inayotambulika: pesa, nafaka, bidhaa anuwai, bidhaa mbalimbali, malipo ya ushuru wa hekalu. Kumbukumbu hizi hazifichui tu ufanisi na usahihi wa kiutawala wa ustaarabu huu wa kale, lakini pia uwezo wake wa kusimamia mabadilishano magumu ya kiuchumi kwa muda mrefu sana.
 
 
 
@@ -537,7 +537,7 @@ Kinyume na maoni ya wengi, uvumbuzi wa uandishi huko Mesopotamia miaka 4,000 hiv
 
 
 
-Utaalam huu unaweza kuelezewa na gharama kubwa ya uandishi wa kompyuta kibao. Uchongaji katika udongo ulihitaji utaalamu maalumu wa kiufundi, muda mwingi na vifaa maalum. Shughuli za thamani ya kutosha pekee ndizo zilizohalalisha uwekezaji huu kiuchumi, na hivyo kutengeneza kizingiti cha asili cha ufikiaji wa teknolojia hii ya kimapinduzi.
+Utaalam huu unaweza kuelezewa na gharama kubwa ya uandishi wa kidonge . Uchongaji katika udongo ulihitaji utaalamu maalumu wa kiufundi, muda mwingi na vifaa maalum. Shughuli za thamani ya kutosha pekee ndizo zilizohalalisha uwekezaji huu kiuchumi, na hivyo kutengeneza kizingiti cha asili cha ufikiaji wa teknolojia hii ya kimapinduzi.
 
 
 
@@ -545,7 +545,7 @@ Mabamba hayo ya kikabari yanaonyesha mfumo wa kifedha ambao ulikuwa mgumu sana k
 
 
 
-Baadhi ya kompyuta za mkononi zilifanya kazi kama dhamana za wamiliki halisi, zikizunguka kwa uhuru kutoka mkono hadi mkono bila kuhitaji utambulisho wa mmiliki halisi. Ubunifu huu uliwezesha ubadilishanaji wa ajabu, ukionyesha mifumo ya kisasa ya kifedha. Zaidi ya hayo, sheria mahususi ilihitaji hata miamala yote ya kibiashara kurasimishwa kwa maandishi, hivyo basi kuainisha matumizi ya uandishi katika nyanja ya kiuchumi.
+Baadhi ya vidonge vya mkononi vilifanya kazi kama dhamana za wamiliki halisi, vikizunguka kwa uhuru kutoka mkono hadi mkono bila kuhitaji utambulisho wa mmiliki halisi. Ubunifu huu uliwezesha ubadilishanaji wa ajabu, ukionyesha mifumo ya kisasa ya kifedha. Zaidi ya hayo, sheria mahususi ilihitaji hata miamala yote ya kibiashara kurasimishwa kwa maandishi, hivyo basi kuainisha matumizi ya uandishi katika nyanja ya kiuchumi.
 
 
 
@@ -561,7 +561,7 @@ Ukiritimba huu wa maarifa haukuwa bahati mbaya. Mamlaka zilikuwa na kila nia ya 
 
 
 
-Wajibu wa kisheria wa kurekodi shughuli zote za kibiashara kwa maandishi ulitimiza malengo kadhaa ya kimkakati: udhibiti wa fedha, ufuatiliaji mkali wa uhasibu, na kudumisha utegemezi wa wachezaji wa kiuchumi kwenye vifaa vya utawala. **Hivyo serikali ya Mesopotamia iliidhinisha uwezo wa kusimamia deni baina ya watu** kwa kiwango cha kijamii, na hivyo kubadilisha uandishi kuwa chombo cha nguvu za kiuchumi.
+Wajibu wa kisheria wa kurekodi shughuli zote za kibiashara kwa maandishi ulitimiza malengo kadhaa ya kimkakati: udhibiti wa fedha, ufuatiliaji mkali wa uhasibu, na kudumisha utegemezi wa wachezaji wa kiuchumi kwenye vifaa vya utawala. **Hivyo serikali ya Mesopotamia iliidhinisha uwezo wa kusimamia deni baina ya watu** kwa kiwango cha kijamii, na hivyo kubadilisha uandishi kuwa chombo cha nguvu cha kiuchumi.
 
 
 
@@ -573,7 +573,7 @@ Uchambuzi wa matembezi hayo unaonyesha hali halisi ya kiuchumi iliyochanganuliwa
 
 
 
-Uwili huu unaweza kuelezewa na utabaka wa kijamii wa wakati huo. **Mfumo wa kompyuta kibao za kikabari uliwekwa kwa ajili ya watu wasomi waliowekewa vikwazo**: makasisi, wafanyabiashara waliofanikiwa, na wasimamizi wenye uwezo wa kusoma, kuandika na kufasiri hati hizi tata. Ili kutumia kompyuta kibao kwa ufanisi, mtu hakuhitaji tu kujua jinsi ya kuifafanua, lakini pia ilibidi aweze kuthibitisha uhalisi wake na kuelewa athari zake za kisheria.
+Uwili huu unaweza kuelezewa na utabaka wa kijamii wa wakati huo. **Mfumo wa kompyuta kibao za kikabari uliwekwa kwa ajili ya watu wasomi waliowekewa vikwazo**: makasisi, wafanyabiashara waliofanikiwa, na wasimamizi wenye uwezo wa kusoma, kuandika na kufasiri hati hizi tata. Ili kutumia vidonge kwa ufanisi, mtu hakuhitaji tu kujua jinsi ya kuifafanua, lakini pia ilibidi aweze kuthibitisha uhalisi wake na kuelewa athari zake za kisheria.
 
 
 
@@ -581,7 +581,7 @@ Uwili huu unaweza kuelezewa na utabaka wa kijamii wa wakati huo. **Mfumo wa komp
 
 
 
-Uchumi huu maarufu, ingawa haujarekodiwa sana katika kumbukumbu rasmi, labda ulikuwa na nguvu zaidi na rahisi kuliko mfumo wa kompyuta kibao. Iliwezesha ubadilishanaji wa haraka wa kila siku bila msaada kwa waandishi, kukidhi mahitaji ya haraka ya mafundi, wakulima na wafanyabiashara wadogo.
+Uchumi huu maarufu, ingawa haujarekodiwa sana katika kumbukumbu rasmi, labda ulikuwa na nguvu zaidi na rahisi kuliko mfumo wa vidonge. Iliwezesha ubadilishanaji wa haraka wa kila siku bila msaada kwa waandishi, kukidhi mahitaji ya haraka ya mafundi, wakulima na wafanyabiashara wadogo.
 
 
 
@@ -601,7 +601,7 @@ Mahekalu ya Wasumeri yalidhihirisha mvutano huu: walitumia ubunifu maarufu wa fe
 
 
 
-Uzoefu wa Mesopotamia huanzisha mifano ya kudumu ya mabadiliko ya mifumo ya kifedha. Inaonyesha kuwa **ubora wa kifedha mara nyingi hutangulia uvumbuzi wa kiteknolojia kwa milenia kadhaa**, ambayo kwa kawaida huhusishwa nayo. Dhana za riba, mikopo, vyombo vinavyoweza kujadiliwa na dhamana ya rehani hazikungoja uvumbuzi wa pesa za metali kuendeleza.
+Uzoefu wa Mesopotamia huanzisha mifano ya kudumu ya mabadiliko ya mifumo ya kifedha. Inaonyesha kuwa **ubora wa kifedha mara nyingi hutangulia uvumbuzi wa kiteknolojia kwa milenia kadhaa**, ambayo kwa kawaida uhusishwa nayo. Dhana za riba, mikopo, vyombo vinavyoweza kujadiliwa na dhamana ya rehani hazikungoja uvumbuzi wa pesa za metali kuendeleza.
 
 
 
@@ -640,7 +640,7 @@ Wainka hawakuwa na mfumo wa fedha, lakini walikuwa na wingi wa madini ya thamani
 Huko Uchina, sarafu zilitengenezwa kwa njia tofauti kabisa na mila ya Magharibi. Ilikuwa pesa ya fiat tangu mwanzo. Zilikuwa sarafu za kutupwa.
 
 
-Na hapa, Bw. Davies anataja biashara. Kwa kweli kulikuwa na kubadilishana kati ya Wachina na watu wengine kwa nyakati fulani, lakini njia ya kubadilishana kwa biashara ya nje ilikuwa badala ya hariri. Kama tutakavyoona baadaye, dhahabu ilitumika pia katika maeneo ya mpakani mwa Uchina, ambapo idadi ya Wachina ilikuwa ndogo. Na hata kwa biashara ya kimataifa; kwa hiyo, ilikuwa hariri.
+Na hapa, Bw. Davies anataja biashara. Kwa kweli kulikuwa na kubadilishana kati ya Wachina na watu wengine kwa nyakati fulani, lakini njia ya kubadilishana kwa biashara ya nje ilikuwa badala ya hariri. Kama tutakavyoona baadaye, dhahabu ilitumika pia katika maeneo ya mpakani Uchina, ambapo idadi ya Wachina ilikuwa ndogo. Na hata kwa biashara ya kimataifa; kwa hiyo, ilikuwa hariri.
 
 
 
@@ -651,7 +651,7 @@ Lakini kwa uwazi, kiini cha pesa kilikuwa tofauti kabisa nchini China kuliko Mag
 
 
 
-Kuhusu miji hii maarufu ya Sumeri, nina maelezo machache hapa. Tunaweza kutaja Uruk, ambayo ilikuwa jiji la mapema sana na lenye ushawishi, maarufu kwa ukubwa wake mkubwa na utamaduni wa hali ya juu, haswa na maendeleo ya uandishi na upangaji miji.
+Kuhusu miji hii maarufu ya Sumeri, nina maelezo machache hapa. Tunaweza kutaja Uruk, ambayo ilikuwa jiji la mapema sana na lenye ushawishi, maarufu kwa ukubwa wake na utamaduni wa hali ya juu, haswa na maendeleo ya uandishi na upangaji miji.
 
 
 
@@ -666,7 +666,7 @@ Alikuwa mtawala wa kwanza wa Milki ya Akkadian, ambayo ni ustaarabu mwingine uli
 
 
 
-Hebu fikiria kwamba kweli kulikuwa na bahasha za udongo. Vidonge hivyo vinaweza kuvikwa kwenye bahasha za udongo na saini ya mtu huyo kwa nje ili kuhakikisha usiri. Kwa hivyo watu wangefungua bahasha ili kupata kompyuta kibao. Tuna deni kwa mfumo huu wa posta kwa Sargon wa Akkad.
+Hebu fikiria kwamba kweli kulikuwa na bahasha za udongo. Vidonge hivyo vinaweza kuvikwa kwenye bahasha za udongo na sahihi ya mtu huyo kwa nje ili kuhakikisha usiri. Kwa hivyo watu wangefungua bahasha ili kupata kompyuta kibao. Tuna deni kwa mfumo huu wa posta kwa Sargon wa Akkad.
 
 
 
@@ -674,7 +674,7 @@ Kisha kuna Babeli, mji mkuu ambao ulikuja kuwa mji mkuu wa Milki ya Babeli. Usta
 
 
 
-Na miji miwili kuhitimisha sehemu hii. Tuna Ashur, ambayo ilikuwa mji mkuu wa Milki ya Ashuru, kituo muhimu cha kidini. Na tuna Ninawi, ambayo baadaye ilikuwa mji mkuu wa Milki ya Ashuru. Walihamisha mji mkuu wao huko na inajulikana kwa jeshi lake lenye nguvu, majumba makubwa na maktaba. Na pia ni moja wapo ya maeneo yanayowezekana ya Bustani za Hanging za Babeli. Mara nyingi tunasikia juu ya ajabu hii maarufu ya ulimwengu wa kale.
+Na miji miwili kuhitimisha sehemu hii. Tuna Ashur, uliokuwa mji mkuu wa Milki ya Ashuru, kituo muhimu cha kidini. Na tuna Ninawi, ambayo baadaye ulikuwa mji mkuu wa Milki ya Ashuru. Walihamisha mji mkuu wao huko na inajulikana kwa jeshi lake lenye nguvu, majumba makubwa na maktaba. Na pia ni moja wapo ya maeneo yanayowezekana ya Bustani za Hanging za Babeli. Mara nyingi tunasikia juu ya ajabu hii maarufu ya ulimwengu wa kale.
 
 
 Lakini hakuna athari ya bustani hizi maarufu zinazoning'inia huko Babeli. Katika Ninawi, kwa upande mwingine, kuna ushahidi wa kiakiolojia wa bustani kwenye ghorofa kadhaa. Inawezekana kwamba wanahistoria wa Kigiriki kama vile Herodotus walichanganya Ninawi na Babeli. Walipotembelea majiji ya Mesopotamia, labda waliiita Babiloni. Mabaki ya bustani zinazoning’inia zimepatikana huko Ninawi, na huenda wasomi wakajiuliza ikiwa Ninawi ni mahali maarufu palipokuwa na bustani hizo, panapoitwa Bustani ya Kuning’inia ya Babiloni.
@@ -718,7 +718,7 @@ Mikopo iliyochukuliwa na wakulima haikukusudiwa kwa uwekezaji wenye tija – isi
 
 
 
-Niruhusu nichore sambamba na kipindi cha hivi majuzi zaidi wakati wa zamani (Roma), ambapo raia waliishi kutokana na kodi za kilimo zinazozalishwa na wakulima na wafanyakazi wasio na malipo, pamoja na nyara za vita. **Mapato haya yaligawanywa miongoni mwa wananchi, si kwa faida zaidi ya generate, bali ili kuboresha hadhi yao ya kijamii.** Biashara na ufundi kwa ujumla ziliachwa kwa makundi nje ya wasomi wa kijamii. Haya yote yanatofautiana na uchumi wa zama za kati unaoelekezwa kuelekea faida kupitia biashara na ufundi.
+Niruhusu nichore sambamba na kipindi cha zamani cha karibuni (Roma), ambapo raia waliishi kutokana na kodi za kilimo zinazozalishwa na wakulima na wafanyakazi wasio na malipo, pamoja na nyara za vita. **Mapato haya yaligawanywa miongoni mwa wananchi, si kwa faida zaidi ya generate, bali ili kuboresha hadhi yao ya kijamii.** Biashara na ufundi kwa ujumla ziliachwa kwa makundi nje ya wasomi wa kijamii. Haya yote yanatofautiana na uchumi wa zama za kati unaoelekezwa kuelekea faida kupitia biashara na ufundi.
 
 
 
@@ -734,7 +734,7 @@ Kwa hivyo tunachojaribu kusema hapa ni kwamba ninachora sambamba na ukweli kwamb
 
 
 
-Kaya za Mesopotamia zilisimamia kwa uhuru hatua zote za uzalishaji wa kilimo, kutoka kwa kupanda hadi usindikaji wa mwisho kuwa mkate na bia. Wanawake pia walizalisha nguo zinazohitajika na wategemezi wao. Kwa bidhaa zisizozalishwa nchini, kaya ziligeukia wafanyabiashara maalumu.
+Kaya za Mesopotamia zilisimamia kwa uhuru hatua zote za uzalishaji wa kilimo, kutoka kwa kupanda hadi usindikaji wa mwisho kuwa mkate na bia. Wanawake pia walizalisha nguo zilizohitajika na wategemezi wao. Kwa bidhaa zisizozalishwa nchini, kaya ziligeukia wafanyabiashara maalumu.
 
 
 
@@ -746,7 +746,7 @@ Katika kubadilishana hizi, kulikuwa na metali, na walikuwa madini ya thamani na 
 
 
 
-Ushuru na kodi zililipwa hasa kwa aina (shayiri au fedha iliyopimwa). Mahekalu na majumba vilikuwa vituo kuu vya kiuchumi, kiutawala, kisiasa na kidini, na pia vilifanya kazi za kwanza za benki kupitia amana salama ya bidhaa, nafaka ya kwanza, kisha bidhaa zingine za kilimo na mwishowe madini ya thamani. Kwa njia hii, shughuli za kwanza za mkopo na mkopo zilitengenezwa, muda mrefu kabla ya kuonekana kwa sarafu.
+Ushuru na kodi zililipwa hasa kwa mali (shayiri au fedha iliyopimwa). Mahekalu na majumba vilikuwa vituo kuu vya kiuchumi, kiutawala, kisiasa na kidini, na pia vilifanya kazi za kwanza za benki kupitia amana salama ya bidhaa, nafaka ya kwanza, kisha bidhaa zingine za kilimo na mwishowe madini ya thamani. Kwa njia hii, shughuli za kwanza za mkopo na mkopo zilitengenezwa, muda mrefu kabla ya kuonekana kwa sarafu.
 
 
 
@@ -758,7 +758,7 @@ Lakini ilikuwa bado si fiat money kwa maana kali ya neno. Hakukuwa na dhana ya s
 
 
 
-Mpito kwa soko la ajira la mshahara ulikuwa mgumu. Ilihitaji uvumbuzi mkuu wa dhana mbili: mgawanyo wa kazi ya mtu kutoka kwa bidhaa ya mwisho, na kuanzishwa kwa "wakati wa kufanya kazi" kama kitengo kinachoweza kupimika. Ili kuwa na wazo hili la mshahara na mfanyakazi anayelipwa, ilitubidi kwanza kupitia uvumbuzi huu wawili. **Katika milenia ya IIIᵉ, kazi ililipwa hapo awali kwa mgao maalum, kabla ya kubadilika hatua kwa hatua kuelekea mfumo wa mishahara mwanzoni mwa milenia ya IIᵉ.**
+Mpito kwa soko la ajira la mshahara ulikuwa mgumu. Ilihitaji uvumbuzi mkuu wa dhana mbili: mgawanyo wa kazi ya mtu kutoka kwa bidhaa ya mwisho, na kuanzishwa kwa "wakati wa kufanya kazi" kama kitengo kinachoweza kupimika. Ili kuwa na wazo hili la mshahara na mfanyakazi anayelipwa, ilitubidi kwanza kupitia uvumbuzi huu miwili. **Katika milenia ya IIIᵉ, kazi ililipwa hapo awali kwa mgao maalum, kabla ya kubadilika hatua kwa hatua kuelekea mfumo wa mishahara mwanzoni mwa milenia ya IIᵉ.**
 
 
 
@@ -766,7 +766,7 @@ Hatimaye, kuanzia karne ya 26 KK na kuendelea, dhana halisi ya thamani ya fedha 
 
 
 
-Kuanzia karne ya 21 KK na kuendelea, **pamoja na kutoweka kwa mtandao kwa ubadilishanaji usiolinganishwa**, tunaona kuwa katika mikataba ya kazi, kitenzi sa, kinarejelea malipo ya bei. Dhana hii, inayoitwa "sa", inaonekana katika mikataba na inarejelea malipo ya bei, sio kipimo cha bidhaa fulani. "Sa" inarejelea tu malipo au bei. Ni mwanaanthropolojia ambaye anabainisha hili na kutaja kwamba ni mafanikio makubwa; tunaona aina ya tofauti kati ya kabla na baada ya utangulizi huu wa kitenzi "sa" katika mikataba.
+Kuanzia karne ya 21 KK na kuendelea, **pamoja na kutoweka kwa mtandao kwa ubadilishanaji usiolinganishwa**, tunaona kuwa katika mikataba ya kazi, kitenzi sa, kinarejelea malipo ya bei. Dhana hii, inayoitwa "sa", inaonekana katika mikataba ikirejelea malipo ya bei, sio kipimo cha bidhaa fulani. "Sa" inarejelea tu malipo au bei. Ni mwanaanthropolojia ambaye anabainisha hili na kutaja kwamba ni mafanikio makubwa; tunaona aina ya tofauti kati ya kabla na baada ya utangulizi huu wa kitenzi "sa" katika mikataba.
 
 
 
@@ -808,7 +808,7 @@ Sehemu hii imejitolea kwa shirika la kiuchumi na kifedha la Misri ya kale. Ili k
 
 
 - Ufalme wa Kale (c. 2575 - c. 2130 BC)**. Kipindi kilichowekwa alama ya ujenzi wa piramidi kubwa, haswa zile za Giza. Huu ulikuwa wakati wa dhahabu wa ufalme wa kati wa Misri.
-- Ufalme wa Kati (c. 1938 - c. 1630 BC)**. Ufufuo wa kisiasa na kitamaduni baada ya muda wa kukosekana kwa utulivu.
+- Ufalme wa Kati (c. 1938 - c. 1630 BC)**. Ufufuo wa kisiasa na kitamaduni baada kukosekana kwa utulivu kwa muda.
 - Ufalme Mpya (c. 1539 - 1075 BC)**. Kipindi cha upanuzi wa eneo, nguvu za kijeshi, na biashara ya kimataifa. Inajumuisha enzi za mafarao maarufu kama vile Tutankhamen na Ramses II.
 - 1323 KK. - Kifo cha Tutankhamun**. Firauni huyo mchanga alikufa akiwa na umri wa miaka 18-19. Kaburi lake lililo karibu kabisa liligunduliwa mnamo 1922, na kuifanya kuwa moja ya uvumbuzi maarufu zaidi wa kiakiolojia.
 - Ramses II - Alitawala 1279-1213 KK**. Moja ya mafarao wenye nguvu zaidi wa Ufalme Mpya. Anajulikana kwa kampeni zake za kijeshi, makaburi yake makubwa, na pengine alihitimisha mkataba wa amani wa kwanza unaojulikana.
@@ -819,7 +819,7 @@ Sehemu hii imejitolea kwa shirika la kiuchumi na kifedha la Misri ya kale. Ili k
 
 
 
-Kufikia milenia ya 5 na 4 KK, Misri ilikuwa tayari inakabiliwa na shughuli kali za kibiashara kwa kiwango kikubwa, ikiunganisha maeneo ya Nubia, Palestina, Libya na Bahari Nyekundu kupitia biashara ya baharini, mito na nchi kavu (haswa na misafara ya punda).
+Kufikia milenia ya 5 na 4 KK, Misri ilikuwa tayari inakabiliwa na shughuli kali za kibiashara kwa kiwango kikubwa, ikiunganisha maeneo ya Nubia, Palestina, Libya na Bahari Nyekundu kupitia biashara ya baharini, ya mito na ya nchi kavu (haswa na misafara ya punda).
 
 
 
@@ -871,7 +871,7 @@ Ikumbukwe pia kwamba Wamisri wa kale walikuwa na neno, "hedj", kwa ajili ya fedh
 
 
 
-Pia ni muhimu kutaja kwamba kilimo cha kitani kilikuwa ukiritimba wa kifalme uliotolewa kwa mahekalu, na utengenezaji wa vitambaa vya thamani ulithibitisha umuhimu wao wa kiuchumi.
+Pia ni muhimu kutaja kwamba kilimo cha kitani kilikuwa ukiritimba wa kifalme uliotolewa kwa hekalu, na utengenezaji wa vitambaa vya thamani ulithibitisha umuhimu wao wa kiuchumi.
 
 
 
@@ -882,7 +882,7 @@ Kwa hivyo, ingawa Misri ya kale haikuunda sarafu iliyotengenezwa kulinganishwa n
 
 
 
-Sarafu zenyewe zilipimwa, na kusababisha dhana mbili tofauti: **"sarafu" na "fedha"**. Nilitumia maneno mawili kwa Kiingereza. Kwanza, "sarafu" inahusu sarafu, dhana inayokuja baadaye, na pia tuna dhana hii ya fedha. Tunaweza tayari kufafanua dhana fulani ya "fedha" na vitengo vya akaunti ambavyo nimeelezea tu kwa suala la fedha, lakini ambazo hazikuwa sarafu, hivyo "sarafu" inakuja baadaye kidogo na Walydia.
+Sarafu zenyewe zilipimwa, na kuibua dhana mbili tofauti: **"sarafu" na "fedha"**. Nilitumia maneno mawili kwa Kiingereza. Kwanza, "sarafu" inahusu sarafu, dhana inayokuja baadaye, na pia tuna dhana hii ya fedha. Tunaweza tayari kufafanua dhana fulani ya "fedha" na vitengo vya akaunti ambavyo nimeelezea tu kwa suala la fedha, lakini ambazo hazikuwa sarafu, hivyo "sarafu" inakuja baadaye kidogo na Walydia.
 
 
 
@@ -890,7 +890,7 @@ Na kwa hivyo, sarafu sio sharti la pesa, **kiasi kwamba tunaweza kukubali uwepo 
 
 
 
-Cha muhimu kukumbuka hapa, na hiki ndicho anachokitaja mwandishi katika kitabu cha “The Origins of Money”, ni kwamba hakuna shaka kwamba dhana ya fedha ilikuwepo wakati huo, katika mifumo hii ya fedha, na ni kosa kuhusisha kuzaliwa kwa fedha kuwa dhana na mwonekano wa sarafu.
+Cha muhimu kukumbuka hapa, na hiki ndicho anachokitaja mwandishi katika kitabu cha “The Origins of Money”, ni kwamba hakuna shaka kwamba dhana ya fedha ilikuwepo wakati huo, katika mifumo hii ya fedha, na ni kosa kuhusisha kuzaliwa kwa fedha kuwa dhana na kuonekana kwa sarafu.
 
 
 
@@ -946,7 +946,7 @@ Kulingana na mwandishi, pesa za ishara ni sawa na sarafu ya leo ya fiat. Ni sara
 
 
 
-Sarafu ya kale ya Kichina ina sifa ambazo ni tofauti na mila ya Magharibi. Ilikuwa hasa ya metali, lakini iliyotupwa badala ya kuchorwa, na haikuwa na sanamu ya mfalme. Kwa kushangaza, serikali ya China haikuwa na ukiritimba wa utoaji wa fedha. Uliberali huu unaoonekana unaweza kuelezewa na kukosekana kwa hitaji lolote la kiuchumi la kuhodhi utoaji wa fedha, kutokana na rasilimali nyingi za kodi zinazotozwa kwa watu wengi wanaotozwa kodi.
+Sarafu ya kale ya Kichina ina sifa ambazo ni tofauti na mila ya Magharibi. Ilikuwa hasa ya metali, lakini iliyomiminwa badala ya kuchorwa, na haikuwa na sanamu ya mfalme. Kwa kushangaza, serikali ya China haikuwa na ukiritimba wa utoaji wa fedha. Uliberali huu unaoonekana unaweza kuelezewa na kukosekana kwa hitaji lolote la kiuchumi la kuhodhi utoaji wa fedha, kutokana na rasilimali nyingi za kodi zinazotozwa kwa watu wengi wanaotozwa kodi.
 
 
 
@@ -962,7 +962,7 @@ Kwa hivyo fedha za Kichina hazikutegemea thamani ya nyenzo au nadra ya kiasi cha
 
 
 
-Cowrie ilitumiwa sana kama kitengo cha pesa cha zamani. Maandishi ya kale yanaonyesha kwamba, mapema katika nasaba za Shang na Zhou (nasaba za kwanza za milenia ya kwanza na ya pili KK), makombora ya cowrie yalitumiwa sio tu kulipa matendo ya kijeshi, lakini pia ** kulipa kazi, kupima thamani na kununua ardhi **.
+Cowrie ilitumiwa sana kama kitengo cha pesa cha zamani. Maandishi ya kale yanaonyesha kuwa, mapema katika nasaba za Shang na Zhou (nasaba za kwanza za milenia ya kwanza na ya pili KK), makombora ya cowrie yalitumiwa sio tu kulipa matendo ya kijeshi, lakini pia ** kulipa kazi, kupima thamani na kununua ardhi **.
 
 
 
@@ -990,7 +990,7 @@ Huko Uchina, thamani ya pesa ilikuwa ya kuaminika kabisa, kwa msingi wa makubali
 
 
 
-Jimbo la Uchina lilitumia pesa kama chombo cha udhibiti wa uchumi: wakati wa wingi wa fedha, thamani ya pesa ilipungua, na kurahisisha watu kununua bidhaa. Kinyume chake, wakati wa uhaba wa fedha, thamani ya fedha iliongezeka, na kuimarisha uwezo wa ununuzi wa serikali kwa shughuli zake zilizofuata.
+Jimbo la Uchina lilitumia pesa kama chombo cha udhibiti wa uchumi: wakati wa wingi wa fedha, thamani ya fedha ilipungua, na kurahisisha watu kununua bidhaa. Kinyume chake, wakati wa uhaba wa fedha, thamani ya fedha iliongezeka, na kuimarisha uwezo wa ununuzi wa serikali kwa shughuli zake zilizofuata.
 
 
 
@@ -1013,7 +1013,7 @@ Huko Uchina, sarafu hazihitaji kuwekewa alama rasmi au kuhakikishiwa. Kukubalika
 ![image](assets/sw/004.webp)
 
 
-Hapo juu ni sarafu ya Wachina kutoka Zama za Kati. Ni sarafu ya kutupwa iliyo na shimo la mraba katikati. Shimo hili lilitumiwa kuunganisha kamba, na kuruhusu sarafu kuunganishwa ili kuunda vikuku au shanga. Hata hivyo, hizi hazikuwa hasa za kuvaa; zilitumika hasa kwa madhumuni ya uhasibu. Wanaweza kuunganishwa ili kuunda vitengo vya akaunti kwa namna ya masharti makubwa, na vipande vilivyounganishwa. Hakukuwa na alama maalum, wakati mwingine zilikuwa duru za shaba.
+Hapo juu ni sarafu ya Wachina kutoka Zama za Kati. Ni sarafu ya kutupwa iliyo na shimo la mraba katikati. Shimo hili lilitumiwa kuunganisha kamba, na kuruhusu sarafu kuunganishwa ili kuunda vikuku au shanga. Hata hivyo, hizi hazikuwa hasa za kuvaa; zilitumika kwa madhumuni ya uhasibu. Wanaweza kuunganishwa ili kuunda vitengo vya akaunti kwa namna ya masharti makubwa, na vipande vilivyounganishwa. Hakukuwa na alama maalum, wakati mwingine zilikuwa duru za shaba.
 
 
 Uhodhi wa kifedha wa jimbo hilo, ulioanzishwa kwa muda na Wudi wa Enzi ya Han mnamo 113 KK, mara nyingi ulipingwa, kuruhusu wachezaji mbalimbali wa kibinafsi au wa ndani kutoa sarafu zao wenyewe, mradi wangefurahia uaminifu wa kutosha wa kijamii.
@@ -1022,7 +1022,7 @@ Uhodhi wa kifedha wa jimbo hilo, ulioanzishwa kwa muda na Wudi wa Enzi ya Han mn
 **Thamani ya chini ya asili ya sarafu za Uchina ilizuia uhifadhi, hivyo basi kuhakikisha mzunguko wake wa laini**.Madini ya thamani hayakutumika mara chache kama sarafu inayozunguka ili kuzuia uhifadhi. Dhahabu, kuwa ghali sana, kwa kawaida iliwekwa kando badala ya kutumiwa. Badala yake, **hariri pekee iliwakilisha sarafu halisi ya thamani ya juu katika biashara ya kimataifa ya Uchina**. Wachina walifanya biashara kwa kutumia hariri, sio dhahabu.
 
 
-Wakati wa migogoro ya kiuchumi au ya kifedha, hasa wakati bei ya shaba ilikuwa inapanda, ufumbuzi wa kibunifu ulipitishwa: hivyo, mapema katika karne ya 2 BK, sarafu katika mzunguko zilikatwa ili kuunda vitengo vidogo, kuwezesha mzunguko wa maji kudumishwa kwa gharama ya chini. Enzi nyingine, kama ile ya Wang Mang (mapema karne ya 1 BK), ilifanya majaribio ya sarafu za uhakika, ambapo thamani za uso zilikuwa za juu sana kuliko maudhui yake halisi ya chuma, hivyo basi kutayarisha noti. Walichukua sarafu na kugonga thamani kama 50, 100, au 200 ili kuonyesha kiasi kikubwa zaidi, kama vile sarafu 200. Kitendo hiki huenda kilichangia mfumuko mkubwa wa bei.
+Wakati wa migogoro ya kiuchumi au ya kifedha, hasa wakati bei ya shaba ilikuwa inapanda, ufumbuzi wa kibunifu ulipitishwa: hivyo, mapema katika karne ya 2 BK, sarafu zilizokuwa katika mzunguko zilikatwa ili kuunda vitengo vidogo, kuwezesha mzunguko wa maji kudumishwa kwa gharama ya chini. Enzi nyingine, kama ile ya Wang Mang (mapema karne ya 1 BK), ilifanya majaribio ya sarafu za uhakika, ambapo thamani za uso zilikuwa za juu sana kuliko maudhui yake halisi ya chuma, hivyo basi kutayarisha noti. Walichukua sarafu na kugonga thamani kama 50, 100, au 200 ili kuonyesha kiasi kikubwa zaidi, kama vile sarafu 200. Kitendo hiki huenda kilichangia mfumuko mkubwa wa bei.
 
 
 Kama ilivyoelezwa hapo juu, mfumo huu ulitokana na maelewano ya kijamii kati ya Serikali, wazalishaji na wafanyabiashara, lakini pia juu ya sheria za kimabavu na kali kwa wale ambao hawakucheza mchezo, hasa kuhusiana na uchaguzi wa vipande (iwe ni nzuri au la) au urefu wa vitambaa (sio kulingana na kiwango).
@@ -1037,7 +1037,7 @@ Kwa maoni yangu mnyenyekevu, sio mfumo thabiti. Ilitegemea zaidi sheria kali zin
 
 
 
-Uchina pia ilikuwa waanzilishi katika utoaji wa aina za mapema za pesa za karatasi, zilizopitishwa hapo awali ili kukabiliana na uhaba wa chuma katika karne ya 9 BK. Licha ya faida zao za awali, sarafu hizi za karatasi mara kwa mara zilisababisha kuongezeka kwa mfumuko wa bei wakati zilitolewa kupita kiasi, kama ilivyoshuhudiwa katika kipindi cha Wimbo au Ming, wakati utoaji mwingi ulisababisha migogoro mikubwa ya sarafu, iliyoonyeshwa na Marco Polo katika karne ya 13, ambaye hata alibainisha kuwa uwongo wa pesa hizo za karatasi ulikuwa na adhabu ya kifo. Siwezi kujizuia kuashiria aina ya vurugu hapa.
+Uchina pia ilikuwa kati ya waanzilishi katika utoaji wa aina za mapema za pesa za karatasi, zilizopitishwa hapo awali ili kukabiliana na uhaba wa chuma katika karne ya 9 BK. Licha ya faida zao za awali, sarafu hizi za karatasi mara kwa mara zilisababisha kuongezeka kwa mfumuko wa bei wakati zilitolewa kupita kiasi, kama ilivyoshuhudiwa katika kipindi cha Wimbo au Ming, wakati utoaji mwingi ulisababisha migogoro mikubwa ya sarafu, iliyoonyeshwa na Marco Polo katika karne ya 13, ambaye hata alibainisha kuwa uwongo wa pesa hizo za karatasi ulikuwa na adhabu ya kifo. Siwezi kujizuia kuashiria aina ya vurugu hapa.
 
 
 
@@ -1090,7 +1090,7 @@ Tofauti kati ya shirika la kale na medieval inatoa mwanga juu ya suala hili. **Z
 
 
 
-Kuporomoka kwa Milki ya Roma kulisababisha mgawanyiko mkubwa: **Enzi ya ukabaila ilichukua nafasi ya shirika hili kuu na mfumo wa ugatuaji wa mashamba ya kujitegemea**. Majumba ya kifahari ya kale ya Kirumi yaligeuka kuwa msingi wa mishtuko ya enzi za kati, na kuunda picha ya visiwa vya kiuchumi vilivyo na uwezo wa kujitegemea vinavyosimamiwa na makasisi au waheshimiwa.
+Kuporomoka kwa Milki ya Roma kulisababisha mgawanyiko mkubwa: **Enzi ya ukabaila ilichukua nafasi ya shirika kuu na mfumo wa ugatuaji wa mashamba ya kujitegemea**. Majumba ya kifahari ya kale ya Kirumi yaligeuka kuwa msingi wa mishtuko ya enzi za kati, na kuunda picha ya visiwa vya kiuchumi vilivyo na uwezo wa kujitegemea vinavyosimamiwa na makasisi au waheshimiwa.
 
 
 
@@ -1102,7 +1102,7 @@ Ugatuaji huu wa enzi za kati, huku ukipunguza ufanisi wa kibiashara, kwa kushang
 
 
 
-Ugunduzi wa kiakiolojia unaonyesha kuwepo kwa **bandari za ununuzi na sehemu za biashara katika miji ya Mesopotamia mapema katika milenia ya pili**. Miundombinu hii inathibitisha kuwepo kwa masoko yaliyopangwa, hata kama utendakazi wao kamili unabaki kuwa mjadala.
+Ugunduzi wa kiakiolojia unaonyesha kuwepo kwa **bandari za ununuzi na maeneo ya biashara katika miji ya Mesopotamia mapema katika milenia ya pili**. Miundombinu hii inathibitisha kuwepo kwa masoko yaliyopangwa, hata kama utendakazi wao kamili unabaki kuwa mjadala.
 
 
 
@@ -1114,7 +1114,7 @@ Karl Polanyi, awali alikuwa na mashaka kuhusu kuwepo kwa mifumo halisi ya soko k
 
 
 
-Ulinganisho kati ya Sparta na Athene unaonyesha kikamilifu uhusiano kati ya mfumo wa fedha na shirika la kijamii. **Sparta inawakilisha kielelezo cha jamii yenye msimamo mkali wa ngazi ya juu ambayo ilikataa kimakusudi matumizi ya pesa**, huku Athene ikiendeleza uchumi wa hali ya juu wa kifedha ili kuandamana na mfumo wake wa kidemokrasia.
+Ulinganisho kati ya Sparta na Athene unaonyesha kikamilifu uhusiano kati ya mfumo wa fedha na mpangilio wa kijamii. **Sparta inawakilisha kielelezo cha jamii yenye msimamo mkali wa ngazi ya juu ambayo ilikataa kimakusudi matumizi ya pesa**, huku Athene ikiendeleza uchumi wa hali ya juu wa kifedha ili kuandamana na mfumo wake wa kidemokrasia.
 
 
 
@@ -1134,7 +1134,7 @@ Shirika la Spartan linaonyesha vikwazo vya **nambari ya Dunbar** inayotumika kwa
 
 
 
-Shirika hili, ambalo mwanzoni lilikuwa chanzo cha mshikamano wa kipekee wa kijeshi, lilionekana kuwa dhaifu kimuundo. **Mapigano ya Leuctres (371 KK) yalionyesha mipaka ya mfumo huu**: upotevu wa maisha ulisambaratisha mfumo wa kijamii wa Wasparta, na kusababisha kuporomoka kwa mtindo wao wa ustaarabu.
+Shirika hili, ambalo mwanzoni lilikuwa chanzo cha mshikamano wa kipekee wa kijeshi, lilionekana kuwa dhaifu kimuundo. **Mapigano ya Leuctres (371 KK) yalionyesha mipaka ya mfumo huu**: upotevu wa maisha ulisambaratisha mpangilio wa kijamii wa Wasparta, na kusababisha kuporomoka kwa mtindo wao wa ustaarabu.
 
 
 
@@ -1185,7 +1185,7 @@ Uchambuzi wa mifano hii ya kihistoria unaonyesha kwamba pesa, zaidi ya kazi yake
 
 :::video id=1d6834c4-98a3-43fe-ba80-04be51b0486e:::
 
-Sasa tumekuja kwenye kiini cha suala hilo: kuonekana kwa sarafu. Ninasisitiza neno 'sarafu' hapa kwa sababu tumeona katika sehemu zilizopita kwamba fedha au mifumo ya fedha ilikuwepo sana katika ustaarabu uliowatangulia watu wa Lidia, Wagiriki na Waajemi. Ni wazi, nadhani, kutoka kwa kile tumeona hivi punde. Kwa hiyo, sehemu hii imejitolea kwa kuibuka kwa sarafu sahihi na ina haki: *Kuibuka kwa sarafu*.
+Sasa tumefikia kiini cha suala hilo: kuibuka kwa sarafu. Ninasisitiza neno 'sarafu' hapa kwa sababu tumeona katika sehemu zilizopita kwamba fedha au mifumo ya fedha ilikuwepo sana katika ustaarabu uliowatangulia watu wa Lidia, Wagiriki na Waajemi. Ni wazi, nadhani, kutoka kwa kile tumeona hivi punde. Kwa hiyo, sehemu hii imejitolea kwa kuibuka kwa sarafu sahihi na ina haki: *Kuibuka kwa sarafu*.
 
 
 
@@ -1225,7 +1225,7 @@ Ninaona inavutia kutaja hapa kwamba huko Misri, waliendelea kupima sarafu muda m
 
 
 
-Ili kufafanua kipindi hiki katika umbo la kuona, hapa juu ni sarafu kutoka eneo la India, eneo la Bactria, ambalo liko karibu na magharibi mwa peninsula ya India, karibu na Afghanistan. Katika eneo hili, kulikuwa na sarafu ambazo labda zilichochewa na sarafu za Kigiriki zilizo na mmoja wa watu wao wa kifalme.
+Ili kufafanua kipindi hiki kwa njia la kuona, hapa juu ni sarafu kutoka eneo la India, eneo la Bactria, ambalo liko karibu na magharibi mwa peninsula ya India, karibu na Afghanistan. Katika eneo hili, kulikuwa na sarafu ambazo labda zilichochewa na sarafu za Kigiriki zilizo na mmoja wa watu wao wa kifalme.
 
 
 
@@ -1242,7 +1242,7 @@ Ili kufafanua kipindi hiki katika umbo la kuona, hapa juu ni sarafu kutoka eneo 
 
 
 
-Kwa kuwa hatuwezi kutenganisha mwonekano wa sarafu kutoka kwa Lidia na Waajemi, hebu tuendelee kwenye sehemu hiyo ya dunia ya mashariki ya Ugiriki, ambayo leo inaunda Uturuki. Sarafu za kwanza kuonekana Magharibi zilianzia takriban katikati ya karne ya 7 KK, katika mikoa ya Lydia na Ionia, iliyoko Uturuki ya leo. Ilikuwa karibu 650 hadi 600 KK ambapo uvumbuzi huu wa kimsingi ulipata mwanga wa siku, pamoja na uvumbuzi muhimu wa kiakiolojia kama vile sarafu za kwanza zilizopatikana katika hekalu la Artemi huko Efeso, za karibu 600 KK. Sarafu hizi za zamani zilitengenezwa kwa elektroni, aloi ya asili ya dhahabu na fedha yenye uakisi wa kahawia, na mara nyingi zilikuwa na sura chafu, zikiwa na alama za ngumi au vielelezo vya kawaida.
+Kwa kuwa hatuwezi kutenganisha kuibuka kwa sarafu kutoka kwa Lidia na Waajemi, hebu tuendelee kwenye sehemu hiyo ya dunia ya mashariki ya Ugiriki, ambayo leo inaunda Uturuki. Sarafu za kwanza kuonekana Magharibi zilianzia takriban katikati ya karne ya 7 KK, katika mikoa ya Lydia na Ionia, iliyoko Uturuki ya leo. Ilikuwa karibu 650 hadi 600 KK ambapo uvumbuzi huu wa kimsingi ulipata mwanga wa siku, pamoja na uvumbuzi muhimu wa kiakiolojia kama vile sarafu za kwanza zilizopatikana katika hekalu la Artemi huko Efeso, za karibu 600 KK. Sarafu hizi za zamani zilitengenezwa kwa elektroni, aloi ya asili ya dhahabu na fedha yenye uakisi wa kahawia, na mara nyingi zilikuwa na sura chafu, zikiwa na alama za ngumi au vielelezo vya kawaida.
 
 
 Hapo chini, unaweza kuona mojawapo ya sarafu za kwanza za Lydia, ikiwa na simba na mawindo yake mbele. Unaweza kuona muhuri au shimo nyuma, ambayo wengine wanaamini ilitumiwa kujaribu usafi wa chuma na kuhakikisha kuwa haikuwa safu ya uso tu. Ingawa hii ni moja ya mifano ya mwanzo, ni muhimu kutambua kwamba kipande hiki ni nakala. Vipande vyangu vyote vya dhahabu na elektroni ni nakala au maonyesho ya kisasa, yaliyoundwa kunizuia kutumia akiba yangu yote kwenye mkusanyiko huu.
@@ -1295,7 +1295,7 @@ Walipomteka Lydia mnamo 546 KK, Waajemi wa Achaemenid walipitisha uvumbuzi huu m
 
 
 
-Hapo juu, unaweza kupendeza sigloi halisi ya Kiajemi (au siglos). Muundo mdogo una mfalme, ingawa shimo limechakaa kidogo. Siglos ni sarafu ya fedha, tofauti na daric, ambayo ilifanywa kwa dhahabu. Waajemi waliweza kutofautisha metali hizi mbili, na walisonga mbali na sarafu za elektroni. Kwa hiyo, walitekeleza bimetallism, kwa kutumia dhahabu na fedha wakati wa kudumisha dhana sawa ya sarafu zilizofanywa kutoka kwa madini ya thamani, mara nyingi na shimo nyuma, labda kwa kuangalia maudhui ya chuma.
+Hapo juu, unaweza kuona sigloi halisi ya Kiajemi (au siglos). Muundo mdogo una mfalme, ingawa shimo limechakaa kidogo. Siglos ni sarafu ya fedha, tofauti na daric, ambayo ilifanywa kwa dhahabu. Waajemi waliweza kutofautisha metali hizi mbili, na walisonga mbali na sarafu za elektroni. Kwa hiyo, walitekeleza bimetallism, kwa kutumia dhahabu na fedha wakati wa kudumisha dhana sawa ya sarafu zilizofanywa kutoka kwa madini ya thamani, mara nyingi na shimo nyuma, labda kwa kuangalia maudhui ya chuma.
 
 
 Kupitishwa kwa haraka kwa sarafu na Wagiriki inaonekana kuwa kumechochewa na mawasiliano yao ya karibu na Walydia, haswa kupitia makoloni ya Wagiriki huko Asia Ndogo. Wagiriki wa kwanza kutengeneza sarafu za mint labda walikuwa wenyeji wa Aegina katikati ya karne ya sita KK, ambao walianzisha drakma, ambayo uzito wake ulitofautiana kutoka mkoa hadi mkoa, na ambao jina lake kihalisi linamaanisha "kiganja cha nafaka" au "michache ya mishale".
@@ -1305,7 +1305,7 @@ Mafanikio ya sarafu ya Ugiriki yalitokana na urahisishaji wake kwa shughuli muhi
 
 
 
-Hatimaye, upanuzi wa haraka wa sarafu unashuhudia mabadiliko makubwa ya jamii za kale, ambapo uratibu wa maadili ya fedha ulikwenda pamoja na shirika la serikali. Mageuzi haya yaliweka misingi ya kiuchumi na kisiasa ya kuinuka kwa demokrasia ya Ugiriki, haswa huko Athene, ambapo pesa zilichukua jukumu muhimu katika utendakazi wa jiji la kidemokrasia.
+Hatimaye, upanuzi wa haraka wa sarafu ulishuhudia mabadiliko makubwa ya jamii za kale, ambapo uratibu wa maadili ya fedha ulikwenda pamoja na shirika la serikali. Mageuzi haya yaliweka misingi ya kiuchumi na kisiasa ya kuinuka kwa demokrasia ya Ugiriki, haswa huko Athene, ambapo pesa zilichukua jukumu muhimu katika utendakazi wa jiji la kidemokrasia.
 
 
 
@@ -1351,7 +1351,7 @@ Bila mamlaka ya uidhinishaji, wachezaji wa kiuchumi wanakabiliwa na hatari za ma
 
 
 
-Dhamana hii ina bei inayoonekana sokoni: sarafu ya dhahabu iliyotengenezwa ina thamani zaidi ya dhahabu mbichi inayolingana nayo. Malipo haya yanaonyesha thamani ya uidhinishaji - wafanyabiashara hawahitaji tena kuthibitisha uhalisi wa chuma kupitia majaribio ya kemikali au resonance. Uingiliaji kati wa serikali, kwa kushangaza, huondoa msuguano na kuwezesha biashara kwa kuunda uaminifu wa kitaasisi.
+Dhamana hii ina bei inayotambulika sokoni: sarafu ya dhahabu iliyotengenezwa ina thamani zaidi ya dhahabu mbichi inayolingana nayo. Malipo haya yanaonyesha thamani ya uidhinishaji - wafanyabiashara hawahitaji tena kuthibitisha uhalisi wa chuma kupitia majaribio ya kemikali au resonance. Uingiliaji kati wa serikali, kwa kushangaza, huondoa msuguano na kuwezesha biashara kwa kuunda uaminifu wa kitaasisi.
 
 
 
@@ -1379,7 +1379,7 @@ Utafiti wa kushuka kwa thamani ya sarafu unaonyesha mifumo thabiti katika histor
 
 
 
-Mbinu zote mbili hupima jambo sawa la msingi: dilution ya thamani ya fedha. Iwe kwa kupunguza maudhui ya metali ya thamani au kuchapisha noti mpya, utaratibu unabaki vile vile. Kadiri mamlaka inavyounda vitengo vya fedha kutoka kwa rasilimali zilezile, ndivyo kila kitengo kinapoteza thamani yake.
+Mbinu zote mbili hupima jambo sawa la msingi: dilution ya thamani ya fedha. Iwe kwa kupunguza maudhui ya metali ya thamani au kuchapisha noti mpya, utaratibu unabaki ule ule. Kadiri mamlaka inavyounda vitengo vya fedha kutoka kwa rasilimali zilezile, ndivyo kila kitengo kinapoteza thamani yake.
 
 
 
@@ -1429,7 +1429,7 @@ Katika Zama za Kati, pia kulikuwa na mwelekeo wa kueneza sarafu nje, na kuwafany
 Teknolojia ya mwisho kufika mwishoni mwa Zama za Kati, mwanzoni mwa zama za kisasa, ilikuwa dhana ya pendulum ya kushangaza. Ilikuwa ni aina ya skrubu ambayo iliimarishwa ili kupiga sarafu, hivyo kuzalisha sarafu na aina hii mpya ya kushangaza. Kilichokuwa speaicl juu ya maendeleo haya ni uwezo wa kuchora muundo kwenye uso wa sarafu kushughulikia suala la kukatwa. Ukataji ulihusisha kuondoa sehemu ya sarafu ili kurejesha fedha ya thamani, ambayo ingeweza kutumiwa kutengeneza sarafu nyingine au kubakizwa tu kama rasilimali.
 
 
-Kwa hivyo wazo hili la kugonga kwa pendulum lilisaidia kwa uzushi wa kukata. Na inafurahisha kutambua kwamba teknolojia hii kweli ilitoka Ufaransa. Huko Uingereza, kwa mfano, waliajiri wahandisi Wafaransa kuja kuwaonyesha jinsi ya kutengeneza mashine hizi. Ni nini cha kuchekesha, nadhani, ni kwamba kulikuwa na wafuasi wa utengenezaji wa nyundo ambao walikuwa dhidi yake na ambao walichelewesha utumiaji wa teknolojia hii. Katika teknolojia yoyote nzuri, daima kuna watu ambao ni kinyume chake, ambao wanataka kuweka teknolojia ya zamani. Nilidhani ilikuwa ni wazimu sana kutambua kwamba hata teknolojia ambayo inaonekana kuwa bora zaidi - unaweza kutengeneza sehemu nyingi zaidi, ni vigumu kunakili - bado kulikuwa na watu ambao walikuwa wameunganishwa na mbinu maarufu ya nyundo. Kulikuwa na mabadiliko kati ya kutengeneza sehemu ambazo zilitengenezwa na pendulum hii maarufu ikigonga na kisha kurudi kwenye nyundo inayopiga. Na hatimaye, bila shaka, ilikuwa pendulum ya kushangaza ambayo hatimaye ilichukua na kutupa vipande hivi vyema vya kisasa ambapo unaweza kupata mistari midogo, matuta madogo karibu ili kuepuka kukata, pengine kuhusiana na neno kukata, matuta, na bado unaweza kuona leo ama matuta au maandishi au michoro ambayo imeandikwa kwenye ukingo wa kipande.
+Kwa hivyo wazo hili la kugonga kwa pendulum lilisaidia kwa uzushi wa kukata. Na inafurahisha kutambua kwamba teknolojia hii kweli ilitoka Ufaransa. Huko Uingereza, kwa mfano, waliajiri wahandisi Wafaransa kuja kuwaonyesha jinsi ya kutengeneza mashine hizi. Ni kipi cha kuchekesha, nadhani, ni kwamba kulikuwa na wafuasi wa utengenezaji wa nyundo ambao walikuwa dhidi yake na ambao walichelewesha utumiaji wa teknolojia hii. Katika teknolojia yoyote nzuri, daima kuna watu ambao ni kinyume chake, ambao wanataka kuweka teknolojia ya zamani. Nilidhani ilikuwa ni wazimu sana kutambua kwamba hata teknolojia ambayo inaonekana kuwa bora zaidi - unaweza kutengeneza sehemu nyingi zaidi, ni vigumu kunakili - bado kulikuwa na watu ambao walikuwa wameunganishwa na mbinu maarufu ya nyundo. Kulikuwa na mabadiliko kati ya kutengeneza sehemu ambazo zilitengenezwa na pendulum hii maarufu ikigonga na kisha kurudi kwenye nyundo inayopiga. Na hatimaye, bila shaka, ilikuwa pendulum ya kushangaza ambayo hatimaye ilichukua na kutupa vipande hivi vyema vya kisasa ambapo unaweza kupata mistari midogo, matuta madogo karibu ili kuepuka kukata, pengine kuhusiana na neno kukata, matuta, na bado unaweza kuona leo ama matuta au maandishi au michoro ambayo imeandikwa kwenye ukingo wa kipande.
 
 
 
@@ -1455,7 +1455,7 @@ Karibu kwenye sehemu hii inayohusu nadharia mbalimbali za uibukaji wa pesa na fa
 
 > Dibaji hii fupi haitumikii kusudi lingine ila kuangazia muktadha wa utafiti. Katika kiwango cha dhana, mjadala uko wazi kati ya wafuasi wa thesis ya K. Polanyi na wale wa M. Weber. Kwa zamani, zawadi na ugawaji upya huchukua jukumu kuu, na ubadilishaji wa soko unachukua jukumu la chini tu, haswa katika ubadilishanaji wa kimataifa. Kwa wengine, kinyume chake, soko ni katikati ya mchakato wa sasa wa kihistoria.
 
-Kwa mfano, huko Mesopotamia, nadharia moja ya kuibuka inapendekeza kwamba hekalu, kama mamlaka, huunda kitengo cha hesabu au kitengo cha fedha, huiweka, na kisha wafanyabiashara huikubali kwa biashara. Nadharia iliyo kinyume inasisitiza kwamba, hapana, kitengo hiki cha fedha hujitokeza kwa kawaida kutoka soko ili kuwezesha biashara. Kuna mifano ya kutosha ya hii huko Mesopotamia.
+Kwa mfano, huko Mesopotamia, nadharia moja ya kuibuka inapendekeza kwamba hekalu, kama mamlaka, lilijenga kitengo cha hesabu au kitengo cha fedha, huiweka, na kisha wafanyabiashara huikubali kwa biashara. Nadharia iliyo kinyume inasisitiza kwamba, hapana, kitengo hiki cha fedha hujitokeza kwa kawaida kutoka soko ili kuwezesha biashara. Kuna mifano ya kutosha ya hii huko Mesopotamia.
 
 
 
@@ -1476,7 +1476,7 @@ Hivyo kwamba ni nini tunakwenda kufanya katika sehemu hii. Tutafanya aina ya uch
 
 :::video id=873a16c1-17ac-448d-8941-df4feb7ab79d:::
 
-Sehemu hii imejitolea kwa nadharia tofauti juu ya kuibuka kwa pesa. Mada ya kwanza kushughulikiwa ni kuibuka kwa pesa kulingana na wachumi wa zamani.
+Sehemu hii imejitolea kwa nadharia mbalimbali juu ya kuibuka kwa pesa. Mada ya kwanza kushughulikiwa ni kuibuka kwa pesa kulingana na wachumi wa zamani.
 
 
 
@@ -1492,7 +1492,7 @@ Kulingana na nadharia za kiuchumi za kitamaduni, haswa zile zilizoungwa mkono na
 
 
 
-Huu hapa ni uhakiki wangu wa nadharia hii. Pamoja na kila kitu ambacho tumeona katika sehemu iliyotangulia, nadhani tunaweza tayari kusema kwamba dhana hii kwamba **sarafu** ni mageuzi ya kubadilishana vitu si sahihi kwa sababu tu sarafu iliyotengenezwa inatoka kwa mamlaka, kwa kuwa imeundwa na mamlaka. Kuna sababu kadhaa za hii, sio angalau hamu ya mamlaka ya kudhibiti uchumi, kuchukua udhibiti wa pesa.
+Huu hapa ni uhakiki wangu wa nadharia hii. Pamoja na kila kitu ambacho tumeona katika sehemu iliyotangulia, nadhani tunaweza tayari kusema kwamba dhana kwamba **sarafu** ni mageuzi ya kubadilishana vitu si sahihi kwa sababu tu sarafu iliyotengenezwa inatoka kwa mamlaka, kwa kuwa imeundwa na mamlaka. Kuna sababu kadhaa za hii, sio angalau hamu ya mamlaka ya kudhibiti uchumi, kuchukua udhibiti wa pesa.
 
 
 
@@ -1515,7 +1515,7 @@ Tumeona pia kwamba tangu zamani za Uchina, makasha ya ng'ombe yalitumiwa kwa kub
 
 
 
-Kwa kuwa sarafu hutolewa na mamlaka, labda tunaweza kudhani kwamba, tangu mwanzo, zimeunganishwa na mamlaka zinazotoa. Hiyo inaleta maana. Kwa upande mwingine, si lazima tujue jinsi aina za pesa au aina za mifumo ya fedha, sarafu za proto, zilizotangulia zilivyojitokeza. Kwa upande mmoja, tutapendekeza kwamba ilikuwa mahekalu ambayo yalitambua vitengo hivi vya fedha na, baadaye, watu walizitumia. Na, kwa upande mwingine, tutakuambia, hapana, walikuwa wafanyabiashara ambao walihitaji njia ya kubadilishana, njia ya biashara na ulimwengu wa nje, na ndio waliotambua, kwa mfano, chuma cha fedha, kutumika kwa sababu ilikuwa katika mahitaji kutoka kwa ulimwengu wa nje. Jambo ni kwamba, hatujui kabisa. Ndio maana tunazo nadharia mbili zinazopingana. Hatuna uthibitisho kamili wa kueleza ikiwa pesa hutokana na hitaji la kufanya biashara, kwa mfano na wafanyabiashara, au kama zinatokana na mamlaka.
+Kwa kuwa sarafu hutolewa na mamlaka, labda tunaweza kudhani kwamba, tangu mwanzo, zimeunganishwa na mamlaka zinazotoa. Hiyo inaleta maana. Kwa upande mwingine, si lazima tujue jinsi aina za pesa au aina za mifumo ya fedha, sarafu za proto, zilizotangulia zilivyojitokeza. Kwa upande mwingine, tutapendekeza kwamba ilikuwa mahekalu ambayo yalitambua vitengo hivi vya fedha na, baadaye, watu walizitumia. Na, kwa upande mwingine, tutakuambia, hapana, walikuwa wafanyabiashara ambao walihitaji njia ya kubadilishana, njia ya biashara na ulimwengu wa nje, na ndio waliotambua, kwa mfano, chuma cha fedha, kutumika kwa sababu ilikuwa katika mahitaji kutoka kwa ulimwengu wa nje. Jambo ni kwamba, hatujui kabisa. Ndio maana tunazo nadharia mbili zinazopingana. Hatuna uthibitisho kamili wa kueleza ikiwa pesa hutokana na hitaji la kufanya biashara, kwa mfano na wafanyabiashara, au kama zinatokana na mamlaka.
 
 
 
@@ -1552,7 +1552,7 @@ Ukosoaji unaojulikana kama "hadithi ya kubadilishana fedha", uliotayarishwa na m
 
 
 
-Ikumbukwe, hata hivyo, kwamba nadharia hii haikatai kuwa kubadilishana kulikuwapo, kwa mfano, kwa kubadilishana kati ya makabila tofauti. Inakanusha tu kwamba kubadilishana ilikuwa shughuli inayotekelezwa sana ndani ya vikundi hivi vinavyojulikana kama primitive, na kwamba pesa zingekuwa mageuzi ya kimantiki ya mazoea haya. Inakanusha ukweli kwamba ubadilishanaji mali ulitumika sana ndani ya kabila, na kwamba pesa hatimaye zilitoka ili kuboresha ubadilishanaji na kutatua matatizo yaliyokuwepo na kubadilishana. Badala yake, kulingana na nadharia hii, vikundi hivi vilifanya aina ya mkopo usio rasmi au zawadi kwa zawadi.
+Ikumbukwe, hata hivyo, kwamba nadharia hii haikatai kuwepo kwa ubadilishanaji, kwa mfano, kwa kubadilishana kati ya makabila tofauti. Inakanusha tu kwamba kubadilishana ilikuwa shughuli inayotekelezwa sana ndani ya vikundi hivi vinavyojulikana kama primitive, na kwamba pesa zingekuwa mageuzi ya kimantiki ya mazoea haya. Inakanusha ukweli kwamba ubadilishanaji mali ulitumika sana ndani ya kabila, na kwamba pesa hatimaye zilitoka ili kuboresha ubadilishanaji na kutatua matatizo yaliyokuwepo na kubadilishana. Badala yake, kulingana na nadharia hii, vikundi hivi vilifanya aina ya mkopo usio rasmi au zawadi kwa zawadi.
 
 
 
@@ -1599,7 +1599,7 @@ Nadharia ya **fedha za deni**, iliyoendelezwa haswa na mwanauchumi Alfred Mitche
 
 
 
-Njia ya juu zaidi ya nadharia hii ni kwamba pesa zote ni deni. Kwa hivyo mtu ambaye ana pesa atakuwa na madai kwa jamii kwa ujumla, madai kwa wale wote wanaokubali pesa hizo. Na kwa kuwa pesa, ** katika maono yao, lazima ukubaliwe kwa njia ya lazima **, vinginevyo sio pesa, kwa sababu ikiwa unaweza kukataa pesa hii, mfumo wao haufanyi kazi. Katika kundi fulani ambalo limebainisha sarafu, wale wote walio nayo, ni kana kwamba wana deni kwa wanachama wengine wote wa jumuiya hiyo wanaokubali sarafu hiyo, na wale wanaokubali sarafu wana aina ya deni kwa mtu ambaye ana kitengo cha fedha. Hii kimsingi ni nadharia yao.
+Hoja ya juu zaidi ya nadharia hii ni kwamba pesa zote ni deni. Kwa hivyo mtu ambaye ana pesa atakuwa na madai kwa jamii kwa ujumla, madai kwa wale wote wanaokubali pesa hizo. Na kwa kuwa pesa, ** katika maono yao, lazima ukubaliwe kwa njia ya lazima **, vinginevyo sio pesa, kwa sababu ikiwa unaweza kukataa pesa hii, mfumo wao haufanyi kazi. Katika kundi fulani ambalo limebainisha sarafu, wale wote walio nayo, ni kana kwamba wana deni kwa wanachama wengine wote wa jumuiya hiyo wanaokubali sarafu hiyo, na wale wanaokubali sarafu wana aina ya deni kwa mtu ambaye ana kitengo cha fedha. Hii kimsingi ni nadharia yao.
 
 
 
@@ -1619,7 +1619,7 @@ Kwa upande wangu, ninaweza kufikiria kwa urahisi mfumo ambapo pesa ni makubalian
 
 
 
-Mtazamo huu mdogo wa nadharia husaidia kueleza jinsi jamii mbili tofauti zinaweza kufanya biashara na token ya fedha kama vile dhahabu, bila kuunda dai au deni kati ya jamii zilizotajwa. Kulazimisha kukubalika katika jamii, naona, haifanyi kazi katika biashara kati ya makabila mawili, kwa sababu kabila lingine haliko chini ya mamlaka. Kabila B haliko chini ya mamlaka ya kabila A. Lakini bado, inakubali fedha sawa za token tuseme, dhahabu. Sasa, watu wanaweza kuniambia "Ndiyo, lakini hiyo ni kwa sababu kampuni B pia imeamua kuwa dhahabu ni sarafu yao", kwa hivyo inafanya kazi. Ndio kweli, inafanya kazi, lakini hakuna uundaji wa deni wakati huo. Ni shughuli ya mwisho. Kwa hivyo, wakati kampuni A inabadilishana nzuri kwa dhahabu kwenye kampuni B, hakuna uundaji wa deni, shughuli hiyo imekamilika. Na ni wazi, mtu katika kampuni B hajapata sarafu hii ya dhahabu au nugget ili kulipwa baadaye na watu katika kampuni A. Anakubali ibadilishwe kwa dhahabu. Anakubali ibadilishwe baadaye, pengine ndani ya kabila lake. Kwa hiyo, katika mfano huu, hakuna uumbaji wa deni, hakuna madai ya siri, ni kubadilishana moja kwa moja tu, malipo ya moja kwa moja. Watetezi wa sarafu ya deni watatuambia kuwa hii ni kubadilishana. Na sikubaliani, kwa sababu kubadilishana ni kubadilishana faida ya moja kwa moja. Ubadilishanaji wa moja kwa moja ni ubadilishanaji wa nzuri moja kwa nzuri nyingine, kwa matumizi. Bidhaa hubadilishwa ili zitumike, ambapo kwa upande wetu, dhahabu inatumika wazi kama sarafu kwa sababu haitatumika kufanya kitu kingine chochote; itatumika baadaye kama njia ya malipo. Kwa hivyo, kwa maoni yangu, haingii katika kitengo cha kubadilishana vitu.
+Mtazamo huu mdogo wa nadharia husaidia kueleza jinsi jamii mbili tofauti zinaweza kufanya biashara kwa kutumia token ya fedha kama vile dhahabu, bila kuunda dai au deni kati ya jamii zilizotajwa. Kulazimisha kukubalika katika jamii, naona, haifanyi kazi katika biashara kati ya makabila mawili, kwa sababu kabila lingine haliko chini ya mamlaka. Kabila B haliko chini ya mamlaka ya kabila A. Lakini bado, inakubali fedha sawa za token tuseme, dhahabu. Sasa, watu wanaweza kuniambia "Ndiyo, lakini hiyo ni kwa sababu kampuni B pia imeamua kuwa dhahabu ni sarafu yao", kwa hivyo inafanya kazi. Ndio kweli, inafanya kazi, lakini hakuna uundaji wa deni wakati huo. Ni shughuli ya mwisho. Kwa hivyo, wakati kampuni A inabadilishana nzuri kwa dhahabu kwenye kampuni B, hakuna uundaji wa deni, shughuli hiyo imekamilika. Na ni wazi, mtu katika kampuni B hajapata sarafu hii ya dhahabu au nugget ili kulipwa baadaye na watu katika kampuni A. Anakubali ibadilishwe kwa dhahabu. Anakubali ibadilishwe baadaye, pengine ndani ya kabila lake. Kwa hiyo, katika mfano huu, hakuna uumbaji wa deni, hakuna madai ya siri, ni kubadilishana moja kwa moja tu, malipo ya moja kwa moja. Watetezi wa sarafu ya deni watatuambia kuwa hii ni kubadilishana. Na sikubaliani, kwa sababu kubadilishana ni kubadilishana faida ya moja kwa moja. Ubadilishanaji wa moja kwa moja ni ubadilishanaji wa nzuri moja kwa nzuri nyingine, kwa matumizi. Bidhaa hubadilishwa ili zitumike, ambapo kwa upande wetu, dhahabu inatumika wazi kama sarafu kwa sababu haitatumika kufanya kitu kingine chochote; itatumika baadaye kama njia ya malipo. Kwa hivyo, kwa maoni yangu, haingii katika kitengo cha kubadilishana vitu.
 
 
 
@@ -1651,7 +1651,7 @@ Wanaanthropolojia kama vile David Graeber wanapinga maoni haya, wakitumia "hadit
 
 
 
-Walakini, ukosoaji huu unatokana na ufafanuzi wa kizuizi wa kubadilishana. Kama Menger alivyoonyesha nyuma mnamo 1892, kubadilishana kunapita zaidi ya ubadilishanaji rahisi wa moja kwa moja wa bidhaa kwa bidhaa. Pia inajumuisha uhamisho ulioahirishwa, huduma za mishahara, na kubadilishana kwa muda - kile Menger alichoita "uhamisho wa upande mmoja kati ya watu binafsi". Njia hii iliyopanuliwa ya kubadilishana inaweza kuwepo pamoja na mifumo ya mikopo katika miduara yenye vikwazo vya uaminifu.
+Walakini, ukosoaji huu unatokana na ufafanuzi wa kizuizi wa kubadilishana. Kama Menger alivyoonyesha awali mnamo 1892, kubadilishana kunapita zaidi ya ubadilishanaji rahisi wa moja kwa moja wa bidhaa kwa bidhaa. Pia inajumuisha uhamisho ulioahirishwa, huduma za mishahara, na kubadilishana kwa muda - kile Menger alichoita "uhamisho wa upande mmoja kati ya watu binafsi". Njia hii iliyopanuliwa ya kubadilishana inaweza kuwepo pamoja na mifumo ya mikopo katika miduara yenye vikwazo vya uaminifu.
 
 
 
@@ -1667,7 +1667,7 @@ Mjadala unapamba moto kuzunguka asili ya shekeli ya fedha ya Mesopotamia. Kuna t
 
 
 
-Ufafanuzi wa Austria unapendekeza kinyume chake: walikuwa wafanyabiashara ambao walipitisha pesa kwa biashara ya umbali mrefu. Wakikabiliwa na changamoto ya kufanya biashara na wageni nje ya mipaka ya Mesopotamia - kutoka Anatolia hadi Ghuba ya Uajemi - walihitaji kitu kinachotambulika ulimwenguni pote, kudumu na kusafirishwa. Fedha ilikuwa chaguo la asili kwa sababu ya sifa zake za ndani. Mahekalu yalithibitisha tu mazoezi ambayo tayari yameanzishwa na matumizi ya kibiashara.
+Ufafanuzi wa Austria unapendekeza kinyume chake: walikuwa wafanyabiashara ambao walipitisha pesa kwa biashara ya umbali mrefu. Wakikabiliwa na changamoto ya kufanya biashara na wageni nje ya mipaka ya Mesopotamia - kutoka Anatolia hadi Ghuba ya Uajemi - walihitaji kitu ambacho kingetambulika ulimwenguni kwote, kudumu na kusafirishwa. Fedha ilikuwa chaguo la asili kwa sababu ya sifa zake za ndani. Mahekalu yalithibitisha tu mazoezi ambayo tayari yameanzishwa na matumizi ya kibiashara.
 
 
 
@@ -1691,7 +1691,7 @@ Microcosm hii inaonyesha kanuni ya Austria: wanakabiliwa na tatizo la kuratibu u
 
 
 
-Kimsingi, pesa inawakilisha muunganiko wa mapendeleo ya mtu binafsi kuelekea manufaa ya pamoja yanayokubalika. Wafanyabiashara wa Mesopotamia, kama wafungwa wa Radford, walibainisha wema ambao ulipunguza kutokuwa na uhakika wa mabadilishano ya siku zijazo. Uteuzi huu haungojei kuidhinishwa au kuwekwa kwa mamlaka kuu - unajitokeza kutoka kwa busara ya vitendo ya watendaji wa kiuchumi wanaokabiliwa na changamoto za kubadilishana.
+Kimsingi, pesa inawakilisha muunganiko wa mapendeleo ya mtu binafsi kuelekea manufaa ya pamoja yanayokubalika. Wafanyabiashara wa Mesopotamia, kama wafungwa wa Radford, walibainisha wema ambao ulipunguza kutokuwa na uhakika wa mabadilishano ya siku ambazo zingefuata. Uteuzi huu haungojei kuidhinishwa au kuwekwa kwa mamlaka kuu - unajitokeza kutoka kwa busara ya vitendo ya watendaji wa kiuchumi wanaokabiliwa na changamoto za kubadilishana.
 
 
 
@@ -1723,7 +1723,7 @@ Katika jamii za zamani, pesa hazikutumika kwa ubadilishanaji wa kila siku wa bid
 
 
 
-Hiyo ndiyo muhtasari wa maono yao. Tunajadili hili na Ulrich kwenye gumzo letu kwenye video iliyotangulia. Nitakuruhusu ufurahie maoni ya Ulrich kuhusu mada hii, ambayo yanapinga mbinu hii kidogo. Na kwa hivyo, katika maono ya kianthropolojia, mara nyingi tuna wazo hili la pesa kutoka kwa mamlaka au dhana ya kijamii inayotangulia mahitaji ya soko.
+Hio ndio muhtasari wa maono yao. Tunajadili hili na Ulrich kwenye gumzo letu kwenye video iliyotangulia. Nitakuruhusu ufurahie maoni ya Ulrich kuhusu mada hii, ambayo yanapinga mbinu hii kidogo. Na kwa hivyo, katika maono ya kianthropolojia, mara nyingi tuna wazo hili la pesa kutoka kwa mamlaka au dhana ya kijamii inayotangulia mahitaji ya soko.
 
 
 
@@ -1739,7 +1739,7 @@ Hapa chini, unaweza kupendeza mfano wa kuvutia wa mawe makubwa kwenye kisiwa cha
 
 
 
-Huu ni uchambuzi wa kuvutia sana wa mawe ya Yap. Saifedean Ammous pia anataja mfano huu katika kitabu chake "The Bitcoin Standard". Kulingana na yeye, mfumo wa Kisiwa cha Yap unafanana zaidi na Bitcoin, aina ya rekodi kuu ambayo kila mtu anaweza kushauriana, ambayo ni ya umma, kudumisha akaunti na kusimamia umiliki wa vitu. Mtazamo huu wa kianthropolojia unaonyesha kwamba yote haya yanawakilisha makubaliano au makubaliano ya kijamii ndani ya jamii, ambayo kimsingi ni sahihi. Na ninaona kutaja hii ya mawe yaliyopotea ya kuvutia sana. Wangeenda mamia ya kilomita baharini kwa mashua ndogo na kurudisha mawe. Wakati mwingine jiwe lilianguka chini ya bahari, lakini jiwe hili bado lingetumika katika mfumo wa fedha. Mtu anaweza kusema "Ndio, tulidondosha jiwe mahali kama hii; ni yangu, ili tuweze kuibadilisha". Hakukuwa na haja ya kumiliki mali ili kurahisisha ubadilishanaji, kwani mawe yalikuwa makubwa sana hivi kwamba mara nyingi yalikaa mahali pamoja. Badala yake, lengo lilikuwa kubadilisha mikono na mawe haya kwa njia ya shughuli, kuruhusu umiliki kuhama bila mawe kusonga. Ilikuwa ni aina ya "ushahidi wa makubaliano", ikionyesha mtazamo wa kuvutia wa kianthropolojia juu ya pesa.
+Huu ni uchambuzi wa kuvutia sana wa mawe ya Yap. Saifedean Ammous pia anataja mfano huu katika kitabu chake "The Bitcoin Standard". Kulingana naye, mfumo wa Kisiwa cha Yap unafanana zaidi na Bitcoin, aina ya rekodi kuu ambayo kila mtu anaweza kushauriana, ambayo ni ya umma, kudumisha akaunti na kusimamia umiliki wa vitu. Mtazamo huu wa kianthropolojia unaonyesha kwamba yote haya yanawakilisha makubaliano au makubaliano ya kijamii ndani ya jamii, ambayo kimsingi ni sahihi. Na ninaona kutaja hii ya mawe yaliyopotea ya kuvutia sana. Wangeenda mamia ya kilomita baharini kwa mashua ndogo na kurudisha mawe. Wakati mwingine jiwe lilianguka chini ya bahari, lakini jiwe hili bado lingetumika katika mfumo wa fedha. Mtu anaweza kusema "Ndio, tulidondosha jiwe mahali kama hii; ni yangu, ili tuweze kuibadilisha". Hakukuwa na haja ya kumiliki mali ili kurahisisha ubadilishanaji, kwani mawe yalikuwa makubwa sana hivi kwamba mara nyingi yalikaa mahali pamoja. Badala yake, lengo lilikuwa kubadilisha mikono na mawe haya kwa njia ya shughuli, kuruhusu umiliki kuhama bila mawe kusonga. Ilikuwa ni aina ya "ushahidi wa makubaliano", ikionyesha mtazamo wa kuvutia wa kianthropolojia juu ya pesa.
 
 
 
@@ -1751,7 +1751,7 @@ Wataalamu wa ethnografia ulimwenguni kote wamechunguza jamii zinazotumia "sarafu
 
 
 
-Kwa hivyo, hapa tunaelezea mifumo ya fedha ambayo haikuwa lazima kutumika kwa ubadilishanaji wa kila siku.
+Kwa hivyo, hapa tunaelezea mifumo ya fedha ambayo haikutumiwa hasa kwa ubadilishanaji wa kila siku.
 
 
 
@@ -1763,7 +1763,7 @@ Sarafu hizi za zamani zilitumiwa hasa kudhibiti majukumu ya kimsingi ya kijamii 
 
 
 
-Pesa ya kwanza kwa hiyo ina sifa moja muhimu: ni njia ya malipo, lakini mara chache sana ni njia ya kubadilishana moja kwa moja ya bidhaa za nyenzo. Tunachomaanisha hapa ni kwamba ilikuwa njia ya malipo ya majukumu fulani ya kijamii, kwa makabila, kwa kubadilishana kati ya machifu, wergeld maarufu, pesa za damu. Kabla ya ujio wa mifumo ya haki, ikiwa mtu alifanya mauaji, kulikuwa na fidia kwa familia iliyoteseka kutokana na mauaji ya mpendwa wao. Kulikuwa na bei ya kulipa kwa hili, iliitwa pesa ya damu na ni njia ya malipo. Pia kulikuwa na mahari, ambayo pia ni njia ya malipo. Katika matumizi haya ya mapema ya pesa kama njia ya malipo, ilihusiana zaidi na majukumu ya kibinadamu na kijamii kuliko malipo ya ununuzi wa kila siku. Kulingana na nadharia hii, mabadilishano haya ya kawaida zaidi ya siku hadi siku yalihusiana zaidi na mkopo, mkopo ulioahirishwa, zawadi kwa zawadi, na ugawaji upya wa mgao. Kulikuwa na aina nyingine ya shirika la kijamii la kusimamia mabadilishano haya. Ni muhimu pia kukumbuka kuwa, katika jamii ambayo kila mtu anajitegemea, anafanya kilimo chake mwenyewe, hakuna utaalamu, na kuna haja ndogo sana ya mfumo wa fedha kwa ajili ya kubadilishana siku hadi siku. Na ndio maana aina za kwanza za pesa ndizo tulizozielezea hivi punde, mahari, pesa za damu, kwa sababu tu hizi zilikuwa ubadilishaji wa kwanza ambapo tulihitaji njia ya malipo, zamani kabla ya kuhitaji kufanya biashara, kubadilishana mkate kwa pesa kila siku, kwa sababu katika jamii za zamani, haikufanya kazi hivyo. Kila mtu alitoa mahitaji yake mwenyewe, na hakukuwa na utaalam bado. Nadhani nimeshughulikia hili kwa urefu katika mihadhara yote iliyotangulia katika kozi hii.
+Pesa ya kwanza kwa hiyo ina sifa moja muhimu: ni njia ya malipo, lakini mara chache sana ni njia ya kubadilishana moja kwa moja ya bidhaa za nyenzo. Tunachomaanisha hapa ni kwamba ilikuwa njia ya malipo ya majukumu fulani ya kijamii, kwa makabila, kwa kubadilishana kati ya machifu, wergeld maarufu, pesa za damu. Kabla ya ujio wa mifumo ya haki, ikiwa mtu alifanya mauaji, kulikuwa na fidia kwa familia iliyoteseka kutokana na mauaji ya mpendwa wao. Kulikuwa na bei ya kulipa kwa hili, iliitwa pesa ya damu na ni njia ya malipo. Pia kulikuwa na mahari, ambayo pia ni njia ya malipo. Katika matumizi haya ya mapema ya pesa kama njia ya malipo, ilihusiana zaidi na majukumu ya kibinadamu na kijamii kuliko malipo ya ununuzi wa kila siku. Kulingana na nadharia hii, mabadilishano haya ya kawaida ya kila siku yalihusiana zaidi na mkopo, mkopo ulioahirishwa, zawadi kwa zawadi, na ugawaji upya wa mgao. Kulikuwa na aina nyingine ya shirika la kijamii la kusimamia mabadilishano haya. Ni muhimu pia kukumbuka kuwa, katika jamii ambayo kila mtu anajitegemea, anafanya kilimo chake mwenyewe, hakuna utaalamu, na kuna haja ndogo sana ya mfumo wa fedha kwa ajili ya kubadilishana siku hadi siku. Na ndio maana aina za kwanza za pesa ndizo tulizozielezea hivi punde, mahari, pesa za damu, kwa sababu tu hizi zilikuwa ubadilishaji wa kwanza ambapo tulihitaji njia ya malipo, zamani kabla ya kuhitaji kufanya biashara, kubadilishana mkate kwa pesa kila siku, kwa sababu katika jamii za zamani, haikufanya kazi hivyo. Kila mtu alitoa mahitaji yake mwenyewe, na hakukuwa na utaalam bado. Nadhani nimeshughulikia hili kwa urefu katika mihadhara yote iliyotangulia katika kozi hii.
 
 
 
@@ -1795,7 +1795,7 @@ Kwa hivyo, mbali na kuwa chombo cha kawaida cha kuwezesha ubadilishanaji wa kiuc
 
 
 
-Hapa, tunatambua kwamba mwishowe, katika jamii zetu za kisasa, lengo hasa la kubadilishana uchumi ni kumiliki pesa, ambapo hapo zamani, haikuwa hivyo hata kidogo. Kusudi lenyewe la kubadilishana kiuchumi lilikuwa kumiliki bidhaa au bidhaa za matumizi. Na leo, kwa kuanzisha uvumbuzi wa pesa, madhumuni ya kubadilishana kiuchumi ni kukusanya pesa hii, kwani inatuwezesha kuibadilisha kwa nzuri, kama inavyokubaliwa kwa ujumla. Tunaweza kuibadilisha kwa mema tunayohitaji tunapohitaji.
+Hapa, tunatambua kwamba mwishowe, katika jamii zetu za kisasa, lengo hasa la kubadilishana uchumi ni kumiliki mali, ambapo hapo zamani, haikuwa hivyo hata kidogo. Kusudi lenyewe la kubadilishana kiuchumi lilikuwa kumiliki bidhaa au bidhaa za matumizi. Na leo, kwa kuanzisha uvumbuzi wa pesa, madhumuni ya kubadilishana kiuchumi ni kukusanya pesa hii, kwani inatuwezesha kuibadilisha kwa nzuri, kama inavyokubaliwa kwa ujumla. Tunaweza kuibadilisha kwa mema tunayohitaji tunapohitaji.
 
 
 
@@ -1831,7 +1831,7 @@ Hapa, Lyn anarejelea Bitcoin.
 
 > Baadhi ya vipengele vya kemikali adimu, kama vile rhodium, ni adimu kuliko dhahabu, lakini vina uwiano wa chini wa mtiririko wa hisa kwa sababu hutumiwa na tasnia haraka kama inavyochimbwa. Sarafu ya rodi au ingoti inaweza kununuliwa kama ghala maalum la kukusanywa au ghala la thamani, lakini haifai kama sarafu inayokubalika na jamii, na hivyo haitokei kiasili kama pesa.
 
-Saifedean anazungumza juu ya hili kwa kirefu katika kitabu chake "The Bitcoin Standard". Kwa wale wasiofahamu uwiano wa hisa kati yake, ni pale tu unapolinganisha hisa zilizopo, hifadhi zilizopo sokoni, ikilinganishwa na hisa mpya zinazoingia, utitiri wa hisa mpya. Mara nyingi ni kinyume cha angavu, kwa sababu unaweza kufikiri kwamba kitu ulicho nacho kwa wingi si haba, lakini kwa kweli si haba. Ni zaidi swali la uwezo unao kusambaza. Badala yake, ni uwezo tulionao wa kuwa na hisa mpya ambao, kulingana na modeli hii, hutupatia habari ikiwa kitu hiki ni cha nadra au la. Sio kwa sababu hatuna kitu kwenye hisa ambacho ni nadra, ni labda tu kwamba hatuna. Kwa hivyo, ikiwa tutachukua dhahabu, tuna hifadhi nyingi za dhahabu kwa sababu inatumika kama hifadhi ya thamani, na uingiaji wa hisa mpya ni kitu kama 1% hadi 3% kwa mwaka ya hifadhi mpya za dhahabu zinazoingia kupitia dhahabu mining. Ambapo, anachosema hapa, ikiwa tunazungumza juu ya rhodium, ni adimu kuliko dhahabu, lakini hatuna hisa yoyote kwa sababu inatumiwa kadri inavyoendelea. Kwa hivyo haihitaji usambazaji mpya mwingi ili kuongeza hisa iliyopo maradufu. Ingawa kwa dhahabu, ingechukua angalau miaka 50 kufanya upya, kuongeza hisa maradufu. Tofauti na bidhaa nyingi zinazotumiwa, ambapo ni rahisi sana, na haichukui miaka mingi ya uzalishaji kuongeza maradufu ya hisa iliyopo, kwani hutumiwa kadri inavyoendelea.
+Saifedean anazungumza juu ya hili kwa urefu katika kitabu chake "The Bitcoin Standard". Kwa wale wasiofahamu uwiano wa hisa kati yake, ni pale tu unapolinganisha hisa zilizopo, hifadhi zilizopo sokoni, ikilinganishwa na hisa mpya zinazoingia, utitiri wa hisa mpya. Mara nyingi ni kinyume cha angavu, kwa sababu unaweza kufikiri kwamba kitu ulicho nacho kwa wingi si haba, lakini kwa kweli si haba. Ni zaidi swali la uwezo unao kusambaza. Badala yake, ni uwezo tulionao wa kuwa na hisa mpya ambao, kulingana na modeli hii, hutupatia habari ikiwa kitu hiki ni cha nadra au la. Sio kwa sababu hatuna kitu kwenye hisa ambacho ni nadra, ni labda tu kwamba hatuna. Kwa hivyo, ikiwa tutachukua dhahabu, tuna hifadhi nyingi za dhahabu kwa sababu inatumika kama hifadhi ya thamani, na uingiaji wa hisa mpya ni kitu kama 1% hadi 3% kwa mwaka ya hifadhi mpya za dhahabu zinazoingia kupitia dhahabu mining. Ambapo, anachosema hapa, ikiwa tunazungumza juu ya rhodium, ni adimu kuliko dhahabu, lakini hatuna hisa yoyote kwa sababu inatumiwa kadri inavyoendelea. Kwa hivyo haihitaji usambazaji mpya mwingi ili kuongeza hisa iliyopo maradufu. Ingawa kwa dhahabu, ingechukua angalau miaka 50 kufanya upya, kuongeza hisa maradufu. Tofauti na bidhaa nyingi zinazotumiwa, ambapo ni rahisi sana, na haichukui miaka mingi ya uzalishaji kuongeza maradufu ya hisa iliyopo, kwani hutumiwa kadri inavyoendelea.
 
 
 
@@ -1854,7 +1854,7 @@ Kwa hivyo, 25 ingemaanisha miaka 25 kuongeza hisa mara mbili, na 100 ingemaanish
 
 
 
-*"Kwa kifupi, wakati wowote sarafu ya bidhaa inapojikuta katika ushindani na dhahabu na fedha, mwishowe imekuwa ikishindana na dhahabu na fedha. Bidhaa zingine zinaweza kubaki sarafu kwa muda mdogo au katika maeneo maalum, lakini dhahabu na fedha zimethibitisha uwezo wao wa kuwa sarafu za ushindani wa kimataifa na kutawala ushindani. Hii ni kwa sababu wakati ustaarabu ulikutana, wamiliki wa sarafu ya dhahabu na fedha wakati wote walikuwa na uwezo wa kubadilisha fedha na fedha. ilhali wenye ganda, lulu, mifugo, chumvi, nguo au madini duni hawangeweza kamwe kupunguza thamani ya dhahabu au fedha.”*
+*"Kwaufupi, wakati wowote sarafu ya bidhaa inapojikuta katika ushindani na dhahabu na fedha, mwishowe imekuwa ikishindana na dhahabu na fedha. Bidhaa zingine zinaweza kubaki sarafu kwa muda mdogo au katika maeneo maalum, lakini dhahabu na fedha zimethibitisha uwezo wao wa kuwa sarafu za ushindani wa kimataifa na kutawala ushindani. Hii ni kwa sababu wakati ustaarabu ulikutana, wamiliki wa sarafu ya dhahabu na fedha wakati wote walikuwa na uwezo wa kubadilisha fedha na fedha. ilhali wenye ganda, lulu, mifugo, chumvi, nguo au madini duni hawangeweza kamwe kupunguza thamani ya dhahabu au fedha.”*
 
 
 
@@ -1878,7 +1878,7 @@ Hilo ni jambo la kufurahisha sana, na ambalo mimi na Ulrich tumekuwa tukijadili.
 
 
 
-Kwa upande mmoja, asili inasimamia upanuzi wa usambazaji wa pesa. Kwa hivyo, ikiwa tutachukua dhahabu, kwani ni nadra sana, ni ngumu kuchimba. Kuna aina ya kikomo kwa idadi ya sarafu za dhahabu zinazoweza kuchimbwa. Kwa hivyo uhaba unasimamiwa na asili. Na rejista inashikiliwa na dhana ya milki. Daftari imegawanywa. Kumiliki kunathibitishwa na ukweli kwamba unamiliki sarafu ya dhahabu au kipande cha dhahabu. Na kwa upande wa pesa za mkopo, uhaba unasimamiwa na uwezo wa watu kupata mkopo. Au katika kesi ya fedha za fiat, uhaba unasimamiwa na mamlaka. Ni wao wanaoamua kuchapa zaidi au la, ili kuepuka majanga ya mfumuko wa bei. Kwa hiyo, katika baadhi ya matukio, rejista inaweza pia kusimamiwa na mmiliki wa token, katika kesi ya fedha za karatasi. Ndiyo sababu imeingia kwenye rejista, katika alama za nukuu, iliyoharibiwa. Kweli, imeonekana, lakini ya kweli. Anamiliki token hii maarufu, na hiyo ndiyo inathibitisha kumiliki. Na inaweza kuwa katika rejista halisi, kama ilivyo kwa pesa za kimaandiko, katika benki, ambapo ni benki ya binadamu ambayo inasimamia nani anamiliki nini kuhusiana na rejista.
+Kwa upande mmoja, asili inadhibiti upanuzi wa usambazaji wa pesa. Kwa hivyo, ikiwa tutachukua dhahabu, kwani ni nadra sana, ni ngumu kuchimba. Kuna aina ya kikomo kwa idadi ya sarafu za dhahabu zinazoweza kuchimbwa. Kwa hivyo uhaba unasimamiwa na asili. Na rejista inashikiliwa na dhana ya milki. Daftari imegawanywa. Kumiliki kunathibitishwa na ukweli kwamba unamiliki sarafu ya dhahabu au kipande cha dhahabu. Na kwa upande wa pesa za mkopo, uhaba unasimamiwa na uwezo wa watu kupata mkopo. Au katika kesi ya fedha za fiat, uhaba unasimamiwa na mamlaka. Ni wao wanaoamua kuchapa zaidi au la, ili kuepuka majanga ya mfumuko wa bei. Kwa hiyo, katika baadhi ya matukio, rejista inaweza pia kusimamiwa na mmiliki wa token, katika kesi ya fedha za karatasi. Ndiyo sababu imeingia kwenye rejista, katika alama za nukuu, iliyoharibiwa. Kweli, imeonekana, lakini ya kweli. Anamiliki token hii maarufu, na hiyo ndiyo inathibitisha kumiliki. Na inaweza kuwa katika rejista halisi, kama ilivyo kwa pesa za kimaandiko, katika benki, ambapo ni benki ya binadamu ambayo inasimamia nani anamiliki nini kuhusiana na rejista.
 
 
 
@@ -1914,7 +1914,7 @@ Na ukilinganisha kipande cha dhahabu na sarafu ya dhahabu, kuna safu nyingine. S
 
 
 
-Ni kanuni sawa kwa fiat, pesa za karatasi. Pesa za karatasi hazina thamani yoyote ya matumizi, isipokuwa labda kupasha moto nyumba, na hiyo ilifanyika wakati wa Jamhuri ya Weimar. Kwa hivyo hakuna mahitaji halisi ya thamani yake ya utumiaji. Kwa upande mwingine, kuna malipo tu ya mamlaka, kwa maoni yangu.
+Ni kanuni ileile kwa fiat, pesa za karatasi. Pesa za karatasi hazina thamani yoyote ya matumizi, isipokuwa labda kupasha moto nyumba, na hiyo ilifanyika wakati wa Jamhuri ya Weimar. Kwa hivyo hakuna mahitaji halisi ya thamani yake ya utumiaji. Kwa upande mwingine, kuna malipo tu ya mamlaka, kwa maoni yangu.
 
 
 
@@ -1988,7 +1988,7 @@ Hapana, mwizi atapiga kelele: "Nipe ** pesa zako zote **". Na ikiwa mwizi amesim
 
 
 
-Kwa upande mwingine, mwizi akijaribu kukuhadaa kwa njia ya kisasa zaidi, akijaribu kuiba mali yako kwa kuondoa akaunti zako zote za benki, tungesema kwamba **atachukua pesa zako zote**. Hapa neno "fedha" linamaanisha **utajiri wa mtu binafsi**.
+Kwa upande mwingine, mwizi akijaribu kukuhadaa kwa njia ya kisasa zaidi, akijaribu kuiba mali yako kwa kuondoa akaunti zako zote za benki, tungesema kwamba **amechukua pesa zako zote**. Hapa neno "fedha" linamaanisha **utajiri wa mtu binafsi**.
 
 
 
@@ -2004,7 +2004,7 @@ Sarafu (devise) lazima iwe ni sarafu ya nchi nyingine, vinginevyo tunasema tu pe
 
 
 
-Mara nyingi, watu ambao hawajajishughulisha na matatizo haya ya semantic, katika kutafsiri maneno haya, mara nyingi huwa na mwelekeo wa kuzungumza juu ya sarafu (kubuni) wakati imeandikwa sarafu, lakini hapana, sarafu ni pesa (monai) wakati ni sarafu ya nchi yako, na inabuni tunapozungumzia sarafu nyingine. Na kwa hivyo, shida hapa ambayo ninaona mara nyingi ni kwamba kwa Kiingereza, kuna maneno mawili: kuna "fedha", ambayo ni dhana, na kuna "fedha", ambayo kwa kweli ni kitengo cha nchi ambayo hutumiwa kufanya mabadilishano. Kwa hiyo tunaweza tu kuzungumza juu ya dhana ya fedha; ni rahisi - ni dhana ya neno *fedha*; ni pesa kwa ujumla. Na *sarafu* ni rahisi sana kulinganisha na sarafu ya nchi. Ingawa kwa Kifaransa, kwa bahati mbaya, watu mara nyingi watasema ndiyo, "mais ce n'est pas une monnaie" wanapozungumza kuhusu bitcoin kwa sababu sio sarafu ya nchi, lakini mara nyingi, nadhani wanarejelea maneno sarafu badala yake. Hii ni mbaya kwa upande mmoja, kwa sababu tangu El Salvador, bitcoin imekuwa sarafu ya serikali. Ukweli unabaki kuwa mara nyingi watu watasema: *lakini hapana, sio sarafu ya serikali, haiwezi kuwa pesa*. Lakini kwa kweli, ikiwa tunataja dhana pana ya * pesa *, bitcoin inafaa katika ufafanuzi huu kikamilifu, kwa maoni yangu. Ni kwamba kwa Kifaransa, hatuna maneno mawili ya kutenganisha dhana hizi mbili. Tunaweza kusema kwamba neno argent linamaanisha sarafu, lakini kwa bahati mbaya, hiyo si ufafanuzi wake sahihi. *Argent* (fedha) inarejelea mali au noti. Kwa kweli huwezi kufanya ulinganifu na neno *pesa*. *Pesa* kwa kweli ni dhana ya sarafu (monai).
+Mara nyingi, watu ambao hawajajishughulisha na masuala haya ya semantic, katika kutafsiri maneno haya, mara nyingi huwa na mwelekeo wa kuzungumza juu ya sarafu (kubuni) wakati imeandikwa sarafu, lakini hapana, sarafu ni pesa (monai) wakati ni sarafu ya nchi yako, na inabuni tunapozungumzia sarafu nyingine. Na kwa hivyo, shida hapa ambayo ninaona mara nyingi ni kwamba kwa Kiingereza, kuna maneno mawili: kuna "fedha", ambayo ni dhana, na kuna "fedha", ambayo kwa kweli ni kitengo cha nchi ambayo hutumiwa kufanya mabadilishano. Kwa hiyo tunaweza tu kuzungumza juu ya dhana ya fedha; ni rahisi - ni dhana ya neno *fedha*; ni pesa kwa ujumla. Na *sarafu* ni rahisi sana kulinganisha na sarafu ya nchi. Ingawa kwa Kifaransa, kwa bahati mbaya, watu mara nyingi watasema ndiyo, "mais ce n'est pas une monnaie" wanapozungumza kuhusu bitcoin kwa sababu sio sarafu ya nchi, lakini mara nyingi, nadhani wanarejelea maneno sarafu badala yake. Hii ni mbaya kwa upande mmoja, kwa sababu tangu El Salvador, bitcoin imekuwa sarafu ya serikali. Ukweli unabaki kuwa mara nyingi watu watasema: *lakini hapana, sio sarafu ya serikali, haiwezi kuwa pesa*. Lakini kwa kweli, ikiwa tunataja dhana pana ya * pesa *, bitcoin inafaa katika ufafanuzi huu kikamilifu, kwa maoni yangu. Ni kwamba kwa Kifaransa, hatuna maneno mawili ya kutenganisha dhana hizi mbili. Tunaweza kusema kwamba neno argent linamaanisha sarafu, lakini kwa bahati mbaya, hiyo si ufafanuzi wake sahihi. *Argent* (fedha) inarejelea mali au noti. Kwa kweli huwezi kufanya ulinganifu na neno *pesa*. *Pesa* kwa kweli ni dhana ya sarafu (monai).
 
 
 
@@ -2024,7 +2024,7 @@ Mara nyingi, watu ambao hawajajishughulisha na matatizo haya ya semantic, katika
 Pesa ni kitu unachomiliki au kupata si cha kutumiwa au kuliwa kwa ajili yake binafsi, bali kubadilishwa baadaye kwa bidhaa au huduma nyingine unazoweza kuhitaji. (Saifedean)
 
 
-Pesa hupata malipo ya pesa wakati mahitaji ya pesa yanapo kwa manufaa, kutekeleza jukumu moja au zaidi ya pesa.
+Pesa hupata malipo ya kifedha wakati mahitaji ya pesa yanapo kwa manufaa, kutekeleza jukumu moja au zaidi ya pesa.
 
 
 Faida ya pesa lazima iwe adimu ya kutosha ili malipo ya pesa yaendelee (kuzuia usambazaji kubadilika hadi mahitaji ya pesa).
@@ -2075,7 +2075,7 @@ Katika sehemu hii inayohusu fasili mbalimbali za pesa, ninapendekeza tuangalie k
 
 
 
-> Kazi ya njia za malipo inachukuliwa hapa kuwa tofauti na kazi ya njia ya kubadilishana, kwa kuwa kuna malipo bila kuzingatia, malipo ambayo hayanunui chochote. Knies (1873:192 ff.) anaendeleza kwa kirefu mada hii ya uhamishaji wa bidhaa ambazo hazijumuishi vitendo vya kubadilishana, kama ilivyo kwa wergeld (pesa ya damu au muundo wa mauaji) au ushuru. Carl Menger alishambulia kazi hii ya nne katika makala yake ya 1892 "Geld", kwa ujumla inachukuliwa kuwa mojawapo ya maamuzi zaidi juu ya somo. Bila ya kudharauliwa kabisa, wazo la kazi ya njia za malipo inaonekana kuwa limesahauliwa katika fikra za kiuchumi leo, au angalau kukataliwa kwa kupendelea ile ya njia ya kubadilishana.
+> Kazi ya njia za malipo inachukuliwa hapa kuwa tofauti na kazi ya njia ya kubadilishana, kwa kuwa kuna malipo bila kuzingatia, malipo ambayo hayanunui chochote. Knies (1873:192 ff.) anaendeleza kwa urefu mada hii ya uhamishaji wa bidhaa ambazo hazijumuishi vitendo vya kubadilishana, kama ilivyo kwa wergeld (pesa ya damu au muundo wa mauaji) au ushuru. Carl Menger alishambulia kazi hii ya nne katika makala yake ya 1892 "Geld", kwa ujumla inachukuliwa kuwa mojawapo ya maamuzi zaidi juu ya somo. Bila ya kudharauliwa kabisa, wazo la kazi ya njia za malipo inaonekana kuwa limesahauliwa katika fikra za kiuchumi leo, au angalau kukataliwa kwa kupendelea ile ya njia ya kubadilishana.
 >
 
 
@@ -2098,7 +2098,7 @@ Pia kuna wergeld, au pesa za damu. Kwa hivyo ni malipo tu ya kufidia. Rafiki yan
 
 > Ndiyo, lakini unapata faili hii kufungwa kwa kubadilishana.
 
-Kwa hivyo, umefanya uhalifu, mauaji kwa mfano. Wakati huo, unalipa wergeld, na baada ya hayo, vizuri unatolewa kutoka kwa hali hiyo. Kwa hivyo kuna nguvu ya ukombozi. Je, unapata chochote kama malipo?" Kulingana na mwandishi, hapana. Kulingana na baadhi ya wenzangu, ndiyo.
+Kwa hivyo, umefanya uhalifu, kwa mfano mauaji. Wakati huo, unalipa wergeld, na baada ya hayo, unatolewa kutoka kwa hali hiyo. Kwa hivyo kuna nguvu ya ukombozi. Je, unapata chochote kama malipo?" Kulingana na mwandishi, hapana. Kulingana na baadhi ya wenzangu, ndiyo.
 
 
 
@@ -2139,7 +2139,7 @@ Kulingana na nadharia hii, iliyoendelezwa hasa na Alfred Mitchell-Innes na kuend
 
 
 
-Kwa hivyo, pesa zote huzunguka kama deni linalodaiwa na mtu au taasisi kwa mwingine, likisaidiwa na amana na mamlaka ya kijamii au serikali inayohakikisha uhalali wake. Kwa hivyo, kulingana na wao, tunapomiliki - kama nilivyokwisha sema - tunapomiliki pesa, tunadai kwa jamii, na jamii inatudai deni. Kwa hivyo pesa haiegemei upande wowote au inajitegemea, lakini daima ni deni la msingi: kushikilia pesa kunamaanisha kumiliki madai kwa jamii au jumuiya ya kiuchumi.
+Kwa hivyo, pesa zote huzunguka kama deni linalodaiwa na mtu au taasisi kwa mwingine, likisaidiwa na amana na mamlaka ya kijamii au serikali inayohakikisha uhalali wake. Kwa hivyo, kulingana nao, tunapomiliki - kama nilivyokwisha sema - tunapomiliki pesa, tunadai kwa jamii, na jamii inatudai deni. Kwa hivyo pesa haiegemei upande wowote au inajitegemea, lakini daima ni deni la msingi: kushikilia pesa kunamaanisha kumiliki madai kwa jamii au jumuiya ya kiuchumi.
 
 
 
@@ -2151,7 +2151,7 @@ Hoja hii inapingana na wazo kuu la pesa kama "bidhaa ya kati" rahisi, na badala 
 
 
 
-Kinachonitatiza kuhusu nadharia hii ni kwamba inadai kwamba pesa siku zote ni deni, tunapokuwa na mifano ya kubadilishana kati ya makabila mawili tofauti ambao, kwa mfano, hubadilishana dhahabu, ambapo shughuli hiyo ni ya mwisho na hakuna deni la siri linalobaki. Wafuasi wa nadharia hii mara nyingi watatuambia kuwa mabadilishano haya si kubadilishana fedha, bali kubadilishana. Kama ilivyotajwa tayari, sikubaliani. Ni ubadilishanaji wa fedha, kwani dhahabu haitatumika; itatumika kama pesa.
+Kinachonitatiza kuhusu nadharia hii ni kwamba inadai kuwa pesa siku zote ni deni, tunapokuwa na mifano ya kubadilishana kati ya makabila mawili tofauti ambao, kwa mfano, hubadilishana dhahabu, ambapo shughuli hiyo ni ya mwisho na hakuna deni la siri linalobaki. Wafuasi wa nadharia hii mara nyingi watatuambia kuwa mabadilishano haya si kubadilishana fedha, bali kubadilishana. Kama nilivyotaja tayari, sikubaliani. Ni ubadilishanaji wa fedha, kwani dhahabu haitatumika; itatumika kama pesa.
 
 
 
@@ -2183,7 +2183,7 @@ Katika maono haya, pesa daima huhifadhi thamani halisi, kwani inabaki kuhusishwa
 
 
 
-Kumbuka kuwa maono haya yanafanana na nadharia ya pesa za bidhaa, lakini inakwenda hatua moja zaidi. Wanapendekeza kwamba pesa **daima** ziwe bidhaa. Na tunapowaambia: "*Ndiyo, lakini tunaweza kukubaliana kwamba noti ni pesa kwa kundi hili; inaweza kuungwa mkono na dhahabu, inafanya kazi, na noti kama hiyo ni pesa*".
+Kumbuka kuwa maono haya yanafanana na nadharia ya pesa za bidhaa, lakini inaenda hatua moja zaidi. Wanapendekeza kwamba pesa **daima** ziwe bidhaa. Na tunapowaambia: "*Ndiyo, lakini tunaweza kukubaliana kwamba noti ni pesa kwa kundi hili; inaweza kuungwa mkono na dhahabu, inafanya kazi, na noti kama hiyo ni pesa*".
 
 
 
@@ -2199,7 +2199,7 @@ Kwa hivyo huwezi kuchora ulinganifu kati ya kuponi ya chumba cha locker na muswa
 
 
 
-Na kwa maoni yangu, kwa kweli, hata pesa za fiat zinaweza kuzingatiwa kama pesa ikiwa zinazingatiwa hivyo na idadi ya watu. Na nadhani ni kosa la kimantiki kusisitiza kuwa haiwezi kuwa pesa, kwani ni kuponi ya kupata pesa halisi, angalau wakati huo, ambayo ilikuwa dhahabu ya msingi.
+Na kwa maoni yangu, kwa kweli, hata pesa za fiat zinaweza kuzingatiwa kama pesa ikiwa zinazingatiwa hivyo na idadi ya watu. Na nadhani ni kosa la kimantiki kusisitiza kuwa haiwezi kuwa pesa, kwani ni kuponi ya kupata pesa halisi, angalau wakati huo, ambapo ilikuwa dhahabu ya msingi.
 
 
 
@@ -2214,7 +2214,7 @@ Maono yao yanatokana na ukweli kwamba huwezi kuzingatia sarafu ya dhahabu kwenye
 **Haya hapa ni mapitio ya dhana ya kuponi ya chumba cha kubadilishia nguo kutoka kwa kitabu *Aux origines de la monnaie*:**
 
 
-* Kumbuka 14: "Ukosoaji bora - bora kwa sababu ni kwa msingi ambao Knapp anajiweka mwenyewe, msingi wa kisheria - na Rist (1938: 372, note 1) ya ulinganisho kati ya pesa za karatasi na tokeni za chumba cha ukaguzi: ikiwa tunaweza kuzungumza juu ya aina ya madai katika kesi zote mbili, tofauti ya msingi ni kwamba katika kesi ya kwanza bila kesi ya kwanza tu, ni madai maalum, na ni kitu maalum.
+* Kumbuka 14: "Ukosoaji bora - bora kwa sababu ni kwa msingi ambao Knapp anajiweka mwenyewe, msingi wa kisheria - na Rist (1938: 372, note 1) ya kulinganisha pesa za karatasi na tokeni za chumba cha ukaguzi: ikiwa tunaweza kuzungumza juu ya aina ya madai katika kesi zote mbili, tofauti ya msingi ni kwamba katika kesi ya kwanza bila kesi ya kwanza tu, ni madai maalum, na ni kitu maalum.
 
 
 
@@ -2257,7 +2257,7 @@ Kitendawili hiki kinaonyesha wazi pengo kati ya dhana hizi mbili za kifedha: kwa
 
 
 
-Ili kuhitimisha sehemu hii ya nadharia mbalimbali za fedha, hebu tuzungumze kuhusu utoto wa nadharia za fedha, zinazopendwa na wanauchumi wengi wa kisasa wanaofanya kazi katika benki kuu, na kutaja nadharia ya kisasa ya fedha, ambayo mara nyingi hujulikana kama MMT.
+Ili kuhitimisha sehemu hii ya nadharia mbalimbali za fedha, hebu tuzungumze kuhusu hatua za awali za nadharia za fedha, zinazopendwa na wanauchumi wengi wa kisasa wanaofanya kazi katika benki kuu, na kutaja nadharia ya kisasa ya fedha, ambayo mara nyingi hujulikana kama MMT.
 
 
 
@@ -2283,7 +2283,7 @@ Ili kuhitimisha sehemu hii ya nadharia mbalimbali za fedha, hebu tuzungumze kuhu
 
 
 
-- Kwa hiyo serikali haina budi kurekebisha matumizi yake kulingana na rasilimali halisi iliyopo (wafanyakazi, uwezo wa viwanda, maliasili) ili kuepuka mfumuko wa bei uliokithiri.
+- Kwa hivyo serikali haina budi kurekebisha matumizi yake kulingana na rasilimali halisi iliyopo (wafanyakazi, uwezo wa viwanda, maliasili) ili kuepuka mfumuko wa bei uliokithiri.
 
 
 
@@ -2299,7 +2299,7 @@ Katika suala la fedha zilizowekezwa katika sekta zinazoweza kuzinyonya, tunaweza
 
 
 
-Kwa upande mwingine, ikiwa unataka kujenga barabara nyingi zaidi, na kuna kikomo kwa rasilimali na wakandarasi ambao wanaweza kuzizalisha, kuongeza mara mbili ya bajeti ya barabara kutaleta athari ya uhaba kwa wafanyikazi ambao wanaweza kuunda barabara hizi. Kwa hivyo bei itapanda kama matokeo ya nguvu ya soko, usambazaji na mahitaji. Ikiwa viongozi wetu wanaojua yote wanajua mahali pa kuweka pesa, kitaalamu, haipaswi kusababisha mfumuko wa bei. Na ningejibu kwamba, kwa vitendo, ni wazi kabisa kwamba husababisha mfumuko wa bei.
+Kwa upande mwingine, ikiwa unataka kujenga barabara nyingi zaidi, na kuna kikomo kwa rasilimali na wakandarasi ambao wanaweza kuzizalisha, kuongeza bajeti ya barabara mara mbili kutaleta athari ya uhaba kwa wafanyikazi ambao wanaweza kuunda barabara hizi. Kwa hivyo bei itapanda kama matokeo ya nguvu ya soko, usambazaji na mahitaji. Ikiwa viongozi wetu wanaojua yote wanajua mahali pa kuweka pesa, kitaalamu, haipaswi kusababisha mfumuko wa bei. Na ningejibu kwamba, kwa vitendo, ni wazi kabisa kwamba husababisha mfumuko wa bei.
 
 
 
@@ -2318,7 +2318,7 @@ Nadharia hii inatumika tu kwa nchi chache (angalia tweet ya Stephanie Kelton) am
 Na uhuru wa kweli wa kifedha ni nini? Inamaanisha kuwa na uwezo wa kuongeza deni kwa sarafu yako mwenyewe. Inabidi uweze kuendesha biashara ya ziada ili kuwa na akiba ya fedha za kutosha, fedha za kigeni za kutosha, ili usilazimike kutafuta pesa kwa fedha za kigeni ili kuweza kuagiza bidhaa kutoka nje. Hili linahusu nchi chache.
 
 
-Hapa chini, unaweza kuona tweet kutoka kwa Stephanie Kelton, ambaye ni aina ya mwanamke wa bango kwa harakati hii. Aliandika kitabu kiitwacho "The Deficit Myth". Katika tweet hiyo, anaandika kuwa nchi tofauti kama Marekani, Japan, Canada, Australia, Uingereza, haziwezi kukosa pesa.
+Hapa chini, unaweza kuona tweet kutoka kwa Stephanie Kelton, ambaye ni mwanamke wa bango kwa harakati hii. Aliandika kitabu kiitwacho "The Deficit Myth". Katika tweet hiyo, anaandika kuwa nchi tofauti kama Marekani, Japan, Canada, Australia, Uingereza, haziwezi kukosa pesa.
 
 
 
@@ -2329,7 +2329,7 @@ Hapa chini, unaweza kuona tweet kutoka kwa Stephanie Kelton, ambaye ni aina ya m
 Ajabu, inaorodhesha nchi sita tu? Kwa nini ni hivyo? Kwa sababu wana uhuru halisi wa kifedha. Lakini kuna karibu nchi 200 Duniani, na sio zote zina uhuru wa kifedha. Kwa hivyo, ukosoaji wangu wa nadharia hii, mbali na kuwa ya kushangaza kidogo na isiyofanya kazi, ni kwamba inafanya kazi tu kwa nchi chache ambazo zinafurahia uhuru wa kweli wa kifedha, zile ambazo zinaweza kutoa bili za hazina kwa sarafu yao wenyewe. Kwa kiasi fulani, huenda kwa madhara ya wengine wa dunia. Kwa kuunda sarafu hii, ni kana kwamba walikuwa wakisafirisha mfumuko wao wa bei mahali pengine, sawa na kile ambacho Marekani imekuwa ikifanya kwa fursa yake ya kipekee kwa miongo kadhaa. Hii inafanana na aina ya ukoloni wa kifedha, ambapo nchi ambazo zina imani ya kimataifa na mahitaji ya sarafu zao zinaweza kuchapisha pesa nyingi wanavyotaka bila kuingiza mfumuko mkubwa wa bei, mara nyingi kwa sababu zinasafirisha nje mfumuko huo wa bei.
 
 
-Nadharia hii ni ngumu kutumika kwa uchumi unaotegemea uagizaji bidhaa ambao unahitaji kudumisha imani ya kimataifa katika sarafu yao.
+Nadharia hii ni ngumu kutumika kwa uchumi unaotegemea uagizaji wa bidhaa ambao unahitaji kudumisha imani ya kimataifa katika sarafu yao.
 
 
 Nadharia hii pia inahitaji kiwango fulani cha mipango ya kati ya uchumi, haswa kuhakikisha udhibiti mkubwa juu ya rasilimali halisi (wafanyakazi, malighafi, uwezo wa kiviwanda) na kudhibiti mfumuko wa bei.
@@ -2383,7 +2383,7 @@ Karibu na **750 KK: Lycurgus**, mbunge wa kizushi wa Sparta, anasemekana kuanzis
 **Numa Pompilius** (753-673 KK)
 
 
-Mfalme wa pili wa Roma, maarufu kwa kuipa Roma taasisi zake za kwanza za kidini na kisheria.
+Mfalme wa pili wa Roma, maarufu kwa kuipatia Roma taasisi zake za kwanza za kidini na kisheria.
 
 
 
@@ -2398,7 +2398,7 @@ Mfalme wa pili wa Roma, maarufu kwa kuipa Roma taasisi zake za kwanza za kidini 
 **776 KK: Michezo ya Olimpiki ya Kale**
 
 
-Michezo ya kwanza ya kawaida ya michezo ilifanyika Olympia kila baada ya miaka minne, ikileta pamoja miji ya Ugiriki.
+Michezo ya kwanza ya kawaida ilifanyika Olympia baada ya kila miaka minne, ikileta pamoja miji ya Ugiriki.
 
 
 
@@ -2538,11 +2538,11 @@ Na nina bahati ya kuwa na nakala ya drakma ya Kigiriki ya kipindi hicho na bundi
 
 
 
-Kila jiji la Ugiriki lilikuza uhusiano wake na pesa. Huko Athene, sarafu ilihusishwa sana na nguvu za kisiasa na kiuchumi. Amri maarufu ya Athene ya mwishoni mwa karne ya 5 KK iliweka matumizi ya kipekee ya sarafu ya Athene katika maeneo ya washirika wake, na hivyo kuimarisha utawala wake wa kiuchumi. Athene pia ilikusanya akiba kubwa ya dhahabu kwa ajili ya dharura, ambayo iliwekwa kwenye Acropolis, labda kama ishara ya busara yake ya kiuchumi. Kinyume chake, Sparta, jiji la kijeshi lililo na maadili makali, lilichagua kuweka vizuizi vikali matumizi ya pesa, likiwakataza raia wake kumiliki sarafu za dhahabu au fedha. Sparta ilipendelea kutumia vyuma vizito kukatisha tamaa biashara ya nje na kudumisha mshikamano wa kijamii.
+Kila jiji la Ugiriki lilikuza uhusiano wake na pesa. Huko Athene, sarafu ilihusishwa sana na nguvu za kisiasa na kiuchumi. Amri maarufu ya Athene ya mwishoni mwa karne ya 5 KK iliweka matumizi ya kipekee ya sarafu ya Athene katika maeneo ya washirika wake, na hivyo kuimarisha utawala wake wa kiuchumi. Athene pia ilikusanya akiba kubwa ya dhahabu kwa ajili ya dharura, ambayo iliwekwa kwenye Acropolis, labda kama ishara ya busara yake ya kiuchumi. Kinyume chake, Sparta, jiji la kijeshi lenye maadili makali, lilichagua kuweka vizuizi vikali kwa matumizi ya pesa, likiwakataza raia wake kumiliki sarafu za dhahabu au fedha. Sparta ilipendelea kutumia vyuma vizito kukatisha tamaa biashara ya nje na kudumisha mshikamano wa kijamii.
 
 
 
-Vita mara nyingi vilifadhiliwa na udanganyifu wa sarafu. Wakati wa Vita vya Peloponnesian (431-404 KK), Athene iliamua kushuka kwa thamani kubwa ili kulipa askari wake. Ilinyimwa ufikiaji wa migodi yake ya fedha na uvamizi wa Spartan wa Decelia mnamo 413 KK, Athene ililazimika kuyeyusha sanamu za dhahabu ili kutengeneza sarafu mpya kwa haraka mnamo 407/406 KK. Kisha, mnamo 406/405 KK, aliunda sarafu za shaba zilizopambwa kwa fedha, na kusababisha shida ya kifedha iliyoonyeshwa na **Aristophanes**, ambaye tayari anaibua kile kinachojulikana leo kama Sheria ya Gresham: pesa mbaya inayofukuza pesa nzuri. Sarafu hii ya dharura ilitolewa haraka baada ya vita ili kurejesha imani katika sarafu ya Athene.
+Vita mara nyingi vilifadhiliwa na udanganyifu wa sarafu. Wakati wa Vita vya Peloponnesian (431-404 KK), Athene iliamua kushuka kwa thamani kubwa ili kulipa askari wake. Ilinyimwa ufikiaji wa migodi yake ya fedha na uvamizi wa Spartan wa Decelia mnamo 413 KK, Athene ililazimika kuyeyusha sanamu za dhahabu ili kutengeneza sarafu mpya kwa haraka mnamo 407/406 KK. Kisha, mnamo 406/405 KK, iliunda sarafu za shaba zilizopambwa kwa fedha, na kusababisha shida ya kifedha iliyoonyeshwa na **Aristophanes**, ambaye tayari anaibua kile kinachojulikana leo kama Sheria ya Gresham: pesa mbaya inayofukuza pesa nzuri. Sarafu hii ya dharura ilitolewa haraka baada ya vita ili kurejesha imani katika sarafu ya Athene.
 
 
 
@@ -2550,7 +2550,7 @@ Mwisho wa kipindi cha kitamaduni uliwekwa alama na kuongezeka kwa Makedonia chin
 
 
 
-Baada ya kifo cha Aleksanda mwaka 323 KK, majenerali wake waligawanya milki yake kubwa sana, wakaanzisha nasaba huko Misri (Ptolemies), Syria (Seleucids) na kwingineko. Falme hizi za Kigiriki zilipitisha mifumo mbalimbali ya fedha: Ptolemies waliweka mfumo funge wa fedha ili kudhibiti mzunguko wa fedha, wakipendelea kutumia nafaka kama sarafu ya ndani ili kuokoa madini ya thamani kwa matumizi ya nje ya kijeshi. Wakati huo huo, Rhodes ikawa kituo kikuu cha biashara kabla ya kudhoofishwa kiuchumi na Warumi, ambao walianzisha Delos kama bandari huru mnamo 167 KK.
+Baada ya kifo cha Aleksanda mwaka 323 KK, majenerali wake waligawanya milki yake kubwa, wakaanzisha nasaba huko Misri (Ptolemies), Syria (Seleucids) na kwingineko. Falme hizi za Kigiriki zilipitisha mifumo mbalimbali ya fedha: Ptolemies waliweka mfumo funge wa fedha ili kudhibiti mzunguko wa fedha, wakipendelea kutumia nafaka kama sarafu ya ndani ili kuokoa madini ya thamani kwa matumizi ya nje ya kijeshi. Wakati huo huo, Rhodes ikawa kituo kikuu cha biashara kabla ya kudhoofishwa kiuchumi na Warumi, ambao walianzisha Delos kama bandari huru mnamo 167 KK.
 
 
 
@@ -2570,11 +2570,11 @@ Kufikia wakati jeshi hili liliposhiriki kikamilifu katika Asia Ndogo, jumla ya g
 
 
 
-Sarafu ya Kigiriki pia ilicheza jukumu muhimu la kitamaduni, kwani kila jiji lilijaribu kujitambulisha kwa kutengeneza sarafu zake zenye alama za kienyeji au za hadithi. Kwa mfano, Heraclius alionyesha Heracles (Hercules) akipigana na simba, wakati Cyrene alionyesha silphium ya mimea maarufu ya dawa.
+Sarafu ya Kigiriki pia ilicheza jukumu muhimu la kitamaduni, kwani kila jiji lilijaribu kujitambulisha kwa kutengeneza sarafu zake zenye alama za kienyeji au za hadithi. Kwa mfano, Heraclius alionyesha Heracles (Hercules) akipigana na simba, Cyrene alionyesha silphium ya mimea maarufu ya dawa.
 
 
 
-Hatimaye, licha ya tofauti zao na mabadiliko ya kimaeneo, sarafu za Kigiriki za Kigiriki na za Kigiriki ziliacha alama ya kudumu kwenye historia ya kiuchumi na kiutamaduni ya ulimwengu wa Mediterania, na kuathiri sana mifumo ya fedha ya baadaye hadi Roma, ambayo hatua kwa hatua ilipitisha na kuendeleza dhana za kiuchumi za Kigiriki ili kuunda uchumi wake wa kifalme.
+Hatimaye, licha ya tofauti zao na mabadiliko ya kimaeneo, sarafu za Kigiriki ziliacha alama ya kudumu kwenye historia ya kiuchumi na kiutamaduni ya ulimwengu wa Mediterania, na kuathiri sana mifumo ya fedha ya baadaye hadi Roma, ambayo hatua kwa hatua ilipitisha na kuendeleza dhana za kiuchumi za Kigiriki ili kuunda uchumi wake wa kifalme.
 
 
 
@@ -2591,7 +2591,7 @@ Hatimaye, licha ya tofauti zao na mabadiliko ya kimaeneo, sarafu za Kigiriki za 
 
 
 
-Upinzani kati ya Athene na Sparta wakati wa kipindi cha Kigiriki cha kale unaonyesha mifano miwili tofauti ya shirika la kisiasa na kiuchumi. Ingawa Sparta ilikataa pesa za chuma ili kupendelea mfumo wa kujitegemea kwa msingi wa uaminifu wa raia, Athene ilikubali kikamilifu teknolojia hii ili kujenga na kudumisha himaya yake ya baharini.
+Upinzani kati ya Athene na Sparta wakati wa kipindi cha Kigiriki cha kale unaonyesha mifano miwili tofauti kwenye shirika la kisiasa na kiuchumi. Ingawa Sparta ilikataa pesa za chuma ili kupendelea mfumo wa kujitegemea kwa msingi wa uaminifu wa raia, Athene ilikubali kikamilifu teknolojia hii ili kujenga na kudumisha himaya yake ya baharini.
 
 
 
@@ -2619,7 +2619,7 @@ Sera hii ya fedha inatofautiana sana na mtindo wa Spartan. Sparta, mamlaka ya ar
 
 
 
-### Sarafu kama gari la biashara ya baharini
+### Sarafu kama chombo cha biashara cha baharini
 
 
 
@@ -2627,7 +2627,7 @@ Hali ya ubaharia ya milki ya Athene ilimaanisha kuwa ilipaswa kuwa wazi kwa bias
 
 
 
-Mwelekeo huu wa nje uliunda mzunguko mzuri: mapato yaliyotokana na biashara, mapato haya yalifadhili meli, meli zililinda njia za biashara na kudumisha ufalme, na ufalme uliweka sarafu ya Athene, ambayo iliwezesha biashara. Sarafu haikuwa tena njia ya kubadilishana tu, bali ikawa nguzo ya mkakati wa kifalme.
+Mwelekeo huu wa nje uliunda mzunguko mzuri: mapato yaliyotokana na biashara, kisha yakafadhili meli, meli zililinda njia za biashara na kudumisha ufalme, na ufalme uliweka sarafu ya Athene, ambayo iliwezesha biashara. Sarafu haikuwa tena njia ya kubadilishana tu, bali ikawa nguzo ya mkakati wa kifalme.
 
 
 
@@ -2639,7 +2639,7 @@ Licha ya ustaarabu huu wa kiuchumi, nguvu ya kifedha ya Athene ilionyesha mipaka
 
 
 
-Historia inaonyesha kwamba sarafu, ingawa ni chombo chenye nguvu cha kuonyesha uwezo, sio hakikisho la kutawaliwa kijeshi. Sparta, bila sarafu ya chuma lakini mshikamano wa ajabu wa kijamii, hatimaye ilishinda ufalme wa fedha wa Athene.
+Historia inaonyesha kwamba sarafu, ingawa ni chombo chenye nguvu cha kuonyesha uwezo, sio hakikisho la kutawaliwa kijeshi. Sparta, bila sarafu ya chuma lakini mshikamano mkubwa wa kijamii, hatimaye ilishinda ufalme wa fedha wa Athene.
 
 
 
@@ -2651,7 +2651,7 @@ Upinzani kati ya Athene na Sparta unaonyesha njia mbili za kimsingi za shirika l
 
 
 
-Mifumo hii miwili inaonyesha kwamba kupitishwa kwa sarafu kunahusishwa kwa karibu na mtindo wa kisiasa na kiuchumi uliochaguliwa. Kwa mamlaka ya baharini na ya kibiashara kama vile Athene, pesa zikawa za lazima. Kwa jamii iliyofungwa ya mashujaa kama Sparta, inawakilisha tishio kwa utaratibu wa kijamii. Dichotomy hii ya zamani bado inafahamisha mijadala juu ya jukumu la pesa katika shirika la jamii.
+Mifumo hii miwili inaonyesha kwamba kupitishwa kwa sarafu kunahusishwa kwa karibu na mtindo wa kisiasa na kiuchumi uliochaguliwa. Kwa mamlaka ya baharini na ya kibiashara kama Athene, pesa zikawa za lazima. Kwa jamii iliyofungwa ya mashujaa kama Sparta, inawakilisha tishio kwa utaratibu wa kijamii. Dichotomy hii ya zamani bado inafahamisha mijadala juu ya jukumu la pesa katika shirika la jamii.
 
 
 
@@ -2712,7 +2712,7 @@ Kwa kweli, sarafu nyingi za Kirumi kutoka kipindi cha Jamhuri zinaonyesha hadith
 
 
 
-Neno "sarafu" lina asili yake katika hekalu la Juno Moneta huko Roma. Hadithi inasema kwamba, wakati wa uvamizi wa Gallic mnamo 390 KK, bukini watakatifu wa Capitol waliwatahadharisha Warumi juu ya hatari iliyokaribia. Ili kumshukuru mungu wa kike Juno, mlinzi wa Capitol, hekalu lilijengwa kwa heshima yake na hivi karibuni likawa mint ya sarafu za Kirumi.
+Neno "sarafu" lina asili yake katika hekalu la Juno Moneta huko Roma. Hadithi inasema kwamba, wakati wa uvamizi wa Gallic mnamo 390 KK, bukini watakatifu wa Capitol waliwatahadharisha Warumi juu ya hatari iliyokaribia. Ili kumshukuru mungu wa kike Juno, mlinzi wa Capitol, hekalu lilijengwa kwa heshima yake na hivi mwishowe likawa mint ya sarafu za Kirumi.
 
 
 
@@ -2720,11 +2720,11 @@ Neno "sarafu" lina asili yake katika hekalu la Juno Moneta huko Roma. Hadithi in
 
 
 
-Migogoro ya kijeshi ilikuwa na ushawishi mkubwa juu ya maendeleo ya kifedha ya Warumi. Wakati wa Vita vya Pili vya Punic (218-201 KK) dhidi ya Carthage, Roma ilikabiliwa na matatizo makubwa ya kifedha mbele ya uvamizi wa Hannibal. Ili kupunguza mahitaji haya ya dharura, Roma iliamua kwa mara ya kwanza suala la kipekee la sarafu za dhahabu, na pia kushuka kwa thamani ya sarafu yake ya fedha, kutoka kwa usafi wa awali wa 97% hadi karibu 89%. Uzito wa sarafu za shaba (aes) pia ulipungua kwa kiasi kikubwa, kupoteza karibu 80% katika miaka sita.
+Migogoro ya kijeshi ilikuwa na ushawishi mkubwa juu ya maendeleo ya kifedha ya Warumi. Wakati wa Vita vya Pili vya Punic (218-201 KK) dhidi ya Carthage, Roma ilikumbwa na matatizo makubwa ya kifedha mbele ya uvamizi wa Hannibal. Ili kupunguza mahitaji haya ya dharura, Roma iliamua kwa mara ya kwanza suala la kipekee la sarafu za dhahabu, na pia kushuka kwa thamani ya sarafu yake ya fedha, kutoka kwa usafi wa awali wa 97% hadi karibu 89%. Uzito wa sarafu za shaba (aes) pia ulipungua kwa kiasi kikubwa, kupoteza karibu 80% katika miaka sita.
 
 
 
-Hapa, tunaweza kurejea dhana ambayo tumejadili awali kuhusu Wagiriki kuyeyusha madini ya thamani yaliyohifadhiwa kwenye mahekalu ili kusaidia kupunguza migogoro ya kiuchumi. Na kuzungumza kuhusu **Carthage**, hapa chini unaweza kupendeza sarafu halisi ya Carthaginian kutoka kwenye mkusanyiko wangu. Sarafu hizi za Carthaginian zilikuwa na mtende upande mmoja, na farasi upande mwingine. Kwenye sarafu hii, farasi haitambuliki sana, a imevaliwa sana.
+Hapa, tunaweza kurejea dhana ambayo tumejadili awali kuhusu Wagiriki kuyeyusha madini ya thamani yaliyohifadhiwa kwenye hekalu ili kusaidia kupunguza migogoro ya kiuchumi. Na kuzungumza kuhusu **Carthage**, hapa chini unaweza ipendeza sarafu halisi ya Carthaginian kutoka kwenye mkusanyiko wangu. Sarafu hizi za Carthaginian zilikuwa na mtende upande mmoja, na farasi upande mwingine. Kwenye sarafu hii, farasi haitambuliki sana, a imevaliwa sana.
 
 
 
@@ -2752,7 +2752,7 @@ Nje ya mipaka ya Warumi, vita vilisababisha kushuka kwa thamani kubwa katika mae
 
 
 
-Pamoja na upanuzi wa Roma, tabia ya sarafu pia ilibadilika: awali bila majina na ya kizalendo, sarafu hatua kwa hatua ilipitisha miundo ya kibinafsi iliyo na familia zenye nguvu za wachimbaji (wale ambao walipiga sarafu). Mabadiliko haya yanaashiria wazi mabadiliko ya kisiasa ya marehemu Jamhuri ya Kirumi.
+Pamoja na upanuzi wa Roma, sarafu pia ilibadilika: awali bila majina na ya kizalendo, sarafu baada ya muda ilipitisha miundo ya kibinafsi iliyo na familia zenye nguvu za wachimbaji (wale ambao walipiga sarafu). Mabadiliko haya yanaashiria wazi mabadiliko ya kisiasa ya marehemu Jamhuri ya Kirumi.
 
 
 
@@ -2916,7 +2916,7 @@ Karne ya tatu inaashiria mabadiliko makubwa, kwa kuongeza kasi ya ajabu katika k
 
 
 
-Sehemu hii inaniruhusu kutambulisha kipande cha mwisho katika sehemu hii: antoninianus. Jina la asili la sarafu hii haijulikani, lakini tunarejelea kama antoninianus leo. Ina tofauti ya kuthaminiwa kwa dinari mbili, licha ya kuwa kubwa mara 1.5 tu kuliko dinari. Zaidi ya hayo, baada ya muda, sarafu hizi zikawa sarafu za mabilioni tu, kumaanisha zilitengenezwa kutoka kwa aloi ya fedha na metali nyingine badala ya fedha safi. Sarafu hizo mara nyingi zilifunikwa tu na fedha, zikiwa mfano mashuhuri wa kuoza kwa pesa.
+Sehemu hii inaniruhusu kutambulisha kipande cha mwisho katika sehemu hii: antoninianus. Jina la asili la sarafu hii halijulikani, lakini tunarejelea kama antoninianus leo. Ina tofauti ya kuthaminiwa kwa dinari mbili, licha ya kuwa kubwa mara 1.5 tu kuliko dinari. Zaidi ya hayo, baada ya muda, sarafu hizi zikawa sarafu za mabilioni tu, kumaanisha zilitengenezwa kutoka kwa aloi ya fedha na metali nyingine badala ya fedha safi. Sarafu hizo mara nyingi zilifunikwa tu na fedha, zikiwa mfano mashuhuri wa kuoza kwa pesa.
 
 
 
@@ -2931,13 +2931,13 @@ Sehemu hii inaniruhusu kutambulisha kipande cha mwisho katika sehemu hii: antoni
 Akikabiliwa na hali hii, Mtawala Aurelian (mwaka wa 270-275 BK) alijaribu kuleta utulivu mfumo huo kwa kutathmini upya sarafu, lakini mageuzi haya yalianzisha utaratibu wa mfumuko wa bei kwa kuweka thamani ya sarafu zilizopo katika kiwango cha juu kwa njia isiyo halali.
 
 
-Nitaanzisha upungufu juu ya mada. Katika karne ya 3, mfumuko wa bei ulipata ongezeko la kasi kubwa. Hapo awali, ingawa sarafu zilipunguzwa thamani, mchakato uliotengenezwa kwa mikono wa kuzitengeneza moja baada ya nyingine ulitoa udhibiti fulani juu ya mfumuko wa bei. Takwimu zinaonyesha kuwa zaidi ya miaka 300 ya kushuka kwa thamani, mfumuko wa bei ulikuwa wastani wa 4% kwa mwaka. Kabla tu ya mageuzi ya Aurelian, mfumuko wa bei ulikuwa takriban 3% kila mwaka.
+Nitaanzisha upungufu kwenye mada. Katika karne ya 3, mfumuko wa bei ulipata ongezeko la kasi kubwa. Hapo awali, ingawa sarafu zilipunguzwa thamani, mchakato uliotengenezwa kwa mikono wa kuzitengeneza moja baada ya nyingine ulitoa udhibiti fulani juu ya mfumuko wa bei. Takwimu zinaonyesha kuwa zaidi ya miaka 300 ya kushuka kwa thamani, mfumuko wa bei ulikuwa wastani wa 4% kwa mwaka. Kabla tu ya mageuzi ya Aurelian, mfumuko wa bei ulikuwa takriban 3% kila mwaka.
 
 
 Aurelian alianzisha kipimo cha usafi kwenye sarafu ya ishara ya XXI, akionyesha muundo wa sehemu 20 za shaba hadi sehemu 1 ya fedha, au usafi wa 5%. Aliuza sarafu hizi za fedha 5% na kugonga ishara ya XXI juu yao. Walakini, pia alikumbuka sarafu zingine zote, zilizopunguzwa thamani zaidi na kuzigonga XXI hiyo hiyo. Hii ilithamini kwa ufanisi thamani ya uso wa sarafu zote. Matokeo yake yalikuwa kasi ya mfumuko wa bei wa 20% kwa mwaka, ukizidi kiwango cha awali cha 3% kabla ya mbinu hii kutekelezwa.
 
 
-Ilikuwa kweli Aurelian ambaye aligundua aina hii ya kushuka kwa thamani, ambayo ni ya haraka zaidi kuliko kushuka kwa thamani ya taratibu ya chuma, ambayo bado ilitulazimisha kuchapisha sarafu moja baada ya nyingine. Alichokifanya ni kuchukua sarafu zote zilizokuwepo, akazikumbuka na kuzipiga chapa ili kubadilisha thamani ya sura yake. Ni hatua ya kugeuka kweli. Hapo ndipo mfumuko wa bei ulipokua mkubwa.
+Ilikuwa kweli Aurelian ndiye aligundua aina hii ya kushuka kwa thamani, ambayo ni ya haraka zaidi kuliko kushuka kwa thamani ya taratibu ya chuma, ambayo bado ilitulazimisha kuchapisha sarafu moja baada ya nyingine. Alichokifanya ni kuchukua sarafu zote zilizokuwepo, akazikumbuka na kuzipiga chapa ili kubadilisha thamani ya sura yake. Ni hatua ya kugeuka kweli. Hapo ndipo mfumuko wa bei ulipokua mkubwa.
 
 
 Ili kuonyesha kwa uwazi kushuka kwa thamani huku kupindukia, nimepata takwimu za kuvutia za bei ya nafaka nchini Misri kutoka 40 BC hadi karne ya 3, iliyochukua zaidi ya miaka 300. Hapo chini, unaweza kuona tetradrakma ya Kigiriki kutoka kwa mkusanyiko wangu. Wakati huo, huko Misri chini ya utawala wa Warumi katika karne ya 3, sawa na tetradrakma ya Misri. Dinari ya drakma ilikuwa ingali inatumiwa, nayo ililingana na dinari moja.
@@ -2951,13 +2951,13 @@ Ili kuonyesha kwa uwazi kushuka kwa thamani huku kupindukia, nimepata takwimu za
 
 
 
-Kwa hiyo tetradrakmu ya Misri niliyo nayo ilikuwa sawa na dinari moja. Unaweza kuona kwamba sarafu imetengenezwa kwa mabilioni (au shaba), kwa hiyo haina chuma chochote cha thamani. Unaweza kuilinganisha na tetradrakm ya asili ya Kigiriki ili kuona kushuka kwa thamani kwa miaka hii 300. Ni ongezeko la mara milioni la bei ya nafaka nchini Misri.
+Kwa hiyo tetradrakmu ya Misri niliyo nayo ilikuwa sawa na dinari moja. Unaweza kuona kwamba sarafu imetengenezwa kwa billon (au shaba), kwa hiyo haina chuma chochote cha thamani. Unaweza kuilinganisha na tetradrakm ya asili ya Kigiriki ili kuona kushuka kwa thamani kwa miaka hii 300. Ni ongezeko la mara milioni la bei ya nafaka nchini Misri.
 
 
 Ni usemi wa kimwili wa mageuzi ya Aurelian. Ikumbukwe kwamba wengi, wastani wa miaka hii 300 ya mfumuko wa bei, ulikuwa karibu 4%. Ilikuwa tu mwishoni, wakati Aurelian alipofanya mageuzi yake, kwamba mfumuko wa bei uliongezeka sana na tukafikia kipimo hiki cha milioni 1. Bei zilikuwa juu mara milioni mwishoni mwa karne ya 3 kuliko karne ya 1 KK.
 
 
-Mrithi wake **Diocletian** (284-305 AD) alijaribu hata mageuzi makubwa zaidi: alitoa sarafu mpya (hasa argenteus, safi zaidi lakini iliyopunguzwa sana kwa kiasi), aliweka udhibiti mkali wa bei (Bei Edict ya 301 AD) na **kuanzisha mfumo wa kodi kulingana na malipo ya aina**. Licha ya jitihada hizo, mageuzi ya Diocletian yalishindwa kuzuia mfumuko wa bei uliokithiri.
+Mrithi wake **Diocletian** (284-305 AD) alijaribu hata mageuzi makubwa zaidi: alitoa sarafu mpya (hasa argenteus, safi zaidi lakini yenye upungufu wa kiasi), aliweka udhibiti mkali wa bei (Bei Edict ya 301 AD) na **kuanzisha mfumo wa kodi kulingana na malipo ya aina**. Licha ya jitihada hizo, mageuzi ya Diocletian yalishindwa kuzuia mfumuko wa bei uliokithiri.
 
 
 
@@ -2965,20 +2965,20 @@ Alipokabiliwa na kukataa kutoa bidhaa na huduma kwa kubadilishana na sarafu iliy
 
 
 
-Kinachotakiwa kueleweka hapa ni kwamba kilichotokea ni kwamba wakulima walikataa kupeleka mazao yao kwa kubadilishana na fedha iliyoshuka thamani, na majibu ya mpendwa wetu Diocletian ni kuunda **mataifa ya urithi** kwa kusema "wewe, huwezi kuondoka kwenye ardhi yako, watoto wako hawawezi kuondoka kwenye ardhi yao, sawa na askari, wewe ni askari, unakubali kulipwa kwa fedha yangu". Kama suluhisho la mpito, walilipwa kwa aina (nyama, chakula, nafaka) kwa sababu alikataa kuwapa pesa. Kwa hivyo aliweka mfumo huu wa tabaka za urithi kulazimisha watu kushikamana na biashara zao, kwa hivyo hawakuweza kubadilisha tu kazi ikiwa wangejaribu kutokubali sarafu iliyopunguzwa.
+Kinachofaa kueleweka hapa ni kwamba kilichotokea ni kwamba wakulima walikataa kupeleka mazao yao kwa kubadilishana na fedha iliyoshuka thamani, na majibu ya mpendwa wetu Diocletian ni kuunda **mataifa ya urithi** kwa kusema "wewe, huwezi kuondoka kwenye ardhi yako, watoto wako hawawezi kuondoka kwenye ardhi yao, sawa na askari, wewe ni askari, unakubali kulipwa kwa fedha yangu". Kama suluhisho la mpito, walilipwa kwa aina (nyama, chakula, nafaka) kwa sababu alikataa kuwapa pesa. Kwa hivyo aliweka mfumo huu wa tabaka za urithi kulazimisha watu kushikamana na biashara zao, kwa hivyo hawakuweza kubadilisha tu kazi ikiwa wangejaribu kutokubali sarafu iliyopunguzwa.
 
 
 Ili kuonyesha mfano huu, hapa nina maandishi, dondoo kutoka kwa kitabu "*Utawala wa Fedha na Mfumuko wa Bei*":
 
 
 
-> Kwa vile watu hawakuwa tayari kufanya kazi na kuwasilisha bidhaa dhidi ya sarafu iliyopunguzwa thamani, ambayo thamani yake ilikuwa ya juu kuliko thamani yake ya asili au soko, ilibidi walazimishwe kufanya kazi kwa kutoza kodi kwa njia fulani. [...] Ikawa ni kinyume cha sheria kwa wakulima kuondoka katika nyumba zao zilizosajiliwa. Kwa hivyo, idadi ya wakulima ilishikamana na ardhi kwa urithi.
+> Kwa vile watu hawakutaka kufanya kazi na kuwasilisha bidhaa dhidi ya sarafu iliyopunguzwa thamani, ambayo thamani yake ilikuwa ya juu kuliko thamani yake ya asili au soko, ilibidi walazimishwe kufanya kazi kwa kutoza kodi kwa njia fulani. [...] Ikawa ni kinyume cha sheria kwa wakulima kuondoka katika nyumba zao zilizosajiliwa. Kwa hivyo, idadi ya wakulima ilishikamana na ardhi kwa urithi.
 >
 
 
 > Mfumo huu wa urithi wa tabaka ulienea polepole: Diocletian alilazimisha wana wa askari kutumikia jeshi, wakati wafanyikazi katika karakana za pesa, na vile vile katika viwanda vya kusuka na kupaka rangi Diocletian, wakawa watumwa wa serikali, na utumishi wa kurithi. Wachimbaji dhahabu pia baadaye wakawa tabaka la urithi. Madarasa mengine ya urithi pengine tayari yalikuwepo katika wakati wa Diocletian, hasa mashirika ya waokaji mikate na wachinjaji [...] huko Roma, pamoja na vyama vya dayosisi vya manahodha wa meli ambao walisafirisha nafaka na mizigo mingine ya umma hadi Roma.
 
-Ilikuwa ni Constantine (mwaka 306-337 BK) ambaye hatimaye alifaulu kuleta utulivu wa mfumo wa fedha kwa kuanzisha solidus mwaka 312, sarafu ya dhahabu safi ambayo ubora na uzito wake alihakikisha kabisa. Kulikuwa na mfumo mzima wa kuthibitisha usafi na uzito wa solidus. **Utulivu huu, hata hivyo, uliathiri tu wasomi matajiri na utawala wa kifalme**, huku **wengi wa watu wakiendelea kuteseka kutokana na sarafu ya ubora wa chini na mfumuko wa bei unaoendelea**. Solidus ilibaki thabiti katika Milki ya Mashariki (Byzantium), ambapo ilidumu kwa zaidi ya milenia moja, wakati huko Magharibi, sarafu ziligawanywa katika sarafu ndogo, za thamani ya chini, zikiambatana na mgawanyiko wa mwisho wa kiuchumi na kisiasa wa Milki ya Kirumi, ambayo ilianguka kwa uhakika mnamo 476 AD.
+Ilikuwa ni Constantine (mwaka 306-337 BK) ambaye hatimaye alifaulu kuleta utulivu wa mfumo wa fedha kwa kuanzisha solidus mwaka 312, sarafu ya dhahabu safi ambayo ubora na uzito wake alihakikisha kabisa. Kulikuwa na mfumo mzima wa kuthibitisha usafi na uzito wa solidus. **Utulivu huu, hata hivyo, uliathiri tu wasomi matajiri na utawala wa kifalme**, huku **wengi wa watu wakiendelea kuteseka kutokana na sarafu ya ubora wa chini na mfumuko wa bei unaoendelea**. Solidus ilibaki thabiti katika Milki ya Mashariki (Byzantium), ambapo ilidumu zaidi ya milenia moja, wakati huko Magharibi, sarafu ziligawanywa katika sarafu ndogo, za thamani ya chini, zikiambatana na mgawanyiko wa mwisho wa kiuchumi na kisiasa wa Milki ya Kirumi, ambayo ilianguka kwa uhakika mnamo 476 AD.
 
 
 
@@ -3017,14 +3017,14 @@ Pia tunaona kushuka kwa thamani polepole zaidi kwa aureus. Tofauti hii katika ki
 2. Tamaa ya Serikali ya kuahirisha kwa muda mrefu iwezekanavyo kushuka kwa thamani ya aureus, hifadhi ya thamani ambayo inawawezesha wasomi kudumisha uwezo wao wa ununuzi kwa gharama ya wasio na bahati. Mara kwa mara tutapitia upya kanuni hii katika kipindi chote, hasa kuhusiana na dhana inayojulikana kama "Athari ya Cantillon" na madhehebu mapya ya Maravedi nchini Uhispania.
 
 
-Jambo hili linavutia sana na limejirudia katika historia. Tutaitembelea tena na Maravedi katika sehemu inayofuata. Mtindo huu unaonekana na sarafu zote za akiba pia; sehemu ya hifadhi ya thamani, kama vile aureus katika Roma, bado haijaguswa. Hata hivyo, kitengo cha akaunti kinachotumiwa na idadi ya watu kwa ujumla kwa biashara na miamala ya kila siku mara nyingi hupunguzwa thamani. Kwa hiyo, mfumuko wa bei wa fedha huathiri watu wa kawaida, wakati wale ambao wanaweza kumudu sarafu za dhahabu hubakia kwa kiasi kikubwa bila kuathiriwa.
+Jambo hili linavutia sana na limejirudia katika historia. Tutalitembelea tena na Maravedi katika sehemu inayofuata. Mtindo huu unaonekana na sarafu zote za akiba pia; sehemu ya hifadhi ya thamani, kama vile aureus katika Roma, bado haijaguswa. Hata hivyo, kitengo cha akaunti kinachotumiwa na idadi ya watu kwa ujumla kwa biashara na miamala ya kila siku mara nyingi hupunguzwa thamani. Kwa hiyo, mfumuko wa bei wa fedha huathiri watu wa kawaida, wakati wale ambao wanaweza kumudu sarafu za dhahabu hubakia kwa kiasi kikubwa bila kuathiriwa.
 
 
-Na kwa njia, **ni jambo lile lile ambalo linaundwa leo na kushuka kwa thamani ya sarafu, ambayo inaruhusu mali ya kifedha kupanda kwa thamani **, na hivyo ni watu wanaotumia sarafu, watu maskini zaidi, wanapata maskini zaidi, na hii inaboresha, kupitia uundaji wa pesa, mali ya wale wanaoweza, ambao wana njia za kujilinda dhidi ya upungufu wa kijamii. Hayo ni maneno yangu madogo ya kisiasa.
+Na kwa njia, **ni jambo lile lile ambalo linaundwa leo na kushuka kwa thamani ya sarafu, ambayo inaruhusu mali ya kifedha kupanda kwa thamani **, na hivyo ni watu wanaotumia sarafu, watu maskini zaidi, wanapata maskini zaidi, na hii inaboresha, kupitia uundaji wa pesa, mali ya wale wanaoweza, ambao wana njia za kujilinda dhidi ya upungufu wa kijamii. Hayo ni maneno yangu kidogo ya kisiasa.
 
 
 
-Kile ambacho nimeelezea hivi punde kinaitwa athari ya Cantillon. Tutaona kwamba bwana huyu aliishi wakati wa Sheria ya Yohana, somo ambalo tutashughulikia pia katika sehemu inayofuata.
+Kile ambacho nimeelezea hivi punde kinaitwa athari ya Cantillon. Tutaona kwamba bwana huyu aliishi wakati wa Sheria ya Yohana, somo ambalo tutashughulikia pia katika sehemu ifuatayo.
 
 
 
@@ -3052,7 +3052,7 @@ Kama unavyoona, kushuka huku kwa sarafu iliyotumika kama kitengo cha akaunti kul
 
 
 
-Unachopaswa kuelewa hapa ni kwamba ikiwa kuna uhusiano kati ya dinari na aureus, hata kama unapunguza thamani ya dinari, ikiwa bado unaweza kubadilisha dinari yako kwa aureus kwa kiwango hiki (dinari 25 kwa aureus 1), bila shaka watu watabadilisha dinari yao kwa aureus yako kwa vile dinari itapunguzwa thamani na thamani ya chini itapunguzwa. Lakini katika mageuzi haya, waliondoa kiungo hiki. Kwa hiyo watu hawakuweza tena kubadilishana dinari kwa chuma cha fedha kilichopunguzwa thamani dhidi ya dhahabu. Hapo ndipo wale waliokuwa na uwezo wa kupata sarafu za dhahabu wangeweza kujilinda, kwa sababu baadaye watu hawakuweza tena kubadilisha fedha iliyopunguzwa thamani iliyozidi thamani kwa dhahabu safi isiyo na thamani. Huu ni wakati muhimu sana katika mabadiliko ya sarafu.
+Unachopaswa kuelewa hapa ni kwamba ikiwa kuna uhusiano kati ya dinari na aureus, hata kama unapunguza thamani ya dinari, ikiwa bado unaweza kubadilisha dinari yako kwa aureus kwa kiwango hiki (dinari 25 kwa aureus 1), bila shaka watu watabadilisha dinari yao kwa aureus yako kwa vile dinari itapunguzwa thamani. Lakini katika mageuzi haya, waliondoa kiungo hiki. Kwa hiyo watu hawakuweza tena kubadilishana dinari kwa chuma cha fedha kilichopunguzwa thamani dhidi ya dhahabu. Hapo ndipo wale waliokuwa na uwezo wa kupata sarafu za dhahabu wangeweza kujilinda, kwa sababu baadaye watu hawakuweza tena kubadilisha fedha iliyopunguzwa thamani iliyozidi thamani kwa dhahabu safi isiyo na thamani. Huu ni wakati muhimu sana katika mabadiliko ya sarafu.
 
 
 
@@ -3072,7 +3072,7 @@ Hali hii ya mfumuko wa bei iliyohusishwa na upunguzaji wa fedha awali ilijibu ma
 
 
 
-Kama ilivyoelezwa hapo juu, jambo hili ni dhahiri hasa kutoka katikati ya karne ya 3 na kuendelea. Nchini Misri, eneo lenye kumbukumbu nyingi, bei ziliongezeka kwa 10 chini ya Aurelian (274 AD) baada ya uhakiki rasmi wa sarafu, licha ya jaribio la awali la kuleta utulivu. Kisha, chini ya Diocletian (mwaka 301 BK), amri ya bei iliweka udhibiti mkali ili kuzuia mfumuko wa bei bila kushughulikia chanzo kikuu - uzalishaji kupita kiasi na uharibifu wa kifedha - hivyo kusababisha kushindwa kutabirika. Mfumuko wa bei unaoendelea hatimaye unasukuma uchumi kuelekea mfumo wa ngazi mbili: **wasomi, wanaolindwa na akiba ya dhahabu (kama vile solidus ya Constantine**), wanafurahia utulivu, huku idadi kubwa ya watu ikiendelea kukumbwa na mfumuko wa bei unaoendelea, **ikionyesha kile kinachojulikana leo kama athari ya Cantillon.**
+Kama ilivyosemwa hapo juu, jambo hili ni dhahiri hasa kutoka katikati ya karne ya 3 na kuendelea. Nchini Misri, eneo lenye kumbukumbu nyingi, bei ziliongezeka kwa 10 chini ya Aurelian (274 AD) baada ya uhakiki rasmi wa sarafu, licha ya jaribio la awali la kuleta utulivu. Kisha, chini ya Diocletian (mwaka 301 BK), amri ya bei iliweka udhibiti mkali ili kuzuia mfumuko wa bei bila kushughulikia chanzo kikuu - uzalishaji kupita kiasi na uharibifu wa kifedha - hivyo kusababisha kushindwa kutabirika. Mfumuko wa bei unaoendelea hatimaye unasukuma uchumi kuelekea mfumo wa ngazi mbili: **wasomi, wanaolindwa na akiba ya dhahabu (kama vile solidus ya Constantine**), wanafurahia utulivu, huku idadi kubwa ya watu ikiendelea kukumbwa na mfumuko wa bei unaoendelea, **ikionyesha kile kinachojulikana leo kama athari ya Cantillon.**
 
 
 
@@ -3093,7 +3093,7 @@ Kuna uhusiano wa wazi kati ya kupungua kwa fedha za Kirumi na mfumuko wa bei, sa
 
 
 
-Shule ya uchumi ya Austria, haswa kupitia Ludwig von Mises, ilipendekeza tafsiri ya kifedha ya kuanguka kwa Roma. Katika ono hili, kuporomoka kwa thamani ya sarafu ya Roma kulivuruga mfumo tata wa mgawanyiko wa wafanyikazi ambao ulidumisha milki ya wakaaji milioni 60. Sarafu, chombo kikuu cha uratibu wa kiuchumi, kilipoharibika, kilisababisha kuporomoka kwa muundo mzima wa kijamii na kiuchumi.
+Shule ya uchumi ya Austria, haswa kupitia Ludwig von Mises, ilipendekeza tafsiri ya kifedha ya kuanguka kwa Roma. Katika mtazamo huu, kuporomoka kwa thamani ya sarafu ya Roma kulivuruga mfumo tata wa mgawanyiko wa wafanyikazi ambao ulidumisha milki ya wakaaji milioni 60. Sarafu, chombo kikuu cha uratibu wa kiuchumi, kilipoharibika, kilisababisha kuporomoka kwa muundo mzima wa kijamii na kiuchumi.
 
 
 
@@ -3105,7 +3105,7 @@ Uharibifu huu wa kifedha haukuharibu tu mshikamano wa ndani wa ufalme. Pia ilika
 
 
 
-Historia ya fedha ya Kirumi inaweza kugawanywa katika vipindi vitatu tofauti. Ya kwanza, kutoka kwa Julio-Claudians hadi Antonines (27 BC - mwisho wa karne ya 2), ilidumisha utulivu wa jamaa. Chini ya Trajan, ufalme huo ulifikia ukomo wake: ikichukua kilomita za mraba milioni 5, Roma ikawa jiji la kwanza la milionea katika historia. Dinari inabakia na usafi wa fedha wa 98% hadi 80% - kushuka kwa thamani kwa wastani bado kuruhusu uchumi kufanya kazi.
+Historia ya fedha ya Kirumi inaweza kugawanywa katika vipindi vitatu tofauti. Ya kwanza, kutoka kwa Julio-Claudians hadi Antonines (27 BC - mwisho wa karne ya 2), ilidumisha utulivu wa jamaa. Chini ya Trajan, ufalme huo ulifikia ukomo wake: ikichukua kilomita za mraba milioni 5, Roma ikawa jiji la kwanza lenye milionea katika historia. Dinari inabakia na usafi wa fedha wa 98% hadi 80% - kushuka kwa thamani kwa wastani bado kuruhusu uchumi kufanya kazi.
 
 
 
@@ -3113,7 +3113,7 @@ Kipindi cha pili, karne ya 3, kilikuwa cha machafuko ya kijeshi. Wafalme ishirin
 
 
 
-Hazina za kifedha zilizofichuliwa na wanaakiolojia hufunua wasiwasi huu wa kiuchumi. Amphorae iliyozikwa inaonyesha, kwa kuweka tabaka, jinsi Warumi walivyoweka sarafu bora kwanza, na kuongeza hatua kwa hatua zilizopunguzwa thamani. "Mlundikano" huu wa zamani hushuhudia hatua ya mwanadamu katika uso wa kutokuwa na uhakika - jaribio la kuhifadhi thamani katika ulimwengu unaoharibika.
+Hazina za kifedha zilizofichuliwa na wanaakiolojia hufunua wasiwasi huu wa kiuchumi. Amphorae zilizozikwa zinaonyesha, kwa kuweka tabaka, jinsi Warumi walivyoweka sarafu bora kwanza, na kuongeza hatua kwa hatua zilizopunguzwa thamani. "Mlundikano" huu wa zamani hushuhudia hatua ya mwanadamu katika uso wa kutokuwa na uhakika - jaribio la kuhifadhi thamani katika ulimwengu unaoharibika.
 
 
 
@@ -3133,7 +3133,7 @@ Mgawanyo huu wa kifedha uliunda uchumi mbili sawia bila kiwango rasmi cha ubadil
 
 
 
-### Kuanguka kwa mgawanyiko wa kazi
+### Kuporomoka kwa mgawanyiko wa kazi
 
 
 
@@ -3153,7 +3153,7 @@ Kwa kukata tamaa, Diocletian hata alidai ushuru kwa aina - uandikishaji wa mwish
 
 
 
-Kwa kushangaza, solidus ilinusurika katika Milki ya Magharibi. Byzantium iliidumisha hadi karne ya 11, ikihakikisha miaka elfu zaidi ya utulivu wa kiuchumi. Katika nchi za Magharibi, kumbukumbu yake inaendelea: neno la Kifaransa "sou" linatokana na solidus, ushuhuda wa lugha kwa ukuu wa fedha uliopotea.
+La kushangaza, solidus ilinusurika katika Milki ya Magharibi. Byzantium iliidumisha hadi karne ya 11, ikihakikisha miaka elfu zaidi ya utulivu wa kiuchumi. Katika nchi za Magharibi, kumbukumbu yake inaendelea: neno la Kifaransa "sou" linatokana na solidus, ushuhuda wa lugha kwa ukuu wa fedha uliopotea.
 
 
 
@@ -3177,14 +3177,14 @@ Historia na kuibuka kwa pesa katika Zama za Kati kunaonyeshwa na vipindi vya kur
 
 
 
-Kwa mfano, jeshi la Waroma lilipoondoka Uingereza, hakuna sarafu nyingine za Waroma zilizoingia kisiwani humo. Karibu 435 AD, matumizi ya sarafu yalitoweka kabisa nchini Uingereza, jambo la kipekee katika majimbo ya zamani ya Kirumi. Kwa karibu karne mbili, uchumi wa Uingereza ulikwenda bila sarafu hadi karne ya 7, wakati sarafu za Merovingian na za bara zilianza tena.
+Kwa mfano, jeshi la Waroma lilipoondoka Uingereza, hakuna sarafu zingine za Waroma ziliingia kisiwani humo. Karibu 435 AD, matumizi ya sarafu yalitoweka kabisa nchini Uingereza, jambo la kipekee katika majimbo ya zamani ya Kirumi. Kwa karibu karne mbili, uchumi wa Uingereza ulikwenda bila sarafu hadi karne ya 7, wakati sarafu za Merovingian na za bara zilianza tena.
 
 
 
 Kuanzia karne ya 8 na kuendelea, ushawishi wa Kikristo ulichangia kuanzishwa tena kwa sarafu huko Ulaya Kaskazini. Mtu muhimu katika kipindi hiki alikuwa Pepin the Short, Mfalme wa Franks, ambaye alianzisha dinari mwaka 752, iliyopitishwa baadaye na mtoto wake Charlemagne. Charlemagne ilipanua sana matumizi ya dinari ya fedha, na kuunda kiwango cha fedha cha Ulaya kwa karne kadhaa.
 
 
-Huko Uingereza, sarafu ya sarafu ilifurahia uamsho muhimu na utengenezaji wa senti ya fedha chini ya Mfalme Offa wa Mercia karibu 765. Sarafu hii ikawa muhimu sana hivi kwamba ilibaki bila kubadilika kwa miaka 500.
+Huko Uingereza, sarafu ilifurahia uamsho muhimu na utengenezaji wa senti ya fedha chini ya Mfalme Offa wa Mercia karibu 765. Sarafu hii ikawa muhimu sana hivi kwamba ilibaki bila kubadilika kwa miaka 500.
 
 
 
@@ -3196,7 +3196,7 @@ Kama vizalia vya kwanza vinavyohusiana na kipindi hiki, wacha nikuonyeshe nakala
 
 
 
-Wakati wa Zama za Juu za Kati, Ulaya ilianguka katika ukabaila kufuatia kuanguka kwa mfumo wa fedha wa Kirumi. Idadi kubwa ya watu walitumia sarafu za shaba au shaba za thamani ya chini, mara nyingi chini ya upunguzaji wa sarafu, hivyo kuzuia biashara katika umbali mrefu.
+Wakati wa Zama za Juu za Kati, Ulaya ilianguka katika ukabaila baada ya kuanguka kwa mfumo wa fedha wa Kirumi. Idadi kubwa ya watu walitumia sarafu za shaba au shaba za thamani ya chini, mara nyingi chini ya upunguzaji wa sarafu, hivyo kuzuia biashara katika umbali mrefu.
 
 
 
@@ -3220,7 +3220,7 @@ Ubunifu huu ulikuwa jibu kwa uhaba sugu wa pesa za metali, na ulihimiza kuibuka 
 
 
 
-Wakati huo huo, Vita vya Msalaba vilichochea biashara ya Mediterania, na hivyo kukuza maendeleo ya mabadilishano ya kimataifa na mazoea mapya ya benki, haswa kupitia Agizo la Knights Templar. Knights Templar ikawa wasuluhishi muhimu wa kifedha, kuwezesha wapiganaji wa msalaba kupata ukwasi mbali na nyumbani, ikionyesha mfumo wa kisasa wa benki wa Uropa.
+Wakati huo huo, Vita vya Msalaba vilichochea biashara ya Mediterania, na hivyo kukuza maendeleo ya mabadilishano ya kimataifa na mazoea mapya ya benki, haswa kupitia Agizo la Knights Templar. Knights Templar wakawa wasuluhishi muhimu wa kifedha, kuwezesha wapiganaji wa msalaba kupata ukwasi mbali na nyumbani, ikionyesha mfumo wa kisasa wa benki wa Uropa.
 
 
 
@@ -3252,11 +3252,11 @@ Inataja kwamba nchini Uingereza, mabadiliko ya Bunge yalihamisha mzigo wa deni k
 
 
 
-Mara Bunge lilipoweza kukamata baadhi ya nguvu hii ya kutengeneza fedha, liliwezesha kuundwa kwa madeni ya muda mrefu ambayo yalibebwa na wananchi, si mfalme. Hapo awali, ikiwa mfalme alifilisika au ikiwa kulikuwa na mabadiliko ya mfalme, deni hilo lilizimwa naye.
+Mara Bunge lilipoweza kupata baadhi ya nguvu hii ya kutengeneza fedha, liliwezesha kuundwa kwa madeni ya muda mrefu ambayo yalibebwa na wananchi, si mfalme. Hapo awali, ikiwa mfalme alifilisika au ikiwa kulikuwa na mabadiliko ya mfalme, deni hilo liliisha naye.
 
 
 
-Wakati uundwaji wa deni unafanywa na Bunge, dhana ya deni kuu inaibuka, kwani inaweza kuwa na ukomo kwa wakati. Maadamu Jimbo lipo, muda wote Bunge lipo, deni hili lipo, na walilazimika kutafuta kila aina ya njia za kulifadhili na kulieneza kwa wakati. Ni mabadiliko makubwa ya dhana, ambapo haikuwa tena mfalme au mrahaba ambaye alihakikisha au kubeba mzigo wa madeni haya; sasa lilikuwa Bunge na kwa hiyo wananchi wake.
+Wakati uundaji wa deni unafanywa na Bunge, dhana ya deni kuu inaibuka, kwani inaweza kuwa na ukomo kwa wakati. Maadamu Jimbo lipo, muda wote Bunge lipo, deni hili lipo, na walilazimika kutafuta kila aina ya njia za kulifadhili na kulieneza kwa wakati. Ni mabadiliko makubwa ya dhana, ambapo haikuwa tena mfalme au mrahaba ambaye alihakikisha au kubeba mzigo wa madeni haya; sasa lilikuwa Bunge na kwa hiyo wananchi wake.
 
 
 
@@ -3269,7 +3269,7 @@ Wakati uundwaji wa deni unafanywa na Bunge, dhana ya deni kuu inaibuka, kwani in
 
 :::video id=4977b4f3-c7b2-41a5-ad7b-a96a8cca4092:::
 
-Sasa tumefikia sehemu ya kozi ambapo tunazungumza kuhusu kipindi kinachojulikana kama Renaissance. Inafanyika dhidi ya hali mbaya ya mgogoro, na kuenea kwa hali ya hewa ya tauni na viroboto kwenye meli za panya. Janga hili, hata hivyo, linatufahamisha kuhusu ukuaji wa biashara na usafiri katika kipindi cha juu cha medieval. Mapema katika kipindi hiki, sio watu wengi waliohamia hadi sasa na haraka sana.
+Sasa tumefikia sehemu ya kozi ambapo tunazungumza kuhusu kipindi kinachojulikana kama Renaissance. Inafanyika dhidi ya hali mbaya ya mgogoro, na kuenea kwa hali ya hewa ya tauni na viroboto kwenye panya wanaoingia kwa meli. Janga hili, hata hivyo, linatufahamisha kuhusu ukuaji wa biashara na usafiri katika kipindi cha juu cha medieval. Mapema katika kipindKichwa chako ni sahihi, lakini kinaweza kusanifiwa kidogo ili kiwe kitaaluma zaidi na kifasaha.i hiki, sio watu wengi waliohamia hadi sasa na haraka sana.
 
 
 
@@ -3301,13 +3301,13 @@ Kurudi huku kwa sarafu za dhahabu kulitokana na muktadha maalum: kuanguka kwa so
 
 
 
-Picha ya kwanza hapo juu inaonyesha sarafu ya Byzantine ambayo naipata ya kuvutia sana. Nitachora ulinganifu na sarafu ya kipindi kama hicho kutoka Hungaria (picha ya pili hapo juu). Sarafu ya Hungaria ina umbo la kikombe, kama bakuli ndogo. Picha ya picha ina watu wa kidini wanaoonyeshwa kama wafalme wakiwa wameshika misalaba kando. Kipande hiki kina umbo la bakuli na kinatoka Hungaria.
+Picha ya kwanza hapo juu inaonyesha sarafu ya Byzantine ambayo napata ni ya kuvutia sana. Nitachora ulinganifu na sarafu ya kipindi kama hicho kutoka Hungaria (picha ya pili hapo juu). Sarafu ya Hungaria ina umbo la kikombe, kama bakuli ndogo. Picha ya picha ina watu wa kidini wanaoonyeshwa kama wafalme wakiwa wameshika misalaba kando. Kipande hiki kina umbo la bakuli na kinatoka Hungaria.
 
 
 Ilikuwa ni desturi kabisa kunakili sarafu kutoka nchi nyingine. Kama sarafu za Byzantine zilikubaliwa kwa ujumla, nchi zingine mara nyingi zilizinakili. Kama unavyoona unapozilinganisha kando: vipande hivi vinafanana sana.
 
 
-Kaskazini mwa Italia, haswa Florence, Venice, na Genoa, walichukua fursa ya muktadha huu kuzindua sarafu mpya ngumu - sarafu zilizo na maudhui thabiti ya madini ya thamani. Venice ilifuata mfano wa Florence kwa kutengeneza ducat mnamo 1270, sarafu ambayo ilikuwa karibu kufanana na florin na iliyotumiwa sana katika biashara ya Mediterania.
+Kaskazini mwa Italia, haswa Florence, Venice, na Genoa, walichukua fursa ya muktadha huu kuzindua sarafu ngumu mpya - sarafu zilizo na maudhui thabiti ya madini ya thamani. Venice ilifuata mfano wa Florence kwa kutengeneza ducat mnamo 1270, sarafu ambayo ilikuwa karibu kufanana na florin na iliyotumiwa sana katika biashara ya Mediterania.
 
 
 Florin ikawa sarafu ya kwanza ya hifadhi ya kimataifa, iliyopitishwa katika miji zaidi ya 150 ya Uropa kabla ya mwisho wa karne ya 14. Pamoja na kuundwa kwa mtandao mkubwa wa benki ya Florentine, unaoongozwa na Medici, usimamizi wa fedha na uhasibu ulikuwa wa kisasa kabisa, hata kupunguza hitaji la kusafirisha dhahabu kimwili.
@@ -3329,7 +3329,7 @@ Hii ilimaanisha kwamba hatukuhitaji kubeba sarafu za thamani za chuma.
 
 
 
-Ilikuwa pia katika kipindi hiki ambapo Ulaya ilifahamu kuwepo kwa pesa za karatasi nchini China, kutokana na safari ya Marco Polo katika karne ya 13. Walakini, ukuzaji wa noti ungengojea karne kadhaa, kwani Uropa ilipendelea kukamilisha njia zake za sarafu za chuma kwanza. Leonardo da Vinci, karibu na Luca Pacioli, mhasibu mashuhuri aliyekodishwa, alichangia kikamilifu uboreshaji wa mashinikizo ya pesa, na kukuza uzalishaji wa sarafu wa haraka na sare zaidi.
+Ilikuwa pia wakati huu ambapo Ulaya ilifahamu kuwepo kwa pesa za karatasi nchini China, kutokana na safari ya Marco Polo katika karne ya 13. Walakini, ukuzaji wa noti ungengojea karne kadhaa, kwani Uropa ilipendelea kukamilisha njia zake za sarafu za chuma kwanza. Leonardo da Vinci, karibu na Luca Pacioli, mhasibu mashuhuri aliyekodishwa, alichangia kikamilifu uboreshaji wa mashinikizo ya pesa, na kukuza uzalishaji wa sarafu wa haraka na sare zaidi.
 
 
 Tunarejelea mbinu ya kupiga pendulum iliyotajwa hapo awali katika kozi. Njia hii iliwezesha utengenezaji wa sarafu zaidi sare ikilinganishwa na kugonga kwa nyundo na, muhimu zaidi, iliruhusu maandishi kuzunguka ukingo wa sarafu, kama nilivyoonyesha hapo awali. Yule hapa chini ni thaler wa Ulaya kutoka 1793, ambayo inaonyesha wazi kuandika kwenye pindo.
@@ -3343,7 +3343,7 @@ Katika karne ya 15, hata hivyo, Ulaya ilipata mgogoro mkubwa wa sarafu, na kuzor
 
 
 
-Kuanzia karne ya 16 na kuendelea, kituo cha fedha cha uvutano kilihamia Uhispania, kilichochochewa na muungano wa falme za Aragon na Castile, mwisho wa Reconquista, na uvumbuzi mkubwa wa baharini kama vile wa Christopher Columbus mnamo 1492. Utitiri mkubwa wa fedha kutoka migodi ya Amerika ulivuruga sana, msawazo wa uchumi wa Ulaya na wa kimataifa.
+Kuanzia karne ya 16 na kuendelea, kituo cha uvutano cha fedha kilihamia Uhispania, kilichochochewa na muungano wa falme za Aragon na Castile, mwisho wa Reconquista, na uvumbuzi mkubwa wa baharini kama vile wa Christopher Columbus mnamo 1492. Utitiri mkubwa wa fedha kutoka migodi ya Amerika ulivuruga sana, msawazo wa uchumi wa Ulaya na wa kimataifa.
 
 
 
@@ -3407,7 +3407,7 @@ Kwa karne nyingi, milki kadhaa zimefuatana kama vituo vya uchumi wa kimataifa. N
 ### Kuongezeka kwa Ureno na Halisi (1450-1530)
 
 
-**Ureno** ilitawala biashara ya dunia katika nusu ya pili ya karne ya 15 na mwanzoni mwa karne ya 16, na **Halisi ya Ureno**, sarafu ya fedha ya uzani wa sare. Wareno, kutokana na maendeleo yao katika urambazaji, walipata njia mpya za baharini kuelekea Afrika, Asia, na Ulimwengu Mpya. Ngome za kijeshi na vituo vya biashara viliongezeka kutoka Afrika hadi Uchina (Macau).
+**Ureno** ilitawala kwenye biashara ya dunia katika nusu ya pili ya karne ya 15 na mwanzoni mwa karne ya 16, na **Halisi ya Ureno**, sarafu ya fedha ya uzani wa sare. Wareno, kutokana na maendeleo yao katika urambazaji, walipata njia mpya za baharini kuelekea Afrika, Asia, na Ulimwengu Mpya. Ngome za kijeshi na vituo vya biashara viliongezeka kutoka Afrika hadi Uchina (Macau).
 
 
 Katika kukabiliana na mahitaji ya Ulaya ya dhahabu na fedha, "motisha ya mara kwa mara ya uvumbuzi mkubwa ilikuwa faida ya kibiashara, hasa kutafuta dhahabu na fedha." Hata hivyo, Milki ya Ureno, iliyopanuliwa kupita kiasi na inakabiliwa na ushindani kutoka kwa Waholanzi, Kiingereza, na Kifaransa, ilianza kupungua.
@@ -3490,7 +3490,7 @@ Waholanzi walivumbua ubepari wa kisasa, ambao ulianza kama njia ya kusambaza hat
 
 
 
-Sarafu ya Uholanzi, **Gulden**, ilipata uaminifu kutokana na usafi wake katika fedha, na kisha kupitishwa na Benki ya Amsterdam (1609), ambapo amana zikawa aina inayopendekezwa ya pesa huko Uropa. Hili ni jambo muhimu sana kutaja. Ndio, bila shaka kulikuwa na sarafu, lakini kile kilichojumuisha pesa siku hizo ilikuwa ni aina ya pesa ya kimaandiko. Kwa kweli, biashara nyingi za ulimwengu zilipitia vitabu vya Benki ya Amsterdam. Haya yalikuwa mafanikio ya kweli ya benki: biashara ya kimataifa haikufanywa tena na sarafu halisi, lakini moja kwa moja kupitia rekodi za uhasibu za benki.
+Sarafu ya Uholanzi, **Gulden**, ilipata uaminifu kutokana na usafi wake kama fedha, na kisha kupitishwa na Benki ya Amsterdam (1609), ambapo amana zikawa aina inayopendekezwa ya pesa huko Uropa. Hili ni jambo muhimu sana kutaja. Ndio, bila shaka kulikuwa na sarafu, lakini kile kilichojumuisha pesa siku hizo ilikuwa ni aina ya pesa ya kimaandiko. Kwa kweli, biashara nyingi za ulimwengu zilipitia vitabu vya Benki ya Amsterdam. Haya yalikuwa mafanikio ya kweli ya benki: biashara ya kimataifa haikufanywa tena na sarafu halisi, lakini moja kwa moja kupitia rekodi za uhasibu za benki.
 
 
 
@@ -3526,7 +3526,7 @@ Sheria zenye vikwazo zaidi zilitaka kulazimisha mgawo huo, lakini bila mafanikio
 
 
 
-Pesa hizi za karatasi zilipochukua nafasi ya sarafu zote za ubora wa madini ya thamani, zikiambatana na Sheria maarufu ya Gresham, uhaba wa sarafu ulifuata. Ili kutengeneza sarafu mpya, walitumia chuma cha kengele kilichonyakuliwa kutoka kwa makasisi. Hapa chini unaweza kuona kipande kizuri cha chuma cha kengele, kilichotengenezwa kwa shaba iliyopatikana kwa kuyeyusha sarafu zilizochukuliwa kutoka kwa makasisi.
+Pesa hizi za karatasi zilipochukua nafasi ya sarafu zote za ubora wa madini ya thamani, na kuambatana kwa Sheria maarufu ya Gresham, uhaba wa sarafu ulifuata. Ili kutengeneza sarafu mpya, walitumia chuma cha kengele kilichonyakuliwa kutoka kwa makasisi. Hapa chini unaweza kuona kipande kizuri cha chuma cha kengele, kilichotengenezwa kwa shaba iliyopatikana kwa kuyeyusha sarafu zilizochukuliwa kutoka kwa makasisi.
 
 
 
@@ -3550,7 +3550,7 @@ Baada ya mfululizo wa vita dhidi ya Ufaransa, Uingereza iliibuka mshindi mwaka 1
 
 
 
-Hata hivyo, Vita vya Kwanza vya Ulimwengu (1914-1918) vilikomesha mfumo huu. Katika muda wa majuma machache, mataifa yote makubwa yanayopigana yalisimamisha ubadilikaji wa dhahabu. Milki ya Uingereza, na baadaye pauni, iliibuka kutoka kwa Vita vya Kidunia vya pili katika hali dhaifu, ikitoa nafasi kwa dola ya Amerika katika karne ya 20.
+Hata hivyo, Vita vya Kwanza vya Ulimwengu (1914-1918) vilikomesha mfumo huu. Katika muda wa majuma machache, mataifa yote makubwa yanayokuwa yakipigana yalisimamisha ubadilikaji wa dhahabu. Milki ya Uingereza, na baadaye pauni, iliibuka kutoka kwa Vita vya Kidunia vya pili katika hali dhaifu, ikitoa nafasi kwa dola ya Amerika katika karne ya 20.
 
 
 
@@ -3589,7 +3589,7 @@ Mapema karne ya 13, Waitaliano (Florence, Genoa, Venice ...) walitengeneza mbinu
 
 
 
-Antwerp iliandaa maonyesho ya wafanyabiashara ambapo wafanyabiashara walikusanyika mara kwa mara ili kulipa madeni, na hivyo kusababisha uvumbuzi wa zana mpya za kifedha. Mswada ulio hapa chini, wa 1761 na wa hivi majuzi zaidi, ni **noti ya ahadi**. Inaangazia maelezo yaliyoandikwa kwa mkono, pamoja na maandishi kwenye sehemu ya nyuma, na kuifanya kisanii cha kupendeza cha kipindi hicho.
+Antwerp iliandaa maonyesho ya wafanyabiashara ambapo walikusanyika mara kwa mara ili kulipa madeni, na hivyo kusababisha uvumbuzi wa zana mpya za kifedha. Mswada ulio hapa chini, wa 1761 na wa hivi majuzi zaidi, ni **noti ya ahadi**. Inaangazia maelezo yaliyoandikwa kwa mkono, pamoja na maandishi kwenye sehemu ya nyuma, na kuifanya kisanii cha kupendeza cha kipindi hicho.
 
 
 
@@ -3620,7 +3620,7 @@ Wacha tuendelee hadi Uswidi, ambapo benki kuu ya kwanza kabisa iliundwa.
 
 
 
-Mnamo 1668, Benki ya Riksens Ständers, benki kuu ya kwanza ya kweli ulimwenguni, ilianzishwa huko Stockholm. Hata hivyo, pia ilikumbwa na migogoro (1709, 1715...) iliyohusishwa na matumizi mabaya ya noti, mara nyingi ili kufadhili vita vya ufalme.
+Mnamo 1668, Benki ya Riksens Ständers, benki kuu ya kwanza ya kweli ulimwenguni, ilianzishwa Stockholm. Hata hivyo, pia ilikumbwa na migogoro (1709, 1715...) iliyohusishwa na matumizi mabaya ya noti, mara nyingi ili kufadhili vita vya ufalme.
 
 
 
@@ -3640,7 +3640,7 @@ Uhalisia ulipokuja na uvumi, **hofu hiyo ilizidishwa na uamuzi wa kupiga marufuk
 
 
 
-Hatimaye, Bubble ilipasuka mwaka wa 1720, na kusababisha kuanguka ambayo iliharibu uaminifu wa pesa za karatasi nchini Ufaransa kwa muda mrefu ujao.
+Hatimaye, Bubble ilipasuka mwaka wa 1720, na kusababisha kuanguka ambako kuliharibu uaminifu wa pesa za karatasi nchini Ufaransa kwa muda mrefu ujao.
 
 
 
@@ -3668,7 +3668,7 @@ Mnamo 1694, **Benki ya Uingereza (BoE)** ilianzishwa. Kwa hivyo Benki ya Uingere
 
 
 
-Benki ilipata ukiritimba wa utoaji wa noti nchini Uingereza (iliyoimarishwa mnamo 1708, 1742, n.k.). Kuanzia wakati huo na kuendelea, pesa za karatasi zilizoungwa mkono na akiba ya dhahabu zilisambazwa pamoja na sarafu. Hili ni jambo muhimu la kuelewa unyakuzi wa taratibu wa fedha na taasisi za serikali. Kwanza, Benki ya Amsterdam iliwazuia wabadilisha-fedha kutunza sarafu na kuwalazimisha kuzirudisha kwa Benki. Huko Uingereza, benki za kibinafsi zilipigwa marufuku kutoa bili zao zinazoweza kukombolewa kwa dhahabu.
+Benki ilipata ukiritimba wa utoaji wa noti nchini Uingereza (iliyoimarishwa mnamo 1708, 1742, n.k.). Kuanzia wakati huo na kuendelea, pesa za karatasi zilizoungwa mkono na akiba ya dhahabu zilisambazwa pamoja na sarafu. Hili ni jambo muhimu la kuelewa unyakuzi wa taratibu wa fedha na taasisi za serikali. Kwanza, Benki ya Amsterdam iliwazuia wabadilisha-fedha kutunza sarafu na kuwalazimisha kuzirudisha kwa Benki. Huko Uingereza, benki za kibinafsi zilipigwa marufuku kutoa bili zao zilizokuwa na uwezo wa kukombolewa kwa dhahabu.
 
 
 
@@ -3696,7 +3696,7 @@ Mtindo huu uliimarishwa katika kipindi cha karne ya 18 na 19, hadi pale pauni ik
 
 
 
-Kwa hivyo, hii ndio niliyokuwa nikielezea hapo awali. Mara nyingi tumehamisha mzigo wa deni kuu moja kwa moja kwa benki kuu au ruhusa ya kuunda pesa na taasisi za kisheria, kama vile Bunge.
+Kwa hivyo, hili ndilo nililokuwa nikielezea hapo awali. Mara nyingi tumehamisha mzigo wa deni kuu moja kwa moja kwa benki kuu au ruhusa ya kuunda pesa na taasisi za kisheria, kama vile Bunge.
 
 
 
@@ -3737,7 +3737,7 @@ Kisha, kama tumeona, tulikuwa na VOC, soko la kwanza la hisa huko Amsterdam. Hii
 
 
 
-Kisha ikaja kuundwa kwa Benki ya Uingereza kutokana na hitaji la kuunda deni la kufadhili vita mwishoni mwa karne ya 17. Wakati huo, benki za kibinafsi zikawa safu ya tatu ya pesa. Kwa njia, sehemu hii yote, kutoka kwa florin hadi dhana ya uundaji wa benki kuu, imefupishwa vizuri sana katika kitabu maarufu cha Nick Bhatia "Layered Money", ambacho nilikuwa na bahati ya kutafsiri na wenzake wachache. Tulifanya kazi kubwa ya kuitafsiri ili wasemaji wa Kifaransa kila mahali wanufaike na mafundisho hayo.
+Kisha kukaja kuundwa kwa Benki ya Uingereza kutokana na hitaji la kuunda deni la kufadhili vita mwishoni mwa karne ya 17. Wakati huo, benki za kibinafsi zikawa safu ya tatu ya pesa. Kwa njia, sehemu hii yote, kutoka kwa florin hadi dhana ya uundaji wa benki kuu, imefupishwa vizuri sana katika kitabu maarufu cha Nick Bhatia "Layered Money", ambacho nilikuwa na bahati ya kutafsiri na wenzake wachache. Tulifanya kazi kubwa ya kuitafsiri ili wasemaji wa Kifaransa kila mahali wanufaike na mafundisho hayo.
 
 
 
@@ -3748,14 +3748,14 @@ Benki za kibinafsi zilichukua safu ya tatu ya sarafu. Kwa hakika, bili za benki 
 
 
 
-Kisha hofu ya 1776 ikaja. Kila mtu alikimbilia juu ya piramidi ya pesa. Nini maana ya hii ni kwamba mwaka wa 1776, kuna kukimbia kwenye mabenki, na hivyo watu wote ambao wana karatasi ya safu ya tatu, yaani, bili za benki za kibinafsi, wanajaribu kupata bili za Benki ya Uingereza, na kisha kujaribu kupata dhahabu, lakini ni wazi hapakuwa na dhahabu ya kutosha katika vaults. Walitangaza aina ya likizo ya benki ili kuepuka kulipa bili za dhahabu, na hii ilizua dhana ya mkopeshaji wa chaguo la mwisho.
+Kisha hofu ya 1776 ikaja. Kila mtu alikimbilia juu ya piramidi ya pesa. Maana ya hii ni kwamba mwaka wa 1776, kuna kukimbia kwenye mabenki, na hivyo watu wote ambao wana karatasi ya safu ya tatu, yaani, bili za benki za kibinafsi, wanajaribu kupata bili za Benki ya Uingereza, na kisha kujaribu kupata dhahabu, lakini ni wazi hapakuwa na dhahabu ya kutosha katika vaults. Walitangaza aina ya likizo ya benki ili kuepuka kulipa bili za dhahabu, na hii ilizua dhana ya mkopeshaji wa chaguo la mwisho.
 
 
 
 ### Mabadiliko ya bei ya hisa ya Dola ya Marekani
 
 
-Tulihama kutoka florin hadi kuanzishwa kwa Benki ya Uingereza. Kwa kweli, kulikuwa na Vita vya Kidunia vya Kwanza na vya Pili katika muda huo, lakini mapema, mnamo 1796, maendeleo pia yalikuwa yakitokea upande wa pili wa Atlantiki. Mnamo 1776, Amerika ilikuwa bado koloni ya Uingereza, na makoloni yalitumia sarafu hii ya karatasi. Ifuatayo ni bili ya Connecticut ya shilingi mbili kutoka 1776.
+Tulianza kutoka florin hadi kuanzishwa kwa Benki ya Uingereza. Kwa kweli, kulikuwa na Vita vya Kidunia vya Kwanza na vya Pili katika muda huo, lakini mapema, mnamo 1796, maendeleo pia yalikuwa yakitokea upande wa pili wa Atlantiki. Mnamo 1776, Amerika ilikuwa bado koloni ya Uingereza, na makoloni yalitumia sarafu hii ya karatasi. Ifuatayo ni bili ya Connecticut ya shilingi mbili kutoka 1776.
 
 
 ![image](assets/sw/040.webp)
@@ -3773,7 +3773,7 @@ Ikiwa sijakosea, mnamo 1792 walipitisha sheria iliyowaruhusu kupata pesa. Kwa mf
 Naam, ni wazi, haina thamani ya uso ya dola moja tu; ina thamani ya takriban dola 30 au 40, kwani inawakilisha wakia moja ya fedha. Thamani yake hubadilika kulingana na bei ya fedha, kwa kawaida huiweka angalau dola 30 au 40 za Marekani. Leo, bila shaka, dola ya karatasi inabakia tu thamani yake ya uso ya dola moja, lakini wakati huo, dola ya Marekani ilikuwa na mizizi katika thamani hii ya fedha.
 
 
-Wacha tuzungumze juu ya Vita vya wenyewe kwa wenyewe huko Amerika sasa. Washirika walikuwa wakichapisha pesa, ambazo zilikuwa zimechangiwa sana. Jambo hili halijajumuishwa katika orodha rasmi ya Hanke-Krus, kwani haikufikia kiwango cha mfumuko wa bei cha 50%. Hata hivyo, ilipata mfumuko wa bei wa kila mwezi wa 40%, ikionyesha kwamba kiasi kikubwa cha fedha kilichapishwa wakati wa vita.
+Wacha tuzungumze juu ya Vita vya wenyewe kwa wenyewe huko Amerika sasa. Washirika walikuwa wakichapisha pesa, ambazo zilikuwa zimechangiwa sana. Jambo hili halijajumuishwa katika orodha rasmi ya Hanke-Krus, kwani haikufikia kiwango cha mfumuko wa bei wa 50%. Hata hivyo, ilipata mfumuko wa bei wa kila mwezi wa 40%, kuonyesha kwamba kiasi kikubwa cha fedha kilichapishwa wakati wa vita.
 
 
 
@@ -3804,7 +3804,7 @@ Baada ya Vita vya Kwanza vya Kidunia, safu ya mwisho ya noti zilizochapishwa kil
 
 
 
-Leo, wakia moja ya dhahabu ina thamani ya US $ 3,000. Kwa hivyo unaweza kuona nguvu ya kushuka kwa thamani hapa, bila shaka. Ulikuwa muswada wa mwisho uliokuwa na maneno "redeemable in gold". Tutaona kwamba mara tu baada ya Agizo la Mtendaji 6102, wangenyakua dhahabu yote. Kwa kweli, wangekamata hati zote mbili za dhahabu na dhahabu.
+Leo, wakia moja ya dhahabu ina thamani ya US $ 3,000. Kwa hivyo unaweza kuona nguvu ya kushuka kwa thamani hapa, bila shaka. Ulikuwa muswada wa mwisho uliokuwa na maneno "redeemable in gold". Tutaona kwamba mara tu baada ya Agizo la Mtendaji 6102, wangenyakua dhahabu yote. Kwa kweli, wangekamata hati zote mbili za dhahabu na cheti cha dhahabu.
 
 
 Hapa chini unaweza kuona cheti cha dhahabu kutoka 1928.
@@ -3821,7 +3821,7 @@ Sio tu kwamba "iliweza kukombolewa kwa dhahabu" kama muswada wa 1928, pia iliwez
 Nimefurahiya sana kuwa na moja.
 
 
-Kuanzia 1964, ikawa haramu kumiliki dhahabu, hadi 1974, ikiwa sijakosea. Katika miaka ya 70, waliwaruhusu watu kukusanya dhahabu baada ya mshtuko wa Nixon, ambao tutauelezea hivi punde. Mnamo 1933, walipotoa "Executive Order 6102", walikamata dhahabu na ikawa haramu kumiliki. Ulipata kifungo kikubwa gerezani ikiwa utakamatwa ukihifadhi dhahabu yako. Wakati wa siku hizo, kila wakia ya dhahabu ilibadilishwa kwa mswada sawa na ulio hapa chini, baada ya 1934.
+Kuanzia 1964, ikawa haramu kumiliki dhahabu, hadi 1974, kama sijakosea. Katika miaka ya 1970, waliwaruhusu watu kukusanya dhahabu baada ya mshtuko wa Nixon, ambao tutauelezea hivi punde. Mnamo 1933, walipotoa "Executive Order 6102", walikamata dhahabu na ikawa haramu kuimiliki. Ulipata kifungo kikubwa gerezani ikiwa utakamatwa ukihifadhi dhahabu yako. Wakati wa siku hizo, kila wakia ya dhahabu ilibadilishwa kwa mswada sawa na ulio hapa chini, baada ya 1934.
 
 
 Kama tulivyosema, mnamo 1928, dola bado ilikuwa na maandishi "yanayoweza kukombolewa kwa dhahabu".
@@ -3899,7 +3899,7 @@ Kwa kuundwa kwa benki kuu katika karne ya 18, mapinduzi ya kweli yalizaliwa: fed
 
 
 
-Kwa mfumo huu, Sheria iliunganisha pesa za karatasi na hisa za kampuni yake. Kadiri noti zilivyozidi kusambaa, ndivyo thamani ya hisa ilivyopanda, na ndivyo benki inavyoonekana kuwa thabiti... hadi uvumi ulipopita ukweli. Kiputo hicho kilipasuka ghafla mnamo 1720, na kuharibu wakuu, ubepari, na sehemu kubwa ya Uropa, ambao walikuja kutafakari juu ya rue Quincampoix. Matokeo: kutokuwa na imani na pesa za karatasi nchini Ufaransa, na somo la kwanza la Ulaya katika viputo vya kubahatisha.
+Kwa mfumo huu, Sheria iliunganisha pesa za karatasi na hisa za kampuni yake. Kadiri noti zilivyozidi kusambaa, ndivyo thamani ya hisa ilivyopanda, na ndivyo benki ilivyoonekana kuwa thabiti... hadi uvumi ulipopita ukweli. Kiputo hicho kilipasuka ghafla mnamo 1720, na kuwaathiri wakuu, ubepari, na sehemu kubwa ya Uropa, ambao walikuja kutafakari juu ya rue Quincampoix. Matokeo: kutokuwa na imani na pesa za karatasi nchini Ufaransa, na somo la kwanza la Ulaya katika viputo vya kubahatisha.
 
 
 
@@ -3923,7 +3923,7 @@ Napoleon, aliyeathiriwa sana na machafuko haya, alianzisha tena dhahabu na fedha
 
 
 
-Wacha turuke karne mbili. Baada ya Vita vya Kwanza vya Kidunia, serikali zilifadhili juhudi kupitia mfumuko wa bei na kusimamishwa kwa dhahabu. Katika miaka ya 1920, Fed ya Marekani ilifuata sera ya fedha ya kuhudumia kupita kiasi ili kusaidia pauni ya Uingereza. Matokeo: mkopo rahisi, uvumi usiozuiliwa kwenye Wall Street, ununuzi wa hisa kwa mkopo, na kuibuka kwa kiputo cha mali isiyohamishika na benki.
+Wacha turuke karne mbili. Baada ya Vita vya Kwanza vya Kidunia, serikali zilifadhili juhudi kupitia mfumuko wa bei na kusimamishwa kwa dhahabu. Katika miaka ya 1920, Fed ya Marekani ilifuata sera ya fedha ya kuhudumia kupita kiasi ili kusaidia pauni ya Uingereza. Matokeo: mkopo rahisi, uvumi usiozuiliwa huko Wall Street, ununuzi wa hisa kwa mkopo, na kuibuka kwa kiputo cha mali isiyohamishika na benki.
 
 
 
@@ -3955,7 +3955,7 @@ Matokeo: uokoaji mkubwa wa umma, upunguzaji wa kiasi na viwango vya riba sifuri.
 
 
 
-Kuanzia karne moja hadi nyingine, moja ya mara kwa mara huibuka: mara tu jamii inapoamini inaweza kuunda utajiri na pesa badala ya kutoa bidhaa halisi, mapovu huonekana. Kuanzia John Law hadi 2008, kutoka rue Quincampoix hadi Wall Street, mchakato unajirudia: euphoria, mikopo, boom, na bust.
+Kuanzia karne moja hadi nyingine, moja huibuka mara kwa mara: mara tu jamii inapoamini inaweza kuunda utajiri na pesa badala ya kutoa bidhaa halisi, mapovu huonekana. Kuanzia John Law hadi 2008, kutoka rue Quincampoix hadi Wall Street, mchakato unajirudia: euphoria, mikopo, boom, na bust.
 
 
 
@@ -3978,7 +3978,7 @@ Historia ya fedha ni mzunguko usio na mwisho: kuchapisha, kubashiri, kuanguka. M
 
 :::video id=bd6d0807-2d8f-4637-a0f5-1e990e5c0d0f:::
 
-Sehemu hii fupi itarejea matukio mengi ambayo tayari tumeona katika kipindi chote, kwa muhtasari wa matukio machache ambayo ninaona yanapendeza.
+Sehemu hii fupi itarejea matukio mengi ambayo tayari tumeona katika kipindi chote, kwa muhtasari wa matukio machache ambayo yananipendeza.
 
 
 
@@ -3986,7 +3986,7 @@ Sehemu hii fupi itarejea matukio mengi ambayo tayari tumeona katika kipindi chot
 
 
 
-Hapa kuna hadithi chache ambazo labda tayari tumezungumza juu ya kozi hii. Zinatumika kutambulisha mjadala wa kuvutia sana niliokuwa nao na Theo kuhusu mhadhara aliotoa huko B-Ondy, ambao niliuona kuwa wa kuvutia sana kuhusu jinsi maendeleo ya kiteknolojia yanavyoathiri uhusiano wa vurugu kati ya idadi ya watu na Serikali.
+Hapa kuna hadithi chache ambazo labda tayari tumezungumza juu yake kwenye kozi hii. Zinatumika kutambulisha mjadala wa kuvutia sana niliokuwa nao na Theo kuhusu mhadhara aliotoa huko B-Ondy, ambao niliuona kuwa wa kuvutia sana kuhusu jinsi maendeleo ya kiteknolojia yanavyoathiri uhusiano wa vurugu kati ya watu na Serikali.
 
 
 
@@ -3994,13 +3994,13 @@ Hapa kuna hadithi chache ambazo labda tayari tumezungumza juu ya kozi hii. Zinat
 
 
 
-Ili kutambulisha sehemu hii, nitakupa orodha fupi na isiyo kamili, ili tu kukukumbusha matukio ambayo labda tayari tumeshughulikia katika kozi.
+Ili kutambulisha sehemu hii, nitakupa orodha fupi isiyo kamili, ili tu kukukumbusha matukio ambayo labda tayari tumeshughulikia katika kozi.
 
 
 Kiungo kimoja ambacho ninaweza kufanya tayari na pesa na vurugu ni kwamba linapokuja suala la pesa za karatasi zisizo na maana ambazo zinaweza kuchapishwa ad infinitum, mara nyingi huja na kila aina ya sheria na kila aina ya vitisho. Tunaweza tayari kuzungumza juu ya mgawo, ambapo iliandikwa kwenye noti kwamba watu bandia walitishiwa kuuawa. Ni rahisi kupata katika maandishi ya kisheria ya wakati huo vitisho vya kifo kwa wale ambao hawakukubali pesa hizi maarufu za karatasi.
 
 
-Ili kubaki Ufaransa, katika moja ya maandishi ya kisheria niliyoweza kupata kutoka enzi ya Mapinduzi, niliona kwamba "per diem" ya kusafirisha na kuendesha guillotine ilielezewa katika sehemu zinazohusiana na sarafu. Nimeona hii badala zany.
+Ili kubaki Ufaransa, katika moja ya maandishi ya kisheria niliyoweza kupata kutoka enzi ya Mapinduzi, niliona kwamba "per diem" ya kusafirisha na kuendesha guillotine ilielezewa katika sehemu zinazohusiana na sarafu. Nimeona hili kweli zany.
 
 
 
@@ -4008,7 +4008,7 @@ Tumezungumza pia kuhusu sarafu nchini China, huku serikali ikisimamia uchimbaji.
 
 
 
-Pia kuna hadithi kuhusu mfalme mmoja nchini Uingereza ambaye aliishia kuwakata mikono wale waliotengeneza pesa ikiwa hawakufanya kama alivyotarajia.
+Pia kuna hadithi kuhusu mfalme mmoja nchini Uingereza ambaye alimalizia kuwakata mikono wale waliotengeneza pesa ikiwa hawakufanya kama alivyotarajia.
 
 
 
@@ -4020,7 +4020,7 @@ Hali hiyohiyo ilitumika kwa monasteri katika Uingereza wakati wa Matengenezo ya 
 
 
 
-Wakati wa Mapinduzi ya Ufaransa, waliteka mali zote za Kanisa. Waliona sarafu nzuri zilizotengenezwa kutoka kwa kengele za kanisa zilizoyeyuka.
+Wakati wa Mapinduzi ya Ufaransa, waliteka mali zote za Kanisa. Waliona sarafu nzuri zilizotengenezwa kutoka kwa kengele za kanisa zilizoyeyushwa.
 
 
 
@@ -4032,7 +4032,7 @@ Nadhani hiyo ni aina dhahiri ya vurugu. Ningeweza kumalizia kwa kuzungumza kuhus
 
 
 
-Kwa hivyo unayo: orodha ya haraka sana ya ukweli ambayo tumeona wakati wa kozi hii ambayo, nadhani, inaongeza uhusiano na vurugu. Nitakuacha na sehemu inayofuata kutoka kwa Theo, ambaye atatuambia hadithi ya kuvutia sana kuhusu mabadiliko ya teknolojia na usawa wa nguvu kati ya plebs na mamlaka.
+Kwa hivyo unayo: orodha ya haraka ya ukweli ambao tumeona wakati wa kozi hii ambayo, nadhani, inaongeza uhusiano na vurugu. Nitakuacha na sehemu inayofuata kutoka kwa Theo, ambaye atatuambia hadithi ya kuvutia sana kuhusu mabadiliko ya teknolojia na usawa wa nguvu kati ya plebs na mamlaka.
 
 
 Asante!
@@ -4068,7 +4068,7 @@ Katika Zama za Kati, uchumi wa kilimo ulikuwa zaidi ya 90%. Mkulima huyo, ambaye
 
 
 
-Mzalishaji wa kilimo asiyehamishika anakuwa mateka wa mbabe wa ndani wa ghasia. Uwezo wake wa utozaji ushuru unafikia viwango vipya - ingawa, kwa kushangaza, ushuru wa zama za kati unasalia kuwa wa kawaida ikilinganishwa na 78% ya ushuru wa lazima katika nyakati za kisasa. Bwana anaweza kutoza ushuru apendavyo, kwa sababu mkulima hawezi kupinga wala kuondoka.
+Mzalishaji wa kilimo asiyehamishika anakuwa mateka wa mbabe wa ndani wa ghasia. Uwezo wake wa utozaji ushuru unafikia viwango vipya - ingawa, kwa kushangaza, ushuru wa zama za kati unasalia kuwa wa kawaida ukilinganishwa na 78% ya ushuru wa lazima katika nyakati za kisasa. Bwana anaweza kutoza ushuru apendavyo, kwa sababu mkulima hawezi kupinga wala kuondoka.
 
 
 
@@ -4076,7 +4076,7 @@ Mzalishaji wa kilimo asiyehamishika anakuwa mateka wa mbabe wa ndani wa ghasia. 
 
 
 
-Kuibuka kwa biashara ya Hanseatic katika biashara ya Kaskazini na Mediterania Kusini kulibadilisha hali hiyo. Wafanyabiashara, waundaji wakuu wa thamani iliyoongezwa, walikuwa na mtaji wa rununu - meli zao. Walihitaji tu wanamgambo wepesi wa baharini, kwani bahari ilikuwa ngumu kwa polisi. Zaidi ya yote, wanaweza kuhamia kwa urahisi bandari ya jirani ikiwa ushuru utakuwa mwingi.
+Kuibuka kwa biashara ya Hanseatic katika biashara ya Kaskazini na Mediterania Kusini kulibadilisha hali hiyo. Wafanyabiashara, waundaji wakuu wa thamani iliyoongezwa, walikuwa na mtaji wa rununu - meli zao. Walihitaji tu wanamgambo wepesi wa baharini, kwani bahari ilikuwa ngumu kwa polisi. Zaidi ya yote, wanaweza kuhamia bandari ya jirani kwa urahisi ikiwa ushuru utakuwa mwingi.
 
 
 
@@ -4088,11 +4088,11 @@ Uhamaji huu uliunda ushindani wa ushuru kati ya majimbo ya jiji. Venice, Genoa n
 
 
 
-Mapinduzi ya Viwanda yalileta usanidi sawa na ukabaila. Viwanda, reli na njia za kusanyiko zinawakilisha uwekezaji mkubwa, usiohamishika. Henry Ford hakuweza kuhamisha mimea yake mbele ya ushuru. Wafanyikazi, waliojilimbikizia katika miji ya viwandani, waliungana ili kujadili kwa pamoja badala ya kuhama mtu mmoja mmoja.
+Mapinduzi ya Viwanda yalileta usanidi sawa na ukabaila. Viwanda, reli na njia za kukusanyika zinawakilisha uwekezaji mkubwa, usiohamishika. Henry Ford hakuweza kuhamisha mimea yake mbele ya ushuru. Wafanyikazi, waliojilimbikizia katika miji ya viwandani, waliungana ili kujadili kwa pamoja badala ya kuhama mtu mmoja mmoja.
 
 
 
-"Hali ya ustawi" iliibuka: mipango ya viwanda (Japani, Korea), ulinzi wa kijeshi wa miundombinu, faida za kijamii za chini kwa wafanyikazi. Vita vya Pili vya Ulimwengu vilionyesha hatari hii: mabomu viwanda vya adui vikawa mkakati mkuu. Mkusanyiko wa mtaji halisi uliwezesha utozaji mkubwa wa kodi ili kufadhili hali ya ustawi.
+"Hali ya ustawi" iliibuka: mipango ya viwanda (Japani, Korea), ulinzi wa kijeshi wa miundombinu, faida za chini za kijamii kwa wafanyikazi. Vita vya Pili vya Ulimwengu vilionyesha hatari hii: mabomu viwanda vya adui vikawa mkakati mkuu. Mkusanyiko wa mtaji halisi uliwezesha utozaji mkubwa wa kodi ili kufadhili hali ya ustawi.
 
 
 
@@ -4104,7 +4104,7 @@ Ubunifu tatu za kiteknolojia sasa zinavuruga mizani hii ya zamani. Microprocesso
 
 
 
-Mtandao na kriptografia isiyolinganishwa inaleta mapinduzi katika uundaji wa thamani. Msanidi programu anaweza kufanya kazi popote akiwa na MacBook na Starlink, akisafirisha uzalishaji wao papo hapo na bila malipo. Mabedui wa kidijitali hutoroka utumwa wa kijiografia, wakigonganisha majimbo kwa njia ambayo haijaonekana tangu Renaissance.
+Mtandao na kriptografia isiyolinganishwa inaleta mapinduzi katika uundaji wa thamani. Msanidi programu anawezafanya kazi popote akiwa na MacBook na Starlink, akisafirisha uzalishaji wao papo hapo na bila malipo. Mabedui wa kidijitali hutoroka utumwa wa kijiografia, wakigonganisha majimbo kwa njia ambayo haijawaionekana tangu Renaissance.
 
 
 
@@ -4116,15 +4116,15 @@ Bitcoin inawakilisha kilele cha mantiki hii: sarafu iliyoachiliwa kutoka kwa Ser
 
 
 
-Mataifa ya ustawi wa Magharibi, yaliyoundwa kwa ajili ya enzi ya viwanda, yanakuwa ya kizamani. Waundaji thamani - wasanidi programu, wasanii, wafadhili - wanahamia Singapore, Dubai au El Salvador, wakipendelea huduma chache za umma badala ya kutozwa ushuru kidogo. Majitu ya kisasa kama Apple na Tether hayahitaji ofisi wala miundombinu ya kimwili.
+Mataifa ya ustawi wa Magharibi, yaliyoundwa kwa ajili ya enzi ya viwanda, yameanza kuwa ya kizamani. Waundaji thamani - wasanidi programu, wasanii, wafadhili - wanahamia Singapore, Dubai au El Salvador, wakipendelea huduma chache za umma badala ya kutozwa ushuru kidogo. Majitu ya kisasa kama Apple na Tether hayahitaji ofisi wala miundombinu ya kimwili.
 
 
 
-Ukosefu huu wa ubongo husababisha mzunguko: wachangiaji wachache, huduma za umma zilizoshushwa, ongezeko la ushuru kwa wale wanaokaa, na kuondoka kwa kasi. Mataifa lazima yapunguze kwa kiasi kikubwa au kufilisika. Kugawanyika katika maeneo madogo, yenye ushindani - mtindo mpya wa majimbo ya kidijitali ya miji - inaonekana kuwa jambo lisiloepukika.
+Ukosefu huu wa ubongo husababisha mzunguko: wachangiaji wachache, huduma za umma zilizoshushwa, ongezeko la ushuru kwa wale wanaobaki, na kuondoka kwa kasi. Mataifa lazima yapunguze kwa kiasi kikubwa au kufilisika. Kugawanyika katika maeneo madogo, yenye ushindani - mtindo mpya wa majimbo ya kidijitali ya miji - inaonekana kuwa jambo lisiloepukika.
 
 
 
-Historia inatufundisha kwamba mabadiliko haya huchukua vizazi. Lakini mgawanyo wa Bitcoin wa sarafu na serikali unaweza kuharakisha mchakato huo. Watu binafsi sasa wanapiga kura kwa miguu yao na pochi zao za kriptografia, ikichora upya ramani ya nguvu ya kimataifa kulingana na ambayo ndio tunaanza kufahamu.
+Historia inatufundisha kwamba mabadiliko haya huchukua vizazi. Lakini mgawanyo wa Bitcoin wa sarafu na serikali unaweza kuharakisha mchakato huo. Watu binafsi sasa wanapiga kura kwa miguu yao na pochi zao za kriptografia, ikichora upya ramani ya nguvu ya kimataifa kulingana na njia ambayo ndio tunaanza kufahamu.
 
 
 
@@ -4148,21 +4148,21 @@ Sarafu zilikuwa teknolojia ya kifedha ambayo iliruhusu ufalme kulipa askari, kup
 
 
 
-Kisha ikaja Zama za Kati, wakati kulikuwa na mageuzi kidogo sana mpaka Florin, ambayo ilileta nyuma sarafu imara, na maendeleo ya benki nchini Italia na Antwerp, ambapo dhana ya "thamani ya muda wa fedha" ilitengenezwa - kwa maneno mengine, kupunguza. Walianzisha punguzo ili kuunda aina ya pesa za karatasi ambayo "noti ya ahadi" ilitolewa, yaani, ahadi kwamba siku za baadaye mtu ataweza kurejesha $ 100 pamoja na kiwango cha riba.
+Kisha ikaja Zama za Kati, wakati kulikuwa na mageuzi kidogo sana mpaka Florin, ambayo ilisababisha kurejea kwa sarafu imara, na maendeleo ya benki nchini Italia na Antwerp, ambapo dhana ya "thamani ya muda wa fedha" ilitengenezwa - kwa maneno mengine, kupunguza. Walianzisha punguzo ili kuunda aina ya pesa za karatasi ambayo "noti ya ahadi" ilitolewa, yaani, ahadi kwamba siku za baadaye mtu ataweza kurejesha $ 100 pamoja na kiwango cha riba.
 
 
-Mfumo huu uliunda teknolojia ya kifedha ambayo inaruhusu mmiliki kuuza noti kabla ya mwisho wa muhula, kwa hivyo ikiwa utaiuza baada ya miezi 4 kati ya muda wa miezi 6, mtu huyo atalipa malipo ya kwanza ili kufidia upotezaji wa mavuno kwa miezi 2 iliyobaki.
+Mfumo huu uliunda teknolojia ya kifedha ambayo inaruhusu mmiliki kuuza noti kabla ya mwisho wa muhula, kwa hivyo ikiwa ataiuza baada ya miezi 4 kati ya muda wa miezi 6, mtu huyo atalipa malipo ya kwanza ili kufidia upotezaji wa mavuno kwa miezi 2 iliyobaki.
 
 
 
-Ilikuwa teknolojia ya kifedha iliyotengenezwa huko Antwerp na Amsterdam wakati huo. Baadaye, tuliona mageuzi ya benki kuu na dhana ya wakopeshaji ya mapumziko ya mwisho. Inaweza kusema kuwa wakati wa Benki ya Amsterdam, matumizi ya sarafu katika biashara ya kimataifa yaliachwa kwa ajili ya fedha za maandiko.
+Ilikuwa teknolojia ya kifedha iliyotengenezwa huko Antwerp na Amsterdam wakati huo. Baadaye, tuliona mageuzi ya benki kuu na dhana ya wakopeshaji ya mapumziko ya mwisho. Inaweza kusemwa kuwa wakati wa Benki ya Amsterdam, matumizi ya sarafu katika biashara ya kimataifa yaliachwa kwa ajili ya fedha za maandiko.
 
 
 Baadaye, katika karne ya 18, kwa upande wa teknolojia ya kifedha, tunaweza kuzungumza juu ya bima. Kwa hivyo kuna hadithi ambayo imesimuliwa vizuri sana kwenye kitabu cha Neil Ferguson "The Ascent of Money". Kampuni ya kwanza ya bima kuzaliwa iliitwa **Scottish Widows**, na kimsingi, ni makasisi waliotaka kuendeleza bima kwa mapadre ambao wakati fulani walikufa mapema, walikufa ghafla. Makasisi, wakati huo, walikuwa wakiwatunza wake na watoto wao huko Scotland kwa mwaka mmoja. Na kwa hivyo makasisi walipata kipindi hiki cha mwaka mmoja labda kifupi sana. Kwa sababu hiyo, **walibuni hesabu za takwimu** ili kukokotoa kihalisi idadi ya wachangiaji wanaohitajika ili mfumo kulipia gharama zake, kulingana na idadi ya makuhani waliokufa kabla ya wakati.
 
 
 
-Walitengeneza hesabu za takwimu za kusema "Sawa, sawa, kila padre anatupa kiasi hiki. Kisha, kama kuhani akifa, basi, bima italipa gharama ili kuhakikisha maisha ya mke na watoto wake mpaka waweze kujitegemea." Kwa hivyo ilikuwa kampuni ya kwanza ya bima inayoitwa "Wajane wa Uskoti" iliyoeneza mfumo huu, na mahali ulipowekwa.
+Walitengeneza hesabu za takwimu za kusema "Sawa, kila padre anatupa kiasi hiki. Kisha, kama kuhani akifa, basi, bima italipa gharama ili kuhakikisha maisha ya mke na watoto wake mpaka waweze kujitegemea." Kwa hivyo ilikuwa kampuni ya kwanza ya bima inayoitwa "Wajane wa Uskoti" iliyoeneza mfumo huu, na mahali ulipowekwa.
 
 
 
@@ -4170,7 +4170,7 @@ Walitengeneza hesabu za takwimu za kusema "Sawa, sawa, kila padre anatupa kiasi 
 
 
 
-Hivyo bima ni sehemu ya historia ya teknolojia ya fedha. Na hii inanileta kwenye dhana ya hali ya ustawi, ambayo ni kwamba bima ya kibinafsi hatimaye ilikuja dhidi ya tatizo, dhana ya optimization, ambapo tunajiambia wenyewe, ikiwa tunatoa bima ya afya kwa watu wenye afya nzuri, wanaweza kuwa na riba ndogo katika kulipa malipo kwa sababu wanajiambia, "Mimi ni afya, sitaugua". Kwa upande mwingine, watu wanaojua kuwa ni wagonjwa hakika watataka kujiandikisha.
+Hivyo bima ni sehemu ya historia ya teknolojia ya fedha. Na hii inanileta kwenye dhana ya hali ya ustawi, ambayo ni kwamba bima ya kibinafsi hatimaye ilikuja dhidi ya tatizo, dhana ya optimization, ambapo tunajiambia wenyewe, ikiwa tunatoa bima ya afya kwa watu wenye afya nzuri, wanaweza kuwa na riba ndogo katika kulipa malipo kwa sababu wanajiambia, "Mimi ni wa afya, sitaugua". Kwa upande mwingine, watu wanaojua kuwa ni wagonjwa hakika watataka kujiandikisha.
 
 
 
@@ -4182,7 +4182,7 @@ Moja ya mawazo ambayo yamewekwa mbele ni kufanya bima kuwa ya lazima. Ikiwa kila
 
 
 
-Na kwa hivyo, katika sehemu nyingi za ulimwengu, serikali imesema, "Vema, tutashughulikia hilo". Ingawa mimi si mtaalamu wa suala hili, ninaweza kuona kwamba hoja kama hii huenda inatumika kwa aina zote za bima, kama vile bima ya ukosefu wa ajira. Kuna hamu ya kurahisisha na kuboresha, kulingana na wazo kwamba itakuwa rahisi ikiwa kuna shirika moja tu la kuitunza.
+Na kwa hivyo, katika sehemu nyingi za ulimwengu, serikali imesema, "Vyema, tutashughulikia hilo". Ingawa mimi si mtaalamu wa suala hili, ninaweza kuona kwamba hoja kama hii huenda inatumika kwa aina zote za bima, kama vile bima ya ukosefu wa ajira. Kuna hamu ya kurahisisha na kuboresha, kulingana na wazo kwamba itakuwa rahisi ikiwa kuna shirika moja tu la kuitunza.
 
 
 
@@ -4214,11 +4214,11 @@ Wazo ni kwamba ni bora zaidi ikiwa kuna taasisi kubwa nyuma yake ambayo inasamba
 
 
 
-Wakati huo, kulikuwa na uchambuzi wa kweli wakati dhana hii hatimaye ilionekana kwa mara ya kwanza, lakini kile kilichomalizika ni kwamba tunaokoa kila mtu, "kubwa sana kushindwa", inatumika kwa karibu benki zote kwa sababu kuna centralization, na pia kwa makampuni yote makubwa. Mwishowe, tunaona kwamba bado ni dhana ambayo inatumiwa "kwa ujumla" na Serikali, sawa na dhana ya bima ambayo nimekuelezea hivi punde.
+Wakati huo, kulikuwa na uchambuzi wa kweli wakati dhana hii hatimaye ilionekana kwa mara ya kwanza, lakini kile kilichomalizika ni kwamba tuliokoa kila mtu, "kubwa sana kushindwa", inatumika kwa karibu benki zote kwa sababu kuna centralization, na pia kwa makampuni yote makubwa. Mwishowe, tunaona kwamba bado ni dhana ambayo inatumiwa "kwa ujumla" na Serikali, sawa na dhana ya bima ambayo nimekuelezea hivi punde.
 
 
 
-Hatimaye, serikali itaamua kwamba itashughulikia kila kitu, ikigeuza teknolojia ya kifedha iliyoundwa nchini Scotland kutatua tatizo mahususi katika hali kubwa ya ustawi tunayojua leo. Inatumia kanuni za kifedha za kitaalamu kutoa huduma kwa wakazi wake wanaohitaji. Hata hivyo, tunaweza kukubaliana kwamba ukiritimba unaotokana na mfumo huu husababisha matatizo ya kila aina, ambayo kwa sasa tunakabiliana nayo katika nchi kama Kanada na Ufaransa. Kwa bahati nzuri, kuna mifano tofauti, kama ile ya Uswizi.
+Hatimaye, serikali ikiamua kwamba itashughulikia kila kitu, ikigeuza teknolojia ya kifedha iliyoundwa nchini Scotland kutatua tatizo mahususi katika hali kubwa ya ustawi tunaoujua leo. Inatumia kanuni za kifedha za kitaalamu kutoa huduma kwa wakazi wake wanaohitaji. Hata hivyo, tunaweza kukubaliana kwamba ukiritimba unaotokana na mfumo huu husababisha matatizo ya kila aina, ambayo kwa sasa tunakabiliana nayo katika nchi kama Kanada na Ufaransa. Kwa bahati nzuri, kuna mifano tofauti, kama ile ya Uswizi.
 
 
 

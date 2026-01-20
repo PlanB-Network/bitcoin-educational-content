@@ -1,4 +1,4 @@
-question: Che tipo di attrezzature si usano oggi per estrarre il Bitcoin in modo efficiente?
+question: Che tipo di attrezzature si usano oggi per estrarre bitcoin in modo efficiente?
 answer: ASIC
 wrong_answers:
   - CPU classica

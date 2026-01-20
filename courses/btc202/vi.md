@@ -328,7 +328,7 @@ Miner cần có một nút Bitcoin để tương tác với mạng.
 
 
 
-Vai trò của Miner đôi khi cũng được phân biệt với vai trò của máy băm. Máy băm là một máy có nhiệm vụ tạo mẫu các khối do máy chủ của nhóm cung cấp, tìm kiếm các giá trị băm thỏa mãn mục tiêu độ khó được xác định cho các phần chia sẻ, chứ không phải mục tiêu của Bitcoin. Phần còn lại của quy trình Mining, bao gồm xây dựng khối thực tế, lựa chọn giao dịch hoặc tìm kiếm Proof-of-Work theo độ khó riêng của Bitcoin, cũng như phân phối, được thực hiện trực tiếp bởi các nhóm.
+Vai trò của Miner đôi khi cũng được phân biệt với vai trò của grind. Grind là một máy có nhiệm vụ tạo mẫu các khối do máy chủ của nhóm cung cấp, tìm kiếm các giá trị băm thỏa mãn mục tiêu độ khó được xác định cho các phần chia sẻ, chứ không phải mục tiêu của Bitcoin. Phần còn lại của quy trình Mining, bao gồm xây dựng khối thực tế, lựa chọn giao dịch hoặc tìm kiếm Proof-of-Work theo độ khó riêng của Bitcoin, cũng như phân phối, được thực hiện trực tiếp bởi các nhóm.
 
 
 

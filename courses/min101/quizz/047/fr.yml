@@ -1,0 +1,9 @@
+question: Quel principe statistique explique que la fréquence de blocs trouvés converge vers la part de hashrate sur le long terme ?
+answer: Loi des grands nombres
+wrong_answers:
+  - Théorème de Bayes
+  - Paradoxe des anniversaires
+  - Principe de moindre action
+explanation: |
+  La convergence des résultats est due à la loi des grands nombres, car chaque hash est un essai indépendant.
+reviewed: false

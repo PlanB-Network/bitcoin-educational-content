@@ -1,9 +1,9 @@
 question: Bitcoin Blockchain'ın mevcut boyutu nedir?
-answer: Yaklaşık 500GB.
+answer: Yaklaşık 660GB
 wrong_answers:
-  - Yaklaşık 100 GB.
-  - Yaklaşık 1 TB.
-  - Yaklaşık 2 TB.
+  - Yaklaşık 110GB
+  - Yaklaşık 1TB
+  - Yaklaşık 2TB
 explanation: |
-  Bitcoin Blockchain, 2023 itibariyle yaklaşık 500 GB boyutundadır.
+  Bitcoin Blockchain, 2025 itibariyle yaklaşık 660GB boyutundadır.
 reviewed: true

@@ -1,9 +1,9 @@
 question: Mikä on Bitcoin-lohkoketjun nykyinen koko?
-answer: Noin 500GB.
+answer: Noin 660GB
 wrong_answers:
-  - Noin 100GB.
-  - Noin 1TB.
-  - Noin 2TB.
+  - Noin 110GB
+  - Noin 1TB
+  - Noin 2TB
 explanation: |
-  Bitcoin-lohkoketju on noin 500GB: n kokoinen vuonna 2023.
+  Bitcoin-lohkoketju on noin 660GB kokoinen vuonna 2025.
 reviewed: true

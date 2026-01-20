@@ -1,9 +1,9 @@
-question: Mis on maksimaalne kogus Bitcoini ühikuid, mis kunagi eksisteerida saab?
-answer: 21 miljonit ühikut
+question: Milline järgnevatest ei ole Bitcoini omadus?
+answer: Seda on lihtne tsenseerida.
 wrong_answers:
-  - 25 miljonit ühikut
-  - 30 miljonit ühikut
-  - 50 miljonit ühikut
+  - See on koheselt ülekantav.
+  - Selle kontrollimise kulud on tühised.
+  - Sellel on fikseeritud rahapoliitika.
 explanation: |
-  Bitcoini arvutikood ja kõigi protokollis osalevate kasutajate konsensus määravad, et Bitcoini ühikute maksimaalne kogus, mis kunagi eksisteerida saab, on 21 miljonit.
+  Bitcoinil on kõik vajalikud omadused, et olla tõhus ja terve valuuta: jagatav, koheselt ülekantav, tsenseerimatu, tühised kontrollimise kulud ja rahapoliitika, mis on juba sajandiks ette määratud 21 miljoni ühikuga.
 reviewed: true

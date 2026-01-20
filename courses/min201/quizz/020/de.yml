@@ -1,4 +1,4 @@
-question: Was ist die zukünftige Sorge bezüglich der Nutzung des Bitcoin-Blockplatzes?
+question: Was ist die zukünftige Sorge bezüglich der Nutzung des Bitcoin-Blockspace?
 answer: Die zukünftige Sorge besteht darin, dass mit dem erwarteten Wachstum des Lightning-Netzwerks und dem daraus resultierenden Anstieg der Kanalöffnungen und -schließungen der Platz in den Bitcoin-Blöcken zunehmend wertvoller wird.
 wrong_answers:
   - Die zukünftige Sorge besteht darin, dass die Größe der Bitcoin-Blöcke zu groß wird, um sie verwalten zu können.
@@ -8,7 +8,7 @@ explanation: |
   Mit dem erwarteten Wachstum des Lightning-Netzwerks und dem
   daraus resultierenden Anstieg der Kanalöffnungen und -schließungen
   wird der Platz in den Bitcoin-Blöcken zunehmend wertvoller. Dies
-  hat zu Diskussionen über die legitime Nutzung des Blockplatzes geführt,
+  hat zu Diskussionen über die legitime Nutzung des Blockspace geführt,
   mit Sorgen über Spam auf der Blockchain von
   Transaktionen, die als nicht wesentlich betrachtet werden.
 reviewed: true

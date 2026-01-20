@@ -2,7 +2,7 @@ question: Was misst die Hashrate im Bitcoin-Netzwerk?
 answer: Die Berechnungen pro Sekunde
 wrong_answers:
   - Die Anzahl der Transaktionen pro Sekunde
-  - Die Anzahl der aktiven Knoten
+  - Die Anzahl der aktiven Nodes
   - Die Menge an Strom, die vom Netzwerk verbraucht wird
 explanation: |
   Die Hashrate im Bitcoin-Netzwerk misst die Anzahl der

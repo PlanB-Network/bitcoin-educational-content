@@ -39,39 +39,11 @@ In questo corso discuteremo alcuni aspetti monetari di Bitcoin, tra cui come acq
 
 È essenziale capire che Bitcoin è un nuovo sistema monetario che cambia completamente il nostro rapporto con il denaro, quindi imparare a usarlo è una competenza necessaria per chiunque voglia avere il controllo dei propri fondi.
 
-**Sezione 1 - Introduzione**  
-- Capitolo 1 - Panoramica del corso  
-- Capitolo 2 - La preistoria di Bitcoin  
 
-**Sezione 2 - Il Denaro**  
-- Capitolo 3 - Che cos'è il denaro? 
-- Capitolo 4 - La moneta Fiat 
-- Capitolo 5 - Iperinflazione  
-- Capitolo 6 - La politica monetaria di Bitcoin  
 
-**Sezione 3 - Wallet Bitcoin**  
-- Capitolo 7 - Come funzionano i wallet Bitcoin?
-- Capitolo 8 - Scelta della sicurezza
-- Capitolo 9 - Impostazione del tuo wallet
-- Capitolo 10 - Salvaguardia nel tempo
 
-**Sezione 4 - Aspetti tecnici di Bitcoin**  
-- Capitolo 11 - Lancio di Bitcoin  
-- Capitolo 12 - Che cos'è una transazione?  
-- Capitolo 13 - Nodi Bitcoin  
-- Capitolo 14 - Miner  
-- Capitolo 15 - Miner ed ecologia 
 
-**Sezione 5 - Come ottenere bitcoin?**  
-- Capitolo 16 - Bitcoin non dorme mai!  
-- Capitolo 17 - Guadagnare bitcoin lavorando  
-- Capitolo 18 - Risparmiare con Bitcoin  
-- Capitolo 19 - L'iperbitcoinizzazione  
 
-**Sezione 6 - Il futuro di Bitcoin: Lightning Network**  
-- Capitolo 20 - Introduzione a Lightning Network  
-- Capitolo 21 - Casi d'uso per Lightning Network 
-- Capitolo 22 - Pillola rossa o pillola blu?
 
 Prima di introdurre la definizione di denaro e la sua funzione nella società (Capitolo 1), dovremmo partire dalla genesi di Bitcoin. Lanciato nel 2009, Bitcoin è una tecnologia relativamente nuova e diversa da qualsiasi altra. È quindi normale che non si riesca a capire tutto e subito. Proprio come quando si impara a usare Internet o a guidare un'automobile, non è necessario conoscere subito tutti i dettagli tecnici: si può iniziare imparando a ricevere, inviare e mettere al sicuro i propri fondi, per poi fare piccoli passi approfondendo l'argomento'.
 

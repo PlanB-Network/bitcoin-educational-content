@@ -1,0 +1,9 @@
+question: Kwa nini kuepuka nodi kubwa sana kwa chaneli ya kwanza?
+answer: Sera za vikwazo
+wrong_answers:
+  - Muunganisho mdogo
+  - Gharama ni ndogo sana
+  - Ukosefu wa ukwasi
+explanation: |
+  Nodi kubwa sana mara nyingi hulazimisha kiwango cha chini cha juu na hufunga kwa urahisi njia ndogo.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mengapa profil konsumen mudah dikelola?
+answer: Kebutuhan likuiditas masuk yang kecil
+wrong_answers:
+  - Tidak diperlukan saluran
+  - Sedikit kebutuhan likuiditas keluar
+  - Tidak perlu cadangan
+explanation: |
+  Konsumen tidak membutuhkan banyak likuiditas yang masuk, dan pembayaran keluar secara alami menciptakan likuiditas yang masuk tanpa strategi yang rumit.
+reviewed: false

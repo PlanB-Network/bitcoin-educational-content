@@ -1,0 +1,9 @@
+question: 다음 중 어떤 플랫폼에서 유입 유동성을 구매할 수 있나요?
+answer: 마그마
+wrong_answers:
+  - Bitcoin 코어
+  - 1ML
+  - Boltz
+explanation: |
+  마그마는 자동화된 마켓플레이스를 통해 유입되는 유동성을 쉽게 구매할 수 있도록 지원합니다.
+reviewed: false

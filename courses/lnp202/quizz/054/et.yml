@@ -1,0 +1,9 @@
+question: Millist Lightning-sõlme ja mobiilse kliendi vahelist ühendusmeetodit ei soovitata selgesõnaliselt kasutada?
+answer: Tor
+wrong_answers:
+  - Tailscale
+  - Nostr Wallet Connect
+  - Puudub
+explanation: |
+  Praktikas töötab Tor selleks otstarbeks väga halvasti, kuna tõrked ja latentsus muudavad kasutajakogemuse kehvaks.
+reviewed: false

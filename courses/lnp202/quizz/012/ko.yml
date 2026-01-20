@@ -1,0 +1,9 @@
+question: LN 온보드 노드의 주요 단점은 무엇인가요?
+answer: 운영자 종속성
+wrong_answers:
+  - 개인 키 분실
+  - 자체 관리 없음
+  - 모든 라이트닝 거래에 온체인 결제 의무화
+explanation: |
+  사용자는 연결 및 채널 관리를 위해 주 운영자에게 크게 의존합니다.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welcher Mechanismus verhindert die Freigabe eines alten Lightning-Kanalzustands?
+answer: Der Sperrschlüssel
+wrong_answers:
+  - Transaktionsgebühren
+  - Absolute Zeitmessgeräte
+  - Netzwerk-Klatsch
+explanation: |
+  Sperrschlüssel werden verwendet, um einen Knoten zu bestrafen, der versucht, einen alten Kanalstatus zu veröffentlichen.
+reviewed: false

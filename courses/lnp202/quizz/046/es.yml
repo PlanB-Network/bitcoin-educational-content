@@ -1,0 +1,9 @@
+question: ¿Por qué un pago efectuado crea automáticamente liquidez entrante?
+answer: Liquidez cambiante
+wrong_answers:
+  - Creación de nuevos canales
+  - Aumento de la capacidad
+  - Menores costes de encaminamiento
+explanation: |
+  Un pago saliente mueve sats a la par, creando liquidez entrante en este lado del canal.
+reviewed: false

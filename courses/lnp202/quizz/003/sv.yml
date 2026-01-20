@@ -1,0 +1,9 @@
+question: Vilken av dessa Lightning-operationer kräver publicering av en onchain-transaktion?
+answer: Öppning av kanal
+wrong_answers:
+  - Blixtsnabb betalning
+  - Routning med flera hopp
+  - Mobil klientanslutning
+explanation: |
+  Öppnandet av en kanal motsvarar en Bitcoin-transaktion som publiceras på blockkedjan.
+reviewed: false

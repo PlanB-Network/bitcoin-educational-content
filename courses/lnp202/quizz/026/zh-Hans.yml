@@ -1,0 +1,9 @@
+question: 正常运行中的瞭望塔可以推断出它所保护通道的哪些信息？
+answer: 状态更新频率
+wrong_answers:
+  - Liquidity 分配
+  - 其容量
+  - 支出政策
+explanation: |
+  它接收每个新状态的加密数据包，只显示正常的活动速率。
+reviewed: false

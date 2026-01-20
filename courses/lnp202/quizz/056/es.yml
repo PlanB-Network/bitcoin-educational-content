@@ -1,0 +1,9 @@
+question: ¿Qué paso sigue inmediatamente a la publicación de una solicitud de NWC por parte de la aplicación móvil en un relé?
+answer: El nodo descifra y verifica la autorización
+wrong_answers:
+  - El relé firma la solicitud para el nodo
+  - El relé ejecuta el pago en LND
+  - El nodo abre un canal automáticamente
+explanation: |
+  El nodo lee el evento, lo descifra y comprueba que el autor está autorizado antes de ejecutar la acción.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Welcher Kanalverschluss eignet sich am besten für Lightning?
+answer: Kooperativer Abschluss
+wrong_answers:
+  - Zwangsweise Schließung
+  - Schließen mit Betrug
+  - Watchtower-Verschluss
+explanation: |
+  Ein kooperativer Abschluss ist schneller und ermöglicht es Ihnen, die Gebühren in der Kette zu wählen.
+reviewed: false

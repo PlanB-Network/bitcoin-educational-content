@@ -1,0 +1,9 @@
+question: Vad är den finansiella risken med en depå Lightning wallet?
+answer: Fraktionell reserv
+wrong_answers:
+  - Godtycklig ökning av mining-avgifterna
+  - 51% attack
+  - Definitivt stopp för björnmarknaden
+explanation: |
+  Användaren kan inte verifiera att de saldon som visas faktiskt motsvarar de bitcoins som innehas. Det finns därför en fraktionerad reservrisk.
+reviewed: false

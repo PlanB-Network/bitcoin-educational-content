@@ -1,0 +1,9 @@
+question: Hvilken kanalstenging er best for Lightning?
+answer: Samarbeidende nedleggelse
+wrong_answers:
+  - Tvungen nedleggelse
+  - Avslutter med juks
+  - Watchtower lukking
+explanation: |
+  Det går raskere å inngå et samarbeid, og du kan velge gebyrer i kjeden.
+reviewed: false

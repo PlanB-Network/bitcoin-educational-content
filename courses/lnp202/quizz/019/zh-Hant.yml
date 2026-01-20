@@ -1,0 +1,9 @@
+question: 在 Umbrel 上安裝 LND 的先決條件是什麼？
+answer: 同步 Bitcoin 節點
+wrong_answers:
+  - Umbrel Premium 帳戶
+  - 現有的閃電通道
+  - 閃電地址啟用
+explanation: |
+  LND 依賴 100% 同步的 Bitcoin 節點，這是其運作的先決條件。
+reviewed: false

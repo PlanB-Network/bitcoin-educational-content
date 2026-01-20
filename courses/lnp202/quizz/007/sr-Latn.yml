@@ -1,0 +1,9 @@
+question: Koja fundamentalna osobina Bitcoin se gubi u custodial?
+answer: Monetarna suverenost
+wrong_answers:
+  - Monetarna skalabilnost
+  - Brza uplata
+  - Monetarna interoperabilnost
+explanation: |
+  Bez kontrole ključeva, korisnik se odriče monetarnog suvereniteta, centralnog stuba Bitcoin.
+reviewed: false

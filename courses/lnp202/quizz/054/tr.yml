@@ -1,0 +1,9 @@
+question: Bir Lightning düğümü ile bir mobil istemci arasında belirtilen bağlantı yöntemlerinden hangisi bu kullanım için açıkça önerilmez?
+answer: Tor
+wrong_answers:
+  - Tailscale
+  - Nostr Wallet Bağlan
+  - Hiçbiri
+explanation: |
+  Tor bu amaç için pratikte çok kötü çalışır, hatalar ve gecikme kötü bir kullanıcı deneyimi yaratır.
+reviewed: false

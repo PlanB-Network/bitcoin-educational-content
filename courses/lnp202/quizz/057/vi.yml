@@ -1,0 +1,9 @@
+question: Trong Umbrel, ứng dụng nào cần được cài đặt để thiết lập kết nối NWC?
+answer: Alby Hub
+wrong_answers:
+  - Đầu nối NWC
+  - ThunderHub
+  - Máy chủ Zeus
+explanation: |
+  Do ứng dụng Umbrel dành riêng cho NWC không còn khả dụng nữa, giờ đây bạn cần sử dụng Alby Hub cho loại kết nối này.
+reviewed: false

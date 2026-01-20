@@ -1,0 +1,9 @@
+question: 라이트닝 노드의 수신 용량을 나타내는 정보는 무엇인가요?
+answer: 인바운드 유동성
+wrong_answers:
+  - 활성 연결
+  - 아웃바운드 유동성
+  - 블록 수
+explanation: |
+  인바운드 유동성은 노드가 라이트닝을 통해 받을 수 있는 sats을 나타냅니다.
+reviewed: false

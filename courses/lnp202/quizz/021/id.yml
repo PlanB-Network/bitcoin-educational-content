@@ -1,0 +1,9 @@
+question: File mana yang berisi status saluran rinci LND?
+answer: channel.db
+wrong_answers:
+  - wallet.db
+  - petir.db
+  - teman sebaya.db
+explanation: |
+  File channel.db menyimpan status saluran, rekan, dan commitment transaction.
+reviewed: false

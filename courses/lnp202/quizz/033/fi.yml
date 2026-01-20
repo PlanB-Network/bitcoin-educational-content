@@ -1,0 +1,9 @@
+question: Mikä näistä työkaluista ei tunnista Lightningin relevantteja vertaisia?
+answer: Electrum
+wrong_answers:
+  - Lightning Terminal
+  - Amboss
+  - 1ML
+explanation: |
+  Electrum ei ole Lightning explorer, jolla saadaan tietoa verkon solmuista. Kolme muuta työkalua sen sijaan hoitavat tämän tehtävän hyvin.
+reviewed: false

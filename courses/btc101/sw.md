@@ -39,44 +39,6 @@ Katika kozi hii, tutajadili baadhi ya vipengele vya fedha vya Bitcoin, ikiwa ni 
 
 Ni muhimu kuelewa kwamba Bitcoin ni mfumo mpya wa fedha ambao hubadilisha kabisa uhusiano wetu na pesa, kwa hivyo kujifunza jinsi ya kutumia ni ujuzi muhimu kwa mtu yeyote ambaye anataka kudhibiti pesa zake mwenyewe.
 
-**Sehemu ya 1 - Pesa**
-
-
-- Sura ya 1 - Pesa ni nini?
-- Sura ya 2 - Fiat kama pesa
-- Sura ya 3 - Mfumuko wa bei
-- Sura ya 4 - Bitcoin sera ya fedha
-
-**Sehemu ya 2 - Bitcoin Wallet**
-
-
-- Sura ya 5 - Pochi za Bitcoin zinafanyaje kazi?
-- Sura ya 6 - Kuchagua usalama wako
-- Sura ya 7 - Kuweka Wallet yako
-- Sura ya 8 - Kulinda dhidi ya wakati
-
-**Sehemu ya 3 - Vipengele vya kiufundi vya Bitcoin**
-
-
-- Sura ya 9 - Muamala ni nini?
-- Sura ya 10 - nodes za Bitcoin
-- Sura ya 11 - Wachimbaji
-- Sura ya 12 - Wachimbaji madini na ikolojia
-
-**Sehemu ya 4 - Kuokoa katika Bitcoin**
-
-
-- Sura ya 13 - bei ya Bitcoin
-- Sura ya 14 - Je, unanunuaje Bitcoin?
-- Sura ya 15 - Kufanya kazi kwa Bitcoin
-- Sura ya 16 - Hyper-bitcoinization
-
-**Sehemu ya 5 - Lightning Network**
-
-
-- Sura ya 17 - Utangulizi wa Lightning Network
-- Sura ya 18 - Tumia kesi kwa Lightning Network
-
 Kabla ya kuanzisha ufafanuzi wa pesa na kazi yake katika jamii (Sura ya 1), tunapaswa kuanza kutoka kwa Genesis ya Bitcoin. Ilizinduliwa mnamo 2009, Bitcoin ni teknolojia mpya ambayo ni tofauti na kitu kingine chochote. Kwa hiyo ni kawaida kutoelewa kila kitu kuhusu hilo, mara moja. Kwa kweli, kama vile unapojifunza jinsi ya kutumia mtandao au kuendesha gari, hauhitaji kujua maelezo yote ya kiufundi mara moja: unaweza kuanza kwa kujifunza jinsi ya kupokea, kulipa na kulinda pesa zako, na kisha kuchukua hatua ndogo ili kusoma kwa undani zaidi.
 
 Baada ya yote, tuko katika hatua za mwanzo tu za kupitishwa kwake, kwani tumepita awamu ya kuondoka: uko katika wakati wa kupata maarifa mengi kama unavyotaka kuhusu uvumbuzi huu muhimu.

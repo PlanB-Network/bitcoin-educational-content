@@ -1,9 +1,12 @@
-question: Prema taktikama iz Priručnika za jednostavnu sabotažu, protivnik bi mogao najefikasnije ometati otvoreni razvojni proces Bitcoin tako što bi izazvao konfuziju i neslaganje unutar tima, usporavao donošenje odluka, insistirao na nepotrebnim procedurama i birokratiji, te širio dezinformacije kako bi smanjio efikasnost i produktivnost.
+question: Prema taktikama iz Simple Sabotage Field Manual-a, na koji način bi protivnik mogao najefikasnije da poremeti Bitcoinov otvoreni proces razvoja?
 answer: Infiltriranjem diskusija kako bi se zaustavio napredak kroz beskonačne brige o nebitnim pitanjima i ponavljanjem već rešenih debata
 wrong_answers:
-  - "Pokretanjem distribuiranih napada uskraćivanja usluge protiv ličnih računara i servera Bitcoin Core programera"
-  - Podmićivanjem mining bazena da odbiju softverske nadogradnje i zadrže starije verzije protokola na neodređeno vreme
+  - Pokretanjem distribuiranih napada uskraćivanja usluge protiv ličnih računara i servera Bitcoin Core programera
+  - Podmićivanjem rudarskih bazena da odbiju softverske nadogradnje i zadrže starije verzije protokola na neodređeno vreme
   - Kreiranjem konkurentskih kriptovaluta koje nude bolje funkcije kako bi privukle programere od Bitcoin projekata
 explanation: |
-  Priručnik za jednostavnu sabotažu opisao je taktike infiltracije za ometanje organizacija iznutra, uključujući usporavanje napretka kroz nebitne brige i ponavljanje već rešenih diskusija. Pošto je razvoj Bitcoin otvoren za svakoga, ove taktike socijalnog inženjeringa predstavljaju stvarnu pretnju. Druge opcije predstavljaju spoljašnje napade, a ne metode unutrašnje sabotaže opisane u priručniku, koje se fokusiraju na iskorišćavanje otvorene, kolaborativne prirode procesa razvoja Bitcoin.
-reviewed: false
+  Priručnik za jednostavnu sabotažu opisao je taktike infiltracije za ometanje organizacija iznutra, uključujući usporavanje napretka kroz nebitne brige i 
+  ponavljanje već rešenih diskusija. Pošto je razvoj Bitcoina otvoren za svakoga, ove taktike socijalnog inženjeringa predstavljaju stvarnu pretnju. Druge opcije 
+  predstavljaju spoljašnje napade, a ne metode unutrašnje sabotaže opisane u priručniku, koje se fokusiraju na iskorišćavanje otvorene, kolaborativne prirode 
+  procesa razvoja Bitcoina.
+reviewed: true

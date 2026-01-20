@@ -1,0 +1,9 @@
+question: Mit welcher Lösung können Sie einen echten Lightning-Knoten auf Handys betreiben?
+answer: Eingebetteter LN-Knoten
+wrong_answers:
+  - Wachdienst-Blitz wallet
+  - Blitz-Atomtausch
+  - Föderierte Kanäle
+explanation: |
+  Lösungen wie Phoenix oder Zeus Embedded betten einen echten Lightning-Knoten direkt in die Anwendung ein.
+reviewed: false

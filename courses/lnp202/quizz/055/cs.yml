@@ -1,0 +1,9 @@
+question: Kdy se v toku NWC provádí šifrování na straně aplikace?
+answer: Před zveřejněním na relé
+wrong_answers:
+  - Po přečtení uzlu
+  - Po zveřejnění na relé
+  - Nikdy
+explanation: |
+  Aplikace požadavek serializuje, zašifruje a poté jej zveřejní jako událost na relay Nostr.
+reviewed: false

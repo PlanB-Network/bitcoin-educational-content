@@ -8,6 +8,6 @@ wrong_answers:
   - Diffie-Hellman
 
 explanation: |
-  使用されているアルゴリズムはECDH（楕円曲線Diffie-Hellman）です。これは、楕円曲線を使用する古典的なDiffie-Hellmanアルゴリズムの変種です。
+  使用されているアルゴリズムはECDH（Diffie-Hellmanの楕円曲線）です。これは、楕円曲線を使用する古典的なディフィー・ヘルマン（Diffie-Hellman）アルゴリズムの変種です。
 
 reviewed: false

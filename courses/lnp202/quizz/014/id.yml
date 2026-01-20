@@ -1,0 +1,9 @@
+question: Fitur umum apa saja yang dimiliki oleh Aqua dan Bull Bitcoin Wallet?
+answer: Pertukaran atom petir
+wrong_answers:
+  - Saluran Petir asli
+  - Penitipan terpusat
+  - Simpul petir terintegrasi
+explanation: |
+  wallet ini menggunakan pertukaran atom untuk membayar faktur Lightning tanpa mengeksploitasi simpul Lightning secara langsung di ponsel Anda dan tetap berada dalam penahanan sendiri.
+reviewed: false

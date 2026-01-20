@@ -1,0 +1,9 @@
+question: Lightning düğümünün alım kapasitesini hangi bilgi gösterir?
+answer: Gelen likidite
+wrong_answers:
+  - Aktif bağlantılar
+  - Giden likidite
+  - Blok sayısı
+explanation: |
+  Gelen likidite, düğümün Lightning aracılığıyla alabileceği sats'ı temsil eder.
+reviewed: false

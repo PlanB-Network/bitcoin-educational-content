@@ -1,0 +1,9 @@
+question: Koju ulogu ima ThunderHub u odnosu na vaš LND čvor?
+answer: Interface upravljanje
+wrong_answers:
+  - Implementacija munje
+  - Služba čuvanja
+  - Čvor za usmeravanje
+explanation: |
+  ThunderHub je interfejs koji se povezuje sa LND za upravljanje čvorom.
+reviewed: false

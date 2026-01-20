@@ -1,0 +1,9 @@
+question: Gdzie mogę zainstalować ThunderHub na Umbrel?
+answer: App Store
+wrong_answers:
+  - Konsola SSH
+  - Ustawienia systemowe
+  - Interface Bitcoin Rdzeń
+explanation: |
+  ThunderHub jest instalowany jako aplikacja za pośrednictwem Umbrel App Store.
+reviewed: false

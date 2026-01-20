@@ -1,0 +1,9 @@
+question: Kendala spesifik apa pada Android yang disebutkan mengenai penggunaan Tailscale?
+answer: Satu VPN pada satu waktu
+wrong_answers:
+  - Bluetooth wajib untuk VPN
+  - DNS-over-HTTPS tidak kompatibel
+  - Membutuhkan root ponsel
+explanation: |
+  Android tidak mengizinkan Anda menggunakan dua VPN secara bersamaan, jadi Anda perlu menonaktifkan VPN lain yang aktif sebelum menggunakan Tailscale.
+reviewed: false

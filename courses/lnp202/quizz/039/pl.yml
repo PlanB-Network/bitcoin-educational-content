@@ -1,0 +1,9 @@
+question: Jaka jest płynność wychodząca węzła Lightning?
+answer: Zdolność do zapłaty
+wrong_answers:
+  - Możliwość połączenia
+  - Zdolność przyjmowania
+  - Zdolność do zamykania kanałów
+explanation: |
+  Płynność wychodząca reprezentuje sats dostępne po stronie operatora do dokonywania płatności.
+reviewed: false

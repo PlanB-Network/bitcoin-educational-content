@@ -1,0 +1,9 @@
+question: نام فرمت seed خاص به LND چیست؟
+answer: aezeed
+wrong_answers:
+  - BIP39
+  - lnseed
+  - BIP32
+explanation: |
+  LND از یک seed خاص به نام aezeed استفاده می‌کند که با seed کلاسیک BIP39 متمایز است.
+reviewed: false

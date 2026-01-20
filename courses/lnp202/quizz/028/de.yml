@@ -1,0 +1,9 @@
+question: Welche Rolle spielt der Wachturm, wenn er einen Betrugsversuch feststellt?
+answer: Veröffentlichen Sie die Strafaktion
+wrong_answers:
+  - Den Kanal kooperativ schließen
+  - Mittel einfrieren
+  - Peer-Bericht an Bitcoin Core
+explanation: |
+  Der Wachturm sendet die Strafaktion automatisch im Namen des Benutzers.
+reviewed: false

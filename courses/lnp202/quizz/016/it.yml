@@ -1,0 +1,9 @@
+question: Quali informazioni indicano la capacità di ricezione del nodo Lightning?
+answer: Liquidità in entrata
+wrong_answers:
+  - Connessioni attive
+  - Liquidità in uscita
+  - Numero di blocchi
+explanation: |
+  La liquidità in entrata rappresenta il sats che il nodo può ricevere tramite Lightning.
+reviewed: false

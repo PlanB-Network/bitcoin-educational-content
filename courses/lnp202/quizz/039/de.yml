@@ -1,0 +1,9 @@
+question: Wie hoch ist die ausgehende Liquidität eines Lightning-Knotens?
+answer: Zahlungsfähigkeit
+wrong_answers:
+  - Fähigkeit zur Verbindung
+  - Aufnahmefähigkeit
+  - Fähigkeit, Kanäle zu schließen
+explanation: |
+  Die ausgehende Liquidität stellt den sats dar, der auf der Seite des Betreibers zur Verfügung steht, um Zahlungen zu leisten.
+reviewed: false

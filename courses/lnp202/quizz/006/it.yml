@@ -1,0 +1,9 @@
+question: Qual è il rischio finanziario di un wallet Lightning custodial?
+answer: Riserva frazionaria
+wrong_answers:
+  - Aumento arbitrario delle tariffe del mining
+  - attacco del 51%
+  - Stop definitivo al bear market
+explanation: |
+  L'utente non può verificare che i saldi visualizzati corrispondano effettivamente ai bitcoin detenuti. Esiste quindi un rischio di riserva frazionaria.
+reviewed: false

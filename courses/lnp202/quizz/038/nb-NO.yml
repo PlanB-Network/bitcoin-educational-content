@@ -1,0 +1,9 @@
+question: Hvorfor er forbrukerprofilen enkel å administrere?
+answer: Lite behov for inngående likviditet
+wrong_answers:
+  - Ingen kanal kreves
+  - Lite behov for utgående likviditet
+  - Ikke behov for backup
+explanation: |
+  Forbrukerne trenger ikke mye inngående likviditet, og utgående betalinger skaper naturlig nok noe inngående likviditet uten en kompleks strategi.
+reviewed: false

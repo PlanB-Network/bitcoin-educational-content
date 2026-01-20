@@ -1,0 +1,9 @@
+question: Jaké informace získává strážní věž pro sledování podvádění?
+answer: Částečný TXID transakce, při které došlo k podvodu
+wrong_answers:
+  - Klíč soukromého kanálu
+  - Kompletní stav kanálu
+  - TXID podvodné transakce
+explanation: |
+  Strážní věž obdrží pouze část TXID podvodné transakce, aby mohla identifikovat podezřelou transakci bez znalosti kanálu.
+reviewed: false

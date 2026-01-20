@@ -23,7 +23,7 @@ Von der Antike bis zur Aufklärung stieg die Freiheit auf, als Gesellschaften To
 
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
-Willkommen im Kurs PHI201!
+Willkommen im Kurs PHI101!
 
 Diese Ausbildung lädt Sie ein, die Entwicklung der Freiheit im Laufe der Geschichte zu erkunden, indem Sie die großen Denkrichtungen analysieren, die sie geprägt haben. Sie werden entdecken, wie sich der Begriff der Freiheit im Laufe der Jahrhunderte entwickelt hat, entweder im Widerstand gegen oder in Zusammenarbeit mit der Macht, auf einer historischen Reise von der Antike bis zu zeitgenössischen Debatten.
 

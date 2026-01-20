@@ -1,0 +1,9 @@
+question: 託管 Lightning wallet 業者可以觀察到使用者的哪些資料？
+answer: 他們所有的流動
+wrong_answers:
+  - 他們的身分
+  - 他們付款的元資料，但沒有金額
+  - 其支付的費用，但沒有金額
+explanation: |
+  儘管這些服務通常都不需要 KYC，但營運商仍可存取使用者的金額、頻率、收款人和付款習慣 - 簡而言之，他可以觀察到一切。
+reviewed: false

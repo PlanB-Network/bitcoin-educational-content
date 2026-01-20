@@ -1,0 +1,9 @@
+question: 如何在 Umbrel 上安装 ThunderHub？
+answer: 应用程序商店
+wrong_answers:
+  - SSH 控制台
+  - 系统设置
+  - Interface Bitcoin 核心
+explanation: |
+  ThunderHub 可作为应用程序通过 Umbrel 应用程序商店安装。
+reviewed: false

@@ -1,0 +1,9 @@
+question: 為何 Lightning 上的路由難以獲利？
+answer: 成本與競爭
+wrong_answers:
+  - 頻道限制
+  - 無要求
+  - 缺乏全球流動資金
+explanation: |
+  Onchain 成本、競爭和營運要求使得路由業務的利潤不確定。
+reviewed: false

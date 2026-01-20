@@ -1,0 +1,9 @@
+question: Miks ei saa kaupleja Lightning-sõlme operaator tugineda oma maksetele, et generate sissetulevale likviidsusele?
+answer: Enamasti sissetulevad voogud
+wrong_answers:
+  - Peamiselt väljaminevate voogude puhul
+  - Liiga väikesed kanalid
+  - Kõrged onchain-tasud
+explanation: |
+  Sularahas maksmisega ilma kulutusteta ei liiguta kaupmees loomulikult likviidsust oma kanalitest välja.
+reviewed: false

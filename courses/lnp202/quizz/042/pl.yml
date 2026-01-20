@@ -1,0 +1,9 @@
+question: Jaka jest główna wada przymusowego zamknięcia?
+answer: Środki zablokowane przez blokadę czasową
+wrong_answers:
+  - Częściowa utrata środków
+  - Starzenie się węzła Lightning
+  - Desynchronizacja węzła Lightning
+explanation: |
+  Środki są blokowane przez blokadę czasową, a opłaty są często wysokie.
+reviewed: false

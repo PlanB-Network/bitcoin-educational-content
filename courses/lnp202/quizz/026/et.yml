@@ -1,0 +1,9 @@
+question: Mida saab normaalselt töötav vaatetorn järeldada selle kanali kohta, mida ta kaitseb?
+answer: Kui tihti uuendatakse selle staatust
+wrong_answers:
+  - Liquidity eraldamine
+  - Selle võimsus
+  - Kulupoliitika
+explanation: |
+  See saab iga uue seisundi puhul krüpteeritud pakette, mis paljastavad ainult tavalise aktiivsuse määra.
+reviewed: false

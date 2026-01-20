@@ -1,0 +1,9 @@
+question: Ni ibihe bintu bituma igihano c’Umuravyo kiba ciza?
+answer: Gutahura imbere y'iherezo ry'igihe co gufunga
+wrong_answers:
+  - Gutahura imbere y'uko igihe gitangura
+  - Imbere yo gusohoka, gutahura ubuhendanyi TX
+  - Gutahura inyuma y'iherezo ry'igihe co gufunga
+explanation: |
+  Iryo soko ry’ubutungane ritegerezwa kurekurwa imbere y’uko igihe co gufunga gihera kugira ngo gihane ubuhendanyi. Ntishobora gusohoka imbere y’uko timelock itangura canke TX isohoka, kuko ivyo vyoba bisobanura ko ubuhendanyi gusa butabaye.
+reviewed: false

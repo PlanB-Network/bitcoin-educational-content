@@ -1,0 +1,9 @@
+question: ต้องตั้งพอร์ตใดใน Zeus สำหรับการเชื่อมต่อ LND (REST) ที่อธิบายไว้ในบทนี้?
+answer: 8080
+wrong_answers:
+  - 8333
+  - 8332
+  - 50001
+explanation: |
+  ในการเข้าถึง API จากโหนด LND ของคุณบน Umbrel คุณจำเป็นต้องใช้พอร์ต 8080 เมื่อกำหนดค่า Zeus.
+reviewed: false

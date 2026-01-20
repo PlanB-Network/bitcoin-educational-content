@@ -1,0 +1,9 @@
+question: ライトニング・ノードの発信流動性とは？
+answer: 支払い能力
+wrong_answers:
+  - 接続能力
+  - 受信能力
+  - チャンネルを閉じる能力
+explanation: |
+  発信流動性は、オペレーター側が支払いを行うために利用可能なsatsを表す。
+reviewed: false

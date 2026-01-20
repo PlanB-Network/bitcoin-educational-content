@@ -1,0 +1,9 @@
+question: Какое бесплатное решение для входящей ликвидности основано на сотрудничестве?
+answer: LN+
+wrong_answers:
+  - Магма
+  - Boltz
+  - 1ML
+explanation: |
+  Lightning Network Plus обеспечивает поступление жидкости через круглые канальные отверстия.
+reviewed: false

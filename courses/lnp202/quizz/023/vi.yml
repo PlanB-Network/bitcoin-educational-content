@@ -1,0 +1,9 @@
+question: Định dạng seed dành riêng cho LND có tên là gì?
+answer: aezeed
+wrong_answers:
+  - BIP39
+  - hạt giống
+  - BIP32
+explanation: |
+  LND sử dụng một loại seed đặc biệt có tên là aezeed, khác với loại seed cổ điển của BIP39.
+reviewed: false

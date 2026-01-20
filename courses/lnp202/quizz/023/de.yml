@@ -1,0 +1,9 @@
+question: Wie lautet der Name des seed-Formats, das speziell für LND gilt?
+answer: aezeed
+wrong_answers:
+  - BIP39
+  - lnseed
+  - BIP32
+explanation: |
+  LND verwendet ein spezielles seed namens Aezeed, das sich vom klassischen BIP39 seed unterscheidet.
+reviewed: false

@@ -39,39 +39,11 @@ Neste curso, discutiremos alguns aspectos monetários do Bitcoin, incluindo como
 
 É essencial compreender que o Bitcoin é um novo sistema monetário que altera completamente a nossa relação com o dinheiro, pelo que aprender a utilizá-lo é uma competência necessária para qualquer pessoa que queira ter o controlo dos seus próprios fundos.
 
-**Seção 1 - Introdução**  
-- Capítulo 1 - Visão Geral do Curso  
-- Capítulo 2 - A pré-história do Bitcoin  
 
-**Seção 2 - O Dinheiro**  
-- Capítulo 3 - O dinheiro ao longo da história  
-- Capítulo 4 - Moedas fiduciárias  
-- Capítulo 5 - Hiperinflação  
-- Capítulo 6 - 21 milhões de bitcoins  
 
-**Seção 3 - Carteiras Bitcoin**  
-- Capítulo 7 - O que é uma carteira Bitcoin?  
-- Capítulo 8 - Carteiras Bitcoin e segurança  
-- Capítulo 9 - Configuração de uma carteira  
-- Capítulo 10 - Superando o teste do tempo  
 
-**Seção 4 - Aspectos técnicos do Bitcoin**  
-- Capítulo 11 - Lançamento do Bitcoin  
-- Capítulo 12 - Transações em bitcoins  
-- Capítulo 13 - Nós Bitcoin  
-- Capítulo 14 - Mineradores  
-- Capítulo 15 - Bitcoin e ecologia  
 
-**Seção 5 - Como obter bitcoins?**  
-- Capítulo 16 - O Bitcoin nunca dorme!  
-- Capítulo 17 - Obter bitcoins através do trabalho  
-- Capítulo 18 - Poupar com Bitcoin  
-- Capítulo 19 - Hiperbitcoinização  
 
-**Seção 6 - O futuro do Bitcoin: a Lightning Network**  
-- Capítulo 20 - Uma breve introdução à Lightning Network  
-- Capítulo 21 - Casos de uso da Lightning Network  
-- Capítulo 22 - Pílula vermelha ou pílula azul?  
 
 Antes de introduzirmos a definição de dinheiro e a sua função na sociedade (Capítulo 1), devemos começar pela génese da Bitcoin. Lançada em 2009, a Bitcoin é uma tecnologia relativamente nova e diferente de tudo o resto. Por isso, é normal que não se compreenda tudo sobre ela, de uma só vez. De facto, tal como quando se aprende a utilizar a Internet ou a conduzir um automóvel, não é necessário conhecer todos os pormenores técnicos de imediato: pode começar por aprender a receber, pagar e proteger os seus fundos e, em seguida, dar pequenos passos para os estudar mais profundamente.
 

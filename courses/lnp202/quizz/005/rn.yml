@@ -1,0 +1,9 @@
+question: Ni amakuru ayahe umukoresha wa Lightning wallet ashobora kwihweza ku bijanye n’abakoresha bayo?
+answer: Ivyo vyose bitemba 
+wrong_answers:
+  - Ibirango vyabo
+  - Ivyerekeye ivyo barishe, ariko ata mahera
+  - Ivyo bariha, ariko ata mahera 
+explanation: |
+  Uwukoresha arashobora kumenya amafaranga y’uwukoresha, incuro, abayakira n’ingeso ziwe zo kwishura - muri make, arashobora kwihweza vyose, naho nyene izo nsiguro akenshi zidakoresha KYC.
+reviewed: false

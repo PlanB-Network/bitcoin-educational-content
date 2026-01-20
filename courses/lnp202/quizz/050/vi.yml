@@ -1,0 +1,9 @@
+question: Cấu hình LND + Tailscale + Zeus có mục đích chính là gì?
+answer: Sử dụng wallet di động trên nút Lightning của bạn
+wrong_answers:
+  - Sử dụng thiết bị wallet giám sát mà không có nút Lightning
+  - Ghép kênh nhiều nút LND
+  - Mining sats sử dụng Umbrel
+explanation: |
+  Mục tiêu là sử dụng ứng dụng Lightning wallet di động chạy ngầm trên chính node của bạn.
+reviewed: false

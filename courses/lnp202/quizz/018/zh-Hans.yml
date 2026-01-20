@@ -1,0 +1,9 @@
+question: LND 记忆短语包含多少个单词？
+answer: 24 个字
+wrong_answers:
+  - 10 个字
+  - 18 个字
+  - 36 个字
+explanation: |
+  LND generates 是用于节点备份和恢复的 24 个字的记忆短语。
+reviewed: false

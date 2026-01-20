@@ -1,0 +1,9 @@
+question: ¿Por qué evitar nodos muy grandes para un primer canal?
+answer: Políticas restrictivas
+wrong_answers:
+  - Baja conectividad
+  - Costes demasiado bajos
+  - Falta de liquidez
+explanation: |
+  Los nodos muy grandes suelen imponer importes mínimos elevados y cierran fácilmente los canales pequeños.
+reviewed: false

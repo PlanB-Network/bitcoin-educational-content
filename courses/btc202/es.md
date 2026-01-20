@@ -326,7 +326,7 @@ Un Miner necesita un nodo Bitcoin para interactuar con la red.
 
 
 
-El papel del miner también se diferencia a veces del del chopper. Un mincer es una máquina cuya tarea consiste en aplicar hash a plantillas de bloques suministradas por el servidor de un pool, buscando hashes que satisfagan el objetivo de dificultad definido para las shares, y no el de Bitcoin. El resto del proceso de mining, que incluye la construcción real de bloques, la selección de transacciones o la búsqueda de proof-of-work según la dificultad propia de Bitcoin, así como la distribución, es realizado directamente por los pools.
+El papel del miner también se diferencia a veces del del grind. Un grind es una máquina cuya tarea consiste en aplicar hash a plantillas de bloques suministradas por el servidor de un pool, buscando hashes que satisfagan el objetivo de dificultad definido para las shares, y no el de Bitcoin. El resto del proceso de mining, que incluye la construcción real de bloques, la selección de transacciones o la búsqueda de proof-of-work según la dificultad propia de Bitcoin, así como la distribución, es realizado directamente por los pools.
 
 
 ![Image](assets/fr/054.webp)

@@ -328,7 +328,7 @@ Miner inahitaji node ya Bitcoin ili kuingiliana na mtandao.
 
 
 
-Jukumu la Miner pia wakati mwingine hutofautishwa na lile la chopper. Mchimbaji ni mashine ambayo kazi yake ni kutengeneza violezo vya Hash vinavyotolewa na server ya bwawa, kutafuta heshi zinazokidhi ugumu wa lengo lililobainishwa la hisa, na si lile la Bitcoin. Wengine wa mchakato wa Mining, unaojumuisha ujenzi halisi wa blocks, uteuzi wa shughuli, au utafutaji wa Proof-of-Work kulingana na ugumu wa Bitcoin mwenyewe, pamoja na usambazaji, unafanywa moja kwa moja na mabwawa.
+Jukumu la Miner pia wakati mwingine hutofautishwa na lile la grind. Grind ni mashine ambayo kazi yake ni kutengeneza violezo vya Hash vinavyotolewa na server ya bwawa, kutafuta heshi zinazokidhi ugumu wa lengo lililobainishwa la hisa, na si lile la Bitcoin. Wengine wa mchakato wa Mining, unaojumuisha ujenzi halisi wa blocks, uteuzi wa shughuli, au utafutaji wa Proof-of-Work kulingana na ugumu wa Bitcoin mwenyewe, pamoja na usambazaji, unafanywa moja kwa moja na mabwawa.
 
 
 

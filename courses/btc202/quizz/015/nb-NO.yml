@@ -1,7 +1,7 @@
 question: Hva er den viktigste alternative implementeringen av Bitcoin core?
 answer: Bitcoin Knots
 wrong_answers:
-  - Bitcoin Kontanter
+  - Bitcoin Cash
   - BTCD
   - Bcoin
 explanation: |

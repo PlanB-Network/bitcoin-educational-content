@@ -1,9 +1,9 @@
 question: کدام گزینه سرور Sparrow wallet با اتصال RPC مطابقت دارد؟
-answer: Bitcoin core
+answer: Bitcoin Core
 wrong_answers:
-  - سرور عمومی
-  - الکتروم خصوصی
-  - API از راه دور
+  - Public Server
+  - Private Electrum
+  - Remote API
 explanation: |
   در Sparrow، گزینه Bitcoin core به یک اتصال مستقیم به نود از طریق RPC مربوط می‌شود.
 reviewed: true

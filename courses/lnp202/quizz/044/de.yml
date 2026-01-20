@@ -1,0 +1,9 @@
+question: Welche Rolle spielt ThunderHub im Verhältnis zu Ihrem LND-Knoten?
+answer: Interface-Verwaltung
+wrong_answers:
+  - Implementierung des Blitzes
+  - Hausmeisterdienst
+  - Routing-Knoten
+explanation: |
+  ThunderHub ist eine Schnittstelle, die mit LND verbunden ist, um den Knoten zu verwalten.
+reviewed: false

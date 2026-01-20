@@ -1,0 +1,9 @@
+question: Informasi apa yang menunjukkan kapasitas penerimaan node Lightning?
+answer: Likuiditas masuk
+wrong_answers:
+  - Koneksi aktif
+  - Likuiditas keluar
+  - Jumlah blok
+explanation: |
+  Likuiditas masuk mewakili sats yang dapat diterima oleh node melalui Lightning.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Dlaczego routing na Lightning jest trudny do osiągnięcia rentowności?
+answer: Koszty i konkurencja
+wrong_answers:
+  - Limit kanałów
+  - Brak żądania
+  - Brak globalnej płynności
+explanation: |
+  Koszty łańcucha, konkurencja i wymagania operacyjne sprawiają, że rentowność działalności związanej z routingiem jest niepewna.
+reviewed: false

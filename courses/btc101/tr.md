@@ -55,56 +55,28 @@ Bu derste, bitcoinlerin nasıl alınıp satılacağı, dijital cüzdanlarda güv
 Bitcoin'ün parayla olan ilişkimizi tamamen değiştiren yeni bir para sistemi olduğunu anlamak çok önemlidir, bu nedenle nasıl kullanılacağını öğrenmek, kendi fonlarının kontrolünü elinde tutmak isteyen herkes için gerekli bir beceridir.
 
 
-**Bölüm 1 - Giriş**
 
 
-- Bölüm 1 - Kursa Genel Bakış
-- Bölüm 2 - Bitcoin'in Tarih Öncesi
 
 
-**Bölüm 2 - Para**
 
 
-- Bölüm 3 - Tarih Boyunca Para
-- Bölüm 4 - Fiat Para Birimleri
-- Bölüm 5 - Hiperenflasyon
-- Bölüm 6 - 21 Milyon Bitcoin
 
 
-**Bölüm 3 - Bitcoin Cüzdanlar**
 
 
-- Bölüm 7 - Bitcoin Wallet nedir?
-- Bölüm 8 - Bitcoin Cüzdanlar ve Güvenlik
-- Bölüm 9 - Bir Wallet Kurulumu
-- Bölüm 10 - Zamanın Testine Dayanmak
 
 
-**Bölüm 4 - Bitcoin**'in Teknik Yönleri
 
 
-- Bölüm 11 - Bitcoin'nin Başlatılması
-- Bölüm 12 - Bitcoin İşlemleri
-- Bölüm 13 - Bitcoin Düğümleri
-- Bölüm 14 - Madenciler
-- Bölüm 15 - Bitcoin ve Ekoloji
 
 
-**Bölüm 5 - Bitcoin Nasıl Elde Edilir?**
 
 
-- Bölüm 16 - Bitcoin Asla Uyumaz!
-- Bölüm 17 - Çalışarak Bitcoin Kazanmak
-- Bölüm 18 - Bitcoin ile Tasarruf
-- Bölüm 19 - Hiperbitcoinizasyon
 
 
-**Bölüm 6 - Bitcoin'un Geleceği: Lightning Network**
 
 
-- Bölüm 20 - Lightning Network'a Kısa Bir Giriş
-- Bölüm 21 - Lightning Network Kullanım Örnekleri
-- Bölüm 22 - Kırmızı Hap mı Mavi Hap mı?
 
 
 Paranın tanımını ve toplumdaki işlevini (Bölüm 1) açıklamadan önce, Genesis'ün Bitcoin'sinden başlamalıyız. 2009 yılında piyasaya sürülen Bitcoin, başka hiçbir şeye benzemeyen nispeten yeni bir teknolojidir. Bu nedenle onunla ilgili her şeyi bir anda anlamamak normaldir. Aslında, tıpkı internet kullanmayı veya araba sürmeyi öğrenirken olduğu gibi, tüm teknik ayrıntıları hemen bilmeniz gerekmez: fonlarınızı nasıl alacağınızı, ödeyeceğinizi ve güvence altına alacağınızı öğrenerek başlayabilir ve ardından daha derinlemesine çalışmak için küçük adımlar atabilirsiniz.

@@ -1,0 +1,9 @@
+question: วัตถุประสงค์หลักของการกำหนดค่า LND + Tailscale + Zeus คืออะไร?
+answer: การใช้มือถือ wallet บนโหนด Lightning ของคุณ
+wrong_answers:
+  - การใช้ wallet แบบรับฝากโดยไม่ใช้โหนด Lightning
+  - มัลติเพล็กซิ่งหลายโหนด LND
+  - Mining sats โดยใช้ Umbrel
+explanation: |
+  เป้าหมายคือการใช้แอปพลิเคชัน Lightning wallet บนมือถือที่ทำงานในพื้นหลังบนโหนดของคุณเอง
+reviewed: false

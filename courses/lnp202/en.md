@@ -1,14 +1,12 @@
 ---
-name: Setting up your first Lightning node
-goal: Understanding, installing, configuring and using a Lightning node
-objectives: 
-
-  - Understand the role and purpose of a Lightning node.
+name: Set up your first Lightning node
+goal: Understand, install, configure, and use a Lightning node
+objectives:
+  - Understand the role and usefulness of a Lightning node.
   - Identify the different software solutions available.
   - Install and configure a Lightning node (LND).
-  - Connect an expense account.
-  - Know the risks of using a Lightning node.
-
+  - Connect a spending wallet.
+  - Understand the risks associated with using a Lightning node.
 ---
 
 # Your first step towards autonomy on Lightning
@@ -67,7 +65,7 @@ If you follow this LNP202 course in the right order, by the end of it you'll hav
 
 
 
-## Understanding Lightning nodes
+## Understanding what a Lightning node is
 
 <chapterId>8275dfd8-7a72-48cc-bf7f-bc2a46063003</chapterId>
 
@@ -288,7 +286,7 @@ The good news is that today, operating your own Lightning node is no longer the 
 
 
 
-## Choosing the right solution for the job
+## Choosing the solution that fits your use case
 
 <chapterId>615870e3-741d-4ec1-875d-a483e70f39d4</chapterId>
 
@@ -311,7 +309,7 @@ The principle is straightforward: your funds stay in Bitcoin, either on-chain or
 The major advantage of this approach, compared with a conventional Lightning custodial wallet, is that you remain in 100% possession of your funds at all times. The bitcoins are in your onchain or Liquid wallet, with your own mnemonic phrase. Even during the swap, you remain in possession of your funds, because the swap is atomic. It relies on a cryptographic mechanism that ensures there are only two possible outcomes: either the swap succeeds entirely, or it fails and the service cannot appropriate your funds.
 
 
-Most portfolios offering this type of functionality rely on [Boltz](https://boltz.exchange/) for the technical part of the swap.
+Most wallets offering this type of functionality rely on [Boltz](https://boltz.exchange/) for the technical part of the swap.
 
 
 This solution also offers interesting advantages in terms of confidentiality, especially when coupled with Liquid. For a beginner, it's also very easy to set up and save: a classic mnemonic phrase, no channels, no liquidity to balance...
@@ -465,15 +463,15 @@ A warning message will remind you that the application is in beta version and th
 You will then arrive at your Lightning node's main interface. On the left, you'll find your Bitcoin onchain wallet hosted on your node. This is the one generated from the 24-word phrase you've just saved.
 
 
-In the center, you'll find your Lightning wallet. It actually represents your outgoing cash, i.e. the bitcoins you own within your Lightning channels.
+In the center, you'll find your Lightning wallet. It actually represents your outbound liquidity, i.e. the bitcoins you own within your Lightning channels.
 
 
 On the right, you will see several important pieces of information about your node:
 
 
 - The number of connections and open channels;
-- Your total outgoing cash flow, i.e. what you can theoretically spend on Lightning;
-- Your total incoming liquidity, i.e. what you can theoretically receive on Lightning.
+- Your total outbound liquidity, i.e. what you can theoretically spend on Lightning;
+- Your total inbound liquidity, i.e. what you can theoretically receive on Lightning.
 
 
 ![Image](assets/fr/021.webp)
@@ -491,12 +489,12 @@ Then click on the green `SAVE AND RESTART` button to restart your node and apply
 Your Lightning node is now ready to open its first channels for making payments. But first, let's take a look at how to protect your sats!
 
 
-## Saving your Lightning node
+## Backing up your Lightning node
 
 <chapterId>638fa75d-62af-4bf3-ab4a-b7d10ea75815</chapterId>
 
 
-Before sending your first sats to your node, it's important to understand how its backup works and what the associated risks are. Unlike a simple Bitcoin onchain portfolio, backing up a Lightning node is quite complex: the wrong strategy can lead to the permanent loss of your funds. In this chapter, we'll look at what really needs to be backed up, and how Umbrel handles this process with LND.
+Before sending your first sats to your node, it's important to understand how its backup works and what the associated risks are. Unlike a simple Bitcoin onchain wallet, backing up a Lightning node is quite complex: the wrong strategy can lead to the permanent loss of your funds. In this chapter, we'll look at what really needs to be backed up, and how Umbrel handles this process with LND.
 
 
 In this course, we'll be using the LND (*Lightning Network Daemon*) implementation. Although the principles are similar on the other implementations, the recovery files and procedures I'm going to talk about are specific to LND.
@@ -559,7 +557,7 @@ When recovering via SCB, the process is as follows:
 - It contacts each peer, tells them that you've suffered a data loss and asks them to "force-close" your channel with them, so that you can recover your onchain share.
 
 
-The idea is that your peers, noticing that you're reporting a loss of data, will broadcast their last commitment transaction and close the force channel. Once these transactions have been confirmed, your funds reappear in your onchain portfolio (linked to the seed).
+The idea is that your peers, noticing that you're reporting a loss of data, will broadcast their last commitment transaction and close the force channel. Once these transactions have been confirmed, your funds reappear in your onchain wallet (linked to the seed).
 
 
 This recovery mechanism isn't perfect, however. Firstly, it doesn't actually restore your Lightning node, since all channels will be closed. You'll then have to build a new Lightning node from scratch. Secondly, it does not guarantee 100% recovery, although it does considerably increase the chances of recovering your onchain balances in the event of a problem. Indeed, this recovery protocol depends on the cooperation and availability of your peers: if one of them is offline, has lost its own data or refuses to cooperate, your funds may remain blocked, or even be permanently lost. That's why it's important not to keep channels open on your Lightning node with unreachable peers for long periods of time. If you suffer a data loss at that point and the peer remains unreachable, recovery via SCB will be impossible, and your funds will remain lost until that peer comes back online (perhaps forever).
@@ -655,7 +653,7 @@ Now you know how to protect your Lightning node's sats from data loss. In the ne
 
 
 
-## Watchtower: role and set-up
+## Watchtowers: role and setup
 
 <chapterId>e6c654dd-26c5-4e4d-8d11-a215bac37812</chapterId>
 
@@ -780,7 +778,7 @@ If you return to this same menu, you'll see that your Lightning node is now prot
 An altruistic watchtower is generally sufficient, especially if you don't place large amounts of money on your Lightning node and if you manage your node well (don't leave it off for too long). For even greater security, you can also add several by repeating the same process.
 
 
-## Open your first Lightning channel
+## Opening your first Lightning channel
 
 <chapterId>00642af7-8f3d-4a25-96d7-34e85de7bd5d</chapterId>
 
@@ -874,7 +872,7 @@ Here, however, I suggest you use [the Lightning Terminal tool from Lightning Lab
 ![Image](assets/fr/030.webp)
 
 
-The problem with the very large Lightning nodes at the top of this ranking is that most don't accept channel openings below very high amounts. Many also apply strict peer management policies, which can lead to your channel being closed. On the other hand, these nodes generally have no need for incoming liquidity, given their number of connections.
+The problem with the very large Lightning nodes at the top of this ranking is that most don't accept channel openings below very high amounts. Many also apply strict peer management policies, which can lead to your channel being closed. On the other hand, these nodes generally have no need for inbound liquidity, given their number of connections.
 
 
 I'd therefore advise you to work your way down the ranking to find a node that's well connected, reliable and sufficiently central in the network graph, without being excessively large. For example, here I've identified the Lightning node on stacker.news, which is very well connected, has high capacity and occupies a central position in the network graph.
@@ -883,10 +881,10 @@ I'd therefore advise you to work your way down the ranking to find a node that's
 ![Image](assets/fr/031.webp)
 
 
-Another interesting approach is to open a channel to a node in need of incoming liquidity, such as a merchant you know, an association or a community. This strategy has three advantages:
+Another interesting approach is to open a channel to a node in need of inbound liquidity, such as a merchant you know, an association or a community. This strategy has three advantages:
 
 
-- Since the chosen entity needs incoming liquidity, it will logically have less incentive to close your channel for no reason;
+- Since the chosen entity needs inbound liquidity, it will logically have less incentive to close your channel for no reason;
 - Its economic activity increases the chances of routing on this channel, and therefore of collecting some fees;
 - You're doing the ecosystem a favor and making a valuable contribution to other bitcoiners.
 
@@ -918,7 +916,7 @@ Scroll down to the main interface, then click on `+ OPEN CHANNEL`.
 ![Image](assets/fr/034.webp)
 
 
-Enter the `Node ID` of the node you wish to open a channel with, indicate the amount you wish to lock in, and then adjust the opening transaction fee according to the state of the onchain fee market. Of course, make sure you have sufficient funds in your LND onchain portfolio beforehand.
+Enter the `Node ID` of the node you wish to open a channel with, indicate the amount you wish to lock in, and then adjust the opening transaction fee according to the state of the onchain fee market. Of course, make sure you have sufficient funds in your LND onchain wallet beforehand.
 
 
 Once all the parameters have been set, click on the `OPEN CHANNEL` button.
@@ -963,7 +961,7 @@ If we then look at the distribution of liquidity in the channel, we see that my 
 ![Image](assets/fr/040.webp)
 
 
-To improve the reliability of our payments, it will obviously be necessary to open up other channels. Depending on our objectives, we'll also need to find a way of making incoming liquidity available so that we can receive payments on Lightning. This will be the subject of the next section.
+To improve the reliability of our payments, it will obviously be necessary to open up other channels. Depending on our objectives, we'll also need to find a way of making inbound liquidity available so that we can receive payments on Lightning. This will be the subject of the next section.
 
 
 # Managing your Lightning node
@@ -971,7 +969,7 @@ To improve the reliability of our payments, it will obviously be necessary to op
 <partId>e27c3e1e-487b-4414-ad6b-d67bdb91c7c5</partId>
 
 
-## Define your node operator profile
+## Defining your node operator profile
 
 <chapterId>d3b2e163-50f6-4d1d-a5fc-8fd177dfac76</chapterId>
 
@@ -979,7 +977,7 @@ To improve the reliability of our payments, it will obviously be necessary to op
 Now that your Lightning node is up and running, the next step is to define your trader profile. This is an important choice, as it determines your channel opening strategy, the type of peers you prefer, and the way you manage liquidity.
 
 
-On Lightning, for this to work, you need liquidity in the right direction. Outgoing liquidity corresponds to your ability to pay (sats available on your side of the channels). Incoming liquidity corresponds to your capacity to receive (sats available on your peers' side). In other words, your profile boils down to a simple question: most of the time, are your sats leaving your node, or entering it?
+On Lightning, for this to work, you need liquidity in the right direction. outbound liquidity corresponds to your ability to pay (sats available on your side of the channels). inbound liquidity corresponds to your capacity to receive (sats available on your peers' side). In other words, your profile boils down to a simple question: most of the time, are your sats leaving your node, or entering it?
 
 
 ### The consumer
@@ -988,7 +986,7 @@ On Lightning, for this to work, you need liquidity in the right direction. Outgo
 This is the profile of the vast majority of users. You use your node to make Lightning payments: to buy goods and services, pay bills, send tips - in short, to use Lightning as a fast means of payment. On the other hand, you receive little from Lightning, or only marginally, for example a few donations, refunds between friends or a few micro-payments.
 
 
-This profile is the easiest to manage, because your main need is to be able to pay. In practical terms, this means you need outgoing liquidity. Once you've opened one or more correctly sized channels to stable, well-connected nodes, your outgoing payments will mechanically move liquidity to the other side of your channels. It's precisely this movement that naturally creates a reasonable amount of incoming liquidity. As a result, even if you're not looking to receive on a regular basis, you'll still be able to receive from time to time without implementing a complex strategy. So you don't need to worry about your incoming liquidity.
+This profile is the easiest to manage, because your main need is to be able to pay. In practical terms, this means you need outbound liquidity. Once you've opened one or more correctly sized channels to stable, well-connected nodes, your outgoing payments will mechanically move liquidity to the other side of your channels. It's precisely this movement that naturally creates a reasonable amount of inbound liquidity. As a result, even if you're not looking to receive on a regular basis, you'll still be able to receive from time to time without implementing a complex strategy. So you don't need to worry about your inbound liquidity.
 
 
 In this LNP202 course, we're going to focus on this "consumer" node operator profile, as it's the one that corresponds to almost all Bitcoin users on Lightning.
@@ -1003,7 +1001,7 @@ The merchant is, in a way, the opposite of the consumer. Here, the main objectiv
 This profile is more demanding, as a refused payment on Lightning potentially represents a lost sale. The priority therefore becomes inbound liquidity. If your node doesn't have enough inbound, your customers will see their payments fail, even if they have the funds, simply because there's no route to get the liquidity to you in the right direction.
 
 
-The major challenge for the merchant also comes from the natural evolution of channels. If all you do is receive, your channels will gradually fill up on your side. So you need mechanisms to maintain and renew your incoming liquidity.
+The major challenge for the merchant also comes from the natural evolution of channels. If all you do is receive, your channels will gradually fill up on your side. So you need mechanisms to maintain and renew your inbound liquidity.
 
 
 There is, however, a simpler case: the mixed consumer/merchant profile. If you collect on Lightning, but also spend on Lightning (business expenses, payments to suppliers, or even personal expenses), then your outgoing payments naturally recreate inbound. Management becomes smoother, as the flows offset each other, and you have less need to resort to artificial mechanisms designed solely to regain inbound liquidity.
@@ -1104,7 +1102,7 @@ ThunderHub is relatively easy to learn. All menus are accessible from the left-h
 - rebalance": a tool for rebalancing channels via circular payments;
 - transactions: history of Lightning payments sent and received;
 - forwards`: routing statistics and costs generated by your node;
-- `Chain`: Bitcoin onchain portfolio (UTXOs and transactions);
+- `Chain`: Bitcoin onchain wallet (UTXOs and transactions);
 - gW-201 integration for monitoring and backup;
 - `Tools`: advanced tools (backups, reports, macaroons, signatures, etc.);
 - swap: Lightning/onchain swaps via Boltz;
@@ -1157,30 +1155,30 @@ Finally, to open a new channel, go to the `Home` menu and click on `Open a Chann
 These are the main actions you'll need to perform on ThunderHub. We'll discover other features as we go along in this LNP202 course.
 
 
-## Obtaining incoming liquidity
+## Obtaining inbound liquidity
 
 <chapterId>b740c656-a897-4d95-af4b-116b718447cd</chapterId>
 
 
-As you can see, having outgoing liquidity to make payments on Lightning is not particularly complex. Simply open channels on your own initiative to other nodes and start sending sats. On the other hand, having incoming liquidity to receive payments on Lightning is more complicated, since you either need other nodes to open channels to you, or you need to move the liquidity yourself by making payments.
+As you can see, having outbound liquidity to make payments on Lightning is not particularly complex. Simply open channels on your own initiative to other nodes and start sending sats. On the other hand, having inbound liquidity to receive payments on Lightning is more complicated, since you either need other nodes to open channels to you, or you need to move the liquidity yourself by making payments.
 
 
-If you adopt a "consumer" profile, there's generally no need to worry about incoming liquidity. Your use of the Lightning node will be predominantly payment-oriented, rather than cash-in. By simply making a few Lightning payments, you'll naturally create incoming liquidity over time.
+If you adopt a "consumer" profile, there's generally no need to worry about inbound liquidity. Your use of the Lightning node will be predominantly payment-oriented, rather than cash-in. By simply making a few Lightning payments, you'll naturally create inbound liquidity over time.
 
 
-On the other hand, if you have a "merchant" profile, the situation is reversed: you will mainly be collecting payments and making few of them. So you can't rely solely on your own payments for incoming liquidity. It therefore becomes necessary for other Lightning nodes to open channels to yours. But how can this be achieved? How do you get other operators to tie up capital for you? That's precisely what we'll explore in this chapter.
+On the other hand, if you have a "merchant" profile, the situation is reversed: you will mainly be collecting payments and making few of them. So you can't rely solely on your own payments for inbound liquidity. It therefore becomes necessary for other Lightning nodes to open channels to yours. But how can this be achieved? How do you get other operators to tie up capital for you? That's precisely what we'll explore in this chapter.
 
 
 ### Buying inbound liquidity
 
 
-As you'd expect, the most effective way of getting someone to act is to pay them. For incoming liquidity to your Lightning node, the principle is exactly the same. The simplest way to get channels to your node is to pay for the service and the capital tie-up involved.
+As you'd expect, the most effective way of getting someone to act is to pay them. For inbound liquidity to your Lightning node, the principle is exactly the same. The simplest way to get channels to your node is to pay for the service and the capital tie-up involved.
 
 
 If you're a business or retailer, this approach means you can quickly obtain reliable channels to collect payments from your customers without friction.
 
 
-There are many ways to buy inbound liquidity. The one I personally use and recommend is Amboss's [Magma](https://magma.amboss.tech/) platform. It's very easy to use, opening a channel is quick and rates are generally reasonable. Magma works like a marketplace with makers and takers, but version 2 has greatly simplified the experience: simply create a request, pay the price via Lightning, and Magma automatically matches it with the best available offer. After six onchain confirmations, your channel with incoming liquidity is up and running. Here's how it works:
+There are many ways to buy inbound liquidity. The one I personally use and recommend is Amboss's [Magma](https://magma.amboss.tech/) platform. It's very easy to use, opening a channel is quick and rates are generally reasonable. Magma works like a marketplace with makers and takers, but version 2 has greatly simplified the experience: simply create a request, pay the price via Lightning, and Magma automatically matches it with the best available offer. After six onchain confirmations, your channel with inbound liquidity is up and running. Here's how it works:
 
 
 Go to [the Magma website](https://magma.amboss.tech/buy), in the `Buy Channels` section.
@@ -1192,7 +1190,7 @@ Go to [the Magma website](https://magma.amboss.tech/buy), in the `Buy Channels` 
 If you wish, you can create an account to track your purchases, but this is not obligatory. If you do not create an account, Magma will simply provide you with a session ID, which will enable you to retrieve your purchases at a later date.
 
 
-Once on the site, fill in the information required to purchase liquidity. Select `One Time` for a one-off purchase, then enter the amount you're willing to pay for incoming liquidity. The higher the amount paid, the greater the capacity of the channel opened to your node. An estimate of the channel's capacity appears below: this is an approximation, as the final amount will depend on the best offer found by Magma, which is sometimes higher, sometimes lower.
+Once on the site, fill in the information required to purchase liquidity. Select `One Time` for a one-off purchase, then enter the amount you're willing to pay for inbound liquidity. The higher the amount paid, the greater the capacity of the channel opened to your node. An estimate of the channel's capacity appears below: this is an approximation, as the final amount will depend on the best offer found by Magma, which is sometimes higher, sometimes lower.
 
 
 ![Image](assets/fr/053.webp)
@@ -1228,7 +1226,7 @@ Once payment has been made, the transaction appears as being processed in the Ma
 ![Image](assets/fr/058.webp)
 
 
-After a few minutes, the request is processed: a channel with sats is being opened to your Lightning node. Once the opening transaction has been confirmed onchain, you'll have access to the corresponding incoming liquidity.
+After a few minutes, the request is processed: a channel with sats is being opened to your Lightning node. Once the opening transaction has been confirmed onchain, you'll have access to the corresponding inbound liquidity.
 
 
 ![Image](assets/fr/059.webp)
@@ -1240,13 +1238,13 @@ Magma is also integrated directly into ThunderHub. In the `Home` tab, scroll dow
 ![Image](assets/fr/060.webp)
 
 
-If you're a merchant, this type of service is particularly suitable, as it enables you to quickly obtain a large amount of incoming liquidity from reliable nodes, guaranteeing that your customers will be able to pay you without difficulty. On the other hand, if you're a private individual, or if you don't wish to pay for incoming liquidity, there are also free solutions. Let's take a look.
+If you're a merchant, this type of service is particularly suitable, as it enables you to quickly obtain a large amount of inbound liquidity from reliable nodes, guaranteeing that your customers will be able to pay you without difficulty. On the other hand, if you're a private individual, or if you don't wish to pay for inbound liquidity, there are also free solutions. Let's take a look.
 
 
 ### Cooperative inbound liquidity
 
 
-If you're not a trader, but still need some incoming liquidity (for example, to prime your node at start-up, while you wait for some payments to be made) you don't necessarily have to pay for it. One of my preferred solutions is to cooperate with other node operators who also need inbound liquidity, to open Lightning channels for each other. In this way, opening a channel brings you outgoing liquidity, while at the same time providing you with incoming liquidity, free of charge (modulo onchain fees for opening).
+If you're not a trader, but still need some inbound liquidity (for example, to prime your node at start-up, while you wait for some payments to be made) you don't necessarily have to pay for it. One of my preferred solutions is to cooperate with other node operators who also need inbound liquidity, to open Lightning channels for each other. In this way, opening a channel brings you outbound liquidity, while at the same time providing you with inbound liquidity, free of charge (modulo onchain fees for opening).
 
 
 You can, of course, arrange this directly with fellow bitcoiners. However, there is a platform dedicated to this type of circular opening: [Lightning Network +](https://lightningnetwork.plus/). The principle is not to open two channels between the same people, but to set up circular openings involving a minimum of three participants, or even more.
@@ -1263,13 +1261,13 @@ Let's take an example to understand how Lightning Network + works:
 - Node `C` opens a channel to node `A`.
 
 
-At the end of the operation, each node has 1 million sats of outgoing liquidity and 1 million sats of incoming liquidity. This scheme can be extended to four or five participants.
+At the end of the operation, each node has 1 million sats of outbound liquidity and 1 million sats of inbound liquidity. This scheme can be extended to four or five participants.
 
 
-Of course, there is no technical mechanism to guarantee that a participant will actually open the channel they have committed to creating. That's why the platform has set up a reputation system, based on positive reviews when operators meet their commitments. And in the worst-case scenario, if you come across someone who doesn't cooperate, you won't have lost any money: you'll simply have missed an opportunity for incoming liquidity.
+Of course, there is no technical mechanism to guarantee that a participant will actually open the channel they have committed to creating. That's why the platform has set up a reputation system, based on positive reviews when operators meet their commitments. And in the worst-case scenario, if you come across someone who doesn't cooperate, you won't have lost any money: you'll simply have missed an opportunity for inbound liquidity.
 
 
-This solution is particularly suited to a "consumer" profile, as it allows you to obtain incoming liquidity free of charge, while connecting your node to other small operators. On the other hand, if you're a trader, this approach is generally not relevant: every sat of incoming liquidity requires blocking a sat of outgoing liquidity, and your large needs for incoming liquidity would then involve tying up too much capital.
+This solution is particularly suited to a "consumer" profile, as it allows you to obtain inbound liquidity free of charge, while connecting your node to other small operators. On the other hand, if you're a trader, this approach is generally not relevant: every sat of inbound liquidity requires blocking a sat of outbound liquidity, and your large needs for inbound liquidity would then involve tying up too much capital.
 
 
 To use Lightning Network +, you have two options: either use the application integrated into Umbrel, or use the classic website and create an account by logging in from your node. I recommend the latter, as the integrated application doesn't offer the full range of available functions.
@@ -1393,17 +1391,17 @@ Some participants may wish to rebalance the circular channels from the outset, b
 
 
 
-# Unleashing the potential of your Lightning node
+# Unlocking your Lightning node’s full potential
 
 <partId>8dcc24b1-6eb9-4a5f-a56b-8a823e5ac0fd</partId>
 
 
-## Connect a mobile wallet via Tailscale
+## Connecting a mobile wallet via Tailscale
 
 <chapterId>5fefb222-3f50-4f9d-a170-2ea628be4437</chapterId>
 
 
-That's it, you now have a well-connected Lightning node, with both incoming and outgoing liquidity. So you're all set to use your Lightning node in real life. Up to now, we've always used interfaces directly on Umbrel, either the `Lightning Node` application or the `ThunderHub` interface. These tools work for sending and receiving payments, but are clearly not optimized for everyday Lightning payments. The interface is designed for use on a computer, impractical on a smartphone, and also requires a connection to the same network to function properly (although it is technically possible to connect remotely via Tor).
+That's it, you now have a well-connected Lightning node, with both inbound and outbound liquidity. So you're all set to use your Lightning node in real life. Up to now, we've always used interfaces directly on Umbrel, either the `Lightning Node` application or the `ThunderHub` interface. These tools work for sending and receiving payments, but are clearly not optimized for everyday Lightning payments. The interface is designed for use on a computer, impractical on a smartphone, and also requires a connection to the same network to function properly (although it is technically possible to connect remotely via Tor).
 
 
 In practice, what we're looking for as bitcoiners is a classic Lightning wallet interface on a smartphone: the ability to scan invoices via QR code, and a simple interface for paying and cashing out sats. This is precisely what we'll be implementing in this chapter and the next. The general idea is to have a mobile Lightning wallet application on your smartphone, which can be used from anywhere (not just your local network) but which, in the background, relies on your own Lightning node to send and receive payments.
@@ -1527,7 +1525,7 @@ https://planb.academy/tutorials/computer-security/communication/tailscale-9acbd7
 In the next chapter, we'll look at another, equally effective way of connecting a mobile client to your Lightning node: Nostr Wallet Connect. We'll be using a different application from Zeus (although Zeus is also compatible with NWC), namely Alby Go.
 
 
-## Connect a mobile wallet via NWC
+## Connecting a mobile wallet via NWC
 
 <chapterId>f5c97e43-e66e-4ba3-bcc9-fee1a04fc7f4</chapterId>
 
@@ -1647,7 +1645,7 @@ If I go to the basic interface of my Lightning node on Umbrel, I can see that th
 Now you know how to easily use your Lightning node from anywhere.
 
 
-## Long-lasting autonomy on Lightning
+## Sustaining your Lightning self-sovereignty
 
 <chapterId>691a0942-b46d-482a-8fbc-fe19b3814992</chapterId>
 
@@ -1680,7 +1678,7 @@ https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
 But before moving on, you can write a review of this LNP202 course and, of course, take the diploma to confirm that you've understood all of its content.
 
 
-# Final part
+# Final Section
 
 <partId>683c998f-ba0a-4ffb-a7e8-4cd8369cb9b3</partId>
 
@@ -1692,7 +1690,7 @@ But before moving on, you can write a review of this LNP202 course and, of cours
 
 <isCourseReview>true</isCourseReview>
 
-## Final examination
+## Final Exam
 
 <chapterId>3951ccbb-14a3-4322-b81b-8dd2a6da19cb</chapterId>
 

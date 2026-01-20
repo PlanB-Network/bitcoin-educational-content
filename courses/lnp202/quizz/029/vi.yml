@@ -1,0 +1,9 @@
+question: Mục tiêu chính của việc xây dựng tháp canh là ngăn ngừa rủi ro gì?
+answer: Gian lận với trạng thái cũ
+wrong_answers:
+  - Tấn công 51%
+  - trộm hạt giống
+  - Gian lận với trạng thái mới
+explanation: |
+  Tháp canh bảo vệ chống lại việc công bố một kênh thông tin cũ của nhà nước nhằm mục đích biển thủ quỹ.
+reviewed: false

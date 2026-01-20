@@ -1,0 +1,9 @@
+question: Vilken kanalstängning är bäst för Lightning?
+answer: Stängning av kooperativ
+wrong_answers:
+  - Tvångsnedläggning
+  - Avslutning med fusk
+  - Watchtower stängning
+explanation: |
+  Kooperativ stängning är snabbare och låter dig välja avgifter på kedjan.
+reviewed: false

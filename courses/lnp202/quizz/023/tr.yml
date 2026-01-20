@@ -1,0 +1,9 @@
+question: LND'e özgü seed formatının adı nedir?
+answer: aezeed
+wrong_answers:
+  - BIP39
+  - lnseed
+  - BIP32
+explanation: |
+  LND, klasik BIP39 seed'ten farklı olarak aezeed adı verilen özel bir seed kullanır.
+reviewed: false

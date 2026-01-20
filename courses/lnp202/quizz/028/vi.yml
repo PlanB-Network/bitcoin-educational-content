@@ -1,0 +1,9 @@
+question: Vai trò của Tháp Canh là gì khi phát hiện hành vi gian lận?
+answer: Công bố giao dịch phạt
+wrong_answers:
+  - Đóng kênh một cách hợp tác
+  - Đóng băng quỹ
+  - Báo cáo cho đồng nghiệp về Bitcoin Core
+explanation: |
+  Tháp canh tự động phát sóng giao dịch phạt thay mặt người dùng.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Lightning 节点的高级设置中可以自定义哪些内容？
+answer: 节点的公共名称
+wrong_answers:
+  - 节点共识规则
+  - 节点的私人密钥
+  - 节点选择的路由
+explanation: |
+  高级设置可让您自定义节点标识元素，而不会影响共识或 "闪电 "网络的运行。
+reviewed: false

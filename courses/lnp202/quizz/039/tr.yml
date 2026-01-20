@@ -1,0 +1,9 @@
+question: Bir Lightning düğümünün giden likiditesi nedir?
+answer: Ödeme gücü
+wrong_answers:
+  - Bağlantı kurma yeteneği
+  - Alım kapasitesi
+  - Kanalları kapatabilme
+explanation: |
+  Giden likidite, operatör tarafında ödeme yapmak için mevcut olan sats'ı temsil eder.
+reviewed: false

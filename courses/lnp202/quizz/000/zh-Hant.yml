@@ -1,0 +1,9 @@
+question: Lightning 通道的容量是多少？
+answer: 鎖定的總金額
+wrong_answers:
+  - 單向可用流動資金總額
+  - 最高費用
+  - 可能支付的最大筆數
+explanation: |
+  容量對應於通道的多重位元輸出中被攔截的 sats 總和。
+reviewed: false

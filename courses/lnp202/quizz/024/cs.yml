@@ -1,0 +1,9 @@
+question: Proč je zálohování uzlu Lightning složitější než zálohování uzlu Bitcoin v řetězci wallet?
+answer: Stav kanálů se vyvíjí
+wrong_answers:
+  - Likvidita kanálu závisí na mempoolu
+  - Nahrávání drbů v síti Lightning
+  - Platnost klíčů pro odvolání v průběhu času vyprší
+explanation: |
+  Bleskové kanály mění stav s každou platbou, takže jednoduché pevné nebo pravidelné zálohování je nebezpečné.
+reviewed: false

@@ -1,9 +1,12 @@
-question: Na šta se konkretno odnosi privatnost blockchaina u kontekstu Bitcoin?
+question: Na šta se konkretno odnosi privatnost blockchaina u kontekstu Bitcoina?
 answer: Informacije koje otkrivate transakcijama na blockchainu
 wrong_answers:
-  - Šifrovanje privatnih ključeva sačuvanih u vašem wallet
-  - Zaštita vaše internet konekcije prilikom korišćenja Bitcoin
-  - Anonimnost koju pruža korišćenje više wallet adresa
+  - Šifrovanje privatnih ključeva sačuvanih u vašem novčaniku
+  - Zaštita vaše internet konekcije prilikom korišćenja Bitcoina
+  - Anonimnost koju pruža korišćenje više adresa novčanika
 explanation: |
-  Blockchain privatnost se odnosi specifično na informacije koje otkrivate transakcijama na blockchain-u, što se primenjuje na sve transakcije koje šaljete i primate. Ovo je različito od wallet enkripcije (koja štiti sačuvane ključeve), sigurnosti internet konekcije (što je off-chain privatnost), ili pogrešnog shvatanja da više adresa pruža anonimnost. Curenje privatnosti na lancu dešava se kroz ponovnu upotrebu adresa i klasterizaciju, gde transakcije mogu biti povezane kako bi se otkrili obrasci o finansijskim aktivnostima korisnika.
-reviewed: false
+  Blockchain privatnost se odnosi specifično na informacije koje otkrivate transakcijama na blockchain-u, što se primenjuje na sve transakcije koje šaljete 
+  i primate. Ovo je različito od enkripcije novčanika (koja štiti sačuvane ključeve), sigurnosti internet konekcije (što je off-chain privatnost), ili pogrešnog shvatanja 
+  da više adresa pruža anonimnost. Curenje privatnosti na lancu dešava se kroz ponovnu upotrebu adresa i klasterizaciju, gde transakcije mogu biti povezane kako bi se otkrili
+  obrasci o finansijskim aktivnostima korisnika.
+reviewed: true

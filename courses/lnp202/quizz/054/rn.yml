@@ -1,0 +1,9 @@
+question: Ni ubuhe buryo bwo guhuza bwavuzwe hagati y’uruzitiro rwa Lightning n’umukiriya w’itelefone ngendanwa butabereye gukoreshwa muri iyo nzira?
+answer: Tor
+wrong_answers:
+  - Tailscale
+  - Nostr Wallet Guhuza
+  - None
+explanation: |
+  Tor ikora nabi cane mu bikorwa kubera iyo ntumbero, n'ukunanirwa n'uguteba gukora kubera ubumenyi bubi bw'abakoresha.
+reviewed: false

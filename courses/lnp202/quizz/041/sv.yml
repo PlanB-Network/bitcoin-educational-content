@@ -1,0 +1,9 @@
+question: Var installerar jag ThunderHub på Umbrel?
+answer: App Store
+wrong_answers:
+  - SSH-konsol
+  - Systeminställningar
+  - Interface Bitcoin Kärnan
+explanation: |
+  ThunderHub installeras som en applikation via Umbrel App Store.
+reviewed: false

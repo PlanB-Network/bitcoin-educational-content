@@ -1,0 +1,9 @@
+question: Op welk protocol is Tailscale gebaseerd?
+answer: WireGuard
+wrong_answers:
+  - OpenVPN
+  - IPsec IKEv2
+  - PPTP
+explanation: |
+  Tailscale is een VPN-oplossing gebaseerd op WireGuard.
+reviewed: false

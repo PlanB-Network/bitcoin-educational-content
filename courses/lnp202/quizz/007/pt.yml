@@ -1,0 +1,9 @@
+question: Que propriedade fundamental do Bitcoin se perde na custódia?
+answer: Soberania monetária
+wrong_answers:
+  - Escalabilidade monetária
+  - Pagamento rápido
+  - Interoperabilidade monetária
+explanation: |
+  Sem o controlo das chaves, o utilizador renuncia à soberania monetária, o pilar central do Bitcoin.
+reviewed: false

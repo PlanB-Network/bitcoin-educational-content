@@ -1,0 +1,9 @@
+question: Ni kuki gusubizaho channel.db ya kera ari akaga?
+answer: Igihano
+wrong_answers:
+  - Gutakaza seed
+  - Igiturire c'urusaku
+  - Guhagarika inzira
+explanation: |
+  Leta yacitse igihe ishobora gusobanurwamwo ukugerageza guhenda no gutuma amahera y’imirongo abura.
+reviewed: false

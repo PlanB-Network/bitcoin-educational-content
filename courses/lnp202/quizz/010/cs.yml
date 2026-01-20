@@ -1,0 +1,9 @@
+question: Jaká kritéria rozhodují o výběru řešení Lightning?
+answer: Frekvence používání a ochota řídit
+wrong_answers:
+  - Vyměňované částky a rychlost protokolu
+  - Geolokace a vzdělávání
+  - Tolerance rizika a návrh softwaru
+explanation: |
+  Výběr závisí především na tom, jak často Lightning používáte a jak moc vám vyhovuje technická správa.
+reviewed: false

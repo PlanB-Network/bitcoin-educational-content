@@ -1,0 +1,9 @@
+question: Cơ chế nào ngăn cản việc giải phóng trạng thái kênh Lightning cũ?
+answer: Khóa thu hồi
+wrong_answers:
+  - Phí giao dịch
+  - Khóa thời gian tuyệt đối
+  - Tin đồn trên mạng
+explanation: |
+  Khóa thu hồi được sử dụng để xử phạt một nút cố gắng công bố trạng thái kênh cũ.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Dlaczego profil konsumenta jest łatwy w zarządzaniu?
+answer: Niewielkie zapotrzebowanie na płynność
+wrong_answers:
+  - Nie jest wymagany żaden kanał
+  - Niewielkie zapotrzebowanie na płynność wychodzącą
+  - Brak konieczności tworzenia kopii zapasowych
+explanation: |
+  Konsumenci nie potrzebują dużej płynności przychodzącej, a płatności wychodzące naturalnie tworzą pewną płynność przychodzącą bez skomplikowanej strategii.
+reviewed: false

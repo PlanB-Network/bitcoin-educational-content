@@ -1,0 +1,9 @@
+question: Vad är vakttornets roll när det upptäcker ett fuskförsök?
+answer: Publicera strafftransaktionen
+wrong_answers:
+  - Stäng kanalen i samarbete
+  - Frys medel
+  - Rapportera peer till Bitcoin Core
+explanation: |
+  Vakttornet sänder automatiskt strafftransaktionen på uppdrag av användaren.
+reviewed: false

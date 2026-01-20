@@ -1,0 +1,9 @@
+question: Wie hoch ist das finanzielle Risiko bei einem verwahrten Blitz-wallet?
+answer: Fractional reserve
+wrong_answers:
+  - Willkürliche Erhöhung der mining-Gebühren
+  - 51% Angriff
+  - Endgültige Beendigung des Bärenmarktes
+explanation: |
+  Der Nutzer kann nicht überprüfen, ob die angezeigten Guthaben tatsächlich den gehaltenen Bitcoins entsprechen. Es besteht daher das Risiko einer Bruchteilsreserve.
+reviewed: false

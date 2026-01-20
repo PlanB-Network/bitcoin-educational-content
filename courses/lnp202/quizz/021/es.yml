@@ -1,0 +1,9 @@
+question: ¿Qué archivo contiene el estado detallado del canal de LND?
+answer: canal.db
+wrong_answers:
+  - wallet.db
+  - relámpago.db
+  - pares.db
+explanation: |
+  El archivo channel.db almacena estados de canal, peers y commitment transactions.
+reviewed: false

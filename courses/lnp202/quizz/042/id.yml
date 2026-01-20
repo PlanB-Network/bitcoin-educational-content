@@ -1,0 +1,9 @@
+question: Apa kerugian utama dari penutupan paksa?
+answer: Dana diblokir oleh timelock
+wrong_answers:
+  - Kehilangan sebagian dana
+  - Keusangan simpul Petir
+  - Desinkronisasi simpul petir
+explanation: |
+  Dana diblokir oleh pemblokiran waktu dan biaya sering kali tinggi.
+reviewed: false

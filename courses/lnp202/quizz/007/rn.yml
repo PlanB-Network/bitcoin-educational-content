@@ -1,0 +1,9 @@
+question: Ni uwuhe mutungo w’ishimikiro wa Bitcoin utakara mu gucungera?
+answer: Ubusegaba bw'amahera
+wrong_answers:
+  - Ubushobozi bwo gupima amafaranga
+  - Kwishura vyihuta
+  - Gukorana kw'amahera
+explanation: |
+  Ata kugenzura urufunguzo, uwukoresha araheba ubusegaba bw’amahera, inkingi nyamukuru ya Bitcoin.
+reviewed: false

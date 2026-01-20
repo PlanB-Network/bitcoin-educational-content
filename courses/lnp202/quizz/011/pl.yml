@@ -1,0 +1,9 @@
+question: Które rozwiązanie oferuje największą suwerenność użytkownikom Lightning?
+answer: Klasyczny węzeł Lightning
+wrong_answers:
+  - Wallet z zamianą atomową
+  - Wbudowany węzeł LN
+  - Custodial Lightning wallet
+explanation: |
+  Klasyczny węzeł zapewnia całkowitą kontrolę nad kanałami, płynnością i zasadami opłat. Jest to jedyny węzeł, który pozwala być naprawdę niezależnym.
+reviewed: false

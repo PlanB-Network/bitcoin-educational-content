@@ -1,0 +1,9 @@
+question: Jakie warunki sprawiają, że kara Lightning jest skuteczna?
+answer: Wykrywanie przed końcem blokady czasowej
+wrong_answers:
+  - Wykrywanie przed rozpoczęciem blokady czasowej
+  - Przedpremierowe wykrywanie oszustw TX
+  - Wykrywanie po zakończeniu blokady czasowej
+explanation: |
+  Transakcja sprawiedliwości musi zostać zwolniona przed wygaśnięciem blokady czasowej, aby usankcjonować oszustwo. Nie można jej zwolnić przed rozpoczęciem blokady czasowej lub opublikowaniem TX, ponieważ oznaczałoby to, że oszustwo po prostu nie miało miejsca.
+reviewed: false

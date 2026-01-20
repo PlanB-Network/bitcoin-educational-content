@@ -1,0 +1,9 @@
+question: Dalam aliran NWC, kapan enkripsi dilakukan di sisi aplikasi?
+answer: Sebelum publikasi pada relai
+wrong_answers:
+  - Setelah membaca simpul
+  - Setelah publikasi pada relai
+  - Tidak pernah
+explanation: |
+  Aplikasi ini menserialisasi permintaan, mengenkripsinya, lalu menerbitkannya sebagai peristiwa pada relai Nostr.
+reviewed: false

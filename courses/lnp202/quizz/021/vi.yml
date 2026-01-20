@@ -1,0 +1,9 @@
+question: Tệp nào chứa trạng thái kênh chi tiết của LND?
+answer: kênh.db
+wrong_answers:
+  - wallet.db
+  - lightning.db
+  - peers.db
+explanation: |
+  Tệp channel.db lưu trữ trạng thái kênh, các thiết bị ngang hàng và commitment transaction.
+reviewed: false

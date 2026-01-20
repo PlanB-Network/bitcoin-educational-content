@@ -1,0 +1,9 @@
+question: Varför är LN+ olämpligt för handlare?
+answer: Betydande kapitalinvesteringar
+wrong_answers:
+  - Bristande tillförlitlighet hos de inblandade noderna
+  - Inget ryktessystem
+  - Kanalerna är för små
+explanation: |
+  Varje inkommande sat som erhålls kräver att en utgående sat blockeras, vilket begränsar skalbarheten för ett företag.
+reviewed: false

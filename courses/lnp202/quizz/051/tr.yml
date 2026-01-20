@@ -1,0 +1,9 @@
+question: Bu bölümde açıklanan LND (REST) bağlantısı için Zeus'ta hangi bağlantı noktası ayarlanmalıdır?
+answer: 8080
+wrong_answers:
+  - 8333
+  - 8332
+  - 50001
+explanation: |
+  Umbrel üzerindeki LND düğümünüzden API'ye erişmek için Zeus'u yapılandırırken 8080 numaralı bağlantı noktasını kullanmanız gerekir.
+reviewed: false

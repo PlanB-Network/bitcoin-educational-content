@@ -1,0 +1,9 @@
+question: Was ist der Hauptzweck der Konfiguration LND + Tailscale + Zeus?
+answer: Verwendung eines mobilen wallet an Ihrem Lightning-Knoten
+wrong_answers:
+  - Verwendung eines verwahrten wallet ohne Lightning-Knoten
+  - Multiplexing mehrerer LND-Knoten
+  - Mining sats mit Umbrel
+explanation: |
+  Ziel ist es, eine mobile Lightning-wallet-Anwendung zu verwenden, die im Hintergrund auf Ihrem eigenen Knoten läuft.
+reviewed: false

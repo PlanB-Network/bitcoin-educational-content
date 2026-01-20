@@ -1,0 +1,9 @@
+question: Jaký je hlavní kompromis s palubními uzly LN?
+answer: Závislost operátora
+wrong_answers:
+  - Ztráta soukromých klíčů
+  - Žádné vlastní opatrovnictví
+  - Povinné platby Onchain pro všechny transakce Lightning
+explanation: |
+  Uživatel je z hlediska konektivity a správy kanálů do značné míry závislý na hlavním operátorovi.
+reviewed: false

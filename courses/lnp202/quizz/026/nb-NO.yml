@@ -1,0 +1,9 @@
+question: Hva kan et vakttårn i normal drift utlede om kanalen det beskytter?
+answer: Hvor ofte statusen oppdateres
+wrong_answers:
+  - Liquidity-tildeling
+  - Dens kapasitet
+  - Retningslinjer for utgifter
+explanation: |
+  Den mottar krypterte pakker for hver nye tilstand, og avslører bare den normale aktivitetsfrekvensen.
+reviewed: false

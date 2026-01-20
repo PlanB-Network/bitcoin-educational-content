@@ -1,0 +1,9 @@
+question: Jaká je odchozí likvidita uzlu Lightning?
+answer: Schopnost platit
+wrong_answers:
+  - Možnost připojení
+  - Schopnost přijímat
+  - Možnost uzavřít kanály
+explanation: |
+  Odchozí likvidita představuje sats, které jsou na straně provozovatele k dispozici pro provádění plateb.
+reviewed: false

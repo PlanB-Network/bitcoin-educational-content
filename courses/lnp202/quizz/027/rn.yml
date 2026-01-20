@@ -1,0 +1,9 @@
+question: Ni amakuru ayahe watchtower ironka kugira ngo ikurikirane ubusuma?
+answer: Igice ca TXID c'ugucuruza ubuhendanyi
+wrong_answers:
+  - Urufunguzo rw'umurongo wihariye
+  - Uburyo bwose bw'umurongo
+  - TXID y'ugucuruza ubuhendanyi
+explanation: |
+  Umunara w’abarinzi uronka gusa igice ca TXID c’isoko ry’ubuhendanyi kugira ngo umenye isoko ry’ubuhendanyi riteye amakenga atazi umurongo.
+reviewed: false

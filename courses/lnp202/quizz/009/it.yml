@@ -1,0 +1,9 @@
+question: Che potere ha un operatore custodial sui pagamenti dei suoi utenti?
+answer: Il potere della censura
+wrong_answers:
+  - Potenza Mining
+  - Il potere del consenso
+  - Potenza Halving
+explanation: |
+  Un operatore che controlla fondi e canali può bloccare, ritardare o filtrare i pagamenti.
+reviewed: false

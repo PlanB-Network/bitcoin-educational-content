@@ -1,0 +1,9 @@
+question: Jakou moc má provozovatel úschovy nad platbami svých uživatelů?
+answer: Moc cenzury
+wrong_answers:
+  - Výkon Mining
+  - Síla konsensu
+  - Výkon Halving
+explanation: |
+  Provozovatel, který kontroluje finanční prostředky a kanály, může platby blokovat, odkládat nebo filtrovat.
+reviewed: false

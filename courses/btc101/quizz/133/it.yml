@@ -1,9 +1,9 @@
 question: Qual è l'attuale dimensione della blockchain di Bitcoin?
-answer: Circa 700GB.
+answer: Circa 660GB
 wrong_answers:
-  - Circa 100GB.
-  - Circa 1TB.
-  - Circa 2TB.
+  - Circa 110GB
+  - Circa 1TB
+  - Circa 2TB
 explanation: |
-  La blockchain di Bitcoin è di circa 700GB nel 2023.
-reviewed: vero
+  La blockchain di Bitcoin è di circa 660GB nel 2025.
+reviewed: true

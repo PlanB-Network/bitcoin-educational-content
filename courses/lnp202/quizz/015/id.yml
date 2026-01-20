@@ -1,0 +1,9 @@
+question: Apa saja yang dapat disesuaikan dalam pengaturan lanjutan Lightning node?
+answer: Nama publik simpul
+wrong_answers:
+  - Aturan konsensus simpul
+  - Kunci pribadi simpul
+  - Rute yang dipilih oleh node
+explanation: |
+  Pengaturan lanjutan memungkinkan Anda menyesuaikan elemen identifikasi simpul, tanpa memengaruhi konsensus atau operasi jaringan Lightning.
+reviewed: false

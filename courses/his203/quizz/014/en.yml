@@ -5,5 +5,7 @@ wrong_answers:
   - BTCinch
   - BitMunchies
 explanation: |
- FeedZeBirds was an advertising platform launched on November 23, 2011 by Erik Voorhees and Ira Miller. The FeedZeBirds advertising platform allowed users to pay in bitcoins to showcase content on Twitter by buying retweets. BitMunchies was an online food store created by Ira Miller in May 2011, BTCinch was a payment processor developed in the summer of 2011, and Coinapult was an email remittance service developed later by the two partners.
-reviewed: false
+ FeedZeBirds was an advertising platform launched on November 23, 2011 by Erik Voorhees and Ira Miller. The FeedZeBirds advertising platform allowed users to pay
+ in bitcoins to showcase content on Twitter by buying retweets. BitMunchies was an online food store created by Ira Miller in May 2011, BTCinch was a 
+ payment processor developed in the summer of 2011, and Coinapult was an email remittance service developed later by the two partners.
+reviewed: true

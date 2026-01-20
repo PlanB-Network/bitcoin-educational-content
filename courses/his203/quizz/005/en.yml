@@ -5,5 +5,6 @@ wrong_answers:
   - Heroin
   - Steroids
 explanation: |
- Although the platform was mainly used for illicit drug trafficking, small quantities of cannabis were sold. There were also legal products, such as books, art, electronic components, gold and so on. There were no stolen bank cards, child pornography or hitmen services, as these were prohibited by the site's charter.
-reviewed: false
+ Although the platform was mainly used for illicit drug trafficking, small quantities of cannabis were sold. There were also legal products, such as books, art, 
+ electronic components, gold and so on. There were no stolen bank cards, child pornography or hitmen services, as these were prohibited by the site's charter.
+reviewed: true

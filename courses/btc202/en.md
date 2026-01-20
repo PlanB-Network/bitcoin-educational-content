@@ -213,7 +213,7 @@ A Bitcoin node, as mentioned above, is a piece of software that actively partici
 A Bitcoin wallet, on the other hand, is a piece of software designed to store and manage your private keys. These keys enable you to spend your bitcoins by satisfying the locking scripts (typically through a signature). A wallet can connect to a node (whether local or remote) in order to consult the status of the Blockchain and broadcast the transactions it builds, but it is not, as such, a participant in the network.
 
 
-In some cases, these two functions coexist within the same software, as is the case with Bitcoin Core, which serves as both a full node and a wallet. However, many popular wallet programs (Sparrow, BlueWallet, etc.) require a connection to an external node (whether your own or a third party's) to broadcast transactions and determine the wallet balance.
+In some cases, these two functions coexist within the same software, as is the case with Bitcoin Core, which serves as both a full node and a wallet. However, many popular wallet programs (Sparrow, Bluewallet, etc.) require a connection to an external node (whether your own or a third party's) to broadcast transactions and determine the wallet balance.
 
 
 ![Image](assets/fr/052.webp)
@@ -248,7 +248,7 @@ In the face of this evolution, the roles of the Bitcoin node and the miner have 
 A miner needs a Bitcoin node to interact with the network.
 
 
-Sometimes we also differentiate the role of the miner from that of the hasher. A hasher is a machine whose task is to hash template blocks provided by the server of a pool, searching for hashes that meet the defined difficulty target for shares, rather than that of Bitcoin. The rest of the mining process, which includes the actual construction of blocks, transaction selection, or searching for proof of work according to the specific difficulty of Bitcoin, as well as broadcasting, is performed directly by the pools.
+Sometimes we also differentiate the role of the miner from that of the Grind. A Grind is a machine whose task is to hash template blocks provided by the server of a pool, searching for hashes that meet the defined difficulty target for shares, rather than that of Bitcoin. The rest of the mining process, which includes the actual construction of blocks, transaction selection, or searching for proof of work according to the specific difficulty of Bitcoin, as well as broadcasting, is performed directly by the pools.
 
 
 ![Image](assets/fr/054.webp)
@@ -561,10 +561,10 @@ The pruned node validates everything as a full node, from the Genesis block to t
 The technical implications of this option are fairly straightforward: the pruned node is perfectly capable of broadcasting your transactions, participating in the relay, verifying blocks and transactions, and tracking the chain. On the other hand, it cannot serve as a source of historical data beyond its limits for other applications (e.g., full explorers, indexers, wallets). Functions requiring the archive (or a global index) will therefore not be available.
 
 
-In practical terms, you can use a pruned node to connect wallet management software such as Sparrow wallet. However, you won't be able to scan transactions on your Wallet that predate the pruning limit. For example, if you have a transaction registered in block 901 458, but your node only keeps blocks from 905 402 upwards (because the oldest have been pruned), you won't be able to scan this transaction. On the other hand, if you had already scanned it when your node still had this block height, then your wallet management software will store the information and display the balance of the corresponding UTXOs correctly.
+In practical terms, you can use a pruned node to connect wallet management software such as Sparrow wallet. However, you won't be able to scan transactions on your wallet that predate the pruning limit. For example, if you have a transaction registered in block 901 458, but your node only keeps blocks from 905 402 upwards (because the oldest have been pruned), you won't be able to scan this transaction. On the other hand, if you had already scanned it when your node still had this block height, then your wallet management software will store the information and display the balance of the corresponding UTXOs correctly.
 
 
-In short, Wallet tracking works without a hitch on a pruned node if you create a new wallet while your software is already connected to that node. On the other hand, you may encounter difficulties if you restore an old wallet, as past transactions that are no longer retained by the node will obviously not be retrievable.
+In short, wallet tracking works without a hitch on a pruned node if you create a new wallet while your software is already connected to that node. On the other hand, you may encounter difficulties if you restore an old wallet, as past transactions that are no longer retained by the node will obviously not be retrievable.
 
 
 ### The light node / SPV
@@ -639,7 +639,7 @@ This is the most sovereign and flexible approach: you know exactly what's runnin
 #### Bitcoin Core (dominant client)
 
 
-[Bitcoin Core is the network's ultra-majority client](https://bitcoincore.org/). It downloads, validates, and maintains the Blockchain, provides RPC/REST APIs, and can integrate a wallet. If you prefer standard tools and feel comfortable adding services yourself (such as Electrum server, explorer, and LND), you're better off using Core as is.
+[Bitcoin Core](https://bitcoincore.org/) is the network's ultra-majority client. It downloads, validates, and maintains the Blockchain, provides RPC/REST APIs, and can integrate a wallet. If you prefer standard tools and feel comfortable adding services yourself (such as Electrum server, explorer, and LND), you're better off using Core as is.
 
 
 **Benefits:** Maximum stability, predictable behavior, raw experience, easy to install and configure.
@@ -762,7 +762,7 @@ https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-
 [RoninDojo is a privacy-focused node-in-a-box](https://wiki.ronindojo.io/en/home) that automates the deployment of Samurai Dojo and Whirlpool, with a dedicated Interface and plugins specifically designed for the Samurai ecosystem.
 
 
-The principle is simple: if you use Ashigaru Wallet (the Fork successor to Samurai Wallet, following the arrest of its developers) or if you want to benefit from advanced privacy tools, RoninDojo is for you.
+The principle is simple: if you use Ashigaru wallet (the Fork successor to Samurai wallet, following the arrest of its developers) or if you want to benefit from advanced privacy tools, RoninDojo is for you.
 
 
 ![Image](assets/fr/071.webp)
@@ -1621,7 +1621,7 @@ Adding an address indexer, such as Electrs or Fulcrum, is not mandatory; it depe
 If you simply want to connect a wallet, such as Sparrow, to your node to view balances and broadcast transactions, this is entirely possible directly via Bitcoin Core's Interface RPC, either locally or remotely via Tor.
 
 
-On the other hand, to use more advanced software, such as running a Mempool.Locally, the installation of an address indexer becomes indispensable for the space block explorer.
+On the other hand, to use more advanced software, such as running mempool.space locally, the installation of an address indexer becomes indispensable for the space block explorer.
 
 
 The indexer requires a certain amount of synchronization time (less than the IBD) and will occupy additional disk space. If your SSD still has enough free space after downloading Blockchain, you can easily add an indexer.
@@ -1630,7 +1630,7 @@ The indexer requires a certain amount of synchronization time (less than the IBD
 ### Which indexer to choose?
 
 
-Two software programs are commonly used to build this type of address index and make it accessible: **Electrs** and **Fulcrum**. These tools index the Blockchain according to script-hash (addresses) and then propose a standardized Interface (the Electrum protocol), to which numerous wallets, such as Electrum Wallet, Sparrow, or Phoenix, connect.
+Two software programs are commonly used to build this type of address index and make it accessible: **Electrs** and **Fulcrum**. These tools index the Blockchain according to script-hash (addresses) and then propose a standardized Interface (the Electrum protocol), to which numerous wallets, such as Electrum wallet, Sparrow, or Phoenix, connect.
 
 
 ![Image](assets/fr/087.webp)
@@ -1939,7 +1939,7 @@ With your Umbrel, you can optimize your use of Nostr. By installing the ***Nostr
 Nostr clients ***noStrudel*** or ***Snort*** are also available on Umbrel. Thanks to these applications, you can publish, read, search for profiles, and interact with the Nostr ecosystem directly from the Interface web on your Umbrel.
 
 
-Finally, there is the ***Nostr Wallet Connect*** application on Umbrel, which allows native Lightning payments within Nostr. Specifically, you can link your future Lightning node to your Nostr clients to send micro-payments, called "*zaps*", to reward content or interact in a monetized way, without going through a third-party service. These payments are sent directly from your personal node via your channels.
+Finally, there is the ***Nostr wallet Connect*** application on Umbrel, which allows native Lightning payments within Nostr. Specifically, you can link your future Lightning node to your Nostr clients to send micro-payments, called "*zaps*", to reward content or interact in a monetized way, without going through a third-party service. These payments are sent directly from your personal node via your channels.
 
 
 To find out how to use all these applications, I recommend you take a look at this complete tutorial:
@@ -2035,7 +2035,7 @@ Perform this operation regularly to keep your operating system and applications 
 ### Backups
 
 
-If you only use your Bitcoin node to validate and distribute your transactions, but your wallets are managed outside Umbrel (e.g., with a Hardware Wallet and Sparrow wallet), there's nothing to back up directly to Umbrel. In this case, the essential backup remains that of the recovery phrase and Descriptor of your external wallet, and this applies whether you use your own node or not. So nothing changes from your previous configuration.
+If you only use your Bitcoin node to validate and distribute your transactions, but your wallets are managed outside Umbrel (e.g., with a Hardware wallet and Sparrow wallet), there's nothing to back up directly to Umbrel. In this case, the essential backup remains that of the recovery phrase and Descriptor of your external wallet, and this applies whether you use your own node or not. So nothing changes from your previous configuration.
 
 
 On the other hand, depending on the additional applications you use on Umbrel, further backups may be required. This is particularly the case if you operate a Lightning node on Umbrel. In this case, it is absolutely essential to back up the seed supplied when you installed your Lightning node. In addition to the seed, you need an up-to-date ***Static Channel Backup (SCB)*** to be able to restore your Lightning node in the event of a problem. SCB allows you to recover your funds by forcibly closing channels. If either the seed or the SCB is missing, it is impossible to restore a Lightning node.
@@ -2301,7 +2301,7 @@ Note that the UTXO set is often at the heart of concerns about Bitcoin's decentr
 ![Image](assets/fr/105.webp)
 
 
-The growth of the UTXO set also stems from the structure of simple payment transactions on Bitcoin. Indeed, when you make a payment, you consume a single UTXO as input and create 2 new UTXOs as output (one for the payment and the other for the exchange). Finally, a chain analysis heuristic, called CIOH (*Common Input Ownership Heuristic*), provides a further incentive to avoid coin consolidation.
+The growth of the UTXO set also stems from the structure of simple payment transactions on Bitcoin. Indeed, when you make a payment, you consume a single UTXO as input and create two new UTXOs as output (one for the payment and the other for the change that comes back to the payer). Finally, a chain analysis heuristic, called CIOH (*Common Input Ownership Heuristic*), provides a further incentive to avoid coin consolidation.
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
@@ -2365,7 +2365,7 @@ As we saw in the first parts of this BTC 202 course, Bitcoin Core is both Bitcoi
 
 
 - `wallets/` is the default directory that hosts one or more wallets;
-- `wallets/<name>/Wallet.dat` is the SQLite database of the wallet (keys, descriptors, transaction metadata, etc.);
+- `wallets/<name>/wallet.dat` is the SQLite database of the wallet (keys, descriptors, transaction metadata, etc.);
 - `wallets/<name>/wallet.dat-journal` is the SQLite rollback journal.
 
 
@@ -2633,10 +2633,10 @@ Here are the advanced settings for Mempool and relay policy. If you're a beginne
 As a reminder, all these relay rules have no impact on the validity of transactions included in a valid block. They serve to adjust your contribution to the relay, protect your resources, and make your node predictable in constrained environments, but never allow you to refuse blocks that respect the consensus rules.
 
 
-### Wallets
+### wallets
 
 
-You can also adjust the way your wallets are managed in the `Bitcoin.conf` file. If you're not using Wallet directly in Core, but rather external management software such as Sparrow or Liana, these parameters will be of little importance:
+You can also adjust the way your wallets are managed in the `Bitcoin.conf` file. If you're not using wallet directly in Core, but rather external management software such as Sparrow or Liana, these parameters will be of little importance:
 
 
 
@@ -2644,11 +2644,11 @@ You can also adjust the way your wallets are managed in the `Bitcoin.conf` file.
 
 
 
-- `changetype=<legacy|P2SH-SegWit|bech32|bech32m>`: Force exchange address format (remainder of an input on a single payment).
+- `changetype=<legacy|P2SH-SegWit|bech32|bech32m>`: Force change address format (remainder of an input on a single payment).
 
 
 
-- `Wallet=<path>`: Loads an existing wallet at startup (can be repeated to load multiple wallets).
+- `wallet=<path>`: Loads an existing wallet at startup (can be repeated to load multiple wallets).
 
 
 
@@ -2664,11 +2664,11 @@ You can also adjust the way your wallets are managed in the `Bitcoin.conf` file.
 
 
 
-- `txconfirmtarget=<n>`: Confirmation target for the transaction (in number of blocks, default: `6`). The Wallet will automatically set the fee for the transaction to be confirmed within this number of blocks.
+- `txconfirmtarget=<n>`: Confirmation target for the transaction (in number of blocks, default: `6`). The wallet will automatically set the fee for the transaction to be confirmed within this number of blocks.
 
 
 
-- `paytxfee=<amt>`: Fixed fee rate (BTC/kvB) applied to Wallet transactions. Avoid in general: use adaptive estimation via `txconfirmtarget`.
+- `paytxfee=<amt>`: Fixed fee rate (BTC/kvB) applied to wallet transactions. Avoid in general: use adaptive estimation via `txconfirmtarget`.
 
 
 
@@ -2676,11 +2676,11 @@ You can also adjust the way your wallets are managed in the `Bitcoin.conf` file.
 
 
 
-- `mintxfee=<amt>`: Minimum threshold (BTC/kvB) for Wallet to create transactions (default: `0.00001`). Wallet will refuse to build a transaction below this threshold.
+- `mintxfee=<amt>`: Minimum threshold (BTC/kvB) for wallet to create transactions (default: `0.00001`). Wallet will refuse to build a transaction below this threshold.
 
 
 
-- `maxtxfee=<amt>`: Absolute cap on total fees for a Wallet transaction (default: `0.10` BTC). Protects against abnormally high fees that would unnecessarily destroy bitcoins.
+- `maxtxfee=<amt>`: Absolute cap on total fees for a wallet transaction (default: `0.10` BTC). Protects against abnormally high fees that would unnecessarily destroy bitcoins.
 
 
 
@@ -2688,19 +2688,19 @@ You can also adjust the way your wallets are managed in the `Bitcoin.conf` file.
 
 
 
-- `spendzeroconfchange=1`: Allows an unconfirmed UTXO exchange to be reused as an entry in a new transaction (default: `1`).
+- `spendzeroconfchange=1`: Allows an unconfirmed change UTXO to be reused as an entry in a new transaction (default: `1`).
 
 
 
-- `consolidatefeerate=<amt>`: Maximum rate (BTC/kvB) beyond which Wallet avoids adding more inputs than necessary to consolidate. This allows opportunistic consolidations at low prices and reduces costs when costs are high.
+- `consolidatefeerate=<amt>`: Maximum rate (BTC/kvB) beyond which wallet avoids adding more inputs than necessary to consolidate. This allows consolidations of small UTXO into larger ones at low prices, and reduces costs when costs are high.
 
 
 
-- `maxapsfee=<n>`: Budget for additional charges (BTC, absolute value) that the Wallet agrees to pay to activate the "*avoid partial spends*" option.
+- `maxapsfee=<n>`: Budget for additional charges (BTC, absolute value) that the wallet agrees to pay to activate the "*avoid partial spends*" option.
 
 
 
-- `discardfee=<amt>`: Rate (BTC/kvB) indicating your tolerance to throw away the exchange by adding it to the fee. Outputs that would cost more than a third of their value at this rate are dropped.
+- `discardfee=<amt>`: Rate (BTC/kvB) indicating your tolerance to throw away the change by adding it to the fee. Outputs that would cost more than a third of their value at this rate are dropped.
 
 
 
@@ -2708,7 +2708,7 @@ You can also adjust the way your wallets are managed in the `Bitcoin.conf` file.
 
 
 
-- `disablewallet=1`: Starts Bitcoin Core without the Wallet subsystem and disables associated RPCs. Reduces the attack surface and footprint if the node is only used for validation/release.
+- `disablewallet=1`: Starts Bitcoin Core without the wallet subsystem and disables associated RPCs. Reduces the attack surface and footprint if the node is only used for validation/release.
 
 
 ### Storage, indexing, and performance

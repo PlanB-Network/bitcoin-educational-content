@@ -12,7 +12,7 @@ description: How do I make coinjoins on the Ashigaru application?
 In this tutorial, you'll learn what a coinjoin is and how to make one with the Ashigaru Terminal application and the Whirlpool implementation, a coinjoin protocol inherited from Samourai Wallet.
 
 
-## How Whirlpool coinjoints work
+## How Whirlpool coinjoins work
 
 
 In this tutorial, I won't go back over the notion of a coinjoin, its usefulness or the theoretical operation of Whirlpool, as these topics are already explained in detail in Part 5 of the BTC 204 training course on Plan ₿ Academy. If you haven't yet mastered the operation of Whirlpool or the principle of a coinjoin, I strongly recommend that you consult this part 5 before continuing :

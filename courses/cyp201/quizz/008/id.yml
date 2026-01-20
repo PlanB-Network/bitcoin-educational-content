@@ -6,3 +6,4 @@ wrong_answers:
   - Untuk meningkatkan ukuran hash yang dihasilkan
 explanation: |
   Pra-pemrosesan menyesuaikan panjang pesan dengan menambahkan bit padding dan representasi biner dari panjangnya.
+reviewed: true

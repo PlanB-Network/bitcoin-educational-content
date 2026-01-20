@@ -5,5 +5,6 @@ wrong_answers:
   - A lightning crash, which allowed the pirate to withdraw more bitcoins than he had
   - XML injection in withdrawal requests to siphon off accounts
 explanation: |
- This leak enabled the hacker to access accounts with weak passwords (short or easy to guess). In particular, he accessed Jed McCaleb's account in this way. He sold bitcoins to drive the price down, so as to withdraw a maxium of bitcoins (the daily withdrawal limit was $1,000).
-reviewed: false
+ This leak enabled the hacker to access accounts with weak passwords (short or easy to guess). In particular, he accessed Jed McCaleb's account in this way. He 
+ sold bitcoins to drive the price down, so as to withdraw a maxium of bitcoins (the daily withdrawal limit was $1,000).
+reviewed: true

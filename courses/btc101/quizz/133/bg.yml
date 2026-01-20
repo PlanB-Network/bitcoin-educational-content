@@ -1,9 +1,9 @@
 question: Какъв е настоящият размер на блокчейна Bitcoin?
-answer: Около 500 GB.
+answer: Около 660GB
 wrong_answers:
-  - Около 100 GB.
-  - Около 1 TB.
-  - Около 2 TB.
+  - Около 110GB
+  - Около 1TB
+  - Около 2TB
 explanation: |
-  Към 2023 г. блокчейнът на Bitcoin е с размер около 500 GB.
+  Към 2025 г. блокчейнът на Bitcoin е с размер около 660GB.
 reviewed: true

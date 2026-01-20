@@ -1,7 +1,7 @@
 question: Em que linguagem de programação está escrito o Bitcoin core?
 answer: C++
 wrong_answers:
-  - Ir
+  - Go
   - JavaScript
   - Rust
 explanation: |

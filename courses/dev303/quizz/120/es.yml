@@ -1,7 +1,7 @@
 question: ¿Cuál es el compromiso de privacidad más importante que se introduce al migrar de una implementación LDK autogestionada a la arquitectura basada en la nube del SDK de Breez?
 answer: Greenlight obtiene visibilidad potencial de los destinos de los pagos y de las actividades de generación de facturas gracias al enrutamiento basado en la nube
 wrong_answers:
-  - "Las claves privadas se almacenan en los servidores de Blockstream en lugar de localmente en el dispositivo del usuario"
+  - Las claves privadas se almacenan en los servidores de Blockstream en lugar de localmente en el dispositivo del usuario
   - La información sobre el estado del canal se hace visible públicamente en el gráfico Lightning Network a través de los nodos Greenlight
   - Los servicios LSP pueden ahora supervisar todas las transacciones on-chain y vincularlas a los patrones de pago de Lightning
 explanation: |

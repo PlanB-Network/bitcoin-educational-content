@@ -328,7 +328,7 @@ Miner treba Bitcoin čvor za interakciju sa mrežom.
 
 
 
-Uloga Miner se ponekad razlikuje od one koju ima seckalica. Mašina za mlevenje je uređaj čiji je zadatak da Hash šablonske blokove koje obezbeđuje server bazena, tražeći heševe koji zadovoljavaju cilj težine definisan za deonice, a ne onaj od Bitcoin. Ostatak Mining procesa, koji uključuje stvarnu izgradnju blokova, izbor transakcija ili Proof-of-Work pretragu prema sopstvenoj težini Bitcoin, kao i distribuciju, direktno obavljaju bazeni.
+Uloga Miner se ponekad razlikuje od one koju ima grind. Grind je uređaj čiji je zadatak da Hash šablonske blokove koje obezbeđuje server bazena, tražeći heševe koji zadovoljavaju cilj težine definisan za deonice, a ne onaj od Bitcoin. Ostatak Mining procesa, koji uključuje stvarnu izgradnju blokova, izbor transakcija ili Proof-of-Work pretragu prema sopstvenoj težini Bitcoin, kao i distribuciju, direktno obavljaju bazeni.
 
 
 

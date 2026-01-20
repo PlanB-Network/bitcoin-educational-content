@@ -5,5 +5,7 @@ wrong_answers:
   - Come-From-Beyond
   - Ben Laurie
 explanation: |
- Sunny King was the nom de plume of the project's lead developer. The idea was to implement a hybrid model where certain blocks were validated by proof of conservation (based on the coin age concept), in addition to blocks mined by conventional mining. Sunny King and his collaborators launched PPCoin in August 2012 (later renamed Peercoin). They described their solution as "energy-efficient in the long term".
-reviewed: false
+ Sunny King was the pen name of the project's lead developer. The idea was to implement a hybrid model where certain blocks were validated by proof of conservation
+ (based on the coin age concept), in addition to blocks mined by conventional mining. Sunny King and his collaborators launched PPCoin in August 2012
+ (later renamed Peercoin). They described their solution as "energy-efficient in the long term".
+reviewed: true

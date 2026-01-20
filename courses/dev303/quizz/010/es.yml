@@ -1,8 +1,8 @@
 question: ¿Qué le ocurre a una variable cuando la propiedad se traslada a otra variable en Rust?
-answer: La variable original deja de ser válida y ya no puede utilizarse
+answer: La variable original deja de ser válida y ya no puede utilizarse.
 wrong_answers:
-  - La variable original se convierte en una referencia de sólo lectura a los datos
-  - Ambas variables comparten la propiedad y pueden modificar los datos de forma independiente
-  - La variable original se convierte automáticamente en una referencia mutable
+  - La variable original se convierte en una referencia de solo lectura a los datos.
+  - Ambas variables comparten la propiedad y pueden modificar los datos de forma independiente.
+  - La variable original se convierte automáticamente en una referencia mutable.
 explanation: |
   Cuando se mueve la propiedad en Rust, la variable original queda completamente invalidada y ya no se puede acceder a ella. Esta es una característica de seguridad fundamental que evita que múltiples variables gestionen la misma memoria heap, lo que podría dar lugar a bugs de uso después de libre o errores de doble libre. La operación de mover transfiere el control completo a la nueva variable, y el compilador producirá un error si se intenta utilizar la variable original después del movimiento. Esto difiere de la copia (donde ambas variables siguen siendo válidas) y del préstamo (donde el propietario original conserva la propiedad).

@@ -328,7 +328,7 @@ Miner membutuhkan node Bitcoin untuk berinteraksi dengan jaringan.
 
 
 
-Peran Miner juga terkadang dibedakan dengan peran pencacah. Pencacah adalah sebuah mesin yang bertugas untuk membuat template blok yang disediakan oleh server pool, mencari hash yang memenuhi target tingkat kesulitan yang ditentukan untuk saham, dan bukan untuk Bitcoin. Sisa dari proses Mining, yang meliputi konstruksi blok aktual, pemilihan transaksi, atau pencarian Proof-of-Work sesuai dengan tingkat kesulitan Bitcoin, serta distribusi, dilakukan secara langsung oleh pool.
+Peran Miner juga terkadang dibedakan dengan peran grind. Grind adalah sebuah mesin yang bertugas untuk membuat template blok yang disediakan oleh server pool, mencari hash yang memenuhi target tingkat kesulitan yang ditentukan untuk saham, dan bukan untuk Bitcoin. Sisa dari proses Mining, yang meliputi konstruksi blok aktual, pemilihan transaksi, atau pencarian Proof-of-Work sesuai dengan tingkat kesulitan Bitcoin, serta distribusi, dilakukan secara langsung oleh pool.
 
 
 

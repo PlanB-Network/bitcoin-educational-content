@@ -1,7 +1,7 @@
 question: Bahasa pemrograman apa yang digunakan untuk menulis Bitcoin core?
 answer: C++
 wrong_answers:
-  - Pergi
+  - Go
   - JavaScript
   - Rust
 explanation: |

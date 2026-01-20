@@ -1,5 +1,5 @@
 question: Hvilken kommando henter den lokale IP Address for Umbrel hvis tilgang via umbrel.local mislykkes?
-answer: vertsnavn -I
+answer: hostname -I
 wrong_answers:
   - ifconfig -usb
   - umbrel-ip --show

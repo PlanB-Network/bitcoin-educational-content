@@ -5,5 +5,5 @@ wrong_answers:
   - Aprire la porta RPC in testo normale
   - Password lunga e attivazione SSH
 explanation: |
-  La combinazione di una password forte e dell'autenticazione a due fattori (2FA) protegge efficacemente l'accesso al Interface Umbrel.
+  La combinazione di una password forte e dell'autenticazione a due fattori (2FA) protegge efficacemente l'accesso all'interfaccia Umbrel.
 reviewed: true

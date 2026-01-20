@@ -328,7 +328,7 @@ Miner tarvitsee Bitcoin-solmun ollakseen yhteydessä verkkoon.
 
 
 
-Miner:n rooli on myös toisinaan erotettu kopterin roolista. Hakkuri on kone, jonka tehtävänä on Hash mallilohkojen, jotka poolipalvelin toimittaa, hakeminen etsimällä hasheja, jotka täyttävät osuuksille määritellyn vaikeustavoitteen, ei Bitcoin:n. Loput Mining-prosessista, johon kuuluu varsinainen lohkojen rakentaminen, transaktioiden valinta tai Bitcoin:n oman vaikeusasteen mukainen Proof-of-Work-haku sekä jakelu, suoritetaan suoraan poolien toimesta.
+Miner:n rooli on myös toisinaan erotettu grind roolista. Grind on kone, jonka tehtävänä on Hash mallilohkojen, jotka poolipalvelin toimittaa, hakeminen etsimällä hasheja, jotka täyttävät osuuksille määritellyn vaikeustavoitteen, ei Bitcoin:n. Loput Mining-prosessista, johon kuuluu varsinainen lohkojen rakentaminen, transaktioiden valinta tai Bitcoin:n oman vaikeusasteen mukainen Proof-of-Work-haku sekä jakelu, suoritetaan suoraan poolien toimesta.
 
 
 

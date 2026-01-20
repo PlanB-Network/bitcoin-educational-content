@@ -1,7 +1,7 @@
 question: Quale meccanismo può essere utilizzato per caricare un'istantanea del set UTXO per rendere rapidamente utilizzabile un nodo?
-answer: assumereutxo
+answer: assumeutxo
 wrong_answers:
-  - assumere lo stato di catene
+  - assumechainstate
   - txindex
   - notxindex
 explanation: |

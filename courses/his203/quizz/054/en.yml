@@ -5,5 +5,6 @@ wrong_answers:
   - BIP 70 payment protocol
   - BIP 47 reusable payment codes
 explanation: |
- This standard made it possible to formalize payment requests, which took the form of a string of characters or a QR code. After several proposals, a final URI scheme was described in January 2012 within BIP 21 by Matt Corallo. It was registered with IANA by Dave Thaler in September.
-reviewed: false
+ This standard made it possible to formalize payment requests, which took the form of a string of characters or a QR code. After several proposals, a final URI 
+ scheme was described in January 2012 within BIP 21 by Matt Corallo. It was registered with IANA by Dave Thaler in September.
+reviewed: true

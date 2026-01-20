@@ -1,8 +1,8 @@
 question: ¿Cuál es la principal ventaja de utilizar macros derive como #[derive(Debug)] en comparación con la implementación manual de traits para tipos personalizados?
-answer: Automáticamente generate implementa rasgos completos en tiempo de compilación, reduciendo el código repetitivo
+answer: Automáticamente implementa rasgos completos en tiempo de compilación, reduciendo el código repetitivo
 wrong_answers:
   - Proporcionan un mejor rendimiento en tiempo de ejecución al optimizar las llamadas a métodos de rasgos durante la ejecución
   - Permiten que los rasgos se implementen varias veces para el mismo tipo con diferentes comportamientos
   - Permiten implementar rasgos dinámicos que pueden modificarse en tiempo de ejecución en función del estado del programa
 explanation: |
-  Las macros Derive generan automáticamente implementaciones de rasgos generate durante la compilación, eliminando la necesidad de escribir manualmente código repetitivo. Cuando se utiliza #[derive(Debug)], el compilador genera toda la lógica de formato necesaria para ese trait. Las respuestas erróneas son incorrectas porque: las macros derive no mejoran el rendimiento en tiempo de ejecución (generate el mismo código que escribirías manualmente), los traits sólo pueden implementarse una vez por tipo independientemente de cómo se implementen, y las macros derive generate código estático en tiempo de compilación en lugar de permitir modificaciones en tiempo de ejecución.
+  Las macros Derive generan automáticamente implementaciones de rasgos durante la compilación, eliminando la necesidad de escribir manualmente código repetitivo. Cuando se utiliza #[derive(Debug)], el compilador genera toda la lógica de formato necesaria para ese trait. Las respuestas erróneas son incorrectas porque: las macros derivadas no mejoran el rendimiento en tiempo de ejecución (generan el mismo código que escribirías manualmente), los traits sólo pueden implementarse una vez por tipo independientemente de cómo se implementen, y las macros derive generan código estático en tiempo de compilación en lugar de permitir modificaciones en tiempo de ejecución.

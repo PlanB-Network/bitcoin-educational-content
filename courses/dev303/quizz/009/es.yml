@@ -1,8 +1,8 @@
 question: ¿Qué crea automáticamente el comando `cargo new project_name` como parte de la estructura del proyecto?
-answer: Un repositorio Git, un archivo Cargo.toml y un archivo main.rs básico con el programa Hola Mundo
+answer: Un repositorio Git, un archivo Cargo.toml y un archivo main.rs básico con el programa Hola Mundo.
 wrong_answers:
-  - Sólo un archivo de configuración Cargo.toml y una estructura de directorios fuente vacía
-  - Un conjunto completo de pruebas, archivos de documentación y una configuración lista para producción
-  - Archivos binarios ejecutables, directorio de destino y configuración de la versión de compilación
+  - Solo un archivo de configuración Cargo.toml y una estructura de directorios fuente vacía.
+  - Un conjunto completo de pruebas, archivos de documentación y una configuración lista para producción.
+  - Archivos binarios ejecutables, directorio de destino y configuración de la versión de compilación.
 explanation: |
-  El comando `cargo new` crea una base de proyecto completa que incluye un repositorio Git para el control de versiones, un archivo Cargo.toml para la configuración y las dependencias del proyecto, y un archivo main.rs básico que contiene un programa `¡Hola, mundo! Esto proporciona todo lo necesario para iniciar el desarrollo de inmediato. Las otras opciones son incorrectas porque cargo new no crea conjuntos de pruebas, archivos de documentación, binarios ejecutables o artefactos de compilación - sólo establece la estructura inicial del proyecto.
+  El comando `cargo new` crea una base de proyecto completa que incluye un repositorio Git para el control de versiones, un archivo Cargo.toml para la configuración y las dependencias del proyecto, y un archivo main.rs básico que contiene un programa `¡Hola, mundo! Esto proporciona todo lo necesario para iniciar el desarrollo de inmediato. Las otras opciones son incorrectas porque cargo new no crea conjuntos de pruebas, archivos de documentación, binarios ejecutables o artefactos de compilación - solo establece la estructura inicial del proyecto.

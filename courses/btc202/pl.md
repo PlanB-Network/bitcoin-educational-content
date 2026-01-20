@@ -328,7 +328,7 @@ Miner potrzebuje węzła Bitcoin do interakcji z siecią.
 
 
 
-Rola Miner jest również czasami odróżniana od roli rozdrabniacza. Rozdrabniacz to maszyna, której zadaniem jest Hash szablonów bloków dostarczanych przez serwer puli, szukając hashy, które spełniają cel trudności zdefiniowany dla udziałów, a nie Bitcoin. Pozostała część procesu Mining, która obejmuje faktyczną budowę bloku, wybór transakcji lub wyszukiwanie Proof-of-Work zgodnie z trudnością Bitcoin, a także dystrybucję, jest przeprowadzana bezpośrednio przez pule.
+Rola Miner jest również czasami odróżniana od roli grind. Grind to maszyna, której zadaniem jest Hash szablonów bloków dostarczanych przez serwer puli, szukając hashy, które spełniają cel trudności zdefiniowany dla udziałów, a nie Bitcoin. Pozostała część procesu Mining, która obejmuje faktyczną budowę bloku, wybór transakcji lub wyszukiwanie Proof-of-Work zgodnie z trudnością Bitcoin, a także dystrybucję, jest przeprowadzana bezpośrednio przez pule.
 
 
 

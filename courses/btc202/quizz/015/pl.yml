@@ -1,7 +1,7 @@
 question: Jaka jest główna alternatywna implementacja Bitcoin core?
 answer: Bitcoin Knots
 wrong_answers:
-  - Bitcoin Gotówka
+  - Bitcoin Cash
   - BTCD
   - Bcoin
 explanation: |

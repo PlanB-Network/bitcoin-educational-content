@@ -1,7 +1,7 @@
 question: Bitcoin core'ın ana alternatif uygulaması nedir?
 answer: Bitcoin Knots
 wrong_answers:
-  - Bitcoin Nakit
+  - Bitcoin Cash
   - BTCD
   - Bcoin
 explanation: |

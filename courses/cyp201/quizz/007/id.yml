@@ -6,3 +6,4 @@ wrong_answers:
   - ShR adalah operasi logika, RotR adalah aritmetika
 explanation: |
   ShR menggeser bit ke kanan dengan menambahkan nol, sementara RotR melakukan rotasi sirkular dari bit.
+reviewed: true

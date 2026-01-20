@@ -6,3 +6,4 @@ wrong_answers:
   - Konstruksi Knuth-Morris-Pratt
 explanation: |
   Konstruksi Merkle-Damgård memungkinkan transformasi sebuah fungsi kompresi menjadi fungsi hash untuk pesan dengan panjang yang variabel.
+reviewed: true

@@ -11,7 +11,7 @@ objectives:
 
 ---
 
-# Un'immersione profonda nella filosofia di sviluppo del Bitcoin
+# Un'immersione nella filosofia di sviluppo del Bitcoin
 
 
 

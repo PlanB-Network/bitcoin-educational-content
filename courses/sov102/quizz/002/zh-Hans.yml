@@ -1,0 +1,9 @@
+question: 在传递比特币访问权限时，不推荐什么？
+answer: 将 Mnemonic 短语交给一个人
+wrong_answers:
+  - 多人共享信息
+  - 使用密封的不透明信封
+  - 撰写解释信
+explanation: |
+  将 Mnemonic 短语委托给一个人而不采取额外的安全措施，会大大增加在您有生之年被盗的风险。
+reviewed: false

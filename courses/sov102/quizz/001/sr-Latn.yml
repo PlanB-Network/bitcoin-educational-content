@@ -1,0 +1,9 @@
+question: Šta je rešenje bez KYC-a u kontekstu Bitcoin?
+answer: Rešenje koje omogućava anonimne Bitcoin transakcije
+wrong_answers:
+  - Rešenje koje omogućava Bitcoin transakcije bez interneta
+  - Rešenje koje omogućava Bitcoin transakcije bez Wallet
+  - Rešenje koje omogućava Bitcoin transakcije bez naknada
+explanation: |
+  Rešenje bez KYC (Upoznaj svog kupca) je rešenje koje omogućava anonimne Bitcoin transakcije. Ne zahteva od korisnika da pruži lične identifikacione informacije.
+reviewed: false

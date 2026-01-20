@@ -1,0 +1,9 @@
+question: Mitä EI suositella, kun luovutat pääsyn bitcoineihisi?
+answer: Mnemonic-lauseen antaminen yhdelle henkilölle
+wrong_answers:
+  - Tietojen jakaminen usean henkilön kesken
+  - Suljettujen läpinäkymättömien kirjekuorien käyttö
+  - Selittävän kirjeen kirjoittaminen
+explanation: |
+  Mnemonic-lauseen antaminen yhdelle henkilölle ilman lisäturvaa lisää huomattavasti varkauden riskiä elinaikanasi.
+reviewed: false

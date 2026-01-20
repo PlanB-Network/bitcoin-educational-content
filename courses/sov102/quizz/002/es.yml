@@ -1,0 +1,9 @@
+question: ¿Qué NO es recomendable a la hora de ceder el acceso a tus bitcoins?
+answer: Dar la frase Mnemonic a una persona
+wrong_answers:
+  - Repartir la información entre varias personas
+  - Utilizar sobres opacos cerrados
+  - Redactar una carta explicativa
+explanation: |
+  Confiar la frase Mnemonic a una sola persona sin seguridad adicional aumenta enormemente el riesgo de robo durante su vida.
+reviewed: false

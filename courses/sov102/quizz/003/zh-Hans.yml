@@ -1,0 +1,9 @@
+question: 在继承计划中披露过多信息会带来什么重大风险？
+answer: 失窃风险
+wrong_answers:
+  - 损失风险
+  - 贬值风险
+  - 监管风险
+explanation: |
+  过多的信息会使恶意人员在获得您的继承计划后更容易采取行动。
+reviewed: false

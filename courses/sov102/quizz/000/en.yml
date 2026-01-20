@@ -1,0 +1,9 @@
+question: What is the role of the Bitcoin inheritance letter in an estate plan?
+answer: To guide heirs in accessing the funds
+wrong_answers:
+  - To serve as a contract for transferring bitcoins to heirs
+  - To determine the tax distribution of assets
+  - To optimize transfer fees between wallets
+explanation: |
+  The inheritance letter provides clear and precise instructions so that loved ones can recover the bitcoins.
+reviewed: false

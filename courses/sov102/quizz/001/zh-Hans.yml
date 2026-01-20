@@ -1,0 +1,9 @@
+question: 为什么建议在纸上用墨水书写继承书？
+answer: 避免数字文件受损带来的风险
+wrong_answers:
+  - 降低印刷成本
+  - 获得法律承认的签名
+  - 提高文件的法律价值
+explanation: |
+  手写信函不易受到网络攻击，并能确保指示的保密性。
+reviewed: false

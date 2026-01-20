@@ -1,0 +1,9 @@
+question: Miks on soovitatav kirjutada pärimiskiri tindiga paberile?
+answer: Vältida riske, mis on seotud ohustatud digitaaldokumentidega
+wrong_answers:
+  - Trükikulude vähendamiseks
+  - Õiguslikult tunnustatud allkirja saamiseks
+  - Dokumendi õigusliku väärtuse suurendamiseks
+explanation: |
+  Käsitsi kirjutatud kiri on küberrünnakute suhtes vähem haavatav ja tagab juhiste konfidentsiaalsuse.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 在繼承計劃中披露太多資訊會招致什麼重大風險？
+answer: 盜竊風險
+wrong_answers:
+  - 損失風險
+  - 貶值風險
+  - 法規風險
+explanation: |
+  如果惡意個人取得您的繼承計畫，過多的資訊會讓他們更容易採取行動。
+reviewed: false

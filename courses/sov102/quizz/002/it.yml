@@ -1,0 +1,9 @@
+question: Cosa NON è consigliabile fare quando si lasciano in eredità i propri bitcoin?
+answer: Dare la frase Mnemonica a una sola persona
+wrong_answers:
+  - Dividere le informazioni tra più persone
+  - Utilizzare buste opache sigillate
+  - Scrivere una lettera esplicativa
+explanation: |
+  Affidare la frase Mnemonica a un'unica persona, senza ulteriori misure di sicurezza, aumenta notevolmente il rischio di furto nel corso della vita.
+reviewed: true

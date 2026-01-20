@@ -1,0 +1,9 @@
+question: Welche Massnahmen sind notwendig, damit deine Erben die Bitcoins ohne Probleme erhalten?
+answer: Klare Anweisungen erteilen
+wrong_answers:
+  - Anvertrauen aller privaten Schlüssel
+  - Häufiges Ändern von Passwörtern
+  - Verwendung einer KYC Exchange Plattform
+explanation: |
+  Detaillierte und verständliche Anweisungen stellen sicher, dass deine Angehörigen ordnungsgemäss auf die Gelder zugreifen können.
+reviewed: false

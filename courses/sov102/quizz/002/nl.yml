@@ -1,0 +1,9 @@
+question: Wat is NIET aan te raden bij het doorgeven van toegang tot je bitcoins?
+answer: De Mnemonic zin aan één persoon geven
+wrong_answers:
+  - De informatie verdelen tussen meerdere mensen
+  - Verzegelde ondoorzichtige enveloppen gebruiken
+  - Een verklarende brief schrijven
+explanation: |
+  Als u de Mnemonic zin aan één persoon toevertrouwt zonder extra beveiliging, neemt de kans op diefstal tijdens uw leven enorm toe.
+reviewed: false

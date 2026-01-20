@@ -1,0 +1,9 @@
+question: Milline suur risk kaasneb liiga suure teabe avalikustamisega pärimisplaanis?
+answer: Varguse oht
+wrong_answers:
+  - Kaotuse oht
+  - Devalveerimisoht
+  - Reguleerimisega seotud risk
+explanation: |
+  Liiga palju teavet võib lihtsustada pahatahtlike isikute tegevust, kui nad saavad juurdepääsu teie pärimisplaanile.
+reviewed: false

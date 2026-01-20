@@ -1,0 +1,9 @@
+question: ¿Qué riesgo importante se corre al revelar demasiada información en el plan de sucesión?
+answer: Riesgo de robo
+wrong_answers:
+  - Riesgo de pérdida
+  - Riesgo de devaluación
+  - Riesgo de regulación
+explanation: |
+  Demasiada información puede facilitar la actuación de personas malintencionadas si acceden a su plan de sucesión.
+reviewed: false

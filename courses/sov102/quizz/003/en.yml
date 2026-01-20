@@ -1,0 +1,9 @@
+question: What major risk is incurred by disclosing too much information in the inheritance plan?
+answer: Risk of theft
+wrong_answers:
+  - Risk of loss
+  - Risk of devaluation
+  - Risk of regulation
+explanation: |
+  Too much information can make it easier for malicious individuals to act if they gain access to your inheritance plan.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Why is it recommended to write the inheritance letter in ink on paper?
+answer: To avoid the risks associated with compromised digital documents
+wrong_answers:
+  - To reduce printing costs
+  - To obtain a legally recognized signature
+  - To increase the legal value of the document
+explanation: |
+  A handwritten letter is less vulnerable to cyberattacks and ensures the confidentiality of the instructions.
+reviewed: false

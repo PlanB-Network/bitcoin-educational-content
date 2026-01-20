@@ -1,0 +1,9 @@
+question: Mikä on Bitcoin-perintökirjeen rooli perintösuunnitelmassa?
+answer: Opastaa perillisiä varojen käytössä
+wrong_answers:
+  - Toimia Contract:nä bitcoinien siirtämiseksi perillisille
+  - Varojen verotuksellisen jakautumisen määrittäminen
+  - Lompakoiden välisten siirtomaksujen optimoimiseksi
+explanation: |
+  Perintäkirjeessä annetaan selkeät ja tarkat ohjeet, jotta läheiset voivat saada bitcoinit takaisin.
+reviewed: false

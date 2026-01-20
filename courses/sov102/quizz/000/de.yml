@@ -1,0 +1,9 @@
+question: Welche Rolle spielt der Bitcoin-Erbschaftsbrief in einem Nachlassplan?
+answer: Er erklärt den Erben, wie sie auf die Bitcoins zugreifen können
+wrong_answers:
+  - Er dient als Vertrag für die Übertragung von Bitcoins an die Erben
+  - Er bestimmt die steuerliche Verteilung des Vermögens
+  - Er optimiert die Transfergebühren zwischen Wallets
+explanation: |
+  Der Erbschaftsbrief enthält klare und präzise Anweisungen, damit die Angehörigen auf die Bitcoins zugreifen können.
+reviewed: false

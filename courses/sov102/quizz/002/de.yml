@@ -1,0 +1,9 @@
+question: Was wird NICHT empfohlen, wenn du den Zugang zu deinen Bitcoins weitergibst?
+answer: Übergabe des Mnemonic-Satzes an eine Person
+wrong_answers:
+  - Aufteilung der Informationen auf mehrere Personen
+  - Verwendung versiegelter undurchsichtiger Umschläge
+  - Einen erklärenden Brief schreiben
+explanation: |
+  Wenn du den Mnemonic-Satz einer einzigen Person ohne zusätzliche Sicherheitsvorkehrungen anvertraust, erhöht sich das Risiko eines Diebstahls zu deinen Lebzeiten erheblich.
+reviewed: false

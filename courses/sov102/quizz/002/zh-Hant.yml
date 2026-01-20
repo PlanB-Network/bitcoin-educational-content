@@ -1,0 +1,9 @@
+question: 當您轉移比特幣存取權時，不建議使用哪些方式？
+answer: 將 Mnemonic 詞組給予一人
+wrong_answers:
+  - 將資訊分割給多人使用
+  - 使用密封的不透明信封
+  - 撰寫說明信函
+explanation: |
+  將 Mnemonic 短語託付給一個人而沒有額外的安全措施，會大大增加在您有生之年被盜的風險。
+reviewed: false

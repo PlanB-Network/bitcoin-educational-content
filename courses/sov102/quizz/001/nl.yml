@@ -1,0 +1,9 @@
+question: Waarom is het aanbevolen om de erfenisbrief met inkt op papier te schrijven?
+answer: Om de risico's van gecompromitteerde digitale documenten te vermijden
+wrong_answers:
+  - Drukkosten verlagen
+  - Een wettelijk erkende handtekening verkrijgen
+  - De juridische waarde van het document verhogen
+explanation: |
+  Een handgeschreven brief is minder kwetsbaar voor cyberaanvallen en garandeert de vertrouwelijkheid van de instructies.
+reviewed: false

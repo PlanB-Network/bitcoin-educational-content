@@ -1,0 +1,9 @@
+question: Hvorfor anbefales det å skrive arvebrevet med blekk på papir?
+answer: For å unngå risikoen forbundet med kompromitterte digitale dokumenter
+wrong_answers:
+  - For å redusere utskriftskostnadene
+  - For å få en juridisk anerkjent signatur
+  - For å øke dokumentets juridiske verdi
+explanation: |
+  Et håndskrevet brev er mindre sårbart for dataangrep og sikrer konfidensialiteten til instruksjonene.
+reviewed: false

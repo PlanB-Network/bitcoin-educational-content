@@ -1,0 +1,9 @@
+question: Co se NEdoporučuje při předávání přístupu k bitcoinům?
+answer: Poskytnutí fráze Mnemonic jedné osobě
+wrong_answers:
+  - Rozdělení informací mezi více osob
+  - Používání zalepených neprůhledných obálek
+  - Psaní vysvětlujícího dopisu
+explanation: |
+  Svěření věty Mnemonic jediné osobě bez dalšího zabezpečení výrazně zvyšuje riziko krádeže během vašeho života.
+reviewed: false

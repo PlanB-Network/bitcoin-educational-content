@@ -1,0 +1,9 @@
+question: Hva anbefales IKKE når du gir videre tilgang til bitcoins?
+answer: Gi Mnemonic-frasen til én person
+wrong_answers:
+  - Deler informasjonen mellom flere personer
+  - Bruk av forseglede, ugjennomsiktige konvolutter
+  - Skrive et forklarende brev
+explanation: |
+  Hvis du overlater Mnemonic-frasen til én enkelt person uten ekstra sikkerhet, øker risikoen for tyveri i løpet av livet ditt betraktelig.
+reviewed: false

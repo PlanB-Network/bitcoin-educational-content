@@ -1,0 +1,9 @@
+question: 您的继承人必须采取哪些行动才能无误地收回您的比特币？
+answer: 提供明确的指示
+wrong_answers:
+  - 委托所有私人密钥
+  - 经常更改密码
+  - 使用 KYC Exchange 平台
+explanation: |
+  详细易懂的说明可确保您的亲人能够正确使用资金。
+reviewed: false

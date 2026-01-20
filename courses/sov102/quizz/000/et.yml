@@ -1,0 +1,9 @@
+question: Milline on Bitcoin pärimiskirja roll pärandvara plaanis?
+answer: Juhendada pärijaid fondidele juurdepääsul
+wrong_answers:
+  - Tegemist on Contract-ga bitcoinide üleandmiseks pärijatele
+  - Varade maksustamise jaotuse kindlaksmääramiseks
+  - Rahakottide vaheliste ülekandetasude optimeerimiseks
+explanation: |
+  Pärimiskirjas on esitatud selged ja täpsed juhised, et lähedased saaksid bitcoinid tagasi saada.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Risiko besar apa yang ditimbulkan dengan mengungkapkan terlalu banyak informasi dalam rencana warisan?
+answer: Risiko pencurian
+wrong_answers:
+  - Risiko kerugian
+  - Risiko devaluasi
+  - Risiko regulasi
+explanation: |
+  Terlalu banyak informasi dapat memudahkan orang yang berniat jahat untuk bertindak jika mereka mendapatkan akses ke rencana warisan Anda.
+reviewed: false

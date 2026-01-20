@@ -1,0 +1,9 @@
+question: O que NÃO é recomendado quando se transmite o acesso aos bitcoins?
+answer: Dar a frase Mnemonic a uma pessoa
+wrong_answers:
+  - Dividir a informação entre várias pessoas
+  - Utilização de envelopes opacos selados
+  - Redigir uma carta explicativa
+explanation: |
+  Confiar a frase Mnemonic a uma única pessoa sem segurança adicional aumenta muito o risco de roubo durante a sua vida.
+reviewed: false

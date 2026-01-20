@@ -1,0 +1,9 @@
+question: Porque é que se recomenda que a carta de herança seja escrita a tinta sobre papel?
+answer: Para evitar os riscos associados a documentos digitais comprometidos
+wrong_answers:
+  - Para reduzir os custos de impressão
+  - Para obter uma assinatura legalmente reconhecida
+  - Para aumentar o valor jurídico do documento
+explanation: |
+  Uma carta manuscrita é menos vulnerável a ciberataques e garante a confidencialidade das instruções.
+reviewed: false

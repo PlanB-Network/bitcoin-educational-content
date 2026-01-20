@@ -160,7 +160,7 @@ Tuttavia, nessuno lo spiega meglio di [Gregory Maxwell su Reddit](https://www.re
 > Un sistema decentralizzato come Bitcoin utilizza un'elezione pubblica. Ma in un sistema decentralizzato non si può avere semplicemente un voto di "persone", perché ciò richiederebbe una parte centralizzata che autorizzi le persone a votare. Invece, Bitcoin utilizza un voto di potenza di calcolo, perché è possibile verificare la potenza di calcolo senza l'aiuto di terze parti centralizzate.
 
 
-Il post spiega come il network decentralizzato di Bitcoin possa trovare un accordo sull'ordine delle transazioni attraverso l'uso della proof-of-work.
+Il post spiega come il network decentralizzato di Bitcoin possa trovare un accordo sull'ordine delle transazioni attraverso l'uso del proof-of-work.
 
 
 Conclude poi dicendo che l'attacco del 51% non è particolarmente preoccupante, se paragonato al fatto che le persone non si preoccupano o non capiscono le proprietà di decentralizzazione di  Bitcoin:
@@ -209,49 +209,47 @@ Bitcoin è neutrale, o senza permessi, come si usa dire. Ciò significa che a Bi
 Bitcoin è neutrale, il che è una buona cosa e l'unico modo in cui può funzionare. Se fosse controllato da un'organizzazione, sarebbe solo un altro tipo di oggetto virtuale e non mi interesserebbe affatto
 
 
-Finché si rispettano le regole, si è liberi di usarlo come si vuole, senza chiedere il permesso a nessuno. Questo include *Mining*, *transazioni* e *costruzione di protocolli e servizi* sopra Bitcoin:
+Finché si rispettano le regole, si è liberi di usarlo come si vuole, senza chiedere il permesso a nessuno. Questo include *mining*, *transazioni* e *costruzione di protocolli e servizi* sopra Bitcoin:
 
 
 
-- Se *Mining* fosse un processo autorizzato, avremmo bisogno di un'autorità centrale che selezioni chi è autorizzato a estrarre. Questo porterebbe molto probabilmente i miner a dover firmare contratti legali in cui accettano di
-
-di censurare le transazioni in base ai capricci dell'autorità centrale, vanificando così lo scopo stesso del Mining.
+- Se il *mining* fosse un processo autorizzato, avremmo bisogno di un'autorità centrale che selezioni chi è autorizzato a estrarre. Questo porterebbe molto probabilmente i miner a dover firmare contratti legali in cui accettano di censurare le transazioni in base ai capricci dell'autorità centrale, vanificando così lo scopo stesso del mining.
 
 
 
-- Se le persone che *operano* nel Bitcoin dovessero fornire informazioni personali, dichiarare a cosa servono le loro transazioni o dimostrare in altro modo di essere degni di operare, avremmo anche bisogno di un punto centrale di autorità per approvare gli utenti o le transazioni. Ancora una volta, questo porterebbe alla censura e all'esclusione.
+- Se le persone *transacting* (che effettuano transazioni) in Bitcoin dovessero fornire informazioni personali, dichiarare a cosa servono le loro transazioni o dimostrare in altro modo di essere degni di operare, avremmo anche bisogno di un punto centrale di autorità per approvare gli utenti o le transazioni. Ancora una volta, questo porterebbe alla censura e all'esclusione.
 
 
 
-- Se gli sviluppatori dovessero chiedere il permesso di *costruire protocolli* sulla base di Bitcoin, verrebbero sviluppati solo i protocolli consentiti dal comitato centrale di concessione degli sviluppatori. Questo, a causa dell'intervento del governo, escluderebbe inevitabilmente tutti i protocolli che preservano la privacy e tutti i tentativi di migliorare la decentralizzazione.
+- Se gli sviluppatori dovessero chiedere il permesso di *sviluppare protocolli* sulla base di Bitcoin, verrebbero sviluppati solo i protocolli consentiti dal comitato centrale di concessione degli sviluppatori. Questo, a causa dell'intervento del governo, escluderebbe inevitabilmente tutti i protocolli che preservano la privacy e tutti i tentativi di migliorare la decentralizzazione.
 
 
-A tutti i livelli, cercare di imporre restrizioni su chi può usare il Bitcoin per cosa danneggerà il Bitcoin al punto che non sarà più all'altezza della sua proposta di valore.
+In tutti i casi, cercare di imporre restrizioni su chi può usare Bitcoin e per cosa, danneggerà Bitcoin al punto che non sarà più all'altezza della sua proposta di valore.
 
 
-Pieter Wuille https://Bitcoin.stackexchange.com/a/92055/69518[risponde a una domanda sullo Stack Exchange] su come il Blockchain si rapporta ai normali database. Spiega come l'assenza di permessi sia ottenibile attraverso l'uso del Proof-of-Work in combinazione con incentivi economici.
+Pieter Wuille https://Bitcoin.stackexchange.com/a/92055/69518[risponde a una domanda sullo Stack Exchange] su come la blockchain si rapporta ai normali database. Spiega come l'assenza di permessi sia ottenibile attraverso l'uso del Proof-of-Work in combinazione con incentivi economici.
 
 
 E conclude:
 
 
-> L'uso di algoritmi di consenso Trustless come PoW aggiunge qualcosa che nessun'altra costruzione vi dà (partecipazione senza permessi, il che significa che non c'è un gruppo fisso di partecipanti che può censurare le vostre modifiche), L'uso di algoritmi di consenso Trustless come PoW aggiunge qualcosa, ma ha un costo elevato e i suoi presupposti economici lo rendono praticamente utile solo per i sistemi che definiscono la propria criptovaluta.
-> Probabilmente c'è solo un posto al mondo per uno o pochi esemplari usati di questo tipo.
+> L'uso di algoritmi di consenso trustless come PoW(Proof-of-Work) aggiunge qualcosa che nessun'altra costruzione vi dà (partecipazione senza permessi, il che significa che non c'è un gruppo fisso di partecipanti che può censurare le vostre modifiche). L'uso di algoritmi di consenso trustless come PoW aggiunge qualcosa, ma ha un costo elevato e i suoi presupposti economici lo rendono praticamente utile solo per i sistemi che definiscono la propria criptovaluta.
+> È probabile che nel mondo ci sia spazio solo per uno, o al massimo per pochi di questi, che vengano effettivamente utilizzati.
 
-Spiega che, per ottenere l'assenza di permessi, il sistema avrà probabilmente bisogno di una propria valuta, "limitando così i casi d'uso alle sole criptovalute". Questo perché la partecipazione senza permesso, o Mining, richiede incentivi economici incorporati nel sistema stesso.
-
-
-### Conoscere il decentralizzazione
+Spiega che, per ottenere l'assenza di permessi, il sistema avrà probabilmente bisogno di una propria valuta, "limitando così i casi d'uso alle sole criptovalute". Questo perché la partecipazione senza permesso, o mining, richiede incentivi economici incorporati nel sistema stesso.
 
 
+### Conoscere la decentralizzazione
 
-Un aspetto interessante di  Bitcoin è il fatto che il Hard non è controllato da nessuno. Nel Bitcoin non ci sono comitati o dirigenti. Gregory Maxwell, sempre [sul subreddit Bitcoin](https://www.reddit.com/r/Bitcoin/comments/s82t2n/comment/htdte7w/?utm_source=share&utm_medium=web2x&context=3), paragona questo aspetto alla lingua inglese in modo intrigante:
+
+
+Un aspetto affascinante di Bitcoin è quanto sia difficile comprendere che non è controllato da nessuno. In Bitcoin non ci sono comitati o dirigenti. Gregory Maxwell, sempre [sul subreddit Bitcoin](https://www.reddit.com/r/Bitcoin/comments/s82t2n/comment/htdte7w/?utm_source=share&utm_medium=web2x&context=3), paragona questo aspetto alla lingua inglese in modo intrigante:
 
 
 > Molte persone hanno difficoltà a capire i sistemi autonomi, ce ne sono molti nella loro vita, come la lingua inglese, ma la gente li dà per scontati e non li considera sistemi. Sono bloccati in un modo di pensare centralizzato in cui tutto ciò che considerano una "cosa" ha un'autorità che lo controlla.
 >
 
-> Il Bitcoin non si concentra su nulla. Le varie persone che hanno adottato il Bitcoin hanno scelto di loro spontanea volontà di promuoverlo, e il modo in cui scelgono di farlo è affar loro. Le persone fissate con l'autorità possono vedere queste attività e credere che siano un'operazione dell'autorità di  Bitcoin, ma tale autorità non esiste.
+> Bitcoin non si concentra su nulla. Le varie persone che hanno adottato Bitcoin hanno scelto di loro spontanea volontà di promuoverlo, e il modo in cui scelgono di farlo è affar loro. Le persone fissate con l'autorità possono vedere queste attività e credere che siano un'operazione dell'autorità di Bitcoin, ma tale autorità non esiste.
 
 
 Il modo in cui Bitcoin funziona attraverso il decentralizzazione assomiglia alla straordinaria intelligenza collettiva che si trova in molte specie in natura. L'informatico Radhika Nagpal parla in un [Ted talk](https://www.ted.com/talks/radhika_nagpal_what_intelligent_machines_can_learn_from_a_school_of_fish) del comportamento collettivo dei banchi di pesci e di come gli scienziati stiano cercando di imitarlo con i robot.
@@ -267,22 +265,22 @@ L'autrice sottolinea che molti sistemi, naturali o artificiali, possono funziona
 
 
 
-Indipendentemente da ciò che si pensa di  Bitcoin, la sua natura decentralizzata lo rende difficile da controllare. Il Bitcoin esiste e non si può fare nulla al riguardo. È qualcosa che va studiato, non discusso.
+Indipendentemente da ciò che si pensa di Bitcoin, la sua natura decentralizzata lo rende difficile da controllare. Bitcoin esiste e non si può fare nulla al riguardo. È qualcosa che va studiato, non discusso.
 
 
-### Conclusioni sul decentralizzazione
+### Conclusioni sulla decentralizzazione
 
 
-Distinguiamo tra decentralizzazione full node e decentralizzazione Mining. La decentralizzazione Mining è un mezzo per ottenere la resistenza alla censura, mentre la decentralizzazione full node è ciò che permette alle regole di consenso della rete Hard di cambiare senza un ampio sostegno da parte degli utenti.
+Distinguiamo tra decentralizzazione dei full node e decentralizzazione del mining. La decentralizzazione del mining è un mezzo per ottenere la resistenza alla censura, mentre la decentralizzazione dei full node è ciò che rende le regole di consenso del network difficili da modificare senza un ampio sostegno da parte degli utenti.
 
 
 La natura decentralizzata di Bitcoin consente la neutralità nei confronti di sviluppatori, utenti e miner. Chiunque è libero di partecipare senza chiedere il permesso.
 
 
-I sistemi decentralizzati possono essere Hard da capire, ma ci sono alcuni modelli mentali che possono aiutare, ad esempio la lingua inglese o i banchi di pesci.
+I sistemi decentralizzati possono essere difficili da capire, ma ci sono alcuni modelli mentali che possono aiutare, ad esempio la lingua inglese o i banchi di pesci.
 
 
-## Infiducia
+## Assenza di fiducia
 
 <chapterId>0506ba61-16a3-543c-95fa-3f3e2dd64121</chapterId>
 
@@ -291,20 +289,20 @@ I sistemi decentralizzati possono essere Hard da capire, ma ci sono alcuni model
 ![](assets/it/003.webp)
 
 
-Questo capitolo analizza il concetto di assenza di fiducia, il suo significato dal punto di vista informatico e il motivo per cui il Bitcoin deve essere il Trustless per mantenere la sua proposta di valore.
+Questo capitolo analizza il concetto di assenza di fiducia necessaria (trustlessness o trustless), il suo significato dal punto di vista informatico e il motivo per cui Bitcoin deve essere trustless per mantenere la sua proposta di valore.
 
-Parliamo poi di cosa significa utilizzare il Bitcoin in un modo Trustless e di che tipo di garanzie può o non può dare un full node.
+Parliamo poi di cosa significa utilizzare Bitcoin in un maniera trustless e di che tipo di garanzie può o non può dare un full node.
 
-Nell'ultima sezione, esaminiamo l'interazione reale tra Bitcoin e i software o gli utenti reali, e la necessità di fare compromessi tra convenienza e mancanza di fiducia per ottenere qualcosa.
-
-
-La gente spesso dice cose come "Bitcoin è grande perché è Trustless".
+Nell'ultima sezione, esaminiamo l'interazione reale tra Bitcoin e i software e gli utenti reali, e la necessità di fare compromessi tra convenienza e mancanza di fiducia per ottenere qualcosa.
 
 
-Cosa si intende per Trustless? Pieter Wuille spiega questo termine molto usato su [Stack Exchange](https://Bitcoin.stackexchange.com/a/45674/69518):
+La gente spesso dice cose come "Bitcoin è grande perché è trustless".
 
 
-> La fiducia di cui si parla in "Trustless" è un termine tecnico astratto. Un sistema distribuito si chiama Trustless quando non richiede parti fidate per funzionare correttamente.
+Cosa si intende per trustless? Pieter Wuille spiega questo termine molto usato su [Stack Exchange](https://Bitcoin.stackexchange.com/a/45674/69518):
+
+
+> La fiducia di cui si parla in "trustless" è un termine tecnico astratto. Un sistema distribuito si chiama trustless quando non richiede parti fidate per funzionare correttamente.
 
 In breve, il termine *Trustless* si riferisce a una proprietà del protocollo Bitcoin in base alla quale può logicamente funzionare senza "alcuna parte fidata". Questo è diverso dalla fiducia che inevitabilmente si deve riporre nel software o nell'hardware che si utilizza. Quest'ultimo aspetto della fiducia sarà discusso più avanti in questo capitolo.
 

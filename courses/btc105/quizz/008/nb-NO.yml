@@ -1,0 +1,9 @@
+question: Hva er hovedmålet til den aktive brukeren?
+answer: Slik bruker du Bitcoin som daglig betalingsmetode
+wrong_answers:
+  - Å investere i Bitcoin på lang sikt
+  - Å gradvis akkumulere satoshier
+  - Å spekulere i markedet
+explanation: |
+  Den aktive brukeren inkorporerer Bitcoin i sitt daglige liv for å gjennomføre transaksjoner og støtte innføringen.
+reviewed: false

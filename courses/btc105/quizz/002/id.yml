@@ -1,0 +1,9 @@
+question: Profil pengguna mana yang secara teratur mengumpulkan bitcoin melalui Dollar-Cost Averaging?
+answer: Penumpuk
+wrong_answers:
+  - Hodler
+  - Pengguna aktif
+  - Paranoid
+explanation: |
+  Stacker secara teratur membeli dalam jumlah kecil untuk meratakan harga pembelian dalam jangka panjang.
+reviewed: false

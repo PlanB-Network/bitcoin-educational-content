@@ -1,0 +1,9 @@
+question: What is the main goal of stacking?
+answer: Gradually accumulating satoshis
+wrong_answers:
+  - Short-term speculation
+  - Buying a large amount of satoshis at once
+  - Using Bitcoin for daily payments
+explanation: |
+  The stacker invests small amounts at regular intervals to average out the purchase price over time.
+reviewed: false

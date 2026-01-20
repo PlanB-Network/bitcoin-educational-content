@@ -1,0 +1,9 @@
+question: Minkä menetelmän avulla voit korvata käytetyt bitcoinit säilyttäen samalla säästösi?
+answer: Kuluttaa ja korvata
+wrong_answers:
+  - HODLing ja korvaaminen
+  - Kuluttaminen ja HODLing
+  - Kaupankäynti ja menot
+explanation: |
+  Spend and Replace -menetelmässä kulutat bitcoineja ja ostat saman määrän takaisin, jotta voit säilyttää hallussasi olevat bitcoinit.
+reviewed: false

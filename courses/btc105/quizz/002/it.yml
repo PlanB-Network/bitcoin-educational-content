@@ -1,0 +1,9 @@
+question: Quale tipo di utente accumula regolarmente bitcoin attraverso un Dollar-Cost Averaging?
+answer: Lo stacker
+wrong_answers:
+  - L'hodler
+  - L'utente attivo
+  - Il paranoico
+explanation: |
+  Uno stacker acquista regolarmente piccole quantità per fare una media del prezzo di acquisto nel lungo periodo.
+reviewed: true

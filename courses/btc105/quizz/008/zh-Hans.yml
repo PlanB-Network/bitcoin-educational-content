@@ -1,0 +1,9 @@
+question: 活跃用户的主要目标是什么？
+answer: 使用 Bitcoin 作为日常付款方式
+wrong_answers:
+  - 对 Bitcoin 进行长期投资
+  - 逐步积累 satoshis
+  - 投机市场
+explanation: |
+  活跃用户将 Bitcoin 纳入其日常生活，进行交易并支持其采用。
+reviewed: false

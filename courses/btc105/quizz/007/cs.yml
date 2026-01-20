@@ -1,0 +1,9 @@
+question: Která služba uvádí obchodníky přijímající Bitcoin po celém světě?
+answer: Mapa BTC
+wrong_answers:
+  - CoinMarketCap
+  - Bitcoin Talk
+  - Švýcarská mzda Bitcoin
+explanation: |
+  BTC Map je specializovaná platforma, která vyhledává obchodníky přijímající Bitcoin po celém světě.
+reviewed: false

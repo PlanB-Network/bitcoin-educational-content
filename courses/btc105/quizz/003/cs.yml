@@ -1,0 +1,9 @@
+question: Jakou investiční strategii používá především stohovatel?
+answer: Průměrování dolarových nákladů
+wrong_answers:
+  - Denní obchodování
+  - Arbitráž
+  - Paušální částka
+explanation: |
+  DCA spočívá v pravidelném investování pevně stanovené částky s cílem snížit dopad volatility trhu na portfolio.
+reviewed: false

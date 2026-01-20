@@ -1,0 +1,9 @@
+question: 世界中のビットコインが利用できる加盟店をリストアップしているのはどのサービスですか？
+answer: BTC Map
+wrong_answers:
+  - CoinMarketCap
+  - Bitcoin Talk
+  - スイス・ビットコインペイ
+explanation: |
+  BTC Mapは、世界中のビットコインを受け入れている加盟店を検索する専用プラットフォームです。
+reviewed: false

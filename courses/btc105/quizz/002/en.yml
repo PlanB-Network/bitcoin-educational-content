@@ -1,0 +1,9 @@
+question: Which user profile regularly accumulates bitcoins through Dollar-Cost Averaging?
+answer: The stacker
+wrong_answers:
+  - The hodler
+  - The active user
+  - The paranoid
+explanation: |
+  The stacker regularly buys small amounts to average out the purchase price over the long term.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Mitä sijoitusstrategiaa pinoaja käyttää ensisijaisesti?
+answer: Dollarikustannusten keskiarvoistaminen
+wrong_answers:
+  - Päivän kaupankäynti
+  - Arbitraasi
+  - Kertakorvaus
+explanation: |
+  DCA:ssa sijoitetaan säännöllisesti kiinteä määrä, jotta markkinoiden volatiliteetin vaikutus omaan salkkuun saadaan vähennettyä.
+reviewed: false

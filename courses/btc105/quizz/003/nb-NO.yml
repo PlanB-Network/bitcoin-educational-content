@@ -1,0 +1,9 @@
+question: Hvilken investeringsstrategi brukes primært av en stabler?
+answer: Dollar-kostnadsgjennomsnitt
+wrong_answers:
+  - Daghandel
+  - Arbitrasje
+  - Engangsbeløp
+explanation: |
+  DCA innebærer at man investerer et fast beløp regelmessig for å redusere effekten av markedsvolatilitet på porteføljen.
+reviewed: false

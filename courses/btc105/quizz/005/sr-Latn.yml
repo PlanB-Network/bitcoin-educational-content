@@ -1,0 +1,12 @@
+question: Koja je glavna karakteristika Bitcoin koja ga izdvaja od drugih kriptovaluta?
+answer: Bitcoin je jedina istinski decentralizovana, cenzuri otporna, besplatna i ozbiljna kriptovaluta
+wrong_answers:
+  - Bitcoin je jedina kriptovaluta koja se može rudriti
+  - Bitcoin je jedina kriptovaluta koja se može kupiti ili prodati na Exchange platformama
+  - Bitcoin je jedina kriptovaluta koja se može čuvati u Wallet
+explanation: |
+  Sadržaj poglavlja navodi da je Bitcoin jedina zaista decentralizovana,
+  otporna na cenzuru, besplatna i ozbiljna kriptovaluta koja opravdava hiljade
+  sati rada. Ovo je ključna karakteristika koja izdvaja Bitcoin od drugih
+  kriptovaluta.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Que solução é recomendada para efetuar pagamentos Bitcoin de baixo custo?
+answer: Lightning Network
+wrong_answers:
+  - Hardware Wallet
+  - Conta bancária
+  - RGB Layer
+explanation: |
+  O Lightning permite transacções rápidas e de baixo custo para compras diárias. É a ferramenta ideal para o utilizador ativo.
+reviewed: false

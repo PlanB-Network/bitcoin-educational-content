@@ -1,0 +1,9 @@
+question: Which method allows you to offset spent bitcoins while preserving your savings?
+answer: Spend and Replace
+wrong_answers:
+  - HODLing and Replace
+  - Spend and HODLing
+  - Trading and Spend
+explanation: |
+  The Spend and Replace method involves spending bitcoins and then repurchasing the same amount to maintain your holdings.
+reviewed: false

@@ -1,0 +1,9 @@
+question: В каком сервисе перечислены торговые точки, принимающие Bitcoin по всему миру?
+answer: Карта BTC
+wrong_answers:
+  - CoinMarketCap
+  - Bitcoin Talk
+  - Швейцарский Bitcoin Pay
+explanation: |
+  BTC Map - это специальная платформа, которая позволяет находить торговцев, принимающих Bitcoin, по всему миру.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Vilken investeringsstrategi används främst av en staplare?
+answer: Genomsnittlig kostnad för dollar
+wrong_answers:
+  - Daghandel
+  - Arbitrage
+  - Engångsbelopp
+explanation: |
+  DCA innebär att man regelbundet investerar ett fast belopp för att minska marknadsvolatilitetens inverkan på portföljen.
+reviewed: false

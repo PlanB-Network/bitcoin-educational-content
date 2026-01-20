@@ -1,0 +1,9 @@
+question: Wat moet je absoluut vermijden om de veiligheid van je bitcoins te garanderen?
+answer: Je bitcoins bewaren op een Exchange platform
+wrong_answers:
+  - Een open-source Hardware Wallet gebruiken
+  - Een Hot Wallet gebruiken voor dagelijkse transacties
+  - Opslagmethoden diversifiëren
+explanation: |
+  Het principe "Niet je sleutels, niet je bitcoins" benadrukt het belang van het bezit van je eigen privésleutels. Op een Exchange platform staan je bitcoins bloot aan onnodige risico's.
+reviewed: false

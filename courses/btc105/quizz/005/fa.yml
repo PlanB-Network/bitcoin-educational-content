@@ -1,0 +1,9 @@
+question: چه راه‌حلی برای انجام پرداخت‌های کم‌هزینه Bitcoin توصیه می‌شود؟
+answer: Lightning Network
+wrong_answers:
+  - Hardware Wallet
+  - حساب بانکی
+  - RGB Layer
+explanation: |
+  رعد معاملات سریع و کم‌هزینه را برای خریدهای روزانه امکان‌پذیر می‌سازد. این ابزار ایده‌آل برای کاربر فعال است.
+reviewed: false

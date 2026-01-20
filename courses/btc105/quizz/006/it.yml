@@ -1,0 +1,9 @@
+question: Quale metodo permette di compensare i bitcoin spesi preservando i risparmi?
+answer: Spend and Replace
+wrong_answers:
+  - HODLing and Replace
+  - Spend and HODLing
+  - Trading and spending
+explanation: |
+  Il metodo Spend and Replace prevede di spendere bitcoin e poi di riacquistarne la stessa quantità, al fine di mantenere stabile le proprie disponibilità.
+reviewed: true

@@ -1,0 +1,9 @@
+question: 堆叠的主要目的是什么？
+answer: 逐渐积累卫星
+wrong_answers:
+  - 短期投机
+  - 一次性购买大量卫星币
+  - 使用 Bitcoin 进行日常支付
+explanation: |
+  堆垛机定期进行小额投资，以在一段时间内平均购买价格。
+reviewed: false

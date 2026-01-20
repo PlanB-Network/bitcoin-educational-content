@@ -1,0 +1,9 @@
+question: Que estratégia de investimento é utilizada principalmente por um empilhador?
+answer: Média do custo do dólar
+wrong_answers:
+  - Negociação diária
+  - Arbitragem
+  - Montante fixo
+explanation: |
+  A DCA consiste em investir regularmente um montante fixo para reduzir o impacto da volatilidade do mercado na sua carteira.
+reviewed: false

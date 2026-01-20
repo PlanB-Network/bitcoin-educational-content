@@ -1,0 +1,9 @@
+question: Vad är huvudsyftet med stapling?
+answer: Gradvis ackumulerande satoshis
+wrong_answers:
+  - Kortsiktiga spekulationer
+  - Köpa ett stort antal satoshis på en gång
+  - Använda Bitcoin för dagliga betalningar
+explanation: |
+  Stackern investerar små belopp med jämna mellanrum för att jämna ut köpeskillingen över tiden.
+reviewed: false

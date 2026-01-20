@@ -1,0 +1,9 @@
+question: Jaki jest główny cel stackowania?
+answer: Stopniowe gromadzenie satoshis
+wrong_answers:
+  - Spekulacja krótkoterminowa
+  - Zakup dużej ilości satoshi na raz
+  - Korzystanie z Bitcoin do codziennych płatności
+explanation: |
+  Inwestor inwestuje niewielkie kwoty w regularnych odstępach czasu, aby uśrednić cenę zakupu w czasie.
+reviewed: false

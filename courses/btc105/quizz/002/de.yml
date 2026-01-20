@@ -1,0 +1,9 @@
+question: Welche Art Benutzer kauft regelmässig Bitcoins durch Dollar-Cost Averaging?
+answer: Der Stapler (Staker)
+wrong_answers:
+  - Der Hodler
+  - Der aktive Nutzer
+  - Der Paranoiker
+explanation: |
+  Der Stapler kauft regelmässig kleine Mengen, um den Kaufpreis über einen längeren Zeitraum zu verteilen.
+reviewed: false

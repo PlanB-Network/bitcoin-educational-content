@@ -1,0 +1,9 @@
+question: Solusi apa yang direkomendasikan untuk melakukan pembayaran Bitcoin berbiaya rendah?
+answer: Lightning Network
+wrong_answers:
+  - Hardware Wallet
+  - Rekening bank
+  - RGB Layer
+explanation: |
+  Lightning memungkinkan transaksi yang cepat dan murah untuk pembelian harian. Ini adalah alat yang ideal untuk pengguna yang aktif.
+reviewed: false

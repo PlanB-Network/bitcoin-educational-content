@@ -1,0 +1,9 @@
+question: Missä palvelussa on luettelo Bitcoin:n hyväksyvistä kauppiaista maailmanlaajuisesti?
+answer: BTC-kartta
+wrong_answers:
+  - CoinMarketCap
+  - Bitcoin Talk
+  - Sveitsin Bitcoin Palkka
+explanation: |
+  BTC Map on erityinen alusta, joka etsii Bitcoin:n hyväksyvät kauppiaat ympäri maailmaa.
+reviewed: false

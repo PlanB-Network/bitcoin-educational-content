@@ -1,0 +1,9 @@
+question: Mikä käyttäjäprofiili kerää säännöllisesti bitcoineja Dollar-Cost Averagingin avulla?
+answer: Pinoaja
+wrong_answers:
+  - Hodler
+  - Aktiivinen käyttäjä
+  - Vainoharhainen
+explanation: |
+  Pakkaaja ostaa säännöllisesti pieniä määriä, jotta ostohinta saadaan pidemmällä aikavälillä keskimääräiseksi.
+reviewed: false

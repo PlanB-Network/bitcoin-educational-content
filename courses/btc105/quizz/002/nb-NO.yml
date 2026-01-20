@@ -1,0 +1,9 @@
+question: Hvilken brukerprofil akkumulerer regelmessig bitcoins gjennom Dollar-Cost Averaging?
+answer: Stableren
+wrong_answers:
+  - Hodleren
+  - Den aktive brukeren
+  - Den paranoide
+explanation: |
+  Stableren kjøper jevnlig små mengder for å gjennomsnittsberegne innkjøpsprisen på lang sikt.
+reviewed: false

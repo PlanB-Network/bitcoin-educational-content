@@ -1,0 +1,9 @@
+question: Mida tuleks kindlasti vältida, et tagada oma bitcoinide turvalisus?
+answer: Oma bitcoinide hoidmine Exchange platvormil
+wrong_answers:
+  - Avatud lähtekoodiga Hardware Wallet kasutamine
+  - Hot Wallet kasutamine igapäevasteks tehinguteks
+  - Ladustamismeetodite mitmekesistamine
+explanation: |
+  Põhimõte "Mitte sinu võtmed, mitte sinu bitcoinid" rõhutab, kui oluline on hoida oma isiklikke võtmeid. Exchange platvormil on teie bitcoinid asjatutele riskidele avatud.
+reviewed: false

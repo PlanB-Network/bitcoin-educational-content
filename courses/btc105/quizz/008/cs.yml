@@ -1,0 +1,9 @@
+question: Jaký je hlavní cíl aktivního uživatele?
+answer: Použití Bitcoin jako denní platební metody
+wrong_answers:
+  - Dlouhodobé investice do Bitcoin
+  - Postupně hromadit satoši
+  - Spekulovat o trhu
+explanation: |
+  Aktivní uživatel začleňuje Bitcoin do svého každodenního života, aby mohl provádět transakce a podporovat jeho přijetí.
+reviewed: false

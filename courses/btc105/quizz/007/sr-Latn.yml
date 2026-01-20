@@ -1,0 +1,11 @@
+question: Šta znači reći da je Bitcoin kao crna rupa?
+answer: Neće nestati i vremenom će apsorbovati sve na svom putu.
+wrong_answers:
+  - Na kraju će se srušiti pod sopstvenom težinom.
+  - To je pretnja globalnom finansijskom sistemu.
+  - To je misterija koju naučnici još uvek pokušavaju da razumeju.
+explanation: |
+  Izjava da je Bitcoin poput crne rupe odnosi se na njegovu otpornost
+  i njegov potencijal da postane dominantni finansijski sistem, apsorbujući sve druge sisteme
+  na svom putu.
+reviewed: false

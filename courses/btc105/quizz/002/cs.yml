@@ -1,0 +1,9 @@
+question: Který uživatelský profil pravidelně hromadí bitcoiny prostřednictvím metody Dollar-Cost Averaging?
+answer: Zakladač
+wrong_answers:
+  - Hodler
+  - Aktivní uživatel
+  - Paranoidní
+explanation: |
+  Zakladač pravidelně nakupuje malá množství, aby zprůměroval nákupní cenu v dlouhodobém horizontu.
+reviewed: false

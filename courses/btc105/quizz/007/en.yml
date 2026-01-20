@@ -1,0 +1,9 @@
+question: Which service lists merchants accepting bitcoin worldwide?
+answer: BTC Map
+wrong_answers:
+  - CoinMarketCap
+  - Bitcoin Talk
+  - Swiss Bitcoin Pay
+explanation: |
+  BTC Map is a dedicated platform that locates merchants accepting bitcoin around the world.
+reviewed: false

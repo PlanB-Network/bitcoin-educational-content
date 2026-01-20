@@ -1,0 +1,9 @@
+question: Milline teenus loetleb kaupmehi, kes aktsepteerivad Bitcoin kogu maailmas?
+answer: BTC kaart
+wrong_answers:
+  - CoinMarketCap
+  - Bitcoin Talk
+  - Šveitsi Bitcoin tasu
+explanation: |
+  BTC Map on spetsiaalne platvorm, mis otsib kaupmehi, kes aktsepteerivad Bitcoin üle kogu maailma.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Jaki jest główny cel aktywnego użytkownika?
+answer: Aby używać Bitcoin jako codziennej metody płatności
+wrong_answers:
+  - Inwestowanie w Bitcoin w perspektywie długoterminowej
+  - Aby stopniowo gromadzić satoshis
+  - Spekulować na rynku
+explanation: |
+  Aktywny użytkownik włącza Bitcoin do swojego codziennego życia, aby dokonywać transakcji i wspierać jego przyjęcie.
+reviewed: false

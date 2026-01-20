@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste doel van stapelen?
+answer: Geleidelijk accumuleren van satoshis
+wrong_answers:
+  - Speculatie op korte termijn
+  - Een grote hoeveelheid satoshis in één keer kopen
+  - Bitcoin gebruiken voor dagelijkse betalingen
+explanation: |
+  De stapelaar investeert kleine bedragen op regelmatige tijdstippen om de aankoopprijs over de tijd uit te middelen.
+reviewed: false

@@ -1,0 +1,9 @@
+question: What should absolutely be avoided to ensure the security of your bitcoins?
+answer: Keeping your bitcoins on an exchange platform
+wrong_answers:
+  - Using an open-source hardware wallet
+  - Using a hot wallet for daily transactions
+  - Diversifying storage methods
+explanation: |
+  The principle "Not your keys, not your bitcoins" highlights the importance of holding your own private keys. On an exchange platform, your bitcoins are exposed to unnecessary risks.
+reviewed: false

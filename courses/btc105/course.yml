@@ -1,0 +1,32 @@
+id: 4a7c2e9b-3f8d-5c1a-9e6b-7d4f8a2c5e0b
+topic: bitcoin
+subtopic: acquisition
+type: theory
+level: beginner
+hours: 2.5
+teaching_format: self_paced
+
+professors_id:
+  - 2e1b5182-567e-453a-af29-36009340ff02
+
+contributor_names:
+  - Plan B Network
+
+original_language: en
+proofreading:
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 0
+
+tags:
+  - bitcoin
+  - acquisition
+  - buying
+  - exchanges
+  - kyc
+  - no-kyc
+  - dca
+  - etf
+  - p2p

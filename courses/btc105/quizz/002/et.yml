@@ -1,0 +1,9 @@
+question: Milline kasutaja profiil kogub regulaarselt bitcoine läbi Dollar-Cost Averaging?
+answer: Stacker
+wrong_answers:
+  - Hodler
+  - Aktiivne kasutaja
+  - Paranoiline
+explanation: |
+  Ladustaja ostab regulaarselt väikeseid koguseid, et ostuhinda pikema aja jooksul keskmiselt tasa teha.
+reviewed: false

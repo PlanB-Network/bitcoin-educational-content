@@ -1,0 +1,9 @@
+question: 堆垛机主要采用什么投资策略？
+answer: 美元平均成本法
+wrong_answers:
+  - 日间交易
+  - 套利
+  - 一笔总付
+explanation: |
+  DCA 包括定期投资固定金额，以减少市场波动对投资组合的影响。
+reviewed: false

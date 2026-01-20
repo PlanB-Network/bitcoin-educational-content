@@ -1,0 +1,9 @@
+question: Co je hlavním cílem stohování?
+answer: Postupně se hromadí satoši
+wrong_answers:
+  - Krátkodobá spekulace
+  - Nákup velkého množství satošů najednou
+  - Používání Bitcoin pro denní platby
+explanation: |
+  Zakladač investuje malé částky v pravidelných intervalech, aby se nákupní cena v průběhu času zprůměrovala.
+reviewed: false

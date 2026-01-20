@@ -1,0 +1,9 @@
+question: Какое решение рекомендуется для осуществления недорогих платежей Bitcoin?
+answer: Lightning Network
+wrong_answers:
+  - Hardware Wallet
+  - Банковский счет
+  - RGB Layer
+explanation: |
+  Lightning обеспечивает быстрые и недорогие транзакции для ежедневных покупок. Это идеальный инструмент для активного пользователя.
+reviewed: false

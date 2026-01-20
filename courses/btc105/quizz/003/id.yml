@@ -1,0 +1,9 @@
+question: Strategi investasi apa yang terutama digunakan oleh seorang stacker?
+answer: Rata-rata Biaya Dolar
+wrong_answers:
+  - Perdagangan harian
+  - Arbitrase
+  - Lump-Sum
+explanation: |
+  DCA melibatkan investasi dalam jumlah tetap secara teratur untuk mengurangi dampak volatilitas pasar pada portofolio seseorang.
+reviewed: false

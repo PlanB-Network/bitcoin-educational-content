@@ -1,0 +1,9 @@
+question: 堆疊的主要目的是什麼？
+answer: 逐漸累積的 Satoshis
+wrong_answers:
+  - 短期投機
+  - 一次購買大量的 Satoshis
+  - 使用 Bitcoin 進行每日付款
+explanation: |
+  堆疊者每隔一段時間就會投入小額資金，以在一段時間內平均購買價格。
+reviewed: false

@@ -28,10 +28,10 @@ We are reviewing each of the 7 new courses one by one to define their detailed s
 | 1 | SCU102 | Financial Fraud, Scams & Online Security | ✅ REVIEWED | ✅ **IMPLEMENTED** | Completed 2026-01-19 |
 | 2 | BTC103 | Why Bitcoin Matters | ✅ REVIEWED | ✅ **IMPLEMENTED** | Completed 2026-01-19 |
 | 3 | BIZ102 | Bitcoin Industry Overview | ✅ REVIEWED | ✅ **IMPLEMENTED** | Completed 2026-01-19 |
-| 4 | BTC105 | How to Acquire Bitcoin | NOT STARTED | - | |
-| 5 | BTC104 | How to Secure Bitcoin | NOT STARTED | - | |
-| 6 | SOV102 | Bitcoin Inheritance Planning | NOT STARTED | - | |
-| 7 | BTC102v2 | Your First Bitcoin Journey (Hub) | NOT STARTED | - | Created last |
+| 4 | BTC105 | How to Acquire Bitcoin | ✅ REVIEWED | ✅ **IMPLEMENTED** | Completed 2026-01-20 |
+| 5 | BTC104 | How to Secure Bitcoin | ✅ REVIEWED | ✅ **IMPLEMENTED** | Completed 2026-01-20 |
+| 6 | SOV102 | Bitcoin Inheritance Planning | ✅ REVIEWED | ✅ **IMPLEMENTED** | Completed 2026-01-20 |
+| 7 | BTC102v2 | Your First Bitcoin Journey (Hub) | NOT STARTED | - | **NEXT** (Created last) |
 
 ### After All Reviews Complete
 Once all 7 courses have been reviewed and approved:
@@ -434,29 +434,113 @@ See [scu102-creation.md](scu102-creation.md) for detailed implementation steps.
 ### Course 4: BTC105 - How to Acquire Bitcoin
 **Discipline**: Bitcoin (BTC)
 **Level**: Beginner (105)
-**Estimated Duration**: 1.5-2 hours
-**Source**: BTC102 Part 3 - Profile chapters (acquisition methods)
-**Review Status**: NOT STARTED
+**Estimated Duration**: 2-2.5 hours
+**Source**: BTC102 Part 3 - "Setting up your plan" (lines 1195-2191)
+**Review Status**: ✅ REVIEWED (2026-01-19)
+**Implementation Doc**: [btc105-creation.md](btc105-creation.md)
 
-**Proposed Structure**:
-- Section 1: Introduction
-- Section 2: Understanding Your Profile
-  - Hodler, Stacker, User, Paranoid profiles
-- Section 3: Acquisition Methods
-  - Exchanges (KYC)
-  - P2P platforms
-  - Bitcoin ATMs
-  - Earning Bitcoin
-- Section 4: DCA Strategy (Dollar Cost Averaging)
-  - Regular purchasing
-  - Automated tools
-- Section 5: First Purchase Walkthrough
-  - Step-by-step guide
-  - Common pitfalls
-- Section 6: Conclusion
+---
 
-**Detailed Review Notes**:
-*(To be filled during in-depth review session)*
+#### Source Content Mapping (BTC102 en.md)
+
+| BTC102 Section | Lines | Content |
+|----------------|-------|---------|
+| Choose your profile intro | 1199-1283 | Factors for choosing strategy, risks, lifestyle |
+| Wallets and Security Strategies | 1286-1386 | Wallet types overview (partial - security to BTC104) |
+| Methods of Acquisition | 1388-1441 | KYC vs No-KYC methods |
+| The 4 Types of Bitcoin Users | 1443-1507 | Profile overview |
+| The Hodler | 1509-1631 | Long-term investment (extract acquisition parts) |
+| The Stacker | 1633-1781 | DCA strategy (core of BTC105) |
+| The Active User | 1783-1974 | Daily use, earning BTC (extract acquisition parts) |
+| The Paranoid | 1976-2190 | Privacy-focused acquisition (extract acquisition parts) |
+
+---
+
+#### Course Structure (6 Parts, 14 Chapters)
+
+```
+# Part 1: Introduction
+└── ## Chapter 1: Welcome to BTC105 [NEW]
+
+# Part 2: Understanding Your Profile
+├── ## Chapter 2: Why Define Your User Profile? [ORIGINAL: lines 1199-1229]
+├── ## Chapter 3: Potential Risks and Lifestyle [ORIGINAL: lines 1231-1275]
+└── ## Chapter 4: The Four Bitcoin User Profiles [ORIGINAL: lines 1443-1507]
+
+# Part 3: Acquisition Methods
+├── ## Chapter 5: Wallet Basics for Acquisition [ORIGINAL: lines 1286-1386 - partial]
+├── ## Chapter 6: Buying with Identity Verification (KYC) [ORIGINAL: lines 1394-1417]
+└── ## Chapter 7: Buying Without Identity Verification (No-KYC) [ORIGINAL: lines 1419-1441]
+
+# Part 4: Acquisition Strategies by Profile
+├── ## Chapter 8: The Hodler's Acquisition Strategy [ORIGINAL: extracted from Hodler chapter]
+├── ## Chapter 9: The Stacker's DCA Strategy [ORIGINAL: lines 1633-1781]
+├── ## Chapter 10: The Active User's Acquisition Approach [ORIGINAL: extracted]
+└── ## Chapter 11: The Paranoid User's Anonymous Acquisition [ORIGINAL: extracted]
+
+# Part 5: Practical Implementation
+├── ## Chapter 12: Setting Up Your First Purchase [NEW + ORIGINAL]
+└── ## Chapter 13: Going Further [NEW + ORIGINAL]
+
+# Part 6: Conclusion
+└── ## Chapter 14: Conclusion [STANDARD - isCourseConclusion tag]
+```
+
+**Total: 6 Parts, 14 Chapters**
+
+---
+
+#### Quiz Mapping (Estimated 17 quizzes)
+
+| BTC102 Quiz | Topic | BTC105 Quiz | Target Chapter |
+|-------------|-------|-------------|----------------|
+| 035 | User profile factors | 000 | Ch 2/3: Profile |
+| 036 | Investment considerations | 001 | Ch 2/3: Profile |
+| 037 | Wallet selection | 002 | Ch 5: Wallet Basics |
+| 039 | Acquisition basics | 003 | Ch 6/7: Acquisition |
+| 040-042 | Hodler principles | 004-006 | Ch 8: Hodler |
+| 045-049 | Stacker/DCA | 007-011 | Ch 9: Stacker |
+| 050-052 | Active User | 012-014 | Ch 10: Active User |
+| 055-056 | Paranoid buying | 015-016 | Ch 11: Paranoid |
+
+**Note**: Security-focused quizzes (038, 043-044, 053-054, 057-059) go to BTC104.
+
+---
+
+#### Asset Mapping (Estimated 27 images)
+
+| BTC102 Range | Topic | BTC105 Range |
+|--------------|-------|--------------|
+| 065-069 | Profile/Risk | 001-005 |
+| 070-073 | Wallet/Acquisition | 006-009 |
+| 074 | Four profiles | 010 |
+| 075, 077-079 | Hodler | 011-014 |
+| 080, 082-084 | Stacker | 015-018 |
+| 085-086, 088-090 | Active User | 019-023 |
+| 091-092, 095-096 | Paranoid | 024-027 |
+
+**Note**: Security-focused images (076, 081, 087, 093-094) go to BTC104.
+
+---
+
+#### Implementation Checklist
+
+- [ ] Create `courses/btc105/` folder
+- [ ] Create `course.yml` with UUID
+- [ ] Copy relevant images (065-096, exclude security-focused)
+- [ ] Copy/assign quizzes (acquisition-related only)
+- [ ] Create `en.md` with frontmatter
+- [ ] Write NEW intro chapter
+- [ ] Copy profile content (Part 2)
+- [ ] Copy acquisition methods (Part 3)
+- [ ] Extract acquisition strategies from profile chapters (Part 4)
+- [ ] Write practical implementation chapter
+- [ ] Add "Going Further" chapter with BTC104 cross-reference
+- [ ] Add conclusion chapter
+- [ ] Update all image references
+- [ ] Add ORIGINAL/NEW tags
+- [ ] Update quiz chapterIds
+- [ ] Validate markdown structure
 
 ---
 
@@ -464,29 +548,142 @@ See [scu102-creation.md](scu102-creation.md) for detailed implementation steps.
 **Discipline**: Bitcoin (BTC)
 **Level**: Beginner (104)
 **Estimated Duration**: 1.5-2 hours
-**Source**: BTC102 Part 3 - Profile chapters (security strategies)
-**Review Status**: NOT STARTED
+**Source**: BTC102 Part 3 - Wallet and security sections (lines 1286-1386, 1552-1555)
+**Review Status**: ✅ REVIEWED (2026-01-20)
+**Implementation Status**: ✅ **IMPLEMENTED** (2026-01-20)
+**Implementation Doc**: [btc104-creation.md](btc104-creation.md)
 
-**Proposed Structure**:
-- Section 1: Introduction
-- Section 2: Wallet Types
-  - Hot vs Cold wallets
-  - Custodial vs Non-custodial
-- Section 3: Security by Profile
-  - Hodler security (hardware wallets)
-  - Stacker security
-  - Active user security
-  - Paranoid-level security
-- Section 4: Backup & Recovery
-  - Seed phrase management
-  - Multi-signature setups
-- Section 5: Best Practices
-  - Transaction verification
-  - Address management
-- Section 6: Conclusion
+---
 
-**Detailed Review Notes**:
-*(To be filled during in-depth review session)*
+#### Course Philosophy
+
+**Target Audience**: Complete beginners who just acquired (or are about to acquire) their first bitcoin.
+
+**Goal**: A step-by-step guide through the ENTIRE process:
+1. Understanding what wallets are
+2. Choosing the right wallet for their situation
+3. Setting up their first wallet
+4. Securing their seed phrase properly
+5. Receiving bitcoin (from exchange or third party)
+6. Best practices moving forward
+
+**What this course is NOT**:
+- An advanced security encyclopedia (multisig, nodes, etc.)
+- A course for people with large holdings
+- Comprehensive coverage of all security options
+
+**Approach**: Keep it simple, practical, and actionable. Complex topics mentioned briefly with placeholders for future advanced courses.
+
+---
+
+#### Source Content Mapping (BTC102 en.md)
+
+| BTC102 Section | Lines | Relevant Content |
+|----------------|-------|------------------|
+| Wallets and Security Strategies | 1286-1386 | Hot/cold wallets overview |
+| Backup tutorial reference | 1384-1386, 1552-1555 | Seed phrase basics |
+| Hodler chapter | 1536-1564 | Hardware wallet setup |
+| Stacker chapter | 1662-1700 | Hot wallet recommendations, transfer to hardware |
+
+---
+
+#### Course Structure (5 Parts, 14 Chapters)
+
+```
+# Part 1: Introduction
+└── ## Chapter 1: Welcome to BTC104 [NEW]
+└── ## Chapter 2: Why You Need Your Own Wallet [ORIGINAL + NEW]
+
+# Part 2: Understanding Wallets
+├── ## Chapter 3: What Is a Bitcoin Wallet? [NEW + concepts]
+├── ## Chapter 4: Types of Wallets [ORIGINAL: lines 1292-1371 adapted]
+└── ## Chapter 5: Custodial vs Self-Custody [ORIGINAL: lines 1351-1371]
+
+# Part 3: Setting Up Your First Wallet
+├── ## Chapter 6: Choosing Your First Wallet [NEW]
+├── ## Chapter 7: Creating Your Wallet [NEW + tutorial refs]
+├── ## Chapter 8: Securing Your Seed Phrase [ORIGINAL + NEW]
+└── ## Chapter 9: Receiving Your First Bitcoin [NEW + ORIGINAL adapted]
+
+# Part 4: Best Practices & Growing Your Security
+├── ## Chapter 10: Security Best Practices [NEW]
+├── ## Chapter 11: When to Upgrade Your Security [ORIGINAL adapted]
+└── ## Chapter 12: Common Mistakes and How to Avoid Them [NEW]
+
+# Part 5: Conclusion
+├── ## Chapter 13: Your Security Journey [NEW]
+└── ## Chapter 14: Conclusion [STANDARD - isCourseConclusion tag]
+```
+
+**Total: 5 Parts, 14 Chapters**
+
+---
+
+#### Quiz Mapping (3 quizzes from BTC102)
+
+| BTC102 Quiz | BTC104 Quiz | Topic | Target Chapter |
+|-------------|-------------|-------|----------------|
+| 037 | 000 | Wallet selection | Ch 4: Types of Wallets |
+| 047 | 001 | Hardware wallet for long-term | Ch 11: Upgrading Security |
+| 045 | 002 | Hot → Hardware transfer | Ch 11: Upgrading Security |
+
+**Note**: Advanced quizzes (055 metal backup, 058 air-gapped) saved for future advanced course.
+
+---
+
+#### Asset Mapping (3 images)
+
+| BTC102 Image | BTC104 Image | Topic | Chapter |
+|--------------|--------------|-------|---------|
+| 070 | 001 | Wallet overview diagram | Ch 3: What Is a Wallet |
+| 071 | 002 | Hot/Cold comparison | Ch 4: Types of Wallets |
+| 072 | 003 | Hybrid approach diagram | Ch 11: When to Upgrade |
+
+---
+
+#### Tutorial Cross-References
+
+**Hot Wallet Tutorials** (Primary - for beginners):
+- green (Blockstream Green)
+- blue-wallet
+- sparrow (desktop)
+
+**Hardware Wallet Tutorials** (Mentioned for "when to upgrade"):
+- ledger-nano-s-plus, ledger-flex, trezor, bitbox02, jade-plus-green
+
+**Backup Tutorial**:
+- backup-mnemonic (critical for Ch 8)
+
+---
+
+#### Implementation Checklist
+
+- [x] Create `courses/btc104/` folder
+- [x] Create `course.yml` with UUID
+- [x] Copy images (070-072 → 001-003)
+- [x] Copy quizzes (037, 045, 047 → 000-002)
+- [x] Create `en.md` with frontmatter
+- [x] Write NEW chapters (1, 3, 6, 7, 9, 10, 12, 13)
+- [x] Adapt ORIGINAL content (2, 4, 5, 8, 11)
+- [x] Add conclusion chapter with isCourseConclusion tag
+- [x] Update all image references
+- [x] Add ORIGINAL/NEW tags
+- [x] Update quiz chapterIds
+- [x] Validate markdown structure
+
+---
+
+#### Future Advanced Security Course (Placeholder)
+
+Topics saved for a future **BTC2XX - Advanced Bitcoin Security** course:
+- Multisignature wallets (detailed setup)
+- BIP39 passphrases
+- Metal seed backups
+- Running your own node
+- Air-gapped devices
+- Advanced UTXO management
+
+This keeps BTC104 focused and beginner-friendly.
 
 ---
 
@@ -494,27 +691,101 @@ See [scu102-creation.md](scu102-creation.md) for detailed implementation steps.
 **Discipline**: Sovereignty (SOV)
 **Level**: Beginner (102)
 **Estimated Duration**: 1-1.5 hours
-**Source**: BTC102 Part 4 - "Protecting Your Heirs and Wealth"
-**Review Status**: NOT STARTED
+**Source**: BTC102 Part 4 - "Protecting Your Heirs and Wealth" (lines 2192-2420)
+**Review Status**: ✅ REVIEWED (2026-01-20)
+**Implementation Status**: ✅ **IMPLEMENTED** (2026-01-20)
+**Implementation Doc**: [sov102-creation.md](sov102-creation.md)
 
-**Proposed Structure**:
-- Section 1: Introduction
-- Section 2: Why Inheritance Planning Matters
-  - The problem of lost Bitcoin
-  - Goals of a succession plan
-- Section 3: Preparation Steps
-  - Inventory creation
-  - Selecting trusted assistants
-- Section 4: Creating Your Plan
-  - The inheritance letter
-  - Technical vs non-technical heirs
-- Section 5: Review & Storage
-  - Secure storage methods
-  - Regular updates
-- Section 6: Conclusion
+---
 
-**Detailed Review Notes**:
-*(To be filled during in-depth review session)*
+#### Source Content Mapping (BTC102 en.md)
+
+| BTC102 Section | Lines | Content |
+|----------------|-------|---------|
+| Creating an inheritance plan | 2196-2419 | Full inheritance planning content |
+| Why it's necessary | 2204-2214 | Motivation for inheritance planning |
+| Goals (Pamela Morgan's 4 goals) | 2215-2228 | Four key objectives |
+| Example profile (Cédric) | 2230-2244 | Sample user profile |
+| Before you start | 2246-2259 | Preparation, tools needed |
+| Common misconceptions | 2263-2272 | Debunking myths |
+| Step 1: Select trusted people | 2276-2299 | Choosing assistants |
+| Step 2: Create inventory | 2300-2324 | Asset cataloging |
+| Step 3: Write the letter | 2325-2392 | Drafting inheritance letter |
+| Step 4: Review and store | 2398-2419 | Final steps, storage |
+
+---
+
+#### Course Structure (5 Parts, 11 Chapters)
+
+```
+# Part 1: Introduction
+├── Ch 1: Welcome to SOV102 [NEW]
+└── Ch 2: Why Bitcoin Inheritance Matters [ORIGINAL]
+
+# Part 2: Preparation
+├── Ch 3: Common Misconceptions [ORIGINAL]
+├── Ch 4: What You'll Need [ORIGINAL]
+└── Ch 5: Understanding Your Profile [ORIGINAL]
+
+# Part 3: Creating Your Plan
+├── Ch 6: Step 1 - Select Trusted Assistants [ORIGINAL]
+├── Ch 7: Step 2 - Create Your Inventory [ORIGINAL]
+└── Ch 8: Step 3 - Write the Inheritance Letter [ORIGINAL]
+
+# Part 4: Finalize and Maintain
+├── Ch 9: Step 4 - Review and Store [ORIGINAL]
+└── Ch 10: Going Further [NEW]
+
+# Part 5: Conclusion
+└── Ch 11: Conclusion [STANDARD - isCourseConclusion tag]
+```
+
+**Total: 5 Parts, 11 Chapters**
+
+---
+
+#### Quiz Mapping (5 quizzes)
+
+| BTC102 Quiz | SOV102 Quiz | Question Topic | Target Chapter |
+|-------------|-------------|----------------|----------------|
+| 060 | 000 | Role of inheritance letter | Ch 8: Write the Letter |
+| 061 | 001 | Why handwritten on paper | Ch 8: Write the Letter |
+| 062 | 002 | Not giving mnemonic to one person | Ch 6: Trusted Assistants |
+| 063 | 003 | Risk of too much info disclosure | Ch 8: Write the Letter |
+| 064 | 004 | Clear instructions essential | Ch 8: Write the Letter |
+
+---
+
+#### Asset Mapping (4 images)
+
+| BTC102 Image | SOV102 Image | Topic | Chapter |
+|--------------|--------------|-------|---------|
+| 097 | 001 | Pamela Morgan's book cover | Ch 2: Why Inheritance Matters |
+| 098 | 002 | Cédric's profile diagram | Ch 5: Understanding Your Profile |
+| 099 | 003 | Tools needed | Ch 4: What You'll Need |
+| 100 | 004 | Sealed envelope storage | Ch 9: Review and Store |
+
+**Total images**: 4 (renumbered from BTC102 097-100 to SOV102 001-004)
+
+---
+
+#### Implementation Checklist
+
+- [x] Create `courses/sov102/` folder
+- [x] Create `course.yml` with UUID
+- [x] Copy images (097-100 → 001-004)
+- [x] Copy quizzes (060-064 → 000-004)
+- [x] Create `en.md` with frontmatter
+- [x] Write NEW intro chapter
+- [x] Copy Part 2 content (Preparation)
+- [x] Copy Part 3 content (Creating Your Plan)
+- [x] Copy Part 4 content (Finalize and Maintain)
+- [x] Add "Going Further" chapter
+- [x] Add conclusion chapter with isCourseConclusion tag
+- [x] Update all image references
+- [x] Add ORIGINAL/NEW tags
+- [x] Update quiz chapterIds
+- [x] Validate markdown structure
 
 ---
 
@@ -675,10 +946,10 @@ Review each course one by one to:
 1. [x] SCU102 - Financial Fraud, Scams & Online Security ✅ **IMPLEMENTED**
 2. [x] BTC103 - Why Bitcoin Matters ✅ **IMPLEMENTED**
 3. [x] BIZ102 - Bitcoin Industry Overview ✅ **IMPLEMENTED**
-4. [ ] BTC105 - How to Acquire Bitcoin ← **NEXT**
-5. [ ] BTC104 - How to Secure Bitcoin
-6. [ ] SOV102 - Bitcoin Inheritance Planning
-7. [ ] BTC102v2 - Hub Course
+4. [x] BTC105 - How to Acquire Bitcoin ✅ **IMPLEMENTED**
+5. [x] BTC104 - How to Secure Bitcoin ✅ **IMPLEMENTED**
+6. [x] SOV102 - Bitcoin Inheritance Planning ✅ **IMPLEMENTED**
+7. [ ] BTC102v2 - Hub Course ← **NEXT**
 
 ### Phase 3: Course Creation (After all reviews approved)
 For each course:
@@ -855,9 +1126,27 @@ courses/
 │   │   └── en/      # ✅ 11 images (001-011.webp)
 │   └── quizz/       # ✅ 10 quizzes (000-009)
 │
-├── btc105/          # NEW - How to Acquire Bitcoin
-├── btc104/          # NEW - How to Secure Bitcoin
-├── sov102/          # NEW - Bitcoin Inheritance Planning
+├── btc105/          # NEW - How to Acquire Bitcoin ✅ IMPLEMENTED
+│   ├── course.yml   # ✅ Has id, type, teaching_format
+│   ├── en.md        # ✅ Correct structure (6 parts, 18 chapters)
+│   ├── assets/
+│   │   └── en/      # ✅ 4 images (001-004.webp)
+│   └── quizz/       # ✅ 9 quizzes (000-008)
+│
+├── btc104/          # NEW - How to Secure Bitcoin ✅ IMPLEMENTED
+│   ├── course.yml   # ✅ Has id, type, teaching_format
+│   ├── en.md        # ✅ Correct structure (5 parts, 14 chapters)
+│   ├── assets/
+│   │   └── en/      # ✅ 3 images (001-003.webp)
+│   └── quizz/       # ✅ 3 quizzes (000-002)
+│
+├── sov102/          # NEW - Bitcoin Inheritance Planning ✅ IMPLEMENTED
+│   ├── course.yml   # ✅ Has id, type, teaching_format
+│   ├── en.md        # ✅ Correct structure (5 parts, 11 chapters)
+│   ├── assets/
+│   │   └── en/      # ✅ 4 images (001-004.webp)
+│   └── quizz/       # ✅ 5 quizzes (000-004)
+│
 └── btc102v2/        # LAST - Hub course (replaces btc102 eventually)
 ```
 
@@ -876,6 +1165,10 @@ courses/
 | 2026-01-19 | Claude/Rogzy | **RENAMED** ECO105 → BTC103-new: Renamed folder eco105 to btc103-new, updated btc103-creation.md (formerly eco105-creation.md), updated all references in master plan. |
 | 2026-01-19 | Claude/Rogzy | **FIX** Course code conflict: Renamed "How to Acquire Bitcoin" from BTC103 → BTC105 to avoid conflict with renamed "Why Bitcoin Matters" course. |
 | 2026-01-19 | Claude/Rogzy | **IMPLEMENTED** BIZ102: Created folder structure, en.md (with ORIGINAL/NEW tags), copied quizzes (025-034 → 000-009), copied & renumbered assets (054-064 → 001-011), updated quiz chapterIds. 5 Parts, 12 Chapters, 10 quizzes, 11 images. Created biz102-creation.md implementation doc. |
+| 2026-01-19 | Claude/Rogzy | **REVIEWED** BTC105: In-depth review completed. 6 Parts, 14 Chapters, ~17 quizzes, ~27 images. Source: BTC102 Part 3 lines 1195-2191. Note: BTC105 (acquisition) and BTC104 (security) share source content - extraction approach documented. Created btc105-creation.md implementation doc. |
+| 2026-01-20 | Claude/Rogzy | **IMPLEMENTED** BTC105: Created folder structure, course.yml, en.md (6 Parts, 18 Chapters with NEW chapters for ETFs, Treasury/TradFi, Taxes, Selling). Copied relevant assets (4 images), copied & adapted quizzes (9 quizzes from BTC102). Method-based approach instead of profile-based. Includes clear ORIGINAL/NEW content tags. |
+| 2026-01-20 | Claude/Rogzy | **IMPLEMENTED** BTC104: Created folder structure, course.yml, en.md (5 Parts, 14 Chapters). Beginner-focused, step-by-step wallet setup guide. Copied 3 images (070-072 → 001-003), 3 quizzes (037, 045, 047 → 000-002). Advanced topics (multisig, passphrases, nodes) noted as placeholders for future course. |
+| 2026-01-20 | Claude/Rogzy | **IMPLEMENTED** SOV102: Created folder structure, course.yml, en.md (5 Parts, 11 Chapters). Follows Pamela Morgan's methodology. Copied 4 images (097-100 → 001-004), 5 quizzes (060-064 → 000-004). Preserves Pamela Morgan attribution and legal disclaimer. |
 
 ---
 
@@ -886,7 +1179,7 @@ When starting a new session, point Claude to this document:
 2. Check the "Course Review Status" table to see what's next
 3. Continue with the next course marked "NOT STARTED"
 
-**Current Next Step**: In-depth review of BTC105 (How to Acquire Bitcoin)
+**Current Next Step**: Create BTC102v2 (Hub Course) - the final course that ties all split courses together
 
 ---
 

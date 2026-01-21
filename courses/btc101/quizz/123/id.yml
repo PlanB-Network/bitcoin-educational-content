@@ -1,4 +1,4 @@
-question: Mengapa jumlah konfirmasi dalam transaksi Bitcoin penting?
+question: Apa arti dari jumlah konfirmasi dalam sebuah transaksi Bitcoin?
 answer: Semakin banyak konfirmasi yang dimiliki sebuah transaksi, semakin tidak dapat diubah transaksi tersebut.
 wrong_answers:
   - Semakin banyak konfirmasi yang dimiliki sebuah transaksi, semakin berharga transaksi tersebut.

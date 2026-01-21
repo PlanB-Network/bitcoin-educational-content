@@ -25,7 +25,7 @@ Kuva ico gihe, abanyabwenge benshi baratanguye gushigikira ico ciyumviro, bemera
 
 
 
-Ubwa nyuma, Leta itegerezwa kwemera ko ibintu bigendagenda ataco bimaze, ivyo bikaba vyatumye bamwe bongerako ijambo « laissez-passer » ku laissez-faire, bigatuma abaguzi bashobora kugura ku giciro ciza kuruta ibindi vyose, bigatuma haba amahoro n’ubuvukanyi hagati y’amahanga (Quesnay n’aba Physiocrates, Abbé de Saint-Piertre). Mu kurwanira ico ciyumviro co kurekura ivyo umuntu akora, abahinga mu vy’ubutunzi b’Abafaransa bo mu kinjana ca 18 barashizeho imishinge y’ubuhinga bw’ubutunzi. Kubera ko baganje igihe cabo, baracari n’ububasha bwo kuyobora icacu.
+Ubwa nyuma, Leta itegerezwa kwemera ko ibintu bigendagenda ataco bimaze, ivyo bikaba vyatumye bamwe bongerako ijambo « laissez-passer » ku laissez-faire, bigatuma abaguzi bashobora kugura ku giciro ciza kuruta ibindi vyose, bigatuma haba amahoro n’ubuvukanyi hagati y’amahanga (Quesnay n’aba Physiocrates, Abbé de Saint-Pierre). Mu kurwanira ico ciyumviro co kurekura ivyo umuntu akora, abahinga mu vy’ubutunzi b’Abafaransa bo mu kinjana ca 18 barashizeho imishinge y’ubuhinga bw’ubutunzi. Kubera ko baganje igihe cabo, baracari n’ububasha bwo kuyobora icacu.
 
 
 +++
@@ -355,19 +355,19 @@ Cantillon akoresheje iyo nyigisho yerekeye ingaruka z’ugutera imbere kw’ibic
 <partId>1f7b50d4-ce93-5db3-8396-43c1fa5419ff</partId>
 
 
-## Padiri wa Saint-Pierre
+##  Abbé de Saint-Pierre
 
 
 <chapterId>13478fe2-4c12-593c-a410-54c2cfb7ef7f</chapterId>
 
 
-Mu banditsi bose twahisemwo gushiramwo mu rutonde rw’abanyabwenge b’Abafaransa bo mu kinjana ca 18, nta gukeka ko padiri wa Saint-Pierre ari we yirengagijwe cane.
+Mu banditsi bose twahisemwo gushiramwo mu rutonde rw’abanyabwenge b’Abafaransa bo mu kinjana ca 18, nta gukeka ko  Abbé de Saint-Pierre ari we yirengagijwe cane.
 
 
 ![image](assets/fr/023.webp)
 
 
-Kugira ngo tuvuge ukuri, ni igice c’ikosa ryiwe bwite. Yanditse vyinshi cane, ariko uburyo bwiwe bwo gusoma ni Hard kandi buzuyemwo ugusubiramwo. Mbere na Jean-Jacques Rousseau yaragerageje gucapura igikorwa ciwe: yaratanguye kubikora, ariko ntiyatevye guheba ico gikorwa, kuko yabonye ko cari kirenze inkomezi ziwe. Mu kinjana ca 19 hagati, Gustave de Molinari yaramuteye iteka mu gusohora igitabu kirimwo ibintu vyinshi bimuvugako, aho yashimira umunyapacifiste n’umuhinga mu vy’ubutunzi uwo padiri wa Saint-Pierre yari. Ariko ivyo ntivyari bihagije kugira ngo amukure mu kwibagirwa, nk’uko aguma muri vyo n’ubu.
+Kugira ngo tuvuge ukuri, ni igice c’ikosa ryiwe bwite. Yanditse vyinshi cane, ariko uburyo bwiwe bwo gusoma ni Hard kandi buzuyemwo ugusubiramwo. Mbere na Jean-Jacques Rousseau yaragerageje gucapura igikorwa ciwe: yaratanguye kubikora, ariko ntiyatevye guheba ico gikorwa, kuko yabonye ko cari kirenze inkomezi ziwe. Mu kinjana ca 19 hagati, Gustave de Molinari yaramuteye iteka mu gusohora igitabu kirimwo ibintu vyinshi bimuvugako, aho yashimira umunyapacifiste n’umuhinga mu vy’ubutunzi uwo  Abbé de Saint-Pierre yari. Ariko ivyo ntivyari bihagije kugira ngo amukure mu kwibagirwa, nk’uko aguma muri vyo n’ubu.
 
 
 ![image](assets/fr/024.webp)
@@ -376,7 +376,7 @@ Kugira ngo tuvuge ukuri, ni igice c’ikosa ryiwe bwite. Yanditse vyinshi cane, 
 ![image](assets/fr/025.webp)
 
 
-Padiri wa Saint-Pierre yanditse ku vyerekeye ubutunzi, ariko ni nk’umunyapacifiste akenshi akunda. Ni we yanditse igitabu citwa Projet pour la paix perterne, kikaba cabanjirije igitabu kizwi cane canditswe na Emmanuel Kant.
+Abbé de Saint-Piertre yanditse ku vyerekeye ubutunzi, ariko ni nk’umunyapacifiste akenshi akunda. Ni we yanditse igitabu citwa Projet pour la paix perterne, kikaba cabanjirije igitabu kizwi cane canditswe na Emmanuel Kant.
 
 
 ![image](assets/fr/026.webp)
@@ -388,13 +388,13 @@ Muri ico gikorwa, yavuze ko intambara ari iyo gusenyura, atari ku bayitakaza gus
 Kugira ngo arwanye ico kiza c’intambara, yarasavye ko hashingwa ubwoko bumwe bw’Ishirahamwe ry’Amahanga ry’i Buraya. Hazoshingwa inama y’i Buraya yo gutorera umuti ingorane z’igihugu cose. Amahanga rero yokoresheje ubukemurampaka, kugira ngo ntiyakoreshe ibirwanisho. Iyo ihanga ritagira ubwenge buhagije bwo kwakira amahoro, iyo ritera ubwoba ibindi bihugu vy’i Buraya, ishirahamwe ry’ibihugu vy’i Buraya ryoba rifise uburyo bwo kwishura. Kubera ivyo bintu vyari guhangana n’ivyo bintu, hazoshingwa ingabo z’Uburaya, zikaba zifise ingabo zitangwa n’ibihugu bitandukanye.
 
 
-Hariho kandi ikiganiro mu buzima bwa padiri wa Saint-Pierre kigaragaza neza cane ivyiyumviro bikomeye biri inyuma y'umuhari w'abafaransa wo kwirekura. Yinjiye muri Académie Française(ikigo c'abafaransa) mu 1695, ariko yirukanwa mu 1718 kubera yari afise ubutwari bwo kunegura ubutegetsi bwa Louis XIV. Muri ivyo, yarifatanije n’abantu nka Vauban na Boisguilbert, na bo nyene bari barateye ubwoba bwo kuvuga barwanya amabanga yari yihishije munsi y’ubwiza bw’ingoma y’Umwami w’Izuba.
+Hariho kandi ikiganiro mu buzima bwa  Abbé de Saint-Pierre kigaragaza neza cane ivyiyumviro bikomeye biri inyuma y'umuhari w'abafaransa wo kwirekura. Yinjiye muri Académie Française(ikigo c'abafaransa) mu 1695, ariko yirukanwa mu 1718 kubera yari afise ubutwari bwo kunegura ubutegetsi bwa Louis XIV. Muri ivyo, yarifatanije n’abantu nka Vauban na Boisguilbert, na bo nyene bari barateye ubwoba bwo kuvuga barwanya amabanga yari yihishije munsi y’ubwiza bw’ingoma y’Umwami w’Izuba.
 
 
 ![image](assets/fr/027.webp)
 
 
-Umukuru padiri wa Saint-Pierre yavuze yuko ubutegetsi bwa Louis XIV, n’urugo rwayo rwiza cane be n’ugukunda cane kwigarurira ibihugu mu gisirikare, atari ikimenyetso c’umwami w’ingeso nziza. Yanse kwemera ko Louis XIV akwiriye izina ry'icubahiro rya "**Louis le Grand**".
+Umukuru  Abbé de Saint-Pierre yavuze yuko ubutegetsi bwa Louis XIV, n’urugo rwayo rwiza cane be n’ugukunda cane kwigarurira ibihugu mu gisirikare, atari ikimenyetso c’umwami w’ingeso nziza. Yanse kwemera ko Louis XIV akwiriye izina ry'icubahiro rya "**Louis le Grand**".
 
 
 ![image](assets/fr/028.webp)
@@ -409,7 +409,7 @@ Ati: "Gusambura ababanyi n'abantu igihe si igikorwa c'ubutwari". Ico kibanza car
 Ku bijanye n’ivyiyumviro vy’ubutunzi, yarashira mu ngiro ubudasiba ingingo ngenderwako y’ubuhinga, nk’uko nyene Jeremy Bentham yari kubigira mu nyuma, kandi kenshi yaratanga ubumenyi bubereye. Kugira ngo tuvuge ukuri, yari agikwegerewe n’ivyiyumviro vy’ubudandaji, ivyo ata n’umwe yari yarabivuyemwo bimwe bishitse ico gihe.
 
 
-Naho ari ukwo, padiri wa Saint-Pierre yaravuze ibintu bimwebimwe ata co bihinduye ku bijanye n’ubutunzi. Mbere n’imbere ya *Condillac*, akenshi bavuga ko ari we afise ico ciyumviro, yaravuze neza ko mu guhanahana iyariyo yose, abo bompi bavyungukirako. Ivyo turashobora kubisanga mu gitabu ciwe co mu 1733 ["Umugambi wo guteza imbere ubudandaji bw'Ubufaransa"](https://www.institutcoppet.org/projet-pour-perfectionnement-le-commerce-de-france/), aho yanditse ngo:
+Naho ari ukwo,  Abbé de Saint-Pierre yaravuze ibintu bimwebimwe ata co bihinduye ku bijanye n’ubutunzi. Mbere n’imbere ya *Condillac*, akenshi bavuga ko ari we afise ico ciyumviro, yaravuze neza ko mu guhanahana iyariyo yose, abo bompi bavyungukirako. Ivyo turashobora kubisanga mu gitabu ciwe co mu 1733 ["Umugambi wo guteza imbere ubudandaji bw'Ubufaransa"](https://www.institutcoppet.org/projet-pour-perfectionnement-le-commerce-de-france/), aho yanditse ngo:
 
 
 > "Igihe ugurisha gukorwa hagati y'abadandaza, uwugurisha araronka inyungu, n'umuguzi na we nyene; kuko iyo hataba inyungu nyayo canke ibonwa ku mpande zose, nta n'umwe mu bagurisha yogurisha ku giciro nk'ico, canke umuguzi, ku ruhande rwiwe, ntiyogura ku giciro nk'ico".
@@ -457,13 +457,13 @@ Yaremeye kandi iyindi ngingo ngenderwako nyamukuru ya Smith: iciyumviro c’uko 
 
 
 
-Mbere n’imbere ya Adamu Smith, yaratahuye ko kwikunda bijana ku nyungu rusangi biciye mu kwubaka urutonde rw’ibinyabuzima rwihuta.
+Mbere n’imbere ya Adam Smith, yaratahuye ko kwikunda bijana ku nyungu rusangi biciye mu kwubaka urutonde rw’ibinyabuzima rwihuta.
 
 
 ![image](assets/fr/034.webp)
 
 
-Yagereranije ikibano n'umuzinga w'inzuki aho uruyuki rwose rukwirikiza kamere karwo, "Kuva ku bikorwa vyaco", yavuze neza na neza, "vyavuyemwo ukwirundanira kwinshi kw'ivyo ikibano gito gikeneye; ariko ivyo ntivyazanywe n'amabwirizwa, canke n'abajenerali, bategeka umuntu wese gukurikiza ivyiyumviro vy'umurongozi wabo". Iyi kumbure ni imvugo yegereye cane mu vyiyumviro vy'ubutunzi vy'Abafaransa n'iciyumviro kizwi cane ca Adamu Smith c'"ukuboko kutaboneka".
+Yagereranije ikibano n'umuzinga w'inzuki aho uruyuki rwose rukwirikiza kamere karwo, "Kuva ku bikorwa vyaco", yavuze neza na neza, "vyavuyemwo ukwirundanira kwinshi kw'ivyo ikibano gito gikeneye; ariko ivyo ntivyazanywe n'amabwirizwa, canke n'abajenerali, bategeka umuntu wese gukurikiza ivyiyumviro vy'umurongozi wabo". Iyi kumbure ni imvugo yegereye cane mu vyiyumviro vy'ubutunzi vy'Abafaransa n'iciyumviro kizwi cane ca Adam Smith c'"ukuboko kutaboneka".
 
 
 Marquis d’Argenson yama ashavuzwa n’ivyiyumviro vy’abashikiranganji bo mu gihe ciwe. Ikibazo conyene babajije ni iki: "Twoba dukwiye gutegeka gutyo canke gutya? Twoba dukwiye kuyobora ubutunzi muri ubu canke muri ubwo?". Ivyo d’Argenson arishura ati: «Mbega ntidukwiye kubanza kubaza nimba bibereye kuyobora ikintu na kimwe muri vyo na gato, canke nimba ibintu bikwiye gusigara bikora ubwavyo?»
@@ -553,7 +553,7 @@ Ica gatatu, ubudandaji bwo mu Bufaransa bwari bufise aho bugarukira kubera amate
 Ubwa nyuma, Gournay yavuze yuko inyungu zari hasi cane mu Bwongereza no mu Buholandi, ivyo bikaba ari ibihugu vyari biteye imbere kuruta Ubufaransa. Yasavye ko inyungu zigabanywa no mu Bufaransa, kugira ngo ibikorwa vy’ubutunzi bishobore gufashwa ng’aho ku buryo bubereye nk’ahandi. Ariko rero, Gournay ntiyarondeye uburyo bwo guhatira, bwo gushinga amategeko; ahubwo yashimikiye ko bikenewe ko inguzanyo y’amahera yemezwa, ivyo bikaba vyari bikiriko biracirwa urubanza na Ekleziya Gatolika.
 
 
-Ku bijanye n’izo ngingo zose, Gournay yarafise uruhara runini mu mpari z’ubwenge zo hagati mu kinjana ca 18. Ugukingira kwiwe umwidegemvyo w’ubutunzi kwabanjirije aba Physiocrates imyaka cumi, Adamu Smith na we imyaka mirongo ibiri. Ariko akosho kiwe karamba cane kari kuri Turgot. Gournay yafashe uwo musore Turgot munsi munsi y'amababa yiwe, aramumenyereza n’ivyiyumviro vyiwe.
+Ku bijanye n’izo ngingo zose, Gournay yarafise uruhara runini mu mpari z’ubwenge zo hagati mu kinjana ca 18. Ugukingira kwiwe umwidegemvyo w’ubutunzi kwabanjirije aba Physiocrates imyaka cumi, Adam Smith na we imyaka mirongo ibiri. Ariko akosho kiwe karamba cane kari kuri Turgot. Gournay yafashe uwo musore Turgot munsi munsi y'amababa yiwe, aramumenyereza n’ivyiyumviro vyiwe.
 
 
 ![image](assets/fr/040.webp)
@@ -741,7 +741,7 @@ François Quesnay ni umwe mu bahinga b'ubutunzi bazwi cane mu Bufaransa.
 ![image](assets/fr/057.webp)
 
 
-Izina ryiwe riboneka mu gitabu cose c’inyigisho z’ubutunzi n’amateka y’ivyiyumviro vy’ubutunzi. Bivugwa ko yaremye "Tableau Économique(ikibaho c'ubutunzi)" kugira ngo aserukire ubutunzi mu buryo butegekanijwe, ko ari we yarongoye ishure ry'ubuhinga bwa none, kandi ko yihenze mu kwizera ko ubutaka bwonyene ari bwo butanga umwimbu, kandi ko mu nyuma, ko Adamu Smith yaje kugorora ivy'ubutunzi. Ivyo, cane canke bike, ni ko ibitabu vy’inyigisho bikunda gucapura mu ncamake François Quesnay.
+Izina ryiwe riboneka mu gitabu cose c’inyigisho z’ubutunzi n’amateka y’ivyiyumviro vy’ubutunzi. Bivugwa ko yaremye "Tableau Économique(ikibaho c'ubutunzi)" kugira ngo aserukire ubutunzi mu buryo butegekanijwe, ko ari we yarongoye ishure ry'ubuhinga bwa none, kandi ko yihenze mu kwizera ko ubutaka bwonyene ari bwo butanga umwimbu, kandi ko mu nyuma, ko Adam Smith yaje kugorora ivy'ubutunzi. Ivyo, cane canke bike, ni ko ibitabu vy’inyigisho bikunda gucapura mu ncamake François Quesnay.
 
 
 ![image](assets/fr/058.webp)
@@ -910,7 +910,7 @@ Iryo ni ijambo ridatomoye. Nta munyeshure wo muri Quesnay yaduhaye insobanuro ya
 
 
 
-Ico ciyumviro ca mbere ni co cateye umutima uhagaze abahinga mu vya kahise. Ubu, mu bitabu vy’inyigisho canke mu vyigwa vy’ubutunzi, ni ko aba Physiocrates bavugwa mu ncamake. Bivugwa ko barizera ataco bazi ko uburimyi bwonyene ari bwo butanga umwimbu. Kuri ivyo, inyigisho yabo irakurwaho nk’iyitagira akamaro, maze isesengura rikaja kuri Adamu Smith.
+Ico ciyumviro ca mbere ni co cateye umutima uhagaze abahinga mu vya kahise. Ubu, mu bitabu vy’inyigisho canke mu vyigwa vy’ubutunzi, ni ko aba Physiocrats bavugwa mu ncamake. Bivugwa ko barizera ataco bazi ko uburimyi bwonyene ari bwo butanga umwimbu. Kuri ivyo, inyigisho yabo irakurwaho nk’iyitagira akamaro, maze isesengura rikaja kuri Adam Smith.
 
 
 Ariko rero, ntibibereye kunegura aba physiocrats ko baha agaciro kadasanzwe uburimyi, kuko hagati mu kinjana ca 18, uburimyi bwakoresha ibice 90 kw'ijana(90%) vy’abanyagihugu, kandi ni bwo bwari umushinge w’ubutunzi bw’Ubufaransa.
@@ -952,7 +952,7 @@ Tocqueville yaravuze neza yuko Aba physiocrats banse demokarasi bakibona uburyo 
 ### Ingingo ya gatatu: kwubahiriza ata gukeka utbutunzi(itongo) ry’umuntu yigabira
 
 
-Aba physiocrats bemera ko abantu bakeneye kugira ivyo bavuye mu bikorwa vyabo no kubizigama. Mu vyiyumviro vyabo, uburenganzira bwo kuronka itunga ni bwo bwari umushinge nyawo w’ikibano. Biyumvira ko Leta ifise igikorwa kimwe nyamukuru: ni ugukingira ivy’abantu. Ikindi kandi, mu vy’ubutunzi, aba Physiocrates bemeza ko ukudashobora guhungabanywa kw’itunga biremesha igikorwa n’inguvu kandi ko ari ikintu gikenewe kugira ngo ubutunzi butere imbere.
+Aba physiocrats bemera ko abantu bakeneye kugira ivyo bavuye mu bikorwa vyabo no kubizigama. Mu vyiyumviro vyabo, uburenganzira bwo kuronka itunga ni bwo bwari umushinge nyawo w’ikibano. Biyumvira ko Leta ifise igikorwa kimwe nyamukuru: ni ugukingira ivy’abantu. Ikindi kandi, mu vy’ubutunzi, aba Physiocrats bemeza ko ukudashobora guhungabanywa kw’itunga biremesha igikorwa n’inguvu kandi ko ari ikintu gikenewe kugira ngo ubutunzi butere imbere.
 
 
 ![image](assets/fr/076.webp)
@@ -998,7 +998,7 @@ Aba physiocrats barwanya cane ubuja, na bo nyene bari abakunda amahoro bakomeye.
 Nk’uko twabibonye mu kigabane ca mbere mu bigabane bitatu vyerekeye aba physiocrats, abayoboke ba Quesnay bose ni bo bari abashavu mu Bufaransa mu myaka nk’icumi. Uwo mutima wo gukunda ivyiyumviro vyabo wariyerekenaye  mu bihe vyabo, kandi warabandanije gushika mu mpera z’ikinjana. Aha, turaza kuraba bimwe mu vyo bagezeko n’ingene bagize ico bakoze ku babakurikiye mu bijanye n’ivyiyumviro vy’ubutunzi.
 
 
-Ico bashoboye gukora cane, bakurikije umugwi wa Gournay, ni ugukwiragiza ivyiyumviro vy’ubutunzi. Imvugo izwi cane ya Voltaire irazwi cane: nko mu 1750, ihanga, ryari ryuzuye imivugo n’ibitabu, ryaratanguye gutekereza ku bijanye n’ibinyantete. Aba physiocrats bari muri uwo muhari, barasohora amajana n’amajana y’ingingo, udutabu n’ibitabu vyerekeye umwidegemvyo w’ubudandaji bw’intete. Inguvu zikomeye aba Physiocrates bahaye ibiganiro vy’ubutunzi ziraboneka kandi mu mubare munini w’ibitabu vy’ubutunzi n’udutabu twasohowe mu Bufaransa kuva mu 1760 gushika mu 1775. Nk’ikindi kimenyamenya c’uko ivyiyumviro vy’ubutunzi vyakwiragiye mu Bufaransa, umuntu aribuka amajambo ya M. de Vaublanc yavuze mu mwaka wa 1760. nta kindi yavuga atari ubutunzi. Ati: «Ni co cari umuderi». "Bose bari abahinga mu vy'ubutunzi".
+Ico bashoboye gukora cane, bakurikije umugwi wa Gournay, ni ugukwiragiza ivyiyumviro vy’ubutunzi. Imvugo izwi cane ya Voltaire irazwi cane: nko mu 1750, ihanga, ryari ryuzuye imivugo n’ibitabu, ryaratanguye gutekereza ku bijanye n’ibinyantete. Aba physiocrats bari muri uwo muhari, barasohora amajana n’amajana y’ingingo, udutabu n’ibitabu vyerekeye umwidegemvyo w’ubudandaji bw’intete. Inguvu zikomeye aba Physiocrats bahaye ibiganiro vy’ubutunzi ziraboneka kandi mu mubare munini w’ibitabu vy’ubutunzi n’udutabu twasohowe mu Bufaransa kuva mu 1760 gushika mu 1775. Nk’ikindi kimenyamenya c’uko ivyiyumviro vy’ubutunzi vyakwiragiye mu Bufaransa, umuntu aribuka amajambo ya M. de Vaublanc yavuze mu mwaka wa 1760. nta kindi yavuga atari ubutunzi. Ati: «Ni co cari umuderi». "Bose bari abahinga mu vy'ubutunzi".
 
 
 Ugukingira ivyiyumviro vyabo, mu bitabu, mu dutabu, no mu kinyamakuru cabo *Les Éphémérides du Citoyen*, vyaciye bigira ingaruka vuba ku bijanye n’ubutunzi bw’Ubufaransa. Mu 1763, harasohotse itegeko ryaha umwidegemvyo wo gucuruza ibinyantete, ivyo Quesnay na Mirabeau bari barasavye cane. Incuro nyinshi, abategetsi bararoroheje kandi amabwirizwa agenga amashirahamwe y’ubudandaji kugira ngo umuntu agire umwidegemvyo mwinshi wo gukora.
@@ -1032,7 +1032,7 @@ Naho yavuye mu Bufaransa nk'ujanye intsinzi, ukwakira kwari kumurindiriye i Sain
 Muri Suède, bari kumwe na Gustav III(wa gatatu), no mu Butaliyano, bari kumwe na Léopold wa Toscane, Aba physiocrats na bo nyene bararonse abayoboke biteguriye gushira mu ngiro ivyiyumviro vyabo.
 
 
-Mu Bufaransa, aba Physiocrates baramenyekanye cane igihe Turgot yashirwaho ngo abe Umugenzuzi Mukuru w'Ivy'ubutunzi mu 1774.
+Mu Bufaransa, aba Physiocrats baramenyekanye cane igihe Turgot yashirwaho ngo abe Umugenzuzi Mukuru w'Ivy'ubutunzi mu 1774.
 
 
 ![image](assets/fr/081.webp)
@@ -1058,7 +1058,7 @@ Yararwanye kandi, ariko ntaco vyatanze, n’abashinzwe. Naho ivyo vyananiwe, ici
 
 
 
-Aba physiocrats na bo nyene baragize ico bakoze cane ku mateka y’ivyiyumviro vy’ubutunzi. Adamu Smith, yagendeye Ubufaransa maze ahura na benshi muri bo, yarakozweko cane n’igikorwa cabo. Yariyumviriye mbere no kumuharira(kumutura) *Ubutunzi bw'Amahanga(The Wealth of Nations )* Quesnay.
+Aba physiocrats na bo nyene baragize ico bakoze cane ku mateka y’ivyiyumviro vy’ubutunzi. Adam Smith, yagendeye Ubufaransa maze ahura na benshi muri bo, yarakozweko cane n’igikorwa cabo. Yariyumviriye mbere no kumuharira(kumutura) *Ubutunzi bw'Amahanga(The Wealth of Nations )* Quesnay.
 
 
 ![image](assets/fr/085.webp)
@@ -1230,7 +1230,7 @@ Mu mpera, ubucuti abafilozofe bafitaniye n’ivyiyumviro vy’ubutunzi buravanze
 <chapterId>a8cd8185-8351-556b-8011-3a0c313e8a9d</chapterId>
 
 
-Mu gice kizwi cane co mu gitabu ciwe *History of Economic Thought*, umuhinga mu vy'ubutunzi w'Umunyamerika Murray Rothbard yarashimye ivyo yise "ubukerebutsi" bwa Turgot.
+Mu gice kizwi cane co mu gitabu ciwe *History of Economic Thought*, umuhinga mu vy'ubutunzi w'Umunyamerika Murray Rothbard yarashimye ivyo yise "ubunyabwenga" bwa Turgot.
 
 
 
@@ -1243,7 +1243,7 @@ bamugaragaza nk’umuhinga mu vy’ubutunzi akomeye kuruta abandi bose bo mu kin
 ![image](assets/fr/104.webp)
 
 
-None Turgot yaje gute kugira ngo abe uwuhambaye gutyo? Vyamanutse ku guhuza ibintu bitatu vy’ingenzi. **Ica mbere**, umuryango wiwe w’icubahiro. Yavuye mu muryango muremure w’abarongozi b’ubwami, benshi muri bo bakaba bari bafise ibibanza vy’ubutegetsi bihambaye. **Ica kabiri**, igihe c’inzahabu yavukiyemwo kandi yakuriyemwo. Turgot yari afise imyaka 21 igihe Montesquieu yasohora *L’Esprit des Lois*, n’imyaka 24 igihe igitabu ca mbere c’iyo *Nkoranyabumenyi* casohoka.
+None Turgot yaje gute kugira ngo abe uwuhambaye gutyo? Vyamanutse ku guhuza ibintu bitatu Nyamukuru. **Ica mbere**, umuryango wiwe wubahitse. Yavuye mu muryango muremure w’abarongozi babizigirwa, benshi muri bo bakaba bari bafise ibibanza vy’ubutegetsi bihambaye. **Ica kabiri**, igihe c’inzahabu yavukiyemwo kandi akuriramwo. Turgot yari afise imyaka 21 igihe Montesquieu yasohora *L’Esprit des Lois*, n’imyaka 24 igihe igitabu ca mbere c’iyo *Encyclopédie* casohoka.
 
 
 ![image](assets/fr/105.webp)
@@ -1252,67 +1252,67 @@ None Turgot yaje gute kugira ngo abe uwuhambaye gutyo? Vyamanutse ku guhuza ibin
 ![image](assets/fr/106.webp)
 
 
-Yari umuntu wo mu gihe kimwe c’abanyabwenge b’ivy’umubiri, Voltaire, Diderot, d’Holbach, Adamu Smith, Condorcet n’abandi. **Ica gatatu**, ubukerebutsi bwiwe. Igihe yari umunyeshure muri kaminuza ya Sorbonne, yaranditse ikete ku mahera y’impapuro afise imyaka 22, aratanga insiguro zidasanzwe, kandi afise imyaka 24 arakora urutonde rw’ibitabu 52 yari akwiye kwandika.
+Yari umuntu wo mu gihe kimwe n’abanyabwenge b'aba physiocrats, Voltaire, Diderot, d’Holbach, Adam Smith, Condorcet n’abandi. **Ica gatatu**, ubukerebutsi bwiwe. Igihe yari umunyeshure muri kaminuza ya Sorbonne, yaranditse ikete ku mahera y’impapuro afise imyaka 22, aravuga ijambo ryagakura, kandi afise imyaka 24 arakora urutonde rw’ibitabu 52 yari ategekanya kwandika.
 
 
 
-Naho yari akiri muto, Turgot yarafashije mu *Encyclopédie*, yandika ingingo zivuga ku bintu nk'ibi: "Ivy'inkomoko", "Ukubaho", "Ukwaguka", "Isoko", n'"Imishinge". Ingingo imwe gusa ni yo yakoze ku vyerekeye ubutunzi ata guca ku ruhande—igice ciwe kivuga ku "Masoko", kikaba cari kivuga ido n'ido inkomoko y'amasoko n'amasoko, kiganegura n'ukuntu Leta iriko irakura mu vyo yivangamwo, ivyo bikaba vyatuma bihungabanya kandi bikaba bimugaye.
+Naho yari akiri muto, Turgot yarafashije kuri iyo *Encyclopédie*, yandika ingingo zivuga ku bintu nk'ibi: "Ivy'inkomoko", "Ukubaho", "Ukwaguka", "Amakoraniro(amasoko)", n'"Imishinge". Ingingo imwe gusa ni yo yakoze ku vyerekeye ubutunzi ata guca ku ruhande igice ciwe kivuga ku "Amakoraniro", kikaba cari kivuga ido n'ido inkomoko y'amakoraniro n'amasoko, kiganegura n'ukuntu Leta iriko irivanga cane kandi kurugero ruguma ruduga, ivyo bikaba bibihungabanya kandi bikabihagarika.
 
 
 
-Muri iyo myaka ya mbere, yari yarahanuwe na Vincent de Gournay, uno na we aca amujana munsi y’amababa yiwe, maze baragiranira ubugenzi somambike. Gournay amaze gupfa mu 1759, Turgot yaranditse igitabu c’ugushimira uwo muntu, aho yatanze incamake nziza cane y’inyigisho y’uko umuntu akwiye kureka ivyo akora. Yanditse canecane ati:
+Muri iyo myaka ya mbere, yari yafashwe nk'umwigishwa na Vincent de Gournay, uno na we aca amuba hafi, maze baragiranira ubugenzi. Gournay amaze gupfa mu 1759, Turgot yaranditse igitabu c’ugushimira uwo muntu, aho yatanze incamake nziza cane y’inyigisho ya laissez-faire. Yanditse canecane ati:
 
 
-"Mu buryo bwose ubudandaji bushobora gushikira Leta, inyungu z'umuntu ku giti ciwe zisigaye zizokwama zitanga inyungu rusangi kuruta ibikorwa vya Leta, vyama bifise amakosa kandi birongowe n'ivyiyumviro bitamenyekana kandi bidatomoye".
+"Mu buryo bwose ubudandaji bushobora kuraba Leta, inyungu z'umuntu ku giti ciwe zihojejwe zizokwama zitanga inyungu rusangi kuruta ibikorwa vya Leta, vyama bifise amakosa kandi birongowe n'ivyiyumviro bitizewe kandi bidatomoye".
 
 
 
 ![image](assets/fr/107.webp)
 
 
-Mu mwaka w’1767, igihe yari intendant, yaranditse igitabu c’ubutunzi citwa *Ivyiyumviro ku bijanye n’uguhingura no gusangira ubutunzi*.
+Mu mwaka w’1767, igihe yari intendant(umurongozi akongera agatunganya), yaranditse igitabu c’ubutunzi citwa *Ivyiyumviro ku bijanye n’uguhingura no gusangira ubutunzi(Reflections on the Formation and Distribution of Wealth)*.
 
 
 ![image](assets/fr/108.webp)
 
 
-Ugucapura ibikorwa, ubusegaba bw’abaguzi, umutungo w’abantu ku giti cabo, uruhara rw’umutungo kamere, hafi ingingo zose zihambaye z’ubutunzi ziravugwa. Abahinga mu vya kahise benshi, uwuherutse gusohoka ni umuhinga mu vya kahise Anne-Claire Hoyng, baragaragaje ukuntu ico gitabu ca Turgot gisa n’igitabu ca Adam Smith citwa *Ubutunzi bw’amahanga*, casohowe haciye imyaka icenda.
+Ukugabura ibikorwa, ukwikukira kw'abaguzi, Amatungo bwite y'abantu, uruhara rw’umutungo kamere, hafi ingingo zose zihambaye z’ubutunzi ziravugwa. Abahinga mu vya kahise benshi, uwuherutse gusohoka ni umuhinga mu vya kahise Anne-Claire Hoyng, baragaragaje ukuntu ico gitabu ca Turgot gisa n’igitabu ca Adam Smith citwa *Ubutunzi bw’amahanga(The Wealth of Nations)*, casohowe haciye imyaka icenda.
 
 
 ![image](assets/fr/109.webp)
 
 
-Turgot yaraburaniye umwidegemvyo w’ubudandaji bw’intete mu makete yandikiye Abbot Terray, mu nyuma akayamenyesha Umwami, mugabo igice cayo ubu carazimiye. Yanditse ati:
+Turgot yaraburaniye umwidegemvyo w’ubudandaji bw'ibinyantete mu makete yandikiye Abbot sai Terray, mu nyuma akayamenyesha Umwami, mugabo igice cayo ubu carazimiye. Yanditse ati:
 
 
 
 > Mushingantahe, nimba hari ikintu gihambaye, si ugushiraho amategeko mashasha ku bucuruzi buhambaye kuruta ubundi bwose, ahubwo ni ugukuraho ubwo, ikibabaje, bwarekuriwe kugumaho.
-> Nimba hari igihe umwidegemvyo wuzuye, ushitse, udafise intambamyi iyo ari yo yose, wari ukenewe, ndatinya kuvuga ko ari ubu, kandi ivyo ntivyigeze biba bidakwiye kwiyumvira gusohora itegeko ryerekeye ubudandaji bw’intete.
+> Nimba hari igihe umwidegemvyo wuzuye, ushitse, udafise intambamyi iyo ari yo yose, wari ukenewe, ndatinyutse kuvuga ko ari ubu, kandi ivyo ntivyigeze biba bidakwiye kwiyumvira gusohora itegeko ryerekeye ubudandaji bw’ibinyantete.
 
 
 ![image](assets/fr/110.webp)
 
 
-Mu mwaka w’1769, Turgot yaranditse ingingo yitwa Agaciro n’Amahera mu gitabu ca *Dictionnaire de Commerce* ca Abbot Morellet, amaherezo nticigeze gisohoka. Galiani yari amaze kuvuga ko «umuntu ari ingero rusangi y’ibintu vyose», yiteze isesengura ry’ibintu Turgot azokora haciye imyaka mirongo itatu muri iki kiganiro, aho azokwagura kandi akagaragaza ico ciyumviro.
+Mu mwaka w’1769, Turgot yaranditse ingingo yitwa *Agaciro n’Amahera(Value and Money)* mu gitabu ca *Dictionnaire de Commerce* ca Abbot Morellet, amaherezo nticigeze gisohoka. Galiani yari amaze kuvuga ko «umuntu ari ingero rusangi y’ibintu vyose», yiteze isesengura ry’ibintu Turgot azokora haciye imyaka mirongo itatu muri iki kiganiro, aho azokwagura kandi akagaragaza ico ciyumviro.
 
 
-Mu 1770, imbere cane ya Bentham, Turgot yaranditse ikete ry’ugushigikira umwidegemvyo wo gutanga inyungu n’inyungu.
+Mu 1770, imbere cane ya Bentham, Turgot yaranditse ikete ry'ukwibutsa no gushigikira umwidegemvyo wo gutanga inyungu n'inyungu z'umurengera.
 
 
 
 ![image](assets/fr/111.webp)
 
 
-« Ni ikosa kwizera ko inyungu y’amahera mu bucuruzi ikwiye gushingwa n’amategeko y’abaganwa », avuga ati: «Ni igiciro c’ubu kigenzura, nk’ic’ibindi bicuruzwa vyose», Mu kugwanira ico ciyumviro, arahakana ukurwanya kwa Aristote n’Abavyeyi ba Ekleziya.
+« Ni ikosa kwizera ko inyungu y’amahera mu bucuruzi ikwiye gushingwa n’amategeko y’abaganwa », avuga ati: «Ni igiciro c’ubu kigenzura, nk’ic’ibindi bicuruzwa vyose», Mu kugwanira ico ciyumviro, Yifashishije uguhakana kwa Aristote n’Abavyeyi b'ishengero.
 
 
 Incamake itangaje y’inyigisho ya Turgot y’uko umuntu ashobora kurekura ivyo akora, iraboneka mw’ikete ryari ryibagiwe ryandikiwe Abbot Terray ryo mu 1773 ryerekeye ugushira ikimenyetso ku vyuma:
 
 
 
-> Ico politike itegerezwa gukora n’ukwiyorosha ku nzira y’ibidukikije n’inzira y’ubudandaji, ivyo bikaba bitari bike bikenewe kandi bitari bike bidashobora gukurwaho nk’inzira y’ibidukikije ubwavyo, ata kugerageza kubiyobora; kuko kugira ngo umuntu ayiyobore atayihungabanya kandi ataco yigiriye nabi, yokenera kuba ashoboye gukurikirana ukuntu umuntu atandukanye vyose mu vyo akeneye, mu nyungu zawe no mu nganda; umuntu yokenera kubimenya mu rugero rw’ido n’ido rudashoboka kuronka ku mubiri, kandi aho mbere n’intwaro ifise ubuhinga, ikora cane kandi yiyubara cane izokwama iri mu kaga ko kwihenda, n’imiburiburi n’igice.
+> Ico politike itegerezwa gukora n’ukwiyorosha ku nzira isanzwe n'iy’ubudandaji, ivyo bikaba bitari bike bikenewe kandi bitari bike bidashobora gukurwaho nk’inzira isanzwe ubwavyo, ata kugerageza kubiyobora; kuko kugira ngo umuntu ayiyobore atayihungabanya kandi atigiriye nabi, yokenera kuba ashoboye gukurikirana ukuntu umuntu atandukanye vyose mu vyo akeneye, mu nyungu zawe no mu nganda; umuntu yokenera kubimenya mu rugero rw’ido n’ido rudashoboka kugerwako, kandi aho mbere n’intwaro ifise ubuhinga, ikora cane kandi yiyubara cane izokwama iri mu kaga ko kwihenda, n’imiburiburi n’igice.
 
-Aha turabona amajambo atomoye cane yerekeye inyigisho y’uburenganzira bwo gukora, hamwe n’igitutu c’isesengura rya Friedrich Hayek ry’ukwigira nk’uwufise ubumenyi—ni ukuvuga ko Leta idashobora gutahura neza inguvu z’ubutunzi kugira ngo izigenzure.
+Aha turabona amajambo atomoye cane yerekeye inyigisho y'ubu laissez-faire , hamwe n’igitutu c’isesengura rya Friedrich Hayek ry’ukwigira nk’uwufise ubumenyi ni ukuvuga ko Leta idashobora gutahura neza inguvu z’ubutunzi kugira ngo izigenzure.
 
 
 
@@ -1321,57 +1321,59 @@ Aha turabona amajambo atomoye cane yerekeye inyigisho y’uburenganzira bwo guko
 ![image](assets/fr/112.webp)
 
 
-## Turgot, Umuvuguruzi
+## Turgot, Uwutuma haba impinduka
 
 
 <chapterId>9177429f-1679-51c4-bfd2-dd036d24a1cc</chapterId>
 
 
-Nk’uko twavyibutse muri make mu kigabane c’imbere, Turgot yari umuhungu w’umuryango w’abanyacubahiro wari waratandukanye n’abandi mu nzego zo hejuru z’abakozi ba Leta y’Ubufaransa.
+Nk’uko twabivuze gatoya muri make mu kigabane c’imbere, Turgot yari umuhungu w’umuryango w’abanyacubahiro wari wiyerekanye mu bandi bo mu nzego zo hejuru z’abakozi ba Leta y’Ubufaransa.
 
 
 
 ![image](assets/fr/113.webp)
 
 
-Se wiwe yari yarabaye umukuru w’igisagara c’abadandaza b’i Paris, sekuru na we akaba umucungerezi w’igisagara. Amaze gutsinda cane mu vyigwa vyiwe, umutoyi mu muryango wa Turgot yari afise intumbero yo gushika n’imiburiburi kuri ivyo bipimo nyene. Yabanje gukora igihe kanaka ari maître des requêtes, bisobanura ko yari umuhuza hagati y’abarongozi n’igisagara ca Versailles. Yari ikibanza c’icubahiro, kikaba yari ategerezwa gusonerwa imyaka idasanzwe, mugabo Turgot yari afise icipfuzo co kuronka ibindi. Urupfu rw’umujanama wiwe Gournay rwatumye arushiriza kugira intumbero yo gushika hejuru, aca asaba ko bamushinga ngo abe umucungerezi.
+Se wiwe yari yarabaye umukuru w’abadandaza bo mu gisagara ca Paris, sekuru na we akaba umurongozi n'uwutunganya igisagara. Amaze gutsinda cane mu vyigwa vyiwe, umuhererezi mu muryango w'aba Turgot yari afise intumbero yo gushika n’imiburiburi kuri ivyo bipimo nyene. Yabanje gukora igihe kanaka ari maître des requêtes(umuhinga w'ibirego), bisobanura ko yari umutware hagati y’abarongozi n’igisagara ca Versailles. Yari ikibanza c’icubahiro, kikaba yari ategerezwa gusonerwa imyaka idasanzwe, mugabo Turgot yari afise icipfuzo co kuronka ibindi. Urupfu rw’umwigisha wiwe Gournay rwatumye arushiriza kugira intumbero yo gushika hejuru, aca asaba ko bamushinga ngo abe umurongozi n'umucungerezi.
 
 
 
-Mu 1759, ni we yasavye ubwa mbere ubutegetsi bwa Grenoble, ariko baravyanka. Yaciye aronka igikorwa co kuba umukuru w’abadandaza i Lyon, ariko arakihakana. Yasavye ko Bretagne igira intendant, ariko ivyo na vyo nyene vyaranse. Amaherezo, mu 1761, baramusavye kuba umukuru w’igihugu ca Limousin, maze aravyemera ata co yipfuza. Yandikiye Voltaire ati: «Ndafise amagorwa yo kuba umutegetsi», kumbure bisobanura ngo: Mfise amagorwa yo kuba umutegetsi muri Limousin.
+Mu 1759, ni we yasavye ubwa mbere ubutegetsi bwa Grenoble, ariko baravyanka. Yaciye aronka igikorwa co kuba umukuru w’abadandaza i Lyon, ariko arakihakana. Yasavye ko Bretagne igira umucungerezi canke umutunganya, ariko ivyo na vyo nyene vyaranse. Amaherezo, mu 1761, baramusavye kuba umukuru w’igihugu ca Limousin, maze aravyemera ariko akekeranya . Yandikiye Voltaire ati: «Ndafise amagorwa yo kuba umutegetsi», kumbure bisobanura ngo: Mfise amagorwa yo kuba umutegetsi muri Limousin.
 
 
 
-I Limousin, abarimyi bari abakene kandi baba mu mibereho idatekanye canecane ku bijanye n’inzu n’ibifungurwa. Urugero rusangi rw’uburezi rwari ruto cane. Amabarabara makeyi yariho yari mu bihe vy’agahomerabunwa.
+I Limousin, abarimyi bari abakene kandi baba mu mibereho idatekanye canecane ku bijanye n'uburaro n’ibifungurwa. Urugero rusangi rw’ukwiga rwari ruto cane. Amabarabara makeyi yariho yari ateye isoni.
 
 
 
 ![image](assets/fr/114.webp)
 
 
-Kubera ko ako karere kari gakenye cane, nta co kari gifise akamaro ku baminisitiri. Ivyo vyatumye Turgot agira umwidegemvyo wo kugerageza guhindura ibintu. I Limousin, yarakurikiye imigambi itatu ikomeye:
+Kubera ko ako karere kari gakenye cane, kari gasa nkaho atakamaro gafitiye abashikiranganji. Ivyo vyatumye Turgot agira umwidegemvyo wo kugerageza guhindura ibintu. I Limousin, yararanguye imigambi itatu ikomeye:
 
 
 
-- Gusubira gusangira taille**, umusoro w’umuntu ku giti ciwe (Turgot yari afise intumbero yo gushiramwo ubutungane bwinshi bushoboka mu gusuzuma kwayo).
-- Corvée**, ni ubwoko bw’ikori ryishyurwa mu bikorwa, aho abarimyi bagoberwa no gukora ibikorwa vyo kwubaka amabarabara. Turgot amaze gutembera muri ako karere, yaciye abona ningoga ukuntu amabarabara yari ameze nabi. Yasubirije iyo corvée umusoro w’amahera.
-- Gutora ingabo z’abasirikare**, ingabo z’abarimyi zakoranijwe mu bihe vy’intambara.
+- **The redistribution of the taille**, Ikori ry’umuntu ubwiwe (Turgot yari afise intumbero yo gushiramwo ubutungane bwinshi bushoboka mu gusuzuma kwayo).
+  
+- **Ibikorwa vy'agahato**, ni ubwoko bw’ikori ririhwa mu gukora igikorwa, aho abarimyi bagoberwa no gukora ibikorwa vyo kwubaka amabarabara. Turgot amaze gutembera muri ako karere, yaciye abona ningoga ukuntu amabarabara yari ameze nabi. Yasubirije ivyo bikorwa ikori ry’amahera.
+  
+- **Gutora ingabo z’abasirikare**, ingabo z’abanyagihugu(abarimyi) zakoranijwe mu bihe vy’intambara.
 
 
 ![image](assets/fr/115.webp)
 
 
-Ivyo vyagirwa mu gutora ubupfindo, ivyo bikaba vyatuma haba ubwoba n’ubukazi kubera abahunga; Turgot yasubirije ayo makori y’agateganyo n’abakozi b’intahemuka barihwa.
+Ivyo vyagirwa mu gutora ubupfindo, ivyo bikaba vyatuma haba ubwoba n’ubukazi kubera abahunga bakinyegeza; Turgot yasubirije ayo makori y’agateganyo n’abakozi b’intahemuka bahembwa.
 
 
-Ivyo bihinduka vyarabaye vyiza ata gukeka, kandi muri Mukakaro 1774, Turgot yaragizwe umusuku. Kubera ko ata bumenyi yari afise, Umwami yaramushize ubwa mbere muri Minisitere y’Ingabo z’Inyanja. Iryo banga ryari riteye umunezero benshi. Turgot ubwiwe yariyemereye ati: "Ntaco nzi ku bijanye n'ingabo z'amazi", Voltaire na we ati: "Sinzi ko Turgot ari umusare kuruta jewe".
+Izo mpinduka zabaye izagaciro cane, kandi muri Mukakaro 1774, Turgot yaragizwe umushikiranganji. Kubera ko ata bumenyi yari afise, Umwami yaramushize ubwa mbere mu bushikiranganji bw’Ingabo zo mu mazi. Iryo banga ryari riteye umunezero benshi. Turgot ubwiwe yariyemereye ati: "Ntaco nzi ku bijanye n'ingabo z'amazi", Voltaire na we ati: "Sinzi ko Turgot ari aciye ubwenge kuruta jewe".
 
 
 
-Ariko rero, haciye ukwezi kumwe gusa, Turgot yaragizwe umugenzuzi mukuru w’ivy’amahera, mu vy’ukuri aba umushikiranganji w’ubutunzi n’ivy’amahera mu Bufaransa.
+Ariko rero, haciye ukwezi kumwe gusa, Turgot yaragizwe umugenzuzi mukuru w’ivy’amahera, aba umushikiranganji w’ubutunzi n’ivy’amahera mu Bufaransa.
 
 
-Turazi ikete yashikirije Louis XVI ingingo ngenderwako ziwe: "Nta gusenyuka. Nta kwongerwa kw'imisoro. Nta ngurane nshasha". Iyo filozofiya, abayinegura muri iki gihe boshobora kwita "ubukazi" butagira akamaro, yari igamije gukiza ubwami.
+Turazi ikete yashikirije Louis XVI ingingo ngenderwako ziwe: "Nta gusenyuka. Nta kwongerwa kw'amakori. Nta ngurane nshasha". Iyo filozofiya, abayinegura muri iki gihe boshobora kwita "ubukazi" butagira akamaro, yari igamije gukiza ubwami.
 
 
 ![image](assets/fr/116.webp)
@@ -1383,13 +1385,13 @@ Turgot yarateguye amategeko atandatu y’umwami yo guhindura ubutunzi bw’Ubufa
 ![image](assets/fr/117.webp)
 
 
-Ni bwo bwa mbere—kandi ni bwo bwa nyuma cane—umuhinga mu vy’ubutunzi yahawe umwidegemvyo wo guhindura ubutunzi bw’igihugu ciwe. Amategeko atatu ya Turgot arahambaye cane: rimwe ryarakuyeho ibikorwa vy’agahato (corvées), irindi ryasenya amashirahamwe y’ubudandaji (amashirahamwe), irya gatatu na ryo ryashizeho ubudandaji bw’intete ataco buvuze.
+Ni bwo bwa mbere kandi ni bwo bwa nyuma cane umuhinga mu vy’ubutunzi yahawe umwidegemvyo wo guhindura ubutunzi bw’igihugu ciwe. Amategeko atatu ya Turgot arahambaye cane yatandukanywa: rimwe ryarakuyeho ibikorwa vy’agahato, irindi ryasenya amashirahamwe y’ubudandaji, irya gatatu na ryo ryashizeho ubudandaji bwo mu mwidegemvyo bw’ibinyantete.
 
 
-Turgot amaze kwinjira mu busuku, yari azi ko azoshikirwa n’ukurwanywa n’abantu b’agaciro. Abwira Umwami ati: «Nzotinywa, mbere nkankwe, n’abantu benshi bo mu rusengero be n’abarondera ubutoni bose». Abafise agateka ntibatevye gufatanya kumurwanya, bituma yirukanwa mu kazi k’Umugenzuzi Mukuru w’Ivy’Imari. Voltaire, uwashigikiye bimwe bishitse ihinduka rya Turgot, yanditse mu makete yiwe ati:
+Turgot amaze kwinjira mu bushikiranganji, yari azi ko azoshikirwa n’ukurwanywa n’abantu batonye mu bwami. Abwira Umwami ati: «Nzotinywa, mbere nankwe, n’abantu benshi bo mu rusengero be n’abarondera ubutoni bose». Abafise agateka ntibatevye gufatanya kunrwanya, bituma yirukanwa mu kazi k’Umugenzuzi Mukuru w’Ivy’ubutunzi. Voltaire, uwashigikiye bimwe bishitse ihinduka rya Turgot, yanditse mu makete yiwe ati:
 
 
-> Ah! Mbega inkuru iteye ubwoba numvise! None twebwe tuzoba iki? Ndababaye cane! Ntituzokwigera dukira kubera ko twabonye ivuka n’urupfu rw’ikiringo c’inzahabu! Uyu muturagaro warateye ubwenge bwanje n’umutima wanje.
+> Ah! Mbega inkuru iteye ubwoba numvise! None twebwe tuzoba iki? Ndababaye cane! Ntituzokwigera dukira kubera ko twabonye ivuka n’urupfu rw’ikiringo c’inzahabu! Uyu muturagaro warankubise.
 
 ![image](assets/fr/118.webp)
 
@@ -1399,51 +1401,51 @@ Kuva ico gihe, benshi baravuga ko Ubufaransa ari igihugu kidashoboka guhindura. 
 ![image](assets/fr/119.webp)
 
 
-Amaherezo, abaparlement n’abafise agateka ni bo batsinze. Umwami yari gukora vyose ni ukuboroga mu mwiherero ati: «Ndabona ubu ko jewe na Monsieur Turgot ari twebwe gusa twitwararika abantu.»
+Amaherezo, abashingamateka n’abatonye imbere y'umwami nibo batsinze. Umwami yari gukora vyose ni ukuboroga mu mwiherero ati: «Ndabona ubu ko jewe n'umushingantahe Turgot ari twebwe gusa twitwararika abantu.»
 
 
-## Kondilaki
+## Condillac
 
 
 <chapterId>0ba8dbb5-dcd5-5981-bf85-6c185e0bf192</chapterId>
 
 
-Nka kurya kw’ubudandaji, ari bwo bugaragazwa bwabwo bugaragara cane, ubuhinga bwa Montaigne bwatwaye igihe kirekire kugira ngo buzimangane.
+Nka kurya kw’ubudandaji, arico kimenyetso kibugaragaza cane, ubuhinga bw'amajambo atariyo bwa Montaigne bwatwaye igihe kirekire kugira ngo buzimangane.
 
 
 ![image](assets/fr/120.webp)
 
 
-Uwo sophisme ni iciyumviro c’uko ubudandaji na Exchange ari imikino y’umubare zero. Ivyo uruhande rumwe ruronka vyose mu gucuruza, nta nkeka ko uruhande rumwe ruzitakaza. Abayishigikiye bavuga ko ivyo ari ukuri hagati y’abantu ku giti cabo no hagati y’amahanga.
+Ubwo buhinga bw'amajambo atariyo( sophism) ni iciyumviro c’uko ubudandaji n'uguhanahana ari imikino y'igoharuro ubusa. Ivyo uruhande rumwe ruronka vyose mu gucuruza, nta nkeka ko uruhande rumwe ruzitakaza. Abayishigikiye bavuga ko ivyo ari ukuri hagati y’abantu ku giti cabo no hagati y’amahanga.
 
 
-Abbot wa Condillac yarafise uruhara runini mu gusenyura ata gukeka ico ciyumviro c’ikinyoma.
+Abbot wa Condillac yarafise uruhara runini mu gusenyura ata gukeka ico ciyumviro kitarico.
 
 
 ![image](assets/fr/121.webp)
 
 
-"Nta gukeka" kumbure ni ukurenza urugero, kuko mu mpari za bose, iyo sophisme irasubira kugaragara kenshi. Kumbure ni co gituma, n’ikindi kandi, Condillac aguma ari umuhinga mu vy’ubutunzi azwi cane. Uretse abahinga mu vy’ubutunzi bo muri Otirishiya, ni bake batahuye akamaro k’inyigisho yiwe yerekeye Exchange, nta n’umwe agikunda.
+"Nta gukeka" kumbure ni ukurenza urugero, kuko mu mpari za bose, iyo sophism irasubira kugaragara kenshi. Kumbure ni co gituma, n’ikindi kandi, Condillac aguma ari umuhinga mu vy’ubutunzi azwi cane. Uretse abahinga mu vy’ubutunzi bo muri Otirishi, ni bake batahuye akamaro k’inyigisho yiwe yerekeye uguhanahana, nta n’umwe agikunda.
 
 
-Ku bahinga benshi b’ivya kahise b’ivyiyumviro vy’ubutunzi, umwaka w’1776 warangwa n’ugusohoka kw’igitabu *Ubutunzi bw’amahanga*, cashinze ubuhinga bw’ubutunzi. Ivyigwa cumi na bitanu twahejeje, aho twize ubuhinga bw’ubutunzi bw’Abafaransa imbere ya Adamu Smith, birahagije kugira ngo twemeze ikosa ry’ico ciyumviro. Muri uwo mwaka nyene w’1776, ikindi kandi, hari ikindi gitabu kumbure gikwiriye gushimwa cane n’abahinga mu vya kahise kuruta igitabu ca Adamu Smith: canditswe na Condillac kandi gifise umutwe gusa witwa [*Ubucuruzi n’Intwaro Bifatwa mu Bucuti Bafitaniye*](https://archive.org/vernme0d0gocommerce).
+Ku bahinga benshi b’ivya kahise b’ivyiyumviro vy’ubutunzi, umwaka w’1776 warangwa n’ugusohoka kw’igitabu *Ubutunzi bw’amahanga(The Wealth of Nations)*, cashinze ubuhinga bw’ubutunzi. Ivyigwa cumi na bitanu twahejeje, aho twize ubuhinga bw’ubutunzi bw’Abafaransa imbere ya Adam Smith, birahagije kugira ngo twemeze ikosa ry’ico ciyumviro. Muri uwo mwaka nyene w’1776, ikindi kandi, hari ikindi gitabu kumbure gikwiriye gushimwa cane n’abahinga mu vya kahise kuruta igitabu ca Adam Smith: canditswe na Condillac kandi gifise umutwe gusa witwa [*Ubucuruzi n’Intwaro Bifatwa mu Bucuti Bafitaniye*](https://archive.org/vernme0d0gocommerce).
 
 
 ![image](assets/fr/122.webp)
 
 
-Ku bwa Condillac, iyo ubuhinga bwa Exchange bubonwa nk’umukino w’amahera ataco bumaze bugumaho, aba Physiocrates ni bo bafise icaha, kuko bavuga ko Exchange ari ubucuti bw’uburinganire. Nk’uko Condillac abivuga, ivyo ni ibinyoma: Exchange ni ubucuti butaringaniye, aho umuntu yama atanga bike kugira ngo aronke vyinshi.
+Ku bwa Condillac, iyo ubuhinga bwa uguhanhana bubonwa nk’umukino w’amahera ataco bumaze bugumaho, aba Physiocrats ni bo bafise icaha, kuko bavuga ko uko guhanahana ari ubucuti bw’uburinganire. Nk’uko Condillac abivuga, ivyo ni ibinyoma: vy'uguhanahana ni ubucuti butaringaniye, aho umuntu yama atanga bike kugira ngo aronke vyinshi.
 
 
-Hagati y’ivyiyumviro vy’aba Physiocrates n’ivya Condillac, umuntu ntashobora kurota ukurwanywa gutunganye kuruta. Umuhinga mu vy’ubutunzi w’umunyafiziyokarate yitwa Le Trosne yanditse ati:
+Hagati y’ivyiyumviro vy’aba Physiocrats n’ivya Condillac, ntitwoshobora kurota kurwanywa gutunganye. Umuhinga mu vy’ubutunzi w’umu physiocrat yitwa Le Trosne yanditse ati:
 
 
-> Exchange ni kamere yayo Contract y’uburinganire, ikozwe mu gaciro kangana ku gaciro kangana.
+> uguhanahana ni kamere yayo amasezerano y’uburinganire, yemejwe mu gaciro kangana.
 
 Ku rundi ruhande, Condillac yanditse ati:
 
 
-> Buri mugwi uri muri Contract wama utanga ikintu c’agaciro gatoyi kugira ngo uronke ikintu c’agaciro kanini.
+> Buri mugwi uri mu masezerano wama utanga ikintu c’agaciro gato kugira ngo uronke ikintu c’agaciro kanini.
 
 Ariko rero, ukurwanywa ahanini ni ukw’amajambo. Bompi bemera yuko iyo umuntu ahinduye igitabu c’ifaranga, ico gitabu kiba gifise agaciro k’ifaranga, canke igiciro c’ico gitabu kikaba ari ifaranga.
 
@@ -1451,19 +1453,19 @@ Ariko rero, ukurwanywa ahanini ni ukw’amajambo. Bompi bemera yuko iyo umuntu a
 ![image](assets/fr/123.webp)
 
 
-Itandukaniro riri mu kuba Condillac yemeza ko kubera ko dutanga Exchange y’ifaranga imwe ku gitabu, bisigura ko kuri twebwe, agaciro k’ico gitabu karuta aka Coin yacu y’ifaranga imwe. Turakunda igitabu kuruta Coin, ni co gituma dukora Exchange.
+Itandukaniro riri mu kuba Condillac yemeza ko kubera ko guhanahana ifaranga imwe ku gitabu, bisigura ko kuri twebwe, agaciro k’ico gitabu karuta aka Coin yacu y’ifaranga imwe. Turakunda igitabu kuruta Coin(ikibada, ikingorongoro), ni co gituma dukora uko guhanahana.
 
 
-Ivyiyumviro vya Condillac ntibivuguruzanya cane n’ivy’Abafiziyokarate, ariko ntibavuga ururimi rumwe, nk’aho twovuga. Le Trosne avuga igiciro mu gihe Condillac avuga agaciro, n’ibihushanye n’ivyo.
+Ivyiyumviro vya Condillac ntibivuguruzanya cane n’ivy’aba physiocrats, ariko ntibavuga ururimi rumwe, nk’aho twovuga. Le Trosne avuga igiciro mu gihe Condillac avuga agaciro, n’ibihushanye n’ivyo.
 
 
-Aho Condillac avuga ukuri ni uko iyo ibiciro bingana hagati y’ivyo bicuruzwa bibiri bihindurwa, agaciro ntikangana, ahandi ho, nta Exchange yobayeho.
+Aho Condillac avuga ukuri ni uko iyo ibiciro bingana hagati y’ivyo bicuruzwa bibiri bihindurwa, agaciro ntikangana, ahandi ho, nta guhanahana kwobayeho.
 
 
 Mu guca irya n’ino ivyiyumviro vya Condillac, hariho ivyiyumviro bitatu bishobora gushirwa ku rutonde:
 
 
-Iciyumviro ca mbere: turarondera ibintu kubera akamaro kavyo. Ivyo bisa n’ibigaragara, ariko ni ingingo nyamukuru y’ubuhinga bw’ubutunzi ko abagabo Exchange kugira ngo baronke ivy’ubuzima, ingingo Jean-Baptiste Say na we nyene yateye imbere ata gatotsi.
+Iciyumviro ca mbere: turarondera ibintu kubera akamaro kavyo. Ivyo bisa n’ibigaragara, ariko ni ingingo nyamukuru y’ubuhinga bw’ubutunzi ko abagabo haguza(bahanahana) kugira ngo baronke ivy’ubuzima, ingingo Jean-Baptiste Say na we nyene yateguye.
 
 
 ![image](assets/fr/124.webp)
@@ -1472,56 +1474,56 @@ Iciyumviro ca mbere: turarondera ibintu kubera akamaro kavyo. Ivyo bisa n’ibig
 Iciyumviro ca kabiri: agaciro karabaho imbere y’igihe kandi gatuma haba uguhanahana. Urubanza umuntu wese afata ku bijanye n’ibintu n’ibikorwa rusobanura ko ivyo bintu nyene n’ibikorwa nyene bifise agaciro kuri we, bifise agaciro kanini canke gatoyi bivanye n’akamaro bisa n’ibitanga. Birumvikana ko umuntu wese acira urubanza mu buryo butandukanye n’uwundi, kandi agaciro karatandukanye ku muntu ku wundi.
 
 
-Ubwa nyuma, iciyumviro ca gatatu: igiciro ni ingaruka y’ingendo ya Exchange. Ibintu ntibigira Exchange ku gaciro ndabiha kuko ivyangombwa vya Exchange navyo bivana n’agaciro k’umuntu ku giti ciwe umuguzi aha ivyo bicuruzwa. Isano hagati y’umuguzi n’ugurisha, canke hagati y’ugukenguruka kw’umuguzi n’ugukenguruka kw’ugurisha, ni ryo rishinga igiciro.
+Ubwa nyuma, iciyumviro ca gatatu: igiciro ni ingaruka y’ingendo ya Exchange. Ibintu ntibigira uguhanahana ku gaciro ndabiha kuko ivyangombwa vyo guhanahana navyo bivana n’agaciro k’umuntu ku giti ciwe umuguzi aha ivyo bicuruzwa. Isano hagati y’umuguzi n’ugurisha, canke hagati y’ugukenguruka kw’umuguzi n’ugukenguruka kw’ugurisha, ni ryo rishinga igiciro.
 
 
-Ivyo vyiyumviro vya Condillac ni ivy’ishimikiro. Bituma dutahura igituma Exchange yose yama ari ngirakamaro kuri bose.
+Ivyo vyiyumviro vya Condillac ni ivy’ishimikiro. Bituma dutahura igituma uguhanahana kose kwama ari ngirakamaro kuri bose.
 
 
 Birasambura rero burundu ivyo kunegura ubudandaji bwigenga, kuko uburinzi buboneka gusa nk’uburyo bubuza abanyagihugu kugiriranira akamaro. Ukwirekura ni kwo na kwo gusozera igikorwa ca Condillac. Abantu nibakore uko bashaka, kuko ubutegetsi bwa Leta iyo burinze umwidegemvyo n’itunga, abantu bazokwama batunganya mu guhanahana hamwe.
 
 
-## Kondorseti
+## Condorcet
 
 
 <chapterId>99e4aba6-da7f-5041-b02f-337158381515</chapterId>
 
 
-Nta gukeka ko Condorcet ari we munyabwenge w’ubutunzi kuruta abandi bose bo mu gihe c’Umuco.
+Nta gukeka ko Condorcet ni umuhinga wambere mu bafilozofe b'umuco yitaye cane ku bibazo bihanze ubutunzi.
 
 
 
 ![image](assets/fr/125.webp)
 
 
-Mu kiringo kinini c’akazi kiwe, yariyeguriye gukora ibikorwa bitajanye n’ubutunzi, kandi vyari bibereye, kuko ubuhinga bwiwe bwatumye atera imbere cane mu vy’ubuhinga yibandako cane. Ariko nko mu 1770, yumvise akwegerewe n’ibibazo vy’ubutunzi, kumbure kubera ko abandi bafilozofe, cane cane Voltaire na Diderot, batavyitaho ngo babihe umwanya wabo wo kwiruhura, kandi kandi kubera ko yari yaragiranye ubugenzi na Turgot.
+Mu kiringo kinini c’ibikorwa vyiwe, yariyeguriye gukora ibikorwa bitajanye n’ubutunzi, kandi vyari bibereye, kuko ubuhinga bwiwe bwatumye atera imbere cane mu vy’ubuhinga yibandako cane. Ariko nko mu 1770, yumvise akunze cane ibibazo vy’ubutunzi, kumbure kubera ko abandi bafilozofe, cane cane Voltaire na Diderot, batavyitaho ngo babihe umwanya wabo wo kwiruhura, kandi kandi kubera ko yari yaragiranye ubugenzi na Turgot.
 
 
 
-Buhorobuhoro Condorcet yarakiriye ivyiyumviro vy’ugurekura n’umwidegemvyo, mu ntango mu bintu bitajanye n’ubutunzi bwa politike. Mu *Ikete ry'Umunyatewolojiya*, yaratwengeye mu buryo bwa filozofiya idini ry'Abagatolika, aserura icipfuzo ciwe co kubona umwidegemvyo nyawo wo kwemera, harimwo n'umwidegemvyo wo kutemera. Mu ntambara yiwe yo kwihanganirana no kurwanya ubusambanyi bw’idini, Condorcet yararwanije ko Chevalier de la Barre asubirwamwo, yongera ararwanira D’Etallonde, uwari yaciriwe urubanza rwo gupfa kubera yamena umusaraba.
+Buhorobuhoro Condorcet yarakiriye ivyiyumviro vy’ukurekura n’umwidegemvyo, mu ntango mu bintu bitajanye n’ubutunzi bwa politike. Mu *Ikete ry'Umunyatewolojiya(Letter of a Theologian)*, yaratwengeye mu buryo bwa filozofiya idini ry'Abagatolika, aserura icipfuzo ciwe co kubona umwidegemvyo nyawo wo kwemera, harimwo n'umwidegemvyo wo kutemera. Mu ntambara yiwe yo kwihanganirana no kurwanya ubusambanyi bw’idini, Condorcet yararwanije ko Chevalier de la Barre asubirwamwo, yongera ararwanira D’Etallonde, uwari yaciriwe urubanza rwo gupfa kubera yamena umusaraba.
 
 
 
-Yari yiteguriye rero kurwanira umwidegemvyo igihe umugenzi wiwe Turgot yaduga aja ku kibanza c’Umugenzuzi Mukuru w’Ivy’Imari.
+Yari yiteguriye rero kurwanira umwidegemvyo igihe umugenzi wiwe Turgot yaduga aja ku kuba c’Umugenzuzi Mukuru w’Ivy’ubutunzi.
 
 
 
 ![image](assets/fr/126.webp)
 
 
-Kuva ico gihe, ubuzima bwa Condorcet bwarahindutse uko yinjira mu mpari z’ubutunzi, ashigikira ataco arushe ivugurura ry’ubwigenge ry’uwo mushikiranganji mushasha. Kubera ko Condorcet yashigikiye uguhiganwa n’umwidegemvyo wo gukora ubudandaji, yarasavye kandi ko hokurwaho ama corvées (ibikorwa vy’agahato), amashirahamwe y’ubudandaji be n’uko habaho imisoro ibereye. Yaravuga ivyo vyiyumviro ku mugaragaro igihe cose akaryo kabonetse, akabigirana igishika kigaragara; yanditse cane kandi yigeze gutangaza mu vyanditswe vyiwe ati: "Mwemerere nongere mvuge ku mwidegemvyo w'ubudandaji; ndahimbarwa no kwifatanya n'iyi nkuru."
+Kuva ico gihe, ubuzima bwa Condorcet bwarahindutse uko yinjira mu mpari z’ubutunzi, ashigikira ataco arushe ivugurura ry’ubwigenge ry’uwo mushikiranganji mushasha. Kubera ko Condorcet yashigikiye uguhiganwa n’umwidegemvyo wo gukora ubudandaji, yarasavye kandi ko hokurwaho ama ibikorwa vy’agahato, amashirahamwe y’ubudandaji be n’uko habaho imisoro ibereye. Yaravuga ivyo vyiyumviro ku mugaragaro igihe cose akaryo kabonetse, akabigirana igishika kigaragara; yanditse cane kandi yigeze gutangaza mu vyanditswe vyiwe ati: "Munyemerere nongere mvuge ku mwidegemvyo w'ubudandaji; ndahimbarwa no kwifatanya n'iyi nkuru."
 
 
-Hagati y’umwaka wa 1774 n’uwa 1776, mu gihe c’ubusuku bwa Turgot, Condorcet yarakoze ibintu vyinshi, vyose bikaba vyaranzwe n’indege yiwe yitwa Commitment kugira ngo umuntu areke gukora ivyo akora. Ibikorwa vyiwe birimwo *Amakete y’umurimyi w’i Picardie yandikiye Bwana Necker*, arwanira ubudandaji bw’ubuntu; *Abanyagihugu n’abanyagihugu*, bavuganira uguhiganwa ku buntu; *Ivyiyumviro ku Corvées*, bisaba ko zikurwaho; na *Ivyiyumviro ku bucuruzi bw’intete*, na yo nyene ishimagiza ubudandaji bw’ubuntu, ikanegura igitabu ca Necker ku bijanye n’ico kibazo nyene.
+Hagati y’umwaka wa 1774 n’uwa 1776, mu gihe c’intwaro(ubushikiranganji) bwa Turgot, Condorcet yarakoze ibintu vyinshi, vyose bikaba vyaranzwe n’ukwihambirira kubu laissez-faire. Muri ivyo bitabu vyiwe harimwo*Amakete y’umurimyi w’i Picardie yandikiye M. Necker*, arwanira ubudandaji bw’umwidegemvyo; *Kwigungirako no kwigungirako*, bavuganira uguhiganwa ku buntu; *Ivyiyumviro ku bikorwa vy'agahato*, bisaba ko zikurwaho; na *Ivyiyumviro ku bucuruzi bw’ibinyantete*, na yo nyene ishimagiza ubudandaji bw’ubuntu, ikanegura igitabu ca Necker ku bijanye n’ico kibazo nyene.
 
 
-Mu gitabu ciwe [*Amakete yerekeye ubudandaji bw’intete*](https://archive.org/details), Condorcet aravuga ingingo zitari nke z’ingenzi.
+Mu gitabu ciwe [*Amakete yerekeye ubudandaji bw’ibinyantete*](https://archive.org/details), Condorcet aravuga ingingo zitari nke z’ingirakamaro.
 
 
 ![image](assets/fr/127.webp)
 
 
-Ica mbere, ibiciro vy’intete vyari vyinshi ico gihe ntivyari bivuye ku bucuruzi bw’ubuntu, ahubwo vyari bivuye ku mwimbu mubi, kandi ivyo Condorcet aravyerekana neza. Araheza asigura igituma laissez-faire atari yo gusa ibereye ariko ari yo politike yonyene ibereye, naho abantu benshi bayibona nabi. Avuga ati: "Twaramenyereye kubona Leta yinjira mu bucuruzi bw'intete ku buryo ataco ikora bisa n'ikintu kidasanzwe kandi gishasha". Mu nyuma yongerako ati: "Hafi abantu bose, cane cane abafise ibikorwa vya Leta, bemera ko ata kintu na kimwe kigenda ubwaco kandi ko vyose bitakarira iyo Leta itagira ico ikoze muri vyose". Condorcet rero arasubiramwo ivyiyumviro vy’aba Physiocrates na Turgot, yerekana ko ubudandaji bw’ubuntu buruta uburyo bwose bwo kwivanga mu vyo umuntu akora.
+Ica mbere, ibiciro vy’ibinyantete vyari vyinshi ico gihe ntivyari bivuye ku bucuruzi bw’umwidegemvyo, ahubwo vyari bivuye ku mwimbu mubi, kandi ivyo Condorcet aravyerekana neza. Araheza asigura igituma laissez-faire atari yo gusa ibereye ariko ari yo politike yonyene ibereye, naho abantu benshi bayibona nabi. Avuga ati: "Twaramenyereye kubona Leta yinjira mu bucuruzi bw'ibinyantete ku buryo ataco ikora bisa n'ikintu kidasanzwe kandi gishasha". Mu nyuma yongerako ati: "Hafi abantu bose, cane cane abafise ibikorwa vya Leta, bemera ko ata kintu na kimwe kigenda ubwaco kandi ko vyose bitakarira iyo Leta itagira ico ikoze muri vyose". Condorcet rero arasubiramwo ivyiyumviro vy’aba Physiocrats na Turgot, yerekana ko ubudandaji bw’ubuntu buruta uburyo bwose bwo kwivanga mu vyo umuntu akora.
 
 
 
@@ -1529,38 +1531,38 @@ Guteza imbere umugambi wa Turgot w’ubutunzi bw’ubwigenge cari igikorwa c’u
 
 
 
-Turgot, ashima ukuntu Condorcet yaburanira ivyiyumviro vyiwe ata buryarya, aca amugira umugenzuzi w’ivy’amahera. Condorcet yaciye asezera akazi umugenzi wiwe akimara kuva mu busuku.
+Turgot, ashima ukuntu Condorcet yaburanira ivyiyumviro vyiwe ata buryarya, aca amugira umugenzuzi w’ivy’amahera. Condorcet yaciye asezera akazi umugenzi wiwe akimara kuva mu bushikiranganji.
 
 
 
-Naho Condorcet yakoresheje inguvu ziwe zose mu kurwanira Turgot, nta vyiyumviro vy’ukwihenda yari afise ku bijanye n’ingene ubutegetsi bw’umugenzi wiwe bwobaye buzovamwo. Turgot ubwiwe yaremeye mu nyuma mu buzima bwiwe ko yabayeho yicuza, nk'uko yavyanditse mw'ikete ryiwe, "kubera ko ntashoboye gukorera igihugu canje n'abantu ivyiza nizera ko vyoroshe cane". Condorcet, uwuvuga ibintu vy’ukuri kuruta, yerekanye abansi benshi Turgot yari guhura na bo: abo umwami akunda cane, abashingamateka, abakuru b’idini, abakuru b’igihugu, amashirahamwe y’abanyagihugu n’ibindi. Iyo migwi yari yiteze gushimwa, ntiyiteze ivugurura. Condorcet abwira Turgot ati: "Nta n'umwe uri umunyaruyeri, kandi ivyo ni akaga, ubonye uko ibintu vyifashe i Paris". Yari afise ukuri rwose, kuko mu 1776, haciye imyaka ibiri gusa Turgot ashitse, yari amaze guhagarikwa umutima no kuva mu butegetsi bw’Umugenzuzi Mukuru.
+Naho Condorcet yakoresheje inguvu ziwe zose mu kurwanira Turgot, nta vyiyumviro yisunga canke yari afise ku bijanye n’ingene ubutegetsi bw’umugenzi wiwe bwobaye buzovamwo. Turgot ubwiwe yaremeye mu nyuma mu buzima bwiwe ko yabayeho yicuza, nk'uko yavyanditse mw'ikete ryiwe, "kubera ko ntashoboye gukorera igihugu canje n'abantu ivyiza nizera ko vyoroshe cane". Condorcet, uwuvuga ibintu vy’ukuri kuruta, yerekanye abansi benshi Turgot yari guhura na bo: abo umwami akunda cane, abashingamateka, abakuru b’idini, imiryango itonye, amashirahamwe y’abanyagihugu n’ibindi. Iyo migwi yari yiteze gushimwa, ntiyiteze ivugurura. Condorcet abwira Turgot ati: "Nta n'umwe uri umunyaruyeri, kandi ivyo ni akaga, ubonye uko ibintu vyifashe i Paris". Yari afise ukuri kwose, kuko mu 1776, haciye imyaka ibiri gusa Turgot ashitse, yari amaze guhagarikwa umutima no kuva mu butegetsi bw’Umugenzuzi Mukuru.
 
 
 
 
-## Ubwenge busanzwe bw'abanyagihugu mu gihe c'Impinduka
+## Ubwenge bwo munzira yo kubohora mu gihe c'Impinduka
 
 
 <chapterId>95e9a90d-e37a-58ff-b1ac-928b42e76ecf</chapterId>
 
 
-Dupont de Nemours yari umwigishwa mutoyi wa François Quesnay, uwari yigeze kumubwira ati: «Tubwirizwa kwitwararika uwo musore, kuko azovuga nitwapfa». Igihe Impinduka y’Abafaransa yatangura, hafi aba Fiziyokarate bakuru bose, harimwo na Marquis de Mirabeau, bari bamaze kugenda; Mirabeau ubwiwe yari yapfuye ku wa 13 Nyakanga 1789.
+Dupont de Nemours yari umwigishwa mutoyi wa François Quesnay, uwari yigeze kumubwira ati: «Tubwirizwa kwitwararika uwo musore, kuko azovuga nitwapfa». Igihe Impinduka y’Abafaransa yatangura, hafi aba physiocrats bakuru bose, harimwo na Marquis de Mirabeau, bari bamaze kugenda; Mirabeau ubwiwe yari yapfuye ku wa 13 Mukakaro 1789.
 
-Dupont de Nemours ni we yanditse urutonde rw’ibirego vy’umukuru w’igihugu w’i Nemours.
+Dupont de Nemours ni we yanditse urutonde rw’ibirego vy’umurongozi(akorera umwami) w’i Nemours.
 
 
 ![image](assets/fr/128.webp)
 
 
-Ico cete gishimishije cane carimwo ivyo abahinga mu vy’ubutunzi b’abanyagihugu bidoga vyose ku bijanye n’uburenganzira bwo kubuza ubudandaji, ubudandaji bw’abantu bamwebamwe be n’ibitero ku mutungo. Dupont de Nemours na we nyene yatowe mu nama nshingamateka y’igihugu.
+Ico cete gishimishije cane carimwo ivyo abahinga mu vy’ubutunzi b’abanyagihugu bidoga vyose ku bijanye n’uburenganzira bwo kubuza ubudandaji, ubudandaji bw’abantu bamwebamwe be n’ibitero ku matungo. Dupont de Nemours na we nyene yatowe mu nama nshingamateka y’igihugu.
 
 
 ![image](assets/fr/129.webp)
 
-Mu gihe c’Impinduka, yabaye ijwi ry’ubwenge busanzwe bw’abanyagihugu, ahagarara ashikamye arwanya umupfunda w’ugutera imbere kw’abanyagihugu n’ugutera imbere kw’abanyagihugu, ivyo bikaba vyaciye bitsinda.
+Mu gihe c’Impinduka, yabaye ijwi ry’ubwenge busanzwe bw’abanyagihugu, ahagarara ashikamye arwanya umupfunda w’ugutera imbere kw’abanyagihugu, ukuryosharyosha abanyagihugu ivyo bikaba vyaciye bitsinda.
 
 
-Kera mu kwezi kwa Munyonyo 1789, igihe hari ibiganiro vyo guha uburenganzira Caisse d’Escompte (ivyo bikaba vyari gushobora kuyihindura banki ya Leta—Banki y’Ubufaransa), Dupont de Nemours yaravuze mu kurwanira uguhiganwa.
+Kugitangura ukwezi kwa Munyonyo 1789, igihe hari ibiganiro vyo guha uburenganzira Caisse d’Escompte (ivyo bikaba vyari gushobora guhindura banki ya Leta ikaba Banki y’Ubufaransa), Dupont de Nemours yaravuze mu kurwanira uguhiganwa.
 
 
 
@@ -1570,49 +1572,49 @@ Kera mu kwezi kwa Munyonyo 1789, igihe hari ibiganiro vyo guha uburenganzira Cai
 Avuga ati: "Vyoba vyiza ubucuruzi bwa banki bushikirijwe amategeko y'ubudandaji bwigenga". Kandi yongerako ati:
 
 
-> "Sintahura ico umushikiranganji yashaka kuvuga igihe yavuze ko guha uburenganzira Caisse d'Escompte. Nimba muri ubwo butegetsi burimwo uburenganzira bwo guhabwa uburenganzira bwo gukora, utegerezwa kubwanka, kuko waje hano kugira ngo usenye uburenganzira bwo gukora uburenganzira bwo gukora, atari kugira ngo ureme ubundi bushasha."
+> "Sintahura ico umushikiranganji yashaka kuvuga igihe yavuze ko guha uburenganzira Caisse d'Escompte. Nimba muri ubwo butegetsi burimwo uburenganzira bwo gukora, utegerezwa kubwanka, kuko waje hano kugira ngo usenye uburenganzira bwo gukora, atari kugira ngo ureme ubundi bushasha."
 
 Naho yari yaragabishije, Inama Nkuru ntiyitaho ivyo yarwanya, maze itera iyindi ntambwe yo gushinga banki nkuru n’uburenganzira bwo gukoresha banki.
 
-Mu 1790, mu nama nshingamateka, Dupont de Nemours yarakurikiye umugenzo w’abanyagihugu b’abanyagihugu b’abanyagihugu b’abanyagihugu b’abanyagihugu, aca asaba itegeko ribuza intambara zitera. Ingingo ya mbere yari ivuga iti: «Igihugu c'Ubufaransa ntikizokwemera kwinjira mu ntambara iyo ari yo yose y'ububisha kugira ngo gifate ubutaka bw'abandi canke ngo gihungabanya uburenganzira canke umwidegemvyo w'Igihugu ico ari co cose».
+Mu 1790, mu nama nshingamateka, Dupont de Nemours yarakurikiye umugenzo w’abanyagihugu, aca asaba itegeko ribuza intambara zitera. Ingingo ya mbere yari ivuga iti: «Igihugu c'Ubufaransa ntikizokwemera kwinjira mu ntambara iyo ari yo yose y'ububisha kugira ngo gifate ubutaka bw'abandi canke ngo gihungabanya uburenganzira canke umwidegemvyo w'Igihugu ico ari co cose».
 
 
 Ico ciyumviro caranse.
 
 
-Muri uwo mwaka nyene, ni ukuvuga mu 1790, haratanguye impaka ku bijanye no gusohora amahera mashasha y’impapuro kugira ngo Leta ikoreshe amahera.
+Muri uwo mwaka nyene, ni ukuvuga mu 1790, haratanguye impari ku zijanye no gusohora amahera mashasha y’impapuro kugira ngo Leta ikoreshe amahera.
 
-Dupont de Nemours yarabirwanije cane, aca asohora agatabu kavuga ngo [*Ingaruka z’Ibikorwa vy’Igihugu ku Giciro c’Umukate*]. Iryo zina ryari ribereye, kuko yasiguye yuko gutanga ama assignats vyotuma ata kabuza haba inflation, ni ukuvuga ko ibiciro vy’ibicuruzwa, harimwo n’umukate, vyiyongera.
+Dupont de Nemours yarabirwanije cane, aca asohora agatabu kavuga ngo [*Ingaruka z’Ibikorwa vy’Igihugu ku Giciro c’Umukate(Effects of Assignats on the Price of Bread)*]. Iryo zina ryari ribereye, kuko yasiguye yuko gutanga ama insiguro yotuma ata kabuza haba ugutakaza agaciro, ni ukuvuga ko ibiciro vy’ibicuruzwa, harimwo n’umukate, vyiyongera.
 
 
 
 ![image](assets/fr/131.webp)
 
 
-Yashize umukono kuri ako gatabo nk'"umugenzi w'abantu". Ico gice carateye akajagari kanini cane, kuko Inama yabajijwe uwacanditse. Dupont de Nemours aca arahaguruka yemera ko ari igikorwa ciwe, avuga ko ata nsoni afise zo gukoresha izina ry’icubahiro ry’icubahiro ry’icubahiro ry’uko « umugenzi w’abantu » kuko kurwanya abashizweho ari ugukorera abantu vy’ukuri.
+Yashize umukono kuri ako gatabo nk'"umugenzi w'abantu(a friend of the people)". Ico gice carateye akajagari kanini cane, kuko Inama yabajijwe uwacanditse. Dupont de Nemours aca arahaguruka yemera ko ari igikorwa ciwe, avuga ko ata nsoni afise zo gukoresha izina ry’icubahir ry’uko « umugenzi w’abantu » kuko kurwanya abashizweho ari ugukorera abantu vy’ukuri.
 
-Na none, impanuro ziwe zararengagijwe, maze ama assignts arasohoka.
+Na none, impanuro ziwe zarinubwe, maze n'insiguro barazatera ibvyatsi.
 
 
 
 ![image](assets/fr/132.webp)
 
 
-Twese turazi icago cakurikiye, ugusenyuka kw’ubutunzi n’imibabaro abantu bihanganiye, benshi muri bo batakaje vyose igihe aba assignats bacitse ubusa, bagategerezwa guturirwa.
+Twese turazi icago cakurikiye, ugusenyuka kw’ubutunzi, Guhomba bikomeye mu butunzi n'imibabaro abanyagihigu bagize, benshi muri bo batakaje vyose igihe aba abasiguzi bacitse ubusa, baraturirwa.
 
 Haciye imyaka mikeyi, iyo nama yarahindukiriye iciyumviro co gushinga Banki y’Ubufaransa nyayo, iyo Banki yohabwa uburenganzira bwo gukora amahera yonyene.
 
 
-Dupont de Nemours, yari agirwanya cane iciyumviro c’uko hoba banki ya Leta, abona ko ata kindi ariko ni ugukoresha umuntu wenyene, yaributse Inama y’Ishengero ivy’ivyago vyashikiye abashinzwe. Yarababwiye ati:
+Dupont de Nemours, yari akirwanya cane iciyumviro c’uko hoba banki ya Leta, abona ko ata kindi ariko ni ugukoresha umuntu wenyene, yaributse Inama y’Ishengero ivy’ivyago vyashikiye abashinzwe. Yarababwiye ati:
 
 
 
-> "Ntimwitegurire kwicuza nk'ivyo vyababaje bagenzi banje bo mu Nteko Nshingamateka. Ico gihe, iciyumviro canje co guhagarika ama assignats gusa ku kwishura ibintu vy'igihugu, ntibibe amafaranga agendagenda, caranse. Uyu musi, bavuga bati: 'Ah, iyo twumviriza Dupont de Nemo!'"
+> "Ntimwitegurire kwicuza nk'ivyo vyababaje bagenzi banje bo mu Nama Nshingamateka. Ico gihe, iciyumviro canje co guhagarika abaserukizi gusa ku kwishura ibintu vy'igihugu, ntibibe amafaranga agendagenda, caranse. Uyu musi, bavuga bati: 'Ah, iyo twumviriza Dupont de Nemo!'"
 
-Ariko rero, nta n’umwe yamutega yompi.
+Ariko rero, nta n’umwe yamwumvirije.
 
 
-## Insozero: Guca Itara
+## Umusozo(ico dushitseko): Ukurengana kw'urumuri
 
 
 <chapterId>ada8082f-db96-5e52-954f-719b47998153</chapterId>
@@ -1637,7 +1639,7 @@ Cantillon yashimikiye ko amahera adakwiye kwigera akoreshwa mu ntumbero za polit
 ![image](assets/fr/134.webp)
 
 
-Vincent de Gournay yemeza yuko gutegeka cane igikorwa bica intege utwigoro tw’abakozi n’abahinguzi b’ibintu, bikabatuma baba ubunebwe no kutagira ico bakora. Ni ukubera uguhiganwa ku buntu ubutunzi bushobora gutera imbere, igihugu kigatera imbere.
+Vincent de Gournay yemeza yuko gutegeka cane igikorwa bica intege utwigoro tw’abakozi n’abahinguzi b’ibintu, bikabatuma baba ubunebwe no kutagira umwidegemvyo. Ni ukubera uguhiganwa ku buntu ubutunzi bushobora gutera imbere, igihugu kigatera imbere.
 
 
 
@@ -1651,13 +1653,13 @@ Marquis d’Argenson yemeza ko ata ntwaro ishobora kubona imbere y’igihe ibint
 ![image](assets/fr/136.webp)
 
 
-Quesnay n’aba Physiocrates bemeza ko umutungo w’abantu ari wo mushinge w’imibano y’abantu. Iyo umuntu atagira umutungo wiwe bwite, aratakaza icipfuzo co gukora, co gukora, kuko adashobora kwinovora ivyamwa vy’ibikorwa vyiwe canke ngo arundanire ikintu na kimwe.
+Quesnay n’aba Physiocrats bemeza ko umutungo w’abantu ari wo mushinge w’imibano y’abantu. Iyo umuntu atagira umutungo wiwe bwite, aratakaza icipfuzo co gukora, co gukora, kuko adashobora kwinovora ivyamwa vy’ibikorwa vyiwe canke ngo arundanire ikintu na kimwe.
 
 
 ![image](assets/fr/137.webp)
 
 
-Condillac yemeza ko Exchange yama ari ngirakamaro kuri bose kandi rero, ata n’umwe asigaye, ikwiye kwama ari ubuntu. Intumbero ya Leta yonyene itegerezwa kuba iyo kurinda umwidegemvyo n’itunga.
+Condillac yemeza ko uguhanahana kwama ari ngirakamaro kuri bose kandi rero, ata n’umwe asigaye, ikwiye kwama ari ubuntu. Intumbero ya Leta yonyene itegerezwa kuba iyo kurinda umwidegemvyo n’itunga.
 
 
 ![image](assets/fr/138.webp)
@@ -1672,31 +1674,31 @@ Ivyo vyiyumviro vyose vyofatwa n’abahinga mu vy’ubutunzi bo mu kinjana ca 19
 <chapterId>17cf2865-e53c-5f3b-a5c2-a43560efaf01</chapterId>
 
 
-**IBIBUMBANO VYAHISANISWE**
+**URUTONDE RWAHISWEMWO GUKORESHWA NK'IVYITEGEREREZO**
 
 
 Aha musi, uzosanga ivyanditswe birenga mirongo itatu vyatoranijwe:
 
 
-1. Pierre Clément, Amateka y'Umukuru w'Igihugu n'Ubutegetsi bw'Umwana, i Paris, 1874
+1. Pierre Clément, Amateka ya Colbert n'ubutegetsi bwiwe, i Paris, 1874
 
-2. Vauban, Umugambi w’indirimbo z’umwami, 1707; ryasubiwemwo ry’Ikigo Coppet, mu 2014; Anne Blanchard, Vauban, Fayard, 1996
+2. Vauban, Umugambi wo gutanga igice c'umusaruro ku umwami, 1707; ryasubiwemwo ry’Ikigo Coppet, mu 2014; Anne Blanchard, Vauban, Fayard, 1996
 
-3. Boisguilbert, Ivyerekeye Ubufaransa, mu 1695; ryasubiwemwo n'Ikigo Coppet, mu 2014
+3. Boisguilbert, Détail de la France, mu 1695; ryasubiwemwo n'Ikigo Coppet, mu 2014
 
 4. Félix Cadet, Pierre de Boisguilbert: umurongozi w’abahinga mu vy’ubutunzi, Ikigo ca Coppet, 2014
 
 5. Pierre de Boisguilbert canke ukuvuka kw'ubutunzi bwa politike, Paris, INED, 1966
 
-6. Richard Cantillon, igitabu kivuga ku kamere k’ubudandaji muri rusangi, mu 1755; ryasubiwemwo n’Ikigo Coppet, 2015
+6. Richard Cantillon, igitabu kivuga ku kamere k’ubudandaji muri rusangi(), mu 1755; ryasubiwemwo n’Ikigo Coppet, 2015
 
 7. Antoin Murphy, Richard Cantillon, umuhinga mu vy’amabanki n’umuhinga mu vy’ubutunzi, muri Oxford, mu 1986
 
-8. Gustave de Molinari, umukuru w’idini ry’i Saint-Pierre, i Paris, mu 1859
+8. Gustave de Molinari,  Abbé de Saint-Pierre, i Paris, mu 1859
 
-9. Umukuru w’idini ry’i Saint-Pierre, Umukuru w’Ishengero ry’Umugambi w’Igihugu c’Igihugu, i Rotterdam, mu 1729
+    Abbé de Saint-Pierre, Umukuru w’Ishengero ry’Umugambi w’Igihugu, i Rotterdam, mu 1729
 
-10. Umukuru w’idini ry’i Saint-Pierre, « Umugambi wo gutuma ubudandaji bw’Ubufaransa butunganye », mu gitabu Les rêves d’un homme de Bien, i Paris, 1775, urupapuro rwa 199
+10.  Abbé de Saint-Pierre, « Umugambi wo gutuma ubudandaji bw’Ubufaransa butunganye », mu gitabu Les rêves d’un homme de Bien, i Paris, 1775, urupapuro rwa 199
 
 11. André Alem, Umukuru w’igihugu ca Argenson n’ubutunzi bwa politike mu ntango z’ikinjana ca XVIII, Ikigo ca Coppet, 2015
 
@@ -1726,9 +1728,9 @@ Aha musi, uzosanga ivyanditswe birenga mirongo itatu vyatoranijwe:
 
 24. Georges Weulersse, Igitabu c’ubuhinga bw’umubiri n’abaminisitiri b’abanyagihugu (1774-1781), P.U.F., 1950
 
-25. George Weulersse, Ubuhinga bwo guhindura umubiri (1781-1792), EHESS, 1985
+25. George Weulersse, Physiocatiie à l'aube de la révolution  (1781-1792), EHESS, 1985
 
-26. P. Jolly, Umukuru w’Igihugu, Umusirikare w’Umwidegemvyo, Paris, P.U.F., 1956
+26. P. Jolly, Du Pont de Nemours, Umusirikare w’Umwidegemvyo, Paris, P.U.F., 1956
 
 27. Ivyanditswe na Voltaire ku vyerekeye ubutunzi, Ikigo ca Coppet, 2013
 
@@ -1736,9 +1738,9 @@ Aha musi, uzosanga ivyanditswe birenga mirongo itatu vyatoranijwe:
 
 29. Benoît Malbranque, Uburenganzira bwo kwidegemvya : Umukuru w’igihugu ca Limousine (1761-1774), Ikigo ca Coppet, 2015
 
-30. Pierre Foncin, Igitabu c'ubushikiranganji bwa Turgot, i Paris, 1877
+30. Pierre Foncin, Igitabu c'igerageza ku ubushikiranganji bwa Turgot, Paris, 1877
 
-31. Auguste Lebeau, umuhinga mu vy’ubutunzi wo mu gisagara ca Paris, mu 1903
+31. Auguste Lebeau, umuhinga mu vy’ubutunzi, Paris, mu 1903
 
 32. Condillac, Ubucuruzi na Leta vyiyumviriwe ko bifitaniye isano n’ubutegetsi, 1776
 
@@ -1762,7 +1764,7 @@ Aha musi, uzosanga ivyanditswe birenga mirongo itatu vyatoranijwe:
 
 <isCourseReview>true</isCourseReview>
 
-## Ikizame canyuma
+## Ikibazo canyuma
 
 
 <chapterId>bdb7fd98-33e7-11f0-9fe6-b785c859ffc5</chapterId>

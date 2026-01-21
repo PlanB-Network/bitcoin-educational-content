@@ -11,7 +11,7 @@ objectives:
 
 欢迎来到这个专门讲述比特币创建历史的课程！作为用户，您可能想知道您正在使用的工具从何而来。此外，有时您可能不理解关于标记着加密货币短暂历史的人物和事件的参考。最后，通过研究这段历史和了解其缓慢形成流程的背景，您将更好地理解比特币本身。
 
-在这个课程中，您将探讨其设计、启动和初步经济建设的旅程。在第一部分，我们将探讨比特币概念出现的技术背景。在第二部分，我们将关注其诞生和启动。在第三部分，我们将研究比特币在经济使用、挖矿和软件开发方面的增长。在第四部分，我们将简单了解比特币的创造者中本聪如何逐渐消失，以及社区如何接管，使加密货币成为一个真正的集体项目。
+在这个课程中，您将探讨其设计、启动和初步经济建设的旅程。在第一部分，我们将探讨比特币概念出现的技术背景。在第二部分，我们将关注其诞生和启动。在第三部分，我们将研究比特币在经济使用、挖矿和软件开发方面的增长。在第四部分，我们将简单了解比特币的创建者中本聪如何逐渐消失，以及社区如何接管，使加密货币成为一个真正的集体项目。
 
 这个课程当然以中本聪这一人物为中心，您将发现他的言行，但它也涉及到在比特币存在的最初几年中参与其开发的其他人物。因此，您将了解到像 Hal Finney、Martti Malmi、Laszlo Hanyecz、Gavin Andresen、Jeff Garzik 或 Amir Taaki 等的重要先驱。我们希望这次深入比特币起始历史的探索对您有益！
 
@@ -231,7 +231,7 @@ eCash 于 1995 年 10 月引入银行系统，开始了 DigiCash 与密苏里州
 e-gold 系统利用了刚刚兴起的网络，特别是最近推出的 Netscape 浏览器。每个客户都可以从网站访问他们的账户，而不必操作专用软件。对于当时来说，该平台性能非常高，利用了受到银行间转账启发的实时全额结算系统。以下是 2005 年发送 e-gold 的样子（图片来自当时的[教程](https://www.geocities.ws/rizuan_mahrol/setpbystep.html)）：
 
 ![2005 年在 e-gold 上发送](assets/zh-Hans/009.webp)
-电子黄金系统取得了巨大成功：在 2006 年的高峰时期，它[保证](https://web.archive.org/web/20060907024202if_/http://www.e-gold.com:80/examiner.html)拥有 3.6 吨黄金，价值超过 8000 万美元，[处理](https://web.archive.org/web/20060208044937/http://www.e-gold.com/stats.html)每天75,000 笔交易，年度交易量达到 30 亿美元，并管理着超过 270 万个账户。这一成功随着国家的干预而突然终止。经过美国特勤局的调查，Douglas Jackson、他的两家公司及其合伙人于 2007 年 4 月 27 日被司法部以促进洗钱和未经许可经营货币转移业务为由[起诉](https://www.justice.gov/archive/opa/pr/2007/April/07_crm_301.html)。2008 年 11 月，Douglas Jackson 被判有罪，并被判处 3 年缓刑，包括 6 个月的家庭软禁并接受电子监控。在未能成功获得许可后，电子黄金被迫在 2009 年 11 月永久关闭。
+电子黄金系统取得了巨大成功：在 2006 年的高峰时期，它[保证](https://web.archive.org/web/20060907024202if_/http://www.e-gold.com:80/examiner.html)拥有 3.6 吨黄金，价值超过 8000 万美元，[处理](https://web.archive.org/web/20060208044937/http://www.e-gold.com/stats.html)每天 75,000 笔交易，年度交易量达到 30 亿美元，并管理着超过 270 万个账户。这一成功随着国家的干预而突然终止。经过美国特勤局的调查，Douglas Jackson、他的两家公司及其合伙人于 2007 年 4 月 27 日被司法部以促进洗钱和未经许可经营货币转移业务为由[起诉](https://www.justice.gov/archive/opa/pr/2007/April/07_crm_301.html)。2008 年 11 月，Douglas Jackson 被判有罪，并被判处 3 年缓刑，包括 6 个月的家庭软禁并接受电子监控。在未能成功获得许可后，电子黄金被迫在 2009 年 11 月永久关闭。
 
 此后，出现了使用同样模型的其他系统。以 GoldMoney 为例，它由 James Turk 和他的儿子于 2001 年 2 月创立，如今已适应金融法规。还有由 James Fayed 于 2001 年 7 月创立的 e-Bullion 系统，在 2008 年关闭。最终，最后一个数字黄金货币是 Pecunix，由 Simon Davis 于 2002 年在巴拿马创立，并在 2015 年作为退出骗局的一部分停止了运营。
 
@@ -241,14 +241,14 @@ e-gold 系统利用了刚刚兴起的网络，特别是最近推出的 Netscape 
 
 ![2009 年自由储备标志](assets/zh-Hans/010.webp)
 2009 年自由储备标志（来源：[维基媒体](https://commons.wikimedia.org/wiki/File:LR_Logo-1-.webp)）
-该系统与电子黄金（e-gold）非常相似，不同之处在于资金（主要是美元）被存放在海外银行账户中，而不是私人金库中。自从 2007 年 4 月 Douglas Jackson 及其合伙人被起诉后，e-gold 关闭，自由储备（Liberty Reserve）因此大受益。根据[美国司法部](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Liberty%20Reserve%2C%20et%20al.%20Indictment%20-%20Redacted_0.pdf)2013 年 5 月的数据，该平台在全球拥有超过一百万用户，包括美国的 20 多万用户，并每年处理 1200 万笔金融交易，总额超过 14 亿美元。该平台主要用于犯罪活动，但[不仅限于此](https://web.archive.org/web/20150422023243/https://www.theatlantic.com/magazine/archive/2015/05/bank-of-the-underworld/389555/)：自由储备也被外汇交易者或用于海外转账。
+该系统与电子黄金（e-gold）非常相似，不同之处在于资金（主要是美元）被存放在海外银行账户中，而不是私人金库中。自从 2007 年 4 月 Douglas Jackson 及其合伙人被起诉后，e-gold 关闭，自由储备（Liberty Reserve）因此大受益。根据[美国司法部](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Liberty%20Reserve%2C%20et%20al.%20Indictment%20-%20Redacted_0.pdf) 2013 年 5 月的数据，该平台在全球拥有超过一百万用户，包括美国的 20 多万用户，并每年处理 1200 万笔金融交易，总额超过 14 亿美元。该平台主要用于犯罪活动，但[不仅限于此](https://web.archive.org/web/20150422023243/https://www.theatlantic.com/magazine/archive/2015/05/bank-of-the-underworld/389555/)：自由储备也被外汇交易者或用于海外转账。
 
 然而，该系统最终遭遇了与电子黄金相同的命运。2009 年，哥斯达黎加的 *Superintendencia General de Entidades Financieras*（金融监管总局）对自由储备有兴趣，要求其获得许可证（公司未能做到）。然后，在 2011 年 11 月，美国金融罪行执行网络（FinCEN）发布了一份[通知](https://www.justice.gov/sites/default/files/usao-sdny/legacy/2015/03/25/Liberty%20Reserve%2C%20et%20al.%20Indictment%20-%20Redacted_0.pdf#page=12)，声明该系统 “被犯罪分子用来进行匿名交易，以全球范围内转移资金。” 最终，在一次国际行动中，自由储备被关闭：2013 年 5 月 24 日，Arthur Budovsky 及其主要合伙人在不同的司法管辖区（西班牙、美国、哥斯达黎加）被起诉并逮捕，主要网站被司法部查封。2016 年，被引渡至美国后，Arthur Budovsky 因洗钱被判处 20 年监禁。
 
 因此，这个例子表明，司法管辖区的套利不足以保护货币免受国家干预。
 
 ### PayPal 和 Peter Thiel 的愿景
-最后，我们还要讨论 PayPal 的案例。尽管其创造者并未打算使其成为一个独立于现有系统的货币，但他们仍然设想这个产品将对社会产生影响，符合硅谷的颠覆性意识形态。PayPal 产品由 Confinity Inc. 开发，该公司由 Max Levchin 和 Peter Thiel 于 1998 年 12 月在旧金山共同创立，他们几个月前在斯坦福大学相遇。公司最初被称为 FieldLink，旨在开发 PalmPilot 手持计算机上的安全支付系统。
+最后，我们还要讨论 PayPal 的案例。尽管其创建者并未打算使其成为一个独立于现有系统的货币，但他们仍然设想这个产品将对社会产生影响，符合硅谷的颠覆性意识形态。PayPal 产品由 Confinity Inc. 开发，该公司由 Max Levchin 和 Peter Thiel 于 1998 年 12 月在旧金山共同创立，他们几个月前在斯坦福大学相遇。公司最初被称为 FieldLink，旨在开发 PalmPilot 手持计算机上的安全支付系统。
 
 PayPal 于 1999 年 10 月由公司的一名工程师创建。它允许通过电子邮件地址进行简单且无需手续费的支付，旨在用于个人之间的简单支付（“支付伙伴”）。其商业模式基于从客户在银行持有的资金中赚取利息，这覆盖了运营成本并奖励了股东。因此，它是建立在银行系统之上的服务，类似于自由储备。
 
@@ -403,7 +403,7 @@ Ripple 的概念基于这样一个观点，即金钱本质上是由借据组成�
 :::video id=825522d8-1ccc-4d14-80ac-e292a85a608a:::
 
 了解比特币的来源之后，我们现在将聚焦于它自身的历史。这一主题已经是无数文章、播客和视频的主题，以至于它几乎成了一种创始神话。正如我们所见，比特币与其创造的背景密不可分；其早期年份发生的事件也是如此，这些事件塑造了今天的比特币，以及它的优点和缺陷。
-比特币由一个自称是日本人的未知个体中本聪创建，他在向公众揭露之前花时间深思熟虑地设计了它。随后，他们尽一切努力确保比特币在最佳条件下启动，它在讨论中得到了良好的呈现，并且被越来越多的人使用。最终，创造者的努力不仅仅在于系统的经济启动，如果不是更多的话，还在于其最初的设计。
+比特币由一个自称是日本人的未知个体中本聪创建，他在向公众揭露之前花时间深思熟虑地设计了它。随后，他们尽一切努力确保比特币在最佳条件下启动，它在讨论中得到了良好的呈现，并且被越来越多的人使用。最终，创建者的努力不仅仅在于系统的经济启动，如果不是更多的话，还在于其最初的设计。
 
 本章讲述的是比特币的诞生，这发生在 2008 年秋季到 2009 年冬季之间。这一时期被两个重大事件标记：2008 年 10 月 31 日白皮书的发布，这是解释系统技术工作原理的基础性文件；以及 2009 年 1 月 9 日原型网络的启动，仅仅两个多月后。因此，我们将关注中本聪在此期间的行动以及他与比特币早期采用者和首批反对者的几次互动。
 
@@ -412,7 +412,7 @@ Ripple 的概念基于这样一个观点，即金钱本质上是由借据组成�
 
 > “在某个时刻，我确信有一种方法可以做到完全不需要任何信任，我无法抗拒继续思考它。更多的工作是设计而不是编写代码。”
 
-为了确保其正确运行，中本聪在起草白皮书之前[编程](https://www.metzdowd.com/pipermail/cryptography/2008-November/014832.html)了一个原型。这种方法与学术界通常的做法相反，在学术界，概念通常在科学论文中正式提出，然后再实施。比特币的创造者[表示](https://www.metzdowd.com/pipermail/cryptography/2008-November/014832.html)：
+为了确保其正确运行，中本聪在起草白皮书之前[编程](https://www.metzdowd.com/pipermail/cryptography/2008-November/014832.html)了一个原型。这种方法与学术界通常的做法相反，在学术界，概念通常在科学论文中正式提出，然后再实施。比特币的创建者[表示](https://www.metzdowd.com/pipermail/cryptography/2008-November/014832.html)：
 
 > “我实际上是倒过来做的。我必须先编写所有代码，才能说服自己我能解决每一个问题，然后我才写论文。”
 
@@ -420,7 +420,7 @@ Ripple 的概念基于这样一个观点，即金钱本质上是由借据组成�
 
 2008 年 8 月，中本聪决定为比特币的启动做准备。18 日，他通过匿名服务 AnonymousSpeech 预留了域名Bitcoin.org（以及[Netcoin.org](https://twitter.com/orweinberger/status/1573234325046558720)，可能是因为他还没有最终确定他的概念的名称）。该域名将托管主要的比特币网站。然而，中本聪未能预留域名 Bitcoin.com，当时该域名被一名[投机者](https://mmalmi.github.io/satoshi/#email-28)持有，并且在 2009 年至 2011 年间被一家名为 BitCoin Ltd. 的公司[使用](https://web.archive.org/web/20090719065532/http://www.bitcoin.com/)，该公司专门从事网络微型支付。
 
-8 月 20 日，比特币的创造者[联系](https://s3.documentcloud.org/documents/24439625/adam-back-exhibit-ab1-1.pdf)了 Adam Back，通过发送电子邮件向他询问如何在白皮书中引用他关于 Hashcash 的论文。很难不将此视为一个借口，以确保 Hashcash 的发明者意识到他的新系统。
+8 月 20 日，比特币的创建者[联系](https://s3.documentcloud.org/documents/24439625/adam-back-exhibit-ab1-1.pdf)了 Adam Back，通过发送电子邮件向他询问如何在白皮书中引用他关于 Hashcash 的论文。很难不将此视为一个借口，以确保 Hashcash 的发明者意识到他的新系统。
 
 ![Adam Back in 2012](assets/zh-Hans/020.webp)
 2012 年的 Adam Back（来源：[Adam Back 的个人页面](http://www.cypherspace.org/adam/)）
@@ -568,7 +568,7 @@ The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 
 ### 监管、僵尸网络和生态
 
-在此之后，邮件列表上出现了另一场讨论。中本聪提到了垃圾邮件限制作为一个使用案例，这引发了各个贡献者的反应。比特币的创造者更愿意私下回应这些批评，但 Hal Finney 却承担起了公开反对的责任。实际上，当他尝试开发自己的数字货币 RPOW 时，他已经有时间反思这些问题了。
+在此之后，邮件列表上出现了另一场讨论。中本聪提到了垃圾邮件限制作为一个使用案例，这引发了各个贡献者的反应。比特币的创建者更愿意私下回应这些批评，但 Hal Finney 却承担起了公开反对的责任。实际上，当他尝试开发自己的数字货币 RPOW 时，他已经有时间反思这些问题了。
 首先，监管问题以及政府可能禁止比特币的潜在可能性出现了。这个问题由邮件列表上的常客、印第安纳大学布卢明顿分校天文系研究员 Jonathan Thornburg [提出](https://www.metzdowd.com/pipermail/cryptography/2009-January/015016.html)。在回应中本聪提出的使用案例的电子邮件中，他概述了全球金融监控的情况，并指出比特币可以允许转移超过当局容忍阈值的金额。他的推理的逻辑后果是，“没有哪个主要政府可能允许比特币以其当前形式在大规模上运行。”
 这个问题引起了 Hal Finney 的兴趣，他在 1 月 21 日发了一条[推文](https://twitter.com/halfin/status/1136749815)，表示他正在“寻找增加比特币匿名性的方法。”然后，在 24 日，他向 Jonathan Thornburg [回应](https://www.metzdowd.com/pipermail/cryptography/2009-January/015036.html)说：“当然这是一个有道理的观点，多年来关于电子现金的辩论中广泛讨论过的一个问题。比特币有几个有利之处：一个是它是分布式的，没有单一故障点，没有‘铸币商’，没有可以被传唤和逮捕并关闭的公司高管。”
 
@@ -594,7 +594,7 @@ Hal Finney 于 27 日[提到](https://www.metzdowd.com/pipermail/cryptography/20
 
 2011 年 3 月 17 日，P2P Foundation 论坛上的中本聪个人资料（来源：[论坛截图](https://web.archive.org/web/20110317060514/http://p2pfoundation.ning.com:80/profile/SatoshiNakamoto)）
 
-这并不是在中本聪的交流中发现的唯一关于贵金属的提及。比特币的创造者在 2 月 18 日的评论中[写道](https://p2pfoundation.ning.com/forum/topics/bitcoin-open-source?commentId=2003008:Comment:9562)：
+这并不是在中本聪的交流中发现的唯一关于贵金属的提及。比特币的创建者在 2 月 18 日的评论中[写道](https://p2pfoundation.ning.com/forum/topics/bitcoin-open-source?commentId=2003008:Comment:9562)：
 
 > “对于 Sepp 的问题，确实没有人充当中央银行或联邦储备银行来调整随着用户群体增长的货币供应量。这本需要一个可信的方来确定价值，因为我不知道有什么方式让软件知道事物的现实世界价值。如果有一些巧妙的方式，或者我们想要信任某人来积极管理货币供应量以将其锚定于某物，那么规则本可以为此而编程。从这个意义上说，它更像是一种贵金属。”
 
@@ -602,7 +602,7 @@ Hal Finney 于 27 日[提到](https://www.metzdowd.com/pipermail/cryptography/20
 > 我将比特币视为一个基石，如果你想实现 Marc \[Fawzi\] 和其他在这里讨论的人描述的可编程点对点社交货币，这是第一步。首先，一个基本的、正常的点对点货币需要能正常运作。一旦它建立并且被证明是可行的，那么转向下一步，即动态自动货币，就容易多了。
 我真的很喜欢没有地理归属的虚拟社区，尝试新的经济范式的想法。
 
-这一切表明，比特币的创造者在努力迎合受众，并尽其所能让人们对他的发现产生兴趣。
+这一切表明，比特币的创建者在努力迎合受众，并尽其所能让人们对他的发现产生兴趣。
 
 ### Mike Hearn 和 “2100 万”上限
 中本聪的沟通策略正逐步取得成效。2009 年 4 月，其他人开始对他的发明产生兴趣。其中之一是 Mike Hearn，一位 24 岁的英国开发者，在瑞士为谷歌工作，并在业余时间致力于自由软件开发。他当时对数字支付系统感兴趣，特别是 Ryan Fugger 的项目 Ripple。正是在 Ripple 的 Google Group 上，他通过年轻的美国计算机科学家和企业家 Charles N. Wyble 在三月份创建的一个[讨论串](https://groups.google.com/g/rippleusers/c/1GsQzGv9Y14)听说了比特币。
@@ -618,7 +618,7 @@ Mike Hearn 和 中本聪讨论了比特币的各个方面，如扩展性、微�
 他后来向 Mike Hearn 解释说，他“考虑过每个区块 100 比特币和 4200 万上限”，但 4200 万对他来说似乎太高了。（“我考虑过每个区块 100 比特币和 4200 万上限，但 4200 万似乎太高了。”）
 联系了中本聪之后，Mike Hearn 开始在他的个人电脑上使用该软件。他挖出了一些区块，包括[区块11,157](https://mempool.space/block/00000000a630e2695d98b11707d053b12c583f58976f8b4ae6a6f289ee32797b)。与此同时，两人进行了一些货币交换。4 月 18 日，Mike Hearn 向中本聪发送了32.51 比特币，中本聪在当天返回了这些比特币。他们还互相发送了来自个人挖矿努力的 50 个比特币。
 
-### Martti Malmi 和 比特币的介绍
+### Martti Malmi 和比特币的介绍
 
 中本聪的沟通也引起了一位名叫 Martti Malmi 的年轻芬兰计算机科学学生的注意。他在 4 月初通过 P2P Foundation 论坛上的文本发现了比特币。9 号，他开始使用该软件并挖出了他的第一个区块（区块10,351）。当天晚上，他写了一篇简短的比特币介绍，在其中支持了 “P2P 货币可能使政府灭绝？”的无政府主义假设。他以 Trickster(n) 的笔名在两个不同敏感度的自由主义论坛上发布了他的文本：anti-state.com (ASC) 和 Freedomain Radio 的论坛（无政府资本主义者 Stefan Molyneux 的媒体）。Martti 写道：
 
@@ -629,7 +629,7 @@ Mike Hearn 和 中本聪讨论了比特币的各个方面，如扩展性、微�
 
 Martti 随后向中本聪发送了一封[电子邮件](https://mmalmi.github.io/satoshi/#email-1)，告诉他自己是这篇文本的作者，他写道他“希望能帮助比特币”，尽管他“在开发方面的经验还不多”。中本聪在 5 月 2 日回复他，告诉他他对比特币的“理解是非常准确的”。
 
-比特币的创造者邀请他参与到 [SourceForge 上的网页](https://web.archive.org/web/20090511173000/http://bitcoin.sourceforge.net/)的贡献，这是托管该项目的平台，特别是通过编写一个[常见问题解答](https://mmalmi.github.io/satoshi/#email-4)（FAQ）部分。在主页(bitcoin.sourceforge.net)上，他将比特币介绍为一个“基于点对点网络的匿名数字货币”，它不依赖于“任何中央权威来发行新货币或监控交易”。他强调了以下优点：
+比特币的创建者邀请他参与到 [SourceForge 上的网页](https://web.archive.org/web/20090511173000/http://bitcoin.sourceforge.net/)的贡献，这是托管该项目的平台，特别是通过编写一个[常见问题解答](https://mmalmi.github.io/satoshi/#email-4)（FAQ）部分。在主页(bitcoin.sourceforge.net)上，他将比特币介绍为一个“基于点对点网络的匿名数字货币”，它不依赖于“任何中央权威来发行新货币或监控交易”。他强调了以下优点：
 
 - “通过互联网轻松转账，无需信任第三方。”
 - “没有第三方可以阻止或控制你的交易。”
@@ -654,7 +654,7 @@ Martti Malmi 还在 SourceForge 页面上设置了一个论坛和一个 wiki。�
 随着时间的推移，越来越多的人注册并参与这个第一个论坛，使中本聪意识到 Malmi 设置的软件基础设施不足。11 月 5 日，他写信给这位年轻的芬兰人，建议创建一个能够处理更高流量的新论坛：
 
 > “现在 bitcoin.sourceforge.net 上的论坛开始流行起来，我们真的应该寻找一个可以免费托管完整论坛软件的地方。”
-讨论了采用哪种技术解决方案之后，Martti Malmi 于 11 月 17 日[安装](https://mmalmi.github.io/satoshi/#email-93)了论坛在他的服务器上，而中本聪从 11 月 19 日开始[配置](https://mmalmi.github.io/satoshi/#email-99)它。从 22 日开始，比特币的创造者将一些旧论坛上关于隐私、挖矿和 Linux 等主题的问答转移到了新论坛。他还发布了一条[欢迎信息](https://bitcointalk.org/index.php?topic=5.msg28#msg28)。25 日，论坛在 bitcoin.org/smf 的地址上[启动](https://mmalmi.github.io/satoshi/#email-110)。
+讨论了采用哪种技术解决方案之后，Martti Malmi 于 11 月 17 日[安装](https://mmalmi.github.io/satoshi/#email-93)了论坛在他的服务器上，而中本聪从 11 月 19 日开始[配置](https://mmalmi.github.io/satoshi/#email-99)它。从 22 日开始，比特币的创建者将一些旧论坛上关于隐私、挖矿和 Linux 等主题的问答转移到了新论坛。他还发布了一条[欢迎信息](https://bitcointalk.org/index.php?topic=5.msg28#msg28)。25 日，论坛在 bitcoin.org/smf 的地址上[启动](https://mmalmi.github.io/satoshi/#email-110)。
 
 第一批用户开始在下个月初注册。12 月 9 日，论坛上出现了第一条由其他用户（而非中本聪）发布的[帖子](https://bitcointalk.org/index.php?topic=12.msg40#msg40)，这真正引起了后续的讨论。作为一个例证，这里有一个 2010 年 5 月 29 日论坛的[截图](https://web.archive.org/web/20100529193636/http://www.bitcoin.org/smf/)：
 
@@ -707,70 +707,70 @@ Martti Malmi 还在 SourceForge 页面上设置了一个论坛和一个 wiki。�
 - 
 ### 第一个交易所服务和比特币的初始价格
 
-在 2009 年 9 月底，一位使用化名 NewLibertyStandard（我们将其简称为NLS）的个人发现了比特币。他尝试了该软件并开始挖矿。他产出的第一个区块是[区块23,940](https://mempool.space/block/000000002f74e369b0cab9c836d7777aabb66ae11741910c61da819f17605a50)。他是一位Linux用户，因此使用了“模拟器”Wine来运行软件。他对政治自由和贵金属感兴趣，这一点从他在论坛上的[头像](https://bitcointalk.org/index.php?action=profile;u=26)中可以看出，头像描绘了一只美国鹰，上面刻有“自由”一词。因此，他将比特币视为数字世界中的黄金：在他的[个人页面](https://web.archive.org/web/20091229132559/http://newlibertystandard.wetpaint.com/)上，他将中本聪的创造呈现为“一场经济革命”和“数字货币的黄金标准”。
+在 2009 年 9 月底，一位使用化名 NewLibertyStandard（我们将其简称为NLS）的个人发现了比特币。他尝试使用该软件并开始挖矿。他挖出的第一个区块是[区块 23,940](https://mempool.space/block/000000002f74e369b0cab9c836d7777aabb66ae11741910c61da819f17605a50)。他是一位 Linux 用户，因此使用了“模拟器” Wine 来运行软件。他对政治自由和贵金属感兴趣，这一点从他在论坛上的[头像](https://bitcointalk.org/index.php?action=profile;u=26)中可以看出，头像描绘了一只美国鹰，上面刻有“自由”这一词。因此，他将比特币视为数字世界中的黄金：在他的[个人页面](https://web.archive.org/web/20091229132559/http://newlibertystandard.wetpaint.com/)上，他将中本聪的创造呈现为“一场经济革命”和“数字货币的黄金标准”。
 
 ![NewLibertyStandard在比特币论坛上的头像，描绘了一只美国鹰](assets/zh-Hans/030.webp)
 
-2009年10月，第一个货币兑换服务建立，允许人们将他们的美元兑换成比特币，以及将比特币兑换回美元。该服务的创建者在SourceForge专门的比特币论坛上注册，并在那里宣布了他的服务开通。为了估算汇率，他根据获得一个单位所需的能源成本来计算，考虑了他所在地的电价和他个人生产的频率。在他的页面上，他[写道](https://web.archive.org/web/20091229132610/http://newlibertystandard.wetpaint.com/page/Exchange+Rate)：
+2009 年 10 月，第一个货币兑换服务建立，允许人们将他们的美元兑换成比特币，以及将比特币兑换回美元。该服务的创建者在 SourceForge 专门的比特币论坛上注册，并在那里宣布了他的服务开通。为了估算汇率，他根据获得一个单位所需的能源成本来计算，考虑了他所在地的电价和他个人生产的频率。在他的页面上，他[写道](https://web.archive.org/web/20091229132610/http://newlibertystandard.wetpaint.com/page/Exchange+Rate)：
 
-> “我们的汇率是通过将1.00美元除以运行高CPU使用率的计算机一年所需的平均电量1331.5千瓦时，乘以上一年美国居民电力的平均成本0.1136美元，再除以12个月，除以过去30天我电脑生成的比特币数量来计算的。”
+> “我们的汇率是通过将 1.00 美元除以运行高 CPU 使用率的计算机一年所需的平均电量 1331.5 千瓦时，乘以上一年美国居民电力的平均成本 0.1136 美元，再除以 12 个月，除以过去 30 天我电脑生成的比特币数量来计算的。”
 
-以下是NLS服务的指示性汇率，也发布在NLS的个人页面上：
+以下是 NLS 服务的指示性汇率，也发布在 NLS 的个人页面上：
 
 ![NLS服务的指示性汇率](assets/zh-Hans/031.webp)
 
-交易通过newlibertystandard@gmail.com的电子邮件完成。美元转账仅通过PayPal进行，且此操作会收取费用。
+交易通过 newlibertystandard@gmail.com 的电子邮件完成。美元转账仅通过 PayPal 进行，且此操作会收取费用。
 
-10月8日，Martti Malmi[告知](https://mmalmi.github.io/satoshi/#email-34)中本聪NLS服务的存在。比特币的创造者对这一消息做出了积极的反应，因为他已经在[一段时间](https://mmalmi.github.io/satoshi/#email-28)里考虑建立一种保障比特币价值的手段，以奖励挖矿并启动系统的经济动力。10月16日，他[写道](https://mmalmi.github.io/satoshi/#email-35)给他的右手人：
-看到越来越多的人对NewLibertyStandard网站等内容产生兴趣，这是令人鼓舞的。我喜欢他基于电力估算价值的方法。看到人们采纳什么样的解释很有教育意义。它们可能有助于发现一种简化的理解[比特币]的方式，使其更容易被大众接受。世界上许多复杂的概念都有一个简单的解释，能满足80%的人，还有一个完整的解释，能满足另外20%看到简单解释中瑕疵的人。
+10 月 8 日，Martti Malmi [告知](https://mmalmi.github.io/satoshi/#email-34)中本聪 NLS 服务的存在。比特币的创建者者对这一消息做出了积极的反应，因为他已经在[一段时间](https://mmalmi.github.io/satoshi/#email-28)里考虑建立一种保障比特币价值的手段，以奖励挖矿并启动系统的经济动力。10 月 16 日，他[写道](https://mmalmi.github.io/satoshi/#email-35)给他的右手人：
+看到越来越多的人对 NewLibertyStandard 网站等内容感到兴趣，这是令人鼓舞的。我喜欢他基于电力估算价值的方法。看到人们采纳什么样的解释很有教育意义。它们可能有助于发现一种简化的理解[比特币]的方式，使其更容易被大众接受。世界上许多复杂的概念都有一个简单的解释，能满足 80% 的人，还有一个完整的解释，能满足另外 20% 看到简单解释中瑕疵的人。
 
-在NLS宣布之后，Martti Malmi与他取得了联系。两人同意进行交易。在2009年10月11日到12日的夜晚，比特币首次以美元销售的交易完成了：Martti[转移](https://twitter.com/marttimalmi/status/423455561703624704)了他通过挖矿获得的5,050比特币给NLS，然后NLS将5.02美元转入他的PayPal账户。这相当于每个比特币的单价约为0.001美元。
+在 NLS 宣布之后，Martti Malmi 与他取得了联系。两人同意进行交易。在 2009 年 10 月 11 日到 12 日的夜晚，比特币首次以美元销售的交易完成了：Martti [转移](https://twitter.com/marttimalmi/status/423455561703624704)了他通过挖矿获得的 5,050比特币给 NLS，然后 NLS 将 5.02 美元转入他的 PayPal 账户。这相当于每个比特币的单价约为 0.001 美元。
 
-在接下来的几周里，NLS积累了更多比特币以供应他的服务。11月19日，有人[购买](https://mempool.space/tx/67fc73c770d5001be14f65c95f2f37e04e26c3f8c6a49519d2e63c594ea26756)了他所拥有的约22,500比特币，完成了他的第一次比特币销售。几小时后，Satoshi对这次金融操作感到非常兴奋，并在给Martti Malmi的[电子邮件](https://mmalmi.github.io/satoshi/#email-99)中写道。
+在接下来的几周里，NLS 积累了更多比特币以供应他的服务。11 月 19 日，有人[购买](https://mempool.space/tx/67fc73c770d5001be14f65c95f2f37e04e26c3f8c6a49519d2e63c594ea26756)了他所拥有的约 22,500 比特币，完成了他的第一次比特币销售。几小时后，中本聪对这次金融操作感到非常兴奋，并在给 Martti Malmi 的[电子邮件](https://mmalmi.github.io/satoshi/#email-99)中写道。
 
-在随后的几个月中，NLS服务成为比特币经济发展的核心元素，为比特币与美元之间的交换提供了一个基准。然而，它在2010年上半年开始面临其他更高效交换服务的竞争。
+在随后的几个月中，NLS 服务成为比特币经济发展的核心元素，为比特币与美元之间的交换提供了一个基准。然而，它在 2010 年上半年开始面临其他更高效交换服务的竞争。
 
-### 经济的开端
-2010年初标志着加密货币商业交易的初步步骤。NewLibertyStandard是第一个实际上接受以比特币交换另一种经济商品（在这种情况下是美元）的人，也是这场经济繁荣的第一位推动者。在1月19日，刚在新论坛注册后，他[写道](https://bitcointalk.org/index.php?topic=15.msg111#msg111)：
+### 比特币经济的起点
+2010 年初标志着加密货币商业交易的初步步骤。NewLibertyStandard 是第一个实际上接受以比特币交换另一种经济商品（在这种情况下是美元）的人，也是这场经济繁荣的第一位推动者。在 1 月 19 日，刚在新论坛注册后，他[写道](https://bitcointalk.org/index.php?topic=15.msg111#msg111)：
 
-> "人们从我这里买了比特币，也卖给了我比特币。即使需求量不大，供需已经存在，这就是真正需要的一切。提议用另一种货币交换比特币，从根本上讲与用比特币交换商品或服务没有区别。货币是商品，交换它们是一种服务。我试图想出除了美元之外，还能用比特币买卖什么，但我找不到任何东西。请随时向我们报告您决定用比特币出售的商品。关于资金枯竭的问题，我已经在我的预算中计划了每日捐赠。你今天可以买光我的美元或比特币，但明天和后天总会有更多。每个使用比特币购买或出售商品的人，包括交换者，都在推进比特币经济。让每个人都尽自己的一份力。用比特币买卖某样东西！"
-协调工作主要在论坛上进行。1月27日，一位名为giik的荷兰用户创建了一个标题为“We accept Bitcoins”的[帖子](https://bitcointalk.org/index.php?topic=30.0)，他提议列出接受比特币的各种服务。大约在这个时候，新论坛开始变得流行，消息开始迅速增多。2月7日，Satoshi[指出](https://mmalmi.github.io/satoshi/#email-153)给Martti Malmi，“论坛确实开始火爆起来。&nbsp;我没想到活动会这么快就这么多。”
+> "人们从我这里买了比特币，也卖给我比特币。即使需求量不大，供需已经存在，这就是真正需要的一切。提议用另一种货币交换比特币，从根本上讲与用比特币交换商品或服务没有区别。货币是商品，交换它们是一种服务。我试图想出除了美元之外，还能用比特币买卖什么，但我找不到任何事物。请随时向我们报告您决定用比特币出售的商品。关于资金枯竭的问题，我已经在我的预算中计划了每日捐赠。你今天可以买光我的美元或比特币，但明天和后天总会有更多。每个使用比特币购买或出售商品的人，包括交换者，都在推进比特币经济。让每个人都尽自己的一份力。用比特币买卖某样东西！"
+协调工作主要在论坛上进行。1 月 27 日，一位名为 giik 的荷兰用户创建了一个标题为 “We accept Bitcoins” 的[帖子](https://bitcointalk.org/index.php?topic=30.0)，他提议列出接受比特币的各种服务。大约在这个时候，新论坛开始变得流行，消息开始迅速增多。2 月 7 日，中本聪[指出](https://mmalmi.github.io/satoshi/#email-153)给 Martti Malmi，“论坛确实开始火爆起来。我没想到活动会这么快就这么多。”
 
-2月5日，NLS[建议](https://bitcointalk.org/index.php?topic=41.msg238#msg238)比特币采用外汇市场上交易的货币一样的股票代码BTC和泰铢的符号(฿)。在此之前，并没有建立起来的惯例：例如，Satoshi和Martti在他们的[通信](https://mmalmi.github.io/satoshi/#email-119)中使用字母`bc`来描述单位。BTC符号的使用很快就标准化了。2月24日，货币符号（大写字母B被两个垂直条穿过）由Satoshi[设计](https://bitcointalk.org/index.php?topic=64.msg504#msg504)，他随后创建了第一个真正的比特币标志。
+2 月 5 日，NLS [建议](https://bitcointalk.org/index.php?topic=41.msg238#msg238)比特币采用外汇市场上交易的货币一样的股票代码 BTC 和泰铢的符号(฿)。在此之前，并没有建立起来的惯例：例如，中本聪和 Martti 在他们的[通信](https://mmalmi.github.io/satoshi/#email-119)中使用字母 `bc` 来描述单位。BTC 符号的使用很快就标准化了。2 月 24 日，货币符号（大写字母 B 被两个垂直条穿过）由中本聪[设计](https://bitcointalk.org/index.php?topic=64.msg504#msg504)，他随后创建了第一个真正的比特币标志。
 
 ![由中本聪设计的第一个真正的比特币标志（2010）](assets/zh-Hans/032.webp)
 
-渐渐地，人们开始接受比特币。2009年12月，一个名为SmokeTooMuch的用户刚到来，就[报告了](https://web.archive.org/web/20191215200234/https://bitcointalk.org/index.php?topic=15.msg65#msg65)一个名为BTC 2 PSC的paysafecard礼品卡销售服务的存在。该服务后来在2010年2月4日被Satoshi[积极提及](https://mmalmi.github.io/satoshi/#email-141)。NLS也是如此，他在2月9日[开设](https://bitcointalk.org/index.php?topic=30.msg305#msg305)了自己的在线商店Liberty Swap Variety Shop，出售邮票和贴纸。
+渐渐地，人们开始接受比特币。2009 年 12 月，一个名为 SmokeTooMuch 的用户刚到来，就[报告了](https://web.archive.org/web/20191215200234/https://bitcointalk.org/index.php?topic=15.msg65#msg65)一个名为 BTC 2 PSC 的 paysafecard 礼品卡销售服务的存在。该服务后来在 2010 年 2 月 4 日被中本聪[积极提及](https://mmalmi.github.io/satoshi/#email-141)。NLS 也是如此，他在 2 月 9 日[开设](https://bitcointalk.org/index.php?topic=30.msg305#msg305)了自己的在线商店 Liberty Swap Variety Shop，出售邮票和贴纸。
 
 与美元的交易也在发展，不到两个月的时间里，就有三个平台开业：
 
-- BitcoinFX (bitcoinfx.cz.cc)，一个以Liberty Reserve美元出售比特币的服务，于2月15日[宣布](https://bitcointalk.org/index.php?topic=30.msg194#msg194)；
-- BitcoinExchange (bitcoinexchange.com)，Martti Malmi的平台，独特地通过考虑用户存入的欧元和比特币来[衡量](https://mmalmi.github.io/satoshi/#email-25)供需，并于2010年3月2日[向公众开放](https://bitcointalk.org/index.php?topic=68.msg591#msg591)；
-- Bitcoin Market (bitcoinmarket.com)，一个使用PayPal的点对点市场，由一个名为dwdollar的人在3月16日[启动](https://bitcointalk.org/index.php?topic=20.msg726#msg726)，并在Mt. Gox于7月出现之前取得了显著的成功。
-![2011年8月26日比特币市场界面的后期截图](assets/zh-Hans/033.webp)[截图](https://web.archive.org/web/20110826231728/https://www.bitcoinmarket.com/market/trades/)显示了2011年8月的比特币市场界面
+- BitcoinFX (bitcoinfx.cz.cc)，一个以 Liberty Reserve 美元出售比特币的服务，于 2 月 15 日[宣布](https://bitcointalk.org/index.php?topic=30.msg194#msg194)；
+- BitcoinExchange (bitcoinexchange.com)，Martti Malmi 的平台，独特地通过考虑用户存入的欧元和比特币来[衡量](https://mmalmi.github.io/satoshi/#email-25)供需，并于 2010 年 3 月 2 日[向公众开放](https://bitcointalk.org/index.php?topic=68.msg591#msg591)；
+- Bitcoin Market (bitcoinmarket.com)，一个使用 PayPal 的点对点市场，由一个名为 dwdollar 的人于 3 月 16 日[启动](https://bitcointalk.org/index.php?topic=20.msg726#msg726)，并在 Mt. Gox 于 7 月出现之前取得了显著的成功。
+![2011 年 8 月 26 日比特币市场界面的后期截图](assets/zh-Hans/033.webp)[截图](https://web.archive.org/web/20110826231728/https://www.bitcoinmarket.com/market/trades/)显示了 2011 年 8 月的比特币市场界面。
 
-3月11日，由BitcoinFX的管理员组织的第一场涉及比特币的扑克游戏[举行](https://bitcointalk.org/index.php?topic=80.msg781#msg781)，这标志着赌博与加密货币之间强大关系的开始。这场游戏由dwdollar赢得，他赚得了[600 BTC](https://mempool.space/tx/6477a88f0196e1fcf6c608e446be62c708556f34a79d169fbb05b1fee92f5761)。
+3 月 11 日，由 BitcoinFX 的管理员组织的第一场涉及比特币的扑克游戏[举行](https://bitcointalk.org/index.php?topic=80.msg781#msg781)，这标志着赌博与加密货币之间强大关系的开始。这场游戏由 dwdollar 赢得，他赚得了 [600 BTC](https://mempool.space/tx/6477a88f0196e1fcf6c608e446be62c708556f34a79d169fbb05b1fee92f5761)。
 
-其他接受比特币的服务也随之出现，例如3月16日的语音通话服务[Link2VoIP](https://bitcointalk.org/index.php?topic=30.msg733#msg733)，4月23日的网站托管服务[Vekja.net](https://bitcointalk.org/index.php?topic=30.msg1008#msg1008)，或4月30日的域名销售商[Privacy Shark](https://bitcointalk.org/index.php?topic=30.msg1035#msg1035)。这些服务的增加促使Martti Malmi最终在Bitcoin.org网站上托管了一个[页面](https://web.archive.org/web/20100517040312/http://www.bitcoin.org:80/trade)，列出了接受比特币的商家。
+其他接受比特币的服务也随之出现，例如 3 月 16 日的语音通话服务 [Link2VoIP](https://bitcointalk.org/index.php?topic=30.msg733#msg733)，4 月 23 日的网站托管服务[Vekja.net](https://bitcointalk.org/index.php?topic=30.msg1008#msg1008)，或 4 月 30 日的域名销售商 [Privacy Shark](https://bitcointalk.org/index.php?topic=30.msg1035#msg1035)。这些服务的增加促使 Martti Malmi 最终在 Bitcoin.org 网站上托管了一个[页面](https://web.archive.org/web/20100517040312/http://www.bitcoin.org:80/trade)，列出了接受比特币的商家。
 
-第一个专门的比特币托管服务也随之出现：这是MyBitcoin，一个网页应用程序，使得使用加密货币，特别是在移动设备上，变得简单而安心。多亏了这项服务，用户实际上不需要下载完整的链数据来发送和接收交易，也不需要通过保存他们的私钥来自己保管比特币。
+第一个专门的比特币托管服务也随之出现：这是 MyBitcoin，一个网页应用程序，使得使用加密货币，特别是在移动设备上，变得简单而安心。多亏了这项服务，用户实际上不需要下载完整的链数据来发送和接收交易，也不需要通过保存他们的私钥来自己保管比特币。
 
 ![MyBitcoin网站存档中的MyBitcoin标志](assets/zh-Hans/034.webp)
 
-在那个时候，轻量级钱包（被称为"SPV"）还不存在，所以中本聪自己认为使用这种类型的软件是可以接受的，即使这种使用违背了比特币核心的去中介化原则。2010年5月18日，他在论坛上[写道](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149)：
+在那个时候，轻量级钱包（被称为 "SPV"）还不存在，所以中本聪自己认为使用这种类型的软件是可以接受的，即使这种使用违背了比特币核心的去中介化原则。2010 年 5 月 18 日，他在论坛上[写道](https://bitcointalk.org/index.php?topic=125.msg1149#msg1149)：
 
-> "与此同时，像[vekja.net](http://vekja.net)和[www.mybitcoin.com](http://www.mybitcoin.com)这样的网站一直在尝试基于账户的系统。&nbsp;你在一个网站上创建一个账户，将你的比特币存放在那里，并进行转入转出。&nbsp;在网站上创建一个账户比安装软件和学习使用它要容易得多，对大多数人来说这是一种更熟悉的方法。&nbsp;唯一的缺点是你必须信任该网站，但对于用于小额支付和杂项开支的小额来说，这是可以接受的。&nbsp;这是一个容易上手的方式，如果收到的金额变得更加重要，你可以切换到实际的比特币软件。"
+> "与此同时，像 [vekja.net](http://vekja.net) 和 [www.mybitcoin.com](http://www.mybitcoin.com) 的网站一直在尝试使用基于账户的系统。你在一个网站上创建一个账户，将你的比特币存放在那里，并进行转入转出。在网站上创建一个账户比安装软件和学习使用它要容易得多，对大多数人来说这是一种更熟悉的方法。唯一的缺点是你必须信任该网站，但对于用于小额支付和杂项开支的小额来说，这是可以接受的。这是一个容易上手的方式，如果收到的金额变得更加重要，你可以切换到实际的比特币软件。"
 
-最后，在5月19日，一个名为Teppy的用户开始[接受](https://bitcointalk.org/index.php?topic=30.msg1159#msg1159)比特币作为他管理的大型多人在线游戏《沙漠中的故事》的支付方式。
+最后，在 5 月 19 日，一个名为 Teppy 的用户开始[接受](https://bitcointalk.org/index.php?topic=30.msg1159#msg1159)比特币作为他管理的大型多人在线游戏《A Tale in the Dessert》的支付方式。
 
 ### 比特币价值的起源
-在2010年春季，比特币似乎确实在许多人心中获得了价值。尽管系统的使用还处于初期阶段，但无论是从挖矿、与美元的兑换，还是服务的销售角度来看，对比特币的需求都存在。这种经济启动被5月22日发生的一个象征性事件 definitively 封印：用比特币购买的第一件实物商品，具体来说是一份披萨，我们将在下一章中详细叙述。
+2010 年春季，比特币似乎确实在许多人心中获得了价值。尽管系统的使用还处于初期阶段，但无论是从挖矿、与美元的兑换，还是服务的销售角度来看，对比特币的需求都存在。5 月 22 日，一个具有象征意义的事件为这一经济自举进程画上了决定性的一笔：第一次使用比特币购买实体商品：一份披萨。我们将在下一章讲述这一故事。
 
-比特币价值的起源问题一直是许多人难以解释的问题。这种价值的出现特别困扰了奥地利学派的支持者，他们对路德维希·冯·米塞斯的[回归定理](https://en.wikipedia.org/wiki/Regression_theorem)有着狭隘的解释。对于某个个体，xc，在论坛上[寻求](https://bitcointalk.org/index.php?topic=583.msg5984#msg5984)以美元转换来基础价值传递。
+比特币价值的起源问题一直是许多人难以解释的问题。这种价值的出现特别困扰了奥地利学派的支持者，他们对 Ludwig von Mises 的[回归定理](https://en.wikipedia.org/wiki/Regression_theorem)有着狭隘的解释。对于某个个体，xc，在论坛上[寻求](https://bitcointalk.org/index.php?topic=583.msg5984#msg5984)以美元转换来基础价值传递。
 
-然而，这个问题从未困扰过中本聪，他将新货币的启动视为一个挑战，这个挑战无疑是难以克服的，但不是不可能的。因此，他在2010年8月27日，对xc在论坛上的观点[表达](https://bitcointalk.org/index.php?topic=583.msg11405#msg11405)了自己的看法：
+然而，这个问题从未困扰过中本聪，他将新货币的启动视为一个挑战，这个挑战无疑是难以克服的，但不是不可能的。因此，他在 2010 年 8 月 27 日，对 xc 在论坛上的观点[表达](https://bitcointalk.org/index.php?topic=583.msg11405#msg11405)了自己的看法：
 
-> "作为一个思想实验，想象有一种基础金属，其稀缺性与黄金一样，但具有以下属性：
+> "作为一个思想实验，假设有一种基础金属，其稀缺性与黄金一样，但具有以下属性：
 > \- 颜色乏味的灰色
 > \- 不是很好的电导体
 > \- 不特别坚固，但也不易延展或轻易塑形
@@ -779,9 +779,9 @@ Martti Malmi 还在 SourceForge 页面上设置了一个论坛和一个 wiki。�
 > 并且有一个特殊的、神奇的属性：
 > \- 可以通过通信渠道传输
 >
-> 如果由于某种原因，这种金属获得了任何价值，那么任何想要跨越长距离转移财富的人都可以购买一些，传输它，并让接收者卖掉它。
+> 如果由于某种原因，这种金属有了任何价值，那么任何想要跨越长距离转移财富的人都可以购买一些，传输它，并让接收者卖掉它。
 >
-> 也许它可以像你所建议的那样，通过人们预见其作为交换手段的潜在用途而初步获得价值。（我肯定会想要一些）也许收藏家，或任何随机的原因，都可能激发它。"
+> 或许它可以像你提到的那样，通过人们预见到它在交换中的潜在用途，从而以一种循环的方式获得初始价值。（我肯定会想要一些。）也许是收藏者，或者出于某种偶然的原因，都有可能点燃这种价值的火花。"
 
 # 比特币的首次崛起
 <partId>557d792d-34d5-4a10-8977-82afdcfe402b</partId>
@@ -790,42 +790,42 @@ Martti Malmi 还在 SourceForge 页面上设置了一个论坛和一个 wiki。�
 
 :::video id=18913713-2f1a-4555-ba5d-06ec6d532bcb:::
 
-在上一部分，我们探讨了比特币是如何诞生的，如何被介绍给公众的，以及如何经济地启动的。在2010年春季，当比特币商业刚开始蓬勃发展时，中本聪和支持他的少数人的目标是保持这股热情。幸运的是，其他个体加入了努力，特别是矿工Laszlo Hanyecz和开发者Gavin Andresen，他们因其行动而脱颖而出。
+在上一部分，我们探讨了比特币是如何诞生的，如何被展示给公众的，以及其经济启动。在 2010 年春季，当比特币商业刚开始蓬勃发展时，中本聪和支持他的少数人的目标是保持这股热情。幸运的是，其他个体加入了努力，特别是矿工 Laszlo Hanyecz 和开发者 Gavin Andresen，他们因其行动而脱颖而出。
 
-在这一章中，我们将看到通过图形处理单元（GPU）挖矿的首次部署，中本聪积累的财富，用比特币购买的第一件实物商品，建立一个发放免费单位的比特币水龙头，以及在Slashdot之前软件和网络的发展。
-比特币需求的不断增加伴随着网络上挖矿活动的逐渐增加。在2009年全年，网络上的难度处于最低水平1，这要求所有节点执行大约43亿次计算才能挖出一个区块。然而，到了2009年12月，这一情况因调整算法将难度系数从1增加到1.18而发生了变化。
+在这一章中，我们将看到通过图形处理单元（GPU）挖矿的首次部署，中本聪积累的财富，用比特币购买的第一件实物商品，建立一个发放免费单位的 Bitcoin Faucet，以及在 Slashdot 之前软件和网络的发展。
+比特币需求的不断增加伴随着网络上挖矿活动的逐渐增加。在 2009 年全年，网络上的难度处于最低水平（1），这要求所有节点执行大约 43 亿次计算才能挖出一个区块。然而，到了 2009 年 12 月，这一情况因调整算法将难度系数从 1 增加到 1.18 而发生了变化。
 
-中本聪对这种难度的增加非常关注，并从2010年2月开始在论坛上保持了一个[历史记录](https://bitcointalk.org/index.php?topic=43.msg249#msg249)。以下是它的样子：
+中本聪对这种难度的增加非常关注，并从 2010 年 2 月开始在论坛上保持了一个[历史记录](https://bitcointalk.org/index.php?topic=43.msg249#msg249)。以下是它的样子：
 
 ![中本聪在论坛上描述的难度演变](assets/zh-Hans/035.webp)
 
-尽管对网络计算能力的增加感到热情，中本聪仍然希望减缓挖矿的专业化，以促进单位的分配。直到那时，矿工一直在使用他们的中央处理单元（CPU）来提取新的比特币。然而，与图形处理单元（GPU）相比，这些处理器在执行重复操作时被证明是低效的，GPU更适合这种类型的重复计算。因此，包括中本聪在内的每个人都知道，这种演变是不可避免的。2009年12月19日，他[如此声明](https://bitcointalk.org/index.php?topic=12.msg54#msg54)：
-“我们应该有一个绅士协议，尽可能长时间地推迟GPU军备竞赛，以利于网络的良好。如果新用户不必担心GPU驱动程序和兼容性，让他们快速上手就会容易得多。现在任何只有CPU的人都可以相当公平地竞争，这很好。”
+尽管对网络计算能力的增加感到热情，中本聪仍然希望减缓挖矿的专业化，以促进单位的分配。直到那时，矿工一直在使用他们的中央处理单元（CPU）来挖出新的比特币。然而，与图形处理单元（GPU）相比，这些处理器在执行重复操作时被证明是低效的，GPU 更适合这种类型的重复计算。因此，每个人，包括中本聪在内，都知道，这种演变是不可避免的。2009 年 12 月 19 日，他[如此声明](https://bitcointalk.org/index.php?topic=12.msg54#msg54)：
+“为了网络的整体利益，我们应该达成一种君子协定，尽可能推迟 GPU 的“军备竞赛”。如果新用户不必担心 GPU 驱动和兼容性问题，他们会更容易上手。现在只用 CPU 就能比较公平地参与竞争，这种状态其实挺不错的。”
 
-然而，几个月后，潘多拉的盒子被打开了。麻烦制造者是Laszlo Hanyecz，一位28岁的美国开发者，匈牙利血统，居住在佛罗里达。他在2010年4月发现了比特币。9号那天，他从NLS[获得](https://mempool.space/tx/faf172f5dc06b0ae03268555dddcd65be47e9a8a8bb44a122b12bfaf735f9a81#vout=1)了3300个比特币，大约20美元，然后通过进行几次转账来测试系统。18号，他试图通过从他的[公共地址](https://mempool.space/address/1XPTgDRhN8RFnzniWCddobD9iKZatrvH4)进行多次交易来拥堵网络，但它撑住了。
+然而，几个月后，潘多拉的盒子被打开了。捣乱者是 Laszlo Hanyecz，一位 28 岁的美国开发者，匈牙利血统，居住在佛罗里达。他在 2010 年 4 月发现了比特币。9 号那天，他从 NLS [获得](https://mempool.space/tx/faf172f5dc06b0ae03268555dddcd65be47e9a8a8bb44a122b12bfaf735f9a81#vout=1)了 3300 个比特币，价值大约 20 美元，然后通过进行几次转账来测试系统。18号，他试图通过从他的[公共地址](https://mempool.space/address/1XPTgDRhN8RFnzniWCddobD9iKZatrvH4)进行多次交易来堵塞网络，但它撑住了。
 
 ![2018年5月Laszlo Hanyecz和他的儿子](assets/zh-Hans/036.webp)
-2018年5月Laszlo Hanyecz和他的儿子（来源：[The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-bitcoin-pizza-purchase-today/)）
-随后，他[适配了](https://bitcointalk.org/index.php?topic=116.msg972#msg972)软件代码，使其能够在Mac OS X操作系统上运行。然后，他通过使用OpenCL环境来优化挖矿，该环境允许[GPU的参与](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100)生成比特币。5月10日，他发布了他的[可执行文件](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100)并[提供](https://bitcointalk.org/index.php?topic=133.msg1103#msg1103)编写补丁以使其他矿工也能这样做。这种优化很快让他在区块生产中占据了重要地位。4月底，Laszlo联系了Satoshi以征询他的意见，但后者直到5月17日才回应。比特币的创造者随后[要求](https://www.reddit.com/r/Bitcoin/comments/36vnmr/heres_what_satoshi_wrote_to_the_man_responsible/)他放慢操作速度，以便挖矿对大多数人仍然可接近：
-> “对新用户的一大吸引力是，任何拥有电脑的人都可以生成一些免费的币。当有5000个用户时，这种激励可能会消失，但现在，这仍然是真的。GPU将过早地将激励限制为只有那些拥有高端GPU硬件的人。GPU计算集群最终占据所有生成的币是不可避免的，但我不想加速那一天的到来。（...）我不是想听起来像个社会主义者，我不在乎财富是否集中，但现在，将这些钱给予100%的人比只给20%的人可以获得更多的增长。此外，我们能越晚延迟GPU军备竞赛，OpenCL库就会越成熟，拥有OpenCL兼容显卡的人就会越多。”
+2018 年 5 月 Laszlo Hanyecz 和他的儿子（来源：[The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-bitcoin-pizza-purchase-today/)）
+随后，他[适配了](https://bitcointalk.org/index.php?topic=116.msg972#msg972)软件代码，使其能够在 Mac OS X 操作系统上运行。然后，他通过使用 OpenCL 环境来优化挖矿，该环境允许[GPU 的参与](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100)生成比特币。5 月 10 日，他发布了他的[可执行文件](https://bitcointalk.org/index.php?topic=124.msg1100#msg1100)并[提供](https://bitcointalk.org/index.php?topic=133.msg1103#msg1103)编写补丁以使其他矿工也能这样做。这种优化很快让他在区块挖矿中占据了重要地位。4 月底，Laszlo 联系了 中本聪以征询他的意见，但中本聪于 5 月 17 日才回应。比特币的创建者随后[要求](https://www.reddit.com/r/Bitcoin/comments/36vnmr/heres_what_satoshi_wrote_to_the_man_responsible/)他放慢操作速度，以便对大多数人仍然可正常进行挖矿：
+> “对新用户的一大吸引力是，任何拥有电脑的人都可以生成一些免费的比特币。当有 5000 个用户时，这种激励可能会消失，但现在，激励还真实存在。GPU 将过早地将激励限制为只有那些拥有高端 GPU 硬件的人。GPU 计算集群最终占据所有生成的币是不可避免的，但我不想加速那一天的到来。（...）我不是想听起来像个社会主义者，我不在乎财富是否集中化，但现在，将这些钱给予 100% 的人比只给 20% 的人可以获得更多的增长。此外，我们能越晚延迟 GPU 军备竞赛，OpenCL 库就会越成熟，拥有 OpenCL 兼容显卡的人就会越多。”
 
-Laszlo并没有真正注意这个警告，继续使用他的图形卡挖掘区块，在接下来的几个月里生成了数万比特币。然而，直到10月，GPU挖矿才变得普遍。
+Laszlo 并没有真正注意这个警告，继续使用他的图形卡挖掘区块，在接下来的几个月里生成了数万比特币。然而，直到 10 月，GPU 挖矿才变得普遍。
 
-### Satoshi的比特币
+### 中本聪的比特币
 
-挖矿的增加也带来了一个重大后果：Satoshi停止了区块的生产。自网络启动以来，他确实一直在挖矿，以确保足够的确认速度和可接受的安全级别。随着新能力的部署，他因此可以放弃这项任务，让其他网络成员受益于创建的比特币的全部。
+挖矿的增加也带来了一个重大后果：中本聪停止了区块的挖出。自网络启动以来，他确实一直在挖矿，以确保足够的确认速度和可接受的安全级别。随着计算力的投入，他可以停止进行这项任务，让其他网络成员受益于创建的比特币的全部。
 
-Satoshi的挖矿活动有一个独特的模式，使得可以识别他可能找到的区块，尽管有一些误报。这种挖矿模式由开发者Sergio Lerner在2013年突显出来，并被命名为Patoshi模式。
+中本聪的挖矿活动有一个独特的模式，使得可以识别他可能找到的区块，尽管有一些误报。这种挖矿模式由开发者 Sergio Lerner 在 2013 年突显出来，并被命名为 Patoshi 模式。
 
 ![Patoshi模式在0到50,000区块之间](assets/zh-Hans/037.webp)
 
-在网站[satoshiblocks.info](http://satoshiblocks.info/)上观察到的0到50,000区块之间的Patoshi模式：每个点对应一个区块，蓝线由Satoshi的区块形成，其他线代表其他矿工的输出。
-根据Whale Alert在2020年发布的一项研究，中本聪挖掘了大约22,500个区块，因此累积了1,122,693比特币，这超过了计划中的2100万单位的5%。在2009年的大部分时间里，网络依赖于其创始人的计算能力。这种依赖在2009年8月得到了体现，那是挖矿活动最糟糕的时期，恰逢中本聪“暂停”期，他可能较少监控他的机器。实际上，在这个8月，只生产了1,564个区块，而预期的是4,464个，相应的平均时间为28分钟30秒。
-随着2009年秋季计算能力的增加，中本聪相对于总网络功率的计算能力比例逐渐下降。它从2009年3月的75%下降到9月的60%，然后在12月下降到15%，并在5月达到0%。以下是[Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html)在2014年制作的图表：
+在网站[satoshiblocks.info](http://satoshiblocks.info/)上观察到的第 0 到 第 50,000 区块之间的 Patoshi 模式：每个点对应一个区块，蓝线由中本聪的区块形成，其他线代表其他矿工的输出。
+根据 Whale Alert 在 2020 年发布的一项研究，中本聪挖掘了大约 22,500 个区块，因此累积了1,122,693 比特币，这超过了计划中的 2100 万单位的 5%。在 2009 年的大部分时间里，网络依赖于其创始人的计算能力。这种依赖在 2009 年 8 月得到了体现，那是挖矿活动最糟糕的时期，恰逢中本聪“暂停”期，他可能较少监控他的机器。实际上，在这个 8 月，只生产了 1,564 个区块，而预期的是 4,464个，相应的平均时间为 28 分钟 30 秒。
+随着 2009 年秋季计算能力的增加，中本聪相对于总网络功率的计算能力比例逐渐下降。它从 2009 年 3 月的 75% 下降到 9 月的 60%，然后在 12 月下降到 15%，并在 5 月达到 0%。以下是[Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html) 在 2014 年制作的图表：
 
 ![估计2009年1月至2010年7月中本聪计算能力相对于总功率的比例](assets/zh-Hans/038.webp)
 
-此外，中本聪挖矿主导地位的下降并非仅仅是被动的：在同一时期，他自己也放慢了生产速度。实际上，中本聪的明确目标是让每个人都参与进来：他不是为了财务收益而挖矿，而是为了确保网络运行，直到激励措施生效。因此，他在这个挖矿期间三次降低了他的哈希率（每秒执行的计算次数）：第一次从4.5 MH/s降到2.5 MH/s在2009年6月，第二次从2.5 MH/s降到1 MH/s在10月，第三次从1 MH/s降到0 MH/s在2010年5月。这里是他在此期间哈希率演变的图表（[Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html)）：
+此外，中本聪挖矿主导地位的下降并非仅仅是被动的：在同一时期，他自己也放慢了自己的区块挖出速度。实际上，中本聪的明确目标是让每个人都参与进来：他不是为了财务收益而挖矿，而是为了确保网络运行，直到激励措施生效。因此，他在这个挖矿期间三次降低了他的哈希率（每秒执行的计算次数）：第一次从 4.5 MH/s 降到 2.5 MH/s（2009 年 6 月），第二次从 2.5 MH/s 降到 1 MH/s（2009 年 10 月），第三次从 1 MH/s 降到 0 MH/s （2010 年 5 月）。这里是他在此期间哈希率演变的图表（[Organofcorti](https://organofcorti.blogspot.com/2014/08/167-satoshis-hashrate.html)）：
 
 ![估计2009年1月至2010年5月中本聪的哈希率](assets/zh-Hans/039.webp)
 
@@ -833,48 +833,48 @@ Satoshi的挖矿活动有一个独特的模式，使得可以识别他可能找�
 
 ### 比特币披萨日
 
-2010年5月还标志着一个基础性事件：用比特币购买实物商品的第一次尝试。Laszlo Hanyecz迈出了第一步。通过他的算法积累了超过20,000比特币，他寻求通过获得披萨将它们重新注入经济。5月18日，他在论坛上写下了以下[公告](https://bitcointalk.org/index.php?topic=137.msg1141#msg1141)：
-我愿意用10,000比特币交换几个披萨……比如说两个大的，这样我第二天还能剩一些。我喜欢留一些披萨稍后吃。你可以自己做披萨然后送到我家，或者从外卖地方帮我订，但我想要的是通过比特币交换得到食物，而我自己不用订购或准备，有点像在酒店订个‘早餐拼盘’或类似的，他们直接给你带来食物，你就很开心！(...) 如果你有兴趣，请告诉我，我们可以商量一个交易。
+2010 年 5 月还标志着一个基础性事件：首次用比特币购买实物商品的。Laszlo Hanyecz 迈出了第一步。通过他的算法积累了超过 20,000 比特币，他寻求通过获得披萨将它们重新流入经济。5 月 18 日，他在论坛上写下了以下[公告](https://bitcointalk.org/index.php?topic=137.msg1141#msg1141)：
+我愿意支付 10,000 比特币购买几个披萨，两个大披萨也可以，这样我第二天还能剩一些。我喜欢留一些披萨稍后吃。你可以自己做披萨然后送到我家，或者从外卖地方帮我订，但我想要的是通过比特币交换得到食物，而我自己不用订购或准备，有点像在酒店订个‘早餐拼盘’或类似的，他们直接给你带来食物，你就很开心！(...) 如果你有兴趣，请告诉我，我们可以商量一个交易。
 
-这个提议在四天后被接受。接受交换的是一位来自加利福尼亚的年轻人，名叫Jeremy Sturdivant，他通过IRC即时消息服务完成了交易。
+这个提议在四天后被接受。接受交换的是一位来自加利福尼亚的年轻人，名叫 Jeremy Sturdivant，他通过 IRC 即时消息服务完成了交易。
 
 ![2018年5月的Jeremy Sturdivant](assets/zh-Hans/040.webp)
-2018年5月的Jeremy Sturdivant（来源：[The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-bitcoin-pizza-purchase-today/)）
+2018 年 5 月的 Jeremy Sturdivant（来源：[The Telegraph](https://www.telegraph.co.uk/technology/2018/05/22/inside-story-behind-famous-2010-bitcoin-pizza-purchase-today/)）
 
-在5月22日，他从Papa John's订购了两个披萨，送到了佛罗里达州杰克逊维尔的Laszlo家。作为交换，他[收到了](https://mempool.space/tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d)10,000比特币，按照比特币市场的汇率大约值44美元。这里是Laszlo自己[分享的](https://web.archive.org/web/20110703134805/http://heliacal.net/~solar/bitcoin/pizza/)这两个披萨的照片：
+5 月 22 日，他从 Papa John's 订购了两个披萨，送到了位于佛罗里达州杰克逊维尔的 Laszlo 家。作为报酬，他[收到了](https://mempool.space/tx/a1075db55d416d3ca199f55b6084e2115b9345e16c5cf302fc80e9d5fbf5d48d)10,000 比特币，按照比特币市场的汇率大约值 44 美元。这里是 Laszlo 自己[分享的](https://web.archive.org/web/20110703134805/http://heliacal.net/~solar/bitcoin/pizza/)这两个披萨的照片：
 
 ![2010年5月22日送到Laszlo Hanyecz家的Papa John's披萨](assets/zh-Hans/041.webp)
 
-这标志着使用比特币购买实物商品的第一次交易，即使这次购买是间接的。[Martti Malmi](https://bitcointalk.org/index.php?topic=137.msg1196#msg1196)祝贺Laszlo，写道“迈出了重要的一步。”NLS也在这件事上添加了一个[积极的评论](https://bitcointalk.org/index.php?topic=137.msg1197#msg1197)。
+这标志着使用比特币购买实物商品的第一次交易，即使这次购买是间接的。[Martti Malmi](https://bitcointalk.org/index.php?topic=137.msg1196#msg1196)祝贺 Laszlo，写道“迈出了重要的一步”。NLS 也在这件事上添加了一个[积极的评论](https://bitcointalk.org/index.php?topic=137.msg1197#msg1197)。
 
-6月12日，Laszlo Hanyecz在论坛上[重申](https://bitcointalk.org/index.php?topic=137.msg1526#msg1526)他的提议：
+6 月 12 日，Laszlo Hanyecz 在论坛上[重申](https://bitcointalk.org/index.php?topic=137.msg1526#msg1526)他的提议：
 
-> “顺便说一下，这是一个公开的提议……只要我有资金，我随时愿意用10,000 BTC交换这两个披萨。”
-他因此进行了几笔同类型的其他交易，直到8月4日，他在[论坛上写道](https://bitcointalk.org/index.php?topic=137.msg7544#msg7544)，他实在“负担不起继续这样做”，因为他已经不能再“每天生成数千个单位”。原因是：7月11日Slashdot带来的用户涌入导致价格上涨，这也让他赢得了论坛成员的嘲笑，他们暗示他如果保留他的比特币会更好。几个月后的11月，当比特币价格徘徊在25美分左右时，用户ribuck以几乎是预言性的方式[写道](https://bitcointalk.org/index.php?topic=137.msg25352#msg25352)：“这最终会成为世界上第一个百万美元的比萨饼吗？”
-尽管如此，加密货币购买力的增加并没有减少这一事件的象征意义，比特币社区每年都会在这一天纪念比特币比萨日。
+> “顺便说一下，这是一个公开的提议。只要我有资金，我随时愿意用 10,000 BTC 交换这两个披萨。”
+他因此进行了几笔同类型的其他交易，直到 8 月 4 日，他在[论坛上写道](https://bitcointalk.org/index.php?topic=137.msg7544#msg7544)，他实在“负担不起继续这样做”，因为他已经不能再“每天生成数千个单位”。原因是：7 月 11 日 Slashdot 带来的用户涌入导致价格上涨，这也让他赢得了论坛成员的嘲笑，他们暗示他如果保留他的比特币会更好。几个月后的 11 月，当比特币价格徘徊在 25 美分左右时，用户 ribuck 以几乎是预言性的方式[写道](https://bitcointalk.org/index.php?topic=137.msg25352#msg25352)：“这最终会成为世界上第一个百万美元的披萨饼吗？”
+尽管如此，加密货币购买力的增加并没有减少这一事件的象征意义，比特币社区每年都会在这一天纪念比特币披萨日。
 
-### 加文·安德森和比特币水龙头
+### Gavin Andresen 和 Bitcoin Faucet
 
-这一时期还见证了比特币历史上的一个关键人物的到来：加文·安德森，一位出生在澳大利亚的44岁开发者，他在2004年获得了美国国籍，当时住在马萨诸塞州的阿默斯特。从澳大利亚旅行回来并暂时失业后，他在5月底通过尼尔·麦卡利斯特（Neil McAllister）在InfoWorld上发表的[文章](https://www.infoworld.com/article/2627013/open-source-innovation-on-the-cutting-edge.html?page=3)发现了比特币。这篇文章将中本聪的项目描述为“开源创新”。
+这一时期还见证了比特币历史上的一个关键人物的到来：Gavin Andresen，一位出生在澳大利亚的 44 岁开发者，他在 2004 年获得了美国国籍，当时住在马萨诸塞州的阿默斯特。从澳大利亚旅行回来并暂时失业后，他在 5 月底通过 Neil McAllister 在 InfoWorld 上发表的[文章](https://www.infoworld.com/article/2627013/open-source-innovation-on-the-cutting-edge.html?page=3)发现了比特币。这篇文章将中本聪的项目描述为“开源创新”。
 
 ![加文·安德森在澳大利亚昆士兰州汤斯维尔的资料照片](assets/zh-Hans/042.webp)
-加文·安德森在澳大利亚昆士兰州汤斯维尔（图片来源：[CIO档案](https://web.archive.org/web/20110326160734/http://www.cio.com.au/article/380394/open_source_identity_bitcoin_technical_lead_gavin_andresen/)）
+Gavin Andresen 在澳大利亚昆士兰州汤斯维尔（图片来源：[CIO档案](https://web.archive.org/web/20110326160734/http://www.cio.com.au/article/380394/open_source_identity_bitcoin_technical_lead_gavin_andresen/)）
 
-好奇且具有创造力的他很快开始了一个个人项目：一个向任何请求者提供比特币的“比特币水龙头”。6月11日，他[启动](https://bitcointalk.org/index.php?topic=183.msg1488#msg1488)了他的服务，并在论坛上如下介绍：
+好奇且具有创造力的他很快开始了一个个人项目：一个向任何请求者提供比特币的“比特币水龙头”（Bitcoin Faucet）。6 月 11 日，他[启动](https://bitcointalk.org/index.php?topic=183.msg1488#msg1488)了他的服务，并在论坛上如下介绍：
 “作为我的第一个比特币编程项目，我决定做一些听起来真的很愚蠢的事情：我创建了一个分发比特币的网站。（...）为什么？因为我希望比特币项目成功，我认为如果人们可以得到少量单位来尝试，它成功的机会会更大。”
 
-尽管中本聪没有立即注意到这项服务的启动，但他对此反应积极。一周后，即6月18日，他[祝贺](https://bitcointalk.org/index.php?topic=183.msg1620#msg1620)该服务的创建者，写道这是“第一个项目的绝佳选择”，并且他“如果没有其他人做，就计划做完全相同的事情，所以当普通人很难生成50BTC时，新用户可以立即获得一些硬币来玩。”
-加文·安德森的贡献并未止步。他深入研究比特币的工作原理，并开始解剖代码。他[发现](https://bitcointalk.org/index.php?topic=195.msg1606#msg1606)了协议中内置的脚本系统，这是他很快在论坛上分享的内容。他对这一功能表示担忧，因为它降低了系统的安全性（“复杂性是安全的敌人”），并使得开发第二个软件实现更加困难。中本聪[解释](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611)了集成这一机制的原因，他称之为脚本：
-> “比特币的本质是，一旦0.1版本发布，其核心设计就为其余生命周期内定型。因此，我希望设计它以支持我能想到的每一种可能的交易类型。（...）解决方案是脚本，它将问题概括化，以便交易双方可以将他们的交易描述为一个谓词，由节点网络评估。节点只需要理解交易到评估发送者的条件是否满足的程度。”
+尽管中本聪没有立即注意到这项服务的启动，但他对此反应积极。一周后，即 6 月 18 日，他[祝贺](https://bitcointalk.org/index.php?topic=183.msg1620#msg1620)该服务的创建者，写道这是“第一个项目的绝佳选择”，并且他“如果没有其他人做，就计划做完全相同的事情，所以当普通人很难生成50 BTC 时，新用户可以立即获得一些比特币来玩。”
+Gavin Andresen 的贡献并未止步。他深入研究比特币的工作原理，并开始解剖代码。他[发现](https://bitcointalk.org/index.php?topic=195.msg1606#msg1606)了协议中内置的脚本系统，这是他很快在论坛上分享的内容。他对这一功能表示担忧，因为它降低了系统的安全性（“复杂性是安全的敌人”），并使得开发第二个软件实现更加困难。中本聪[解释](https://bitcointalk.org/index.php?topic=195.msg1611#msg1611)了集成这一机制的原因，他称之为脚本：
+> “比特币的本质是，一旦 0.1 版本发布，其核心设计就为其余生命周期内定型。因此，我希望设计它以支持我能想到的每一种可能的交易类型。（...）解决方案是脚本，它将问题概括化，以便交易双方可以将他们的交易描述为一个谓词，由节点网络评估。节点只需要理解交易到评估发送者的条件是否满足的程度。”
 
-加文还参与了软件开发，[实现](https://sourceforge.net/p/bitcoin/code/101/)了Linux的自动启动，专注于API（他将在0.3.3版本中因其改进而[获得认可](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707)），并参与了测试网络的部署（他在6月9日[构思](https://bitcointalk.org/index.php?topic=240.msg2104#msg2104)了这一点）。他会与中本聪私下交换想法，逐渐成为他的得力助手，因为马蒂·马尔米因为新的全职工作[非常忙碌](https://mmalmi.github.io/satoshi/#email-191)。
+Gavin 还参与了软件开发，[实现](https://sourceforge.net/p/bitcoin/code/101/)了 Linux 的自动启动，专注于 API（他将在 0.3.3 版本中因其改进而[获得认可](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707)），并参与了测试网络的部署（他在 6 月 9 日[构思](https://bitcointalk.org/index.php?topic=240.msg2104#msg2104)了这一点）。他会与中本聪私下交换想法，逐渐成为他的得力助手，因为Martti Malmi 因为新的全职工作[非常忙碌](https://mmalmi.github.io/satoshi/#email-191)。
 
 ### 充满基础事件的春天
 
-2010年春季是一个充满基础事件的时期。首先，在4月底，开发者拉斯洛·哈尼茨开发了GPU挖矿，这是一个优化，短期内遭到了中本聪的反对（尽管他认识到了这一优化长期内的不可避免性）。这一发展与中本聪停止产生区块的时间相吻合，可能是估计网络的哈希率已经足够。然后，5月22日，拉斯洛·哈尼茨和杰里米·斯图尔迪万特之间交换了著名的披萨，这构成了用比特币购买实物商品的第一次交易。最后，在6月，加文·安德森到来，他创建了比特币水龙头，并迅速参与到软件开发中。所有这些元素显示了围绕比特币经济的鼓舞人心的进展。
-然而，到了六月底，网络上的活动仍然相当温和。新用户寥寥无几，货币现象的火焰仅仅足以不熄灭。6月30日，在比特币邮件列表（bitcoin-list）上，赛博朋克James A. Donald（似乎没有跟进最新的进展，也不知道论坛的存在）[宣称](https://web.archive.org/web/20131016002646/http://sourceforge.net/p/bitcoin/mailman/bitcoin-list/?viewmonth=201006)“比特币\[是\]有点死气沉沉的。”尽管他错了，但他的评论揭示了一个明显的沟通缺失：了解该项目的人太少，需要在这方面做出更多努力。比特币需要“一个用户生态才能发挥作用”，而这个关键的群体还没有形成。两周后，一个事件将朝这个方向迈进，我们将在下一章讨论。
+2010 年春季是一个充满基础事件的时期。首先，在 4 月底，开发者 Laszlo Hanyecz 开发了 GPU 挖矿，这是一个优化，短期内遭到了中本聪的反对（尽管他认识到了这一优化长期内的不可避免性）。这一发展与中本聪停止产生区块的时间相吻合，可能是估计网络的哈希率已经足够。然后，5 月 22 日，Laszlo Hanyecz 和 Jeremy Sturdivant 之间交换了著名的披萨，这构成了用比特币购买实物商品的第一次交易。最后，在 6 月，Gavin Andresen 到来，他创建了 Bitcoin Faucet，并迅速参与到软件开发中。所有这些元素显示了围绕比特币经济的鼓舞人心的进展。
+然而，到 6 月底时，网络上的活动依然相当有限。虽然出现了一些新用户，但这场货币现象的火焰仍微弱地燃烧着，尚未熄灭。6 月 30 日，在比特币邮件列表（bitcoin-list）上，密码朋克 James A. Donald（似乎没有跟进最新的进展，也不知道论坛的存在）[宣称](https://web.archive.org/web/20131016002646/http://sourceforge.net/p/bitcoin/mailman/bitcoin-list/?viewmonth=201006)“比特币\[是\]有点死气沉沉的。”尽管他错了，但他的评论揭示了一个明显的沟通缺失：了解该项目的人太少，需要在这方面做出更多努力。比特币需要“一个用户生态才能发挥作用”，而这个关键的群体还没有形成。两周后，一个事件将朝这个方向迈进，我们将在下一章讨论。
 
-## 大规模Slashdot效应
+## 大规模 Slashdot 效应
 <chapterId>2eef715e-b018-445b-b360-1c6e1c1df462</chapterId>
 
 :::video id=c26f3696-4e33-4d38-9443-f237935f8b45:::
@@ -955,7 +955,7 @@ Satoshi的挖矿活动有一个独特的模式，使得可以识别他可能找�
 ### 软件改进
 
 来自Slashdot的用户涌入也需要改进软件。发现的漏洞需要被纠正，新功能必须被整合。因此，Satoshi感到压力山大：7月18日，他私下里[吐露](https://mmalmi.github.io/satoshi/#email-210)给Martti Malmi，他“快要疯了，有太多事情需要做。”在两个月的时间里，发布了不少于8个子版本的软件！
-然而，比特币的创造者并不是独自一人在编写代码。他可以依靠Gavin Andresen的帮助，Gavin于6月份加入，并且越来越多地参与到开发中（自7月9日起，他在SourceForge仓库中被[认证](https://sourceforge.net/p/bitcoin/code/101/)）。还有一些对系统如何工作感到好奇并在遇到问题时报告问题的人，例如Christian Decker（cdecker）或Michael Marquardt（更广为人知的化名是Theymos）。Satoshi还得到了矿工的支持，这些矿工修改代码以寻找优化单位生成的方法，比如ArtForz（我们将在下一章看到，他是第一个建立矿场的人）、德国开发者Nils Schneider（tcatm）、Michael Brown（knightmb）或BlackEye。
+然而，比特币的创建者并不是独自一人在编写代码。他可以依靠Gavin Andresen的帮助，Gavin于6月份加入，并且越来越多地参与到开发中（自7月9日起，他在SourceForge仓库中被[认证](https://sourceforge.net/p/bitcoin/code/101/)）。还有一些对系统如何工作感到好奇并在遇到问题时报告问题的人，例如Christian Decker（cdecker）或Michael Marquardt（更广为人知的化名是Theymos）。Satoshi还得到了矿工的支持，这些矿工修改代码以寻找优化单位生成的方法，比如ArtForz（我们将在下一章看到，他是第一个建立矿场的人）、德国开发者Nils Schneider（tcatm）、Michael Brown（knightmb）或BlackEye。
 最后，我们可以提到Jeff Garzik（在论坛上使用化名jgarzik），他是一位美国开发者，在自由软件世界中做出了贡献，特别是对于Red Hat发行版，同时他也是奥地利经济学派的自由主义追随者。他通过在Slashdot上发布的文章发现了比特币，并几乎立即参与到比特币中。
 
 ![Jeff Garzik in 2013](assets/zh-Hans/046.webp)
@@ -991,7 +991,7 @@ Gavin 和中本聪也修复了几个错误。其中主要的错误是“*1 RETUR
 
 另一个旨在改进协议以使其能够抵御攻击的元素是添加交易区块大小限制。这个限制是一个参数，通过要求每个区块的大小小于这个尺寸，来限制系统的交易能力。其最初的目标是为了防止对网络的拒绝服务攻击。
 
-这个参数由中本聪在7月15日以常量`MAX_BLOCK_SIZE`（v0.3.1）的形式悄悄添加到代码中，当时设置为1兆字节（1,000,000字节）。这个限制的实现编程工作在9月7日由比特币的创造者完成，同样没有任何来自他的公开声明（v0.3.12）。它规定了大小限制（也限制了区块中的签名操作符数量）将从第79,400个区块开始生效。激活[发生](https://mempool.space/block/000000000021d821ec06be7173f413690bc5c4bc648dfa70b3b6763236f055b7)在9月12日。这个限制当时相当温和：它允许每秒7笔标准交易的吞吐量，这对于当时的经济活动来说绰绰有余，即使在slashdotting之后也是如此。
+这个参数由中本聪在7月15日以常量`MAX_BLOCK_SIZE`（v0.3.1）的形式悄悄添加到代码中，当时设置为1兆字节（1,000,000字节）。这个限制的实现编程工作在9月7日由比特币的创建者完成，同样没有任何来自他的公开声明（v0.3.12）。它规定了大小限制（也限制了区块中的签名操作符数量）将从第79,400个区块开始生效。激活[发生](https://mempool.space/block/000000000021d821ec06be7173f413690bc5c4bc648dfa70b3b6763236f055b7)在9月12日。这个限制当时相当温和：它允许每秒7笔标准交易的吞吐量，这对于当时的经济活动来说绰绰有余，即使在slashdotting之后也是如此。
 
 尽管中本聪没有提及区块大小限制的存在，但随着时间的推移，几个人注意到了代码中的这一点。早在8月12日，一个使用化名throughput的讲俄语的论坛成员就[指出](https://bitcointalk.org/index.php?topic=788.msg8873#msg8873)，以一种相对赞同的语气说，“另一个有趣的方面是，区块的字节大小（所以其中的交易数量）是有限的。”后来，在9月30日，Theymos向另一个成员[指出](https://bitcointalk.org/index.php?topic=1314.msg14748#msg14748)，“比特币不允许超过1MB的区块，所以假设一个（相当小的）平均交易大小为216字节，比特币每10分钟只能处理4,629笔交易。”
 最终，这个参数的存在影响了Jeff Garzik，他[声明](https://bitcointalk.org/index.php?topic=1314.msg14750#msg14750)自己“比起政府关闭，更加关心可扩展性”，并且[询问](https://bitcointalk.org/index.php?topic=1341.msg15107#msg15107)如何能够“向严肃的投资者出售比特币，而内置的限制，如每分钟463笔交易的限制。”因此，在10月3日，他在论坛上提出了一个补丁，以将区块大小限制增加到7.168 MB，以便“匹配PayPal的平均交易率。”Theymos回应说，“应用这个补丁将使你与其他比特币客户端不兼容。”这一消息得到了中本聪的认可，他[推荐](https://bitcointalk.org/index.php?topic=1347.msg15139#msg15139)不使用该补丁，并声明：“如果我们接近需要它的时候，我们可以稍后逐步引入变更。”后者在第二天[阐明](https://bitcointalk.org/index.php?topic=1347.msg15366#msg15366)了他的想法，提供了如何进行此类协议更改的指导。
@@ -1170,7 +1170,7 @@ Hal Finney在2009年4月退出比特币后，很快就得知自己在2009年8月
 两小时后，中本聪[回复](https://bitcointalk.org/index.php?topic=2188.msg29259#msg29259)：
 > "这对你来说意味着很多，Hal。&nbsp;谢谢你。"
 
-这是比特币创造者的倒数第二条公开信息，几个月后他就消失了。
+这是比特币创建者的倒数第二条公开信息，几个月后他就消失了。
 
 ### 一个关键时刻
 在2010年秋季，围绕比特币的生态系统发生了显著的演变。沟通得到改善，经济得到发展。那时，比特币似乎已经准备好独立起飞。正是在这个时期，中本聪选择消失，将项目的控制权交给了社区。
@@ -1231,7 +1231,7 @@ Hal Finney在2009年4月退出比特币后，很快就得知自己在2009年8月
 >
 > 我恳请维基解密不要尝试使用比特币。比特币是一个处于初期的小型测试社区。你们不会得到超过零花钱的收益，而你们带来的热度很可能会在这个阶段摧毁我们。”
 在接下来的几天里，针对维基解密的真正金融封锁行动得以组织起来，涉及到Mastercard和Visa，还有西联汇款、美国银行以及其他参与者，这[危及](https://wikileaks.org/Banking-Blockade.html)了该非政府组织的财务生存。这场攻势使得接受比特币变得更加相关，这个想法自然而然地传播开来。
-12月11日，PC World（美国最大的计算机网站之一）上[发布](https://www.pcworld.com/article/499375/could_wikileaks_scandal_lead_to_new_virtual_currency.html)了一篇文章，强调了维基解密可能使用比特币的可能性。这篇由记者[Keir Thomas](https://www.keirthomas.com/how-i-caused-the-bitcoin-guy-to-go-into-hiding/)撰写的文章标题为“维基解密丑闻能否引领新的虚拟货币？”。潘多拉的盒子被打开：PC World的文章将被许多人阅读，包括可能的维基解密官员，这将推动该非政府组织考虑这种支付方式。文章很快在论坛上被提及，比特币创造者的反应是明确的。他[写道](https://bitcointalk.org/index.php?topic=2216.msg29280#msg29280)：
+12月11日，PC World（美国最大的计算机网站之一）上[发布](https://www.pcworld.com/article/499375/could_wikileaks_scandal_lead_to_new_virtual_currency.html)了一篇文章，强调了维基解密可能使用比特币的可能性。这篇由记者[Keir Thomas](https://www.keirthomas.com/how-i-caused-the-bitcoin-guy-to-go-into-hiding/)撰写的文章标题为“维基解密丑闻能否引领新的虚拟货币？”。潘多拉的盒子被打开：PC World的文章将被许多人阅读，包括可能的维基解密官员，这将推动该非政府组织考虑这种支付方式。文章很快在论坛上被提及，比特币创建者的反应是明确的。他[写道](https://bitcointalk.org/index.php?topic=2216.msg29280#msg29280)：
 
 > “在任何其他背景下获得这样的关注都会很好。&nbsp;维基解密踢到了马蜂窝，一大群马蜂正向我们飞来。”
 
@@ -1241,7 +1241,7 @@ Hal Finney在2009年4月退出比特币后，很快就得知自己在2009年8月
 
 ### 权限移交和最后的电子邮件
 从12月初开始，中本聪开始组织他的继任事宜。由于他计划离开，或至少退后一步，他需要将各种责任转交给他信任的人，特别是Martti Malmi和Gavin Andresen。然而，他从未明确向他们表达过他的意图。
-首先，他想要将他们的电子邮件地址添加到网站的[联系页面](https://web.archive.org/web/20101215111454/http://www.bitcoin.org/contact)上。12月7日，他[发送](https://mmalmi.github.io/satoshi/#email-245)了一封电子邮件给Martti，询问是否可以“将他添加到联系页面上的项目开发者名单中”，这是年轻的芬兰人接受了的请求。比特币的创造者对Gavin提出了同样的请求，Gavin也接受了。Satoshi将他们的地址添加到页面上，并移除了自己的地址。几年后，Gavin[会说](https://www.huffingtonpost.co.uk/entry/gavin-andresen-bitcoin_n_3093316)：
+首先，他想要将他们的电子邮件地址添加到网站的[联系页面](https://web.archive.org/web/20101215111454/http://www.bitcoin.org/contact)上。12月7日，他[发送](https://mmalmi.github.io/satoshi/#email-245)了一封电子邮件给Martti，询问是否可以“将他添加到联系页面上的项目开发者名单中”，这是年轻的芬兰人接受了的请求。比特币的创建者对Gavin提出了同样的请求，Gavin也接受了。Satoshi将他们的地址添加到页面上，并移除了自己的地址。几年后，Gavin[会说](https://www.huffingtonpost.co.uk/entry/gavin-andresen-bitcoin_n_3093316)：
 > “\[Satoshi\]最终对我耍了一个小聪明，他问我是否可以把我的电子邮件地址放在比特币主页上，我说可以，没意识到当他把我的电子邮件地址放上去时，他会把自己的拿掉。”
 
 但这还不是全部。Satoshi还想将他对软件的控制权转移给Gavin Andresen。Gavin，已经在[10月](https://sourceforge.net/p/bitcoin/code/165/)被授予了SourceForge仓库的写入权限，成为了仓库的主要维护者。12月19日，他在GitHub上[创建](https://api.github.com/repos/bitcoin/bitcoin)了仓库，可能是因为他对Git感到更加舒适。同一天，他在论坛上写了一条长消息，解释说他将更多地参与开发。他[宣布](https://bitcointalk.org/index.php?topic=2367.msg31651#msg31651)：
@@ -1249,7 +1249,7 @@ Hal Finney在2009年4月退出比特币后，很快就得知自己在2009年8月
 > “在Satoshi的祝福下，虽然非常不情愿，但我将开始为比特币进行更积极的项目管理。”
 
 Satoshi将网站、论坛和wiki的控制权转移给了Martti，Martti已经在共同管理这些元素。然后，他在2011年春天最终消失了。
-在最后与Satoshi通信的人中，也有Mike Hearn，这位谷歌工程师两年前曾接近他。Hearn在2010年12月重新与比特币的创造者取得联系，向他询问更多技术问题。他[正在工作](https://plan99.net/~mike/satoshi-emails/thread3.html)于“一个简化支付验证的Java实现，目标是构建一个在Android手机上运行的客户端。”两人交换了信息直到4月23日。在给Mike Hearn的[最后一封电子邮件](https://plan99.net/~mike/satoshi-emails/thread5.html)中，Satoshi宣布他已经“转向其他事物”，并且比特币“在Gavin和其他人手中很安全”。
+在最后与Satoshi通信的人中，也有Mike Hearn，这位谷歌工程师两年前曾接近他。Hearn在2010年12月重新与比特币的创建者取得联系，向他询问更多技术问题。他[正在工作](https://plan99.net/~mike/satoshi-emails/thread3.html)于“一个简化支付验证的Java实现，目标是构建一个在Android手机上运行的客户端。”两人交换了信息直到4月23日。在给Mike Hearn的[最后一封电子邮件](https://plan99.net/~mike/satoshi-emails/thread5.html)中，Satoshi宣布他已经“转向其他事物”，并且比特币“在Gavin和其他人手中很安全”。
 
 2011年4月26日，Satoshi通过电子邮件向Gavin发送了一条[最后消息](http://gavinandresen.ninja/eleven-years-ago-today)，其中他写道：
 
@@ -1272,12 +1272,12 @@ Satoshi将网站、论坛和wiki的控制权转移给了Martti，Martti已经在
 矛盾的是，这一消息部分地推迟了一个组织的现有采纳：电子前哨基金会。6月20日，EFF[宣布](https://www.eff.org/deeplinks/2011/06/eff-and-bitcoin)实际上放弃了比特币捐赠，由于这种接受所涉及的法律复杂性。它[退还](https://bitcointalk.org/index.php?topic=20185.msg456413#msg456413)了收到的比特币给加文·安德森的比特币水龙头。因此，比特币在一个组织的损失中获得了另一个组织。
 
 ### 中本聪之谜
-因此，Satoshi的消失是在社区因slashdotting事件增长之后，以及更重要的是，由于WikiLeaks事件而突然发生的。比特币的创造者将项目的控制权交给了Martti Malmi和Gavin Andresen，这两位男士在他的开发和沟通工作中给予了他支持。
+因此，Satoshi的消失是在社区因slashdotting事件增长之后，以及更重要的是，由于WikiLeaks事件而突然发生的。比特币的创建者将项目的控制权交给了Martti Malmi和Gavin Andresen，这两位男士在他的开发和沟通工作中给予了他支持。
 此后他的下落成谜。从他的各种账户（[P2P Foundation](https://p2pfoundation.ning.com/forum/topics/bitcoin-open-source?commentId=2003008:Comment:52186), [Vistomail](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-August/010238.html)）中出现了一些消息，但很可能这些账户被黑客入侵了。因此，Satoshi Nakamoto的身份仍然未知，他通过使用Tor和尊重隐私的服务成功保持了匿名。
 
 多年来，关于他的线索不断被提供，提到了Nick Szabo、Hal Finney、Adam Back或Len Sassaman等知名人物的名字。2014年，甚至有人认为在洛杉矶郊区Temple City和他母亲一起生活的日裔美国公民、电信工程师Dorian Prentice Satoshi Nakamoto就是他。然而，Satoshi至今仍是一个[谜](https://www.youtube.com/watch?v=0ETcLj5jBy4)。
 
-比特币创造者周围的这种神秘氛围，由Hal Finney在2013年6月，也就是他2014年去世前在论坛上的[最后一条消息](https://bitcointalk.org/index.php?topic=234330.msg2479328#msg2479328)中很好地概括了，他分享了新发布的《钢铁之躯》电影中的一句话：
+比特币创建者周围的这种神秘氛围，由Hal Finney在2013年6月，也就是他2014年去世前在论坛上的[最后一条消息](https://bitcointalk.org/index.php?topic=234330.msg2479328#msg2479328)中很好地概括了，他分享了新发布的《钢铁之躯》电影中的一句话：
 
 > "你如何找到一个花了一生时间隐藏踪迹的人？
 >

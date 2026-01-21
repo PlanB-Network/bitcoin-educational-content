@@ -14,14 +14,14 @@ Bitchat è nato da uno sforzo di prototipazione rapida in cui [@jack](https://pr
 
 ## Introduzione: chattare liberamente, senza rete
 
-Immagina di inviare messaggi quando Internet non funziona, durante un disastro naturale o in luoghi in cui le comunicazioni sono limitate. Bitchat lo rende possibile. Si tratta di un'applicazione di messaggistica decentralizzata, peer-to-peer, che salta i server centrali e permette ai dispositivi di parlare direttamente tra loro, completamente offline, utilizzando il Bluetooth e la rete mesh. Progettata tenendo conto della privacy e della resilienza, Bitchat è ideale per l'uso in aree in cui la connettività tradizionale è inaffidabile o non disponibile, ad esempio in caso di catastrofi, in luoghi remoti o per chi vuole evitare la sorveglianza. Il Bitchat utilizza la crittografia per garantire che ogni messaggio sia crittografato end-to-end, verificato e a prova di manomissione.
+Immagina di inviare messaggi quando Internet non funziona, durante un disastro naturale o in luoghi in cui le comunicazioni sono limitate. Bitchat lo rende possibile. Si tratta di un'applicazione di messaggistica decentralizzata, peer-to-peer, che salta i server centrali e permette ai dispositivi di parlare direttamente tra loro, completamente offline, utilizzando il Bluetooth e la rete mesh. Progettata tenendo conto della privacy e della resilienza, Bitchat è ideale per l'uso in aree in cui la connettività tradizionale è inaffidabile o non disponibile, ad esempio in caso di catastrofi, in luoghi remoti o per chi vuole evitare la sorveglianza. Bitchat utilizza la crittografia per garantire che ogni messaggio sia crittografato end-to-end, verificato e a prova di manomissione.
 
 In questo tutorial ti mostreremo come funziona Bitchat e come puoi utilizzarlo per una comunicazione veramente privata e offline.
 
 
 ## 🚀 Caratteristiche principali
 
-Il Bitchat consente la messaggistica offline attraverso queste [funzioni](https://github.com/permissionlesstech/bitchat-android?tab=readme-ov-file#features):
+Bitchat consente la messaggistica offline attraverso queste [funzioni](https://github.com/permissionlesstech/bitchat-android?tab=readme-ov-file#features):
 - **Compatibilità multipiattaforma**: piena compatibilità del protocollo tra iOS e Android
 - **Rete mesh decentralizzata**: individuazione automatica dei peer (utenti) e trasmissione di messaggi multi-hop tramite Bluetooth Low Energy (BLE)
 - **Crittografia end-to-end**: scambio di chiavi X25519 + AES-256-GCM per i messaggi privati

@@ -293,7 +293,6 @@ Dong spiega poi come Guix ci permetta di fidarci solo di un binario minimo di 35
 
 C'è un mantra a cui molti bitcoiners si iscrivono, che cattura bene gran parte di quanto detto sopra:
 
-
 > Non fidarti, verifica.
 
 Questo allude alla frase "[fidati, ma verifica](https://en.wikipedia.org/wiki/Trust,_but_verify)" che l'ex presidente degli Stati Uniti Ronald Reagan usò nel contesto del disarmo nucleare. I [Bitcoiners](https://twitter.com/Truthcoin/status/1491415722123153408?s=20&t=ZyROxZxlBppdRpuuzsiF5w) l'hanno cambiata per sottolineare il rifiuto della fiducia e l'importanza di eseguire un full node.
@@ -302,90 +301,64 @@ Spetta agli utenti decidere fino a che punto verificare il software che utilizza
 
 Alcuni utenti pensano in modo avverso e verificano la maggior parte degli aspetti del software che eseguono. Di conseguenza, riducono la necessità di fiducia al minimo indispensabile, in quanto devono fidarsi solo dell'hardware e del sistema operativo del computer. In questo modo, aiutano anche le persone che non verificano il loro hardware in modo così approfondito, alzando la voce in pubblico per avvertire di eventuali problemi che potrebbero trovare. Un buon esempio è un [evento verificatosi nel 2018](https://bitcoincore.org/en/2018/09/20/notice/), quando qualcuno ha scoperto un bug che consentiva ai miner di spendere un output due volte nella stessa transazione:
 
-> La CVE-2018-17144, la cui correzione è stata rilasciata il 18 settembre nelle versioni 0.16.3 e 0.17.0rc4 di Bitcoin Core, include sia un componente di Denial of Service che una vulnerabilità critica dell'inflazione. Il problema è stato originariamente segnalato a diversi sviluppatori che lavorano su Bitcoin Core, così come ai progetti che supportano altre criptovalute, tra cui ABC e Unlimited, il 17 settembre, solo come un bug di Denial of Service, ma abbiamo rapidamente determinato che il problema era anche una vulnerabilità di inflazione con la stessa causa e la stessa correzione.
+> La CVE-2018-17144, è la correzione rilasciata il 18 settembre nelle versioni 0.16.3 e 0.17.0rc4 di Bitcoin Core, include sia un componente di Denial of Service(negazione del servizio) che una vulnerabilità critica dell'inflazione. Il 17 settembre, il problema fu segnalato a diversi sviluppatori che lavorano su Bitcoin Core, così come ad altri progetti di criptovalute, tra cui ABC e Unlimited, solo come un bug di Denial of Service. Tuttavia, abbiamo rapidamente determinato che il problema era anche una vulnerabilità di inflazione con la stessa causa e la stessa correzione.
 
 In questo caso, una persona anonima ha segnalato un problema che si è rivelato molto peggiore di quanto il segnalatore avesse previsto. Questo evidenzia il fatto che le persone che verificano il codice spesso segnalano le falle di sicurezza invece di sfruttarle. Ciò è vantaggioso per coloro che non sono in grado di verificare tutto da soli.
 
+Tuttavia, gli utenti non dovrebbero fidarsi di altri per la loro sicurezza, ma dovrebbero piuttosto verificare da soli ogni volta che possono; è così che si rimane il più possibile sovrani, e che Bitcoin prospera. Più occhi sono puntati sul software, meno è probabile che codice maligno e falle nella sicurezza passino inosservati.
 
-Tuttavia, gli utenti non dovrebbero fidarsi di altri per la loro sicurezza, ma dovrebbero piuttosto verificare da soli ogni volta che possono; è così che si rimane il più possibile sovrani e che Bitcoin prospera. Più occhi sono puntati sul software, meno è probabile che codice maligno e falle nella sicurezza possano sfuggire.
+### Conclusioni sulla trustlessness
 
+Il protocollo Bitcoin è trustless perché consente agli utenti di interagire con esso senza affidarsi a terzi. In pratica, però, la maggior parte delle persone non è in grado di verificare l'intero stack di software e hardware su cui viene eseguito Bitcoin. Le persone qualificate che verificano il software o l'hardware sono in grado di avvertire altre persone meno qualificate quando trovano codice dannoso o bug.
 
-### Conclusioni sulla mancanza di fiducia
-
-
-
-Il protocollo Bitcoin è Trustless perché consente agli utenti di interagire con esso senza affidarsi a terzi. In pratica, però, la maggior parte delle persone non è in grado di verificare l'intero stack di software e hardware su cui viene eseguito il Bitcoin. Le persone qualificate che verificano il software o l'hardware sono in grado di avvertire altre persone meno qualificate quando trovano codice dannoso o bug.
-
-
-Senza fiducia, non possiamo avere la decentralizzazione, perché la fiducia implica inevitabilmente un punto centrale di autorità. Si può costruire un sistema fidato sopra un sistema Trustless, ma non si può costruire un sistema Trustless sopra un sistema fidato.
-
+Senza trustlessness, non possiamo avere la decentralizzazione, perché la fiducia implica inevitabilmente un'autorità centrale. Si può costruire un sistema basato su fiducia sopra un sistema trustless, ma non si può costruire un sistema trustless sopra un sistema basato sulla fiducia.
 
 ## La privacy
-
 <chapterId>1b960afe-0008-589b-b2f4-007d60d264c6</chapterId>
-
 
 
 ![](assets/it/004.webp)
 
-
-Questo capitolo tratta di come tenere per sé le informazioni finanziarie private. Spiega cosa significa privacy nel contesto di  Bitcoin, perché è importante e cosa significa dire che il Bitcoin è pseudonimo. Inoltre, analizza il modo in cui i dati privati possono trapelare, sia in On-Chain che in off-chain.
-
+Questo capitolo tratta di come tenere private le informazioni finanziarie. Spiega cosa significa privacy nel contesto di Bitcoin, perché è importante e cosa significa dire che Bitcoin è pseudonimo. Inoltre, analizza il modo in cui i dati privati possono trapelare, sia on-chain che in off-chain.
 
 Si parla poi del fatto che i bitcoin dovrebbero essere fungibili, cioè intercambiabili con qualsiasi altro bitcoin, e di come fungibilità e privacy vadano di pari passo. Infine, il capitolo introduce alcune misure che si possono adottare per migliorare la propria privacy e quella degli altri.
 
-
 Bitcoin può essere descritto come un sistema pseudonimo, in cui gli utenti hanno più pseudonimi sotto forma di chiavi pubbliche. A prima vista, questo sembra un buon modo per proteggere gli utenti dall'identificazione, ma in realtà è molto facile far trapelare involontariamente informazioni finanziarie private.
-
 
 ### Cosa significa privacy?
 
 
+La privacy può avere significati diversi in contesti diversi. In Bitcoin, in generale, significa che gli utenti non devono rivelare le proprie informazioni finanziarie ad altri, a meno che non lo facciano volontariamente.
 
-La privacy può avere significati diversi in contesti diversi. Nel Bitcoin, in generale, significa che gli utenti non devono rivelare le proprie informazioni finanziarie ad altri, a meno che non lo facciano volontariamente.
-
-
-Ci sono molti modi in cui è possibile far trapelare le proprie informazioni private ad altri, con o senza saperlo. I dati possono trapelare dal Blockchain pubblico o attraverso altri mezzi, ad esempio quando attori malintenzionati intercettano le vostre comunicazioni via Internet.
-
+Ci sono molti modi in cui è possibile far trapelare le proprie informazioni private ad altri, consapevolmente o meno. I dati possono trapelare dalla blockchain pubblica o attraverso altri mezzi, ad esempio quando attori malintenzionati intercettano le tue comunicazioni via Internet.
 
 ### Perché la privacy è importante?
 
+Può sembrare ovvio che la privacy sia importante in Bitcoin, ma ci sono alcuni aspetti a cui non si pensa immediatamente. [Sul forum Bitcoin Talk](https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908), Gregory Maxwell ci illustra molte buone ragioni per cui ritiene che la privacy sia importante. Tra questi, il libero mercato, la sicurezza e la dignità umana:
 
-Può sembrare ovvio che la privacy sia importante nel Bitcoin, ma ci sono alcuni aspetti a cui non si pensa immediatamente. [Sul forum Bitcoin Talk](https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908), Gregory Maxwell ci illustra molte buone ragioni per cui ritiene che la privacy sia importante. Tra questi, il libero mercato, la sicurezza e la dignità umana:
-
-
-> La privacy finanziaria è un criterio essenziale per il funzionamento efficiente di un mercato libero: se gestite un'azienda, non potete fissare efficacemente i prezzi se i vostri fornitori e clienti possono vedere tutte le vostre transazioni contro la vostra volontà.
-> Non potete competere in modo efficace se la concorrenza sta tracciando le vostre vendite.  Se non avete la privacy sui vostri conti, perdete la vostra leva informativa nei rapporti privati: se pagate il vostro padrone di casa in Bitcoin senza una sufficiente privacy, il padrone di casa vedrà quando avete ricevuto un aumento di stipendio e potrà chiedervi un aumento dell'affitto.
+> La privacy finanziaria è un criterio essenziale per il funzionamento efficiente di un mercato libero: se gestisci un'azienda, non puoi fissare efficacemente i prezzi se i tuoi fornitori e clienti possono vedere tutte le tue transazioni contro la tua volontà.
+> Non puoi competere in modo efficace se la concorrenza sta tracciando le tue vendite. Se non hai la privacy sui tuoi conti, perderai la tua leva informativa nei rapporti privati: se paghi il tuo padrone di casa in Bitcoin senza una sufficiente privacy, il padrone di casa vedrà quando hai ricevuto un aumento di stipendio e potrà chiederti un aumento dell'affitto.
 >
-
-> La privacy finanziaria è essenziale per la sicurezza personale: se i ladri possono vedere le vostre spese, il vostro reddito e le vostre proprietà, possono usare queste informazioni per prendervi di mira e sfruttarvi. Senza privacy i malintenzionati hanno maggiori possibilità di rubare la vostra identità, di sottrarvi grandi acquisti o di spacciarsi per aziende con cui fate transazioni... possono sapere esattamente quanto tentare di truffarvi.
+> La privacy finanziaria è essenziale per la sicurezza personale: se i ladri possono vedere le tue spese, il tuo reddito e le tue proprietà, possono usare queste informazioni per prenderti di mira e sfruttarti. Senza privacy i malintenzionati hanno maggiori possibilità di rubare la tua identità, di sottrarti grandi acquisti o di spacciarsi per aziende con cui fai transazioni... possono sapere esattamente quanto tentare di truffarti.
 >
-
-> La privacy finanziaria è essenziale per la dignità umana: nessuno vuole che il barista spocchioso del caffè o i vicini ficcanaso facciano commenti sul proprio reddito o sulle proprie abitudini di spesa. Nessuno vuole che i suoceri pazzi per i bambini gli chiedano perché compra contraccettivi (o giocattoli sessuali). Il vostro datore di lavoro non deve sapere a quale chiesa fate le vostre donazioni. Solo in un mondo perfettamente illuminato e libero da discriminazioni, in cui nessuno ha un'autorità indebita sugli altri, potremmo mantenere la nostra dignità e fare liberamente le nostre transazioni legali senza autocensurarci se non abbiamo la privacy.
+> La privacy finanziaria è essenziale per la dignità umana: nessuno vuole che il barista spocchioso o i vicini ficcanaso facciano commenti sul proprio reddito o sulle proprie abitudini di spesa. Nessuno vuole che i suoceri pazzi per i bambini gli chiedano perché compra contraccettivi (o giocattoli sessuali). Il vostro datore di lavoro non deve sapere a quale chiesa fate le vostre donazioni. Solo in un mondo perfettamente illuminato e libero da discriminazioni e in cui nessuno ha un'autorità indebita sugli altri, potremmo mantenere la nostra dignità e fare liberamente le nostre transazioni lecite senza autocensura, qualora mancasse la privacy.
 
 Maxwell si sofferma anche sulla fungibilità, che verrà discussa più avanti in questo capitolo, e su come privacy e applicazione della legge non siano in contraddizione.
 
-
 ### Pseudonimato
 
-
-Abbiamo detto sopra che il Bitcoin è pseudonimo e che gli pseudonimi sono chiavi pubbliche. Nei media si sente spesso dire che il Bitcoin è anonimo, il che non è corretto. Esiste una distinzione tra anonimato e pseudonimato.
-
+Abbiamo detto sopra che il Bitcoin è pseudonimo e che gli pseudonimi sono chiavi pubbliche. Nei media si sente spesso dire che Bitcoin è anonimo, il che non è corretto. Esiste una distinzione tra anonimato e pseudonimato.
 
 Andrew Poelstra [spiega in un post di Bitcoin Stack Exchange](https://Bitcoin.stackexchange.com/a/29473/69518) come sarebbe l'anonimato nelle transazioni:
 
+> L'anonimato totale, nel senso che quando si spende del denaro non c'è traccia della sua provenienza o della sua destinazione, è teoricamente possibile utilizzando la tecnica crittografica delle zero-knowledge proofs (prove a conoscenza zero).
 
-> L'anonimato totale, nel senso che quando si spende del denaro non c'è traccia della sua provenienza o della sua destinazione, è teoricamente possibile utilizzando la tecnica crittografica delle prove a conoscenza zero.
+La differenza sembra essere che in una forma di denaro pseudonimo è possibile tracciare i pagamenti tra pseudonimi, mentre in una forma di denaro anonimo non è possibile. Poiché i pagamenti in bitcoin sono tracciabili tra pseudonimi, non si tratta di un sistema anonimo.
 
-La differenza sembra essere che in una forma di denaro pseudonimo è possibile tracciare i pagamenti tra pseudonimi, mentre in una forma di denaro anonimo non è possibile. Poiché i pagamenti di  Bitcoin sono tracciabili tra pseudonimi, non si tratta di un sistema anonimo.
-
-
-Abbiamo anche detto che gli pseudonimi sono chiavi pubbliche, ma in realtà si tratta di indirizzi derivati da chiavi pubbliche. Perché usiamo gli indirizzi come pseudonimi e non qualcos'altro, per esempio qualche nome descrittivo, come "watchme1984"? Questo è stato [spiegato bene](https://Bitcoin.stackexchange.com/a/25175/69518) dall'utente Tim S., anche in Bitcoin Stack Exchange:
-
+Abbiamo anche detto che gli pseudonimi sono chiavi pubbliche, ma in realtà si tratta di indirizzi derivati da chiavi pubbliche. Perché usiamo gli indirizzi come pseudonimi e non qualcos'altro, per esempio qualche nome descrittivo, come "watchme1984"? Questo è stato [spiegato bene](https://Bitcoin.stackexchange.com/a/25175/69518) dall'utente Tim S., anche nel sito di Bitcoin Stack Exchange:
 
 > Affinché l'idea di Bitcoin funzioni, è necessario avere monete che possono essere spese solo dal proprietario di una determinata chiave privata. Ciò significa che qualsiasi cosa si invii deve essere legata, in qualche modo, a una chiave pubblica.
 >
-
 > Usare pseudonimi arbitrari (ad esempio nomi di utenti) significherebbe dover collegare in qualche modo lo pseudonimo a una chiave pubblica per abilitare la crittografia a chiave pubblica/privata. Questo eliminerebbe la possibilità di creare in modo sicuro indirizzi/pseudonimi offline (ad esempio, prima che qualcuno possa inviare denaro al nome utente "tdumidu", si dovrebbe annunciare nel Blockchain che "tdumidu" è posseduto dalla chiave pubblica "a1c...", e includere una tariffa in modo che gli altri abbiano un motivo per annunciarlo), ridurrebbe l'anonimato (incoraggiando a riutilizzare gli pseudonimi) e gonfierebbe inutilmente le dimensioni del Blockchain. Inoltre, creerebbe un falso senso di sicurezza sul fatto che si sta inviando a chi si pensa di essere (se prendo il nome "Linus Torvalds" prima di lui, allora è mio e la gente potrebbe inviare denaro pensando di pagare il creatore di Linux, non me).
 
 Utilizzando gli indirizzi o le chiavi pubbliche, raggiungiamo obiettivi importanti, come l'eliminazione della necessità di registrare in qualche modo uno pseudonimo in anticipo, la riduzione degli incentivi per il riutilizzo dello pseudonimo, l'eliminazione dell'ingombro del Blockchain e la maggiore difficoltà nell'impersonare altre persone.

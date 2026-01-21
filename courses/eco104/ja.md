@@ -46,7 +46,7 @@ ECO104コースへようこそ！
 
 ● たった[20%](https://freedomhouse.org/sites/default/files/2022-02/FIW_2022_PDF_Booklet_Digital_Final_Web.pdf)の人々が「民主的に自由」とみなされる社会に住んでいます。しかし、この特権を享受する一部の人々でさえ、凍結された銀行口座から検閲に至るまで、人権侵害がますます一般的になっています。残りの80%は、権威主義の支配が進む中で苦闘しています。わずか20年前、世界の人口のほぼ半数が最も基本的な自由を享受していました。
 
-● [1.4](https://www.worldbank.org/en/news/feature/2022/07/21/covid-19-boosted-the-adoption-of-digital-financial-services#:~:text=Globally%2C%20some%201.4%20billion%20adults,go%2C%20much%20more%20is%20needed.)億の成人が世界中で未銀行化のままであり、無数の他の人々は限られた銀行サービスに制限されています。
+● [1.4](https://www.worldbank.org/en/news/feature/2022/07/21/covid-19-boosted-the-adoption-of-digital-financial-services#:~:text=Globally%2C%20some%201.4%20billion%20adults,go%2C%20much%20more%20is%20needed.)億の成人が世界中で銀行サービスを利用できないままであり、無数の他の人々は限られた銀行サービスに制限されています。
 
 ● [2022](https://elements.visualcapitalist.com/mapped-countries-with-highest-inflation-rate/)年末までに、世界のほぼ半分が二桁のインフレ率に直面し、稼いだお金の価値が侵食されました。これを視点に置くと、10%のインフレ率で10年間、あなたの購買力の65%を失うことになります。
 
@@ -1427,7 +1427,7 @@ _**図:** フレア[ガス](https://arstechnica.com/science/2022/09/oil-industry
 ## ロヤ・マフブーブ
 <chapterId>0b6f7ce6-69be-5735-b34c-b1822ff23356</chapterId>
 
-今日のグローバル化された世界では、金融サービスへのアクセスは経済参加と独立の重要な要素です。にもかかわらず、依然として多くの個人が従来の銀行システムから除外されており、特に女性がこの排除の重荷を背負っています。驚くべきことに、世界人口の[四分の一](https://www.worldbank.org/en/publication/globalfindex)が未銀行化であるにもかかわらず、サウジアラビアのような国では、[36.5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.)の女性が基本的な銀行サービスへのアクセスを欠いており、彼女たちが自国の経済や社会に完全に参加することを妨げています。
+今日のグローバル化された世界では、金融サービスへのアクセスは経済参加と独立の重要な要素です。にもかかわらず、依然として多くの個人が従来の銀行システムから除外されており、特に女性がこの排除の重荷を背負っています。驚くべきことに、世界人口の[四分の一](https://www.worldbank.org/en/publication/globalfindex)が銀行サービスを利用できないにもかかわらず、サウジアラビアのような国では、[36.5%](https://content.11fs.com/article/financial-exclusion-and-the-gender-gap-in-the-middle-east#:~:text=In%20the%20last%20few%20years,63.5%25%20%2D%20a%20huge%20shift.)の女性が基本的な銀行サービスへのアクセスを欠いており、彼女たちが自国の経済や社会に完全に参加することを妨げています。
 
 以下は、今日でも世界中の女性が依然として耐えている条件のほんの一例です:
 

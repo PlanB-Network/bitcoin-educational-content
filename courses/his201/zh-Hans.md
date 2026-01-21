@@ -1180,234 +1180,234 @@ Hal Finney 在 2009 年 4 月退出比特币后，很快就得知自己在 2009 
 
 :::video id=fd5b40ae-b6bc-484a-b86b-af9c772f0afa:::
 
-我们看到，在2010年7月Slashdot上发布文本之后，比特币如何起飞。到了秋天，随着软件、挖矿和经济的各种进步，感觉这个项目终于走上了正确的轨道。这就是为什么这个时期与中本聪逐渐退出的时间重合。
+我们看到了比特币如何在 2010 年 7 月 Slashdot 上发布文本之后起飞。到了秋天，随着软件、挖矿和经济的各种进步，感觉这个项目终于走上了正确的轨道。这就是为什么这个时期与中本聪逐渐退出的时间重合。
 
-比特币创始人的离开是由两个原因引起的：一方面，对他的地位提出了越来越多的挑战，呼吁更加去中心化和共识的管理；另一方面，他对国家当局几乎偏执的恐惧。后一动机特别在2010年12月表现出来，在金融封锁维基解密的背景下，维基解密无法通过传统方式接收资金，比特币为其提供了一个相关的替代手段。在这一章中，我们将详细描述这种消失的展开。
+比特币创建者的离开是由两个原因引起的：一方面，对他的地位提出了越来越多的挑战，倡导更加去中心化和基于共识的管理；另一方面，他对国家当局几乎偏执的恐惧。后一动机特别在 2010 年 12 月表现出来，在金融封锁 WikiLeaks 的背景下，WikiLeaks 无法通过传统方式接收资金，比特币为其提供了一个相关的替代手段。在这一章中，我们将详细描述这种消失的展开。
 
-### 对创始人地位的挑战
+### 对创建者地位的挑战
 
-从2010年下半年开始，开发社区聚集在#bitcoin-dev频道，其日志发布在Christian Decker的网站[Bitcoin Stats](https://web.archive.org/web/20131201235340/http://www.bitcoinstats.com/irc/bitcoin-dev/logs/2010/09)上。这个频道是那些最熟悉技术细节的人交换比特币信息和以更非正式的方式讨论的理想场所。它汇集了专业矿工（如ArtForz、Diablo-D3、knightmb或Nils Schneider）、对协议感兴趣的开发者（如Gavin Andresen、Jeff Garzik或Wladimir van der Laan），或维护比特币服务的人（如Jed McCaleb、Michael Marquardt或nanotube）。
+从 2010 年下半年开始，开发社区在 #bitcoin-dev 频道聚集，其日志发布在 Christian Decker 的网站[Bitcoin Stats](https://web.archive.org/web/20131201235340/http://www.bitcoinstats.com/irc/bitcoin-dev/logs/2010/09)上。这个频道是那些最熟悉技术细节的人交换比特币信息和以更非正式的方式讨论的理想场所。它汇集了专业矿工（如 ArtForz、Diablo-D3、knightmb或Nils Schneider）、对协议感兴趣的开发者（如 Gavin Andresen、Jeff Garzik 或 Wladimir van der Laan），或维护比特币服务的人（如 Jed McCaleb、Michael Marquardt 或 nanotube）。
 
 然而，中本聪从未连接到它，因此那里的言论比在论坛上更加自由。经常发生的是，中本聪的开发决策受到质疑，甚至他与比特币的地位也受到批评。
-中本聪确实是项目的指定领导者，在开源软件世界中被称为“[终身仁慈独裁者](https://fr.wikipedia.org/wiki/Benevolent_Dictator_for_Life)”。他的角色是通过为大家做决定来确保开放发展的稳定性，这限制了叛乱和分裂的风险。正如Gavin Andresen[解释](https://buildingbitcoin.org/bitcoin-dev/log-2010-09-27.html#l-528)的，“他是守门人”：“所有代码都通过他。”
+中本聪确实是项目的领导者，在开源软件世界中被称为“[终身仁慈独裁者](https://zh.wikipedia.org/wiki/%E7%BB%88%E8%BA%AB%E4%BB%81%E6%85%88%E7%8B%AC%E8%A3%81%E8%80%85)”。他的角色是通过为大家做决定来确保开放发展的稳定性，这限制了叛乱和分裂的风险。正如 Gavin Andresen [解释](https://buildingbitcoin.org/bitcoin-dev/log-2010-09-27.html#l-528)的，“他是守门人”：“所有代码都通过他的批准。”
 
-然而，比特币的源代码仍然是自由的，所以任何人都可以复制和修改它，这防止了协议的演变完全是任意的。正如Jeff Garzik在11月19日[表达](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-19.html#l-1538)的：
+然而，比特币的源代码仍然是自由的，所以任何人都可以复制和修改它，这也防止了协议的演化完全变得随意。正如 Jeff Garzik 在 11 月 19 日[表达](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-19.html#l-1538)的：
 
 > “中本聪凭空想出了魔法数字，我们集体支持这个方向。[...] 中本聪做出社区不支持的疯狂事情的那一刻，就是协议/代码库真正被分叉的时刻。”
 因此，中本聪的领导作用并不能阻止批评的发生。这就是为什么从七月开始，社区中的紧张局势逐渐显现。例如，在八月 [部署](https://bitcointalk.org/index.php?topic=898.msg10745#msg10745)警报系统或十一月 [修改](https://bitcointalk.org/index.php?topic=1901.msg24050#msg24050) Momchil 的 `getwork` 函数时，都出现了反对意见。对这种独裁决策的不满有时在 IRC 上[更加公开地](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-24.html#l-384)表达。
 
-接近中本聪但也与其他开发者讨论的Gavin清楚地看到了这种情况所带来的问题。2010年9月27日，在IRC上，Gavin[声明](https://buildingbitcoin.org/bitcoin-dev/log-2010-09-27.html#l-522)他希望“能够说服\[中本聪\]转向更加协作的开发模式。”（原文：“I just wish I could convince him to switch to a more collaborative development model.”）10月，Gavin[获得](https://sourceforge.net/p/bitcoin/code/165/)了在SourceForge上的仓库写入权限，这改善了情况。到了12月，随着维基解密事件的爆发，中本聪突然退出，问题自行解决。
+与中本聪关系密切的 Gavin 也与其他开发者讨论，清楚地看到了这种情况所带来的问题。2010 年 9 月 27 日，在 IRC 上，Gavin[声明](https://buildingbitcoin.org/bitcoin-dev/log-2010-09-27.html#l-522)他希望“能够说服\[中本聪\]转向更加协作的开发模式。”（原文：“我只是希望我能说服他，改用一种更协作的开发模式”）。10 月，Gavin [获得](https://sourceforge.net/p/bitcoin/code/165/) 了在 SourceForge 上的仓库写入权限，使情况变得更好。到了 12 月，随着 WikiLeaks 事件的爆发，中本聪突然退出，问题自行解决。
 
-### 维基解密事件
+### 维基解密（WikiLeaks）事件
 
-中本聪离开的触发事件是维基解密事件。维基解密是由密码朋克Julian Assange于2006年创立的非政府组织，旨在为告密者和信息泄露者提供发声平台，同时保护其来源。2010年，该NGO揭露的机密文件通过主流媒体传播，引起公众舆论的轰动。这些文件特别涉及美国军队的过度行为，如在阿富汗（阿富汗战争日记）和伊拉克（伊拉克战争日志）犯下的平民伤亡和酷刑行为。
+中本聪离开的触发理由是 WikiLeaks 事件。维基解密是由密码朋克 Julian Assange 于 2006 年创立的非政府组织，旨在为告密者和信息泄露者提供发声平台，同时保护其来源。2010 年，该 NGO 揭露的机密文件通过主流媒体传播，引起公众舆论的轰动。这些文件特别涉及美国军队的过度行为，如在阿富汗（Afghan War Diary）和伊拉克（Iraq War Logs）犯下的平民伤亡和酷刑行为。
 
 ![2010年11月的维基解密标志](assets/zh-Hans/059.webp)
 
 维基解密的资金主要依赖公众捐款，因此该组织依赖支付处理商来接收在线付款。然而，在这些爆料之后，监管机构反应的担忧给这些第三方带来了压力。这就是在线支付公司 Moneybookers 在 10 月 14 日[冻结](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked)该非政府组织账户的原因。
 
-这种情况为使用比特币打开了一条通道，比特币不依赖任何可信第三方，能够更好地抵抗财务审查。这一假设在11月由Amir Taaki在论坛上提出，Amir Taaki是一位22岁的英国伊朗裔，使用genjix这个化名。
+这种情况为比特币使用打开了一条通道，比特币不依赖任何可信第三方个人好哟机构，能够更好地抵抗财务审查。这一假设在 11 月由 Amir Taaki 在论坛上提出，Amir Taaki 是一位 22 岁的英国伊朗裔，化名为 genjix。
 
 ![2012年12月在布拉迪斯拉发的Amir Taaki](assets/zh-Hans/060.webp)
-2012年12月在布拉迪斯拉发的Amir Taaki（图片来源：[Mitch Altman](https://www.flickr.com/photos/maltman23/8272321106/)）
-黑客、无政府主义者和[扑克玩家](https://bitcointalk.org/index.php?topic=1487.0)，他最近了解到了中本聪的模型。他在维基解密的处境中看到了展示比特币实用性的机会。11月10日，他在论坛上[写下](https://bitcointalk.org/index.php?topic=1735.msg21271#msg21271)以下信息：
+2012 年 12 月在布拉迪斯拉发的 Amir Taaki（图片来源：[Mitch Altman](https://www.flickr.com/photos/maltman23/8272321106/)）
+黑客、无政府主义者和[扑克玩家](https://bitcointalk.org/index.php?topic=1487.0)，他最近了解到了中本聪的模型。他在维基解密的处境中看到了展示比特币实用性的机会。11 月 10 日，他在论坛上[写下](https://bitcointalk.org/index.php?topic=1735.msg21271#msg21271)以下信息：
 > “我想就比特币的事给维基解密发封信，因为不幸的是，他们过去的资金被没收过几次。[...] 有人知道该往哪儿发信息给他们吗？”
 
 对这个提议的反应不一。一位用户（ShadowOfHarbringer）[表示](https://bitcointalk.org/index.php?topic=1735.msg21283#msg21283)，“这对维基解密可能是好事，但不一定对比特币有好处。”另一位（creighto）[写道](https://bitcointalk.org/index.php?topic=1735.msg21415#msg21415)，“越晚越好。政府采取行动的时间越长，比特币网络就越强大，破坏它就越困难。”
 
-几周后，12月3日，PayPal决定冻结维基解密的账户，并在一夜之间发布了一份[声明](https://web.archive.org/web/20101206112350/https://www.thepaypalblog.com/2010/12/paypal-statement-regarding-wikileaks/)。第二天早上，开发者Wladimir van der Laan在论坛上[转达](https://bitcointalk.org/index.php?topic=1735.msg26737#msg26737)了这一消息：
+几周后，12 月 3 日，PayPal 决定冻结维基解密的账户，并在一夜之间发布了一份[声明](https://web.archive.org/web/20101206112350/https://www.thepaypalblog.com/2010/12/paypal-statement-regarding-wikileaks/)。第二天早上，开发者 Wladimir van der Laan 在论坛上[转达](https://bitcointalk.org/index.php?topic=1735.msg26737#msg26737)了这一消息：
 
-> “Paypal刚刚封锁了他们，他们正试图让其他美国银行也这么做。这将是开放比特币捐赠的绝佳时机。”
-这一情况的发展加剧了辩论。一个特别支持维基解密接受比特币的人是Robert S. Horning，一位居住在犹他州的计算机工程师，他是一位[博客作者](https://www.blogger.com/profile/12496217305843430098)和维基百科的贡献者，他是在7月的slashdotting事件后发现比特币的。那天，他写了一篇长文，解释支持维基解密是道德上正确的事情，而且国家迟早会听说比特币。他总结道：
+> “Paypal 刚刚封锁了他们，他们正试图让其他美国银行也这么做。这将是开放比特币捐赠的绝佳时机。”
+这一情况的发展加剧了辩论。一个特别支持维基解密接受比特币的人是 Robert S. Horning，一位居住在犹他州的计算机工程师，他是一位[博客作者](https://www.blogger.com/profile/12496217305843430098)和维基百科的贡献者，他是在 7 月的 Slashdot 事件后发现比特币的。那天，他写了一篇长文，解释支持维基解密是道德上正确的事情，而且国家迟早会听到比特币。他总结道：
 > “基本上，就是这样。让我们鼓励维基解密使用比特币，我愿意面对由此行为带来的任何风险或后果。”
 
 ### 中本聪的突然离开
 
-中本聪并不赞同Robert Horning的观点，反对将比特币推广给维基解密的想法。从他的言行可以看出，他对待国家权力机关非常谨慎，有时甚至近乎[偏执](https://mmalmi.github.io/satoshi/#email-158)。因此，在12月5日，他对这种热情做出了[尖锐的回应](https://bitcointalk.org/index.php?topic=1735.msg26999#msg26999)，反对主要推动者：
+中本聪并不赞同 Robert Horning 的观点，反对将比特币推广给维基解密的想法。从他的言行可以看出，他对待国家权力机关非常谨慎，有时甚至近乎[偏执](https://mmalmi.github.io/satoshi/#email-158)。因此，在 12 月 5 日，他对这种热情做出了[尖锐的回应](https://bitcointalk.org/index.php?topic=1735.msg26999#msg26999)，反对主要推动者：
 
 > “不，不要‘引发它’。
 >
 > 项目需要逐步成长，以便沿途加强软件。
 >
 > 我恳请维基解密不要尝试使用比特币。比特币是一个处于初期的小型测试社区。你们不会得到超过零花钱的收益，而你们带来的热度很可能会在这个阶段摧毁我们。”
-在接下来的几天里，针对维基解密的真正金融封锁行动得以组织起来，涉及到Mastercard和Visa，还有西联汇款、美国银行以及其他参与者，这[危及](https://wikileaks.org/Banking-Blockade.html)了该非政府组织的财务生存。这场攻势使得接受比特币变得更加相关，这个想法自然而然地传播开来。
-12月11日，PC World（美国最大的计算机网站之一）上[发布](https://www.pcworld.com/article/499375/could_wikileaks_scandal_lead_to_new_virtual_currency.html)了一篇文章，强调了维基解密可能使用比特币的可能性。这篇由记者[Keir Thomas](https://www.keirthomas.com/how-i-caused-the-bitcoin-guy-to-go-into-hiding/)撰写的文章标题为“维基解密丑闻能否引领新的虚拟货币？”。潘多拉的盒子被打开：PC World的文章将被许多人阅读，包括可能的维基解密官员，这将推动该非政府组织考虑这种支付方式。文章很快在论坛上被提及，比特币创建者的反应是明确的。他[写道](https://bitcointalk.org/index.php?topic=2216.msg29280#msg29280)：
+在接下来的几天内，针对维基解密的真正金融封锁行动得以组织起来，涉及到 Mastercard 和 Visa，还有西联汇款、美国银行以及其他参与者，这[危及](https://wikileaks.org/Banking-Blockade.html)了该非政府组织的财务生存。这场攻势使得接受比特币成为理想的做法，这个想法自然而然地传播开来。
+12 月 11 日，PC World（美国最大的计算机网站之一）上[发布](https://www.pcworld.com/article/499375/could_wikileaks_scandal_lead_to_new_virtual_currency.html)了一篇文章，强调了维基解密可能使用比特币的可能性。这篇由记者[Keir Thomas](https://www.keirthomas.com/how-i-caused-the-bitcoin-guy-to-go-into-hiding/)撰写的文章标题为“维基解密丑闻能否引领新的虚拟货币？”。潘多拉的盒子被打开：PC World 的文章将被许多人阅读，也许包括维基解密官员，这将推动该非政府组织考虑这种支付方式。文章很快在论坛上被提及，比特币创建者的反应是明确的。他[写道](https://bitcointalk.org/index.php?topic=2216.msg29280#msg29280)：
 
-> “在任何其他背景下获得这样的关注都会很好。&nbsp;维基解密踢到了马蜂窝，一大群马蜂正向我们飞来。”
+> “如果是在别的情况下获得这样的关注该多好啊。维基解密挑起了麻烦，而随之而来的麻烦正向我们袭来。”
 
-第二天，中本聪在论坛上[发布](https://bitcointalk.org/index.php?topic=2228.msg29479#msg29479)了他的最后一条公开信息，宣布发布了一个新版本的软件（v0.3.19），显著改善了对拒绝服务攻击的管理。然后，他退出了公众视野，只与他最亲密的合作者私下沟通。
+第二天，中本聪在论坛上[发布](https://bitcointalk.org/index.php?topic=2228.msg29479#msg29479)了他的最后一条公开信息，宣布发布了一个新版本的软件（v0.3.19），显著改善了对拒绝服务攻击的管理。然后，他退出了公众视野，只与他最亲密的合作伙伴私下沟通。
 
-在接下来的几天里，PC World上发布的文章产生了影响。12月14日，中本聪的发明被电子前哨基金会在一篇关于维基解密审查的[文本](https://www.eff.org/deeplinks/2010/12/constructive-direct-action-against-censorship)中提及（后来，该组织[将描述](https://www.eff.org/deeplinks/2011/01/bitcoin-step-toward-censorship-resistant)比特币为“抗审查的数字货币”）。23日，这种加密货币在俄罗斯频道RT上由Max Keiser和Stacy Herbert主持的财经节目Keiser Report中被[提及](https://web.archive.org/web/20180226161051/http://www.youtube.com/watch?v=VMngK0t5WkY)，再次是在维基解密的背景下。这些媒体报道显著增加了对比特币的关注，证实了中本聪的担忧。
+在接下来的几天内，PC World 上发布的文章产生了影响。12 月 14 日，中本聪的发明被 Electronic Frontier Foundation 在一篇关于维基解密审查的[文本](https://www.eff.org/deeplinks/2010/12/constructive-direct-action-against-censorship)中提及（后来，该组织[将描述](https://www.eff.org/deeplinks/2011/01/bitcoin-step-toward-censorship-resistant)比特币为“抗审查的数字货币”）。23 日，这种加密货币在俄罗斯频道RT 上由 Max Keiser 和 Stacy Herbert 主持的财经节目 Keiser Report 中被[提及](https://web.archive.org/web/20180226161051/http://www.youtube.com/watch?v=VMngK0t5WkY)，再次是在维基解密的背景下发生。这些媒体报道显著增加了对比特币的关注，证实了中本聪的担忧。
 
 ### 权限移交和最后的电子邮件
-从12月初开始，中本聪开始组织他的继任事宜。由于他计划离开，或至少退后一步，他需要将各种责任转交给他信任的人，特别是Martti Malmi和Gavin Andresen。然而，他从未明确向他们表达过他的意图。
-首先，他想要将他们的电子邮件地址添加到网站的[联系页面](https://web.archive.org/web/20101215111454/http://www.bitcoin.org/contact)上。12月7日，他[发送](https://mmalmi.github.io/satoshi/#email-245)了一封电子邮件给Martti，询问是否可以“将他添加到联系页面上的项目开发者名单中”，这是年轻的芬兰人接受了的请求。比特币的创建者对Gavin提出了同样的请求，Gavin也接受了。Satoshi将他们的地址添加到页面上，并移除了自己的地址。几年后，Gavin[会说](https://www.huffingtonpost.co.uk/entry/gavin-andresen-bitcoin_n_3093316)：
-> “\[Satoshi\]最终对我耍了一个小聪明，他问我是否可以把我的电子邮件地址放在比特币主页上，我说可以，没意识到当他把我的电子邮件地址放上去时，他会把自己的拿掉。”
+从 12 月初开始，中本聪开始组织他的继任事宜。由于他计划离开，或至少退后一步，他需要将各种责任转交给他信任的人，特别是 Martti Malmi 和 Gavin Andresen。然而，他从未明确向他们表达过他的意图。
+首先，他想要将他们的电子邮件地址添加到网站的[联系页面](https://web.archive.org/web/20101215111454/http://www.bitcoin.org/contact)上。12 月 7 日，他[发送](https://mmalmi.github.io/satoshi/#email-245)了一封电子邮件给 Martti，询问是否可以“将他添加到联系页面上的项目开发者名单中”，这是年轻芬兰人接受了的请求。比特币的创建者对 Gavin 提出了同样的请求，Gavin 也接受了。中本聪将他们的地址添加到页面上，并移除了自己的地址。几年后，Gavin [会说](https://www.huffingtonpost.co.uk/entry/gavin-andresen-bitcoin_n_3093316)：
+> “[中本聪］最后耍了我一招，他问我可不可以把我的邮箱放在比特币首页上，我当时答应了，却没意识到他一放上去，就把他自己的邮箱给撤掉了。”
 
-但这还不是全部。Satoshi还想将他对软件的控制权转移给Gavin Andresen。Gavin，已经在[10月](https://sourceforge.net/p/bitcoin/code/165/)被授予了SourceForge仓库的写入权限，成为了仓库的主要维护者。12月19日，他在GitHub上[创建](https://api.github.com/repos/bitcoin/bitcoin)了仓库，可能是因为他对Git感到更加舒适。同一天，他在论坛上写了一条长消息，解释说他将更多地参与开发。他[宣布](https://bitcointalk.org/index.php?topic=2367.msg31651#msg31651)：
+但不仅如此。中本聪还想将他对软件的控制权转移给 Gavin Andresen。Gavin，已经在 [10 月](https://sourceforge.net/p/bitcoin/code/165/)被授予了 SourceForge 仓库的写入权限，成为了仓库的主要维护者。12 月 19 日，他在 GitHub 上[创建](https://api.github.com/repos/bitcoin/bitcoin)了仓库，可能是因为他对 Git 感到更加舒适。同一天，他在论坛上写了一条长消息，解释说他将更多地参与开发。他[宣布](https://bitcointalk.org/index.php?topic=2367.msg31651#msg31651)：
 
-> “在Satoshi的祝福下，虽然非常不情愿，但我将开始为比特币进行更积极的项目管理。”
+> “在中本聪的祝福下，虽然非常不情愿，但我将开始为比特币进行更积极的项目管理。”
 
-Satoshi将网站、论坛和wiki的控制权转移给了Martti，Martti已经在共同管理这些元素。然后，他在2011年春天最终消失了。
-在最后与Satoshi通信的人中，也有Mike Hearn，这位谷歌工程师两年前曾接近他。Hearn在2010年12月重新与比特币的创建者取得联系，向他询问更多技术问题。他[正在工作](https://plan99.net/~mike/satoshi-emails/thread3.html)于“一个简化支付验证的Java实现，目标是构建一个在Android手机上运行的客户端。”两人交换了信息直到4月23日。在给Mike Hearn的[最后一封电子邮件](https://plan99.net/~mike/satoshi-emails/thread5.html)中，Satoshi宣布他已经“转向其他事物”，并且比特币“在Gavin和其他人手中很安全”。
+中本聪将网站、论坛和 wiki 的控制权转移给了 Martti，Martti 已经在共同管理这些元素。然后，他在 2011 年春天最终消失了。
+在最后与中本聪通信的人中，也有 Mike Hearn，这位谷歌工程师两年前曾接近他。Hearn 在 2010 年 12 月重新与比特币的创建者取得联系，向他询问更多技术问题。他[正在工作](https://plan99.net/~mike/satoshi-emails/thread3.html)于“一个简化支付验证的 Java 实现，目标是构建一个在 Android 手机上运行的客户端。”两人交换了信息直到 4 月 23 日。在给 Mike Hearn 的[最后一封电子邮件](https://plan99.net/~mike/satoshi-emails/thread5.html)中，他表示 “我已经去做别的事了，比特币交给 Gavin 和大家，稳如泰山”。
 
-2011年4月26日，Satoshi通过电子邮件向Gavin发送了一条[最后消息](http://gavinandresen.ninja/eleven-years-ago-today)，其中他写道：
+2011 年 4 月 26 日，中本聪通过电子邮件向 Gavin 发送了一条[最后消息](http://gavinandresen.ninja/eleven-years-ago-today)，其中他写道：
 
-> “我希望你不要继续把我描述成一个神秘的阴影人物，媒体只会把这变成一个海盗货币的角度。或许改为让它关于开源项目，并给予你的开发贡献者更多的信用；这有助于激励他们。”
-在这里，中本聪提到了几天前安迪·格林伯格（Andy Greenberg）在福布斯网站上发表的一篇[文章](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html)，在文章中他被描述为“一个神秘的，痴迷于隐私的人物”（*原文：“a mysterious, privacy-obsessed figure”*），并且强调比特币作为获取非法药物的手段（实际上，这是丝绸之路平台开始获得成功的时期）。在给加文的电子邮件中，中本聪还附上了警报密钥，这可以在技术问题发生时用来警告网络。
-最后，在五月初，他也向马蒂说了再见。他对他的第一位得力助手的最后话语是：
+> “我希望你不要一直把我描绘成那种神秘莫测的人物，媒体只会把那种说法渲染成‘海盗货币’的角度。或许可以把重点放在这个开源项目本身，多给开发贡献者一些肯定；那样会更能激励他们。”
+在这里，中本聪提到了几天前 Andy Greenberg 在福布斯网站上发表的一篇[文章](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html)，在文章中他被描述为“一个神秘的，痴迷于隐私的人物”（*原文：“a mysterious, privacy-obsessed figure”*），并且强调比特币作为获取非法药物的手段（实际上，这是丝绸之路平台开始获得成功的时期）。在给加文的电子邮件中，中本聪还附上了警报密钥，这可以在技术问题发生时用来警告网络。
+最后，在五月初，他也向 Martti 说了再见。他对他的第一位得力助手的最后话语是：
 
-> “我已经转向其他事物，将来可能不会再出现。”
-> 《数字黄金》第81页
+> “我已经去忙其他事情了，将来可能不会再出现。”
+> 《Digital Gold》第 81 页
 
-### 中情局、维基解密和电子前哩基金会
-2011年4月26日，加文·安德森发送了一封[最后的电子邮件](http://gavinandresen.ninja/eleven-years-ago-today)给中本聪，后者没有回应。在这封邮件中，他[指出](http://gavinandresen.ninja/eleven-years-ago-today)他被In-Q-Tel邀请，这是一个由中情局管理的美国风险投资基金，去介绍比特币。他非常清楚这次访问会引起什么样的反应，但还是决定去。他通过写信给中本聪来证明他的决定：
+### 中情局、维基解密和电子前哨基金会
+2011 年 4 月 26 日，Gavin Andresen 发送了一封[最后的电子邮件](http://gavinandresen.ninja/eleven-years-ago-today)给中本聪，而中本聪没有回应。在这封邮件中，他[指出](http://gavinandresen.ninja/eleven-years-ago-today)他被 In-Q-Tel 邀请，这是一个由中情局管理的美国风险投资基金，去介绍比特币。他非常清楚这次访问会引起什么样的反应，但还是决定去。他通过写信给中本聪来证明他的决定：
 
 > “我希望通过直接与‘他们’交谈，更重要的是，听取他们的问题/顾虑，他们会像我一样看待比特币——作为一个更好、更高效、不受政治任性影响的货币。不是作为一个全能的黑市工具，将被无政府主义者用来推翻体制。”
 
-第二天，加文在论坛上[宣布](https://bitcointalk.org/index.php?topic=6652.msg97181#msg97181)了这一消息，并完全透明化。他指出，这次旅行他获得了3000美元的报酬。然而，这并没有特别触动社区，社区理解他的做法，即使显然，这是值得怀疑的。加文访问中情局总部的行程[发生在](https://twitter.com/gavinandresen/status/80785477342478336)6月14日。
+第二天，加文在论坛上[宣布](https://bitcointalk.org/index.php?topic=6652.msg97181#msg97181)了这一消息，并完全透明化。他指出，这次旅行他获得了 3000 美元的报酬。然而，这并没有特别触动社区，社区理解他的做法，即使显然，这是值得怀疑的。Gavin 访问中情局总部的行程[发生在](https://twitter.com/gavinandresen/status/80785477342478336)6 月 14 日。
 
-象征性地，6月14日也是维基解密[开始](https://twitter.com/wikileaks/status/80774521350668288)接受比特币捐赠的日期。这一消息在福布斯网站上被报道。
+象征性地，6 月 14 日也是维基解密[开始](https://twitter.com/wikileaks/status/80774521350668288)接受比特币捐赠的日期。这一消息在 Forbes 网站上被报道。
 
-矛盾的是，这一消息部分地推迟了一个组织的现有采纳：电子前哨基金会。6月20日，EFF[宣布](https://www.eff.org/deeplinks/2011/06/eff-and-bitcoin)实际上放弃了比特币捐赠，由于这种接受所涉及的法律复杂性。它[退还](https://bitcointalk.org/index.php?topic=20185.msg456413#msg456413)了收到的比特币给加文·安德森的比特币水龙头。因此，比特币在一个组织的损失中获得了另一个组织。
+矛盾的是，这一消息部分地推迟了一个组织的现有采纳：Electronic Frontier Foundation（电子前哨基金会）。6 月 20日，EFF [宣布](https://www.eff.org/deeplinks/2011/06/eff-and-bitcoin)实际上放弃了比特币捐赠，由于这种接受所涉及的法律复杂性。它[退还](https://bitcointalk.org/index.php?topic=20185.msg456413#msg456413)了收到的比特币给 Gavin Andresen 的比特币水龙头。因此，比特币在一个组织的损失中获得了另一个组织。
 
 ### 中本聪之谜
-因此，Satoshi的消失是在社区因slashdotting事件增长之后，以及更重要的是，由于WikiLeaks事件而突然发生的。比特币的创建者将项目的控制权交给了Martti Malmi和Gavin Andresen，这两位男士在他的开发和沟通工作中给予了他支持。
-此后他的下落成谜。从他的各种账户（[P2P Foundation](https://p2pfoundation.ning.com/forum/topics/bitcoin-open-source?commentId=2003008:Comment:52186), [Vistomail](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-August/010238.html)）中出现了一些消息，但很可能这些账户被黑客入侵了。因此，Satoshi Nakamoto的身份仍然未知，他通过使用Tor和尊重隐私的服务成功保持了匿名。
+因此，中本聪的消失是在社区因 Slashdot 事件增长之后，以及更重要的是，由于 WikiLeaks 事件而突然发生的。比特币的创建者将项目的控制权交给了 Martti Malmi 和 Gavin Andresen，这两位男士在他的开发和沟通工作中给予了他支持。
+此后他的下落成谜。从他的各种账户（[P2P Foundation](https://p2pfoundation.ning.com/forum/topics/bitcoin-open-source?commentId=2003008:Comment:52186), [Vistomail](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-August/010238.html)）中出现了一些消息，但很可能这些账户被黑客入侵了。因此，中本聪的身份仍然未知，他通过使用 Tor 和尊重隐私的服务成功保持了匿名性。
 
-多年来，关于他的线索不断被提供，提到了Nick Szabo、Hal Finney、Adam Back或Len Sassaman等知名人物的名字。2014年，甚至有人认为在洛杉矶郊区Temple City和他母亲一起生活的日裔美国公民、电信工程师Dorian Prentice Satoshi Nakamoto就是他。然而，Satoshi至今仍是一个[谜](https://www.youtube.com/watch?v=0ETcLj5jBy4)。
+多年来，关于他的线索不断被提供，提到了 Nick Szabo、Hal Finney、Adam Back 或 Len Sassaman 等知名人物的名字。2014 年，甚至有人认为在洛杉矶郊区 Temple City 和他母亲一起生活的日裔美国公民、电信工程师 Dorian Prentice Satoshi Nakamoto 就是他。然而，中本聪身份至今仍是一个[谜](https://www.youtube.com/watch?v=0ETcLj5jBy4)。
 
-比特币创建者周围的这种神秘氛围，由Hal Finney在2013年6月，也就是他2014年去世前在论坛上的[最后一条消息](https://bitcointalk.org/index.php?topic=234330.msg2479328#msg2479328)中很好地概括了，他分享了新发布的《钢铁之躯》电影中的一句话：
+比特币创建者周围的这种神秘氛围，由 Hal Finney 在 2013 年 6 月，也就是他 2014 年去世前在论坛上的[最后一条消息](https://bitcointalk.org/index.php?topic=234330.msg2479328#msg2479328)中很好地概括了，他分享了新发布的《Man of Steel》电影中的一句话：
 
 > "你如何找到一个花了一生时间隐藏踪迹的人？
 >
 > 对一些人来说，他是守护天使。对另一些人来说，\[一个谜，\] 一个幽灵，总是有些疏离。
 >
-> S代表什么？"
+> S 代表什么？"
 
 ## 社区接管
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
 
 :::video id=b29c3ea3-c4ca-4feb-bb29-5dc064987406:::
 
-在Satoshi Nakamoto离开后，继续前进成为必要。幸运的是，比特币是一个开放的项目，任何人都可以贡献，因此其创始人的消失对它来说并不是致命的。正如开发者Jeff Garzik在2010年7月（关于创始人缺席的可能性）写道：
+中本聪离开后，比特币必须继续前进。幸运的是，比特币是一个开放的项目，任何人都可以贡献，因此其创建者的消失对它来说并不是致命的。正如开发者 Jeff Garzik 在 2010 年 7 月（关于创建者缺席的可能性）写道：
 
 > "人们非常担心规则和制定规则。但这里没有对政府连续性计划的迫切需求。只要源代码保持开放，那就足够了。如果有需要，而且有足够的兴趣，社区会提供支持。信任社区。"
 然而，这种消失并非没有挑战。没有了中本聪，就不再有一个可以发出指令的权威存在。从软件开发和外部沟通的角度来看，协调变得必要。因此，新兴的比特币社区成员不得不做出许多努力来标准化这些实践。
 
-### 社区发展
+### 社区的发展
 
-正如我们所叙述的，Gavin Andresen在2010年12月接管了项目的领导权，通过创建GitHub仓库。2011年1月13日，他在论坛上发帖寻求帮助，创建了一个名为“Core Bitcoin Development Help Wanted”的主题。在接下来的几个月里，许多程序员参与其中，开始解决问题。其中尤为值得注意的是Jeff Garzik、Pieter Wuille（sipa）和Wladimir van Der Laan（wumpus, laanwj）。也有像Luke-Jr或Matt Corallo（BlueMatt）这样的新开发者参与。其他个人在没有直接贡献主要软件的情况下提供帮助，比如Mike Hearn（自12月以来参与社区），他在2011年3月公开了一个名为BitCoinJ的新软件实现，以实现白皮书中描述的简化支付验证（SPV）。
+正如我们所叙述的，Gavin Andresen 在 2010 年 12 月接管了项目的领导权，通过创建 GitHub 仓库。2011 年 1 月 13 日，他在论坛上发帖寻求帮助，创建了一个名为“Core Bitcoin Development Help Wanted” 的主题。在接下来的几个月内，许多程序员参与其中，开始解决问题。其中尤为值得注意的是 Jeff Garzik、Pieter Wuille（sipa）和 Wladimir van Der Laan（wumpus, laanwj）。也有像 Luke-Jr 或Matt Corallo（BlueMatt）这样的新开发者参与。其他个人在没有直接贡献主要软件的情况下提供帮助，比如 Mike Hearn（自 12 月以来参与社区），他于 2011 年 3 月公开了一个名为 BitCoinJ 的新软件实现，以实现白皮书中描述的简化支付验证（SPV）。
 
-总体计划是确保项目的可持续发展。这涉及到与更广泛的受众建立一定的合法性。5月19日，Mike Hearn[提议](https://web.archive.org/web/20110522075653/http://forum.bitcoin.org:80/index.php?topic=8954.0)参与项目的人使用他们的“真实姓名”，意味着他们的民事姓名，这样人们就不会怀疑。Gavin、Mike和其他人在论坛上改用他们的全名作为昵称。网站首页还[发布](https://web.archive.org/web/20110530221415/http://www.bitcoin.org:80/)了主要开发者的名单。到5月底，被如此介绍的开发者包括Gavin Andresen、Martti Malmi、Amir Taaki、Pieter Wuille、Nils Schneider和Jeff Garzik。
+总体计划是确保项目的可持续发展。这涉及到与更广泛的受众建立一定的合法性。5 月 19 日，Mike Hearn [提出](https://web.archive.org/web/20110522075653/http://forum.bitcoin.org:80/index.php?topic=8954.0)参与项目的人使用他们的“真实姓名”，意味着他们的民事姓名，这样人们就不会怀疑。Gavin、Mike 和其他人在论坛上改用他们的全名作为昵称。网站首页还[发布](https://web.archive.org/web/20110530221415/http://www.bitcoin.org:80/)了主要开发者的名单。到 5 月底，被如此介绍的开发者包括 Gavin Andresen、Martti Malmi、Amir Taaki、Pieter Wuille、Nils Schneider 和 Jeff Garzik。
 
-协调也有所改善。除了论坛和IRC频道#bitcoin-dev外，还出现了一个专门用于开发的邮件列表“bitcoin-development”。它是由Jeff Garzik在6月12日[设立](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2011-June/000000.html)的。它允许就比特币的改动进行正式讨论。在8月，关于项目[路线图](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2011-August/000333.html)的讨论开始。该列表最初托管在SourceForge上；它将在2015年6月[移至](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-June/008975.html) Linux Foundation网站，最终在2024年初[迁移到](https://groups.google.com/g/bitcoindev/c/aewBuV6k-LI) Google Group。
-2011年9月19日，Amir Taaki [启动](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2011-September/000554.html)了比特币改进提案系统，该系统借鉴了针对Python编程语言的Python增强提案（PEP）。这些BIP（比特币改进提案）是描述对协议可能更改的文档，或向社区提供一般信息。他通过BIP-1描述了这一过程，该过程后来被Luke-Jr的BIP-2替代。这些提案最初托管在[比特币wiki](https://en.bitcoin.it/w/index.php?title=Bitcoin_Improvement_Proposals&oldid=20743)上。
+协调也有所改善。除了论坛和 IRC 频道 #bitcoin-dev 外，还出现了一个专门用于开发的邮件列表“bitcoin-development”。它是由 Jeff Garzik 在 6 月 12 日[设立](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2011-June/000000.html)的。它允许就比特币的改动进行正式讨论。在 8 月，关于项目[路线图](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2011-August/000333.html)的讨论开始。该列表最初托管在 SourceForge 上；它将在 2015 年 6 月[移至](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-June/008975.html) Linux Foundation 网站，最终在 2024 年初[迁移到](https://groups.google.com/g/bitcoindev/c/aewBuV6k-LI) Google Group。
+2011 年 9 月 19 日，Amir Taaki [启动](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2011-September/000554.html)了比特币改进提案系统，该系统借鉴了针对 Python 编程语言的 Python 增强提案（PEP）。这些 BIP（比特币改进提案）是描述对协议可能更改的文档，或向社区提供一般信息。他通过 BIP-1 描述了这一过程，该过程后来被 Luke-Jr 的 BIP-2 替代。这些提案最初托管在[比特币 wiki](https://en.bitcoin.it/w/index.php?title=Bitcoin_Improvement_Proposals&oldid=20743) 上。
 
-在Gavin Andresen的监督下，几个月内发布了几个版本的软件：3月5日发布[v0.3.20](https://bitcointalk.org/index.php?topic=4167.msg60365#msg60365)，4月27日发布[v0.3.21](https://bitcointalk.org/index.php?topic=6642.msg97074#msg97074)，6月5日发布[v0.3.22](https://bitcointalk.org/index.php?topic=12269.msg170790#msg170790)，6月13日发布[v0.3.23](https://bitcointalk.org/index.php?topic=16553.msg215364#msg215364)，7月8日发布[v0.3.24](https://bitcointalk.org/index.php?topic=27187.msg342270#msg342270)。2011年9月23日，正式[发布](https://bitcointalk.org/index.php?topic=45410.msg541446#msg541446)了一个新的主要版本，版本0.4，象征性地表明开发接班工作正在顺利进行。
+在 Gavin Andresen 的监督下，几个月内发布了几个版本的软件：3 月 5 日发布[v0.3.20](https://bitcointalk.org/index.php?topic=4167.msg60365#msg60365)，4 月 27 日发布[v0.3.21](https://bitcointalk.org/index.php?topic=6642.msg97074#msg97074)，6 月 5 日发布[v0.3.22](https://bitcointalk.org/index.php?topic=12269.msg170790#msg170790)，6 月 13 日发布[v0.3.23](https://bitcointalk.org/index.php?topic=16553.msg215364#msg215364)，7 月 8 日发布[v0.3.24](https://bitcointalk.org/index.php?topic=27187.msg342270#msg342270)。2011 年 9 月 23 日，正式[发布](https://bitcointalk.org/index.php?topic=45410.msg541446#msg541446)了一个新的主要版本，版本 0.4，象征性地表明开发接班工作正在顺利进行。
 
-### 网站、论坛和Wiki
+### 网站、论坛和 Wiki
 
-软件开发并不是在中本聪离开后唯一需要管理的事务。还有一般的沟通工具，如网站、论坛和wiki。这些确实是项目的“橱窗”，它们的管理方式非常重要。
+软件开发并不是在中本聪离开后唯一需要管理的事务。还有一般的沟通工具，如网站、论坛和 wiki。这些事物确实是项目的 “橱窗”，它们的管理非常重要。
 
-正如我们提到的，中本聪离开时，将网站的控制权交给了Martti Malmi，这包括了论坛（bitcoin.org/smf）和[wiki](https://web.archive.org/web/20110102000201/http://www.bitcoin.org/wiki/doku.php)（bitcoin.org/wiki）。然而，Martti没有太多时间来致力于这项任务。从2010年春季开始，他忙于一项实习，然后是一份全职工作，结果逐渐退出。
+正如我们提到的，中本聪离开时，将网站的控制权交给了 Martti Malmi，这包括了论坛（bitcoin.org/smf）和 [wiki](https://web.archive.org/web/20110102000201/http://www.bitcoin.org/wiki/doku.php)（bitcoin.org/wiki）。然而，Martti 没有太多时间来致力于这项任务。从 2010 年春季开始，他忙于一项实习，然后一份全职工作，结果逐渐退出负责这一任务。
 
-由于缺乏时间，Martti被迫逐步关闭他的交易平台BitcoinExchange。在2010年12月的[服务器更换](https://mmalmi.github.io/satoshi/#email-240)期间，该平台被取下线。1月，他[决定](https://bitcointalk.org/index.php?topic=2179.msg37575#msg37575)不重新开放它。在8月初，他以250比特币的价格（当时相当于2,365美元）[出售](https://bitcointalk.org/index.php?topic=34357.msg427698#msg427698)了域名。该链接随后重定向到Mt. Gox。
-但主要是，Martti需要委托管理网站的工作。在2010年底和2011年初，Bitcoin.org遇到了一些[问题](https://bitcointalk.org/index.php?topic=2026.msg25845#msg25845) [困难](https://bitcointalk.org/index.php?topic=3328.msg46775#msg46775)。3月28日，Martti在论坛上[发布](https://bitcointalk.org/index.php?topic=5052.msg73922#msg73922)了一个公告，请求技术帮助，并收到了几个回应。随后，托管服务变得[更加健壮](https://bitcointalk.org/index.php?topic=13375.msg184002#msg184002)，防止了每次大量访问者涌入时网站离线。
+由于缺乏时间，Martti 被迫逐步关闭他的交易平台 BitcoinExchange。在 2010 年 12 月的[服务器更换](https://mmalmi.github.io/satoshi/#email-240)期间，该平台被取下线。1 月，他[决定](https://bitcointalk.org/index.php?topic=2179.msg37575#msg37575)不重新开放它。在 8 月初，他以 250 比特币的价格（当时相当于 2,365 美元）[出售](https://bitcointalk.org/index.php?topic=34357.msg427698#msg427698)了域名。该链接随后重定向到 Mt. Gox。
+但主要是，Martti 需要委托管理网站的工作。在 2010 年底和 2011 年初，Bitcoin.org 遇到了[一些](https://bitcointalk.org/index.php?topic=2026.msg25845#msg25845) [问题](https://bitcointalk.org/index.php?topic=3328.msg46775#msg46775)。3 月 28 日，Martti 在论坛上[发布](https://bitcointalk.org/index.php?topic=5052.msg73922#msg73922)了一个公告，请求技术帮助，并收到了几个回应。随后，托管服务变得[更加健壮](https://bitcointalk.org/index.php?topic=13375.msg184002#msg184002)，防止了每次大量访问者涌入时网站离线。
 
-它的外观也发生了变化。2010年12月，网站的外观仍然像在中本聪时代那样。这是12月5日的一个[快照](https://web.archive.org/web/20101110005546/http://www.bitcoin.org/)：
+它的外观也发生了变化。2010 年 12 月，网站的外观仍然像在中本聪时代那样。这是 12 月 5 日的一个[快照](https://web.archive.org/web/20101110005546/http://www.bitcoin.org/)：
 
-![2010年12月5日Bitcoin.org的快照](assets/zh-Hans/061.webp)
+![2010 年 12 月 5 日 Bitcoin.org 的快照](assets/zh-Hans/061.webp)
 
-因此，在2011年初，网站增添了一抹色彩：
+因此，在 2011 年初，网站增添了一抹色彩：
 
 ![2011年2月16日Bitcoin.org的快照](assets/zh-Hans/062.webp)
 
-到了4月，经过社区[组织](https://bitcointalk.org/index.php?topic=4223.msg80581#msg80581)的重新设计，网站的布局发生了变化。这是当时的样子：
+到了 4 月，经过社区[组织](https://bitcointalk.org/index.php?topic=4223.msg80581#msg80581)的重新设计，网站的布局发生了变化。这是当时的样子：
 
 ![2011年4月11日Bitcoin.org的快照](assets/zh-Hans/063.webp)
 
-最后，在2011年9月，Nils Schneider进行了一次新的变更。为此[创建](https://github.com/bitcoin/bitcoin.org)了一个新的GitHub仓库。这个设计持续的时间更长：直到2013年才发生变化。这是当时的样子（注意，那时的Bitcoin软件被描述为“一个社区驱动的开源项目”）：
+最后，在 2011 年 9 月，Nils Schneider 进行了一次新的变更。为此[创建](https://github.com/bitcoin/bitcoin.org)了一个新的 GitHub 仓库。这个设计持续的时间更长：直到2013 年才发生变化。这是当时的样子（注意，那时的比特币软件被描述为“一个社区驱动的开源项目”）：
 
 ![2011年9月23日Bitcoin.org的快照](assets/zh-Hans/064.webp)
 
-关于wiki，最初是基于DokuWiki的，一个免费的引擎集成到网站中。然而，在2010年12月，居住在日本的法国开发者Mark Karpelès，在论坛上使用MagicalTux这个假名，创建了一个新的wiki，地址是bitcoin.it。这个wiki基于MediaWiki引擎，他发现它更优雅，更易于使用。最初的想法不是替换现有的文档，而是，正如Mark在IRC上[表达](https://buildingbitcoin.org/bitcoin-dev/log-2010-12-16.html#l-2848)的，开发“一个不那么正式、更加面向社区的wiki”。
-这个新的wiki吸引了[Martti Malmi](https://bitcointalk.org/index.php?topic=2321.msg30873#msg30873)和[Gavin Andresen](https://bitcointalk.org/index.php?topic=2321.msg31535#msg31535)，因此他们很快就考虑将其作为主要的wiki。这里有一个于5月21日拍摄的[快照](https://web.archive.org/web/20110521044430/https://en.bitcoin.it/wiki/Main_Page)：
+关于 wiki，最初是基于 DokuWiki 的，一个免费的引擎集成到网站中。然而，在 2010 年 12 月，居住在日本的法国开发者 Mark Karpelès，在论坛上使用 MagicalTux 这个假名，创建了一个新的 wiki，地址为bitcoin.it。这个 wiki 基于 MediaWiki 引擎，他发现它更优雅，更易于使用。最初的想法不是替换现有的文档，而是，正如 Mark 在 IRC 上[表达](https://buildingbitcoin.org/bitcoin-dev/log-2010-12-16.html#l-2848)的，开发“一个不那么正式、更加面向社区的 wiki”。
+这个新的 wiki 吸引了 [Martti Malmi](https://bitcointalk.org/index.php?topic=2321.msg30873#msg30873) 和 [Gavin Andresen](https://bitcointalk.org/index.php?topic=2321.msg31535#msg31535)，因此他们很快就考虑将其作为主要的 wiki。这里有一个于 5 月 21 日拍摄的[快照](https://web.archive.org/web/20110521044430/https://en.bitcoin.it/wiki/Main_Page)：
 ![2011年5月21日Bitcoin.it wiki的快照](assets/zh-Hans/065.webp)
 
-在启动几天后，Bitcoin.org首页上的“wiki”链接[指向](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872)了Bitcoin.it。内容逐渐从DokuWiki版本转移过来。1月31日，Martti在论坛上[表示](https://bitcointalk.org/index.php?topic=293.msg42789#msg42789)这是新的wiki。
+在启动几天后，Bitcoin.org 首页上的 “wiki” 链接被改为[指向](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872) Bitcoin.it。内容逐渐从 DokuWiki 版本转移过来。1 月 31 日，Martti 在论坛上[表示](https://bitcointalk.org/index.php?topic=293.msg42789#msg42789) Bitcoin.it 是新的wiki。
 
-第三个元素是比特币论坛。它由Martti管理，但他很快招募了版主。其中一位是Theymos（真名Michael Marquardt），他获得了额外的责任，特别是共同管理论坛。论坛运行在Simple Machines Forum引擎上，并且多年来外观没有变化。然而，其URL改变了两次。首先，在5月17日，论坛被[移动](https://bitcointalk.org/index.php?topic=8696.msg125963#msg125963)到forum.bitcoin.org。然后，在8月1日，它被[移动](https://bitcointalk.org/index.php?topic=33393.msg417531#msg417531)到一个新的顶级域名：bitcointalk.org。多年来，它将被命名为BitcoinTalk。
-随着2011年夏天价值的上升，Martti Malmi[出售](https://twitter.com/marttimalmi/status/1339908793736556544)了他相当一部分的比特币，以购买自己在赫尔辛基附近的舒适公寓。然后，他[离开](https://x.com/marttimalmi/status/1339908797968637952)了他的工作，去日本度过了几个月。他放弃了网站和论坛，[留下](https://bitcointalk.org/index.php?topic=5129680.msg50617107#msg50617107) [它们](https://bitcointalk.org/index.php?topic=1603627.msg16115993#msg16115993)由Theymos和某个Cøbra共同管理，Martti将Cøbra[描述](https://forum.bitcoin.com/ama-ask-me-anything/i-m-martti-malmi-early-bitcoin-developer-and-the-original-founder-of-the-bitcointalk-org-forums-ama-t2770.html#p8222)为“Satoshi信任的某人”。这两个人在接下来的几年里将共同管理这两个平台。
+第三个元素是比特币论坛。它由 Martti 管理，但他很快招募了版主。其中一位是 Theymos（真名 Michael Marquardt），他获得了额外的责任，特别是共同管理论坛。论坛运行在 Simple Machines Forum 引擎上，并且多年来外观没有变化。然而，其 URL 改变了两次。首先，在 5 月 17 日，论坛被[移动](https://bitcointalk.org/index.php?topic=8696.msg125963#msg125963)到forum.bitcoin.org。然后，在 8 月 1 日，它被[移动](https://bitcointalk.org/index.php?topic=33393.msg417531#msg417531)到一个新的顶级域名：bitcointalk.org。多年来，它将被命名为BitcoinTalk。
+随着 2011 年夏天价值的上升，Martti Malmi[出售](https://twitter.com/marttimalmi/status/1339908793736556544)了他的一部分比特币，以购买自己在赫尔辛基附近的舒适公寓。然后，他[离开](https://x.com/marttimalmi/status/1339908797968637952)了他的工作，去日本度过了几个月。他放弃了网站和论坛的维护，[留下](https://bitcointalk.org/index.php?topic=5129680.msg50617107#msg50617107) [它们](https://bitcointalk.org/index.php?topic=1603627.msg16115993#msg16115993)由 Theymos 和某个 Cøbra 共同管理，Martti 将 Cøbra [描述](https://forum.bitcoin.com/ama-ask-me-anything/i-m-martti-malmi-early-bitcoin-developer-and-the-original-founder-of-the-bitcointalk-org-forums-ama-t2770.html#p8222)为 “中本聪信任的某人”。这两个人在接下来的几年内将共同管理这两个平台。
 
-### 会议和聚会
+### 大会和会议
 
-不仅仅是技术方面受到创始人离开和合作需求的影响：社交方面也受到影响，它通过在成员之间建立联系来加强社区。这就是为什么会组织“现实生活中”的聚会和会议。这些活动还有一个优势，就是向可能对在线内容更抗拒的人介绍比特币。
-比特币首次用户聚会是由布鲁斯·瓦格纳（Bruce Wagner）发起的，他是纽约一位YouTube频道的主持人，该频道播放关于技术主题的电视辩论，他在2011年4月创建了一个名为*Bitcoin Show*的节目。第一次会议[发生在](https://bitcointalk.org/index.php?topic=1891.msg29174#msg29174)2010年12月11日（UTC）的纽约。随后，同类型的会议[在华盛顿特区举行](https://web.archive.org/web/20110413231434/http://bitcoin.meetup.com/)。2011年2月5日，迈克·赫恩（Mike Hearn）还在瑞士苏黎世[组织了](https://bitcointalk.org/index.php?topic=2716.msg36886#msg36886)一次聚会，克里斯蒂安·德克尔（Christian Decker）和斯特凡·托马斯（Stefan Thomas，即justmoon）加入了聚会。2月还标志着比特币的[首次录制演讲](https://www.youtube.com/watch?v=koIq58UoNfE)，由加文·安德森（Gavin Andresen）在2月8日他的家乡马萨诸塞州阿默斯特（Amherst）组织的活动中进行。演讲题为“制造金钱”，这位项目的新主要维护者的演讲包含了许多语言元素，这些元素在接下来的几年里将成为加密货币介绍的特点。
+创建者的离开以及合作的必要性，不仅影响了技术层面，也影响了社群层面；这种变化通过成员之间建立联系，进一步强化了整个社区。这就为何大会和会议要在“现实生活中”举行。这些活动还有一个优势，就是向可能对在线内容更抗拒的人介绍比特币。
+比特币首次用户聚会是由 Bruce Wagner 发起的，他是纽约一位 YouTube 频道的主持人，该频道播放关于技术主题的电视辩论，他在 2011 年 4 月创建了一个名为 *Bitcoin Show* 的节目。第一次会议于 2010 年 12 月 11 日（UTC）在纽约[举行](https://bitcointalk.org/index.php?topic=1891.msg29174#msg29174)。随后，同类型的聚会[在华盛顿特区举行](https://web.archive.org/web/20110413231434/http://bitcoin.meetup.com/)。2011 年 2 月 5 日，Mike Hearn 还在瑞士苏黎世[组织了](https://bitcointalk.org/index.php?topic=2716.msg36886#msg36886)一次聚会，Christian Decker 和 Stefan Thomas（即justmoon）加入了聚会。2 月还标志着比特币的[首次录制演讲](https://www.youtube.com/watch?v=koIq58UoNfE)，Gavin Andresen 于 2 月 8 日他的家乡马萨诸塞州阿默斯特（Amherst）组织的活动中进行。演讲题为 “Making Money”，这位项目的新主要维护者的演讲包含了许多语言元素，这些元素在接下来的几年里将成为加密货币介绍的特点。
 
 :::video id=92b9aa30-1479-4d4f-b57f-f07b660145f2:::
 
-尽管首批活动是在美国举行的，但法国社区并未落后。5月25日，为了纪念加文·安德森（Gavin Andresen）访问巴黎，一个午餐会在拉德芳斯区组织，出席的知名人士包括卢西恩·格隆丁（Lucien Grondin），大卫·弗朗索瓦（David François），和正在访问的乔恩·马托尼斯（Jon Matonis）。
+尽管首批活动是在美国举行的，但法国社区并未落后。5 月 25 日，为了纪念 Gavin Andresen 到巴黎的到来，一个午餐会在拉德芳斯区组织，出席的知名人士包括 Lucien Grondin、David François、和 Jon Matonis（当时也在访问巴黎）。
 
 ![与加文·安德森在巴黎拉德芳斯区的会面，他穿着粉红色衬衫](assets/zh-Hans/066.webp)
-与加文·安德森在巴黎拉德芳斯区的会面，他穿着粉红色衬衫（来源：[论坛存档](https://web.archive.org/web/20140715000000*/https://bitcointalk.org/index.php?topic=5587.40)）
+与 Gavin Andresen 在巴黎拉德芳斯区的会面，他穿着粉红色衬衫（来源：[论坛存档](https://web.archive.org/web/20140715000000*/https://bitcointalk.org/index.php?topic=5587.40)）
 
-一个月后，6月15日，法语的比特币首次公开演讲[在巴黎举行](https://bitcointalk.org/index.php?topic=11384.msg225831#msg225831)。这次演讲由雷诺·利夫希茨（Renaud Lifchitz，即nono2357），一位一年前发现比特币的年轻网络安全专家进行。[演讲内容](https://prezi.com/tikwkjt9ouey/bitcoin-une-monnaie-electronique-pour-tous/)质量非常高，观众反响如此之好以至于会场座无虚席。
+一个月后，6 月 15 日，法语的比特币首次公开演讲[在巴黎举行](https://bitcointalk.org/index.php?topic=11384.msg225831#msg225831)。这次演讲由 Renaud Lifchitz（即nono2357），一位一年前发现比特币的年轻网络安全专家进行。[演讲内容](https://prezi.com/tikwkjt9ouey/bitcoin-une-monnaie-electronique-pour-tous/)质量非常好，观众反响如此之好以至于会场座无虚席。
 
 ![2011年6月15日雷诺·利夫希茨的比特币演讲](assets/zh-Hans/067.webp)
-2011年6月15日雷诺·利夫希茨的比特币演讲（来源：[论坛存档](https://web.archive.org/web/20140406141205/https://bitcointalk.org/index.php?topic=11384.0)）
+2011 年 6 月 15 Renaud Lifchitz 的比特币演讲（来源：[论坛存档](https://web.archive.org/web/20140406141205/https://bitcointalk.org/index.php?topic=11384.0)）
 
-在这次经历之后，巴黎社区[组织了](https://bitcointalk.org/index.php?topic=21991.msg276443#msg276443)一个社交聚会，于7月11日举行。这次活动汇聚了像皮埃尔·诺伊扎特（Pierre Noizat）或埃米利安·杜唐（Émilien Dutang）这样的个人。
-在国际舞台上，第一次关于比特币的集体会议于8月19日至21日在纽约举行。这次会议由Bruce Wagner组织，汇集了如Roger Ver、Jesse Powell、Jed McCaleb、Mark Karpelès和Charlie Lee等人物。尽管Wagner承诺举办三天的活动，但只进行了四场演讲：他自己的演讲以及Gavin Andresen、Jeff Garzik和Stefan Thomas的演讲。
+此后，巴黎社区[组织了](https://bitcointalk.org/index.php?topic=21991.msg276443#msg276443)一个社交聚会，于 7 月 11 日举行。这次活动汇聚了像 Pierre Noizat 或 Émilien Dutang 这样的个人。
+在国际舞台上，第一次关于比特币的集体会议于 8 月 19 日至 21 日在纽约举行。这次会议由 Bruce Wagner 组织，汇集了如 Roger Ver、Jesse Powell、Jed McCaleb、Mark Karpelès 和 Charlie Lee 等人物。尽管 Wagner 承诺举办三天的活动，但只进行了四场演讲：他自己的演讲以及 Gavin Andresen、Jeff Garzik 和 Stefan Thomas 的演讲。
 :::video id=bca0217c-29ee-49b2-8d16-d9efe6f390da:::
 
-年底的11月，一场欧洲会议[将在布拉格举行](https://bitcointalk.org/index.php?topic=40272.msg490901#msg490901)。知名演讲者将包括开发者Amir Taaki、瑞典海盗党创始人Rick Falkvinge和主持人Max Keiser。次年，一个类似的活动将在[伦敦组织](https://blog.bitmex.com/london-2012-the-2nd-bitcoin-conference/)。
+年底的 11 月，一场欧洲大会[将在布拉格举行](https://bitcointalk.org/index.php?topic=40272.msg490901#msg490901)。知名演讲者将包括开发者 Amir Taaki、瑞典 Private Party 创始人 Rick Falkvinge 和主持人 Max Keiser。次年，一个类似的活动将在[伦敦举办](https://blog.bitmex.com/london-2012-the-2nd-bitcoin-conference/)。
 
 ### 媒体报道
 
-2011年也是媒体报道显著扩大的一年。维基解密案件和12月PC World发表的文章极大地吸引了人们对比特币的注意，以至于各种媒体都报道了这个话题。正如Gavin Andresen当时[所写](https://bitcointalk.org/index.php?topic=8940.msg129623#msg129623)，出现了一场“对\[比特币\]的媒体报道狂潮”。
+2011 年也是媒体报道显著扩大的一年。维基解密案件和 12 月 PC World 发表的文章极大地吸引了人们对比特币的注意，以至于各种媒体都报道了这个话题。正如 Gavin Andresen 当时[所写](https://bitcointalk.org/index.php?topic=8940.msg129623#msg129623)，出现了一场“对[比特币]的媒体报道狂潮”。
 
-首先，关于这个主题的视频在Youtube上开始大量增加。3月22日，第一个高质量的关于比特币的视频出现了。这个视频简单地命名为“What is Bitcoin?”，由Stefan Thomas（justmoon）感谢社区的[众筹](https://bitcointalk.org/index.php?topic=697.msg70001#msg70001)制作。它发布在致力于教育和普及加密货币的WeUseCoins门户网站上。其他独立制作的介绍视频随后出现，如[howtovanish的视频](https://www.youtube.com/watch?v=LSLByqTusaQ)在4月，[Reason的视频](https://www.youtube.com/watch?v=yYTqvYqXRbY)，或[Rocketboom的视频](https://www.youtube.com/watch?v=9LaSrxtWfgc)在6月。
+首先，关于这个主题的视频在 Youtube 上开始大量增加。3 月 22 日，第一个高质量关于比特币的视频出现了。这个视频简单地命名为 “What is Bitcoin?”，由 Stefan Thomas（justmoon）制作，得益于社区的[众筹](https://bitcointalk.org/index.php?topic=697.msg70001#msg70001)。它发布在致力于教育和普及加密货币的 WeUseCoins 门户网站上。其他独立制作的介绍视频随后出现，如于 4 月发布的 [howtovanish 视频](https://www.youtube.com/watch?v=LSLByqTusaQ)，还有 [Reason 的视频](https://www.youtube.com/watch?v=yYTqvYqXRbY)，或[Rocketboom的视频](https://www.youtube.com/watch?v=9LaSrxtWfgc)其于 6 月公布。
 
 :::video id=6147a351-da80-4331-9d79-d3156889ac62:::
-4月份，数字货币这一话题被主流媒体广泛报道，包括[The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/)、[时代杂志](https://techland.time.com/2011/04/16/online-cash-bitcoin-could-challenge-governments/)和[福布斯](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html)。到了5月，这一运动获得了更大的动力，比特币几乎无处不在，尤其是在[Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/bitcoin-p2p-currency)、[Slate](https://slate.com/business/2011/05/bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html)、[Gizmodo](https://gizmodo.com/what-is-bitcoin-5803124)和[TechCrunch](https://techcrunch.com/2011/05/20/bitcoin-ven-and-the-end-of-currency/)上的报道。
+4 月份，数字货币这一话题被主流媒体广泛报道，包括 [The Atlantic](https://www.theatlantic.com/business/archive/2011/04/how-to-start-your-own-private-currency/73327/)、[Time Magazine](https://techland.time.com/2011/04/16/online-cash-bitcoin-could-challenge-governments/) 和 [Forbes](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html)。到了 5 月，这一运动获得了更大的动力，比特币几乎无处不在，尤其是在 [Wired UK](https://web.archive.org/web/20110517122859/http://www.wired.co.uk/news/archive/2011-05/16/bitcoin-p2p-currency)、[Slate](https://slate.com/business/2011/05/bitcoin-why-the-new-electronic-currency-is-a-favorite-of-libertarian-hipsters-and-criminals.html)、[Gizmodo](https://gizmodo.com/what-is-bitcoin-5803124)和 [TechCrunch](https://techcrunch.com/2011/05/20/bitcoin-ven-and-the-end-of-currency/)上的报道。
 ![2011年4月Gavin Andresen在福布斯](assets/zh-Hans/068.webp)
-2011年4月Gavin Andresen在福布斯（来源：[福布斯档案](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html)）
+2011 年 4 月 Gavin Andresen 在 Forbes 上的照片（来源：[Forbes 档案](https://web.archive.org/web/20110502052302/https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html)）
 
-广播也被用来讨论加密货币。加拿大CBC Radio的一个节目在2月27日[专门讨论](https://web.archive.org/web/20110227214049/http://www.cbc.ca/spark/2011/02/spark-139-february-27-march-2-2011/)了货币和比特币的话题。比特币还在FreeTalkLive的几期节目中被提及，这是一个在美国的自由主义倾向的节目。特别是，在2011年3月16日，尤其是在讨论丝绸之路的崛起的背景下，这个话题被[更广泛地讨论](https://web.archive.org/web/20110318163416/http://www.freetalklive.com/content/podcast_2011_03_16)。最后，在5月24日，比特币成为美国国家公共广播电台一个[短片段](https://www.npr.org/2011/05/24/136620231/what-are-bitcoins)的主题。
-个人博客作者也对此感兴趣。瑞典海盗党创始人Rick Falkvinge就是这样的一个例子，他在五月份发表了关于中本聪创作的[几篇](https://falkvinge.net/2011/05/11/with-the-napster-of-banking-round-the-corner-bring-out-your-popcorn/) [文章](https://falkvinge.net/2011/05/19/the-information-policy-case-for-flat-tax-and-basic-income/)。他将比特币（以及类似的系统，如Ripple）描述为“银行业的Napster”。他的观点得到了许多人的共鸣，比如美国的互助主义者[Kevin Carson](https://c4ss.org/content/7149)和法国的自由主义博客作者[h16](https://h16free.com/2011/05/30/8585-revolution-numerique-aujourdhui-musique-et-cinema-et-demain)。29日，Rick Falkvinge[宣布](https://falkvinge.net/2011/05/29/why-im-putting-all-my-savings-into-bitcoin/)“将他所有的储蓄都投入到比特币中”！
+广播也被用来讨论加密货币。加拿大 CBC Radio 的一个节目于 2 月 27 日[专门讨论](https://web.archive.org/web/20110227214049/http://www.cbc.ca/spark/2011/02/spark-139-february-27-march-2-2011/)了货币和比特币的话题。比特币还在 FreeTalkLive 的几期节目中被提及，这是一个在美国的自由主义倾向的节目。在 2011 年 3 月 16 日，尤其是在讨论丝绸之路的崛起的背景下，这个话题被[更广泛地讨论](https://web.archive.org/web/20110318163416/http://www.freetalklive.com/content/podcast_2011_03_16)。最后，在 5 月 24 日，比特币成为美国国家公共广播电台一个[短片段](https://www.npr.org/2011/05/24/136620231/what-are-bitcoins)的主题。
+个人博客作者也对此感兴趣。瑞典海盗党创始人 Rick Falkvinge 就是这样的一个例子，他在五月份发表了关于中本聪创作的[几篇](https://falkvinge.net/2011/05/11/with-the-napster-of-banking-round-the-corner-bring-out-your-popcorn/) [文章](https://falkvinge.net/2011/05/19/the-information-policy-case-for-flat-tax-and-basic-income/)。他将比特币（以及类似的系统，如Ripple）描述为“银行业的 Napster”。他的观点得到了许多人的共鸣，比如美国的互助主义者 [Kevin Carson](https://c4ss.org/content/7149) 和法国的自由主义博客作者 [h16](https://h16free.com/2011/05/30/8585-revolution-numerique-aujourdhui-musique-et-cinema-et-demain)。29日，Rick Falkvinge [宣布](https://falkvinge.net/2011/05/29/why-im-putting-all-my-savings-into-bitcoin/)“将他所有的储蓄都投入到比特币中”！
 
 ### 第一次泡沫
 
-比特币的普及意味着其价格显著上涨。虽然在2010年12月曾跌至20美分，但在2011年2月9日达到了与美元的等值。那时，Hal Finney[表示](https://bitcointalk.org/index.php?topic=2734.msg37307#msg37307)社区成员“真的很幸运，能在可能是爆炸性新现象的开始阶段”。他有很好的直觉，因为接下来发生的事情是闪电般的快速。
+比特币的普及意味着其价格显著上涨。虽然在 2010 年 12 月曾跌至 20 美分，但在 2011 年 2 月 9 日达到了与美元的等值。那时，Hal Finney [表示](https://bitcointalk.org/index.php?topic=2734.msg37307#msg37307)社区成员 “能参与到一个可能会爆发式成长的新现象的开端，真是太幸运了”。他有很好的直觉，因为接下来发生的事情是非常迅速。
 
 ![jimbobway在论坛上发布的与美元等值那天的照片](assets/zh-Hans/069.webp)
-jimbobway在论坛上发布的与美元等值那天的照片（来源：[Bitcointalk](https://bitcointalk.org/index.php?topic=2734.msg37144#msg37144)）
+jimbobway 在论坛上发布的比特币与美元等值那天的照片（来源：[Bitcointalk](https://bitcointalk.org/index.php?topic=2734.msg37144#msg37144)）
 
-事实上，春季的媒体狂热逐渐造成了一个前所未有的投机现象。价格在几个月内围绕1美元徘徊后开始上涨，并在四月底达到3美元。五月份时，价格达到8美元。最终，在6月8日，比特币价格在Mt. Gox上达到了32美元的历史高点！这一增长相当于6个月内增长了160倍。
+事实上，春季的媒体狂热逐渐造成了一个前所未有的投机现象。价格在几个月内围绕 1 美元徘徊后开始上涨，并在四月底达到 3 美元。五月份时，价格达到 8 美元。最终，在 6 月 8 日，比特币价格在 Mt. Gox 上达到了 32 美元的历史高点！这一增长相当于 6 个月内增长了 160 倍。
 
 ![2011年1月1日至6月30日BTC的平均价格](assets/zh-Hans/070.webp)
-2011年1月1日至6月30日BTC的平均价格（来源：[Bitbo.io](https://calendar.bitbo.io/price/)）
+2011 年 1 月 1 日至 6 月 30 日的比特币平均价格（来源：[Bitbo.io](https://calendar.bitbo.io/price/)）
 
-自然地，这种投机运动让人想起了金融泡沫，即金融产品相对于其基本价值的高估。就像比特币这样的货币，它关于短暂热情导致价格急剧上升，随后由于新参与者缺乏信念而导致的急剧下跌。这就是价格演变在5月27日路透社专栏作家的一篇文章中被[描述](https://web.archive.org/web/20110530074512/http://blogs.reuters.com/columns/2011/05/27/virtual-bitcoins-are-appealing-but-probably-doomed/)为“泡沫”的方式，这是比特币的第一个“讣告”之一。
-然而，这种投机性动作促使主流媒体报道了这一话题，而这种报道并不总是公正的。因此，[纽约时报](https://www.nytimes.com/2011/05/30/business/economy/30views.html)、[经济学人](https://www.economist.com/babbage/2011/06/13/bits-and-bob)、英国报纸[卫报](https://www.theguardian.com/technology/2011/jun/12/bitcoin-online-currency-us-government)、德国新闻网站[明镜在线](https://www.spiegel.de/netzwelt/netzpolitik/hacker-waehrung-bitcoin-geld-aus-der-steckdose-a-765382.html)、意大利报纸[共和国报](https://www.repubblica.it/tecnologia/2011/05/31/news/bitcoin_moneta_elettronica_hacker_cia-17030027/)或法国日报[世界报](https://www.lemonde.fr/technologies/article/2011/06/17/bitcoin-les-deux-faces-de-la-monnaie-virtuelle_1537285_651865.html)等媒体发表了文章。这巩固了比特币的媒体报道。它现在成为了焦点，任何哪怕是稍微好奇的人都已经听说过它。以中本聪的存在和项目的低调为特征的比特币的第一个时代现已结束。
-### 关于比特币创造的总结
+自然而然，这种投机运动让人想起了金融泡沫，即金融产品相对于其基本价值的高估。就像比特币这样的货币，它关于短暂热情导致价格急剧上升，随后由于新参与者缺乏信念而导致的急剧下跌。这就是价格演变在 5 月 27 日路透社专栏作家的一篇文章中被[描述](https://web.archive.org/web/20110530074512/http://blogs.reuters.com/columns/2011/05/27/virtual-bitcoins-are-appealing-but-probably-doomed/)为“泡沫”的方式，这是比特币的第一个“讣告”之一。
+然而，这种投机性动作促使主流媒体报道了这一话题，而这种报道并不总是公正的。因此，[New York Times](https://www.nytimes.com/2011/05/30/business/economy/30views.html)、[The Economist](https://www.economist.com/babbage/2011/06/13/bits-and-bob)、英国报纸 [The Guardian](https://www.theguardian.com/technology/2011/jun/12/bitcoin-online-currency-us-government)、德国新闻网站 [Der Spiegel Online](https://www.spiegel.de/netzwelt/netzpolitik/hacker-waehrung-bitcoin-geld-aus-der-steckdose-a-765382.html)、意大利报纸[La Repubblica](https://www.repubblica.it/tecnologia/2011/05/31/news/bitcoin_moneta_elettronica_hacker_cia-17030027/) 或法国日报[Le Monde](https://www.lemonde.fr/technologies/article/2011/06/17/bitcoin-les-deux-faces-de-la-monnaie-virtuelle_1537285_651865.html)等媒体发表了相关文章。这巩固了比特币的媒体报道。它现在成为了焦点，任何哪怕是稍微好奇的人都已经听说过它。以中本聪的存在和项目的低调为特征的比特币的第一个时代现已结束。
+### 关于比特币创建的总结
 
-因此，在2011年上半年，该项目能够在其创始人中本聪缺席的情况下成长。这一时刻标志着比特币作为一个纯粹由社区驱动的项目的开始，并结束了比特币创造期，该期从2007年持续到2011年。从这一事件中，我们可以得出一些结论。
+因此，在 2011 年上半年，该项目能够在其创建者中本聪不在的情况下继续成长。这一时刻标志着比特币作为一个纯粹由社区驱动的项目的开始，并意味着比特币创建时期的结束，该期从 2007 年持续到 2011 年。从这一事件中，我们可以得出一些结论。
 
-首先，比特币并非凭空出现。作为在网络空间中运作的数字现金，它是数十年研究和实验的结果。它的前身特别包括David Chaum的eCash模型、像e-gold这样的私人数字货币，以及密码朋克的概念。Hal Finney在比特币出现期间的存在以及中本聪的消失因此非常具有象征意义：作为一个见证了90年代早期电子货币实验并在2004年试图用RPOW创建自己模型的个体，他代表了正是导致比特币诞生的探索的连续性。
+首先，比特币并非凭空出现。作为在网络空间中运作的数字现金，它是数十年研究和实验的结果。它的前身特别包括 David Chaum 的 eCash 模型、像 e-gold 这样的私人数字货币，以及密码朋克的概念。Hal Finney 在比特币出现期间的存在以及中本聪的消失非常具有象征意义：作为一个见证了 90 年代早期电子货币实验并在 2004 年试图用 RPOW 创建自己模型的个人，他代表了正是导致比特币诞生的探索的连续性。
 
-其次，比特币的建立不是一蹴而就的。即使在2009年1月发布软件的0.1版本之后，该项目还远未准备好。必须纠正许多漏洞。其中一个漏洞在2010年8月导致了一个重大事件，当时网络瘫痪了大约十五个小时，但最糟糕的情况被避免了。即使在中本聪离开后，软件还必须继续由社区改进。
+其次，比特币的建立不是一蹴而就的。即使在 2009 年 1 月发布软件的 0.1 版本之后，该项目还远未准备好。必须纠正许多漏洞。其中一个漏洞在 2010 年 8 月导致了一个重大事件，当时网络中断了大约十五个小时，但最终，比特币可以避免面临最糟糕的情况。即使在中本聪离开后，软件还必须继续由社区改进。
 
-第三，比特币是有机增长的。它能够悄然发展，逐渐吸引人们。在将近一年半的时间里，它是一个非常机密的项目，只为爱好者和好奇者所知。直到2010年7月的slashdot事件之后，它才开始爆炸性增长。直到2011年，当价格指数级增长到32美元时，围绕它的投机狂热才真正开始。
-第四，比特币是一种利他主义的创造。中本聪向世界提供了比特币。他以免费许可证发布了这个程序。他既不寻求名声、利润，也不寻求权力。他确保了网络的挖矿安全超过一年，而没有要求任何补偿。尽管他积累了超过一百万比特币，但他从未花费过它们。最终，主要由于担心与维基解密案件相关的注意力，他消失了，让这个项目依靠一个社区继续发展，而没有一个单一的主导人物。
-2011年，中本聪消失了，但比特币存活了下来。这种加密货币甚至从媒体和经济的角度 definitively 起飞了。这台机器启动了，没有人能停止它。
+接着，比特币是自然增长的。它能够悄然发展，逐渐吸引人们。在将近一年半的时间里，它是一个非常机密的项目，只为爱好者和好奇者所知。直到 2010 年 7 月的 Slashdot 事件之后，它才开始爆炸性地增长。直到 2011 年，当价格指数级增长到 32 美元时，围绕它的投机狂热才真正开始。
+然后，比特币是一种利他主义的创造。中本聪向世界提供了比特币。他以免费许可证发布了这个程序。他既不寻求名声、利润，也不寻求权力。他在超过一年的时间内确保了网络的挖矿安全，而没有要求任何补偿。尽管他积累了超过一百万的比特币，但他从未花费过。最终，主要由于担心与维基解密案件相关的注意力，他消失了，让这个项目依靠一个社区继续发展，而没有一个单一的主导人物。
+2011 年，中本聪消失了，但比特币仍然存续下来。这种加密货币甚至在媒体和经济层面上都真正起飞了。机器已经启动，没有人能够再将它停下。
 # 总结
 <partId>89532d9b-af1f-49f3-b87a-b11987e303d5</partId>
-## 评价 & 评分
+## 评价与评分
 <chapterId>8f27cc89-8759-4a4f-aff2-c1d3d9ecf14e</chapterId>
 <isCourseReview>true</isCourseReview>
-## 期末考试
+## 最终考试
 <chapterId>d61dbdf3-b482-412b-b725-0a19006603b7</chapterId>
 <isCourseExam>true</isCourseExam>
 ## 总结

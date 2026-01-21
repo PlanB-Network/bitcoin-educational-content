@@ -28,9 +28,9 @@ Bitchat consente la messaggistica offline attraverso queste [funzioni](https://g
 - **Chat basate su canali**: messaggistica di gruppo basata su argomenti con protezione opzionale tramite password
 - **Store & Forward**: messaggi memorizzati nella cache per i peer (utenti) offline e consegnati quando si riconnettono
 - **La privacy prima di tutto**: nessun account, nessun numero di telefono, nessun identificatore persistente
-- **Comandi in stile IRC**: interfaccia familiare in stile `/join, /msg, /who`
+- **Comandi in stile IRC**: interfaccia familiare in stile `/join`, `/msg`, `/who`
 - **Conservazione dei messaggi**: salvataggio opzionale dei messaggi a livello di canale, controllato dai proprietari del canale
-- **Cancellazione di emergenza**: toccare tre volte il logo per cancellare istantaneamente tutti i dati
+- **Cancellazione di emergenza**: tocca tre volte il logo per cancellare istantaneamente tutti i dati
 - **Moderna interfaccia utente Android**: Jetpack Compose con Material Design 3
 - **Temi scuro/luminoso**: estetica ispirata ai terminali, in linea con la versione iOS
 - **Ottimizzazione della batteria**: scansione e gestione energetica adattive.
@@ -54,8 +54,8 @@ Per dettagli tecnici più precisi, consultare il [Whitepaper ufficiale](https://
 - [Google Play Store](https://play.google.com/store/apps/details?id=com.bitchat.droid) (per dispositivi Android)
 
 Anche gli utenti Android hanno a disposizione opzioni alternative:
-- Scaricare l'APK direttamente dalla pagina [GitHub Releases](https://github.com/permissionlesstech/bitchat-android/releases) oppure
-- Installare tramite [Zapstore](https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq7xwd748yfjrsu5yuerm56fcn9tntmyv04w95etn0e23xrczvvraqqgkxmmd9e3xjarrdpshgtnywfhkjeqxtfkcr) compatibile con Nostr.
+- Scarica l'APK direttamente dalla pagina [GitHub Releases](https://github.com/permissionlesstech/bitchat-android/releases) oppure
+- Installala tramite [Zapstore](https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq7xwd748yfjrsu5yuerm56fcn9tntmyv04w95etn0e23xrczvvraqqgkxmmd9e3xjarrdpshgtnywfhkjeqxtfkcr) compatibile con Nostr.
 
 ![image](assets/en/01.webp)
 
@@ -63,7 +63,7 @@ Anche gli utenti Android hanno a disposizione opzioni alternative:
 
 ### Processo di impostazione
 
-Dopo l'installazione, apri Bitchat per visualizzare la schermata iniziale dei permessi. Ecco cosa dovete fare:
+Dopo l'installazione, apri Bitchat per visualizzare la schermata iniziale dei permessi. Ecco cosa devi fare:
 
 1. **Concedi i permessi richiesti**:
    - **Accesso Bluetooth** (per scoprire gli utenti Bitchat nelle vicinanze)
@@ -83,7 +83,7 @@ Benvenuto nella schermata principale del Bitchat. Orientiamoci:
 ### Impostazioni
 
 Prima di tutto. Il menu delle impostazioni si apre toccando il "logo Bitchat".  Sono disponibili le seguenti opzioni:
-- Imposta l'aspetto (sistema/luce/scuro).
+- Imposta l'aspetto (sistema/chiaro/scuro).
 - abilita la `prova di lavoro` a geohash per scoraggiare lo spam (opzionale)
 - Attiva `Tor` per migliorare la privacy.
 
@@ -91,7 +91,7 @@ Prima di tutto. Il menu delle impostazioni si apre toccando il "logo Bitchat".  
 
 ### Impostare la propria identità
 
-Toccare il campo `bitchat/anonXXXX` in alto per scegliere il proprio nome utente. Questo è il modo in cui gli altri ti vedranno sia in modalità Bluetooth che in modalità Internet. Ad esempio, si può cambiare "anon2022" con un nome utente di propria scelta.
+Tocca il campo `bitchat/anonXXXX` in alto per scegliere il proprio nome utente. Questo è il modo in cui gli altri ti vedranno sia in modalità Bluetooth che in modalità Internet. Ad esempio, si può cambiare "anon2022" con un nome utente di propria scelta.
 
 ![image](assets/en/03.webp)
 
@@ -143,7 +143,7 @@ Bitchat avvia automaticamente il suo "handshake di sicurezza" quando si avvia un
 
 ## 4️⃣ Caratteristiche aggiuntive
 
-È possibile accedere immediatamente al pannello delle azioni digitando `/` in un punto qualsiasi del Bitchat. Questo rivela un menu di comandi per azioni rapide.
+È possibile accedere immediatamente al pannello delle azioni digitando `/` in un punto qualsiasi in Bitchat. Questo rivela un menu di comandi per azioni rapide.
 - **Gestire le connessioni**: `blocca gli utenti` o `sblocca i peer`
 - **Controlli dei canali**: `mostra canali` o `unisci/crea canale`
 - **Interazioni sociali**: `abbraccia calorosamente` o `schiaffeggia con la trota` 🎣
@@ -190,7 +190,7 @@ I canali Geohash consentono conversazioni mirate basate sulla `posizione geograf
 
 ### Come funziona `#geohash`
 
-Il sistema divide il mondo in quadrati di griglia utilizzando il [Geohash system](https://en.wikipedia.org/wiki/Geohash), dove ogni carattere dell'hash rappresenta una maggiore precisione:
+Il sistema divide il mondo in una griglia a quadri utilizzando il [Geohash system](https://en.wikipedia.org/wiki/Geohash), dove ogni carattere dell'hash rappresenta una maggiore precisione:
 - **Livello 4** (ad esempio, `u33d`): copre circa 25 km × 25 km - ideale per discussioni a livello cittadino
 - **Livello 6** (ad esempio, `u33d8z`): copre circa 1,2 km × 1,2 km - precisione del quartiere
 - **Livello 8** (ad esempio, `u33d8z1k`): copre circa 150 m × 150 m - precisione del segmento stradale.

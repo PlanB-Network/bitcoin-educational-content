@@ -1,9 +1,9 @@
 question: Apa yang ditunjukkan oleh ketiadaan frasa mnemonik dalam sebuah dompet?
-answer: Ini menunjukankan bahwa dompet tersebut tidak aman untuk penyimpanan Bitcoin jangka panjang.
+answer: Dompet tersebut tidak aman untuk penyimpanan jangka panjang
 wrong_answers:
-  - Ini menunjukan bahwa dompet tersebut sepenuhnya aman dan tidak memerlukan cadangan apapun.
-  - Ini menunjukan bahwa dompet tersebut dapat menyimpan banyak obligasi yang berbeda.
-  - Ini berarti bahwa dompet tersebut secara otomatis dicadangkan oleh perangkat Anda.
+  - Dompet tersebut aman untuk penyimpanan jangka panjang
+  - Dompet tersebut tidak aman untuk penyimpanan jangka pendek
+  - Dompet tersebut tidak aman untuk pengeluaran
 explanation: |
   Ketiadaan daftar 12 atau 24 kata, yaitu frasa mnemonik, dalam sebuah dompet harus membuat Anda sadar bahwa
   dompet tersebut tidak aman karena tidak mengikuti prosedur cadangan standar.

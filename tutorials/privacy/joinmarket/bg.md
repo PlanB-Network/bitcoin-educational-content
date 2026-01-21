@@ -1,7 +1,7 @@
 ---
 name: JoinMarket
 
-description: Ръководство и урок за това как да използвате JoinMarket, за да направите CoinJoin в Bitcoin чрез команден ред
+description: Ръководство за това как да използвате JoinMarket, за да направите CoinJoin в Bitcoin чрез команден ред
 ---
 
 ![cover](assets/cover.webp)

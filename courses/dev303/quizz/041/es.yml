@@ -5,4 +5,4 @@ wrong_answers:
   - Por asignación de pila, por asignación de montón o por almacenamiento estático
   - Por acceso compartido, por acceso exclusivo o por acceso concurrente
 explanation: |
-  Los cierres en Rust capturan variables de entorno exactamente de tres maneras: por referencia inmutable (cuando sólo necesitan leer), por referencia mutable (cuando necesitan modificar), o tomando propiedad (cuando necesitan mover el valor, a menudo por seguridad de hilos). El compilador elige automáticamente el método más restrictivo que satisfaga las necesidades del cierre, siguiendo el principio del menor privilegio.
+  Los cierres en Rust capturan variables de entorno exactamente de tres maneras: por referencia inmutable (cuando solo necesitan leer), por referencia mutable (cuando necesitan modificar), o tomando propiedad (cuando necesitan mover el valor, a menudo por seguridad de hilos). El compilador elige automáticamente el método más restrictivo que satisfaga las necesidades del cierre, siguiendo el principio del menor privilegio.

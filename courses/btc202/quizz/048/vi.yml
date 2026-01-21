@@ -1,5 +1,5 @@
 question: Lệnh nào sẽ lấy IP cục bộ Address của Umbrel nếu truy cập qua umbrel.local không thành công?
-answer: tên máy chủ -I
+answer: hostname -I
 wrong_answers:
   - ifconfig -usb
   - umbrel-ip --show

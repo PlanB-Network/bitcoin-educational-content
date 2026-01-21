@@ -1,0 +1,9 @@
+question: Les frais d’une transaction Bitcoin sont-ils un output ?
+answer: Non
+wrong_answers:
+  - Oui
+  - Oui, mais seulement pour les transactions SegWit
+  - Non, mais c'était le cas avant 2012
+explanation: |
+  Les frais sont la différence entre le total des inputs et le total des outputs, pas un output dédié. C'est le cas depuis toujours.
+reviewed: false

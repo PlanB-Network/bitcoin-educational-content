@@ -1,9 +1,9 @@
 question: Berapa ukuran blockchain Bitcoin?
-answer: Sekitar 500GB
+answer: Sekitar 660GB
 wrong_answers:
-  - Sekitar 100GB
+  - Sekitar 110GB
   - Sekitar 1TB
   - Sekitar 2TB
-explanation: >-
-  Ukuran blockchain Bitcoin adalah sekitar 500GB.
-reviewed: false
+explanation: |
+  Ukuran blockchain Bitcoin adalah sekitar 660GB pada tahun 2025.
+reviewed: true

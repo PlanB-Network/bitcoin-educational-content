@@ -1,11 +1,11 @@
-question: Was sind virgin bitcoins?
+question: Was sind jungfräuliche Bitcoins?
 answer: Frisch geschürfte Bitcoins, die noch nie ausgegeben wurden und keine Historie aufweisen.
 wrong_answers:
   - Bitcoins, die in illegalen Aktivitäten verwendet wurden.
   - Bitcoins, die verloren gegangen oder vergessen wurden.
   - Bitcoins, die lange Zeit in einer Wallet gespeichert wurden.
 explanation: |
-  Virgin bitcoins sind frisch geschürfte Bitcoins, die noch
+  Jungfräuliche Bitcoins sind frisch geschürfte Bitcoins, die noch
   nie ausgegeben wurden und keine Historie aufweisen. Diese
   Bitcoins werden oft als wertvoller betrachtet, da sie nie
   verunreinigt wurden, was eine gewisse Garantie gegen

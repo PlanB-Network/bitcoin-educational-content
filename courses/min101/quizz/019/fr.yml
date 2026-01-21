@@ -1,0 +1,9 @@
+question: Qui a inventé Hashcash ?
+answer: Adam Back
+wrong_answers:
+  - Nick Szabo
+  - Hal Finney
+  - David Chaum
+explanation: |
+  Hashcash a été inventé par Adam Back. C'est le premier mécanisme de preuve de travail.
+reviewed: false

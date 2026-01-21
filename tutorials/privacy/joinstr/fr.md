@@ -19,19 +19,19 @@ Joinstr est un outil open source qui révolutionne l'approche des CoinJoins en t
 
 **Mécanisme SIGHASH_ALL|ANYONECANPAY** : Joinstr exploite ce flag de signature Bitcoin permettant à chaque participant de signer uniquement son entrée tout en validant toutes les sorties. Chaque utilisateur génère sa PSBT localement, la signe, puis la diffuse via Nostr. Vos bitcoins restent sous votre contrôle exclusif jusqu'à la signature finale.
 
-**Philosophie** : Joinstr s'inscrit dans l'éthique cypherpunk de Bitcoin, visant trois objectifs : **résistance à la censure** (aucune autorité ne peut arrêter le service), **non-custodialité totale** (vous conservez vos clés privées), et **égalité de traitement** (aucune UTXO ne peut être discriminée).
+**Philosophie** : Joinstr s'inscrit dans l'éthique cypherpunk de Bitcoin, visant trois objectifs : **résistance à la censure** (aucune autorité ne peut arrêter le service), **non-custodialité totale** (vous conservez vos clés privées), et **égalité de traitement** (aucun UTXO ne peut être discriminée).
 
 ### Fonctionnalités principales
 
 **Pools flexibles** : Contrairement aux dénominations fixes, tout utilisateur peut créer un pool avec le montant exact souhaité et le nombre de participants cible, optimisant l'utilisation des UTXO sans fractionnement artificiel.
 
-**Frais transparents** : Aucun frais de coordination. Seuls les frais de transaction Bitcoin sont répartis équitablement entre participants (quelques milliers de satoshis par personne).
+**Frais transparents** : Aucun frais de coordination. Seuls les frais de transaction Bitcoin sont répartis équitablement entre les participants (quelques milliers de satoshis par personne).
 
-**Éphémérité** : Aucune donnée utilisateur conservée. Les informations transitent via des messages Nostr éphémères chiffrés, immédiatement oubliés après la transaction.
+**Éphémérité** : Aucune donnée utilisateur n'est conservée. Les informations transitent via des messages Nostr éphémères chiffrés, immédiatement oubliés après la transaction.
 
 ### Plateformes disponibles
 
-Ce tutoriel se concentre sur **l'application Android**, seule solution actuellement stable et recommandée. Un plugin Electrum existe mais rencontre des problèmes de compatibilité le rendant instable. Une interface web est en développement.
+Ce tutoriel se concentre sur **l'application Android**, seule solution actuellement stable et recommandée. Un plugin Electrum existe, mais rencontre des problèmes de compatibilité le rendant instable. Une interface web est en développement.
 
 ## Configuration Bitcoin Core
 

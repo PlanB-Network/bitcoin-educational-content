@@ -1,9 +1,9 @@
 question: Ni nde ariko arabungabunga umugambi wa Bitcoin Knots?
-answer: Luka Dashjr
+answer: Luke Dashjr
 wrong_answers:
-  - Gavini Andresen
+  - Gavin Andresen
   - Wladimir J. Van Der Laan
-  - Piteri Wuille
+  - Pieter Wuille
 explanation: |
   Bitcoin Knots itunganywa na Luke Dashjr kandi ikora nk'umukiriya wa mbere w'iyindi nzira ya Bitcoin core.
 reviewed: true

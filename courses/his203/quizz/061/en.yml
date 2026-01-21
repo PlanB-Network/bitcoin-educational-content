@@ -5,5 +5,6 @@ wrong_answers:
   - Bitcoinica
   - Bitoption.org
 explanation: |
- This was the platform managed by Mircea Popescu and launched a few months earlier. Erik Voorhees issued 100 million shares (with the stock symbol S.DICE) and sold 10 to raise 34,500 bitcoins, or around $372,000.
-reviewed: false
+ MPEx was the platform managed by Mircea Popescu and launched a few months earlier. Erik Voorhees issued 100 million shares (with the stock symbol S.DICE) and 
+ sold 10 to raise 34,500 bitcoins, or around $372,000.
+reviewed: true

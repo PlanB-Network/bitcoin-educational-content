@@ -328,7 +328,7 @@ En Miner trenger en Bitcoin-node for å samhandle med nettverket.
 
 
 
-Rollen til Miner skilles også noen ganger fra rollen til hakkeren. En hakker er en maskin som har som oppgave å Hash malblokker levert av en pool-server, på jakt etter hasher som tilfredsstiller vanskelighetsmålet som er definert for aksjer, og ikke Bitcoin. Resten av Mining-prosessen, som inkluderer faktisk blokkkonstruksjon, transaksjonsvalg eller Proof-of-Work-søk i henhold til Bitcoins egen vanskelighetsgrad, samt distribusjon, utføres direkte av poolene.
+Rollen til Miner skilles også noen ganger fra rollen til grind. En grind er en maskin som har som oppgave å Hash malblokker levert av en pool-server, på jakt etter hasher som tilfredsstiller vanskelighetsmålet som er definert for aksjer, og ikke Bitcoin. Resten av Mining-prosessen, som inkluderer faktisk blokkkonstruksjon, transaksjonsvalg eller Proof-of-Work-søk i henhold til Bitcoins egen vanskelighetsgrad, samt distribusjon, utføres direkte av poolene.
 
 
 

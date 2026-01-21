@@ -1,0 +1,9 @@
+question: Tous les combien de blocs la cible de difficulté est-elle ajustée ?
+answer: 2016 blocs
+wrong_answers:
+  - 2000 blocs
+  - 2100 blocs
+  - 4096 blocs
+explanation: |
+  L’ajustement se fait toutes les 2016 blocs, soit environ deux semaines à 10 minutes par bloc.
+reviewed: false

@@ -5,5 +5,6 @@ wrong_answers:
   - The contact established by In-Q-Tel, the CIA's investment fund
   - The spectacular rise in the price of BTC from $0.20 to $32 in just a few months
 explanation: |
- Satoshi commented negatively on this publication on the Bitcoin forum, fearing that it would attract the attention of state authorities. The Silk Road marketplace was launched in January 2011, contact between In-Q-Tel and Gavin Andresen took place in April, and the price hike peaked at $32 in June.
-reviewed: false
+ Satoshi commented negatively on this publication on the Bitcoin forum, fearing that it would attract the attention of state authorities. The Silk Road marketplace 
+ was launched in January 2011, contact between In-Q-Tel and Gavin Andresen took place in April, and the price hike peaked at $32 in June.
+reviewed: true

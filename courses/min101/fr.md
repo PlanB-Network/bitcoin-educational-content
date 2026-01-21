@@ -73,19 +73,19 @@ Dans Bitcoin, quand vous faites un paiement, vous créez une transaction. Cette 
 
 ![Image](assets/fr/050.webp)
 
-Un bloc, c’est donc simplement un ensemble de transactions regroupées. Quand un bloc est prêt, il ne suffit pas de le publier et de dire "voilà, il est valide". Il faut prouver au réseau que ce bloc mérite d’être ajouté au cahier commun. C’est là qu’intervient le minage.
+Un bloc, c’est donc simplement un ensemble de transactions regroupées. Quand un bloc est prêt, il ne suffit pas de le publier. Il faut prouver au réseau que ce bloc mérite d’être ajouté au cahier commun. C’est là qu’intervient le minage.
 
-Le minage, c’est le travail qui consiste à valider un bloc en dépensant de l’énergie. Des acteurs appelés mineurs utilisent des machines spécialisées. Ces machines consomment de l’électricité pour effectuer un très grand nombre d'essais, en boucle, jusqu’à trouver une preuve que le réseau accepte. Quand un mineur trouve cette preuve, son bloc est considéré comme valide.
+Le minage, c’est le travail qui consiste à valider un bloc en dépensant de l’énergie. Des acteurs appelés mineurs utilisent des ordinateurs spécialisées. Ces machines consomment de l’électricité pour effectuer un très grand nombre d'essais, en boucle, jusqu’à trouver une preuve que le réseau accepte. Quand un mineur trouve cette preuve, son bloc est considéré comme valide.
 
-Une fois le bloc validé, il est diffusé au réseau. Les autres nœuds vérifient rapidement qu’il respecte bien les règles, puis ils l’ajoutent à la suite des blocs précédents. C’est pour cela qu’on parle de “chaîne de blocs” : chaque nouveau bloc vient se placer après les autres, dans un ordre commun, et la blockchain grandit petit à petit.
+Une fois le bloc validé, il est diffusé au réseau. Les autres nœuds vérifient rapidement qu’il respecte bien les règles, puis ils l’ajoutent à la suite des blocs précédents. C’est pour cela qu’on parle de "blockchain" : chaque nouveau bloc vient se placer après les autres, dans un ordre séquentiel, et cette chaine grandit petit à petit.
 
 ![Image](assets/fr/051.webp)
 
-Il est important d’avoir une image simple en tête : Bitcoin avance par étapes. D’abord, des transactions sont créées. Ensuite, elles sont regroupées dans un bloc. Ensuite, un mineur valide ce bloc en dépensant de l’électricité. Enfin, ce bloc est ajouté à la blockchain, et les transactions qu’il contient deviennent confirmées.
+Pour résumer, on a donc d’abord des transactions qui sont créées. Ensuite, elles sont regroupées dans un bloc. Ensuite, un mineur valide ce bloc en dépensant de l’électricité. Enfin, ce bloc est ajouté à la blockchain, et les transactions qu’il contient deviennent confirmées.
 
 Si des mineurs consomment de l’électricité, ce n’est pas par bénévolat. Ils le font parce qu’il y a une récompense. Quand un mineur valide un bloc, il reçoit deux types de revenus. D’un côté, il reçoit des bitcoins nouvellement créés. De l’autre, il récupère les frais payés par les utilisateurs dans les transactions incluses dans le bloc. Autrement dit, le mineur est rémunéré à la fois par une création monétaire programmée, et par un marché de frais.
 
-À ce stade, vous avez volontairement une vision très simple. Elle n’explique pas encore comment le bloc est construit en détail, ni comment fonctionne exactement la preuve que les mineurs cherchent, ni comment Bitcoin garde un rythme régulier, ni comment la récompense est calculée précisément, ni comment elle est encaissée dans le bloc. C’est normal, c'est tout ce que nous allons voir dans la suite de ce cours !
+À ce stade, vous avez volontairement une vision très simple du minage. Elle n’explique pas encore comment le bloc est construit en détail, ni comment fonctionne exactement la preuve que les mineurs cherchent, ni comment Bitcoin garde un rythme régulier, ni comment la récompense est calculée précisément, ni comment elle est encaissée. C’est normal, c'est tout ce que nous allons voir dans la suite de ce cours MIN 101 !
 
 L’objectif de ce chapitre était simplement de vous donner une structure mentale claire : transactions → blocs → minage → blockchain → récompense. Gardez cette chaîne d’idées en tête. Dans la suite du cours, chaque chapitre viendra ajouter une couche de précision technique sur l’un de ces éléments, jusqu’à ce que vous compreniez non seulement ce qui se passe, mais aussi comment et pourquoi cela fonctionne de manière fiable, à grande échelle, sans chef, et sans besoin confiance.
 

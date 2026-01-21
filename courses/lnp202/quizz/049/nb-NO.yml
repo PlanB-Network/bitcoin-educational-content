@@ -1,0 +1,9 @@
+question: Hvilke av disse plattformene lar deg kjøpe innkommende likviditet?
+answer: Magma
+wrong_answers:
+  - Bitcoin Kjerne
+  - 1ML
+  - Boltz
+explanation: |
+  Magma gjør det enkelt å kjøpe innkommende likviditet via en automatisert markedsplass.
+reviewed: false

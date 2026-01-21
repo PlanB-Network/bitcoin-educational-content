@@ -1,9 +1,12 @@
-question: Koja je bila primarna kritika izneta u prvoj email reakciji na Satoshi Nakamotovu najavu Bitcoin belog papira na mailing listi za Kriptografiju?
+question: Koja je bila primarna kritika izneta u prvoj email reakciji na Satoshi Nakamotovu najavu Bitcoin white paper-a na mailing listi za Kriptografiju?
 answer: Predloženi sistem se nije činio skalabilnim do potrebne veličine.
 wrong_answers:
   - Kriptografski algoritmi korišćeni nisu bili dovoljno sigurni za finansijske aplikacije.
   - Peer-to-peer arhitektura bi učinila sistem ranjivim na mrežne napade
-  - Mehanizam konsenzusa bi trošio previše računske energije da bi bio praktičan
+  - Mehanizam konsenzusa bi trošio previše računarske energije da bi bio praktičan
 explanation: |
-  Prva rečenica prvog odgovora putem e-pošte na Satoshi najavu Bitcoin belog papira specifično je navela 'ne čini se da se skalira na potrebnu veličinu.' Ovo pokazuje da su zabrinutosti oko skaliranja postojale od najranijih javnih diskusija o Bitcoin, čak i pre nego što je mreža pokrenuta. Druge opcije, iako potencijalno validne zabrinutosti za kriptovalutni sistem, nisu bile fokus tog početnog odgovora, koji je odmah identifikovao skalabilnost kao primarni problem sa Satoshi predlogom.
-reviewed: false
+  Prva rečenica prvog odgovora putem e-pošte na Satoshi-jevu najavu Bitcoin white paper-a specifično je navela 'ne čini se da se skalira na potrebnu veličinu.' 
+  Ovo pokazuje da su zabrinutosti oko skaliranja postojale od najranijih javnih diskusija o Bitcoinu, čak i pre nego što je mreža pokrenuta. Druge opcije, iako 
+  potencijalno validne zabrinutosti za kriptovalutni sistem, nisu bile fokus tog početnog odgovora, koji je odmah identifikovao skalabilnost kao primarni problem 
+  za Satoshijev predlogom.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Nodi ya umeme inapaswa kuunganishwa na nini?
+answer: Nodi ya Bitcoin
+wrong_answers:
+  - Mchimbaji madini
+  - Mchunguzi wa vitalu
+  - Seva iliyoshirikishwa
+explanation: |
+  Nodi ya Umeme inategemea nodi ya Bitcoin ili kupata taarifa kutoka kwa blockchain kuu.
+reviewed: false

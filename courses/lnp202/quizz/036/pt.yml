@@ -1,0 +1,9 @@
+question: Porque é que é difícil rentabilizar o encaminhamento no Lightning?
+answer: Custos e concorrência
+wrong_answers:
+  - Limite do canal
+  - Sem pedido
+  - Falta de liquidez a nível mundial
+explanation: |
+  Os custos da cadeia, a concorrência e os requisitos operacionais tornam incerta a rentabilidade da atividade de encaminhamento.
+reviewed: false

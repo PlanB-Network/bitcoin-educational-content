@@ -1,0 +1,9 @@
+question: Apa peran menara pengawas ketika mendeteksi upaya kecurangan?
+answer: Publikasikan transaksi penalti
+wrong_answers:
+  - Menutup saluran secara kooperatif
+  - Membekukan dana
+  - Melaporkan peer ke Bitcoin Core
+explanation: |
+  Menara pengawas secara otomatis menyiarkan transaksi penalti atas nama pengguna.
+reviewed: false

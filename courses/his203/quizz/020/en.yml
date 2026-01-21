@@ -5,5 +5,6 @@ wrong_answers:
   - Alan Greenspan
   - Barry Eichengreen
 explanation: |
- Paul Krugman is a neo-Keynesian economist and winner of the 2008 Nobel Prize in Economics. In an article entitled "Golden Cyberfetters", published on the New York Times website on September 7, 2011, he argues that Bitcoin's "private gold standard model" will lead to its demise as a medium of exchange.
-reviewed: false
+ Paul Krugman is a neo-Keynesian economist and winner of the 2008 Nobel Prize in Economics. In an article entitled "Golden Cyberfetters", published on the New York
+ Times website on September 7, 2011, he argued that Bitcoin's "private gold standard model" will lead to its demise as a medium of exchange.
+reviewed: true

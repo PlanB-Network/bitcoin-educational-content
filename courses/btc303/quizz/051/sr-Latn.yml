@@ -1,9 +1,12 @@
-question: Prema kritici Ragnara Lifthasira, kakav problem stvaraju simplistički narativi Bitcoin poput 'samo HODL' za ekosistem Bitcoin?
+question: Prema kritici Ragnara Lifthasira, koji problem stvaraju pojednostavljene narative o Bitcoinu, poput 'samo HODL', za Bitcoin ekosistem?
 answer: Oni postaju monomanije koje uzrokuju da korisnici zanemaruju važnije aspekte poput sigurnosti i upotrebe bez poverenja
 wrong_answers:
-  - "Podstiču prekomernu trgovačku aktivnost koja destabilizuje cenu i tržišnu dinamiku Bitcoin"
-  - Oni stvaraju lažna očekivanja o zagarantovanim povratima koja dovode do regulatornog nadzora i intervencije.
-  - Oni promovišu korišćenje centralizovane razmene koja koncentriše Bitcoin sredstva u skrbničkim uslugama
+  - Podstiču prekomernu trgovačku aktivnost koja destabilizuje cenu i tržišnu dinamiku Bitcoina
+  - Oni stvaraju lažna očekivanja o zagarantovanim povratima koja dovode do regulatornog nadzora i intervencije
+  - Oni promovišu korišćenje centralizovane razmene koja koncentriše Bitcoin sredstva u depozitarskim servisima
 explanation: |
-  Lifthasir definiše ove simplističke narative kao 'monomanije' - prekomerni fokus na jednu ideju koji uzrokuje da ljudi zanemare, verovatno, važnije aspekte. Fokusirajući se samo na držanje Bitcoin, korisnici mogu zanemariti ključne aspekte kao što su odgovarajuće bezbednosne prakse, samostalno čuvanje ili korišćenje Bitcoin na način bez poverenja. Druge opcije, iako potencijalno problematične, nisu specifična kritika koju Lifthasir iznosi o previše pojednostavljenim porukama o Bitcoin.
-reviewed: false
+  Lifthasir definiše ove simplističke narative kao 'monomanije' - prekomerni fokus na jednu ideju koji uzrokuje da ljudi zanemare, verovatno, važnije aspekte. 
+  Fokusirajući se samo na držanje bitcoina, korisnici mogu zanemariti ključne aspekte kao što su odgovarajuće bezbednosne prakse, samostalno čuvanje ili 
+  korišćenje bitcoina na način koji ne zahteva poverenja. Druge opcije, iako potencijalno problematične, nisu specifična kritika koju Lifthasir iznosi o previše 
+  pojednostavljenim porukama o Bitcoinu.
+reviewed: true

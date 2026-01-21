@@ -1,0 +1,9 @@
+question: Millisel protokollil põhineb Tailscale?
+answer: WireGuard
+wrong_answers:
+  - OpenVPN
+  - IPsec IKEv2
+  - PPTP
+explanation: |
+  Tailscale on WireGuard-l põhinev VPN-lahendus.
+reviewed: false

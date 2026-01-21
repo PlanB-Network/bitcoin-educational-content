@@ -1,0 +1,9 @@
+question: LND과 관련된 seed 형식의 이름은 무엇인가요?
+answer: aezeed
+wrong_answers:
+  - BIP39
+  - lnseed
+  - BIP32
+explanation: |
+  LND는 기존 BIP39 seed와 구별되는 aezeed라는 특정 seed를 사용합니다.
+reviewed: false

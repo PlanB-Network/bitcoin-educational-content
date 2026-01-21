@@ -1,0 +1,9 @@
+question: Qual è il principale svantaggio della chiusura forzata?
+answer: Fondi bloccati dal timelock
+wrong_answers:
+  - Perdita parziale di fondi
+  - Obsolescenza del nodo Lightning
+  - Desincronizzazione del nodo Lightning
+explanation: |
+  I fondi sono bloccati da un blocco temporale e le commissioni sono spesso elevate.
+reviewed: false

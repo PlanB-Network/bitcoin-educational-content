@@ -53,7 +53,7 @@ Installez chacun de ces outils en suivant leurs tutoriels respectifs, puis vous 
 
 Après la création de votre portefeuille, vous commencerez avec un seul compte, identifié par l’index `0'`. Il s’agit du compte `Deposit`. C’est sur ce compte que vous devrez envoyer les bitcoins destinés aux coinjoins. Vous pouvez les recevoir soit via l’application Ashigaru (voir la partie 5 du tutoriel dédié), soit via Ashigaru Terminal (également détaillé dans la partie 5 du tutoriel dédié).
 
-Une fois que votre compte de dépôt contient au moins le montant nécessaire pour participer à la plus petite pool (en y ajoutant les frais de service et le minimum requis pour couvrir les frais de minage) vous serez prêt à initier vos premiers coinjoins.
+Une fois que votre compte de dépôt contient au moins le montant nécessaire pour participer à la plus petite pool (en y ajoutant les frais de service et le minimum requis pour couvrir les frais de minage), vous serez prêt à initier vos premiers coinjoins.
 
 ![Image](assets/fr/02.webp)
 

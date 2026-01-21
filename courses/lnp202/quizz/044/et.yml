@@ -1,0 +1,9 @@
+question: Millist rolli mängib ThunderHub teie LND sõlme suhtes?
+answer: Interface juhtimine
+wrong_answers:
+  - Välk rakendamine
+  - Hooldusteenus
+  - Marsruudisõlm
+explanation: |
+  ThunderHub on liides, mis ühendub LND-ga, et hallata sõlme.
+reviewed: false

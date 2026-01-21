@@ -51,7 +51,7 @@ objectives:
 <chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
 
 
-欢迎来到关于比特币发展理念的 PHI 301 课程。
+欢迎来到关于比特币发展理念的 BTC 303 课程。
 
 
 比特币不仅仅是一种加密货币，它还体现了关于去中心化、隐私、无信任性和弹性的哲学理念。本课程专为那些已熟悉比特币技术基础并希望加深对比特币设计和管理原则的理解的开发者设计的。
@@ -1137,14 +1137,14 @@ Bitcoin Core 采用了[MIT 许可](https://github.com/Bitcoin/Bitcoin/blob/maste
 
 
 ```
-The MIT License (MIT)
+MIT许可证 (MIT)
 
-Copyright (c) 2009-2022 The Bitcoin Core developers
-Copyright (c) 2009-2022 Bitcoin Developers
+Copyright (c) 2009-2022 Bitcoin Core开发者
+Copyright (c) 2009-2022 Bitcoin开发者
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+特此免费授予任何获得本软件及相关文档文件（"软件"）副本的人不受限制地处理本软件的权限，包括但不限于使用、复制、修改、合并、发布、分发、再许可和/或销售本软件副本的权利，以及允许获得本软件的人这样做，但须符合以下条件：
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+上述版权声明和本许可声明应包含在本软件的所有副本或重要部分中。
 ```
 
 翻译版：

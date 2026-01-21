@@ -1,0 +1,9 @@
+question: K čemu se musí uzel Lightning připojit?
+answer: Uzel Bitcoin
+wrong_answers:
+  - Horník
+  - Průzkumník bloků
+  - Sdružený server
+explanation: |
+  Uzel Lightning je závislý na uzlu Bitcoin, který má přístup k informacím z hlavního blockchainu.
+reviewed: false

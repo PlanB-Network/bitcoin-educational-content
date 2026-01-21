@@ -1,0 +1,9 @@
+question: Si la cible de difficulté diminue, que devient le minage ?
+answer: Plus difficile
+wrong_answers:
+  - Plus facile
+  - Identique
+  - Impossible
+explanation: |
+  Une cible plus basse laisse moins de résultats possibles en dessous du seuil, donc il faut plus d’essais pour trouver un hash valide. Cela signifie que le minage est plus difficile.
+reviewed: false

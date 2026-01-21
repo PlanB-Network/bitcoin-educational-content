@@ -1,0 +1,9 @@
+question: LND seed có thể tự khôi phục những gì?
+answer: wallet trên chuỗi
+wrong_answers:
+  - Kênh mở
+  - Các tiểu bang kênh
+  - Không có gì
+explanation: |
+  seed truy xuất Bitcoin trên chuỗi wallet, nhưng không truy xuất các kênh Lightning đang hoạt động.
+reviewed: false

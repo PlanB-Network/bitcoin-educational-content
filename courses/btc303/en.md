@@ -36,7 +36,7 @@ The book was commissioned and funded by [Chaincode Labs](https://learning.chainc
 ## Course overview
 <chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
 
-Welcome to this course PHI 301 about Bitcoin development philosophy.
+Welcome to this course BTC 303 about Bitcoin development philosophy.
 
 Bitcoin is more than just a cryptocurrency, it embodies a philosophical vision about decentralization, privacy, trustlessness, and resilience. This course is designed specifically for developers already familiar with Bitcoin’s technical foundations who now seek to deepen their understanding of the principles underpinning Bitcoin’s design and governance.
 
@@ -610,7 +610,7 @@ This idea caught a lot of interest, but didn't seem to reach near unanimous supp
 
 > Hilliard proposed a slightly complex but clever solution that would make everything compatible: Segregated Witness activation as proposed by the Bitcoin Core development team, the BIP148 UASF and the New York Agreement activation mechanism. His BIP91 could keep Bitcoin whole — at least throughout SegWit activation.
 
-There were some more complicating factors involved (e.g. the so-called "New York Agreement"), that this BIP had to take into consideration. We encourage you to read Van Wirdum's article in full to learn about the many interesting details in this story.
+There were some more complicating factors involved (e.g. the so-called "New York Agreement"), that this BIP had to take into consideration. We encourage you to read Van Wirdum's full article to learn about the many interesting details in this story.
 
 #### Post-Segwit discussion
 

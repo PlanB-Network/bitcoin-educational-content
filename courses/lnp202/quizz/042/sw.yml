@@ -1,0 +1,9 @@
+question: Ubaya mkuu wa kufungwa kwa lazima ni upi?
+answer: Fedha zimezuiwa na muda uliowekwa
+wrong_answers:
+  - Upotevu wa sehemu ya fedha
+  - Uchakavu wa nodi ya Umeme
+  - Uondoaji wa nodi za umeme
+explanation: |
+  Fedha huzuiwa na muda uliowekwa na ada mara nyingi huwa juu.
+reviewed: false

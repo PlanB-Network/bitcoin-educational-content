@@ -1,0 +1,9 @@
+question: Bir Lightning düğümünün Düğüm Kimliği neyi temsil eder?
+answer: Düğüm açık anahtarı ve adresi
+wrong_answers:
+  - seed düğümü ve adresi
+  - Düğüm takma adı ve ortak anahtar
+  - Hash düğüm takma adı ve seed
+explanation: |
+  Düğüm Kimliği, düğümün açık anahtarını ağ adresi ve bağlantı noktası ile birleştirir.
+reviewed: false

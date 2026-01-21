@@ -1,0 +1,9 @@
+question: Was ist die oberste Priorität eines Lightning-Händlers?
+answer: Beschaffung von Liquidität im Inland
+wrong_answers:
+  - Beschaffung von Liquidität im Ausland
+  - Einsparungen bei den Routingkosten
+  - Gute LN+-Bewertungen einholen
+explanation: |
+  Ein Händler muss in der Lage sein, seine Einnahmen ohne Ausfall zu erzielen, was eine ausreichende Liquiditätszufuhr voraussetzt.
+reviewed: false

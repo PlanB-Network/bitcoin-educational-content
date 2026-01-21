@@ -1,0 +1,9 @@
+question: ThunderHub มีบทบาทอย่างไรในความสัมพันธ์กับโหนด LND ของคุณ?
+answer: การจัดการ Interface
+wrong_answers:
+  - การดำเนินการสายฟ้า
+  - บริการดูแลรักษา
+  - โหนดการกำหนดเส้นทาง
+explanation: |
+  ThunderHub เป็นอินเทอร์เฟซที่เชื่อมต่อกับ LND เพื่อจัดการโหนด
+reviewed: false

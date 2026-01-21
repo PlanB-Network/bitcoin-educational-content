@@ -51,7 +51,7 @@ Het boek is geschreven en gefinancierd door [Chaincode Labs](https://learning.ch
 <chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
 
 
-Welkom bij deze cursus PHI 301 over Bitcoin ontwikkelingsfilosofie.
+Welkom bij deze cursus BTC 303 over Bitcoin ontwikkelingsfilosofie.
 
 
 Bitcoin is meer dan alleen een cryptocurrency, het belichaamt een filosofische visie over decentralisatie, privacy, vertrouwen en veerkracht. Deze cursus is speciaal ontworpen voor ontwikkelaars die al bekend zijn met de technische fundamenten van Bitcoin en die nu hun inzicht willen verdiepen in de principes die ten grondslag liggen aan het ontwerp en bestuur van Bitcoin.
@@ -1168,14 +1168,14 @@ Bitcoin Core voldoet aan deze definitie door gedistribueerd te worden onder de [
 
 
 ```
-The MIT License (MIT)
+De MIT-Licentie (MIT)
 
-Copyright (c) 2009-2022 The Bitcoin Core developers
-Copyright (c) 2009-2022 Bitcoin Developers
+Copyright (c) 2009-2022 De Bitcoin Core ontwikkelaars
+Copyright (c) 2009-2022 Bitcoin Ontwikkelaars
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Hierbij wordt kosteloos toestemming verleend aan eenieder die een kopie van deze software en bijbehorende documentatiebestanden (de "Software") verkrijgt, om zonder beperking met de Software te handelen, inclusief maar niet beperkt tot de rechten om de Software te gebruiken, kopiëren, wijzigen, samenvoegen, publiceren, distribueren, in sublicentie te geven en/of te verkopen, en om personen aan wie de Software wordt verstrekt dit toe te staan, onder de volgende voorwaarden:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+Bovenstaande copyrightvermelding en deze toestemmingsvermelding dienen te worden opgenomen in alle kopieën of substantiële delen van de Software.
 ```
 
 

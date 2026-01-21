@@ -1,0 +1,9 @@
+question: Quali di queste piattaforme consentono di acquistare liquidità in entrata?
+answer: Magma
+wrong_answers:
+  - Nucleo Bitcoin
+  - 1ML
+  - Boltz
+explanation: |
+  Magma semplifica l'acquisto di liquidità in entrata attraverso un mercato automatizzato.
+reviewed: false

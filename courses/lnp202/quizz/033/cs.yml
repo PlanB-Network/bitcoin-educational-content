@@ -1,0 +1,9 @@
+question: Který z těchto nástrojů neidentifikuje relevantní vrstevníky v aplikaci Lightning?
+answer: Electrum
+wrong_answers:
+  - Bleskový terminál
+  - Amboss
+  - 1ML
+explanation: |
+  Electrum není průzkumník Lightning pro získávání informací o uzlech sítě. Ostatní tři nástroje naopak tuto funkci plní dobře.
+reviewed: false

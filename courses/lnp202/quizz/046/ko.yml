@@ -1,0 +1,9 @@
+question: 나가는 결제가 자동으로 들어오는 유동성을 생성하는 이유는 무엇인가요?
+answer: 유동성 변화
+wrong_answers:
+  - 새 채널 만들기
+  - 용량 증가
+  - 라우팅 비용 절감
+explanation: |
+  나가는 결제는 sats을 액면가로 이동시켜 채널의 이쪽에서 들어오는 유동성을 생성합니다.
+reviewed: false

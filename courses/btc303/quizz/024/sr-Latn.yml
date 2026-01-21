@@ -1,9 +1,13 @@
 question: Koji je primarni razlog zašto Bitcoin koristi adrese izvedene iz javnih ključeva kao pseudonime umesto opisnih korisničkih imena?
-answer: Da biste omogućili sigurno kreiranje adresa van mreže bez potrebe za registracijom na blockchain-u
+answer: Da bi se omogućilo sigurno kreiranje adresa van mreže bez potrebe za registracijom na blockchain-u
 wrong_answers:
-  - Da bi transakcije bile potpuno anonimne i nepratljive na blockchainu
+  - Da bi transakcije bile potpuno anonimne i nemoguće za praćenje na blockchain-u
   - Da bi se smanjila potrebna računarska snaga za verifikaciju transakcija
   - Da se omogući neograničena ponovna upotreba istog pseudonima u više transakcija
 explanation: |
-  Bitcoin koristi adrese izvedene iz javnih ključeva kao pseudonime jer ovaj sistem omogućava korisnicima da sigurno kreiraju nove adrese offline bez potrebe da ih prvo registruju na blockchain-u. Korišćenje opisnih korisničkih imena bi zahtevalo objavljivanje veze između korisničkog imena i javnog ključa na blockchain-u, što bi izazvalo troškove, opterećenje blockchain-a i smanjenje sigurnosti. Pored toga, korisnička imena bi podstakla ponovnu upotrebu (smanjujući privatnost) i stvorila rizike od imitacije. Sistem zasnovan na adresama eliminiše ove probleme dok održava kriptografsku sigurnost potrebnu za pravilno funkcionisanje Bitcoin.
-reviewed: false
+  Bitcoin koristi adrese izvedene iz javnih ključeva kao pseudonime jer ovaj sistem omogućava korisnicima da sigurno kreiraju nove adrese offline bez 
+  potrebe da ih prvo registruju na blockchain-u. Korišćenje opisnih korisničkih imena bi zahtevalo objavljivanje veze između korisničkog imena i javnog ključa 
+  na blockchain-u, što bi izazvalo troškove, opterećenje blockchain-a i smanjenje sigurnosti. Pored toga, korisnička imena bi podstakla ponovnu upotrebu 
+  (smanjujući privatnost) i stvorila rizike od imitacije. Sistem zasnovan na adresama eliminiše ove probleme dok održava kriptografsku sigurnost potrebnu za 
+  pravilno funkcionisanje Bitcoina.
+reviewed: true

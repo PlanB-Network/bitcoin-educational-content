@@ -1,0 +1,9 @@
+question: Ni masharti gani ya kusakinisha LND kwenye Umbrel?
+answer: Nodi ya Bitcoin iliyosawazishwa
+wrong_answers:
+  - Akaunti ya Umbrel Premium
+  - Kituo cha Umeme Kilichopo
+  - Anwani ya umeme inatumika
+explanation: |
+  LND inategemea nodi ya Bitcoin iliyosawazishwa 100%, sharti la uendeshaji wake.
+reviewed: false

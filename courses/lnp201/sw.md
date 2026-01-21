@@ -1138,6 +1138,10 @@ Tumeona kuwa usimamizi wa ukwasi ni changamoto kwenye Umeme ili kuhakikisha mtir
 
 ![LNP201](assets/en/084.webp)
 
+Sasa kwa kuwa umeelewa jinsi Lightning Network inavyofanya kazi kwa nadharia, unaweza kuendelea na vitendo na kusanidi nodi yako ya kwanza ya Lightning ili kupata uhuru zaidi katika matumizi yako. Kwa hilo, fuata kozi ya LNP 202:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
 # Hitimisho
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>

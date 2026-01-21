@@ -1,0 +1,9 @@
+question: ¿Qué información indica la capacidad de recepción del nodo Rayo?
+answer: Liquidez entrante
+wrong_answers:
+  - Conexiones activas
+  - Liquidez de salida
+  - Número de bloques
+explanation: |
+  La liquidez entrante representa el sats que el nodo puede recibir a través de Lightning.
+reviewed: false

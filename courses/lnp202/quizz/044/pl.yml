@@ -1,0 +1,9 @@
+question: Jaką rolę odgrywa ThunderHub w odniesieniu do węzła LND?
+answer: Zarządzanie Interface
+wrong_answers:
+  - Implementacja błyskawicy
+  - Usługi opiekuńcze
+  - Węzeł routingu
+explanation: |
+  ThunderHub to interfejs, który łączy się z LND w celu zarządzania węzłem.
+reviewed: false

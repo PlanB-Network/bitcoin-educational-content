@@ -1,0 +1,9 @@
+question: Jaké jsou předpoklady pro instalaci LND do Umbrel?
+answer: Synchronizovaný uzel Bitcoin
+wrong_answers:
+  - Účet Umbrel Premium
+  - Stávající kanál Lightning
+  - Blesková adresa aktivní
+explanation: |
+  LND je závislý na 100% synchronizovaném uzlu Bitcoin, což je předpokladem jeho fungování.
+reviewed: false

@@ -55,56 +55,28 @@ U ovom kursu ćemo diskutovati o nekim monetarnim aspektima Bitkoina, uključuju
 Važno je razumeti da je Bitkoin novi monetarni sistem koji potpuno menja naš odnos prema novcu, tako da je učenje kako ga koristiti neophodna veština za svakoga ko želi da ima kontrolu nad sopstvenim sredstvima.
 
 
-**Sekcija 1 - Uvod**
 
 
-- Poglavlje 1 - Pregled Kursa
-- Poglavlje 2 - Praistorija Bitkoina
 
 
-**Sekcija 2 - Novac**
 
 
-- Poglavlje 3 - Novac kroz istoriju
-- Poglavlje 4 - Fiat Valute
-- Poglavlje 5 - Hiperinflacija
-- Poglavlje 6 - 21 Milion bitkoina
 
 
-**Sekcija 3 - Bitkoin Novčanici**
 
 
-- Poglavlje 7 - Šta je Bitkoin novčanik?
-- Poglavlje 8 - Bitkoin novčanici i sigurnost
-- Poglavlje 9 - Podešavanje novčanika
-- Poglavlje 10 - Odolevanje vremenu - test vremena
 
 
-**Sekcija 4 - Tehnički aspekti Bitkoina**
 
 
-- Poglavlje 11 - Lansiranje Bitkoina
-- Poglavlje 12 - Bitkoin transakcije
-- Poglavlje 13 - Bitkoin čvorovi
-- Poglavlje 14 - Rudari
-- Poglavlje 15 - Bitkoin i ekologija
 
 
-**Section 5 - Kako doći do Bitkoina?**
 
 
-- Poglavlje 16 - Bitkoin nikad ne spava!
-- Poglavlje 17 - Zarađivanje bitkoina kroz rad
-- Poglavlje 18 - Štednja sa bitkoinom
-- Poglavlje 19 - Hiperbitkoinizacija
 
 
-**Sekcija 6 - Budućnost Bitkoina: Lightning Network**
 
 
-- Poglavlje 20 - Kratak uvod u Lightning Network
-- Poglavlje 21 - Upotreba Lightning Network-a 
-- Poglavlje 22 - Crvena pilula ili plava pilula?
 
 
 Pre nego što uvedemo definiciju novca i njegovu funkciju u društvu (Poglavlje 1), trebali bismo početi od Genesis (generisanja) Bitkoina. Lansiran 2009. godine, Bitkoin je relativno nova tehnologija za razliku od bilo čega drugog. Stoga je normalno ne razumeti sve o tome, odjednom. Zapravo, baš kao kada učite kako koristiti Internet ili voziti automobil, ne morate odmah znati sve tehničke detalje: možete početi učenjem kako primati, plaćati i osigurati svoja sredstva, a zatim postepeno proučavati to dublje.

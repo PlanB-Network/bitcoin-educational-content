@@ -1,0 +1,9 @@
+question: Warum ist es gefährlich, eine alte channel.db wiederherzustellen?
+answer: Strafrisiko
+wrong_answers:
+  - Verlust von seed
+  - Klatsch und Tratsch, Korruption
+  - Blockierung der Weiterleitung
+explanation: |
+  Ein veralteter Stand kann als Betrugsversuch gewertet werden und zum Verlust von Programmmitteln führen.
+reviewed: false

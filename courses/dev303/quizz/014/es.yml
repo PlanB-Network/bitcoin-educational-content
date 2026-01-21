@@ -1,8 +1,8 @@
 question: ¿Cuál es la principal diferencia entre una cadena y una cadena literal (&str) en Rust?
-answer: String gestiona la memoria heap asignada dinámicamente y puede modificarse, mientras que &str es una vista de datos de cadena inmutables
+answer: String gestiona la memoria heap asignada dinámicamente y puede modificarse, mientras que &str es una vista de datos de cadena inmutables.
 wrong_answers:
-  - String se almacena en la pila mientras que &str se almacena en el montón para un mejor rendimiento
-  - String sólo puede contener caracteres ASCII mientras que &str puede contener cualquier carácter Unicode
-  - String implementa automáticamente el préstamo mientras que &str requiere una transferencia de propiedad explícita
+  - String se almacena en la pila mientras que &str se almacena en el montón para un mejor rendimiento.
+  - String solo puede contener caracteres ASCII mientras que &str puede contener cualquier carácter Unicode.
+  - String implementa automáticamente el préstamo mientras que &str requiere una transferencia de propiedad explícita.
 explanation: |
   String y &str representan diferentes aproximaciones al manejo de cadenas en Rust. String es un tipo de cadena ampliable y asignada a la pila que posee sus propios datos y puede modificarse en tiempo de ejecución. Por el contrario, &str (string slice) es una referencia inmutable a datos de cadena, a menudo apuntando a literales de cadena incrustados en el binario del programa o a trozos de datos de cadena existentes. Esta distinción permite a Rust optimizar tanto la flexibilidad (String para contenido dinámico) como la eficiencia (&str para acceso de sólo lectura sin asignación).

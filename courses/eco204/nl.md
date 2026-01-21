@@ -423,7 +423,7 @@ Een illustratief voorbeeld van MMT is het Amerikaanse militair-industriële comp
 Japan wordt door MMT-voorstanders vaak aangehaald als een ander voorbeeld van de afwezigheid van inflatie ondanks aanzienlijke monetaire druk. De situatie in Japan benadrukt echter ook de beperkingen van traditionele inflatiemetingen, zoals de consumentenprijsindex (CPI). In Japan wordt een aanzienlijk deel van het gedrukte geld gespaard of geïnvesteerd in onroerend goed of de aandelenmarkt, in plaats van uitgegeven aan lopende consumptie. Doordat de CPI deze dynamiek niet volledig weergeeft, kan de werkelijke inflatie worden onderschat.
 
 
-Uit de analyse van Japan (https://ideas.repec.org/p/ces/ceswps/_9821.html) blijkt ook dat het gedrag van economische agenten, zoals sparen of beleggen in activa die niet in de CPI zijn opgenomen, het inflatoire effect van monetaire druk kan maskeren. Bovendien speelt het vermogen van verschillende sectoren om geïnjecteerde liquiditeit te absorberen een cruciale rol bij het bepalen of er inflatie optreedt.
+[De analyse van Japan](https://ideas.repec.org/p/ces/ceswps/_9821.html) benadrukt eveneens dat het gedrag van economische actoren, zoals sparen of investeren in activa die niet in de CPI zijn opgenomen, de inflatoire impact van geldcreatie kan verhullen. Bovendien speelt het vermogen van de verschillende sectoren om de geïnjecteerde liquiditeit te absorberen een cruciale rol bij het al dan niet optreden van inflatie.
 
 
 #### Balansen van banken en centrale banken

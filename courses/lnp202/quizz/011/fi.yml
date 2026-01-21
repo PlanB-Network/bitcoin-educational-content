@@ -1,0 +1,9 @@
+question: Mikä ratkaisu tarjoaa Lightning-käyttäjille eniten riippumattomuutta?
+answer: Klassinen salaman solmu
+wrong_answers:
+  - Wallet atomisella vaihdolla
+  - Sisäinen LN-solmu
+  - Huoltovalaisin wallet
+explanation: |
+  Klassinen solmu tarjoaa täydellisen hallinnan kanavista, likviditeetistä ja maksukäytännöistä. Se on ainoa, jonka avulla tet olla todella riippumaton.
+reviewed: false

@@ -1,9 +1,10 @@
-question: Which mining protocol was developed in September 2012 by Marek Palatinus, aka Slush, to improve exchanges between miners and cooperatives?
+question: Which mining protocol was developed in September 2012 by Marek Palatinus, aka Slush, to improve exchanges between miners and mining pools?
 answer: Stratum
 wrong_answers:
   - Electrum
   - Getwork
   - Getblocktemplate (GBT)
 explanation: |
- Stratum was a mining protocol for thin clients. It quickly replaced the rudimentary getwork function used until then, and established itself at the expense of the competing getblocktemplate proposal.
-reviewed: false
+ Stratum was a mining protocol for thin clients. It quickly replaced the rudimentary getwork function used until then, and established itself at the expense of 
+ the competing getblocktemplate proposal.
+reviewed: true

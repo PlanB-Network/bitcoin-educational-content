@@ -1,0 +1,9 @@
+question: Která z uvedených metod připojení mezi uzlem Lightning a mobilním klientem se pro toto použití výslovně nedoporučuje?
+answer: Tor
+wrong_answers:
+  - Tailscale
+  - Nostr Wallet Connect
+  - Žádné
+explanation: |
+  Tor v praxi pro tento účel funguje velmi špatně, protože selhání a latence způsobují špatný uživatelský zážitek.
+reviewed: false

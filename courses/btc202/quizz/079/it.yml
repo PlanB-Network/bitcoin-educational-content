@@ -5,5 +5,5 @@ wrong_answers:
   - 256 GiB
   - 128 GiB
 explanation: |
-  I file blkNNNNN.dat memorizzano i blocchi in modo sequenziale e raggiungono una dimensione di circa 128 MiB prima che Bitcoin core apra il successivo.
+  I file blkNNNNN.dat memorizzano i blocchi in modo sequenziale e raggiungono una dimensione di circa 128 MiB prima che Bitcoin Core apra il successivo.
 reviewed: true

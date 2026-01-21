@@ -1,0 +1,9 @@
+question: Milline fail sisaldab LND üksikasjalikku kanali staatust?
+answer: channel.db
+wrong_answers:
+  - wallet.db
+  - lightning.db
+  - peers.db
+explanation: |
+  Failis channel.db hoitakse kanali olekuid, eakaaslasi ja commitment transaction-sid.
+reviewed: false

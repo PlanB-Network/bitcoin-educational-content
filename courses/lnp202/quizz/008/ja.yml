@@ -1,0 +1,9 @@
+question: カストディアル・ライトニングwalletでは、ビットコインは誰のものですか？
+answer: 同社
+wrong_answers:
+  - ユーザー
+  - ライトニング・ネットワーク
+  - Bitcoinコア
+explanation: |
+  カストディアル・モデルでは、会社は鍵を保持し資金を管理するが、利用者は会計上の残高しか持たない。
+reviewed: false

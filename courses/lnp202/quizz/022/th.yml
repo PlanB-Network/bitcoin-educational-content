@@ -1,0 +1,9 @@
+question: LND seed สามารถกู้คืนอะไรได้ด้วยตัวเอง?
+answer: The onchain wallet
+wrong_answers:
+  - เปิดช่อง
+  - สถานะช่อง
+  - ไม่มีอะไร
+explanation: |
+  seed ดึงข้อมูล Bitcoin บนเชน wallet แต่ไม่รวมถึงช่องทาง Lightning ที่ใช้งานอยู่
+reviewed: false

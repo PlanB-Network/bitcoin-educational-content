@@ -1,9 +1,10 @@
 question: What technical innovation was incorporated into the Namecoin cryptocurrency in October 2011?
-answer: mining merged mining
+answer: Merged mining
 wrong_answers:
-  - GPU-resistant mining mining
+  - GPU-resistant mining
   - Trusted nodes
   - Proof of stake
 explanation: |
- This is a process whereby the work done on a "mother chain" (i.e. Bitcoin) is reused to validate smaller "auxiliary" chains. This process was proposed in the BitDNS discussion by Satoshi itself. Combined mining was activated on the Namecoin network on October 8, 2011, at block level 19,200.
-reviewed: false
+ Merged mining is a process whereby the work done on a "mother chain" (i.e. Bitcoin) is reused to validate smaller "auxiliary" chains. This process was 
+ proposed in the BitDNS discussion by Satoshi itself. Combined mining was activated on the Namecoin network on October 8, 2011, at block level 19,200.
+reviewed: true

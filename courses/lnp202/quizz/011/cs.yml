@@ -1,0 +1,9 @@
+question: Které řešení nabízí uživatelům služby Lightning největší suverenitu?
+answer: Klasický uzel Lightning
+wrong_answers:
+  - Wallet s atomovou výměnou
+  - Palubní uzel LN
+  - Ošetřovatelský blesk wallet
+explanation: |
+  Klasický uzel poskytuje úplnou kontrolu nad kanály, likviditou a politikami poplatků. Jako jediný vám umožňuje být skutečně nezávislý.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Bir Lightning düğümü neye bağlanmalıdır?
+answer: Bir Bitcoin düğümü
+wrong_answers:
+  - Bir madenci
+  - Bir blok kaşifi
+  - Birleştirilmiş sunucu
+explanation: |
+  Lightning düğümü, ana blok zincirindeki bilgilere erişmek için bir Bitcoin düğümüne bağlıdır.
+reviewed: false

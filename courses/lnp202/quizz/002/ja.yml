@@ -1,0 +1,9 @@
+question: Bitcoinのオンチェーンから見て、ライトニング・チャンネルとは何か？
+answer: Multisig自然出力2/2
+wrong_answers:
+  - スクリプト P2MS 2/2
+  - UTXOシングル
+  - 連邦契約
+explanation: |
+  オンチェーンでは、ライトニング・チャネルは、参加者双方の署名を必要とするマルチシグネチャ出力で表される。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Koje od ovih platformi vam omogućavaju kupovinu dolazne likvidnosti?
+answer: Magma
+wrong_answers:
+  - Bitcoin Jezgro
+  - 1ML
+  - Boltz
+explanation: |
+  Magma olakšava kupovinu dolazne likvidnosti putem automatizovane berze.
+reviewed: false

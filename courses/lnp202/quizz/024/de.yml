@@ -1,0 +1,9 @@
+question: Warum ist die Sicherung eines Lightning-Knotens komplizierter als die eines Bitcoin onchain wallet?
+answer: Der Zustand der Kanäle entwickelt sich weiter
+wrong_answers:
+  - Liquidität des Kanals hängt vom Mempool ab
+  - Aufzeichnung des Lightning-Netzwerkklatsches
+  - Sperrschlüssel laufen mit der Zeit ab
+explanation: |
+  Der Zustand der Blitzkanäle ändert sich mit jeder Zahlung, so dass ein einfaches festes oder regelmäßiges Backup gefährlich ist.
+reviewed: false

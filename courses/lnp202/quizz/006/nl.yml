@@ -1,0 +1,9 @@
+question: Wat is het financiële risico van een Lightning wallet?
+answer: Fractionele reserve
+wrong_answers:
+  - Willekeurige verhoging van mining vergoedingen
+  - 51% aanval
+  - Definitief einde van de dalende markt
+explanation: |
+  De gebruiker kan niet controleren of de weergegeven saldi daadwerkelijk overeenkomen met de aangehouden bitcoins. Er is dus een fractioneel reserverisico.
+reviewed: false

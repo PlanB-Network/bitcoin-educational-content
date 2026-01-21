@@ -23,7 +23,7 @@ From Antiquity through the Enlightenment, freedom ascended as societies embraced
 
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
-Welcome to PHI201!
+Welcome to PHI101!
 
 This course invites you to explore the evolution of freedom throughout history by analyzing the major schools of thought that have shaped it. You will explore how the concept of freedom has evolved over the centuries, either in opposition to or in collaboration with power, through a historical journey from Antiquity to contemporary debates.
 

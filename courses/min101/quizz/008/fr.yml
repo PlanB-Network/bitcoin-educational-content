@@ -1,0 +1,9 @@
+question: Sur quel élément est calculée la preuve de travail dans Bitcoin ?
+answer: L’entête de bloc
+wrong_answers:
+  - La hauteur de bloc
+  - La mempool du réseau
+  - Les 21 premières transactions du bloc
+explanation: |
+  Le minage consiste à hacher en boucle l’entête de bloc de 80 octets, qui engage le contenu du bloc.
+reviewed: false

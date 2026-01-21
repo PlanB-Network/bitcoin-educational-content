@@ -3,7 +3,7 @@ answer: Es kann zu einem signifikanten Rückgang der Hashrate und des Preises vo
 wrong_answers:
   - Es kann zu einem Anstieg des Preises von Bitcoin führen.
   - Es kann zu einem Anstieg der Hashrate des Netzwerks führen.
-  - Es kann zu einem Anstieg der Anzahl aktiver Knoten im Netzwerk führen.
+  - Es kann zu einem Anstieg der Anzahl aktiver Nodes im Netzwerk führen.
 explanation: |
   Ein Verbot des Minings in einer Region, wie es in China geschehen ist,
   kann zu einem signifikanten Rückgang der Hashrate und des Preises von

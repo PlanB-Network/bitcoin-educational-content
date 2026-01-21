@@ -1,0 +1,9 @@
+question: Millä näistä alustoista tet ostaa tulevaa likviditeettiä?
+answer: Magma
+wrong_answers:
+  - Bitcoin Core
+  - 1ML
+  - Boltz
+explanation: |
+  Magman avulla on helppo ostaa tulevaa likviditeettiä automaattisen markkinapaikan kautta.
+reviewed: false

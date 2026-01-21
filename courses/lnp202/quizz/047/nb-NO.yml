@@ -1,0 +1,9 @@
+question: Hvorfor er LN+ uegnet for selgere?
+answer: Betydelige kapitalinvesteringer
+wrong_answers:
+  - Manglende pålitelighet hos de involverte nodene
+  - Ikke noe omdømmesystem
+  - Kanalene er for små
+explanation: |
+  Hver innkommende sat som innhentes, krever at en utgående sat blokkeres, noe som begrenser skalerbarheten for en bedrift.
+reviewed: false

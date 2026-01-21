@@ -328,7 +328,7 @@ En Miner behöver en Bitcoin-nod för att interagera med nätverket.
 
 
 
-Miner:s roll skiljer sig också ibland från hackarens. En huggare är en maskin vars uppgift är att Hash mallblock som levereras av en pools server, leta efter hashes som uppfyller svårighetsmålet som definierats för aktier, och inte Bitcoin. Resten av Mining-processen, som inkluderar faktisk blockkonstruktion, transaktionsval eller Proof-of-Work-sökning enligt Bitcoin:s egen svårighetsgrad, samt distribution, utförs direkt av poolerna.
+Miner:s roll skiljer sig också ibland från grind. En grind är en maskin vars uppgift är att Hash mallblock som levereras av en pools server, leta efter hashes som uppfyller svårighetsmålet som definierats för aktier, och inte Bitcoin. Resten av Mining-processen, som inkluderar faktisk blockkonstruktion, transaktionsval eller Proof-of-Work-sökning enligt Bitcoin:s egen svårighetsgrad, samt distribution, utförs direkt av poolerna.
 
 
 
@@ -2514,9 +2514,11 @@ Slutligen rekommenderar jag applikationen * Lightning Network+*, som gör det m�
 
 
 
-Tack vare Umbrel har det blivit mycket enklare att hantera en personlig Lightning-nod, men det är fortfarande relativt komplext. Av denna anledning kommer vi att titta närmare på detta ämne i en framtida kurs som helt ägnas åt denna användning.
+Tack vare Umbrel är hanteringen av en personlig Lightning-nod förenklad, men den förblir ändå relativt komplex. Därför rekommenderar jag att du följer kursen LNP 202, som utgör den logiska fortsättningen på kursen BTC 202, och i vilken jag steg för steg guidar dig i installationen och hanteringen av din Lightning-nod på Umbrel.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Svansvåg
 
@@ -3894,11 +3896,13 @@ Du kan nu gå vidare till den sista delen av kursen, där du kommer att kunna ut
 
 
 
-Du har nu flera alternativ öppna för dig. Nästa logiska steg är att sätta upp din egen Lightning-nod, så att du kan vara helt oberoende för dina off-chain-transaktioner. Detta kommer att bli föremål för en kommande kurs, som kommer att publiceras i höst 2025 på Plan ₿ Academy.
+Flera vägar står nu öppna för dig. Nästa logiska steg är att sätta upp din egen Lightning-nod, för att vara helt oberoende när det gäller dina off-chain-transaktioner. Det är just detta som är ämnet för en annan kurs på Plan ₿ Academy:
 
 
 
-Under tiden inbjuder jag dig att upptäcka BTC 204-utbildningen, som gör det möjligt för dig att förstå och behärska principerna för integritetsskydd i din användning av Bitcoin:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Jag bjuder även in dig att upptäcka utbildningen BTC 204, som gör det möjligt för dig att förstå och behärska principerna för integritetsskydd i din användning av Bitcoin:
 
 
 

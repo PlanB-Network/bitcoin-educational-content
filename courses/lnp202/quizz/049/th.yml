@@ -1,0 +1,9 @@
+question: แพลตฟอร์มใดที่อนุญาตให้คุณซื้อสภาพคล่องขาเข้า?
+answer: แมกมา
+wrong_answers:
+  - Bitcoin Core
+  - 1ML
+  - Boltz
+explanation: |
+  Magma ทำให้การซื้อสภาพคล่องขาเข้าง่ายขึ้นผ่านตลาดอัตโนมัติ
+reviewed: false

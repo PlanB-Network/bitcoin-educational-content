@@ -1,0 +1,9 @@
+question: Mikä kanavan sulkeminen on paras Lightningille?
+answer: Yhteistyöhön perustuva sulkeminen
+wrong_answers:
+  - Pakkosulkeminen
+  - Sulkeminen huijaamalla
+  - Watchtower sulkeminen
+explanation: |
+  Osuuskuntamuotoinen sulkeminen on nopeampaa, ja tet valita ketjumaksuista.
+reviewed: false

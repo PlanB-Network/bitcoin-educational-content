@@ -1,0 +1,9 @@
+question: NWC 흐름에서 애플리케이션 측에서 암호화는 언제 이루어지나요?
+answer: 릴레이에 게시하기 전
+wrong_answers:
+  - 노드를 읽은 후
+  - 릴레이 게시 후
+  - 절대로
+explanation: |
+  애플리케이션은 요청을 직렬화하여 암호화한 다음 Nostr 릴레이에 이벤트로 게시합니다.
+reviewed: false

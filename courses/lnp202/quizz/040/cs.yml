@@ -1,0 +1,9 @@
+question: Proč používat správce uzlů Lightning?
+answer: Snadný přístup k pokročilým funkcím
+wrong_answers:
+  - Nahradit implementaci LND
+  - Odstranění závislosti na Umbrel
+  - Úprava protokolu Lightning
+explanation: |
+  Pokročilí správci nabízejí funkce, které nejsou k dispozici v základním rozhraní, a přitom zůstávají jednoduchými rozhraními.
+reviewed: false

@@ -54,7 +54,7 @@ La coinbase est une transaction particulière : c’est la seule qui ne possède
 
 Toutes les autres transactions se constituent en deux sections : les entrées et les sorties. 
 
-Pour que des bitcoins soient utilisés comme entrées dans une nouvelle transaction, l'initiateur de la transaction devra prouver sa possession en apportant une signature qui correspond à un script bien précis. Chaque morceau de bitcoins (UTXO) contient un script requérant généralement une signature bien précise que seule la clé privée du détenteur est capable d'apporter. Ces scripts sont des ***scriptSig*** (en ASM), écrits en Bitcoin Script, et peuvent être de différents types. Dans cet exemple, nous pouvons remarquer que les UTXO utilisés étaient de type P2SH vers une sortie de type P2WPKH (*Pay-to-Witness-Public-Key-Hash*). 
+Pour que des bitcoins soient utilisés comme entrées dans une nouvelle transaction, l'initiateur de la transaction devra prouver sa possession en apportant une signature qui correspond à un script bien précis. Chaque morceau de bitcoins (UTXO) contient un script requérant généralement une signature bien précise, que seule la clé privée du détenteur est capable d'apporter. Ces scripts sont des ***scriptSig*** (en ASM), écrits en Bitcoin Script, et peuvent être de différents types. Dans cet exemple, nous pouvons remarquer que les UTXO utilisés étaient de type P2SH vers une sortie de type P2WPKH (*Pay-to-Witness-Public-Key-Hash*). 
 
 Vous pouvez retracer l'historique d'un UTXO spécifique en utilisant des heuristiques. Nous vous invitons à découvrir les différentes heuristiques Bitcoin et les moyens de renforcer la confidentialité de vos transactions sur Bitcoin :
 

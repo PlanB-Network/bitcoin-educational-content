@@ -1,10 +1,10 @@
 question: Which SatoshiDICE technical innovation allowed players to check that the casino wasn't cheating?
-answer: The publication of secret fingerprints on the blockchain, followed by the publication of said secrets to enable the recalculation of results
+answer: The publication of secret hash on the blockchain, followed by the publication of said secrets to enable the recalculation of results
 wrong_answers:
-  - The publication of secret fingerprints on the blockchain, followed by the publication of said secrets to enable the recalculation of results
   - The deployment of a decentralized validation blockchain on which each transaction is verified by several independent nodes
   - The use of fixed addresses on the blockchain, making it possible to audit the draws, thus ensuring their fairness
   - The execution of probability calculations directly on the blockchain through autonomous public contracts
 explanation: |
- SatoshiDICE was revolutionary in that it was "assuredly fair". Each probability-linked draw depended on a secret generated at the start of the day, the fingerprint of which was published on the blockchain. The secret itself was revealed a few days later, allowing users to recalculate the result themselves.
-reviewed: false
+ SatoshiDICE was revolutionary in that it was "assuredly fair". Each probability-linked draw depended on a secret generated at the start of the day, the 
+ hash of which was published on the blockchain. The secret itself was revealed a few days later, allowing users to recalculate the result themselves.
+reviewed: true

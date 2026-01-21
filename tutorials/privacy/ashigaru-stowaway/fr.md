@@ -60,7 +60,7 @@ Pour effectuer une transaction Stowaway, cliquez sur l’image de votre Paynym e
 
 ![Image](assets/fr/02.webp)
 
-Deux options s’offrent à vous : sélectionnez `Initiate` si vous êtes l’émetteur du paiement, ou `Participate` si vous êtes le destinataire du paiement de ce payjoin.
+Deux options s’offrent à vous: sélectionnez `Initiate` si vous êtes l’émetteur du paiement, ou `Participate` si vous êtes le destinataire du paiement de ce payjoin.
 
 ![Image](assets/fr/03.webp)
 
@@ -94,7 +94,7 @@ Cliquez sur `Set up transaction`, puis choisissez le compte à partir duquel vou
 
 ![Image](assets/fr/10.webp)
 
-Sur la page suivante, renseignez les détails de la transaction : le montant à envoyer au destinataire et le taux de frais. Pas besoin de renseigner d'adresse de réception, puisque c'est le destinataire lui-même qui la transmettra lors des échanges de PSBT.
+Sur la page suivante, renseignez les détails de la transaction: le montant à envoyer au destinataire et le taux de frais. Pas besoin de renseigner d'adresse de réception, puisque c'est le destinataire lui-même qui la transmettra lors des échanges de PSBT.
 
 Cliquez ensuite sur `Review transaction setup`.
 
@@ -118,7 +118,7 @@ Cliquez sur `Set up transaction`, puis choisissez le compte à partir duquel vou
 
 ![Image](assets/fr/15.webp)
 
-Sur la page suivante, renseignez les détails de la transaction : le montant à envoyer au destinataire et le taux de frais. Pas besoin de renseigner d'adresse de réception, puisque c'est le destinataire lui-même qui la transmettra lors des échanges de PSBT.
+Sur la page suivante, renseignez les détails de la transaction: le montant à envoyer au destinataire et le taux de frais. Pas besoin de renseigner d'adresse de réception, puisque c'est le destinataire lui-même qui la transmettra lors des échanges de PSBT.
 
 Cliquez ensuite sur `Review transaction setup`.
 
@@ -128,7 +128,7 @@ Vérifiez les détails, puis appuyez sur le bouton vert `BEGIN TRANSACTION` pour
 
 ![Image](assets/fr/17.webp)
 
-L’échange se fait en alternant le scan avec le collaborateur : cliquez sur `SHOW QR CODE` pour afficher votre QR code à votre collaborateur, qui le scannera. Ensuite, il affichera à son tour le sien en cliquant sur `SHOW QR CODE`, et vous devrez le scanner avec `LAUNCH QR Scanner`. Puis répétez ce processus jusqu’à ce que les cinq étapes de l’échange soient complètes.
+L’échange se fait en alternant le scan avec le collaborateur: cliquez sur `SHOW QR CODE` pour afficher votre QR code à votre collaborateur, qui le scannera. Ensuite, il affichera à son tour le sien en cliquant sur `SHOW QR CODE`, et vous devrez le scanner avec `LAUNCH QR Scanner`. Puis répétez ce processus jusqu’à ce que les cinq étapes de l’échange soient complètes.
 
 ![Image](assets/fr/18.webp)
 
@@ -146,6 +146,6 @@ Si l'on analyse cette transaction, on observe en entrée mon UTXO de `164 211 sa
 
 Évidemment, je peux décrire cette structure car j’ai moi-même construit la transaction. Mais pour un observateur extérieur, il est généralement impossible de déterminer quels UTXOs appartiennent à quel participant, que ce soit en inputs ou en outputs.
 
-Pour approfondir vos connaissances sur la gestion de la confidentialité onchain sur Bitcoin, je vous recommande de suivre ma formation BTC 204 sur Plan ₿ Academy :
+Pour approfondir vos connaissances sur la gestion de la confidentialité onchain sur Bitcoin, je vous recommande de suivre ma formation BTC 204 sur Plan ₿ Academy:
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c

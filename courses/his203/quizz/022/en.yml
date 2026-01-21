@@ -5,5 +5,7 @@ wrong_answers:
   - The collateralized interest loan
   - Almost instant cash exchange
 explanation: |
- Bitcoinica was the first platform in the ecosystem to offer margin trading, which enabled customers to use leverage to amplify their gains (and losses), and to go short to bet on a falling share price. After its closure, this type of service was taken over by the Bitfinex platform, which was launched in October 2012 and was based on the same source code.
-reviewed: false
+ Bitcoinica was the first platform in the ecosystem to offer margin trading, which enabled customers to use leverage to amplify their gains (and losses), and to go
+ short to bet on a falling share price. After its closure, this type of service was taken over by the Bitfinex platform, which was launched in October 2012 and 
+ was based on the same source code.
+reviewed: true

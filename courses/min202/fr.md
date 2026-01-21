@@ -837,9 +837,11 @@ Une fois que c'est fait cliquez sur "Browse" en dessous de "Update AxeOS" et all
 
 Petit clin d'oeil de l'équipe de développement du projet Bitaxe, chaque appareil embarque au sein de son firmware une copie du White Paper de Satoshi Nakamoto. Si vous cliquez sur "Whitepaper" le fichier enregistré sur votre appareil s'ouvrira. Une manière amusante de rendre encore plus immuable si besoin le document fondateur de l'outil le plus révolutionnaire que l'humanité ait connue jusque là.
 
-# Miner via sa propre pool de mining
+![Image](assets/fr/073.webp)
 
-Cette partie du cours présentera les raison pour lesquelles un solominer peut vouloir opter pour une souveraineté totale quand il s'agit de miner. Originellement, le logiciel Bitcoin publié par Satoshi Nakamoto permettait par défaut aux utilisateurs de miner. Au fur et à mesure que l'activité de mining s'est professionnalisé et qu'un particulier seul n'avait plus de chance de trouver un block en minant sur son ordinateur directement, la partie du code permettant le minage a été supprimée par les développeurs de Bitcoin Core. Le mineur interne a d'abord été déprécié, puis complètement supprimé dans Bitcoin Core version 0.13.0, sortie en août 2016.
+# Miner de manière souveraine
+
+Cette partie du cours présentera les raisons pour lesquelles un solominer peut vouloir opter pour une souveraineté totale quand il s'agit de miner. Originellement, le logiciel Bitcoin publié par Satoshi Nakamoto permettait par défaut aux utilisateurs de miner. Au fur et à mesure que l'activité de mining s'est professionnalisé et qu'un particulier seul n'avait plus de chance de trouver un block en minant sur son ordinateur directement, la partie du code permettant le minage a été supprimée par les développeurs de Bitcoin Core. Le mineur interne a d'abord été déprécié, puis complètement supprimé dans Bitcoin Core version 0.13.0, sortie en août 2016.
 
 Les notes de version indiquent : **"As CPU mining has been useless for a long time, the internal miner has been removed in this release, and replaced with a simpler implementation for the test framework."**
 
@@ -860,7 +862,52 @@ L'autre bonne nouvelle c'est que même pour mineur en "pool mutualiste" qui souh
 
 ## 4.2 Stratum V2 & Datum
 
-Statum V2
+![Image](assets/fr/074.webp)
+
+### Statum V2
+
+![Image](assets/fr/076.webp)
+![Image](assets/fr/075.webp)
+
+Stratum est un protocole Open Source qui permet au pool de fonctionner et d'interragir avec les machines de minage.  Ce protocole:
+
+- **Relie les mineurs au pool**
+Permet aux appareils de minage (ASICs) de se connecter à un mining pool.
+- **Distribue le travail**
+Le pool envoie aux mineurs des « jobs » (modèles de blocs à miner) en temps réel.
+- **Collecte les preuves de travail**
+Les mineurs envoient leurs « shares » (preuves partielles de travail) au pool.
+- **Calcule les récompenses**
+Le pool utilise les shares pour mesurer la contribution de chaque mineur et distribuer les rewards (BTC).
+- **Gère les proxies (dans les grandes fermes)**
+Permet d’agréger des milliers de mineurs derrière un proxy avant d’envoyer au pool.
+
+Cependant, Stratum v1, la première implémentation ( qui date de 2012) de ce protocole open source vient avec quelques limitations qui sont rédhibitoires pour qui se soucie de la décentralisation de Bitcoin.
+
+Comme [[Pavlenex]] un personnage central (Product Manager travaillant sur nombre de projets bitcoin et fervent  promoteur du projet Stratum V2) dans la mise au point et la promotion de Stratum V2 le souligne:
+
+ "*Toutes les dix minutes environ, le réseau Bitcoin crée un nouveau bloc de transactions.
+ Qui décide quelles transactions entrent dans ces blocs Bitcoin ?
+ Si votre réponse est « les mineurs », vous avez tort.*"
+ 
+ ET
+ 
+ "*Prêt pour une autre révélation ?*  
+*Saviez-vous que les communications entre les appareils de minage, les pools et les proxies qui agrègent les connexions ne sont pas chiffrées ?
+Cela signifie qu’ils sont vulnérables à une simple attaque de l’homme du milieu (man-in-the-middle). N’importe qui capable d’intercepter la connexion pourrait facilement voler du hashrate et le rediriger vers sa propre ferme.
+Cette attaque a été prouvée et elle se produit actuellement. Cependant, les pools de minage ne la divulguent pas publiquement, car cela nuirait à leur image*."
+
+En effet Stratum V1 confie à la pool de mining le soin de choisir quelles transactions seront inscrites dans les blocs minés. La volonté des mineurs individuels s'effacent donc devant celle des pools laissant place à la possible censure des transactions qui seraient jugée comme "non désirables" quelqu'en soit la justification.
+
+Sans parler du fait que les communications non chiffrées entre tous les acteurs de ces pools pourraient donner lieux à des manipulations importantes, permettant à des entités malveillantes de s'attribuer le travail qu'elles n'ont pas fournie.
+
+C'est là  que Stratum V2 entre jeu
+
+Mais seulement xxx le supportent et la seules machine compatible est BM....
+
+
+### Datum
+
 ## 4.3 Public Pool & Bassin sur Umbrel / Start 9
 
 

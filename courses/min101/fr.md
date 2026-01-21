@@ -32,19 +32,26 @@ Dans ce cours MIN 101, nous ne reviendrons pas sur les concepts de base de Bitco
 
 https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966
 
-### Partie 1 – Le fonctionnement de la preuve de travail
 
-Après cette courte introduction, la partie 1 est le socle technique de la formation. Son but est de vous expliquer, pas à pas, comment Bitcoin produit des blocs valides. Nous commencerons par découvrir la structure d’un bloc, avant d’entrer dans le mécanisme de la preuve de travail : le rôle de la cible, du nonce et de la fonction de hachage. Enfin, nous verrons comment Bitcoin parvient à maintenir un rythme de production des blocs stable malgré les variations de la puissance de hachage, grâce au mécanisme d’ajustement de la difficulté. À l’issue de cette partie, vous comprendrez l’ensemble des rouages et des principes fondamentaux de la preuve de travail sur Bitcoin.
+### Partie 1 – Introduction
 
-### Partie 2 – Le système d’incitations du minage de Bitcoin
+Nous allons commencer ce cours par un premier chapitre optionnel, dans lequel je vous propose une explication très simplifiée du minage, afin de poser une image mentale claire avant d’entrer dans les mécanismes techniques.
 
-Dans la deuxième partie, nous verrons pourquoi les mineurs sont incités à participer honnêtement au minage. Nous détaillerons le principe de la récompense de bloc, sa composition et son mode de calcul, son évolution dans le temps à travers les halvings, ainsi que le rôle spécifique de la transaction coinbase.
+L’objectif ici n’est pas de vous donner tous les détails techniques (ils viendront plus loin dans la formation), mais de vous donner le fil conducteur. Une fois ce cadre en place, chaque notion plus avancée abordée ensuite viendra naturellement se rattacher à cette structure.
 
-### Partie 3 – L’industrie du minage de Bitcoin
+### Partie 2 – Le fonctionnement de la preuve de travail
 
-La troisième partie replace le minage dans sa réalité opérationnelle. Elle retrace l’évolution des machines de minage, du début de Bitcoin jusqu'aux ASIC modernes, afin de comprendre les contraintes matérielles actuelles. Nous étudierons également les bases du fonctionnement des pools de minage, afin de comprendre comment les mineurs parviennent à réduire la variance de leurs revenus.
+Après l'introduction, la partie 2 est le socle technique de la formation. Son but est de vous expliquer, pas à pas, comment Bitcoin produit des blocs valides. Nous commencerons par découvrir la structure d’un bloc, avant d’entrer dans le mécanisme de la preuve de travail : le rôle de la cible, du nonce et de la fonction de hachage. Enfin, nous verrons comment Bitcoin parvient à maintenir un rythme de production des blocs stable malgré les variations de la puissance de hachage, grâce au mécanisme d’ajustement de la difficulté. À l’issue de cette partie, vous comprendrez l’ensemble des rouages et des principes fondamentaux de la preuve de travail sur Bitcoin.
 
-### Partie 4 – Partie finale
+### Partie 3 – Le système d’incitations du minage de Bitcoin
+
+Dans la troisième partie, nous verrons pourquoi les mineurs sont incités à participer honnêtement au minage. Nous détaillerons le principe de la récompense de bloc, sa composition et son mode de calcul, son évolution dans le temps à travers les halvings, ainsi que le rôle spécifique de la transaction coinbase.
+
+### Partie 4 – L’industrie du minage de Bitcoin
+
+La quatrième partie replace le minage dans sa réalité opérationnelle. Elle retrace l’évolution des machines de minage, du début de Bitcoin jusqu'aux ASIC modernes, afin de comprendre les contraintes matérielles actuelles. Nous étudierons également les bases du fonctionnement des pools de minage, afin de comprendre comment les mineurs parviennent à réduire la variance de leurs revenus.
+
+### Partie 5 – Partie finale
 
 Dans la partie finale du cours, vous pourrez évaluer vos connaissances sur le minage en passant votre diplôme.
 
@@ -52,6 +59,35 @@ L’objectif de ce cours MIN 101 est donc de vous permettre de repartir avec une
 
 Prêt à découvrir le minage de Bitcoin ? C’est parti !
 
+
+## Le minage de Bitcoin expliqué simplement
+<chapterId>278577a6-98bb-4659-86c7-f6c4f6d5fa3e</chapterId>
+
+Avant de passer à l’explication détaillée et plus technique du minage de Bitcoin, je vous propose une vue d’ensemble de son principe, volontairement simple et schématique. Si vous disposez déjà de ces quelques connaissances de base, vous pouvez passer directement au vif du sujet dans le chapitre suivant, après avoir répondu aux questions du quiz. Ce chapitre s’adresse avant tout aux débutants, afin de commencer en douceur.
+
+Imaginez Bitcoin comme un grand cahier public, partagé par tout le monde, où l’on écrit qui a envoyé des bitcoins à qui. Ce cahier s’appelle la blockchain. Il ne peut pas être tenu par une seule personne, sinon il faudrait lui faire confiance. À la place, Bitcoin fonctionne de façon collective : des milliers d’ordinateurs vérifient et conservent la même version de ce cahier.
+
+![Image](assets/fr/049.webp)
+
+Dans Bitcoin, quand vous faites un paiement, vous créez une transaction. Cette transaction n’est pas ajoutée instantanément dans le cahier. Elle est d’abord envoyée au réseau, puis elle attend d’être intégrée au prochain paquet de transactions. Ce paquet s’appelle un bloc.
+
+![Image](assets/fr/050.webp)
+
+Un bloc, c’est donc simplement un ensemble de transactions regroupées. Quand un bloc est prêt, il ne suffit pas de le publier. Il faut prouver au réseau que ce bloc mérite d’être ajouté au cahier commun. C’est là qu’intervient le minage.
+
+Le minage, c’est le travail qui consiste à valider un bloc en dépensant de l’énergie. Des acteurs appelés mineurs utilisent des ordinateurs spécialisées. Ces machines consomment de l’électricité pour effectuer un très grand nombre d'essais, en boucle, jusqu’à trouver une preuve que le réseau accepte. Quand un mineur trouve cette preuve, son bloc est considéré comme valide.
+
+Une fois le bloc validé, il est diffusé au réseau. Les autres nœuds vérifient rapidement qu’il respecte bien les règles, puis ils l’ajoutent à la suite des blocs précédents. C’est pour cela qu’on parle de "blockchain" : chaque nouveau bloc vient se placer après les autres, dans un ordre séquentiel, et cette chaine grandit petit à petit.
+
+![Image](assets/fr/051.webp)
+
+Pour résumer, on a donc d’abord des transactions qui sont créées. Ensuite, elles sont regroupées dans un bloc. Ensuite, un mineur valide ce bloc en dépensant de l’électricité. Enfin, ce bloc est ajouté à la blockchain, et les transactions qu’il contient deviennent confirmées.
+
+Si des mineurs consomment de l’électricité, ce n’est pas par bénévolat. Ils le font parce qu’il y a une récompense. Quand un mineur valide un bloc, il reçoit deux types de revenus. D’un côté, il reçoit des bitcoins nouvellement créés. De l’autre, il récupère les frais payés par les utilisateurs dans les transactions incluses dans le bloc. Autrement dit, le mineur est rémunéré à la fois par une création monétaire programmée, et par un marché de frais.
+
+À ce stade, vous avez volontairement une vision très simple du minage. Elle n’explique pas encore comment le bloc est construit en détail, ni comment fonctionne exactement la preuve que les mineurs cherchent, ni comment Bitcoin garde un rythme régulier, ni comment la récompense est calculée précisément, ni comment elle est encaissée. C’est normal, c'est tout ce que nous allons voir dans la suite de ce cours MIN 101 !
+
+L’objectif de ce chapitre était simplement de vous donner une structure mentale claire : transactions → blocs → minage → blockchain → récompense. Gardez cette chaîne d’idées en tête. Dans la suite du cours, chaque chapitre viendra ajouter une couche de précision technique sur l’un de ces éléments, jusqu’à ce que vous compreniez non seulement ce qui se passe, mais aussi comment et pourquoi cela fonctionne de manière fiable, à grande échelle, sans chef, et sans besoin confiance.
 
 # Le fonctionnement de la preuve de travail
 <partId>e917e8e3-37f2-46fb-91b2-6a5ce6f0f5c3</partId>

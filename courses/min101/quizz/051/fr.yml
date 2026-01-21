@@ -1,0 +1,9 @@
+question: Quelle ressource le minage de Bitcoin a-t-il besoin d'utiliser ?
+answer: L'électricité
+wrong_answers:
+  - L'eau
+  - Les pierres précieuses
+  - L'or
+explanation: |
+  Le minage est un travail de validation qui consomme de l’électricité via des ordinateurs.
+reviewed: false

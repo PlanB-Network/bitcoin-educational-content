@@ -816,8 +816,7 @@ Keynesianisme adalah teori ekonomi yang menganjurkan intervensi aktif pemerintah
 
 
 
-Daripada membiarkan pasar mengatur dirinya sendiri, Keynes berpendapat bahwa negara harus menggunakan kebijakan fiskal dan moneter - seperti pengeluaran publik, perpajakan, dan suku bunga - untuk menstimulasi permintaan agregat pada saat resesi, atau mengekang permintaan pada saat ekonomi terlalu panas.
-
+Alih-alih membiarkan pasar mengatur dirinya sendiri, Keynes berpendapat bahwa negara perlu menggunakan kebijakan fiskal dan moneter, seperti pengeluaran publik, perpajakan, dan suku bunga, untuk mendorong permintaan agregat saat resesi, atau menahan permintaan ketika ekonomi terlalu panas.
 
 
 Keynes tidak menganjurkan laissez-faire absolut (seperti pro-pemasar murni) atau kontrol negara secara total (seperti dalam ekonomi terencana).
@@ -841,8 +840,7 @@ Konsep **konsensus yang tumpang tindih** juga merupakan inti dari pemikiran John
 
 > Konsensus yang tumpang tindih tercapai ketika warga negara, meskipun menganut doktrin komprehensif, agama, atau filosofis yang berbeda, tetap menyatu dalam seperangkat prinsip-prinsip politik keadilan yang dapat mereka setujui dari sudut pandang masing-masing.
 
-Tujuannya adalah untuk menunjukkan bahwa adalah mungkin untuk mendamaikan doktrin-doktrin fundamental yang tidak sesuai di sekitar prinsip-prinsip keadilan bersama, yang merupakan esensi dari filosofi sentris.
-
+Tujuannya adalah untuk menunjukkan bahwa doktrin-doktrin fundamental yang saling bertentangan tetap bisa didamaikan di sekitar prinsip-prinsip keadilan bersama, yang menjadi inti dari filosofi sentris.
 
 
 ## Rezim totaliter
@@ -856,8 +854,7 @@ Tujuannya adalah untuk menunjukkan bahwa adalah mungkin untuk mendamaikan doktri
 
 
 
-Penting untuk dicatat di sini bahwa istilah totalitarianisme mengacu pada sistem politik, bukan ideologi politik dalam arti konservatisme atau sentrisme. Rezim totaliter ditandai dengan kontrol negara yang luas dan koersif atas semua aspek kehidupan publik dan pribadi.
-
+Penting untuk dicatat di sini bahwa istilah totalitarianisme mengacu pada sistem politik, bukan ideologi politik dalam arti konservatisme atau sentrisme. Rezim totaliter ditandai dengan kontrol negara yang luas dan dengan paksaan atas semua aspek kehidupan publik dan pribadi.
 
 
 ![regimes totalitaires Graphique](./assets/fr/019.webp)
@@ -873,8 +870,7 @@ Penting untuk dicatat di sini bahwa istilah totalitarianisme mengacu pada sistem
 
 
 
-**Ada dua kategori umum rezim totaliter**: totaliter sayap kiri (komunisme, sosialisme nasional) dan totaliter sayap kanan (kediktatoran militer, fasisme). Namun kategori-kategori ini kehilangan maknanya jika kita memahami bahwa matriksnya sama. Ini adalah kasus Hitler dan Stalin. Terlepas dari antagonisme historis mereka, kita menemukan kultus yang sama terhadap pemimpin, perekrutan pemuda, penyensoran, pengawasan, penindasan terhadap semua oposisi, penganiayaan politik, dan penghancuran kebebasan individu.
-
+**Ada dua kategori umum rezim totaliter**: totaliter sayap kiri (komunisme, sosialisme nasional) dan totaliter sayap kanan (kediktatoran militer, fasisme). Namun kategori-kategori ini kehilangan maknanya jika kita memahami bahwa matriksnya sama. Ini terlihat pada kasus Hitler dan Stalin. Terlepas dari antagonisme historis di antara mereka, kita menemukan kultus yang sama terhadap pemimpin, perekrutan pemuda, penyensoran, pengawasan, penindasan terhadap semua bentuk oposisi, penganiayaan politik, serta penghancuran kebebasan individu.
 
 
 
@@ -910,12 +906,10 @@ Penting untuk dicatat di sini bahwa istilah totalitarianisme mengacu pada sistem
 Berikut ini adalah beberapa pertanyaan yang sering diajukan tentang isu-isu politik. Setiap pertanyaan diikuti dengan jawaban singkat yang khas dari seorang sosialis, konservatif, libertarian, dan sentris.
 
 
-
-Tentu saja, jawaban singkat ini hanya menawarkan sekilas dari setiap sudut pandang. Karena tidak semua orang berpikir dengan cara yang sama, maka jawaban yang diberikan tentu saja terbuka untuk diperdebatkan. Namun demikian, saya sudah mencoba untuk bersikap adil dan secara akurat mewakili pendapat sebagian besar orang.
-
+Tentu saja, jawaban singkat ini hanya memberikan gambaran sekilas dari setiap sudut pandang. Karena tidak semua orang berpikir dengan cara yang sama, jawaban-jawaban ini tentu terbuka untuk diperdebatkan. Meski begitu, aku sudah berusaha untuk bersikap adil dan secara akurat mewakili pandangan sebagian besar orang.
 
 
-Masalah sosial bukan tentang uang, tetapi tentang pilihan yang kita buat tentang apa yang kita baca, makan, minum, merokok, pakaian, atau dengan siapa kita memilih untuk bergaul, tidur, atau menikah.
+Masalah sosial bukan soal uang, melainkan soal pilihan yang kita buat tentang apa yang kita baca, makan, minum, merokok, pakaian yang kita kenakan, atau dengan siapa kita memilih untuk bergaul, tidur, atau menikah.
 
 
 
@@ -928,25 +922,25 @@ Masalah sosial bukan tentang uang, tetapi tentang pilihan yang kita buat tentang
 
 
 
-- Kaum Sosialis:** Ya, mereka melihat mayoritas heteroseksual menindas minoritas homoseksual dengan tidak memperbolehkan mereka menikah, dan dengan sendirinya mendukung reformasi. Kaum sosialis ingin memaksakan konsepsi tunggal tentang pernikahan sipil, termasuk homoseksualitas, sehingga merugikan mereka yang menganggap pernikahan hanya antara pria dan wanita. Oleh karena itu, melegalkan pernikahan gay merupakan tindakan keadilan sosial yang mendorong masyarakat yang lebih inklusif dan toleran. Hal ini memastikan bahwa pasangan sesama jenis menikmati hak-hak hukum yang sama (warisan, perpajakan, filiasi, dll.) dan perlindungan seperti pasangan heteroseksual, sehingga menjembatani ketidaksetaraan secara de facto. Inti dari argumen ini adalah keyakinan bahwa semua warga negara harus diperlakukan sama di mata hukum, tanpa memandang orientasi seksualnya. Menolak pernikahan pasangan sesama jenis dipandang sebagai diskriminasi yang tidak dapat diterima.
+- Kaum Sosialis:** Ya, mereka melihat mayoritas heteroseksual menindas minoritas homoseksual dengan melarang mereka menikah, sehingga secara otomatis mendukung reformasi. Kaum sosialis ingin memberlakukan satu konsepsi tentang pernikahan sipil, termasuk pernikahan sesama jenis, meskipun hal ini merugikan mereka yang memandang pernikahan hanya sah antara pria dan wanita. Karena itu, melegalkan pernikahan gay dianggap sebagai tindakan keadilan sosial yang mendorong masyarakat yang lebih inklusif dan toleran. Hal ini memastikan bahwa pasangan sesama jenis menikmati hak-hak hukum yang sama, seperti warisan, perpajakan, filiasi, dan lain-lain, serta perlindungan yang setara dengan pasangan heteroseksual, sehingga mengurangi ketimpangan secara de facto. Inti dari argumen ini adalah keyakinan bahwa semua warga negara harus diperlakukan sama di hadapan hukum, tanpa memandang orientasi seksual. Menolak pernikahan pasangan sesama jenis dipandang sebagai bentuk diskriminasi yang tidak dapat diterima.
 
 
 
 
 
-- Konservatif:** Tidak. Mereka melihat pernikahan tradisional sebagai institusi fundamental peradaban Barat, yang sudah ada sejak 2.500 tahun yang lalu dan secara historis didefinisikan sebagai persatuan antara seorang pria dan seorang wanita. Definisi ini tidak sembarangan, tetapi didasarkan pada dasar biologis (kemampuan untuk berkembang biak secara alami) dan budaya/agama. Pendefinisian ulang yang radikal atas pernikahan dipandang sebagai ancaman bagi masyarakat yang beradab. Melegalkan pernikahan gay berarti mendenaturasi atau mendefinisikan ulang institusi yang sakral dan fundamental ini, mengosongkan makna asli dan panggilan utamanya, yaitu prokreasi dan fondasi keluarga dalam bentuknya yang alamiah. Norma-norma sosial yang berubah dengan cepat sering kali dipandang dengan penuh kecurigaan, karena hal itu dapat menyebabkan hilangnya titik acuan dan hilangnya identitas budaya atau nasional. Pernikahan dipandang sebagai pilar dari tatanan ini.
+- Konservatif:** Tidak. Mereka memandang pernikahan tradisional sebagai institusi fundamental peradaban Barat, yang telah ada selama sekitar 2.500 tahun dan secara historis didefinisikan sebagai persatuan antara seorang pria dan seorang wanita. Definisi ini bukan dibuat secara sembarangan, melainkan berakar pada dasar biologis, yaitu kemampuan untuk berkembang biak secara alami, serta pada fondasi budaya dan agama. Pendefinisian ulang pernikahan secara radikal dipandang sebagai ancaman bagi masyarakat yang beradab. Melegalkan pernikahan gay dianggap sebagai tindakan yang mendenaturasi atau mendefinisikan ulang institusi yang sakral dan mendasar ini, sehingga mengosongkan makna asli serta tujuan utamanya, yakni prokreasi dan pembentukan keluarga dalam bentuk yang alamiah. Perubahan norma sosial yang terjadi terlalu cepat sering kali disikapi dengan kecurigaan, karena dikhawatirkan dapat menghilangkan titik acuan serta identitas budaya atau nasional. Dalam kerangka ini, pernikahan dipandang sebagai salah satu pilar utama tatanan tersebut.
 
 
 
 
 
-- Libertarian:** Ya dan tidak. Pendekatan libertarian yang konsisten adalah mempertahankan privatisasi pernikahan, yaitu pernikahan yang sepenuhnya bebas dari campur tangan negara. Pernikahan adalah institusi non-negara, dan negara tidak memiliki urusan untuk memaksa orang lain untuk mengakui pernikahan tradisional atau gay. Solusinya? Singkirkan kewajiban pernikahan sipil dan serahkan peran ini pada asosiasi swasta: gereja, sinagog, masjid, atau organisasi sekuler swasta. Solusi politik ini, yang menghormati hak-hak kepemilikan dan kebebasan individu, dapat disebut sebagai pemisahan antara pernikahan dan negara.
+- Libertarian:** Ya dan tidak. Pendekatan libertarian yang konsisten adalah mempertahankan privatisasi pernikahan, yaitu pernikahan yang sepenuhnya bebas dari campur tangan negara. Pernikahan dipandang sebagai institusi non-negara, dan negara tidak punya urusan untuk memaksa orang lain mengakui pernikahan tradisional maupun pernikahan gay. Solusinya? Hapus kewajiban pernikahan sipil dan serahkan peran ini kepada asosiasi swasta, seperti gereja, sinagoga, masjid, atau organisasi sekuler swasta. Solusi politik ini, yang menghormati hak kepemilikan dan kebebasan individu, dapat disebut sebagai pemisahan antara pernikahan dan negara.
 
 
 
 
 
-- Kaum sentris:** Ya. Kaum sentris akan mengakui bahwa masyarakat telah berevolusi dan bahwa sebagian besar penduduk menginginkan pasangan sesama jenis diakui. Mereka menganut prinsip non-diskriminasi dan percaya bahwa setiap orang memiliki hak untuk menjalani kehidupan yang mereka pilih, termasuk serikat pekerja yang sah. Mereka akan peka terhadap argumen bahwa pasangan sesama jenis harus menikmati hak-hak dan perlindungan hukum yang sama (warisan, perlindungan sosial, perpajakan) dengan pasangan heteroseksual. Bagi kaum sentris, negara harus mencerminkan keragaman warganya dan modernisasi hukum, dengan tetap mempertahankan kohesi sosial tertentu.
+- Kaum sentris:** Ya. Kaum sentris mengakui bahwa masyarakat telah berevolusi dan bahwa sebagian besar penduduk ingin pasangan sesama jenis diakui. Mereka berpegang pada prinsip non-diskriminasi dan percaya bahwa setiap orang berhak menjalani kehidupan yang mereka pilih, termasuk membentuk serikat yang sah. Mereka juga peka terhadap argumen bahwa pasangan sesama jenis harus menikmati hak dan perlindungan hukum yang sama, seperti warisan, perlindungan sosial, dan perpajakan, sebagaimana pasangan heteroseksual. Bagi kaum sentris, negara perlu mencerminkan keragaman warganya dan memodernisasi hukum, sambil tetap menjaga tingkat kohesi sosial tertentu.
 
 
 
@@ -959,25 +953,24 @@ Masalah sosial bukan tentang uang, tetapi tentang pilihan yang kita buat tentang
 
 
 
-- Sosialis:** Ya. Mereka melihat imigran ilegal sebagai kelompok yang tertindas dan orang kulit putih kelahiran asli, yang memusuhi imigran, sebagai penindasnya. Selain itu, pembatasan berdasarkan kewarganegaraan atau agama adalah diskriminatif dan bertentangan dengan hak asasi manusia. Negara memiliki kewajiban untuk menyambut orang-orang yang membutuhkan dan mempromosikan keragaman dan integrasi.
+- Sosialis:** Ya. Mereka memandang imigran ilegal sebagai kelompok yang tertindas, sementara penduduk asli kulit putih yang memusuhi imigran diposisikan sebagai pihak penindas. Selain itu, pembatasan berdasarkan kewarganegaraan atau agama dianggap diskriminatif dan bertentangan dengan hak asasi manusia. Negara dipandang memiliki kewajiban untuk menerima orang-orang yang membutuhkan serta mendorong keragaman dan integrasi.
+
+
+
+
+- Konservatif:** Tidak. Negara dipandang memiliki hak berdaulat untuk mengendalikan perbatasannya dan menentukan siapa yang boleh masuk ke wilayahnya. Pembatasan dianggap perlu untuk melindungi keamanan nasional, identitas budaya, serta kemampuan masyarakat untuk berintegrasi. Mereka khawatir bahwa membiarkan imigrasi tanpa batas dapat menggerus identitas bangsa dan, lebih jauh lagi, merusak lapangan pekerjaan, termasuk bagi warga negara dengan pekerjaan paling sederhana. Perbatasan yang jelas dan populasi yang terdefinisi dengan baik dipandang sebagai bagian dari nilai-nilai masyarakat yang beradab.
 
 
 
 
 
-- Konservatif:** Tidak. Negara memiliki hak berdaulat untuk mengontrol perbatasannya dan memilih siapa yang memasuki wilayahnya. Pembatasan mungkin diperlukan untuk melindungi keamanan nasional, identitas budaya, atau kemampuan masyarakat untuk berintegrasi. Mereka khawatir bahwa mengizinkan imigrasi akan menghancurkan identitas bangsa, dan lebih jauh lagi merusak pekerjaan warga negara yang paling sederhana sekalipun. Perbatasan dan populasi yang terdefinisi dengan baik adalah bagian dari nilai-nilai yang beradab.
+- Libertarian:** Ya dan tidak. Ya untuk imigrasi pasar, dan tidak untuk imigrasi negara. Dalam dunia yang sangat disponsori negara, imigrasi selalu disertai subsidi dan menciptakan klaim yang merugikan atas tenaga kerja orang lain, yaitu hak-hak buatan yang pada dasarnya merupakan bentuk transfer ekonomi. Namun, dari sudut pandang poros kebebasan dan paksaan, perbatasan terbuka memberi individu pilihan atas pemerintah dan kemampuan untuk memilih dengan kakinya. Karena itu, kebijakan imigrasi yang paling baik adalah mengurangi campur tangan negara dan membiarkan warga negara memutuskan sendiri.
 
 
 
 
 
-- Libertarian:** Ya dan tidak. Ya untuk imigrasi pasar dan tidak untuk imigrasi negara. Karena di dunia yang sangat disponsori negara, imigrasi selalu disubsidi dan menciptakan klaim yang tidak menguntungkan terhadap tenaga kerja orang lain, yaitu hak buatan, suatu bentuk transfer ekonomi. Namun, dari sudut pandang poros kebebasan/paksaan, perbatasan terbuka memberikan individu pilihan pemerintah dan kemampuan untuk memilih dengan kakinya. Inilah sebabnya mengapa kebijakan imigrasi terbaik adalah mengurangi keterlibatan negara dan membiarkan warga negara memutuskan sendiri.
-
-
-
-
-
-- Sentris:** Pemerintah harus mengelola imigrasi dengan cara yang seimbang. Meskipun pembatasan berdasarkan agama pada umumnya tidak dapat diterima, pembatasan berdasarkan kewarganegaraan atau keterampilan mungkin diperlukan untuk memenuhi kebutuhan ekonomi dan memastikan integrasi yang sukses, sambil menghormati konvensi internasional dan hak asasi manusia.
+- Sentris:** Pemerintah perlu mengelola imigrasi secara seimbang. Meskipun pembatasan berdasarkan agama umumnya tidak dapat diterima, pembatasan berdasarkan kewarganegaraan atau keterampilan terkadang diperlukan untuk memenuhi kebutuhan ekonomi dan memastikan integrasi yang berhasil, sambil tetap menghormati konvensi internasional dan hak asasi manusia.
 
 
 

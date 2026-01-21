@@ -1,5 +1,5 @@
 ---
-term: AVG. ROUND SÜRESİ
+term: Average round duration
 ---
 
 Ortalama tur süresi, ağın zorluğuna ve havuzun Hashrate'ine bağlı olarak bir Mining pool'ın bir blok bulması için gereken süreyi tahmin etmek için kullanılan bir göstergedir. Bir bloğu bulması beklenen hisse sayısı alınarak ve havuzun Hashrate'ine bölünerek hesaplanır. Örneğin, bir Mining pool'ın 200 madencisi varsa ve her biri saniyede ortalama 4 hisse üretiyorsa, havuzun toplam hesaplama gücü saniyede 800 hissedir:

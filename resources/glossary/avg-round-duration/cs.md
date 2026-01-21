@@ -1,5 +1,5 @@
 ---
-term: AVG. DÉLKA TRVÁNÍ KOLA
+term: Average round duration
 
 ---
 Průměrná doba trvání kola je ukazatel, který se používá k odhadu doby, za kterou těžební pool nalezne blok, a to na základě obtížnosti sítě a hashrate poolu. Vypočítá se tak, že se vezme počet podílů očekávaných k nalezení bloku a vydělí se hashrate poolu. Pokud má například těžební pool 200 těžařů a každý z nich vygeneruje v průměru 4 akcie za sekundu, je celkový výpočetní výkon poolu 800 akcií za sekundu:

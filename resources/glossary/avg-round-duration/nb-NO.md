@@ -1,5 +1,5 @@
 ---
-term: AVG. RUNDE VARIGHET
+term: Average round duration
 
 ---
 Gjennomsnittlig rundevarighet er en indikator som brukes til å estimere hvor lang tid det tar for en utvinningspool å finne en blokk, basert på nettverkets vanskelighetsgrad og poolens hashrate. Den beregnes ved å ta antall aksjer som forventes å finne en blokk, og dividere det med poolens hashrate. Hvis en utvinningspool for eksempel har 200 utvinnere, og hver av dem i gjennomsnitt genererer fire aksjer per sekund, er poolens totale regnekraft 800 aksjer per sekund:

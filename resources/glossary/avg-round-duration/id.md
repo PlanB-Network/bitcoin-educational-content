@@ -1,5 +1,5 @@
 ---
-term: DURASI PUTARAN RATA-RATA
+term: Average round duration
 
 ---
 Durasi putaran rata-rata adalah sebuah indikator yang digunakan untuk memperkirakan waktu yang dibutuhkan oleh sebuah kolam penambangan (_mining pool_) untuk menemukan sebuah blok, berdasarkan tingkat kesulitan jaringan dan _hashrate_ kolam tersebut. Hal ini dihitung dengan mengambil jumlah bagian (_share_) yang diharapkan untuk menemukan sebuah blok dan membaginya dengan _hashrate_ kolam. Sebagai contoh, jika sebuah _mining pool_ memiliki 200 penambang, dan masing-masing menghasilkan rata-rata 4 _share_ per detik, maka total daya komputasi dari pool tersebut adalah 800 _share_ per detik:

@@ -1,7 +1,7 @@
 question: 當今市場上哪種節點盒解決方案居於領導地位？
-answer: 傘
+answer: Umbrel
 wrong_answers:
-  - 開始9
+  - Start9
   - Nodl
   - RoninDojo
 explanation: |

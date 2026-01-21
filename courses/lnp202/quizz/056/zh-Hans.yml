@@ -1,0 +1,9 @@
+question: 移动应用程序在中继器上发布 NWC 请求后紧接着哪个步骤？
+answer: 节点解密并验证授权
+wrong_answers:
+  - 中继为节点签署请求
+  - 中继器对 LND 执行付款
+  - 节点自动打开通道
+explanation: |
+  节点读取事件并解密，然后在执行操作前检查作者是否获得授权。
+reviewed: false

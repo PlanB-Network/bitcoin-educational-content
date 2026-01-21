@@ -1,0 +1,9 @@
+question: インバウンドの流動性に関するフリー・ソリューションのうち、協力に基づくものはどれだろう？
+answer: LN+
+wrong_answers:
+  - マグマ
+  - Boltz
+  - 1ML
+explanation: |
+  Lightning Networkプラスは、円形のチャンネル開口部を通じて流動性を供給する。
+reviewed: false

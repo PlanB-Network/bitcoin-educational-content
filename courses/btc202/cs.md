@@ -328,7 +328,7 @@ K interakci se sítí potřebuje uzel Miner uzel Bitcoin.
 
 
 
-Úloha Miner se také někdy odlišuje od úlohy vrtulníku. Sekáček je stroj, jehož úkolem je Hash šablonovat bloky dodané serverem poolu a hledat hashe, které splňují cíl obtížnosti definovaný pro sdílení, a nikoliv pro Bitcoin. Zbytek procesu Mining, který zahrnuje vlastní konstrukci bloků, výběr transakcí nebo vyhledávání Proof-of-Work podle vlastní obtížnosti Bitcoin a také distribuci, provádí přímo pooly.
+Úloha Miner se také někdy odlišuje od úlohy grind. Grind je stroj, jehož úkolem je Hash šablonovat bloky dodané serverem poolu a hledat hashe, které splňují cíl obtížnosti definovaný pro sdílení, a nikoliv pro Bitcoin. Zbytek procesu Mining, který zahrnuje vlastní konstrukci bloků, výběr transakcí nebo vyhledávání Proof-of-Work podle vlastní obtížnosti Bitcoin a také distribuci, provádí přímo pooly.
 
 
 
@@ -2514,9 +2514,11 @@ Nakonec doporučuji aplikaci *Lightning Network+*, která umožňuje vyhledat pa
 
 
 
-Díky Umbrelu se správa osobního uzlu Lightning výrazně zjednodušila, ale stále je poměrně složitá. Z tohoto důvodu se tomuto tématu budeme blíže věnovat v některém z budoucích kurzů, který bude celý věnován tomuto využití.
+Díky Umbrelu je správa osobního Lightning uzlu zjednodušená, nicméně stále zůstává poměrně složitá. Proto vám doporučuji absolvovat kurz LNP 202, který je logickým pokračováním kurzu BTC 202 a ve kterém vás krok za krokem provedu nastavením a správou vašeho Lightning uzlu na Umbrelu.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Stupnice ocasu
 
@@ -3894,11 +3896,13 @@ Nyní můžete přejít k závěrečné části kurzu, kde si budete moci vyhodn
 
 
 
-Nyní máte několik možností. Dalším logickým krokem je zřízení vlastního uzlu Lightning, který vám umožní být plně nezávislý na transakcích off-chain. To bude předmětem připravovaného kurzu, který bude zveřejněn na podzim tohoto roku 2025 na téma Plan ₿ Academy.
+Nyní se vám nabízí několik cest. Dalším logickým krokem je nastavení vlastního Lightning uzlu, abyste byli plně nezávislí při svých off-chain transakcích. Právě tomu se věnuje další kurz na Plan ₿ Academy:
 
 
 
-Mezitím vás zvu na školení BTC 204, které vám umožní pochopit a osvojit si zásady ochrany soukromí při používání systému Bitcoin:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Rovněž vás zvu k objevení kurzu BTC 204, který vám umožní porozumět a zvládnout principy ochrany soukromí při používání Bitcoinu:
 
 
 

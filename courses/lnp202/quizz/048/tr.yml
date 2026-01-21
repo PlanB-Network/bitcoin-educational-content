@@ -1,0 +1,9 @@
+question: Gelen likidite için hangi ücretsiz çözüm işbirliğine dayanır?
+answer: LN+
+wrong_answers:
+  - Magma
+  - Boltz
+  - 1ML
+explanation: |
+  Lightning Network Plus, dairesel kanal açıklıkları aracılığıyla gelen likiditeyi sağlar.
+reviewed: false

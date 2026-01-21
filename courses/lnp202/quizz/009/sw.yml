@@ -1,0 +1,9 @@
+question: Mhudumu wa uangalizi ana mamlaka gani juu ya malipo ya watumiaji wake?
+answer: Nguvu ya udhibiti
+wrong_answers:
+  - Nguvu ya Mining
+  - Nguvu ya makubaliano
+  - Nguvu ya Halving
+explanation: |
+  Mendeshaji anayedhibiti fedha na njia anaweza kuzuia, kuchelewesha au kuchuja malipo.
+reviewed: false

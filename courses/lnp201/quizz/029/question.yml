@@ -16,7 +16,7 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.21
   - language: de
     last_contribution_date:
     urgency: 1
@@ -27,28 +27,28 @@ proofreading:
     urgency: 1
     contributor_names:
       - 2raj2raj
-    reward: 0.08
+    reward: 0.09
   - language: es
     last_contribution_date: '2025-12-04'
     urgency: 1
     contributor_names:
       - Salgraphics
-    reward: 0.08
+    reward: 0.09
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.21
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.21
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.21
+    reward: 0.25
   - language: it
     last_contribution_date: '2025-08-18'
     urgency: 1
@@ -60,12 +60,12 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.21
+    reward: 0.28
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.21
   - language: pt
     last_contribution_date:
     urgency: 1
@@ -75,49 +75,49 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.21
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.21
+    reward: 0.28
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.21
+    reward: 0.25
   - language: pl
     last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
       - MisinhaP
-    reward: 0.09
+    reward: 0.1
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.21
+    reward: 0.28
   - language: sr-Latn
     last_contribution_date: '2025-11-05'
     urgency: 1
     contributor_names:
       - Sanja22B
-    reward: 0.09
+    reward: 0.12
   - language: sw
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.21
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.21
+    reward: 0.25
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.21
   - language: sv
     last_contribution_date:
     urgency: 1
@@ -127,29 +127,29 @@ proofreading:
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.21
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.21
+    reward: 0.25
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.21
+    reward: 0.25
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.21
+    reward: 0.28
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.19
+    reward: 0.21
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 0.21
+    reward: 0.25

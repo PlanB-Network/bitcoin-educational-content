@@ -1,0 +1,9 @@
+question: Miks kasutada Lightning node manager'i?
+answer: Lihtne juurdepääs täiustatud funktsioonidele
+wrong_answers:
+  - LND rakendamise asendamine
+  - Kõrvaldada sõltuvus Umbrel-st
+  - Lightning-protokolli muutmine
+explanation: |
+  Täiustatud haldurid pakuvad funktsioone, mida põhiliideses ei ole võimalik kasutada, jäädes samas lihtsaks kasutajaliideseks.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni kuki umucuruzi w’umuyagankuba adashobora kwizigira amahera yiwe bwite ku mafaranga yinjira ya generate?
+answer: Akenshi ni uruja n'uruza
+wrong_answers:
+  - Ahanini amasohoka asohoka
+  - Imirongo mito cane
+  - Amafaranga menshi
+explanation: |
+  Mu gutanga amahera ataco akoresheje, uwo mudandaza ntashobora gukura amahera mu nzira ziwe.
+reviewed: false

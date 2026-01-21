@@ -1,0 +1,9 @@
+question: Hva representerer Lightning wallet-saldoen som vises på LND-applikasjonsgrensesnittet?
+answer: Summen av utgående likviditet
+wrong_answers:
+  - Summen av påkjeder
+  - Summen av inngående likviditet
+  - Summen av kanalkapasiteter
+explanation: |
+  Lynbalansen tilsvarer sats som er tilgjengelig for bruk via kanalene, det vil si summen av utgående likviditet fra alle nodens kanaler.
+reviewed: false

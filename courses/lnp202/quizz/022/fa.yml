@@ -1,0 +1,9 @@
+question: LND seed می‌تواند به‌طور مستقل چه چیزی را بازیابی کند؟
+answer: روی زنجیره wallet
+wrong_answers:
+  - کانال‌ها را باز کنید
+  - وضعیت کانال‌ها
+  - هیچ چیز
+explanation: |
+  seed زنجیره‌ای Bitcoin را از wallet بازیابی می‌کند، اما کانال‌های فعال Lightning را نه.
+reviewed: false

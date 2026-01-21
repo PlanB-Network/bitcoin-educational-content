@@ -1,0 +1,9 @@
+question: Qual é o mecanismo que impede a libertação de um estado antigo do canal Lightning?
+answer: A chave de revogação
+wrong_answers:
+  - Taxas de transação
+  - Relógios absolutos
+  - Fofocas da rede
+explanation: |
+  As chaves de revogação são utilizadas para penalizar um nó que tenta publicar um estado de canal antigo.
+reviewed: false

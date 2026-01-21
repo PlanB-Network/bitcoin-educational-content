@@ -1,0 +1,9 @@
+question: UmbrelにLNDをインストールするための前提条件は？
+answer: 同期Bitcoinノード
+wrong_answers:
+  - Umbrel プレミアム・アカウント
+  - 既存のライトニング・チャンネル
+  - ライトニングアドレス アクティブ
+explanation: |
+  LNDは、100％同期したBitcoinノードに依存している。
+reviewed: false

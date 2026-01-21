@@ -1,0 +1,9 @@
+question: Manakah dari alat ini yang tidak mengidentifikasi rekan-rekan yang relevan di Lightning?
+answer: Electrum
+wrong_answers:
+  - Terminal Petir
+  - Amboss
+  - 1ML
+explanation: |
+  Electrum bukanlah penjelajah Lightning untuk mendapatkan informasi tentang node jaringan. Sebaliknya, tiga alat lainnya, melakukan fungsi ini dengan baik.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Ni akaga nyamukuru akahe umunara w’inderetsi ugamije gukingira?
+answer: Guhendana na leta ya kera
+wrong_answers:
+  - 51% igitero
+  - Ubusuma bw'imbuto
+  - Guhenda na leta nshasha
+explanation: |
+  Umunara w’inderetsi ukingira gusohora igitabu ca kera c’umurongo wa Leta kigamije kwiba amahera.
+reviewed: false

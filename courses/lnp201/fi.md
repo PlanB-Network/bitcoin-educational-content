@@ -1023,6 +1023,10 @@ Olemme nähneet, että likviditeetin hallinta on haaste Lightning-verkossa maksu
 
 ![LNP201](assets/en/084.webp)
 
+Nyt kun olet ymmärtänyt Lightning Networkin teoreettisen toiminnan, voit siirtyä käytäntöön ja ottaa käyttöön ensimmäisen Lightning-solmusi saavuttaaksesi enemmän autonomiaa käytössäsi. Tätä varten seuraa LNP 202 -kurssia:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
 # Lopullinen osio
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>

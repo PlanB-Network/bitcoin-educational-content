@@ -1,0 +1,9 @@
+question: ¿Cuántas palabras contiene la frase mnemotécnica LND?
+answer: 24 palabras
+wrong_answers:
+  - 10 palabras
+  - 18 palabras
+  - 36 palabras
+explanation: |
+  LND generates una frase mnemotécnica de 24 palabras para la copia de seguridad y recuperación de nodos.
+reviewed: false

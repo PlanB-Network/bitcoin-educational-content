@@ -1,0 +1,9 @@
+question: Lightning 節點的 Node ID 代表什麼？
+answer: 節點公開金鑰與位址
+wrong_answers:
+  - 節點 seed 和位址
+  - 節點別名和公開金鑰
+  - Hash 節點別名和 seed
+explanation: |
+  節點 ID 結合了節點的公開金鑰及其網路位址和連接埠。
+reviewed: false

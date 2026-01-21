@@ -1,9 +1,9 @@
-question: Mis on Bitcoini võrgu rütm?
-answer: 10 minutit bloki kohta
+question: Milline on olnud Bitcoini võrguühenduse kättesaadavus alates 2009. aastast?
+answer: 99,988%.
 wrong_answers:
-  - 10 sekundit bloki kohta
-  - 10 minutit tehingu kohta
-  - 10 sekundit tehingu kohta
+  - 100%.
+  - 90,009%.
+  - 80,17%.
 explanation: |
-  Bitcoini võrgu rütm on 10 minutit bloki kohta. See on nagu Bitcoini rahandussüsteemi südamelöök.
+  Bitcoini võrguühenduse kättesaadavus on olnud 99,988% alates 2009. aastast.
 reviewed: true

@@ -5,8 +5,6 @@ wrong_answers:
   - Firma działająca w sektorze technologicznym.
   - Firma, która została dofinansowana przez rząd.
 explanation: |
-  Spółka zombie to spółka, która w normalnych warunkach rynkowych byłaby niewypłacalna lub bliska bankructwa
-  niewypłacalna lub bliska bankructwa, ale kontynuuje działalność głównie dzięki tanim pożyczkom
-  tanich pożyczek. Firmy te zarabiają wystarczająco dużo pieniędzy, aby pokryć swoje długi, ale nie są w stanie
+  Spółka zombie to spółka, która w normalnych warunkach rynkowych byłaby niewypłacalna lub bliska bankructwa, ale kontynuuje działalność głównie dzięki tanim pożyczkom. Firmy te zarabiają wystarczająco dużo pieniędzy, aby pokryć swoje długi, ale nie są w stanie
   znacząco się rozwijać.
-reviewed: false
+reviewed: true

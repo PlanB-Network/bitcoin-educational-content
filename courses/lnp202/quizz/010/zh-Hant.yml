@@ -1,0 +1,9 @@
+question: 什麼標準決定您選擇 Lightning 解決方案？
+answer: 使用頻率與管理意願
+wrong_answers:
+  - 交換金額與通訊協定速度
+  - 地理位置與教育
+  - 風險承受能力與軟體設計
+explanation: |
+  選擇主要取決於 Lightning 的使用頻率，以及您對技術管理的喜好程度。
+reviewed: false

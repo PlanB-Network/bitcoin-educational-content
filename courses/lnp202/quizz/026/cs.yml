@@ -1,0 +1,9 @@
+question: Co může strážní věž v běžném provozu zjistit o kanálu, který chrání?
+answer: Jak často je jeho stav aktualizován
+wrong_answers:
+  - Přidělení Liquidity
+  - Jeho kapacita
+  - Politika výdajů
+explanation: |
+  Pro každý nový stav přijímá šifrované pakety, které odhalují pouze běžnou míru aktivity.
+reviewed: false

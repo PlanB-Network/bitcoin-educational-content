@@ -1,0 +1,9 @@
+question: ¿Por qué un operador de nodos comerciales Lightning no puede confiar en sus propios pagos para generate liquidez entrante?
+answer: Mayoritariamente flujos entrantes
+wrong_answers:
+  - Flujos principalmente salientes
+  - Canales demasiado pequeños
+  - Elevadas comisiones en cadena
+explanation: |
+  Al cobrar sin gastar, el comerciante no saca liquidez de sus canales de forma natural.
+reviewed: false

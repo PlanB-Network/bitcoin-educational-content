@@ -1,0 +1,9 @@
+question: Waarom is het consumentenprofiel eenvoudig te beheren?
+answer: Weinig behoefte aan inkomende liquiditeit
+wrong_answers:
+  - Geen kanaal nodig
+  - Weinig behoefte aan uitgaande liquiditeit
+  - Geen back-up nodig
+explanation: |
+  Consumenten hebben niet veel inkomende liquiditeit nodig en uitgaande betalingen creëren op natuurlijke wijze wat inkomende liquiditeit zonder complexe strategie.
+reviewed: false

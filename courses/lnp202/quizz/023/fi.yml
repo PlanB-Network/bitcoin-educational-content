@@ -1,0 +1,9 @@
+question: Mikä on LND:n seed-formaatin nimi?
+answer: aezeed
+wrong_answers:
+  - BIP39
+  - inseed
+  - BIP32
+explanation: |
+  LND käyttää erityistä seed:ää nimeltä aezeed, joka eroaa klassisesta BIP39 seed:stä.
+reviewed: false

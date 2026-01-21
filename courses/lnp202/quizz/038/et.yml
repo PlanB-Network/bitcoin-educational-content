@@ -1,0 +1,9 @@
+question: Miks on tarbijaprofiili lihtne hallata?
+answer: Väike vajadus sissetuleva likviidsuse järele
+wrong_answers:
+  - Kanalit ei ole vaja
+  - Väike vajadus väljamineva likviidsuse järele
+  - Ei ole vaja varukoopiaid
+explanation: |
+  Tarbijad ei vaja palju sissetulevat likviidsust ja väljaminevad maksed loovad loomulikult ilma keerulise strateegiata mõningast sissetulevat likviidsust.
+reviewed: false

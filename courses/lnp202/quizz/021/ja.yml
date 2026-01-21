@@ -1,0 +1,9 @@
+question: LNDの詳細なチャンネル・ステータスを含むファイルはどれか？
+answer: チャンネルDB
+wrong_answers:
+  - wallet.db
+  - 雷.db
+  - peers.db
+explanation: |
+  channel.dbファイルには、チャネルの状態、ピア、commitment transactionが格納される。
+reviewed: false

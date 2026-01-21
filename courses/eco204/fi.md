@@ -422,7 +422,7 @@ Havainnollistava esimerkki MMT:stä on Yhdysvaltain sotateollisuuskompleksi. MMT
 MMT:n kannattajat mainitsevat usein Japanin toisena esimerkkinä siitä, että siellä ei ole inflaatiota merkittävästä rahapainamisesta huolimatta. Japanin tilanne korostaa kuitenkin myös perinteisten inflaatiomittareiden, kuten kuluttajahintaindeksin (CPI), rajoituksia. Japanissa merkittävä osa painetusta rahasta joko säästetään tai sijoitetaan kiinteistöihin tai osakemarkkinoille sen sijaan, että se käytettäisiin juoksevaan kulutukseen. Koska kuluttajahintaindeksi ei täysin kuvaa tätä dynamiikkaa, se saattaa aliarvioida todellista inflaatiota.
 
 
-Japanin analyysissä (https://ideas.repec.org/p/ces/ceswps/_9821.html) korostetaan myös, että talouden toimijoiden käyttäytyminen, kuten säästäminen tai sijoittaminen varoihin, jotka eivät sisälly kuluttajahintaindeksiin, voi peittää rahapainamisen inflaatiovaikutuksen. Lisäksi eri sektoreiden kyky ottaa vastaan lisää likviditeettiä on ratkaisevassa asemassa määriteltäessä, syntyykö inflaatiota.
+[Japanin analyysi](https://ideas.repec.org/p/ces/ceswps/_9821.html) tuo myös esiin, että taloudellisten toimijoiden käyttäytyminen, kuten säästäminen tai sijoittaminen omaisuuseriin, jotka eivät sisälly kuluttajahintaindeksiin, voi peittää rahapoliittisen elvytyksen inflaatiovaikutuksen. Lisäksi eri sektorien kyky imeä ruiskutettua likviditeettiä on ratkaisevassa asemassa inflaation ilmenemisessä tai sen puuttumisessa.
 
 
 #### Pankkien ja keskuspankkien taseet

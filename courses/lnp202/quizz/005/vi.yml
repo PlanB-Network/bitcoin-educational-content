@@ -1,0 +1,9 @@
+question: Nhà điều hành Lightning wallet có thể thu thập những dữ liệu nào về người dùng của mình?
+answer: Tất cả dòng chảy của họ
+wrong_answers:
+  - Danh tính của họ
+  - Thông tin chi tiết về các khoản thanh toán của họ, nhưng không bao gồm số tiền
+  - Chi phí thanh toán của họ, nhưng không bao gồm số tiền
+explanation: |
+  Nhà điều hành có quyền truy cập vào số tiền, tần suất giao dịch, người nhận và thói quen thanh toán của người dùng - nói tóm lại, họ có thể theo dõi mọi thứ, ngay cả khi các dịch vụ này thường không yêu cầu xác minh danh tính khách hàng (KYC).
+reviewed: false

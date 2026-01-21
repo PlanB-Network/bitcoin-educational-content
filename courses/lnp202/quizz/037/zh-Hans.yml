@@ -1,0 +1,9 @@
+question: 闪电商户的首要任务是什么？
+answer: 获取入境流动资金
+wrong_answers:
+  - 获取境外流动性
+  - 节省路由成本
+  - 获得良好的 LN+ 评价
+explanation: |
+  商家必须能够在不失败的情况下套现，这就要求有足够的进货流动资金。
+reviewed: false

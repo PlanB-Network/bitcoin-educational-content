@@ -1,0 +1,9 @@
+question: Miksi välttää hyvin suuria solmuja ensimmäisen kanavan kohdalla?
+answer: Rajoittavat politiikat
+wrong_answers:
+  - Vähäinen liitettävyys
+  - Liian alhaiset kustannukset
+  - Maksuvalmiuden puute
+explanation: |
+  Hyvin suuret solmut asettavat usein suuria vähimmäismääriä ja sulkevat helposti pienet kanavat.
+reviewed: false

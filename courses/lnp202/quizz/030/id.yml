@@ -1,0 +1,9 @@
+question: Dari sudut pandang node Anda, bagaimana distribusi awal likuiditas setelah membuka saluran?
+answer: 100% keluar
+wrong_answers:
+  - 50% masuk 50% keluar
+  - 100% masuk
+  - 90% keluar 10% masuk
+explanation: |
+  Ketika sebuah channel dibuka, semua likuiditas pada awalnya berada di pihak inisiator.
+reviewed: false

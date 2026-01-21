@@ -5,8 +5,6 @@ wrong_answers:
   - Popyt na banknoty spada.
   - Wartość aktywów rzeczowych spada.
 explanation: |
-  W pewnych okolicznościach gospodarczych, takich jak hiperinflacja, wewnętrzna wartość banknotu może stać się niższa niż wartość papieru, na którym został wydrukowany
-  wartość banknotu może stać się niższa niż wartość papieru, na którym został wydrukowany.
-  Ta drastyczna deprecjacja zamienia banknoty, które normalnie są symbolami wartości i siły nabywczej, w zwykłe kawałki bezwartościowego papieru
-  siły nabywczej, w zwykłe kawałki bezwartościowego papieru.
-reviewed: false
+  W pewnych okolicznościach gospodarczych, takich jak hiperinflacja, wewnętrzna wartość banknotu może stać się niższa niż wartość papieru, na którym został wydrukowany.
+  Ta drastyczna deprecjacja zamienia banknoty, które normalnie są symbolami wartości i siły nabywczej, w zwykłe kawałki bezwartościowego papieru.
+reviewed: true

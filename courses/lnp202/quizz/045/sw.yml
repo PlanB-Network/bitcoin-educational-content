@@ -1,0 +1,9 @@
+question: Kwa nini mwendeshaji wa nodi ya umeme wa mfanyabiashara hawezi kutegemea malipo yake mwenyewe kwa ukwasi unaoingia wa generate?
+answer: Mitiririko inayoingia zaidi
+wrong_answers:
+  - Mitiririko inayotoka zaidi
+  - Vituo vidogo sana
+  - Ada kubwa za mnyororo
+explanation: |
+  Kwa kutoa pesa taslimu bila kutumia, mfanyabiashara kwa kawaida haondoi ukwasi kutoka kwenye njia zake.
+reviewed: false

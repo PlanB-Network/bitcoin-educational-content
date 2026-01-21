@@ -1,0 +1,9 @@
+question: Kekuasaan apa yang dimiliki operator kustodian atas pembayaran penggunanya?
+answer: Kekuatan penyensoran
+wrong_answers:
+  - Daya Mining
+  - Kekuatan konsensus
+  - Daya Halving
+explanation: |
+  Operator yang mengontrol dana dan saluran dapat memblokir, menunda, atau memfilter pembayaran.
+reviewed: false

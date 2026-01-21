@@ -41,40 +41,6 @@ Dans ce cours, nous aborderons certains aspects monétaires de Bitcoin, notammen
 
 Il est essentiel de comprendre que le Bitcoin est un nouveau système monétaire qui modifie complètement notre rapport à l'argent. Apprendre à l'utiliser est donc une compétence nécessaire pour quiconque souhaite contrôler ses propres fonds.
 
-**Section 1 - Introduction**  
-- Chapitre 1 - Aperçu du cours  
-- Chapitre 2 - La préhistoire de Bitcoin  
-
-**Section 2 - L'argent**  
-- Chapitre 3 - L'argent à travers l'histoire  
-- Chapitre 4 - Monnaies fiduciaires  
-- Chapitre 5 - L'hyperinflation  
-- Chapitre 6 - 21 millions de bitcoins  
-
-**Section 3 - Portefeuilles Bitcoin**  
-- Chapitre 7 - Qu'est-ce qu'un portefeuille Bitcoin ?  
-- Chapitre 8 - Portefeuilles Bitcoin et sécurité  
-- Chapitre 9 - Mise en place d'un portefeuille  
-- Chapitre 10 - Passer l'épreuve du temps  
-
-**Section 4 - Les aspects techniques de Bitcoin**  
-- Chapitre 11 - Lancement de Bitcoin  
-- Chapitre 12 - Transactions en bitcoins  
-- Chapitre 13 - Les nœuds Bitcoin  
-- Chapitre 14 - Les mineurs  
-- Chapitre 15 - Bitcoin et écologie  
-
-**Section 5 - Comment obtenir des bitcoins ?**  
-- Chapitre 16 - Bitcoin ne dort jamais !  
-- Chapitre 17 - Obtenir des bitcoins en travaillant  
-- Chapitre 18 - Épargner avec Bitcoin  
-- Chapitre 19 - L'hyper-bitcoinisation  
-
-**Section 6 - L'avenir de Bitcoin : le Lightning Network**  
-- Chapitre 20 - Une brève introduction au Lightning Network  
-- Chapitre 21 - Cas d'utilisation du Lightning Network  
-- Chapitre 22 - Pilule rouge ou pilule bleue ?  
-
 Avant de présenter la définition de la monnaie et sa fonction dans la société (chapitre 2), il convient de commencer par la genèse de Bitcoin. Lancé en 2009, le Bitcoin est une technologie relativement nouvelle qui ne ressemble à rien d'autre. Il est donc normal de ne pas tout comprendre d'un seul coup. En fait, tout comme lorsqu'on apprend à utiliser internet ou à conduire une voiture, il n'est pas nécessaire de connaître tous les détails techniques tout de suite : on peut commencer par apprendre comment recevoir, payer et sécuriser ses fonds, et ensuite procéder par petites étapes pour l'étudier plus en profondeur.
 
 Après tout, nous n'en sommes qu'au début de son adoption, puisque nous avons dépassé la phase de décollage : vous avez juste le temps d'acquérir autant de connaissances que vous le souhaitez sur cette importante innovation.

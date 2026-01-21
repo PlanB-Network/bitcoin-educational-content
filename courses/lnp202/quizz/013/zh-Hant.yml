@@ -1,0 +1,9 @@
+question: 哪種解決方案可讓您在手機上執行真正的 Lightning 節點？
+answer: 嵌入式 LN 節點
+wrong_answers:
+  - 保管閃電 wallet
+  - 閃電原子交換
+  - 聯邦渠道
+explanation: |
+  Phoenix 或 Zeus Embedded 等解決方案可將真正的 Lightning 節點直接嵌入到應用程式中。
+reviewed: false

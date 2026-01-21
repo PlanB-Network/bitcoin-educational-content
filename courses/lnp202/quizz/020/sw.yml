@@ -1,0 +1,9 @@
+question: Kwa nini kurejesha channel.db ya zamani ni hatari?
+answer: Hatari ya adhabu
+wrong_answers:
+  - Kupoteza seed
+  - Ufisadi wa umbea
+  - Kuzuia uelekezaji
+explanation: |
+  Hali iliyopitwa na wakati inaweza kutafsiriwa kama jaribio la kudanganya na kusababisha upotevu wa fedha za njia.
+reviewed: false

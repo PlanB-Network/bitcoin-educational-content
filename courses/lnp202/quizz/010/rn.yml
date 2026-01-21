@@ -1,0 +1,9 @@
+question: Ni ibihe bintu bigena uguhitamwo kwawe kw’umuti w’umuravyo?
+answer: Incuro zikoreshwa n'ubushake bwo kuzicungera
+wrong_answers:
+  - Amafaranga yahinduwe n'umuvuduko w'amategeko
+  - Aho umuntu aba n'uburezi
+  - Ukwihanganira ingorane n'uguhingura porogaramu
+explanation: |
+  Ihitamwo rivana ahanini n’ingene Lightning ikoreshwa kenshi, n’ingene ukunda uburongozi bw’ubuhinga.
+reviewed: false

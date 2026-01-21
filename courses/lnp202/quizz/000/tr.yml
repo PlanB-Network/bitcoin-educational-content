@@ -1,0 +1,9 @@
+question: Bir Lightning kanalının kapasitesi nedir?
+answer: Kilitlenen toplam miktar
+wrong_answers:
+  - Tek yönde toplam mevcut likidite
+  - Maksimum ücretler
+  - Olası maksimum ödeme sayısı
+explanation: |
+  Kapasite, kanalın multisig çıkışında engellenen sats'ın toplamına karşılık gelir.
+reviewed: false

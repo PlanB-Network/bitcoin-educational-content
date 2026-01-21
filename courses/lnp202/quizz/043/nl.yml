@@ -1,0 +1,9 @@
+question: Welke kanaalafsluiting is het beste voor Lightning?
+answer: Coöperatieve sluiting
+wrong_answers:
+  - Gedwongen sluiting
+  - Afsluiten met valsspelen
+  - Watchtower sluiting
+explanation: |
+  Coöperatief afsluiten is sneller en je kunt kiezen voor onchain fees.
+reviewed: false

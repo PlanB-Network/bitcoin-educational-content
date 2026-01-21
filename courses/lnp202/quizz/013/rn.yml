@@ -1,0 +1,9 @@
+question: Ni uwuhe muti ushobora gukoresha node nyayo y’umuravyo ku matelefone ngendanwa?
+answer: Ishizwemwo LN urudodo
+wrong_answers:
+  - Umuravyo w’Ubucungezi wallet
+  - Umuravyo atome guhinduranya
+  - Imirongo y'ubumwe
+explanation: |
+  Inyishu nka Phoenix canke Zeus Embedded zishiramwo urudodo rw’umuravyo rw’ukuri mu gikorwa.
+reviewed: false

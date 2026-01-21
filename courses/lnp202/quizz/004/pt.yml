@@ -1,0 +1,9 @@
+question: A que um nó do Lightning deve se conectar?
+answer: Um nó Bitcoin
+wrong_answers:
+  - Um mineiro
+  - Um explorador de blocos
+  - Um servidor federado
+explanation: |
+  O nó Lightning depende de um nó Bitcoin para aceder à informação da blockchain principal.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Porquê evitar nós muito grandes para um primeiro canal?
+answer: Políticas restritivas
+wrong_answers:
+  - Baixa conetividade
+  - Custos demasiado baixos
+  - Falta de liquidez
+explanation: |
+  Os nós muito grandes impõem frequentemente montantes mínimos elevados e fecham facilmente os pequenos canais.
+reviewed: false

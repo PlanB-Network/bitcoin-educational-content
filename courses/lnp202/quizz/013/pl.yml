@@ -1,0 +1,9 @@
+question: Które rozwiązanie umożliwia uruchomienie prawdziwego węzła Lightning na telefonach komórkowych?
+answer: Wbudowany węzeł LN
+wrong_answers:
+  - Custodial Lightning wallet
+  - Błyskawiczna wymiana atomów
+  - Kanały federacyjne
+explanation: |
+  Rozwiązania takie jak Phoenix lub Zeus Embedded osadzają prawdziwy węzeł Lightning bezpośrednio w aplikacji.
+reviewed: false

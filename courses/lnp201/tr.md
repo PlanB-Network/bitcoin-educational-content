@@ -1592,6 +1592,10 @@ Yıldırım'da ödemelerin sorunsuz akışını sağlamak için likidite yöneti
 ![LNP201](assets/en/084.webp)
 
 
+Artık Lightning Network’ün teorik işleyişini anladığınıza göre, pratiğe geçebilir ve kullanımınızda daha fazla özerklik kazanmak için ilk Lightning düğümünüzü kurabilirsiniz. Bunun için LNP 202 kursunu takip edin:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
 # Son Bölüm
 
 

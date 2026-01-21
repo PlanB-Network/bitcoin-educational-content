@@ -1,0 +1,9 @@
+question: Mis on Bitcoin onchaini seisukohalt Lightning-kanal?
+answer: Multisignature väljund 2/2
+wrong_answers:
+  - Skript P2MS 2/2
+  - UTXO üksik
+  - Liitvabariigi leping
+explanation: |
+  Onchain, Lightning-kanal on esindatud mitme allkirjaga väljundiga, mis nõuab mõlema osaleja allkirju.
+reviewed: false

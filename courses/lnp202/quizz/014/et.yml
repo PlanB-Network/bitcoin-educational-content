@@ -1,0 +1,9 @@
+question: Millised on Aqua ja Bull Bitcoin Wallet ühised omadused?
+answer: Välk aatomi vahetused
+wrong_answers:
+  - Native Lightning kanalid
+  - Tsentraliseeritud hoidmine
+  - Integreeritud Lightning-sõlm
+explanation: |
+  Need wallet kasutavad aatomivahetusi, et tasuda Lightning-arveid ilma Lightning-sõlme otse teie telefonis ära kasutamata ja jäädes samal ajal isehoidjaks.
+reviewed: false

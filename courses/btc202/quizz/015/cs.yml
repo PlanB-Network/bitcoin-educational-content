@@ -1,7 +1,7 @@
 question: Jaká je hlavní alternativní implementace Bitcoin core?
 answer: Bitcoin Knots
 wrong_answers:
-  - Bitcoin Hotovost
+  - Bitcoin Cash
   - BTCD
   - Bcoin
 explanation: |

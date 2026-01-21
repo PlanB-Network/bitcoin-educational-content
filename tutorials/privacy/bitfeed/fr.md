@@ -63,7 +63,7 @@ Cette interprétation est d'autant plus confirmée par l'option **"Infos"** du m
 
 ![infos](assets/fr/08.webp)
 
-Vous pouvez également visualiser les transactions d'un bloc en fonction des octets virtuels et du ratio de frais. Cette visualisation peut différer de la précédente car la valeur de bitcoin incluse dans une transaction ne définit pas la taille de cette dernière.
+Vous pouvez également visualiser les transactions d'un bloc en fonction des octets virtuels et du ratio de frais. Cette visualisation peut différer de la précédente, car la valeur de bitcoin incluse dans une transaction ne définit pas la taille de cette dernière.
 
 ![visualisation](assets/fr/09.webp)
 
@@ -75,7 +75,7 @@ Dans notre cas, prenons la transaction occupant le plus grand espace dans le blo
 
 ![biggest](assets/fr/10.webp)
 
-Vous constaterez que cette transaction possède `42 989` qui représente la différence entre le dernier bloc en cours de minage et notre bloc choisi. Ces confirmations participent au renforcement de la sécurité du réseau Bitcoin car pour modifier cette transaction de façon malicieuse, les attaquants doivent posséder la puissance de calcul équivalente pour réécrire l'entièreté de la chaîne de blocs principale.
+Vous constaterez que cette transaction possède `42 989` qui représente la différence entre le dernier bloc en cours de minage et notre bloc choisi. Ces confirmations participent au renforcement de la sécurité du réseau Bitcoin, car pour modifier cette transaction de façon malicieuse, les attaquants doivent posséder la puissance de calcul équivalente pour réécrire l'entièreté de la chaîne de blocs principale.
 
 La taille de cette transaction est de `57 088 vBytes`, principalement en raison du grand nombre d’UTXOs utilisés pour sa construction (842 entrées). Fait étonnant, le ratio de frais appliqué reste relativement faible (seulement 4 sats/vByte) comparé à la moyenne globale du bloc, qui s’élève à 5,82 sats/vByte.
 
@@ -99,6 +99,6 @@ Dans cette section, vous pouvez suivre l'ensemble des transactions valides et en
 
 ![unconfirmed](assets/fr/14.webp)
 
-Vous avez désormais un guide d'utilisation de la plateforme Bitfeed pour analyser des blocs et des transactions afin de visualiser les informations disponibles sur la chaîne principale du réseau Bitcoin tout en profitant d'une interface minimaliste et facile à prendre en main. Si vous avez aimé ce tutoriel, nous vous recommandons de passer à l'étape supérieure : découvrir le Lightning Network via le projet Amboss.
+Vous avez désormais un guide d'utilisation de la plateforme Bitfeed pour analyser des blocs et des transactions afin de visualiser les informations disponibles sur la chaîne principale du réseau Bitcoin, tout en profitant d'une interface minimaliste et facile à prendre en main. Si vous avez aimé ce tutoriel, nous vous recommandons de passer à l'étape supérieure : découvrir le Lightning Network via le projet Amboss.
 
 https://planb.academy/tutorials/node/lightning-network/amboss-37044cad-0f85-41eb-af18-491384af1017

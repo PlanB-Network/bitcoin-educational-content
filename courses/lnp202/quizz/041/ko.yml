@@ -1,0 +1,9 @@
+question: Umbrel의 ThunderHub은 어디에 설치하나요?
+answer: 앱 스토어
+wrong_answers:
+  - SSH 콘솔
+  - 시스템 설정
+  - Interface Bitcoin 코어
+explanation: |
+  ThunderHub는 Umbrel 앱 스토어를 통해 애플리케이션으로 설치됩니다.
+reviewed: false

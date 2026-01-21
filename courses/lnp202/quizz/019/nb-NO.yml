@@ -1,0 +1,9 @@
+question: Hva er forutsetningene for å installere LND på Umbrel?
+answer: Synkronisert Bitcoin-node
+wrong_answers:
+  - Umbrel Premium-konto
+  - Eksisterende lyskanal
+  - Lightning-adresse aktiv
+explanation: |
+  LND er avhengig av en 100 % synkronisert Bitcoin-node, noe som er en forutsetning for at den skal fungere.
+reviewed: false

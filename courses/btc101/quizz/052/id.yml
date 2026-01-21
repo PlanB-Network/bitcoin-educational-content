@@ -1,11 +1,9 @@
-question: Berapa jumlah maksimum unit Bitcoin yang dapat ada?
-answer: 21 juta unit
+question: Manakah dari berikut ini yang bukan karakteristik Bitcoin?
+answer: Mudah disensor.
 wrong_answers:
-  - 25 juta unit
-  - 30 juta unit
-  - 50 juta unit
+  - Dapat dipindahkan secara instan.
+  - Biaya verifikasinya sangat rendah.
+  - Memiliki kebijakan moneter tetap.
 explanation: |
-  Kode komputer Bitcoin dan konsensus dari semua pengguna yang berpartisipasi dalam
-  protokol menentukan bahwa jumlah maksimum unit Bitcoin yang dapat pernah ada
-  adalah 21 juta.
+  Bitcoin memiliki semua karakteristik yang diperlukan untuk menjadi mata uang yang efisien dan sehat: dapat dibagi, dapat dipindahkan secara instan, tidak dapat disensor, biaya verifikasi sangat rendah, dan dengan kebijakan moneter yang telah ditetapkan untuk berabad-abad mendatang dengan 21 juta unit.
 reviewed: true

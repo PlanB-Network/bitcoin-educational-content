@@ -1,0 +1,9 @@
+question: ¿Cuál es la principal prioridad de un comerciante Lightning?
+answer: Adquisición de liquidez entrante
+wrong_answers:
+  - Adquisición de liquidez de salida
+  - Ahorro en costes de encaminamiento
+  - Adquirir buenas críticas de LN
+explanation: |
+  Un comerciante debe poder cobrar sin fracasar, lo que requiere una liquidez entrante suficiente.
+reviewed: false

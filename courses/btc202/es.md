@@ -326,7 +326,7 @@ Un Miner necesita un nodo Bitcoin para interactuar con la red.
 
 
 
-El papel del miner también se diferencia a veces del del chopper. Un mincer es una máquina cuya tarea consiste en aplicar hash a plantillas de bloques suministradas por el servidor de un pool, buscando hashes que satisfagan el objetivo de dificultad definido para las shares, y no el de Bitcoin. El resto del proceso de mining, que incluye la construcción real de bloques, la selección de transacciones o la búsqueda de proof-of-work según la dificultad propia de Bitcoin, así como la distribución, es realizado directamente por los pools.
+El papel del miner también se diferencia a veces del del grind. Un grind es una máquina cuya tarea consiste en aplicar hash a plantillas de bloques suministradas por el servidor de un pool, buscando hashes que satisfagan el objetivo de dificultad definido para las shares, y no el de Bitcoin. El resto del proceso de mining, que incluye la construcción real de bloques, la selección de transacciones o la búsqueda de proof-of-work según la dificultad propia de Bitcoin, así como la distribución, es realizado directamente por los pools.
 
 
 ![Image](assets/fr/054.webp)
@@ -2510,9 +2510,11 @@ Por último, te recomiendo la aplicación *Lightning Network+*, que te permite e
 
 
 
-Gracias a Umbrel, la gestión de un nodo Lightning personal se ha simplificado mucho, pero sigue siendo relativamente compleja. Por este motivo, profundizaremos en este tema en un próximo curso dedicado íntegramente a este uso.
+Gracias a Umbrel, la gestión de un nodo Lightning personal se simplifica, pero sigue siendo relativamente compleja. Por ello, le recomiendo seguir el curso LNP 202, que constituye la continuación lógica del curso BTC 202, y en el cual le acompaño paso a paso en la puesta en marcha y la gestión de su nodo Lightning en Umbrel.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Tailscale
 
@@ -3890,11 +3892,13 @@ Ahora puede pasar a la parte final del curso, donde podrá evaluar BTC 202 y, a 
 
 
 
-Ahora tienes varias opciones abiertas. El siguiente paso lógico es crear su propio nodo Lightning, lo que le permitirá ser totalmente independiente para sus transacciones off-chain. Este será el tema de un próximo curso, que se publicará este otoño de 2025 sobre Plan ₿ Academy.
+Ahora se abren ante usted varios caminos. El siguiente paso lógico consiste en configurar su propio nodo Lightning, con el fin de ser completamente independiente para sus transacciones off-chain. Precisamente este es el tema de otro curso en Plan ₿ Academy:
 
 
 
-Mientras tanto, le invito a descubrir la formación BTC 204, que le permitirá comprender y dominar los principios de protección de la intimidad en su uso de Bitcoin.
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Le invito igualmente a descubrir la formación BTC 204, que le permitirá comprender y dominar los principios de protección de la privacidad en su uso de Bitcoin:
 
 
 

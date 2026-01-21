@@ -1,0 +1,9 @@
+question: ThunderHub 与 LND 节点的关系是什么？
+answer: Interface 管理
+wrong_answers:
+  - 闪电实施
+  - 保管服务
+  - 路由节点
+explanation: |
+  ThunderHub 是连接 LND 的接口，用于管理节点。
+reviewed: false

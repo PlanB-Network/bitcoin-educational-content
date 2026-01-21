@@ -1,9 +1,9 @@
-question: Bitcoin और Blockchain का अभी का साइज़ क्या है?
-answer: लगभग 500GB।
+question: Bitcoin ब्लॉकचेन का वर्तमान आकार क्या है?
+answer: लगभग 660GB
 wrong_answers:
-  - लगभग 100GB।
-  - लगभग 1TB।
-  - करीब 2TB.
+  - लगभग 110GB
+  - लगभग 1TB
+  - लगभग 2TB
 explanation: |
-  जीडब्ल्यू-3 जीडब्ल्यू-2 का आकार 2023 तक लगभग 500GB है।
+  Bitcoin ब्लॉकचेन का आकार 2025 में लगभग 660GB है।
 reviewed: true

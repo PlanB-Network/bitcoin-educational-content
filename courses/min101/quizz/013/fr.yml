@@ -1,0 +1,9 @@
+question: Quelle condition rend un bloc valide dans Bitcoin ?
+answer: SHA256d(entête de bloc) <= cible
+wrong_answers:
+  - SHA256d(entête de bloc) >= cible
+  - SHA256d(bloc) >= cible
+  - SHA256d(entête de bloc) > cible
+explanation: |
+  Pour qu'un bloc soit valide sur Bitcoin, le hash de son entête, interprété comme un nombre, doit être inférieur ou égal (<=) à la cible.
+reviewed: false

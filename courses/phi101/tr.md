@@ -27,7 +27,7 @@ Antik Çağ'dan Aydınlanma'ya kadar, toplumlar hoşgörüyü ve ekonomik bağı
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
 
-PHI201'e hoş geldiniz!
+PHI101'e hoş geldiniz!
 
 
 Bu ders sizi, özgürlüğü şekillendiren başlıca düşünce ekollerini analiz ederek özgürlüğün tarih boyunca geçirdiği evrimi keşfetmeye davet ediyor. Özgürlük kavramının yüzyıllar boyunca iktidara karşı ya da iktidarla işbirliği içinde nasıl evrildiğini Antik Çağ'dan çağdaş tartışmalara uzanan tarihsel bir yolculukla keşfedeceksiniz.

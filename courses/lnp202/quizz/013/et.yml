@@ -1,0 +1,9 @@
+question: Milline lahendus võimaldab teil käivitada mobiiltelefonidel tõelist Lightning-sõlme?
+answer: Varjatud LN sõlme
+wrong_answers:
+  - Hooldusvalgustus wallet
+  - Lightning aatomi vahetus
+  - Föderaalsed kanalid
+explanation: |
+  Sellised lahendused nagu Phoenix või Zeus Embedded integreerivad ehtsa Lightning-sõlme otse rakendusse.
+reviewed: false

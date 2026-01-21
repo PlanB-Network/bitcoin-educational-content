@@ -1,0 +1,9 @@
+question: Apa yang menjadi prioritas utama pedagang Lightning?
+answer: Akuisisi likuiditas masuk
+wrong_answers:
+  - Memperoleh likuiditas keluar
+  - Penghematan biaya perutean
+  - Mendapatkan ulasan LN+ yang bagus
+explanation: |
+  Pedagang harus dapat mencairkan uang tunai tanpa gagal, yang membutuhkan likuiditas masuk yang cukup.
+reviewed: false

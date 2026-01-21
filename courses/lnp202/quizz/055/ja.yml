@@ -1,0 +1,9 @@
+question: NWCの流れの中で、アプリケーション側で暗号化が行われるのはいつですか？
+answer: リレー掲載前
+wrong_answers:
+  - ノードを読んだ後
+  - リレー掲載後
+  - 決して
+explanation: |
+  アプリケーションはリクエストをシリアライズし、暗号化し、Nostrリレーにイベントとして発行する。
+reviewed: false

@@ -1,0 +1,9 @@
+question: Który plik zawiera szczegółowy status kanału LND?
+answer: channel.db
+wrong_answers:
+  - wallet.db
+  - lightning.db
+  - peers.db
+explanation: |
+  Plik channel.db przechowuje stany kanałów, urządzenia równorzędne i commitment transaction.
+reviewed: false

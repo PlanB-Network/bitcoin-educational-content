@@ -1,0 +1,9 @@
+question: Thông tin nào cho biết khả năng tiếp nhận của nút Lightning?
+answer: dòng tiền vào
+wrong_answers:
+  - Kết nối đang hoạt động
+  - thanh khoản ra nước ngoài
+  - Số lượng khối
+explanation: |
+  Lượng thanh khoản đến thể hiện lượng sats mà nút có thể nhận được thông qua Lightning.
+reviewed: false

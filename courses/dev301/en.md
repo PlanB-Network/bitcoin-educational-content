@@ -1,23 +1,28 @@
-# Introduction
+---
+name: System Programming Fundamentals
+goal: Build a solid mental model of how computers work at the binary, hardware, kernel, and userland levels to reason about crashes, performance issues, and system behavior.
+objectives:
+  - Understand binary representation, encoding, and bitwise operations
+  - Learn how CPUs, memory hierarchies, and GPUs function at a practical level
+  - Explore kernel internals including boot process, syscalls, filesystems, and processes
+  - Master userland concepts like file descriptors, permissions, IPC, and shell utilities
+---
 
-This course is about getting comfortable with the parts of a computer that most programmers courses treat as "someone else’s problem". When people say "system programming", they usually refer to layers of software that stays close to the operating system and the machine. It’s the area where details matter. 
+# Understand how computers really work
 
-We’ll use Linux as our main reference point, because by being open source it exposes these layers in a relatively direct way, and because a lot of the concepts and terminology in system programming are easiest to explain with a concrete operating system in mind. The goal isn’t to turn you into a Linux administrator, and it isn’t to teach "Linux tricks"; it’s to use Linux as a clear example of ideas that also show up elsewhere.
+Welcome to this course on System Programming.
 
-We’ll move through four broad layers: 
-- **binary** (how information is represented and manipulated as bits and bytes)
-- **hardware** (the practical model of how CPUs and memory behave)
-- **kernel** (the privileged core that controls resources and exposes system calls)
-- **userland** (the programs, libraries, shells, and conventions that make a Linux system feel usable)
-You don’t need to be an expert in any of these to start; the course is structured so that each layer makes the next one less mysterious.
+This course is about getting comfortable with the parts of a computer that most programming courses treat as "someone else's problem". When people say "system programming", they usually refer to layers of software that stays close to the operating system and the machine. It's the area where details matter.
 
-This is a theory-focused course. You won’t be asked to build projects, or set up a complicated development environment. Instead, the course aims to give you a mental model you can use: when you later see a crash, a weird performance problem, a permissions issue, or a confusing file format, you’ll have a way to reason about what could be happening and what questions to ask next. To make that possible, the explanations will spend time on definitions, on how conventions formed, and on the tradeoffs that led to the systems we use today.
+We'll use Linux as our main reference point, because by being open source it exposes these layers in a relatively direct way, and because a lot of the concepts and terminology in system programming are easiest to explain with a concrete operating system in mind. The goal isn't to turn you into a Linux administrator, and it isn't to teach "Linux tricks"; it's to use Linux as a clear example of ideas that also show up elsewhere.
 
-This is a beginner course, but it is not a "no friction" course. Some parts will feel slower than typical programming material, because we’ll be careful about foundations. The payoff is that later topics that often feel like "magic" ( where memory goes, what a file really is, why permissions matter, why performance changes) will start to feel like something logical rather than superstitious.
+This is a theory-focused course. You won't be asked to build projects, or set up a complicated development environment. Instead, the course aims to give you a mental model you can use: when you later see a crash, a weird performance problem, a permissions issue, or a confusing file format, you'll have a way to reason about what could be happening and what questions to ask next.
 
-If you take it one section at a time, you’ll be surprised how quickly the "mysterious parts" of a computer begin to feel familiar. So open the first section, follow the thread, and give yourself permission to be confused sometimes: let's start!
+By the end of the course, you should understand how data is represented in binary, how hardware executes instructions, how the kernel manages resources, and how userland programs interact with the system.
 
++++
 # Binary level
+<partId>b619d518-8ae9-468d-a23f-886250977462</partId>
 
 Modern software has an incredible variety of use cases. 
 
@@ -34,6 +39,7 @@ At the lowest level, basically all modern software relies on a single universal 
 ![](assets/en/2.png)
 
 ## Basics
+<chapterId>338f0a6e-f28d-4c09-8ea7-82a5d1a707ad</chapterId>
 
 The smallest unit of binary code is the binary digit, aka **bit**. 
 
@@ -93,6 +99,7 @@ Bitfields are extremely useful to encode program-specific information in a very 
 
 
 ## Encoding numbers and text
+<chapterId>b7361f2e-7f34-49a6-86fd-cf5e5d47ec9a</chapterId>
 
 ### Integers
 
@@ -361,6 +368,7 @@ There are other ways to represent Unicode in memory, and many ways to access and
 
 
 ## Operating at the binary level
+<chapterId>ecb07e5f-04d9-4573-abcf-36bf06c34f5c</chapterId>
 
 ### Bitwise operations
 
@@ -580,6 +588,7 @@ If the wifi bit is set to 1 on the apartment, the `&` operator will return the w
 `00000000` is a false-y value in C, so we can use it in our if statement.
 
 ## Other types of encodings
+<chapterId>dbbcfa24-0cd5-4b0a-946d-96426cf435dd</chapterId>
 
 We have seen how numbers, text and custom data can be encoded in binary; in this chapter we're gonna briefly go through some examples of other forms of encodings.
 
@@ -668,8 +677,10 @@ These are all things you'll find often when working with communication protocols
 Usually the expectations of the designers don't match exactly with how the protocol is actually used: for example, the *options* field in the ipv4 packets is almost never used in practice. This is a pattern we will see very often in the next sections of this course, as modern hardware and software are often constrained by decisions made decades ago, by people who had different expectations about what IT was going to be.
 
 # Hardware level
+<partId>43a03ee6-9d32-4070-8dfe-2780b2758cb4</partId>
 
 ## General hardware model
+<chapterId>71ed9c5f-6a9d-4dfe-9483-d225aebf463c</chapterId>
 
 So far we have described binary code as a (mostly) abstract model. 
 
@@ -714,6 +725,7 @@ All these hardware components are orchestrated by the CPU (Central Processing Un
 But how can all these components communicate with each other at a physical level? Well most of them are connected into a *motherboard*. A motherboard has slots to which you can plug in various pieces of hardware, and circuits to connect them all to the CPU (and in certain cases, to each other). This also allows you to substitute certain components of your PC (as long as they're compatible with your motherboard).
 
 ## Central Processing Unit
+<chapterId>5058d002-b099-4234-a150-3d8020c53559</chapterId>
 
 The CPU is connected to other components via *buses*, small lines that transmit data and signals back and forth.
 
@@ -768,7 +780,8 @@ code
 
 Which is not as bad as most people would expect Assembly to be, but it's not as simple `print("Hello World")` either, that's why most developers prefer to sacrifice the performance and control of Assembly in favor of higher level languages.
 
-## Memory 
+## Memory
+<chapterId>86a77c8f-7d28-4c74-bf4f-d93a9d7e4a16</chapterId>
 
 Modern computers have various types of memory they can store data in, the main ones being:
 
@@ -835,6 +848,7 @@ This keeps the system from immediately failing when memory is low, but it comes 
 Swap space is also commonly used for **hibernation**. When you hibernate a computer, the operating system saves the contents of RAM to storage so it can power off completely, and later restore the exact state you left (open programs, documents, and so on) by loading that saved memory back into RAM.
 
 ## Graphics Processing Unit
+<chapterId>3f9bbc73-dea7-4bea-bcb9-0e6432655c0e</chapterId>
 
 Images have millions of pixels. All these pixels can be computed with the same steps, at the same time. A GPU is a processor designed to do a lot of small, similar operations in parallel. Historically, that meant turning 3D triangles into pixels on your screen; today it also means physics, video encoding/decoding, and general number-crunching (LLMs, simulations, etc.). If a CPU is optimized to handle a few **very different tasks** with its few cores, a GPU is designed to run the **same task** across thousands or millions of data points. While CPUs have a few powerful cores, GPUs have thousands of small cores, that can only execute simple operations (like arithmetic). 
 
@@ -851,6 +865,7 @@ As you can imagine, in a modern game these shaders are supposed to operate on a 
 **Shader languages**, like *HLSL* or *GLSL* are special languages used primarily to write shaders. They're usually compiled and then fed to the *driver* of the graphics card. But what is a "driver"? We'll learn about that in the next section.
 
 # Kernel level
+<partId>e6c7100a-b5f3-409f-b745-fafe7000b241</partId>
 
 Modern software can operate on two levels: kernel level or user level. 
 
@@ -862,7 +877,8 @@ Kernel-level software has direct control over the hardware, which makes it more 
 
 In this section we're gonna explore how the kernel works and how it interacts with other components. 
 
-## Basic input output system (BIOS) and boot process 
+## Basic input output system (BIOS) and boot process
+<chapterId>b7bdbcea-06cf-4e09-ab78-d45cf0b49bce</chapterId>
 
 Booting a Linux system is a chain of small programs handing control to the next one, each preparing the machine a bit more until you end up in a full multi-user environment.
 
@@ -916,6 +932,7 @@ Once you reach a login prompt or graphical desktop, the chain that started with 
 At that point the boot process is considered complete and the system is running in its normal user-space environment.
 
 ## Kernel, syscalls and drivers
+<chapterId>35deab48-8874-48aa-bee5-6c30965ffca4</chapterId>
 
 The Linux kernel is the core of the operating system. It runs in a privileged mode of the CPU (often called kernel mode) and controls hardware, memory and processes. Everything else you think of as "Linux" lives in user space and talks to the kernel when it needs something privileged done. 
 
@@ -976,6 +993,7 @@ Many drivers in Linux are built as *kernel modules*. A kernel module is a chunk 
 ![](assets/en/26.png)
 
 ## File system
+<chapterId>e8adf0e5-7b70-4e9b-8b85-4f01e705c2ca</chapterId>
 
 Modern Linux systems organize persistent data in several layers, from the raw storage device up to the file system that user-space programs see. At a high level these layers are: 
 * physical storage
@@ -1027,7 +1045,7 @@ In this way, the lower layers (physical storage, block devices, partitions and l
 ![](assets/en/31.png)
 
 ## System libraries
-
+<chapterId>eca6b939-e2fb-4202-9b5d-868bae4ab485</chapterId>
 
 ### Static libraries
 
@@ -1075,8 +1093,9 @@ The startup sequence of a program therefore involves several steps.
 5. Only after the C runtime has finished its setup does it call the program’s `main` function.
 
 ## Processes
+<chapterId>a5c39183-758e-4599-b432-4af806177d69</chapterId>
 
-A *process* is a running instance of a program. If you run the same program twice, you usually get two separate processes: they may start from the same executable file, but they don’t share the same state. 
+A *process* is a running instance of a program. If you run the same program twice, you usually get two separate processes: they may start from the same executable file, but they don't share the same state. 
 
 ![](assets/en/35.png)
 
@@ -1147,8 +1166,9 @@ The scheduler’s job is easier to understand if you separate processes into two
 The scheduler mainly chooses between runnable processes. Waiting processes are not competing for the CPU until whatever they are waiting for happens.
 
 ## Memory segments
+<chapterId>8992c77a-83e0-4b13-b95c-3550a2cf8e95</chapterId>
 
-A running program needs memory for different kinds of things: the instructions it will execute, the long-lived variables it keeps around, temporary values while it computes, and so on. Operating systems usually organize a process’s memory into multiple regions, where each region has a different purpose and different access permissions (for example: readable, writable, executable). 
+A running program needs memory for different kinds of things: the instructions it will execute, the long-lived variables it keeps around, temporary values while it computes, and so on. Operating systems usually organize a process's memory into multiple regions, where each region has a different purpose and different access permissions (for example: readable, writable, executable). 
 
 ![](assets/en/39.png)
 
@@ -1192,6 +1212,7 @@ Arguments are the command line words you typed after the program name. They desc
 Environment variables are part of the per-process "environment": a set of key/value strings that the OS attaches to a process when it starts. They are one of the main ways the shell passes context into every program you run: where to search for executables (PATH), what your home directory is (HOME), which locale to use (LANG/LC_*), what terminal you’re on (TERM), and a lot of desktop/session plumbing (DISPLAY, XDG_*). They are inherited by default: a process starts with a copy of its parent’s environment, and can add, remove, or change variables for its children.
 
 ## Memory safety and management
+<chapterId>89188319-856b-4635-9c6b-ff550f2710b6</chapterId>
 
 Programs treat memory as a place to store data and as a way to refer back to that data later. At runtime, programs constantly create, use, and discard data structures. Memory safety means: the program only reads and writes memory it actually owns, and only while that memory is valid. This section covers common failure modes, and then the memory allocation strategies that can make it easier to avoid them.
 
@@ -1225,12 +1246,14 @@ A common interface for heap allocation is:
 A lot of performance problems and bugs come from making many small allocations on the heap and trying to keep track of all of them. A common improvement is to group allocations so lifetimes become simpler and more structured. Instead of "allocate and free each object independently", if many objects are supposed to have the same lifetime, allocate them together and free them together. A common implementation of this is the *arena allocator*: you allocate many related objects from one big chunk, then release them all at once when you don't need them anymore. This reduces the number of individual frees, reduces fragmentation, and makes it harder to leak memory by forgetting to free a single object, because cleanup happens at the group level.
 
 # User level
+<partId>39c62001-e181-40b6-accd-bdb784fad162</partId>
 
-Unix started in the early 1970s at Bell Labs, built by a small group of developers working on comparatively weak machines by today’s standards. Memory and storage were scarce, and the system had to be simple enough that a small team could understand and maintain it. Instead of trying to design a huge operating system that solved every problem in one place, they focused on a small kernel and a collection of reusable programs that ran on top of it. Most interaction with the system happened through a text-based shell, where users typed commands and combined programs at the command line.
+Unix started in the early 1970s at Bell Labs, built by a small group of developers working on comparatively weak machines by today's standards. Memory and storage were scarce, and the system had to be simple enough that a small team could understand and maintain it. Instead of trying to design a huge operating system that solved every problem in one place, they focused on a small kernel and a collection of reusable programs that ran on top of it. Most interaction with the system happened through a text-based shell, where users typed commands and combined programs at the command line.
 
 From that context came the basic Unix philosophy in userland: write small programs that each do one job well, make them read input and write output in simple formats (often plain text), and design them so they can be connected together. The shell and the process model make it easy to chain programs with pipes, redirect input and output, and treat files, devices and some communication channels in similar ways. Once you understand how programs use these generic abstractions, it becomes easier to reason about Unix systems as a whole, because higher-level behavior is mostly built by composing these pieces.
 
 ## "Everything is a file"
+<chapterId>b6744ba7-c256-47e9-9a66-b906c614fc27</chapterId>
 
 Unix kernels try to expose as many resources as possible through a single abstraction: the **file**. This is not just about documents or images stored on disk. The same interface is used for directories, hardware devices, communication channels between programs and even some views into the kernel itself. This idea is often summarized as "everything is a file", and it is one of the main reasons Unix systems feel simple and consistent even though the underlying hardware and software are very diverse.
 
@@ -1262,6 +1285,7 @@ All of these objects (regular files, directories, symlinks, device files, socket
 This unification has trade-offs. Some resources do not naturally behave like byte streams, and forcing them into that shape can make interfaces harder to understand rather than simpler. Many devices and kernel features need operations that do not fit cleanly into read and write. The file metaphor can also hide important differences in performance and behavior. Treating a disk file, a terminal and a network socket as interchangeable "things you read and write" is convenient at first, but it can encourage code that ignores latency, blocking behavior or error modes that matter a lot for interactive or networked programs. In practice, Unix keeps the common subset of operations uniform, but still exposes many special cases and additional APIs to go beyond that subset.
 
 ## Permissions, processes and file descriptors
+<chapterId>64bbd2a4-b20e-4ee4-8f09-7b35bd8241de</chapterId>
 
 On early Unix machines, the operating system was designed for multiple people sharing the same hardware. A large computer would sit in a room, and several users would connect to it through terminals. Each person had their own login, their own running programs and their own files, but they were all using the same CPU, the same RAM and the same disks. From the beginning, Unix needed a way to keep those users separated enough that one person could not accidentally (or deliberately) destroy another person’s work. That is where users, groups, permissions and the process model come from: they are the basic tools the kernel uses to decide "who are you?" and "what are you allowed to do?". 
 
@@ -1378,6 +1402,7 @@ They have two different approaches to this job. Both can start services at boot,
 - OpenRC is more traditional and more script-focused. Services are commonly started and stopped using readable shell scripts, and it tries to stay closer to the traditional "small tools working together" Unix style. That can make it feel simpler to inspect and customize. The tradeoff is that you often rely on separate tools for features that systemd bundles tightly, and service behavior can vary more depending on how those scripts are written.
 
 ## Inter-process communication options
+<chapterId>bd42135b-188d-4fe6-b8eb-35353e6ccd55</chapterId>
 
 Most Unix systems end up running lots of small processes that cooperate. Sometimes that cooperation is explicit, like a shell running one program and feeding its output into another. Sometimes it is hidden, like a desktop application talking to a background service, or a web server handing work to worker processes. This is what **inter-process communication** is about: it's the family of kernel features that let one process send data to another process, or let one process tell another "something happened, react to it". 
 
@@ -1410,6 +1435,7 @@ Instead of a continuous stream of bytes, a **message queue** is a kernel-managed
 That is where **semaphores** come in. A semaphore is a synchronization primitive: a kernel-managed counter used to control access to a shared resource or to coordinate stages of work. One common use is mutual exclusion: treating the semaphore like a lock so only one process at a time enters a critical section that touches shared state. Another use is signaling: one process "posts" to indicate that data is ready, another "waits" until that happens. Semaphores show up most often alongside shared memory, because shared memory by itself gives you speed but not safety: you still need a way to prevent races and to express ordering.
 
 ## Unix shell, core utils and environment variables
+<chapterId>c9419f4f-3409-445e-8b67-37b48eff78bf</chapterId>
 
 Most of what people think of as "using Unix" happens in user space: you log in, you get a *shell*, and you start running small programs that read input and print output. The shell is the program that reads your command line, starts programs, and connects them. It's just another program, but it sits in a special position: it is usually the first thing you interact with after login, and it is responsible for starting most of the other programs you run. 
 
@@ -1486,6 +1512,7 @@ and run the first one that exists and is executable. The order matters: if two d
 If you type a command with a slash in it, PATH is not used. For example, `./script` means "run the file named script in the current directory". `/usr/bin/python` means "run exactly the file Python that you will find in /usr/bin".
 
 ## Common directories
+<chapterId>cb905809-cf39-4609-973d-038c7ac900c7</chapterId>
 
 Unix-like systems such as Linux expose a single directory tree that starts at the root directory, written as `/`. Everything else is placed somewhere under that root: programs, configuration, user files, devices, and even some kernel-provided views of the running system. 
 
@@ -1536,8 +1563,9 @@ Here are the directories you’ll see on most Linux systems:
 * `/sys`: Another virtual filesystem that exposes hardware and driver information in a structured way. Also generated by the kernel.
 
 # Conclusion
+<partId>6ecf01a8-8464-4a5c-92a1-6cebe09d0069</partId>
 
-That’s the end of the course. If you followed it all the way through, well done: this is not the kind of material you "accidentally" finish.
+That's the end of the course. If you followed it all the way through, well done: this is not the kind of material you "accidentally" finish.
 
 The goal was never to turn these topics into a pile of facts to memorize, but to give you a clearer map of what belongs where, and what each layer is responsible for.
 

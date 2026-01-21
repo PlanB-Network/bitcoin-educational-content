@@ -671,7 +671,7 @@ Martti Malmi 还在 SourceForge 页面上设置了一个论坛和一个 wiki。�
 比特币的推广也经历了几个阶段：首先，中本聪专注于在线支付；然后他强调了固定的货币政策和 2100 万单位的限制；最后，他提到了他的模型的可编程性。
 到了2009年秋天，比特币似乎准备好了增长。而正是在那个时候，系统的经济启动真正发生了。这个主题是下一章的主题。
 
-## 加密货币的启动
+## 加密货币的启动阶段
 <chapterId>6b3418a7-125e-4ea1-a03a-f36090fac8a4</chapterId>
 
 :::video id=2a31c9c2-bb14-4ed5-b906-7df373f81f98:::
@@ -874,143 +874,143 @@ Gavin 还参与了软件开发，[实现](https://sourceforge.net/p/bitcoin/code
 2010 年春季是一个充满基础事件的时期。首先，在 4 月底，开发者 Laszlo Hanyecz 开发了 GPU 挖矿，这是一个优化，短期内遭到了中本聪的反对（尽管他认识到了这一优化长期内的不可避免性）。这一发展与中本聪停止产生区块的时间相吻合，可能是估计网络的哈希率已经足够。然后，5 月 22 日，Laszlo Hanyecz 和 Jeremy Sturdivant 之间交换了著名的披萨，这构成了用比特币购买实物商品的第一次交易。最后，在 6 月，Gavin Andresen 到来，他创建了 Bitcoin Faucet，并迅速参与到软件开发中。所有这些元素显示了围绕比特币经济的鼓舞人心的进展。
 然而，到 6 月底时，网络上的活动依然相当有限。虽然出现了一些新用户，但这场货币现象的火焰仍微弱地燃烧着，尚未熄灭。6 月 30 日，在比特币邮件列表（bitcoin-list）上，密码朋克 James A. Donald（似乎没有跟进最新的进展，也不知道论坛的存在）[宣称](https://web.archive.org/web/20131016002646/http://sourceforge.net/p/bitcoin/mailman/bitcoin-list/?viewmonth=201006)“比特币\[是\]有点死气沉沉的。”尽管他错了，但他的评论揭示了一个明显的沟通缺失：了解该项目的人太少，需要在这方面做出更多努力。比特币需要“一个用户生态才能发挥作用”，而这个关键的群体还没有形成。两周后，一个事件将朝这个方向迈进，我们将在下一章讨论。
 
-## 大规模 Slashdot 效应
+## 巨大关注潮
 <chapterId>2eef715e-b018-445b-b360-1c6e1c1df462</chapterId>
 
 :::video id=c26f3696-4e33-4d38-9443-f237935f8b45:::
 
-2010年夏季初，尽管有一些鼓舞人心的初步发展，比特币仍然建立在一个摇摇欲坠的基础上。除了中本聪之外，软件几乎没有其他开发者。矿工们都是在个人电脑上的业余爱好者。与比特币相关的服务大约有二十种，真正的交易所同样稀缺。然而，年内的下半年，情况即将发生剧烈变化。
+2010 年夏季初，尽管有一些鼓舞人心的初步发展，比特币仍然建立在一个摇摇欲坠的基础上。除了中本聪之外，软件几乎没有其他开发者。矿工们都是在个人电脑上的业余爱好者。与比特币相关的服务大约有二十种，真正的交易所同样稀缺。然而，年内的下半年，情况即将发生剧烈变化。
 
-在本章中，我们旨在讨论“大规模Slashdot效应”，即继2010年7月11日在流行网站Slashdot上发布比特币介绍后，用户数量突然激增的情况。我们将看到这篇文章是如何作为中本聪沟通努力的最后一搏而存在的，以及这种普及对比特币直接产生的影响。
+在本章中，我们旨在讨论“巨大关注潮”，即继 2010 年 7 月 11 日在流行网站 Slashdot 上发布比特币介绍后，用户数量突然激增的情况。我们将看到这篇文章是如何作为中本聪沟通努力的最后一搏而存在的，以及这种普及对比特币直接产生的影响。
 
-### 软件的0.3版本
-2010年夏季初标志着软件0.3版本的发布，这是由中本聪和Martti Malmi经过长时间准备的。与前一年12月发布的0.2版本相比，这个版本包括了关键的改进，如[守护进程](https://fr.wikipedia.org/wiki/Daemon_\(informatique\))（后来成为bitcoind）、命令行控制、一个通过JSON-RPC的API、单元生成的优化以及一个估算用户哈希率的“哈希计量器”。它还包括了由Laszlo Hanyecz带来的对Mac OS X的支持，以及图形界面翻译成德语、荷兰语和意大利语。
-6月22日，中本聪[请求](https://bitcointalk.org/index.php?topic=199.msg1654#msg1654)论坛成员测试这个版本的软件。他将这个版本的发布视为比特币发展的一个关键时刻，并[考虑](https://bitcointalk.org/index.php?topic=217.msg1803#msg1803)通过直接将编号移至1.3来取消“beta”标签。然而，他很快[撤回](https://bitcointalk.org/index.php?topic=217.msg1928#msg1928)了这个决定。
-7月6日，中本聪宣布发布软件的0.3版本。知道这个版本可能对比特币的发展具有重要意义，他仔细准备了介绍并[写道](https://bitcointalk.org/index.php?topic=238.msg2004#msg2004)：
-> “这里是比特币0.3版本，点对点的加密货币！比特币是一种数字货币，使用密码学和分布式网络来代替对可信中央服务器的需求。逃离中央管理货币的任意通胀风险！比特币的总流通量限制为2100万单位。这些单位根据它们提供的计算能力逐渐分配给网络的节点，所以你可以通过贡献你的闲置CPU时间来获得它们的一部分。”
+### 软件的 0.3 版本
+2010 年夏季初标志着软件 0.3 版本的发布，这是由中本聪和 Martti Malmi 经过长时间准备的。与前一年 12 月发布的 0.2 版本相比，这个版本包括了关键的改进，如[守护进程](https://fr.wikipedia.org/wiki/Daemon_\(informatique\))（后来成为了 bitcoind）、命令行控制、一个通过 JSON-RPC 的 API、单元生成的优化以及一个估算用户哈希率的“哈希计量器”。它还包括了由 Laszlo Hanyecz 带来的对 Mac OS X 的支持，以及图形界面翻译成德语、荷兰语和意大利语。
+6 月 22 日，中本聪[请求](https://bitcointalk.org/index.php?topic=199.msg1654#msg1654)论坛成员测试这个版本的软件。他将这个版本的发布视为比特币发展的一个关键时刻，并[考虑](https://bitcointalk.org/index.php?topic=217.msg1803#msg1803)通过直接将编号移至 1.3 来取消 “beta” 标签。然而，他很快[取消](https://bitcointalk.org/index.php?topic=217.msg1928#msg1928)了这个决定。
+7 月 6 日，中本聪宣布发布软件的 0.3 版本。知道这个版本可能对比特币的发展具有重要意义，他仔细准备了介绍并[写道](https://bitcointalk.org/index.php?topic=238.msg2004#msg2004)：
+> “这里是比特币 0.3 版本，点对点的加密货币！比特币是一种数字货币，使用密码学和分布式网络来代替对可信中央服务器的需求。逃离中央管理货币的任意通胀风险！比特币的总流通量限制为 2100 万单位。这些单位根据它们提供的计算能力逐渐分配给网络的节点，所以你可以通过贡献你的闲置 CPU 时间来获得它们的一部分。”
 
-### 给Slashdot的介绍
-在新软件版本发布之际，一个名为Teppy的论坛用户（5月开始接受比特币的MMORPG的管理员）[提议](https://bitcointalk.org/index.php?topic=199.msg1662#msg1662)在Slashdot上做广告，这是一个非常受欢迎的新闻网站，涵盖了计算机、视频游戏、科学、互联网等极客感兴趣的话题，其名称来自两个字符`/.`。6月22日，他在论坛上询问是否应该“尝试获得一些公众关注”，并指出“如果我们能上Slashdot就好了。”（原文："Should we try for some publicity? Slashdot is good if we can get it."）Martti Malmi[评论](https://bitcointalk.org/index.php?topic=199.msg1664#msg1664)写道，"能上Slashdot，吸引到数百万技术能力强的读者，将是极好的，可能是人们能想象到的最好的事情！"
+### 给 Slashdot 的展示
+在新软件版本发布之际，一个名为 Teppy 的论坛用户（5 月开始接受比特币的 MMORPG 的管理员）[提出](https://bitcointalk.org/index.php?topic=199.msg1662#msg1662)在 Slashdot 上做广告，这是一个非常受欢迎的新闻网站，涵盖了计算机、视频游戏、科学、互联网等极客感兴趣的话题，其名称来自两个字符 `/.`。6 月 22 日，他在论坛上询问是否应该“尝试引起一些公众关注”，并指出“如果我们能上 Slashdot 就好了。”（原文："我们要不要试着做点宣传？如果能上 Slashdot 就太好了"） Martti Malmi的[评论](https://bitcointalk.org/index.php?topic=199.msg1664#msg1664)写道，"能上 Slashdot，吸引到数百万技术能力强的读者，将是极好的，可能是人们能想象到的最好的事情！"
 
-7月5日，Teppy撰写了一份他计划自己提交给Slashdot的介绍，并在论坛上[发布](https://bitcointalk.org/index.php?topic=234.msg1969#msg1969)：
+7 月 5 日，Teppy 撰写了一份他计划自己提交给 Slashdot 的展示，并在论坛上[发布](https://bitcointalk.org/index.php?topic=234.msg1969#msg1969)：
 
-> “这对于一项颠覆性技术来说怎么样？比特币是一种买方匿名、卖方匿名的加密货币，没有中央银行，也没有交易费用。使用类似于Hashcash的概念，客户端燃烧CPU周期尝试发现最终将被找到的2100万比特币中的一些。预计随着时间的推移，比特币的市场价值将与生成它们所需的能量达到平等，从而产生一种任何政府都无法触及的以能量为后盾的货币。”
+> “这对于一项颠覆性技术来说怎么样？比特币是一种买方匿名、卖方匿名的加密货币，没有中央银行，也没有交易费用。使用类似于 Hashcash 的概念，客户端燃烧 CPU 周期尝试发现最终将被找到的 2100 万比特币中的一些。预计随着时间的推移，比特币的市场价值将与生成它们所需的能量达到平等，从而产生一种任何政府都无法触及的以能量为后盾的货币。”
 
 几位论坛成员提出了改进这段文字的建议。中本聪在第一条消息发出几小时后[亲自介入](https://bitcointalk.org/index.php?topic=234.msg1976#msg1976)发表了他的意见。他写道他“非常感激这份努力”，但是“有很多问题”，然后他列出了困扰他的元素：
 
-- 关于缺乏国家影响力，他谨慎地写道，他不“肯定地参与那种挑衅或声明”；（原文："'开发者期望这将导致一种稳定的、与能量相关的货币，不受任何政府的影响。' - 我绝对没有做出任何这样的挑衅或断言。"）
-- 关于能源支持的问题，他认为这种货币“在能源方面不稳定”，并补充说：“这个话题已经被讨论过了。它与能源成本无关。NLS基于能源的估算是一个很好的起点，但市场力量将越来越占主导地位。”
+- 关于缺乏国家影响力，他谨慎地写道，他不“参与那种挑衅或声明”；（原文："'开发者期望这将导致一种稳定的、与能量相关的货币，不受任何政府的影响。' - 我绝对没有做出任何这样的挑衅或断言。"）
+- 关于能源支持的问题，他认为这种货币“在能源方面不稳定”，并补充说：“这个话题已经被讨论过了。它与能源成本无关。NLS 基于能源的估算是一个很好的起点，但市场力量将越来越占主导地位。”
 - 关于系统的匿名性，他表示他不想“强调‘匿名’这一方面”，并且他“打算修改首页”以反映这一点。（原文：“我们不想以‘匿名’为主导。（我一直想要编辑首页）”）
 
-在几小时后发给Martti Malmi的一封[电子邮件](https://mmalmi.github.io/satoshi/#email-197)中，中本聪给出了两个主要原因来解释这种淡化匿名性的意图：用户的危险和公众的看法。他写道：
+在几小时后发给 Martti Malmi 的一封[电子邮件](https://mmalmi.github.io/satoshi/#email-197)中，中本聪给出了两个主要原因来解释这种淡化匿名性的意图：用户的危险和公众的看法。他写道：
 
-> “我认为我们应该淡化匿名这一方面。随着比特币地址代替通过IP发送变得流行，我们不能给人一种一切都自动匿名的印象。可能是匿名的，但你必须小心。[...] 此外，‘匿名’听起来有点可疑。我认为想要匿名的人会在我们不推广的情况下发现它。”
+> “我认为我们应该淡化匿名这一方面。随着比特币地址代替通过 IP 发送变得流行，我们不能给人一种一切都自动匿名的印象。假名性是可以实现的，但你必须小心。[...] 此外，‘匿名’听起来有点可疑。我认为想要匿名性的人会在我们不推广的情况下发现它。”
 
 他在论坛上的消息总结道：
 
-> “很抱歉泼冷水。为大众写这东西的描述真是难上加难。没有任何东西可以与之相比。”
+> “抱歉要扫兴了。要为普通大众写出对这种事物的说明，实在太难了，根本没有任何可以类比的事物。”
 
-随后，Teppy根据建议更新了演示。因此，在7月初，可以观察到围绕比特币的论述非常精准，表明它已经准备好迎接前所未有的涌入。
+随后，Teppy 根据建议更新了演示。因此，在 7 月初，我们可以观察到，围绕比特币的论述非常精准，表明它已经准备好迎接前所未有的涌入。
 
-### Slashdotted!
+### 已上传到 Slashdot 了!
 
-2010年7月11日，Teppy撰写的比特币介绍的修订版在Slashdot上[发布](https://news.slashdot.org/story/10/07/11/1747245/Bitcoin-Releases-Version-03)。内容如下：
+2010 年 7 月 11 日，Teppy 撰写的比特币介绍的修订版在 Slashdot 上正式[发布](https://news.slashdot.org/story/10/07/11/1747245/Bitcoin-Releases-Version-03)。内容如下：
 
-> “这算不算一项颠覆性技术？比特币是一种点对点的、基于网络的数字货币，没有中央银行，也没有交易费用。使用工作量证明概念，节点燃烧CPU周期寻找硬币束，将其发现广播到网络。能源使用分析表明，比特币的市场价值已经超过了生成它们所需的能源价值，表明需求健康。社区希望这种货币能够保持在任何政府的触手之外。”
+> “这算不算一项颠覆性技术？比特币是一种点对点的、基于网络的数字货币，没有中央银行，也没有交易费用。应用工作量证明概念，节点重复经过 CPU 周期试试挖出新的比特币，然后广播到整个网络。能源使用分析表明，比特币的市场价值已经超过了生成它们所需的能源价值，表明需求健康。社区希望这种货币能够保持在任何政府的触手之外。”
 
 ![Slashdot Logo in 2010](assets/zh-Hans/043.webp)
 
-该出版物引起了注意，在几天内收到了近500条评论。对于比特币来说，这一成功导致了大量访客涌入网站和论坛。区块链的使用激增：网络上进行的交易数量从7月10日的42笔增加到12日的1,641笔，到14日达到5,554笔，创下了历史新高。尽管负载增加，系统仍然稳定运行。14日，开发者Gavin Andresen在论坛上[写道](https://bitcointalk.org/index.php?topic=286.msg2745#msg2745)：
+该出版物引起了注意，在几天内收到了近 500 条评论。对于比特币来说，这一成功导致了大量用户涌入网站和论坛。区块链的使用激增：网络上进行的交易数量从 7 月 10 日的 42 笔增加到 12 日的 1,641 笔，到 14 日达到 5,554 笔，创下了历史新高。尽管负载增加，系统仍然稳定运行。14 日，开发者 Gavin Andresen 在论坛上[写道](https://bitcointalk.org/index.php?topic=286.msg2745#msg2745)：
 
-> “我认为中本聪做得非常好：在过去两天比特币被‘slashdotted’时，我没有听说有任何关于比特币交易丢失、网络因负载而宕机或任何基本功能问题。”
-这一涌入的第一个后果是比特币价格经历了一次流星般的上升，从0.008美元上涨到了0.08美元，仅一周时间就增长了十倍！
-另一个涌入人群带来的效应是网络上部署的计算能力增加。许多人开始运行软件，并用他们的中央处理器产生区块。从7月11日到7月17日，哈希率从0.22 GH/s增加到了2.78 GH/s。
+> “我认为中本聪做得非常好：在过去两天比特币通过 Slashdot 推广时，我没有听说有任何关于比特币交易丢失、网络因负载而宕机或任何基本功能问题。”
+这一涌入的第一个后果是比特币价格经历了一次大量的上升，从 0.008 美元上涨到了 0.08 美元，仅一周时间就增长了十倍！
+另一个涌入人群带来的效应是网络上部署的计算能力增加。许多人开始运行软件，并用他们的中央处理器产生区块。从 7 月 11 日到 7 月 17 日，哈希率从 0.22 GH/s 增加到了 2.78 GH/s。
 
-### Mt. Gox的创建
+### Mt. Gox 的创建
 
-在通过Slashdot发现比特币的人中，有Jed McCaleb，一位35岁的美国企业家和程序员，他因在2000年代共同创立并开发点对点文件共享软件eDonkey2000而闻名。意识到用美元兑换比特币有多困难后，他"一时兴起"决定创建一个高效的市场。为此，他重新利用了他在2007年开发的一个旧项目：Magic The Gathering Online eXchange (MTGOX)，这是一个允许买卖在线游戏《Magic: The Gathering Online》卡牌的网站。他重用了这个项目的域名(mtgox.com)，这个名称成为了新平台的名称：Mt. Gox，发音为"Mount Gox"。
+通过 Slashdot 发现比特币的人中，有一位名叫 Jed McCaleb 的 35 岁的美国企业家和程序员，他因在 2000 年代共同创立并开发点对点文件共享软件 eDonkey2000 而闻名。意识到用美元兑换比特币有多困难后，他"一时兴起"决定创建一个高效的市场。为此，他重新利用了他在 2007 年开发的一个旧项目：Magic The Gathering Online eXchange (MTGOX)，这是一个允许买卖在线游戏《Magic: The Gathering Online》卡牌的网站。他重用了这个项目的域名(mtgox.com)，这个名称成为了新平台的名称：Mt. Gox，发音为 "Mount Gox"。
 
 ![Jed McCaleb in 2013](assets/zh-Hans/044.webp)
-2013年的Jed McCaleb（来源：Ariel Zambelich为[Wired](https://web.archive.org/web/20131001233752/http://www.wired.com/wiredenterprise/2013/09/jed_mccaleb/)）
+2013 年的 Jed McCaleb（来源：Ariel Zambelich 为 [Wired](https://web.archive.org/web/20131001233752/http://www.wired.com/wiredenterprise/2013/09/jed_mccaleb/)）
 
-一周后，即7月18日，Jed McCaleb启动了他的交易平台，并在论坛上[宣布](https://bitcointalk.org/index.php?topic=444.msg3866#msg3866)了这一消息。凭借他的专业知识，他确保了平台作为一个自动化市场的运作，类似于现代在线交易所。[据他所说](https://bitcointalk.org/index.php?topic=444.msg3891#msg3891)，它与Bitcoin Market不同之处在于它“始终在线，自动化”，“网站更快，有专用托管”，以及“界面更加用户友好”。结果，Mt. Gox迅速成为获取比特币的主要手段，确立了自己作为美元报价的标杆。
+一周后，即 7 月 18 日，Jed McCaleb 启动了他的交易平台，并在论坛上[宣布](https://bitcointalk.org/index.php?topic=444.msg3866#msg3866)了这一消息。凭借他的专业知识，他确保了平台作为一个自动化市场的运作，类似于现代在线交易所。[据他所说](https://bitcointalk.org/index.php?topic=444.msg3891#msg3891)，它与Bitcoin Market不同之处在于它“始终在线，自动化”，“网站更快，有专用托管”，以及“界面更加用户友好”。结果，Mt. Gox迅速成为获取比特币的主要手段，确立了自己作为美元报价的标杆。
 
 ![Interface of the Mt. Gox platform in February 2011](assets/zh-Hans/045.webp)
-2011年2月Mt. Gox平台的界面（来源：[Mt. Gox archive](https://web.archive.org/web/20110203031942/http://mtgox.com/)）
-最初，该平台接受通过PayPal进行支付。然而，在2010年10月，由于过多的退款请求，PayPal [封锁](https://bitcointalk.org/index.php?topic=1419.msg16421#msg16421)了Jed McCaleb的账户，这迫使他暂时暂停了平台上的存款和取款操作。几周后，他通过添加Liberty Reserve作为支付方式，[恢复](https://bitcointalk.org/index.php?topic=1699.msg20700#msg20700)了转账。随后，应要求他还接受了通过[Paxum](https://bitcointalk.org/index.php?topic=2052.msg27809#msg27809)的交易，并且接受了[美元](https://bitcointalk.org/index.php?topic=4187.msg60610#msg60610)（ACH）和[欧元](https://bitcointalk.org/index.php?topic=2515.msg34040#msg34040)（SEPA）的银行转账。
-### Slashdot效应的加速作用
+2011 年 2 月 Mt. Gox 平台的界面（来源：[Mt. Gox 档案](https://web.archive.org/web/20110203031942/http://mtgox.com/)）
+最初，该平台接受通过 PayPal 进行支付。然而，在 2010 年 10 月，由于过多的退款请求，PayPal [封锁](https://bitcointalk.org/index.php?topic=1419.msg16421#msg16421)了 Jed McCaleb 的账户，这迫使他暂时暂停了平台上的存款和取款操作。几周后，他通过添加 Liberty Reserve 作为支付方式，[恢复](https://bitcointalk.org/index.php?topic=1699.msg20700#msg20700)了转账。随后，应要求他还接受了通过 [Paxum](https://bitcointalk.org/index.php?topic=2052.msg27809#msg27809) 的交易，并且接受了[美元](https://bitcointalk.org/index.php?topic=4187.msg60610#msg60610)（ACH）和[欧元](https://bitcointalk.org/index.php?topic=2515.msg34040#msg34040)（SEPA）的银行转账。
+### Slashdot 效应的加速作用
 
-在Slashdot上发布比特币介绍对Satoshi Nakamoto的项目产生了惊人的效果。涌入的感兴趣的人导致价格和哈希率创下记录增长。此外，它促使某位Jed McCaleb发现了比特币，并创建了一个名为Mt. Gox的值得交易的市场。
-在接下来的几个月中，技术、经济和挖矿的改进继续蓬勃发展，使Slashdot成为比特币作为社区运动的真正起点。然而，最重大的变化发生在软件和协议层面：确实存在需要修复的重大漏洞。下一章将聚焦于这些技术问题，这是比特币发展中的一个关键步骤。
+在 Slashdot 上发布比特币介绍对中本聪的项目产生了惊人的效果。涌入的感兴趣的人导致价格和哈希率创下记录增长。此外，它促使某位 Jed McCaleb 发现了比特币，并创建了一个名为 Mt. Gox 的值得交易的市场。
+在接下来的几个月中，技术、经济和挖矿的改进继续蓬勃发展，使 Slashdot 成为比特币作为社区运动的真正起点。然而，最重大的变化发生在软件和协议层面：确实存在需要修复的重大漏洞。下一章将聚焦于这些技术问题，这是比特币发展中的一个关键步骤。
 
-## 第一次技术问题
-<chapterId>30cc4fe4-22b0-429e-9874-029c9137c0aa</chapterId>
+## 最初的技术问题
+<chapterId>-22b0-429e-9874-029c9137c0aa</chapterId>
 
 :::video id=f3e98b49-c32e-451a-b7c1-224dc5b00cf5:::
 
-正如上一章提到的，2010年7月11日，来自Slashdot的用户涌入导致Satoshi Nakamoto的项目引起了巨大的兴趣。网络的使用爆炸性增长；汇率增长了十倍，系统专用的计算能力也是如此。因此，比特币在夏天经历了前所未有的增长。
+正如上一章提到的，2010 年 7 月 11 日，来自 Slashdot 的用户涌入导致中本聪的项目引起了巨大的兴趣。网络的使用爆炸性增长；汇率增长了十倍，系统专用的计算能力也是如此。因此，比特币在夏天经历了前所未有的增长。
 
-然而，这一成功伴随着技术问题，软件中发现了许多漏洞。更大的流行度确实意味着更多的人检查代码和更高的操作异常可能性。这正是8月15日发生的值溢出事件，比特币历史上的第一次“故障”，持续了大约15小时。这一时期自然以软件的改进为标志，以尽可能预见各种威胁并纠正缺陷。
+然而，这一成功伴随着技术问题，软件中发现了许多漏洞。更大的流行度确实意味着更多的人检查代码和更高的操作异常可能性。这正是 8 月 15 日发生的值溢出事件，比特币历史上的第一次“故障”，持续了大约 15小时。这一时期自然以软件的改进为标志，以尽可能预见各种威胁并纠正缺陷。
 
 ### 软件改进
 
-来自Slashdot的用户涌入也需要改进软件。发现的漏洞需要被纠正，新功能必须被整合。因此，Satoshi感到压力山大：7月18日，他私下里[吐露](https://mmalmi.github.io/satoshi/#email-210)给Martti Malmi，他“快要疯了，有太多事情需要做。”在两个月的时间里，发布了不少于8个子版本的软件！
-然而，比特币的创建者并不是独自一人在编写代码。他可以依靠Gavin Andresen的帮助，Gavin于6月份加入，并且越来越多地参与到开发中（自7月9日起，他在SourceForge仓库中被[认证](https://sourceforge.net/p/bitcoin/code/101/)）。还有一些对系统如何工作感到好奇并在遇到问题时报告问题的人，例如Christian Decker（cdecker）或Michael Marquardt（更广为人知的化名是Theymos）。Satoshi还得到了矿工的支持，这些矿工修改代码以寻找优化单位生成的方法，比如ArtForz（我们将在下一章看到，他是第一个建立矿场的人）、德国开发者Nils Schneider（tcatm）、Michael Brown（knightmb）或BlackEye。
-最后，我们可以提到Jeff Garzik（在论坛上使用化名jgarzik），他是一位美国开发者，在自由软件世界中做出了贡献，特别是对于Red Hat发行版，同时他也是奥地利经济学派的自由主义追随者。他通过在Slashdot上发布的文章发现了比特币，并几乎立即参与到比特币中。
+来自 Slashdot 的用户涌入也需要改进软件。被发现的漏洞需要纠正，新功能必须被整合。因此，中本聪感到压力山大：7 月 18 日，他私下里[吐露](https://mmalmi.github.io/satoshi/#email-210)给Martti Malmi，他“快要疯了，有太多事情需要做处理。”在两个月的时间里，发布了不少于 8 个子版本的软件！
+然而，比特币的创建者并不是独自一人在编写代码。他可以依靠 Gavin Andresen 的帮助，Gavin 于 6 月份加入，并且越来越多地参与到开发中（自 7 月 9 日起，他在 SourceForge 仓库中被[认证](https://sourceforge.net/p/bitcoin/code/101/)）。还有一些对系统如何工作感到好奇并在遇到问题时报告问题的人，例如 Christian Decker（cdecker）或 Michael Marquardt（更广为人知的化名是 Theymos）。中本聪还得到了矿工的支持，这些矿工修改代码以寻找优化单位生成的方法，比如ArtForz（我们将在下一章看到，他是第一个建立矿场的人）、德国开发者 Nils Schneider（tcatm）、Michael Brown（knightmb）或 BlackEye。
+最后，我们可以提到 Jeff Garzik（在论坛上使用化名 jgarzik），他是一位美国开发者，在自由软件世界中做出了贡献，特别是对于 Red Hat 发行版，同时他也是奥地利经济学派的自由主义追随者。他通过在Slashdot 上发布的文章发现了比特币，并几乎立即参与到比特币网络中。
 
 ![Jeff Garzik in 2013](assets/zh-Hans/046.webp)
-2013年的Jeff Garzik（来源：[Benson Samuel](https://bensonsamuel.com/bitcoin-3/talking-bitcoin-with-jeff-garzik/)）
+2013 年的 Jeff Garzik（来源：[Benson Samuel](https://bensonsamuel.com/bitcoin-3/talking-bitcoin-with-jeff-garzik/)）
 
-Satoshi的首要目标是使软件和协议更加安全，以应对最近使用量的增加。他和Gavin Andresen一起考虑可能发生的各种攻击（包括拒绝服务攻击），并努力修正发现的漏洞。这就是7月17日添加检查点系统（[v0.3.2](https://bitcointalk.org/index.php?topic=437.msg3807#msg3807)）的原因，它阻止了在特定日期之前重写链的行为，并且在7月25日集成了工作概念（[v0.3.3](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707)）以完善节点选择正确链的机制。
+中本聪的首要目标是使软件和协议更加安全，以应对最近使用量的增加。他和 Gavin Andresen 一起考虑可能发生的各种攻击（包括拒绝服务攻击），并努力修正发现的漏洞。这就是 7 月 17 日添加检查点系统（[v0.3.2](https://bitcointalk.org/index.php?topic=437.msg3807#msg3807)）的原因，它阻止了在特定日期之前重写区块链的行为，并且在 7 月 25 日集成了工作概念（[v0.3.3](https://bitcointalk.org/index.php?topic=570.msg5707#msg5707)）以完善节点确定正确区块链的机制。
 
-Gavin 和中本聪也修复了几个错误。其中主要的错误是“*1 RETURN bug*”，这是脚本系统中的一个漏洞，它使得通过一个特定的脚本可以从任何地址花费比特币。这个漏洞由 ArtForz 在 7 月 28 日报告，他没有选择利用这个缺陷并悄悄致富，而是选择与中本聪和 Gavin 分享他的发现。中本聪急忙将修复程序包含在软件 ([v0.3.6](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451)) 中，并建议所有用户进行升级。比特币因此避免了最坏的情况。此漏洞稍后将以标识符 [CVE-2010-5141](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-5141) 注册到 MITRE 公司。
-第二个目标是通过对协议进行修改或优化软件的操作来提高系统的性能。在这一类别中，向内部脚本系统添加`OP_NOP`操作码的行为就是其中之一，这是由中本聪在7月29日（v0.3.6）悄悄进行的，唯一的[评论](https://sourceforge.net/p/bitcoin/code/119/)是“扩展”一词。这些操作码是静默指令，如果出现在脚本中不会产生任何效果，但也不会使交易无效。因此，可以修改这些指令的行为，而不会使脚本与协议的旧版本不兼容，这就是中本聪评论的原因。这些操作码将特别允许所谓的“软分叉”，在2015年和2016年通过将指令`OP_NOP2`和`OP_NOP3`转换为`OP_CHECKLOCKTIMEVERIFY`和`OP_CHECKSEQUENCEVERIFY`（分别）来实现。
+Gavin 和中本聪也修复了几个错误。其中主要的错误是“*1 RETURN bug*”，这是脚本系统中的一个漏洞，它使得通过一个特定的脚本可以从任何地址花费比特币。这个漏洞由 ArtForz 在 7 月 28 日报告，他没有选择利用这个缺陷并悄悄致富，而是选择与中本聪和 Gavin 分享他的发现。中本聪急忙将修复程序包含在软件 ([v0.3.6](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451)) 中，并建议所有用户进行升级。因此，比特币避免了最坏的情况。此漏洞稍后将以标识符 [CVE-2010-5141](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-5141) 注册到 MITRE 公司。
+第二个目标是通过对协议进行修改或优化软件的操作来提高系统的性能。在这一类别中，向内部脚本系统添加`OP_NOP`操作码的行为就是其中之一，这是由中本聪在 7 月 29 日（v0.3.6）悄悄进行的，唯一的[评论](https://sourceforge.net/p/bitcoin/code/119/)是“扩展”这一词。这些操作码是无声命令，在脚本中出现时不会产生任何效果，但也不会使交易失效。因此，可以修改这些命令的行为，而不会使脚本与协议的旧版本不兼容，这就是中本聪评论的原因。这些操作码将特别允许所谓的“软分叉”，在 2015 年和2016 年通过将指令`OP_NOP2` 和 `OP_NOP3` 转换为 `OP_CHECKLOCKTIMEVERIFY` 和`OP_CHECKSEQUENCEVERIFY`（分别）来实现。
 
-矿工们也分享他们的发现，以直接或间接地改善与主软件的比特币生成。首先，[Laszlo的个人优化](https://bitcointalk.org/index.php?topic=199.msg1686#msg1686)在7月6日（v0.3.0）被整合到软件中。然后，Nils Schneider的SHA-256哈希函数的[上下文缓存](https://bitcointalk.org/index.php?topic=501.msg5815#msg5815)和BlackEye的[计算优化](https://bitcointalk.org/index.php?topic=453.msg5774#msg5774)在7月29日（v0.3.6）被添加到软件中。最后，Nils Schneider（再次）提出的[在单个处理器上的计算并行化](https://bitcointalk.org/index.php?topic=648.msg6722#msg6722)在8月15日（v0.3.10）被[整合](https://bitcointalk.org/index.php?topic=827.msg9590#msg9590)到代码中。
+矿工们也分享他们的发现，以直接或间接地改善与主软件的比特币生成。首先，[Laszlo 的个人优化](https://bitcointalk.org/index.php?topic=199.msg1686#msg1686)在 7 月 6 日（v0.3.0）被整合到软件中。然后，Nils Schneider 的 SHA-256 哈希函数的[上下文缓存](https://bitcointalk.org/index.php?topic=501.msg5815#msg5815)和 BlackEye 的[计算优化](https://bitcointalk.org/index.php?topic=453.msg5774#msg5774)在 7 月 29 日（v0.3.6）被添加到软件中。最后，Nils Schneider（再次）提出的[在单个处理器上的计算并行化](https://bitcointalk.org/index.php?topic=648.msg6722#msg6722)在 8 月 15 日（v0.3.10）被[整合](https://bitcointalk.org/index.php?topic=827.msg9590#msg9590)到代码中。
 
-所有这些改进意味着比特币在软件操作和挖矿性能方面都在日益强大。然而，这种创新势头因为一个深刻标记社区的事件而有些受损。那就是价值溢出事件，该事件发生在8月，导致网络中断了大约十五个小时。
+所有这些改进意味着比特币在软件操作和挖矿性能方面都在逐渐变得更强大。然而，这种创新势头因为一个深刻标记社区的事件而有些受损。那就是价值溢出事件，该事件发生在 8 月，导致网络中断了大约十五个小时。
 
-### 价值溢出事件
+### 数值溢出事件
 
-2010年8月15日，大约下午5点（UTC），链上高度为74,638的一个区块添加了一个创建了超过1840亿比特币的交易。这种异常高的发行利用了数量表示中的内存溢出漏洞：攻击者创建了两个交易输出，每个为92,233,720,368.54277039 BTC，这个数额接近于可以由有符号64位整数表示的最大单位（协议中使用的格式）。
-一小时后，Jeff Garzik发现了问题，并在论坛上[警告](https://bitcointalk.org/index.php?topic=822.msg9474#msg9474)社区一个“奇怪的区块”。大约晚上9点，中本聪做出了回应：他在论坛上[发布](https://bitcointalk.org/index.php?topic=823.msg9530#msg9530)了一个初步的代码修改，并[建议](https://bitcointalk.org/index.php?topic=823.msg9531#msg9531)人们“停止生成”。在做了一些修订并上传到Sourceforge后，他最终在晚上11:48为Windows、Linux和Mac OS X[发布](https://bitcointalk.org/index.php?topic=827.msg9590#msg9590)了一个补丁。
+2010 年 8 月 15 日，大约下午 5 点（UTC），链上高度为 74,638 的一个区块添加了一个创建了超过1840 亿比特币的交易。这种异常高的发行利用了数量表示中的内存溢出漏洞：攻击者创建了两个交易输出，每个输出价值为 92,233,720,368.54277039 BTC，这个数额接近于可以由有符号 64 位整数表示的最大单位（协议中使用的格式）。
+一小时后，Jeff Garzik 发现了问题，并在论坛上[警告](https://bitcointalk.org/index.php?topic=822.msg9474#msg9474)社区一个“奇怪的区块”。大约晚上 9 点，中本聪做出了回应：他在论坛上[发布](https://bitcointalk.org/index.php?topic=823.msg9530#msg9530)了一个初步的代码修改，并[建议](https://bitcointalk.org/index.php?topic=823.msg9531#msg9531)人们“停止生成区块”。在做了一些修订并上传到 Sourceforge 后，他最终在晚上 11:48 为 Windows、Linux 和 Mac OS X[发布](https://bitcointalk.org/index.php?topic=827.msg9590#msg9590)了一个补丁。
 
-这个补丁允许矿工拒绝作为无效的被指控交易，并创建一个不包含该交易的替代分支。这个分支的[第一个区块](https://mempool.space/block/000000000069e1affe7161ab4bcbeacebb4ddf155b50e807f42de971b688a09b)在晚上11:53被找到。
+这个补丁允许矿工拒绝作为无效的被指控交易，并创建一个不包含该交易的替代分支。这个分支的[第一个区块](https://mempool.space/block/000000000069e1affe7161ab4bcbeacebb4ddf155b50e807f42de971b688a09b)在晚上 11:53 被找到。
 
-第二天早上，不久后的8点，这个冲突情况得到了解决。正确的链变得比另一个更长，这意味着所有节点不管是否应用了补丁都必须跟随这个链。这次事件中断了网络活动大约15小时，但社区的响应是值得称赞的。中本聪在下午1点左右[写道](https://bitcointalk.org/index.php?topic=823.msg9734#msg9734)：
+第二天早上 8 点，这个冲突情况得到了解决。正确的区块链比另一个更长，这意味着所有节点不管是否应用了补丁都必须把更长的区块链视为有效。这次事件中断了网络活动大约 15 小时，但社区的响应是值得称赞的。中本聪在下午 1 点左右[写道](https://bitcointalk.org/index.php?topic=823.msg9734#msg9734)：
 
-> “看起来我们在大约74689的地方超越了坏链。&nbsp;0.3.9及更低版本的节点现在已经回应了几个小时的当前区块号。（...）感谢大家的快速响应！”
+> “看起来我们在第 74689 左右的地方超越了坏链。&nbsp;0.3.9 及更低版本的节点现在已经回应了几个小时的当前区块号。（...）感谢大家的快速响应！”
 
 ### 警报系统
-在7月份发现1 RETURN漏洞后，中本聪尽一切可能保护网络免受事故的影响。8月3日，他在软件中添加了一个警告机制，以防链分裂（[v0.3.8](https://bitcointalk.org/index.php?topic=696.msg7364#msg7364)）。然而，这个机制对于检测15号出现的值溢出漏洞并不有用，促使中本聪加快[他的计划](https://bitcointalk.org/index.php?topic=823.msg9586#msg9586)开发一个更先进的机制。
+在 7 月份发现 1 RETURN 漏洞后，中本聪尽一切可能保护网络免受事故的影响。8 月 3 日，他在软件中添加了一个警告机制，以防链分裂（[v0.3.8](https://bitcointalk.org/index.php?topic=696.msg7364#msg7364)）。然而，这个机制对于检测 15 号出现的值溢出漏洞并不有用，促使中本聪加快[他的计划](https://bitcointalk.org/index.php?topic=823.msg9586#msg9586)开发一个更先进的机制。
 
-在事件发生后的几天里，中本聪因此在网络上建立了一个有效的警报系统，该系统允许他使用私钥在出现技术问题时警告节点，并暂停一些API命令。8月22日，他在论坛上[介绍](https://bitcointalk.org/index.php?topic=898.msg10722#msg10722)了他的系统。这个公告引起了成员们的担忧，他们在这个系统中看到了一个中心化的元素和一个国家可能利用的漏洞。中本聪两天后[回复](https://bitcointalk.org/index.php?topic=898.msg11074#msg11074)，称这些考虑为“偏执”，并指出系统可以由用户手动禁用，并且无论如何都是临时的。
-8月27日，警报系统正式集成到软件中（[v0.3.11](https://bitcointalk.org/index.php?topic=941.msg11439#msg11439)）。12月份，暂停功能的可能性被[移除](https://bitcointalk.org/index.php?topic=2228.msg29479#msg29479)。在随后的几年里，警告系统被多次使用，特别是在2013年的一次意外分叉事件中，直到2017年最终从软件中被[移除](https://bitcoin.org/en/alert/2016-11-01-alert-retirement)。
+在事件发生后的几天内，中本聪因此在网络上建立了一个有效的警报系统，该系统允许他使用私钥在出现技术问题时警告节点，并暂停一些 API 命令。8 月 22 日，他在论坛上[介绍](https://bitcointalk.org/index.php?topic=898.msg10722#msg10722)了他的系统。这个公告引起了成员们的担忧，他们在这个系统中看到了一个中心化的元素和一个国家可能利用的漏洞。中本聪两天后[回复](https://bitcointalk.org/index.php?topic=898.msg11074#msg11074)，称这些考虑为“偏执”，并指出系统可以由用户手动禁用，并且无论如何都是临时的。
+8 月 27 日，警报系统正式集成到软件中（[v0.3.11](https://bitcointalk.org/index.php?topic=941.msg11439#msg11439)）。12 月份，暂停功能的可能性被[移除](https://bitcointalk.org/index.php?topic=2228.msg29479#msg29479)。在随后的几年里，警告系统被多次使用，特别是在 2013 年的一次意外分叉事件中，直到 2017 年最终从软件中被[移除](https://bitcoin.org/en/alert/2016-11-01-alert-retirement)。
 
 ### 区块大小限制
 
-另一个旨在改进协议以使其能够抵御攻击的元素是添加交易区块大小限制。这个限制是一个参数，通过要求每个区块的大小小于这个尺寸，来限制系统的交易能力。其最初的目标是为了防止对网络的拒绝服务攻击。
+另一个旨在改进协议以使其能够抵御攻击的元素是添加交易区块大小限制。这个限制是一个参数，通过要求每个区块的大小小于这个大小，来限制系统的交易能力。其最初的目标是为了防止对网络的拒绝服务攻击。
 
-这个参数由中本聪在7月15日以常量`MAX_BLOCK_SIZE`（v0.3.1）的形式悄悄添加到代码中，当时设置为1兆字节（1,000,000字节）。这个限制的实现编程工作在9月7日由比特币的创建者完成，同样没有任何来自他的公开声明（v0.3.12）。它规定了大小限制（也限制了区块中的签名操作符数量）将从第79,400个区块开始生效。激活[发生](https://mempool.space/block/000000000021d821ec06be7173f413690bc5c4bc648dfa70b3b6763236f055b7)在9月12日。这个限制当时相当温和：它允许每秒7笔标准交易的吞吐量，这对于当时的经济活动来说绰绰有余，即使在slashdotting之后也是如此。
+这个参数由中本聪在 7 月 15 日以常量`MAX_BLOCK_SIZE`（v0.3.1）的形式悄悄添加到代码中，当时设置为 1 兆字节（1,000,000 字节）。这个限制的实现编程工作在 9 月 7 日由比特币的创建者完成，同样没有任何来自他的公开声明（v0.3.12）。它规定了大小限制（也限制了区块中的签名操作符数量）将从第79,400 个区块开始生效。激活[发生](https://mempool.space/block/000000000021d821ec06be7173f413690bc5c4bc648dfa70b3b6763236f055b7)在 9 月 12 日。这个限制当时相当温和：它允许每秒 7 笔标准交易的吞吐量，这对于当时的经济活动来说绰绰有余，即使在上传到 Slashdot 之后也是如此。
 
-尽管中本聪没有提及区块大小限制的存在，但随着时间的推移，几个人注意到了代码中的这一点。早在8月12日，一个使用化名throughput的讲俄语的论坛成员就[指出](https://bitcointalk.org/index.php?topic=788.msg8873#msg8873)，以一种相对赞同的语气说，“另一个有趣的方面是，区块的字节大小（所以其中的交易数量）是有限的。”后来，在9月30日，Theymos向另一个成员[指出](https://bitcointalk.org/index.php?topic=1314.msg14748#msg14748)，“比特币不允许超过1MB的区块，所以假设一个（相当小的）平均交易大小为216字节，比特币每10分钟只能处理4,629笔交易。”
-最终，这个参数的存在影响了Jeff Garzik，他[声明](https://bitcointalk.org/index.php?topic=1314.msg14750#msg14750)自己“比起政府关闭，更加关心可扩展性”，并且[询问](https://bitcointalk.org/index.php?topic=1341.msg15107#msg15107)如何能够“向严肃的投资者出售比特币，而内置的限制，如每分钟463笔交易的限制。”因此，在10月3日，他在论坛上提出了一个补丁，以将区块大小限制增加到7.168 MB，以便“匹配PayPal的平均交易率。”Theymos回应说，“应用这个补丁将使你与其他比特币客户端不兼容。”这一消息得到了中本聪的认可，他[推荐](https://bitcointalk.org/index.php?topic=1347.msg15139#msg15139)不使用该补丁，并声明：“如果我们接近需要它的时候，我们可以稍后逐步引入变更。”后者在第二天[阐明](https://bitcointalk.org/index.php?topic=1347.msg15366#msg15366)了他的想法，提供了如何进行此类协议更改的指导。
+尽管中本聪没有提及区块大小限制的存在，但随着时间的推移，几个人注意到了代码中的这一点。早在 8 月 12 日，一个使用化名 throughput 的讲俄语的论坛成员就[指出](https://bitcointalk.org/index.php?topic=788.msg8873#msg8873)，以一种相对赞同的语气说，“另一个有趣的方面是，区块的字节大小（所以其中的交易数量）是有限的。”后来，在 9 月 30 日，Theymos 向另一个成员[指出](https://bitcointalk.org/index.php?topic=1314.msg14748#msg14748)，“比特币不允许超过 1 MB 的区块，所以假设一个（相当小的）平均交易大小为 216 字节，比特币每 10 分钟只能处理 4,629 笔交易。”
+最终，这个参数的存在影响了 Jeff Garzik，他[声明](https://bitcointalk.org/index.php?topic=1314.msg14750#msg14750)自己“比起政府关闭，更加关心可扩展性”，并且[询问](https://bitcointalk.org/index.php?topic=1341.msg15107#msg15107)如何能够“向严肃的投资者出售比特币，而内置的限制，如每分钟 463 笔交易的限制”。因此，在 10 月 3 日，他在论坛上提出了一个补丁，以将区块大小限制增加到 7.168 MB，以便“匹配 PayPal 的平均交易率”。Theymos 回应说，“应用这个补丁将使你与其他比特币客户端不兼容。”这一消息得到了中本聪的认可，他[推荐](https://bitcointalk.org/index.php?topic=1347.msg15139#msg15139)不使用该补丁，并声明：“如果我们接近需要它的时候，我们可以稍后逐步引入变更。”后者在第二天[阐明](https://bitcointalk.org/index.php?topic=1347.msg15366#msg15366)了他的想法，提供了如何进行此类协议更改的指导。
 ![中本聪在2010年描述增加区块大小限制的消息](assets/zh-Hans/047.webp)
 
-这次讨论标志着关于可扩展性的辩论的开始，这最终会在2015年到2017年之间导致一场真正的内战，被称为区块大小战争。
+这次讨论标志着关于可扩展性的辩论的开始，这最终会在 2015 年到 2017 年之间导致一场真正的内战，被称为区块大小战争。
 
 ### 标准脚本模式
 
-在9月，中本聪还在代码中引入了一个新概念：非标准交易。这些是默认配置的节点不转发、不保留在它们的内存池中、也不包含在它们产生的区块中的交易。然而，这些交易仍然完全有效，且包含它们的区块被整个网络接受。
+在 9 月，中本聪还在代码中引入了一个新概念：非标准交易。这些是默认配置的节点不转发、不保留在它们的内存池中、也不包含在它们产生的区块中的交易。然而，这些交易仍然完全有效，且包含它们的区块被整个网络接受。
 
 这种规范区分有助于限制在比特币的脚本系统中潜在漏洞的利用，该脚本系统相当丰富且未被充分审查，代价是对可编程性的临时限制。在这个时候，网络识别出两种类型的输出脚本为标准：
 
-- 通过公钥(*pubkey*)接收，由矿工使用，用于通过IP地址进行转账；
-- 通过公钥指纹(*pubkey hash*)接收，用于通过比特币地址进行转账。
-在9月7日的0.3.12版本中，中本聪[包含](https://bitcointalk.org/index.php?topic=999.msg12240#msg12240)了一个限制，要求交易不得太大，也不得包含太多签名操作符。正如他解释的，这是对区分的初步应用。这在三个月后由Gavin Andresen[正式化](https://bitcointalk.org/index.php?topic=2129.msg27744#msg27744)，他在代码中添加了`IsStandard`函数，一个验证交易标准性的函数。通过将P2SH集成到协议中，2012年重新引入了对可编程性的访问。
+- 通过公钥(*pubkey*)接收，由矿工使用，用于通过 IP 地址进行转账；
+- 通过公钥哈希(*pubkey hash*)接收，用于通过比特币地址进行转账。
+在 9 月 7 日的 0.3.12 版本中，中本聪[包含](https://bitcointalk.org/index.php?topic=999.msg12240#msg12240)了一个限制，要求交易不得太大，也不得包含太多签名操作符。正如他解释的，这是对区分的初步应用。这在三个月后由 Gavin Andresen [正式化](https://bitcointalk.org/index.php?topic=2129.msg27744#msg27744)，他在代码中添加了`IsStandard` 函数，一个验证交易标准性的函数。通过将 P2SH 集成到协议中，2012 年重新引入了对可编程性的访问。
 
-### 一个开发的夏天
-在2010年的夏天，这是一个充满事件的时期，中本聪致力于比特币软件的开发。比特币介绍文本在Slashdot上的发布导致了前所未有的用户涌入，这也使得系统面临风险。因此，创始人和他的助手们（特别是加文·安德森）尽力修正漏洞。然而，网络并未能避免一次重大事件，即值溢出事件，这导致在软件中创建了一个由中本聪管理的警报系统。最终，这一时期还标志着区块大小限制的添加，这是比特币历史上的一个基本元素。
+### 一个充满开发进展的夏天
+在 2010 年的夏天，这是一个充满事件的时期，中本聪致力于比特币软件的开发。比特币介绍文本在Slashdot 上的发布导致了前所未有的用户涌入，这也使得系统面临风险。因此，创始人和他的助手们（特别是 Gavin Andresen）尽力修正漏洞。然而，网络并未能避免一次重大事件，即数值溢出事件，这导致在软件中创建了一个由中本聪管理的警报系统。最终，这一时期还标志着区块大小限制的添加，这是比特币历史上的一个基本元素。
 
 在接下来的几个月里，技术、经济和挖矿的改进继续涌现，逐渐将比特币转变为一个集体项目。"比特币社区"最终作为一个自治实体活跃起来。这是我们将在本课程下一部分研究的内容。
 
@@ -1022,158 +1022,158 @@ Gavin 和中本聪也修复了几个错误。其中主要的错误是“*1 RETUR
 
 :::video id=665ac55c-cd61-4d07-a896-95248eec480d:::
 
-在前一部分，我们研究了比特币介绍在Slashdot上发布（被Slashdot报道）的效果，以及中本聪及其助手如何管理最初的技术问题。到夏天结束时，项目已经度过了风暴，准备迎接越来越多的人。因此，2010年的秋天标志着比特币的一个成功时期。
-这一时期特别是挖矿的黄金时代，随着第一个GPU农场和第一个合作社的出现，挖矿见证了显著的改进。部署的资源在增加，专用算法的性能在提高。这在某种程度上是一场“数字黄金热潮”，当时的一位博客作者（使用化名jimbobway）[写道](https://web.archive.org/web/20100828094955/http://www.bitcoinblogger.com/2010/08/bitcoins-new-digital-gold-rush.html)，指出“成千上万的互联网用户”正在挖掘比特币“希望获得财富”，并且他们中的许多人正在尝试“开发软件和硬件工具以更高效地挖掘比特币，希望变得非常富有”。(*原文："Bitcoins: A New Digital Gold Rush (...) Thousands of users on the Internet are now mining for bitcoins in hopes of fortune. Many are trying to develop software and hardware tools to mine for bitcoins more efficiently in hopes of becoming filthy rich."*)
+在前一部分，我们研究了比特币介绍在 Slashdot 上发布（被 Slashdot 报道）的效果，以及中本聪及其助手如何管理最初的技术问题。到夏天结束时，项目已经度过了风暴，准备迎接越来越多的人。因此，2010 年的秋天标志着比特币的一个成功时期。
+这一时期特别是挖矿的黄金时代，随着第一个 GPU 农场和第一个合作社的出现，挖矿见证了显著的改进。部署的资源在增加，专用算法的性能在提高。这在某种程度上是一场“数字黄金热潮”，当时的一位博客作者（使用化名 jimbobway）[写道](https://web.archive.org/web/20100828094955/http://www.bitcoinblogger.com/2010/08/bitcoins-new-digital-gold-rush.html)，指出“成千上万的互联网用户”正在挖掘比特币“希望获得财富”，并且他们中的许多人正在尝试“开发软件和硬件工具以更高效地挖掘比特币，希望变得非常富有”。(*原文："Bitcoins: A New Digital Gold Rush (...) Thousands of users on the Internet are now mining for bitcoins in hopes of fortune. Many are trying to develop software and hardware tools to mine for bitcoins more efficiently in hopes of becoming filthy rich."*)
 
-### 第一个GPU农场
+### 第一个 GPU 农场
 
-在2010年7月比特币被Slashdot报道后，价格上涨带来的高额财务回报和未来增长的可能性鼓励个人更加密集地致力于生成比特币。这就是为什么网络的[哈希率](https://bitinfocharts.com/comparison/bitcoin-hashrate.html#alltime)在7月11日是0.22 GH/s，到了17日上升到2.78 GH/s，然后在8月15日达到5.79 GH/s，最终在9月19日达到9.94 GH/s，最后在9月29日达到12.58 GH/s。
+在 2010 年 7 月比特币被 Slashdot 报道后，价格上涨带来的高额财务回报和未来增长的可能性鼓励个人更加密集地致力于生成比特币。这就是为什么网络的[哈希率](https://bitinfocharts.com/comparison/bitcoin-hashrate.html#alltime)在 7 月 11 日为 0.22 GH/s，到了 17 日上升到 2.78 GH/s，然后在 8 月 15 日达到 5.79 GH/s，最终在 9 月 19 日达到 9.94 GH/s，最后在 9 月 29 日达到 12.58 GH/s。
 
 ![2010年7月11日至10月5日的总网络哈希率](assets/zh-Hans/048.webp)
-2010年7月11日至10月5日的总网络哈希率（来源：[CoinWarz](https://www.coinwarz.com/mining/bitcoin/hashrate-chart)）
-这一时期最大的矿工是一位德国开发者，他的名字叫ArtForz。在通过Slashdot了解到比特币后，他迅速参与到软件开发中，并在IRC频道#bitcoin-dev上花费了大量时间。特别是，他使用OpenCL开发了自己的GPU挖矿算法，并用自己的显卡运行。他从7月19日开始生成比特币。7月25日，在一个调查用户比特币持有量的帖子中，ArtForz[声明](https://web.archive.org/web/20151121004205/https://bitcointalk.org/index.php?topic=564.msg5617#msg5617)他在6天内生成了1,700个比特币，这相当于4%的哈希率，或80 MH/s。逐渐地，他建立了一个大型的挖矿农场，被称为"ArtFarm"。到了8月，他的农场[包括](https://www.ofnumbers.com/2014/04/20/how-artforz-changed-the-history-of-bitcoin-mining/)6个ATI Radeon HD 5770s，使他能够从8月9日的76 MH/s增加到13日的约450 MH/s。
+2010 年 7 月 11 日至 10 月 5 日的总网络哈希率（来源：[CoinWarz](https://www.coinwarz.com/mining/bitcoin/hashrate-chart)）
+这一时期最大的矿工是一位德国开发者，他的名字叫 ArtForz。在通过 Slashdot 了解到比特币后，他迅速参与到软件开发中，并在 IRC 频道 #bitcoin-dev 上花费了大量时间。特别是，他使用 OpenCL 开发了自己的 GPU 挖矿算法，并用自己的显卡运行。他从 7 月 19 日开始生成比特币。7 月 25 日，在一个调查用户比特币持有量的帖子中，ArtForz [声明](https://web.archive.org/web/20151121004205/https://bitcointalk.org/index.php?topic=564.msg5617#msg5617)他在 6 天内生成了 1,700 个比特币，这相当于 4% 的哈希率，或 80 MH/s。逐渐地，他建立了一个大型的挖矿农场，被称为 "ArtFarm"。到了 8 月，他的农场[包括](https://www.ofnumbers.com/2014/04/20/how-artforz-changed-the-history-of-bitcoin-mining/) 6 个 ATI Radeon HD 5770，使他能够从 8 月 9 日的 76 MH/s 哈希率增加到13 日的约 450 MH/s。
 
 ![ArtForz在2010年8月至10月间的挖矿产量](assets/zh-Hans/049.webp)
-ArtForz在2010年8月至10月间的挖矿产量（来源：Blackburn et al., "[Cooperation among an anonymous group protected Bitcoin during failures of decentralization](https://arxiv.org/pdf/2206.02871)")
+ArtForz 在 2010 年 8 月 至 10 月间的挖矿产量（来源：Blackburn et al., "[一个匿名群体的协作在去中心化失效时保护了比特币](https://arxiv.org/pdf/2206.02871)")
 
-随着时间的推移，ArtForz控制了网络计算能力的重要部分。9月2日，矿工puddinpop[声明](https://bitcointalk.org/index.php?topic=133.msg11957#msg11957)他“使用他的OpenCL客户端大约有12个5770s”，并且他“拥有超过1 Ghash/s”，占了“网络哈希能力的20%”。（原文："ArtForz, on IRC, has like 12 or so 5770s running his own OpenCL client. The entire network is doing something around 5-6Ghash/s, and he alone has stated that he has over 1Ghash/s."）9月23日，ArtForz[宣布](https://web.archive.org/web/20180118035138/http://bitcoinstats.com:80/irc/bitcoin-dev/logs/2010/09/23#l1285234390.0)拥有近2 GH/s的哈希率，仍然代表了20%的哈希能力。10月3日，theymos[声明](https://bitcointalk.org/index.php?topic=1327.msg15118#msg15118)ArtForz“拥有网络计算能力的20到30%。”（原文："he has 20-30% of the network's CPU power"）
-然而，这一地位在秋季很快就被更新系统的其他个体挑战。随后，ArtForz逐渐从挖矿活动中退出，专注于软件开发。2011年8月，他[声明](https://bitcointalk.org/index.php?topic=37904.msg478671#msg478671)他拥有的网络计算能力不到1%。
+随着时间的推移，ArtForz 控制了网络计算能力的重要部分。9 月 2 日，矿工 puddinpop [声明](https://bitcointalk.org/index.php?topic=133.msg11957#msg11957)他“使用他的 OpenCL 客户端大约有 12 个 5770 显卡”，并且他 “拥有超过 1 Ghash/s”，占了 “网络哈希能力的 20%”。（原文："在 IRC 上的 ArtForz 拥有大约 12 张 Radeon 5770 显卡，运行着他自己编写的 OpenCL 客户端。整个网络的算力大约在 5 到 6 Ghash/s 之间，而他一个人的算力就超过 1 Ghash/s"）。9 月 23 日，ArtForz [宣布](https://web.archive.org/web/20180118035138/http://bitcoinstats.com:80/irc/bitcoin-dev/logs/2010/09/23#l1285234390.0)拥有近2 GH/s的哈希率，仍然代表了 20% 的哈希能力。10 月 3 日，theymos [声明](https://bitcointalk.org/index.php?topic=1327.msg15118#msg15118) ArtForz “拥有网络计算能力的 20 到 30%。”（原文："他拥有全网约 20% 到 30% 的算力"）
+然而，这一地位在秋季很快就被更新系统的其他个体挑战。随后，ArtForz 逐渐从挖矿活动中退出，专注于软件开发。2011 年 8 月，他[声明](https://bitcointalk.org/index.php?topic=37904.msg478671#msg478671)他拥有的网络计算能力不到 1%。
 
 ### 挖矿专业化
-到2010年夏末，ArtForz的例子激励了其他矿工们纷纷开发自己的方法，利用他们的图形处理器来生成比特币。为此，矿工们使用了像CUDA或OpenCL这样的编程环境。这使他们能够达到以MH/s计量的计算能力，并占据了总算力的重要部分。
-9月2日，矿工puddinpop [分享](https://bitcointalk.org/index.php?topic=133.msg11940#msg11940)了他的挖矿客户端的可执行文件，该文件利用了CUDA算法。他对任何使用它的人收取了10%的费用。这种做法并没有受到主张免费软件的论坛成员的特别欢迎。
+到2010年夏末，ArtForz 的示范激励了其他矿工们纷纷开发自己的方案，利用他们的图形处理器来进行比特币挖矿。为此，矿工们使用了像 CUDA 或 OpenCL 这样的编程环境。这使他们能够达到以 MH/s 计量的计算能力，并占据了总算力的重要部分。
+9 月 2 日，矿工 puddinpop [分享](https://bitcointalk.org/index.php?topic=133.msg11940#msg11940)了他的挖矿客户端的可执行文件，该文件利用了 CUDA 算法。他对任何使用它的人收取了 10% 的费用。这种做法并没有受到主张免费软件的论坛成员的特别欢迎。
 
-9月6日，应论坛成员的建议，他[声明](https://bitcointalk.org/index.php?topic=133.msg12107#msg12107)如果收到“一笔可观的捐赠”，他“或许愿意将代码开源”。15日，Jeff Garzik就此事提出了一个[提议](https://bitcointalk.org/index.php?topic=133.msg12921#msg12921)，提议给puddinpop 10,000比特币，当时大约值600美元。Puddinpop接受了：交易在18日[发生](https://mempool.space/tx/f79314da84567196905f6e061e2bc9f3ee8b30d40f7b80dac90fcb1f4b4c71ea)，不久之后puddinpop便根据免费许可证[发布](https://bitcointalk.org/index.php?topic=133.msg13135#msg13135)了算法。
-其他算法也同时公开。9月9日，一位自称 nelisky 的论坛成员[分享](https://bitcointalk.org/index.php?topic=1009.msg12264#msg12264)了他使用 CUDA 的自己的挖矿算法。10月1日，一位名叫 Momchil Georgiev 的人士（他于 2 月加入论坛并使用化名 m0mchil）[发布](https://web.archive.org/web/20101206143359/http://www.bitcoin.org/smf/index.php?topic=1334.0)了他的算法 (POCLBM)，称之为“面向大众的 OpenCL 矿工”。
+9 月 6 日，应论坛成员的建议，他[声明](https://bitcointalk.org/index.php?topic=133.msg12107#msg12107)如果收到“一笔可观的捐赠”，他“或许愿意将代码开源”。15 日，Jeff Garzik 就此事提出了一个[提议](https://bitcointalk.org/index.php?topic=133.msg12921#msg12921)，提议给 puddinpop 10,000 比特币，当时大约价值为 600 美元。puddinpop 接受了：交易在 18 日[发生](https://mempool.space/tx/f79314da84567196905f6e061e2bc9f3ee8b30d40f7b80dac90fcb1f4b4c71ea)，不久之后，puddinpop 便根据免费许可证[发布](https://bitcointalk.org/index.php?topic=133.msg13135#msg13135)了算法。
+其他算法也同时公开。9 月 9 日，一位自称 nelisky 的论坛成员[分享](https://bitcointalk.org/index.php?topic=1009.msg12264#msg12264)了他使用 CUDA 的自己的挖矿算法。10 月 1 日，一位名叫 Momchil Georgiev 的人士（他于 2 月加入论坛并使用化名 m0mchil）[发布](https://web.archive.org/web/20101206143359/http://www.bitcoin.org/smf/index.php?topic=1334.0)了他的算法 (POCLBM)，称之为“面向大众的 OpenCL 矿工”。
 
-这一改进使得技术最为精湛的个体能够生成大量比特币。除了ArtForz，Nils Schneider（tcatm）显然成为了这一时期的主要矿工之一。2010年10月3日，他[声称](https://bitcointalk.org/index.php?topic=1327.msg15111#msg15111)拥有由3个图形处理器产生的983 MH/s的哈希率。这个数字让[中本聪](https://bitcointalk.org/index.php?topic=1327.msg15112#msg15112)自己都感到惊讶。
+这一改进使得技术最为精湛的个体能够生成大量比特币。除了 ArtForz，Nils Schneider（tcatm）显然成为了这一时期的主要矿工之一。2010 年 10 月 3 日，他[声称](https://bitcointalk.org/index.php?topic=1327.msg15111#msg15111)拥有由 3 个图形处理器产生的 983 MH/s 的哈希率。这个数字让[中本聪](https://bitcointalk.org/index.php?topic=1327.msg15112#msg15112)自己都感到惊讶。
 
-### 第一个挖矿池
+### 最初的矿池
 
-由于挖矿专业化导致的哈希率大幅增加，使得使用中央处理器生成比特币变得越来越难，也越来越不划算。实际上，生成比特币的可能性越来越依赖于变数，有些个体从未成功产生一个区块。解决这个问题的方法是合作挖矿。
+由于挖矿专业化导致的哈希率大幅增加，使得使用中央处理器生成比特币变得越来越难，也越来越不划算。实际上，生成比特币的可能性越来越依赖于变数，有些个体从未成功产生一个区块。解决这个问题的方法是进行合作挖矿。
 
 
 10 月 1 日，Momchil [发布了](https://bitcointalk.org/index.php?topic=1333.msg14840#msg14840)一项 API 修改，允许客户端节点通过一个名为 `getwork` 的新功能检索候选区块，并在找到解决方案时返回工作量证明。他写道，此修复程序“为外部比特币矿工开辟了道路”，并“允许为一个客户端安装多个矿工”。
 
 
-”同一天，论坛成员在一个名为“How to overthrow the GPU Oligarchs”的帖子中首次[提到](https://bitcointalk.org/index.php?topic=1332.msg14838#msg14838)了“联合挖矿”的想法。10月13日，puddinpop[提出](https://bitcointalk.org/index.php?topic=1458.msg16906#msg16906)了这种类型的模型。矿工的计算能力使用元哈希来衡量，元哈希是包括每个区块哈希的第一个字节的缓冲区的印记。然后服务器可以定期验证客户端是否按照定义执行计算。这个模型很复杂并且[不允许出错](https://bitcointalk.org/index.php?topic=1458.msg17015#msg17015)。
+”同一天，论坛成员在一个名为 “How to overthrow the GPU Oligarchs” 的帖子中首次[提到](https://bitcointalk.org/index.php?topic=1332.msg14838#msg14838)了“联合挖矿”的想法。10 月 13 日，puddinpop[提出](https://bitcointalk.org/index.php?topic=1458.msg16906#msg16906)了这种类型的模型。矿工的计算能力使用元哈希来衡量，元哈希是包括每个区块哈希的第一个字节的缓冲区的印记。然后服务器可以定期验证客户端是否按照定义执行计算。这个模型很复杂并且[不允许出错](https://bitcointalk.org/index.php?topic=1458.msg17015#msg17015)。
 
-然而，有一种更简单的方法来衡量客户端的哈希率：部分工作证明。这种方法是由ribuck、Nils Schneider和Gavin Andresen在puddinpop的描述之后[提出](https://bitcointalk.org/index.php?topic=1458.msg16951#msg16951)的。它涉及检索来自同一个候选区块的低于网络难度的部分工作证明。收集的部分证明允许对消耗的功率进行概率估计。
+然而，有一种更简单的方法来衡量客户端的哈希率：部分工作证明。这种方法是由 ribuck、Nils Schneider 和 Gavin Andresen 在 puddinpop 的描述之后[提出](https://bitcointalk.org/index.php?topic=1458.msg16951#msg16951)的。它涉及检索来自同一个候选区块的低于网络难度的部分工作证明。收集的部分证明允许对消耗的功率进行概率估计。
 
-11月23日，`getwork`函数的修改版本被添加到了[代码](https://bitcointalk.org/index.php?topic=1901.msg23876#msg23876)中，25日，它被包含在主软件的新版本([v0.3.17](https://bitcointalk.org/index.php?topic=1946.msg24460#msg24460))中。同一天，Jeff Garzik（他[倡导](https://bitcointalk.org/index.php?topic=1688.msg20532#msg20532)在软件内部分离链管理和挖矿的想法）[分享](https://bitcointalk.org/index.php?topic=1925.msg24217#msg24217)了他利用这个功能的CPU挖矿软件。
+11 月 23 日，`getwork` 函数的修改版本被添加到了[代码](https://bitcointalk.org/index.php?topic=1901.msg23876#msg23876)中，25 日，它被包含在主软件的新版本([v0.3.17](https://bitcointalk.org/index.php?topic=1946.msg24460#msg24460))中。同一天，Jeff Garzik（他[倡导](https://bitcointalk.org/index.php?topic=1688.msg20532#msg20532)在软件内部分离链管理和挖矿的想法）[分享](https://bitcointalk.org/index.php?topic=1925.msg24217#msg24217)了他利用这个功能的 CPU 挖矿软件。
 
-11月27日，一位名叫Marek Palatinus的年轻捷克开发者，使用化名slush，在论坛上[发布](https://web.archive.org/web/20101206144824/http://www.bitcoin.org/smf/index.php?topic=1976.0)了“合作挖矿”的描述，这是一个利用`getwork`和Jeff Garzik的逻辑的模型。这个模型基于矿工产生的部分工作证明（按份额支付）。第二天，Satoshi Nakamoto[批准](https://bitcointalk.org/index.php?topic=1976.msg25119#msg25119)了这个概念。
+11 月 27 日，一位名叫 Marek Palatinus 的年轻捷克开发者，使用化名 slush，在论坛上[发布](https://web.archive.org/web/20101206144824/http://www.bitcoin.org/smf/index.php?topic=1976.0)了 “合作挖矿” 的描述，这是一个利用 `getwork` 和 Jeff Garzik 的逻辑的模型。这个模型基于矿工产生的部分工作证明（按份额支付）。第二天，中本聪[赞同](https://bitcointalk.org/index.php?topic=1976.msg25119#msg25119)了这个概念。
 
 ![Marek Palatinus (slush) 在2013年5月11日布拉格的Z-DAY会议上](assets/zh-Hans/050.webp)
-Marek Palatinus（slush）在2013年5月11日于布拉格举行的Z-DAY会议上
+Marek Palatinus（slush）在 2013 年 5 月 11 日于布拉格举行的 Z-DAY 大会上
 这两种估算模型于 12 月实施。首先，puddinpop 的概念于 12 月 1 日由用户 doublec 应用，他[邀请](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859)人们连接到他的分组挖矿服务器。由此形成的分组于 12 月 4 日[产生了](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688)它的第一个区块（95,420）。在几天后产生了另一个额外的区块后，doublec 的服务器于 15 日[停止](https://bluishcoder.co.nz/bitcoin-pool/)运行。由于出现了一个效率更高的合作社：BitcoinCZ Mining，该服务于 17 日永久关闭。
 
 在对论坛进行调查后，Marek Palatinus 决定实施他的挖矿合作社模型，并特别在测试网络上进行测试。他还确保服务器可以同时供 CPU 矿工（使用 Jeff Garzik 的软件）和 GPU 矿工（使用 Momchil 和 puddinpop 的客户端）访问。
 
-在12月15日至16日的夜间，该合作社最终由Marek Palatinus在主网络上[启动](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520)。第一个区块于16日上午被[发现](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655)（97,834）。随后，生产了许多其他区块。矿业小组从一开始就遇到了成功：在几天内，其哈希率达到了4 GH/s，占总网络功率的3.5%。
+在 12 月 15 日至 16 日的夜间，该合作社最终由 Marek Palatinus 在主网络上[启动](https://bitcointalk.org/index.php?topic=1976.msg30520#msg30520)。第一个区块于 16 日上午被[发现](https://bitcointalk.org/index.php?topic=1976.msg30655#msg30655)（第 97,834 区块）。随后，生产了许多其他区块。矿工小组从一开始就遇到了成功：在几天内，其哈希率达到了4 GH/s，占总网络功率的 3.5%。
 
-该合作社将成为比特币挖矿领域的参考。多年来，它[将拥有](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history)多个名称：Bitcoin Pooled Mining (BPM)、BitcoinCZ Mining，以及最后是 Slush Pool，以纪念其创建者。它将于 2022 年 9 月成为 Braiins Pool。
+该合作社将成为比特币挖矿领域的参考。多年来，它[将拥有](https://en.bitcoin.it/w/index.php?title=Slush_Pool&action=history)多个名称：Bitcoin Pooled Mining (BPM)、BitcoinCZ Mining，以及最后是 Slush Pool，以纪念其创建者。它将于 2022 年 9 月成为了 Braiins Pool。
 
 ![Slush合作社2011年9月的标志](assets/zh-Hans/051.webp)
-Slush合作社2011年9月的标志（来源：[存档](https://web.archive.org/web/20110923151034/http://mining.bitcoin.cz:80/)网站）
+Slush 合作社 2011 年 9 月的标志（来源：[存档](https://web.archive.org/web/20110923151034/http://mining.bitcoin.cz:80/)网站）
 
 ### 挖矿的大跃进
-因此，2010年下半年代表了挖矿的一个重要增长期。它通过采用GPU（图形处理单元）世代而专业化。几个个体专注并建立了真正的矿场，如ArtForz及其“ArtFarm”。这一繁荣最终导致了合作社的出现，允许小矿工汇集他们的计算能力以减少奖励的波动。
+因此，2010 年下半年代表了挖矿的一个重要增长期。它通过采用 GPU（图形处理单元）世代而专业化。几个个体专注并建立了真正的矿场，如 ArtForz 及其 “ArtFarm”。这一繁荣最终导致了合作社的出现，允许小矿工汇集他们的计算能力以减少奖励的波动。
 
-然而，秋天不仅对挖矿成功。它对社区和相关的经济生态系统也是一次成功。这是我们将在下一章讨论的内容。
+然而，秋天不仅是挖矿成功的时期。它对社区和相关的经济生态系统也是一次成功。这是我们将在下一章讨论的内容。
 
 ## 生态系统的繁荣发展
 <chapterId>0404f877-8b5c-4c7f-81ab-a4e6d9b3da9c</chapterId>
 
 :::video id=2327cb5b-36a1-49f4-a9de-09b70d76b8c1:::
 
-在上一章中，我们探讨了2010年下半年挖矿是如何发展的。到了秋天，这种进步已经稳固地建立起来。然而，挖矿并不是比特币唯一取得成功的方面：它的生态系统也是如此。
-这里，我们首先将讨论比特币国际输出的开始，以及俄罗斯和法国社区的发展。然后，我们将讨论通信和经济增长方面的改进，这显著地导致了比特币单位价格的新一轮增长。最后，我们将提及两个象征性的事件，它们发生在中本聪离开之前：电子前哨基金会接受比特币和哈尔·芬尼的回归。
+在上一章中，我们探讨了 2010 年下半年挖矿是如何发展起来的。到了秋天，这种进步已经稳固地建立起来。然而，挖矿并不是比特币唯一取得成功的方面：它的生态系统也是如此。
+这里，我们首先将讨论比特币国际输出的开始，以及俄罗斯和法国社区的发展。然后，我们将讨论通信和经济增长方面的改进，这显著地导致了比特币单位价格的新一轮增长。最后，我们将提及两个象征性的事件，它们发生在中本聪离开之前：电子前哨基金会接受比特币和 Hal Finney 的回来。
 
 ### 比特币的其他语言版本
 
-比特币是一个国际项目，因此，必须尽可能让非英语圈的更多人能够访问。这就是为什么社区从2010年5月开始[协调](https://bitcointalk.org/index.php?topic=151.msg1259#msg1259)将网站和软件的图形界面翻译成多种语言。特别包括了意大利语、德语和荷兰语。
+比特币是一个国际项目，因此，必须尽可能让非英语圈的更多人能够访问和使用。这就是为什么社区从 2010 年 5 月开始[协调](https://bitcointalk.org/index.php?topic=151.msg1259#msg1259)将网站和软件的图形界面翻译成多种语言。特别包括了意大利语、德语和荷兰语。
 
-但这还不是全部。7月底，马尔蒂·马尔米开始建立专门为非英语使用者设立的子论坛。俄罗斯社区是第一个形成的：应某位名为bitcoinex的用户的请求，专门的子论坛于7月28日[创建](https://bitcointalk.org/index.php?topic=151.msg6241#msg6241)。然后，在8月创建了[讨论帖](https://web.archive.org/web/20101018144227/http://www.bitcoin.org:80/smf/index.php?board=11.0)，专门针对其他语言社区：意大利语、荷兰语、日语和加泰罗尼亚语；9月是西班牙语；最后在10月是德语。然而，没有任何一个群体能与俄罗斯社区相匹敌，只交换了少数几条信息。
+但这还不是所有的方面。7 月底，Martti Malmi 开始建立专门为非英语用户设立的子论坛。俄罗斯社区是第一个形成的：应某位名为 bitcoinex 的用户的请求，专门的子论坛于 7 月 28 日[创建](https://bitcointalk.org/index.php?topic=151.msg6241#msg6241)。然后，在 8 月创建了[讨论帖](https://web.archive.org/web/20101018144227/http://www.bitcoin.org:80/smf/index.php?board=11.0)，专门针对其他语言社区：意大利语、荷兰语、日语和加泰罗尼亚语；9月是西班牙语；最后在10月是德语。然而，没有任何一个群体能与俄罗斯社区相匹敌，只交换了少数几条信息。
 
-法国社区的情况发生了变化，特别是通过一个人的行动：Lucien Grondin，也以笔名grondilu而知名。9月26日，他发现了比特币，并立即对这个项目充满了热情。深夜，他在IRC上写道：
+法国社区的情况发生了变化，特别是通过一个人的行动：Lucien Grondin，也以笔名 grondilu 而知名。9 月 26 日，他发现了比特币，并立即对这个项目充满了热情。深夜，他在 IRC 上写出：
 
-> “\[G\]osh I can't sleep！I keep thinking about this great stuff. To me bitcoin is the "cyperspace gold" \[sic\]。I'm just amazed."
+> “\[G\]osh I can't sleep！I keep thinking about this great stuff. To me bitcoin is the "cyperspace gold" \[sic\]。I'm just amazed."（天哪，我睡不着！我一直在想这些令人激动的东西。对我来说，比特币就是‘网络空间的黄金’。我简直惊叹不已。）
 
-几天后，即30日，他在LinuxFr.org（DLFP）上用法语发布了一篇[新闻稿](https://linuxfr.org/news/connaissez-vous-les-bitcoins)。这篇标题为“你知道比特币吗？”的文章，可能是第一篇用莫里哀的语言撰写的比特币介绍。文章吸引了大量人群，产生了近350条评论。以下是当时[出现](https://web.archive.org/web/20101003105210/http://linuxfr.org/2010/09/30/27430.html)的第一段内容：
+几天后，即 30 日，他在 LinuxFr.org（DLFP）上用法语发布了一篇[新闻稿](https://linuxfr.org/news/connaissez-vous-les-bitcoins)。这篇标题为 “你知道比特币吗？”的文章，可能是第一篇用莫里哀的语言撰写的比特币介绍。文章吸引了大量人群，产生了近 350 条评论。以下是当时[出现](https://web.archive.org/web/20101003105210/http://linuxfr.org/2010/09/30/27430.html)的第一段内容：
 
 ![你知道比特币吗？](assets/zh-Hans/052.webp)
-> **文章：你了解比特币吗？** 比特币是一种电子货币，由一位名叫中本聪的人在2009年设计。这种货币不同于其他电子货币，它完全去中心化，以点对点的方式运作，并巧妙地利用了基本的密码学概念。它依赖于一款用C++编写的软件，并在MIT自由许可证下发布。
+> **文章：你了解比特币吗？** 比特币是一种电子货币，由一位名叫中本聪的人在 2009 年设计。这种货币不同于其他电子货币，它完全去中心化，以点对点的方式运作，并巧妙地利用了基本的密码学概念。它依赖于一款用 C++ 编写的软件，并在 MIT 自由许可证下发布。
 
-特别是，这篇报道引起了一位名叫Lionel Dricot的比利时博主和自由软件倡导者的注意，他的网名是Ploum，今年29岁。10月25日，他在自己的博客上[发布](https://ploum.net/monnaie-de-geek-monnaie-de-singe/)了一篇题为《极客货币，猴子钱？》的文章，其中他主张去中心化并支持比特币的原则。包括[Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/)在内的许多法语互联网用户通过这种方式了解到比特币，他是后来在2017年创建比特币现金的开发者。
-![Lionel Dricot (Ploum) 2012年时，作为比利时海盗党的候选人参加了比利时市镇和省级选举](assets/zh-Hans/053.webp)
-Lionel Dricot (Ploum) 2012年时，作为比利时海盗党的候选人参加了比利时市镇和省级选举（来源：[Framablog](https://framablog.org/2012/10/10/lionel-dricot-ploum-parti-pirate-belgique/)）
+特别是，这篇报道引起了一位名叫 Lionel Dricot 的比利时博主和自由软件倡导者的注意，他的网名为Ploum，今年 29 岁。10 月 25 日，他在自己的博客上[发布](https://ploum.net/monnaie-de-geek-monnaie-de-singe/)了一篇题为《Geek Currency, Monkey Money?》的文章，其中他主张去中心化并支持比特币的原则。包括 [Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/)在内的许多法语互联网用户通过这种方式了解到比特币，他是后来在 2017 年创建 Bitcoin Cash 的开发者。
+![Lionel Dricot (Ploum) 2012 年时，作为比利时海盗党的候选人参加了比利时市镇和省级选举](assets/zh-Hans/053.webp)
+Lionel Dricot (Ploum) 2012 年时，作为比利时海盗党的候选人参加了比利时市镇和省级选举（来源：[Framablog](https://framablog.org/2012/10/10/lionel-dricot-ploum-parti-pirate-belgique/)）
 
-同一天，Ploum在比特币论坛上开启了[讨论帖](https://bitcointalk.org/index.php?topic=1567.0)“French”。接下来几个月，法语论坛成员的留言增加了。值得注意的是，10月17日注册的David François（[davout](https://bitcointalk.org/index.php?topic=1567.msg21218#msg21218)），未来的Bitcoin-Central创始人，以及11月7日注册的Mark Karpelès（[MagicalTux](https://bitcointalk.org/index.php?topic=1567.msg29336#msg29336)），未来的Mt. Gox平台所有者，都参与了讨论。同时，一位名叫Jean-Luc的人在12月23日开设了网站[Bitcoin.fr](https://web.archive.org/web/20110107145746/http://www.bitcoin.fr:80/)，并在1月开始[推广](https://bitcointalk.org/index.php?topic=1567.msg37524#msg37524)它。Martti Malmi最终在2011年2月1日创建了一个[法语子论坛](https://web.archive.org/web/20110217005824/http://www.bitcoin.org/smf/index.php?board=13.0)。
+同一天，Ploum 在比特币论坛上开启了[讨论帖](https://bitcointalk.org/index.php?topic=1567.0)“French”。接下来几个月，法语论坛成员的留言增加了。值得注意的是，10 月 17 日注册的 David François（[davout](https://bitcointalk.org/index.php?topic=1567.msg21218#msg21218)），未来的 Bitcoin-Central 创始人，以及 11 月 7 日注册的Mark Karpelès（[MagicalTux](https://bitcointalk.org/index.php?topic=1567.msg29336#msg29336)），未来的 Mt. Gox 平台所有者，都参与了讨论。同时，一位名叫Jean-Luc 的人在 12 月 23 日开设了网站[Bitcoin.fr](https://web.archive.org/web/20110107145746/http://www.bitcoin.fr:80/)，并在 1 月开始[推广](https://bitcointalk.org/index.php?topic=1567.msg37524#msg37524)它。Martti Malmi最终在2011年2月1日创建了一个[法语子论坛](https://web.archive.org/web/20110217005824/http://www.bitcoin.org/smf/index.php?board=13.0)。
 
 ### 通信的发展
-除了语言社区的发展之外，关于比特币沟通方法也有一定的创新。10月4日，一位使用化名noagendamarket的38岁澳大利亚人[启动](https://bitcointalk.org/index.php?topic=1355.msg15217#msg15217)了一个名为BitcoinMedia的倡议。这个想法是通过创建各种内容并在可能吸引观众的地方进行广告来推广比特币。尽管这一倡议没有达到预期的成功，但它有推动制作第一批讲述比特币的视频的功劳。该频道的第一个视频于10月5日[发布](https://bitcointalk.org/index.php?topic=1355.msg15461#msg15461)，是一个Google搜索故事，使用Youtube工具创建（见下面的截图）。其他视频将使用Xtranormal生成，这是一个从一套预设计的角色和设置中创建视频序列的简单工具。
-![比特币的第一个视频（Google搜索故事）](assets/zh-Hans/054.webp)
+除了语言社区的发展之外，关于比特币沟通方法也有一定的创新。10月4日，一位使用化名noagendamarket的38岁澳大利亚人[启动](https://bitcointalk.org/index.php?topic=1355.msg15217#msg15217)了一个名为 BitcoinMedia 的倡议。这个想法是通过创建各种内容并在可能吸引观众的地方进行广告来推广比特币。尽管这一倡议没有达到预期的成功，但它有推动制作第一批讲述比特币的视频的功劳。该频道的第一个视频于 10 月 5 日[发布](https://bitcointalk.org/index.php?topic=1355.msg15461#msg15461)，是一个谷歌搜索故事，使用 Youtube 工具创建（见下面的截图）。其他视频将使用Xtranormal生成，这是一个从一套预设计的角色和设置中创建视频序列的简单工具。
+![比特币的第一个视频（谷歌搜索故事）](assets/zh-Hans/054.webp)
 
-在这一时期，关于比特币的博客文章正在增多。Jon Matonis的例子尤其值得注意，他经营着名为*The Monetary Future*的博客，在那里他讨论与数字货币、自由银行和密码学相关的话题。他在3月份发现了比特币，并与中本聪[交流](https://web.archive.org/web/20140511100607/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-satoshi/#entry514)，之后他开始就这个主题进行写作。10月，他发表了第[三篇文章](https://themonetaryfuture.blogspot.com/2010/10/rally-in-bitcoin.html)，在其中他谈到了价格上涨并详细介绍了生态系统的新奇之处。
+在这一时期，关于比特币的博客文章正在增多。Jon Matonis 的例子尤其值得注意，他经营着名为 *The Monetary Future*（直译为货币未来）的博客，在那里他讨论与数字货币、自由银行和密码学相关的话题。他在 3 月份发现了比特币，并与中本聪[交流](https://web.archive.org/web/20140511100607/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-satoshi/#entry514)，之后他开始就这个主题进行写作。10 月，他发表了第[三篇文章](https://themonetaryfuture.blogspot.com/2010/10/rally-in-bitcoin.html)，在其中他谈到了价格上涨并详细介绍了生态系统的新奇之处。
 
 ![2011年Jon Matonis的资料照片](assets/zh-Hans/055.webp)
-2011年Jon Matonis的资料照片（来源：[Forbes](https://www.forbes.com/sites/jonmatonis/））
+2011 年 Jon Matonis 的资料照片（来源：[Forbes](https://www.forbes.com/sites/jonmatonis/））
 
-也是在这个时候，提出了一个新的比特币标志。11月1日，一个使用化名bitboy的论坛成员[发布](https://bitcointalk.org/index.php?topic=1631.0)了图形元素来突出这种加密货币。其中一个元素是一个橙色的标志，B字母被划掉并稍微倾斜：
+也是在这个时候，提出了一个新的比特币标志。11 月 1 日，一个使用化名 bitboy 的论坛成员[发布](https://bitcointalk.org/index.php?topic=1631.0)了图形元素来突出这种加密货币。其中一个元素是一个橙色的标志，B 字母被划掉并稍微倾斜：
 
 ![由bitboy设计的比特币标志，2010年11月](assets/zh-Hans/056.webp)
 
 ### 不断增长的经济
-这一时期还标志着生态系统在经济层面的显著增长。2010年秋季期间，像Mt. Gox、Bitcoin Market以及其他一些平台已经存在，但这还不够。这就是场外交易所开始增多的原因。除了在论坛上通过私人消息进行的交易外，一个稍微更严格的系统被建立：#bitcoin-otc。这是一个由一个名为nanotube的用户在10月18日在Freenode上[开设](https://bitcointalk.org/index.php?topic=1491.msg17508#msg17508)的IRC频道。订单簿托管在[关联网站](https://web.archive.org/web/20101027090714/http://bitcoin-otc.com/vieworderbook.php)上，交易直接在双方之间进行，不通过托管存款，通过各种支付方式（PayPal, Liberty Reserve）进行。接受比特币的服务数量也在增加，尽管相对较低，正如官方网站的列表页面[证明](https://web.archive.org/web/20101120224505/http://www.bitcoin.org/trade)的那样。所有这些因素导致价格急剧上涨。虽然自8月以来价格稳定在6美分左右，但在10月初开始上涨。价格上涨到10美分，到月底达到20美分。11月6日，甚至超过50美分，这无疑[激发](https://bitcointalk.org/index.php?topic=1681.0)了论坛成员的兴趣。
+这一时期还标志着生态系统在经济层面的显著增长。2010 年秋季期间，像 Mt. Gox、Bitcoin Market 以及其他一些平台已经存在，但这还不够。这就是场外交易所开始增多的原因。除了在论坛上通过私人消息进行的交易外，一个稍微更严格的系统被建立：#bitcoin-otc。这是一个由一个名为 nanotube 的用户在10 月 18 日在 Freenode 上[开设](https://bitcointalk.org/index.php?topic=1491.msg17508#msg17508)的 IRC 频道。订单簿托管在[关联网站](https://web.archive.org/web/20101027090714/http://bitcoin-otc.com/vieworderbook.php)上，交易直接在双方之间进行，不通过托管存款，通过各种支付方式（PayPal, Liberty Reserve）进行。接受比特币的服务数量也在增加，尽管相对较低，正如官方网站的列表页面[证明](https://web.archive.org/web/20101120224505/http://www.bitcoin.org/trade)。这些因素导致价格急剧上涨。虽然自 8 月以来价格稳定（6 美分左右），但在 10 月初开始上涨。价格上涨到 10 美分，到月底达到 20 美分。11 月 6 日，甚至超过 50 美分，这无疑[激发](https://bitcointalk.org/index.php?topic=1681.0)了论坛成员的兴趣。
 
 ![BTC Price between July 18 and October 18, 2010 on Mt. Gox](assets/zh-Hans/057.webp)
-2010年7月18日至10月18日Mt. Gox上的BTC价格（来源：[*The Monetary Future*](https://themonetaryfuture.blogspot.com/2010/10/rally-in-bitcoin.html)）
+2010 年 7 月 18 日至 10 月 18 日 Mt. Gox 上的比特币价格（来源：[*The Monetary Future*](https://themonetaryfuture.blogspot.com/2010/10/rally-in-bitcoin.html)）
 
-比特币的崛起意味着开始对各种事物进行衡量，无论是价格、链上活动还是挖矿。每个人都知道生态系统正在经历一些增长，但没有人知道如何正确估计它。这就是为什么在2010年下半年和2011年初期间出现服务的原因，其中主要的包括：
+比特币的兴起意味着一切都开始被量化，无论是价格、链上活动，还是挖矿情况。每个人都知道生态系统正在经历一定的增长，但没人知道如何准确地进行估算。这也促使在 2010 年下半年到 2011 年初，出现了一些相关服务，其中主要的有：
 
-- Bitcoin Watch ([bitcoinwatch.com](https://web.archive.org/web/20100816161306/http://www.bitcoinwatch.com/))，一个由Jeff Garzik (jgarzik) [开发](https://bitcointalk.org/index.php?topic=734.msg7954#msg7954)的统计聚合器；
-- Bitcoin Charts ([bitcoincharts.com](https://web.archive.org/web/20101119023257/http://bitcoincharts.com/markets/))，一个由Nils Schneider (tcatm) 在11月4日[推出](https://bitcointalk.org/index.php?topic=1659.0)的价格跟踪和图表显示界面；
-- Bitcoin Block Explorer ([blockexplorer.com](https://web.archive.org/web/20101128030227/http://blockexplorer.com/))，一个由Theymos在11月10日[设置](https://bitcointalk.org/index.php?topic=1727.msg21124#msg21124)的区块浏览器，允许任何人使用网络浏览器访问比特币区块和交易的内容。
-- 比特币网络图表（[bitcoin.sipa.be](https://web.archive.org/web/20110310155417/http://bitcoin.sipa.be/)），一个展示比特币哈希率演变的图表网站，由Pieter Wuille（sipa）于2011年1月28日[启动](https://bitcointalk.org/index.php?topic=3024.msg42173#msg42173)；
-- 比特币监视器（[bitcoinmonitor.com](https://web.archive.org/web/20110605105433/http://www.bitcoinmonitor.com/)），一个实时可视化交易、区块和交易所操作的工具，由Jan Vornberger（jav）于2011年2月6日[上线](https://bitcointalk.org/index.php?topic=3218.msg45150#msg45150)。
+- Bitcoin Watch ([bitcoinwatch.com](https://web.archive.org/web/20100816161306/http://www.bitcoinwatch.com/))，一个由 Jeff Garzik (jgarzik) [开发](https://bitcointalk.org/index.php?topic=734.msg7954#msg7954)的统计聚合器；
+- Bitcoin Charts ([bitcoincharts.com](https://web.archive.org/web/20101119023257/http://bitcoincharts.com/markets/))，一个由 Nils Schneider (tcatm) 于 11 月 4 日[推出](https://bitcointalk.org/index.php?topic=1659.0)的价格跟踪和图表显示界面；
+- Bitcoin Block Explorer ([blockexplorer.com](https://web.archive.org/web/20101128030227/http://blockexplorer.com/))，一个由Theymos 在 11 月 10 日[设置](https://bitcointalk.org/index.php?topic=1727.msg21124#msg21124)的区块浏览器，允许任何人使用网络浏览器访问比特币区块和交易的内容。
+- Bitcoin Network Graphs（[bitcoin.sipa.be](https://web.archive.org/web/20110310155417/http://bitcoin.sipa.be/)），一个展示比特币哈希率演变的图表网站，由 Pieter Wuille（sipa）于 2011 年 1 月 28 日[启动](https://bitcointalk.org/index.php?topic=3024.msg42173#msg42173)；
+- Bitcoin Monitor（[bitcoinmonitor.com](https://web.archive.org/web/20110605105433/http://www.bitcoinmonitor.com/)），一个实时可视化交易、区块和交易所操作的工具，由 Jan Vornberger（jav）于 2011 年 2 月 6 日[上线](https://bitcointalk.org/index.php?topic=3218.msg45150#msg45150)。
 
-表明比特币成功的最后一个元素是，有人试图测试其极限。在11月15日至26日之间，一个人通过每天创造数千笔交易来自娱自乐。这一异常活动在19日由Jeff Garzik[报告](https://bitcointalk.org/index.php?topic=1850.msg22870#msg22870)。这迫使Satoshi采取措施，通过[恢复](https://bitcointalk.org/index.php?topic=1946.msg24460#msg24460)交易费用界面并添加对免费交易的限制。
+表明比特币成功的最后一个元素是，有人试图测试其极限。在 11 月 15 日至 26 日之间，一个人通过每天创造数千笔交易来自娱自乐。这一异常活动在 19 日由 Jeff Garzik [报告](https://bitcointalk.org/index.php?topic=1850.msg22870#msg22870)。这迫使中本聪采取措施，通过[恢复](https://bitcointalk.org/index.php?topic=1946.msg24460#msg24460)交易费用界面并添加对免费交易的限制。
 
 ### 电子前哨基金会接受比特币
 
-2010 年底的一个重要事件是 *Electronic Frontier Foundation*（一个致力于保护互联网自由的国际组织，由 Mitch Kapor、John Gilmore 和 John Perry Barlow 于 1990 年共同创立）接受了比特币。该组织深受第一批比特币追随者（他们本质上是密码朋克 cypherpunks）的喜爱。因此，他们非常希望它能接受比特币。
+2010 年底的一个重要事件是 *Electronic Frontier Foundation*（一个致力于保护互联网自由的国际组织，由 Mitch Kapor、John Gilmore 和 John Perry Barlow 于 1990 年共同创立）接受了比特币。该组织深受第一批比特币追随者（他们本质上是密码朋克）的喜爱。因此，他们非常希望它能接受比特币。
 
 ![电子前哨基金会的标志](assets/zh-Hans/058.webp)
 
-这是论坛成员Kiba在2010年8月13日采取的主动，他[提议](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021)联系EFF并建议他们接受社区[收集](https://bitcointalk.org/index.php?topic=778.msg8578#msg8578)的捐款。为此，他在MyBitcoin上设置了一个[账户](https://mempool.space/address/1MCwBbhNGp5hRm5rC1Aims2YFRe2SXPYKt)，在那里他收集了资金，并希望将访问权限转给EFF。他起草了一封电子邮件（由社区纠正），并在8月底发送。
+这是论坛成员 Kiba 于 2010 年 8 月 13 日采取的主动，他[提议](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021)联系 EFF 并建议他们接受社区[收集](https://bitcointalk.org/index.php?topic=778.msg8578#msg8578)的捐款。为此，他在 MyBitcoin 上设置了一个[账户](https://mempool.space/address/1MCwBbhNGp5hRm5rC1Aims2YFRe2SXPYKt)，在那里他收集了资金，并希望将访问权限转给 EFF。他起草了一封电子邮件（由社区纠正），并在 8 月底发送。
 
-两周后，由于没有收到回复，另一个论坛成员来帮忙。这位使用BrightAnarchist化名的成员认识其中一位创始人，并在9月13日给他们发送了一封电子邮件。他当天收到了回复，并在论坛上[写道](https://bitcointalk.org/index.php?topic=804.msg12631#msg12631)：“EFF绝对有兴趣接收比特币！”账户随后被转交给了该组织。
-EFF在开始接受公众捐款之前花了一些时间。经过协商，社区说服他们在其网站上发布一个捐款地址。11月9日，该地址出现在[捐款页面](https://web.archive.org/web/20101130105838/http://www.eff.org/helpout)上。比特币用户开始[转移资金](https://mempool.space/tx/8ca2d206bc41b9ffa36cf4ea9ce9d3b0751fd653b6ec8f2979bfdddc4a631731)。
+两周后，由于没有收到回复，另一个论坛成员来帮忙。这位使用 BrightAnarchist 化名的成员认识其中一位创始人，并在 9 月 13 日给他们发送了一封电子邮件。他当天收到了回复，并在论坛上[写道](https://bitcointalk.org/index.php?topic=804.msg12631#msg12631)：“EFF 绝对有兴趣接收比特币！”账户随后被转交给了该组织。
+EFF 在开始接受公众捐款之前花了一些时间。经过协商，社区说服他们在其网站上发布一个捐款地址。11 月 9 日，该地址出现在[捐款页面](https://web.archive.org/web/20101130105838/http://www.eff.org/helpout)上。比特币用户开始[转移资金](https://mempool.space/tx/8ca2d206bc41b9ffa36cf4ea9ce9d3b0751fd653b6ec8f2979bfdddc4a631731)。
 
-几天后，博客作者jimbobway就此主题撰写了一篇[文章](https://web.archive.org/web/20101117060233/http://www.bitcoinblogger.com/2010/11/bitcoin-gains-legal-protection-through.html)，引起了人们对比特币的关注。这篇文章在HackerNews上被[分享](https://news.ycombinator.com/item?id=1905522)。BitcoinMedia还使用Xtranormal将其转录成视频：
+几天后，博客作者 jimbobway 就此主题撰写了一篇[文章](https://web.archive.org/web/20101117060233/http://www.bitcoinblogger.com/2010/11/bitcoin-gains-legal-protection-through.html)，引起了人们对比特币的关注。这篇文章在 HackerNews 上被[分享](https://news.ycombinator.com/item?id=1905522)。BitcoinMedia 还使用 Xtranormal 将其转录成视频：
 
 :::video id=03dfd302-1e05-4cad-a91a-e5e65f1d0932:::
 
-这对比特币来说是个好消息，因为两个倡议共享共同的价值观。此外，EFF因为为Tor和BitTorrent等隐私保护和数据共享项目提供法律保护而闻名。中本聪本人也意识到这一点，并特别支持该组织的行动，正如他在2011年1月6日致Gavin Andresen的一封电子邮件中所做的[评论](https://mmalmi.github.io/satoshi/#email-254)所示：
-> "EFF真的很重要。&nbsp;我们想要与他们保持良好的关系。&nbsp;我们是他们欣赏的那种项目；他们帮助了TOR项目，并为保护P2P文件共享做了很多工作。"
+这对比特币来说是个好消息，因为两个倡议共享共同的价值观。此外，EFF 因为为 Tor 和 BitTorrent 等隐私保护和数据共享项目提供法律保护而闻名。中本聪本人也意识到这一点，并特别支持该组织的行动，正如他在 2011 年 1 月 6 日致 Gavin Andresen 的一封电子邮件中所做的[评论](https://mmalmi.github.io/satoshi/#email-254)所示：
+> "EFF 真的很重要。我们想要与他们保持良好的关系。我们是他们欣赏的那种项目；他们帮助了 TOR 项目的发展，并为保护 P2P 文件共享做了很多工作。"
 
-### Hal Finney的回归
+### Hal Finney 的回来
 
-Hal Finney在2009年4月退出比特币后，很快就得知自己在2009年8月被诊断出患有ALS，他相应地调整了自己的生活方式，但他的运动能力逐渐减弱。
+Hal Finney 在 2009 年 4 月退出比特币后，很快就得知自己在 2009 年 8 月被诊断出患有 ALS，他相应地调整了自己的生活方式，但他的运动能力逐渐减弱。
 
-11月30日，他在比特币论坛上注册并开始参与讨论，特别是关于BitDNS项目的讨论。他不吝于对生态系统中蓬勃发展的各种项目进行小额捐款。
+11 月 30 日，他在比特币论坛上注册并开始参与讨论，特别是关于 BitDNS 项目的讨论。他不吝于对生态系统中蓬勃发展的各种项目进行小额捐款。
 
-此外，他研究了自启动以来他尚未查看的代码，并意识到所有已完成的工作。这一认识促使他在12月11日论坛上[写下](https://bitcointalk.org/index.php?topic=2188.msg29223#msg29223)以下评论：
-> "在我看来，这是一项令人印象深刻的工作，尽管我希望有更多的评论。我主要研究了init、main、script和一些net模块。这是一些强大的机制。"
+此外，他研究了自启动以来他尚未查看的代码，并意识到所有已完成的工作。这一认识促使他在 12 月 11 日论坛上[写下](https://bitcointalk.org/index.php?topic=2188.msg29223#msg29223)以下评论：
+> "在我看来，这是一项令人印象深刻的工作，尽管我希望有更多的评论。我主要研究了 init、main、script 和一些 net 模块。这是一些强大的机制。"
 
 两小时后，中本聪[回复](https://bitcointalk.org/index.php?topic=2188.msg29259#msg29259)：
-> "这对你来说意味着很多，Hal。&nbsp;谢谢你。"
+> "能得到你的认可意义重大，Hal。谢谢你。"
 
 这是比特币创建者的倒数第二条公开信息，几个月后他就消失了。
 
 ### 一个关键时刻
-在2010年秋季，围绕比特币的生态系统发生了显著的演变。沟通得到改善，经济得到发展。那时，比特币似乎已经准备好独立起飞。正是在这个时期，中本聪选择消失，将项目的控制权交给了社区。
+在 2010 年秋季，围绕比特币的生态系统发生了显著的演变。沟通渠道得到改善，经济不断发展。那时，比特币似乎已经准备好独立起飞。正是在这个时期，中本聪选择消失，将项目的留给了社区的成员。
 
 ## 中本聪的消失
 <chapterId>f7735239-4887-468f-9f06-1b07d00b30d9</chapterId>

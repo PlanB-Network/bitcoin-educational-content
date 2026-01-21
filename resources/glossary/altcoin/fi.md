@@ -2,4 +2,4 @@
 term: ALTCOIN
 
 ---
-Viittaa mihin tahansa muuhun kryptovaluuttaan kuin Bitcoiniin (BTC). Termi "altcoin" on lyhenne sanoista "alternative" ja "coin" (vaihtoehtoinen kolikko). Jotkut maksimalistiset bitcoinilaiset käyttävät myös termiä "shitcoins" viittaamaan altcoineihin.
+Tarkoittaa mitä tahansa kryptovaluuttaa muuta kuin bitcoinia (BTC). Termi "altcoin" on sanojen "alternative" ja "coin" yhdistelmä. Jotkut bitcoin-maksimalistit käyttävät altcoineista myös nimitystä "shitcoins".

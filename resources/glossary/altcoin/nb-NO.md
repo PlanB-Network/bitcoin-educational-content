@@ -2,4 +2,4 @@
 term: ALTCOIN
 
 ---
-Refererer til enhver annen kryptovaluta enn Bitcoin (BTC). Begrepet "altcoin" er en sammentrekning av "alternative" og "coin" (alternativ mynt). Noen maksimalistiske Bitcoinere bruker også begrepet "shitcoins" for å referere til altcoins.
+Betegner enhver kryptovaluta annet enn bitcoin (BTC). Begrepet "altcoin" er en sammentrekning av "alternative" og "coin". Noen bitcoin-maksimalister bruker også betegnelsen "shitcoins" om altcoins.

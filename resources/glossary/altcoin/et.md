@@ -2,4 +2,4 @@
 term: ALTCOIN
 
 ---
-Viitab mis tahes krüptoraha peale Bitcoini (BTC). Termin "altcoin" on lühend sõnadest "alternative" ja "coin" (alternatiivne münt). Mõned maksimalistlikud bitcoinlased kasutavad altcoinide kohta ka terminit "shitcoins".
+Tähistab mis tahes krüptoraha peale bitcoini (BTC). Mõiste "altcoin" on sõnade "alternative" ja "coin" liitsõna. Mõned bitcoini maksimalistid kasutavad altcoinide kohta ka terminit "shitcoins".

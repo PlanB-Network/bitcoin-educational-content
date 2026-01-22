@@ -496,38 +496,29 @@ Possiamo quindi essere certi che la supply di Bitcoin sarà 20999817.31308491 bi
 
 La supply finita si ridurrà ulteriormente e questo dovrebbe, almeno in teoria, causare una deflazione dei prezzi.
 
-Più importante del numero esatto di monete in circolazione è il modo in cui il limite dell'offerta viene applicato senza alcuna autorità centrale. Alias chytrik lo spiega bene sul sito di [Stack Exchange](https://Bitcoin.stackexchange.com/a/106830/69518):
+Più importante del numero esatto di monete in circolazione è il modo in cui il limite dell'offerta viene applicato senza alcuna autorità centrale. Un Bitcoiner, noto con l'alias "chytrik" lo spiega bene sul sito di [Stack Exchange](https://Bitcoin.stackexchange.com/a/106830/69518):
 
-> Quindi la risposta è che non bisogna fidarsi di qualcuno che non aumenta il Supply. È sufficiente eseguire del codice che verifichi che non l'abbia fatto.
+> Quindi, la risposta è che non bisogna fidarsi di qualcuno che non aumenti il supply. È sufficiente eseguire del codice che verifichi che non l'abbia fatto.
 
-Anche se alcuni full nodes passano al lato oscuro e decidono di accettare blocchi con transazioni coinbase di valore più elevato, tutti i full nodes rimanenti semplicemente li trascureranno e continueranno a fare affari come al solito. Alcuni full nodes possono, intenzionalmente o meno, eseguire software malvagi, ma il collettivo proteggerà la blockchain in modo solido. In conclusione, potete scegliere di fidarvi del sistema senza dovervi fidare di nessuno.
+Anche se alcuni full node dovessero passare al lato oscuro e decidere di accettare blocchi con transazioni coinbase di valore più elevato, tutti i full node rimanenti li ignorerebbero e continuerebbero a operare come al solito. Alcuni full node potrebbero, intenzionalmente o meno, eseguire software malevoli, ma il collettivo proteggerebbe la blockchain in modo solido. In conclusione, è possibile fidarsi del sistema senza doversi fidare di nessuno.
 
-
-### Sovvenzione di blocco e commissioni di transazione
-
+### Block subsidy & Transaction Fees (Ricompensa del Blocco & Commissioni di Transazione)
 
 
-Un Block reward è composto dalla sovvenzione di blocco più le commissioni di transazione. Il Block reward deve coprire i costi di sicurezza di  Bitcoin. Possiamo affermare con certezza che nelle condizioni attuali, per quanto riguarda la sovvenzione dei blocchi, le commissioni di transazione, il prezzo di  Bitcoin, la dimensione del Mempool, il potere del Hash, il grado di decentralizzazione, ecc.
-
+Un block reward è composto dalla ricompensa del blocco più le commissioni di transazione, e deve coprire i costi di sicurezza di Bitcoin. Possiamo affermare con certezza che, nelle condizioni attuali - considerando la ricompensa del blocco, commissioni di transazione, prezzo di bitcoin, la dimensione della mempool, hashrate, il grado di decentralizzazione, ecc. - gli incentivi per tutti gli attori a rispettare le regole sono sufficientemente elevati da preservare un sistema monetario sicuro.
 
 Cosa succede quando il sussidio di blocco si avvicina a zero? Per semplificare le cose, supponiamo che sia effettivamente pari a zero. A questo punto, i costi di sicurezza del sistema sono coperti solo dalle commissioni di transazione. Non possiamo sapere cosa ci riservi il futuro quando questo accadrà. I fattori di incertezza sono numerosi e siamo lasciati alle speculazioni. Ad esempio, il contributo di Paul Sztorc all'argomento [nel suo blog Truthcoin](https://www.truthcoin.info/blog/security-budget/) è costituito per lo più da speculazioni, ma ha almeno un punto fermo (si noti che M2, come indicato da Sztorc, è una misura della moneta fiat Supply):
-
 
 > Mentre le due cose sono mescolate nello stesso "bilancio della sicurezza", il sussidio di blocco e le tasse txn sono completamente e totalmente diversi. Sono tanto diversi l'uno dall'altro quanto "i profitti totali di VISA nel 2017" lo sono dall'"aumento totale di M2 nel 2017".
 
 Oggi sono i detentori a pagare per la sicurezza (tramite l'inflazione monetaria). Domani toccherà agli spendaccioni assumersi in qualche modo questo onere, come illustrato di seguito.
 
-
-
-
-
 Con il passare del tempo, l'onere dei costi della sicurezza si sposterà dai detentori agli spenditori
-
 
 Quando le commissioni di transazione sono la motivazione principale per il Mining, gli incentivi cambiano. In particolare, se il Mempool di un miner non contiene abbastanza commissioni di transazione, potrebbe diventare più redditizio per quel miner riscrivere la storia di  Bitcoin piuttosto che estenderla. Bitcoin Optech ha una specifica [sezione su questo comportamento](https://bitcoinops.org/en/topics/fee-sniping/), chiamata *fee sniping*, scritta da David Harding:
 
 
-> Lo sniping delle commissioni è un problema che può verificarsi quando la sovvenzione di  Bitcoin continua a diminuire e le commissioni di transazione iniziano a dominare le ricompense dei blocchi di  Bitcoin. Se le commissioni di transazione sono l'unica cosa che conta, allora un miner con l' `x` per cento del tasso di Hash ha un `x` per cento di possibilità di Mining il blocco successivo, quindi il valore atteso per loro di un Mining onesto è l' `x` per cento del [miglior insieme di transazioni feerate](https://bitcoinops.org/en/newsletters/2021/06/02/#candidate-set-based-csb-block-template-construction) nel loro Mempool.
+> Lo sniping delle commissioni è un problema che può verificarsi quando la ricompensa di  Bitcoin continua a diminuire e le commissioni di transazione iniziano a dominare le ricompense dei blocchi di  Bitcoin. Se le commissioni di transazione sono l'unica cosa che conta, allora un miner con l' `x` per cento del tasso di Hash ha un `x` per cento di possibilità di Mining il blocco successivo, quindi il valore atteso per loro di un Mining onesto è l' `x` per cento del [miglior insieme di transazioni feerate](https://bitcoinops.org/en/newsletters/2021/06/02/#candidate-set-based-csb-block-template-construction) nel loro Mempool.
 >
 
 > In alternativa, un miner potrebbe tentare disonestamente di ri-minire il blocco precedente più un blocco completamente nuovo per estendere la catena. Questo comportamento viene definito fee sniping e la probabilità che il miner disonesto riesca nell'intento se ogni altro miner è onesto è `(x/(1-x))^2`. Anche se il fee sniping ha una probabilità di successo complessivamente più bassa rispetto al Mining onesto, tentare il Mining disonesto potrebbe essere la scelta più redditizia se le transazioni nel blocco precedente hanno pagato feerate significativamente più alte rispetto alle transazioni attualmente nel Mempool: una piccola possibilità di ottenere un importo elevato può valere più di una grande possibilità di ottenere un importo ridotto.
@@ -535,7 +526,7 @@ Quando le commissioni di transazione sono la motivazione principale per il Minin
 A gettare una cappa di sabbia sulle nostre speranze per il futuro c'è il fatto che se i miner iniziano a fare sniping a pagamento, questo incentiverà altri a fare lo stesso, lasciando ancora meno miner onesti. Questo potrebbe compromettere gravemente la sicurezza complessiva di  Bitcoin. Harding prosegue elencando alcune contromisure che possono essere adottate, come ad esempio affidarsi ai blocchi temporali delle transazioni per limitare il punto della blockchain in cui la transazione può apparire.
 
 
-Quindi, dato che il consenso sul Supply finito rimane, la sovvenzione dei blocchi - grazie a [BIP42](https://github.com/Bitcoin/bips/blob/master/bip-0042.mediawiki) che ha risolto un bug di inflazione a lungo termine - arriverà a zero intorno all'anno 2140. Le commissioni di transazione saranno quindi sufficienti a garantire la sicurezza della rete?
+Quindi, dato che il consenso sul Supply finito rimane, la ricompensa dei blocchi - grazie a [BIP42](https://github.com/Bitcoin/bips/blob/master/bip-0042.mediawiki) che ha risolto un bug di inflazione a lungo termine - arriverà a zero intorno all'anno 2140. Le commissioni di transazione saranno quindi sufficienti a garantire la sicurezza della rete?
 
 
 È impossibile dirlo, ma sappiamo alcune cose:
@@ -1056,7 +1047,7 @@ Nel suo caso, il motivo dell'utilizzo di uno pseudonimo deve essere giudicato in
 
 > La mia ragione iniziale [per l'uso di uno pseudonimo] era semplicemente che ero preoccupato [di] commettere un errore madornale; quindi ZmnSCPxj era originariamente inteso come uno pseudonimo usa e getta che poteva essere abbandonato in un caso del genere. Tuttavia, sembra che abbia ottenuto una reputazione per lo più positiva, quindi l'ho mantenuto
 
-L'uso di uno pseudonimo consente infatti di parlare più liberamente senza mettere a rischio la propria reputazione personale nel caso in cui si dica qualcosa di stupido o si commetta un grosso errore. Come si è scoperto, il suo pseudonimo ha ottenuto una grande reputazione e nel 2019 [ha persino ottenuto una sovvenzione per lo sviluppo](https://twitter.com/spiralbtc/status/1204815615678177280), il che è di per sé una prova della natura senza permessi di  Bitcoin.
+L'uso di uno pseudonimo consente infatti di parlare più liberamente senza mettere a rischio la propria reputazione personale nel caso in cui si dica qualcosa di stupido o si commetta un grosso errore. Come si è scoperto, il suo pseudonimo ha ottenuto una grande reputazione e nel 2019 [ha persino ottenuto una ricompensa per lo sviluppo](https://twitter.com/spiralbtc/status/1204815615678177280), il che è di per sé una prova della natura senza permessi di  Bitcoin.
 
 
 Probabilmente, lo pseudonimo più noto di  Bitcoin è quello di Satoshi Nakamoto. Non è chiaro perché abbia scelto di essere pseudonimo, ma con il senno di poi è stata probabilmente una buona decisione per diversi motivi:

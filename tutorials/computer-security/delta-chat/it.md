@@ -35,7 +35,7 @@ Ed è proprio questo che rende questo strumento molto resistente a normative inv
 
 ## Installazione
 
-Dal sito ufficiale di [Delta Chat](https://delta.chat/download) si può andare nella sezione Download. Su Linux è disponibile comodamente tramite Flathub, ma ci sono anche pacchetti per Arch, NixOS, Snap e versioni standalone.
+Dal sito ufficiale di [Delta Chat](https://delta.chat/download) puoi andare nella sezione Download. Su Linux è disponibile comodamente tramite Flathub, ma ci sono anche pacchetti per Arch, NixOS, Snap e versioni standalone.
 
 ![image](assets/it/01.webp)
 
@@ -61,7 +61,7 @@ Una volta aperta l’app, Delta Chat chiede se creare un nuovo profilo o usarne 
 
 ![image](assets/it/02.webp)
 
-Creando un nuovo profilo si può inserire:
+Creando un nuovo profilo puoi inserire:
 - un nome
 - un’immagine (opzionale)
 
@@ -128,9 +128,9 @@ Nelle impostazioni avanzate si possono attivare:
 
 Delta Chat supporta perfettamente il multidispositivo:
 - è possibile aggiungere un secondo dispositivo tramite QR code
-- si può eseguire un trasferimento completo tramite backup.
+- puoi eseguire un trasferimento completo tramite backup.
 
-In pochi secondi si ritrovano chat, gruppi e cronologia completa, senza dipendere da un server centrale.
+In pochi secondi ritroverai chat, gruppi e cronologia completa, senza dipendere da un server centrale.
 
 ![image](assets/it/09.webp)
 

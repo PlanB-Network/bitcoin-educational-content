@@ -308,7 +308,7 @@ En synthèse cet appareil au design soigné vous permettra de déployer un hasra
 
 ![Image](assets/fr/017.webp)
 
-### La Gamma Avalon Home de Cannan
+### La Gamme Avalon Home de Cannan
 
 ![Image](assets/fr/018.webp)
 
@@ -851,12 +851,12 @@ C'est ce qu'on fait lorsque l'on se connecte à une pool distante telles que cel
 
 ## 4.1 Pourquoi ? (Block Template / intermédiare etc...)
 
-En Solomining particulièrement, les avantages qu'apporte la dépendance à un tiers sont quasiment inexistants, si ce n'est la facilité. Autant s'il s'agit de s'associer à d'autres mineurs pour obtenir un revenu régulier, le passage par un tiers est quasi obligatoire. Autant lorsqu'il s'agit de miner seul, rien ne dit que ce tiers de confiance n'essaiera pas de vous subtiliser la récompense éventuelle en substituant son adresse à la votre....
+**En Solomining** particulièrement, les avantages qu'apporte la dépendance à un tiers sont quasiment inexistants, si ce n'est la facilité. Autant s'il s'agit de s'associer à d'autres mineurs pour obtenir un revenu régulier, le passage par un tiers est quasi obligatoire. Autant lorsqu'il s'agit de miner seul, rien ne dit que ce tiers de confiance n'essaiera pas de vous subtiliser la récompense éventuelle en substituant son adresse à la votre....
 Rien ne dit non plus comme déjà évoqué plus haut, que l'entité manageant la pool à laquelle vous faites confiance, ne décidera pas de censurer les transactions des gens qu'elle n'aime pas ou qu'une autorité lui demande de bloquer. 
 
 Si vous êtes un Bitcoiner souverain adepte du solomining ce qui est le cas de la plupart d'entre vous qui lisez ces lignes, vous serez certainement ravis d'apprendre qu'aujourd'hui il est devenu très facile pour n'importe qui de miner sur sa propre solopool, auto hébergée sur un serveur Umbrel ou Start9 par exemple.
 
-L'autre bonne nouvelle c'est que même pour miner en "pool mutualistes" pour qui souhaite recevoir des récompenses régulières, des innovations permettent désormais aux mineurs indépendants de soumettre leurs propre bloc template. C'est à dire que chaque mineur de la pool sélectionne les transactions qu'il inscrira dans le bloc si c'est lui qui le trouve. Ainsi le pouvoir de censure de la pool est quasiment réduit à néant. Celle ci se cantonne à son rôle de distributeur de récompenses au prorata de la puissance de calcul de chacun.
+L'autre bonne nouvelle c'est que même lorsqu'on mine en **"pool mutualistes"** pour qui souhaite recevoir des récompenses régulières, des innovations permettent désormais aux mineurs souverains de soumettre leurs propre bloc template. C'est à dire que chaque mineur de la pool sélectionne les transactions qu'il inscrira dans le bloc si c'est lui qui le trouve. Ainsi le pouvoir de censure de la pool est quasiment réduit à néant. Celle ci se cantonne à son rôle de distributeur de récompenses au prorata de la puissance de calcul de chacun.
 
 ==Insérer les liens vers les tuto / cours existants==
 
@@ -923,13 +923,43 @@ En synthèse, dans le cadre de ce cours sur le home mining, la possibilité la p
 
 ![Image](assets/fr/077.webp)
 
-Dans la droite lignée de Stratum V2, Datum est le protocole open source dédié au mining de l'implémentation Bitcoin Knots (Stratum fonctionne avec Bitcoin Core).
-Les constats sur le centralisation du mining via les pools sont les mêmes, et Datum permet d'u répondre en permettant là encore aux mineurs de construire leur propre bloc template c'est à dire de choisir le transaction à inclure dans les blocs.
+Dans la droite lignée de Stratum V2, Datum est le protocole open source dédié au mining de l'implémentation Bitcoin Knots et de la pool OCEAN Mining (Stratum fonctionne avec Bitcoin Core).
+Les constats sur la centralisation du mining via les pools sont les mêmes, et Datum y répond en permettant là encore aux mineurs de construire leur propre bloc template c'est à dire de choisir le transactions à inclure dans les blocs.
+
+Mais là où Stratum V2 est encore relativement difficile d'accès particulièrement pour des home miners amateurs, Datum est d'ores et déjà utilisable avec n'importe quelle machine de minage compatible Stratum V1 sans avoir à mettre à jour le firmware pour qu'il soit compatible DATUM. Pour les posesseurs de serveurs Umbrel ou Start9 , un il suffira de télécharger via le store l'application Datum.
+
+![Image](assets/fr/078.webp)
+
+Ensuite, il vous faudra également télécharger Bitcoin Knots. Si vous avec Bitcoin Core, pas de panique, vous n'êtes pas obligés de recommencer le téléchargement de la blockchain depuis 0.
+
 ## 4.3 Public Pool & Bassin sur Umbrel / Start 9 (Solopool)
 
+Pour les solominers qui jouent à la loterie sans compétences techniques particulières, il est désormais possible de le faire en parfaite autonomie, sans dépendance quelconque à un tiers. Là encore un serveur Umbrel ou Start9 est tout de même requis. Ensuite deux applications sont à télécharger, que l'on présentera succinctement ci-dessous.
 
+### Public Pool pour Umbrel / Start9
 
+![Image](assets/fr/079.webp)
+ 
+ 
+ Il s'agit exactement du même logiciel que vu précédemment dans notre panorama des solopools, sauf que cette fois-ci il tourne en local sur votre machine, connecté à votre propre full node Bitcoin. Et pas sur le serveur d'un développeur tiers qui met gracieusement à disposition son infrastructure. Nous sommes là en automie totale.
+ 
+ Une fois l'application installée sur votre Umbrel / Start9, y connecter votre machine de mining est exactement similaire à ce qu'on a vu pour le paramétrage de notre Bitaxe lorsque l'on avaitopté pour Public Pool en pool principale. Sauf qu'ici, personne ne vous dicte quelles transactions sont à inclures dans votre bloc template, et personne n'est en mesure d'essayer de voler les bitcoins éventuellement minés. On est revenu à la façon originelle d'utiliser Bitcoin. Ses clés privées, son noeud, sa machine à hasher.
+ 
+![Image](assets/fr/080.webp)
 
+### Bassin sur Umbrel
+
+Cette application n'est pour le moment disponible que sur Umbrel, mais elle apporte une concurrence bienvenue à Public Pool. Bassin est le nom de l'application créée via le code open source de CkPool qu'on a là encore évoquée lors de notre panorama des pools de mining, et qui a été choisie en solopool de backup lors du paramétrage de notre Bitaxe.
+
+![Image](assets/fr/081.webp)
+
+Une fois l'application installée, c'est du vu et revu lorsqu'il s'agit de pointer votre hashrate vers votre solopool.
+
+![Image](assets/fr/082.webp)
+
+En quelques instants, votre Bitaxe est connecté à Bassin et commence à lui proposer des shares.
+
+![Image](assets/fr/083.webp)
 # Partie finale
 
 PARTIE AUTOMATIQUE. NE RIEN NOTER ICI

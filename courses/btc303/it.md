@@ -359,81 +359,59 @@ Abbiamo anche detto che gli pseudonimi sono chiavi pubbliche, ma in realtà si t
 
 > Affinché l'idea di Bitcoin funzioni, è necessario avere monete che possono essere spese solo dal proprietario di una determinata chiave privata. Ciò significa che qualsiasi cosa si invii deve essere legata, in qualche modo, a una chiave pubblica.
 >
-> Usare pseudonimi arbitrari (ad esempio nomi di utenti) significherebbe dover collegare in qualche modo lo pseudonimo a una chiave pubblica per abilitare la crittografia a chiave pubblica/privata. Questo eliminerebbe la possibilità di creare in modo sicuro indirizzi/pseudonimi offline (ad esempio, prima che qualcuno possa inviare denaro al nome utente "tdumidu", si dovrebbe annunciare nel Blockchain che "tdumidu" è posseduto dalla chiave pubblica "a1c...", e includere una tariffa in modo che gli altri abbiano un motivo per annunciarlo), ridurrebbe l'anonimato (incoraggiando a riutilizzare gli pseudonimi) e gonfierebbe inutilmente le dimensioni del Blockchain. Inoltre, creerebbe un falso senso di sicurezza sul fatto che si sta inviando a chi si pensa di essere (se prendo il nome "Linus Torvalds" prima di lui, allora è mio e la gente potrebbe inviare denaro pensando di pagare il creatore di Linux, non me).
+> Usare pseudonimi arbitrari (ad esempio nomi di utenti) significherebbe dover collegare in qualche modo lo pseudonimo a una chiave pubblica per abilitare la crittografia a chiave pubblica/privata. Questo eliminerebbe la possibilità di creare in modo sicuro indirizzi/pseudonimi offline (ad esempio, prima che qualcuno possa inviare denaro al nome utente "tdumidu", si dovrebbe annunciare nella blockchain che "tdumidu" è posseduto dalla chiave pubblica "a1c...", e includere una tariffa in modo che gli altri abbiano un motivo per annunciarlo), ridurrebbe l'anonimato (incoraggiando a riutilizzare gli pseudonimi) e gonfierebbe inutilmente le dimensioni della blockchain. Inoltre, creerebbe un falso senso di sicurezza sul fatto che si sta inviando a chi si pensa di essere (se prendo il nome "Linus Torvalds" prima di lui, allora è mio e la gente potrebbe inviare denaro pensando di pagare il creatore di Linux, non me).
 
-Utilizzando gli indirizzi o le chiavi pubbliche, raggiungiamo obiettivi importanti, come l'eliminazione della necessità di registrare in qualche modo uno pseudonimo in anticipo, la riduzione degli incentivi per il riutilizzo dello pseudonimo, l'eliminazione dell'ingombro del Blockchain e la maggiore difficoltà nell'impersonare altre persone.
+Utilizzando gli indirizzi o le chiavi pubbliche, raggiungiamo obiettivi importanti, come l'eliminazione della necessità di registrare in qualche uno pseudonimo, la riduzione degli incentivi per il riutilizzo dello pseudonimo, l'eliminazione dell'ingombro della blockchain e la maggiore difficoltà nell'impersonare altre persone.
 
-
-### Privacy Blockchain
-
+### Privacy nella Blockchain
 
 
-La privacy del Blockchain si riferisce alle informazioni che l'utente divulga effettuando transazioni sul Blockchain. Si applica a tutte le transazioni, sia a quelle inviate che a quelle ricevute.
+La privacy nella blockchain si riferisce alle informazioni che l'utente divulga nel momento in cui effettua delle transazioni. Si applica a tutte le transazioni, sia a quelle inviate che a quelle ricevute.
 
+Satoshi Nakamoto riflette sulla privacy on-chain nella sezione 7 del suo [Bitcoin whitepaper](https://Bitcoin.org/Bitcoin.pdf):
 
-Satoshi Nakamoto riflette sulla privacy di On-Chain nella sezione 7 del suo [whitepaper Bitcoin](https://Bitcoin.org/Bitcoin.pdf):
+> Come ulteriore firewall, è necessario utilizzare una nuova coppia di chiavi per ogni transazione, per evitare che siano collegate a un proprietario comune. Un certo collegamento è comunque inevitabile con le transazioni a più ingressi, che rivelano necessariamente che i loro ingressi appartengono allo stesso proprietario. Il rischio è che, qualora il proprietario di una chiave venisse rivelato, tale collegamento potrebbe rivelare altre transazioni appartenenti allo stesso proprietario.
 
-
-> Come ulteriore firewall, è necessario utilizzare una nuova coppia di chiavi per ogni transazione, per evitare che siano collegate a un proprietario comune. Un certo collegamento è comunque inevitabile con le transazioni a più ingressi, che rivelano necessariamente che i loro ingressi appartengono allo stesso proprietario. Il rischio è che se il proprietario di una chiave viene rivelato, il collegamento potrebbe rivelare altre transazioni appartenenti allo stesso proprietario.
-
-L'articolo riassume i principali problemi di privacy del Blockchain, ovvero il riutilizzo e il raggruppamento del Address. Il primo è autoesplicativo, il secondo si riferisce alla possibilità di decidere, con un certo livello di certezza, che un insieme di indirizzi diversi appartiene allo stesso utente.
-
+L'articolo riassume i principali problemi di privacy della blockchain, ovvero il riutilizzo e l'aggregazione degli indirizzi. Il primo è autoesplicativo, il secondo si riferisce alla possibilità di decidere, con un certo livello di certezza, che un insieme di indirizzi diversi appartiene allo stesso utente.
 
 ![](assets/it/005.webp)
 
+Chris Belcher [ha scritto in modo molto dettagliato](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) sui diversi tipi di falle nella privacy che possono verificarsi sulla blockchain di Bitcoin. Si consiglia di leggere almeno le prime sottosezioni di "Attacchi alla privacy della blockchain"
 
+Il risultato è che la privacy in Bitcoin non è perfetta. Richiede una quantità significativa di lavoro per effettuare transazioni private. La maggior parte delle persone non è disposta ad andare così lontano per la privacy. Sembra esserci un chiaro compromesso tra privacy e usabilità.
 
+Un altro aspetto importante della privacy è che le misure adottate per proteggere la propria privacy si ripercuotono anche degli altri utenti. Se si è negligenti nella protezione della propria privacy, anche gli altri potrebbero subirne le conseguenze. Gregory Maxwell spiega in modo molto chiaro nella stessa discussione su Bitcoin Talk [che abbiamo linkato sopra](https://bitcointalk.org/index.php?topic=334316.msg3589252#msg3589252), e conclude con un esempio:
 
-Chris Belcher [ha scritto in modo molto dettagliato](https://en.Bitcoin.it/Privacy#Blockchain_attacks_on_privacy) sui diversi tipi di falle nella privacy che possono verificarsi sul Bitcoin Blockchain. Si consiglia di leggere almeno le prime sottosezioni di "Attacchi alla privacy del Blockchain"
+> Questo funziona anche nella pratica... Un buon whitehat hacker (hacker etico) su IRC(Internet Relay Chat) stava sperimentando con la violazione di brainwallet e ha trovato una seedphrase che dava accesso a ~250 BTC. Siamo riusciti a identificare il proprietario solo dall'indirizzo, perché era stato pagato da un servizio Bitcoin che riutilizzava gli indirizzi. Successivamente, è riuscito a convincerlo a fornire le informazioni di contatto dell'utente. Ha quindi contattato l'utente al telefono, che era scioccato e confuso, ma grato di non aver perso i suoi bitcoin. Un lieto fine in questo caso. (Non è l'unico esempio, ma è uno dei più divertenti).
 
+In questo caso, tutto è andato bene grazie all'hacker filantropo, ma la prossima volta non darlo per scontato.
 
-Il risultato è che la privacy nel Bitcoin non è perfetta. Richiede una quantità significativa di lavoro per effettuare transazioni private. La maggior parte delle persone non è disposta ad andare così lontano per la privacy. Sembra esserci un chiaro compromesso tra privacy e usabilità.
+### Privacy al di fuori della Blockchain
 
+Sebbene la blockchain possa rivelare informazioni che possono compromettere la privacy, esistono molti altri casi di esposizione dei dati che non coinvolgono la blockchain, alcuni più subdoli di altri. Si va dai key-logger all'analisi del traffico di rete. Per approfondire alcuni di questi metodi, si rimanda al pezzo di [Chris Belcher](https://en.Bitcoin.it/Privacy#Non-blockchain_attacks_on_privacy), in particolare alla sezione "Attacchi alla privacy al di fuori della Blockchain".
 
-Un altro aspetto importante della privacy è che le misure adottate per proteggere la propria privacy si ripercuotono anche sugli altri utenti. Se si è poco attenti alla propria privacy, anche gli altri potrebbero subire una riduzione della privacy. Gregory Maxwell lo spiega in modo molto chiaro nella stessa discussione del talk Bitcoin [che abbiamo linkato sopra](https://bitcointalk.org/index.php?topic=334316.msg3589252#msg3589252), e conclude con un esempio:
+Tra una pletora di attacchi, Belcher cita la possibilità che qualcuno possa spiare la tua connessione a Internet, ad esempio il tuo ISP(Internet Service Provider):
 
+> Se l'avversario vede una transazione o un blocco in uscita dal tuo nodo che non è stato inserito in precedenza, può sapere con quasi certezza che la transazione è stata effettuata da te o che il blocco è stato estratto da te. Poiché sono coinvolte connessioni Internet, l'avversario sarà in grado di collegare l'indirizzo IP con le informazioni scoperte.
 
-> Questo funziona anche nella pratica... Un simpatico hacker whitehat su IRC stava giocando con il brainwallet cracking e ha trovato una frase con ~250 BTC dentro.  Siamo stati in grado di identificare il proprietario solo dal Address, perché era stato pagato da un servizio Bitcoin che riutilizzava gli indirizzi e lui è riuscito a convincerlo a fornire le informazioni di contatto dell'utente. Ha effettivamente contattato l'utente al telefono, che era scioccato e confuso, ma grato di non aver perso la sua moneta.  Un lieto fine. (Questo non è l'unico esempio, ma è uno dei più divertenti).
+Tuttavia, tra le violazioni della privacy più evidenti ci sono gli exchange. A causa delle leggi, solitamente denominate KYC (Know Your Customer) e AML (Anti-Money Laundering), valide nelle giurisdizioni in cui operano, gli exchange e le società collegate devono spesso raccogliere dati personali sui loro utenti, creando grandi database che collegano gli utenti ai bitcoin di cui sono proprietari. Questi database rappresentano un bersaglio ideale per governi malintenzionati e criminali, sempre alla ricerca di nuove vittime. Esistono veri e propri mercati per questo tipo di dati, in cui gli hacker vendono i dati al miglior offerente.
 
-In questo caso, tutto è andato bene grazie all'hacker filantropo, ma non contateci la prossima volta.
-
-
-### Privacy non Blockchain
-
-
-Sebbene il Blockchain sia una nota fonte di fughe di notizie sulla privacy, esistono molte altre fughe che non utilizzano il Blockchain, alcune più subdole di altre. Si va dai key-logger all'analisi del traffico di rete. Per approfondire alcuni di questi metodi, si rimanda al pezzo di [Chris Belcher](https://en.Bitcoin.it/Privacy#Non-blockchain_attacks_on_privacy), in particolare alla sezione "Attacchi alla privacy non Blockchain".
-
-
-Tra una pletora di attacchi, Belcher cita la possibilità che qualcuno possa spiare la vostra connessione a Internet, ad esempio il vostro ISP:
-
-
-> Se l'avversario vede una transazione o un blocco in uscita dal vostro nodo che non è stato inserito in precedenza, può sapere con quasi certezza che la transazione è stata effettuata da voi o che il blocco è stato estratto da voi. Poiché sono coinvolte connessioni Internet, l'avversario sarà in grado di collegare l'IP Address con le informazioni Bitcoin scoperte.
-
-Tuttavia, tra le perdite di privacy più evidenti ci sono gli exchange. A causa delle leggi, solitamente denominate KYC (Know Your Customer) e AML (Anti-Money Laundering), valide nelle giurisdizioni in cui operano, gli exchange e le società collegate devono spesso raccogliere dati personali sui loro utenti, creando grandi database su quali utenti possiedono quali bitcoin. Questi database sono ottime honeypots per governi e criminali malvagi, sempre alla ricerca di nuove vittime. Esistono veri e propri mercati per questo tipo di dati, in cui gli hacker
-
-vendere i dati al miglior offerente.
-
-
-Come se non bastasse, le aziende che gestiscono questi database hanno spesso poca esperienza nella protezione dei dati finanziari, infatti molte di esse sono giovani start-up, e sappiamo per certo che si sono già verificate diverse fughe di notizie. Alcuni esempi sono
+Come se non bastasse, le aziende che gestiscono questi database hanno spesso poca esperienza nella protezione dei dati finanziari, infatti molte di esse sono start-up, e sappiamo per certo che si sono già verificate diverse fughe di notizie. Alcuni esempi sono:
 
 [MobiQwik, con sede in India](https://bitcoinmagazine.com/business/probably-the-largest-kyc-data-leak-in-history-demonstrates-the-importance-of-Bitcoin-privacy) e [HubSpot](https://bitcoinmagazine.com/business/hubspot-security-breach-leaks-Bitcoin-users-data).
 
-
-Anche in questo caso, proteggere i dati da questa vasta gamma di attacchi è un'impresa da Hard, ed è probabile che non si riesca a farlo completamente. Dovrete scegliere il compromesso tra convenienza e privacy più adatto a voi.
-
+Anche in questo caso, proteggere i dati da una vasta gamma di attacchi è un'impresa difficile, ed è probabile che non si riesca a farlo completamente. Dovrai scegliere il compromesso tra convenienza e privacy più adatto a te.
 
 ### Fungibilità
 
 
-Fungibilità, nel contesto delle valute, significa che una moneta è intercambiabile con qualsiasi altra moneta della stessa valuta. Questo divertente
-
-la parola è stata brevemente accennata all'inizio del capitolo.
+La fungibilità, nel contesto delle valute, significa che una moneta è intercambiabile con qualsiasi altra moneta della stessa valuta. Questo parola è stata accennata all'inizio del capitolo.
 
 
 Nell'articolo discusso, Gregory Maxwell [ha dichiarato](https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908):
 
 
-> La privacy finanziaria è un elemento essenziale per la fungibilità nel Bitcoin: se è possibile distinguere significativamente una moneta da un'altra, allora la fungibilità è debole. Se la nostra fungibilità è troppo debole nella pratica, allora non possiamo essere decentralizzati: se qualcuno di importante annuncia una lista di monete rubate da cui non accetterà monete derivate, dovrete controllare attentamente le monete che accettate rispetto a quella lista e restituire quelle che falliscono.  Tutti sono costretti a controllare le liste nere emesse da varie autorità, perché in questo mondo non vorremmo essere bloccati con monete sbagliate. Questo aggiunge attrito e costi transazionali e rende il Bitcoin meno valido come moneta.
+> La privacy finanziaria è un elemento essenziale per la fungibilità in Bitcoin: se è possibile distinguere significativamente una moneta da un'altra, allora la fungibilità è debole. Se la nostra fungibilità è troppo debole nella pratica, non possiamo essere decentralizzati: se qualcuno di rilevanza pubblica annuncia una lista di monete rubate da cui non accetterà transazioni, dovrai controllare attentamente le monete che accetti rispetto a quella lista e restituire quelle che non la rispettano. Tutti sono costretti a controllare le liste nere emesse da varie autorità, perché in questo mondo non vorremmo essere bloccati con monete sbagliate. Questo aggiunge attrito e costi transazionali e rende Bitcoin meno valido come moneta.
 
 Qui parla dei pericoli derivanti dalla mancanza di fungibilità. Supponiamo di avere un UTXO. La storia di quel UTXO può essere normalmente tracciata a ritroso per diversi salti, con una serie di uscite precedenti. Se una di queste uscite è stata coinvolta in attività illegali, indesiderate o sospette, alcuni potenziali destinatari della vostra moneta potrebbero rifiutarla. Se pensate che i vostri pagatori verificheranno le vostre monete con qualche servizio centralizzato di whitelist o blacklist, potreste iniziare a controllare anche le monete che ricevete, per sicurezza. Il risultato è che una cattiva fungibilità favorisce una fungibilità ancora peggiore.
 
@@ -558,7 +536,7 @@ Più importante del numero esatto di monete in circolazione è il modo in cui il
 
 > Quindi la risposta è che non bisogna fidarsi di qualcuno che non aumenta il Supply. È sufficiente eseguire del codice che verifichi che non l'abbia fatto.
 
-Anche se alcuni full nodes passano al lato oscuro e decidono di accettare blocchi con transazioni coinbase di valore più elevato, tutti i full nodes rimanenti semplicemente li trascureranno e continueranno a fare affari come al solito. Alcuni full nodes possono, intenzionalmente o meno, eseguire software malvagi, ma il collettivo proteggerà il Blockchain in modo solido. In conclusione, potete scegliere di fidarvi del sistema senza dovervi fidare di nessuno.
+Anche se alcuni full nodes passano al lato oscuro e decidono di accettare blocchi con transazioni coinbase di valore più elevato, tutti i full nodes rimanenti semplicemente li trascureranno e continueranno a fare affari come al solito. Alcuni full nodes possono, intenzionalmente o meno, eseguire software malvagi, ma il collettivo proteggerà la blockchain in modo solido. In conclusione, potete scegliere di fidarvi del sistema senza dovervi fidare di nessuno.
 
 
 ### Sovvenzione di blocco e commissioni di transazione
@@ -590,7 +568,7 @@ Quando le commissioni di transazione sono la motivazione principale per il Minin
 
 > In alternativa, un miner potrebbe tentare disonestamente di ri-minire il blocco precedente più un blocco completamente nuovo per estendere la catena. Questo comportamento viene definito fee sniping e la probabilità che il miner disonesto riesca nell'intento se ogni altro miner è onesto è `(x/(1-x))^2`. Anche se il fee sniping ha una probabilità di successo complessivamente più bassa rispetto al Mining onesto, tentare il Mining disonesto potrebbe essere la scelta più redditizia se le transazioni nel blocco precedente hanno pagato feerate significativamente più alte rispetto alle transazioni attualmente nel Mempool: una piccola possibilità di ottenere un importo elevato può valere più di una grande possibilità di ottenere un importo ridotto.
 
-A gettare una cappa di sabbia sulle nostre speranze per il futuro c'è il fatto che se i miner iniziano a fare sniping a pagamento, questo incentiverà altri a fare lo stesso, lasciando ancora meno miner onesti. Questo potrebbe compromettere gravemente la sicurezza complessiva di  Bitcoin. Harding prosegue elencando alcune contromisure che possono essere adottate, come ad esempio affidarsi ai blocchi temporali delle transazioni per limitare il punto del Blockchain in cui la transazione può apparire.
+A gettare una cappa di sabbia sulle nostre speranze per il futuro c'è il fatto che se i miner iniziano a fare sniping a pagamento, questo incentiverà altri a fare lo stesso, lasciando ancora meno miner onesti. Questo potrebbe compromettere gravemente la sicurezza complessiva di  Bitcoin. Harding prosegue elencando alcune contromisure che possono essere adottate, come ad esempio affidarsi ai blocchi temporali delle transazioni per limitare il punto della blockchain in cui la transazione può apparire.
 
 
 Quindi, dato che il consenso sul Supply finito rimane, la sovvenzione dei blocchi - grazie a [BIP42](https://github.com/Bitcoin/bips/blob/master/bip-0042.mediawiki) che ha risolto un bug di inflazione a lungo termine - arriverà a zero intorno all'anno 2140. Le commissioni di transazione saranno quindi sufficienti a garantire la sicurezza della rete?
@@ -1079,8 +1057,8 @@ Probabilmente altrettanto importante è che gli utenti sono liberi di sviluppare
 
 - Lightning Network: Rete di pagamento che consente di pagare velocemente importi molto piccoli. Richiede pochissime transazioni On-Chain Bitcoin. Esistono diverse implementazioni interoperabili, come [Core Lightning](https://github.com/ElementsProject/lightning), [LND](https://github.com/lightningnetwork/LND), [Eclair](https://github.com/ACINQ/eclair) e [Lightning Dev Kit](https://github.com/lightningdevkit).
 - CoinJoin: Più parti collaborano per combinare i loro pagamenti in un'unica transazione per rendere più difficile il clustering Address. Esistono diverse implementazioni.
-- Sidechains: Questo sistema può bloccare una moneta sul Bitcoin del Blockchain per sbloccarla su qualche altro Blockchain. Ciò consente di spostare i bitcoin su un altro Blockchain, ossia un Sidechain, in modo da utilizzare le funzionalità disponibili su tale Sidechain. Alcuni esempi sono [Blockstream's Elements](https://github.com/ElementsProject/Elements).
-- OpenTimestamps: consente di [Timestamp un documento](https://opentimestamps.org/) sul Bitcoin del Blockchain in modo privato. È quindi possibile utilizzare quel Timestamp per dimostrare che un documento deve essere esistito prima di un certo momento.
+- Sidechains: Questo sistema può bloccare una moneta sul Bitcoin della blockchain per sbloccarla su qualche altro Blockchain. Ciò consente di spostare i bitcoin su un altro Blockchain, ossia un Sidechain, in modo da utilizzare le funzionalità disponibili su tale Sidechain. Alcuni esempi sono [Blockstream's Elements](https://github.com/ElementsProject/Elements).
+- OpenTimestamps: consente di [Timestamp un documento](https://opentimestamps.org/) sul Bitcoin della blockchain in modo privato. È quindi possibile utilizzare quel Timestamp per dimostrare che un documento deve essere esistito prima di un certo momento.
 
 
 Senza lo sviluppo senza permessi, molti di questi progetti non sarebbero stati possibili. Come si è detto nel capitolo sulla neutralità, se gli sviluppatori dovessero chiedere il permesso di costruire protocolli su Bitcoin, verrebbero sviluppati solo i protocolli consentiti dal comitato centrale di concessione degli sviluppatori.
@@ -1289,7 +1267,7 @@ Il processo di sviluppo di Bitcoin è radicalmente aperto, il che può far sembr
 In questo capitolo esploriamo il modo in cui Bitcoin scala e non scala. Iniziamo con un'analisi di come si è ragionato in passato sul ridimensionamento. Poi, la maggior parte del capitolo illustra vari approcci al ridimensionamento di Bitcoin, in particolare il ridimensionamento verticale, orizzontale, interno e a strati. Ogni descrizione è seguita da considerazioni sulla possibilità che l'approccio interferisca con la proposta di valore di  Bitcoin.
 
 
-Nello spazio Bitcoin, diverse persone attribuiscono definizioni diverse alla parola "scala". Alcuni la concepiscono come l'aumento della capacità di transazione del Blockchain, altri ritengono che equivalga a un utilizzo più efficiente del Blockchain e altri ancora la vedono come lo sviluppo di sistemi in cima al Bitcoin.
+Nello spazio Bitcoin, diverse persone attribuiscono definizioni diverse alla parola "scala". Alcuni la concepiscono come l'aumento della capacità di transazione della blockchain, altri ritengono che equivalga a un utilizzo più efficiente della blockchain e altri ancora la vedono come lo sviluppo di sistemi in cima al Bitcoin.
 
 
 Nel contesto di Bitcoin, e per gli scopi di questo libro, definiamo lo scaling come *aumento della capacità di utilizzo di Bitcoin senza compromettere la sua resistenza alla censura*. Questa definizione comprende diversi aspetti
@@ -1355,7 +1333,7 @@ Come accennato in precedenza, per scalare Bitcoin non è necessario aumentare la
 
 
 
-Il vertical scaling è il processo di aumento delle risorse di calcolo delle macchine che elaborano i dati. Nel contesto di  Bitcoin, queste ultime sarebbero i full nodes, ossia le macchine che convalidano il Blockchain per conto dei loro utenti.
+Il vertical scaling è il processo di aumento delle risorse di calcolo delle macchine che elaborano i dati. Nel contesto di  Bitcoin, queste ultime sarebbero i full nodes, ossia le macchine che convalidano la blockchain per conto dei loro utenti.
 
 
 La tecnica più discussa per il vertical scaling nel Bitcoin è l'aumento del limite di dimensione dei blocchi. Ciò richiederebbe che alcuni full nodes aggiornino il loro hardware per tenere il passo con le crescenti richieste di calcolo. Lo svantaggio è che ciò avviene al costo della centralizzazione.
@@ -1400,7 +1378,7 @@ Il secondo punto ha un effetto negativo sulla decentralizzazione di miner, perch
 La scalatura orizzontale si riferisce a tecniche che dividono il carico di lavoro su più macchine. Sebbene si tratti di un approccio di scalatura prevalente nei siti web e nei database più diffusi, non è facile da realizzare in Bitcoin.
 
 
-Molti si riferiscono a questo approccio di scalatura Bitcoin come *sharding*. In pratica, consiste nel lasciare che ogni full node verifichi solo una parte del Blockchain. Peter Todd ha riflettuto molto sul concetto di sharding. Ha scritto un [blog post](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) che spiega lo sharding in termini generali e presenta anche la sua idea chiamata *treechains*. L'articolo è di difficile lettura, ma Todd espone alcuni punti che sono abbastanza digeribili:
+Molti si riferiscono a questo approccio di scalatura Bitcoin come *sharding*. In pratica, consiste nel lasciare che ogni full node verifichi solo una parte della blockchain. Peter Todd ha riflettuto molto sul concetto di sharding. Ha scritto un [blog post](https://petertodd.org/2015/why-scaling-Bitcoin-with-sharding-is-very-Hard) che spiega lo sharding in termini generali e presenta anche la sua idea chiamata *treechains*. L'articolo è di difficile lettura, ma Todd espone alcuni punti che sono abbastanza digeribili:
 
 
 > Nei sistemi sharded la "difesa full node" non funziona, almeno direttamente. Il punto è che non tutti hanno tutti i dati, quindi bisogna decidere cosa succede quando non sono disponibili.
@@ -1508,13 +1486,13 @@ Un protocollo a strati inizia con l'accordo di due o più persone su una transaz
 
 
 
-Il modo in cui viene creata la transazione di avvio varia da un protocollo all'altro, ma un tema comune è che i partecipanti creano una transazione di avvio non firmata e una serie di transazioni di punizione pre-firmate, che spendono l'output della transazione di avvio in vari modi. Successivamente, la transazione iniziale è completamente firmata e pubblicata sul Blockchain, mentre le transazioni di punizione possono essere completamente firmate e pubblicate per punire una parte che si comporta male. Questo incentiva i partecipanti a mantenere le loro promesse, in modo che il protocollo possa funzionare in modo Trustless .
+Il modo in cui viene creata la transazione di avvio varia da un protocollo all'altro, ma un tema comune è che i partecipanti creano una transazione di avvio non firmata e una serie di transazioni di punizione pre-firmate, che spendono l'output della transazione di avvio in vari modi. Successivamente, la transazione iniziale è completamente firmata e pubblicata sulla blockchain, mentre le transazioni di punizione possono essere completamente firmate e pubblicate per punire una parte che si comporta male. Questo incentiva i partecipanti a mantenere le loro promesse, in modo che il protocollo possa funzionare in modo Trustless .
 
 
-Una volta che la transazione iniziale è sul Blockchain, il protocollo può fare ciò che deve fare. Ad esempio, può effettuare pagamenti superveloci tra i partecipanti, implementare alcune tecniche di miglioramento della privacy o eseguire scripting più avanzati che non sarebbero supportati dal Bitcoin Blockchain.
+Una volta che la transazione iniziale è sulla blockchain, il protocollo può fare ciò che deve fare. Ad esempio, può effettuare pagamenti superveloci tra i partecipanti, implementare alcune tecniche di miglioramento della privacy o eseguire scripting più avanzati che non sarebbero supportati dal Bitcoin Blockchain.
 
 
-Non spiegheremo in dettaglio come funzionano i protocolli specifici, ma come si può vedere nella figura precedente, il Blockchain viene usato raramente durante il ciclo di vita del protocollo. Tutte le azioni più interessanti avvengono con il off-chain. Abbiamo visto come questo possa essere un vantaggio per la privacy, se fatto bene, ma anche per la scalabilità.
+Non spiegheremo in dettaglio come funzionano i protocolli specifici, ma come si può vedere nella figura precedente, la blockchain viene usato raramente durante il ciclo di vita del protocollo. Tutte le azioni più interessanti avvengono con il off-chain. Abbiamo visto come questo possa essere un vantaggio per la privacy, se fatto bene, ma anche per la scalabilità.
 
 
 In un [post su Reddit](https://www.reddit.com/r/Bitcoin/comments/438hx0/a_trip_to_the_moon_requires_a_rocket_with/) intitolato "Un viaggio sulla Luna richiede un razzo con più stadi o altrimenti l'equazione del razzo vi mangerà il pranzo... impacchettare tutti in stile clown-car in un trabucco e sperare nel successo è proprio fuori luogo", Gregory Maxwell spiega perché la stratificazione è la nostra migliore possibilità di far scalare il Bitcoin di ordini di grandezza.
@@ -1786,7 +1764,7 @@ Il suo piano era di creare un Soft Fork per rendere invalide transazioni come qu
 
 > Costruirò le versioni a breve.
 
-Voleva che si scaricassero i dati dei blocchi di un utente specifico, knightmb, che aveva pubblicato il suo Blockchain così come appariva sul suo disco, i file blkXXXX.dat e blkindex.dat. Il motivo per scaricare i dati del Blockchain in questo modo, invece di sincronizzarli da zero, era di ridurre i colli di bottiglia della larghezza di banda della rete.
+Voleva che si scaricassero i dati dei blocchi di un utente specifico, knightmb, che aveva pubblicato il suo Blockchain così come appariva sul suo disco, i file blkXXXX.dat e blkindex.dat. Il motivo per scaricare i dati della blockchain in questo modo, invece di sincronizzarli da zero, era di ridurre i colli di bottiglia della larghezza di banda della rete.
 
 
 C'era un grosso problema: i dati che gli utenti scaricavano da knightmb [non erano verificati dal software Bitcoin](https://Bitcoin.stackexchange.com/a/113682/69518) all'avvio. Il file blkindex.dat conteneva il set UTXO e il software accettava qualsiasi dato in esso contenuto come se lo avesse già verificato. knightmb avrebbe potuto manipolare i dati per dare a se stesso o a chiunque altro dei bitcoin.
@@ -1806,7 +1784,7 @@ Rispetto al problema OP_RETURN, questo problema è stato gestito in modo un po' 
 Agli utenti è stato chiesto di interrompere il Mining anche durante questo problema. Possiamo discutere se questa sia una buona idea o meno, ma immaginate di essere un miner e di essere convinti che tutti i blocchi sopra il blocco cattivo saranno alla fine spazzati via in una profonda riorganizzazione: perché dovreste sprecare risorse su blocchi Mining condannati?
 
 
-Potreste anche pensare che sia un po' strano fare come suggerito da Nakamoto e scaricare il Blockchain, compreso il set UTXO, dall'unità Hard di un tizio a caso. Se è così, avete ragione: è sospetto. Ma, date le circostanze, questa risposta di emergenza è stata sensata.
+Potreste anche pensare che sia un po' strano fare come suggerito da Nakamoto e scaricare la blockchain, compreso il set UTXO, dall'unità Hard di un tizio a caso. Se è così, avete ragione: è sospetto. Ma, date le circostanze, questa risposta di emergenza è stata sensata.
 
 
 C'è un'importante differenza tra questo caso e il precedente caso OP_RETURN: questo problema è stato sfruttato in natura e quindi la correzione è stata più semplice. Nel caso del OP_RETURN, invece, è stato necessario offuscare la correzione e rilasciare dichiarazioni pubbliche che non rivelavano direttamente quale fosse il problema.
@@ -1816,10 +1794,10 @@ C'è un'importante differenza tra questo caso e il precedente caso OP_RETURN: qu
 
 
 
-Nel marzo 2013 è emerso un problema molto interessante e di grande valore educativo. Sembrava che il Blockchain si fosse separato (anche se la parola "Fork" è usata nella citazione sottostante) dopo il blocco 225429. I dettagli di questo incidente sono stati [riportati nel BIP50](https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki). Il riassunto dice:
+Nel marzo 2013 è emerso un problema molto interessante e di grande valore educativo. Sembrava che la blockchain si fosse separato (anche se la parola "Fork" è usata nella citazione sottostante) dopo il blocco 225429. I dettagli di questo incidente sono stati [riportati nel BIP50](https://github.com/Bitcoin/bips/blob/master/bip-0050.mediawiki). Il riassunto dice:
 
 
-> È stato estratto e trasmesso un blocco con un numero di transazioni totali superiore a quello visto in precedenza. I nodi Bitcoin 0.8 sono stati in grado di gestirlo, ma alcuni nodi Bitcoin pre-0.8 lo hanno rifiutato, causando un inaspettato Fork del Blockchain. La catena pre-0.8-incompatibile (da qui in poi, la catena 0.8) a quel punto aveva circa il 60% della potenza Mining Hash garantendo che la scissione non si risolvesse automaticamente (come sarebbe accaduto se la catena pre-0.8 avesse superato la catena 0.8 in lavoro totale, costringendo i nodi 0.8 a riorganizzarsi verso la catena pre-0.8).
+> È stato estratto e trasmesso un blocco con un numero di transazioni totali superiore a quello visto in precedenza. I nodi Bitcoin 0.8 sono stati in grado di gestirlo, ma alcuni nodi Bitcoin pre-0.8 lo hanno rifiutato, causando un inaspettato Fork della blockchain. La catena pre-0.8-incompatibile (da qui in poi, la catena 0.8) a quel punto aveva circa il 60% della potenza Mining Hash garantendo che la scissione non si risolvesse automaticamente (come sarebbe accaduto se la catena pre-0.8 avesse superato la catena 0.8 in lavoro totale, costringendo i nodi 0.8 a riorganizzarsi verso la catena pre-0.8).
 >
 
 > Al fine di ripristinare una catena canonica il prima possibile, BTCGuild e Slush hanno declassato i loro nodi Bitcoin 0.8 a 0.7 in modo che anche i loro pool rifiutassero il blocco più grande. In questo modo la maggioranza dell'hashpower è stata assegnata alla catena senza il blocco più grande, facendo sì che i nodi 0,8 si riorganizzassero sulla catena precedente allo 0,8.
@@ -1834,7 +1812,7 @@ Ciò che è molto interessante in questo problema è che la versione 0.7.2 era i
 regola incoerente e non sicura, poiché l'uso del blocco potrebbe variare da nodo a nodo).
 
 
-In breve, il problema è che il numero di lock del database necessari al software Bitcoin Core per verificare un blocco non è deterministico. Un nodo potrebbe aver bisogno di X lock mentre un altro nodo potrebbe aver bisogno di X+1 lock. I nodi hanno anche un limite al numero di blocchi che Bitcoin può utilizzare. Se il numero di blocchi necessari supera il limite, il blocco viene considerato non valido. Quindi, se X+1 supera il limite ma non X, i due nodi divideranno il Blockchain e non saranno d'accordo su quale ramo sia valido.
+In breve, il problema è che il numero di lock del database necessari al software Bitcoin Core per verificare un blocco non è deterministico. Un nodo potrebbe aver bisogno di X lock mentre un altro nodo potrebbe aver bisogno di X+1 lock. I nodi hanno anche un limite al numero di blocchi che Bitcoin può utilizzare. Se il numero di blocchi necessari supera il limite, il blocco viene considerato non valido. Quindi, se X+1 supera il limite ma non X, i due nodi divideranno la blockchain e non saranno d'accordo su quale ramo sia valido.
 
 
 La soluzione scelta, oltre alle azioni immediate intraprese dai due pool per ripristinare il consenso, è stata quella di
@@ -1892,7 +1870,7 @@ L'informativa completa su questo tema è stata pubblicata il 28 luglio 2015 da P
 > Breve descrizione:
 >
 
-> Una transazione appositamente creata avrebbe potuto effettuare il fork del Blockchain tra i nodi:
+> Una transazione appositamente creata avrebbe potuto effettuare il fork della blockchain tra i nodi:
 >
 
 > - usando OpenSSL su sistemi a 32 bit e su sistemi Windows a 64 bit
@@ -1937,7 +1915,7 @@ Egli sottolinea che l'uso di codice non destinato ai sistemi di consenso comport
 Questi eventi potrebbero dare l'impressione che Gregory Maxwell fosse a conoscenza della vulnerabilità pubblicata in seguito da Pieter Wuille, ma che volesse contribuire a introdurre una correzione mascherata da misura precauzionale, senza attirare troppo l'attenzione sul problema reale. Potrebbe essere così, ma si tratta di una pura speculazione.
 
 
-Poi, come proposto da Maxwell, fu creato il BIP66 come sottoinsieme del BIP62 che specificava solo la codifica DER rigorosa. A quanto pare, questo BIP è stato ampiamente accettato e distribuito a luglio, anche se, ironicamente, si sono verificate due scissioni del Blockchain a causa del **Mining** privo di validazione. Queste scissioni sono discusse nella sezione successiva.
+Poi, come proposto da Maxwell, fu creato il BIP66 come sottoinsieme del BIP62 che specificava solo la codifica DER rigorosa. A quanto pare, questo BIP è stato ampiamente accettato e distribuito a luglio, anche se, ironicamente, si sono verificate due scissioni della blockchain a causa del **Mining** privo di validazione. Queste scissioni sono discusse nella sezione successiva.
 
 
 ![](assets/it/020.webp)

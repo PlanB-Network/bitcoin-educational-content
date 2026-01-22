@@ -40,7 +40,6 @@ Siete pronti a scoprire perché la libertà non è solo un ideale morale, ma anc
 
 
 
-![video](https://www.youtube.com/watch?v=md-rDzJX0Ws)
 
 
 
@@ -96,7 +95,6 @@ Inoltre, le sensazioni sono intrinsecamente individuali. Non si può provare la 
 
 
 
-![video](https://www.youtube.com/watch?v=w9DUtXbOYEg)
 
 
 
@@ -152,7 +150,6 @@ La storia francese illustra le conseguenze dell'assenza di questa libertà. Nono
 
 
 
-![video](https://www.youtube.com/watch?v=Vjm91Lve_SA)
 
 
 
@@ -238,7 +235,6 @@ Nel loro insieme, queste osservazioni non costituiscono una teoria astratta, ma 
 
 
 
-![video](https://www.youtube.com/watch?v=Wlc3WLYFjXo)
 
 
 
@@ -306,7 +302,6 @@ La questione del matrimonio illustra questi principi: la scelta del coniuge deve
 
 
 
-![video](https://www.youtube.com/watch?v=8Ib5M-6Rr8M)
 
 
 
@@ -383,7 +378,6 @@ Infine, l'abolizione dell'interesse sul denaro e la regolamentazione dei profitt
 
 
 
-![video](https://www.youtube.com/watch?v=eS_LZr9iKto)
 
 
 
@@ -452,7 +446,6 @@ L'analisi storica dimostra che la libertà non è uno stato naturale perduto da 
 
 
 
-![video](https://www.youtube.com/watch?v=v7blehzJCr8)
 
 
 
@@ -511,7 +504,6 @@ L'esame delle ragioni storiche della mancanza di libertà rivela una tendenza fo
 
 
 
-![video](https://www.youtube.com/watch?v=X4Htu6xM4Qk)
 
 
 
@@ -571,7 +563,6 @@ L'esame dei diversi stadi di sviluppo rivela una profonda correlazione tra le co
 
 
 
-![video](https://www.youtube.com/watch?v=Uzns3FT688k)
 
 
 
@@ -630,7 +621,6 @@ Le rivoluzioni presentano notevoli inconvenienti: sono molto violente e tendono 
 
 
 
-![video](https://www.youtube.com/watch?v=0q_m3KIoq-U)
 
 
 
@@ -684,7 +674,6 @@ Questa riflessione porta a una conclusione essenziale: le circostanze odierne so
 
 
 
-![video](https://www.youtube.com/watch?v=aEoerhy6ERU)
 
 
 
@@ -745,7 +734,6 @@ Stabilite queste premesse, è ora possibile esaminare gli elementi di fatto rela
 
 
 
-![video](https://www.youtube.com/watch?v=xcaV6Kb21O0)
 
 
 
@@ -801,7 +789,6 @@ Da questa analisi deriva una conclusione fondamentale: l'aumento del commercio t
 
 
 
-![video](https://www.youtube.com/watch?v=qrE5GJWNwGE)
 
 
 
@@ -860,7 +847,6 @@ Il vantaggio decisivo della libertà economica è che la produzione non è mai t
 
 
 
-![video](https://www.youtube.com/watch?v=tfH8FapqqsE)
 
 
 
@@ -920,7 +906,6 @@ In una società libera, l'interesse personale porta all'innovazione e al progres
 
 
 
-![video](https://www.youtube.com/watch?v=hS1_Nkd_H9M)
 
 
 
@@ -976,7 +961,6 @@ La transizione verso una società pacifica è un lungo processo di apprendimento
 
 
 
-![video](https://www.youtube.com/watch?v=DzE_iGRP5Z0)
 
 
 
@@ -1035,7 +1019,6 @@ I sistemi di non libertà sono caratterizzati proprio dalla disuguaglianza: alcu
 
 
 
-![video](https://www.youtube.com/watch?v=LDMCs9wCTQc)
 
 
 
@@ -1095,7 +1078,6 @@ Al contrario, le relazioni basate sul potere politico funzionano in modo tronco.
 
 
 
-![video](https://www.youtube.com/watch?v=mfvPE1fO3-E)
 
 
 
@@ -1167,7 +1149,6 @@ La dottrina della libertà si oppone a questa logica con il principio della sece
 
 
 
-![video](https://www.youtube.com/watch?v=VT3w2BjiD8E)
 
 
 
@@ -1227,7 +1208,6 @@ Questi autori hanno identificato il protezionismo del lavoro come la futura form
 
 
 
-![video](https://www.youtube.com/watch?v=MRcLZ1SpAo8)
 
 
 
@@ -1297,7 +1277,6 @@ Questa storia intellettuale e fattuale del fallimento della non-libertà è una 
 
 
 
-![video](https://www.youtube.com/watch?v=asOEZJRQuOw)
 
 
 
@@ -1341,7 +1320,6 @@ Una distinzione cruciale è quella tra libertà negativa e positiva. La libertà
 
 
 
-![video](https://www.youtube.com/watch?v=mkzE0SfSl1Q)
 
 
 
@@ -1396,7 +1374,6 @@ Di fronte a questi pericoli, il pensiero liberale, in particolare quello di Benj
 
 
 
-![video](https://www.youtube.com/watch?v=K1e39vtOoCc)
 
 
 
@@ -1456,7 +1433,6 @@ Le fallacie economiche, tuttavia, sono solo una categoria tra le tante. La falla
 
 
 
-![video](https://www.youtube.com/watch?v=zJhhcxwXpRI)
 
 
 
@@ -1515,7 +1491,6 @@ Tuttavia, gli scrittori liberali hanno una forte sensibilità nei confronti dell
 
 
 
-![video](https://www.youtube.com/watch?v=GtxJlUa_H08)
 
 
 
@@ -1582,7 +1557,6 @@ Questa analisi ci permette anche di capire come i sistemi di non libertà minano
 
 
 
-![video](https://www.youtube.com/watch?v=ary4UJhwRl8)
 
 
 
@@ -1646,7 +1620,6 @@ Courcelle-Seneuil si limitò ad affermare le idee della Rivoluzione francese sul
 
 
 
-![video](https://www.youtube.com/watch?v=c8Wi5jkSEu8)
 
 
 
@@ -1707,7 +1680,6 @@ La realtà attuale rivela una situazione paradossale e triste. I professionisti 
 
 
 
-![video](https://www.youtube.com/watch?v=cEzFGSnYfnk)
 
 
 
@@ -1771,7 +1743,6 @@ Molinari e la stragrande maggioranza dei liberali francesi del suo tempo conside
 
 
 
-![video](https://www.youtube.com/watch?v=b8PojgZ0TQo)
 
 
 
@@ -1831,7 +1802,6 @@ Un tale stato di diritto internazionale, che riconoscerebbe la libertà d'azione
 
 
 
-![video](https://www.youtube.com/watch?v=OfqTuJvo3MQ)
 
 
 

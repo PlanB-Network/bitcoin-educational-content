@@ -22,7 +22,7 @@ Prêt à découvrir pourquoi la liberté constitue non seulement un idéal moral
 ## Les faits humains à l'origine de la liberté et de la propriété 
 <chapterId>8eb03d97-ff42-51a1-bd42-9271d3213ac4</chapterId>
 
-![video](https://www.youtube.com/watch?v=md-rDzJX0Ws)
+![video](https://www.youtube.com/watch?v=Iy7RLBTIyHE)
 
 ### Introduction à la tradition libérale française
 
@@ -51,7 +51,7 @@ Enfin, les sensations constituent un phénomène fondamentalement individuel. On
 ## La liberté d'expression et de la presse et l'éducation libre 
 <chapterId>e19775a3-6b1d-50ed-ba6b-979f93a78b4b</chapterId>
 
-![video](https://www.youtube.com/watch?v=w9DUtXbOYEg)
+![video](https://www.youtube.com/watch?v=KoiP5i7p85Y)
 
 ### Les fondements naturels de la liberté de pensée
 
@@ -80,7 +80,7 @@ L'histoire française illustre les conséquences de l'absence de cette liberté.
 ## La propriété et la liberté du travail 
 <chapterId>9b71cfae-425c-5255-a0f2-7a5b6805e284</chapterId>
 
-![video](https://www.youtube.com/watch?v=Vjm91Lve_SA)
+![video](https://www.youtube.com/watch?v=Ab1bt8FU39k)
 
 
 ### La propriété de soi comme fondement premier
@@ -124,7 +124,7 @@ L'ensemble de ces observations ne constitue pas une théorie abstraite, mais une
 ## La non-agression, le respect de la propriété et la paix 
 <chapterId>e8519889-1178-521e-9de7-b32f6177d92b</chapterId>
 
-![video](https://www.youtube.com/watch?v=Wlc3WLYFjXo)
+![video](https://www.youtube.com/watch?v=ZjXEZnwClh4)
 
 ### Les fondements physiologiques du principe de non-agression
 
@@ -158,7 +158,7 @@ La question du mariage illustre ces principes : le choix du conjoint doit être 
 ## Les contradictions factuelles des systèmes de contrainte 
 <chapterId>c13f7395-6734-5c64-b86c-af7922ffbcb0</chapterId>
 
-![video](https://www.youtube.com/watch?v=8Ib5M-6Rr8M)
+![video](https://www.youtube.com/watch?v=-WpZ_GEFwSg)
 
 ### Les contradictions autour de la propriété
 
@@ -196,7 +196,7 @@ Enfin, l'abolition de l'intérêt de l'argent et la réglementation des profits 
 ## L'homme préhistorique et le communisme primitif 
 <chapterId>ed3a71e6-6e1b-504a-8c53-fe21b891ad27</chapterId>
 
-![video](https://www.youtube.com/watch?v=eS_LZr9iKto)
+![video](https://www.youtube.com/watch?v=WBG7PYEHOAc)
 
 ### Les débats historiques sur l'origine de la liberté
 
@@ -231,7 +231,7 @@ L'analyse historique démontre que la liberté n'est pas un état naturel perdu 
 ## Ancienne raison d'être de l'esclavage, du servage et de l'autorité politique 
 <chapterId>29fc841c-eb21-522d-818c-9b50c6558396</chapterId>
 
-![video](https://www.youtube.com/watch?v=v7blehzJCr8)
+![video](https://www.youtube.com/watch?v=3_uLrDCG0l0)
 
 ### L'esclavage : une réponse aux contraintes économiques primitives
 
@@ -260,7 +260,7 @@ L'examen des raisons historiques de la non-liberté révèle une tendance fondam
 ## Les progrès techniques et intellectuels émancipateurs 
 <chapterId>a9cf7eb2-4639-5b8a-8fd6-2ad0a9e7cff2</chapterId>
 
-![video](https://www.youtube.com/watch?v=X4Htu6xM4Qk)
+![video](https://www.youtube.com/watch?v=QhrkbIP8FiY)
 
 ### De la destruction à la production 
 
@@ -290,7 +290,7 @@ L'examen des stades de développement révèle une corrélation profonde entre c
 ## Coup d'œil général sur l'histoire
 <chapterId>3fffa63c-58bb-5c97-a2f5-fec90c05f182</chapterId>
 
-![video](https://www.youtube.com/watch?v=Uzns3FT688k)
+![video](https://www.youtube.com/watch?v=pP-7tXQm2YY)
 
 ### Les obstacles à la liberté dans les sociétés primitives
 
@@ -319,7 +319,7 @@ Les révolutions présentent des inconvénients significatifs : elles génèrent
 ## Les nouvelles circonstances du XXIᵉ siècle
 <chapterId>a1c0c590-d0f6-5a18-a949-67f7a568ca6d</chapterId>
 
-![video](https://www.youtube.com/watch?v=0q_m3KIoq-U)
+![video](https://www.youtube.com/watch?v=XpHqkG78dmo)
 
 ### Les obstacles à la liberté dans les sociétés primitives
 
@@ -345,7 +345,7 @@ Cette réflexion conduit à une conclusion essentielle : les circonstances actue
 ## La capacité de gouvernement de soi-même
 <chapterId>aeca263f-cce0-5025-829e-4480b73394a6</chapterId>
 
-![video](https://www.youtube.com/watch?v=aEoerhy6ERU)
+![video](https://www.youtube.com/watch?v=4aaf44SSg28)
 
 ### La condition préalable à la liberté 
 
@@ -376,7 +376,7 @@ Après avoir établi ces conditions préalables, il devient possible d'examiner 
 ## La production et le contrat
 <chapterId>0cb003fe-58ac-5fa5-89b1-97e558fc98ac</chapterId>
 
-![video](https://www.youtube.com/watch?v=xcaV6Kb21O0)
+![video](https://www.youtube.com/watch?v=VnpPeSPDy98)
 
 ### La production comme conquête historique et création d'utilité
 
@@ -404,7 +404,7 @@ De cette analyse découle une conclusion fondamentale : multiplier les échanges
 ## Rôle des profits et les prix
 <chapterId>549e00c3-eece-5401-be62-b82c774af893</chapterId>
 
-![video](https://www.youtube.com/watch?v=qrE5GJWNwGE)
+![video](https://www.youtube.com/watch?v=ZYfXg3lVmWU)
 
 ### La concurrence comme moteur du progrès historique
 
@@ -433,7 +433,7 @@ La liberté économique présente l'avantage décisif de permettre une productio
 ## L'intérêt personnel, l'innovation et le progrès
 <chapterId>958075af-fb8f-50d9-9bf5-4d9882e03072</chapterId>
 
-![video](https://www.youtube.com/watch?v=tfH8FapqqsE)
+![video](https://www.youtube.com/watch?v=Mz7WV-k42jI)
 
 ### L'intérêt personnel au fondement du libéralisme économique
 
@@ -463,7 +463,7 @@ L'intérêt personnel conduit ainsi, dans une société libre et par les faits s
 ## L'harmonie des intérêts et la paix
 <chapterId>370f4e98-021b-5c81-a109-3b57b689905f</chapterId>
 
-![video](https://www.youtube.com/watch?v=hS1_Nkd_H9M)
+![video](https://www.youtube.com/watch?v=8BHejyOlIlM)
 
 ### L'harmonie des intérêts : une construction historique
 
@@ -491,7 +491,7 @@ La transition vers une société pacifique représente un long apprentissage. Le
 ## Les différentes variétés de non-liberté
 <chapterId>747ec342-bccd-5203-a198-c6e75505801b</chapterId>
 
-![video](https://www.youtube.com/watch?v=DzE_iGRP5Z0)
+![video](https://www.youtube.com/watch?v=uRPLFIDK42k)
 
 ### Les différentes formes de non-liberté dans l'histoire
 
@@ -520,7 +520,7 @@ Les systèmes de non-liberté se caractérisent précisément par l'inégalité 
 ## Le remplacement du contrat par la politique
 <chapterId>061e5c30-cb50-5205-8a1b-e41b7d1d234a</chapterId>
 
-![video](https://www.youtube.com/watch?v=LDMCs9wCTQc)
+![video](https://www.youtube.com/watch?v=ArFzWzdWtF0)
 
 ### La critique de l'État comme entité divine
 
@@ -550,7 +550,7 @@ Les relations humaines fondées sur le contrat permettent un processus de décou
 ## Les pratiques du pouvoir via l'impôt et les manipulations monétaires
 <chapterId>ca113581-6969-58b4-a9f8-996ab409be25</chapterId>
 
-![video](https://www.youtube.com/watch?v=mfvPE1fO3-E)
+![video](https://www.youtube.com/watch?v=H5m5weoafCA)
 
 ### L'impôt comme instrument de domination politique
 
@@ -586,7 +586,7 @@ La doctrine de la liberté oppose à cette logique le principe de sécession ind
 ## Les différentes variantes du protectionnisme
 <chapterId>3c1cf3d1-e2f5-5a95-9671-bf82b4de4a4e</chapterId>
 
-![video](https://www.youtube.com/watch?v=VT3w2BjiD8E)
+![video](https://www.youtube.com/watch?v=06T9E621MfY)
 
 ### Le protectionnisme comme réponse à la concurrence naturelle
 
@@ -616,7 +616,7 @@ Ces auteurs identifiaient le protectionnisme ouvrier comme la future forme domin
 ## L'éternel échec de la non-liberté
 <chapterId>e4b15871-df1d-5d98-a395-16e24e7258d5</chapterId>
 
-![video](https://www.youtube.com/watch?v=MRcLZ1SpAo8)
+![video](https://www.youtube.com/watch?v=v9SLBWIrXwc)
 
 ### L'impossibilité du planisme anticipée par les physiocrates
 
@@ -650,7 +650,7 @@ Cette histoire intellectuelle et factuelle de l'échec de la non-liberté consti
 ## Le sophisme intellectuel: fausses définitions de la liberté
 <chapterId>9bd81fd4-20ed-5305-845a-d081811946ee</chapterId>
 
-![video](https://www.youtube.com/watch?v=asOEZJRQuOw)
+![video](https://www.youtube.com/watch?v=eCdXiaTY5Zg)
 
 ### Le sophisme comme obstacle à la liberté
 
@@ -672,7 +672,7 @@ Une distinction cruciale oppose la liberté négative à la liberté positive. L
 ## Le sophisme démocratique: la tutelle des tuteurs
 <chapterId>96869664-df6e-5f47-92ad-ac93c88e4f55</chapterId>
 
-![video](https://www.youtube.com/watch?v=mkzE0SfSl1Q)
+![video](https://www.youtube.com/watch?v=YZgyWQ-JQyU)
 
 ### Le paradoxe fondamental de la tutelle démocratique
 
@@ -699,7 +699,7 @@ Face à ces dangers, la pensée libérale, notamment celle de Benjamin Constant,
 ## Le sophisme économique: le travail comme but et non comme moyen
 <chapterId>ffec06b3-1fea-51c8-9bdc-d36efcfd82df</chapterId>
 
-![video](https://www.youtube.com/watch?v=K1e39vtOoCc)
+![video](https://www.youtube.com/watch?v=MG_ArE1VEkI)
 
 ### Les sophismes économiques selon Frédéric Bastiat
 
@@ -729,7 +729,7 @@ Les sophismes économiques ne constituent cependant qu'une catégorie parmi d'au
 ## Le sophisme social : les classes sociales et l'exploitation capitaliste
 <chapterId>a154cdd1-5cc7-56c0-839b-a898305cdf30</chapterId>
 
-![video](https://www.youtube.com/watch?v=zJhhcxwXpRI)
+![video](https://www.youtube.com/watch?v=3Q-5MxGsULw)
 
 ### Les classes sociales dans les sociétés anciennes et modernes
 
@@ -758,7 +758,7 @@ Les auteurs libéraux manifestent néanmoins une sensibilité très forte, héri
 ## Le sophisme  international : la propriété nationale avant la propriété privée
 <chapterId>e4cc0069-d2b8-5c33-8dc3-ccc2655afe68</chapterId>
 
-![video](https://www.youtube.com/watch?v=GtxJlUa_H08)
+![video](https://www.youtube.com/watch?v=u2vYYNyKplA)
 
 
 ### La contradiction fondamentale entre propriété nationale et propriété privée
@@ -791,7 +791,7 @@ Cette analyse permet également de comprendre les atteintes portées par les sys
 ## Liberté des contrats et du travail
 <chapterId>085d5756-4ffe-5e2e-8b41-9a94102c97d3</chapterId>
 
-![video](https://www.youtube.com/watch?v=ary4UJhwRl8)
+![video](https://www.youtube.com/watch?v=Vk4AOoWiKAs)
 
 ### La liberté des contrats comme fondement de la société libre
 
@@ -823,7 +823,7 @@ Courcelle-Seneuil se revendiquait simplement des idées de la Révolution franç
 ## Réduction des attributions de l'État
 <chapterId>abb3498a-0232-5a58-aea0-52730b75ee84</chapterId>
 
-![video](https://www.youtube.com/watch?v=c8Wi5jkSEu8)
+![video](https://www.youtube.com/watch?v=rO1lIrTUU6k)
 
 ### La réduction des attributions de l'État dans la pensée libérale
 
@@ -854,7 +854,7 @@ La réalité actuelle révèle une situation paradoxale et attristante. Les prof
 ## L'alternative libérale à l'État providence
 <chapterId>8be24b04-53da-5d80-8e76-3b6f3530723f</chapterId>
 
-![video](https://www.youtube.com/watch?v=cEzFGSnYfnk)
+![video](https://www.youtube.com/watch?v=8BaeELxzbes)
 
 ### Les alternatives libérales à l'État-providence
 
@@ -886,7 +886,7 @@ Molinari et la grande majorité des libéraux français de son époque percevaie
 ##  L'autonomie individuelle et légitime défense collective
 <chapterId>1811a240-b5c8-5c34-906a-a5a030ca847f</chapterId>
 
-![video](https://www.youtube.com/watch?v=b8PojgZ0TQo)
+![video](https://www.youtube.com/watch?v=dKm9YGsxPyk)
 
 ### L'individu comme fondement de la liberté politique
 
@@ -916,7 +916,7 @@ Cet État de droit international, qui reconnaîtrait la liberté d'agir tout en 
 ## La liberté ancrée dans les faits humains
 <chapterId>fa1ae25f-bdcf-50db-9a12-d880ff568875</chapterId>
 
-![video](https://www.youtube.com/watch?v=OfqTuJvo3MQ)
+![video](https://www.youtube.com/watch?v=HWkAFC4gU-I)
 
 ### Les fondements de la liberté dans les faits humains
 

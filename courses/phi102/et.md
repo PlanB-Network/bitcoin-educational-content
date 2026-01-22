@@ -40,7 +40,6 @@ Olete valmis avastama, miks vabadus ei ole mitte ainult moraalne ideaal, vaid ka
 
 
 
-![video](https://www.youtube.com/watch?v=md-rDzJX0Ws)
 
 
 
@@ -96,7 +95,6 @@ Lisaks sellele on tunded olemuslikult individuaalsed. Keegi ei saa kogeda nälga
 
 
 
-![video](https://www.youtube.com/watch?v=w9DUtXbOYEg)
 
 
 
@@ -152,7 +150,6 @@ Prantsuse ajalugu näitab, millised tagajärjed on selle vabaduse puudumisel. Va
 
 
 
-![video](https://www.youtube.com/watch?v=Vjm91Lve_SA)
 
 
 
@@ -238,7 +235,6 @@ Kokkuvõttes ei kujuta need tähelepanekud endast mitte abstraktset teooriat, va
 
 
 
-![video](https://www.youtube.com/watch?v=Wlc3WLYFjXo)
 
 
 
@@ -306,7 +302,6 @@ Abieluküsimus illustreerib neid põhimõtteid: abikaasa valik peab olema vaba, 
 
 
 
-![video](https://www.youtube.com/watch?v=8Ib5M-6Rr8M)
 
 
 
@@ -383,7 +378,6 @@ Lõpuks, rahapõhise intressi kaotamine ja kasumi reguleerimine on rünnakud vab
 
 
 
-![video](https://www.youtube.com/watch?v=eS_LZr9iKto)
 
 
 
@@ -452,7 +446,6 @@ Ajalooline analüüs näitab, et vabadus ei ole kadunud looduslik seisund, mis t
 
 
 
-![video](https://www.youtube.com/watch?v=v7blehzJCr8)
 
 
 
@@ -511,7 +504,6 @@ Vabaduse kaotamise ajalooliste põhjuste uurimine toob esile ühe põhilise suun
 
 
 
-![video](https://www.youtube.com/watch?v=X4Htu6xM4Qk)
 
 
 
@@ -571,7 +563,6 @@ Erinevate arenguetappide uurimine paljastab sügava seose materiaalsete tingimus
 
 
 
-![video](https://www.youtube.com/watch?v=Uzns3FT688k)
 
 
 
@@ -630,7 +621,6 @@ Revolutsioonidel on märkimisväärsed puudused: nad on generate palju vägivald
 
 
 
-![video](https://www.youtube.com/watch?v=0q_m3KIoq-U)
 
 
 
@@ -684,7 +674,6 @@ See järelemõtlemine viib olulisele järeldusele: tänased olud on materiaalsel
 
 
 
-![video](https://www.youtube.com/watch?v=aEoerhy6ERU)
 
 
 
@@ -745,7 +734,6 @@ Kui need eeldused on kindlaks tehtud, on nüüd võimalik uurida vabadusega seot
 
 
 
-![video](https://www.youtube.com/watch?v=xcaV6Kb21O0)
 
 
 
@@ -801,7 +789,6 @@ Sellest analüüsist tuleneb põhiline järeldus: suurenev kaubandus riigi subje
 
 
 
-![video](https://www.youtube.com/watch?v=qrE5GJWNwGE)
 
 
 
@@ -860,7 +847,6 @@ Majandusvabaduse otsustav eelis on see, et tootmine ei ole kunagi liiga vara ega
 
 
 
-![video](https://www.youtube.com/watch?v=tfH8FapqqsE)
 
 
 
@@ -920,7 +906,6 @@ Vabas ühiskonnas viib omakasupüüdlikkus innovatsiooni ja progressi. Vabadusev
 
 
 
-![video](https://www.youtube.com/watch?v=hS1_Nkd_H9M)
 
 
 
@@ -976,7 +961,6 @@ Tuleb tunnistada, et varem olid konfliktide mõjud mitte sõdivatele ühiskondad
 
 
 
-![video](https://www.youtube.com/watch?v=DzE_iGRP5Z0)
 
 
 
@@ -1035,7 +1019,6 @@ Vabadustevastaseid süsteeme iseloomustab just ebavõrdsus: mõned isikud saavad
 
 
 
-![video](https://www.youtube.com/watch?v=LDMCs9wCTQc)
 
 
 
@@ -1095,7 +1078,6 @@ Seevastu poliitilisel võimul põhinevad suhted toimivad kärbitud viisil. Valim
 
 
 
-![video](https://www.youtube.com/watch?v=mfvPE1fO3-E)
 
 
 
@@ -1167,7 +1149,6 @@ Vabadusõpetus vastandab sellele loogikale individuaalse ja kollektiivse lahkul�
 
 
 
-![video](https://www.youtube.com/watch?v=VT3w2BjiD8E)
 
 
 
@@ -1227,7 +1208,6 @@ Need autorid määratlesid tööjõu protektsionismi kui tulevase domineeriva pr
 
 
 
-![video](https://www.youtube.com/watch?v=MRcLZ1SpAo8)
 
 
 
@@ -1297,7 +1277,6 @@ See intellektuaalne ja faktiline ajalugu vabadusetuse ebaõnnestumisest on põhi
 
 
 
-![video](https://www.youtube.com/watch?v=asOEZJRQuOw)
 
 
 
@@ -1341,7 +1320,6 @@ Oluline erinevus on negatiivse ja positiivse vabaduse vahel. Negatiivne vabadus 
 
 
 
-![video](https://www.youtube.com/watch?v=mkzE0SfSl1Q)
 
 
 
@@ -1396,7 +1374,6 @@ Nende ohtudega silmitsi seistes arendas liberaalne mõtlemine, eelkõige Benjami
 
 
 
-![video](https://www.youtube.com/watch?v=K1e39vtOoCc)
 
 
 
@@ -1456,7 +1433,6 @@ Majanduslikud eksimused on aga ainult üks kategooria paljude seas. Erilist täh
 
 
 
-![video](https://www.youtube.com/watch?v=zJhhcxwXpRI)
 
 
 
@@ -1515,7 +1491,6 @@ Sellegipoolest on liberaalsetel kirjanikel tugev tundlikkus vaesuse ja nõrkade 
 
 
 
-![video](https://www.youtube.com/watch?v=GtxJlUa_H08)
 
 
 
@@ -1582,7 +1557,6 @@ See analüüs võimaldab meil mõista ka seda, kuidas vabadusteta süsteemid õ�
 
 
 
-![video](https://www.youtube.com/watch?v=ary4UJhwRl8)
 
 
 
@@ -1646,7 +1620,6 @@ Courcelle-Seneuil lihtsalt kinnitas Prantsuse revolutsiooni ideid töö- ja oman
 
 
 
-![video](https://www.youtube.com/watch?v=c8Wi5jkSEu8)
 
 
 
@@ -1707,7 +1680,6 @@ Praegune tegelikkus näitab paradoksaalset ja kurblikku olukorda. Haridus- ja te
 
 
 
-![video](https://www.youtube.com/watch?v=cEzFGSnYfnk)
 
 
 
@@ -1771,7 +1743,6 @@ Molinari ja enamik tema aja Prantsuse liberaalidest suhtusid sisserändesse posi
 
 
 
-![video](https://www.youtube.com/watch?v=b8PojgZ0TQo)
 
 
 
@@ -1831,7 +1802,6 @@ Sellist rahvusvahelise õiguse seisundit, mis tunnustaks tegevusvabadust ja kari
 
 
 
-![video](https://www.youtube.com/watch?v=OfqTuJvo3MQ)
 
 
 

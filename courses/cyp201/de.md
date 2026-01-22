@@ -209,7 +209,7 @@ Du kennst nun die wesentlichen Grundlagen über Hashfunktionen für das Folgende
 
 :::video id=2e4a42df-4b49-47ff-b6bc-9bcaa53bc82f:::
 
-Wir haben zuvor gesehen, dass Hashing-Funktionen wichtige Eigenschaften besitzen, die ihren Einsatz bei Bitcoin rechtfertigen. Lassen du uns nun die internen Mechanismen dieser Hashing-Funktionen untersuchen, die ihnen diese Eigenschaften verleihen, und dazu schlage ich vor, die Funktionsweise von SHA256 zu analysieren.
+Wir haben zuvor gesehen, dass Hashfunktionen wichtige Eigenschaften besitzen, die ihren Einsatz bei Bitcoin rechtfertigen. Lass uns nun die internen Mechanismen dieser Hashfunktionen untersuchen, die ihnen diese Eigenschaften verleihen, und dazu schlage ich vor, die Funktionsweise von SHA256 zu analysieren.
 
 Die Funktionen SHA256 und SHA512 gehören zur gleichen SHA2-Familie. Ihr Mechanismus basiert auf einer spezifischen Konstruktion, der **Merkle-Damgård-Konstruktion**. RIPEMD160 verwendet ebenfalls diesen Typ von Konstruktion.
 
@@ -224,7 +224,7 @@ $$
 L \equiv 448 \mod 512
 $$
 
-$\text{mod}$, für modulo, ist eine mathematische Operation, die zwischen zwei Ganzzahlen den Rest der euklidischen Division des Ersten durch den Zweiten zurückgibt. Zum Beispiel: $16 \mod 5 = 1$. Es ist eine Operation, die in der Kryptographie weit verbreitet ist.
+$\text{mod}$, für modulo, ist eine mathematische Operation, die zwischen zwei ganzen Zahlen den Rest der euklidischen Division des Ersten durch den Zweiten zurückgibt. Zum Beispiel: $16 \mod 5 = 1$. Es ist eine Operation, die in der Kryptographie weit verbreitet ist.
 
 Hier stellt der Padding-Schritt sicher, dass nach dem Hinzufügen der 64 Bits im nächsten Schritt die Gesamtlänge der angeglichenen Nachricht ein Vielfaches von 512 Bits sein wird. Wenn die ursprüngliche Nachricht eine Länge von $M$ Bits hat, ist die Anzahl ($N$) der hinzuzufügenden `0` Bits also:
 
@@ -312,7 +312,7 @@ $$
 
 ### Aufteilung der Eingabe
 
-Nachdem wir nun eine ausgeglichene Eingabe haben, werden wir nun zur Hauptverarbeitungsphase des SHA256-Algorithmus übergehen: die Kompressionsfunktion. Dieser Schritt ist sehr wichtig, da er hauptsächlich die kryptografischen Eigenschaften der Hashfunktion verleiht, die wir im vorherigen Kapitel untersucht haben.
+Nachdem wir nun eine ausgeglichene Eingabe haben, werden wir nun zur Hauptverarbeitungsphase des SHA256-Algorithmus übergehen: die Kompressionsfunktion. Dieser Schritt ist sehr wichtig, da er der Hashfunktion hauptsächlich die kryptografischen Eigenschaften verleiht, die wir im vorherigen Kapitel untersucht haben.
 
 Zuerst beginnen wir damit, unsere ausgeglichene Nachricht (Ergebnis der Vorverarbeitungsschritte) in mehrere Blöcke $P$ von jeweils 512 Bits aufzuteilen. Wenn unsere ausgeglichene Nachricht eine Gesamtgröße von $n \times 512$ Bits hat, werden wir daher $n$ Blöcke haben, jeder davon mit 512 Bits. Jeder 512-Bit-Block wird einzeln von der Kompressionsfunktion verarbeitet, die aus 64 Runden aufeinanderfolgender Operationen besteht. Nennen wir diese Blöcke $P_1$, $P_2$, $P_3$...
 
@@ -393,7 +393,7 @@ ShR_4(101100001) = 000010110
 
 $$
 
-Schematisch könnte die Rechtsverschiebung so aussehen:
+Schematisch kann die Rechtsverschiebung so gesehen werden:
 
 ![CYP201](assets/en/012.webp)
 
@@ -407,7 +407,7 @@ RotR_4(101100001) = 000110110
 
 $$
 
-Schematisch könnte die rechte zirkuläre Verschiebung so aussehen:
+Schematisch kann die rechte zirkuläre Verschiebung so gesehen werden:
 
 ![CYP201](assets/en/013.webp)
 
@@ -423,7 +423,6 @@ Im vorherigen Schritt haben wir unsere Eingabe in mehrere 512-Bit-Teile $P$ unte
 Die ersten 16 Wörter, $W_0$ bis $W_{15}$, werden direkt aus dem verarbeiteten 512-Bit-Block $P$ extrahiert. Jedes Wort $W_i$ besteht aus 32 aufeinanderfolgenden Bits des Blocks. So nehmen wir zum Beispiel unser erstes Stück Eingabe $P_1$ und teilen es weiter in kleinere 32-Bit-Stücke auf, die wir Wörter nennen.
 Die nächsten 48 Wörter ($W_{16}$ bis $W_{63}$) werden mit der folgenden Formel generiert:
 
-
 $$
 
 W_i = W_{i-16} + \sigma_0(W_{i-15}) + W_{i-7} + \sigma_1(W_{i-2}) \mod 2^{32}
@@ -434,7 +433,7 @@ Mit:
 - $\sigma_0(x) = RotR_7(x) \oplus RotR_{18}(x) \oplus ShR_3(x)$
 - $\sigma_1(x) = RotR_{17}(x) \oplus RotR_{19}(x) \oplus ShR_{10}(x)$
 
-In diesem Fall entspricht $x$ $W_{i-15}$ für $\sigma_0(x)$ und $W_{i-2}$ für $\sigma_1(x)$.
+In diesem Fall ist $x$ entsprechend $W_{i-15}$ für $\sigma_0(x)$ und $W_{i-2}$ für $\sigma_1(x)$.
 
 Sobald wir alle Wörter $W_i$ für unser 512-Bit-Stück bestimmt haben, können wir zur Kompressionsfunktion übergehen, die aus 64 Runden besteht.
 
@@ -461,7 +460,7 @@ $$
 
 $$
 
-- **Funktion $Ch$ ("*Wählen*"):**
+- **Funktion $Ch$ ("*Choose*"):**
 
 
 $$
@@ -470,7 +469,7 @@ Ch(E, F, G) = (E \land F) \oplus (\lnot E \land G)
 
 $$
 
-- **Funktion $Maj$ ("*Mehrheit*"):**
+- **Funktion $Maj$ ("*Majority*"):**
 
 
 $$
@@ -547,7 +546,7 @@ $$
 \text{Hash} = A \Vert B \Vert C \Vert D \Vert E \Vert F \Vert G \Vert H
 $$
 
-Jede Variable ist ein 32-Bit-Integer, daher ergibt ihre Verkettung immer ein 256-Bit-Ergebnis, unabhängig von der Größe unserer Nachrichteneingabe in die Hashing-Funktion.
+Jede Variable ist ein 32-Bit-Integer, daher ergibt ihre Verkettung immer ein 256-Bit-Ergebnis, unabhängig von der Größe unserer Nachrichteneingabe in die Hashfunktion.
 
 ### Begründung der kryptografischen Eigenschaften
 
@@ -555,7 +554,7 @@ Aber wie ist diese Funktion irreversibel, kollisionsresistent und manipulationss
 
 Die Manipulationssicherheit ist recht einfach zu verstehen. Es werden so viele Berechnungen in Kaskade durchgeführt, die sowohl von der Eingabe als auch von den Konstanten abhängen, dass die geringste Modifikation der Anfangsnachricht den genommenen Pfad vollständig ändert und somit den Ausgabe-Hash komplett verändert. Dies wird als Lawineneffekt bezeichnet. Diese Eigenschaft wird teilweise durch das Mischen der Zwischenzustände mit den Anfangszuständen für jedes Stück sichergestellt.
 
-Als Nächstes, wenn wir über eine kryptographische Hashfunktion sprechen, wird der Begriff "Irreversibilität" normalerweise nicht verwendet. Stattdessen sprechen wir über "Preimage-Resistenz", was spezifiziert, dass es für ein gegebenes $y$ schwierig ist, ein $x$ zu finden, so dass $h(x) = y$. Diese Preimage-Resistenz wird durch die algebraische Komplexität und die starke Nichtlinearität der Operationen, die in der Kompressionsfunktion durchgeführt werden, sowie durch den Verlust bestimmter Informationen im Prozess garantiert. Zum Beispiel gibt es für ein gegebenes Ergebnis einer Addition modulo mehrere mögliche Operanden:
+Als Nächstes, wenn wir über eine kryptographische Hashfunktion sprechen, wird der Begriff "Irreversibilität" normalerweise nicht verwendet. Stattdessen sprechen wir über "Urbildresistenz", was spezifiziert, dass es für ein gegebenes $y$ schwierig ist, ein $x$ zu finden, so dass $h(x) = y$. Diese Urbildresistenz wird durch die algebraische Komplexität und die starke Nichtlinearität der Operationen, die in der Kompressionsfunktion durchgeführt werden, sowie durch den Verlust bestimmter Informationen im Prozess garantiert. Zum Beispiel gibt es für ein gegebenes Ergebnis einer Addition modulo mehrere mögliche Operanden:
 
 $$
 3+2 \mod 10 = 5 \\
@@ -565,16 +564,16 @@ $$
 
 In diesem Beispiel kann man, wenn nur das verwendete Modulo (10) und das Ergebnis (5) bekannt sind, nicht mit Sicherheit bestimmen, welche die korrekten Operanden bei der Addition waren. Es wird gesagt, dass es mehrere Kongruenzen modulo 10 gibt.
 
-Beim XOR-Betrieb stehen wir vor demselben Problem. Erinnern wir uns an die Wahrheitstabelle für diese Operation: Jedes 1-Bit-Ergebnis kann durch zwei verschiedene Eingangskonfigurationen bestimmt werden, die genau die gleiche Wahrscheinlichkeit haben, die richtigen Werte zu sein. Daher kann man die Operanden eines XOR nicht mit Sicherheit bestimmen, wenn nur sein Ergebnis bekannt ist. Wenn wir die Größe der XOR-Operanden erhöhen, steigt die Anzahl der möglichen Eingaben, die nur das Ergebnis kennen, exponentiell. Darüber hinaus wird XOR oft zusammen mit anderen bitweisen Operationen verwendet, wie der $\text{RotR}$-Operation, die noch mehr mögliche Interpretationen zum Ergebnis hinzufügen.
+Bei der XOR-Operation stehen wir vor demselben Problem. Erinnern wir uns an die Wahrheitstabelle für diese Operation: Jedes 1-Bit-Ergebnis kann durch zwei verschiedene Eingangskonfigurationen bestimmt werden, die genau die gleiche Wahrscheinlichkeit haben, die richtigen Werte zu sein. Daher kann man die Operanden eines XOR nicht mit Sicherheit bestimmen, wenn nur sein Ergebnis bekannt ist. Wenn wir die Größe der XOR-Operanden erhöhen, steigt die Anzahl der möglichen Eingaben, die nur das Ergebnis kennen, exponentiell. Darüber hinaus wird XOR oft zusammen mit anderen bitweisen Operationen verwendet, wie der $\text{RotR}$-Operation, die noch mehr mögliche Interpretationen zum Ergebnis hinzufügen.
 
-Die Kompressionsfunktion verwendet auch die $\text{ShR}$-Operation. Diese Operation entfernt einen Teil der grundlegenden Informationen, die später unmöglich wiederhergestellt werden können. Auch hier gibt es kein algebraisches Mittel, um diese Operation umzukehren. Alle diese Einweg- und Informationsverlustoperationen werden sehr häufig in Kompressionsfunktionen verwendet. Die Anzahl der möglichen Eingaben für ein gegebenes Ausgabe ist somit fast unendlich, und jeder Versuch einer Rückberechnung würde zu Gleichungen mit einer sehr hohen Anzahl von Unbekannten führen, die bei jedem Schritt exponentiell ansteigen würden.
+Die Kompressionsfunktion verwendet auch die $\text{ShR}$-Operation. Diese Operation entfernt einen Teil der grundlegenden Informationen, die später unmöglich wiederhergestellt werden können. Auch hier gibt es kein algebraisches Mittel, um diese Operation umzukehren. Alle diese Einweg- und Informationsverlustoperationen werden sehr häufig in Kompressionsfunktionen verwendet. Die Anzahl der möglichen Eingaben für eine gegebene Ausgabe ist somit fast unendlich, und jeder Versuch einer Rückberechnung würde zu Gleichungen mit einer sehr hohen Anzahl von Unbekannten führen, die bei jedem Schritt exponentiell ansteigen würden.
 
-Schließlich, für das Merkmal der Kollisionsresistenz, kommen mehrere Parameter ins Spiel. Die Vorverarbeitung der ursprünglichen Nachricht spielt eine wesentliche Rolle. Ohne diese Vorverarbeitung könnte es einfacher sein, Kollisionen in der Funktion zu finden. Obwohl theoretisch Kollisionen existieren (aufgrund des Schubfachprinzips), macht die Struktur der Hashfunktion, kombiniert mit den zuvor genannten Eigenschaften, die Wahrscheinlichkeit, eine Kollision zu finden, extrem niedrig.
+Schließlich spielen bei der Eigenschaft der Kollisionsresistenz mehrere Parameter eine Rolle. Die Vorverarbeitung der ursprünglichen Nachricht spielt eine wesentliche Rolle. Ohne diese Vorverarbeitung könnte es einfacher sein, Kollisionen in der Funktion zu finden. Obwohl theoretisch Kollisionen existieren (aufgrund des Schubfachprinzips), macht die Struktur der Hashfunktion, kombiniert mit den zuvor genannten Eigenschaften, die Wahrscheinlichkeit, eine Kollision zu finden, extrem niedrig.
 
 Damit eine Hashfunktion kollisionsresistent ist, ist es wesentlich, dass:
 - Das Ergebnis unvorhersehbar ist: Jede Vorhersehbarkeit kann ausgenutzt werden, um Kollisionen schneller als mit einem Brute-Force-Angriff zu finden. Die Funktion stellt sicher, dass jedes Bit des Ausgangs auf eine nicht-triviale Weise vom Eingang abhängt. Mit anderen Worten, die Funktion ist so konzipiert, dass jedes Bit des Endergebnisses eine unabhängige Wahrscheinlichkeit hat, 0 oder 1 zu sein, auch wenn diese Unabhängigkeit in der Praxis nicht absolut ist.
 - Die Verteilung der Hashes ist pseudo-zufällig: Dies stellt sicher, dass die Hashes gleichmäßig verteilt sind.
-- Die Größe des Hashs ist erheblich: je größer der mögliche Raum für Ergebnisse, desto schwieriger ist es, eine Kollision zu finden.
+- Die Größe des Hashs ist maßgeblich: je größer der mögliche Raum für Ergebnisse, desto schwieriger ist es, eine Kollision zu finden.
 
 Kryptographen entwerfen diese Funktionen, indem sie die bestmöglichen Angriffe zur Findung von Kollisionen bewerten und dann die Parameter anpassen, um diese Angriffe unwirksam zu machen.
 
@@ -594,7 +593,7 @@ $$
 $$
 
 Dies erhöht die Sicherheit gegen potenzielle Angriffe, die mit der Merkle-Damgård-Konstruktion zusammenhängen, erhöht jedoch nicht die Sicherheit des Hashing-Prozesses in Bezug auf Kollisionsresistenz. Darüber hinaus hätte selbst wenn SHA256 für diesen Typ von Angriff anfällig gewesen wäre, dies keinen ernsthaften Einfluss gehabt, da alle Anwendungsfälle von Hashfunktionen in Bitcoin öffentliche Daten betreffen. Der Length-Extension-Angriff könnte jedoch nur für einen Angreifer nützlich sein, wenn die gehashten Daten privat sind und der Benutzer die Hashfunktion als Authentifizierungsmechanismus für diese Daten verwendet hat, ähnlich einem MAC. Daher bleibt die Implementierung des doppelten Hashings ein Geheimnis im Design von Bitcoin.
-Jetzt, da wir uns im Detail mit der Funktionsweise von Hashfunktionen, insbesondere SHA256, das in Bitcoin umfangreich verwendet wird, beschäftigt haben, werden wir uns spezifischer auf die kryptografischen Ableitungsalgorithmen konzentrieren, die auf Anwendungsebene verwendet werden, insbesondere für die Ableitung der Schlüssel für deine Wallet.
+Jetzt, da wir uns im Detail mit der Funktionsweise von Hashfunktionen, insbesondere SHA256, welhe in Bitcoin umfangreich verwendet wird, beschäftigt haben, werden wir uns spezifischer auf die kryptografischen Ableitungsalgorithmen konzentrieren, die auf Anwendungsebene verwendet werden, insbesondere für die Ableitung der Schlüssel für deine Wallet.
 
 ## Die für die Ableitung verwendeten Algorithmen
 <chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>

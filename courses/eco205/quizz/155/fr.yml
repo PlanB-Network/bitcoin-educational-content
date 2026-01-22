@@ -1,0 +1,8 @@
+question: Selon l'école autrichienne, quelle est la conséquence directe de l'absence de propriété privée des moyens de production sur l'organisation productive?
+answer: L'impossibilité de valoriser les biens intermédiaires par l'échange volontaire, rendant l'organisation du système productif aveugle
+wrong_answers:
+  - "La création automatique d'un équilibre statique permettant aux planificateurs de calculer les besoins optimaux"
+  - "L'émergence spontanée d'un système de troc efficace remplaçant les mécanismes de prix monétaires"
+  - "La concentration de toute l'information économique nécessaire entre les mains des comités de planification centralisée"
+explanation: |
+  L'école autrichienne démontre que sans propriété privée, il n'y a pas d'échange libre, donc pas de prix véritables pour les biens intermédiaires. L'entrepreneur ne peut plus transcrire sa valorisation subjective sous forme de prix, rendant impossible l'organisation rationnelle de la production. Les autres options sont incorrectes car l'équilibre statique reste purement théorique, le troc ne résout pas le problème informationnel, et les planificateurs ne peuvent centraliser une information en constante évolution.

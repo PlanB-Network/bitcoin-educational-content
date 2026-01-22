@@ -1,0 +1,8 @@
+question: Selon Friedrich Hayek, que se passe-t-il lorsque l'État manipule artificiellement les prix sur le marché ?
+answer: Il perturbe le réseau de communication et envoie de faux signaux, causant une mauvaise allocation du capital
+wrong_answers:
+  - "Il améliore la coordination des agents économiques en centralisant l'information dispersée"
+  - "Il stabilise les fluctuations du marché en réduisant l'incertitude liée à l'information imparfaite"
+  - "Il optimise l'allocation des ressources en corrigeant les défaillances du système de prix naturel"
+explanation: |
+  Pour Hayek, l'intervention étatique sur les prix détruit le mécanisme naturel de transmission d'information. Le système de prix libre agrège spontanément l'information dispersée et coordonne les actions individuelles. Quand l'État manipule les prix, il brise ce réseau de communication, envoyant des signaux erronés qui poussent les acteurs à prendre de mauvaises décisions d'investissement et à mal allouer les ressources rares.

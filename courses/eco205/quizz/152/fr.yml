@@ -1,0 +1,8 @@
+question: Selon la théorie autrichienne des cycles économiques, que révèle l'analyse de la Grande Dépression concernant la relation entre l'expansion monétaire et le krach boursier d'octobre 1929?
+answer: Le krach d'octobre 1929 était le symptôme de la fin du boom artificiel créé par l'expansion monétaire de 61% entre 1921 et 1929, non la cause de la crise
+wrong_answers:
+  - "Le krach d'octobre 1929 était la cause directe de la crise qui a ensuite provoqué l'expansion monétaire comme mesure de relance économique"
+  - "L'expansion monétaire de 61% était une réponse appropriée au krach d'octobre 1929 pour stabiliser les marchés financiers et éviter la déflation"
+  - "Le krach d'octobre 1929 s'est produit indépendamment de l'expansion monétaire et résultait uniquement de la spéculation excessive des investisseurs"
+explanation: |
+  La théorie autrichienne inverse la causalité traditionnelle : le krach n'est pas la cause mais la conséquence inévitable du boom artificiel. L'expansion monétaire de 61% par la Réserve fédérale entre 1921 et 1929 a créé une structure de production insoutenable en faussant les signaux de prix. Le krach représente l'effondrement nécessaire de cette structure artificielle, marquant la fin du cycle plutôt que son début.

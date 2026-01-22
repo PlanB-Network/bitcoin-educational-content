@@ -1,6 +1,6 @@
 ---
 name: System Programming Fundamentals
-goal: Build a solid mental model of how computers work at the binary, hardware, kernel, and userland levels to reason about crashes, performance issues, and system behavior.
+goal: Build a solid mental model of how computers work at the differents levels to reason about crashes, performance issues, and system behavior.
 objectives:
   - Understand binary representation, encoding, and bitwise operations
   - Learn how CPUs, memory hierarchies, and GPUs function at a practical level
@@ -8,21 +8,45 @@ objectives:
   - Master userland concepts like file descriptors, permissions, IPC, and shell utilities
 ---
 
-# Understand how computers really work
+# Understand what's happening under the hood
 
-Welcome to this course on System Programming.
+Most programming courses treat the operating system, memory, and hardware as "someone else's problem". This course takes you into those layers, using Linux as a clear reference point to explore ideas that apply across all systems.
 
-This course is about getting comfortable with the parts of a computer that most programming courses treat as "someone else's problem". When people say "system programming", they usually refer to layers of software that stays close to the operating system and the machine. It's the area where details matter.
+This course is designed for developers who want to understand how computers actually work at a practical level, whether you're debugging crashes, investigating performance issues, or simply curious about what happens beneath your code.
 
-We'll use Linux as our main reference point, because by being open source it exposes these layers in a relatively direct way, and because a lot of the concepts and terminology in system programming are easiest to explain with a concrete operating system in mind. The goal isn't to turn you into a Linux administrator, and it isn't to teach "Linux tricks"; it's to use Linux as a clear example of ideas that also show up elsewhere.
-
-This is a theory-focused course. You won't be asked to build projects, or set up a complicated development environment. Instead, the course aims to give you a mental model you can use: when you later see a crash, a weird performance problem, a permissions issue, or a confusing file format, you'll have a way to reason about what could be happening and what questions to ask next.
-
-By the end of the course, you should understand how data is represented in binary, how hardware executes instructions, how the kernel manages resources, and how userland programs interact with the system.
+By the end of the course, you should have a solid mental model of binary representation, CPU and memory behavior, kernel internals, and userland concepts, giving you the tools to reason about system behavior instead of treating it as magic.
 
 +++
+
+# Introduction 
+
+## Course overview 
+
+This course is about getting comfortable with the parts of a computer that most programmers courses treat as "someone else’s problem". When people say "system programming", they usually refer to layers of software that stays close to the operating system and the machine. It’s the area where details matter.
+
+We’ll use Linux as our main reference point, because by being open source it exposes these layers in a relatively direct way, and because a lot of the concepts and terminology in system programming are easiest to explain with a concrete operating system in mind. The goal isn’t to turn you into a Linux administrator, and it isn’t to teach "Linux tricks"; it’s to use Linux as a clear example of ideas that also show up elsewhere.
+
+We’ll move through four broad layers:
+
+- binary (how information is represented and manipulated as bits and bytes)
+- hardware (the practical model of how CPUs and memory behave)
+- kernel (the privileged core that controls resources and exposes system calls)
+- userland (the programs, libraries, shells, and conventions that make a Linux system feel usable) 
+
+You don’t need to be an expert in any of these to start; the course is structured so that each layer makes the next one less mysterious.
+
+This is a theory-focused course. You won’t be asked to build projects, or set up a complicated development environment. Instead, the course aims to give you a mental model you can use: when you later see a crash, a weird performance problem, a permissions issue, or a confusing file format, you’ll have a way to reason about what could be happening and what questions to ask next. To make that possible, the explanations will spend time on definitions, on how conventions formed, and on the tradeoffs that led to the systems we use today.
+
+This is a beginner course, but it is not a "no friction" course. Some parts will feel slower than typical programming material, because we’ll be careful about foundations. The payoff is that later topics that often feel like "magic" (where memory goes, what a file really is, why permissions matter, why performance changes) will start to feel like something logical rather than superstitious.
+
+If you take it one section at a time, you’ll be surprised how quickly the "mysterious parts" of a computer begin to feel familiar. So open the next section, follow the thread, and give yourself permission to be confused sometimes: let's start!
+
 # Binary level
 <partId>b619d518-8ae9-468d-a23f-886250977462</partId>
+
+
+## Basics
+<chapterId>338f0a6e-f28d-4c09-8ea7-82a5d1a707ad</chapterId>
 
 Modern software has an incredible variety of use cases. 
 
@@ -38,9 +62,6 @@ At the lowest level, basically all modern software relies on a single universal 
 
 ![](assets/en/2.png)
 
-## Basics
-<chapterId>338f0a6e-f28d-4c09-8ea7-82a5d1a707ad</chapterId>
-
 The smallest unit of binary code is the binary digit, aka **bit**. 
 
 The goal of this unit is to hold **state**, to indicate one of multiple possibilities.
@@ -53,7 +74,7 @@ yes = 1
 no = 0
 ```
 
-but that's not very useful. So we tend to group bits into bigger blocks, like **bytes**. There has been a lot of debate about how many bits a byte should contain, but modern tech has converged on it containing 8 bits.
+But that's not very useful. So we tend to group bits into bigger blocks, like **bytes**. There has been a lot of debate about how many bits a byte should contain, but modern tech has converged on it containing 8 bits.
 
 Basically everything in your computer (text files, pictures, videos, executables, etc) is stored as binary code, as sequences of bytes.
 
@@ -148,9 +169,9 @@ The number `5` would be represented as 4+1:
 |------	|-----	|-----	|-----	|----	|----	|----	|----	|-------	|
 | *128 	| *64 	| *32 	| *16 	| *8 	| *4 	| *2 	| *1 	| 100   	|
 
-With this system, the biggest number we can represent by switching all bits on a single byte (`11111111`) is 255. For bigger numbers, we would need to use more than one byte. Common sizes for numbers are 2 bytes (16 bits), 4 bytes (32 bits), and 8 bytes (64 bits). Each bit we add can hold twice the value of the previous one. 64 bits are enough to store the number 18446744073709551615!
+With this system, the biggest number we can represent by switching all bits on a single byte (`11111111`) is 255. For bigger numbers, we would need to use more than one byte. Common sizes for numbers are 2 bytes (16 bits), 4 bytes (32 bits), and 8 bytes (64 bits). Each bit we add can hold twice the value of the previous one. 64 bits are enough to store the number 18 446 744 073 709 551 615!
 
-In most cases, the bytes are ordered the same way the bits are, with the "most significant" one (the biggest) coming first, and the "least significant" (the smallest) coming last. This is called `little endianness`. 
+In most cases, the bytes are ordered the same way the bits are, with the "most significant" one (the biggest) coming first, and the "least significant" (the smallest) coming last. This is called `big endianness`. 
 
 Certain specific software systems though (like the TCP/IP internet protocols, the jpeg format,  or the Java bytecode) have `big endianness`, with the most significant byte coming last.
 
@@ -259,9 +280,9 @@ So that if we wanted to represent the value 5.75, we would encode it as
 ```
 (1 * 4) + (1 * 1) + (1 * 1/2) + (1 * 1/4) =
 (4)     + (1)    +  (0.5)     + (0.25) = 
-4.75
+5.75
 ```
-`01011100` = `4.75`
+`01011100` = `5.75`
 
 The decimal point would therefore be situated after the first 4 bits, you could think of `01011100` like it was `0101.1100`
 
@@ -281,11 +302,11 @@ But if we flip the last bit to get to a slightly bigger number, we get
 
 For this and other reasons, the technique that is most commonly used for encoding real numbers on modern computers is a different one. We use **floating point** numbers.
 
-Are you familiar with *scientific notation*  for numbers? It's a way to express very big or very small numbers in a concise way, as simpler number multiplied by a power of 10. For example, the number 12100000000 could be written as
+Are you familiar with *scientific notation*  for numbers? It's a way to express very big or very small numbers in a concise way, as simpler number multiplied by a power of 10. For example, the number 12 100 000 000 could be written as
 
 `1.21 × 10¹⁰` (or simply `1.21e10` to avoid having to type special characters)
 
-and the number 0.00000014203 could be written as
+and the number 0.000 000 142 03 could be written as
 
 `1.4203 × 10⁻⁷` (or `1.4203e-7`)
 
@@ -298,9 +319,10 @@ The first number in these expressions is called **mantissa** and the second one 
 
 Floating point numbers work in a similar way. 
 
-Single-precision floating point numbers (sometimes called simply **floats**, or **f32**) are stored in 32 bits of memory and dedicate one bit to the sign, 8 bits to the exponent, and 23 bits to the mantissa.
+Single-precision floating point numbers (sometimes called simply **floats**, or **f32**) are stored in 32 bits of memory and dedicate 1 bit to the sign, 8 bits to the exponent, and 23 bits to the mantissa.
 
-Double-precision floating point numbers (also called **double** or **f64**) are stored in 32 bits of memory and dedicate one bit to the sign, 11 bits to the exponent, and 52 bits to the mantissa.
+
+Double-precision floating point numbers (also called **double** or **f64**) are stored in 32 bits of memory and dedicate 1 bit to the sign, 11 bits to the exponent, and 52 bits to the mantissa.
 
 These formats allow us to encode a giant range of numbers, but it's important to remember that we're still trying to simulate something infinite (the range of real numbers, of which there's an infinite amount between each adjacent pair of integers) using a finite resource (a measly 4 byte or 8 byte binary string). That's why floating point numbers can behave in counter-intuitive ways.
 
@@ -867,6 +889,10 @@ As you can imagine, in a modern game these shaders are supposed to operate on a 
 # Kernel level
 <partId>e6c7100a-b5f3-409f-b745-fafe7000b241</partId>
 
+
+## Basic input output system (BIOS) and boot process
+<chapterId>b7bdbcea-06cf-4e09-ab78-d45cf0b49bce</chapterId>
+
 Modern software can operate on two levels: kernel level or user level. 
 
 Most of the applications you use exist in user level, and can only access the hardware by making requests to kernel-level software.
@@ -876,10 +902,6 @@ Kernel-level software has direct control over the hardware, which makes it more 
 ![](assets/en/19.png)
 
 In this section we're gonna explore how the kernel works and how it interacts with other components. 
-
-## Basic input output system (BIOS) and boot process
-<chapterId>b7bdbcea-06cf-4e09-ab78-d45cf0b49bce</chapterId>
-
 Booting a Linux system is a chain of small programs handing control to the next one, each preparing the machine a bit more until you end up in a full multi-user environment.
 
 When you press the power button, the first code that runs is the firmware on the motherboard. On older machines this is usually the **BIOS** (Basic Input/Output System); on newer ones it is often **UEFI** firmware (Unified Extensible Firmware Interface).
@@ -1209,7 +1231,7 @@ When a process starts, it is given two sets of strings.
 
 Arguments are the command line words you typed after the program name. They describe what this particular run should do (for example: which file to open).
 
-Environment variables are part of the per-process "environment": a set of key/value strings that the OS attaches to a process when it starts. They are one of the main ways the shell passes context into every program you run: where to search for executables (PATH), what your home directory is (HOME), which locale to use (LANG/LC_*), what terminal you’re on (TERM), and a lot of desktop/session plumbing (DISPLAY, XDG_*). They are inherited by default: a process starts with a copy of its parent’s environment, and can add, remove, or change variables for its children.
+Environment variables are part of the per-process "environment": a set of key/value strings that the OS attaches to a process when it starts. They are one of the main ways the shell passes context into every program you run: where to search for executables (`PATH`), what your home directory is (`HOME`), which locale to use (`LANG/LC_*`), what terminal you’re on (`TERM`), and a lot of desktop/session plumbing (`DISPLAY`, `XDG_*`). They are inherited by default: a process starts with a copy of its parent’s environment, and can add, remove, or change variables for its children.
 
 ## Memory safety and management
 <chapterId>89188319-856b-4635-9c6b-ff550f2710b6</chapterId>
@@ -1248,12 +1270,13 @@ A lot of performance problems and bugs come from making many small allocations o
 # User level
 <partId>39c62001-e181-40b6-accd-bdb784fad162</partId>
 
-Unix started in the early 1970s at Bell Labs, built by a small group of developers working on comparatively weak machines by today's standards. Memory and storage were scarce, and the system had to be simple enough that a small team could understand and maintain it. Instead of trying to design a huge operating system that solved every problem in one place, they focused on a small kernel and a collection of reusable programs that ran on top of it. Most interaction with the system happened through a text-based shell, where users typed commands and combined programs at the command line.
-
-From that context came the basic Unix philosophy in userland: write small programs that each do one job well, make them read input and write output in simple formats (often plain text), and design them so they can be connected together. The shell and the process model make it easy to chain programs with pipes, redirect input and output, and treat files, devices and some communication channels in similar ways. Once you understand how programs use these generic abstractions, it becomes easier to reason about Unix systems as a whole, because higher-level behavior is mostly built by composing these pieces.
 
 ## "Everything is a file"
 <chapterId>b6744ba7-c256-47e9-9a66-b906c614fc27</chapterId>
+
+Unix started in the early 1970s at Bell Labs, built by a small group of developers working on comparatively weak machines by today's standards. Memory and storage were scarce, and the system had to be simple enough that a small team could understand and maintain it. Instead of trying to design a huge operating system that solved every problem in one place, they focused on a small kernel and a collection of reusable programs that ran on top of it. Most interaction with the system happened through a text-based shell, where users typed commands and combined programs at the command line.
+
+From that context came the basic Unix philosophy in userland: write small programs that each do one job well, make them read input and write output in simple formats (often plain text), and design them so they can be connected together. The shell and the process model make it easy to chain programs with pipes, redirect input and output, and treat files, devices and some communication channels in similar ways. Once you understand how programs use these generic abstractions, it becomes easier to reason about Unix systems as a whole, because higher-level behavior is mostly built by composing these pieces.
 
 Unix kernels try to expose as many resources as possible through a single abstraction: the **file**. This is not just about documents or images stored on disk. The same interface is used for directories, hardware devices, communication channels between programs and even some views into the kernel itself. This idea is often summarized as "everything is a file", and it is one of the main reasons Unix systems feel simple and consistent even though the underlying hardware and software are very diverse.
 
@@ -1453,20 +1476,20 @@ You can also redirect these data flows outside the terminal. Instead of sending 
 
 The Unix **core utils** are the small everyday programs that make this style practical. Different systems package them differently, but the common theme is simple text-oriented tools you can combine. Common examples include:
 
-* ls (list directory contents)
-* cp, mv, rm (copy, move, remove files)
-* mkdir, rmdir (create/remove directories)
-* cat (print a file), less (view text page by page)
-* head, tail (take the beginning/end of a stream)
-* grep (search for lines that match a pattern)
-* find (walk directories and select files)
-* sort, uniq (reorder lines and remove duplicates)
-* wc (count lines/words/bytes)
-* sed, awk (stream text transforms, more programmable)
-* xargs (turn input lines into command arguments)
-* tar (pack/unpack archive files)
-* ps, top (inspect running processes)
-* kill (send a signal to a process)
+* `ls` (list directory contents)
+* `cp`, `mv`, `rm` (copy, move, remove files)
+* `mkdir`, `rmdir` (create/remove directories)
+* `cat` (print a file), `less` (view text page by page)
+* `head`, `tail` (take the beginning/end of a stream)
+* `grep` (search for lines that match a pattern)
+* `find` (walk directories and select files)
+* `sort`, `uniq` (reorder lines and remove duplicates)
+* `wc` (count lines/words/bytes)
+* `sed`, `awk` (stream text transforms, more programmable)
+* `xargs` (turn input lines into command arguments)
+* `tar` (pack/unpack archive files)
+* `ps`, `top` (inspect running processes)
+* `kill` (send a signal to a process)
 
 On many Linux desktops and servers, these utilities come from the *GNU* project (GNU coreutils, GNU grep, GNU sed, and so on). They tend to be feature-rich and consistent across full Linux distributions. *BusyBox* is a different approach: it provides many of the same command names, but implemented in a single small executable, aimed at minimal systems.
 
@@ -1485,9 +1508,9 @@ Some environment variables you’ll see often are:
 * `TMPDIR`: where temporary files should go (if set)
 * `PATH`: where to search for executable commands  
 
-PATH is a list of directories (separated by colons), that the shell searches when you type a command. If you type `ls`, the shell checks each directory in PATH, in order, until it finds one containing an executable file named "ls".
+`PATH` is a list of directories (separated by colons), that the shell searches when you type a command. If you type `ls`, the shell checks each directory in PATH, in order, until it finds one containing an executable file named "ls".
 
-If the command is not a shell built-in, the shell searches the directories listed in PATH, in order, looking for an executable file with that name. The first match wins.For example, if PATH is something like:
+If the command is not a shell built-in, the shell searches the directories listed in `PATH`, in order, looking for an executable file with that name. The first match wins.For example, if `PATH` is something like:
 
 ```
 /usr/local/bin:/usr/bin:/bin
@@ -1509,7 +1532,7 @@ the shell will check:
 
 and run the first one that exists and is executable. The order matters: if two different directories contain a program with the same name, the one that appears earlier in PATH is the one you’ll run.
 
-If you type a command with a slash in it, PATH is not used. For example, `./script` means "run the file named script in the current directory". `/usr/bin/python` means "run exactly the file Python that you will find in /usr/bin".
+If you type a command with a slash in it, `PATH` is not used. For example, `./script` means "run the file named script in the current directory". `/usr/bin/python` means "run exactly the file Python that you will find in /usr/bin".
 
 ## Common directories
 <chapterId>cb905809-cf39-4609-973d-038c7ac900c7</chapterId>
@@ -1562,9 +1585,6 @@ Here are the directories you’ll see on most Linux systems:
 
 * `/sys`: Another virtual filesystem that exposes hardware and driver information in a structured way. Also generated by the kernel.
 
-# Conclusion
-<partId>6ecf01a8-8464-4a5c-92a1-6cebe09d0069</partId>
-
 That's the end of the course. If you followed it all the way through, well done: this is not the kind of material you "accidentally" finish.
 
 The goal was never to turn these topics into a pile of facts to memorize, but to give you a clearer map of what belongs where, and what each layer is responsible for.
@@ -1572,3 +1592,4 @@ The goal was never to turn these topics into a pile of facts to memorize, but to
 What matters is that you now have a better "sense of place". When something feels confusing, don’t treat it as a personal failure: treat it as "I don’t yet know which layer this belongs to". Go back, place it on the map, and it usually becomes much easier to reason about.
 
 Good luck!
+

@@ -31,7 +31,6 @@ Ready to discover why freedom is not only a moral ideal, but also the most effec
 <chapterId>8eb03d97-ff42-51a1-bd42-9271d3213ac4</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=md-rDzJX0Ws)
 
 
 ### Introduction to the French liberal tradition
@@ -73,7 +72,6 @@ Furthermore, sensations are inherently individual. One cannot experience hunger 
 <chapterId>e19775a3-6b1d-50ed-ba6b-979f93a78b4b</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=w9DUtXbOYEg)
 
 
 ### The natural foundations of freedom of thought
@@ -114,7 +112,6 @@ French history illustrates the consequences of the absence of this freedom. Desp
 <chapterId>9b71cfae-425c-5255-a0f2-7a5b6805e284</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=Vjm91Lve_SA)
 
 
 
@@ -179,7 +176,6 @@ Taken together, these observations do not constitute an abstract theory, but a r
 <chapterId>e8519889-1178-521e-9de7-b32f6177d92b</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=Wlc3WLYFjXo)
 
 
 ### The physiological basis of the non-aggression principle
@@ -230,7 +226,6 @@ The question of marriage illustrates these principles: the choice of spouse must
 <chapterId>c13f7395-6734-5c64-b86c-af7922ffbcb0</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=8Ib5M-6Rr8M)
 
 
 ### The contradictions surrounding property
@@ -287,7 +282,6 @@ Finally, the abolition of interest on money and the regulation of profits are at
 <chapterId>ed3a71e6-6e1b-504a-8c53-fe21b891ad27</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=eS_LZr9iKto)
 
 
 ### Historical debates on the origin of freedom
@@ -339,7 +333,6 @@ Historical analysis shows that freedom is not a lost natural state to be regaine
 <chapterId>29fc841c-eb21-522d-818c-9b50c6558396</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=v7blehzJCr8)
 
 
 ### Slavery: a response to primitive economic constraints
@@ -383,7 +376,6 @@ Examination of the historical reasons for unfreedom reveals a fundamental trend:
 <chapterId>a9cf7eb2-4639-5b8a-8fd6-2ad0a9e7cff2</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=X4Htu6xM4Qk)
 
 
 ### From destruction to production
@@ -428,7 +420,6 @@ Examination of the different stages of development reveals a deep correlation be
 <chapterId>3fffa63c-58bb-5c97-a2f5-fec90c05f182</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=Uzns3FT688k)
 
 
 ### Obstacles to freedom in primitive societies
@@ -472,7 +463,6 @@ Revolutions have significant drawbacks: they generate a lot of violence and tend
 <chapterId>a1c0c590-d0f6-5a18-a949-67f7a568ca6d</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=0q_m3KIoq-U)
 
 
 ### Obstacles to freedom in primitive societies
@@ -512,7 +502,6 @@ This reflection leads to an essential conclusion: today's circumstances are mate
 <chapterId>aeca263f-cce0-5025-829e-4480b73394a6</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=aEoerhy6ERU)
 
 
 ### The prerequisite for freedom
@@ -558,7 +547,6 @@ Having established these preconditions, it is now possible to examine the factua
 <chapterId>0cb003fe-58ac-5fa5-89b1-97e558fc98ac</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=xcaV6Kb21O0)
 
 
 ### Production as historical conquest and utility creation
@@ -600,7 +588,6 @@ From this analysis stems a fundamental conclusion: increasing trade between the 
 <chapterId>549e00c3-eece-5401-be62-b82c774af893</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=qrE5GJWNwGE)
 
 
 ### Competition as the driving force behind historical progress
@@ -644,7 +631,6 @@ The decisive advantage of economic freedom is that production is never too early
 <chapterId>958075af-fb8f-50d9-9bf5-4d9882e03072</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=tfH8FapqqsE)
 
 
 ### Self-interest at the heart of economic liberalism
@@ -689,7 +675,6 @@ In a free society, self-interest leads to innovation and progress. In a system o
 <chapterId>370f4e98-021b-5c81-a109-3b57b689905f</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=hS1_Nkd_H9M)
 
 
 ### Harmony of interests: a historical construct
@@ -731,7 +716,6 @@ The transition to a peaceful society is a long learning process. Human societies
 <chapterId>747ec342-bccd-5203-a198-c6e75505801b</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=DzE_iGRP5Z0)
 
 
 ### The different forms of unfreedom in history
@@ -775,7 +759,6 @@ Systems of unfreedom are characterized precisely by inequality: some individuals
 <chapterId>061e5c30-cb50-5205-8a1b-e41b7d1d234a</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=LDMCs9wCTQc)
 
 
 ### Criticism of the state as a divine entity
@@ -820,7 +803,6 @@ Conversely, relationships based on political power function in a truncated way. 
 <chapterId>ca113581-6969-58b4-a9f8-996ab409be25</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=mfvPE1fO3-E)
 
 
 ### Taxes as an instrument of political domination
@@ -874,7 +856,6 @@ The doctrine of liberty opposes this logic with the principle of individual and 
 <chapterId>3c1cf3d1-e2f5-5a95-9671-bf82b4de4a4e</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=VT3w2BjiD8E)
 
 
 ### Protectionism as a response to natural competition
@@ -919,7 +900,6 @@ These authors identified labor protectionism as the future dominant form of prot
 <chapterId>e4b15871-df1d-5d98-a395-16e24e7258d5</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=MRcLZ1SpAo8)
 
 
 ### The impossibility of planism anticipated by the physiocrats
@@ -971,7 +951,6 @@ This intellectual and factual history of the failure of unfreedom is a fundament
 <chapterId>9bd81fd4-20ed-5305-845a-d081811946ee</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=asOEZJRQuOw)
 
 
 ### Sophism as an obstacle to freedom
@@ -1004,7 +983,6 @@ A crucial distinction is between negative and positive freedom. Negative liberty
 <chapterId>96869664-df6e-5f47-92ad-ac93c88e4f55</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=mkzE0SfSl1Q)
 
 
 ### The fundamental paradox of democratic guardianship
@@ -1045,7 +1023,6 @@ Faced with these dangers, liberal thought, notably that of Benjamin Constant, de
 <chapterId>ffec06b3-1fea-51c8-9bdc-d36efcfd82df</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=K1e39vtOoCc)
 
 
 ### Frédéric Bastiat's economic fallacies
@@ -1090,7 +1067,6 @@ Economic fallacies, however, are only one category among many. The intellectual 
 <chapterId>a154cdd1-5cc7-56c0-839b-a898305cdf30</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=zJhhcxwXpRI)
 
 
 ### Social classes in ancient and modern societies
@@ -1134,7 +1110,6 @@ Nevertheless, liberal writers have a strong sensitivity towards poverty and the 
 <chapterId>e4cc0069-d2b8-5c33-8dc3-ccc2655afe68</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=GtxJlUa_H08)
 
 
 
@@ -1184,7 +1159,6 @@ This analysis also enables us to understand how unfreedom systems undermine indi
 <chapterId>085d5756-4ffe-5e2e-8b41-9a94102c97d3</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=ary4UJhwRl8)
 
 
 ### Freedom of contract as the foundation of a free society
@@ -1232,7 +1206,6 @@ Courcelle-Seneuil simply asserted the French Revolution's ideas on freedom of la
 <chapterId>abb3498a-0232-5a58-aea0-52730b75ee84</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=c8Wi5jkSEu8)
 
 
 ### The reduction of state powers in liberal thinking
@@ -1278,7 +1251,6 @@ The current reality reveals a paradoxical and saddening situation. Education and
 <chapterId>8be24b04-53da-5d80-8e76-3b6f3530723f</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=cEzFGSnYfnk)
 
 
 ### Liberal alternatives to the welfare state
@@ -1326,7 +1298,6 @@ Molinari and the vast majority of French liberals of his time viewed immigration
 <chapterId>1811a240-b5c8-5c34-906a-a5a030ca847f</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=b8PojgZ0TQo)
 
 
 ### The individual as the foundation of political freedom
@@ -1371,7 +1342,6 @@ Such a state of international law, which would recognize freedom of action while
 <chapterId>fa1ae25f-bdcf-50db-9a12-d880ff568875</chapterId>
 
 
-![video](https://www.youtube.com/watch?v=OfqTuJvo3MQ)
 
 
 ### The foundations of freedom in human facts

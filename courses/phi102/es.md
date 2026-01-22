@@ -40,7 +40,6 @@ Este curso explora la libertad como proyecto social, basándose en la rica tradi
 
 
 
-![video](https://www.youtube.com/watch?v=md-rDzJX0Ws)
 
 
 
@@ -96,7 +95,6 @@ Además, las sensaciones son intrínsecamente individuales. Uno no puede experim
 
 
 
-![video](https://www.youtube.com/watch?v=w9DUtXbOYEg)
 
 
 
@@ -152,7 +150,6 @@ La historia francesa ilustra las consecuencias de la ausencia de esta libertad. 
 
 
 
-![video](https://www.youtube.com/watch?v=Vjm91Lve_SA)
 
 
 
@@ -238,7 +235,6 @@ En conjunto, estas observaciones no constituyen una teoría abstracta, sino una 
 
 
 
-![video](https://www.youtube.com/watch?v=Wlc3WLYFjXo)
 
 
 
@@ -306,7 +302,6 @@ La cuestión del matrimonio ilustra estos principios: la elección del cónyuge 
 
 
 
-![video](https://www.youtube.com/watch?v=8Ib5M-6Rr8M)
 
 
 
@@ -383,7 +378,6 @@ Por último, la supresión del interés del dinero y la regulación de los benef
 
 
 
-![video](https://www.youtube.com/watch?v=eS_LZr9iKto)
 
 
 
@@ -452,7 +446,6 @@ El análisis histórico demuestra que la libertad no es un estado natural perdid
 
 
 
-![video](https://www.youtube.com/watch?v=v7blehzJCr8)
 
 
 
@@ -511,7 +504,6 @@ El examen de las razones históricas de la falta de libertad revela una tendenci
 
 
 
-![video](https://www.youtube.com/watch?v=X4Htu6xM4Qk)
 
 
 
@@ -571,7 +563,6 @@ El examen de las distintas etapas del desarrollo revela una profunda correlació
 
 
 
-![video](https://www.youtube.com/watch?v=Uzns3FT688k)
 
 
 
@@ -630,7 +621,6 @@ Las revoluciones tienen importantes inconvenientes: generate mucha violencia y t
 
 
 
-![video](https://www.youtube.com/watch?v=0q_m3KIoq-U)
 
 
 
@@ -684,7 +674,6 @@ Esta reflexión lleva a una conclusión esencial: las circunstancias actuales so
 
 
 
-![video](https://www.youtube.com/watch?v=aEoerhy6ERU)
 
 
 
@@ -745,7 +734,6 @@ Una vez establecidas estas condiciones previas, ahora es posible examinar los el
 
 
 
-![video](https://www.youtube.com/watch?v=xcaV6Kb21O0)
 
 
 
@@ -801,7 +789,6 @@ De este análisis se desprende una conclusión fundamental: el aumento del comer
 
 
 
-![video](https://www.youtube.com/watch?v=qrE5GJWNwGE)
 
 
 
@@ -860,7 +847,6 @@ La ventaja decisiva de la libertad económica es que la producción nunca es dem
 
 
 
-![video](https://www.youtube.com/watch?v=tfH8FapqqsE)
 
 
 
@@ -920,7 +906,6 @@ En una sociedad libre, el interés propio conduce a la innovación y al progreso
 
 
 
-![video](https://www.youtube.com/watch?v=hS1_Nkd_H9M)
 
 
 
@@ -976,7 +961,6 @@ La transición a una sociedad pacífica es un largo proceso de aprendizaje. Las 
 
 
 
-![video](https://www.youtube.com/watch?v=DzE_iGRP5Z0)
 
 
 
@@ -1035,7 +1019,6 @@ Los sistemas de falta de libertad se caracterizan precisamente por la desigualda
 
 
 
-![video](https://www.youtube.com/watch?v=LDMCs9wCTQc)
 
 
 
@@ -1095,7 +1078,6 @@ Por el contrario, las relaciones basadas en el poder político funcionan de form
 
 
 
-![video](https://www.youtube.com/watch?v=mfvPE1fO3-E)
 
 
 
@@ -1167,7 +1149,6 @@ La doctrina de la libertad opone a esta lógica el principio de secesión indivi
 
 
 
-![video](https://www.youtube.com/watch?v=VT3w2BjiD8E)
 
 
 
@@ -1227,7 +1208,6 @@ Estos autores identificaron el proteccionismo laboral como la futura forma domin
 
 
 
-![video](https://www.youtube.com/watch?v=MRcLZ1SpAo8)
 
 
 
@@ -1297,7 +1277,6 @@ Esta historia intelectual y fáctica del fracaso de la falta de libertad es una 
 
 
 
-![video](https://www.youtube.com/watch?v=asOEZJRQuOw)
 
 
 
@@ -1341,7 +1320,6 @@ Una distinción crucial es la que existe entre libertad negativa y positiva. La 
 
 
 
-![video](https://www.youtube.com/watch?v=mkzE0SfSl1Q)
 
 
 
@@ -1396,7 +1374,6 @@ Frente a estos peligros, el pensamiento liberal, en particular el de Benjamin Co
 
 
 
-![video](https://www.youtube.com/watch?v=K1e39vtOoCc)
 
 
 
@@ -1456,7 +1433,6 @@ Sin embargo, las falacias económicas no son más que una categoría entre mucha
 
 
 
-![video](https://www.youtube.com/watch?v=zJhhcxwXpRI)
 
 
 
@@ -1515,7 +1491,6 @@ Sin embargo, los escritores liberales tienen una fuerte sensibilidad hacia la po
 
 
 
-![video](https://www.youtube.com/watch?v=GtxJlUa_H08)
 
 
 
@@ -1582,7 +1557,6 @@ Este análisis también nos permite comprender cómo los sistemas de no-libertad
 
 
 
-![video](https://www.youtube.com/watch?v=ary4UJhwRl8)
 
 
 
@@ -1646,7 +1620,6 @@ Courcelle-Seneuil se limitó a afirmar las ideas de la Revolución Francesa sobr
 
 
 
-![video](https://www.youtube.com/watch?v=c8Wi5jkSEu8)
 
 
 
@@ -1707,7 +1680,6 @@ La realidad actual revela una situación paradójica y triste. Los profesionales
 
 
 
-![video](https://www.youtube.com/watch?v=cEzFGSnYfnk)
 
 
 
@@ -1771,7 +1743,6 @@ Molinari y la inmensa mayoría de los liberales franceses de su época veían co
 
 
 
-![video](https://www.youtube.com/watch?v=b8PojgZ0TQo)
 
 
 
@@ -1831,7 +1802,6 @@ Ese estado de derecho internacional, que reconocería la libertad de acción al 
 
 
 
-![video](https://www.youtube.com/watch?v=OfqTuJvo3MQ)
 
 
 

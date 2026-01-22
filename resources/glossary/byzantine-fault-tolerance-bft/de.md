@@ -4,5 +4,5 @@ term: BYZANTINISCHE FEHLERTOLERANZ (BFT)
 ---
 Ein Konzept, das in verteilten Systemen verwendet wird, um einen zuverlässigen und sicheren Konsens zu gewährleisten, selbst wenn fehlerhafte oder böswillige Knoten vorhanden sind.
 
-Dieses Konzept steht im Zusammenhang mit dem [Byzantinischen Generals-Problem](/dictionnaire/P.md#prob.-des-généraux-byzantins), einer Metapher, die zur Veranschaulichung der Herausforderungen bei der Koordinierung und Entscheidungsfindung in einem verteilten System verwendet wird, in dem sich die Akteure möglicherweise nicht gegenseitig vertrauen.
+Dieses Konzept steht im Zusammenhang mit dem Byzantinischen Generals-Problem, einer Metapher, die zur Veranschaulichung der Herausforderungen bei der Koordinierung und Entscheidungsfindung in einem verteilten System verwendet wird, in dem sich die Akteure möglicherweise nicht gegenseitig vertrauen.
 

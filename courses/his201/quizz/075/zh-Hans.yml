@@ -1,8 +1,8 @@
-question: 迈克·赫恩在2011年3月发布了一款软件实现，它实现了简化支付验证（SPV），这款软件的名称是什么？
+question: 2011 年 3 月，Mike Hearn 发布了哪款实现了简化支付验证（SPV）的软件？
 answer: BitCoinJ
 wrong_answers:
   - Spesmilo
   - bcoin
   - Libbitcoin
 explanation:
-  他在[发布](https://bitcointalk.org/index.php?topic=4236.msg61438#msg61438)时将其置于开源许可证（Apache 2.0）之下，归因于他当时的雇主Google。这一实现使得在Android上运行的第一个轻量级钱包得以启动。
+  他在 2011 年 3 月以开源许可证（Apache 2.0）发布了这款软件，并将其归属于当时的雇主 Google。BitCoinJ 的推出让首个能在 Android 上运行的轻量级钱包得以实现。

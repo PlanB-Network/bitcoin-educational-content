@@ -17,4 +17,3 @@ Avser ett block utan barn: ett giltigt block, men uteslutet från den huvudsakli
 ![](../../dictionnaire/assets/9.webp)
 
 
-> ► *På engelska kallas det "Stale Block". På franska kan det också kallas "bloc périmé" eller "bloc abandonné". Även om jag inte håller med om denna användning använder vissa bitcoiners termen "bloc orphelin" för att hänvisa till vad som faktiskt är ett föråldrat block.*

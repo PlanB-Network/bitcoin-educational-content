@@ -7,4 +7,3 @@ The attacker continues submitting partial proofs of work (shares) to appear as a
 
 Block withholding attacks do not directly benefit the attacker financially but are intended to harm the pool’s profitability.
 
-> ► *In French, it is referred to as "Retention de Bloc".*

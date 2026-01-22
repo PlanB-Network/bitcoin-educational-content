@@ -6,4 +6,3 @@ En el contexto de las transacciones Bitcoin, se refiere al UTXO creado con los f
 
 ![](../../dictionnaire/assets/16.webp)
 
-> ► *Aunque se usa poco, también podríamos referirnos a ella como "moneda" (cambio dado) para hablar del cambio.*

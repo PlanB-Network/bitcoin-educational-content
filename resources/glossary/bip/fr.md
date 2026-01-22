@@ -22,4 +22,3 @@ Les BIPs passent ensuite par différents statuts au cours de leur cycle de vie. 
 **Final** (*Final*) : Le BIP est accepté et largement implémenté sur Bitcoin ;
 **Actif** (*Active*) : Pour les BIPs de processus uniquement, ce statut est attribué une fois qu'un certain consensus est atteint ;
 **Remplacé / Obsolète** (*Replaced* / *Obsolete*) : Le BIP n'est plus applicable ou a été remplacé par une proposition plus récente qui le rend inutile.
-> ► *BIP est l'acronyme anglais pour « Bitcoin Improvement Proposal ». En français, on peut le traduire par « Proposition d'amélioration de Bitcoin ». Toutefois, la plupart des textes français utilisent directement l'acronyme « BIP » comme un nom commun, parfois au féminin, parfois au masculin.*

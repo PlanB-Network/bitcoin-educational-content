@@ -9,4 +9,3 @@ En mekanisme som etablerer en forbindelse mellom Bitcoin-hovedsystemet og en sid
 - En føderasjon av enheter;
 - Utvinnerne av hovedkjeden (drivechain).
 
-> på engelsk kalles dette en "two-way peg" eller "2WP"

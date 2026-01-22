@@ -25,4 +25,3 @@ Dzięki tym informacjom jestem w stanie obliczyć węzły pośrednie aż do Merk
 Drzewa Merkle'a są szczególnie używane w przypadku lekkich węzłów (znanych jako "SPV"), które przechowują tylko nagłówki bloków, ale nie transakcje. Struktura ta występuje również w protokole UTREEXO, który pozwala na kondensację zestawu węzłów UTXO, oraz w MAST Taproot.
 
 
-> nazwa Merkle Tree pochodzi od nazwiska Ralpha Merkle'a, kryptografa, który zaprojektował tę strukturę w 1979 roku. Merkle Tree może być również nazywane "drzewem Hash". W języku francuskim jest ono określane jako "Arbre de Merkle" lub "arbre de hachage"

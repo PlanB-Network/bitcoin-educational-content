@@ -10,4 +10,3 @@ Een mechanisme dat een verbinding tot stand brengt tussen het hoofd-Bitcoin syst
 - De miners van de hoofdketen (drivechain).
 
 
-> ► *In het Engels wordt dit een "two-way peg" of "2WP" genoemd.*

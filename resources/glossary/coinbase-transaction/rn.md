@@ -11,4 +11,3 @@ Coinbase Transaction ahanini ikora intumbero zibiri: guha Block reward Miner no 
 Coinbase Transaction itandukanye n’ibikorwa bisanzwe mu buryo butari buke. Ica mbere, nta n’inyungu ifise, bisobanura ko ata n’inyungu y’ugucuruza iriho (UTXO) ikoreshwa na yo. Inyuma y’aho, inyandiko y’umukono (`scriptSig`) ya Coinbase Transaction mu bisanzwe irimwo umwanya udasanzwe wemerera kwinjiza amakuru y’inyongera, nk’ubutumwa busanzwe canke amakuru yerekeye verisiyo ya porogarama ya Mining. Ubwa nyuma, ama bitcoins akomoka kuri Coinbase Transaction afise igihe co gukura c’ibice 100 (ivyemezo 101) imbere y’uko ashobora gukoreshwa, kugira ngo ntihagire uwushobora gukoresha ama bitcoins atabaho mu gihe hoba ugusubira gutunganya uruhererekane.
 
 
-> ► *Nta mpinduro y'ijambo "Coinbase" mu gifaransa iriho. Ni co gituma vyemewe gukoresha iryo jambo ata guca ku ruhande.*

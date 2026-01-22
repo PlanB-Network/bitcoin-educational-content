@@ -6,4 +6,3 @@ Označuje složku transakcí Bitcoinu, která byla přesunuta s měkkým rozvět
 
 Před systémem SegWit bylo možné podpisy před potvrzením transakce mírně pozměnit, aniž by byly zneplatněny, čímž se změnil identifikátor transakce. To ztěžovalo vytváření různých protokolů, protože u nepotvrzené transakce mohlo dojít ke změně jejího identifikátoru. Oddělením svědků SegWit znemožňuje falšování transakcí, protože jakákoli změna podpisů již nemá vliv na identifikátor transakce (TXID), ale pouze na identifikátor svědka (WTXID). Kromě vyřešení problému malleability toto oddělení umožňuje zvýšit kapacitu každého bloku.
 
-> ► *V češtině se "témoin" překládá jako "svědek".*

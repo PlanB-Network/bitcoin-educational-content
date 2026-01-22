@@ -11,4 +11,3 @@ Kwa hiyo, kuna msimbo wa kipekee wa mnyororo kwa kila jozi ya funguo. Nambari ya
 Haiwezekani kupata funguo bila kujua msimbo wa mnyororo unaohusishwa na kila jozi ya mzazi. Inaleta data ya uwongo ya nasibu katika mchakato wa kupata ili kuhakikisha kuwa uundaji wa funguo za kriptografia bado hautabiriki kwa washambulizi huku ikibainishwa kwa mwenye Wallet.
 
 
-> ► *Kwa Kiingereza, "code de chaîne" inaitwa "code de chaîne", na "code de chaîne maître" inaitwa "master chain code".*

@@ -6,4 +6,3 @@ Tarkoittaa kaikkien tiettynä hetkenä olemassa olevien UTXO:iden kokoelmaa. Toi
 
 Kukin solmu säilyttää tätä UTXO-joukkoa, jotta se voi nopeasti tarkistaa, ovatko transaktioihin käytetyt UTXO:t todella laillisia. Näin ne voivat havaita ja torjua kaksinkertaisen kuluttamisen yritykset. UTXO-joukko on usein Bitcoinin hajauttamiseen liittyvien huolenaiheiden ytimessä, sillä sen koko kasvaa luonnollisesti hyvin nopeasti. Koska osa siitä on pidettävä RAM-muistissa, jotta transaktiot voidaan todentaa kohtuullisessa ajassa, UTXO-joukko voi vähitellen tehdä kokonaisen solmun käyttämisestä liian kallista. UTXO-joukolla on myös merkittävä vaikutus IBD:hen (*Initial Block Download*). Mitä enemmän UTXO-joukkoa voidaan sijoittaa RAM-muistiin, sitä nopeampi IBD on. Bitcoin Coressa UTXO-setti tallennetaan kansioon nimeltä `/chainstate`.
 
-> ► *Englanniksi "UTXO set" voitaisiin kääntää "UTXO set".*

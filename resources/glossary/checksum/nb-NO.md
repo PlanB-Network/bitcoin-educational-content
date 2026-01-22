@@ -8,4 +8,3 @@ Sjekksummen er en verdi som beregnes ut fra et datasett, og som brukes til å ve
 På Bitcoin brukes sjekksummer på applikasjonsnivå for å sikre integriteten til mottaksadresser. En kontrollsum beregnes ut fra nyttelasten til en brukers Address, og legges deretter til Address for å oppdage eventuelle feil i inndataene. En sjekksum finnes også i gjenopprettingsfraser (mnemonics).
 
 
-> det er vanlig å bruke det engelske begrepet "checksum" direkte på fransk

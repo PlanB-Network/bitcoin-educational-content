@@ -20,4 +20,3 @@ Näiden tietojen avulla pystyn laskemaan välisolmut Merkle-juureen asti.
 
 Merkle Trees -menetelmää käytetään erityisesti kevyissä solmuissa (ns. "SPV"), jotka säilyttävät vain lohkojen otsikot, mutta eivät transaktioita. Tämä rakenne on myös UTREEXO-protokollassa, joka mahdollistaa UTXO-solmujen joukon tiivistämisen, ja MAST Taproot -protokollassa.
 
-> ► *Merkle Tree on nimetty Ralph Merklen mukaan, joka on salakirjoittaja ja joka suunnitteli tämän rakenteen vuonna 1979. Merkle-puuta voidaan kutsua myös "hash-puuksi". Ranskaksi siitä käytetään nimitystä "Arbre de Merkle" tai "arbre de hachage".*

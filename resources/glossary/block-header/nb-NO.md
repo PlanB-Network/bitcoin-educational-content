@@ -66,4 +66,3 @@ b2e00517
 
 For å være gyldig må en blokk ha en header som, når den er hashet med `SHA256d`, gir en hash som er mindre enn eller lik vanskelighetsmålet.
 
-> på engelsk kalles det en "Block Header"

@@ -8,4 +8,3 @@ Por lo tanto, existe un código de cadena único para cada par de claves. El có
 
 Es imposible derivar claves sin conocer el código de cadena asociado a cada par parental. Introduce datos pseudoaleatorios en el proceso de derivación para garantizar que la generación de claves criptográficas siga siendo impredecible para los atacantes a la vez que determinista para el titular del monedero.
 
-> ► *En inglés, un "code de chaîne" se denomina "chain code", y un "code de chaîne maître", "master chain code "*

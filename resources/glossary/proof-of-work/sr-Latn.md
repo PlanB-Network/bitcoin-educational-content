@@ -11,4 +11,3 @@ Mehanizam zaštite protiv Sybil napada, koji su karakterisani kreiranjem više l
 Ovaj rad koji obavljaju rudari nagrađuje se za svaki pronađeni važeći blok. Pobednički Miner dobija novčanu nagradu, koja se sastoji od subvencije bloka (stvaranje novih bitkoina ex nihilo) i naknada za transakcije. Danas je težina Proof of Work na Bitcoin takva da Mining zahteva značajnu računarsku snagu da bi uspeo u osvajanju blokova. Kao rezultat toga, često je potrebno imati specijalizovane elektronske čipove za izvršavanje `SHA256d`, poznate kao ASICs, i učestvovati u Mining bazenima.
 
 
-> ► *Na engleskom se to naziva "Proof-of-Work", ponekad skraćeno kao "PoW".*

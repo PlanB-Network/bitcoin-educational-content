@@ -10,4 +10,3 @@ Où :
 * $A$ : L'ancienne cible des 2016 derniers blocs ;
 * $T$ : Le temps total réel des 2016 derniers blocs en secondes ;
 * $1,209,600$ : Le temps cible en secondes pour produire 2016 blocs avec un intervalle de 10 minutes entre chacun.
-> ► *En français, on parle également parfois de « reciblage » pour évoquer l'ajustement. En anglais, on parle de « Difficulty Adjustment ».*

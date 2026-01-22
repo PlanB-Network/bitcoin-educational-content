@@ -19,4 +19,3 @@ Este sistema de acciones se utiliza para estimar el trabajo realizado por cada m
 
 Los pools de minería ajustan la dificultad de las participaciones para equilibrar la carga de verificación y garantizar que cada minero, ya sea pequeño o grande, envíe participaciones aproximadamente cada pocos segundos. Esto permite calcular con precisión el hashrate de cada minero y distribuir las recompensas según el método de cálculo de compensación elegido (PPS, PPLNS, TIDES...).
 
-> ► *En francés, "shares" puede traducirse por "parte "*

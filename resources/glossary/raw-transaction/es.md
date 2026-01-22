@@ -14,4 +14,3 @@ Una transacción Bitcoin construida y firmada, existente en su forma binaria. Un
 
 Lo que se conoce como "*transacción en bruto*" representa los datos en bruto que se pasan dos veces por la función hash SHA256 para generar el TXID de la transacción. A continuación, estos datos se utilizan en el árbol de Merkle del bloque para integrar la transacción en la cadena de bloques.
 
-> ► *Este concepto también se denomina a veces "transacción serializada". En francés, estos términos podrían traducirse respectivamente por "transaction brute" y "transaction sérialisée".*

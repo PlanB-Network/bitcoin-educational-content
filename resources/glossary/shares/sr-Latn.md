@@ -25,4 +25,3 @@ Ovaj sistem deljenja se koristi za procenu rada koji obavi svaki pojedinačni Mi
 Mining bazeni prilagođavaju težinu deonica kako bi uravnotežili opterećenje verifikacije i osigurali da svaki Miner, bilo mali ili veliki, podnosi deonice otprilike svakih nekoliko sekundi. Ovo omogućava tačno izračunavanje svakog Miner-ovog Hashrate i raspodelu nagrada prema izabranom metodu izračunavanja kompenzacije (PPS, PPLNS, TIDES...).
 
 
-> ► *U francuskom, "shares" se može prevesti kao "part".*

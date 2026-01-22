@@ -8,4 +8,3 @@ Kontrolni zbir je vrednost izračunata iz skupa podataka, koja se koristi za pro
 Na Bitcoin, kontrolni zbirovi se koriste na nivou aplikacije kako bi se osigurala integritet primajućih adresa. Kontrolni zbir se izračunava iz korisnikovog Address sadržaja, a zatim se dodaje tom Address kako bi se otkrile greške u unosu. Kontrolni zbir je takođe prisutan u frazama za oporavak (mnemonici).
 
 
-> ► *Opšte je prihvaćeno koristiti engleski termin "checksum" direktno u francuskom.*

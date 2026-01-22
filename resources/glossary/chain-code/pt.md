@@ -8,4 +8,3 @@ Por conseguinte, existe um código de cadeia único para cada par de chaves. O c
 
 É impossível derivar chaves sem conhecer o código da cadeia associado a cada par de pais. Introduz dados pseudo-aleatórios no processo de derivação para garantir que a geração de chaves criptográficas permaneça imprevisível para os atacantes e, ao mesmo tempo, determinística para o titular da carteira.
 
-> ► *Em inglês, um "code de chaîne" é designado por "chain code" e um "code de chaîne maître" por "master chain code".*

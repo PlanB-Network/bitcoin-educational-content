@@ -8,4 +8,3 @@ Gossip je distribuovaný algoritmus peer-to-peer (P2P) pro epidemické šířen�
 Gossip je komunikační protokol mezi uzly, který slouží ke sdílení informací o aktuálním stavu a topologii sítě. Protokol gossip umožňuje uzlům znát dynamický stav platebních kanálů a ostatních uzlů a usnadnit tak směrování transakcí v síti, aniž by bylo nutné přímé spojení mezi všemi uzly.
 
 
-> ► *Francouzský výraz "gossip protocol" by se dal přeložit jako "protocole de bavardage". Zdroj: https://dl.acm.org/doi/pdf/10.1145/41840.41841.*

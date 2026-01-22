@@ -6,4 +6,3 @@ Modello o modello di transazione utilizzato nell'analisi della catena per determ
 
 ![](../../dictionnaire/assets/6.webp)
 
-> *In francese, "transazione di spazzamento" potrebbe essere tradotto come "transazione di balayage "*

@@ -8,4 +8,3 @@ term: Sidechain
 Sidechain 的概念最初由 Adam Back、Matt Corallo、Luke Dashjr、Mark Friedenbach、Gregory Maxwell、Andrew Miller、Andrew Poelstra、Jorge Timon 和 Pieter Wuille 於 2014 年提出。目前，Bitcoin 上最知名的側鏈是 Liquid 和 RSK (Rootstock)。不過，相較於其他不同模式的覆疊解決方案，例如 Lightning Network，這些方案的使用量仍然少得多。
 
 
-> ► *在法語中，它被稱為 "chaîne latérale 「或 」chaîne parallèle "*。

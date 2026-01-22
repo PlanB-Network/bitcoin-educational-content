@@ -6,4 +6,3 @@ Pengeluaran berkelompok (_Batched spending_) adalah teknik pengeluaran yang teru
 
 ![](../../dictionnaire/assets/8.webp)
 
-> ► *Dalam bahasa Indonesia, "Batched spending" dapat diterjemahkan sebagai "Pengeluaran berkelompok"*

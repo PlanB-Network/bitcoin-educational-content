@@ -25,4 +25,3 @@ Detta andelssystem används för att uppskatta det arbete som utförs av varje e
 Mining-pooler justerar svårighetsgraden för aktier för att balansera verifieringsbelastningen och säkerställa att varje Miner, oavsett om den är liten eller stor, lämnar in aktier ungefär varannan sekund. Detta möjliggör en korrekt beräkning av varje Miner:s Hashrate och fördelning av belöningar enligt den valda metoden för kompensationsberäkning (PPS, PPLNS, TIDES...).
 
 
-> ► * På franska kan "shares" översättas med "del" *

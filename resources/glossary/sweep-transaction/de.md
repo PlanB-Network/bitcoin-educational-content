@@ -6,4 +6,3 @@ Muster oder Transaktionsmodell, das in der Kettenanalyse verwendet wird, um die 
 
 ![](../../dictionnaire/assets/6.webp)
 
-> ► *Im Französischen könnte "sweep transaction" mit "transaction de balayage" übersetzt werden.*

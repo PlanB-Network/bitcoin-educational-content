@@ -11,4 +11,3 @@ Därför finns det en unik chain code för varje nyckelpar. chain code erhålls 
 Det är omöjligt att härleda nycklar utan att känna till den chain code som är associerad med varje föräldrapar. Den introducerar pseudoslumpmässiga data i härledningsprocessen för att säkerställa att genereringen av kryptografiska nycklar förblir oförutsägbar för angripare samtidigt som den är deterministisk för Wallet-innehavaren.
 
 
-> ► * På engelska kallas en "code de chaîne" för en "chain code" och en "code de chaîne maître" för en "master chain code".*

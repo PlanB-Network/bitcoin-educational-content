@@ -35,4 +35,3 @@ Rajatarkastusohjelmat käyvät läpi erilaisia vaiheita elinkaarensa aikana. Tä
 
 ![](../../dictionnaire/assets/25.webp)
 
-> ► *BIP on lyhenne sanoista "Bitcoin Improvement Proposal". Ranskaksi se voidaan kääntää "Proposition d'amélioration de Bitcoin". Useimmissa ranskankielisissä teksteissä lyhennettä "BIP" käytetään kuitenkin suoraan yleisenä substantiivina, joskus feminiinissä, joskus maskuliinissa.*

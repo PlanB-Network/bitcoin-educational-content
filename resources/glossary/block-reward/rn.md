@@ -14,4 +14,3 @@ Gigizwe n’ibice bibiri:
 Block reward isohorwa biciye ku nzira idasanzwe yitwa Coinbase Transaction. Bitcoins zaronswa na Coinbase Transaction zishobora gukoreshwa igihe co gukura c’ama blocks 100 imbere y’uko zishobora gukoreshwa.
 
 
-> ► *Impinduro y'igifaransa ni "Récompense de bloc".*

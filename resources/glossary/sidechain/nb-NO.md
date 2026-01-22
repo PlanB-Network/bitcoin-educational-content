@@ -6,4 +6,3 @@ En blokkjede som er designet for å fungere parallelt med Bitcoins hovedblokkjed
 
 Konseptet med en sidekjede ble opprinnelig introdusert i 2014 av Adam Back, Matt Corallo, Luke Dashjr, Mark Friedenbach, Gregory Maxwell, Andrew Miller, Andrew Poelstra, Jorge Timon og Pieter Wuille. For tiden er de mest kjente sidekjedene på Bitcoin Liquid og RSK (Rootstock). Disse er imidlertid fortsatt mye mindre brukt sammenlignet med andre overlay-løsninger med en annen modell, som Lightning Network.
 
-> på fransk kalles det en "chaîne latérale" eller "chaîne parallèle"

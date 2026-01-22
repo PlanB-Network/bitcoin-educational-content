@@ -8,4 +8,3 @@ Gossip là thuật toán phân tán ngang hàng (P2P) để phát tán thông ti
 Trong Lightning, gossip là một giao thức truyền thông giữa các nút để chia sẻ thông tin về trạng thái hiện tại và cấu trúc mạng. Giao thức gossip cho phép các nút biết trạng thái động của các kênh thanh toán và các nút khác, để tạo điều kiện định tuyến các giao dịch trên toàn mạng mà không cần kết nối trực tiếp giữa tất cả các nút.
 
 
-> ► *Trong tiếng Pháp, "gossip protocol" có thể được dịch là "protocole de bavardage". Nguồn: https://dl.acm.org/doi/pdf/10.1145/41840.41841.*

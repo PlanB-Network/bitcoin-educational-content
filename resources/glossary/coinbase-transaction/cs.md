@@ -8,4 +8,3 @@ Transakce na coinbase slouží především ke dvěma účelům: k udělení blo
 
 Transakce na coinbase se od běžných transakcí liší několika způsoby. Zaprvé nemá vstup, což znamená, že se při ní nespotřebovává žádný existující výstup transakce (UTXO). Dále podpisový skript (`scriptSig`) transakce coinbase obvykle obsahuje libovolné pole umožňující začlenění dalších údajů, jako jsou vlastní zprávy nebo informace o verzi těžebního softwaru. A konečně, bitcoiny vygenerované transakcí coinbase podléhají době splatnosti 100 bloků (101 potvrzení), než je lze utratit, aby se zabránilo případnému utracení neexistujících bitcoinů v případě reorganizace řetězce.
 
-> ► *Ve francouzštině neexistuje žádný překlad slova "Coinbase". Proto je přijatelné používat tento termín přímo.*

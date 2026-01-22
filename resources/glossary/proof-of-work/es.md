@@ -8,4 +8,3 @@ Un mecanismo de protección contra los ataques Sybil, que se caracterizan por la
 
 Este trabajo realizado por los mineros se recompensa por cada bloque válido encontrado. El minero ganador recibe una recompensa monetaria, consistente en la subvención del bloque (creación de nuevos bitcoins ex nihilo), y las tasas de transacción. Hoy en día, la dificultad de la prueba de trabajo en Bitcoin es tal que la minería requiere una potencia computacional significativa para conseguir ganar bloques. Como resultado, a menudo es necesario disponer de chips electrónicos especializados para ejecutar `SHA256d`, conocidos como ASICs, y participar en pools de minería.
 
-> ► *En inglés, se denomina "Proof-of-Work", a veces abreviado como "PoW".*

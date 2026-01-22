@@ -19,4 +19,3 @@ Questo sistema di quote viene utilizzato per stimare il lavoro svolto da ogni si
 
 I pool minerari regolano la difficoltà delle quote per bilanciare il carico di verifica e garantire che ogni minatore, piccolo o grande che sia, invii quote ogni pochi secondi circa. Ciò consente di calcolare con precisione l'hashrate di ciascun minatore e di distribuire le ricompense in base al metodo di calcolo della compensazione scelto (PPS, PPLNS, TIDES...).
 
-> *In francese, "azioni" può essere tradotto come "parte "*

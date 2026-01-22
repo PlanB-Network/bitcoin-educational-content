@@ -16,4 +16,3 @@ Var?
 - $1,209,600$: Måltiden i sekunder för att producera 2016 block med 10 minuters intervall mellan varje block.
 
 
-> ► *På franska används ibland termen "reciblage" för att hänvisa till justering. På engelska kallas det "Difficulty Adjustment" (svårighetsjustering)*

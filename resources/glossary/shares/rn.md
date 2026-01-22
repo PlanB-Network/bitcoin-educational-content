@@ -26,4 +26,3 @@ Ubu buryo bwo gusangira bukoreshwa mu kugereranya igikorwa gikozwe na Miner imwe
 Ivyuma vya Mining biratunganya ingorane z’imigabane kugira ngo bihuze umuzigo wo kugenzura no kumenya neza ko Miner yose, yaba nto canke nini, itanga imigabane hafi buri masegonda makeyi. Ivyo bituma habarwa neza Hashrate ya Miner yose n’ugusangira impembo hakurikijwe uburyo bwatowe bwo kubara indishi (PPS, PPLNS, TIDES...).
 
 
-> ► *Mu gifaransa, "imigabane" ishobora guhindurwa ngo "igice".*

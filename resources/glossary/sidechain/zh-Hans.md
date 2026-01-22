@@ -6,4 +6,3 @@ term: SIDECHAIN (侧链)
 
 侧链的概念最初由 Adam Back、Matt Corallo、Luke Dashjr、Mark Friedenbach、Gregory Maxwell、Andrew Miller、Andrew Poelstra、Jorge Timon 和 Pieter Wuille 于 2014 年提出。目前，比特币上最知名的侧链是 Liquid 和 RSK（Rootstock）。然而，与其他不同模式的叠加解决方案（如闪电网络）相比，这些侧链的使用仍然要少得多。
 
-> ► *在中文中，它被称为 "侧链"*。

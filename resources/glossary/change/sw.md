@@ -8,4 +8,3 @@ Katika muktadha wa shughuli za Bitcoin, inarejelea UTXO iliyoundwa na fedha zili
 ![](../../dictionnaire/assets/16.webp)
 
 
-> ► *Ingawa haitumiki kwa nadra, tunaweza pia kuirejelea kama "fedha" (mabadiliko yametolewa) ili kuzungumzia mabadiliko.*

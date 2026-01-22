@@ -8,4 +8,3 @@ Ukupni bitkoini koje primi Miner kada pronađu važeći blok na Bitcoin. Ova nag
 Block reward se distribuira unutar specifične transakcije zvane "coinbase". Bitkoini izvučeni iz nje automatski su zaključani na period od 100 blokova. Ovo se naziva periodom dospeća.
 
 
-> ► *Engleski prevod je "Block reward".*

@@ -8,4 +8,3 @@ Igiharuro c’igenzura ni agaciro kaharuwe hakurikijwe amakuru, gakoreshwa mu ku
 Ku Bitcoin, ama checksums arakoreshwa ku rugero rw’ibisabwa kugira ngo haboneke ubutungane bw’amaderesi y’abakira. Igitigiri c’igenzura giharurwa bivanye n’umuzigo w’umukoresha wa Address, hanyuma kigashirwa kuri iyo Address kugira ngo hamenyekane amakosa yose yoba ari mu vyo yinjije. Igitigiri c’isuzuma kiraboneka kandi mu majambo yo gusubirana (mnemonics).
 
 
-> ► *Ni rusangi kwemerwa gukoresha ijambo ry'icongereza "checksum" ataco rihinduye mu gifaransa.*

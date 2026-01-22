@@ -6,4 +6,3 @@ P2MS stands for *Pay to Multisig*, which translates to "pay to multiple signatur
 
 This script was invented in 2011 by Gavin Andresen when he took over the maintenance of the main Bitcoin client. Today, P2MS is only marginally used by some applications. The vast majority of modern multisignatures use other scripts like P2SH or P2WSH. Compared to these, P2MS is extremely trivial. The public keys it consists of are revealed upon receiving the transaction. Using a P2MS is also more expensive than other multisignature scripts.
 
-> ► *P2MS are often called "bare-multisig", which could be translated as "naked multisignature" or "raw multisignature". At the beginning of 2023, P2MS scripts were at the center of a controversy due to their misused within the Stamps protocol. Their impact on the UTXO set was notably pointed out.*

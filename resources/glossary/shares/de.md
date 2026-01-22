@@ -19,4 +19,3 @@ Dieses Anteilssystem wird verwendet, um die von jedem einzelnen Schürfer innerh
 
 Mining-Pools passen die Schwierigkeit der Anteile an, um die Verifizierungslast auszugleichen und sicherzustellen, dass jeder Schürfer, ob klein oder groß, etwa alle paar Sekunden Anteile einreicht. Dies ermöglicht eine genaue Berechnung der Hashrate jedes Schürfers und die Verteilung der Belohnungen entsprechend der gewählten Methode der Entschädigungsberechnung (PPS, PPLNS, TIDES...).
 
-> ► *Im Französischen kann "shares" mit "Teil" übersetzt werden.*

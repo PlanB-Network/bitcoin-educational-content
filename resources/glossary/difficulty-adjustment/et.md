@@ -14,4 +14,3 @@ Kus:
 - $T$: Viimase 2016 ploki tegelik koguaeg sekundites;
 - $1,209,600$: Sihttööaeg sekundites, et toota 2016 plokki, mille vahel on 10-minutiline intervall.
 
-> ► *Fransi keeles kasutatakse mõnikord ka terminit "reciblage", mis tähistab kohandamist. Inglise keeles nimetatakse seda "Difficulty Adjustment "*

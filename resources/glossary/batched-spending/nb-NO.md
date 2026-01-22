@@ -6,4 +6,3 @@ Batched spending er en utgiftsteknikk som primært brukes av enheter med et høy
 
 ![](../../dictionnaire/assets/8.webp)
 
-> på fransk kan "batched spending" oversettes til "grupperte utgifter"

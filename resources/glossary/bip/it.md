@@ -35,4 +35,3 @@ I BIP passano quindi attraverso diversi stati nel corso del loro ciclo di vita. 
 
 ![](../../dictionnaire/assets/25.webp)
 
-> *BIP è l'acronimo di "Bitcoin Improvement Proposal". In francese può essere tradotto come "Proposition d'amélioration de Bitcoin". Tuttavia, la maggior parte dei testi francesi utilizza direttamente l'acronimo "BIP" come sostantivo comune, a volte al femminile, altre al maschile.*

@@ -28,4 +28,3 @@ Muri aka karorero, ni ugucuruza kwatangujwe n'umuyobozi wa F2Pool Mining pool. N
 
 Ni ngombwa kandi ko turimbura imipaka y’ugusukura. Mu bihe vy’ugucumbagira cane, ama mempools y’ibihimba arasukura amafaranga yabo ategerejwe munsi y’urugero runaka, kugira ngo yubahirize umupaka wa RAM yahawe. Ico kigero gitorwa n’uwukoresha, ariko benshi basiga agaciro ka Bitcoin core kuri 300 MB. Ishobora guhindurwa muri dosiye `Bitcoin.conf` n'umurongo `maxmempool`.
 
-> ► *Mu congereza, tuvyita "amafaranga y'ibikorwa".*

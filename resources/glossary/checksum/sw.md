@@ -8,4 +8,3 @@ Cheki ni thamani iliyohesabiwa kutoka kwa seti ya data, inayotumiwa kuthibitisha
 Kwenye Bitcoin, hundi hutumiwa katika kiwango cha maombi ili kuhakikisha uadilifu wa kupokea anwani. Hundi inakokotolewa kutoka kwa malipo ya Address ya mtumiaji, kisha kuongezwa kwa hiyo Address ili kugundua hitilafu zozote katika ingizo lake. Cheki pia ipo katika misemo ya uokoaji (mnemonics).
 
 
-> ► *Inakubalika kwa ujumla kutumia neno la Kiingereza "checksum" moja kwa moja katika Kifaransa.*

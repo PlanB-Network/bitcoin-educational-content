@@ -6,4 +6,3 @@ Modelo de patrón o transacción utilizado en el análisis de la cadena para det
 
 ![](../../dictionnaire/assets/6.webp)
 
-> ► *En francés, "sweep transaction" podría traducirse como "transaction de balayage".*

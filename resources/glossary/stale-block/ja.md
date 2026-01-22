@@ -14,4 +14,3 @@ term: 廃れた
 
 ![](../../dictionnaire/assets/9.webp)
 
-> 英語では "Stale Block "と呼ばれる。フランス語では "bloc périmé "や "bloc abandonné "と呼ばれることもある。私はこの用法に賛成しませんが、ビットコイナーの中には、実際には時代遅れのブロックを指すのに "bloc orphelin "という言葉を使っている人もいます。

@@ -9,4 +9,3 @@ Mechanismus, který vytváří spojení mezi hlavním systémem Bitcoin a sidech
 - Federace subjektů;
 - Těžaři hlavního řetězce (drivechain).
 
-> ► *V angličtině se tomu říká "two-way peg" nebo "2WP".*

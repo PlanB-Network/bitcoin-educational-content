@@ -8,4 +8,3 @@ Suojamekanismi Sybil-hyökkäyksiä vastaan, joille on ominaista useiden vääre
 
 Kaivajien tekemä työ palkitaan jokaisesta löydetystä kelvollisesta lohkosta. Voittava louhija saa rahallisen palkkion, joka koostuu lohkotuesta (uusien bitcoinien luominen ex nihilo) ja transaktiomaksuista. Nykyään Bitcoinin työn todistamisen vaikeus on niin suuri, että louhinta vaatii huomattavaa laskentatehoa, jotta lohkojen voittaminen onnistuu. Tämän vuoksi on usein tarpeen omistaa erityisiä elektronisia siruja, jotka on tarkoitettu `SHA256d`:n suorittamiseen ja joita kutsutaan ASIC-piireiksi, ja osallistua louhintapooleihin.
 
-> ► *Englanniksi sitä kutsutaan nimellä "Proof-of-Work", joskus lyhennettynä "PoW "*

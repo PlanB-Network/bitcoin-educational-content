@@ -6,4 +6,3 @@ Vzor nebo model transakce používaný při analýze řetězce k určení povahy
 
 ![](../../dictionnaire/assets/6.webp)
 
-> ► *Ve francouzštině by se "sweep transaction" dalo přeložit jako "transaction de balayage".*

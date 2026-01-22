@@ -8,4 +8,3 @@ Sebuah mekanisme yang membuat koneksi antara sistem Bitcoin utama dan rantai sam
 - Sebuah federasi entitas;
 - Para penambang rantai utama (_drivechain_).
 
-> *dalam bahasa Inggris, ini disebut sebagai "two-way peg" atau "2WP".*

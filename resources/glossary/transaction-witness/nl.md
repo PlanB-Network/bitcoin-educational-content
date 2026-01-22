@@ -8,4 +8,3 @@ Verwijst naar een onderdeel van Bitcoin transacties dat werd verplaatst met SegW
 Vóór SegWit konden handtekeningen licht gewijzigd worden zonder ongeldig gemaakt te worden voordat een transactie bevestigd werd, waardoor de identificatiecode van de transactie veranderde. Dit maakte het moeilijk om verschillende protocollen te bouwen, omdat de identifier van een onbevestigde transactie kon veranderen. Door de getuigen te scheiden, maakt SegWit transacties niet-malleerbaar, omdat elke verandering in de handtekeningen niet langer de transactie-identifier (txid) beïnvloedt, maar alleen de getuige-identifier (WTXID). Naast het oplossen van het probleem van de vervalsbaarheid, maakt deze scheiding een verhoging van de capaciteit van elk blok mogelijk.
 
 
-> ► *In het Engels wordt "témoin" vertaald als "getuige".*

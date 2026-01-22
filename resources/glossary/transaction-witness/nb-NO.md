@@ -6,4 +6,3 @@ Refererer til en komponent i Bitcointransaksjoner som ble flyttet med SegWit sof
 
 Før SegWit kunne signaturer endres litt uten å bli ugyldiggjort før en transaksjon ble bekreftet, noe som endret transaksjonsidentifikatoren. Dette gjorde det vanskelig å bygge ulike protokoller, ettersom en ubekreftet transaksjon kunne få endret sin identifikator. Ved å skille vitnene fra hverandre gjør SegWit transaksjonene ikke-feilbarlige, ettersom enhver endring i signaturene ikke lenger påvirker transaksjonsidentifikatoren (TXID), men bare vitneidentifikatoren (WTXID). I tillegg til å løse problemet med manipulerbarhet, gjør denne separasjonen det mulig å øke kapasiteten til hver blokk.
 
-> på engelsk oversettes "témoin" med "vitne"

@@ -15,4 +15,3 @@ term: OBSOLETE BLOCK (过时区块)
 
 ![](../../dictionnaire/assets/9.webp)
 
-> ► *在英语中，它被称为 “Stale Block”，而它的中文翻译是 “过时区块”*。

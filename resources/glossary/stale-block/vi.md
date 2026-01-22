@@ -15,4 +15,3 @@ Refers to a block without children: a valid block, but excluded from the main Bi
 
 ![](../../dictionnaire/assets/9.webp)
 
-> ► *In English, it is referred to as a "Stale Block". In French, it can also be called "bloc périmé" or "bloc abandonné". Although I do not agree with this usage, some bitcoiners use the term "bloc orphelin" to refer to what is actually an obsolete block.*

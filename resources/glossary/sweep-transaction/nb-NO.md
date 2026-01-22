@@ -6,4 +6,3 @@ Mønster- eller transaksjonsmodell som brukes i kjedeanalyse for å bestemme tra
 
 ![](../../dictionnaire/assets/6.webp)
 
-> på fransk kan "sweep transaction" oversettes med "transaksjon de balayage"

@@ -6,4 +6,3 @@ Ketjuanalyysissä käytetty malli tai liiketoimintamalli, jolla määritetään 
 
 ![](../../dictionnaire/assets/6.webp)
 
-> ► *Ranskan kielessä "sweep transaction" voitaisiin kääntää "transaction de balayage".*

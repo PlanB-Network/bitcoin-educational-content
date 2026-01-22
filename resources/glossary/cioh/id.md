@@ -6,9 +6,7 @@ Singkatan dari "*Common Input Ownership Heuristic*". Ini adalah sebuah heuristik
 
 Heuristik analisis ini ditemukan oleh Satoshi Nakamoto sendiri, yang membahasnya di bagian 10 White Paper:
 
-> "Beberapa penghubungan masih tidak dapat dihindari untuk transaksi multi-input, yang secara terpaksa menampilkan bahwa masukannya dimiliki oleh pemilik yang sama. Risikonya adalah jika pemilik dari suatu kunci diketahui, penghubungan bisa menampakkan transaksi-transaksi lainnya yang dimiliki oleh pemilik yang sama." - Nakamoto, S. (2008). "Bitcoin: Sebuah Sistem Uang Tunai Elektronik Peer-to-Peer". Dikonsultasikan di https://bitcoin.org/bitcoin.pdf.
 Bahkan saat ini, CIOH tetap menjadi heuristik utama yang digunakan oleh perusahaan analisis rantai, bersama dengan penggunaan ulang alamat.
 
 ![](../../dictionnaire/assets/13.webp)
 
-> ► *Dalam bahasa Indonesia, "CIOH" dapat diterjemahkan sebagai "Heuristik Kepemilikan Masukan Yang Sama".*

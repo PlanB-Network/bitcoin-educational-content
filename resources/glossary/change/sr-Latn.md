@@ -8,4 +8,3 @@ U kontekstu Bitcoin transakcija, odnosi se na UTXO kreiran sa preostalim sredstv
 ![](../../dictionnaire/assets/16.webp)
 
 
-> ► *Iako se retko koristi, mogli bismo ga nazvati i "valuta" (vraćeni kusur) kada govorimo o kusuru.*

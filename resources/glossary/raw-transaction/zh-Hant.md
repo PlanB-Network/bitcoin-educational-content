@@ -16,4 +16,3 @@ term: 原始交易
 所謂「*原始交易*」是指原始資料經過 SHA256 Hash 函式兩次傳送至交易的 txid 的 generate。這些資料隨後會用在區塊的 Merkle Tree 中，將交易整合到 Blockchain 中。
 
 
-> ► *此概念有時也稱為「序列化交易」。在法文中，這些詞彙可分別翻譯為「transaction brute」和「transaction sérialisée」*。

@@ -10,4 +10,3 @@ Mehanizam koji uspostavlja vezu između glavnog Bitcoin sistema i Sidechain (ili
 - Rudari glavnog lanca (drivechain).
 
 
-> ► *Na engleskom, ovo se naziva "two-way peg" ili "2WP".*

@@ -11,4 +11,3 @@ Dlatego dla każdej pary kluczy istnieje unikalny kod łańcucha. Kod łańcucha
 Niemożliwe jest wyprowadzenie kluczy bez znajomości kodu łańcucha powiązanego z każdą parą nadrzędną. Wprowadza pseudolosowe dane do procesu wyprowadzania, aby zapewnić, że generowanie kluczy kryptograficznych pozostaje nieprzewidywalne dla atakujących, a jednocześnie jest deterministyczne dla posiadacza Wallet.
 
 
-> w języku angielskim "code de chaîne" nazywany jest "chain code", a "code de chaîne maître" - "master chain code"

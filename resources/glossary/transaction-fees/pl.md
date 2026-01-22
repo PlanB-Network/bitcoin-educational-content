@@ -28,4 +28,3 @@ W tym konkretnym przykładzie była to transakcja zainicjowana przez dyrektora F
 
 Konieczne jest również rozważenie limitów oczyszczania. W okresach dużego przeciążenia, mempoole węzłów oczyszczają swoje oczekujące transakcje poniżej pewnego progu, aby przestrzegać przydzielonego limitu pamięci RAM. Limit ten jest dowolnie wybierany przez użytkownika, ale wielu pozostawia domyślną wartość Bitcoin Core na poziomie 300 MB. Można go zmodyfikować w pliku `Bitcoin.conf` za pomocą parametru `maxmempool`.
 
-> w języku angielskim określamy je jako "opłaty transakcyjne"

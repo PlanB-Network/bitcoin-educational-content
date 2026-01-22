@@ -10,4 +10,3 @@ En mekanism som upprättar en anslutning mellan det huvudsakliga Bitcoin-systeme
 - Utvinnarna av huvudkedjan (drivechain).
 
 
-> ► * På engelska kallas detta för en "two-way peg" eller "2WP".*

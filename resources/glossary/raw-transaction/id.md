@@ -14,4 +14,3 @@ Transaksi Bitcoin yang dibuat dan ditandatangani, ada dalam bentuk biner. Transa
 
 Apa yang disebut sebagai "*transaksi mentah*" mewakili data mentah yang dilewatkan melalui fungsi _hash_ SHA256 dua kali untuk menghasilkan TXID transaksi. Data ini kemudian digunakan dalam pohon Merkle blok untuk mengintegrasikan transaksi ke dalam _blockchain_.
 
-> ► *Konsep ini juga terkadang disebut "Transaksi Terserialisasi (Serialized Transaction)"*

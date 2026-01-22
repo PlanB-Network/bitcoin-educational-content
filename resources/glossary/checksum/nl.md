@@ -8,4 +8,3 @@ De checksum is een waarde die wordt berekend uit een set gegevens en die wordt g
 Op Bitcoin worden controlesommen gebruikt op applicatieniveau om de integriteit van ontvangen adressen te waarborgen. Een controlesom wordt berekend uit de payload van de Address van een gebruiker en vervolgens toegevoegd aan die Address om fouten in de invoer te detecteren. Een controlesom is ook aanwezig in herstelzinnen (mnemonics).
 
 
-> ► *Het is algemeen aanvaard om de Engelse term "checksum" rechtstreeks in het Frans te gebruiken.*

@@ -19,4 +19,3 @@ Dette delesystemet brukes til å estimere arbeidet som utføres av hver enkelt u
 
 Gruvebassenger justerer vanskelighetsgraden for aksjer for å balansere verifikasjonsbelastningen og sørge for at hver gruvearbeider, uansett om den er liten eller stor, sender inn aksjer med noen få sekunders mellomrom. Dette muliggjør en nøyaktig beregning av hver gruvearbeiders hashrate og fordelingen av belønninger i henhold til den valgte metoden for kompensasjonsberegning (PPS, PPLNS, TIDES...).
 
-> på fransk kan "shares" oversettes med "del"

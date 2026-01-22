@@ -82,4 +82,3 @@ b2e00517
 Da bi bio važeći, blok mora imati zaglavlje koje, kada se hešira sa `SHA256d`, proizvodi Hash koji je manji ili jednak cilju težine.
 
 
-> ► *Na engleskom se to naziva "Block Header".*

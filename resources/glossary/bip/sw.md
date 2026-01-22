@@ -41,4 +41,3 @@ BIP kisha hupitia hali tofauti katika mzunguko wa maisha yao. Hali ya sasa imeai
 ![](../../dictionnaire/assets/25.webp)
 
 
-> ► *BIP ni kifupi cha "Pendekezo la Uboreshaji la Bitcoin". Kwa Kifaransa, inaweza kutafsiriwa kama "Proposition d'amélioration de Bitcoin". Hata hivyo, maandishi mengi ya Kifaransa yanatumia moja kwa moja kifupi "BIP" kama nomino ya kawaida, wakati mwingine ya kike, wakati mwingine ya kiume.*

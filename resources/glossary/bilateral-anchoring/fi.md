@@ -9,4 +9,3 @@ Mekanismi, joka luo yhteyden Bitcoin-pääjärjestelmän ja sivuketjun (tai driv
 - Yhteisöjen liitto;
 - Pääketjun (drivechain) louhijat.
 
-> ► *Englanniksi tätä kutsutaan nimellä "two-way peg" tai "2WP".*

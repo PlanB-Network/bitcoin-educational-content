@@ -8,4 +8,3 @@ La suma de comprobación es un valor calculado a partir de un conjunto de datos,
 En Bitcoin, las sumas de comprobación se utilizan a nivel de aplicación para garantizar la integridad de las direcciones de recepción. Se calcula una suma de comprobación a partir de la carga útil de la Address de un usuario, y luego se añade a esa Address para detectar cualquier error en su entrada. Una suma de comprobación también está presente en las frases de recuperación (mnemónicos).
 
 
-> ► *Generalmente se acepta utilizar el término inglés "checksum" directamente en francés.*

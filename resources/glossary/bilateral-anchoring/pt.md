@@ -9,4 +9,3 @@ Um mecanismo que estabelece uma ligação entre o sistema Bitcoin principal e um
 - Uma federação de entidades;
 - Os mineiros da cadeia principal (drivechain).
 
-> ► *Em inglês, isto é referido como "two-way peg" ou "2WP".*

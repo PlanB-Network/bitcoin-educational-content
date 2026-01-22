@@ -8,4 +8,3 @@ Batched spending to technika wydatkowania wykorzystywana głównie przez podmiot
 ![](../../dictionnaire/assets/8.webp)
 
 
-> w języku francuskim "wydatki grupowe" można przetłumaczyć jako "dépense groupée"

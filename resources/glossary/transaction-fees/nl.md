@@ -28,4 +28,3 @@ In dit specifieke voorbeeld was het een transactie geïnitieerd door de directeu
 
 Het is ook nodig om de limieten van purging te overwegen. Tijdens periodes van hoge congestie zuiveren de mempools van nodes hun lopende transacties onder een bepaalde drempel, om hun toegewezen RAM-limiet te respecteren. Deze limiet is vrij te kiezen door de gebruiker, maar velen laten de standaardwaarde van Bitcoin core op 300 MB staan. Het kan worden aangepast in het `Bitcoin.conf` bestand met de `maxmempool` parameter.
 
-> ► *In het Engels noemen we dit "transaction fees".*

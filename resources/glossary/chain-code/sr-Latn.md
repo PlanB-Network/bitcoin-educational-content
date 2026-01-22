@@ -11,4 +11,3 @@ Stoga, postoji jedinstveni lančani kod za svaki par ključeva. Lančani kod se 
 Nemoguće je izvesti ključeve bez poznavanja lanca koda povezanog sa svakim roditeljskim parom. On uvodi pseudo-slučajne podatke u proces izvođenja kako bi osigurao da generisanje kriptografskih ključeva ostane nepredvidivo za napadače, dok je deterministično za vlasnika Wallet.
 
 
-> ► *Na engleskom, "code de chaîne" se zove "chain code", a "code de chaîne maître" se zove "master chain code".*

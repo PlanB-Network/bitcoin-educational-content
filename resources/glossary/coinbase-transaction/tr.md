@@ -11,4 +11,3 @@ Coinbase Transaction öncelikle iki amaca hizmet eder: Block reward'i Miner'e ve
 Coinbase Transaction normal işlemlerden birkaç yönden farklıdır. İlk olarak, bir girdisi yoktur, yani mevcut hiçbir işlem çıktısı (UTXO) onun tarafından tüketilmez. Daha sonra, Coinbase Transaction için imza komut dosyası (`scriptSig`) tipik olarak özel mesajlar veya Mining yazılım sürümü bilgileri gibi ek verilerin dahil edilmesine izin veren rastgele bir alan içerir. Son olarak, Coinbase Transaction tarafından üretilen bitcoinler, zincirin yeniden düzenlenmesi durumunda var olmayan bitcoinlerin potansiyel olarak harcanmasını önlemek için harcanmadan önce 100 blokluk (101 onay) bir vade süresine tabidir.
 
 
-> ► *Fransızca'da "Coinbase" için bir çeviri bulunmamaktadır. Bu nedenle, bu terimin doğrudan kullanılması kabul edilmektedir.*

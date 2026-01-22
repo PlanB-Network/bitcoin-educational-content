@@ -8,4 +8,3 @@ A soma de controlo é um valor calculado a partir de um conjunto de dados, utili
 No Bitcoin, as somas de controlo são utilizadas a nível da aplicação para garantir a integridade dos endereços de receção. Uma soma de controlo é calculada a partir da carga útil do Address de um utilizador, sendo depois adicionada a esse Address para detetar eventuais erros na sua entrada. Uma soma de controlo está também presente nas frases de recuperação (mnemónicas).
 
 
-> ► *É geralmente aceite utilizar o termo inglês "checksum" diretamente em francês.*

@@ -8,4 +8,3 @@ Bitcoin üzerinde geçerli bir blok bulduklarında bir Miner tarafından alınan
 Block reward, "coinbase" adı verilen belirli bir işlem içinde dağıtılır. Bu işlemden elde edilen bitcoinler 100 blokluk bir süre için otomatik olarak kilitlenir. Bu, vade süresi olarak adlandırılır.
 
 
-> ► *İngilizce çevirisi "Block reward "tir.*

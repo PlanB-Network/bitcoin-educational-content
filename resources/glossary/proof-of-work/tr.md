@@ -11,4 +11,3 @@ Gayrimeşru bir avantaj elde etmek amacıyla birden fazla sahte kimliğin oluşt
 Madenciler tarafından gerçekleştirilen bu çalışma, bulunan her geçerli blok için ödüllendirilir. Kazanan Miner, blok sübvansiyonu (ex nihilo yeni bitcoinlerin yaratılması) ve işlem ücretlerinden oluşan parasal bir ödül alır. Günümüzde, Proof of Work'in Bitcoin üzerindeki zorluğu, Mining'nin blok kazanmayı başarmak için önemli bir hesaplama gücü gerektirdiği şekildedir. Sonuç olarak, ASIC olarak bilinen `SHA256d`yi çalıştırmak için özel elektronik çiplere sahip olmak ve Mining havuzlarına katılmak genellikle gereklidir.
 
 
-> ► *İngilizcede "Proof-of-Work" olarak adlandırılır, bazen "PoW" olarak kısaltılır.*

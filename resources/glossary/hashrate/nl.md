@@ -8,4 +8,3 @@ Indicator van de rekenkracht van het netwerk, gemeten in hashes per seconde (H/s
 De Hashrate is ook een indicatie voor de competitie tussen mijnwerkers: hoe hoger de Hashrate, hoe hoger de Mining moeilijkheidsgraad, wat de verdeling van beloningen beïnvloedt en dus de winstgevendheid van mijnwerkers. Het is daarom een belangrijke indicator voor de gezondheid en veiligheid van het Bitcoin systeem. Net zoals de Hashrate gebruikt wordt om de totale rekenkracht van het Bitcoin netwerk te meten, kan het ook gebruikt worden om de rekenkracht van een machine, een Mining farm of een Mining pool te meten.
 
 
-> ► *In het Frans wordt het "taux de hachage" genoemd, hoewel de term "Hashrate" veel gebruikt wordt in het dagelijks taalgebruik.*

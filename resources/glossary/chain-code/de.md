@@ -8,4 +8,3 @@ Daher gibt es für jedes Schlüsselpaar einen eindeutigen Kettencode. Der Ketten
 
 Es ist unmöglich, Schlüssel abzuleiten, ohne den Kettencode zu kennen, der mit jedem Elternpaar verbunden ist. Es führt Pseudo-Zufallsdaten in den Ableitungsprozess ein, um sicherzustellen, dass die Generierung kryptografischer Schlüssel für Angreifer unvorhersehbar bleibt, während sie für den Inhaber der Brieftasche deterministisch ist.
 
-> ► *Im Englischen wird ein "code de chaîne" als "chain code" und ein "code de chaîne maître" als "master chain code" bezeichnet.*

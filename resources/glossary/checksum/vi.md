@@ -8,4 +8,3 @@ Tổng kiểm tra là giá trị được tính toán từ một tập dữ li�
 Trên Bitcoin, tổng kiểm tra được sử dụng ở cấp ứng dụng để đảm bảo tính toàn vẹn của các địa chỉ nhận. Tổng kiểm tra được tính toán từ tải trọng của Address của người dùng, sau đó được thêm vào Address đó để phát hiện bất kỳ lỗi nào trong đầu vào của nó. Tổng kiểm tra cũng có trong các cụm từ khôi phục (mnemonics).
 
 
-> ► *Người ta thường chấp nhận sử dụng thuật ngữ tiếng Anh "checksum" trực tiếp trong tiếng Pháp.*

@@ -8,4 +8,3 @@ Gukoresha amafaranga mu buryo bw’imigwi ni ubuhinga bukoreshwa cane cane n’i
 ![](../../dictionnaire/assets/8.webp)
 
 
-> ► *Mu gifaransa, "ugukoresha amahera mu migwi" bishobora guhindurwa ngo "dépense groupée."*

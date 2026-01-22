@@ -14,4 +14,3 @@ En Bitcoin-transaksjon som er bygget og signert, og som eksisterer i sin binære
 
 Det som omtales som en "*råtransaksjon*", representerer rådataene som sendes gjennom SHA256-hashfunksjonen to ganger for å generere transaksjonens TXID. Disse dataene brukes deretter i blokkens Merkle-tre for å integrere transaksjonen i blokkjeden.
 
-> dette konseptet kalles også noen ganger "Serialized Transaction". På fransk kan disse begrepene oversettes med henholdsvis "transaction brute" og "transaction sérialisée"

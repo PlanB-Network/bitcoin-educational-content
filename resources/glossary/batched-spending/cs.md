@@ -6,4 +6,3 @@ Dávkové utrácení je technika utrácení, kterou využívají především su
 
 ![](../../dictionnaire/assets/8.webp)
 
-> ► *Ve francouzštině lze "dávkové výdaje" přeložit jako "dépense groupée "*

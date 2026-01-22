@@ -16,4 +16,3 @@ Oluşturulmuş ve imzalanmış, ikili formunda mevcut olan bir Bitcoin işlemi. 
 "*Ham işlem*" olarak adlandırılan şey, işlemin generate'ünü txid'e dönüştürmek için SHA256 Hash işlevinden iki kez geçirilen ham verileri temsil eder. Bu veriler daha sonra işlemi Blockchain'ye entegre etmek için bloğun Merkle Tree'inde kullanılır.
 
 
-> ► *Bu kavram bazen "Serileştirilmiş İşlem" olarak da adlandırılır. Fransızca'da bu terimler sırasıyla "transaction brute" ve "transaction sérialisée" olarak çevrilebilir.*

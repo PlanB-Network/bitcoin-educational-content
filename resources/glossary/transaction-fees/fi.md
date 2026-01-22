@@ -22,4 +22,3 @@ Tässä esimerkissä kyseessä oli F2Pool-kaivospoolien johtajan käynnistämä 
 
 On myös otettava huomioon puhdistamisen rajat. Suuren ruuhkautumisen aikana solmujen mempoolit poistavat tietyn rajan alittavat vireillä olevat tapahtumat, jotta ne noudattaisivat niille osoitettua RAM-muistirajaa. Käyttäjä voi valita tämän rajan vapaasti, mutta monet jättävät Bitcoin Coren oletusarvoksi 300 Mt. Sitä voidaan muuttaa `bitcoin.conf`-tiedostossa parametrilla `maxmempool`.
 
-> ► *Englanniksi puhutaan "transaktiomaksuista".*

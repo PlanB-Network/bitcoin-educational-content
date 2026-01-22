@@ -20,4 +20,3 @@ Igikoresho ca Bitcoin cubatswe kandi gishizweko umukono, kiriho mu buryo bwaco b
 Ivyo vyitwa "*ugucuruza bitagiramwo ibinure*" bigereranya amakuru atagiramwo ibinure aca mu gikorwa ca SHA256 Hash incuro zibiri ku generate txid y'ugucuruza. Aya makuru aca akoreshwa muri Merkle Tree y'ibarabara kugira ngo akoreshe mu Blockchain.
 
 
-> ► *Ico ciyumviro rimwe na rimwe citwa "Ibikorwa vy'Igihugu". Mu gifaransa, ayo majambo yoshobora guhindurwa ngo "ugucuruza kw'agahomerabunwa" n'"ugucuruza kw'ububisha".*

@@ -8,4 +8,3 @@ Model ili obrazac transakcije korišćen u analizi lanca za određivanje prirode
 ![](../../dictionnaire/assets/6.webp)
 
 
-> ► *U francuskom, "sweep transaction" bi se mogao prevesti kao "transaction de balayage".*

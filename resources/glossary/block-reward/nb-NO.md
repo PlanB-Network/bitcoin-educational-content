@@ -6,4 +6,3 @@ Den totale summen bitcoins som en utvinner mottar når vedkommende finner en gyl
 
 Blokkbelønningen distribueres innenfor en spesifikk transaksjon kalt "coinbase". Bitcoinsene som utvinnes fra den, låses automatisk i en periode på 100 blokker. Dette kalles forfallsperioden.
 
-> den engelske oversettelsen er "Block Reward"

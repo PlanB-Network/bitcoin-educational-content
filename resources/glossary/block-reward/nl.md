@@ -8,4 +8,3 @@ Het totaal aan bitcoins dat een Miner ontvangt wanneer hij een geldig blok vindt
 Het Block reward wordt gedistribueerd binnen een specifieke transactie genaamd "coinbase". De bitcoins die eruit worden gehaald, worden automatisch vergrendeld voor een periode van 100 blokken. Dit wordt de looptijd genoemd.
 
 
-> ► *De Engelse vertaling is "Block reward".*

@@ -8,4 +8,3 @@ Suma bitcoinów otrzymanych przez Miner po znalezieniu ważnego bloku na Bitcoin
 Block reward jest dystrybuowany w ramach określonej transakcji o nazwie "coinbase". Wydobyte z niej bitcoiny są automatycznie blokowane na okres 100 bloków. Jest to określane jako okres zapadalności.
 
 
-> tłumaczenie angielskie to "Block reward"

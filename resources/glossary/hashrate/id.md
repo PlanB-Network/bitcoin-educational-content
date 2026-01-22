@@ -6,4 +6,3 @@ Indikator daya komputasi jaringan, diukur dalam _hash_ per detik (H/s). Paramete
 
 _Hashrate_ juga mengindikasikan kompetisi di antara para penambang: semakin tinggi _hashrate_, semakin besar tingkat kesulitan menambang, yang memengaruhi distribusi _reward_ dan profitabilitas para penambang. Oleh karena itu, _hashrate_ merupakan indikator utama kesehatan dan keamanan sistem Bitcoin. Seperti halnya _hashrate_ digunakan untuk mengukur daya komputasi keseluruhan jaringan Bitcoin, _hashrate_ juga dapat digunakan untuk mengukur daya komputasi sebuah mesin, _mining farm_, atau _mining pool_.
 
-> ► *Dalam bahasa Indonesia, istilah "hashrate" banyak digunakan dalam bahasa sehari-hari*

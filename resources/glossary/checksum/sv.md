@@ -8,4 +8,3 @@ Kontrollsumman är ett värde som beräknas från en uppsättning data och som a
 På Bitcoin används kontrollsummor på applikationsnivå för att säkerställa integriteten hos mottagande adresser. En kontrollsumma beräknas från nyttolasten i en användares Address och läggs sedan till i Address för att upptäcka eventuella fel i dess inmatning. En kontrollsumma finns också i återställningsfraser (mnemonics).
 
 
-> ► *Det är allmänt accepterat att använda den engelska termen "checksum" direkt på franska*

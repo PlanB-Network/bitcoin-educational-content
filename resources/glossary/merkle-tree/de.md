@@ -20,4 +20,3 @@ Mit diesen Informationen bin ich in der Lage, die Zwischenknoten bis zur Merkle-
 
 Merkle-Bäume werden vor allem für leichte Knoten (so genannte "SPV") verwendet, die nur die Block-Header, nicht aber die Transaktionen aufbewahren. Diese Struktur findet sich auch im UTREEXO-Protokoll, einem Protokoll, das die Verdichtung der UTXO-Knotengruppe ermöglicht, und im MAST Taproot.
 
-> ► *Der Merkle-Baum ist nach Ralph Merkle benannt, einem Kryptographen, der diese Struktur 1979 entworfen hat. Ein Merkle-Baum kann auch als "Hash-Baum" bezeichnet werden. Im Französischen wird er als "Arbre de Merkle" oder "arbre de hachage" bezeichnet.*

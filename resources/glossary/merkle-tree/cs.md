@@ -20,4 +20,3 @@ S těmito informacemi jsem schopen vypočítat mezilehlé uzly až po Merkleho k
 
 Merkleho stromy se používají zejména pro lehké uzly (známé jako "SPV"), které uchovávají pouze hlavičky bloků, ale ne transakce. Tato struktura se vyskytuje také v protokolu UTREEXO, protokolu, který umožňuje kondenzaci sady uzlů UTXO, a v protokolu MAST Taproot.
 
-> ► *Merkleho strom je pojmenován po Ralphu Merklem, kryptografovi, který tuto strukturu v roce 1979 navrhl. Merkleho strom se může nazývat také "hashovací strom". Ve francouzštině se označuje jako "Arbre de Merkle" nebo "arbre de hachage".*

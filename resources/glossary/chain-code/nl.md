@@ -11,4 +11,3 @@ Daarom is er een unieke chain code voor elk sleutelpaar. De chain code wordt ver
 Het is onmogelijk om sleutels af te leiden zonder de chain code geassocieerd met elk ouderpaar te kennen. Het introduceert pseudo-willekeurige gegevens in het afleidingsproces om ervoor te zorgen dat het genereren van cryptografische sleutels onvoorspelbaar blijft voor aanvallers, terwijl het deterministisch is voor de Wallet houder.
 
 
-> ► *In het Engels wordt een "code de chaîne" een "chain code" genoemd, en een "code de chaîne maître" een "master chain code".*

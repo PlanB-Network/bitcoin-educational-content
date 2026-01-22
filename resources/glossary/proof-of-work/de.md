@@ -8,4 +8,3 @@ Ein Schutzmechanismus gegen Sybil-Angriffe, die durch die Schaffung mehrerer gef
 
 Diese von den Minern geleistete Arbeit wird für jeden gefundenen gültigen Block belohnt. Der erfolgreiche Miner erhält eine finanzielle Belohnung, die sich aus der Blocksubvention (Schaffung neuer Bitcoins ex nihilo) und Transaktionsgebühren zusammensetzt. Heutzutage ist die Schwierigkeit des Arbeitsnachweises bei Bitcoin so hoch, dass das Mining eine erhebliche Rechenleistung erfordert, um Blöcke zu gewinnen. Daher ist es oft notwendig, spezielle elektronische Chips für die Ausführung von "SHA256d", so genannte ASICs, zu besitzen und sich an Mining-Pools zu beteiligen.
 
-> ► *Im Englischen wird es als "Proof-of-Work" bezeichnet, manchmal abgekürzt als "PoW".*

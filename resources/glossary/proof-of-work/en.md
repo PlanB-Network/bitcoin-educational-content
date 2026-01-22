@@ -8,4 +8,3 @@ A protection mechanism against Sybil attacks, which are characterized by the cre
 
 This work performed by miners is rewarded for each valid block found. The winning miner receives a monetary reward, consisting of the block subsidy (creation of new bitcoins ex nihilo), and transaction fees. Today, the difficulty of proof of work on Bitcoin is such that mining requires significant computational power to succeed in winning blocks. As a result, it is often necessary to have specialized electronic chips for executing `SHA256d`, known as ASICs, and to participate in mining pools.
 
-> ► *In English, it is referred to as "Proof-of-Work", sometimes abbreviated as "PoW".*

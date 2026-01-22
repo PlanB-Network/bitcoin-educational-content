@@ -82,4 +82,3 @@ b2e00517
 To be valid, a block must have a header that, once hashed with `SHA256d`, produces a Hash that is less than or equal to the difficulty target.
 
 
-> ► *In English, it is referred to as a "Block Header".*

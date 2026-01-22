@@ -32,4 +32,3 @@ BIPs then go through different statuses over their lifecycle. The current status
 
 ![](../../dictionnaire/assets/25.webp)
 
-> ► *BIP is the acronym for "Bitcoin Improvement Proposal". In French, it can be translated as "Proposition d'amélioration de Bitcoin". However, most French texts directly use the acronym "BIP" as a common noun, sometimes feminine, sometimes masculine.*

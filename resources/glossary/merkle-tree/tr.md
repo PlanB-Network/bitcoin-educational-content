@@ -25,4 +25,3 @@ Bu bilgilerle Merkle Root'a kadar olan ara düğümleri hesaplayabiliyorum.
 Merkle Ağaçları özellikle sadece blok başlıklarını tutan ancak işlemleri tutmayan hafif düğümler ("SPV" olarak bilinir) için kullanılır. Bu yapı, UTXO düğüm kümesinin yoğunlaştırılmasına olanak tanıyan bir protokol olan UTREEXO protokolünde ve MAST Taproot'da da bulunur.
 
 
-> ► *Merkle Tree adını 1979 yılında bu yapıyı tasarlayan kriptograf Ralph Merkle'den almıştır. Bir Merkle Tree aynı zamanda "Hash ağacı" olarak da adlandırılabilir. Fransızca'da "Arbre de Merkle" veya "arbre de hachage" olarak adlandırılır.*

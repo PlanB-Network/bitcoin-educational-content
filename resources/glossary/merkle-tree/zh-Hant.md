@@ -25,4 +25,3 @@ Merkle Tree 是一種加密累加器。它是一種證明特定資訊在一個�
 Merkle Trees 主要用於只保留區塊標頭而不保留交易的輕型節點 (稱為「SPV」)。這種結構也出現在 UTREEXO 通訊協定 (UTREEXO 通訊協定) 和 MAST Taproot (MAST Taproot 通訊協定)，前者允許濃縮 UTXO 節點集，後者則允許濃縮 UTXO 節點集。
 
 
-> ► *Merkle Tree以1979年設計此結構的密碼學家Ralph Merkle命名。Merkle Tree 也可以稱為「Hash 樹」。在法語中，它被稱為 "Arbre de Merkle" 或 "arbre de hachage"。*

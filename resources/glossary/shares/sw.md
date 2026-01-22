@@ -25,4 +25,3 @@ Mfumo huu wa hisa hutumika kukadiria kazi iliyofanywa na kila mtu Miner ndani ya
 Makundi ya Mining hurekebisha ugumu wa hisa ili kusawazisha mzigo wa uthibitishaji na kuhakikisha kwamba kila Miner, iwe ndogo au kubwa, inawasilisha hisa takriban kila sekunde chache. Hii inaruhusu hesabu sahihi ya kila Hashrate ya Miner na usambazaji wa zawadi kulingana na mbinu iliyochaguliwa ya hesabu ya fidia (PPS, PPLNS, TIDES...).
 
 
-> ► *Kwa Kifaransa, "hisa" inaweza kutafsiriwa kama "sehemu".*

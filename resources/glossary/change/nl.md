@@ -8,4 +8,3 @@ In de context van Bitcoin transacties, verwijst naar de UTXO gecreëerd met de o
 ![](../../dictionnaire/assets/16.webp)
 
 
-> ► *Ook al wordt het zelden gebruikt, we kunnen het ook "valuta" (gegeven wisselgeld) noemen om over het wisselgeld te praten.*

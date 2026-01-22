@@ -8,4 +8,3 @@ W kontekście transakcji Bitcoin odnosi się do UTXO utworzonego z pozostałych 
 ![](../../dictionnaire/assets/16.webp)
 
 
-> nawet jeśli jest to rzadko używane, możemy również odnieść się do "waluty" (wydanej reszty), aby mówić o zmianie

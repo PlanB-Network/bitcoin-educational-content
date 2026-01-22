@@ -6,4 +6,3 @@ The total bitcoins received by a miner when they find a valid block on Bitcoin. 
 
 The block reward is distributed within a specific transaction called "coinbase". The bitcoins extracted from it are automatically locked for a period of 100 blocks. This is referred to as the maturity period.
 
-> ► *The English translation is "Block Reward".*

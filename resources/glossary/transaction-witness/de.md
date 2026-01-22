@@ -6,4 +6,3 @@ Bezieht sich auf eine Komponente von Bitcoin-Transaktionen, die mit der SegWit-S
 
 Vor SegWit konnten Signaturen leicht verändert werden, ohne dass sie ungültig wurden, bevor eine Transaktion bestätigt wurde, wodurch sich die Transaktionskennung änderte. Dies erschwerte die Erstellung verschiedener Protokolle, da sich die Kennung einer unbestätigten Transaktion ändern konnte. Durch die Trennung der Zeugen macht SegWit Transaktionen nicht mehr fälschbar, da jede Änderung der Signaturen nicht mehr die Transaktionskennung (TXID), sondern nur noch die Zeugenkennung (WTXID) beeinflusst. Durch diese Trennung wird nicht nur das Problem der Fälschbarkeit gelöst, sondern auch die Kapazität der einzelnen Blöcke erhöht.
 
-> ► *Im Englischen wird "témoin" mit "Zeuge" übersetzt.*

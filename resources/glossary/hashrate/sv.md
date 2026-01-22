@@ -8,4 +8,3 @@ Indikator för nätverkets datorkraft, mätt i hashes per sekund (H/s). Den indi
 Hashrate är också en indikation på konkurrensen mellan gruvarbetarna: ju högre Hashrate, desto större Mining-svårighet, vilket påverkar fördelningen av belöningar och därmed gruvarbetarnas lönsamhet. Det är därför en viktig indikator på Bitcoin-systemets hälsa och säkerhet. Precis som Hashrate används för att mäta den totala datorkraften i Bitcoin-nätverket kan den också användas för att mäta datorkraften i en maskin, en Mining-farm eller en Mining pool.
 
 
-> ► * På franska kallas det "taux de hachage", även om termen "Hashrate" används allmänt i vardagsspråket.*

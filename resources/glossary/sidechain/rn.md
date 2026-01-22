@@ -8,4 +8,3 @@ Blockchain yagenewe gukorana n'iyindi Blockchain ya Bitcoin. Iyo minyororo ibiri
 Iciyumviro c’indege ya Sidechain catangujwe mu mwaka w’2014 na Adam Back, Matt Corallo, Luke Dashjr, Mark Friedenbach, Gregory Maxwell, Andrew Miller, Andrew Poelstra, Jorge Timon na Pieter Wuille. Ubu, imirongo y’inyuma izwi cane kuri Bitcoin ni Liquid na RSK (Rootstock). Ariko rero, ivyo biguma bikoreshwa bike cane ugereranyije n'ibindi bisubizo vy'ugupfuka bifise uburyo butandukanye, nka Lightning Network.
 
 
-> ► *Mu gifaransa, ryitwa "uruzitiro rwo ku ruhande" canke "uruzitiro rwo ku ruhande."*

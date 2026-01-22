@@ -8,4 +8,3 @@ Igishushanyo canke urugero rw’ugucuruza rukoreshwa mu gusesangura uruhererekan
 ![](../../dictionnaire/assets/6.webp)
 
 
-> ► *Mu gifaransa, "ugusukura" vyoshobora guhindurwa ngo "ugusukura de balayage".*

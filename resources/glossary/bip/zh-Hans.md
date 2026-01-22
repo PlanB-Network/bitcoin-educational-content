@@ -35,4 +35,3 @@ BIP 在其生命周期中会经历不同的状态。当前状态在每个 BIP �
 
 ![](../../dictionnaire/assets/25.webp)
 
-> ► *BIP 是"Bitcoin Improvement Proposal"的缩写。在中文中，可翻译为 "比特币改进提案"。*

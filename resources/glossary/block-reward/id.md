@@ -6,4 +6,3 @@ Total bitcoin yang diterima oleh penambang ketika mereka menambang blok yang val
 
 _Block reward_ terletak dalam transaksi yang disebut "coinbase". Bitcoin dari transaksi _coinbase_ secara otomatis terkunci untuk jangka waktu 100 blok. Ini disebut sebagai periode jatuh tempo (_maturity period_).
 
-> ► *Terjemahan bahasa Inggrisnya adalah "Block Reward".*

@@ -8,4 +8,3 @@ Kiashiria cha nguvu ya kompyuta ya mtandao, inayopimwa kwa heshi kwa sekunde (H/
 Hashrate pia ni dalili ya ushindani kati ya wachimbaji: juu ya Hashrate, zaidi ya ugumu wa Mining, ambayo huathiri usambazaji wa tuzo, na hivyo faida ya wachimbaji. Kwa hiyo ni kiashiria muhimu cha afya na usalama wa mfumo wa Bitcoin. Kama vile Hashrate inavyotumika kupima nguvu ya jumla ya kompyuta ya mtandao wa Bitcoin, inaweza pia kutumika kupima nguvu ya kompyuta ya mashine, shamba la Mining, au Mining pool.
 
 
-> ► *Katika Kifaransa, inarejelewa kama "taux de hachage," ingawa neno "Hashrate" linatumika sana katika lugha ya kila siku.*

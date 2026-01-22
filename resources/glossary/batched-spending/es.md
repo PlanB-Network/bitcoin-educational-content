@@ -6,4 +6,3 @@ El gasto por lotes es una técnica de gasto utilizada principalmente por entidad
 
 ![](../../dictionnaire/assets/8.webp)
 
-> en francés, "batched spending" puede traducirse como "dépense groupée"

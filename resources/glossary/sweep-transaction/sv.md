@@ -8,4 +8,3 @@ Mönster- eller transaktionsmodell som används i kedjeanalys för att faststäl
 ![](../../dictionnaire/assets/6.webp)
 
 
-> ► *På franska kan "sweep transaction" översättas med "transaktion de balayage"*

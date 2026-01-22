@@ -5,9 +5,7 @@ Common Input Ownership Heuristic*」の略。ビットコインチェーン分�
 
 この分析ヒューリスティックはサトシ・ナカモト自身が発見したもので、ホワイトペーパーのパート10でサトシ・ナカモトが説明している：
 
-> 「しかし、多入力トランザクションでは、その入力が同じ所有者によって所有されていることが必然的に明らかになるため、接続は避けられない。リスクは、鍵の所有者が明らかになった場合、その接続によって同じ所有者に属する他の取引が明らかになる可能性があることである。" - Nakamoto, S. (2008)."Bitcoin: A Peer-to-Peer Electronic Cash System".https://bitcoin.org/bitcoin.pdf で参照。
 現在でもCIOHは、アドレスの再利用と並んで、チェーン分析会社が使用する主要なヒューリスティック手法である。
 
 ![](../../dictionnaire/assets/13.webp)
 
-> 英語では "CIOH "は "Common Input Ownership Heuristic "と訳される。

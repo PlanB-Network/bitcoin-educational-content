@@ -8,4 +8,3 @@ Mechanismus ochrany proti útokům Sybil, které se vyznačují vytvářením v�
 
 Tato práce horníků je odměňována za každý nalezený platný blok. Vítězný těžař obdrží peněžní odměnu, která se skládá z blokové dotace (vytvoření nových bitcoinů ex nihilo) a transakčních poplatků. V současné době je obtížnost důkazu práce v Bitcoinu taková, že těžba vyžaduje značný výpočetní výkon, aby se podařilo získat bloky. V důsledku toho je často nutné mít specializované elektronické čipy pro provádění `SHA256d`, známé jako ASIC, a účastnit se těžebních poolů.
 
-> ► V angličtině se označuje jako "Proof-of-Work", někdy zkráceně "PoW".

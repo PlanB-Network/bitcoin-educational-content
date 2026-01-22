@@ -25,4 +25,3 @@ Dit deelsysteem wordt gebruikt om het werk te schatten dat door elke individuele
 Mining pools passen de moeilijkheidsgraad van de aandelen aan om de verificatielast in balans te brengen en zorgen ervoor dat elke Miner, klein of groot, ongeveer elke paar seconden aandelen indient. Dit maakt een nauwkeurige berekening van de Hashrate van elke Miner mogelijk en de verdeling van beloningen volgens de gekozen berekeningsmethode voor compensatie (PPS, PPLNS, TIDES...).
 
 
-> ► *In het Frans kan "shares" vertaald worden als "deel".*

@@ -11,4 +11,3 @@ En skyddsmekanism mot Sybil-attacker, som kännetecknas av att flera falska iden
 Detta arbete som utförs av miners belönas för varje giltigt block som hittas. Den vinnande Miner får en monetär belöning som består av blocksubventionen (skapande av nya bitcoins ex nihilo) och transaktionsavgifter. Idag är svårighetsgraden för Proof of Work på Bitcoin sådan att Mining kräver betydande beräkningskraft för att lyckas vinna block. Som ett resultat av detta är det ofta nödvändigt att ha specialiserade elektroniska chip för att utföra `SHA256d`, kända som ASICs, och att delta i Mining-pooler.
 
 
-> ► *På engelska kallas det "Proof-of-Work", ibland förkortat "PoW".*

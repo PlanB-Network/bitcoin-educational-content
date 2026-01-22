@@ -8,4 +8,3 @@ I samband med Bitcoin-transaktioner avses den UTXO som skapats med de återståe
 ![](../../dictionnaire/assets/16.webp)
 
 
-> ► *Även om det sällan används kan vi också hänvisa till det som "valuta" (given växel) för att tala om förändringen.*

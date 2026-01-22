@@ -11,4 +11,3 @@ Een beschermingsmechanisme tegen Sybil-aanvallen, die worden gekenmerkt door het
 Dit werk van miners wordt beloond voor elk geldig blok dat wordt gevonden. De winnende Miner ontvangt een geldelijke beloning, bestaande uit de blokkensubsidie (het ex nihilo creëren van nieuwe bitcoins) en transactiekosten. Tegenwoordig is de moeilijkheidsgraad van Proof of Work op Bitcoin zodanig dat Mining aanzienlijke rekenkracht vereist om blokken te kunnen winnen. Daarom is het vaak nodig om gespecialiseerde elektronische chips te hebben voor het uitvoeren van `SHA256d`, bekend als ASIC's, en om deel te nemen aan Mining pools.
 
 
-> ► *In het Engels wordt het "Proof-of-Work" genoemd, soms afgekort als "PoW".*

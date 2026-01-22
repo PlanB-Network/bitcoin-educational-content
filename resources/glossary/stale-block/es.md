@@ -15,4 +15,3 @@ Se refiere a un bloque sin hijos: un bloque válido, pero excluido de la cadena 
 
 ![](../../dictionnaire/assets/9.webp)
 
-> ► *En inglés, se denomina "Stale Block". En francés, también puede denominarse "bloc périmé" o "bloc abandonné". Aunque no estoy de acuerdo con este uso, algunos bitcoiners utilizan el término "bloc orphelin" para referirse a lo que en realidad es un bloque obsoleto.*

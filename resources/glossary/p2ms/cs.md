@@ -6,4 +6,3 @@ P2MS je zkratka pro *Pay to Multisig*, což v překladu znamená "platba za víc
 
 Tento skript vymyslel v roce 2011 Gavin Andresen, když převzal údržbu hlavního klienta Bitcoinu. Dnes se P2MS používá jen okrajově v některých aplikacích. Drtivá většina moderních multisignatur používá jiné skripty, například P2SH nebo P2WSH. Ve srovnání s nimi je P2MS extrémně triviální. Veřejné klíče, ze kterých se skládá, jsou odhaleny při přijetí transakce. Použití P2MS je také dražší než jiné skripty pro multisignatury.
 
-> ► *P2MS se často nazývají "bare-multisig", což by se dalo přeložit jako "nahý multisignature" nebo "surový multisignature". Na začátku roku 2023 se skripty P2MS ocitly v centru kontroverze kvůli jejich nesprávnému použití v rámci protokolu Stamps. Bylo poukázáno zejména na jejich dopad na sadu UTXO*

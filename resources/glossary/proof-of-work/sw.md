@@ -11,4 +11,3 @@ Utaratibu wa ulinzi dhidi ya mashambulizi ya Sybil, ambayo yana sifa ya kuundwa 
 Kazi hii inayofanywa na wachimbaji hulipwa kwa kila kizuizi halali kinachopatikana. Miner iliyoshinda inapokea tuzo ya fedha, inayojumuisha ruzuku ya kuzuia (kuundwa kwa bitcoins mpya ex nihilo), na ada za manunuzi. Leo, ugumu wa Proof of Work kwenye Bitcoin ni kwamba Mining inahitaji nguvu kubwa ya hesabu ili kufanikiwa kushinda vitalu. Kwa hivyo, mara nyingi ni muhimu kuwa na chipsi maalum za kielektroniki kwa ajili ya kutekeleza `SHA256d`, inayojulikana kama ASICs, na kushiriki katika mabwawa ya Mining.
 
 
-> ► *Kwa Kiingereza, inajulikana kama "Proof-of-Work", wakati mwingine hufupishwa kama "PoW".*

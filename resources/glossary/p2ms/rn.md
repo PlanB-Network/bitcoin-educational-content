@@ -8,4 +8,3 @@ P2MS bisobanura *Pay to Multisig*, bisobanura "kwishura ku mikono myinshi". Ni u
 Iyi nyandiko yavumbuwe mu 2011 na Gavin Andresen igihe yafata ingingo yo kwitwararika umukiriya mukuru wa Bitcoin. Ubu, P2MS ikoreshwa gusa ku ruhande n’ibikoresho bimwebimwe. Ivyinshi mu bimenyetso vyinshi vy’ubu bikoresha izindi nyandiko nka P2SH canke P2WSH. Ugereranije n’ivyo, P2MS ni ikintu gisanzwe cane. Imfunguruzo za bose zigizwe na zo zihishurirwa iyo umuntu yakiriye iyo nzira. Gukoresha P2MS navyo birazimvye kuruta ibindi bitabo vy’imikono myinshi.
 
 
-> ► *P2MS akenshi zitwa "bare-Multisig", zishobora guhindurwa ngo "umukono mwinshi w'ubwambure" canke "umukono mwinshi w'ubwambure". Mu ntango z’umwaka w’2023, inyandiko za P2MS zari hagati y’impaka kubera ko zakoreshejwe nabi mu gihe c’amasezerano y’Ibimenyetso. Ingaruka zavyo ku bijanye n’ivyo bikoresho vya UTXO zaragaragajwe cane.*

@@ -20,4 +20,3 @@ Com estas informações, posso calcular os nós intermédios até à raiz de Mer
 
 As árvores de Merkle são utilizadas nomeadamente para os nós leves (conhecidos como "SPV") que apenas conservam os cabeçalhos dos blocos, mas não as transacções. Esta estrutura também é encontrada no protocolo UTREEXO, um protocolo que permite a condensação do conjunto de nós UTXO, e no MAST Taproot.
 
-> ► *A árvore de Merkle tem o nome de Ralph Merkle, um criptógrafo que concebeu esta estrutura em 1979. Uma árvore de Merkle também pode ser designada por "árvore de hash". Em francês, é referida como "Arbre de Merkle" ou "arbre de hachage".*

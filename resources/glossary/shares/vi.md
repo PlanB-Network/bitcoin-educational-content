@@ -19,4 +19,3 @@ This share system is used to estimate the work done by each individual miner wit
 
 Mining pools adjust the difficulty of shares to balance the verification load and ensure that every miner, whether small or large, submits shares approximately every few seconds. This allows for an accurate calculation of each miner's hashrate and the distribution of rewards according to the chosen method of compensation calculation (PPS, PPLNS, TIDES...).
 
-> ► *In French, "shares" can be translated as "part".*

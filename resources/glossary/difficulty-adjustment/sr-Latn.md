@@ -16,4 +16,3 @@ Gde:
 - $1,209,600$: Ciljano vreme u sekundama za proizvodnju 2016 blokova sa intervalom od 10 minuta između svakog.
 
 
-> ► *U francuskom, termin "reciblage" se ponekad koristi i za označavanje prilagođavanja. Na engleskom, to se naziva "Difficulty Adjustment".*

@@ -16,4 +16,3 @@ Gdzie:
 - $1,209,600$: Docelowy czas w sekundach na wyprodukowanie 2016 bloków z 10-minutową przerwą między każdym z nich.
 
 
-> w języku francuskim termin "reciblage" jest czasami również używany w odniesieniu do dostosowania. W języku angielskim jest to określane jako "Difficulty Adjustment"

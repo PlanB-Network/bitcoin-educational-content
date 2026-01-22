@@ -8,4 +8,3 @@ En beskyttelsesmekanisme mot Sybil-angrep, som kjennetegnes ved at det opprettes
 
 Dette arbeidet som utføres av utvinnere, belønnes for hver gyldige blokk som blir funnet. Vinneren mottar en monetær belønning som består av blokktilskuddet (opprettelse av nye bitcoins ex nihilo) og transaksjonsgebyrer. I dag er vanskelighetsgraden på bevis for arbeid på Bitcoin slik at utvinning krever betydelig beregningskraft for å lykkes med å vinne blokker. Derfor er det ofte nødvendig å ha spesialiserte elektroniske brikker for å utføre `SHA256d`, kjent som ASICs, og å delta i utvinningspooler.
 
-> på engelsk kalles det "Proof-of-Work", noen ganger forkortet til "PoW"

@@ -6,4 +6,3 @@ Bitcoin-tapahtumien yhteydessä tarkoittaa UTXO:ta, joka on luotu jäljellä ole
 
 ![](../../dictionnaire/assets/16.webp)
 
-> ► *Vaikka sitä käytetäänkin harvoin, voimme myös käyttää siitä nimitystä "valuutta" (change given) puhuaksemme muutoksesta.*

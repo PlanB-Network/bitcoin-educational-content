@@ -82,4 +82,3 @@ b2e00517
 Aby blok był ważny, musi mieć nagłówek, który po zaszyfrowaniu za pomocą `SHA256d` daje Hash, który jest mniejszy lub równy docelowemu poziomowi trudności.
 
 
-> w języku angielskim jest on określany jako "Block Header"

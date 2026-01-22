@@ -41,4 +41,3 @@ BIP'ler daha sonra yaşam döngüleri boyunca farklı durumlardan geçerler. Mev
 ![](../../dictionnaire/assets/25.webp)
 
 
-> ► *BIP, "Bitcoin İyileştirme Önerisi "nin kısaltmasıdır. Fransızca'da "Proposition d'amélioration de Bitcoin" olarak tercüme edilebilir. Bununla birlikte, çoğu Fransızca metin "BIP" kısaltmasını bazen dişil, bazen eril olmak üzere doğrudan ortak bir isim olarak kullanır.*

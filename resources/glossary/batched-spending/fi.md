@@ -6,4 +6,3 @@ Eräkohtainen rahankäyttö on rahankäytön tekniikka, jota ensisijaisesti käy
 
 ![](../../dictionnaire/assets/8.webp)
 
-> ► * Ranskaksi "batched spending" voidaan kääntää "dépense groupée "*

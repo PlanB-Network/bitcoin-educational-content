@@ -6,4 +6,3 @@ Plokiahel, mis on mõeldud töötama paralleelselt Bitcoini peamise plokiahelaga
 
 Sidechaini kontseptsiooni tutvustasid algselt 2014. aastal Adam Back, Matt Corallo, Luke Dashjr, Mark Friedenbach, Gregory Maxwell, Andrew Miller, Andrew Poelstra, Jorge Timon ja Pieter Wuille. Praegu on Bitcoini tuntuimad külgahelad Liquid ja RSK (Rootstock). Neid kasutatakse aga endiselt palju vähem võrreldes teiste, teistsuguse mudeliga overlay-lahendustega, nagu Lightning Network.
 
-> ► *Fransi keeles nimetatakse seda "chaîne latérale" või "chaîne parallèle "*

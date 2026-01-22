@@ -8,4 +8,3 @@ term: هزینه‌های دسته‌ای
 ![](../../dictionnaire/assets/8.webp)
 
 
-> ► *In French, "batched spending" can be translated as "dépense groupée."*

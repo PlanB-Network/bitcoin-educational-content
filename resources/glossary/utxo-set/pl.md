@@ -8,4 +8,3 @@ Odnosi się do zbioru wszystkich istniejących UTXO w danym momencie. Innymi sł
 Ten zestaw UTXO jest przechowywany przez każdy węzeł, aby szybko zweryfikować, czy UTXO wydane w transakcjach są rzeczywiście legalne. Pozwala im to wykrywać i odrzucać próby Double-spending. Zestaw UTXO jest często głównym powodem obaw o decentralizację Bitcoin, ponieważ jego rozmiar naturalnie rośnie bardzo szybko. Ponieważ jego część musi być przechowywana w pamięci RAM w celu weryfikacji transakcji w rozsądnym czasie, zestaw UTXO może stopniowo sprawić, że obsługa Full node stanie się zbyt kosztowna. Zestaw UTXO ma również znaczący wpływ na IBD (*Initial Block Download*). Im więcej zestawu UTXO można umieścić w pamięci RAM, tym szybszy jest IBD. Na Bitcoin Core, zestaw UTXO jest przechowywany w folderze o nazwie `/chainstate`.
 
 
-> w języku angielskim "UTXO set" można przetłumaczyć jako "zestaw UTXO"

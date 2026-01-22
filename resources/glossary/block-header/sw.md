@@ -82,4 +82,3 @@ b2e00517
 Ili kiwe halali, ni lazima kizuizi kiwe na kichwa ambacho, kikishaharakishwa kwa `SHA256d`, kitatoa Hash ambayo ni ndogo kuliko au sawa na lengo la ugumu.
 
 
-> ► *Kwa Kiingereza, inajulikana kama "Block Header".*

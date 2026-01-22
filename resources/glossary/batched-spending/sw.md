@@ -8,4 +8,3 @@ Matumizi kwa makundi ni mbinu ya matumizi inayotumiwa hasa na mashirika yenye ki
 ![](../../dictionnaire/assets/8.webp)
 
 
-> ► *Kwa Kifaransa, "matumizi yaliyopangwa" yanaweza kutafsiriwa kama "dépense groupée."*

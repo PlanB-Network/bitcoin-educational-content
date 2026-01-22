@@ -8,4 +8,3 @@ _Checksum_ adalah nilai yang dihitung dari sekumpulan data, yang digunakan untuk
 Pada Bitcoin, _checksum_ digunakan pada tingkat aplikasi untuk memastikan integritas alamat yang diterima. _Checksum_ dihitung dari _payload_ Address pengguna, kemudian ditambahkan ke Address tersebut untuk mendeteksi kesalahan pada masukannya. _Checksum_ juga ada dalam frasa pemulihan (mnemonik).
 
 
-> ► *Dalam bahasa Indonesia, checksum biasanya disebut "checksum"*

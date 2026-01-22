@@ -8,4 +8,3 @@ Blockchain zaprojektowany do działania równolegle z głównym Blockchain Bitco
 Koncepcja Sidechain została pierwotnie wprowadzona w 2014 roku przez Adama Backa, Matta Corallo, Luke'a Dashjra, Marka Friedenbacha, Gregory'ego Maxwella, Andrew Millera, Andrew Poelstrę, Jorge Timona i Pietera Wuille. Obecnie najbardziej znanymi łańcuchami bocznymi Bitcoin są Liquid i RSK (Rootstock). Pozostają one jednak znacznie rzadziej używane w porównaniu do innych rozwiązań nakładkowych o innym modelu, takich jak Lightning Network.
 
 
-> w języku francuskim jest on określany jako "chaîne latérale" lub "chaîne parallèle"

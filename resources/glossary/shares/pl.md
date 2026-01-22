@@ -25,4 +25,3 @@ Ten system udziału jest wykorzystywany do szacowania pracy wykonanej przez każ
 Pule Mining dostosowują trudność akcji, aby zrównoważyć obciążenie weryfikacyjne i zapewnić, że każdy Miner, niezależnie od tego, czy jest mały, czy duży, przesyła akcje mniej więcej co kilka sekund. Pozwala to na dokładne obliczenie Hashrate każdego Miner i dystrybucję nagród zgodnie z wybraną metodą obliczania rekompensaty (PPS, PPLNS, TIDES...).
 
 
-> w języku francuskim "udziały" można przetłumaczyć jako "część"

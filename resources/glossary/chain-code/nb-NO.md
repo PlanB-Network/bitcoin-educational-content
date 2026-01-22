@@ -8,4 +8,3 @@ Derfor finnes det en unik kjedekode for hvert nøkkelpar. Kjedekoden oppnås ent
 
 Det er umulig å utlede nøkler uten å kjenne kjedekoden som er knyttet til hvert foreldrepar. Den introduserer pseudotilfeldige data i utledningsprosessen for å sikre at genereringen av kryptografiske nøkler forblir uforutsigbar for angripere, samtidig som den er deterministisk for lommebokinnehaveren.
 
-> på engelsk kalles en "code de chaîne" for en "chain code", og en "code de chaîne maître" kalles en "master chain code"

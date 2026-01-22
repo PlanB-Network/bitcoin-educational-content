@@ -6,4 +6,3 @@ El total de bitcoins que recibe un minero cuando encuentra un bloque válido en 
 
 La recompensa por bloque se distribuye dentro de una transacción específica denominada "coinbase". Los bitcoins extraídos de ella se bloquean automáticamente durante un periodo de 100 bloques. Esto se denomina periodo de maduración.
 
-> ► *La traducción al inglés es "Block Reward".*

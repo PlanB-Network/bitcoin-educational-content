@@ -25,4 +25,3 @@ Met deze stukjes informatie kan ik de tussenliggende knooppunten berekenen tot a
 Merkle Trees worden met name gebruikt voor lichte knooppunten (bekend als "SPV") die alleen de blokkoppen bewaren, maar niet de transacties. Deze structuur wordt ook gevonden in het UTREEXO protocol, een protocol dat het mogelijk maakt om de UTXO set van knooppunten te condenseren, en in de MAST Taproot.
 
 
-> ► *De Merkle Tree is vernoemd naar Ralph Merkle, een cryptograaf die deze structuur in 1979 ontwierp. Een Merkle Tree kan ook een "Hash boom" genoemd worden. In het Frans wordt het "Arbre de Merkle" of "arbre de hachage" genoemd.*

@@ -6,4 +6,3 @@ Kogu bitcoinide summa, mille kaevandaja saab, kui ta leiab Bitcoinis kehtiva blo
 
 Blokkide tasu jaotatakse konkreetse tehingu raames, mida nimetatakse "coinbase". Sellest väljavõetud bitcoinid lukustatakse automaatselt 100 plokiks. Seda nimetatakse tähtajaks.
 
-> ► *Ingliskeelne tõlge on "Block Reward".*

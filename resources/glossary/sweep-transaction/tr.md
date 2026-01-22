@@ -8,4 +8,3 @@ Zincir analizinde işlemin niteliğini belirlemek için kullanılan model veya i
 ![](../../dictionnaire/assets/6.webp)
 
 
-> ► *Fransızca'da "süpürme işlemi", "balyaj işlemi" olarak çevrilebilir.*

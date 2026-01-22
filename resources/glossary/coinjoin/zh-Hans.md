@@ -24,4 +24,3 @@ Maxwell, G. (2013, August 22). *CoinJoin：现实世界的比特币隐私*.Bitco
 
 不过，早先也有人提到过钱币混合中的 Chaum 签名和coinjoin。[2011年6月，Duncan Townsend 在BitcoinTalk](https://bitcointalk.org/index.php?topic=12751.0)上引入了一种混合器，该混合器概念使用 Chaum 签名的方式与现代Chaumian coinjoin十分相似。在同一主题中，还有[哈希币回复Duncan Townsend的信息](https://bitcointalk.org/index.php?topic=12751.msg315793#msg315793)来改进他的钱币混合概念。这条信息提出了最接近于混币的方式。[Alex Mizrahi 于 2012 年的一条信息](https://gist.github.com/killerstorm/6f843e1d3ffc38191aebca67d483bd88#file-laundry)中也提到了类似的系统，当时他正在为 Tenebrix 的创建者提供建议。coinjoin 这一词本身并非由 Greg Maxwell 发明，而是来自 Peter Todd 的一个想法。
 
-> ► *“coinjoin”这一术语没有法语翻译。一些比特币参与者也使用 “mix”、“mixing” 或 “mixage” 来指混币交易。混合是 “混币” 的核心过程。此外，重要的是不要混淆通过 Coinjoin 进行的混合和通过一个中心化机构进行的混币，后者在混合过程中占有比特币。这与用户在过程中不会失去对其比特币控制权的 Coinjoin 毫无关系*。

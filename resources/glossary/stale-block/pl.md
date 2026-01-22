@@ -17,4 +17,3 @@ Odnosi się do bloku bez dzieci: ważny blok, ale wykluczony z głównego łańc
 ![](../../dictionnaire/assets/9.webp)
 
 
-> w języku angielskim jest on określany jako "Stale Block". W języku francuskim można go również nazwać "bloc périmé" lub "bloc abandonné". Chociaż nie zgadzam się z tym użyciem, niektórzy bitcoinerzy używają terminu "bloc orphelin" w odniesieniu do tego, co w rzeczywistości jest przestarzałym blokiem

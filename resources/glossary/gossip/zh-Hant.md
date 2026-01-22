@@ -8,4 +8,3 @@ term: 八卦
 在 Lightning 中，gossip 是節點間分享網路當前狀態和拓樸資訊的通訊協定。八卦協議使節點能夠知道支付通道和其他節點的動態狀態，以方便交易在整個網絡中的路由，而不需要所有節點之間的直接連接。
 
 
-> ► *在法文中，"gossip protocol 「可翻譯為 」protocole de bavardage"。來源 : https://dl.acm.org/doi/pdf/10.1145/41840.41841.*

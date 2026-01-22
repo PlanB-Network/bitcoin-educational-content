@@ -8,4 +8,3 @@ Pertanto, esiste un codice di catena unico per ogni coppia di chiavi. Il codice 
 
 È impossibile derivare le chiavi senza conoscere il codice di catena associato a ciascuna coppia di genitori. Introduce dati pseudocasuali nel processo di derivazione per garantire che la generazione delle chiavi crittografiche rimanga imprevedibile per gli aggressori, pur essendo deterministica per il titolare del portafoglio.
 
-> *In inglese, un "code de chaîne" è chiamato "chain code", e un "code de chaîne maître" è chiamato "master chain code "*

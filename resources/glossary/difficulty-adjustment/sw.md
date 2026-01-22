@@ -16,4 +16,3 @@ Wapi:
 - $1,209,600$: Muda unaolengwa katika sekunde wa kuzalisha vitalu vya 2016 vyenye muda wa dakika 10 kati ya kila moja.
 
 
-> ► *Kwa Kifaransa, neno "reciblage" wakati mwingine pia hutumiwa kurejelea marekebisho. Kwa Kiingereza, inajulikana kama "Marekebisho ya Ugumu".*

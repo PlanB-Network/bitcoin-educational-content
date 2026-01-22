@@ -6,4 +6,3 @@ Pattern or transaction model used in chain analysis to determine the nature of t
 
 ![](../../dictionnaire/assets/6.webp)
 
-> ► *In French, "sweep transaction" could be translated as "transaction de balayage".*

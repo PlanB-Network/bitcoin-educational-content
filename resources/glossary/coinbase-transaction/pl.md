@@ -11,4 +11,3 @@ Coinbase Transaction służy przede wszystkim dwóm celom: przyznaniu Block rewa
 Coinbase Transaction różni się od zwykłych transakcji na kilka sposobów. Po pierwsze, nie ma wejścia, co oznacza, że żadne istniejące wyjście transakcji (UTXO) nie jest przez nią wykorzystywane. Następnie skrypt podpisu (`scriptSig`) dla Coinbase Transaction zazwyczaj zawiera dowolne pole umożliwiające włączenie dodatkowych danych, takich jak niestandardowe wiadomości lub informacje o wersji oprogramowania Mining. Wreszcie, bitcoiny wygenerowane przez Coinbase Transaction podlegają okresowi zapadalności wynoszącemu 100 bloków (101 potwierdzeń), zanim będą mogły zostać wydane, aby zapobiec potencjalnemu wydaniu nieistniejących bitcoinów w przypadku reorganizacji łańcucha.
 
 
-> nie istnieje tłumaczenie "Coinbase" na język francuski. Dlatego akceptowane jest używanie tego terminu bezpośrednio

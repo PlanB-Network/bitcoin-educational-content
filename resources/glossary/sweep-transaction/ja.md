@@ -5,4 +5,3 @@ term: スイープ取引
 
 ![](../../dictionnaire/assets/6.webp)
 
-> フランス語では "sweep transaction "は "transaction de balayage "と訳される。

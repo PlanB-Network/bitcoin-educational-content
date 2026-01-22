@@ -35,4 +35,3 @@ Los PIF pasan por diferentes estados a lo largo de su ciclo de vida. El estado a
 
 ![](../../dictionnaire/assets/25.webp)
 
-> ► *BIP es el acrónimo de "Propuesta de Mejora de Bitcoin". En francés, puede traducirse como "Proposition d'amélioration de Bitcoin". Sin embargo, la mayoría de los textos franceses utilizan directamente el acrónimo "BIP" como un sustantivo común, a veces femenino, a veces masculino.*

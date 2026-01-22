@@ -6,4 +6,3 @@ I forbindelse med Bitcoin-transaksjoner refererer det til UTXO-en som opprettes 
 
 ![](../../dictionnaire/assets/16.webp)
 
-> selv om det sjelden brukes, kan vi også referere til det som "valuta" (vekslepenger) for å snakke om vekslepengene

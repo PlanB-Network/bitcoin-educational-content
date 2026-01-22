@@ -10,4 +10,3 @@ Ana Bitcoin sistemi ile bir Sidechain (veya bir drivechain), yani bir yan zincir
 - Ana zincirin madencileri (drivechain).
 
 
-> ► *İngilizcede buna "two-way peg" veya "2WP" denir.*

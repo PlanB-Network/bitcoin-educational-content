@@ -8,4 +8,3 @@ P2MS staat voor *Betalen aan Multisig*, wat zich vertaalt naar "betalen aan meer
 Dit script werd in 2011 uitgevonden door Gavin Andresen toen hij het onderhoud van de hoofdclient Bitcoin overnam. Vandaag de dag wordt P2MS slechts marginaal gebruikt door sommige applicaties. De overgrote meerderheid van moderne multisignaturen gebruikt andere scripts zoals P2SH of P2WSH. Vergeleken hiermee is P2MS extreem triviaal. De publieke sleutels waaruit het bestaat worden onthuld bij het ontvangen van de transactie. Het gebruik van P2MS is ook duurder dan andere scripts voor meerdere handtekeningen.
 
 
-> ► *P2MS worden vaak "bare-Multisig" genoemd, wat vertaald zou kunnen worden als "naakte multisignatuur" of "ruwe multisignatuur". Begin 2023 stonden P2MS-scripts in het middelpunt van een controverse vanwege hun misbruik binnen het Stamps-protocol. Er werd met name gewezen op hun impact op de UTXO set.*

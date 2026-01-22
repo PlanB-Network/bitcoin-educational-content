@@ -11,4 +11,3 @@ Mechanizm ochrony przed atakami Sybil, które charakteryzują się tworzeniem wi
 Praca wykonywana przez górników jest wynagradzana za każdy znaleziony prawidłowy blok. Zwycięski Miner otrzymuje nagrodę pieniężną, składającą się z dotacji blokowej (tworzenie nowych bitcoinów ex nihilo) i opłat transakcyjnych. Obecnie trudność Proof of Work na Bitcoin jest taka, że Mining wymaga znacznej mocy obliczeniowej, aby odnieść sukces w wygrywaniu bloków. W rezultacie często konieczne jest posiadanie wyspecjalizowanych chipów elektronicznych do wykonywania `SHA256d`, znanych jako ASIC, oraz uczestniczenie w pulach Mining.
 
 
-> w języku angielskim jest on określany jako "Proof-of-Work", czasami w skrócie "PoW"

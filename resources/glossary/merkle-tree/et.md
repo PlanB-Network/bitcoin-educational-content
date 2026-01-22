@@ -20,4 +20,3 @@ Nende andmete abil saan ma arvutada vahepealsed sõlmed kuni Merkle'i juureni.
 
 Merkle Trees'i kasutatakse eelkõige kergete sõlmede (tuntud kui "SPV") puhul, mis säilitavad ainult plokkide päiseid, kuid mitte tehinguid. Seda struktuuri leidub ka UTREEXO protokollis, mis võimaldab UTXO-sõlmede kogumi tihendamist, ja MAST Taproot'is.
 
-> ► *Märkle Tree on nimetatud Ralph Merkle'i järgi, kes on krüptograaf, kes töötas selle struktuuri välja 1979. aastal. Merkle Tree'i võib nimetada ka "hash tree". Prantsuse keeles nimetatakse seda "Arbre de Merkle" või "arbre de hachage "*

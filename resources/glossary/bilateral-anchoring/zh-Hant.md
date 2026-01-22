@@ -10,4 +10,3 @@ term: 雙邊錨定
 - 主鏈 (drivechain) 的礦工。
 
 
-> ► *在英文中，這被稱為 "two-way peg" 或 "2WP"。*

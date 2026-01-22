@@ -66,4 +66,3 @@ b2e00517
 
 Agar valid, sebuah blok harus memiliki _header_ yang setelah di-hash dengan `SHA256d`, menghasilkan _hash_ yang hasilnya kurang dari atau sama dengan target tingkat kesulitan.
 
-> ► *Dalam bahasa Inggris, ini disebut sebagai "Block Header"*

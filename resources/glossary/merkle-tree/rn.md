@@ -27,4 +27,3 @@ Nkoresheje ayo makuru, ndashobora kubara amanode yo hagati gushika kuri Merkle R
 Ibiti vya Merkle bikoreshwa cane cane ku nzira z'umuco (zizwi nka "SPV") zigumya gusa imitwe y'amabuye, ariko ntizigumya ibikorwa. Iyi mibumbe iraboneka kandi mu masezerano ya UTREEXO, amasezerano yemerera gukorana kw'imirongo ya UTXO, no muri MAST Taproot.
 
 
-> ► *Merkle Tree yitwa izina rya Ralph Merkle, umuhinga mu vy'ubuhinga bw'amabanga yahingura iyo nzira mu 1979. Merkle Tree ishobora kandi kwitwa "igiti ca Hash". Mu gifaransa, ryitwa "Arbre de Merkle" canke "arbre de hachage".*

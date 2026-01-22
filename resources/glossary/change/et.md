@@ -6,4 +6,3 @@ Bitcoini tehingute kontekstis viitab UTXO-le, mis on loodud pärast tegeliku mak
 
 ![](../../dictionnaire/assets/16.webp)
 
-> ► *Kuigi seda kasutatakse harva, võiksime muutusest rääkides nimetada seda ka "valuutaks"* (change given)

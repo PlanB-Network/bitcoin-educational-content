@@ -28,4 +28,3 @@ Bu özel örnekte, F2Pool Mining pool'un yöneticisi tarafından başlatılan bi
 
 Ayrıca temizleme sınırlarını da göz önünde bulundurmak gerekir. Yüksek tıkanıklık dönemlerinde, düğümlerin mempool'ları, kendilerine tahsis edilen RAM sınırına uymak için bekleyen işlemlerini belirli bir eşiğin altında temizler. Bu sınır kullanıcı tarafından serbestçe seçilir, ancak çoğu Bitcoin core'in varsayılan değerini 300 MB olarak bırakır. Bu değer `Bitcoin.conf` dosyasında `maxmempool` parametresi ile değiştirilebilir.
 
-> ► *İngilizcede buna "işlem ücretleri" diyoruz.*

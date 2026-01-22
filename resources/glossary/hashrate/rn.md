@@ -8,4 +8,3 @@ Ikimenyetso c’ububasha bwo guharura bw’urubuga, gipimwa mu bice vy’umubiri
 Hashrate na yo nyene yerekana uguhiganwa hagati y’abacukuzi: uko Hashrate igenda irakura, ni ko ingorane za Mining zigenda zirushiriza kuba nyinshi, ivyo bikaba bigira ico bikoze ku bijanye n’ugusangira impembo, gutyo abacukuzi bakaronka inyungu. Ni ikimenyetso rero nyamukuru c’ubuzima n’umutekano vy’urutonde rwa Bitcoin. Nk’uko nyene Hashrate ikoreshwa mu gupima ubushobozi bwose bwo guharura bw’urubuga rwa Bitcoin, irashobora kandi gukoreshwa mu gupima ubushobozi bwo guharura bw’imashini, itongo rya Mining canke Mining pool.
 
 
-> ► *Mu gifaransa, ryitwa "taux de hachage," naho ijambo "Hashrate" rikoreshwa cane mu rurimi rwa misi yose.*

@@ -16,4 +16,3 @@ Hehe:
 - $1,209,600$: Igihe citegekanijwe mu masegonda co gukora amabuye y’umwaka wa 2016 afise ikiringo c’iminota 10 hagati ya buri rimwe.
 
 
-> ► *Mu gifaransa, ijambo "reciblage" rimwe na rimwe rikoreshwa no ku guhindura. Mu congereza, vyitwa "Guhindura ingorane".*

@@ -22,4 +22,3 @@ En este ejemplo concreto, se trataba de una transacción iniciada por el directo
 
 También es necesario considerar los límites de la purga. Durante los periodos de alta congestión, los mempools de los nodos purgan sus transacciones pendientes por debajo de un cierto umbral, con el fin de respetar su límite de RAM asignada. Este límite es elegido libremente por el usuario, pero muchos dejan el valor por defecto de Bitcoin Core en 300 MB. Puede ser modificado en el archivo `bitcoin.conf` con el parámetro `maxmempool`.
 
-> ► *En inglés, lo denominamos "transaction fees "*

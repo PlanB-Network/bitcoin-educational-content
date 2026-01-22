@@ -35,4 +35,3 @@ BIP pak v průběhu svého životního cyklu procházejí různými statusy. Akt
 
 ![](../../dictionnaire/assets/25.webp)
 
-> ► *BIP je zkratka pro "Bitcoin Improvement Proposal". Do francouzštiny se dá přeložit jako "Proposition d'amélioration de Bitcoin". Ve většině francouzských textů se však zkratka "BIP" používá přímo jako obecné podstatné jméno, někdy v ženském, někdy v mužském rodě.*

@@ -8,4 +8,3 @@ Yerekeza ku gice c’ibikorwa vya Bitcoin vyari vyimuwe na SegWit Soft Fork gush
 Imbere ya SegWit, imikono yashobora guhindurwa gatoyi ataco ihindura imbere y’uko igikorwa cemezwa, ivyo bikaba vyahindura ikimenyetso c’igicuruzwa. Ivyo vyatuma bigorana kwubaka amategeko atandukanye, kuko igikorwa kitaremejwe coshobora kubona ikimenyetso caco gihinduka. Mu gutandukanya abashingantahe, SegWit ituma amafaranga adashobora guhinduka, kuko ihinduka ryose ryo mu mikono ritagigira ico rihinduye ku kimenyetso c’amafaranga (txid), ahubwo rigira ico rihinduye ku kimenyetso c’ivyabona (WTXID) gusa. Uretse gutorera umuti ikibazo c’ugukomera, iyo ntandukaniro ituma ubushobozi bw’ibarabara rimwe rimwe bwongerekana.
 
 
-> ► *Mu congereza, "témoin" bihindurwa ngo "icabona".*

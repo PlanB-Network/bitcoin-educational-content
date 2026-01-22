@@ -25,4 +25,3 @@ Med hjälp av dessa uppgifter kan jag beräkna de mellanliggande noderna fram ti
 Merkle Trees används framför allt för lätta noder (s.k. "SPV") som endast behåller blockhuvudena, men inte transaktionerna. Den här strukturen finns också i UTREEXO-protokollet, ett protokoll som gör det möjligt att kondensera UTXO-uppsättningen av noder, och i MAST Taproot.
 
 
-> ► *Merkle Tree har fått sitt namn efter Ralph Merkle, en kryptograf som konstruerade denna struktur 1979. En Merkle Tree kan också kallas ett "Hash-träd". På franska kallas det "Arbre de Merkle" eller "arbre de hachage".*

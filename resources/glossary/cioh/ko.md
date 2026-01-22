@@ -8,12 +8,9 @@ term: CIOH
 이 분석 휴리스틱은 Satoshi 나카모토가 직접 발견한 것으로, 백서 10부에서 설명합니다:
 
 
-> "그러나 다중 입력 트랜잭션에서는 연결이 불가피하며, 이 경우 입력이 동일한 소유자에 의해 소유되었다는 것이 드러날 수밖에 없습니다. 키의 소유자가 밝혀지면 연결을 통해 동일한 소유자가 소유한 다른 거래가 드러날 수 있다는 위험이 있습니다." - Nakamoto, S. (2008). "Bitcoin: 피어투피어 전자 현금 시스템". 참조: https://Bitcoin.org/Bitcoin.pdf.
-
 오늘날에도 CIOH는 Address 재사용과 함께 체인 분석 회사에서 사용하는 주요 휴리스틱으로 남아 있습니다.
 
 
 ![](../../dictionnaire/assets/13.webp)
 
 
-> 영어에서 "CIOH"는 "Common Input Ownership Heuristic"으로 번역할 수 있습니다

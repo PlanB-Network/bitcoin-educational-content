@@ -8,4 +8,3 @@ Gossip ni ubuhinga bwo gukwiragiza amakuru mu buryo bw’ikiza ku bakozi bose b�
 Mu Lightning, urusaku ni uburyo bwo guhanahana amakuru hagati y’ibihimba kugira ngo basangire amakuru ku bijanye n’ingene urubuga ruri n’ingene ruteye. Iryo tegeko ry’urusaku rituma ama node ashobora kumenya uko imihora y’ukwishura n’izindi node zigenda, kugira ngo yorohereze inzira y’ibikorwa vy’ubudandaji ku rubuga rwose ataco bisaba ko haba amasano ataco akora hagati y’ama node yose.
 
 
-> ► *Mu gifaransa, "protocole y'urusaku" yoshobora guhindurwa ngo "protocole de bavardage". Inkomoko: Urupapuro rw'ivya kera rwitwa 10.1145/41840.41841.*

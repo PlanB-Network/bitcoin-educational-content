@@ -11,4 +11,3 @@ Uburyo bwo kwikingira ibitero vya Sybil, birangwa no kurema ibimenyetso vyinshi 
 Ico gikorwa gikorwa n’abacukuzi b’amabuye y’agaciro kirahembwa ku gice cose gifise akamaro kibonetse. Miner itsinda ironka impembo y’amahera, igizwe n’infashanyo y’ibarabara (uguhingura ama bitcoins mashasha ex nihilo), n’amahera yo gukoresha. Ubu, ingorane ya Proof of Work kuri Bitcoin ni uko Mining isaba ububasha buhambaye bwo guharura kugira ngo ishobore gutsinda amabuye. Ivyo bituma kenshi bikenerwa ko umuntu agira ama chips yihariye y’ubuhinga bwa none yo gukora `SHA256d`, azwi nka ASICs, no kugira uruhara mu bidengeri vya Mining.
 
 
-> ► *Mu congereza, ryitwa "Proof-of-Work", rimwe na rimwe ryitwa "PoW".*

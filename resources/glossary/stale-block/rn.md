@@ -17,4 +17,3 @@ Yerekeza ku gice kitagira abana: igice gifise akamaro, ariko kidashizwe mu ruher
 ![](../../dictionnaire/assets/9.webp)
 
 
-> ► *Mu congereza, ryitwa "Stale Block". Mu gifaransa, rishobora kandi kwitwa "bloc périmé" canke "bloc abandonné". Naho nyene ntavyemeranya n'iryo koreshwa, bamwebamwe mu bakoresha ijambo "bloc orphelin" kugira ngo bavuge ico mu vy'ukuri ari block itagikoreshwa.*

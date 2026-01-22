@@ -8,4 +8,3 @@ Tarkistussumma on datajoukosta laskettu arvo, jota käytetään tiedon eheyden j
 Bitcoin:ssa tarkistussummia käytetään sovellustasolla varmistamaan vastaanotettujen osoitteiden eheys. Tarkistussumma lasketaan käyttäjän Address:n hyötykuormasta ja lisätään sitten kyseiseen Address:een, jotta voidaan havaita mahdolliset virheet sen syötteessä. Tarkistussumma on mukana myös palautuslausekkeissa (mnemonics).
 
 
-> ► *On yleisesti hyväksytty käyttää englanninkielistä termiä "checksum" suoraan ranskaksi.*

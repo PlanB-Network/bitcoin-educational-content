@@ -6,4 +6,3 @@ V kontextu bitcoinových transakcí se jedná o UTXO vytvořený ze zbývající
 
 ![](../../dictionnaire/assets/16.webp)
 
-> *Ačkoli se tento výraz používá zřídka, můžeme o něm mluvit také jako o "měně" (drobných).*

@@ -19,4 +19,3 @@ Tento systém podílů se používá k odhadu práce, kterou odvedl každý jedn
 
 Těžební pooly upravují obtížnost akcií, aby vyrovnaly ověřovací zátěž a zajistily, že každý těžař, ať už malý nebo velký, odevzdá akcie přibližně každých několik sekund. To umožňuje přesný výpočet hashrate každého těžaře a rozdělení odměn podle zvolené metody výpočtu odměn (PPS, PPLNS, TIDES...).
 
-> ► *Ve francouzštině lze slovo "shares" přeložit jako "podíl".*

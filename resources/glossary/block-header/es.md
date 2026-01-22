@@ -66,4 +66,3 @@ b2e00517
 
 Para ser válido, un bloque debe tener una cabecera que, una vez hasheada con `SHA256d`, produzca un hash menor o igual que el objetivo de dificultad.
 
-> ► *En inglés se denomina "Block Header "*

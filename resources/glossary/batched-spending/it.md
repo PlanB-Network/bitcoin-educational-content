@@ -6,4 +6,3 @@ Il batch spending è una tecnica di spesa utilizzata principalmente da entità c
 
 ![](../../dictionnaire/assets/8.webp)
 
-> *In francese, "spesa raggruppata" può essere tradotto come "dépense groupée"*

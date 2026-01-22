@@ -6,4 +6,3 @@ Refers to the collection of all existing UTXOs at any given moment. In other wor
 
 This UTXO set is kept by each node to quickly verify if the UTXOs spent in transactions are indeed legitimate. This allows them to detect and reject double-spending attempts. The UTXO set is often at the heart of concerns about Bitcoin's decentralization, as its size naturally increases very quickly. Since a portion of it must be kept in RAM to verify transactions in a reasonable time, the UTXO set could gradually make operating a full node too costly. The UTXO set also has a significant impact on the IBD (*Initial Block Download*). The more of the UTXO set that can be placed in RAM, the faster the IBD is. On Bitcoin Core, the UTXO set is stored in the folder named `/chainstate`.
 
-> ► *In English, "UTXO set" could be translated as "UTXO set".*

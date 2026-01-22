@@ -8,4 +8,3 @@ term: 分批支出
 ![](../../dictionnaire/assets/8.webp)
 
 
-> ► *在法文中，「分批支出」可譯為「dépense groupée」*。

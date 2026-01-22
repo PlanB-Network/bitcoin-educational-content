@@ -16,4 +16,3 @@ Nerede?
 - $1,209,600$: Her biri arasında 10 dakikalık bir aralık olan 2016 blok üretmek için saniye cinsinden hedef süre.
 
 
-> ► *Fransızcada "reciblage" terimi bazen ayarlama anlamında da kullanılmaktadır. İngilizcede ise "Zorluk Ayarlaması" olarak ifade edilmektedir.*

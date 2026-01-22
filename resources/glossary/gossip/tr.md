@@ -8,4 +8,3 @@ Gossip, bilgiyi tüm ağ ajanlarına epidemik olarak yaymak için eşler arası 
 Lightning'de dedikodu, ağın mevcut durumu ve topolojisi hakkında bilgi paylaşmak için düğümler arasında bir iletişim protokolüdür. Dedikodu protokolü, düğümlerin ödeme kanallarının ve diğer düğümlerin dinamik durumunu bilmesini sağlayarak, tüm düğümler arasında doğrudan bağlantı gerektirmeden işlemlerin ağ üzerinden yönlendirilmesini kolaylaştırır.
 
 
-> ► *Fransızca'da "dedikodu protokolü" "protocole de bavardage" olarak çevrilebilir. Kaynak : https://dl.acm.org/doi/pdf/10.1145/41840.41841.*

@@ -66,4 +66,3 @@ b2e00517
 
 Ollakseen kelvollinen lohkolla on oltava otsikko, joka `SHA256d`:llä hajautettuna tuottaa hajautuksen, joka on pienempi tai yhtä suuri kuin vaikeustavoite.
 
-> ► *Englanniksi sitä kutsutaan nimellä "Block Header".*

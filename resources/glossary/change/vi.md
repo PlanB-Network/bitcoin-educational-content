@@ -6,4 +6,3 @@ In the context of Bitcoin transactions, refers to the UTXO created with the rema
 
 ![](../../dictionnaire/assets/16.webp)
 
-> ► *Even though it's rarely used, we could also refer to it as "currency" (change given) to talk about the change.*

@@ -5,4 +5,3 @@ term: 一括支出
 
 ![](../../dictionnaire/assets/8.webp)
 
-> フランス語では、"batched spending "は "dépense groupée" と訳される。

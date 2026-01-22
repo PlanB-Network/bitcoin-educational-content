@@ -9,4 +9,3 @@ Mecanismo que establece una conexión entre el sistema Bitcoin principal y una c
 - Una federación de entidades;
 - Los mineros de la cadena principal (drivechain).
 
-> ► *En inglés, se denomina "two-way peg" o "2WP".*

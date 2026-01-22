@@ -10,4 +10,3 @@ Mechanizm, który ustanawia połączenie między głównym systemem Bitcoin a Si
 - Górnicy głównego łańcucha (drivechain).
 
 
-> w języku angielskim jest to określane jako "two-way peg" lub "2WP"

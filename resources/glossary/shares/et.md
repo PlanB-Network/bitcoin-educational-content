@@ -19,4 +19,3 @@ Seda aktsiasüsteemi kasutatakse iga üksiku kaevuri poolt tehtud töö hindamis
 
 Kaevandamisbasseinid kohandavad aktsiate raskusastet, et tasakaalustada kontrollkoormust ja tagada, et iga kaevandaja, olgu ta siis väike või suur, esitab aktsiaid umbes iga paari sekundi tagant. See võimaldab iga kaevuri hashrate'i täpset arvutamist ja tasu jaotamist vastavalt valitud hüvitise arvutamise meetodile (PPS, PPLNS, TIDES...).
 
-> ► *Fransi keeles võib "shares" tõlkida kui "osa".*

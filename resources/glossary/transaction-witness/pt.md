@@ -6,4 +6,3 @@ Refere-se a um componente das transacções Bitcoin que foi movido com o soft fo
 
 Antes do SegWit, as assinaturas podiam ser ligeiramente alteradas sem serem invalidadas antes de uma transação ser confirmada, o que alterava o identificador da transação. Isto dificultava a construção de vários protocolos, uma vez que uma transação não confirmada podia ver o seu identificador alterado. Ao separar as testemunhas, o SegWit torna as transacções não maleáveis, uma vez que qualquer alteração nas assinaturas já não afecta o identificador da transação (TXID), mas apenas o identificador da testemunha (WTXID). Para além de resolver o problema da maleabilidade, esta separação permite um aumento da capacidade de cada bloco.
 
-> ► *Em inglês, "témoin" traduz-se por "testemunha".*

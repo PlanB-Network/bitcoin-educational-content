@@ -8,4 +8,3 @@ Gossip är en distribuerad algoritm för peer-to-peer (P2P) som sprider informat
 Inom Lightning är gossip ett kommunikationsprotokoll mellan noder för att dela information om nätverkets aktuella tillstånd och topologi. Skvallerprotokollet gör det möjligt för noder att känna till det dynamiska tillståndet för betalningskanaler och andra noder, för att underlätta routningen av transaktioner över nätverket utan att kräva direkta anslutningar mellan alla noder.
 
 
-> ► *På franska kan "skvallerprotokoll" översättas med "protocole de bavardage". Källa : https://dl.acm.org/doi/pdf/10.1145/41840.41841.*

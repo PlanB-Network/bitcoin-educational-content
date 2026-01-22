@@ -8,4 +8,3 @@ Suma kontrolna to wartość obliczana na podstawie zestawu danych, używana do w
 W Bitcoin sumy kontrolne są używane na poziomie aplikacji w celu zapewnienia integralności adresów odbiorczych. Suma kontrolna jest obliczana na podstawie ładunku Address użytkownika, a następnie dodawana do tego Address w celu wykrycia wszelkich błędów w jego danych wejściowych. Suma kontrolna jest również obecna we frazach odzyskiwania (mnemonikach).
 
 
-> ogólnie przyjęte jest używanie angielskiego terminu "suma kontrolna" bezpośrednio w języku francuskim

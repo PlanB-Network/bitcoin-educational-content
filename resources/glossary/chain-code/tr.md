@@ -11,4 +11,3 @@ Bu nedenle, her anahtar çifti için benzersiz bir chain code vardır. chain cod
 Her bir ebeveyn çifti ile ilişkili chain code bilinmeden anahtar türetmek mümkün değildir. Kriptografik anahtarların üretiminin saldırganlar için öngörülemez kalmasını ve Wallet sahibi için deterministik olmasını sağlamak için türetme sürecine sözde rastgele veriler ekler.
 
 
-> ► *İngilizcede "code de chaîne" "chain code" olarak adlandırılır ve "code de chaîne maître" "master chain code" olarak adlandırılır.*

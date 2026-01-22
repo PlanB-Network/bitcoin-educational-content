@@ -16,4 +16,3 @@ Muamala wa Bitcoin ambao umeundwa na kutiwa saini, uliopo katika mfumo wake wa j
 Kinachojulikana kama "*muamala ghafi*" kinawakilisha data ghafi ambayo hupitishwa kupitia chaguo za kukokotoa za SHA256 Hash mara mbili hadi generate ya txid ya muamala. Data hizi basi hutumika katika Merkle Tree ya block ili kuunganisha muamala kwenye Blockchain.
 
 
-> ► *Dhana hii pia wakati mwingine huitwa "Muamala Uliosasishwa". Kwa Kifaransa, maneno haya yanaweza kutafsiriwa kama "muamala wa kinyama" na "transaction sérialisée".*

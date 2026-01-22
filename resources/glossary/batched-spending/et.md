@@ -6,4 +6,3 @@ Parteeritud kulutused on kulutustehnika, mida kasutavad peamiselt suure tehingum
 
 ![](../../dictionnaire/assets/8.webp)
 
-> ► *Fransi keeles võib "batched expenditure" tõlkida kui "dépense groupée "*

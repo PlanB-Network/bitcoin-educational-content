@@ -17,4 +17,3 @@ Inarejelea kizuizi kisicho na watoto: kizuizi halali, lakini kisichojumuishwa kw
 ![](../../dictionnaire/assets/9.webp)
 
 
-> ► *Kwa Kiingereza, inajulikana kama "Stale Block". Kwa Kifaransa, inaweza pia kuitwa "bloc périmé" au "bloc abandonné". Ingawa sikubaliani na matumizi haya, baadhi ya watengenezaji bitcoins hutumia neno "bloc orphelin" kurejelea kile ambacho hakika ni kizuizi cha kizamani.*

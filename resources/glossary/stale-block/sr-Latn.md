@@ -17,4 +17,3 @@ Odnosi se na blok bez dece: važeći blok, ali isključen iz glavnog Bitcoin lan
 ![](../../dictionnaire/assets/9.webp)
 
 
-> ► *U engleskom jeziku, to se naziva "Stale Block". Na francuskom, može se nazvati i "bloc périmé" ili "bloc abandonné". Iako se ne slažem s ovom upotrebom, neki bitkoineri koriste izraz "bloc orphelin" da označe ono što je zapravo zastareli blok.*

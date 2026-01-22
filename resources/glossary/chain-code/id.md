@@ -8,4 +8,3 @@ Oleh karena itu, terdapat sebuah kode rantai yang unik untuk setiap pasangan kun
 
 Tidak mungkin untuk mendapatkan kunci tanpa mengetahui kode rantai yang terkait dengan setiap pasangan induk. Ini memperkenalkan data acak semu ke dalam proses derivasi untuk memastikan bahwa pembuatan kunci kriptografi tetap tidak dapat diprediksi oleh penyerang dan tetap deterministik untuk pemegang dompet.
 
-> ► *Dalam bahasa Inggris, kode rantai disebut "chain code".*

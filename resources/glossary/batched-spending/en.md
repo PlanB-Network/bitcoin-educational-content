@@ -6,4 +6,3 @@ Batched spending is a technique primarily used by entities with a high volume of
 
 ![](../../dictionnaire/assets/8.webp)
 
-> ► *In French, "batched spending" can be translated as "dépense groupée."*

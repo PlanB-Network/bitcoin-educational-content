@@ -8,4 +8,3 @@ Kaitsemehhanism Sybil-rünnakute vastu, mida iseloomustab mitme võltsitud ident
 
 See töö, mida kaevurid teevad, on tasustatud iga leitud kehtiva ploki eest. Võitnud kaevandaja saab rahalist tasu, mis koosneb plokisubsiidiumist (uute bitcoinide loomine ex nihilo) ja tehingutasudest. Tänapäeval on Bitcoini töö tõestamise raskusaste selline, et kaevandamine nõuab märkimisväärset arvutusvõimsust, et võita plokke. Seetõttu on sageli vaja spetsiaalseid elektroonilisi kiipe "SHA256d" täitmiseks, mida nimetatakse ASIC-deks, ja osaleda kaevandamisbasseinides.
 
-> ► *Inglise keeles nimetatakse seda "Proof-of-Work", mõnikord lühendatult "PoW "*

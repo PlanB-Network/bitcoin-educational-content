@@ -14,4 +14,3 @@ Wo:
 - $T$: Die tatsächliche Gesamtzeit der letzten 2016 Blöcke in Sekunden;
 - $1,209,600$: Die Zielzeit in Sekunden für die Produktion von 2016 Blöcken mit einem Abstand von 10 Minuten.
 
-> ► *Im Französischen wird der Begriff "reciblage" manchmal auch für die Anpassung verwendet. Im Englischen wird es als "Difficulty Adjustment" bezeichnet.*

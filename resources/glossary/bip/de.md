@@ -35,4 +35,3 @@ Im Laufe ihres Lebenszyklus durchlaufen BIPs dann verschiedene Status. Der aktue
 
 ![](../../dictionnaire/assets/25.webp)
 
-> bIP ist die Abkürzung für "Bitcoin Improvement Proposal" (Bitcoin Verbesserungsvorschlag). Im Französischen kann es mit "Proposition d'amélioration de Bitcoin" übersetzt werden. Die meisten französischen Texte verwenden jedoch das Akronym "BIP" direkt als allgemeines Substantiv, manchmal feminin, manchmal maskulin

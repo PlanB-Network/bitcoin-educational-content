@@ -8,4 +8,3 @@ Wzorzec lub model transakcji stosowany w analizie łańcucha w celu określenia 
 ![](../../dictionnaire/assets/6.webp)
 
 
-> w języku francuskim "sweep transaction" można przetłumaczyć jako "transaction de balayage"

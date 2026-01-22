@@ -5,4 +5,3 @@ term: 変更
 
 ![](../../dictionnaire/assets/16.webp)
 
-> めったに使われないが、"currency"（お釣り）という言い方もできる。

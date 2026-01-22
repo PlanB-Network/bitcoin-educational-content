@@ -8,4 +8,3 @@ Jumla ya bitcoins zilizopokelewa na Miner wakati wanapata kizuizi halali kwenye 
 Block reward inasambazwa ndani ya shughuli maalum inayoitwa "coinbase". Bitcoins zilizotolewa kutoka humo hufungwa kiotomatiki kwa muda wa vitalu 100. Hii inajulikana kama kipindi cha ukomavu.
 
 
-> ► *Tafsiri ya Kiingereza ni "Block reward".*

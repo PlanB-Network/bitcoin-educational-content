@@ -8,4 +8,3 @@ Mu bijanye n’ibikorwa vya Bitcoin, yerekeza kuri UTXO yaremwe n’amahera asig
 ![](../../dictionnaire/assets/16.webp)
 
 
-> ► *Naho rikoreshwa gake, twoshobora no kurivuga ngo "amahera" (ihinduka ritanzwe) kugira ngo tuvuge ivy'ihinduka.*

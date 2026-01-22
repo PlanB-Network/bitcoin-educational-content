@@ -10,4 +10,3 @@ Utaratibu unaoanzisha uhusiano kati ya mfumo mkuu wa Bitcoin na Sidechain (au mn
 - Wachimbaji wa mnyororo kuu (drivechain).
 
 
-> ► *Kwa Kiingereza, hii inajulikana kama "kigingi cha njia mbili" au "2WP".*

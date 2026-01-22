@@ -17,4 +17,3 @@ term: ESKI (BLOK)
 ![](../../dictionnaire/assets/9.webp)
 
 
-> ► *İngilizcede "Stale Block" olarak adlandırılır. Fransızca'da "bloc périmé" veya "bloc abandonné" olarak da adlandırılabilir. Bu kullanıma katılmasam da, bazı bitcoin kullanıcıları aslında eski bir bloğu ifade etmek için "bloc orphelin" terimini kullanmaktadır.*

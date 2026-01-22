@@ -20,4 +20,3 @@ term: MERKLE TREE (哈希树)
 
 哈希树主要用于只保留区块头而不保留交易的轻节点（称为 "SPV"）。这种结构在 UTTREEXO 协议和 MAST Taproot 中也能找到，UTTREEXO 协议是一种允许压缩 UTXO 节点集的协议。
 
-> ► *哈希树是以 1979 年设计出这种结构的密码学家 Ralph Merkle 的名字命名的。Merkle Tree 也可被称为 “哈希树”。*

@@ -55,4 +55,3 @@ BIPs rero zica mu bihe bitandukanye mu kiringo c’ubuzima bwazo. Ivyo ubu birik
 ![](../../dictionnaire/assets/25.webp)
 
 
-> ► *BIP ni ijambo ry'inyongera risobanura "Iciyumviro co guteza imbere Bitcoin". Mu gifaransa, rishobora guhindurwa ngo "Iciyumviro co gutegura neza Bitcoin". Ariko rero, ivyanditswe vyinshi vy'igifaransa bikoresha ata guca ku ruhande ijambo ry'inyongera "BIP" nk'izina rusangi, rimwe na rimwe ry'igitsina gore, rimwe na rimwe ry'igitsina gabo.*

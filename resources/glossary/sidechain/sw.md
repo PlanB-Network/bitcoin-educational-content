@@ -8,4 +8,3 @@ Blockchain iliyoundwa kufanya kazi sambamba na Bitcoin kuu ya Blockchain. Minyor
 Dhana ya Sidechain ilianzishwa awali katika 2014 na Adam Back, Matt Corallo, Luke Dashjr, Mark Friedenbach, Gregory Maxwell, Andrew Miller, Andrew Poelstra, Jorge Timon, na Pieter Wuille. Hivi sasa, minyororo inayojulikana zaidi kwenye Bitcoin ni Liquid na RSK (Rootstock). Walakini, hizi husalia kutumika kidogo ikilinganishwa na suluhu zingine zinazowekelewa na muundo tofauti, kama Lightning Network.
 
 
-> ► *Kwa Kifaransa, inajulikana kama "chaîne latérale" au "chaîne parallele."*

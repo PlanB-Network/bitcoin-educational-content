@@ -14,4 +14,3 @@ Eine Bitcoin-Transaktion, die erstellt und signiert wurde und in ihrer binären 
 
 Eine so genannte "*Raw-Transaktion*" besteht aus den Rohdaten, die zweimal durch die SHA256-Hash-Funktion geleitet werden, um die TXID der Transaktion zu generieren. Diese Daten werden dann im Merkle-Baum des Blocks verwendet, um die Transaktion in die Blockchain zu integrieren.
 
-> ► *Dieses Konzept wird manchmal auch als "Serialized Transaction" bezeichnet. Im Französischen könnten diese Begriffe mit "transaction brute" bzw. "transaction sérialisée" übersetzt werden.*

@@ -28,4 +28,3 @@ Katika mfano huu maalum, ilikuwa shughuli iliyoanzishwa na mkurugenzi wa F2Pool 
 
 Pia ni lazima kuzingatia mipaka ya kusafisha. Wakati wa msongamano mkubwa, kumbukumbu za nodi husafisha shughuli zao zinazosubiri chini ya kiwango fulani, ili kuheshimu kikomo cha RAM kilichotengwa. Kikomo hiki kinachaguliwa kwa uhuru na mtumiaji, lakini wengi huacha thamani ya msingi ya Bitcoin Core kwa 300 MB. Inaweza kurekebishwa katika faili ya `Bitcoin.conf` kwa kigezo cha `maxmempool`.
 
-> ► *Kwa Kiingereza, tunairejelea kama "ada za muamala".*

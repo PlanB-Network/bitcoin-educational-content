@@ -8,4 +8,3 @@ Det totala antalet bitcoins som en Miner får när de hittar ett giltigt block p
 Block reward distribueras inom en specifik transaktion som kallas "coinbase". De bitcoins som extraheras från den låses automatiskt under en period av 100 block. Detta kallas för löptid.
 
 
-> ► * Den engelska översättningen är "Block reward".*

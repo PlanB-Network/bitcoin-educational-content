@@ -8,4 +8,3 @@ Therefore, there is a unique chain code for each pair of keys. The chain code is
 
 It is impossible to derive keys without knowing the chain code associated with each parent pair. It introduces pseudo-random data into the derivation process to ensure that the generation of cryptographic keys remains unpredictable to attackers while being deterministic for the wallet holder.
 
-> ► *In English, a "code de chaîne" is called a "chain code", and a "code de chaîne maître" is called a "master chain code".*

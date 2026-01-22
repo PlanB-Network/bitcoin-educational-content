@@ -8,4 +8,3 @@ Sebuah mekanisme perlindungan terhadap serangan Sybil, yang ditandai dengan pemb
 
 Pekerjaan yang dilakukan oleh para penambang ini dihargai untuk setiap blok valid yang ditemukan. Penambang yang menang menerima imbalan uang, yang terdiri dari subsidi blok (bitcoin baru yang diciptakan), dan biaya transaksi. Saat ini, tingkat kesulitan pembuktian pekerjaan pada Bitcoin sedemikian rupa sehingga penambangan membutuhkan daya komputasi yang signifikan untuk berhasil memenangkan blok. Sebagai hasilnya, sering kali dibutuhkan chip elektronik khusus untuk mengeksekusi `SHA256d`, yang dikenal sebagai ASIC, dan untuk berpartisipasi dalam _pool_ penambangan.
 
-> *Dalam bahasa Inggris, mekanisme ini disebut sebagai "Proof-of-Work", terkadang disingkat "PoW".*

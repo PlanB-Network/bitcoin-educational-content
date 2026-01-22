@@ -6,4 +6,3 @@ Louhijan saamien bitcoinien kokonaismäärä, kun louhija löytää kelvollisen 
 
 Lohkopalkkio jaetaan tietyssä transaktiossa nimeltä "coinbase". Siitä poimitut bitcoinit lukitaan automaattisesti 100 lohkon ajaksi. Tätä kutsutaan maturiteettijaksoksi.
 
-> ► *Englanninkielinen käännös on "Block Reward".*

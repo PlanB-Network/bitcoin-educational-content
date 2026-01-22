@@ -11,4 +11,3 @@ Ku bw’ivyo, hariho chain code yihariye ku mfunguruzo zibiri zibiri. chain code
 Ntibishoboka gukura imfunguruzo atazi chain code ifatanye n’umuvyeyi umwe umwe. Ishiramwo amakuru y’ibinyoma mu nzira yo gukuraho kugira ngo bimenyekane ko uruvyaro rw’imfunguruzo z’ububisha ruguma rudashobora kumenyekana ku batera mu gihe ruri urwo guhitamwo ku muntu afise Wallet.
 
 
-> ► *Mu congereza, "itegeko ry'uruzitiro" ryitwa "chain code", "itegeko ry'uruzitiro" ryitwa "master chain code".*

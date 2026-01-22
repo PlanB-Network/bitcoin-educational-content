@@ -8,4 +8,3 @@ Seetõttu on iga võtmepaari jaoks olemas unikaalne ahelakood. Kettakood saadaks
 
 Võtmeid on võimatu tuletada ilma iga vanempaariga seotud ahelakoodi teadmata. See lisab tuletamisprotsessi pseudosrandomandmeid, et tagada, et krüptograafiliste võtmete genereerimine jääb ründajate jaoks ettearvamatuks, kuid on rahakoti omaniku jaoks deterministlik.
 
-> ► *Inglise keeles nimetatakse "code de chaîne" "ahelakoodiks" ja "code de chaîne maître" "master chain code".*

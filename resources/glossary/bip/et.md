@@ -35,4 +35,3 @@ Seejärel läbivad piiripunktid oma elutsükli jooksul erinevaid staatusi. Praeg
 
 ![](../../dictionnaire/assets/25.webp)
 
-> ► *BIP on akronüüm "Bitcoin Improvement Proposal". Prantsuse keelde saab seda tõlkida kui "Proposition d'amélioration de Bitcoin". Enamikus prantsuse keelsetes tekstides kasutatakse aga akronüümi "BIP" otse üldnimena, mõnikord feminiinses, mõnikord maskuliinses käändes.*

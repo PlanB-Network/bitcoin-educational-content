@@ -20,4 +20,3 @@ fd456524104a6674693c29946543f8a0befccce5a352bda55ec8559fc630f5f3
 
 In this specific example, it was a transaction initiated by the director of the F2Pool mining pool. As a regular user, the current lower limit is therefore `1 sat/vBytes`.
 It is also necessary to consider the limits of purging. During periods of high congestion, the mempools of nodes purge their pending transactions below a certain threshold, in order to respect their allocated RAM limit. This limit is freely chosen by the user, but many leave the default value of Bitcoin Core at 300 MB. It can be modified in the `bitcoin.conf` file with the `maxmempool` parameter.
-> ► *In English, we refer to it as "transaction fees".*

@@ -14,4 +14,3 @@ Missä:
 - $T$: Viimeisten 2016 lohkon todellinen kokonaisaika sekunteina;
 - $1,209,600$: Tavoiteaika sekunteina tuottaa 2016 lohkoa 10 minuutin välein.
 
-> ► *Ranskan kielessä käytetään joskus myös termiä "reciblage", jolla viitataan säätöön. Englanniksi siitä käytetään nimitystä "Difficulty Adjustment".*

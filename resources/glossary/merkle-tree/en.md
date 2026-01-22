@@ -17,4 +17,3 @@ With these pieces of information, I am able to calculate the intermediate nodes 
 
 Merkle Trees are notably used for light nodes (known as "SPV") that only keep the block headers, but not the transactions. This structure is also found in the UTREEXO protocol, a protocol that allows for the condensing of the UTXO set of nodes, and in the MAST Taproot.
 
-> ► *The Merkle Tree is named after Ralph Merkle, a cryptographer who designed this structure in 1979. A Merkle Tree can also be called a "hash tree". In French, it is referred to as "Arbre de Merkle" or "arbre de hachage".*

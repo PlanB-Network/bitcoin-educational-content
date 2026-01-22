@@ -15,4 +15,3 @@ Viitab plokile, millel ei ole lapsi: kehtiv plokk, kuid mis on välja jäetud Bi
 
 ![](../../dictionnaire/assets/9.webp)
 
-> ► *Inglise keeles nimetatakse seda "Stale Block". Prantsuse keeles võib seda nimetada ka "bloc périmé" või "bloc abandonné". Kuigi ma ei nõustu selle kasutusega, kasutavad mõned bitcoin'i kasutajad terminit "bloc orphelin", et viidata sellele, mis on tegelikult vananenud plokk.*

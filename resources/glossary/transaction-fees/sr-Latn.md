@@ -28,4 +28,3 @@ U ovom konkretnom primeru, to je bila transakcija koju je inicirao direktor F2Po
 
 Takođe je potrebno razmotriti granice čišćenja. Tokom perioda velike zagušenosti, mempool-ovi čvorova čiste svoje transakcije na čekanju ispod određenog praga, kako bi poštovali svoj dodeljeni RAM limit. Ovaj limit slobodno bira korisnik, ali mnogi ostavljaju podrazumevanu vrednost Bitcoin Core na 300 MB. Može se modifikovati u `Bitcoin.conf` fajlu sa `maxmempool` parametrom.
 
-> ► *Na engleskom to nazivamo "transaction fees".*

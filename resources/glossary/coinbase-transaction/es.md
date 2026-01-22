@@ -8,4 +8,3 @@ La transacción coinbase sirve principalmente para dos propósitos: otorgar la r
 
 La transacción coinbase difiere de las transacciones normales en varios aspectos. En primer lugar, no tiene entrada, lo que significa que no consume ninguna salida de transacción existente (UTXO). Además, el script de firma (`scriptSig`) de la transacción coinbase suele contener un campo arbitrario que permite incorporar datos adicionales, como mensajes personalizados o información sobre la versión del software de minería. Por último, los bitcoins generados por la transacción coinbase están sujetos a un periodo de maduración de 100 bloques (101 confirmaciones) antes de que puedan gastarse, para evitar el posible gasto de bitcoins inexistentes en caso de reorganización de la cadena.
 
-> ► *No existe traducción para "Coinbase" en francés. Por lo tanto, se acepta utilizar este término directamente.*

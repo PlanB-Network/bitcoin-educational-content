@@ -66,4 +66,3 @@ b2e00517
 
 Aby byl blok platný, musí mít hlavičku, která po zaheslování pomocí `SHA256d` dává hash, který je menší nebo roven cíli obtížnosti.
 
-> ► V angličtině se označuje jako "Block Header".

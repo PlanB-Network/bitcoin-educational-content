@@ -34,4 +34,3 @@ BIPはその後、ライフサイクルの中でさまざまなステータス�
 
 ![](../../dictionnaire/assets/25.webp)
 
-> BIPは「Bitcoin Improvement Proposal」の頭文字をとったもの。フランス語では「Proposition d'amélioration de Bitcoin」と訳される。しかし、ほとんどのフランス語の文章では、頭字語「BIP」を直接普通名詞として使用しており、女性名詞の場合もあれば男性名詞の場合もある。

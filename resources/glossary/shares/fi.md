@@ -19,4 +19,3 @@ Tätä jakojärjestelmää käytetään kunkin yksittäisen louhijan tekemän ty
 
 Kaivospoolien avulla osakkeiden vaikeusastetta voidaan säätää verifiointikuorman tasapainottamiseksi ja sen varmistamiseksi, että jokainen louhija, olipa hän sitten pieni tai suuri, lähettää osakkeita noin muutaman sekunnin välein. Näin voidaan laskea tarkasti kunkin louhijan hashrate ja jakaa palkkiot valitun korvauslaskentamenetelmän (PPS, PPLNS, TIDES...) mukaisesti.
 
-> ► *Ranskaksi "shares" voidaan kääntää "osa".*

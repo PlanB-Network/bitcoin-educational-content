@@ -6,4 +6,3 @@ P2MS adalah singkatan dari *Pay To Multisig*, yang diterjemahkan menjadi "bayar 
 
 Skrip ini ditemukan pada tahun 2011 oleh Gavin Andresen ketika ia mengambil alih pemeliharaan klien Bitcoin utama. Saat ini, P2MS hanya digunakan secara sedikit oleh beberapa aplikasi. Sebagian besar _multisignature_ modern menggunakan skrip lain seperti P2SH atau P2WSH. Dibandingkan dengan ini, P2MS sangatlah sepele. Kunci publik yang ada di dalamnya akan diungkap pada saat menerima transaksi. Menggunakan P2MS juga lebih mahal dibandingkan dengan skrip _multisignature_ lainnya.
 
-> *P2MS sering disebut "bare-multisig", yang dapat diterjemahkan sebagai "multisignature telanjang" atau "multisignature mentah". Pada awal tahun 2023, skrip P2MS menjadi pusat kontroversi karena disalahgunakan dalam protokol Stamps. Dampaknya terhadap set UTXO sangat disoroti.*

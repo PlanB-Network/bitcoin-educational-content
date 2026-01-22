@@ -8,4 +8,3 @@ Odnosi się do składnika transakcji Bitcoin, który został przeniesiony wraz z
 Przed SegWit podpisy mogły być nieznacznie zmieniane bez unieważnienia przed potwierdzeniem transakcji, co zmieniało identyfikator transakcji. Utrudniało to tworzenie różnych protokołów, ponieważ niepotwierdzona transakcja mogła zobaczyć zmianę swojego identyfikatora. Oddzielając świadków, SegWit sprawia, że transakcje są nieciągliwe, ponieważ wszelkie zmiany w podpisach nie wpływają już na identyfikator transakcji (txid), a jedynie na identyfikator świadka (WTXID). Oprócz rozwiązania problemu podatności na zmiany, separacja ta pozwala na zwiększenie pojemności każdego bloku.
 
 
-> w języku angielskim "témoin" jest tłumaczone jako "świadek"

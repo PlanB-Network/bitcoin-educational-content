@@ -6,4 +6,3 @@ Lohkoketju, joka on suunniteltu toimimaan rinnakkain Bitcoinin päälohkoketjun 
 
 Sivuketjun käsitteen esittivät alun perin vuonna 2014 Adam Back, Matt Corallo, Luke Dashjr, Mark Friedenbach, Gregory Maxwell, Andrew Miller, Andrew Poelstra, Jorge Timon ja Pieter Wuille. Tällä hetkellä Bitcoinin tunnetuimmat sivuketjut ovat Liquid ja RSK (Rootstock). Näitä käytetään kuitenkin edelleen paljon vähemmän verrattuna muihin päällekkäisratkaisuihin, joilla on erilainen malli, kuten Lightning Network.
 
-> ► *Ranskan kielessä siitä käytetään nimitystä "chaîne latérale" tai "chaîne parallèle "*

@@ -28,4 +28,3 @@ I detta specifika exempel var det en transaktion som initierades av direktören 
 
 Det är också nödvändigt att ta hänsyn till gränserna för rensning. Under perioder med hög belastning rensar nodernas mempools sina väntande transaktioner under ett visst tröskelvärde för att respektera deras tilldelade RAM-gräns. Denna gräns väljs fritt av användaren, men många lämnar standardvärdet för Bitcoin Core på 300 MB. Det kan modifieras i filen `Bitcoin.conf` med parametern `maxmempool`.
 
-> ► * På engelska kallas det för "transaction fees" *

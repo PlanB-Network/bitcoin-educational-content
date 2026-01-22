@@ -14,4 +14,3 @@ Dimana:
 - $T$: Total waktu aktual dari blok 2016 terakhir dalam detik;
 - $1,209,600$: Target waktu dalam detik untuk menghasilkan 2016 blok dengan interval 10 menit di antara masing-masing blok.
 
-> *Dalam bahasa Inggris, istilah ini disebut sebagai "Difficulty Adjustment"*

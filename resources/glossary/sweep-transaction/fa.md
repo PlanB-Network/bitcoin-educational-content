@@ -8,4 +8,3 @@ term: تراکنش SWEEP
 ![](../../dictionnaire/assets/6.webp)
 
 
-> ► *در زبان فرانسوی، "sweep transaction" می‌تواند به "transaction de balayage" ترجمه شود.*

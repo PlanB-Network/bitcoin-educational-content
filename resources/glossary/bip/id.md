@@ -32,4 +32,3 @@ BIP kemudian melewati status yang berbeda selama siklus hidupnya. Status saat in
 
 ![](../../dictionnaire/assets/25.webp)
 
-> ► *BIP adalah singkatan dari "Bitcoin Improvement Proposal". Dalam bahasa Indonesia, istilah ini dapat diterjemahkan sebagai "Proposal Pengembangan Bitcoin". Namun, "BIP" juga umum digunakan untuk merujuk pada istilah ini.*

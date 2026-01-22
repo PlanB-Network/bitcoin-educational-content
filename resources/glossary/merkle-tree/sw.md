@@ -25,4 +25,3 @@ Kwa vipande hivi vya habari, nina uwezo wa kuhesabu nodi za kati hadi Merkle Roo
 Merkle Trees hutumiwa haswa kwa nukta nyepesi (zinazojulikana kama "SPV") ambazo huweka vichwa vya kuzuia pekee, lakini si shughuli za malipo. Muundo huu pia unapatikana katika itifaki ya UTREEXO, itifaki ambayo inaruhusu kupunguzwa kwa seti ya UTXO ya nodes, na katika MAST Taproot.
 
 
-> ► *Merkle Tree inaitwa baada ya Ralph Merkle, mwandishi wa siri ambaye alitengeneza muundo huu mwaka wa 1979. Merkle Tree pia inaweza kuitwa "mti wa Hash". Kwa Kifaransa, inajulikana kama "Arbre de Merkle" au "arbre de hachage".*

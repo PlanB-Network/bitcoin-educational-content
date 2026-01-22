@@ -6,4 +6,3 @@ Dalam konteks transaksi Bitcoin, kembalian mengacu pada UTXO yang dibuat dengan 
 
 ![](../../dictionnaire/assets/16.webp)
 
-> ► *Meskipun jarang digunakan, kita juga dapat menyebutnya sebagai "mata uang" (kembalian yang diberikan) untuk membicarakan tentang kembalian*

@@ -11,4 +11,3 @@ Where:
 * $T$: The total actual time of the last 2016 blocks in seconds;
 * $1,209,600$: The target time in seconds to produce 2016 blocks with a 10-minute interval between each.
 
-> ► *In French, the term "reciblage" is sometimes also used to refer to adjustment. In English, it is referred to as "Difficulty Adjustment".*

@@ -8,12 +8,9 @@ Ufupisho wa "*Ingizo la Kawaida Ownership Heuristic*". Ni heuristic inayotumika 
 Uchanganuzi huu wa heuristic uligunduliwa na Satoshi Nakamoto mwenyewe, ambaye anaijadili katika sehemu ya 10 ya Karatasi Nyeupe:
 
 
-> "Hata hivyo, muunganisho huo hauwezi kuepukika na shughuli za pembejeo nyingi, ambazo lazima zifichue kuwa pembejeo zao zilimilikiwa na mmiliki mmoja. Hatari ni kwamba ikiwa mmiliki wa ufunguo atafunuliwa, viunganisho vinaweza kufichua miamala mingine ambayo ilikuwa ya mmiliki mmoja." - Nakamoto, S. (2008). "Bitcoin: Mfumo wa Pesa wa Kielektroniki wa Rika-kwa-Rika". Ilishauriwa katika https://Bitcoin.org/Bitcoin.pdf.
-
 Hata leo, CIOH inasalia kuwa njia kuu inayotumiwa na kampuni za uchanganuzi wa minyororo, pamoja na utumiaji tena wa Address.
 
 
 ![](../../dictionnaire/assets/13.webp)
 
 
-> ► *Kwa Kiingereza, "CIOH" inaweza kutafsiriwa kama "Ingizo la Kawaida Ownership Heuristic".*

@@ -8,4 +8,3 @@ O Gossip é um algoritmo distribuído peer-to-peer (P2P) para disseminar informa
 No Lightning, o gossip é um protocolo de comunicação entre nós para partilhar informações sobre o estado atual e a topologia da rede. O protocolo gossip permite que os nós conheçam o estado dinâmico dos canais de pagamento e de outros nós, para facilitar o encaminhamento de transacções através da rede sem exigir ligações diretas entre todos os nós.
 
 
-> ► *Em francês, "gossip protocol" poderia ser traduzido como "protocole de bavardage". Fonte : https://dl.acm.org/doi/pdf/10.1145/41840.41841.*

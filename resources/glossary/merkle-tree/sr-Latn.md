@@ -25,4 +25,3 @@ Sa ovim informacijama, mogu da izračunam međučvorove do Merkle Root.
 Merkle Trees su posebno korišćena za light nodove (poznate kao "SPV") koji čuvaju samo zaglavlja blokova, ali ne i transakcije. Ova struktura se takođe nalazi u UTREEXO protokolu, protokolu koji omogućava kondenzovanje UTXO skupa nodova, i u MAST Taproot.
 
 
-> ► *Merkle Tree je nazvan po Ralphu Merkleu, kriptografu koji je dizajnirao ovu strukturu 1979. godine. Merkle Tree se takođe može nazvati "Hash stablo". Na francuskom se naziva "Arbre de Merkle" ili "arbre de hachage".*

@@ -8,4 +8,3 @@ Inarejelea mkusanyiko wa UTXO zote zilizopo wakati wowote. Kwa maneno mengine, n
 Seti hii ya UTXO huhifadhiwa na kila nodi ili kuthibitisha kwa haraka ikiwa UTXO zinazotumiwa katika miamala ni halali. Hii inawaruhusu kugundua na kukataa majaribio ya Double-spending. Seti ya UTXO mara nyingi huwa kiini cha wasiwasi kuhusu ugatuaji wa Bitcoin, kwani ukubwa wake kawaida huongezeka haraka sana. Kwa kuwa sehemu yake lazima iwekwe kwenye RAM ili kuthibitisha miamala kwa wakati unaofaa, seti ya UTXO inaweza kufanya uendeshaji wa Full node kuwa wa gharama sana hatua kwa hatua. Seti ya UTXO pia ina athari kubwa kwa IBD (*Upakuaji wa Kizuizi cha Awali*). Zaidi ya seti ya UTXO ambayo inaweza kuwekwa kwenye RAM, kasi ya IBD ni. Kwenye Bitcoin Core, seti ya UTXO inahifadhiwa kwenye folda inayoitwa `/chainstate`.
 
 
-> ► *Kwa Kiingereza, "UTXO set" inaweza kutafsiriwa kama "UTXO set".*

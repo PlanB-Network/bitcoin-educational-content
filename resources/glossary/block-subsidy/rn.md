@@ -9,4 +9,3 @@ Mu ntango yashizweho ku 50 BTC ku butaka mu 2009, iyo nkunga igabanywa n’igice
 Iyo nkunga imaze gushika munsi ya 1 Satoshi, ntizosubira gukusanywa, kandi abacukuzi bazohembwa gusa biciye ku mahera y’ugucuruza. Keretse iyo porotokole ihinduwe, Supply y’ama bitcoins izohagarika kwiyongera kuri iyo nkuru, igatuma Supply yose y’amahera igumaho.
 
 
-> ► *Igifaransa gihindurwa ni "Subvention de bloc".*

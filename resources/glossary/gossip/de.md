@@ -8,4 +8,3 @@ Gossip ist ein verteilter Peer-to-Peer-Algorithmus (P2P) für die epidemische Ve
 In Lightning ist Gossip ein Kommunikationsprotokoll zwischen Knoten, um Informationen über den aktuellen Zustand und die Topologie des Netzes auszutauschen. Das Gossip-Protokoll ermöglicht es den Knoten, den dynamischen Zustand von Zahlungskanälen und anderen Knoten zu kennen, um die Weiterleitung von Transaktionen über das Netzwerk zu erleichtern, ohne dass direkte Verbindungen zwischen allen Knoten erforderlich sind.
 
 
-> ► *Im Französischen könnte "gossip protocol" mit "protocole de bavardage" übersetzt werden. Quelle : https://dl.acm.org/doi/pdf/10.1145/41840.41841.*

@@ -82,4 +82,3 @@ b2e00517
 Om geldig te zijn moet een blok een header hebben die, na gehasht te zijn met `SHA256d`, een Hash oplevert die kleiner of gelijk is aan de moeilijkheidsdoelstelling.
 
 
-> ► *In het Engels wordt dit een "Block Header" genoemd.*

@@ -8,4 +8,3 @@ Muundo au muundo wa muamala unaotumika katika uchanganuzi wa minyororo ili kubai
 ![](../../dictionnaire/assets/6.webp)
 
 
-> ► *Kwa Kifaransa, "muamala wa kufagia" unaweza kutafsiriwa kama "transaction de balayage".*

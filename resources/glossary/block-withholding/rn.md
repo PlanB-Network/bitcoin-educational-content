@@ -10,4 +10,3 @@ Uwutera abandanya gutanga ibimenyamenya vy’igice c’ibikorwa (imigabane) kugi
 Ibitero vyo gukingira amabuye ntibifasha uwubitera mu vy’amahera ariko bigamije gutuma inyungu y’ikidengeri ihungabana.
 
 
-> ► *Mu gifaransa, vyitwa "Retention de Bloc".*

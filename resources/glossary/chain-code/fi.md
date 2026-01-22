@@ -8,4 +8,3 @@ Näin ollen jokaiselle avainparille on olemassa yksilöllinen ketjukoodi. Ketjuk
 
 Avaimia on mahdotonta johtaa tuntematta kuhunkin vanhempien pariin liittyvää ketjukoodia. Se lisää johdantoprosessiin pseudosattuman, jotta varmistetaan, että kryptografisten avainten tuottaminen on hyökkääjille arvaamatonta ja lompakon haltijalle determinististä.
 
-> ► *Englanniksi "code de chaîne" on "chain code" ja "code de chaîne maître" on "master chain code".*

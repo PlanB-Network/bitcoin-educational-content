@@ -8,4 +8,3 @@ Tehnika grupisane potrošnje je tehnika potrošnje koju prvenstveno koriste enti
 ![](../../dictionnaire/assets/8.webp)
 
 
-> ► *U francuskom, "batched spending" može se prevesti kao "dépense groupée."*

@@ -8,12 +8,9 @@ term: CIOH
 這個分析啟發式是由 Satoshi Nakamoto 自己發現的，他在白皮書的第 10 部分討論了這個啟發式：
 
 
-> "然而，多輸入交易的連線是無法避免的，因為多輸入交易必然會揭露其輸入為同一所有者所有。其風險在於，如果鑰匙的擁有者被揭露，連線就會揭露屬於同一擁有者的其他交易。" - Nakamoto, S. (2008).「Bitcoin：點對點電子現金系統」。請參閱 https://Bitcoin.org/Bitcoin.pdf。
-
 時至今日，CIOH 與 Address 重複使用仍是連鎖分析公司使用的主要啟發式。
 
 
 ![](../../dictionnaire/assets/13.webp)
 
 
-> ► *在英文中，「CIOH」可譯為「Common Input Ownership Heuristic」。*

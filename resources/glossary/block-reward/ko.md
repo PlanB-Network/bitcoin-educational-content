@@ -14,4 +14,3 @@ Block reward은 유효한 블록을 성공적으로 채굴했을 때 Miner가 �
 Block reward은 Coinbase Transaction이라는 특별 거래를 통해 발행됩니다. Coinbase Transaction에서 받은 비트코인은 100블록의 만기 기간이 지나야 사용할 수 있습니다.
 
 
-> ► *프랑스어 번역은 "레콤펑스 드 블록"*입니다

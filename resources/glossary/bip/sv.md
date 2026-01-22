@@ -41,4 +41,3 @@ BIP:erna går sedan igenom olika statusar under sin livscykel. Den aktuella stat
 ![](../../dictionnaire/assets/25.webp)
 
 
-> ► *BIP är akronymen för "Bitcoin Improvement Proposal" (förbättringsförslag för Bitcoin). På franska kan det översättas som "Proposition d'amélioration de Bitcoin". I de flesta franska texter används dock akronymen "BIP" direkt som ett vanligt substantiv, ibland feminint, ibland maskulint.*

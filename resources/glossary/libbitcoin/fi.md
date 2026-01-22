@@ -1,5 +1,5 @@
 ---
-term: LIBBITCOIN
+term: Libbitcoin
 ---
 
 Joukko C++-kielellä kirjoitettuja kirjastoja, jotka on suunniteltu Bitcoin-sovellusten luomiseen. Libbitcoin tarjoaa riippumattoman perustan mobiilisovellusten, ohjelmistojen ja muiden järjestelmien kehittämiseen Bitcoin:n ympärille. Libbitcoinilla on siis modulaarinen arkkitehtuuri. Kaikki projektin kirjastot jaetaan vapaan AGPL-lisenssin alaisuudessa.

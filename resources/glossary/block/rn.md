@@ -1,5 +1,5 @@
 ---
-term: BLOCK
+term: Block
 
 ---
 

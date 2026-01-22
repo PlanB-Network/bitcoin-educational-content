@@ -1,5 +1,5 @@
 ---
-term: CHIAVE PUBBLICA COMPRESSA
+term: Chiave pubblica compressa
 
 ---
 Una chiave pubblica viene utilizzata negli script (direttamente sotto forma di chiave pubblica o come indirizzo) per ricevere e proteggere i bitcoin. Una chiave pubblica grezza è rappresentata da un punto su una curva ellittica, costituito da due coordinate (`x, y`) di 256 bit ciascuna. In formato grezzo, una chiave pubblica misura quindi 512 bit, senza contare il byte aggiuntivo per identificare il formato. Una chiave pubblica compressa, invece, è una forma più compatta di rappresentazione della chiave pubblica. Utilizza solo la coordinata `x` e un prefisso (`02` o `03`) che indica la parità della coordinata `y` (pari o dispari).

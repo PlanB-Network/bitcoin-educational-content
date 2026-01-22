@@ -1,5 +1,5 @@
 ---
-term: ENDEREÇO ESTÁTICO
+term: Endereço estático
 
 ---
 No contexto dos Pagamentos Silenciosos, refere-se a um identificador único que permite a receção de pagamentos sem reutilização de endereços, sem interação e sem uma ligação visível na cadeia entre os vários pagamentos e o endereço estático. Esta técnica elimina a necessidade de gerar endereços de receção novos e não utilizados para cada transação, evitando assim as interações habituais na Bitcoin em que o destinatário tem de fornecer um novo endereço ao pagador. É algo equivalente ao código de pagamento reutilizável no contexto do BIP47.

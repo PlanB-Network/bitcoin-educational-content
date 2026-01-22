@@ -1,5 +1,5 @@
 ---
-term: ZAMIANA ATOMÓW
+term: Zamiana atomów
 ---
 
 Technologia umożliwiająca bezpośrednie Exchange kryptowalut między dwiema stronami, bez potrzeby zaufania i bez pośrednika. Wymiany te nazywane są "atomowymi", ponieważ mogą skutkować tylko dwoma rezultatami:

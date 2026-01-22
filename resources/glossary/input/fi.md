@@ -1,5 +1,5 @@
 ---
-term: INPUT
+term: Input
 ---
 
 Bitcoin:n yhteydessä tapahtuman panoksella tarkoitetaan UTXO:ta (*Unspent Transaction Outputs*), jota käytetään alkuperäisinä varoina tuotosten tyydyttämiseen. Kukin panos sisältää viittauksia aiempiin UTXO:hin, jotka tapahtuma sitten kuluttaa. Näitä panoksia käytetään syöttämään uusia UTXO:ita, jotka luodaan tapahtuman tuotoksina ja jotka voidaan sitten käyttää tulevissa tapahtumissa.

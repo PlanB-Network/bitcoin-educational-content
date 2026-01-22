@@ -1,5 +1,5 @@
 ---
-term: LOCK (.LOCK)
+term: Lock (.lock)
 
 ---
 

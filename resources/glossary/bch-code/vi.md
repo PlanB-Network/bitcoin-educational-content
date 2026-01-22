@@ -1,5 +1,5 @@
 ---
-term: MÃ BCH
+term: Mã bch
 ---
 
 Một lớp mã sửa lỗi được sử dụng để phát hiện và sửa lỗi trong chuỗi dữ liệu. Nói cách khác, mã sửa lỗi BCH được sử dụng để tìm và sửa lỗi ngẫu nhiên trong thông tin được truyền đi, để đảm bảo thông tin đến đích nguyên vẹn. Từ viết tắt "BCH" là chữ cái đầu của tên những người phát minh ra các mã này: Bose, Ray-Chaudhuri và Hocquenghem.

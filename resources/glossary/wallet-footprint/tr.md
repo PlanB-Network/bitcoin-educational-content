@@ -1,5 +1,5 @@
 ---
-term: Wallet AYAK İZİ
+term: Wallet ayak i̇zi̇
 ---
 
 Aynı Bitcoin Wallet tarafından yapılan işlemlerde gözlemlenebilen bir dizi ayırt edici özellik. Bu özellikler, kod türlerinin kullanımındaki benzerlikleri, adreslerin yeniden kullanımını, UTXO'ların sırasını, değişiklik çıktılarının yerleşimini, RBF'ün (*Replace-by-fee*) sinyalizasyonunu, sürüm numarasını, `nSequence` alanını ve `nLockTime` alanını içerebilir.

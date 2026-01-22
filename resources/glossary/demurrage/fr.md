@@ -1,5 +1,5 @@
 ---
-term: DEMEURAGE
+term: Demeurage
 ---
 
 Coût associé à la détention d'une monnaie. Par extension, le demeurage désigne parfois un mécanisme monétaire dans lequel la détention prolongée d'une monnaie entraîne une pénalité pour son propriétaire, par exemple, en faisant diminuer progressivement sa valeur. Le but recherché est souvent d'améliorer la vitesse de circulation de la monnaie en décourageant l'épargne de long terme.

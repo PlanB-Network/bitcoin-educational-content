@@ -1,5 +1,5 @@
 ---
-term: BITCOIN SATOSHI VISIOON (BSV)
+term: Bitcoin satoshi visioon (bsv)
 
 ---
 Krüptoraha süsteem, mis tuleneb Bitcoin Cashi (BCH), mis omakorda on Bitcoini (BTC) hargnenud hargnenud. Bitcoin SV hargnemine toimus 15. novembril 2018 plokis 556,766, mis oli tingitud Bitcoin Cashi kogukonna erimeelsustest, eelkõige plokisuuruse ja Bitcoini looja Satoshi Nakamoto oletatava nägemuse osas. Kaks fraktsiooni läksid omavahel vastuollu:

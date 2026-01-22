@@ -1,5 +1,5 @@
 ---
-term: PRIVAT NYCKEL
+term: Privat nyckel
 ---
 
 En privat nyckel är ett grundläggande element i asymmetrisk kryptografi. Det är ett tal (256 bitar i samband med Bitcoin) som representerar en kryptografisk hemlighet. Denna nyckel används för att digitalt signera transaktioner och bevisa Ownership för en Bitcoin-offentlig nyckel (och i förlängningen en mottagande Address) genom att uppfylla en `scriptPubKey`. Privata nycklar gör det därför möjligt att spendera bitcoins genom att låsa upp de UTXO:er som är associerade med motsvarande offentliga nyckel. Privata nycklar måste hållas strikt konfidentiella, eftersom ett avslöjande av dem skulle kunna göra det möjligt för illvilliga tredje parter att ta kontroll över de tillhörande medlen.

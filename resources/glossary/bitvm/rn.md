@@ -1,5 +1,5 @@
 ---
-term: BITVM
+term: Bitvm
 ---
 
 Porotokole yashizweho na Robin Linus mu 2023, igamije kwagura ubushobozi bwo gutegura ibikorwa vya Bitcoin.

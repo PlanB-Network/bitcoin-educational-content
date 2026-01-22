@@ -1,5 +1,5 @@
 ---
-term: BLOQUE GÉNESIS
+term: Bloque génesis
 
 ---
 El Bloque Génesis es el primer bloque del sistema Bitcoin. Significa el lanzamiento concreto de Bitcoin. El Bloque Génesis fue creado por el fundador anónimo de Bitcoin, Satoshi Nakamoto, el 3 de enero de 2009. Su hash es:

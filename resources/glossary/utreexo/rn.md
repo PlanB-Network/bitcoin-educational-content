@@ -1,5 +1,5 @@
 ---
-term: UTREEXO
+term: Utreexo
 
 ---
 

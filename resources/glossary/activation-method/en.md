@@ -1,5 +1,5 @@
 ---
-term: ACTIVATION METHOD
+term: Activation method
 ---
 
 An activation method is the process by which the user community decides on the implementation of a soft fork on the Bitcoin protocol, aiming to avoid a blockchain split. This process involves gathering the opinion of miners to approve a soft fork before its activation. If a significant majority accepts the soft fork, the risk of a blockchain split is minimized. This consensus is crucial because if a majority of miners refuse to adopt the change, the soft fork could create two distinct chains: one with the modified rules and the other without. There are 2 main categories of activation methods:

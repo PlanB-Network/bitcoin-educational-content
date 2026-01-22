@@ -1,5 +1,5 @@
 ---
-term: SHADI (UMEME)
+term: Shadi (umeme)
 ---
 
 Katika muktadha wa *Malipo ya Njia Nyingi (MPP)* au *Malipo ya Njia Nyingi za Atomiki (AMP)*, Shard ni sehemu ya malipo ya kimataifa. Kila Shard inawakilisha sehemu ya jumla ya malipo, ambayo hupitishwa kando kupitia njia tofauti kwenye Umeme.

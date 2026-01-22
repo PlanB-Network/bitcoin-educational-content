@@ -1,5 +1,5 @@
 ---
-term: BẰNG CHỨNG ĐẶT CHỖ
+term: Bằng chứng đặt chỗ
 ---
 
 Cơ chế được các nền tảng Bitcoin Exchange sử dụng để chứng minh rằng họ thực sự nắm giữ tài sản của khách hàng. Mục đích là chứng minh khả năng thanh toán của công ty bằng cách xác minh rằng số bitcoin của công ty tương đương hoặc lớn hơn số dư của người dùng mà họ được cho là nắm giữ.

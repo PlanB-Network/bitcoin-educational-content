@@ -1,5 +1,5 @@
 ---
-term: UUDELLEENKÄYTETTÄVÄ MAKSUKOODI
+term: Uudelleenkäytettävä maksukoodi
 
 ---
 BIP47:ssä uudelleenkäytettävä maksukoodi on Bitcoin-lompakosta luotu staattinen tunniste, joka mahdollistaa ilmoitustapahtuman ja yksilöllisten osoitteiden johtamisen. Näin vältetään osoitteiden uudelleenkäyttö, joka johtaa yksityisyyden menetykseen, ilman että uusia, käyttämättömiä osoitteita tarvitsee johtaa ja lähettää manuaalisesti jokaista maksua varten. BIP47:ssä uudelleenkäytettävät maksutunnukset rakennetaan seuraavasti:

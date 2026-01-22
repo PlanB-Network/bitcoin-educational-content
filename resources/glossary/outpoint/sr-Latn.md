@@ -1,5 +1,5 @@
 ---
-term: OUTPOINT
+term: Outpoint
 ---
 
 Jedinstvena referenca na neiskorišćeni izlaz transakcije (UTXO). Sastoji se od dva Elements:

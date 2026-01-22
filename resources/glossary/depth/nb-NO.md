@@ -1,5 +1,5 @@
 ---
-term: DYBDE
+term: Dybde
 
 ---
 I forbindelse med HD-lommebøker (Hierarchical Deterministic) refererer dybde til det spesifikke nivået på en nøkkel (offentlig eller privat), en kjedekode, en utvidet nøkkel eller en adresse i lommebokens avledningsstruktur fra hovednøkkelen. Hvert nivå i denne strukturen kan ses på som en etasje i et nøkkeltre, der hovednøkkelen er ved roten (dybde 0), og de påfølgende nivåene definerer ulike attributter som f.eks:

@@ -1,5 +1,5 @@
 ---
-term: Bitcoin Satoshi IYEREKWA (BSV)
+term: Bitcoin satoshi iyerekwa (bsv)
 ---
 
 Uburyo bw’amahera y’ivy’ubuhinga bwa none buva ku Hard Fork ya Bitcoin y’amahera (BCH), ubwayo ni Fork ya Bitcoin (BTC). Bitcoin SV Fork yabaye ku wa 15 Ugushyingo 2018, ku nzu 556.766 kubera ukutumvikana mu muryango wa Bitcoin Cash, cane cane ku bijanye n’ubunini bw’inzu n’insobanuro y’“iyerekwa” rya Satoshi Nakamoto ku nzu ya Bitcoin.

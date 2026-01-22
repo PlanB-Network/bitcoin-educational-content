@@ -1,5 +1,5 @@
 ---
-term: KWIHANGANIRA AMAKOSA YA BIZANTINE (BFT)
+term: Kwihanganira amakosa ya bizantine (bft)
 ---
 
 Iciyumviro gikoreshwa mu mice ikwiragijwe kugira ngo habeho ukwiyumvikana kwizigirwa kandi gutekanye, mbere n’aho hariho utugingo ngengabuzima dufise amakosa canke dufise ububi.

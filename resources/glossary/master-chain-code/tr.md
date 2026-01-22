@@ -1,5 +1,5 @@
 ---
-term: MASTER chain code
+term: Master chain code
 ---
 
 Tüm anahtarlar için türetme ağacının temelini oluşturan Wallet'nin ana anahtarı ile ilişkili chain code'i ifade eder.

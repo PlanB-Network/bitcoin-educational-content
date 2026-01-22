@@ -1,5 +1,5 @@
 ---
-term: TWEAK
+term: Tweak
 ---
 
 Att "tweaka" en publik nyckel inom kryptografi innebär att den modifieras med hjälp av ett additivt värde som kallas "tweak", så att den fortfarande kan användas med kännedom om både den ursprungliga privata nyckeln och tweaken. Tekniskt sett är en tweak ett skalärt värde som läggs till den ursprungliga publika nyckeln. Om $P$ är den publika nyckeln och $t$ är tweaken, blir den tweakade publika nyckeln :

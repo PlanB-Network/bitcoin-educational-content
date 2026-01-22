@@ -1,5 +1,5 @@
 ---
-term: REUTILIZACIÓN DE DIRECCIONES
+term: Reutilización de direcciones
 
 ---
 La reutilización de direcciones se refiere a la práctica de utilizar la misma dirección receptora para bloquear múltiples UTXOs, a veces dentro de varias transacciones diferentes. Los bitcoins suelen bloquearse mediante un par de claves criptográficas que corresponden a una dirección única. Como la blockchain es pública, es fácil ver qué direcciones están asociadas a cuántos bitcoins. En el caso de reutilizar la misma dirección para múltiples pagos, es razonable imaginar que todos los UTXO asociados pertenecen a la misma entidad. Por lo tanto, la reutilización de direcciones plantea un problema para la privacidad del usuario. Permite establecer vínculos deterministas entre múltiples transacciones y UTXOs, así como perpetuar el seguimiento de fondos en la cadena. Satoshi Nakamoto ya mencionó este problema en su Libro Blanco:

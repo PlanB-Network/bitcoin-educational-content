@@ -1,5 +1,5 @@
 ---
-term: BYSANTINSK SVIKT
+term: Bysantinsk svikt
 
 ---
 Bysantinske feil, eller bysantinsk oppførsel, refererer til enhver oppførsel fra et system som ikke er i samsvar med dets egne spesifikasjoner, og som gir resultater som ikke er i samsvar med spesifikasjonene.

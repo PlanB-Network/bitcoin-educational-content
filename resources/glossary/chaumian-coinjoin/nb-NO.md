@@ -1,5 +1,5 @@
 ---
-term: CHAUMIAN COINJOIN
+term: Chaumian coinjoin
 
 ---
 En coinjoin-protokoll som bruker David Chaums blindsignaturer og Tor for kommunikasjon mellom deltakerne og koordinatorens server. Målet med en Chaumian coinjoin er å sikre deltakerne at koordinatoren ikke kan stjele bitcoins, og heller ikke koble inn- og utdataene sammen.

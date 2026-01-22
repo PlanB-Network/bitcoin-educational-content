@@ -1,5 +1,5 @@
 ---
-term: YATIMA
+term: Yatima
 ---
 
 Kinadharia, Orphan block inahusu kizuizi halali kilichopokelewa na node ambayo bado haijapata kizuizi cha mzazi, yaani, kilichotangulia kwenye mlolongo. Ingawa ni halali, mtaa huu unasalia kutengwa kama yatima.

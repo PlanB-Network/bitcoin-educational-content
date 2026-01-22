@@ -1,5 +1,5 @@
 ---
-term: ISOHOKA RY'INYANDIKA IBISOBANURA
+term: Isohoka ry'inyandika ibisobanura
 ---
 
 Insobanuro z'inyandiko y'isohoka, canke insobanuro gusa, ni imvugo zitunganijwe zidondora neza inyandiko y'isohoka (`scriptPubKey`) kandi zitanga amakuru yose akenewe kugira ngo ukurikirane ibikorwa vy'inyandiko canke biva ku nyandiko yihariye. Ivyo bisobanuro bifasha gucunga neza imfunguruzo mu bikoresho vya HD biciye mu ndondoro isanzwe y’imiterere n’ubwoko bw’amaderesi akoreshwa.

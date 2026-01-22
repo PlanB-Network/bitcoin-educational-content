@@ -1,5 +1,5 @@
 ---
-term: OVERLAY
+term: Overlay
 ---
 
 Protokoll eller nätverk som byggts ovanpå det huvudsakliga Bitcoin-nätverket. Det använder Bitcoin-nätverket som grund och är därför beroende av dess protokoll. Bitcoin-nätet är dock inte beroende av sina överlagringar. Ett exempel på en sådan överlagring är Lightning Network.

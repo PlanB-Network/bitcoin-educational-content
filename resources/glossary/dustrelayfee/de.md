@@ -1,5 +1,5 @@
 ---
-term: DUSTRELAYFEE
+term: Dustrelayfee
 
 ---
 Eine Standardisierungsregel, die von Netzknoten verwendet wird, um zu bestimmen, was sie als "Staubgrenze" betrachten Dieser Parameter legt einen Gebührensatz in Sats pro virtuellem Kilobyte (sats/kvB) fest, der als Referenz für die Berechnung dient, ob der Wert eines UTXO geringer ist als die notwendigen Gebühren, um ihn in eine Transaktion aufzunehmen. Tatsächlich gilt ein UTXO als "Staub" auf Bitcoin, wenn es mehr an Gebühren erfordert, um übertragen zu werden, als der Wert, den es selbst darstellt. Die Berechnung dieser Grenze ist wie folgt:

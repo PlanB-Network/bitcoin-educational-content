@@ -1,5 +1,5 @@
 ---
-term: BLOCKSIZE WAR
+term: Blocksize war
 
 ---
 Tarkoittaa Bitcoin-yhteisössä vuosina 2015-2017 käytyä kiivasta keskustelua ja konfliktia. Tämä konflikti keskittyi siihen, pitäisikö lohkokokoa, jonka Satoshi Nakamoto oli rajoittanut 1 megatavuun vuodesta 2010 lähtien, kasvattaa, jotta Bitcoin voisi käsitellä enemmän transaktioita lohkoa kohti ja parantaa näin skaalautuvuutta.

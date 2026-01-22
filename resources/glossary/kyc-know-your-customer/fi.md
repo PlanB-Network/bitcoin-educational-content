@@ -1,5 +1,5 @@
 ---
-term: KYC (TUNNE ASIAKKAASI)
+term: Kyc (tunne asiakkaasi)
 
 ---
 Sääntelymenettely, jota eräät Bitcoinilla toimivat yritykset käyttävät asiakkaidensa henkilöllisyyden todentamiseksi osana rahanpesun ja terrorismin rahoituksen torjuntaa. KYC sisältää henkilötietojen keräämisen ja tarkistamisen. Bitcoineja ostettaessa KYC aiheuttaa käyttäjälle useita riskejä, kuten seuraavat:

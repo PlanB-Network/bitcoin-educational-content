@@ -1,5 +1,5 @@
 ---
-term: ON-GRID
+term: On-grid
 ---
 
 Avser en Bitcoin Mining-verksamhet som är ansluten till det allmänna elnätet. On-grid miners ansluter till det konventionella elnätet, som även används av hushållskonsumenter, för att driva sina ASIC:er. Denna metod erbjuder en stabil strömkälla, men är ofta dyrare än Mining utanför elnätet på grund av mer begränsade förhandlingsmarginaler.

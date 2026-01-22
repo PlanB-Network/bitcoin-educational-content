@@ -1,5 +1,5 @@
 ---
-term: IŞLEM ÜCRETLERI
+term: Işlem ücretleri
 ---
 
 İşlem ücretleri, madencilerin Proof of Work mekanizmasına katılımlarını telafi etmeyi amaçlayan bir tutarı temsil eder. Bu ücretler madencileri oluşturdukları bloklara işlemleri dahil etmeye teşvik eder. Bir işlemdeki toplam girdi miktarı ile toplam çıktı miktarı arasındaki farktan kaynaklanırlar:

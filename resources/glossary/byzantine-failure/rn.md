@@ -1,5 +1,5 @@
 ---
-term: KUNANIRA KWA BIZANTI
+term: Kunanira kwa bizanti
 ---
 
 Ukunanirwa kw’Abanyabizantine, canke inyifato y’Abanyabizantine, ni inyifato iyo ari yo yose y’urutonde ruva ku vyo rutegekanije, rugatuma habaho ibisubizo bidahuye.

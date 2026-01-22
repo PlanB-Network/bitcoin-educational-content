@@ -1,5 +1,5 @@
 ---
-term: ECASH (XEC)
+term: Ecash (xec)
 
 ---
 

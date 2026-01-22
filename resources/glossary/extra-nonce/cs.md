@@ -1,5 +1,5 @@
 ---
-term: EXTRA-Nonce
+term: Extra-nonce
 ---
 
 Pole používané v `scriptSig` bloku Coinbase Transaction, které umožňuje testovat větší počet možností, aby byl Hash nižší než cílová obtížnost, kromě klasického Nonce, který se nachází přímo v záhlaví každého bloku.

@@ -1,5 +1,5 @@
 ---
-term: Bitcoin ATA MUGARUKO
+term: Bitcoin ata mugaruko
 ---
 
 Iciyumviro co guhindura amasezerano ya Bitcoin yasohotse mu mpera z'icuma 2016, kigamije kwongera ubunini bw'amabuye biciye ku Hard Fork.

@@ -1,5 +1,5 @@
 ---
-term: COINBASE (TRANSACTION)
+term: Coinbase (transaction)
 ---
 
 Coinbase Transaction ni shughuli maalum na ya kipekee iliyojumuishwa katika kila block ya Bitcoin Blockchain. Inawakilisha shughuli ya kwanza ya kizuizi na imeundwa na Miner ambaye amefanikiwa kupata kichwa kinachothibitisha Proof of Work (*Proof-of-Work*), yaani, chini ya au sawa na lengo.

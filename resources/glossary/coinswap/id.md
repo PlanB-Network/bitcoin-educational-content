@@ -1,5 +1,5 @@
 ---
-term: COINSWAP
+term: Coinswap
 ---
 
 Protokol untuk transfer rahasia kepemilikan antar pengguna. Metode ini bertujuan untuk mentransfer kepemilikan bitcoin dari satu orang ke orang lain, dan sebaliknya, tanpa pertukaran ini secara eksplisit terlihat pada _Blockchain_. Coinwap menggunakan kontrak pintar untuk melakukan transfer tanpa memerlukan kepercayaan di antara kedua belah pihak.

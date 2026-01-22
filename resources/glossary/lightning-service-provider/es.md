@@ -1,5 +1,5 @@
 ---
-term: PROVEEDOR DE SERVICIOS DE ILUMINACIÓN
+term: Proveedor de servicios de iluminación
 ---
 
 Empresa que opera en Lightning cuya actividad consiste en prestar servicios de liquidez a los usuarios.

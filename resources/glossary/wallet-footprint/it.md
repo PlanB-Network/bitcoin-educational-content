@@ -1,5 +1,5 @@
 ---
-term: IMPRONTA DEL PORTAFOGLIO
+term: Impronta del portafoglio
 
 ---
 Un insieme di caratteristiche distintive osservabili nelle transazioni effettuate dallo stesso portafoglio Bitcoin. Queste caratteristiche possono includere somiglianze nell'uso dei tipi di script, nel riutilizzo degli indirizzi, nell'ordine degli UTXO, nel posizionamento delle uscite di modifica, nella segnalazione di RBF (*Replace-by-Fee*), nel numero di versione, nel campo `nSequence` e nel campo `nLockTime`.

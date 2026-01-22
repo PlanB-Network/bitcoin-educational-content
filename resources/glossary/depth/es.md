@@ -1,5 +1,5 @@
 ---
-term: PROFUNDIDAD
+term: Profundidad
 
 ---
 En el contexto de los monederos HD (Hierarchical Deterministic), la profundidad se refiere al nivel específico de una clave (pública o privada), un código de cadena, una clave extendida o una dirección dentro de la estructura de derivación del monedero a partir de la clave maestra. Cada nivel de esta estructura puede verse como un piso en un árbol de claves, donde la clave maestra está en la raíz (profundidad 0) y los niveles subsiguientes definen varios atributos como:

@@ -1,5 +1,5 @@
 ---
-term: ATOMSKE VIŠEPUTNE UPLATE
+term: Atomske višeputne uplate
 ---
 
 Poboljšana verzija MPP (*Multi-Path Payments*) gde svaki fragment plaćanja ima jedinstvenu delimičnu tajnu, osiguravajući da se transakcija izvrši atomski, tj. u celosti ili uopšte ne.

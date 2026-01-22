@@ -1,5 +1,5 @@
 ---
-term: BCH CODE
+term: Bch code
 ---
 
 Een klasse foutcorrectiecodes die worden gebruikt om fouten in een gegevensreeks op te sporen en te corrigeren. Met andere woorden, BCH foutcorrectiecodes worden gebruikt om willekeurige fouten in verzonden informatie op te sporen en te corrigeren, zodat de informatie intact aankomt op de plaats van bestemming. Het acroniem "BCH" staat voor de initialen van de namen van de uitvinders van deze codes: Bose, Ray-Chaudhuri en Hocquenghem.

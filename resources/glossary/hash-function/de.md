@@ -1,5 +1,5 @@
 ---
-term: HASH FUNCTION
+term: Hash function
 
 ---
 Eine mathematische Funktion, die eine Eingabe variabler Größe (Nachricht genannt) annimmt und eine Ausgabe fester Größe (Hash, Hashing, Digest oder Fingerprint genannt) erzeugt. Hash-Funktionen sind weit verbreitete Primitive in der Kryptographie. Sie weisen spezifische Eigenschaften auf, die sie für den Einsatz in sicheren Kontexten geeignet machen:

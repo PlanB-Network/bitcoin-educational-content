@@ -1,5 +1,5 @@
 ---
-term: Uvumilivu wa KOSA wa BYZANTINE (BFT)
+term: Uvumilivu wa kosa wa byzantine (bft)
 ---
 
 Dhana inayotumiwa katika mifumo iliyosambazwa ili kuhakikisha maelewano ya kuaminika na salama, hata mbele ya nodi mbovu au hasidi.

@@ -1,5 +1,5 @@
 ---
-term: DEBUG.LOG
+term: Debug.log
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-term: Invoice LICHT
+term: Invoice licht
 ---
 
 Lightning betalingsverzoek gegenereerd door de ontvanger, met alle informatie die nodig is om de transactie te voltooien.

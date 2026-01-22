@@ -1,5 +1,5 @@
 ---
-term: SAVEZ
+term: Savez
 ---
 
 Mehanizam koji omogućava nametanje specifičnih uslova o tome kako se određeni komad valute može trošiti, uključujući buduće transakcije. Pored uslova koje obično dozvoljava skript jezik na UTXO, zavet nameće dodatna ograničenja na to kako se ovaj Bitcoin može trošiti u narednim transakcijama. Tehnički, uspostavljanje zaveta se dešava kada `scriptPubKey` UTXO definiše ograničenja na `scriptPubKey` izlaza transakcije koja troši navedeni UTXO. Proširivanjem opsega skripta, zaveti bi omogućili brojne razvojne mogućnosti na Bitcoin kao što su bilateralno sidrenje drajvčejnova, implementacija trezora, ili poboljšanje nadsistemskih sistema kao što je Lightning. Predlozi zaveta se razlikuju na osnovu tri kriterijuma:

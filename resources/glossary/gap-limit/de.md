@@ -1,5 +1,5 @@
 ---
-term: GAP LIMIT
+term: Gap limit
 
 ---
 Ein Parameter, der in der Bitcoin-Wallet-Software verwendet wird, um die maximale Anzahl aufeinanderfolgender unbenutzter Adressen zu bestimmen, bevor die Suche nach zusätzlichen Transaktionen gestoppt wird. Die Anpassung dieses Parameters ist oft notwendig, wenn eine Wallet wiederhergestellt werden soll, um sicherzustellen, dass alle Transaktionen gefunden werden. Ein unzureichendes Gap Limit könnte dazu führen, dass einige Transaktionen nicht gefunden werden, wenn Adressen während der Ableitungsphasen übersprungen wurden. Eine Erhöhung des Lückenlimits ermöglicht es der Brieftasche, weiter in der Adressreihenfolge zu suchen, um alle zugehörigen Transaktionen wiederherzustellen.

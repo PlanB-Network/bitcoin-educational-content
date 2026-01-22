@@ -1,5 +1,5 @@
 ---
-term: Address GUBESHA
+term: Address gubesha
 ---
 
 Igitero aho umukinyi w’ububisha atanga Address (canke ikindi kimenyetso c’ukwishura) gisa cane n’ica Address c’uwagirizwa. Intumbero ni uguhenda uwukoresha ngo akope Address idakwiriye igihe akora igikorwa, ivyo bikaba bituma ayo ma bitcoins yoherezwa ku wuyitera aho kurungikwa ku muntu yashaka kuyaronka.

@@ -1,5 +1,5 @@
 ---
-term: TRAČ
+term: Trač
 ---
 
 Trač je peer-to-peer (P2P) distribuirani algoritam za širenje informacija epidemijski svim agentima mreže. Za Bitcoin, Lightning i druge distribuirane sisteme, ovaj protokol omogućava Global State čvorova da budu razmenjeni i sinhronizovani u samo nekoliko ciklusa. Svaki čvor propagira informacije jednom ili više slučajnih ili neslučajnih suseda, koji zatim propagiraju informacije drugim susedima, i tako dalje, dok se ne postigne globalno sinhronizovano stanje.

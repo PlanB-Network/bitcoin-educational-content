@@ -1,5 +1,5 @@
 ---
-term: OUTPOINT
+term: Outpoint
 
 ---
 Unikaalne viide kasutamata tehingu väljundile (UTXO). Koosneb kahest elemendist:

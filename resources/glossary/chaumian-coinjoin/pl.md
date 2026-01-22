@@ -1,5 +1,5 @@
 ---
-term: CHAUMIAN CoinJoin
+term: Chaumian coinjoin
 ---
 
 Protokół CoinJoin, który wykorzystuje ślepe podpisy Davida Chauma i Tor do komunikacji między uczestnikami a serwerem koordynatora. Celem Chaumian CoinJoin jest zapewnienie uczestnikom, że koordynator nie może ukraść bitcoinów ani połączyć ze sobą wejść i wyjść.

@@ -1,5 +1,5 @@
 ---
-term: PSEUDO-RANDOM
+term: Pseudo-random
 ---
 
 Bu sıfat, deterministik bir sürecin sonucu olmasına rağmen, ideal bir gerçekten rastgele dizinin özelliklerine yakın özellikler gösteren bir sayı dizisini tanımlamak için kullanılır. İdeal rastgelelik kavramı, birbirini izleyen Elements'lar arasında tam bir öngörülebilirlik ve korelasyon yokluğu anlamına gelir. Bir sözde rastgele sayı, deterministik bir algoritma tarafından üretilir ve bu nedenle, teorik olarak, üretecin başlangıç durumu biliniyorsa tamamen öngörülebilirdir.

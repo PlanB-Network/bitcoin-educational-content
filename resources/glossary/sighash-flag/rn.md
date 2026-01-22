@@ -1,5 +1,5 @@
 ---
-term: Ibendera rya SIGHASH
+term: Ibendera rya sighash
 
 ---
 

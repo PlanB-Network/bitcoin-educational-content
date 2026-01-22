@@ -1,5 +1,5 @@
 ---
-term: ATOMIK ÇOK YOLLU ÖDEMELER
+term: Atomik çok yollu ödemeler
 ---
 
 MPP'nin (*Çok Yollu Ödemeler*) her ödeme parçasının farklı bir kısmi sırra sahip olduğu, işlemin atomik olarak, yani tam olarak veya hiç yapılmamasını sağlayan geliştirilmiş versiyonu.

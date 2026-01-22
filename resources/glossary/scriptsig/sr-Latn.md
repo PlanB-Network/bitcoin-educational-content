@@ -1,5 +1,5 @@
 ---
-term: SCRIPTSIG
+term: Scriptsig
 ---
 
 Element u transakciji Bitcoin nalazi se u ulazima. `scriptSig` obezbeđuje neophodne podatke za ispunjavanje uslova postavljenih od strane `scriptPubKey` prethodne transakcije iz koje se sredstva troše. Tako igra komplementarnu ulogu prema `scriptPubKey`. Tipično, `scriptSig` sadrži digitalni potpis i javni ključ. Potpis generiše vlasnik bitkoina koristeći svoj privatni ključ i dokazuje da ima ovlašćenje da troši UTXO. U ovom slučaju, `scriptSig` pokazuje da posednik ulaza ima privatni ključ koji odgovara javnom ključu povezanom sa Address specificiranim u `scriptPubKey` prethodne odlazne transakcije.

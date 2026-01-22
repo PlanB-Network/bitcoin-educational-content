@@ -1,5 +1,5 @@
 ---
-term: RAT BLOKOVA
+term: Rat blokova
 ---
 
 Odnosi se na period intenzivne debate i sukoba unutar Bitcoin zajednice između 2015. i 2017. godine. Ovaj sukob je bio usredsređen na to da li bi veličina bloka, koja je bila ograničena na 1 megabajt od 2010. godine od strane Satoshi Nakamoto, trebalo da bude povećana kako bi Bitcoin mogao da obradi više transakcija po bloku, čime bi se poboljšala skalabilnost.

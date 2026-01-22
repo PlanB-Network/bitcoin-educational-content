@@ -1,5 +1,5 @@
 ---
-term: RBF (Replace-by-fee)
+term: Rbf (replace-by-fee)
 ---
 
 一種交易機制，允許寄件者透過支付較高的費用，用另一個交易取代一個交易，以加速其確認。如果費用太低的交易被卡住，寄件者可以使用 *Replace-by-fee* 來增加費用，並在 mempool 中優先處理其替代交易。

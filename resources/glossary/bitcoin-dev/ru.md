@@ -1,5 +1,5 @@
 ---
-term: Bitcoin-DEV
+term: Bitcoin-dev
 ---
 
 Список электронной рассылки, посвященный разработке протокола Bitcoin. Bitcoin-dev был создан Джеффом Гарзиком в 2011 году и первоначально размещался на Sourceforge.net. Затем список рассылки был перенесен в Linux Foundation, затем в Open Source Lab, и, наконец, с февраля 2024 года он размещается в Google Groups: https://groups.google.com/g/bitcoindev

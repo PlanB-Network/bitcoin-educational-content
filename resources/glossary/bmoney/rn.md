@@ -1,5 +1,5 @@
 ---
-term: B-MONEY
+term: B-money
 
 ---
 

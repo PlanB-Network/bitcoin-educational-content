@@ -1,5 +1,5 @@
 ---
-term: HALVING
+term: Halving
 
 ---
 The term "halving" refers to a scheduled event that cuts in half the reward given to miners for each mined block through the block subsidy. This reduction specifically applies to the portion of the block subsidy consisting of new bitcoins created out of thin air. Halving was designed by Satoshi Nakamoto, the creator of Bitcoin, as a mechanism to control inflation and ensure a limited supply of bitcoins.

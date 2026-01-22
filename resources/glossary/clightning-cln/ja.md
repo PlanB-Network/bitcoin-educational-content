@@ -1,4 +1,4 @@
 ---
-term: Cライトニング（CLN）
+term: Cライトニング（cln）
 ---
 Core-Lightningの旧実装名。

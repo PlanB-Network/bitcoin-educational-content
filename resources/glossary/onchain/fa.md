@@ -1,5 +1,5 @@
 ---
-term: On-Chain
+term: On-chain
 ---
 
 به تراکنش‌هایی اشاره دارد که مستقیماً بر روی Bitcoin Blockchain ثبت شده‌اند. این اصطلاح در مقابل "off-chain" قرار دارد که به عملیات‌هایی اشاره دارد که کم و بیش با Bitcoin Blockchain مرتبط هستند اما خارج از Blockchain اصلی انجام می‌شوند.

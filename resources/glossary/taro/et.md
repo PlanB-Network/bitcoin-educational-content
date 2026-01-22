@@ -1,5 +1,5 @@
 ---
-term: TARO
+term: Taro
 
 ---
 Taproot Assets protokolli endine nimi.

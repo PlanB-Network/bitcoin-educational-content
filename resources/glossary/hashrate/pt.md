@@ -1,5 +1,5 @@
 ---
-term: HASHRATE
+term: Hashrate
 
 ---
 Indicador do poder de computação da rede, medido em hashes por segundo (H/s). Indica a capacidade dos mineiros para efetuar operações de hashing como parte da prova de trabalho. Um hashrate elevado significa maior segurança para a história económica da Bitcoin e maior resistência a ataques, uma vez que seria necessária uma quantidade significativa de poder de computação para comprometer a rede.

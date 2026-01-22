@@ -1,5 +1,5 @@
 ---
-term: BLOKGROOTTE OORLOG
+term: Blokgrootte oorlog
 ---
 
 Verwijst naar een periode van intens debat en conflict binnen de Bitcoin gemeenschap tussen 2015 en 2017. Dit conflict draaide om de vraag of de blokgrootte, die sinds 2010 door Satoshi Nakamoto was beperkt tot 1 megabyte, moest worden verhoogd om Bitcoin in staat te stellen meer transacties per blok te verwerken, waardoor de schaalbaarheid werd verbeterd.

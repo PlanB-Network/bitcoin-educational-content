@@ -1,5 +1,5 @@
 ---
-term: FIBRE
+term: Fibre
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-term: KOMPRESOVANI JAVNI KLJUČ
+term: Kompresovani javni ključ
 ---
 
 Javni ključ se koristi u skriptama (bilo direktno u obliku javnog ključa ili kao Address) za primanje i osiguranje bitkoina. Sirovi javni ključ je predstavljen tačkom na eliptičnoj krivi, koja se sastoji od dve koordinate (`x, y`), svaka od 256 bita. U sirovom formatu, javni ključ stoga meri 512 bita, ne računajući dodatni bajt za identifikaciju formata. Kompresovani javni ključ, s druge strane, je kompaktniji oblik predstavljanja javnog ključa. Koristi samo `x` koordinatu i prefiks (`02` ili `03`) koji označava paritet `y` koordinate (paran ili neparan).

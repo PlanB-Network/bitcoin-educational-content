@@ -1,5 +1,5 @@
 ---
-term: UMURARO W'AMASHANYARAZI
+term: Umuraro w'amashanyarazi
 ---
 
 Gushirwa mu ngiro kwa Lightning Network yanditswe muri Python cane cane kuri porogarama ya Electrum.

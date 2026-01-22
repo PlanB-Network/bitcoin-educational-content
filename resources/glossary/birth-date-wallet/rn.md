@@ -1,5 +1,5 @@
 ---
-term: ITARIKI Y'IVUKO (Wallet)
+term: Itariki y'ivuko (wallet)
 ---
 
 Itariki y’amavuko (Wallet) yerekeza ku itariki Wallet yaremeweko.

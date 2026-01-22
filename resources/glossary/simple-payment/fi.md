@@ -1,5 +1,5 @@
 ---
-term: SIMPLE PAYMENT
+term: Simple payment
 
 ---
 Ketjuanalyysissä käytetty transaktiomalli (tai -malli), jolle on ominaista yhden tai useamman UTXO:n kulutus tuotantopanoksina ja kahden UTXO:n tuotanto tuotoksina. Tämä malli näyttää siis seuraavalta:

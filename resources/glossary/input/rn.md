@@ -1,5 +1,5 @@
 ---
-term: KINJIRA
+term: Kinjira
 ---
 
 Mu bijanye na Bitcoin, inyungu iri mu gikorwa c’ubudandaji yerekeza ku UTXOs (*Ibisohoka mu bikorwa vy’ubudandaji bitakoreshejwe*) bikoreshwa nk’amahera y’intango kugira ngo bihaze ibiva mu bikorwa. Ivyo winjiza vyose birimwo ibisobanuro vy’ama UTXO ya kera, azoca afungurwa n’ugucuruza. Ivyo bikoresho bikoreshwa mu kugaburira ama UTXO mashasha azoremwa nk’ibisohoka mu bikorwa, kandi bishobora gukoreshwa mu bikorwa vyo muri kazoza.

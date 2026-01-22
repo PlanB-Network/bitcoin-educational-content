@@ -1,5 +1,5 @@
 ---
-term: SPEEDY TRIAL
+term: Speedy trial
 
 ---
 Metoda aktivace měkké vidlice, kterou původně pro Taproot na začátku roku 2021 koncipoval David A. Harding na základě nápadu Russella O'Connora. Její princip spočívá v použití metody BIP8 s parametrem `LOT` nastaveným na `false`, přičemž doba aktivace se zkrátí na pouhé 3 měsíce. Toto zkrácené období hlasování umožňuje rychlé ověření schválení horníků. Pokud je během jednoho z období dosaženo požadovaného prahu schválení, soft fork je následně uzamčen. Aktivován bude o několik měsíců později, čímž těžaři získají potřebný čas na aktualizaci svého softwaru.

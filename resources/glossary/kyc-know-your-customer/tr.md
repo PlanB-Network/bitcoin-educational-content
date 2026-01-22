@@ -1,5 +1,5 @@
 ---
-term: KYC (MÜŞTERİNİZİ TANIYIN)
+term: Kyc (müşteri̇ni̇zi̇ taniyin)
 ---
 
 Bitcoin üzerinde faaliyet gösteren bazı şirketler tarafından kara para aklama ve terörizmin finansmanı ile mücadelenin bir parçası olarak müşterilerinin kimliklerini doğrulamak için kullanılan düzenleyici prosedür. KYC, kişisel verilerin toplanmasını ve doğrulanmasını içerir. Bitcoin satın alma bağlamında KYC, kullanıcı için aşağıdakiler de dahil olmak üzere çeşitli riskler oluşturur:

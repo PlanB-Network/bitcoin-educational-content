@@ -1,5 +1,5 @@
 ---
-term: IBICIRO
+term: Ibiciro
 ---
 
 Yerekeza ku kwiyongera kw’amahera Supply ariko arakoreshwa, bikaba bituma agaciro k’ikintu cose c’amahera kagabanuka, igiciro c’ibintu n’ibikorwa kikaduga. Ku mafaranga ya Leta, ico kintu kiba iyo amabanki akomeye asohoye amafaranga mashasha.

@@ -1,5 +1,5 @@
 ---
-term: Bitcoin (huvudstad B)
+term: Bitcoin (huvudstad b)
 ---
 
 Bitcoin är namnet på det elektroniska peer-to-peer-kontantsystem som skapades av Satoshi Nakamoto 2009. Användningen av termen Bitcoin med ett stort "B" kan syfta på tre olika saker:

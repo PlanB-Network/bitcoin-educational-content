@@ -1,5 +1,5 @@
 ---
-term: BLIND SIGNATUR
+term: Blind signatur
 ---
 
 Chaums blinda signaturer är en form av digital signatur där den som utfärdar signaturen inte känner till innehållet i det meddelande som signeras. Signaturen kan dock senare verifieras med det ursprungliga meddelandet. Denna teknik utvecklades av kryptografen David Chaum 1983.

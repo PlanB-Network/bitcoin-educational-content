@@ -1,5 +1,5 @@
 ---
-term: ISHAMI (Bitcoin)
+term: Ishami (bitcoin)
 ---
 
 Muri Bitcoin, ishami ni urutonde rw’ibice bifise akamaro aho igice gishasha cose gifatanye n’icabanje. Blockchain yerekeza ku ishami rifise ibikorwa vyinshi vyirundanijwe, ariko amashami ashobora kubaho kubera amaforogo. Ishami ryose risangiye n’imiburiburi igice kimwe rusangi n’ishami ry’ingenzi, ni ukuvuga igice ca Genesis. Igice c’amabuye kidasanzwe ku ishami rimwe na rimwe citwa igice.

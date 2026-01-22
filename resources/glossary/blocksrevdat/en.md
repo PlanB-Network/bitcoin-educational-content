@@ -1,5 +1,5 @@
 ---
-term: BLOCKS/REV*.DAT
+term: Blocks/rev*.dat
 ---
 
 Name of the files in Bitcoin Core that store the data needed to undo the changes made to the UTXO set by previously added blocks. Each file is identified by a unique number matching the corresponding blk*.dat file. 

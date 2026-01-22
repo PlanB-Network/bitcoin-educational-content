@@ -1,5 +1,5 @@
 ---
-term: NLOCKTIME
+term: Nlocktime
 
 ---
 

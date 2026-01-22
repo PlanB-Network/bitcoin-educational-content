@@ -1,5 +1,5 @@
 ---
-term: SILK ROAD
+term: Silk road
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-term: BIZANTYJSKA PORAŻKA
+term: Bizantyjska porażka
 ---
 
 Awaria bizantyjska lub zachowanie bizantyjskie odnosi się do każdego zachowania systemu, które nie jest zgodne z jego własnymi specyfikacjami, powodując niezgodne wyniki.

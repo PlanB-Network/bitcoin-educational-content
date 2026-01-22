@@ -1,5 +1,5 @@
 ---
-term: EXTENDED KEY
+term: Extended key
 
 ---
 Sekvence znaků, která kombinuje klíč (veřejný nebo soukromý), přidružený řetězový kód a řadu metadat. Rozšířený klíč sdružuje všechny prvky potřebné k odvození podřízených klíčů do jediného identifikátoru. Používají se v deterministických a hierarchických peněženkách a mohou být dvou typů: rozšířený veřejný klíč (slouží k odvození podřízených veřejných klíčů) nebo rozšířený soukromý klíč (slouží k odvození podřízených soukromých i veřejných klíčů). Rozšířený klíč tedy obsahuje několik různých údajů popsaných v BIP32 v tomto pořadí:

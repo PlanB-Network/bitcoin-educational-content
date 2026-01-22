@@ -1,5 +1,5 @@
 ---
-term: PEMBAJAKAN BGP
+term: Pembajakan bgp
 
 ---
 

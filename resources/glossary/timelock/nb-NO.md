@@ -1,5 +1,5 @@
 ---
-term: TIMELOCK
+term: Timelock
 
 ---
 En smartkontraktprimitive som gjør det mulig å sette en tidsbasert betingelse som må oppfylles for at en transaksjon skal legges til i en blokk. Det finnes to typer tidssperrer på Bitcoin:

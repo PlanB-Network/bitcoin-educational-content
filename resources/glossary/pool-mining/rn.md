@@ -1,5 +1,5 @@
 ---
-term: POOL (Mining)
+term: Pool (mining)
 
 ---
 

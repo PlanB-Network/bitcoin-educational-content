@@ -1,5 +1,5 @@
 ---
-term: JEDNOSTAVNO PLAĆANJE
+term: Jednostavno plaćanje
 ---
 
 Obrazac transakcije (ili model) korišćen u analizi lanca karakteriše se potrošnjom jednog ili više UTXO-a u ulazima i proizvodnjom 2 UTXO-a u izlazima. Ovaj model će stoga izgledati ovako:

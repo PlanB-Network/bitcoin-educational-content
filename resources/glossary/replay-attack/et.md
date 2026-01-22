@@ -1,5 +1,5 @@
 ---
-term: REPLAY ATTACK
+term: Replay attack
 ---
 
 Bitcoin kontekstis toimub kordusrünnak siis, kui ühes Blockchains tehtud kehtivat tehingut reprodutseeritakse pahatahtlikult teises Blockchains, millel on sama tehingulugu. Teisisõnu, ühes kanalis edastatud tehingut võib korrata teises kanalis ilma esimese tehingu saatja nõusolekuta.

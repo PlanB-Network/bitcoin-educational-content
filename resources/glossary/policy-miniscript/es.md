@@ -1,5 +1,5 @@
 ---
-term: POLÍTICA (MINISCRIPT)
+term: Política (miniscript)
 
 ---
 Lenguaje de alto nivel orientado al usuario que permite especificar de forma sencilla las condiciones en las que se puede desbloquear un UTXO en el marco de Miniscript. La política es una descripción abstracta de las normas de gasto. A continuación, puede compilarse en miniscript, que es un equivalente uno a uno con las operaciones del lenguaje de script nativo de Bitcoin.

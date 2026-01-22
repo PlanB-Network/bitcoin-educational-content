@@ -1,5 +1,5 @@
 ---
-term: SCAMBIO ATOMICO
+term: Scambio atomico
 
 ---
 Tecnologia che consente lo scambio diretto di criptovalute tra due parti, senza bisogno di fiducia e senza richiedere un intermediario. Questi scambi sono detti "atomici" perché possono dare luogo a due soli risultati:

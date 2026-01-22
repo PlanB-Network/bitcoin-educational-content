@@ -1,5 +1,5 @@
 ---
-term: BYZANTINE FAILURE (拜占庭故障)
+term: Byzantine failure (拜占庭故障)
 
 ---
 拜占庭故障或拜占庭行为是指系统的任何行为不符合其自身规范，产生不一致的结果。

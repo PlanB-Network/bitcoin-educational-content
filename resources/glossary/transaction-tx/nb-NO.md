@@ -1,5 +1,5 @@
 ---
-term: TRANSAKSJON (TX)
+term: Transaksjon (tx)
 
 ---
 I Bitcoinsammenheng er en transaksjon (forkortet "TX") en operasjon som registreres i blokkjeden, og som overfører eierskapet til bitcoins fra én eller flere innganger til én eller flere utganger. Hver transaksjon bruker UTXO-er (Unspent Transaction Outputs) som input, som er output fra tidligere transaksjoner, og skaper nye UTXO-er som output, som kan brukes som input i fremtidige transaksjoner.

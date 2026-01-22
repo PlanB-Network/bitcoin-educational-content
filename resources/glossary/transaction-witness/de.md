@@ -1,5 +1,5 @@
 ---
-term: ZEUGE DER TRANSAKTION
+term: Zeuge der transaktion
 
 ---
 Bezieht sich auf eine Komponente von Bitcoin-Transaktionen, die mit der SegWit-Soft-Fork verschoben wurde, um das Problem der Fälschbarkeit von Transaktionen zu lösen. Der Zeuge enthält die Signaturen und öffentlichen Schlüssel, die notwendig sind, um die in einer Transaktion ausgegebenen Bitcoins zu entsperren. Bei Legacy-Transaktionen entsprach der Zeuge der Summe der `scriptSig` aus allen Eingaben. Bei SegWit-Transaktionen stellt der Zeuge die Summe von "ScriptWitness" für jede Eingabe dar, und dieser Teil der Transaktion wird nun in einen separaten Merkle-Baum innerhalb des Blocks verschoben.

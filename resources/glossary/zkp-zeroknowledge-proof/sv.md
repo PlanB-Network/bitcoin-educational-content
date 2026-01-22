@@ -1,5 +1,5 @@
 ---
-term: ZKP (BEVIS PÅ NOLLKUNSKAP)
+term: Zkp (bevis på nollkunskap)
 ---
 
 Kryptografisk metod som gör det möjligt för en part (bevisaren) att bevisa för en annan part (verifieraren) att en viss information är sann, utan att avslöja själva informationen eller någon aspekt av den. En ZKP säkerställer att ett uttalande är korrekt samtidigt som de underliggande uppgifterna förblir konfidentiella.

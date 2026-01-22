@@ -1,5 +1,5 @@
 ---
-term: SILK ROAD
+term: Silk road
 
 ---
 Silk Road oli pimeän verkon verkkoalusta, jonka perusti Ross Ulbricht, joka tunnetaan myös salanimellä Dread Pirate Roberts. Vuonna 2011 käynnistetyllä verkkomarkkinapaikalla käyttäjät pystyivät ostamaan ja myymään sekä laillisia että laittomia tuotteita ja palveluita säilyttäen samalla anonymiteettinsä Torin ja Bitcoin-maksujen avulla. Silk Road tarjosi monenlaisia tuotteita, lähinnä huumeita ja reseptilääkkeitä, mutta sulki pois luonnonlain periaatteiden vastaiseksi katsotut toiminnot, kuten palkkamurhapalveluiden tai lapsipornosisällön myynnin.

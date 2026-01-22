@@ -1,5 +1,5 @@
 ---
-term: ERLAY
+term: Erlay
 ---
 
 Voorgesteld netwerkprotocol om de efficiëntie van het doorgeven van onbevestigde transacties tussen Bitcoin knooppunten te verbeteren.

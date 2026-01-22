@@ -1,5 +1,5 @@
 ---
-term: PSEUDO-RANDOM
+term: Pseudo-random
 
 ---
 Dette adjektivet brukes for å beskrive en tallrekke som, selv om den er et resultat av en deterministisk prosess, har egenskaper som ligger nær egenskapene til en ideell, virkelig tilfeldig rekkefølge. Begrepet ideell tilfeldighet innebærer et totalt fravær av forutsigbarhet og korrelasjon mellom suksessive elementer. Et pseudotilfeldig tall genereres av en deterministisk algoritme og er derfor i teorien helt forutsigbart hvis man kjenner generatorens opprinnelige tilstand.

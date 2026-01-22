@@ -1,5 +1,5 @@
 ---
-term: LEVERANTÖR AV BLIXTTJÄNSTER
+term: Leverantör av blixttjänster
 ---
 
 Företag som verkar på Lightning vars verksamhet är att tillhandahålla likviditetstjänster till användare.

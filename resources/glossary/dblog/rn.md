@@ -1,5 +1,5 @@
 ---
-term: DB.LOG
+term: Db.log
 
 ---
 

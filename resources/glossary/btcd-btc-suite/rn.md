@@ -1,5 +1,5 @@
 ---
-term: BTCD (IKIBAZO ca BTC)
+term: Btcd (ikibazo ca btc)
 ---
 
 Ishirwa mu ngiro ry’amasezerano ya Bitcoin n’abantu bake. BTCD ni ubundi buryo bwo gukoresha porogarama ya Bitcoin core (cane cane bitcoind).

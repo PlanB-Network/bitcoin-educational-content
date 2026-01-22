@@ -1,5 +1,5 @@
 ---
-term: CILJ TEŽINE
+term: Cilj težine
 ---
 
 Faktor težine, takođe poznat kao cilj težine, je parametar koji se koristi u mehanizmu konsenzusa od strane Proof of Work (Proof of Work, PoW) na Bitcoin. Cilj predstavlja numeričku vrednost koja određuje težinu za rudare da reše specifičan kriptografski problem, nazvan Proof of Work, prilikom kreiranja novog bloka na Blockchain.

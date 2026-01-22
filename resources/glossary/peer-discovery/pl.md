@@ -1,5 +1,5 @@
 ---
-term: PEER DISCOVERY
+term: Peer discovery
 ---
 
 Proces, za pomocą którego węzły w sieci Bitcoin łączą się z innymi węzłami w celu uzyskania informacji. Gdy węzeł Bitcoin jest uruchamiany po raz pierwszy, nie posiada żadnych informacji o innych węzłach w sieci. Musi jednak ustanowić połączenia, aby zsynchronizować się z Blockchain, który ma najwięcej zgromadzonej pracy. W celu wykrycia tych węzłów równorzędnych wykorzystywanych jest kilka mechanizmów, uporządkowanych według priorytetu:

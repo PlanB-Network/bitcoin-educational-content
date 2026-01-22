@@ -1,5 +1,5 @@
 ---
-term: STRATUM
+term: Stratum
 
 ---
 

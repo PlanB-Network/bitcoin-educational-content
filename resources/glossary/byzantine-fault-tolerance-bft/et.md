@@ -1,5 +1,5 @@
 ---
-term: BYSANTINE VIGADE TALUVUS (BFT)
+term: Bysantine vigade taluvus (bft)
 
 ---
 Mõiste, mida kasutatakse hajutatud süsteemides usaldusväärse ja turvalise konsensuse tagamiseks isegi vigaste või pahatahtlike sõlmede olemasolu korral.

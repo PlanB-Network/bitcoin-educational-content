@@ -1,5 +1,5 @@
 ---
-term: ORPHAN
+term: Orphan
 
 ---
 Teoreticky se osiřelým blokem rozumí platný blok přijatý uzlem, který ještě nezískal rodičovský blok, tj. předchozí blok v řetězci. Ačkoli je tento blok platný, zůstává lokálně izolovaný jako sirotek.

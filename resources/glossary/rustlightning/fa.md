@@ -1,5 +1,5 @@
 ---
-term: Rust-LIGHTNING
+term: Rust-lightning
 ---
 
 کتابخانه Lightning که در Rust توسط جامعه Rust Bitcoin با همکاری Square توسعه یافته است. Rust-Lightning یک پیاده‌سازی Lightning ارائه می‌دهد. این به عنوان پایه‌ای برای *کیت توسعه Lightning* (LDK) عمل می‌کند.

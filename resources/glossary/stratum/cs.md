@@ -1,5 +1,5 @@
 ---
-term: STRATUM
+term: Stratum
 
 ---
 Síťový protokol navrstvený na Bitcoin, který je speciálně navržen tak, aby optimalizoval komunikaci mezi jednotlivými těžaři a servery těžebních poolů a zvýšil tak jejich ziskovost. Stratum oznámil koncem roku 2011 Marek Palatinus, známější pod pseudonymem "Slush" a zakladatel vůbec prvního těžebního poolu Slush Pool, nyní přejmenovaného na Braiins. Stratum přišel nahradit starší protokol Getwork, který se stal zastaralým.

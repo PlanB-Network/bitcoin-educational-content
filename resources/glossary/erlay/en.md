@@ -1,5 +1,5 @@
 ---
-term: ERLAY
+term: Erlay
 ---
 
 Proposed network protocol to improve the efficiency of relaying unconfirmed transactions between Bitcoin nodes.

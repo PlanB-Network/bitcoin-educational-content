@@ -1,5 +1,5 @@
 ---
-term: RESYNKRONISERING
+term: Resynkronisering
 
 ---
 Refererer til et fenomen der blokkjeden gjennomgår en endring av strukturen på grunn av eksistensen av konkurrerende blokker i samme høyde. Dette skjer når en del av blokkjeden erstattes av en annen kjede med en større mengde akkumulert arbeid.

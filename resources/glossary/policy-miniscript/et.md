@@ -1,5 +1,5 @@
 ---
-term: POLIITIKA (MINISKRIPT)
+term: Poliitika (miniskript)
 
 ---
 Kõrgetasemeline, kasutajale orienteeritud keel, mis võimaldab lihtsasti määratleda tingimused, mille alusel saab UTXO-d avada Miniscripti raames. Poliitika on kulutamisreeglite abstraktne kirjeldus. Seejärel saab selle koostada miniscriptiks, mis on üks-ühele samaväärne Bitcoini emakeelse skriptkeele operatsioonidega.

@@ -1,5 +1,5 @@
 ---
-term: INPUT
+term: Input
 ---
 
 I Bitcoin-sammenheng refererer en inngang i en transaksjon til UTXO-er (*Unspent Transaction Outputs*) som brukes som opprinnelige midler for å tilfredsstille utgangene. Hver inngang inneholder referanser til tidligere UTXO-er, som deretter forbrukes av transaksjonen. Disse inndataene brukes til å mate nye UTXO-er som vil bli opprettet som utdata i transaksjonen, og som deretter kan brukes i fremtidige transaksjoner.

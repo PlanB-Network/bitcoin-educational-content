@@ -1,5 +1,5 @@
 ---
-term: KUVANGA
+term: Kuvanga
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-term: NODE
+term: Node
 ---
 
 W sieci Bitcoin węzeł (lub "node" w języku angielskim) to komputer z uruchomionym klientem protokołu Bitcoin (takim jak na przykład Bitcoin Core). Uczestniczy on w sieci, utrzymując kopię Blockchain, przekazując i weryfikując transakcje i nowe bloki oraz opcjonalnie uczestnicząc w procesie Mining. Suma wszystkich węzłów Bitcoin reprezentuje samą sieć Bitcoin.

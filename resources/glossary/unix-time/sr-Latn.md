@@ -1,5 +1,5 @@
 ---
-term: UNIX VREME
+term: Unix vreme
 ---
 
 Unix Time ili Unix Timestamp predstavlja broj sekundi koje su protekle od 1. januara 1970. godine, u ponoć po UTC vremenu (Unix Epoch). Ovaj sistem se koristi u Unix operativnim sistemima i njihovim izvedenicama za označavanje vremena na univerzalan i standardizovan način. Omogućava sinhronizaciju satova i upravljanje događajima zasnovanim na vremenu, bez obzira na vremenske zone.

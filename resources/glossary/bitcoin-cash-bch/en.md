@@ -1,5 +1,5 @@
 ---
-term: BITCOIN CASH (BCH)
+term: Bitcoin cash (bch)
 ---
 
 Cryptocurrency system resulting from a hard fork of Bitcoin (BTC) that occurred on August 1, 2017, at block 478,558. 

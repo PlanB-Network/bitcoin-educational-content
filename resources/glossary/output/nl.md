@@ -1,5 +1,5 @@
 ---
-term: UITGANG
+term: Uitgang
 ---
 
 In de context van Bitcoin verwijst een uitvoer binnen een transactie naar _Unspent Transaction Outputs_ (UTXO's) die worden gecreëerd als bestemmingsfondsen voor betaling. Meer precies, het is een mechanisme waarmee een transactie fondsen verdeelt. Een transactie neemt UTXO's, dat wil zeggen bitcoins, als "input" en creëert nieuwe UTXO's als "output". Deze outputs bepalen een bepaalde hoeveelheid bitcoins, vaak toegewezen aan een specifieke Address, evenals de voorwaarden waaronder deze fondsen op een latere datum kunnen worden uitgegeven.

@@ -1,5 +1,5 @@
 ---
-term: DOBBELTFINANSIERING
+term: Dobbeltfinansiering
 ---
 
 Når en Lightning-kanal åpnes, kan begge deltakerne låse bitcoins i kanalen ved hjelp av dobbel finansiering. I motsetning til den tradisjonelle modellen, der bare én node finansierer kanalen, gjør denne metoden at begge parter kan finansiere den, noe som muliggjør umiddelbar likviditetsbalansering.

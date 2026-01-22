@@ -1,5 +1,5 @@
 ---
-term: STATISK ADRESSE
+term: Statisk adresse
 
 ---
 I forbindelse med Silent Payments refererer det til en unik identifikator som gjør det mulig å motta betalinger uten gjenbruk av adresser, uten interaksjon og uten en synlig lenke i kjeden mellom de ulike betalingene og den statiske adressen. Denne teknikken eliminerer behovet for å generere nye, ubrukte mottakeradresser for hver transaksjon, og dermed unngår man de vanlige interaksjonene i Bitcoin der mottakeren må oppgi en ny adresse til betaleren. Det tilsvarer til en viss grad den gjenbrukbare betalingskoden i forbindelse med BIP47.

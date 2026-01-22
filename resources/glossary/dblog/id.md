@@ -1,5 +1,5 @@
 ---
-term: DB.LOG
+term: Db.log
 
 ---
 File log sebelumnya (riwayat kejadian) dari dompet Bitcoin Core dipindahkan ke folder /wallet sejak versi 0.16.

@@ -1,5 +1,5 @@
 ---
-term: ASSUNZIONE UTXO
+term: Assunzione utxo
 
 ---
 Parametro di configurazione nel client di maggioranza Bitcoin Core che consente a un nodo appena inizializzato (ma che non ha ancora eseguito l'IBD) di posticipare la verifica delle transazioni e dell'UTXO set prima di un determinato snapshot. Il concetto si basa sull'uso di un UTXO set (elenco di tutti gli UTXO esistenti in un dato momento) fornito da Core e presunto accurato, che consente al nodo di sincronizzarsi molto rapidamente sulla catena con il maggior lavoro accumulato. Poiché il nodo salta la lunga fase di IBD, diventa operativo per l'utente in tempi brevissimi.

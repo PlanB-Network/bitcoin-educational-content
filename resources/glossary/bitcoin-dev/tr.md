@@ -1,5 +1,5 @@
 ---
-term: Bitcoin-DEV
+term: Bitcoin-dev
 ---
 
 Bitcoin protokolünün geliştirilmesine adanmış e-posta posta listesi. Bitcoin-dev 2011 yılında Jeff Garzik tarafından oluşturuldu ve başlangıçta Sourceforge.net'te barındırıldı. Posta listesi daha sonra Linux Foundation'a, ardından Open Source Lab'e taşındı ve son olarak Şubat 2024'ten beri Google Groups'ta barındırılıyor: https://groups.google.com/g/bitcoindev

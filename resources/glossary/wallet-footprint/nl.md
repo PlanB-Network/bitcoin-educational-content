@@ -1,5 +1,5 @@
 ---
-term: Wallet VOETDRUK
+term: Wallet voetdruk
 ---
 
 Een verzameling onderscheidende kenmerken die waarneembaar zijn in transacties gemaakt door dezelfde Bitcoin Wallet. Deze kenmerken kunnen zijn: overeenkomsten in het gebruik van scripttypen, hergebruik van adressen, de volgorde van UTXO's, de plaatsing van wijzigingsuitgangen, de signalering van RBF (*Replace-by-fee*), het versienummer, het `nSequence` veld en het `nLockTime` veld.

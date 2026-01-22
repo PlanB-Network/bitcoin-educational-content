@@ -1,5 +1,5 @@
 ---
-term: PENDINGINAN UDARA
+term: Pendinginan udara
 
 ---
 

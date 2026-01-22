@@ -1,5 +1,5 @@
 ---
-term: SILK ROAD
+term: Silk road
 
 ---
 _Silk Road_ adalah sebuah platform web gelap yang didirikan oleh Ross Ulbricht, yang juga dikenal dengan nama samaran _Dread Pirate Roberts_. Diluncurkan pada tahun 2011, pasar daring ini memungkinkan pengguna untuk membeli dan menjual produk dan layanan, baik legal maupun ilegal, sambil menjaga anonimitas mereka melalui penggunaan pembayaran Tor dan Bitcoin. _Silk Road_ menawarkan berbagai macam barang, terutama obat-obatan dan obat resep, tetapi mengecualikan aktivitas yang dianggap bertentangan dengan prinsip hukum alam, seperti penjualan jasa pembunuh bayaran atau konten pornografi anak.

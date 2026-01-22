@@ -1,5 +1,5 @@
 ---
-term: MEMPOOL
+term: Mempool
 
 ---
 Mõistete "mälu" ja "bassein" lühend. See viitab virtuaalsele ruumile, kuhu on koondatud blokki lisamist ootavad Bitcoini tehingud. Kui tehing luuakse ja edastatakse Bitcoini võrgus, kontrollivad võrgu sõlmed seda kõigepealt. Kui seda peetakse kehtivaks, paigutatakse see seejärel iga sõlme Mempool'i, kus see jääb sinna, kuni kaevandaja valib selle plokki lisamiseks välja.

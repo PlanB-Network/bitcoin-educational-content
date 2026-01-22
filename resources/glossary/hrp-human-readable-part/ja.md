@@ -1,5 +1,5 @@
 ---
-term: hrp
+term: Hrp
 ---
 HRPは「Human Readable Part」の略で、bech32およびbech32m（SegWit v0およびSegWit v1）の受信アドレスの構成要素である。HRPとは、アドレスのうち、人間が読みやすく解釈しやすいように特別にフォーマットされた部分を指す。例えば、bech32 ビットコインアドレスを例にとってみよう：
 

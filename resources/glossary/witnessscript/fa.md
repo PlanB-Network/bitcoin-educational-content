@@ -1,5 +1,5 @@
 ---
-term: WITNESSSCRIPT
+term: Witnessscript
 ---
 
 اسکریپتی که شرایطی را مشخص می‌کند که تحت آن بیت‌کوین‌ها می‌توانند از P2WSH یا P2SH-P2WSH UTXOها خرج شوند. به طور معمول، `witnessScript` شرایط یک امضای چندگانه Wallet را تحت استاندارد SegWit تعیین می‌کند. در این استانداردهای اسکریپت، `scriptPubKey` از UTXO (خروجی) حاوی یک Hash از `witnessScript` است. برای استفاده از این UTXO به عنوان ورودی در یک تراکنش جدید، دارنده باید `witnessScript` اصلی را فاش کند تا تطابق آن با اثر انگشت در `scriptPubKey` را اثبات کند. سپس `witnessScript` باید در `scriptWitness` تراکنش گنجانده شود، که همچنین شامل Elements لازم برای اعتبارسنجی اسکریپت، مانند امضاها است. بنابراین، `witnessScript` معادل SegWit از `redeemscript` در یک تراکنش P2SH است، با این تفاوت که در شاهد تراکنش قرار می‌گیرد و نه در `scriptSig`.

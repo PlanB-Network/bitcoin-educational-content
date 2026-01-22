@@ -1,5 +1,5 @@
 ---
-term: DUSTRELAYFEE
+term: Dustrelayfee
 ---
 
 Pravilo standardizacije koje koriste mrežni čvorovi da odrede šta smatraju "Dust limitom." Ovaj parametar postavlja stopu naknade u Sats po virtualnom kilobajtu (Sats/kvB) koja služi kao referenca za izračunavanje da li je vrednost UTXO manja od potrebnih naknada za uključivanje u transakciju. Zaista, UTXO se smatra "Dust" na Bitcoin ako zahteva više u naknadama za prenos nego što je vrednost koju sam predstavlja. Izračunavanje ovog limita je sledeće:

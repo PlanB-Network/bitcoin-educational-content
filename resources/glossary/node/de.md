@@ -1,5 +1,5 @@
 ---
-term: NODE
+term: Node
 
 ---
 Im Bitcoin-Netzwerk ist ein Knoten (oder "Node" auf Englisch) ein Computer, auf dem ein Bitcoin-Protokoll-Client (wie z. B. Bitcoin Core) läuft. Er nimmt am Netzwerk teil, indem er eine Kopie der Blockchain verwaltet, Transaktionen und neue Blöcke weiterleitet und verifiziert, und optional am Mining-Prozess teilnimmt. Die Summe aller Bitcoin-Knoten stellt das Bitcoin-Netzwerk selbst dar.

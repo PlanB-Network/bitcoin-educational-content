@@ -1,5 +1,5 @@
 ---
-term: Invoice AYDINLATMA
+term: Invoice aydinlatma
 ---
 
 Alıcı tarafından oluşturulan ve işlemi tamamlamak için gereken tüm bilgileri içeren yıldırım ödeme talebi.

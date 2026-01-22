@@ -1,5 +1,5 @@
 ---
-term: DERIVACIÓN
+term: Derivación
 
 ---
 Se refiere al proceso de generación de pares de claves hijo a partir de un par de claves padre (clave privada y clave pública) y un código de cadena dentro de un monedero determinista y jerárquico (HD). Este proceso permite la segmentación de ramas y la organización de un monedero en diferentes niveles con numerosos pares de claves hijo, que pueden recuperarse todos conociendo únicamente la información básica de recuperación (la frase mnemotécnica y cualquier frase de contraseña potencial). Para derivar una clave hija, se utiliza la función `HMAC-SHA512` con el código de cadena padre y la concatenación de la clave padre y un índice de 32 bits. Existen dos tipos de derivaciones:

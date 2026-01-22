@@ -1,5 +1,5 @@
 ---
-term: ERLAY
+term: Erlay
 ---
 
 Ivyiyumviro vy’uruja n’uruza kugira ngo haboneke ubushobozi bwo gutanga amakuru ataremejwe hagati y’ibice vya Bitcoin.

@@ -1,5 +1,5 @@
 ---
-term: AMATEGEKO YO GUSHIRA MU RUGERO
+term: Amategeko yo gushira mu rugero
 ---
 
 Amategeko y’ugushinga urugero yemezwa ku giti cabo na buri nzira ya Bitcoin, uretse amategeko y’uguhurizako, kugira ngo isobanure imiterere y’ibikorwa bitaremejwe yemera muri Mempool yayo maze ikamenyesha abo mu runganwe rwayo. Aya mategeko rero aratunganirizwa kandi agashirwa mu ngiro mu karere n’urudodo rumwe rumwe kandi arashobora gutandukanywa kuva ku rudodo rumwe rumwe gushika ku rundi. Bikoreshwa gusa ku bikorwa bitaremejwe. Rero, urudodo ruzokwemera gusa igikorwa rubona ko kitari co iyo rusanzwe rushizwe mu gice gifise akamaro.

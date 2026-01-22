@@ -1,5 +1,5 @@
 ---
-term: UTXO SET
+term: Utxo set
 ---
 
 Odnosi se na zbirku svih postojećih UTXO-a u bilo kom trenutku. Drugim rečima, to je velika lista svih različitih delova bitkoina koji čekaju da budu potrošeni. Ako saberete iznose svih UTXO-a u skupu UTXO, dobijamo ukupnu monetarnu masu bitkoina u opticaju. Svaki čvor u mreži Bitcoin održava svoj sopstveni skup UTXO u realnom vremenu. Ažurira ga kako se potvrđuju novi validni blokovi, sa transakcijama koje uključuju, koje troše neke UTXO-e iz skupa UTXO i stvaraju nove zauzvrat.

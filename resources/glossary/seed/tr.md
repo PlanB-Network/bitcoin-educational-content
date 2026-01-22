@@ -1,5 +1,5 @@
 ---
-term: TAHIL
+term: Tahil
 ---
 
 Bir Bitcoin hiyerarşik deterministik portföyün özel bağlamında, bir seed rastgele bir olaydan türetilen 512 bitlik bir bilgi parçasıdır. Bir Bitcoin portföyü için deterministik ve hiyerarşik olarak generate bir dizi özel anahtarı ve bunlara karşılık gelen açık anahtarları belirlemek için kullanılır. seed genellikle kurtarma ifadesinin kendisi ile karıştırılır. Ancak bu aynı şey değildir. seed, `PBKDF2` işlevinin Mnemonic ifadesine ve herhangi bir passphrase'a uygulanmasıyla elde edilir.

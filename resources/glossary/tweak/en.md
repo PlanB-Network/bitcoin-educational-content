@@ -1,5 +1,5 @@
 ---
-term: TWEAK
+term: Tweak
 ---
 
 In cryptography, to "tweak" a public key is to modify it using an additive value called a "tweak", so that it remains usable with knowledge of both the original private key and the tweak. Technically, a tweak is a scalar value that is added to the original public key. If $P$ is the public key and $t$ is the tweak, the tweaked public key becomes :

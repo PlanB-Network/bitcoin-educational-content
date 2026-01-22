@@ -1,5 +1,5 @@
 ---
-term: UMUSI W'IBENDERA
+term: Umusi w'ibendera
 ---
 
 Uburyo bwo gukoresha Soft Fork bwakoreshejwe mu myaka ya mbere ya Bitcoin. Iyi nzira ishiraho gusa igihe c'iherezo, kizwi nka "Umusi w'Ibendera," imbere y'aho ivugurura ry'amasezerano ritegerezwa kwemerwa n'urubuga rwose. Ubwo buryo buragororotse: inyuma y’iryo tariki, ama node n’abacukuzi bategerezwa kuba barahinduye porogarama zabo kugira ngo bakurikize amategeko mashasha, ahandi ho, bashobora kuba bari ku ruhererekane rudahuye.

@@ -1,5 +1,5 @@
 ---
-term: GOSSIP
+term: Gossip
 ---
 
 Gossip on vertaisverkon (P2P) hajautettu algoritmi, jolla tietoa levitetään epidemianomaisesti kaikille verkon toimijoille. Bitcoin-, Lightning- ja muissa hajautetuissa järjestelmissä tämä protokolla mahdollistaa solmujen Global State:n vaihtamisen ja synkronoinnin muutamassa syklissä. Kukin solmu levittää tietoa yhdelle tai useammalle satunnaiselle tai ei-sattumanvaraiselle naapurille, jotka puolestaan levittävät tietoa muille naapureille ja niin edelleen, kunnes saavutetaan globaalisti synkronoitu tila.

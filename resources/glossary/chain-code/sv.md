@@ -1,5 +1,5 @@
 ---
-term: chain code
+term: Chain code
 ---
 
 I samband med hierarkisk deterministisk (HD) härledning av Bitcoin plånböcker är chain code ett 256-bitars kryptografiskt saltvärde som används för att generate barnnycklar från en överordnad nyckel, enligt BIP32-standarden. chain code används i kombination med den överordnade nyckeln och barnets index för att på ett deterministiskt sätt skapa generate för ett nytt nyckelpar (privat nyckel och publik nyckel) utan att avslöja den överordnade nyckeln eller andra härledda barnnycklar.

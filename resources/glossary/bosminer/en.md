@@ -1,5 +1,5 @@
 ---
-term: BOSMINER
+term: Bosminer
 ---
 
 BOSminer is open-source mining software developed in Rust by Braiins (formerly Slush Pool) as a modern alternative to CGMiner. It is specifically designed for ASIC miners and is integrated into the BraiinsOS ecosystem.

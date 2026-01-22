@@ -1,5 +1,5 @@
 ---
-term: FINNEY HAL
+term: Finney hal
 ---
 
 Harold T. Finney II，人稱 Hal Finney，是一位密碼學家和開發人員，因其在 Bitcoin 早期扮演的關鍵角色以及對密碼學的貢獻而聞名。從 2008 年發表 Bitcoin 白皮書開始，他就是最早與 Satoshi Nakamoto 互動的人之一。2009 年 1 月軟體推出後，他提供反饋、報告錯誤並提出改進建議。他是第一筆 Bitcoin 交易（在幣庫之外）的收款人，在區塊編號 170 中從 Satoshi 收到 10 BTC：

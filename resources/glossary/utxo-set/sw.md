@@ -1,5 +1,5 @@
 ---
-term: UTXO SETI
+term: Utxo seti
 ---
 
 Inarejelea mkusanyiko wa UTXO zote zilizopo wakati wowote. Kwa maneno mengine, ni orodha kubwa ya vipande vyote tofauti vya bitcoins vinavyosubiri kutumika. Ikiwa unajumuisha kiasi cha UTXO zote katika seti ya UTXO, inatupa jumla ya fedha za bitcoins katika mzunguko. Kila nodi katika mtandao wa Bitcoin hudumisha seti yake ya UTXO katika muda halisi. Huisasisha kadiri vizuizi vipya halali vinavyothibitishwa, pamoja na miamala inayojumuisha, ambayo hutumia baadhi ya UTXO kutoka seti ya UTXO, na kuunda mpya kwa malipo.

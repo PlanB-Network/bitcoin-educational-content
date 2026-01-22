@@ -1,5 +1,5 @@
 ---
-term: BANLIST.JSON
+term: Banlist.json
 
 ---
 

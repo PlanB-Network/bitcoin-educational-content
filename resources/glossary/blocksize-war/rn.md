@@ -1,5 +1,5 @@
 ---
-term: BLOCKSIZE WAR
+term: Blocksize war
 
 ---
 

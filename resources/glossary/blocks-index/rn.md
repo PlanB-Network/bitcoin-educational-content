@@ -1,5 +1,5 @@
 ---
-term: URUTONDE RW'IBIBUZI
+term: Urutonde rw'ibibuzi
 ---
 
 Ubuhinga bw'amakuru bwa LevelDB muri Bitcoin core bukora urutonde rw'amakuru y'ibice vyose. Igiharuro cose kiri muri uru rutonde kiratanga amakuru nk’ikimenyetso c’ibarabara, uburebure bw’ibarabara muri Blockchain, aho ibarabara riri kuri disiki n’ibindi bimenyetso.

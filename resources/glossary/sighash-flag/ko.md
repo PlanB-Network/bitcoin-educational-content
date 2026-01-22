@@ -1,5 +1,5 @@
 ---
-term: SIGHASH 플래그
+term: Sighash 플래그
 
 ---
 

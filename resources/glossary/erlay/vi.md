@@ -1,5 +1,5 @@
 ---
-term: ERLAY
+term: Erlay
 ---
 
 Giao thức mạng được đề xuất để cải thiện hiệu quả chuyển tiếp các giao dịch chưa được xác nhận giữa các nút Bitcoin.

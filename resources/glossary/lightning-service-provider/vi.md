@@ -1,5 +1,5 @@
 ---
-term: NHÀ CUNG CẤP DỊCH VỤ SÉT
+term: Nhà cung cấp dịch vụ sét
 ---
 
 Công ty hoạt động trên Lightning với mục đích cung cấp dịch vụ thanh khoản cho người dùng.

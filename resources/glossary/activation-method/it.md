@@ -1,5 +1,5 @@
 ---
-term: METODO DI ATTIVAZIONE
+term: Metodo di attivazione
 
 ---
 Un metodo di attivazione è il processo con cui la comunità degli utenti decide l'implementazione di un soft fork sul protocollo Bitcoin, con l'obiettivo di evitare una scissione della blockchain. Questo processo prevede la sollecitazione dell'opinione dei minatori per approvare un soft fork prima della sua attivazione. Se una maggioranza significativa accetta il soft fork, il rischio di una scissione della blockchain è ridotto al minimo. Questo consenso è fondamentale perché se la maggioranza dei minatori rifiuta la modifica, il soft fork potrebbe creare due catene distinte: una con le regole modificate e l'altra senza. Esistono due categorie principali di metodi di attivazione:

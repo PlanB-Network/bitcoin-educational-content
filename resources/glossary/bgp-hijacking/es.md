@@ -1,5 +1,5 @@
 ---
-term: SECUESTRO DE BPG
+term: Secuestro de bpg
 ---
 
 Ataque en el que un actor malicioso manipula los anuncios BGP para redirigir el tráfico de Internet a su propia red. Fingiendo ser el origen legítimo de determinados rangos IP Address, el atacante puede interceptar, controlar o bloquear el tráfico destinado a estas direcciones.

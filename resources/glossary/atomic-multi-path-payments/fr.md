@@ -1,5 +1,5 @@
 ---
-term: ATOMIC MULTI-PATH PAYMENTS
+term: Atomic multi-path payments
 ---
 
 Version améliorée des MPP (*Multi-Path Payments*) où chaque fragment de paiement possède un secret partiel distinct, ce qui garantie que la transaction est réglée de manière atomique, c’est-à-dire en entière ou pas du tout.

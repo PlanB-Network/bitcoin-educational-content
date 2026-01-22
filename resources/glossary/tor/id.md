@@ -1,5 +1,5 @@
 ---
-term: TOR (THE ONION ROUTER)
+term: Tor (the onion router)
 
 ---
 Sebuah jaringan server relai (node) yang menganonimkan asal koneksi TCP di internet. Jaringan ini beroperasi dengan mengenkapsulasi data dalam beberapa lapisan enkripsi. Setiap _node_ relai menghilangkan satu lapisan untuk mengungkapkan alamat node berikutnya, sampai tujuan akhir tercapai. Jaringan Tor memastikan anonimitas dengan mencegah node perantara untuk mengetahui asal dan tujuan data, sehingga sangat sulit bagi pengamat untuk melacak aktivitas pengguna. Jaringan TOR dapat digunakan dalam konteks Bitcoin untuk menghindari pengaitan alamat IP seseorang dengan sebuah node Bitcoin, sehingga menghindari kebocoran informasi pribadi tertentu.

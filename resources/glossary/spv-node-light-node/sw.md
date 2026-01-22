@@ -1,5 +1,5 @@
 ---
-term: SPV NODE (NODE NURU)
+term: Spv node (node nuru)
 ---
 
 Nodi ya SPV (*Uthibitishaji Rahisi wa Malipo*), ambayo wakati mwingine huitwa "nodi nyepesi," ni mteja mwepesi wa nodi ya Bitcoin ambayo inaruhusu watumiaji kuthibitisha miamala bila kulazimika kuhifadhi Blockchain nzima. Badala yake, nodi ya SPV huhifadhi tu vichwa vya kuzuia na kupata taarifa kuhusu miamala maalum kwa kuuliza nodi kamili inapohitajika. Kanuni hii ya uthibitishaji inawezeshwa na muundo wa shughuli katika vitalu vya Bitcoin, ambavyo vinapangwa ndani ya mkusanyiko wa kriptografia (Merkle Tree).

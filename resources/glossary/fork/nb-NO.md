@@ -1,5 +1,5 @@
 ---
-term: FORK
+term: Fork
 
 ---
 Begrepet "fork" har flere betydninger i forbindelse med Bitcoin. Det kan enten referere til en oppdeling av nettverket av noder i flere separate grupper, noe som fører til opprettelsen av flere forskjellige blokkjeder, eller en endring av protokollreglene, eller begge deler samtidig. For å forenkle kan vi skille mellom fire hovedkategorier av gafler:

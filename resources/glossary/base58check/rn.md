@@ -1,5 +1,5 @@
 ---
-term: BASE58CHECK
+term: Base58check
 
 ---
 

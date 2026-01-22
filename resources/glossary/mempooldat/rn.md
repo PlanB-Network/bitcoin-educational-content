@@ -1,5 +1,5 @@
 ---
-term: MEMPOOL.DAT
+term: Mempool.dat
 
 ---
 

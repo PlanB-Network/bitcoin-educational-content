@@ -1,5 +1,5 @@
 ---
-term: DOKLAD O REZERVACI
+term: Doklad o rezervaci
 ---
 
 Mechanismus používaný platformami Bitcoin Exchange k prokázání, že skutečně drží aktiva svých zákazníků. Cílem je prokázat solventnost společnosti ověřením, že její bitcoiny jsou ekvivalentní nebo vyšší než zůstatky uživatelů, které mají držet.

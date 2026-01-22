@@ -1,5 +1,5 @@
 ---
-term: STONEWALL
+term: Stonewall
 ---
 
 Specifičan oblik Bitcoin transakcije usmeren na povećanje privatnosti korisnika tokom trošenja, imitirajući CoinJoin između dve osobe, bez da to zapravo bude. Zaista, ova transakcija nije kolaborativna. Korisnik je može konstruisati samostalno, uključujući samo svoje UTXO-e kao ulaze. Stoga, možete kreirati Stonewall transakciju za bilo koju priliku, bez potrebe za sinhronizacijom sa drugim korisnikom.

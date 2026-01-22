@@ -1,5 +1,5 @@
 ---
-term: MIXER
+term: Mixer
 ---
 
 Keskitetty palvelu Bitcoin-kolikkohistorian rikkomiseen sekoittamalla useiden käyttäjien varoja. Toisin kuin CoinJoin:ssa, jossa käyttäjät säilyttävät varojensa hallinnan koko sekoitusprosessin ajan, sekoittaja ottaa väliaikaisesti haltuunsa käyttäjien bitcoinit, sekoittaa ne muiden käyttäjien bitcoineihin ja lähettää varat takaisin uusiin osoitteisiin.

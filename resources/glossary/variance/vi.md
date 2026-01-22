@@ -1,5 +1,5 @@
 ---
-term: PHƯƠNG PHÁP
+term: Phương pháp
 ---
 
 Trong Mining, điều này đề cập đến sự biến động trong thu nhập của Miner do bản chất xác suất của việc tìm khối hợp lệ. Ngay cả với sức mạnh tính toán không đổi, thời gian cần thiết để tìm khối có thể thay đổi đáng kể. Do đó, thợ đào có thể không nhận được bất kỳ phần thưởng nào trong thời gian dài, sau đó là những giai đoạn thu nhập cao.

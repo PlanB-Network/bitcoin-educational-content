@@ -1,5 +1,5 @@
 ---
-term: UTREEXO
+term: Utreexo
 ---
 
 Protocol ontworpen door Tadge Dryja om de UTXO verzameling van Bitcoin knooppunten te comprimeren met behulp van een accumulator gebaseerd op Merkle bomen. In tegenstelling tot de klassieke UTXO set die veel opslagruimte vereist, vermindert Utreexo het benodigde geheugen drastisch door alleen de Merkle Tree wortels op te slaan. Hierdoor kan het knooppunt het bestaan van UTXO's die gebruikt worden in transactie-inputs verifiëren, zonder de complete set UTXO's te hoeven bewaren. Door Utreexo te gebruiken, bewaart elk knooppunt alleen een cryptografische vingerafdruk die Merkle Root wordt genoemd. Wanneer een transactie wordt gedaan, levert de gebruiker de bewijzen van Ownership van de UTXO's en de bijbehorende Merkle-paden. Zo kan het knooppunt transacties verifiëren zonder de hele UTXO set op te slaan. Laten we een voorbeeld nemen met een diagram om dit mechanisme te begrijpen:

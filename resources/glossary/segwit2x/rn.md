@@ -1,5 +1,5 @@
 ---
-term: SEGWIT2X
+term: Segwit2x
 
 ---
 

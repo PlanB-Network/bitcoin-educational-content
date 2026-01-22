@@ -1,5 +1,5 @@
 ---
-term: YENIDEN SENKRONIZASYON
+term: Yeniden senkronizasyon
 ---
 
 Blockchain'ın aynı yükseklikteki rakip blokların varlığı nedeniyle yapısında bir değişikliğe uğradığı bir olguyu ifade eder. Bu, Blockchain'ın bir kısmı daha fazla miktarda birikmiş işe sahip başka bir zincirle değiştirildiğinde meydana gelir.

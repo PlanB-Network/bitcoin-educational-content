@@ -1,5 +1,5 @@
 ---
-term: Invoice UMEME
+term: Invoice umeme
 ---
 
 Ombi la malipo ya umeme lililotolewa na mpokeaji, lililo na taarifa zote zinazohitajika ili kukamilisha muamala.

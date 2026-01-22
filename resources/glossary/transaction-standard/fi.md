@@ -1,5 +1,5 @@
 ---
-term: TRANSAKTIOSTANDARDI
+term: Transaktiostandardi
 
 ---
 Bitcoin-tapahtuma, joka konsensussääntöjen noudattamisen lisäksi kuuluu myös Bitcoin Core -solmujen oletusarvoisesti asettamiin standardointisääntöihin. Kukin Bitcoin-solmu asettaa nämä standardointisäännöt erikseen konsensussääntöjen lisäksi määrittelemään niiden vahvistamattomien transaktioiden rakenteen, jotka se hyväksyy mempoolissaan ja lähettää vertaisryhmilleen.

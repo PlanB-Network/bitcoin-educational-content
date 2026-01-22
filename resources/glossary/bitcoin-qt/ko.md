@@ -1,5 +1,5 @@
 ---
-term: Bitcoin QT
+term: Bitcoin qt
 ---
 
 Bitcoin QT는 2011년 5월에 출시된 그래픽 Interface을 포함하는 Bitcoin 클라이언트입니다. Satoshi 나카모토의 오리지널 클라이언트의 계보를 잇는 제품입니다.

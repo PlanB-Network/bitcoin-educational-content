@@ -1,5 +1,5 @@
 ---
-term: OUTPOINT
+term: Outpoint
 ---
 
 Référence unique à une sortie de transaction non dépensée (UTXO). Il est constitué de deux éléments :

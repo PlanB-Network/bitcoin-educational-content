@@ -1,5 +1,5 @@
 ---
-term: KICHAWI Bitcoin
+term: Kichawi bitcoin
 ---
 
 Jina la awali la mkusanyiko wa zana na maktaba za wasanidi wa BDK.

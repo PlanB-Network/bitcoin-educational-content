@@ -1,5 +1,5 @@
 ---
-term: ZASADY STANDARYZACJI
+term: Zasady standaryzacji
 ---
 
 Reguły standaryzacji są indywidualnie przyjmowane przez każdy węzeł Bitcoin, oprócz reguł konsensusu, w celu zdefiniowania struktury niepotwierdzonych transakcji, które akceptuje do swojego Mempool i transmituje do swoich rówieśników. Zasady te są zatem konfigurowane i wykonywane lokalnie przez każdy węzeł i mogą się różnić w zależności od węzła. Mają one zastosowanie wyłącznie do niepotwierdzonych transakcji. Dlatego węzeł zaakceptuje transakcję, którą uzna za niestandardową, tylko wtedy, gdy jest już zawarta w ważnym bloku.

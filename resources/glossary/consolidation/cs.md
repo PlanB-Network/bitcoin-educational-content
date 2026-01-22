@@ -1,5 +1,5 @@
 ---
-term: KONSOLIDACE
+term: Konsolidace
 
 ---
 Specifická transakce, při níž je více malých UTXO sloučeno do jednoho vstupu, aby na výstupu vznikl jeden větší UTXO. Tato operace je transakcí provedenou do vlastní peněženky. Cílem konsolidace je využít období, kdy jsou poplatky v síti Bitcoin nízké, ke sloučení několika malých UTXO do jednoho většího co do hodnoty. Předvídá tak povinné výdaje v případě zvýšení poplatků, což umožňuje ušetřit na budoucích transakčních poplatcích.

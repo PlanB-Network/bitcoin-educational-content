@@ -1,5 +1,5 @@
 ---
-term: TRANSAKSJONSGEBYRER
+term: Transaksjonsgebyrer
 
 ---
 Transaksjonsavgifter er en sum som skal kompensere utvinnerne for deres deltakelse i proof of work-mekanismen. Disse avgiftene oppmuntrer utvinnere til å inkludere transaksjoner i blokkene de lager. De oppstår som følge av differansen mellom den totale mengden input og den totale mengden output i en transaksjon:

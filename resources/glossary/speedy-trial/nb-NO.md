@@ -1,5 +1,5 @@
 ---
-term: SPEEDY TRIAL
+term: Speedy trial
 
 ---
 Metode for å aktivere en myk gaffel som opprinnelig ble konseptualisert for Taproot tidlig i 2021 av David A. Harding basert på en idé av Russell O'Connor. Prinsippet er å bruke BIP8-metoden med en `LOT`-parameter satt til `falsk`, samtidig som aktiveringsperioden reduseres til bare 3 måneder. Denne forkortede avstemningsperioden muliggjør en rask verifisering av gruvearbeidernes godkjenning. Hvis den nødvendige godkjenningsterskelen nås i løpet av en av periodene, låses den myke gaffelen. Den vil bli aktivert flere måneder senere, slik at utvinnerne får nødvendig tid til å oppdatere programvaren sin.

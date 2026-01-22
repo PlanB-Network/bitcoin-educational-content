@@ -1,5 +1,5 @@
 ---
-term: NODE
+term: Node
 
 ---
 V síti Bitcoin je uzel (anglicky "node") počítač, na kterém běží klient protokolu Bitcoin (například Bitcoin Core). Na síti se podílí tím, že udržuje kopii blockchainu, předává a ověřuje transakce a nové bloky a případně se účastní procesu těžby. Součet všech uzlů Bitcoin představuje samotnou síť Bitcoin.

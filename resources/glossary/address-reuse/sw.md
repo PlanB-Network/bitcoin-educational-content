@@ -1,5 +1,5 @@
 ---
-term: Address TUMIA UPYA
+term: Address tumia upya
 ---
 
 Utumiaji tena wa Address unarejelea mazoezi ya kutumia Address ya kupokea sawa ili kuzuia UTXO nyingi, wakati mwingine ndani ya miamala kadhaa tofauti. Bitcoins kwa kawaida hufungwa kwa kutumia ufunguo wa kriptografia unaolingana na Address ya kipekee. Kwa kuwa Blockchain ni ya umma, ni rahisi kuona ni anwani gani zinazohusishwa na bitcoins ngapi. Katika kesi ya kutumia tena Address sawa kwa malipo mengi, ni jambo la busara kufikiria kuwa UTXO zote zinazohusiana ni za huluki moja. Kwa hiyo, kutumia tena Address kunaleta tatizo kwa faragha ya mtumiaji. Inaruhusu viungo vya kuamua kati ya shughuli nyingi na UTXOs, pamoja na kuendeleza ufuatiliaji wa mfuko wa On-Chain. Satoshi Nakamoto tayari ametaja tatizo hili kwenye White Paper yake:

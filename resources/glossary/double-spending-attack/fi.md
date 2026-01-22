@@ -1,5 +1,5 @@
 ---
-term: (HYÖKKÄYS)
+term: (Hyökkäys)
 
 ---
 Hyökkäys, jossa pahantahtoinen käyttäjä yrittää käyttää samaa UTXO:ta (*Unspent Transaction Output*) useammin kuin kerran rikastuakseen transaktioihin osallistuvien osapuolten kustannuksella. Periaatteessa, kun transaktio on vahvistettu lohkossa ja lisätty lohkoketjuun, kyseisten bitcoinien käyttö kirjataan pysyvästi, mikä estää samojen bitcoinien käyttämisen uudelleen. Kaksinkertaisen käytön estäminen on jopa lohkoketjun ensisijainen hyöty.

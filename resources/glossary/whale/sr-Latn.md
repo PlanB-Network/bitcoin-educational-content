@@ -1,5 +1,5 @@
 ---
-term: KIT
+term: Kit
 ---
 
 Odnosi se na pojedinca ili entitet koji poseduje veoma veliku količinu bitkoina.

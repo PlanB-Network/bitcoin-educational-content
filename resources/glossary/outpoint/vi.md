@@ -1,5 +1,5 @@
 ---
-term: OUTPOINT
+term: Outpoint
 
 ---
 A unique reference to an unspent transaction output (UTXO). It consists of two elements:

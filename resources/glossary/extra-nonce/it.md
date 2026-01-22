@@ -1,5 +1,5 @@
 ---
-term: EXTRA-Nonce
+term: Extra-nonce
 ---
 
 Campo usato nello `scriptSig` del Coinbase Transaction di un blocco, che permette di testare un maggior numero di possibilità per avere un Hash inferiore all'obiettivo di difficoltà, oltre al classico Nonce, che si trova direttamente nell'intestazione di ogni blocco.

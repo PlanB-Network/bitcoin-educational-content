@@ -1,5 +1,5 @@
 ---
-term: Bitcoin Satoshi विज़न (BSV)
+term: Bitcoin satoshi विज़न (bsv)
 ---
 
 क्रिप्टोकरंसी सिस्टम Bitcoin कैश (BCH) के Hard Fork से उत्पन्न हुआ, जो स्वयं Bitcoin (BTC) का Fork है। Bitcoin SV Fork 15 नवंबर, 2018 को ब्लॉक 556,766 पर Bitcoin कैश समुदाय के भीतर असहमति के कारण हुआ, विशेष रूप से ब्लॉक आकार और Bitcoin के निर्माता Satoshi नाकामोटो के कथित दृष्टिकोण के बारे में। दो गुट आपस में भिड़ गए:

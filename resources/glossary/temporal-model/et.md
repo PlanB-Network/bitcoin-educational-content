@@ -1,5 +1,5 @@
 ---
-term: TEMPORAALNE MUDEL
+term: Temporaalne mudel
 
 ---
 Teatud inimkäitumised on ahelas äratuntavad. Võib-olla on kõige kasulikum ahelanalüüsis teie unemuster! Jah, kui sa magad, siis sa eeldatavasti ei edasta Bitcoini tehinguid. Üldiselt magate umbes samadel kellaaegadel. Seetõttu kasutatakse ahelaanalüüsis tavaliselt ajalisi analüüse. See tähendab lihtsalt seda, et registreeritakse ajad, mil konkreetse üksuse tehinguid Bitcoini võrku edastatakse. Nende ajaliste mustrite analüüsimine võimaldab tuletada arvukalt teavet.

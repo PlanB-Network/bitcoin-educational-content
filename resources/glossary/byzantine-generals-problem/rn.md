@@ -1,5 +1,5 @@
 ---
-term: INGORANE Y'ABAGENERALI B'ABABIZANTI
+term: Ingorane y'abagenerali b'ababizanti
 ---
 
 Ico kibazo cabanje gutegurwa na Leslie Lamport, Robert Shostak, na Marshall Pease mu kinyamakuru kidasanzwe *ACM Transactions on Programming Langues and Systems, umuzingo wa 4, n° 3* ["Ikibazo c'abajenerali b'Abanyabizantine"](https://lamport.azurewebsites.net/pubs) yerekana ingorane zo gufata ingingo mu buryo busanzwe aho ata muntu n’umwe ashobora kwizigirwa bimwe bishitse.

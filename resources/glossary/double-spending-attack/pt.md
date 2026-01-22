@@ -1,5 +1,5 @@
 ---
-term: DUPLICAÇÃO DAS DESPESAS (ATAQUE)
+term: Duplicação das despesas (ataque)
 
 ---
 Um ataque em que um utilizador malicioso tenta utilizar o mesmo UTXO (*Unspent Transaction Output*) mais do que uma vez para se enriquecer à custa das partes envolvidas nas transacções. Em princípio, uma vez que uma transação é confirmada num bloco e adicionada à cadeia de blocos, a utilização desses bitcoins é registada permanentemente, impedindo qualquer outro gasto dos mesmos bitcoins. A prevenção de gastos duplos é mesmo a principal utilidade da cadeia de blocos.

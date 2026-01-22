@@ -1,5 +1,5 @@
 ---
-term: SIGNET
+term: Signet
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-term: HASHRATE
+term: Hashrate
 
 ---
 Ukazatel výpočetního výkonu sítě měřený v hashi za sekundu (H/s). Udává kapacitu těžařů provádět hashovací operace jako součást důkazu práce. Vysoká rychlost hashrate znamená větší bezpečnost ekonomické historie Bitcoinu a zvýšenou odolnost proti útokům, protože ke kompromitaci sítě by bylo zapotřebí značného množství výpočetního výkonu.

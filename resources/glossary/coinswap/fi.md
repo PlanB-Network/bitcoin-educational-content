@@ -1,5 +1,5 @@
 ---
-term: COINSWAP
+term: Coinswap
 ---
 
 Ownership:n salaisen siirron protokolla käyttäjien välillä. Tämän menetelmän tarkoituksena on siirtää bitcoinit henkilöltä toiselle ja päinvastoin ilman, että Exchange näkyy selvästi Blockchain:ssa. Coinwap käyttää älykkäitä sopimuksia siirron tekemiseen ilman, että osapuolten välillä tarvitaan luottamusta.

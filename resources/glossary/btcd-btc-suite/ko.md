@@ -1,5 +1,5 @@
 ---
-term: BTCD(BTC 스위트)
+term: Btcd(btc 스위트)
 ---
 
 Bitcoin 프로토콜의 소수 구현. BTCD는 지배적인 Bitcoin core 소프트웨어(특히 bitcoind)의 대안입니다.

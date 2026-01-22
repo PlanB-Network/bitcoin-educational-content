@@ -1,5 +1,5 @@
 ---
-term: KETTENANALYSE
+term: Kettenanalyse
 
 ---
 Praxis, die alle Methoden umfasst, mit denen der Fluss von Bitcoins auf der Blockchain verfolgt werden kann. Im Allgemeinen stützt sich die Kettenanalyse auf die Beobachtung von Merkmalen in Stichproben früherer Transaktionen. Es geht dann darum, dieselben Merkmale in einer Transaktion, die man analysieren möchte, zu identifizieren und plausible Interpretationen abzuleiten. Diese Problemlösungsmethode, die auf einem praktischen Ansatz basiert, um eine ausreichend gute Lösung zu finden, wird als Heuristik bezeichnet. Zur Vereinfachung wird die Kettenanalyse in zwei Hauptschritten durchgeführt:

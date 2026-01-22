@@ -1,5 +1,5 @@
 ---
-term: INFLACIÓN
+term: Inflación
 ---
 
 Se refiere al aumento del dinero Supply en circulación, que provoca una caída del valor de cada unidad monetaria y un aumento del precio de los bienes y servicios. En el caso de las monedas estatales, este fenómeno se produce cuando los bancos centrales emiten nuevas unidades monetarias.

@@ -1,5 +1,5 @@
 ---
-term: SEGWIT2X
+term: Segwit2x
 ---
 
 Jaribio lenye utata la Hard Fork linalolenga kuongeza maradufu kikomo cha ukubwa wa block kwenye Bitcoin, huku ikijumuisha SegWit. SegWit2x ilianzishwa wakati wa Makubaliano ya New York mnamo 2017, mkutano wa siri kati ya kampuni zaidi ya 50 kutoka mfumo wa ikolojia ambao ulilenga kupata suluhisho la kuongeza mfumo. SegWit2x ilijaribu kuongeza uwezo wa Bitcoin wa kufanya miamala kwa kuongeza ukubwa wa juu zaidi wa block hadi MB 2, kutoka MB 1 ya awali. Hard Fork ilipangwa katika block 494,784, ambayo ilikuwa wakati wa Novemba 2017.

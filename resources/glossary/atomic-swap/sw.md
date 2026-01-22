@@ -1,5 +1,5 @@
 ---
-term: BADILISHANO LA ATOMI
+term: Badilishano la atomi
 ---
 
 Teknolojia inayoruhusu Exchange ya moja kwa moja ya sarafu za siri kati ya pande mbili, bila hitaji la uaminifu na bila kuhitaji mpatanishi. Mabadilishano haya yanaitwa "atomiki" kwa sababu yanaweza tu kusababisha matokeo mawili:

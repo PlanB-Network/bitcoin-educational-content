@@ -1,5 +1,5 @@
 ---
-term: OVERLAY
+term: Overlay
 ---
 
 Bitcoin-pääverkon päälle rakennettu protokolla tai verkko. Se käyttää Bitcoin-verkkoa perustana ja on siksi riippuvainen sen protokollasta. Bitcoin-verkko ei kuitenkaan ole riippuvainen sen päällekkäisverkosta. Esimerkki tällaisesta päällekkäisverkosta on Lightning Network.

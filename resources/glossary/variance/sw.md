@@ -1,5 +1,5 @@
 ---
-term: TOFAUTI
+term: Tofauti
 ---
 
 Katika Mining, hii inarejelea kushuka kwa thamani kwa mapato ya Miner kutokana na asili ya uwezekano wa kupata vitalu halali. Hata kwa nguvu ya kompyuta ya mara kwa mara, wakati inachukua kupata block inaweza kutofautiana sana. Matokeo yake, wachimbaji wanaweza kwenda kwa muda mrefu bila kupokea malipo yoyote, ikifuatiwa na vipindi vya mapato ya juu.

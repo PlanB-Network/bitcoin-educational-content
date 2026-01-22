@@ -1,5 +1,5 @@
 ---
-term: PRIVATER SCHLÜSSEL
+term: Privater schlüssel
 
 ---
 Ein privater Schlüssel ist ein grundlegendes Element der asymmetrischen Kryptographie. Es handelt sich um eine Zahl (256 Bit im Kontext von Bitcoin), die ein kryptografisches Geheimnis darstellt. Dieser Schlüssel wird verwendet, um Transaktionen digital zu signieren und den Besitz eines öffentlichen Bitcoin-Schlüssels (und damit einer Empfangsadresse) zu beweisen, indem ein "ScriptPubKey" erfüllt wird. Daher ermöglichen private Schlüssel das Ausgeben von Bitcoins durch das Entsperren der UTXOs, die mit dem entsprechenden öffentlichen Schlüssel verbunden sind. Private Schlüssel müssen streng vertraulich behandelt werden, da ihre Offenlegung es böswilligen Dritten ermöglichen könnte, die Kontrolle über die damit verbundenen Gelder zu übernehmen.

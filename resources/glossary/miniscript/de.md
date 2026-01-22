@@ -1,5 +1,5 @@
 ---
-term: MINISCRIPT
+term: Miniscript
 
 ---
 Framework für die sichere Programmierung von Skripten auf Bitcoin. Die native Sprache von Bitcoin heißt Script. Sie ist in der Praxis recht kompliziert zu verwenden, insbesondere für anspruchsvolle und angepasste Anwendungen. Vor allem ist es sehr schwierig, die Grenzen eines Skripts zu verifizieren. Miniscript verwendet eine Teilmenge von Bitcoin-Skripten, um deren Erstellung, Analyse und Überprüfung zu vereinfachen. Jedes Miniscript ist 1:1 mit einem nativen Skript gleichwertig. Es wird eine benutzerfreundliche Policy-Sprache verwendet, die dann in Miniscript kompiliert wird, um schließlich einem nativen Skript zu entsprechen.

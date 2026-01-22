@@ -1,5 +1,5 @@
 ---
-term: TARO
+term: Taro
 
 ---
 Nama sebelumnya dari Protokol Aset Taproot.

@@ -1,5 +1,5 @@
 ---
-term: SCRIPTWITNESS
+term: Scriptwitness
 
 ---
 Et element i SegWit-transaksjonsoppføringer som inneholder signaturene og de offentlige nøklene som er nødvendige for å låse opp bitcoinsene som sendes i transaksjonen. I likhet med `scriptSig` i Legacy-transaksjoner, er imidlertid ikke `scriptWitness` plassert på samme sted. Det er faktisk denne delen, som kalles "vitnet" (`*witness*` på engelsk), som flyttes til en separat database for å løse problemet med transaksjonens formbarhet. Hver SegWit-inngang har sitt eget `scriptWitness`, og alle `scriptWitness`-elementene utgjør til sammen transaksjonens `Witness`-felt.

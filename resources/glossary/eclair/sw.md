@@ -1,5 +1,5 @@
 ---
-term: ECLAIR
+term: Eclair
 ---
 
 Utekelezaji mkubwa wa itifaki ya Lightning Network iliyoandikwa kwa lugha ya Scala. Eclair imetengenezwa na kampuni ya Ufaransa ya Acinq.

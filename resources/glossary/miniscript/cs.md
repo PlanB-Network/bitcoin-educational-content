@@ -1,5 +1,5 @@
 ---
-term: MINISCRIPT
+term: Miniscript
 
 ---
 Framework navržený tak, aby poskytoval rámec pro bezpečné programování skriptů na Bitcoinu. Nativní jazyk Bitcoinu se nazývá skript. Jeho použití v praxi je poměrně složité, zejména pro sofistikované a přizpůsobené aplikace. Především je velmi obtížné ověřit omezení skriptu. Miniscript používá podmnožinu skriptů Bitcoinu, aby zjednodušil jejich vytváření, analýzu a ověřování. Každý miniskript je ekvivalentní 1 za 1 s nativním skriptem. Používá se uživatelsky přívětivý jazyk zásad, který je následně zkompilován do miniskriptu, aby nakonec odpovídal nativnímu skriptu.

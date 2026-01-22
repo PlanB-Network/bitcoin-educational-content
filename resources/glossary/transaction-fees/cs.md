@@ -1,5 +1,5 @@
 ---
-term: TRANSAKČNÍ POPLATKY
+term: Transakční poplatky
 
 ---
 Transakční poplatky představují částku, která má těžařům kompenzovat jejich účast v mechanismu proof of work. Tyto poplatky motivují těžaře, aby do bloků, které vytvářejí, zahrnovali transakce. Vznikají z rozdílu mezi celkovým množstvím vstupů a celkovým množstvím výstupů v transakci:

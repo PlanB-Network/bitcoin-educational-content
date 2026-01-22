@@ -1,5 +1,5 @@
 ---
-term: BLOCK REWARD
+term: Block reward
 ---
 
 The block reward is the total number of bitcoins received by a miner when they successfully mine a valid block. 

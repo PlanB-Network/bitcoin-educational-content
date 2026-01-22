@@ -1,5 +1,5 @@
 ---
-term: QR CODE
+term: Qr code
 
 ---
 Eine Art zweidimensionaler Strichcode, der von mobilen Geräten schnell gescannt werden kann. Der QR-Code speichert Informationen in Form von schwarzen und weißen Pixeln, die in einem Quadrat auf einem weißen Hintergrund angeordnet sind. Ein wichtiges Merkmal von QR-Codes ist, dass sie BCH-Fehlerkorrekturcodes enthalten, die es ermöglichen, Daten wiederherzustellen, selbst wenn der QR-Code teilweise unleserlich ist.

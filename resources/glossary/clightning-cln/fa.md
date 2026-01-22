@@ -1,5 +1,5 @@
 ---
-term: C-LIGHTNING (CLN)
+term: C-lightning (cln)
 ---
 
 نام قبلی پیاده‌سازی Core-Lightning.

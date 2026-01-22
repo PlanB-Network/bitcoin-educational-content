@@ -1,5 +1,5 @@
 ---
-term: BLIKSEMAFLEIDER
+term: Bliksemafleider
 ---
 
 Onderneming die actief is op Lightning en liquiditeitsdiensten verleent aan gebruikers.

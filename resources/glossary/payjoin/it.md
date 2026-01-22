@@ -1,5 +1,5 @@
 ---
-term: PAYJOIN
+term: Payjoin
 
 ---
 Una specifica struttura di transazione Bitcoin che migliora la privacy dell'utente durante una spesa collaborando con il destinatario del pagamento. L'unicità di Payjoin sta nella sua capacità di generare una transazione che a prima vista sembra ordinaria, ma che in realtà è una mini coinjoin tra due parti. Per questo, la struttura della transazione prevede che il destinatario del pagamento sia inserito tra gli input insieme al mittente vero e proprio. In questo modo, il destinatario include un pagamento a se stesso nel mezzo della transazione che gli consente di essere pagato. Ad esempio, se si acquista una baguette per `6.000 sats` utilizzando un UTXO di `10.000 sats`, e si opta per un Payjoin, il panettiere aggiungerà un UTXO di `15.000 sats` di sua proprietà come input, che recupererà interamente come output, oltre ai `6.000 sats`.

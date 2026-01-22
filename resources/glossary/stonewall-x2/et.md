@@ -1,5 +1,5 @@
 ---
-term: STONEWALL X2
+term: Stonewall x2
 
 ---
 Bitcoini tehingu erivorm, mille eesmärk on suurendada kasutaja privaatsust kulutuste ajal, tehes koostööd kolmanda osapoolega, kes ei ole kulutustega seotud. See meetod simuleerib kahe osaleja vahelist mini-mündiühendust, tehes samal ajal makse kolmandale osapoolele. Stonewall x2 tehingud on saadaval nii Samourai Wallet'i rakenduses kui ka Sparrow Wallet'i tarkvaras (mõlemad on koostalitlusvõimelised).

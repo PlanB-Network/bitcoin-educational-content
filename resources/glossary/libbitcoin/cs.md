@@ -1,5 +1,5 @@
 ---
-term: LIBBITCOIN
+term: Libbitcoin
 ---
 
 Sada knihoven napsaných v jazyce C++ určená k vytváření aplikací souvisejících s Bitcoin. Libbitcoin nabízí nezávislé základy pro vývoj mobilních aplikací, softwaru a dalších systémů kolem Bitcoin. Libbitcoin má proto modulární architekturu. Všechny knihovny projektu jsou šířeny pod svobodnou licencí AGPL.

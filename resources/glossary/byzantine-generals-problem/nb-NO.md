@@ -1,5 +1,5 @@
 ---
-term: BYSANTINSKE GENERALERS PROBLEM
+term: Bysantinske generalers problem
 
 ---
 Problemet ble først formulert av Leslie Lamport, Robert Shostak og Marshall Pease i fagtidsskriftet *ACM Transactions on Programming Languages and Systems, vol 4, n° 3* ["The Byzantine Generals Problem"](https://lamport.azurewebsites.net/pubs/byz.pdf) i juli 1982. Det brukes i dag for å illustrere utfordringene når det gjelder beslutningstaking i et distribuert system som ikke kan stole på noen aktør.

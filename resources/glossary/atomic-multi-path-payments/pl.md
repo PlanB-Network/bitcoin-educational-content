@@ -1,5 +1,5 @@
 ---
-term: ATOMOWE PŁATNOŚCI WIELOŚCIEŻKOWE
+term: Atomowe płatności wielościeżkowe
 ---
 
 Ulepszona wersja MPP (*Multi-Path Payments*), w której każdy fragment płatności ma odrębny częściowy sekret, zapewniając, że transakcja jest rozliczana atomowo, tj. w całości lub wcale.

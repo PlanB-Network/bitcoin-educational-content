@@ -1,5 +1,5 @@
 ---
-term: BLOCKSIGNERS
+term: Blocksigners
 ---
 
 In the context of Liquid (a Bitcoin sidechain), blocksigners are the entities responsible for constructing and validating blocks on the network. 

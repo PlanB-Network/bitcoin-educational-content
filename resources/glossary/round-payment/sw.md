@@ -1,5 +1,5 @@
 ---
-term: MALIPO YA MZUNGUKO
+term: Malipo ya mzunguko
 ---
 
 Heuristic ya ndani ya uchanganuzi wa msururu kwenye Bitcoin ambayo inaruhusu nadharia tete kuhusu asili ya matokeo ya shughuli ya ununuzi kulingana na kiasi cha mzunguko. Kwa ujumla, unapokabiliwa na muundo rahisi wa malipo (ingizo 1 na matokeo 2), ikiwa moja ya matokeo yanatumia kiasi cha mzunguko, basi inawakilisha malipo. Kwa kuondoa, ikiwa pato moja linawakilisha malipo, lingine linawakilisha mabadiliko. Kwa hivyo inaweza kufasiriwa kuwa kuna uwezekano kwamba mtumiaji anayeingiza muamala bado ana matokeo yaliyotambuliwa kuwa mabadiliko.

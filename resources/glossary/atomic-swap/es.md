@@ -1,5 +1,5 @@
 ---
-term: INTERCAMBIO ATÓMICO
+term: Intercambio atómico
 
 ---
 Tecnología que permite el intercambio directo de criptomonedas entre dos partes, sin necesidad de confianza ni intermediarios. Estos intercambios se denominan "atómicos" porque solo pueden dar lugar a dos resultados:

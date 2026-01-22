@@ -1,5 +1,5 @@
 ---
-term: BITCOIN GOLD (BTG)
+term: Bitcoin gold (btg)
 ---
 
 Bitcoin Gold (BTG) is a cryptocurrency created from a hard fork of Bitcoin (BTC) on October 24, 2017, at block 491,407. 

@@ -1,5 +1,5 @@
 ---
-term: KONSOLIDACIJA
+term: Konsolidacija
 ---
 
 Specifična transakcija u kojoj se više malih UTXO-a spajaju u jedan ulaz kako bi se formirao jedan veći UTXO kao izlaz. Ova operacija je transakcija napravljena na sopstveni Wallet. Cilj konsolidacije je da se iskoriste periodi kada su naknade na Bitcoin mreži niske kako bi se spojilo nekoliko malih UTXO-a u jedan veći po vrednosti. Tako se predviđaju obavezni troškovi u slučaju povećanja naknada, omogućavajući uštede na budućim transakcijskim naknadama.

@@ -1,5 +1,5 @@
 ---
-term: BYZANTINE FAULT TOLERANCE (BFT)
+term: Byzantine fault tolerance (bft)
 ---
 
 Concept utilisé dans les systèmes distribués pour assurer un consensus fiable et sécurisé, même en présence de nœuds défectueux ou malveillants.

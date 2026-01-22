@@ -1,5 +1,5 @@
 ---
-term: NODE
+term: Node
 ---
 
 Bitcoin ağında, bir düğüm (veya İngilizce'de "node") bir Bitcoin protokol istemcisi (örneğin Bitcoin core gibi) çalıştıran bir bilgisayardır. Blockchain'in bir kopyasını tutarak, işlemleri ve yeni blokları aktararak ve doğrulayarak ve isteğe bağlı olarak Mining sürecine katılarak ağa katılır. Tüm Bitcoin düğümlerinin toplamı Bitcoin ağının kendisini temsil eder.

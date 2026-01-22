@@ -1,5 +1,5 @@
 ---
-term: KUPOKEA Address
+term: Kupokea address
 ---
 
 Taarifa zinazotumiwa kupokea bitcoins. Address kwa kawaida huundwa kwa kuharakisha ufunguo wa umma, kwa kutumia `SHA256` na `RIMPEMD160`, na kuongeza metadata kwenye muhtasari huu. Vifunguo vya umma vilivyotumika kutengeneza Address inayopokea ni sehemu ya Wallet ya mtumiaji na kwa hivyo yanatokana na seed yao. Kwa mfano, anwani za SegWit zinajumuisha habari ifuatayo:

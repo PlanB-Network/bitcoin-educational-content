@@ -1,5 +1,5 @@
 ---
-term: TRANSAKTIONSVITTNE
+term: Transaktionsvittne
 ---
 
 Avser en komponent i Bitcoin-transaktioner som flyttades med SegWit Soft Fork till Address frågan om transaktionens formbarhet. Vittnet innehåller de signaturer och publika nycklar som krävs för att låsa upp de bitcoins som spenderats i en transaktion. I Legacy-transaktioner representerade vittnet summan av `scriptSig` från alla ingångar. I SegWit-transaktioner representerar vittnet summan av `scriptWitness` för varje inmatning, och denna del av transaktionen flyttas nu till en separat Merkle Tree inom blocket.

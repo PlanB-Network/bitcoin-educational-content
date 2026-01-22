@@ -1,5 +1,5 @@
 ---
-term: SCRIPTPUBKEY
+term: Scriptpubkey
 ---
 
 Skrypt znajdujący się w części wyjściowej transakcji Bitcoin, który określa warunki, na jakich można wydać powiązane UTXO. W ten sposób skrypt ten zabezpiecza bitcoiny. W swojej najczęstszej formie, `scriptPubKey` zawiera warunek, który wymaga od następnej transakcji dostarczenia dowodu posiadania klucza prywatnego odpowiadającego określonemu Bitcoin Address. Jest to często osiągane za pomocą skryptu, który wymaga podpisu odpowiadającego kluczowi publicznemu powiązanemu z Address używanym do zabezpieczenia tych środków. Gdy transakcja próbuje użyć tego UTXO jako danych wejściowych, musi dostarczyć `scriptSig`, który po połączeniu z `scriptPubKey` spełnia ustalone warunki i tworzy ważny skrypt.

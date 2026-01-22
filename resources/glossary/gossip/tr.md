@@ -1,5 +1,5 @@
 ---
-term: GOSSIP
+term: Gossip
 ---
 
 Gossip, bilgiyi tüm ağ ajanlarına epidemik olarak yaymak için eşler arası (P2P) dağıtılmış bir algoritmadır. Bitcoin, Lightning ve diğer dağıtılmış sistemler için bu protokol, düğümlerin Global State'ının sadece birkaç döngüde değiştirilmesini ve senkronize edilmesini sağlar. Her düğüm bilgiyi bir veya daha fazla rastgele veya rastgele olmayan komşuya yayar, onlar da bilgiyi diğer komşulara yayar ve bu şekilde küresel olarak senkronize bir duruma ulaşılana kadar devam eder.

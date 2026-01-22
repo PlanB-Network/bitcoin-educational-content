@@ -1,5 +1,5 @@
 ---
-term: ECLAIR
+term: Eclair
 
 ---
 Scala-kielellä kirjoitettu Lightning Network -protokollan merkittävä toteutus. Eclairin on kehittänyt ranskalainen Acinq-yhtiö.

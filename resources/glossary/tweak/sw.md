@@ -1,5 +1,5 @@
 ---
-term: TWEAK
+term: Tweak
 ---
 
 Katika cryptography, "tweak" ufunguo wa umma ni kurekebisha kwa kutumia thamani ya nyongeza inayoitwa "tweak", ili iendelee kutumika kwa ujuzi wa ufunguo wa asili wa kibinafsi na tweak. Kitaalam, tweak ni thamani ya scalar ambayo huongezwa kwa ufunguo asilia wa umma. Ikiwa $P$ ndio ufunguo wa umma na $t$ ndio kiboreshaji, ufunguo wa umma uliobadilishwa unakuwa :

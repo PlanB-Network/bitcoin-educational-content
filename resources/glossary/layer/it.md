@@ -1,5 +1,5 @@
 ---
-term: SOVRAPPOSIZIONE
+term: Sovrapposizione
 ---
 
 Protocollo o rete costruita sopra la rete Bitcoin principale. Utilizza la rete Bitcoin come base e dipende quindi dal suo protocollo. Tuttavia, la rete Bitcoin non dipende dai suoi overlay. Un esempio di tale overlay è Lightning Network.

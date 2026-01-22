@@ -1,5 +1,5 @@
 ---
-term: Invoice LIGHTNING
+term: Invoice lightning
 ---
 
 Lynbetalingsforespørsel generert av mottakeren, som inneholder all informasjon som trengs for å fullføre transaksjonen.

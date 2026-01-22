@@ -1,5 +1,5 @@
 ---
-term: STRATUM V2
+term: Stratum v2
 
 ---
 

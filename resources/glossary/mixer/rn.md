@@ -1,5 +1,5 @@
 ---
-term: UMUVANGI
+term: Umuvangi
 
 ---
 

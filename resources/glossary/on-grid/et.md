@@ -1,5 +1,5 @@
 ---
-term: ON-GRID
+term: On-grid
 ---
 
 Viitab Bitcoin Mining operatsioonile, mis on ühendatud üldisele elektrivõrgule. Võrgupõhised kaevandajad ühenduvad oma ASICide toiteks tavalisesse elektrivõrku, mida kasutavad ka kodutarbijad. See meetod pakub stabiilset energiaallikat, kuid on sageli kallim kui võrguväline Mining, kuna läbirääkimisvarud on piiratumad.

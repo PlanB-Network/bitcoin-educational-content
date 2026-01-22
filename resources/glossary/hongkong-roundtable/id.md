@@ -1,5 +1,5 @@
 ---
-term: MEJA BUNDAR HONG-KONG
+term: Meja bundar hong-kong
 
 ---
 Sebuah peristiwa bersejarah dari Perang Ukuran Blok yang berlangsung pada tanggal 20 Februari 2016 di Hong Kong. Ini adalah pertemuan penting antara pengembang dan penambang Bitcoin Core yang bertujuan untuk mendiskusikan skalabilitas sistem dan strategi untuk meningkatkannya. Terdapat ketegangan sangat tinggi sebelum pertemuan tersebut, terutama karena munculnya Bitcoin Classic, sebuah proposal _hard fork_ yang didukung oleh Gavin Andressen yang bertujuan untuk meningkatkan ukuran blok menjadi 2 MB. Tokoh-tokoh berpengaruh dalam ekosistem ikut serta dalam perdebatan tersebut, termasuk Jihan Wu dan Micree Zhan, salah satu pendiri Bitmain, Adam Back, presiden Blockstream, serta Luke Dashjr, Matt Corallo, dan Peter Todd.

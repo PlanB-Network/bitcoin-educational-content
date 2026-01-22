@@ -1,5 +1,5 @@
 ---
-term: ECLAIR
+term: Eclair
 ---
 
 Główna implementacja protokołu Lightning Network napisana w języku Scala. Eclair jest rozwijany przez francuską firmę Acinq.

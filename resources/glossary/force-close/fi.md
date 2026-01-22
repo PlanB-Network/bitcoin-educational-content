@@ -1,5 +1,5 @@
 ---
-term: PAKOTTAMINEN SULJETTU
+term: Pakottaminen suljettu
 ---
 
 Ei-yhteistyöhön perustuva salamakanavan sulkemismekanismi. Kun kaksi käyttäjää avaa kanavan Multisig 2/2:lla, kumpikin voi yksipuolisesti sulkea kanavan lähettämällä viimeisen jo allekirjoitetun Commitment Transaction:n ja saada takaisin ketjussa olevat bitcoininsa. Tämä tunnetaan nimellä "force close".

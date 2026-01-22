@@ -1,5 +1,5 @@
 ---
-term: UTXO SET
+term: Utxo set
 ---
 
 Herhangi bir anda mevcut tüm UTXO'ların toplanmasını ifade eder. Başka bir deyişle, harcanmayı bekleyen tüm farklı bitcoin parçalarının büyük bir listesidir. UTXO setindeki tüm UTXO'ların miktarlarını toplarsanız, bu bize dolaşımdaki bitcoinlerin toplam parasal kütlesini verir. Bitcoin ağındaki her düğüm kendi UTXO setini gerçek zamanlı olarak tutar. Yeni geçerli bloklar onaylandıkça, UTXO setinden bazı UTXO'ları tüketen ve karşılığında yenilerini yaratan işlemlerle birlikte bunu günceller.

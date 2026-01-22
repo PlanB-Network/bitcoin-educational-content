@@ -1,5 +1,5 @@
 ---
-term: IKIMENYETSO Impumyi
+term: Ikimenyetso impumyi
 ---
 
 Inzira aho umukoresha asinya ku giciro ca Bitcoin atashobora kugenzura neza neza ivyo ariko arasinya. Ku bikoresho vy’amasakoshi, gusinya ataco ubona birateye akaga, kuko uwubikoresha ategerezwa kwizigira mudasobwa ihuye kugira ngo yerekane amakuru (abayakira, amahera, amahera, n’ibindi).

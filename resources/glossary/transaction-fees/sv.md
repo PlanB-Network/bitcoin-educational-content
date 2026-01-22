@@ -1,5 +1,5 @@
 ---
-term: TRANSAKTIONSAVGIFTER
+term: Transaktionsavgifter
 ---
 
 Transaktionsavgifter utgör en summa som syftar till att kompensera miners för deras deltagande i Proof of Work-mekanismen. Dessa avgifter uppmuntrar miners att inkludera transaktioner i de block de skapar. De uppstår genom skillnaden mellan den totala mängden inmatningar och den totala mängden utmatningar i en transaktion:

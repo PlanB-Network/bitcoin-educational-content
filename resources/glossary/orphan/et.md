@@ -1,5 +1,5 @@
 ---
-term: ORPHAN
+term: Orphan
 
 ---
 Teoreetiliselt viitab orbe plokk kehtivale plokile, mille on saanud sõlm, mis ei ole veel omandanud vanemplokki, st ahelas eelmist plokki. Kuigi see plokk on kehtiv, jääb see lokaalselt isoleerituks kui orvuks.

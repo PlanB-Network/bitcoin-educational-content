@@ -1,5 +1,5 @@
 ---
-term: ZPĚTNÉ POUŽITÍ ADRES
+term: Zpětné použití adres
 
 ---
 Opakované použití adresy označuje praxi, kdy se stejná přijímací adresa používá k blokování více UTXO, někdy v rámci několika různých transakcí. Bitcoiny jsou obvykle blokovány pomocí páru kryptografických klíčů, který odpovídá jedinečné adrese. Protože je blockchain veřejný, je snadné zjistit, které adresy jsou spojeny s kolika bitcoiny. V případě opakovaného použití stejné adresy pro více plateb je rozumné si představit, že všechny související UTXO patří stejnému subjektu. Opakované použití adresy proto představuje problém pro soukromí uživatele. Umožňuje deterministické vazby mezi vícenásobnými transakcemi a UTXO a také udržování sledování prostředků v řetězci. Tento problém zmínil již Satoshi Nakamoto ve své Bílé knize:

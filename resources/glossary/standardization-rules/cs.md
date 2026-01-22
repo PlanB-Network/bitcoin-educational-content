@@ -1,5 +1,5 @@
 ---
-term: PRAVIDLA STANDARDIZACE
+term: Pravidla standardizace
 
 ---
 Standardizační pravidla přijímá každý uzel bitcoinu individuálně, kromě pravidel konsensu, aby definoval strukturu nepotvrzených transakcí, které přijímá do svého mempoolu a vysílá svým vrstevníkům. Tato pravidla jsou tedy konfigurována a prováděna lokálně každým uzlem a mohou se mezi jednotlivými uzly lišit. Platí výhradně pro nepotvrzené transakce. Uzel tedy přijme transakci, kterou považuje za nestandardní, pouze v případě, že je již zahrnuta v platném bloku.

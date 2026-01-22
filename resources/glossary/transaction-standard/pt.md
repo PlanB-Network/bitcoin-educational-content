@@ -1,5 +1,5 @@
 ---
-term: NORMA DE TRANSACÇÃO
+term: Norma de transacção
 
 ---
 Uma transação Bitcoin que, além de aderir às regras de consenso, também se enquadra nas regras de padronização definidas por padrão nos nós do Bitcoin Core. Estas regras de normalização são impostas individualmente por cada nó Bitcoin, para além das regras de consenso, para definir a estrutura das transacções não confirmadas que aceita no seu mempool e transmite aos seus pares.

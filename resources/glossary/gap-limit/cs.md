@@ -1,5 +1,5 @@
 ---
-term: GAP LIMIT
+term: Gap limit
 
 ---
 Parametr používaný v softwaru peněženky Bitcoin k určení maximálního počtu po sobě jdoucích nepoužitých adres, které se mají vygenerovat před zastavením vyhledávání dalších transakcí. Úprava tohoto parametru je často nutná při obnově peněženky, aby se zajistilo nalezení všech transakcí. Nedostatečný Gap Limit by mohl vést k vynechání některých transakcí, pokud by byly adresy během fází odvozování přeskočeny. Zvýšení parametru Gap Limit umožní peněžence prohledávat dále v posloupnosti adres, aby bylo možné obnovit všechny související transakce.

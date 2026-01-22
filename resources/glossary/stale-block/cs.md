@@ -1,5 +1,5 @@
 ---
-term: ZASTARALÝ (BLOK)
+term: Zastaralý (blok)
 
 ---
 Označuje blok bez potomků: platný blok, který je však vyloučen z hlavního řetězce Bitcoinu. Vzniká, když dva těžaři v krátkém časovém úseku najdou platný blok ve stejné výšce řetězce a odvysílají jej po síti. Uzly nakonec vyberou pouze jeden blok, který zařadí do řetězce podle principu řetězce s největším množstvím nashromážděné práce, čímž ostatní bloky "zastarají". Proces vedoucí k vytvoření zastaralého bloku je následující:

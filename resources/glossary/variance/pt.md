@@ -1,5 +1,5 @@
 ---
-term: VARIAÇÃO
+term: Variação
 ---
 
 No Mining, isto refere-se às flutuações no rendimento de um Miner devido à natureza probabilística de encontrar blocos válidos. Mesmo com um poder de computação constante, o tempo que demora a encontrar um bloco pode variar consideravelmente. Como resultado, os mineiros podem passar longos períodos sem receber qualquer recompensa, seguidos de períodos de ganhos elevados.

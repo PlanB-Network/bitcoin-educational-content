@@ -1,5 +1,5 @@
 ---
-term: MITTARIN TAKANA
+term: Mittarin takana
 ---
 
 Bitcoin Mining:n yhteydessä tarkoitetaan sähköä, joka on tuotettu ja jaettu suoraan maatilalle ilman, että se kulkee julkisen verkon kautta.

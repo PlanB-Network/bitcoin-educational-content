@@ -1,5 +1,5 @@
 ---
-term: RBF (Replace-by-fee)
+term: Rbf (replace-by-fee)
 ---
 
 Uburyo bwo gukorana butuma uwurungitse ashobora gusubirira igikorwa kimwe n’ikindi mu kwishura amahera menshi, kugira ngo vyihute kwemezwa. Iyo igikorwa gifise amafaranga make cane gifatanye, uwurungitse arashobora gukoresha *Replace-by-fee* kugira ngo yongere amafaranga yongere ashire imbere igikorwa cabo co gusubirira mu ma mempools.

@@ -1,5 +1,5 @@
 ---
-term: ASSUME UTXO
+term: Assume utxo
 
 ---
 Tham số cấu hình trong ứng dụng khách đa số Bitcoin Core cho phép một nút vừa được khởi tạo (nhưng chưa thực hiện IBD) trì hoãn việc xác minh các giao dịch và tập hợp UTXO trước một ảnh chụp nhanh (snapshot) nhất định. Khái niệm này dựa trên việc sử dụng một tập hợp UTXO (danh sách tất cả các UTXO hiện có tại một thời điểm nhất định) do Core cung cấp và được giả định là chính xác, cho phép nút được đồng bộ hóa rất nhanh trên chuỗi có khối lượng công việc tích lũy nhiều nhất. Vì nút bỏ qua bước IBD dài nên nó nhanh chóng hoạt động cho người dùng của mình.

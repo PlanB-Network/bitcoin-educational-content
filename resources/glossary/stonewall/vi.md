@@ -1,5 +1,5 @@
 ---
-term: STONEWALL
+term: Stonewall
 
 ---
 A specific form of Bitcoin transaction aimed at increasing user privacy during a spend by mimicking a coinjoin between two people, without actually being one. Indeed, this transaction is not collaborative. A user can construct it alone, involving only their own UTXOs as inputs. Therefore, you can create a Stonewall transaction for any occasion, without needing to synchronize with another user.

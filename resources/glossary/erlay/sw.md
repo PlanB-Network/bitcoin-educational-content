@@ -1,5 +1,5 @@
 ---
-term: ERLAY
+term: Erlay
 ---
 
 Itifaki ya mtandao iliyopendekezwa ili kuboresha ufanisi wa kutuma miamala ambayo haijathibitishwa kati ya nodi za Bitcoin.

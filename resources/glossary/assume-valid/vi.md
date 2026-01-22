@@ -1,5 +1,5 @@
 ---
-term: ASSUME VALID
+term: Assume valid
 
 ---
 Configuration parameter in the majority client Bitcoin Core that allows a node that has just been initialized (but has not yet performed the IBD) to skip the verification of signatures for all transactions included in blocks prior to a certain given block. This famous block is defined by the imprint of its header, that is, its hash. The chosen block is renewed with each new version of Bitcoin Core. Upon its initialization, if the node has activated this parameter, it will therefore check the block header chain to find the branch with the most accumulated work. If the node detects the hash provided by Core in the branch it has chosen, it will omit the verification of signatures for the preceding blocks. Otherwise, the node will proceed with a traditional synchronization (IBD) to verify everything by itself.

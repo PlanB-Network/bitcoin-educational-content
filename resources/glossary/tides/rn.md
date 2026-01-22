@@ -1,5 +1,5 @@
 ---
-term: TIDES
+term: Tides
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-term: UTREEXO
+term: Utreexo
 
 ---
 Protokol navržený Tadgem Dryjou ke zkompaktnění sady UTXO uzlů Bitcoinu pomocí akumulátoru založeného na Merklových stromech. Na rozdíl od klasické sady UTXO, která vyžaduje značný úložný prostor, Utreexo drasticky snižuje potřebu paměti tím, že ukládá pouze kořeny Merkleho stromů. Uzel tak může ověřovat existenci UTXO použitých na vstupech transakcí, aniž by musel uchovávat kompletní sadu UTXO. Při použití nástroje Utreexo si každý uzel uchovává pouze kryptografický otisk zvaný kořen Merkleho. Při provádění transakce uživatel poskytne důkazy o vlastnictví UTXO a příslušných Merkleho cest. Uzel tak může ověřovat transakce, aniž by musel uchovávat celou sadu UTXO. Uveďme si příklad se schématem pro pochopení tohoto mechanismu:

@@ -1,5 +1,5 @@
 ---
-term: PRIVAATNE KEY
+term: Privaatne key
 
 ---
 Privaatne võti on asümmeetrilise krüptograafia põhielement. See on arv (Bitcoini kontekstis 256 bitti), mis kujutab endast krüptograafilist saladust. Seda võtit kasutatakse tehingute digitaalseks allkirjastamiseks ja Bitcoini avaliku võtme (ja seega ka vastuvõtva aadressi) omandiõiguse tõendamiseks, rahuldades "scriptPubKey". Seega võimaldavad privaatvõtmed bitcoinide kulutamist, vabastades vastava avaliku võtmega seotud UTXOd. Privaatvõtmeid tuleb hoida rangelt konfidentsiaalsena, sest nende avalikustamine võib võimaldada pahatahtlikel kolmandatel isikutel võtta kontrolli seotud vahendite üle.

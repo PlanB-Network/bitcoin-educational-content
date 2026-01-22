@@ -1,5 +1,5 @@
 ---
-term: GUSHIRAHO INANGA
+term: Gushiraho inanga
 ---
 
 Uburyo bushinga isano hagati y’urutonde nyamukuru rwa Bitcoin na Sidechain (canke uruzitiro rw’umuduga). Ivyuma bifatanya (bikunze kwitwa peg y’inzira zibiri canke 2WP) bituma habaho isano ry’agaciro hagati y’ama bitcoins ku Blockchain nyamukuru n’itunga rihuye kuri Sidechain, bikaba bituma ama bitcoins ashobora guca hagati y’iyo minyororo ibiri.

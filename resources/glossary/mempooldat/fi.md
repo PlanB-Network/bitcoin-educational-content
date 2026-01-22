@@ -1,5 +1,5 @@
 ---
-term: MEMPOOL.DAT
+term: Mempool.dat
 
 ---
 Sen datatiedoston nimi, jota Bitcoin Core -ohjelmisto käyttää tallentaakseen mempoolin nykyisen tilan, joka on joukko vahvistamattomia transaktioita, jotka odottavat lisäämistä lohkoon.

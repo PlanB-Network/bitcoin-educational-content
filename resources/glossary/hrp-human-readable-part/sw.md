@@ -1,5 +1,5 @@
 ---
-term: HRP (SEHEMU INAYOSOMEKA BINADAMU)
+term: Hrp (sehemu inayosomeka binadamu)
 ---
 
 HRP, inayosimama kwa "Sehemu Inayosomeka ya Binadamu," ni sehemu ya bech32 na bech32m (SegWit v0 na SegWit v1) inayopokea anwani. HRP inarejelea sehemu ya Address ambayo imeumbizwa mahususi ili kusomeka na kufasiriwa kwa urahisi na wanadamu. Chukua, kwa mfano, bech32 Bitcoin Address:

@@ -1,5 +1,5 @@
 ---
-term: TIMELOCK
+term: Timelock
 ---
 
 Primitiva Smart contract koja omogućava postavljanje vremenski zasnovanog uslova koji mora biti ispunjen da bi transakcija bila dodata u blok. Postoje dve vrste vremenskih zaključavanja na Bitcoin:

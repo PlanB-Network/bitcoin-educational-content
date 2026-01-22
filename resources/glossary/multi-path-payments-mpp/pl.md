@@ -1,5 +1,5 @@
 ---
-term: PŁATNOŚCI WIELOŚCIEŻKOWE (MPP)
+term: Płatności wielościeżkowe (mpp)
 ---
 
 Ogólny termin określający wszystkie techniki płatności na Lightning, które umożliwiają podzielenie transakcji na kilka mniejszych części i kierowanie ich różnymi trasami. Innymi słowy, każda część płatności odbywa się inną ścieżką węzła. Umożliwia to ominięcie ograniczeń płynności w pojedynczym kanale na trasie.

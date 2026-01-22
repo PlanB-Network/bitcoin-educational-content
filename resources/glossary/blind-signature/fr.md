@@ -1,5 +1,5 @@
 ---
-term: SIGNATURE AVEUGLE
+term: Signature aveugle
 ---
 
 Les signatures aveugles de Chaum sont une forme de signature numérique où l'émetteur d'une signature ne connaît pas le contenu du message qu'il signe. Mais la signature peut ensuite être vérifiée avec le message original. Cette technique a été développée par le cryptographe David Chaum en 1983.

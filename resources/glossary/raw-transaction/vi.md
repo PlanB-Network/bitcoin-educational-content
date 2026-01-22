@@ -1,5 +1,5 @@
 ---
-term: RAW TRANSACTION
+term: Raw transaction
 
 ---
 A Bitcoin transaction that is built and signed, existing in its binary form. A raw transaction (*raw TX*) is the final representation of a transaction, just before it is broadcasted on the network. This transaction contains all the necessary information for its inclusion in a block:

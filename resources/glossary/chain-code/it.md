@@ -1,5 +1,5 @@
 ---
-term: CODICE CATENA
+term: Codice catena
 
 ---
 Nel contesto della derivazione gerarchica deterministica (HD) dei portafogli Bitcoin, il codice di catena è un valore di sale crittografico a 256 bit utilizzato per generare chiavi figlio da una chiave genitore, secondo lo standard BIP32. Il codice di catena viene utilizzato in combinazione con la chiave genitore e l'indice del figlio per generare in modo deterministico una nuova coppia di chiavi (chiave privata e chiave pubblica) senza rivelare la chiave genitore o altre chiavi figlio derivate.

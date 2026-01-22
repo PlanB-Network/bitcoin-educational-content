@@ -1,5 +1,5 @@
 ---
-term: MEHRWEGE-ZAHLUNGEN (MPP)
+term: Mehrwege-zahlungen (mpp)
 ---
 
 Ein allgemeiner Begriff für alle Zahlungstechniken auf Lightning, die es ermöglichen, eine Transaktion in mehrere kleinere Teile aufzuteilen und über verschiedene Routen zu leiten. Mit anderen Worten: Jede Zahlungsfraktion nimmt einen anderen Knotenpfad. Auf diese Weise können Liquiditätsbeschränkungen für einen einzelnen Kanal auf der Route umgangen werden.

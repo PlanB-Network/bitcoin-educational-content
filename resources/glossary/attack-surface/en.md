@@ -1,5 +1,5 @@
 ---
-term: ATTACK SURFACE
+term: Attack surface
 ---
 
 Refers to the total set of potential entry points that an attacker could exploit to gain access to a system. The attack surface includes all interfaces, services, ports, protocols, and other communication vectors that could be exposed. A larger attack surface increases the number of vulnerabilities, making the system more susceptible to attacks. 

@@ -1,5 +1,5 @@
 ---
-term: ZEROCONF
+term: Zeroconf
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-term: TRANSACTIEKOSTEN
+term: Transactiekosten
 ---
 
 Transactievergoedingen vertegenwoordigen een bedrag dat bedoeld is om miners te compenseren voor hun deelname aan het Proof of Work mechanisme. Deze vergoedingen moedigen miners aan om transacties op te nemen in de blokken die ze creëren. Ze komen voort uit het verschil tussen de totale hoeveelheid inputs en de totale hoeveelheid outputs in een transactie:

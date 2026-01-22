@@ -1,5 +1,5 @@
 ---
-term: IKYUNGURA RY'AMASHURWE
+term: Ikyungura ry'amashurwe
 ---
 
 Akayunguruzo ka Bloom ni ubuhinga bw'amakuru bukoreshwa mu kugerageza nimba ikintu ari umunyamuryango w'umugwi.

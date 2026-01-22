@@ -1,5 +1,5 @@
 ---
-term: ENSAIO RÁPIDO
+term: Ensaio rápido
 
 ---
 Método de ativação de um soft fork inicialmente conceptualizado para a Taproot no início de 2021 por David A. Harding com base numa ideia de Russell O'Connor. Seu princípio é usar o método BIP8 com um parâmetro `LOT` definido como `false`, enquanto reduz o período de ativação para apenas 3 meses. Este período de votação mais curto permite uma verificação rápida da aprovação do mineiro. Se o limite de aprovação necessário for atingido durante um dos períodos, o soft fork é então bloqueado. Será ativado vários meses mais tarde, dando assim aos mineiros o tempo necessário para atualizar o seu software.

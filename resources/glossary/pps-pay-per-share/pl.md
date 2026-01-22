@@ -1,5 +1,5 @@
 ---
-term: PPS (WYNAGRODZENIE ZA AKCJĘ)
+term: Pps (wynagrodzenie za akcję)
 ---
 
 Metoda obliczania wynagrodzenia górników w kontekście pul Mining. PPS to system, w którym górnicy otrzymują zapłatę za każdą przesłaną ważną akcję, niezależnie od tego, czy pula znajdzie blok, czy nie. Są oni zatem wynagradzani na podstawie wartości oczekiwanej. Jest to metoda wynagradzania oparta na zadaniach.

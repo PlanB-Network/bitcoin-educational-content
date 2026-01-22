@@ -1,5 +1,5 @@
 ---
-term: CÓDIGO QR
+term: Código qr
 
 ---
 Um tipo de código de barras bidimensional que pode ser rapidamente lido por dispositivos móveis. O código QR armazena informações sob a forma de pixéis pretos e brancos dispostos num quadrado sobre um fundo branco. Uma caraterística importante dos códigos QR é o facto de incorporarem códigos de correção de erros BCH, que permitem que os dados sejam restaurados mesmo que o código QR esteja parcialmente obscurecido.

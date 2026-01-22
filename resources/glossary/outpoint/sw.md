@@ -1,5 +1,5 @@
 ---
-term: MAELEZO
+term: Maelezo
 ---
 
 Rejeleo la kipekee la pato la muamala ambalo halijatumika (UTXO). Inajumuisha Elements mbili:

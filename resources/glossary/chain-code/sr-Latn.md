@@ -1,5 +1,5 @@
 ---
-term: CHAIN CODE
+term: Chain code
 ---
 
 U kontekstu hijerarhijske determinističke (HD) derivacije Bitcoin novčanika, lančani kod je 256-bitna kriptografska vrednost soli koja se koristi za generate ključeve deteta iz roditeljskog ključa, prema BIP32 standardu. Lančani kod se koristi u kombinaciji sa roditeljskim ključem i indeksom deteta da bi se deterministički generate novi par ključeva (privatni ključ i javni ključ) bez otkrivanja roditeljskog ključa ili drugih izvedenih ključeva deteta.

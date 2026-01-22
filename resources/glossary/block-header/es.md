@@ -1,5 +1,5 @@
 ---
-term: CABECERA DE BLOQUE
+term: Cabecera de bloque
 
 ---
 La cabecera de bloque es una estructura de datos que sirve como componente principal en la construcción de un bloque Bitcoin. Cada bloque consta de una cabecera y una lista de transacciones. La cabecera de bloque contiene información crucial que asegura la integridad y validez de un bloque dentro de la cadena de bloques. La cabecera del bloque contiene 80 bytes de metadatos y se compone de los siguientes elementos:

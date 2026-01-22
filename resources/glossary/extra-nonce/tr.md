@@ -1,5 +1,5 @@
 ---
-term: EXTRA-Nonce
+term: Extra-nonce
 ---
 
 Doğrudan her bloğun başlığında bulunan klasik Nonce'ye ek olarak, zorluk hedefinden daha düşük bir Hash'e sahip olmak için daha fazla sayıda olasılığın test edilmesine olanak tanıyan bir bloğun Coinbase Transaction'inin `scriptSig'inde kullanılan alan.

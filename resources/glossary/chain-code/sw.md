@@ -1,5 +1,5 @@
 ---
-term: MSIMBO WA Mnyororo
+term: Msimbo wa mnyororo
 ---
 
 Katika muktadha wa uaguzi wa hali ya juu (HD) wa pochi za Bitcoin, msimbo wa mnyororo ni thamani ya chumvi ya kriptografia ya 256-bit inayotumiwa kwa funguo za mtoto za generate kutoka kwa ufunguo wa mzazi, kulingana na kiwango cha BIP32. Msimbo wa mnyororo hutumiwa pamoja na ufunguo wa mzazi na faharasa ya mtoto ili kubainisha generate jozi mpya ya funguo (ufunguo wa faragha na ufunguo wa umma) bila kufichua ufunguo wa mzazi au funguo nyingine zinazotolewa za mtoto.

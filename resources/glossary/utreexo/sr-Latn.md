@@ -1,5 +1,5 @@
 ---
-term: UTREEXO
+term: Utreexo
 ---
 
 Protokol koji je dizajnirao Tadge Dryja za kompaktiranje Bitcoin čvorova' UTXO seta koristeći akumulator zasnovan na Merkle drveću. Za razliku od klasičnog UTXO seta koji zahteva značajan prostor za skladištenje, Utreexo drastično smanjuje potrebnu memoriju tako što skladišti samo Merkle Tree korene. Ovo omogućava čvoru da verifikuje postojanje UTXO-a korišćenih u ulazima transakcija, bez potrebe da čuva kompletan set UTXO-a. Korišćenjem Utreexo-a, svaki čvor zadržava samo kriptografski otisak nazvan Merkle Root. Kada se izvrši transakcija, korisnik pruža dokaze Ownership UTXO-a i odgovarajuće Merkle putanje. Tako čvor može verifikovati transakcije bez skladištenja celog UTXO seta. Uzmimo primer sa dijagramom da bismo razumeli ovaj mehanizam:

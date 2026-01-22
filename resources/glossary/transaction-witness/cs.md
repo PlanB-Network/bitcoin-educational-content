@@ -1,5 +1,5 @@
 ---
-term: TRANSAKČNÍ SVĚDEK
+term: Transakční svědek
 
 ---
 Označuje složku transakcí Bitcoinu, která byla přesunuta s měkkým rozvětvením SegWit, aby se vyřešil problém zfalšovatelnosti transakcí. Svědek obsahuje podpisy a veřejné klíče potřebné k odemčení bitcoinů utracených v transakci. Ve starších transakcích představoval svědek součet `scriptSig` ze všech vstupů. V transakcích SegWit představuje svědek součet `scriptWitness` pro každý vstup a tato část transakce je nyní přesunuta do samostatného Merkleho stromu v rámci bloku.

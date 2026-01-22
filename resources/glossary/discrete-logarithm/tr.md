@@ -1,5 +1,5 @@
 ---
-term: AYRIK LOGARITMA
+term: Ayrik logaritma
 ---
 
 Ayrık logaritma, bazı açık anahtar şifreleme algoritmalarında kullanılan matematiksel bir problemdir. Üreteci $g$ olan $q$ mertebesinde bir döngüsel grupta, $g^x = h$ şeklinde bir denklem varsa, $x$, $g$ tabanına göre $h$'nin $q$ modulo'suna göre ayrık logaritması olarak adlandırılır. Basit bir ifadeyle, $g$, $h$ ve $q$ bilindiğinde $x$ üssünün belirlenmesini içerir. Bu nedenle ayrık logaritma, sonlu bir döngüsel gruptaki üstelin tersidir. Bununla birlikte, $q$ 'nun büyük değerleri için, ayrık logaritma problemini çözmenin algoritmik olarak zor olduğu düşünülmektedir. Bu özellik, anahtar Exchange için Diffie-Hellman protokolü gibi birçok kriptografik protokolün güvenliğini sağlamak için kullanılır.

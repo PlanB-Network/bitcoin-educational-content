@@ -1,5 +1,5 @@
 ---
-term: SHITCOIN
+term: Shitcoin
 
 ---
 

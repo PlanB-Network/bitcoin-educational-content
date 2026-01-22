@@ -1,5 +1,5 @@
 ---
-term: COINBASE (TRANSAKSJON)
+term: Coinbase (transaksjon)
 
 ---
 Coinbase-transaksjonen er en spesiell og unik transaksjon som er inkludert i hver blokk i Bitcoin-blokkjeden. Den representerer den første transaksjonen i en blokk og opprettes av utvinneren som har funnet en header som validerer arbeidsbeviset (*Proof-of-Work*), det vil si mindre enn eller lik målet.

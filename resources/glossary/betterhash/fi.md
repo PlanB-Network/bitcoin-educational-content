@@ -1,5 +1,5 @@
 ---
-term: BETTERHASH
+term: Betterhash
 ---
 
 Mining-protokolla, jonka Matt Corallo kehitti vuonna 2018 vastapainoksi Mining:n kasvavalle keskittämiselle altaisiin. Se eroaa Stratumista, joka oli tuolloin standardi, tarjoamalla hasherille enemmän valtaa lohkomalleihin sisällytettävien transaktioiden valintaan. BetterHashin pääajatuksena on antaa hasherille takaisin mahdollisuus hallita lohkomallien rakentamista itse ja säilyttää samalla Mining-poolien edut, kuten pienemmät tulovaihtelut.

@@ -1,5 +1,5 @@
 ---
-term: ACCORDO DI NEW YORK (NYA)
+term: Accordo di new york (nya)
 
 ---
 Un incontro privato tenutosi nel 2017, che ha riunito più di 50 aziende dell'ecosistema Bitcoin, a seguito della conferenza Consensus 2017. L'obiettivo di questo incontro era quello di porre fine all'annoso dibattito sul ridimensionamento del Bitcoin raggiungendo un accordo. Questo incontro ha portato alla proposta di SegWit2x, ispirandosi alla precedente proposta SegWit2Mb. La proposta prevedeva due importanti modifiche al protocollo Bitcoin:

@@ -1,5 +1,5 @@
 ---
-term: KÖR IMZA
+term: Kör imza
 ---
 
 Chaum'un kör imzaları, imzayı atan kişinin imzaladığı mesajın içeriğini bilmediği bir dijital imza biçimidir. Ancak imza daha sonra orijinal mesaj ile doğrulanabilir. Bu teknik kriptograf David Chaum tarafından 1983 yılında geliştirilmiştir.

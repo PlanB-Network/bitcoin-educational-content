@@ -1,5 +1,5 @@
 ---
-term: VARIANZA
+term: Varianza
 ---
 
 Nel Mining, ciò si riferisce alle fluttuazioni delle entrate di un Miner dovute alla natura probabilistica della ricerca di blocchi validi. Anche con una potenza di calcolo costante, il tempo necessario per trovare un blocco può variare notevolmente. Di conseguenza, i minatori possono passare lunghi periodi senza ricevere alcuna ricompensa, seguiti da periodi di alti guadagni.

@@ -1,5 +1,5 @@
 ---
-term: GENESIS BLOCK
+term: Genesis block
 
 ---
 Genesis Block on Bitcoin-järjestelmän ensimmäinen lohko. Se merkitsee Bitcoinin konkreettista käynnistämistä. Genesis Blockin loi Bitcoinin nimetön perustaja Satoshi Nakamoto 3. tammikuuta 2009. Sen hash on:

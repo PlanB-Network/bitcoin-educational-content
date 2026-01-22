@@ -1,5 +1,5 @@
 ---
-term: STATİK Address
+term: Stati̇k address
 ---
 
 Sessiz Ödemeler bağlamında, Address yeniden kullanılmadan, etkileşim olmadan ve çeşitli ödemeler ile statik Address arasında görünür bir On-Chain bağlantısı olmadan ödemelerin alınmasına olanak tanıyan benzersiz bir tanımlayıcı anlamına gelir. Bu teknik, her işlem için yeni, kullanılmayan alıcı adresleri KİS-2 ihtiyacını ortadan kaldırır, böylece alıcının ödeyene yeni bir KİS-3 sağlaması gereken KİS-4'teki olağan etkileşimlerden kaçınır. Bu, BIP47 bağlamında yeniden kullanılabilir ödeme koduna bir şekilde eşdeğerdir.

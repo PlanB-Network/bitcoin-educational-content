@@ -1,5 +1,5 @@
 ---
-term: CHAUMIAN COINJOIN
+term: Chaumian coinjoin
 
 ---
 Coinjoin-protokolla, jossa käytetään David Chaumin sokeaa allekirjoitusta ja Toria osallistujien ja koordinaattorin palvelimen väliseen viestintään. Chaumin coinjoinin tavoitteena on varmistaa osallistujille, että koordinaattori ei voi varastaa bitcoineja eikä yhdistää tuloja ja lähtöjä toisiinsa.

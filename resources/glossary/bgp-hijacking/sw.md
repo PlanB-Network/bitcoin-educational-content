@@ -1,5 +1,5 @@
 ---
-term: UTEKAJI WA BGP
+term: Utekaji wa bgp
 ---
 
 Mashambulizi ambayo mwigizaji hasidi hudanganya matangazo ya BGP ili kuelekeza trafiki ya mtandao kwenye mtandao wake mwenyewe. Kwa kujifanya kuwa asili halali ya safu fulani za IP Address, mshambuliaji anaweza kukamata, kufuatilia au kuzuia trafiki inayolengwa kwa anwani hizi.

@@ -1,5 +1,5 @@
 ---
-term: PRAVILA STANDARDIZACIJE
+term: Pravila standardizacije
 ---
 
 Pravila standardizacije pojedinačno usvaja svaki Bitcoin čvor, pored pravila konsenzusa, kako bi definisao strukturu nepotvrđenih transakcija koje prihvata u svoj Mempool i emituje svojim vršnjacima. Ova pravila su stoga konfigurisana i izvršena lokalno od strane svakog čvora i mogu se razlikovati od jednog čvora do drugog. Ona se primenjuju isključivo na nepotvrđene transakcije. Dakle, čvor će prihvatiti transakciju koju smatra nestandardnom samo ako je već uključena u važeći blok.

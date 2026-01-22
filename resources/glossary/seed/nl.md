@@ -1,5 +1,5 @@
 ---
-term: GRAAN
+term: Graan
 ---
 
 In de specifieke context van een hiërarchische deterministische Bitcoin portefeuille is een seed een 512-bit stukje informatie afgeleid van een willekeurige gebeurtenis. Het wordt gebruikt om deterministisch en hiërarchisch generate een set van private sleutels, en hun corresponderende publieke sleutels, voor een Bitcoin portfolio. De seed wordt vaak verward met de herstelzin zelf. Maar het is niet hetzelfde. De seed wordt verkregen door de `PBKDF2` functie toe te passen op de Mnemonic zin en elke passphrase.

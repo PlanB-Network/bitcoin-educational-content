@@ -1,5 +1,5 @@
 ---
-term: Merkle Tree
+term: Merkle tree
 ---
 
 Een Merkle Tree is een cryptografische accumulator. Het is een methode om het lidmaatschap van een bepaald stuk informatie binnen een grotere set te bewijzen. Het is een datastructuur die de verificatie van informatie in een compact formaat vergemakkelijkt. In het Bitcoin systeem worden Merkle Trees gebruikt om de transacties van een blok te groeperen en samen te vatten in een enkele Hash, genaamd de Merkle Root (of "*Root Hash*"). Elke transactie wordt gehasht, daarna worden de aangrenzende hashes hiërarchisch samen gehasht totdat de Merkle Root is verkregen.

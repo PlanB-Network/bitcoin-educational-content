@@ -1,5 +1,5 @@
 ---
-term: PAYNYM
+term: Paynym
 
 ---
 

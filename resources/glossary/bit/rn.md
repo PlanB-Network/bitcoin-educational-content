@@ -1,5 +1,5 @@
 ---
-term: BIT
+term: Bit
 
 ---
 

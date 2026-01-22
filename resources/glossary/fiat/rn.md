@@ -1,5 +1,5 @@
 ---
-term: FIAT
+term: Fiat
 ---
 
 Amafaranga, akenshi atangwa na Leta, agaciro kayo gashirwa mu ngiro n’ubutegetsi bwa Leta.

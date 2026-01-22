@@ -1,5 +1,5 @@
 ---
-term: MISCELATORE
+term: Miscelatore
 ---
 
 Servizio centralizzato per rompere la storia delle monete Bitcoin mescolando i fondi di più utenti. A differenza del CoinJoin, in cui gli utenti mantengono il controllo dei propri fondi durante l'intero processo di miscelazione, un miscelatore prende temporaneamente possesso dei bitcoin degli utenti, li mescola con quelli di altri utenti, quindi invia nuovamente i fondi a nuovi indirizzi.

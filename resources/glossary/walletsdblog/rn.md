@@ -1,5 +1,5 @@
 ---
-term: WALLETS/DB.LOG
+term: Wallets/db.log
 
 ---
 

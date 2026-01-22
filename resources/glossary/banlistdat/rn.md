@@ -1,5 +1,5 @@
 ---
-term: BANLIST.DAT
+term: Banlist.dat
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-term: DUSTRELAYFEE
+term: Dustrelayfee
 ---
 
 En standardiseringsregel som används av nätverksnoder för att avgöra vad de anser vara "Dust-gränsen" Denna parameter anger en avgiftssats i Sats per virtuell kilobyte (Sats/kvB) som fungerar som referens för att beräkna om värdet av en UTXO är mindre än de avgifter som krävs för att inkludera den i en transaktion. En UTXO betraktas som "Dust" på Bitcoin om den kräver mer i avgifter för att överföras än det värde som den själv representerar. Beräkningen av denna gräns är som följer:

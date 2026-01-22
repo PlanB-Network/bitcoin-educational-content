@@ -1,5 +1,5 @@
 ---
-term: SCRIPTPUBKEY
+term: Scriptpubkey
 
 ---
 Bitcoini tehingu väljundosas asuv skript, mis määratleb tingimused, mille alusel saab seotud UTXO-d kulutada. See skript kindlustab seega bitcoinid. Kõige tavalisemal kujul sisaldab `scriptPubKey` tingimust, mis nõuab, et järgmine tehing tõendaks kindlaksmääratud Bitcoini aadressile vastava privaatvõtme olemasolu. See saavutatakse sageli skripti abil, mis nõuab allkirja, mis vastab nende vahendite tagamiseks kasutatud aadressiga seotud avalikule võtmele. Kui tehing üritab seda UTXOd kasutada sisendina, peab ta esitama `scriptSig`, mis koos `scriptPubKey`ga vastab seatud tingimustele ja annab kehtiva skripti.

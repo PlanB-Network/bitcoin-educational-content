@@ -1,5 +1,5 @@
 ---
-term: STONEWALL
+term: Stonewall
 
 ---
 En spesifikk form for Bitcoin-transaksjon som tar sikte på å øke brukerens personvern under et forbruk ved å etterligne en coinjoin mellom to personer, uten å faktisk være en. Denne transaksjonen er faktisk ikke samarbeidende. En bruker kan konstruere den alene, med bare sine egne UTXO-er som input. Derfor kan du opprette en Stonewall-transaksjon til enhver anledning, uten å måtte synkronisere med en annen bruker.

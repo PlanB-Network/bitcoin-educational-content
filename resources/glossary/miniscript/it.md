@@ -1,5 +1,5 @@
 ---
-term: MINISCRITTURA
+term: Miniscrittura
 
 ---
 Framework progettato per fornire un quadro di riferimento per la programmazione di script in modo sicuro su Bitcoin. Il linguaggio nativo di Bitcoin è chiamato script. È piuttosto complesso da usare nella pratica, soprattutto per applicazioni sofisticate e personalizzate. Soprattutto, è molto difficile verificare i limiti di uno script. Miniscript utilizza un sottoinsieme di script Bitcoin per semplificarne la creazione, l'analisi e la verifica. Ogni miniscript è equivalente 1 a 1 a uno script nativo. Viene utilizzato un linguaggio di policy facile da usare, che viene poi compilato in miniscript, per corrispondere infine a uno script nativo.

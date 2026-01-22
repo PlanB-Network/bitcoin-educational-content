@@ -1,5 +1,5 @@
 ---
-term: COINBASE (TRANSAZIONE)
+term: Coinbase (transazione)
 
 ---
 La transazione coinbase è una transazione speciale e unica inclusa in ogni blocco della blockchain Bitcoin. Rappresenta la prima transazione di un blocco ed è creata dal miner che ha trovato con successo un'intestazione che convalida la prova di lavoro (*Proof-of-Work*), cioè inferiore o uguale all'obiettivo.

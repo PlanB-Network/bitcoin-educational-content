@@ -1,5 +1,5 @@
 ---
-term: Twiyumvire ko UTXO
+term: Twiyumvire ko utxo
 ---
 Iparametero ryo guhindura ibintu muri Bitcoin Core yemerera node imaze gutangizwa (ariko itarakora IBD) kurindira isuzuma ry'ivunjwa n'urusobe rwa UTXO mbere y'ifoto yafashwe (snapshot). Ibi bishingiye ku gukoresha urusobe rwa UTXO (urutonde rw'ama UTXO yose ariho ku gihe runaka) rwatanzwe na Core kandi rwigirwa ko ari rwo, bituma node ishobora guhuza vuba na vuba n'uruhererekane rufite akazi kenshi kageretsweho. Kubera ko node isimbuka intambwe ndende ya IBD, ihita itangira gukora vuba ku mukozi wayo.
 

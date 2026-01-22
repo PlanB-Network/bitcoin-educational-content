@@ -1,5 +1,5 @@
 ---
-term: MINITAPSCRIPT
+term: Minitapscript
 
 ---
 Miniscriptin versio Tapscriptille. Tapscriptillä on muutamia huomattavia eroja Scriptin alkuperäiseen versioon verrattuna. MiniTapscript tarjoaa siis tuen Tapscriptille Miniscriptissä.

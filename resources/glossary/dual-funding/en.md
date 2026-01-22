@@ -1,5 +1,5 @@
 ---
-term: DUAL FUNDING
+term: Dual funding
 ---
 
 When a Lightning channel is opened, dual funding allows both participants to lock bitcoins into the channel. Unlike the traditional model, where only one node funds the channel, this method allows both parties to fund it, enabling immediate liquidity balancing.

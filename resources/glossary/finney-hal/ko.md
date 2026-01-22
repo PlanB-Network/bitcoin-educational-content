@@ -1,5 +1,5 @@
 ---
-term: FINNEY HAL
+term: Finney hal
 
 ---
 

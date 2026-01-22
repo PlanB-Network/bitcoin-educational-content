@@ -1,5 +1,5 @@
 ---
-term: ZUIA VITA
+term: Zuia vita
 ---
 
 Inarejelea kipindi cha mjadala mkali na migogoro ndani ya jumuiya ya Bitcoin kati ya 2015 na 2017. Mgogoro huu ulizingatia ikiwa ukubwa wa block, ambao ulikuwa umepunguzwa hadi megabyte 1 tangu 2010 na Satoshi Nakamoto, inapaswa kuongezwa ili kuruhusu Bitcoin kuchakata miamala zaidi kwa kila block, na hivyo kuboresha ukubwa.

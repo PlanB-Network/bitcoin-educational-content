@@ -1,5 +1,5 @@
 ---
-term: PAGO SIMPLE
+term: Pago simple
 
 ---
 Patrón (o modelo) de transacción utilizado en el análisis de la cadena caracterizado por el consumo de uno o más UTXOs en las entradas y la producción de 2 UTXOs en las salidas. Por lo tanto, este modelo tendrá el siguiente aspecto

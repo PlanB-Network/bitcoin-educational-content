@@ -1,5 +1,5 @@
 ---
-term: HIZLI DENEME
+term: Hizli deneme
 ---
 
 Bir Soft Fork'ı etkinleştirme yöntemi ilk olarak 2021'in başlarında David A. Harding tarafından Russell O'Connor'ın bir fikrine dayanarak Taproot için kavramsallaştırılmıştır. Prensibi, BIP8 yöntemini `LOT` parametresini `false` olarak ayarlayarak kullanmak ve aktivasyon süresini sadece 3 aya indirmektir. Bu kısaltılmış oylama süresi, Miner onayının hızlı bir şekilde doğrulanmasını sağlar. Dönemlerden birinde gerekli onay eşiğine ulaşılırsa, Soft Fork kilitlenir. Birkaç ay sonra etkinleştirilecek ve böylece madencilere yazılımlarını güncellemeleri için gerekli zaman tanınacaktır.

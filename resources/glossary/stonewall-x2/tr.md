@@ -1,5 +1,5 @@
 ---
-term: STONEWALL X2
+term: Stonewall x2
 ---
 
 Harcamaya dahil olmayan üçüncü bir tarafla işbirliği yaparak bir harcama sırasında kullanıcı gizliliğini artırmayı amaçlayan belirli bir Bitcoin işlemi biçimi. Bu yöntem, üçüncü bir tarafa ödeme yaparken iki katılımcı arasında bir mini-CoinJoin simülasyonu yapar. Stonewall x2 işlemleri hem Samourai Wallet uygulamasında hem de Sparrow wallet yazılımında mevcuttur (her ikisi de birlikte çalışabilir).

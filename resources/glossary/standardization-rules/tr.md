@@ -1,5 +1,5 @@
 ---
-term: STANDARDIZASYON KURALLARI
+term: Standardizasyon kurallari
 ---
 
 Standartlaştırma kuralları, mutabakat kurallarına ek olarak, Mempool'e kabul ettiği ve eşlerine yayınladığı onaylanmamış işlemlerin yapısını tanımlamak için her Bitcoin düğümü tarafından ayrı ayrı benimsenir. Dolayısıyla bu kurallar her düğüm tarafından yerel olarak yapılandırılır ve yürütülür ve bir düğümden diğerine değişebilir. Sadece onaylanmamış işlemler için geçerlidirler. Bu nedenle, bir düğüm standart dışı olduğunu düşündüğü bir işlemi yalnızca geçerli bir bloğa dahil edilmişse kabul edecektir.

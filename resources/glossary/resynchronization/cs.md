@@ -1,5 +1,5 @@
 ---
-term: RESYNCHRONIZACE
+term: Resynchronizace
 
 ---
 Označuje jev, při kterém dochází ke změně struktury blockchainu v důsledku existence konkurenčních bloků ve stejné výšce. K tomu dochází, když je část blockchainu nahrazena jiným řetězcem s větším množstvím nahromaděné práce.

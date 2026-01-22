@@ -1,5 +1,5 @@
 ---
-term: BIRTH DATE (WALLET)
+term: Birth date (wallet)
 ---
 
 Birth Date (Wallet) refers to the date a wallet was created.

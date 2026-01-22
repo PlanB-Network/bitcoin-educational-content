@@ -1,5 +1,5 @@
 ---
-term: UTPOÄNT
+term: Utpoänt
 ---
 
 En unik referens till en outnyttjad transaktionsutgång (UTXO). Den består av två Elements:

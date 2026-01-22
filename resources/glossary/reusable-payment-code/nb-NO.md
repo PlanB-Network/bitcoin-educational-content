@@ -1,5 +1,5 @@
 ---
-term: GJENBRUKBAR BETALINGSKODE
+term: Gjenbrukbar betalingskode
 
 ---
 I BIP47 er en gjenbrukbar betalingskode en statisk identifikator som genereres fra en Bitcoin-lommebok, og som gjør det mulig å varsle transaksjonen og utlede unike adresser. På denne måten unngår man gjenbruk av adresser, noe som fører til tap av personvern, uten å måtte utlede og overføre nye, ubrukte adresser manuelt for hver betaling. I BIP47 er gjenbrukbare betalingskoder konstruert på følgende måte:

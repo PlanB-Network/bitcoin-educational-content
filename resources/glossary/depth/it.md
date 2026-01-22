@@ -1,5 +1,5 @@
 ---
-term: PROFONDITÀ
+term: Profondità
 
 ---
 Nel contesto dei portafogli HD (Hierarchical Deterministic), la profondità si riferisce al livello specifico di una chiave (pubblica o privata), un codice di catena, una chiave estesa o un indirizzo all'interno della struttura di derivazione del portafoglio dalla chiave master. Ogni livello di questa struttura può essere visto come un piano di un albero di chiavi, in cui la chiave master si trova alla radice (profondità 0) e i livelli successivi definiscono vari attributi come:

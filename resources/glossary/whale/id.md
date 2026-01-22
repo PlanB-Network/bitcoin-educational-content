@@ -1,5 +1,5 @@
 ---
-term: WHALE
+term: Whale
 
 ---
 Mengacu pada individu atau entitas yang memiliki bitcoin dalam jumlah yang sangat besar.

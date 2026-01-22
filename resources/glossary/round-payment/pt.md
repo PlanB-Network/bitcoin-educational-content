@@ -1,5 +1,5 @@
 ---
-term: PAGAMENTO POR VOLTA
+term: Pagamento por volta
 
 ---
 Uma heurística interna para análise de cadeias em Bitcoin que permite uma hipótese sobre a natureza dos outputs de uma transação com base em montantes redondos. Geralmente, quando confrontado com um padrão de pagamento simples (1 entrada e 2 saídas), se uma das saídas gasta um montante redondo, então representa o pagamento. Por eliminação, se uma saída representa o pagamento, a outra representa o troco. Pode, portanto, interpretar-se que é provável que o utilizador que introduziu a transação ainda possua o output identificado como sendo o troco.

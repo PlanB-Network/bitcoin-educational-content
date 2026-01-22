@@ -1,5 +1,5 @@
 ---
-term: KLUCZ PRYWATNY
+term: Klucz prywatny
 ---
 
 Klucz prywatny jest podstawowym elementem kryptografii asymetrycznej. Jest to liczba (256 bitów w kontekście Bitcoin), która reprezentuje tajemnicę kryptograficzną. Klucz ten jest używany do cyfrowego podpisywania transakcji i udowadniania Ownership klucza publicznego Bitcoin (a co za tym idzie, otrzymywania Address) poprzez spełnienie `scriptPubKey`. Klucze prywatne umożliwiają zatem wydawanie bitcoinów poprzez odblokowanie UTXO powiązanych z odpowiednim kluczem publicznym. Klucze prywatne muszą być ściśle poufne, ponieważ ich ujawnienie może umożliwić złośliwym stronom trzecim przejęcie kontroli nad powiązanymi środkami.

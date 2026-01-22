@@ -1,5 +1,5 @@
 ---
-term: ERLAY
+term: Erlay
 ---
 
 Ehdotettu verkkoprotokolla, jolla parannetaan Bitcoin-solmujen välisten vahvistamattomien tapahtumien välittämisen tehokkuutta.

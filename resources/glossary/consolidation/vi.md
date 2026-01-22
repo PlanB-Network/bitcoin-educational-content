@@ -1,5 +1,5 @@
 ---
-term: CONSOLIDATION
+term: Consolidation
 
 ---
 A specific transaction in which multiple small UTXOs are merged into one input to form a single, larger UTXO as output. This operation is a transaction made to one's own wallet. The goal of consolidation is to take advantage of periods when fees on the Bitcoin network are low to merge several small UTXOs into one larger in value. Thus, it anticipates mandatory expenses in case of fee increases, allowing for savings on future transaction fees.

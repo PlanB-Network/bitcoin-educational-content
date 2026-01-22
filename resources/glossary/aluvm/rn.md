@@ -1,5 +1,5 @@
 ---
-term: ALUVM
+term: Aluvm
 
 ---
 

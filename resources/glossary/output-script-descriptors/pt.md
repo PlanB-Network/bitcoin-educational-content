@@ -1,5 +1,5 @@
 ---
-term: DESCRITORES DE SCRIPT DE SAÍDA
+term: Descritores de script de saída
 
 ---
 Os descritores de scripts de saída, ou simplesmente descritores, são expressões estruturadas que descrevem completamente um script de saída (`scriptPubKey`) e fornecem todas as informações necessárias para rastrear transações de ou para um script específico. Esses descritores facilitam o gerenciamento de chaves em carteiras HD através de uma descrição padrão da estrutura e dos tipos de endereços utilizados.

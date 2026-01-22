@@ -1,5 +1,5 @@
 ---
-term: STRATUM
+term: Stratum
 
 ---
 Verkkoprotokolla, joka on kerrostettu Bitcoinin päälle ja joka on suunniteltu erityisesti optimoimaan yksittäisten louhijoiden ja louhintapoolien palvelimien välistä viestintää niiden kannattavuuden lisäämiseksi. Stratumin julkisti vuoden 2011 lopulla Marek Palatinus, joka tunnetaan paremmin salanimellä "Slush" ja joka on ensimmäisen louhintapooli Slush Poolin (nykyisin Braiins) perustaja. Stratum tuli korvaamaan vanhemman Getwork-protokollan, joka oli vanhentunut.

@@ -1,5 +1,5 @@
 ---
-term: KODE YO KWISHIRA YO SUBIRAMWO GUKORESHWA
+term: Kode yo kwishira yo subiramwo gukoreshwa
 ---
 
 Muri BIP47, kode yo kwishura ishobora gusubirwamwo ni ikimenyetso kidahinduka kivuye kuri Bitcoin Wallet gishobora gutuma habaho ugutanga amakuru n’ugukura amaderesi yihariye. Ivyo bituma umuntu adasubira gukoresha amaderesi, ivyo bikaba bituma umuntu atakaza ubuzima bwiwe bwite, ataco akeneye gukura no gutanga amaderesi mashasha atakoreshwa ku bijanye n’ukwishura kwose. Muri BIP47, amakode yo kwishura ashobora gusubirwamwo yubatswe gutya:

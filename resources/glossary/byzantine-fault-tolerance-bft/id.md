@@ -1,5 +1,5 @@
 ---
-term: TOLERANSI KESALAHAN BYZANTIUM
+term: Toleransi kesalahan byzantium
 
 ---
 Sebuah konsep yang digunakan dalam sistem terdistribusi untuk memastikan konsensus yang andal dan aman, meski ada node yang rusak atau berbahaya.

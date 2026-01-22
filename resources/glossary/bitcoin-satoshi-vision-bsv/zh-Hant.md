@@ -1,5 +1,5 @@
 ---
-term: Bitcoin Satoshi Vision (BSV)
+term: Bitcoin satoshi vision (bsv)
 ---
 
 由 Bitcoin Cash (BCH) 的 Hard Fork 所產生的加密貨幣系統，而 Bitcoin Cash (BCH) 本身就是 Bitcoin (BTC) 的 Fork。Bitcoin SV Fork 發生於 2018 年 11 月 15 日，在區塊 556,766 處，原因是 Bitcoin Cash 社群內部存在分歧，特別是關於區塊大小和 Bitcoin 的創造者 Satoshi Nakamoto 的假想。兩個派系發生了衝突：

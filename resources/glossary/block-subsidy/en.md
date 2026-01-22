@@ -1,5 +1,5 @@
 ---
-term: BLOCK SUBSIDY
+term: Block subsidy
 ---
 
 The block subsidy is the amount of new bitcoins that a miner is allowed to create when successfully mining a block. It forms part of the block reward, alongside transaction fees, and is issued through a special transaction called the coinbase transaction. 

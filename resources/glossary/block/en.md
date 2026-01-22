@@ -1,5 +1,5 @@
 ---
-term: BLOCK
+term: Block
 ---
 
 Data structure in the Bitcoin system. A block contains a set of valid transactions along with metadata stored in its header. Each block is linked to the previous one by including the hash of its predecessor’s header, forming the blockchain. 

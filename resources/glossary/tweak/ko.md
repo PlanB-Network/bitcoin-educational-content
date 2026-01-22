@@ -1,5 +1,5 @@
 ---
-term: TWEAK
+term: Tweak
 
 ---
 

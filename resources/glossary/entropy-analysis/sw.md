@@ -1,5 +1,5 @@
 ---
-term: ENTROPY (UCHAMBUZI)
+term: Entropy (uchambuzi)
 ---
 
 Katika muktadha maalum wa uchambuzi wa mnyororo, entropy pia ni jina la kiashiria, linalotokana na Shannon entropy, iliyozuliwa na LaurentMT. Kiashiria hiki kinaruhusu kupima ukosefu wa wachambuzi wa maarifa kuhusu usanidi halisi wa shughuli ya Bitcoin. Kwa maneno mengine, juu ya entropy ya shughuli, ni vigumu zaidi kwa wachambuzi kutambua harakati za bitcoins kati ya pembejeo na matokeo.

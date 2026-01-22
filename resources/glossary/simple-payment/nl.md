@@ -1,5 +1,5 @@
 ---
-term: EENVOUDIGE BETALING
+term: Eenvoudige betaling
 ---
 
 Transactiepatroon (of model) gebruikt in ketenanalyse gekenmerkt door het verbruik van een of meer UTXO's als input en de productie van 2 UTXO's als output. Dit model ziet er dus als volgt uit:

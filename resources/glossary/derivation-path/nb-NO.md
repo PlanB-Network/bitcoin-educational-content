@@ -1,5 +1,5 @@
 ---
-term: AVLEDNINGSVEI
+term: Avledningsvei
 
 ---
 I forbindelse med hierarkisk deterministiske (HD) lommebøker refererer en avledningssti til sekvensen av indekser som brukes til å avlede underordnede nøkler fra en hovednøkkel. Denne stien er beskrevet i BIP32 og identifiserer trestrukturen for avledning av underordnede nøkler. En avledningssti representeres av en serie indekser atskilt med skråstreker, og starter alltid med hovednøkkelen (angitt som `m/`). En typisk sti kan for eksempel være `m/84'/0'/0'/0'/0/0`. Hvert avledningsnivå er knyttet til en bestemt dybde:

@@ -1,5 +1,5 @@
 ---
-term: KEGAGALAN BIZANTIUM
+term: Kegagalan bizantium
 
 ---
 Kegagalan Byzantium, atau perilaku Byzantium, mengacu pada perilaku sistem yang tidak sesuai dengan spesifikasinya sendiri, menghasilkan hasil yang tidak sesuai.

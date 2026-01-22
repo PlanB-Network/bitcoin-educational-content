@@ -1,5 +1,5 @@
 ---
-term: OUTPOINT
+term: Outpoint
 
 ---
 Jedinečný odkaz na výstup nevyčerpané transakce (UTXO). Skládá se ze dvou prvků:

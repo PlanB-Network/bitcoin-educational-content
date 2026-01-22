@@ -1,5 +1,5 @@
 ---
-term: ARBEIDSBEVIS
+term: Arbeidsbevis
 
 ---
 En beskyttelsesmekanisme mot Sybil-angrep, som kjennetegnes ved at det opprettes flere falske identiteter med det formål å oppnå en illegitim fordel. Bevis på arbeid etablerer dermed en ikke-neglisjerbar marginalkostnad for multiplikasjon av stemmer på Bitcoin. Bevis på arbeid er grunnlaget for Nakamoto-konsensusmekanismen, som er prinsippet som brukes for å oppnå enighet om en enkelt versjon av den distribuerte hovedboken blant de ulike nodene i nettverket. Konkret innebærer proof of work å finne en verdi som, når den sendes gjennom en tilfeldig matematisk funksjon, gir et resultat som er lavere enn et måltall. Dette målet for beviset på arbeid justeres hver 2016. blokk av nodene. Dette kalles vanskelighetsjustering. Måltallet senkes for å øke utvinningsvanskeligheten, eller heves for å redusere den, avhengig av utviklingen i datakraften som utvinnerne har brukt i den foregående perioden.

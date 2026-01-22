@@ -1,5 +1,5 @@
 ---
-term: RUNDABORDSSAMTAL I HONG-KONG
+term: Rundabordssamtal i hong-kong
 ---
 
 En historisk händelse i Blocksize War som ägde rum den 20 februari 2016 i Hong Kong. Det var ett viktigt möte mellan Bitcoin Core-utvecklare och gruvarbetare för att diskutera systemets skalbarhet och strategin för att skala det. Spänningarna var höga före mötet, särskilt på grund av ökningen av Bitcoin Classic, ett Hard Fork-förslag som stöds av Gavin Andressen och som syftar till att öka blockstorleken till 2 MB. Inflytelserika personer i ekosystemet deltog i debatterna, bland annat Jihan Wu och Micree Zhan, medgrundare av Bitmain, Adam Back, ordförande för Blockstream, samt Luke Dashjr, Matt Corallo och Peter Todd.

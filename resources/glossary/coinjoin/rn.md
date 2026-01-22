@@ -1,5 +1,5 @@
 ---
-term: CoinJoin
+term: Coinjoin
 ---
 
 CoinJoin ni ubuhinga bukoreshwa mu guca ubushobozi bwo gukurikirana ama bitcoins. Ishingiye ku gucuruza kw’ubufatanye gufise imiterere yihariye y’izina rimwe: ugucuruza kwa CoinJoin. Ibikorwa vya CoinJoin birafasha mu gutuma ubuzima bwite bw’abakoresha Bitcoin bukingirwa neza mu gutuma abarorerezi bo hanze bagorwa cane no gusuzuma ibikorwa. Uwo mubumbe utuma umuntu ashobora kuvanga ibiceri vyinshi mu gikorwa kimwe, bikaba bigoye kumenya amasano ari hagati y’amaderesi y’injiza n’ay’isohoka.

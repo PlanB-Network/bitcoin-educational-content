@@ -1,5 +1,5 @@
 ---
-term: BETTERHASH
+term: Betterhash
 ---
 
 Protokół Mining opracowany przez Matta Corallo w 2018 roku w celu przeciwdziałania rosnącej centralizacji Mining na pulach. Różni się on od Stratum, który był wówczas standardem, oferując hasherom większą kontrolę nad wyborem transakcji, które mają zostać uwzględnione w szablonach bloków. Główną ideą BetterHash jest przywrócenie ścigającym możliwości samodzielnego zarządzania budową szablonów bloków, przy jednoczesnym zachowaniu zalet pul Mining, takich jak zmniejszona zmienność przychodów.

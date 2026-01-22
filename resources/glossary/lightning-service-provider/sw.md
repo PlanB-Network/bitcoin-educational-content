@@ -1,5 +1,5 @@
 ---
-term: MTOA HUDUMA YA UMEME
+term: Mtoa huduma ya umeme
 ---
 
 Kampuni inayofanya kazi kwenye Umeme ambayo biashara yake ni kutoa huduma za ukwasi kwa watumiaji.

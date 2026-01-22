@@ -1,5 +1,5 @@
 ---
-term: SHARE
+term: Share
 
 ---
 Dalam konteks _pool_ penambangan, _share_ adalah indikator yang digunakan untuk mengukur kontribusi penambang individu di dalam _pool_. Ukuran ini berfungsi sebagai dasar untuk menghitung _reward_ yang didistribusikan oleh _pool_ kepada setiap penambang. Setiap _share_ berhubungan dengan _hash_ yang memenuhi target kesulitan yang lebih rendah dari jaringan Bitcoin.

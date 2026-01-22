@@ -1,5 +1,5 @@
 ---
-term: PRIVÉ TOETS
+term: Privé toets
 ---
 
 Een private sleutel is een fundamenteel element van asymmetrische cryptografie. Het is een getal (256 bits in de context van Bitcoin) dat een cryptografisch geheim voorstelt. Deze sleutel wordt gebruikt om transacties digitaal te ondertekenen en de Ownership van een Bitcoin publieke sleutel te bewijzen (en bij uitbreiding, een ontvangende Address) door te voldoen aan een `scriptPubKey`. Privé sleutels maken het dus mogelijk bitcoins uit te geven door de UTXO's geassocieerd met de corresponderende publieke sleutel te ontgrendelen. Privé sleutels moeten strikt vertrouwelijk worden gehouden, omdat de openbaarmaking ervan kwaadwillende derden in staat zou kunnen stellen de controle over de bijbehorende fondsen over te nemen.

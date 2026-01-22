@@ -1,5 +1,5 @@
 ---
-term: HARD FORK
+term: Hard fork
 
 ---
 Změna pravidel protokolu způsobem, který není zpětně kompatibilní. Tato změna vede k trvalému rozdělení sítě uzlů Bitcoinu na dvě odlišné skupiny: uzly s aktualizací a uzly bez aktualizace. Toto rozdělení je zhmotněno rozdělením původního blockchainu na dva samostatné blockchainy, které však mají společnou historii, a proto se používá termín "fork", který lze do francouzštiny přeložit jako "rozdělení, rozdvojení"

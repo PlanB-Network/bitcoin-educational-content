@@ -1,5 +1,5 @@
 ---
-term: ARK
+term: Ark
 
 ---
 

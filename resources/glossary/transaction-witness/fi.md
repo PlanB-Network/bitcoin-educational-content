@@ -1,5 +1,5 @@
 ---
-term: TRANSAKTIOTODISTAJA
+term: Transaktiotodistaja
 
 ---
 Viittaa Bitcoin-tapahtumien komponenttiin, joka siirrettiin SegWit-softhaarukan myötä transaktioiden muokattavuuden ongelman ratkaisemiseksi. Todistaja sisältää allekirjoitukset ja julkiset avaimet, joita tarvitaan transaktiossa käytettyjen bitcoinien avaamiseen. Legacy-tapahtumissa todistaja edusti kaikkien syötteiden `scriptSig`-summaa. SegWit-tapahtumissa todistaja edustaa `scriptWitness`-summaa kunkin syötteen osalta, ja tämä osa tapahtumasta on nyt siirretty erilliseen Merkle-puuhun lohkon sisällä.

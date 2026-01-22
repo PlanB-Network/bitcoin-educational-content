@@ -1,5 +1,5 @@
 ---
-term: BLOCKSIZE WAR
+term: Blocksize war
 
 ---
 Odkazuje na období intenzivních debat a konfliktů v komunitě bitcoinů mezi lety 2015 a 2017. Tento konflikt se soustředil na to, zda by se měla zvětšit velikost bloku, kterou Satoshi Nakamoto od roku 2010 omezil na 1 megabajt, aby Bitcoin mohl zpracovat více transakcí na blok, a tím zlepšit škálovatelnost.

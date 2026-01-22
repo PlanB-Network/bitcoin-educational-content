@@ -1,5 +1,5 @@
 ---
-term: UNHINGED DOOR (BACKDOOR)
+term: Unhinged door (backdoor)
 
 ---
 

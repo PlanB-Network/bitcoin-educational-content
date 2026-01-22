@@ -1,5 +1,5 @@
 ---
-term: PREMIUM
+term: Premium
 ---
 
 Ett extra belopp som betalas över standardpriset eller det nominella priset för en tillgång. I samband med Bitcoin kan en premie observeras när man gör inköp, särskilt på Exchange-plattformar, som ibland kan använda denna teknik för att göra sina marginaler på mäklartjänsten.

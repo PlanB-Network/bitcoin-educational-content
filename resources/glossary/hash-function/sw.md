@@ -1,5 +1,5 @@
 ---
-term: KAZI YA Hash
+term: Kazi ya hash
 ---
 
 Chaguo za kukokotoa za hisabati ambazo huchukua ingizo la ukubwa tofauti (unaoitwa ujumbe) na kutoa towe la saizi isiyobadilika (inayoitwa Hash, hashing, digest au alama ya vidole). Vitendaji vya Hash vinatumika sana katika kriptografia. Zinaonyesha sifa mahususi zinazozifanya zinafaa kutumika katika miktadha salama:

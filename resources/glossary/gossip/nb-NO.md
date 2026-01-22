@@ -1,5 +1,5 @@
 ---
-term: GOSSIP
+term: Gossip
 ---
 
 Gossip er en distribuert algoritme for peer-to-peer (P2P) som sprer informasjon epidemisk til alle nettverksagenter. For Bitcoin, Lightning og andre distribuerte systemer gjør denne protokollen det mulig å utveksle og synkronisere nodenes Global State på bare noen få sykluser. Hver node sprer informasjon til en eller flere tilfeldige eller ikke-tilfeldige naboer, som i sin tur sprer informasjonen til andre naboer, og så videre, helt til en globalt synkronisert tilstand er nådd.

@@ -1,4 +1,4 @@
 ---
-term: BANLIST.DAT
+term: Banlist.dat
 ---
 Bitcoin Core ソフトウェアが、ユーザーによって禁止されたノードの IP アドレスを記録するために使用する古いファイルの名前。バージョン22.0以降、代わりにbanlist.jsonファイルが使用されています。

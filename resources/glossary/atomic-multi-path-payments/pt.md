@@ -1,5 +1,5 @@
 ---
-term: PAGAMENTOS MULTIPERCURSO ATÓMICOS
+term: Pagamentos multipercurso atómicos
 ---
 
 Versão melhorada do MPP (*Multi-Path Payments*) em que cada fragmento de pagamento tem um segredo parcial distinto, garantindo que a transação é liquidada atomicamente, ou seja, na totalidade ou não.

@@ -1,5 +1,5 @@
 ---
-term: ORPHAN
+term: Orphan
 
 ---
 Theoretisch handelt es sich bei einem verwaisten Block um einen gültigen Block, der von einem Knoten empfangen wurde, der den übergeordneten Block, d. h. den vorherigen in der Kette, noch nicht erworben hat. Obwohl dieser Block gültig ist, bleibt er lokal als Waise isoliert.

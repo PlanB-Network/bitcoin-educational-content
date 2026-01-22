@@ -1,5 +1,5 @@
 ---
-term: PRZYMIERZE
+term: Przymierze
 ---
 
 Mechanizm, który pozwala na nałożenie określonych warunków na sposób, w jaki dana waluta może zostać wydana, w tym w przyszłych transakcjach. Poza warunkami zwykle dozwolonymi przez język skryptowy na UTXO, przymierze wymusza dodatkowe ograniczenia dotyczące sposobu, w jaki ten Bitcoin może zostać wydany w kolejnych transakcjach. Technicznie rzecz biorąc, ustanowienie przymierza ma miejsce, gdy `scriptPubKey` UTXO definiuje ograniczenia na `scriptPubKey` wyjścia transakcji, która wydaje wspomniany UTXO. Rozszerzając zakres skryptu, pakty umożliwiłyby liczne zmiany w Bitcoin, takie jak dwustronne zakotwiczenie łańcuchów napędowych, wdrożenie skarbców lub ulepszenie systemów nakładkowych, takich jak Lightning. Propozycje paktów są zróżnicowane w oparciu o trzy kryteria:

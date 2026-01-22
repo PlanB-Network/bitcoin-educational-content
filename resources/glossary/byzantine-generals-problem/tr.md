@@ -1,5 +1,5 @@
 ---
-term: BİZANS GENERALLERİ SORUNU
+term: Bi̇zans generalleri̇ sorunu
 ---
 
 Bu problem ilk olarak Leslie Lamport, Robert Shostak ve Marshall Pease tarafından Temmuz 1982'de *ACM Transactions on Programming Languages and Systems, vol 4, n° 3* ["The Byzantine Generals Problem"](https://lamport.azurewebsites.net/pubs/byz.pdf) adlı özel dergide formüle edilmiştir. Günümüzde, dağıtık bir sistem herhangi bir aktöre güvenemediğinde karar verme açısından karşılaşılan zorlukları göstermek için kullanılmaktadır.

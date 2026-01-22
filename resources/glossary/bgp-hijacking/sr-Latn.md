@@ -1,5 +1,5 @@
 ---
-term: BGP HIJACKING
+term: Bgp hijacking
 ---
 
 Napad u kojem zlonamerni akter manipuliše BGP oglasima kako bi preusmerio Internet saobraćaj na svoju mrežu. Pretvarajući se da je legitimni izvor određenih IP Address opsega, napadač može presresti, nadgledati ili blokirati saobraćaj namenjen tim adresama.

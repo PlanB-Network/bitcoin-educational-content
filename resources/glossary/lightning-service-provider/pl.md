@@ -1,5 +1,5 @@
 ---
-term: DOSTAWCA USŁUG OŚWIETLENIOWYCH
+term: Dostawca usług oświetleniowych
 ---
 
 Firma działająca na Lightning, której działalność polega na świadczeniu usług płynności użytkownikom.

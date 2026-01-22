@@ -1,5 +1,5 @@
 ---
-term: KUWEKA LEBO
+term: Kuweka lebo
 ---
 
 Zoezi la kugawa kidokezo au lebo kwa UTXO maalum katika Bitcoin Wallet. Kwa mfano, ikiwa nina UTXO kutoka kwa ununuzi wa P2P kwenye Bisq na Charles, ninaweza kuitambulisha kama "`Non-KYC Bisq Charles`".

@@ -1,5 +1,5 @@
 ---
-term: ROUND PAYMENT
+term: Round payment
 ---
 
 An internal heuristic for chain analysis on Bitcoin that allows for a hypothesis about the nature of the outputs of a transaction based on round amounts. Generally, when faced with a simple payment pattern (1 input and 2 outputs), if one of the outputs spends a round amount, then it represents the payment. By elimination, if one output represents the payment, the other represents the change. It can therefore be interpreted that it is likely that the user inputting the transaction still possesses the output identified as being the change.

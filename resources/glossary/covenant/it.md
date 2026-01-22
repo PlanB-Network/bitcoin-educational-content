@@ -1,5 +1,5 @@
 ---
-term: PENSIERO
+term: Pensiero
 
 ---
 Un meccanismo che consente di imporre condizioni specifiche su come un determinato pezzo di valuta può essere speso, anche in transazioni future. Oltre alle condizioni normalmente consentite dal linguaggio di script di un UTXO, il covenant impone ulteriori vincoli su come questo Bitcoin può essere speso nelle transazioni successive. Tecnicamente, l'istituzione di un patto avviene quando la `scriptPubKey` di un UTXO definisce restrizioni sulla `scriptPubKey` degli output di una transazione che spende tale UTXO. Ampliando la portata dello script, i patti consentirebbero numerosi sviluppi su Bitcoin, come l'ancoraggio bilaterale delle drivechain, l'implementazione dei caveau o il miglioramento dei sistemi di overlay come Lightning. Le proposte di patto si differenziano in base a tre criteri:

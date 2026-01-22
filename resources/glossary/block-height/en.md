@@ -1,5 +1,5 @@
 ---
-term: BLOCK HEIGHT
+term: Block height
 ---
 
 The block height is the sequence number of a block relative to the first block, known as the Genesis Block, which is indexed at height 0.  It represents the number of blocks preceding the block in question. 

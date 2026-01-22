@@ -1,5 +1,5 @@
 ---
-term: JUU
+term: Juu
 ---
 
 Itifaki au mtandao uliojengwa juu ya mtandao mkuu wa Bitcoin. Inatumia mtandao wa Bitcoin kama msingi na kwa hivyo inategemea itifaki yake. Hata hivyo, mtandao wa Bitcoin hautegemei viwekeleo vyake. Mfano wa nyongeza kama hiyo ni Lightning Network.

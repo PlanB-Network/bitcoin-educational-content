@@ -1,5 +1,5 @@
 ---
-term: SPV-SOLMU (VALOSOLMU)
+term: Spv-solmu (valosolmu)
 
 ---
 SPV-solmu (*Simple Payment Verification*), jota kutsutaan joskus "kevyeksi solmuksi", on Bitcoin-solmun kevyt asiakasohjelma, jonka avulla käyttäjät voivat validoida transaktioita ilman koko lohkoketjun tallentamista. Sen sijaan SPV-solmu tallentaa vain lohkootsikot ja saa tarvittaessa tietoja tietyistä transaktioista kyselemällä täysiltä solmuilta. Tämän todentamisperiaatteen mahdollistaa Bitcoin-lohkojen transaktioiden rakenne, joka on järjestetty kryptografiseen akkuun (Merkle Tree).

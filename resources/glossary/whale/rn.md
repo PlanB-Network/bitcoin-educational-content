@@ -1,5 +1,5 @@
 ---
-term: BALENE
+term: Balene
 
 ---
 

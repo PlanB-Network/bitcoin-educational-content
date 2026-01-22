@@ -1,5 +1,5 @@
 ---
-term: IMPFUVYI
+term: Impfuvyi
 ---
 
 Mu vy’impwemu, Orphan block yerekeza ku gice gifise akamaro cakiriwe n’urudodo rutararonka igice c’umuvyeyi, ni ukuvuga ica mbere mu ruhererekane. Naho ari ngirakamaro, iyo block iguma iri ukwayo mu karere nk’impfuvyi.

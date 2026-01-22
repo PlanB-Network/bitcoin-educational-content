@@ -1,5 +1,5 @@
 ---
-term: OUTPUT
+term: Output
 ---
 
 U kontekstu Bitcoin, izlaz unutar transakcije odnosi se na _Neutrošene Izlaze Transakcija_ (UTXO-e) koji se kreiraju kao odredišna sredstva za plaćanje. Tačnije, to je mehanizam putem kojeg transakcija distribuira sredstva. Transakcija uzima UTXO-e, tj. delove bitkoina, kao "ulaze" i kreira nove UTXO-e kao "izlaze". Ovi izlazi određuju određenu količinu bitkoina, često dodeljenu određenom Address, kao i uslove pod kojima se ta sredstva mogu potrošiti u kasnijem periodu.

@@ -1,5 +1,5 @@
 ---
-term: MEMPOOL
+term: Mempool
 
 ---
 Eine Zusammenziehung der Begriffe "Speicher" und "Pool". Dies bezieht sich auf einen virtuellen Raum, in dem Bitcoin-Transaktionen, die auf die Aufnahme in einen Block warten, gruppiert werden. Wenn eine Transaktion erstellt und im Bitcoin-Netzwerk verbreitet wird, wird sie zunächst von den Knoten des Netzwerks überprüft. Wenn sie für gültig befunden wird, wird sie im Mempool jedes Knotens abgelegt, wo sie verbleibt, bis sie von einem Miner zur Aufnahme in einen Block ausgewählt wird.

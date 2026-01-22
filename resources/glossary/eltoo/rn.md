@@ -1,5 +1,5 @@
 ---
-term: ELTOO
+term: Eltoo
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-term: BCH KODU
+term: Bch kodu
 ---
 
 Bir veri dizisindeki hataları tespit etmek ve düzeltmek için kullanılan bir hata düzeltme kodu sınıfı. Başka bir deyişle, BCH hata düzeltme kodları iletilen bilgideki rastgele hataları bulup düzeltmek ve hedefine sağlam bir şekilde ulaşmasını sağlamak için kullanılır. "BCH" kısaltması, bu kodların mucitlerinin isimlerinin baş harflerini temsil etmektedir: Bose, Ray-Chaudhuri ve Hocquenghem.

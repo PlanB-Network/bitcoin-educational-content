@@ -1,5 +1,5 @@
 ---
-term: VÄLK TEENUSEPAKKUJA
+term: Välk teenusepakkuja
 ---
 
 Lightningil tegutsev ettevõte, mille äritegevus on pakkuda kasutajatele likviidsusteenuseid.

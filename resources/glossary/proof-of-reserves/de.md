@@ -1,5 +1,5 @@
 ---
-term: NACHWEIS DER RESERVIERUNG
+term: Nachweis der reservierung
 ---
 
 Mechanismus, mit dem Bitcoin Exchange-Plattformen nachweisen, dass sie tatsächlich das Vermögen ihrer Kunden halten. Ziel ist es, die Zahlungsfähigkeit des Unternehmens nachzuweisen, indem verifiziert wird, dass die Bitcoins gleich oder höher sind als die Guthaben der Nutzer, die sie angeblich halten.

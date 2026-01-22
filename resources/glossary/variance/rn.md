@@ -1,5 +1,5 @@
 ---
-term: UBUTANDUKANO
+term: Ubutandukano
 ---
 
 Mu Mining, ivyo vyerekeye uguhinduka kw’inyungu za Miner kubera uburyo bwo kuronka amabuye afise akamaro. Naho umuntu yoba afise ububasha bwo gukoresha ubuhinga bwa none, igihe umuntu afata kugira ngo aronke igice c’ibarabara kirashobora guhinduka cane. Ivyo bituma abacukuzi bashobora kugenda igihe kirekire ata mpembo n’imwe baronka, hanyuma hakaza ibihe vy’amahera menshi.

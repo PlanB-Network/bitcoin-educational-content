@@ -1,5 +1,5 @@
 ---
-term: LIGHTNING NODE
+term: Lightning node
 
 ---
 

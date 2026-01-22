@@ -1,5 +1,5 @@
 ---
-term: PROVA VELOCE
+term: Prova veloce
 
 ---
 Metodo di attivazione di un soft fork inizialmente concepito per Taproot all'inizio del 2021 da David A. Harding sulla base di un'idea di Russell O'Connor. Il principio è quello di utilizzare il metodo BIP8 con un parametro `LOT` impostato su `false`, riducendo il periodo di attivazione a soli 3 mesi. Questo periodo di voto ridotto consente una rapida verifica dell'approvazione dei minatori. Se la soglia di approvazione richiesta viene raggiunta durante uno dei periodi, il soft fork viene bloccato. Verrà attivata diversi mesi dopo, dando così ai minatori il tempo necessario per aggiornare il proprio software.

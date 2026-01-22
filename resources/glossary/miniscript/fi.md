@@ -1,5 +1,5 @@
 ---
-term: MINISCRIPT
+term: Miniscript
 
 ---
 Kehys, joka on suunniteltu tarjoamaan kehys skriptien ohjelmointiin turvallisesti Bitcoinissa. Bitcoinin äidinkieli on nimeltään skripti. Sitä on melko monimutkaista käyttää käytännössä, erityisesti kehittyneissä ja räätälöidyissä sovelluksissa. Ennen kaikkea skriptin rajoituksia on hyvin vaikea todentaa. Miniscript käyttää Bitcoin-skriptien osajoukkoa yksinkertaistaakseen niiden luomista, analysointia ja todentamista. Jokainen miniskripti vastaa 1:1 natiiviskriptiä. Käytetään käyttäjäystävällistä politiikkakieltä, joka käännetään miniscriptiksi, jotta se lopulta vastaa natiiviskriptiä.

@@ -1,5 +1,5 @@
 ---
-term: PROOF OF RESERVATIONS
+term: Proof of reservations
 ---
 
 Mechanism used by bitcoin exchange platforms to demonstrate that they actually hold their customers' assets. The aim is to prove the company's solvency by verifying that its bitcoins are equivalent to or greater than the user balances they are supposed to hold.

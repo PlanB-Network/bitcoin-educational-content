@@ -1,5 +1,5 @@
 ---
-term: BETTERHASH
+term: Betterhash
 ---
 
 Mining 协议由 Matt Corallo 于 2018 年开发，试图对抗 Mining 在池上日益集中化的趋势。它与当时的标准 Stratum 不同，为追逐者提供了对区块模板中交易选择的更多控制权。BetterHash 背后的主要理念是为追逐者提供自行管理区块模板构建的可能性，同时保留 Mining 池的优势，如减少收入差异。

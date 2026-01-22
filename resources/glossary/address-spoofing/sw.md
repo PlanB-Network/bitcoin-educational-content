@@ -1,5 +1,5 @@
 ---
-term: Address SPOOFING
+term: Address spoofing
 ---
 
 Shambulio ambalo mwigizaji hasidi huunda Address (au kitambulisho kingine cha malipo) kinachofanana kwa karibu na kile cha mwathiriwa. Lengo ni kumhadaa mtumiaji ili kunakili Address hii isiyo sahihi wakati wa muamala, ambayo husababisha bitcoins kutumwa kwa mshambulizi badala ya kulengwa lengwa.

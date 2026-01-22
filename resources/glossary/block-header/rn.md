@@ -1,5 +1,5 @@
 ---
-term: UMUTWE W'IBUBUKO
+term: Umutwe w'ibubuko
 ---
 
 Umutwe w'ibarabara ni umubumbe w'amakuru ukora nk'igice nyamukuru c'ibarabara rya Bitcoin. Igipande cose gifise umutwe n’urutonde rw’ibintu bikoreshwa. Umutwe w'ibara urimwo amakuru ahambaye yemeza ubutungane n'ukuri kw'ibara muri Blockchain.

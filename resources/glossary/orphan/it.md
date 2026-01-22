@@ -1,5 +1,5 @@
 ---
-term: ORFANO
+term: Orfano
 
 ---
 In teoria, un blocco orfano si riferisce a un blocco valido ricevuto da un nodo che non ha ancora acquisito il blocco padre, cioè quello precedente nella catena. Anche se valido, questo blocco rimane isolato localmente come orfano.

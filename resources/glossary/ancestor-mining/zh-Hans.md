@@ -1,5 +1,5 @@
 ---
-term: ANCESTOR MINING (祖先挖掘)
+term: Ancestor mining (祖先挖掘)
 
 ---
 有时也被称为 CPFP（*为大人买单*）。祖先挖矿是指矿工在选择交易时，不只考虑交易费用本身，还要考虑父交易的费用。

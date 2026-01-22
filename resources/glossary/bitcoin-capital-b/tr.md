@@ -1,5 +1,5 @@
 ---
-term: Bitcoin (Büyük B)
+term: Bitcoin (büyük b)
 ---
 
 Bitcoin, 2009 yılında Satoshi Nakamoto tarafından oluşturulan eşler arası elektronik nakit sisteminin adıdır. Bitcoin teriminin büyük "B" ile kullanılması üç farklı şeyi ifade edebilir:

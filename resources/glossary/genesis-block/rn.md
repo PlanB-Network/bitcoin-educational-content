@@ -1,5 +1,5 @@
 ---
-term: Genesis UBUGABO
+term: Genesis ubugabo
 ---
 
 Igipande ca Genesis ni co gipande ca mbere c’urutonde rwa Bitcoin. Bisobanura ugutangura kwa Bitcoin. Ico kibanza ca Genesis cashinzwe n’uwashinze Bitcoin atamenyekanye, Satoshi Nakamoto, kw’igenekerezo rya 3 Mukakaro 2009. Hash yaco ni:

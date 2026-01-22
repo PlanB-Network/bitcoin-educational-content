@@ -1,5 +1,5 @@
 ---
-term: LAZIMA FUNGA
+term: Lazima funga
 ---
 
 Utaratibu wa kufunga chaneli ya umeme isiyo ya ushirika. Watumiaji wawili wanapofungua chaneli na Multisig 2/2, kila mmoja anaweza kufunga chaneli kwa upande mmoja kwa kutangaza Commitment Transaction ya mwisho ambayo tayari imetiwa saini, ili kurejesha bitcoins zao za onchain. Hii inajulikana kama "nguvu karibu".

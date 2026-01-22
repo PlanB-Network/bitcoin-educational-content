@@ -1,5 +1,5 @@
 ---
-term: FORÇAR FECHAMENTO
+term: Forçar fechamento
 ---
 
 Mecanismo de fecho de canal Lightning não cooperativo. Quando dois utilizadores abrem um canal com um Multisig 2/2, cada um pode unilateralmente fechar o canal transmitindo o último Commitment Transaction que já foi assinado, de modo a recuperar os seus bitcoins onchain. Isto é conhecido como "force close".

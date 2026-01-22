@@ -1,5 +1,5 @@
 ---
-term: BLK*.DAT
+term: Blk*.dat
 
 ---
 

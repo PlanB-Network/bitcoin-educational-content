@@ -1,5 +1,5 @@
 ---
-term: Twiyumvire ko BIRI MU GIHE
+term: Twiyumvire ko biri mu gihe
 ---
 
 Igiharuro c’imiterere muri Bitcoin core cemerera urudodo rushasha rwatangujwe (rutaraheza gukuraho Igice ca Mbere, canke IBD) gusimbuka kugenzura imikono ku bikorwa vyose biri mu mabuye imbere y’igice kinaka. Iyi block imenyekana na Hash y'umutwe wayo kandi irahindurwa igihe cose Bitcoin core isohotse. Iyo node itangura n'iyi parameter ikoreshwa, ibanza kugenzura uruhererekane rw'imitwe y'amabuye kugira ngo ironke ishami rifise igikorwa cirundanirijwe cane. Iyo node ibonye Hash yatanzwe na Core mw’ishami yahisemwo, izoreka kugenzura umukono ku mabuye yose imbere y’ico ciyumviro. Iyo Hash itahari, iyo node izosubira ku guhuza kw’imigenzo yuzuye, igenzure vyose kuva mu ntango.

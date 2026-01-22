@@ -1,5 +1,5 @@
 ---
-term: Address ÅTERANVÄNDNING
+term: Address återanvändning
 ---
 
 Address-återanvändning avser användandet av samma mottagande Address för att blockera flera UTXO:er, ibland inom flera olika transaktioner. Bitcoins är vanligtvis låsta med hjälp av ett kryptografiskt nyckelpar som motsvarar en unik Address. Eftersom Blockchain är offentlig är det lätt att se vilka adresser som är associerade med hur många bitcoins. Om samma Address återanvänds för flera betalningar är det rimligt att tänka sig att alla tillhörande UTXO:er tillhör samma enhet. Därför utgör återanvändning av Address ett problem för användarens integritet. Det möjliggör deterministiska länkar mellan flera transaktioner och UTXO:er, samt upprätthåller spårning av On-Chain-fonder. Satoshi Nakamoto nämnde redan detta problem i sin vitbok:

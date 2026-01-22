@@ -1,5 +1,5 @@
 ---
-term: BYZANTINSKI NEUSPEH
+term: Byzantinski neuspeh
 ---
 
 Bizantijski kvar, ili bizantijsko ponašanje, odnosi se na bilo koje ponašanje sistema koje nije u skladu sa sopstvenim specifikacijama, proizvodeći rezultate koji nisu u skladu sa normama.

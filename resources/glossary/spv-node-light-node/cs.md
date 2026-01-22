@@ -1,5 +1,5 @@
 ---
-term: SPV UZEL (SVĚTELNÝ UZEL)
+term: Spv uzel (světelný uzel)
 
 ---
 Uzel SPV (*Simple Payment Verification*), někdy nazývaný "light node", je odlehčený klient uzlu Bitcoin, který umožňuje uživatelům ověřovat transakce bez nutnosti ukládat celý blockchain. Místo toho uzel SPV ukládá pouze hlavičky bloků a v případě potřeby získává informace o konkrétních transakcích dotazem na plné uzly. Tento princip ověřování je umožněn strukturou transakcí v blocích Bitcoinu, které jsou uspořádány v kryptografickém akumulátoru (Merkleho strom).

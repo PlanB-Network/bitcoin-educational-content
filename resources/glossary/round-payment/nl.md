@@ -1,5 +1,5 @@
 ---
-term: RONDE BETALING
+term: Ronde betaling
 ---
 
 Een interne heuristiek voor ketenanalyse op Bitcoin die een hypothese mogelijk maakt over de aard van de uitgangen van een transactie gebaseerd op ronde bedragen. In het algemeen, wanneer we worden geconfronteerd met een eenvoudig betalingspatroon (1 input en 2 outputs), als een van de outputs een rond bedrag uitgeeft, dan vertegenwoordigt het de betaling. Door eliminatie, als een uitgang de betaling vertegenwoordigt, vertegenwoordigt de andere de verandering. Daarom kan worden geïnterpreteerd dat het waarschijnlijk is dat de gebruiker die de transactie invoert nog steeds de uitgang bezit die is geïdentificeerd als het wisselgeld.

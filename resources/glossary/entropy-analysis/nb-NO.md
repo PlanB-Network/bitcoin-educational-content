@@ -1,5 +1,5 @@
 ---
-term: ENTROPI (ANALYSE)
+term: Entropi (analyse)
 
 ---
 I forbindelse med kjedeanalyse er entropi også navnet på en indikator, avledet fra Shannon-entropi, oppfunnet av LaurentMT. Denne indikatoren gjør det mulig å måle mangelen på kunnskap analytikere har om den nøyaktige konfigurasjonen av en Bitcoin-transaksjon. Med andre ord, jo høyere entropien til en transaksjon er, desto vanskeligere blir det for analytikere å identifisere bevegelsene av bitcoins mellom inn- og utganger.

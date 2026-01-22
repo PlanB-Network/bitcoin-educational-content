@@ -1,5 +1,5 @@
 ---
-term: BETTERHASH
+term: Betterhash
 
 ---
 

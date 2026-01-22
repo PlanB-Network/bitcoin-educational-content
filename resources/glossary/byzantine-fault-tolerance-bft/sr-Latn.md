@@ -1,5 +1,5 @@
 ---
-term: BYZANTINSKA OTPORNOST NA GREŠKE (BFT)
+term: Byzantinska otpornost na greške (bft)
 ---
 
 Koncept koji se koristi u distribuiranim sistemima kako bi se osigurao pouzdan i siguran konsenzus, čak i u prisustvu neispravnih ili zlonamernih čvorova.

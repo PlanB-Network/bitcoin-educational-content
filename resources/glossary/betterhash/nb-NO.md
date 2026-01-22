@@ -1,5 +1,5 @@
 ---
-term: BETTERHASH
+term: Betterhash
 ---
 
 Mining-protokollen ble utviklet av Matt Corallo i 2018 i et forsøk på å motvirke den økende sentraliseringen av Mining på bassenger. Den skiller seg fra Stratum, som var standarden på den tiden, ved å tilby hashere mer kontroll over utvalget av transaksjoner som skal inkluderes i blokkmaler. Hovedideen bak BetterHash er å gi hashere muligheten til å administrere blokkmalkonstruksjonen selv, samtidig som fordelene med Mining-bassenger, som redusert inntektsvarians, beholdes.

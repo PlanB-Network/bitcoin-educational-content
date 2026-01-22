@@ -1,5 +1,5 @@
 ---
-term: MALIPO YA ATOMIC MULTI-PATH
+term: Malipo ya atomic multi-path
 ---
 
 Toleo lililoboreshwa la MPP (*Malipo ya Njia Nyingi*) ambapo kila sehemu ya malipo ina sehemu ya siri mahususi, inayohakikisha kuwa shughuli hiyo imetatuliwa kwa njia ya atomiki, yaani, kamili au la.

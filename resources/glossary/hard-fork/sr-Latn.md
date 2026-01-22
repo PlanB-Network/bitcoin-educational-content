@@ -1,5 +1,5 @@
 ---
-term: Hard Fork
+term: Hard fork
 ---
 
 Promena pravila protokola na način koji nije unazad kompatibilan. Ova promena dovodi do trajnog razdvajanja Bitcoin mreže čvorova u dve različite grupe: čvorove sa ažuriranjem i čvorove bez ažuriranja. Ovo razdvajanje se materijalizuje podelom originalnog Blockchain u dva odvojena blokčejna, koji, međutim, dele zajedničku istoriju, otuda upotreba termina "Fork," koji se na francuski može prevesti kao "embranchement, bifurcation."

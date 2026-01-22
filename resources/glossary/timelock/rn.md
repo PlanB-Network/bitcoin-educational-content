@@ -1,5 +1,5 @@
 ---
-term: TIMELOCK
+term: Timelock
 
 ---
 

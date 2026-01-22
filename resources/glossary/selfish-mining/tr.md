@@ -1,5 +1,5 @@
 ---
-term: SELFISH Mining
+term: Selfish mining
 ---
 
 Mining'de bir Miner veya madenci grubunun geçerli bir Proof of Work'e sahip blokları ağa hemen yayınlamadan kasıtlı olarak tuttuğu strateji (veya saldırı). Amaç, Proof of Work açısından diğer madencilerden önde olmak, potansiyel olarak arka arkaya birkaç blok Miner yapmalarını ve hepsini bir kerede yayınlamalarını sağlamak, böylece kazançlarını en üst düzeye çıkarmaktır. Başka bir deyişle, saldıran madenci grubu tüm ağ tarafından onaylanan son blokta değil, ağ tarafından onaylanandan farklı olan kendi oluşturdukları bir blokta madencilik yapar.

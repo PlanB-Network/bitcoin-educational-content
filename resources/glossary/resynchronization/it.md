@@ -1,5 +1,5 @@
 ---
-term: RISINCRONIZZAZIONE
+term: Risincronizzazione
 
 ---
 Si riferisce a un fenomeno in cui la blockchain subisce una modifica della sua struttura a causa dell'esistenza di blocchi concorrenti alla stessa altezza. Ciò si verifica quando una parte della blockchain viene sostituita da un'altra catena con una maggiore quantità di lavoro accumulato.

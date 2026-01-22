@@ -1,5 +1,5 @@
 ---
-term: TRANSAKTIONSSTANDARD
+term: Transaktionsstandard
 
 ---
 Eine Bitcoin-Transaktion, die sich nicht nur an die Konsensregeln hält, sondern auch unter die Standardisierungsregeln fällt, die standardmäßig auf Bitcoin Core Nodes eingestellt sind. Diese Standardisierungsregeln werden von jedem Bitcoin-Knoten zusätzlich zu den Konsensregeln individuell festgelegt, um die Struktur der unbestätigten Transaktionen zu definieren, die er in seinem Mempool akzeptiert und an seine Peers weitergibt.

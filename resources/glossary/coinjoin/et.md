@@ -1,5 +1,5 @@
 ---
-term: COINJOIN
+term: Coinjoin
 
 ---
 Coinjoin on meetod, mida kasutatakse bitcoinide jälgitavuse rikkumiseks. See tugineb ühisele tehingule, millel on eriline samanimeline struktuur: coinjoin-tehing. Coinjoin-tehingud aitavad parandada Bitcoini kasutajate privaatsuse kaitset, kuna välise vaatleja jaoks on tehingute analüüsimine raskendatud. See struktuur võimaldab segada mitu münti ühes tehingus, mistõttu on raske kindlaks teha seoseid sisend- ja väljundaadresside vahel.

@@ -1,5 +1,5 @@
 ---
-term: TIMELOCK
+term: Timelock
 
 ---
 Una primitiva dello smart contract che consente di impostare una condizione temporale che deve essere soddisfatta affinché una transazione venga aggiunta a un blocco. Esistono due tipi di timelock su Bitcoin:

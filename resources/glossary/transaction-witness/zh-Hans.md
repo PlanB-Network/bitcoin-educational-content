@@ -1,5 +1,5 @@
 ---
-term: TRANSACTION WITNESS (交易见证)
+term: Transaction witness (交易见证)
 
 ---
 指比特币交易的一个组成部分，在 SegWit 软分叉时被移动，以解决交易的可熔融性问题。见证包含解锁交易中花费的比特币所需的签名和公钥。在传统交易中，见证人代表所有输入的 `scriptSig` 之和。在 SegWit 交易中，见证代表每个输入的 `scriptWitness` 之和，交易的这一部分现在被移到区块内单独的哈希树中。

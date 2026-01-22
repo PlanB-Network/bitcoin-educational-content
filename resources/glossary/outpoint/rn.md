@@ -1,5 +1,5 @@
 ---
-term: ISOZO
+term: Isozo
 ---
 
 Igiharuro kidasanzwe c’umusaruro w’ibikorwa bitakoreshejwe (UTXO). Igizwe n’ibice bibiri Elements:

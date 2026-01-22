@@ -1,5 +1,5 @@
 ---
-term: COINSWAP
+term: Coinswap
 ---
 
 Protokol za tajni prenos Ownership između korisnika. Ova metoda ima za cilj prenos vlasništva nad bitkoinima sa jedne osobe na drugu, i obrnuto, bez da ovaj Exchange bude eksplicitno vidljiv na Blockchain. Coinwap koristi pametne ugovore kako bi izvršio prenos bez potrebe za poverenjem između strana.

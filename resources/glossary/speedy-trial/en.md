@@ -1,5 +1,5 @@
 ---
-term: SPEEDY TRIAL
+term: Speedy trial
 ---
 
 Method of activating a soft fork initially conceptualized for Taproot in early 2021 by David A. Harding based on an idea by Russell O'Connor. Its principle is to use the BIP8 method with a `LOT` parameter set to `false`, while reducing the activation period to just 3 months. This shortened voting period allows for a quick verification of miner approval. If the required approval threshold is reached during one of the periods, the soft fork is then locked in. It will be activated several months later, thus giving miners the necessary time to update their software.

@@ -1,5 +1,5 @@
 ---
-term: EINFACHE BEZAHLUNG
+term: Einfache bezahlung
 
 ---
 In der Kettenanalyse verwendetes Transaktionsmuster (oder Modell), das durch den Verbrauch von einem oder mehreren UTXOs als Input und die Produktion von 2 UTXOs als Output gekennzeichnet ist. Dieses Modell sieht also wie folgt aus:

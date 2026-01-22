@@ -1,5 +1,5 @@
 ---
-term: RICOCHET
+term: Ricochet
 
 ---
 

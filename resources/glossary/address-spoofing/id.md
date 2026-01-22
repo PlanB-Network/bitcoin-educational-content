@@ -1,5 +1,5 @@
 ---
-term: ADDRESS SPOOFING (PEMALSUAN ALAMAT)
+term: Address spoofing (pemalsuan alamat)
 
 ---
 

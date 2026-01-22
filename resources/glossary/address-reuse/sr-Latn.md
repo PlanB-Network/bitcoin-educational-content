@@ -1,5 +1,5 @@
 ---
-term: Address PONOVNA UPOTREBA
+term: Address ponovna upotreba
 ---
 
 Ponovna upotreba Address odnosi se na praksu korišćenja istog prijemnog Address za blokiranje više UTXO-a, ponekad unutar nekoliko različitih transakcija. Bitkoini se obično zaključavaju korišćenjem kriptografskog para ključeva koji odgovara jedinstvenom Address. Pošto je Blockchain javan, lako je videti koje adrese su povezane sa koliko bitkoina. U slučaju ponovne upotrebe istog Address za više plaćanja, razumno je pretpostaviti da svi povezani UTXO-i pripadaju istoj entitetu. Stoga, ponovna upotreba Address predstavlja problem za privatnost korisnika. Omogućava determinističke veze između više transakcija i UTXO-a, kao i perpetuiranje praćenja sredstava On-Chain. Satoshi Nakamoto je već pomenuo ovaj problem u svom Belom Papiru:

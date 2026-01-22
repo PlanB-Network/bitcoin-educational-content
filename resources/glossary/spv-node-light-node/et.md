@@ -1,5 +1,5 @@
 ---
-term: SPV-SÕLM (VALGUSSÕLM)
+term: Spv-sõlm (valgussõlm)
 
 ---
 SPV-sõlm (*Simple Payment Verification*), mida mõnikord nimetatakse "kergsõlmeks", on Bitcoini sõlme kergekaaluline klient, mis võimaldab kasutajatel tehinguid kinnitada ilma kogu plokiahelat salvestamata. Selle asemel salvestab SPV-sõlm ainult plokkide päised ja saab vajaduse korral teavet konkreetsete tehingute kohta, küsides täielikku sõlme. Selle kontrollimise põhimõtte teeb võimalikuks Bitcoini plokkide tehingute struktuur, mis on korraldatud krüptograafilises akumulaatoris (Merkle Tree).

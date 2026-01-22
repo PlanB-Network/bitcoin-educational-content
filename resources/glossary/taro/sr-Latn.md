@@ -1,5 +1,5 @@
 ---
-term: TARO
+term: Taro
 ---
 
 Bivši naziv Taproot Assets Protocol.

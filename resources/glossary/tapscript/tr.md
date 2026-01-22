@@ -1,5 +1,5 @@
 ---
-term: TAPSCRIPT
+term: Tapscript
 ---
 
 P2TR harcamaları için kullanılan yeni komut dilini tanımlamak amacıyla klasik Bitcoin komut dilinin belirli işlem kodlarını değiştirmeyi amaçlayan bir güncelleme. Tapscript, Taproot Soft Fork ile uygulanan BIP342 tarafından tanıtıldı.

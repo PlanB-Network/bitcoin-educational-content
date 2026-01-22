@@ -1,5 +1,5 @@
 ---
-term: SHARDS (LIGHTNING)
+term: Shards (lightning)
 ---
 
 Dans le cadre des *Multi-Path Payments (MPP)* ou des *Atomic Multi-Path Payments (AMP)*, un shard est une fraction d'un paiement global. Chaque shard représente une partie du paiement total qui est acheminée séparément via une route différente sur Lightning.

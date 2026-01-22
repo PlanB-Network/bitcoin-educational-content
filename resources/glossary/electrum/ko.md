@@ -1,5 +1,5 @@
 ---
-term: ELECTRUM
+term: Electrum
 
 ---
 

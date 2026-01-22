@@ -1,5 +1,5 @@
 ---
-term: STONEWALL
+term: Stonewall
 
 ---
 Bitcoini tehingu erivorm, mille eesmärk on suurendada kasutaja privaatsust kulutamise ajal, jäljendades kahe inimese vahelist mündiühendust, ilma et see tegelikult oleks üks. Tõepoolest, see tehing ei ole koostöövõimalus. Kasutaja võib selle konstrueerida üksi, kasutades sisendina ainult oma UTXOsid. Seega saate luua Stonewall-tehingu mis tahes korral, ilma et peaksite teise kasutajaga sünkroonima.

@@ -1,5 +1,5 @@
 ---
-term: TÀI TRỢ KÉP
+term: Tài trợ kép
 ---
 
 Khi một kênh Lightning được mở, phương thức tài trợ kép cho phép cả hai bên tham gia khóa bitcoin vào kênh. Không giống như mô hình truyền thống, trong đó chỉ có một nút tài trợ cho kênh, phương pháp này cho phép cả hai bên tài trợ cho kênh, cho phép cân bằng thanh khoản ngay lập tức.

@@ -1,5 +1,5 @@
 ---
-term: COINBASE (TEHING)
+term: Coinbase (tehing)
 
 ---
 Coinbase'i tehing on eriline ja ainulaadne tehing, mis sisaldub igas Bitcoini plokiahela plokis. See kujutab endast ploki esimest tehingut ja selle on loonud kaevandaja, kes on edukalt leidnud töötõendit kinnitava päise (*Proof-of-Work*), st vähem või võrdne sihtmääraga.

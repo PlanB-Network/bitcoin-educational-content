@@ -1,5 +1,5 @@
 ---
-term: DNS SEEDS
+term: Dns seeds
 
 ---
 Esialgsed ühenduspunktid uutele Bitcoini sõlmedele, mis liituvad võrguga. Need seemned, mis on tegelikult konkreetsed DNS-serverid, on oma aadressi püsivalt Bitcoin Core'i koodi sisse põimitud. Kui uus sõlme alustab, võtab ta ühendust nende serveritega, et saada juhuslik nimekiri eeldatavalt aktiivsete Bitcoini sõlmede IP-aadressidest. Seejärel saab uus sõlme luua ühendusi selles nimekirjas olevate sõlmedega, et saada teavet, mis on vajalik tema esialgse plokkide allalaadimise (IBD) teostamiseks ja sünkroniseerimiseks selle ahelaga, millel on kõige rohkem kogunenud tööd. Alates 2024. aastast on siin nimekiri Bitcoin Core DNS-seemnetest ja nende hooldamise eest vastutavatest isikutest (https://github.com/bitcoin/bitcoin/blob/master/src/kernel/chainparams.cpp):

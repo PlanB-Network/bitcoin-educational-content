@@ -1,5 +1,5 @@
 ---
-term: CHUYỆN PHIẾM
+term: Chuyện phiếm
 ---
 
 Gossip là thuật toán phân tán ngang hàng (P2P) để phát tán thông tin theo kiểu dịch bệnh đến tất cả các tác nhân mạng. Đối với Bitcoin, Lightning và các hệ thống phân tán khác, giao thức này cho phép Global State của các nút được trao đổi và đồng bộ hóa chỉ trong vài chu kỳ. Mỗi nút truyền thông tin đến một hoặc nhiều hàng xóm ngẫu nhiên hoặc không ngẫu nhiên, những hàng xóm này lại truyền thông tin đến các hàng xóm khác, v.v., cho đến khi đạt được trạng thái đồng bộ toàn cục.

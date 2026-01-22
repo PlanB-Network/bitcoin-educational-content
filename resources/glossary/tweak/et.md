@@ -1,5 +1,5 @@
 ---
-term: TWEAK
+term: Tweak
 ---
 
 Krüptograafias tähendab avaliku võtme "tweakimine" selle muutmist lisaväärtusega, mida nimetatakse "tweakiks", nii et see jääb kasutatavaks, kui on teada nii esialgne privaatne võti kui ka tweak. Tehniliselt on parandus skalaarne väärtus, mis lisatakse algsele avalikule võtmele. Kui $P$ on avalik võti ja $t$ on tweak, muutub tweakitud avalik võti :

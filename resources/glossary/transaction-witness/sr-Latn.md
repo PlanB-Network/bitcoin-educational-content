@@ -1,5 +1,5 @@
 ---
-term: SVEDOK TRANSAKCIJE
+term: Svedok transakcije
 ---
 
 Odnosi se na komponentu Bitcoin transakcija koja je premeštena sa SegWit Soft Fork na Address pitanje promenljivosti transakcija. Svedok sadrži potpise i javne ključeve potrebne za otključavanje bitkoina potrošenih u transakciji. U Legacy transakcijama, svedok je predstavljao zbir `scriptSig` sa svih ulaza. U SegWit transakcijama, svedok predstavlja zbir `scriptWitness` za svaki ulaz, i ovaj deo transakcije je sada premešten u poseban Merkle Tree unutar bloka.

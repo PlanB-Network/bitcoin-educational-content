@@ -1,5 +1,5 @@
 ---
-term: TĚŽBA
+term: Těžba
 
 ---
 Akt účasti v systému Bitcoin Proof-of-Work (Důkaz práce). Proof-of-Work je mechanismus, který má bránit útokům Sybil. Je základem Nakamotova konsensuálního mechanismu, což je princip používaný k vytvoření dohody o jediné verzi distribuované účetní knihy mezi různými uzly sítě.

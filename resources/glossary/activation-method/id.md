@@ -1,5 +1,5 @@
 ---
-term: METODE AKTIVASI
+term: Metode aktivasi
 
 ---
 Metode aktivasi adalah proses dimana komunitas pengguna memutuskan untuk mengimplementasikan *soft fork* (garpu lunak) pada protokol Bitcoin, yang bertujuan untuk menghindari perpecahan *blockchain*. Proses ini melibatkan permintaan pendapat dari para penambang untuk menyetujui sebuah *soft fork* sebelum diaktifkan. Jika mayoritas mendukung implementasi *soft fork*, maka risiko perpecahan blockchain dapat diminimalisir. Konsensus ini sangat penting karena jika mayoritas penambang menolak untuk melakukan perubahan, *soft fork* dapat menciptakan dua rantai yang berbeda: satu dengan aturan yang sudah diubah dan satu lagi tanpa modifikasi. Terdapat 2 kategori utama metode aktivasi:

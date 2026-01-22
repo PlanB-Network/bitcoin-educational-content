@@ -1,5 +1,5 @@
 ---
-term: SOKEA ALLEKIRJOITUS
+term: Sokea allekirjoitus
 
 ---
 Chaumin sokeat allekirjoitukset ovat digitaalisen allekirjoituksen muoto, jossa allekirjoituksen antaja ei tiedä allekirjoitettavan viestin sisältöä. Allekirjoitus voidaan kuitenkin myöhemmin todentaa alkuperäisen viestin avulla. Tämän tekniikan kehitti salakirjoittaja David Chaum vuonna 1983.

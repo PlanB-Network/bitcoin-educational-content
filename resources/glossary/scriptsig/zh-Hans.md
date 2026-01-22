@@ -1,5 +1,5 @@
 ---
-term: SCRIPTSIG
+term: Scriptsig
 
 ---
 比特币交易中位于输入端的一个元素。`scriptSig` 提供必要的数据，以满足上一笔交易的 `scriptPubKey` 所设定的条件。因此，它对 `scriptPubKey` 起着补充作用。通常，`scriptSig` 包含一个数字签名和一个公钥。签名由比特币所有者使用其私钥生成，并证明他们有使用 UTXO 的授权。在这种情况下，`scriptSig` 证明输入的持有者拥有与上一笔输出交易的 `scriptPubKey` 中指定的地址相关的公钥对应的私钥。

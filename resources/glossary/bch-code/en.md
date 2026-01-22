@@ -1,5 +1,5 @@
 ---
-term: BCH CODE
+term: Bch code
 ---
 
 A class of error-correcting codes used to detect and correct errors in a data sequence. In other words, BCH error-correcting codes allow random errors in transmitted data to be identified and corrected, ensuring that the information arrives intact at its destination. The acronym "BCH" comes from the initials of the inventors of these codes: Bose, Ray-Chaudhuri, and Hocquenghem.

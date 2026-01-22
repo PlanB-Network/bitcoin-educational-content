@@ -1,5 +1,5 @@
 ---
-term: CHAUMIAN CoinJoin
+term: Chaumian coinjoin
 ---
 
 Protokol CoinJoin koji koristi slepe potpise Davida Chauma i Tor za komunikaciju između učesnika i servera koordinatora. Cilj Chaumian CoinJoin je da osigura učesnicima da koordinator ne može ukrasti bitkoine, niti povezati ulaze i izlaze zajedno.

@@ -1,5 +1,5 @@
 ---
-term: TIMESTAMP
+term: Timestamp
 
 ---
 

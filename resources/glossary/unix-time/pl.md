@@ -1,5 +1,5 @@
 ---
-term: UNIX TIME
+term: Unix time
 ---
 
 Unix Time lub Unix Timestamp reprezentuje liczbę sekund, które upłynęły od 1 stycznia 1970 roku, o północy UTC (Unix Epoch). System ten jest używany w systemach operacyjnych Unix i pochodnych do oznaczania czasu w uniwersalny i znormalizowany sposób. Umożliwia synchronizację zegarów i zarządzanie zdarzeniami opartymi na czasie, niezależnie od stref czasowych.

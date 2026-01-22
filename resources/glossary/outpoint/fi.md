@@ -1,5 +1,5 @@
 ---
-term: OUTPOINT
+term: Outpoint
 
 ---
 Yksilöllinen viittaus käyttämättömään tapahtumalähteeseen (UTXO). Se koostuu kahdesta elementistä:

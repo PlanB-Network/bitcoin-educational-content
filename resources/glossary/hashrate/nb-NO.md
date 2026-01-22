@@ -1,5 +1,5 @@
 ---
-term: HASHRATE
+term: Hashrate
 
 ---
 Indikator for nettverkets datakraft, målt i hashes per sekund (H/s). Den indikerer utvinnernes kapasitet til å utføre hashing-operasjoner som en del av beviset på arbeidet. En høy hashrate betyr større sikkerhet for Bitcoins økonomiske historie og økt motstandskraft mot angrep, ettersom det kreves en betydelig mengde datakraft for å kompromittere nettverket.

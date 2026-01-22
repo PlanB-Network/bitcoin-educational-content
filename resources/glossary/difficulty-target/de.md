@@ -1,5 +1,5 @@
 ---
-term: SCHWIERIGKEITSZIEL
+term: Schwierigkeitsziel
 
 ---
 Der Schwierigkeitsfaktor, auch bekannt als Schwierigkeitsziel, ist ein Parameter, der im Konsensmechanismus des Arbeitsnachweises (Proof of Work, PoW) auf Bitcoin verwendet wird. Das Ziel stellt einen numerischen Wert dar, der die Schwierigkeit für Miner bestimmt, ein bestimmtes kryptographisches Problem, genannt Proof of Work, zu lösen, wenn ein neuer Block auf der Blockchain erstellt wird.

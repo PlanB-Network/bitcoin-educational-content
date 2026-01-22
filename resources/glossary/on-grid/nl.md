@@ -1,5 +1,5 @@
 ---
-term: ON-GRID
+term: On-grid
 ---
 
 Verwijst naar een Bitcoin Mining operatie die aangesloten is op het algemene elektriciteitsnet. On-grid mijnbouwers sluiten aan op het conventionele elektriciteitsnet, dat ook gebruikt wordt door particuliere consumenten, om hun ASIC's van stroom te voorzien. Deze methode biedt een stabiele stroombron, maar is vaak duurder dan off-grid Mining, vanwege beperktere onderhandelingsmarges.

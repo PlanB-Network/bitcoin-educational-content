@@ -1,5 +1,5 @@
 ---
-term: CYPHERPUNKS
+term: Cypherpunks
 
 ---
 Epävirallinen ja kansainvälinen yhteisö, joka edistää kryptografian käyttöä keinona varmistaa yksilönvapaudet Internetissä. Cypherpunks puolustaa yksilöiden perusoikeutta suojella yksityisyyttään erityisesti valtion lisääntyvän valvonnan ja yksityisten tahojen harjoittaman tietojen hyväksikäytön yhteydessä. Heidän nimensä on johdettu englanninkielisistä sanoista *cypher*, joka tarkoittaa "salaista koodia", ja *punk*. Se on leikittely termistä *cyberpunk*, joka kuvaa kirjallisuuden lajityyppiä, joka kuvaa dystooppista tulevaisuutta, jossa huipputeknologia kietoutuu yhteen rappioyhteiskunnan paheiden ja rikollisuuden kanssa.

@@ -1,5 +1,5 @@
 ---
-term: GUSHIRAHO IBIMENYETSO
+term: Gushiraho ibimenyetso
 ---
 
 Ivy'ugutanga ibisobanuro canke ikimenyetso ku UTXO yihariye muri Bitcoin Wallet. Nk'akarorero, nimba mfise UTXO iva kuri P2P naguze kuri Bisq na Charles, noshobora kuyindika ngo "`Bisq Charles atari KYC`".

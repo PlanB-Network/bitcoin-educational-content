@@ -1,5 +1,5 @@
 ---
-term: PACTO
+term: Pacto
 
 ---
 Mecanismo que permite imponer condiciones específicas sobre cómo puede gastarse una determinada moneda, incluso en transacciones futuras. Más allá de las condiciones normalmente permitidas por el lenguaje de script en un UTXO, el pacto impone restricciones adicionales sobre cómo puede gastarse este Bitcoin en transacciones posteriores. Técnicamente, el establecimiento de un pacto se produce cuando la `scriptPubKey` de un UTXO define restricciones sobre la `scriptPubKey` de las salidas de una transacción que gasta dicho UTXO. Al ampliar el alcance del script, los covenants permitirían numerosos desarrollos en Bitcoin como el anclaje bilateral de drivechains, la implementación de vaults, o la mejora de sistemas overlay como Lightning. Las propuestas de pacto se diferencian en función de tres criterios:

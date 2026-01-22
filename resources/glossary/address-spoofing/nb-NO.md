@@ -1,5 +1,5 @@
 ---
-term: Address SPOOFING
+term: Address spoofing
 ---
 
 Angrep der en ondsinnet aktør oppretter en Address (eller annen betalingsidentifikator) som er svært lik offerets. Målet er å lure brukeren til å kopiere feil Address under en transaksjon, noe som resulterer i at bitcoins sendes til angriperen i stedet for den tiltenkte destinasjonen.

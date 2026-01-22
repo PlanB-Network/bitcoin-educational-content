@@ -1,5 +1,5 @@
 ---
-term: ENTROPY
+term: Entropy
 
 ---
 Im Zusammenhang mit Kryptographie und Information ist Entropie ein quantitatives Maß für die Unsicherheit oder Unvorhersehbarkeit, die mit einer Datenquelle oder einem Zufallsprozess verbunden ist. Die Entropie spielt eine entscheidende Rolle für die Sicherheit kryptografischer Systeme, insbesondere bei der Erzeugung von Schlüsseln und Zufallszahlen. Eine hohe Entropie gewährleistet, dass die erzeugten Schlüssel ausreichend unvorhersehbar und resistent gegen Brute-Force-Angriffe sind, bei denen ein Angreifer alle möglichen Kombinationen ausprobiert, um den Schlüssel zu erraten.

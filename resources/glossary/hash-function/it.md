@@ -1,5 +1,5 @@
 ---
-term: FUNZIONE HASH
+term: Funzione hash
 
 ---
 Una funzione matematica che prende un input di dimensioni variabili (chiamato messaggio) e produce un output di dimensioni fisse (chiamato hash, hashing, digest o impronta digitale). Le funzioni hash sono primitive ampiamente utilizzate in crittografia. Presentano proprietà specifiche che le rendono adatte all'uso in contesti sicuri:

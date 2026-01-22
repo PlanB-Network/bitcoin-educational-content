@@ -1,5 +1,5 @@
 ---
-term: ÇIKIŞ NOKTASI
+term: Çikiş noktasi
 ---
 
 Harcanmamış bir işlem çıktısına (UTXO) benzersiz bir referans. İki Elements'dan oluşur:

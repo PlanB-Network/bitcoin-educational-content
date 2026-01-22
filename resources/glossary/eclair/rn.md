@@ -1,5 +1,5 @@
 ---
-term: ECLAIR
+term: Eclair
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-term: GUHINDURA ATOMI
+term: Guhindura atomi
 ---
 
 Ikoranabuhanga ryemerera Exchange y’amahera y’amahera hagati y’abantu babiri, ata kwizigira canke abahuza bisaba.  Ivyo biganiro vyitwa "atome" kuko bishobora gutuma habaho ingaruka zibiri gusa:

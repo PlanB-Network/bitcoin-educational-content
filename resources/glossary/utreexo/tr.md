@@ -1,5 +1,5 @@
 ---
-term: UTREEXO
+term: Utreexo
 ---
 
 Merkle ağaçlarına dayalı bir akümülatör kullanarak Bitcoin düğümlerinin UTXO kümesini sıkıştırmak için Tadge Dryja tarafından tasarlanan protokol. Önemli miktarda depolama alanı gerektiren klasik UTXO kümesinin aksine Utreexo, yalnızca Merkle Tree köklerini depolayarak ihtiyaç duyulan belleği büyük ölçüde azaltmaktadır. Bu, düğümün işlem girdilerinde kullanılan UTXO'ların varlığını, UTXO'ların tüm kümesini saklamak zorunda kalmadan doğrulamasına olanak tanır. Utreexo kullanarak, her düğüm yalnızca Merkle Root adı verilen bir kriptografik parmak izi tutar. Bir işlem yapıldığında, kullanıcı UTXO'ların Ownership kanıtlarını ve ilgili Merkle yollarını sağlar. Böylece düğüm, tüm UTXO setini saklamadan işlemleri doğrulayabilir. Bu mekanizmayı anlamak için bir diyagram ile örnek verelim:

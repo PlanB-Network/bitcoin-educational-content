@@ -1,5 +1,5 @@
 ---
-term: LIGHTNING SERVICE PROVIDER
+term: Lightning service provider
 ---
 
 Entreprise qui opère sur Lightning dont l'activité est de fournir des services de liquidité aux utilisateurs.

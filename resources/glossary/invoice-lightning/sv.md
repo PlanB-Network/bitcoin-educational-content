@@ -1,5 +1,5 @@
 ---
-term: Invoice LIGHTNING
+term: Invoice lightning
 ---
 
 Blixtsnabb betalningsbegäran som genereras av mottagaren och som innehåller all information som behövs för att slutföra transaktionen.

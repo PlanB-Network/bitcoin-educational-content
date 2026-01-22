@@ -1,5 +1,5 @@
 ---
-term: DIGITALA ARTEFAKTER
+term: Digitala artefakter
 ---
 
 I samband med Ordinals-protokollet är det en Satoshi som har inskrivits med specifika data via inskrivningsmekanismen. Dessa artefakter kan inkludera bilder, texter eller någon annan typ av digitalt innehåll och är oskiljaktigt länkade till motsvarande Satoshi.

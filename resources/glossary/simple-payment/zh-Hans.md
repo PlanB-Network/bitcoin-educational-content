@@ -1,5 +1,5 @@
 ---
-term: SIMPLE PAYMENT (简单付款)
+term: Simple payment (简单付款)
 
 ---
 产业链分析中使用的交易模式（或模型），其特点是在输入中消费一个或多个 UTXO，在输出中生产 2 个 UTXO。因此，该模式如下：

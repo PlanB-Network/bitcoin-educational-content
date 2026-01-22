@@ -1,5 +1,5 @@
 ---
-term: BEHIND THE METER
+term: Behind the meter
 
 ---
 

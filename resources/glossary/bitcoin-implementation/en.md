@@ -1,5 +1,5 @@
 ---
-term: BITCOIN IMPLEMENTATION
+term: Bitcoin implementation
 ---
 
 Refers to software that enforces and follows the rules defined by the Bitcoin protocol. When people say “Bitcoin”, they usually refer to the electronic cash system itself, a protocol that specifies a set of consensus rules. 

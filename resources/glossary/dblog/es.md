@@ -1,5 +1,5 @@
 ---
-term: DB.LOG
+term: Db.log
 
 ---
 Antiguo archivo de registro (historial de eventos) del monedero Bitcoin Core movido a la carpeta wallet/ desde la versión 0.16.

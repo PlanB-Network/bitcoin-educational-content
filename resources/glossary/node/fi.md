@@ -1,5 +1,5 @@
 ---
-term: NODE
+term: Node
 
 ---
 Bitcoin-verkossa solmu (englanniksi "node") on tietokone, joka käyttää Bitcoin-protokollan asiakasohjelmaa (kuten esimerkiksi Bitcoin Corea). Se osallistuu verkkoon ylläpitämällä kopiota lohkoketjusta, välittämällä ja vahvistamalla transaktioita ja uusia lohkoja sekä osallistumalla valinnaisesti louhintaprosessiin. Kaikkien Bitcoin-solmujen summa muodostaa itse Bitcoin-verkon.

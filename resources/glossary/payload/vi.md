@@ -1,5 +1,5 @@
 ---
-term: TẢI HỮU ÍCH
+term: Tải hữu ích
 ---
 
 Trong bối cảnh chung của máy tính, một tải trọng là dữ liệu thiết yếu được mang trong một gói dữ liệu lớn hơn. Ví dụ, trong SegWit V0 trên Bitcoin Address, tải trọng tương ứng với Hash của khóa công khai, không có siêu dữ liệu khác nhau (HRP, bộ phân tách, phiên bản SegWit và tổng kiểm tra). Ví dụ, tại Address `bc1qc2eukw7reasfcmrafevp5dhv8635yuqays50gj`, chúng ta có:

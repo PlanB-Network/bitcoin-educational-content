@@ -1,5 +1,5 @@
 ---
-term: BATTERI
+term: Batteri
 ---
 
 Skriptikeele kontekstis, mida kasutatakse kulutustingimuste kinnitamiseks Bitcoin UTXOdele, on virna LIFO (*Last In, First Out*) andmestruktuur, mida kasutatakse ajutise Elements salvestamiseks skripti täitmise ajal. Iga skripti toiminguga manipuleeritakse neid virnasid, kus Elements saab lisada (*push*) või eemaldada (*pop*). Skriptid kasutavad stäkke väljendite hindamiseks, ajutiste muutujate salvestamiseks ja tingimuste haldamiseks.

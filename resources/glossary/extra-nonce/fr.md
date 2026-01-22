@@ -1,5 +1,5 @@
 ---
-term: EXTRA-NONCE
+term: Extra-nonce
 ---
 
 Champ utilisé dans le `scriptSig` de la transaction coinbase d’un bloc, qui permet d'avoir un plus grand nombre de possibilités à tester pour avoir un hachage inférieur à la cible de difficulté, en plus du nonce classique qui se trouve, lui, directement dans l'entête de chaque bloc.

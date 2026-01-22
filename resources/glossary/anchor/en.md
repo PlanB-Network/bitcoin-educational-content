@@ -1,5 +1,5 @@
 ---
-term: ANCHOR
+term: Anchor
 ---
 
 In the RGB protocol, an Anchor represents a set of client-side data used to prove the inclusion of a single commitment in a transaction. In the RGB protocol, an Anchor is made up of the following elements:

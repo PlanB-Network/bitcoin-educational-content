@@ -1,5 +1,5 @@
 ---
-term: LABELING (标签)
+term: Labeling (标签)
 
 ---
 为比特币钱包中的特定 UTXO 指定备注或标签的做法。例如，如果我在 Bisq 上用 Charles 购买了一个 P2P 的 UTXO，我可能会将其标记为"`Non-KYC Bisq Charles`"。

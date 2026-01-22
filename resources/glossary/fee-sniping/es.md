@@ -1,5 +1,5 @@
 ---
-term: FEE SNIPING
+term: Fee sniping
 
 ---
 Escenario de ataque en el que los mineros intentan reescribir un bloque recién confirmado para reclamar las comisiones por transacción que contiene, al tiempo que añaden transacciones de alta comisión que han llegado mientras tanto al mempool. El objetivo último de este ataque para el minero es aumentar su rentabilidad. El recorte de comisiones puede ser cada vez más rentable a medida que la recompensa por bloque disminuye y las comisiones por transacción representan una mayor parte de los ingresos de los mineros. También puede ser ventajoso cuando las tasas contenidas en el bloque anterior son significativamente más altas que las del siguiente mejor bloque candidato. Para simplificar, el minero se enfrenta a esta elección en términos de incentivos:

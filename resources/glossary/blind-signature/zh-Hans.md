@@ -1,5 +1,5 @@
 ---
-term: BLIND SIGNATURE (盲签名)
+term: Blind signature (盲签名)
 
 ---
 Chaum 的盲签名是一种数字签名形式，签名者不知道所签名的信息内容。然而，该签名随后可以与原始信息进行验证。这种技术由密码学家 David Chaum 于 1983 年开发。

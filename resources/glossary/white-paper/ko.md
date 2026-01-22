@@ -1,5 +1,5 @@
 ---
-term: WHITE PAPER
+term: White paper
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-term: OVERCLOCKING
+term: Overclocking
 
 ---
 

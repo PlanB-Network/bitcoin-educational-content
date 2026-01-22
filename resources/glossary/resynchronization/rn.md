@@ -1,5 +1,5 @@
 ---
-term: GUSUBIRAMWO GUHURIZA
+term: Gusubiramwo guhuriza
 ---
 
 Yerekeza ku kintu aho Blockchain ihinduka mu mibumbe yayo kubera ukubaho kw’amabuye ahanganye ku burebure bumwe. Ivyo bishika iyo igice ca Blockchain gisubiriwe n’uwundi murongo ufise igikorwa kinini cane cirundanirijwe.

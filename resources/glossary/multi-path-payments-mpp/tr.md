@@ -1,5 +1,5 @@
 ---
-term: ÇOK YOLLU ÖDEMELER (MPP)
+term: Çok yollu ödemeler (mpp)
 ---
 
 Lightning'de bir işlemin birkaç küçük parçaya bölünmesini ve farklı rotalar üzerinden yönlendirilmesini sağlayan tüm ödeme teknikleri için genel bir terim. Başka bir deyişle, her ödeme parçası farklı bir düğüm yolu izler. Bu, rotadaki tek bir kanaldaki likidite sınırlamalarını atlamayı mümkün kılar.

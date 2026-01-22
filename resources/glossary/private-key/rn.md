@@ -1,5 +1,5 @@
 ---
-term: URUPFUZO RW'IBINGA
+term: Urupfuzo rw'ibinga
 ---
 
 Urufunguzo rw’ibanga ni ikintu nyamukuru c’ubuhinga bwo gukingira amakuru butaringaniye. Ni umubare (256 bits mu bijanye na Bitcoin) ugereranya ibanga ry’ubuhinga bwa none. Uru rufunguzo rukoreshwa mu gusinya ku bikorwa no kwemeza Ownership y'urufunguzo rwa bose rwa Bitcoin (kandi mu kwagura, Address yakira) mu guhaza `scriptPubKey`. Rero, imfunguruzo z’ibanga zituma umuntu akoresha amafaranga y’ibice bitcoins mu gufungura UTXOs zijanye n’imfunguruzo za bose zihuye. Imfunguruzo z’ibanga zitegerezwa kuba ibanga ridasanzwe, kuko kuzitangaza vyoshobora gutuma abandi bantu b’abanyaruyeri bashobora kugenzura amahera ajanye n’ivyo.

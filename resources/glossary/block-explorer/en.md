@@ -1,5 +1,5 @@
 ---
-term: BLOCK EXPLORER
+term: Block explorer
 ---
 
 An online or local tool that converts the raw data of the Bitcoin blockchain into a structured and human‑readable format. A block explorer typically includes a search function that allows users to quickly locate specific blocks, transactions, or addresses.

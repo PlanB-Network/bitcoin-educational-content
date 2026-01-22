@@ -1,5 +1,5 @@
 ---
-term: C-BLIKSEM (CLN)
+term: C-bliksem (cln)
 ---
 
 Voormalige naam van de Core-Lightning implementatie.

@@ -1,5 +1,5 @@
 ---
-term: STRATUM
+term: Stratum
 
 ---
 Sebuah protokol jaringan yang berlapis di atas Bitcoin yang secara khusus dirancang untuk mengoptimalkan komunikasi antara penambang individu dengan server kumpulan penambangan untuk meningkatkan keuntungan mereka. Stratum diumumkan pada akhir tahun 2011 oleh Marek Palatinus, yang lebih dikenal dengan nama samaran "_Slush_" dan pendiri _mining pool_ pertama, _Slush Pool_, yang sekarang berganti nama menjadi Braiins. _Stratum_ hadir untuk menggantikan protokol _Getwork_ yang lebih lama, yang sudah tidak digunakan lagi.

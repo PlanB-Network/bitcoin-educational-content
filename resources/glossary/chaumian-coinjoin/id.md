@@ -1,5 +1,5 @@
 ---
-term: CHAUMIAN COINJOIN
+term: Chaumian coinjoin
 
 ---
 Protokol _coinjoin_ yang menggunakan _blind signature_ David Chaum dan Tor untuk komunikasi antara partisipan dan server koordinator. Tujuan dari coinjoin Chaumian adalah untuk memastikan peserta bahwa koordinator tidak dapat mencuri bitcoin, atau mengetahui hubungan input dan output secara bersamaan.

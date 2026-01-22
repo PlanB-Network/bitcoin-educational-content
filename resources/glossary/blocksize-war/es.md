@@ -1,5 +1,5 @@
 ---
-term: GUERRA DE BLOQUES
+term: Guerra de bloques
 
 ---
 Se refiere a un periodo de intenso debate y conflicto dentro de la comunidad Bitcoin entre 2015 y 2017. Este conflicto se centró en si el tamaño de bloque, limitado a 1 megabyte desde 2010 por Satoshi Nakamoto, debía aumentarse para permitir a Bitcoin procesar más transacciones por bloque, mejorando así la escalabilidad.

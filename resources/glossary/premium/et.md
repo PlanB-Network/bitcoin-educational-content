@@ -1,5 +1,5 @@
 ---
-term: PREMIUM
+term: Premium
 
 ---
 Lisasumma, mis on makstud vara standard- või nominaalhinnale lisaks. Bitcoini kontekstis võib lisatasu täheldada ostude tegemisel, eriti vahetusplatvormidel, mis võivad mõnikord kasutada seda tehnikat, et teha oma marginaalid maaklerteenuse kohta.

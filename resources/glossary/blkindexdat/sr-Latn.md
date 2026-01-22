@@ -1,5 +1,5 @@
 ---
-term: BLKINDEX.DAT
+term: Blkindex.dat
 ---
 
 blkindex.dat

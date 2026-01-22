@@ -1,5 +1,5 @@
 ---
-term: CAHOOTS
+term: Cahoots
 
 ---
 

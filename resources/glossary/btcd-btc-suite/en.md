@@ -1,5 +1,5 @@
 ---
-term: BTCD (BTC SUITE)
+term: Btcd (btc suite)
 ---
 
 Minority implementation of the Bitcoin protocol. BTCD is an alternative to the dominant Bitcoin Core software (notably bitcoind). 

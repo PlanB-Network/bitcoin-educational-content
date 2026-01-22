@@ -1,5 +1,5 @@
 ---
-term: NATPISI
+term: Natpisi
 ---
 
 U kontekstu Teorije Ordinala, natpisi su proizvoljni sadržaji urezani na Sats, pretvarajući ih u izvorne Bitcoin digitalne artefakte. Natpisi se prave putem transakcija koje izlažu sadržaj informacija u skripti Taproot ulaza na sledeći način:

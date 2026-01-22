@@ -1,5 +1,5 @@
 ---
-term: OUTPOINT
+term: Outpoint
 
 ---
 Eine eindeutige Referenz auf eine nicht verbrauchte Transaktionsausgabe (UTXO). Sie besteht aus zwei Elementen:

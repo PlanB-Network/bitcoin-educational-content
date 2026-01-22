@@ -1,5 +1,5 @@
 ---
-term: RASKUSTE KORRIGEERIMINE
+term: Raskuste korrigeerimine
 
 ---
 Raskuste kohandamine on perioodiline protsess, mis määrab uuesti kindlaks Bitcoini töö tõestusmehhanismi (kaevandamise) raskuse eesmärgi. See sündmus toimub iga 2016 ploki järel (umbes iga kahe nädala tagant). Selle eesmärk on suurendada või vähendada raskustegurit (mida nimetatakse ka raskuse sihtmärgiks) sõltuvalt sellest, kui kiiresti leiti viimased 2016. aasta plokid. Kohandamise eesmärk on säilitada stabiilne ja prognoositav plokitootmise kiirus, mille sagedus on üks plokk iga 10 minuti järel, hoolimata kaevurite poolt kasutatava arvutusvõimsuse kõikumisest. Raskuse muutus kohandamise ajal on piiratud 4-kordajaga. Valem, mida sõlmed täidavad uue eesmärgi arvutamiseks, on järgmine:

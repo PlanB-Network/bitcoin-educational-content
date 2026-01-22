@@ -1,5 +1,5 @@
 ---
-term: VEROUDERD (BLOK)
+term: Verouderd (blok)
 ---
 
 Verwijst naar een blok zonder kinderen: een geldig blok, maar uitgesloten van de Bitcoin hoofdketen. Het doet zich voor wanneer twee miners binnen een korte tijd een geldig blok op dezelfde ketenhoogte vinden en dit uitzenden over het netwerk. Knooppunten kiezen uiteindelijk slechts één blok om in de keten op te nemen, volgens het principe van de keten met het meeste geaccumuleerde werk, waardoor de andere "verouderd" wordt. Het proces dat leidt tot de productie van een verouderd blok is als volgt:

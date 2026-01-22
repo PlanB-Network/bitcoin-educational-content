@@ -1,5 +1,5 @@
 ---
-term: AGANO
+term: Agano
 ---
 
 Utaratibu unaoruhusu kuweka masharti mahususi kuhusu jinsi sarafu fulani inaweza kutumika, ikiwa ni pamoja na katika miamala ya siku zijazo. Zaidi ya masharti ambayo kwa kawaida huruhusiwa na lugha ya hati kwenye UTXO, agano hutekeleza vikwazo vya ziada kuhusu jinsi Bitcoin hii inavyoweza kutumika katika shughuli zinazofuata. Kitaalam, uanzishaji wa agano hutokea wakati `scriptPubKey` ya UTXO inapofafanua vikwazo kwenye `scriptPubKey` ya matokeo ya shughuli inayotumia UTXO. Kwa kupanua wigo wa hati, maagano yangewezesha maendeleo mengi kwenye Bitcoin kama vile uwekaji nanga wa pande mbili za minyororo ya kuendesha gari, utekelezaji wa vali, au uboreshaji wa mifumo ya kuwekelea kama vile Umeme. Mapendekezo ya maagano yanatofautishwa kulingana na vigezo vitatu:

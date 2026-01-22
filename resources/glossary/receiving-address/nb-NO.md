@@ -1,5 +1,5 @@
 ---
-term: MOTTAKSADRESSE
+term: Mottaksadresse
 
 ---
 Informasjon som brukes til å motta bitcoins. En adresse konstrueres vanligvis ved å hashe en offentlig nøkkel ved hjelp av `SHA256` og `RIMPEMD160`, og legge til metadata i dette sammendraget. De offentlige nøklene som brukes til å konstruere en mottakeradresse, er en del av brukerens lommebok og er derfor avledet fra deres seed. SegWit-adresser består for eksempel av følgende informasjon:

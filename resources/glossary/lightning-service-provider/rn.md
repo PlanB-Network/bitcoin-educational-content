@@ -1,5 +1,5 @@
 ---
-term: LIGHTNING SERVICE PROVIDER
+term: Lightning service provider
 
 ---
 

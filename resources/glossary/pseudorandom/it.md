@@ -1,5 +1,5 @@
 ---
-term: PSEUDO-RANDOM
+term: Pseudo-random
 
 ---
 Questo aggettivo viene utilizzato per descrivere una sequenza di numeri che, pur essendo il risultato di un processo deterministico, presenta caratteristiche che si avvicinano a quelle di una sequenza ideale veramente casuale. Il concetto di casualità ideale implica la totale assenza di prevedibilità e correlazione tra elementi successivi. Un numero pseudocasuale è generato da un algoritmo deterministico e quindi, in teoria, è interamente prevedibile se si conosce lo stato iniziale del generatore.

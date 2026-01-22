@@ -1,5 +1,5 @@
 ---
-term: BECH32 VE BECH32M
+term: Bech32 ve bech32m
 ---
 
 bech32` ve `Bech32m` bitcoin almak için kullanılan iki Address kodlama biçimidir. Biraz değiştirilmiş 32 tabanına dayanmaktadırlar. BCH (*Bose-Chaudhuri-Hocquenghem*) adı verilen bir hata düzeltme algoritmasına dayalı bir sağlama toplamı içerirler. Base58check` ile kodlanan eski adreslerle karşılaştırıldığında, `Bech32` ve `Bech32m` adresleri daha verimli bir sağlama toplamına sahiptir ve yazım hatalarının tespit edilmesine ve potansiyel olarak otomatik olarak düzeltilmesine olanak tanır. Formatları ayrıca sadece küçük harf karakterleri ile daha iyi okunabilirlik sunar. İşte 10 tabanından bu format için toplama matrisi:

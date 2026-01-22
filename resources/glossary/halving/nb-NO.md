@@ -1,5 +1,5 @@
 ---
-term: HALVERING
+term: Halvering
 
 ---
 Begrepet "halvering" refererer til en planlagt hendelse som halverer belønningen som gis til utvinnere for hver utvunnet blokk gjennom blokktilskuddet. Denne reduksjonen gjelder spesifikt for den delen av blokktilskuddet som består av nye bitcoins skapt ut av løse luften. Halveringen ble utformet av Satoshi Nakamoto, skaperen av Bitcoin, som en mekanisme for å kontrollere inflasjonen og sikre et begrenset tilbud av bitcoins.

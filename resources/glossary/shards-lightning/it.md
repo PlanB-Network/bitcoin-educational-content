@@ -1,5 +1,5 @@
 ---
-term: FRAMMENTI (FULMINI)
+term: Frammenti (fulmini)
 ---
 
 Nel contesto dei *Pagamenti multipercorso (MPP)* o dei *Pagamenti multipercorso atomici (AMP)*, un Shard è una frazione di un pagamento globale. Ogni Shard rappresenta una parte del pagamento totale, che viene instradato separatamente attraverso un percorso diverso su Lightning.

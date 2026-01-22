@@ -1,5 +1,5 @@
 ---
-term: HARD FORK
+term: Hard fork
 
 ---
 Protokollan sääntöjen muuttaminen tavalla, joka ei ole taaksepäin yhteensopiva. Tämä muutos johtaa Bitcoin-solmujen verkoston pysyvään jakamiseen kahteen erilliseen ryhmään: solmut, joissa on päivitys, ja solmut, joissa ei ole päivitystä. Tämä jako toteutuu jakamalla alkuperäinen lohkoketju kahdeksi erilliseksi lohkoketjuksi, joilla on kuitenkin yhteinen historia, minkä vuoksi käytetään termiä "haarautuminen", joka voidaan kääntää ranskaksi "embranchement, bifurcation"

@@ -1,5 +1,5 @@
 ---
-term: DESCRITTORI DI SCRIPT DI OUTPUT
+term: Descrittori di script di output
 
 ---
 I descrittori di script di output, o semplicemente descrittori, sono espressioni strutturate che descrivono completamente uno script di output (`scriptPubKey`) e forniscono tutte le informazioni necessarie per tracciare le transazioni verso o da uno specifico script. Questi descrittori facilitano la gestione delle chiavi nei portafogli HD attraverso una descrizione standard della struttura e dei tipi di indirizzi utilizzati.

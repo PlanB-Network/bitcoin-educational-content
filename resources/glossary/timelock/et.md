@@ -1,5 +1,5 @@
 ---
-term: TIMELOCK
+term: Timelock
 
 ---
 Aruka lepingu primitiiv, mis võimaldab määrata ajapõhise tingimuse, mis peab olema täidetud, et tehing saaks plokki lisada. Bitcoinis on kahte tüüpi ajamääranguid:

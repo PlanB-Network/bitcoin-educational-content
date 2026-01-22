@@ -1,5 +1,5 @@
 ---
-term: BRANCH-AND-BOUND
+term: Branch-and-bound
 ---
 
 Method used for selecting inputs in the Bitcoin Core wallet since version 0.17 and invented by Murch. Branch-and-Bound (BnB) searches for a set of UTXOs that exactly matches the required transaction outputs, with the aim of minimizing change and associated fees.

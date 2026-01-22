@@ -1,5 +1,5 @@
 ---
-term: CYPHERPUNKS
+term: Cypherpunks
 ---
 
 Een informele en internationale gemeenschap van individuen die het gebruik van cryptografie promoten als middel om individuele vrijheden op het internet te waarborgen. Cypherpunks pleiten voor het fundamentele recht van individuen om hun privacy te beschermen, vooral in een context van toenemende overheidssurveillance en gegevensgebruik door particuliere entiteiten. Hun naam is afgeleid van de Engelse woorden *cypher*, wat "geheime code" betekent, en *punk*. Het is een woordspeling op de term *cyberpunk*, die een literair genre beschrijft dat een dystopische toekomst voorstelt waarin geavanceerde technologie verweven is met ondeugd en misdaad in een samenleving in verval.

@@ -1,5 +1,5 @@
 ---
-term: ACTIVERINGSMETHODE
+term: Activeringsmethode
 ---
 
 Een activeringsmethode is het proces waarbij de gebruikersgemeenschap beslist over de implementatie van een Soft Fork op het Bitcoin protocol, met als doel een Blockchain splitsing te voorkomen. Dit proces houdt in dat de mening van mijnwerkers wordt gevraagd om een Soft Fork goed te keuren voordat deze geactiveerd wordt. Als een significante meerderheid de Soft Fork goedkeurt, wordt het risico op een Blockchain splitsing geminimaliseerd. Deze consensus is cruciaal, want als een meerderheid van de mijnwerkers weigert de wijziging door te voeren, kan de Soft Fork twee verschillende ketens creëren: één met de gewijzigde regels en één zonder. Er zijn 2 hoofdcategorieën van activeringsmethoden:

@@ -1,5 +1,5 @@
 ---
-term: BLOCK HEADER
+term: Block header
 
 ---
 Ploki päis on andmestruktuur, mis on Bitcoini ploki ülesehituse põhikomponent. Iga plokk koosneb päisest ja tehingute loetelust. Ploki päis sisaldab olulist teavet, mis tagab ploki terviklikkuse ja kehtivuse plokiahelas. Ploki päis sisaldab 80 baiti metaandmeid ja koosneb järgmistest elementidest:

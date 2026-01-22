@@ -1,5 +1,5 @@
 ---
-term: TWEAK
+term: Tweak
 ---
 
 In der Kryptographie wird ein öffentlicher Schlüssel durch einen additiven Wert, den so genannten "Tweak", so verändert, dass er bei Kenntnis des ursprünglichen privaten Schlüssels und des Tweaks verwendbar bleibt. Technisch gesehen ist ein Tweak ein skalarer Wert, der zu dem ursprünglichen öffentlichen Schlüssel hinzugefügt wird. Wenn $P$ der öffentliche Schlüssel und $t$ der Tweak ist, wird der getweakte öffentliche Schlüssel zu :

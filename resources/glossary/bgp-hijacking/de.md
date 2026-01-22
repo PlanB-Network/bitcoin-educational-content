@@ -1,5 +1,5 @@
 ---
-term: BGP HIJACKING
+term: Bgp hijacking
 ---
 
 Angriff, bei dem ein böswilliger Akteur BGP-Anzeigen manipuliert, um den Internetverkehr in sein eigenes Netz umzuleiten. Indem er vorgibt, der rechtmäßige Absender bestimmter IP-Address-Bereiche zu sein, kann der Angreifer den für diese Adressen bestimmten Verkehr abfangen, überwachen oder blockieren.

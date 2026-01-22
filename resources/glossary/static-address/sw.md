@@ -1,5 +1,5 @@
 ---
-term: STATIC Address
+term: Static address
 ---
 
 Katika muktadha wa Malipo ya Kimya, inarejelea kitambulisho cha kipekee kinachoruhusu kupokea malipo bila kutumia tena Address, bila mwingiliano, na bila kiungo kinachoonekana cha On-Chain kati ya malipo mbalimbali na Address tuli. Mbinu hii huondoa hitaji la generate mpya, anwani za kupokea zisizotumiwa kwa kila shughuli, na hivyo kuepuka mwingiliano wa kawaida katika Bitcoin ambapo mpokeaji lazima atoe Address mpya kwa mlipaji. Ni sawa kwa kiasi fulani na msimbo wa malipo unaoweza kutumika tena katika muktadha wa BIP47.

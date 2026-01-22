@@ -1,5 +1,5 @@
 ---
-term: BETTERHASH
+term: Betterhash
 ---
 
 Itegeko rya Mining ryateguwe na Matt Corallo mu 2018 kugira ngo rirwanye ugukura kw’ugushira hamwe kwa Mining mu bidengeri. Itandukanye na Stratum, umurongo usanzwe w’ico gihe, mu guha abacukuzi b’amabuye y’agaciro ku giti cabo ububasha bwinshi ku bijanye n’ibikorwa vy’ubudandaji bishirwa mu bigereranyo vy’amabuye. Iciyumviro nyamukuru kiri inyuma ya BetterHash ni ugusubiza abacukuzi ubushobozi bwo kwubaka ibigereranyo vy’amabuye bonyene mu gihe bakiriko bararonka inyungu ku nyungu z’ibidengeri vya Mining, nk’ugugabanya itandukaniro ry’amahera yinjira.

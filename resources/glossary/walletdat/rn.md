@@ -1,5 +1,5 @@
 ---
-term: WALLET.DAT
+term: Wallet.dat
 
 ---
 

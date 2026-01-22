@@ -1,5 +1,5 @@
 ---
-term: RECURSIVE (ANTLAŞMA)
+term: Recursive (antlaşma)
 ---
 
 Bitcoin üzerindeki özyinelemeli bir sözleşme, yalnızca mevcut işleme değil, aynı zamanda bu işlemin çıktılarını harcayan gelecekteki işlemlere de koşullar getiren bir Smart contract türüdür. Bu, her birinin zincirdeki ilk işlem tarafından tanımlanan belirli kurallara uyması gereken işlem zincirlerinin oluşturulmasına olanak tanır. Tekrarlanabilirlik, her birinin kısıtlamaları ana işleminden devraldığı bir dizi işlem oluşturur. Bu, bitcoinlerin nasıl harcanabileceği üzerinde karmaşık ve uzun vadeli bir kontrol sağlar, ancak aynı zamanda harcama özgürlüğü ve değiştirilebilirlikle ilgili riskleri de beraberinde getirir.

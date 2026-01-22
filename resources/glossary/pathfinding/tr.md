@@ -1,5 +1,5 @@
 ---
-term: YOL BULMA
+term: Yol bulma
 ---
 
 Lightning kanal ağı üzerinden bir ödemeyi yönlendirmek için en uygun yolu belirlemek üzere bir düğüm tarafından kullanılan süreç. Yol bulma, alıcıya ulaşmak için en uygun ara düğümleri seçmesi gereken ödeme düğümü tarafından gerçekleştirilir. Bu seçim, ücretler, kanal kapasitesi ve zaman kilitleri gibi bir dizi kritere dayanır.

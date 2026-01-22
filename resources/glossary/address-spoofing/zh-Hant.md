@@ -1,5 +1,5 @@
 ---
-term: Address SPOOFING
+term: Address spoofing
 ---
 
 惡意行為者創建一個與受害者非常相似的 Address（或其他支付識別碼）進行攻擊。目的是誘騙使用者在交易時複製這個錯誤的 Address，導致比特幣被傳送到攻擊者手中，而不是預期的目的地。

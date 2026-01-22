@@ -1,5 +1,5 @@
 ---
-term: YILDIRIM SERVIS SAĞLAYICISI
+term: Yildirim servis sağlayicisi
 ---
 
 Lightning üzerinde faaliyet gösteren ve işi kullanıcılara likidite hizmetleri sağlamak olan şirket.

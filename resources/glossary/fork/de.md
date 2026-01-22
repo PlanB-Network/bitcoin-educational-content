@@ -1,5 +1,5 @@
 ---
-term: FORK
+term: Fork
 
 ---
 Der Begriff "Fork" hat im Zusammenhang mit Bitcoin mehrere Bedeutungen. Er kann sich entweder auf eine Aufspaltung des Netzwerks von Knoten in mehrere getrennte Gruppen beziehen, was zur Erstellung mehrerer verschiedener Blockchains führt, oder auf eine Änderung der Protokollregeln, oder auf beides gleichzeitig. Zur Vereinfachung können wir 4 Hauptkategorien von Forks unterscheiden:

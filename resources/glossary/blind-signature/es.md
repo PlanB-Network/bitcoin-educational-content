@@ -1,5 +1,5 @@
 ---
-term: FIRMA CIEGA
+term: Firma ciega
 
 ---
 Las firmas ciegas de Chaum son una forma de firma digital en la que el emisor de la firma desconoce el contenido del mensaje que está firmando. Sin embargo, la firma puede verificarse posteriormente con el mensaje original. Esta técnica fue desarrollada por el criptógrafo David Chaum en 1983.

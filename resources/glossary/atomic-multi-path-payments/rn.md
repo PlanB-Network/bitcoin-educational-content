@@ -1,5 +1,5 @@
 ---
-term: UBWISHURWA BW'INZIRA NYINSZA Z'ATOMIC
+term: Ubwishurwa bw'inzira nyinsza z'atomic
 ---
 
 Verisiyo ya MPP (*Multi-Path Payments*) iteye imbere aho igice cose c’ukwishyura gifise ibanga ry’igice ryihariye, kigatuma igikorwa co gucuruza gishirwa mu buryo bw’atome, ni ukuvuga mu buryo bushitse canke butashizweho na gato.

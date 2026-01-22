@@ -1,5 +1,5 @@
 ---
-term: STONEWALL X2
+term: Stonewall x2
 
 ---
 Erityinen Bitcoin-tapahtuman muoto, jonka tarkoituksena on lisätä käyttäjän yksityisyyttä kulutuksen aikana tekemällä yhteistyötä kolmannen osapuolen kanssa, joka ei ole osallisena kulutuksessa. Tämä menetelmä simuloi kahden osallistujan välistä minicoin-liittymää, kun maksu suoritetaan kolmannelle osapuolelle. Stonewall x2 -tapahtumat ovat käytettävissä sekä Samourai Wallet -sovelluksessa että Sparrow Wallet -ohjelmistossa (molemmat ovat yhteentoimivia).

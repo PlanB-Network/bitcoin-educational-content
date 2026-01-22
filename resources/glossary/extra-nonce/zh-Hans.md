@@ -1,5 +1,5 @@
 ---
-term: EXTRA-Nonce
+term: Extra-nonce
 ---
 
 用于区块 Coinbase Transaction 的 "scriptSig "字段，除了直接在每个区块的页眉中找到的传统 Nonce 外，该字段允许测试更多的可能性，以使 Hash 低于难度目标。

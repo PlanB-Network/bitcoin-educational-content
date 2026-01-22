@@ -1,5 +1,5 @@
 ---
-term: STABLECOIN
+term: Stablecoin
 
 ---
 

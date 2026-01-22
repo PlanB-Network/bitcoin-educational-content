@@ -1,5 +1,5 @@
 ---
-term: KILLUD (VÄLK)
+term: Killud (välk)
 ---
 
 *Multi-path Payments (MPP)* või *Atomic Multi-Path Payments (AMP)* kontekstis on Shard osa globaalsest maksest. Iga Shard kujutab endast osa kogu maksest, mis suunatakse eraldi Lightning'i eri marsruudi kaudu.

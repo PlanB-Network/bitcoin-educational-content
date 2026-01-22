@@ -1,5 +1,5 @@
 ---
-term: TRANSAKCIJA (TX)
+term: Transakcija (tx)
 ---
 
 U kontekstu Bitcoin, transakcija (skraćeno "TX") je operacija zabeležena na Blockchain koja prenosi Ownership bitkoina sa jednog ili više ulaza na jedan ili više izlaza. Svaka transakcija koristi Nepotrošene Izlaze Transakcija (UTXO-e) kao ulaze, koji su izlazi iz prethodnih transakcija, i stvara nove UTXO-e kao izlaze, koji se mogu koristiti kao ulazi u budućim transakcijama.

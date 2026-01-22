@@ -1,5 +1,5 @@
 ---
-term: MIXER
+term: Mixer
 ---
 
 Centralized service for breaking Bitcoin coin history by mixing funds from multiple users. Unlike CoinJoin, where users retain control of their funds throughout the blending process, a blender temporarily takes possession of users' bitcoins, blends them with those of other users, then sends the funds back to new addresses.

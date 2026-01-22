@@ -1,5 +1,5 @@
 ---
-term: Bitcoin (Mji Mkuu B)
+term: Bitcoin (mji mkuu b)
 ---
 
 Bitcoin ni jina la mfumo wa pesa za kielektroniki kati ya wenzao ulioundwa na Satoshi Nakamoto mnamo 2009. Matumizi ya neno Bitcoin yenye herufi kubwa "B" inaweza kurejelea vitu vitatu tofauti:

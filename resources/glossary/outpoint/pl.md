@@ -1,5 +1,5 @@
 ---
-term: OUTPOINT
+term: Outpoint
 ---
 
 Unikalne odniesienie do niewydanego wyniku transakcji (UTXO). Składa się z dwóch Elements:

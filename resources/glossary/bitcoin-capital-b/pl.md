@@ -1,5 +1,5 @@
 ---
-term: Bitcoin (kapitał B)
+term: Bitcoin (kapitał b)
 ---
 
 Bitcoin to nazwa elektronicznego systemu gotówkowego peer-to-peer stworzonego przez Satoshi Nakamoto w 2009 roku. Użycie terminu Bitcoin przez duże "B" może odnosić się do trzech różnych rzeczy:

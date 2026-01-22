@@ -1,5 +1,5 @@
 ---
-term: CHAUMIAN CoinJoin
+term: Chaumian coinjoin
 ---
 
 一個 CoinJoin 協定，利用 David Chaum 的盲簽名和 Tor 來進行參與者與協調者伺服器之間的通訊。Chaumian CoinJoin 的目標是確保參與者知道協調者無法竊取比特幣，也無法將輸入和輸出連結在一起。

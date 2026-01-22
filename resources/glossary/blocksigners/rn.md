@@ -1,5 +1,5 @@
 ---
-term: ABASINIYE
+term: Abasiniye
 ---
 
 Mu bijanye na Liquid (a Bitcoin Sidechain), abashirako umukono ku mabarabara ni bo bajejwe kwubaka no kwemeza amabarabara ku rubuga.

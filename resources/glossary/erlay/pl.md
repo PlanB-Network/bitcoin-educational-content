@@ -1,5 +1,5 @@
 ---
-term: ERLAY
+term: Erlay
 ---
 
 Proponowany protokół sieciowy poprawiający wydajność przekazywania niepotwierdzonych transakcji między węzłami Bitcoin.

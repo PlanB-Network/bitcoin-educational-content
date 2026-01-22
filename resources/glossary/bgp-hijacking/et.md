@@ -1,5 +1,5 @@
 ---
-term: BGP HIJACKING
+term: Bgp hijacking
 ---
 
 Rünnak, mille puhul pahatahtlik tegutseja manipuleerib BGP-kuulutusi, et suunata internetiliiklust oma võrku. Teeskledes, et ta on teatud IP Address vahemike seaduslik päritolu, saab ründaja kinni pidada, jälgida või blokeerida nendele aadressidele suunatud liiklust.

@@ -1,5 +1,5 @@
 ---
-term: ORDINAL NUMBER
+term: Ordinal number
 
 ---
 Ordinals-protokollan puitteissa se on yksilöllinen tunniste, joka annetaan kullekin satelliitille sen louhintajärjestyksen perusteella lohkossa. Näiden numeroiden avulla nämä satelliitit voidaan tehdä Ordinals-protokollan mukaisesti sikiökelvottomiksi, mikä mahdollistaa näiden satelliittien jäljittämisen ja siirtämisen.

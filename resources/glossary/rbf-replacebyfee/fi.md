@@ -1,5 +1,5 @@
 ---
-term: RBF (REPLACE-BY-FEE) (KORVAUS MAKSULLA)
+term: Rbf (replace-by-fee) (korvaus maksulla)
 
 ---
 Transaktiomekanismi, jonka avulla lähettäjä voi korvata yhden transaktion toisella maksamalla korkeampia maksuja, jotta sen vahvistaminen nopeutuisi. Jos transaktio, jonka maksut ovat liian alhaiset, jää jumiin, lähettäjä voi käyttää *Replace-By-Fee* -toimintoa korottaakseen maksuja ja priorisoidakseen korvaavan transaktionsa mempoolissa.

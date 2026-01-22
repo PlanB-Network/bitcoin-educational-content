@@ -1,5 +1,5 @@
 ---
-term: BLOCKCHAIN
+term: Blockchain
 ---
 
 The blockchain is the commonly used term for Bitcoin’s distributed timestamp server.  It is literally a chain of blocks, where each block is linked to its predecessor through its cryptographic hash. 

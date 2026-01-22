@@ -1,5 +1,5 @@
 ---
-term: ADDR.DAT
+term: Addr.dat
 
 ---
 

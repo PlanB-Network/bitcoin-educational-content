@@ -1,5 +1,5 @@
 ---
-term: (HILJAISET MAKSUT)
+term: (Hiljaiset maksut)
 
 ---
 Hiljaiset maksut -protokollassa tunnisteet ovat kokonaislukuja, joita käytetään alkuperäisen staattisen osoitteen muuttamiseen monien muiden staattisten osoitteiden luomiseksi. Näiden tunnisteiden käyttö mahdollistaa hiljaisten maksujen kautta lähetettyjen maksujen erottelun käyttämällä eri staattisia osoitteita kutakin käyttöä varten ilman, että maksujen havaitsemiseen (skannaukseen) liittyvä operatiivinen taakka kasvaa kohtuuttomasti. Bob käyttää staattista osoitetta $B$, joka koostuu kahdesta julkisesta avaimesta: $B_{\text{scan}}$ skannausta varten ja $B_{\text{spend}}$ kuluttamista varten. Kulutuksen julkiseen avaimeen $B_{\text{scan}}$ lisätään $b_{\text{scan}}$:n ja kokonaisluvun $m$, joka on skalaarimuunnettu generaattoripisteellä $G$, muodostama hash-arvo, jolloin syntyy eräänlainen uusi kulutuksen julkinen avain $B_m$:

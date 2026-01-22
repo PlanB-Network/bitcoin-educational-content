@@ -1,5 +1,5 @@
 ---
-term: SLEPAK POTPIS
+term: Slepak potpis
 ---
 
 Chaumovi slepi potpisi su oblik digitalnog potpisa gde izdavalac potpisa ne zna sadržaj poruke koju potpisuje. Međutim, potpis se kasnije može verifikovati uz originalnu poruku. Ovu tehniku je razvio kriptograf David Chaum 1983. godine.

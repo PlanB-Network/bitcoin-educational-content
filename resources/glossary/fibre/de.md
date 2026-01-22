@@ -1,5 +1,5 @@
 ---
-term: FIBRE
+term: Fibre
 
 ---
 Akronym für "*Fast Internet Bitcoin Relay Engine*". Es ist ein Protokoll, das von Matt Corallo im Jahr 2016 entwickelt wurde, um die Verteilung von Bitcoin-Blöcken über den Globus zu beschleunigen. Sein Ziel war es, die Ausbreitungsverzögerungen so nah wie möglich an die physikalischen Grenzen zu bringen. FIBRE zielte darauf ab, eine gerechtere Verteilung der Mining-Möglichkeiten zu gewährleisten, indem sichergestellt wird, dass der Anteil der von einem Teilnehmer geminten Blöcke seinen Beitrag in Bezug auf die Rechenleistung genau widerspiegelt, unabhängig von seiner Position im Netzwerk.

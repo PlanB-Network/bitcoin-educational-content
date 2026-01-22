@@ -1,5 +1,5 @@
 ---
-term: BLOCK HEADER
+term: Block header
 ---
 
 A block header is a data structure that serves as a core component of a Bitcoin block. Each block consists of a header and a list of transactions. The block header contains critical information that ensures the integrity and validity of a block within the blockchain. 

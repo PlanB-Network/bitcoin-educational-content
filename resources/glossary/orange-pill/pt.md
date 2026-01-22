@@ -1,5 +1,5 @@
 ---
-term: PILHAS DE LARANJA
+term: Pilhas de laranja
 ---
 
 Inspirado no filme *Matrix*, este comprimido imaginário desperta a consciência de Bitcoin.

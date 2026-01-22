@@ -1,5 +1,5 @@
 ---
-term: ATOMIC MULTI-PATH PAYMENTS (AMP)
+term: Atomic multi-path payments (amp)
 
 ---
 

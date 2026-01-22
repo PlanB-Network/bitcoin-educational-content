@@ -1,5 +1,5 @@
 ---
-term: INSCRIPTIONER
+term: Inscriptioner
 ---
 
 I samband med Ordinals Theory är inskriptioner godtyckligt innehåll som graveras på Sats, vilket förvandlar dem till digitala artefakter i Bitcoin. Inskriptioner görs genom transaktioner som exponerar innehållet i informationen i skriptet för en Taproot-ingång på detta sätt:

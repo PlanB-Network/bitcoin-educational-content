@@ -1,5 +1,5 @@
 ---
-term: ORACLE
+term: Oracle
 
 ---
 

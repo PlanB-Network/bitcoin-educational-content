@@ -1,5 +1,5 @@
 ---
-term: bitcoind
+term: Bitcoind
 ---
 
 "*Bitcoin daemon*"의 약어입니다.

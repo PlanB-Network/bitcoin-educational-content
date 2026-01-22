@@ -1,5 +1,5 @@
 ---
-term: HASHER
+term: Hasher
 
 ---
 

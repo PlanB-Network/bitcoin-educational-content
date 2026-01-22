@@ -1,5 +1,5 @@
 ---
-term: ERLAY
+term: Erlay
 ---
 
 Bitcoin düğümleri arasında onaylanmamış işlemlerin aktarılmasının verimliliğini artırmak için önerilen ağ protokolü.

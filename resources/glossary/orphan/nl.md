@@ -1,5 +1,5 @@
 ---
-term: ORPHAN
+term: Orphan
 ---
 
 Theoretisch verwijst een Orphan block naar een geldig blok dat ontvangen is door een knooppunt dat het ouderblok, dat wil zeggen het vorige blok in de keten, nog niet heeft verworven. Hoewel dit blok geldig is, blijft het lokaal geïsoleerd als een weesblok.

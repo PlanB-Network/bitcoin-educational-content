@@ -1,5 +1,5 @@
 ---
-term: ERLAY
+term: Erlay
 ---
 
 Predloženi mrežni protokol za poboljšanje efikasnosti prenosa nepotvrđenih transakcija između Bitcoin čvorova.

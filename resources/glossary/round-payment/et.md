@@ -1,5 +1,5 @@
 ---
-term: ÜMBERMAKSE
+term: Ümbermakse
 
 ---
 Bitcoini ahelate analüüsi sisemine heuristika, mis võimaldab hüpoteesi tehingu väljundite olemuse kohta, mis põhineb ümmargustel summadel. Üldiselt, kui lihtsa maksemustri (1 sisend ja 2 väljundit) puhul kulutab üks väljunditest ümmarguse summa, siis kujutab see endast makset. Kui üks väljund esindab makse, siis teine väljund esindab muutust. Seega võib tõlgendada, et tõenäoliselt on tehingu sisestanud kasutaja käsutuses ikka veel väljund, mis on identifitseeritud kui muutus.

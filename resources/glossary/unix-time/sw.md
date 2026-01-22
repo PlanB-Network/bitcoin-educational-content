@@ -1,5 +1,5 @@
 ---
-term: UNIX TIME
+term: Unix time
 ---
 
 Unix Time au Unix Timestamp inawakilisha idadi ya sekunde ambazo zimepita tangu Januari 1, 1970, usiku wa manane UTC (Unix Epoch). Mfumo huu unatumika katika mifumo endeshi ya Unix na viasili kuashiria wakati kwa njia ya jumla na sanifu. Inawezesha usawazishaji wa saa na udhibiti wa matukio kulingana na wakati, bila kujali maeneo ya saa.

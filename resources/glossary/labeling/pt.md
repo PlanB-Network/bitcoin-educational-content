@@ -1,5 +1,5 @@
 ---
-term: ETIQUETAGEM
+term: Etiquetagem
 
 ---
 A prática de atribuir uma anotação ou etiqueta a um UTXO específico numa carteira Bitcoin. Por exemplo, se eu tiver um UTXO de uma compra P2P no Bisq com Charles, posso rotulá-lo como "`Non-KYC Bisq Charles`".

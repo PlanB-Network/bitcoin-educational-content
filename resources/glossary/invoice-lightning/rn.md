@@ -1,5 +1,5 @@
 ---
-term: Invoice UMURABO
+term: Invoice umurabo
 ---
 
 Igisabwa co kwishura nk’umuravyo cavuzwe n’uwuronka, kirimwo amakuru yose akenewe kugira ngo umuntu arangize igikorwa.

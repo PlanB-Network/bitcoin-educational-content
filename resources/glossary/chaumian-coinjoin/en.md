@@ -1,5 +1,5 @@
 ---
-term: CHAUMIAN COINJOIN
+term: Chaumian coinjoin
 ---
 
 A coinjoin protocol that utilizes David Chaum's blind signatures and Tor for communications between participants and the coordinator's server. The goal of a Chaumian coinjoin is to ensure participants that the coordinator cannot steal bitcoins, nor link the inputs and outputs together.

@@ -1,22 +1,20 @@
 ---
-name: Đóng góp - Hướng dẫn Git (nâng cao)
-description: Hướng dẫn dành cho người dùng nâng cao để cung cấp hướng dẫn về Plan ₿ Academy với Git
+name: Đóng góp - Hướng dẫn sử dụng Git (nâng cao)
+description: Hướng dẫn dành cho người dùng nâng cao để đề xuất bài hướng dẫn trên Plan ₿ Academy bằng Git
 ---
 ![cover](assets/cover.webp)
 
-Trước khi làm theo hướng dẫn này để thêm hướng dẫn mới, bạn cần hoàn thành một vài bước sơ bộ. Nếu bạn chưa làm, vui lòng xem hướng dẫn giới thiệu này trước, sau đó quay lại đây:
+Trước khi theo dõi bài hướng dẫn về cách thêm nội dung mới này, bạn cần hoàn thành một vài bước chuẩn bị sơ bộ. Nếu bạn chưa thực hiện, vui lòng xem bài hướng dẫn dưới đây trước, sau đó quay lại đây.
 
 https://planb.academy/tutorials/contribution/content/write-tutorials-4d142a6a-9127-4ffb-9e0a-5aba29f169e2
 
-Bạn đã có:
+Bạn cần phải có:
 
+- Chủ đề cho bài hướng dẫn.
+- Đã liên hệ với đội ngũ Plan ₿ Academy qua [nhóm Telegram](https://t.me/PlanBNetwork_ContentBuilder) hoặc paolo@planb.network.
+- Lựa chọn công cụ đóng góp.
 
-- Chọn một chủ đề cho bài hướng dẫn của bạn;
-- Đã liên hệ với nhóm Plan ₿ Academy qua [nhóm Telegram](https://t.me/PlanBNetwork_ContentBuilder) hoặc paolo@planb.network ;
-- Chọn công cụ đóng góp của bạn.
-
-Trong hướng dẫn dành cho người dùng Git có kinh nghiệm này, chúng tôi sẽ tóm tắt ngắn gọn các bước chính và hướng dẫn cần thiết để cung cấp hướng dẫn Plan ₿ Academy mới. Nếu bạn không quen với Git và GitHub, tôi khuyên bạn nên làm theo một trong 2 hướng dẫn chi tiết hơn sau đây sẽ hướng dẫn bạn từng bước:
-
+Trong bài hướng dẫn dành cho người dùng Git có kinh nghiệm này, chúng tôi sẽ tóm tắt nhanh các bước chính và các hướng dẫn thiết yếu để đề xuất một bài hướng dẫn mới trên Plan ₿ Academy. Nếu bạn chưa quen với Git và GitHub, tôi khuyên bạn nên làm theo một trong hai bài hướng dẫn chi tiết hơn sau đây:
 
 - **Trung cấp (GitHub Desktop)**:
 
@@ -28,111 +26,114 @@ https://planb.academy/tutorials/contribution/content/write-tutorials-github-web-
 
 ## Công cụ được đề xuất
 
-Để chỉnh sửa các tệp Markdown:
-
+Để chỉnh sửa các file Markdown:
 
 - **Obsidian** (Miễn phí, không phải mã nguồn mở)
-- **Đánh dấu văn bản** (Miễn phí, mã nguồn mở)
+- **Mark Text** (Miễn phí, mã nguồn mở)
 - **Zettlr** (Miễn phí, mã nguồn mở)
 - **Typora** (Phần mềm trả phí, khoảng 15€, không phải mã nguồn mở)
 
 Đối với Git:
 
-
 - **Git** (Miễn phí, mã nguồn mở)
 - **GitHub Desktop** (Miễn phí, mã nguồn mở)
 - **Sourcetree** (Miễn phí, không phải mã nguồn mở)
 
-Để chỉnh sửa các tệp YAML:
-
+Để chỉnh sửa các file YAML:
 
 - **Visual Studio Code** (Miễn phí, mã nguồn mở)
 - **Sublime Text** (Miễn phí nhưng có giới hạn, không phải mã nguồn mở)
 
 Để tạo sơ đồ và hình ảnh:
 
-
-- **Canva** (Miễn phí với các tùy chọn trả phí, không phải mã nguồn mở)
+- **Canva** (Miễn phí và có tùy chọn trả phí, không phải mã nguồn mở)
 - **Inkscape** (Miễn phí, mã nguồn mở)
 - **Penpot** (Miễn phí, mã nguồn mở)
 
 ## Quy trình làm việc
 
-### 1 - Cấu hình môi trường cục bộ của bạn
+### 1 - Cấu hình môi trường cục bộ
 
-
-- Bạn phải có nhánh riêng của [Kho lưu trữ Plan ₿ Academy trên GitHub](https://github.com/PlanB-Network/bitcoin-educational-content).
-- Đồng bộ hóa nhánh chính (`dev`) của nhánh fork với kho lưu trữ nguồn.
-- Cập nhật bản sao cục bộ của bạn.
+- Bạn phải có bản fork riêng của [repository Plan ₿ Academy trên GitHub](https://github.com/PlanB-Network/bitcoin-educational-content).
+- Đồng bộ hóa nhánh chính (`dev`) của bản fork với bản gốc.
+- Cập nhật bản clone bộ của bạn.
 
 ```
-# Cloner votre fork (si ce n'est pas déjà fait)
-git clone https://github.com/<votre-nom-utilisateur>/bitcoin-educational-content.git
+# Clone bản fork của bạn (nếu chưa làm)
+git clone [https://github.com/](https://github.com/)<your-username>/bitcoin-educational-content.git
 cd bitcoin-educational-content
-# Ajouter le dépôt source en tant que remote upstream
-git remote add upstream https://github.com/PlanB-Network/bitcoin-educational-content.git
-# Récupérer les dernières modifications depuis le dépôt source
+
+# Thêm repository gốc làm remote upstream
+git remote add upstream [https://github.com/PlanB-Network/bitcoin-educational-content.git](https://github.com/PlanB-Network/bitcoin-educational-content.git)
+
+# Lấy các thay đổi mới nhất từ repository gốc
 git fetch upstream
-# Se positionner sur la branche principale 'dev'
+
+# Chuyển sang nhánh chính 'dev'
 git checkout dev
-# Fusionner les modifications de la branche 'dev' du dépôt source dans votre fork
+
+# Merge các thay đổi từ nhánh 'dev' của repository gốc vào bản fork của bạn
 git merge upstream/dev
-# Pousser les mises à jour vers votre fork sur GitHub
+
+# Đẩy các cập nhật lên bản fork của bạn trên GitHub
 git push origin dev
 ```
 
 ### 2 - Tạo nhánh mới
 
-
-- Hãy chắc chắn rằng bạn đang ở nhánh `dev`.
-- Tạo một nhánh mới với tên mô tả (ví dụ: `tuto-green-wallet-loic`).
-- Xuất bản nhánh này trên nhánh trực tuyến của bạn.
+- Đảm bảo bạn đang ở nhánh `dev`.
+- Tạo một nhánh mới với tên mô tả rõ ràng (ví dụ: `tuto-green-wallet-loic`).
+- Đẩy nhánh này lên bản fork trực tuyến của bạn.
 
 ```
-# Assurez-vous d’être sur la branche 'dev'
+# Đảm bảo bạn đang ở nhánh 'dev'
 git checkout dev
-# Créez une nouvelle branche avec un nom descriptif
+
+# Tạo nhánh mới với tên mô tả
 git checkout -b tuto-green-wallet-loic
-# Publiez cette branche sur votre fork en ligne
+
+# Đẩy nhánh này lên bản fork trực tuyến
 git push -u origin tuto-green-wallet-loic
 ```
 
 ### 3 - Thêm tài liệu hướng dẫn
 
-***Lưu ý:*** Bạn có thể tự động hóa các bước 3 và 4 bằng cách sử dụng [tập lệnh GUI Python của tôi](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Chạy trực tiếp từ thư mục của nó trong bản sao cục bộ của bạn, sau đó điền vào các trường bắt buộc trên GUI. Để biết thêm thông tin về cách cài đặt và sử dụng, hãy xem [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
+***Lưu ý:*** Bạn có thể tự động hóa bước 3 và 4 bằng cách sử dụng [script GUI Python của tôi](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/scripts/tutorial-related/new-tutorial-creation). Chạy trực tiếp từ thư mục của nó trong bản clone cục bộ, sau đó điền các trường yêu cầu trên giao diện. Để biết thêm thông tin về cách cài đặt và sử dụng, xem chi tiết trong file [README](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/scripts/tutorial-related/new-tutorial-creation/README.md).
 
-Nếu bạn muốn thực hiện thủ công, hãy làm theo các bước sau:
+Nếu bạn thích làm thủ công, hãy theo các bước sau:
 
-
-- Xác định vị trí thư mục thích hợp trong kho lưu trữ cục bộ (ví dụ: `tutorials/wallet`).
-- Tạo một thư mục dành riêng cho hướng dẫn với tên rõ ràng (ví dụ: `green-wallet`). Tên thư mục này cũng sẽ xác định đường dẫn URL của hướng dẫn. Tên phải viết thường, không có ký tự đặc biệt (trừ dấu gạch nối) và không có khoảng trắng.
+- Xác định vị trí thư mục thích hợp trong repository cục bộ (ví dụ: `tutorials/wallet`).
+- Tạo một thư mục dành riêng cho bài hướng dẫn với tên rõ ràng (ví dụ: `green-wallet`). Tên thư mục này cũng sẽ được dùng làm đường dẫn URL của bài hướng dẫn. Nó nên viết thường, không có ký tự đặc biệt (ngoại trừ dấu gạch ngang) và không có khoảng trắng.
 - Thêm các mục sau vào thư mục này:
     - Một thư mục con có tên `assets` chứa:
         - Hai hình ảnh `.webp`:
-            - `logo.webp`: Logo hướng dẫn (hình vuông có nền). Logo này phải đại diện cho phần mềm hoặc công cụ được trình bày. Nếu hướng dẫn không dành riêng cho một công cụ (ví dụ: hướng dẫn chung để tạo cụm từ ghi nhớ), bạn có thể chọn hình ảnh phù hợp (ví dụ: biểu tượng chung).
-            - `cover.webp`: Ảnh bìa hiển thị ở đầu phần hướng dẫn.
-        - Một thư mục con chứa mã của ngôn ngữ gốc của hướng dẫn. Ví dụ, nếu hướng dẫn được viết bằng tiếng Anh, thư mục con này phải được đặt tên là `en'. Đặt tất cả các hình ảnh của hướng dẫn (sơ đồ, hình ảnh, ảnh chụp màn hình, v.v.) vào thư mục này.
-    - Tệp `tutorial.yml` chứa siêu dữ liệu (tác giả, thẻ, danh mục, mức độ khó, v.v.).
-    - Tệp Markdown chứa hướng dẫn, được đặt tên theo mã ngôn ngữ (ví dụ: `fr.md`, `en.md`, v.v.).
+            - `logo.webp`: Logo bài hướng dẫn (định dạng vuông có nền). Logo này phải đại diện cho phần mềm hoặc công cụ được trình bày. Nếu bài hướng dẫn không dành riêng cho một công cụ (ví dụ: hướng dẫn chung về tạo mnemonic (cụm từ ghi nhớ)), bạn có thể chọn một hình ảnh phù hợp (ví dụ: một icon chung chung nào đó)..
+            - `cover.webp`: Ảnh bìa hiển thị ở đầu bài hướng dẫn.
+        - Một thư mục con mang mã ngôn ngữ gốc của bài hướng dẫn. Ví dụ, nếu bài hướng dẫn viết bằng tiếng Việt, thư mục này tên là `vi`. Đặt tất cả hình ảnh minh họa (sơ đồ, ảnh chụp màn hình...) vào đây.
+    - File `tutorial.yml` chứa metadata (tác giả, thẻ, danh mục, mức độ khó,...).
+    - File Markdown chứa nội dung bài hướng dẫn, được đặt tên theo mã ngôn ngữ (ví dụ: `vi.md`, `en.md`,...).
 
 ```
-# Positionnez-vous dans le dossier approprié
+# Di chuyển đến thư mục phù hợp
 cd tutorials/wallet
-# Créez le répertoire dédié au tutoriel
+
+# Tạo thư mục dành riêng cho bài hướng dẫn
 mkdir green-wallet
 cd green-wallet
-# Créez le sous-dossier 'assets'
+
+# Tạo thư mục con 'assets'
 mkdir -p assets
-# Créez le sous-dossier pour le code de la langue d’origine (exemple: 'en' pour l’anglais)
+
+# Tạo thư mục con cho mã ngôn ngữ gốc (ví dụ: 'vi' cho tiếng Việt)
 mkdir -p assets/en
-# Créez les fichiers de métadonnées et le tutoriel Markdown (exemple: 'en.md' pour l’anglais)
-touch tutorial.yml en.md
+
+# Tạo tệp metadata và tệp Markdown (ví dụ: 'vi.md' cho tiếng Việt)
+touch tutorial.yml vi.md
 ```
 
-### 4 - Điền vào tệp YAML
+### 4 - Điền thông tin vào file YAML
 
-
-- Hoàn thành tệp `tutorial.yml` như sau:
+- Hoàn thiện file `tutorial.yml` như sau:
 
 ```
 id: 
@@ -166,7 +167,7 @@ Dưới đây là các trường bắt buộc:
 
 - **id**: Một UUID (_Universally Unique Identifier_) cho phép xác định duy nhất hướng dẫn. Bạn có thể tạo nó bằng [một công cụ trực tuyến](https://www.uuidgenerator.net/version4). Điều kiện duy nhất là UUID này phải ngẫu nhiên để tránh xung đột với một UUID khác trên nền tảng;
 
-- **project_id**: UUID của công ty hoặc tổ chức đứng sau công cụ được trình bày trong hướng dẫn [từ danh sách các dự án](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ví dụ, nếu bạn tạo một hướng dẫn về phần mềm Green Wallet, bạn có thể tìm thấy `project_id` trong tệp sau: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Thông tin này được thêm vào tệp YAML của hướng dẫn của bạn vì Plan ₿ Academy duy trì cơ sở dữ liệu về tất cả các công ty và tổ chức hoạt động trên Bitcoin hoặc các dự án liên quan. Bằng cách thêm `project_id` của thực thể liên kết với hướng dẫn của bạn, bạn tạo ra một liên kết giữa hai phần tử;
+- **project_id**: UUID của công ty hoặc tổ chức đứng sau công cụ được trình bày trong hướng dẫn [từ danh sách các dự án](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ví dụ, nếu bạn tạo một hướng dẫn về phần mềm Green Wallet, bạn có thể tìm thấy `project_id` trong file sau: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Thông tin này được thêm vào file YAML của hướng dẫn của bạn vì Plan ₿ Academy duy trì cơ sở dữ liệu về tất cả các công ty và tổ chức hoạt động trên Bitcoin hoặc các dự án liên quan. Bằng cách thêm `project_id` của thực thể liên kết với hướng dẫn của bạn, bạn tạo ra một liên kết giữa hai phần tử;
 
 - **tags**: 2 hoặc 3 từ khóa liên quan đến nội dung hướng dẫn, được chọn độc quyền [từ danh sách thẻ của Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
@@ -224,7 +225,7 @@ proofreading:
 ### 5 - Viết nội dung
 
 
-- Hoàn thiện thuộc tính tệp Markdown với:
+- Hoàn thiện thuộc tính file Markdown với:
     - Tiêu đề (`tên`).
     - Một mô tả ngắn (`description`).
 - Thêm ảnh bìa vào đầu phần hướng dẫn bằng cú pháp Markdown (thay thế "green" bằng tên công cụ được hiển thị):

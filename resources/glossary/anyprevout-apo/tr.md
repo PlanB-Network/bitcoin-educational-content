@@ -2,4 +2,4 @@
 term: ANYPREVOUT (APO)
 ---
 
-SIGHASH_ANYPREVOUT` ve `SIGHASH_ANYPREVOUTANYSCRIPT` adında iki yeni SigHash Bayrak değiştiricisi eklenmesini öneren BIP118'e verilen ad. "*AnyPrevOut*" terimi, Fransızcaya "toute sortie précédente" olarak çevrilebilecek olan "*Any Previous Output*" ifadesinin kısaltılmasından gelmektedir.
+İki yeni SigHash bayrak değiştiricisinin eklenmesini öneren BIP118'e verilen ad; bunlar `SIGHASH_ANYPREVOUT` ve `SIGHASH_ANYPREVOUTANYSCRIPT` olarak adlandırılır. "*AnyPrevOut*" terimi, "*Any Previous Output*" ifadesinin kısaltılmasından türemiştir.

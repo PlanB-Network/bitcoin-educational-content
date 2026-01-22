@@ -17,4 +17,3 @@ I Bitcoinsammenheng brukes hashfunksjoner til flere formål, blant annet til pro
 - `SHA512` i algoritmene `HMAC` og `PBKDF2` som brukes i prosessen med å utlede deterministiske og hierarkiske lommebøker;
 - `HASH160`, som beskriver en suksessiv bruk av en `SHA256` og en `RIPEMD160`. `HASH160` brukes i prosessen med å generere mottakeradresser (unntatt P2PK og P2TR) og til å beregne fingeravtrykk av overordnede nøkler for utvidede nøkler.
 
-> på engelsk kalles det en "hash-funksjon"

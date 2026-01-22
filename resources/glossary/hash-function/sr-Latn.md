@@ -19,4 +19,3 @@ U kontekstu Bitcoin, funkcije Hash koriste se za nekoliko svrha, uključujući m
 - `HASH160`, koji opisuje uzastopnu upotrebu `SHA256` i `RIPEMD160`. `HASH160` se koristi u procesu generisanja adresa za primanje (osim P2PK i P2TR) i u izračunavanju otisaka prstiju roditeljskih ključeva za proširene ključeve.
 
 
-> ► *Na engleskom se to naziva "Hash funkcija".*

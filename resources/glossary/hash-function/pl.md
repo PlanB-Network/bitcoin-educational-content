@@ -19,4 +19,3 @@ W kontekście Bitcoin, funkcje Hash są wykorzystywane do kilku celów, w tym me
 - `HASH160`, który opisuje kolejne użycie `SHA256` i `RIPEMD160`. `HASH160` jest używany w procesie generowania adresów odbiorczych (z wyjątkiem P2PK i P2TR) oraz w obliczaniu odcisków palców kluczy nadrzędnych dla kluczy rozszerzonych.
 
 
-> w języku angielskim jest ona określana jako "funkcja Hash"

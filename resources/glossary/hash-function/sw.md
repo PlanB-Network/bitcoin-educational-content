@@ -19,4 +19,3 @@ Katika muktadha wa Bitcoin, chaguo za kukokotoa za Hash hutumiwa kwa madhumuni k
 - `HASH160`, ambayo inaelezea matumizi mfululizo ya `SHA256` na `RIPEMD160`. `HASH160` hutumika katika mchakato wa kuzalisha anwani za kupokea (isipokuwa P2PK na P2TR) na katika kukokotoa alama za vidole za ufunguo wa mzazi kwa funguo zilizopanuliwa.
 
 
-> ► *Kwa Kiingereza, inarejelewa kama "tendakazi ya Hash".*

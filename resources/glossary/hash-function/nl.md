@@ -19,4 +19,3 @@ In de context van Bitcoin worden Hash functies gebruikt voor verschillende doele
 - `HASH160`, dat een opeenvolgend gebruik beschrijft van een `SHA256` en een `RIPEMD160`. `HASH160` wordt gebruikt bij het genereren van ontvangstadressen (behalve P2PK en P2TR) en bij het berekenen van oudersleutel fingerprints voor uitgebreide sleutels.
 
 
-> ► *In het Engels wordt het een "Hash functie" genoemd.*

@@ -17,4 +17,3 @@ term: HASH FUNCTION (哈希函数)
 - `SHA512` 算法中的 `HMAC` 和 `PBKDF2` 算法；
 - `HASH160`，其 `SHA256` 和 `RIPEMD160` 的连续使用。`HASH160` 用于生成接收地址（P2PK 和 P2TR 除外）和计算扩展密钥的父密钥指纹。
 
-> ► “*在英语中，它被称为 "Hash Function"。*”

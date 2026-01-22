@@ -21,4 +21,3 @@ Mu bijanye na Bitcoin, ibikorwa vya Hash bikoreshwa mu ntumbero nyinshi, harimwo
 - `HASH160`, idondora ikoreshwa rikurikirana rya `SHA256` na `RIPEMD160`. `HASH160` ikoreshwa mu nzira yo gutanga amaderesi y'ukwakira (uretse P2PK na P2TR) no mu kubara ibimenyetso vy'intoke vy'urufunguzo rw'umuvyeyi ku rufunguzo rwagutse.
 
 
-> ► *Mu congereza, vyitwa "igikorwa ca Hash".*

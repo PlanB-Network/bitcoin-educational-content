@@ -19,4 +19,3 @@ Bitcoin bağlamında, Hash fonksiyonları Proof-of-Work mekanizması (*Proof-of-
 - bir `SHA256` ve bir `RIPEMD160`ın ardışık kullanımını tanımlayan `HASH160`. hASH160`, alıcı adresleri oluşturma sürecinde (P2PK ve P2TR hariç) ve genişletilmiş anahtarlar için üst anahtar parmak izlerinin hesaplanmasında kullanılır.
 
 
-> ► *İngilizcede "Hash fonksiyonu" olarak adlandırılır.*

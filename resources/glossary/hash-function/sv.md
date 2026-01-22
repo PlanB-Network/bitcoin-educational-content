@@ -19,4 +19,3 @@ I samband med Bitcoin används Hash-funktioner för flera ändamål, bland annat
 - `HASH160`, som beskriver en successiv användning av en `SHA256` och en `RIPEMD160`. `HASH160` används vid generering av mottagningsadresser (utom P2PK och P2TR) och vid beräkning av fingeravtryck av huvudnycklar för utökade nycklar.
 
 
-> ► * På engelska kallas det för en "Hash-funktion".*

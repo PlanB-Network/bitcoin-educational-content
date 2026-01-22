@@ -177,7 +177,7 @@ rpcport=8332
 **Important** :
 
 
-- Signet is highly recommended** for your first tests: the application is still in development (beta), and bugs may still exist. Signet lets you test free of charge, without risking real funds
+- Signet is highly recommended for your first tests: the application is still in development (beta), and bugs may still exist. Signet lets you test free of charge, without risking real funds
 - Replace `192.168.1.0/24` with your network subnet (e.g. if your IP is `192.168.68.57`, use `192.168.68.0/24`)
 
 
@@ -266,9 +266,9 @@ On first launch, the Joinstr application will ask for permissions to control the
 The Joinstr application is organized into three main tabs:
 
 
-- Home**: Home screen
-- Pools**: Creating and managing CoinJoin pools
-- Settings**: Application configuration
+- Home: Home screen
+- Pools: Creating and managing CoinJoin pools
+- Settings: Application configuration
 
 
 ![CONFIGURATION SETTINGS](assets/fr/13.webp)
@@ -459,9 +459,9 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-- Variable liquidity**: Smaller pools, can wait for participants to come together
-- Project in progress**: Application in beta, bugs possible. Test first with small amounts on bookmark
-- Sybil attacks**: Possibility of one opponent controlling several pool participants
+- Variable liquidity: Smaller pools, can wait for participants to come together
+- Project in progress: Application in beta, bugs possible. Test first with small amounts on bookmark
+- Sybil attacks: Possibility of one opponent controlling several pool participants
 
 
 ## Best practices

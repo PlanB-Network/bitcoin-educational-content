@@ -60,7 +60,7 @@ Ce séminaire est accessible à tous les niveaux de connaissances philosophiques
 
 # Informations logistiques
 
-**Quand :** Ce séminaire aura lieu le mercredi 22 janvier 2025 de 18h30 à 21h30
+**Quand :** Ce séminaire aura lieu le Jeudi 23 janvier 2026 de 18h30 à 21h30
 
 **Où :** Le séminaire se tiendra à l'Institut Périclès, 6 rue Saint Joseph, Paris, France.
 

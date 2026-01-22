@@ -1,6 +1,5 @@
-question: Koja je matematička formula verovatnoće da nepošteni rudar sa x procenata hash rate-a uspešno izvrši fee sniping tako što će ponovo izrudariti prethodni 
-blok plus novi blok?
-answer: (x/(1-x))^2
+question: "Koja je matematička formula verovatnoće da nepošteni rudar sa x procenata hash rate-a uspešno izvrši fee sniping tako što će ponovo izrudariti prethodni blok plus novi blok?"
+answer: "(x/(1-x))^2"
 wrong_answers:
   - x^2/(1-x)
   - (1-x)^2/x

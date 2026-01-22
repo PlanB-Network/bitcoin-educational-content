@@ -5,4 +5,4 @@ wrong_answers:
   - 区块大小限制
   - 标准交易格式
 explanation: |
-  OP_NOP 是一类在执行时不会使脚本无效的空操作指令。正是因为这些指令，比特币在 2015/2016 年能够在协议中添加 OP_CHECKLOCKTIMEVERIFY 和 OP_CHECKSEQUENCEVERIFY，从而实现软分叉。
+  OP_NOP 是一类在执行时不会使脚本无效的空操作指令。正是因为这些指令的存在，比特币在 2015/2016 年能够在协议中添加 OP_CHECKLOCKTIMEVERIFY 和 OP_CHECKSEQUENCEVERIFY，从而实现软分叉。

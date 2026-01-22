@@ -6,6 +6,6 @@ Una estructura de transacción Bitcoin específica que mejora la privacidad del 
 
 La transacción Payjoin cumple dos objetivos. En primer lugar, pretende engañar a un observador externo creando un señuelo en el análisis de la cadena sobre la Heurística de Propiedad de Entrada Común (CIOH). Normalmente, cuando una transacción en la blockchain tiene múltiples entradas, se presume que todas estas entradas pertenecen probablemente a la misma entidad. Así, cuando un analista examina una transacción Payjoin, se le hace creer que todas las entradas proceden de la misma persona. Sin embargo, esta percepción es incorrecta porque el receptor del pago también contribuye a las entradas junto con el pagador real. En segundo lugar, Payjoin también engaña a un observador externo sobre el importe real del pago efectuado. Al examinar la estructura de la transacción, el analista podría creer que el pago equivale al importe de una de las salidas. En realidad, el importe del pago no corresponde a ninguno de los productos. En realidad es la diferencia entre el UTXO del receptor en la salida y el UTXO del receptor en la entrada. En este sentido, la transacción Payjoin entra en el ámbito de la esteganografía. Permite ocultar el importe real de una transacción dentro de una transacción falsa que actúa como señuelo.
 
-![](../../dictionnaire/assets/14.webp)
+
 
 > ► *Payjoin también se denomina a veces "P2EP (Pay-to-End-Point)", "Stowaway" o "transacción esteganográfica "*

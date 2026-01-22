@@ -14,6 +14,6 @@ Yerekeza ku gice kitagira abana: igice gifise akamaro, ariko kidashizwe mu ruher
 - Bazoheba `Block A` itagifise uruhererekane nyamukuru. Gutyo ryacitse ibuye ritagikoreshwa.
 
 
-![](../../dictionnaire/assets/9.webp)
+
 
 

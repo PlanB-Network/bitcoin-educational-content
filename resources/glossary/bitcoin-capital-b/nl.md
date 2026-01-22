@@ -13,4 +13,3 @@ Bitcoin is de naam van het peer-to-peer elektronisch geldsysteem dat in 2009 wer
 De term Bitcoin met een kleine letter "b" is over het algemeen gereserveerd om te verwijzen naar de munteenheid die op dit systeem wordt verhandeld.
 
 
-![](../../dictionnaire/assets/41.webp)

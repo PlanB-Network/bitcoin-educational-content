@@ -6,4 +6,3 @@ Bitcoinin ketjuanalyysin sisäinen heuristiikka, joka mahdollistaa hypoteesin te
 
 On huomattava, että tämä heuristiikka ei ole aina sovellettavissa, koska suurin osa maksuista suoritetaan edelleen fiat-valuuttayksiköissä. Kun ranskalainen kauppias hyväksyy bitcoinin, hän ei yleensä näytä vakaita hintoja satsissa. He valitsevat mieluummin euromääräisen hinnan ja bitcoineina maksettavan summan välisen muuntamisen POS-järjestelmänsä kautta (kuten esimerkiksi BTCPay Serverin kautta). Siksi transaktiotulosteessa ei pitäisi olla pyöreää lukua. Analyytikko voisi kuitenkin yrittää tehdä tämän muunnoksen ottamalla huomioon valuuttakurssin, joka oli voimassa, kun transaktio lähetettiin verkkoon. Jos bitcoinista tulee jonain päivänä ensisijainen laskentayksikkö pörsseissämme, tästä heuristiikasta voi tulla vieläkin hyödyllisempi analyyseissä.
 
-![](../../dictionnaire/assets/11.webp)

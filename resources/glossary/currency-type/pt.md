@@ -11,4 +11,3 @@ No contexto das carteiras determinísticas e hierárquicas (HD), o tipo de moeda
 - Dogecoin: `0x80000003`;
 - Ethereum: `0x8000003c`...
 
-![](../../dictionnaire/assets/21.webp)

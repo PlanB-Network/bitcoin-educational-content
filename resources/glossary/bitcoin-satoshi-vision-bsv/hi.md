@@ -12,4 +12,3 @@ term: Bitcoin Satoshi विज़न (BSV)
 Bitcoin SV अपने ब्लॉक आकार की सीमा के कारण Bitcoin कैश से अलग है, और Bitcoin से भी ज़्यादा अलग है। यह विशेषता Bitcoin के लिए Satoshi नाकामोटो के मूल दृष्टिकोण के साथ संरेखित करने का लक्ष्य रखती है।
 
 
-![](../../dictionnaire/assets/50.webp)

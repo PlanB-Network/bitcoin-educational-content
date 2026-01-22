@@ -11,4 +11,3 @@ Rzeczywiście, transakcje z wieloma danymi wejściowymi są cięższe, a co za t
 Należy jednak zauważyć, że transakcje konsolidacyjne są rozpoznawalne podczas analizy łańcucha. Taka transakcja wskazuje na Common Input Ownership Heuristic (CIOH), co oznacza, że dane wejściowe transakcji konsolidacyjnej są własnością jednego podmiotu. Może to mieć wpływ na prywatność użytkownika.
 
 
-![](../../dictionnaire/assets/7.webp)

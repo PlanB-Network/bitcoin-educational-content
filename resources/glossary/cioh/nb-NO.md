@@ -8,5 +8,5 @@ Denne analyseheuristikken ble oppdaget av Satoshi Nakamoto selv, som diskuterer 
 
 Selv i dag er CIOH fortsatt den viktigste heuristikken som brukes av selskaper som driver med kjedeanalyse, sammen med gjenbruk av adresser.
 
-![](../../dictionnaire/assets/13.webp)
+
 

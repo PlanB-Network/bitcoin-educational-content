@@ -33,5 +33,5 @@ BIPs then go through different statuses over their lifecycle. The current status
 - Active: For process BIPs only, this status is assigned once a certain consensus is reached;
 - Replaced / Obsolete: The BIP is no longer applicable or has been replaced by a more recent proposal that renders it unnecessary.
 
-![](../../dictionnaire/assets/25.webp)
+
 

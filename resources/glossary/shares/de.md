@@ -13,7 +13,7 @@ Für jeden berechneten Hash kann ein einzelner Schürfer in einem Pool drei vers
 - Wenn der Hash niedriger ist als das Schwierigkeitsziel des Anteils, aber größer oder gleich dem Schwierigkeitsziel von Bitcoin, dann stellt dieser Hash einen gültigen Anteil dar, der jedoch nicht ausreicht, um einen Block zu validieren. Der Miner kann diesen Hash an seinen Pool senden, um die mit der Aktie verbundene Belohnung einzufordern: anteil > Hash > Block".
 - Wenn der Hash niedriger ist als das Schwierigkeitsziel des Bitcoin-Netzwerks, wird er sowohl als gültiger Anteil als auch als gültiger Block betrachtet. Der Miner sendet diesen Hash an seinen Pool, der sich beeilt, ihn im Bitcoin-Netzwerk zu verbreiten. Dieser Hash wird auch als gültiger Anteil für den Miner gezählt: "Anteil > Block > Hash".
 
-![](../../dictionnaire/assets/32.webp)
+
 
 Dieses Anteilssystem wird verwendet, um die von jedem einzelnen Schürfer innerhalb eines Pools geleistete Arbeit zu schätzen, ohne dass alle von einem Schürfer generierten Hashes einzeln neu berechnet werden müssen, was für den Pool völlig ineffizient wäre.
 

@@ -16,6 +16,6 @@ Den tilsvarende `scriptSig` vil være:
 <signature> <public key>
 ```
 
-![](../../dictionnaire/assets/35.webp)
+
 
 > ► *Dette skriptet omtales også noen ganger som et "locking script" på engelsk*

@@ -11,6 +11,6 @@ Selle toimimine on suhteliselt lihtne: makse tegemiseks kasutatakse meie valduse
 - Koostööpartner, kes annab bitcoinid, et parandada tehingu üldist anonüümsust, saades samal ajal oma vahendid lõpus täielikult tagasi;
 - Vastuvõtja, kes ei pruugi olla teadlik tehingu eripärast ja ootab lihtsalt saatjalt makset.
 
-![](../../dictionnaire/assets/3.webp)
+
 
 Stonewall x2 struktuur lisab tehingule palju entroopiat ja segab ahelanalüüsi jälgi. Väljastpoolt võib sellist tehingut tõlgendada kui kahe inimese vahelist väikest mündiühendust. Kuid tegelikkuses on see makse. Seega tekitab see meetod ahelaanalüüsis ebakindlust või viib isegi valede jälgedeni. Isegi kui välise vaatleja suudab tuvastada Stonewall x2 tehingu mustri, ei ole tal kogu teave olemas. Ta ei suuda kindlaks teha, milline kahest võrdse suurusega UTXOst vastab maksele. Peale selle ei saa ta teada, kes makse tegi. Lõpuks ei saa nad ka kindlaks teha, kas kaks sisestatud UTXOd pärinevad kahelt erinevalt inimeselt või kuuluvad nad ühele isikule, kes neid ühendas. Viimane punkt tuleneb asjaolust, et klassikalised Stonewall-tehingud järgivad täpselt sama mustrit kui Stonewall x2-tehingud. Väljastpoolt ja ilma lisateabeta konteksti kohta on võimatu eristada Stonewall-tehingut Stonewall x2-tehingust. Esimesed ei ole siiski koostöötehingud, samas kui viimased on koostöötehingud. See lisab kulude suhtes veelgi rohkem kahtlusi.

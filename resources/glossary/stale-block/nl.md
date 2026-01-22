@@ -14,6 +14,6 @@ Verwijst naar een blok zonder kinderen: een geldig blok, maar uitgesloten van de
 - Ze zullen `Blok A` verlaten, dat niet langer deel uitmaakt van de hoofdketen. Het is dus een verouderd blok geworden.
 
 
-![](../../dictionnaire/assets/9.webp)
+
 
 

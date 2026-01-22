@@ -15,4 +15,3 @@ V závislosti na použitém modelu skriptu však může přijímací adresa pře
 
 Přijímací adresa může být reprezentována ve formě alfanumerického řetězce nebo jako QR kód. Každá adresa může být použita vícekrát, ale to je velmi nedoporučovaná praxe. V zájmu zachování určité úrovně soukromí se totiž doporučuje používat každou adresu Bitcoin pouze jednou. Pro každou příchozí platbu do vlastní peněženky by měla být vygenerována nová adresa. Adresa je kódována v `Bech32` pro adresy SegWit V0, v `Bech32m` pro adresy SegWit V1 a v `Base58check` pro adresy Legacy. Z technického hlediska znamená přijímání bitcoinů vlastnictví soukromého klíče spojeného s veřejným klíčem (a tedy i adresy). Když někdo obdrží bitcoiny, odesílatel aktualizuje stávající omezení na jejich utrácení, takže tuto pravomoc nyní může mít pouze příjemce.
 
-![](../../dictionnaire/assets/23.webp)

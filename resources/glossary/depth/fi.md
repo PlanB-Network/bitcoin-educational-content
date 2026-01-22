@@ -6,7 +6,7 @@ HD-lompakoissa (Hierarchical Deterministic) syvyys tarkoittaa avaimen (julkisen 
 
 käyttötarkoitus (syvyys 1), valuuttatyyppi (syvyys 2), tili (syvyys 3), ketjutyyppi (syvyys 4) ja tietyn osoitteen indeksi (syvyys 5).
 
-![](../../dictionnaire/assets/18.webp)
+
 
 Siirtyminen syvyydestä toiseen tapahtuu johtamisprosessin avulla parista vanhemmista avaimista pariin lapsiavaimiin.
 

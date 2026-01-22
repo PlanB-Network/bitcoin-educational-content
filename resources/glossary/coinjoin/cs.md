@@ -6,7 +6,7 @@ Coinjoin je technika používaná k narušení sledovatelnosti bitcoinů. Spolé
 
 Obecná operace coinjoin je následující: různí uživatelé, kteří chtějí mixovat, vloží jako vstup transakce určitou částku. Tyto vstupy vyjdou jako různé výstupy ve stejné výši. Na konci transakce není možné určit, který výstup patří kterému uživateli. Mezi vstupy a výstupy transakce coinjoin není technicky žádná vazba. Vazba mezi každým uživatelem a každým UTXO je přerušena, stejně jako je přerušena historie každé mince.
 
-![](../../dictionnaire/assets/4.webp)
+
 
 Aby bylo možné provést coinjoin, aniž by kterýkoli uživatel kdykoli ztratil kontrolu nad svými prostředky, je transakce nejprve sestavena koordinátorem a poté předána každému uživateli. Každý z nich pak transakci podepíše na své straně poté, co ověří, že mu vyhovuje, a následně jsou všechny podpisy přidány k transakci. Pokud se některý uživatel nebo koordinátor pokusí ukrást prostředky ostatních tím, že upraví výstupy transakce coinjoin, budou podpisy neplatné a transakce bude uzly odmítnuta. Pokud je záznam výstupů účastníků prováděn pomocí Chaumových slepých podpisů, aby se zabránilo propojení se vstupem, označuje se jako "Chaumův coinjoin".
 

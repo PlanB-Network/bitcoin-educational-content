@@ -16,6 +16,6 @@ Odpovídající `scriptSig` by byl:
 <signature> <public key>
 ```
 
-![](../../dictionnaire/assets/35.webp)
+
 
 > *Toto písmo se někdy v angličtině označuje také jako "locking script"*

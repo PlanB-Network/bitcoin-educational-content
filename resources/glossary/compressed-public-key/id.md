@@ -6,7 +6,7 @@ Kunci publik yang digunakan dalam skrip (baik secara langsung dalam bentuk kunci
 
 Jika kita menyederhanakan hal ini ke dalam bidang bilangan real, karena kurva elips simetris terhadap sumbu x, maka untuk setiap titik $P$ (`x, y`) pada kurva tersebut, terdapat titik $P'$ (`x, -y`) yang juga berada pada kurva yang sama. Ini berarti bahwa untuk setiap `x`, hanya ada dua kemungkinan nilai `y`, positif dan negatif. Sebagai contoh, untuk absis `x` yang diberikan, akan ada dua titik $P1$ dan $P2$ pada kurva elips, berbagi absis yang sama tetapi dengan ordinat yang berlawanan:
 
-![](../../dictionnaire/assets/29.webp)
+
 
 Untuk memilih di antara dua titik potensial pada kurva, sebuah awalan yang menentukan `y` mana yang akan dipilih ditambahkan ke `x`. Metode ini memungkinkan untuk mengurangi ukuran kunci publik dari 520 bit menjadi hanya 264 bit (8 bit prefix + 256 bit untuk `x`). Representasi ini dikenal sebagai bentuk terkompresi dari kunci publik.
 

@@ -6,4 +6,3 @@ Lyhenne sanoista "*Open Source Intelligence*". OSINT tarkoittaa julkisesti saata
 
 Bitcoinin yhteydessä OSINT-tietoa voidaan käyttää tukemaan ketjuanalyysia varojen jäljittämiseksi, erityisesti tunnistamaan tulopiste, eli ketjussa tapahtuvan toiminnan ja todelliselle yksikölle kuuluvan identiteetin välinen yhteys. Jos esimerkiksi julkaiset Twitterissä nimelläsi vastaanotto-osoitteesi, analyytikko voi löytää sen ja yhdistää sen henkilöllisyyteesi.
 
-![](../../dictionnaire/assets/28.webp)

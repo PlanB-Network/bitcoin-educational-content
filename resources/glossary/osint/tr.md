@@ -8,4 +8,3 @@ term: OSINT
 Bitcoin bağlamında, OSINT, fonların izini sürmek için zincir analizini desteklemek, özellikle bir giriş noktasını, yani bir On-Chain faaliyeti ile gerçek bir varlığa ait bir kimlik biçimi arasındaki bağlantıyı belirlemek için kullanılabilir. Örneğin, aldığınız Address'i Twitter'da kendi adınızla paylaşırsanız, bir analist bunu bulabilir ve kimliğinizle ilişkilendirebilir.
 
 
-![](../../dictionnaire/assets/28.webp)

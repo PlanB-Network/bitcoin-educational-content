@@ -14,6 +14,6 @@ term: ESKI (BLOK)
 - Artık ana zincirin bir parçası olmayan `Blok A`yı terk edeceklerdir. Böylece eski bir blok haline gelmiştir.
 
 
-![](../../dictionnaire/assets/9.webp)
+
 
 

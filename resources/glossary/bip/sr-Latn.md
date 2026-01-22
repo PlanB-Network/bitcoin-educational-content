@@ -38,6 +38,6 @@ BIP-ovi zatim prolaze kroz različite statusne faze tokom svog životnog ciklusa
 - Zamenjeno / Zastarelo: BIP više nije primenljiv ili je zamenjen novijim predlogom koji ga čini nepotrebnim.
 
 
-![](../../dictionnaire/assets/25.webp)
+
 
 

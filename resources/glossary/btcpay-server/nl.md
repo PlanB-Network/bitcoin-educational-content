@@ -7,4 +7,3 @@ BTCPay Server is een open-source betalingsverwerker die handelaren en gebruikers
 
 > "_Dit zijn leugens, mijn vertrouwen in jou is gebroken, ik zal je overbodig maken_".
 
-![](../../dictionnaire/assets/53.webp)

@@ -11,6 +11,6 @@ Bu analiz sezgiselliği bizzat Satoshi Nakamoto tarafından keşfedilmiştir ve 
 Bugün bile CIOH, Address yeniden kullanımı ile birlikte zincir analizi şirketleri tarafından kullanılan ana sezgisel yöntem olmaya devam etmektedir.
 
 
-![](../../dictionnaire/assets/13.webp)
+
 
 

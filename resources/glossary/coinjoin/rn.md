@@ -8,7 +8,7 @@ CoinJoin ni ubuhinga bukoreshwa mu guca ubushobozi bwo gukurikirana ama bitcoins
 Ibikorwa rusangi vya CoinJoin ni ibi: abakoresha batandukanye bipfuza guvanga bashiramwo amahera nk’inyungu y’ugucuruza. Ivyo bizosohoka nk’ibisohoka bitandukanye vy’umubare umwe. Ku mpera y’ugucuruza, ntibishoboka ko umuntu amenya igisohoka ari ic’uwukoresha. Mu buryo bw’ubuhinga nta sano riri hagati y’ivyo yinjira n’ivyo asohora mu bikorwa vya CoinJoin. Ihuriro hagati y’ukoresha wese na UTXO yose riracitse, nk’uko nyene amateka ya Coin yose ari.
 
 
-![](../../dictionnaire/assets/4.webp)
+
 
 
 Kugira ngo CoinJoin ishobore gukoreshwa ata mukoresha n’umwe atakaje ububasha ku mahera yiwe igihe cose, iyo nzira y’ugucuruza ibanza kwubakwa n’umuhuzabikorwa hanyuma igashikirizwa umukoresha wese. Umwe wese aca ashira umukono ku ruhande rwiwe rw’ivyo agurisha amaze kugenzura ko bimubereye, hanyuma imikono yose igashirwa ku vyo agurisha. Iyo umukoresha canke umuhuzabikorwa agerageje kwiba amahera y’abandi mu guhindura ibiva mu gikorwa ca CoinJoin, rero imikono izoba idafise akamaro kandi igikorwa kizokwangwa n’ibice. Iyo kwandika ibisubizo vy'abaje mu nama bikozwe hakoreshejwe imikono ya Chaum kugira ngo ntihagire isano n'ivyo bashizemwo, ivyo vyitwa "Chaumian CoinJoin".

@@ -26,4 +26,3 @@ Na primer, ako moj prijemni Address ima put derivacije `m / 86' / 0' / 0' / 0 / 
 - `5` označava da je to šesti eksterni Address ovog naloga.
 
 
-![](../../dictionnaire/assets/18.webp)

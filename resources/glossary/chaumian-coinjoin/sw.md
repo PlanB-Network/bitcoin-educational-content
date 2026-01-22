@@ -8,7 +8,7 @@ Itifaki ya CoinJoin inayotumia sahihi saini za David Chaum na Tor kwa mawasilian
 Ili kufanikisha hili, watumiaji huwasilisha maoni yao na mapokezi ya blinded kwa njia fiche Address kwa mratibu. Address hii, mara moja unblinded, inakusudiwa kupokea bitcoins kama pato kutoka kwa CoinJoin. Mratibu hutia saini ishara hizi na kuzirejesha kwa watumiaji. Watumiaji kisha waunganishe tena bila kukutambulisha kwa seva ya mratibu kwa kutumia kitambulisho kipya cha Tor na kufichua anwani zao za pato kwa maandishi wazi kwa ajili ya ujenzi wa muamala. Mratibu anaweza kuthibitisha kuwa anwani hizi zote za mapokezi zinatoka kwa watumiaji halali, kwani hapo awali ametia sahihi toleo lao la blinded kwa kutumia ufunguo wake wa faragha. Walakini, hawezi kuhusisha pato maalum la Address na mtumiaji wa pembejeo aliyepewa. Kwa hiyo, hakuna kiungo kati ya pembejeo na matokeo, hata kutoka kwa mtazamo wa mratibu. Baada ya shughuli kutengenezwa na mratibu, huirudisha kwa washiriki wanaotia saini ili kufungua mchango wao, baada ya kuthibitisha kuwa matokeo yao yamo katika shughuli hii. Washiriki hutuma saini kwa mratibu. Baada ya saini zote kukusanywa, mratibu anaweza kutangaza muamala wa CoinJoin kwenye mtandao wa Bitcoin.
 
 
-![](../../dictionnaire/assets/38.webp)
+
 
 
 Njia hii inahakikisha kwamba mratibu hawezi kuhatarisha kutokujulikana kwa washiriki wala kuiba bitcoins wakati wa mchakato mzima wa CoinJoin.

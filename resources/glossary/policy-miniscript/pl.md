@@ -5,7 +5,7 @@ term: POLITYKA (MINISKRYPT)
 Wysokopoziomowy, zorientowany na użytkownika język, który pozwala na prostą specyfikację warunków, na jakich UTXO może zostać odblokowany w ramach Miniscript. Polityka jest abstrakcyjnym opisem zasad wydawania. Można go następnie skompilować do miniskryptu, który jest odpowiednikiem operacji z natywnego języka skryptowego Bitcoin.
 
 
-![](../../dictionnaire/assets/30.webp)
+
 
 
 Język zasad różni się nieco od języka miniskryptów. Wyobraźmy sobie na przykład system bezpieczeństwa z podstawową ścieżką będącą kluczem A i ścieżką odzyskiwania będącą kluczem B, ale z blokadą czasową wynoszącą jeden rok (około 52 560 bloków). W polityce wyglądałoby to następująco:

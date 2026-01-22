@@ -26,4 +26,3 @@ Als mijn ontvangende Address bijvoorbeeld het afleidingspad `m / 86' / 0' / 0' /
 - `5` geeft aan dat het de zesde externe Address van deze rekening is.
 
 
-![](../../dictionnaire/assets/18.webp)

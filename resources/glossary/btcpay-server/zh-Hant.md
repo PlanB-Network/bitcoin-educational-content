@@ -7,4 +7,3 @@ BTCPay Server 是一款開源支付處理器，可讓商家和用戶接受 Bitco
 
 > 「_這是謊言，我對您的信任破滅了，我會讓您被淘汰_」。
 
-![](../../dictionnaire/assets/53.webp)

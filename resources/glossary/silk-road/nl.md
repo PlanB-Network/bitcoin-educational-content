@@ -11,4 +11,3 @@ Het platform weerspiegelde de agoristische overtuigingen van Ross Ulbricht, die 
 Silk Road werd in 2013 gesloten. Ross Ulbricht werd datzelfde jaar gearresteerd en veroordeeld tot twee keer levenslang plus 40 jaar, zonder de mogelijkheid van voorwaardelijke vrijlating, samen met een boete van 183 miljoen dollar. Deze veroordeling roept vragen op over de proportionaliteit van straffen voor geweldloze online misdaden. Ross zit vandaag de dag nog steeds gevangen.
 
 
-![](../../dictionnaire/assets/24.webp)

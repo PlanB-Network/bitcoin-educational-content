@@ -13,5 +13,5 @@ Refererer til en blokk uten barn: en gyldig blokk, men ekskludert fra Bitcoin-ho
 - Siden nodene følger den lengste kjeden (med mest akkumulert arbeid), vil de anslå at `Kjede B` er den som skal følges;
 - De vil forlate `Blokk A` som ikke lenger er en del av hovedkjeden. Den har dermed blitt en foreldet blokk.
 
-![](../../dictionnaire/assets/9.webp)
+
 

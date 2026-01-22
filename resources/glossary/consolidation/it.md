@@ -8,4 +8,3 @@ Infatti, le transazioni con molti input sono più pesanti e, di conseguenza, pi�
 
 Tuttavia, è importante notare che le transazioni di consolidamento sono riconoscibili durante l'analisi della catena. Una transazione di questo tipo indica una Common Input Ownership Heuristic (CIOH), ovvero che gli input della transazione di consolidamento sono di proprietà di un'unica entità. Ciò può avere implicazioni in termini di privacy per l'utente.
 
-![](../../dictionnaire/assets/7.webp)

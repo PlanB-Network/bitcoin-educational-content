@@ -8,7 +8,7 @@ CoinJoin, bitcoinlerin izlenebilirliğini kırmak için kullanılan bir teknikti
 CoinJoin'ün genel işleyişi şu şekildedir: karıştırmak isteyen farklı kullanıcılar bir işlemin girdisi olarak bir tutar yatırır. Bu girdiler aynı miktarın farklı çıktıları olarak ortaya çıkacaktır. İşlemin sonunda hangi çıktının hangi kullanıcıya ait olduğunu belirlemek mümkün değildir. CoinJoin işleminin girdileri ve çıktıları arasında teknik olarak hiçbir bağlantı yoktur. Her bir kullanıcı ile her bir UTXO arasındaki bağlantı, her bir Coin'ün geçmişinde olduğu gibi kopuktur.
 
 
-![](../../dictionnaire/assets/4.webp)
+
 
 
 Herhangi bir kullanıcı herhangi bir zamanda fonları üzerindeki kontrolünü kaybetmeden CoinJoin'ya izin vermek için, işlem önce bir koordinatör tarafından oluşturulur ve daha sonra her kullanıcıya iletilir. Daha sonra her biri kendi tarafındaki işlemin kendilerine uygun olduğunu doğruladıktan sonra imzalar ve ardından tüm imzalar işleme eklenir. Eğer bir kullanıcı veya koordinatör CoinJoin işleminin çıktılarını değiştirerek diğerlerinin fonlarını çalmaya çalışırsa, imzalar geçersiz olacak ve işlem düğümler tarafından reddedilecektir. Katılımcıların çıktılarının kaydı, girdi ile bağlantıyı önlemek için Chaum'un kör imzaları kullanılarak yapıldığında, bu "Chaumian CoinJoin" olarak adlandırılır.

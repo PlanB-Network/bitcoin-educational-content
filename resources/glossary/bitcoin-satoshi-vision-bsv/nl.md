@@ -12,4 +12,3 @@ Cryptocurrency-systeem dat het resultaat is van een Hard Fork van Bitcoin Cash (
 Bitcoin SV onderscheidt zich van Bitcoin Cash, en nog meer van Bitcoin, door zijn aanzienlijk hogere blokgrootte limiet. Dit kenmerk is bedoeld om aan te sluiten bij wat de aanhangers beschouwen als Satoshi Nakamoto's oorspronkelijke visie voor Bitcoin.
 
 
-![](../../dictionnaire/assets/50.webp)

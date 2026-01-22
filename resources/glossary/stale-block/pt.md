@@ -13,5 +13,5 @@ Refere-se a um bloco sem filhos: um bloco válido, mas excluído da cadeia princ
 - Uma vez que os nós seguem a cadeia mais longa (com mais trabalho acumulado), eles estimarão que a `Cadeia B` é a que deve ser seguida;
 - Abandonarão o "bloco A" que já não faz parte da cadeia principal. Tornou-se assim um bloco obsoleto.
 
-![](../../dictionnaire/assets/9.webp)
+
 

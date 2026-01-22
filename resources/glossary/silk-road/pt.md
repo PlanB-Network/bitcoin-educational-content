@@ -8,4 +8,3 @@ A plataforma reflectia as convicções agoristas de Ross Ulbricht, promovendo um
 
 O Silk Road foi encerrado em 2013. Ross Ulbricht foi preso no mesmo ano e condenado a duas penas de prisão perpétua mais 40 anos, sem possibilidade de liberdade condicional, juntamente com uma multa de 183 milhões de dólares. Esta sentença levanta questões sobre a proporcionalidade das penas para crimes em linha não violentos. Ross continua preso até hoje.
 
-![](../../dictionnaire/assets/24.webp)

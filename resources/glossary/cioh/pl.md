@@ -11,6 +11,6 @@ Ta heurystyka analizy została odkryta przez samego Satoshi Nakamoto, który oma
 Nawet dziś CIOH pozostaje główną heurystyką stosowaną przez firmy zajmujące się analizą łańcuchów, wraz z ponownym wykorzystaniem Address.
 
 
-![](../../dictionnaire/assets/13.webp)
+
 
 

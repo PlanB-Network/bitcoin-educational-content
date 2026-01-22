@@ -8,4 +8,3 @@ Paljude sisenditega tehingud on tõepoolest raskemad ja seega ka kallimad. Lisak
 
 Siiski on oluline märkida, et konsolideerimistehingud on ahelanalüüsi käigus äratuntavad. Selline tehing viitab ühisele sisendiomandile (Common Input Ownership Heuristic, CIOH), mis tähendab, et konsolideerimistehingu sisendid kuuluvad ühele üksusele. See võib mõjutada kasutaja eraelu puutumatust.
 
-![](../../dictionnaire/assets/7.webp)

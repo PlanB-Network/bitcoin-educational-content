@@ -13,5 +13,5 @@ Se refiere a un bloque sin hijos: un bloque válido, pero excluido de la cadena 
 - Como los nodos siguen la cadena más larga (con más trabajo acumulado), estimarán que la `Cadena B` es la que hay que seguir;
 - Abandonarán el "Bloque A", que ya no forma parte de la cadena principal. Por tanto, se ha convertido en un bloque obsoleto.
 
-![](../../dictionnaire/assets/9.webp)
+
 

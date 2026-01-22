@@ -15,4 +15,3 @@ Mu bijanye n’amafaranga y’amahera (HD), ubwoko bw’amahera (*Coin type* mu 
 **Ethereum:** `0x8000003c`...
 
 
-![](../../dictionnaire/assets/21.webp)

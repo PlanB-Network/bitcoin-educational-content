@@ -13,4 +13,3 @@ Bitcoin 是 Satoshi Nakamoto 於 2009 年創建的點對點電子現金系統的
 一般保留小寫「b」的術語 Bitcoin，指在此系統交易的貨幣單位。
 
 
-![](../../dictionnaire/assets/41.webp)

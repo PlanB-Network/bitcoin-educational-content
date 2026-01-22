@@ -26,4 +26,3 @@ Na przykład, jeśli mój Address ma ścieżkę pochodną `m / 86' / 0' / 0' / 0
 - `5` oznacza, że jest to szósty zewnętrzny Address tego konta.
 
 
-![](../../dictionnaire/assets/18.webp)

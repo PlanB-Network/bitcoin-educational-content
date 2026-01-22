@@ -11,4 +11,3 @@ Bitcoin ist der Name des elektronischen Peer-to-Peer-Geldsystems, das 2009 von S
 
 Der Begriff Bitcoin mit einem kleinen "b" ist im Allgemeinen für die Währungseinheit reserviert, die in diesem System gehandelt wird.
 
-![](../../dictionnaire/assets/41.webp)

@@ -19,4 +19,3 @@ Ariko rero, Address yakira irashobora kandi guserukira ikindi kintu bivanye n’
 Address yakira ishobora guserurwa mu buryo bw’urudodo rw’inyuguti n’imibare canke nk’ikode ya QR. Address yose irashobora gukoreshwa incuro nyinshi, ariko ivyo ni umugenzo ucitse intege cane. Nkako, kugira ngo umuntu agumane urugero runaka rw’ubuzima bwiwe bwite, birakenewe ko akoresha Bitcoin Address imwe imwe rimwe gusa. Address nshasha ikwiye gusohoka ku giciro cose umuntu yinjira kuri Wallet yiwe. Address ikoreshwa muri `Bech32` ku ma aderesi ya SegWit V0, muri `Bech32m` ku ma aderesi ya SegWit V1, no muri `Base58check` ku ma aderesi y'Iragi. Uvuye mu vy’ubuhinga, kwakira Bitcoin bisobanura kugira urufunguzo rw’ibanga rujanye n’urufunguzo rwa bose (kandi rero Address). Iyo umuntu yaronse ama bitcoins, uwuyarungitse arahindura inzitizi ziriho ku bijanye n’amahera akoresha kugira ngo uwuyaronse wenyene ashobore kugira ubwo bubasha.
 
 
-![](../../dictionnaire/assets/23.webp)

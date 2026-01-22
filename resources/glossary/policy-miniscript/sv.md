@@ -5,7 +5,7 @@ term: POLICY (MINISCRIPT)
 Ett användarorienterat språk på hög nivå som möjliggör en enkel specifikation av villkor under vilka en UTXO kan låsas upp inom ramen för Miniscript. Policyn är en abstrakt beskrivning av utgiftsreglerna. Den kan sedan kompileras till miniscript, som är en en-till-en-ekvivalent med operationer från Bitcoin:s inbyggda skriptspråk.
 
 
-![](../../dictionnaire/assets/30.webp)
+
 
 
 Policyspråket skiljer sig något från miniscriptspråket. Tänk dig till exempel ett säkerhetssystem med en primär sökväg som är nyckel A och en återställningsväg som är nyckel B, men med en tidslåsning på ett år (cirka 52 560 block). I policy skulle detta vara:

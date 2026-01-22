@@ -38,6 +38,6 @@ BIP'ler daha sonra yaşam döngüleri boyunca farklı durumlardan geçerler. Mev
 - Değiştirildi / Geçersiz: BIP artık uygulanabilir değildir veya onu gereksiz kılan daha yeni bir teklifle değiştirilmiştir.
 
 
-![](../../dictionnaire/assets/25.webp)
+
 
 

@@ -26,4 +26,3 @@ Om till exempel min mottagare Address har avledningsvägen `m / 86' / 0' / 0' / 
 - "5" anger att det är den sjätte externa Address för detta konto.
 
 
-![](../../dictionnaire/assets/18.webp)

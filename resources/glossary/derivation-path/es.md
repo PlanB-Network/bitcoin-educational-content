@@ -21,4 +21,3 @@ Por ejemplo, si mi dirección de recepción tiene la ruta de derivación `m / 86
 - `0` indica que se trata de una dirección externa;
 - `5` indica que es la sexta dirección externa de esta cuenta.
 
-![](../../dictionnaire/assets/18.webp)

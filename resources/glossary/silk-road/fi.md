@@ -8,4 +8,3 @@ Alustus heijasti Ross Ulbrichtin agoristisia vakaumuksia, jotka edistävät vapa
 
 Silk Road suljettiin vuonna 2013. Ross Ulbricht pidätettiin samana vuonna, ja hänet tuomittiin kahteen elinkautiseen vankeusrangaistukseen plus 40 vuotta ilman mahdollisuutta ehdonalaiseen vapauteen sekä 183 miljoonan dollarin sakkoihin. Tämä tuomio herättää kysymyksiä väkivallattomista nettirikoksista annettavien rangaistusten oikeasuhteisuudesta. Ross on edelleen vangittuna.
 
-![](../../dictionnaire/assets/24.webp)

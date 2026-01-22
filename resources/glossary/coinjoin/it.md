@@ -6,7 +6,7 @@ Coinjoin è una tecnica utilizzata per rompere la tracciabilità dei bitcoin. Si
 
 Il funzionamento generale di coinjoin è il seguente: diversi utenti che desiderano mescolare depositano un importo come input di una transazione. Questi input verranno restituiti come output diversi dello stesso importo. Alla fine della transazione, è impossibile determinare quale uscita appartiene a quale utente. Tecnicamente non c'è alcun legame tra gli input e gli output della transazione coinjoin. Il legame tra ogni utente e ogni UTXO è interrotto, così come lo è la storia di ogni moneta.
 
-![](../../dictionnaire/assets/4.webp)
+
 
 Per consentire la coinjoin senza che nessun utente perda il controllo sui propri fondi in qualsiasi momento, la transazione viene prima costruita da un coordinatore e poi trasmessa a ciascun utente. Ciascuno firma la transazione dal proprio lato dopo averne verificato l'adeguatezza, e poi tutte le firme vengono aggiunte alla transazione. Se un utente o il coordinatore tenta di rubare i fondi degli altri modificando gli output della transazione coinjoin, le firme non saranno valide e la transazione sarà rifiutata dai nodi. Quando la registrazione dell'output dei partecipanti viene effettuata utilizzando le firme cieche di Chaum per evitare il collegamento con l'input, si parla di "Chaumian coinjoin".
 

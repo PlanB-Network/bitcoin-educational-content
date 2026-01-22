@@ -8,5 +8,5 @@ Diese Analyseheuristik wurde von Satoshi Nakamoto selbst entdeckt, der sie in Te
 
 Auch heute noch ist CIOH neben der Adresswiederverwendung die wichtigste Heuristik, die von Kettenanalyseunternehmen verwendet wird.
 
-![](../../dictionnaire/assets/13.webp)
+
 

@@ -12,4 +12,3 @@ term: نوع ارز
 - اتریوم: `0x8000003c`...
 
 
-![](../../dictionnaire/assets/21.webp)

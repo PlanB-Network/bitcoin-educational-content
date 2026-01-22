@@ -6,4 +6,3 @@ Bitcoini ahelate analüüsi sisemine heuristika, mis võimaldab hüpoteesi tehin
 
 Tuleb märkida, et see heuristika ei ole alati kohaldatav, sest enamik makseid tehakse ikka veel fiat-valuutaühikutes. Tõepoolest, kui kaupmees Prantsusmaal aktsepteerib bitcoin'i, ei näita nad üldiselt stabiilset hinda satsides. Nad valivad pigem eurodes väljendatud hinna ja bitcoinides väljendatud summa konverteerimise, mida makstakse nende kassasüsteemi kaudu (näiteks BTCPay Server). Seetõttu ei tohiks tehingu väljundis olla ümmargune number. Sellegipoolest võiks analüütik üritada seda ümberarvestust teha, võttes arvesse tehingu võrgus edastamise ajal kehtinud vahetuskurssi. Kui ühel päeval muutub bitcoin meie börsidel eelistatud arvestusühikuks, võib see heuristika muutuda analüüside jaoks veelgi kasulikumaks.
 
-![](../../dictionnaire/assets/11.webp)

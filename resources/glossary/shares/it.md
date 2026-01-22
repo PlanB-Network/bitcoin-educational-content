@@ -13,7 +13,7 @@ Per ogni hash calcolato, un singolo miner in un pool può incontrare tre diversi
 - Se l'hash è inferiore all'obiettivo di difficoltà della quota, ma maggiore o uguale all'obiettivo di difficoltà di Bitcoin, allora questo hash costituisce una quota valida che, tuttavia, non è sufficiente a convalidare un blocco. Il minatore può inviare questo hash al proprio pool per richiedere la ricompensa associata alla quota: `condivisione > hash > blocco`.
 - Se l'hash è inferiore all'obiettivo di difficoltà della rete Bitcoin, viene considerato sia una quota valida che un blocco valido. Il minatore trasmette questo hash al proprio pool, che si affretta a diffonderlo sulla rete Bitcoin. Anche questo hash viene conteggiato come quota valida per il minatore: `quota > blocco > hash`.
 
-![](../../dictionnaire/assets/32.webp)
+
 
 Questo sistema di quote viene utilizzato per stimare il lavoro svolto da ogni singolo minatore all'interno di un pool, senza dover ricalcolare individualmente tutti gli hash generati da un minatore, cosa che sarebbe del tutto inefficiente per il pool.
 

@@ -21,4 +21,3 @@ Por exemplo, se o meu endereço de receção tiver o caminho de derivação `m /
 - o "0" indica que se trata de um endereço externo;
 - `5` indica que é o sexto endereço externo desta conta.
 
-![](../../dictionnaire/assets/18.webp)

@@ -30,5 +30,5 @@ BIP kemudian melewati status yang berbeda selama siklus hidupnya. Status saat in
 - Aktif: Hanya untuk proses BIP, status ini ditetapkan setelah konsensus tertentu tercapai;
 - Diganti / Sudah Tidak Berlaku: BIP tidak lagi berlaku atau telah digantikan oleh proposal yang lebih baru yang membuat BIP ini tidak diperlukan lagi.
 
-![](../../dictionnaire/assets/25.webp)
+
 

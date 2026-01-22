@@ -26,4 +26,3 @@ Kwa mfano, ikiwa upokeaji wangu wa Address una njia ya derivation `m / 86' / 0' 
 - `5` inaonyesha kuwa ni Address ya sita ya akaunti hii.
 
 
-![](../../dictionnaire/assets/18.webp)

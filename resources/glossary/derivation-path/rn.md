@@ -31,4 +31,3 @@ Nk'akarorero, nimba Address yanje yakira ifise inzira y'ugukomoka `m / 86' / 0' 
 `5` yerekana ko ari Address y’inyuma ya gatandatu y’iyi nkuru.
 
 
-![](../../dictionnaire/assets/18.webp)

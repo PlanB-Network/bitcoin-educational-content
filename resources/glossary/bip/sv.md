@@ -38,6 +38,6 @@ BIP:erna går sedan igenom olika statusar under sin livscykel. Den aktuella stat
 - Ersatt/föråldrad: BIP är inte längre tillämpligt eller har ersatts av ett nyare förslag som gör det överflödigt.
 
 
-![](../../dictionnaire/assets/25.webp)
+
 
 

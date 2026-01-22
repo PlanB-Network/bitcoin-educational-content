@@ -6,7 +6,7 @@ Una clave pública se utiliza en los scripts (ya sea directamente en forma de cl
 
 Si simplificamos esto al campo de los números reales, dado que la curva elíptica es simétrica respecto al eje x, para cualquier punto $P$ (`x, y`) de la curva, existe un punto $P'$ (`x, -y`) que también estará en esta misma curva. Esto significa que para cada `x`, sólo hay dos valores posibles de `y`, positivo y negativo. Por ejemplo, para una abscisa `x` dada, habría dos puntos $P1$ y $P2$ en la curva elíptica, compartiendo la misma abscisa pero con ordenadas opuestas:
 
-![](../../dictionnaire/assets/29.webp)
+
 
 Para elegir entre los dos posibles puntos de la curva, se añade a `x` un prefijo que especifica qué `y` elegir. Este método permite reducir el tamaño de una clave pública de 520 bits a sólo 264 bits (8 bits de prefijo + 256 bits para `x`). Esta representación se conoce como la forma comprimida de la clave pública.
 

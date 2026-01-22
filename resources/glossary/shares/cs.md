@@ -13,7 +13,7 @@ Pro každý vypočtený hash se jednotlivý těžař v poolu může setkat se t�
 - Pokud je hash nižší než cílová hodnota obtížnosti podílu, ale vyšší nebo roven cílové hodnotě obtížnosti Bitcoinu, pak tento hash představuje platný podíl, který však nestačí k ověření bloku. Těžař může tento hash odeslat do svého poolu a nárokovat si odměnu spojenou s podílem: `share > hash > block`.
 - Pokud je hash nižší než cílová obtížnost sítě Bitcoin, je považován za platný podíl i platný blok. Těžař předá tento hash svému poolu, který jej spěchá odvysílat do sítě Bitcoin. Tento hash je pro těžaře rovněž považován za platný podíl: `podíl > blok > hash`.
 
-![](../../dictionnaire/assets/32.webp)
+
 
 Tento systém podílů se používá k odhadu práce, kterou odvedl každý jednotlivý těžař v rámci poolu, aniž by bylo nutné jednotlivě přepočítávat všechny hashe vygenerované těžařem, což by bylo pro pool zcela neefektivní.
 

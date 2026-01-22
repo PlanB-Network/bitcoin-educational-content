@@ -12,4 +12,3 @@ Kendisi de Bitcoin'ün (BTC) bir Fork'i olan Bitcoin Cash'in (BCH) bir Hard Fork
 Bitcoin SV, kendisini Bitcoin Cash'ten ve hatta Bitcoin'den önemli ölçüde daha yüksek blok boyutu limitiyle ayırır. Bu özellik, destekçilerinin Satoshi Nakamoto'nun Bitcoin için orijinal vizyonu olarak gördükleri şeyle uyumlu olmayı amaçlamaktadır.
 
 
-![](../../dictionnaire/assets/50.webp)

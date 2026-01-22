@@ -6,7 +6,7 @@ Coinjoin er en teknikk som brukes til å bryte sporbarheten til bitcoins. Den ba
 
 Coinjoin fungerer generelt på følgende måte: Ulike brukere som ønsker å blande seg, setter inn et beløp som input i en transaksjon. Disse inndataene vil komme ut som forskjellige utdata av samme beløp. Ved slutten av transaksjonen er det umulig å avgjøre hvilken utgang som tilhører hvilken bruker. Det er teknisk sett ingen kobling mellom input og output i coinjoin-transaksjonen. Koblingen mellom hver bruker og hver UTXO er brutt, på samme måte som historikken til hver mynt er det.
 
-![](../../dictionnaire/assets/4.webp)
+
 
 For å muliggjøre coinjoin uten at noen brukere mister kontrollen over midlene sine, blir transaksjonen først konstruert av en koordinator og deretter overført til hver bruker. Deretter signerer hver enkelt transaksjonen på sin side etter å ha verifisert at den passer dem, og deretter legges alle signaturene til transaksjonen. Hvis en bruker eller koordinatoren forsøker å stjele andres penger ved å endre utdataene fra coinjoin-transaksjonen, vil signaturene være ugyldige, og transaksjonen vil bli avvist av nodene. Når registreringen av deltakernes output gjøres ved hjelp av Chaums blindsignaturer for å unngå koblingen til input, kalles dette "Chaumian coinjoin".
 

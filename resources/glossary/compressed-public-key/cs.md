@@ -6,7 +6,7 @@ Veřejný klíč se používá ve skriptech (buď přímo ve formě veřejného 
 
 Zjednodušíme-li to na obor reálných čísel, pak za předpokladu, že eliptická křivka je symetrická vzhledem k ose x, pro libovolný bod $P$ (`x, y`) na křivce existuje bod $P'$ (`x, -y`), který bude také na téže křivce. To znamená, že pro každé `x` existují pouze dvě možné hodnoty `y`, kladná a záporná. Například pro danou abscisu `x` budou na eliptické křivce existovat dva body $P1$ a $P2$, které budou mít stejnou abscisu, ale opačné ordináty:
 
-![](../../dictionnaire/assets/29.webp)
+
 
 Pro výběr mezi dvěma potenciálními body na křivce se k `x` přidá předpona určující, který `y` se má vybrat. Tato metoda umožňuje snížit velikost veřejného klíče z 520 bitů na pouhých 264 bitů (8 bitů prefixu + 256 bitů pro `x`). Tato reprezentace je známá jako komprimovaná forma veřejného klíče.
 

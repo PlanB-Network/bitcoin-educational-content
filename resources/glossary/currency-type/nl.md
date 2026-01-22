@@ -12,4 +12,3 @@ In de context van deterministische en hiërarchische (HD) wallets is het valutat
 - Ethereum: `0x8000003c`...
 
 
-![](../../dictionnaire/assets/21.webp)

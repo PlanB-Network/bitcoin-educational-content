@@ -11,4 +11,3 @@ Bitcoin es el nombre del sistema de dinero electrónico peer-to-peer creado por 
 
 El término bitcoin con "b" minúscula se reserva generalmente para referirse a la unidad monetaria que se negocia en este sistema.
 
-![](../../dictionnaire/assets/41.webp)

@@ -38,6 +38,6 @@ BIP przechodzą następnie przez różne statusy w trakcie swojego cyklu życia.
 - Zastąpiony / nieaktualny: BIP nie ma już zastosowania lub został zastąpiony nowszą propozycją, która czyni go zbędnym.
 
 
-![](../../dictionnaire/assets/25.webp)
+
 
 

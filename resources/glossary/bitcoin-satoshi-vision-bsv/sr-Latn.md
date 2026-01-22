@@ -12,4 +12,3 @@ Sistem kriptovaluta koji proizilazi iz Hard Fork od Bitcoin Cash (BCH), koji je 
 Bitcoin SV se razlikuje od Bitcoin Cash, a još više od Bitcoin, po znatno većem ograničenju veličine bloka. Ova karakteristika ima za cilj da se uskladi sa onim što njegovi pristalice smatraju originalnom vizijom Satoshi Nakamota za Bitcoin.
 
 
-![](../../dictionnaire/assets/50.webp)

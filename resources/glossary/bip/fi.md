@@ -33,5 +33,5 @@ Rajatarkastusohjelmat käyvät läpi erilaisia vaiheita elinkaarensa aikana. Tä
 - Aktiivinen: Ainoastaan prosessin rajatarkastusasemien osalta tämä tila annetaan, kun tietty yhteisymmärrys on saavutettu;
 - Korvattu / vanhentunut: Rajatarkastusasema ei ole enää sovellettavissa tai se on korvattu uudemmalla ehdotuksella, joka tekee sen tarpeettomaksi.
 
-![](../../dictionnaire/assets/25.webp)
+
 

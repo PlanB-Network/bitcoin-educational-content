@@ -11,4 +11,3 @@ Bitcoin is the name of the peer-to-peer electronic cash system created by Satosh
 
 The term bitcoin with a lowercase “b” is generally reserved to refer to the currency unit traded on this system.
 
-![](../../dictionnaire/assets/41.webp)

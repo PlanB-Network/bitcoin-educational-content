@@ -16,7 +16,7 @@ term: 股份
 - 如果 Hash 低於 Bitcoin 網路的難度目標，則會同時被視為有效分享和有效區塊。Miner 將此 Hash 傳送至他們的資料池，資料池會趕快在 Bitcoin 網路上廣播。對 Miner 而言，這個 Hash 也被視為有效共用： `共用 > 區塊 > Hash`。
 
 
-![](../../dictionnaire/assets/32.webp)
+
 
 
 此分攤系統可用於估算池中每個 Miner 所做的工作，而無需個別重新計算一個 Miner 所產生的所有哈希值，這對池來說是完全低效的。

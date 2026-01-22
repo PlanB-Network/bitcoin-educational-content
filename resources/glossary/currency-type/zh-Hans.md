@@ -10,4 +10,4 @@ term: CURRENCY TYPE (货币类型)
 - 狗狗币: `0x80000003`；
 - 以太坊: `0x8000003c`...
 
-![](../../dictionnaire/assets/21.webp)
+

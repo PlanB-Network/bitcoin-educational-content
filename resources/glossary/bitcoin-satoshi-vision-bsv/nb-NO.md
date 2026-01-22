@@ -10,4 +10,3 @@ Kryptovalutasystem som er resultatet av en hard forgrening av Bitcoin Cash (BCH)
 
 Bitcoin SV skiller seg fra Bitcoin Cash, og i enda større grad fra Bitcoin, ved å ha en betydelig høyere blokkstørrelsesgrense. Denne egenskapen har som mål å være i tråd med det tilhengerne anser som Satoshi Nakamotos opprinnelige visjon for Bitcoin.
 
-![](../../dictionnaire/assets/50.webp)

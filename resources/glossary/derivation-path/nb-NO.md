@@ -21,4 +21,3 @@ Hvis mottakeradressen min for eksempel har avledningsstien `m / 86' / 0' / 0' / 
 - `0` indikerer at det er en ekstern adresse;
 - `5` indikerer at det er den sjette eksterne adressen til denne kontoen.
 
-![](../../dictionnaire/assets/18.webp)

@@ -10,4 +10,3 @@ term: 通貨の種類
 - Dogecoin: `0x80000003`；
 - イーサリアム： `0x8000003c`...
 
-![](../../dictionnaire/assets/21.webp)

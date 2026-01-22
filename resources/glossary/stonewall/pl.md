@@ -15,7 +15,7 @@ W związku z tym w transakcji Stonewall występują tylko 2 role:
 - Odbiorca, który może być nieświadomy konkretnego charakteru transakcji i po prostu oczekuje płatności od nadawcy.
 
 
-![](../../dictionnaire/assets/33.webp)
+
 
 Transakcje Stonewall są dostępne zarówno w aplikacji Samourai Wallet, jak i oprogramowaniu Sparrow Wallet.
 

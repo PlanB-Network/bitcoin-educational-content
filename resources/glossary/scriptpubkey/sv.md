@@ -21,7 +21,7 @@ Motsvarande `scriptSig` skulle vara:
 ```
 
 
-![](../../dictionnaire/assets/35.webp)
+
 
 
 > ► *Detta script kallas ibland också för ett "locking script" på engelska*

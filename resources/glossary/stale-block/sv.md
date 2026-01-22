@@ -14,6 +14,6 @@ Avser ett block utan barn: ett giltigt block, men uteslutet från den huvudsakli
 - De kommer att överge `Block A` som inte längre är en del av huvudkedjan. Det har därmed blivit ett föråldrat block.
 
 
-![](../../dictionnaire/assets/9.webp)
+
 
 

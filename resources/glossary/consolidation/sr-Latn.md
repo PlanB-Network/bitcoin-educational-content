@@ -11,4 +11,3 @@ Zaista, transakcije sa mnogo ulaza su teže i, shodno tome, skuplje. Pored ušte
 Međutim, važno je napomenuti da su transakcije konsolidacije prepoznatljive tokom analize lanca. Takva transakcija ukazuje na Zajednički Ulaz Ownership Heuristiku (CIOH), što znači da ulazi transakcije konsolidacije pripadaju jednom entitetu. Ovo može imati implikacije u pogledu privatnosti za korisnika.
 
 
-![](../../dictionnaire/assets/7.webp)

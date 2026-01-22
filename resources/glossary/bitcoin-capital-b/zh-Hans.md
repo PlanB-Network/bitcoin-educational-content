@@ -11,4 +11,4 @@ term: BITCOIN（比特币，以大写 B 为开头）
 
 以小写 “b” 为开头的比特币这一词通常指在该系统上交易的货币单位。
 
-![](../../dictionnaire/assets/41.webp)
+

@@ -12,4 +12,3 @@ term: Bitcoin Satoshi VISION (BSV)
 Bitcoin SV با محدودیت اندازه بلوک به‌طور قابل‌توجهی بزرگ‌تر، خود را از Bitcoin Cash و حتی بیشتر از Bitcoin متمایز می‌کند. این ویژگی به دنبال همسویی با چیزی است که حامیان آن به‌عنوان دیدگاه اصلی Satoshi Nakamoto برای Bitcoin می‌دانند.
 
 
-![](../../dictionnaire/assets/50.webp)

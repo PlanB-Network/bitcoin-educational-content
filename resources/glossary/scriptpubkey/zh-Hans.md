@@ -16,6 +16,6 @@ OP_DUP OP_HASH160 OP_PUSHBYTES_20 <address> OP_EQUALVERIFY OP_CHECKSIG
 <signature> <public key>
 ```
 
-![](../../dictionnaire/assets/35.webp)
+
 
 > ► *这种脚本在英语中有时也被称为 “Locking script”（锁定脚本)。*

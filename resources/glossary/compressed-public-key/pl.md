@@ -8,7 +8,7 @@ Klucz publiczny jest używany w skryptach (bezpośrednio w formie klucza publicz
 Jeśli uprościmy to do dziedziny liczb rzeczywistych, to biorąc pod uwagę, że krzywa eliptyczna jest symetryczna względem osi x, dla dowolnego punktu $P$ (`x, y`) na krzywej, istnieje punkt $P'$ (`x, -y`), który również będzie na tej samej krzywej. Oznacza to, że dla każdego `x` istnieją tylko dwie możliwe wartości `y`, dodatnia i ujemna. Na przykład, dla danej odciętej `x`, będą dwa punkty $P1$ i $P2$ na krzywej eliptycznej, dzielące tę samą odciętą, ale o przeciwnych rzędnych:
 
 
-![](../../dictionnaire/assets/29.webp)
+
 
 Aby wybrać pomiędzy dwoma potencjalnymi punktami na krzywej, do `x` dodawany jest prefiks określający, który `y` wybrać. Metoda ta pozwala zmniejszyć rozmiar klucza publicznego z 520 bitów do zaledwie 264 bitów (8 bitów prefiksu + 256 bitów dla `x`). Ta reprezentacja jest znana jako skompresowana forma klucza publicznego.
 

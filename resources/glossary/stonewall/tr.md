@@ -15,7 +15,7 @@ Dolayısıyla, bir Stonewall işleminde yalnızca 2 rol vardır:
 - Alıcı, işlemin özel niteliğinden habersiz olabilir ve sadece göndericiden bir ödeme bekler.
 
 
-![](../../dictionnaire/assets/33.webp)
+
 
 Stonewall işlemleri hem Samourai Wallet uygulamasında hem de Sparrow wallet yazılımında mevcuttur.
 

@@ -13,7 +13,7 @@ Para cada hash calculado, um mineiro individual numa pool pode encontrar três c
 - Se o hash for inferior ao objetivo de dificuldade da ação, mas maior ou igual ao objetivo de dificuldade da Bitcoin, então este hash constitui uma ação válida que, no entanto, não é suficiente para validar um bloco. O mineiro pode enviar este hash para o seu pool para reclamar a recompensa associada à ação: `share > hash > block`.
 - Se o hash for inferior ao objetivo de dificuldade da rede Bitcoin, é considerado tanto uma ação válida como um bloco válido. O minerador transmite esse hash para seu pool, que se apressa em difundi-lo na rede Bitcoin. Este hash também é contado como uma ação válida para o minerador: `share > bloc > hash`.
 
-![](../../dictionnaire/assets/32.webp)
+
 
 Este sistema de partilha é utilizado para estimar o trabalho realizado por cada mineiro individual dentro de um grupo, sem ter de recalcular individualmente todos os hashes gerados por um mineiro, o que seria completamente ineficiente para o grupo.
 

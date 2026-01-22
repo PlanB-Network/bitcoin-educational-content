@@ -6,6 +6,6 @@ Sebuah struktur transaksi Bitcoin khusus yang meningkatkan privasi pengguna sela
 
 Transaksi _Payjoin_ memiliki dua tujuan. Pertama, _Payjoin_ bertujuan untuk menyesatkan pengamat eksternal dengan menciptakan umpan dalam analisis rantai pada _Common Input Ownership Heuristic_ (CIOH). Biasanya, ketika sebuah transaksi pada _blockchain_ memiliki beberapa input, diasumsikan bahwa semua input tersebut kemungkinan besar adalah milik entitas yang sama. Dengan demikian, ketika seorang analis memeriksa transaksi _Payjoin_, mereka akan percaya bahwa semua input berasal dari orang yang sama. Akan tetapi, persepsi ini tidak benar karena penerima pembayaran juga berkontribusi pada input bersama dengan pembayar yang sebenarnya. Kedua, _Payjoin_ juga menipu pengamat eksternal tentang jumlah pembayaran yang sebenarnya dilakukan. Dengan memeriksa struktur transaksi, analis mungkin mempercayai bahwa pembayaran tersebut setara dengan jumlah salah satu output. Pada kenyataannya, jumlah pembayaran tidak sesuai dengan salah satu output. Ini sebenarnya adalah perbedaan antara UTXO penerima dalam output dan UTXO penerima dalam input. Dalam hal ini, transaksi _Payjoin_ masuk ke dalam ranah steganografi. Hal ini memungkinkan untuk menyembunyikan jumlah transaksi yang sebenarnya di dalam sebuah transaksi palsu yang bertindak sebagai umpan.
 
-![](../../dictionnaire/assets/14.webp)
+
 
 > ► *Payjoin juga terkadang disebut "P2EP (Pay-to-End-Point)", "Stowaway", atau "transaksi steganografi".*

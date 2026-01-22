@@ -33,5 +33,5 @@ BIP pak v průběhu svého životního cyklu procházejí různými statusy. Akt
 - Aktivní: Tento status je přidělen pouze procesním BIP, jakmile je dosaženo určitého konsensu;
 - Nahrazeno / zastaralé: BIP již není použitelný nebo byl nahrazen novějším návrhem, který jej činí zbytečným.
 
-![](../../dictionnaire/assets/25.webp)
+
 

@@ -6,6 +6,6 @@ Specifická struktura transakce Bitcoin, která zvyšuje soukromí uživatele b�
 
 Transakce Payjoin plní dva cíle. Zaprvé má za cíl oklamat vnějšího pozorovatele vytvořením návnady v analýze řetězce na základě heuristiky společného vlastnictví vstupů (CIOH). Obvykle, když má transakce v blockchainu více vstupů, se předpokládá, že všechny tyto vstupy pravděpodobně patří stejnému subjektu. Když tedy analytik zkoumá transakci Payjoin, je veden k domněnce, že všechny vstupy pocházejí od stejné osoby. Toto vnímání je však nesprávné, protože na vstupech se vedle skutečného plátce podílí také příjemce platby. Za druhé, Payjoin také klame vnějšího pozorovatele ohledně skutečné výše provedené platby. Při zkoumání struktury transakce by se analytik mohl domnívat, že platba odpovídá částce jednoho z výstupů. Ve skutečnosti částka platby neodpovídá žádnému z výstupů. Ve skutečnosti je to rozdíl mezi UTXO příjemce na výstupu a UTXO příjemce na vstupu. V tomto směru spadá transakce Payjoin do oblasti steganografie. Umožňuje skrýt skutečnou částku transakce v rámci falešné transakce, která funguje jako návnada.
 
-![](../../dictionnaire/assets/14.webp)
+
 
 > ► *Payjoin se také někdy nazývá "P2EP (Pay-to-End-Point)", "Stowaway" nebo "steganografická transakce".*

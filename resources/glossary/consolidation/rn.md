@@ -11,4 +11,3 @@ Nkako, amafaranga akoreshwa n’ibintu vyinshi araremerera cane, ivyo bikaba bit
 Ariko rero, birahambaye kumenya ko amafaranga y’ugushiramwo ibintu ashobora kumenyekana mu gihe c’isesengura ry’uruhererekane. Mwene ukwo gucuruza kwerekana Common Input Ownership Heuristic (CIOH), bisobanura ko ivyinjijwe mu gucuruza gukorana ari ivy’ikigo kimwe. Ivyo bishobora kugira ingaruka ku bijanye n’ubuzima bwite bw’uwubikoresha.
 
 
-![](../../dictionnaire/assets/7.webp)

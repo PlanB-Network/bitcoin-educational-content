@@ -18,4 +18,3 @@ Walakini, Address inayopokea inaweza pia kuwakilisha kitu kingine kulingana na m
 Address inayopokea inaweza kuwakilishwa kwa njia ya mfuatano wa alphanumeric au kama msimbo wa QR. Kila Address inaweza kutumika mara nyingi, lakini hii ni mazoezi ya kukata tamaa. Hakika, ili kudumisha kiwango fulani cha faragha, inashauriwa kutumia kila Bitcoin Address mara moja tu. Address mpya inapaswa kuzalishwa kwa kila malipo yanayoingia kwa Wallet ya mtu. Address imesimbwa katika `Bech32` kwa anwani za SegWit V0, katika `Bech32m` kwa anwani za SegWit V1, na katika `Base58check` kwa anwani za Urithi. Kwa mtazamo wa kiufundi, kupokea Bitcoin hutafsiri kuwa kuwa na ufunguo wa faragha unaohusishwa na ufunguo wa umma (na hivyo Address). Mtu anapopokea bitcoins, mtumaji husasisha kikwazo kilichopo kwenye matumizi yake ili ni mpokeaji pekee anayeweza kuwa na nguvu hii.
 
 
-![](../../dictionnaire/assets/23.webp)

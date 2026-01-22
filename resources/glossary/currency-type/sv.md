@@ -12,4 +12,3 @@ I samband med deterministiska och hierarkiska (HD) plånböcker är valutatypen 
 - Ethereum: `0x8000003c`...
 
 
-![](../../dictionnaire/assets/21.webp)

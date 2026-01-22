@@ -33,5 +33,5 @@ Seejärel läbivad piiripunktid oma elutsükli jooksul erinevaid staatusi. Praeg
 - Aktiivne: Protsessi piiripunktide puhul määratakse see staatus pärast teatud konsensuse saavutamist;
 - Asendatud / Vananenud: Piirangut ei kohaldata enam või see on asendatud uuema ettepanekuga, mis muudab selle tarbetuks.
 
-![](../../dictionnaire/assets/25.webp)
+
 

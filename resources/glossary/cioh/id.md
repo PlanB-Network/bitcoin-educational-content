@@ -8,5 +8,5 @@ Heuristik analisis ini ditemukan oleh Satoshi Nakamoto sendiri, yang membahasnya
 
 Bahkan saat ini, CIOH tetap menjadi heuristik utama yang digunakan oleh perusahaan analisis rantai, bersama dengan penggunaan ulang alamat.
 
-![](../../dictionnaire/assets/13.webp)
+
 

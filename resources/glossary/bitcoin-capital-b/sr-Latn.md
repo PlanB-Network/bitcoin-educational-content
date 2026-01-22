@@ -13,4 +13,3 @@ Bitcoin je naziv za peer-to-peer elektronski gotovinski sistem koji je kreirao S
 Termin Bitcoin sa malim slovom „b“ je obično rezervisan za označavanje valute koja se trguje u ovom sistemu.
 
 
-![](../../dictionnaire/assets/41.webp)

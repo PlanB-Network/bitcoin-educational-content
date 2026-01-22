@@ -8,6 +8,6 @@ Raskuse sihtmärk on reguleeritav 256-bitine (64 baiti) arv, mis määrab plokki
 
 Seda eesmärki kohandatakse iga 2016. aasta plokkide kaupa (umbes iga kahe nädala tagant), kui toimub sündmus, mida nimetatakse "kohandamiseks" Raskustegur arvutatakse uuesti, võttes aluseks aja, mis kulus eelmiste 2016. aasta plokkide kaevandamiseks. Kui koguaeg on vähem kui kaks nädalat, suureneb raskusaste, kohandades eesmärki allapoole. Kui koguaeg on üle kahe nädala, väheneb raskusaste, kohandades eesmärki ülespoole. Eesmärk on säilitada keskmine kaevandamisaeg 10 minutit ploki kohta. See aeg iga ploki vahel aitab vältida Bitcoini võrgu jagunemist, mille tulemuseks on arvutusvõimsuse raiskamine. Raskuse sihtmärk on iga ploki päises, väljal "nBits". Kuna see väli on vähendatud 32 bitini ja eesmärk on tegelikult 256 bitti, on eesmärk tihendatud vähem täpsesse teaduslikku formaati.
 
-![](../../dictionnaire/assets/34.webp)
+
 
 > ► *Ne raskusastme eesmärki nimetatakse mõnikord ka "raskusastmeteguriks" Laiendatult võib sellele viidata selle kodeeringuga plokkide päises terminiga "nBits" *

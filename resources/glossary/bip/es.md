@@ -33,5 +33,5 @@ Los PIF pasan por diferentes estados a lo largo de su ciclo de vida. El estado a
 - Activo: Sólo para los PIF de proceso, este estado se asigna una vez alcanzado un determinado consenso;
 - Sustituido / Obsoleto: El PIF ya no es aplicable o ha sido sustituido por una propuesta más reciente que lo hace innecesario.
 
-![](../../dictionnaire/assets/25.webp)
+
 

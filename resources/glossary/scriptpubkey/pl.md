@@ -21,7 +21,7 @@ Odpowiednim `scriptSig` będzie:
 ```
 
 
-![](../../dictionnaire/assets/35.webp)
+
 
 
 > skrypt ten jest również czasami określany jako "skrypt blokujący" w języku angielskim

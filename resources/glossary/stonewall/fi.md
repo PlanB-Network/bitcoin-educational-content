@@ -12,7 +12,7 @@ Stonewall-tapahtumassa on siis vain kaksi roolia:
 - Lähettäjä, joka suorittaa varsinaisen maksun;
 - Vastaanottaja, joka ei välttämättä tiedä tapahtuman erityisluonnetta ja odottaa vain maksua lähettäjältä.
 
-![](../../dictionnaire/assets/33.webp)
+
 
 Stonewall-tapahtumat ovat käytettävissä sekä Samourai Wallet -sovelluksessa että Sparrow Wallet -ohjelmistossa.
 

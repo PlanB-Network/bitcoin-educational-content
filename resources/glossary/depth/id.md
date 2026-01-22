@@ -6,7 +6,7 @@ Dalam konteks dompet HD (_Hierarchical Deterministic_), kedalaman mengacu pada l
 
 tujuan (kedalaman 1), jenis mata uang (kedalaman 2), indeks akun (kedalaman 3), jenis rantai (kedalaman 4), dan indeks alamat spesifik (kedalaman 5).
 
-![](../../dictionnaire/assets/18.webp)
+
 
 Untuk berpindah dari satu kedalaman ke kedalaman berikutnya, proses derivasi digunakan dari sepasang kunci induk ke sepasang kunci anak.
 

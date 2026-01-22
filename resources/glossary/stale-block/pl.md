@@ -14,6 +14,6 @@ Odnosi się do bloku bez dzieci: ważny blok, ale wykluczony z głównego łańc
 - Porzucą `Blok A`, który nie jest już częścią głównego łańcucha. W ten sposób stał się on przestarzałym blokiem.
 
 
-![](../../dictionnaire/assets/9.webp)
+
 
 

@@ -11,4 +11,3 @@ En el contexto de los monederos deterministas y jerárquicos (HD), el tipo de mo
 - Dogecoin: `0x80000003`;
 - Ethereum: `0x8000003c`...
 
-![](../../dictionnaire/assets/21.webp)

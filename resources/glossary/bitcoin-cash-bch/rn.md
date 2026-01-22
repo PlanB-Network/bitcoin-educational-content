@@ -11,4 +11,3 @@ Mu gihe Bitcoin yashize mu ngiro SegWit (a Soft Fork) kugira ngo ishike ku kwiyo
 Intumbero yari iyo kugabanya amafaranga y’ugucuruza no gutuma ibihe vyo kwemeza bigenda neza.
 
 
-![](../../dictionnaire/assets/49.webp)

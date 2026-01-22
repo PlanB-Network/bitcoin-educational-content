@@ -8,4 +8,3 @@ Plattformen gjenspeilte Ross Ulbrichts agoristiske overbevisning, og fremmet et 
 
 Silk Road ble lagt ned i 2013. Ross Ulbricht ble arrestert samme år og dømt til to livstidsdommer pluss 40 år uten mulighet for prøveløslatelse, i tillegg til en bot på 183 millioner dollar. Denne dommen reiser spørsmål om proporsjonaliteten i straffer for ikke-voldelig kriminalitet på nettet. Ross sitter fortsatt fengslet i dag.
 
-![](../../dictionnaire/assets/24.webp)

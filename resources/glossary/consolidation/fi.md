@@ -8,4 +8,3 @@ Paljon panoksia sisältävät maksutapahtumat ovatkin raskaampia ja näin ollen 
 
 On kuitenkin tärkeää huomata, että konsolidointitapahtumat ovat tunnistettavissa ketjuanalyysin aikana. Tällainen liiketoimi osoittaa Common Input Ownership Heuristic (CIOH), mikä tarkoittaa, että konsolidointitapahtuman panokset omistaa yksi yksikkö. Tällä voi olla vaikutuksia käyttäjän yksityisyyteen.
 
-![](../../dictionnaire/assets/7.webp)

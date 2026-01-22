@@ -16,7 +16,7 @@ Voor elke berekende Hash kan een individuele Miner in een pool drie verschillend
 - Als de Hash lager is dan de moeilijkheidsdoelstelling van het Bitcoin netwerk, wordt het beschouwd als zowel een geldig aandeel als een geldig blok. De Miner zendt deze Hash naar hun pool, die zich haast om het uit te zenden op het Bitcoin netwerk. Deze Hash wordt ook geteld als een geldige share voor de Miner: `share > bloc > Hash`.
 
 
-![](../../dictionnaire/assets/32.webp)
+
 
 
 Dit deelsysteem wordt gebruikt om het werk te schatten dat door elke individuele Miner binnen een pool is gedaan, zonder dat alle hashes die door een Miner zijn gegenereerd individueel opnieuw berekend moeten worden, wat volledig inefficiënt zou zijn voor de pool.

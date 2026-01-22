@@ -6,7 +6,7 @@ HD (Hierarhical Deterministic) rahakottide kontekstis viitab sügavus võtme (av
 
 eesmärk (sügavus 1), valuuta liik (sügavus 2), konto (sügavus 3), ahela tüüp (sügavus 4) ja konkreetse aadressi indeks (sügavus 5).
 
-![](../../dictionnaire/assets/18.webp)
+
 
 Ühelt sügavuselt teisele liikumiseks kasutatakse tuletamisprotsessi vanemvõtmete paarilt lapsvõtmete paarile.
 

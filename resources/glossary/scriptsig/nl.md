@@ -24,7 +24,7 @@ OP_DUP OP_HASH160 OP_PUSHBYTES_20 <address> OP_EQUALVERIFY OP_CHECKSIG
 ```
 
 
-![](../../dictionnaire/assets/35.webp)
+
 
 
 > ► *Het `scriptSig` wordt in het Engels ook wel een "unlocking script" genoemd.*

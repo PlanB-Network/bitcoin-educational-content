@@ -14,4 +14,3 @@ Bitcoin ni izina ry’uburyo bwo gukoresha amahera y’ubuhinga bwa none bwakozw
 Ijambo Bitcoin rifise urudome rutoyi “b” muri rusangi rikoreshwa mu kwerekeza ku giciro c’amahera agurishwa kuri iyo sisitemu.
 
 
-![](../../dictionnaire/assets/41.webp)

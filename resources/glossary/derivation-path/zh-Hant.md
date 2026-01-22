@@ -26,4 +26,3 @@ term: 導出路徑
 - `5` 表示這是此帳戶的第六個外部 Address。
 
 
-![](../../dictionnaire/assets/18.webp)

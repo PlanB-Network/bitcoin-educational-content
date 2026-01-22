@@ -15,7 +15,7 @@ Det finns således endast två roller i en Stonewall-transaktion:
 - Mottagaren, som kanske inte är medveten om transaktionens specifika karaktär och helt enkelt väntar på en betalning från avsändaren.
 
 
-![](../../dictionnaire/assets/33.webp)
+
 
 Stonewall-transaktioner är tillgängliga både i Samourais Wallet-applikation och Sparrow wallet-programvaran.
 

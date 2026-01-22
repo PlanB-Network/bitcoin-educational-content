@@ -33,5 +33,5 @@ BIP-ene går deretter gjennom ulike statuser i løpet av livssyklusen. Den gjeld
 - Aktiv: Denne statusen tildeles kun for prosess-BIP-er når det er oppnådd en viss konsensus;
 - Erstattet/foreldet: BIP-en er ikke lenger aktuell eller har blitt erstattet av et nyere forslag som gjør den overflødig.
 
-![](../../dictionnaire/assets/25.webp)
+
 

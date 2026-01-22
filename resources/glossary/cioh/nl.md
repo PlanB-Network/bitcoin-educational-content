@@ -11,6 +11,6 @@ Deze analyse heuristiek werd ontdekt door Satoshi Nakamoto zelf, die het bespree
 Zelfs vandaag de dag is CIOH nog steeds de belangrijkste heuristiek die gebruikt wordt door bedrijven die ketenanalyses uitvoeren, samen met Address hergebruik.
 
 
-![](../../dictionnaire/assets/13.webp)
+
 
 

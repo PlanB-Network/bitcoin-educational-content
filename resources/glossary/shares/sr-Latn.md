@@ -16,7 +16,7 @@ Za svaki izračunati Hash, pojedinačni Miner u bazenu može naići na tri razli
 - Ako je Hash niži od ciljne težine mreže Bitcoin, smatra se i važećim deljenjem i važećim blokom. Miner prenosi ovaj Hash svom bazenu, koji žuri da ga emituje na mreži Bitcoin. Ovaj Hash se takođe računa kao važeće deljenje za Miner: `share > bloc > Hash`.
 
 
-![](../../dictionnaire/assets/32.webp)
+
 
 
 Ovaj sistem deljenja se koristi za procenu rada koji obavi svaki pojedinačni Miner unutar bazena, bez potrebe da se pojedinačno ponovo izračunavaju svi heševi koje generiše Miner, što bi bilo potpuno neefikasno za bazen.

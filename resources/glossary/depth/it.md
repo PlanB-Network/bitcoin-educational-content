@@ -6,7 +6,7 @@ Nel contesto dei portafogli HD (Hierarchical Deterministic), la profondità si r
 
 lo scopo (profondità 1), il tipo di valuta (profondità 2), il conto (profondità 3), il tipo di catena (profondità 4) e l'indice dell'indirizzo specifico (profondità 5).
 
-![](../../dictionnaire/assets/18.webp)
+
 
 Per passare da una profondità all'altra, si utilizza un processo di derivazione da una coppia di chiavi genitore a una coppia di chiavi figlio.
 

@@ -8,7 +8,7 @@ CoinJoin ni mbinu inayotumiwa kuvunja ufuatiliaji wa bitcoins. Inategemea shughu
 Uendeshaji wa jumla wa CoinJoin ni kama ifuatavyo: watumiaji mbalimbali wanaotaka kuchanganya kiasi cha amana kama ingizo la muamala. Ingizo hizi zitatoka kama matokeo tofauti ya kiasi sawa. Mwishoni mwa shughuli, haiwezekani kuamua ni pato gani ni la mtumiaji gani. Kitaalam hakuna kiungo kati ya pembejeo na matokeo ya muamala wa CoinJoin. Kiungo kati ya kila mtumiaji na kila UTXO imevunjwa, kwa njia sawa na historia ya kila sarafu.
 
 
-![](../../dictionnaire/assets/4.webp)
+
 
 
 Ili kuruhusu CoinJoin bila mtumiaji yeyote kupoteza udhibiti wa pesa zake wakati wowote, shughuli ya kwanza inaundwa na mratibu na kisha kutumwa kwa kila mtumiaji. Kisha kila mmoja hutia saini muamala kwa upande wake baada ya kuthibitisha kuwa inawafaa, na kisha saini zote huongezwa kwenye shughuli hiyo. Ikiwa mtumiaji au mratibu atajaribu kuiba fedha za wengine kwa kurekebisha matokeo ya shughuli ya CoinJoin, basi sahihi zitakuwa batili na shughuli hiyo itakataliwa na nodi. Wakati urekodiji wa matokeo ya washiriki unafanywa kwa kutumia sahihi za upofu za Chaum ili kuepuka kiungo kilicho na ingizo, hii inajulikana kama "Chaumian CoinJoin".

@@ -8,7 +8,7 @@ En publik nyckel används i skript (antingen direkt i form av en publik nyckel e
 Om vi förenklar detta till området för reella tal, givet att den elliptiska kurvan är symmetrisk med avseende på x-axeln, finns det för varje punkt $P$ (`x, y`) på kurvan en punkt $P'$ (`x, -y`) som också kommer att ligga på samma kurva. Detta innebär att för varje `x` finns det bara två möjliga värden på `y`, positiva och negativa. Till exempel, för en given abscissa `x`, skulle det finnas två punkter $P1$ och $P2$ på den elliptiska kurvan, som delar samma abscissa men med motsatta ordinater:
 
 
-![](../../dictionnaire/assets/29.webp)
+
 
 För att välja mellan de två potentiella punkterna på kurvan läggs ett prefix som anger vilken `y` som ska väljas till `x`. Med den här metoden kan storleken på en publik nyckel minskas från 520 bitar till endast 264 bitar (8 bitar för prefixet + 256 bitar för `x`). Denna representation kallas för den komprimerade formen av den publika nyckeln.
 

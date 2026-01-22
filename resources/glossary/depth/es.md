@@ -6,7 +6,7 @@ En el contexto de los monederos HD (Hierarchical Deterministic), la profundidad 
 
 el propósito (profundidad 1), el tipo de moneda (profundidad 2), la cuenta (profundidad 3), el tipo de cadena (profundidad 4) y el índice de la dirección específica (profundidad 5).
 
-![](../../dictionnaire/assets/18.webp)
+
 
 Para pasar de una profundidad a otra, se utiliza un proceso de derivación de un par de claves padre a un par de claves hijo.
 

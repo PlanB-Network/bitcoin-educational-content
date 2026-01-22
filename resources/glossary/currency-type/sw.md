@@ -12,4 +12,3 @@ Katika muktadha wa pochi za kubainisha na za daraja (HD), aina ya sarafu (*aina 
 - Ethereum: `0x8000003c`...
 
 
-![](../../dictionnaire/assets/21.webp)

@@ -6,7 +6,7 @@ Un protocolo coinjoin que utiliza las firmas ciegas de David Chaum y Tor para la
 
 Para ello, los usuarios envían al coordinador su entrada y una dirección de recepción criptográficamente cegada. Esta dirección, una vez desbloqueada, está destinada a recibir los bitcoins como salida del coinjoin. El coordinador firma estas fichas y las devuelve a los usuarios. A continuación, los usuarios vuelven a conectarse de forma anónima al servidor del coordinador con una nueva identidad Tor y revelan sus direcciones de salida en texto plano para la construcción de la transacción. El coordinador puede verificar que todas estas direcciones de recepción provienen de usuarios legítimos, ya que ha firmado previamente su versión ciega con su clave privada. Sin embargo, no puede asociar una dirección de salida concreta a un usuario de entrada determinado. Por lo tanto, no existe ningún vínculo entre las entradas y las salidas, ni siquiera desde la perspectiva del coordinador. Una vez que el coordinador construye la transacción, la envía a los participantes, que la firman para desbloquear su entrada, después de verificar que su salida está realmente en esta transacción. Los participantes envían la firma al coordinador. Una vez recogidas todas las firmas, el coordinador puede difundir la transacción coinjoin en la red Bitcoin.
 
-![](../../dictionnaire/assets/38.webp)
+
 
 Este método garantiza que el coordinador no pueda comprometer el anonimato de los participantes ni robar los bitcoins durante todo el proceso de coinjoin.
 

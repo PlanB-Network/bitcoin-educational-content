@@ -15,6 +15,6 @@ OP_DUP OP_HASH160 OP_PUSHBYTES_20 <address> OP_EQUALVERIFY OP_CHECKSIG
 <signature> <public key>
 ```
 
-![](../../dictionnaire/assets/35.webp)
+
 
 > このスクリプトは英語では "locking script "と呼ばれることもある。

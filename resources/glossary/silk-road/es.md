@@ -8,4 +8,3 @@ La plataforma reflejaba las convicciones agoristas de Ross Ulbricht, que promov�
 
 Silk Road fue clausurada en 2013. Ross Ulbricht fue detenido ese mismo año y condenado a dos cadenas perpetuas más 40 años, sin posibilidad de libertad condicional, junto con una multa de 183 millones de dólares. Esta condena plantea interrogantes sobre la proporcionalidad de las penas por delitos online no violentos. Ross sigue encarcelado en la actualidad.
 
-![](../../dictionnaire/assets/24.webp)

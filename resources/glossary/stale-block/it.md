@@ -13,5 +13,5 @@ Si riferisce a un blocco senza figli: un blocco valido, ma escluso dalla catena 
 - Poiché i nodi seguono la catena più lunga (con il maggior numero di lavoro accumulato), riterranno che la "catena B" sia quella da seguire;
 - Abbandoneranno il "blocco A" che non fa più parte della catena principale. È quindi diventato un blocco obsoleto.
 
-![](../../dictionnaire/assets/9.webp)
+
 

@@ -31,4 +31,3 @@ term: 파생 경로
 '5'는 이 계정의 여섯 번째 외부 Address임을 나타냅니다.
 
 
-![](../../dictionnaire/assets/18.webp)

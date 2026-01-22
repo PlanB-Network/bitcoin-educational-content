@@ -8,4 +8,3 @@ Platvorm peegeldas Ross Ulbrichti agoristlikke veendumusi, propageerides vaba ja
 
 Silk Road suleti 2013. aastal. Ross Ulbricht arreteeriti samal aastal ja talle mõisteti kaks eluaegset vanglakaristust pluss 40 aastat ilma tingimisi vabastamise võimaluseta ning 183 miljoni dollari suurune trahv. See kohtuotsus tõstatab küsimuse mittevägivaldsete veebikuritegude eest määratavate karistuste proportsionaalsuse kohta. Ross on tänaseni vangis.
 
-![](../../dictionnaire/assets/24.webp)

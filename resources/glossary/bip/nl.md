@@ -38,6 +38,6 @@ BIP's doorlopen dan verschillende statussen tijdens hun levenscyclus. De huidige
 - Vervangen / Achterhaald: Het GIP is niet langer van toepassing of is vervangen door een recenter voorstel dat het overbodig maakt.
 
 
-![](../../dictionnaire/assets/25.webp)
+
 
 

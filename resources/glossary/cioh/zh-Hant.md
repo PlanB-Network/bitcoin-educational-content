@@ -11,6 +11,6 @@ term: CIOH
 時至今日，CIOH 與 Address 重複使用仍是連鎖分析公司使用的主要啟發式。
 
 
-![](../../dictionnaire/assets/13.webp)
+
 
 

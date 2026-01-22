@@ -8,5 +8,5 @@ Questa euristica di analisi è stata scoperta dallo stesso Satoshi Nakamoto, che
 
 Ancora oggi, il CIOH rimane la principale euristica utilizzata dalle società di analisi delle catene, insieme al riutilizzo degli indirizzi.
 
-![](../../dictionnaire/assets/13.webp)
+
 

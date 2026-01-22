@@ -26,4 +26,3 @@ Hiyerarşik Deterministik (HD) cüzdanlar bağlamında, türetme yolu, bir ana a
 - 5` bu hesabın altıncı harici Address olduğunu gösterir.
 
 
-![](../../dictionnaire/assets/18.webp)

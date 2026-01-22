@@ -16,7 +16,7 @@ Hesaplanan her bir Hash için, bir havuzdaki bireysel bir Miner üç farklı sen
 - Hash, Bitcoin ağının zorluk hedefinden düşükse, hem geçerli bir paylaşım hem de geçerli bir blok olarak kabul edilir. Miner bu Hash'i kendi havuzuna iletir, havuz da bunu Bitcoin ağında yayınlamak için acele eder. Bu Hash aynı zamanda Miner için geçerli bir paylaşım olarak sayılır: `share > bloc > Hash`.
 
 
-![](../../dictionnaire/assets/32.webp)
+
 
 
 Bu paylaşım sistemi, bir Miner tarafından üretilen tüm karmaları ayrı ayrı yeniden hesaplamak zorunda kalmadan, bir havuzdaki her bir Miner tarafından yapılan işi tahmin etmek için kullanılır, bu da havuz için tamamen verimsiz olacaktır.

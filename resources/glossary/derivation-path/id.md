@@ -21,4 +21,4 @@ Sebagai contoh, jika alamat penerima saya memiliki jalur turunan `m / 86' / 0' /
 - `0` menunjukkan bahwa itu adalah alamat eksternal;
 - `5` menunjukkan bahwa ini adalah alamat eksternal keenam dari akun ini.
 
-![](../../dictionnaire/assets/18.webp)
+

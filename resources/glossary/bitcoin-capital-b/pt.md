@@ -11,4 +11,3 @@ Bitcoin é o nome do sistema de dinheiro eletrónico peer-to-peer criado por Sat
 
 O termo bitcoin, com um "b" minúsculo, é geralmente reservado para designar a unidade monetária transaccionada neste sistema.
 
-![](../../dictionnaire/assets/41.webp)

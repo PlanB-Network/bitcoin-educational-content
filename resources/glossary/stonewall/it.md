@@ -12,7 +12,7 @@ Pertanto, ci sono solo 2 ruoli in una transazione Stonewall:
 - Il mittente, che effettua il pagamento effettivo;
 - Il destinatario, che potrebbe non essere a conoscenza della natura specifica della transazione e attende semplicemente il pagamento da parte del mittente.
 
-![](../../dictionnaire/assets/33.webp)
+
 
 Le transazioni Stonewall sono disponibili sia sull'applicazione Samourai Wallet che sul software Sparrow Wallet.
 

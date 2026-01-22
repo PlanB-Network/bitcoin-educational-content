@@ -8,7 +8,7 @@ Javni ključ se koristi u skriptama (bilo direktno u obliku javnog ključa ili k
 Ako ovo pojednostavimo na polje realnih brojeva, s obzirom da je eliptična kriva simetrična u odnosu na x-osu, za bilo koju tačku $P$ (`x, y`) na krivi, postoji tačka $P'$ (`x, -y`) koja će takođe biti na istoj krivi. To znači da za svaku `x` postoje samo dve moguće vrednosti `y`, pozitivna i negativna. Na primer, za datu apscisu `x`, postojale bi dve tačke $P1$ i $P2$ na eliptičnoj krivi, koje dele istu apscisu, ali sa suprotnim ordinatama:
 
 
-![](../../dictionnaire/assets/29.webp)
+
 
 Da bi se izabrala između dve potencijalne tačke na krivi, prefiks koji specificira koji `y` da se izabere dodaje se `x`. Ova metoda omogućava smanjenje veličine javnog ključa sa 520 bita na samo 264 bita (8 bita prefiksa + 256 bita za `x`). Ova reprezentacija je poznata kao kompresovani oblik javnog ključa.
 

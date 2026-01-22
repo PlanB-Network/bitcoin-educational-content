@@ -10,4 +10,3 @@ Kryptowährungssystem, das aus einer harten Abspaltung von Bitcoin Cash (BCH) he
 
 Bitcoin SV unterscheidet sich von Bitcoin Cash und noch mehr von Bitcoin durch seine deutlich höhere Blockgrößenbegrenzung. Dieses Merkmal zielt darauf ab, mit dem übereinzustimmen, was seine Befürworter als Satoshi Nakamotos ursprüngliche Vision für Bitcoin betrachten.
 
-![](../../dictionnaire/assets/50.webp)

@@ -21,7 +21,7 @@ Ivyo bihuye n'ivyo `scriptSig` vyoba:
 ```
 
 
-![](../../dictionnaire/assets/35.webp)
+
 
 
 > ► *Iyi nyandiko nayo rimwe na rimwe yitwa "inyandiko yo gufunga" mu congereza.*

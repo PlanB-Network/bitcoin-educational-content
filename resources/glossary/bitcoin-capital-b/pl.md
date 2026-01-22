@@ -13,4 +13,3 @@ Bitcoin to nazwa elektronicznego systemu gotówkowego peer-to-peer stworzonego p
 Termin Bitcoin z małą literą "b" jest ogólnie zarezerwowany dla jednostki walutowej będącej przedmiotem obrotu w tym systemie.
 
 
-![](../../dictionnaire/assets/41.webp)

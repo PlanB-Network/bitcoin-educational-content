@@ -18,4 +18,3 @@ Odbierający Address może jednak reprezentować coś innego, w zależności od 
 Odbierający Address może być reprezentowany w postaci ciągu alfanumerycznego lub kodu QR. Każdy Address może być używany wielokrotnie, ale jest to wysoce odradzana praktyka. W rzeczywistości, w celu zachowania pewnego poziomu prywatności, zaleca się użycie każdego Bitcoin Address tylko raz. Nowy Address powinien być generowany dla każdej płatności przychodzącej na Wallet. Address jest kodowany w `Bech32` dla adresów SegWit V0, w `Bech32m` dla adresów SegWit V1 i w `Base58check` dla adresów Legacy. Z technicznego punktu widzenia otrzymanie Bitcoin przekłada się na posiadanie klucza prywatnego powiązanego z kluczem publicznym (a tym samym Address). Kiedy ktoś otrzymuje bitcoiny, nadawca aktualizuje istniejące ograniczenie dotyczące ich wydawania, tak aby tylko odbiorca mógł teraz mieć tę moc.
 
 
-![](../../dictionnaire/assets/23.webp)

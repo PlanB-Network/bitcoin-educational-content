@@ -14,4 +14,3 @@ Bitcoin 캐시(BCH)의 Hard Fork에서 파생된 암호화폐 시스템으로, �
 Bitcoin SV는 블록 크기 제한이 훨씬 더 높다는 점에서 Bitcoin 캐시, 더 나아가 Bitcoin(BTC)과 다르며, 지지자들은 Satoshi 나카모토의 원래 비전을 더 잘 반영한다고 주장합니다.
 
 
-![](../../dictionnaire/assets/50.webp)

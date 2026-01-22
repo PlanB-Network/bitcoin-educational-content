@@ -13,7 +13,7 @@ Harcamaya dahil olmayan üçüncü bir tarafla işbirliği yaparak bir harcama s
 - Alıcı, işlemin özel niteliğinden habersiz olabilir ve sadece göndericiden bir ödeme bekler.
 
 
-![](../../dictionnaire/assets/3.webp)
+
 
 
 Stonewall x2 yapısı işleme çok fazla entropi ekler ve zincir analizinin izlerini karıştırır. Dışarıdan bakıldığında, böyle bir işlem iki kişi arasında küçük bir CoinJoin olarak yorumlanabilir. Ancak gerçekte bu bir ödemedir. Dolayısıyla bu yöntem zincir analizinde belirsizlikler yaratır, hatta yanlış izlere yol açar. Dışarıdan bir gözlemci Stonewall x2 işleminin modelini tespit etmeyi başarsa bile, tüm bilgilere sahip olmayacaktır. Eşit miktarlardaki iki UTXO'dan hangisinin ödemeye karşılık geldiğini belirleyemeyeceklerdir. Dahası, ödemeyi kimin yaptığını da bilemeyeceklerdir. Son olarak, iki girdi UTXO'sunun iki farklı kişiden mi geldiğini yoksa bunları birleştiren tek bir kişiye mi ait olduğunu belirleyemeyeceklerdir. Bu son nokta, klasik Stonewall işlemlerinin Stonewall x2 işlemleri ile tamamen aynı modeli izlemesinden kaynaklanmaktadır. Dışarıdan bakıldığında ve bağlam hakkında ek bilgi olmadan, bir Stonewall işlemini bir Stonewall x2 işleminden ayırt etmek imkansızdır. Ancak, birincisi işbirliğine dayalı işlemler değilken, ikincisi öyledir. Bu da harcamalar hakkında daha da fazla şüphe uyandırmaktadır.

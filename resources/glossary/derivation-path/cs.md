@@ -21,4 +21,3 @@ Pokud má například moje přijímací adresa odvozovací cestu `m / 86' / 0' /
 - `0` znamená, že se jedná o externí adresu;
 - `5` znamená, že se jedná o šestou externí adresu tohoto účtu.
 
-![](../../dictionnaire/assets/18.webp)

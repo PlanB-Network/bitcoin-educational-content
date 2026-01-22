@@ -11,4 +11,3 @@ Hakika, shughuli na pembejeo nyingi ni nzito na, kwa hiyo, ni ghali zaidi. Zaidi
 Hata hivyo, ni muhimu kutambua kwamba shughuli za ujumuishaji zinatambulika wakati wa uchambuzi wa mlolongo. Muamala kama huo unaonyesha Ingizo la Kawaida la Ownership Heuristic (CIOH), kumaanisha kuwa pembejeo za muamala wa ujumuishaji zinamilikiwa na huluki moja. Hii inaweza kuwa na athari katika suala la faragha kwa mtumiaji.
 
 
-![](../../dictionnaire/assets/7.webp)

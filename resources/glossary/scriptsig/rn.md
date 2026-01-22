@@ -24,7 +24,7 @@ OP_DUP OP_HASH160 OP_PUSHBYTES_20 <address> OP_EQUALVERIFY OP_CHECKSIG
 ```
 
 
-![](../../dictionnaire/assets/35.webp)
+
 
 
 > ► *Ico `scriptSig` na co nyene rimwe na rimwe citwa "inyandiko yo gufungura" mu congereza.*

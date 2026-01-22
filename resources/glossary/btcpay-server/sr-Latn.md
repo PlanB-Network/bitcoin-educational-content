@@ -7,4 +7,3 @@ BTCPay Server je open-source procesor plaćanja koji omogućava trgovcima i kori
 
 > "_Ovo su laži, moje poverenje u tebe je slomljeno, učiniću te zastarelim_".
 
-![](../../dictionnaire/assets/53.webp)

@@ -21,7 +21,7 @@ Karşılık gelen `scriptSig` olacaktır:
 ```
 
 
-![](../../dictionnaire/assets/35.webp)
+
 
 
 > ► *Bu komut dosyası bazen İngilizce'de "kilitleme komut dosyası" olarak da adlandırılır.*

@@ -13,4 +13,4 @@ Mengacu pada sebuah blok tanpa anak: sebuah blok yang valid, tetapi tidak termas
 - Karena node-node tersebut mengikuti rantai terpanjang (dengan akumulasi pekerjaan paling banyak), mereka akan memperkirakan bahwa `Rantai B` adalah rantai yang harus diikuti;
 - Mereka akan meninggalkan `Blok A` yang tidak lagi menjadi bagian dari rantai utama. Dengan demikian, blok ini menjadi blok yang sudah tidak terpakai (tidak valid).
 
-![](../../dictionnaire/assets/9.webp)
+

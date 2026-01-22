@@ -6,7 +6,7 @@ V kontextu HD (Hierarchical Deterministic) peněženek se hloubka vztahuje na ko
 
 účel (hloubka 1), typ měny (hloubka 2), účet (hloubka 3), typ řetězce (hloubka 4) a index konkrétní adresy (hloubka 5).
 
-![](../../dictionnaire/assets/18.webp)
+
 
 Pro přechod z jedné hloubky do druhé se používá proces odvození z dvojice nadřazených klíčů na dvojici podřazených klíčů.
 

@@ -33,5 +33,5 @@ As PIF passam então por diferentes estados ao longo do seu ciclo de vida. O est
 - Ativo: Apenas para os PIF de processo, este estatuto é atribuído quando se atinge um determinado consenso;
 - Substituído / Obsoleto: O PIF já não é aplicável ou foi substituído por uma proposta mais recente que o torna desnecessário.
 
-![](../../dictionnaire/assets/25.webp)
+
 

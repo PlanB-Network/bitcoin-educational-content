@@ -12,7 +12,7 @@ Seega on Stonewalli tehingus ainult 2 rolli:
 - Saatja, kes teeb tegeliku makse;
 - Vastuvõtja, kes ei pruugi olla teadlik tehingu eripärast ja ootab lihtsalt saatjalt makset.
 
-![](../../dictionnaire/assets/33.webp)
+
 
 Stonewall-tehingud on saadaval nii Samourai Wallet'i rakenduses kui ka Sparrow Wallet'i tarkvaras.
 

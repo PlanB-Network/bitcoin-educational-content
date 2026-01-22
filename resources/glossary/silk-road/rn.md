@@ -12,4 +12,4 @@ Iryo koraniro ryari rigaragaza ivyiyumviro vya Ross Ulbricht vy’abanyagihugu, 
 Silk Road yafunzwe mu mwaka w’2013.Ross Ulbricht yafashwe muri uwo mwaka nyene, acirirwa ibihano bibiri vy’ubuzima bwiwe bwose yongerako imyaka 40, ata n’ubushobozi bwo kurekurwa ataco akora, hamwe n’ihazabu y’amadolari imiliyoni 183. Ico gihano kiravyura ibibazo ku bijanye n’ingene ibihano vy’ubugizi bwa nabi bitarimwo ubukazi biri kuri Internet bingana. Ross aracari mw’ibohero n’ubu.
 
 
-![](../../dictionnaire/assets/24.webp)
+

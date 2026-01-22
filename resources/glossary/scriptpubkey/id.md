@@ -16,6 +16,6 @@ OP_DUP OP_HASH160 OP_PUSHBYTES_20 <address> OP_EQUALVERIFY OP_CHECKSIG
 <signature> <public key>
 ```
 
-![](../../dictionnaire/assets/35.webp)
+
 
 > ► *Skrip ini juga terkadang disebut sebagai "skrip pengunci", atau "locking script" dalam bahasa Inggris.*

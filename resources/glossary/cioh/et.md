@@ -8,5 +8,5 @@ Selle analüüsiheuristika avastas Satoshi Nakamoto ise, kes arutab seda valge r
 
 CIOH on ka praegu koos aadressi taaskasutamisega peamine heuristiline meetod, mida ahelate analüüsi ettevõtted kasutavad.
 
-![](../../dictionnaire/assets/13.webp)
+
 

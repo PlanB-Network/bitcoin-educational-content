@@ -12,4 +12,3 @@ term: Bitcoin Satoshi Vision (BSV)
 Bitcoin SV 有別於 Bitcoin Cash，更有別於 Bitcoin，因為它的區塊大小限制明顯較高。這個特性的目的是要符合其支持者所認為的 Satoshi Nakamoto 對 Bitcoin 的原始願景。
 
 
-![](../../dictionnaire/assets/50.webp)

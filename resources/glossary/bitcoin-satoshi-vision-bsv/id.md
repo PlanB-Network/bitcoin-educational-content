@@ -9,4 +9,4 @@ Sistem mata uang kripto yang dihasilkan dari _hard fork_ Bitcoin Cash (BCH), yan
 
 Bitcoin SV membedakan dirinya dari Bitcoin Cash, dan terlebih lagi dari Bitcoin, dengan batas ukuran blok yang jauh lebih tinggi. Karakteristik ini bertujuan untuk menyelaraskan dengan apa yang dianggap oleh para pendukungnya sebagai visi awal Satoshi Nakamoto untuk Bitcoin.
 
-![](../../dictionnaire/assets/50.webp)
+

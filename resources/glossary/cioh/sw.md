@@ -11,6 +11,6 @@ Uchanganuzi huu wa heuristic uligunduliwa na Satoshi Nakamoto mwenyewe, ambaye a
 Hata leo, CIOH inasalia kuwa njia kuu inayotumiwa na kampuni za uchanganuzi wa minyororo, pamoja na utumiaji tena wa Address.
 
 
-![](../../dictionnaire/assets/13.webp)
+
 
 

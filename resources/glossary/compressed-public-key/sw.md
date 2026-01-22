@@ -8,7 +8,7 @@ Ufunguo wa umma hutumiwa katika hati (moja kwa moja kwa njia ya ufunguo wa umma 
 Iwapo tutarahisisha hili kwa uga wa nambari halisi, ikizingatiwa mkunjo wa duaradufu una ulinganifu kwa heshima na mhimili wa x, kwa nukta yoyote $P$ (`x, y`) kwenye mkunjo, kuna uhakika $P'$ (`x, -y`) ambayo pia itakuwa kwenye mkunjo huu huu. Hii ina maana kwamba kwa kila `x`, kuna thamani mbili tu zinazowezekana za `y`, chanya na hasi. Kwa mfano, kwa abscissa `x` iliyotolewa, kungekuwa na alama mbili $P1$ na $P2$ kwenye mkunjo wa duaradufu, zikishiriki abscissa ile ile lakini na viratibu tofauti:
 
 
-![](../../dictionnaire/assets/29.webp)
+
 
 Ili kuchagua kati ya pointi mbili zinazowezekana kwenye ukingo, kiambishi awali kinachobainisha ni `y` ya kuchagua kinaongezwa kwa `x`. Njia hii inaruhusu kupunguza ukubwa wa ufunguo wa umma kutoka biti 520 hadi biti 264 pekee (biti 8 za kiambishi awali + biti 256 za `x`). Uwakilishi huu unajulikana kama aina iliyobanwa ya ufunguo wa umma.
 

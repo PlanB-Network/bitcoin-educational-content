@@ -11,4 +11,3 @@ V kontextu deterministických a hierarchických (HD) peněženek je typ měny (a
 - Dogecoin: `0x80000003`;
 - Ethereum: `0x8000003c`...
 
-![](../../dictionnaire/assets/21.webp)

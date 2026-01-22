@@ -8,7 +8,7 @@ CoinJoin je tehnika koja se koristi za prekidanje sledljivosti bitkoina. Oslanja
 Opšta operacija CoinJoin je sledeća: različiti korisnici koji žele da mešaju deponuju iznos kao ulaz transakcije. Ovi ulazi će izaći kao različiti izlazi istog iznosa. Na kraju transakcije, nemoguće je odrediti koji izlaz pripada kojem korisniku. Tehnički ne postoji veza između ulaza i izlaza CoinJoin transakcije. Veza između svakog korisnika i svakog UTXO je prekinuta, na isti način kao što je istorija svake kovanice.
 
 
-![](../../dictionnaire/assets/4.webp)
+
 
 
 Da bi se omogućio CoinJoin bez da bilo koji korisnik izgubi kontrolu nad svojim sredstvima u bilo kom trenutku, transakciju prvo konstruira koordinator, a zatim je prenosi svakom korisniku. Svaki korisnik zatim potpisuje transakciju na svojoj strani nakon što proveri da li mu odgovara, a zatim se svi potpisi dodaju transakciji. Ako korisnik ili koordinator pokuša da ukrade sredstva drugih menjajući izlaze CoinJoin transakcije, potpisi će biti nevažeći i transakcija će biti odbijena od strane čvorova. Kada se beleženje izlaza učesnika vrši korišćenjem Chaumovih slepih potpisa kako bi se izbegla veza sa ulazom, to se naziva "Chaumian CoinJoin".

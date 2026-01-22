@@ -10,4 +10,3 @@ Sistema de criptomoneda resultante de una bifurcación dura de Bitcoin Cash (BCH
 
 Bitcoin SV se distingue de Bitcoin Cash, y aún más de Bitcoin, por su límite de tamaño de bloque significativamente mayor. Esta característica pretende alinearse con lo que sus partidarios consideran la visión original de Satoshi Nakamoto para Bitcoin.
 
-![](../../dictionnaire/assets/50.webp)

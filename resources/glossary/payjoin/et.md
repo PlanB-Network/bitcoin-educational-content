@@ -6,6 +6,6 @@ Konkreetne Bitcoini tehingu struktuur, mis suurendab kasutaja privaatsust kulutu
 
 Payjoini tehing täidab kaks eesmärki. Esiteks on selle eesmärk eksitada välist vaatlejat, luues ahelanalüüsis ühise sisendi omandiõiguse heuristikal (CIOH) põhineva peibutussüsteemi. Tavaliselt, kui tehingul on plokiahelas mitu sisendit, eeldatakse, et kõik need sisendid kuuluvad tõenäoliselt samale üksusele. Seega, kui analüütik uurib Payjoini tehingut, usutakse, et kõik sisendid pärinevad samalt isikult. See arusaam on aga vale, sest lisaks tegelikule maksjale panustab sisenditesse ka makse saaja. Teiseks petab Payjoin ka välist vaatlejat tehtud makse tegeliku summa osas. Tehingu struktuuri uurides võib analüütik arvata, et makse on võrdne ühe väljundi summaga. Tegelikkuses ei vasta makse summa ühelegi väljundile. See on tegelikult erinevus saaja UTXO väljundi ja saaja UTXO sisendi vahel. Sellega langeb Payjoini tehing steganograafia valdkonda. See võimaldab varjata tehingu tegelikku summat valetehingu sisse, mis toimib peibutajana.
 
-![](../../dictionnaire/assets/14.webp)
+
 
 > ► *Payjoin'i nimetatakse mõnikord ka "P2EP (Pay-to-End-Point)", "Stowaway" või "steganograafiline tehing"*

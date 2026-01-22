@@ -12,7 +12,7 @@ Por lo tanto, sólo hay 2 papeles en una transacción Stonewall:
 - El remitente, que realiza el pago efectivo;
 - El destinatario, que puede desconocer la naturaleza específica de la transacción y simplemente espera el pago del remitente.
 
-![](../../dictionnaire/assets/33.webp)
+
 
 Las transacciones Stonewall están disponibles tanto en la aplicación Samourai Wallet como en el software Sparrow Wallet.
 

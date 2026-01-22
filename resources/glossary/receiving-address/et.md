@@ -15,4 +15,3 @@ Vastuvõtuaadress võib aga sõltuvalt kasutatavast skripti mudelist esindada ka
 
 Vastuvõtuaadressi võib esitada tähtnumbrilise stringina või QR-koodina. Iga aadressi võib kasutada mitu korda, kuid see on väga ebasoodne praktika. Teatud privaatsuse säilitamiseks soovitatakse iga Bitcoini aadressi kasutada ainult üks kord. Iga rahakotti saabuva makse jaoks tuleks luua uus aadress. SegWit V0 aadresside puhul on aadress kodeeritud kujul `Bech32`, SegWit V1 aadresside puhul `Bech32m` ja Legacy aadresside puhul `Base58check`. Tehnilisest vaatenurgast tähendab bitcoini saamine avaliku võtmega (ja seega aadressiga) seotud eravõti omamist. Kui keegi saab bitcoin'e, uuendab saatja olemasolevat piirangut oma kulutuste kohta, nii et ainult vastuvõtja saab nüüd seda võimu omada.
 
-![](../../dictionnaire/assets/23.webp)

@@ -12,4 +12,3 @@ W kontekście portfeli deterministycznych i hierarchicznych (HD), typ waluty (*c
 - Ethereum: `0x8000003c`...
 
 
-![](../../dictionnaire/assets/21.webp)

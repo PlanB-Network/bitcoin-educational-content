@@ -15,4 +15,3 @@ No entanto, um endereço de receção também pode representar outra coisa, depe
 
 Um endereço de receção pode ser representado sob a forma de uma cadeia alfanumérica ou de um código QR. Cada endereço pode ser usado várias vezes, mas esta é uma prática altamente desencorajada. De facto, para manter um certo nível de privacidade, é aconselhável usar cada endereço Bitcoin apenas uma vez. Um novo endereço deve ser gerado para cada pagamento recebido na carteira. Um endereço é codificado em `Bech32` para endereços SegWit V0, em `Bech32m` para endereços SegWit V1, e em `Base58check` para endereços Legacy. De um ponto de vista técnico, receber bitcoin traduz-se em possuir a chave privada associada a uma chave pública (e, portanto, um endereço). Quando alguém recebe bitcoins, o remetente actualiza a restrição existente sobre os seus gastos para que apenas o destinatário possa agora ter este poder.
 
-![](../../dictionnaire/assets/23.webp)

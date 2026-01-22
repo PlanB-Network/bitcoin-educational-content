@@ -52,6 +52,6 @@ BIPs rero zica mu bihe bitandukanye mu kiringo c’ubuzima bwazo. Ivyo ubu birik
 **Yasubirijwe / Yaciye:** BIP ntikigikora canke yasubirijwe n’iciyumviro gishasha gituma idakenewe.
 
 
-![](../../dictionnaire/assets/25.webp)
+
 
 

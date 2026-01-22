@@ -13,4 +13,3 @@ Bitcoin är namnet på det elektroniska peer-to-peer-kontantsystem som skapades 
 Termen Bitcoin med ett gemen "b" används i allmänhet för att hänvisa till den valutaenhet som handlas på detta system.
 
 
-![](../../dictionnaire/assets/41.webp)

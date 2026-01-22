@@ -7,7 +7,7 @@ Katika muktadha wa pochi za HD (Hierarchical Deterministic), kina kinarejelea ki
 kusudi (kina 1), aina ya sarafu (kina 2), akaunti (kina 3), aina ya mnyororo (kina 4), na faharisi ya Address maalum (kina 5).
 
 
-![](../../dictionnaire/assets/18.webp)
+
 
 
 Kusonga kutoka kwa kina kimoja hadi kingine, mchakato wa upataji hutumiwa kutoka kwa jozi ya funguo za mzazi hadi jozi ya funguo za mtoto.

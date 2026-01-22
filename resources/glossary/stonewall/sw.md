@@ -15,7 +15,7 @@ Kwa hivyo, kuna majukumu 2 tu katika shughuli ya Stonewall:
 - Mpokeaji, ambaye huenda hajui aina mahususi ya muamala na anasubiri tu malipo kutoka kwa mtumaji.
 
 
-![](../../dictionnaire/assets/33.webp)
+
 
 Shughuli za Stonewall zinapatikana kwenye programu ya Samourai Wallet na programu ya Sparrow Wallet.
 

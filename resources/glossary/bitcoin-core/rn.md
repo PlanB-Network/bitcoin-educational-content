@@ -7,4 +7,3 @@ Bitcoin core ni porogaramu y’inkomoko yuguruye y’ishingiro y’uburyo bwa Bi
 Porogarama ya Bitcoin core ikora intumbero nyinshi. Mbere na mbere, ikora nk’umukiriya wa Full node. Bitcoin core kandi irimwo Wallet ku bakoresha bipfuza kubika, gucunga, no gukora amafaranga ataco baciye kuri Bitcoin core.
 
 
-![](../../dictionnaire/assets/42.webp)

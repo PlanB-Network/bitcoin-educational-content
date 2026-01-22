@@ -10,4 +10,4 @@ Bitcoin adalah nama sistem uang elektronik _peer-to-peer_ yang diciptakan oleh S
 
 Istilah bitcoin dengan huruf kecil "b" umumnya dicadangkan untuk merujuk pada unit mata uang yang ditransaksikan pada sistem ini.
 
-![](../../dictionnaire/assets/41.webp)
+

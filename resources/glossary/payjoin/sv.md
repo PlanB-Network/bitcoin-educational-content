@@ -8,7 +8,7 @@ En specifik Bitcoin-transaktionsstruktur som förbättrar användarens integrite
 PayJoin-transaktionen uppfyller två mål. För det första syftar den till att vilseleda en extern observatör genom att skapa ett lockbete i kedjeanalysen på Common Input Ownership Heuristic (CIOH). När en transaktion på Blockchain har flera ingångar antas det vanligtvis att alla dessa ingångar sannolikt tillhör samma enhet. När en analytiker undersöker en PayJoin-transaktion förleds de således att tro att alla inmatningar kommer från samma person. Denna uppfattning är dock felaktig eftersom betalningsmottagaren också bidrar till inmatningarna vid sidan av den faktiska betalaren. För det andra vilseleder PayJoin också en extern observatör om det faktiska beloppet på den betalning som gjordes. Genom att granska transaktionens struktur kan analytikern tro att betalningen motsvarar beloppet för en av produktionerna. I själva verket motsvarar betalningsbeloppet ingen av prestationerna. Det är faktiskt skillnaden mellan mottagarens UTXO i utflödet och mottagarens UTXO i inflödet. I detta faller PayJoin-transaktionen inom steganografins område. Det gör det möjligt att dölja det faktiska beloppet för en transaktion i en falsk transaktion som fungerar som ett lockbete.
 
 
-![](../../dictionnaire/assets/14.webp)
+
 
 
 > ► *PayJoin kallas ibland också "P2EP (Pay-to-End-Point)", "Stowaway" eller "steganografisk transaktion".*

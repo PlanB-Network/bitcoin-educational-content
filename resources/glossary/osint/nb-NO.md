@@ -6,4 +6,3 @@ Forkortelse for "*Open Source Intelligence*". OSINT refererer til innsamling og 
 
 I forbindelse med Bitcoin kan OSINT brukes til å støtte kjedeanalyse for å spore midler, særlig for å identifisere et inngangspunkt, det vil si en kobling mellom en aktivitet i kjeden og en form for identitet som tilhører en reell enhet. Hvis du for eksempel legger ut mottaksadressen din på Twitter under navnet ditt, kan en analytiker finne den og knytte den til identiteten din.
 
-![](../../dictionnaire/assets/28.webp)

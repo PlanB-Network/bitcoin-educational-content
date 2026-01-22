@@ -18,6 +18,6 @@ term: SCRIPTSIG
 OP_DUP OP_HASH160 OP_PUSHBYTES_20 <address> OP_EQUALVERIFY OP_CHECKSIG
 ```
 
-![](../../dictionnaire/assets/35.webp)
+
 
 > ► *`scriptSig`在英语中有时也被称为 “unlocking script”（解锁脚本)*。

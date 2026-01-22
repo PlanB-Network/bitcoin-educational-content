@@ -6,7 +6,7 @@ Označuje jev, při kterém dochází ke změně struktury blockchainu v důsled
 
 Tyto resynchronizace jsou součástí přirozeného fungování Bitcoinu, kdy různí těžaři mohou nalézt nové bloky téměř současně, čímž se síť Bitcoinu rozdělí na dvě části. V takových případech se síť může dočasně rozdělit na konkurenční řetězce. Nakonec, když jeden z těchto řetězců nahromadí více práce, uzly ostatní řetězce opustí a jejich bloky se stanou takzvanými "zastaralými bloky" nebo "osiřelými bloky" Tento proces nahrazování jednoho řetězce jiným je resynchronizace.
 
-![](../../dictionnaire/assets/9.webp)
+
 
 Resynchronizace může mít různé důsledky. Zaprvé, pokud si uživatel nechal potvrdit transakci v bloku, který se ukázal jako opuštěný, ale tato transakce se v konečném platném řetězci nenachází, pak se jeho transakce stane opět nepotvrzenou. Proto se doporučuje vždy počkat alespoň na 6 potvrzení, aby bylo možné transakci považovat za skutečně neměnnou. Po 6 blocích do hloubky je resynchronizace tak nepravděpodobná, že šanci na její výskyt lze považovat prakticky za nulovou.
 

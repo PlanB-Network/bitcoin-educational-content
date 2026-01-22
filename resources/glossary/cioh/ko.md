@@ -11,6 +11,6 @@ term: CIOH
 오늘날에도 CIOH는 Address 재사용과 함께 체인 분석 회사에서 사용하는 주요 휴리스틱으로 남아 있습니다.
 
 
-![](../../dictionnaire/assets/13.webp)
+
 
 

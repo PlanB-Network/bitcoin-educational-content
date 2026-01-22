@@ -16,7 +16,7 @@ Gutyo, hariho gusa uruhara 2 mu gucuruza Stonewall:
 *Uwuronka, ashobora kuba atazi uburyo bwihariye bw'ugucuruza, akaba arindiriye gusa ko uwumurungitse amwishura.*
 
 
-![](../../dictionnaire/assets/33.webp)
+
 
 Ivy’ugucuruza vy’uruhome rw’amabuye biraboneka kuri porogarama ya Samourai Wallet no kuri porogarama ya Sparrow wallet.
 

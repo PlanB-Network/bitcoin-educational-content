@@ -16,7 +16,7 @@ Dla każdego obliczonego Hash, indywidualny Miner w puli może napotkać trzy r�
 - Jeśli Hash jest niższy niż docelowy poziom trudności sieci Bitcoin, jest on uważany zarówno za prawidłowy udział, jak i prawidłowy blok. Miner przesyła ten Hash do swojej puli, która pospiesznie rozgłasza go w sieci Bitcoin. Ten Hash jest również liczony jako ważny udział dla Miner: `udział > blok > Hash`.
 
 
-![](../../dictionnaire/assets/32.webp)
+
 
 
 Ten system udziału jest wykorzystywany do szacowania pracy wykonanej przez każdy indywidualny Miner w puli, bez konieczności indywidualnego przeliczania wszystkich skrótów generowanych przez Miner, co byłoby całkowicie nieefektywne dla puli.

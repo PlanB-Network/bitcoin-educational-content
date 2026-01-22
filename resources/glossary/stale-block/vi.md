@@ -13,5 +13,5 @@ Refers to a block without children: a valid block, but excluded from the main Bi
 - Since the nodes follow the longest chain (with the most accumulated work), they will estimate that the `Chain B` is the one to follow;
 - They will abandon `Block A` which is no longer part of the main chain. It has thus become an obsolete block.
 
-![](../../dictionnaire/assets/9.webp)
+
 

@@ -10,4 +10,3 @@ Krüptoraha süsteem, mis tuleneb Bitcoin Cashi (BCH), mis omakorda on Bitcoini 
 
 Bitcoin SV erineb Bitcoin Cashist ja veelgi enam Bitcoinist selle poolest, et selle plokimaht on oluliselt suurem. Selle omaduse eesmärk on viia see vastavusse sellega, mida selle toetajad peavad Satoshi Nakamoto algseks nägemuseks Bitcoini kohta.
 
-![](../../dictionnaire/assets/50.webp)

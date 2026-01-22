@@ -11,4 +11,3 @@ Jukwaa liliakisi dhamira za ukafiri za Ross Ulbricht, kukuza soko huria na lisil
 Barabara ya Silk ilifungwa mwaka wa 2013. Ross Ulbricht alikamatwa mwaka huo huo na kuhukumiwa vifungo viwili vya maisha pamoja na miaka 40, bila uwezekano wa kuachiliwa huru, pamoja na faini ya dola milioni 183. Hukumu hii inazua maswali kuhusu uwiano wa adhabu kwa uhalifu usio na vurugu mtandaoni. Ross bado amefungwa hadi leo.
 
 
-![](../../dictionnaire/assets/24.webp)

@@ -21,4 +21,3 @@ Wenn meine Empfangsadresse zum Beispiel den Ableitungspfad `m / 86' / 0' / 0' / 
 - 0" bedeutet, dass es sich um eine externe Adresse handelt;
 - 5" bedeutet, dass es sich um die sechste externe Adresse dieses Kontos handelt.
 
-![](../../dictionnaire/assets/18.webp)

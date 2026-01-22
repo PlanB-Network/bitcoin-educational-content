@@ -15,7 +15,7 @@ Dakle, postoje samo 2 uloge u Stonewall transakciji:
 - Primalac, koji možda nije svestan specifične prirode transakcije i jednostavno čeka uplatu od pošiljaoca.
 
 
-![](../../dictionnaire/assets/33.webp)
+
 
 Transakcije Stonewall su dostupne na obe aplikacije, Samourai Wallet i Sparrow Wallet softveru.
 

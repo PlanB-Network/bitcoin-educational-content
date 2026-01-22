@@ -12,4 +12,3 @@ In the context of deterministic and hierarchical (HD) wallets, the currency type
 - Ethereum: `0x8000003c`...
 
 
-![](../../dictionnaire/assets/21.webp)

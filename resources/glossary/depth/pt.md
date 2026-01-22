@@ -6,7 +6,7 @@ No contexto das carteiras HD (Hierarchical Deterministic), a profundidade refere
 
 o objetivo (profundidade 1), o tipo de moeda (profundidade 2), a conta (profundidade 3), o tipo de cadeia (profundidade 4) e o índice do endereço específico (profundidade 5).
 
-![](../../dictionnaire/assets/18.webp)
+
 
 Para passar de uma profundidade para a seguinte, é utilizado um processo de derivação de um par de chaves pai para um par de chaves filho.
 

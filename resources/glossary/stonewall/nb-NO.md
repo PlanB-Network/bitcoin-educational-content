@@ -12,7 +12,7 @@ Det er altså bare to roller i en Stonewall-transaksjon:
 - Avsenderen, som foretar selve betalingen;
 - Mottakeren, som kanskje ikke er klar over hva transaksjonen går ut på, og som bare venter på betaling fra avsenderen.
 
-![](../../dictionnaire/assets/33.webp)
+
 
 Stonewall-transaksjoner er tilgjengelige både i Samourai Wallet-applikasjonen og Sparrow Wallet-programvaren.
 

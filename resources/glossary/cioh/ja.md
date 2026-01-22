@@ -7,5 +7,5 @@ Common Input Ownership Heuristic*」の略。ビットコインチェーン分�
 
 現在でもCIOHは、アドレスの再利用と並んで、チェーン分析会社が使用する主要なヒューリスティック手法である。
 
-![](../../dictionnaire/assets/13.webp)
+
 

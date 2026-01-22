@@ -11,7 +11,7 @@ Dengan demikian, hanya ada 2 peran dalam transaksi Stonewall:
 - Pengirim, yang melakukan pembayaran yang sebenarnya;
 - Penerima, yang mungkin tidak menyadari sifat spesifik dari transaksi dan hanya menunggu pembayaran dari pengirim.
 
-![](../../dictionnaire/assets/33.webp)
+
 
 Transaksi Stonewall tersedia di aplikasi Samourai Wallet dan perangkat lunak Sparrow Wallet.
 

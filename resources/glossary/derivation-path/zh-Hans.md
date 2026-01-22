@@ -21,4 +21,4 @@ term: DERIVATION PATH (衍生路径)
 - `0` 表示外部地址；
 - `5` 表示该账户的第六个外部地址。
   
-![](../../dictionnaire/assets/18.webp)
+

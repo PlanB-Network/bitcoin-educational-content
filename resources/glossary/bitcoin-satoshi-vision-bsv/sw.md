@@ -12,4 +12,3 @@ Mfumo wa Cryptocurrency unaotokana na Hard Fork ya Bitcoin Cash (BCH), ambayo ye
 Bitcoin SV inajitofautisha na Bitcoin Cash, na hata zaidi kutoka Bitcoin, kwa kikomo chake cha juu zaidi cha ukubwa wa block. Sifa hii inalenga kupatanisha na kile wafuasi wake wanachukulia kuwa maono ya awali ya Satoshi Nakamoto kwa Bitcoin.
 
 
-![](../../dictionnaire/assets/50.webp)

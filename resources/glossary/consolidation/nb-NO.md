@@ -8,4 +8,3 @@ Transaksjoner med mange inndata er tyngre og følgelig dyrere. Utover besparelse
 
 Det er imidlertid viktig å merke seg at konsolideringstransaksjoner er gjenkjennelige under en kjedeanalyse. En slik transaksjon indikerer en Common Input Ownership Heuristic (CIOH), noe som betyr at inndataene i konsolideringstransaksjonen eies av én og samme enhet. Dette kan ha konsekvenser for personvernet til brukeren.
 
-![](../../dictionnaire/assets/7.webp)

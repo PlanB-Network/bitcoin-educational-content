@@ -11,7 +11,7 @@ Stonewallトランザクションの動作は以下の通りである：トラ�
 - 実際の支払いを行う送り主；
 - 受信者は、取引の具体的な内容を知らず、単に送信者からの支払いを待つだけかもしれない。
 
-![](../../dictionnaire/assets/33.webp)
+
 
 Stonewall取引は、Samourai WalletアプリケーションとSparrow Walletソフトウェアの両方で利用可能です。
 

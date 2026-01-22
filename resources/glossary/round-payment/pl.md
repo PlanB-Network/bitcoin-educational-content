@@ -8,4 +8,3 @@ Wewnętrzna heurystyka do analizy łańcucha w Bitcoin, która pozwala na postaw
 Należy zauważyć, że ta heurystyka nie zawsze ma zastosowanie, ponieważ większość płatności jest nadal dokonywana w jednostkach waluty fiducjarnej. Rzeczywiście, gdy sprzedawca we Francji akceptuje Bitcoin, zazwyczaj nie wyświetla stabilnych cen w Sats. Woleliby raczej dokonać konwersji między ceną w euro a kwotą w bitcoinach, która ma zostać zapłacona za pośrednictwem ich POS (na przykład serwera BTCPay). W związku z tym w danych wyjściowych transakcji nie powinna występować okrągła liczba. Niemniej jednak analityk mógłby spróbować dokonać tej konwersji, biorąc pod uwagę kurs Exchange obowiązujący w momencie transmisji transakcji w sieci. Jeśli pewnego dnia Bitcoin stanie się preferowaną jednostką rozliczeniową na naszych giełdach, ta heurystyka może stać się jeszcze bardziej przydatna w analizach.
 
 
-![](../../dictionnaire/assets/11.webp)

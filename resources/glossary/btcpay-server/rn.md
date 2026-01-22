@@ -12,4 +12,4 @@ Iterambere ryayo ryatangujwe na Nicolas Dorier, mu kwishura ku bikorwa vya Bitpa
 
 > "_Ivyo ni ibinyoma, ukwizigira kwanje muri wewe kwacitse, nzoguhindura uwutagira akamaro_".
 
-![](../../dictionnaire/assets/53.webp)
+

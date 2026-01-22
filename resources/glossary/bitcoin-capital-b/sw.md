@@ -13,4 +13,3 @@ Bitcoin ni jina la mfumo wa pesa za kielektroniki kati ya wenzao ulioundwa na Sa
 Neno Bitcoin lenye herufi ndogo "b" kwa ujumla limehifadhiwa kurejelea kitengo cha sarafu kinachouzwa kwenye mfumo huu.
 
 
-![](../../dictionnaire/assets/41.webp)

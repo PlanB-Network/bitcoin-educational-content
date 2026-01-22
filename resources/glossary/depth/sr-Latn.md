@@ -7,7 +7,7 @@ U kontekstu HD (Hijerarhijski Deterministički) novčanika, dubina se odnosi na 
 svrha (dubina 1), tip valute (dubina 2), račun (dubina 3), tip lanca (dubina 4), i indeks specifičnog Address (dubina 5).
 
 
-![](../../dictionnaire/assets/18.webp)
+
 
 
 Da bi se prešlo sa jedne dubine na sledeću, koristi se proces izvođenja iz para roditeljskih ključeva u par dečijih ključeva.

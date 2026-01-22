@@ -11,6 +11,6 @@ Iryo sesangura ry’ubuhinga bwa heuristic ryavumbuwe na Satoshi Nakamoto ubwiwe
 Na n’ubu, CIOH iguma ari yo heuristic nyamukuru ikoreshwa n’amashirahamwe y’isesengura ry’uruzitiro, hamwe n’ugusubira gukoresha Address.
 
 
-![](../../dictionnaire/assets/13.webp)
+
 
 

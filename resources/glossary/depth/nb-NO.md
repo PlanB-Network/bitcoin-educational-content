@@ -6,7 +6,7 @@ I forbindelse med HD-lommebøker (Hierarchical Deterministic) refererer dybde ti
 
 formålet (dybde 1), valutatypen (dybde 2), kontoen (dybde 3), kjedetypen (dybde 4) og indeksen til den spesifikke adressen (dybde 5).
 
-![](../../dictionnaire/assets/18.webp)
+
 
 For å gå fra en dybde til den neste, brukes en avledningsprosess fra et par overordnede nøkler til et par underordnede nøkler.
 

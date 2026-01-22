@@ -18,6 +18,6 @@ A `scriptPubKey` correspondente seria:
 OP_DUP OP_HASH160 OP_PUSHBYTES_20 <address> OP_EQUALVERIFY OP_CHECKSIG
 ```
 
-![](../../dictionnaire/assets/35.webp)
+
 
 > ► *O `scriptSig` também é por vezes designado por "unlocking script" em inglês.*

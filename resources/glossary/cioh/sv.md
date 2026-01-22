@@ -11,6 +11,6 @@ Denna analysheuristik upptäcktes av Satoshi Nakamoto själv, som diskuterar den
 Än idag är CIOH den viktigaste heuristiken som används av kedjeanalysföretag, tillsammans med Address återanvändning.
 
 
-![](../../dictionnaire/assets/13.webp)
+
 
 

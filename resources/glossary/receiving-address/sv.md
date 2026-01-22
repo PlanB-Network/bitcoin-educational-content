@@ -18,4 +18,3 @@ En mottagande Address kan dock också representera något annat beroende på vil
 En mottagande Address kan representeras i form av en alfanumerisk sträng eller som en QR-kod. Varje Address kan användas flera gånger, men detta är något som starkt avråds från. För att upprätthålla en viss nivå av integritet rekommenderas att varje Bitcoin Address endast används en gång. En ny Address bör genereras för varje inkommande betalning till ens Wallet. En Address är kodad i `Bech32` för SegWit V0-adresser, i `Bech32m` för SegWit V1-adresser och i `Base58check` för Legacy-adresser. Ur teknisk synvinkel innebär mottagande av Bitcoin att man innehar den privata nyckeln som är associerad med en offentlig nyckel (och därmed en Address). När någon tar emot bitcoins uppdaterar avsändaren den befintliga begränsningen av deras utgifter så att endast mottagaren nu kan ha denna befogenhet.
 
 
-![](../../dictionnaire/assets/23.webp)

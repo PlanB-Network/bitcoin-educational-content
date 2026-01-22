@@ -33,5 +33,5 @@ Im Laufe ihres Lebenszyklus durchlaufen BIPs dann verschiedene Status. Der aktue
 - Aktiv: Dieser Status wird nur für Prozess-BIPs vergeben, sobald ein bestimmter Konsens erreicht ist;
 - Ersetzt / überholt: Die BIP ist nicht mehr anwendbar oder wurde durch einen neueren Vorschlag ersetzt, der sie überflüssig macht.
 
-![](../../dictionnaire/assets/25.webp)
+
 

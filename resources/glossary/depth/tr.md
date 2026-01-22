@@ -7,7 +7,7 @@ HD (Hiyerarşik Deterministik) cüzdanlar bağlamında derinlik, Wallet'nin ana 
 amaç (derinlik 1), para birimi türü (derinlik 2), hesap (derinlik 3), zincir türü (derinlik 4) ve belirli Address endeksi (derinlik 5).
 
 
-![](../../dictionnaire/assets/18.webp)
+
 
 
 Bir derinlikten diğerine geçmek için, bir çift ana anahtardan bir çift alt anahtara bir türetme işlemi kullanılır.

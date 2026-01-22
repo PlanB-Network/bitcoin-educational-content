@@ -8,4 +8,3 @@ Akronym för "*Open Source Intelligence*". OSINT avser insamling och analys av o
 I samband med Bitcoin kan OSINT användas för att stödja kedjeanalys för spårning av medel, särskilt för att identifiera en ingångspunkt, det vill säga en länk mellan en On-Chain-aktivitet och en form av identitet som tillhör en verklig enhet. Om du till exempel lägger upp din mottagning av Address på Twitter under ditt namn, kan en analytiker hitta den och koppla den till din identitet.
 
 
-![](../../dictionnaire/assets/28.webp)

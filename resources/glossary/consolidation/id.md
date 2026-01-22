@@ -8,4 +8,4 @@ Memang, transaksi dengan banyak input lebih berat dan, akibatnya, lebih mahal. D
 
 Namun, penting untuk dicatat bahwa transaksi konsolidasi dapat dikenali selama analisis berantai. Transaksi seperti itu menunjukkan _Common Input Ownership Heuristic_ (CIOH), yang berarti bahwa input dari transaksi konsolidasi dimiliki oleh satu entitas. Hal ini dapat berdampak pada privasi pengguna.
 
-![](../../dictionnaire/assets/7.webp)
+

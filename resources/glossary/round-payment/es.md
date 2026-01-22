@@ -6,4 +6,3 @@ Una heurística interna para el análisis de cadenas en Bitcoin que permite form
 
 Hay que señalar que esta heurística no siempre es aplicable, ya que la mayoría de los pagos se siguen realizando en unidades de moneda fiduciaria. De hecho, cuando un comerciante en Francia acepta bitcoin, por lo general, no muestra precios estables en sats. Prefieren optar por una conversión entre el precio en euros y el importe en bitcoins a pagar a través de su TPV (como el servidor BTCPay, por ejemplo). Por lo tanto, no debería haber un número redondo en la salida de la transacción. No obstante, un analista podría intentar hacer esta conversión teniendo en cuenta el tipo de cambio vigente cuando la transacción se emitió en la red. Si algún día el bitcoin se convierte en la unidad de cuenta preferida en nuestros intercambios, esta heurística podría resultar aún más útil para los análisis.
 
-![](../../dictionnaire/assets/11.webp)

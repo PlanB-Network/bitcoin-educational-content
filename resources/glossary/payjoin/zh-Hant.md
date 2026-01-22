@@ -8,7 +8,7 @@ term: PayJoin
 PayJoin 交易有兩個目的。首先，它的目的是在共同輸入 Ownership 啟發式 (Common Input Ownership Heuristic, CIOH) 的連鎖分析中製造一個誘餌來誤導外部觀察者。通常，當 Blockchain 上的交易有多個輸入時，會假定所有這些輸入都可能屬於同一個實體。因此，當分析師檢查 PayJoin 交易時，他們會相信所有的輸入都來自同一個人。然而，這種觀念是不正確的，因為收款人也與實際付款人一起參與輸入。其次，PayJoin 也會欺騙外部觀察者，讓他們不知道實際的付款金額。透過檢查交易的結構，分析員可能會認為付款等於其中一個輸出的金額。實際上，付款金額不等於任何一項輸出。它實際上是收款人在輸出中的 UTXO 與收款人在輸入中的 UTXO 之間的差額。在這方面，PayJoin 交易屬於隱藏術的範疇。它允許在作為誘餌的虛假交易中隱藏交易的實際金額。
 
 
-![](../../dictionnaire/assets/14.webp)
+
 
 
 > *PayJoin 有時也稱為「P2EP（Pay-to-End-Point）」、「Stowaway」或「隱藏交易」。*

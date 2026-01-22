@@ -11,4 +11,3 @@ Gerçekten de çok sayıda girdisi olan işlemler daha ağır ve dolayısıyla d
 Ancak, konsolidasyon işlemlerinin bir zincir analizi sırasında fark edilebileceğini unutmamak önemlidir. Böyle bir işlem Ortak Girdi Ownership Sezgiselini (CIOH) gösterir, yani konsolidasyon işleminin girdilerinin tek bir varlığa ait olduğu anlamına gelir. Bu, kullanıcı için gizlilik açısından sonuçlar doğurabilir.
 
 
-![](../../dictionnaire/assets/7.webp)

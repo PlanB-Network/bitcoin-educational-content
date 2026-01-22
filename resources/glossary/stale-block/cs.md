@@ -13,5 +13,5 @@ Označuje blok bez potomků: platný blok, který je však vyloučen z hlavního
 - Protože uzly sledují nejdelší řetězec (s největším množstvím nahromaděné práce), odhadnou, že je třeba sledovat řetězec B;
 - Opustí `blok A`, který již není součástí hlavního řetězce. Stal se tak zastaralým blokem.
 
-![](../../dictionnaire/assets/9.webp)
+
 

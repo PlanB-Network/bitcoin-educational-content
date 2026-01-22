@@ -8,5 +8,5 @@ Tämän analyysiheuristiikan löysi Satoshi Nakamoto itse, ja hän käsittelee s
 
 Vielä nykyäänkin CIOH on tärkein heuristiikka, jota ketjuanalyysiyritykset käyttävät osoitteen uudelleenkäytön ohella.
 
-![](../../dictionnaire/assets/13.webp)
+
 

@@ -8,4 +8,3 @@ De facto, as transacções com muitos inputs são mais pesadas e, consequentemen
 
 No entanto, é importante notar que as transacções de consolidação são reconhecíveis durante uma análise em cadeia. Uma transação deste tipo indica uma Heurística de Propriedade de Entrada Comum (CIOH), o que significa que as entradas da transação de consolidação são propriedade de uma única entidade. Isto pode ter implicações em termos de privacidade para o utilizador.
 
-![](../../dictionnaire/assets/7.webp)

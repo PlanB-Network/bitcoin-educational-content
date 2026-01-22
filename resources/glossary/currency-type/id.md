@@ -11,4 +11,4 @@ Dalam konteks dompet deterministik dan hirarkis (HD), jenis mata uang (*coin typ
 - Dogecoin: `x80000003`;
 - Ethereum: `x8000003c`...
 
-![](../../dictionnaire/assets/21.webp)
+

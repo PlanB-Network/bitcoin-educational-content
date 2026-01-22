@@ -11,4 +11,3 @@ Deterministlike ja hierarhiliste (HD) rahakottide kontekstis on valuutatüüp (*
 - Dogecoin: `0x80000003`;
 - Ethereum: `0x8000003c`...
 
-![](../../dictionnaire/assets/21.webp)

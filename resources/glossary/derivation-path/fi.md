@@ -21,4 +21,3 @@ Jos esimerkiksi vastaanottavassa osoitteessani on derivaatiopolku `m / 86' / 0' 
 - "0" tarkoittaa, että kyseessä on ulkoinen osoite;
 - "5" tarkoittaa, että kyseessä on tämän tilin kuudes ulkoinen osoite.
 
-![](../../dictionnaire/assets/18.webp)

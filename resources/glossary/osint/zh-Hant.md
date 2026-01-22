@@ -8,4 +8,3 @@ term: OSINT
 在 Bitcoin 的情況下，OSINT 可用於支援追蹤資金的連鎖分析，特別是找出切入點，也就是 On-Chain 活動與屬於真實實體的身份形式之間的連結。例如，如果您在 Twitter 上以自己的名義發布收到的 Address，分析師就可以找到它，並將其與您的身份聯繫起來。
 
 
-![](../../dictionnaire/assets/28.webp)

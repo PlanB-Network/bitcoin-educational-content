@@ -21,7 +21,7 @@ OP_DUP OP_HASH160 OP_PUSHBYTES_20 <address> OP_EQUALVERIFY OP_CHECKSIG
 ```
 
 
-![](../../dictionnaire/assets/35.webp)
+
 
 
 > ► *इस स्क्रिप्ट को कभी-कभी अंग्रेजी में "लॉकिंग स्क्रिप्ट" भी कहा जाता है।*

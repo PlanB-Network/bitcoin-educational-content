@@ -33,5 +33,5 @@ I BIP passano quindi attraverso diversi stati nel corso del loro ciclo di vita. 
 - Attivo: Solo per i PIF di processo, questo stato viene assegnato una volta raggiunto un certo consenso;
 - Sostituito / Obsoleto: Il PIF non è più applicabile o è stato sostituito da una proposta più recente che lo rende superfluo.
 
-![](../../dictionnaire/assets/25.webp)
+
 

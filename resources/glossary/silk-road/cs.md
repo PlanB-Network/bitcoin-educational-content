@@ -8,4 +8,3 @@ Platforma odrážela agoristické přesvědčení Rosse Ulbrichta, který prosaz
 
 Silk Road byla uzavřena v roce 2013. V témže roce byl Ross Ulbricht zatčen a odsouzen ke dvěma doživotním trestům plus 40 letům bez možnosti podmínečného propuštění a pokutě 183 milionů dolarů. Tento rozsudek vyvolává otázky o přiměřenosti trestů za nenásilné trestné činy na internetu. Ross je ve vězení dodnes.
 
-![](../../dictionnaire/assets/24.webp)

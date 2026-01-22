@@ -11,4 +11,3 @@ Transacties met veel inputs zijn immers zwaarder en dus duurder. Naast de bespar
 Het is echter belangrijk op te merken dat consolidatietransacties herkenbaar zijn tijdens een ketenanalyse. Een dergelijke transactie duidt op een Common Input Ownership Heuristic (CIOH), wat betekent dat de inputs van de consolidatietransactie eigendom zijn van één entiteit. Dit kan gevolgen hebben voor de privacy van de gebruiker.
 
 
-![](../../dictionnaire/assets/7.webp)

@@ -13,5 +13,5 @@ Bezieht sich auf einen Block ohne Kinder: ein gültiger Block, der aber von der 
 - Da die Knoten der längsten Kette (mit der meisten angesammelten Arbeit) folgen, schätzen sie, dass die "Kette B" diejenige ist, der man folgen sollte;
 - Sie werden Block A aufgeben, der nicht mehr Teil der Hauptkette ist. Er ist somit ein veralteter Block geworden.
 
-![](../../dictionnaire/assets/9.webp)
+
 

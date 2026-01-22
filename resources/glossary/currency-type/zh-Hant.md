@@ -12,4 +12,3 @@ term: 貨幣種類
 - Ethereum: `0x8000003c`...
 
 
-![](../../dictionnaire/assets/21.webp)

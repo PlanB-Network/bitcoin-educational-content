@@ -6,6 +6,6 @@ Erityinen Bitcoin-tapahtumarakenne, joka parantaa käyttäjän yksityisyyttä ra
 
 Payjoin-tapahtumalla on kaksi tavoitetta. Ensinnäkin sen tarkoituksena on johtaa ulkopuolista tarkkailijaa harhaan luomalla houkutin ketjuanalyysissä Common Input Ownership Heuristic (CIOH) -menetelmällä. Yleensä kun lohkoketjussa tapahtumassa on useita syötteitä, oletetaan, että kaikki nämä syötteet kuuluvat todennäköisesti samalle taholle. Kun analyytikko siis tutkii Payjoin-transaktiota, hän saa käsityksen, että kaikki syötteet ovat peräisin samalta henkilöltä. Tämä käsitys on kuitenkin virheellinen, koska myös maksun vastaanottaja osallistuu panoksiin varsinaisen maksajan ohella. Toiseksi Payjoin harhauttaa ulkopuolista tarkkailijaa myös suoritetun maksun todellisesta määrästä. Tarkastelemalla tapahtuman rakennetta analyytikko saattaa uskoa, että maksu vastaa yhden tuotoksen määrää. Todellisuudessa maksun määrä ei vastaa yhtään tuotosta. Se on itse asiassa erotus vastaanottajan UTXO:n tuotoksen ja vastaanottajan UTXO:n tulon välillä. Tässä mielessä Payjoin-transaktio kuuluu steganografian piiriin. Sen avulla transaktion todellinen määrä voidaan piilottaa väärän transaktion sisään, joka toimii harhautuksena.
 
-![](../../dictionnaire/assets/14.webp)
+
 
 > ► *Payjoinia kutsutaan joskus myös nimellä "P2EP (Pay-to-End-Point)", "Stowaway" tai "steganografinen transaktio".*

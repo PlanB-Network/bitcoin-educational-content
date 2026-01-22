@@ -12,7 +12,7 @@ Assim, existem apenas 2 papéis numa transação Stonewall:
 - O remetente, que efectua o pagamento efetivo;
 - O destinatário, que pode não ter conhecimento da natureza específica da transação e que se limita a aguardar um pagamento do remetente.
 
-![](../../dictionnaire/assets/33.webp)
+
 
 As transacções Stonewall estão disponíveis tanto na aplicação Samourai Wallet como no software Sparrow Wallet.
 

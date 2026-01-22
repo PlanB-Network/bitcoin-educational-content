@@ -6,7 +6,7 @@ Coinjoin on tekniikka, jota käytetään bitcoinien jäljitettävyyden rikkomise
 
 Coinjoinin yleinen toiminta on seuraava: eri käyttäjät, jotka haluavat sekoittaa, tallettavat tietyn summan transaktion syötteeksi. Nämä syötteet tulevat ulos saman summan erilaisina tulosteina. Tapahtuman lopussa on mahdotonta määrittää, mikä tuotos kuuluu millekin käyttäjälle. Coinjoin-transaktion syötteiden ja tuotosten välillä ei ole teknisesti mitään yhteyttä. Kunkin käyttäjän ja kunkin UTXO:n välinen yhteys on katkennut samalla tavalla kuin kunkin kolikon historia on katkennut.
 
-![](../../dictionnaire/assets/4.webp)
+
 
 Jotta kolikkoihin liittyminen olisi mahdollista ilman, että kukaan käyttäjä menettää milloin tahansa varojensa hallinnan, koordinaattori rakentaa ensin transaktion ja välittää sen sitten jokaiselle käyttäjälle. Kukin allekirjoittaa transaktion omalla puolellaan varmistettuaan, että se sopii hänelle, ja sitten kaikki allekirjoitukset lisätään transaktioon. Jos käyttäjä tai koordinaattori yrittää varastaa toisten varoja muuttamalla coinjoin-transaktion tuotoksia, allekirjoitukset eivät ole päteviä ja solmut hylkäävät transaktion. Kun osallistujien tuotosten tallentaminen tehdään Chaumin sokeilla allekirjoituksilla, jotta vältetään yhteys syötteisiin, tästä käytetään nimitystä "Chaumin coinjoin".
 

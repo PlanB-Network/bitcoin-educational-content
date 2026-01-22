@@ -8,5 +8,5 @@ Esta heurística de análise foi descoberta pelo próprio Satoshi Nakamoto, que 
 
 Ainda hoje, o CIOH continua a ser a principal heurística utilizada pelas empresas de análise de cadeias, juntamente com a reutilização de endereços.
 
-![](../../dictionnaire/assets/13.webp)
+
 

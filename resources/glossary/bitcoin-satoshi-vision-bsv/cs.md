@@ -10,4 +10,3 @@ Kryptoměnový systém vzniklý tvrdým rozvětvením Bitcoinu Cash (BCH), kter�
 
 Bitcoin SV se od Bitcoin Cash a ještě více od Bitcoinu liší výrazně vyšším limitem velikosti bloku. Tato vlastnost má za cíl sladit se s tím, co jeho příznivci považují za původní vizi Bitcoinu od Satoshiho Nakamota.
 
-![](../../dictionnaire/assets/50.webp)

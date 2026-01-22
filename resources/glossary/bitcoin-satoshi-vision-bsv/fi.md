@@ -10,4 +10,4 @@ Kryptovaluuttajärjestelmä, joka on syntynyt Bitcoin Cashin (BCH), joka on Bitc
 
 Bitcoin SV eroaa Bitcoin Cashista ja vielä enemmän Bitcoinista huomattavasti korkeamman lohkokokorajan ansiosta. Tällä ominaisuudella pyritään vastaamaan sitä, mitä sen kannattajat pitävät Satoshi Nakamoton alkuperäisenä näkemyksenä Bitcoinista.
 
-![](../../dictionnaire/assets/50.webp)
+

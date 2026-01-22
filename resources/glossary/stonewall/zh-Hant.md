@@ -15,7 +15,7 @@ Stonewall 交易的運作如下：在交易的輸入端，寄件者使用 2 個�
 - 收件人可能不知道交易的具體性質，只是等待發件人付款。
 
 
-![](../../dictionnaire/assets/33.webp)
+
 
 石牆交易可在 Samourai Wallet 應用程式和 Sparrow Wallet 軟體上進行。
 

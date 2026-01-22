@@ -21,4 +21,3 @@ Näiteks, kui minu vastuvõtva aadressi tuletamise tee on `m / 86' / 0' / 0' / 0
 - "0" näitab, et tegemist on välise aadressiga;
 - "5" näitab, et see on selle konto kuues väline aadress.
 
-![](../../dictionnaire/assets/18.webp)

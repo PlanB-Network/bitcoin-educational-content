@@ -12,7 +12,7 @@ V transakci Stonewall tedy existují pouze 2 role:
 - Odesílatel, který provádí skutečnou platbu;
 - Příjemce, který si nemusí být vědom konkrétní povahy transakce a jednoduše čeká na platbu od odesílatele.
 
-![](../../dictionnaire/assets/33.webp)
+
 
 Transakce Stonewall jsou dostupné v aplikaci Samourai Wallet i v softwaru Sparrow Wallet.
 

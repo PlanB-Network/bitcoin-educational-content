@@ -17,7 +17,7 @@ Ku Hash yose iharuwe, Miner imwe imwe iri mu kidengeri irashobora guhura n’ibi
 - Iyo Hash iri hasi y’intumbero y’ingorane y’uruzitiro rwa Bitcoin, ifatwa nk’umugabane ubereye be n’ibara ry’ukuri. Miner irungika iyo Hash ku kidengeri cabo, kigaca cihuta kugitangaza ku rubuga rwa Bitcoin. Iyi Hash nayo iharurwa nk'umugabane ubereye kuri Miner: `umugabane > umugwi > Hash`.
 
 
-![](../../dictionnaire/assets/32.webp)
+
 
 
 Ubu buryo bwo gusangira bukoreshwa mu kugereranya igikorwa gikozwe na Miner imwe imwe mu kidengeri, ataco umuntu wese akeneye gusubira guharura ama hashes yose yashizweho na Miner, ivyo bikaba bidakora neza na gato ku kidengeri.

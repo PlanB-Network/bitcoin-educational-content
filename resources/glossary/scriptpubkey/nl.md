@@ -21,7 +21,7 @@ Het bijbehorende `scriptSig` zou zijn:
 ```
 
 
-![](../../dictionnaire/assets/35.webp)
+
 
 
 > ► *Dit schrift wordt in het Engels ook wel "locking script" genoemd.*

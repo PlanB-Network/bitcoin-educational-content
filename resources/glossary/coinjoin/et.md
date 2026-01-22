@@ -6,7 +6,7 @@ Coinjoin on meetod, mida kasutatakse bitcoinide jälgitavuse rikkumiseks. See tu
 
 Coinjoin'i üldine toiming on järgmine: erinevad kasutajad, kes soovivad segada, annavad tehingu sisendiks mingi summa. Need sisendid tulevad välja sama summa erinevate väljunditena. Tehingu lõpus ei ole võimalik kindlaks teha, milline väljund kuulub millisele kasutajale. Tehniliselt puudub seos coinjoin-tehingu sisendite ja väljundite vahel. Seos iga kasutaja ja iga UTXO vahel on katkenud, samamoodi nagu iga mündi ajalugu.
 
-![](../../dictionnaire/assets/4.webp)
+
 
 Selleks, et võimaldada coinjoin'i, ilma et ükski kasutaja kaotaks igal ajal kontrolli oma raha üle, koostab tehingu esmalt koordinaator ja edastab selle seejärel igale kasutajale. Seejärel allkirjastab igaüks omalt poolt tehingu pärast seda, kui ta on kontrollinud, et see talle sobib, ning seejärel lisatakse kõik allkirjad tehingule. Kui kasutaja või koordinaator üritab teiste rahalisi vahendeid varastada, muutes coinjoin-tehingu väljundeid, siis on allkirjad kehtetud ja sõlmed lükkavad tehingu tagasi. Kui osalejate väljundite salvestamine toimub Chaumi pimedate allkirjade abil, et vältida seost sisendiga, nimetatakse seda "Chaumi coinjoiniks".
 

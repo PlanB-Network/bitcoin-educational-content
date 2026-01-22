@@ -14,6 +14,6 @@ Inarejelea kizuizi kisicho na watoto: kizuizi halali, lakini kisichojumuishwa kw
 - Wataacha `Block A` ambayo si sehemu tena ya mlolongo mkuu. Kwa hivyo imekuwa kizuizi cha kizamani.
 
 
-![](../../dictionnaire/assets/9.webp)
+
 
 

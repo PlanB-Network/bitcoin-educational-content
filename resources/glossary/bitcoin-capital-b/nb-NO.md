@@ -11,4 +11,3 @@ Bitcoin er navnet på det elektroniske peer-to-peer-kontantsystemet som ble oppr
 
 Betegnelsen bitcoin med liten "b" er vanligvis reservert for å referere til valutaenheten som handles på dette systemet.
 
-![](../../dictionnaire/assets/41.webp)

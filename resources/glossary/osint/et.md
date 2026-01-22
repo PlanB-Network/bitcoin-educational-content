@@ -6,4 +6,3 @@ Lühend "*Open Source Intelligence*". OSINT tähendab avalikult kättesaadava te
 
 Bitcoini kontekstis saab OSINTi kasutada ahela analüüsi toetamiseks, et jälgida raha, eelkõige sisenemispunkti tuvastamiseks, st seose tuvastamiseks ahelas toimuva tegevuse ja tegelikule üksusele kuuluva identiteedi vormi vahel. Näiteks kui te avaldate Twitteris oma nime all oma vastuvõtuaadressi, võib analüütik selle leida ja seostada seda teie identiteediga.
 
-![](../../dictionnaire/assets/28.webp)

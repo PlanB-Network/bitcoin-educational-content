@@ -12,7 +12,7 @@ Thus, there are only 2 roles in a Stonewall transaction:
 - The sender, who makes the actual payment;
 - The recipient, who may be unaware of the specific nature of the transaction and simply awaits a payment from the sender.
 
-![](../../dictionnaire/assets/33.webp)
+
 
 Stonewall transactions are available on both the Samourai Wallet application and the Sparrow Wallet software.
 

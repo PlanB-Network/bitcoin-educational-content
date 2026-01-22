@@ -13,7 +13,7 @@ Jokaisen lasketun hashin osalta yksittäinen louhija voi kohdata kolme erilaista
 - Jos hash on pienempi kuin osakkeen vaikeustavoite, mutta suurempi tai yhtä suuri kuin Bitcoinin vaikeustavoite, tämä hash muodostaa kelvollisen osakkeen, joka ei kuitenkaan riitä lohkon validointiin. Louhija voi lähettää tämän hashin omalle poolilleen lunastaakseen osakkeeseen liittyvän palkkion: "share > hash > block".
 - Jos hash on alhaisempi kuin Bitcoin-verkon vaikeustavoite, sitä pidetään sekä kelvollisena osuutena että kelvollisena lohkona. Louhija välittää tämän hashin pooliinsa, joka kiirehtii lähettämään sen Bitcoin-verkkoon. Tämä hash lasketaan myös louhijalle kelvolliseksi osakkeeksi: `jako > blokki > hash`.
 
-![](../../dictionnaire/assets/32.webp)
+
 
 Tätä jakojärjestelmää käytetään kunkin yksittäisen louhijan tekemän työn arvioimiseen poolin sisällä ilman, että kaikkia louhijan tuottamia hasheja tarvitsee laskea erikseen uudelleen, mikä olisi poolin kannalta täysin tehotonta.
 

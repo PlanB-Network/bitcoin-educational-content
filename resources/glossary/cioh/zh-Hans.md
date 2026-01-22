@@ -8,5 +8,5 @@ term: CIOH (所有权分析法)
 
 时至今日，CIOH 和地址重用仍是产业区块链分析公司使用的主要启发式方法。
 
-![](../../dictionnaire/assets/13.webp)
+
 

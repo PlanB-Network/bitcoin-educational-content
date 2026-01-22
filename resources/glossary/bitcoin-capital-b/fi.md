@@ -11,4 +11,3 @@ Bitcoin on Satoshi Nakamoton vuonna 2009 luoman vertaisverkkopohjaisen sähköis
 
 Termi bitcoin, jossa on pieni "b", on yleensä varattu viittaamaan tässä järjestelmässä kaupattavaan valuuttayksikköön.
 
-![](../../dictionnaire/assets/41.webp)

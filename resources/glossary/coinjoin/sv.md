@@ -8,7 +8,7 @@ CoinJoin är en teknik som används för att bryta spårbarheten för bitcoins. 
 CoinJoin fungerar generellt på följande sätt: olika användare som vill blanda sätter in ett belopp som input i en transaktion. Dessa inputs kommer att komma ut som olika outputs av samma belopp. I slutet av transaktionen är det omöjligt att avgöra vilken utgång som tillhör vilken användare. Det finns tekniskt sett ingen länk mellan inmatningarna och utmatningarna i CoinJoin-transaktionen. Länken mellan varje användare och varje UTXO är bruten, på samma sätt som varje mynts historia är det.
 
 
-![](../../dictionnaire/assets/4.webp)
+
 
 
 För att möjliggöra CoinJoin utan att någon användare förlorar kontrollen över sina medel när som helst, konstrueras transaktionen först av en koordinator och överförs sedan till varje användare. Var och en signerar sedan transaktionen på sin sida efter att ha verifierat att den passar dem, och sedan läggs alla signaturer till transaktionen. Om en användare eller koordinatorn försöker stjäla andras pengar genom att ändra utdata från CoinJoin-transaktionen, blir signaturerna ogiltiga och transaktionen avvisas av noderna. När registreringen av deltagarnas utdata görs med hjälp av Chaums blinda signaturer för att undvika kopplingen till indata kallas detta för "Chaumian CoinJoin".

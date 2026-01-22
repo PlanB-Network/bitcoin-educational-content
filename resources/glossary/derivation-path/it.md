@@ -21,4 +21,3 @@ Ad esempio, se il mio indirizzo di ricezione ha il percorso di derivazione `m / 
 - `0` indica che si tratta di un indirizzo esterno;
 - `5` indica che si tratta del sesto indirizzo esterno di questo conto.
 
-![](../../dictionnaire/assets/18.webp)

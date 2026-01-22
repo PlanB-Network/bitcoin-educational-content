@@ -8,4 +8,3 @@ Its development was initiated by Nicolas Dorier, in response to Bitpay's actions
 
 > "_This is lies, my trust in you is broken, I will make you obsolete_".
 
-![](../../dictionnaire/assets/53.webp)

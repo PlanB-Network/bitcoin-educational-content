@@ -11,4 +11,3 @@ Platforma odzwierciedlała agorystyczne przekonania Rossa Ulbrichta, promując w
 Silk Road został zamknięty w 2013 roku. Ross Ulbricht został aresztowany w tym samym roku i skazany na dwa dożywocia plus 40 lat pozbawienia wolności bez możliwości zwolnienia warunkowego oraz grzywnę w wysokości 183 milionów dolarów. Wyrok ten rodzi pytania o proporcjonalność kar za przestępstwa internetowe bez użycia przemocy. Ross nadal przebywa w więzieniu.
 
 
-![](../../dictionnaire/assets/24.webp)

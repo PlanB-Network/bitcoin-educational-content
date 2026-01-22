@@ -11,4 +11,3 @@ Platform Ross Ulbricht'in agorist inançlarını yansıtıyor, serbest ve düzen
 İpek Yolu 2013 yılında kapatıldı. Ross Ulbricht aynı yıl tutuklandı ve 183 milyon dolar para cezasının yanı sıra şartlı tahliye imkanı olmaksızın iki müebbet artı 40 yıl hapis cezasına mahkum edildi. Bu ceza, şiddet içermeyen çevrimiçi suçlara verilen cezaların orantılılığı konusunda soru işaretleri yarattı. Ross bugün hala hapiste.
 
 
-![](../../dictionnaire/assets/24.webp)

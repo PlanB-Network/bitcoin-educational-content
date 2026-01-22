@@ -6,7 +6,7 @@ In the context of HD (Hierarchical Deterministic) wallets, depth refers to the s
 
 the purpose (depth 1), the type of currency (depth 2), the account (depth 3), the chain type (depth 4), and the index of the specific address (depth 5).
 
-![](../../dictionnaire/assets/18.webp)
+
 
 To move from one depth to the next, a derivation process is used from a pair of parent keys to a pair of child keys.
 

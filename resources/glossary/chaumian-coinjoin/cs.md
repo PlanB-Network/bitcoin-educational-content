@@ -6,7 +6,7 @@ Protokol coinjoin, který využívá slepé podpisy Davida Chauma a Tor pro komu
 
 Za tímto účelem uživatelé předávají koordinátorovi své vstupní údaje a kryptograficky zaslepenou adresu příjmu. Tato adresa je po odblokování určena k příjmu bitcoinů jako výstupu z coinjoinu. Koordinátor tyto tokeny podepíše a vrátí je uživatelům. Uživatelé se pak znovu anonymně připojí k serveru koordinátora s novou identitou Tor a odhalí své výstupní adresy v otevřeném textu pro konstrukci transakce. Koordinátor může ověřit, že všechny tyto přijímací adresy pocházejí od legitimních uživatelů, protože jejich zaslepenou verzi předtím podepsal svým soukromým klíčem. Nemůže však přiřadit konkrétní výstupní adresu k danému vstupnímu uživateli. Mezi vstupy a výstupy tedy neexistuje žádná vazba, a to ani z pohledu koordinátora. Jakmile koordinátor transakci zkonstruuje, pošle ji zpět účastníkům, kteří ji podepíší, aby odemkli své vstupy, poté co ověří, že jejich výstup je skutečně v této transakci. Účastníci pošlou podpis koordinátorovi. Jakmile jsou shromážděny všechny podpisy, koordinátor může transakci coinjoin vysílat v síti Bitcoin.
 
-![](../../dictionnaire/assets/38.webp)
+
 
 Tato metoda zajišťuje, že koordinátor nemůže ohrozit anonymitu účastníků ani ukrást bitcoiny během celého procesu spojování mincí.
 

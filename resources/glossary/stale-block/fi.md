@@ -13,5 +13,5 @@ Viittaa lohkoon, jolla ei ole lapsia: kelvollinen lohko, mutta joka on suljettu 
 - Koska solmut seuraavat pisintä ketjua (jossa on eniten kertynyttä työtä), ne arvioivat, että ketju B on se, jota kannattaa seurata;
 - Ne hylkäävät "lohkon A", joka ei enää ole osa pääketjua. Siitä on siten tullut vanhentunut lohko.
 
-![](../../dictionnaire/assets/9.webp)
+
 

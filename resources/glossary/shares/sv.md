@@ -16,7 +16,7 @@ För varje beräknad Hash kan en enskild Miner i en pool möta tre olika scenari
 - Om Hash är lägre än svårighetsmålet i Bitcoin-nätverket anses det vara både en giltig andel och ett giltigt block. Miner sänder denna Hash till sin pool, som skyndar sig att sända den i Bitcoin-nätverket. Denna Hash räknas också som en giltig andel för Miner: `andel > block > Hash`.
 
 
-![](../../dictionnaire/assets/32.webp)
+
 
 
 Detta andelssystem används för att uppskatta det arbete som utförs av varje enskild Miner inom en pool, utan att individuellt behöva räkna om alla hashvärden som genereras av en Miner, vilket skulle vara helt ineffektivt för poolen.

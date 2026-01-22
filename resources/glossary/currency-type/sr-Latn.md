@@ -12,4 +12,3 @@ U kontekstu determinističkih i hijerarhijskih (HD) novčanika, tip valute (*coi
 - Ethereum: `0x8000003c`...
 
 
-![](../../dictionnaire/assets/21.webp)

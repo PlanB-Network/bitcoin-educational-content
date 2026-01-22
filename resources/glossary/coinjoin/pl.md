@@ -8,7 +8,7 @@ CoinJoin to technika wykorzystywana do łamania identyfikowalności bitcoinów. 
 Ogólne działanie CoinJoin jest następujące: różni użytkownicy, którzy chcą mieszać, wpłacają kwotę jako dane wejściowe transakcji. Te dane wejściowe pojawią się jako różne dane wyjściowe tej samej kwoty. Pod koniec transakcji niemożliwe jest określenie, które dane wyjściowe należą do którego użytkownika. Z technicznego punktu widzenia nie ma powiązania między danymi wejściowymi i wyjściowymi transakcji CoinJoin. Powiązanie między każdym użytkownikiem a każdym UTXO jest zerwane w taki sam sposób, jak historia każdej monety.
 
 
-![](../../dictionnaire/assets/4.webp)
+
 
 
 Aby umożliwić CoinJoin bez utraty przez użytkownika kontroli nad swoimi środkami w dowolnym momencie, transakcja jest najpierw konstruowana przez koordynatora, a następnie przesyłana do każdego użytkownika. Następnie każdy z nich podpisuje transakcję po swojej stronie po sprawdzeniu, czy mu odpowiada, a następnie wszystkie podpisy są dodawane do transakcji. Jeśli użytkownik lub koordynator spróbuje ukraść środki innych, modyfikując dane wyjściowe transakcji CoinJoin, podpisy będą nieważne, a transakcja zostanie odrzucona przez węzły. Gdy rejestrowanie danych wyjściowych uczestników odbywa się przy użyciu ślepych podpisów Chauma, aby uniknąć powiązania z danymi wejściowymi, jest to określane jako "Chaumian CoinJoin".

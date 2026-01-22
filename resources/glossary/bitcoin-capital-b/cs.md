@@ -11,4 +11,3 @@ Bitcoin je název elektronického peněžního systému peer-to-peer, který v r
 
 Termín bitcoin s malým písmenem "b" je obecně vyhrazen pro označení měnové jednotky obchodované v tomto systému.
 
-![](../../dictionnaire/assets/41.webp)

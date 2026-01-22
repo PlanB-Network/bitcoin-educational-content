@@ -14,6 +14,6 @@ Odnosi se na blok bez dece: važeći blok, ali isključen iz glavnog Bitcoin lan
 - Oni će napustiti `Block A` koji više nije deo glavnog lanca. Tako je postao zastareli blok.
 
 
-![](../../dictionnaire/assets/9.webp)
+
 
 

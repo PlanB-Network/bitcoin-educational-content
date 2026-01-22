@@ -14,4 +14,3 @@ Haciye havuka imigwi ibiri:
 Bitcoin SV itandukanye na Bitcoin Cash, mbere n’ibindi vyinshi na Bitcoin (BTC), mu kugira urugero rw’ubunini bw’amabuye rwo hejuru cane, ivyo abayishigikiye bavuga ko vyerekana neza iyerekwa rya mbere rya Satoshi Nakamoto ku Bitcoin.
 
 
-![](../../dictionnaire/assets/50.webp)

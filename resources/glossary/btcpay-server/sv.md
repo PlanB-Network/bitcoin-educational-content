@@ -7,4 +7,3 @@ BTCPay Server är en betalningsprocessor med öppen källkod som gör det möjli
 
 > "_Detta är lögn, mitt förtroende för dig är förbrukat, jag ska göra dig obsolet_".
 
-![](../../dictionnaire/assets/53.webp)

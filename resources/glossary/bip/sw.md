@@ -38,6 +38,6 @@ BIP kisha hupitia hali tofauti katika mzunguko wa maisha yao. Hali ya sasa imeai
 - Imebadilishwa / Haitumiki: BIP haitumiki tena au imebadilishwa na pendekezo la hivi majuzi zaidi ambalo linaifanya kuwa sio lazima.
 
 
-![](../../dictionnaire/assets/25.webp)
+
 
 

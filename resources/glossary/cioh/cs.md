@@ -8,5 +8,5 @@ Tuto analytickou heuristiku objevil sám Satoshi Nakamoto, který ji popisuje v 
 
 I dnes zůstává CIOH spolu s opakovaným použitím adresy hlavní heuristikou používanou společnostmi zabývajícími se analýzou řetězců.
 
-![](../../dictionnaire/assets/13.webp)
+
 

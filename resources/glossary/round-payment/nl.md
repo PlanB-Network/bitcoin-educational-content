@@ -8,4 +8,3 @@ Een interne heuristiek voor ketenanalyse op Bitcoin die een hypothese mogelijk m
 Opgemerkt moet worden dat deze heuristiek niet altijd van toepassing is, omdat de meeste betalingen nog steeds in fiatvaluta worden gedaan. Sterker nog, wanneer een winkelier in Frankrijk Bitcoin accepteert, geeft hij over het algemeen geen stabiele prijzen in Sats weer. Ze kiezen liever voor een conversie tussen de prijs in euro's en het bedrag in bitcoins dat moet worden betaald via hun verkooppunt (zoals BTCPay Server, bijvoorbeeld). Daarom zou er geen rond getal in de transactie-uitvoer moeten staan. Toch zou een analist kunnen proberen om deze conversie te maken door rekening te houden met de Exchange koers die van kracht was toen de transactie werd uitgezonden op het netwerk. Als op een dag Bitcoin de voorkeurs rekeneenheid wordt in onze uitwisselingen, kan deze heuristiek nog nuttiger worden voor analyses.
 
 
-![](../../dictionnaire/assets/11.webp)

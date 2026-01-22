@@ -12,4 +12,3 @@ Kryptovalutasystem som är resultatet av en Hard Fork av Bitcoin Cash (BCH), som
 Bitcoin SV skiljer sig från Bitcoin Cash, och ännu mer från Bitcoin, genom sin betydligt högre blockstorleksgräns. Denna egenskap syftar till att anpassa sig till vad dess anhängare anser vara Satoshi Nakamotos ursprungliga vision för Bitcoin.
 
 
-![](../../dictionnaire/assets/50.webp)

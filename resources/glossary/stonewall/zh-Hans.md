@@ -12,7 +12,7 @@ Stonewall 交易的操作如下：在交易输入端，发送方使用属于自�
 - 发送方，即实际付款人；
 - 接收方可能不知道交易的具体性质，只是等待发送方付款。
 
-![](../../dictionnaire/assets/33.webp)
+
 
 Stonewall 交易可在 Samourai 钱包应用程序和 Sparrow 钱包软件上进行。
 

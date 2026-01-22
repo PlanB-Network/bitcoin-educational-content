@@ -12,4 +12,3 @@ System kryptowalutowy wynikający z Hard Fork Bitcoin Cash (BCH), który sam jes
 Bitcoin SV odróżnia się od Bitcoin Cash, a jeszcze bardziej od Bitcoin, znacznie wyższym limitem rozmiaru bloku. Cecha ta ma na celu dostosowanie się do tego, co jego zwolennicy uważają za oryginalną wizję Satoshi Nakamoto dla Bitcoin.
 
 
-![](../../dictionnaire/assets/50.webp)

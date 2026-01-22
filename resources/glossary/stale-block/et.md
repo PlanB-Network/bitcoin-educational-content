@@ -13,5 +13,5 @@ Viitab plokile, millel ei ole lapsi: kehtiv plokk, kuid mis on välja jäetud Bi
 - Kuna sõlmed järgivad kõige pikemat ahelat (kõige suurema kogutud tööga), siis nad hindavad, et järgida tuleb ahelat B;
 - Nad loobuvad "plokist A", mis ei ole enam osa põhiahelast. See on seega muutunud vananenud plokiks.
 
-![](../../dictionnaire/assets/9.webp)
+
 

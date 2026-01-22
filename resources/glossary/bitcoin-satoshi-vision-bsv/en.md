@@ -9,4 +9,3 @@ Two factions emerged:
 
 Bitcoin SV differs from Bitcoin Cash, and even more from Bitcoin (BTC), by having a significantly higher block size limit, which its supporters claim better reflects Satoshi Nakamoto’s original vision for Bitcoin.
 
-![](../../dictionnaire/assets/50.webp)

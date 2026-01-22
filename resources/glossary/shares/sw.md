@@ -16,7 +16,7 @@ Kwa kila Hash iliyokokotolewa, Miner ya kibinafsi kwenye bwawa inaweza kukumbana
 - Ikiwa Hash iko chini kuliko lengo la ugumu la mtandao wa Bitcoin, inachukuliwa kuwa sehemu halali na kizuizi halali. Miner husambaza Hash hii kwenye bwawa lao, ambayo huharakisha kuitangaza kwenye mtandao wa Bitcoin. Hash hii pia inahesabiwa kama mgao halali wa Miner: `shiriki > kambi > Hash`.
 
 
-![](../../dictionnaire/assets/32.webp)
+
 
 
 Mfumo huu wa hisa hutumika kukadiria kazi iliyofanywa na kila mtu Miner ndani ya bwawa, bila kulazimika kukokotoa upya heshi zote zinazozalishwa na Miner, ambayo haitakuwa na ufanisi kabisa kwa bwawa.

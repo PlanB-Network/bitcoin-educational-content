@@ -13,7 +13,7 @@ De werking is relatief eenvoudig: het gebruikt een UTXO in ons bezit om de betal
 - De ontvanger is zich mogelijk niet bewust van de specifieke aard van de transactie en wacht gewoon op een betaling van de verzender.
 
 
-![](../../dictionnaire/assets/3.webp)
+
 
 
 De Stonewall x2 structuur voegt veel entropie toe aan de transactie en vertroebelt de sporen van de ketenanalyse. Van buitenaf kan zo'n transactie worden geïnterpreteerd als een kleine CoinJoin tussen twee mensen. Maar in werkelijkheid is het een betaling. Deze methode genereert dus onzekerheden in de ketenanalyse, of leidt zelfs tot valse sporen. Zelfs als een externe waarnemer erin slaagt om het patroon van de Stonewall x2 transactie te identificeren, zal hij niet over alle informatie beschikken. Ze zullen niet kunnen bepalen welke van de twee UTXO's met gelijke bedragen overeenkomt met de betaling. Bovendien zullen ze niet weten wie de betaling heeft gedaan. Tot slot kunnen ze niet bepalen of de twee ingevoerde UTXO's van twee verschillende personen afkomstig zijn of dat ze toebehoren aan één persoon die ze heeft samengevoegd. Dit laatste is te wijten aan het feit dat klassieke Stonewall transacties precies hetzelfde patroon volgen als Stonewall x2 transacties. Van buitenaf en zonder aanvullende informatie over de context is het onmogelijk om een Stonewall-transactie te onderscheiden van een Stonewall x2-transactie. De eerstgenoemde zijn echter geen collaboratieve transacties, terwijl de laatstgenoemde dat wel zijn. Dit voegt nog meer twijfel toe over de uitgaven.

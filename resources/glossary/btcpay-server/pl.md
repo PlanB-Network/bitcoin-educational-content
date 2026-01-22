@@ -7,4 +7,3 @@ BTCPay Server to procesor płatności typu open-source, który umożliwia sprzed
 
 > "_To kłamstwa, moje zaufanie do ciebie zostało złamane, uczynię cię przestarzałym_".
 
-![](../../dictionnaire/assets/53.webp)

@@ -8,6 +8,6 @@ O alvo de dificuldade é um número ajustável de 256 bits (64 bytes) que determ
 
 Este objetivo é ajustado a cada 2016 blocos (aproximadamente a cada duas semanas), durante um evento chamado "ajustamento" O fator de dificuldade é recalculado com base no tempo que demorou a minerar os blocos de 2016 anteriores. Se o tempo total for inferior a duas semanas, a dificuldade aumenta, ajustando o objetivo para baixo. Se o tempo total for superior a duas semanas, a dificuldade diminui, ajustando o objetivo para cima. O objetivo é manter um tempo médio de extração de 10 minutos por bloco. Este tempo entre cada bloco ajuda a evitar divisões da rede Bitcoin, resultando num desperdício de poder de computação. O objetivo de dificuldade é encontrado no cabeçalho de cada bloco, dentro do campo `nBits`. Uma vez que este campo é reduzido a 32 bits e o objetivo é na realidade 256 bits, o objetivo é compactado num formato científico menos preciso.
 
-![](../../dictionnaire/assets/34.webp)
+
 
 > ► *O objetivo de dificuldade é por vezes também designado por "fator de dificuldade".* Por extensão, pode ser referido com a sua codificação nos cabeçalhos dos blocos com o termo "nBits"

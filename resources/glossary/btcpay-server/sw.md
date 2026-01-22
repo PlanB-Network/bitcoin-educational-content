@@ -7,4 +7,3 @@ Seva ya BTCPay ni kichakataji cha malipo huria ambacho huwawezesha wafanyabiasha
 
 > "_Huu ni uongo, imani yangu kwako imevunjika, nitakufanya uwe kizamani_".
 
-![](../../dictionnaire/assets/53.webp)

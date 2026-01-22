@@ -11,4 +11,3 @@ Bitcoin on Satoshi Nakamoto poolt 2009. aastal loodud peer-to-peer elektroonilis
 
 Termin bitcoin koos väikse "b"-ga on üldiselt reserveeritud selles süsteemis kaubeldava rahaühiku tähistamiseks.
 
-![](../../dictionnaire/assets/41.webp)

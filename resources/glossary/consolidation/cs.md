@@ -8,4 +8,3 @@ Transakce s mnoha vstupy jsou skutečně těžší, a tudíž dražší. Kromě 
 
 Je však důležité poznamenat, že konsolidační transakce jsou při analýze řetězce rozpoznatelné. Taková transakce indikuje Heuristiku společného vlastnictví vstupů (CIOH), což znamená, že vstupy konsolidační transakce jsou ve vlastnictví jednoho subjektu. To může mít důsledky z hlediska ochrany soukromí uživatele.
 
-![](../../dictionnaire/assets/7.webp)

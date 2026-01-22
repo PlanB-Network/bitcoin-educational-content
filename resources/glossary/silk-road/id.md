@@ -8,4 +8,4 @@ Platform ini mencerminkan keyakinan agoris Ross Ulbricht, yang mempromosikan pas
 
 Silk Road ditutup pada tahun 2013. Ross Ulbricht ditangkap pada tahun yang sama dan dijatuhi hukuman dua kali hukuman seumur hidup ditambah 40 tahun, tanpa kemungkinan pembebasan bersyarat, serta denda 183 juta dolar. Hukuman ini menimbulkan pertanyaan tentang proporsionalitas hukuman untuk kejahatan _online_ tanpa kekerasan. Ross masih dipenjara hingga saat ini.
 
-![](../../dictionnaire/assets/24.webp)
+

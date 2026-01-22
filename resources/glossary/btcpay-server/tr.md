@@ -7,4 +7,3 @@ BTCPay Server, tüccarların ve kullanıcıların işlem işleme için üçünc�
 
 > "_Bu yalan, sana olan güvenim kırıldı, seni kullanılmaz hale getireceğim_".
 
-![](../../dictionnaire/assets/53.webp)

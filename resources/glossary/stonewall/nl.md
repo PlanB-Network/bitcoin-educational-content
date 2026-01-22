@@ -15,7 +15,7 @@ Er zijn dus slechts 2 rollen in een Stonewall-transactie:
 - De ontvanger is zich mogelijk niet bewust van de specifieke aard van de transactie en wacht gewoon op een betaling van de verzender.
 
 
-![](../../dictionnaire/assets/33.webp)
+
 
 Stonewall transacties zijn beschikbaar op zowel de Samourai Wallet applicatie als de Sparrow wallet software.
 

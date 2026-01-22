@@ -11,4 +11,3 @@ Nel contesto dei portafogli deterministici e gerarchici (HD), il tipo di valuta 
 - Dogecoin: `0x80000003`;
 - Ethereum: `0x8000003c`...
 
-![](../../dictionnaire/assets/21.webp)

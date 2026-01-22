@@ -6,7 +6,7 @@ _Coinjoin_ adalah sebuah teknik yang digunakan untuk mematahkan ketertelusuran b
 
 Operasi umum _coinjoin_ adalah sebagai berikut: pengguna yang berbeda ingin menggabungkan deposit sejumlah uang sebagai input transaksi. Input ini akan keluar sebagai output yang berbeda dengan jumlah yang sama. Pada akhir transaksi, tidak mungkin untuk menentukan output mana yang menjadi milik pengguna yang mana. Secara teknis tidak ada hubungan antara input dan output dari transaksi _coinjoin_. Hubungan antara setiap pengguna dan setiap UTXO terputus, dengan cara yang sama seperti sejarah setiap koin tersebut.
 
-![](../../dictionnaire/assets/4.webp)
+
 
 Untuk memungkinkan _coinjoin_ tanpa ada pengguna yang kehilangan kendali atas dana mereka setiap saat, transaksi pertama kali dibuat oleh koordinator dan kemudian dikirimkan ke setiap pengguna. Setiap pengguna kemudian menandatangani transaksi tersebut setelah memverifikasi bahwa transaksi tersebut sesuai dengan keinginan mereka, dan kemudian semua tanda tangan ditambahkan ke dalam transaksi. Jika seorang pengguna atau koordinator mencoba untuk mencuri dana orang lain dengan memodifikasi hasil dari transaksi _coinjoin_, maka tanda tangan akan menjadi tidak valid dan transaksi akan ditolak oleh node. Ketika pencatatan output peserta dilakukan dengan menggunakan Chaum _blind signature_ untuk menghindari hubungan dengan input, ini disebut sebagai "Chaumian coinjoin".
 

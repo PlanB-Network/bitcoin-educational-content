@@ -11,6 +11,6 @@ Ovu heuristiku analize otkrio je Satoshi Nakamoto lično, koji je o njoj rasprav
 Čak i danas, CIOH ostaje glavna heuristika koju koriste kompanije za analizu lanaca, zajedno sa Address ponovnom upotrebom.
 
 
-![](../../dictionnaire/assets/13.webp)
+
 
 

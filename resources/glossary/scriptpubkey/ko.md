@@ -21,7 +21,7 @@ OP_DUP OP_HASH160 OP_PUSHBYTES_20 <address> OP_EQUALVERIFY OP_CHECKSIG
 ```
 
 
-![](../../dictionnaire/assets/35.webp)
+
 
 
 > 이 스크립트는 영어로 '잠금 스크립트'라고도 합니다.* * 이 스크립트는 영어로 '잠금 스크립트'라고도 합니다

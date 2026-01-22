@@ -8,4 +8,3 @@ Inyuguti y'inyongera y'ikirundi risobanura "*Ubwenge bw'inkomoko yuguruye*". OSI
 Mu bijanye na Bitcoin, OSINT ishobora gukoreshwa mu gushigikira isesengura ry’uruhererekane ryo gukurikirana amafaranga, cane cane mu kumenya aho umuntu yinjira, ni ukuvuga ihuriro hagati y’igikorwa ca On-Chain n’uburyo bw’akaranga k’ikigo nyaco. Nk’akarorero, iyo ushize Address yawe yakira kuri Twitter mw’izina ryawe, umuhinga mu vy’ugusesangura yoshobora kuyironka akayifatanya n’akaranga kawe.
 
 
-![](../../dictionnaire/assets/28.webp)

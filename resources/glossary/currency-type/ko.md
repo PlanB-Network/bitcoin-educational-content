@@ -15,4 +15,3 @@ term: 통화 유형
 **이더리움:** `0x8000003c`...
 
 
-![](../../dictionnaire/assets/21.webp)

@@ -6,6 +6,6 @@ En spesifikk Bitcoin-transaksjonsstruktur som forbedrer brukerens personvern und
 
 Payjoin-transaksjonen oppfyller to mål. For det første tar den sikte på å villede en ekstern observatør ved å skape en lokkedue i kjedeanalysen på Common Input Ownership Heuristic (CIOH). Når en transaksjon i blokkjeden har flere innganger, antas det vanligvis at alle disse inngangene sannsynligvis tilhører samme enhet. Når en analytiker undersøker en Payjoin-transaksjon, får de dermed inntrykk av at alle inndataene kommer fra samme person. Denne oppfatningen er imidlertid feil, fordi betalingsmottakeren også bidrar til inndataene sammen med den faktiske betaleren. For det andre villeder Payjoin også en ekstern observatør med hensyn til det faktiske beløpet som ble betalt. Ved å undersøke strukturen i transaksjonen kan analytikeren tro at betalingen tilsvarer beløpet til en av utgangene. I virkeligheten tilsvarer betalingsbeløpet ingen av utbetalingene. Det er faktisk differansen mellom mottakerens UTXO i utdataene og mottakerens UTXO i inndataene. Payjoin-transaksjonen faller dermed inn under steganografi. Den gjør det mulig å skjule det faktiske transaksjonsbeløpet i en falsk transaksjon som fungerer som en lokkedue.
 
-![](../../dictionnaire/assets/14.webp)
+
 
 > ► *Payjoin kalles også noen ganger "P2EP (Pay-to-End-Point)", "Stowaway" eller "steganografisk transaksjon"*

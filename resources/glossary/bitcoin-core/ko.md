@@ -7,4 +7,3 @@ Bitcoin core은 Bitcoin 시스템의 참조 오픈 소스 소프트웨어이며 
 Bitcoin core 소프트웨어는 여러 가지 용도로 사용됩니다. 무엇보다도 Full node 클라이언트 역할을 합니다. Bitcoin core에는 Bitcoin core을 직접 저장, 관리 및 트랜잭션을 수행하려는 사용자를 위한 Wallet도 포함되어 있습니다.
 
 
-![](../../dictionnaire/assets/42.webp)

@@ -11,4 +11,3 @@ Platforma je odražavala agoristička uverenja Rossa Ulbrichta, promovišući sl
 Silk Road je zatvoren 2013. godine. Ross Ulbricht je uhapšen iste godine i osuđen na dve doživotne kazne plus 40 godina, bez mogućnosti uslovnog otpusta, uz kaznu od 183 miliona dolara. Ova presuda postavlja pitanja o proporcionalnosti kazni za nenasilne onlajn zločine. Ross je i dalje u zatvoru danas.
 
 
-![](../../dictionnaire/assets/24.webp)

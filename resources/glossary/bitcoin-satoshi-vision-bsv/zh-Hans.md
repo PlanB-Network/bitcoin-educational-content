@@ -10,4 +10,4 @@ term: BITCOIN SATOSHI VISION（BSV）
 
 BSV 通过其显著更高的区块大小上限，将自己与 Bitcoin Cash 区分开来，并且与比特币本身的差异更为明显。这一特性旨在契合其支持者所认为的中本聪对比特币最初愿景的设想。
 
-![](../../dictionnaire/assets/50.webp)
+

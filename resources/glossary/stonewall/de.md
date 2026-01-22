@@ -12,7 +12,7 @@ Es gibt also nur 2 Rollen bei einer Stonewall-Transaktion:
 - Der Absender, der die eigentliche Zahlung vornimmt;
 - Der Empfänger, der möglicherweise nicht weiß, um welche Art von Transaktion es sich handelt, und einfach eine Zahlung vom Absender erwartet.
 
-![](../../dictionnaire/assets/33.webp)
+
 
 Stonewall-Transaktionen sind sowohl in der Samourai Wallet-Anwendung als auch in der Sparrow Wallet-Software verfügbar.
 

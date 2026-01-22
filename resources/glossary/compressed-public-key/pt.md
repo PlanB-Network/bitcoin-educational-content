@@ -6,7 +6,7 @@ Uma chave pública é utilizada em scripts (quer diretamente na forma de uma cha
 
 Se simplificarmos isto para o campo dos números reais, dado que a curva elíptica é simétrica em relação ao eixo x, para qualquer ponto $P$ (`x, y`) na curva, existe um ponto $P'$ (`x, -y`) que também estará nessa mesma curva. Isto significa que para cada `x`, existem apenas dois valores possíveis de `y`, positivo e negativo. Por exemplo, para uma dada abcissa `x`, existiriam dois pontos $P1$ e $P2$ na curva elíptica, partilhando a mesma abcissa mas com ordenadas opostas:
 
-![](../../dictionnaire/assets/29.webp)
+
 
 Para escolher entre os dois pontos potenciais da curva, um prefixo especificando qual `y` escolher é adicionado a `x`. Este método permite reduzir o tamanho de uma chave pública de 520 bits para apenas 264 bits (8 bits do prefixo + 256 bits para `x`). Esta representação é conhecida como a forma comprimida da chave pública.
 

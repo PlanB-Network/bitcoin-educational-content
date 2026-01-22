@@ -13,7 +13,7 @@ Para cada hash calculado, un minero individual de un pool puede encontrarse con 
 - Si el hash es menor que el objetivo de dificultad de la acción, pero mayor o igual que el objetivo de dificultad de Bitcoin, entonces este hash constituye una acción válida que, sin embargo, no es suficiente para validar un bloque. El minero puede enviar este hash a su pool para reclamar la recompensa asociada a la acción: `acción > hash > bloque`.
 - Si el hash es inferior al objetivo de dificultad de la red Bitcoin, se considera tanto una acción como un bloque válidos. El minero transmite este hash a su pool, que se apresura a difundirlo en la red Bitcoin. Este hash también se cuenta como una acción válida para el minero: `share > bloc > hash`.
 
-![](../../dictionnaire/assets/32.webp)
+
 
 Este sistema de acciones se utiliza para estimar el trabajo realizado por cada minero individual dentro de un pool, sin tener que recalcular individualmente todos los hashes generados por un minero, lo que sería completamente ineficiente para el pool.
 

@@ -8,4 +8,3 @@ De hecho, las transacciones con muchos insumos son más pesadas y, en consecuenc
 
 Sin embargo, es importante señalar que las transacciones de consolidación son reconocibles durante un análisis de cadena. Una transacción de este tipo indica una heurística de propiedad de entrada común (CIOH), lo que significa que las entradas de la transacción de consolidación son propiedad de una única entidad. Esto puede tener implicaciones en términos de privacidad para el usuario.
 
-![](../../dictionnaire/assets/7.webp)

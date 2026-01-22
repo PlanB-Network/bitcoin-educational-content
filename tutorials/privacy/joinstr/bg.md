@@ -154,8 +154,8 @@ ipconfig
 
 
 
-- **Linux**: `~/.bitcoin/bitcoin.conf
-- **macOS**: `~/Library/Application Support/Bitcoin/bitcoin.conf
+- **Linux**: ~/.bitcoin/bitcoin.conf
+- **macOS**: ~/Library/Application Support/Bitcoin/bitcoin.conf
 - **Windows**: `%APPDATA%\Bitcoin\bitcoin.conf`
 
 
@@ -380,7 +380,7 @@ openssl rand -base64 32
 
 
 
-- Пример: `satoshi
+- Пример: satoshi
 
 
 

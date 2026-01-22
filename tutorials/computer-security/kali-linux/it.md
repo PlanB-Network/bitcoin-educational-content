@@ -17,7 +17,7 @@ Ecco perché usiamo Kali Linux:
 - È **open source e gratuito**, quindi si può usare e modificare liberamente.
 - È **affidabile e sicuro**, ideale per fare esperienza sulla sicurezza informatica.
 - Permette di imparare a usare Linux in un ambiente pronto per i test.
-- Può essere installato in diversi modi: **VirtualBox**, **chiave USB avviabile** o **avvio doppio**.
+- Può essere installato in diversi modi: **VirtualBox**, **chiave USB avviabile** o **dual boot**.
 
 
 ## Installazione e configurazione
@@ -36,10 +36,10 @@ Ecco perché usiamo Kali Linux:
 ### 2. Scaricare
 
 - Vai su [kali.org/get-kali](https://www.kali.org/get-kali/#kali-platforms)
-- Selezionate l'immagine ISO per la tua applicazione:
+- Seleziona l'immagine ISO per le tue necessità:
   - **Immagine di installazione** : per l'installazione su PC.
   - **Immagine virtuale**: per installare Kali su VirtualBox o VMware.
-- Scaricare l'immagine ISO.
+- Scarica l'immagine ISO.
 
 ![Page de téléchargement Kali](assets/fr/01.webp)
 
@@ -49,7 +49,7 @@ Ecco perché usiamo Kali Linux:
 
 È possibile utilizzare diversi strumenti, come Balena Etcher :
 
-- Scaricare e installare [Balena Etcher](https://etcher.balena.io/).
+- Scarica e installa [Balena Etcher](https://etcher.balena.io/).
 
 ![Page de téléchargement Balena Etcher](assets/fr/03.webp)
 
@@ -79,7 +79,7 @@ Quando si avvia dalla chiavetta USB, dovrebbe apparire la schermata di avvio di 
 
 ![capture](assets/fr/06.webp)
 
-Se si usa l'immagine **Live**, si vedrà un'altra modalità, **Live**, che è anche l'opzione di avvio predefinita.
+Se usi l'immagine **Live**, vedrai un'altra modalità, **Live**, che è anche l'opzione di avvio predefinita.
 
 ![Mode Live](assets/fr/07.webp)
 
@@ -89,7 +89,7 @@ Scegli la lingua preferita per l'installazione e il sistema.
 
 ![Sélection de la langue](assets/fr/08.webp)
 
-Specificare la tua posizione geografica.
+Specifica la tua posizione geografica.
 
 ![Options d'accessibilité](assets/fr/09.webp)
 
@@ -206,8 +206,8 @@ Kali, come Debian/Ubuntu, offre un gestore di aggiornamenti grafico integrato.
 2. Apri **"Software Updater "**.
 
 3. Lo strumento:
-    - Controllare i pacchetti da aggiornare.
-    - Verrà visualizzato un elenco (con dimensioni e versioni).
+    - Controlla i pacchetti da aggiornare.
+    - Visualizza un elenco (con dimensioni e versioni).
     - Consente di avviare l'aggiornamento con un solo clic.
 
 4. Quando viene richiesto, inserisci la password di amministratore (`sudo`).
@@ -242,7 +242,7 @@ Riassumiamo alcuni compiti di base di Kali Linux in una tabella.
 ### Attività di base sotto Kali Linux
 
 | **Categorie**                   | **Attività di base**                             | **Descrizioni / Oggetto**                        | **Metodo principale**                                         |
-| ------------------------------- | ------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------------------- |
+| :-----------------------------: | :----------------------------------------------: | ------------------------------------------------ | ------------------------------------------------------------- |
 | **Navigazione del sistema**     | Apri il Terminale                                | Accedi alla linea di comando di Kali             | Fai clic sull'icona del terminale o utilizza `Ctrl + Alt + T` |
 |                                 | Sfoglia le cartelle                              | Spostarsi nell'albero di sistema                 | `cd /ramo/della/cartella`, `ls` per elencare i file           |
 |                                 | Crea / Rimuovi cartella                          | Organizza i file                                 | `mkdir nome_cartella`, `rm -r nome_cartella`                  |
@@ -256,7 +256,7 @@ Riassumiamo alcuni compiti di base di Kali Linux in una tabella.
 | **Rete e Internet**             | Controlla la connessione di rete                 | Testa l'accesso a Internet                       | `ping planb.academy/it/learn-anytime`                         |
 |                                 | Identifica l'indirizzo IP                        | Conosci la configurazione di rete                | `ip a` o `ifconfig`                                           |
 |                                 | Cambiamento di rete Wi-Fi                        | Collegati a un altro punto di accesso            | Icona di rete → Selezionare il Wi-Fi desiderato               |
-| **Conti e autorizzazioni**      | Esegui un comando d'amministratore               | Ottieni diritti di root temporaneamente          | `sudo commando`                                               |
+| **Account e autorizzazioni**    | Esegui un comando d'amministratore               | Ottieni diritti di root temporaneamente          | `sudo commando`                                               |
 |                                 | Crea un nuovo utente                             | Aggiungi account locale                          | `sudo adduser nome_utilizzatore`                              |
 |                                 | Cambia password                                  | Rendi sicuro un account                          | `passwd`                                                      |
 | **Aspetto e comfort**           | Cambia lo sfondo                                 | Personalizza il desktop                          | Fai clic destro sul desktop → ** Impostazioni ufficio**       |

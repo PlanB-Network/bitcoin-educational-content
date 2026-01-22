@@ -163,7 +163,7 @@ On verra même que dans certains cas, miner à la maison peut présenter un cert
 - utilisation des minis machines "ticket de loterie" consommant à peine 20W permettent de "jouer à la loterie bitcoin" en "solominant"avec des probabilité de jackpot bien supérieure aux loteries nationales.
 
 
-# Pourquoi  et comment miner soit-même ?
+# Pourquoi et comment miner soit-même ?
 
 ## 2.1 Pourquoi miner en Pool "mutualiste" (supprimer tout les ##)
 
@@ -851,38 +851,40 @@ C'est ce qu'on fait lorsque l'on se connecte à une pool distante telles que cel
 
 ## 4.1 Pourquoi ? (Block Template / intermédiare etc...)
 
-En Solomining particulièrement, les avantages qu'apporte la dépendance à un tiers sont quasiment inexistants, si ce n'est la facilité. Autant s'il s'agit de s'associer à d'autre mineur pour obtenir un revenu régulier, le passage par un tiers est quasi obligatoire. Autant lorsqu'il s'agit de miner seul, rien ne dit que ce tiers de confiance n'essaiera pas de vous subtiliser la récompense éventuelle en substituant son adresse à la votre....
+En Solomining particulièrement, les avantages qu'apporte la dépendance à un tiers sont quasiment inexistants, si ce n'est la facilité. Autant s'il s'agit de s'associer à d'autres mineurs pour obtenir un revenu régulier, le passage par un tiers est quasi obligatoire. Autant lorsqu'il s'agit de miner seul, rien ne dit que ce tiers de confiance n'essaiera pas de vous subtiliser la récompense éventuelle en substituant son adresse à la votre....
 Rien ne dit non plus comme déjà évoqué plus haut, que l'entité manageant la pool à laquelle vous faites confiance, ne décidera pas de censurer les transactions des gens qu'elle n'aime pas ou qu'une autorité lui demande de bloquer. 
 
 Si vous êtes un Bitcoiner souverain adepte du solomining ce qui est le cas de la plupart d'entre vous qui lisez ces lignes, vous serez certainement ravis d'apprendre qu'aujourd'hui il est devenu très facile pour n'importe qui de miner sur sa propre solopool, auto hébergée sur un serveur Umbrel ou Start9 par exemple.
 
-L'autre bonne nouvelle c'est que même pour mineur en "pool mutualiste" qui souhaite recevoir des récompenses régulières, des innovations permettent désormais aux mineurs indépendants de soumettre leurs propre bloc template. C'est à dire que chaque mineur de la pool sélectionne les transactions qu'il inscrira dans le bloc si c'est lui qui le trouve. Ainsi le pouvoir de censure de la pool est quasiment réduit à néant. Celle ci se cantonne à son rôle de distributeur de récompenses au prorata de la puissance de calcul de chacun.
+L'autre bonne nouvelle c'est que même pour miner en "pool mutualistes" pour qui souhaite recevoir des récompenses régulières, des innovations permettent désormais aux mineurs indépendants de soumettre leurs propre bloc template. C'est à dire que chaque mineur de la pool sélectionne les transactions qu'il inscrira dans le bloc si c'est lui qui le trouve. Ainsi le pouvoir de censure de la pool est quasiment réduit à néant. Celle ci se cantonne à son rôle de distributeur de récompenses au prorata de la puissance de calcul de chacun.
 
 ==Insérer les liens vers les tuto / cours existants==
 
-## 4.2 Stratum V2 & Datum
+## 4.2 Stratum V2 & Datum (Pool mutualistes)
 
 ![Image](assets/fr/074.webp)
 
 ### Statum V2
 
 ![Image](assets/fr/076.webp)
-![Image](assets/fr/075.webp)
 
-Stratum est un protocole Open Source qui permet au pool de fonctionner et d'interragir avec les machines de minage.  Ce protocole:
+
+Stratum est un protocole Open Source qui permet aux pool de fonctionner et d’interagir avec les machines de minage.  En résumé Stratum c'est le langage qui permet aux mineurs et aux pools de se parler et de miner ensemble.
+
+Ce protocole:
 
 - **Relie les mineurs au pool**
-Permet aux appareils de minage (ASICs) de se connecter à un mining pool.
+	Permet aux appareils de minage (ASICs) de se connecter à un mining pool.
 - **Distribue le travail**
-Le pool envoie aux mineurs des « jobs » (modèles de blocs à miner) en temps réel.
+	Le pool envoie aux mineurs des « jobs » (modèles de blocs à miner) en temps réel.
 - **Collecte les preuves de travail**
-Les mineurs envoient leurs « shares » (preuves partielles de travail) au pool.
+	Les mineurs envoient leurs « shares » (preuves partielles de travail) au pool.
 - **Calcule les récompenses**
-Le pool utilise les shares pour mesurer la contribution de chaque mineur et distribuer les rewards (BTC).
+	Le pool utilise les shares pour mesurer la contribution de chaque mineur et distribuer les rewards (BTC).
 - **Gère les proxies (dans les grandes fermes)**
-Permet d’agréger des milliers de mineurs derrière un proxy avant d’envoyer au pool.
+	Permet d’agréger des milliers de mineurs derrière un proxy avant d’envoyer au pool.
 
-Cependant, Stratum v1, la première implémentation ( qui date de 2012) de ce protocole open source vient avec quelques limitations qui sont rédhibitoires pour qui se soucie de la décentralisation de Bitcoin.
+Cependant, Stratum v1, la première implémentation (qui date de 2012 !) de ce protocole open source vient avec quelques limitations qui sont rédhibitoires pour qui se soucie de la décentralisation de Bitcoin.
 
 Comme [[Pavlenex]] un personnage central (Product Manager travaillant sur nombre de projets bitcoin et fervent  promoteur du projet Stratum V2) dans la mise au point et la promotion de Stratum V2 le souligne:
 
@@ -901,14 +903,29 @@ En effet Stratum V1 confie à la pool de mining le soin de choisir quelles trans
 
 Sans parler du fait que les communications non chiffrées entre tous les acteurs de ces pools pourraient donner lieux à des manipulations importantes, permettant à des entités malveillantes de s'attribuer le travail qu'elles n'ont pas fournie.
 
-C'est là  que Stratum V2 entre jeu
+C'est là  que Stratum V2 entre jeu. La version 2 du protocole permet donc:
 
-Mais seulement xxx le supportent et la seules machine compatible est BM....
+- Le chiffrement (NOISE)
+- La résistance à la censure : les mineurs peuvent proposer leurs propres transactions
+- Une meilleure efficacité (moins de bande passante)
+- Davantage de standardisation et flexibilité
+- Une interopérabilité améliorée
+
+![Image](assets/fr/075.webp)
+
+Mais alors comment utiliser Stratum V2 concrètement avec sa machine de mining pour gagner en autonomie et participer à la décentralisation du mining ? Eh  bien aujourd'hui ce n'est vraiment pas évident.
+Actuellement  seules 2 pools de mining "mutualistes" ( Braiins Pool & DMND)  supportent le protocole, et la plupart des firmwares installés sur les machines de minages ne sont pas compatibles, obligeants les miners à utiliser des proxy qui rendent compatibles les firmwares avec stratum V2 ce qui ajoute pas mal de frictions. Même si la principale raison reste l'inertie des pool de mining et des grands acteurs du marchés (mineurs, constructeur de machines etc...).
+
+En synthèse, dans le cadre de ce cours sur le home mining, la possibilité la plus évidente pour un mineur à la maison qui souhaiterait utiliser Stratum V2 est d'opter pour le mineur de [[#Braiins BMM101]] présenté plut haut. Il est nativement compatible Stratum V2 et couplé à la pool Braiins Pool il vous permettra d'utiliser Stratum V2 sans difficulté.
 
 
 ### Datum
 
-## 4.3 Public Pool & Bassin sur Umbrel / Start 9
+![Image](assets/fr/077.webp)
+
+Dans la droite lignée de Stratum V2, Datum est le protocole open source dédié au mining de l'implémentation Bitcoin Knots (Stratum fonctionne avec Bitcoin Core).
+Les constats sur le centralisation du mining via les pools sont les mêmes, et Datum permet d'u répondre en permettant là encore aux mineurs de construire leur propre bloc template c'est à dire de choisir le transaction à inclure dans les blocs.
+## 4.3 Public Pool & Bassin sur Umbrel / Start 9 (Solopool)
 
 
 

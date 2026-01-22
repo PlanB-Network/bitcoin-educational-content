@@ -595,18 +595,18 @@ $$
 Dies erhöht die Sicherheit gegen potenzielle Angriffe, die mit der Merkle-Damgård-Konstruktion zusammenhängen, erhöht jedoch nicht die Sicherheit des Hashing-Prozesses in Bezug auf Kollisionsresistenz. Darüber hinaus hätte selbst wenn SHA256 für diesen Typ von Angriff anfällig gewesen wäre, dies keinen ernsthaften Einfluss gehabt, da alle Anwendungsfälle von Hashfunktionen in Bitcoin öffentliche Daten betreffen. Der Length-Extension-Angriff könnte jedoch nur für einen Angreifer nützlich sein, wenn die gehashten Daten privat sind und der Benutzer die Hashfunktion als Authentifizierungsmechanismus für diese Daten verwendet hat, ähnlich einem MAC. Daher bleibt die Implementierung des doppelten Hashings ein Geheimnis im Design von Bitcoin.
 Jetzt, da wir uns im Detail mit der Funktionsweise von Hashfunktionen, insbesondere SHA256, welhe in Bitcoin umfangreich verwendet wird, beschäftigt haben, werden wir uns spezifischer auf die kryptografischen Ableitungsalgorithmen konzentrieren, die auf Anwendungsebene verwendet werden, insbesondere für die Ableitung der Schlüssel für deine Wallet.
 
-## Die für die Ableitung verwendeten Algorithmen
+## Algorithmen die für die Ableitung verwendet werden
 <chapterId>cc668121-7789-5e99-bf5e-1ba085f4f5f2</chapterId>
 
 :::video id=a5cf4eb3-e53f-4bff-aee4-de0ca6aab3b6:::
 
-In Bitcoin auf Anwendungsebene werden neben Hashfunktionen kryptografische Ableitungsalgorithmen verwendet, um sichere Daten aus anfänglichen Eingaben zu generieren. Obwohl diese Algorithmen auf Hashfunktionen basieren, dienen sie unterschiedlichen Zwecken, insbesondere in Bezug auf Authentifizierung und Schlüsselgenerierung. Diese Algorithmen behalten einige der Eigenschaften von Hashfunktionen bei, wie Irreversibilität, Manipulationssicherheit und Kollisionsresistenz.
+In Bitcoin werden auf Anwendungsebene neben Hashfunktionen kryptografische Ableitungsalgorithmen verwendet, um sichere Daten aus anfänglichen Eingaben zu generieren. Obwohl diese Algorithmen auf Hashfunktionen basieren, dienen sie unterschiedlichen Zwecken, insbesondere in Bezug auf Authentifizierung und Schlüsselgenerierung. Diese Algorithmen behalten einige der Eigenschaften von Hashfunktionen bei, wie Irreversibilität, Manipulationssicherheit und Kollisionsresistenz.
 
 In Bitcoin-Wallets werden hauptsächlich 2 Ableitungsalgorithmen verwendet:
 - **HMAC (*Hash-based Message Authentication Code*)**
 - **PBKDF2 (*Password-Based Key Derivation Function 2*)**
 
-Wir werden gemeinsam die Funktionsweise und Rolle jedes von ihnen erkunden.
+Wir werden gemeinsam die Funktionsweise und Rolle jedes einzelnen erkunden.
 
 ### HMAC-SHA512
 
@@ -616,9 +616,9 @@ Hier ist sein allgemeines Betriebsschema mit $m$ als Eingangsnachricht und $K$ a
 
 ![CYP201](assets/en/016.webp)
 
-Lassen du uns im Detail untersuchen, was in dieser HMAC-SHA512-Blackbox passiert. Die HMAC-SHA512-Funktion mit:
-- $m$: die beliebig große Nachricht, die vom Benutzer gewählt wird (erster Eingang);
-- $K$: der beliebige geheime Schlüssel, der vom Benutzer gewählt wird (zweiter Eingang);
+Lass uns im Detail untersuchen, was in dieser HMAC-SHA512-Blackbox passiert. Die HMAC-SHA512-Funktion mit:
+- $m$: die beliebig große Nachricht, die vom Benutzer gewählt wird (erster Input);
+- $K$: der beliebige geheime Schlüssel, der vom Benutzer gewählt wird (zweiter Input);
 - $K'$: der Schlüssel $K$, angepasst an die Größe $B$ der Hash-Funktionsblöcke (1024 Bits für SHA512, oder 128 Bytes);
 - $\text{SHA512}$: die SHA512-Hashfunktion;
 - $\oplus$: die XOR (exklusives Oder) Operation;
@@ -641,20 +641,18 @@ Sobald die Vorverarbeitung abgeschlossen ist, wird der HMAC-SHA512-Algorithmus d
 
 
 $$
-$$
 
 \text {HMAC-SHA512}_K(m) = \text{SHA512} \left( (K' \oplus \text{opad}) \parallel \text{SHA512} \left( (K' \oplus \text{ipad}) \parallel m \right) \right)
 
 $$
-$$
 
 Diese Gleichung wird in die folgenden Schritte unterteilt:
-- XOR des angeglichenen Schlüssels $K'$ mit $\text{ipad}$, um $\text{iKpad}$ zu erhalten;
-- XOR des angeglichenen Schlüssels $K'$ mit $\text{opad}$, um $\text{oKpad}$ zu erhalten;
-- Verkettung von $\text{iKpad}$ mit der Nachricht $m$.
-- Hashen dieses Ergebnisses mit SHA512, um einen Zwischenhash $H_1$ zu erhalten.
-- Verkettung von $\text{oKpad}$ mit $H_1$.
-- Hashen dieses Ergebnisses mit SHA512, um das endgültige Ergebnis $H_2$ zu erhalten.
+- XOR den angepassten Schlüssel $K'$ mit $\text{ipad}$, um $\text{iKpad}$ zu erhalten;
+- XOR den angepassten Schlüssel $K'$ mit $\text{opad}$, um $\text{oKpad}$ zu erhalten;
+- Verkette $\text{iKpad}$ mit der Nachricht $m$.
+- Hashe dieses Ergebniss mit SHA512, um einen Zwischenhash $H_1$ zu erhalten.
+- Verkette $\text{oKpad}$ mit $H_1$.
+- Hashe dieses Ergebniss mit SHA512, um das endgültige Ergebnis $H_2$ zu erhalten.
 
 Diese Schritte können schematisch wie folgt zusammengefasst werden:
 
@@ -664,12 +662,12 @@ HMAC wird insbesondere in Bitcoin für die Schlüsselableitung in HD (Hierarchis
 
 ### PBKDF2
 
-PBKDF2 (*Password-Based Key Derivation Function 2*) ist ein Schlüsselableitungsalgorithmus, der entwickelt wurde, um die Sicherheit von Passwörtern zu erhöhen. Der Algorithmus wendet eine Pseudozufallsfunktion (hier HMAC-SHA512) auf ein Passwort und ein kryptografisches Salt an und wiederholt diese Operation eine bestimmte Anzahl von Malen, um einen Ausgabeschlüssel zu erzeugen.
+PBKDF2 (*Password-Based Key Derivation Function 2*) ist ein Schlüsselableitungsalgorithmus, der entwickelt wurde, um die Sicherheit von Passwörtern zu erhöhen. Der Algorithmus wendet eine Pseudozufallsfunktion (hier HMAC-SHA512) auf ein Passwort und ein kryptografisches Salt an und wiederholt diese Operation eine bestimmte Anzahl von Malen, um einen Output-Schlüssel zu erzeugen.
 
-In Bitcoin wird PBKDF2 verwendet, um den Seed eines HD-Wallets aus einer mnemonischen Phrase und einer Passphrase zu generieren (aber wir werden dies in den kommenden Kapiteln genauer besprechen).
+In Bitcoin wird PBKDF2 verwendet, um den Seed einer HD-Wallet aus einer Mnemonic-Phrase und einer Passphrase zu generieren (aber wir werden dies in den kommenden Kapiteln genauer besprechen).
 
 Der PBKDF2-Prozess ist wie folgt, mit:
-- $m$: die mnemonische Phrase des Benutzers;
+- $m$: die Mnemonic-Phrase des Benutzers;
 - $s$: die optionale Passphrase zur Erhöhung der Sicherheit (leeres Feld, wenn keine Passphrase);
 - $n$: die Anzahl der Iterationen der Funktion, in unserem Fall sind es 2048.
 Die PBKDF2-Funktion ist iterativ definiert. Jede Iteration nimmt das Ergebnis der vorherigen, leitet es durch HMAC-SHA512 und kombiniert die aufeinanderfolgenden Ergebnisse, um den endgültigen Schlüssel zu produzieren:
@@ -684,7 +682,7 @@ Schematisch kann PBKDF2 wie folgt dargestellt werden:
 
 ![CYP201](assets/en/018.webp)
 
-In diesem Kapitel haben wir die HMAC-SHA512- und PBKDF2-Funktionen erkundet, die Hashing-Funktionen verwenden, um die Integrität und Sicherheit von Schlüsselableitungen im Bitcoin-Protokoll zu gewährleisten. Im nächsten Teil werden wir uns mit digitalen Signaturen befassen, einer weiteren kryptografischen Methode, die in Bitcoin weit verbreitet ist.
+In diesem Kapitel haben wir die HMAC-SHA512- und PBKDF2-Funktionen erkundet, die Hashfunktionen verwenden, um die Integrität und Sicherheit von Schlüsselableitungen im Bitcoin-Protokoll zu gewährleisten. Im nächsten Teil werden wir uns mit digitalen Signaturen befassen, einer weiteren kryptografischen Methode, die in Bitcoin weit verbreitet ist.
 
 # Digitale Signaturen
 <partId>76b58a00-0c18-54b9-870d-6b7e34029db8</partId>
@@ -694,25 +692,25 @@ In diesem Kapitel haben wir die HMAC-SHA512- und PBKDF2-Funktionen erkundet, die
 
 :::video id=6d307c93-8c79-42e2-ac95-cfcb2a58889f:::
 
-Die zweite kryptografische Methode, die in Bitcoin verwendet wird, umfasst Algorithmen für digitale Signaturen. Lassen du uns erkunden, was dies beinhaltet und wie es funktioniert.
+Die zweite kryptografische Methode, die in Bitcoin verwendet wird, umfasst Algorithmen für digitale Signaturen. Lass uns erkunden, was dies beinhaltet und wie sie funktioniert.
 
 ### Bitcoins, UTXOs und Ausgabebedingungen
 
-Der Begriff "*Wallet*" in Bitcoin kann für Anfänger ziemlich verwirrend sein. Tatsächlich ist das, was als Bitcoin-Wallet bezeichnet wird, Software, die deine Bitcoins nicht direkt hält, im Gegensatz zu einem physischen Wallet, das Münzen oder Scheine halten kann. Bitcoins sind einfach Recheneinheiten. Diese Recheneinheit wird durch **UTXO** (*Unspent Transaction Outputs*), also unverbrauchte Transaktionsausgänge, dargestellt. Wenn diese Ausgänge unverbraucht sind, bedeutet das, dass sie einem Benutzer gehören. UTXOs sind gewissermaßen Bitcoin-Stücke variabler Größe, die einem Benutzer gehören.
+Der Begriff "*Wallet*" in Bitcoin kann für Anfänger ziemlich verwirrend sein. Tatsächlich ist das, was als Bitcoin-Wallet bezeichnet wird, Software, die deine Bitcoin nicht direkt hält, im Gegensatz zu einer physischen Geldbörse, die Münzen oder Scheine halten kann. Bitcoin sind einfach Recheneinheiten. Diese Recheneinheit wird durch **UTXO** (*Unspent Transaction Outputs*), also unverbrauchte Transaktionsausgänge, dargestellt. Wenn diese Ausgänge unverbraucht sind, bedeutet das, dass sie einem Benutzer gehören. UTXOs sind gewissermaßen Bitcoin-Stücke variabler Größe, die einem Benutzer gehören.
 
-Das Bitcoin-Protokoll ist verteilt und funktioniert ohne zentrale Autorität. Daher ist es nicht wie traditionelle Bankaufzeichnungen, bei denen die Euros, die dir gehören, einfach mit Ihrer persönlichen Identität verknüpft sind. Bei Bitcoin gehören deine UTXOs dir, weil sie durch Ausgabebedingungen geschützt sind, die in der Script-Sprache angegeben sind. Vereinfacht gesagt gibt es zwei Arten von Scripts: das Sperrscript (*scriptPubKey*), das ein UTXO schützt, und das Entsperrscript (*scriptSig*), das das Entsperren eines UTXO ermöglicht und somit die darin vertretenen Bitcoin-Einheiten ausgibt.
+Das Bitcoin-Protokoll ist verteilt und funktioniert ohne zentrale Autorität. Daher ist es nicht wie traditionelle Bankaufzeichnungen, bei denen die Euros, die dir gehören, einfach mit deiner persönlichen Identität verknüpft sind. Bei Bitcoin gehören deine UTXOs dir, weil sie durch Ausgabebedingungen geschützt sind, die in der Script-Sprache angegeben sind. Vereinfacht gesagt gibt es zwei Arten von Scripts: das Sperrscript (*scriptPubKey*), das ein UTXO schützt, und das Entsperrscript (*scriptSig*), das das Entsperren eines UTXO ermöglicht und somit die darin vertretenen Bitcoin-Einheiten ausgibt.
 
-Die ursprüngliche Operation von Bitcoin mit P2PK-Scripts beinhaltet die Verwendung eines öffentlichen Schlüssels, um Gelder zu sperren, indem in einem *scriptPubKey* angegeben wird, dass die Person, die dieses UTXO ausgeben möchte, eine gültige Signatur mit dem privaten Schlüssel vorlegen muss, der zu diesem öffentlichen Schlüssel gehört. Um dieses UTXO zu entsperren, ist es daher notwendig, eine gültige Signatur im *scriptSig* bereitzustellen. Wie ihre Namen andeuten, ist der öffentliche Schlüssel allen bekannt, da er in der Blockchain übertragen wird, während der private Schlüssel nur dem legitimen Besitzer der Gelder bekannt ist.
+Die ursprüngliche Operation von Bitcoin mit P2PK-Scripts beinhaltet die Verwendung eines öffentlichen Schlüssels, um Gelder zu sperren, indem in einem *scriptPubKey* angegeben wird, dass die Person, die diesen UTXO ausgeben möchte, eine gültige Signatur mit dem privaten Schlüssel vorlegen muss, der zu diesem öffentlichen Schlüssel gehört. Um diesen UTXO zu entsperren, ist es daher notwendig, eine gültige Signatur im *scriptSig* bereitzustellen. Wie ihre Namen andeuten, ist der öffentliche Schlüssel allen bekannt, da er in der Blockchain übertragen wird, während der private Schlüssel nur dem legitimen Besitzer der Gelder bekannt ist.
 
-Dies ist die grundlegende Funktionsweise von Bitcoin, aber im Laufe der Zeit ist diese Operation komplexer geworden. Zuerst führte Satoshi auch P2PKH-Scripts ein, die eine Empfangsadresse im *scriptPubKey* verwenden, die den Hash des öffentlichen Schlüssels darstellt. Dann wurde das System noch komplexer mit der Ankunft von SegWit und dann Taproot. Das allgemeine Prinzip bleibt jedoch grundsätzlich dasselbe: Ein öffentlicher Schlüssel oder eine Darstellung dieses Schlüssels wird verwendet, um UTXOs zu sperren, und ein entsprechender privater Schlüssel ist erforderlich, um sie zu entsperren und somit auszugeben.
+Dies ist die grundlegende Funktionsweise von Bitcoin, aber im Laufe der Zeit ist diese Operation komplexer geworden. Zuerst führte Satoshi auch P2PKH-Scripte ein, die eine Empfangsadresse im *scriptPubKey* verwenden, die den Hash des öffentlichen Schlüssels darstellt. Dann wurde das System noch komplexer mit der Ankunft von SegWit und dann Taproot. Das allgemeine Prinzip bleibt jedoch grundsätzlich dasselbe: Ein öffentlicher Schlüssel oder eine Darstellung dieses Schlüssels wird verwendet, um UTXOs zu sperren, und ein entsprechender privater Schlüssel ist erforderlich, um sie zu entsperren und somit auszugeben.
 
 Ein Nutzer, der eine Bitcoin-Transaktion durchführen möchte, muss daher eine digitale Signatur mit seinem privaten Schlüssel für die betreffende Transaktion erstellen. Die Signatur kann von anderen Netzwerkteilnehmern überprüft werden. Wenn sie gültig ist, bedeutet dies, dass der Nutzer, der die Transaktion initiiert, tatsächlich der Besitzer des privaten Schlüssels und somit der Besitzer der Bitcoins ist, die er ausgeben möchte. Andere Nutzer können dann die Transaktion akzeptieren und weiterleiten.
 
-Folglich muss ein Nutzer, der Bitcoins besitzt, die mit einem öffentlichen Schlüssel gesperrt sind, einen Weg finden, um das, was das Entsperren seiner Mittel ermöglicht, nämlich den privaten Schlüssel, sicher aufzubewahren. Ein Bitcoin-Wallet ist also ein Werkzeug, das es dir ermöglicht, alle deine Schlüssel einfach zu behalten, ohne dass andere Personen Zugang dazu haben. Es ist daher eher wie ein Schlüsselbund als wie eine Brieftasche.
+Folglich muss ein Nutzer, der Bitcoins besitzt, die mit einem öffentlichen Schlüssel gesperrt sind, einen Weg finden, um das, was das Entsperren seiner Mittel ermöglicht, nämlich den privaten Schlüssel, sicher aufzubewahren. Eine Bitcoin-Wallet ist also ein Werkzeug, das es dir ermöglicht, alle deine Schlüssel einfach zu behalten, ohne dass andere Personen Zugang dazu haben. Es ist daher eher wie ein Schlüsselbund als wie eine Geldbörse.
 
-Die mathematische Verbindung zwischen einem öffentlichen Schlüssel und einem privaten Schlüssel sowie die Fähigkeit, eine Signatur zu leisten, um den Besitz eines privaten Schlüssels zu beweisen, ohne ihn zu offenbaren, werden durch einen digitalen Signaturalgorithmus ermöglicht. Im Bitcoin-Protokoll werden 2 Signaturalgorithmen verwendet: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (*[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm*) und das **Schnorr-Signaturschema**. ECDSA ist das digitale Signaturprotokoll, das seit den Anfängen von Bitcoin verwendet wird. Schnorr ist in Bitcoin neuer, da es im November 2021 mit dem Taproot-Update eingeführt wurde.
+Die mathematische Verbindung zwischen einem öffentlichen Schlüssel und einem privaten Schlüssel sowie die Fähigkeit, eine Signatur zu leisten, um den Besitz eines privaten Schlüssels zu beweisen, ohne ihn zu offenbaren, wird durch einen digitalen Signaturalgorithmus ermöglicht. Im Bitcoin-Protokoll werden 2 Signaturalgorithmen verwendet: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** ([*Elliptic Curve Digital Signature Algorithm*](https://planb.academy/resources/glossary/elliptic-curve) und das **Schnorr-Signuture-Theme**.
+Diese beiden Algorithmen sind in ihren Mechanismen recht ähnlich. Sie basieren beide auf elliptischer Kurvenkryptografie. Der Hauptunterschied zwischen diesen beiden Protokollen liegt in der Struktur der Signatur und einigen spezifischen mathematischen Eigenschaften. Wir werden daher die Funktionsweise dieser Algorithmen untersuchen, beginnend mit dem ältesten: ECDSA.
 
-Diese beiden Algorithmen sind in ihren Mechanismen recht ähnlich. du basieren beide auf elliptischer Kurvenkryptografie. Der Hauptunterschied zwischen diesen beiden Protokollen liegt in der Struktur der Signatur und einigen spezifischen mathematischen Eigenschaften. Wir werden daher die Funktionsweise dieser Algorithmen untersuchen, beginnend mit dem ältesten: ECDSA.
 ### Elliptische Kurvenkryptografie
 
 Die elliptische Kurvenkryptografie (ECC) ist eine Reihe von Algorithmen, die eine elliptische Kurve für ihre verschiedenen mathematischen und geometrischen Eigenschaften zu kryptografischen Zwecken nutzen. Die Sicherheit dieser Algorithmen beruht auf der Schwierigkeit des diskreten Logarithmusproblems auf elliptischen Kurven. Elliptische Kurven werden insbesondere für Schlüsselaustausche, asymmetrische Verschlüsselung oder zur Erstellung digitaler Signaturen verwendet.
@@ -723,7 +721,7 @@ Hier ist eine Darstellung einer elliptischen Kurve über dem Feld der reellen Za
 
 ![CYP201](assets/en/019.webp)
 
-Jede elliptische Kurve wird durch eine Gleichung der Form definiert:
+Jede elliptische Kurve wird durch eine Gleichung der folgenden Form definiert:
 
 $$
 
@@ -735,7 +733,7 @@ $$
 
 Um ECDSA oder Schnorr zu verwenden, muss man die Parameter der elliptischen Kurve wählen, das heißt, die Werte von $a$ und $b$ in der Kurvengleichung. Es gibt verschiedene Standards elliptischer Kurven, die als kryptografisch sicher gelten. Der bekannteste ist die *secp256r1*-Kurve, die vom NIST (*National Institute of Standards and Technology*) definiert und empfohlen wird.
 
-Trotzdem entschied sich Satoshi Nakamoto, der Erfinder von Bitcoin, diese Kurve nicht zu verwenden. Der Grund für diese Wahl ist unbekannt, aber einige glauben, er bevorzugte eine Alternative, weil die Parameter dieser Kurve potenziell eine Hintertür enthalten könnten. Stattdessen verwendet das Bitcoin-Protokoll den Standard ***secp256k1***. Diese Kurve ist durch die Parameter $a = 0$ und $b = 7$ definiert. deine Gleichung ist daher:
+Trotzdem entschied sich Satoshi Nakamoto, der Erfinder von Bitcoin, diese Kurve nicht zu verwenden. Der Grund für diese Wahl ist unbekannt, aber einige glauben, er bevorzugte eine Alternative, weil die Parameter dieser Kurve potenziell eine Hintertür enthalten könnten. Stattdessen verwendet das Bitcoin-Protokoll die Standard ***secp256k1***-Kurse. Diese Kurve ist durch die Parameter $a = 0$ und $b = 7$ definiert. deine Gleichung ist daher:
 
 $$
 
@@ -743,14 +741,15 @@ y^2 = x^3 + 7
 
 $$
 
-deine grafische Darstellung über dem Feld der reellen Zahlen sieht folgendermaßen aus:
+Ihre grafische Darstellung über dem Feld der reellen Zahlen sieht folgendermaßen aus:
 
 ![CYP201](assets/en/020.webp)
 
 In der Kryptographie arbeiten wir jedoch mit endlichen Zahlenmengen. Genauer gesagt arbeiten wir im endlichen Feld $\mathbb{F}_p$, welches das Feld der ganzen Zahlen modulo einer Primzahl $p$ ist.
+
 **Definition**: Eine Primzahl ist eine natürliche ganze Zahl, die größer oder gleich 2 ist und nur zwei verschiedene positive ganze Zahlenteiler hat: 1 und sich selbst. Zum Beispiel ist die Zahl 7 eine Primzahl, da sie nur durch 1 und 7 geteilt werden kann. Andererseits ist die Zahl 8 keine Primzahl, weil sie durch 1, 2, 4 und 8 geteilt werden kann.
 
-Bei Bitcoin wird die Primzahl $p$, die verwendet wird, um das endliche Feld zu definieren, sehr groß gewählt. du wird so ausgewählt, dass die Ordnung des Feldes (d.h. die Anzahl der Elemente in $\mathbb{F}_p$) ausreichend groß ist, um kryptografische Sicherheit zu gewährleisten.
+Bei Bitcoin wird die Primzahl $p$, die verwendet wird, um das endliche Feld zu definieren, sehr groß gewählt. Sie wird so ausgewählt, dass die Ordnung des Feldes (d.h. die Anzahl der Elemente in $\mathbb{F}_p$) ausreichend groß ist, um kryptografische Sicherheit zu gewährleisten.
 
 Die verwendete Primzahl $p$ ist:
 
@@ -776,7 +775,7 @@ y^2 \equiv x^3 + 7 \mod p
 
 $$
 
-Da diese Kurve über das endliche Feld $\mathbb{F}_p$ definiert ist, ähnelt sie nicht mehr einer kontinuierlichen Kurve, sondern eher einer diskreten Menge von Punkten. Zum Beispiel sieht hier die in Bitcoin verwendete Kurve für ein sehr kleines $p = 17$ so aus:
+Da diese Kurve über das endliche Feld $\mathbb{F}_p$ definiert ist, ähnelt sie nicht mehr einer kontinuierlichen Kurve, sondern eher einer diskreten Menge von Punkten. Zum Beispiel sieht die in Bitcoin verwendete Kurve für ein sehr kleines $p = 17$ so aus:
 
 ![CYP201](assets/en/021.webp)
 
@@ -786,7 +785,7 @@ Wir verwenden ein endliches Feld ganzer Zahlen modulo $p$, um die Genauigkeit de
 
 Die Mathematik der elliptischen Kurven über endlichen Feldern ist analog zu der über dem Feld der reellen Zahlen, mit der Anpassung, dass alle Operationen modulo $p$ durchgeführt werden. Um die Erklärungen zu vereinfachen, werden wir in den folgenden Kapiteln weiterhin Konzepte anhand einer Kurve, die über reelle Zahlen definiert ist, veranschaulichen, während wir im Hinterkopf behalten, dass die Kurve in der Praxis über ein endliches Feld definiert ist.
 
-Wenn du mehr über die mathematischen Grundlagen der modernen Kryptographie erfahren möchten, empfehle ich auch, diesen anderen Kurs im Plan ₿ Academy zu konsultieren:
+Wenn du mehr über die mathematischen Grundlagen der modernen Kryptographie erfahren möchtest, empfehle ich auch, diesen anderen Kurs der Plan ₿ Academy zu besuchen:
 
 https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
@@ -795,28 +794,29 @@ https://planb.academy/courses/d2fd9fc0-d9ed-4a87-9fa3-0fdbb3937e28
 
 :::video id=2fddfb16-5ae3-41da-92f8-ef5d09789804:::
 
-Wie zuvor gesehen, basieren die digitalen Signaturalgorithmen bei Bitcoin auf einem Paar von privaten und öffentlichen Schlüsseln, die mathematisch miteinander verknüpft sind. Lassen du uns gemeinsam erkunden, was diese mathematische Verknüpfung ist und wie sie generiert werden.
+Wie zuvor gesehen, basieren die digitalen Signaturalgorithmen bei Bitcoin auf einem Paar von privaten und öffentlichen Schlüsseln, die mathematisch miteinander verknüpft sind. Lass uns gemeinsam erkunden, was diese mathematische Verknüpfung ist und wie sie generiert werden.
 
 ### Der private Schlüssel
 
-Der private Schlüssel ist einfach eine zufällige oder pseudozufällige Zahl. Im Fall von Bitcoin ist diese Zahl 256 Bit groß. Die Anzahl der Möglichkeiten für einen Bitcoin-privaten Schlüssel ist daher theoretisch $2^{256}$.
-**Hinweis**: Eine "pseudo-zufällige Zahl" ist eine Zahl, die Eigenschaften aufweist, die denen einer wirklich zufälligen Zahl nahekommen, aber durch einen deterministischen Algorithmus erzeugt wird.
-In der Praxis gibt es jedoch nur $n$ unterschiedliche Punkte auf unserer elliptischen Kurve secp256k1, wobei $n$ die Ordnung des Generatorpunkts $G$ der Kurve ist. Wir werden später sehen, was diese Zahl bedeutet, aber merken du sich einfach, dass ein gültiger privater Schlüssel eine ganze Zahl zwischen $1$ und $n-1$ ist, wobei $n$ eine Zahl ist, die nahe, aber etwas weniger als $2^{256}$ ist. Daher gibt es einige 256-Bit-Zahlen, die nicht gültig sind, um ein privater Schlüssel in Bitcoin zu werden, speziell alle Zahlen zwischen $n$ und $2^{256}$. Wenn die Erzeugung der Zufallszahl (der private Schlüssel) einen Wert $k$ ergibt, sodass $k \geq n$ ist, wird er als ungültig betrachtet, und ein neuer Zufallswert muss generiert werden.
+Der private Schlüssel ist einfach eine zufällige oder pseudozufällige Zahl. Im Fall von Bitcoin ist diese Zahl 256 Bit groß. Die Anzahl der Möglichkeiten für einen privaten Bitcoin-Schlüssel ist daher theoretisch $2^{256}$.
 
-Die Anzahl der Möglichkeiten für einen Bitcoin-privaten Schlüssel beträgt daher etwa $n$, was einer Zahl nahe $1.158 \times 10^{77}$ entspricht. Diese Zahl ist so groß, dass es statistisch fast unmöglich ist, zufällig auf den privaten Schlüssel eines anderen Benutzers zu stoßen, wenn du einen privaten Schlüssel zufällig wählen. Um dir eine Vorstellung von der Größenordnung zu geben, die Anzahl der möglichen privaten Schlüssel bei Bitcoin liegt in einer Größenordnung nahe der geschätzten Atome im beobachtbaren Universum.
+**Hinweis**: Eine "pseudo-zufällige Zahl" ist eine Zahl, die Eigenschaften aufweist, die der einer wirklich zufälligen Zahl nahekommen, aber durch einen deterministischen Algorithmus erzeugt wird.
+In der Praxis gibt es jedoch nur $n$ unterschiedliche Punkte auf unserer elliptischen Kurve secp256k1, wobei $n$ die Ordnung des Generatorpunkts $G$ der Kurve ist. Wir werden später sehen, was diese Zahl bedeutet, aber merk dir einfach, dass ein gültiger privater Schlüssel eine ganze Zahl zwischen $1$ und $n-1$ ist, wobei $n$ eine Zahl ist, die nahe, aber etwas weniger als $2^{256}$ ist. Daher gibt es einige 256-Bit-Zahlen, die nicht gültig sind, um ein privater Schlüssel in Bitcoin zu werden, speziell alle Zahlen zwischen $n$ und $2^{256}$. Wenn die Erzeugung der Zufallszahl (der private Schlüssel) einen Wert $k$ ergibt, sodass $k \geq n$ ist, wird er als ungültig betrachtet, und ein neuer Zufallswert muss generiert werden.
 
-Wie wir in den kommenden Kapiteln sehen werden, werden heute die meisten privaten Schlüssel bei Bitcoin nicht zufällig generiert, sondern sind das Ergebnis einer deterministischen Ableitung aus einer mnemonischen Phrase, die selbst pseudo-zufällig ist (dies ist die berühmte Phrase aus 12 oder 24 Wörtern). Diese Information ändert nichts an der Verwendung von Signaturalgorithmen wie ECDSA, hilft aber, unseren Popularisierungsansatz auf Bitcoin zu fokussieren.
+Die Anzahl der Möglichkeiten für einen privaten Bitcoin-Schlüssel beträgt daher etwa $n$, was einer Zahl nahe $1.158 \times 10^{77}$ entspricht. Diese Zahl ist so groß, dass es statistisch fast unmöglich ist, zufällig auf den privaten Schlüssel eines anderen Benutzers zu stoßen, wenn du einen privaten Schlüssel zufällig wählst. Um dir eine Vorstellung von der Größenordnung zu geben, die Anzahl der möglichen privaten Schlüssel bei Bitcoin liegt in einer Größenordnung nahe der geschätzten Atome im beobachtbaren Universum.
+
+Wie wir in den kommenden Kapiteln sehen werden, werden heute die meisten privaten Schlüssel bei Bitcoin nicht zufällig generiert, sondern sind das Ergebnis einer deterministischen Ableitung aus einer Mnemonic-Phrase, die selbst pseudo-zufällig ist (dies ist die berühmte Phrase aus 12 oder 24 Wörtern). Diese Information ändert nichts an der Verwendung von Signaturalgorithmen wie ECDSA, hilft aber, unseren Popularisierungsansatz auf Bitcoin zu fokussieren.
 
 Für die Fortsetzung der Erklärung wird der private Schlüssel durch den Kleinbuchstaben $k$ dargestellt.
 
 ### Der öffentliche Schlüssel
 Der öffentliche Schlüssel ist ein Punkt auf der elliptischen Kurve, dargestellt durch den Großbuchstaben $K$, und wird aus dem privaten Schlüssel $k$ berechnet. Dieser Punkt $K$ wird durch ein Paar von Koordinaten $(x, y)$ auf der elliptischen Kurve repräsentiert, wobei jede Koordinate eine ganze Zahl modulo $p$ ist, der Primzahl, die das endliche Feld $\mathbb{F}_p$ definiert.
-In der Praxis wird ein unkomprimierter öffentlicher Schlüssel durch 512 Bits (oder 64 Bytes) dargestellt, die zwei 256-Bit-Zahlen ($x$ und $y$) entsprechen, die hintereinander platziert sind. Diese Zahlen sind die Abszisse ($x$) und die Ordinate ($y$) unseres Punktes auf secp256k1. Wenn wir das Präfix hinzufügen, summiert sich der öffentliche Schlüssel auf 520 Bits.
 
-Es ist jedoch auch möglich, den öffentlichen Schlüssel in einer komprimierten Form darzustellen, die nur 33 Bytes (264 Bits) verwendet, indem nur die Abszisse $x$ unseres Punktes auf der Kurve und ein Byte, das die Parität von $y$ angibt, beibehalten wird. Dies ist als komprimierter öffentlicher Schlüssel bekannt. Ich werde in den letzten Kapiteln dieses Trainings mehr darüber sprechen. Aber was du sich merken müssen, ist, dass ein öffentlicher Schlüssel $K$ ein Punkt ist, der durch $x$ und $y$ beschrieben wird.
+In der Praxis wird ein unkomprimierter öffentlicher Schlüssel mit 520 Bit (oder 65 Byte) dargestellt. Er besteht aus zwei aneinandergereihten 256-Bit-Zahlen (x und y) und wird von einem 8-Bit-Präfix 0x04 eingeleitet. Diese Zahlen sind die Abszisse (x) und die Ordinate (y) unseres Punkts auf secp256k1.
+
+Es ist jedoch auch möglich, den öffentlichen Schlüssel in einer komprimierten Form darzustellen, die nur 33 Bytes (264 Bits) verwendet, indem nur die Abszisse $x$ unseres Punktes auf der Kurve und ein Byte, das die Parität von $y$ angibt, beibehalten wird. Dies ist als komprimierter öffentlicher Schlüssel bekannt. Ich werde in den letzten Kapiteln dieses Kurses mehr darüber sprechen. Aber was du dir merken musst, ist, dass ein öffentlicher Schlüssel $K$ ein Punkt ist, der durch $x$ und $y$ beschrieben wird.
 
 Um den Punkt $K$ zu berechnen, der unserem öffentlichen Schlüssel entspricht, verwenden wir die Operation der skalaren Multiplikation auf elliptischen Kurven, definiert als eine wiederholte Addition ($k$-mal) des Generatorpunkts $G$:
-
 
 $$
 
@@ -824,7 +824,7 @@ K = k \cdot G
 
 $$
 
-wo:
+mit:
 - $k$ ist der private Schlüssel (eine zufällige ganze Zahl zwischen $1$ und $n-1$);
 - $G$ ist der Generatorpunkt der elliptischen Kurve, der von allen Teilnehmern des Bitcoin-Netzwerks verwendet wird;
 - $\cdot$ repräsentiert die skalare Multiplikation auf der elliptischen Kurve, was dem Hinzufügen des Punktes $G$ zu sich selbst $k$ Mal entspricht.
@@ -861,7 +861,7 @@ $$
 
 $$
 
-Grafisch wird dies gezeigt als:
+Grafisch wird dies wie folgt sichtbar:
 
 ![CYP201](assets/en/025.webp)
 
@@ -916,9 +916,9 @@ $$
 
 Wir haben somit den öffentlichen Schlüssel $K$ leicht berechnen können, indem wir $k$ und $G$ kannten.
 
-Wenn jemand jedoch nur den öffentlichen Schlüssel $K$ kennt, steht er vor dem Problem des diskreten Logarithmus: das Finden von $k$ so, dass $K = k \cdot G$. Dieses Problem gilt als schwierig, weil es keinen effizienten Algorithmus gibt, um es auf elliptischen Kurven zu lösen. Dies gewährleistet die Sicherheit der ECDSA- und Schnorr-Algorithmen.
+Wenn jemand jedoch nur den öffentlichen Schlüssel $K$ kennt, steht er vor dem diskreten Logarithmusproblem: das Finden von $k$ so, dass $K = k \cdot G$. Dieses Problem gilt als schwierig, weil es keinen effizienten Algorithmus gibt, um es auf elliptischen Kurven zu lösen. Dies gewährleistet die Sicherheit der ECDSA- und Schnorr-Algorithmen.
 
-Natürlich wäre es in diesem vereinfachten Beispiel mit $k = 4$ möglich, $k$ durch Ausprobieren zu finden, da die Anzahl der Möglichkeiten gering ist. In der Praxis bei Bitcoin ist $k$ jedoch eine 256-Bit-Ganzzahl, was die Anzahl der Möglichkeiten astronomisch groß macht (ungefähr $1.158 \times 10^{77}$). Daher ist es undurchführbar, $k$ durch Brute-Force zu finden.
+Natürlich wäre es in diesem vereinfachten Beispiel mit $k = 4$ möglich, $k$ durch Ausprobieren zu finden, da die Anzahl der Möglichkeiten gering ist. In der Praxis bei Bitcoin ist $k$ jedoch eine 256-Bit-Zahl, was die Anzahl der Möglichkeiten astronomisch groß macht (ungefähr $1.158 \times 10^{77}$). Daher ist es nicht realisierbar, $k$ durch Brute-Force zu finden.
 
 ## Signieren mit dem privaten Schlüssel
 

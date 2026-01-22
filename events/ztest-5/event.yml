@@ -9,16 +9,17 @@ type: workshop
 book_online: true
 book_in_person: false
 price_dollars: 0
+available_seats: 40
 is_gdpr_compliance: true
 custom_tc_disclaimer: 
-description: .
+description: Test description
 language:
   - en
   - fr
 links:
   website: https://www.planbtest.network
   replay_url:
-  live_url:
+  live_url: https://youtube.com/live/RbPioYFCB0U?feature=share
 project_id: cd62a137-baad-4133-b90d-711963e510c7
 tags:
   - lightning

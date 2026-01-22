@@ -4001,7 +4001,7 @@ rgb:2WBcas9-yjzEvGufY-9GEgnyMj7-beMNMWA8r-sPHtV1nPU-TMsGMQX/RGB20/100+utxob:egXs
 - Iyo Wallet idacungera iyo sinyatire, yirengagiza gusa iyo parametere.
 
 
-Reka dufate urugero rwa NFT biciye kuri RGB21 Interface. Nk’akarorero, twoshobora kugira:
+Reka dufate urugero rwa NFT biciye ahantu hakrerwa ha RGB21. Nk’akarorero, twoshobora kuba dufise:
 
 
 ```txt
@@ -4014,20 +4014,20 @@ Aha turabona:
 
 
 
-- `RGB:`**: Intangiriro ya URL;
-- 1917 ID (NFT);
-- **rGB21**: Interface ku mitungo idashobora guhinduka (NFT);
-- **`DbwzvSu-4BZU81jEp-...`**: ivyerekeye igice kidasanzwe ca NFT, nk'akarorero Hash y'amakuru (ivy'amakuru, amakuru y'imbere...);
-- `+utxob: nk'akarorero: 1920.
+- `RGB:`**: Inyitangizo ya URL;
+- 7BKsac8-beMNMWA8r-3GEprtFh7-bjzEvGufY-aNLuU4nSN-MRsLOIK: Ikiranga amasezerano (NFT);;
+- **rGB21**: Ahakorerwa ibintu humutungo udasubirizwa  (NFT);
+- **`DbwzvSu-4BZU81jEp-...`**: ivyerekeye igice kidasanzwe ca NFT, nk'akarorero Hash y'amakuru (ikimenyeshamakuru, ahabikwa amakuru...);
+- `+utxob:egXsFnw-...: insiguro ya Serire.
 
 
-Iciyumviro ni kimwe: gutanga uruja n’uruza rudasanzwe Wallet ishobora gusobanura, rugaragaza neza umutungo udasanzwe uzorungikwa.
+Iciyumviro ni kimwe: kurungika linki Ingodo ishobora gutahura, rugaragaza neza umutungo udasanzwe uzorungikwa.
 
 
 #### Ibindi bikorwa biciye kuri URL
 
 
-RGB URLs ntizikoreshwa gusa mu gusaba kwimurira. Bashobora kandi gushiramwo ibikorwa biteye imbere cane, nk’ugutanga ibimenyetso bishasha (*issuance*). Nk'akarorero:
+URLs za RGB ntizikoreshwa gusa mu gusaba kurungika. Bashobora kandi gushiramwo ibikorwa biteye imbere cane, nk’ugutanga ama token mashasha (*issuance*). Nk'akarorero:
 
 
 ```txt
@@ -4040,19 +4040,19 @@ Aha niho dusanga:
 
 
 
-- `RGB:`: amategeko;
-- `2Ibibazo9-...`: Indangamuntu ya Contract;
-- `/RGB20/ikibazo/100000`: yerekana ko ushaka guhamagara "*Ikibazo*" kugira ngo ureme ibindi bimenyetso 100.000;
-- `+Igisubizo:`: Seal Definition.
+- `RGB:`: urukwirikirane;
+- `2Ibibazo9-...`: Ikiranga amasezerano;
+- `/RGB20/ikibazo/100000`: yerekana ko ushaka guhamagara "*Ikibazo*" kugira ngo ukore ayandi ma token 100.000;
+- `+Igisubizo:`: Insiguro ya Serire.
 
 
-Nk'akarorero, Wallet yoshobora gusoma ngo: "Nasabwe gukora igikorwa co gukuraho ikibazo kuva kuri `RGB20` Interface, kuri Contract nk'iyo, ku bice 100.000, ku nyungu ya Contract nk'iyo".
+Nk'akarorero, Ingodo ishobora gusoma ngo: "Nasabwe gukora igikorwa co gukuraho ikibazo kuva ahakorerwa ibintu `RGB20`, kumasezerano nk'iyo, ku bice 100.000, ku nyungu y'amasezerano nk'iyo".
 
 
-None ko twabonye Elements nyamukuru ya porogarama ya RGB, nzobajana mu kigabane gikurikira ku buryo bwo gukora RGB Contract.
+None ko twabonye Ibintu nyamukuru ya porogarama ya RGB, nzobajana mu kigabane gikurikira ku buryo bwo gukora amasezerano ya RGB.
 
 
-## Gutegura amasezerano y'ubwenge
+## Kwandika amasezerano ya smart contracts
 
 
 <chapterId>0e0a645c-0049-588d-8965-b8c536590cc9</chapterId>
@@ -4061,16 +4061,16 @@ None ko twabonye Elements nyamukuru ya porogarama ya RGB, nzobajana mu kigabane 
 :::id ya videwo=a3ad6dcd-90b8-4272-9dfc-76c85c859167::
 
 
-Muri iki gice, tuzofata intambwe ku yindi uburyo bwo kwandika Contract, dukoresheje igikoresho c'umurongo w'amabwirizwa `RGB`. Intumbero ni ukwerekana ingene woshiramwo no gukoresha CLI, ugakoranya **Schema**, ​​ugashiramwo **Interface** na **Interface Implementation**, hanyuma ugatanga (*ugutanga*) umutungo. Turaza kuraba kandi ivyiyumviro bishingiyeko, harimwo n’ugukoranya n’ugushingira intahe. Mu mpera z’iki gice, ukwiye kuba ushoboye gusubiramwo iyo nzira no kwihingurira amasezerano yawe bwite ya RGB.
+Muri iki gice, tuzofata intambwe ku yindi uburyo bwo kwandika Amasezerano, dukoresheje igikoresho c'umurongo w'amabwirizwa `RGB`. Intumbero ni ukwerekana ingene woshiramwo no gukoresha CLI, ugakoranya **Igicapo**, ​​ugashiramwo **Ahakorerwa ibintu** na **Aho ibintu bishirirwamungiro**, hanyuma ugatanga (*ugutanga*) umutungo. Turaza kuraba kandi ivyiyumviro bishingiyeko, harimwo n’ugukoranya n’ugushingira intahe. Mu mpera z’iki gice, ukwiye kuba ushoboye gusigura iyo nzira no kwikorera amasezerano yawe bwite ya RGB.
 
 
-Nk’ukwibutsa, ubuhinga bwo mu mutima bwa RGB bushingiye ku masomero ya Rust mwebwe nk’abahinguzi, mushobora kwinjiza mu migambi yanyu kugira ngo mucunge igice ca Client-side Validation. Ikindi, umugwi w’ishirahamwe LNP/BP uriko urakora ibijanye n’ugufatanya ibitabu vy’izindi ndimi, ariko ivyo ntibiraheza. Ikindi, izindi nzego nka Bitfinex ziriko zirategura ibirundo vyazo vy’ubufatanye (ivyo tuzobivuga mu bice 2 vya nyuma vy’amashure). Kugeza rero, `RGB` CLI ni co gikoreshwa mu buryo butegekanijwe, naho coba kiguma kidasukuye cane.
+Nk’ukwibutsa, ubuhinga bwo mu mutima bwa RGB bushingiye ku masomero ya Rust mwebwe nk’abahinguzi, mushobora kwinjiza mu migambi yanyu kugira ngo mucunge igice c'Ukwemeza kuruhande rw'umukiriya. Ikindi, umugwi w’ishirahamwe LNP/BP uriko urakora ibijanye n’ugufatanya ibitabu vy’izindi ndimi, ariko ivyo ntibiraheza. Ikindi, izindi nzego nka Bitfinex ziriko zirategura ibirundo vyazo vy’ubufatanye (ivyo tuzobivuga mubigabane 2 vya nyuma vy’icirwa). Kugeza rero, `RGB` CLI ni co gikoreshwa mu buryo butegekanijwe, naho coba kiguma kidasukuye cane.
 
 
 ### Gushiramwo no gushikiriza igikoresho ca RGB
 
 
-Itegeko nyamukuru ryitwa gusa `RGB`. Igenewe kwibutsa `git`, ifise amategeko mato mato yo gukoresha amasezerano, kuyahamagara, gutanga itunga n'ibindi. Bitcoin Wallet ubu ntabwo iri muri iyo nkuru, ariko izoba iri mu nsiguro iri hafi (0.11). Iyi verisiyo ikurikira izotuma abakoresha bashobora gukora no gucunga amasakoshi yabo (biciye mu bisobanuro) kuva kuri `RGB`, harimwo n'ivya PSBT, guhuza n'ibikoresho vyo hanze (nk'akarorero Hardware Wallet) vyo gusinya, no gukorana na porogaramu nka Sparrow. Ivyo bizotuma igikorwa cose co gutanga no kwimurira umutungo coroha.
+Itegeko nyamukuru ryitwa gusa `RGB`. Igenewe kwibutsa `git`, ifise amategeko mato mato yo gukoresha amasezerano, kuyahamagara, gutanga itunga n'ibindi. Ingodo ya Bitcoin ubu ntabwo iri muri iyo nkuru, ariko izoba iri mu nsiguro iri hafi (0.11). Iyi verisiyo ikurikira izotuma abakoresha bashobora gukora no gucunga ingodo yabo (biciye mu bisobanuro) kuva kuri `RGB`, harimwo n'ivya PSBT, guhuza n'ibikoresho vyo hanze (nk'akarorero Hardware Wallet) vyo gutera umukono, no gukorana na porogaramu nka Sparrow. Ivyo bizotuma igikorwa cose co gutanga no kwimurira umutungo coroha.
 
 
 #### Gushiramwo biciye ku mizigo
@@ -4084,10 +4084,10 @@ cargo install rgb-contracts --all-features
 ```
 
 
-(Iciyumviro: iyo sandugu yitwa `RGB-contracts`, kandi itegeko ryashizweho rizokwitwa `RGB`. Nimba iyo sandugu yitwa `RGB` iba yaramaze kubaho, hariho ugutombora, ni co gituma iryo zina)
+(Zirikana: iyo sandugu yitwa `RGB-contracts`, kandi itegeko ryashizweho rizokwitwa `RGB`. Nimba iyo sandugu yitwa `RGB` iba yaramaze kubaho, hariho ugutombora, ni co gituma iryo zina)
 
 
-Iryo shirwaho rikoranya umubare munini w'ibintu bishingiyeko (nk'ugusesangura amabwirizwa, gushiramwo Electrum, gucunga ibimenyamenya vy'ubumenyi zero, n'ibindi).
+Iryo shirwaho rikoranya igitigiri kinini w'ibintu bifise ico biyoboka (nk'ugusesangura amabwirizwa, gushiramwo Electrum, gucunga ibimenyamenya bitagira ubumenyi, n'ibindi).
 
 
 Igihe gushiramwo birangiye,:
@@ -4098,7 +4098,7 @@ rgb
 ```
 
 
-Gukoresha `RGB` (ata mpamvu) yerekana urutonde rw'amabwirizwa mato ariho, nka `imirongo`, `Schema`, `kwinjiza`, `gusohora`, `ikibazo`, `Invoice`, `kwimurira ububiko`, n'ibindi. ibitabo, ibishushanyo n'ibishirwa mu ngiro), uhitemwo urubuga (Testnet, Mainnet) canke utunganye umukozi wawe wa Electrum.
+Gukoresha `RGB` (ata mpamvu) yerekana urutonde rw'amabwirizwa mato ariho, nka `imirongo`, `Igicapo`, `kwinjiza`, `gusohora`, `ikibazo`, `Fagitire`, `kwimurira ububiko`, n'ibindi. ibitabo, ibishushanyo n'ibishirwa mu ngiro), uhitemwo urubuga (Testnet, Mainnet) canke utunganye umukozi wawe wa Electrum.
 
 
 ![RGB-Bitcoin](assets/en/081.webp)
@@ -4107,7 +4107,7 @@ Gukoresha `RGB` (ata mpamvu) yerekana urutonde rw'amabwirizwa mato ariho, nka `i
 #### Incamake ya mbere y'ibigenzura
 
 
-Iyo ukoresheje itegeko rikurikira, uzobona ko `RGB20` Interface isanzwe yinjijwe:
+Iyo ukoresheje itegeko rikurikira, uzobona ko `RGB20` Ahakorerwa ibintu hasanzwe hinjijwe:
 
 
 ```bash
@@ -4115,7 +4115,7 @@ rgb interfaces
 ```
 
 
-Niba iyi Interface idashizwemwo, kora clone ya:
+Niba aha hakorerwa ibintu hadashizwemwo, idashizwemwo, kora clone ya:
 
 
 ```bash
@@ -4131,7 +4131,7 @@ cargo run
 ```
 
 
-Hanyuma ushiremwo Interface uhisemwo:
+Hanyuma ushiremwo ahakorerwa ibintu wishakiye:
 
 
 ```bash
@@ -4142,7 +4142,7 @@ rgb import interfaces/RGB20.rgb
 ![RGB-Bitcoin](assets/en/082.webp)
 
 
-Ku rundi ruhande, tubwirwa ko ata Schema irashirwa muri iyo porogarama. Eka mbere nta Contract iri mu Stash. Kugira ngo uyibone, koresha itegeko:
+Ku rundi ruhande, tubwirwa ko atagicapo kirasirwa muri iyo porogarama. Eka mbere ntana masezerano ari mu Stash. Kugira ngo uyibone, koresha itegeko:
 
 
 ```bash
@@ -4173,7 +4173,7 @@ cargo run
 Ivyo bituma habaho amadosiye menshi `.RGB` na `.rgba` ahuye n'imirongo yashizwe hamwe. Nk'akarorero, uzosanga `Itunga ridashobora gutera.RGB`.
 
 
-#### Kuzana ibicuruzwa vya Schema na Interface Implementation
+#### Kuzana ibicuruzwa vy'igicapo n'ahakorerwa ibintu
 
 
 Ubu ushobora kwinjiza igishushanyo muri `RGB`:
@@ -4187,7 +4187,7 @@ rgb import schemata/NonInflatableAssets.rgb
 ![RGB-Bitcoin](assets/en/084.webp)
 
 
-Ivyo bica biyongera kuri Stash yo mu karere. Nitwakoresha itegeko rikurikira, turabona ko Schema ubu ibonetse:
+Ivyo bica biyongera kuri Stash yo mu karere. Nitwakoresha itegeko rikurikira, turabona ko Igicapo ubu kibonetse:
 
 
 ```bash
@@ -4195,33 +4195,33 @@ rgb schemata
 ```
 
 
-### Contract irema (gusohora)
+### Gukora amasezerano (kuyatanga)
 
 
-Hari uburyo bubiri bwo kurema umutungo mushasha:
+Hari uburyo bubiri bwo gukora umutungo mushasha:
 
 
 
 
-- Canke dukoreshe inyandiko canke kode muri Rust yubaka Contract mu gushiramwo ivyicaro vya Schema (Global State, Ibihugu vy'Umutungo, n'ibindi) maze igatanga dosiye `.RGB` canke `.rgba`;
+- Canke dukoreshe inyandiko canke kode muri Rust yubaka Amasezerano mu gushiramwo ivyicaro vy'Ibicapo (Uko bimeze muri rusangi, Ibifashwe muminwe, n'ibindi) maze igatanga dosiye `.RGB` canke `.rgba`;
 - Canke ukoreshe itegeko rito `issue` ataco rihinduye, n'idosiye ya YAML (canke TOML) idondora imiterere ya token.
 
 
-Ushobora gusanga ingero muri Rust muri dosiye `ingero`, zigaragaza ingene wubaka `Uwukora Amasezerano`, wuzuze `Global State` (izina ry'umutungo, ikimenyetso, Supply, itariki, n'ibindi), usobanure Owned State (ivyo Owned State ari comp it muri vyose-1). *Contract Consignment* ushobora kwohereza hanze, kwemeza no kwinjiza mu Stash.
+Ushobora gusanga uburorero muri Rust muri dosiye `ingero`, zigaragaza ingene wubaka `Uwukora Amasezerano`, wuzuze `Uko bimeze murirusangi` (izina ry'umutungo, ikimenyetso, ugutanga, itariki, n'ibindi), usobanure Ibifiswe muminwe (ivyo bifiswe muminwe ari comp it muri vyose-1). *Amasezerano yogushinga uwundi* ushobora kurungika hanze, kwemeza no kwinjiza mu Stash.
 
 
-Ubundi buryo ni uguhindura n'amaboko dosiye ya YAML kugira ngo uhindure `ticker`, `izina`, `Supply`, n'ibindi. Twibaze ko dosiye yitwa `RGB20-demo.yaml`. Ushobora gusobanura:
+Ubundi buryo ni uguhindura n'amaboko dosiye ya YAML kugira ngo uhindure `amakode`, `izina`, `Ako biva`, n'ibindi. Twibaze ko dosiye yitwa `RGB20-demo.yaml`. Ushobora gusobanura:
 
 
 
 
-- `spec`: ikimenyetso, izina, ukuri;
-- `amajambo`: umwanya w'amatangazo y'amategeko;
-- `Ivyasohowe`: umubare w'ama token yasohowe;
-- `ibikorwa`: vyerekana Single-Use Seal (*Seal Definition*) n'ingero zifunguwe.
+- `spec`: amakode, izina, gutumbereza;
+- `amajambo`: ikibanza c'amatangazo y'amategeko;
+- `Ivyasohowe`: igitigiri c'ama token yasohowe;
+- `ibikorwa`: vyerekana Serire ikoreshwa rimwe (*Insiguro ya Serire*) n'ingero zifunguwe.
 
 
-Aha ni akarorero ka dosiye ya YAML yo kurema:
+Aha ni akarorero ka dosiye ya YAML yo gukora:
 
 
 ```yaml
@@ -4260,7 +4260,7 @@ rgb issue '<SchemaID>' ssi:<Issuer> rgb20-demo.yaml
 ![RGB-Bitcoin](assets/en/086.webp)
 
 
-Ku bijanye nanje, ikimenyetso kidasanzwe ca Schema (kizoshirwa mu bimenyetso bimwe bimwe) ni `RDYhMTR! Rero itegeko ryanje ni:
+Ku bijanye nanje, ikimenyetso kidasanzwe c'igicapo (kizoshirwa mu bimenyetso bimwe bimwe) ni `RDYhMTR! Rero itegeko ryanje ni:
 
 
 ```txt
@@ -4268,7 +4268,7 @@ rgb issue 'RDYhMTR!9gv8Y2GLv9UNBEK1hcrCmdLDFk9Qd5fnO8k' ssi:anonymous rgb20-demo
 ```
 
 
-Niba utazi ID ya Schema, koresha itegeko:
+Niba utazi ikiranga Igicapo, koresha itegeko:
 
 
 ```bash
@@ -4276,7 +4276,7 @@ rgb schemata
 ```
 
 
-CLI yishura ko hariho Contract nshasha yasohowe kandi yongerwa ku Stash. Nitwandika iri tegeko rikurikira, turabona ko ubu hariho Contract y’inyongera, ihuye n’iyiherutse gusohoka:
+CLI yishura ko hariho Amasezerano mashasha yasohowe kandi yongerwa ku Stash. Nitwandika iri tegeko rikurikira, turabona ko ubu hariho Amasezerano y’inyongera, ihuye n’iyiherutse gusohoka:
 
 
 ```bash
@@ -4287,7 +4287,7 @@ rgb contracts
 ![RGB-Bitcoin](assets/en/087.webp)
 
 
-Hanyuma, itegeko rikurikira ryerekana ibihugu vyo kw’isi yose (izina, ikimenyetso, Supply...) n’urutonde rw’ibihugu vy’ubutunzi, ni ukuvuga ivy’ugutanga (nk’akarorero, ibimenyetso vy’imiliyoni 1 `Plan ₿ Academy` vyasobanuwe muri UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Hanyuma, itegeko rikurikira ryerekana ibihugu vyo kw’isi yose (izina, ikimenyetso, Ahatangirwa ikintu...) n’urutonde rw’ibihugu vy’ubutunzi, ni ukuvuga ivy’ugutanga (nk’akarorero, ibimenyetso vy’imiliyoni 1 `Plan ₿ Academy` vyasobanuwe muri UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 
 ```bash
@@ -4301,7 +4301,7 @@ rgb state '<ContractId>'
 ### Gusohora hanze, kwinjiza mu gihugu no kwemeza
 
 
-Kugira ngo usangire iyi Contract n'abandi bakoresha, ushobora kuyirungika hanze kuva kuri Stash ikaja kuri:
+Kugira ngo usangire Ayomasezerano n'abandi bakoresha, ushobora kuyirungika hanze kuva kuri Stash ikaja kuri:
 
 
 ```bash
@@ -4320,7 +4320,7 @@ rgb import myContractPBN.rgb
 ```
 
 
-Ku bijanye no kwinjiza, nimba ari *Contract Consignment* yoroshe, tuzoronka ubutumwa "`Kuzana Consignment RGB`". Niba ari *State Transition Consignment* nini, itegeko rizoba ritandukanye (`RGB yemera`).
+Ku bijanye no kwinjiza, nimba ari *Amasezerano yogushinga uwundi* yoroshe, tuzoronka ubutumwa "`Kuzana Gushinga uwundi RGB`". Niba ari * Uko gushinga uwundi bihinduka* nini, itegeko rizoba ritandukanye (`RGB yemera`).
 
 
 Kugira ngo umenye neza ko ari ukuri, ushobora kandi gukoresha igikorwa co kwemeza co mu karere. Nk'akarorero, woshobora kwiruka:
@@ -4334,7 +4334,7 @@ rgb validate myContract.rgb
 #### Stash ikoreshwa, kugenzura no kugaragaza
 
 
-Nk’ukwibutsa, Stash ni urutonde rw’ibintu vyo mu karere vy’imirongo, imirongo, ishyirwa mu ngiro n’amasezerano (Genesis + imihindukire). Igihe cose ukoresheje "import", wongerako ikintu kuri Stash. Iyi Stash ishobora kurabwa mu buryo burambuye n’itegeko:
+Nk’ukwibutsa, Stash ni urutonde rw’ibintu vyo mu karere vy’imirongo, imirongo, ishyirwa mu ngiro n’amasezerano (Itanguriro + imihindukire). Igihe cose ukoresheje "ukuzana", wongerako ikintu kuri Stash. Iyi Stash ishobora kurabwa mu buryo burambuye n’itegeko:
 
 
 ```bash
@@ -4345,31 +4345,31 @@ rgb dump
 ![RGB-Bitcoin](assets/en/090.webp)
 
 
-Ivyo bizotuma generate igira dosiye irimwo amakuru yose ya Stash.
+Ivyo bizotuma hashirwaho igira dosiye irimwo amakuru yose ya Stash.
 
 
 ### Kwimurira na PSBT
 
 
-Kugira ngo ukore ukwimurira, uzokenera gukoresha Bitcoin Wallet yo mu karere kugira ngo ucungere amasezerano ya `Tapret` canke `Opret`.
+Kugira ngo ukore ukwimurira, uzokenera gukoresha Ingodo ya Bitcoin yo mu karere kugira ngo ucungere amasezerano ya `Tapret` canke `Opret`.
 
 
 #### 2013 na 2014
 
 
-Akenshi, ugukorana hagati y’abaje mu nama y’ubuhinga bwa none (nk’akarorero, Alice na Bob) bibera biciye mu guhingura Invoice. Iyo Alice ashaka ko Bob akora ikintu (kwimurira token, gusubira gusohora, igikorwa muri DAO, n'ibindi), Alice irema Invoice idondora amabwirizwa yiwe kuri Bob. Rero dufise:
+Akenshi, ugukorana hagati y’abaje mu nama y’ubuhinga bwa none (nk’akarorero, Alice na Bob) bibera biciye mu guhingura Ifagitirre. Iyo Alice ashaka ko Bob akora ikintu (kwimurira token, gusubira gusohora, igikorwa muri DAO, n'ibindi), Alice akora fagitire idondora amabwirizwa yiwe kuri Bob. Rero dufise:
 
 
 
 
 - **Igitabu-2021** (uwatanze igitabu-2020);
-- **Bob** (ni we yakira kandi agashitsa Invoice).
+- **Bob** (ni we yakira kandi agashitsa Fagitire).
 
 
-Mu buryo butandukanye n’ibindi bidukikije, RGB Invoice ntigarukira ku ciyumviro co kwishura gusa. Ishobora gushiramwo igisabwa cose gifitaniye isano na Contract: gukuraho urufunguzo, gutora, gukora igicapo (*igicapo*) kuri NFT, n'ibindi. Ivyo bishobora gusobanurwa muri Contract Interface.
+Mu buryo butandukanye n’ibindi bidukikije, Fagitire ya RGB ntigarukira ku ciyumviro co kwishura gusa. Ishobora gushiramwo igisabwa cose gifitaniye isano n'amasezerano : gukuraho urufunguzo, gutora, gukora igicapo (*igicapo*) kuri NFT, n'ibindi. Ivyo bishobora gusobanurwa muri kuruhande hakorerwa amasezerano.
 
 
-Itegeko rikurikira ritanga RGB Invoice:
+Itegeko rikurikira ritanga fagitire ya RGB:
 
 
 ```bash
@@ -4382,11 +4382,11 @@ Hamwe:
 
 
 
-- `$Contract`: Ikimenyetso ca Contract (*Id y'Isezerano*);
-- `$Interface`: Interface izokoreshwa (nk'akarorero `RGB20`);
-- `$ACTION`: izina ry'igikorwa kigaragazwa muri Interface (ku bijanye n'uguhindura token, ivyo bishobora kuba "Ukwimurira"). Niba Interface isanzwe itanga igikorwa c'imbere, ntukeneye kugisubiramwo hano;
-- `$STATE`: amakuru y'imimerere azokwimurirwa (nk'akarorero, umubare w'ibimenyetso iyo token ishobora guhinduka irungitswe);
-- `$Seal`: Single-Use Seal y'uwuronka inyungu (Alice), ni ukuvuga ivyerekeye UTXO. Bob izokoresha aya makuru kugira ngo yubake Witness Transaction, kandi igisubizo gihuye kizoba ica Alice (mu *blinded UTXO* canke mu buryo butagiramwo amakuru).
+- `$Contract`: Ikimenyetso c'amasezerano (*Ikiranga amasezerano*);
+- `$Interface`: Aj=hakorerwaibintu hashaka gukoreshwa (nk'akarorero `RGB20`);
+- `$ACTION`: izina ry'igikorwa kigaragazwa ahakorerwa ibintu (ku bijanye n'uguhindura token, ivyo bishobora kuba "Ukwimurira"). Niba Ahakorerwa ibintu hasanzwe hatanga igikorwa, ntukeneye kugisubiramwo hano;
+- `$STATE`: amakuru y'imimerere azokwimurirwa (nk'akarorero, igitigiri c'ibimenyetso iyo token ishobora guhinduka irungitswe);
+- `$Seal`: Serireikoreshwa e=rimwe y'uwuronka inyungu (Alice), ni ukuvuga ivyerekeye UTXO. Bob azokoresha aya makuru kugira ngo yubake ihanahanwa ry'icabona, kandi inyishu ihuye izoba iya Alice (mu *blinded UTXO* canke mu buryo butagiramwo amakuru).
 
 
 Nk’akarorero, n’amabwirizwa akurikira .
@@ -4399,7 +4399,7 @@ alice$ rgb invoice $CONTRACT -i RGB20 --amount 100 $MY_UTXO
 ```
 
 
-Igikoresho ca CLI kizoba igikoresho ca generate na Invoice nk'iki:
+Igikoresho ca CLI kizoba igikoresho ca gutanga ama fagitire nk'iki:
 
 
 ```bash
@@ -4407,19 +4407,19 @@ rgb:iZgIN9EL-2H21UgQ-x!A3uJc-WwXhCSm-$9Lwcc1-v!mUkKY/RGB20/100+utxob:zlVS28Rb-..
 ```
 
 
-Ishobora gushikirizwa Bob biciye ku nzira iyo ari yo yose (inyandiko, kode ya QR, n’ibindi).
+Ishobora gushikirizwa Bob biciye ku nzira iyo ariyo yose (inyandiko, kode ya QR, n’ibindi).
 
 
 #### Kwimurira
 
 
-Kugira ngo ushiremwo iyi Invoice:
+Kugira ngo ushiremwo iyi fagitire:
 
 
 
 
-- Bob (uwufise ibimenyetso muri Stash yiwe) afise Bitcoin Wallet. Arakeneye gutegura igikorwa co gucuruza Bitcoin (mu buryo bwa PSBT, nk’akarorero `tx.PSBT`) gikoresha ama UTXO aho ibimenyetso vya RGB bisabwa biri, yongerako UTXO imwe y’amahera (PSBT);
-- Bob ikora itegeko rikurikira:
+- Bob (uwufise ibimenyetso muri Stash yiwe) afise Ingodo ya Bitcoin. Arakeneye gutegura igikorwa co gucuruza Bitcoin (mu buryo bwa PSBT, nk’akarorero `tx.PSBT`) gikoresha ama UTXO aho ibimenyetso vya RGB bisabwa biri, yongerako UTXO imwe y’amahera (PSBT);
+- Bob akora itegeko rikurikira:
 
 
 ```bash
@@ -4431,22 +4431,22 @@ bob$ rgb transfer tx.psbt $INVOICE consignment.rgb
 
 - Ibi bitanga dosiye `Consignment.RGB` irimwo:
  - Amateka y’ihinduka yerekana Alice ko ivyo bimenyetso ari ivy’ukuri;
- - Ihinduka rishasha ryimurira ibimenyetso kuri Single-Use Seal ya Alice;
- - Igitabo ca Witness Transaction (kitashizweko umukono).
-- Bob yohereza iyi dosiye `Consignment.RGB` kuri Alice (biciye kuri e-mail, kuri server yo gusangira canke kuri porotokole ya RGB-RPC, Igihuhusi, n'ibindi);
-- Alice yakira `Consignment.RGB` kandi ikayemera muri Stash yayo bwite:
+ - Ihinduka rishasha ryimurira ibimenyetso kuri Serire ikoreshwa rimwe rya Alice;
+ - Igitabo c'icabona c'amasezerano (kitashizweko umukono).
+- Bob yohereza iyi dosiye `Ukubishingisha umuntu.RGB` kuri Alice (biciye kuri e-mail, kuri server yo gusangira canke kuri porotokole ya RGB-RPC, Igihuhusi, n'ibindi);
+- Alice yakira `Ukubishingisha umuntu.RGB` kandi ikayemera muri Stash yayo bwite:
 
 
 ```bash
-alice$ rgb accept consignment.rgb
+alice$ rgb yemera gushingisha umuntu.rgb
 ```
 
 
 
 
-- CLI isuzuma ukuri kw'ihinduka maze ikayongera kuri Stash ya Alice. Iyo ataco bimaze, itegeko rirananirwa n'ubutumwa bw'ikosa burambuye. Ahandi ho, biraroranirwa, kandi bikavuga ko iyo nzira y’ugucuruza y’akarorero itaratangazwa ku rubuga rwa Bitcoin (Bob irindiriye umuco wa Green wa Alice);
-- Mu buryo bwo kwemeza, itegeko `kwemera` rigarura umukono (*payslip*) Alice ashobora kohereza Bob kugira ngo amwereke ko yemeje *Consignment*;
-- Bob ashobora rero gusinya no gutangaza (`--tangaza`) ibikorwa vyiwe vya Bitcoin:
+- CLI isuzuma ukuri kw'ihinduka maze ikayongera kuri Stash ya Alice. Iyo ataco bimaze, itegeko rirananirwa n'ubutumwa bw'ikosa burambuye. Ahandi ho, biraroranirwa, kandi bikavuga ko iyo nzira y’ugucuruza y’akarorero itaratangazwa ku rubuga rwa Bitcoin (Bob ararindiriye uguhabwa uruhusha kwa Alice);
+- Mu buryo bwo kwemeza, itegeko `kwemera` rigarura umukono (*payslip*) Alice ashobora kohereza Bob kugira ngo amwereke ko yemeje *Ugshingisha umuntu*;
+- Bob ashobora rero gutera umukono no gutangaza (`--tangaza`) ibikorwa vyiwe vya Bitcoin:
 
 
 ```bash
@@ -4456,10 +4456,10 @@ bob$ rgb check <sig> && wallet sign --publish tx.psbt
 
 
 
-- Igihe iyo nzira yemejwe On-Chain, Ownership y'umutungo ifatwa nk'iyimuriwe kuri Alice. Alice ya Wallet, igenzura Mining y'isoko, ibona Owned State nshasha iboneka muri Stash yayo.
+- Igihe iyo nzira yemejwe On-Chain, Ukwitirirwa umutungo gufatwa nk'ukurungika kwa Alice. Ingodo ya Alice, igenzura ihanahanwa ry'ugucukura, ibona Ibifashwe muminwe bishasha iboneka kuri Stash yayo.
 
 
-Mu gice gikurikira, tuzokwihweza neza ingene RGB yoshirwa muri Lightning Network.
+Mu kigabane gikwirikira, tuzokwihweza neza ingene RGB yoshirwa muri Lightning Network.
 
 
 ## RGB kuri Lightning Network
@@ -4471,64 +4471,64 @@ Mu gice gikurikira, tuzokwihweza neza ingene RGB yoshirwa muri Lightning Network
 :::id ya videwo=be25a165-6e23-488c-91d8-3dcfccc6eca1:::
 
 
-Muri iki gice, ndasaba gusuzuma ingene RGB ishobora gukoreshwa muri Lightning Network, mu gushiramwo no kwimurira ivy’ubutunzi bwa RGB (ibimenyetso, NFT, n’ibindi) biciye mu nzira zo kwishura za off-chain.
+Muri kino kigabane, ndasaba gusuzuma ingene RGB ishobora gukoreshwa muri Lightning Network, mu gushiramwo no kwimurira ivy’ubutunzi bwa RGB (ibimenyetso, NFT, n’ibindi) biciye mu nzira zo kwishura za off-chain.
 
 
-Iciyumviro nyamukuru ni uko RGB State Transition (*State Transition*) ishobora kwiyemeza gukora igikorwa ca Bitcoin, na co nyene, gishobora kuguma ari off-chain gushika umurongo w’umuravyo ufunze. Rero, igihe cose umurongo uvuguruwe, RGB State Transition nshasha irashobora kwinjizwa mu gikorwa gishasha co gukora, ivyo bikaba bica bihindura ubusa iyo mpinduka ya kera. Muri ubwo buryo, imirongo ya Lightning irashobora gukoreshwa mu gutanga itunga rya RGB, kandi ishobora gukoreshwa mu buryo bumwe n’ubw’amahera asanzwe ya Lightning.
+Iciyumviro nyamukuru ni uko RGB Ihinduka rigenda (*Uko ihinduka rigenda*) ishobora kwiyemeza gukora ihanahanwa rya Bitcoin, naryonyene, rigashibora kuguma ari off-chain gushika umug=hira wa Lightning wugaye. Rero, igihe cose umurongo uvuguruwe, uko RGB ihinduka  nshasha irashobora kwinjizwa mu gikorwa gishasha co gukora, ivyo bikaba bica bihindura ubusa iyo mpinduka ya kera. Muri ubwo buryo, imirongo ya Lightning irashobora gukoreshwa mu gutanga itunga rya RGB, kandi ishobora gukoreshwa mu buryo bumwe n’ubw’amahera asanzwe ya Lightning.
 
 
-### Guhingura umurongo no gutanga amafaranga
+### Ugukora umuhora n'ukwemeza
 
 
-Kugira ngo dukore umurongo w’umuravyo utwara ivy’ubutunzi vya RGB, turakeneye Elements zibiri:
+Kugira ngo dukore umuhora wa Lightning utwara umutungo wa RGB, turakeneye Ibintu bibiri:
 
 
 
 
-- Bitcoin infashanyo yo kurema 2/2 Multisig y’umurongo (UTXO y’ishimikiro y’umurongo);
-- RGB infashanyo, yohereza itunga kuri Multisig nyene.
+- Infashanyo ya Bitcoin yogukora umhora wa 2/2 Multisig y’umurongo (UTXO y’ishimikiro y’umurongo);
+- Infashanyo ya RGB, Irungika itunga kuri Multisig nyene.
 
 
-Mu majambo ya Bitcoin, igikorwa co gutanga amahera kigomba kubaho kugira ngo gisobanure igipimo ca UTXO, naho coba kirimwo gusa umubare mutoyi wa Sats (ni ikibazo gusa c’umusaruro wose mu bikorwa vya Commitment vyo muri kazoza bisigaye hejuru y’umupaka wa Dust wose same). Nk’akarorero, Alice ishobora gufata ingingo yo gutanga 10k Sats na 500 USDT (itangazwa nk’umutungo wa RGB). Ku bijanye n'ugutanga amahera, twongerako Commitment (`Opret` canke `Tapret`) ishingira intahe RGB State Transition.
+Mu majambo ya Bitcoin, igikorwa co gutanga amahera kigomba kubaho kugira ngo gisigure igipimo ca UTXO, naho coba kirimwo gusa igitigiri gitoyi ca Sats (ni ikibazo gusa c’umusaruro wose mu bikorwa vy'ukwiyemeza vyo muri kazoza bisigaye hejuru y’umupaka wa Dust wose same). Nk’akarorero, Alice ashobora gufata ingingo yo gutanga ama Sats 10k n'ama USDT 500 (itangazwa nk’umutungo wa RGB). Ku bijanye n'ugutanga amahera, twongerako Ukwiyemeza (`Opret` canke `Tapret`) ishingira intahe uko RGB ihinduka.
 
 
 ![RGB-Bitcoin](assets/en/091.webp)
 
 
-Igihe igikorwa co gutanga amahera kimaze gutegurwa (ariko kitaratangazwa), igikorwa ca Commitment kiraremwa kugira ngo umwe wese mu bagize uruhande ashobore gufunga umuhora ku ruhande rumwe igihe cose. Ivyo bikorwa bisa n'ivyo Commitment vya kera vya Lightning, kiretse ko twongerako ikindi gisohoka kirimwo RGB Anchor (OP_RETURN canke Taproot) gihuye n'iyi State Transition nshasha.
+Igihe igikorwa co gutanga amahera kimaze gutegurwa (ariko kitaratangazwa), igikorwa c'ukwiyemeza kirakorwa kugira ngo umwe wese mu bagize uruhande ashobore gufunga umuhora ku ruhande rumwe igihe cose. Ivyo bikorwa bisa n'ivyo Ukwiyemeza vya kera vya Lightning, kiretse ko twongerako ikindi gisohoka kirimwo RGB Anchor (OP_RETURN canke Taproot) gihuye n'uko bimeze uguhinduka.
 
 
-RGB State Transition rero ijana umutungo kuva kuri 2/2 Multisig y'infashanyo ikaja ku biva muri Commitment Transaction. Ivyiza vy’iyi nzira ni uko umutekano w’igihugu ca RGB uhuye neza n’ubuhinga bwo guhana bwa Lightning: iyo Bob itangaje igihugu c’umurongo wa kera, Alice irashobora kumuhana no gukoresha igisohoka, kugira ngo isubire ku Sats n’ivyo vyose. Ico kintu gitera intege rero kirakomeye kuruta mbere n’ico mu muhora wa Lightning udafise itunga rya RGB, kuko uwutera ashobora gutakaza atari Sats gusa, ariko kandi n’itunga rya RGB ry’uwo muhora.
+RGB Uguhinduka rero bijanye n'umutungo kuva kuri 2/2 Multisig y'infashanyo ikaja ku biva mukwiyemezakw'ihanahanwa. Ivyiza vy’iyi nzira ni uko umutekano w’ukobimeze ca RGB uhuye neza n’ubuhinga bwo guhana bwa Lightning: iyo Bob atangaje ukobimeze c’umurongo wa kera, Alice arashobora kumuhana no gukoresha igisohoka, kugira ngo asuire ku Sats n’ivyo vyose. Ico kintu gitera intege rero kirakomeye kuruta mbere n’ico mu muhora wa Lightning udafise itunga rya RGB, kuko umusuma ashobora gutakaza atari Sats gusa, ariko kandi n’itunga rya RGB ry’uwo muhora.
 
 
-Commitment Transaction yashizweko umukono na Alice ikarungikwa kuri Bob rero yoba imeze gutya:
+Ihanahanwa ry'ukwiyemeza yashizweko umukono na Alice ikarungikwa kwa Bob rero yoba imeze gutya:
 
 
 ![RGB-Bitcoin](assets/en/092.webp)
 
 
-Kandi Commitment Transaction iherekejwe, yashizweko umukono na Bob ikarungikwa kuri Alice, izomera gutya:
+Kandi Ihanahanwa ry'ukwiyemeza , yashizweko umukono na Bob ikarungikwa kwa Alice, izomera uku gukwirikira:
 
 
 ![RGB-Bitcoin](assets/en/093.webp)
 
 
-### Ivugurura ry'umurongo
+### Ibishasha vy'umuhora
 
 
-Iyo habayeho ukwishyura hagati y’abafatanyabikorwa babiri (canke bipfuza guhindura ugutanga umutungo), barema umugwi mushasha w’ibikorwa vya Commitment. Amafaranga ari muri Sats ku giciro cose ashobora canke ntahinduke, bivanye n’ugushirwa mu ngiro, kuko uruhara rwayo nyamukuru ari ugutuma habaho kwubaka UTXO zifise akamaro. Ku rundi ruhande, igisohoka ca OP_RETURN (canke Taproot) kigomba guhindurwa kugira ngo kibemwo RGB Anchor nshasha, igereranya ugusangira gushasha kw’itunga mu muyoboro.
+Iyo habayeho ukwishyura hagati y’abafatanyabikorwa bokumuhora babiri (canke bipfuza guhindura ugutanga umutungo), barema umugwi mushasha w’ibikorwa vy'ukwiyemeza. Amafaranga ari muri Sats ku giciro cose ashobora canke ntahinduke, bivanye n’ugushirwa mu ngiro, kuko uruhara rwayo nyamukuru ari ugutuma habaho kwubaka UTXO zifise akamaro. Ku rundi ruhande, igisohoka ca OP_RETURN (canke Taproot) kigomba guhindurwa kugira ngo kibemwo ugushinga imizi kwa RGB gushasha, igereranya ugusangira gushasha kw’itunga mumuhora.
 
 
-Nk’akarorero, iyo Alice yohereje amadolari 30 kuri Bob mu muyoboro, State Transition nshasha izokwerekana amadolari 400 ku Alice n’amadolari 100 ku Bob. Igikorwa kijanye n'ugusezerana congerwa kuri (canke gihindurwa na) OP_RETURN/Taproot Anchor kugira ngo kigiremwo iyo mpinduka. Zirikana ko, uhereye ku mbonerahamwe ya RGB, ivyo winjiza mu guhindura biguma ari Multisig ya mbere (aho itunga rya On-Chain rihabwa mu vy’ukuri gushika umuyoboro ufunze). Ivyo RGB isohora (ivy’ugutanga) vyonyene ni vyo bihinduka, bivanye n’ugusubira gusangira vyafashwe ingingo.
+Nk’akarorero, iyo Alice arungitse amadolari 30 kwa Bob mumuhora, Ukobihinduka gushasha hazokwerekana amadolari 400 ku Alice n’amadolari 100 ku Bob. Igikorwa kijanye n'ugusezerana congerwa kuri (canke gihindurwa na) OP_RETURN/Taproot Anchor kugira ngo kigiremwo iyo mpinduka. Mufate yuko, uhereye ku mbonerahamwe ya RGB, ivyo winjiza mu guhindura biguma ari Multisig ya mbere (aho itunga rya On-Chain rihabwa mu vy’ukuri gushika umuhora wi=ugaye). Ivyo RGB isohora (ivy’ugutanga) vyonyene ni vyo bihinduka, bivanye n’ugusubira gusangira vyafashwe ingingo.
 
 
-Igitabo ca Commitment Transaction cashizweko umukono na Alice, giteguwe gukwiragizwa na Bob:
+Igitabo c'ukwiyemeza kw'uguhanahana cashizweko umukono na Alice, giteguwe gukwiragizwa na Bob:
 
 
 ![RGB-Bitcoin](assets/en/094.webp)
 
 
-Igitabo ca Commitment Transaction cashizweko umukono na Bob, giteguwe gukwiragizwa na Alice:
+Igitabo c'uguhanahana c'ukwiyemeza cashizweko umukono na Bob, giteguwe gukwiragizwa na Alice:
 
 
 ![RGB-Bitcoin](assets/en/095.webp)
@@ -4548,16 +4548,16 @@ Ivyo RGB ikora kuri Lightning rero bitegerezwa gufatwa nk’uko bihuye n’ivyo 
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-### Ikarata ya kode ya RGB
+### Ikirangamerekero ca kode ya RGB
 
 
-Ubwa nyuma, imbere yo kuja mu gice gikurikira, ndashaka kubaha icegeranyo c'itegeko rikoreshwa muri RGB. Iryo tegeko rishingiye ku masomero ya Rust n’ibisobanuro vy’inkomoko yuguruye. Aha niho hari insiguro y'ububiko nyamukuru n'amasandugu:
+Ubwa nyuma, imbere yo kuja mu gice gikurikira, ndashaka kubaha icegeranyo c'itegeko rikoreshwa muri RGB. Iryo tegeko rishingiye ku masomero ya Rust n’insiguro y’inkomoko yuguruye. Aha niho hari insiguro y'ububiko nyamukuru n'amasandugu:
 
 
 ![RGB-Bitcoin](assets/en/097.webp)
 
 
-#### Client-side Validation
+#### Ukwemeza kuruande rw'umukiriya
 
 
 
@@ -4569,7 +4569,7 @@ Ubwa nyuma, imbere yo kuja mu gice gikurikira, ndashaka kubaha icegeranyo c'iteg
 Uburongozi bw’ukwemeza off-chain n’ubuhinga bwo gukoresha rimwe Seals.
 
 
-#### Ivyemezo vy'Itegeko Bitcoin (DBC)
+#### Deterministic Bitcoin Commitments (DBC)
 
 
 
@@ -4598,12 +4598,12 @@ Ivyiyumviro vyinshi vy’ugukorana n’ugushiramwo n’amategeko atandukanye.
 
 
 
-- **Ibisobanuro**: [urubuga ubwoko-bukomeye.org](https://www.ubwoko-bukomeye.org/)
+- **Insiguro**: [urubuga ubwoko-bukomeye.org](https://www.ubwoko-bukomeye.org/)
 - **Ububiko**: [ubwoko-bukomeye](https://github.com/ubwoko-bukomeye/ubwoko-bukomeye), [gushiramwo-bukomeye](https://github.com/ubwoko-bukomeye/gushiramwo-bukomeye)
 - **Amasandugu**: [ubwoko_bukomeye](https://amasandugu.io/amasandugu/ubwoko_bukomeye), [gushiramwo_amakode](https://amasandugu.io/amasandugu/gushiramwo_amakode)
 
 
-Uburyo bwo kwandika bukomeye n'urutonde rw'ibintu bikoreshwa kuri Client-side Validation.
+Uburyo bwo kwandika bukomeye n'urutonde rw'ibintu bikoreshwa kuruhande rw'ukwemeza rw'umukiriya.
 
 
 #### RGB Ishingiro
@@ -4666,7 +4666,7 @@ Irimwo ingero z’imirongo (NIA, UDA, n’ibindi) n’ingene zishirwa mu ngiro.
 Igikoresho gishingiye ku kwandika gikoreshwa mu gukoresha inyandiko zo kwemeza.
 
 
-#### Amasezerano ya Bitcoin - BP
+#### Urukwirikirane rwa Bitcoin - BP
 
 
 
@@ -4674,10 +4674,10 @@ Igikoresho gishingiye ku kwandika gikoreshwa mu gukoresha inyandiko zo kwemeza.
 - **Ububiko**: [bp-core] (bp-core), [bp-std] (bp-std), [bp-gW-2199](bp-gw-2199)
 
 
-Ivyongeyeko vyo gushigikira umurongo wa Bitcoin (ibikorwa, ivy’uguca mu nzira, n’ibindi).
+Ivyongeyeko vyo gushigikira urukwirikirane rwa Bitcoin (ibikorwa, ivy’uguca mu nzira, n’ibindi).
 
 
-#### Ivy'Ibarabara ry'Ivy'Ibarabara - UBIDECO
+#### Ubiquitous Deterministic Computing  - UBIDECO
 
 
 
@@ -4688,7 +4688,7 @@ Ivyongeyeko vyo gushigikira umurongo wa Bitcoin (ibikorwa, ivy’uguca mu nzira,
 Ibidukikije bifitaniye isano n’iterambere ry’ivy’ubuhinga ry’inkomoko yuguruye.
 
 
-# Inyubakwa kuri RGB
+# Kwubakira kuri RGB
 
 
 <partId>3b4b0d66-0c1b-505a-b5ca-4b2e57dd73c2</partId>
@@ -4703,16 +4703,16 @@ Ibidukikije bifitaniye isano n’iterambere ry’ivy’ubuhinga ry’inkomoko yu
 :::id ya videwo=2ec9a181-a8b0-4da2-b7b5-9dfaaeb10ba:::
 
 
-Iki gice ca nyuma c’amashure gishingiye ku nsiguro zashikirijwe n’abatanga insiguro batandukanye mu nama y’ivyigwa ya RGB. Harimwo intahe n’ivyiyumviro ku RGB n’ibidukikije vyayo, hamwe n’ugushikiriza ibikoresho n’imigambi ishingiye kuri iyo porotokole. Iki gice ca mbere kirongowe na Hunter Beast, ibindi bibiri bikurikira na Frederico Tenga.
+kano gace kanyuma k’amashure gishingiye ku nsiguro zashikirijwe n’abatanga insiguro batandukanye mu nama y’ivyigwa ya RGB. Harimwo intahe n’ivyiyumviro ku RGB n’ibidukikije vyayo, hamwe n’ugushikiriza ibikoresho n’imigambi ishingiye kuri urwo rukwirikirane. Iki gice ca mbere kirongowe na Hunter Beast, ibindi bibiri bikurikira na Frederico Tenga.
 
 
-### Kuva ku nyandiko ya Java gushika kuri Rust, no mu bidukikije vya Bitcoin
+### Kuva ku nyandiko ya Java gushika kuri Rust, no mubiri muri Bitcoin
 
 
 Mu ntango, Hunter Beast yakora cane cane mu rurimi rw’igifaransa. Hanyuma abona **Rust**, insiguro y’amajambo yayo yasa n’iyidashimishije kandi ibabaza mu ntango. Ariko rero, yaraje gutahura ububasha bw’ururimi, ukugenzura ubwonko (*heap* na *stack*), n’umutekano n’ubushobozi bijana na vyo. Ashimika ku vy’uko Rust ari ikibanza ciza cane co kwimenyerezamwo kugira ngo umuntu atahure bimwe bigera kure ingene orodinateri ikora.
 
 
-Hunter Beast avuga ivy’amateka yiwe mu migambi itandukanye mu bidukikije *Altcoin*, nka Ethereum (ifise ubukomezi, TypeScript, n’ibindi), hanyuma Filecoin. Asigura ko mu ntango yatangajwe n’amasezerano amwe amwe, ariko amaherezo yumva ko menshi muri yo yamuhemukiye, atari kubera ubuhinga bwayo bwo gukoresha ibimenyetso. Aragaya inkurikizi z’amahera ziteye amakenga, uguhingura ibimenyetso vy’ugutera imbere bitera ubwoba abashoramari, n’umuce ushobora gutuma iyo migambi ikoreshwa nabi. Yaciye rero aheza afata ingingo ya **Bitcoin Maximalist**, atari ukubera ko hari abantu bamwebamwe bamufunguriye amaso ku buryo bwiza bw’ubutunzi bwa Bitcoin, no ku gukomera kw’iyi nzira.
+Hunter Beast avuga ivy’amateka yiwe mu migambi itandukanye mubiri muma *Altcoin*, nka Ethereum (ifise ubukomezi, TypeScript, n’ibindi), hanyuma Filecoin. Asigura ko mu ntango yatangajwe n’amasezerano amwe amwe, ariko amaherezo yumva ko menshi muri yo yamuhemukiye, atari kubera ubuhinga bwayo bwo gukoresha ibimenyetso. Aragaya inkurikizi z’amahera ziteye amakenga, uguhingura ibimenyetso vy’ugutera imbere bitera ubwoba abashoramari, n’umuce ushobora gutuma iyo migambi ikoreshwa nabi. Yaciye rero aheza afata ingingo y' **Ukuba uwemera Bitcoin gusa**, atari ukubera ko hari abantu bamwebamwe bamufunguriye amaso ku buryo bwiza bw’ubutunzi bwa Bitcoin, no ku gukomera kw’iyi nzira.
 
 
 ### Ugusaba kwa RGB no kwubaka ku bipande
@@ -4721,28 +4721,28 @@ Hunter Beast avuga ivy’amateka yiwe mu migambi itandukanye mu bidukikije *Altc
 Ico camujijuye ata gukeka ko Bitcoin ifise akamaro, mu majambo yiwe, ni ukuvumbura RGB be n’iciyumviro c’ibice. Yemera ko ibikorwa biriho ku bindi bice vy’umubiri bishobora gusubirwamwo ku bice vy’imbere, hejuru ya Bitcoin, ata guhindura umurongo w’ishimikiro.
 
 
-Muri Ruhuhuma 2022, yinjiye muri **DIBA** kugira ngo akore cane cane kuri RGB, na cane cane kuri **Bitmask** Wallet. Iciyo gihe, Bitmask yari ikiri kuri verisiyo 0.01 kandi yariko ikoresha RGB kuri verisiyo 0.4, gusa ku bijanye no gucunga ibimenyetso bimwe bimwe. Avuga ko ivyo vyari bishingiye cane ku kwizigama nk’uko biri muri iki gihe, kuko ivyiyumviro vyari bishingiye ku serveri. Kuva ico gihe, ubwubatsi bwarateye imbere buja kuri iyo nzira, ishimwa cane n’aba bitcoiners.
+Muri Ruhuhuma 2022, yinjiye muri **DIBA** kugira ngo akore cane cane kuri RGB, na cane cane kungodo yitwa **Bitmask**. Iciyo gihe, Bitmask yari ikiri kuri verisiyo 0.01 kandi yariko ikoresha RGB kuri verisiyo 0.4, gusa ku bijanye no gucunga ibimenyetso bimwe bimwe. Avuga ko ivyo vyari bishingiye cane ku kwizigama nk’uko biri muri iki gihe, kuko ivyiyumviro vyari bishingiye ku serveri(Ahabikwa ibintu). Kuva ico gihe, ubwubatsi bwarateye imbere buja kuri iyo nzira, ishimwa cane n’abakoresha Bitcoin.
 
 
-### Ishingiro ry'amasezerano ya RGB
+### Inshimikiro ry'amasezerano ya RGB
 
 
-Itegeko rya **RGB** ni ryo rishasha kandi riteye imbere cane ry'iciyumviro c'ibiceri vy'amabara, ryaramaze gusuzumwa nko mu 2012-2013. Iciyo gihe, amashirahamwe menshi yariko ararondera gufatanya agaciro gatandukanye ka Bitcoin ku UTXO, ivyo vyatumye habaho ugushirwa mu ngiro kwinshi gutatanijwe. Ukwo kutagira urugero n’ugusaba guke ico gihe vyatumye ivyo bisubizo bitaronka ikibanza kiramvye.
+Itegeko rya **RGB** ni ryo rishasha kandi riteye imbere cane ry'iciyumviro c'ibiceri vy'amabara, ryaramaze gusuzumwa nko mu 2012-2013. Iciyo gihe, amashirahamwe menshi yariko ararondera gufatanya agaciro gatandukanye ka Bitcoin ku UTXO, ivyo vyatumye habaho ugushirwa mu ngiro kwinshi gutandukanijwe. Ukwo kutagira urugero n’ugusaba guke ico gihe vyatumye ivyo bisubizo bitaronka ikibanza kiramvye.
 
 
-Ubu, RGB irahagaze kubera ubukomezi bwayo bw’ivyiyumviro n’ibisobanuro vy’ubumwe biciye ku shirahamwe rya LNP/BP. Iryo hame rishingiye kuri Client-side Validation. Bitcoin Blockchain ibika gusa amasezerano y’ubuhinga bwa none (_amasezerano_, biciye kuri Taproot canke OP_RETURN), mu gihe amakuru menshi (insobanuro za Contract, amateka yo kwimurira, n’ibindi) abikwa n’abakoresha bireba. Muri ubwo buryo, umuzigo wo kubika uragabanywa kandi ibanga ry’uguhanahana rirakomezwa, ata kuremerera Blockchain. Ubu buryo burashoboza kurema ibintu bishobora guhinduka (**RGB20** standard) canke ibintu bidasanzwe (**RGB21**), mu rwego rw’ibice kandi bishobora guhindurwa.
+Ubu, RGB irahagaze kubera ubukomezi bwayo bw’ivyiyumviro n’insiguro vy’ubumwe biciye ku shirahamwe rya LNP/BP. Iryo hame rishingiye kukwemeza kuruhande rw'umu kiriya. Blockchain ya Bitcoin ibika gusa amasezerano y’ubuhinga bwa none (_amasezerano_, biciye kuri Taproot canke OP_RETURN), mu gihe amakuru menshi (Insiguro y'amasezerano, kahise yo kwimurira, n’ibindi) abikwa n’abakoresha biraba. Muri ubwo buryo, umuzigo wo kubika uragabanywa kandi ibanga ry’uguhanahana rirakomezwa, ata kuremerera Blockchain. Ubu buryo burashoboza kurema ibintu bishobora guhinduka (**RGB20** standard) canke ibintu bidasanzwe (**RGB21**), mu rwego rw’ibice kandi bishobora guhindurwa.
 
 
 ### Ibikorwa vya token (RGB20) n'ibintu bidasanzwe (RGB21)
 
 
-Na **RGB20**, dusobanura token ishobora guhinduka kuri Bitcoin. Uwutanga amafaranga ahitamwo _ugutanga_, _ugutanga_, agaca akora _amasezerano_ ashobora guca akoramwo amafaranga. Igihe cose umuntu yimuriwe, akoresheje Bitcoin UTXO, ikora nk’igitabu *Single-Use Seal*. Ivyo bituma uwukoresha atazoshobora gukoresha umutungo umwe incuro zibiri, kuko umuntu wenyene ashobora gukoresha UTXO ari we afise urufunguzo rwo guhindura uko Contract iri ku ruhande rw'umukiriya.
+Na **RGB20**, dusobanura token ishobora guhinduka kuri Bitcoin. Uwutanga amafaranga ahitamwo _ugutanga_, _ugutanga_, agaca akora _amasezerano_ ashobora guca akoramwo amafaranga. Igihe cose umuntu yimuriwe, akoresheje Bitcoin UTXO, ikora nk’igitabu ca *Serire ikoreshwa rimwe*. Ivyo bituma uwukoresha atazoshobora gukoresha umutungo umwe incuro zibiri, kuko umuntu wenyene ashobora gukoresha UTXO ari we afise urufunguzo rwo guhindura uko Amasezerano ameze ku ruhande rw'umukiriya.
 
 
-**RGB21** igamije ivy'ubutunzi bidasanzwe (canke "NFT"). Ico kintu gifise Supply ya 1, kandi gishobora gufatanywa n’amakuru (dosiye y’amashusho, amajwi, n’ibindi) adondora biciye mu kibanza kinaka. Udakunze NFTs ku blockchains za bose, amakuru n’ibimenyetso vyayo vya MIME birashobora kuguma ari ivy’ibanga, bigakwiragizwa n’abandi ku bushake bwa nyen’ivyo bikoresho.
+**RGB21** igamije ivy'ubutunzi bidasanzwe (canke "NFT"). Ico kintu gifise Ugushiraho ya 1, kandi gishobora gufatanywa n’amakuru (dosiye y’amashusho, amajwi, n’ibindi) adondora biciye mu kibanza kinaka. Udakunze NFTs ku blockchains za bose, amakuru n’ibimenyetso vyayo vya MIME birashobora kuguma ari ivy’ibanga, bigakwiragizwa n’abandi ku bushake bwa nyen’ivyo bikoresho.
 
 
-### Umuti w'ibipfukisho: Wallet ku RGB
+### Umuti w'ibipfukisho: Ingodo  ya RGB
 
 
 Kugira ngo ubushobozi bwa RGB bukoreshwe mu bikorwa, umugambi wa **DIBA** warateguye Wallet yitwa [Bitmask](https://bitmask.app/). Iciyumviro ni ugutanga igikoresho kitagira ububiko, gishingiye kuri Taproot, gishobora gushikwako nk’urubuga canke nk’igikoresho co kwagura umucukumbuzi. Bitmask icungera ivy'ubutunzi vya RGB20 na RGB21, kandi igashiramwo uburyo butandukanye bwo gucungera umutekano:

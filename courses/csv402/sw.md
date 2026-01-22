@@ -601,26 +601,26 @@ Kwa mazoezi, **sig tweak** pia haiendani sana na maunzi yaliyopo (hardware walle
 Katika mazoezi, hata hivyo, tunakabiliana na shida zifuatazo:
 
 
-- Wallet haitambui tena ufunguo wa kawaida wa umma, kwa kuwa "umebadilishwa", kwa hivyo haziwezi kuhusisha kwa urahisi UTXO na ufunguo wako wa kawaida;
-- Pochi za vifaa hazijaundwa kutia saini kwa ufunguo ambao haujatokana na asili yao ya kawaida;
+- Wallet haitambui tena ufunguo wa kawaida wa umma, kwa kuwa "tweaked", kwa hivyo haziwezi kuhusisha kwa urahisi UTXO na ufunguo wako wa kawaida;
+- Hardware Wallet hazijaundwa kutia saini kwa ufunguo ambao haujatokana na asili yao ya kawaida;
 - Unahitaji kurekebisha hati zako, maelezo, n.k.
 
 Katika muktadha wa RGB, njia hii ilitarajiwa hadi 2021, lakini ilionekana kuwa ngumu sana kuifanya ifanye kazi na viwango vya sasa na miundombinu.
 
-***Marekebisho ya mashahidi:***
+***Witness tweak:***
 
-Wazo lingine, ambalo baadh_TaptProtocol kama vile _inscriptions Ordinals_ zimeweka katika vitendo, ni kuweka data moja kwa moja katika sehemu ya `shahidi` ya shughuli ya ununuzi (kwa hivyo usemi "shahidi tweak"). Walakini, njia hii:
+Wazo lingine, ambalo baadh_TaptProtocol kama vile _inscriptions Ordinals_ zimeweka katika vitendo, ni kuweka data moja kwa moja katika sehemu ya `witness` ya shughuli ya ununuzi (kwa hivyo usemi "witness tweak"). Walakini, njia hii:
 
 
-- Hufanya uchumba uonekane mara moja (unabandika data raw kwenye shahidi);
-- Inaweza kuwa chini ya udhibiti (wachimbaji wa madini au node wanaweza kukataa relay ikiwa ni kubwa sana au tabia nyingine yoyote ya kiholela);
+- Hufanya uchumba uonekane mara moja (unabandika data raw kwenye witness);
+- Inaweza kuwa chini ya udhibiti (Miners au node wanaweza kukataa relay ikiwa ni kubwa sana au tabia nyingine yoyote ya kiholela);
 - Hutumia nafasi kwenye blocks, kinyume na lengo la RGB la busara na wepesi.
 
 Kwa kuongezea, shahidi imeundwa ili iweze kupogolewa katika miktadha fulani, ambayo inaweza kufanya kuwa na uthibitisho thabiti kuwa mgumu zaidi.
 
-***Rudisha-wazi (opret) :***
+***Open-return (opret) :***
 
-Rahisi sana katika uendeshaji wake, `OP_RETURN` inakuwezesha kuhifadhi Hash au ujumbe katika uwanja maalum wa manunuzi. Lakini inaweza kutambulika mara moja: kila mtu anaona kuwa kuna _ahadi_ katika shughuli hiyo, na inaweza kuchunguzwa au kutupwa, na pia kuongeza pato la ziada. Kwa kuwa hii huongeza uwazi na saizi, inachukuliwa kuwa ya kuridhisha kutoka kwa mtazamo wa suluhisho la Client-side Validation.
+Rahisi sana katika uendeshaji wake, `OP_RETURN` inakuwezesha kuhifadhi Hash au ujumbe katika uwanja maalum wa manunuzi. Lakini inaweza kutambulika mara moja: kila mtu anaona kuwa kuna _commitment_ katika muamala huo, na inaweza kuchunguzwa au kutupwa, na pia kuongeza pato la ziada. Kwa kuwa hii huongeza uwazi na saizi, inachukuliwa kuwa ya kuridhisha kutoka kwa mtazamo wa suluhisho la Client-side Validation.
 
 ```txt
 34-byte_Opret_Commitment =
@@ -631,11 +631,11 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 
 ### Tapret
 
-Chaguo la mwisho ni matumizi ya **Taproot** (iliyoletwa na BIP341) na mpango wa *Tapret*. *Tapret* ni aina changamano zaidi ya Commitment ya kubainisha, ambayo huleta maboresho katika suala la alama ya Blockchain na usiri wa shughuli za Contract mkataba. Wazo kuu ni kuficha Commitment katika sehemu ya `Njia ya Hati Tumia` ya [muamala wa Taproot](https://github.com/Bitcoin/bips/blob/master/bip-0341.mediawiki).
+Chaguo la mwisho ni matumizi ya **Taproot** (iliyoletwa na BIP341) na mpango wa *Tapret*. *Tapret* ni aina deterministic commitment ya kubainisha, ambayo huleta maboresho katika suala la alama ya Blockchain na usiri wa shughuli za Contract mkataba. Wazo kuu ni kuficha Commitment katika sehemu ya `Script Path Spend` ya [muamala wa Taproot](https://github.com/Bitcoin/bips/blob/master/bip-0341.mediawiki).
 
 ![RGB-Bitcoin](assets/en/036.webp)
 
-Kabla ya kueleza jinsi Commitment inavyoingizwa katika shughuli ya Taproot, hebu tuangalie **fomu kamili** ya Commitment, ambayo lazima **imeshurutishwa** ilingane na mfuatano wa baiti 64. [imejengwa](https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) kama ifuatavyo:
+Kabla ya kueleza jinsi Commitment inavyoingizwa katika shughuli ya Taproot, hebu tuangalie **exact form** ya Commitment, ambayo lazima **imeshurutishwa** ilingane na mfuatano wa baiti 64. [imejengwa](https://github.com/BP-WG/bp-core/blob/master/dbc/src/tapret/mod.rs#L179-L196) kama ifuatavyo:
 
 ```txt
 64-byte_Tapret_Commitment =
@@ -647,7 +647,7 @@ TAPRET_SCRIPT_COMMITMENT_PREFIX = 31 bytes                    MPC commitment + N
 ```
 
 
-- Bytes 29 `OP_RESERVED`, ikifuatiwa na `OP_RETURN`, kisha `OP_PUSHBYTE_33`, huunda sehemu ya _kiambishi_ cha  bytes 31;
+- Bytes 29 `OP_RESERVED`, ikifuatiwa na `OP_RETURN`, kisha `OP_PUSHBYTE_33`, huunda sehemu ya _prefix_ ya  bytes 31;
 - Inayofuata inakuja _commitment_ ya  bytes 32 (kawaida Merkle Root kutoka **MPC**), ambayo tunaongeza  byte 1 ya **Nonce** (jumla ya baiti 33 kwa sehemu hii ya pili).
 
 Kwa hivyo mbinu ya `Tapret` ya bytes 64 inaonekana kama `Opret` ambayo tumeweka awali bytes 29 za `OP_RESERVED` na kuongeza byte ya ziada kama Nonce.
@@ -677,20 +677,20 @@ Ili kujumuisha **Tapret** Commitment, ongeza **Script Path Spend** iliyo na **si
 
 
 - t = tH_TWEAK(P || Script_root)` kisha inakuwa kigezo kipya cha kurekebisha, ikijumuisha **Script_root**.
-- `Script_root = tH_BRANCH(64-byte_Tapret_Commitment)` inawakilisha mzizi wa **seal** hii, ambayo ni Hash ya aina ya `SHA-256(SHA-256(TapBranch) || 64-byte_Tapret_Commitment)`.
+- `Script_root = tH_BRANCH(64-byte_Tapret_Commitment)` inawakilisha root ya **seal** hii, ambayo ni Hash ya aina ya `SHA-256(SHA-256(TapBranch) || 64-byte_Tapret_Commitment)`.
 
 Uthibitisho wa kujumuishwa na wa kipekee katika mti wa Taproot hapa unatokana na ufunguo mmoja wa internal public key P `P`.
 
-#### Uunganisho wa Taproot katika Njia ya Script Iliyo Kuwepo
+#### Uunganisho wa Taproot katika Script path Iliyo kuwepo
 
 Hali ya pili inahusu matokeo changamano zaidi ya **Q Taproot**, ambayo tayari ina hati kadhaa. Kwa mfano, tunayo mti wa maandishi 3:
 
 ![RGB-Bitcoin](assets/en/049.webp)
 
 
-- tH_LEAF(x)` hubainisha chaguo za kukokotoa za Hash zilizowekwa tagi za kawaida za hati ya jani.
-- a, B, C` inawakilisha hati ambazo tayari zimejumuishwa katika muundo wa
-- Ili kuongeza ahadi ya Taproot, tunahitaji kuingiza script isiyoweza kutumika katika ngazi ya kwanza ya mti, tukihamisha hati zilizopo ngazi moja chini. Kwa kuibua, mti unakuwa:
+- `tH_LEAF(x)` hubainisha chaguo za kukokotoa za Hash zilizowekwa tagi za kawaida za hati ya jani.
+- `a, B, C` inawakilisha hati ambazo tayari zimejumuishwa katika muundo wa
+- Ili kuongeza commitment ya Taproot, tunahitaji kuingiza **unspendable script** katika ngazi ya kwanza ya mti, tukihamisha hati zilizopo ngazi moja chini. Kwa kuibua, mti unakuwa:
 
 ![RGB-Bitcoin](assets/en/050.webp)
 
@@ -735,7 +735,7 @@ Kumbuka kuwa inawezekana kabisa kwa muamala kuwa na `Opret` Commitment moja na `
 Tulipoanzisha RGB, tulikagua mbinu hizi zote ili kubaini ni wapi na jinsi ya kuweka _commitment_ katika muamala kwa njia ya kubainisha. Tulifafanua baadhi ya vigezo:
 
 
-- Utangamano na matukio tofauti (k.m. Multisig, Lightning, pochi za vifaa, nk);
+- Utangamano na matukio tofauti (k.m. Multisig, Lightning, hardware wallet, nk);
 - Athari kwenye nafasi ya On-Chain;
 - Ugumu wa utekelezaji na matengenezo;
 - Usiri na upinzani dhidi ya udhibiti.
@@ -764,17 +764,17 @@ Tulipoanzisha RGB, tulikagua mbinu hizi zote ili kubaini ni wapi na jinsi ya kuw
 
 | Opret (OP_RETURN) | - | 36 (v)byte (TxOut ya ziada) | byte 0 |
 
-| Tapret Algorithm: nodi ya juu-kushoto | LNPBP-6 | Byte 32 katika shahidi (8 vbytes) kwa n-of-m Multisig yoyote na matumizi kupitia njia ya hati | Byte 0 kwenye hati zisizo na hati Taproot ~ 270 byte katika kesi moja ya hati, ~ byte 128 ikiwa hati nyingi |
+| Tapret Algorithm: node ya juu-kushoto | LNPBP-6 | Byte 32 katika witness (8 vbytes) kwa n-of-m Multisig yoyote na matumizi kupitia njia ya hati | Byte 0 kwenye scriptless scripts taproot ~ 270 byte katika kesi moja ya hati, ~ byte 128 ikiwa hati nyingi |
 
-| Tapret Algorithm #4: nodi yoyote + uthibitisho wa kipekee | LNPBP-6 | Bytes 32 katika shahidi (vbytes  8) kwa kesi za hati moja, byte 0 katika shahidi katika kesi zingine nyingi | 0 byte kwenye hati zisizo na hati Taproot, byte 65 hadi Taptree iwe na hati kadhaa |
+| Tapret Algorithm #4: node yoyote + uthibitisho wa kipekee | LNPBP-6 | Bytes 32 katika witness (vbytes  8) kwa kesi za hati moja, byte 0 katika witness katika kesi zingine nyingi | 0 byte kwenye hati zisizo na hati Taproot, byte 65 hadi Taptree iwe na hati kadhaa |
 
 | Layer | Gharama ya On-Chain (Baiti/vbytes) | Gharama ya On-Chain (Bytes/vbytes) | Gharama ya On-Chain (Bytes/vbytes) | Gharama ya On-Chain (Bytes/vbytes) | Gharama ya On-Chain (Bytes/vbytes) | Gharama ya Upande wa Mteja (Byte) | Gharama ya Upande wa Mteja (Byte) | Gharama ya Upande wa Mteja (Byte) | Gharama ya Upande wa Mteja (Bytes) | Gharama ya Upande wa Mteja (Bytes) |
 
 | ------------------------------ | --------------------------- | --------------------------- | --------------------------- | --------------------------- | --------------------------- | ------------------------ | ------------------------ | ------------------------ | ------------------------ | ------------------------ |
 
-| **Aina** | **Gonga** | **Gonga #4** | **Keytweak** | **Sigtweak** | **Opret** | **Gonga** | **Gonga #4** | **Keytweak** | **Sigtweak** | **Opret** |
+| **Aina** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** | **Tapret** | **Tapret #4** | **Keytweak** | **Sigtweak** | **Opret** |
 
-| Sigi moja | 0 | 0 | 0 | 0 | 32 | 0 | 0 | 32 | 0?                       | 0 |
+| Single-sig | 0 | 0 | 0 | 0 | 32 | 0 | 0 | 32 | 0?                       | 0 |
 
 | MuSig (n-of-n) | 0 | 0 | 0 | 0 | 32 | 0 | 0 | 32 | ? > 0 | 0 |
 
@@ -804,19 +804,19 @@ Tulipoanzisha RGB, tulikagua mbinu hizi zote ili kubaini ni wapi na jinsi ya kuw
 
 | ---------------------------------------- | ---------------------- | ---------------- | ------------- | ----------- | ---------- |
 
-| Keytweak (P2C ya Kuamua) | 🟢 | 🔴 | 🔴 | 🟡 | 🟡 |
+| Keytweak (Deterministic P2C) | 🟢 | 🔴 | 🔴 | 🟡 | 🟡 |
 
 | Sigtweak (Deterministic S2C) | 🟢 | 🔴 | 🔴 | 🟢 | 🔴 |
 
 | Opret (OP_RETURN) | 🔴 | 🟠 | 🔴 | 🟢 | 🟢 |
 
-| Algo Tapret: nodi ya juu kushoto | 🟠 | 🟢 | 🟢 | 🔴 | 🟠 |
+| Algo Tapret: node ya juu kushoto | 🟠 | 🟢 | 🟢 | 🔴 | 🟠 |
 
-| Algo Tapret #4: Nodi yoyote + dhibitisho | 🟢 | 🟢 | 🟢 | 🟠 | 🔴 |
+| Algo Tapret #4: Node yoyote + dhibitisho | 🟢 | 🟢 | 🟢 | 🟠 | 🔴 |
 
-Katika kipindi cha utafiti, ilionekana wazi kuwa hakuna mpango wowote wa Commitment unaoendana kikamilifu na kiwango cha sasa cha Umeme (ambacho hakitumii Taproot, _muSig2_ au usaidizi wa ziada wa _commitment). Juhudi zinaendelea za kurekebisha ujenzi wa chaneli ya Lightning (*BiFrost*) ili kuruhusu uwekaji wa ahadi za RGB. Hili ni eneo lingine ambalo tunahitaji kukagua muundo wa muamala, funguo na jinsi masasisho ya vituo yanavyotiwa saini.
+Katika kipindi cha utafiti, ilionekana wazi kuwa hakuna mpango wowote wa Commitment unaoendana kikamilifu na kiwango cha sasa cha Lightning (ambacho hakitumii Taproot, _muSig2_ au usaidizi wa ziada wa _commitment). Juhudi zinaendelea za kurekebisha ujenzi wa chaneli ya Lightning (*BiFrost*) ili kuruhusu uwekaji wa RGB commitments. Hili ni eneo lingine ambalo tunahitaji kukagua muundo wa muamala, funguo na jinsi masasisho ya vituo yanavyotiwa saini.
 
-Uchanganuzi ulionyesha kuwa, kwa kweli, mbinu zingine (key tweak, sig tweak, shahidi tweak, n.k.) ziliwasilisha aina zingine za utata:
+Uchanganuzi ulionyesha kuwa, kwa kweli, mbinu zingine (key tweak, sig tweak, witness tweak, n.k.) ziliwasilisha aina zingine za utata:
 
 
 - Ama tuna kiasi kikubwa cha On-Chain;
@@ -825,21 +825,21 @@ Uchanganuzi ulionyesha kuwa, kwa kweli, mbinu zingine (key tweak, sig tweak, sha
 
 Kwa RGB, mbinu mbili hasa zinajulikana: ***Opret*** na ***Tapret***, zote zikiwa zimeainishwa kama "Pato la Muamala", na zinazooana na hali ya TxO2 inayotumiwa na itifaki.
 
-### Ahadi nyingi za Itifaki - MPC
+### Multi Protocol Commitments - MPC
 
-Katika sehemu hii, tunaangalia jinsi **RGB** hushughulikia ujumlishaji wa mikataba mingi (au, kwa usahihi zaidi, _vifurushi vyake vya mpito_) ndani ya Commitment (*Commitment*) moja iliyorekodiwa katika shughuli ya Bitcoin kupitia mpango wa kubainisha (kulingana na `Tapret` au `Opret`). Ili kufanikisha hili, utaratibu wa Merkelization wa mikataba mbalimbali unafanyika katika muundo unaoitwa **MPC Tree** (_Multi Protocol Commitment Tree_). Katika sehemu hii, tutaangalia ujenzi wa Mti huu wa MPC, jinsi ya kupata mzizi wake, na jinsi kandarasi nyingi zinaweza kushiriki muamala sawa kwa siri na bila utata.
+Katika sehemu hii, tunaangalia jinsi **RGB** hushughulikia ujumlishaji wa Contracts mingi (au, kwa usahihi zaidi, _transition bundles_) ndani ya Commitment (*Commitment*) moja iliyorekodiwa katika miamala ya Bitcoin kupitia mpango wa kubainisha (kulingana na `Tapret` au `Opret`). Ili kufanikisha hili, utaratibu wa Merkelization wa Contract mbalimbali unafanyika katika muundo unaoitwa **MPC Tree** (_Multi Protocol Commitment Tree_). Katika sehemu hii, tutaangalia ujenzi wa mti huu wa MPC, jinsi ya kupata mzizi wake, na jinsi kandarasi nyingi zinaweza kushiriki muamala sawa kwa siri na bila utata.
 
 Multi Protocol Commitment (MPC) imeundwa kukidhi mahitaji mawili:
 
 
-- Ujenzi wa `mpc::Commitment` Hash: hii itajumuishwa katika Bitcoin Blockchain kulingana na mpango wa `Opret` au `Tapret`, na lazima iakisi mabadiliko yote ya serikali ili kuthibitishwa;
-- Uhifadhi wa wakati mmoja wa mikataba mingi katika _ahadi_ moja, kuwezesha masasisho tofauti kuhusu mali nyingi au mikataba ya RGB kusimamiwa katika muamala mmoja wa Bitcoin.
+- Ujenzi wa `mpc::Commitment` Hash: hii itajumuishwa katika Bitcoin Blockchain kulingana na mpango wa `Opret` au `Tapret`, na lazima iakisi mabadiliko yote ya state ili kuthibitishwa;
+- Uhifadhi wa wakati mmoja wa mikataba mingi katika _commitment_ moja, kuwezesha masasisho tofauti kuhusu mali nyingi au mikataba ya RGB kusimamiwa katika muamala mmoja wa Bitcoin.
 
 Kwa maneno madhubuti, kila _transition bundle_ ni mali ya Contract fulani. Maelezo haya yote yameingizwa kwenye **Mti wa MPC**, ambao mzizi wake (`mpc::Root`) huharakishwa tena ili kutoa `mpc::Commitment`. Ni Hash hii ya mwisho ambayo imewekwa katika shughuli ya Bitcoin (_witness transaction_), kulingana na mbinu ya kubainisha iliyochaguliwa.
 
 ![RGB-Bitcoin](assets/en/042.webp)
 
-#### Mzizi wa MPC Hash
+#### MPC Root Hash
 
 Thamani iliyoandikwa kwa hakika On-Chain (katika `Opret` au `Tapret`) inaitwa `mpc::Commitment`. Hii inakokotolewa katika mfumo wa [BIP-341](https://github.com/Bitcoin/bips/blob/master/bip-0341.mediawiki), kulingana na fomula :
 
@@ -851,21 +851,21 @@ wapi:
 
 
 - `mpc_tag` ni lebo: `urn:ubideco:mpc:Commitment#2024-01-31`, iliyochaguliwa kulingana na [kanuni za kuweka lebo za RGB](https://github.com/RGB-WG/RGB-core/blob/master/doc/Commitments);
-- `kina` (byte 1) huonyesha kina cha *Mti wa MPC* ;
-- cofactor` (bytes 16, katika Endian Kidogo) ni kigezo kinachotumiwa kukuza upekee wa nafasi zilizopewa kila Contract kwenye mti;
-- `mpc::Root` ni mzizi wa *MPC Tree*, unaokokotolewa kulingana na mchakato ulioelezwa katika sehemu inayofuata.
+- `kina` (byte 1) huonyesha kina cha *MPC Tree* ;
+- `cofactor` (bytes 16, katika Endian Kidogo) ni kigezo kinachotumiwa kukuza upekee wa nafasi zilizopewa kila Contract kwenye mti;
+- `mpc::Root` ni root ya *MPC Tree*, inayokokotolewa kulingana na mchakato ulioelezwa katika sehemu inayofuata.
 
 ![RGB-Bitcoin](assets/en/044.webp)
 
-#### MPC ujenzi wa miti
+#### Ujenzi wa MPC tree
 
-Ili kujenga Mti huu wa MPC, tunahitaji kuhakikisha kwamba kila Contract inalingana na nafasi ya kipekee ya jani. Tuseme tunayo:
+Ili kujenga MPC tree, tunahitaji kuhakikisha kwamba kila Contract inalingana na nafasi ya kipekee ya jani. Tuseme tunayo:
 
 
-- c` mikataba ya kujumuishwa, iliyoorodheshwa na `i` katika `i = {0,1,..,C-1}` ;
+- c` Contracts ya kujumuishwa, iliyoorodheshwa na `i` katika `i = {0,1,..,C-1}` ;
 - Kwa kila Contract `c_i`, tuna kitambulisho `ContractId(i) = c_i`.
 
-Kisha tunaunda mti wa upana `w` na kina `d` hivi kwamba `2^d = w`, kwa `w > C`, ili kila Contract iwekwe katika _jani_ tofauti. Nafasi `pos(c_i)` ya kila Contract kwenye mti imebainishwa na:
+Kisha tunaunda mti wa upana `w` na kina `d` hivi kwamba `2^d = w`, kwa `w > C`, ili kila Contract iwekwe katika _leaf_ tofauti. Nafasi `pos(c_i)` ya kila Contract kwenye mti imebainishwa na:
 
 ```txt
 pos(c_i) = c_i mod (w - cofactor)
@@ -874,7 +874,7 @@ pos(c_i) = c_i mod (w - cofactor)
 ambapo `cofactor` ni nambari kamili inayoongeza uwezekano wa kupata nafasi tofauti kwa kila Contract. Kwa mazoezi, ujenzi unafuata mchakato wa kurudia:
 
 
-- Tunaanza kutoka kwa kina cha chini kabisa (`d=3` kwa makubaliano ili kuficha idadi kamili ya mikataba);
+- Tunaanza kutoka kwa kina cha chini kabisa (`d=3` kwa makubaliano ili kuficha idadi kamili ya Contracts);
 - Tunajaribu `cofactors` tofauti (hadi `w/2`, au zisizozidi 500 kwa sababu za utendaji);
 - Ikiwa tutashindwa kuweka mikataba yote bila mgongano, tunaongeza `d` na kuanza tena.
 
@@ -892,9 +892,9 @@ wapi:
 
 
 - `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, huchaguliwa kila mara kulingana na kanuni za Merkle za RGB ;
-- `0x10` inabainisha _jani la mkataba_ ;
+- `0x10` inabainisha _contract leaf_ ;
 - `c_i` ni kitambulishi cha Contract cha baiti 32 (kinachotokana na Genesis Hash);
-- bundleId(c_i)` ni Hash ya baiti 32 inayoelezea seti ya `Mipito ya Jimbo` inayohusiana na `c_i` (iliyokusanywa katika *Transition Bundle*).
+- bundleId(c_i)` ni Hash ya baiti 32 inayoelezea seti ya State Transitions` inayohusiana na `c_i` (iliyokusanywa katika *Transition Bundle*).
 
 #### Majani yasiyo na watu
 
@@ -908,13 +908,13 @@ wapi:
 
 
 - `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, huchaguliwa kila mara kulingana na kanuni za Merkle za RGB ;
-- `0x11` inaashiria _jani la entropy_ ;
+- `0x11 _entropy leaf_ ;
 - `entropy` ni thamani ya nasibu ya baiti 64, iliyochaguliwa na mtu anayejenga mti;
 - `j` ni nafasi (katika biti 32 Endian Ndogo) ya jani hili kwenye mti.
 
-#### Nodi za MPC
+#### Node za MPC
 
-Baada ya kutengeneza majani ya `w` (yatakayokaliwa au la), tunaendelea na utengenezaji wa merkelization. Nodi zozote za ndani zimeharakishwa kama ifuatavyo:
+Baada ya kutengeneza majani ya `w` (yatakayokaliwa au la), tunaendelea na utengenezaji wa merkelization. Node zozote za ndani zimeharakishwa kama ifuatavyo:
 
 ```txt
 tH_MPC_BRANCH(tH1 || tH2) = SHA-256(SHA-256(merkle_tag) || SHA-256(merkle_tag) || b || d || w || tH1 || tH2)
@@ -925,18 +925,18 @@ wapi:
 
 - `merkle_tag = urn:ubideco:merkle:node#2024-01-31`, huchaguliwa kila mara kulingana na kanuni za Merkle za RGB ;
 - b` ni _kigezo cha matawi_ (biti 8). Mara nyingi, `b=0x02` kwa sababu mti ni wa jozi na umekamilika;
-- d` ni kina cha nodi kwenye mti;
+- d` ni kina cha node kwenye mti;
 - `w` ni upana wa mti (katika binary ya Endian Ndogo ya 256-bit);
-- tH1` na `tH2` ni heshi za nodi za mtoto (au majani), ambazo tayari zimekokotolewa kama inavyoonyeshwa hapo juu.
+- tH1` na `tH2` ni heshi za node za mtoto (au majani), ambazo tayari zimekokotolewa kama inavyoonyeshwa hapo juu.
 
-Inaendelea kwa njia hii, tunapata mzizi `mpc::Root`. Kisha tunaweza kukokotoa `mpc::Commitment` (kama ilivyoelezwa hapo juu) na kuiingiza On-Chain.
+Inaendelea kwa njia hii, tunapata root `mpc::Root`. Kisha tunaweza kukokotoa `mpc::Commitment` (kama ilivyoelezwa hapo juu) na kuiingiza On-Chain.
 
-Ili kufafanua hili, hebu tufikirie mfano ambapo `C=3` (mikataba mitatu). Nafasi zao zinachukuliwa kuwa `pos(c_0)=7`, `pos(c_1)=4`, `pos(c_2)=2`. Majani mengine (nafasi 0, 1, 3, 5, 6) ni _majani ya entropy_. Mchoro hapa chini unaonyesha mlolongo wa heshi kwenye mzizi na:
+Ili kufafanua hili, hebu tufikirie mfano ambapo `C=3` (Contracts tatu). Nafasi zao zinachukuliwa kuwa `pos(c_0)=7`, `pos(c_1)=4`, `pos(c_2)=2`. Majani mengine (nafasi 0, 1, 3, 5, 6) ni _entropy leaf_. Mchoro hapa chini unaonyesha mlolongo wa hash kwenye roots na:
 
 
 - `BUNDLE_i` ambayo inawakilisha `BundleId(c_i)` ;
 - `tH_MPC_LEAF(A)` na kadhalika, ambayo inawakilisha majani (baadhi ya kandarasi, wengine kwa entropy);
-- Kila tawi `tH_MPC_BRANCH(...)` huchanganya heshi za watoto wake wawili.
+- Kila tawi `tH_MPC_BRANCH(...)` huchanganya hash za watoto wake wawili.
 
 Matokeo ya mwisho ni **mpc::Root**, kisha `mpc::Commitment`.
 
@@ -954,7 +954,7 @@ Utaratibu huu unahakikisha kuwa:
 
 
 - Hali inayohusiana na `c_2` kwa hakika imejumuishwa katika uzuiaji wa taarifa wa jumla (upande wa mteja);
-- Hakuna mtu anayeweza kuunda historia mbadala kwa shughuli sawa, kwa sababu On-Chain _commitment_ inaelekeza kwenye mzizi mmoja wa MPC.
+- Hakuna mtu anayeweza kuunda historia mbadala kwa shughuli sawa, kwa sababu On-Chain _commitment_ inaelekeza kwenye root mmoja wa MPC.
 
 #### Muhtasari wa muundo wa MPC
 
@@ -966,9 +966,9 @@ Kwa hivyo, kila _Merkle proof_ ni nyepesi, haswa kwa vile kina cha mti hakitazid
 
 Ndiyo maana ilichukua muda mrefu kukamilisha RGB. Tulikuwa na maono ya jumla kutoka 2019: kuweka kila kitu kwa upande wa mteja, kusambaza tokeni za off-chain. Lakini kwa maelezo kama vile kugawanya kandarasi nyingi, muundo wa Merkle Tree, jinsi ya kushughulikia migongano na uunganisho wa uthibitisho... yote haya yalihitaji marudio.
 
-### Nanga: mkutano wa kimataifa
+### Anchors: mkutano wa kimataifa
 
-Kufuatia ujenzi wa ahadi zetu (`Opret` au `Tapret`) na MPC wetu (*Multi Protocol Commitment*), tunahitaji Address dhana ya **Anchor** katika itifaki ya RGB. Anchor ni muundo ulioidhinishwa wa upande wa mteja ambao unaleta pamoja Elements inayohitajika ili kuthibitisha kuwa Bitcoin Commitment kweli ina maelezo mahususi ya kimkataba. Kwa maneno mengine, Anchor inatoa muhtasari wa data yote inayohitajika ili kuthibitisha _commitments_ ilivyoelezwa hapo juu.
+Kufuatia ujenzi wa Commitment zetu (`Opret` au `Tapret`) na MPC wetu (*Multi Protocol Commitment*), tunahitaji Address dhana ya **Anchor** katika RGB protocol. Anchor ni muundo ulioidhinishwa wa upande wa mteja ambao unaleta pamoja Elements inayohitajika ili kuthibitisha kuwa Bitcoin Commitment kweli ina maelezo mahususi ya kimkataba. Kwa maneno mengine, Anchor inatoa muhtasari wa data yote inayohitajika ili kuthibitisha _commitments_ ilivyoelezwa hapo juu.
 
 Anchor ina sehemu tatu zilizoagizwa:
 
@@ -983,60 +983,60 @@ Kila moja ya sehemu hizi ina sehemu katika mchakato wa uthibitishaji, iwe ni sua
 
 Sehemu ya `txid` inalingana na kitambulishi cha baiti 32 cha shughuli ya Bitcoin iliyo na `Opret` au `Tapret` Commitment.
 
-Kinadharia, itawezekana kupata `txid` hii kwa kufuatilia msururu wa mabadiliko ya serikali ambayo yenyewe yanaelekeza kwa kila Witness Transaction, kwa kufuata mantiki ya Mihuri ya Matumizi Moja. Hata hivyo, ili kuwezesha na kuharakisha uthibitishaji, `txid` hii imejumuishwa kwa urahisi kwenye Anchor, hivyo basi kuokoa kiidhinishi kutokana na kurudi nyuma kupitia historia nzima ya off-chain.
+Kinadharia, itawezekana kupata `txid` hii kwa kufuatilia msururu wa state transitions ambayo yenyewe yanaelekeza kwa kila Witness Transaction, kwa kufuata mantiki ya Single-Use seal. Hata hivyo, ili kuwezesha na kuharakisha uthibitishaji, `txid` hii imejumuishwa kwa urahisi kwenye Anchor, hivyo basi kuokoa kiidhinishi kutokana na kurudi nyuma kupitia historia nzima ya off-chain.
 
 #### Ushahidi wa MPC
 
-Sehemu ya pili, `Uthibitisho wa MPC`, inarejelea uthibitisho kwamba Contract hii mahususi (k.m. `c_i`) imejumuishwa katika _Ahadi ya Itifaki nyingi_. Ni mchanganyiko wa:
+Sehemu ya pili, `Uthibitisho wa MPC`, inarejelea uthibitisho kwamba Contract hii mahususi (k.m. `c_i`) imejumuishwa katika _Multi Protocol Commitment_. Ni mchanganyiko wa:
 
 
 - `pos_i`, nafasi ya Contract hii katika mti wa MPC;
 - `cofactor`, thamani iliyobainishwa ili kutatua migongano ya nafasi;
 - `Uthibitisho wa Merkle`, yaani seti ya vifundo na heshi zilizotumiwa kuunda upya mzizi wa MPC na kuthibitisha kuwa kitambulishi cha Contract na `Transition Bundle` yake zimekabidhiwa kwenye mzizi.
 
-Utaratibu huu ulielezewa katika sehemu iliyotangulia ya kujenga *Mti wa MPC*, ambapo kila Contract inapata jani la kipekee kutokana na:
+Utaratibu huu ulielezewa katika sehemu iliyotangulia ya kujenga **MPC tree*, ambapo kila Contract inapata jani la kipekee kutokana na:
 
 ```txt
 pos(c_i) = c_i mod (w - cofactor)
 ```
 
-Kisha, mpango wa merkelization wa kuamua hutumiwa kukusanya majani yote (mikataba + entropy). Mwishowe, `Uthibitisho wa MPC` huruhusu mzizi kujengwa upya ndani ya nchi na ikilinganishwa na `mpc::Commitment` iliyojumuishwa On-Chain.
+Kisha, mpango wa merkelization wa kuamua hutumiwa kukusanya majani yote (Contract + entropy). Mwishowe, `Uthibitisho wa MPC` huruhusu mzizi kujengwa upya ndani ya state na ikilinganishwa na `mpc::Commitment` iliyojumuishwa On-Chain.
 
-#### Uthibitisho wa Muamala wa Ziada - ETP
+#### Extra Transaction Proof - ETP
 
 Sehemu ya tatu, **ETP**, inategemea aina ya Commitment iliyotumiwa. Ikiwa Commitment ni ya aina ya `Opret`, hakuna uthibitisho wa ziada unaohitajika. Kihalalishi hukagua matokeo ya kwanza ya `OP_RETURN` ya muamala na kupata `mpc::Commitment` moja kwa moja hapo.
 
-**Ikiwa Commitment ni ya aina ya `Tapret`**, uthibitisho wa ziada unaoitwa *Uthibitisho wa Muamala wa Ziada - ETP* lazima utolewe. Ina:
+**Ikiwa Commitment ni ya aina ya `Tapret`**, uthibitisho wa ziada unaoitwa *Extra Transaction Proof - ETP* lazima utolewe. Ina:
 
 
 - Ufunguo wa ndani wa umma (`P`) wa pato la Taproot ambamo *Commitment* imepachikwa;
-- Nodi za washirika za `Njia ya Hati Tumia` (wakati Tapret *Commitment* inapoingizwa kwenye hati), ili kuthibitisha eneo kamili la hati hii katika mti wa Taproot:
- - Ikiwa `Tapret` *Commitment* iko kwenye tawi la mkono wa kulia, tunafichua nodi ya mkono wa kushoto (k.m. `thHABC`),
+- Node za washirika za `Script Path Spend` (wakati Tapret *Commitment* inapoingizwa kwenye hati), ili kuthibitisha eneo kamili la hati hii katika mti wa Taproot:
+ - Ikiwa `Tapret` *Commitment* iko kwenye tawi la mkono wa kulia, tunafichua node ya mkono wa kushoto (k.m. `thHABC`),
  - Ikiwa `Tapret` *Commitment* iko upande wa kushoto, unahitaji kufichua nodi 2 (k.m. `tHAB` na `tHC`) ili kuthibitisha kuwa hakuna *Commitment* nyingine iliyopo upande wa kulia.
-- `Nonce` inaweza kutumika "kuchimba" usanidi bora zaidi, ikiruhusu *Commitment* kuwekwa upande wa kulia wa mti (uboreshaji wa uthibitisho).
+- `Nonce` inaweza kutumika "mine" usanidi bora zaidi, ikiruhusu *Commitment* kuwekwa upande wa kulia wa mti (uboreshaji wa uthibitisho).
 
 Uthibitisho huu wa ziada ni muhimu kwa sababu, tofauti na `Opret`, `Tapret` Commitment imeunganishwa katika muundo wa hati ya Taproot, ambayo inahitaji kufichuliwa kwa sehemu ya mti wa Taproot ili kuthibitisha kwa usahihi eneo la *Commitment*.
 
 ![RGB-Bitcoin](assets/en/045.webp)
 
-**Anchor** kwa hivyo hujumuisha taarifa zote zinazohitajika ili kuthibitisha Bitcoin Commitment katika muktadha wa RGB. Zinaonyesha muamala husika (`txid`) na uthibitisho wa nafasi ya Contract (`Uthibitisho wa MPC`), huku zikidhibiti uthibitisho wa ziada (`ETP`) katika kesi ya `Tapret`. Kwa njia hii, Anchor inalinda uadilifu na upekee wa hali ya off-chain kwa kuhakikisha kuwa shughuli hiyo hiyo haiwezi kufasiriwa upya kwa data nyingine za mkataba.
+**Anchor** kwa hivyo hujumuisha taarifa zote zinazohitajika ili kuthibitisha Bitcoin Commitment katika muktadha wa RGB. Zinaonyesha muamala husika (`txid`) na uthibitisho wa nafasi ya Contract (`Uthibitisho wa MPC`), huku zikidhibiti uthibitisho wa ziada (`ETP`) katika kesi ya `Tapret`. Kwa njia hii, Anchor inalinda uadilifu na upekee wa hali ya off-chain kwa kuhakikisha kuwa miamala hiyo hiyo haiwezi kufasiriwa upya kwa data nyingine za mkataba.
 
 ### Hitimisho
 
 Katika sura hii, tunashughulikia:
 
 
-- Jinsi ya kutumia dhana ya Mihuri ya matumizi Moja katika Bitcoin (haswa kupitia _outpoint_);
-- Mbinu mbalimbali za kubainisha _commitment_ katika muamala (Sig tweak, Key tweak, tweak ya mashahidi, OP_RETURN, Taproot/Tapret);
-- Sababu kwa nini RGB inazingatia ahadi za Tapret;
-- Usimamizi wa Contract nyingi kupitia _commitment _za itifaki nyingi_, ni muhimu ikiwa hutaki kufichua jimbo zima au mikataba mingine unapotaka kuthibitisha hoja mahususi;
+- Jinsi ya kutumia dhana ya Single-Use Seal katika Bitcoin (haswa kupitia _outpoint_);
+- Mbinu mbalimbali za kubainisha _commitment_ katika muamala (Sig tweak, Key tweak, witness tweak, OP_RETURN, Taproot/Tapret);
+- Sababu kwa nini RGB inazingatia Commitment za Tapret;
+- Usimamizi wa Contract nyingi kupitia _commitment _za protocol nyingi_, ni muhimu ikiwa hutaki kufichua jimbo zima au mikataba mingine unapotaka kuthibitisha hoja mahususi;
 - Tumeona pia jukumu la _Anchors_, ambayo huleta kila kitu pamoja (muamala txid, uthibitisho wa Merkle Tree na uthibitisho wa Taproot) katika kifurushi kimoja.
 
 Katika mazoezi, utekelezaji wa kiufundi umegawanywa kati ya Rust _crates_ kadhaa maalum (katika _client_side_validation_, _commit-verify_, _bp_core_, nk.). Mawazo ya kimsingi yapo:
 
 ![RGB-Bitcoin](assets/en/046.webp)
 
-Katika sura inayofuata, tutaangalia sehemu ya off-chain ya RGB, ambayo ni mantiki ya Contract. Tutaona jinsi mikataba ya RGB, iliyopangwa kama mashine za hali _finite iliyoigwa kwa sehemu_, inavyofikia uwazi zaidi kuliko hati za Bitcoin, huku zikihifadhi usiri wa data zao.
+Katika sura inayofuata, tutaangalia sehemu ya off-chain ya RGB, ambayo ni mantiki ya Contract. Tutaona jinsi Contract za RGB, iliyopangwa kama mashine za hali _finite state machines_, inavyofikia uwazi zaidi kuliko hati za Bitcoin, huku zikihifadhi usiri wa data zao.
 
 ## Utangulizi wa mikataba mahiri na majimbo yao
 
@@ -1073,7 +1073,7 @@ Ni muhimu kuelewa kwamba mikataba hii sio mdogo kwa uhamisho rahisi wa ishara. Z
 - **Vyama vilivyo na haki** (*Ownership*) au uwezo mwingine wa kutekeleza ;
 - **Waangalizi**, wana uwezekano mdogo wa kuona taarifa fulani, lakini ambao hawawezi kuanzisha marekebisho.
 
-Mgawanyo huu wa majukumu huchangia upinzani wa udhibiti, kwa kuhakikisha kuwa watu walioidhinishwa pekee ndio wanaoweza kuingiliana na hali ya kimkataba. Pia huipa RGB uwezo wa kuongeza mlalo: uthibitishaji mwingi hufanyika nje ya Blockchain, na ni nanga za kriptografia pekee (*ahadi*) zimeandikwa kwenye Bitcoin.
+Mgawanyo huu wa majukumu huchangia upinzani wa udhibiti, kwa kuhakikisha kuwa watu walioidhinishwa pekee ndio wanaoweza kuingiliana na hali ya Contract. Pia huipa RGB uwezo wa kuongeza mlalo: uthibitishaji mwingi hufanyika nje ya Blockchain, na ni Anchor za cryptography pekee (*Commitment*) zimeandikwa kwenye Bitcoin.
 
 ### Hali na Business Logic katika RGB
 
@@ -1088,9 +1088,9 @@ Wakati huo huo, **Contract State** mara nyingi hugawanyika katika vipengele viwi
 
 
 - A **Global State**: sehemu ya umma, ambayo inaweza kuonekana na wote (kulingana na usanidi);
-- **Nchi Zinazomilikiwa**: sehemu za siri, zilizotengwa mahususi kwa wamiliki kupitia UTXO zilizorejelewa katika mantiki ya Contract.
+- **Owned State**: sehemu za siri, zilizotengwa mahususi kwa wamiliki kupitia UTXO zilizorejelewa katika mantiki ya Contract.
 
-Kama tutakavyoona katika sura zifuatazo, sasisho lolote la hali (*Contract Operation*) lazima liambatishwe kwenye Bitcoin _ahadi_ (kupitia `Opret` au `Tapret`) na litii hati za *Hekta za Biashara* ili kuchukuliwa kuwa halali.
+Kama tutakavyoona katika sura zifuatazo, sasisho lolote la hali (*Contract Operation*) lazima liambatishwe kwenye Bitcoin _commitment_ (kupitia `Opret` au `Tapret`) na litii hati za *Hekta za Biashara* ili kuchukuliwa kuwa halali.
 
 ### Uendeshaji wa Contract: uundaji na mageuzi ya Serikali
 
@@ -1099,21 +1099,21 @@ Katika ulimwengu wa RGB, ***Contract Operation*** ni tukio lolote linalobadilish
 
 - Tunazingatia hali ya sasa ya muktaba;
 - Tunatumia sheria au uendeshaji (**State Transition**, ***Genesis*** ikiwa ni hali ya kwanza kabisa, au ***State Extension*** ikiwa kuna *Valency* ya umma ya kuwasha tena);
-- Sisi Anchor marekebisho kupitia _ahadi_ mpya kwenye Blockchain, kufunga _seal-matumizi moja_ na kuunda nyingine;
-- Wamiliki wa haki wanaohusika wanathibitisha ndani ya nchi (*upande wa mteja*) kwamba mageuzi yanafuata *Schema* na kwamba muamala husika wa Bitcoin umesajiliwa On-Chain.
+- Sisi Anchor marekebisho kupitia _commitment_ mpya kwenye Blockchain, kufunga _Single use seal_ na kuunda nyingine;
+- Wamiliki wa haki wanaohusika wanathibitisha ndani ya state (*upande wa mteja*) kwamba mageuzi yanafuata *Schema* na kwamba muamala husika wa Bitcoin umesajiliwa On-Chain.
 
 ![RGB-Bitcoin](assets/en/057.webp)
 
-Matokeo yake ni Contract iliyosasishwa, sasa ikiwa na hali tofauti. Mpito huu hauhitaji mtandao mzima wa Bitcoin kuhusika na maelezo, kwa kuwa ni alama ndogo ya kriptografia tu (the _commitment_) iliyorekodiwa katika Blockchain. Mfuatano wa Mihuri ya Matumizi Moja huzuia matumizi yoyote ya Double-spending au mara mbili ya Serikali.
+Matokeo yake ni Contract iliyosasishwa, sasa ikiwa na hali tofauti. Mpito huu hauhitaji mtandao mzima wa Bitcoin kuhusika na maelezo, kwa kuwa ni alama ndogo ya cryptography tu (the _commitment_) iliyorekodiwa katika Blockchain. Mfuatano wa Single-Use Seal huzuia matumizi yoyote ya Double-spending au mara mbili ya state.
 
-### Mlolongo wa uendeshaji: kutoka Genesis hadi Jimbo la Terminal
+### Mlolongo wa uendeshaji: kutoka Genesis hadi Terminal State
 
 Ili kuweka hili katika mtazamo, RGB Smart contract huanza na **Genesis**, hali ya kwanza kabisa. Baada ya hapo, Operesheni mbalimbali za Contract zinafuatana, na kutengeneza DAG (*Directed Acyclic Graph*) ya uendeshaji:
 
 
 - Kila mpito inategemea hali ya awali (au kadhaa, katika kesi ya mabadiliko ya kuunganishwa);
 - Mpangilio wa mpangilio unahakikishwa na kuingizwa kwa kila mpito katika Bitcoin Anchor, shukrani za muda na zisizoweza kubadilika kwa makubaliano na Proof-of-Work;
-- Wakati hakuna shughuli zaidi zinazoendelea, **Jimbo la Kituo** hufikiwa: hali ya hivi punde zaidi na kamili ya Contract.
+- Wakati hakuna shughuli zaidi zinazoendelea, **Terminal State** hufikiwa: hali ya hivi punde zaidi na kamili ya Contract.
 
 ![RGB-Bitcoin](assets/en/012.webp)
 
@@ -1121,14 +1121,14 @@ Topolojia hii ya DAG (badala ya msururu rahisi wa mstari) inaonyesha uwezekano k
 
 ### Muhtasari
 
-Mikataba mahiri katika RGB inatanguliza muundo wa zana zinazobeba dijitali, zilizogatuliwa lakini zilizowekwa katika Bitcoin kwa kuweka muhuri wa wakati na kuhakikisha mpangilio wa miamala. Utekelezaji wa kiotomatiki wa mikataba hii inategemea:
+Contract mahiri katika RGB inatanguliza muundo wa zana zinazobeba dijitali, zilizogatuliwa lakini zilizowekwa katika Bitcoin kwa kuweka seal wa wakati na kuhakikisha mpangilio wa miamala. Utekelezaji wa kiotomatiki wa mikataba hii inategemea:
 
 
-- A **hali ya muktaba**, inayoonyesha usanidi wa sasa wa Contract (haki, mizani, vigezo, nk);
+- A **hali ya Contract**, inayoonyesha usanidi wa sasa wa Contract (haki, mizani, vigezo, nk);
 - A **Mantiki ya Biashara** (*Schema*), ikifafanua ni mabadiliko gani yanaruhusiwa na jinsi yanapaswa kuthibitishwa;
-- **Uendeshaji wa Mkataba**, ambayo husasisha jimbo hili hatua kwa hatua, kutokana na ahadi zilizowekwa katika miamala ya Bitcoin.
+- **Uendeshaji wa Contract**, ambayo husasisha jimbo hili hatua kwa hatua, kutokana na ahadi zilizowekwa katika miamala ya Bitcoin.
 
-Katika sura inayofuata, tutaingia kwa undani zaidi kuhusu uwakilishi halisi wa hizi ***states*** na ***mabadiliko ya serikali*** katika kiwango cha off-chain, na jinsi zinavyohusiana na UTXO na Mihuri ya Matumizi Moja iliyopachikwa kwenye Bitcoin. Hii itakuwa fursa ya kuona jinsi mitambo ya ndani ya RGB, kulingana na Client-side Validation, inavyoweza kudumisha uthabiti wa mikataba mahiri huku ikihifadhi usiri wa data.
+Katika sura inayofuata, tutaingia kwa undani zaidi kuhusu uwakilishi halisi wa hizi ***states*** na ***state transitions*** katika kiwango cha off-chain, na jinsi zinavyohusiana na UTXO na Single-Use Seal iliyopachikwa kwenye Bitcoin. Hii itakuwa fursa ya kuona jinsi mitambo ya ndani ya RGB, kulingana na Client-side Validation, inavyoweza kudumisha uthabiti wa mikataba mahiri huku ikihifadhi usiri wa data.
 
 ## Shughuli za RGB Contract
 
@@ -1136,9 +1136,9 @@ Katika sura inayofuata, tutaingia kwa undani zaidi kuhusu uwakilishi halisi wa h
 
 :::video id=1caec34d-f214-425b-a1a4-0a40ae7d3e0e:::
 
-Katika sura hii, tutaangalia jinsi utendakazi katika mikataba mahiri na mabadiliko ya serikali hufanya kazi, tena ndani ya itifaki ya RGB. Lengo pia litakuwa kuelewa jinsi washiriki kadhaa wanavyoshirikiana kuhamisha Ownership ya mali.
+Katika sura hii, tutaangalia jinsi utendakazi katika contract mahiri na state transitions hufanya kazi, tena ndani ya protocol ya RGB. Lengo pia litakuwa kuelewa jinsi washiriki kadhaa wanavyoshirikiana kuhamisha Ownership ya mali.
 
-### Mabadiliko ya serikali na mechanics yao
+### state transitions na mechanics yao
 
 Kanuni ya jumla bado ni ile ya Client-side Validation, ambapo data ya serikali inashikiliwa na mmiliki na kuthibitishwa na mpokeaji. Hata hivyo, umaalum hapa na RGB unatokana na ukweli kwamba Bob, kama mpokeaji, anamwomba Alice kujumuisha taarifa fulani kwenye data ya Contract ili kuwa na udhibiti wa kweli wa mali iliyopokelewa, kupitia rejeleo lililofichwa kwa mojawapo ya UTXO zake.
 

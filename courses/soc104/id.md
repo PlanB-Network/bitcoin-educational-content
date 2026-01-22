@@ -1016,7 +1016,7 @@ Masalah sosial bukan soal uang, melainkan soal pilihan yang kita buat tentang ap
 
 
 
-- Sosialis:** Ya Penalisasi tidak efektif. Legalisasi memungkinkan kontrol dan peningkatan pendapatan.
+- Sosialis:** Ya Penalti tidak efektif. Legalisasi memungkinkan kontrol dan peningkatan pendapatan.
 - Konservatif:** Tidak. Konsumsi berbahaya bagi kesehatan dan tatanan sosial.
 - Libertarian:** Ya, asalkan peran negara dalam masyarakat dikurangi. Negara tidak memiliki urusan untuk mencampuri keputusan pribadi selama keputusan tersebut tidak secara langsung merugikan orang lain.
 - Sentris:** Perdebatan yang kompleks. Dekriminalisasi mungkin saja terjadi, namun peraturan yang ketat sangat diperlukan.
@@ -1034,25 +1034,24 @@ Masalah sosial bukan soal uang, melainkan soal pilihan yang kita buat tentang ap
 
 
 
-- Sosialis:** Ya. Masalah obesitas adalah masalah produsen yang memasarkan minuman ringan. Pajak soda adalah proposal Sosialis untuk memerangi produsen atau penjual minuman manis yang dituduh mengeruk keuntungan dengan mengorbankan kesehatan masyarakat.
+- Sosialis:** Ya. Masalah obesitas adalah tanggung jawab produsen yang memasarkan minuman ringan. Pajak soda adalah usulan sosialis untuk menekan produsen atau penjual minuman manis yang dianggap meraup keuntungan dengan mengorbankan kesehatan masyarakat.
 
 
 
 
 
-- Konservatif:** Pada prinsipnya, ya. Misi pemerintah adalah memastikan kesehatan warganya. Namun, kaum konservatif umumnya lebih memilih solusi yang didasarkan pada tanggung jawab pribadi dan pendidikan. Mengenakan pajak untuk minuman manis akan dianggap sebagai campur tangan pemerintah yang berlebihan dalam keputusan pribadi warga negara.
+- Konservatif:** Pada prinsipnya, ya. Tugas pemerintah adalah menjaga kesehatan warganya. Namun, kaum konservatif umumnya lebih memilih solusi yang bertumpu pada tanggung jawab pribadi dan edukasi. Pengenaan pajak pada minuman manis akan dipandang sebagai campur tangan pemerintah yang berlebihan dalam pilihan pribadi warga negara.
+
+
+
+
+- Libertarian:** Tidak. Prinsip dasar libertarianisme menyatakan bahwa tidak adil melindungi orang dari diri mereka sendiri. Warga negara adalah orang dewasa, bukan anak-anak. Upaya memaksakan kebiasaan hidup yang lebih sehat melalui paksaan dianggap mahal, tidak efektif, dan pada akhirnya justru kontraproduktif. Masalah obesitas seharusnya ditangani melalui inisiatif pribadi.
 
 
 
 
 
-- Libertarian:** Tidak. Prinsip dasar libertarianisme adalah tidak adil untuk melindungi orang dari diri mereka sendiri. Warga negara adalah orang dewasa, bukan anak-anak. Upaya untuk memaksakan kebiasaan kesehatan yang lebih baik dengan cara-cara pemaksaan dianggap mahal, tidak efektif dan pada akhirnya kontraproduktif. Masalah obesitas harus ditangani dengan inisiatif pribadi.
-
-
-
-
-
-- Kaum sentris:** Ya, mereka akan terbuka terhadap gagasan pajak jika terbukti efektif, dan jika kelemahan sosial dan ekonominya dapat dikurangi. Mereka akan melihatnya sebagai bagian dari solusi yang lebih luas dan terintegrasi, bukan sebagai langkah yang terpisah.
+- Kaum sentris:** Ya, mereka akan terbuka terhadap gagasan pajak jika terbukti efektif dan jika dampak sosial serta ekonominya bisa diminimalkan. Pajak tersebut akan dipandang sebagai bagian dari solusi yang lebih luas dan terintegrasi, bukan sebagai kebijakan yang berdiri sendiri.
 
 
 
@@ -1074,8 +1073,7 @@ Masalah sosial bukan soal uang, melainkan soal pilihan yang kita buat tentang ap
 
 
 
-Masalah ekonomi berkaitan dengan uang, seperti pekerjaan, pembelian dan penjualan, investasi, dan transaksi komersial. Saya telah memilih lima pertanyaan untuk menyajikan jawaban dari masing-masing keluarga politik. Tentu saja, jawaban-jawaban singkat ini hanya memberikan sekilas gambaran dari masing-masing sudut pandang.
-
+Masalah ekonomi berkaitan dengan uang, seperti pekerjaan, aktivitas jual beli, investasi, dan transaksi bisnis. Saya memilih lima pertanyaan untuk menampilkan jawaban dari tiap keluarga politik. Tentu saja, jawaban singkat ini hanya memberi gambaran umum dari masing-masing sudut pandang.
 
 
 ### Pajak
@@ -1095,9 +1093,7 @@ Masalah ekonomi berkaitan dengan uang, seperti pekerjaan, pembelian dan penjuala
 
 
 
-- Libertarian:** Ya. Pajak adalah bentuk pencurian oleh negara dan penghalang bagi kepemilikan pribadi. Pajak harus dikurangi atau dihapuskan secara drastis demi mendukung pajak sukarela atau layanan swasta sepenuhnya.
-
-
+- Libertarian:** Ya. Pajak dipandang sebagai bentuk perampasan oleh negara dan hambatan bagi kepemilikan pribadi. Karena itu, pajak sebaiknya dikurangi secara signifikan atau bahkan dihapuskan, lalu digantikan dengan kontribusi sukarela atau layanan yang sepenuhnya bersifat swasta.
 
 
 
@@ -1121,7 +1117,7 @@ Masalah ekonomi berkaitan dengan uang, seperti pekerjaan, pembelian dan penjuala
 
 
 
-- Konservatif:** Pada prinsipnya, tidak, pasar harus memainkan perannya sebagai regulator. Namun, upah minimum dapat ditoleransi jika tidak terlalu menghambat daya saing perusahaan. Yang penting adalah tanggung jawab individu dan penciptaan lapangan kerja, bukan ketergantungan pada subsidi.
+- Konservatif:** Pada prinsipnya, tidak. Pasar seharusnya berperan sebagai pengatur. Namun, upah minimum masih bisa diterima selama tidak terlalu menghambat daya saing perusahaan. Yang terpenting adalah tanggung jawab individu dan penciptaan lapangan kerja, bukan ketergantungan pada subsidi.
 
 
 
@@ -1159,13 +1155,12 @@ Masalah ekonomi berkaitan dengan uang, seperti pekerjaan, pembelian dan penjuala
 
 
 
-- Libertarian:** Ya. Layanan kesehatan adalah layanan seperti layanan lainnya. Pasar swasta lebih efisien, inovatif, dan menawarkan lebih banyak pilihan kepada konsumen. Intervensi pemerintah menyebabkan inefisiensi dan birokrasi. Namun yang terpenting, setiap orang memiliki hak untuk memilih sendiri jika mereka ingin keluar dari sistem jaminan sosial.
+- Libertarian:** Ya. Layanan kesehatan dipandang sebagai layanan seperti yang lain. Pasar swasta dinilai lebih efisien, inovatif, dan memberi lebih banyak pilihan bagi konsumen. Campur tangan pemerintah dianggap memicu inefisiensi dan birokrasi. Yang terpenting, setiap orang berhak memilih sendiri apakah ingin keluar dari sistem jaminan sosial.
 
 
 
 
-
-- Sentris:** Sistem campuran sering kali merupakan pendekatan terbaik. Negara harus menjamin akses universal dan solidaritas (cakupan dasar), sambil memberikan ruang bagi sektor swasta untuk melakukan diversifikasi penawaran dan berinovasi, untuk mengoptimalkan efisiensi dan kualitas.
+- Sentris:** Sistem campuran sering dianggap sebagai pendekatan terbaik. Negara perlu menjamin akses universal dan solidaritas melalui cakupan dasar, sambil memberi ruang bagi sektor swasta untuk memperkaya layanan dan berinovasi demi meningkatkan efisiensi dan kualitas.
 
 
 
@@ -1179,25 +1174,25 @@ Masalah ekonomi berkaitan dengan uang, seperti pekerjaan, pembelian dan penjuala
 
 
 
-- Sosialis:** Tidak. Negara harus memberlakukan peraturan yang ketat untuk melindungi lingkungan dan memerangi perubahan iklim. Pasar saja tidak dapat menyelesaikan masalah ini, yang membutuhkan tindakan dan perencanaan kolektif. Subsidi dianggap perlu untuk memastikan transisi ekologis. Selain itu, perdagangan bebas internasional harus diatur untuk melindungi lingkungan.
+- Sosialis:** Tidak. Negara perlu menerapkan aturan yang ketat untuk melindungi lingkungan dan menangani perubahan iklim. Pasar saja tidak cukup untuk menyelesaikan masalah ini karena dibutuhkan tindakan serta perencanaan bersama. Subsidi dinilai perlu untuk mendukung transisi ekologis. Selain itu, perdagangan bebas internasional juga harus diatur agar tidak merusak lingkungan.
 
 
 
 
 
-- Konservatif:** Pada prinsipnya, ya, karena kebebasan berusaha itu penting. Namun, tingkat regulasi tertentu diperlukan untuk melindungi lingkungan sebagai warisan dan sumber daya, tetapi tanpa menghambat perekonomian.
+- Konservatif:** Pada prinsipnya, ya, karena kebebasan berusaha itu penting. Namun, tingkat regulasi tertentu tetap dibutuhkan untuk melindungi lingkungan sebagai warisan dan sumber daya, tanpa menghambat perekonomian.
 
 
 
 
 
-- Libertarian:** Ya. Peraturan lingkungan merupakan penghalang bagi kebebasan ekonomi dan kepemilikan properti. Mereka percaya bahwa cara terbaik untuk melindungi lingkungan adalah melalui properti pribadi, bukan melalui organisasi birokrasi. Mereka menambahkan bahwa pemilik lebih mungkin untuk menjaga properti mereka, karena mereka memiliki kepentingan pribadi untuk melestarikan nilainya. Masalah lingkungan dapat diselesaikan oleh pasar, tanggung jawab individu dan hak milik. Para pencemar harus bertanggung jawab atas kerusakan yang mereka timbulkan terhadap lingkungan.
+- Libertarian:** Ya. Peraturan lingkungan dipandang sebagai hambatan bagi kebebasan ekonomi dan hak kepemilikan. Mereka percaya bahwa cara terbaik melindungi lingkungan adalah melalui kepemilikan pribadi, bukan lewat birokrasi. Pemilik dinilai lebih terdorong merawat asetnya karena memiliki kepentingan langsung dalam menjaga nilainya. Masalah lingkungan dianggap dapat diselesaikan melalui mekanisme pasar, tanggung jawab individu, dan hak milik. Para pencemar harus dimintai pertanggungjawaban atas kerusakan yang mereka sebabkan terhadap lingkungan.
 
 
 
 
 
-- Sentris:** Tidak, regulasi mandiri tidaklah cukup. Peraturan lingkungan hidup diperlukan untuk melindungi planet dan kesehatan masyarakat. Namun, peraturan tersebut harus dirancang sedemikian rupa agar tidak merugikan daya saing bisnis secara berlebihan, dan untuk mendorong inovasi ramah lingkungan.
+- Sentris:** Tidak, regulasi mandiri saja tidak cukup. Peraturan lingkungan tetap diperlukan untuk melindungi planet dan kesehatan masyarakat. Namun, aturan tersebut perlu dirancang agar tidak terlalu merugikan daya saing bisnis, sekaligus mendorong inovasi yang ramah lingkungan.
 
 
 
@@ -1224,13 +1219,13 @@ Masalah ekonomi berkaitan dengan uang, seperti pekerjaan, pembelian dan penjuala
 
 
 
-- Libertarian:** Ya. Subsidi dan dana talangan mendistorsi pasar, menguntungkan beberapa perusahaan di atas perusahaan lainnya, dan menciptakan ketergantungan pada negara. Perusahaan-perusahaan yang gagal harus bangkrut.
+- Libertarian:** Ya. Subsidi dan dana talangan dipandang mendistorsi pasar, menguntungkan sebagian perusahaan di atas yang lain, dan menciptakan ketergantungan pada negara. Perusahaan yang gagal seharusnya dibiarkan bangkrut.
 
 
 
 
 
-- Sentris:** Secara umum, ya, tetapi dengan pengecualian. Subsidi harus ditargetkan dan bersifat sementara, dibenarkan oleh kepentingan umum (inovasi, transisi ekologi, sektor-sektor strategis). Dana talangan hanya boleh dipertimbangkan jika terjadi ancaman sistemik yang besar terhadap perekonomian.
+- Sentris:** Secara umum, ya, tetapi dengan beberapa pengecualian. Subsidi sebaiknya tepat sasaran dan bersifat sementara, serta dibenarkan oleh kepentingan umum seperti inovasi, transisi ekologi, atau sektor strategis. Dana talangan hanya layak dipertimbangkan jika ada ancaman sistemik yang serius terhadap perekonomian.
 
 
 
@@ -1253,7 +1248,7 @@ Masalah ekonomi berkaitan dengan uang, seperti pekerjaan, pembelian dan penjuala
 
 
 
-Jika kita membandingkan berbagai rumpun politik yang berbeda, kita dapat melihat bahwa ada kemungkinan kesamaan, tetapi juga titik-titik ketidakcocokan. Hal ini terutama terjadi ketika kita membandingkan kaum libertarian dengan profil ideologi lainnya.  Mari kita analisis perbedaan-perbedaan ini dengan menggunakan beberapa konsep filosofis.
+Jika kita membandingkan berbagai rumpun politik, kita bisa melihat adanya sejumlah kesamaan, sekaligus titik-titik perbedaan. Hal ini paling jelas terlihat saat membandingkan libertarian dengan profil ideologi lainnya. Mari kita telaah perbedaan-perbedaan ini dengan menggunakan beberapa konsep filosofis.
 
 
 
@@ -1273,19 +1268,15 @@ Bagi mereka, kebebasan bukanlah prinsip fundamental, tetapi masalah kemanfaatan.
 
 
 
-2. Kaum sosialis juga dapat mengadvokasi pengenalan kebebasan ini atau itu secara ad hoc, oportunistik dan selektif. Namun bagi mereka, ini bukanlah penerapan prinsip pengambilan keputusan secara umum. Mereka mungkin berusaha memaksa individu untuk meninggalkan akarnya, seperti halnya kaum konservatif yang berusaha memaksa mereka untuk tetap tinggal.
+2. Kaum sosialis juga dapat mendukung pengenalan kebebasan tertentu secara ad hoc, oportunistik, dan selektif. Namun, bagi mereka, hal ini bukanlah penerapan prinsip umum dalam pengambilan keputusan. Mereka bisa saja berupaya memaksa individu untuk meninggalkan akarnya, sama seperti kaum konservatif yang berusaha memaksa mereka untuk tetap tinggal.
 
 
-
-3. Bagi kaum libertarian, kebebasan adalah prinsip umum dalam pengambilan keputusan dan tindakan. Seorang libertarian adalah pembela radikal kebebasan individu dan hak milik, berusaha meminimalkan intervensi negara dan menentang semua bentuk konstruktivisme sosial yang dipaksakan oleh negara. Meskipun kekuatan prinsip kebebasan dapat bervariasi antara anarko-kapitalis (yang menolak untuk tunduk pada aturan apa pun) dan liberal klasik (yang memiliki wacana yang lebih bernuansa), prinsipnya selalu sama: memprivatisasi segala sesuatu yang dapat diprivatisasi.
-
+3. Bagi kaum libertarian, kebebasan adalah prinsip umum dalam pengambilan keputusan dan tindakan. Seorang libertarian merupakan pembela tegas kebebasan individu dan hak milik, yang berupaya meminimalkan campur tangan negara serta menolak berbagai bentuk konstruktivisme sosial yang dipaksakan oleh negara. Meski penekanan pada prinsip kebebasan bisa berbeda antara anarko-kapitalis, yang menolak tunduk pada aturan apa pun, dan liberal klasik, yang memiliki pendekatan lebih bernuansa, prinsip dasarnya tetap sama: memprivatisasi segala sesuatu yang memungkinkan untuk diprivatisasi.
 
 
-Pertentangan antara keluarga politik ini sudah ada - dengan kata-kata yang berbeda - dalam Les Soirées de la rue Saint Lazare karya Gustave Molinari. Buku yang diterbitkan pada tahun 1849 oleh seorang murid Frédéric Bastiat ini menampilkan tiga tokoh: sosialis, konservatif, dan ekonom. Karakter yang dikenal sebagai ekonom sebenarnya adalah seorang liberal, dalam arti kata klasik; hari ini, kita akan mengatakan libertarian.
+Pertentangan antara rumpun politik ini sudah muncul, dengan istilah yang berbeda, dalam *Les Soirées de la rue Saint Lazare* karya Gustave Molinari. Buku yang diterbitkan pada tahun 1849 oleh murid Frédéric Bastiat ini menghadirkan tiga tokoh: sosialis, konservatif, dan ekonom. Tokoh yang disebut sebagai ekonom sebenarnya adalah seorang liberal dalam pengertian klasik; hari ini, kita akan menyebutnya libertarian.
 
-
-
-Dalam dialog-dialog yang dirancang oleh Molinari ini, ekonom (liberal/libertarian) selalu menentang sosialis dan konservatif. Dia bersikeras menunjukkan bahwa posisi mereka tidak berbeda secara fundamental. Memang, bagi Molinari, kaum konservatif dan sosialis memiliki satu kesamaan: mereka berusaha memaksakan visi mereka tentang masyarakat melalui negara.
+Dalam dialog-dialog yang disusun Molinari, tokoh ekonom (liberal atau libertarian) selalu berhadapan dengan sosialis dan konservatif. Ia menekankan bahwa posisi keduanya pada dasarnya tidak jauh berbeda. Menurut Molinari, kaum konservatif dan sosialis memiliki satu kesamaan utama: sama-sama berusaha memaksakan pandangan mereka tentang masyarakat melalui negara.
 
 
 
@@ -1304,26 +1295,20 @@ Konsep *tatanan spontan* dan *tatanan terkonstruksi* sangat penting untuk memaha
 
 
 
-Konstruktivisme mengacu pada keinginan untuk membentuk masyarakat sesuai dengan rencana tertentu. Ini adalah pendekatan yang berusaha memaksakan visi masyarakat yang sudah ada sebelumnya melalui tindakan negara atau entitas lain (serikat pekerja, LSM, kelompok penekan, atau organisasi internasional).
+Konstruktivisme merujuk pada keinginan untuk membentuk masyarakat berdasarkan rencana tertentu. Pendekatan ini berupaya memaksakan visi masyarakat yang sudah ditentukan sebelumnya melalui tindakan negara atau entitas lain seperti serikat pekerja, LSM, kelompok penekan, atau organisasi internasional.
 
+Kebalikan dari konstruktivisme adalah tatanan spontan, yaitu tatanan yang muncul secara alami dari interaksi bebas antarindividu. Sementara itu, tatanan yang dibangun merupakan hasil intervensi yang disengaja dan terencana untuk membentuk masyarakat sesuai visi tertentu, baik yang bersifat konservatif (mempertahankan keadaan) maupun progresif (mendorong perubahan).
 
+Kaum konstruktivis percaya bahwa masyarakat dapat dibangun sesuai dengan kehendak mereka. Sebaliknya, kaum libertarian meyakini bahwa masyarakat terbentuk dengan sendirinya secara tidak terduga melalui proses koordinasi antarindividu.
 
-Kebalikan dari konstruktivisme adalah tatanan spontan, yang muncul secara alami dari interaksi bebas individu, sementara tatanan yang dibangun adalah hasil dari intervensi yang disengaja dan terencana untuk membentuk masyarakat sesuai dengan visi tertentu, baik konservatif (tetap) atau progresif (berubah).
-
-
-
-Kaum konstruktivis percaya bahwa membangun masyarakat yang sesuai dengan keinginan mereka adalah hal yang mungkin. Di sisi lain, kaum libertarian percaya bahwa masyarakat membangun dirinya sendiri secara tak terduga melalui proses koordinasi antar individu.
-
-
-Tatanan spontan adalah konsep utama yang berasal dari karya Hayek. Hal ini didefinisikan sebagai produk dari interaksi bebas individu dalam masyarakat. Ini adalah hasil dari tindakan manusia, bukan kesadaran manusia yang disengaja, dan tidak direncanakan atau dipaksakan oleh otoritas pusat: *Produk dari tindakan manusia, bukan dari desain manusia*, demikian Friedrich Hayek mengulangi, mengutip Adam Ferguson.
-
+Tatanan spontan adalah konsep kunci yang berasal dari pemikiran Friedrich Hayek. Konsep ini dipahami sebagai hasil dari interaksi bebas individu dalam masyarakat. Ia merupakan produk dari tindakan manusia, tetapi bukan dari perencanaan sadar manusia, dan tidak dirancang atau dipaksakan oleh otoritas pusat. Seperti yang berulang kali ditegaskan Hayek, mengutip Adam Ferguson: *produk dari tindakan manusia, bukan dari desain manusia.*
 
 
 Menggambarkan mekanisme tangan yang tidak terlihat, Adam Smith pada gilirannya menulis: *Dengan hanya mencari kepentingannya sendiri, [individu] sering kali bekerja lebih efisien untuk kepentingan masyarakat, daripada jika objeknya benar-benar bekerja untuk masyarakat*
 
 
 
-Menurut Hayek, setiap pretensi untuk mengatur masyarakat dan pasar secara ilmiah akan memperparah penyakit yang ada, bukan memperbaikinya. Seperti yang ditunjukkan oleh Burke, mengikuti jejak Smith dan Hume dari Skotlandia, sejarah menghasilkan institusi-institusi yang lebih kompleks dan beradaptasi dengan lebih baik daripada apa pun yang dapat dipahami oleh akal sehat.
+Menurut Friedrich Hayek, setiap klaim bahwa masyarakat dan pasar bisa diatur secara ilmiah justru akan memperparah masalah yang ada, bukan memperbaikinya. Seperti yang ditunjukkan oleh Edmund Burke, mengikuti pemikiran Adam Smith dan David Hume dari Skotlandia, sejarah telah melahirkan institusi-institusi yang jauh lebih kompleks dan lebih mampu beradaptasi dibandingkan apa pun yang bisa sepenuhnya dipahami oleh akal manusia.
 
 
 
@@ -1334,7 +1319,7 @@ Memang, aturan, institusi, praktik, dan fenomena sosial lainnya bukanlah hasil d
 
 
 
-Bahasa, misalnya, atau adat istiadat, adalah hal-hal yang diciptakan oleh manusia. Namun, tak satu pun dari mereka yang dikandung oleh manusia. Mereka semua muncul tanpa direncanakan. Hal yang sama berlaku untuk mata uang lama, seperti koin logam, atau mata uang baru seperti Bitcoin. Ini adalah *inovasi tanpa izin* yang telah dipilih oleh pasar.
+Bahasa atau adat istiadat, misalnya, adalah sesuatu yang diciptakan oleh manusia. Namun, tidak satu pun dari keduanya dirancang secara sadar. Semuanya muncul secara alami tanpa perencanaan. Hal yang sama berlaku pada mata uang lama seperti koin logam, maupun mata uang baru seperti Bitcoin. Ini adalah *inovasi tanpa izin* yang kemudian dipilih dan diterima oleh pasar.
 
 
 
@@ -1348,15 +1333,15 @@ Bahasa, misalnya, atau adat istiadat, adalah hal-hal yang diciptakan oleh manusi
 
 > F. Hayek, Penggunaan Pengetahuan dalam Masyarakat, 1945
 
-Pasar adalah alat untuk kerja sama, karena pasar menyediakan informasi tentang keadaan nyata dari kebutuhan dan keterampilan. Pasar adalah prosedur untuk menemukan informasi dan memobilisasi pengetahuan yang tersebar tentang nilai dan kebutuhan. Pada dasarnya, pasar adalah tempat bertemunya preferensi individu, yang mengarah pada pembentukan harga. Oleh karena itu, sistem harga adalah mekanisme yang muncul secara spontan dari kontrak untuk mengkoordinasikan pertukaran. Ketika harga diperdebatkan secara bebas, harga mencerminkan keragaman pendapat dan preferensi konsumen.
+Pasar adalah sarana kerja sama karena menyediakan informasi tentang kondisi nyata kebutuhan dan keterampilan. Pasar berfungsi sebagai proses untuk menemukan informasi dan menghimpun pengetahuan yang tersebar tentang nilai serta kebutuhan. Pada dasarnya, pasar adalah tempat bertemunya preferensi individu, yang kemudian membentuk harga. Karena itu, sistem harga merupakan mekanisme yang muncul secara spontan dari kontrak-kontrak yang mengoordinasikan pertukaran. Ketika harga ditentukan melalui perdebatan bebas, harga mencerminkan keragaman pandangan dan preferensi konsumen.
 
 
 
-Hanya individu yang dapat mengetahui biaya dan manfaat dari suatu barang, karena sifatnya subjektif. Di sisi lain, dalam sistem yang terpusat dan terencana, negara menetapkan harga, tetapi karena negara hanya mengetahui sebagian dari preferensi konsumen dan kekhususan lokal, hal ini mendistorsi pasar. Hanya sistem perdagangan yang terdesentralisasi, dengan harga yang dinegosiasikan secara bebas, yang dapat memunculkan pengetahuan yang tersebar ini.
+Hanya individu yang benar-benar dapat menilai biaya dan manfaat suatu barang, karena penilaian tersebut bersifat subjektif. Sebaliknya, dalam sistem terpusat dan terencana, negara menetapkan harga berdasarkan informasi yang terbatas tentang preferensi konsumen dan kondisi lokal, sehingga pasar menjadi terdistorsi. Hanya sistem perdagangan yang terdesentralisasi, dengan harga yang dinegosiasikan secara bebas, yang mampu memunculkan dan memanfaatkan pengetahuan yang tersebar ini.
 
 
 
-Oleh karena itu, kaum libertarian menentang kaum sosialis dan konservatif, yaitu dua kategori konstruktivis: kaum sosialis ingin mereformasi masyarakat, sedangkan kaum konservatif ingin mempertahankan masyarakat sebagaimana adanya. Jadi ada konstruktivis sayap kiri dan konstruktivis sayap kanan.
+Karena itu, kaum libertarian menentang kaum sosialis dan konservatif, yang dipandang sebagai dua bentuk konstruktivisme. Kaum sosialis ingin membentuk ulang masyarakat, sementara kaum konservatif ingin mempertahankan masyarakat apa adanya. Dengan demikian, ada konstruktivisme sayap kiri dan konstruktivisme sayap kanan.
 
 
 
@@ -1370,38 +1355,41 @@ Konstruktivis, sentris, konservatif, dan sosialis semuanya sepakat pada satu poi
 
 
 
-- Yang saya maksud dengan proses politik adalah kemampuan pemerintah pusat untuk menciptakan, dengan kekuatan hukum, tatanan sosial yang adil dan stabil bagi orang banyak.
+- Yang aku maksud dengan proses politik adalah kemampuan pemerintah pusat untuk menciptakan, dengan kekuatan hukum, tatanan sosial yang adil dan stabil bagi orang banyak.
 
 
 
 
 
-- Yang saya maksud dengan proses pasar adalah pertukaran yang bebas dan sukarela sebagai mode interaksi dan mekanisme kerja sama.
+- Yang aku maksud dengan proses pasar adalah pertukaran yang bebas dan sukarela sebagai mode interaksi dan mekanisme kerja sama.
 
 
 
-Secara filosofis, seorang libertarian mungkin setuju dengan beberapa tujuan konservatif dan sosialis, tetapi secara empiris dia tidak akan setuju dengan cara-cara mereka.
-
-
-Jadi, seorang libertarian akan setuju dengan kaum sosialis untuk membantu para pekerja yang tertindas, tetapi dia tidak akan berpikir bahwa upah minimum dapat mencapai tujuan ini, setidaknya bukan upah minimum yang seragam yang diberlakukan di semua tempat.
+Secara filosofis, seorang libertarian bisa saja sejalan dengan beberapa tujuan kaum konservatif maupun sosialis. Namun secara empiris, ia tidak sepakat dengan cara-cara yang mereka tempuh.
 
 
 
-Ironisnya, meskipun banyak pendukung sosialisme membela kesetaraan ekonomi, sejarah telah menunjukkan bahwa ketika negara-negara mencoba menghapus proses penciptaan kekayaan secara spontan yang terkait dengan pasar bebas, mereka justru menciptakan ketidaksetaraan yang paling buruk: sebuah masyarakat di mana rakyat kelaparan sementara para perencana pusat hidup seperti raja.
+Karena itu, seorang libertarian dapat setuju dengan kaum sosialis dalam keinginan membantu para pekerja yang tertindas. Namun, ia tidak percaya bahwa upah minimum mampu mencapai tujuan tersebut, terutama jika upah minimum itu diterapkan secara seragam di semua tempat.
 
 
 
-Perencanaan terpusat tidak akan berhasil, karena mencoba menggantikan kecerdasan mahatahu dengan sistem terdistribusi dan terfragmentasi dengan pengetahuan yang terlokalisasi namun terkoneksi.
-
-
-Demikian pula, seorang libertarian akan setuju dengan gagasan konservatif bahwa peradaban harus dipertahankan, tetapi tidak akan setuju dengan pembuatan undang-undang dan peraturan yang meningkatkan pembatasan, pengeluaran, dan beban pemerintah. Sebaliknya, mereka akan membela satu-satunya cara yang adil dan efektif: kekuatan pilihan atau prinsip kebebasan yang bertanggung jawab, yaitu proses pasar.
+Ironisnya, meskipun banyak pendukung sosialisme mengusung kesetaraan ekonomi, sejarah menunjukkan bahwa ketika negara berusaha menghapus proses penciptaan kekayaan spontan yang lahir dari pasar bebas, hasilnya justru ketimpangan yang paling parah. Yang muncul adalah masyarakat di mana rakyat hidup kekurangan, sementara para perencana pusat hidup serba berkecukupan.
 
 
 
-Kaum Libertarian percaya bahwa tatanan ekonomi dan sosial dapat mengatur dirinya sendiri, asalkan hak dan kewajiban individu didefinisikan dengan jelas. Pendekatan mereka didasarkan pada penghormatan terhadap hak-hak kepemilikan dan non-intervensi oleh negara, membiarkan masyarakat mengatur dirinya sendiri.
+Perencanaan terpusat tidak dapat berhasil karena berusaha menggantikan kecerdasan yang tersebar luas dengan sistem yang terpusat, padahal pengetahuan sesungguhnya bersifat lokal, terfragmentasi, namun saling terhubung.
 
 
-Bagi kaum libertarian, peraturan masyarakat yang sebenarnya bukanlah demokrasi, yang memiliki kegunaan sebagai sarana untuk menunjuk perwakilan, tetapi yang pertama dan terutama adalah pasar bebas. Tanpa pasar bebas, tidak ada kompas. Karena pasar adalah indikator terbaik dari preferensi pribadi. Dalam pasar bebas, para pemain sepenuhnya menggunakan hak mereka untuk memutuskan urusan mereka sendiri.
+
+Demikian pula, seorang libertarian bisa sepakat dengan pandangan konservatif bahwa peradaban perlu dijaga. Namun, ia tidak akan mendukung pembuatan undang-undang dan peraturan yang justru menambah pembatasan, pengeluaran, dan beban negara. Sebaliknya, ia akan membela satu-satunya cara yang dianggap adil dan efektif, yaitu kekuatan pilihan dan prinsip kebebasan yang bertanggung jawab melalui mekanisme pasar.
+
+
+
+Kaum libertarian percaya bahwa tatanan ekonomi dan sosial mampu mengatur dirinya sendiri, selama hak dan kewajiban individu ditetapkan dengan jelas. Pendekatan ini bertumpu pada penghormatan terhadap hak milik serta penolakan terhadap campur tangan negara, sehingga masyarakat dapat mengelola dirinya secara mandiri.
+
+
+
+Bagi kaum libertarian, pengatur utama kehidupan sosial bukanlah demokrasi, meskipun demokrasi berguna untuk menunjuk perwakilan. Yang paling utama adalah pasar bebas. Tanpa pasar bebas, tidak ada kompas. Pasar adalah indikator terbaik dari preferensi individu. Dalam pasar bebas, setiap pelaku sepenuhnya menggunakan haknya untuk menentukan urusannya sendiri.
 
 
 
@@ -1423,15 +1411,15 @@ Ekonom Austria, Ludwig von Mises, pernah berkata: Hanya individu yang berpikir, 
 
 
 
-Akibatnya, sebuah kolektif tidak memiliki eksistensi atau realitas, selain tindakan individu yang menjadi anggotanya. Masyarakat tidak memiliki kehendak, tidak memiliki pemikiran. Semua tindakan kolektif harus dijelaskan dalam kerangka komponen-komponen individualnya. Kita tidak dapat berbicara tentang "tindakan negara, sebuah negara, sebuah perusahaan, sebuah serikat buruh": selalu individu-individu yang bertindak.
+Akibatnya, sebuah kolektif tidak memiliki keberadaan atau realitas selain dari tindakan individu-individu yang menjadi bagiannya. Masyarakat tidak memiliki kehendak atau pikiran sendiri. Semua tindakan yang disebut kolektif harus dijelaskan melalui unsur-unsur individualnya. Kita tidak benar-benar bisa berbicara tentang “tindakan negara”, “tindakan sebuah perusahaan”, atau “tindakan serikat buruh”, karena pada akhirnya yang bertindak selalu individu.
 
 
 
-Oleh karena itu, setiap badan sosial hanya ada melalui perantara orang-orang yang mengklaim sebagai bagian dari badan sosial tersebut dalam tindakan mereka. Jika tidak ada yang mengakuinya, maka badan sosial tersebut tidak akan ada lagi. Demikian juga, sebuah bahasa hanya ada melalui individu yang berbicara. Jika mereka berhenti berbicara, maka bahasa tersebut tidak akan ada lagi.
+Karena itu, setiap entitas sosial hanya ada melalui orang-orang yang mengakuinya dan bertindak atas namanya. Jika tidak ada lagi individu yang mengklaim dirinya sebagai bagian dari entitas tersebut, maka entitas itu pun berhenti ada. Hal yang sama berlaku pada bahasa. Sebuah bahasa hanya hidup selama ada individu yang menggunakannya. Jika mereka berhenti berbicara, bahasa itu akan hilang.
 
 
 
-Dari sudut pandang etika dan hukum, individu adalah satu-satunya agen moral. Tidak ada referensi lain untuk mendefinisikan kebaikan dan kejahatan. Gagasan tentang benar dan salah, hak dan kewajiban, hanya masuk akal untuk individu, bukan untuk komunitas, negara, atau bahkan hewan.
+Dari sudut pandang etika dan hukum, individu adalah satu-satunya agen moral. Tidak ada rujukan lain untuk menentukan apa yang baik dan apa yang buruk. Konsep benar dan salah, serta hak dan kewajiban, hanya masuk akal jika diterapkan pada individu, bukan pada komunitas, negara, atau bahkan hewan.
 
 
 
@@ -1491,7 +1479,7 @@ Menurut Karl Popper, masyarakat terbuka dan masyarakat tertutup adalah konsep da
 
 
 
-Totalitarianisme adalah bentuk politik yang diambil oleh masyarakat tertutup ini ketika diimplementasikan secara radikal dan modern, bergantung pada ideologi kepastian dan menggunakan mekanisme kontrol negara (penyensoran, propaganda, pemujaan terhadap pemimpin) untuk memaksakan stabilitas paksa, sehingga merugikan kebebasan individu dan pemikiran kritis. Obsesinya adalah melanggengkan tatanan hirarkisnya, dan tunduk pada tradisi dan keyakinan kolektif yang tidak berubah. Dalam masyarakat seperti ini, kontrol sosial mengambil bentuk pengawasan timbal balik yang konstan dan ketat, sementara individu tidak ada seperti itu, tetapi didominasi dan diliputi oleh komunitas.
+Totalitarianisme adalah bentuk politik yang muncul ketika masyarakat tertutup diterapkan secara radikal dan modern. Sistem ini bertumpu pada ideologi yang mengklaim kepastian, serta menggunakan mekanisme kontrol negara seperti penyensoran, propaganda, dan pemujaan terhadap pemimpin untuk memaksakan stabilitas secara paksa. Dampaknya adalah tergerusnya kebebasan individu dan kemampuan berpikir kritis. Tujuan utamanya adalah melanggengkan tatanan hierarkis yang ada, dengan menuntut kepatuhan pada tradisi dan keyakinan kolektif yang dianggap tidak boleh berubah. Dalam masyarakat semacam ini, kontrol sosial hadir dalam bentuk pengawasan timbal balik yang terus-menerus dan ketat, sementara individu kehilangan otonominya dan tenggelam di bawah dominasi komunitas.
 
 
 Perbedaan utama antara kedua model masyarakat ini terletak pada sikap mereka terhadap pengetahuan, perubahan, dan organisasi politik:
@@ -1505,12 +1493,11 @@ Perbedaan utama antara kedua model masyarakat ini terletak pada sikap mereka ter
 
 
 
-Pertentangan ini menyoroti ketidakcocokan mendasar antara model yang didasarkan pada kebebasan individu dan nalar kritis, dan model lain yang didasarkan pada kesatuan organik, irasionalitas, dan ketundukan kolektif.
+Pertentangan ini menegaskan adanya ketidakcocokan mendasar antara model yang bertumpu pada kebebasan individu dan nalar kritis, dengan model lain yang mengandalkan kesatuan organik, irasionalitas, dan ketundukan kolektif.
 
 
 
-Tetapi masyarakat terbuka itu rapuh, selalu belum selesai dan terus-menerus dipertanyakan. Masyarakat ini dihadapkan pada kecenderungan nostalgia, hilangnya rasa aman yang diwujudkan oleh komunitas kesukuan bagi para anggotanya, dan keinginan untuk memulihkan tatanan komunitarian yang asli, mungkin melalui kekerasan.
-
+Namun, masyarakat terbuka bersifat rapuh. Ia selalu belum tuntas dan terus-menerus dipertanyakan. Masyarakat seperti ini menghadapi dorongan nostalgia, hilangnya rasa aman yang dulu diberikan oleh komunitas kesukuan kepada para anggotanya, serta keinginan untuk menghidupkan kembali tatanan komunitarian yang dianggap asli, bahkan, dalam beberapa kasus, melalui kekerasan.
 
 
 
@@ -1540,19 +1527,16 @@ Di akhir kursus ini, kami merasa penting untuk membahas posisi politik Bitcoin d
 
 
 
-Bitcoin adalah mata uang kripto terdesentralisasi, diciptakan oleh Satoshi Nakamoto pada tahun 2008, yang memungkinkan transaksi keuangan peer-to-peer yang tidak tepercaya.
+Bitcoin adalah mata uang kripto terdesentralisasi yang diciptakan oleh Satoshi Nakamoto pada tahun 2008. Teknologi ini memungkinkan transaksi keuangan langsung antarindividu tanpa perlu saling percaya.
 
 
-Bitcoin dikendalikan oleh protokol perangkat lunak sumber terbuka, tanpa CEO, tanpa kantor pusat, tanpa anggaran pemasaran, dan tanpa otoritas yang ditunjuk. Ini berarti tidak ada entitas politik atau pemerintah yang memiliki kendali atasnya.
+Bitcoin dijalankan oleh protokol perangkat lunak sumber terbuka, tanpa CEO, tanpa kantor pusat, tanpa anggaran pemasaran, dan tanpa otoritas resmi. Artinya, tidak ada entitas politik atau pemerintah yang mengendalikannya.
 
 
-
-Netralitas ini membingungkan bagi sebagian orang, dan mungkin membuat orang percaya bahwa ini adalah teknologi yang apolitis, seperti Internet pada abad ke-20 atau mesin cetak pada abad ke-14.
-
+Sifat netral ini sering membingungkan sebagian orang, bahkan membuat Bitcoin tampak seperti teknologi yang apolitis, mirip dengan Internet pada abad ke-20 atau mesin cetak pada abad ke-14.
 
 
-Meskipun Bitcoin sendiri bukanlah sayap kanan atau sayap kiri, dan juga bukan milik agama apa pun, Bitcoin tetap diciptakan untuk memecahkan masalah - yaitu kepercayaan pada pertukaran keuangan dan entitas terpusat. Dan itu sendiri adalah masalah politik.
-
+Namun, meskipun Bitcoin bukan milik sayap kanan atau kiri, dan juga tidak terkait dengan agama tertentu, Bitcoin diciptakan untuk memecahkan sebuah persoalan mendasar, yaitu masalah kepercayaan dalam pertukaran keuangan dan ketergantungan pada entitas terpusat. Dan persoalan itu pada dasarnya bersifat politis.
 
 
 ![Bitcoin Whitepaper Abstract](./assets/fr/020.webp)
@@ -1563,11 +1547,11 @@ Membaca Buku Putih Nakamoto Satoshi, kita dapat melihat bahwa Bitcoin dirancang 
 
 
 
-1. Meskipun tidak sepenuhnya anonim, Bitcoin sangat meningkatkan privasi dengan membatasi pengawasan keuangan individu. Kemampuan ini memungkinkan, misalnya, seorang pembangkang dalam kediktatoran untuk menyimpan dan menukarkan nilai secara online tanpa takut disita atau disensor. Meskipun hal ini mungkin tampak jauh bagi warga negara demokrasi, ini merupakan langkah maju yang krusial bagi kebebasan individu.
+1. Meski tidak sepenuhnya anonim, Bitcoin secara signifikan meningkatkan privasi dengan membatasi pengawasan terhadap aktivitas keuangan individu. Kemampuan ini memungkinkan, misalnya, seorang pembangkang di bawah rezim diktator untuk menyimpan dan menukar nilai secara daring tanpa takut disita atau disensor. Walaupun hal ini mungkin terasa jauh bagi warga negara demokrasi, ini tetap merupakan langkah maju yang penting bagi kebebasan individu.
 
 
 
-2. Bitcoin memungkinkan setiap orang untuk melindungi tabungan mereka dari spoliasi kepemilikan pribadi yang diwujudkan dalam inflasi moneter. Ini adalah upaya untuk menantang kontrol negara dalam pengelolaan uang sebagai alat tukar, dan dengan demikian bersaing dengan negara. Krisis keuangan 2008 dan pandemi Covid 19 telah menyoroti kelemahan dalam sistem saat ini. Triliunan dolar yang dicetak begitu saja untuk mencegah ekonomi agar tidak semakin runtuh memiliki dampak yang sangat buruk, yang hingga saat ini masih harus kita bayar.
+2. Bitcoin memungkinkan siapa pun untuk melindungi tabungan mereka dari penggerusan nilai akibat inflasi moneter, yang pada dasarnya merupakan bentuk pengambilan paksa atas kepemilikan pribadi. Bitcoin berupaya menantang kendali negara dalam pengelolaan uang sebagai alat tukar, dan dengan demikian menjadi pesaing bagi negara. Krisis keuangan 2008 dan pandemi Covid-19 telah menyingkap berbagai kelemahan dalam sistem yang ada. Triliunan dolar yang dicetak demi mencegah keruntuhan ekonomi justru menimbulkan dampak negatif yang besar, dan akibatnya masih kita rasakan hingga hari ini.
 
 
 
@@ -1585,8 +1569,7 @@ Kutipan dari Satoshi Nakamoto ini sangat penting untuk memahami filosofi di bali
 
 
 
-Oleh karena itu, titik awal dari pendekatan intelektual Satoshi Nakamoto adalah kepercayaan diri yang berlebihan terhadap mata uang fiat dan keyakinan yang salah bahwa negara dapat menyelesaikan krisis. Memang, pada blok pertama yang ditambang dalam cerita Bitcoin, Satoshi Nakamoto menyisipkan sebuah kalimat simbolis dari sebuah artikel halaman depan di London Times:
-
+Karena itu, titik awal pendekatan intelektual Satoshi Nakamoto adalah kritik terhadap kepercayaan yang berlebihan pada mata uang fiat dan keyakinan keliru bahwa negara mampu menyelesaikan krisis. Hal ini terlihat jelas pada blok pertama yang ditambang dalam sejarah Bitcoin, ketika Satoshi Nakamoto menyisipkan sebuah kalimat simbolis yang diambil dari artikel halaman depan The Times London:
 
 
 > The Times 03/Jan/2009 Kanselir di ambang bailout bank kedua.
@@ -1595,27 +1578,19 @@ Oleh karena itu, titik awal dari pendekatan intelektual Satoshi Nakamoto adalah 
 
 
 
-Pencantuman judul ini dalam blok genesis terbuka untuk interpretasi. Namun, hal ini dapat muncul sebagai komentar Satoshi terhadap kegagalan lembaga keuangan tradisional, dan sebagai pernyataan tujuan Bitcoin: untuk menawarkan alternatif terhadap sistem perbankan terpusat.
+Pencantuman judul ini dalam blok genesis terbuka untuk berbagai tafsir. Namun, hal ini dapat dipahami sebagai komentar Satoshi terhadap kegagalan lembaga keuangan tradisional, sekaligus pernyataan tujuan Bitcoin, yaitu menawarkan alternatif bagi sistem perbankan yang terpusat.
 
 
-
-Ketika negara memberlakukan kontrol ketat terhadap semua transaksi (misalnya, dengan membatasi uang tunai atau memberlakukan mata uang digital terpusat), negara memiliki kontrol penuh atas ekonomi, sehingga merugikan kebebasan individu untuk memilih dan berdaulat. Dengan memantau semua transaksi, negara dapat mengidentifikasi sumber-sumber perpajakan baru dengan lebih baik dan memberlakukan peraturan yang ketat.
-
+Ketika negara menerapkan kontrol ketat atas seluruh transaksi, misalnya dengan membatasi penggunaan uang tunai atau memberlakukan mata uang digital terpusat, negara pada dasarnya memperoleh kendali penuh atas perekonomian. Kondisi ini mengurangi kebebasan individu untuk memilih dan bersikap berdaulat. Dengan memantau semua transaksi, negara juga dapat lebih mudah menemukan sumber pajak baru dan menerapkan regulasi yang semakin ketat.
 
 
-Namun Bitcoin dirancang untuk beroperasi tanpa campur tangan bank sentral atau perantara keuangan lain yang dikendalikan oleh negara. Karena sifatnya yang terdesentralisasi, pseudonim, dan tahan terhadap manipulasi, Bitcoin dapat melemahkan fondasi negara kesejahteraan dengan mengurangi kontrol atas uang, perpajakan, dan sistem keuangan.
+Sebaliknya, Bitcoin dirancang untuk beroperasi tanpa campur tangan bank sentral atau perantara keuangan lain yang berada di bawah kendali negara. Berkat sifatnya yang terdesentralisasi, bersifat pseudonim, dan tahan terhadap manipulasi, Bitcoin berpotensi melemahkan fondasi negara kesejahteraan dengan mengurangi kontrol atas uang, perpajakan, dan sistem keuangan.
 
 
-
-Jadi salah satu sifat penting Bitcoin adalah kemampuan untuk memiliki diri sendiri. Dalam dunia keuangan tradisional, Anda tidak bisa memiliki diri Anda sendiri. Selalu ada perantara keuangan yang bersedia memberi Anda akses ke akun.
-
+Karena itu, salah satu karakteristik penting Bitcoin adalah kemampuan untuk benar-benar memiliki diri sendiri. Dalam sistem keuangan tradisional, hal ini hampir tidak mungkin, karena selalu ada perantara keuangan yang mengatur akses ke rekening dan dana Anda.
 
 
-Bitcoin dirancang untuk membatasi kekuasaan pemerintah atas mata uang.
-
-
-Ini mencegah penggunaan uang untuk tujuan politik seperti: pengeluaran publik, perang, format ideologi dan kontrol opini.
-
+Bitcoin dirancang untuk membatasi kekuasaan pemerintah atas mata uang. Dengan demikian, ia menghambat penggunaan uang sebagai alat politik, seperti untuk membiayai pengeluaran publik tertentu, perang, penyebaran ideologi, atau pengendalian opini.
 
 
 
@@ -1631,16 +1606,13 @@ Tetapi pemerintah tidak dapat mengambil bitcoin Anda, karena tidak dapat menyita
 
 
 
-Itulah sebabnya Bitcoin dibangun di atas pengandaian filosofis yang mendasar: kebebasan berarti memiliki diri sendiri, hasil kerja keras dan kehidupan pribadi.
+Itulah sebabnya Bitcoin dibangun di atas satu pengandaian filosofis yang mendasar: kebebasan berarti memiliki diri sendiri, hasil kerja keras, dan kehidupan pribadi.
 
 
-
-Dalam hal ini, hal ini didorong oleh visi dunia yang bermoral dan politis. Ketika negara memonopoli uang, Anda berada dalam sistem negara, baik sayap kanan maupun sayap kiri. Proyek Bitcoin adalah menawarkan pasar uang gratis kepada semua orang.
-
+Dalam konteks ini, Bitcoin digerakkan oleh sebuah visi dunia yang bersifat moral sekaligus politis. Ketika negara memonopoli uang, individu berada dalam sistem negara, baik yang berhaluan kanan maupun kiri. Proyek Bitcoin bertujuan menawarkan pasar uang yang bebas dan terbuka bagi semua orang.
 
 
-Tetapi Bitcoin tidak muncul begitu saja. Ini didasarkan pada kemajuan dalam matematika, fisika, ilmu komputer, dan filsafat. Satoshi Nakamoto, meskipun brilian, dibangun di atas ide-ide inovator lainnya. Di antaranya, para pelopor gerakan cypherpunk.
-
+Namun, Bitcoin tidak muncul begitu saja. Ia bertumpu pada kemajuan di bidang matematika, fisika, ilmu komputer, dan filsafat. Satoshi Nakamoto, meskipun sangat brilian, membangun karyanya di atas gagasan-gagasan para inovator sebelumnya, termasuk para pelopor gerakan cypherpunk.
 
 
 ## Siapakah para cypherpunks itu?
@@ -1658,16 +1630,15 @@ Gerakan ini lahir pada awal 1990-an karena keprihatinan terhadap kebebasan manus
 
 
 
-Gerakan ini muncul dalam konteks di mana teknologi informasi dan komunikasi berkembang dengan cepat, tetapi di mana pemerintah dan perusahaan juga mulai melakukan kontrol yang lebih besar terhadap teknologi ini. Ini adalah gerakan yang bersinggungan dengan para pemikir libertarian dan anarkis. Gerakan ini dimotivasi oleh kekhawatiran tentang pengawasan massal dan pelanggaran privasi.
+Gerakan ini muncul di tengah pesatnya perkembangan teknologi informasi dan komunikasi, pada saat pemerintah dan perusahaan mulai meningkatkan kontrol atas teknologi tersebut. Gerakan ini bersinggungan dengan pemikiran libertarian dan anarkis, serta didorong oleh kekhawatiran terhadap pengawasan massal dan pelanggaran privasi.
 
 
 
-Idenya adalah untuk membuat anonimitas dan kebebasan finansial dapat diakses oleh semua orang, berkat alat kriptografi digital. Dengan cara ini, otoritas pemerintah tidak akan memiliki kendali atas aktivitas online.
+Gagasannya adalah membuat anonimitas dan kebebasan finansial dapat diakses oleh semua orang melalui penggunaan alat-alat kriptografi digital. Dengan cara ini, otoritas negara tidak lagi memiliki kendali penuh atas aktivitas daring.
 
 
 
-Milis Cypherpunk yang pertama, di mana Satoshi menjadi anggotanya dan di mana ia pertama kali membagikan white paper Bitcoin, diluncurkan pada tahun 1992 oleh Tim May dan Eric Hughes. Tujuan mereka adalah untuk mendukung pembuatan perangkat lunak baru untuk melindungi privasi.
-
+Milis Cypherpunk pertama, tempat Satoshi Nakamoto menjadi anggota dan pertama kali membagikan white paper Bitcoin, diluncurkan pada tahun 1992 oleh Tim May dan Eric Hughes. Tujuan utama milis ini adalah mendorong pengembangan perangkat lunak baru untuk melindungi privasi.
 
 
 Manifesto Cypherpunk, yang ditulis oleh Eric Hughes pada tahun 1993, merangkum filosofi mereka:
@@ -1708,28 +1679,23 @@ kata Éric Hughes, menyimpulkan manifestonya.
 
 
 
-Baginya, jalan ke depan terletak pada pembangunan aktif sistem anonim yang membuat pembagian politik yang sewenang-wenang menjadi tidak relevan dan tidak perlu. Kode ini didasarkan pada penerapan kriptografi untuk mengubah ide abstrak tentang kebebasan menjadi realitas ekonomi dan sosial yang baru.
+Baginya, jalan ke depan terletak pada pembangunan aktif sistem anonim yang membuat pembagian politik yang sewenang-wenang menjadi tidak relevan dan tidak diperlukan. Kode yang dikembangkan bertumpu pada penerapan kriptografi untuk mengubah gagasan abstrak tentang kebebasan menjadi realitas ekonomi dan sosial yang baru.
 
 
-
-Cypherpunks tidak menemukan kenyamanan dalam harapan dan keinginan. Mereka secara aktif mengintervensi jalannya peristiwa dan membentuk nasib mereka sendiri.
-
+Kaum cypherpunk tidak menggantungkan diri pada harapan atau sekadar keinginan. Mereka memilih untuk terlibat langsung, mengambil tindakan, dan membentuk nasib mereka sendiri.
 
 
-Secara politis, mereka berusaha untuk membangun jaringan yang terdesentralisasi di mana keputusan diambil secara kolektif dan tidak ada satu pun entitas yang dapat memaksakan kehendaknya. Semua sentralisasi didasarkan pada paksaan, bukan persetujuan, dengan kata lain, sistem ini memperlakukan individu seperti anak kecil yang tidak mampu mandiri, yang harus dihukum jika mereka mulai menentukan nasibnya sendiri.
+Secara politis, mereka berupaya membangun jaringan terdesentralisasi, di mana keputusan diambil secara kolektif dan tidak ada satu entitas pun yang dapat memaksakan kehendaknya. Bagi mereka, segala bentuk sentralisasi bertumpu pada paksaan, bukan persetujuan. Dengan kata lain, sistem terpusat memperlakukan individu seperti anak-anak yang dianggap tidak mampu mandiri dan harus dikendalikan ketika mulai menentukan nasibnya sendiri.
 
 
-
-Filosofi kebebasan dan konstruksi aktif ini, yang diwarisi dari Cypherpunks, diwujudkan oleh Satoshi Nakamoto pada tahun 2008, dengan penemuan Bitcoin. Dia adalah orang pertama yang mempraktikkan ide mata uang elektronik berdaulat yang tidak disensor.
-
+Filosofi kebebasan dan pendekatan konstruktif aktif yang diwarisi dari gerakan cypherpunk ini kemudian diwujudkan oleh Satoshi Nakamoto pada tahun 2008 melalui penciptaan Bitcoin. Ia menjadi orang pertama yang benar-benar mempraktikkan gagasan mata uang elektronik berdaulat yang tidak dapat disensor.
 
 
 ![Cypherpunk Diagramme](./assets/fr/023.webp)
 
 
 
-Bitcoin membatasi kekuasaan negara dengan menawarkan alternatif moneter yang terdesentralisasi, pseudonim, dan sulit dikontrol. Apakah diadopsi oleh aktivis sayap kanan atau sayap kiri, oleh para pembela kebebasan atau kesetaraan, atau hanya oleh penabung tanpa label politik, Bitcoin memberikan kesempatan kepada individu untuk membebaskan diri mereka sendiri dari sistem keuangan tradisional dan mendapatkan kembali kendali atas uang mereka.
-
+Bitcoin membatasi kekuasaan negara dengan menawarkan alternatif moneter yang terdesentralisasi, bersifat pseudonim, dan sulit dikendalikan. Baik diadopsi oleh aktivis sayap kanan maupun kiri, oleh pembela kebebasan atau kesetaraan, atau sekadar oleh penabung tanpa label politik, Bitcoin memberi individu peluang untuk melepaskan diri dari sistem keuangan tradisional dan kembali memegang kendali atas uang mereka sendiri.
 
 
 Dari sudut pandang ini, tanpa secara eksplisit mengklaim sebagai bagian dari kubu politik, Bitcoin membawa benih revolusi senyap dan bergabung dengan bagian atas dial dalam diagram Nolan.
@@ -1747,27 +1713,27 @@ Dari sudut pandang ini, tanpa secara eksplisit mengklaim sebagai bagian dari kub
 
 
 
-Dalam mata kuliah ini, saya telah mencoba untuk menunjukkan bahwa perpecahan yang sebenarnya bukanlah antara kelompok kiri, kanan, atau tengah, yang semuanya mengasumsikan dalil statistik. Pada akhirnya, semua keluarga politik klasik memiliki ketidakpercayaan terhadap pasar bebas dan kecenderungan terhadap intervensionisme negara.
+Dalam mata kuliah ini, saya mencoba menunjukkan bahwa garis pemisah yang sebenarnya bukanlah antara kiri, kanan, atau tengah, yang semuanya sama-sama berangkat dari asumsi statistik. Pada akhirnya, semua rumpun politik klasik cenderung tidak sepenuhnya percaya pada pasar bebas dan memiliki kecenderungan terhadap intervensi negara.
 
 
 
-Tetapi bagaimana dengan mereka yang menginginkan lebih sedikit pemerintah dan lebih sedikit sentralisasi? Pengguna Bitcoin, misalnya, yang ingin mengakhiri monopoli penciptaan uang. Bagaimana kita menempatkan mereka dalam spektrum politik ini?
-
-
-Faktanya, kesenjangan politik yang sebenarnya terletak pada prinsip-prinsip filosofis yang mendasar: kebebasan atau paksaan, persetujuan sukarela atau paksaan, individu yang bertanggung jawab atau kolektif.
+Namun, bagaimana dengan mereka yang menginginkan peran pemerintah yang lebih kecil dan tingkat sentralisasi yang lebih rendah? Misalnya, para pengguna Bitcoin yang ingin mengakhiri monopoli negara atas penciptaan uang. Di mana posisi mereka dalam spektrum politik ini?
 
 
 
-Cara yang tepat untuk berpikir tentang politik adalah dengan memulai dari prinsip-prinsip etika daripada label.
+Faktanya, perbedaan politik yang paling mendasar terletak pada prinsip-prinsip filosofis: kebebasan atau paksaan, persetujuan sukarela atau pemaksaan, serta individu yang bertanggung jawab atau kolektif.
 
 
 
-Sejak saat itu, pertanyaan politiknya bukan lagi: *apakah Anda ingin membuat keputusan penting dalam hidup Anda, atau apakah Anda ingin orang lain yang membuat keputusan untuk Anda?
+Karena itu, cara yang paling tepat untuk memahami politik adalah dengan berangkat dari prinsip-prinsip etika, bukan sekadar dari label-label ideologis.
 
 
 
-Pada tingkat yang lebih umum, pertanyaan filosofisnya adalah sebagai berikut: *apakah organisasi sosial merupakan hasil dari rencana yang disengaja yang dirancang dan dipaksakan oleh kelas politik, atau hasil dari evolusi bebas yang muncul dari interaksi sukarela antara semua pemain dalam kehidupan ekonomi dan sosial?
+Sejak saat itu, pertanyaan politiknya bukan lagi: *apakah kamu ingin membuat keputusan penting dalam hidup, atau apakah kamu ingin orang lain yang membuat keputusan untukmu?
 
+
+
+Pada tingkat yang lebih umum, pertanyaan filosofisnya adalah sebagai berikut: apakah organisasi sosial merupakan hasil dari rencana yang disengaja, yang dirancang dan dipaksakan oleh kelas politik, atau justru hasil dari evolusi bebas yang muncul dari interaksi sukarela para pelaku dalam kehidupan ekonomi dan sosial?
 
 
 **Keluarga politik yang terabaikan: kaum libertarian**
@@ -1785,39 +1751,41 @@ Dari sudut pandang libertarian, individu memiliki hak dan tanggung jawab untuk m
 Tetapi mengapa beberapa orang harus memaksakan gaya hidup dan pandangan dunia mereka pada orang lain?
 
 
-Dalam rezim kebebasan yang sejati, mereka yang menganut cita-cita kaum kiri dapat hidup sesuai dengan prinsip-prinsip mereka. Mereka bebas untuk menyerahkan harta benda mereka, berbagi alat produksi yang mereka miliki, atau menyumbangkan upah mereka ke organisasi pilihan mereka, yang dapat mendistribusikan kembali dana ini kepada yang paling tidak beruntung atau mendukung inisiatif budaya dan bisnis yang mempromosikan lapangan kerja.
+Dalam rezim kebebasan yang sejati, mereka yang menganut cita-cita sayap kiri dapat hidup sesuai dengan prinsip mereka. Mereka bebas menyerahkan harta milik, berbagi alat produksi yang dimiliki, atau menyumbangkan upah kepada organisasi pilihan mereka, yang kemudian dapat menyalurkan dana tersebut kepada kelompok yang paling membutuhkan atau mendukung inisiatif budaya dan usaha yang menciptakan lapangan kerja.
 
 
 
-Dengan token yang sama, dalam rezim kebebasan ini, mereka yang memiliki nilai-nilai sayap kanan memiliki hak untuk hidup sesuai dengan keyakinan mereka: bekerja keras, menabung, mewariskan nilai-nilai keluarga dan kebangsaan kepada anak-anak mereka, menghindari konten yang bertentangan dengan moral mereka, atau memilih untuk tidak mempekerjakan jenis pekerja ini atau itu. Tidak seorang pun boleh memaksakan cara hidup mereka kepada orang lain. Melalui kebebasan pasar dan kekuatan untuk memilih, tujuan-tujuan kita dapat dicapai dengan damai.
+Dengan cara yang sama, dalam rezim kebebasan ini, mereka yang memegang nilai-nilai sayap kanan juga berhak hidup sesuai keyakinan mereka: bekerja keras, menabung, mewariskan nilai keluarga dan kebangsaan kepada anak-anak, menghindari konten yang bertentangan dengan moral mereka, atau memilih untuk tidak mempekerjakan jenis pekerja tertentu. Tidak seorang pun berhak memaksakan cara hidupnya kepada orang lain. Melalui kebebasan pasar dan kekuatan untuk memilih, berbagai tujuan dapat dicapai secara damai.
 
 
 
-Singkatnya, perbedaan mendasar antara tren politik terletak pada peran negara yang tersentralisasi: kaum sosialis dan konservatif menggunakan negara untuk memaksakan visi mereka tentang masyarakat, sementara kaum libertarian menganjurkan desentralisasi, membiarkan individu dan komunitas pribadi untuk mendefinisikan dan mengatur masyarakat, sesuai dengan preferensi mereka dan sesuai dengan hak-hak properti.
-
+Singkatnya, perbedaan paling mendasar antara arus politik terletak pada peran negara yang tersentralisasi. Kaum sosialis dan konservatif cenderung menggunakan negara untuk memaksakan visi mereka tentang masyarakat, sementara kaum libertarian mendorong desentralisasi dan membiarkan individu serta komunitas sukarela menentukan dan mengatur masyarakat sesuai dengan preferensi mereka, dalam kerangka hak kepemilikan.
 
 
 **Dan bagaimana dengan Bitcoin?
 
 
 
-Itulah mengapa Bitcoin juga merupakan perpecahan politik. Ini adalah pemberontakan damai melawan politisasi uang dan penyitaannya oleh minoritas kecil. Bitcoin bukan tentang kanan dan kiri. Sebaliknya, ini adalah mata uang pasar yang menentang uang negara.
+Itulah sebabnya Bitcoin juga menjadi titik perpecahan politik. Ia merupakan bentuk perlawanan damai terhadap politisasi uang dan penguasaannya oleh segelintir pihak. Bitcoin bukan soal kanan atau kiri. Sebaliknya, ia adalah mata uang pasar yang menantang dominasi uang negara.
 
 
 
-Uang negara atau fiat adalah sistem yang memaksa dan terpusat yang mudah dibuat, murah dan memiliki kecenderungan untuk kehilangan nilai.
+
+Uang negara, atau fiat, adalah sistem yang bersifat memaksa dan terpusat, mudah diciptakan dengan biaya rendah, serta cenderung kehilangan nilai dari waktu ke waktu.
 
 
 
-Sebaliknya, uang pasar, yang diilustrasikan secara historis oleh emas dan saat ini oleh Bitcoin, adalah mata uang yang sehat dan sulit diproduksi yang muncul secara sukarela, spontan, dan mempertahankan nilainya dalam jangka panjang.
+
+Sebaliknya, uang pasar, yang secara historis diwakili oleh emas dan kini oleh Bitcoin, adalah bentuk uang yang sehat dan sulit diproduksi. Ia muncul secara sukarela dan spontan, serta cenderung menjaga nilainya dalam jangka panjang.
 
 
 
-Dengan demikian, Bitcoin, berkat pasokannya yang tetap dan sifatnya yang terdesentralisasi, mewakili bentuk mata uang paling sehat yang pernah ditemukan, menawarkan alternatif potensial untuk perluasan kekuasaan negara dan pembiayaan perang yang tidak terbatas.
+
+Dengan pasokan yang tetap dan sifat yang terdesentralisasi, Bitcoin merepresentasikan salah satu bentuk mata uang paling sehat yang pernah ada. Ia menawarkan alternatif terhadap perluasan kekuasaan negara dan pembiayaan perang tanpa batas.
 
 
 
-Terakhir, Bitcoin bukanlah proyek politik klasik, dalam arti negara atau inisiatif yang bersifat memaksa. Ini adalah teknologi yang memungkinkan individu untuk memutuskan sendiri, yang secara paradoks memiliki konsekuensi politik yang luas dalam membatasi kekuasaan yang terpusat dan mendominasi.
+Pada akhirnya, Bitcoin bukanlah proyek politik klasik dalam arti negara atau kebijakan yang bersifat memaksa. Ia adalah sebuah teknologi yang memberi individu kebebasan untuk memilih sendiri. Namun secara paradoks, pilihan individual ini membawa dampak politik yang luas dengan membatasi kekuasaan yang terpusat dan dominan.
 
 
 

@@ -13,7 +13,7 @@ Ingia katika ulimwengu wa RGB, itifaki iliyoundwa kutekeleza na kutekeleza haki 
 
 Kupitia mpango ulioundwa, hatua kwa hatua, utagundua mbinu za Client-side Validation, ahadi bainifu kwenye Bitcoin na mifumo ya mwingiliano kati ya watumiaji. Jifunze jinsi ya kuunda, kudhibiti na kuhamisha tokeni za RGB kwenye Bitcoin au Lightning Network.
 
-Iwe wewe ni msanidi programu, mpenda Bitcoin, au una hamu ya kujua zaidi kuhusu teknolojia hii, kozi hii ya mafunzo itakupa zana na maarifa unayohitaji ili kufahamu RGB na kuunda suluhu bunifu kwenye Bitcoin.
+Iwe wewe ni msanidi programu, Bitcoiner, au una hamu ya kujua zaidi kuhusu teknolojia hii, kozi hii ya mafunzo itakupa zana na maarifa unayohitaji ili kufahamu RGB na kuunda suluhu bunifu kwenye Bitcoin.
 
 Kozi hiyo inatokana na semina ya moja kwa moja iliyoandaliwa na Fulgur'Ventures na kufundishwa na walimu watatu mashuhuri na wataalam wa RGB.
 
@@ -34,7 +34,7 @@ Sehemu ya kwanza imejitolea kwa dhana za kinadharia zinazohitajika ili kuelewa m
 
 **Sehemu ya 2: Fanya mazoezi**
 
-Sehemu ya pili itazingatia matumizi ya dhana za kinadharia zinazoonekana katika sehemu ya 1. Tutajifunza jinsi ya kuunda na kuendesha kandarasi za RGB. Pia tutaona jinsi ya kupanga na zana hizi. Sehemu hizi mbili za kwanza zinawasilishwa na Maxim Orlovsky.
+Sehemu ya pili itazingatia matumizi ya dhana za kinadharia zinazoonekana katika sehemu ya 1. Tutajifunza kuunda na kuendesha RGB contracts. Pia tutaona jinsi ya kupanga na zana hizi. Sehemu hizi mbili za kwanza zinawasilishwa na Maxim Orlovsky.
 
 **Sehemu ya 3: Maombi**
 
@@ -77,34 +77,34 @@ Toleo lililoandikwa la kozi hii ya mafunzo liliandaliwa kwa kutumia nyenzo kuu 2
 
 :::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
-RGB ni itifaki iliyoundwa ili kutumia na kutekeleza haki za kidijitali (katika mfumo wa mikataba na mali) kwa njia ya hatari na ya siri, kwa kuzingatia sheria za makubaliano na uendeshaji wa Bitcoin Blockchain. Lengo la sura hii ya kwanza ni kuwasilisha dhana za kimsingi na istilahi zinazozunguka RGB protocol, ikiangazia hasa viungo vyake vya karibu na dhana za msingi za kompyuta zilizosambazwa kama vile Client-side Validation na single use seal
+RGB ni protocol iliyoundwa ili kutumia na kutekeleza haki za kidijitali (katika mfumo wa mikataba na mali) kwa njia ya hatari na ya siri, kwa kuzingatia sheria za makubaliano na uendeshaji wa Bitcoin Blockchain. Lengo la sura hii ya kwanza ni kuwasilisha dhana za kimsingi na istilahi zinazozunguka RGB protocol, ikiangazia hasa viungo vyake vya karibu na dhana za msingi za kompyuta zilizosambazwa kama vile Client-side Validation na single use seal
 
 Katika sura hii, tunachunguza misingi ya **mifumo ya makubaliano iliyosambazwa** na kuona jinsi RGB inavyofaa katika familia hii ya teknolojia. Pia tutakuletea kanuni kuu zinazotusaidia kuelewa ni kwa nini RGB inalenga kupanuka na kutotegemea utaratibu wa maafikiano wa Bitcoin, huku tukiitegemea inapohitajika.
 
 ### Utangulizi
 
-Kompyuta iliyosambazwa, tawi maalum la sayansi ya kompyuta, husoma itifaki zinazotumiwa kusambaza na kuchakata habari kwenye mtandao wa node. Kwa pamoja, node hizi na sheria za itifaki zinaunda kile kinachojulikana kama mfumo uliosambazwa. Miongoni mwa sifa muhimu za mfumo kama huu ni:
+Kompyuta iliyosambazwa, tawi maalum la sayansi ya kompyuta, husoma protocol zinazotumiwa kusambaza na kuchakata habari kwenye mtandao wa node. Kwa pamoja, node hizi na sheria za protocol zinaunda kile kinachojulikana kama mfumo uliosambazwa. Miongoni mwa sifa muhimu za mfumo kama huu ni:
 
 
 - **uwezo wa uthibitishaji huru na uthibitishaji** wa data fulani kwa kila node;
-- **Uwezekano wa nodes kujenga (kulingana na itifaki) mtazamo kamili au sehemu ya habari**. Maoni haya ni **majimbo** ya mfumo uliosambazwa;
-- **Mpangilio wa matukio** wa utendakazi, ili data iwekwe muhuri wa wakati kwa uhakika na kuwe na makubaliano juu ya mlolongo wa matukio (mfuatano wa majimbo).
+- **Uwezekano wa nodes kujenga (kulingana na protocol) mtazamo kamili au sehemu ya habari**. Maoni haya ni **states** ya mfumo uliosambazwa;
+- **Mpangilio wa matukio** wa utendakazi, ili data iwekwe muhuri wa wakati kwa uhakika na kuwe na makubaliano juu ya mlolongo wa matukio (state transitions).
 
 Hasa, dhana ya **makubaliano** katika mfumo uliosambazwa inashughulikia vipengele viwili:
 
 
 - **Utambuzi wa uhalali** wa mabadiliko ya hali (kulingana na sheria za itifaki);
-- **makubaliano juu ya mpangilio** wa mabadiliko haya ya hali, ambayo hufanya kuwa haiwezekani kuandika upya au kutengua shughuli zilizothibitishwa nyuma (hii pia inajulikana katika Bitcoin kama "ulinzi wa matumizi mara mbili").
+- **makubaliano juu ya mpangilio** wa mabadiliko haya ya hali, ambayo hufanya kuwa haiwezekani kuandika upya au kutengua shughuli zilizothibitishwa nyuma (hii pia inajulikana katika Bitcoin kama "double-spend protection").
 
-Utekelezaji wa kwanza unaofanya kazi, usio na ruhusa wa utaratibu wa makubaliano uliosambazwa ulianzishwa na Satoshi Nakamoto na Bitcoin, kutokana na matumizi ya pamoja ya muundo wa data wa Blockchain na algoriti ya Proof-of-Work (PoW). Katika mfumo huu, uaminifu wa historia ya kuzuia inategemea nguvu ya kompyuta iliyotolewa na nodes (wachimbaji). Kwa hivyo Bitcoin ni mfano mkuu na wa kihistoria wa mfumo wa makubaliano uliosambazwa wazi kwa wote (*bila ruhusa*).
+Utekelezaji wa kwanza unaofanya kazi, usio na ruhusa wa utaratibu wa makubaliano uliosambazwa ulianzishwa na Satoshi Nakamoto na Bitcoin, kutokana na matumizi ya pamoja ya muundo wa data wa Blockchain na algoriti ya Proof-of-Work (PoW). Katika mfumo huu, uaminifu wa historia ya kuzuia inategemea nguvu ya kompyuta iliyotolewa na nodes (miners). Kwa hivyo Bitcoin ni mfano mkuu na wa kihistoria wa mfumo wa makubaliano uliosambazwa wazi kwa wote (*bila ruhusa*).
 
-Katika ulimwengu wa Blockchain na kompyuta iliyosambazwa, tunaweza kutofautisha dhana mbili za msingi: ***Blockchain*** kwa maana ya jadi, na *** njia za serikali ***, mfano bora ambao katika uzalishaji ni Lightning Network. Blockchain inafafanuliwa kama rejista ya matukio yaliyopangwa kwa mpangilio, yanayoigwa kwa maafikiano ndani ya mtandao wazi, usio na ruhusa. Njia za serikali, kwa upande mwingine, ni njia za rika-kwa-rika zinazowezesha washiriki wawili (au zaidi) kudumisha hali iliyosasishwa ya off-chain, kwa kutumia Blockchain pekee wakati wa kufungua na kufunga njia hizi.
+Katika ulimwengu wa Blockchain na kompyuta iliyosambazwa, tunaweza kutofautisha dhana mbili za msingi: ***Blockchain*** kwa maana ya jadi, na ***state channels***, mfano bora ambao katika uzalishaji ni Lightning Network. Blockchain inafafanuliwa kama rejista ya matukio yaliyopangwa kwa mpangilio, yanayoigwa kwa maafikiano ndani ya mtandao wazi, usio na ruhusa.State channels, kwa upande mwingine, ni njia za peer-to-peer zinazowezesha washiriki wawili (au zaidi) kudumisha hali iliyosasishwa ya off-chain, kwa kutumia Blockchain pekee wakati wa kufungua na kufunga njia hizi.
 
-Katika muktadha wa Bitcoin, bila shaka unafahamu kanuni za Mining, ugatuaji na ukamilifu wa miamala kwenye Blockchain, pamoja na jinsi njia za malipo zinavyofanya kazi. Kwa RGB, tunatanguliza dhana mpya iitwayo **Client-side Validation**, ambayo, tofauti na Blockchain au Umeme, inajumuisha uhifadhi wa ndani (upande wa mteja) na uthibitishaji wa mabadiliko ya hali ya Smart contract. Hii pia inatofautiana na mbinu nyingine za "DeFi" (_rollups_, _plasma_, _ARK_, nk.), kwa kuwa Client-side Validation inategemea Blockchain ili kuzuia Double-spending na kuwa na mfumo wa kuweka wakati, wakati wa kuweka rejista ya majimbo ya off-chain na mabadiliko, tu na washiriki wanaohusika.
+Katika muktadha wa Bitcoin, bila shaka unafahamu kanuni za Mining, ugatuaji na ukamilifu wa miamala kwenye Blockchain, pamoja na jinsi njia za malipo zinavyofanya kazi. Kwa RGB, tunatanguliza dhana mpya iitwayo **Client-side Validation**, ambayo, tofauti na Blockchain au Umeme, inajumuisha uhifadhi wa ndani (client-side) na uthibitishaji wa mabadiliko ya hali ya Smart contract. Hii pia inatofautiana na mbinu nyingine za "DeFi" (_rollups_, _plasma_, _ARK_, nk.), kwa kuwa Client-side Validation inategemea Blockchain ili kuzuia Double-spending na kuwa na mfumo wa kuweka wakati, wakati wa kuweka rejista ya states za off-chain na mabadiliko, tu na washiriki wanaohusika.
 
 ![RGB-Bitcoin](assets/en/003.webp)
 
-Baadaye, pia tutaanzisha neno muhimu: dhana ya "**Stash**", ambayo inarejelea seti ya data ya upande wa mteja inayohitajika ili kuhifadhi hali ya mkataba, kwa kuwa data hii haiigizwi kimataifa kote kwenye mtandao. Hatimaye, tutaangalia mantiki nyuma ya RGB, itifaki ambayo inachukua faida ya Client-side Validation, na kwa nini inakamilisha mbinu zilizopo (Blockchain na njia za serikali).
+Baadaye, pia tutaanzisha neno muhimu: dhana ya "**Stash**", ambayo inarejelea seti ya data ya upande wa mteja inayohitajika ili kuhifadhi hali ya mkataba, kwa kuwa data hii haiigizwi kimataifa kote kwenye mtandao. Hatimaye, tutaangalia mantiki nyuma ya RGB, protocol ambayo inachukua faida ya Client-side Validation, na kwa nini inakamilisha mbinu zilizopo (Blockchain na state channels).
 
 ### Trilemmas katika kompyuta iliyosambazwa
 
@@ -123,9 +123,9 @@ Ili kuelewa jinsi matatizo ya Client-side Validation na RGB Address hayajatatuli
 Blockchain ina ugatuzi wa hali ya juu, lakini sio hatari sana. Zaidi ya hayo, kwa kuwa kila kitu kiko katika rejista ya kimataifa, ya umma, usiri ni mdogo. Tunaweza kujaribu kuboresha usiri kwa kutumia teknolojia zisizo na maarifa (Confidential Transactions, mifumo ya mimblewimble, n.k.), lakini msururu wa umma hauwezi kuficha grafu ya muamala.
 
 
-- **Lightning/state**
+- **Lightning/state channels**
 
-Njia za serikali (kama ilivyo kwa Lightning Network) ni hatari zaidi na ni za faragha zaidi kuliko Blockchain, kwani shughuli zinafanyika off-chain. Hata hivyo, wajibu wa kutangaza hadharani baadhi ya Elements (miamala ya ufadhili, topolojia ya mtandao) na ufuatiliaji wa trafiki ya mtandao inaweza kwa kiasi fulani kuhatarisha usiri. Ugatuaji pia unateseka: uelekezaji unatumia pesa nyingi, na node kuu zinaweza kuwa sehemu kuu za uwekaji. Hili ndilo jambo ambalo tunaanza kuona kwenye Lightning.
+State channels (kama ilivyo kwa Lightning Network) ni hatari zaidi na ni za faragha zaidi kuliko Blockchain, kwani miamala inafanyika off-chain. Hata hivyo, wajibu wa kutangaza hadharani baadhi ya Elements (miamala ya ufadhili, topolojia ya mtandao) na ufuatiliaji wa trafiki ya mtandao inaweza kwa kiasi fulani kuhatarisha usiri. Ugatuaji pia unateseka: uelekezaji unatumia pesa nyingi, na node kuu zinaweza kuwa sehemu kuu za uwekaji. Hili ndilo jambo ambalo tunaanza kuona kwenye Lightning.
 
 
 - **Client-side Validation (RGB)**
@@ -136,17 +136,17 @@ Mtazamo huu mpya ni hatari zaidi na wa siri zaidi, kwa sababu sio tu kwamba tuna
 
 #### 2. Nadharia ya CAP (Uthabiti, Upatikanaji, Uvumilivu wa Sehemu)
 
-Nadharia ya CAP inasisitiza kuwa haiwezekani kwa mfumo uliosambazwa kukidhi uthabiti kwa wakati mmoja (*Uthabiti*), upatikanaji (*Upatikanaji*) na ustahimilivu wa kizigeu (*Uvumilivu wa kizigeu*).
+Nadharia ya CAP inasisitiza kuwa haiwezekani kwa mfumo uliosambazwa kukidhi uthabiti kwa wakati mmoja (*Uthabiti*), upatikanaji (*Upatikanaji*) na ustahimilivu wa kizigeu (*Partition tolerance*).
 
 
 - **Blockchain**
 
-Blockchain inapendelea uthabiti na upatikanaji, lakini haifanyi vizuri na ugawaji wa mtandao: ikiwa huwezi kuona kizuizi, huwezi kuchukua hatua na kuwa na mtazamo sawa na mtandao mzima.
+Blockchain inapendelea uthabiti na upatikanaji, lakini haifanyi vizuri na ugawaji wa mtandao: ikiwa huwezi kuona block, huwezi kuchukua hatua na kuwa na mtazamo sawa na mtandao mzima.
 
 
 - **Lightning** (kwa Kifaransa)
 
-Mfumo wa chaneli za serikali una upatikanaji na uvumilivu wa kugawa (kwa kuwa node mbili zinaweza kubaki zimeunganishwa kwa kila mmoja hata ikiwa mtandao umegawanyika), lakini uthabiti wa jumla unategemea ufunguzi na kufungwa kwa njia kwenye Blockchain.
+Mfumo wa state channels una upatikanaji na uvumilivu wa kugawa (kwa kuwa node mbili zinaweza kubaki zimeunganishwa kwa kila mmoja hata ikiwa mtandao umegawanyika), lakini uthabiti wa jumla unategemea ufunguzi na kufungwa kwa njia kwenye Blockchain.
 
 
 - **Client-side Validation (RGB)**
@@ -157,13 +157,13 @@ Mfumo kama vile RGB unatoa uthabiti (kila mshiriki anathibitisha data yake ndani
 
 #### 3. CIA trilemma (Usiri, Uadilifu, Upatikanaji)
 
-Utatu huu unatukumbusha kuwa usiri, uadilifu na upatikanaji haviwezi kuboreshwa vyote kwa wakati mmoja. Blockchain, Lightning na Client-side Validation huanguka tofauti katika usawa huu. Wazo ni kwamba hakuna mfumo mmoja unaweza kutoa kila kitu; ni muhimu kuchanganya mbinu kadhaa (Blockchain's-muhuri, mbinu ya upatanishi ya Umeme, na uthibitishaji wa ndani na RGB) ili kupata kifurushi madhubuti kinachotoa dhamana nzuri katika kila mwelekeo.
+Trilemma hii inatukumbusha kuwa usiri, uadilifu na upatikanaji haviwezi kuboreshwa vyote kwa wakati mmoja. Blockchain, Lightning na Client-side Validation huanguka tofauti katika usawa huu. Wazo ni kwamba hakuna mfumo mmoja unaweza kutoa kila kitu; ni muhimu kuchanganya mbinu kadhaa (Time-stamping ya Blockchain, mbinu ya upatanishi ya Lightning, na uthibitishaji wa ndani na RGB) ili kupata kifurushi madhubuti kinachotoa dhamana nzuri katika kila mwelekeo.
 
 ![RGB-Bitcoin](assets/en/006.webp)
 
 ### Jukumu la Blockchain na wazo la kugawanyika
 
-Blockchain (katika kesi hii, Bitcoin) hutumika kama utaratibu wa _wakati wa kuweka muhuri_ na ulinzi dhidi ya matumizi maradufu. Badala ya kuingiza data kamili ya Smart contract au mfumo uliogatuliwa, tunajumuisha tu **cryptographic commitments** (_commitments_) kwa miamala (kwa maana ya Client-side Validation, ambayo tutaita "mipito ya serikali"). Hivyo:
+Blockchain (katika kesi hii, Bitcoin) hutumika kama utaratibu wa _time-stamping_ na ulinzi dhidi ya double spending. Badala ya kuingiza data kamili ya Smart contract au mfumo uliogatuliwa, tunajumuisha tu **cryptographic commitments** (_commitments_) kwa miamala (kwa maana ya Client-side Validation, ambayo tutaita "mipito ya serikali"). Hivyo:
 
 
 - Tunatoa Blockchain kutoka kwa kiasi kikubwa cha data na mantiki;
@@ -171,59 +171,59 @@ Blockchain (katika kesi hii, Bitcoin) hutumika kama utaratibu wa _wakati wa kuwe
 
 Sharding ni dhana iliyotokana na hifadhidata zilizosambazwa (k.m. MySQL kwa mitandao ya kijamii kama vile Facebook au Twitter). Ili kutatua tatizo la kiasi cha data na ucheleweshaji wa maingiliano, hifadhidata imegawanywa katika _shards_ (Marekani, Ulaya, Asia, n.k.). Kila sehemu inalingana ndani ya nchi na imesawazishwa kwa sehemu na zingine.
 
-Kwa mikataba mahiri ya aina ya RGB, tunagawanya kulingana na mikataba. Kila mktaba ni _shard_ inayojitegemea. Kwa mfano, ikiwa una tokeni za USDT pekee, huhitaji kuhifadhi au kuthibitisha historia nzima ya tokeni nyingine kama USDC. Kwenye Bitcoin, Blockchain haifanyi _sharding_: una seti ya kimataifa ya UTXO. Kwa Client-side Validation, kila mshiriki anahifadhi tu data ya Contract ambayo inashikilia au kutumia.
+Kwa RGB-type smart contracts, tunagawanya kulingana na mikataba. Kila mktaba ni _shard_ inayojitegemea. Kwa mfano, ikiwa una tokeni za USDT pekee, huhitaji kuhifadhi au kuthibitisha historia nzima ya tokeni nyingine kama USDC. Kwenye Bitcoin, Blockchain haifanyi _sharding_: una seti ya kimataifa ya UTXO. Kwa Client-side Validation, kila mshiriki anahifadhi tu data ya Contract ambayo inashikilia au kutumia.
 
 Kwa hivyo tunaweza kufikiria mfumo ikolojia kama ifuatavyo:
 
 
-- **Blockchain (Bitcoin)** kama msingi unaohakikisha urudufu kamili wa rejista ndogo na hutumika kama muhuri wa muda wa Layer;
+- **Blockchain (Bitcoin)** kama msingi unaohakikisha urudufu kamili wa rejista ndogo na hutumika kama time-stamping layer;
 - **Lightning Network** kwa haraka, Confidential Transactions, bado kulingana na usalama na makazi ya mwisho ya Bitcoin Blockchain;
 - **RGB na Client-side Validation** ili kuongeza mantiki changamano zaidi ya Smart contract, bila kuunganisha Blockchain au kupoteza usiri.
 
 ![RGB-Bitcoin](assets/en/007.webp)
 
-Hizi tatu za Elements huunda nzima ya triangular, badala ya safu ya mstari wa "Layer 2", "Layer 3" na kadhalika. Umeme unaweza kuunganisha moja kwa moja kwenye Bitcoin, au kuhusishwa na miamala ya Bitcoin inayojumuisha data ya RGB. Vile vile, matumizi ya "BiFi" (fedha kwenye Bitcoin) yanaweza kujumuisha na Blockchain, pamoja na Umeme na RGB kulingana na mahitaji ya usiri, scalability au mantiki ya Contract.
+Hizi tatu za Elements huunda nzima ya triangular, badala ya safu ya mstari wa "Layer 2", "Layer 3" na kadhalika. Lightning inaweza kuunganisha moja kwa moja kwenye Bitcoin, au kuhusishwa na miamala ya Bitcoin inayojumuisha data ya RGB. Vile vile, matumizi ya "BiFi" (fedha kwenye Bitcoin) yanaweza kujumuisha na Blockchain, pamoja na Lightning na RGB kulingana na mahitaji ya usiri, scalability au mantiki ya Contract.
 
 ![RGB-Bitcoin](assets/en/008.webp)
 
 ### Wazo la mabadiliko ya serikali
 
-Katika mfumo wowote uliosambazwa, lengo la utaratibu wa uthibitishaji ni kuweza **kubainisha uhalali na mpangilio wa mpangilio wa mabadiliko ya hali**. Lengo ni kuthibitisha kwamba sheria za itifaki zimeheshimiwa, na kuthibitisha kwamba mabadiliko haya ya serikali yanafuatana kwa utaratibu dhahiri, usioweza kupingwa.
+Katika mfumo wowote uliosambazwa, lengo la utaratibu wa uthibitishaji ni kuweza **kubainisha uhalali na mpangilio wa mpangilio wa mabadiliko ya hali**. Lengo ni kuthibitisha kwamba sheria za protocol zimeheshimiwa, na kuthibitisha kwamba mabadiliko haya ya serikali yanafuatana kwa utaratibu dhahiri, usioweza kupingwa.
 
 Ili kuelewa jinsi uthibitisho huu unavyofanya kazi katika muktadha wa **Bitcoin** na, kwa ujumla zaidi, ili kufahamu falsafa nyuma ya Client-side Validation, hebu kwanza tuangalie nyuma kwenye taratibu za Bitcoin Blockchain, kabla ya kuona jinsi Client-side Validation inatofautiana nao na ni uboreshaji gani unaowezekana.
 
 ![RGB-Bitcoin](assets/en/009.webp)
 
-Kwa upande wa Bitcoin Blockchain, uthibitishaji wa shughuli unategemea kanuni rahisi:
+Kwa upande wa Bitcoin Blockchain, uthibitishaji wa muamala unategemea kanuni rahisi:
 
 
-- Node zote za mtandao hupakua kila kitalu na shughuli;
-- Wanathibitisha shughuli hizi ili kuthibitisha mabadiliko sahihi ya seti ya UTXO (matokeo yote ambayo hayajatumika);
-- Wanahifadhi data hii (kwa njia ya vitalu) ili historia iweze kurudiwa ikiwa ni lazima.
+- Node zote za mtandao hupakua kila block na muamala;
+- Wanathibitisha miamala hii ili kuthibitisha mabadiliko sahihi ya seti ya UTXO (matokeo yote ambayo hayajatumika);
+- Wanahifadhi data hii (kwa njia ya blocks) ili historia iweze kurudiwa ikiwa ni lazima.
 
 ![RGB-Bitcoin](assets/en/010.webp)
 
 Walakini, muundo huu una shida mbili kuu:
 
 
-- **Uwezo wa kukua**: kwa kuwa kila node lazima ichakate, ithibitishe na kuhifadhi shughuli za kila mtu kwenye kumbukumbu, kuna kikomo dhahiri cha uwezo wa muamala, unaohusishwa haswa na ukubwa wa juu wa kitalu (MB 1 kwa wastani zaidi ya dakika 10 kwa Bitcoin, bila kujumuisha vidakuzi);
-- **Faragha**: kila kitu kinatangazwa na kuhifadhiwa hadharani (kiasi, anwani lengwa, n.k.), ambayo inazuia usiri wa ubadilishanaji.
+- **Uwezo wa kukua**: kwa kuwa kila node lazima ichakate, ithibitishe na kuhifadhi miamala ya kila mtu kwenye kumbukumbu, kuna kikomo dhahiri cha uwezo wa muamala, unaohusishwa haswa na ukubwa wa juu wa kitalu (MB 1 kwa wastani zaidi ya dakika 10 kwa Bitcoin, bila kujumuisha vidakuzi);
+- **Faragha**: kila kitu kinatangazwa na kuhifadhiwa hadharani (kiasi, address lengwa, n.k.), ambayo inazuia usiri wa exchanges.
 
 ![RGB-Bitcoin](assets/en/012.webp)
 
 Kiutendaji, muundo huu hufanya kazi kwa Bitcoin kama msingi wa Layer (Layer 1), lakini inaweza kuwa haitoshi kwa matumizi magumu zaidi ambayo kwa wakati mmoja yanahitaji upitishaji wa juu wa muamala na kiwango fulani cha usiri.
 
-Client-side Validation inategemea wazo kinyume: badala ya kuhitaji mtandao mzima kuhalalisha na kuhifadhi miamala yote, kila mshiriki (mteja) atathibitisha tu sehemu ya historia inayomhusu:
+Client-side Validation inategemea wazo kinyume: badala ya kuhitaji mtandao mzima kuhalalisha na kuhifadhi miamala yote, kila mshiriki (client) atathibitisha tu sehemu ya historia inayomhusu:
 
 
-- Mtu anapopokea mali (au mali nyingine yoyote ya kidijitali), anahitaji tu kujua na kuthibitisha mlolongo wa shughuli (mpito za serikali) zinazoongoza kwenye mali hiyo na kuthibitisha uhalali wake;
-- Msururu huu wa shughuli, kutoka kwa ***Genesis*** (toleo la awali) hadi shughuli ya hivi majuzi zaidi, huunda grafu iliyoelekezwa kwa acyclic (DAG) au Shard, yaani, sehemu ya historia ya jumla.
+- Mtu anapopokea mali (au mali nyingine yoyote ya kidijitali), anahitaji tu kujua na kuthibitisha mlolongo wa miamala (mpito za serikali) zinazoongoza kwenye mali hiyo na kuthibitisha uhalali wake;
+- Msururu huu wa miamala, kutoka kwa ***Genesis*** (toleo la awali) hadi miamala ya hivi majuzi zaidi, huunda grafu iliyoelekezwa kwa acyclic (DAG) au Shard, yaani, sehemu ya historia ya jumla.
 
 ![RGB-Bitcoin](assets/en/013.webp)
 
 Wakati huo huo, ili mtandao uliobaki (au kwa usahihi zaidi, Layer ya msingi, kama vile Bitcoin) iweze kufunga katika hali ya mwisho bila kuona maelezo ya data hii, Client-side Validation inategemea dhana ya ***Commitment***.
 
-*Commitment* ni maandishi ya kriptografia yaliyoelekezwa ya acycliment, kwa kawaida *hash* (SHA-256 kwa mfano) huingizwa katika shughuli ya Bitcoin, katika shughuli ya Bitcoin, ambayo inathibitisha kuwa data ya faragha imejumuishwa, bila kufichua data hii.
+*Commitment* ni maandishi ya cryptography yaliyoelekezwa ya acycliment, kwa kawaida *hash* (SHA-256 kwa mfano) huingizwa katika miamala ya Bitcoin, katika miamala ya Bitcoin, ambayo inathibitisha kuwa data ya faragha imejumuishwa, bila kufichua data hii.
 
 Shukrani kwa _commitment_ hizi, tunaweza kuthibitisha:
 
@@ -255,7 +255,7 @@ Miamala yenyewe (yaani maudhui yake ya kina) haijachapishwa On-Chain. Alama zao 
 
 Katika mfumo kama vile RGB, mabadiliko mengi ya serikali kutoka kwa mikataba tofauti (au mali tofauti) yanaweza kujumlishwa kuwa muamala mmoja wa Bitcoin kupitia _commitment_ moja. Utaratibu huu huanzisha kiungo cha kuamua, kilichowekwa kwa wakati kati ya shughuli ya On-Chain na data ya off-chain (mipito iliyoidhinishwa ya upande wa mteja), na kuwezesha shards nyingi kurekodiwa kwa wakati mmoja katika nukta moja ya Anchor, na hivyo kupunguza zaidi gharama na alama ya On-Chain.
 
-Katika mazoezi, wakati shughuli hii ya Bitcoin imeidhinishwa, "hufunga" kabisa hali ya mikataba ya msingi, kwani inakuwa vigumu kurekebisha Hash tayari imeandikwa katika Blockchain.
+Katika mazoezi, wakati muamala huu ya Bitcoin imeidhinishwa, "hufunga" kabisa hali ya mikataba ya msingi, kwani inakuwa vigumu kurekebisha Hash tayari imeandikwa katika Blockchain.
 
 ![RGB-Bitcoin](assets/en/015.webp)
 
@@ -275,11 +275,11 @@ Wakati wa kukubali mali kama vile sarafu, dhamana mbili ni muhimu:
 
 Kwa mali halisi, kama vile noti, uwepo wa kimwili unatosha kuthibitisha kwamba haujarudiwa. Hata hivyo, katika ulimwengu wa kidijitali, ambapo mali ni ya taarifa tu, uthibitishaji huu ni mgumu zaidi, kwani maelezo yanaweza kuongezeka kwa urahisi na kunakiliwa.
 
-Kama tulivyoona hapo awali, ufunuo wa mtumaji wa historia ya mabadiliko ya serikali hutuwezesha kuhakikisha uhalisi wa tokeni ya RGB. Kwa kupata ufikiaji wa shughuli zote tangu muamala wa Genesis, tunaweza kuthibitisha uhalisi wa tokeni. Kanuni hii ni sawa na ile ya Bitcoin, ambapo historia ya sarafu inaweza kufuatiliwa hadi kwenye shughuli ya awali ya coinbase ili kuthibitisha uhalali wake.Hata hivyo, tofauti na Bitcoin, historia hii ya mabadiliko ya serikali katika RGB ni ya faragha na kuwekwa upande wa mteja.
+Kama tulivyoona hapo awali, ufunuo wa mtumaji wa historia ya state transitions hutuwezesha kuhakikisha uhalisi wa tokeni ya RGB. Kwa kupata ufikiaji wa miamala yote tangu muamala wa Genesis, tunaweza kuthibitisha uhalisi wa tokeni. Kanuni hii ni sawa na ile ya Bitcoin, ambapo historia ya sarafu inaweza kufuatiliwa hadi kwenye shughuli ya awali ya coinbase ili kuthibitisha uhalali wake.Hata hivyo, tofauti na Bitcoin, historia hii ya mabadiliko ya serikali katika RGB ni ya faragha na kuwekwa upande wa mteja.
 
 Ili kuzuia matumizi ya mara mbili ya tokeni za RGB, tunatumia mbinu inayoitwa "**Single-Use Seal**". Mfumo huu unahakikisha kwamba kila ishara, mara tu inapotumiwa, haiwezi kutumika tena kwa ulaghai mara ya pili.
 
-Single-Use Seal ni maandishi ya awali ya kriptografia, yaliyopendekezwa mwaka wa 2016 na Peter Todd, sawa na dhana ya mihuri halisi: mara tu muhuri umewekwa kwenye chombo, inakuwa vigumu kuifungua au kuirekebisha bila muhuri bila kutenduliwa.
+Single-Use Seal ni maandishi ya awali ya cryptographic, yaliyopendekezwa mwaka wa 2016 na Peter Todd, sawa na dhana ya seal halisi: mara tu seal imewekwa kwenye chombo, inakuwa vigumu kuifungua au kuirekebisha bila seal bila kutenduliwa.
 
 ![RGB-Bitcoin](assets/en/018.webp)
 
@@ -294,7 +294,8 @@ Ili Single-Use Seal ifanye kazi, unahitaji nyenzo ya uthibitisho wa uchapishaji 
 - Tunataka kuthibitisha kwamba hakuna ujumbe mwingine wa `h(m')` unaoshindana Commitment ambao umechapishwa badala ya `h(m)` ;
 - Pia tunataka kuweza kuangalia kuwa ujumbe `m` upo kabla ya tarehe fulani.
 
-Blockchain inajitolea kwa jukumu hili: punde tu shughuli inapojumuishwa kwenye kizuizi, mtandao mzima una uthibitisho sawa usio na uwongo wa kuwepo kwake na maudhui (angalau kwa sehemu, kwa kuwa _commitment_ inaweza kuficha maelezo wakati wa kuthibitisha ukweli wa ujumbe).
+Blockchain inajitolea kwa jukumu hili: punde tu muamala i
+unapojumuishwa kwenye block, mtandao mzima una uthibitisho sawa usio na uwongo wa kuwepo kwake na maudhui (angalau kwa sehemu, kwa kuwa _commitment_ inaweza kuficha maelezo wakati wa kuthibitisha ukweli wa ujumbe).
 
 Kwa hivyo Single-Use Seal inaweza kuonekana kama ahadi rasmi ya kuchapisha ujumbe (bado haujulikani kwa hatua hii) mara moja na mara moja tu, kwa njia ambayo inaweza kuthibitishwa na wahusika wote wanaovutiwa.
 
@@ -304,8 +305,8 @@ Ulinganisho ufuatao husaidia kuelewa kanuni hii:
 
 
 - **Cryptographic Commitment (Hash)**: Ukiwa na chaguo za kukokotoa za Hash, unaweza kujitolea kwa kipande cha data (nambari) kwa kuchapisha Hash yake. Data inabakia kuwa siri hadi udhihirishe picha ya awali, lakini unaweza kuthibitisha kwamba uliijua mapema;
-- **temporary seals (Blockchain)**: Kwa kuingiza Hash hii katika Blockchain, tunathibitisha pia kwamba tuliijua kwa wakati mahususi (ile ya kujumuishwa kwenye kizuizi);
-- **Single-Use Seal**: Kwa mihuri ya matumizi moja, tunaenda hatua moja zaidi kwa kuifanya Commitment kuwa ya kipekee. Ukiwa na Hash moja, unaweza kuunda ahadi kadhaa zinazopingana sambamba (tatizo la daktari ambaye anatangaza "*Ni mvulana*" kwa familia na "*Ni msichana*" katika shajara yake ya kibinafsi). Single-Use Seal inaondoa uwezekano huu kwa kuunganisha Commitment kwa njia ya uthibitisho wa uchapishaji, kama vile Bitcoin Blockchain, ili matumizi ya UTXO yaweke Commitment kwa uhakika. Mara baada ya kutumiwa, UTXO hiyo hiyo haiwezi kutumika tena kuchukua nafasi ya Commitment.
+- **temporary seals (Blockchain)**: Kwa kuingiza Hash hii katika Blockchain, tunathibitisha pia kwamba tuliijua kwa wakati mahususi (ile ya kujumuishwa kwenye block);
+- **Single-Use Seal**: Kwa single-use seals tunaenda hatua moja zaidi kwa kuifanya Commitment kuwa ya kipekee. Ukiwa na Hash moja, unaweza kuunda ahadi kadhaa zinazopingana sambamba (tatizo la daktari ambaye anatangaza "*Ni mvulana*" kwa familia na "*Ni msichana*" katika shajara yake ya kibinafsi). Single-Use Seal inaondoa uwezekano huu kwa kuunganisha Commitment kwa njia ya uthibitisho wa uchapishaji, kama vile Bitcoin Blockchain, ili matumizi ya UTXO yaweke Commitment kwa uhakika. Mara baada ya kutumiwa, UTXO hiyo hiyo haiwezi kutumika tena kuchukua nafasi ya Commitment.
 
 |                                                                                  | Rahisi Commitment (digest/Hash) | Muhuri wa nyakati | single-use-seal |
 
@@ -322,7 +323,7 @@ Mihuri ya matumizi moja hufanya kazi katika hatua kuu tatu:
 **Ufafanuzi wa seal**
 
 
-- Alice anafafanua mapema sheria za uchapishaji wa muhuri (wakati, wapi na jinsi ujumbe utachapishwa);
+- Alice anafafanua mapema sheria za uchapishaji wa seal (wakati, wapi na jinsi ujumbe utachapishwa);
 - Bob anakubali au anakubali masharti haya.
 
 ![RGB-Bitcoin](assets/en/021.webp)
@@ -335,7 +336,7 @@ Mihuri ya matumizi moja hufanya kazi katika hatua kuu tatu:
 
 ![RGB-Bitcoin](assets/en/019.webp)
 
-**Uthibitishaji wa seal :**
+**Uthibitishaji wa seal:**
 
 
 - Mara tu seal imefungwa, Bob hawezi tena kuifungua: anaweza kuangalia tu kwamba imefungwa;
@@ -347,7 +348,7 @@ Mchakato unaweza kufupishwa kama ifuatavyo:
 # Imezainiwa na Alice, imethibitishwa au kukubaliwa na Bob
 seal <- Tambua()
 
-# Kufungwa kwa muhuri na Alice pamoja na ujumbe
+# Kufungwa kwa seal na Alice pamoja na ujumbe
 witness <- Funga(seal, ujumbe)
 
 # Uhakiki na Bob
@@ -355,11 +356,11 @@ hakika <- Hakiki(seal, witness, ujumbe)
 
 ```
 
-Client-side Validation, hata hivyo, huenda hatua moja zaidi: ikiwa ufafanuzi wa Seal yenyewe unabaki nje ya Blockchain, inawezekana (kwa nadharia) kwa mtu kupinga kuwepo au uhalali wa muhuri katika swali. Ili kuondokana na tatizo hili, mlolongo wa kuunganisha Mihuri ya Matumizi Moja hutumiwa:
+Client-side Validation, hata hivyo, huenda hatua moja zaidi: ikiwa ufafanuzi wa Seal yenyewe unabaki nje ya Blockchain, inawezekana (kwa nadharia) kwa mtu kupinga kuwepo au uhalali wa seal katika swali. Ili kuondokana na tatizo hili, mlolongo wa kuunganisha single-use seals hutumiwa:
 
 
 - Kila Seal iliyofungwa ina ufafanuzi wa Seal ifuatayo;
-- Tunasajili kufungwa huku (pamoja na _ahadi_ zao) ndani ya Blockchain (katika muamala wa Bitcoin);
+- Tunasajili kufungwa huku (pamoja na _commitments_ zao) ndani ya Blockchain (katika muamala wa Bitcoin);
 - Kwa hivyo, jaribio lolote la kurekebisha Seal iliyopita lingepingana na historia iliyoingia kwenye Bitcoin.
 
 Hivi ndivyo mfumo wa RGB hufanya:
@@ -375,14 +376,14 @@ Kwa muhtasari:
 
 - Ufafanuzi wa _seal_ ni UTXO unayokusudia Seal Commitment ya baadaye;
 - _seal closing_ hutokea unapotumia UTXO hii, kutengeneza muamala ambao una Commitment;
-- _shahidi_ ni shughuli yenyewe, ambayo inathibitisha kwamba umefunga Seal na maudhui haya;
-- Huwezi kuthibitisha kwamba Seal haijafungwa (huwezi kuwa na uhakika kabisa kwamba UTXO haijatumiwa tayari au haitatumika katika kizuizi ambacho haujaona bado), lakini unaweza kuthibitisha kwamba kweli imefungwa.
+- _witness_ ni shughuli yenyewe, ambayo inathibitisha kwamba umefunga Seal na maudhui haya;
+- Huwezi kuthibitisha kwamba Seal haijafungwa (huwezi kuwa na uhakika kabisa kwamba UTXO haijatumiwa tayari au haitatumika katika block ambayo haujaona bado), lakini unaweza kuthibitisha kwamba kweli imefungwa.
 
 Upekee huu ni muhimu kwa Client-side Validation: unapoidhinisha State Transition, unaangalia kuwa inalingana na UTXO ya kipekee, ambayo haikutumiwa hapo awali katika Commitment inayoshindana. Hii ndiyo inahakikisha kutokuwepo kwa matumizi mara mbili katika mikataba ya smart ya off-chain.
 
 ### Ahadi nyingi na mizizi
 
-RGB Smart contract inaweza kuhitaji kutumia Mihuri ya Matumizi Moja (UTXO kadhaa) kwa wakati mmoja. Zaidi ya hayo, muamala mmoja wa Bitcoin unaweza kurejelea mikataba kadhaa tofauti, kila moja ikifunga State Transition yake. Hili linahitaji utaratibu wa **Commitment** nyingi ili kuthibitisha, kwa uthabiti na kipekee, kwamba hakuna ahadi yoyote iliyopo katika nakala. Hapa ndipo dhana ya **Anchor** inapojitokeza katika RGB: muundo maalum unaounganisha muamala wa Bitcoin na ahadi moja au zaidi ya upande wa mteja (mabadiliko ya serikali), kila moja ikiwezekana kuwa ya Mkataba tofauti. Tutaangalia kwa undani dhana hii katika sura inayofuata.
+RGB Smart contract inaweza kuhitaji kutumia single-use seals (UTXO kadhaa) kwa wakati mmoja. Zaidi ya hayo, muamala mmoja wa Bitcoin unaweza kurejelea contract kadhaa tofauti, kila moja ikifunga State Transition yake. Hili linahitaji utaratibu wa **Commitment** nyingi ili kuthibitisha, kwa uthabiti na kipekee, kwamba hakuna ahadi yoyote iliyopo katika nakala. Hapa ndipo dhana ya **Anchor** inapojitokeza katika RGB: muundo maalum unaounganisha muamala wa Bitcoin na ahadi moja au zaidi ya upande wa mteja (mabadiliko ya serikali), kila moja ikiwezekana kuwa ya Contract tofauti. Tutaangalia kwa undani dhana hii katika sura inayofuata.
 
 ![RGB-Bitcoin](assets/en/023.webp)
 
@@ -390,11 +391,11 @@ Mbili kati ya hazina kuu za mradi za GitHub (chini ya shirika la LNPBP) huungani
 
 
 - **client_side_validation** : Ina Rust ya awali kwa uthibitisho wa ndani ;
-- **single_use_seals**: Inatekeleza mantiki ya kufafanua na kufunga mihuri hii kwa usalama.
+- **single_use_seals**: Inatekeleza mantiki ya kufafanua na kufunga Seal hii kwa usalama.
 
 ![RGB-Bitcoin](assets/en/020.webp)
 
-Kumbuka kwamba matofali haya ya programu ni Bitcoin agnostic; kwa nadharia,  kutumika kwa njia nyingine yoyote ya uthibitisho wa uchapishaji (masajili nyingine, jarida, n.k.). Kwa vitendo, RGB inategemea Bitcoin kwa uimara wake na makubaliano mapana.
+Kumbuka kwamba blocks hizi za programu ni Bitcoin agnostic; kwa nadharia,  kutumika kwa njia nyingine yoyote ya uthibitisho wa uchapishaji (masajili nyingine, jarida, n.k.). Kwa vitendo, RGB inategemea Bitcoin kwa uimara wake na makubaliano mapana.
 
 ![RGB-Bitcoin](assets/en/021.webp)
 
@@ -402,23 +403,23 @@ Kumbuka kwamba matofali haya ya programu ni Bitcoin agnostic; kwa nadharia,  kut
 
 #### Kuelekea matumizi mapana ya Mihuri ya matumizi Moja
 
-Peter Todd pia aliunda itifaki ya _Open Timestamps_, na dhana ya Single-Use Seal ni upanuzi wa asili wa mawazo haya. Zaidi ya RGB, kesi zingine za utumiaji zinaweza kuzingatiwa, kama vile ujenzi wa _sidechains_ bila kutumia _merge mining_ au mapendekezo yanayohusiana na drivechain kama BIP300. Mfumo wowote unaohitaji Commitment moja unaweza, kimsingi, kutumia mbinu hii ya awali ya kriptografia. Leo, RGB ni utekelezaji mkubwa wa kwanza kamili.
+Peter Todd pia aliunda itifaki ya _Open Timestamps_, na dhana ya Single-Use Seal ni upanuzi wa asili wa mawazo haya. Zaidi ya RGB, kesi zingine za utumiaji zinaweza kuzingatiwa, kama vile ujenzi wa _sidechains_ bila kutumia _merge mining_ au mapendekezo yanayohusiana na drivechain kama BIP300. Mfumo wowote unaohitaji Commitment moja unaweza, kimsingi, kutumia mbinu hii ya awali ya cryptographic. Leo, RGB ni utekelezaji mkubwa wa kwanza kamili.
 
 #### Matatizo ya upatikanaji wa data
 
-Kwa kuwa katika Client-side Validation, kila mtumiaji huhifadhi sehemu yake ya historia, upatikanaji wa data haujahakikishwa duniani kote. Ikiwa mtoaji Mkataba atazuia au kubatilisha taarifa fulani, huenda hujui kuhusu mabadiliko halisi ya ofa. Katika baadhi ya matukio (kama vile stablecoins), mtoaji anatarajiwa kudumisha data ya umma ili kuthibitisha kiasi katika mzunguko, lakini hakuna wajibu wa kiufundi wa kufanya hivyo. kwa hivyo inawezekana kuunda mikataba isiyo wazi kwa makusudi na usambazaji usio na kikomo ambayo inaleta maswali ya uaminifu.
+Kwa kuwa katika Client-side Validation, kila mtumiaji huhifadhi sehemu yake ya historia, upatikanaji wa data haujahakikishwa duniani kote. Ikiwa mtoaji Contract atazuia au kubatilisha taarifa fulani, huenda hujui kuhusu mabadiliko halisi ya ofa. Katika baadhi ya matukio (kama vile stablecoins), mtoaji anatarajiwa kudumisha data ya umma ili kuthibitisha kiasi katika mzunguko, lakini hakuna wajibu wa kiufundi wa kufanya hivyo. kwa hivyo inawezekana kuunda mikataba isiyo wazi kwa makusudi na usambazaji usio na kikomo ambayo inaleta maswali ya uaminifu.
 
-#### Sharding na kutengwa kwa Mkataba 
+#### Sharding na kutengwa kwa Contract 
 
-Kila Mkataba unawakilisha _shard_ iliyotengwa: USDT na USDC, kwa mfano, si lazima zishiriki historia zao. Mabadiliko ya atomiki bado yanawezekana, lakini hii haihusishi kuunganisha rejista zao. Kila kitu kinafanywa kwa kriptografia Commitment, bila kufichua grafu nzima ya historia kwa kila mshiriki.
+Kila Contract unawakilisha _shard_ iliyotengwa: USDT na USDC, kwa mfano, si lazima zishiriki historia zao. Mabadiliko ya atomiki bado yanawezekana, lakini hii haihusishi kuunganisha rejista zao. Kila kitu kinafanywa kwa cryptography Commitment, bila kufichua grafu nzima ya historia kwa kila mshiriki.
 
 ### Hitimisho
 
-Tumeona mahali ambapo dhana ya Client-side Validation inalingana na Blockchain na _state channels_, jinsi inavyojibu kwa trilemmas za kompyuta zilizosambazwa, na jinsi inavyotumia Bitcoin Blockchain kipekee ili kuepuka Double-spending na kwa *kupiga muhuri kwa muda*. Wazo hili linatokana na dhana ya **Single-Use Seal**, kuwezesha uundaji wa ahadi za kipekee ambazo huwezi kutumia tena upendavyo. Kwa njia hii, kila mshiriki anapakia tu historia ambayo ni muhimu kabisa, na kuongeza uwekaji hatari na usiri wa mikataba mahiri huku akihifadhi usalama wa Bitcoin kama mandharinyuma.
+Tumeona mahali ambapo dhana ya Client-side Validation inalingana na Blockchain na _state channels_, jinsi inavyojibu kwa trilemmas za kompyuta zilizosambazwa, na jinsi inavyotumia Bitcoin Blockchain kipekee ili kuepuka Double-spending na kwa *time-stamping*. Wazo hili linatokana na dhana ya **Single-Use Seal**, kuwezesha uundaji wa ahadi za kipekee ambazo huwezi kutumia tena upendavyo. Kwa njia hii, kila mshiriki anapakia tu historia ambayo ni muhimu kabisa, na kuongeza uwekaji hatari na usiri wa mikataba mahiri huku akihifadhi usalama wa Bitcoin kama mandharinyuma.
 
-Hatua inayofuata itakuwa kueleza kwa undani zaidi jinsi utaratibu huu wa Single-Use Seal unatumika katika Bitcoin (kupitia UTXOs), jinsi nanga zinaundwa na kuthibitishwa, na kisha jinsi mikataba kamili ya smart inavyojengwa katika RGB. Hasa, tutaangalia suala la ahadi nyingi, changamoto ya kiufundi ya kuthibitisha kwamba muamala wa Bitcoin hufunga wakati huo huo mabadiliko mengi ya serikali katika mikataba tofauti, bila kuanzisha udhaifu au ahadi mbili.
+Hatua inayofuata itakuwa kueleza kwa undani zaidi jinsi utaratibu huu wa Single-Use Seal unatumika katika Bitcoin (kupitia UTXOs), jinsi nanga zinaundwa na kuthibitishwa, na kisha jinsi smart contracts kamili inavyojengwa katika RGB. Hasa, tutaangalia suala la commitments nyingi, changamoto ya kiufundi ya kuthibitisha kwamba muamala wa Bitcoin hufunga wakati huo huo mabadiliko mengi ya serikali katika contract tofauti, bila kuanzisha udhaifu au ahadi mbili.
 
-Kabla ya kuzama katika maelezo ya kiufundi zaidi ya sura ya pili, jisikie huru kusoma tena ufafanuzi muhimu (Client-side Validation, Single-Use Seal, nanga, n.k.) na kukumbuka mantiki ya jumla: tunatazamia kupatanisha uthabiti wa Bitcoin Blockchain (usalama, ugatuaji, uwekaji muhuri wa wakati, usiri,8, na zile za Bitcoin) uwezo wa kukua), na hii ndiyo hasa RGB na Client-side Validation wanajaribu kufikia.
+Kabla ya kuzama katika maelezo ya kiufundi zaidi ya sura ya pili, jisikie huru kusoma tena ufafanuzi muhimu (Client-side Validation, Single-Use Seal, anchor, n.k.) na kukumbuka mantiki ya jumla: tunatazamia kupatanisha uthabiti wa Bitcoin Blockchain (usalama, ugatuaji, uwekaji swals wa wakati, usiri,8, na zile za Bitcoin) uwezo wa kukua), na hii ndiyo hasa RGB na Client-side Validation wanajaribu kufikia.
 
 ## Commitment Layer
 
@@ -426,19 +427,19 @@ Kabla ya kuzama katika maelezo ya kiufundi zaidi ya sura ya pili, jisikie huru k
 
 :::video id=73ddea2d-c243-479d-a3dc-12d7db8eef70:::
 
-Katika sura hii, tutaangalia utekelezaji wa Client-side Validation na Mihuri ya Matumizi Moja ndani ya Bitcoin Blockchain. Tutawasilisha kanuni kuu za RGB **Commitment Layer** (Layer 1), tukizingatia hasa mpango wa **TxO2**, ambao RGB hutumia kufafanua na kufunga mihuri katika shughuli ya Bitcoin. Ifuatayo, tutajadili mambo mawili muhimu ambayo bado hayajashughulikiwa kwa undani:
+Katika sura hii, tutaangalia utekelezaji wa Client-side Validation na Mihuri ya Matumizi Moja ndani ya Bitcoin Blockchain. Tutawasilisha kanuni kuu za RGB **Commitment Layer** (Layer 1), tukizingatia hasa mpango wa **TxO2**, ambao RGB hutumia kufafanua na kufunga seal katika miamala ya Bitcoin. Ifuatayo, tutajadili mambo mawili muhimu ambayo bado hayajashughulikiwa kwa undani:
 
 
-- Ahadi za _deterministic Bitcoin_;
+- __deterministic Bitcoin commitments_;
 - Multi-protocol commitments.
 
-Ni mchanganyiko wa dhana hizi unaotuwezesha kutawala mifumo au mikataba kadhaa juu ya UTXO moja na kwa hiyo Blockchain moja.
+Ni mchanganyiko wa dhana hizi unaotuwezesha kutawala mifumo au contracts kadhaa juu ya UTXO moja na kwa hiyo Blockchain moja.
 
-Ikumbukwe kwamba shughuli za kriptografia zilizoelezewa zinaweza kutumika, kwa maneno kamili, kwa blockchains zingine au media ya uchapishaji, lakini sifa za Bitcoin (katika suala la ugatuaji, upinzani wa udhibiti na uwazi kwa wote) hufanya iwe msingi mzuri wa kukuza upangaji wa hali ya juu kama vile inavyotakiwa na **RGB**.
+Ikumbukwe kwamba miamala za cryptography zilizoelezewa zinaweza kutumika, kwa maneno kamili, kwa blockchains zingine au media ya uchapishaji, lakini sifa za Bitcoin (katika suala la ugatuaji, upinzani wa udhibiti na uwazi kwa wote) hufanya iwe msingi mzuri wa kukuza upangaji wa hali ya juu kama vile inavyotakiwa na **RGB**.
 
 ### Miradi ya Commitment katika Bitcoin na matumizi yao na RGB
 
-Kama tulivyoona katika sura ya kwanza ya kozi, Mihuri ya Matumizi Moja ni dhana ya jumla: tunatoa ahadi ya kujumuisha Commitment (_commitment_) katika eneo mahususi la muamala, na eneo hili hufanya kama Seal ambayo tunafunga kwenye ujumbe. Walakini, kwenye Bitcoin Blockchain, kuna chaguzi kadhaa za kuchagua mahali pa kuweka _commitment_ hii.
+Kama tulivyoona katika sura ya kwanza ya kozi, Single-use sealsni dhana ya jumla: tunatoa ahadi ya kujumuisha Commitment (_commitment_) katika eneo mahususi la muamala, na eneo hili hufanya kama Seal ambayo tunafunga kwenye ujumbe. Walakini, kwenye Bitcoin Blockchain, kuna chaguzi kadhaa za kuchagua mahali pa kuweka _commitment_ hii.
 
 Ili kuelewa mantiki, hebu tukumbuke kanuni ya msingi: kufunga _Single-Use Seal_, tunatumia eneo lililofungwa kwa kuingiza _commitment-kwenye ujumbe fulani. Katika Bitcoin, hii inaweza kufanywa kwa njia kadhaa:
 
@@ -452,7 +453,7 @@ Tunaweza kuamua kuwa ufunguo mahususi wa umma au Address ndio single-use seal_. 
 
 Hii ina maana kwambasingle-use seal_ inafafanuliwa kama _outpoint_ sahihi (jozi ya nambari ya pato ya txid +). Mara tu _outpoint_ hii inapotumika, Seal inafungwa.
 
-Wakati tukifanyia kazi RGB, tulitambua angalau njia nne tofauti za kutekeleza mihuri hii kwenye Bitcoin:
+Wakati tukifanyia kazi RGB, tulitambua angalau njia nne tofauti za kutekeleza seals hii kwenye Bitcoin:
 
 
 - Bainisha seal kupitia ufunguo wa umma, na uifunge kwa _output_ ;
@@ -468,9 +469,9 @@ Wakati tukifanyia kazi RGB, tulitambua angalau njia nne tofauti za kutekeleza mi
 
 | TxO2 | Pato la Muamala | Pato la Muamala | Inahitaji ahadi bainifu kwenye Bitcoin | RGBv1 (zima) | Kurekebisha, tapret, opret |
 
-| PkI | Thamani ya Ufunguo wa Umma | Ingizo la Muamala | Taproot pekee na haioani na pochi za urithi | Vitambulisho vinavyotokana na Bitcoin | Sigtweak, witweak |
+| PkI | Thamani ya Ufunguo wa Umma | Ingizo la Muamala | Taproot pekee na haioani na legacy wallets | Vitambulisho vinavyotokana na Bitcoin | Sigtweak, witweak |
 
-| TxO1 | Pato la Muamala | Ingizo la Muamala | Taproot pekee na haioani na pochi za urithi | Hakuna kwa sasa | Sigtweak, witweak |
+| TxO1 | Pato la Muamala | Ingizo la Muamala | Taproot pekee na haioani na legacy wallets | Hakuna kwa sasa | Sigtweak, witweak |
 
 Hatutaeleza kwa kina kuhusu kila mojawapo ya usanidi huu, kwani katika RGB tumechagua kutumia **an _outpoint_ kama ufafanuzi wa Seal**, na kuweka _commitment_ katika matokeo ya shughuli ya kutumia _outpoint_ hii. Kwa hivyo tunaweza kuanzisha dhana zifuatazo kwa mwendelezo:
 
@@ -484,7 +485,7 @@ Mpango huu umechaguliwa kwa utangamano wake na usanifu wa RGB, lakini usanidi mw
 
 ### Mfano wa mchoro wa TxO2
 
-Kama ukumbusho, kufafanua _seal-matumizi moja_ si lazima kuhitaji kuchapisha muamala wa On-Chain. Inatosha kwa Alice, kwa mfano, tayari kuwa na UTXO ambayo haijatumika. Anaweza kuamua: "Hii _outpoint_ (tayari ipo) sasa ni Seal yangu". Anabainisha hili ndani ya nchi (_client-side_), na hadi UTXO hii inatumika, Seal inachukuliwa kuwa wazi.
+Kama ukumbusho, kufafanua _Single-Use Seal_ si lazima kuhitaji kuchapisha muamala wa On-Chain. Inatosha kwa Alice, kwa mfano, tayari kuwa na UTXO ambayo haijatumika. Anaweza kuamua: "Hii _outpoint_ (tayari ipo) sasa ni Seal yangu". Anabainisha hili ndani ya nchi (_client-side_), na hadi UTXO hii inatumika, Seal inachukuliwa kuwa wazi.
 
 ![RGB-Bitcoin](assets/en/024.webp)
 
@@ -498,9 +499,9 @@ Kumbuka kuwa katika mfano huu:
 - Hakuna mtu ila Bob (au watu ambao Alice anachagua kuwafunulia uthibitisho kamili) watajua kwamba ujumbe fulani umefichwa katika shughuli hii;
 - Kila mtu anaweza kuona kwamba _outpoint_ imetumika, lakini ni Bob pekee ndiye anayeshikilia uthibitisho kwamba ujumbe umetiwa nanga katika shughuli hiyo.
 
-Ili kufafanua mpango huu wa TxO2, tunaweza kutumia _seal-matumizi moja_ kama utaratibu wa kubatilisha ufunguo wa PGP. Badala ya kuchapisha cheti cha ubatilishaji kwenye seva, Alice anaweza kusema: "Hii pato la Bitcoin, ikiwa itatumika, inamaanisha kuwa ufunguo wangu wa PGP umebatilishwa".
+Ili kufafanua mpango huu wa TxO2, tunaweza kutumia _Single-Use Seal_ kama utaratibu wa kubatilisha ufunguo wa PGP. Badala ya kuchapisha cheti cha ubatilishaji kwenye server, Alice anaweza kusema: "Hii pato la Bitcoin, ikiwa itatumika, inamaanisha kuwa ufunguo wangu wa PGP umebatilishwa".
 
-Kwa hivyo Alice ana UTXO maalum, ambayo hali fulani au data (inayojulikana kwake tu) inahusishwa ndani ya nchi (upande wa mteja).
+Kwa hivyo Alice ana UTXO maalum, ambayo hali fulani au data (inayojulikana kwake tu) inahusishwa ndani ya state (upande wa mteja).
 
 Alice anamwarifu Bob kwamba ikiwa UTXO hii itatumika, tukio fulani litachukuliwa kuwa limetokea. Kutoka nje, yote tunayoona ni shughuli ya Bitcoin; lakini Bob anajua kwamba matumizi haya yana maana iliyofichika.
 
@@ -532,7 +533,7 @@ Ili kufafanua muundo, hebu tufanye muhtasari wa mchakato katika shughuli mbili:
 ![RGB-Bitcoin](assets/en/031.webp)
 
 
-- **Muamala 2**: Hutumia _outpoint_ hii. Hii inafunga Seal na, katika shughuli hiyo hiyo, inaingiza _commitment_ kwenye ujumbe.
+- **Muamala 2**: Hutumia _outpoint_ hii. Hii inafunga Seal na, katika miamala hiyo, inaingiza _commitment_ kwenye ujumbe.
 
 ![RGB-Bitcoin](assets/en/033.webp)
 
@@ -548,13 +549,13 @@ Ili kuonyesha hili kutoka kwa pembe nyingine, tunaweza kuwakilisha tabaka mbili:
 
 Lakini wakati wa kufunga Seal, swali linatokea ni wapi _commitment_ inapaswa kuingizwa.
 
-Katika sehemu iliyopita, tulitaja kwa ufupi jinsi mfano wa Client-side Validation unaweza kutumika kwa RGB na mifumo mingine. Hapa, tunashughulikia sehemu kuhusu **ahadi bainifu za Bitcoin** na jinsi ya kuzijumuisha katika muamala. Wazo ni kuelewa ni kwa nini tunajaribu kuingiza Commitment moja kwenye _shahidi muamala_, na zaidi ya yote jinsi ya kuhakikisha kwamba hakuwezi kuwa na ahadi nyinginezo ambazo hazijafichuliwa.
+Katika sehemu iliyopita, tulitaja kwa ufupi jinsi mfano wa Client-side Validation unaweza kutumika kwa RGB na mifumo mingine. Hapa, tunashughulikia sehemu kuhusu **deterministic Bitcoin commitments** na jinsi ya kuzijumuisha katika muamala. Wazo ni kuelewa ni kwa nini tunajaribu kuingiza Commitment moja kwenye _witness transaction_, na zaidi ya yote jinsi ya kuhakikisha kwamba hakuwezi kuwa na commitment nyinginezo ambazo hazijafichuliwa.
 
 ### Maeneo ya Commitment katika muamala
 
-Unapompa mtu uthibitisho kwamba ujumbe fulani umepachikwa katika muamala, unahitaji kuwa na uwezo wa kuhakikisha kuwa hakuna aina nyingine ya Commitment (sekunde, ujumbe uliofichwa) katika muamala ule ule ambao haujafichuliwa kwako. Ili Client-side Validation iendelee kuwa thabiti, unahitaji utaratibu wa **ubainishaji** wa kuweka _commitment_ moja katika muamala unaofunga _Single-Use Seal-.
+Unapompa mtu uthibitisho kwamba ujumbe fulani umepachikwa katika muamala, unahitaji kuwa na uwezo wa kuhakikisha kuwa hakuna aina nyingine ya Commitment (sekunde, ujumbe uliofichwa) katika muamala ule ule ambao haujafichuliwa kwako. Ili Client-side Validation iendelee kuwa thabiti, unahitaji utaratibu wa **deterministic** wa kuweka _commitment_ moja katika muamala unaofunga _Single-Use Seal-.
 
-Shughuli ya _shahidi_ hutumia UTXO maarufu (au _seal definition_) na matumizi haya yanalingana na kufungwa kwa Seal. Kitaalamu, tunajua kwamba kila muhtasari unaweza kutumika mara moja tu. Hili ndilo hasa linalosisitiza upinzani wa Bitcoin kwa matumizi maradufu. Lakini shughuli ya matumizi inaweza kuwa na _pembejeo_ kadhaa, _matokeo_ kadhaa, au ikatungwa kwa njia changamano (sainjoins, njia za umeme, n.k.). Kwa hivyo tunahitaji kufafanua wazi mahali pa kuingiza _commitment_ katika muundo huu, bila utata na kwa usawa.
+Miamala ya _shahidi_ hutumia UTXO maarufu (au _seal definition_) na matumizi haya yanalingana na kufungwa kwa Seal. Kitaalamu, tunajua kwamba kila muhtasari unaweza kutumika mara moja tu. Hili ndilo hasa linalosisitiza upinzani wa Bitcoin kwa doublespending. Lakini shughuli ya matumizi inaweza kuwa na _inputs_ kadhaa, _Output_ kadhaa, au ikatungwa kwa njia changamano (coinjoins, njia za lightning, n.k.). Kwa hivyo tunahitaji kufafanua wazi mahali pa kuingiza _commitment_ katika muundo huu, bila utata na kwa usawa.
 
 Njia yoyote (PkO, TxO2, n.k.), _commitment_ inaweza kuingizwa :
 
@@ -573,7 +574,7 @@ Hapa kuna maelezo ya kila njia:
 
 ![RGB-Bitcoin](assets/en/038.webp)
 
-***Sig tweak (saini-kwa-Contract) :***
+***Sig tweak (sign-to-contract) :***
 
 Mpango wa awali ulihusisha kutumia sehemu nasibu ya sahihi (ECDSA au Schnorr) ili kupachika _commitment_: hii ndiyo mbinu inayojulikana kama "**Sign-to-Contract**". Unabadilisha Nonce iliyozalishwa bila mpangilio na Hash iliyo na data. Kwa njia hii, saini inafichua Commitment yako, bila nafasi yoyote ya ziada katika ununuzi. Mbinu hii ina faida kadhaa:
 
@@ -587,11 +588,11 @@ Walakini, shida kuu 2 zimeibuka:
 - Multisig kabla ya Taproot: unapokuwa na watia saini kadhaa, unahitaji kuamua ni saini ipi itakayobeba _commitment_ Saini zinaweza kuagizwa kwa njia tofauti, na ikiwa mtu aliyetia saini anakataa, unapoteza udhibiti wa matokeo ya _commitment_;
 - MuSig na Nonce iliyoshirikiwa: pamoja na Schnorr Multisig (*MuSig*), kizazi cha Nonce ni algoriti ya vyama vingi, na inakuwa vigumu kabisa kurekebisha Nonce kibinafsi.
 
-Kwa mazoezi, **sig tweak** pia haiendani sana na maunzi yaliyopo (pochi za vifaa) na umbizo (Umeme, nk.). Kwa hivyo wazo hili kubwa ni Hard kuweka katika vitendo.
+Kwa mazoezi, **sig tweak** pia haiendani sana na maunzi yaliyopo (hardware wallet) na umbizo (Lightning, nk.). Kwa hivyo wazo hili kubwa ni ngumu kuweka katika vitendo.
 
-*** Marekebisho muhimu (lipa-kwa-Contract):***
+*** Marekebisho muhimu (pay-to-contract):***
 
-**muhimu wa kurekebisha** unachukua dhana ya kihistoria ya _lipa-kwa-mkataba_. Tunachukua ufunguo wa umma `X` na kuurekebisha kwa kuongeza thamani `H(ujumbe)`. Hasa, ikiwa `X = x * G` na `h = H(ujumbe)`, basi ufunguo mpya utakuwa `X' = X + h * G`. Ufunguo huu uliobadilishwa huficha Commitment kwa `ujumbe`. Mmiliki wa ufunguo asilia wa faragha anaweza, kwa kuongeza `h` kwenye ufunguo wake wa faragha `x`, kuthibitisha kwamba ana ufunguo wa kutumia pato. Kwa nadharia, hii ni ya kifahari, kwa sababu:
+**muhimu wa kurekebisha** unachukua dhana ya kihistoria ya _pay-to-contract_. Tunachukua ufunguo wa umma `X` na kuurekebisha kwa kuongeza thamani `H(message)`. Hasa, ikiwa `X = x * G` na `h = H(message)`, basi ufunguo mpya utakuwa `X' = X + h * G`. Ufunguo huu uliobadilishwa huficha Commitment kwa `message`. Mmiliki wa ufunguo asilia wa faragha anaweza, kwa kuongeza `h` kwenye ufunguo wake wa faragha `x`, kuthibitisha kwamba ana ufunguo wa kutumia pato. Kwa nadharia, hii ni ya kifahari, kwa sababu:
 
 
  _commitment_ imeingizwa bila kuongeza sehemu zozote za ziada;

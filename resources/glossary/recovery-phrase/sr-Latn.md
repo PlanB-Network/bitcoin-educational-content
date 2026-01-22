@@ -1,5 +1,5 @@
 ---
-term: Fraza za obnavljanje
+term: Fraza za oporavak
 ---
 
 Fraza za oporavak, koja se ponekad naziva i Mnemonic, seed fraza ili tajna fraza, je niz koji obično sadrži 12 ili 24 reči, generisanih na pseudo-slučajan način iz izvora entropije. Pseudo-slučajni niz se uvek završava kontrolnom sumom. Mnemonic fraza, zajedno sa opcionalnim passphrase, koristi se za determinističko izvođenje svih ključeva povezanih sa HD (Hijerarhijski Deterministički) Wallet. To znači da je iz ove fraze moguće deterministički generate i ponovo kreirati sve privatne i javne ključeve Bitcoin Wallet, i samim tim pristupiti sredstvima povezanim s njim. Svrha fraze za oporavak je da obezbedi način za bekap i oporavak bitkoina koji je i siguran i lak za korišćenje.

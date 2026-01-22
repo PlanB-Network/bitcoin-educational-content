@@ -1,5 +1,5 @@
 ---
-term: Doppia spesa (attacco)
+term: Doppia spesa
 
 ---
 Un attacco in cui un utente malintenzionato tenta di utilizzare lo stesso UTXO (*Unspent Transaction Output*) più di una volta per arricchirsi a spese delle parti coinvolte nelle transazioni. In linea di principio, una volta che una transazione viene confermata in un blocco e aggiunta alla blockchain, l'uso di quei bitcoin viene registrato in modo permanente, impedendo qualsiasi ulteriore spesa degli stessi bitcoin. La prevenzione della doppia spesa è addirittura l'utilità principale della blockchain.

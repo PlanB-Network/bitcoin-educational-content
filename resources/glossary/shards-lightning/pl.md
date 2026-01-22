@@ -1,5 +1,5 @@
 ---
-term: Odłamki (błyskawica)
+term: Shardy (lightning)
 ---
 
 W kontekście *Multi-Path Payments (MPP)* lub *Atomic Multi-Path Payments (AMP)*, Shard jest ułamkiem płatności globalnej. Każdy Shard reprezentuje część całkowitej płatności, która jest kierowana oddzielnie przez inną trasę w Lightning.

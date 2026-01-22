@@ -1,5 +1,5 @@
 ---
-term: Pagamenti silenziosi
+term: Silent payments
 
 ---
 Metodo per l'utilizzo di indirizzi Bitcoin statici per ricevere pagamenti senza riutilizzo di indirizzi, senza interazione e senza un collegamento visibile sulla catena tra i diversi pagamenti e l'indirizzo statico. Questa tecnica elimina la necessità di generare nuovi indirizzi di ricezione inutilizzati per ogni transazione, evitando così le consuete interazioni in Bitcoin in cui il destinatario deve fornire un nuovo indirizzo al pagatore.

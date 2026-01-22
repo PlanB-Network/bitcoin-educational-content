@@ -1,5 +1,5 @@
 ---
-term: Mtoa huduma ya umeme
+term: Mtoa huduma wa lightning
 ---
 
 Kampuni inayofanya kazi kwenye Umeme ambayo biashara yake ni kutoa huduma za ukwasi kwa watumiaji.

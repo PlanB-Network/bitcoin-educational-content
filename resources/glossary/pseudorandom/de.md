@@ -1,5 +1,5 @@
 ---
-term: Pseudo-random
+term: Pseudozufällig
 
 ---
 Dieses Adjektiv wird verwendet, um eine Zahlenfolge zu beschreiben, die, obwohl sie das Ergebnis eines deterministischen Prozesses ist, Eigenschaften aufweist, die denen einer idealen echten Zufallsfolge nahe kommen. Das Konzept der idealen Zufälligkeit impliziert das völlige Fehlen von Vorhersagbarkeit und Korrelation zwischen aufeinanderfolgenden Elementen. Eine Pseudo-Zufallszahl wird durch einen deterministischen Algorithmus erzeugt und ist daher theoretisch vollständig vorhersehbar, wenn man den Ausgangszustand des Generators kennt.

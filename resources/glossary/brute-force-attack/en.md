@@ -1,5 +1,5 @@
 ---
-term: Brute force (attack)
+term: Brute-force attack
 ---
 
 A cryptanalysis method used to find a password or cryptographic key by systematically trying every possible combination until the correct one is found, granting access to protected information or privileges. 

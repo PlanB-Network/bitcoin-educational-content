@@ -1,5 +1,5 @@
 ---
-term: Leveldb
+term: LevelDB
 
 ---
 

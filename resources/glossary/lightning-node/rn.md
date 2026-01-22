@@ -1,5 +1,5 @@
 ---
-term: Lightning node
+term: Ino rya lightning
 
 ---
 

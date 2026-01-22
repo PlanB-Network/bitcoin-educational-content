@@ -1,5 +1,5 @@
 ---
-term: Bendera ya sighash
+term: Sighash flag
 ---
 
 Kigezo katika muamala wa Bitcoin ambacho huamua ni vipengele vipi vya muamala (pembejeo na matokeo) vinafunikwa na sahihi inayohusishwa, na hivyo kuwa isiyoweza kubadilika. Bendera ya SigHash ni baiti iliyoongezwa kwa saini ya dijiti ya kila ingizo. Kwa hivyo, chaguo la Bendera ya SigHash huathiri moja kwa moja ni sehemu gani za muamala ambazo zimegandishwa na sahihi na ambazo bado zinaweza kurekebishwa baadaye. Utaratibu huu huhakikisha kwamba saini kwa usahihi na kwa usalama kutekeleza data ya muamala kulingana na nia ya aliyetia sahihi. Kuna Bendera tatu kuu za SigHash:

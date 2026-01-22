@@ -1,5 +1,5 @@
 ---
-term: Statisch address
+term: Statisch adres
 ---
 
 In de context van Stille Betalingen verwijst dit naar een unieke identificatiecode die de ontvangst van betalingen mogelijk maakt zonder Address hergebruik, zonder interactie en zonder een zichtbare On-Chain link tussen de verschillende betalingen en de statische Address. Deze techniek elimineert de noodzaak om generate nieuwe, ongebruikte ontvangstadressen te verstrekken voor elke transactie. Deze techniek elimineert de noodzaak om generate nieuwe, ongebruikte ontvangstadressen te geven voor elke transactie, waardoor de gebruikelijke interacties in Bitcoin, waarbij de ontvanger een nieuwe Address moet geven aan de betaler, vermeden worden. Het is enigszins equivalent aan de herbruikbare betalingscode in de context van BIP47.

@@ -1,5 +1,5 @@
 ---
-term: Yeniden kullanilabilir ödeme kodu
+term: Yeniden kullanılabilir ödeme kodu
 ---
 
 BIP47'de, yeniden kullanılabilir bir ödeme kodu, bir bildirim işlemine ve benzersiz adreslerin türetilmesine olanak tanıyan bir Bitcoin Wallet'den üretilen statik bir tanımlayıcıdır. Bu, her ödeme için yeni, kullanılmayan adresleri manuel olarak türetmek ve iletmek zorunda kalmadan gizlilik kaybına yol açan adreslerin yeniden kullanılmasını önler. BIP47'de yeniden kullanılabilir ödeme kodları aşağıdaki şekilde oluşturulur:

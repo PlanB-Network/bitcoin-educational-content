@@ -1,5 +1,5 @@
 ---
-term: Mtunzi (core)
+term: Msimamizi (core)
 ---
 
 Katika muktadha wa mradi wa Bitcoin Core, utekelezaji mkuu wa nodi kwenye mtandao wa Bitcoin, watunzaji ni watu binafsi waliopewa jukumu la kusimamia mradi. Wanabeba jukumu la utekelezaji wake. Wanasimamia udhibiti kwenye hazina ya Bitcoin Core GitHub na kuweka ratiba ya kutolewa kwa matoleo mapya. Wao ni wajibu wa kimsingi wa kufanya uunganishaji wa maombi ya kuvuta (PR) yaliyopendekezwa na wachangiaji.

@@ -1,5 +1,5 @@
 ---
-term: Boşluk li̇mi̇ti̇
+term: Gap limit
 ---
 
 Bitcoin Wallet yazılımında, ek işlemlerin aranmasını durdurmadan önce generate'a ardışık kullanılmayan adreslerin maksimum sayısını belirlemek için kullanılan bir parametre. Tüm işlemlerin bulunduğundan emin olmak için bir Wallet kurtarılırken bu parametrenin ayarlanması genellikle gereklidir. Yetersiz bir Boşluk Sınırı, türetme aşamaları sırasında adresler atlanmışsa bazı işlemlerin kaçırılmasına neden olabilir. Boşluk Sınırının artırılması, Wallet'ün ilişkili tüm işlemleri kurtarmak için Address dizisinde daha fazla arama yapmasını sağlar.

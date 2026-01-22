@@ -1,5 +1,5 @@
 ---
-term: Scherven (bliksem)
+term: Shards (lightning)
 ---
 
 In de context van *Multi-Path Payments (MPP)* of *Atomic Multi-Path Payments (AMP)*, is een Shard een fractie van een globale betaling. Elke Shard vertegenwoordigt een deel van de totale betaling, die apart wordt gerouteerd via een andere route op Lightning.

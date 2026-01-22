@@ -1,5 +1,5 @@
 ---
-term: Bch kod
+term: BCH kod
 ---
 
 Klasa kodova za ispravljanje grešaka koja se koristi za detekciju i ispravljanje grešaka u nizu podataka. Drugim rečima, BCH kodovi za ispravljanje grešaka koriste se za pronalaženje i ispravljanje slučajnih grešaka u prenetim informacijama, kako bi se osiguralo da one stignu neoštećene na svoje odredište. Akronim "BCH" predstavlja inicijale imena pronalazača ovih kodova: Bose, Ray-Chaudhuri i Hocquenghem.

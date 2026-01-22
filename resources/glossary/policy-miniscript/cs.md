@@ -1,5 +1,5 @@
 ---
-term: (Miniskript)
+term: Politika (Miniscript)
 
 ---
 Vysokoúrovňový, uživatelsky orientovaný jazyk, který umožňuje jednoduchou specifikaci podmínek, za kterých lze UTXO odemknout v rámci Miniscriptu. Politika je abstraktní popis pravidel pro vynakládání prostředků. Poté ji lze zkompilovat do miniskriptu, který je ekvivalentem jedna ku jedné s operacemi z nativního skriptovacího jazyka Bitcoinu.

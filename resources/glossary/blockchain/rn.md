@@ -1,5 +1,5 @@
 ---
-term: Blockchain
+term: Urinyenyeri rw'icintunza
 ---
 
 Blockchain ni ijambo rikoreshwa cane ku bijanye n’umurongo wa Bitcoin wa Timestamp.  Ni uruhererekane rw’ibice, aho igice cose gifatanye n’icabanjirije biciye ku gicapo caco c’ibanga Hash.

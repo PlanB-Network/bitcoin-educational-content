@@ -1,5 +1,5 @@
 ---
-term: Chaumianische koinjoin
+term: Chaumian CoinJoin
 
 ---
 Ein Coinjoin-Protokoll, das David Chaums blinde Signaturen und Tor für die Kommunikation zwischen Teilnehmern und dem Server des Koordinators nutzt. Das Ziel eines Chaum'schen Coinjoin ist es, den Teilnehmern zu versichern, dass der Koordinator weder Bitcoins stehlen, noch die Ein- und Ausgänge miteinander verbinden kann.

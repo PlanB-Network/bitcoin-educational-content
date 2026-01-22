@@ -1,5 +1,5 @@
 ---
-term: Bitcoin (b mayúscula)
+term: Bitcoin (B mayúscula)
 
 ---
 Bitcoin es el nombre del sistema de dinero electrónico peer-to-peer creado por Satoshi Nakamoto en 2009. El uso del término Bitcoin con "B" mayúscula puede referirse a tres cosas diferentes:

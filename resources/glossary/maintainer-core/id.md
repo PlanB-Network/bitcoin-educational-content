@@ -1,5 +1,5 @@
 ---
-term: Pengelola (core)
+term: Maintainer (core)
 
 ---
 Dalam konteks proyek Bitcoin Core, implementasi utama dari node di jaringan Bitcoin, _maintainer_ atau pengelola adalah individu yang ditugaskan untuk mengelola proyek. Mereka memikul tanggung jawab atas implementasinya. Mereka bertanggung jawab atas moderasi di repositori GitHub Bitcoin Core dan mengatur jadwal rilis versi baru. Mereka terutama bertanggung jawab untuk melakukan penggabungan _pull request_ (PR) yang diajukan oleh kontributor.

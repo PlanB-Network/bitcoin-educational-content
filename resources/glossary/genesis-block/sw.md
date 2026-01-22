@@ -1,5 +1,5 @@
 ---
-term: Genesis block
+term: Bloku ya mwanzo
 ---
 
 Genesis Block ni block ya kwanza ya mfumo wa Bitcoin. Inaashiria uzinduzi halisi wa Bitcoin. Kitalu cha Genesis kiliundwa na mwanzilishi asiyejulikana wa Bitcoin, Satoshi Nakamoto, tarehe 3 Januari 2009. Hash yake ni:

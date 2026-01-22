@@ -1,5 +1,5 @@
 ---
-term: Block reward
+term: Agashimwe k'icitunza
 ---
 
 Block reward ni umubare wose w’ama bitcoins yaronswa na Miner iyo ashoboye gucukura neza igice gifise akamaro.

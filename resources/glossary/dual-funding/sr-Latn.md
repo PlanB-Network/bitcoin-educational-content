@@ -1,5 +1,5 @@
 ---
-term: Dualno finansiranje
+term: Dual funding
 ---
 
 Kada se otvori Lightning kanal, dvostruko finansiranje omogućava oba učesnika da zaključaju bitkoine u kanal. Za razliku od tradicionalnog modela, gde samo jedan čvor finansira kanal, ova metoda omogućava obe strane da ga finansiraju, omogućavajući trenutno balansiranje likvidnosti.

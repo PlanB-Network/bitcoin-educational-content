@@ -1,5 +1,5 @@
 ---
-term: Blocksize war
+term: Guerra do tamanho do bloco
 
 ---
 Refere-se a um período de intenso debate e conflito no seio da comunidade Bitcoin entre 2015 e 2017. Este conflito centrou-se na questão de saber se o tamanho do bloco, que tinha sido limitado a 1 megabyte desde 2010 por Satoshi Nakamoto, deveria ser aumentado para permitir que a Bitcoin processasse mais transacções por bloco, melhorando assim a escalabilidade.

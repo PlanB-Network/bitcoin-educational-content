@@ -1,5 +1,5 @@
 ---
-term: Bitcoin (huruf kapital b)
+term: Bitcoin (huruf B besar)
 
 ---
 Bitcoin adalah nama sistem uang elektronik _peer-to-peer_ yang diciptakan oleh Satoshi Nakamoto pada tahun 2009. Penggunaan istilah Bitcoin dengan huruf kapital "B" dapat merujuk pada tiga hal yang berbeda:

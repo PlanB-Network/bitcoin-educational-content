@@ -1,5 +1,5 @@
 ---
-term: Barabara ya silk
+term: Silk road
 ---
 
 Barabara ya Silk ilikuwa jukwaa la giza la wavuti lililoanzishwa na Ross Ulbricht, pia anajulikana kwa jina bandia la Dread Pirate Roberts. Ilizinduliwa mwaka wa 2011, soko hili la mtandaoni liliruhusu watumiaji kununua na kuuza bidhaa na huduma, halali na haramu, huku wakihifadhi kutokujulikana kwao kupitia malipo ya Tor na Bitcoin. Silk Road ilitoa anuwai ya bidhaa, haswa dawa na dawa zilizoagizwa na daktari, lakini iliondoa shughuli zinazochukuliwa kuwa kinyume na kanuni za sheria asilia, kama vile uuzaji wa huduma za hitman au maudhui ya ponografia ya watoto.

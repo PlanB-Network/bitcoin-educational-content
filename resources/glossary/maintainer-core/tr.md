@@ -1,5 +1,5 @@
 ---
-term: Bakimci (çekirdek)
+term: Sürdürücü (core)
 ---
 
 Bitcoin ağındaki düğümlerin baskın uygulaması olan Bitcoin core projesi bağlamında, bakımcılar projeyi yönetmekle görevli kişilerdir. Projenin uygulanmasının sorumluluğunu taşırlar. Bitcoin core GitHub deposunda moderasyondan ve yeni sürümlerin yayınlanması için programın belirlenmesinden sorumludurlar. Katkıda bulunanlar tarafından önerilen çekme isteklerinin (PR) birleştirilmesinden birincil olarak sorumludurlar.

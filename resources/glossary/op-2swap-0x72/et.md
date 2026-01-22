@@ -1,5 +1,5 @@
 ---
-term: (0X72)
+term: OP_2SWAP (0X72)
 
 ---
 Vahetab virna ülaosas olevad kaks elementi nende all olevate kahe elemendiga. Näiteks kui virnas on:

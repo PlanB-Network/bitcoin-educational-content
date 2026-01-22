@@ -1,5 +1,5 @@
 ---
-term: Bitcoin inzahabu (btg)
+term: Bitcoin Gold (BTG)
 ---
 
 Bitcoin Inzahabu (BTG) ni amafaranga y'ibanga yaremwe na Hard Fork ya Bitcoin (BTC) ku wa 24 Gitugutu 2017, ku 491.407.

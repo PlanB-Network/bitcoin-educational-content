@@ -1,5 +1,5 @@
 ---
-term: Ontvangst address
+term: Ontvangstadres
 ---
 
 Informatie die gebruikt wordt om bitcoins te ontvangen. Een Address wordt meestal geconstrueerd door een publieke sleutel te hashen, met `SHA256` en `RIMPEMD160`, en metadata aan deze digest toe te voegen. De publieke sleutels die gebruikt worden om een ontvangende Address te construeren, maken deel uit van de Wallet van de gebruiker en zijn daarom afgeleid van hun seed. Bijvoorbeeld, SegWit adressen zijn samengesteld uit de volgende informatie:

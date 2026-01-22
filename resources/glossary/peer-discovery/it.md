@@ -1,5 +1,5 @@
 ---
-term: Scoperta del peer
+term: Peer discovery
 
 ---
 Il processo con cui i nodi della rete Bitcoin si connettono ad altri nodi per ottenere informazioni. Quando un nodo Bitcoin viene lanciato per la prima volta, non ha informazioni sugli altri nodi della rete. Tuttavia, deve stabilire connessioni per sincronizzarsi con la blockchain che ha il maggior numero di lavori accumulati. Per scoprire questi peer vengono utilizzati diversi meccanismi, in ordine di priorità:

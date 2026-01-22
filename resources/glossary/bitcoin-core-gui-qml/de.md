@@ -1,5 +1,5 @@
 ---
-term: Bitcoin kern gui-qml
+term: Bitcoin Core GUI-QML
 ---
 
 Laufendes Projekt zur Erstellung einer Bitcoin-Portfolio- und Knotenanwendung auf der Grundlage von Bitcoin Core, aber mit einem intuitiven grafischen Interface, das mit QML (*Qt Modeling Language*) entwickelt wurde. Das Ziel von Bitcoin Core GUI-QML ist es, die Interface-Benutzererfahrung von Bitcoin Core zu modernisieren, um eine einfachere, reibungslosere und dynamischere Erfahrung zu bieten.

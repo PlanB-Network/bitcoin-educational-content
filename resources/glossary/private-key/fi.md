@@ -1,5 +1,5 @@
 ---
-term: Private key
+term: Yksityinen avain
 
 ---
 Yksityinen avain on epäsymmetrisen salauksen peruselementti. Se on luku (Bitcoinin yhteydessä 256 bittiä), joka edustaa kryptografista salaisuutta. Tätä avainta käytetään transaktioiden digitaaliseen allekirjoittamiseen ja Bitcoinin julkisen avaimen (ja sitä kautta vastaanottavan osoitteen) omistajuuden todistamiseen täyttämällä `scriptPubKey`. Näin ollen yksityiset avaimet mahdollistavat bitcoinien käyttämisen avaamalla vastaavaan julkiseen avaimeen liittyvät UTXO:t. Yksityiset avaimet on pidettävä ehdottoman luottamuksellisina, koska niiden paljastuminen voisi mahdollistaa sen, että pahantahtoiset kolmannet osapuolet voisivat ottaa haltuunsa niihin liittyvät varat.

@@ -1,5 +1,5 @@
 ---
-term: Podwójne finansowanie
+term: Dual funding
 ---
 
 Po otwarciu kanału Lightning podwójne finansowanie umożliwia obu uczestnikom zablokowanie bitcoinów w kanale. W przeciwieństwie do tradycyjnego modelu, w którym tylko jeden węzeł finansuje kanał, ta metoda pozwala obu stronom na jego finansowanie, umożliwiając natychmiastowe zrównoważenie płynności.

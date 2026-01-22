@@ -1,5 +1,5 @@
 ---
-term: Commitment
+term: Isezerano
 ---
 
 Commitment (mu buryo bw'ibanga) ni ikintu c'imibare, kigaragazwa $C$, kiva ku gikorwa ku makuru atunganijwe $m$ (ubutumwa) n'agaciro k'imburakimazi $r$. Twandika :

@@ -1,5 +1,5 @@
 ---
-term: Mkataba wa new york (nya)
+term: Makubaliano ya New York (NYA)
 ---
 
 Mkutano wa faragha uliofanyika mwaka wa 2017, ukileta pamoja zaidi ya makampuni 50 kutoka mfumo ikolojia wa Bitcoin, kufuatia mkutano wa Makubaliano ya 2017. Lengo la mkutano huu lilikuwa kumaliza mjadala wa muda mrefu wa kuongeza Bitcoin kwa kufikia makubaliano. Mkutano huu ulipelekea pendekezo la SegWit2x, kupata msukumo kutoka kwa pendekezo la awali la SegWit2Mb. Ilipanga marekebisho mawili makubwa kwa itifaki ya Bitcoin:

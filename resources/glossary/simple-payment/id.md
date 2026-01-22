@@ -1,5 +1,5 @@
 ---
-term: Simple payment
+term: Pembayaran sederhana
 
 ---
 Pola transaksi (atau model) yang digunakan dalam analisis rantai yang ditandai dengan konsumsi satu atau lebih UTXO sebagai input dan produksi 2 UTXO sebagai output. Oleh karena itu, model ini akan terlihat seperti ini:

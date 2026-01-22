@@ -1,5 +1,5 @@
 ---
-term: Utxo set
+term: UTXO set
 ---
 
 Verwijst naar de verzameling van alle bestaande UTXO's op een bepaald moment. Met andere woorden, het is een grote lijst van alle verschillende stukjes bitcoins die wachten om uitgegeven te worden. Als je de bedragen van alle UTXO's in de UTXO set optelt, geeft dat ons de totale monetaire massa van bitcoins in omloop. Elk knooppunt in het Bitcoin netwerk onderhoudt zijn eigen UTXO set in real-time. Het werkt het bij als nieuwe geldige blokken worden bevestigd, met de transacties die ze bevatten, die wat UTXO's uit de UTXO set verbruiken en er nieuwe voor terug creëren.

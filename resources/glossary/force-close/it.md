@@ -1,5 +1,5 @@
 ---
-term: Forza chiudere
+term: Chiusura forzata
 ---
 
 Meccanismo non cooperativo di chiusura del canale Lightning. Quando due utenti aprono un canale con un Multisig 2/2, ciascuno può chiudere unilateralmente il canale trasmettendo l'ultimo Commitment Transaction già firmato, al fine di recuperare i propri bitcoin sulla catena. Questa operazione è nota come "chiusura forzata".

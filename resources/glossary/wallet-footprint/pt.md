@@ -1,5 +1,5 @@
 ---
-term: Pegada de carteira
+term: Pegada da carteira
 
 ---
 Um conjunto de caraterísticas distintivas observáveis em transacções feitas pela mesma carteira Bitcoin. Essas caraterísticas podem incluir similaridades no uso de tipos de scripts, reutilização de endereços, a ordem dos UTXOs, a colocação de saídas de mudança, a sinalização de RBF (*Replace-by-Fee*), o número da versão, o campo `nSequence` e o campo `nLockTime`.

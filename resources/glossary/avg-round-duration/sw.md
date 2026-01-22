@@ -1,5 +1,5 @@
 ---
-term: Average round duration
+term: Muda wa wastani wa mzunguko
 ---
 
 Muda wa wastani wa mzunguko ni kiashirio kinachotumika kukadiria muda inachukua kwa Mining pool kupata kizuizi, kulingana na ugumu wa mtandao na Hashrate ya bwawa. Inakokotolewa kwa kuchukua idadi ya hisa zinazotarajiwa kupata block na kuigawanya kwa Hashrate ya bwawa. Kwa mfano, ikiwa Mining pool ina wachimbaji 200, na kila mmoja hutoa wastani wa hisa 4 kwa sekunde, jumla ya nguvu ya hesabu ya bwawa ni hisa 800 kwa sekunde:

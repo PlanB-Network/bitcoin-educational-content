@@ -1,5 +1,5 @@
 ---
-term: Mitmepoolsed maksed (mpp)
+term: Multi-path payments (MPP)
 ---
 
 Üldine termin kõigi Lightningi maksetehnikate kohta, mis võimaldavad tehingu jaotada mitmeks väiksemaks osaks ja suunata seda erinevate marsruutide kaudu. Teisisõnu, iga maksefraktsioon võtab erineva sõlme tee. See võimaldab mööduda likviidsuspiirangutest ühe kanali marsruudil.

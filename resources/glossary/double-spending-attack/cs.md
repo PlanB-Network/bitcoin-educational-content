@@ -1,5 +1,5 @@
 ---
-term: (Útok)
+term: Double spending
 
 ---
 Útok, při kterém se škodlivý uživatel pokouší použít stejný UTXO (*Unspent Transaction Output*) více než jednou, aby se obohatil na úkor stran zapojených do transakcí. V zásadě platí, že jakmile je transakce potvrzena v bloku a přidána do blockchainu, je použití těchto bitcoinů trvale zaznamenáno, což brání dalšímu utrácení stejných bitcoinů. Zabránění dvojímu utrácení je dokonce hlavním přínosem blockchainu.

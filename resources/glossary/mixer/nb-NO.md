@@ -1,5 +1,5 @@
 ---
-term: Mixer
+term: Mikser
 ---
 
 Sentralisert tjeneste for å bryte Bitcoin-mynthistorikken ved å blande midler fra flere brukere. I motsetning til CoinJoin, der brukerne beholder kontrollen over midlene sine gjennom hele blandingsprosessen, tar en blender midlertidig besittelse av brukernes bitcoins, blander dem med andre brukeres, og sender deretter midlene tilbake til nye adresser.

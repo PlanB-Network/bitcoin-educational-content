@@ -1,5 +1,5 @@
 ---
-term: Standard transakcji
+term: Standardowa transakcja
 ---
 
 Transakcja Bitcoin, która oprócz przestrzegania zasad konsensusu, podlega również zasadom standaryzacji ustawionym domyślnie na węzłach Bitcoin Core. Te zasady standaryzacji są narzucane indywidualnie przez każdy węzeł Bitcoin, oprócz zasad konsensusu, w celu zdefiniowania struktury niepotwierdzonych transakcji, które akceptuje w swoim Mempool i transmituje do swoich rówieśników.

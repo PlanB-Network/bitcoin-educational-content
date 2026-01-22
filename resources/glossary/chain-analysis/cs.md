@@ -1,5 +1,5 @@
 ---
-term: Řetězcová analýza
+term: Analýza řetězce
 
 ---
 Praxe, která zahrnuje všechny metody používané ke sledování toku bitcoinů v blockchainu. Obecně se analýza řetězce opírá o pozorování charakteristik ve vzorcích předchozích transakcí. Poté zahrnuje identifikaci stejných charakteristik v transakci, kterou chceme analyzovat, a odvození pravděpodobných interpretací. Tato metoda řešení problému, založená na praktickém přístupu k nalezení dostatečně dobrého řešení, je známá jako heuristika. Pro zjednodušení se analýza řetězce provádí ve dvou hlavních krocích:

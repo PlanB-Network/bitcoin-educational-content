@@ -1,5 +1,5 @@
 ---
-term: Btcd (ikibazo ca btc)
+term: Btcd (btc suite)
 ---
 
 Ishirwa mu ngiro ry’amasezerano ya Bitcoin n’abantu bake. BTCD ni ubundi buryo bwo gukoresha porogarama ya Bitcoin core (cane cane bitcoind).

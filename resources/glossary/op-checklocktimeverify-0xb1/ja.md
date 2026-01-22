@@ -1,5 +1,5 @@
 ---
-term: op_checklocktimeverify (0xb1)
+term: OP_CHECKLOCKTIMEVERIFY (0XB1)
 
 ---
 これらの条件がすべて満たされない限り、取引を無効にする：

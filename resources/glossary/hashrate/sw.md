@@ -1,5 +1,5 @@
 ---
-term: Hashrate
+term: Kiwango cha hashi
 ---
 
 Kiashiria cha nguvu ya kompyuta ya mtandao, inayopimwa kwa heshi kwa sekunde (H/s). Inaonyesha uwezo wa wachimbaji kufanya shughuli za hashing kama sehemu ya Proof of Work. Hashrate ya juu inamaanisha usalama zaidi kwa historia ya kiuchumi ya Bitcoin na kuongezeka kwa upinzani dhidi ya mashambulizi, kwani kiasi kikubwa cha nguvu za kompyuta kitahitajika ili kuhatarisha mtandao.

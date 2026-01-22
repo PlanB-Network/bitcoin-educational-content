@@ -1,5 +1,5 @@
 ---
-term: Çikiş noktasi
+term: Outpoint
 ---
 
 Harcanmamış bir işlem çıktısına (UTXO) benzersiz bir referans. İki Elements'dan oluşur:

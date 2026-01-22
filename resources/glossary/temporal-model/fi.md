@@ -1,5 +1,5 @@
 ---
-term: Temporaalinen malli
+term: Ajallinen malli
 
 ---
 Tietyt ihmisten käyttäytymistavat ovat tunnistettavissa ketjussa. Ehkäpä hyödyllisin ketjuanalyysissä on nukkumistottumuksesi! Kyllä, kun nukut, et oletettavasti lähetä Bitcoin-tapahtumia. Yleensä nukut samoihin aikoihin. Siksi ketjuanalyysissä käytetään yleisesti ajallisia analyysejä. Siinä yksinkertaisesti kirjataan kellonajat, jolloin tietyn tahon transaktiot lähetetään Bitcoin-verkkoon. Analysoimalla näitä ajallisia malleja voimme päätellä lukuisia tietoja.

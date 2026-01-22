@@ -1,5 +1,5 @@
 ---
-term: Camino de seda
+term: Silk road
 
 ---
 Silk Road fue una plataforma web oscura fundada por Ross Ulbricht, también conocido bajo el seudónimo de Dread Pirate Roberts. Lanzado en 2011, este mercado online permitía a los usuarios comprar y vender productos y servicios, tanto legales como ilegales, preservando su anonimato mediante el uso de Tor y pagos con Bitcoin. Silk Road ofrecía una amplia gama de artículos, principalmente drogas y medicamentos con receta, pero excluía actividades consideradas contrarias a los principios del derecho natural, como la venta de servicios de sicariato o contenidos de pornografía infantil.

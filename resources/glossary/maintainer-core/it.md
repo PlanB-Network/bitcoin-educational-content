@@ -1,5 +1,5 @@
 ---
-term: Manutentore (core)
+term: Maintainer (core)
 
 ---
 Nel contesto del progetto Bitcoin Core, l'implementazione predominante dei nodi sulla rete Bitcoin, i manutentori sono persone incaricate di gestire il progetto. Sono responsabili della sua implementazione. Sono responsabili della moderazione del repository GitHub di Bitcoin Core e della definizione del calendario per il rilascio di nuove versioni. Sono i principali responsabili dell'unione delle richieste di modifica (PR) proposte dai collaboratori.

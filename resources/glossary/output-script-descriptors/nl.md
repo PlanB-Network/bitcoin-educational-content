@@ -1,5 +1,5 @@
 ---
-term: Uitvoer script descriptors
+term: Output script descriptors
 ---
 
 Output script descriptors, of gewoon descriptors, zijn gestructureerde expressies die een output script (`scriptPubKey`) volledig beschrijven en alle benodigde informatie geven om transacties van of naar een specifiek script te volgen. Deze descriptors vergemakkelijken het beheer van sleutels in HD wallets door middel van een standaard beschrijving van de structuur en soorten gebruikte adressen.

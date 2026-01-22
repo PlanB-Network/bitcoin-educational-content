@@ -1,5 +1,5 @@
 ---
-term: Btcpay server
+term: BTCPay Server
 
 ---
 

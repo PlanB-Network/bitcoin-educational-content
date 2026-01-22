@@ -1,5 +1,5 @@
 ---
-term: MAX_BLOCK_SIZE
+term: MAX_BLOC_SIZE
 
 ---
 

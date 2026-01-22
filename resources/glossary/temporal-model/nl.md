@@ -1,5 +1,5 @@
 ---
-term: Tijdelijk model
+term: Temporeel model
 ---
 
 Bepaalde menselijke gedragingen zijn herkenbaar On-Chain. Misschien wel het nuttigst in ketenanalyse is je slaappatroon! Ja, als je slaapt, zend je waarschijnlijk geen Bitcoin transacties uit. Over het algemeen slaap je rond dezelfde uren. Daarom worden temporele analyses vaak gebruikt bij ketenanalyse. Het houdt simpelweg in dat de tijdstippen waarop de transacties van een bepaalde entiteit naar het Bitcoin netwerk worden uitgezonden, worden geregistreerd. Door deze temporele patronen te analyseren, kunnen we veel informatie afleiden.

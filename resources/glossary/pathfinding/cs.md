@@ -1,5 +1,5 @@
 ---
-term: Pathfinding
+term: Hledání cesty
 ---
 
 Proces používaný uzlem k určení optimální cesty pro směrování platby v síti kanálů Lightning. Určení cesty provádí uzel plátce, který musí vybrat nejvhodnější mezilehlé uzly pro dosažení příjemce. Tento výběr je založen na řadě kritérií, jako jsou poplatky, kapacita kanálu a časové zámky.

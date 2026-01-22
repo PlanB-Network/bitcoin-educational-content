@@ -1,5 +1,5 @@
 ---
-term: Labeling
+term: Dán nhãn
 
 ---
 The practice of assigning an annotation or label to a specific UTXO in a Bitcoin wallet. For example, if I have a UTXO from a P2P purchase on Bisq with Charles, I might label it as "`Non-KYC Bisq Charles`".

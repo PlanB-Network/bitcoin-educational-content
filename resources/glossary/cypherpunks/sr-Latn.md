@@ -1,5 +1,5 @@
 ---
-term: Cypherpunks
+term: Sajferpankovi
 ---
 
 Neformalna i međunarodna zajednica pojedinaca koja promoviše upotrebu kriptografije kao sredstva za osiguranje individualnih sloboda na Internetu. Cypherpunks zalažu se za osnovno pravo pojedinaca da zaštite svoju privatnost, posebno u kontekstu sve većeg nadzora države i eksploatacije podataka od strane privatnih entiteta. Njihovo ime potiče od engleskih reči *cypher*, što znači "tajni kod", i *punk*. To je igra reči na termin *cyberpunk*, koji opisuje književni žanr koji prikazuje distopijsku budućnost gde je vrhunska tehnologija isprepletena s porokom i kriminalom u propadajućem društvu.

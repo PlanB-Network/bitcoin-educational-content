@@ -1,5 +1,5 @@
 ---
-term: Whale
+term: Wieloryb
 ---
 
 Odnosi się do osoby lub podmiotu, który posiada bardzo dużą ilość bitcoinów.

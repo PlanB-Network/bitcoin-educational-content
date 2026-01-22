@@ -1,5 +1,5 @@
 ---
-term: Stablecoin
+term: 스테이블코인
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-term: Testa di blocco
+term: Intestazione del blocco
 
 ---
 L'intestazione del blocco è una struttura di dati che funge da componente principale nella costruzione di un blocco Bitcoin. Ogni blocco è composto da un'intestazione e da un elenco di transazioni. L'intestazione del blocco contiene informazioni cruciali che garantiscono l'integrità e la validità di un blocco all'interno della blockchain. L'intestazione del blocco contiene 80 byte di metadati ed è composta dai seguenti elementi:

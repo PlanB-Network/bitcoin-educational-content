@@ -1,5 +1,5 @@
 ---
-term: Atomové vícecestné platby
+term: Atomic multi-path payments
 ---
 
 Vylepšená verze MPP (*Multi-Path Payments*), kde má každý fragment platby samostatné dílčí tajemství, což zajišťuje, že transakce je zúčtována atomicky, tj. v plné výši nebo vůbec.

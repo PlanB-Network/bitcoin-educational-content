@@ -1,5 +1,5 @@
 ---
-term: Betalinger på flere veier (mpp)
+term: Multi-path payments (MPP)
 ---
 
 En fellesbetegnelse for alle betalingsteknikker på Lightning som gjør det mulig å dele opp en transaksjon i flere mindre deler og dirigere den via ulike ruter. Med andre ord tar hver betalingsfraksjon en annen nodebane. Dette gjør det mulig å omgå likviditetsbegrensninger på en enkelt kanal i ruten.

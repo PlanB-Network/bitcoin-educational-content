@@ -1,5 +1,5 @@
 ---
-term: Fragmentos (rayos)
+term: Shards (lightning)
 ---
 
 En el contexto de *Pagos de rutas múltiples (MPP)* o *Pagos de rutas múltiples atómicas (AMP)*, un Shard es una fracción de un pago global. Cada Shard representa una parte del pago total, que se enruta por separado a través de una ruta diferente en Lightning.

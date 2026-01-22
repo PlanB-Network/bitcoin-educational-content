@@ -1,5 +1,5 @@
 ---
-term: Pembajakan bgp
+term: BGP hijacking
 
 ---
 

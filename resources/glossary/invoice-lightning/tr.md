@@ -1,5 +1,5 @@
 ---
-term: Invoice aydinlatma
+term: Lightning faturası
 ---
 
 Alıcı tarafından oluşturulan ve işlemi tamamlamak için gereken tüm bilgileri içeren yıldırım ödeme talebi.

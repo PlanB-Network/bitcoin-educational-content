@@ -1,5 +1,5 @@
 ---
-term: Gubuza infaso
+term: Imfashanyo y'icitunza
 ---
 
 Infashanyo y’ibarabara ni umubare w’ama bitcoins mashasha Miner yemerewe kurema iyo ashoboye Mining ibarabara. Igize igice ca Block reward, iruhande y’amahera y’ugucuruza, kandi itangwa biciye ku gucuruza kudasanzwe kwitwa Coinbase Transaction.

@@ -1,5 +1,5 @@
 ---
-term: Commitment
+term: Obavezivanje
 ---
 
 Commitment (u kriptografskom smislu) je matematički objekat, označen sa $C$, izveden deterministički iz operacije na strukturisanim podacima $m$ (poruka) i nasumične vrednosti $r$. Pišemo :

@@ -1,5 +1,5 @@
 ---
-term: Blitzschutzdienstleister
+term: Lightning Service Provider
 ---
 
 Unternehmen, das mit Lightning arbeitet und Liquiditätsdienstleistungen für Nutzer anbietet.

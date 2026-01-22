@@ -1,5 +1,5 @@
 ---
-term: Opis izlaznog skripta
+term: Deskriptori izlaznih skripti
 ---
 
 Izlazni skript deskriptori, ili jednostavno deskriptori, su strukturirani izrazi koji u potpunosti opisuju izlazni skript (`scriptPubKey`) i pružaju sve potrebne informacije za praćenje transakcija prema ili od specifičnog skripta. Ovi deskriptori olakšavaju upravljanje ključevima u HD novčanicima kroz standardni opis strukture i tipova adresa koje se koriste.

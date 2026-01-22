@@ -1,5 +1,5 @@
 ---
-term: Misturador
+term: Mixer
 ---
 
 Serviço centralizado para quebrar o histórico de moedas Bitcoin misturando fundos de vários utilizadores. Ao contrário do CoinJoin, em que os utilizadores mantêm o controlo dos seus fundos durante todo o processo de mistura, um misturador toma temporariamente posse dos bitcoins dos utilizadores, mistura-os com os de outros utilizadores e, em seguida, envia os fundos de volta para novos endereços.

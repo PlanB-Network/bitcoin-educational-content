@@ -1,5 +1,5 @@
 ---
-term: Proximity premium
+term: Premi kedekatan
 ---
 
 Dalam konteks penambangan Bitcoin, hal ini mengacu pada keuntungan finansial yang diperoleh penambang dengan mengurangi latensi komunikasi di jaringan. Penambang yang berlokasi lebih dekat akan menerima blok baru yang valid dengan lebih cepat, sehingga mereka dapat berhenti membuang-buang sumber daya untuk blok kandidat yang berada di cabang dengan akumulasi pekerjaan yang lebih sedikit. Pengurangan latensi ini meningkatkan keuntungan para penambang, yang secara alami mendorong mereka untuk mengelompokkan diri secara geografis untuk memaksimalkan pendapatan mereka.

@@ -1,5 +1,5 @@
 ---
-term: Bitcoin unlimited
+term: Bitcoin Unlimited
 ---
 
 Proposal to update the Bitcoin protocol that appeared in late summer 2016, aiming to increase block size flexibly via a hard fork.

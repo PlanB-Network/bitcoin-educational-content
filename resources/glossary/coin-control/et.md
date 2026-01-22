@@ -1,5 +1,5 @@
 ---
-term: Coin control
+term: Mündikontroll
 
 ---
 Mõnes Bitcoini rahakoti tarkvaras leiduv funktsioon, mis annab kasutajatele võimaluse valida käsitsi konkreetsed UTXOd (Unspent Transaction Outputs), mida kasutada tehingu tegemisel sisendina. Teisisõnu pakub mündikontroll võimalust täpselt valida, millised bitcoinid kulutatakse. See funktsionaalsus on sarnane tegevusega, mille puhul valite oma rahakotist konkreetse mündi, et maksta oma baguette'i eest.

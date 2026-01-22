@@ -1,5 +1,5 @@
 ---
-term: Dan zastave
+term: Flag day
 ---
 
 Metod aktiviranja Soft Fork korišćen u ranim godinama Bitcoin. Ovaj proces jednostavno postavlja rok, poznat kao "Flag Day," pre kojeg ažuriranje protokola mora biti usvojeno od strane cele mreže. Ovaj pristup je jednostavan: nakon ovog datuma, čvorovi i rudari moraju ažurirati svoj softver kako bi bili u skladu sa novim pravilima, inače rizikuju da budu na nekompatibilnom lancu.

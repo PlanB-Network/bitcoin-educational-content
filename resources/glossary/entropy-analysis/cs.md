@@ -1,5 +1,5 @@
 ---
-term: Entropie (analýza)
+term: Analýza entropie
 
 ---
 Ve specifickém kontextu řetězové analýzy je entropie také název ukazatele, odvozený od Shannonovy entropie, kterou vynalezl LaurentMT. Tento ukazatel umožňuje měřit nedostatek znalostí, které mají analytici o přesné konfiguraci bitcoinové transakce. Jinými slovy, čím vyšší je entropie transakce, tím obtížnější je pro analytiky identifikovat pohyby bitcoinů mezi vstupy a výstupy.

@@ -1,5 +1,5 @@
 ---
-term: Konsoli̇dasyon
+term: Konsolidasyon
 ---
 
 Birden fazla küçük UTXO'nun çıktı olarak tek ve daha büyük bir UTXO oluşturmak üzere tek bir girdide birleştirildiği özel bir işlem. Bu işlem kişinin kendi Wallet'ine yapılan bir işlemdir. Konsolidasyonun amacı, Bitcoin ağındaki ücretlerin düşük olduğu dönemlerden yararlanarak birkaç küçük UTXO'yu değer olarak daha büyük bir UTXO'da birleştirmektir. Böylece, ücret artışları durumunda zorunlu harcamaları öngörerek gelecekteki işlem ücretlerinden tasarruf edilmesini sağlar.

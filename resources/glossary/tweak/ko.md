@@ -1,5 +1,5 @@
 ---
-term: Tweak
+term: 트윅 (Tweak)
 
 ---
 

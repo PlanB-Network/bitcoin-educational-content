@@ -1,5 +1,5 @@
 ---
-term: Lampo c (cln)
+term: C-lightning (CLN)
 
 ---
 Nome precedente dell'implementazione di Core-Lightning.

@@ -1,5 +1,5 @@
 ---
-term: Address hergebruik
+term: Adreshergebruik
 ---
 
 Address hergebruik verwijst naar de praktijk om dezelfde ontvangende Address te gebruiken om meerdere UTXO's te blokkeren, soms binnen verschillende transacties. Bitcoins worden meestal geblokkeerd met een cryptografisch sleutelpaar dat overeenkomt met een unieke Address. Aangezien de Blockchain openbaar is, is het eenvoudig te zien welke adressen bij hoeveel bitcoins horen. Omdat de Blockchain openbaar is, is het eenvoudig om te zien welke adressen geassocieerd zijn met hoeveel bitcoins. In het geval van hergebruik van dezelfde Address voor meerdere betalingen, is het redelijk om je voor te stellen dat alle geassocieerde UTXO's aan dezelfde entiteit toebehoren. Daarom vormt hergebruik van Address een probleem voor de privacy van de gebruiker. Het maakt deterministische koppelingen tussen meerdere transacties en UTXO's mogelijk, en bestendigt het volgen van On-Chain fondsen. Satoshi Nakamoto noemde dit probleem al in zijn witboek:

@@ -1,5 +1,5 @@
 ---
-term: Bitcoin (capital b)
+term: Bitcoin (suur B)
 
 ---
 Bitcoin on Satoshi Nakamoto poolt 2009. aastal loodud peer-to-peer elektroonilise rahasüsteemi nimi. Mõiste Bitcoin koos suure B-ga võib viidata kolmele erinevale asjale:

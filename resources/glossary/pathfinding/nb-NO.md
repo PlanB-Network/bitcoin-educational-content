@@ -1,5 +1,5 @@
 ---
-term: Pathfinding
+term: Stifinner
 ---
 
 Prosess som brukes av en node for å finne den optimale veien for ruting av en betaling gjennom Lightning Channel-nettverket. Pathfinding utføres av betalernoden, som må velge de mest egnede mellomliggende nodene for å nå mottakeren. Dette valget er basert på en rekke kriterier, for eksempel gebyrer, kanalkapasitet og tidssperrer.

@@ -1,5 +1,5 @@
 ---
-term: Ikyungura ry'amashurwe
+term: Bloom filter
 ---
 
 Akayunguruzo ka Bloom ni ubuhinga bw'amakuru bukoreshwa mu kugerageza nimba ikintu ari umunyamuryango w'umugwi.

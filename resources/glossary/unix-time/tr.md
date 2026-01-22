@@ -1,5 +1,5 @@
 ---
-term: Unix zamani
+term: Unix zamanı
 ---
 
 Unix Zamanı veya Unix Timestamp, 1 Ocak 1970, gece yarısı UTC'den (Unix Epoch) bu yana geçen saniye sayısını temsil eder. Bu sistem Unix işletim sistemlerinde ve türevlerinde zamanı evrensel ve standart bir şekilde işaretlemek için kullanılır. Zaman dilimlerinden bağımsız olarak saatlerin senkronizasyonunu ve zamana dayalı olayların yönetimini sağlar.

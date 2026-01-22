@@ -1,5 +1,5 @@
 ---
-term: (Lohko)
+term: Vanhentunut (lohko)
 
 ---
 Viittaa lohkoon, jolla ei ole lapsia: kelvollinen lohko, mutta joka on suljettu Bitcoinin pääketjun ulkopuolelle. Se tapahtuu, kun kaksi louhijaa löytää kelvollisen lohkon samalla ketjun korkeudella lyhyen ajan sisällä ja lähettää sen verkon kautta. Solmut valitsevat lopulta vain yhden lohkon ketjuun sisällytettäväksi sen periaatteen mukaisesti, että ketju, johon on kertynyt eniten työtä, tekee toisesta lohkosta "vanhentuneen". Prosessi, joka johtaa vanhentuneen lohkon tuottamiseen, on seuraava:

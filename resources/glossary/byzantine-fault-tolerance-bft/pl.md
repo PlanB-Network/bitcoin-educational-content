@@ -1,5 +1,5 @@
 ---
-term: Tolerancja na błędy bizantyjskie (bft)
+term: Tolerancja na błędy bizantyjskie (BFT)
 ---
 
 Koncepcja stosowana w systemach rozproszonych w celu zapewnienia niezawodnego i bezpiecznego konsensusu, nawet w obecności wadliwych lub złośliwych węzłów.

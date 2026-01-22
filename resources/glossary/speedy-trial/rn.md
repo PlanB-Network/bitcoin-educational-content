@@ -1,5 +1,5 @@
 ---
-term: Kugezaho kwihuta
+term: Speedy trial
 ---
 
 Uburyo bwo gukoresha Soft Fork bwatanguye gutegurwa kuri Taproot mu ntango za 2021 na David A. Harding bushingiye ku ciyumviro ca Russell O’Connor. Ingingo yayo ni ugukoresha uburyo bwa BIP8 bufise `LOT` parameter ishizwe kuri `false`, mu gihe ugabanya igihe co gukora ku mezi 3 gusa. Ico gihe c’amatora kigabanutse kiratuma umuntu ashobora kugenzura ningoga ko Miner yemejwe. Iyo umuntu ashitse ku rugero rukenewe rwo kwemererwa muri kimwe muri ivyo bihe, Soft Fork iraheza igafungurwa, izotangura gukora haciye amezi menshi, gutyo abacukuzi baronke umwanya ukenewe wo guhindura porogarama zabo.

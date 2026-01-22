@@ -1,5 +1,5 @@
 ---
-term: Doble gasto (ataque)
+term: Doble gasto
 
 ---
 Un ataque en el que un usuario malintencionado intenta utilizar el mismo UTXO (*Unspent Transaction Output*) más de una vez para enriquecerse a costa de las partes implicadas en las transacciones. En principio, una vez que una transacción se confirma en un bloque y se añade al blockchain, el uso de esos bitcoins queda registrado de forma permanente, impidiendo cualquier gasto posterior de los mismos bitcoins. Evitar el doble gasto es incluso la principal utilidad de la blockchain.

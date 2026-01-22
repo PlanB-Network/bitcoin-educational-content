@@ -1,5 +1,5 @@
 ---
-term: Qr code
+term: QR-koodi
 
 ---
 Kaksiulotteinen viivakoodityyppi, joka voidaan nopeasti skannata mobiililaitteilla. QR-koodi tallentaa tiedot mustavalkoisina pikseleinä, jotka on järjestetty neliöön valkoisella pohjalla. QR-koodien tärkeä ominaisuus on, että ne sisältävät BCH-virheenkorjauskoodeja, joiden avulla tiedot voidaan palauttaa, vaikka QR-koodi olisi osittain peittynyt.

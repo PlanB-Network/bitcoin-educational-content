@@ -1,5 +1,5 @@
 ---
-term: Zijdeweg
+term: Silk road
 ---
 
 Silk Road was een dark web platform opgericht door Ross Ulbricht, ook bekend onder het pseudoniem Dread Pirate Roberts. Deze online marktplaats werd gelanceerd in 2011 en stelde gebruikers in staat om zowel legale als illegale producten en diensten te kopen en te verkopen, terwijl ze hun anonimiteit behielden door het gebruik van Tor en Bitcoin-betalingen. Silk Road bood een breed scala aan artikelen aan, voornamelijk drugs en voorgeschreven medicijnen, maar sloot activiteiten uit die in strijd werden geacht met de beginselen van de natuurwet, zoals de verkoop van huurmoordenaarsdiensten of kinderpornografische inhoud.

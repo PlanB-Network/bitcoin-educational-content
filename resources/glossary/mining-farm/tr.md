@@ -1,5 +1,5 @@
 ---
-term: Mining çi̇ftli̇ği̇
+term: Madencilik çiftliği
 ---
 
 Çok sayıda Mining makinesinin (genellikle ASIC'ler) Proof of Work sürecine katılarak Bitcoin madenciliği yapmak üzere bir araya getirildiği tesis. Bu gruplamanın amacı makine parkının yönetimini kolaylaştırmak ve özellikle kurulum, bakım, soğutma, elektrik Supply ve ağ bağlantısı açısından ölçek ekonomileri elde etmektir. Mining çiftliği ayrıca madencilerin yakınlığını artırmayı ve böylece karlılıklarını etkileyebilecek gecikme süresini azaltmayı amaçlamaktadır.

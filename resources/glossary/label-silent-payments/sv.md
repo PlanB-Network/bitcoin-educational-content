@@ -1,5 +1,5 @@
 ---
-term: Etikett (tysta betalningar)
+term: Label (silent payments)
 ---
 
 Inom Silent Payments-protokollet är etiketter heltal som används för att modifiera den ursprungliga statiska Address för att skapa många andra statiska adresser. Användningen av dessa etiketter gör det möjligt att separera betalningar som skickas via Silent Payments genom att använda olika statiska adresser för varje användning, utan att i alltför hög grad öka den operativa bördan för att upptäcka dessa betalningar (skanning). Bob använder en statisk Address $B$, som består av två publika nycklar: $B_{\text{scan}}$ för scanning och $B_{\text{spend}}$ för utgifter. Hash av $b_{\text{scan}}$ och ett heltal $m$, skalarmultiplicerat med generatorpunkten $G$, läggs till den publika nyckeln för utgifter $B_{\text{spend}}$ för att skapa en sorts ny publik nyckel för utgifter $B_m$:

@@ -1,5 +1,5 @@
 ---
-term: Atomära betalningar med flera vägar
+term: Atomic multi-path payments
 ---
 
 Förbättrad version av MPP (*Multi-Path Payments*) där varje betalningsfragment har en distinkt partiell hemlighet, vilket säkerställer att transaktionen avvecklas atomiskt, dvs. i sin helhet eller inte alls.

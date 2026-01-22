@@ -1,5 +1,5 @@
 ---
-term: Kiriklar (yildirim)
+term: Shards (lightning)
 ---
 
 Çok Yollu Ödemeler (MPP) veya Atomik Çok Yollu Ödemeler (AMP) bağlamında, bir Shard global bir ödemenin bir kısmıdır. Her Shard, Lightning üzerinde farklı bir rota üzerinden ayrı ayrı yönlendirilen toplam ödemenin bir bölümünü temsil eder.

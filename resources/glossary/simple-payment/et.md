@@ -1,5 +1,5 @@
 ---
-term: Lihtsam makse
+term: Lihtne makse
 
 ---
 Tehingumuster (või mudel), mida kasutatakse ahela analüüsis, mida iseloomustab ühe või mitme UTXO tarbimine sisenditena ja 2 UTXO tootmine väljunditena. See mudel näeb seega välja järgmiselt:

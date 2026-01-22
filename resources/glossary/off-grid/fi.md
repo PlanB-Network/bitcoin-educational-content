@@ -1,5 +1,5 @@
 ---
-term: Off-grid
+term: Sähköverkon ulkopuolella
 ---
 
 Tarkoittaa Bitcoin Mining-toimintaa, joka toimii itsenäisesti ilman yhteyttä pääverkkoon. Verkon ulkopuoliset kaivostoiminnan harjoittajat käyttävät yleensä vaihtoehtoisia energialähteitä, kuten aurinko-, tuuli- tai vesivoimaa, tai jopa fossiilisilla polttoaineilla (esim. soihdutuskaasulla) toimivia generaattoreita. Tätä mallia suositaan usein energiakustannusten alentamiseksi, koska se perustuu osittain energiaan, joka ilman Mining:tä menisi hukkaan. Verkon ulkopuolisilla kaivostoiminnan harjoittajilla on se etu, että he voivat sijoittautua eristettyihin paikkoihin, jotta energiaa voidaan kuluttaa liian kaukana asutuksesta.

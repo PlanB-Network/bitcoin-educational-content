@@ -1,5 +1,5 @@
 ---
-term: Maandiko
+term: Maandishi
 ---
 
 Katika muktadha wa Nadharia ya Kawaida, maandishi ni maudhui ya kiholela yaliyochongwa kwenye Sats, na kuyageuza kuwa vizalia vya asili vya kidijitali vya Bitcoin. Maandishi hufanywa kupitia miamala inayofichua yaliyomo katika habari katika hati ya ingizo la Taproot kwa njia hii:

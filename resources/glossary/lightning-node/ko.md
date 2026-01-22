@@ -1,5 +1,5 @@
 ---
-term: Lightning node
+term: 라이트닝 노드
 
 ---
 

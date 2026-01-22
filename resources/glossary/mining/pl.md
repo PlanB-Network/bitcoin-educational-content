@@ -1,5 +1,5 @@
 ---
-term: Mining
+term: Wydobycie
 ---
 
 Akt uczestnictwa w Proof-of-Work systemu Bitcoin (Proof-of-Work). Proof-of-Work to mechanizm służący do odpierania ataków typu Sybil. Jest podstawą mechanizmu konsensusu Nakamoto, który jest zasadą wykorzystywaną do ustanowienia porozumienia w sprawie pojedynczej wersji rozproszonego Ledger między różnymi węzłami sieci.

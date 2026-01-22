@@ -1,5 +1,5 @@
 ---
-term: Seidenstrasse
+term: Silk Road
 
 ---
 Silk Road war eine Dark-Web-Plattform, die von Ross Ulbricht, auch bekannt unter dem Pseudonym Dread Pirate Roberts, gegründet wurde. Dieser 2011 gestartete Online-Marktplatz ermöglichte es den Nutzern, sowohl legale als auch illegale Produkte und Dienstleistungen zu kaufen und zu verkaufen, wobei sie ihre Anonymität durch die Verwendung von Tor und Bitcoin-Zahlungen wahren konnten. Silk Road bot eine breite Palette von Produkten an, vor allem Drogen und verschreibungspflichtige Medikamente, schloss aber Aktivitäten aus, die gegen die Grundsätze des Naturrechts verstießen, wie den Verkauf von Auftragskillern oder kinderpornografischen Inhalten.

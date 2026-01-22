@@ -1,5 +1,5 @@
 ---
-term: Bitcoin satoshi vision (bsv)
+term: Bitcoin Satoshi Vision (BSV)
 ---
 
 Sistem kriptovaluta koji proizilazi iz Hard Fork od Bitcoin Cash (BCH), koji je sam po sebi Fork od Bitcoin (BTC). Bitcoin SV Fork se dogodio 15. novembra 2018. na bloku 556,766 zbog nesuglasica unutar zajednice Bitcoin Cash, posebno u vezi sa veličinom bloka i navodnom vizijom Satoshi Nakamoto, tvorca Bitcoin. Dve frakcije su se sukobile:

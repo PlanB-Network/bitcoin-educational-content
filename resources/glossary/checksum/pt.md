@@ -1,5 +1,5 @@
 ---
-term: Checksum
+term: Soma de verificação
 ---
 
 A soma de controlo é um valor calculado a partir de um conjunto de dados, utilizado para verificar a integridade e a validade desses dados durante a transmissão ou o armazenamento. Os algoritmos de soma de controlo são concebidos para detetar erros acidentais ou alterações não intencionais dos dados, tais como erros de transmissão ou corrupção de ficheiros. Existem diferentes tipos de algoritmos de soma de controlo, tais como verificações de paridade, somas de controlo modulares, funções criptográficas Hash ou códigos BCH (*Bose, Ray-Chaudhuri e Hocquenghem*).

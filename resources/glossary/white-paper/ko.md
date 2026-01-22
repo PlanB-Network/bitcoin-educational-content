@@ -1,5 +1,5 @@
 ---
-term: White paper
+term: 백서
 
 ---
 

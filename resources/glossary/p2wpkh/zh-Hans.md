@@ -1,5 +1,5 @@
 ---
-term: P2WPKH (支付到隔离见证公钥哈希)
+term: P2WPKH
 
 ---
 P2WPKH 是 *Pay to Witness Public Key Hash* 的缩写。它是一种标准脚本模型，用于在 UTXO 上建立消费条件。P2WPKH 是在 2017 年 8 月实施 SegWit 时引入的。

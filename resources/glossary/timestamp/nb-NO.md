@@ -1,5 +1,5 @@
 ---
-term: Timestamp
+term: Tidsstempel
 
 ---
 

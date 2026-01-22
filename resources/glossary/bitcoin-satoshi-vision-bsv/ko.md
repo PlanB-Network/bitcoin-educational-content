@@ -1,5 +1,5 @@
 ---
-term: Bitcoin satoshi 비전(bsv)
+term: Bitcoin Satoshi Vision (BSV)
 ---
 
 Bitcoin 캐시(BCH)의 Hard Fork에서 파생된 암호화폐 시스템으로, 그 자체는 Bitcoin(BTC)의 Fork입니다. 2018년 11월 15일, 블록 556,766에서 Bitcoin SV Fork가 발생했는데, 이는 특히 블록 크기와 Satoshi 나카모토의 Bitcoin에 대한 '비전' 해석에 관한 Bitcoin 캐시 커뮤니티 내 이견으로 인해 발생했습니다.

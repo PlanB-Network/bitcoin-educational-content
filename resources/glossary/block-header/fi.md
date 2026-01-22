@@ -1,5 +1,5 @@
 ---
-term: Block header
+term: Lohkon otsake
 
 ---
 Lohkon otsikko on tietorakenne, joka on Bitcoin-lohkon rakentamisen pääkomponentti. Jokainen lohko koostuu otsikosta ja transaktioiden luettelosta. Lohko-otsikko sisältää ratkaisevia tietoja, joilla varmistetaan lohkon eheys ja pätevyys lohkoketjussa. Lohkootsikko sisältää 80 tavua metatietoa, ja se koostuu seuraavista elementeistä:

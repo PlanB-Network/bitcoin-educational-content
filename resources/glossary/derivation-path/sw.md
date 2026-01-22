@@ -1,5 +1,5 @@
 ---
-term: Njia ya derivation
+term: Njia ya utoaji
 ---
 
 Katika muktadha wa pochi za Hierarkia Deterministic (HD), njia ya uasilia inarejelea mlolongo wa fahirisi zinazotumiwa kupata funguo za watoto kutoka kwa ufunguo mkuu. Imefafanuliwa katika BIP32, njia hii inabainisha muundo wa mti wa kupata funguo za watoto. Njia ya unyambulishaji inawakilishwa na mfululizo wa fahirisi zilizotenganishwa na mikwaju, na kila mara huanza na ufunguo mkuu (unaoashiria `m/`). Kwa mfano, njia ya kawaida inaweza kuwa `m/84'/0'/0'/0/0`. Kila ngazi ya derivation inahusishwa na kina maalum:

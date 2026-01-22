@@ -1,5 +1,5 @@
 ---
-term: Bysanttilainen vikasietoisuus (bft)
+term: Bysanttilainen vikasietoisuus (BFT)
 
 ---
 Käsite, jota käytetään hajautetuissa järjestelmissä varmistamaan luotettava ja turvallinen konsensus myös silloin, kun solmut ovat viallisia tai pahantahtoisia.

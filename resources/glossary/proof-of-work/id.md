@@ -1,5 +1,5 @@
 ---
-term: Proof-of-work
+term: Proof of work
 
 ---
 Sebuah mekanisme perlindungan terhadap serangan Sybil, yang ditandai dengan pembuatan beberapa identitas palsu, dengan tujuan untuk mendapatkan keuntungan yang tidak sah. Dengan demikian, _proof-of-work_ menetapkan biaya marjinal yang tidak dapat diabaikan untuk penggandaan suara pada Bitcoin. _Proof-of-work_ merupakan dasar dari mekanisme konsensus Nakamoto, yang merupakan prinsip yang digunakan untuk mencapai kesepakatan pada satu versi buku besar terdistribusi di antara berbagai node dalam jaringan. Secara khusus, _proof-of-work_ melibatkan pencarian sebuah nilai yang, ketika dilewatkan melalui sebuah fungsi matematis acak (_hashing_), memberikan sebuah hasil yang lebih rendah daripada sebuah angka target. Target _proof-of-work_ ini disesuaikan setiap 2016 blok oleh node. Hal ini dikenal sebagai penyesuaian tingkat kesulitan. Angka target diturunkan untuk meningkatkan kesulitan menambang, atau dinaikkan untuk menguranginya, tergantung pada evolusi daya komputasi yang digunakan oleh para penambang selama periode sebelumnya.

@@ -1,5 +1,5 @@
 ---
-term: Násilí zavřít
+term: Vynucené zavření
 ---
 
 Nespolupracující mechanismus uzavírání bleskového kanálu. Když dva uživatelé otevřou kanál s Multisig 2/2, každý z nich může jednostranně uzavřít kanál odvysíláním posledního již podepsaného Commitment Transaction, aby získal zpět své bitcoiny v řetězci. Tento postup je znám jako "vynucené uzavření".

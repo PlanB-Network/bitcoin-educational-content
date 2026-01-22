@@ -1,5 +1,5 @@
 ---
-term: Implementação da bitcoin
+term: Implementação do Bitcoin
 
 ---
 Refere-se ao software que aplica e segue as regras definidas pelo protocolo Bitcoin. O que é geralmente chamado de "Bitcoin" é o sistema de dinheiro eletrónico. É um protocolo que especifica regras. É representado, concretamente, por nós que formam uma rede. Este sistema não tem especificamente um código. É simplesmente um conjunto de regras tácitas gerais impostas pelo consenso dos utilizadores através dos seus nós. No entanto, aqueles que têm código de computador, e podem, portanto, ser desenvolvidos, mantidos e modificados, são antes o software do nó Bitcoin. Estes são implementações independentes do protocolo Bitcoin, que podem se conectar ao resto da rede.

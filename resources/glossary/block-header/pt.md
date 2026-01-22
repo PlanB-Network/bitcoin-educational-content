@@ -1,5 +1,5 @@
 ---
-term: Cabeçalho de bloco
+term: Cabeçalho do bloco
 
 ---
 O cabeçalho do bloco é uma estrutura de dados que serve como o principal componente na construção de um bloco Bitcoin. Cada bloco é composto por um cabeçalho e uma lista de transacções. O cabeçalho do bloco contém informações cruciais que garantem a integridade e a validade de um bloco dentro da cadeia de blocos. O cabeçalho do bloco contém 80 bytes de metadados e é composto pelos seguintes elementos:

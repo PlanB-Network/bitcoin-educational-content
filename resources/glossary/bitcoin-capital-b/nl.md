@@ -1,5 +1,5 @@
 ---
-term: Bitcoin (hoofdletter b)
+term: Bitcoin (hoofdletter B)
 ---
 
 Bitcoin is de naam van het peer-to-peer elektronisch geldsysteem dat in 2009 werd gecreëerd door Satoshi Nakamoto. Het gebruik van de term Bitcoin met een hoofdletter "B" kan verwijzen naar drie verschillende dingen:

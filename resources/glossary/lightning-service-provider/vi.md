@@ -1,5 +1,5 @@
 ---
-term: Nhà cung cấp dịch vụ sét
+term: Nhà cung cấp dịch vụ Lightning
 ---
 
 Công ty hoạt động trên Lightning với mục đích cung cấp dịch vụ thanh khoản cho người dùng.

@@ -1,5 +1,5 @@
 ---
-term: Doppelausgaben (angriff)
+term: Double Spending
 
 ---
 Ein Angriff, bei dem ein böswilliger Benutzer versucht, denselben UTXO (*Unspent Transaction Output*) mehr als einmal zu verwenden, um sich auf Kosten der an den Transaktionen beteiligten Parteien zu bereichern. Sobald eine Transaktion in einem Block bestätigt und der Blockchain hinzugefügt wurde, wird die Verwendung dieser Bitcoins im Prinzip dauerhaft aufgezeichnet, was weitere Ausgaben derselben Bitcoins verhindert. Die Verhinderung von Doppelausgaben ist sogar der Hauptnutzen der Blockchain.

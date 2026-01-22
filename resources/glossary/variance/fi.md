@@ -1,5 +1,5 @@
 ---
-term: Variance
+term: Varianssi
 ---
 
 Mining:ssa tämä tarkoittaa Miner:n tulojen vaihtelua, joka johtuu kelvollisten lohkojen löytämisen todennäköisyydestä. Vaikka laskentateho olisi vakio, lohkon löytämiseen kuluva aika voi vaihdella huomattavasti. Tämän seurauksena louhijat voivat olla pitkiä aikoja ilman palkkiota, minkä jälkeen taas voi tulla suuria tuloja.

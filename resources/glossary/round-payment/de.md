@@ -1,5 +1,5 @@
 ---
-term: Rundumzahlung
+term: Rundzahlung
 
 ---
 Eine interne Heuristik für die Kettenanalyse bei Bitcoin, die eine Hypothese über die Art der Ausgaben einer Transaktion auf der Grundlage von runden Beträgen ermöglicht. Im Allgemeinen gilt bei einem einfachen Zahlungsmuster (1 Eingang und 2 Ausgänge), dass wenn einer der Ausgänge einen runden Betrag ausgibt, er die Zahlung darstellt. Wenn ein Ausgang die Zahlung darstellt, steht der andere für das Wechselgeld. Daraus lässt sich ableiten, dass der Benutzer, der die Transaktion eingibt, wahrscheinlich noch im Besitz der Ausgabe ist, die als Wechselgeld identifiziert wurde.

@@ -1,5 +1,5 @@
 ---
-term: Node
+term: Nod
 ---
 
 I Bitcoin-nätverket är en nod (eller "nod" på engelska) en dator som kör en Bitcoin-protokollklient (som till exempel Bitcoin Core). Den deltar i nätverket genom att upprätthålla en kopia av Blockchain, vidarebefordra och verifiera transaktioner och nya block samt eventuellt delta i Mining-processen. Summan av alla Bitcoin-noder representerar själva Bitcoin-nätverket.

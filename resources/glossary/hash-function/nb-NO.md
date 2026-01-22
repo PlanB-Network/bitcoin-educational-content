@@ -1,5 +1,5 @@
 ---
-term: Hash function
+term: Hash-funksjon
 
 ---
 En matematisk funksjon som tar en variabel størrelse input (kalt en melding) og produserer en fast størrelse output (kalt hash, hashing, digest eller fingeravtrykk). Hash-funksjoner er mye brukte primitiver innen kryptografi. De har spesifikke egenskaper som gjør dem egnet for bruk i sikre sammenhenger:

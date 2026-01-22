@@ -1,5 +1,5 @@
 ---
-term: Pružalac usluga munje
+term: Lightning service provider
 ---
 
 Kompanija koja posluje na Lightning mreži čiji je posao pružanje usluga likvidnosti korisnicima.

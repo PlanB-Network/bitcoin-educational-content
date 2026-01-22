@@ -1,5 +1,5 @@
 ---
-term: Orphan
+term: Föräldralös
 ---
 
 Teoretiskt sett avser en Orphan block ett giltigt block som tas emot av en nod som ännu inte har förvärvat det överordnade blocket, det vill säga det föregående i kedjan. Även om detta block är giltigt förblir det isolerat lokalt som ett föräldralöst block.

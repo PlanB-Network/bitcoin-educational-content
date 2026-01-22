@@ -1,5 +1,5 @@
 ---
-term: Rbf (replace-by-fee)
+term: RBF (zamena provizijom)
 ---
 
 Transakcioni mehanizam koji omogućava pošiljaocu da zameni jednu transakciju drugom plaćanjem viših naknada, kako bi ubrzao njeno potvrđivanje. Ako se transakcija sa preniskim naknadama zaglavi, pošiljalac može koristiti *Replace-by-fee* da poveća naknade i prioritizuje njihovu zamensku transakciju u mempool-ovima.

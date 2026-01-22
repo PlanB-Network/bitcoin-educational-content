@@ -1,5 +1,5 @@
 ---
-term: Ruwe transactie
+term: Raw transactie
 ---
 
 Een Bitcoin transactie die is opgebouwd en ondertekend, in binaire vorm. Een ruwe transactie (*raw TX*) is de laatste representatie van een transactie, net voordat deze wordt uitgezonden op het netwerk. Deze transactie bevat alle benodigde informatie voor opname in een blok:

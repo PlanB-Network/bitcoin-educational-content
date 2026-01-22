@@ -1,5 +1,5 @@
 ---
-term: Pruned urudodo
+term: Pruned node
 ---
 
 Igikoresho ca pruned, mu congereza "pruned Node", ni igikoresho ca Full node gikora ugukata Blockchain. Ivyo birimwo gukuraho buhorobuhoro amabuye ya kera cane, amaze kuyasuzuma neza, kugira ngo hasigare amabuye aherutse gusa. Igitigiri co kubika kigaragazwa muri dosiye `Bitcoin.conf` biciye ku nzira ya `prune=n`, aho `n` ari ubunini burengeye ubundi bufatwa n'ibice mu megabytes (MB). Iyo `0` igaragajwe inyuma y'iyi parametere, rero gukata birahagarara, kandi urudodo rugumya Blockchain yose uko ingana.

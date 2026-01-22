@@ -1,5 +1,5 @@
 ---
-term: 代幣大通
+term: 幣基交易
 ---
 
 Coinbase Transaction 是包含在 Bitcoin Blockchain 每個區塊中的特殊且唯一的交易。它代表區塊的第一筆交易，由成功找到驗證 Proof of Work (*Proof-of-Work*) 的標頭（即小於或等於目標）的 Miner 建立。

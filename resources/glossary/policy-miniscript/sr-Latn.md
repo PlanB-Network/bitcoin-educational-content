@@ -1,5 +1,5 @@
 ---
-term: Politika (miniscript)
+term: Politika (Miniscript)
 ---
 
 Jezik visokog nivoa, usmeren ka korisniku, koji omogućava jednostavno određivanje uslova pod kojima se UTXO može otključati u okviru Miniscript-a. Politika je apstraktni opis pravila trošenja. Ona se zatim može kompajlirati u miniscript, koji je jedan-na-jedan ekvivalent sa operacijama iz izvornog skriptnog jezika Bitcoin.

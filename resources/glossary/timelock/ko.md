@@ -1,5 +1,5 @@
 ---
-term: Timelock
+term: 타임락
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-term: Bloktitel
+term: Block header
 ---
 
 De blokkop is een datastructuur die dient als belangrijkste component in de opbouw van een Bitcoin blok. Elk blok bestaat uit een header en een lijst van transacties. De block header bevat cruciale informatie die de integriteit en geldigheid van een blok binnen de Blockchain garandeert. De koptekst van het blok bevat 80 bytes aan metadata en is samengesteld uit de volgende Elements:

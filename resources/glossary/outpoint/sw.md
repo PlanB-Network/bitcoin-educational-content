@@ -1,5 +1,5 @@
 ---
-term: Maelezo
+term: Outpoint
 ---
 
 Rejeleo la kipekee la pato la muamala ambalo halijatumika (UTXO). Inajumuisha Elements mbili:

@@ -1,5 +1,5 @@
 ---
-term: Amafaraga abiri
+term: Dual funding
 ---
 
 Iyo umurongo wa Lightning ufunguwe, infashanyo zibiri zituma abo bompi bashobora gufunga ama bitcoins mu muhora. Ubutandukanye n’akarorero ka kera, aho urudodo rumwe gusa rutanga amahera y’umuyoboro, ubu buryo buratuma abo bompi bawutanga amahera, bikaba bituma habaho uburinganire bw’amahera ubwo nyene.

@@ -1,5 +1,5 @@
 ---
-term: Ücret sniping
+term: Fee sniping
 ---
 
 Madencilerin, içerdiği işlem ücretlerini talep etmek için yakın zamanda onaylanmış bir bloğu yeniden yazmaya çalıştıkları ve bu arada Mempool'e gelen yüksek ücretli işlemleri ekledikleri bir saldırı senaryosu. Miner için bu saldırının nihai amacı karlılıklarını artırmaktır. Block reward azaldıkça ve işlem ücretleri madencilerin gelirlerinin daha büyük bir bölümünü oluşturdukça ücret sniping'i giderek daha karlı hale gelebilir. Ayrıca, bir önceki blokta yer alan ücretler bir sonraki en iyi aday blokta yer alan ücretlerden önemli ölçüde daha yüksek olduğunda da avantajlı olabilir. Basitleştirmek gerekirse, Miner teşvikler açısından bu seçimle karşı karşıyadır:

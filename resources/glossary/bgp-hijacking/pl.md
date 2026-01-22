@@ -1,5 +1,5 @@
 ---
-term: Bgp hijacking
+term: Przejmowanie BGP
 ---
 
 Atak, w którym złośliwy aktor manipuluje reklamami BGP w celu przekierowania ruchu internetowego do własnej sieci. Podszywając się pod legalne pochodzenie określonych zakresów adresów IP Address, atakujący może przechwytywać, monitorować lub blokować ruch przeznaczony dla tych adresów.

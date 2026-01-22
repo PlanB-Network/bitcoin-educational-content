@@ -1,5 +1,5 @@
 ---
-term: Adressin kierrätys
+term: Osoitteen uudelleenkäyttö
 
 ---
 Osoitteen uudelleenkäytöllä tarkoitetaan käytäntöä, jossa samaa vastaanottoosoitetta käytetään useiden UTXO:iden estämiseen, joskus useiden eri tapahtumien sisällä. Bitcoineja lukitaan tyypillisesti kryptografisella avainparilla, joka vastaa yksilöllistä osoitetta. Koska lohkoketju on julkinen, on helppo nähdä, mihin osoitteisiin liittyy kuinka monta bitcoinia. Jos samaa osoitetta käytetään uudelleen useisiin maksuihin, on järkevää kuvitella, että kaikki siihen liittyvät UTXO:t kuuluvat samalle taholle. Osoitteiden uudelleenkäyttö aiheuttaa siis ongelman käyttäjän yksityisyydelle. Se mahdollistaa determinististen yhteyksien luomisen useiden transaktioiden ja UTXO:iden välille sekä säilyttää ketjussa tapahtuvan rahastojen seurannan. Satoshi Nakamoto mainitsi tämän ongelman jo valkoisessa kirjassaan:

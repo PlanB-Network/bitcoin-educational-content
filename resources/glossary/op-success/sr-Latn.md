@@ -1,5 +1,5 @@
 ---
-term: OP_USPEH
+term: OP_SUCCESS
 ---
 
 `OP_SUCCESS` predstavlja niz opkodova koji su ranije bili onemogućeni i sada su rezervisani za buduću upotrebu u Tapscript-u. Njihov krajnji cilj je da olakšaju ažuriranja i proširenja jezika skripti, omogućavajući uvođenje novih funkcionalnosti putem Soft forkova. Kada se jedan od ovih opkodova susretne u skripti, to označava automatski uspeh tog dela skripte, bez obzira na prisutne podatke ili uslove. To znači da skripta nastavlja sa izvršavanjem bez greške, nezavisno od prethodnih operacija.

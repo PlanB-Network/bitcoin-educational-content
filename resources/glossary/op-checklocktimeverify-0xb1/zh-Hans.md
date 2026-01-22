@@ -1,5 +1,5 @@
 ---
-term: OP_CHECKLOCKTIMEVERIFY (0xB1)
+term: OP_CHECKLOCKTIMEVERIFY (0XB1)
 
 ---
 使交易无效，除非满足所有以下条件：

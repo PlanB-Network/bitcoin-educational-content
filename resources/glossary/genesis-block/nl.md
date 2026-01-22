@@ -1,5 +1,5 @@
 ---
-term: Genesis blok
+term: Genesisblok
 ---
 
 Het Genesis blok is het eerste blok van het Bitcoin systeem. Het betekent de concrete lancering van Bitcoin. Het Genesis blok werd gemaakt door de anonieme oprichter van Bitcoin, Satoshi Nakamoto, op 3 januari 2009. Zijn Hash is:

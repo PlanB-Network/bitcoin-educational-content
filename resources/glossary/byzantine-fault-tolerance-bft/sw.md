@@ -1,5 +1,5 @@
 ---
-term: Uvumilivu wa kosa wa byzantine (bft)
+term: Uvumilivu wa makosa wa Byzantine (BFT)
 ---
 
 Dhana inayotumiwa katika mifumo iliyosambazwa ili kuhakikisha maelewano ya kuaminika na salama, hata mbele ya nodi mbovu au hasidi.

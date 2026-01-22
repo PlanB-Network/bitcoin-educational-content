@@ -1,5 +1,5 @@
 ---
-term: Merkle tree
+term: Igiti ca Merkle
 ---
 
 Merkle Tree ni igikoresho co kwirundanira amakuru y’ibanga. Ni uburyo bwo kwemeza ubunywanyi bw'amakuru yatanzwe mu mugwi munini. Ni urutonde rw’amakuru rworosha kugenzura amakuru mu buryo bubereye. Mu nzira ya Bitcoin, Ibiti vya Merkle bikoreshwa mu gukoranya no gukoranya ibikorwa vy'ibarabara mu Hash imwe, yitwa Merkle Root (canke "*Imizi Hash*"). Buri gicuruzwa kirashirwako hash, hanyuma hashes ziri hafi zigashirwa hash hamwe mu buryo bw’ubukuru gushika Merkle Root ibonetse.

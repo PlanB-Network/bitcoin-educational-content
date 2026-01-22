@@ -1,5 +1,5 @@
 ---
-term: Pillole d'arancio
+term: Pillola arancione
 ---
 
 Ispirata al film *Matrix*, questa pillola immaginaria risveglia la coscienza del Bitcoin.

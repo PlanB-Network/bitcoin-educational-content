@@ -1,5 +1,5 @@
 ---
-term: Zapisy
+term: Inscriptions
 ---
 
 W kontekście teorii porządków, napisy są arbitralną treścią wygrawerowaną na Sats, przekształcając je w natywne artefakty cyfrowe Bitcoin. Inskrypcje są wykonywane poprzez transakcje, które w ten sposób ujawniają treść informacji w skrypcie wejścia Taproot:

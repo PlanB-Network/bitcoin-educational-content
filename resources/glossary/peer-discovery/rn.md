@@ -1,5 +1,5 @@
 ---
-term: Kuvubura n'abagenzi
+term: Peer discovery
 ---
 
 Inzira iyo node ziri mu rubuga rwa Bitcoin zifatanya n’izindi node kugira ngo zironke amakuru. Iyo node ya Bitcoin itangujwe ubwa mbere, nta makuru igira yerekeye izindi node ziri mu rubuga. Yamara, ritegerezwa gushinga amasano kugira ngo rihuze na Blockchain ifise igikorwa cirundanirijwe kuruta ibindi vyose. Uburyo bwinshi burakoreshwa mu kuvumbura abo bagenzi, hakurikijwe urutonde rw’ivyo babanza:

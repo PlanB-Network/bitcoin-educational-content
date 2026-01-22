@@ -1,5 +1,5 @@
 ---
-term: Rbf (replace-by-fee)
+term: RBF (replace-by-fee)
 ---
 
 Utaratibu wa malipo unaomruhusu mtumaji kubadilisha muamala mmoja na mwingine kwa kulipa ada za juu, ili kuharakisha uthibitishaji wake. Ikiwa muamala ulio na ada ya chini sana utakwama, mtumaji anaweza kutumia *Replace-by-fee* kuongeza ada na kutanguliza muamala wao wa kubadilisha fedha kwenye mempools.

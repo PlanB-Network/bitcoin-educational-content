@@ -1,5 +1,5 @@
 ---
-term: Peer ontdekken
+term: Peer discovery
 ---
 
 Het proces waarbij knooppunten in het Bitcoin netwerk verbinding maken met andere knooppunten om informatie te verkrijgen. Wanneer een Bitcoin knooppunt voor het eerst wordt gestart, heeft het geen informatie over andere knooppunten in het netwerk. Toch moet het verbindingen tot stand brengen om te synchroniseren met de Blockchain die het meeste werk heeft. Er worden verschillende mechanismen gebruikt om deze peers te ontdekken, in volgorde van prioriteit:

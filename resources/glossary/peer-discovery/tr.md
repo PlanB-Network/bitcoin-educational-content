@@ -1,5 +1,5 @@
 ---
-term: Akran keşfi̇
+term: Eş keşfi
 ---
 
 Bitcoin ağındaki düğümlerin bilgi edinmek için diğer düğümlere bağlanma süreci. Bir Bitcoin düğümü ilk başlatıldığında, ağdaki diğer düğümler hakkında hiçbir bilgisi yoktur. Yine de, en çok birikmiş işe sahip olan Blockchain ile senkronize olmak için bağlantı kurması gerekir. Bu eşleri keşfetmek için öncelik sırasına göre çeşitli mekanizmalar kullanılır:

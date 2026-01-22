@@ -1,5 +1,5 @@
 ---
-term: Coinbase (transakcija)
+term: Coinbase transakcija
 ---
 
 Coinbase Transaction je posebna i jedinstvena transakcija uključena u svaki blok Bitcoin Blockchain. Predstavlja prvu transakciju bloka i kreira je Miner koji je uspešno pronašao zaglavlje koje validira Proof of Work (*Proof-of-Work*), odnosno, manje ili jednako cilju.

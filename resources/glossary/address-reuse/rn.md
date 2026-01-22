@@ -1,5 +1,5 @@
 ---
-term: Address subiramwo gukoresha
+term: Gukoresha aderese muli bwinshi
 ---
 
 Gusubira gukoresha Address vyerekeye umugenzo wo gukoresha Address imwe yakira kugira ngo ufunge UTXO nyinshi, rimwe na rimwe mu bikorwa bitandukanye. Bitcoins zisanzwe zikingirwa hakoreshejwe urufunguzo rw’ibanga rujanye n’urufunguzo rwihariye rwa Address. Kubera ko Blockchain ari iya bose, biroroshe kubona aderesi zijanye n’ingene ama bitcoins angahe. Iyo iyo Address nyene isubiye gukoreshwa mu kwishura kenshi, umuntu arashobora kwiyumvira ko ama UTXO yose afitaniye isano ari ay’ikigo kimwe. Ivyo bigaragaza ikibazo c’ubuzima bwite, kuko bituma habaho amahuzu y’ivy’ubuhinga hagati y’ibikorwa vyinshi n’ama UTXO, bikaba bishoboza gukurikirana amafaranga y’i On-Chain. Satoshi Nakamoto yaramaze kuvuga iyo ngorane mu gitabu cera ca Bitcoin:

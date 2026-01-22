@@ -1,5 +1,5 @@
 ---
-term: Atomaire meerpadenbetalingen
+term: Atomic multi-path payments
 ---
 
 Verbeterde versie van MPP (*Multi-Path Payments*) waarbij elk betalingsfragment een apart deelgeheim heeft, zodat de transactie atomisch wordt afgewikkeld, d.w.z. volledig of helemaal niet.

@@ -1,5 +1,5 @@
 ---
-term: Kuunganishwa
+term: Uimarishaji
 ---
 
 Muamala mahususi ambapo UTXO nyingi ndogo huunganishwa katika ingizo moja ili kuunda UTXO moja, kubwa zaidi kama pato. Operesheni hii ni shughuli iliyofanywa kwa Wallet ya mtu mwenyewe. Lengo la ujumuishaji ni kuchukua fursa ya vipindi wakati ada kwenye mtandao wa Bitcoin ni ndogo ili kuunganisha UTXO kadhaa ndogo hadi moja kubwa kwa thamani. Kwa hivyo, inatarajia gharama za lazima katika kesi ya ongezeko la ada, kuruhusu kuokoa kwa ada za shughuli za siku zijazo.

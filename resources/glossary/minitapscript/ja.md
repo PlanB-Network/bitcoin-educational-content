@@ -1,5 +1,5 @@
 ---
-term: ミニ・クリップ
+term: Minitapscript
 ---
 Tapscript用のMiniscriptのバージョン。Tapscript には、オリジナルバージョンの Script と異なる点がいくつかあります。そのため、MiniTapscriptはMiniscriptでTapscriptをサポートします。
 

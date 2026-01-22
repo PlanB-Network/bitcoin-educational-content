@@ -1,5 +1,5 @@
 ---
-term: Oznakowanie
+term: Etykietowanie
 ---
 
 Praktyka przypisywania adnotacji lub etykiety do określonego UTXO w Bitcoin Wallet. Na przykład, jeśli mam UTXO z zakupu P2P na Bisq z Charlesem, mogę oznaczyć go jako "`Non-KYC Bisq Charles`".

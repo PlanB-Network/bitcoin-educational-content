@@ -1,5 +1,5 @@
 ---
-term: Block reward
+term: 블록 보상
 ---
 
 Block reward은 유효한 블록을 성공적으로 채굴했을 때 Miner가 받은 총 비트코인 수입니다.

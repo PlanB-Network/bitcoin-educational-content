@@ -1,5 +1,5 @@
 ---
-term: Mchanganyiaji
+term: Mixer
 ---
 
 Huduma ya kati kwa kuvunja historia ya sarafu ya Bitcoin kwa kuchanganya fedha kutoka kwa watumiaji wengi. Tofauti na CoinJoin, ambapo watumiaji hudumisha udhibiti wa pesa zao wakati wote wa mchakato wa kuchanganya, kichanganyaji huchukua umiliki wa bitcoins za watumiaji kwa muda, na kuzichanganya na za watumiaji wengine, kisha kuzituma pesa hizo kwenye anwani mpya.

@@ -1,5 +1,5 @@
 ---
-term: Entropía (análisis)
+term: Análisis de entropía
 
 ---
 En el contexto específico del análisis de cadenas, entropía es también el nombre de un indicador, derivado de la entropía de Shannon, inventado por LaurentMT. Este indicador permite medir el desconocimiento que tienen los analistas sobre la configuración exacta de una transacción Bitcoin. En otras palabras, cuanto mayor es la entropía de una transacción, más difícil resulta para los analistas identificar los movimientos de bitcoins entre entradas y salidas.

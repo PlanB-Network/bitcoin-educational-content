@@ -1,5 +1,5 @@
 ---
-term: Etiketiranje
+term: Označavanje
 ---
 
 Praksa dodeljivanja anotacije ili oznake određenom UTXO u Bitcoin Wallet. Na primer, ako imam UTXO iz P2P kupovine na Bisq sa Charlesom, mogao bih ga označiti kao "`Non-KYC Bisq Charles`".

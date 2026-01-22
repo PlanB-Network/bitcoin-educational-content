@@ -1,5 +1,5 @@
 ---
-term: Magical bitcoin
+term: Magical Bitcoin
 ---
 
 Bivši naziv kolekcije alata i biblioteka za programere BDK.

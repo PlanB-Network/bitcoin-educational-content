@@ -1,5 +1,5 @@
 ---
-term: Bgp hijacking
+term: BGP hijacking
 ---
 
 Útok, při kterém záškodník manipuluje s reklamami BGP, aby přesměroval internetový provoz do své vlastní sítě. Předstíráním legitimního původu určitých rozsahů IP Address může útočník zachytávat, monitorovat nebo blokovat provoz určený pro tyto adresy.

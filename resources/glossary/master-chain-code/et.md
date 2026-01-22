@@ -1,5 +1,5 @@
 ---
-term: Master chain kood
+term: Master chain code
 
 ---
 Viitab rahakoti peavõimega seotud ahelakoodile, mis on kõigi võtmete tuletamispuu aluseks.

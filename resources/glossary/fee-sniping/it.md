@@ -1,5 +1,5 @@
 ---
-term: Ritrovamento delle tasse
+term: Fee sniping
 
 ---
 Uno scenario di attacco in cui i minatori cercano di riscrivere un blocco confermato di recente per rivendicare le commissioni di transazione in esso contenute, aggiungendo al contempo transazioni ad alto costo arrivate nel frattempo nella mempool. L'obiettivo finale di questo attacco per il minatore è quello di aumentare la propria redditività. Il fee sniping può diventare sempre più redditizio quando la ricompensa del blocco diminuisce e le commissioni di transazione rappresentano una parte maggiore delle entrate dei minatori. Può anche essere vantaggioso quando le commissioni contenute nel blocco precedente sono significativamente più alte di quelle del blocco successivo migliore candidato. Per semplificare, il minatore si trova di fronte a questa scelta in termini di incentivi:

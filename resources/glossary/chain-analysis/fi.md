@@ -1,5 +1,5 @@
 ---
-term: Ketju-analyysi
+term: Ketjuanalyysi
 
 ---
 Käytäntö, joka kattaa kaikki menetelmät, joita käytetään bitcoinien virtauksen jäljittämiseen lohkoketjussa. Yleensä ketjuanalyysi perustuu aiempien transaktioiden näytteiden ominaisuuksien havainnointiin. Sen jälkeen siinä tunnistetaan samat ominaisuudet transaktiossa, jota halutaan analysoida, ja tehdään uskottavia tulkintoja. Tätä ongelmanratkaisumenetelmää, joka perustuu käytännönläheiseen lähestymistapaan riittävän hyvän ratkaisun löytämiseksi, kutsutaan heuristiikaksi. Yksinkertaistettuna ketjuanalyysi tehdään kahdessa päävaiheessa:

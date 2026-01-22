@@ -1,5 +1,5 @@
 ---
-term: Encontro de caminho
+term: Pathfinding
 ---
 
 Processo utilizado por um nó para determinar o caminho ótimo para encaminhar um pagamento através da rede de canais Lightning. A determinação do caminho é efectuada pelo nó pagador, que deve selecionar os nós intermédios mais adequados para chegar ao destinatário. Esta escolha é baseada em vários critérios, tais como taxas, capacidade do canal e timelocks.

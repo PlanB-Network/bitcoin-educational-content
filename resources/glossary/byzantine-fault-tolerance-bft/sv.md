@@ -1,5 +1,5 @@
 ---
-term: Byzantinsk feltolerans (bft)
+term: Byzantinsk feltolerans (BFT)
 ---
 
 Ett koncept som används i distribuerade system för att säkerställa tillförlitlig och säker konsensus, även i närvaro av felaktiga eller illvilliga noder.

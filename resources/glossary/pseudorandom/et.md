@@ -1,5 +1,5 @@
 ---
-term: Pseudo-random
+term: Pseudo-juhuslik
 
 ---
 Seda omadussõna kasutatakse numbrite jada kirjeldamiseks, mis on küll deterministliku protsessi tulemus, kuid mille omadused on lähedased ideaalsele tõeliselt juhuslikule jadale. Ideaalse juhuslikkuse mõiste tähendab, et järjestikuste elementide vahel puudub täielikult prognoositavus ja korrelatsioon. Pseudosuhtarv genereeritakse deterministliku algoritmi abil ja seetõttu on see teoreetiliselt täielikult ennustatav, kui on teada generaatori algseisund.

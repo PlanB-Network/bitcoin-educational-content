@@ -1,5 +1,5 @@
 ---
-term: Scriptbeskrivningar för utdata
+term: Output script descriptors
 ---
 
 Output script descriptors, eller bara descriptors, är strukturerade uttryck som fullständigt beskriver ett output script (`scriptPubKey`) och ger all nödvändig information för att spåra transaktioner till eller från ett specifikt script. Dessa deskriptorer underlättar hanteringen av nycklar i HD-plånböcker genom en standardbeskrivning av den struktur och de typer av adresser som används.

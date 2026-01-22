@@ -1,5 +1,5 @@
 ---
-term: OP_NEGATE (0x8F)
+term: OP_NEGATE (0X8F)
 
 ---
 反转堆栈顶部元素的符号。如果数值是正数，则变成负数，反之亦然。

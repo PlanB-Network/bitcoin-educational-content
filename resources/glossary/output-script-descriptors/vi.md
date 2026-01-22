@@ -1,5 +1,5 @@
 ---
-term: Output script descriptors
+term: Bộ mô tả kịch bản đầu ra
 
 ---
 Output script descriptors, or simply descriptors, are structured expressions that fully describe an output script (`scriptPubKey`) and provide all the necessary information to track transactions to or from a specific script. These descriptors facilitate the management of keys in HD wallets through a standard description of the structure and types of addresses used.

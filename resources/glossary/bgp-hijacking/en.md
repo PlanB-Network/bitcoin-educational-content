@@ -1,5 +1,5 @@
 ---
-term: Bgp hijacking
+term: BGP hijacking
 ---
 
 Attack in which a malicious actor manipulates BGP advertisements to redirect Internet traffic to their own network. By pretending to be the legitimate origin of certain IP address ranges, the attacker can intercept, monitor or block traffic destined for these addresses.

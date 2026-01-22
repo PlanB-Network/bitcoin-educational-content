@@ -1,4 +1,4 @@
 ---
-term: 魔法のビットコイン
+term: Magical Bitcoin
 ---
 開発者向けツールやライブラリのコレクションBDKの旧名称。

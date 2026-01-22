@@ -1,5 +1,5 @@
 ---
-term: Hash fonksi̇yon
+term: Hash fonksiyonu
 ---
 
 Değişken boyutlu bir girdi (mesaj olarak adlandırılır) alan ve sabit boyutlu bir çıktı (Hash, hashing, digest veya parmak izi olarak adlandırılır) üreten matematiksel bir işlev. Hash fonksiyonları kriptografide yaygın olarak kullanılan ilkel araçlardır. Kendilerini güvenli bağlamlarda kullanım için uygun kılan belirli özellikler sergilerler:

@@ -1,5 +1,5 @@
 ---
-term: Igihe ca unix
+term: Unix (heure)
 ---
 
 Igihe ca Unix canke Unix Timestamp kigereranya umubare w’amasegonda yaheze kuva kw’igenekerezo rya 1 Mukakaro 1970, isaha zibiri z’ijoro UTC (Unix Epoch). Uyu murongo ukoreshwa mu mirongo y’ibikorwa ya Unix n’ibiva kuri yo kugira ngo ushire ikimenyetso ku gihe mu buryo busanzwe kandi buhuye. Bituma amasaha ashobora guhuzwa neza be n’ugucungera ibintu bishingiye ku masaha, ata kuraba amasaha.

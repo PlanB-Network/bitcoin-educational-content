@@ -1,5 +1,5 @@
 ---
-term: Fornitore di servizi di illuminazione
+term: Lightning service provider
 ---
 
 Società operante su Lightning la cui attività consiste nel fornire servizi di liquidità agli utenti.

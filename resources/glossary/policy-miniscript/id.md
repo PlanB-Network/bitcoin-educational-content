@@ -1,5 +1,5 @@
 ---
-term: Policy (miniscript)
+term: Kebijakan (Miniscript)
 
 ---
 Bahasa tingkat tinggi yang berorientasi pada pengguna yang memungkinkan spesifikasi sederhana dari kondisi di mana UTXO dapat dibuka dalam kerangka kerja _Miniscript_. Kebijakan adalah deskripsi abstrak dari aturan pengeluaran. Kemudian dapat dikompilasi ke dalam _miniscript_, yang merupakan ekuivalen satu-ke-satu dengan operasi dari bahasa skrip asli Bitcoin.

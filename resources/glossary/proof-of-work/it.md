@@ -1,5 +1,5 @@
 ---
-term: Prova di lavoro
+term: Proof of work
 
 ---
 Un meccanismo di protezione contro gli attacchi Sybil, caratterizzati dalla creazione di molteplici identità false, con l'obiettivo di ottenere un vantaggio illegittimo. La prova di lavoro stabilisce quindi un costo marginale non trascurabile per la moltiplicazione dei voti su Bitcoin. La prova di lavoro è alla base del meccanismo di consenso di Nakamoto, che è il principio utilizzato per raggiungere un accordo su un'unica versione del libro mastro distribuito tra i diversi nodi della rete. Nello specifico, la prova di lavoro consiste nel trovare un valore che, passato attraverso una funzione matematica casuale, dia un risultato inferiore a un numero obiettivo. Questo obiettivo della prova di lavoro viene regolato ogni 2016 blocchi dai nodi. Questa operazione è nota come aggiustamento della difficoltà. Il numero target viene abbassato per aumentare la difficoltà di estrazione o aumentato per diminuirla, a seconda dell'evoluzione della potenza di calcolo impiegata dai minatori nel periodo precedente.

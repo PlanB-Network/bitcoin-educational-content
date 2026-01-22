@@ -1,5 +1,5 @@
 ---
-term: Raskuste eesmärk
+term: Raskusastme sihtväärtus
 
 ---
 Raskustegur, mida tuntakse ka kui raskuse eesmärki, on parameeter, mida kasutatakse Bitcoini konsensusmehhanismis töö tõestuse (Proof of Work, PoW) abil. Sihtmärk kujutab endast arvulist väärtust, mis määrab kaevurite jaoks konkreetse krüptograafilise probleemi, mida nimetatakse töötõendiks, lahendamise raskuse uue ploki loomisel plokiahelas.

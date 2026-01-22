@@ -1,5 +1,5 @@
 ---
-term: Bch-koodi
+term: BCH-koodi
 ---
 
 Virheenkorjauskoodien luokka, jota käytetään havaitsemaan ja korjaamaan virheitä datasekvenssissä. Toisin sanoen BCH-virheenkorjauskoodeja käytetään löytämään ja korjaamaan satunnaisia virheitä lähetetyssä tiedossa, jotta varmistetaan, että tieto saapuu ehjänä perille. Lyhenne "BCH" on näiden koodien keksijöiden nimien alkukirjaimet: Bose, Ray-Chaudhuri ja Hocquenghem.

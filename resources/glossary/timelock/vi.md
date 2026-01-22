@@ -1,5 +1,5 @@
 ---
-term: Timelock
+term: Khóa thời gian
 
 ---
 A smart contract primitive that allows setting a time-based condition that must be met for a transaction to be added to a block. There are two types of timelocks on Bitcoin:

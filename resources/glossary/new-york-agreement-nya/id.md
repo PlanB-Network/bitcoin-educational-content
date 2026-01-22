@@ -1,5 +1,5 @@
 ---
-term: New york agreement (nya)
+term: New York Agreement (NYA)
 ---
 Sebuah pertemuan tertutup yang diadakan pada tahun 2017, yang mengumpulkan lebih dari 50 perusahaan dari ekosistem Bitcoin, setelah konferensi konsensus 2017. Tujuan dari pertemuan ini adalah untuk mengakhiri perdebatan yang sudah berlangsung lama tentang penskalaan Bitcoin dengan mencapai kesepakatan. Pertemuan ini menghasilkan proposal SegWit2x, yang terinspirasi dari proposal SegWit2Mb sebelumnya. Proposal ini merencanakan dua modifikasi besar pada protokol Bitcoin:
 

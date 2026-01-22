@@ -1,5 +1,5 @@
 ---
-term: Atomi̇k takas
+term: Atomic swap
 ---
 
 Güvene ihtiyaç duymadan ve bir aracı gerektirmeden iki taraf arasında kripto para birimlerinin doğrudan Exchange'ına izin veren teknoloji. Bu değiş tokuşlar "atomik" olarak adlandırılır çünkü yalnızca iki sonuçla sonuçlanabilirler:

@@ -1,5 +1,5 @@
 ---
-term: Hrp (igice gisoma n'umuntu)
+term: Hrp (human readable part)
 ---
 
 HRP, ihagarariye "Igice Gisomwa n'Umuntu," ni igice c'amaderesi yakira bech32 na bech32m (SegWit v0 na SegWit v1). HRP yerekeza ku gice ca Address gifise ubuhinga budasanzwe kugira ngo abantu bashobore gusoma no gusobanura bitagoranye. Fata nk’akarorero igikoresho citwa bech32 Bitcoin Address:

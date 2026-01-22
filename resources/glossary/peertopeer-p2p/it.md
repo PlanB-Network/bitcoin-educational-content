@@ -1,5 +1,5 @@
 ---
-term: PEER-TO-PEER (P2P)
+term: Peer-to-peer (P2P)
 
 ---
 Si riferisce a un modello di comunicazione e distribuzione dei dati in cui i partecipanti, spesso chiamati nodi o peer, condividono le loro risorse (come file, potenza di elaborazione, larghezza di banda, beni...) direttamente tra di loro, senza la necessità di un intermediario centralizzato. In un sistema P2P, ogni partecipante agisce contemporaneamente come client (consumatore di risorse) e come server (fornitore di risorse).

@@ -1,5 +1,5 @@
 ---
-term: Fedha mbili
+term: Dual funding
 ---
 
 Wakati chaneli ya Umeme inafunguliwa, ufadhili wa pande mbili huruhusu washiriki wote kufunga bitcoins kwenye chaneli. Tofauti na mtindo wa kitamaduni, ambapo nodi moja pekee hufadhili chaneli, njia hii inaruhusu pande zote mbili kuifadhili, na kuwezesha kusawazisha ukwasi mara moja.

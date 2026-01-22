@@ -1,5 +1,5 @@
 ---
-term: Deskryptory skryptu wyjściowego
+term: Deskryptory skryptów wyjściowych
 ---
 
 Deskryptory skryptu wyjściowego, lub po prostu deskryptory, są ustrukturyzowanymi wyrażeniami, które w pełni opisują skrypt wyjściowy (`scriptPubKey`) i dostarczają wszystkich niezbędnych informacji do śledzenia transakcji do lub z określonego skryptu. Deskryptory te ułatwiają zarządzanie kluczami w portfelach HD poprzez standardowy opis struktury i typów używanych adresów.

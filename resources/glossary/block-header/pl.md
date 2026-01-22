@@ -1,5 +1,5 @@
 ---
-term: Głowica bloku
+term: Nagłówek bloku
 ---
 
 Nagłówek bloku jest strukturą danych, która służy jako główny element w konstrukcji bloku Bitcoin. Każdy blok składa się z nagłówka i listy transakcji. Nagłówek bloku zawiera kluczowe informacje, które zapewniają integralność i ważność bloku w Blockchain. Nagłówek bloku zawiera 80 bajtów metadanych i składa się z następujących elementów Elements:

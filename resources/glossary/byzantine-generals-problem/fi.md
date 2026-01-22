@@ -1,5 +1,5 @@
 ---
-term: Bysantin kenraalien ongelma
+term: Bysanttilaisten kenraalien ongelma
 
 ---
 Leslie Lamport, Robert Shostak ja Marshall Pease muotoilivat ongelman ensimmäisen kerran *ACM Transactions on Programming Languages and Systems, vol 4, n° 3* ["The Byzantine Generals Problem"](https://lamport.azurewebsites.net/pubs/byz.pdf) -erikoislehdessä heinäkuussa 1982. Sitä käytetään nykyään havainnollistamaan päätöksenteon haasteita silloin, kun hajautettu järjestelmä ei voi luottaa yhteenkään toimijaan.

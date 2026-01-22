@@ -1,5 +1,5 @@
 ---
-term: Checksum
+term: Suma de verificación
 ---
 
 La suma de comprobación es un valor calculado a partir de un conjunto de datos, utilizado para verificar la integridad y validez de esos datos durante su transmisión o almacenamiento. Los algoritmos de suma de comprobación están diseñados para detectar errores accidentales o alteraciones no intencionadas de los datos, como errores de transmisión o corrupción de archivos. Existen diferentes tipos de algoritmos de sumas de comprobación, como las comprobaciones de paridad, las sumas de comprobación modulares, las funciones criptográficas Hash o los códigos BCH (*Bose, Ray-Chaudhuri y Hocquenghem*).

@@ -1,5 +1,5 @@
 ---
-term: Iza brojila
+term: Behind-the-meter
 ---
 
 U kontekstu Bitcoin Mining, odnosi se na električnu energiju koja se generiše i distribuira direktno na farmu, bez prolaska kroz javnu mrežu.

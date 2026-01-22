@@ -1,5 +1,5 @@
 ---
-term: Poli̇ti̇ka (mi̇ni̇ yazi)
+term: Politika (Miniscript)
 ---
 
 Miniscript çerçevesinde bir UTXO'in kilidinin açılabileceği koşulların basit bir şekilde belirtilmesine olanak tanıyan yüksek seviyeli, kullanıcı odaklı bir dil. Politika, harcama kurallarının soyut bir tanımıdır. Daha sonra Bitcoin'ın yerel komut dosyası dilindeki işlemlerle bire bir eşdeğer olan miniscript'e derlenebilir.

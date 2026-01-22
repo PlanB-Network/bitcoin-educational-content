@@ -1,5 +1,5 @@
 ---
-term: Peer discovery
+term: Vertaislöytäminen
 
 ---
 Prosessi, jossa Bitcoin-verkon solmut ottavat yhteyttä toisiin solmuihin saadakseen tietoa. Kun Bitcoin-solmu käynnistetään ensimmäisen kerran, sillä ei ole tietoa verkon muista solmuista. Sen on kuitenkin luotava yhteyksiä synkronoituakseen lohkoketjuun, jossa on eniten kertynyttä työtä. Näiden vertaisten löytämiseen käytetään useita mekanismeja tärkeysjärjestyksessä:

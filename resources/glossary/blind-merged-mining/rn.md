@@ -1,5 +1,5 @@
 ---
-term: Impumyi yifanje mining
+term: Gucura gufatanijwe guhuma
 ---
 
 Uburyo bwo kwumvikana ku bijanye n’imirongo y’inyuma butuma abacukuzi ba Bitcoin bakora icarimwe ku mirongo nyamukuru no ku mirongo imwe canke myinshi, ata bikorwa vy’ubuhinga vy’inyongera bakora. Udakunze Mining ya kera, ntibisaba abacukuzi gukoresha urudodo kuri Sidechain yose.

@@ -1,5 +1,5 @@
 ---
-term: Bitcoin 무제한
+term: Bitcoin Unlimited
 ---
 
 2016년 늦여름에 등장한 Hard Fork을 통해 블록 크기를 유연하게 늘리는 것을 목표로 하는 Bitcoin 프로토콜 업데이트 제안입니다.

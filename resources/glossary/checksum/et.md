@@ -1,5 +1,5 @@
 ---
-term: Checksum
+term: Kontrollsumma
 ---
 
 Kontrollsumma on andmekogumi põhjal arvutatud väärtus, mida kasutatakse andmete terviklikkuse ja kehtivuse kontrollimiseks edastamise või salvestamise ajal. Kontrollsumma algoritmid on mõeldud andmete juhuslike vigade või tahtmatute muutuste, näiteks edastusvigade või faili kahjustamise avastamiseks. On olemas eri tüüpi kontrollsummaalgoritme, näiteks pariteedikontrollid, modulaarsed kontrollsummad, krüptograafilised Hash-funktsioonid või BCH (*Bose, Ray-Chaudhuri ja Hocquenghem*) koodid.

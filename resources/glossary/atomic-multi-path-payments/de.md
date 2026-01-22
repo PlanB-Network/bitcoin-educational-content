@@ -1,5 +1,5 @@
 ---
-term: Atomare mehrwegzahlungen
+term: Atomic multi-path payments
 ---
 
 Verbesserte Version von MPP (*Multi-Path Payments*), bei der jedes Zahlungsfragment ein eigenes Teilgeheimnis hat, um sicherzustellen, dass die Transaktion atomar abgewickelt wird, d. h. vollständig oder gar nicht.

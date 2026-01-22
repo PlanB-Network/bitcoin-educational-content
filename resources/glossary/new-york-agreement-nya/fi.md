@@ -1,5 +1,5 @@
 ---
-term: New yorkin sopimus (nya)
+term: New York Agreement (NYA)
 
 ---
 Vuonna 2017 pidetty yksityinen kokous, johon kokoontui yli 50 yritystä Bitcoin-ekosysteemistä Consensus 2017 -konferenssin jälkeen. Kokouksen tavoitteena oli lopettaa pitkään jatkunut keskustelu Bitcoinin skaalaamisesta pääsemällä sopimukseen. Tämä kokous johti SegWit2x-ehdotukseen, joka sai vaikutteita aiemmasta SegWit2Mb-ehdotuksesta. Siinä suunniteltiin kahta merkittävää muutosta Bitcoin-protokollaan:

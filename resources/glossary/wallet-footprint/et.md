@@ -1,5 +1,5 @@
 ---
-term: Rahakoti jalajälg
+term: Rahakoti jälg
 
 ---
 Ühe ja sama Bitcoini rahakoti poolt tehtud tehingute puhul täheldatavate eristavate tunnuste kogum. Nende tunnuste hulka võivad kuuluda sarnasused skriptitüüpide kasutamises, aadresside taaskasutuses, UTXOde järjekorras, muutuste väljundi paigutuses, RBF (*Replace-by-Fee*) signalisatsioonis, versiooni numbris, väljal `nSequence` ja väljal `nLockTime`.

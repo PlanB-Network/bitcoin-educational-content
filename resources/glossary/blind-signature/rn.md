@@ -1,5 +1,5 @@
 ---
-term: Blind signature
+term: Umukono uhumye
 ---
 
 Imikono y’impumyi ya Chaum ni uburyo bw’imikono y’ubuhinga bwa none aho uwuyisinye atamenya ibirimwo mu butumwa buriko burasinywa. Ariko rero, umukono uva muri ivyo urashobora kugenzurwa ugereranije n’ubutumwa bw’intango. Ubu buhinga bwateguwe n'umuhinga mu vy'amabanga David Chaum mu 1983.

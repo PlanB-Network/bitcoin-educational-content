@@ -1,5 +1,5 @@
 ---
-term: Kode bch
+term: Kode BCH
 
 ---
 

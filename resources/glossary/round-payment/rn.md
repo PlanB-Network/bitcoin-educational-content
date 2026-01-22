@@ -1,5 +1,5 @@
 ---
-term: Kwishurwa kw'ikizinga
+term: Paiement rond
 ---
 
 Ivyiyumviro vy’imbere mu gihugu vy’isesengura ry’uruzitiro kuri Bitcoin bishobora gutuma habaho iciyumviro ku bijanye n’ingene ibiva mu bikorwa vy’ubudandaji bimeze bishingiye ku mahera azunguruka. Muri rusangi, iyo umuntu ahanganye n’uburyo bwo kwishura bworoshe (1 input na 2 outputs), iyo kimwe muri ivyo bisohoka gikoresheje amahera azunguruka, rero kigereranya ukwishurwa. Mu gukuraho, iyo igisohoka kimwe kigereranya ukwishyura, ikindi kigereranya ihinduka. Bishobora rero gusobanurwamwo ko bishoboka ko uwukoresha yinjiza igikorwa agifise igisohoka kigaragazwa ko ari co gihinduka.

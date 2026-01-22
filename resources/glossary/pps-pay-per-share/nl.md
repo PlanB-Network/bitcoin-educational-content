@@ -1,5 +1,5 @@
 ---
-term: Pps (loon per aandeel)
+term: PPS (pay per share)
 ---
 
 Methode voor het berekenen van de vergoeding van miners binnen de context van Mining pools. PPS is een systeem waarbij mijnwerkers betaald worden voor elk geldig ingediend aandeel, ongeacht of de pool een blok vindt of niet. Ze worden dus gecompenseerd op basis van de verwachte waarde. Het is een taakgebaseerde beloningsmethode.

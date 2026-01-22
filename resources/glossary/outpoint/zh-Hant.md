@@ -1,5 +1,5 @@
 ---
-term: 輸出點
+term: Outpoint
 ---
 
 未用交易輸出的唯一參考 (UTXO)。它由兩個 Elements 組成：

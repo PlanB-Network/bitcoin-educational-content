@@ -1,5 +1,5 @@
 ---
-term: Código cadena
+term: Código de cadena
 
 ---
 En el contexto de la derivación jerárquica determinista (HD) de los monederos Bitcoin, el código de cadena es un valor de sal criptográfica de 256 bits utilizado para generar claves hijas a partir de una clave padre, según el estándar BIP32. El código de cadena se utiliza en combinación con la clave padre y el índice del hijo para generar de forma determinista un nuevo par de claves (clave privada y clave pública) sin revelar la clave padre u otras claves hijo derivadas.

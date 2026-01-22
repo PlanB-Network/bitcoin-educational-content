@@ -1,5 +1,5 @@
 ---
-term: Ath (kaikkien aikojen korkein)
+term: Ath (all-time high)
 
 ---
 Tarkoittaa korkeinta tasoa, jonka tutkittava kohde on koskaan saavuttanut. Usein ATH viittaa bitcoinin korkeimpaan hintatasoon verrattuna fiat-valuuttaan tiettynä ajanjaksona.

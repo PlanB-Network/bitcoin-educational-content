@@ -1,5 +1,5 @@
 ---
-term: Rbf (replace-by-fee)
+term: RBF (replace-by-fee)
 
 ---
 En transaksjonsmekanisme som gjør det mulig for avsenderen å erstatte en transaksjon med en annen ved å betale høyere gebyrer, for å fremskynde bekreftelsen. Hvis en transaksjon med for lave gebyrer blir sittende fast, kan avsenderen bruke *Replace-By-Fee* til å øke gebyrene og prioritere erstatningstransaksjonen i mempoolene.

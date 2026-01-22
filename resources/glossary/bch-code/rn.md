@@ -1,5 +1,5 @@
 ---
-term: Bch kode
+term: BCH code
 ---
 
 Itsinda ry’amakode akosora amakosa akoreshwa mu kumenya no gukosora amakosa mu rutonde rw’amakuru. Mu yandi majambo, amakode akosora amakosa ya BCH atuma amakosa atari yo mu makuru yoherezwa amenyekana kandi akosorwa, ivyo bikaba bituma ayo makuru ashika aho aja ataco akoze. Iryo jambo ry'inyongera "BCH" rikomoka ku nyuguti z'intango z'abahinguzi b'izo kode: Bose, Ray-Chaudhuri, na Hocquenghem.

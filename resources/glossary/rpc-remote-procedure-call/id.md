@@ -1,5 +1,5 @@
 ---
-term: Rpc (remote procedure call)
+term: RPC (remote procedure call)
 
 ---
 Protokol komputer yang memungkinkan sebuah program untuk menjalankan sebuah prosedur di komputer jarak jauh lain seolah-olah dijalankan secara lokal. Secara khusus, dalam konteks Bitcoin, protokol ini digunakan untuk memungkinkan aplikasi berinteraksi dengan bitcoind. Ini dapat digunakan untuk menjalankan perintah pada node Bitcoin, seperti mengirim transaksi, mengelola dompet, atau mengakses informasi pada _blockchain_. Keamanan interaksi ini dipastikan melalui otentikasi melalui file `.cookie` atau kredensial, sehingga hanya klien yang memiliki otorisasi yang dapat melakukan RPC pada node.

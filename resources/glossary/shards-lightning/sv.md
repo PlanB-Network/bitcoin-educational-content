@@ -1,5 +1,5 @@
 ---
-term: Skärvor (blixtnedslag)
+term: Shards (lightning)
 ---
 
 I samband med *Multi-Path Payments (MPP)* eller *Atomic Multi-Path Payments (AMP)* är en Shard en bråkdel av en global betalning. Varje Shard representerar en del av den totala betalningen, som dirigeras separat via en annan rutt på Lightning.

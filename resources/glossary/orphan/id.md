@@ -1,5 +1,5 @@
 ---
-term: Orphan
+term: Yatim piatu
 
 ---
 Secara teoritis, _orphan block_ mengacu pada blok valid yang diterima oleh node yang belum memperoleh blok induk, yaitu blok sebelumnya dalam rantai. Walaupun valid, blok ini tetap terisolasi secara lokal sebagai _orphan_.

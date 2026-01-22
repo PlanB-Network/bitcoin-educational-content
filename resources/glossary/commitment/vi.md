@@ -1,5 +1,5 @@
 ---
-term: Commitment
+term: Cam kết
 ---
 
 Commitment (theo nghĩa mật mã) là một đối tượng toán học, được ký hiệu là $C$, được suy ra một cách xác định từ một phép toán trên dữ liệu có cấu trúc $m$ (thông điệp) và một giá trị ngẫu nhiên $r$. Chúng ta viết:

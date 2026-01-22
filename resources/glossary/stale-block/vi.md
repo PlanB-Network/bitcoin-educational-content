@@ -1,5 +1,5 @@
 ---
-term: Obsolete (block)
+term: Khối cũ
 
 ---
 Refers to a block without children: a valid block, but excluded from the main Bitcoin chain. It occurs when two miners find a valid block at the same chain height within a short period of time and broadcast it over the network. Nodes eventually choose only one block to include in the chain, according to the principle of the chain with the most accumulated work, rendering the other "obsolete". The process leading to the production of an obsolete block is as follows:

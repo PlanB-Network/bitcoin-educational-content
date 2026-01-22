@@ -1,5 +1,5 @@
 ---
-term: Byzantine fault tolerance（拜占庭容错，简称为bft）
+term: 拜占庭容错 (BFT)
 
 ---
 分布式系统中的一个概念，用于确保即使存在故障或恶意节点，也还能达成可靠、安全的共识。

@@ -1,5 +1,5 @@
 ---
-term: Merkle tree
+term: Merkle ağacı
 ---
 
 Merkle Tree bir kriptografik akümülatördür. Belirli bir bilgi parçasının daha büyük bir küme içindeki üyeliğini kanıtlamak için kullanılan bir yöntemdir. Bilginin kompakt bir formatta doğrulanmasını kolaylaştıran bir veri yapısıdır. Bitcoin sisteminde Merkle Ağaçları, bir bloğun işlemlerini Merkle Root (veya "*Kök Hash*") adı verilen tek bir Hash'te gruplamak ve yoğunlaştırmak için kullanılır. Her işlem hash edilir, ardından bitişik hashler Merkle Root elde edilene kadar hiyerarşik olarak birlikte hash edilir.

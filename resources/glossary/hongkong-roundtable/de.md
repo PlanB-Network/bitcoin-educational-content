@@ -1,5 +1,5 @@
 ---
-term: Runder tisch hongkong
+term: Hong-kong roundtable
 
 ---
 Ein historisches Ereignis des Blocksize War, das am 20. Februar 2016 in Hongkong stattfand. Es war ein wichtiges Treffen zwischen Bitcoin Core Entwicklern und Minern, um die Skalierbarkeit des Systems und die Strategie zur Skalierung zu diskutieren. Die Spannungen vor dem Treffen waren groß, insbesondere aufgrund des Aufstiegs von Bitcoin Classic, einem von Gavin Andressen unterstützten Hard Fork-Vorschlag, der auf eine Erhöhung der Blockgröße auf 2 MB abzielte. Einflussreiche Persönlichkeiten aus dem Ökosystem nahmen an den Debatten teil, darunter Jihan Wu und Micree Zhan, die Mitbegründer von Bitmain, Adam Back, der Präsident von Blockstream, sowie Luke Dashjr, Matt Corallo und Peter Todd.

@@ -1,5 +1,5 @@
 ---
-term: Overlay
+term: Warstwa
 ---
 
 Protokół lub sieć zbudowana na bazie głównej sieci Bitcoin. Wykorzystuje on sieć Bitcoin jako podstawę i dlatego jest zależny od jej protokołu. Sieć Bitcoin nie jest jednak zależna od swoich nakładek. Przykładem takiej nakładki jest Lightning Network.

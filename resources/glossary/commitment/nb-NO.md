@@ -1,5 +1,5 @@
 ---
-term: Commitment
+term: Forpliktelse
 ---
 
 En Commitment (i kryptografisk forstand) er et matematisk objekt, betegnet $C$, som er avledet deterministisk fra en operasjon på strukturerte data $m$ (meldingen) og en tilfeldig verdi $r$. Vi skriver :

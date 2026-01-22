@@ -1,5 +1,5 @@
 ---
-term: Uguguriza bishimishije
+term: Raw transaction
 ---
 
 Igikoresho ca Bitcoin cubatswe kandi gishizweko umukono, kiriho mu buryo bwaco bwa kabiri. Igikorwa kidasanzwe (*raw TX*) ni ikimenyetso ca nyuma c’igikorwa, imbere gato y’uko gitangazwa ku rubuga. Iyi nzira irimwo amakuru yose akenewe kugira ngo ishirwe mu gice:

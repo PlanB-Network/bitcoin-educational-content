@@ -1,5 +1,5 @@
 ---
-term: Geçi̇ci̇ model
+term: Zamansal model
 ---
 
 Bazı insan davranışları tanınabilir On-Chain'dır. Zincir analizinde belki de en kullanışlı olanı uyku düzeninizdir! Evet, uyurken muhtemelen Bitcoin işlemlerini yayınlamıyorsunuzdur. Genellikle aynı saatlerde uyursunuz. Bu nedenle, zamansal analizler zincir analizinde yaygın olarak kullanılır. Basitçe, belirli bir tüzel kişinin işlemlerinin Bitcoin ağına yayınlandığı zamanların kaydedilmesini içerir. Bu zamansal kalıpları analiz etmek, çok sayıda bilgiyi çıkarmamıza olanak tanır.

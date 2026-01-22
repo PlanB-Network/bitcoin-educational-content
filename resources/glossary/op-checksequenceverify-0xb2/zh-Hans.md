@@ -1,5 +1,5 @@
 ---
-term: OP_CHECKSEQUENCEVERIFY (0xB2)
+term: OP_CHECKSEQUENCEVERIFY (0XB2)
 
 ---
 如果发现其中任何一个特征，则交易无效：

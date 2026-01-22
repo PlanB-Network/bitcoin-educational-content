@@ -1,5 +1,5 @@
 ---
-term: Testigo de transacciones
+term: Testigo de transacción
 
 ---
 Se refiere a un componente de las transacciones de Bitcoin que se trasladó con la bifurcación suave SegWit para abordar el problema de la maleabilidad de las transacciones. El testigo contiene las firmas y claves públicas necesarias para desbloquear los bitcoins gastados en una transacción. En las transacciones Legacy, el testigo representaba la suma de `scriptSig` de todas las entradas. En las transacciones SegWit, el testigo representa la suma de `scriptWitness` de cada entrada, y esta parte de la transacción se traslada ahora a un árbol Merkle separado dentro del bloque.

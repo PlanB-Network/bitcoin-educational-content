@@ -1,5 +1,5 @@
 ---
-term: Premium
+term: Prima
 
 ---
 Cantidad adicional que se paga sobre el precio estándar o nominal de un activo. En el contexto de Bitcoin, puede observarse una prima al realizar compras, especialmente en plataformas de intercambio, que a veces pueden utilizar esta técnica para obtener sus márgenes en el servicio de intermediación.

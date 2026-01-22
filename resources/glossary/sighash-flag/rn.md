@@ -1,5 +1,5 @@
 ---
-term: Ibendera rya sighash
+term: Sighash flag
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-term: Urupfuzo rw'inyandika
+term: Scriptpubkey
 ---
 
 Inyandiko iri mu gice c'isohoka c'isoko rya Bitcoin isobanura ivyangombwa UTXO ijana ishobora gukoreshwamwo. Iyi nyandiko rero irakingira ama bitcoins. Mu buryo bwayo busanzwe, `scriptPubKey` irimwo ivyangombwa bisaba ko igikorwa gikurikira gitanga ikimenyamenya c'uko umuntu afise urufunguzo rwihariye rujanye n'urufunguzo rwa Bitcoin Address. Ivyo akenshi bishikwako n’inyandiko isaba umukono uhuye n’urufunguzo rwa bose rujanye n’urufunguzo rwa Address rukoreshwa mu gucungera ayo mahera. Iyo igikorwa kigerageza gukoresha iyi UTXO nk'inyungu, kigomba gutanga `scriptSig` iyo, iyo ifatanijwe na `scriptPubKey`, ihuye n'ivyategekanijwe kandi igatanga inyandiko ibereye.

@@ -1,5 +1,5 @@
 ---
-term: Rohtransaktion
+term: Raw Transaction
 
 ---
 Eine Bitcoin-Transaktion, die erstellt und signiert wurde und in ihrer binären Form vorliegt. Eine Rohtransaktion (*raw TX*) ist die endgültige Darstellung einer Transaktion, kurz bevor sie an das Netzwerk gesendet wird. Diese Transaktion enthält alle notwendigen Informationen für ihre Aufnahme in einen Block:

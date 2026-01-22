@@ -1,5 +1,5 @@
 ---
-term: Dwingen sluiten
+term: Geforceerde sluiting
 ---
 
 Mechanisme voor het sluiten van niet-coöperatieve Lightning-kanalen. Wanneer twee gebruikers een kanaal openen met een Multisig 2/2, kan elk van hen het kanaal eenzijdig sluiten door de laatste Commitment Transaction uit te zenden die al ondertekend is, om zo hun onchain bitcoins terug te krijgen. Dit staat bekend als "geforceerd sluiten".

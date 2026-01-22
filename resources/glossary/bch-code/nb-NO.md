@@ -1,5 +1,5 @@
 ---
-term: Bch-kode
+term: BCH-kode
 ---
 
 En klasse feilkorrigeringskoder som brukes til å oppdage og korrigere feil i en datasekvens. Med andre ord brukes BCH-feilrettingskoder til å finne og korrigere tilfeldige feil i overført informasjon, for å sikre at den kommer intakt frem til bestemmelsesstedet. Akronymet "BCH" står for initialene til navnene på oppfinnerne av disse kodene: Bose, Ray-Chaudhuri og Hocquenghem.

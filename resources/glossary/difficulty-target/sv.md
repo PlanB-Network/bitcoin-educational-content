@@ -1,5 +1,5 @@
 ---
-term: Svårighet mål
+term: Svårighetsmål
 ---
 
 Svårighetsfaktorn, även känd som svårighetsmålet, är en parameter som används i konsensusmekanismen av Proof of Work (Proof of Work, PoW) på Bitcoin. Målet representerar ett numeriskt värde som avgör hur svårt det är för miners att lösa ett specifikt kryptografiskt problem, kallat Proof of Work, när de skapar ett nytt block på Blockchain.

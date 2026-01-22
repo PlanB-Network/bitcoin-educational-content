@@ -1,5 +1,5 @@
 ---
-term: New yorki leping (nya)
+term: New York agreement (NYA)
 
 ---
 2017. aastal toimunud privaatne kohtumine, mis tõi pärast Consensus 2017 konverentsi kokku rohkem kui 50 ettevõtet Bitcoini ökosüsteemist. Selle kohtumise eesmärk oli lõpetada pikaajaline arutelu Bitcoini skaleerimise üle, jõudes kokkuleppele. Selle kohtumise tulemusel tehti ettepanek SegWit2x, mis tugines varasemale SegWit2Mb ettepanekule. Selles kavandati kaks olulist muudatust Bitcoini protokollile:

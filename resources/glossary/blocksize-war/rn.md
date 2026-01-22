@@ -1,5 +1,5 @@
 ---
-term: Blocksize war
+term: Intambara y'ubunini bw'icitunza
 
 ---
 

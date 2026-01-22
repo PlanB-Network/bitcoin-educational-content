@@ -1,5 +1,5 @@
 ---
-term: Deri̇nli̇k
+term: Derinlik
 ---
 
 HD (Hiyerarşik Deterministik) cüzdanlar bağlamında derinlik, Wallet'nin ana anahtardan türetme yapısındaki bir anahtarın (açık veya özel), bir chain code'ın, bir genişletilmiş anahtarın veya bir Address'in belirli bir seviyesini ifade eder. Bu yapının her bir seviyesi, ana anahtarın kökte (derinlik 0) olduğu ve sonraki seviyelerin aşağıdaki gibi çeşitli nitelikleri tanımladığı bir anahtar ağacındaki bir kat olarak görülebilir:

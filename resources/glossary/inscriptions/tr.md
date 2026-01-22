@@ -1,5 +1,5 @@
 ---
-term: Açiklamalar
+term: Yazıtlar (Inscriptions)
 ---
 
 Sıralamalar Teorisi bağlamında, yazıtlar Sats üzerine kazınarak onları yerel Bitcoin dijital eserlerine dönüştüren keyfi içeriklerdir. Yazıtlar, bu şekilde bir Taproot girdisinin senaryosundaki bilgi içeriğini ortaya çıkaran işlemler aracılığıyla yapılır:

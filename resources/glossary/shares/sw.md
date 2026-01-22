@@ -1,5 +1,5 @@
 ---
-term: Hisa
+term: Shares
 ---
 
 Katika muktadha wa vikundi vya Mining, hisa ni kiashirio kinachotumika kukadiria mchango wa mtu binafsi wa Miner ndani ya bwawa. Hatua hii hutumika kama msingi wa kukokotoa zawadi ambayo bwawa hugawanya upya kwa kila Miner. Kila hisa inalingana na Hash ambayo inakidhi lengo la ugumu chini ya ile ya mtandao wa Bitcoin.

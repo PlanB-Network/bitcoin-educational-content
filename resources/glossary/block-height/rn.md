@@ -1,5 +1,5 @@
 ---
-term: Uburebure bw'ibuburo
+term: Uburebure bw'icitunza
 ---
 
 Uburebure bw’ibarabara ni umubare w’urutonde rw’ibarabara ugereranije n’ibarabara rya mbere, rizwi kw’izina rya Genesis Block, rifise urutonde ku burebure bwa 0. Rigereranya umubare w’ibarabara ribanza ibarabara rivugwa.

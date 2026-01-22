@@ -1,5 +1,5 @@
 ---
-term: Qr kodu
+term: QR kod
 ---
 
 Mobil cihazlar tarafından hızlı bir şekilde taranabilen iki boyutlu bir barkod türüdür. QR kodu, bilgileri beyaz bir arka plan üzerinde bir kare şeklinde düzenlenmiş siyah ve beyaz pikseller şeklinde depolar. QR kodlarının önemli bir özelliği, QR kodu kısmen gizlenmiş olsa bile verilerin geri yüklenmesine olanak tanıyan BCH hata düzeltme kodlarını içermeleridir.

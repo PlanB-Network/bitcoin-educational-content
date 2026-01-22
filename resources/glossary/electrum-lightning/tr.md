@@ -1,5 +1,5 @@
 ---
-term: Elektrum şimşek
+term: Electrum lightning
 ---
 
 Electrum yazılımı için özel olarak Python'da yazılmış Lightning Network uygulaması.

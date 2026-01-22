@@ -1,5 +1,5 @@
 ---
-term: Osakkeet
+term: Osuudet (shares)
 
 ---
 Kaivospoolien yhteydessä osuus on indikaattori, jota käytetään määrittämään yksittäisen kaivosmiehen osuus poolista. Tämän mittarin perusteella lasketaan palkkio, jonka pooli jakaa uudelleen kullekin louhijalle. Kukin osuus vastaa hashia, joka täyttää vaikeustavoitteen, joka on alhaisempi kuin Bitcoin-verkon vaikeustavoite.

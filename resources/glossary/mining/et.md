@@ -1,5 +1,5 @@
 ---
-term: Mining
+term: Kaevandamine
 
 ---
 Bitcoini süsteemi tööproovis (Proof-of-Work) osalemine. Proof-of-Work on mehhanism Sybil-rünnakute tõrjumiseks. See on Nakamoto konsensusmehhanismi alus, mille põhimõttel luuakse kokkulepe hajutatud pearaamatu ühe versiooni kohta võrgu eri sõlmede vahel.

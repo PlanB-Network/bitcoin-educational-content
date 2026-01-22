@@ -1,5 +1,5 @@
 ---
-term: Proof of work
+term: İş ispatı
 ---
 
 Gayrimeşru bir avantaj elde etmek amacıyla birden fazla sahte kimliğin oluşturulmasıyla karakterize edilen Sybil saldırılarına karşı bir koruma mekanizması. Böylece Proof of Work, Bitcoin üzerindeki oyların çoğaltılması için ihmal edilemez bir marjinal maliyet oluşturur. Proof of Work, ağın farklı düğümleri arasında dağıtılmış Ledger'ün tek bir versiyonu üzerinde anlaşmaya varmak için kullanılan ilke olan Nakamoto mutabakat mekanizmasının temelidir. Spesifik olarak Proof of Work, rastgele bir matematiksel fonksiyondan geçirildiğinde bir hedef sayıdan daha düşük bir sonuç veren bir değerin bulunmasını içerir. Proof of Work'in bu hedefi düğümler tarafından her 2016 blokta bir ayarlanır. Bu zorluk ayarlaması olarak bilinir. Hedef sayı, bir önceki dönemde madenciler tarafından kullanılan hesaplama gücünün gelişimine bağlı olarak Mining zorluğunu artırmak için düşürülür veya azaltmak için yükseltilir.

@@ -1,5 +1,5 @@
 ---
-term: Bitcoin(대문자 b)
+term: 비트코인 (대문자 B)
 ---
 
 Bitcoin은 2009년 Satoshi 나카모토가 만든 P2P 전자 현금 시스템의 이름입니다. 대문자 "B"가 붙은 Bitcoin이라는 용어는 세 가지를 의미할 수 있습니다:

@@ -1,5 +1,5 @@
 ---
-term: Sighash flag
+term: Sighash Flag
 
 ---
 Ein Parameter in einer Bitcoin-Transaktion, der festlegt, welche Komponenten einer Transaktion (Eingaben und Ausgaben) durch die zugehörige Signatur abgedeckt sind und dadurch unveränderlich werden. Das SigHash Flag ist ein Byte, das der digitalen Signatur jeder Eingabe hinzugefügt wird. Daher wirkt sich die Wahl des SigHash Flag direkt darauf aus, welche Teile der Transaktion durch die Signatur eingefroren werden und welche nachträglich noch geändert werden können. Dieser Mechanismus stellt sicher, dass Signaturen Transaktionsdaten präzise und sicher entsprechend der Absicht des Unterzeichners festschreiben. Es gibt drei Haupt-SigHash-Flags:

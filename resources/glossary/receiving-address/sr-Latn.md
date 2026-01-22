@@ -1,5 +1,5 @@
 ---
-term: Prijem address
+term: Adresa za prijem
 ---
 
 Informacije korišćene za primanje bitkoina. Address se obično konstruira heširanjem javnog ključa, koristeći `SHA256` i `RIMPEMD160`, i dodavanjem metapodataka ovom sažetku. Javni ključevi korišćeni za konstruisanje primajućeg Address su deo korisnikovog Wallet i stoga su izvedeni iz njihovog seed. Na primer, SegWit adrese se sastoje od sledećih informacija:

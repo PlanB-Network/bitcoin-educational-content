@@ -1,5 +1,5 @@
 ---
-term: Premium
+term: Prêmio
 
 ---
 Um montante adicional pago sobre o preço normal ou nominal de um ativo. No contexto da Bitcoin, pode observar-se um prémio quando se efectuam compras, especialmente nas plataformas de câmbio, que podem por vezes utilizar esta técnica para obter as suas margens sobre o serviço de corretagem.

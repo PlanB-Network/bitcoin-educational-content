@@ -1,5 +1,5 @@
 ---
-term: Ufunguo wa binafsi
+term: Siri ya ufunguo
 ---
 
 Ufunguo wa kibinafsi ni kipengele cha msingi cha cryptography isiyo ya kawaida. Ni nambari (biti 256 katika muktadha wa Bitcoin) ambayo inawakilisha siri ya siri. Ufunguo huu unatumika kusaini miamala kidijitali na kuthibitisha Ownership ya ufunguo wa umma wa Bitcoin (na kwa kuongeza, kupokea Address) kwa kukidhi `scriptPubKey`. Kwa hiyo, funguo za kibinafsi huruhusu matumizi ya bitcoins kwa kufungua UTXOs zinazohusiana na ufunguo wa umma unaofanana. Funguo za kibinafsi lazima ziwe siri kabisa, kwani ufichuzi wao unaweza kuwezesha watu wengine hasidi kudhibiti pesa zinazohusiana.

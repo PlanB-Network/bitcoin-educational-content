@@ -1,5 +1,5 @@
 ---
-term: Poskytovatel bleskových služeb
+term: Lightning service provider
 ---
 
 Společnost působící v systému Lightning, jejíž činností je poskytování služeb likvidity uživatelům.

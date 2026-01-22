@@ -1,5 +1,5 @@
 ---
-term: Crypto-asset
+term: Criptoativo
 
 ---
 Termo utilizado num contexto jurídico e regulamentar para designar vários tipos de criptomoedas, incluindo a bitcoin.

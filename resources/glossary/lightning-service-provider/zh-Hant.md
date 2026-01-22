@@ -1,5 +1,5 @@
 ---
-term: 閃電服務供應商
+term: Lightning 服務提供商
 ---
 
 在 Lightning 上運營的公司，其業務是為使用者提供流動資金服務。

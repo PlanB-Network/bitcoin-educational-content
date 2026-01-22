@@ -1,5 +1,5 @@
 ---
-term: Kyc (poznaj svog kupca)
+term: KYC (know your customer)
 ---
 
 Regulatorni postupak koji koriste neke kompanije koje posluju na Bitcoin kako bi verifikovale identitet svojih klijenata kao deo borbe protiv pranja novca i finansiranja terorizma. KYC uključuje prikupljanje i verifikaciju ličnih podataka. U kontekstu kupovine bitkoina, KYC predstavlja nekoliko rizika za korisnika, uključujući:

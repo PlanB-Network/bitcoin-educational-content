@@ -1,5 +1,5 @@
 ---
-term: Average round duration
+term: Duración media de la ronda
 
 ---
 La duración media de las rondas es un indicador utilizado para estimar el tiempo que tarda un pool de minería en encontrar un bloque, basándose en la dificultad de la red y el hashrate del pool. Se calcula tomando el número de acciones esperadas para encontrar un bloque y dividiéndolo por el hashrate del pool. Por ejemplo, si un pool de minería tiene 200 mineros y cada uno genera una media de 4 participaciones por segundo, la potencia de cálculo total del pool es de 800 participaciones por segundo:

@@ -1,5 +1,5 @@
 ---
-term: Comprovativo de reservas
+term: Prova de reservas
 ---
 
 Mecanismo utilizado pelas plataformas Bitcoin Exchange para demonstrar que detêm efetivamente os activos dos seus clientes. O objetivo é provar a solvência da empresa, verificando que os seus bitcoins são equivalentes ou superiores aos saldos dos utilizadores que supostamente detêm.

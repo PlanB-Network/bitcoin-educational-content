@@ -1,5 +1,5 @@
 ---
-term: Doble financiación
+term: Dual funding
 ---
 
 Cuando se abre un canal Lightning, la doble financiación permite a ambos participantes bloquear bitcoins en el canal. A diferencia del modelo tradicional, en el que solo un nodo financia el canal, este método permite que ambas partes lo financien, lo que permite equilibrar la liquidez de forma inmediata.

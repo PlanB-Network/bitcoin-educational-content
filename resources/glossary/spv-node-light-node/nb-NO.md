@@ -1,5 +1,5 @@
 ---
-term: Spv node (lys node)
+term: SPV-node (lett node)
 
 ---
 En SPV-node (*Simple Payment Verification*), også kalt en "light-node", er en lettvektsklient for en Bitcoin-node som lar brukerne validere transaksjoner uten å måtte lagre hele blokkjeden. I stedet lagrer en SPV-node bare blokkoverskriftene og innhenter informasjon om spesifikke transaksjoner ved å spørre fullstendige noder når det er nødvendig. Dette verifiseringsprinsippet muliggjøres av strukturen til transaksjonene i Bitcoin-blokker, som er organisert i en kryptografisk akkumulator (Merkle Tree).

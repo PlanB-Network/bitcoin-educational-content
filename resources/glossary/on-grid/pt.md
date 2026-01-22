@@ -1,5 +1,5 @@
 ---
-term: On-grid
+term: Na rede
 ---
 
 Refere-se a uma operação Bitcoin Mining que está ligada à rede eléctrica geral. Os mineiros ligados à rede ligam-se à rede eléctrica convencional, também utilizada por consumidores residenciais, para alimentar os seus ASICs. Este método oferece uma fonte de energia estável, mas é frequentemente mais caro do que o Mining fora da rede, devido a margens de negociação mais limitadas.

@@ -1,5 +1,5 @@
 ---
-term: Mining
+term: Madencilik
 ---
 
 Bitcoin sisteminin Proof-of-Work'ine (Proof-of-Work) katılma eylemi. Proof-of-Work, Sybil saldırılarına karşı koyan bir mekanizmadır. Ağın farklı düğümleri arasında dağıtılmış Ledger'ün tek bir versiyonu üzerinde anlaşma sağlamak için kullanılan ilke olan Nakamoto mutabakat mekanizmasının temelidir.

@@ -1,5 +1,5 @@
 ---
-term: Szczęście
+term: Luck
 ---
 
 Wskaźnik używany w pulach Mining do pomiaru wydajności puli w stosunku do jej teoretycznych oczekiwań. Jak sugeruje jego nazwa, ocenia on szczęście puli w znalezieniu bloku. Szczęście jest obliczane poprzez porównanie liczby akcji teoretycznie potrzebnych do znalezienia ważnego bloku, w oparciu o bieżącą trudność Bitcoin, z rzeczywistą liczbą akcji wyprodukowanych w celu znalezienia tego bloku. Liczba akcji niższa od oczekiwanej wskazuje na szczęście, podczas gdy wyższa liczba wskazuje na pecha.

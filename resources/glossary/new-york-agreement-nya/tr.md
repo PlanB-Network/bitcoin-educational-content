@@ -1,5 +1,5 @@
 ---
-term: New york anlaşmasi (nya)
+term: New York Anlaşması (NYA)
 ---
 
 Consensus 2017 konferansının ardından 2017 yılında düzenlenen ve Bitcoin ekosisteminden 50'den fazla şirketi bir araya getiren özel bir toplantı. Bu toplantının amacı, Bitcoin'ın ölçeklendirilmesi konusunda uzun süredir devam eden tartışmaları bir anlaşmaya vararak sonlandırmaktı. Bu toplantı, önceki SegWit2Mb önerisinden esinlenerek SegWit2x'in önerilmesine yol açtı. Bitcoin protokolünde iki büyük değişiklik yapılması planlanmıştır:

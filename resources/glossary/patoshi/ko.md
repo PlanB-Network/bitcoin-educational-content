@@ -1,5 +1,5 @@
 ---
-term: Patoshi
+term: 파토시
 
 ---
 

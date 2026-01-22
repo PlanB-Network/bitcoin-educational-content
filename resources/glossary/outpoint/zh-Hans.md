@@ -1,5 +1,5 @@
 ---
-term: Outpoint（外点）
+term: Outpoint
 
 ---
 对未用的交易输出（UTXO）的独特引用。它由两个元素组成：

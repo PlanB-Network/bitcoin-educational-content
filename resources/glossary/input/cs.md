@@ -1,5 +1,5 @@
 ---
-term: Input
+term: Vstup (Input)
 ---
 
 V kontextu Bitcoin se vstupem v rámci transakce rozumí UTXO (*Nevyčerpané výstupy transakce*) použité jako původní prostředky k uspokojení výstupů. Každý vstup obsahuje odkazy na předchozí UTXO, které budou následně spotřebovány transakcí. Tyto vstupy se používají k napájení nových UTXO, které budou vytvořeny jako výstupy transakce a které pak mohou být použity v budoucích transakcích.

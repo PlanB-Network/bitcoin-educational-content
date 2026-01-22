@@ -1,5 +1,5 @@
 ---
-term: Average round duration
+term: Durchschnittliche Rundendauer
 
 ---
 Die durchschnittliche Rundendauer ist ein Indikator, mit dem die Zeit geschätzt wird, die ein Mining-Pool benötigt, um einen Block zu finden, basierend auf der Schwierigkeit des Netzwerks und der Hash-Rate des Pools. Sie wird berechnet, indem die Anzahl der Anteile, die zum Finden eines Blocks erwartet werden, durch die Hash-Rate des Pools geteilt wird. Wenn ein Mining-Pool beispielsweise 200 Miner hat und jeder durchschnittlich 4 Shares pro Sekunde erzeugt, beträgt die gesamte Rechenleistung des Pools 800 Shares pro Sekunde:

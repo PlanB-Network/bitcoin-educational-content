@@ -1,5 +1,5 @@
 ---
-term: Standardization rules
+term: Quy tắc tiêu chuẩn hóa
 
 ---
 Standardization rules are individually adopted by each Bitcoin node, in addition to the consensus rules, to define the structure of unconfirmed transactions it accepts into its mempool and broadcasts to its peers. These rules are thus configured and executed locally by each node and can vary from one node to another. They apply exclusively to unconfirmed transactions. Therefore, a node will only accept a transaction it deems non-standard if it is already included in a valid block.

@@ -1,5 +1,5 @@
 ---
-term: Miglioramento
+term: Betterhash
 ---
 
 Protocollo Mining sviluppato da Matt Corallo nel 2018 nel tentativo di contrastare la crescente centralizzazione di Mining sui pool. Si differenzia da Stratum, che all'epoca era lo standard, offrendo agli hasher un maggiore controllo sulla selezione delle transazioni da includere nei modelli di blocco. L'idea principale di BetterHash è quella di restituire agli inseguitori la possibilità di gestire autonomamente la costruzione dei modelli di blocco, mantenendo i vantaggi dei pool Mining, come la ridotta varianza delle entrate.

@@ -1,5 +1,5 @@
 ---
-term: Tihi plaćanja
+term: Silent payments
 ---
 
 Metod za korišćenje statičkih Bitcoin adresa za primanje uplata bez ponovne upotrebe Address, bez interakcije, i bez vidljive On-Chain veze između različitih uplata i statičkog Address. Ova tehnika eliminiše potrebu za generate novim, neiskorišćenim adresama za primanje za svaku transakciju, čime se izbegavaju uobičajene interakcije u Bitcoin gde primalac mora da obezbedi novi Address platiocu.

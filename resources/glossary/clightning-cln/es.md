@@ -1,5 +1,5 @@
 ---
-term: Rayo c (cln)
+term: C-lightning (CLN)
 
 ---
 Nombre anterior de la implementación de Core-Lightning.

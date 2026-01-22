@@ -1,5 +1,5 @@
 ---
-term: Whale
+term: Velryba
 
 ---
 Označuje fyzickou nebo právnickou osobu, která vlastní velmi velké množství bitcoinů.

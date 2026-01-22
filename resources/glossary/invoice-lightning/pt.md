@@ -1,5 +1,5 @@
 ---
-term: Invoice iluminação
+term: Invoice lightning
 ---
 
 Pedido de pagamento relâmpago gerado pelo destinatário, contendo todas as informações necessárias para completar a transação.

@@ -1,5 +1,5 @@
 ---
-term: Thanh toán đa đường (mpp)
+term: Thanh toán đa luồng (MPP)
 ---
 
 Thuật ngữ chung cho tất cả các kỹ thuật thanh toán trên Lightning cho phép chia nhỏ giao dịch thành nhiều phần nhỏ hơn và định tuyến qua các tuyến đường khác nhau. Nói cách khác, mỗi phần thanh toán sẽ đi qua một đường dẫn nút khác nhau. Điều này giúp có thể bỏ qua các giới hạn thanh khoản trên một kênh duy nhất trong tuyến đường.

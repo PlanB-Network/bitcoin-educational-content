@@ -1,5 +1,5 @@
 ---
-term: Bitcoin (großes b)
+term: Bitcoin (großes B)
 
 ---
 Bitcoin ist der Name des elektronischen Peer-to-Peer-Geldsystems, das 2009 von Satoshi Nakamoto geschaffen wurde. Die Verwendung des Begriffs "Bitcoin" mit einem großen "B" kann sich auf drei verschiedene Dinge beziehen:

@@ -1,5 +1,5 @@
 ---
-term: Crypto-asset
+term: Krüptovara
 
 ---
 Termin, mida kasutatakse õiguslikus ja regulatiivses kontekstis eri tüüpi krüptovaluutade, sealhulgas bitcoini kohta.

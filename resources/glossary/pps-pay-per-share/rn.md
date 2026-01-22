@@ -1,5 +1,5 @@
 ---
-term: Pps (ishura ku mugabane)
+term: Pps (pay per share)
 ---
 
 Uburyo bwo kubara impembo y’abacukuzi mu rwego rw’ibidengeri vya Mining. PPS ni uburyo aho abacukuzi b’amabuye y’agaciro bahembwa ku mugabane wose ufise akamaro bashikirijwe, ataco bimaze ko iyo pool ironka ibarabara canke atarivyo. Baca rero bahembwa bivanye n’agaciro bari biteze. Ni uburyo bwo guhembwa bushingiye ku gikorwa.

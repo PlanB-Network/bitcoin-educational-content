@@ -1,5 +1,5 @@
 ---
-term: Осколки (молния)
+term: Шарды (lightning)
 ---
 
 В контексте *Multi-Path Payments (MPP)* или *Atomic Multi-Path Payments (AMP)*, Shard - это часть глобального платежа. Каждый Shard представляет собой часть общего платежа, которая направляется отдельно по другому маршруту на Lightning.

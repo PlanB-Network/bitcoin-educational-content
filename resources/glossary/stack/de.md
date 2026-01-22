@@ -1,5 +1,5 @@
 ---
-term: Batterie
+term: Stack
 ---
 
 Im Zusammenhang mit der Skriptsprache, die verwendet wird, um Bitcoin UTXOs mit Ausgabenbedingungen zu versehen, ist der Stapel eine LIFO (*Last In, First Out*) Datenstruktur, die verwendet wird, um temporäre Elements während der Skriptausführung zu speichern. Jede Operation im Skript manipuliert diese Stapel, wobei Elements hinzugefügt (*push*) oder entfernt (*pop*) werden können. Skripte verwenden Stapel, um Ausdrücke auszuwerten, temporäre Variablen zu speichern und Bedingungen zu verwalten.

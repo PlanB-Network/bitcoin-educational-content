@@ -1,5 +1,5 @@
 ---
-term: Raakakauppa
+term: Raakatransaktio
 
 ---
 Bitcoin-tapahtuma, joka on rakennettu ja allekirjoitettu ja joka on olemassa binäärimuodossaan. Raaka transaktio (*raw TX*) on transaktion lopullinen esitys juuri ennen sen lähettämistä verkkoon. Tämä transaktio sisältää kaikki tarvittavat tiedot sen sisällyttämiseksi lohkoon:

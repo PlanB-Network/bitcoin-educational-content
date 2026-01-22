@@ -1,5 +1,5 @@
 ---
-term: Välk teenusepakkuja
+term: Lightning service provider
 ---
 
 Lightningil tegutsev ettevõte, mille äritegevus on pakkuda kasutajatele likviidsusteenuseid.

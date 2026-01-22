@@ -1,5 +1,5 @@
 ---
-term: Invoice umeme
+term: Invoisi ya lightning
 ---
 
 Ombi la malipo ya umeme lililotolewa na mpokeaji, lililo na taarifa zote zinazohitajika ili kukamilisha muamala.

@@ -1,5 +1,5 @@
 ---
-term: Förenklad verifiering av betalningar
+term: Simplified payment verification
 ---
 
 Metod som gör det möjligt för lätta klienter att verifiera Bitcoin-transaktioner utan att ladda ner hela Blockchain. En nod som använder SPV laddar bara ner blockhuvudena, som är mycket lättare än de fullständiga blocken. När den behöver verifiera en transaktion begär SPV-noden ett Merkle-bevis från fullständiga noder för att bekräfta att transaktionen ingår i ett specifikt block. Detta tillvägagångssätt är effektivt för enheter med begränsade resurser, t.ex. smartphones, men det innebär ett beroende av fullständiga noder, vilket kan minska säkerheten och öka det nödvändiga förtroendet.

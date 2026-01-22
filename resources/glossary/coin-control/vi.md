@@ -1,5 +1,5 @@
 ---
-term: Coin control
+term: Kiểm soát tiền
 
 ---
 A feature found in some Bitcoin wallet software that gives users the ability to manually select specific UTXOs (Unspent Transaction Outputs) to use as inputs for making a transaction. In other words, coin control offers the possibility to precisely choose which pieces of bitcoins will be spent. This functionality is similar to the action of choosing a specific coin from your wallet to pay for your baguette.

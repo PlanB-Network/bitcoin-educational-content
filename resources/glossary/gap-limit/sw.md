@@ -1,5 +1,5 @@
 ---
-term: Kikomo cha pengo
+term: Gap limit
 ---
 
 Kigezo kinachotumika katika programu ya Bitcoin Wallet ili kubainisha idadi ya juu zaidi ya anwani zisizotumiwa kwa generate mfululizo kabla ya kusimamisha utafutaji wa miamala ya ziada. Kurekebisha parameter hii mara nyingi ni muhimu wakati wa kurejesha Wallet ili kuhakikisha kwamba shughuli zote zinapatikana. Kikomo cha Pengo kisichotosha kinaweza kusababisha kukosa baadhi ya miamala ikiwa anwani zingerukwa wakati wa awamu za utokaji. Kuongeza Kikomo cha Pengo huruhusu Wallet kutafuta zaidi katika mfuatano wa Address, ili kurejesha shughuli zote zinazohusiana.

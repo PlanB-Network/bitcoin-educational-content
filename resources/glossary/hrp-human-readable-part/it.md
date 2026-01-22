@@ -1,5 +1,5 @@
 ---
-term: Hrp (parte leggibile dall'uomo)
+term: Hrp (human readable part)
 
 ---
 L'HRP, che sta per "Human Readable Part", è un componente degli indirizzi di ricezione bech32 e bech32m (SegWit v0 e SegWit v1). L'HRP si riferisce alla parte dell'indirizzo che è specificamente formattata per essere facilmente letta e interpretata dall'uomo. Prendiamo, ad esempio, un indirizzo Bitcoin bech32:

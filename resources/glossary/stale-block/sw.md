@@ -1,5 +1,5 @@
 ---
-term: Imepeleka (zuia)
+term: Obsolète (bloc)
 ---
 
 Inarejelea kizuizi kisicho na watoto: kizuizi halali, lakini kisichojumuishwa kwenye mnyororo mkuu wa Bitcoin. Inatokea wakati wachimbaji wawili wanapata kizuizi halali kwa urefu sawa wa mnyororo ndani ya muda mfupi na kutangaza kwenye mtandao. Nodes hatimaye kuchagua block moja tu kujumuisha katika mlolongo, kwa mujibu wa kanuni ya mnyororo na kazi zaidi kusanyiko, kutoa nyingine "kizamani". Mchakato unaosababisha utengenezaji wa block ya kizamani ni kama ifuatavyo.

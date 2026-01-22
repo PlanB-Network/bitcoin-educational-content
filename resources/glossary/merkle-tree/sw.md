@@ -1,5 +1,5 @@
 ---
-term: Merkle tree
+term: Mti wa Merkle
 ---
 
 Merkle Tree ni mkusanyiko wa kriptografia. Ni njia ya kuthibitisha uanachama wa sehemu fulani ya habari ndani ya seti kubwa zaidi. Ni muundo wa data ambao hurahisisha uthibitishaji wa habari katika umbizo la kompakt. Katika mfumo wa Bitcoin, Miti ya Merkle hutumiwa kupanga na kufupisha shughuli za block katika Hash moja, inayoitwa Merkle Root (au "*Root Hash*"). Kila muamala huharakishwa, kisha heshi zilizo karibu huharakishwa pamoja kwa mpangilio hadi Merkle Root ipatikane.

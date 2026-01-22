@@ -1,5 +1,5 @@
 ---
-term: Penutupan paksa
+term: Tutup paksa
 ---
 
 Mekanisme penutupan saluran Lightning yang tidak kooperatif. Ketika dua pengguna membuka saluran dengan _Multisig_ 2/2, masing-masing dapat menutup saluran secara sepihak dengan mempublikasikan _Commitment Transaction_ terakhir yang telah ditandatangani, untuk memulihkan bitcoin onchain mereka. Hal ini dikenal dengan istilah "_force close_".

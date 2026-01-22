@@ -1,5 +1,5 @@
 ---
-term: Commitment
+term: Compromiso
 ---
 
 Un Commitment (en el sentido criptográfico) es un objeto matemático, denotado $C$, derivado determinísticamente de una operación sobre datos estructurados $m$ (el mensaje) y un valor aleatorio $r$. Escribimos :

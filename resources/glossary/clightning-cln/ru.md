@@ -1,5 +1,5 @@
 ---
-term: C-молния (cln)
+term: C-lightning (CLN)
 
 ---
 Прежнее название реализации Core-Lightning.

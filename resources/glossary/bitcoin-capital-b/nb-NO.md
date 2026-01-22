@@ -1,5 +1,5 @@
 ---
-term: Bitcoin (stor b)
+term: Bitcoin (stor B)
 
 ---
 Bitcoin er navnet på det elektroniske peer-to-peer-kontantsystemet som ble opprettet av Satoshi Nakamoto i 2009. Bruken av begrepet Bitcoin med stor "B" kan referere til tre forskjellige ting:

@@ -1,5 +1,5 @@
 ---
-term: Pedersen commitment
+term: Pedersen-sitoumus
 ---
 
 Pedersen commitment on eräänlainen kryptografinen Commitment, jolla on ominaisuus olla homomorfinen yhteenlaskuoperaatiolle. Tämä tarkoittaa sitä, että kahden sitoumuksen summa on mahdollista vahvistaa paljastamatta yksittäisiä arvoja.

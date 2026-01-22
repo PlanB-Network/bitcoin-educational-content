@@ -1,5 +1,5 @@
 ---
-term: Mixing
+term: Miksimine
 
 ---
 Üldises matemaatikas viitab segunemine või segunemine dünaamilise süsteemi omadusele, mille puhul teatava aja möödudes võivad teoreetiliselt kõik algruumi osad seguneda mis tahes muu osaga. Segunemine tähendab, et osakese asukoht või süsteemi seisund areneb nii, et selle tulevane jaotus ei sõltu selle algjaotusest, jõudes seega olekusse, kus algse seisundi omadused on ühtlaselt jaotunud kogu süsteemi ruumis. Bitcoini kontekstis saab seda mõistet kasutada mündi segamise protsessi, näiteks mündi liitmise kvaliteedi hindamiseks.

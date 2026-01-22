@@ -1,5 +1,5 @@
 ---
-term: Lock (.lock)
+term: 잠금 (.lock)
 
 ---
 

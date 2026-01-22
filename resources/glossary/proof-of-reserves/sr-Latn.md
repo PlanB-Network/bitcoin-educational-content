@@ -1,5 +1,5 @@
 ---
-term: Dokaz o rezervacijama
+term: Dokaz o rezervama
 ---
 
 Mehanizam koji koriste platforme Bitcoin Exchange da pokažu da zaista drže imovinu svojih korisnika. Cilj je dokazati solventnost kompanije proverom da su njeni bitkoini jednaki ili veći od korisničkih salda koje bi trebalo da drže.

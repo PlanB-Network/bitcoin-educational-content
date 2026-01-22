@@ -1,5 +1,5 @@
 ---
-term: Skjær (lyn)
+term: Shards (lightning)
 ---
 
 I forbindelse med *Multi-Path Payments (MPP)* eller *Atomic Multi-Path Payments (AMP)* er en Shard en brøkdel av en global betaling. Hver Shard representerer en del av den totale betalingen, som rutes separat via en annen rute på Lightning.

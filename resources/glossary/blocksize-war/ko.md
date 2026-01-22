@@ -1,5 +1,5 @@
 ---
-term: Blocksize war
+term: 블록 크기 전쟁
 
 ---
 

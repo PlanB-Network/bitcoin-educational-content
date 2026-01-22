@@ -1,5 +1,5 @@
 ---
-term: Utxo set
+term: Set UTXO
 
 ---
 Si riferisce alla raccolta di tutti gli UTXO esistenti in un dato momento. In altre parole, è un grande elenco di tutti i diversi pezzi di bitcoin in attesa di essere spesi. Se si sommano gli importi di tutti gli UTXO nel set UTXO, si ottiene la massa monetaria totale dei bitcoin in circolazione. Ogni nodo della rete Bitcoin mantiene il proprio set UTXO in tempo reale. Lo aggiorna man mano che vengono confermati nuovi blocchi validi, con le transazioni in essi incluse, che consumano alcuni UTXO dall'insieme UTXO e ne creano di nuovi in cambio.

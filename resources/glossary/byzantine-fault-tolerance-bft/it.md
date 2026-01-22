@@ -1,5 +1,5 @@
 ---
-term: Tolleranza ai guasti bizantina (bft)
+term: Tolleranza ai guasti bizantini (BFT)
 
 ---
 Un concetto utilizzato nei sistemi distribuiti per garantire un consenso affidabile e sicuro, anche in presenza di nodi difettosi o maligni.

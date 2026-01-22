@@ -1,5 +1,5 @@
 ---
-term: Bgp hijacking
+term: BGP kaçırma
 ---
 
 Kötü niyetli bir aktörün İnternet trafiğini kendi ağına yönlendirmek için BGP reklamlarını manipüle ettiği saldırı. Saldırgan, belirli IP Address aralıklarının meşru kaynağı gibi davranarak, bu adreslere yönelik trafiği durdurabilir, izleyebilir veya engelleyebilir.

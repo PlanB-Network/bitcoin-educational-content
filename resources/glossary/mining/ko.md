@@ -1,5 +1,5 @@
 ---
-term: Mining
+term: 채굴
 ---
 
 Bitcoin 시스템의 Proof-of-Work(Proof-of-Work)에 참여하는 행위. Proof-of-Work은 시빌 공격에 저항하는 메커니즘입니다. 이는 나카모토 합의 메커니즘의 기초이며, 네트워크의 여러 노드 간에 분산된 단일 버전의 Ledger에 대한 합의를 도출하는 데 사용되는 원칙입니다.

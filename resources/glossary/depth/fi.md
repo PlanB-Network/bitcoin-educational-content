@@ -1,5 +1,5 @@
 ---
-term: Depth
+term: Syvyys
 
 ---
 HD-lompakoissa (Hierarchical Deterministic) syvyys tarkoittaa avaimen (julkisen tai yksityisen), ketjukoodin, laajennetun avaimen tai osoitteen tiettyä tasoa lompakon johdannaisrakenteessa pääavaimesta. Jokainen tämän rakenteen taso voidaan nähdä avainpuun kerroksena, jossa pääavain on juuressa (syvyys 0) ja seuraavat tasot määrittelevät erilaisia attribuutteja, kuten:

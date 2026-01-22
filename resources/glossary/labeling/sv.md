@@ -1,5 +1,5 @@
 ---
-term: Märkning
+term: Etikettering
 ---
 
 Metoden att tilldela en anteckning eller etikett till en specifik UTXO i en Bitcoin Wallet. Till exempel, om jag har en UTXO från ett P2P-köp på Bisq med Charles, kan jag märka den som "`Non-KYC Bisq Charles`".

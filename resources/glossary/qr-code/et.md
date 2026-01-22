@@ -1,5 +1,5 @@
 ---
-term: Qr-kood
+term: QR-kood
 
 ---
 Kahemõõtmeline vöötkood, mida saab kiiresti skaneerida mobiilseadmetega. QR-kood salvestab teavet mustade ja valgete pikslite kujul, mis on paigutatud ruudukujuliselt valgele taustale. QR-koodide oluline omadus on see, et need sisaldavad BCH-vea parandamise koode, mis võimaldavad andmeid taastada isegi siis, kui QR-kood on osaliselt varjatud.

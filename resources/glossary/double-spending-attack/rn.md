@@ -1,5 +1,5 @@
 ---
-term: Gukoresha amafaranga akabiri (igitera)
+term: Gusubira gukoresha
 ---
 
 Igitero aho umukoresha w’ububisha agerageza gukoresha UTXO imwe (*Unspent Transaction Output*) incuro zirenga imwe kugira ngo yitunganirize ku giciro c’abagira uruhara mu bikorwa. Mu ngingo ngenderwako, iyo igikorwa cemejwe mu gice c’ibarabara maze kigashirwa kuri Blockchain, ikoreshwa ry’ayo ma bitcoins rirandikwa ubudasiba, rikabuza gukoresha ayo ma bitcoins nyene. Gukingira gukoresha amahera kabiri ni co kintu nyamukuru gifasha Blockchain.

@@ -1,5 +1,5 @@
 ---
-term: OP_CHECK_SEQUENCEVERIFY (0xB2)
+term: OP_CHECKSEQUENCEVERIFY (0XB2)
 ---
 
 이러한 특성 중 하나라도 관찰되면 트랜잭션을 무효로 처리합니다:

@@ -1,5 +1,5 @@
 ---
-term: Snelle proef
+term: Speedy trial
 ---
 
 Methode om een Soft Fork te activeren, oorspronkelijk bedacht voor Taproot in het begin van 2021 door David A. Harding, gebaseerd op een idee van Russell O'Connor. Het principe is om de BIP8 methode te gebruiken met een `LOT` parameter ingesteld op `false`, terwijl de activatieperiode wordt teruggebracht tot slechts 3 maanden. Deze verkorte stemperiode maakt een snelle verificatie van de Miner goedkeuring mogelijk. Als de vereiste goedkeuringsdrempel wordt bereikt tijdens een van de periodes, wordt de Soft Fork vergrendeld. Het zal enkele maanden later geactiveerd worden, zodat mijnwerkers de nodige tijd hebben om hun software te updaten.

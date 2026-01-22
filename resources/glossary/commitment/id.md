@@ -1,5 +1,5 @@
 ---
-term: Commitment
+term: Komitmen
 ---
 
 Sebuah _Commitment_ (dalam pengertian kriptografi) adalah sebuah objek matematis, dilambangkan dengan $C$, yang diturunkan secara deterministik dari sebuah operasi pada data terstruktur $m$ (pesan) dan sebuah nilai acak $r$. Kami menulis :

@@ -1,5 +1,5 @@
 ---
-term: Pembejeo
+term: Ingizo
 ---
 
 Katika muktadha wa Bitcoin, ingizo ndani ya muamala hurejelea UTXOs (*Matokeo ya Muamala Usiotumika*) yanayotumika kama fedha asili kukidhi matokeo. Kila ingizo lina marejeleo ya UTXO zilizopita, ambazo zitatumiwa na muamala. Ingizo hizi hutumika kulisha UTXO mpya ambazo zitaundwa kama matokeo ya muamala, na ambazo zinaweza kutumika katika shughuli za siku zijazo.

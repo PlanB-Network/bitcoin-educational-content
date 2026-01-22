@@ -1,5 +1,5 @@
 ---
-term: Overlay
+term: Kiht
 ---
 
 Protokoll või võrk, mis on ehitatud peamise Bitcoin võrgu peale. See kasutab Bitcoin võrku alusena ja sõltub seetõttu selle protokollist. Bitcoin võrk ei sõltu aga selle pealekandmisest. Sellise pealekandumise näide on Lightning Network.

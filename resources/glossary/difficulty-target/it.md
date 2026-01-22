@@ -1,5 +1,5 @@
 ---
-term: Obiettivo di difficoltà
+term: Target di difficoltà
 
 ---
 Il fattore di difficoltà, noto anche come obiettivo di difficoltà, è un parametro utilizzato nel meccanismo di consenso per prova di lavoro (Proof of Work, PoW) su Bitcoin. Il target rappresenta un valore numerico che determina la difficoltà per i minatori di risolvere uno specifico problema crittografico, chiamato proof of work, quando si crea un nuovo blocco sulla blockchain.

@@ -1,5 +1,5 @@
 ---
-term: Ricerca del sentiero
+term: Pathfinding
 ---
 
 Processo utilizzato da un nodo per determinare il percorso ottimale per instradare un pagamento attraverso la rete del canale Lightning. Il pathfinding viene effettuato dal nodo pagatore, che deve selezionare i nodi intermedi più adatti per raggiungere il destinatario. Questa scelta si basa su una serie di criteri, come le tariffe, la capacità del canale e i tempi di attesa.

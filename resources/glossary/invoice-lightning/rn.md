@@ -1,5 +1,5 @@
 ---
-term: Invoice umurabo
+term: Invoice lightning
 ---
 
 Igisabwa co kwishura nk’umuravyo cavuzwe n’uwuronka, kirimwo amakuru yose akenewe kugira ngo umuntu arangize igikorwa.

@@ -1,5 +1,5 @@
 ---
-term: Invoice 闪电
+term: Lightning 发票
 ---
 
 收款人生成的闪电付款请求，包含完成交易所需的所有信息。

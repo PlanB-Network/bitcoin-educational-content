@@ -1,5 +1,5 @@
 ---
-term: Wallet footprint
+term: Otisak novčanika
 ---
 
 Skup karakteristika koje se mogu primetiti u transakcijama napravljenim od strane istog Bitcoin Wallet. Ove karakteristike mogu uključivati sličnosti u korišćenju tipova skripti, ponovnu upotrebu adresa, redosled UTXO-a, postavljanje izlaza za kusur, signalizaciju RBF (*Replace-by-fee*), broj verzije, polje `nSequence` i polje `nLockTime`.

@@ -1,5 +1,5 @@
 ---
-term: Vícecestné platby (mpp)
+term: Multi-path payments (mpp)
 ---
 
 Obecný termín pro všechny platební techniky v systému Lightning, které umožňují rozdělit transakci na několik menších částí a směrovat ji různými cestami. Jinými slovy, každá část platby jde jinou uzlovou cestou. To umožňuje obejít omezení likvidity na jednom kanálu v trase.

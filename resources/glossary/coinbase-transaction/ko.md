@@ -1,5 +1,5 @@
 ---
-term: 코인베이스(트랜잭션)
+term: 코인베이스 트랜잭션
 ---
 
 Coinbase Transaction은 Bitcoin Blockchain의 모든 블록에 포함된 특별하고 고유한 트랜잭션입니다. 이는 블록의 첫 번째 트랜잭션을 나타내며 Proof of Work(*Proof-of-Work*)을 검증하는 헤더, 즉 목표보다 작거나 같은 헤더를 성공적으로 찾은 Miner에 의해 생성됩니다.

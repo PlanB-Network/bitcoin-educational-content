@@ -1,5 +1,5 @@
 ---
-term: Saini kipofu
+term: Sahihi isiyoonekana
 ---
 
 Sahihi za upofu za Chaum ni aina ya sahihi ya dijitali ambapo mtoaji saini hajui maudhui ya ujumbe anaotia saini. Hata hivyo, saini inaweza kuthibitishwa baadaye na ujumbe asili. Mbinu hii ilitengenezwa na mwandishi wa maandishi David Chaum mnamo 1983.

@@ -1,5 +1,5 @@
 ---
-term: Address'i almak
+term: Alıcı adresi
 ---
 
 Bitcoin almak için kullanılan bilgiler. Bir Address genellikle `SHA256` ve `RIMPEMD160` kullanılarak bir açık anahtarın hash edilmesi ve bu özete meta veri eklenmesiyle oluşturulur. Alıcı Address'i oluşturmak için kullanılan açık anahtarlar kullanıcının Wallet'ünün bir parçasıdır ve bu nedenle seed'ünden türetilir. Örneğin, SegWit adresleri aşağıdaki bilgilerden oluşur:

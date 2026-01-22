@@ -1,5 +1,5 @@
 ---
-term: Adresse-wiederverwendung
+term: Adresswiederverwendung
 
 ---
 Die Wiederverwendung von Adressen bezieht sich auf die Praxis, dieselbe Empfangsadresse zu verwenden, um mehrere UTXOs zu blockieren, manchmal innerhalb mehrerer verschiedener Transaktionen. Bitcoins werden normalerweise mit einem kryptografischen Schlüsselpaar gesperrt, das einer eindeutigen Adresse entspricht. Da die Blockchain öffentlich ist, lässt sich leicht feststellen, welche Adressen mit wie vielen Bitcoins verbunden sind. Wird dieselbe Adresse für mehrere Zahlungen wiederverwendet, kann man davon ausgehen, dass alle zugehörigen UTXOs demselben Unternehmen gehören. Daher stellt die Wiederverwendung von Adressen ein Problem für die Privatsphäre des Nutzers dar. Sie ermöglicht deterministische Verknüpfungen zwischen mehreren Transaktionen und UTXOs sowie eine kontinuierliche Verfolgung von Geldern auf der Kette. Satoshi Nakamoto hat dieses Problem bereits in seinem Weißbuch erwähnt:

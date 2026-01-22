@@ -1,5 +1,5 @@
 ---
-term: Timelock
+term: Blokada czasowa (Timelock)
 ---
 
 Prymityw Smart contract, który umożliwia ustawienie warunku opartego na czasie, który musi zostać spełniony, aby transakcja została dodana do bloku. Istnieją dwa rodzaje blokad czasowych na Bitcoin:

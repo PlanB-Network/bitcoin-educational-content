@@ -1,5 +1,5 @@
 ---
-term: Overlay
+term: Lapisan
 ---
 
 Protokol atau jaringan yang dibangun di atas jaringan Bitcoin utama. Jaringan ini menggunakan jaringan Bitcoin sebagai fondasi dan oleh karena itu bergantung pada protokolnya. Namun, jaringan Bitcoin tidak bergantung pada overlay-nya. Contoh dari _overlay_ tersebut adalah Jaringan Lightning.

@@ -1,5 +1,5 @@
 ---
-term: Msimbo wa qr
+term: Msimbo wa QR
 ---
 
 Aina ya msimbopau wa pande mbili ambao unaweza kuchanganuliwa kwa haraka na vifaa vya mkononi. Msimbo wa QR huhifadhi maelezo katika mfumo wa saizi nyeusi na nyeupe zilizopangwa katika mraba kwenye mandharinyuma nyeupe. Kipengele muhimu cha misimbo ya QR ni kwamba hujumuisha misimbo ya kurekebisha makosa ya BCH, ambayo inaruhusu data kurejeshwa hata kama msimbo wa QR umefichwa kwa kiasi.

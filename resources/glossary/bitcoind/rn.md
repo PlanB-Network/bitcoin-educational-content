@@ -1,5 +1,5 @@
 ---
-term: Bitcoind
+term: bitcoind
 ---
 
 Inyuguti y'inyongera y'ikigiriki "*Bitcoin daemon*".

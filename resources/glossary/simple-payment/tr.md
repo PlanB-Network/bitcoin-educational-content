@@ -1,5 +1,5 @@
 ---
-term: Basi̇t ödeme
+term: Basit ödeme
 ---
 
 Zincir analizinde kullanılan işlem modeli (veya modeli), girdilerde bir veya daha fazla UTXO tüketimi ve çıktılarda 2 UTXO üretimi ile karakterize edilir. Dolayısıyla bu model şu şekilde görünecektir:

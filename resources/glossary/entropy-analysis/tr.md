@@ -1,5 +1,5 @@
 ---
-term: Entropi (analiz)
+term: Entropi analizi
 ---
 
 Zincir analizi bağlamında entropi aynı zamanda LaurentMT tarafından icat edilen ve Shannon entropisinden türetilen bir göstergenin adıdır. Bu gösterge, analistlerin bir Bitcoin işleminin tam konfigürasyonu hakkında sahip oldukları bilgi eksikliğinin ölçülmesini sağlar. Başka bir deyişle, bir işlemin entropisi ne kadar yüksekse, analistlerin girdiler ve çıktılar arasındaki bitcoin hareketlerini tespit etmesi o kadar zorlaşır.

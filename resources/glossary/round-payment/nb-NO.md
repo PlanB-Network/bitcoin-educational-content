@@ -1,5 +1,5 @@
 ---
-term: Rund betaling
+term: Avrundet betaling
 
 ---
 En intern heuristikk for kjedeanalyse på Bitcoin som muliggjør en hypotese om arten av utgangene til en transaksjon basert på runde beløp. Generelt, når man står overfor et enkelt betalingsmønster (1 inngang og 2 utganger), hvis en av utgangene bruker et rundt beløp, så representerer den betalingen. Ved eliminering, hvis den ene utgangen representerer betalingen, representerer den andre endringen. Det kan derfor tolkes som at det er sannsynlig at brukeren som legger inn transaksjonen, fortsatt har den utgangen som er identifisert som endringen.

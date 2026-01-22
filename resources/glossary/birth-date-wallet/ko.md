@@ -1,5 +1,5 @@
 ---
-term: 생년월일(Wallet)
+term: 생성일 (지갑)
 ---
 
 생년월일(Wallet)은 Wallet이 생성된 날짜를 의미합니다.

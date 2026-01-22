@@ -1,5 +1,5 @@
 ---
-term: Deonice
+term: Udeli (shares)
 ---
 
 U kontekstu Mining bazena, udeo je indikator koji se koristi za kvantifikaciju doprinosa pojedinačnog Miner unutar bazena. Ova mera služi kao osnova za izračunavanje nagrade koju bazen preraspodeljuje svakom Miner. Svaki udeo odgovara Hash koji zadovoljava cilj težine niži od onog u Bitcoin mreži.

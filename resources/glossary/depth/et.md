@@ -1,5 +1,5 @@
 ---
-term: Depth
+term: Sügavus
 
 ---
 HD (Hierarhical Deterministic) rahakottide kontekstis viitab sügavus võtme (avaliku või privaatse), ahelakoodi, laiendatud võtme või aadressi konkreetsele tasemele rahakoti tuletamisstruktuuris peavõtmest. Selle struktuuri iga tasandit võib vaadelda kui korrust võtmepuus, mille juurest (sügavus 0) asub põhivõti ja järgmised tasandid määratlevad erinevaid atribuute, näiteks:

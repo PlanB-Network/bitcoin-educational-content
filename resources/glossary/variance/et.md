@@ -1,5 +1,5 @@
 ---
-term: Variance
+term: Variatsioon
 ---
 
 Mining puhul viitab see Miner tulude kõikumisele, mis tuleneb kehtivate plokkide leidmise tõenäosuslikkusest. Isegi konstantse arvutusvõimsuse korral võib ploki leidmiseks kuluv aeg märkimisväärselt varieeruda. Selle tulemusena võivad kaevandajad jääda pikaks ajaks ilma tasu saamata, millele järgnevad suure sissetuleku perioodid.

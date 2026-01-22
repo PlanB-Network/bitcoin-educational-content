@@ -1,5 +1,5 @@
 ---
-term: Mining
+term: Uchimbuaji
 ---
 
 Kitendo cha kushiriki katika mfumo wa Bitcoin wa Proof-of-Work (Proof-of-Work). Proof-of-Work ni njia ya kupinga mashambulizi ya Sybil. Ni msingi wa utaratibu wa makubaliano ya Nakamoto, ambayo ni kanuni inayotumiwa kuanzisha makubaliano juu ya toleo moja la Ledger iliyosambazwa kati ya nodes tofauti za mtandao.

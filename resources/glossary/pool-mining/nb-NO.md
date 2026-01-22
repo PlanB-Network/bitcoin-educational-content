@@ -1,5 +1,5 @@
 ---
-term: Pool (mining)
+term: Gruve-pool
 ---
 
 Refererer til et sett med utvinnere som samarbeider ved å kombinere datakraften sin for å delta i søket etter gyldige bevis på arbeid på Bitcoin. Denne sammenslåingen i én enkelt organisasjon er en løsning på den økende vanskelighetsgraden til Bitcoin Mining, som gjør det for usannsynlig for en individuell Miner å konkurrere og tjene belønninger på stabil basis. Utvinnere i en Mining pool bidrar med maskinene sine i søket etter gyldige aksjer. Når en blokk utvinnes av bassenget, fordeles belønningen - som består av de nyopprettede bitcoinsene samt transaksjonsgebyrene som inngår i blokken - mellom medlemmene i bassenget i henhold til den valgte avlønningsmetoden. Denne fordelingen er proporsjonal med datakraften hver Miner har bidratt med.

@@ -1,5 +1,5 @@
 ---
-term: Salamapalvelun tarjoaja
+term: Lightning service provider
 ---
 
 Lightningissa toimiva yritys, jonka liiketoiminta on likviditeettipalvelujen tarjoaminen käyttäjille.

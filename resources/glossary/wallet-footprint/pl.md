@@ -1,5 +1,5 @@
 ---
-term: Wallet footprint
+term: Ślad portfela
 ---
 
 Zestaw charakterystycznych cech obserwowalnych w transakcjach dokonywanych przez ten sam Bitcoin Wallet. Cechy te mogą obejmować podobieństwa w użyciu typów skryptów, ponowne użycie adresów, kolejność UTXO, umieszczenie wyjść zmian, sygnalizację RBF (*Replace-by-fee*), numer wersji, pole `nSequence` i pole `nLockTime`.

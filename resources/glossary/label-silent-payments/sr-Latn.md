@@ -1,5 +1,5 @@
 ---
-term: Label (tihih plaćanja)
+term: Label (silent payments)
 ---
 
 U okviru protokola Silent Payments, oznake su celi brojevi korišćeni za modifikaciju početne statičke Address kako bi se kreirale mnoge druge statičke adrese. Korišćenje ovih oznaka omogućava segregaciju uplata poslatih putem Silent Payments, koristeći različite statičke adrese za svaku upotrebu, bez prekomernog povećanja operativnog opterećenja za detekciju ovih uplata (skeniranje). Bob koristi statički Address $B$, sastavljen od dva javna ključa: $B_{\text{scan}}$ za skeniranje i $B_{\text{spend}}$ za trošenje. Hash od $b_{\text{scan}}$ i ceo broj $m$, skalarno pomnožen sa tačkom generatora $G$, dodaje se javnom ključu za trošenje $B_{\text{spend}}$ kako bi se kreirao svojevrsni novi javni ključ za trošenje $B_m$:

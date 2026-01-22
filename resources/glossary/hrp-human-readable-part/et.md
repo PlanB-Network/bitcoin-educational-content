@@ -1,5 +1,5 @@
 ---
-term: Hrp (inimloetav osa)
+term: Hrp (human readable part)
 
 ---
 HRP, mis tähendab "Human Readable Part", on bech32 ja bech32m (SegWit v0 ja SegWit v1) vastuvõtuaadresside komponent. HRP viitab aadressi osale, mis on spetsiaalselt vormindatud, et inimesed saaksid seda hõlpsasti lugeda ja tõlgendada. Võtame näiteks bech32 Bitcoini aadressi:

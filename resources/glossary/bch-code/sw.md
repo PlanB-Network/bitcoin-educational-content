@@ -1,5 +1,5 @@
 ---
-term: Bch code
+term: BCH code
 ---
 
 Kundi la misimbo ya kusahihisha makosa inayotumika kugundua na kusahihisha makosa katika mlolongo wa data. Kwa maneno mengine, misimbo ya kurekebisha makosa ya BCH hutumiwa kutafuta na kusahihisha makosa ya nasibu katika taarifa zinazotumwa, ili kuhakikisha kwamba inafika katika eneo lake ikiwa sawa. Kifupi "BCH" kinasimama kwa herufi za kwanza za majina ya wavumbuzi wa misimbo hii: Bose, Ray-Chaudhuri, na Hocquenghem.

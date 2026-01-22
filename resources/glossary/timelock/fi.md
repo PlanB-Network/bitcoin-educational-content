@@ -1,5 +1,5 @@
 ---
-term: Timelock
+term: Aikalukko (Timelock)
 
 ---
 Älykkään sopimuksen alkeisominaisuus, jonka avulla voidaan asettaa aikapohjainen ehto, jonka on täytyttävä, jotta transaktio voidaan lisätä lohkoon. Bitcoinissa on kahdenlaisia aikalukkoja:

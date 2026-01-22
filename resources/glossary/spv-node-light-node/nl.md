@@ -1,5 +1,5 @@
 ---
-term: Spv-knooppunt (lichtknooppunt)
+term: SPV-node (light node)
 ---
 
 Een SPV (*Simple Payment Verification*) node, soms een "light node" genoemd, is een lichtgewicht client van een Bitcoin node waarmee gebruikers transacties kunnen valideren zonder de hele Blockchain te hoeven opslaan. In plaats daarvan slaat een SPV node alleen de block headers op en verkrijgt informatie over specifieke transacties door indien nodig volledige nodes te bevragen. Dit verificatieprincipe wordt mogelijk gemaakt door de structuur van transacties in Bitcoin blokken, die georganiseerd zijn binnen een cryptografische accumulator (Merkle Tree).

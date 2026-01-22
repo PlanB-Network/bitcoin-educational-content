@@ -1,5 +1,5 @@
 ---
-term: Byzantská tolerance chyb (bft)
+term: Odolnost vůči byzantským chybám (BFT)
 
 ---
 Koncept používaný v distribuovaných systémech k zajištění spolehlivého a bezpečného konsensu i v přítomnosti chybných nebo škodlivých uzlů.

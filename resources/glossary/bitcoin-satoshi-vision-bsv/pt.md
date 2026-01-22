@@ -1,5 +1,5 @@
 ---
-term: Visão bitcoin satoshi (bsv)
+term: Bitcoin Satoshi Vision (BSV)
 
 ---
 Sistema de criptomoeda resultante de um hard fork do Bitcoin Cash (BCH), que por sua vez é um fork do Bitcoin (BTC). A bifurcação do Bitcoin SV ocorreu em 15 de novembro de 2018, no bloco 556.766, devido a desacordos no seio da comunidade Bitcoin Cash, em particular no que respeita à dimensão dos blocos e à suposta visão de Satoshi Nakamoto, o criador do Bitcoin. Duas facções entraram em conflito:

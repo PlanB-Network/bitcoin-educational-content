@@ -1,5 +1,5 @@
 ---
-term: Invoice lightning
+term: Faktura Lightning
 ---
 
 Błyskawiczne żądanie płatności wygenerowane przez odbiorcę, zawierające wszystkie informacje potrzebne do sfinalizowania transakcji.

@@ -1,5 +1,5 @@
 ---
-term: Bgp đánh cắp
+term: Chiếm quyền kiểm soát BGP
 ---
 
 Tấn công trong đó kẻ tấn công độc hại thao túng quảng cáo BGP để chuyển hướng lưu lượng truy cập Internet đến mạng của riêng mình. Bằng cách giả vờ là nguồn gốc hợp pháp của một số phạm vi IP Address, kẻ tấn công có thể chặn, giám sát hoặc chặn lưu lượng truy cập đến các địa chỉ này.

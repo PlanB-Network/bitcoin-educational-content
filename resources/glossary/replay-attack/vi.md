@@ -1,5 +1,5 @@
 ---
-term: Tấn công lại
+term: Tấn công lặp lại
 ---
 
 Trong bối cảnh của Bitcoin, một cuộc tấn công phát lại xảy ra khi một giao dịch hợp lệ trên một Blockchain bị sao chép một cách ác ý trên một Blockchain khác có cùng lịch sử giao dịch. Nói cách khác, một giao dịch được phát trên một kênh có thể được sao chép trên một kênh khác mà không cần sự đồng ý của người gửi giao dịch đầu tiên.

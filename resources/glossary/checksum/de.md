@@ -1,5 +1,5 @@
 ---
-term: Checksum
+term: Prüfsumme
 ---
 
 Die Prüfsumme ist ein Wert, der aus einer Reihe von Daten berechnet wird, um die Integrität und Gültigkeit dieser Daten während der Übertragung oder Speicherung zu überprüfen. Prüfsummenalgorithmen sind so konzipiert, dass sie versehentliche Fehler oder unbeabsichtigte Änderungen von Daten, wie Übertragungsfehler oder Dateibeschädigungen, erkennen. Es gibt verschiedene Arten von Prüfsummenalgorithmen, z. B. Paritätsprüfungen, modulare Prüfsummen, kryptografische Hash-Funktionen oder BCH-Codes (*Bose, Ray-Chaudhuri und Hocquenghem*).

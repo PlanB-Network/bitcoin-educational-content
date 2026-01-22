@@ -1,5 +1,5 @@
 ---
-term: Mottagning address
+term: Mottagaradress
 ---
 
 Information som används för att ta emot bitcoins. En Address konstrueras vanligtvis genom att hasha en offentlig nyckel med hjälp av `SHA256` och `RIMPEMD160` och lägga till metadata till denna sammanställning. De publika nycklar som används för att konstruera en mottagande Address är en del av användarens Wallet och härleds därför från deras seed. SegWit-adresser består t.ex. av följande information:

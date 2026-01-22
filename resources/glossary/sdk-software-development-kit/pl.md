@@ -1,5 +1,5 @@
 ---
-term: Sdk (zestaw do tworzenia oprogramowania)
+term: SDK (software development kit)
 ---
 
 Zestaw narzędzi programistycznych zapewniających programistom niezbędne zasoby do tworzenia aplikacji na określonej platformie. SDK obejmuje biblioteki, przewodniki programistyczne, próbki kodu i procesy kompilacji. Zestawy SDK ułatwiają i przyspieszają rozwój, oferując moduły wielokrotnego użytku. Na Bitcoin dostępny jest BDK (*Bitcoin Dev Kit*) i LDK (*Lightning Dev Kit*).

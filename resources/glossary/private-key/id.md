@@ -1,5 +1,5 @@
 ---
-term: Kunci privat
+term: Kunci pribadi
 
 ---
 Kunci pribadi merupakan elemen fundamental dari kriptografi asimetris. Kunci ini merupakan sebuah angka (256 bit dalam konteks Bitcoin) yang merepresentasikan sebuah rahasia kriptografi. Kunci ini digunakan untuk menandatangani transaksi secara digital dan membuktikan kepemilikan kunci publik Bitcoin (dan juga alamat penerima) dengan memenuhi `scriptPubKey`. Oleh karena itu, kunci privat memungkinkan pembelanjaan bitcoin dengan membuka UTXO yang terkait dengan kunci publik yang bersangkutan. Kunci privat harus dijaga kerahasiaannya, karena pengungkapannya dapat memungkinkan pihak ketiga yang berniat jahat untuk mengambil kendali atas dana yang terkait.

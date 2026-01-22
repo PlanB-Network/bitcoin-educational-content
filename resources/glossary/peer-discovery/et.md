@@ -1,5 +1,5 @@
 ---
-term: Peer discovery
+term: Partnerite avastamine
 
 ---
 Protsess, mille abil Bitcoini võrgu sõlmed ühenduvad teiste sõlmedega, et saada teavet. Kui Bitcoini sõlme esimest korda käivitatakse, ei ole tal teavet teiste võrgus olevate sõlmede kohta. Siiski peab ta looma ühendusi, et sünkroniseerida end selle plokiahelaga, millel on kõige rohkem kogunenud tööd. Nende eakaaslaste avastamiseks kasutatakse mitmeid mehhanisme, mis on järjestatud tähtsuse järjekorras:

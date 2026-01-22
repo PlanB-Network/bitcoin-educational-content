@@ -1,5 +1,5 @@
 ---
-term: Ath (tüm zamanlarin en yüksek seviyesi)
+term: Ath (tüm zamanların en yükseği)
 ---
 
 İncelenen öğenin şimdiye kadar ulaştığı en yüksek seviyeyi ifade eder. Genellikle ATH, belirli bir dönemde fiat para birimine kıyasla Bitcoin'ın en yüksek fiyat seviyesini ifade eder.

@@ -1,5 +1,5 @@
 ---
-term: Invoice sét
+term: Hóa đơn Lightning
 ---
 
 Yêu cầu thanh toán nhanh do người nhận tạo ra, chứa tất cả thông tin cần thiết để hoàn tất giao dịch.

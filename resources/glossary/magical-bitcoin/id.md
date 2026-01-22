@@ -1,5 +1,5 @@
 ---
-term: Magical bitcoin
+term: Magical Bitcoin
 
 ---
 Nama sebelumnya dari koleksi alat dan _library_ untuk pengembang BDK.

@@ -1,5 +1,5 @@
 ---
-term: Igitera ku ruso
+term: Icapimo c'ibitero
 ---
 
 Yerekeza ku rutonde rwose rw’ibibanza bishobora kwinjiramwo umuterabwoba yoshobora gukoresha kugira ngo ashobore kwinjira muri sisitemu. Ico gitero gifise interfaces zose, services, ports, protocols, n’ibindi bikoresho vyo guhanahana amakuru bishobora gushirwa ahabona. Igitero kinini cane kirongereza umubare w’ibitero, bigatuma iyo sisitemu ishobora guterwa.

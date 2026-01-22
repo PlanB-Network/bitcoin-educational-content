@@ -1,5 +1,5 @@
 ---
-term: Hinter-dem-zähler
+term: Behind-the-meter
 ---
 
 Im Zusammenhang mit Bitcoin bezieht sich Mining auf Strom, der direkt in einem landwirtschaftlichen Betrieb erzeugt und verteilt wird, ohne dass er durch das öffentliche Netz geleitet wird.

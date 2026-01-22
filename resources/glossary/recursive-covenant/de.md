@@ -1,5 +1,5 @@
 ---
-term: Rekursiv (bund)
+term: Rekursiver (Covenant)
 
 ---
 Eine rekursive Vereinbarung auf Bitcoin ist eine Art intelligenter Vertrag, der Bedingungen nicht nur für die aktuelle Transaktion, sondern auch für zukünftige Transaktionen auferlegt, die die Ergebnisse dieser Transaktion ausgeben. Dies ermöglicht die Erstellung von Transaktionsketten, bei denen jede Transaktion bestimmte Regeln einhalten muss, die von der ersten in der Kette definiert wurden. Die Rekursivität schafft eine Abfolge von Transaktionen, bei denen jede die Beschränkungen der übergeordneten Transaktion erbt. Dies würde eine komplexe und langfristige Kontrolle darüber ermöglichen, wie Bitcoins ausgegeben werden können, aber es würde auch Risiken hinsichtlich der Ausgabefreiheit und Fungibilität mit sich bringen.

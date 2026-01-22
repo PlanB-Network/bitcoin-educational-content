@@ -1,5 +1,5 @@
 ---
-term: Leverandør av lyntjenester
+term: Lightning service provider
 ---
 
 Selskap som opererer på Lightning, og som tilbyr likviditetstjenester til brukerne.

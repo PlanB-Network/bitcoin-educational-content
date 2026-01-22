@@ -1,5 +1,5 @@
 ---
-term: Bliksemafleider
+term: Lightning service provider
 ---
 
 Onderneming die actief is op Lightning en liquiditeitsdiensten verleent aan gebruikers.

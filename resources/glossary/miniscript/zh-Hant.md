@@ -1,5 +1,5 @@
 ---
-term: 迷你劇本
+term: Miniscript
 ---
 
 框架，旨在提供一個在 Bitcoin 上安全編寫腳本的框架。Bitcoin 的母語稱為 script。它在實際使用上相當複雜，尤其是複雜的客製化應用程式。最重要的是，它很難驗證腳本的限制。Miniscript 使用 Bitcoin 腳本的子集來簡化腳本的建立、分析和驗證。每個 Miniscript 都與原生腳本一一對等。使用方便使用者的政策語言，然後將其編譯為 miniscript，最後與原生腳本對應。

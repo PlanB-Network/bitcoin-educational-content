@@ -1,5 +1,5 @@
 ---
-term: Orphan
+term: Orpo
 
 ---
 Teoreettisesti orpo lohko tarkoittaa kelvollista lohkoa, jonka on vastaanottanut solmu, joka ei ole vielä hankkinut vanhemman lohkonsa eli ketjun edellisen lohkon. Vaikka tämä lohko on voimassa, se pysyy paikallisesti eristettynä orpona.

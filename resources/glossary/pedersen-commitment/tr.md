@@ -1,5 +1,5 @@
 ---
-term: Pedersen commitment
+term: Pedersen taahhüdü
 ---
 
 Bir Pedersen commitment, toplama işlemine homomorfik olma özelliğine sahip bir kriptografik Commitment türüdür. Bu, iki taahhüdün toplamını tek tek değerleri ortaya çıkarmadan doğrulamanın mümkün olduğu anlamına gelir.

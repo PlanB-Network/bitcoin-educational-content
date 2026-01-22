@@ -1,5 +1,5 @@
 ---
-term: Wallet ikirengero
+term: Empreinte de portefeuille
 ---
 
 Ivyiza bigaragara mu bikorwa vyakozwe na Bitcoin Wallet nyene. Ivyo bimenyetso bishobora kubamwo ugusa mu gukoresha ubwoko bw'inyandiko, gusubira gukoresha aderesi, urutonde rwa UTXO, gushiramwo ibisohoka vy'ihinduka, gutanga ikimenyetso ca RBF (*Replace-by-fee*), inomero ya verisiyo, umwanya wa `nSequence`, n'umwanya wa `nLockTime`.

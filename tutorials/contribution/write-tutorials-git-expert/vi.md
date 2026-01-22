@@ -163,34 +163,34 @@ proofreading:
     reward:
 ```
 
-Dưới đây là các trường bắt buộc:
+Các trường bắt buộc:
 
-- **id**: Một UUID (_Universally Unique Identifier_) cho phép xác định duy nhất hướng dẫn. Bạn có thể tạo nó bằng [một công cụ trực tuyến](https://www.uuidgenerator.net/version4). Điều kiện duy nhất là UUID này phải ngẫu nhiên để tránh xung đột với một UUID khác trên nền tảng;
+- **id**: Một UUID (_Universally Unique Identifier_) là mã định danh duy nhất của bài hướng dẫn. Bạn có thể tạo nó bằng [một công cụ trực tuyến](https://www.uuidgenerator.net/version4). Điều kiện duy nhất là UUID này phải ngẫu nhiên để tránh xung đột với một UUID khác trên nền tảng.
 
-- **project_id**: UUID của công ty hoặc tổ chức đứng sau công cụ được trình bày trong hướng dẫn [từ danh sách các dự án](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ví dụ, nếu bạn tạo một hướng dẫn về phần mềm Green Wallet, bạn có thể tìm thấy `project_id` trong file sau: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Thông tin này được thêm vào file YAML của hướng dẫn của bạn vì Plan ₿ Academy duy trì cơ sở dữ liệu về tất cả các công ty và tổ chức hoạt động trên Bitcoin hoặc các dự án liên quan. Bằng cách thêm `project_id` của thực thể liên kết với hướng dẫn của bạn, bạn tạo ra một liên kết giữa hai phần tử;
+- **project_id**: UUID của công ty hoặc tổ chức đứng sau công cụ được liệt kê trong [danh sách các dự án](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Ví dụ, nếu bạn tạo một hướng dẫn về phần mềm Green Wallet, bạn có thể tìm thấy `project_id` trong file sau: `bitcoin-educational-content/resources/projects/blockstream/project.yml`. Thông tin này được thêm vào file YAML của bài hướng dẫn vì Plan ₿ Academy duy trì cơ sở dữ liệu về tất cả các công ty và tổ chức hoạt động trên Bitcoin hoặc các dự án liên quan. Bằng cách thêm `project_id`, bạn sẽ tạo ra mối liên kết giữa bài hướng dẫn và công ty/tổ chức tương ứng trong hệ thống.
 
-- **tags**: 2 hoặc 3 từ khóa liên quan đến nội dung hướng dẫn, được chọn độc quyền [từ danh sách thẻ của Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
+- **tags**:hoặc 3 từ khóa liên quan, hãy chọn [từ danh sách thẻ của Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md);
 
-- **category**: Danh mục con tương ứng với nội dung của hướng dẫn, theo cấu trúc của trang Plan ₿ Academy (ví dụ: đối với ví: `desktop`, `hardware`, `mobile`, `backup`);
+- **category**: Danh mục con tương ứng với nội dung của hướng dẫn (ví dụ với ví (wallet): `desktop`, `hardware`, `mobile`, `backup`);
 
-- **level**: Mức độ khó của hướng dẫn, được chọn từ:
+- **level**: Mức độ khó:
     - `beginner`
     - `intermediate`
     - `advanced`
     - `expert`
 
-- **professor_id**: `professor_id` của bạn (UUID) như được hiển thị trên [hồ sơ giáo sư của bạn](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
+- **professor_id**: `professor_id` của bạn (UUID) như được hiển thị trên [hồ sơ giảng viên của bạn](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/professors);
 
-- **original_language**: Ngôn ngữ gốc của hướng dẫn (ví dụ: `fr`, `en`, v.v.);
+- **original_language**: Ngôn ngữ gốc (ví dụ: `vi`, `en`);
 
-- **proofreading**: Thông tin về quá trình hiệu đính. Hoàn thành phần đầu tiên, vì việc tự kiểm tra hướng dẫn của bạn được tính là một lần xác nhận:
-    - **language**: Mã ngôn ngữ của quá trình hiệu đính (ví dụ: `fr`, `en`, v.v.).
+- **proofreading**: Thông tin về quá trình hiệu đính. Việc bạn tự soát lỗi bài của mình được tính là lần xác thực đầu tiên:
+    - **language**: Mã ngôn ngữ của quá trình hiệu đính (ví dụ: `vi`, `en`,...).
     - **last_contribution_date**: Ngày hiện tại.
     - **urgency**: 1
     - **contributor_names**: ID GitHub của bạn.
     - **reward**: 0
 
-Để biết thêm chi tiết về ID giáo viên của bạn, vui lòng tham khảo hướng dẫn tương ứng:
+Để biết thêm chi tiết về ID giảng của bạn, vui lòng tham khảo hướng dẫn tương ứng:
 
 https://planb.academy/tutorials/contribution/others/create-teacher-profile-8ba9ba49-8fac-437a-a435-c38eebc8f8a4
 
@@ -225,85 +225,79 @@ proofreading:
 ### 5 - Viết nội dung
 
 
-- Hoàn thiện thuộc tính file Markdown với:
-    - Tiêu đề (`tên`).
+- Điền các thuộc tính file Markdown với:
+    - Tiêu đề (`name`).
     - Một mô tả ngắn (`description`).
-- Thêm ảnh bìa vào đầu phần hướng dẫn bằng cú pháp Markdown (thay thế "green" bằng tên công cụ được hiển thị):
+- Thêm ảnh bìa ở đầu bài hướng dẫn bằng cú pháp Markdown (thay thế "green" bằng tên tương ứng, như tên công cụ mà bạn đề cập trong bàiị):
 
 ```
 ![cover-green](assets/cover.webp)
 ```
 
-
 - Viết nội dung hướng dẫn bằng Markdown:
-    - Sử dụng các tiêu đề có cấu trúc tốt (`##`), danh sách và đoạn văn.
+    - Sử dụng các tiêu đề (`##`), danh sách và đoạn văn rõ ràng.
     - Chèn hình ảnh bằng cú pháp Markdown:
 
 ```
 ![nom-image](assets/en/001.webp)
 ```
 
-
-- Đặt sơ đồ và hình ảnh vào thư mục ngôn ngữ tương ứng, trong `/assets`.
+- Đặt sơ đồ và hình ảnh vào thư mục ngôn ngữ tương ứng trong thư mục `/assets`.
 
 ### 6 - Lưu và gửi bài hướng dẫn
 
-
-- Lưu các thay đổi cục bộ bằng cách tạo một cam kết có thông báo mô tả.
-- Đẩy những thay đổi vào nhánh GitHub của bạn.
+- Lưu các thay đổi cục bộ bằng cách tạo commit kèm mô tả.
+- Đẩy các thay đổi lên bản fork GitHub của bạn.
 
 ```
-# Créez un commit avec un message descriptif
-git commit -m "Ajout du tutoriel green-wallet"
-# Poussez vos modifications sur votre fork
+# Tạo commit với tin nhắn mô tả
+git commit -m "Added green-wallet tutorial"
+
+# Đẩy thay đổi lên bản fork
 git push origin tuto-green-wallet-loic
 ```
 
+- Sau khi hoàn tất, tạo một Pull Request (PR) trên GitHub.
+- Thêm tiêu đề và mô tả ngắn gọn cho PR. Đề cập ID của issue tương ứng trong bình luận.
 
-- Khi hoàn tất, hãy tạo Yêu cầu kéo (PR) trên GitHub để đề xuất tích hợp các sửa đổi của bạn.
-- Thêm tiêu đề và mô tả ngắn gọn cho PR. Đề cập đến số vấn đề tương ứng trong bình luận.
+### 7 - Kiểm tra lại và merge
 
-### 7 - Kiểm tra và hợp nhất
-
-
-- Chờ xác thực hoặc phản hồi từ người quản trị.
-- Nếu cần thiết, hãy sửa lỗi và đưa ra cam kết mới.
+- Đợi xác nhận hoặc phản hồi từ quản trị viên.
+- Nếu cần thiết, thực hiện sửa lỗi và đẩy các commit mới.
 
 ```
-# Créez un commit décrivant les corrections apportées
-git commit -m "Corrections suite à la revue du tutoriel green-wallet"
-# Poussez les corrections sur votre fork
+# Tạo một commit mới kèm mô tả chỉnh sửa
+git commit -m "Corrections following the review of the green-wallet tutorial"
+
+# Đẩy các thay đổi của bạn lên bản fork
 git push origin tuto-green-wallet-loic
 ```
 
+- Sau khi PR đã được merge, bạn có thể xóa nhánh làm việc của mình.
 
-- Sau khi PR đã được hợp nhất, bạn có thể xóa nhánh đang hoạt động của mình.
+## Tiêu chuẩn tạo nội dung
 
-## Tiêu chuẩn sáng tạo nội dung
-
-
-- Định dạng được hỗ trợ trên nền tảng:
-    - Markdown cổ điển: danh sách, liên kết, hình ảnh, trích dẫn, in đậm, in nghiêng, v.v.
-    - LaTeX (chỉ khối, không phải nội tuyến): phân cách bằng `$$`.
-    - Mã nội tuyến: Cú pháp với một dấu ngoặc đơn.
-    - Khối mã: Cú pháp với ba dấu ngoặc ngược, ví dụ:
+- Định dạng được hỗ trợ:
+    - Markdown cổ điển: danh sách, liên kết, hình ảnh, trích dẫn, in đậm, in nghiêng,...
+    - LaTeX (chỉ dạng khối, không in-line): nằm trong cặp dấu `$$`.
+    - Mã in-line: sử dụng dấu backtick đơn (`).
+    - Khối mã (Code blocks): sử dụng ba dấu backtick (```)
 
 ```
 print("Hello, Bitcoin!")
 ```
 
-
 - **Hình ảnh minh họa và sơ đồ**:
     - Tất cả hình ảnh phải ở định dạng WebP. Sử dụng công cụ miễn phí này để chuyển đổi chúng nếu cần: [ImagesConverter](https://github.com/LoicPandul/ImagesConverter).
-    - Đặt tên hình ảnh có 2 hoặc 3 chữ số (ví dụ: `001.webp`, `002.webp`).
-    - Đối với hướng dẫn về ví di động hoặc ví phần cứng, hãy sử dụng bản mô phỏng.
+    - Đặt tên hình ảnh bằng 2 hoặc 3 chữ số (ví dụ: `001.webp`, `002.webp`).
+    - Đối với hướng dẫn về ví di động hoặc ví cứng (mobile or hardware wallet), hãy sử dụng mock-ups.
     - Chỉ sử dụng hình ảnh tự tạo hoặc không có bản quyền.
-    - Hãy đảm bảo chúng có liên quan và chất lượng cao.
-- **Hiến chương đồ họa**:
+    - Hãy đảm bảo chúng có liên quan và ở chất lượng cao.
+- **Quy chuẩn đồ họa**:
     - Phông chữ: [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans).
-    - Kế hoạch màu sắc ₿ Mạng lưới:
+    - Màu sắc của Plan ₿ Academy:
         - Màu cam: `#FF5C00`
         - Đen: `#000000`
         - Trắng: `#FFFFFF`
 
-Nếu bạn gặp khó khăn về mặt kỹ thuật khi gửi hướng dẫn, vui lòng đừng ngần ngại yêu cầu trợ giúp trên [nhóm Telegram chuyên dụng của chúng tôi để đóng góp](https://t.me/PlanBNetwork_ContentBuilder). Cảm ơn bạn rất nhiều!
+Nếu bạn gặp khó khăn kỹ thuật, đừng ngần ngại yêu cầu hỗ trợ trên [nhóm Telegram dành cho việc đóng góp](https://t.me/PlanBNetwork_ContentBuilder). Cảm ơn bạn rất nhiều!

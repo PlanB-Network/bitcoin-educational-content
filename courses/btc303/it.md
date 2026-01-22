@@ -380,7 +380,7 @@ Chris Belcher [ha scritto in modo molto dettagliato](https://en.Bitcoin.it/Priva
 
 Il risultato è che la privacy in Bitcoin non è perfetta. Richiede una quantità significativa di lavoro per effettuare transazioni private. La maggior parte delle persone non è disposta ad andare così lontano per la privacy. Sembra esserci un chiaro compromesso tra privacy e usabilità.
 
-Un altro aspetto importante della privacy è che le misure adottate per proteggere la propria privacy si ripercuotono anche degli altri utenti. Se si è negligenti nella protezione della propria privacy, anche gli altri potrebbero subirne le conseguenze. Gregory Maxwell spiega in modo molto chiaro nella stessa discussione su Bitcoin Talk [che abbiamo linkato sopra](https://bitcointalk.org/index.php?topic=334316.msg3589252#msg3589252), e conclude con un esempio:
+Un altro aspetto importante della privacy è che le misure adottate per proteggere la propria privacy si ripercuotono anche degli altri utenti. Se si è negligenti nella protezione della propria privacy, anche gli altri potrebbero subirne le conseguenze. Gregory Maxwell spiega in modo molto chiaro nella stessa discussione su [Bitcoin Talk](https://bitcointalk.org/index.php?topic=334316.msg3589252#msg3589252), e conclude con un esempio:
 
 > Questo funziona anche nella pratica... Un buon whitehat hacker (hacker etico) su IRC(Internet Relay Chat) stava sperimentando con la violazione di brainwallet e ha trovato una seedphrase che dava accesso a ~250 BTC. Siamo riusciti a identificare il proprietario solo dall'indirizzo, perché era stato pagato da un servizio Bitcoin che riutilizzava gli indirizzi. Successivamente, è riuscito a convincerlo a fornire le informazioni di contatto dell'utente. Ha quindi contattato l'utente al telefono, che era scioccato e confuso, ma grato di non aver perso i suoi bitcoin. Un lieto fine in questo caso. (Non è l'unico esempio, ma è uno dei più divertenti).
 
@@ -411,128 +411,92 @@ La fungibilità, nel contesto delle valute, significa che una moneta è intercam
 Nell'articolo discusso, Gregory Maxwell [ha dichiarato](https://bitcointalk.org/index.php?topic=334316.msg3588908#msg3588908):
 
 
-> La privacy finanziaria è un elemento essenziale per la fungibilità in Bitcoin: se è possibile distinguere significativamente una moneta da un'altra, allora la fungibilità è debole. Se la nostra fungibilità è troppo debole nella pratica, non possiamo essere decentralizzati: se qualcuno di rilevanza pubblica annuncia una lista di monete rubate da cui non accetterà transazioni, dovrai controllare attentamente le monete che accetti rispetto a quella lista e restituire quelle che non la rispettano. Tutti sono costretti a controllare le liste nere emesse da varie autorità, perché in questo mondo non vorremmo essere bloccati con monete sbagliate. Questo aggiunge attrito e costi transazionali e rende Bitcoin meno valido come moneta.
+> La privacy finanziaria è un elemento essenziale per la fungibilità di Bitcoin: se è possibile distinguere significativamente una moneta da un'altra, allora la fungibilità è debole. Se la fungibilità è debole nella pratica, non possiamo essere decentralizzati: se un soggetto di rilevanza pubblica annuncia una lista di monete rubate che non intende accettare, dovrai controllare attentamente le monete che accetti rispetto a quella lista e restituire quelle non conformi. Tutti saranno costretti a controllare le liste nere emesse da varie autorità, perché in quel contesto non vorremmo essere "trovati" con monete compromesse. Questo aggiunge attrito e costi alle transazioni, rendendo Bitcoin meno valido come moneta.
 
-Qui parla dei pericoli derivanti dalla mancanza di fungibilità. Supponiamo di avere un UTXO. La storia di quel UTXO può essere normalmente tracciata a ritroso per diversi salti, con una serie di uscite precedenti. Se una di queste uscite è stata coinvolta in attività illegali, indesiderate o sospette, alcuni potenziali destinatari della vostra moneta potrebbero rifiutarla. Se pensate che i vostri pagatori verificheranno le vostre monete con qualche servizio centralizzato di whitelist o blacklist, potreste iniziare a controllare anche le monete che ricevete, per sicurezza. Il risultato è che una cattiva fungibilità favorisce una fungibilità ancora peggiore.
+Maxwell parla dei pericoli derivanti dalla mancanza di fungibilità. Supponiamo di avere un UTXO. La storia di quel UTXO può essere normalmente tracciata a ritroso per diversi passaggi, diramandosi verso una moltitudine di output precedenti. Se uno di questi output è stato coinvolto in attività illegali, indesiderate o sospette, alcuni potenziali destinatari della tua moneta potrebbero rifiutarla. Se pensi che i tuoi pagatori verificheranno le tue monete con qualche servizio centralizzato di whitelist o blacklist, potresti iniziare a controllare anche le monete che riceverai, per sicurezza. Il risultato è che una fungibilità debole alimenta una fungibilità ancora peggiore.
 
+Adam Back e Matt Corallo [hanno tenuto una presentazione sulla fungibilità](https://btctranscripts.com/scalingbitcoin/milan-2016/fungibility-overview/) a Scaling Bitcoin a Milano nel 2016. Ragionavano sulla stessa linea:
 
-Adam Back e Matt Corallo [hanno tenuto una presentazione sulla fungibilità](https://btctranscripts.com/scalingbitcoin/milan-2016/fungibility-overview/) a Scaling Bitcoin a Milano nel 2016. Stavano ragionando sulla stessa linea:
+> Per far funzionare Bitcoin è necessaria la fungibilità. Se ricevi delle monete e non puoi spenderle, inizi a dubitare della loro spendibilità. Se ci sono dubbi sulle monete ricevute, le persone andranno ai servizi di "taint" e controlleranno se quelle monete siano "benedette", e quindi le persone si rifiuteranno di commerciare. Questo fa sì che Bitcoin passi da un sistema decentralizzato senza permessi, a un sistema centralizzato con permessi, in cui si ha un "pagherò" da parte dei fornitori di blacklist.
 
+Sembra che privacy e fungibilità vadano di pari passo. La fungibilità si indebolisce se la privacy è debole, ad esempio perché le monete di persone indesiderate possono finire nella lista nera. Allo stesso modo, la privacy si indebolisce se la fungibilità è debole: se c'è una lista nera, dovrete chiedere ai fornitori della lista nera quali monete accettare, rivelando così eventualmente il vostro indirizzo IP, l'e-mail e altre informazioni sensibili. Queste due caratteristiche sono talmente interconnesse che non è possibile parlare di una delle due in modo isolato.
 
-> Per far funzionare il Bitcoin è necessaria la fungibilità. Se si ricevono monete e non si possono spendere, allora si comincia a dubitare di poterle spendere. Se ci sono dubbi sulle monete ricevute, allora le persone andranno ai servizi di taint e controlleranno se "queste monete sono benedette" e quindi le persone si rifiuteranno di commerciare. Questo fa sì che il Bitcoin passi da un sistema decentralizzato senza permessi a un sistema centralizzato con permessi in cui si ha un "pagherò" da parte dei fornitori di blacklist.
-
-Sembra che privacy e fungibilità vadano di pari passo. La fungibilità si indebolisce se la privacy è debole, ad esempio perché le monete di persone indesiderate possono finire nella lista nera. Allo stesso modo, la privacy si indebolisce se la fungibilità è debole: se c'è una lista nera, dovrete chiedere ai fornitori della lista nera quali monete accettare, rivelando così eventualmente il vostro IP Address, l'e-mail Address e altre informazioni sensibili. Queste due caratteristiche sono talmente interconnesse che non è possibile parlare di una delle due in modo isolato.
-
-
-### Misure per la privacy
+### Misure per proteggere la privacy
 
 
+Sono state sviluppate diverse tecniche per aiutare le persone a proteggersi da violazioni della privacy. Tra le più ovvie c'è, come notato da Nakamoto in precedenza, l'utilizzo di un'unico indirizzo per ogni transazione, ma ne esistono molti altri. Non ti insegneremo come diventare un ninja della privacy. Tuttavia, Bitcoin Q+A contiene un [rapido riepilogo delle tecnologie che migliorano la privacy](https://bitcoiner.guide/privacytips/), ordinate in base a quanto difficile sono da implementare. Leggendolo, si noterà che la privacy di Bitcoin ha spesso a che fare con cose che esulano da Bitcoin. Ad esempio, non ci si dovrebbe vantare dei propri bitcoin e si dovrebbero usare Tor e VPN.
 
-Sono state sviluppate diverse tecniche per aiutare le persone a proteggersi dalle fughe di notizie sulla privacy. Tra le più ovvie c'è, come notato da Nakamoto in precedenza, l'utilizzo di un'unica
+Il post elenca anche alcune misure direttamente collegate a Bitcoin:
+- Full node: se non si utilizza il proprio full node, si possono trasmettere molte informazioni sul proprio wallet ai server su Internet. Eseguire un full node è un ottimo primo passo per preservare i propri dati.
+- Lightning Network: Esistono diversi protocolli sviluppati sopra Bitcoin, ad esempio il Lightning Network e Liquid di Blockstream Sidechain.
+- CoinJoin: un modo per far confluire le transazioni di più persone in una sola, rendendo più difficile la chain analysis (analisi della blockchain).
 
-per ogni transazione, ma ne esistono molti altri. Non vi insegneremo come diventare un ninja della privacy. Tuttavia, Bitcoin Q+A contiene un [rapido riepilogo delle tecnologie che migliorano la privacy](https://bitcoiner.guide/privacytips/), in qualche modo ordinate in base a quanto Hard sono da implementare. Leggendolo, si noterà che la privacy di  Bitcoin ha spesso a che fare con cose che esulano dal Bitcoin. Ad esempio, non ci si dovrebbe vantare dei propri bitcoin e si dovrebbero usare Tor e VPN.
+In [un intervento](https://btctranscripts.com/breaking-Bitcoin/2019/breaking-Bitcoin-privacy/) alla conferenza Breaking Bitcoin, Chris Belcher ha fornito un interessante esempio pratico di come la privacy sia migliorata:
 
-
-Il post elenca anche alcune misure direttamente collegate al Bitcoin:
-
-
-- full node: se non si utilizza il proprio full node, si possono trasmettere molte informazioni sul proprio Wallet ai server su Internet. Eseguire un full node è un ottimo primo passo.
-- Lightning Network: Esistono diversi protocolli in cima al Bitcoin, ad esempio il Lightning Network e il Liquid di Blockstream Sidechain.
-- CoinJoin: un modo per far confluire le transazioni di più persone in una sola, rendendo più difficile l'analisi della catena.
-
-
-In [un intervento](https://btctranscripts.com/breaking-Bitcoin/2019/breaking-Bitcoin-privacy/) alla conferenza Breaking Bitcoin, Chris Belcher ha fornito un interessante esempio pratico di come la privacy sia stata migliorata:
-
-
-> Si trattava di un casinò Bitcoin. Il gioco d'azzardo online non è consentito negli Stati Uniti. Tutti i clienti di Coinbase che avessero depositato direttamente su Bustabit si sarebbero visti chiudere i conti perché Coinbase li stava monitorando. Bustabit ha fatto alcune cose. Ha fatto una cosa chiamata "change avoidance" (evitamento del cambio), in cui si cerca di costruire una transazione che non abbia un cambio in uscita. In questo modo si risparmiano le commissioni miner e si ostacola l'analisi.
+> Si trattava di un casinò Bitcoin. Il gioco d'azzardo online non è consentito negli Stati Uniti. Tutti i clienti di Coinbase che avessero depositato direttamente su Bustabit si sarebbero visti chiudere i conti perché Coinbase li stava monitorando. Bustabit ha trovato delle soluzioni: hanno adottato una tecnica chiamata "change avoidance" (eliminazione del resto), che consiste nel costruire una transazione senza un output di resto. In questo modo si risparmiano le commissioni ai miner e rende più difficile l'analisi delle transazioni.
 >
+> Inoltre, hanno importato i loro indirizzi di deposito riutilizzati in joinmarket. A questo punto, i clienti di coinbase.com non sono mai stati bannati. Sembra che il servizio di sorveglianza di Coinbase non sia stato in grado di effettuare l'analisi dopo questo episodio, quindi è possibile violare questi algoritmi.
 
-> Inoltre, hanno importato i loro indirizzi di deposito riutilizzati in modo massiccio in joinmarket. A questo punto, i clienti di coinbase.com non sono mai stati bannati. Sembra che il servizio di sorveglianza di Coinbase non sia stato in grado di effettuare l'analisi dopo questo episodio, quindi è possibile violare questi algoritmi.
-
-Ha anche menzionato questo esempio, tra gli altri, nella [pagina sulla privacy](https://en.Bitcoin.it/Privacy) del wiki Bitcoin.
-
+Ha anche menzionato questo esempio, tra gli altri, nella [pagina sulla privacy](https://en.Bitcoin.it/Privacy) del Bitcoin wiki.
 
 Si noti come sia possibile ottenere una migliore privacy costruendo sistemi in cima a Bitcoin, come nel caso di Lightning Network:
 
 
 
+I layer sopra Bitcoin possono aumentare la privacy
 
+Nell'ultimo articolo abbiamo notato che la necessità di fiducia può solo aumentare con l'aggiunta di layer, ma non sembra essere il caso della privacy, questa può essere migliorata o peggiorata arbitrariamente con l'aumento dei livelli. Perché? Qualsiasi layer sopra Bitcoin, come spiegato nel paragrafo "Scalabilità a Strati" del futuro capitolo "Scalabilità", deve usare occasionalmente transazioni on-chain, altrimenti non sarebbe "sopra Bitcoin". I livelli che aumentano la privacy in genere cercano di usare il layer di base il meno possibile per minimizzare la quantità di informazioni rivelate.
 
-Gli strati sopra il Bitcoin possono aumentare la privacy
+Queste sono strategie un po' tecniche per migliorare la tua privacy. Ma ci sono altri modi. All'inizio di questo capitolo abbiamo detto che Bitcoin è un sistema pseudonimo. Ciò significa che gli utenti di Bitcoin non sono conosciuti con il loro vero nome o con altri dati personali, ma con la loro chiave pubblica. Una chiave pubblica è uno pseudonimo per un utente e un utente può avere più pseudonimi. In un mondo ideale, l'identità personale è separata dagli pseudonimi di Bitcoin. Purtroppo, a causa dei problemi di privacy descritti in questo capitolo, questo disaccoppiamento di solito si degrada nel tempo.
 
+Per ridurre il rischio di rivelare dei propri dati personali è necessario non fornirli in primo luogo e non fornirli a servizi centralizzati, i quali creano database che possono perdere informazioni. Un articolo di Bitcoin Q+A [spiega il KYC](https://bitcoiner.guide/nokyconly/) e i pericoli che ne derivano. Suggerisce inoltre alcune misure che si possono adottare per migliorare la propria privacy:
 
-Nell'ultimo articolo abbiamo notato che la necessità di fiducia può solo aumentare con l'aumento dei livelli, ma non sembra essere il caso della privacy, che può essere migliorata o peggiorata arbitrariamente con l'aumento dei livelli. Perché? Qualsiasi Layer in cima a Bitcoin, come spiegato nel paragrafo Scala a strati del futuro capitolo Scala, deve usare occasionalmente transazioni On-Chain, altrimenti non sarebbe "in cima a Bitcoin". I livelli che aumentano la privacy in genere cercano di usare il Layer di base il meno possibile per minimizzare la quantità di informazioni rivelate.
+> Fortunatamente esistono alcune opzioni per acquistare Bitcoin senza KYC. Si tratta di scambi P2P (peer to peer) in cui si commercia direttamente con un altro individuo e non con una terza parte centralizzata. Purtroppo alcuni vendono anche altre monete oltre a bitcoin, quindi ti invitiamo a fare attenzione.
 
-
-Questi sono modi un po' tecnici per migliorare la vostra privacy. Ma ci sono altri modi. All'inizio di questo capitolo abbiamo detto che il Bitcoin è un sistema pseudonimo. Ciò significa che gli utenti di Bitcoin non sono conosciuti con il loro vero nome o con altri dati personali, ma con la loro chiave pubblica. Una chiave pubblica è uno pseudonimo per un utente e un utente può avere più pseudonimi. In un mondo ideale, l'identità personale è separata dagli pseudonimi di  Bitcoin. Purtroppo, a causa dei problemi di privacy descritti in questo capitolo, questo disaccoppiamento di solito si degrada nel tempo.
-
-
-Per ridurre i rischi di rivelazione dei propri dati personali è necessario non fornirli in primo luogo e non fornirli a servizi centralizzati, che creano grandi database che possono perdere informazioni. Un articolo di Bitcoin Q+A [spiega il KYC](https://bitcoiner.guide/nokyconly/) e i pericoli che ne derivano. Suggerisce inoltre alcune misure che si possono adottare per migliorare la propria situazione:
-
-
-> Fortunatamente esistono alcune opzioni per acquistare Bitcoin attraverso fonti prive di KYC. Si tratta di scambi P2P (peer to peer) in cui si commercia direttamente con un altro individuo e non con una terza parte centralizzata. Purtroppo alcuni vendono anche altre monete oltre al Bitcoin, quindi vi invitiamo a fare attenzione.
-
-L'articolo suggerisce di evitare di utilizzare le borse che richiedono il KYC/AML e di fare invece trading privato, oppure di utilizzare borse decentralizzate come [bisq](https://bisq.network/).
-
+L'articolo suggerisce di evitare gli exchange che richiedono il KYC/AML e di fare invece trading privato, oppure di utilizzare exchange decentralizzati come [bisq](https://bisq.network/).
 
 https://planb.academy/en/tutorials/exchange/peer-to-peer/bisq-fe244bfa-dcc4-4522-8ec7-92223373ed04
 
 Per una lettura più approfondita delle contromisure, si rimanda al già citato [articolo wiki sulla privacy](https://en.Bitcoin.it/wiki/Privacy#Methods_for_improving_privacy_.28non-Blockchain.29), a partire da "Metodi per migliorare la privacy (non-Blockchain)".
 
-
 ### Conclusioni sulla privacy
 
 
+La privacy è molto importante, ma è un obiettivo difficile da raggiungere. Non esiste una soluzione miracolosa per proteggere la privacy.
 
-La privacy è molto importante, ma è un obiettivo da raggiungere con il Hard. Non esiste una pallottola d'argento per la privacy.
+Per ottenere una privacy decente in Bitcoin, è necessario adottare misure attive, alcune delle quali sono costose e richiedono tempo.
 
-
-Per ottenere una privacy decente nel Bitcoin, è necessario adottare misure attive, alcune delle quali sono costose e richiedono tempo.
-
-
-## Finito Supply
+## Supply finita
 
 <chapterId>af125ba2-ef98-5905-8895-41a538fe5ea5</chapterId>
 
 
-
 ![](assets/it/006.webp)
 
+Questo capitolo analizza il limite della supply di Bitcoin a 21 milioni di BTC(bitcoin), o quanto è in realtà? Parliamo di come viene applicato questo limite e di cosa si può fare per verificare che venga rispettato. Inoltre, diamo un'occhiata alla sfera di cristallo e discutiamo le dinamiche che entreranno in gioco quando il block reward passerà dal sistema a sovvenzioni(subsidy-based) a quello a pagamento(fee-based).
 
-Questo capitolo analizza il limite Bitcoin Supply di 21 milioni di BTC, o quanto è in realtà? Parliamo di come viene applicato questo limite e di cosa si può fare per verificare che venga rispettato. Inoltre, diamo un'occhiata alla sfera di cristallo e discutiamo le dinamiche che entreranno in gioco quando il Block reward passerà dal sistema a sovvenzioni a quello a pagamento.
+La nota supply finita di 21 milioni di bitcoin è considerato una proprietà fondamentale di  Bitcoin. Ma è davvero scolpita nella pietra?
 
-
-Il noto Supply finito di 21 milioni di BTC è considerato una proprietà fondamentale di  Bitcoin. Ma è davvero fissata nella pietra?
-
-
-Cominciamo a vedere cosa dicono le attuali regole di consenso sul Supply di  Bitcoin, e quanto di esso sarà effettivamente utilizzabile. Pieter Wuille ha scritto un articolo a questo proposito [sullo stack Exchange](https://Bitcoin.stackexchange.com/a/38998/69518), in cui ha contato quanti bitcoin ci saranno una volta che tutte le monete saranno state estratte:
-
+Cominciamo a vedere cosa dicono le attuali regole di consenso sulla supply di Bitcoin, e quanto di esso sarà effettivamente utilizzabile. Pieter Wuille ha scritto un articolo a questo proposito [sul sito di stack exchange](https://Bitcoin.stackexchange.com/a/38998/69518), in cui ha contato quanti bitcoin ci saranno una volta che tutte le monete saranno state estratte:
 
 > Sommando tutti questi numeri si ottiene 20999999,9769 BTC.
 
-Ma per una serie di ragioni - come i primi problemi con le transazioni su coinbase, i miner che involontariamente richiedono meno di quanto consentito e la perdita delle chiavi private - questo limite massimo non sarà mai raggiunto. Wuille conclude:
-
+Ma per una serie di ragioni - come i primi problemi con le transazioni coinbase, i miner che involontariamente richiedono meno di quanto consentito, e la perdita delle chiavi private - questo limite massimo non sarà mai raggiunto. Wuille conclude:
 
 > Questo ci lascia con 20999817.31308491 BTC (tenendo conto di tutto fino al blocco 528333)
 
-Tuttavia, diversi portafogli sono stati smarriti o rubati, le transazioni sono state inviate al Address sbagliato, le persone hanno dimenticato di possedere il Bitcoin. Il totale di tutto ciò potrebbe essere di milioni. Le persone hanno cercato di fare il conto delle perdite conosciute [qui](https://bitcointalk.org/index.php?topic=7253.0).
-
+Tuttavia, diversi portafogli sono stati smarriti o rubati, le transazioni sono state inviate a indirizzi sbagliati, le persone hanno dimenticato di possedere bitcoin. Il totale di tutto ciò potrebbe essere di milioni. Le persone hanno cercato di fare il conto delle perdite conosciute [qui](https://bitcointalk.org/index.php?topic=7253.0).
 
 Questo ci lascia con: ??? BTC.
 
 
-Possiamo quindi essere certi che il Bitcoin Supply sarà 20999817.31308491 BTC al massimo. Eventuali monete perse o bruciate in modo non verificabile renderanno questo numero più basso, ma non sappiamo di quanto. La cosa interessante è che non ha molta importanza, o meglio ha un'importanza positiva per i possessori di  Bitcoin,
+Possiamo quindi essere certi che la supply di Bitcoin sarà 20999817.31308491 bitcoin al massimo. Eventuali monete perse o bruciate in modo non verificabile renderanno questo numero più basso, ma non sappiamo di quanto. La cosa interessante è che non ha molta importanza, o meglio ha un'importanza positiva per chi detiene bitcoin, [come spiegato](https://bitcointalk.org/index.php?topic=198.msg1647#msg1647) da Satoshi Nakamoto:
 
-[come spiegato](https://bitcointalk.org/index.php?topic=198.msg1647#msg1647) da Satoshi Nakamoto:
+> Le monete perse fanno solo aumentare leggermente il valore delle monete degli altri. Consideratela come una donazione a tutti.
 
+La supply finita si ridurrà ulteriormente e questo dovrebbe, almeno in teoria, causare una deflazione dei prezzi.
 
-> Le monete perse fanno solo aumentare leggermente il valore delle monete degli altri.  Consideratela come una donazione a tutti.
-
-Il Supply finito si ridurrà e questo dovrebbe, almeno in teoria, causare una deflazione dei prezzi.
-
-
-Più importante del numero esatto di monete in circolazione è il modo in cui il limite Supply viene applicato senza alcuna autorità centrale. Alias chytrik lo spiega bene su [Stack Exchange](https://Bitcoin.stackexchange.com/a/106830/69518):
-
+Più importante del numero esatto di monete in circolazione è il modo in cui il limite dell'offerta viene applicato senza alcuna autorità centrale. Alias chytrik lo spiega bene sul sito di [Stack Exchange](https://Bitcoin.stackexchange.com/a/106830/69518):
 
 > Quindi la risposta è che non bisogna fidarsi di qualcuno che non aumenta il Supply. È sufficiente eseguire del codice che verifichi che non l'abbia fatto.
 

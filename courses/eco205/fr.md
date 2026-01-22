@@ -7,8 +7,13 @@ objectives:
 - Analyser la théorie monétaire autrichienne et la formation des prix.
 - Connaître l'histoire et les origines de l'école autrichienne.
 ---
+# Plongée dans l'école autrichienne
 
+Pourquoi l'école autrichienne d'économie connaît-elle un regain d'intérêt spectaculaire avec l'émergence de Bitcoin ? Cette tradition intellectuelle, née à Vienne en 1871, propose une vision radicalement différente de l'économie : elle part de l'individu, de ses choix et de ses évaluations subjectives pour comprendre les phénomènes économiques. Là où l'économie dominante s'appuie sur des modèles mathématiques et des agrégats statistiques, les autrichiens privilégient la logique déductive et l'étude de l'action humaine.
 
+De Carl Menger à Ludwig von Mises, en passant par Friedrich Hayek, les penseurs autrichiens ont bâti un édifice théorique cohérent reposant sur quatre piliers fondamentaux : le subjectivisme, l'individualisme méthodologique, la praxéologie et le dualisme méthodologique. Leur théorie des cycles économiques explique comment la manipulation monétaire engendre inévitablement des crises, tandis que leur démonstration de l'impossibilité du calcul économique socialiste reste l'une des contributions intellectuelles majeures du XXe siècle. 
+
+Ce cours vous invite à explorer ces fondements théoriques qui résonnent aujourd'hui avec les principes mêmes de Bitcoin.
 +++
 # Introduction
 <partId>ad70c6ed-6bdc-496f-8b4e-f4d7b151e175</partId>

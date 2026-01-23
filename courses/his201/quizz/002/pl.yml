@@ -6,4 +6,4 @@ wrong_answers:
   - Sygnatury progowe
 explanation: |
   eCash opiera się na procesie ślepego podpisu, który pozwala podpisującemu podpisać coś, nie widząc tego, co podpisuje.
-reviewed: false
+reviewed: true

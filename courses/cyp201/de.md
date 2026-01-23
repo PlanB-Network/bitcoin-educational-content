@@ -926,7 +926,7 @@ Natürlich wäre es in diesem vereinfachten Beispiel mit $k = 4$ möglich, $k$ d
 
 :::video id=fe3acbf4-a9d4-4c7d-82cc-79de24bf8aec:::
 
-Jetzt, da du wissen, wie man einen öffentlichen Schlüssel aus einem privaten Schlüssel ableitet, können du bereits Bitcoins empfangen, indem du dieses Schlüsselpaar als Ausgabebedingung verwenden. Aber wie gibt man sie aus? Um Bitcoins auszugeben, müssen du das _scriptPubKey_ entsperren, das an Ihr UTXO angehängt ist, um zu beweisen, dass du tatsächlich dessen legitimer Besitzer sind. Dazu müssen du eine Signatur $s$ erzeugen, die zum öffentlichen Schlüssel $K$ passt, der im _scriptPubKey_ vorhanden ist, indem du den privaten Schlüssel $k$ verwenden, der ursprünglich verwendet wurde, um $K$ zu berechnen. Die digitale Signatur ist somit ein unwiderlegbarer Beweis dafür, dass du im Besitz des privaten Schlüssels sind, der mit dem öffentlichen Schlüssel verbunden ist, den du beanspruchen.
+Jetzt, da du weißt, wie man einen öffentlichen Schlüssel aus einem privaten Schlüssel ableitet, kannst du bereits Bitcoin empfangen, indem du dieses Schlüsselpaar als Ausgabebedingung verwendest. Aber wie gibt man sie aus? Um Bitcoin auszugeben, musst du das _scriptPubKey_ entsperren, das an dein UTXO angehängt ist, um zu beweisen, dass du tatsächlich dessen legitimer Besitzer bist. Dazu musst du eine Signatur $s$ erzeugen, die zum öffentlichen Schlüssel $K$ passt, der im _scriptPubKey_ vorhanden ist, indem du den privaten Schlüssel $k$ verwendest, der ursprünglich verwendet wurde, um $K$ zu berechnen. Die digitale Signatur ist somit ein unwiderlegbarer Beweis dafür, dass du im Besitz des privaten Schlüssels bist, der mit dem öffentlichen Schlüssel verbunden ist, den du beanspruchst.
 
 ### Elliptische Kurvenparameter
 
@@ -1015,20 +1015,21 @@ $$
 ### Überprüfung der ECDSA-Signatur
 
 Um eine Signatur $(x_R, s)$ zu überprüfen, kann jeder, der den öffentlichen Schlüssel $K$ und die Parameter der elliptischen Kurve kennt, auf folgende Weise vorgehen:
-Zuerst überprüfen du, ob $x_R$ und $s$ im Intervall $[1, n-1]$ liegen. Dies stellt sicher, dass die Signatur die mathematischen Einschränkungen der elliptischen Gruppe respektiert. Ist dies nicht der Fall, lehnt der Verifizierer die Signatur sofort als ungültig ab.
-Berechnen du dann den Hash des Nachricht:
+
+Überprüfe zuerst, ob $x_R$ und $s$ im Intervall $[1, n-1]$ liegen. Dies stellt sicher, dass die Signatur die mathematischen Einschränkungen der elliptischen Gruppe respektiert. Ist dies nicht der Fall, lehnt der Verifizierer die Signatur sofort als ungültig ab.
+Berechne dann den Hash der Nachricht:
 
 $$
 e = \text{HASH}(m)
 $$
 
-Berechnen du das modulare Inverse von $s$ modulo $n$:
+Berechne das modulare Inverse von $s$ modulo $n$:
 
 $$
 s^{-1} \mod n
 $$
 
-Berechnen du zwei Skalarwerte $u_1$ und $u_2$ auf diese Weise:
+Berechne zwei Skalarwerte $u_1$ und $u_2$ auf diese Weise:
 
 $$
 \begin{align*}
@@ -1037,7 +1038,7 @@ u_2 &= x_R \cdot s^{-1} \mod n
 \end{align*}
 $$
 
-Und schließlich berechnen du den Punkt $V$ auf der elliptischen Kurve, so dass:
+Und berechne schließlich den Punkt $V$ auf der elliptischen Kurve, so dass:
 
 $$
 V = u_1 \cdot G + u_2 \cdot K
@@ -1059,9 +1060,9 @@ Der erste Schritt zur Generierung einer Signatur besteht darin, die Nachricht zu
 
 ![CYP201](assets/en/028.webp)
 
-Zusätzlich zur Nachricht werden die $x$-Koordinate des öffentlichen Schlüssels $K_x$ sowie ein Punkt $R$, der aus dem Nonce $r$ ($R=r \cdot G$) berechnet wird, der selbst eine einzigartige Ganzzahl für jede Signatur ist, berechnet deterministisch aus dem privaten Schlüssel und der Nachricht, um Schwachstellen im Zusammenhang mit der Wiederverwendung von Nonces zu vermeiden, ebenfalls in die beschriftete Funktion eingegeben. Wie beim öffentlichen Schlüssel wird nur die $x$-Koordinate des Nonce-Punktes $R_x$ beibehalten, um den Punkt zu beschreiben.
+Zusätzlich zur Nachricht werden die $x$-Koordinate des öffentlichen Schlüssels $K_x$ sowie der Punkt $R=r \cdot G$, der aus der Nonce $r$ berechnet wird (der selbst eine einzigartige ganze Zahle für jede Signatur ist, berechnet deterministisch aus dem privaten Schlüssel und der Nachricht, um Schwachstellen im Zusammenhang mit der Wiederverwendung von Nonces zu vermeiden), ebenfalls in die beschriftete Funktion eingegeben. Wie beim öffentlichen Schlüssel wird nur die $x$-Koordinate des Nonce-Punktes $R_x$ beibehalten, um den Punkt zu beschreiben.
 
-Das Ergebnis dieses Hashings, notiert $e$, wird als "Herausforderung" bezeichnet:
+Das Ergebnis dieses Hashings, bezeichnet mit $e$, wird "Challenge" bezeichnet:
 
 $$
 e = \text{HASH}(\text{``BIP0340/challenge''}, R_x \Vert K_x \Vert m) \mod n
@@ -1069,7 +1070,7 @@ $$
 
 Hierbei ist $\text{HASH}$ die SHA256-Hashfunktion, und $\text{``BIP0340/challenge''}$ ist das spezifische Tag für das Hashing.
 
-Schließlich wird der Parameter $s$ auf diese Weise aus dem privaten Schlüssel $k$, dem Nonce $r$ und der Herausforderung $e$ berechnet:
+Schließlich wird der Parameter $s$ auf diese Weise aus dem privaten Schlüssel $k$, der Nonce $r$ und der Challenge $e$ berechnet:
 
 $$
 s = (r + e \cdot k) \mod n
@@ -1084,8 +1085,8 @@ $$
 ### Verifizierung der Schnorr-Signatur
 
 Die Verifizierung einer Schnorr-Signatur ist einfacher als die einer ECDSA-Signatur. Hier sind die Schritte zur Verifizierung der Signatur $(R_x, s)$ mit dem öffentlichen Schlüssel $K_x$ und der Nachricht $m$:
-Zuerst überprüfen wir, ob $K_x$ eine gültige Ganzzahl und kleiner als $p$ ist. Wenn dies der Fall ist, holen wir den entsprechenden Punkt auf der Kurve mit $K_y$ als gerade. Wir extrahieren auch $R_x$ und $s$, indem wir die Signatur $\text{SIG}$ trennen. Dann prüfen wir, ob $R_x < p$ und $s < n$ (die Ordnung der Kurve) ist.
-Als Nächstes berechnen wir die Herausforderung $e$ auf die gleiche Weise wie der Aussteller der Signatur:
+Zuerst überprüfen wir, ob $K_x$ eine gültige Ganzzahl und kleiner als $p$ ist. Wenn dies der Fall ist, rekonstruieren wir den entsprechenden Punkt auf der Kurve wobei $K_y$ gerade ist. Wir extrahieren auch $R_x$ und $s$, indem wir die Signatur $\text{SIG}$ trennen. Dann prüfen wir, ob $R_x < p$ und $s < n$ (die Ordnung der Kurve) ist.
+Als Nächstes berechnen wir die Challenge $e$ auf die gleiche Weise wie der Unterzeichner der Signatur:
 
 $$
 e = \text{HASH}(\text{``BIP0340/challenge''}, R_x \Vert K_x \Vert m) \mod n
@@ -1129,9 +1130,9 @@ Und ähnlich können mehrere Signaturen zu einer einzigen gültigen Signatur agg
 
 ![CYP201](assets/en/030.webp)
 
-Darüber hinaus verbessert die Signaturaggregation die Privatsphäre. Mit Schnorr wird es unmöglich, eine Multisignatur-Transaktion von einer Standard-Einzelsignatur-Transaktion zu unterscheiden. Diese Homogenität erschwert die Kettenanalyse, da sie die Fähigkeit einschränkt, Wallet-Fingerabdrücke zu identifizieren.
+Darüber hinaus verbessert die Signaturaggregation die Privatsphäre. Mit Schnorr wird es unmöglich, eine Multisignatur-Transaktion von einer Standard-Einzelsignatur-Transaktion zu unterscheiden. Diese Homogenität erschwert die Chain-Analyse, da sie die Fähigkeit einschränkt, Wallet-Fingerabdrücke zu identifizieren.
 
-Schließlich bietet Schnorr auch die Möglichkeit der Stapelverifizierung. Durch die gleichzeitige Überprüfung mehrerer Signaturen können Knoten Effizienz gewinnen, insbesondere bei Blöcken, die viele Transaktionen enthalten. Diese Optimierung reduziert die Zeit und Ressourcen, die benötigt werden, um einen Block zu validieren. Außerdem sind Schnorr-Signaturen im Gegensatz zu mit ECDSA erzeugten Signaturen nicht verformbar. Das bedeutet, dass ein Angreifer eine gültige Signatur nicht so modifizieren kann, dass eine andere gültige Signatur für dieselbe Nachricht und denselben öffentlichen Schlüssel erstellt wird. Diese Schwachstelle war zuvor bei Bitcoin vorhanden und verhinderte insbesondere die sichere Implementierung des Lightning-Netzwerks. du wurde für ECDSA mit dem SegWit-Softfork im Jahr 2017 gelöst, der die Signaturen in eine separate Datenbank von den Transaktionen verschiebt, um deren Verformbarkeit zu verhindern.
+Schließlich bietet Schnorr auch die Möglichkeit der Stapelverifizierung. Durch die gleichzeitige Überprüfung mehrerer Signaturen können Nodes Effizienz gewinnen, insbesondere bei Blöcken, die viele Transaktionen enthalten. Diese Optimierung reduziert die Zeit und Ressourcen, die benötigt werden, um einen Block zu validieren. Außerdem sind Schnorr-Signaturen im Gegensatz zu Signaturen, die mit ECDSA erzeugt wurden, nicht verformbar. Das bedeutet, dass ein Angreifer eine gültige Signatur nicht so modifizieren kann, dass eine andere gültige Signatur für dieselbe Nachricht und denselben öffentlichen Schlüssel erstellt wird. Diese Schwachstelle war zuvor bei Bitcoin vorhanden und verhinderte insbesondere die sichere Implementierung des Lightning Network. Sie wurde für ECDSA mit der SegWit-Softfork im Jahr 2017 gelöst, welche die Signaturen in eine separate Datenbank von den Transaktionen verschiebt, um deren Verformbarkeit zu verhindern.
 
 ### Warum hat Satoshi sich für ECDSA entschieden?
 
@@ -1147,24 +1148,24 @@ Nun, wir wissen nicht wirklich, warum Satoshi es nicht gewählt hat, aber eine w
 
 Wie wir in vorherigen Kapiteln gesehen haben, werden digitale Signaturen oft verwendet, um das Skript eines Eingangs zu entsperren. Im Signaturprozess ist es notwendig, die signierten Daten in die Berechnung einzubeziehen, in unseren Beispielen durch die Nachricht $m$ bezeichnet. Diese Daten, einmal signiert, können nicht modifiziert werden, ohne die Signatur ungültig zu machen. Tatsächlich muss, egal ob für ECDSA oder Schnorr, der Signaturprüfer dieselbe Nachricht $m$ in seine Berechnung einbeziehen. Unterscheidet sie sich von der Nachricht $m$, die ursprünglich vom Unterzeichner verwendet wurde, wird das Ergebnis falsch sein und die Signatur wird als ungültig angesehen. Es wird dann gesagt, dass eine Signatur bestimmte Daten abdeckt und sie gewissermaßen vor unbefugten Modifikationen schützt.
 
-### Was ist ein sighash flag?
+### Was ist eine sighash flag?
 
 Im spezifischen Fall von Bitcoin haben wir gesehen, dass die Nachricht $m$ der Transaktion entspricht. In Wirklichkeit ist es jedoch etwas komplexer. Tatsächlich ist es dank der sighash flags möglich, spezifische Daten innerhalb der Transaktion auszuwählen, die von der Signatur abgedeckt werden oder nicht.
-Der "sighash flag" ist also ein Parameter, der jedem Eingang hinzugefügt wird und die Bestimmung der Komponenten einer Transaktion erlaubt, die von der zugehörigen Signatur abgedeckt sind. Diese Komponenten sind die Eingänge und die Ausgänge. Die Wahl des sighash flags bestimmt also, welche Eingänge und welche Ausgänge der Transaktion durch die Signatur fixiert werden und welche noch modifiziert werden können, ohne sie zu invalidieren. Dieser Mechanismus ermöglicht es Signaturen, Transaktionsdaten gemäß den Absichten des Unterzeichners zu verpflichten.
-Offensichtlich wird eine Transaktion, sobald sie auf der Blockchain bestätigt ist, unveränderlich, unabhängig von den verwendeten Sighash-Flags. Die Möglichkeit einer Modifikation über die Sighash-Flags ist auf den Zeitraum zwischen der Signierung und der Bestätigung beschränkt.
-Generell bieten Wallet-Softwareprogramme nicht die Option, das Sighash-Flag Ihrer Eingaben manuell zu modifizieren, wenn du eine Transaktion erstellen. Standardmäßig ist `SIGHASH_ALL` eingestellt. Persönlich kenne ich nur Sparrow Wallet, das diese Modifikation über die Benutzeroberfläche erlaubt.
+Der "sighash flag" ist also ein Parameter, der jedem Eingang hinzugefügt wird und die Bestimmung der Komponenten einer Transaktion erlaubt, die von der zugehörigen Signatur abgedeckt sind. Diese Komponenten sind die Eingänge und die Ausgänge. Die Wahl der sighash flag bestimmt also, welche Eingänge und welche Ausgänge der Transaktion durch die Signatur fixiert werden und welche noch modifiziert werden können, ohne sie zu invalidieren. Dieser Mechanismus ermöglicht es Signaturen, Transaktionsdaten gemäß den Absichten des Unterzeichners zu verpflichten.
+Offensichtlich wird eine Transaktion, sobald sie auf der Blockchain bestätigt ist, unveränderlich, unabhängig von den verwendeten sighash flags. Die Möglichkeit einer Modifikation über die sighash flags ist auf den Zeitraum zwischen der Signierung und der Bestätigung beschränkt.
+Generell bieten Wallet-Softwareprogramme nicht die Option, die sighash flag deiner Eingaben manuell zu modifizieren, wenn du eine Transaktion erstellst. Standardmäßig ist `SIGHASH_ALL` eingestellt. Persönlich kenne ich nur Sparrow Wallet, die diese Modifikation über die Benutzeroberfläche erlaubt.
 
-### Welche Sighash-Flags gibt es bei Bitcoin?
+### Welche sighash flags gibt es bei Bitcoin?
 
-Bei Bitcoin gibt es vor allem 3 grundlegende Sighash-Flags:
+Bei Bitcoin gibt es vor allem 3 grundlegende sighash flags:
 
-- `SIGHASH_ALL` (`0x01`): Die Signatur gilt für alle Eingaben und alle Ausgaben der Transaktion. Die Transaktion ist somit vollständig durch die Signatur abgedeckt und kann nicht mehr modifiziert werden. `SIGHASH_ALL` ist das am häufigsten verwendete Sighash bei alltäglichen Transaktionen, wenn man einfach eine Transaktion durchführen möchte, ohne dass sie modifiziert werden kann.
+- `SIGHASH_ALL` (`0x01`): Die Signatur gilt für alle Eingaben und alle Ausgaben der Transaktion. Die Transaktion ist somit vollständig durch die Signatur abgedeckt und kann nicht mehr modifiziert werden. `SIGHASH_ALL` ist das am häufigsten verwendete sighash bei alltäglichen Transaktionen, wenn man einfach eine Transaktion durchführen möchte, ohne dass sie modifiziert werden kann.
 
 ![CYP201](assets/en/031.webp)
 
-In allen Diagrammen dieses Kapitels repräsentiert die orangefarbene Farbe die Elemente, die von der Signatur abgedeckt sind, während die schwarze Farbe jene angibt, die nicht abgedeckt sind.
+In allen Diagrammen dieses Kapitels repräsentiert die orange Farbe die Elemente, die von der Signatur abgedeckt sind, während die schwarze Farbe jene angibt, die nicht abgedeckt sind.
 
-- `SIGHASH_NONE` (`0x02`): Die Signatur deckt alle Eingaben ab, aber keine der Ausgaben, und ermöglicht somit die Modifikation der Ausgaben nach der Signatur. Konkret ist dies vergleichbar mit einem Blankoscheck. Der Unterzeichner entsperrt die UTXOs in den Eingaben, lässt aber das Feld der Ausgaben vollständig modifizierbar. Jeder, der diese Transaktion kennt, kann somit die Ausgabe seiner Wahl hinzufügen, indem er beispielsweise eine Empfangsadresse angibt, um die durch die Eingaben verbrauchten Mittel zu sammeln, und dann die Transaktion überträgt, um die Bitcoins zu erhalten. Die Signatur des Besitzers der Eingaben wird nicht ungültig, da sie nur die Eingaben abdeckt.
+- `SIGHASH_NONE` (`0x02`): Die Signatur deckt alle Eingaben ab, aber keine der Ausgaben, und ermöglicht somit die Modifikation der Ausgaben nach der Signatur. Konkret ist dies vergleichbar mit einem Blankoscheck. Der Unterzeichner entsperrt die UTXOs in den Eingaben, lässt aber das Feld der Ausgaben vollständig modifizierbar. Jeder, der diese Transaktion kennt, kann somit die Ausgabe seiner Wahl hinzufügen, indem er beispielsweise eine Empfangsadresse angibt, um die durch die Eingaben verbrauchten Mittel zu sammeln, und dann die Transaktion überträgt, um die Bitcoin zu erhalten. Die Signatur des Besitzers der Eingaben wird nicht ungültig, da sie nur die Eingaben abdeckt.
 
 ![CYP201](assets/en/032.webp)
 
@@ -1172,9 +1173,9 @@ In allen Diagrammen dieses Kapitels repräsentiert die orangefarbene Farbe die E
 
   ![CYP201](assets/en/033.webp)
 
-Zusätzlich zu diesen drei Sighash-Flags gibt es auch den Modifikator `SIGHASH_ANYONECANPAY` (`0x80`). Dieser Modifikator kann mit einem grundlegenden Sighash-Flag kombiniert werden, um drei neue Sighash-Flags zu erstellen:
+Zusätzlich zu diesen drei sighash flags gibt es auch den Modifikator `SIGHASH_ANYONECANPAY` (`0x80`). Dieser Modifikator kann mit einer grundlegenden sighash flag kombiniert werden, um drei neue sighash flags zu erstellen:
 
-- `SIGHASH_ALL | SIGHASH_ANYONECANPAY` (`0x81`): Die Signatur deckt eine einzelne Eingabe ab, während sie alle Ausgaben der Transaktion einschließt. Dieses kombinierte Sighash-Flag ermöglicht beispielsweise die Erstellung einer Crowdfunding-Transaktion. Der Organisator bereitet die Ausgabe mit seiner Adresse und dem Zielbetrag vor, und jeder Investor kann dann Eingaben hinzufügen, um diese Ausgabe zu finanzieren. Sobald ausreichend Mittel in den Eingaben gesammelt sind, um die Ausgabe zu befriedigen, kann die Transaktion übertragen werden.
+- `SIGHASH_ALL | SIGHASH_ANYONECANPAY` (`0x81`): Die Signatur deckt eine einzelne Eingabe ab, während sie alle Ausgaben der Transaktion einschließt. Diese kombinierte sighash flag ermöglicht beispielsweise die Erstellung einer Crowdfunding-Transaktion. Der Organisator bereitet die Ausgabe mit seiner Adresse und dem Zielbetrag vor, und jeder Investor kann dann Eingaben hinzufügen, um diese Ausgabe zu finanzieren. Sobald ausreichend Mittel in den Eingaben gesammelt sind, um die Ausgabe zu befriedigen, kann die Transaktion übertragen werden.
 
 ![CYP201](assets/en/034.webp)
 
@@ -1186,22 +1187,22 @@ Zusätzlich zu diesen drei Sighash-Flags gibt es auch den Modifikator `SIGHASH_A
 
   ![CYP201](assets/en/036.webp)
 
-### Projekte zur Hinzufügung neuer Sighash-Flags
+### Projekte zum Hinzufügen neuer sighash flags
 
-Derzeit (2024) sind nur die im vorherigen Abschnitt vorgestellten Sighash-Flags in Bitcoin verwendbar. Einige Projekte erwägen jedoch die Einführung neuer Sighash-Flags. Zum Beispiel führt BIP118, vorgeschlagen von Christian Decker und Anthony Towns, zwei neue Sighash-Flags ein: `SIGHASH_ANYPREVOUT` und `SIGHASH_ANYPREVOUTANYSCRIPT` (_AnyPrevOut = "Jeder vorherige Ausgang"_).
+Derzeit (2024) sind nur die im vorherigen Abschnitt vorgestellten sighash flags in Bitcoin verwendbar. Einige Projekte erwägen jedoch die Einführung neuer sighash flags. Zum Beispiel führt BIP118, vorgeschlagen von Christian Decker und Anthony Towns, zwei neue sighash flags ein: `SIGHASH_ANYPREVOUT` und `SIGHASH_ANYPREVOUTANYSCRIPT` (_AnyPrevOut = "Any Previous Output"_).
 
-Diese beiden Sighash-Flags würden eine zusätzliche Möglichkeit in Bitcoin bieten: das Erstellen von Signaturen, die keinen spezifischen Eingang der Transaktion abdecken.
+Diese beiden sighash flags würden eine zusätzliche Möglichkeit in Bitcoin bieten: das Erstellen von Signaturen, die keinen spezifischen Eingang der Transaktion abdecken.
 
 ![CYP201](assets/en/037.webp)
 
-Diese Idee wurde ursprünglich von Joseph Poon und Thaddeus Dryja im Lightning-Whitepaper formuliert. Bevor es umbenannt wurde, hieß dieses Sighash-Flag `SIGHASH_NOINPUT`.
-Wenn dieses Sighash-Flag in Bitcoin integriert wird, ermöglicht es die Verwendung von Covenants, ist aber auch eine zwingende Voraussetzung für die Implementierung von Eltoo, einem allgemeinen Protokoll für zweite Schichten, das definiert, wie das Eigentum an einem UTXO gemeinsam verwaltet wird. Eltoo wurde speziell entwickelt, um die Probleme zu lösen, die mit den Mechanismen zur Aushandlung des Zustands von Lightning-Kanälen verbunden sind, das heißt, zwischen Öffnen und Schließen.
+Diese Idee wurde ursprünglich von Joseph Poon und Thaddeus Dryja im Lightning-Whitepaper formuliert. Bevor es umbenannt wurde, hieß dieses sighash flag `SIGHASH_NOINPUT`.
+Wenn dieses sighash flag in Bitcoin integriert wird, ermöglicht es die Verwendung von Covenants, ist aber auch eine zwingende Voraussetzung für die Implementierung von Eltoo, einem allgemeinen Protokoll für zweite Schichten (second layers), das definiert, wie das Eigentum an einem UTXO gemeinsam verwaltet wird. Eltoo wurde speziell entwickelt, um die Probleme zu lösen, die mit den Mechanismen zur Aushandlung des Zustands von Lightning-Kanälen verbunden sind, das heißt, zwischen Öffnen und Schließen.
 
-Um Ihr Wissen über das Lightning-Netzwerk zu vertiefen, empfehle ich nach dem CYP201-Kurs den LNP201-Kurs von Fanis Michalakis, der das Thema detailliert behandelt:
+Um dein Wissen über das Lightning Network zu vertiefen, empfehle ich nach dem CYP201-Kurs den LNP201-Kurs von Fanis Michalakis, der das Thema detailliert behandelt:
 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 
-Im nächsten Teil schlage ich vor, zu entdecken, wie die mnemonische Phrase, die die Basis Ihrer Bitcoin-Wallet bildet, funktioniert.
+Im nächsten Teil schlage ich vor, zu entdecken, wie die Mnemonic-Phrase, die die Basis deiner Bitcoin-Wallet bildet, funktioniert.
 
 # Die mnemonische Phrase
 

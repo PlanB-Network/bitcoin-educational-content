@@ -42,9 +42,9 @@ La dimensione del file è di circa 5,5 GB e il link generato sarà valido per 24
 
 ## Automazione!
 
-In questa fase è necessario apportare modifiche all'installazione standard di Windows. In questa fase, utilizzando l'installazione non preimpostata, determiniamo quali elementi verranno installati, senza che l'utente debba intervenire in seguito. Infatti, in questo metodo, si utilizza un file XML per configurare le fasi di installazione e i servizi installati in Windows. In altre parole, l'uso del file Unattended.xml crea un processo di automazione durante l'installazione, impedendo la necessità di selezionare più opzioni ed evitando i noiosi passaggi solitamente richiesti durante la configurazione. Si tratta di un metodo insolito ma standard, introdotto da Microsoft. Ulteriori informazioni sono disponibili su [sito web ufficiale di Microsoft](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs?view=windows-11).
+In questa fase è necessario apportare modifiche all'installazione standard di Windows, utilizzando l'installazione non preimpostata. Determiniamo quali elementi verranno installati, senza che l'utente debba intervenire in seguito. Infatti, con questo metodo, si utilizza un file XML per configurare le fasi di installazione e i servizi installati in Windows. In altre parole, l'uso del file Unattended.xml crea un processo di automazione durante l'installazione, impedendo la necessità di selezionare più opzioni ed evitando i noiosi passaggi solitamente richiesti durante la configurazione. Si tratta di un metodo insolito ma standard, introdotto da Microsoft. Ulteriori informazioni sono disponibili su [sito web ufficiale di Microsoft](https://learn.microsoft.com/it/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs?view=windows-11).
 
-In Internet sono disponibili diversi strumenti per la generazione di file non preimpostati. Alcuni di essi sono online, mentre altri sono offline. Uno degli strumenti online per la creazione di questo file è [questo sito web](https://schneegans.de/windows/unattend-generator). Dopo averlo aperto, viene presentata la seguente pagina:
+Su Internet sono disponibili diversi strumenti per la generazione di file non preimpostati. Alcuni di essi sono online, mentre altri sono offline. Uno degli strumenti online per la creazione di questo file si trova [a questo indirizzo web](https://schneegans.de/windows/unattend-generator). Dopo averlo aperto, viene presentata la seguente pagina:
 
 ![Image](assets/en/06.webp)
 
@@ -56,7 +56,7 @@ Nella fase successiva, seleziona la posizione desiderata.
 
 ![Image](assets/en/08.webp)
 
-In questa fase, puoi anche specificare l'architettura del processore del computer. In questa fase puoi:
+In questa fase, puoi anche specificare l'architettura del processore del computer. Successivamente puoi:
 1. Decidere se ignorare le funzioni di sicurezza di Windows, come TPM e Secure Boot. La funzione Secure Boot garantisce che se i file fondamentali di Windows vengono manomessi durante il processo di avvio, il problema viene rilevato e ne viene impedita l'esecuzione. Questa funzione aiuta anche a proteggere il sistema dall'installazione di aggiornamenti dannosi su Windows. L'attivazione dell'opzione per bypassare queste funzioni è talvolta inevitabile su alcuni computer, soprattutto sui modelli più vecchi. Tuttavia, in genere si consiglia di mantenere abilitate funzioni come Secure Boot.
 2. Ignora il requisito di una connessione a Internet per completare il processo. Questa opzione è utile nelle situazioni in cui non è disponibile una connessione LAN via cavo, perché nella maggior parte dei casi la scheda wireless non viene ancora riconosciuta durante l'installazione di Windows ed è necessario l'accesso a Internet via cavo. L'attivazione di questa opzione risolve i problemi legati a questo passaggio.
 
@@ -64,7 +64,7 @@ Nella fase successiva, è possibile scegliere un nome per il computer.
 
 ![Image](assets/en/09.webp)
 
-Puoi anche consentire a Windows di scegliere un nome per il sistema. In questa fase è possibile selezionare il tipo di Windows, se compresso o non compresso, oppure lasciare che sia Windows a determinare la versione appropriata in base alle specifiche del computer. In questa fase è possibile impostare anche il fuso orario.
+Puoi anche consentire a Windows di scegliere un nome per il sistema. In questa fase è possibile selezionare il tipo di file di Windows, se compresso o non compresso, oppure lasciare che sia Windows a determinare la versione appropriata in base alle specifiche del computer. In questa fase è possibile impostare anche il fuso orario.
 
 Il passo successivo riguarda le impostazioni della partizione:
 
@@ -83,7 +83,7 @@ Il passo successivo consiste nel configurare l'account di accesso a Windows:
 ![Image](assets/en/12.webp)
 
 
-## Riunioni dei conti
+## Impostazione degli account
 
 In questa fase:
 1. È possibile definire un nome e una password per l'account amministratore. È anche possibile creare più account utente o amministratore.
@@ -96,7 +96,7 @@ Il passo successivo consiste nel configurare le impostazioni della password e de
 
 In questa fase stabilisci se le password devono avere un periodo di scadenza. Inoltre, questa sezione include le impostazioni di sicurezza relative ai tentativi di accesso falliti, che possono essere attivate o disattivate in base alle proprie esigenze.
 
-In fondo a questa sezione trovi le impostazioni per la visualizzazione dei file. Nessuna di queste opzioni è disponibile durante l'installazione standard di Windows e deve essere configurata dopo l'installazione. Con il metodo di installazione non presidiata, invece, queste impostazioni sono facilmente accessibili.
+In fondo a questa sezione trovi le impostazioni per la visualizzazione dei file. Nessuna di queste opzioni è disponibile durante l'installazione standard di Windows e deve essere configurata dopo l'installazione. Con il metodo di installazione non predefinita, invece, queste impostazioni sono facilmente accessibili.
 
 Il passo successivo consiste nel configurare le impostazioni di sicurezza di Windows:
 
@@ -169,12 +169,12 @@ In questa fase, disabilitiamo tutte le opzioni, poiché la loro attivazione può
 
 ![Image](assets/en/23.webp)
 
-A questo punto, l'unità USB è pronta per l'installazione automatica di Windows e l'installazione può essere avviata utilizzando questa unità.
+A questo punto, l'unità USB è pronta per l'installazione automatica di Windows e può essere avviata utilizzando questa unità.
 
 
 ## Modifica ISO
 
-Se dovi installare Windows su una macchina virtuale, puoi usare un software per creare e modificare i file ISO. Uno di questi software è AnyBurn. Dopo aver estratto il contenuto del file ISO scaricato dal sito web di Microsoft, colloca il file autounattend.xml nella directory principale. Quindi, utilizzando AnyBurn, creare una nuova ISO con i contenuti aggiornati.
+Se devi installare Windows su una macchina virtuale, puoi usare un software per creare e modificare i file ISO. Uno di questi software è AnyBurn. Dopo aver estratto il contenuto del file ISO scaricato dal sito web di Microsoft, colloca il file autounattend.xml nella directory principale. Quindi, utilizzando AnyBurn, creare una nuova ISO con i contenuti aggiornati.
 
 AnyBurn è un software multifunzionale per lavorare con i file ISO. Offre diverse funzioni per la gestione dei file ISO, una delle quali è la creazione di immagini ISO avviabili; [qui](https://www.anyburn.com/download.php) è il sito web originale.
 

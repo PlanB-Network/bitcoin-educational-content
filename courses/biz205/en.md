@@ -1,5 +1,5 @@
 ---
-name: Biz School Previous Editions
+name: Biz School Previous Edition
 goal: learn the basics of Bitcoin, with a particular focus on its economic rationale, historical context, and social, financial, and business implications.
 objectives:
   - Master Bitcoin's economic principles and market impact.

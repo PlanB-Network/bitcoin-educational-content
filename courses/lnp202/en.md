@@ -1,5 +1,5 @@
 ---
-name: Set up your first Lightning node
+name: Set up Your First Lightning Node
 goal: Understand, install, configure, and use a Lightning node
 objectives:
   - Understand the role and usefulness of a Lightning node.

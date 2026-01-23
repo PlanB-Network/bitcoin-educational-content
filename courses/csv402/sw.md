@@ -4,12 +4,12 @@ goal: Pata ujuzi unaohitajika kuelewa na kutumia RGB
 objectives:
 - Kuelewa dhana za kimsingi za RGB protocol 
 - Bidii kanuni za commitment za Client-side Validation na Bitcoin
-- Jifunze jinsi ya kuunda, kudhibiti na kuhamisha mikataba ya RGB
+- Jifunze jinsi ya kuunda, kudhibiti na kuhamisha contracts za RGB
 - Jinsi ya kuendesha node ya lightening inayoendana na RGB
 ---
 # Kugundua RGB protocol
 
-Ingia katika ulimwengu wa RGB, protocol iliyoundwa kutekeleza na kutekeleza haki za kidijitali, katika mfumo wa mikataba na mali, kwa kuzingatia sheria za makubaliano na uendeshaji wa Bitcoin Blockchain. Kozi hii ya kina ya mafunzo hukuongoza kupitia misingi ya kiufundi na kiutendaji ya RGB, kuanzia dhana za "Client-side Validation" na "single use seal", hadi utekelezaji wa mikataba mahiri ya hali ya juu.
+Ingia katika ulimwengu wa RGB, protocol iliyoundwa kutekeleza na kutekeleza haki za kidijitali, katika mfumo wa contracts na mali, kwa kuzingatia sheria za makubaliano na uendeshaji wa Bitcoin Blockchain. Kozi hii ya kina ya mafunzo hukuongoza kupitia misingi ya kiufundi na kiutendaji ya RGB, kuanzia dhana za "Client-side Validation" na "single use seal", hadi utekelezaji wa contracts mahiri ya hali ya juu.
 
 Kupitia mpango ulioundwa, hatua kwa hatua, utagundua mbinu za Client-side Validation, commitment bainifu kwenye Bitcoin na mifumo ya mwingiliano kati ya watumiaji. Jifunze jinsi ya kuunda, kudhibiti na kuhamisha tokeni za RGB kwenye Bitcoin au Lightning Network.
 
@@ -77,7 +77,7 @@ Toleo lililoandikwa la kozi hii ya mafunzo liliandaliwa kwa kutumia nyenzo kuu 2
 
 :::video id=f27338bc-4210-4a2e-9b27-30278ed3282c:::
 
-RGB ni protocol iliyoundwa ili kutumia na kutekeleza haki za kidijitali (katika mfumo wa mikataba na mali) kwa njia ya hatari na ya siri, kwa kuzingatia sheria za makubaliano na uendeshaji wa Bitcoin Blockchain. Lengo la sura hii ya kwanza ni kuwasilisha dhana za kimsingi na istilahi zinazozunguka RGB protocol, ikiangazia hasa viungo vyake vya karibu na dhana za msingi za kompyuta zilizosambazwa kama vile Client-side Validation na single use seal
+RGB ni protocol iliyoundwa ili kutumia na kutekeleza haki za kidijitali (katika mfumo wa contracts na mali) kwa njia ya hatari na ya siri, kwa kuzingatia sheria za makubaliano na uendeshaji wa Bitcoin Blockchain. Lengo la sura hii ya kwanza ni kuwasilisha dhana za kimsingi na istilahi zinazozunguka RGB protocol, ikiangazia hasa viungo vyake vya karibu na dhana za msingi za kompyuta zilizosambazwa kama vile Client-side Validation na single use seal
 
 Katika sura hii, tunachunguza misingi ya **mifumo ya makubaliano iliyosambazwa** na kuona jinsi RGB inavyofaa katika familia hii ya teknolojia. Pia tutakuletea kanuni kuu zinazotusaidia kuelewa ni kwa nini RGB inalenga kupanuka na kutotegemea utaratibu wa maafikiano wa Bitcoin, huku tukiitegemea inapohitajika.
 
@@ -130,7 +130,7 @@ State channels (kama ilivyo kwa Lightning Network) ni hatari zaidi na ni za fara
 
 - **Client-side Validation (RGB)**
 
-Mtazamo huu mpya ni hatari zaidi na wa siri zaidi, kwa sababu sio tu kwamba tunaweza kuunganisha mbinu za uthibitisho wa maarifa bila ufichuzi, lakini hakuna grafu ya kimataifa ya miamala, kwa kuwa hakuna mtu anayeshikilia rejista nzima. Kwa upande mwingine, pia inamaanisha maelewano fulani juu ya ugatuaji wa madaraka: mtoaji wa Smart contract anaweza kuwa na jukumu kuu (kama "msambazaji wa Contract" huko Ethereum). Hata hivyo, tofauti na Blockchain, iliyo na Client-side Validation, unahifadhi na kuthibitisha Contract ambazo unazipenda pekee, jambo ambalo huboresha uwezo wako kwa kuepuka hitaji la kupakua na kuthibitisha majimbo yote yaliyopo.
+Mtazamo huu mpya ni hatari zaidi na wa siri zaidi, kwa sababu sio tu kwamba tunaweza kuunganisha mbinu za uthibitisho wa maarifa bila ufichuzi, lakini hakuna grafu ya kimataifa ya miamala, kwa kuwa hakuna mtu anayeshikilia rejista nzima. Kwa upande mwingine, pia inamaanisha maelewano fulani juu ya ugatuaji wa madaraka: mtoaji wa Smart contract anaweza kuwa na jukumu kuu (kama "msambazaji wa Contract" huko Ethereum). Hata hivyo, tofauti na Blockchain, iliyo na Client-side Validation, unahifadhi na kuthibitisha Contract ambazo unazipenda pekee, jambo ambalo huboresha uwezo wako kwa kuepuka hitaji la kupakua na kuthibitisha states zote zilizopo.
 
 ![RGB-Bitcoin](assets/en/004.webp)
 
@@ -171,7 +171,7 @@ Blockchain (katika kesi hii, Bitcoin) hutumika kama utaratibu wa _time-stamping_
 
 Sharding ni dhana iliyotokana na hifadhidata zilizosambazwa (k.m. MySQL kwa mitandao ya kijamii kama vile Facebook au Twitter). Ili kutatua tatizo la kiasi cha data na ucheleweshaji wa maingiliano, hifadhidata imegawanywa katika _shards_ (Marekani, Ulaya, Asia, n.k.). Kila sehemu inalingana ndani ya nchi na imesawazishwa kwa sehemu na zingine.
 
-Kwa RGB-type smart contracts, tunagawanya kulingana na mikataba. Kila mktaba ni _shard_ inayojitegemea. Kwa mfano, ikiwa una tokeni za USDT pekee, huhitaji kuhifadhi au kuthibitisha historia nzima ya tokeni nyingine kama USDC. Kwenye Bitcoin, Blockchain haifanyi _sharding_: una seti ya kimataifa ya UTXO. Kwa Client-side Validation, kila mshiriki anahifadhi tu data ya Contract ambayo inashikilia au kutumia.
+Kwa RGB-type smart contracts, tunagawanya kulingana na contracts. Kila mktaba ni _shard_ inayojitegemea. Kwa mfano, ikiwa una tokeni za USDT pekee, huhitaji kuhifadhi au kuthibitisha historia nzima ya tokeni nyingine kama USDC. Kwenye Bitcoin, Blockchain haifanyi _sharding_: una seti ya kimataifa ya UTXO. Kwa Client-side Validation, kila mshiriki anahifadhi tu data ya Contract ambayo inashikilia au kutumia.
 
 Kwa hivyo tunaweza kufikiria mfumo ikolojia kama ifuatavyo:
 
@@ -253,15 +253,15 @@ Client-side Validation inatoa faida kuu mbili:
 
 Miamala yenyewe (yaani maudhui yake ya kina) haijachapishwa On-Chain. Alama zao za vidole pekee (*Hash*) ndizo. Kwa hivyo, kiasi, anwani na mantiki ya Contract hubakia faragha, na mpokeaji anaweza kuthibitisha, ndani ya nchi, uhalali wa Shard yake kwa kukagua mabadiliko yote ya awali. Hakuna sababu kwa mpokeaji kuweka data hii kwa umma, isipokuwa katika tukio la mzozo au ambapo uthibitisho unahitajika.
 
-Katika mfumo kama vile RGB, mabadiliko mengi ya serikali kutoka kwa mikataba tofauti (au mali tofauti) yanaweza kujumlishwa kuwa muamala mmoja wa Bitcoin kupitia _commitment_ moja. Utaratibu huu huanzisha kiungo cha kuamua, kilichowekwa kwa wakati kati ya shughuli ya On-Chain na data ya off-chain (mipito iliyoidhinishwa ya client side), na kuwezesha shards nyingi kurekodiwa kwa wakati mmoja katika nukta moja ya Anchor, na hivyo kupunguza zaidi gharama na alama ya On-Chain.
+Katika mfumo kama vile RGB, mabadiliko mengi ya serikali kutoka kwa contracts tofauti (au mali tofauti) yanaweza kujumlishwa kuwa muamala mmoja wa Bitcoin kupitia _commitment_ moja. Utaratibu huu huanzisha kiungo cha kuamua, kilichowekwa kwa wakati kati ya shughuli ya On-Chain na data ya off-chain (mipito iliyoidhinishwa ya client side), na kuwezesha shards nyingi kurekodiwa kwa wakati mmoja katika nukta moja ya Anchor, na hivyo kupunguza zaidi gharama na alama ya On-Chain.
 
-Katika mazoezi, wakati muamala huu ya Bitcoin imeidhinishwa, "hufunga" kabisa hali ya mikataba ya msingi, kwani inakuwa vigumu kurekebisha Hash tayari imeandikwa katika Blockchain.
+Katika mazoezi, wakati muamala huu ya Bitcoin imeidhinishwa, "hufunga" kabisa hali ya contracts za msingi, kwani inakuwa vigumu kurekebisha Hash tayari imeandikwa katika Blockchain.
 
 ![RGB-Bitcoin](assets/en/015.webp)
 
 ### Dhana ya Stash
 
-**Stash** ni seti ya data ya client side ambayo mshiriki lazima ahifadhi kabisa ili kudumisha uadilifu na historia ya RGB Smart contract. Tofauti na chaneli ya Lightning, ambapo majimbo fulani yanaweza kujengwa upya ndani ya nchi kutokana na taarifa zilizoshirikiwa, Stash ya RGB Contract haijaigwa mahali pengine: ukiipoteza, hakuna mtu atakayeweza kuirejesha kwako, kwa kuwa unawajibika kwa sehemu yako ya historia. Hii ndiyo sababu unahitaji kupitisha mfumo na taratibu za kuaminika za chelezo katika RGB.
+**Stash** ni seti ya data ya client side ambayo mshiriki lazima ahifadhi kabisa ili kudumisha uadilifu na historia ya RGB Smart contract. Tofauti na chaneli ya Lightning, ambapo states fulani zinaweza kujengwa upya ndani ya state kutokana na taarifa zilizoshirikiwa, Stash ya RGB Contract haijaigwa mahali pengine: ukiipoteza, hakuna mtu atakayeweza kuirejesha kwako, kwa kuwa unawajibika kwa sehemu yako ya historia. Hii ndiyo sababu unahitaji kupitisha mfumo na taratibu za kuaminika za chelezo katika RGB.
 
 ![RGB-Bitcoin](assets/en/016.webp)
 
@@ -277,7 +277,7 @@ Kwa mali halisi, kama vile noti, uwepo wa kimwili unatosha kuthibitisha kwamba h
 
 Kama tulivyoona hapo awali, ufunuo wa mtumaji wa historia ya state transitions hutuwezesha kuhakikisha uhalisi wa tokeni ya RGB. Kwa kupata ufikiaji wa miamala yote tangu muamala wa Genesis, tunaweza kuthibitisha uhalisi wa tokeni. Kanuni hii ni sawa na ile ya Bitcoin, ambapo historia ya sarafu inaweza kufuatiliwa hadi kwenye shughuli ya awali ya coinbase ili kuthibitisha uhalali wake.Hata hivyo, tofauti na Bitcoin, historia hii ya mabadiliko ya serikali katika RGB ni ya faragha na kuwekwa client side.
 
-Ili kuzuia matumizi ya mara mbili ya tokeni za RGB, tunatumia mbinu inayoitwa "**Single-Use Seal**". Mfumo huu unahakikisha kwamba kila ishara, mara tu inapotumiwa, haiwezi kutumika tena kwa ulaghai mara ya pili.
+Ili kuzuia double spending ya tokeni za RGB, tunatumia mbinu inayoitwa "**Single-Use Seal**". Mfumo huu unahakikisha kwamba kila ishara, mara tu inapotumiwa, haiwezi kutumika tena kwa ulaghai mara ya pili.
 
 Single-Use Seal ni maandishi ya awali ya cryptographic, yaliyopendekezwa mwaka wa 2016 na Peter Todd, sawa na dhana ya seal halisi: mara tu seal imewekwa kwenye chombo, inakuwa vigumu kuifungua au kuirekebisha bila seal bila kutenduliwa.
 
@@ -379,7 +379,7 @@ Kwa muhtasari:
 - _witness_ ni shughuli yenyewe, ambayo inathibitisha kwamba umefunga Seal na maudhui haya;
 - Huwezi kuthibitisha kwamba Seal haijafungwa (huwezi kuwa na uhakika kabisa kwamba UTXO haijatumiwa tayari au haitatumika katika block ambayo haujaona bado), lakini unaweza kuthibitisha kwamba kweli imefungwa.
 
-Upekee huu ni muhimu kwa Client-side Validation: unapoidhinisha State Transition, unaangalia kuwa inalingana na UTXO ya kipekee, ambayo haikutumiwa hapo awali katika Commitment inayoshindana. Hii ndiyo inahakikisha kutokuwepo kwa matumizi mara mbili katika mikataba ya smart ya off-chain.
+Upekee huu ni muhimu kwa Client-side Validation: unapoidhinisha State Transition, unaangalia kuwa inalingana na UTXO ya kipekee, ambayo haikutumiwa hapo awali katika Commitment inayoshindana. Hii ndiyo inahakikisha kutokuwepo kwa double spending katika Smart contracts ya off-chain.
 
 ### Commitment nyingi na mizizi
 
@@ -407,7 +407,7 @@ Peter Todd pia aliunda protocol ya _Open Timestamps_, na dhana ya Single-Use Sea
 
 #### Matatizo ya upatikanaji wa data
 
-Kwa kuwa katika Client-side Validation, kila mtumiaji huhifadhi sehemu yake ya historia, upatikanaji wa data haujahakikishwa duniani kote. Ikiwa mtoaji Contract atazuia au kubatilisha taarifa fulani, huenda hujui kuhusu mabadiliko halisi ya ofa. Katika baadhi ya matukio (kama vile stablecoins), mtoaji anatarajiwa kudumisha data ya umma ili kuthibitisha kiasi katika mzunguko, lakini hakuna wajibu wa kiufundi wa kufanya hivyo. kwa hivyo inawezekana kuunda mikataba isiyo wazi kwa makusudi na usambazaji usio na kikomo ambayo inaleta maswali ya uaminifu.
+Kwa kuwa katika Client-side Validation, kila mtumiaji huhifadhi sehemu yake ya historia, upatikanaji wa data haujahakikishwa duniani kote. Ikiwa mtoaji Contract atazuia au kubatilisha taarifa fulani, huenda hujui kuhusu mabadiliko halisi ya ofa. Katika baadhi ya matukio (kama vile stablecoins), mtoaji anatarajiwa kudumisha data ya umma ili kuthibitisha kiasi katika mzunguko, lakini hakuna wajibu wa kiufundi wa kufanya hivyo. kwa hivyo inawezekana kuunda contracts ziisizo wazi kwa makusudi na usambazaji usio na kikomo ambayo inaleta maswali ya uaminifu.
 
 #### Sharding na kutengwa kwa Contract 
 
@@ -415,7 +415,7 @@ Kila Contract unawakilisha _shard_ iliyotengwa: USDT na USDC, kwa mfano, si lazi
 
 ### Hitimisho
 
-Tumeona mahali ambapo dhana ya Client-side Validation inalingana na Blockchain na _state channels_, jinsi inavyojibu kwa trilemmas za kompyuta zilizosambazwa, na jinsi inavyotumia Bitcoin Blockchain kipekee ili kuepuka Double-spending na kwa *time-stamping*. Wazo hili linatokana na dhana ya **Single-Use Seal**, kuwezesha uundaji wa commitment za kipekee ambazo huwezi kutumia tena upendavyo. Kwa njia hii, kila mshiriki anapakia tu historia ambayo ni muhimu kabisa, na kuongeza uwekaji hatari na usiri wa mikataba mahiri huku akihifadhi usalama wa Bitcoin kama mandharinyuma.
+Tumeona mahali ambapo dhana ya Client-side Validation inalingana na Blockchain na _state channels_, jinsi inavyojibu kwa trilemmas za kompyuta zilizosambazwa, na jinsi inavyotumia Bitcoin Blockchain kipekee ili kuepuka Double-spending na kwa *time-stamping*. Wazo hili linatokana na dhana ya **Single-Use Seal**, kuwezesha uundaji wa commitment za kipekee ambazo huwezi kutumia tena upendavyo. Kwa njia hii, kila mshiriki anapakia tu historia ambayo ni muhimu kabisa, na kuongeza uwekaji hatari na usiri wa contracts mahiri huku akihifadhi usalama wa Bitcoin kama mandharinyuma.
 
 Hatua inayofuata itakuwa kueleza kwa undani zaidi jinsi utaratibu huu wa Single-Use Seal unatumika katika Bitcoin (kupitia UTXOs), jinsi nanga zinaundwa na kuthibitishwa, na kisha jinsi smart contracts kamili inavyojengwa katika RGB. Hasa, tutaangalia suala la commitments nyingi, changamoto ya kiufundi ya kuthibitisha kwamba muamala wa Bitcoin hufunga wakati huo huo mabadiliko mengi ya serikali katika contract tofauti, bila kuanzisha udhaifu au commitment mbili.
 
@@ -833,9 +833,9 @@ Multi Protocol Commitment (MPC) imeundwa kukidhi mahitaji mawili:
 
 
 - Ujenzi wa `mpc::Commitment` Hash: hii itajumuishwa katika Bitcoin Blockchain kulingana na mpango wa `Opret` au `Tapret`, na lazima iakisi mabadiliko yote ya state ili kuthibitishwa;
-- Uhifadhi wa wakati mmoja wa mikataba mingi katika _commitment_ moja, kuwezesha masasisho tofauti kuhusu mali nyingi au mikataba ya RGB kusimamiwa katika muamala mmoja wa Bitcoin.
+- Uhifadhi wa wakati mmoja wa contracts mingi katika _commitment_ moja, kuwezesha masasisho tofauti kuhusu mali nyingi au contracts ya RGB kusimamiwa katika muamala mmoja wa Bitcoin.
 
-Kwa maneno madhubuti, kila _transition bundle_ ni mali ya Contract fulani. Maelezo haya yote yameingizwa kwenye **Mti wa MPC**, ambao mzizi wake (`mpc::Root`) huharakishwa tena ili kutoa `mpc::Commitment`. Ni Hash hii ya mwisho ambayo imewekwa katika shughuli ya Bitcoin (_witness transaction_), kulingana na mbinu ya kubainisha iliyochaguliwa.
+Kwa maneno madhubuti, kila _transition bundle_ ni mali ya Contract fulani. Maelezo haya yote yameingizwa kwenye **MPC Tree**, ambao mzizi wake (`mpc::Root`) huharakishwa tena ili kutoa `mpc::Commitment`. Ni Hash hii ya mwisho ambayo imewekwa katika shughuli ya Bitcoin (_witness transaction_), kulingana na mbinu ya kubainisha iliyochaguliwa.
 
 ![RGB-Bitcoin](assets/en/042.webp)
 
@@ -876,7 +876,7 @@ ambapo `cofactor` ni nambari kamili inayoongeza uwezekano wa kupata nafasi tofau
 
 - Tunaanza kutoka kwa kina cha chini kabisa (`d=3` kwa makubaliano ili kuficha idadi kamili ya Contracts);
 - Tunajaribu `cofactors` tofauti (hadi `w/2`, au zisizozidi 500 kwa sababu za utendaji);
-- Ikiwa tutashindwa kuweka mikataba yote bila mgongano, tunaongeza `d` na kuanza tena.
+- Ikiwa tutashindwa kuweka contracts yote bila mgongano, tunaongeza `d` na kuanza tena.
 
 Kusudi ni kuzuia miti ambayo ni mirefu sana, huku ukiweka hatari ya kugongana kwa kiwango cha chini. Kumbuka kuwa tukio la mgongano hufuata mantiki ya usambazaji nasibu, iliyounganishwa na [Anniversary Paradox](https://en.wikipedia.org/wiki/Birthday_problem).
 
@@ -944,7 +944,7 @@ Matokeo ya mwisho ni **mpc::Root**, kisha `mpc::Commitment`.
 
 #### ukaguzi wa shimoni la MPC
 
-Kithibitishaji kinapotaka kuhakikisha kuwa `c_i` Contract (na `BundleId` yake) imejumuishwa kwenye `mpc::Commitment` ya mwisho, anapokea tu uthibitisho wa Merkle. Uthibitisho huu unaonyesha vifundo vinavyohitajika ili kufuatilia majani (katika kesi hii, `c_i`'s _contract jani_) kurudi kwenye mzizi. Hakuna haja ya kufichua *Mti wa MPC* mzima: hii inalinda usiri wa mikataba mingine.
+Kithibitishaji kinapotaka kuhakikisha kuwa `c_i` Contract (na `BundleId` yake) imejumuishwa kwenye `mpc::Commitment` ya mwisho, anapokea tu uthibitisho wa Merkle. Uthibitisho huu unaonyesha vifundo vinavyohitajika ili kufuatilia majani (katika kesi hii, `c_i`'s _contract jani_) kurudi kwenye mzizi. Hakuna haja ya kufichua *MPC Tree* mzima: hii inalinda usiri wa contracts zingine.
 
 Katika mfano, kithibitishaji `c_2` kinahitaji tu Hash ya kati (`tH_MPC_LEAF(D)`), `tH_MPC_BRANCH(...)` mbili, `pos(c_2)` uthibitisho wa nafasi na thamani `cofactor`. Kisha inaweza kuunda upya mzizi ndani ya nchi, kisha kukokotoa upya `mpc::Commitment` na kuilinganisha na ile iliyoandikwa katika shughuli ya Bitcoin (ndani ya `Opret` au `Tapret`).
 
@@ -958,7 +958,7 @@ Utaratibu huu unahakikisha kuwa:
 
 #### Muhtasari wa muundo wa MPC
 
-Multi Protocol Commitment* (MPC) ndiyo kanuni inayowezesha RGB kujumlisha mikataba mingi katika muamala mmoja wa Bitcoin, huku ikidumisha upekee wa commitment na usiri dhidi ya washiriki wengine. Shukrani kwa ujenzi wa kuamua wa mti, kila Contract imepewa nafasi ya pekee, na uwepo wa majani ya "dummy" (*Majani ya Entropy*) hufunika kwa sehemu idadi ya mikataba inayoshiriki katika shughuli hiyo.
+Multi Protocol Commitment* (MPC) ndiyo kanuni inayowezesha RGB kujumlisha contracts nyingi katika muamala mmoja wa Bitcoin, huku ikidumisha upekee wa commitment na usiri dhidi ya washiriki wengine. Shukrani kwa ujenzi wa kuamua wa mti, kila Contract imepewa nafasi ya pekee, na uwepo wa majani ya "dummy" (*Majani ya Entropy*) hufunika kwa sehemu idadi ya contracts zinazoshiriki katika shughuli hiyo.
 
 Merkle Tree nzima haihifadhiwi kwenye mteja. Sisi kwa urahisi generate a _Merkle path_ kwa kila Contract inayohusika, kutumwa kwa mpokeaji (ambaye anaweza kuthibitisha Commitment). Katika baadhi ya matukio, unaweza kuwa na mali kadhaa ambazo zimepitia UTXO sawa. Kisha unaweza kuunganisha _Merkle paths_ kadhaa kwenye kinachojulikana kama _multi-protocol Commitment block_, ili kuepuka kunakili data nyingi.
 
@@ -990,7 +990,7 @@ Kinadharia, itawezekana kupata `txid` hii kwa kufuatilia msururu wa state transi
 Sehemu ya pili, `Uthibitisho wa MPC`, inarejelea uthibitisho kwamba Contract hii mahususi (k.m. `c_i`) imejumuishwa katika _Multi Protocol Commitment_. Ni mchanganyiko wa:
 
 
-- `pos_i`, nafasi ya Contract hii katika mti wa MPC;
+- `pos_i`, nafasi ya Contract hii katika MPC Tree;
 - `cofactor`, thamani iliyobainishwa ili kutatua migongano ya nafasi;
 - `Uthibitisho wa Merkle`, yaani seti ya vifundo na hash zilizotumiwa kuunda upya mzizi wa MPC na kuthibitisha kuwa kitambulishi cha Contract na `Transition Bundle` yake zimekabidhiwa kwenye mzizi.
 
@@ -1029,7 +1029,7 @@ Katika sura hii, tunashughulikia:
 - Jinsi ya kutumia dhana ya Single-Use Seal katika Bitcoin (haswa kupitia _outpoint_);
 - Mbinu mbalimbali za kubainisha _commitment_ katika muamala (Sig tweak, Key tweak, witness tweak, OP_RETURN, Taproot/Tapret);
 - Sababu kwa nini RGB inazingatia Commitment za Tapret;
-- Usimamizi wa Contract nyingi kupitia _commitment _za protocol nyingi_, ni muhimu ikiwa hutaki kufichua jimbo zima au mikataba mingine unapotaka kuthibitisha hoja mahususi;
+- Usimamizi wa Contract nyingi kupitia _commitment _za protocol nyingi_, ni muhimu ikiwa hutaki kufichua state zima au contracts mingine unapotaka kuthibitisha hoja mahususi;
 - Tumeona pia jukumu la _Anchors_, ambayo huleta kila kitu pamoja (muamala txid, uthibitisho wa Merkle Tree na uthibitisho wa Taproot) katika kifurushi kimoja.
 
 Katika mazoezi, utekelezaji wa kiufundi umegawanywa kati ya Rust _crates_ kadhaa maalum (katika _client_side_validation_, _commit-verify_, _bp_core_, nk.). Mawazo ya kimsingi yapo:
@@ -1038,17 +1038,17 @@ Katika mazoezi, utekelezaji wa kiufundi umegawanywa kati ya Rust _crates_ kadhaa
 
 Katika sura inayofuata, tutaangalia sehemu ya off-chain ya RGB, ambayo ni mantiki ya Contract. Tutaona jinsi Contract za RGB, iliyopangwa kama mashine za hali _finite state machines_, inavyofikia uwazi zaidi kuliko hati za Bitcoin, huku zikihifadhi usiri wa data zao.
 
-## Utangulizi wa mikataba mahiri na majimbo yao
+## Utangulizi wa contracts mahiri na states zao
 
 <chapterId>04a9569f-3563-5382-bf53-0c7069343ba0</chapterId>
 
 :::video id=db4ee09f-1352-4ad1-9f7a-c962df7ea9fa:::
 
-Katika sura hii na inayofuata, tutaangalia dhana ya **Smart contract** ndani ya mazingira ya RGB na kuchunguza njia tofauti ambazo mikataba hii inaweza kufafanua na kubadilisha *hali* yao. Tutaona ni kwa nini usanifu wa RGB, kwa kutumia mfuatano ulioagizwa wa Single-Use Seal, kuwezesha kutekeleza aina mbalimbali za ***Operesheni za Contract*** kwa njia inayoweza kusambazwa na bila kupitia sajili ya kati. Pia tutaangalia jukumu la msingi la ***Business Logic*** katika kutunga mageuzi ya Contract State.
+Katika sura hii na inayofuata, tutaangalia dhana ya **Smart contract** ndani ya mazingira ya RGB na kuchunguza njia tofauti ambazo contracts hizi zinaweza kufafanua na kubadilisha *hali* yao. Tutaona ni kwa nini usanifu wa RGB, kwa kutumia mfuatano ulioagizwa wa Single-Use Seal, kuwezesha kutekeleza aina mbalimbali za ***Operesheni za Contract*** kwa njia inayoweza kusambazwa na bila kupitia sajili ya kati. Pia tutaangalia jukumu la msingi la ***Business Logic*** katika kutunga mageuzi ya Contract State.
 
 ### Mikataba mahiri na haki za mshikaji dijitali
 
-Lengo la RGB ni kutoa miundombinu ya kutekeleza mikataba mahiri kwenye Bitcoin. Kwa "Smart contract" tunamaanisha makubaliano kati ya wahusika kadhaa ambayo yanatekelezwa kiotomatiki na kwa kukokotoa, bila uingiliaji wa kibinadamu ili kutekeleza vifungu. Kwa maneno mengine, sheria ya Contract inatekelezwa na programu, sio na mtu wa tatu anayeaminika.
+Lengo la RGB ni kutoa miundombinu ya kutekeleza contracts mahiri kwenye Bitcoin. Kwa "Smart contract" tunamaanisha makubaliano kati ya wahusika kadhaa ambayo yanatekelezwa kiotomatiki na kwa kukokotoa, bila uingiliaji wa kibinadamu ili kutekeleza vifungu. Kwa maneno mengine, sheria ya Contract inatekelezwa na programu, sio na mtu wa tatu anayeaminika.
 
 Uendeshaji huu otomatiki huibua swali la ugatuaji: tunawezaje kujikomboa kutoka kwa sajili kuu (k.m. jukwaa kuu au hifadhidata) ili kudhibiti utendaji wa Ownership na Contract? Wazo la asili, lililochukuliwa na RGB, ni kurejea kwenye hali ya Ownership inayojulikana kama "vyombo vya kubeba". Kihistoria, dhamana fulani (bondi, hisa, n.k.) zilitolewa kwa namna ya mhusika, kuwezesha mtu yeyote ambaye ana hati hiyo kutekeleza haki zake.
 
@@ -1066,7 +1066,7 @@ Smart contract katika RGB inaweza kuonekana kama mashine ya serikali, iliyofafan
 
 ![RGB-Bitcoin](assets/en/056.webp)
 
-Ni muhimu kuelewa kwamba mikataba hii sio mdogo kwa uhamisho rahisi wa ishara. Zinaweza kujumuisha aina mbalimbali za matumizi: kutoka kwa mali ya kitamaduni (ishara, hisa, bondi) hadi ufundi changamano zaidi (haki za matumizi, masharti ya kibiashara, n.k.). Tofauti na minyororo mingine ya kuzuia, ambapo msimbo wa Contract unapatikana na kutekelezwa na wote, mbinu ya RGB inagawanya upatikanaji na ujuzi wa Contract kwa washiriki ("***Contract washiriki***"). Kuna majukumu kadhaa:
+Ni muhimu kuelewa kwamba contracts hizi sio mdogo kwa uhamisho rahisi wa ishara. Zinaweza kujumuisha aina mbalimbali za matumizi: kutoka kwa mali ya kitamaduni (ishara, hisa, bondi) hadi ufundi changamano zaidi (haki za matumizi, masharti ya kibiashara, n.k.). Tofauti na minyororo mingine ya kuzuia, ambapo msimbo wa Contract unapatikana na kutekelezwa na wote, mbinu ya RGB inagawanya upatikanaji na ujuzi wa Contract kwa washiriki ("***Contract washiriki***"). Kuna majukumu kadhaa:
 
 
 - **Mtoaji** au muundaji wa Contract, ambaye anafafanua Genesis ya Contract na vigezo vyake vya awali;
@@ -1121,14 +1121,14 @@ Topolojia hii ya DAG (badala ya msururu rahisi wa mstari) inaonyesha uwezekano k
 
 ### Muhtasari
 
-Contract mahiri katika RGB inatanguliza muundo wa zana zinazobeba dijitali, zilizogatuliwa lakini zilizowekwa katika Bitcoin kwa kuweka seal wa wakati na kuhakikisha mpangilio wa miamala. Utekelezaji wa kiotomatiki wa mikataba hii inategemea:
+Contract mahiri katika RGB inatanguliza muundo wa zana zinazobeba dijitali, zilizogatuliwa lakini zilizowekwa katika Bitcoin kwa kuweka seal wa wakati na kuhakikisha mpangilio wa miamala. Utekelezaji wa kiotomatiki wa contracts hizi zinategemea:
 
 
 - A **hali ya Contract**, inayoonyesha usanidi wa sasa wa Contract (haki, mizani, vigezo, nk);
 - A **Mantiki ya Biashara** (*Schema*), ikifafanua ni mabadiliko gani yanaruhusiwa na jinsi yanapaswa kuthibitishwa;
-- **Uendeshaji wa Contract**, ambayo husasisha jimbo hili hatua kwa hatua, kutokana na commitment zilizowekwa katika miamala ya Bitcoin.
+- **Uendeshaji wa Contract**, ambayo husasisha State hii hatua kwa hatua, kutokana na commitment zilizowekwa katika miamala ya Bitcoin.
 
-Katika sura inayofuata, tutaingia kwa undani zaidi kuhusu uwakilishi halisi wa hizi ***states*** na ***state transitions*** katika kiwango cha off-chain, na jinsi zinavyohusiana na UTXO na Single-Use Seal iliyopachikwa kwenye Bitcoin. Hii itakuwa fursa ya kuona jinsi mitambo ya ndani ya RGB, kulingana na Client-side Validation, inavyoweza kudumisha uthabiti wa mikataba mahiri huku ikihifadhi usiri wa data.
+Katika sura inayofuata, tutaingia kwa undani zaidi kuhusu uwakilishi halisi wa hizi ***states*** na ***state transitions*** katika kiwango cha off-chain, na jinsi zinavyohusiana na UTXO na Single-Use Seal iliyopachikwa kwenye Bitcoin. Hii itakuwa fursa ya kuona jinsi mitambo ya ndani ya RGB, kulingana na Client-side Validation, inavyoweza kudumisha uthabiti wa contracts mahiri huku ikihifadhi usiri wa data.
 
 ## Shughuli za RGB Contract
 
@@ -1158,17 +1158,17 @@ Bob, kwa upande mwingine, ana angalau UTXO yake mwenyewe, bila kiungo cha moja k
 
 **Ujenzi wa mali mpya (New State)):**
 
-Bob hutuma maelezo ya Alice yaliyosimbwa kwa njia ya ***Invoice*** (tutaingia kwa undani zaidi kuhusu ujenzi wa Invoice katika sura za baadaye), akimwomba aunde hali mpya ambayo inalingana na sheria za Contract. Jimbo hili litajumuisha *Seal Definition* mpya inayoelekeza kwenye mojawapo ya UTXO za Bob. Kwa njia hii, Bob anapewa Ownership ya mali iliyoelezwa katika hali hii mpya, kwa mfano kiasi fulani cha ishara za RGB.
+Bob hutuma maelezo ya Alice yaliyosimbwa kwa njia ya ***Invoice*** (tutaingia kwa undani zaidi kuhusu ujenzi wa Invoice katika sura za baadaye), akimwomba aunde hali mpya ambayo inalingana na sheria za Contract. State hili litajumuisha *Seal Definition* mpya inayoelekeza kwenye mojawapo ya UTXO za Bob. Kwa njia hii, Bob anapewa Ownership ya mali iliyoelezwa katika hali hii mpya, kwa mfano kiasi fulani cha ishara za RGB.
 
 ![RGB-Bitcoin](assets/en/060.webp)
 
 **Maandalizi ya sampuli ya muamala:**
 
-Kisha Alice huunda muamala wa Bitcoin akitumia UTXO iliyorejelewa katika Seal iliyotangulia (ile iliyomhalalisha kama mmiliki). Katika matokeo ya muamala huu, *Commitment* (kupitia `Opret` au `Tapret`) imeingizwa kwenye Anchor hali mpya ya RGB. Commitment za `Opret` au `Tapret` zimetokana na *Mti wa MPC* (kama inavyoonekana katika sura zilizopita), ambao unaweza kujumlisha mabadiliko kadhaa kutoka kwa mikataba tofauti.
+Kisha Alice huunda muamala wa Bitcoin akitumia UTXO iliyorejelewa katika Seal iliyotangulia (ile iliyomhalalisha kama mmiliki). Katika matokeo ya muamala huu, *Commitment* (kupitia `Opret` au `Tapret`) imeingizwa kwenye Anchor hali mpya ya RGB. Commitment za `Opret` au `Tapret` zimetokana na *MPC tree* (kama inavyoonekana katika sura zilizopita), ambao unaweza kujumlisha mabadiliko kadhaa kutoka kwa contracts tofauti.
 
 **Usambazaji wa *Consignment* kwa Bob:**
 
-Kabla ya kutangaza muamala, Alice humtumia Bob ***Consignment*** iliyo na data yote muhimu ya *client side* (*Stash* yake) na taarifa mpya ya jimbo kwa niaba ya Bob. Katika hatua hii, Bob anatumia sheria za makubaliano ya RGB:
+Kabla ya kutangaza muamala, Alice humtumia Bob ***Consignment*** iliyo na data yote muhimu ya *client side* (*Stash* yake) na taarifa mpya ya State kwa niaba ya Bob. Katika hatua hii, Bob anatumia sheria za makubaliano ya RGB:
 
 
 - Inathibitisha data yote ya RGB iliyo katika *Consignment*, ikijumuisha hali mpya inayoipatia Ownership ya mali;
@@ -1180,7 +1180,7 @@ Ikiwa Bob ameridhika, anaweza kutoa kibali chake (kwa mfano, kwa kusaini *Consig
 
 ![RGB-Bitcoin](assets/en/061.webp)
 
-Jimbo hilo jipya sasa linarejelea UTXO ya Bob, ikimpa Bob Ownership iliyokuwa ikishikiliwa na Alice. Pato la Bitcoin ambapo data ya RGB imetiwa nanga inakuwa dhibitisho lisiloweza kubatilishwa la uhamisho wa Umiliki.
+State hilo jipya sasa linarejelea UTXO ya Bob, ikimpa Bob Ownership iliyokuwa ikishikiliwa na Alice. Pato la Bitcoin ambapo data ya RGB imetiwa nanga inakuwa dhibitisho lisiloweza kubatilishwa la uhamisho wa Umiliki.
 
 Mfano wa DAG ndogo (*Directed Acyclic Graph*) inayojumuisha oparesheni mbili za Contract (**Genesis** kisha ***State Transition***) inaweza kuonyesha jinsi hali ya RGB (*client side* Layer, kwa rangi nyekundu) inavyounganishwa na Commitment5-7335 GW7*735 GW, 733 GW-7, GW-7 machungwa).
 
@@ -1196,7 +1196,7 @@ Katika muktadha huu, hapa kuna vikumbusho vichache vya istilahi:
 - **Owned States**, yaani, data iliyounganishwa na Ownership (kwa mfano, idadi ya tokeni zilizohamishwa).
 - **Global State** huleta pamoja sifa za jumla za Contract, zinazoonekana kwa wote, na kuhakikisha uwiano wa kimataifa wa mageuzi.
 
-**Mpito wa Jimbo**, ulioelezewa katika sura iliyopita, ni aina kuu ya Contract Operation. Wanarejelea jimbo moja au zaidi zilizopita (kutoka Genesis au State Transition nyingine) na wanasasisha hadi hali mpya.
+**State transition**, ulioelezewa katika sura iliyopita, ni aina kuu ya Contract Operation. Wanarejelea state moja au zaidi zilizopita (kutoka Genesis au State Transition nyingine) na wanasasisha hadi hali mpya.
 
 ![RGB-Bitcoin](assets/en/063.webp)
 
@@ -1206,14 +1206,14 @@ Katika sura zifuatazo, tutaangalia vipengele na taratibu zote zinazohusika katik
 
 ### Transition Bundle
 
-Kwenye RGB, inawezekana kuunganisha Mipito tofauti ya Jimbo inayomilikiwa na Contract sawa (yaani, kushiriki **ContractId** sawa, inayotokana na Genesis **OpId**). Katika hali rahisi, kama kati ya Alice na Bob katika mfano hapo juu, **Transition Bundle** ina mpito mmoja tu. Lakini usaidizi wa shughuli za walipaji wengi (kama vile coinjoins, fursa za vituo vya lightning, n.k.) inamaanisha kuwa watumiaji kadhaa wanaweza kuchanganya Mpito wa Jimbo lao katika kifungu kimoja.
+Kwenye RGB, inawezekana kuunganisha Mipito tofauti ya State inayomilikiwa na Contract sawa (yaani, kushiriki **ContractId** sawa, inayotokana na Genesis **OpId**). Katika hali rahisi, kama kati ya Alice na Bob katika mfano hapo juu, **Transition Bundle** ina mpito mmoja tu. Lakini usaidizi wa shughuli za walipaji wengi (kama vile coinjoins, fursa za vituo vya lightning, n.k.) inamaanisha kuwa watumiaji kadhaa wanaweza kuchanganya State transition yao katika kifungu kimoja.
 
 Mara baada ya kukusanywa, mabadiliko haya yameimarishwa (na utaratibu wa MPC + DBC) katika shughuli moja ya Bitcoin:
 
 
 - Kila State Transition imeharakishwa na kuunganishwa katika Transition Bundle;
 - Transition Bundle yenyewe imeharakishwa na kuingizwa kwenye jani la mti la MPC linalolingana na hii Contract (BundleId);
-- Mti wa MPC hatimaye unahusishwa kupitia `Opret` au `Tapret` katika Witness Transaction, ambayo kwa hivyo hufunga sili zinazotumiwa na kufafanua seal mipya.
+- MPC Tree hatimaye unahusishwa kupitia `Opret` au `Tapret` katika Witness Transaction, ambayo kwa hivyo hufunga sili zinazotumiwa na kufafanua seal mipya.
 
 Kwa kusema kitaalamu, **BundleId** iliyoingizwa kwenye laha ya MPC inapatikana kutoka kwa alama ya Hash iliyotumika kwa ufuataji kamili wa sehemu ya *InputMap* ya kifungu:
 
@@ -1240,20 +1240,20 @@ MapElement1                MapElement2                       MapElementN
 
 Kwa kurejelea kila ingizo mara moja tu na kwa utaratibu, tunazuia Seal ile ile isitumike mara mbili katika Mipito miwili ya Serikali kwa wakati mmoja.
 
-### Kizazi cha Jimbo na Jimbo Amilifu
+### Kizazi cha State na State Amilifu
 
-Kwa hivyo Mpito wa Jimbo unaweza kutumika kuhamisha Ownership ya mali kutoka kwa mtu mmoja hadi kwa mwingine. Walakini, sio shughuli pekee zinazowezekana katika Protocol ya RGB. Itifaki inafafanua tatu **Uendeshaji wa Contract** :
+Kwa hivyo State transition unaweza kutumika kuhamisha Ownership ya mali kutoka kwa mtu mmoja hadi kwa mwingine. Walakini, sio shughuli pekee zinazowezekana katika Protocol ya RGB. Itifaki inafafanua tatu **Uendeshaji wa Contract** :
 
 
 - **State Transition** ;
 - **Genesis** ;
 - **State Extension**.
 
-Kati ya hizi, **Genesis** na **State Extension** wakati mwingine huitwa "*Shughuli za Kizazi cha Jimbo*", kwa sababu huunda majimbo mapya bila kufunga yoyote mara moja. Hili ni jambo muhimu sana: **Genesis** na **State Extension** hazihusishi kufunga Seal. Badala yake, wanafafanua Seal mpya, ambayo lazima itumike na **State Transition** inayofuata ili kuthibitishwa kweli katika historia ya Blockchain.
+Kati ya hizi, **Genesis** na **State Extension** wakati mwingine huitwa "*State Generation operations*", kwa sababu huunda states mpya bila kufunga yoyote mara moja. Hili ni jambo muhimu sana: **Genesis** na **State Extension** hazihusishi kufunga Seal. Badala yake, wanafafanua Seal mpya, ambayo lazima itumike na **State Transition** inayofuata ili kuthibitishwa kweli katika historia ya Blockchain.
 
 ![RGB-Bitcoin](assets/en/064.webp)
 
-**Hali Inayotumika** ya Contract mara nyingi hufafanuliwa kuwa seti ya majimbo ya hivi punde kutokana na historia (DAG) ya miamala, kuanzia Genesis na kufuata nanga zote katika Bitcoin Blockchain. Majimbo yoyote ya zamani ambayo tayari yamepitwa na wakati (yaani yaliyoambatishwa kwa UTXO zilizotumika) hayachukuliwi kuwa hai, lakini yanasalia kuwa muhimu kwa kuangalia uthabiti wa historia.
+**Hali Inayotumika** ya Contract mara nyingi hufafanuliwa kuwa seti ya states za hivi punde kutokana na historia (DAG) ya miamala, kuanzia Genesis na kufuata anchors zote katika Bitcoin Blockchain. States zozote za zamani ambayo tayari zimepitwa na wakati (yaani yaliyoambatishwa kwa UTXO zilizotumika) hayachukuliwi kuwa hai, lakini yanasalia kuwa muhimu kwa kuangalia uthabiti wa historia.
 
 ### Genesis
 
@@ -1268,7 +1268,7 @@ Kwa kuwa ni shughuli ya kwanza katika Contract, Genesis hairejelei hali yoyote y
 
 ### State Extension
 
-**Viendelezi vya Jimbo** hutoa kipengele asili kwa mikataba mahiri. Wanawezesha Redeem haki fulani za kidijitali (**Valencies**) zinazotolewa katika ufafanuzi wa Contract, bila kufunga Seal mara moja. Mara nyingi, hii inahusu:
+**State Extension** hutoa kipengele asili kwa contracts mahiri. Wanawezesha Redeem haki fulani za kidijitali (**Valencies**) zinazotolewa katika ufafanuzi wa Contract, bila kufunga Seal mara moja. Mara nyingi, hii inahusu:
 
 
 - Masuala ya ishara iliyosambazwa;
@@ -1288,7 +1288,7 @@ Kwa mfano: Genesis inaunda haki ya kutoa (*Valency*). Hii inaweza kutekelezwa na
 
 ### Sehemu ya Contract Operation
 
-Ningependa sasa kuangalia kwa kina kila mojawapo ya sehemu za Elements za **Contract Operation** katika RGB. Contract Operation ni hatua ambayo hurekebisha hali ya Contract, na ambayo inathibitishwa kwa client side, kwa njia ya kuamua, na mpokeaji halali. Hasa, tutaona jinsi Contract Operation inavyozingatia, kwa upande mmoja, ** hali ya zamani ** ( * Jimbo la Kale * ) la Contract, na kwa upande mwingine, ufafanuzi wa ** hali mpya ** ( * Jimbo Mpya * ).
+Ningependa sasa kuangalia kwa kina kila mojawapo ya sehemu za Elements za **Contract Operation** katika RGB. Contract Operation ni hatua ambayo hurekebisha hali ya Contract, na ambayo inathibitishwa kwa client side, kwa njia ya kuamua, na mpokeaji halali. Hasa, tutaona jinsi Contract Operation inavyozingatia, kwa upande mmoja, ** hali ya zamani ** ( * state ya Kale * ) la Contract, na kwa upande mwingine, ufafanuzi wa ** hali mpya ** ( * State Mpya * ).
 
 ```txt
 +---------------------------------------------------------------------------------------------------------------------+
@@ -1357,7 +1357,7 @@ Elements ya **New State** ni:
 
 
 - **Ingizo**, zinazoelekeza kwenye *Kazi* za mabadiliko ya awali ya hali (hazipo katika Genesis);
-- **Hukomboa**, ambayo inarejelea Uhalali uliobainishwa awali (katika Viendelezi vya Jimbo pekee).
+- **Hukomboa**, ambayo inarejelea Uhalali uliobainishwa awali (katika Viendelezi vya State pekee).
 
 Kwa kuongezea, Contract Operation inajumuisha nyanja za jumla zaidi maalum kwa operesheni:
 
@@ -1383,12 +1383,12 @@ RGB Contract basi hutambuliwa kwa `ContractId`, inayotokana na Genesis `OpId` (k
 
 - **Global State** moja: hii ni sehemu ya umma, ya kimataifa ya Contract, inayoonekana kwa wote;
 - **Nchi Moja au zaidi Zinazomilikiwa**: kila Owned State inahusishwa na Seal ya kipekee (na kwa hivyo UTXO kwenye Bitcoin). Tofauti inafanywa kati ya:
-    - **Nchi zinazomilikiwa na umma**,
-    - **Nchi zinazomilikiwa** za Kibinafsi.
+    - **Owned States na umma**,
+    - **Owned States** za Kibinafsi.
 
 ![RGB-Bitcoin](assets/en/066.webp)
 
-*Global State* imejumuishwa moja kwa moja kwenye *Contract Operation* kama block moja. *Nchi Zinazomilikiwa* zimefafanuliwa katika kila *Assignment*, sambamba na *Seal Definition*.
+*Global State* imejumuishwa moja kwa moja kwenye *Contract Operation* kama block moja. *Owned States* zimefafanuliwa katika kila *Assignment*, sambamba na *Seal Definition*.
 
 Kipengele kikuu cha RGB ni njia ambayo Global State na Mataifa Yanayomilikiwa yanarekebishwa. Kwa ujumla kuna aina mbili za tabia:
 
@@ -1396,7 +1396,7 @@ Kipengele kikuu cha RGB ni njia ambayo Global State na Mataifa Yanayomilikiwa ya
 - **Inaweza kubadilika**: kipengele cha hali kinapofafanuliwa kuwa kinaweza kubadilika, kila operesheni mpya inachukua nafasi ya hali ya awali na hali mpya. Data ya zamani basi inachukuliwa kuwa ya kizamani;
 - **Kukusanya**: kipengele cha hali kinapofafanuliwa kuwa ni mkusanyiko, kila operesheni mpya huongeza taarifa mpya kwa hali ya awali, bila kuibadilisha. Matokeo yake ni aina ya historia iliyokusanywa.
 
-Ikiwa, katika Contract, kipengele cha hali hakijafafanuliwa kuwa kinachoweza kubadilika au limbikizi, kipengele hiki kitasalia tupu kwa shughuli zinazofuata (kwa maneno mengine, hakuna matoleo mapya ya uga huu). Ni Contract Schema (yaani Business Logic) yenye msimbo ambayo huamua ikiwa jimbo (Jumla au Linalomilikiwa) linaweza kubadilika, kujumlisha au kudumu. Mara tu Genesis imefafanuliwa, mali hizi zinaweza kubadilishwa tu ikiwa Contract yenyewe inaruhusu, kwa mfano kupitia State Extension maalum.
+Ikiwa, katika Contract, kipengele cha hali hakijafafanuliwa kuwa kinachoweza kubadilika au limbikizi, kipengele hiki kitasalia tupu kwa shughuli zinazofuata (kwa maneno mengine, hakuna matoleo mapya ya uga huu). Ni Contract Schema (yaani Business Logic) yenye msimbo ambayo huamua ikiwa State (Jumla au Linalomilikiwa) linaweza kubadilika, kujumlisha au kudumu. Mara tu Genesis imefafanuliwa, mali hizi zinaweza kubadilishwa tu ikiwa Contract yenyewe inaruhusu, kwa mfano kupitia State Extension maalum.
 
 Jedwali hapa chini linaonyesha jinsi kila aina ya Contract Operation inaweza kuendesha (au la) Global State na Owned State:
 
@@ -1428,7 +1428,7 @@ Kwa kuongeza, upeo wa muda na haki za kusasisha za kila aina ya data zinaweza ku
 
 | **Nani anaweza kuisasisha?** | Isiyosasishwa (data ya muda mfupi) | Operesheni iliyotolewa na watendaji (mtoaji, n.k.) | Inategemea mmiliki halali ambaye anamiliki Seal (yule anayeweza kuitumia katika shughuli ifuatayo) |
 
-| **Upeo wa Muda** | Kwa operesheni ya sasa pekee | Jimbo huanzishwa mwishoni mwa operesheni | Hali inafafanuliwa kabla ya operesheni (na *Seal Definition* ya operesheni ya awali) |
+| **Upeo wa Muda** | Kwa operesheni ya sasa pekee | State huanzishwa mwishoni mwa operesheni | Hali inafafanuliwa kabla ya operesheni (na *Seal Definition* ya operesheni ya awali) |
 
 ### Global State
 
@@ -1476,7 +1476,7 @@ Fomu ya *iliyofichwa* ya Seal Definition ni SHA256 Hash (iliyotambulishwa) ya mu
 
 ![RGB-Bitcoin](assets/en/068.webp)
 
-#### Nchi Zinazomilikiwa
+#### Owned States
 
 Sehemu ya pili ya *Assignment* ni Owned State. Tofauti na Global State, inaweza kuwepo katika hali ya umma au ya kibinafsi:
 
@@ -1565,23 +1565,23 @@ Ingizo za *Contract Operation* hurejelea *Kazi* ambazo zinatumika katika operesh
 - assignmentType` : aina ya *Assignment* (kwa mfano, `assetOwner` kwa tokeni);
 - `Index`: faharasa ya *Assignment* katika orodha inayohusishwa na `OpId` ya awali, iliyobainishwa baada ya upangaji wa kamusi ya seal iliyofichwa.
 
-Ingizo hazionekani kamwe katika Genesis, kwa kuwa hakuna Kazi za awali. Wala hazionekani katika Viendelezi vya Jimbo (kwa sababu Viendelezi vya Jimbo havifungi seal; badala yake, vinafafanua upya seal mipya kulingana na Valencies).
+Ingizo hazionekani kamwe katika Genesis, kwa kuwa hakuna Kazi za awali. Wala hazionekani katika Viendelezi vya State (kwa sababu Viendelezi vya State haiifungi seal; badala yake, vinafafanua upya seal mipya kulingana na Valencies).
 
-Tunapokuwa na Nchi Zinazomilikiwa za aina ya `Fungible`, mantiki ya uthibitishaji (kupitia hati ya AluVM iliyotolewa katika Schema) hukagua uwiano wa hesabu: jumla ya tokeni zinazoingia (*Pembejeo*) lazima ziwe sawa na jumla ya tokeni zinazotoka (katika *Kazi* mpya).
+Tunapokuwa na Owned States za aina ya `Fungible`, mantiki ya uthibitishaji (kupitia hati ya AluVM iliyotolewa katika Schema) hukagua uwiano wa hesabu: jumla ya tokeni zinazoingia (*Pembejeo*) lazima ziwe sawa na jumla ya tokeni zinazotoka (katika *Kazi* mpya).
 
 ### Metadata
 
-Sehemu ya **Metadata** inaweza kuwa hadi 64 KiB na inatumika kujumuisha data ya muda muhimu kwa uthibitishaji, lakini haijaunganishwa katika hali ya kudumu ya Contract. Kwa mfano, vigeu vya hesabu vya kati vya hati ngumu vinaweza kuhifadhiwa hapa. Nafasi hii haikusudiwa kuhifadhiwa katika historia ya kimataifa, ndiyo maana iko nje ya mawanda ya Nchi Zinazomilikiwa au Global State.
+Sehemu ya **Metadata** inaweza kuwa hadi 64 KiB na inatumika kujumuisha data ya muda muhimu kwa uthibitishaji, lakini haijaunganishwa katika hali ya kudumu ya Contract. Kwa mfano, vigeu vya hesabu vya kati vya hati ngumu vinaweza kuhifadhiwa hapa. Nafasi hii haikusudiwa kuhifadhiwa katika historia ya kimataifa, ndiyo maana iko nje ya mawanda ya Owned States au Global State.
 
 ### Valencies
 
-**Valencies** ni utaratibu halisi wa protocol wa RGB. Wanaweza kupatikana katika Genesis, Mpito wa Jimbo au Viendelezi vya Jimbo. Zinawakilisha haki za nambari zinazoweza kuamilishwa na State Extension (kupitia *Redeems*), kisha kukamilishwa na Mpito unaofuata. Kila Valency inatambuliwa na `ValencyType` (biti 16). Semantiki zake (kutoa tena kulia, kubadilishana ishara, kuchoma kulia, nk) zimefafanuliwa katika Schema.
+**Valencies** ni utaratibu halisi wa protocol wa RGB. Wanaweza kupatikana katika Genesis, State transition au Viendelezi vya State. Zinawakilisha haki za nambari zinazoweza kuamilishwa na State Extension (kupitia *Redeems*), kisha kukamilishwa na Mpito unaofuata. Kila Valency inatambuliwa na `ValencyType` (biti 16). Semantiki zake (kutoa tena kulia, kubadilishana ishara, kuchoma kulia, nk) zimefafanuliwa katika Schema.
 
 Kwa maneno madhubuti, tunaweza kufikiria Genesis ikifafanua "haki ya kutoa tena" Valency. State Extension itaitumia (*Redeem*) ikiwa hali fulani zinakabiliwa, ili kuanzisha kiasi kipya cha ishara. Kisha, State Transition inayotoka kwa mmiliki wa Seal iliyoundwa hivyo inaweza kuhamisha ishara hizi mpya.
 
 ### Hukomboa
 
-Kukomboa ni sawa na Valency na Pembejeo za Kazi. Zinaonekana tu katika Viendelezi vya Jimbo, kwani hapa ndipo Valency iliyofafanuliwa hapo awali inawezeshwa. Redeem ina sehemu mbili:
+Kukomboa ni sawa na Valency na Pembejeo za Kazi. Zinaonekana tu katika State Extension, kwani hapa ndipo Valency iliyofafanuliwa hapo awali inawezeshwa. Redeem ina sehemu mbili:
 
 
 - `PrevOpId` : `OpId` ya operesheni ambapo Valency ilibainishwa;
@@ -1687,7 +1687,7 @@ Kusukuma nyuma kunamaanisha kuwa sheria halali ya hapo awali inakuwa batili. Kwa
 - Tunaweza kuzingatia kwamba kwa kweli tunaunda protocol mpya: yeyote anayechukua sheria mpya anaondoka kutoka kwa ile ya zamani;
 - Mtoaji anaweza kuamua kutoa tena mali katika protocol hii mpya, na kulazimisha watumiaji kudumisha pochi mbili tofauti (moja kwa protocol ya zamani, nyingine kwa mpya), ikiwa wanataka kudhibiti matoleo yote mawili.
 
-Katika sura hii kuhusu utendakazi wa RGB Contract, tumechunguza kanuni za msingi zinazotokana na protocol hii. Kama ulivyoona, utata wa asili wa RGB Protocol  unahitaji matumizi ya maneno mengi ya kiufundi. Kwa hivyo, katika sura inayofuata, nitakupa faharasa ambayo itafanya muhtasari wa dhana zote zilizojumuishwa katika sehemu hii ya kwanza ya kinadharia, pamoja na ufafanuzi wa maneno yote ya kiufundi yanayohusiana na RGB. Kisha, katika sehemu inayofuata, tutaangalia kwa vitendo ufafanuzi na utekelezaji wa mikataba ya RGB.
+Katika sura hii kuhusu utendakazi wa RGB Contract, tumechunguza kanuni za msingi zinazotokana na protocol hii. Kama ulivyoona, utata wa asili wa RGB Protocol  unahitaji matumizi ya maneno mengi ya kiufundi. Kwa hivyo, katika sura inayofuata, nitakupa faharasa ambayo itafanya muhtasari wa dhana zote zilizojumuishwa katika sehemu hii ya kwanza ya kinadharia, pamoja na ufafanuzi wa maneno yote ya kiufundi yanayohusiana na RGB. Kisha, katika sehemu inayofuata, tutaangalia kwa vitendo ufafanuzi na utekelezaji wa contracts za RGB.
 
 ## RGB Glossary
 
@@ -1697,7 +1697,7 @@ Iwapo unahitaji kurejea faharasa hii fupi ya maneno muhimu ya kiufundi yanayotum
 
 #### AluVM
 
-Kifupi cha AluVM kinasimama kwa "_Algorithmic logic unit Virtual Machine_", mashine pepe ya msingi ya rejista iliyoundwa kwa ajili ya uthibitishaji wa Smart contract na kompyuta iliyosambazwa. Inatumika (lakini haijahifadhiwa pekee) kwa uthibitishaji wa mikataba ya RGB. Hati au shughuli zilizojumuishwa katika RGB Contract zinaweza kutekelezwa katika mazingira ya AluVM.
+Kifupi cha AluVM kinasimama kwa "_Algorithmic logic unit Virtual Machine_", mashine pepe ya msingi ya rejista iliyoundwa kwa ajili ya uthibitishaji wa Smart contract na kompyuta iliyosambazwa. Inatumika (lakini haijahifadhiwa pekee) kwa uthibitishaji wa contracts ya RGB. Hati au shughuli zilizojumuishwa katika RGB Contract zinaweza kutekelezwa katika mazingira ya AluVM.
 
 Kwa habari zaidi: [Tovuti rasmi ya AluVM](https://www.AluVM.org/)
 
@@ -1796,7 +1796,7 @@ Contract Participant ni mwigizaji anayeshiriki katika shughuli zinazohusiana na 
 
 - Mtoaji wa Contract, ambayo inaunda Genesis (asili ya Contract);
 - Vyama vya Contract, yaani wamiliki wa haki za serikali ya Contract;
-- Vyama vya umma, vinavyoweza kujenga Viendelezi vya Jimbo ikiwa Contract inatoa Valencies zinazoweza kufikiwa na umma.
+- Vyama vya umma, vinavyoweza kujenga State Extension ikiwa Contract inatoa Valencies zinazoweza kufikiwa na umma.
 
 #### Contract Rights
 
@@ -1804,7 +1804,7 @@ Contract Rights inarejelea haki mbalimbali zinazoweza kutumiwa na wale wanaohusi
 
 
 - **Haki za Ownership**, zinazohusishwa na Ownership ya UTXO fulani (kupitia _Seal Definition_);
-- **Haki za utendaji**, yaani uwezo wa kujenga mpito mmoja au zaidi (Mipito ya Jimbo) kwa mujibu wa Schema;
+- **Haki za utendaji**, yaani uwezo wa kujenga mpito mmoja au zaidi (State transition) kwa mujibu wa Schema;
 - **Haki za umma**, Schema inapoidhinisha matumizi fulani ya umma, kwa mfano kuunda State Extension kupitia ukombozi wa Valency.
 
 #### Contract State
@@ -1813,7 +1813,7 @@ Contract State inalingana na hali ya sasa ya Contract kwa wakati fulani. Inaweza
 
 
 - **Global State**, ambayo inajumuisha mali ya umma ya Contract (imewekwa katika Genesis au kuongezwa kupitia masasisho yaliyoidhinishwa);
-- **Nchi Zinazomilikiwa**, ambazo ni za wamiliki mahususi, zinazotambuliwa na UTXOs zao.
+- **Owned States**, ambazo ni za wamiliki mahususi, zinazotambuliwa na UTXOs zao.
 
 #### Deterministic Bitcoin Commitment - DBC
 
@@ -1827,7 +1827,7 @@ Mbinu hizi hufafanua kwa usahihi jinsi _commitmeny_ inavyosimbwa katika utoaji a
 
 #### Directed Acyclic Graph - DAG
 
-DAG (au *Acyclic Guided Graph*) ni grafu isiyo na mzunguko, inayowezesha uratibu wa kitolojia. Blockchains, kama _shards_ ya mikataba ya RGB, inaweza kuwakilishwa na DAG.
+DAG (au *Acyclic Guided Graph*) ni grafu isiyo na mzunguko, inayowezesha uratibu wa kitolojia. Blockchains, kama _shards_ ya contracts ya RGB, inaweza kuwakilishwa na DAG.
 
 Kwa maelezo zaidi: [Directed Acyclic Graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph)
 
@@ -1868,7 +1868,7 @@ Kwa habari zaidi juu ya jinsi Lightning inavyofanya kazi, ninapendekeza uchukue 
 https://planb.academy/courses/34bd43ef-6683-4a5c-b239-7cb1e40a4aeb
 #### Multi Protocol Commitment - MPC
 
-Multi Protocol Commitment (MPC) inarejelea muundo wa Merkle Tree unaotumika katika RGB kujumuisha, ndani ya muamala mmoja wa Bitcoin, **Vifungu vingi vya Mpito** kutoka kwa mikataba tofauti. Wazo ni kuweka pamoja commitment kadhaa (zinazoweza kuendana na mikataba tofauti au mali tofauti) katika sehemu moja ya Anchor ili kuboresha ukaliaji wa nafasi ya kuzuia.
+Multi Protocol Commitment (MPC) inarejelea muundo wa Merkle Tree unaotumika katika RGB kujumuisha, ndani ya muamala mmoja wa Bitcoin, **Vifungu vingi vya Mpito** kutoka kwa contracts tofauti. Wazo ni kuweka pamoja commitment kadhaa (zinazoweza kuendana na contracts tofauti au mali tofauti) katika sehemu moja ya Anchor ili kuboresha ukaliaji wa nafasi ya kuzuia.
 
 #### Owned State
 
@@ -1918,7 +1918,7 @@ Seal Definition ni sehemu ya Assignment inayohusisha _commitment_ na UTXO inayom
 
 #### Shard
 
-Shard inawakilisha tawi katika DAG ya historia ya Mpito ya Jimbo ya RGB Contract. Kwa maneno mengine, ni sehemu ndogo ya jumla ya historia ya Contract, inayolingana, kwa mfano, na mlolongo wa mabadiliko yanayohitajika ili kuthibitisha uhalali wa mali fulani tangu _Mwanzo_.
+Shard inawakilisha tawi katika DAG ya historia ya State transition ya RGB Contract. Kwa maneno mengine, ni sehemu ndogo ya jumla ya historia ya Contract, inayolingana, kwa mfano, na mlolongo wa mabadiliko yanayohitajika ili kuthibitisha uhalali wa mali fulani tangu _Mwanzo_.
 
 #### Single-Use Seal
 
@@ -1946,7 +1946,7 @@ Terminal Consignment (au _Consignment Endpoint_) ni *uhamisho Consignment* iliyo
 
 #### Transition Bundle
 
-Transition Bundle ni seti ya Mabadiliko ya Jimbo la RGB (ya Contract sawa) ambayo yote yanahusika katika ***Witness Transaction*** Bitcoin sawa. Hii inafanya uwezekano wa kuunganisha masasisho au uhamisho kadhaa kwenye On-Chain Anchor moja.
+Transition Bundle ni seti ya State transition la RGB (ya Contract sawa) ambayo yote yanahusika katika ***Witness Transaction*** Bitcoin sawa. Hii inafanya uwezekano wa kuunganisha masasisho au uhamisho kadhaa kwenye On-Chain Anchor moja.
 
 #### UTXO
 
@@ -1964,7 +1964,7 @@ Witness Transaction ni shughuli ya Bitcoin inayofunga Single-Use Seal karibu na 
 
 <partId>148a7436-d079-56d9-be08-aaa4c14c6b3a</partId>
 
-## Utekelezaji wa mikataba ya RGB
+## Utekelezaji wa contracts za RGB
 
 <chapterId>8333ea5f-51c7-5dd5-b1d7-47d491e58e51</chapterId>
 
@@ -2033,11 +2033,11 @@ Katika sehemu iliyotangulia, tuliona kwamba katika mfumo wa ikolojia wa RGB, Con
 Schema inaweza kulinganishwa na "darasa" katika upangaji unaolenga kitu (OOP). Kwa ujumla, hutumika kama kielelezo kinachofafanua vipengele vya Contract, kama vile:
 
 
-- Aina tofauti za Nchi Zinazomilikiwa na Kazi;
+- Aina tofauti za Owned States na Kazi;
 - Valencies, yaani, haki maalum ambazo zinaweza kuanzishwa (*kombolewa*) kwa shughuli fulani;
 - Sehemu za Global State, ambazo zinaelezea mali ya kimataifa, ya umma na ya pamoja ya Contract;
 - Muundo wa Genesis (operesheni ya kwanza kabisa ambayo inawasha Contract);
-- Aina zinazoruhusiwa za Mpito za Jimbo na Viendelezi vya Jimbo, na jinsi shughuli hizi zinaweza kurekebisha;
+- Aina zinazoruhusiwa za State transition na State extension, na jinsi shughuli hizi zinaweza kurekebisha;
 - Metadata inayohusishwa na kila operesheni, kuhifadhi maelezo ya muda au ya ziada;
 - Sheria zinazobainisha jinsi data ya ndani ya Contract inaweza kubadilika (kwa mfano, ikiwa sehemu inaweza kubadilika au kuongezwa);
 - Misururu ya utendakazi inachukuliwa kuwa halali: kwa mfano, agizo la mpito la kuheshimiwa au seti ya masharti ya kimantiki ya kutimizwa.
@@ -2049,7 +2049,7 @@ Wakati *mtoaji* wa mali kwenye RGB anachapisha Contract, hutoa Genesis na Schema
 Hatua ya kwanza, kwa mtu yeyote anayepokea taarifa kuhusu mali ya RGB (k.m. uhamisho wa tokeni), ni kuthibitisha maelezo haya dhidi ya Schema. Hii inajumuisha kutumia mkusanyiko wa Schema kwa:
 
 
-- Hakikisha kuwa Nchi Zinazomilikiwa, Kazi na Elements nyingine zimefafanuliwa kwa usahihi na kwamba zinaheshimu aina zilizowekwa (kinachojulikana kama *mfumo wa aina kali*);
+- Hakikisha kuwa Owned States, Kazi na Elements nyingine zimefafanuliwa kwa usahihi na kwamba zinaheshimu aina zilizowekwa (kinachojulikana kama *mfumo wa aina kali*);
 - Hakikisha kuwa sheria za mpito (hati za uthibitishaji) zimeridhika. Maandishi haya yanaweza kuendeshwa kupitia AluVM, ambayo iko kwa client side na ina jukumu la kuthibitisha uthabiti wa Business Logic (kiasi cha uhamisho, hali maalum, nk).
 
 Kwa mazoezi, Schema sio msimbo unaoweza kutekelezwa, kama inavyoonekana katika blockchains ambazo huhifadhi msimbo wa On-Chain (EVM kwenye Ethereum). Kinyume chake, RGB hutenganisha Business Logic (declarative) kutoka kwa msimbo unaoweza kutekelezwa kwenye Blockchain (ambayo ni mdogo kwa nanga za siri). Kwa hivyo, Schema huamua sheria, lakini matumizi ya sheria hizi hufanyika nje ya Blockchain, kwenye tovuti ya kila mshiriki, kulingana na kanuni ya Client-side Validation.
@@ -2059,10 +2059,10 @@ Schema lazima iundwe kabla ya kutumiwa na programu za RGB. Mkusanyiko huu hutoa 
 
 - Jinsi kila aina ya data (integers, miundo, arrays...) inaonekana kama shukrani kwa mfumo wa aina kali;
 - Jinsi Genesis inapaswa kupangwa (kuelewa uanzishaji wa mali);
-- Aina tofauti za utendakazi (Mipito ya Jimbo, Viendelezi vya Jimbo) na jinsi zinavyoweza kurekebisha hali ;
+- Aina tofauti za utendakazi (State transition, State extension) na jinsi zinavyoweza kurekebisha hali ;
 - Sheria za uandishi (zilizoletwa katika Schema) ambazo injini ya AluVM itatumika ili kuangalia uhalali wa shughuli.
 
-Kama ilivyoelezwa katika sura zilizopita, *mfumo wa aina kali* hutupatia umbizo la usimbaji dhabiti na dhabiti: anuwai zote, ziwe Nchi Zinazomilikiwa, Mataifa ya Ulimwenguni au Dhamana, zimefafanuliwa kwa usahihi (ukubwa, mipaka ya chini na ya juu ikiwa ni lazima, aina iliyotiwa sahihi au isiyotiwa saini, n.k.). Pia inawezekana kufafanua miundo ya kiota, kwa mfano kusaidia kesi za matumizi tata.
+Kama ilivyoelezwa katika sura zilizopita, *mfumo wa aina kali* hutupatia umbizo la usimbaji dhabiti na dhabiti: anuwai zote, ziwe Owned States, Mataifa ya Ulimwenguni au Dhamana, zimefafanuliwa kwa usahihi (ukubwa, mipaka ya chini na ya juu ikiwa ni lazima, aina iliyotiwa sahihi au isiyotiwa saini, n.k.). Pia inawezekana kufafanua miundo ya kiota, kwa mfano kusaidia kesi za matumizi tata.
 
 Kwa hiari, Schema inaweza kurejelea mzizi `SchemaId`, ambayo hurahisisha utumiaji tena wa muundo msingi uliopo (kiolezo). Kwa njia hii, unaweza kubadilisha Contract au kuunda tofauti (k.m. aina mpya ya ishara) kutoka kwa kiolezo kilichothibitishwa tayari. Utaratibu huu unaepuka hitaji la kuunda upya contracts nzima, na kuhimiza kusawazisha mbinu bora.
 
@@ -2089,7 +2089,7 @@ Kisha hufanya Schema iliyokusanywa (faili ya `.RGB`) ipatikane kwa watumiaji, il
 
 Kwa hivyo wakati Wallet mpya inataka kusaidia mali, inahitaji tu kujumuisha Schema husika. Utaratibu huu unawezesha kuongeza uoanifu kwa aina mpya za vipengee vya RGB, bila kubadilisha kwa uvamizi msingi wa programu ya Wallet: kinachohitajika ni kuleta binary ya Schema na kuelewa muundo wake.
 
-Schema inafafanua Business Logic katika RGB. Inaorodhesha sheria za mageuzi za Contract, muundo wa data yake (Mataifa Yanayomilikiwa, Global State, Valencies) na hati zinazohusiana za uthibitishaji (zinazoweza kutekelezwa na AluVM). Shukrani kwa hati hii ya kutangaza, ufafanuzi wa Contract (faili iliyokusanywa) imetenganishwa wazi na utekelezaji halisi wa sheria (client side). Utengano huu huipa RGB unyumbulifu mkubwa, kuwezesha matukio mbalimbali ya utumiaji (tokeni zinazoweza kuvurugika, NFT, mikataba ya kisasa zaidi) huku ikiepuka ugumu na dosari za kawaida za minyororo ya On-Chain inayoweza kuratibiwa.
+Schema inafafanua Business Logic katika RGB. Inaorodhesha sheria za mageuzi za Contract, muundo wa data yake (Mataifa Yanayomilikiwa, Global State, Valencies) na hati zinazohusiana za uthibitishaji (zinazoweza kutekelezwa na AluVM). Shukrani kwa hati hii ya kutangaza, ufafanuzi wa Contract (faili iliyokusanywa) imetenganishwa wazi na utekelezaji halisi wa sheria (client side). Utengano huu huipa RGB unyumbulifu mkubwa, kuwezesha matukio mbalimbali ya utumiaji (tokeni zinazoweza kuvurugika, NFT, contracts za kisasa zaidi) huku ikiepuka ugumu na dosari za kawaida za minyororo ya On-Chain inayoweza kuratibiwa.
 
 #### Mfano wa Schema
 
@@ -2099,9 +2099,9 @@ Kabla ya kupiga mbizi kwenye nambari, inafaa kukumbuka muundo wa jumla wa RGB Sc
 
 
 - `SchemaId` inayowezekana inayoonyesha matumizi ya Schema nyingine ya msingi kama kiolezo;
-- **Mataifa ya Ulimwenguni** na **Nchi Zinazomilikiwa** (pamoja na aina zao kali);
+- **Mataifa ya Ulimwenguni** na **Owned States** (pamoja na aina zao kali);
 - **Valencies** (kama ipo);
-- **Operesheni** (Genesis, Mipito ya Jimbo, Viendelezi vya Jimbo) inayoweza kurejelea majimbo na wawakilishi hawa;
+- **Operesheni** (Genesis,State transition, State extension) inayoweza kurejelea states na wawakilishi hawa;
 - **Mfumo wa Aina Madhubuti** unaotumika kuelezea na kuthibitisha data;
 - **Hati za uthibitishaji** (huendesha kupitia AluVM).
 
@@ -2201,7 +2201,7 @@ Neno kuu `mara moja(...)` linamaanisha kuwa kila moja ya sehemu hizi inaweza kuo
 
 - (4) - Aina zinazomilikiwa
 
-Katika `aina_zinazomilikiwa`, tunatangaza `OS_ASSET`, ambayo inaelezea hali ya kutambulika. Tunatumia `Mtindo wa Jimbo::Fungible(FungibleType::Unsigned64Bit)`, ikionyesha kwamba idadi ya mali (tokeni) imehifadhiwa kama nambari kamili ya biti 64 isiyotiwa saini. Kwa hivyo, shughuli yoyote itatuma kiasi fulani cha vitengo vya ishara hii, ambayo itathibitishwa kulingana na muundo huu wa nambari uliochapwa madhubuti.
+Katika `aina_zinazomilikiwa`, tunatangaza `OS_ASSET`, ambayo inaelezea hali ya kutambulika. Tunatumia `StateSchema::Fungible(FungibleType::Unsigned64Bit)`, ikionyesha kwamba idadi ya mali (tokeni) imehifadhiwa kama nambari kamili ya biti 64 isiyotiwa saini. Kwa hivyo, shughuli yoyote itatuma kiasi fulani cha vitengo vya ishara hii, ambayo itathibitishwa kulingana na muundo huu wa nambari uliochapwa madhubuti.
 
 
 - (5) - **Wasifu**
@@ -2224,7 +2224,7 @@ Hivi ndivyo tunavyowekea kikomo ufafanuzi wa suala la tokeni la awali: ni lazima
 
 - (7) - Viendelezi
 
-Sehemu ya `viendelezi: hakuna!()` inaonyesha kuwa hakuna ugani wa State inayotarajiwa katika Contract hii. Hii ina maana kwamba hakuna operesheni kwa Redeem haki ya dijiti (Valency) au kutekeleza State Extension kabla ya Mpito. Kila kitu kinafanywa kupitia Genesis au Mpito wa Jimbo.
+Sehemu ya `viendelezi: hakuna!()` inaonyesha kuwa hakuna ugani wa State inayotarajiwa katika Contract hii. Hii ina maana kwamba hakuna operesheni kwa Redeem haki ya dijiti (Valency) au kutekeleza State Extension kabla ya Mpito. Kila kitu kinafanywa kupitia Genesis au State transition.
 
 
 - (8) - Mpito: TS_TRANSFER
@@ -2234,7 +2234,7 @@ Katika `mipito`, tunafafanua `TS_TRANSFER` aina ya operesheni. Tunaeleza kwamba:
 
 - Haina metadata;
 - Haibadilishi Global State (ambayo tayari imefafanuliwa katika Genesis);
-- Inachukua `OS_ASSETs` moja au zaidi kama ingizo. Hii ina maana ni lazima itumie Nchi Zinazomilikiwa zilizopo;
+- Inachukua `OS_ASSETs` moja au zaidi kama ingizo. Hii ina maana ni lazima itumie Owned States zilizopo;
 - Huunda (`kazi`) angalau `OS_ASSET` moja mpya (kwa maneno mengine, mpokeaji au wapokeaji hupokea tokeni);
 - Haizalishi Valency mpya.
 
@@ -2266,7 +2266,7 @@ Interface ni Layer iliyoundwa kufanya Contract isomeke na iweze kubadilishwa, na
 Tofauti na Schema, ambayo ni ya kutangaza na kukusanywa kuwa faili ya binary ambayo ni ngumu kutumia kama ilivyo, Interface hutoa funguo za kusoma zinazohitajika:
 
 
-- Orodhesha na ueleze Majimbo na Nchi Zinazomilikiwa zilizojumuishwa katika Contract;
+- Orodhesha na ueleze States na Owned states zilizojumuishwa katika Contract;
 - Fikia majina na thamani za kila uga, ili ziweze kuonyeshwa (k.m. kwa ishara, tafuta ticker yake, kiwango cha juu zaidi, nk);
 - Tafsiri na uunde Uendeshaji wa Contract (Genesis, State Transition, au State Extension) kwa kuhusisha data na majina yanayoeleweka (k.m., fanya uhamishaji kwa kubainisha kwa uwazi "kiasi" badala ya kitambulishi jozi).
 
@@ -2303,7 +2303,7 @@ Contract hiyo hiyo inaweza kufichuliwa kupitia Violesura tofauti vilivyorekebish
 Kiutendaji, Wallet inaporejesha RGB Contract (kupitia faili ya `.RGB` au `.rgba`), pia huingiza Interface inayohusishwa, ambayo pia imeundwa. Wakati wa kukimbia, Wallet inaweza, kwa mfano:
 
 
-- Vinjari orodha ya majimbo na usome majina yao, ili kuonyesha Ticker, Kiasi cha Awali, Tarehe ya Kutolewa, n.k. kwa mtumiaji Interface, badala ya kitambulishi cha nambari kisichoweza kusomeka;
+- Vinjari orodha ya state na usome majina yao, ili kuonyesha Ticker, Kiasi cha Awali, Tarehe ya Kutolewa, n.k. kwa mtumiaji Interface, badala ya kitambulishi cha nambari kisichoweza kusomeka;
 - Tengeneza utendakazi (kama vile uhamisho) kwa kutumia majina ya vigezo dhahiri: badala ya kuandika `kazi { OS_ASSET => 1 }`, inaweza kumpa mtumiaji sehemu ya "Kiasi" katika fomu, na kutafsiri maelezo haya katika sehemu zilizochapwa kwa ukali zinazotarajiwa na Contract.
 
 #### Tofauti na Ethereum na mifumo mingine
@@ -2337,7 +2337,7 @@ Kama ukumbusho, wazo ni kwamba kila Interface inaeleza jinsi ya kuonyesha na kue
 
 Kwa mfano, RGB20 Interface inaweza kuunganishwa kwa **mpango wa Mali Isiyoweza Kuingiliwa (NIA)**, ambao unaweka Supply ya awali isiyoweza kupunguka, au kwa miradi mingine ya juu zaidi inavyohitajika.
 
-**RGB21** inahusu mikataba ya aina ya NFT, au kwa upana zaidi, maudhui yoyote ya kipekee ya kidijitali, kama vile uwakilishi wa vyombo vya habari dijitali (picha, muziki, n.k.). Mbali na kuelezea suala na uhamisho wa mali moja, inajumuisha vipengele kama vile:
+**RGB21** inahusu contracts za aina ya NFT, au kwa upana zaidi, maudhui yoyote ya kipekee ya kidijitali, kama vile uwakilishi wa vyombo vya habari dijitali (picha, muziki, n.k.). Mbali na kuelezea suala na uhamisho wa mali moja, inajumuisha vipengele kama vile:
 
 
 - Usaidizi uliojumuishwa wa kuingizwa moja kwa moja kwa faili (hadi MB 16) katika Contract (kwa ajili ya kurejesha client side);
@@ -2354,7 +2354,7 @@ Violesura vingine vimepangwa kwa matumizi maalum zaidi, lakini bado havijapatika
 - **RGB23**, kwa upigaji chapa wa muda wa juu, kwa kutumia baadhi ya mawazo ya *Opentimestamps*, lakini yenye vipengele vya ufuatiliaji;
 - **RGB24**, ambayo inalenga sawa na mfumo wa jina la kikoa uliogatuliwa (DNS) sawa na *Huduma ya Jina la Ethereum* ;
 - **RGB26**, iliyoundwa ili kudhibiti DAO (*Shirika Linalojiendesha Lililogatuliwa*) katika muundo changamano zaidi (utawala, upigaji kura, n.k.);
-- **RGB30**, sawa na RGB20 lakini kwa umaalum wa kuzingatia utoaji wa awali uliogatuliwa na kutumia Viendelezi vya Jimbo. Hii itatumika kwa mali ambazo utoaji upya unadhibitiwa na vyombo kadhaa, au chini ya masharti bora zaidi.
+- **RGB30**, sawa na RGB20 lakini kwa umaalum wa kuzingatia utoaji wa awali uliogatuliwa na kutumia Viendelezi vya State. Hii itatumika kwa mali ambazo utoaji upya unadhibitiwa na vyombo kadhaa, au chini ya masharti bora zaidi.
 
 Bila shaka, kulingana na tarehe ambayo unashauriana na kozi hii, miingiliano hii inaweza kuwa tayari kufanya kazi na kufikiwa.
 
@@ -2527,7 +2527,7 @@ type_system: types.type_system(),
 }
 ```
 
-Katika Interface hii, tunaona kufanana na muundo wa Schema: tunapata tamko la Global State, Nchi Zinazomilikiwa, Contract Operesheni (Genesis na Transitions), pamoja na kushughulikia makosa. Lakini Interface inaangazia uwasilishaji na upotoshaji wa hizi Elements kwa Wallet au programu nyingine yoyote.
+Katika Interface hii, tunaona kufanana na muundo wa Schema: tunapata tamko la Global State, Owned States, Contract Operesheni (Genesis na Transitions), pamoja na kushughulikia makosa. Lakini Interface inaangazia uwasilishaji na upotoshaji wa hizi Elements kwa Wallet au programu nyingine yoyote.
 
 Tofauti na Schema iko katika asili ya aina. Schema hutumia aina kali (kama vile `FungibleType::Unsigned64Bit`) na vitambulishi zaidi vya kiufundi. Interface hutumia majina ya sehemu, macros (`fname!()`, `tn!()`), na marejeleo ya madarasa ya hoja (`ArgSpec`, `OwnedIface::Rights`...). Lengo hapa ni kuwezesha uelewa wa kiutendaji na mpangilio wa Elements kwa Wallet.
 
@@ -2548,7 +2548,7 @@ Katika sehemu ya `kazi`, tunafafanua majukumu au haki mbalimbali. Kwa mfano:
 - `burnRight` inalingana na uwezo wa kuchoma tokeni;
 - `updateRight` inalingana na haki ya kubadilisha jina la mali.
 
-Neno kuu la `umma` au `la faragha` (k.m. `AssignIface::public(...)`) linaonyesha kama majimbo haya yanaonekana (`umma`) au ya siri (`binafsi`). Kuhusu `Req::NoneAuMore`, `Req::Hiari`, zinaonyesha tukio linalotarajiwa.
+Neno kuu la `umma` au `la faragha` (k.m. `AssignIface::public(...)`) linaonyesha kama states hizi zinaonekana (`umma`) au ya siri (`binafsi`). Kuhusu `Req::NoneAuMore`, `Req::Hiari`, zinaonyesha tukio linalotarajiwa.
 
 #### Genesis na mabadiliko
 
@@ -2669,15 +2669,15 @@ Katika sura hii, tutachambua mchakato wa uhamisho wa Contract katika mfumo ikolo
 
 Hebu tuchukue mfano wa uhamisho kati ya Alice na Bob. Katika mfano huu, tunadhania kwamba Bob anaanza kutumia RGB, wakati Alice tayari ana mali ya RGB katika Wallet yake. Tutaona jinsi Bob anavyoweka mazingira yake, kuingiza Contract husika, kisha kuomba uhamisho kutoka kwa Alice, na hatimaye jinsi Alice anavyotekeleza shughuli halisi kwenye Bitcoin Blockchain.
 
-#### 1) Kufunga RGB Wallet
+#### 1) Kufungua RGB Wallet
 
-Kwanza kabisa, Bob anahitaji kusakinisha RGB Wallet, yaani programu inayoendana na protocol. Hii haina mikataba yoyote mwanzoni. Bob pia atahitaji:
+Kwanza kabisa, Bob anahitaji kusakinisha RGB Wallet, yaani programu inayoendana na protocol. Hii haina contracts zozoote mwanzoni. Bob pia atahitaji:
 
 
 - Bitcoin Wallet ya kusimamia UTXO zako;
 - Muunganisho kwa node ya Bitcoin (au kwa seva ya Electrum), ili uweze kutambua UTXO zako na kueneza miamala yako kwenye mtandao.
 
-Kama ukumbusho, **Nchi Zinazomilikiwa** katika RGB rejea Bitcoin UTXOs. Kwa hivyo ni lazima tuweze kudhibiti na kutumia UTXO kila wakati katika muamala wa Bitcoin unaojumuisha cryptographic commitment (`Tapret` au `Opret`) inayoelekeza kwenye data ya RGB.
+Kama ukumbusho, **Owned States** katika RGB rejea Bitcoin UTXOs. Kwa hivyo ni lazima tuweze kudhibiti na kutumia UTXO kila wakati katika muamala wa Bitcoin unaojumuisha cryptographic commitment (`Tapret` au `Opret`) inayoelekeza kwenye data ya RGB.
 
 #### 2) Upataji wa habari wa Contract
 
@@ -2900,7 +2900,7 @@ Hebu tuchambue URL hii:
 
 Ukweli kwamba kila kitu kinafaa katika URL moja hurahisisha maisha kwa mtumiaji: kubofya au kuchanganua rahisi katika Wallet, na operesheni iko tayari kutekelezwa.
 
-Mtu anaweza kufikiria mifumo ambapo kiweka tiki rahisi (k.m. `USDT`) kinatumika badala ya `ContractId`. Hata hivyo, hii inaweza kuibua matatizo makubwa ya uaminifu na usalama: ticker si rejeleo la kipekee (mikataba kadhaa inaweza kudai kuitwa `USDT`). Tukiwa na RGB, tunataka kitambulishi cha kipekee kisicho na utata. Kwa hivyo kupitishwa kwa mfuatano wa 256-bit, uliosimbwa katika base58 na kugawanywa. Mtumiaji anajua kwamba anadanganya kwa usahihi Contract ambayo kitambulisho chake ni `2WBcas9-yjz...` na si nyingine yoyote.
+Mtu anaweza kufikiria mifumo ambapo kiweka tiki rahisi (k.m. `USDT`) kinatumika badala ya `ContractId`. Hata hivyo, hii inaweza kuibua matatizo makubwa ya uaminifu na usalama: ticker si rejeleo la kipekee (contracts kadhaa inaweza kudai kuitwa `USDT`). Tukiwa na RGB, tunataka kitambulishi cha kipekee kisicho na utata. Kwa hivyo kupitishwa kwa mfuatano wa 256-bit, uliosimbwa katika base58 na kugawanywa. Mtumiaji anajua kwamba anadanganya kwa usahihi Contract ambayo kitambulisho chake ni `2WBcas9-yjz...` na si nyingine yoyote.
 
 #### Vigezo vya ziada vya URL
 
@@ -2951,13 +2951,13 @@ Kwa mfano, Wallet inaweza kusoma: "Nimeombwa kutekeleza oparesheni `suala` kutok
 
 Sasa kwa kuwa tumeangalia Elements kuu ya utayarishaji wa RGB, nitakupitisha katika sura inayofuata ya jinsi ya kuchora RGB Contract.
 
-## Kuandaa mikataba mahiri
+## Kuandaa contracts mahiri
 
 <chapterId>0e0a645c-0049-588d-8965-b8c536590cc9</chapterId>
 
 :::video id=a3ad6dcd-90b8-4272-9dfc-76c85c859167:::
 
-Katika sura hii, tutachukua mbinu ya hatua kwa hatua ya kuandika Contract, kwa kutumia zana ya mstari wa amri `RGB`. Lengo ni kuonyesha jinsi ya kusakinisha na kuendesha CLI, kukusanya **Schema**, kuagiza **Interface** na **Interface Implementation**, kisha kutoa (*toleo*) mali. Pia tutaangalia mantiki ya msingi, ikiwa ni pamoja na mkusanyiko na uthibitishaji wa hali. Kufikia mwisho wa sura hii, unapaswa kuwa na uwezo wa kuzalisha mchakato na kuunda mikataba yako mwenyewe ya RGB.
+Katika sura hii, tutachukua mbinu ya hatua kwa hatua ya kuandika Contract, kwa kutumia zana ya mstari wa amri `RGB`. Lengo ni kuonyesha jinsi ya kusakinisha na kuendesha CLI, kukusanya **Schema**, kuagiza **Interface** na **Interface Implementation**, kisha kutoa (*toleo*) mali. Pia tutaangalia mantiki ya msingi, ikiwa ni pamoja na mkusanyiko na uthibitishaji wa hali. Kufikia mwisho wa sura hii, unapaswa kuwa na uwezo wa kuzalisha mchakato na kuunda contracts yako mwenyewe ya RGB.
 
 Kama ukumbusho, mantiki ya ndani ya RGB inategemea contract za Rust ambazo wewe, kama wasanidi, unaweza kuingiza katika miradi yako ili kudhibiti sehemu ya Client-side Validation. Kwa kuongeza, timu ya Chama cha LNP/BP inashughulikia masuala ya kuunganisha lugha nyingine, lakini hili bado halijakamilika. Kwa kuongezea, huluki zingine kama vile Bitfinex zinatengeneza safu zao za ujumuishaji (tutazungumza juu ya haya katika sura 2 za mwisho za kozi). Kwa wakati huu, kwa hivyo, `RGB` CLI ndiyo marejeleo rasmi, hata kama haijasafishwa kwa kiasi.
 
@@ -3123,7 +3123,7 @@ rgb contracts
 
 ![RGB-Bitcoin](assets/en/087.webp)
 
-Kisha, amri inayofuata inaonyesha mataifa ya kimataifa (jina, tiki, Supply...) na orodha ya Nchi Zinazomilikiwa, yaani mgao (kwa mfano, tokeni za `Plan ₿ Academy` milioni 1 zilizofafanuliwa katika UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
+Kisha, amri inayofuata inaonyesha mataifa ya kimataifa (jina, tiki, Supply...) na orodha ya Owned States, yaani mgao (kwa mfano, tokeni za `Plan ₿ Academy` milioni 1 zilizofafanuliwa katika UTXO `b449f7eaa3f98c145b27ad0eeb7b5679ceb567faef7a52479bc995792b65f804:1`).
 
 ```bash
 rgb state '<ContractId>'
@@ -3157,7 +3157,7 @@ rgb validate myContract.rgb
 
 #### Matumizi ya Stash, uthibitishaji na maonyesho
 
-Kama ukumbusho, Stash ni orodha ya ndani ya schemas, miingiliano, utekelezaji na mikataba (Genesis + mabadiliko). Kila wakati unapoendesha "kuagiza", unaongeza kipengee kwenye Stash. Stash hii inaweza kutazamwa kwa undani na amri:
+Kama ukumbusho, Stash ni orodha ya ndani ya schemas, miingiliano, utekelezaji na contracts (Genesis + mabadiliko). Kila wakati unapoendesha "kuagiza", unaongeza kipengee kwenye Stash. Stash hii inaweza kutazamwa kwa undani na amri:
 
 ```bash
 rgb dump
@@ -3466,7 +3466,7 @@ Wakati huo huo, tunashughulikia **WebBTC** au **WebLN** (viwango vinavyowezesha 
 
 ### Hitimisho
 
-Mchakato mzima unaonyesha jinsi mfumo ikolojia wa RGB unavyoweza kutumwa na kupatikana kwa watumiaji wa mwisho kupitia suluhu thabiti za kiufundi. Mpito kutoka kwa mtazamo wa Altcoin hadi maono zaidi ya Bitcoin-centric, pamoja na ugunduzi wa *Client-side Validation*, unaonyesha njia ya kimantiki: tunaelewa kwamba inawezekana kutekeleza utendaji mbalimbali (ishara za kuvu, NFT, mikataba ya smart ...) bila kugawanya Client-side Validation kwa faida ya GW-215 kwa kutumia GW-215 kwa faida ya GW-215 kwa urahisi wa GW-215. shughuli au OP_RETURNs.
+Mchakato mzima unaonyesha jinsi mfumo ikolojia wa RGB unavyoweza kutumwa na kupatikana kwa watumiaji wa mwisho kupitia suluhu thabiti za kiufundi. Mpito kutoka kwa mtazamo wa Altcoin hadi maono zaidi ya Bitcoin-centric, pamoja na ugunduzi wa *Client-side Validation*, unaonyesha njia ya kimantiki: tunaelewa kwamba inawezekana kutekeleza utendaji mbalimbali (ishara za kuvu, NFT, smart contracts ...) bila kugawanya Client-side Validation kwa faida ya GW-215 kwa kutumia GW-215 kwa faida ya GW-215 kwa urahisi wa GW-215. shughuli au OP_RETURNs.
 
 **Bitmask** Wallet ni sehemu ya mbinu hii: kwa upande wa Blockchain, unachoona ni shughuli ya kawaida ya Bitcoin; kwa upande wa mtumiaji, unadhibiti mtandao wa Interface ambapo unaunda, Exchange na kuhifadhi kila aina ya vipengee vya off-chain. Mtindo huu kwa uwazi hutenganisha miundombinu ya fedha (Bitcoin) kutoka kwa mantiki ya utoaji na uhamisho (RGB), huku ukihakikisha kiwango cha juu cha usiri na uboreshaji bora.
 

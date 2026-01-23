@@ -6,3 +6,4 @@ wrong_answers:
   - Kunci publik terkompresi
 explanation: |
   Titik generator G dari kurva eliptik secp256k1 digunakan untuk menghitung kunci publik dari kunci privat.
+reviewed: true

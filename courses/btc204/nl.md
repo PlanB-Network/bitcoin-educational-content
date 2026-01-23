@@ -5044,7 +5044,7 @@ $$
 $$
 
 
-Met ECDH is het gebruik van XOR als versleuteling Layer bijzonder consistent. Ten eerste is de versleuteling dankzij deze operator symmetrisch. Dit betekent dat de ontvanger de betalingscode kan decoderen met dezelfde sleutel die is gebruikt voor de codering. De encryptie- en decryptiesleutels worden berekend op basis van het gedeelde geheim met behulp van ECDH. Deze symmetrie wordt mogelijk gemaakt door de commutativiteits- en associativiteitseigenschappen van de XOR-operator:
+Met ECDH is het gebruik van XOR als versleutelingslaag bijzonder consistent. Ten eerste is de versleuteling dankzij deze operator symmetrisch. Dit betekent dat de ontvanger de betalingscode kan decoderen met dezelfde sleutel die is gebruikt voor de codering. De encryptie- en decryptiesleutels worden berekend op basis van het gedeelde geheim met behulp van ECDH. Deze symmetrie wordt mogelijk gemaakt door de commutativiteits- en associativiteitseigenschappen van de XOR-operator:
 
 
 
@@ -5099,27 +5099,27 @@ D \oplus L = D \oplus (D \oplus E) = D \oplus D \oplus E = 0 \oplus E = E \\
 $$
 
 
-Ten tweede lijkt deze versleutelingsmethode erg op het Vernam (One-Time Pad) cijfer, het enige tot nu toe bekende versleutelingsalgoritme dat onvoorwaardelijke (of absolute) veiligheid biedt. Om Vernam's cijfer deze eigenschap te geven, moet de encryptiesleutel perfect willekeurig zijn, even groot als het bericht en slechts één keer gebruikt worden. In de vercijferingsmethode die hier wordt gebruikt voor BIP47 is de sleutel inderdaad even groot als het bericht en is de verblindingsfactor precies even groot als de aaneenschakeling van de abscis van de publieke sleutel met de stringcode van de betalingscode. Deze coderingssleutel wordt slechts één keer gebruikt. Aan de andere kant is deze sleutel niet afgeleid van een perfecte willekeur, aangezien het een HMAC is. Het is eerder pseudo-willekeurig. Het is dus geen Vernam-cijfer, maar de methode komt in de buurt.
+Ten tweede lijkt deze versleutelingsmethode erg op het Vernam (One-Time Pad) cijfer, het enige tot nu toe bekende versleutelingsalgoritme dat onvoorwaardelijke (of absolute) veiligheid biedt. Om het Vernam-cijfer deze eigenschap te geven, moet de encryptiesleutel perfect willekeurig zijn, even groot als het bericht en slechts één keer gebruikt worden. In de versleutelingsmethode die hier wordt gebruikt voor BIP47 is de sleutel inderdaad even groot als het bericht en is de verblindingsfactor precies even groot als de aaneenschakeling van de abscis van de publieke sleutel met de stringcode van de betalingscode. Deze coderingssleutel wordt slechts één keer gebruikt. Aan de andere kant is deze sleutel niet afgeleid van een perfecte willekeur , aangezien het een HMAC is. Het is eerder pseudo-willekeurig. Het is dus geen Vernam-cijfer, maar de methode komt in de buurt.
 
 
-### Ontvangst van melding transactie
+### Ontvangst van de kennisgevingstransactie
 
 
 Nu Alice de kennisgevingstransactie naar Bob heeft gestuurd, laten we eens kijken hoe Bob deze interpreteert. Ter herinnering, Bob moet toegang hebben tot Alice's betalingscode. Zonder deze informatie, zoals we in de volgende paragraaf zullen zien, zal hij niet in staat zijn om de sleutelparen af te leiden die Alice heeft gemaakt, en zal hij dus geen toegang hebben tot zijn bitcoins die hij via BIP47 heeft ontvangen. Op dit moment is de payload van Alice's betalingscode versleuteld. Laten we eens kijken hoe Bob het ontcijfert.
 
 
-**1-** Bob bewaakt transacties die outputs creëren met zijn melding adres.
+**1-** Bob monitort transacties die outputs creëren met zijn kennisgevingsadres.
 
 
-**2-** Wanneer een transactie een adres output op haar melding heeft, analyseert Bob deze om te zien of ze een OP_RETURN output bevat die voldoet aan de BIP47 standaard.
+**2-** Wanneer een transactie een output op zijn kennisgevingsadres heeft, analyseert Bob deze om te zien of deze een OP_RETURN output bevat die voldoet aan de BIP47 standaard.
 
 
-**3-** Als de eerste byte van de OP_RETURN payload `0x01` is, begint Bob zijn zoektocht naar een mogelijk geheim gedeeld met ECDH :
+**3-** Als de eerste byte van de OP_RETURN payload `0x01` is, begint Bob zijn zoektocht naar een mogelijk geheim gedeeld met ECDH:
 
 
 
 
-- Bob selecteert de openbare sleutel voor de transactie. Dat wil zeggen, Alice's openbare sleutel genaamd $A$ met :
+- Bob selecteert de openbare sleutel voor de transactie. Dat wil zeggen, Alice's openbare sleutel genaamd $A$ met:
 
 
 $$ A = a \dot G $$
@@ -5127,7 +5127,7 @@ $$ A = a \dot G $$
 
 
 
-- Bob selecteert de privésleutel $b$ die geassocieerd is met zijn persoonlijke melding adres :
+- Bob selecteert de privésleutel $b$ die geassocieerd is met zijn persoonlijke melding adres:
 
 
 $$ b $$
@@ -5149,12 +5149,12 @@ $$ S = b \dot A $$
 $$ f = \text{HMAC-SHA512}(o, x) $$
 
 
-**4-** Bob interpreteert de OP_RETURN gegevens in de kennisgevingstransactie als een betalingscode. Hij zal de payload van deze potentiële betaalcode eenvoudig ontsleutelen met behulp van de $f$ verblindingsfactor:
+**4-** Bob interpreteert de OP_RETURN-gegevens in de kennisgevingstransactie als een betalingscode. Hij zal de payload van deze potentiële betaalcode eenvoudig ontsleutelen met behulp van de $f$ verblindingsfactor:
 
 
 
 
-- Bob splitst de verblindingsfactor $f$ in 2 delen: de eerste 32 bytes van $f$ zijn $f1$ en de laatste 32 bytes zijn $f2$ ;
+- Bob splitst de verblindingsfactor $f$ in 2 delen: de eerste 32 bytes van $f$ zijn $f1$ en de laatste 32 bytes zijn $f2$;
 - Bob decodeert de waarde van de gecodeerde abscis $x'$ uit de openbare sleutel van de betalingscode van Alice:
 
 
@@ -5189,16 +5189,16 @@ Alice en Bob moeten daarom dezelfde waarde voor $f$ verkrijgen, zonder deze dire
 
 
 
-- de abscis van een geheim punt ;
-- en de UTXO verbruikt bij de transactie-ingang.
+- de abscis van een geheim punt;
+- en de UTXO verbruikt bij de transactie-input.
 
 
-Bob heeft daarom deze beide stukjes informatie nodig om de payload van Alice's betalingscode te ontsleutelen. Voor de input UTXO kan Bob deze eenvoudig achterhalen door de kennisgevingstransactie te observeren. Voor het geheime punt zal Bob ECDH moeten gebruiken. Zoals gezien in de vorige sectie over Diffie-Hellman, kunnen Alice en Bob door eenvoudigweg hun respectievelijke publieke sleutels uit te wisselen en in het geheim hun private sleutels toe te passen op elkaars publieke sleutel, een nauwkeurig geheim punt vinden op de elliptische curve. De kennisgevingstransactie is gebaseerd op dit mechanisme:
+Bob heeft daarom deze beide stukjes informatie nodig om de payload van Alice's betalingscode te ontsleutelen. Voor de input-UTXO kan Bob deze eenvoudig achterhalen door de kennisgevingstransactie te observeren. Voor het geheime punt zal Bob ECDH moeten gebruiken. Zoals gezien in de vorige sectie over Diffie-Hellman, kunnen Alice en Bob door eenvoudigweg hun respectievelijke publieke sleutels uit te wisselen en in het geheim hun private sleutels toe te passen op elkaars publieke sleutel, een nauwkeurig geheim punt vinden op de elliptische curve. De kennisgevingstransactie is gebaseerd op dit mechanisme:
 
 
 
 
-- Bob's sleutelpaar :
+- Bob's sleutelpaar:
 
 
 $$ B = b \dot G $$
@@ -5206,7 +5206,7 @@ $$ B = b \dot G $$
 
 
 
-- Alice's sleutelpaar :
+- Alice's sleutelpaar:
 
 
 $$ A = a \dot G $$
@@ -5214,7 +5214,7 @@ $$ A = a \dot G $$
 
 
 
-- Voor een geheim $S (x, y)$ :
+- Voor een geheim $S (x, y)$:
 
 
 $$ S = a \dot B = a \dot (b \dot G) = (b \dot a) \dot G = b \dot A $$
@@ -5231,11 +5231,11 @@ Ik zal de stappen samenvatten die we zojuist hebben gezien om een kennisgevingst
 
 
 
-- Bob controleert de output van transacties naar zijn melding adres;
-- Wanneer het er een detecteert, haalt het de informatie uit de OP_RETURN;
+- Bob controleert de output van transacties naar zijn kennisgevingsadres;
+- Wanneer hij er een detecteert, haalt hij de informatie uit de OP_RETURN;
 - Bob selecteert de openbare sleutel als input en berekent een geheim punt met ECDH ;
-- Het gebruikt dit geheime punt om een HMAC te berekenen, wat de verblindingsfactor is;
-- Het gebruikt deze verblindende factor om de betalingscode payload van Alice in OP_RETURN te ontsleutelen.
+- Hij gebruikt dit geheime punt om een HMAC te berekenen, wat de verblindingsfactor is;
+- Hij gebruikt deze verblindingsfactor om de payload van de betalingscode van Alice in OP_RETURN te ontsleutelen.
 
 
 ![BTC204](assets/nl/235.webp)
@@ -5244,13 +5244,13 @@ Ik zal de stappen samenvatten die we zojuist hebben gezien om een kennisgevingst
 ### De BIP47-betalingstransactie
 
 
-Laten we eens kijken naar het betalingsproces met BIP47. Om u te herinneren aan de huidige situatie :
+Laten we eens kijken naar het betalingsproces met BIP47. Om je te herinneren aan de huidige situatie :
 
 
 
 
 - Alice kent de betalingscode van Bob, die ze eenvoudigweg van zijn website heeft gehaald;
-- Bob kent de betalingscode van Alice van de aanmeldingstransactie;
+- Bob kent de betalingscode van Alice dankzij de kennisgevingsstransactie;
 - Alice doet haar eerste betaling aan Bob. Ze kan er op dezelfde manier nog veel meer doen.
 
 

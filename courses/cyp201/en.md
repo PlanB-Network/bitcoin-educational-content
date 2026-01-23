@@ -1,5 +1,5 @@
 ---
-name: Architecture of Bitcoin Wallet
+name: Bitcoin Wallet Architecture
 goal: Dive into the cryptographic principles that power Bitcoin wallets.
 objectives:
 - Define the theoretical notions necessary for understanding the cryptographic algorithms used in Bitcoin.

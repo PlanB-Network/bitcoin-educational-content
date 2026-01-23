@@ -1,5 +1,5 @@
 ---
-name: Austrian school of economics foundamentals
+name: Austrian School of Economics Fundamentals
 goal: Discover Austrian economics as an alternative framework for analyzing markets and individual decision-making
 objectives:
 - Analyze the functions of money, credit, and central banking systems

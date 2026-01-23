@@ -12,7 +12,9 @@ Nếu bạn muốn đóng góp cho Plan ₿ Academy, bạn sẽ cần sử dụn
 ## Git là gì?
 
 Git là một hệ thống quản lý phiên bản, được thiết kế đặc biệt để quản lý các dự án phần mềm. Được tạo ra vào năm 2005 bởi Linus Torvalds, Git nhanh chóng trở thành tiêu chuẩn trong ngành phát triển phần mềm cho việc quản lý phiên bản. Nhưng chính xác thì nó có nghĩa là gì?
+
 ![git](assets/11.webp)
+
 Về cơ bản, Git cho phép các nhà phát triển theo dõi những thay đổi được thực hiện đối với mã nguồn của dự án theo thời gian. Điều này có nghĩa là với mỗi thay đổi trong mã, Git sẽ ghi lại một phiên bản mới của dự án. Nếu xảy ra lỗi hoặc nếu một tính năng thử nghiệm không hoạt động như mong đợi, có thể quay lại trạng thái trước đó của mã, giống như một loại cỗ máy thời gian, nhưng dành cho các tệp.
 
 Một trong những tính năng quan trọng của Git là quản lý nhánh. Nhánh (branch) là một dạng đường thẳng song song, nơi các nhà phát triển có thể làm việc độc lập với phần còn lại của dự án. Điều này giúp việc bổ sung các tính năng mới hoặc sửa lỗi trở nên dễ dàng hơn mà không làm ảnh hưởng đến mã nguồn chính. Sau khi các sửa đổi được kiểm tra và xác nhận, chúng có thể được hợp nhất với nhánh chính (main branch).
@@ -23,7 +25,9 @@ Ban đầu, Git chủ yếu được thiết kế cho các dự án phát triể
 ## GitHub là gì?
 
 GitHub là một nền tảng quản lý và lưu trữ mã nguồn dựa trên hệ thống kiểm soát phiên bản Git mà chúng ta vừa thảo luận. Ra mắt năm 2008, GitHub nhanh chóng trở nên phổ biến và trở thành một công cụ tham khảo thiết yếu cho các nhà phát triển trên toàn thế giới. Nhưng GitHub khác với Git như thế nào, và tại sao nó lại quan trọng đến vậy trong phương pháp sản xuất nội dung của chúng ta?
+
 ![github](assets/12.webp)
+
 Trước hết, chúng ta phải hiểu rằng GitHub được xây dựng trên nền tảng Git (như đã đề cập ở phần trước). Trong khi Git là công cụ theo dõi các thay đổi mã, thì GitHub là dịch vụ trực tuyến lưu trữ, chia sẻ và quản lý mã này.
 
 Hãy tưởng tượng Git như một cuốn nhật ký mà mỗi lập trình viên sử dụng trên máy tính cá nhân để ghi lại tất cả các thay đổi trong dự án của họ. Mặt khác, GitHub giống như một thư viện công cộng, nơi tất cả các nhật ký này có thể được chia sẻ, so sánh và kết hợp.
@@ -36,27 +40,29 @@ GitHub không chỉ đơn thuần là một dịch vụ lưu trữ mã nguồn. 
 
 Trên Git và GitHub, bạn sẽ gặp các lệnh và tính năng có tên gọi khá phức tạp. Trong phần cuối này, tôi sẽ cung cấp một số định nghĩa đơn giản để giúp bạn hiểu các thuật ngữ kỹ thuật có thể gặp phải khi sử dụng Git và GitHub:
 
-- **Fetch origin:** Lệnh lấy thông tin và những thay đổi gần đây từ kho lưu trữ (repository) từ xa mà không hợp nhất chúng với công việc cục bộ của bạn. Nó cập nhật kho lưu trữ cục bộ của bạn với các nhánh và commit mới có trong kho lưu trữ từ xa.
+- **`Repository`:** là kho lưu trữ cho một dự án trên GitHub. Một repository chứa tất cả các tệp dự án cũng như lịch sử của tất cả các thay đổi đã được thực hiện đối với dự án đó. Đây là nền tảng của việc lưu trữ và cộng tác trên GitHub.
 
-- **Pull origin:** Lệnh này lấy các bản cập nhật từ kho lưu trữ từ xa và ngay lập tức tích hợp chúng vào nhánh cục bộ của bạn để đồng bộ hóa. Nó kết hợp các bước tìm nạp và hợp nhất thành một lệnh duy nhất.
-- **Sync Fork:** Một tính năng trên GitHub cho phép bạn cập nhật bản sao (fork) dự án của mình với những thay đổi mới nhất từ ​​kho lưu trữ nguồn. Điều này đảm bảo bản fork luôn được cập nhật với quá trình phát triển chính.
-- **Push origin:** Lệnh được sử dụng để gửi các thay đổi cục bộ của bạn đến kho lưu trữ từ xa.
+- **`Fork`:** Tạo một bản sao của repository đó trên tài khoản GitHub của riêng bạn, cho phép bạn làm việc trên dự án mà không ảnh hưởng đến repository gốc. Bản sao này có thể phát triển độc lập và trở thành một dự án khác với dự án gốc, hoặc nó có thể thường xuyên đồng bộ hóa với dự án gốc để đóng góp vào dự án đó.
 
-- **Pull Request:** Yêu cầu được gửi bởi một người đóng góp để cho biết họ đã gửi các thay đổi lên một nhánh trong kho lưu trữ từ xa và muốn các thay đổi này được xem xét và có thể được hợp nhất vào nhánh chính của kho lưu trữ.
+- **`Fetch origin`:** Lệnh lấy thông tin và những thay đổi gần đây từ repository từ xa mà không hợp nhất chúng với công việc cục bộ của bạn. Nó cập nhật repository cục bộ của bạn với các nhánh và commit mới có trong repository từ xa.
 
-- **Commit:** Lưu lại các thay đổi của bạn. Một commit giống như một bản sao lại trạng thái về công việc của bạn tại một thời điểm nhất định, cho phép lưu giữ lịch sử các thay đổi. Mỗi commit mô tả giải thích những gì đã được sửa đổi.
+- **`Pull origin`:** Lệnh này lấy các bản cập nhật từ repository từ xa và ngay lập tức tích hợp chúng vào nhánh cục bộ của bạn để đồng bộ hóa. Nó kết hợp các bước tìm nạp và hợp nhất thành một lệnh duy nhất.
 
-- **Branch:** Một phiên bản song song của kho lưu trữ, cho phép bạn thực hiện các thay đổi mà không ảnh hưởng đến nhánh chính (thường được gọi là "main" hoặc "master"). Các nhánh giúp phát triển các tính năng mới và sửa lỗi mà không làm gián đoạn mã nguồn ổn định hiện tại.
+- **`Sync Fork`:** Một tính năng trên GitHub cho phép bạn cập nhật bản fork dự án của mình với những thay đổi mới nhất từ repository nguồn. Điều này đảm bảo bản fork luôn được cập nhật với quá trình phát triển chính.
 
-- **Merge:** "Merge" bao gồm việc tích hợp các thay đổi từ một nhánh vào một nhánh khác. Ví dụ, nó được sử dụng để thêm các thay đổi từ một nhánh làm việc vào nhánh chính, cho phép thêm các đóng góp khác nhau.
+- **`Push origin`:** Lệnh được sử dụng để gửi các thay đổi cục bộ của bạn đến repository từ xa.
 
-- **Fork:** Tạo một bản sao của kho lưu trữ đó trên tài khoản GitHub của riêng bạn, cho phép bạn làm việc trên dự án mà không ảnh hưởng đến kho lưu trữ gốc. Bản sao này có thể phát triển độc lập và trở thành một dự án khác với dự án gốc, hoặc nó có thể thường xuyên đồng bộ hóa với dự án gốc để đóng góp vào dự án đó.
+- **`Pull Request`:** Yêu cầu được gửi bởi một người đóng góp để cho biết họ đã gửi các thay đổi lên một nhánh trong repository từ xa và muốn các thay đổi này được xem xét và có thể được hợp nhất vào nhánh chính của repository.
 
-- **Clone:** Tạo một bản sao cục bộ trên máy tính của bạn, cho phép bạn truy cập vào tất cả các tệp và lịch sử. Điều này giúp bạn có thể làm việc trực tiếp trên dự án ngay tại máy tính của mình.
+- **`Commit`:** Lưu lại các thay đổi của bạn. Một commit giống như một bản sao lại trạng thái về công việc của bạn tại một thời điểm nhất định, cho phép lưu giữ lịch sử các thay đổi. Mỗi commit mô tả giải thích những gì đã được sửa đổi.
 
-- **Repository:** Kho lưu trữ cho một dự án trên GitHub. Một kho lưu trữ chứa tất cả các tệp dự án cũng như lịch sử của tất cả các thay đổi đã được thực hiện đối với dự án đó. Đây là nền tảng của việc lưu trữ và cộng tác trên GitHub.
+- **`Branch`:** Một phiên bản song song của repository, cho phép bạn thực hiện các thay đổi mà không ảnh hưởng đến nhánh chính (thường được gọi là "main" hoặc "master"). Các nhánh giúp phát triển các tính năng mới và sửa lỗi mà không làm gián đoạn mã nguồn ổn định hiện tại.
 
-- **Issue:** Một công cụ để theo dõi các tác vụ và lỗi trên GitHub. Chức năng "Issues" cho phép báo cáo sự cố, đề xuất cải tiến hoặc thảo luận về các tính năng mới. Mỗi vấn đề có thể được chỉ định, gắn nhãn và bình luận.
+- **`Merge`:** "Merge" bao gồm việc tích hợp các thay đổi từ một nhánh vào một nhánh khác. Ví dụ, nó được sử dụng để thêm các thay đổi từ một nhánh làm việc vào nhánh chính, cho phép thêm các đóng góp khác nhau.
+
+- **`Clone`:** Tạo một bản sao cục bộ trên máy tính của bạn, cho phép bạn truy cập vào tất cả các tệp và lịch sử. Điều này giúp bạn có thể làm việc trực tiếp trên dự án ngay tại máy tính của mình.
+
+- **`Issue`:** Một công cụ để theo dõi các tác vụ và lỗi trên GitHub. Chức năng "Issues" cho phép báo cáo sự cố, đề xuất cải tiến hoặc thảo luận về các tính năng mới. Mỗi vấn đề có thể được chỉ định, gắn nhãn và bình luận.
 
 Danh sách này không phải là đầy đủ nhất. Có rất nhiều thuật ngữ kỹ thuật khác đặc thù cho Git và GitHub. Tuy nhiên, những thuật ngữ được đề cập ở đây là những thuật ngữ chính mà bạn sẽ thường xuyên gặp.
 

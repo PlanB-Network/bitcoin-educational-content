@@ -14,8 +14,7 @@ Nếu bạn muốn thêm một sự kiện Bitcoin lên trang web Plan ₿ Acade
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-
-- Truy cập vào [kho lưu trữ (repository) GitHub của PlanB dành riêng cho dữ liệu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/events/) trong phần `events/`:
+- Truy cập vào [repository của Plan ₿ Academy dành riêng cho dữ liệu trên GitHub](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/events/) trong phần `events/`:
 
 ![event](assets/02.webp)
 
@@ -35,15 +34,15 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 ![event](assets/06.webp)
 
-- Để đảm bảo rằng bạn đang tạo thư mục thay vì tạo tệp tin, chỉ cần thêm một dấu gạch chéo ngay sau tên vừa nhập, ví dụ: `paris-bitcoin-conference-2024/`. Thao tác thêm dấu `/` này sẽ giúp GitHub tự động nhận diện đây là một thư mục:
+- Để đảm bảo rằng bạn đang tạo thư mục thay vì tạo file tin, chỉ cần thêm một dấu gạch chéo ngay sau tên vừa nhập, ví dụ: `paris-bitcoin-conference-2024/`. Thao tác thêm dấu `/` này sẽ giúp GitHub tự động nhận diện đây là một thư mục:
 
 ![event](assets/07.webp)
 
-- Trong thư mục này, bạn sẽ tạo một tệp YAML đầu tiên có tên `event.yml`:
+- Trong thư mục này, bạn sẽ tạo một file YAML đầu tiên có tên `event.yml`:
 
 ![event](assets/08.webp)
 
-- Điền thông tin về sự kiện của bạn vào tệp này theo mẫu sau:
+- Điền thông tin về sự kiện của bạn vào file `event.yml` này theo mẫu sau:
 
 ```yaml
 start_date:
@@ -68,7 +67,7 @@ tags:
   - 
 ```
 
-Ví dụ, tệp YAML của bạn có thể trông như thế này:
+Ví dụ, file YAML của bạn có thể trông như thế này:
 
 ```yaml
 start_date: 2024-08-15
@@ -102,8 +101,6 @@ tags:
 Nếu bạn chưa có một định danh "*project*" cho tổ chức của mình, bạn có thể thêm nó bằng cách theo dõi hướng dẫn khác này.
 
 https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-4064-8d68-1ef529991d3d
-
-
 
 - Sau khi hoàn tất chỉnh sửa file, lưu thay đổi bằng cách nhấn nút `Commit changes...`:
 
@@ -149,7 +146,7 @@ https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 ![event](assets/20.webp)
 
-- Trong thư mục `assets` này, tạo một tệp tên là `.gitkeep`:
+- Trong thư mục `assets` này, tạo một file tên là `.gitkeep`:
 
 ![event](assets/21.webp)
 
@@ -181,15 +178,15 @@ https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 
 ![event](assets/28.webp)
 
-- Lưu ý, ảnh của bạn phải được đặt tên là `thumbnail` và phải ở định dạng `.webp`. Tên tệp đầy đủ phải là: `thumbnail.webp`:
+- Lưu ý, ảnh của bạn phải được đặt tên là `thumbnail` và phải ở định dạng `.webp`. Tên file đầy đủ phải là: `thumbnail.webp`:
 
 ![event](assets/29.webp)
 
-- Quay lại thư mục `assets` và nhấp vào tệp `.gitkeep`:
+- Quay lại thư mục `assets` và nhấp vào file `.gitkeep`:
 
 ![event](assets/30.webp)
 
-- Tại giao diện của tệp này, nhấn vào dấu ba chấm nhỏ ở góc trên bên phải rồi chọn  `Delete file`:
+- Tại giao diện của file này, nhấn vào dấu ba chấm nhỏ ở góc trên bên phải rồi chọn  `Delete file`:
 
 ![event](assets/31.webp)
 

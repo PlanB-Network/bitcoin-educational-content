@@ -12,14 +12,13 @@ Tuy nhiên, nếu bạn muốn đăng tải thông tin về một hội nghị s
 
 https://planb.academy/tutorials/contribution/resource/add-event-1d3df554-c2d8-4e93-853f-58f672c5e097
 
-
 ![conference](assets/01.webp)
+
 - Trước tiên, bạn cần có một tài khoản GitHub. Nếu bạn chưa biết cách tạo tài khoản, chúng tôi đã chuẩn bị một hướng dẫn chi tiết để giúp bạn.
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-
-- Truy cập [kho lưu trữ (repository) GitHub của PlanB dành riêng cho dữ liệu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) trong phần `resources/conference/`:
+- Truy cập [repository của Plan ₿ Academy dành riêng cho dữ liệu trên GitHub](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/conference) trong phần `resources/conference/`:
 ![conference](assets/02.webp)
 - Nhấn vào nút `Add file` ở góc trên bên phải, sau đó chọn `Create new file`:
 ![conference](assets/03.webp)
@@ -29,11 +28,11 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 ![conference](assets/05.webp)
 - Tạo một thư mục cho hội nghị của bạn. Tại ô `Name your file...`, nhập tên hội nghị của bạn bằng chữ thường và dùng dấu gạch ngang `-` thay cho khoảng trắng. Ví dụ, nếu hội nghị của bạn có tên là "Paris Bitcoin Conference", bạn nên ghi `paris-bitcoin-conference`. Ngoài ra, đừng quên thêm năm tổ chức sự kiện vào cuối tên thư mục, ví dụ: `paris-bitcoin-conference-2024`:
 ![conference](assets/06.webp)
-- Để đảm bảo rằng bạn đang tạo thư mục thay vì tạo tệp tin, chỉ cần thêm một dấu gạch chéo ngay sau tên vừa nhập, ví dụ: `paris-bitcoin-conference-2024/`. Thao tác thêm dấu `/` này sẽ giúp GitHub tự động nhận diện đây là một thư mục:
+- Để đảm bảo rằng bạn đang tạo thư mục thay vì tạo file tin, chỉ cần thêm một dấu gạch chéo ngay sau tên vừa nhập, ví dụ: `paris-bitcoin-conference-2024/`. Thao tác thêm dấu `/` này sẽ giúp GitHub tự động nhận diện đây là một thư mục:
 ![conference](assets/07.webp)
-- Trong thư mục vừa tạo, bạn sẽ tạo một tệp YAML đầu tiên có tên `conference.yml`:
+- Trong thư mục vừa tạo, bạn sẽ tạo một file YAML đầu tiên có tên `conference.yml`:
 ![conference](assets/08.webp)
-- Điền thông tin liên quan đến hội nghị của bạn vào tệp này theo mẫu sau:
+- Điền thông tin liên quan đến hội nghị của bạn vào file này theo mẫu sau:
 
 ```yaml
 year: 
@@ -50,7 +49,7 @@ tags:
   - 
 ```
 
-Ví dụ, tệp YAML của bạn có thể trông như thế này:
+Ví dụ, file YAML của bạn có thể trông như thế này:
 
 ```yaml
 year: 2024-08
@@ -97,7 +96,7 @@ https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 - Trong thư mục của sách, nhấn vào nút `Add file`, sau đó chọn `Create new file`:![conference](assets/19.webp)
 - Đặt tên thư mục mới này là `assets` và đừng quên thêm một dấu gạch chéo `/` ở cuối:
 ![conference](assets/20.webp)
-- Trong thư mục `assets` này, tạo một tệp tên là `.gitkeep`:
+- Trong thư mục `assets` này, tạo một file tên là `.gitkeep`:
 ![conference](assets/21.webp)
 - Nhấn vào nút `Commit changes...`:
 ![conference](assets/22.webp)
@@ -113,11 +112,11 @@ https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![conference](assets/27.webp)
 - Sau khi hình ảnh được tải lên, đảm bảo rằng ô `Commit directly to the patch-1 branch` được chọn, sau đó nhấn `Commit changes`:
 ![conference](assets/28.webp)
-- Lưu ý, ảnh của bạn phải được đặt tên là `thumbnail` và phải ở định dạng `.webp`. Tên tệp đầy đủ phải là: `thumbnail.webp`:
+- Lưu ý, ảnh của bạn phải được đặt tên là `thumbnail` và phải ở định dạng `.webp`. Tên file đầy đủ phải là: `thumbnail.webp`:
 ![conference](assets/29.webp)
-- Quay lại thư mục `assets` và nhấp vào tệp `.gitkeep`:
+- Quay lại thư mục `assets` và nhấp vào file `.gitkeep`:
 ![conference](assets/30.webp)
-- Tại giao diện của tệp này, nhấn vào dấu ba chấm nhỏ ở góc trên bên phải rồi chọn  `Delete file`:
+- Tại giao diện của file này, nhấn vào dấu ba chấm nhỏ ở góc trên bên phải rồi chọn  `Delete file`:
 ![conference](assets/31.webp)
 - Đảm bảo rằng bạn vẫn đang ở đúng nhánh làm việc hiện tại, sau đó nhấn vào nút `Commit changes`:
 ![conference](assets/32.webp)
@@ -127,9 +126,9 @@ https://planb.academy/tutorials/contribution/resource/add-builder-b5834c46-6dcc-
 ![conference](assets/34.webp)
 - Nhấn vào nút `Add file`, sau đó chọn `Create new file`:
 ![conference](assets/35.webp)
-- Tạo một tệp markdown (`.md`) mới và đặt tên theo mã ngôn ngữ bản địa của bạn. Tệp này sẽ được sử dụng để chứa các bản phát lại của hội nghị. Ví dụ, nếu tôi muốn viết mô tả cho các hội nghị bằng tiếng Việt, tôi sẽ đặt tên tệp này là `vi.md`:
+- Tạo một file markdown (`.md`) mới và đặt tên theo mã ngôn ngữ bản địa của bạn. file này sẽ được sử dụng để chứa các bản phát lại của hội nghị. Ví dụ, nếu tôi muốn viết mô tả cho các hội nghị bằng tiếng Việt, tôi sẽ đặt tên file này là `vi.md`:
 ![conference](assets/36.webp)
-- Điền thông tin vào tệp markdown này theo mẫu dưới đây; hãy điều chỉnh nội dung sao cho phù hợp với hội nghị của bạn:
+- Điền thông tin vào file markdown này theo mẫu dưới đây; hãy điều chỉnh nội dung sao cho phù hợp với hội nghị của bạn:
 
 ```markdown
 ---
@@ -183,7 +182,8 @@ Diễn giả: Satoshi Nakamoto
 ```
 
 ![conference](assets/37.webp)
-- Tại phần mở đầu của tài liệu (trong phần "front matter,"), điền tên hội nghị và năm của các bản phát lại vào trườn `name:`. Ở trường `description:`, viết một mô tả ngắn gọn về sự kiện bằng ngôn ngữ tương ứng của tệp. Ví dụ, đối với tệp `vi.md`, phần mô tả phải được viết bằng tiếng Việt. Đội ngũ Plan ₿ Academy sẽ đảm nhận việc dịch mô tả này bằng mô hình ngôn ngữ của họ.
+
+- Tại phần mở đầu của tài liệu (trong phần "front matter,"), điền tên hội nghị và năm của các bản phát lại vào trườn `name:`. Ở trường `description:`, viết một mô tả ngắn gọn về sự kiện bằng ngôn ngữ tương ứng của file. Ví dụ, đối với file `vi.md`, phần mô tả phải được viết bằng tiếng Việt. Đội ngũ Plan ₿ Academy sẽ đảm nhận việc dịch mô tả này bằng mô hình ngôn ngữ của họ.
 
 - Các tiêu đề cấp độ một - Heading 1 (được đánh dấu bằng `#`), được dùng để phân loại hội nghị theo từng khu vực. Ví dụ, `# Sân Khấu Chính` cho sân khấu chính và `# Phòng Workshop` cho khu vực dành riêng cho các workshop.
 
@@ -195,7 +195,7 @@ Diễn giả: Satoshi Nakamoto
 
 ---
 
-- Sau khi đã hoàn tất các thay đổi trong tệp này, hãy lưu lại bằng cách nhấn vào nút `Commit changes...`:
+- Sau khi đã hoàn tất các thay đổi trong file này, hãy lưu lại bằng cách nhấn vào nút `Commit changes...`:
 ![conference](assets/38.webp)
 - Thêm một tiêu đề và mô tả ngắn gọn cho các thay đổi này:
 ![conference](assets/39.webp)
@@ -215,6 +215,8 @@ Diễn giả: Satoshi Nakamoto
 Chúc mừng! Pull Request của bạn đã được khởi tạo thành công. Đội ngũ quản trị viên sẽ tiến hành kiểm tra và nếu mọi thứ đều đạt yêu cầu, họ sẽ gộp (merge) nó vào repository chính của Plan ₿ Academy. Bạn sẽ thấy sách của mình xuất hiện trên website sau vài ngày.
 
 Đừng quên theo dõi tiến độ của bản PR nhé. Quản trị viên có thể để lại bình luận yêu cầu bổ sung thông tin hoặc điều chỉnh. Chừng nào PR của bạn chưa được phê duyệt, bạn vẫn có thể theo dõi PR này trong thẻ `Pull requests` trên repository của Plan ₿ Academy:
+
 ![conference](assets/46.webp)
+
 Chân thành cảm ơn sự đóng góp quý giá của bạn! :)
 

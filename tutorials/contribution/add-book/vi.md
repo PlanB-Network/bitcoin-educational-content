@@ -7,13 +7,14 @@ description: Làm thế nào để thêm một cuốn sách mới vào Plan ₿ 
 Sứ mệnh của PlanB là cung cấp nguồn học liệu hàng đầu về Bitcoin bằng nhiều ngôn ngữ nhất có thể. Toàn bộ nội dung được đăng tải trên trang web đều là mã nguồn mở và được lưu trữ trên GitHub, tạo điều kiện cho bất kỳ ai cũng có thể tham gia đóng góp và làm phong phú thêm kho kiến thức chung này.
 
 **Bạn muốn thêm một cuốn sách liên quan đến Bitcoin trên Plan ₿ Academy để tăng độ nhận diện cho công sức của mình, nhưng không biết cách làm? Hướng dẫn này dành cho bạn!**
+
 ![book](assets/01.webp)
+
 - Trước tiên, bạn cần có một tài khoản GitHub. Nếu bạn chưa biết cách tạo tài khoản, chúng tôi đã chuẩn bị một hướng dẫn chi tiết để giúp bạn.
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-
-- Truy cập vào [kho lưu trữ (repository) GitHub của PlanB dành riêng cho dữ liệu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) trong phần `resources/books/`:
+- Truy cập vào [repository của Plan ₿ Academy dành riêng cho dữ liệu trên GitHub](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/books) trong phần `resources/books/`:
 ![book](assets/02.webp)
 - Nhấn vào nút `Add file` ở góc trên bên phải, sau đó chọn `Create new file`:
 ![book](assets/03.webp)
@@ -23,11 +24,11 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 ![book](assets/05.webp)
 - Tạo một thư mục cho cuốn sách của bạn. Tại ô `Name your file...`, nhập tên cuốn sách bằng chữ thường và dùng dấu gạch ngang `-` thay cho khoảng trắng. Ví dụ, nếu cuốn sách của bạn có tên là "*My Bitcoin Book*", bạn nên ghi là `my-bitcoin-book`:
 ![book](assets/06.webp)
-- Để đảm bảo rằng bạn đang tạo thư mục thay vì tạo tệp tin, chỉ cần thêm một dấu gạch chéo ngay sau tên vừa nhập, ví dụ: `my-bitcoin-book/`. Thao tác thêm dấu `/` này sẽ giúp GitHub tự động nhận diện đây là một thư mục:
+- Để đảm bảo rằng bạn đang tạo thư mục thay vì tạo file tin, chỉ cần thêm một dấu gạch chéo ngay sau tên vừa nhập, ví dụ: `my-bitcoin-book/`. Thao tác thêm dấu `/` này sẽ giúp GitHub tự động nhận diện đây là một thư mục:
 ![book](assets/07.webp)
-- Trong thư mục này, bạn sẽ tạo một tệp YAML đầu tiên có tên `book.yml`:
+- Trong thư mục này, bạn sẽ tạo một file YAML đầu tiên có tên `book.yml`:
 ![book](assets/08.webp)
-- Điền thông tin về cuốn sách của bạn vào tệp này theo mẫu sau:
+- Điền thông tin về cuốn sách của bạn vào file `book.yml` theo mẫu sau:
 
 ```yaml
 author: 
@@ -51,7 +52,7 @@ Dưới đây là thông tin chi tiết cho từng trường:
     - `economy`
     - `education`
 
-Ví dụ, tệp YAML của bạn có thể trông như thế này:
+Ví dụ, file YAML của bạn có thể trông như thế này:
 
 ```yaml
 author: Loïc Morel
@@ -83,7 +84,7 @@ tags:
 ![book](assets/19.webp)
 - Đặt tên thư mục mới này là `assets` và đừng quên thêm một dấu gạch chéo `/` ở cuối:
 ![book](assets/20.webp)
-- Trong thư mục `assets` này, tạo một tệp tên là `.gitkeep`:
+- Trong thư mục `assets` này, tạo một file tên là `.gitkeep`:
 ![book](assets/21.webp)
 - Nhấn vào nút `Commit changes...`:
 ![book](assets/22.webp)
@@ -101,9 +102,9 @@ tags:
 ![book](assets/28.webp)
 - Lưu ý quan trọng: Ảnh phải được đặt tên là `cover_en` nếu bìa bằng tiếng Anh và phải ở định dạng `.webp`. Tên file đầy đủ sẽ là `cover_en.webp`, `cover_fr.webp`, `cover_it.webp`, v.v. Nếu bạn muốn dùng bìa khác nhau cho từng ngôn ngữ (ví dụ sách dịch), bạn có thể đặt tất cả trong cùng thư mục assets:
 ![book](assets/29.webp)
-- Quay lại thư mục `assets` và nhấn vào tệp `.gitkeep`:
+- Quay lại thư mục `assets` và nhấn vào file `.gitkeep`:
 ![book](assets/30.webp)
-- Tại giao diện của tệp này, nhấn vào dấu ba chấm nhỏ ở góc trên bên phải rồi chọn `Delete file`:
+- Tại giao diện của file này, nhấn vào dấu ba chấm nhỏ ở góc trên bên phải rồi chọn `Delete file`:
 ![book](assets/31.webp)
 - Đảm bảo rằng bạn vẫn đang ở đúng nhánh làm việc hiện tại, sau đó nhấn vào nút `Commit changes...`:
 ![book](assets/32.webp)
@@ -112,9 +113,9 @@ tags:
 - Quay lại thư mục sách của bạn: ![book](assets/34.webp)
 - Nhấn vào nút `Add file`, sau đó chọn `Create new file`:
 ![book](assets/35.webp)
-- Tạo một tệp YAML mới bằng cách đặt tên bằng ngôn ngữ của sách. Tệp này sẽ được sử dụng để mô tả sách. Ví dụ, nếu tôi muốn viết mô tả bằng tiếng Anh, tên tệp sẽ này là `en.yml`:
+- Tạo một file YAML mới bằng cách đặt tên bằng ngôn ngữ của sách. file này sẽ được sử dụng để mô tả sách. Ví dụ, nếu tôi muốn viết mô tả bằng tiếng Anh, tên file sẽ này là `en.yml`:
 ![book](assets/36.webp)
-- Điền vào tệp YAML này theo mẫu sau:
+- Điền vào file YAML này theo mẫu sau:
 ```yaml
 title: ""
 publication_year: 
@@ -129,11 +130,11 @@ contributors:
 Dưới đây là chi tiết cần điền cho mỗi trường:
 - **`title`**: Tên sách, đặt trong dấu ngoặc kép.
 - **`publication_year`**: Năm xuất bản sách.
-- **`cover`**: Tên của tệp ảnh bìa tương ứng với ngôn ngữ của tệp YAML đang chỉnh sửa. Ví dụ, với tệp `en.yml` và ảnh bìa tiếng Anh đã tải lên trước đó là `cover_en.webp`, điền `cover_en.webp` trong trường này.
-- **`description`**: Thêm một mô tả ngắn về sách. Mô tả phải bằng ngôn ngữ tương ứng với tên tệp YAML.
+- **`cover`**: Tên của file ảnh bìa tương ứng với ngôn ngữ của file YAML đang chỉnh sửa. Ví dụ, với file `en.yml` và ảnh bìa tiếng Anh đã tải lên trước đó là `cover_en.webp`, điền `cover_en.webp` trong trường này.
+- **`description`**: Thêm một mô tả ngắn về sách. Mô tả phải bằng ngôn ngữ tương ứng với tên file YAML.
 - **`contributors`**: Thêm ID người đóng góp (contributor) của bạn nếu có.
 
-Ví dụ, tệp YAML của bạn có thể trông như thế này:
+Ví dụ, file YAML của bạn có thể trông như thế này:
 
 ```yaml
 title: "Cuốn Sách Bitcoin Của Tôi"

@@ -68,7 +68,7 @@ sudo apt update && sudo apt upgrade -y
 
 ![Image](assets/fr/02.webp)
 
-### 2.2. Cài đặt các phụ thuộc
+### 2.2. Cài đặt các dependencies (thư viện phụ thuộc)
 
 Pears sử dụng một số thư viện hệ thống, bao gồm `libatomic1`, được sử dụng bởi Bare JavaScript runtime engine. Hãy cài đặt bằng lệnh sau:
 
@@ -81,7 +81,7 @@ sudo apt install -y libatomic1 curl git
 
 ### 2.3. Cài đặt Node.js và npm thông qua NVM
 
-Pears được phân phối thông qua *npm*, trình quản lý gói *Node.js*. Mặc dù Pears không phụ thuộc trực tiếp vào *Node.js* để chạy, nhưng cần thiết cho quá trình cài đặt. Cách được khuyến nghị để cài đặt *Node.js* trên Linux là sử dụng *NVM* (*Node Version Manager*), cho phép bạn quản lý nhiều phiên bản Node song song.
+Pears được phân phối thông qua `npm`, trình quản lý gói *Node.js*. Mặc dù Pears không phụ thuộc trực tiếp vào *Node.js* để chạy, nhưng cần thiết cho quá trình cài đặt. Cách được khuyến nghị để cài đặt *Node.js* trên Linux là sử dụng *NVM* (*Node Version Manager*), cho phép bạn quản lý nhiều phiên bản Node song song.
 
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
@@ -114,7 +114,7 @@ nvm install --lts
 
 ![Image](assets/fr/07.webp)
 
-Đảm bảo rằng *Node.js* và *npm* đã được cài đặt đúng cách:
+Đảm bảo rằng *Node.js* và `npm` đã được cài đặt đúng cách:
 
 ```bash
 node -v
@@ -125,7 +125,7 @@ npm -v
 
 ### 2.4. Cài đặt Pears bằng npm
 
-Khi *npm* đã được cài, bạn có thể cài đặt Pears CLI trên toàn hệ thống (globally). Điều này cho phép bạn chạy lệnh `pear` từ bất kỳ thư mục nào.
+Khi `npm` đã được cài, bạn có thể cài đặt Pears CLI trên toàn hệ thống (globally). Điều này cho phép bạn chạy lệnh `pear` từ bất kỳ thư mục nào.
 
 ```bash
 npm install -g pear
@@ -180,15 +180,15 @@ Việc cài đặt Pears trên Windows cũng đơn giản như trên Linux nhưn
 Đầu tiên, hãy khởi chạy PowerShell với quyền quản trị viên:
 
 - Nhấp vào Start menu;
-- Nhập “PowerShell”;
+- Nhập “*PowerShell*”;
 - Nhấp chuột phải vào "*Windows PowerShell*";
-- Chọn "*CRun as administrator*".
+- Chọn "*Run as administrator*".
 
 ![Image](assets/fr/15.webp)
 
 ### 3.2. Tải xuống NVS
 
-Pears được cài đặt thông qua *npm*, trình quản lý gói *Node.js*. Trên Windows, phương pháp được Holepunch khuyến nghị là sử dụng *NVS* (*Node Version Switcher*), ổn định hơn *NVM* trên hệ thống này.
+Pears được cài đặt thông qua `npm`, trình quản lý gói *Node.js*. Trên Windows, phương pháp được Holepunch khuyến nghị là sử dụng *NVS* (*Node Version Switcher*), ổn định hơn *NVM* trên hệ thống này.
 
 Trong PowerShell, hãy chạy lệnh sau để cài đặt phiên bản *NVS* mới nhất:
 
@@ -215,7 +215,7 @@ Bạn sẽ thấy danh sách các phiên bản *Node.js* khả dụng. Chọn ph
 
 ### 3.4. Xác minh cài đặt
 
-Đảm bảo *Node.js* và *npm* có thể truy cập được:
+Đảm bảo *Node.js* và `npm` có thể truy cập được:
 
 ```powershell
 node -v
@@ -228,13 +228,13 @@ Cả hai lệnh đều phải trả về số phiên bản của chúng.
 
 ### 3.5. Cài đặt Pears bằng npm
 
-Sau khi *Node.js* và *npm* đã sẵn sàng, hãy cài đặt **Pears CLI** trên toàn hệ thống của bạn:
+Sau khi *Node.js* và `npm` đã sẵn sàng, hãy cài đặt **Pears CLI** trên toàn hệ thống của bạn:
 
 ```powershell
 npm install -g pear
 ```
 
-Thao tác này sẽ cài đặt tệp nhị phân `pear` vào thư mục *npm* toàn cục của bạn.
+Thao tác này sẽ cài đặt tệp nhị phân `pear` vào thư mục `npm` toàn cục của bạn.
 
 ![Image](assets/fr/20.webp)
 
@@ -288,7 +288,7 @@ Nếu *Xcode Command Line Tools* đã được cài đặt trên hệ thống, m
 
 ### 4.2. Cài đặt NVM
 
-Pears được phân phối thông qua *npm*, trình quản lý gói *Node.js*. Mặc dù Pears không phụ thuộc trực tiếp vào *Node.js* để hoạt động, nhưng cần thiết cho quá trình cài đặt. Phương pháp được khuyến nghị để cài đặt *Node.js* trên macOS là *NVM* (*Node Version Manager*), cho phép bạn quản lý nhiều phiên bản Node cùng lúc.
+Pears được phân phối thông qua `npm`, trình quản lý gói *Node.js*. Mặc dù Pears không phụ thuộc trực tiếp vào *Node.js* để hoạt động, nhưng cần thiết cho quá trình cài đặt. Phương pháp được khuyến nghị để cài đặt *Node.js* trên macOS là *NVM* (*Node Version Manager*), cho phép bạn quản lý nhiều phiên bản Node cùng lúc.
 
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
@@ -333,7 +333,7 @@ Cả hai lệnh đều phải trả về số phiên bản của chúng.
 
 ### 4.4. Cài đặt Pears bằng npm
 
-Khi *npm* đã được cài đặt, bạn có thể cài đặt Pears CLI trên toàn hệ thống. Việc này sẽ cho phép bạn thực thi lệnh `pear` từ bất kỳ thư mục nào.
+Khi `npm` đã được cài đặt, bạn có thể cài đặt Pears CLI trên toàn hệ thống. Việc này sẽ cho phép bạn thực thi lệnh `pear` từ bất kỳ thư mục nào.
 
 ```bash
 npm install -g pear
@@ -385,7 +385,7 @@ Sau khi tải xong, Plan ₿ Academy sẽ mở trong môi trường Pears và ho
 
 ## 6. Cách Seed Plan ₿ Academy on Pears
 
-Trong mạng Pears, “seed” một ứng dụng có nghĩa là phân phối lại ứng dụng đó cho các peer khác từ chính máy của bạn. Khi bạn seed Plan ₿ Academy, máy tính của bạn trở thành một nguồn dữ liệu giúp người khác tải ứng dụng mà không cần máy chủ trung tâm.
+Trong mạng Pears, `seed` một ứng dụng có nghĩa là phân phối lại ứng dụng đó cho các peer khác từ chính máy của bạn. Khi bạn seed Plan ₿ Academy, máy tính của bạn trở thành một nguồn dữ liệu giúp người khác tải ứng dụng mà không cần máy chủ trung tâm.
 
 Cơ chế này tăng cường khả năng chống kiểm duyệt và độ bền vững của ứng dụng trên mạng Pears. Càng nhiều peer seed, ứng dụng càng trở nên khả dụng và phi tập trung, ngay cả khi một số node gốc ngừng hoạt động.
 
@@ -397,6 +397,6 @@ pear seed pear://k9cawqdsan3bkobkigesuyfeqjcasi49ikjaru5cipap835t7nwy
 
 Trong suốt thời gian lệnh này chạy, thiết bị của bạn sẽ tham gia chia sẻ dữ liệu của ứng dụng. Khi bạn đóng terminal, quá trình seed sẽ dừng lại.
 
-Để tiếp tục seed sau khi khởi động lại, bạn có thể chạy lệnh ở chế độ nền hoặc tạo một dịch vụ hệ thống — ví dụ: dịch vụ systemd trên Linux, LaunchAgent trên macOS hoặc tác vụ theo lịch trình trên Windows. Các phương pháp này đảm bảo ứng dụng Plan ₿ Academy tự động seed khi hệ thống khởi động.
+Để tiếp tục seed sau khi khởi động lại, bạn có thể chạy lệnh ở chế độ nền hoặc tạo một dịch vụ hệ thống — ví dụ: dịch vụ `systemd` trên Linux, LaunchAgent trên macOS hoặc tác vụ theo lịch trình trên Windows. Các phương pháp này đảm bảo ứng dụng Plan ₿ Academy tự động seed khi hệ thống khởi động.
 
 Cảm ơn bạn đã đóng góp vào việc phân phối phi tập trung Plan ₿ Academy trên Pears và giúp cho nền giáo dục Bitcoin theo cách thực sự không thể kiểm duyệt!

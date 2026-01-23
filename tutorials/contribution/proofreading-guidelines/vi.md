@@ -40,35 +40,28 @@ Trong issue đã được mở, bạn sẽ thấy các liên kết dẫn tới n
 
 Điều đầu tiên cần nhớ: **LUÔN ĐỒNG BỘ HÓA (SYNC) repository của bạn trên nhánh "dev"**. Việc này đảm bảo nội dung luôn được cập nhật trước khi bạn bắt đầu, và tránh xung đột giữa nội dung cũ và mới. Hãy nhớ nhấn vào "Sync fork" và "Update branch".
 
-
 ![REVIEW](assets/en/1.webp)
-
 
 Sau khi đồng bộ hóa hoàn tất, bạn có thể truy cập trực tiếp vào nội dung cần hiệu đính và commit trên một nhánh mới, như trong [hướng dẫn này](https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017). Hoặc, bạn có thể tự tạo một nhánh mới để làm việc bằng vào mục "Branches", như được hiển thị bên dưới.
 
 ![REVIEW](assets/en/2.webp)
 
-
 Trong trang này, bạn sẽ thấy mục “Your Branches”, liệt kê tất cả các branch bạn đã tạo. Mục này rất hữu ích vì nó cho phép bạn quản lý các công việc đang làm. Nếu muốn tạo nhánh mới, hãy nhấn “New Branch” ở góc trên bên phải.
 
-
 ![REVIEW](assets/en/3.webp)
-
 
 Sau đó, một cửa sổ bật lên sẽ hiện ra yêu cầu bạn nhập tên nhánh mới. Trong ví dụ bên dưới, tôi chọn đặt tên nhánh là "BTC101-FR". Bằng cách này, tôi sẽ luôn nhớ rằng nhánh này cần được sử dụng để hiệu đính khóa học BTC101 bằng tiếng Pháp, và **tôi sẽ không sử dụng nhánh này cho bất kỳ công việc nào khác**.
 
 Cứ nhớ là: Khi có một công việc mới, hãy tạo một nhánh mới.
 
-
 ![REVIEW](assets/en/4.webp)
-
 
 Sau khi tạo nhánh mới, hãy nhấn vào nhánh đó trong mục "Your Branches" và bắt đầu làm việc trên file *.md* tương ứng với nội dung cụ thể (trong trường hợp của tôi, tôi sẽ nhấp vào "courses" -> "BTC101" -> "fr.md"). Tất cả các commit liên quan đến nội dung đó phải nằm cùng một nhánh.
 
 
 ## Ngôn ngữ gốc hay bản dịch?
 
-Khi hiệu đính nội dung, **luôn luôn kiểm tra bản gốc tiếng Anh (hoặc tiếng Pháp)**. Xin lưu ý, rằng chúng tôi sử dụng công cụ AI để dịch, nên bản dịch ban đầu có thể chưa tự nhiên hoặc khó hiểu với người đọc cuối.
+Khi hiệu đính nội dung, **luôn luôn kiểm tra bản gốc tiếng Anh (hoặc tiếng Pháp)**. Xin lưu ý, rằng chúng tôi sử dụng công cụ AI để dịch, nên bản dịch ban đầu có thể sẽ chưa được tự nhiên hoặc khó hiểu với người đọc cuối.
 
 Vì vậy, bạn hoàn toàn có thể điều chỉnh câu chữ, miễn là không làm sai nghĩa gốc. Mục tiêu là tăng độ trôi chảy và dễ hiểu. Nếu không chắc về cách xử lý một từ hay khái niệm, hãy hỏi điều phối viên dịch thuật.
 
@@ -88,7 +81,7 @@ Sau đây là một số gợi ý
 [UTXO](https://planb.academy/resources/glossary/utxo)
 ```
 
-Và kết quả thu được sẽ như hình bên dưới, bạn có thể nhấp vào từ/cụm từ đó và được chuyển đến glasssory tương ứng.
+Và kết quả thu được sẽ như hình bên dưới, bạn có thể nhấp vào từ/cụm từ đó và được chuyển đến glassory (bảng thuật ngữ, một danh sách các từ ngữ chuyên ngành) tương ứng.
 
 ![REVIEW](assets/en/5.webp)
 
@@ -98,13 +91,13 @@ Nội dung trên repository chứa rất nhiều các siêu liên kết như tr�
 
 Ngoài ra:
 
-- Luôn giữ nguyên “Plan ₿ Academy”, không dịch “Plan”, không dịch “Network”, và không dùng mạo từ “The”. **Hãy coi đó là một thương hiệu**.
+- Luôn giữ nguyên “Plan ₿ Academy”, không dịch “Plan”, không dịch "Academy”, và không dùng mạo từ “The”. **Hãy coi đó là một thương hiệu**.
 
 - Tương tự với ₿-CERT, BIZ SCHOOL, TECH SCHOOL.
 
 Cuối cùng, như đã nói ở trên, chúng tôi sử dụng các công cụ AI để dịch nội dung và sau đó yêu cầu sự can thiệp của những người đóng góp để đảm bảo mọi thứ đều trôi chảy và được hiệu đính kỹ lưỡng. 
 
-Nếu bạn sử dụng AI để hiệu đính quá nhiều, chúng tôi sẽ nhận ra. Nếu gần như toàn bộ nội dung chỉ do AI xử lý, phần thưởng sats có thể bị giảm một nửa.
+Nếu bạn sử dụng AI để hiệu đính quá nhiều, chúng tôi sẽ nhận ra. Nếu gần như toàn bộ nội dung đều do AI xử lý, phần thưởng sats có thể bị giảm một nửa.
 
 
 ## Cấu trúc của tiêu đề
@@ -270,7 +263,7 @@ Bằng cách này, PR và issue sẽ được liên kết với nhau và bất k
 
 Khi sử dụng chức năng "thay thế tất cả", nhớ là phải kiểm tra lại kết quả để đảm bảo các liên kết không bị thay đổi. Ví dụ: nếu bạn muốn đổi từ "Bitcoin" thành "Bitkoin" (điều này có thể cần thiết trong một số ngôn ngữ), việc sử dụng chức năng "thay thế tất cả" có thể cập nhật hiệu quả tất cả các trường hợp trong văn bản. Tuy nhiên, hãy lưu ý rằng công cụ này cũng sẽ sửa đổi bất kỳ liên kết nào chứa từ đó, có khả năng dẫn đến các vấn đề chuyển hướng trang web.
 
-Trong ví dụ dưới đây, người hiệu đính đã sử dụng hàm trên để thay thế "satoshi" bằng "satoshi(sats)", đồng thời thay đổi liên kết đến một bài hướng dẫn có chứa từ này. Kết quả là liên kết trở nên không hợp lệ.
+Trong ví dụ dưới đây, người hiệu đính đã sử dụng hàm trên để thay thế "satoshi" bằng "satoshi (sats)", đồng thời thay đổi liên kết đến một bài hướng dẫn có chứa từ này. Kết quả là liên kết trở nên không hợp lệ.
 
 Luôn kiểm tra lại tất cả các siêu liên kết trong văn bản.
 

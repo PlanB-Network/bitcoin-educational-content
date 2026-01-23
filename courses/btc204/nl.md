@@ -4911,7 +4911,7 @@ Ik zal de stappen die we net hebben gezien samenvatten om een kennisgevingstrans
 ### Kennisgevingstransactie: een praktische studie
 
 
-Om meer in detail te begrijpen hoe het werkt, en in het bijzonder het gebruik van `OP_RETURN`, laten we eens kijken naar een echte kennisgevingstransactie. Ik heb een dergelijke transactie uitgevoerd op de Testnet, die je kunt vinden [door hier te klikken](https://Mempool.space/fr/Testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e).
+Laten we eens kijken naar een echte kennisgevingstransactie om meer in detail te begrijpen hoe het werkt, met nmae het gebruik van `OP_RETURN`. Ik heb een dergelijke transactie uitgevoerd op de Testnet, die je kunt vinden [door hier te klikken](https://Mempool.space/fr/Testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e).
 
 
 ![BTC204](assets/nl/233.webp)
@@ -4923,12 +4923,12 @@ Als we naar deze transactie kijken, kunnen we al zien dat deze een enkele input 
 
 
 - De eerste output is de `OP_RETURN` die mijn verborgen betalingscode bevat;
-- De tweede uitgang van 546 Sats wijst naar de melding adres van mijn ontvanger;
+- De tweede output van 546 sats wijst naar het kennisgevingsadres van mijn ontvanger;
 - De derde output van 15.000 sats vertegenwoordigt de servicekosten, omdat ik Samourai wallet heb gebruikt om deze transactie te bouwen;
-- De vierde uitgang van 2 miljoen Sats vertegenwoordigt de wisselkoers, d.w.z. het resterende verschil in mijn input dat terugkeert naar een ander adres dat van mij is.
+- De vierde uitgang van 2 miljoen sats vertegenwoordigt het wisselgeld, d.w.z. het resterende verschil in mijn input dat terugkeert naar een ander adres dat van mij is.
 
 
-De meest interessante om te bestuderen is natuurlijk output 0 met `OP_RETURN`. Laten we eens kijken wat er in staat. Hier is de `scriptPubKey` in hexadecimale :
+De meest interessante om te bestuderen is natuurlijk output 0 met `OP_RETURN`. Laten we eens kijken wat er in staat. Hier is de hexadecimale `scriptPubKey`:
 
 
 ```text
@@ -4955,7 +4955,7 @@ De byte na deze laatste opcode geeft de grootte van de volgende payload aan. Het
 ```
 
 
-Vervolgens hebben we de metagegevens van mijn betaalcode in duidelijke tekst:
+Vervolgens hebben we de metagegevens van mijn betaalcode in leesbare tekst:
 
 
 ```text
@@ -4987,7 +4987,7 @@ En tenslotte opvullen tot 80 bytes, de standaardgrootte van een `OP_RETURN` :
 ```
 
 
-Om je te helpen begrijpen, is hier mijn betalingscode in platte tekst in basis 58 :
+Om je te helpen begrijpen, is hier mijn betalingscode in leesbare tekst in basis 58 :
 
 
 ```text

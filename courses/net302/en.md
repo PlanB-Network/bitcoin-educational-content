@@ -1,5 +1,5 @@
 ---
-name: IP networks from theory to practice
+name: IP networks - From Theory to Practice
 goal: Master the fundamentals of IP networks to better configure and troubleshoot them.
 objectives: 
 

@@ -1,5 +1,5 @@
 ---
-name: Bitcoin for Businesses
+name: Bitcoin for Business
 goal: Learn the payment and treasury basics to onboard your company to Bitcoin
 objectives:
 - Discover Bitcoin as an emerging currency and a business tool

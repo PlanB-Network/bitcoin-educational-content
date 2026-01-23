@@ -1,5 +1,5 @@
 ---
-name: Freedom as a social project
+name: Freedom as a Social Project
 goal: Understand the philosophical and historical foundations of individual freedom
 objectives: 
 

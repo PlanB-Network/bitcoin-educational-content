@@ -1,5 +1,5 @@
 ---
-name: The story of Bitcoin's pioneering era
+name: Bitcoin's Pioneering Era
 goal: Discover the history of Bitcoin between 2011 and 2012, marked by the cryptocurrency's first economic successes.
 objectives: 
 

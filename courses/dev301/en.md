@@ -660,6 +660,8 @@ So when parsing the instructions, the virtual machine is supposed to
 
 This is a much simpler structure than the one used by the machine code of modern CPUs, but it's enough to encode any Java program (which includes most Android apps).
 
+The scripting language used on the Bitcoin blockchain is also composed of opcodes, that get combined to program transactions and smart contracts.
+
 ### Network protocols
 
 The protocols that define how data is transferred on the net tend to have flexible binary formats, to accomodate a wide array of contents and situations.

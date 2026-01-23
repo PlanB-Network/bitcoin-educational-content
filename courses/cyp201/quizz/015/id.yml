@@ -6,3 +6,4 @@ wrong_answers:
   - Frasa mnemonik
 explanation: |
   UTXO dikunci dengan kunci publik atau hash dari kunci publik tersebut, dan dibuka dengan kunci pribadi yang sesuai.
+reviewed: true

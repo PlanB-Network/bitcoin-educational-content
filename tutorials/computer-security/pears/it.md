@@ -68,7 +68,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
 
 ![Image](assets/fr/04.webp)
 
-Quindi ricaricare il terminale per attivare *NVM* :
+Quindi ricarica il terminale per attivare *NVM* :
 
 ```bash
 source ~/.bashrc
@@ -76,7 +76,7 @@ source ~/.bashrc
 
 ![Image](assets/fr/05.webp)
 
-Verificare che *NVM* sia installato:
+Verifica che *NVM* sia installato:
 
 ```bash
 nvm --version
@@ -103,7 +103,7 @@ npm -v
 
 ### 3.4 Installa Pears con npm
 
-Una volta che *npm* è disponibile, è possibile installare Pears CLI a livello globale sul proprio sistema. Questo vi permetterà di eseguire il comando `pear` da qualsiasi directory.
+Una volta che *npm* è disponibile, è possibile installare Pears CLI a livello globale sul proprio sistema. Questo ti permetterà di eseguire il comando `pear` da qualsiasi directory.
 
 ```bash
 npm install -g pear
@@ -250,7 +250,7 @@ Il vostro sistema Windows è ora pronto per eseguire e ospitare applicazioni pee
 
 L'installazione di Pears su macOS è simile a quella su Linux, ma richiede alcune modifiche specifiche per l'ambiente Apple. Scopriamo insieme questi passaggi.
 
-*Se si utilizza Linux o Windows e si è già installato Pears, procedi direttamente al **passo 6**.*
+*Se utilizzi Linux o Windows e hai già installato Pears, procedi direttamente al **passo 6**.*
 
 ### 5.1. Verifica i requisiti di sistema
 

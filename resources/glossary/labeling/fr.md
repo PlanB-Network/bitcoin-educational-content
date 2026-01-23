@@ -1,6 +1,6 @@
 ---
 term: Étiquetage
-definition:
+definition: Pratique d'attribuer des annotations aux UTXOs pour faciliter la gestion des fonds et la confidentialité.
 ---
 
 Pratique qui consiste à attribuer une annotation ou une étiquette à un UTXO spécifique dans un portefeuille Bitcoin. Par exemple, si je possède un UTXO provenant d'un achat P2P sur Bisq avec Charles, je pourrais lui attribuer l'étiquette « `Non-KYC Bisq Charles` ».

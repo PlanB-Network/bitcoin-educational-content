@@ -505,105 +505,81 @@ Anche se alcuni full node dovessero passare al lato oscuro e decidere di accetta
 ### Block subsidy & Transaction Fees (Ricompensa del Blocco & Commissioni di Transazione)
 
 
-Un block reward è composto dalla ricompensa del blocco più le commissioni di transazione, e deve coprire i costi di sicurezza di Bitcoin. Possiamo affermare con certezza che, nelle condizioni attuali - considerando la ricompensa del blocco, commissioni di transazione, prezzo di bitcoin, la dimensione della mempool, hashrate, il grado di decentralizzazione, ecc. - gli incentivi per tutti gli attori a rispettare le regole sono sufficientemente elevati da preservare un sistema monetario sicuro.
+Un block reward è composto dalla ricompensa del blocco più le commissioni di transazione, e deve coprire i costi di sicurezza di Bitcoin. Possiamo affermare con certezza che, nelle condizioni attuali - considerando la ricompensa del blocco, commissioni di transazione, prezzo di bitcoin, la dimensione delil mempool, hashrate, grado di decentralizzazione, ecc. - gli incentivi per tutti gli attori a rispettare le regole sono sufficientemente elevati da preservare un sistema monetario sicuro.
 
-Cosa succede quando il sussidio di blocco si avvicina a zero? Per semplificare le cose, supponiamo che sia effettivamente pari a zero. A questo punto, i costi di sicurezza del sistema sono coperti solo dalle commissioni di transazione. Non possiamo sapere cosa ci riservi il futuro quando questo accadrà. I fattori di incertezza sono numerosi e siamo lasciati alle speculazioni. Ad esempio, il contributo di Paul Sztorc all'argomento [nel suo blog Truthcoin](https://www.truthcoin.info/blog/security-budget/) è costituito per lo più da speculazioni, ma ha almeno un punto fermo (si noti che M2, come indicato da Sztorc, è una misura della moneta fiat Supply):
+Cosa succede quando la ricompensa del blocco si avvicina a zero? Per semplicità, supponiamo che sia effettivamente pari a zero. A questo punto, i costi di sicurezza del sistema sono coperti solo dalle commissioni di transazione. Non possiamo sapere cosa ci riservi il futuro quando questo accadrà. I fattori di incertezza sono numerosi e possiamo solo fare delle ipotesi. Ad esempio, il contributo di Paul Sztorc all'argomento [nel suo blog _Truthcoin_](https://www.truthcoin.info/blog/security-budget/) è costituito per lo più da ipotesi, ma ha almeno un punto fermo (si noti che M2, come indicato da Sztorc, è una misura dell'offerta di moneta fiat):
 
-> Mentre le due cose sono mescolate nello stesso "bilancio della sicurezza", il sussidio di blocco e le tasse txn sono completamente e totalmente diversi. Sono tanto diversi l'uno dall'altro quanto "i profitti totali di VISA nel 2017" lo sono dall'"aumento totale di M2 nel 2017".
+> Sebbene le due componenti confluiscano nello stesso "bilancio di sicurezza", la ricompensa del blocco e le commissioni di transazione sono completamente diversi. Sono tanto diversi l'uno dall'altro quanto "i profitti totali di VISA nel 2017" lo sono dall'"aumento totale di M2 nel 2017".
 
-Oggi sono i detentori a pagare per la sicurezza (tramite l'inflazione monetaria). Domani toccherà agli spendaccioni assumersi in qualche modo questo onere, come illustrato di seguito.
+Oggi sono i detentori a pagare per la sicurezza (tramite l'inflazione monetaria). Domani toccherà a chi spende (chi effettua transazioni su Bitcoin) assumersi in qualche modo questo onere, come illustrato di seguito.
 
 Con il passare del tempo, l'onere dei costi della sicurezza si sposterà dai detentori agli spenditori
 
-Quando le commissioni di transazione sono la motivazione principale per il Mining, gli incentivi cambiano. In particolare, se il Mempool di un miner non contiene abbastanza commissioni di transazione, potrebbe diventare più redditizio per quel miner riscrivere la storia di  Bitcoin piuttosto che estenderla. Bitcoin Optech ha una specifica [sezione su questo comportamento](https://bitcoinops.org/en/topics/fee-sniping/), chiamata *fee sniping*, scritta da David Harding:
+Quando le commissioni di transazione sono la motivazione principale per il mining, gli incentivi cambiano. In particolare, se il mempool di un miner non contiene abbastanza commissioni di transazione, potrebbe diventare più redditizio per quel miner riscrivere la storia di Bitcoin piuttosto che estenderla. Bitcoin Optech ha una specifica [sezione su questo comportamento](https://bitcoinops.org/en/topics/fee-sniping/), chiamata *fee sniping*, scritta da David Harding:
 
-
-> Lo sniping delle commissioni è un problema che può verificarsi quando la ricompensa di  Bitcoin continua a diminuire e le commissioni di transazione iniziano a dominare le ricompense dei blocchi di  Bitcoin. Se le commissioni di transazione sono l'unica cosa che conta, allora un miner con l' `x` per cento del tasso di Hash ha un `x` per cento di possibilità di Mining il blocco successivo, quindi il valore atteso per loro di un Mining onesto è l' `x` per cento del [miglior insieme di transazioni feerate](https://bitcoinops.org/en/newsletters/2021/06/02/#candidate-set-based-csb-block-template-construction) nel loro Mempool.
+> Lo sniping delle commissioni (fee sniping) è un problema che può emergere quando la ricompensa in bitcoin continua a diminuire e le commissioni di transazione iniziano a costituire la componente principale delle ricompense dei blocchi di. Se le commissioni diventano l'unico incentivo significativo, un miner con quota `x` per cento del tasso di hash ha un `x` per cento di possibilità di minare il blocco successivo. Di conseguenza il valore atteso per un miner onesto è l' `x` per cento del [miglior insieme di transazioni feerate](https://bitcoinops.org/en/newsletters/2021/06/02/#candidate-set-based-csb-block-template-construction) presente nel loro mempool().
 >
 
-> In alternativa, un miner potrebbe tentare disonestamente di ri-minire il blocco precedente più un blocco completamente nuovo per estendere la catena. Questo comportamento viene definito fee sniping e la probabilità che il miner disonesto riesca nell'intento se ogni altro miner è onesto è `(x/(1-x))^2`. Anche se il fee sniping ha una probabilità di successo complessivamente più bassa rispetto al Mining onesto, tentare il Mining disonesto potrebbe essere la scelta più redditizia se le transazioni nel blocco precedente hanno pagato feerate significativamente più alte rispetto alle transazioni attualmente nel Mempool: una piccola possibilità di ottenere un importo elevato può valere più di una grande possibilità di ottenere un importo ridotto.
+> In alternativa, un miner potrebbe tentare disonestamente di ri-minare il blocco precedente, e subito dopo, un blocco completamente nuovo per estendere la catena. Questo comportamento viene definito _fee sniping_ ,e la probabilità che il miner disonesto riesca nell'intento se ogni altro miner è onesto è `(x/(1-x))^2`. 
+Anche se il fee sniping ha una probabilità di successo complessivamente inferiore rispetto al mining onesto, il tentativo può risultare economicamente più conveniente se le transazioni incluse nel blocco precedente abbiano pagato feerate significativamente più alte rispetto alle transazioni attualmente presenti nel mempool: una bassa probabilità di ottenere un importo elevato può valere più di una probabilità di ottenere un guadagno ridotto.
 
-A gettare una cappa di sabbia sulle nostre speranze per il futuro c'è il fatto che se i miner iniziano a fare sniping a pagamento, questo incentiverà altri a fare lo stesso, lasciando ancora meno miner onesti. Questo potrebbe compromettere gravemente la sicurezza complessiva di  Bitcoin. Harding prosegue elencando alcune contromisure che possono essere adottate, come ad esempio affidarsi ai blocchi temporali delle transazioni per limitare il punto della blockchain in cui la transazione può apparire.
+A gettare una un'ombra sulle nostre speranze per il futuro è il fatto che se i miner iniziassero a fare _fee sniping_, questo incentiverà altri a fare lo stesso, riducendo ulteriormente i miner onesti. Questo potrebbe compromettere gravemente la sicurezza complessiva di Bitcoin. Harding prosegue elencando alcune contromisure possibili, come l'uso di _time lock_ sulle transazioni per limitare i punti della blockchain in cui la transazione può apparire.
 
-
-Quindi, dato che il consenso sul Supply finito rimane, la ricompensa dei blocchi - grazie a [BIP42](https://github.com/Bitcoin/bips/blob/master/bip-0042.mediawiki) che ha risolto un bug di inflazione a lungo termine - arriverà a zero intorno all'anno 2140. Le commissioni di transazione saranno quindi sufficienti a garantire la sicurezza della rete?
-
+Quindi, dato che il consenso sulla supply finita rimane, la ricompensa dei blocchi - grazie al [BIP42](https://github.com/Bitcoin/bips/blob/master/bip-0042.mediawiki) che ha risolto un bug di inflazione a lungo termine - arriverà a zero intorno all'anno 2140. Le commissioni delle transazioni saranno quindi sufficienti a garantire la sicurezza della rete?
 
 È impossibile dirlo, ma sappiamo alcune cose:
 
+- Un secolo è un tempo *lungo* dal punto di vista di Bitcoin. Se è ancora in circolazione, probabilmente si sarà evoluto enormemente.
+- Se una maggioranza economica schiacciante ritiene necessario cambiare le regole e introdurre, ad esempio, un'inflazione monetaria annuale perpetua dello 0,1% o dell'1%, la supply di Bitcoin non sarà più finito.
+- Con zero ricompense per i blocchi e un mempool vuoto o quasi, la situazione può diventare traballante a causa del _fee sniping_.
 
-- Un secolo è un tempo *lungo* dal punto di vista di  Bitcoin. Se è ancora in circolazione, probabilmente si sarà evoluto enormemente.
-- Se una maggioranza economica schiacciante ritiene necessario cambiare le regole e introdurre, ad esempio, un'inflazione monetaria annuale perpetua dello 0,1% o dell'1%, il Supply di  Bitcoin non sarà più finito.
-- Con zero sovvenzioni per i blocchi e un Mempool vuoto o quasi, la situazione può diventare traballante a causa del cecchino delle tasse.
-
-
-Poiché la transizione a un Block reward a pagamento è così lontana nel tempo, sarebbe saggio non saltare alle conclusioni e cercare di risolvere i potenziali problemi finché siamo in tempo. Ad esempio, Peter Todd pensa che ci sia un rischio effettivo che il budget di sicurezza di  Bitcoin non sia sufficiente in futuro e di conseguenza sostiene la necessità di una piccola inflazione perpetua nel Bitcoin. Tuttavia, pensa anche che non sia una buona idea discutere di questo problema in questo momento, come [ha detto nel podcast What Bitcoin Did](https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-Bitcoin):
-
+Poiché la transizione a un block reward composto di sole commissioni è così lontana nel tempo, sarebbe saggio non saltare a conclusioni e cercare di risolvere i potenziali problemi finché siamo in tempo. Ad esempio, Peter Todd pensa che ci sia un rischio effettivo che il budget di sicurezza di Bitcoin non sia sufficiente in futuro e di conseguenza sostiene la necessità di una piccola inflazione perpetua in Bitcoin. Tuttavia, pensa anche che non sia una buona idea discutere di questo problema in questo momento, come [ha detto nel podcast What Bitcoin Did](https://www.whatbitcoindid.com/podcast/peter-todd-on-the-essence-of-Bitcoin):
 
 > Ma si tratta di un rischio che riguarda 10 o 20 anni nel futuro. È un periodo molto lungo. E per allora, chi diavolo sa quali sono i rischi?
 
-Forse potremmo pensare al Bitcoin come a qualcosa di organico. Immaginate una piccola pianta di quercia che cresce lentamente. Immaginate anche di non aver mai visto un albero completamente cresciuto in vita vostra. Non sarebbe allora saggio limitare i vostri problemi di controllo invece di stabilire in anticipo tutte le regole su come questa pianta dovrebbe essere lasciata evolvere e crescere?
+Forse potremmo pensare a Bitcoin come a qualcosa di organico. Immagina una piccola pianta di quercia che cresce lentamente. Immagina anche di non aver mai visto un albero completamente cresciuto in vita tua. Non sarebbe allora saggio limitare i tuoi problemi di controllo invece di stabilire in anticipo tutte le regole su come questa pianta dovrebbe essere lasciata evolvere e crescere?
+
+### Conclusione sulla supply finita
 
 
-### Conclusione sul Supply finito
-
-
-
-Se il Bitcoin Supply crescerà oltre i 21 milioni non possiamo dirlo oggi, e probabilmente non è un male. Garantire che il budget per la sicurezza rimanga sufficientemente alto è fondamentale ma non urgente. Discutiamone tra 10-50 anni, quando ne sapremo di più. Se sarà ancora rilevante.
-
+Se l'offerta di Bitcoin crescerà oltre i 21 milioni non possiamo dirlo oggi, e probabilmente non è un male. Garantire che il budget per la sicurezza rimanga sufficientemente alto è fondamentale ma non urgente. Discutiamone tra 10-50 anni, quando ne sapremo di più. Se sarà ancora un problema rilevante.
 
 # Bitcoin Gouvernance
-
 <partId>411bf53f-af4b-50f1-b71b-e40fe3ff64b7</partId>
 
-
 ## Aggiornamento
-
 <chapterId>3ffa84d1-adfa-5fbc-9b13-384ea783fcdd</chapterId>
-
 
 
 ![](assets/it/007.webp)
 
 
-Aggiornare il Bitcoin in modo sicuro può essere estremamente difficile. Alcune modifiche richiedono diversi anni per essere implementate. In questo capitolo, impariamo a conoscere il vocabolario comune sull'aggiornamento di  Bitcoin ed esploriamo alcuni esempi di aggiornamenti storici del suo protocollo, nonché le intuizioni che ne abbiamo ricavato. Infine, si parla delle suddivisioni della catena e dei rischi e dei costi ad esse correlati.
+Aggiornare Bitcoin in modo sicuro può essere estremamente difficile. Alcune modifiche richiedono diversi anni per essere implementate. In questo capitolo, impariamo a conoscere il vocabolario comune riguardo l'aggiornamento di Bitcoin ed esploriamo alcuni esempi di aggiornamenti storici del suo protocollo, e le intuizioni che ne abbiamo ricavato. Infine, si parla delle suddivisioni della blockchain, dei rischi e dei costi ad esse correlati.
 
+Per entrare in sintonia con questo capitolo, si consiglia di leggere [il testo di David Harding su armonia e discordia](https://bitcointalk.org/dec/p1.html):
 
-Per entrare in sintonia con questo capitolo, si consiglia di leggere [il pezzo di David Harding su armonia e discordia](https://bitcointalk.org/dec/p1.html):
-
-
-> Gli esperti Bitcoin parlano spesso di consenso, il cui significato è astratto e Hard difficile da definire. Ma la parola consenso si è evoluta dalla parola latina concentus, "un'armonia che canta insieme", quindi non parliamo di consenso Bitcoin ma di armonia Bitcoin.
+> Gli esperti Bitcoin parlano spesso di consenso, il cui significato è astratto e difficile da definire. Ma la parola consenso si è evoluta dalla parola latina concentus, "un'armonia che canta insieme", quindi non parliamo di consenso di Bitcoin ma armonia di Bitcoin.
 >
-
-> L'armonia è ciò che fa funzionare il Bitcoin. Migliaia di full nodes lavorano ciascuno in modo indipendente per verificare che le transazioni che ricevono siano valide, producendo un accordo armonioso sullo stato di  Bitcoin Ledger senza che nessun operatore di nodo debba fidarsi di nessun altro. È simile a un coro in cui ogni membro canta la stessa canzone nello stesso momento per produrre qualcosa di molto più bello di quello che ognuno di loro potrebbe produrre da solo.
+> L'armonia è ciò che fa funzionare Bitcoin. Migliaia di full node lavorano ciascuno in modo indipendente per verificare che le transazioni che ricevono siano valide, producendo un accordo armonioso sullo stato del Bitcoin ledger(registro) senza che nessun operatore di nodo debba fidarsi di nessun altro. È simile a un coro in cui ogni membro canta la stessa canzone nello stesso momento per produrre qualcosa di molto più bello di quello che ognuno di loro potrebbe produrre da solo.
 >
+> Il risultato dell'armonia di Bitcoin è un sistema in cui i bitcoin sono al sicuro non solo dai ladruncoli (a patto di tenere le chiavi al sicuro), ma anche da un'inflazione senza fine, da una confisca di massa o mirata, o semplicemente dal pantano burocratico che è il sistema finanziario tradizionale.
 
-> Il risultato dell'armonia di  Bitcoin è un sistema in cui i bitcoin sono al sicuro non solo dai ladruncoli (a patto di tenere le chiavi al sicuro), ma anche da un'inflazione senza fine, da una confisca di massa o mirata, o semplicemente dal pantano burocratico che è il sistema finanziario tradizionale.
-
-In questo capitolo si discute di come il Bitcoin possa essere aggiornato senza causare discordia. Rimanere in armonia, cioè mantenere il consenso, è infatti una delle sfide più grandi nello sviluppo di Bitcoin. I meccanismi di aggiornamento presentano molte sfumature, che possono essere meglio comprese studiando i casi reali di aggiornamento precedenti. Per questo motivo, il capitolo si concentra molto sugli esempi storici e inizia preparando la scena con un vocabolario utile.
-
+In questo capitolo si discute di come Bitcoin possa essere aggiornato senza causare discordia. Rimanere in armonia, cioè mantenere il consenso, è infatti una delle sfide più grandi nello sviluppo di Bitcoin. Le procedure di aggiornamento presentano molte sfumature, che possono essere comprese al meglio studiando i casi reali di aggiornamenti precedenti. Per questo motivo, il capitolo si concentra sugli esempi storici, iniziando con l'introduzione di un vocabolario utile.
 
 ### Vocabolario
 
 
+Secondo Wikipedia, la [compatibilità futura](https://en.wikipedia.org/wiki/Forward_compatibility) si riferisce alla condizione in cui un vecchio software può elaborare i dati creati da software più recenti, ignorando le parti che non comprende:
 
-Secondo Wikipedia, la [compatibilità in avanti](https://en.wikipedia.org/wiki/Forward_compatibility) si riferisce alla condizione in cui un vecchio software può elaborare i dati creati da software più recenti, ignorando le parti che non comprende:
-
-
-Uno standard supporta la compatibilità con il futuro se un prodotto conforme alle versioni precedenti è in grado di elaborare "con grazia" input progettati per versioni successive dello standard, ignorando le nuove parti che non comprende.
-
+Uno standard supporta la compatibilità futura se un prodotto conforme alle versioni precedenti è in grado di elaborare "in modo corretto" input progettati per versioni successive dello standard, ignorando le nuove parti che non è in grado di interpretare.
 
 Viceversa, la [retrocompatibilità](https://en.wikipedia.org/wiki/Backward_compatibility) si riferisce a quando i dati di un vecchio software sono utilizzabili su software più recenti. Si dice che una modifica è pienamente compatibile se è compatibile sia in avanti che all'indietro.
 
+Una modifica alle regole di consenso di Bitcoin è detta *Soft Fork* se è pienamente compatibile. Questo è il modo più comune di aggiornare Bitcoin, per una serie di ragioni che verranno discusse più avanti in questo capitolo. Se una modifica alle regole di consenso di Bitcoin è compatibile con il passato ma non con il futuro, si parla di *Hard Fork*.
 
-Una modifica alle regole di consenso Bitcoin è detta *Soft Fork* se è pienamente compatibile. Questo è il modo più comune di aggiornare il Bitcoin, per una serie di ragioni che verranno discusse più avanti in questo capitolo. Se una modifica alle regole di consenso di Bitcoin è compatibile con il passato ma non con il futuro, si parla di *Hard Fork*.
-
-
-Per una panoramica tecnica sulle forcelle Soft e Hard, leggere [il capitolo 11 di Grokking Bitcoin](https://rosenbaum.se/book/grokking-Bitcoin-11.html). Spiega questi termini e si addentra anche nei meccanismi di aggiornamento. Si consiglia, anche se non è strettamente necessario, di acquisire una buona conoscenza di questo argomento prima di continuare a leggere.
-
+Per una panoramica tecnica su Soft e Hard fork, leggere [il capitolo 11 di Grokking Bitcoin](https://rosenbaum.se/book/grokking-Bitcoin-11.html). Spiega questi termini e si addentra anche nei meccanismi di aggiornamento. Si consiglia, anche se non è strettamente necessario, di acquisire una buona conoscenza di questo argomento prima di continuare a leggere.
 
 ### Aggiornamenti storici
-
 
 
 Il Bitcoin non è più lo stesso di quando è stato creato il blocco Genesis. Nel corso degli anni sono stati apportati diversi aggiornamenti. Nel 2018, Eric Lombrozo [ha parlato alla conferenza Breaking Bitcoin](https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) dei diversi meccanismi di aggiornamento di  Bitcoin, sottolineando quanto si siano evoluti nel tempo. Ha persino spiegato come Satoshi Nakamoto una volta abbia aggiornato Bitcoin attraverso un Hard Fork:

@@ -40,7 +40,6 @@ Czy chcesz odkryć, dlaczego wolność jest nie tylko moralnym ideałem, ale tak
 
 
 
-![video](https://www.youtube.com/watch?v=md-rDzJX0Ws)
 
 
 
@@ -96,7 +95,6 @@ Co więcej, odczucia są z natury indywidualne. Nie można doświadczyć głodu 
 
 
 
-![video](https://www.youtube.com/watch?v=w9DUtXbOYEg)
 
 
 
@@ -152,7 +150,6 @@ Historia Francji ilustruje konsekwencje braku tej wolności. Pomimo wpływu Ośw
 
 
 
-![video](https://www.youtube.com/watch?v=Vjm91Lve_SA)
 
 
 
@@ -238,7 +235,6 @@ Wszystkie te obserwacje nie stanowią abstrakcyjnej teorii, ale rygorystyczną o
 
 
 
-![video](https://www.youtube.com/watch?v=Wlc3WLYFjXo)
 
 
 
@@ -306,7 +302,6 @@ Kwestia małżeństwa ilustruje te zasady: wybór małżonka musi być wolny, po
 
 
 
-![video](https://www.youtube.com/watch?v=8Ib5M-6Rr8M)
 
 
 
@@ -383,7 +378,6 @@ Wreszcie, zniesienie odsetek od pieniądza i regulacja zysków to ataki na mecha
 
 
 
-![video](https://www.youtube.com/watch?v=eS_LZr9iKto)
 
 
 
@@ -452,7 +446,6 @@ Analiza historyczna pokazuje, że wolność nie jest utraconym stanem naturalnym
 
 
 
-![video](https://www.youtube.com/watch?v=v7blehzJCr8)
 
 
 
@@ -511,7 +504,6 @@ Analiza historycznych przyczyn braku wolności ujawnia fundamentalny trend: tran
 
 
 
-![video](https://www.youtube.com/watch?v=X4Htu6xM4Qk)
 
 
 
@@ -571,7 +563,6 @@ Analiza różnych etapów rozwoju ujawnia głęboką korelację między warunkam
 
 
 
-![video](https://www.youtube.com/watch?v=Uzns3FT688k)
 
 
 
@@ -630,7 +621,6 @@ Rewolucje mają znaczące wady: generate są bardzo brutalne i mają tendencję 
 
 
 
-![video](https://www.youtube.com/watch?v=0q_m3KIoq-U)
 
 
 
@@ -684,7 +674,6 @@ Refleksja ta prowadzi do zasadniczego wniosku: dzisiejsze okoliczności są mate
 
 
 
-![video](https://www.youtube.com/watch?v=aEoerhy6ERU)
 
 
 
@@ -745,7 +734,6 @@ Po ustaleniu tych warunków wstępnych możliwe jest teraz zbadanie faktycznych 
 
 
 
-![video](https://www.youtube.com/watch?v=xcaV6Kb21O0)
 
 
 
@@ -801,7 +789,6 @@ Z tej analizy wynika fundamentalny wniosek: zwiększenie wymiany handlowej międ
 
 
 
-![video](https://www.youtube.com/watch?v=qrE5GJWNwGE)
 
 
 
@@ -860,7 +847,6 @@ Decydującą zaletą wolności gospodarczej jest to, że produkcja nigdy nie jes
 
 
 
-![video](https://www.youtube.com/watch?v=tfH8FapqqsE)
 
 
 
@@ -920,7 +906,6 @@ W wolnym społeczeństwie własny interes prowadzi do innowacji i postępu. W ni
 
 
 
-![video](https://www.youtube.com/watch?v=hS1_Nkd_H9M)
 
 
 
@@ -976,7 +961,6 @@ Przejście do pokojowego społeczeństwa to długi proces uczenia się. Społecz
 
 
 
-![video](https://www.youtube.com/watch?v=DzE_iGRP5Z0)
 
 
 
@@ -1035,7 +1019,6 @@ Systemy braku wolności charakteryzują się właśnie nierównością: niektór
 
 
 
-![video](https://www.youtube.com/watch?v=LDMCs9wCTQc)
 
 
 
@@ -1095,7 +1078,6 @@ I odwrotnie, relacje oparte na władzy politycznej funkcjonują w okrojony spos�
 
 
 
-![video](https://www.youtube.com/watch?v=mfvPE1fO3-E)
 
 
 
@@ -1167,7 +1149,6 @@ Doktryna wolności przeciwstawia się tej logice zasadą indywidualnej i zbiorow
 
 
 
-![video](https://www.youtube.com/watch?v=VT3w2BjiD8E)
 
 
 
@@ -1227,7 +1208,6 @@ Autorzy ci zidentyfikowali protekcjonizm pracowniczy jako przyszłą dominując�
 
 
 
-![video](https://www.youtube.com/watch?v=MRcLZ1SpAo8)
 
 
 
@@ -1297,7 +1277,6 @@ Ta intelektualna i faktyczna historia porażki braku wolności jest fundamentaln
 
 
 
-![video](https://www.youtube.com/watch?v=asOEZJRQuOw)
 
 
 
@@ -1341,7 +1320,6 @@ Kluczowe rozróżnienie dotyczy wolności negatywnej i pozytywnej. Wolność neg
 
 
 
-![video](https://www.youtube.com/watch?v=mkzE0SfSl1Q)
 
 
 
@@ -1396,7 +1374,6 @@ W obliczu tych niebezpieczeństw myśl liberalna, zwłaszcza Benjamina Constanta
 
 
 
-![video](https://www.youtube.com/watch?v=K1e39vtOoCc)
 
 
 
@@ -1456,7 +1433,6 @@ Fałsze ekonomiczne są jednak tylko jedną z wielu kategorii. Na szczególną u
 
 
 
-![video](https://www.youtube.com/watch?v=zJhhcxwXpRI)
 
 
 
@@ -1515,7 +1491,6 @@ Niemniej jednak liberalni pisarze mają silną wrażliwość na biedę i słabyc
 
 
 
-![video](https://www.youtube.com/watch?v=GtxJlUa_H08)
 
 
 
@@ -1582,7 +1557,6 @@ Analiza ta pozwala nam również zrozumieć, w jaki sposób systemy niewolności
 
 
 
-![video](https://www.youtube.com/watch?v=ary4UJhwRl8)
 
 
 
@@ -1646,7 +1620,6 @@ Courcelle-Seneuil po prostu potwierdził idee rewolucji francuskiej dotyczące w
 
 
 
-![video](https://www.youtube.com/watch?v=c8Wi5jkSEu8)
 
 
 
@@ -1707,7 +1680,6 @@ Obecna rzeczywistość pokazuje paradoksalną i smutną sytuację. Specjaliści 
 
 
 
-![video](https://www.youtube.com/watch?v=cEzFGSnYfnk)
 
 
 
@@ -1771,7 +1743,6 @@ Molinari i zdecydowana większość francuskich liberałów jego czasów postrze
 
 
 
-![video](https://www.youtube.com/watch?v=b8PojgZ0TQo)
 
 
 
@@ -1831,7 +1802,6 @@ Taki stan prawa międzynarodowego, który uznawałby swobodę działania, jednoc
 
 
 
-![video](https://www.youtube.com/watch?v=OfqTuJvo3MQ)
 
 
 

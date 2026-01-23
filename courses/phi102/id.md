@@ -40,7 +40,6 @@ Ready to discover why freedom is not only a moral ideal, but also the most effec
 
 
 
-![video](https://www.youtube.com/watch?v=md-rDzJX0Ws)
 
 
 
@@ -96,7 +95,6 @@ Selain itu, sensasi pada dasarnya bersifat individual. Seseorang tidak dapat men
 
 
 
-![video](https://www.youtube.com/watch?v=w9DUtXbOYEg)
 
 
 
@@ -152,7 +150,6 @@ Sejarah Prancis menggambarkan konsekuensi dari ketiadaan kebebasan ini. Terlepas
 
 
 
-![video](https://www.youtube.com/watch?v=Vjm91Lve_SA)
 
 
 
@@ -238,7 +235,6 @@ Secara keseluruhan, pengamatan ini bukan merupakan teori abstrak, tetapi merupak
 
 
 
-![video](https://www.youtube.com/watch?v=Wlc3WLYFjXo)
 
 
 
@@ -306,7 +302,6 @@ Pertanyaan tentang pernikahan menggambarkan prinsip-prinsip ini: pilihan pasanga
 
 
 
-![video](https://www.youtube.com/watch?v=8Ib5M-6Rr8M)
 
 
 
@@ -383,7 +378,6 @@ Akhirnya, penghapusan bunga uang dan regulasi keuntungan adalah serangan terhada
 
 
 
-![video](https://www.youtube.com/watch?v=eS_LZr9iKto)
 
 
 
@@ -452,7 +446,6 @@ Analisis historis menunjukkan bahwa kebebasan bukanlah keadaan alami yang hilang
 
 
 
-![video](https://www.youtube.com/watch?v=v7blehzJCr8)
 
 
 
@@ -511,7 +504,6 @@ Pemeriksaan terhadap alasan historis dari ketidakbebasan mengungkapkan sebuah tr
 
 
 
-![video](https://www.youtube.com/watch?v=X4Htu6xM4Qk)
 
 
 
@@ -571,7 +563,6 @@ Pemeriksaan terhadap berbagai tahap perkembangan mengungkapkan korelasi yang men
 
 
 
-![video](https://www.youtube.com/watch?v=Uzns3FT688k)
 
 
 
@@ -630,7 +621,6 @@ Revolusi memiliki kekurangan yang signifikan: mereka banyak menggunakan kekerasa
 
 
 
-![video](https://www.youtube.com/watch?v=0q_m3KIoq-U)
 
 
 
@@ -684,7 +674,6 @@ Refleksi ini mengarah pada kesimpulan penting: kondisi saat ini secara material 
 
 
 
-![video](https://www.youtube.com/watch?v=aEoerhy6ERU)
 
 
 
@@ -745,7 +734,6 @@ Setelah menetapkan prasyarat-prasyarat ini, sekarang kita dapat memeriksa elemen
 
 
 
-![video](https://www.youtube.com/watch?v=xcaV6Kb21O0)
 
 
 
@@ -801,7 +789,6 @@ From this analysis stems a fundamental conclusion: increasing trade between the 
 
 
 
-![video](https://www.youtube.com/watch?v=qrE5GJWNwGE)
 
 
 
@@ -860,7 +847,6 @@ The decisive advantage of economic freedom is that production is never too early
 
 
 
-![video](https://www.youtube.com/watch?v=tfH8FapqqsE)
 
 
 
@@ -920,7 +906,6 @@ In a free society, self-interest leads to innovation and progress. In a system o
 
 
 
-![video](https://www.youtube.com/watch?v=hS1_Nkd_H9M)
 
 
 
@@ -976,7 +961,6 @@ The transition to a peaceful society is a long learning process. Human societies
 
 
 
-![video](https://www.youtube.com/watch?v=DzE_iGRP5Z0)
 
 
 
@@ -1035,7 +1019,6 @@ Sistem ketidakbebasan ditandai dengan ketidaksetaraan: beberapa individu dengan 
 
 
 
-![video](https://www.youtube.com/watch?v=LDMCs9wCTQc)
 
 
 
@@ -1095,7 +1078,6 @@ Sebaliknya, hubungan yang didasarkan pada kekuatan politik berfungsi dengan cara
 
 
 
-![video](https://www.youtube.com/watch?v=mfvPE1fO3-E)
 
 
 
@@ -1167,7 +1149,6 @@ Doktrin kebebasan menentang logika ini dengan prinsip pemisahan diri secara indi
 
 
 
-![video](https://www.youtube.com/watch?v=VT3w2BjiD8E)
 
 
 
@@ -1227,7 +1208,6 @@ Para penulis ini mengidentifikasi proteksionisme tenaga kerja sebagai bentuk pro
 
 
 
-![video](https://www.youtube.com/watch?v=MRcLZ1SpAo8)
 
 
 
@@ -1297,7 +1277,6 @@ Sejarah intelektual dan faktual tentang kegagalan ketidakbebasan ini merupakan p
 
 
 
-![video](https://www.youtube.com/watch?v=asOEZJRQuOw)
 
 
 
@@ -1341,7 +1320,6 @@ Perbedaan penting adalah antara kebebasan negatif dan positif. Kebebasan negatif
 
 
 
-![video](https://www.youtube.com/watch?v=mkzE0SfSl1Q)
 
 
 
@@ -1396,7 +1374,6 @@ Menghadapi bahaya-bahaya ini, pemikiran liberal, terutama pemikiran Benjamin Con
 
 
 
-![video](https://www.youtube.com/watch?v=K1e39vtOoCc)
 
 
 
@@ -1456,7 +1433,6 @@ Namun, kekeliruan ekonomi hanyalah salah satu dari sekian banyak kekeliruan. Kek
 
 
 
-![video](https://www.youtube.com/watch?v=zJhhcxwXpRI)
 
 
 
@@ -1515,7 +1491,6 @@ Namun demikian, para penulis liberal memiliki kepekaan yang kuat terhadap kemisk
 
 
 
-![video](https://www.youtube.com/watch?v=GtxJlUa_H08)
 
 
 
@@ -1582,7 +1557,6 @@ Analisis ini juga memungkinkan kita untuk memahami bagaimana sistem yang tidak b
 
 
 
-![video](https://www.youtube.com/watch?v=ary4UJhwRl8)
 
 
 
@@ -1646,7 +1620,6 @@ Courcelle-Seneuil hanya menegaskan ide-ide Revolusi Perancis tentang kebebasan t
 
 
 
-![video](https://www.youtube.com/watch?v=c8Wi5jkSEu8)
 
 
 
@@ -1707,7 +1680,6 @@ Kenyataan yang ada saat ini menunjukkan situasi yang paradoks dan menyedihkan. P
 
 
 
-![video](https://www.youtube.com/watch?v=cEzFGSnYfnk)
 
 
 
@@ -1771,7 +1743,6 @@ Molinari dan sebagian besar kaum liberal Prancis pada masanya memandang imigrasi
 
 
 
-![video](https://www.youtube.com/watch?v=b8PojgZ0TQo)
 
 
 
@@ -1831,7 +1802,6 @@ Kondisi hukum internasional seperti itu, yang akan mengakui kebebasan bertindak 
 
 
 
-![video](https://www.youtube.com/watch?v=OfqTuJvo3MQ)
 
 
 

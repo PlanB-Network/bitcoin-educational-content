@@ -40,7 +40,6 @@ Uko tayari kugundua kwa nini uhuru si tu wazo bora la kimaadili, bali pia suluhi
 
 
 
-![video](https://www.youtube.com/watch?v=md-rDzJX0Ws)
 
 
 
@@ -96,7 +95,6 @@ Zaidi ya hayo, hisia ni za kibinafsi kiasili. Mtu hawezi kupata njaa kupitia mac
 
 
 
-![video](https://www.youtube.com/watch?v=w9DUtXbOYEg)
 
 
 
@@ -152,7 +150,6 @@ Historia ya Ufaransa inaonyesha matokeo ya kutokuwepo kwa uhuru huu. Licha ya us
 
 
 
-![video](https://www.youtube.com/watch?v=Vjm91Lve_SA)
 
 
 
@@ -238,7 +235,6 @@ Kwa ujumla, uchunguzi huu haujumuishi nadharia ya kufikirika, bali ni uelewa mka
 
 
 
-![video](https://www.youtube.com/watch?v=Wlc3WLYFjXo)
 
 
 
@@ -306,7 +302,6 @@ Suala la ndoa linaonyesha kanuni hizi: uchaguzi wa mwenzi lazima uwe huru, kwa s
 
 
 
-![video](https://www.youtube.com/watch?v=8Ib5M-6Rr8M)
 
 
 
@@ -383,7 +378,6 @@ Hatimaye, kukomeshwa kwa riba ya pesa na udhibiti wa faida ni mashambulizi dhidi
 
 
 
-![video](https://www.youtube.com/watch?v=eS_LZr9iKto)
 
 
 
@@ -452,7 +446,6 @@ Uchambuzi wa kihistoria unaonyesha kwamba uhuru si hali ya asili iliyopotea ya k
 
 
 
-![video](https://www.youtube.com/watch?v=v7blehzJCr8)
 
 
 
@@ -511,7 +504,6 @@ Uchunguzi wa sababu za kihistoria za ukosefu wa uhuru unaonyesha mwelekeo wa msi
 
 
 
-![video](https://www.youtube.com/watch?v=X4Htu6xM4Qk)
 
 
 
@@ -571,7 +563,6 @@ Uchunguzi wa hatua tofauti za maendeleo unaonyesha uhusiano mkubwa kati ya hali 
 
 
 
-![video](https://www.youtube.com/watch?v=Uzns3FT688k)
 
 
 
@@ -630,7 +621,6 @@ Mapinduzi yana mapungufu makubwa: yanasababisha vurugu nyingi katika generate na
 
 
 
-![video](https://www.youtube.com/watch?v=0q_m3KIoq-U)
 
 
 
@@ -684,7 +674,6 @@ Tafakari hii inaongoza kwenye hitimisho muhimu: hali za leo ndizo zinazofaa zaid
 
 
 
-![video](https://www.youtube.com/watch?v=aEoerhy6ERU)
 
 
 
@@ -745,7 +734,6 @@ Baada ya kuweka masharti haya ya awali, sasa inawezekana kuchunguza vipengele vy
 
 
 
-![video](https://www.youtube.com/watch?v=xcaV6Kb21O0)
 
 
 
@@ -801,7 +789,6 @@ Kutokana na uchambuzi huu, hitimisho la msingi linatokana na: kuongezeka kwa bia
 
 
 
-![video](https://www.youtube.com/watch?v=qrE5GJWNwGE)
 
 
 
@@ -860,7 +847,6 @@ Faida kuu ya uhuru wa kiuchumi ni kwamba uzalishaji hauwi mapema sana au kuchele
 
 
 
-![video](https://www.youtube.com/watch?v=tfH8FapqqsE)
 
 
 
@@ -920,7 +906,6 @@ Katika jamii huru, ubinafsi husababisha uvumbuzi na maendeleo. Katika mfumo wa k
 
 
 
-![video](https://www.youtube.com/watch?v=hS1_Nkd_H9M)
 
 
 
@@ -976,7 +961,6 @@ Mpito wa kuelekea jamii yenye amani ni mchakato mrefu wa kujifunza. Jamii za wan
 
 
 
-![video](https://www.youtube.com/watch?v=DzE_iGRP5Z0)
 
 
 
@@ -1035,7 +1019,6 @@ Mifumo ya kutokuwa na uhuru ina sifa haswa ya ukosefu wa usawa: baadhi ya watu h
 
 
 
-![video](https://www.youtube.com/watch?v=LDMCs9wCTQc)
 
 
 
@@ -1095,7 +1078,6 @@ Kinyume chake, mahusiano yanayotegemea nguvu za kisiasa hufanya kazi kwa njia il
 
 
 
-![video](https://www.youtube.com/watch?v=mfvPE1fO3-E)
 
 
 
@@ -1167,7 +1149,6 @@ Fundisho la uhuru linapinga mantiki hii kwa kanuni ya kujitenga kwa mtu binafsi 
 
 
 
-![video](https://www.youtube.com/watch?v=VT3w2BjiD8E)
 
 
 
@@ -1227,7 +1208,6 @@ Waandishi hawa walitambua ulinzi wa wafanyakazi kama aina kuu ya ulinzi wa siku 
 
 
 
-![video](https://www.youtube.com/watch?v=MRcLZ1SpAo8)
 
 
 
@@ -1297,7 +1277,6 @@ Historia hii ya kiakili na ya kweli ya kushindwa kwa ukosefu wa uhuru ni somo la
 
 
 
-![video](https://www.youtube.com/watch?v=asOEZJRQuOw)
 
 
 
@@ -1341,7 +1320,6 @@ Tofauti muhimu ni kati ya uhuru hasi na chanya. Uhuru hasi hufafanuliwa kama kut
 
 
 
-![video](https://www.youtube.com/watch?v=mkzE0SfSl1Q)
 
 
 
@@ -1396,7 +1374,6 @@ Wakikabiliwa na hatari hizi, mawazo ya kiliberali, hasa yale ya Benjamin Constan
 
 
 
-![video](https://www.youtube.com/watch?v=K1e39vtOoCc)
 
 
 
@@ -1456,7 +1433,6 @@ Hata hivyo, makosa ya kiuchumi ni kundi moja tu kati ya mengi. Uongo wa kiakili 
 
 
 
-![video](https://www.youtube.com/watch?v=zJhhcxwXpRI)
 
 
 
@@ -1515,7 +1491,6 @@ Hata hivyo, waandishi wa kiliberali wana unyeti mkubwa kuelekea umaskini na wany
 
 
 
-![video](https://www.youtube.com/watch?v=GtxJlUa_H08)
 
 
 
@@ -1582,7 +1557,6 @@ Uchambuzi huu pia unatuwezesha kuelewa jinsi mifumo ya ukosefu wa uhuru inavyodh
 
 
 
-![video](https://www.youtube.com/watch?v=ary4UJhwRl8)
 
 
 
@@ -1646,7 +1620,6 @@ Courcelle-Seneuil alisisitiza tu mawazo ya Mapinduzi ya Ufaransa kuhusu uhuru wa
 
 
 
-![video](https://www.youtube.com/watch?v=c8Wi5jkSEu8)
 
 
 
@@ -1707,7 +1680,6 @@ Ukweli wa sasa unaonyesha hali ya kitendawili na ya kusikitisha. Wataalamu wa el
 
 
 
-![video](https://www.youtube.com/watch?v=cEzFGSnYfnk)
 
 
 
@@ -1771,7 +1743,6 @@ Molinari na idadi kubwa ya waliberali wa Ufaransa wa wakati wake waliuona uhamia
 
 
 
-![video](https://www.youtube.com/watch?v=b8PojgZ0TQo)
 
 
 
@@ -1831,7 +1802,6 @@ Hali kama hiyo ya sheria ya kimataifa, ambayo ingetambua uhuru wa kutenda huku i
 
 
 
-![video](https://www.youtube.com/watch?v=OfqTuJvo3MQ)
 
 
 

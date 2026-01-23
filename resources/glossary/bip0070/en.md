@@ -1,6 +1,6 @@
 ---
 term: BIP0070
-definition:
+definition: Interactive payment protocol using payment requests signed by SSL certificate. Never widely adopted.
 ---
 
 Interactive payment protocol for Bitcoin. 

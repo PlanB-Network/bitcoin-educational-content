@@ -1,6 +1,6 @@
 ---
 term: Heuristic ya uchambuzi
-definition:
+definition: Njia ya empirical inayotumiwa kusambaza mtiririko wa Bitcoin kwenye blockchain kulingana na sifa zenye mlangano katika miamala.
 ---
 
 Uchanganuzi wa heuristic kwa msururu wa Bitcoin ni familia ya mbinu za majaribio zinazotumiwa kufuatilia mtiririko wa bitcoins kwenye Blockchain kulingana na sifa zinazozingatiwa katika shughuli za malipo. Heuristic ni mbinu ya vitendo ya kutatua matatizo, mara nyingi kwa njia ya takriban, lakini inawakilisha suluhisho zuri vya kutosha kufikia lengo fulani. Heuristics hizi hutoa matokeo ya kuaminika, lakini kamwe hayatoi kwa usahihi kabisa. Kwa maneno mengine, uchambuzi wa mnyororo daima unahusisha kiwango cha uwezekano katika hitimisho linalotolewa. Kwa mfano, inaweza kukadiriwa kwa uhakika zaidi au mdogo kwamba anwani mbili ni za huluki moja, lakini uhakika kamili haupatikani kila wakati. Lengo zima la uchanganuzi wa minyororo liko katika mjumuisho wa mifumo mbalimbali ya urithi ili kupunguza hatari ya makosa. Ni, kwa njia fulani, mkusanyiko wa ushahidi unaotuwezesha kupata karibu na ukweli. Katika hali hii, heuristics ya ndani na nje yanatofautishwa.

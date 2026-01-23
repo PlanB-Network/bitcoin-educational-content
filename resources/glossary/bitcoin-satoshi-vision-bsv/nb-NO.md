@@ -1,7 +1,7 @@
 ---
 term: Bitcoin Satoshi Vision (BSV)
 
-definition:
+definition: Kryptovaluta som følge av en hard fork av Bitcoin Cash i 2018, med svært store blokkstørrelser.
 ---
 Kryptovalutasystem som er resultatet av en hard forgrening av Bitcoin Cash (BCH), som i seg selv er en forgrening av Bitcoin (BTC). Bitcoin SV-gaffelen skjedde 15. november 2018, ved blokk 556 766, på grunn av uenigheter innad i Bitcoin Cash-fellesskapet, særlig om blokkstørrelse og den antatte visjonen til Satoshi Nakamoto, skaperen av Bitcoin. To fraksjoner kolliderte:
 

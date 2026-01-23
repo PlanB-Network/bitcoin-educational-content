@@ -1,6 +1,6 @@
 ---
 term: Bitcoin Core GUI-QML
-definition:
+definition: Kaasaegne graafilise liidese projekt Bitcoin Core'i jaoks, mis kasutab QML-i sujuvama kasutajakogemuse tagamiseks.
 ---
 
 Käimasolev projekt Bitcoin portfelli ja sõlmede rakenduse loomiseks, mis põhineb Bitcoin Core'il, kuid millel on intuitiivne graafiline Interface, mis on välja töötatud QML (*Qt Modeling Language*) abil. Bitcoin Core GUI-QMLi eesmärk on moderniseerida Interface kasutajakogemust Bitcoin Core'is, et pakkuda lihtsamat, sujuvamat ja dünaamilisemat kasutajakogemust.

@@ -1,6 +1,6 @@
 ---
 term: Address spoofing
-definition:
+definition: Shambulio ambapo mtu mwonge anaunda anwani inayofanana kwa kilo na anwani ya mfungwa kugira ngo amdanganya na kugeuka malipo yake.
 ---
 
 Shambulio ambalo mwigizaji hasidi huunda Address (au kitambulisho kingine cha malipo) kinachofanana kwa karibu na kile cha mwathiriwa. Lengo ni kumhadaa mtumiaji ili kunakili Address hii isiyo sahihi wakati wa muamala, ambayo husababisha bitcoins kutumwa kwa mshambulizi badala ya kulengwa lengwa.

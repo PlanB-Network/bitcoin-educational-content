@@ -1,6 +1,6 @@
 ---
 term: Address spoofing
-definition:
+definition: Rünnak, mille käigus pahatahtlik toimija loob aadressit, mis on väga sarnane ohvri aadressiga, et teda pettagi ja tema makseid kõrvale juhtida.
 ---
 
 Rünnak, mille puhul pahatahtlik tegutseja loob Address (või muu makse identifikaatori), mis sarnaneb lähedalt ohvri omale. Eesmärgiks on petta kasutajat, et ta kopeeriks tehingu ajal selle vale Address, mille tulemusel saadetakse bitcoinid ründajale, mitte ettenähtud sihtkohale.

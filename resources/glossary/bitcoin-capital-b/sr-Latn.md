@@ -1,6 +1,6 @@
 ---
 term: Bitcoin (veliko B)
-definition:
+definition: Peer-to-peer elektronski gotovinski sistem koji označava protokol, mrežu ili sistem u celini.
 ---
 
 Bitcoin je naziv za peer-to-peer elektronski gotovinski sistem koji je kreirao Satoshi Nakamoto 2009. godine. Upotreba termina Bitcoin sa velikim slovom "B" može se odnositi na tri različite stvari:

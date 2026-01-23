@@ -1,7 +1,7 @@
 ---
 term: Riutilizzo dell'indirizzo
 
-definition:
+definition: Una pratica sconsigliata di usare lo stesso indirizzo Bitcoin più volte per ricevere pagamenti, il che danneggia la privacy consentendo il tracciamento dei fondi.
 ---
 Il riutilizzo degli indirizzi si riferisce alla pratica di utilizzare lo stesso indirizzo di ricezione per bloccare più UTXO, a volte nell'ambito di diverse transazioni. I bitcoin sono tipicamente bloccati utilizzando una coppia di chiavi crittografiche che corrisponde a un indirizzo unico. Poiché la blockchain è pubblica, è facile vedere quali indirizzi sono associati a quanti bitcoin. Nel caso di riutilizzo dello stesso indirizzo per più pagamenti, è ragionevole immaginare che tutti gli UTXO associati appartengano alla stessa entità. Pertanto, il riutilizzo degli indirizzi rappresenta un problema per la privacy dell'utente. Permette di creare collegamenti deterministici tra transazioni multiple e UTXO, oltre a perpetuare il tracciamento dei fondi sulla catena. Satoshi Nakamoto aveva già menzionato questo problema nel suo Libro Bianco:
 

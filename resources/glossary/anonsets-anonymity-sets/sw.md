@@ -1,6 +1,6 @@
 ---
 term: Anonsets (anonymity sets)
-definition:
+definition: Viashirikiano vinavyopima kiwango cha faragha ya UTXO kwa kukamatia idadi ya UTXO zisizoweza kubofywa katika seti, kawaida baada ya coinjoin.
 ---
 Anonsets hutumika kama viashiria vya kutathmini kiwango cha faragha cha UTXO fulani. Kwa undani zaidi, hupima idadi ya UTXO zisizoweza kutofautishwa ndani ya mkusanyiko unaojumuisha kipande kinachochunguzwa. Kwa kuwa inahitajika kuwa na kundi la UTXO zinazofanana, anonsets kwa kawaida huhesabiwa ndani ya mzunguko wa coinjoins. Hivyo huwezesha, inapohitajika, kutathmini ubora wa coinjoins. Anonset kubwa inaashiria kiwango cha juu cha kutokujulikana, kwa kuwa inakuwa vigumu kutofautisha UTXO maalum ndani ya mkusanyiko.
 

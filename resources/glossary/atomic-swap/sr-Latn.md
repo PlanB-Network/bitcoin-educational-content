@@ -1,6 +1,6 @@
 ---
 term: Atomic swap
-definition:
+definition: Razmena kriptovaluta između dve strane bez pouzdanog posrednika, gde se razmena u potpunosti uspeva ili u potpunosti otkazuje.
 ---
 
 Tehnologija koja omogućava direktan Exchange kriptovaluta između dve strane, bez potrebe za poverenjem i bez posrednika. Ove razmene se nazivaju "atomske" jer mogu rezultirati samo u dva ishoda:

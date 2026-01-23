@@ -1,6 +1,6 @@
 ---
 term: 51%-Angriff
 
-definition:
+definition: Ein Angriff, bei dem ein böswilliger Akteur mehr als die Hälfte der Mining-Rechenleistung kontrolliert, was es ihm ermöglicht, Transaktionen zu manipulieren, insbesondere durch Doppelausgaben.
 ---
 Hypothetisches Szenario im Bitcoin-System, bei dem ein böswilliger Akteur mehr als 50 % der gesamten Rechenleistung des Minings (Hashrate) kontrolliert. Bei einer solchen Dominanz kann der Angreifer den Konsensprozess manipulieren und böswillige Handlungen wie Double Spending ermöglichen, bei dem dieselben Bitcoins zunächst auf einer letztlich veralteten Kette ausgegeben und anschließend ein zweites Mal auf der gültigen Kette ausgegeben werden. Ein weiteres Ziel eines 51%-Angriffs ist die Zensur von Transaktionen. Allerdings erfordert die Durchführung eines 51%-Angriffs erhebliche finanzielle, personelle, energetische und technische Ressourcen und macht den böswilligen Akteur anfällig dafür, vor dem Angriff entdeckt zu werden. Obwohl theoretisch möglich, gilt ein 51%-Angriff auf Bitcoin aufgrund der Dezentralisierung des Minings und der derzeit eingesetzten hohen Rechenleistung als sehr unwahrscheinlich. Dieser Angriff wird auch als "Goldfinger-Angriff" bezeichnet.

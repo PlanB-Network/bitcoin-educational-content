@@ -1,6 +1,6 @@
 ---
 term: Blind merged mining
-definition:
+definition: Merged mining technique for sidechains without setting up new nodes, by purchasing proof of work.
 ---
 
 A consensus technique for sidechains that allows Bitcoin miners to work simultaneously on the main chain and on one or more sidechains, without performing additional computational work. Unlike traditional merged mining, it does not require miners to run a node for each sidechain.

@@ -1,6 +1,6 @@
 ---
 term: Address spoofing
-definition:
+definition: Ikibazo aho ubwiganze bubi bumwe ipinina ikinini k'inyubako ryo mu bwiyunge bwikinini rya muribwa kugira ngo muribwa abe mu bwiyunge bwa gisubizo.
 ---
 
 Igitero aho umukinyi w’ububisha atanga Address (canke ikindi kimenyetso c’ukwishura) gisa cane n’ica Address c’uwagirizwa. Intumbero ni uguhenda uwukoresha ngo akope Address idakwiriye igihe akora igikorwa, ivyo bikaba bituma ayo ma bitcoins yoherezwa ku wuyitera aho kurungikwa ku muntu yashaka kuyaronka.

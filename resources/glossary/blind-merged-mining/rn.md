@@ -1,6 +1,6 @@
 ---
 term: Gucura gufatanijwe guhuma
-definition:
+definition: Uburyo bwo gucukura bukurikiranira hamwe (merged mining) kuri sidechains hatashizweho ama-nodu mashasha, mu kugura ibyemezo by'akazi (proof of work).
 ---
 
 Uburyo bwo kwumvikana ku bijanye n’imirongo y’inyuma butuma abacukuzi ba Bitcoin bakora icarimwe ku mirongo nyamukuru no ku mirongo imwe canke myinshi, ata bikorwa vy’ubuhinga vy’inyongera bakora. Udakunze Mining ya kera, ntibisaba abacukuzi gukoresha urudodo kuri Sidechain yose.

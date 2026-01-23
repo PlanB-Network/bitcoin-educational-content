@@ -1,6 +1,6 @@
 ---
 term: Bitcoin (stort B)
-definition:
+definition: Peer-to-peer elektroniskt kontantsystem som betecknar protokollet, nätverket eller systemet som helhet.
 ---
 
 Bitcoin är namnet på det elektroniska peer-to-peer-kontantsystem som skapades av Satoshi Nakamoto 2009. Användningen av termen Bitcoin med ett stort "B" kan syfta på tre olika saker:

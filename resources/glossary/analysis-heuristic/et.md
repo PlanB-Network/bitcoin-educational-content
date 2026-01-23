@@ -1,7 +1,7 @@
 ---
 term: Analüüsi heuristika
 
-definition:
+definition: Empiiriline meetod, mida kasutatakse Bitcoin'i voogude jälgimiseks blockchainil vaadeldavate omaduste alusel kandeannetes.
 ---
 Bitcoini ahela analüüsiheuristika on empiiriliste meetodite perekond, mida kasutatakse bitcoinide liikumise jälgimiseks plokiahelas tehingutes täheldatud omaduste põhjal. Heuristika on praktiline lähenemine probleemi lahendamisele, sageli ligikaudsete meetodite abil, kuid kujutab endast piisavalt head lahendust antud eesmärgi saavutamiseks. Need heuristikud annavad küllaltki usaldusväärseid tulemusi, kuid mitte kunagi absoluutse täpsusega. Teisisõnu, ahelanalüüs hõlmab alati teatud tõenäosust tehtud järeldustes. Näiteks võib enam-vähem kindlalt hinnata, et kaks aadressi kuuluvad samale üksusele, kuid täielik kindlus on alati kättesaamatu. Kogu ahelanalüüsi eesmärk seisneb just erinevate heuristikate koondamises, et vähendada vigade riski. Tegemist on teatud mõttes tõendite kogumisega, mis võimaldab meil tegelikkusele lähemale jõuda. Selles kontekstis eristatakse sisemist ja välist heuristikat.
 

@@ -1,7 +1,7 @@
 ---
 term: Anonsets (anonymity sets)
 
-definition:
+definition: Các chỉ số đo mức độ quyền riêng tư của UTXO bằng cách đếm số lượng UTXO không phân biệt được trong một tập hợp, thường sau khi coinjoin.
 ---
 Anonset được sử dụng như các chỉ báo để đánh giá mức độ riêng tư của một UTXO cụ thể. Cụ thể hơn, chúng đo lường số lượng UTXO không thể phân biệt trong tập hợp bao gồm đồng tiền đang được nghiên cứu. Do cần có một nhóm UTXO giống hệt nhau, anonset thường được tính toán trong một chu kỳ coinjoin. Chúng cho phép, khi cần thiết, đánh giá chất lượng của các coinjoin. Một anonset có kích thước lớn biểu thị mức độ ẩn danh cao hơn, vì việc phân biệt một UTXO cụ thể trong tập hợp trở nên khó khăn.
 

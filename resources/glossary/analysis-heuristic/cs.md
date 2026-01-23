@@ -1,7 +1,7 @@
 ---
 term: Analytická heuristika
 
-definition:
+definition: Empirická metoda používaná k trasování toků bitcoinů v blockchainu na základě pozorovaných charakteristik v transakcích.
 ---
 Heuristická analýza řetězce bitcoinů je rodina empirických metod používaných ke sledování toku bitcoinů v blockchainu na základě charakteristik pozorovaných v transakcích. Heuristika je praktický přístup k řešení problému, často pomocí přibližných metod, ale představuje dostatečně dobré řešení k dosažení daného cíle. Tyto heuristiky přinášejí poměrně spolehlivé výsledky, nikdy však s absolutní přesností. Jinými slovy, řetězová analýza vždy zahrnuje určitou míru pravděpodobnosti vyvozených závěrů. Například lze s větší či menší jistotou odhadnout, že dvě adresy patří stejnému subjektu, ale úplná jistota je vždy nedosažitelná. Celý cíl řetězové analýzy spočívá právě v agregaci různých heuristik, aby se minimalizovalo riziko chyby. Je to svým způsobem kumulace důkazů, která nám umožňuje přiblížit se realitě. V této souvislosti se rozlišuje vnitřní a vnější heuristika.
 

@@ -1,6 +1,6 @@
 ---
 term: Bitcoin Satoshi Vision (BSV)
-definition:
+definition: Sarafu ya siri inayotokana na hard fork ya Bitcoin Cash mwaka wa 2018, ikiwa na ukubwa wa vitalu vikubwa sana.
 ---
 
 Mfumo wa Cryptocurrency unaotokana na Hard Fork ya Bitcoin Cash (BCH), ambayo yenyewe ni Fork ya Bitcoin (BTC). Bitcoin SV Fork ilitokea mnamo Novemba 15, 2018, kwenye eneo la 556,766 kutokana na kutoelewana ndani ya jumuiya ya Bitcoin Cash, hasa kuhusu ukubwa wa block na maono yanayotarajiwa ya Satoshi Nakamoto, muundaji wa Bitcoin. Makundi mawili yaligombana:

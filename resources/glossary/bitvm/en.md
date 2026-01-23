@@ -1,6 +1,6 @@
 ---
 term: BitVM
-definition:
+definition: Protocol allowing arbitrary off-chain computations with on-chain dispute possibility, extending Bitcoin's capabilities.
 ---
 
 Protocol introduced by Robin Linus in 2023, aimed at extending Bitcoin's application development capabilities. 

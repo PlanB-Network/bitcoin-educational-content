@@ -1,6 +1,6 @@
 ---
 term: Bitcoin（大寫B）
-definition:
+definition: 點對點電子現金系統，指代協議、網絡或整個系統。
 ---
 
 Bitcoin 是 Satoshi Nakamoto 於 2009 年創建的點對點電子現金系統的名稱。使用大寫「B」的 Bitcoin 一詞可以指三種不同的東西：

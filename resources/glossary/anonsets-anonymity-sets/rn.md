@@ -1,6 +1,6 @@
 ---
 term: Anonsets (anonymity sets)
-definition:
+definition: Ibimenyetso byapima umwanya w'ubwiyunge bwa UTXO hagati mu bihumbi y'UTXO bitazitegekezwa mu mahoro, ubwiyunge bwa coinjoin.
 ---
 Anonsets zikoreshwa nk’ibipimo vyo gupima urugero rw’ibanga rwa UTXO imwe. Mu buryo bwihariye, zipima umubare wa UTXO zidashobora gutandukanywa mu mugwi ushizemwo igice kiri kwigwa. Kubera ko bisaba kugira umugwi wa UTXO zimeze kimwe, anonsets zisanzwe zibariwe mu ruzitiro rwa coinjoins. Zishobora kandi, igihe bikenewe, gukoreshwa mu kugereranya ireme rya coinjoins. Anonset nini isobanura urugero rwo hejuru rw’ubutamenyekana, kuko bigorana gutandukanya UTXO imwe mu mugwi.
 

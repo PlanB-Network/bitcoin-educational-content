@@ -1,7 +1,7 @@
 ---
 term: Heurística de análisis
 
-definition:
+definition: Un método empírico utilizado para rastrear flujos de Bitcoin en la blockchain basado en características observables dentro de las transacciones.
 ---
 Una heurística de análisis para la cadena Bitcoin es una familia de métodos empíricos utilizados para rastrear el flujo de bitcoins en la blockchain basándose en características observadas en las transacciones. Una heurística es una aproximación práctica a la resolución de problemas, a menudo mediante métodos aproximados, pero que representa una solución suficientemente buena para alcanzar un objetivo determinado. Estas heurísticas arrojan resultados bastante fiables, pero nunca con una precisión absoluta. En otras palabras, el análisis en cadena siempre implica un grado de probabilidad en las conclusiones extraídas. Por ejemplo, se puede estimar con mayor o menor certeza que dos direcciones pertenecen a la misma entidad, pero la certeza total siempre está fuera de nuestro alcance. Todo el objetivo del análisis en cadena reside precisamente en la agregación de diversas heurísticas para minimizar el riesgo de error. Es, en cierto modo, una acumulación de pruebas que nos permite acercarnos a la realidad. En este contexto, se diferencian las heurísticas internas y externas.
 

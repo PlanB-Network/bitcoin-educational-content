@@ -1,6 +1,6 @@
 ---
 term: Atomic swap
-definition:
+definition: An exchange of cryptocurrencies between two parties without a trusted intermediary, where the exchange either succeeds completely or is cancelled entirely.
 ---
 
 Technology allowing the direct exchange of cryptocurrencies between two parties, without requiring trust or intermediaries.  These exchanges are called "atomic" because they can only result in two outcomes:

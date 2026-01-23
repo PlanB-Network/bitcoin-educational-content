@@ -1,6 +1,6 @@
 ---
 term: BIP
-definition:
+definition: Bitcoin Improvement Proposal. 커뮤니티가 Bitcoin 프로토콜의 개선 사항을 제안하고 논의하며 문서화할 수 있도록 하는 공식적인 프로세스입니다.
 ---
 
 "Bitcoin 개선 제안"의 약어 Bitcoin 개선 제안(BIP)은 Bitcoin 프로토콜과 그 표준에 대한 개선 및 변경 사항을 제안하고 문서화하기 위한 공식화된 프로세스입니다. Bitcoin에는 업데이트를 결정할 수 있는 중앙 권한이 없기 때문에 BIPs는 커뮤니티가 체계적이고 투명한 방식으로 개선 사항을 제안, 논의 및 구현할 수 있도록 합니다.

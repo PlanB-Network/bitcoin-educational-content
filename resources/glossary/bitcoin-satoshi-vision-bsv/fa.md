@@ -1,6 +1,6 @@
 ---
 term: Bitcoin Satoshi Vision (BSV)
-definition:
+definition: ارز دیجیتالی که از هارد فورک Bitcoin Cash در سال ۲۰۱۸ حاصل شد، با اندازه‌های بلاک بسیار بزرگ.
 ---
 
 سیستم ارز دیجیتال ناشی از یک Hard Fork از Bitcoin کش (BCH)، که خود یک Fork از Bitcoin (BTC) است. Bitcoin SV Fork در تاریخ ۱۵ نوامبر ۲۰۱۸، در بلوک ۵۵۶,۷۶۶ به دلیل اختلافات درون جامعه Bitcoin کش، به ویژه در مورد اندازه بلوک و دیدگاه فرضی Satoshi ناکاموتو، خالق Bitcoin رخ داد. دو جناح با هم درگیر شدند:

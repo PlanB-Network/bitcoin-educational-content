@@ -1,6 +1,6 @@
 ---
 term: Assume utxo
-definition:
+definition: Hoja ya Bitcoin Core inayoruhusa haraka ya haraka ya nodi mpya kwa kutumia picha ya seti ya UTXO inayodhaniwa kuwa sahihi, kabla ya uthibitisho wa historia nyuma.
 ---
 Kigezo cha usanidi katika mteja mkuu wa Bitcoin Core ambacho kinaruhusu nodi ambayo ndiyo kwanza imeanzishwa (lakini bado haijafanya IBD) kuahirisha uthibitishaji wa miamala na seti ya UTXO kabla ya picha maalum (snapshot). Dhana hii inategemea utumiaji wa seti ya UTXO (orodha ya UTXO zote zilizopo kwa wakati fulani) iliyotolewa na Core na kudhaniwa kuwa sahihi, ambayo inaruhusu nodi kusawazishwa haraka sana kwenye mnyororo wenye kazi nyingi iliyokusanywa. Kwa kuwa nodi huruka hatua ndefu ya IBD, inafanya kazi haraka sana kwa mtumiaji wake.
 

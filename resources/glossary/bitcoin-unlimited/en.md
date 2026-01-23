@@ -1,6 +1,6 @@
 ---
 term: Bitcoin Unlimited
-definition:
+definition: Proposed hard fork in 2016 allowing for a flexible block size, ultimately not adopted.
 ---
 
 Proposal to update the Bitcoin protocol that appeared in late summer 2016, aiming to increase block size flexibly via a hard fork.

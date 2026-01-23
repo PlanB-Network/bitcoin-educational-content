@@ -1,6 +1,6 @@
 ---
 term: Anonsets (skupovi anonimnosti)
-definition:
+definition: Indikatori koji mere stepen privatnosti UTXO brojanjem broja nerazlučivih UTXO-a u setu, tipično nakon coinjoin.
 ---
 Anonseti služe kao indikatori za procenu stepena privatnosti određenog UTXO-a. Preciznije, oni mere broj neprepoznatljivih UTXO-a unutar skupa koji uključuje posmatranu jedinicu. Pošto je neophodno raspolagati grupom identičnih UTXO-a, anonseti se uglavnom izračunavaju u okviru ciklusa coinjoin-a. Oni omogućavaju, po potrebi, procenu kvaliteta coinjoin-a. Veliki anonset znači viši nivo anonimnosti, jer postaje teško razlikovati određeni UTXO unutar skupa.
 

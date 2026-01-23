@@ -1,6 +1,6 @@
 ---
 term: Bitcoin implementation
-definition:
+definition: Software applying the rules of the Bitcoin protocol, with Bitcoin Core being the reference implementation.
 ---
 
 Refers to software that enforces and follows the rules defined by the Bitcoin protocol. When people say “Bitcoin”, they usually refer to the electronic cash system itself, a protocol that specifies a set of consensus rules. 

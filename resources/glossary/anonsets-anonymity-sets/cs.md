@@ -1,7 +1,7 @@
 ---
 term: Anonsets (anonymity sets)
 
-definition:
+definition: Ukazatele měřící stupeň soukromí UTXO počítáním počtu nerozlišitelných UTXO v množině, obvykle po coinjoin.
 ---
 Anonsety slouží jako ukazatele pro hodnocení míry soukromí konkrétního UTXO. Konkrétně měří počet nerozlišitelných UTXO v rámci množiny, která zahrnuje zkoumanou minci. Jelikož je nutné mít k dispozici skupinu identických UTXO, jsou anonsety obvykle počítány v rámci cyklu coinjoins. Umožňují tak v případě potřeby posoudit kvalitu coinjoins. Velký anonset znamená vyšší úroveň anonymity, protože je obtížné rozlišit konkrétní UTXO v rámci množiny.
 

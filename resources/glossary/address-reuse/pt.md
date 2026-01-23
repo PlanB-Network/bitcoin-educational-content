@@ -1,7 +1,7 @@
 ---
 term: Reutilização de endereços
 
-definition:
+definition: Uma prática desaconselhada de usar o mesmo endereço Bitcoin várias vezes para receber pagamentos, o que prejudica a privacidade permitindo que fundos sejam rastreados.
 ---
 A reutilização de endereços refere-se à prática de utilizar o mesmo endereço de receção para bloquear vários UTXOs, por vezes em várias transacções diferentes. Os bitcoins são normalmente bloqueados usando um par de chaves criptográficas que corresponde a um endereço único. Como a blockchain é pública, é fácil ver quais endereços estão associados a quantos bitcoins. No caso de reutilizar o mesmo endereço para vários pagamentos, é razoável imaginar que todos os UTXOs associados pertencem à mesma entidade. Por conseguinte, a reutilização de endereços constitui um problema para a privacidade do utilizador. Permite ligações determinísticas entre múltiplas transacções e UTXOs, bem como a perpetuação do rastreio de fundos na cadeia. Satoshi Nakamoto já mencionou este problema no seu Livro Branco:
 

@@ -1,7 +1,7 @@
 ---
 term: Bitcoin Satoshi Vision (BSV)
 
-definition:
+definition: Bitcoin Cashin kovasta haarautumisesta vuonna 2018 syntynyt kryptovaluutta, jossa on erittäin suuret lohkokoot.
 ---
 Kryptovaluuttajärjestelmä, joka on syntynyt Bitcoin Cashin (BCH), joka on Bitcoinin (BTC) haarautuma, kovasta haarautumisesta. Bitcoin SV:n haarautuminen tapahtui 15. marraskuuta 2018 lohkossa 556,766 Bitcoin Cash -yhteisön sisällä esiintyneiden erimielisyyksien vuoksi, jotka koskivat erityisesti lohkokokoa ja Bitcoinin luojan Satoshi Nakamoton oletettua visiota. Kaksi ryhmittymää otti yhteen:
 

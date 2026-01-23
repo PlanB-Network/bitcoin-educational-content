@@ -1,7 +1,7 @@
 ---
 term: Bitcoin Satoshi Vision (BSV)
 
-definition:
+definition: Tiền điện tử có được từ một đợt hard fork của Bitcoin Cash vào năm 2018, với kích thước khối rất lớn.
 ---
 Cryptocurrency system resulting from a hard fork of Bitcoin Cash (BCH), which itself is a fork of Bitcoin (BTC). The Bitcoin SV fork occurred on November 15, 2018, at block 556,766 due to disagreements within the Bitcoin Cash community, particularly regarding block size and the supposed vision of Satoshi Nakamoto, the creator of Bitcoin. Two factions clashed:
 

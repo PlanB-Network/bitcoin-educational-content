@@ -1,6 +1,6 @@
 ---
 term: BGP hijacking
-definition:
+definition: Hyökkäys, joka manipuloi internetin reititystä liikenteen ohjaamiseksi haitalliseen verkkoon. Voidaan käyttää Bitcoin-solmujen eristämiseen.
 ---
 
 Hyökkäys, jossa pahantahtoinen toimija manipuloi BGP-ilmoituksia ohjatakseen Internet-liikenteen omaan verkkoonsa. Esittäytymällä tiettyjen IP Address -alueiden lailliseksi alkuperäksi hyökkääjä voi siepata, valvoa tai estää näihin osoitteisiin suuntautuvan liikenteen.

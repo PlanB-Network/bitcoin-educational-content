@@ -1,7 +1,7 @@
 ---
 term: BIP
 
-definition:
+definition: Bitcoin Improvement Proposal. Processo formale che consente alla comunità di proporre, discutere e documentare miglioramenti al protocollo Bitcoin.
 ---
 Acronimo di "Bitcoin Improvement Proposal" Una Bitcoin Improvement Proposal (BIP) è un processo formale per proporre e documentare miglioramenti e modifiche al protocollo Bitcoin e ai suoi standard. Poiché Bitcoin non ha un'entità centrale che decide sugli aggiornamenti, le BIP consentono alla comunità di suggerire, discutere e implementare miglioramenti in modo strutturato e trasparente. Ogni BIP descrive in dettaglio gli obiettivi del miglioramento proposto, le motivazioni, i potenziali impatti sulla compatibilità, nonché i vantaggi e gli svantaggi. I BIP possono essere scritti da qualsiasi membro della comunità, ma devono essere approvati da altri sviluppatori e dai redattori che gestiscono il database GitHub di Bitcoin Core: Bryan Bishop, Jon Atack, Luke Dashjr, Mark Erhardt (Murch), Olaoluwa Osuntokun e Ruben Somsen. Tuttavia, è importante capire che il ruolo di queste persone nella modifica dei PIF non significa che controllino Bitcoin. Se qualcuno propone un miglioramento che non viene accettato all'interno del quadro formale del BIP, può comunque presentarlo direttamente alla comunità Bitcoin o addirittura creare un fork che includa la sua modifica. Il vantaggio del processo BIP risiede nella sua formalità e centralizzazione, che facilita il dibattito per evitare di dividere gli utenti di Bitcoin, cercando di implementare gli aggiornamenti in modo consensuale. Alla fine, è il principio della maggioranza economica a determinare le dinamiche di potere all'interno del protocollo.
 

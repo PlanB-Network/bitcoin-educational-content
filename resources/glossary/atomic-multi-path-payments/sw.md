@@ -1,6 +1,6 @@
 ---
 term: Atomic multi-path payments
-definition:
+definition: Toleo lililoboresha la malipo ya njia nyingi kwenye Lightning ambapo kila kipande kina siri tofauti, likihakikisha kuwa malipo yalipewa kikamilifu au si hata kidogo.
 ---
 
 Toleo lililoboreshwa la MPP (*Malipo ya Njia Nyingi*) ambapo kila sehemu ya malipo ina sehemu ya siri mahususi, inayohakikisha kuwa shughuli hiyo imetatuliwa kwa njia ya atomiki, yaani, kamili au la.

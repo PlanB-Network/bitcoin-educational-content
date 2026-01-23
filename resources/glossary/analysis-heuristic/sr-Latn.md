@@ -1,6 +1,6 @@
 ---
 term: Analitička heuristika
-definition:
+definition: Empirijska metoda korišćena za praćenje tokova Bitcoina na blockchainu na osnovu vidljivih karakteristika u transakcijama.
 ---
 
 Heuristička analiza za lanac Bitcoin je porodica empirijskih metoda koje se koriste za praćenje toka bitkoina na Blockchain na osnovu karakteristika uočenih u transakcijama. Heuristika je praktičan pristup rešavanju problema, često putem približnih metoda, ali predstavlja dovoljno dobro rešenje za postizanje datog cilja. Ove heuristike daju prilično pouzdane rezultate, ali nikada sa apsolutnom preciznošću. Drugim rečima, analiza lanca uvek uključuje određeni stepen verovatnoće u donetim zaključcima. Na primer, može se proceniti sa više ili manje sigurnosti da dve adrese pripadaju istoj entitetu, ali potpuna sigurnost je uvek nedostižna. Ceo cilj analize lanca leži upravo u agregaciji različitih heuristika kako bi se smanjio rizik od greške. To je, na neki način, akumulacija dokaza koja nam omogućava da se približimo stvarnosti. U ovom kontekstu, razlikuju se interne i eksterne heuristike.

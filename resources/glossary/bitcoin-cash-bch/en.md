@@ -1,6 +1,6 @@
 ---
 term: Bitcoin cash (bch)
-definition:
+definition: Cryptocurrency resulting from a hard fork of Bitcoin in 2017, increasing the block size to 8 MB.
 ---
 
 Cryptocurrency system resulting from a hard fork of Bitcoin (BTC) that occurred on August 1, 2017, at block 478,558. 

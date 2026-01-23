@@ -1,6 +1,6 @@
 ---
 term: Bit (unit)
-definition:
+definition: Monetary subdivision of bitcoin equal to 100 satoshis, little used compared to sats.
 ---
 
 In Bitcoin, the term "bit" is also used to refer to a monetary subdivision of bitcoin. One bit equals 100 satoshis, the smallest indivisible unit of bitcoin. 

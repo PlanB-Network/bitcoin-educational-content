@@ -1,6 +1,6 @@
 ---
 term: Analysheuristik
-definition:
+definition: En empirisk metod som används för att spåra Bitcoin-flöde på blockkedjan baserat på observerbara egenskaper i transaktioner.
 ---
 
 En analysheuristik för Bitcoin-kedjan är en familj av empiriska metoder som används för att spåra flödet av bitcoins på Blockchain baserat på egenskaper som observerats i transaktioner. En heuristik är ett praktiskt tillvägagångssätt för problemlösning, ofta genom ungefärliga metoder, men som utgör en tillräckligt bra lösning för att uppnå ett visst mål. Dessa heuristiker ger ganska tillförlitliga resultat, men aldrig med absolut precision. Med andra ord innebär kedjeanalys alltid en viss grad av sannolikhet i de slutsatser som dras. Det kan till exempel vara mer eller mindre säkert att två adresser tillhör samma enhet, men total säkerhet är alltid utom räckhåll. Hela målet med kedjeanalys ligger just i att sammanställa olika heuristiker för att minimera risken för fel. Det är på sätt och vis en ackumulering av bevis som gör att vi kan komma närmare verkligheten. I detta sammanhang skiljer man på interna och externa heuristiker.

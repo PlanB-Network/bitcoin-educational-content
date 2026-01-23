@@ -1,6 +1,6 @@
 ---
 term: Assume utxo
-definition:
+definition: Yeni bir düğümün arka planda geçmiş doğrulamadan önce geçerli kabul edilen UTXO setinin bir anlık görüntüsünü kullanarak hızlı bir şekilde senkronize edilmesine izin veren Bitcoin Core parametresi.
 ---
 Bitcoin Core çoğunluk istemcisindeki bir yapılandırma parametresi, yeni başlatılan (ancak henüz IBD yapmamış) bir düğümün, belirli bir anlık görüntüden (snapshot) önceki işlemlerin ve UTXO setinin doğrulamasını ertelemesine olanak tanır. Konsept, Core tarafından sağlanan ve doğru olduğu varsayılan bir UTXO setinin (belirli bir zamanda var olan tüm UTXO'ların listesi) kullanılmasına dayanır ve bu da düğümün en çok birikmiş işe sahip zincirde çok hızlı bir şekilde senkronize olmasını sağlar. Düğüm uzun IBD adımını atladığı için kullanıcısı için çok hızlı bir şekilde işlevsel hale gelir.
 

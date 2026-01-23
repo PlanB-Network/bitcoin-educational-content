@@ -1,7 +1,7 @@
 ---
 term: Anonsets (anonymity sets)
 
-definition:
+definition: Näitajad, mis mõõdavad UTXO privaatsuse astet, loendades mitteeristatavate UTXO-de arvu komplektis, tavaliselt pärast coinjoin.
 ---
 Anonsetid toimivad indikaatoritena konkreetse UTXO privaatsuse taseme hindamisel. Täpsemalt mõõdavad need eristamatute UTXO-de arvu kogumis, mis hõlmab uuritavat münti. Kuna on vaja identsete UTXO-de rühma, arvutatakse anonsetid tavaliselt coinjoin’ide tsükli raames. Vajaduse korral võimaldavad need hinnata coinjoin’ide kvaliteeti. Suur anonset tähendab kõrgemat anonüümsuse taset, kuna konkreetset UTXO-d on kogumi sees keeruline eristada.
 

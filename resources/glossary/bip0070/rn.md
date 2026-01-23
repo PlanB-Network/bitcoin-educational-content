@@ -1,6 +1,6 @@
 ---
 term: BIP0070
-definition:
+definition: Uburyo bwo kwishyura bukorwa hifashishijwe amadosiye y'iyishyurwa yashizweko umukono na SSL certificate. Ntiyigeze yakirwa na benshi.
 ---
 
 Amasezerano yo kwishura akorana na Bitcoin.

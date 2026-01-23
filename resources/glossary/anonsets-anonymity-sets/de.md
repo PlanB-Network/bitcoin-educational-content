@@ -1,7 +1,7 @@
 ---
 term: Anonsets (Anonymity Sets)
 
-definition:
+definition: Indikatoren, die den Datenschutzgrad eines UTXO durch Zählung der Anzahl nicht unterscheidbarer UTXOs in einem Satz messen, normalerweise nach coinjoin.
 ---
 Anonsets dienen als Indikatoren zur Bewertung des Vertraulichkeitsgrads eines bestimmten UTXO. Genauer gesagt messen sie die Anzahl ununterscheidbarer UTXOs innerhalb der Menge, die die betrachtete Münze einschließt. Da eine Gruppe identischer UTXOs erforderlich ist, werden Anonsets in der Regel innerhalb eines Coinjoin-Zyklus berechnet. Sie ermöglichen gegebenenfalls eine Beurteilung der Qualität der Coinjoins. Ein großer Anonset bedeutet ein höheres Maß an Anonymität, da es schwierig wird, einen bestimmten UTXO innerhalb der Menge zu unterscheiden.
 

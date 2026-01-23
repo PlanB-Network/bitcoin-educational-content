@@ -1,6 +1,6 @@
 ---
 term: BIP0118
-definition:
+definition: Icishirwaho ANYPREVOUT kizanye SigHash Flags nshasha zemera isubirizwa ry'ibimenyetso hagati y'amatunshwa, bifasha kuri Eltoo.
 ---
 
 Iciyumviro co kuzana ibihinduzi bibiri bishasha vy'Ibendera rya SigHash: `SIGHASH_ICO COSE IVYO GUTANGA` na `SIGHASH_INYANDITSWE Y'IBIMENYETSO VYOSE`.

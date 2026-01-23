@@ -1,6 +1,6 @@
 ---
 term: Atomic multi-path payments
-definition:
+definition: Ulepszona wersja płatności wielościeżkowych na Lightning, gdzie każdy fragment ma odrębny sekret, gwarantujący że płatność jest w pełni rozliczona lub wcale.
 ---
 
 Ulepszona wersja MPP (*Multi-Path Payments*), w której każdy fragment płatności ma odrębny częściowy sekret, zapewniając, że transakcja jest rozliczana atomowo, tj. w całości lub wcale.

@@ -1,7 +1,7 @@
 ---
 term: Gjenbruk av adresse
 
-definition:
+definition: En uanbefalt praksis med å bruke samme Bitcoin-adresse flere ganger for å motta betalinger, som skader personvernet ved å tillate sporing av midler.
 ---
 Gjenbruk av adresser refererer til praksisen med å bruke den samme mottakeradressen til å blokkere flere UTXO-er, noen ganger i flere forskjellige transaksjoner. Bitcoins låses vanligvis ved hjelp av et kryptografisk nøkkelpar som tilsvarer en unik adresse. Siden blokkjeden er offentlig, er det enkelt å se hvilke adresser som er knyttet til hvor mange bitcoins. Ved gjenbruk av samme adresse for flere betalinger er det rimelig å tenke seg at alle de tilknyttede UTXO-ene tilhører samme enhet. Derfor utgjør gjenbruk av adresser et problem for brukerens personvern. Det gir mulighet for deterministiske koblinger mellom flere transaksjoner og UTXO-er, i tillegg til at det opprettholder sporing av fond i kjeden. Satoshi Nakamoto nevnte allerede dette problemet i hvitboken sin:
 

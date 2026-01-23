@@ -1,6 +1,6 @@
 ---
 term: Atomic swap
-definition:
+definition: Kubadilishanwa kwa ibiciro byerekano ubwiyunge bubiri bidatangiza muswera wacu, aho kubadilishanwa kikurukira cyangwa kigidakurikira.
 ---
 
 Ikoranabuhanga ryemerera Exchange y’amahera y’amahera hagati y’abantu babiri, ata kwizigira canke abahuza bisaba.  Ivyo biganiro vyitwa "atome" kuko bishobora gutuma habaho ingaruka zibiri gusa:

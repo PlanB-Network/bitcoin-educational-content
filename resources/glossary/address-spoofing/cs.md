@@ -1,6 +1,6 @@
 ---
 term: Address spoofing
-definition:
+definition: Útok, při kterém škodlivý aktér vytvoří adresu velmi podobnou adrese oběti, aby ji oklamal a přesměroval její platby.
 ---
 
 Útok, při kterém záškodník vytvoří identifikátor Address (nebo jiný platební identifikátor) velmi podobný identifikátoru oběti. Cílem je oklamat uživatele, aby během transakce opsal tento nesprávný Address, což vede k tomu, že bitcoiny jsou místo zamýšlenému cíli odeslány útočníkovi.

@@ -1,6 +1,6 @@
 ---
 term: Address spoofing
-definition:
+definition: Ein Angriff, bei dem ein böswilliger Akteur eine Adresse erstellt, die der des Opfers stark ähnelt, um es zu täuschen und seine Zahlungen umzuleiten.
 ---
 
 Angriff, bei dem ein böswilliger Akteur eine Address (oder eine andere Zahlungskennung) erstellt, die der des Opfers sehr ähnlich ist. Ziel ist es, den Nutzer dazu zu verleiten, diese falsche Address während einer Transaktion zu kopieren, was dazu führt, dass Bitcoins an den Angreifer statt an das vorgesehene Ziel gesendet werden.

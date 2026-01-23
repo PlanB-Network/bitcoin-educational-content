@@ -1,7 +1,7 @@
 ---
 term: Analyysiheuristiikka
 
-definition:
+definition: Empiirinen menetelmä Bitcoin-virtojen jäljittämiseen lohkoketjussa havaittavissa olevien transaktioominaisuuksien perusteella.
 ---
 Bitcoin-ketjun analyysiheuristiikka on empiiristen menetelmien perhe, jota käytetään jäljittämään bitcoinien virtausta lohkoketjussa transaktioissa havaittujen ominaisuuksien perusteella. Heuristiikka on käytännöllinen lähestymistapa ongelmanratkaisuun, usein likimääräisten menetelmien avulla, mutta se edustaa riittävän hyvää ratkaisua tietyn tavoitteen saavuttamiseksi. Nämä heuristiikat tuottavat melko luotettavia tuloksia, mutta eivät koskaan absoluuttisen tarkasti. Toisin sanoen ketjuanalyysiin liittyy aina jonkinasteinen todennäköisyys tehtyihin päätelmiin. Voidaan esimerkiksi arvioida enemmän tai vähemmän varmasti, että kaksi osoitetta kuuluu samaan kokonaisuuteen, mutta täysi varmuus on aina saavuttamattomissa. Koko ketjuanalyysin tavoite on juuri erilaisten heuristiikkojen yhdistäminen virheriskin minimoimiseksi. Se on tavallaan todisteiden kasautumista, jonka avulla pääsemme lähemmäs todellisuutta. Tässä yhteydessä erotetaan toisistaan sisäiset ja ulkoiset heuristiikat.
 

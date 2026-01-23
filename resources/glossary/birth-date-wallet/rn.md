@@ -1,6 +1,6 @@
 ---
 term: Itariki y'amavuko (isaho)
-definition:
+definition: Itariki yo kurema wallet, ikoreshwa mu kuryohora isanisha mughe yo kuyigarura.
 ---
 
 Itariki y’amavuko (Wallet) yerekeza ku itariki Wallet yaremeweko.

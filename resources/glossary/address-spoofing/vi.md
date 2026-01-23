@@ -1,6 +1,6 @@
 ---
 term: Address spoofing
-definition:
+definition: Một cuộc tấn công trong đó một tác nhân xấu tạo một địa chỉ rất giống với của nạn nhân để lừa họ và chuyển hướng các khoản thanh toán của họ.
 ---
 
 Tấn công trong đó kẻ xấu tạo ra Address (hoặc mã định danh thanh toán khác) rất giống với mã định danh của nạn nhân. Mục đích là lừa người dùng sao chép mã Address sai này trong khi giao dịch, dẫn đến việc gửi bitcoin đến kẻ tấn công thay vì đích đến dự định.

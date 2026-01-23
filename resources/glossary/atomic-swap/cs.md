@@ -1,7 +1,7 @@
 ---
 term: Atomic swap
 
-definition:
+definition: Výměna kryptoměn mezi dvěma stranami bez důvěryhodného prostředníka, kde se výměna buď zcela zdaří nebo se zcela zruší.
 ---
 Technologie umožňující přímou výměnu kryptoměn mezi dvěma stranami bez nutnosti důvěry a bez nutnosti zprostředkovatele. Tyto výměny se nazývají "atomické", protože jejich výsledkem mohou být pouze dva výsledky:
 

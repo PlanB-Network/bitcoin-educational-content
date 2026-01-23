@@ -1,7 +1,7 @@
 ---
 term: Assume utxo
 
-definition:
+definition: Bitcoin Core'i parameeter, mis lubab uue sõlme kiiresti sünkroniseerida, kasutades UTXO komplekti hetktõmmist, mida eeldatakse kehtivaks, enne ajaloo kontrollimist taustal.
 ---
 Konfiguratsiooniparameeter enamus-kliendis Bitcoin Core, mis võimaldab äsja initsialiseeritud sõlmel (kuid mis pole veel IBD-d teinud) lükata edasi tehingute ja UTXO komplekti kontrollimise enne antud snapshot'i. Kontseptsioon põhineb Core'i poolt pakutava ja täpseks peetava UTXO komplekti (kõigi antud ajahetkel eksisteerivate UTXO-de loend) kasutamisel, mis võimaldab sõlmel sünkroonida väga kiiresti ahelaga, millel on kõige rohkem kogunenud tööd. Kuna sõlm jätab pika IBD etapi vahele, on see oma kasutaja jaoks väga kiiresti töökõlblik.
 

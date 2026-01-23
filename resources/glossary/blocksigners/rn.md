@@ -1,5 +1,6 @@
 ---
 term: Abashira umukono ku citunza
+definition:
 ---
 
 Mu bijanye na Liquid (a Bitcoin Sidechain), abashirako umukono ku mabarabara ni bo bajejwe kwubaka no kwemeza amabarabara ku rubuga.

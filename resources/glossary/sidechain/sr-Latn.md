@@ -1,5 +1,6 @@
 ---
 term: Sidechain
+definition:
 ---
 
 Blockchain je dizajniran da radi paralelno sa glavnim Blockchain lanca Bitcoin. Dva lanca su povezana koristeći dvosmerni peg koji osigurava da imovina koja cirkuliše na Sidechain zadrži istu vrednost kao Bitcoin na glavnom lancu. Sidechain ima sopstveni mehanizam konsenzusa, koji može biti nezavisan ili delimično oslonjen na mehanizam glavnog lanca. Generalno omogućava korišćenje funkcionalnosti koje nisu direktno dostupne na glavnom lancu, ili poboljšane funkcionalnosti, kao što su: veća fleksibilnost u razvoju, brže i/ili privatnije transakcije, ili veći transakcioni kapacitet. Da bi to postigao, Sidechain pravi kompromise u poređenju sa glavnim lancem.

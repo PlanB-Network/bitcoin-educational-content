@@ -1,6 +1,7 @@
 ---
 term: KYC (tunne oma klienti)
 
+definition:
 ---
 Regulatiivne menetlus, mida mõned Bitcoini kaudu tegutsevad ettevõtted kasutavad oma klientide identiteedi kontrollimiseks osana rahapesu ja terrorismi rahastamise vastasest võitlusest. KYC hõlmab isikuandmete kogumist ja kontrollimist. Bitcoinide ostmise kontekstis kujutab KYC kasutaja jaoks endast mitmeid riske, sh:
 

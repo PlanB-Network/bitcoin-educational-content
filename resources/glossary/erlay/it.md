@@ -1,5 +1,6 @@
 ---
 term: Erlay
+definition:
 ---
 
 Protocollo di rete proposto per migliorare l'efficienza della trasmissione di transazioni non confermate tra nodi Bitcoin.

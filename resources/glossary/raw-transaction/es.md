@@ -1,6 +1,7 @@
 ---
 term: Transacción en bruto
 
+definition:
 ---
 Una transacción Bitcoin construida y firmada, existente en su forma binaria. Una transacción en bruto (*raw TX*) es la representación final de una transacción, justo antes de que se difunda en la red. Esta transacción contiene toda la información necesaria para su inclusión en un bloque:
 

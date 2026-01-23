@@ -1,5 +1,6 @@
 ---
 term: Segwit
+definition:
 ---
 
 SegWit 是「Segregated Witness」的縮寫，是 2017 年 8 月推出的 Bitcoin 協定的更新版。它旨在解決數個技術問題，包括網路的交易容量問題、交易延展性問題，以及促進未來的協定修改。

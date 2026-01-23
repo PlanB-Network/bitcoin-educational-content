@@ -1,6 +1,7 @@
 ---
 term: Fork
 
+definition:
 ---
 Terminil "fork" on Bitcoini kontekstis mitu tähendust. See võib viidata kas sõlmede võrgu jagunemisele mitmeks eraldi rühmaks, mille tulemusel luuakse mitu erinevat plokiahelat, või protokolli reeglite muutmisele või mõlemale korraga. Lihtsustuseks võib eristada 4 peamist forkside kategooriat:
 

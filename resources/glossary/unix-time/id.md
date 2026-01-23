@@ -1,6 +1,7 @@
 ---
 term: Waktu Unix
 
+definition:
 ---
 Waktu Unix atau Stempel Waktu Unix menunjukkan jumlah detik yang telah berlalu sejak 1 Januari 1970, pada tengah malam UTC (Zaman Unix). Sistem ini digunakan dalam sistem operasi Unix dan turunannya untuk menandai waktu dengan cara yang universal dan terstandardisasi. Sistem ini memungkinkan sinkronisasi jam dan pengelolaan acara berbasis waktu, tanpa memandang zona waktu.
 

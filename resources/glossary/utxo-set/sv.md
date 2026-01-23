@@ -1,5 +1,6 @@
 ---
 term: UTXO-mängd
+definition:
 ---
 
 Avser samlingen av alla befintliga UTXO:er vid en given tidpunkt. Med andra ord är det en stor lista över alla olika bitar av bitcoins som väntar på att spenderas. Om du lägger till beloppen för alla UTXO:er i UTXO-uppsättningen ger det oss den totala monetära massan av bitcoins i omlopp. Varje nod i Bitcoin-nätverket upprätthåller sin egen UTXO-uppsättning i realtid. Den uppdaterar den när nya giltiga block bekräftas, med de transaktioner de innehåller, som förbrukar vissa UTXO:er från UTXO-uppsättningen och skapar nya i gengäld.

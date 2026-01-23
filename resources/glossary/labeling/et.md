@@ -1,6 +1,7 @@
 ---
 term: Sildistamine
 
+definition:
 ---
 Praktika, mille käigus määratakse Bitcoini rahakotis konkreetsele UTXO-le märkus või silt. Näiteks, kui mul on UTXO P2P-ostustelt Bisqis koos Charlesiga, võin ma selle märgistada kui "`Non-KYC Bisq Charles`".
 

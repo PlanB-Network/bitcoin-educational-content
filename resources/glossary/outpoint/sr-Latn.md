@@ -1,5 +1,6 @@
 ---
 term: Outpoint
+definition:
 ---
 
 Jedinstvena referenca na neiskorišćeni izlaz transakcije (UTXO). Sastoji se od dva Elements:

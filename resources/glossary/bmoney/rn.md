@@ -1,6 +1,7 @@
 ---
 term: B-money
 
+definition:
 ---
 
 Igishushanyo c’amahera y’ibanga yegerejwe abantu bose yatunganijwe na Wei Dai mu 1998. Yari yiyumvira urubuga aho abayigize bomenyekana gusa biciye ku mfunguruzo za bose, kandi igikorwa cose coba carashizweko umukono n’uwurungitse.

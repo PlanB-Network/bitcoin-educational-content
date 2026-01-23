@@ -1,5 +1,6 @@
 ---
 term: Lightning service provider
+definition:
 ---
 
 Firma działająca na Lightning, której działalność polega na świadczeniu usług płynności użytkownikom.

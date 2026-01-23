@@ -1,4 +1,5 @@
 ---
 term: ZPRV
+definition:
 ---
 ビットコインのSegWit V0アカウント用の拡張秘密鍵プレフィックス。

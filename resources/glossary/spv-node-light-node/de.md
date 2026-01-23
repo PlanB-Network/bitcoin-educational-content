@@ -1,6 +1,7 @@
 ---
 term: SPV-Node (Light Node)
 
+definition:
 ---
 Ein SPV-Knoten (*Simple Payment Verification*), manchmal auch "Light Node" genannt, ist ein leichtgewichtiger Client eines Bitcoin-Knotens, der es Nutzern ermöglicht, Transaktionen zu überprüfen, ohne die gesamte Blockchain speichern zu müssen. Stattdessen speichert ein SPV-Knoten nur die Blockheader und erhält Informationen über bestimmte Transaktionen, indem er bei Bedarf vollständige Knoten abfragt. Dieses Überprüfungsprinzip wird durch die Struktur der Transaktionen in Bitcoin-Blöcken ermöglicht, die in einem kryptografischen Akkumulator (Merkle-Baum) organisiert sind.
 

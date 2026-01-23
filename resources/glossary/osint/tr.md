@@ -1,5 +1,6 @@
 ---
 term: OSINT
+definition:
 ---
 
 "*Açık Kaynak İstihbaratı*" kısaltması. OSINT, herkes tarafından erişilebilen kaynaklardan kamuya açık bilgilerin toplanması ve analiz edilmesi anlamına gelir. Bu kaynaklar arasında web siteleri, forumlar, sosyal ağlar, kamuya açık veritabanları, akademik yayınlar, devlet belgeleri vb. yer alabilir. OSINT'in temel amacı, eğilimleri, korelasyonları ve soruşturma ipuçlarını belirleyerek ham verileri eyleme geçirilebilir bilgilere dönüştürmektir.

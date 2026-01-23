@@ -1,5 +1,6 @@
 ---
 term: Dual funding
+definition:
 ---
 
 Když je otevřen kanál Lightning, duální financování umožňuje oběma účastníkům uzamknout bitcoiny v kanálu. Na rozdíl od tradičního modelu, kdy kanál financuje pouze jeden uzel, umožňuje tato metoda financování oběma stranám, což umožňuje okamžité vyrovnávání likvidity.

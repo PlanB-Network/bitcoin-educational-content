@@ -1,5 +1,6 @@
 ---
 term: BIP0125
+definition:
 ---
 
 Defines the concept of *Replace-by-Fee* (RBF), allowing the sender to replace an unconfirmed transaction with another version that includes higher transaction fees. 

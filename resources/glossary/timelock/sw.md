@@ -1,5 +1,6 @@
 ---
 term: Timelock
+definition:
 ---
 
 Smart contract ya awali ambayo inaruhusu kuweka masharti kulingana na wakati ambayo lazima yatimizwe ili shughuli iongezwe kwenye kizuizi. Kuna aina mbili za vifunga saa kwenye Bitcoin:

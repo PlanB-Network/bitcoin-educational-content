@@ -1,6 +1,7 @@
 ---
 term: Speedy trial
 
+definition:
 ---
 Menetelmä pehmeän haarukan aktivoimiseksi, jonka David A. Harding alun perin ideoi Taprootille vuoden 2021 alussa Russell O'Connorin idean pohjalta. Sen periaatteena on käyttää BIP8-menetelmää, jossa `LOT`-parametrin arvoksi on asetettu `false`, ja samalla lyhentää aktivointiaikaa vain kolmeen kuukauteen. Tämä lyhennetty äänestysaika mahdollistaa kaivostyöntekijöiden hyväksynnän nopean todentamisen. Jos vaadittu hyväksymiskynnys saavutetaan jonkin jakson aikana, soft fork lukitaan. Se aktivoidaan useita kuukausia myöhemmin, jolloin louhijat saavat riittävästi aikaa päivittää ohjelmistonsa.
 

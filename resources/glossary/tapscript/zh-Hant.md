@@ -1,5 +1,6 @@
 ---
 term: Tapscript
+definition:
 ---
 
 旨在修改經典 Bitcoin 腳本語言的某些操作碼，以定義用於 P2TR 支出的新腳本語言的更新。Tapscript 由 BIP342 引進，以 Taproot Soft Fork 實作。

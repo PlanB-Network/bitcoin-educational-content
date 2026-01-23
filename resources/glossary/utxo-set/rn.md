@@ -1,5 +1,6 @@
 ---
 term: Utxo set
+definition:
 ---
 
 Yerekeza ku gukoranya ama UTXO yose ariho mu gihe ico ari co cose. Mu yandi majambo, ni urutonde runini rw’ibice vyose bitandukanye vy’ama bitcoins birindiriye gukoreshwa. Iyo wongeyeko amafaranga yose y’ama UTXO ari muri UTXO, biduha umubare wose w’amahera y’ama bitcoins ariko aragendagenda. Buri nzira iri mu murongo wa Bitcoin iguma ifise UTXO yayo mu gihe nyaco. Irayihindura uko amabuye mashasha afise akamaro yemezwa, n’ibikorwa birimwo, arya ama UTXO amwe amwe avuye mu gice ca UTXO, maze akarema ayandi mashasha mu gusubiza.

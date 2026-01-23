@@ -1,5 +1,6 @@
 ---
 term: SECP256R1
+definition:
 ---
 
 Izina rihabwa umurongo w'uruzitiro usobanurwa n'ingingo ya NIST y'urufunguzo rwa bose. Ikoresha umurima w'intango w'ibice 256 n'ingero y'umurongo w'uruzitiro $y^2 = x^3 + ax + b$ n'ibidahinduka:

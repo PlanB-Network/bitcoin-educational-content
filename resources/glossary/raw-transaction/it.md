@@ -1,6 +1,7 @@
 ---
 term: Transazione raw
 
+definition:
 ---
 Una transazione Bitcoin costruita e firmata, esistente nella sua forma binaria. Una transazione grezza (*raw TX*) è la rappresentazione finale di una transazione, appena prima della sua trasmissione in rete. Questa transazione contiene tutte le informazioni necessarie per la sua inclusione in un blocco:
 

@@ -1,6 +1,7 @@
 ---
 term: SECP256R1
 
+definition:
 ---
 Bezeichnung für eine elliptische Kurve, die durch den NIST-Standard für die Kryptografie öffentlicher Schlüssel definiert ist. Sie verwendet ein Primzahlfeld von 256 Bit und eine elliptische Kurvengleichung $y^2 = x^3 + ax + b$ mit den Konstanten:
 

@@ -1,5 +1,6 @@
 ---
 term: OP_CHECKLOCKTIMEVERIFY (0XB1)
+definition:
 ---
 
 تراکنش را نامعتبر می‌کند مگر اینکه تمام این شرایط برآورده شوند:

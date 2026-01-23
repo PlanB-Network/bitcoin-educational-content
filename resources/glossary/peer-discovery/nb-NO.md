@@ -1,6 +1,7 @@
 ---
 term: Nodedeteksjon
 
+definition:
 ---
 Prosessen der noder i Bitcoin-nettverket kobler seg til andre noder for å innhente informasjon. Når en Bitcoin-node først lanseres, har den ingen informasjon om andre noder i nettverket. Likevel må den etablere forbindelser for å synkronisere med den blokkjeden som har mest akkumulert arbeid. Det finnes flere mekanismer som brukes for å finne disse jevnaldrende, i prioritert rekkefølge:
 

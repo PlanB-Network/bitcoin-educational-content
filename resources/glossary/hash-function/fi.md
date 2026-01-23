@@ -1,6 +1,7 @@
 ---
 term: Tiivistefunktio
 
+definition:
 ---
 Matemaattinen funktio, joka ottaa vaihtelevan kokoisen syötteen (jota kutsutaan viestiksi) ja tuottaa kiinteän kokoisen tulosteen (jota kutsutaan hashiksi, hashingiksi, digestiksi tai sormenjäljeksi). Hash-funktiot ovat laajalti käytettyjä salausmenetelmiä. Niillä on erityisiä ominaisuuksia, jotka tekevät niistä sopivia käytettäväksi turvallisissa yhteyksissä:
 

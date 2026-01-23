@@ -1,5 +1,6 @@
 ---
 term: Stonewall
+definition:
 ---
 
 Specyficzna forma transakcji Bitcoin mająca na celu zwiększenie prywatności użytkownika podczas wydawania pieniędzy poprzez naśladowanie CoinJoin między dwiema osobami, bez faktycznego bycia jedną z nich. W rzeczywistości transakcja ta nie jest oparta na współpracy. Użytkownik może skonstruować ją samodzielnie, angażując tylko własne UTXO jako dane wejściowe. W związku z tym można utworzyć transakcję Stonewall na dowolną okazję, bez konieczności synchronizacji z innym użytkownikiem.

@@ -1,5 +1,6 @@
 ---
 term: OP_2OVER (0X70)
+definition:
 ---
 
 Copies the two elements that are in the fourth and third positions from the top of the stack, then places them on top of the stack. For example, if the stack is:

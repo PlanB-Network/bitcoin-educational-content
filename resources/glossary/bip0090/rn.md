@@ -1,5 +1,6 @@
 ---
 term: BIP0090
+definition:
 ---
 
 BIP90 isaba kworohereza gukoresha amaforogo ya Soft ya kera mu gusubirira ikimenyetso ca Miner biciye ku mibare y’amabara n’ugusuzuma uburebure bw’amabara yoroshe.

@@ -1,5 +1,6 @@
 ---
 term: Ponowne użycie adresu
+definition:
 ---
 
 Ponowne wykorzystanie Address odnosi się do praktyki używania tego samego Address do blokowania wielu UTXO, czasami w ramach kilku różnych transakcji. Bitcoiny są zazwyczaj blokowane przy użyciu pary kluczy kryptograficznych, która odpowiada unikalnemu Address. Ponieważ Blockchain jest publiczny, łatwo jest sprawdzić, które adresy są powiązane z iloma bitcoinami. W przypadku ponownego użycia tego samego Address do wielu płatności, rozsądne jest wyobrażenie sobie, że wszystkie powiązane UTXO należą do tego samego podmiotu. W związku z tym ponowne wykorzystanie Address stanowi problem dla prywatności użytkownika. Pozwala to na deterministyczne powiązania między wieloma transakcjami i UTXO, a także utrwala śledzenie funduszy On-Chain. Satoshi Nakamoto wspomniał już o tym problemie w swojej Białej Księdze:

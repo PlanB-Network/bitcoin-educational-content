@@ -1,6 +1,7 @@
 ---
 term: Tehingu tunnistaja
 
+definition:
 ---
 Viitab Bitcoini tehingute komponendile, mis viidi üle koos SegWit pehme kahvliga, et lahendada tehingu muutlikkuse probleem. Tunnistaja sisaldab allkirju ja avalikke võtmeid, mis on vajalikud tehingus kulutatud bitcoinide avamiseks. Legacy-tehingutes kujutas tunnistaja kõigi sisendite `scriptSig` summat. SegWit-tehingutes kujutab tunnistaja iga sisendi "scriptWitnessi" summat ja see osa tehingust on nüüd viidud eraldi Merkle'i puusse ploki sees.
 

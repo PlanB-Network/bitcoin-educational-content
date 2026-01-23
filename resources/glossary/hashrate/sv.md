@@ -1,5 +1,6 @@
 ---
 term: Hashrate
+definition:
 ---
 
 Indikator för nätverkets datorkraft, mätt i hashes per sekund (H/s). Den indikerar gruvarbetarnas kapacitet att utföra hashoperationer som en del av Proof of Work. En hög Hashrate innebär större säkerhet för den ekonomiska historien i Bitcoin och ökad motståndskraft mot attacker, eftersom det krävs en betydande mängd datorkraft för att kompromissa med nätverket.

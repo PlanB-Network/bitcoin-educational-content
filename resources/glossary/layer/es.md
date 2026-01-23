@@ -1,5 +1,6 @@
 ---
 term: Capa
+definition:
 ---
 
 Protocolo o red construido sobre la red principal Bitcoin. Utiliza la red Bitcoin como base y, por tanto, depende de su protocolo. Sin embargo, la red Bitcoin no depende de sus superposiciones. Un ejemplo de este tipo de superposición es Lightning Network.

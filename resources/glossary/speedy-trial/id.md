@@ -1,6 +1,7 @@
 ---
 term: Speedy trial
 
+definition:
 ---
 _Speedy trial_ atau uji coba cepat adalah metode aktivasi _soft fork_ yang awalnya dikonsepsualiasi untuk Taproot pada awal tahun 2021 oleh David A. Harding berdasarkan ide dari Russell O'Connor. Prinsipnya adalah menggunakan metode BIP8 dengan parameter `LOT` yang disetel ke `false`, sekaligus mengurangi periode aktivasi menjadi hanya 3 bulan. Periode pemungutan suara yang dipersingkat ini memungkinkan verifikasi persetujuan penambang dengan cepat. Jika ambang batas persetujuan yang diperlukan tercapai selama salah satu periode, s_oft fork_ akan dikunci. _Soft fork_ akan diaktifkan beberapa bulan kemudian, sehingga memberikan penambang waktu yang diperlukan untuk memperbarui perangkat lunak mereka.
 

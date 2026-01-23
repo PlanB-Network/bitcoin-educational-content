@@ -1,6 +1,7 @@
 ---
 term: Råtransaksjon
 
+definition:
 ---
 En Bitcoin-transaksjon som er bygget og signert, og som eksisterer i sin binære form. En rå transaksjon (*raw TX*) er den endelige representasjonen av en transaksjon, rett før den sendes ut på nettverket. Denne transaksjonen inneholder all nødvendig informasjon for at den skal kunne inkluderes i en blokk:
 

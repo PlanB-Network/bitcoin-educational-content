@@ -1,5 +1,6 @@
 ---
 term: Sequestro de BGP
+definition:
 ---
 
 Ataque em que um agente malicioso manipula os anúncios BGP para redirecionar o tráfego da Internet para a sua própria rede. Ao fingir ser a origem legítima de determinados intervalos de IP Address, o atacante pode intercetar, monitorizar ou bloquear o tráfego destinado a esses endereços.

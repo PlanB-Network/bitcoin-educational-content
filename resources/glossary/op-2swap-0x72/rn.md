@@ -1,6 +1,7 @@
 ---
 term: OP_2SWAP (0X72)
 
+definition:
 ---
 
 Ihindura ibintu bibiri biri hejuru y'ikirundo n'ibintu bibiri biri munsi yavyo. Nk'akarorero, nimba ikirundo ari:

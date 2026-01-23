@@ -1,5 +1,6 @@
 ---
 term: Izigama ry'icitunza
+definition:
 ---
 
 Igitero kidasanzwe mu kidengeri Mining. Ni umugenzo w’ububisha aho uwuriko aragira uruhara mu kidengeri asanga ibuye rifise Proof of Work ibereye ariko ntagisangire n’ikidengeri.

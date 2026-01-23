@@ -1,5 +1,6 @@
 ---
 term: Erlay
+definition:
 ---
 
 建議的網路協定，可提高 Bitcoin 節點間未確認交易的轉接效率。

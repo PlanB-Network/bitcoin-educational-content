@@ -1,5 +1,6 @@
 ---
 term: Inflação
+definition:
 ---
 
 Refere-se ao aumento da moeda Supply em circulação, o que leva a uma diminuição do valor de cada unidade monetária e a um aumento do preço dos bens e serviços. No caso das moedas estatais, este fenómeno ocorre quando os bancos centrais emitem novas unidades monetárias.

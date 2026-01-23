@@ -1,5 +1,6 @@
 ---
 term: Prisilno zatvaranje
+definition:
 ---
 
 Nekooperativni mehanizam zatvaranja Lightning kanala. Kada dva korisnika otvore kanal sa Multisig 2/2, svaki može jednostrano zatvoriti kanal emitovanjem poslednjeg Commitment Transaction koji je već potpisan, kako bi povratili svoje bitkoine na lancu. Ovo je poznato kao "prisilno zatvaranje".

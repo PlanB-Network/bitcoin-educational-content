@@ -1,5 +1,6 @@
 ---
 term: OP_2OVER (0X70)
+definition:
 ---
 
 Kopieert de twee Elements die op de vierde en derde positie vanaf de bovenkant van de stapel staan en plaatst ze vervolgens bovenop de stapel. Bijvoorbeeld, als de stapel is:

@@ -1,5 +1,6 @@
 ---
 term: Blinde handtekening
+definition:
 ---
 
 Chaum's blinde handtekeningen zijn een vorm van digitale handtekening waarbij de uitgever van de handtekening de inhoud van het bericht dat hij ondertekent niet kent. De handtekening kan later echter worden geverifieerd met het originele bericht. Deze techniek werd in 1983 ontwikkeld door cryptograaf David Chaum.

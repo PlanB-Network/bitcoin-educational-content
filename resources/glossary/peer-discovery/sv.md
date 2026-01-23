@@ -1,5 +1,6 @@
 ---
 term: Peer discovery
+definition:
 ---
 
 Den process genom vilken noder i Bitcoin-nätverket ansluter till andra noder för att få information. När en Bitcoin-nod först startas har den ingen information om andra noder i nätverket. Ändå måste den upprätta anslutningar för att synkronisera med den Blockchain som har mest ackumulerat arbete. Flera mekanismer används för att upptäcka dessa peers, i prioritetsordning:

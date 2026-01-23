@@ -1,6 +1,7 @@
 ---
 term: Tiefe
 
+definition:
 ---
 Im Zusammenhang mit HD-Wallets (Hierarchical Deterministic) bezieht sich die Tiefe auf die spezifische Ebene eines Schlüssels (öffentlich oder privat), eines Kettencodes, eines erweiterten Schlüssels oder einer Adresse innerhalb der Ableitungsstruktur der Wallet vom Hauptschlüssel. Jede Ebene dieser Struktur kann als eine Etage in einem Schlüsselbaum betrachtet werden, wobei der Hauptschlüssel an der Wurzel steht (Tiefe 0) und die nachfolgenden Ebenen verschiedene Attribute definieren, wie z. B.:
 

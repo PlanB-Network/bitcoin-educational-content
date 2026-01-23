@@ -1,5 +1,6 @@
 ---
 term: BIP0042
+definition:
 ---
 
 Iciyumviro co kunoza Bitcoin core cakosoye akaga gatoyi mu rutonde rwa Block reward Halving. Iyo iyo nkoko itakosorwa, yari gutuma habaho amafaranga arenga miliyoni 21 z’ama bitcoins yari yateguwe.

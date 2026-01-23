@@ -1,5 +1,6 @@
 ---
 term: BIP0150
+definition:
 ---
 
 BIP150 itanga uburyo bwo kwemeza urunganwe ku rubuga rwa Bitcoin kugira ngo umutekano utere imbere no kugenzura urudodo Ownership.

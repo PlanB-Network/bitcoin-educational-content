@@ -1,5 +1,6 @@
 ---
 term: BIP0173
+definition:
 ---
 
 為 SegWit V0 位址引入 bech32 Address 格式。這種 Address 格式的特徵是前綴為 `bc1q`。bech32 格式具有以下幾個優點：

@@ -1,6 +1,7 @@
 ---
 term: Konsolidierung
 
+definition:
 ---
 Eine spezielle Transaktion, bei der mehrere kleine UTXOs in einem Input zusammengeführt werden, um einen einzigen, größeren UTXO als Output zu bilden. Dieser Vorgang ist eine Transaktion für die eigene Wallet. Das Ziel der Konsolidierung ist es, Zeiten zu nutzen, in denen die Gebühren im Bitcoin-Netzwerk niedrig sind, um mehrere kleine UTXOs zu einem wertmäßig größeren zusammenzuführen. Auf diese Weise wird den obligatorischen Ausgaben im Falle von Gebührenerhöhungen vorgegriffen, was zu Einsparungen bei künftigen Transaktionsgebühren führt.
 

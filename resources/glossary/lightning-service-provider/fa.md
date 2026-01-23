@@ -1,5 +1,6 @@
 ---
 term: Lightning service provider
+definition:
 ---
 
 شرکتی که بر روی Lightning فعالیت می‌کند و کسب‌وکار آن ارائه خدمات نقدینگی به کاربران است.

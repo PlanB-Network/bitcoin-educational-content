@@ -1,5 +1,6 @@
 ---
 term: BIP0075
+definition:
 ---
 
 Ukwagura kwongereza ubuhinga bwo kwishura BIP70 mu gushiramwo ibintu bibiri bihambaye bishasha.

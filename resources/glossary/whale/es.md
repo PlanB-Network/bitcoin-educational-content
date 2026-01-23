@@ -1,5 +1,6 @@
 ---
 term: Ballena
 
+definition:
 ---
 Se refiere a una persona o entidad que posee una gran cantidad de bitcoins.

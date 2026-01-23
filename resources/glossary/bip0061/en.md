@@ -1,5 +1,6 @@
 ---
 term: BIP0061
+definition:
 ---
 
 Introduced a rejection message in the communication protocol between nodes. Its purpose was to provide a feedback mechanism so that when a node received a transaction or block it considered invalid, it could inform the sender of the reason for rejection. 

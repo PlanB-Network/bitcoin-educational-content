@@ -1,5 +1,6 @@
 ---
 term: Gossip
+definition:
 ---
 
 Gossip è un algoritmo distribuito peer-to-peer (P2P) per la diffusione epidemica di informazioni a tutti gli agenti della rete. Per Bitcoin, Lightning e altri sistemi distribuiti, questo protocollo consente di scambiare e sincronizzare il Global State dei nodi in pochi cicli. Ogni nodo propaga le informazioni a uno o più vicini casuali o non casuali, che a loro volta propagano le informazioni ad altri vicini e così via, fino a raggiungere uno stato di sincronizzazione globale.

@@ -1,5 +1,6 @@
 ---
 term: NFT
+definition:
 ---
 
 Skrót od *Non-Fungible Token*. NFT reprezentuje jednostkę Bitcoin, która przez użytkowników protokołu drugiego Layer jest interpretowana jako niewymienialna i powiązana z Ownership zasobu zewnętrznego w stosunku do Bitcoin, takiego jak obraz lub inny typ danych.

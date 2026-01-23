@@ -1,5 +1,6 @@
 ---
 term: Bech32 na bech32m
+definition:
 ---
 
 `Bech32` na `Bech32m` ni aina mbili za usimbaji za Address za kupokea bitcoins. Zinatokana na msingi uliorekebishwa kidogo 32. Hujumuisha hundi kulingana na algorithm ya kusahihisha makosa inayoitwa BCH (*Bose-Chaudhuri-Hocquenghem*). Ikilinganishwa na anwani za Urithi, zilizosimbwa katika `Base58check`, anwani za `Bech32` na `Bech32m` zina ukaguzi bora zaidi, unaoruhusu ugunduzi na uwezekano wa kusahihisha makosa kiotomatiki. Umbizo lao pia hutoa usomaji bora, na herufi ndogo pekee. Hapa kuna matrix ya nyongeza ya umbizo hili kutoka msingi wa 10:

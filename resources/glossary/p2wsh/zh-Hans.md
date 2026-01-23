@@ -1,6 +1,7 @@
 ---
 term: P2WSH
 
+definition:
 ---
 P2WSH 代表“支付到隔离见证脚本哈希”。它是一种标准脚本模型，用于在 UTXO 上建立支出条件。P2WSH 是在 2017 年 8 月实施 SegWit 时引入的。
 

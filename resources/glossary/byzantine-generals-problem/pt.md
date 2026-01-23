@@ -1,6 +1,7 @@
 ---
 term: Problema dos generais bizantinos
 
+definition:
 ---
 O problema foi formulado pela primeira vez por Leslie Lamport, Robert Shostak e Marshall Pease na revista especializada *ACM Transactions on Programming Languages and Systems, vol 4, n° 3* ["The Byzantine Generals Problem"](https://lamport.azurewebsites.net/pubs/byz.pdf) em julho de 1982. É utilizado atualmente para ilustrar os desafios em termos de tomada de decisões quando um sistema distribuído não pode confiar em nenhum ator.
 

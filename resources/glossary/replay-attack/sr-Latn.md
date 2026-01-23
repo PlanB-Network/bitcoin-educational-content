@@ -1,5 +1,6 @@
 ---
 term: Replay napad
+definition:
 ---
 
 U kontekstu Bitcoin, napad ponovnim puštanjem (replay attack) se dešava kada se validna transakcija na jednom Blockchain zlonamerno reprodukuje na drugom Blockchain koji ima istu istoriju transakcija. Drugim rečima, transakcija emitovana na jednom kanalu može biti replicirana na drugom bez pristanka pošiljaoca prve transakcije.

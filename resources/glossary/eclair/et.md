@@ -1,6 +1,7 @@
 ---
 term: Eclair
 
+definition:
 ---
 Scala keeles kirjutatud Lightning Network'i protokolli peamine implementatsioon. Eclair on välja töötatud Prantsuse ettevõtte Acinq poolt.
 

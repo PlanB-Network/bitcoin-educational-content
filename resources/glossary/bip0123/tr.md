@@ -1,5 +1,6 @@
 ---
 term: BIP0123
+definition:
 ---
 
 Bitcoin iyileştirme tekliflerinin sınıflandırılması için yeni bir standartlaştırılmış süreç oluşturmaktadır. BIP'ler artık 4 kategoride sınıflandırılmalıdır:

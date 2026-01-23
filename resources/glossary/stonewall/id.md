@@ -1,6 +1,7 @@
 ---
 term: Stonewall
 
+definition:
 ---
 Sebuah bentuk transaksi Bitcoin khusus yang bertujuan untuk meningkatkan privasi pengguna selama melakukan pembelanjaan dengan meniru koin bersama antara dua orang, tanpa benar-benar menjadi satu. Memang, transaksi ini tidak bersifat kolaboratif. Seorang pengguna dapat membuatnya sendiri, dengan hanya melibatkan UTXO mereka sendiri sebagai input. Oleh karena itu, Anda dapat membuat transaksi Stonewall untuk setiap kesempatan, tanpa perlu melakukan sinkronisasi dengan pengguna lain.
 

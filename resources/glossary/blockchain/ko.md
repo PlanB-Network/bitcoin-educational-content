@@ -1,5 +1,6 @@
 ---
 term: 블록체인
+definition:
 ---
 
 Blockchain은 Bitcoin의 분산형 Timestamp 서버에 대해 일반적으로 사용되는 용어입니다.  말 그대로 블록의 체인으로, 각 블록은 암호화 Hash를 통해 이전 블록에 연결됩니다.

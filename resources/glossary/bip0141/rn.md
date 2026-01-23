@@ -1,5 +1,6 @@
 ---
 term: BIP0141
+definition:
 ---
 
 BIP141 yashizeho iciyumviro c’Icabona Gitandukanye (SegWit), kikaba ari co catumye citwa SegWit Soft Fork.

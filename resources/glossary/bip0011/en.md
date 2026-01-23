@@ -1,5 +1,6 @@
 ---
 term: BIP0011
+definition:
 ---
 
 BIP11, introduced by Gavin Andresen in March 2012, proposed a standard method for creating multisignature transactions on Bitcoin. Its goal was to enhance the security of bitcoins by requiring multiple signatures to authorize a transaction. 

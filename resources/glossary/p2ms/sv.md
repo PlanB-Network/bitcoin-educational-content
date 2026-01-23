@@ -1,5 +1,6 @@
 ---
 term: P2MS
+definition:
 ---
 
 P2MS står för *Pay to Multisig*, vilket översätts till "betala till flera signaturer". Det är en standardskriptmodell som används för att fastställa utgiftsvillkor för en UTXO. Den gör det möjligt att låsa bitcoins med flera offentliga nycklar. För att spendera dessa bitcoins krävs en signatur med ett fördefinierat antal associerade privata nycklar. Till exempel innebär en `P2MS 2/3` `3` publika nycklar med `3` associerade hemliga privata nycklar. För att spendera de bitcoins som är låsta med detta P2MS-skript krävs en signatur med minst `2` av de `3` privata nycklarna. Detta är ett tröskelsäkerhetssystem.

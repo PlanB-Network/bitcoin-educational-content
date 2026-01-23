@@ -1,5 +1,6 @@
 ---
 term: Isubumirwa ry'urunyenyeri
+definition:
 ---
 
 Ivyigwa birimwo uburyo bwose bukoreshwa mu gukurikirana uruja n’uruza rw’ama bitcoins kuri Blockchain. Muri rusangi, isesengura ry’uruzitiro rishingiye ku kwihweza ibiranga mu ngero z’ibikorwa vya kera. Bica birimwo kumenya ivyo bimenyetso nyene mu gucuruza umuntu yipfuza gusuzuma, no gukuraho insobanuro zishobora kwemerwa. Ubwo buryo bwo gutorera umuti ingorane, bushingiye ku buryo bukora bwo kuronka umuti mwiza uhagije, buzwi kw’izina rya heuristic. Kugira ngo vyorohe, isesengura ry’uruzitiro rikorwa mu ntambwe zibiri nyamukuru:

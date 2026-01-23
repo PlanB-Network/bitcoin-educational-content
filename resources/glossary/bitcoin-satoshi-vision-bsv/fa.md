@@ -1,5 +1,6 @@
 ---
 term: Bitcoin Satoshi Vision (BSV)
+definition:
 ---
 
 سیستم ارز دیجیتال ناشی از یک Hard Fork از Bitcoin کش (BCH)، که خود یک Fork از Bitcoin (BTC) است. Bitcoin SV Fork در تاریخ ۱۵ نوامبر ۲۰۱۸، در بلوک ۵۵۶,۷۶۶ به دلیل اختلافات درون جامعه Bitcoin کش، به ویژه در مورد اندازه بلوک و دیدگاه فرضی Satoshi ناکاموتو، خالق Bitcoin رخ داد. دو جناح با هم درگیر شدند:

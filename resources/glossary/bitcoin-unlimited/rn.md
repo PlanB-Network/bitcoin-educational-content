@@ -1,5 +1,6 @@
 ---
 term: Bitcoin Unlimited
+definition:
 ---
 
 Iciyumviro co guhindura amasezerano ya Bitcoin yasohotse mu mpera z'icuma 2016, kigamije kwongera ubunini bw'amabuye biciye ku Hard Fork.

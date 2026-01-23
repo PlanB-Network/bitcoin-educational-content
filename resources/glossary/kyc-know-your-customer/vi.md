@@ -1,6 +1,7 @@
 ---
 term: KYC (thấu hiểu khách hàng)
 
+definition:
 ---
 Regulatory procedure used by some companies operating on Bitcoin to verify the identity of their clients as part of the fight against money laundering and terrorism financing. KYC involves the collection and verification of personal data. In the context of buying bitcoins, KYC poses several risks for the user, including:
 

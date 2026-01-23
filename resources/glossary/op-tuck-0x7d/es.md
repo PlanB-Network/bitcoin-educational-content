@@ -1,6 +1,7 @@
 ---
 term: OP_TUCK (0X7D)
 
+definition:
 ---
 Copia el elemento situado en la parte superior de la pila y lo inserta entre el segundo y el tercer elemento de la pila. Por ejemplo, si la pila es:
 

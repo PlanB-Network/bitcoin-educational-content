@@ -1,5 +1,6 @@
 ---
 term: Témoin de transaction
+definition:
 ---
 
 Yerekeza ku gice c’ibikorwa vya Bitcoin vyari vyimuwe na SegWit Soft Fork gushika kuri Address ikibazo c’ubushobozi bwo gukora ibikorwa. Ico cabona kirimwo imikono n’imfunguruzo za bose zikenewe kugira ngo umuntu ashobore gufungura ama bitcoins akoreshwa mu gucuruza. Mu bikorwa vy'Iragi, umushingantahe yaserukira umubare w'inyandiko Sig` uvuye mu vyo vyose vyinjijwe. Mu bikorwa vya SegWit, umushingantahe aserukira umubare wa `scriptWitness` ku vyo winjije vyose, kandi iki gice c'ibikorwa ubu kirimurirwa mu Merkle Tree itandukanye mu gice.

@@ -1,6 +1,7 @@
 ---
 term: Acuerdo de Nueva York (NYA)
 
+definition:
 ---
 Reunión privada celebrada en 2017, en la que participaron más de 50 empresas del ecosistema Bitcoin, tras la conferencia Consensus 2017. El objetivo de esta reunión era poner fin al prolongado debate sobre el escalado de Bitcoin llegando a un acuerdo. Esta reunión dio lugar a la propuesta de SegWit2x, inspirándose en la anterior propuesta SegWit2Mb. En ella se planeaban dos modificaciones importantes del protocolo Bitcoin:
 

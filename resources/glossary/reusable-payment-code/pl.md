@@ -1,5 +1,6 @@
 ---
 term: Kod płatności wielokrotnego użytku
+definition:
 ---
 
 W BIP47 kod płatności wielokrotnego użytku jest statycznym identyfikatorem generowanym z Bitcoin Wallet, który umożliwia transakcję powiadomienia i wyprowadzenie unikalnych adresów. Pozwala to uniknąć ponownego wykorzystania adresów, co prowadzi do utraty prywatności, bez konieczności ręcznego uzyskiwania i przesyłania nowych, nieużywanych adresów dla każdej płatności. W BIP47 kody płatności wielokrotnego użytku są skonstruowane w następujący sposób:

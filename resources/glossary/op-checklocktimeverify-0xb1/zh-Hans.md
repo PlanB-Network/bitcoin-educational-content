@@ -1,6 +1,7 @@
 ---
 term: OP_CHECKLOCKTIMEVERIFY (0XB1)
 
+definition:
 ---
 使交易无效，除非满足所有以下条件：
 

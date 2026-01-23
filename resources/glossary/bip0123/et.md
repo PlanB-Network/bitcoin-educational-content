@@ -1,6 +1,7 @@
 ---
 term: BIP0123
 
+definition:
 ---
 Kehtestab uue standardiseeritud protsessi Bitcoini parendusettepanekute klassifitseerimiseks. Bitcoini ettepanekud tuleb nüüd liigitada 4 kategooriasse:
 

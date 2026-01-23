@@ -1,5 +1,6 @@
 ---
 term: Ath (歷史最高點)
+definition:
 ---
 
 指所研究項目的最高價格。ATH 通常是指 Bitcoin 與法定貨幣在特定期間內的最高價格。

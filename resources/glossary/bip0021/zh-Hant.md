@@ -1,5 +1,6 @@
 ---
 term: BIP0021
+definition:
 ---
 
 提案由 Nils Schneider 和 Matt Corallo 撰寫，以 Luke Dashjr 撰寫的 BIP20 為基礎，而 BIP20 又來自 Nils Schneider 撰寫的另一份文件。BIP21 定義了接收位址應如何在 URI（*統一資源識別碼*）中編碼，以方便付款。例如，一個遵循 BIP21 的 Bitcoin URI，其中我會要求標籤為 "*Pandul*"的人向我發送 0.1 BTC，它會是這樣的：

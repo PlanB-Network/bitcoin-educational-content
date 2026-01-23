@@ -1,5 +1,6 @@
 ---
 term: OP_CHECKLOCKTIMEVERIFY (0XB1)
+definition:
 ---
 
 Čini transakciju nevažećom osim ako svi ovi uslovi nisu ispunjeni:

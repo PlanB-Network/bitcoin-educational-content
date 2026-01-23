@@ -1,5 +1,6 @@
 ---
 term: OP_2DROP (0XD6)
 
+definition:
 ---
 Eemaldab virnast kaks ülemist elementi. Teisisõnu, `OP_2DROP` eemaldab virna ülemise elemendi ja teise elemendi virnast. See op-kood on samaväärne kahe järjestikuse `OP_DROP` operatsiooniga.

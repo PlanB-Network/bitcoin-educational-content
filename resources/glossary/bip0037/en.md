@@ -1,5 +1,6 @@
 ---
 term: BIP0037
+definition:
 ---
 
 A proposal designed to allow lightweight wallets (*Simplified Payment Verification*) to filter transactions without having to download the entire blockchain. This method is based on the concept of Bloom Filters, probabilistic data structures that efficiently test whether an element belongs to a set. 

@@ -1,5 +1,6 @@
 ---
 term: Świadek transakcji
+definition:
 ---
 
 Odnosi się do składnika transakcji Bitcoin, który został przeniesiony wraz z SegWit Soft Fork do Address w kwestii podatności transakcji. Świadek zawiera podpisy i klucze publiczne niezbędne do odblokowania bitcoinów wydanych w transakcji. W starszych transakcjach świadek reprezentował sumę `scriptSig` ze wszystkich danych wejściowych. W transakcjach SegWit świadek reprezentuje sumę `scriptWitness` dla każdego wejścia, a ta część transakcji jest teraz przenoszona do oddzielnego Merkle Tree w bloku.

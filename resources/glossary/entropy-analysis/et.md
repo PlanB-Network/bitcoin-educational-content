@@ -1,6 +1,7 @@
 ---
 term: Entroopia analüüs
 
+definition:
 ---
 Konkreetses ahelanalüüsi kontekstis on entroopia ka LaurentMT poolt leiutatud Shannoni entroopiast tuletatud näitaja nimi. See näitaja võimaldab mõõta analüütikute teadmatust Bitcoini tehingu täpse konfiguratsiooni kohta. Teisisõnu, mida suurem on tehingu entroopia, seda raskem on analüütikutel tuvastada bitcoinide liikumist sisendite ja väljundite vahel.
 

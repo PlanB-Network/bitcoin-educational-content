@@ -1,5 +1,6 @@
 ---
 term: Mempool
+definition:
 ---
 
 Skrócenie terminów "pamięć" i "pula". Odnosi się do wirtualnej przestrzeni, w której grupowane są transakcje Bitcoin oczekujące na włączenie do bloku. Gdy transakcja jest tworzona i transmitowana w sieci Bitcoin, jest ona najpierw weryfikowana przez węzły sieci. Jeśli zostanie uznana za ważną, jest następnie umieszczana w Mempool każdego węzła, gdzie pozostaje do momentu wybrania jej przez Miner do włączenia do bloku.

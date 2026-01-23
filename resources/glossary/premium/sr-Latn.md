@@ -1,5 +1,6 @@
 ---
 term: Premija
+definition:
 ---
 
 Dodatni iznos plaćen preko standardne ili nominalne cene imovine. U kontekstu Bitcoin, premija se može primetiti prilikom kupovine, posebno na Exchange platformama, koje ponekad koriste ovu tehniku da bi ostvarile svoju maržu na brokerskoj usluzi.

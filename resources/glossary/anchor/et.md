@@ -1,5 +1,6 @@
 ---
 term: Anchor
+definition:
 ---
 
 RGB protokollis kujutab Anchor kliendipoolset andmekogumit, mida kasutatakse ühe Commitment tehingusse kaasamise tõendamiseks. RGB protokollis koosneb Anchor järgmistest Elements:

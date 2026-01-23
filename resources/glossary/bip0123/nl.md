@@ -1,5 +1,6 @@
 ---
 term: BIP0123
+definition:
 ---
 
 Stelt een nieuw gestandaardiseerd proces in voor de classificatie van voorstellen voor Bitcoin verbeteringen. GIP's moeten nu worden ingedeeld in 4 categorieën:

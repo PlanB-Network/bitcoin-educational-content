@@ -1,5 +1,6 @@
 ---
 term: OP_0NOTEQUAL (0X92)
+definition:
 ---
 
 檢查堆疊頂端的項目是否不等於 0。如果該項目不為零，則將 `1` (true) 推入堆疊，否則推入 `0` (false)。

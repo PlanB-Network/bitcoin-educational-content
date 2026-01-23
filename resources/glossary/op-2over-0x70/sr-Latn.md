@@ -1,5 +1,6 @@
 ---
 term: OP_2OVER (0X70)
+definition:
 ---
 
 Kopira dve Elements koje su na četvrtoj i trećoj poziciji od vrha steka, zatim ih postavlja na vrh steka. Na primer, ako je stek:

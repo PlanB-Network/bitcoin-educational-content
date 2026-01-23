@@ -1,5 +1,6 @@
 ---
 term: Itariki y'amavuko (isaho)
+definition:
 ---
 
 Itariki y’amavuko (Wallet) yerekeza ku itariki Wallet yaremeweko.

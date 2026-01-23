@@ -1,6 +1,7 @@
 ---
 term: Bitcoin Satoshi Vision (BSV)
 
+definition:
 ---
 Kryptoměnový systém vzniklý tvrdým rozvětvením Bitcoinu Cash (BCH), který je sám rozvětvením Bitcoinu (BTC). K forku Bitcoin SV došlo 15. listopadu 2018 v bloku 556 766 kvůli neshodám uvnitř komunity Bitcoin Cash, zejména pokud jde o velikost bloku a údajnou vizi Satoshiho Nakamota, tvůrce Bitcoinu. Došlo ke střetu dvou frakcí:
 

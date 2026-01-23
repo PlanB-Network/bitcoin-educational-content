@@ -1,6 +1,7 @@
 ---
 term: OP_2ROT (0X71)
 
+definition:
 ---
 Move os dois elementos que estão na sexta e quinta posições do topo da pilha para o topo. Por exemplo, se a pilha for:
 

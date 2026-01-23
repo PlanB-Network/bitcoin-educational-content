@@ -1,5 +1,6 @@
 ---
 term: Pps (pay başına ödeme)
+definition:
 ---
 
 Mining havuzları kapsamında madencilerin ücretlerini hesaplama yöntemi. PPS, havuzun bir blok bulup bulmadığına bakılmaksızın madencilere sunulan her geçerli hisse için ödeme yapılan bir sistemdir. Bu nedenle beklenen değere göre ücretlendirilirler. Görev bazlı bir ücretlendirme yöntemidir.

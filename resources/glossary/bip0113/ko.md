@@ -1,5 +1,6 @@
 ---
 term: BIP0113
+definition:
 ---
 
 모든 타임락 연산(`nLockTime`, `OP_CHECKLOCKTIMEVERIFY`, `nSequence`, `OP_CHECKSEQUENCEVERIFY`)의 평가 방식에 변경을 도입했습니다.

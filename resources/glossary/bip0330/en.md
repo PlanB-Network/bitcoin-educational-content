@@ -1,5 +1,6 @@
 ---
 term: BIP0330
+definition:
 ---
 
 A proposal known as "*Erlay*", which aims to optimize the propagation of unconfirmed transactions in the Bitcoin network. 

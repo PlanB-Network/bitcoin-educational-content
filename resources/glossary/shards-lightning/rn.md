@@ -1,5 +1,6 @@
 ---
 term: Shards (lightning)
+definition:
 ---
 
 Mu bijanye n’*Inyishu z’inzira nyinshi (MPP)* canke *Inyishu z’inzira nyinshi z’atome (AMP)*, Shard ni agace k’ukwishura kw’isi yose. Shard yose igereranya igice c’amahera yose yishurwa, iyo nzira ikaba irungikwa ukwayo biciye mu nzira itandukanye kuri Lightning.

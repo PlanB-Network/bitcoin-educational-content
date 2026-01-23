@@ -1,5 +1,6 @@
 ---
 term: Commitment
+definition:
 ---
 
 Commitment (v kryptografickém smyslu) je matematický objekt, označený $C$, odvozený deterministicky z operace na strukturovaných datech $m$ (zpráva) a náhodné hodnoty $r$. Píšeme :

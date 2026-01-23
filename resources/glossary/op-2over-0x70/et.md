@@ -1,6 +1,7 @@
 ---
 term: OP_2OVER (0X70)
 
+definition:
 ---
 Kopeerib kaks elementi, mis on virna neljandas ja kolmandas positsioonis, ja asetab need virna tippu. Näiteks kui virnas on:
 

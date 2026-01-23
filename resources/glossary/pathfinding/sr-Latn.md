@@ -1,5 +1,6 @@
 ---
 term: Pronalaženje puta
+definition:
 ---
 
 Proces koji koristi čvor za određivanje optimalne putanje za usmeravanje plaćanja kroz mrežu Lightning kanala. Pronalaženje putanje obavlja čvor platioca, koji mora odabrati najpogodnije međučvorove kako bi stigao do primaoca. Ovaj izbor se zasniva na brojnim kriterijumima, kao što su naknade, kapacitet kanala i vremenska ograničenja.

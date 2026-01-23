@@ -1,6 +1,7 @@
 ---
 term: Sidechain
 
+definition:
 ---
 Plokiahel, mis on mõeldud töötama paralleelselt Bitcoini peamise plokiahelaga. Need kaks ahelat on ühendatud kahesuunalise pegli abil, mis tagab, et kõrvalahelas ringlev vara säilitab sama väärtuse kui bitcoin põhiahelas. Kõrvalahelal on oma konsensusmehhanism, mis võib olla sõltumatu või osaliselt tugineda peamise ahela mehhanismile. Üldiselt võimaldab see kasutada funktsioone, mis ei ole otse põhiahelas kättesaadavad, või täiustatud funktsioone, näiteks: suurem paindlikkus arendamisel, kiiremad ja/või privaatsemad tehingud või suurem tehinguvõimsus. Selle saavutamiseks teeb kõrvalahela kompromisse võrreldes peamise ahelaga.
 

@@ -1,6 +1,7 @@
 ---
 term: OP_CHECKSEQUENCEVERIFY (0XB2)
 
+definition:
 ---
 これらの特徴が1つでも見られた場合、トランザクションは無効となる：
 

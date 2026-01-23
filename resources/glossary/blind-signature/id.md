@@ -1,6 +1,7 @@
 ---
 term: Tanda tangan buta
 
+definition:
 ---
 _Chaum Blind Signature_ adalah bentuk tanda tangan digital di mana pemberi tanda tangan tidak mengetahui isi pesan yang mereka tandatangani. Namun, tanda tangan tersebut nantinya dapat diverifikasi dengan pesan aslinya. Teknik ini dikembangkan oleh kriptografer David Chaum pada tahun 1983.
 

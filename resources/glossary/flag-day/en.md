@@ -1,5 +1,6 @@
 ---
 term: Flag day
+definition:
 ---
 
 Method of activating a soft fork used in the early years of Bitcoin. This process simply sets a deadline, known as "Flag Day," before which the protocol update must be adopted by the entire network. This approach is straightforward: after this date, nodes and miners must have updated their software to comply with the new rules, otherwise, they risk being on an incompatible chain.

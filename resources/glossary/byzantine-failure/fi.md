@@ -1,6 +1,7 @@
 ---
 term: Bysanttilainen vika
 
+definition:
 ---
 Bysanttihäiriö tai Bysantti-käyttäytyminen tarkoittaa järjestelmän käyttäytymistä, joka ei noudata sen omia määrittelyjä ja tuottaa poikkeavia tuloksia.
 

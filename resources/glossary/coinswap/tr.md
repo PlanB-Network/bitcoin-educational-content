@@ -1,5 +1,6 @@
 ---
 term: Coinswap
+definition:
 ---
 
 Kullanıcılar arasında Ownership'in gizli transferi için protokol. Bu yöntem, Exchange'nin Blockchain üzerinde açıkça görünmeden, bitcoinlerin sahipliğini bir kişiden diğerine veya tam tersi şekilde aktarmayı amaçlamaktadır. Coinwap, taraflar arasında güvene ihtiyaç duymadan transferi gerçekleştirmek için akıllı sözleşmeler kullanır.

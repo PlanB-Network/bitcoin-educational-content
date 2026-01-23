@@ -1,6 +1,7 @@
 ---
 term: Räsifunktsioon
 
+definition:
 ---
 Matemaatiline funktsioon, mis võtab muutuva suurusega sisendi (nn sõnum) ja annab fikseeritud suurusega väljundi (nn hash, hash, digesti või sõrmejälg). Hash-funktsioonid on krüptograafias laialdaselt kasutatavad algmaterjalid. Neil on spetsiifilised omadused, mis muudavad nad sobivaks kasutamiseks turvalistes kontekstides:
 

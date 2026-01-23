@@ -1,6 +1,7 @@
 ---
 term: VIN
 
+definition:
 ---
 Specifický prvek bitcoinové transakce, který určuje zdroj finančních prostředků použitých k uspokojení výstupů. Každý `vin` odkazuje na nespotřebovaný výstup (UTXO) z předchozí transakce. Transakce může obsahovat více vstupů, z nichž každý je identifikován kombinací `txid` (identifikátor původní transakce) a `vout` (index výstupu v dané transakci).
 

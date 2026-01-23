@@ -1,5 +1,6 @@
 ---
 term: Byzantijnse fout
+definition:
 ---
 
 Byzantijns falen, of Byzantijns gedrag, verwijst naar elk gedrag van een systeem dat niet voldoet aan de eigen specificaties, waardoor niet-conforme resultaten worden geproduceerd.

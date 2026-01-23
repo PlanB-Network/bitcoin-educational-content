@@ -1,5 +1,6 @@
 ---
 term: bitcoin.conf
+definition:
 ---
 
 Configuration file used to customize the operation of a Bitcoin node running the Bitcoin Core client. Located in the Bitcoin Core data directory, this text file allows node operators to define various parameters and options that influence the node’s behavior.

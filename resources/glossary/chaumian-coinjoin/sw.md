@@ -1,5 +1,6 @@
 ---
 term: Chaumian coinjoin
+definition:
 ---
 
 Itifaki ya CoinJoin inayotumia sahihi saini za David Chaum na Tor kwa mawasiliano kati ya washiriki na seva ya mratibu. Lengo la Chaumian CoinJoin ni kuhakikisha washiriki kwamba mratibu hawezi kuiba bitcoins, wala kuunganisha pembejeo na matokeo pamoja.

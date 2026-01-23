@@ -1,5 +1,6 @@
 ---
 term: Atomic multi-path payments
+definition:
 ---
 
 MPP (*Multi-Path Payments*) täiustatud versioon, kus igal maksefragmendil on eraldi osaline saladus, mis tagab, et tehing arveldatakse aatomiliselt, st kas täies ulatuses või üldse mitte.

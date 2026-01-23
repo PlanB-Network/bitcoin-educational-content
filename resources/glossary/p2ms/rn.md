@@ -1,5 +1,6 @@
 ---
 term: P2MS
+definition:
 ---
 
 P2MS bisobanura *Pay to Multisig*, bisobanura "kwishura ku mikono myinshi". Ni urugero rw'inyandiko rusanzwe rukoreshwa mu gushinga ivyangombwa vyo gukoresha amahera kuri UTXO. Ishobora gufunga ama bitcoins n’imfunguruzo nyinshi za bose. Kugira ngo ukoreshe izo bitcoins, birakenewe ko umuntu agira umukono ufise umubare w’imfunguruzo z’ibanga zijanye n’ivyo. Nk'akarorero, `P2MS 2/3` irimwo `3` imfunguruzo za bose n'imfunguruzo z'ibanga `3` zijanye n'ibanga. Kugira ngo ukoreshe ama bitcoins yugarijwe n’iyi nyandiko ya P2MS, umukono ufise nibura `2` ku mfunguruzo z’ibanga `3` irakenewe. Iyi ni uburyo bwo gucungera umutekano w’imbere.

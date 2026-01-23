@@ -1,6 +1,7 @@
 ---
 term: Outpoint
 
+definition:
 ---
 Referensi unik untuk output transaksi yang tidak terpakai (UTXO). Terdiri dari dua elemen:
 

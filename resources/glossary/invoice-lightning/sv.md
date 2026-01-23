@@ -1,5 +1,6 @@
 ---
 term: Invoice lightning
+definition:
 ---
 
 Blixtsnabb betalningsbegäran som genereras av mottagaren och som innehåller all information som behövs för att slutföra transaktionen.

@@ -1,5 +1,6 @@
 ---
 term: BIP0070
+definition:
 ---
 
 Interactive payment protocol for Bitcoin. 

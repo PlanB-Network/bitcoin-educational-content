@@ -1,5 +1,6 @@
 ---
 term: Btcd (btc suite)
+definition:
 ---
 
 Bitcoin 프로토콜의 소수 구현. BTCD는 지배적인 Bitcoin core 소프트웨어(특히 bitcoind)의 대안입니다.

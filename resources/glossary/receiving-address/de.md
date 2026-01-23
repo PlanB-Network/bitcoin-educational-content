@@ -1,6 +1,7 @@
 ---
 term: Empfangsadresse
 
+definition:
 ---
 Informationen, die zum Empfang von Bitcoins verwendet werden. Eine Adresse wird in der Regel durch Hashing eines öffentlichen Schlüssels mit `SHA256` und `RIMPEMD160` und Hinzufügen von Metadaten zu diesem Digest erstellt. Die öffentlichen Schlüssel, die verwendet werden, um eine Empfangsadresse zu konstruieren, sind Teil der Brieftasche des Benutzers und werden daher von seinem Seed abgeleitet. SegWit-Adressen setzen sich beispielsweise aus den folgenden Informationen zusammen:
 

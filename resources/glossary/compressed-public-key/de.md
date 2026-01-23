@@ -1,6 +1,7 @@
 ---
 term: Komprimierter öffentlicher Schlüssel
 
+definition:
 ---
 Ein öffentlicher Schlüssel wird in Skripten verwendet (entweder direkt in Form eines öffentlichen Schlüssels oder als Adresse), um Bitcoins zu erhalten und zu sichern. Ein roher öffentlicher Schlüssel wird durch einen Punkt auf einer elliptischen Kurve dargestellt, der aus zwei Koordinaten (x, y) mit jeweils 256 Bit besteht. Im Rohformat misst ein öffentlicher Schlüssel also 512 Bits, ohne das zusätzliche Byte zur Identifizierung des Formats mitzuzählen. Ein komprimierter öffentlicher Schlüssel hingegen ist eine kompaktere Form der Darstellung eines öffentlichen Schlüssels. Er verwendet nur die `x`-Koordinate und ein Präfix (`02` oder `03`), das die Parität der `y`-Koordinate angibt (gerade oder ungerade).
 

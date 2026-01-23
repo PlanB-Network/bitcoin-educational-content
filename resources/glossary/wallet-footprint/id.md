@@ -1,6 +1,7 @@
 ---
 term: Jejak dompet
 
+definition:
 ---
 Sekumpulan karakteristik khas yang dapat diamati dalam transaksi yang dilakukan oleh dompet Bitcoin yang sama. Karakteristik ini dapat mencakup kesamaan dalam penggunaan jenis skrip, penggunaan ulang alamat, urutan UTXO, penempatan output perubahan, sinyal RBF (*Replace-by-Fee*), nomor versi, bidang `nSequence`, dan bidang `nLockTime`.
 

@@ -1,5 +1,6 @@
 ---
 term: Kina
+definition:
 ---
 
 Katika muktadha wa pochi za HD (Hierarchical Deterministic), kina kinarejelea kiwango mahususi cha ufunguo (wa umma au wa faragha), msimbo wa mnyororo, ufunguo uliopanuliwa, au Address ndani ya muundo wa utoaji wa Wallet kutoka kwa ufunguo mkuu. Kila ngazi ya muundo huu inaweza kuonekana kama sakafu katika mti muhimu, ambapo ufunguo mkuu uko kwenye mzizi (kina 0) na viwango vinavyofuata vinafafanua sifa mbalimbali kama vile:

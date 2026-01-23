@@ -1,5 +1,6 @@
 ---
 term: BIP0094
+definition:
 ---
 
 Defines Testnet 4, a new Testnet network to replace Testnet 3 in 2024. Testnet 3, which had been running for 13 years, had become vulnerable to various attacks and was being misused through fraudulent altcoin airdrops, disrupting the normally free distribution of TBTC. 

@@ -1,6 +1,7 @@
 ---
 term: Policy (Miniscript)
 
+definition:
 ---
 Eine benutzerorientierte Hochsprache, die die einfache Spezifikation von Bedingungen ermöglicht, unter denen ein UTXO im Rahmen von Miniscript freigeschaltet werden kann. Die Policy ist eine abstrakte Beschreibung der Ausgaberegeln. Sie kann dann in Miniscript kompiliert werden, das ein Eins-zu-Eins-Äquivalent zu den Operationen der nativen Bitcoin-Skriptsprache ist.
 

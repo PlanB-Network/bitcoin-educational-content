@@ -1,5 +1,6 @@
 ---
 term: Kichwa cha kitalu
+definition:
 ---
 
 Kichwa cha kuzuia ni muundo wa data ambao hutumika kama sehemu kuu katika ujenzi wa block ya Bitcoin. Kila kizuizi kina kichwa na orodha ya miamala. Kichwa cha kuzuia kina habari muhimu ambayo inahakikisha uadilifu na uhalali wa kizuizi ndani ya Blockchain. Kichwa cha kuzuia kina baiti 80 za metadata na kinaundwa na Elements ifuatayo:

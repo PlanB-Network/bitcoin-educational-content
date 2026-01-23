@@ -1,6 +1,7 @@
 ---
 term: Stonewall x2
 
+definition:
 ---
 比特币交易的一种特殊形式，旨在通过与不参与支出的第三方合作，增加用户在消费过程中的隐私。这种方法模拟两个参与者之间的比特币 Mini Coinjoin，同时向第三方付款。Stonewall x2 交易可在 Samourai 钱包应用程序和 Sparrow 钱包软件上使用（两者可互操作）。
 

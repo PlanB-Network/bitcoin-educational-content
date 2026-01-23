@@ -1,5 +1,6 @@
 ---
 term: Branch-and-bound
+definition:
 ---
 
 Uburyo bukoreshwa mu guhitamwo ivyinjizwa muri Bitcoin core Wallet kuva kuri verisiyo 0.17 kandi bwavumbuwe na Murch. Branch-and-Bound (BnB) irondera umugwi w’ama UTXO ahuye neza n’ibiva mu bikorwa bisabwa, n’intumbero yo kugabanya ihinduka n’amahera ajanye.

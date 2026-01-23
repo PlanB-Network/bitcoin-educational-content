@@ -1,5 +1,6 @@
 ---
 term: Erlay
+definition:
 ---
 
 Protokol jaringan yang diusulkan untuk meningkatkan efisiensi transmisi transaksi yang belum dikonfirmasi antara node Bitcoin.

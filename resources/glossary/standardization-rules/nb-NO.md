@@ -1,6 +1,7 @@
 ---
 term: Standardiseringsregler
 
+definition:
 ---
 Standardiseringsregler vedtas individuelt av hver Bitcoin-node, i tillegg til konsensusreglene, for å definere strukturen til ubekreftede transaksjoner som den aksepterer i sin mempool og sender til sine likemenn. Disse reglene konfigureres og utføres lokalt av hver enkelt node, og kan variere fra node til node. De gjelder utelukkende for ubekreftede transaksjoner. En node vil derfor bare godta en transaksjon som den anser som ikke-standard, hvis den allerede er inkludert i en gyldig blokk.
 

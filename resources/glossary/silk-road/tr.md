@@ -1,5 +1,6 @@
 ---
 term: Silk road
+definition:
 ---
 
 Silk Road, Dread Pirate Roberts takma adıyla da bilinen Ross Ulbricht tarafından kurulan bir karanlık web platformuydu. 2011 yılında faaliyete geçen bu çevrimiçi pazar yeri, kullanıcıların Tor ve Bitcoin ödemelerini kullanarak anonimliklerini korurken hem yasal hem de yasadışı ürün ve hizmetleri alıp satmalarına olanak tanıyordu. Silk Road, başta uyuşturucu ve reçeteli ilaçlar olmak üzere geniş bir ürün yelpazesi sunarken, tetikçilik hizmetleri veya çocuk pornografisi içeriklerinin satışı gibi doğal hukuk ilkelerine aykırı görülen faaliyetleri hariç tutuyordu.

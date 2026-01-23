@@ -1,5 +1,6 @@
 ---
 term: Shards (lightning)
+definition:
 ---
 
 *Monipolkumaksuissa (MPP)* tai *Atomic Multi-Path Payments (AMP)* Shard on osa kokonaismaksusta. Kukin Shard edustaa osaa kokonaismaksusta, joka reititetään erikseen eri reittiä Lightningin kautta.

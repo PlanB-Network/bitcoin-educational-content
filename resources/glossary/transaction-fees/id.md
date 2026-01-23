@@ -1,6 +1,7 @@
 ---
 term: Biaya transaksi
 
+definition:
 ---
 Biaya transaksi merupakan jumlah yang bertujuan untuk memberikan kompensasi kepada para penambang atas partisipasi mereka dalam mekanisme _proof-of-work_. Biaya ini mendorong para penambang untuk memasukkan transaksi ke dalam blok yang mereka buat. Biaya ini dihasilkan dari selisih antara jumlah total nominal input dan jumlah total nominal output dalam sebuah transaksi:
 

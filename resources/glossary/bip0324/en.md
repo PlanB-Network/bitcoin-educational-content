@@ -1,5 +1,6 @@
 ---
 term: BIP0324
+definition:
 ---
 
 Introduces a new version of the Bitcoin P2P transport protocol incorporating opportunistic encryption to enhance the privacy and security of communications between nodes. 

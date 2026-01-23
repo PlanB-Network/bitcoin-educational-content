@@ -1,5 +1,6 @@
 ---
 term: Hash oranı
+definition:
 ---
 
 Saniye başına hash (H/s) cinsinden ölçülen, ağın hesaplama gücünün göstergesi. Madencilerin Proof of Work'in bir parçası olarak hash işlemleri gerçekleştirme kapasitesini gösterir. Yüksek bir Hashrate, Bitcoin'ün ekonomik geçmişi için daha fazla güvenlik ve saldırılara karşı daha fazla direnç anlamına gelir, çünkü ağı tehlikeye atmak için önemli miktarda hesaplama gücü gerekecektir.

@@ -1,5 +1,6 @@
 ---
 term: Bitcoin Inquisition
+definition:
 ---
 
 Bitcoin Inquisition ni Fork ya porogarama ya Bitcoin core yagenewe kugerageza gushiramwo ivyifuzo bishasha vyo gutegura neza Bitcoin (BIPs) mu bidukikije bigenzurwa, ahanini ku nzira z’igerageza nka Signet. Harimwo, nk’akarorero, ugushigikira BIP118 (ICO COSE KIRI MU GIHE) na BIP119 (GUSUZUMA IKIGANIRO).

@@ -1,6 +1,7 @@
 ---
 term: Firma cieca
 
+definition:
 ---
 Le firme cieche di Chaum sono una forma di firma digitale in cui l'emittente della firma non conosce il contenuto del messaggio che sta firmando. Tuttavia, la firma può essere successivamente verificata con il messaggio originale. Questa tecnica è stata sviluppata dal crittografo David Chaum nel 1983.
 

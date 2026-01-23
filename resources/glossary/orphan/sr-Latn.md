@@ -1,5 +1,6 @@
 ---
 term: Siroče
+definition:
 ---
 
 Teoretski, Orphan block se odnosi na važeći blok koji je primljen od strane čvora koji još nije preuzeo matični blok, to jest, prethodni u lancu. Iako važeći, ovaj blok ostaje izolovan lokalno kao siroče.

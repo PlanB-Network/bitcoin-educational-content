@@ -1,5 +1,6 @@
 ---
 term: Muamala ghafi
+definition:
 ---
 
 Muamala wa Bitcoin ambao umeundwa na kutiwa saini, uliopo katika mfumo wake wa jozi. Muamala ghafi (*mbichi TX*) ni uwakilishi wa mwisho wa shughuli, kabla tu ya kutangazwa kwenye mtandao. Muamala huu una habari zote muhimu kwa kujumuishwa kwake kwenye kizuizi:

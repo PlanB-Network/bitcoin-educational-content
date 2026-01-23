@@ -1,5 +1,6 @@
 ---
 term: Blk*.dat
+definition:
 ---
 
 Name given to the files in Bitcoin Core that store the raw block data of the blockchain. Each file is identified by a unique number in its filename. 

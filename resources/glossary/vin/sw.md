@@ -1,5 +1,6 @@
 ---
 term: VIN
+definition:
 ---
 
 Kipengele mahususi cha muamala wa Bitcoin ambacho hubainisha chanzo cha fedha kinachotumika kukidhi matokeo. Kila `vin` inarejelea pato ambalo halijatumika (UTXO) kutoka kwa shughuli ya awali. Muamala unaweza kuwa na pembejeo nyingi, kila moja ikitambuliwa kwa mchanganyiko wa `txid` (kitambulisho cha muamala asilia) na `vout` (kielezo cha matokeo katika muamala huo).

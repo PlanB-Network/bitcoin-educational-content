@@ -1,5 +1,6 @@
 ---
 term: Yuvarlak ödeme
+definition:
 ---
 
 Bitcoin'da zincir analizi için, yuvarlak tutarlara dayalı bir işlemin çıktılarının doğası hakkında bir hipoteze izin veren dahili bir sezgisel. Genel olarak, basit bir ödeme modeliyle (1 girdi ve 2 çıktı) karşılaşıldığında, çıktılardan biri yuvarlak bir miktar harcıyorsa, o zaman ödemeyi temsil eder. Eleme yoluyla, bir çıktı ödemeyi temsil ediyorsa, diğeri değişikliği temsil eder. Bu nedenle, işlemi giren kullanıcının hala değişiklik olarak tanımlanan çıktıya sahip olması muhtemeldir şeklinde yorumlanabilir.

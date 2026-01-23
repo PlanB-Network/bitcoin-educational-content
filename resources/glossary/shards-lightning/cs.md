@@ -1,5 +1,6 @@
 ---
 term: Shardy (lightning)
+definition:
 ---
 
 V kontextu *Vícecestných plateb (MPP)* nebo *Atomických vícecestných plateb (AMP)* je Shard zlomek globální platby. Každý Shard představuje část celkové platby, která je v systému Lightning směrována samostatně jinou cestou.

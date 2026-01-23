@@ -1,5 +1,6 @@
 ---
 term: Heurystyka analizy
+definition:
 ---
 
 Analiza heurystyczna dla łańcucha Bitcoin to rodzina metod empirycznych wykorzystywanych do śledzenia przepływu bitcoinów na Blockchain w oparciu o cechy zaobserwowane w transakcjach. Heurystyka jest praktycznym podejściem do rozwiązywania problemów, często za pomocą przybliżonych metod, ale reprezentuje wystarczająco dobre rozwiązanie, aby osiągnąć dany cel. Te heurystyki dają dość wiarygodne wyniki, ale nigdy z absolutną precyzją. Innymi słowy, analiza łańcuchowa zawsze wiąże się z pewnym stopniem prawdopodobieństwa wyciągniętych wniosków. Na przykład, można oszacować z większą lub mniejszą pewnością, że dwa adresy należą do tego samego podmiotu, ale całkowita pewność jest zawsze poza zasięgiem. Cały cel analizy łańcuchowej polega właśnie na agregacji różnych heurystyk w celu zminimalizowania ryzyka błędu. Jest to w pewnym sensie gromadzenie dowodów, które pozwalają nam zbliżyć się do rzeczywistości. W tym kontekście rozróżnia się heurystyki wewnętrzne i zewnętrzne.

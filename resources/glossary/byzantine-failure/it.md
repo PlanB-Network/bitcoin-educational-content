@@ -1,6 +1,7 @@
 ---
 term: Guasto bizantino
 
+definition:
 ---
 Il fallimento bizantino, o comportamento bizantino, si riferisce a qualsiasi comportamento di un sistema che non rispetta le proprie specifiche, producendo risultati non conformi.
 

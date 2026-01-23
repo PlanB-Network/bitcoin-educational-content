@@ -1,6 +1,7 @@
 ---
 term: Foreldreløs
 
+definition:
 ---
 Teoretisk sett er en foreldreløs blokk en gyldig blokk som er mottatt av en node som ennå ikke har kjøpt den overordnede blokken, det vil si den forrige i kjeden. Selv om denne blokken er gyldig, forblir den isolert lokalt som en foreldreløs blokk.
 

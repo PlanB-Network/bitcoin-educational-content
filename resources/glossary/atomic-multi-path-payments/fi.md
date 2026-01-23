@@ -1,5 +1,6 @@
 ---
 term: Atomic multi-path payments
+definition:
 ---
 
 Parannettu versio MPP:stä (*Multi-Path Payments*), jossa kullakin maksupätkällä on erillinen osittainen salaisuus, jolla varmistetaan, että maksutapahtuma selvitetään atomisesti eli joko kokonaan tai ei ollenkaan.

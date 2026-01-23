@@ -1,6 +1,7 @@
 ---
 term: OP_CHECKSEQUENCEVERIFY (0XB2)
 
+definition:
 ---
 Teeb tehingu kehtetuks, kui mõni neist omadustest on täheldatud:
 

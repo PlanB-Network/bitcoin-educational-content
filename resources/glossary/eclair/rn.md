@@ -1,6 +1,7 @@
 ---
 term: Eclair
 
+definition:
 ---
 
 Ishirwa mu ngiro rikomeye ry’umurongo wa Lightning Network wanditswe mu rurimi rwa Scala. Eclair ikoreshwa n’ishirahamwe ry’abafaransa ryitwa Acinq.

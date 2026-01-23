@@ -1,5 +1,6 @@
 ---
 term: Coin control
+definition:
 ---
 
 En funktion som finns i viss Bitcoin Wallet-programvara som ger användarna möjlighet att manuellt välja specifika UTXO:er (Unspent Transaction Outputs) som ska användas som inputs för att göra en transaktion. Med andra ord erbjuder myntkontroll möjligheten att exakt välja vilka bitar av bitcoins som ska spenderas. Denna funktionalitet liknar åtgärden att välja ett specifikt mynt från din Wallet för att betala för din baguette.

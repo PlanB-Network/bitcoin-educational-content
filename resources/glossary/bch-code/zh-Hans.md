@@ -1,5 +1,6 @@
 ---
 term: BCH码
+definition:
 ---
 
 用于检测和纠正数据序列中错误的一类纠错码。换句话说，BCH纠错码用于发现和纠正传输信息中的随机错误，以确保信息完好无损地到达目的地。BCH "是这些编码发明者名字的首字母缩写：Bose、Ray-Chaudhuri 和 Hocquenghem。

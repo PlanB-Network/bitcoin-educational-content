@@ -1,6 +1,7 @@
 ---
 term: Bech32 e bech32m
 
+definition:
 ---
 `Bech32` e `Bech32m` são dois formatos de codificação de endereços para receber bitcoins. São baseados numa base 32 ligeiramente modificada. Eles incorporam um checksum baseado num algoritmo de correção de erros chamado BCH (*Bose-Chaudhuri-Hocquenghem*). Em comparação com os endereços Legacy, codificados em `Base58check`, os endereços `Bech32` e `Bech32m` têm um checksum mais eficiente, permitindo a deteção e potencialmente a correção automática de erros de digitação. O seu formato também oferece melhor legibilidade, com apenas caracteres minúsculos. Aqui está a matriz de adição para este formato a partir da base 10:
 

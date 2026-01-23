@@ -1,5 +1,6 @@
 ---
 term: BIP0035
+definition:
 ---
 
 Bitcoin 노드가 확인을 기다리는 트랜잭션 풀인 Mempool에 대한 정보를 공유할 수 있도록 하는 제안입니다.

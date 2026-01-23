@@ -1,5 +1,6 @@
 ---
 term: OP_2DUP (0X6E)
+definition:
 ---
 
 스택의 맨 위 Elements 두 개를 복제하여 스택의 맨 위에 놓습니다. 예를 들어 스택이

@@ -1,5 +1,6 @@
 ---
 term: Muamala (tx)
+definition:
 ---
 
 Katika muktadha wa Bitcoin, shughuli (iliyofupishwa kama "TX") ni operesheni iliyorekodiwa kwenye Blockchain ambayo huhamisha Ownership ya bitcoins kutoka kwa pembejeo moja au zaidi hadi matokeo moja au zaidi. Kila muamala hutumia Bidhaa Zisizotumika za Muamala (UTXOs) kama pembejeo, ambazo ni matokeo kutoka kwa miamala ya awali, na huunda UTXO mpya kama matokeo, ambayo inaweza kutumika kama pembejeo katika miamala ya siku zijazo.

@@ -1,5 +1,6 @@
 ---
 term: OP_CHECKSEQUENCEVERIFY (0XB2)
+definition:
 ---
 
 如果發現這些特徵中的任何一個，則會使交易無效：

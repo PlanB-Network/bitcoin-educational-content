@@ -1,6 +1,7 @@
 ---
 term: Giao dịch tiêu chuẩn
 
+definition:
 ---
 A Bitcoin transaction that, in addition to adhering to the consensus rules, also falls within the standardization rules set by default on Bitcoin Core nodes. These standardization rules are imposed individually by each Bitcoin node, in addition to the consensus rules, to define the structure of unconfirmed transactions it accepts in its mempool and broadcasts to its peers.
 

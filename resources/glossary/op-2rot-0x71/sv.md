@@ -1,5 +1,6 @@
 ---
 term: OP_2ROT (0X71)
+definition:
 ---
 
 Flyttar de två Elements som befinner sig i sjätte och femte positionen från toppen av stacken till toppen. Till exempel, om stapeln är:

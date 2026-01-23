@@ -1,5 +1,6 @@
 ---
 term: 비하인드 더 미터
+definition:
 ---
 
 Bitcoin Mining의 맥락에서, 공공 전력망을 거치지 않고 직접 생산하여 Mining 시설에 공급하는 전력을 의미합니다.

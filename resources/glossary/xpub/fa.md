@@ -1,5 +1,6 @@
 ---
 term: XPUB
+definition:
 ---
 
 پیشوند کلید عمومی توسعه‌یافته برای حساب‌های Legacy و SegWit V1 در Bitcoin.

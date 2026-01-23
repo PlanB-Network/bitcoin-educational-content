@@ -1,6 +1,7 @@
 ---
 term: Nimikointi
 
+definition:
 ---
 Käytäntö, jossa tiettyyn UTXO:hon annetaan merkintä tai tarra Bitcoin-lompakossa. Jos minulla on esimerkiksi UTXO, joka on peräisin P2P-ostosta Bisqissä Charlesin kanssa, saatan merkitä sen nimellä "`Non-KYC Bisq Charles`".
 

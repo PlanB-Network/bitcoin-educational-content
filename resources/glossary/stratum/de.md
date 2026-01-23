@@ -1,6 +1,7 @@
 ---
 term: Stratum
 
+definition:
 ---
 Ein auf Bitcoin aufgesetztes Netzwerkprotokoll, das speziell zur Optimierung der Kommunikation zwischen einzelnen Minern und Mining-Pool-Servern entwickelt wurde, um deren Rentabilität zu steigern. Stratum wurde Ende 2011 von Marek Palatinus angekündigt, besser bekannt unter dem Pseudonym "Slush" und Gründer des allerersten Mining-Pools, Slush Pool, der inzwischen in Braiins umbenannt wurde. Stratum sollte das ältere Getwork-Protokoll ersetzen, das veraltet war.
 

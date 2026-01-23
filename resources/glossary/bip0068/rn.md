@@ -1,5 +1,6 @@
 ---
 term: BIP0068
+definition:
 ---
 
 BIP68 yashizeho ubushobozi bwo gukoresha ibihe vy'ugufunga biciye ku mwanya wa `nSequence`.

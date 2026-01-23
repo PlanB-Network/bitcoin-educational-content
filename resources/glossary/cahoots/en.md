@@ -1,5 +1,6 @@
 ---
 term: Cahoots
+definition:
 ---
 
 In the context of the Samourai Wallet and other wallet software that implements it, a Cahoot refers to any type of transaction carried out collaboratively between multiple users. 

@@ -1,5 +1,6 @@
 ---
 term: BIP0137
+definition:
 ---
 
 BIP137은 Bitcoin 개인 키와 관련 주소로 메시지에 서명하기 위한 표준화된 형식을 제안하여 Address의 Ownership을 증명하는 방법을 제공합니다.

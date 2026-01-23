@@ -1,5 +1,6 @@
 ---
 term: 层
+definition:
 ---
 
 建立在 Bitcoin 主网络之上的协议或网络。它以 Bitcoin 网络为基础，因此依赖于其协议。但是，Bitcoin 网络并不依赖于其覆盖层。Lightning Network 就是这种覆盖的一个例子。

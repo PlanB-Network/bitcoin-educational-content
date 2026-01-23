@@ -1,5 +1,6 @@
 ---
 term: Reusable payment code
+definition:
 ---
 
 In BIP47, a reusable payment code is a static identifier generated from a Bitcoin wallet that allows for a notification transaction and the derivation of unique addresses. This avoids the reuse of addresses, which leads to a loss of privacy, without having to manually derive and transmit new, unused addresses for each payment. In BIP47, reusable payment codes are constructed as follows:

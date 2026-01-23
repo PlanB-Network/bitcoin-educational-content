@@ -1,5 +1,6 @@
 ---
 term: BIP0085
+definition:
 ---
 
 BIP85 provides a solution to unify the derivation of multiple Bitcoin wallets using a single master seed.

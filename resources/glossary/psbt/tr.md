@@ -1,5 +1,6 @@
 ---
 term: PSBT
+definition:
 ---
 
 "Partially Signed Bitcoin Transaction" için kısaltma. Wallet yazılımı gibi Bitcoin ile ilgili yazılımlarda tamamlanmamış işlemlerin oluşturulma şeklini standartlaştırmak için BIP174 ile tanıtılan bir spesifikasyondur. Bir PSBT, girdilerin tam olarak imzalanmamış olabileceği bir işlemi kapsüller. Bir katılımcının ek veri gerektirmeden işlemi imzalaması için gerekli tüm bilgileri içerir. Böylece, bir PSBT 3 farklı şekilde olabilir:

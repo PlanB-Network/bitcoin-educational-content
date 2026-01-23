@@ -1,5 +1,6 @@
 ---
 term: CISA
+definition:
 ---
 
 Acronimo di "Cross-Input Signature Aggregation". Si tratta di una proposta tecnica volta a ottimizzare le dimensioni delle transazioni Bitcoin riducendo il numero di firme necessarie per convalidarle.

@@ -1,5 +1,6 @@
 ---
 term: BIP0072
+definition:
 ---
 
 BIP72는 추가 파라미터 `r`을 사용하여 Bitcoin URI(BIP21)를 확장함으로써 BIP70 및 BIP71을 보완합니다.

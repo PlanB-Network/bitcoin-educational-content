@@ -1,6 +1,7 @@
 ---
 term: Modelo temporal
 
+definition:
 ---
 Certos comportamentos humanos são reconhecíveis na cadeia. Talvez o mais útil na análise da cadeia seja o seu padrão de sono! Sim, quando você está dormindo, você presumivelmente não está transmitindo transações de Bitcoin. Geralmente, você dorme por volta das mesmas horas. Portanto, as análises temporais são comumente usadas na análise da cadeia. Trata-se simplesmente de registar as horas em que as transacções de uma determinada entidade são transmitidas para a rede Bitcoin. A análise destes padrões temporais permite-nos deduzir inúmeras informações.
 

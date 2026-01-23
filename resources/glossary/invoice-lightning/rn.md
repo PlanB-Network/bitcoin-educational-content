@@ -1,5 +1,6 @@
 ---
 term: Invoice lightning
+definition:
 ---
 
 Igisabwa co kwishura nk’umuravyo cavuzwe n’uwuronka, kirimwo amakuru yose akenewe kugira ngo umuntu arangize igikorwa.

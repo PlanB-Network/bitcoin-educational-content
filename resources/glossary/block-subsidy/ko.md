@@ -1,5 +1,6 @@
 ---
 term: 블록 보조금
+definition:
 ---
 
 블록 보조금은 Miner가 블록을 성공적으로 Mining로 만들 때 생성할 수 있는 신규 비트코인의 양입니다. 이는 거래 수수료와 함께 Block reward의 일부를 구성하며, Coinbase Transaction이라는 특별 거래를 통해 발행됩니다.

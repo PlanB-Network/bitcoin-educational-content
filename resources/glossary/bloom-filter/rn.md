@@ -1,5 +1,6 @@
 ---
 term: Bloom filter
+definition:
 ---
 
 Akayunguruzo ka Bloom ni ubuhinga bw'amakuru bukoreshwa mu kugerageza nimba ikintu ari umunyamuryango w'umugwi.

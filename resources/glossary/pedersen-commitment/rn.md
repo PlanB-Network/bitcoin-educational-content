@@ -1,5 +1,6 @@
 ---
 term: Pedersen commitment
+definition:
 ---
 
 Pedersen commitment ni ubwoko bw'ibanga Commitment rifise akamaro ko kuba homomorphique ku gikorwa co kwongerako. Ivyo bisigura ko bishoboka kwemeza umubare w’imihigo ibiri ata guhishura agaciro k’umuntu ku giti ciwe.

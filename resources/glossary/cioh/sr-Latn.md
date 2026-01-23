@@ -1,5 +1,6 @@
 ---
 term: CIOH
+definition:
 ---
 
 Skraćenica za "*Common Input Ownership Heuristic*". To je heuristika koja se koristi u oblasti analize Bitcoin lanca i pretpostavlja da svi ulazi transakcije pripadaju istom entitetu ili korisniku. Kada se posmatraju javni podaci Bitcoin transakcije i uoče se višestruki ulazi, onda, ako nema obrazaca ili drugih informacija koje to opovrgavaju, može se proceniti da su svi ulazi te transakcije pripadali jednoj osobi (ili entitetu).

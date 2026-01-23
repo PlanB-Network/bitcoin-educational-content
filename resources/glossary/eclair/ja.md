@@ -1,5 +1,6 @@
 ---
 term: Eclair
+definition:
 ---
 Scala言語で書かれたライトニング・ネットワーク・プロトコルの主要な実装。EclairはフランスのAcinq社によって開発された。
 

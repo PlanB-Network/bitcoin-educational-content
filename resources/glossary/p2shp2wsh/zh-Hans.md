@@ -1,6 +1,7 @@
 ---
 term: P2SH-P2WSH
 
+definition:
 ---
 P2SH-P2WSH 代表支付到脚本哈希-支付到隔离见证脚本哈希。它是一种标准脚本模型，用于建立UTXO 的消费条件，也称为 “嵌套式 SegWit”。
 

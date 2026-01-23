@@ -1,6 +1,7 @@
 ---
 term: BIP0044
 
+definition:
 ---
 Et forslag til forbedring som innfører en standard hierarkisk avledningsstruktur for HD-lommebøker. BIP44 bygger på prinsippene som ble etablert av BIP32 for nøkkelavledning og på BIP43 for bruk av "purpose"-feltet. Den introduserer en avledningsstruktur med fem nivåer: `m / purpose' / coin_type' / account' / change / address_index`. Her er detaljene for hver dybde:
 

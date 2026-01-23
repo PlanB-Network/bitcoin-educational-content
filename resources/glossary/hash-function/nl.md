@@ -1,5 +1,6 @@
 ---
 term: Hashfunctie
+definition:
 ---
 
 Een wiskundige functie die een invoer van variabele grootte neemt (een bericht genoemd) en een uitvoer van vaste grootte produceert (Hash, hashing, digest of vingerafdruk genoemd). Hash functies zijn veelgebruikte primitieven in cryptografie. Ze vertonen specifieke eigenschappen die ze geschikt maken voor gebruik in veilige contexten:

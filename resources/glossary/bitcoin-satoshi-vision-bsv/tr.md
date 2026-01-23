@@ -1,5 +1,6 @@
 ---
 term: Bitcoin Satoshi Vision (BSV)
+definition:
 ---
 
 Kendisi de Bitcoin'ün (BTC) bir Fork'i olan Bitcoin Cash'in (BCH) bir Hard Fork'sinden kaynaklanan kripto para sistemi. Bitcoin SV Fork, 15 Kasım 2018'de 556.766 numaralı blokta, Bitcoin Cash topluluğu içinde özellikle blok boyutu ve Bitcoin'ün yaratıcısı Satoshi Nakamoto'nun sözde vizyonuyla ilgili anlaşmazlıklar nedeniyle meydana geldi. İki grup çatıştı:

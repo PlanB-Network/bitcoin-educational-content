@@ -1,5 +1,6 @@
 ---
 term: BIP0156
+definition:
 ---
 
 Proposal, known as Dandelion, which aims to improve the privacy of transaction routing in the Bitcoin network to counteract deanonymization. In the standard operation of Bitcoin, transactions are immediately broadcast to multiple nodes. 

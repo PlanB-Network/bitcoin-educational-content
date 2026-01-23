@@ -1,5 +1,6 @@
 ---
 term: Prim
+definition:
 ---
 
 Bir varlığın standart veya nominal fiyatı üzerinden ödenen ek tutar. Bitcoin bağlamında, özellikle aracılık hizmetinde marjlarını artırmak için bazen bu tekniği kullanabilen Exchange platformlarında alım yaparken bir prim gözlemlenebilir.

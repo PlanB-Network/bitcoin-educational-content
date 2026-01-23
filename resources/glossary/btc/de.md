@@ -1,6 +1,7 @@
 ---
 term: BTC
 
+definition:
 ---
 Wertpapier- oder Währungssymbol (*Ticker*), das auf Börsenplattformen zur Darstellung einer Bitcoin-Einheit verwendet wird. Es wird verwendet, um Bitcoin schnell unter anderen Vermögenswerten und Währungen zu identifizieren. Eine Bitcoin-Einheit (1 BTC) entspricht 100.000.000 Satoshis (oder "Sats").
 

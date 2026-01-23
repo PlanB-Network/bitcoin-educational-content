@@ -1,6 +1,7 @@
 ---
 term: Speedy trial
 
+definition:
 ---
 Método de activación de una bifurcación suave conceptualizado inicialmente para Taproot a principios de 2021 por David A. Harding basado en una idea de Russell O'Connor. Su principio es utilizar el método BIP8 con un parámetro `LOT` establecido en `false`, reduciendo el periodo de activación a sólo 3 meses. Este periodo de votación reducido permite verificar rápidamente la aprobación de los mineros. Si se alcanza el umbral de aprobación requerido durante uno de los periodos, la bifurcación suave queda bloqueada. Se activará varios meses después, dando así a los mineros el tiempo necesario para actualizar su software.
 

@@ -1,6 +1,7 @@
 ---
 term: P2WSH
 
+definition:
 ---
 P2WSH significa *Pay to Witness Script Hash*. É um modelo de script padrão usado para estabelecer condições de gastos em um UTXO. O P2WSH foi introduzido com a implementação do SegWit em agosto de 2017.
 

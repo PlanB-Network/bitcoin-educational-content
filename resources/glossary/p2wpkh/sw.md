@@ -1,5 +1,6 @@
 ---
 term: P2WPKH
+definition:
 ---
 
 P2WPKH inasimamia *Pay to Witness Public Key Hash*. Ni muundo wa hati wa kawaida unaotumiwa kuweka masharti ya matumizi kwenye UTXO. P2WPKH ilianzishwa na utekelezaji wa SegWit mnamo Agosti 2017.

@@ -1,5 +1,6 @@
 ---
 term: BIP0078
+definition:
 ---
 
 Introduces a protocol for using Payjoin on Bitcoin, a transaction structure that improves payment privacy by involving the recipient as an input contributor alongside the payer. 

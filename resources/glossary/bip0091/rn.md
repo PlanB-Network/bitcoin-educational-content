@@ -1,5 +1,6 @@
 ---
 term: BIP0091
+definition:
 ---
 
 Iciyumviro ca James Hilliard (injeniyeri muri Bitmain) co kworohereza gukoresha SegWit Soft Fork, isobanuwe muri BIP141, BIP143, na BIP147, biciye mu MASF ataco ishitse ku rugero rukenewe rwa 95% rw'ubushobozi bwo gukoresha ubuhinga bwa none biciye mu bit 1.

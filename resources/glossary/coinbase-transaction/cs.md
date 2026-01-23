@@ -1,6 +1,7 @@
 ---
 term: Coinbase transakce
 
+definition:
 ---
 Transakce coinbase je speciální a jedinečná transakce, která je součástí každého bloku blockchainu bitcoinu. Představuje první transakci bloku a je vytvořena těžařem, který úspěšně nalezl hlavičku potvrzující důkaz práce (*Proof-of-Work*), tj. menší nebo rovnou cíli.
 

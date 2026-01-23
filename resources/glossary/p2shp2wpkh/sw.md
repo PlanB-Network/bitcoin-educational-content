@@ -1,5 +1,6 @@
 ---
 term: P2SH-P2WPKH
+definition:
 ---
 
 P2SH-P2WPKH inawakilisha *Lipa kwa Hati Hash - Lipa kwa Ufunguo wa Ushahidi wa Umma Hash*. Ni muundo wa kawaida wa hati unaotumiwa kuweka masharti ya matumizi kwenye UTXO, inayojulikana pia kama "Nested SegWit".

@@ -1,5 +1,6 @@
 ---
 term: BIP0035
+definition:
 ---
 
 Iciyumviro cemerera node ya Bitcoin gusangira amakuru yerekeye Mempool yayo, ikidengeri c’ibikorwa birindiriye kwemezwa.

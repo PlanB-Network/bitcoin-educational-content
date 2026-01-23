@@ -1,6 +1,7 @@
 ---
 term: OP_TUCK (0X7D)
 
+definition:
 ---
 Kopiert das Element an der Spitze des Stapels und fügt es zwischen dem zweiten und dritten Element des Stapels ein. Zum Beispiel, wenn der Stapel ist:
 

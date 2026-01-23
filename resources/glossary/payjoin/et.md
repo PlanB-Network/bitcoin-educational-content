@@ -1,6 +1,7 @@
 ---
 term: Payjoin
 
+definition:
 ---
 Konkreetne Bitcoini tehingu struktuur, mis suurendab kasutaja privaatsust kulutuste ajal, tehes koostööd makse saajaga. Payjoini ainulaadsus seisneb selles, et ta suudab luua tehingu, mis esmapilgul näeb välja tavaline, kuid on tegelikult kahe osapoole vaheline mini coinjoin. Selleks kaasab tehingu struktuur sisenditesse makse saaja koos tegeliku saatjaga. Seega sisaldab saaja tehingu keskel ka iseendale tehtud makse, mis võimaldab talle maksta. Näiteks kui te ostate baguette'i 6 000 sati eest, kasutades 10 000 sati UTXO-d ja valite Payjoin'i, lisab teie pagar sisendina talle kuuluva 15 000 sati UTXO-d, mille ta lisaks teie 6 000 sati-le täies mahus väljundina tagasi saab.
 

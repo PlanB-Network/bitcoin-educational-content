@@ -1,6 +1,7 @@
 ---
 term: Stale Block
 
+definition:
 ---
 Bezieht sich auf einen Block ohne Kinder: ein gültiger Block, der aber von der Haupt-Bitcoin-Kette ausgeschlossen ist. Er entsteht, wenn zwei Miner innerhalb kurzer Zeit einen gültigen Block auf der gleichen Kettenhöhe finden und ihn über das Netzwerk verbreiten. Die Knoten wählen schließlich nur einen Block aus, der in die Kette aufgenommen wird, nach dem Prinzip der Kette mit der meisten angesammelten Arbeit, wodurch der andere "obsolet" wird. Der Prozess, der zur Erzeugung eines veralteten Blocks führt, ist folgendermaßen:
 

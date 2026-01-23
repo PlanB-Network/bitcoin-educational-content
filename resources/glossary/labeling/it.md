@@ -1,6 +1,7 @@
 ---
 term: Etichettatura
 
+definition:
 ---
 La pratica di assegnare un'annotazione o un'etichetta a uno specifico UTXO in un portafoglio Bitcoin. Ad esempio, se ho un UTXO proveniente da un acquisto P2P su Bisq con Charles, potrei etichettarlo come "Bisq Charles non KYC".
 

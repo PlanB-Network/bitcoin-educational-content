@@ -1,5 +1,6 @@
 ---
 term: BIP0118
+definition:
 ---
 
 Iciyumviro co kuzana ibihinduzi bibiri bishasha vy'Ibendera rya SigHash: `SIGHASH_ICO COSE IVYO GUTANGA` na `SIGHASH_INYANDITSWE Y'IBIMENYETSO VYOSE`.

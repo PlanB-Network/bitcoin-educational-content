@@ -1,5 +1,6 @@
 ---
 term: Bitcoin XT
+definition:
 ---
 
 Bitcoin의 Fork는 2015년에 유명 개발자 Mike Hearn이 시작했으며, Satoshi가 떠난 후 Bitcoin의 수석 유지 관리자였던 Gavin Andresen이 지원했습니다.

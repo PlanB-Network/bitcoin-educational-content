@@ -1,6 +1,7 @@
 ---
 term: Eclair
 
+definition:
 ---
 用 Scala 语言编写的闪电网络协议的主要实施方案。Eclair 由法国 Acinq 公司开发。
 

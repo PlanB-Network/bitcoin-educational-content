@@ -1,6 +1,7 @@
 ---
 term: Pps (pay per share)
 
+definition:
 ---
 Metoda výpočtu odměny těžařů v rámci těžebních poolů. PPS je systém, ve kterém jsou těžaři placeni za každý platný předložený podíl bez ohledu na to, zda pool nalezne blok, nebo ne. Jsou tedy odměňováni na základě očekávané hodnoty. Jedná se o metodu odměňování založenou na úkolech.
 

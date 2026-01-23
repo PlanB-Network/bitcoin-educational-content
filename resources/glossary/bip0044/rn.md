@@ -1,5 +1,6 @@
 ---
 term: BIP0044
+definition:
 ---
 
 Iciyumviro co gushiramwo uburyo busanzwe bwo gukuraho amakuru ku ma wallets ya HD. BIP44 yubakiye ku ngingo ngenderwako zashinzwe muri BIP32 ku bijanye n’ugukuraho urufunguzo no muri BIP43 ku bijanye no gukoresha umurima w’intumbero.

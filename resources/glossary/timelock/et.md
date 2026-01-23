@@ -1,6 +1,7 @@
 ---
 term: Timelock
 
+definition:
 ---
 Aruka lepingu primitiiv, mis võimaldab määrata ajapõhise tingimuse, mis peab olema täidetud, et tehing saaks plokki lisada. Bitcoinis on kahte tüüpi ajamääranguid:
 

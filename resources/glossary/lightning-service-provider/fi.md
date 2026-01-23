@@ -1,5 +1,6 @@
 ---
 term: Lightning service provider
+definition:
 ---
 
 Lightningissa toimiva yritys, jonka liiketoiminta on likviditeettipalvelujen tarjoaminen käyttäjille.

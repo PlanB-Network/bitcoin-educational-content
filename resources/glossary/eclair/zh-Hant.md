@@ -1,5 +1,6 @@
 ---
 term: Eclair
+definition:
 ---
 
 以 Scala 語言撰寫的 Lightning Network 通訊協定的主要實作。Eclair 由法國 Acinq 公司開發。

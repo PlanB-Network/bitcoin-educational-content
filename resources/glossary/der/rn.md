@@ -1,5 +1,6 @@
 ---
 term: DER
+definition:
 ---
 
 Inyuguti y'inyongera y'ikirundi *Amategeko y'Ikode Atandukanye*. Ni igice gikomeye c’amategeko yo gushiramwo amakuru ASN.1 asobanuwe mu vyo gusobanura [ITU-T X.690, 2002.](https://www.itu.int. DER ikoreshwa cane cane mu bikorwa vyihariye, nk’ubuhinga bwo gukingira amakuru, aho amakuru ategerezwa gushirwa mu buryo busanzwe, bushobora gutegekanirwa.

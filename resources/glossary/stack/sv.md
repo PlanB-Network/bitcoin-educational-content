@@ -1,5 +1,6 @@
 ---
 term: Stack
+definition:
 ---
 
 I samband med det skriptspråk som används för att koppla utgiftsvillkor till Bitcoin UTXO:er är stacken en LIFO-datastruktur (*Last In, First Out*) som används för att lagra tillfälliga Elements under skriptexekveringen. Varje operation i skriptet manipulerar dessa staplar, där Elements kan läggas till (*push*) eller tas bort (*pop*). Skript använder stackar för att utvärdera uttryck, lagra temporära variabler och hantera villkor.

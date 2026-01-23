@@ -1,5 +1,6 @@
 ---
 term: Camada
+definition:
 ---
 
 Protocolo ou rede construída sobre a rede principal Bitcoin. Utiliza a rede Bitcoin como base e, por conseguinte, depende do seu protocolo. No entanto, a rede Bitcoin não depende das suas sobreposições. Um exemplo de uma sobreposição deste tipo é o Lightning Network.

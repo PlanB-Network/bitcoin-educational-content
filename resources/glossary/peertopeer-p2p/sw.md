@@ -1,5 +1,6 @@
 ---
 term: Peer-to-peer (P2P)
+definition:
 ---
 
 Inarejelea mfano wa mawasiliano na usambazaji wa data ambapo washiriki, mara nyingi huitwa nodi au rika, hushiriki rasilimali zao (kama vile faili, nguvu ya usindikaji, kipimo data, mali...) moja kwa moja kati yao, bila hitaji la mpatanishi wa kati. Katika mfumo wa P2P, kila mshiriki hufanya kazi kwa wakati mmoja kama mteja (mtumiaji wa rasilimali) na seva (mtoa rasilimali).

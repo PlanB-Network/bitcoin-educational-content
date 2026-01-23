@@ -1,5 +1,6 @@
 ---
 term: Extra-nonce
+definition:
 ---
 
 ブロックのCoinbase Transactionの`scriptSig`で使用されるフィールドで、各ブロックのヘッダーに直接ある古典的なNonceに加えて、難易度ターゲットよりも低いHashを持つために、より多くの可能性をテストすることができる。

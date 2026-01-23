@@ -1,6 +1,7 @@
 ---
 term: Stonewall
 
+definition:
 ---
 Erityinen Bitcoin-tapahtuman muoto, jonka tarkoituksena on lisätä käyttäjän yksityisyyttä rahankäytön aikana jäljittelemällä kahden ihmisen välistä kolikkoliitosta, mutta joka ei itse asiassa ole sellainen. Tämä transaktio ei todellakaan ole yhteistoiminnallinen. Käyttäjä voi rakentaa sen yksin, jolloin vain hänen omat UTXO:nsa ovat syötteinä. Voit siis luoda Stonewall-tapahtuman mihin tahansa tilaisuuteen ilman, että sinun tarvitsee synkronoitua toisen käyttäjän kanssa.
 

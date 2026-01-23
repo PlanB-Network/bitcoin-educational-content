@@ -1,5 +1,6 @@
 ---
 term: Anchor
+definition:
 ---
 
 V protokolu RGB představuje Anchor sadu dat na straně klienta, která slouží k prokázání zařazení jednoho Commitment do transakce. V protokolu RGB je Anchor tvořen následujícími Elements:

@@ -1,6 +1,7 @@
 ---
 term: P2MS
 
+definition:
 ---
 P2MS on lyhenne sanoista *Pay to Multisig*, joka tarkoittaa "maksa useista allekirjoituksista". Se on vakioskriptimalli, jota käytetään UTXO:n käyttöehtojen määrittämiseen. Se mahdollistaa bitcoinien lukitsemisen useilla julkisilla avaimilla. Näiden bitcoinien käyttäminen edellyttää allekirjoitusta, johon liittyy ennalta määritelty määrä yksityisiä avaimia. Esimerkiksi `P2MS 2/3` sisältää `3` julkista avainta ja `3` siihen liittyvää salaista yksityistä avainta. Tämän P2MS-skriptin avulla lukittujen bitcoinien käyttämiseen tarvitaan allekirjoitus, jossa on vähintään `2` yksityisistä avaimista `3`. Tämä on kynnysturvajärjestelmä.
 

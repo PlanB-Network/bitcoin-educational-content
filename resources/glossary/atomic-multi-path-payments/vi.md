@@ -1,5 +1,6 @@
 ---
 term: Atomic multi-path payments
+definition:
 ---
 
 Phiên bản cải tiến của MPP (*Thanh toán đa đường dẫn*) trong đó mỗi phần thanh toán có một bí mật riêng biệt, đảm bảo rằng giao dịch được giải quyết một cách nguyên tử, tức là toàn bộ hoặc không giải quyết gì cả.

@@ -1,6 +1,7 @@
 ---
 term: Nonce
 
+definition:
 ---
 Tietojenkäsittelyn yhteydessä termi "nonce" viittaa numeroon, jota käytetään vain kerran ja joka korvataan sen jälkeen. Se on usein satunnainen tai pseudosattumanvarainen. Nonceja käytetään erilaisissa salausprotokollissa prosessin turvallisuuden varmistamiseksi. Esimerkiksi Bitcoin-protokollassa käytetyt ECDSA-allekirjoitukset sisältävät nonceen käytön. Tämä tarkoittaa, että tämän numeron on oltava uusi jokaisessa allekirjoituksessa. Jos näin ei ole, on mahdollista laskea käytetty yksityinen avain vertaamalla kahta allekirjoitusta, jotka käyttävät samaa noncea.
 

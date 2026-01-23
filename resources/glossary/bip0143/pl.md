@@ -1,5 +1,6 @@
 ---
 term: BIP0143
+definition:
 ---
 
 Wprowadza nowy sposób haszowania transakcji w celu weryfikacji podpisu w skryptach post-SegWit. Celem jest zminimalizowanie zbędnych operacji podczas weryfikacji i uwzględnienie wartości UTXO w danych wejściowych w podpisie. Rozwiązuje to dwa główne problemy związane z oryginalnym algorytmem haszowania transakcji:

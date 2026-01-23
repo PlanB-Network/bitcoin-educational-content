@@ -1,6 +1,7 @@
 ---
 term: Stonewall
 
+definition:
 ---
 Specifická forma bitcoinové transakce, jejímž cílem je zvýšit soukromí uživatele během útraty tím, že napodobuje spojení mincí mezi dvěma lidmi, aniž by se ve skutečnosti jednalo o spojení. Tato transakce ve skutečnosti není kolaborativní. Uživatel ji může sestavit sám a jako vstupy do ní zapojit pouze své vlastní UTXO. Proto si můžete vytvořit transakci Stonewall pro jakoukoli příležitost, aniž byste se museli synchronizovat s jiným uživatelem.
 

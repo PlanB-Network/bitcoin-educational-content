@@ -1,5 +1,6 @@
 ---
 term: Unix 時間
+definition:
 ---
 
 Unix Time 或 Unix Timestamp 表示自 1970 年 1 月 1 日午夜 UTC（Unix Epoch）以來所經過的秒數。這個系統用於 Unix 作業系統及其衍生系統，以通用和標準的方式標記時間。它使時鐘的同步化和基於時間的事件管理成為可能，而不受時區的限制。

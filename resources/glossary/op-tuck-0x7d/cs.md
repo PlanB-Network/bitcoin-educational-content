@@ -1,6 +1,7 @@
 ---
 term: OP_TUCK (0X7D)
 
+definition:
 ---
 Zkopíruje položku na vrcholu zásobníku a vloží ji mezi druhou a třetí položku zásobníku. Například pokud je zásobník:
 

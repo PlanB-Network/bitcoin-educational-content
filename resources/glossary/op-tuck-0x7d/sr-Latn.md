@@ -1,5 +1,6 @@
 ---
 term: OP_TUCK (0X7D)
+definition:
 ---
 
 Kopira stavku sa vrha steka i umeće je između druge i treće stavke steka. Na primer, ako je stek:

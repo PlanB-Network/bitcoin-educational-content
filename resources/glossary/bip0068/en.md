@@ -1,5 +1,6 @@
 ---
 term: BIP0068
+definition:
 ---
 
 BIP68 introduced the ability to use relative lock-times via the `nSequence` field. 

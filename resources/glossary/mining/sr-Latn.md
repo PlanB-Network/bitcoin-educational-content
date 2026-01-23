@@ -1,5 +1,6 @@
 ---
 term: Rudarenje
+definition:
 ---
 
 Čin učestvovanja u Bitcoin sistemu Proof-of-Work (Proof-of-Work). Proof-of-Work je mehanizam za otpor protiv Sybil napada. To je osnova Nakamoto konsenzusnog mehanizma, koji je princip korišćen za uspostavljanje saglasnosti o jednoj verziji distribuiranog Ledger među različitim čvorovima mreže.

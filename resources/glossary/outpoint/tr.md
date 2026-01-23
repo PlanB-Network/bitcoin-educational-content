@@ -1,5 +1,6 @@
 ---
 term: Outpoint
+definition:
 ---
 
 Harcanmamış bir işlem çıktısına (UTXO) benzersiz bir referans. İki Elements'dan oluşur:

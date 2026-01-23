@@ -1,6 +1,7 @@
 ---
 term: Covenant
 
+definition:
 ---
 Mehhanism, mis võimaldab kehtestada konkreetsed tingimused selle kohta, kuidas antud rahaühikut võib kulutada, sealhulgas tulevastes tehingutes. Lisaks UTXO käsikirjakeeles tavaliselt lubatud tingimustele kehtestab leping täiendavad piirangud sellele, kuidas seda Bitcoini saab järgmistes tehingutes kulutada. Tehniliselt toimub lepingu kehtestamine siis, kui UTXO "scriptPubKey" määratleb piirangud UTXOd kulutava tehingu väljundite "scriptPubKey" jaoks. Skripti kohaldamisala laiendades võimaldaksid lepingud Bitcoini arvukaid arenguid, nagu näiteks drivechains'i kahepoolne ankurdamine, võlvade rakendamine või selliste overlay-süsteemide nagu Lightning täiustamine. Paktiettepanekuid eristatakse kolme kriteeriumi alusel:
 

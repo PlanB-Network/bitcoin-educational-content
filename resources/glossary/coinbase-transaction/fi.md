@@ -1,6 +1,7 @@
 ---
 term: Coinbase-tapahtuma
 
+definition:
 ---
 Coinbase-tapahtuma on erityinen ja ainutlaatuinen tapahtuma, joka sisältyy Bitcoin-lohkoketjun jokaiseen lohkoon. Se edustaa lohkon ensimmäistä transaktiota, ja sen on luonut louhija, joka on onnistuneesti löytänyt työstötodistuksen (*Proof-of-Work*) vahvistavan otsikon, joka on pienempi tai yhtä suuri kuin tavoite.
 

@@ -1,6 +1,7 @@
 ---
 term: Tái sử dụng địa chỉ
 
+definition:
 ---
 Address reuse refers to the practice of using the same receiving address to block multiple UTXOs, sometimes within several different transactions. Bitcoins are typically locked using a cryptographic key pair that corresponds to a unique address. Since the blockchain is public, it is easy to see which addresses are associated with how many bitcoins. In the case of reusing the same address for multiple payments, it is reasonable to imagine that all the associated UTXOs belong to the same entity. Therefore, address reuse poses a problem for the user's privacy. It allows for deterministic links between multiple transactions and UTXOs, as well as perpetuating on-chain fund tracking. Satoshi Nakamoto already mentioned this problem in his White Paper:
 

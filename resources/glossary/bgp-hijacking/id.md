@@ -1,6 +1,7 @@
 ---
 term: BGP hijacking
 
+definition:
 ---
 
 Serangan di mana aktor jahat memanipulasi iklan BGP untuk mengalihkan lalu lintas Internet ke jaringannya sendiri. Dengan berpura-pura menjadi sumber yang sah dari rentang alamat IP tertentu, penyerang dapat mencegat, memantau, atau memblokir lalu lintas yang ditujukan ke alamat-alamat ini.

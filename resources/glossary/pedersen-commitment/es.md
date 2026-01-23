@@ -1,5 +1,6 @@
 ---
 term: Compromiso de Pedersen
+definition:
 ---
 
 Una Pedersen commitment es un tipo de Commitment criptográfica con la propiedad de ser homomórfica a la operación de suma. Esto significa que es posible validar la suma de dos compromisos sin revelar los valores individuales.

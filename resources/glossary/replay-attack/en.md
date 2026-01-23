@@ -1,5 +1,6 @@
 ---
 term: Replay attack
+definition:
 ---
 
 In the context of Bitcoin, a replay attack occurs when a valid transaction on one Blockchain is maliciously reproduced on another Blockchain which has the same transaction history. In other words, a transaction broadcast on one channel can be replicated on another without the consent of the sender of the first transaction.

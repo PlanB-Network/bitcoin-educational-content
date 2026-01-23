@@ -1,6 +1,7 @@
 ---
 term: BIP0143
 
+definition:
 ---
 Introduces a new way of hashing the transaction for signature verification in post-SegWit scripts. The goal is to minimize redundant operations during verification and to include the value of the UTXOs in the input in the signature. This solves two major issues with the original transaction hashing algorithm:
 

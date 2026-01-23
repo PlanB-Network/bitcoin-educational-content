@@ -1,5 +1,6 @@
 ---
 term: Paiement simple
+definition:
 ---
 
 Muamala wa muundo (au mfano) unaotumika katika uchanganuzi wa mnyororo unaobainishwa na matumizi ya UTXO moja au zaidi katika pembejeo na utengenezaji wa UTXO 2 katika matokeo. Kwa hivyo mfano huu utaonekana kama hii:

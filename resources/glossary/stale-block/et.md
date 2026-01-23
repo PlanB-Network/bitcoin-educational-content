@@ -1,6 +1,7 @@
 ---
 term: Aegunud (plokk)
 
+definition:
 ---
 Viitab plokile, millel ei ole lapsi: kehtiv plokk, kuid mis on välja jäetud Bitcoini peamisest ahelast. See tekib siis, kui kaks kaevurit leiavad lühikese aja jooksul sama ahela kõrgusel kehtiva ploki ja edastavad selle üle võrgu. Lõpuks valivad sõlmed ainult ühe ploki, mille nad ahelasse lisavad, vastavalt kõige rohkem tööd kogunud ahela põhimõttele, muutes teise ploki "iganenuks". Vananenud ploki tekkimise protsess on järgmine:
 

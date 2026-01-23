@@ -1,5 +1,6 @@
 ---
 term: Output
+definition:
 ---
 
 Mu bijanye na Bitcoin, umusaruro uri mu bikorwa vy’ubudandaji yerekeza ku _Ibisohoka mu bikorwa vy’ubudandaji bitakoreshejwe_ (UTXOs) biremwa nk’amahera y’aho umuntu ashobora kwishura. Mu buryo bubereye, ni uburyo igikorwa co gucuruza gikoresha mu gutanga amahera. Ibikorwa bifata UTXOs, ni ukuvuga ibice vy'ama bitcoins, nk'"ivyinjizwa" maze bikarema UTXOs nshasha nk'"ibisohoka". Ivyo bimenyetso bivuga umubare kanaka w’amahera y’ibiceri, akenshi ashirwa ku Address yihariye, hamwe n’ingene ayo mahera yoshobora gukoreshwa mu nyuma.

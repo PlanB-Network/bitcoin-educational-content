@@ -1,5 +1,6 @@
 ---
 term: Blocks/rev*.dat
+definition:
 ---
 
 이전에 추가한 블록에 의해 설정된 UTXO의 변경 사항을 취소하는 데 필요한 데이터를 저장하는 Bitcoin core의 파일 이름입니다. 각 파일은 해당 blk*.dat 파일과 일치하는 고유 번호로 식별됩니다.

@@ -1,5 +1,6 @@
 ---
 term: P2PKH
+definition:
 ---
 
 P2PKH označava *Pay to Public Key Hash*. To je standardni model skripte koji se koristi za uspostavljanje uslova trošenja na UTXO. Omogućava zaključavanje bitkoina na Hash javnog ključa, odnosno na prijemnom Address. Ova skripta je povezana sa Legacy standardom i uvedena je u ranim verzijama Bitcoin od strane Satoshi Nakamoto.

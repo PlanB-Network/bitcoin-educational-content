@@ -1,5 +1,6 @@
 ---
 term: Panne byzantine
+definition:
 ---
 
 La panne byzantine, ou comportement byzantin, est tout comportement d'un système ne respectant pas ses propres spécifications, en donnant des résultats non conformes.

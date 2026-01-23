@@ -1,5 +1,6 @@
 ---
 term: NFT
+definition:
 ---
 
 Inyuguti y'inyongera y'ikirundi *token idashobora guhinduka*. NFT igereranya igice ca Bitcoin, n’abakoresha umurongo wa kabiri wa Layer, gisobanurwa nk’ikidashobora guhinduka kandi gifitaniye isano na Ownership y’umutungo uri hanze ya Bitcoin, nk’ishusho canke ubundi bwoko bw’amakuru.

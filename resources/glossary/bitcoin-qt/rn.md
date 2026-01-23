@@ -1,5 +1,6 @@
 ---
 term: Bitcoin QT
+definition:
 ---
 
 Bitcoin QT ni umukiriya wa Bitcoin arimwo Interface y’igishushanyo, yasohotse muri Rusama 2011. Ikomeza uruvyaro rw’umukiriya wa mbere wa Satoshi Nakamoto.

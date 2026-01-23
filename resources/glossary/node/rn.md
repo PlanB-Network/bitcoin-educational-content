@@ -1,5 +1,6 @@
 ---
 term: Ino
+definition:
 ---
 
 Mu rubuga rwa Bitcoin, node (canke "node" mu congereza) ni mudasobwa ikoresha umukiriya wa porotokole ya Bitcoin (nk'akarorero Bitcoin core). Igira uruhara mu nzira mu kubungabunga kopi ya Blockchain, igatanga no kugenzura amafaranga n’amabuye mashasha, kandi mu buryo bushoboka, ikagira uruhara mu nzira ya Mining. Igitigiri c’ibihimba vyose vya Bitcoin kigereranya uruja n’uruza rwa Bitcoin ubwarwo.

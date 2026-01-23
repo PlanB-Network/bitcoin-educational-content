@@ -1,5 +1,6 @@
 ---
 term: Assume utxo
+definition:
 ---
 Konfigurationsparameter i majoritetsklienten Bitcoin Core som gör det möjligt för en nod som just har initierats (men som ännu inte har gjort IBD) att skjuta upp verifieringen av transaktioner och UTXO-setet före en viss snapshot. Konceptet bygger på användningen av ett UTXO-set (lista över alla befintliga UTXO:er vid en given tidpunkt) som tillhandahålls av Core och antas vara korrekt, vilket gör att noden kan synkroniseras mycket snabbt på kedjan med mest ackumulerat arbete. Eftersom noden hoppar över det långa IBD-steget blir den mycket snabbt funktionell för sin användare.
 

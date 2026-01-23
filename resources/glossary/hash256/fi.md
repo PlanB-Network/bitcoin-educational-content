@@ -1,6 +1,7 @@
 ---
 term: HASH256
 
+definition:
 ---
 Bitcoinin eri sovelluksissa käytetty salausfunktio. Siinä SHA256-funktiota sovelletaan kahdesti syöttötietoihin. Viesti läpäisee SHA256:n kerran, ja tämän toiminnon tulosta käytetään syötteenä SHA256:n toisessa läpikäynnissä. Tämän toiminnon tulos on siis 256 bittiä.
 

@@ -1,6 +1,7 @@
 ---
 term: SECP256R1
 
+definition:
 ---
 Nome dato a una curva ellittica definita dallo standard NIST per la crittografia a chiave pubblica. Utilizza un campo di primi di 256 bit e l'equazione della curva ellittica $y^2 = x^3 + ax + b$ con le costanti:
 

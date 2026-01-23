@@ -1,5 +1,6 @@
 ---
 term: Merkle tree
+definition:
 ---
 
 A Merkle Tree is a cryptographic accumulator. It's a method for proving the membership of a given piece of information within a larger set. It is a data structure that facilitates the verification of information in a compact format. In the Bitcoin system, Merkle Trees are used to group and condense the transactions of a block into a single hash, called the Merkle Root (or "*Root Hash*"). Each transaction is hashed, then the adjacent hashes are hashed together hierarchically until the Merkle Root is obtained.

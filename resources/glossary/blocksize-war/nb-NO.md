@@ -1,6 +1,7 @@
 ---
 term: Blokkstørrelseskrigen
 
+definition:
 ---
 Refererer til en periode med intens debatt og konflikt i Bitcoin-miljøet mellom 2015 og 2017. Konflikten dreide seg om hvorvidt blokkstørrelsen, som hadde vært begrenset til 1 megabyte siden 2010 av Satoshi Nakamoto, skulle økes for å gjøre det mulig for Bitcoin å behandle flere transaksjoner per blokk, og dermed forbedre skalerbarheten.
 

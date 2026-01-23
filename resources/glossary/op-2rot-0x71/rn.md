@@ -1,6 +1,7 @@
 ---
 term: OP_2ROT (0X71)
 
+definition:
 ---
 
 Ihindura ibintu bibiri biri mu kibanza ca gatandatu n’ica gatanu kuva hejuru y’ikirundo gushika hejuru. Nk'akarorero, nimba ikirundo ari:

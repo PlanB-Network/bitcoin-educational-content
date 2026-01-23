@@ -1,5 +1,6 @@
 ---
 term: Byzantine fault tolerance (BFT)
+definition:
 ---
 
 Iciyumviro gikoreshwa mu mice ikwiragijwe kugira ngo habeho ukwiyumvikana kwizigirwa kandi gutekanye, mbere n’aho hariho utugingo ngengabuzima dufise amakosa canke dufise ububi.

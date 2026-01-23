@@ -1,6 +1,7 @@
 ---
 term: Bütsantsi tõrketaluvus (BFT)
 
+definition:
 ---
 Mõiste, mida kasutatakse hajutatud süsteemides usaldusväärse ja turvalise konsensuse tagamiseks isegi vigaste või pahatahtlike sõlmede olemasolu korral.
 

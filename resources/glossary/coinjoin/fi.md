@@ -1,6 +1,7 @@
 ---
 term: Coinjoin
 
+definition:
 ---
 Coinjoin on tekniikka, jota käytetään bitcoinien jäljitettävyyden rikkomiseen. Se perustuu yhteistoiminnalliseen transaktioon, jolla on samanniminen erityinen rakenne: coinjoin-transaktio. Coinjoin-transaktiot auttavat parantamaan Bitcoin-käyttäjien yksityisyyden suojaa vaikeuttamalla ulkopuolisten tarkkailijoiden mahdollisuuksia analysoida transaktioita. Tämä rakenne mahdollistaa useiden kolikoiden sekoittamisen yhteen transaktioon, mikä vaikeuttaa tulo- ja lähtöosoitteiden välisten yhteyksien määrittämistä.
 

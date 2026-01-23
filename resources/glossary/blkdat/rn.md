@@ -1,6 +1,7 @@
 ---
 term: Blk*.dat
 
+definition:
 ---
 
 Izina ry’amadosiye ari muri Bitcoin Core abika amakuru y’ibarabara ry’ibarabara. Dosiye yose imenyekana n'umubare wihariye uri mw'izina rya dosiye yayo.

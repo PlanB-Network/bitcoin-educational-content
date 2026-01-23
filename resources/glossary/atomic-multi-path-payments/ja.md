@@ -1,5 +1,6 @@
 ---
 term: Atomic multi-path payments
+definition:
 ---
 
 MPP（*マルチパス・ペイメント*）の改良版で、各決済の断片には個別の部分秘密があり、取引がアトミックに決済されることを保証する。

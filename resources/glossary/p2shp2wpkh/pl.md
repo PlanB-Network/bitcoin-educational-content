@@ -1,5 +1,6 @@
 ---
 term: P2SH-P2WPKH
+definition:
 ---
 
 P2SH-P2WPKH oznacza *Pay to Script Hash - Pay to Witness Public Key Hash*. Jest to standardowy model skryptu używany do ustalania warunków wydatków na UTXO, znany również jako "zagnieżdżony SegWit".

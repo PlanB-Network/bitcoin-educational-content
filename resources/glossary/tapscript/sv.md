@@ -1,5 +1,6 @@
 ---
 term: Tapscript
+definition:
 ---
 
 En uppdatering som syftar till att ändra vissa opkoder i det klassiska skriptspråket Bitcoin, för att definiera det nya skriptspråket som används för P2TR-utgifterna. Tapscript introducerades av BIP342 och implementerades med Taproot Soft Fork.

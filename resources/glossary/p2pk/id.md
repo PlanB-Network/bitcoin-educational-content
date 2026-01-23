@@ -1,6 +1,7 @@
 ---
 term: P2PK
 
+definition:
 ---
 P2PK adalah singkatan dari *Pay to Public Key*, yang merupakan model skrip standar yang digunakan pada Bitcoin untuk menetapkan kondisi pembelanjaan pada UTXO. Hal ini memungkinkan untuk penguncian bitcoin secara langsung ke kunci publik dan bukan ke alamat penerimaan.
 

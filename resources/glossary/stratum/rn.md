@@ -1,6 +1,7 @@
 ---
 term: Stratum
 
+definition:
 ---
 
 Itegeko ry’urubuga ryashizwe hejuru ya Bitcoin ryateguwe canecane kugira ngo rituma abacukuzi b’amabuye y’agaciro bavugana neza hagati y’abacukuzi b’amabuye y’agaciro n’abakozi ba mining kugira ngo bongere inyungu. Stratum yatangajwe mu mpera z'umwaka w'2011 na Marek Palatinus, azwi cane kw'izina ry'uruyeri "Slush" akaba n'uwashinze ikidengeri ca mbere ca mining, Slush Pool, ubu citwa Braiins. Stratum yaje gusubirira umurongo wa kera wa Getwork, wari waracitse igihe.

@@ -1,6 +1,7 @@
 ---
 term: Bitcoin (B maiúsculo)
 
+definition:
 ---
 Bitcoin é o nome do sistema de dinheiro eletrónico peer-to-peer criado por Satoshi Nakamoto em 2009. A utilização do termo Bitcoin com "B" maiúsculo pode referir-se a três coisas diferentes:
 

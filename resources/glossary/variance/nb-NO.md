@@ -1,5 +1,6 @@
 ---
 term: Varians
+definition:
 ---
 
 I Mining refererer dette til svingningene i en Miners inntekt på grunn av sannsynligheten for å finne gyldige blokker. Selv med konstant datakraft kan tiden det tar å finne en blokk variere betraktelig. Som et resultat kan utvinnere gå i lange perioder uten å motta noen belønning, etterfulgt av perioder med høy inntjening.

@@ -1,6 +1,7 @@
 ---
 term: Atomic swap
 
+definition:
 ---
 Teknologi som gjør det mulig å utveksle kryptovalutaer direkte mellom to parter, uten behov for tillit og uten mellomledd. Disse vekslingene kalles "atomære" fordi de bare kan resultere i to utfall:
 

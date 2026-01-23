@@ -1,5 +1,6 @@
 ---
 term: Scriptsig
+definition:
 ---
 
 Element transakcji Bitcoin znajdujący się w danych wejściowych. `scriptSig` dostarcza niezbędnych danych, aby spełnić warunki określone przez `scriptPubKey` poprzedniej transakcji, z której wydawane są środki. Odgrywa on zatem rolę uzupełniającą do `scriptPubKey`. Zazwyczaj `scriptSig` zawiera podpis cyfrowy i klucz publiczny. Podpis jest generowany przez właściciela bitcoinów przy użyciu jego klucza prywatnego i dowodzi, że ma on autoryzację do wydania UTXO. W tym przypadku `scriptSig` pokazuje, że posiadacz danych wejściowych posiada klucz prywatny odpowiadający kluczowi publicznemu powiązanemu z Address określonym w `scriptPubKey` poprzedniej transakcji wychodzącej.

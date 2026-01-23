@@ -1,5 +1,6 @@
 ---
 term: Mã kiểm tra
+definition:
 ---
 
 Tổng kiểm tra là giá trị được tính toán từ một tập dữ liệu, được sử dụng để xác minh tính toàn vẹn và tính hợp lệ của dữ liệu đó trong quá trình truyền hoặc lưu trữ. Các thuật toán tổng kiểm tra được thiết kế để phát hiện các lỗi ngẫu nhiên hoặc các thay đổi không chủ ý đối với dữ liệu, chẳng hạn như lỗi truyền hoặc hỏng tệp. Có nhiều loại thuật toán tổng kiểm tra khác nhau, chẳng hạn như kiểm tra chẵn lẻ, tổng kiểm tra mô-đun, hàm Hash mật mã hoặc mã BCH (*Bose, Ray-Chaudhuri và Hocquenghem*).

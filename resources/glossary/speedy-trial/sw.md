@@ -1,5 +1,6 @@
 ---
 term: Speedy trial
+definition:
 ---
 
 Mbinu ya kuwezesha Soft Fork iliyodhamiriwa awali kwa Taproot mapema 2021 na David A. Harding kulingana na wazo la Russell O'Connor. Kanuni yake ni kutumia mbinu ya BIP8 yenye kigezo cha `LOT` kilichowekwa kuwa `false`, huku ikipunguza muda wa kuwezesha hadi miezi 3 pekee. Kipindi hiki kifupi cha kupiga kura kinaruhusu uthibitishaji wa haraka wa idhini ya Miner. Ikiwa kizingiti kinachohitajika cha idhini kinafikiwa wakati wa moja ya vipindi, Soft Fork itafungiwa ndani. Itaamilishwa miezi kadhaa baadaye, na hivyo kuwapa wachimbaji muda muhimu wa kusasisha programu zao.

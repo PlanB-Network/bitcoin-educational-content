@@ -1,6 +1,7 @@
 ---
 term: Utreexo
 
+definition:
 ---
 Von Tadge Dryja entwickeltes Protokoll zur Verdichtung der UTXO-Menge der Bitcoin-Knoten mithilfe eines auf Merkle-Bäumen basierenden Akkumulators. Im Gegensatz zum klassischen UTXO-Set, das viel Speicherplatz benötigt, reduziert Utreexo den benötigten Speicherplatz drastisch, indem nur die Wurzeln des Merkle-Baums gespeichert werden. Dadurch kann der Knoten das Vorhandensein von UTXOs, die in den Transaktionsinputs verwendet werden, verifizieren, ohne den kompletten Satz von UTXOs aufbewahren zu müssen. Durch die Verwendung von Utreexo speichert jeder Knoten nur einen kryptografischen Fingerabdruck, die sogenannte Merkle-Wurzel. Bei einer Transaktion liefert der Nutzer die Eigentumsnachweise für die UTXOs und die entsprechenden Merkle-Pfade. So kann der Knoten Transaktionen verifizieren, ohne den gesamten UTXO-Satz zu speichern. Nehmen wir ein Beispiel mit einem Diagramm, um diesen Mechanismus zu verstehen:
 

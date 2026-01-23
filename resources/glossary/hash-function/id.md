@@ -1,6 +1,7 @@
 ---
 term: Fungsi hash
 
+definition:
 ---
 Sebuah fungsi matematika yang mengambil masukan berukuran variabel (disebut pesan) dan menghasilkan keluaran berukuran tetap (disebut _hash_, _hashing_, _digest_, atau sidik jari). Fungsi _hash_ adalah fungsi primitif yang digunakan secara luas dalam kriptografi. Fungsi-fungsi ini menunjukkan sifat-sifat khusus yang membuatnya cocok untuk digunakan dalam konteks yang aman:
 

@@ -1,5 +1,6 @@
 ---
 term: PPS (plati po udelu)
+definition:
 ---
 
 Metod za izračunavanje naknade rudara u kontekstu Mining bazena. PPS je sistem gde se rudarima plaća za svaki validan deo koji pošalju, bez obzira na to da li bazen pronađe blok ili ne. Stoga su kompenzovani na osnovu očekivane vrednosti. To je metoda naknade zasnovana na zadacima.

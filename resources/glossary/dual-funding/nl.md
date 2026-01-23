@@ -1,5 +1,6 @@
 ---
 term: Dual funding
+definition:
 ---
 
 Wanneer een Lightning-kanaal wordt geopend, stelt dual funding beide deelnemers in staat om bitcoins vast te zetten in het kanaal. In tegenstelling tot het traditionele model, waarbij slechts één node het kanaal financiert, kunnen met deze methode beide partijen het kanaal financieren, waardoor de liquiditeit onmiddellijk in evenwicht is.

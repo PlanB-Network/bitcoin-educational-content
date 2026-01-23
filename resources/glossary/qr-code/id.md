@@ -1,6 +1,7 @@
 ---
 term: Kode QR
 
+definition:
 ---
 Jenis kode dua dimensi yang dapat dipindai dengan cepat oleh perangkat seluler. Kode QR menyimpan informasi dalam bentuk piksel hitam dan putih yang disusun dalam bentuk persegi dengan latar belakang putih. Fitur penting dari kode QR adalah bahwa kode ini menggabungkan kode koreksi kesalahan BCH, yang memungkinkan data dipulihkan meskipun kode QR dikaburkan sebagian.
 

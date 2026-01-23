@@ -1,6 +1,7 @@
 ---
 term: Vaikeusasteen tavoite
 
+definition:
 ---
 Vaikeuskerroin, joka tunnetaan myös nimellä vaikeuskohde, on parametri, jota käytetään Bitcoinin konsensusmekanismissa todisteellisella työllä (Proof of Work, PoW). Tavoite edustaa numeerista arvoa, joka määrittää, kuinka vaikeaa louhijoiden on ratkaista tietty kryptografinen ongelma, jota kutsutaan todisteeksi työstä, luodessaan uutta lohkoa lohkoketjuun.
 

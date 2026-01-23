@@ -1,6 +1,7 @@
 ---
 term: Genesis Block
 
+definition:
 ---
 Der Genesis Block ist der erste Block des Bitcoin-Systems. Er steht für den konkreten Start von Bitcoin. Der Genesis Block wurde von dem anonymen Gründer von Bitcoin, Satoshi Nakamoto, am 3. Januar 2009 erstellt. Sein Hash lautet:
 

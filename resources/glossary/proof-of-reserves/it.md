@@ -1,5 +1,6 @@
 ---
 term: Prova delle riserve
+definition:
 ---
 
 Meccanismo utilizzato dalle piattaforme Bitcoin Exchange per dimostrare di detenere effettivamente i beni dei propri clienti. L'obiettivo è dimostrare la solvibilità dell'azienda verificando che i suoi bitcoin sono equivalenti o superiori ai saldi degli utenti che dovrebbero detenere.

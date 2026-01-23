@@ -1,5 +1,6 @@
 ---
 term: OP_2OVER (0X70)
+definition:
 ---
 
 Hunakili Elements mbili ambazo ziko katika nafasi ya nne na ya tatu kutoka juu ya rafu, kisha huziweka juu ya rafu. Kwa mfano, ikiwa safu ni:

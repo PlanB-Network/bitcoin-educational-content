@@ -1,6 +1,7 @@
 ---
 term: OP_CHECKSIGADD (0XBA)
 
+definition:
 ---
 Poimii pinosta kolme ylintä arvoa: `julkinen avain`, `CScriptNum` `n` ja `allekirjoitus`. Jos allekirjoitus ei ole tyhjä vektori eikä kelvoton, skripti päättyy virheeseen. Jos allekirjoitus on kelvollinen tai tyhjä vektori (`OP_0`), esitetään kaksi skenaariota:
 

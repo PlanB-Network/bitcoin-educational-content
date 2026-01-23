@@ -1,5 +1,6 @@
 ---
 term: DBC
+definition:
 ---
 
 Kifupi cha "Deterministic Bitcoin Commitment". Ni seti ya sheria zinazowezesha Commitment kuingizwa katika muamala wa Bitcoin kwa njia inayoweza kuthibitishwa na ya kipekee. Katika itifaki ya RGB, kuna aina mbili kuu za CAD:

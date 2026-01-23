@@ -1,5 +1,6 @@
 ---
 term: Inflation
+definition:
 ---
 
 Refers to the increase in the money supply in circulation, leading to a fall in the value of each unit of money and a rise in the price of goods and services. For state-owned currencies, this phenomenon occurs when central banks issue new currency units.

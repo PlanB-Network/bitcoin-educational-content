@@ -1,5 +1,6 @@
 ---
 term: DBC
+definition:
 ---
 
 Сокращение от "Deterministic Bitcoin Commitment". Это набор правил, позволяющих вводить Commitment в транзакцию Bitcoin доказуемым и уникальным образом. В протоколе RGB существует две основные формы CAD:

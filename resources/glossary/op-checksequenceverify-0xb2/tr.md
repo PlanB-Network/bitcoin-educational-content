@@ -1,5 +1,6 @@
 ---
 term: OP_CHECKSEQUENCEVERIFY (0XB2)
+definition:
 ---
 
 Bu özelliklerden herhangi birinin gözlemlenmesi durumunda işlemi geçersiz kılar:

@@ -1,5 +1,6 @@
 ---
 term: OP_ADD (0X93)
+definition:
 ---
 
 將堆疊頂端的兩個 Elements 相加。它將堆疊頂端的兩個值相加，然後用結果取代。

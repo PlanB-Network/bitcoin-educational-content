@@ -1,5 +1,6 @@
 ---
 term: Anchor
+definition:
 ---
 
 Dalam protokol RGB, sebuah _Anchor_ mewakili sekumpulan data sisi klien yang digunakan untuk membuktikan penyertaan satu komitmen dalam sebuah transaksi. Dalam protokol RGB, sebuah Anchor terdiri dari beberapa bagian berikut ini:

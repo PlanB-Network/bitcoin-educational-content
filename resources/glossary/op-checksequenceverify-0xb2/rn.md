@@ -1,6 +1,7 @@
 ---
 term: OP_CHECKSEQUENCEVERIFY (0XB2)
 
+definition:
 ---
 
 Bihindura ubucuruzi butagira akamaro iyo kimwe muri ibi bimenyetso kibonetse:

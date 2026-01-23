@@ -1,5 +1,6 @@
 ---
 term: مسئله ژنرال‌های بیزانسی
+definition:
 ---
 
 این مسئله برای اولین بار توسط لزلی لمپورت، رابرت شاستاک و مارشال پیس در مجله تخصصی *ACM Transactions on Programming Languages and Systems, vol 4, n° 3* ["The Byzantine Generals Problem"](https://lamport.azurewebsites.net/pubs/byz.pdf) در ژوئیه ۱۹۸۲ مطرح شد. امروزه از آن برای نشان دادن چالش‌های تصمیم‌گیری در شرایطی که یک سیستم توزیع‌شده نمی‌تواند به هیچ کنشگری اعتماد کند، استفاده می‌شود.

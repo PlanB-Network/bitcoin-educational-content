@@ -1,5 +1,6 @@
 ---
 term: BCH-Code
+definition:
 ---
 
 Eine Klasse von Fehlerkorrekturcodes, die zur Erkennung und Korrektur von Fehlern in einer Datenfolge verwendet werden. Mit anderen Worten: BCH-Fehlerkorrekturcodes werden verwendet, um zufällige Fehler in übertragenen Informationen zu finden und zu korrigieren, um sicherzustellen, dass sie unversehrt am Ziel ankommen. Das Akronym "BCH" steht für die Anfangsbuchstaben der Namen der Erfinder dieser Codes: Bose, Ray-Chaudhuri und Hocquenghem.

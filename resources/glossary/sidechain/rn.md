@@ -1,5 +1,6 @@
 ---
 term: Sidechain
+definition:
 ---
 
 Blockchain yagenewe gukorana n'iyindi Blockchain ya Bitcoin. Iyo minyororo ibiri ihuzwa hakoreshejwe urudodo rw’inzira zibiri rutuma umutungo uzunguruka kuri Sidechain uguma ufise agaciro kamwe na Bitcoin ku rudodo nyamukuru. Sidechain ifise uburyo bwayo bwo kwumvikana, bushobora kwigenga canke bwishingikirije ku buryo bw’uruzitiro nyamukuru. Muri rusangi iremeza gukoresha ibikorwa bitaboneka ataco bimaze ku ruhererekane nyamukuru, canke ibikorwa vy’ubuhinga bwongerewe, nk’ibi: guhinduranya cane mu guteza imbere, gukorana vyihuta kandi/canke kwigenga, canke ubushobozi bwo gukorana cane. Kugira ngo ivyo bishoboke, Sidechain iragira ivyo ihindura ugereranije n’uruzitiro nyamukuru.

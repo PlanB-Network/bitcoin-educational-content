@@ -1,5 +1,6 @@
 ---
 term: Flag day
+definition:
 ---
 
 Metod för att aktivera en Soft Fork som användes under de första åren av Bitcoin. Den här processen sätter helt enkelt en deadline, känd som "Flag Day", innan vilken protokolluppdateringen måste antas av hela nätverket. Det här tillvägagångssättet är enkelt: efter detta datum måste noder och miners ha uppdaterat sin programvara för att följa de nya reglerna, annars riskerar de att befinna sig i en inkompatibel kedja.

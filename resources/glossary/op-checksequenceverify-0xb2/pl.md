@@ -1,5 +1,6 @@
 ---
 term: OP_CHECKSEQUENCEVERIFY (0XB2)
+definition:
 ---
 
 Powoduje, że transakcja staje się nieważna, jeśli zostanie zaobserwowana którakolwiek z tych cech:

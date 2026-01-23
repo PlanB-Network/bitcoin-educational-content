@@ -1,5 +1,6 @@
 ---
 term: DBC
+definition:
 ---
 
 Lühend "Deterministic Bitcoin Commitment". See on reeglite kogum, mis võimaldab Commitment sisestada Bitcoin tehingusse tõestataval ja unikaalsel viisil. RGB protokollis on kaks peamist CAD-vormi:

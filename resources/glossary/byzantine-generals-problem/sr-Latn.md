@@ -1,5 +1,6 @@
 ---
 term: Problem vizantijskih generala
+definition:
 ---
 
 Problem su prvi formulisali Leslie Lamport, Robert Shostak i Marshall Pease u specijalizovanom časopisu *ACM Transactions on Programming Languages and Systems, vol 4, n° 3* ["The Byzantine Generals Problem"](https://lamport.azurewebsites.net/pubs/byz.pdf) u julu 1982. Danas se koristi za ilustrovanje izazova u donošenju odluka kada distribuirani sistem ne može verovati nijednom akteru.

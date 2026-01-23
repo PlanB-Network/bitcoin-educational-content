@@ -1,5 +1,6 @@
 ---
 term: Inflation
+definition:
 ---
 
 Bezieht sich auf den Anstieg der im Umlauf befindlichen Geldmenge Supply, was zu einem Rückgang des Wertes jeder Geldeinheit und einem Anstieg der Preise für Waren und Dienstleistungen führt. Bei staatlichen Währungen tritt dieses Phänomen auf, wenn die Zentralbanken neue Währungseinheiten ausgeben.

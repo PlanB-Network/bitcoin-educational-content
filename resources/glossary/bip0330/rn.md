@@ -1,5 +1,6 @@
 ---
 term: BIP0330
+definition:
 ---
 
 Iciyumviro kizwi nka "*Erlay*", kigamije gutuma amafaranga ataremejwe akwiragizwa neza mu rubuga rwa Bitcoin.

@@ -1,6 +1,7 @@
 ---
 term: Blokkhode
 
+definition:
 ---
 Blokkhodet er en datastruktur som fungerer som hovedkomponent i oppbyggingen av en Bitcoin-blokk. Hver blokk består av en header og en liste over transaksjoner. Blokkhodet inneholder viktig informasjon som sikrer integriteten og gyldigheten til en blokk i blokkjeden. Blokkhodet inneholder 80 byte med metadata og består av følgende elementer:
 

@@ -1,5 +1,6 @@
 ---
 term: BIP0011
+definition:
 ---
 
 BIP11, yashizweho na Gavin Andresen muri Ntwarante 2012, yasavye uburyo busanzwe bwo gukora amafaranga y'imikono myinshi kuri Bitcoin. Intumbero yayo yari iyo kwongereza umutekano w’ama bitcoins mu gusaba imikono myinshi kugira ngo umuntu yemererwe gucuruza.

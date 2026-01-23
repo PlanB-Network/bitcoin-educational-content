@@ -1,6 +1,7 @@
 ---
 term: OP_CHECKLOCKTIMEVERIFY (0XB1)
 
+definition:
 ---
 Makes the transaction invalid unless all these conditions are met:
 

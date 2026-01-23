@@ -1,6 +1,7 @@
 ---
 term: Genesisblokk
 
+definition:
 ---
 Genesis-blokken er den første blokken i Bitcoin-systemet. Den markerer den konkrete lanseringen av Bitcoin. Genesis-blokken ble opprettet av Bitcoins anonyme grunnlegger, Satoshi Nakamoto, den 3. januar 2009. Dens hash-kode er
 

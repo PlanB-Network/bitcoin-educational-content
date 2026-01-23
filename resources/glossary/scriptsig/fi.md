@@ -1,6 +1,7 @@
 ---
 term: Scriptsig
 
+definition:
 ---
 Bitcoin-tapahtuman elementti, joka sijaitsee syötteissä. `scriptSig` antaa tarvittavat tiedot, jotta edellisen transaktion, josta varoja käytetään, `scriptPubKey`:n asettamat ehdot täyttyvät. Se täydentää siten `scriptPubKey`:tä. Tyypillisesti `scriptSig` sisältää digitaalisen allekirjoituksen ja julkisen avaimen. Allekirjoituksen luo bitcoinien omistaja yksityisellä avaimellaan, ja se todistaa, että hänellä on valtuudet käyttää UTXO-rahaa. Tässä tapauksessa `scriptSig` osoittaa, että syötteen haltijalla on yksityinen avain, joka vastaa edellisen lähtevän tapahtuman `scriptPubKey` -kentässä määritettyyn osoitteeseen liittyvää julkista avainta.
 

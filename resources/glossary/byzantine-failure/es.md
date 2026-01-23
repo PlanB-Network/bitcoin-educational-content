@@ -1,6 +1,7 @@
 ---
 term: Falla bizantina
 
+definition:
 ---
 Por fallo bizantino, o comportamiento bizantino, se entiende cualquier comportamiento de un sistema que no cumpla sus propias especificaciones, produciendo resultados no conformes.
 

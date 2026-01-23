@@ -1,5 +1,6 @@
 ---
 term: 아웃포인트
+definition:
 ---
 
 미사용 트랜잭션 출력(UTXO)에 대한 고유 참조입니다. 두 개의 Elements으로 구성됩니다:

@@ -1,5 +1,6 @@
 ---
 term: Bitcoin cash (bch)
+definition:
 ---
 
 Uburyo bw’amahera y’ibanga buva kuri Hard Fork ya Bitcoin (BTC) yabaye ku wa 1 Myandagaro 2017, ku nzu 478.558.

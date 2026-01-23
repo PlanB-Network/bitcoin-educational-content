@@ -1,5 +1,6 @@
 ---
 term: Nhà cung cấp dịch vụ Lightning
+definition:
 ---
 
 Công ty hoạt động trên Lightning với mục đích cung cấp dịch vụ thanh khoản cho người dùng.

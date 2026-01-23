@@ -1,5 +1,6 @@
 ---
 term: Invoice lightning
+definition:
 ---
 
 Vastaanottajan luoma salamamaksupyyntö, joka sisältää kaikki maksutapahtuman suorittamiseen tarvittavat tiedot.

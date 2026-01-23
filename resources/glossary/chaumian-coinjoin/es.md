@@ -1,6 +1,7 @@
 ---
 term: Chaumian coinjoin
 
+definition:
 ---
 Un protocolo coinjoin que utiliza las firmas ciegas de David Chaum y Tor para las comunicaciones entre los participantes y el servidor del coordinador. El objetivo de un coinjoin chaumiano es garantizar a los participantes que el coordinador no puede robar bitcoins, ni vincular las entradas y salidas entre sí.
 

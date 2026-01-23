@@ -1,6 +1,7 @@
 ---
 term: Dirección de recepción
 
+definition:
 ---
 Información utilizada para recibir bitcoins. Una dirección se construye normalmente haciendo un hash de una clave pública, utilizando `SHA256` y `RIMPEMD160`, y añadiendo metadatos a este digesto. Las claves públicas utilizadas para construir una dirección receptora forman parte del monedero del usuario y, por tanto, derivan de su semilla. Por ejemplo, las direcciones SegWit se componen de la siguiente información:
 

@@ -1,5 +1,6 @@
 ---
 term: DBC
+definition:
 ---
 
 Viết tắt của "Deterministic Bitcoin Commitment". Đây là một tập hợp các quy tắc cho phép Commitment được nhập vào giao dịch Bitcoin theo cách có thể chứng minh và duy nhất. Trong giao thức RGB, có hai dạng CAD chính:

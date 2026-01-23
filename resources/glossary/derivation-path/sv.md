@@ -1,5 +1,6 @@
 ---
 term: Härledningssökväg
+definition:
 ---
 
 När det gäller hierarkiskt deterministiska (HD) plånböcker avser en härledningsväg den sekvens av index som används för att härleda underordnade nycklar från en huvudnyckel. Denna väg beskrivs i BIP32 och identifierar trädstrukturen för härledning av underordnade nycklar. En härledningsväg representeras av en serie index åtskilda av snedstreck och börjar alltid med huvudnyckeln (betecknad med `m/`). En typisk sökväg kan t.ex. vara `m/84'/0'/0'/0/0`. Varje härledningsnivå är associerad med ett specifikt djup:

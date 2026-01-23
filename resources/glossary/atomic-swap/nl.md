@@ -1,5 +1,6 @@
 ---
 term: Atomic swap
+definition:
 ---
 
 Technologie die de directe Exchange van cryptocurrencies tussen twee partijen mogelijk maakt, zonder dat er vertrouwen nodig is en zonder tussenpersoon. Deze uitwisselingen worden "atomair" genoemd omdat ze slechts twee resultaten kunnen opleveren:

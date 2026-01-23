@@ -1,5 +1,6 @@
 ---
 term: SECP256K1
+definition:
 ---
 
 Namn på en specifik elliptisk kurva som används i Bitcoin-protokollet för implementering av ECDSA (*Elliptic Curve Digital Signature Algorithm*) och Schnorr digitala signaturalgoritmer. Kurvan "secp256k1" valdes av Bitcoin:s uppfinnare Satoshi Nakamoto. Den har en del intressanta egenskaper, framför allt prestandafördelar.

@@ -1,6 +1,7 @@
 ---
 term: OP_CHECKLOCKTIMEVERIFY (0XB1)
 
+definition:
 ---
 Transakce je neplatná, pokud nejsou splněny všechny tyto podmínky:
 

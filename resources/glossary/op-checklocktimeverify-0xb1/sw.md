@@ -1,5 +1,6 @@
 ---
 term: OP_CHECKLOCKTIMEVERIFY (0XB1)
+definition:
 ---
 
 Hufanya muamala kuwa batili isipokuwa masharti haya yote yatimizwe:

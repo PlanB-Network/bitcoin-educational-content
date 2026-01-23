@@ -1,6 +1,7 @@
 ---
 term: Vastuvõttev aadress
 
+definition:
 ---
 Bitcoinide saamiseks kasutatav teave. Aadress konstrueeritakse tavaliselt avaliku võtme hashimise teel, kasutades `SHA256` ja `RIMPEMD160` ning lisades sellele digesti metaandmed. Avalikud võtmed, mida kasutatakse vastuvõtva aadressi konstrueerimiseks, on osa kasutaja rahakotist ja on seega tuletatud tema seemnest. Näiteks SegWit-aadressid koosnevad järgmisest teabest:
 

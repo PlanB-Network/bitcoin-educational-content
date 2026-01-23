@@ -1,6 +1,7 @@
 ---
 term: Utreexo
 
+definition:
 ---
 Protocolo diseñado por Tadge Dryja para compactar el conjunto UTXO de los nodos Bitcoin utilizando un acumulador basado en árboles de Merkle. A diferencia del conjunto UTXO clásico, que requiere un espacio de almacenamiento significativo, Utreexo reduce drásticamente la memoria necesaria almacenando únicamente las raíces del árbol de Merkle. Esto permite al nodo verificar la existencia de UTXOs utilizados en las entradas de transacciones, sin tener que guardar el conjunto completo de UTXOs. Al utilizar Utreexo, cada nodo sólo conserva una huella criptográfica llamada raíz Merkle. Cuando se realiza una transacción, el usuario proporciona las pruebas de propiedad de los UTXO y las rutas Merkle correspondientes. Así, el nodo puede verificar las transacciones sin almacenar todo el conjunto de UTXO. Veamos un ejemplo con un diagrama para entender este mecanismo:
 

@@ -1,6 +1,7 @@
 ---
 term: BIP0001
 
+definition:
 ---
 Documento que define el proceso para desarrollar e implementar mejoras propuestas al protocolo Bitcoin. Redactado por Amir Taaki en agosto de 2011, establece una metodología estándar para proponer y documentar posibles modificaciones. Las propuestas BIP se clasifican en tres categorías:
 

@@ -1,5 +1,6 @@
 ---
 term: DER
+definition:
 ---
 
 *Distinguished Encoding Rules* 的縮寫。它是規範 [ITU-T X.690, 2002.](https://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf) 中定義的 ASN.1 編碼規則的嚴格子集，用於以二進位序列對任何類型的資料進行編碼。DER 主要用於特定領域，例如密碼學，在這些領域中，資料必須以標準、可預測的方式編碼。

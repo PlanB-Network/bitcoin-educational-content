@@ -1,5 +1,6 @@
 ---
 term: Analiza łańcucha
+definition:
 ---
 
 Praktyka obejmująca wszystkie metody wykorzystywane do śledzenia przepływu bitcoinów na Blockchain. Ogólnie rzecz biorąc, analiza łańcucha opiera się na obserwacji cech charakterystycznych w próbkach poprzednich transakcji. Następnie polega na zidentyfikowaniu tych samych cech w transakcji, którą chcemy przeanalizować, i wydedukowaniu wiarygodnych interpretacji. Ta metoda rozwiązywania problemów, oparta na praktycznym podejściu do znalezienia wystarczająco dobrego rozwiązania, znana jest jako heurystyka. Dla uproszczenia, analiza łańcucha odbywa się w dwóch głównych krokach:

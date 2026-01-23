@@ -1,6 +1,7 @@
 ---
 term: BIP0044
 
+definition:
 ---
 A proposal for improvement that introduces a standard hierarchical derivation structure for HD wallets. BIP44 builds on the principles established by BIP32 for key derivation and on BIP43 for the use of the “purpose” field. It introduces a five-level derivation structure: `m / purpose' / coin_type' / account' / change / address_index`. Here are the details of each depth:
 

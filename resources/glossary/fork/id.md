@@ -1,6 +1,7 @@
 ---
 term: Fork
 
+definition:
 ---
 Istilah "_fork_" memiliki beberapa arti dalam konteks Bitcoin. Istilah ini dapat merujuk pada pemisahan jaringan node menjadi beberapa kelompok terpisah, yang mengarah pada pembuatan beberapa blockchain yang berbeda, atau modifikasi aturan protokol, atau keduanya secara bersamaan. Untuk menyederhanakan, kita dapat membedakan 4 kategori utama fork:
 

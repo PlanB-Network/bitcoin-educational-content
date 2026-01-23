@@ -1,5 +1,6 @@
 ---
 term: Anchor
+definition:
 ---
 
 在 RGB 協定中，Anchor 代表用於證明交易中包含單一 Commitment 的客戶端資料集。在 RGB 協定中，一個 Anchor 由以下 Elements 組成：

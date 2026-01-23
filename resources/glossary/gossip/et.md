@@ -1,5 +1,6 @@
 ---
 term: Gossip
+definition:
 ---
 
 Gossip on peer-to-peer (P2P) hajutatud algoritm, mille abil levitatakse teavet epideemiliselt kõigile võrguagentidele. Bitcoin, Lightning ja muude hajutatud süsteemide puhul võimaldab see protokoll Global State sõlmede vahetamist ja sünkroniseerimist vaid mõne tsükliga. Iga sõlmpunkt levitab teavet ühele või mitmele juhuslikule või mittejuhuslikule naabrile, kes omakorda levitavad teavet teistele naabritele ja nii edasi, kuni saavutatakse globaalselt sünkroonitud seisund.

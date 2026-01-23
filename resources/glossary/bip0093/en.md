@@ -1,5 +1,6 @@
 ---
 term: BIP0093
+definition:
 ---
 
 Informational BIP that suggests a standard for saving and restoring the seed of a hierarchical deterministic wallet (according to BIP32) using Shamir's Secret Sharing.

@@ -1,6 +1,7 @@
 ---
 term: Fibre
 
+definition:
 ---
 
 Inyuguti y'inyongera y'ikirundi risobanura "*Internet yihuta Bitcoin Moteri y'Igihugu*". Ni umurongo washizweho na Matt Corallo mu 2016 kugira ngo wihutishe gukwiragiza amabuye ya Bitcoin kw’isi yose. Intumbero yayo yari iyo kugabanya igihe co gukwiragira hafi y’imipaka y’umubiri uko bishoboka kwose. FIBRE yari ifise intumbero yo gutuma amahirwe ya mining agabanywa mu buryo bubereye, mu kumenya neza ko igice c’amabuye yacukuwe n’uwuriko arakora kigaragaza neza uruhara rwayo mu bijanye n’ububasha bwo gukoresha ubuhinga bwa none, ataco yitaye ku kibanza afise mu rubuga.

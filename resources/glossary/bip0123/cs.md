@@ -1,6 +1,7 @@
 ---
 term: BIP0123
 
+definition:
 ---
 Zavádí nový standardizovaný postup pro klasifikaci návrhů na zlepšení bitcoinu. BIP musí být nyní klasifikovány do 4 kategorií:
 

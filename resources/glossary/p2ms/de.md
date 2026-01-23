@@ -1,6 +1,7 @@
 ---
 term: P2MS
 
+definition:
 ---
 P2MS steht für *Pay to Multisig*, was so viel bedeutet wie "Bezahlen für mehrere Unterschriften". Es handelt sich dabei um ein Standard-Skriptmodell, das verwendet wird, um Ausgabenbedingungen für einen UTXO festzulegen. Es ermöglicht das Sperren von Bitcoins mit mehreren öffentlichen Schlüsseln. Um diese Bitcoins auszugeben, ist eine Signatur mit einer vordefinierten Anzahl von zugehörigen privaten Schlüsseln erforderlich. Zum Beispiel beinhaltet ein "P2MS 2/3" "3" öffentliche Schlüssel mit "3" dazugehörigen geheimen privaten Schlüsseln. Um die mit diesem P2MS-Skript gesperrten Bitcoins auszugeben, ist eine Signatur mit mindestens "2" der "3" privaten Schlüssel erforderlich. Dies ist ein Schwellenwert-Sicherheitssystem.
 

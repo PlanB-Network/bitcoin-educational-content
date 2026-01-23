@@ -1,5 +1,6 @@
 ---
 term: Prilagođavanje težine
+definition:
 ---
 
 Podešavanje težine je periodični proces koji redefiniše cilj težine za mehanizam Proof of Work (Mining) na Bitcoin. Ovaj događaj se dešava svakih 2016 blokova (otprilike svake dve nedelje). Služi za povećanje ili smanjenje faktora težine (takođe nazvanog ciljem težine), u zavisnosti od toga koliko brzo su pronađena poslednja 2016 bloka. Podešavanje ima za cilj održavanje stabilne i predvidljive stope proizvodnje blokova, sa frekvencijom od jednog bloka svakih 10 minuta, uprkos varijacijama u računarskoj snazi koju koriste rudari. Promena težine tokom podešavanja je ograničena na faktor 4. Formula koju izvršavaju čvorovi za izračunavanje novog cilja je sledeća:

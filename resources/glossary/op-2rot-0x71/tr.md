@@ -1,5 +1,6 @@
 ---
 term: OP_2ROT (0X71)
+definition:
 ---
 
 Altıncı ve beşinci konumlarda bulunan iki Elements'ı yığının en üstünden en üste taşır. Örneğin, yığın şu şekildeyse:

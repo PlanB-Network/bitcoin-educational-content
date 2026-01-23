@@ -1,5 +1,6 @@
 ---
 term: Anonsets (anonimiteitssets)
+definition:
 ---
 Anonsets dienen als indicatoren om de mate van privacy van een specifieke UTXO te beoordelen. Meer specifiek meten zij het aantal niet-onderscheidbare UTXO’s binnen de verzameling die de onderzochte munt omvat. Aangezien een groep identieke UTXO’s vereist is, worden anonsets doorgaans berekend binnen een coinjoin-cyclus. Ze maken het mogelijk, indien nodig, de kwaliteit van coinjoins te beoordelen. Een anonset van grote omvang duidt op een hoger niveau van anonimiteit, omdat het moeilijk wordt om een specifieke UTXO binnen de verzameling te onderscheiden.
 

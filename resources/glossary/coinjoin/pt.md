@@ -1,6 +1,7 @@
 ---
 term: Coinjoin
 
+definition:
 ---
 Coinjoin é uma técnica utilizada para quebrar a rastreabilidade das bitcoins. Baseia-se numa transação colaborativa com uma estrutura específica com o mesmo nome: a transação coinjoin. As transacções Coinjoin ajudam a melhorar a proteção da privacidade dos utilizadores de Bitcoin, dificultando a análise das transacções por parte de observadores externos. Esta estrutura permite a mistura de várias moedas numa única transação, dificultando a determinação das ligações entre os endereços de entrada e de saída.
 

@@ -1,5 +1,6 @@
 ---
 term: BIP0066
+definition:
 ---
 
 Introduced a standardization of the signature format in transactions. 

@@ -1,5 +1,6 @@
 ---
 term: Gukwiranya
+definition:
 ---
 
 Ibikorwa vy’ubudandaji vyihariye aho UTXO ntoyi nyinshi zihurizwa hamwe zigacika input imwe kugira ngo zibe UTXO imwe, nini nk’isohoka. Iyi nzira ni ugucuruza umuntu ku Wallet yiwe bwite. Intumbero y’uguhuza ni ugukoresha neza ibihe amafaranga yo ku rubuga rwa Bitcoin ari make kugira ngo hashirwe hamwe ama UTXO mato mato menshi mu yindi nini mu gaciro. Gutyo, ribona imbere y’igihe amafaranga azokoreshwa mu gihe amafaranga yongerewe, ivyo bikaba bizotuma umuntu ashobora kuzigama amafaranga azokoreshwa mu gihe kizoza.

@@ -1,6 +1,7 @@
 ---
 term: Flag day
 
+definition:
 ---
 Bitcoini algusaastatel kasutatud pehme kahvli aktiveerimise meetod. See protsess määrab lihtsalt tähtaja, mida nimetatakse "lipupäevaks", enne mida peab kogu võrk protokolli uuenduse vastu võtma. See lähenemisviis on lihtne: pärast seda kuupäeva peavad sõlmed ja kaevandajad olema oma tarkvara uuendatud, et see vastaks uutele reeglitele, vastasel juhul on oht, et nad satuvad ühildumatusse ahelasse.
 

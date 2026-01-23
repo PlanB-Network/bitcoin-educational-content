@@ -1,6 +1,7 @@
 ---
 term: Räsivõimsus
 
+definition:
 ---
 Võrgu arvutusvõimsuse näitaja, mida mõõdetakse hashides sekundis (H/s). See näitab kaevurite võimekust teha hashing-operatsioone osana töö tõestamisest. Kõrge hashrate tähendab suuremat turvalisust Bitcoini majandusajaloo jaoks ja suuremat vastupidavust rünnakutele, kuna võrgu kahjustamiseks oleks vaja märkimisväärset arvutusvõimsust.
 

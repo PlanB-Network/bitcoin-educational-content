@@ -1,5 +1,6 @@
 ---
 term: P2PK
+definition:
 ---
 
 P2PK staat voor *Pay to Public Key*. Het is een standaard scriptmodel dat gebruikt wordt op Bitcoin om bestedingsvoorwaarden op een UTXO vast te stellen. Hiermee kunnen bitcoins direct aan een publieke sleutel worden gekoppeld, in plaats van aan een Address.

@@ -1,5 +1,6 @@
 ---
 term: BTC
+definition:
 ---
 
 Aandelen- of valutasymbool (*ticker*) dat wordt gebruikt om een eenheid van Bitcoin op Exchange platformen voor te stellen. Het wordt gebruikt om snel Bitcoin te identificeren tussen andere activa en valuta. Eén eenheid Bitcoin (1 BTC) is gelijk aan 100.000.000 satoshis (of "Sats").

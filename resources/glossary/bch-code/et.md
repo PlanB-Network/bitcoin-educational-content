@@ -1,5 +1,6 @@
 ---
 term: BCH kood
+definition:
 ---
 
 Veakorrektsioonikoodide klass, mida kasutatakse andmejada vigade avastamiseks ja parandamiseks. Teisisõnu kasutatakse BCH veakorrektsioonikoode juhuslike vigade leidmiseks ja parandamiseks edastatavas teabes, et tagada selle jõudmine sihtkohta tervena. Lühend "BCH" tähistab nende koodide leiutajate nimede algustähti: Bose, Ray-Chaudhuri ja Hocquenghem.

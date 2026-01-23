@@ -1,5 +1,6 @@
 ---
 term: OP_CHECKLOCKTIMEVERIFY (0XB1)
+definition:
 ---
 
 जब तक ये सभी शर्तें पूरी न हो जाएं, लेनदेन अमान्य हो जाता है:

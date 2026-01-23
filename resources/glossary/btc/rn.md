@@ -1,5 +1,6 @@
 ---
 term: BTC
+definition:
 ---
 
 Ikimenyetso c’ububiko canke c’amahera (*ticker*) gikoreshwa mu guserura igice ca Bitcoin ku bibanza vya Exchange. Ikoreshwa cane mu kumenya ningoga Bitcoin mu bindi bintu n’amahera. Igitigiri kimwe ca Bitcoin (1 BTC) kingana n’amasatoshi 100.000.000 (canke “Sats”).

@@ -1,6 +1,7 @@
 ---
 term: Standard transaksjon
 
+definition:
 ---
 En Bitcoin-transaksjon som, i tillegg til å følge konsensusreglene, også faller innenfor standardiseringsreglene som er satt som standard på Bitcoin Core-noder. Disse standardiseringsreglene innføres individuelt av hver Bitcoin-node, i tillegg til konsensusreglene, for å definere strukturen til ubekreftede transaksjoner som den aksepterer i sin mempool og sender til sine likemenn.
 

@@ -1,6 +1,7 @@
 ---
 term: Analyse-Heuristik
 
+definition:
 ---
 Eine Analyseheuristik für die Bitcoin-Kette ist eine Familie empirischer Methoden, die verwendet werden, um den Fluss von Bitcoins auf der Blockchain anhand von Merkmalen zu verfolgen, die bei Transaktionen beobachtet werden. Eine Heuristik ist ein praktischer Ansatz zur Problemlösung, der oft durch ungefähre Methoden erfolgt, aber eine ausreichend gute Lösung darstellt, um ein bestimmtes Ziel zu erreichen. Diese Heuristiken liefern recht zuverlässige Ergebnisse, aber nie mit absoluter Präzision. Mit anderen Worten, die Kettenanalyse beinhaltet immer einen gewissen Grad an Wahrscheinlichkeit für die gezogenen Schlussfolgerungen. So lässt sich beispielsweise mit mehr oder weniger Sicherheit abschätzen, dass zwei Adressen zu ein und demselben Unternehmen gehören, aber eine absolute Sicherheit ist immer unerreichbar. Das Ziel der Kettenanalyse besteht gerade darin, verschiedene Heuristiken zusammenzufassen, um das Fehlerrisiko zu minimieren. Es handelt sich gewissermaßen um eine Anhäufung von Beweisen, die es uns ermöglicht, der Realität näher zu kommen. In diesem Zusammenhang wird zwischen interner und externer Heuristik unterschieden.
 

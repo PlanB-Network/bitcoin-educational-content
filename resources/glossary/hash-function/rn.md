@@ -1,5 +1,6 @@
 ---
 term: Ikorwa rya hash
+definition:
 ---
 
 Igikorwa kijanye n’imibare gifata inyungu y’ingero ihinduka (yitwa ubutumwa) kigatanga inyungu y’ingero idahinduka (yitwa Hash, hashing, digest, canke urutoke). Ibikorwa vya Hash ni ibintu vya kera bikoreshwa cane mu gukora amakuru y’ibanga. Birerekana ibintu vyihariye bituma bibereye gukoreshwa mu bibanza bitekanye:

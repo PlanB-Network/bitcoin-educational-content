@@ -1,6 +1,7 @@
 ---
 term: Cuộc chiến kích thước khối
 
+definition:
 ---
 Refers to a period of intense debate and conflict within the Bitcoin community between 2015 and 2017. This conflict centered on whether the block size, which had been limited to 1 megabyte since 2010 by Satoshi Nakamoto, should be increased to allow Bitcoin to process more transactions per block, thereby improving scalability.
 

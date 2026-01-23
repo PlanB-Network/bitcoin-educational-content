@@ -1,5 +1,6 @@
 ---
 term: Lightning 服务提供商
+definition:
 ---
 
 在 Lightning 上运营的公司，其业务是为用户提供流动性服务。

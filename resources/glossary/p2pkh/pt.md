@@ -1,6 +1,7 @@
 ---
 term: P2PKH
 
+definition:
 ---
 P2PKH significa *Pay to Public Key Hash*. É um modelo de script padrão utilizado para estabelecer condições de despesa num UTXO. Permite bloquear bitcoins num hash de uma chave pública, ou seja, num endereço de receção. Este script está associado ao padrão Legacy e foi introduzido nas primeiras versões do Bitcoin por Satoshi Nakamoto.
 

@@ -1,6 +1,7 @@
 ---
 term: Miniscript
 
+definition:
 ---
 Raamistik, mille eesmärk on pakkuda raamistikku skriptide turvaliseks programmeerimiseks Bitcoinis. Bitcoini emakeeleks nimetatakse skripti. Seda on praktikas üsna keeruline kasutada, eriti keerukate ja kohandatud rakenduste puhul. Ennekõike on väga raske kontrollida skripti piiranguid. Miniscript kasutab Bitcoini skriptide alamhulka, et lihtsustada nende loomist, analüüsi ja kontrollimist. Iga miniskript on 1:1 samaväärne algupärase skriptiga. Kasutatakse kasutajasõbralikku poliitikakeelt, mis kompileeritakse seejärel miniscriptiks, et lõpuks vastata emakeelsele skriptile.
 

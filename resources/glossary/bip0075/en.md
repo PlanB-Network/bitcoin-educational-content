@@ -1,5 +1,6 @@
 ---
 term: BIP0075
+definition:
 ---
 
 Extension that enhances the BIP70 payment protocol by introducing two major innovations. 

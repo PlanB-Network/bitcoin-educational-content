@@ -1,6 +1,7 @@
 ---
 term: OP_CHECKLOCKTIMEVERIFY (0XB1)
 
+definition:
 ---
 Membuat transaksi tidak sah kecuali semua persyaratan ini terpenuhi:
 

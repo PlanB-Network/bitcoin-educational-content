@@ -1,6 +1,7 @@
 ---
 term: Consolidación
 
+definition:
 ---
 Una transacción específica en la que varios UTXO pequeños se fusionan en una entrada para formar un único UTXO más grande como salida. Esta operación es una transacción realizada al propio monedero. El objetivo de la consolidación es aprovechar los periodos en los que las comisiones en la red Bitcoin son bajas para fusionar varios UTXOs pequeños en uno mayor en valor. De este modo, se anticipa a los gastos obligatorios en caso de aumento de las tasas, lo que permite ahorrar en las tasas de transacción futuras.
 

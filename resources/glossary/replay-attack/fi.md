@@ -1,5 +1,6 @@
 ---
 term: Uusintahyökkäys
+definition:
 ---
 
 Bitcoin:n yhteydessä toistohyökkäys tapahtuu, kun yhdessä Blockchain:ssa tehty pätevä tapahtuma toistetaan ilkivaltaisesti toisessa Blockchain:ssa, jolla on sama tapahtumahistoria. Toisin sanoen yhdellä kanavalla lähetetty tapahtuma voidaan toistaa toisella kanavalla ilman ensimmäisen tapahtuman lähettäjän suostumusta.

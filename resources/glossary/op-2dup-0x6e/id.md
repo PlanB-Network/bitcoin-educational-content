@@ -1,6 +1,7 @@
 ---
 term: OP_2DUP (0X6E)
 
+definition:
 ---
 Menduplikasi dua elemen teratas dari _stack_, lalu menempatkannya di atas _stack_. Misalnya, jika _stack_ awalnya adalah:
 

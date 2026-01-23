@@ -1,5 +1,6 @@
 ---
 term: Moeilijkheidsgraad doel
+definition:
 ---
 
 De moeilijkheidsfactor, ook bekend als het moeilijkheidsdoel, is een parameter die gebruikt wordt in het consensusmechanisme van Proof of Work (Proof of Work, PoW) op Bitcoin. Het doel vertegenwoordigt een numerieke waarde die de moeilijkheidsgraad bepaalt voor mijnwerkers om een specifiek cryptografisch probleem op te lossen, Proof of Work genaamd, bij het creëren van een nieuw blok op Blockchain.

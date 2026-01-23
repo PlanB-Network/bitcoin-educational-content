@@ -1,6 +1,7 @@
 ---
 term: Intambara y'ubunini bw'icitunza
 
+definition:
 ---
 
 Ivyo bivuga ku kiringo c’impaka n’amatati akomeye mu muryango wa Bitcoin hagati ya 2015 na 2017. Iyo ntambara yari ishingiye ku kuba ubunini bw’ibarabara, bwari bwagabanutse ku megabyte 1 kuva mu 2010 na Satoshi Nakamoto, bwokwongerwa kugira ngo Bitcoin ishobore gukora cane.

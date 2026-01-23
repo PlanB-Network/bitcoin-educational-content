@@ -1,5 +1,6 @@
 ---
 term: Shahidi wa muamala
+definition:
 ---
 
 Inarejelea sehemu ya miamala ya Bitcoin ambayo ilihamishwa na SegWit Soft Fork hadi Address suala la uharibifu wa muamala. Shahidi ana saini na funguo za umma zinazohitajika ili kufungua bitcoins zilizotumiwa katika shughuli. Katika miamala ya Urithi, shahidi aliwakilisha jumla ya `scriptSig` kutoka kwa maingizo yote. Katika miamala ya SegWit, shahidi huwakilisha jumla ya `script Witness` kwa kila ingizo, na sehemu hii ya muamala sasa inahamishwa hadi kwenye Merkle Tree tofauti ndani ya kizuizi.

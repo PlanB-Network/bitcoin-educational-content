@@ -1,6 +1,7 @@
 ---
 term: Mining
 
+definition:
 ---
 L'atto di partecipare alla prova di lavoro del sistema Bitcoin (Proof-of-Work). La prova di lavoro è un meccanismo per resistere agli attacchi delle sibille. È alla base del meccanismo di consenso di Nakamoto, che è il principio utilizzato per stabilire un accordo su un'unica versione del libro mastro distribuito tra i diversi nodi della rete.
 

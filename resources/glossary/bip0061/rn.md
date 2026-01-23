@@ -1,5 +1,6 @@
 ---
 term: BIP0061
+definition:
 ---
 
 Yashizeho ubutumwa bwo kwanka mu nzira y’uguhanahana amakuru hagati y’ibice. Intumbero yayo yari iyo gutanga uburyo bwo gutanga inyishu kugira ngo iyo node yaronse igikorwa canke ububiko ibona ko ata co imaze, ishobore kumenyesha uwuyirungitse imvo y’uko yanse.

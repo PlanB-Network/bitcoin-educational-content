@@ -1,5 +1,6 @@
 ---
 term: Anchor
+definition:
 ---
 
 Nel protocollo RGB, un Anchor rappresenta un insieme di dati lato client utilizzati per dimostrare l'inclusione di un singolo Commitment in una transazione. Nel protocollo RGB, un Anchor è composto dai seguenti Elements:

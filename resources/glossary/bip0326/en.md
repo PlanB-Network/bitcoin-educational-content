@@ -1,5 +1,6 @@
 ---
 term: BIP0326
+definition:
 ---
 
 An improvement proposal for developers of Bitcoin wallet software that supports Taproot transactions. 

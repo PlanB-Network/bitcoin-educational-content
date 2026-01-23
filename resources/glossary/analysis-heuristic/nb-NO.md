@@ -1,6 +1,7 @@
 ---
 term: Analyseheuristikk
 
+definition:
 ---
 En heuristisk analyse for Bitcoin-kjeden er en familie av empiriske metoder som brukes til å spore flyten av bitcoins i blokkjeden basert på egenskaper observert i transaksjoner. En heuristikk er en praktisk tilnærming til problemløsning, ofte gjennom tilnærmede metoder, men representerer en tilstrekkelig god løsning for å oppnå et gitt mål. Disse heuristikkene gir ganske pålitelige resultater, men aldri med absolutt presisjon. Kjedeanalyse innebærer med andre ord alltid en viss grad av sannsynlighet i de konklusjonene som trekkes. For eksempel kan man med større eller mindre sikkerhet anslå at to adresser tilhører samme enhet, men total sikkerhet er alltid utenfor rekkevidde. Hele målet med kjedeanalyse ligger nettopp i å aggregere ulike heuristikker for å minimere risikoen for feil. Det er på sett og vis en akkumulering av bevis som gjør at vi kan komme nærmere virkeligheten. I denne sammenhengen skiller vi mellom interne og eksterne heuristikker.
 

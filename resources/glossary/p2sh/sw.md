@@ -1,5 +1,6 @@
 ---
 term: P2SH
+definition:
 ---
 
 P2SH inawakilisha *Lipa kwa Hati Hash*. Ni muundo wa hati wa kawaida unaotumiwa kuweka masharti ya matumizi kwenye UTXO. Tofauti na hati za P2PK na P2PKH, ambapo masharti ya matumizi yamefafanuliwa mapema, P2SH inaruhusu ujumuishaji wa masharti ya matumizi holela na utendakazi wa ziada ndani ya hati ya muamala.

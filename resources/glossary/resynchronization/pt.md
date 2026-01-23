@@ -1,6 +1,7 @@
 ---
 term: Resincronização
 
+definition:
 ---
 Refere-se a um fenómeno em que a blockchain sofre uma modificação da sua estrutura devido à existência de blocos concorrentes à mesma altura. Isto ocorre quando uma parte da blockchain é substituída por outra cadeia com uma maior quantidade de trabalho acumulado.
 

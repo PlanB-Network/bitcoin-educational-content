@@ -1,5 +1,6 @@
 ---
 term: CISA
+definition:
 ---
 
 Lyhenne sanoista "Cross-Input Signature Aggregation". Tämä on tekninen ehdotus, jonka tarkoituksena on optimoida Bitcoin-tapahtumien koko vähentämällä niiden validointiin tarvittavien allekirjoitusten määrää.

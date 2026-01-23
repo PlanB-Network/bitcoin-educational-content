@@ -1,5 +1,6 @@
 ---
 term: Lightning service provider
+definition:
 ---
 
 _Lightning Service Provider_ (LSP), atau Penyedia Layanan Lightning, adalah perusahaan yang beroperasi di Lightning yang bisnisnya menyediakan layanan likuiditas kepada pengguna.

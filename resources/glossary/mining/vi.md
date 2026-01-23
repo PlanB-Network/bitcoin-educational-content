@@ -1,6 +1,7 @@
 ---
 term: Khai thác
 
+definition:
 ---
 The act of participating in the Bitcoin system's Proof-of-Work (Proof-of-Work). Proof-of-Work is a mechanism to resist Sybil attacks. It is the foundation of the Nakamoto consensus mechanism, which is the principle used to establish agreement on a single version of the distributed ledger among the different nodes of the network.
 

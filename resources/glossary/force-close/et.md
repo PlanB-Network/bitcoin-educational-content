@@ -1,5 +1,6 @@
 ---
 term: Sunnitud sulgemine
+definition:
 ---
 
 Mitte-kooperatiivne välgukanali sulgemismehhanism. Kui kaks kasutajat avavad kanali Multisig 2/2-ga, võib kumbki neist ühepoolselt sulgeda kanali, edastades viimase juba allkirjastatud Commitment Transaction, et saada tagasi oma ahelas olevad bitcoinid. Seda nimetatakse "sundsulgemiseks".

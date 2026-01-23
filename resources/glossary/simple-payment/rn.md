@@ -1,5 +1,6 @@
 ---
 term: Paiement simple
+definition:
 ---
 
 Uburyo bw’ugucuruza (canke urugero) bukoreshwa mu gusesangura uruhererekane burangwa n’ugukoresha UTXO imwe canke nyinshi mu bikoresho vy’injiza n’uguhingura UTXO 2 mu bikoresho vy’injiza. Iyi modele rero izosa n’iyi:

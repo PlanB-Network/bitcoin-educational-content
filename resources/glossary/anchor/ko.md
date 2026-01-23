@@ -1,5 +1,6 @@
 ---
 term: Anchor
+definition:
 ---
 
 RGB 프로토콜에서 Anchor은 트랜잭션에 단일 Commitment이 포함되어 있음을 증명하는 데 사용되는 클라이언트 측 데이터 집합을 나타냅니다. RGB 프로토콜에서 Anchor은 다음 Elements로 구성됩니다:

@@ -1,5 +1,6 @@
 ---
 term: OP_2ROT (0X71)
+definition:
 ---
 
 Pomerite dva Elements koja su na šestoj i petoj poziciji od vrha steka na vrh. Na primer, ako je stek:

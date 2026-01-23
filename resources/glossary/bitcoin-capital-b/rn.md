@@ -1,5 +1,6 @@
 ---
 term: Bitcoin (B nini)
+definition:
 ---
 
 Bitcoin ni izina ry’uburyo bwo gukoresha amahera y’ubuhinga bwa none bwakozwe na Satoshi Nakamoto mu 2009. Gukoresha ijambo Bitcoin rifise inyuguti nini “B” bishobora kwerekeza ku bintu bitatu bitandukanye:

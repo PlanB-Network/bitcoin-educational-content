@@ -1,6 +1,7 @@
 ---
 term: Shares
 
+definition:
 ---
 V kontextu těžebních poolů je podíl ukazatel, který se používá ke kvantifikaci příspěvku jednotlivého těžaře v rámci poolu. Tento ukazatel slouží jako základ pro výpočet odměny, kterou pool přerozděluje jednotlivým těžařům. Každý podíl odpovídá hashi, který splňuje cíl obtížnosti nižší, než je obtížnost sítě Bitcoin.
 

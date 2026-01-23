@@ -1,5 +1,6 @@
 ---
 term: RBF (ücretle değiştirme)
+definition:
 ---
 
 Göndericinin onaylanmasını hızlandırmak için daha yüksek ücretler ödeyerek bir işlemi diğeriyle değiştirmesine olanak tanıyan bir işlem mekanizması. Çok düşük ücretli bir işlem takılırsa, gönderici ücretleri artırmak ve mempool'larda yedek işlemlerine öncelik vermek için *Replace-by-fee* kullanabilir.

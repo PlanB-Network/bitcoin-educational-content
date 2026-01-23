@@ -1,5 +1,6 @@
 ---
 term: Lightning service provider
+definition:
 ---
 
 ユーザーへの流動性サービスの提供を事業とするライトニングの運営会社。

@@ -1,5 +1,6 @@
 ---
 term: Temporal modell
+definition:
 ---
 
 Vissa mänskliga beteenden är igenkännbara On-Chain. Det kanske mest användbara i kedjeanalys är ditt sömnmönster! Ja, när du sover sänder du antagligen inte Bitcoin-transaktioner. I allmänhet sover du ungefär samma timmar. Därför används temporala analyser ofta i kedjeanalys. Det handlar helt enkelt om att registrera de tidpunkter då en viss enhets transaktioner sänds till Bitcoin-nätverket. Genom att analysera dessa tidsmönster kan vi härleda många olika typer av information.

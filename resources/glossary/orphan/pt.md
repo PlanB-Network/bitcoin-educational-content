@@ -1,6 +1,7 @@
 ---
 term: Órfão
 
+definition:
 ---
 Teoricamente, um bloco órfão refere-se a um bloco válido recebido por um nó que ainda não adquiriu o bloco pai, ou seja, o anterior na cadeia. Embora válido, este bloco permanece isolado localmente como órfão.
 

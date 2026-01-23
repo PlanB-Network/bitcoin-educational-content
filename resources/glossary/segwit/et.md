@@ -1,6 +1,7 @@
 ---
 term: Segwit
 
+definition:
 ---
 SegWit, mis on lühend sõnast "Segregated Witness", on 2017. aasta augustis kasutusele võetud Bitcoini protokolli uuendus. Selle eesmärk on lahendada mitu tehnilist probleemi, sealhulgas võrgu tehingumahu probleem, tehingu vormitavuse probleem ja protokolli tulevaste muudatuste hõlbustamine.
 

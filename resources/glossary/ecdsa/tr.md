@@ -1,5 +1,6 @@
 ---
 term: ECDSA
+definition:
 ---
 
 "Eliptik Eğri Dijital İmza Algoritması" için kısaltma Eliptik eğri kriptografisine (ECC) dayalı bir dijital imza algoritmasıdır. DSA'nın (Dijital İmza Algoritması) bir çeşididir. ECDSA, önemli ölçüde daha küçük anahtar boyutları kullanırken RSA gibi geleneksel açık anahtar algoritmalarıyla karşılaştırılabilir güvenlik seviyeleri sağlamak için eliptik eğrilerin özelliklerini kullanır. ECDSA, anahtar çiftlerinin (açık ve özel anahtarlar) oluşturulmasının yanı sıra dijital imzaların oluşturulmasına ve doğrulanmasına olanak tanır.

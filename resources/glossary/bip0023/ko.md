@@ -1,5 +1,6 @@
 ---
 term: BIP0023
+definition:
 ---
 
 이 BIP은 BIP22의 확장으로, Mining 풀에서 사용하는 소프트웨어, 특히 스트라텀의 전신인 Getwork 프로토콜의 채택을 장려하는 것을 목표로 합니다. Luke Dashjr가 제안한 이 확장은 Mining 풀의 채택을 촉진하기 위해 BIP22 표준을 기본적으로 Getwork에 통합하는 것을 목표로 합니다.

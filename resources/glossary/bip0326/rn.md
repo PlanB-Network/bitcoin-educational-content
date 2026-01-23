@@ -1,5 +1,6 @@
 ---
 term: BIP0326
+definition:
 ---
 
 Iciyumviro co gutera imbere ku bategura porogarama za Bitcoin Wallet zifasha mu bikorwa vya Taproot.

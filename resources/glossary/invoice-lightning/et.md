@@ -1,5 +1,6 @@
 ---
 term: Invoice lightning
+definition:
 ---
 
 Vastuvõtja poolt genereeritud välkmaksetaotlus, mis sisaldab kogu tehingu lõpuleviimiseks vajalikku teavet.

@@ -1,5 +1,6 @@
 ---
 term: P2SH-P2WSH
+definition:
 ---
 
 P2SH-P2WSH 代表 * 付費腳本 Hash - 付費見證腳本 Hash*。它是一個標準的腳本模型，用來建立 UTXO 的支出條件，也稱為 「巢狀 SegWit」。

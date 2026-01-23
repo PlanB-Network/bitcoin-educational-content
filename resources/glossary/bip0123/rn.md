@@ -1,5 +1,6 @@
 ---
 term: BIP0123
+definition:
 ---
 
 BIP123 ishiraho uburyo bumwe bwo gushikiriza ivyifuzo vyo guteza imbere Bitcoin (BIPs).BIPs ubu itegerezwa gushirwa mu mice 4:

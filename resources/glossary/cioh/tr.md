@@ -1,5 +1,6 @@
 ---
 term: CIOH
+definition:
 ---
 
 "*Common Input Ownership Heuristic*" için kısaltma. Bitcoin zincir analizi alanında kullanılan ve bir işlemin tüm girdilerinin aynı varlık veya kullanıcıya ait olduğunu varsayan bir sezgiseldir. Bir Bitcoin işleminin kamuya açık verileri gözlemlendiğinde ve birden fazla girdi tespit edildiğinde, bunu çürütecek herhangi bir kalıp veya başka bilgi yoksa, bu işlemin tüm girdilerinin tek bir kişiye (veya varlığa) ait olduğu tahmin edilebilir.

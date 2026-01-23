@@ -1,5 +1,6 @@
 ---
 term: OP_2ROT (0X71)
+definition:
 ---
 
 Husogeza Elements mbili ambazo ziko katika nafasi ya sita na tano kutoka juu ya rundo hadi juu. Kwa mfano, ikiwa safu ni:

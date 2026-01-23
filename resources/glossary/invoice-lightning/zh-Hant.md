@@ -1,5 +1,6 @@
 ---
 term: Lightning 發票
+definition:
 ---
 
 收款人產生的閃光付款請求，包含完成交易所需的所有資訊。

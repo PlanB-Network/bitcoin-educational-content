@@ -1,5 +1,6 @@
 ---
 term: Btcd (btc suite)
+definition:
 ---
 
 Ishirwa mu ngiro ry’amasezerano ya Bitcoin n’abantu bake. BTCD ni ubundi buryo bwo gukoresha porogarama ya Bitcoin core (cane cane bitcoind).

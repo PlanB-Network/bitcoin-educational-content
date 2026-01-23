@@ -1,6 +1,7 @@
 ---
 term: Nonce
 
+definition:
 ---
 Arvutite kontekstis viitab termin "nonce" numbrile, mida kasutatakse ainult üks kord ja mis seejärel asendatakse. See on sageli juhuslik või pseudosjuhuslik. Nonce'i kasutatakse erinevates krüptograafilistes protokollides, et tagada protsessi turvalisus. Näiteks Bitcoini protokollis kasutatavad ECDSA allkirjad sisaldavad nonce'i kasutamist. See tähendab, et see number peab olema iga allkirja puhul uus. Kui see ei ole nii, siis on võimalik kasutada eravõti välja arvutada, võrreldes kahte sama nonce'i kasutavat allkirja.
 

@@ -1,5 +1,6 @@
 ---
 term: BIP0149
+definition:
 ---
 
 Proposal by Shaolin Fry for a new deployment of SegWit (BIP141, BIP143, and BIP147) using the BIP8 activation method with `LOT=true`, if the initial deployment of SegWit via BIP9 failed to activate before November 15, 2017. 

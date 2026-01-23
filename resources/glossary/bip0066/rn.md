@@ -1,5 +1,6 @@
 ---
 term: BIP0066
+definition:
 ---
 
 Yashizeho uburyo bwo guhuza uburyo bwo gusinya mu bikorwa vy’ubudandaji.

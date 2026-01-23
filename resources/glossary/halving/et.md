@@ -1,6 +1,7 @@
 ---
 term: Halving
 
+definition:
 ---
 Mõiste "poolitamine" viitab planeeritud sündmusele, mis vähendab poole võrra tasu, mida kaevurid saavad iga kaevandatud ploki eest plokisubsiidiumi kaudu. See vähendamine kehtib konkreetselt selle osa kohta, mis koosneb õhust loodud uutest bitcoinidest. Bitcoini looja Satoshi Nakamoto kavandas poolitamise kui mehhanismi, et kontrollida inflatsiooni ja tagada bitcoinide piiratud pakkumine.
 

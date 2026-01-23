@@ -1,6 +1,7 @@
 ---
 term: UTXO kogum
 
+definition:
 ---
 Viitab kõigi olemasolevate UTXOde kogumile igal ajahetkel. Teisisõnu, see on suur nimekiri kõigist erinevatest bitcoinidest, mis ootavad kulutamist. Kui liita kokku kõigi UTXOde kogumis olevate UTXOde summad, saame sellest ringluses olevate bitcoinide rahalise kogumassi. Iga sõlme Bitcoini võrgus hoiab oma UTXO-kogumit reaalajas. Ta ajakohastab seda uute kehtivate plokkide kinnitamisel koos neis sisalduvate tehingutega, mis tarbivad mõned UTXO-d UTXO-de kogumist ja loovad vastutasuks uusi.
 

@@ -1,6 +1,7 @@
 ---
 term: BIP0143
 
+definition:
 ---
 Führt eine neue Methode zum Hashing der Transaktion für die Signaturprüfung in Post-SegWit-Skripten ein. Ziel ist es, redundante Operationen während der Überprüfung zu minimieren und den Wert der UTXOs in der Eingabe in die Signatur aufzunehmen. Damit werden zwei wesentliche Probleme des ursprünglichen Transaktions-Hashing-Algorithmus gelöst:
 

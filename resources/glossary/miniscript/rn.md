@@ -1,5 +1,6 @@
 ---
 term: Miniscript
+definition:
 ---
 
 Inzego zagenewe gutanga inzego zo gukora porogarama z'inyandiko zitekanye kuri Bitcoin. Ururimi kavukire rwa Bitcoin rwitwa inyandiko. Biragoye cane gukoresha mu bikorwa, cane cane ku bikorwa bikomeye kandi bihuye n’ivyo umuntu ashaka. Ikiruta vyose, biragoye cane kugenzura aho inyandiko igarukira. Miniscript ikoresha igice c’inyandiko za Bitcoin kugira ngo yorohe kurema, gusuzuma no kugenzura. Inyandiko yose y’ikirundi ingana na 1 kuri 1 n’inyandiko y’ikirundi. Ururimi rw’amategeko rukoreshwa neza, ruca rushirwa mu nyandiko ntoyi, kugira ngo amaherezo rujane n’inyandiko y’ikirundi.

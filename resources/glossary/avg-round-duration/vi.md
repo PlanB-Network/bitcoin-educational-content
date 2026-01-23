@@ -1,6 +1,7 @@
 ---
 term: Thời lượng vòng trung bình
 
+definition:
 ---
 The average round duration is an indicator used to estimate the time it takes for a mining pool to find a block, based on the network's difficulty and the pool's hashrate. It is calculated by taking the number of shares expected to find a block and dividing it by the pool's hashrate. For example, if a mining pool has 200 miners, and each generates an average of 4 shares per second, the total computational power of the pool is 800 shares per second:
 

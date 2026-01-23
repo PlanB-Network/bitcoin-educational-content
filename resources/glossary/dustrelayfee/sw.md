@@ -1,5 +1,6 @@
 ---
 term: Dustrelayfee
+definition:
 ---
 
 Sheria ya kusanifisha inayotumiwa na nodi za mtandao ili kubaini kile wanachokizingatia "kikomo cha Dust." Kigezo hiki huweka kiwango cha ada katika Sats kwa kila kilobaiti pepe (Sats/kvB) ambayo hutumika kama marejeleo ya kukokotoa ikiwa thamani ya UTXO ni chini ya ada zinazohitajika ili kuijumuisha katika shughuli ya ununuzi. Hakika, UTXO inachukuliwa kuwa "Dust" kwenye Bitcoin ikiwa inahitaji ada zaidi kuhamishwa kuliko thamani inayojiwakilisha yenyewe. Hesabu ya kikomo hiki ni kama ifuatavyo.

@@ -1,5 +1,6 @@
 ---
 term: Multi-path payments (mpp)
+definition:
 ---
 
 Ijambo rusangi ry’ubuhinga bwose bwo kwishura kuri Lightning bushobora gutuma igikorwa gishobora gucagurwa mu bice bitobito vyinshi maze kigaca mu nzira zitandukanye. Mu yandi majambo, igice cose c’ukwishura gifata inzira itandukanye y’urudodo. Ivyo bituma bishoboka kurenga imipaka y’amahera ku muhora umwe wo mu nzira.

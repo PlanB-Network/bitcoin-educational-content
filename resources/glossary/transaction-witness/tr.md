@@ -1,5 +1,6 @@
 ---
 term: İşlem tanığı
+definition:
 ---
 
 Bitcoin işlemlerinin SegWit ile birlikte Soft Fork'den Address'ye taşınan bir bileşenini ifade eder. Tanık, bir işlemde harcanan bitcoinlerin kilidini açmak için gerekli imzaları ve açık anahtarları içerir. Eski işlemlerde tanık, tüm girdilerden `scriptSig` toplamını temsil ediyordu. SegWit işlemlerinde, tanık her bir girdi için `scriptWitness` toplamını temsil eder ve işlemin bu kısmı artık blok içinde ayrı bir Merkle Tree'a taşınmıştır.

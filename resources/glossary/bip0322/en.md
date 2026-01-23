@@ -1,5 +1,6 @@
 ---
 term: BIP0322
+definition:
 ---
 
 Proposes a new standard to replace BIP137 for signing messages with Bitcoin private keys and their associated addresses, in order to prove address ownership. These signatures are useful for various applications such as proof of funds, auditing, and other scenarios requiring  authentication of an address via its private key. 

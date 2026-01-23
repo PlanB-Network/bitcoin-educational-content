@@ -1,6 +1,7 @@
 ---
 term: Anonsets (anonymity sets)
 
+definition:
 ---
 Anonsetit toimivat indikaattoreina arvioitaessa tietyn UTXO:n yksityisyyden tasoa. Tarkemmin sanottuna ne mittaavat erottamattomien UTXO:iden määrää joukossa, joka sisältää tarkasteltavan kolikon. Koska tarvitaan ryhmä identtisiä UTXO:ita, anonsetit lasketaan yleensä coinjoin-kierroksen yhteydessä. Ne mahdollistavat tarvittaessa coinjoinien laadun arvioinnin. Suuri anonset tarkoittaa korkeampaa anonymiteetin tasoa, sillä yksittäisen UTXO:n erottaminen joukosta käy vaikeaksi.
 

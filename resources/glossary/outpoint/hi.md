@@ -1,5 +1,6 @@
 ---
 term: Outpoint
+definition:
 ---
 
 अप्रयुक्त लेनदेन आउटपुट (UTXO) का एक अनूठा संदर्भ। इसमें दो Elements शामिल हैं:

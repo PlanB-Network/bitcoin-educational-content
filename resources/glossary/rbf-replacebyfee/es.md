@@ -1,6 +1,7 @@
 ---
 term: RBF (reemplazo por comisión)
 
+definition:
 ---
 Mecanismo transaccional que permite al remitente sustituir una transacción por otra pagando tasas más altas, con el fin de acelerar su confirmación. Si una transacción con tasas demasiado bajas se atasca, el remitente puede utilizar *Replace-By-Fee* para aumentar las tasas y dar prioridad a su transacción de sustitución en los mempools.
 

@@ -1,6 +1,7 @@
 ---
 term: Taxas de transação
 
+definition:
 ---
 As taxas de transação representam um montante que visa compensar os mineiros pela sua participação no mecanismo de prova de trabalho. Estas taxas incentivam os mineiros a incluir transacções nos blocos que criam. Resultam da diferença entre o montante total de entradas e o montante total de saídas de uma transação:
 

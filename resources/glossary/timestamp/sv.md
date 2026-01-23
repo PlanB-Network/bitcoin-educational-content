@@ -1,6 +1,7 @@
 ---
 term: Tidsstämpel
 
+definition:
 ---
 
 Tidsstämpling, eller "Timestamp" på engelska, är en mekanism för att associera en exakt tidsmarkering med en händelse, data eller ett meddelande. I allmänna sammanhang i datorsystem används tidsstämpling för att fastställa den kronologiska ordningen för operationer och för att verifiera integriteten hos data över tiden.

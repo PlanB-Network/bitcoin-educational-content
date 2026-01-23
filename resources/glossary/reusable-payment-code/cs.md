@@ -1,6 +1,7 @@
 ---
 term: Opakovaně použitelný platební kód
 
+definition:
 ---
 V BIP47 je opakovaně použitelný platební kód statický identifikátor generovaný z peněženky Bitcoin, který umožňuje oznamovací transakci a odvození jedinečných adres. Tím se zamezí opakovanému používání adres, které vede ke ztrátě soukromí, aniž by bylo nutné ručně odvozovat a předávat nové, nepoužívané adresy pro každou platbu. V BIP47 jsou opakovaně použitelné platební kódy konstruovány následujícím způsobem:
 

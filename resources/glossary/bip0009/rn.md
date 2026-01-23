@@ -1,5 +1,6 @@
 ---
 term: BIP0009
+definition:
 ---
 
 Uburyo bwo gukoresha amaforogo ya Soft kuri Bitcoin bwashikirijwe mu 2015. Bwashizeho uburyo abacukuzi b’amabuye y’agaciro bagaragaza ko bashigikiye Soft Fork mu gushiramwo igice kinaka mu kibanza c’ihinduka ry’amabuye.

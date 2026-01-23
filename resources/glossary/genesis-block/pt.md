@@ -1,6 +1,7 @@
 ---
 term: Bloco génese
 
+definition:
 ---
 O Bloco Génesis é o primeiro bloco do sistema Bitcoin. Ele significa o lançamento concreto do Bitcoin. O Bloco Génesis foi criado pelo fundador anónimo da Bitcoin, Satoshi Nakamoto, em 3 de janeiro de 2009. O seu hash é:
 

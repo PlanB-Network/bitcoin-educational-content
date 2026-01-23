@@ -1,5 +1,6 @@
 ---
 term: BIP0141
+definition:
 ---
 
 BIP141 introduced the concept of Segregated Witness (SegWit), which gave its name to the SegWit soft fork.

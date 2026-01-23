@@ -1,5 +1,6 @@
 ---
 term: Atomic multi-path payments
+definition:
 ---
 
 MPP'nin (*Çok Yollu Ödemeler*) her ödeme parçasının farklı bir kısmi sırra sahip olduğu, işlemin atomik olarak, yani tam olarak veya hiç yapılmamasını sağlayan geliştirilmiş versiyonu.

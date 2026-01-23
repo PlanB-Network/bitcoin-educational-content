@@ -1,5 +1,6 @@
 ---
 term: OP_2SWAP (0X72)
+definition:
 ---
 
 將堆疊頂端的兩個 Elements 與其下方的兩個 Elements 對調。例如，如果堆疊為

@@ -1,5 +1,6 @@
 ---
 term: Sidechain
+definition:
 ---
 
 Blockchain zaprojektowany do działania równolegle z głównym Blockchain Bitcoin. Oba łańcuchy są połączone za pomocą dwukierunkowego kołka, który zapewnia, że aktywa krążące w Sidechain zachowują tę samą wartość, co Bitcoin w głównym łańcuchu. Sidechain posiada własny mechanizm konsensusu, który może być niezależny lub częściowo opierać się na mechanizmie głównego łańcucha. Zasadniczo pozwala to na korzystanie z funkcji niedostępnych bezpośrednio w głównym łańcuchu lub na ulepszone funkcje, takie jak: większa elastyczność w rozwoju, szybsze i/lub bardziej prywatne transakcje lub większa pojemność transakcyjna. Aby to osiągnąć, Sidechain idzie na kompromisy w porównaniu do głównego łańcucha.

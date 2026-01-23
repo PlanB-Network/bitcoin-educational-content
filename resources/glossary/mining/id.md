@@ -1,6 +1,7 @@
 ---
 term: Penambangan
 
+definition:
 ---
 Tindakan berpartisipasi dalam _Proof-of-Work_ sistem Bitcoin. _Proof-of-Work_ adalah sebuah mekanisme untuk melawan serangan Sybil. Ini adalah dasar dari mekanisme konsensus Nakamoto, yang merupakan prinsip yang digunakan untuk menetapkan kesepakatan pada satu versi buku besar terdistribusi di antara berbagai node jaringan.
 

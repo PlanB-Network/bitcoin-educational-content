@@ -1,6 +1,7 @@
 ---
 term: Árbol de Merkle
 
+definition:
 ---
 Un árbol de Merkle es un acumulador criptográfico. Es un método para demostrar la pertenencia de una determinada información a un conjunto mayor. Es una estructura de datos que facilita la verificación de información en un formato compacto. En el sistema Bitcoin, los Árboles de Merkle se utilizan para agrupar y condensar las transacciones de un bloque en un único hash, llamado Raíz de Merkle (o "*Root Hash*"). Se hace un hash de cada transacción, y luego los hashes adyacentes se juntan jerárquicamente hasta obtener la Raíz de Merkle.
 

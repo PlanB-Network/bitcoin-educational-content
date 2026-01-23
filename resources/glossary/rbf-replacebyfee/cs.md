@@ -1,6 +1,7 @@
 ---
 term: RBF (Replace-By-Fee)
 
+definition:
 ---
 Transakční mechanismus, který umožňuje odesílateli nahradit jednu transakci jinou tím, že zaplatí vyšší poplatky, aby urychlil její potvrzení. Pokud se transakce s příliš nízkými poplatky zasekne, může odesílatel použít *Replace-By-Fee*, aby zvýšil poplatky a upřednostnil jejich náhradní transakci v mempoolech.
 

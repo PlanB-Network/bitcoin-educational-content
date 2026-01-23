@@ -1,5 +1,6 @@
 ---
 term: OP_2DUP (0X6E)
+definition:
 ---
 
 Isubiramwo Elements zibiri zo hejuru z’ikirundo, hanyuma zishire hejuru y’ikirundo. Nk'akarorero, nimba ikirundo ari:

@@ -1,5 +1,6 @@
 ---
 term: Hóa đơn Lightning
+definition:
 ---
 
 Yêu cầu thanh toán nhanh do người nhận tạo ra, chứa tất cả thông tin cần thiết để hoàn tất giao dịch.

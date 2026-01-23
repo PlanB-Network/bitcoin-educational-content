@@ -1,5 +1,6 @@
 ---
 term: BGP-hijacking
+definition:
 ---
 
 Aanval waarbij een kwaadwillende actor BGP-advertenties manipuleert om internetverkeer om te leiden naar zijn eigen netwerk. Door zich voor te doen als de legitieme herkomst van bepaalde IP Address reeksen, kan de aanvaller verkeer bestemd voor deze adressen onderscheppen, controleren of blokkeren.

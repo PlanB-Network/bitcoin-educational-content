@@ -1,5 +1,6 @@
 ---
 term: BIP0042
+definition:
 ---
 
 A Bitcoin Core improvement proposal that fixed a minor bug in the block reward halving schedule. If left uncorrected, this bug would have resulted in the creation of more than the intended 21 million bitcoins.

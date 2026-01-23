@@ -1,6 +1,7 @@
 ---
 term: Komprimovaný veřejný klíč
 
+definition:
 ---
 Veřejný klíč se používá ve skriptech (buď přímo ve formě veřejného klíče, nebo jako adresa) k přijímání a zabezpečení bitcoinů. Nezpracovaný veřejný klíč je reprezentován bodem na eliptické křivce, který se skládá ze dvou souřadnic (`x, y`), z nichž každá má 256 bitů. V surovém formátu tedy veřejný klíč měří 512 bitů, nepočítaje další bajt pro identifikaci formátu. Naproti tomu komprimovaný veřejný klíč je kompaktnější formou reprezentace veřejného klíče. Používá pouze souřadnici `x` a předponu (`02` nebo `03`), která označuje paritu souřadnice `y` (sudá nebo lichá).
 

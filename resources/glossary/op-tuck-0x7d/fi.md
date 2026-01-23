@@ -1,6 +1,7 @@
 ---
 term: OP_TUCK (0X7D)
 
+definition:
 ---
 Kopioi pinon ylimmässä kohdassa olevan kohteen ja lisää sen pinon toisen ja kolmannen kohteen väliin. Jos pino on esimerkiksi:
 

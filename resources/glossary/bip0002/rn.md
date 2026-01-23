@@ -1,5 +1,6 @@
 ---
 term: BIP0002
+definition:
 ---
 
 Inyandiko yanditswe na Luke Dashjr muri Ruheshi 2012 yashizeho ingingo zitomoye zo kwemera ivyifuzo vyo guteza imbere Bitcoin (BIPs) vyo muri kazoza. BIP2 yashizeho ivyiyumviro vy'uko BIPs "yemererwa", "yanka", canke "ikurwamwo", kandi isobanura ibisabwa kugira ngo umuntu agire ikibanza cose.

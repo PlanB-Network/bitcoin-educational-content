@@ -1,5 +1,6 @@
 ---
 term: Privatni ključ
+definition:
 ---
 
 Privatni ključ je osnovni element asimetrične kriptografije. To je broj (256 bita u kontekstu Bitcoin) koji predstavlja kriptografski tajni podatak. Ovaj ključ se koristi za digitalno potpisivanje transakcija i dokazivanje Ownership javnog ključa Bitcoin (i posredno, primanje Address) ispunjavanjem `scriptPubKey`. Dakle, privatni ključevi omogućavaju trošenje bitkoina otključavanjem UTXO-a povezanih sa odgovarajućim javnim ključem. Privatni ključevi moraju biti strogo poverljivi, jer bi njihovo otkrivanje moglo omogućiti zlonamernim trećim stranama da preuzmu kontrolu nad povezanim sredstvima.

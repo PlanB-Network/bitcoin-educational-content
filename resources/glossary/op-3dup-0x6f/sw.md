@@ -1,5 +1,6 @@
 ---
 term: OP_3DUP (0X6F)
+definition:
 ---
 
 Hunakili Elements tatu za juu za rafu, kisha huziweka juu ya rafu. Kwa mfano, ikiwa safu ni:

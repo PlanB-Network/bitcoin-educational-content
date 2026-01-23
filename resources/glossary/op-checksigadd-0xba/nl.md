@@ -1,5 +1,6 @@
 ---
 term: OP_CHECKSIGADD (0XBA)
+definition:
 ---
 
 Haalt de bovenste drie waarden uit de stack: een `public key`, een `CScriptNum` `n`, en een `signature`. Als de handtekening niet de lege vector is en niet geldig is, eindigt het script met een foutmelding. Als de handtekening geldig is of de lege vector is (`OP_0`), worden twee scenario's gepresenteerd:

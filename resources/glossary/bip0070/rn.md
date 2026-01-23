@@ -1,5 +1,6 @@
 ---
 term: BIP0070
+definition:
 ---
 
 Amasezerano yo kwishura akorana na Bitcoin.

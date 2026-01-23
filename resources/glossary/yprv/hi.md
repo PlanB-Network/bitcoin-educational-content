@@ -1,5 +1,6 @@
 ---
 term: YPRV
+definition:
 ---
 
 Bitcoin पर नेस्टेड SegWit खातों के लिए विस्तारित निजी कुंजी उपसर्ग।

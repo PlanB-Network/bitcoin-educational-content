@@ -1,6 +1,7 @@
 ---
 term: Aadressi korduvkasutus
 
+definition:
 ---
 Aadressi korduvkasutamine tähendab, et sama vastuvõtuaadressi kasutatakse mitme UTXO blokeerimiseks, mõnikord mitme erineva tehingu raames. Bitcoine lukustatakse tavaliselt krüptograafilise võtmepaari abil, mis vastab unikaalsele aadressile. Kuna plokiahel on avalik, on lihtne näha, millised aadressid on seotud kui paljude bitcoinidega. Juhul, kui sama aadressi kasutatakse korduvalt mitme makse jaoks, on mõistlik ette kujutada, et kõik seotud UTXOd kuuluvad samale isikule. Seetõttu tekitab aadressi korduvkasutamine probleemi kasutaja privaatsusele. See võimaldab deterministlikke seoseid mitme tehingu ja UTXOde vahel, samuti jäädvustab see ahelas toimuvat fondide jälgimist. Satoshi Nakamoto mainis seda probleemi juba oma valges raamatus:
 

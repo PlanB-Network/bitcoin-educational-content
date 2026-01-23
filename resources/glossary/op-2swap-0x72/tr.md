@@ -1,5 +1,6 @@
 ---
 term: OP_2SWAP (0X72)
+definition:
 ---
 
 Yığının en üstündeki iki Elements'ı hemen altındaki iki Elements ile değiştirir. Örneğin, yığın şu şekildeyse:

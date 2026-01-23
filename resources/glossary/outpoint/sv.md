@@ -1,5 +1,6 @@
 ---
 term: Outpoint
+definition:
 ---
 
 En unik referens till en outnyttjad transaktionsutgång (UTXO). Den består av två Elements:

@@ -1,5 +1,6 @@
 ---
 term: HTLC
+definition:
 ---
 
 Significa "*Hashed Timelock Contract*". Este é um mecanismo Smart contract usado principalmente em Lightning. Também se encontra por vezes em trocas atómicas. Basicamente, o HTLC condiciona uma transferência de dinheiro à revelação de um segredo, e também inclui uma condição temporal para proteger o dinheiro do remetente no caso de uma transação falhada.

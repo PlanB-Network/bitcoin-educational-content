@@ -1,5 +1,6 @@
 ---
 term: Resynchronization
+definition:
 ---
 
 Inahusu jambo ambalo Blockchain inapitia marekebisho ya muundo wake kutokana na kuwepo kwa vitalu vinavyoshindana kwa urefu sawa. Hii hutokea wakati sehemu ya Blockchain inabadilishwa na mlolongo mwingine na kiasi kikubwa cha kazi iliyokusanywa.

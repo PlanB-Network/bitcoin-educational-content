@@ -1,5 +1,6 @@
 ---
 term: OSINT
+definition:
 ---
 
 Acroniem voor "*Open Source Intelligence*". OSINT verwijst naar het verzamelen en analyseren van publiek beschikbare informatie uit bronnen die voor iedereen toegankelijk zijn. Deze bronnen kunnen websites, forums, sociale netwerken, openbare databases, academische publicaties, overheidsdocumenten, enz. zijn. Het hoofddoel van OSINT is om ruwe gegevens om te zetten in bruikbare informatie door trends, correlaties en onderzoeksaanknopingspunten te identificeren.

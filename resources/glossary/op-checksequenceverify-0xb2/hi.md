@@ -1,5 +1,6 @@
 ---
 term: OP_CHECKSEQUENCEVERIFY (0XB2)
+definition:
 ---
 
 यदि इनमें से कोई भी विशेषता पाई जाती है तो लेनदेन अमान्य हो जाता है:

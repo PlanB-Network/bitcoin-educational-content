@@ -1,5 +1,6 @@
 ---
 term: Čvor
+definition:
 ---
 
 U Bitcoin mreži, čvor (ili "node" na engleskom) je računar koji pokreće Bitcoin protokol klijent (kao što je Bitcoin Core, na primer). Učestvuje u mreži održavanjem kopije Blockchain, prosleđivanjem i verifikacijom transakcija i novih blokova, i opcionalno, učestvovanjem u Mining procesu. Zbir svih Bitcoin čvorova predstavlja samu Bitcoin mrežu.

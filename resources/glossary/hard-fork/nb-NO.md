@@ -1,6 +1,7 @@
 ---
 term: Hard fork
 
+definition:
 ---
 En endring av protokollreglene på en måte som ikke er bakoverkompatibel. Denne endringen fører til en permanent separasjon av Bitcoin-nettverket av noder i to distinkte grupper: noder med oppdateringen og noder uten oppdateringen. Denne splittelsen materialiseres ved at den opprinnelige blokkjeden deles i to separate blokkjeder, som imidlertid deler en felles historie, derav bruken av begrepet "fork", som kan oversettes til fransk som "embranchement, bifurcation"
 

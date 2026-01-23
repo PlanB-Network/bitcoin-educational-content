@@ -1,5 +1,6 @@
 ---
 term: BIP0085
+definition:
 ---
 
 BIP85는 단일 마스터 seed을 사용해 여러 Bitcoin 지갑을 통합적으로 파생하는 솔루션을 제공합니다.

@@ -1,5 +1,6 @@
 ---
 term: BIP0068
+definition:
 ---
 
 BIP68은 `nSequence` 필드를 통해 상대 잠금 시간을 사용할 수 있는 기능을 도입했습니다.

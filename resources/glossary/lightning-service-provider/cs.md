@@ -1,5 +1,6 @@
 ---
 term: Lightning service provider
+definition:
 ---
 
 Společnost působící v systému Lightning, jejíž činností je poskytování služeb likvidity uživatelům.

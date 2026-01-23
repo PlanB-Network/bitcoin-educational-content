@@ -1,5 +1,6 @@
 ---
 term: BIP0072
+definition:
 ---
 
 BIP72 yuzuza BIP70 na BIP71 mu kwagura URIs za Bitcoin (BIP21) n'iyindi nzira `r`.

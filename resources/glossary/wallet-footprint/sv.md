@@ -1,5 +1,6 @@
 ---
 term: Plånboksavtryck
+definition:
 ---
 
 En uppsättning särskiljande egenskaper som kan observeras i transaktioner som görs av samma Bitcoin Wallet. Dessa egenskaper kan omfatta likheter i användningen av skripttyper, återanvändning av adresser, ordningen på UTXO:er, placeringen av ändringsutgångar, signaleringen av RBF (*Replace-by-fee*), versionsnumret, fältet `nSequence` och fältet `nLockTime`.

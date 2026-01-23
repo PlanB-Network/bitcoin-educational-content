@@ -1,5 +1,6 @@
 ---
 term: BIP0035
+definition:
 ---
 
 Proposal that allows a Bitcoin node to share information about its mempool, the pool of transactions waiting for confirmation.

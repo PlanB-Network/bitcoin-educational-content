@@ -1,5 +1,6 @@
 ---
 term: Checksum
+definition:
 ---
 
 De checksum is een waarde die wordt berekend uit een set gegevens en die wordt gebruikt om de integriteit en geldigheid van die gegevens te verifiëren tijdens de overdracht of opslag. Controlesomalgoritmen zijn ontworpen om toevallige fouten of onbedoelde wijzigingen in gegevens te detecteren, zoals transmissiefouten of bestandscorruptie. Er bestaan verschillende soorten checksum algoritmen, zoals pariteitscontroles, modulaire checksums, cryptografische Hash functies of BCH (*Bose, Ray-Chaudhuri en Hocquenghem*) codes.

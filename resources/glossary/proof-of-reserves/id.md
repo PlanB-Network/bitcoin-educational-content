@@ -1,5 +1,6 @@
 ---
 term: Proof of reserves
+definition:
 ---
 
 Mekanisme yang digunakan oleh platform bursa pertukaran Bitcoin untuk menunjukkan bahwa mereka benar-benar menyimpan aset pelanggan mereka. Tujuannya adalah untuk membuktikan solvabilitas perusahaan dengan memverifikasi bahwa bitcoinnya setara atau lebih besar dari saldo pengguna yang seharusnya mereka miliki.

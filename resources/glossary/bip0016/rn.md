@@ -1,5 +1,6 @@
 ---
 term: BIP0016
+definition:
 ---
 
 BIP16 yashizeho iciyumviro ca *Pay-to-Script-Hash* (P2SH), bisobanura "kwishura Hash y'inyandiko". BIP16 yasabwe mu ntango mu 2012, itangura gukora mu 2013, yaroroheje gukoresha inyandiko z’ibikorwa zikomeye, nk’inyandiko z’ibikorwa zifise amasinya menshi, mu kwemerera abakoresha kwishura Hash y’inyandiko ya Redeem aho gushiramwo inyandiko yuzuye mu gisohoka.

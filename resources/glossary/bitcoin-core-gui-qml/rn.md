@@ -1,5 +1,6 @@
 ---
 term: Bitcoin Core GUI-QML
+definition:
 ---
 
 Bitcoin core GUI-QML ni umugambi ubandanya wo kurema Bitcoin Wallet n’ikoreshwa ry’ibihimba bishingiye kuri Bitcoin core, ariko rifise igishushanyo gisanzwe Interface cakozwe hakoreshejwe QML (*Ururimi rwo Gushushanya Qt*).

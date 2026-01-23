@@ -1,6 +1,7 @@
 ---
 term: Transação bruta
 
+definition:
 ---
 Uma transação Bitcoin que é construída e assinada, existindo na sua forma binária. Uma transação bruta (*raw TX*) é a representação final de uma transação, imediatamente antes de ser transmitida na rede. Esta transação contém toda a informação necessária para a sua inclusão num bloco:
 

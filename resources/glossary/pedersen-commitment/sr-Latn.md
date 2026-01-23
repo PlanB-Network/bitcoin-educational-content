@@ -1,5 +1,6 @@
 ---
 term: Pedersenova obaveza
+definition:
 ---
 
 Pedersen commitment je tip kriptografskog Commitment sa svojstvom da je homomorfan prema operaciji sabiranja. To znači da je moguće validirati zbir dve obaveze bez otkrivanja pojedinačnih vrednosti.

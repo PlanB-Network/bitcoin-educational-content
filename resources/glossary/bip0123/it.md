@@ -1,6 +1,7 @@
 ---
 term: BIP0123
 
+definition:
 ---
 Stabilisce un nuovo processo standardizzato per la classificazione delle proposte di miglioramento dei Bitcoin. Le PIF devono ora essere classificate in 4 categorie:
 

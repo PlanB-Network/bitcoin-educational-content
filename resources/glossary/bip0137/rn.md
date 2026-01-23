@@ -1,5 +1,6 @@
 ---
 term: BIP0137
+definition:
 ---
 
 BIP137 itanga uburyo bumwe bwo gusinya ubutumwa bukoresheje imfunguruzo z'ibanga za Bitcoin n'amaderesi yazo, bitanga uburyo bwo kwemeza Ownership ya Address.

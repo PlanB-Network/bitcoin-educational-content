@@ -1,5 +1,6 @@
 ---
 term: Lightning servis sağlayıcısı
+definition:
 ---
 
 Lightning üzerinde faaliyet gösteren ve işi kullanıcılara likidite hizmetleri sağlamak olan şirket.

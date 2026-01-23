@@ -1,6 +1,7 @@
 ---
 term: Premium
 
+definition:
 ---
 Ein zusätzlicher Betrag, der über dem Standard- oder Nominalpreis eines Vermögenswerts liegt. Im Zusammenhang mit Bitcoin kann ein Aufschlag bei Käufen beobachtet werden, insbesondere auf Börsenplattformen, die diese Technik manchmal nutzen, um ihre Margen auf den Vermittlungsdienst zu erhöhen.
 

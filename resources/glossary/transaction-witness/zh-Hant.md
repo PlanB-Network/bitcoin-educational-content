@@ -1,5 +1,6 @@
 ---
 term: 交易見證
+definition:
 ---
 
 指 Bitcoin 交易的一個組成部分，隨著 SegWit Soft Fork 移動到 Address 的交易延展性問題。見證人包含解鎖交易中使用的比特幣所需的簽名和公開密鑰。在傳統交易中，見證人代表所有輸入的 `scriptSig` 總和。在 SegWit 交易中，見證人代表每個輸入的 `scriptWitness` 總和，這部分的交易現在被移到區塊內獨立的 Merkle Tree 中。

@@ -1,5 +1,6 @@
 ---
 term: Muamala wa kawaida
+definition:
 ---
 
 Muamala wa Bitcoin ambao, pamoja na kuzingatia sheria za maafikiano, pia unaangukia ndani ya sheria za kusanifisha zilizowekwa kwa chaguomsingi kwenye nodi za Msingi za Bitcoin. Sheria hizi za usanifishaji zinawekwa kibinafsi na kila nodi ya Bitcoin, pamoja na sheria za makubaliano, ili kufafanua muundo wa shughuli ambazo hazijathibitishwa inakubali katika Mempool yake na matangazo kwa wenzao.

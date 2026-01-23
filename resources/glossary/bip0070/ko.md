@@ -1,5 +1,6 @@
 ---
 term: BIP0070
+definition:
 ---
 
 Bitcoin용 대화형 결제 프로토콜입니다.

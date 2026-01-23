@@ -1,6 +1,7 @@
 ---
 term: Magic network
 
+definition:
 ---
 Konstanten, die im Bitcoin-Protokoll verwendet werden, um das spezifische Netzwerk (mainnet, testnet, regtest...) einer zwischen Knoten ausgetauschten Nachricht zu identifizieren. Diese Werte werden am Anfang jeder Nachricht eingefügt, um ihre Identifizierung im Datenstrom zu erleichtern. Magic Networks sind so konzipiert, dass sie in normalen Kommunikationsdaten nur selten vorkommen. In der Tat sind diese 4 Bytes in ASCII selten, in UTF-8 ungültig und erzeugen eine sehr große 32-Bit-Ganzzahl, unabhängig vom Datenspeicherformat. Die Magic Networks sind (im Little-Endian-Format):
 

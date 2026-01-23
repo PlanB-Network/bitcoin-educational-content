@@ -1,5 +1,6 @@
 ---
 term: BIP0021
+definition:
 ---
 
 Proposal written by Nils Schneider and Matt Corallo, based on BIP20 written by Luke Dashjr, which itself was derived from another document written by Nils Schneider. 

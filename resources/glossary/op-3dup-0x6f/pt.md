@@ -1,6 +1,7 @@
 ---
 term: OP_3DUP (0X6F)
 
+definition:
 ---
 Duplica os três primeiros elementos da pilha e, em seguida, coloca-os no topo da pilha. Por exemplo, se a pilha for:
 

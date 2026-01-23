@@ -1,5 +1,6 @@
 ---
 term: Payjoin
+definition:
 ---
 
 Muundo mahususi wa muamala wa Bitcoin unaoboresha faragha ya mtumiaji wakati wa matumizi kwa kushirikiana na mpokeaji malipo. Upekee wa PayJoin upo katika uwezo wake wa generate muamala ambao unaonekana kuwa wa kawaida mwanzoni lakini kwa kweli ni CoinJoin ndogo kati ya pande mbili. Kwa hili, muundo wa muamala unahusisha mpokeaji malipo katika pembejeo pamoja na mtumaji halisi. Kwa hivyo, mpokeaji hujumuisha malipo kwao wenyewe katikati ya shughuli ambayo inaruhusu kulipwa. Kwa mfano, ukinunua baguette kwa `6,000 Sats` ukitumia UTXO ya `10,000 Sats`, na ukichagua PayJoin, mwokaji mikate ataongeza UTXO ya `15,000 Sats` inayomilikiwa naye kama nyenzo ya kuingiza, ambayo wataipata kamili kama nyongeza ya 6,00 hadi `6,00 hadi` yako.

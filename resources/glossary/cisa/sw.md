@@ -1,5 +1,6 @@
 ---
 term: CISA
+definition:
 ---
 
 Kifupi cha "Ujumlisho wa Sahihi ya Ingizo Mtambuka". Hili ni pendekezo la kiufundi lililoundwa ili kuboresha ukubwa wa miamala ya Bitcoin kwa kupunguza idadi ya sahihi zinazohitajika ili kuzithibitisha.

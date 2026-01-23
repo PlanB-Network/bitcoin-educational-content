@@ -1,6 +1,7 @@
 ---
 term: OP_2SWAP (0X72)
 
+definition:
 ---
 Bytter ut de to elementene øverst i stakken med de to elementene rett under dem. For eksempel, hvis stakken er:
 

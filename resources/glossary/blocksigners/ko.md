@@ -1,5 +1,6 @@
 ---
 term: 블록 서명자
+definition:
 ---
 
 Liquid(Bitcoin Sidechain)의 맥락에서 블록 서명자는 네트워크에서 블록을 구성하고 검증하는 주체를 말합니다.

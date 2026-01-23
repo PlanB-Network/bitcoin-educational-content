@@ -1,5 +1,6 @@
 ---
 term: Opłaty transakcyjne
+definition:
 ---
 
 Opłaty transakcyjne stanowią sumę, która ma na celu zrekompensowanie górnikom ich udziału w mechanizmie Proof of Work. Opłaty te zachęcają górników do uwzględniania transakcji w tworzonych przez nich blokach. Wynikają one z różnicy między całkowitą ilością danych wejściowych a całkowitą ilością danych wyjściowych w transakcji:

@@ -1,5 +1,6 @@
 ---
 term: Policy (miniscript)
+definition:
 ---
 
 Ururimi rwo ku rwego rwo hejuru, rushingiye ku bakoresha rwemerera gusobanura mu buryo bworoshe ivyangombwa UTXO ishobora gufungurwa mu rwego rwa Miniscript. Iryo tegeko ni insobanuro y’ibintu bitaboneka y’amategeko agenga ivy’ugukoresha amahera. Ishobora rero gukoranirizwa hamwe mu nyandiko ntoyi, ariyo ingana n'imwe ku yindi n'ibikorwa biva mu rurimi rw'inyandiko kavukire rwa Bitcoin.

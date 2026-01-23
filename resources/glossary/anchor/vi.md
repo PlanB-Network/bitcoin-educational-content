@@ -1,5 +1,6 @@
 ---
 term: Anchor
+definition:
 ---
 
 Trong giao thức RGB, Anchor biểu diễn một tập hợp dữ liệu phía máy khách được sử dụng để chứng minh việc đưa một Commitment duy nhất vào một giao dịch. Trong giao thức RGB, Anchor bao gồm Elements sau:

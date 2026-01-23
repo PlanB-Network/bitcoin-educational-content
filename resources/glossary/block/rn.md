@@ -1,6 +1,7 @@
 ---
 term: Icitunza
 
+definition:
 ---
 
 Uburyo bw’amakuru muri sisitemu ya Bitcoin. Igipande kirimwo urutonde rw'ibikorwa vy'ukuri hamwe n'amakuru y'imbere abitswe mu mutwe waco. Buri block ihuzwa n’iyibanjirije mu gushiramwo hash y’umutwe w’iyibanjirije, igahingura blockchain.

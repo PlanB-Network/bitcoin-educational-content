@@ -1,6 +1,7 @@
 ---
 term: Khóa bí mật
 
+definition:
 ---
 A private key is a fundamental element of asymmetric cryptography. It is a number (256 bits in the context of Bitcoin) that represents a cryptographic secret. This key is used to digitally sign transactions and prove the ownership of a Bitcoin public key (and by extension, a receiving address) by satisfying a `scriptPubKey`. Therefore, private keys allow spending bitcoins by unlocking the UTXOs associated with the corresponding public key. Private keys must be kept strictly confidential, as their disclosure could enable malicious third parties to take control of the associated funds.
 

@@ -1,5 +1,6 @@
 ---
 term: BIP0123
+definition:
 ---
 
 Huanzisha mchakato mpya sanifu wa uainishaji wa mapendekezo ya kuboresha Bitcoin. BIPs sasa lazima ziainishwe katika kategoria 4:

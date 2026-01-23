@@ -1,5 +1,6 @@
 ---
 term: BIP
+definition:
 ---
 
 Inyuguti y'inyongera y'"Iciyumviro co guteza imbere Bitcoin." Iciyumviro co guteza imbere Bitcoin (BIP) ni uburyo butegekanijwe bwo gutanga no kwandika ivyo gutegura no guhindura amasezerano ya Bitcoin n’ingingo zayo. Kubera ko Bitcoin ata bubasha buhambaye ifise bwo gufata ingingo ku bijanye n’ivyo guhindura, BIPs ireka abarundi bagatanga ivyiyumviro, baganira, bagashira mu ngiro ivyo guhindura mu buryo butunganye kandi buboneye.

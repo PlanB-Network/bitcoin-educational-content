@@ -1,5 +1,6 @@
 ---
 term: BIP0090
+definition:
 ---
 
 BIP90 proposes simplifying the activation of previous soft forks by replacing miner signaling via block version numbers with simple block height checks. 

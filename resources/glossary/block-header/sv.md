@@ -1,5 +1,6 @@
 ---
 term: Blockhuvud
+definition:
 ---
 
 Blockhuvudet är en datastruktur som fungerar som huvudkomponent i konstruktionen av ett Bitcoin-block. Varje block består av en header och en lista med transaktioner. Blockhuvudet innehåller viktig information som säkerställer integriteten och giltigheten för ett block inom Blockchain. Blockhuvudet innehåller 80 byte metadata och består av följande Elements:

@@ -1,6 +1,7 @@
 ---
 term: BIP0173
 
+definition:
 ---
 Kehtestati bech32 aadressiformaat SegWit V0 aadresside jaoks. Seda aadressiformaati iseloomustab eesliide `bc1q`. Bech32 formaat pakub mitmeid eeliseid:
 

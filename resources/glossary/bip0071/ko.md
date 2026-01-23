@@ -1,5 +1,6 @@
 ---
 term: BIP0071
+definition:
 ---
 
 BIP70의 Bitcoin 결제 요청 메시지에 대해 RFC 2046 표준에 따라 MIME(*다목적 인터넷 메일 확장자*) 미디어 유형을 정의합니다.

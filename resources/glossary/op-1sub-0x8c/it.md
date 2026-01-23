@@ -1,5 +1,6 @@
 ---
 term: OP_1SUB (0X8C)
 
+definition:
 ---
 Sottrae `1' dal valore in cima alla pila.

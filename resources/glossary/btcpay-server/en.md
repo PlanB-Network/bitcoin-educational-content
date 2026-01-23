@@ -1,5 +1,6 @@
 ---
 term: BTCPay Server
+definition:
 ---
 
 BTCPay Server is an open-source payment processor that enables merchants and users to accept Bitcoin payments without relying on a third party for transaction processing. 

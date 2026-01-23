@@ -1,5 +1,6 @@
 ---
 term: BIP0380
+definition:
 ---
 
 BIP380 itanga ururimi rusanzwe rwo kudondora amakoraniro y’inyandiko zisohoka zikoreshwa mu bikoresho vya HD Bitcoin, zizwi nka “Ibidondora Inyandiko z’Isohoka.”

@@ -1,5 +1,6 @@
 ---
 term: BIP0173
+definition:
 ---
 
 Tumeanzisha umbizo la bech32 Address la anwani za SegWit V0. Umbizo hili la Address lina sifa ya kiambishi awali `bc1q`. Fomati ya bech32 inatoa faida kadhaa:

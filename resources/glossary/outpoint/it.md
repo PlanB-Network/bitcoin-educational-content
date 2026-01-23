@@ -1,6 +1,7 @@
 ---
 term: Outpoint
 
+definition:
 ---
 Riferimento univoco a un'uscita di transazione non spesa (UTXO). Si compone di due elementi:
 

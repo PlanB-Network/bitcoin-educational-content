@@ -1,5 +1,6 @@
 ---
 term: SECP256R1
+definition:
 ---
 
 Ime dato eliptičnoj krivi definisanoj NIST standardom za kriptografiju javnog ključa. Koristi prostorno polje od 256 bita i jednačinu eliptične krive $y^2 = x^3 + ax + b$ sa konstantama:

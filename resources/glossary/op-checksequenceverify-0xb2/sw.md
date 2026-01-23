@@ -1,5 +1,6 @@
 ---
 term: OP_CHECKSEQUENCEVERIFY (0XB2)
+definition:
 ---
 
 Hufanya muamala kuwa batili ikiwa mojawapo ya sifa hizi itazingatiwa:

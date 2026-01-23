@@ -1,6 +1,7 @@
 ---
 term: Slepý podpis
 
+definition:
 ---
 Chaumovy slepé podpisy jsou formou digitálního podpisu, kdy vystavitel podpisu nezná obsah podepisované zprávy. Podpis však lze později ověřit pomocí původní zprávy. Tuto techniku vyvinul v roce 1983 kryptograf David Chaum.
 

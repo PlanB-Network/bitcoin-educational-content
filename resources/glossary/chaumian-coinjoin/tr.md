@@ -1,5 +1,6 @@
 ---
 term: Chaumian coinjoin
+definition:
 ---
 
 Katılımcılar ve koordinatörün sunucusu arasındaki iletişim için David Chaum'un kör imzalarını ve Tor'u kullanan bir CoinJoin protokolü. Chaumian CoinJoin'in amacı katılımcılara koordinatörün bitcoinleri çalamayacağını ya da girdi ve çıktıları birbirine bağlayamayacağını garanti etmektir.

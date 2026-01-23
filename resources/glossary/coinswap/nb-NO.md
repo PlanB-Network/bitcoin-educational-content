@@ -1,5 +1,6 @@
 ---
 term: Coinswap
+definition:
 ---
 
 Protokoll for hemmelig overføring av Ownership mellom brukere. Denne metoden tar sikte på å overføre besittelse av bitcoins fra en person til en annen, og omvendt, uten at denne Exchange er eksplisitt synlig på Blockchain. Coinwap bruker smartkontrakter for å foreta overføringen uten behov for tillit mellom partene.

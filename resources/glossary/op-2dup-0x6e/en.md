@@ -1,5 +1,6 @@
 ---
 term: OP_2DUP (0X6E)
+definition:
 ---
 
 Duplicates the two top elements of the stack, then places them on top of the stack. For example, if the stack is:

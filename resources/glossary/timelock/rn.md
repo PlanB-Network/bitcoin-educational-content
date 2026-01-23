@@ -1,6 +1,7 @@
 ---
 term: Timelock
 
+definition:
 ---
 
 Igikoresho c’amasezerano y’ubwenge gishobora gushinga ivyangombwa bishingiye ku gihe bitegerezwa gushitswako kugira ngo igikorwa co kwongerwa ku gice. Hari ubwoko bubiri bw'ibifungurwa vy'igihe kuri Bitcoin:

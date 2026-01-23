@@ -1,5 +1,6 @@
 ---
 term: Ham işlem
+definition:
 ---
 
 Oluşturulmuş ve imzalanmış, ikili formunda mevcut olan bir Bitcoin işlemi. Ham bir işlem (*raw TX*), bir işlemin ağda yayınlanmadan hemen önceki son temsilidir. Bu işlem, bir bloğa dahil edilmesi için gerekli tüm bilgileri içerir:

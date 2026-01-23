@@ -1,6 +1,7 @@
 ---
 term: Vanskelighetsmål
 
+definition:
 ---
 Vanskelighetsfaktoren, også kjent som vanskelighetsmålet, er en parameter som brukes i konsensusmekanismen ved proof of work (Proof of Work, PoW) på Bitcoin. Målet representerer en numerisk verdi som bestemmer hvor vanskelig det er for utvinnere å løse et spesifikt kryptografisk problem, kalt proof of work, når de oppretter en ny blokk på blokkjeden.
 

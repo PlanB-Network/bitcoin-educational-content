@@ -1,5 +1,6 @@
 ---
 term: Etiketleme
+definition:
 ---
 
 Bir Bitcoin Wallet'deki belirli bir UTXO'ye bir açıklama veya etiket atama uygulaması. Örneğin, Charles ile Bisq üzerinden yapılan bir P2P satın alımından bir UTXO'ye sahipsem, bunu "`KYC Olmayan Bisq Charles`" olarak etiketleyebilirim.

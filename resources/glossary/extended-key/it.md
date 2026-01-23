@@ -1,6 +1,7 @@
 ---
 term: Chiave estesa
 
+definition:
 ---
 Una sequenza di caratteri che combina una chiave (pubblica o privata), il codice di catena associato e una serie di metadati. Una chiave estesa riunisce in un unico identificatore tutti gli elementi necessari per la derivazione delle chiavi figlio. Sono utilizzate nei portafogli deterministici e gerarchici e possono essere di due tipi: una chiave pubblica estesa (utilizzata per derivare le chiavi pubbliche dei figli) o una chiave privata estesa (utilizzata per derivare le chiavi private e pubbliche dei figli). Una chiave estesa comprende quindi diversi dati, descritti nel BIP32, nell'ordine:
 

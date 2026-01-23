@@ -1,4 +1,5 @@
 ---
 term: OP_1ADD (0X8B)
+definition:
 ---
 スタックの一番上の値に `1` を加える。

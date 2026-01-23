@@ -1,5 +1,6 @@
 ---
 term: BIP0322
+definition:
 ---
 
 Itanga ingingo nshasha yo gusubirira BIP137 yo gusinya ubutumwa n'imfunguruzo z'ibanga za Bitcoin n'amaderesi yazo, kugira ngo yemeze Address Ownership. Ivyo bimenyetso birakenewe ku bikorwa bitandukanye nk’ibimenyamenya vy’amahera, igenzura, n’ibindi bisaba kwemeza ko Address ari umunyakuri biciye ku rufunguzo rwayo rw’ibanga.

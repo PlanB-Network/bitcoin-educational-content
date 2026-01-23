@@ -1,5 +1,6 @@
 ---
 term: OP_CHECKLOCKTIMEVERIFY (0XB1)
+definition:
 ---
 
 Tüm bu koşullar karşılanmadığı sürece işlemi geçersiz kılar:

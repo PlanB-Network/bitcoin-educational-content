@@ -1,5 +1,6 @@
 ---
 term: BIP0001
+definition:
 ---
 
 Document dat het proces definieert voor het ontwikkelen en implementeren van voorgestelde verbeteringen aan het Bitcoin protocol. Het is geschreven door Amir Taaki in augustus 2011 en stelt een standaard methodologie vast voor het voorstellen en documenteren van mogelijke wijzigingen. BIP-voorstellen worden vervolgens ingedeeld in drie categorieën:

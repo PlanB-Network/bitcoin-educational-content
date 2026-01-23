@@ -1,6 +1,7 @@
 ---
 term: OP_2SWAP (0X72)
 
+definition:
 ---
 Scambia i due elementi in cima alla pila con i due elementi immediatamente sotto. Ad esempio, se la pila è:
 

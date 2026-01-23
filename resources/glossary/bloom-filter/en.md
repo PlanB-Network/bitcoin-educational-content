@@ -1,5 +1,6 @@
 ---
 term: Bloom filter
+definition:
 ---
 
 A Bloom filter is a probabilistic data structure used to test whether an element is a member of a set. 

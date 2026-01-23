@@ -1,5 +1,6 @@
 ---
 term: YPUB
+definition:
 ---
 
 Bitcoin पर नेस्टेड SegWit खातों के लिए विस्तारित सार्वजनिक कुंजी उपसर्ग।

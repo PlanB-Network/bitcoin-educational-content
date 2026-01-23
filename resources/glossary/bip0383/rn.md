@@ -1,5 +1,6 @@
 ---
 term: BIP0383
+definition:
 ---
 
 Itangaza ibikorwa `vyinshi(UMUBARE, URUPFUZO, ..., URUPFUZO)` na `vyinshi vyatoranijwe(UMUBARE, URUPFUZO, ..., URUPFUZO)` ku bisobanuro. Ivyo bikorwa bidondora inyandiko z'imikono myinshi, na `sortedmulti` zituma zihuza mu gutoranya imfunguruzo za bose mu buryo bw'inkoranyabumenyi mu gihe co kwinjiza.

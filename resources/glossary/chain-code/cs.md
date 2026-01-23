@@ -1,6 +1,7 @@
 ---
 term: Chain code
 
+definition:
 ---
 V kontextu hierarchické deterministické (HD) derivace peněženek Bitcoin je řetězový kód 256bitová kryptografická hodnota soli, která se podle standardu BIP32 používá ke generování podřízených klíčů z klíče nadřazeného. Řetězový kód se používá v kombinaci s rodičovským klíčem a indexem dítěte k deterministickému generování nového páru klíčů (soukromého a veřejného klíče), aniž by byl odhalen rodičovský klíč nebo jiné odvozené dětské klíče.
 

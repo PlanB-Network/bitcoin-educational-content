@@ -1,6 +1,7 @@
 ---
 term: OP_CHECKSEQUENCEVERIFY (0XB2)
 
+definition:
 ---
 Tekee tapahtuman mitättömäksi, jos jokin näistä ominaisuuksista havaitaan:
 

@@ -1,5 +1,6 @@
 ---
 term: BIP0118
+definition:
 ---
 
 두 가지 새로운 시그해시 플래그 수정자, `SIGHASH_ANYPREVOUT`과 `SIGHASH_ANYPREVOUTANYSCRIPT`를 도입하는 제안서입니다.

@@ -1,5 +1,6 @@
 ---
 term: Varijansa
+definition:
 ---
 
 U Mining, ovo se odnosi na fluktuacije u prihodima Miner zbog probabilističke prirode pronalaženja validnih blokova. Čak i uz konstantnu računarsku snagu, vreme potrebno za pronalaženje bloka može značajno varirati. Kao rezultat toga, rudari mogu prolaziti kroz duge periode bez primanja bilo kakvih nagrada, praćene periodima visokih zarada.

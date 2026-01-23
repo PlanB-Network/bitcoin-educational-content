@@ -1,6 +1,7 @@
 ---
 term: Transaction witness
 
+definition:
 ---
 Si riferisce a un componente delle transazioni Bitcoin che è stato spostato con il soft fork SegWit per risolvere il problema della malleabilità delle transazioni. Il testimone contiene le firme e le chiavi pubbliche necessarie per sbloccare i bitcoin spesi in una transazione. Nelle transazioni Legacy, il testimone rappresentava la somma di `scriptSig` di tutti gli input. Nelle transazioni SegWit, il testimone rappresenta la somma di `scriptWitness` per ogni input, e questa parte della transazione è ora spostata in un Merkle tree separato all'interno del blocco.
 

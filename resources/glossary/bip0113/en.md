@@ -1,5 +1,6 @@
 ---
 term: BIP0113
+definition:
 ---
 
 Introduced a change in how all timelock operations (`nLockTime`, `OP_CHECKLOCKTIMEVERIFY`, `nSequence`, and `OP_CHECKSEQUENCEVERIFY`) are evaluated. 

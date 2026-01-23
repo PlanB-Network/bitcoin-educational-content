@@ -1,6 +1,7 @@
 ---
 term: Byzantská chyba
 
+definition:
 ---
 Byzantní selhání nebo byzantní chování označuje jakékoliv chování systému, které není v souladu s jeho vlastními specifikacemi a vede k neshodným výsledkům.
 

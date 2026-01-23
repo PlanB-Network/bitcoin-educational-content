@@ -1,6 +1,7 @@
 ---
 term: Segwit
 
+definition:
 ---
 SegWit, singkatan dari "_Segregated Witness_", yang merupakan sebuah pembaruan protokol Bitcoin yang diperkenalkan pada bulan Agustus 2017. Pembaruan ini bertujuan untuk menyelesaikan beberapa masalah teknis, termasuk masalah kapasitas transaksi jaringan, masalah maleabilitas transaksi, dan memfasilitasi modifikasi protokol di masa depan.
 

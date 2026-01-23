@@ -1,5 +1,6 @@
 ---
 term: BIP0150
+definition:
 ---
 
 BIP150은 보안을 개선하고 노드 Ownership을 검증하기 위해 Bitcoin 네트워크에 피어 인증 메커니즘을 제안합니다.

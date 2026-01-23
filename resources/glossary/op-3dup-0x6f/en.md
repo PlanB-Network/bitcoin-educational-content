@@ -1,5 +1,6 @@
 ---
 term: OP_3DUP (0X6F)
+definition:
 ---
 
 Duplicates the top three elements of the stack, then places them on top of the stack. For example, if the stack is:

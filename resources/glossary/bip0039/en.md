@@ -1,5 +1,6 @@
 ---
 term: BIP0039
+definition:
 ---
 
 BIP39 introduces a method to convert a wallet's random seed into a sequence of easy-to-remember, human-readable words known as a mnemonic phrase. 

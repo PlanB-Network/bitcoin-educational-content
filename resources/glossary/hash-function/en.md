@@ -1,5 +1,6 @@
 ---
 term: Hash function
+definition:
 ---
 
 A mathematical function that takes a variable-size input (called a message) and produces a fixed-size output (called hash, hashing, digest, or fingerprint). Hash functions are widely used primitives in cryptography. They exhibit specific properties that make them suitable for use in secure contexts:

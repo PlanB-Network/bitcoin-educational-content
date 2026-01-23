@@ -1,5 +1,6 @@
 ---
 term: Commitment
+definition:
 ---
 
 Ein Commitment (im kryptographischen Sinne) ist ein mathematisches Objekt, bezeichnet mit $C$, das deterministisch aus einer Operation auf strukturierten Daten $m$ (der Nachricht) und einem Zufallswert $r$ abgeleitet wird. Wir schreiben :

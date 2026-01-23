@@ -1,6 +1,7 @@
 ---
 term: Blok basi
 
+definition:
 ---
 Mengacu pada sebuah blok tanpa anak: sebuah blok yang valid, tetapi tidak termasuk dalam rantai Bitcoin utama. Hal ini terjadi ketika dua penambang menemukan sebuah blok yang valid pada ketinggian rantai yang sama dalam waktu yang singkat dan mengumumkan melalui jaringan Bitcoin. Node pada akhirnya hanya memilih satu blok untuk dimasukkan ke dalam rantai, sesuai dengan prinsip rantai dengan akumulasi pekerjaan yang paling banyak, membuat blok yang lain menjadi "usang" (_obsolete_). Proses yang mengarah pada produksi sebuah blok usang adalah sebagai berikut:
 

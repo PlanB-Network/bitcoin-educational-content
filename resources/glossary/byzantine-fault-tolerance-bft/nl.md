@@ -1,5 +1,6 @@
 ---
 term: Byzantine fault tolerance (BFT)
+definition:
 ---
 
 Een concept dat wordt gebruikt in gedistribueerde systemen om een betrouwbare en veilige consensus te garanderen, zelfs in de aanwezigheid van defecte of kwaadaardige knooppunten.

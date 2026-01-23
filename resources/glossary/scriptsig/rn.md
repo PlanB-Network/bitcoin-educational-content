@@ -1,5 +1,6 @@
 ---
 term: Scriptsig
+definition:
 ---
 
 Ikintu kiri mu gucuruza Bitcoin kiri mu vyinjizwa. `scriptSig` itanga amakuru akenewe kugira ngo yuzuze ivyangombwa vyashizweho na `scriptPubKey` y'ibikorwa vya kera amafaranga ariko arakoreshwa. Gutyo irafise uruhara rwo kwuzuza `scriptPubKey`. Mu bisanzwe, `scriptSig` irimwo umukono wa digitale n'urufunguzo rwa bose. Iryo sinya rikorwa na nyen’ama bitcoins akoresheje urufunguzo rwiwe rw’ibanga kandi ryerekana ko bafise uburenganzira bwo gukoresha UTXO. Muri iki gihe, `scriptSig` yerekana ko uwufise inyungu afise urufunguzo rwihariye rujanye n'urufunguzo rwa bose rujanye n'urufunguzo rwa Address rwavuzwe muri `scriptPubKey` y'isoko ry'imbere ry'isohoka.

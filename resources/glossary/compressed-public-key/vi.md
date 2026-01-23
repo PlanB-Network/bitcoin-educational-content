@@ -1,6 +1,7 @@
 ---
 term: Khóa công khai nén
 
+definition:
 ---
 A public key is used in scripts (either directly in the form of a public key or as an address) to receive and secure bitcoins. A raw public key is represented by a point on an elliptical curve, consisting of two coordinates (`x, y`) each of 256 bits. In raw format, a public key therefore measures 512 bits, not counting the additional byte to identify the format. A compressed public key, on the other hand, is a more compact form of public key representation. It uses only the `x` coordinate and a prefix (`02` or `03`) which indicates the parity of the `y` coordinate (even or odd).
 

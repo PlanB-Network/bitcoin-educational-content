@@ -1,5 +1,6 @@
 ---
 term: Erlay
+definition:
 ---
 
 Föreslaget nätverksprotokoll för att förbättra effektiviteten i att vidarebefordra obekräftade transaktioner mellan Bitcoin-noder.

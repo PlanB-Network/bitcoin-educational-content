@@ -1,5 +1,6 @@
 ---
 term: HASH256
+definition:
 ---
 
 Ibikorwa vy'ubuhinga bwa none bikoreshwa mu bikorwa bitandukanye kuri Bitcoin. Birimwo gukoresha igikorwa ca SHA256 incuro zibiri ku makuru yinjijwe. Ubutumwa buraca muri SHA256 rimwe, kandi igisubizo c'iyi nzira gikoreshwa nk'inyungu y'ubwa kabiri buca muri SHA256. Igisohoka c’iyi nzira rero ni 256 bits.

@@ -1,5 +1,6 @@
 ---
 term: Çatallanma (Fork)
+definition:
 ---
 
 "Fork" teriminin Bitcoin bağlamında çeşitli anlamları vardır. Birden fazla farklı blok zincirinin oluşturulmasına yol açacak şekilde düğüm ağının birkaç ayrı gruba bölünmesi veya protokol kurallarının değiştirilmesi ya da her ikisinin aynı anda yapılması anlamına gelebilir. Basitleştirmek gerekirse, 4 ana çatal kategorisini ayırt edebiliriz:

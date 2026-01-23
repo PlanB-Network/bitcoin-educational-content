@@ -1,5 +1,6 @@
 ---
 term: Anchor
+definition:
 ---
 
 Mu masezerano ya RGB, Anchor igereranya amakuru y’uruhande rw’umukiriya akoreshwa mu kwemeza ko Commitment imwe gusa irimwo mu gucuruza. Mu masezerano ya RGB, Anchor igizwe n’iyi Elements ikurikira:

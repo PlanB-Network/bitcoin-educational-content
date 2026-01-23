@@ -1,5 +1,6 @@
 ---
 term: BIP0141
+definition:
 ---
 
 BIP141은 분리된 증인(SegWit)이라는 개념을 도입하여 SegWit Soft Fork에 그 이름을 붙였습니다.

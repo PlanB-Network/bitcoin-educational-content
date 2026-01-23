@@ -1,6 +1,7 @@
 ---
 term: OP_3DUP (0X6F)
 
+definition:
 ---
 Dupliserer de tre øverste elementene i bunken, og plasserer dem deretter på toppen av bunken. For eksempel, hvis bunken er:
 

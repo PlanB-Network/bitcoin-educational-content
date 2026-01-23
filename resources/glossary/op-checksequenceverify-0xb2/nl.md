@@ -1,5 +1,6 @@
 ---
 term: OP_CHECKSEQUENCEVERIFY (0XB2)
+definition:
 ---
 
 Maakt de transactie ongeldig als een van deze kenmerken wordt waargenomen:

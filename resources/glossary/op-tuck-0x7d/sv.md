@@ -1,5 +1,6 @@
 ---
 term: OP_TUCK (0X7D)
+definition:
 ---
 
 Kopierar objektet högst upp i stacken och infogar det mellan det andra och tredje objektet i stacken. Till exempel, om stacken är:

@@ -1,6 +1,7 @@
 ---
 term: Nonce
 
+definition:
 ---
 V kontextu výpočetní techniky označuje pojem "nonce" číslo, které se použije pouze jednou a poté se nahradí. Často je náhodné nebo pseudonáhodné. Nonces se používají v různých kryptografických protokolech k zajištění bezpečnosti procesu. Například podpisy ECDSA používané v rámci protokolu Bitcoin zahrnují použití nonce. To znamená, že toto číslo musí být pro každý podpis nové. Pokud tomu tak není, je možné vypočítat použitý soukromý klíč porovnáním dvou podpisů, které používají stejnou nonce.
 

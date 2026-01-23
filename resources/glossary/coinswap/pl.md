@@ -1,5 +1,6 @@
 ---
 term: Coinswap
+definition:
 ---
 
 Protokół tajnego transferu Ownership między użytkownikami. Metoda ta ma na celu przeniesienie posiadania bitcoinów z jednej osoby na drugą i odwrotnie, bez widoczności Exchange na Blockchain. Coinwap wykorzystuje inteligentne kontrakty do dokonywania transferu bez potrzeby zaufania między stronami.

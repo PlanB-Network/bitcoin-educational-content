@@ -1,5 +1,6 @@
 ---
 term: Bilateral anchoring
+definition:
 ---
 
 A mechanism that establishes a connection between the main Bitcoin system and a sidechain (or a drivechain). Bilateral anchoring (commonly referred to as a two-way peg or 2WP) ensures a fixed value correlation between bitcoins on the main blockchain and the corresponding assets on the sidechain, enabling bitcoins to move between the two chains. 

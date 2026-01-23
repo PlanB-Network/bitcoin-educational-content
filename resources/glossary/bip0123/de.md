@@ -1,6 +1,7 @@
 ---
 term: BIP0123
 
+definition:
 ---
 Führt ein neues standardisiertes Verfahren für die Klassifizierung von Bitcoin-Verbesserungsvorschlägen ein. BIPs müssen nun in 4 Kategorien klassifiziert werden:
 

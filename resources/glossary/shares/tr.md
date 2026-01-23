@@ -1,5 +1,6 @@
 ---
 term: Paylar (shares)
+definition:
 ---
 
 Mining havuzları bağlamında pay, bireysel bir Miner'nin havuz içindeki katkısını ölçmek için kullanılan bir göstergedir. Bu ölçü, havuzun her bir Miner'ye yeniden dağıttığı ödülün hesaplanmasında temel teşkil eder. Her bir pay, Bitcoin ağınınkinden daha düşük bir zorluk hedefini karşılayan bir Hash'e karşılık gelir.

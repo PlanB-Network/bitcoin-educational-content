@@ -1,6 +1,7 @@
 ---
 term: Otisk peněženky
 
+definition:
 ---
 Soubor charakteristických znaků pozorovatelných u transakcí provedených stejnou peněženkou Bitcoin. Tyto charakteristiky mohou zahrnovat podobnosti v použití typů skriptů, opakovaném použití adres, pořadí UTXO, umístění výstupů změn, signalizaci RBF (*Replace-by-Fee*), číslo verze, pole `nSequence` a pole `nLockTime`.
 

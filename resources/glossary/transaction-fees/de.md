@@ -1,6 +1,7 @@
 ---
 term: Transaktionsgebühren
 
+definition:
 ---
 Transaktionsgebühren sind ein Betrag, der die Miner für ihre Teilnahme am Proof-of-Work-Mechanismus entschädigen soll. Diese Gebühren sind ein Anreiz für die Miner, Transaktionen in die von ihnen erstellten Blöcke aufzunehmen. Sie ergeben sich aus der Differenz zwischen dem Gesamtbetrag der Inputs und dem Gesamtbetrag der Outputs in einer Transaktion:
 

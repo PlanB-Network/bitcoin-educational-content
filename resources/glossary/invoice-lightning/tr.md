@@ -1,5 +1,6 @@
 ---
 term: Lightning faturası
+definition:
 ---
 
 Alıcı tarafından oluşturulan ve işlemi tamamlamak için gereken tüm bilgileri içeren yıldırım ödeme talebi.

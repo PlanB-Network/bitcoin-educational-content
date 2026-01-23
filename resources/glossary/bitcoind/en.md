@@ -1,5 +1,6 @@
 ---
 term: bitcoind
+definition:
 ---
 
 Acronym for "*Bitcoin Daemon*". 

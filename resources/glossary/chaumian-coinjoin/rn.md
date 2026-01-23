@@ -1,5 +1,6 @@
 ---
 term: Chaumian coinjoin
+definition:
 ---
 
 Itegeko rya CoinJoin rikoresha imikono y’impumyi ya David Chaum na Tor ku bijanye n’uguhanahana amakuru hagati y’abaje mu nama n’umuhuzabikorwa. Intumbero ya Chaumian CoinJoin ni ugutuma abaje mu nama bamenya neza ko umuhuzabikorwa adashobora kwiba ama bitcoins, canke ngo ahuze ivyo yinjiza n’ivyo asohoka.

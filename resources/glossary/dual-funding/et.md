@@ -1,5 +1,6 @@
 ---
 term: Dual funding
+definition:
 ---
 
 Kui Lightning-kanal avatakse, võimaldab topeltrahastamine mõlemal osalejal bitcoinid kanalisse lukustada. Erinevalt traditsioonilisest mudelist, kus ainult üks sõlmpunkt rahastab kanalit, võimaldab see meetod mõlemal osapoolel seda rahastada, võimaldades kohese likviidsuse tasakaalustamise.

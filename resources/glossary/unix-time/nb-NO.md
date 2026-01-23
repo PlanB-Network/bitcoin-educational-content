@@ -1,6 +1,7 @@
 ---
 term: Unix-tid
 
+definition:
 ---
 Unix Time eller Unix Timestamp representerer antall sekunder som har gått siden 1. januar 1970, ved midnatt UTC (Unix Epoch). Dette systemet brukes i Unix-operativsystemer og -derivater for å markere tid på en universell og standardisert måte. Det gjør det mulig å synkronisere klokker og administrere tidsbaserte hendelser, uavhengig av tidssoner.
 

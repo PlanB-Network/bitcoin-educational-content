@@ -1,5 +1,6 @@
 ---
 term: BIP0001
+definition:
 ---
 
 Inyandiko isobanura uburyo bwo gutegura no gushirwa mu ngiro ivyiza bivugwa mu bijanye n’amasezerano ya Bitcoin. Yanditswe na Amir Taaki muri Myandagaro 2011, ishiraho uburyo busanzwe bwo gutanga no kwandika ivyoshobora guhindurwa. Ivyiyumviro vya BIP rero bica bishirwa mu mice itatu:

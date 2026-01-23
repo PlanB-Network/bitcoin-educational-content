@@ -1,5 +1,6 @@
 ---
 term: Agashimwe k'icitunza
+definition:
 ---
 
 Block reward ni umubare wose w’ama bitcoins yaronswa na Miner iyo ashoboye gucukura neza igice gifise akamaro.

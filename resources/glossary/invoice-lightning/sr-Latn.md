@@ -1,5 +1,6 @@
 ---
 term: Invoice lightning
+definition:
 ---
 
 Zahtev za Lightning plaćanje generisan od strane primaoca, koji sadrži sve informacije potrebne za završetak transakcije.

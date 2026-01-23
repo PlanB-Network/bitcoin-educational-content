@@ -1,5 +1,6 @@
 ---
 term: OP_SUCCESS
+definition:
 ---
 
 OP_SUCCESS` geçmişte devre dışı bırakılmış ve şimdi Tapscript'te gelecekte kullanılmak üzere ayrılmış bir dizi işlem kodunu temsil eder. Nihai amaçları, Soft çatalları aracılığıyla yeni işlevlerin eklenmesine izin vererek komut dosyası dilinin güncellemelerini ve uzantılarını kolaylaştırmaktır. Bir komut dosyasında bu işlem kodlarından birine rastlandığında, mevcut veri veya koşullardan bağımsız olarak komut dosyasının o bölümünün otomatik olarak başarılı olduğunu gösterir. Bu, komut dosyasının önceki işlemlerden bağımsız olarak hatasız bir şekilde yürütülmeye devam ettiği anlamına gelir.

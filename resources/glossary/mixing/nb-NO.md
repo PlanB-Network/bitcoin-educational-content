@@ -1,6 +1,7 @@
 ---
 term: Miksing
 
+definition:
 ---
 I matematikken generelt refererer blanding til egenskapen til et dynamisk system der alle deler av det opprinnelige rommet etter en viss tid teoretisk sett kan bli blandet med alle andre deler. Blanding innebærer at posisjonen til en partikkel eller tilstanden til et system utvikler seg på en slik måte at den fremtidige fordelingen er uavhengig av den opprinnelige fordelingen, slik at man når en tilstand der egenskapene til den opprinnelige tilstanden er jevnt fordelt i hele systemets rom. I forbindelse med Bitcoin kan dette begrepet brukes til å vurdere kvaliteten på en myntblandingsprosess, for eksempel en coinjoin.
 

@@ -1,6 +1,7 @@
 ---
 term: Scriptsig
 
+definition:
 ---
 Bitcoini tehingu element, mis asub sisendites. `scriptSig` annab vajalikud andmed, et täita eelmise tehingu `scriptPubKey` poolt seatud tingimusi, millest raha kulutatakse. Seega täidab see täiendavat rolli võrreldes `scriptPubKey`ga. Tavaliselt sisaldab `scriptSig` digitaalallkirja ja avalikku võtit. Allkirja genereerib bitcoinide omanik oma isikliku võtme abil ja see tõestab, et tal on luba UTXO kulutamiseks. Sellisel juhul näitab `scriptSig`, et sisendi omanikul on eelmise väljamineva tehingu `scriptPubKey`-s määratud aadressiga seotud avalikule võtmele vastav eravõti.
 

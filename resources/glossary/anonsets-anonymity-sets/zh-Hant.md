@@ -1,5 +1,6 @@
 ---
 term: 匿名集 (Anonsets)
+definition:
 ---
 Anonset 用作評估特定 UTXO 隱私程度的指標。更具體而言，它們衡量包含所研究幣的集合中不可區分的 UTXO 數量。由於需要一組相同的 UTXO，anonset 通常在 coinjoin 週期內計算。在必要時，它們可用於評估 coinjoin 的品質。較大的 anonset 意味著更高程度的匿名性，因為在集合中辨識特定的 UTXO 變得更加困難。
 

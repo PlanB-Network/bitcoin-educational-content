@@ -1,6 +1,7 @@
 ---
 term: Profundidade
 
+definition:
 ---
 No contexto das carteiras HD (Hierarchical Deterministic), a profundidade refere-se ao nível específico de uma chave (pública ou privada), um código de cadeia, uma chave alargada ou um endereço dentro da estrutura de derivação da carteira a partir da chave mestra. Cada nível desta estrutura pode ser visto como um piso numa árvore de chaves, onde a chave mestra está na raiz (profundidade 0) e os níveis subsequentes definem vários atributos, tais como:
 

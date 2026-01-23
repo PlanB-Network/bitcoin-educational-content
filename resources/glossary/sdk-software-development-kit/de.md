@@ -1,6 +1,7 @@
 ---
 term: SDK (Software Development Kit)
 
+definition:
 ---
 Eine Reihe von Software-Tools, die Entwicklern die notwendigen Ressourcen für die Erstellung von Anwendungen auf einer bestimmten Plattform zur Verfügung stellen. Ein SDK umfasst Bibliotheken, Entwicklungsleitfäden, Codebeispiele und Kompilierungsverfahren. SDKs erleichtern und beschleunigen die Entwicklung, indem sie wiederverwendbare Module anbieten. Für Bitcoin gibt es das BDK (*Bitcoin Dev Kit*) und das LDK (*Lightning Dev Kit*).
 

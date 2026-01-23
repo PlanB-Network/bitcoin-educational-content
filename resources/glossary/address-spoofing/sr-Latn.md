@@ -1,5 +1,6 @@
 ---
 term: Address spoofing
+definition:
 ---
 
 Napad u kojem zlonamerni akter kreira Address (ili drugi identifikator plaćanja) koji veoma liči na onaj žrtve. Cilj je prevariti korisnika da kopira ovaj pogrešan Address tokom transakcije, što rezultira slanjem bitkoina napadaču umesto na željenu destinaciju.

@@ -1,5 +1,6 @@
 ---
 term: OP_2SWAP (0X72)
+definition:
 ---
 
 Zameni dva Elements na vrhu steka sa dva Elements odmah ispod njih. Na primer, ako je stek:

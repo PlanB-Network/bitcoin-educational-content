@@ -1,6 +1,7 @@
 ---
 term: OP_2ROT (0X71)
 
+definition:
 ---
 Verschiebt die beiden Elemente, die sich an der sechsten und fünften Position befinden, vom oberen Ende des Stapels nach oben. Zum Beispiel, wenn der Stapel ist:
 

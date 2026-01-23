@@ -1,5 +1,6 @@
 ---
 term: SECP256R1
+definition:
 ---
 
 Jina lililopewa mkunjo wa mduara unaofafanuliwa kwa kiwango cha NIST cha usimbaji fiche wa vitufe vya umma. Inatumia sehemu kuu ya biti 256 na mlinganyo wa mviringo wa mviringo $y^2 = x^3 + ax + b$ na viambatisho:

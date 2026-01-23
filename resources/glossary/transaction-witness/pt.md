@@ -1,6 +1,7 @@
 ---
 term: Testemunha de transação
 
+definition:
 ---
 Refere-se a um componente das transacções Bitcoin que foi movido com o soft fork SegWit para resolver a questão da maleabilidade da transação. A testemunha contém as assinaturas e chaves públicas necessárias para desbloquear os bitcoins gastos em uma transação. Nas transacções Legacy, a testemunha representava a soma do `scriptSig` de todas as entradas. Nas transacções SegWit, a testemunha representa a soma de `scriptWitness` para cada entrada, e esta parte da transação é agora movida para uma árvore Merkle separada dentro do bloco.
 

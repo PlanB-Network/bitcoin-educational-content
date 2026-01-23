@@ -1,5 +1,6 @@
 ---
 term: BIP0042
+definition:
 ---
 
 Block reward Halving 일정의 사소한 버그를 수정한 Bitcoin core 개선 제안입니다. 이 버그를 수정하지 않았다면 의도했던 2100만 비트코인을 초과하는 비트코인이 생성될 수 있었습니다.

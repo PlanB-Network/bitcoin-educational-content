@@ -1,5 +1,6 @@
 ---
 term: BIP0112
+definition:
 ---
 
 Itangaza opcode `OP_SUZUMA URUTONDE GUSUZUMA` (CSV) mu rurimi rw'inyandiko Bitcoin. Iyi opcode iremesha kurema ibikorwa bifise akamaro gusa inyuma y’ugucerezwa kw’ibikorwa vya kera, bisobanurwa n’umubare w’amabuye canke n’igihe cacitse. `OP_CHECKSEQUENCEVERIFY` igereranya agaciro kari hejuru y'ikirundo n'agaciro ka `nUrukurikirane` k'inyungu.

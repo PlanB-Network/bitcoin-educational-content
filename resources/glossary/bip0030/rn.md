@@ -1,5 +1,6 @@
 ---
 term: BIP0030
+definition:
 ---
 
 Iciyumviro cashizeho Soft Fork yashizwe mu ngiro ku wa 15 Ntwarante 2012, co gutorera umuti ikibazo c’ibimenyetso vy’ibikorwa vy’ubudandaji vyisubiriza. Imbere ya BIP30, vyari bishoboka mu buryo bw’ubuhinga kugira amafaranga abiri atandukanye afise ikimenyetso kimwe c’amafaranga (txid) muri Blockchain.

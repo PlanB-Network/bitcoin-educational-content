@@ -1,5 +1,6 @@
 ---
 term: Erlay
+definition:
 ---
 
 为提高 Bitcoin 节点之间未确认交易的中继效率而提出的网络协议。

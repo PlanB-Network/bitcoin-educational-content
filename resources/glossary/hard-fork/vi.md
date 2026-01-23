@@ -1,6 +1,7 @@
 ---
 term: Hard fork
 
+definition:
 ---
 A change to the protocol rules in a way that is not backward compatible. This change leads to a permanent separation of the Bitcoin network of nodes into two distinct groups: nodes with the update and nodes without the update. This split is materialized by the division of the original blockchain into two separate blockchains, which, however, share a common history, hence the use of the term "fork," which can be translated into French as "embranchement, bifurcation."
 

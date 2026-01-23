@@ -1,6 +1,7 @@
 ---
 term: OP_CHECKSEQUENCEVERIFY (0XB2)
 
+definition:
 ---
 Transakce je neplatná, pokud je zjištěn některý z těchto znaků:
 

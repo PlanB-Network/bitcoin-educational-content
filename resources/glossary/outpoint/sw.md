@@ -1,5 +1,6 @@
 ---
 term: Outpoint
+definition:
 ---
 
 Rejeleo la kipekee la pato la muamala ambalo halijatumika (UTXO). Inajumuisha Elements mbili:

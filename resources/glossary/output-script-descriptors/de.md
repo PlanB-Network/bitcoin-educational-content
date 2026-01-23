@@ -1,6 +1,7 @@
 ---
 term: Output Script Descriptors
 
+definition:
 ---
 Ausgabeskript-Deskriptoren, oder einfach Deskriptoren, sind strukturierte Ausdrücke, die ein Ausgabeskript (`scriptPubKey`) vollständig beschreiben und alle notwendigen Informationen liefern, um Transaktionen zu oder von einem bestimmten Skript zu verfolgen. Diese Deskriptoren erleichtern die Verwaltung von Schlüsseln in HD-Wallets durch eine Standardbeschreibung der Struktur und der verwendeten Adresstypen.
 

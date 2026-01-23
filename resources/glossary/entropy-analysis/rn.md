@@ -1,5 +1,6 @@
 ---
 term: Entropy analysis
+definition:
 ---
 
 Mu bijanye n’isesengura ry’uruzitiro, entropi ni izina ry’ikigereranyo, rikomoka kuri entropi ya Shannon, yavumbuwe na LaurentMT. Ico kigereranyo kiremesha gupima ubukene bw’ubumenyi abasesangura bafise ku bijanye n’imiterere nyayo y’ugucuruza kwa Bitcoin. Mu yandi majambo, uko entropie y’ugucuruza igenda irakura, ni ko bigorana ko abasesangura bamenya ingene ama bitcoins agenda hagati y’ivyo yinjiza n’ivyo asohoka.

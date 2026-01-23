@@ -1,6 +1,7 @@
 ---
 term: Cahoots
 
+definition:
 ---
 
 Mu bijanye n’ivyo Samourai Wallet n’izindi porogarama za wallet ziyishira mu ngiro, Cahoot yerekeza ku bwoko bwose bw’ugucuruza bukorwa mu bufatanye hagati y’abakoresha benshi.

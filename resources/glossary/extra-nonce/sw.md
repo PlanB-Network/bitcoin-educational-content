@@ -1,5 +1,6 @@
 ---
 term: Extra-nonce
+definition:
 ---
 
 Sehemu inayotumika katika `scriptSig` ya Coinbase Transaction ya block, ambayo inaruhusu idadi kubwa ya uwezekano wa kujaribiwa ili kuwa na Hash chini ya lengo la ugumu, pamoja na Nonce ya kawaida, ambayo hupatikana moja kwa moja kwenye kichwa cha kila kizuizi.

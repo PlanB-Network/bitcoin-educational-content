@@ -1,5 +1,6 @@
 ---
 term: OP_TUCK (0X7D)
+definition:
 ---
 
 Hunakili kipengee kilicho juu ya rafu na kukiingiza kati ya kipengee cha pili na cha tatu cha rafu. Kwa mfano, ikiwa safu ni:

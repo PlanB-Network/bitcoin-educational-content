@@ -1,5 +1,6 @@
 ---
 term: NFT
+definition:
 ---
 
 Singkatan dari *Non-Fungible Token*. NFT mewakili unit Bitcoin yang, oleh pengguna protokol lapisan kedua, ditafsirkan sebagai _non-fungible_ dan terkait dengan kepemilikan dari aset di luar Bitcoin, seperti gambar atau jenis data lainnya.

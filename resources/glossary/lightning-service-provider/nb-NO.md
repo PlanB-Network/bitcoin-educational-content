@@ -1,5 +1,6 @@
 ---
 term: Lightning service provider
+definition:
 ---
 
 Selskap som opererer på Lightning, og som tilbyr likviditetstjenester til brukerne.

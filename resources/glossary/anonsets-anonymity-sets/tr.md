@@ -1,5 +1,6 @@
 ---
 term: Anonsets (anonimlik kümeleri)
+definition:
 ---
 Anonsetler, belirli bir UTXO’nun gizlilik derecesini değerlendirmek için gösterge olarak kullanılır. Daha spesifik olarak, incelenen çıktıyı içeren küme içerisindeki ayırt edilemeyen UTXO sayısını ölçerler. Aynı UTXO’lardan oluşan bir grubun gerekli olması nedeniyle anonsetler genellikle bir coinjoin döngüsü içinde hesaplanır. Gerektiğinde coinjoinlerin kalitesini değerlendirmeyi mümkün kılarlar. Büyük bir anonset, daha yüksek bir anonimlik düzeyi anlamına gelir; çünkü küme içinde belirli bir UTXO’yu ayırt etmek zorlaşır.
 

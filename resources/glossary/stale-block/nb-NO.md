@@ -1,6 +1,7 @@
 ---
 term: Foreldet (blokk)
 
+definition:
 ---
 Refererer til en blokk uten barn: en gyldig blokk, men ekskludert fra Bitcoin-hovedkjeden. Det oppstår når to utvinnere finner en gyldig blokk på samme kjedehøyde i løpet av kort tid og kringkaster den over nettverket. Noder velger til slutt bare én blokk som skal inkluderes i kjeden, i henhold til prinsippet om kjeden med mest akkumulert arbeid, noe som gjør den andre "foreldet". Prosessen som fører til produksjon av en foreldet blokk, er som følger:
 

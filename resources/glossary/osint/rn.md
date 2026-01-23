@@ -1,5 +1,6 @@
 ---
 term: OSINT
+definition:
 ---
 
 Inyuguti y'inyongera y'ikirundi risobanura "*Ubwenge bw'inkomoko yuguruye*". OSINT yerekeza ku gukoranya no gusuzuma amakuru ashobora gushikirizwa abantu bose avuye mu bibanza umuntu wese ashobora kuyaronkako. Ivyo bimenyetso bishobora kubamwo imbuga ngurukanabumenyi, amahuriro, imihora y’ubudandaji, amakuru ya bose, ibitabu vy’inyigisho, inyandiko za Leta, n’ibindi Intumbero ihambaye ya OSINT ni uguhindura amakuru atagiramwo ivyatsi mu makuru ashobora gukoreshwa mu kumenya imigenderanire, amasano, n’inzira z’itohoza.

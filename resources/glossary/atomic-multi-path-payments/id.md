@@ -1,6 +1,7 @@
 ---
 term: Atomic multi-path payments
 
+definition:
 ---
 
 Versi MPP (*Multi-Path Payments*) yang disempurnakan di mana setiap fragmen pembayaran memiliki rahasia parsial yang berbeda, memastikan bahwa transaksi diselesaikan secara atomik, yaitu secara penuh atau tidak diselesaikan sama sekali.

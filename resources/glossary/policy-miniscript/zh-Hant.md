@@ -1,5 +1,6 @@
 ---
 term: 策略 (Miniscript)
+definition:
 ---
 
 一種以使用者為導向的高階語言，允許在 Miniscript 的框架內簡單指定 UTXO 解鎖的條件。政策是消費規則的抽象描述。然後可以編譯成 miniscript，與 Bitcoin 原生腳本語言的操作一一對應。

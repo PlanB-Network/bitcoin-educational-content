@@ -1,5 +1,6 @@
 ---
 term: BIP0044
+definition:
 ---
 
 Predlog za poboljšanje koji uvodi standardnu hijerarhijsku strukturu derivacije za HD novčanike. BIP44 se nadovezuje na principe uspostavljene BIP32 za derivaciju ključeva i na BIP43 za korišćenje polja “purpose”. Uvodi strukturu derivacije sa pet nivoa: `m / purpose' / coin_type' / account' / change / address_index`. Ovde su detalji za svaku dubinu:

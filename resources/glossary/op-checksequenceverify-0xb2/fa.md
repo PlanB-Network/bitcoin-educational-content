@@ -1,5 +1,6 @@
 ---
 term: OP_CHECKSEQUENCEVERIFY (0XB2)
+definition:
 ---
 
 تراکنش را نامعتبر می‌کند اگر هر یک از این ویژگی‌ها مشاهده شود:

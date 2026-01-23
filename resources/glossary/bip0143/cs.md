@@ -1,6 +1,7 @@
 ---
 term: BIP0143
 
+definition:
 ---
 Zavádí nový způsob hashování transakce pro ověření podpisu ve skriptech po zavedení SegWit. Cílem je minimalizovat nadbytečné operace při ověřování a zahrnout hodnotu UTXO na vstupu do podpisu. Tím se řeší dva hlavní problémy původního algoritmu hašování transakcí:
 

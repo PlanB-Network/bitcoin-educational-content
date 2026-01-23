@@ -1,5 +1,6 @@
 ---
 term: Tweak
+definition:
 ---
 
 W kryptografii "tweakowanie" klucza publicznego polega na modyfikowaniu go przy użyciu wartości addytywnej zwanej "tweakiem", tak aby pozostał on użyteczny przy znajomości zarówno oryginalnego klucza prywatnego, jak i tweaku. Technicznie rzecz biorąc, tweak to wartość skalarna dodawana do oryginalnego klucza publicznego. Jeśli $P$ jest kluczem publicznym, a $t$ jest tweakiem, tweakowany klucz publiczny staje się :

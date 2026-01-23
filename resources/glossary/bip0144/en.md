@@ -1,5 +1,6 @@
 ---
 term: BIP0144
+definition:
 ---
 
 Defines new network message formats and serializations methods for propagating transactions and blocks that include segregated witness structures (SegWit). 

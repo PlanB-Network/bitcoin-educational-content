@@ -1,5 +1,6 @@
 ---
 term: Återanvändbar betalkod
+definition:
 ---
 
 I BIP47 är en återanvändbar betalningskod en statisk identifierare som genereras från en Bitcoin Wallet och som möjliggör en aviseringstransaktion och härledning av unika adresser. På så sätt undviks återanvändning av adresser, vilket leder till förlust av integritet, utan att man manuellt behöver härleda och överföra nya, oanvända adresser för varje betalning. I BIP47 konstrueras återanvändbara betalningskoder på följande sätt:

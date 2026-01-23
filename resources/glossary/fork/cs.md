@@ -1,6 +1,7 @@
 ---
 term: Fork
 
+definition:
 ---
 Pojem "fork" má v kontextu Bitcoinu několik významů. Může znamenat buď rozdělení sítě uzlů na několik samostatných skupin, což vede k vytvoření více různých blockchainů, nebo změnu pravidel protokolu, případně obojí současně. Pro zjednodušení můžeme rozlišit 4 hlavní kategorie forků:
 

@@ -1,5 +1,6 @@
 ---
 term: SECP256K1
+definition:
 ---
 
 Ime dato specifičnoj eliptičnoj krivi korišćenoj u Bitcoin protokolu za implementaciju ECDSA (*Elliptic Curve Digital Signature Algorithm*) i Schnorr algoritama digitalnog potpisa. Kriva `secp256k1` je izabrana od strane pronalazača Bitcoin, Satoshi Nakamoto. Ima neke zanimljive osobine, posebno prednosti u performansama.

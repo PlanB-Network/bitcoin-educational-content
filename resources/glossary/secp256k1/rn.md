@@ -1,5 +1,6 @@
 ---
 term: SECP256K1
+definition:
 ---
 
 Izina ry’umurongo wihariye w’umurongo w’uruzitiro ukoreshwa mu masezerano ya Bitcoin yo gushirwa mu ngiro kwa ECDSA (*Igiharuro c’umukono w’uruzitiro*) n’umurongo w’uruzitiro rwa Schnorr. Igiharuro ca `secp256k1` catowe n’uwahinguye Bitcoin, Satoshi Nakamoto. Ifise ibintu bimwe bimwe bishimishije, cane cane inyungu z’ibikorwa.

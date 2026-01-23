@@ -1,5 +1,6 @@
 ---
 term: DBC
+definition:
 ---
 
 Mugufi ni "Deterministic Bitcoin Commitment". Ni amategeko ashoboza Commitment kwinjira mu gucuruza Bitcoin mu buryo bugaragara kandi budasanzwe. Mu masezerano ya RGB, hari uburyo bubiri nyamukuru bwa CAD:

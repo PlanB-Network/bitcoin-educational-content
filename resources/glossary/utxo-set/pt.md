@@ -1,6 +1,7 @@
 ---
 term: Conjunto UTXO
 
+definition:
 ---
 Refere-se à coleção de todos os UTXOs existentes num dado momento. Por outras palavras, é uma grande lista de todas as diferentes peças de bitcoins à espera de serem gastas. Se somarmos os montantes de todos os UTXOs no conjunto UTXO, obtemos a massa monetária total de bitcoins em circulação. Cada nó da rede Bitcoin mantém o seu próprio conjunto de UTXOs em tempo real. Actualiza-o à medida que novos blocos válidos são confirmados, com as transacções que incluem, que consomem alguns UTXOs do conjunto UTXO, e criam novos em troca.
 

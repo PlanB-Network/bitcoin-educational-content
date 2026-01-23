@@ -1,5 +1,6 @@
 ---
 term: Stack
+definition:
 ---
 
 In the context of the scripting language used to affix spending conditions to Bitcoin UTXOs, the stack is a LIFO (*Last In, First Out*) data structure used to store temporary elements during script execution. Each operation in the script manipulates these stacks, where elements can be added (*push*) or removed (*pop*). Scripts use stacks to evaluate expressions, store temporary variables and manage conditions.

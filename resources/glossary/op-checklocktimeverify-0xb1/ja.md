@@ -1,6 +1,7 @@
 ---
 term: OP_CHECKLOCKTIMEVERIFY (0XB1)
 
+definition:
 ---
 これらの条件がすべて満たされない限り、取引を無効にする：
 

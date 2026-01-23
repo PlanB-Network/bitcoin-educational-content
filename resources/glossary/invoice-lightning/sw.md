@@ -1,5 +1,6 @@
 ---
 term: Invoisi ya lightning
+definition:
 ---
 
 Ombi la malipo ya umeme lililotolewa na mpokeaji, lililo na taarifa zote zinazohitajika ili kukamilisha muamala.

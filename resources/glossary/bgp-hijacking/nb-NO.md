@@ -1,5 +1,6 @@
 ---
 term: BGP hijacking
+definition:
 ---
 
 Angrep der en ondsinnet aktør manipulerer BGP-annonser for å omdirigere Internett-trafikk til sitt eget nettverk. Ved å utgi seg for å være det legitime opphavet til visse IP Address-områder kan angriperen avskjære, overvåke eller blokkere trafikk som skal til disse adressene.

@@ -1,5 +1,6 @@
 ---
 term: Tweak
+definition:
 ---
 
 V kryptografii znamená "vylepšení" veřejného klíče jeho úpravu pomocí aditivní hodnoty zvané "tweak" tak, aby zůstal použitelný při znalosti původního soukromého klíče i tohoto vylepšení. Technicky vzato je tweak skalární hodnota, která se přidává k původnímu veřejnému klíči. Pokud je $P$ veřejný klíč a $t$ je tweak, pak se z tweakovaného veřejného klíče stane :

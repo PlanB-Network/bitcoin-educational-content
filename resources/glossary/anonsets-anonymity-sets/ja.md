@@ -1,5 +1,6 @@
 ---
 term: Anonsets (anonymity sets)
+definition:
 ---
 Anonsetは、特定のUTXOのプライバシーの度合いを評価するための指標として用いられる。より具体的には、調査対象のコインを含む集合内における識別不能なUTXOの数を測定する。同一のUTXOからなるグループが必要であるため、anonsetは通常、coinjoinのサイクル内で算出される。これにより、必要に応じてcoinjoinの品質を評価することができる。大きなanonsetは匿名性の水準が高いことを意味し、集合内で特定のUTXOを識別することが困難になる。
 

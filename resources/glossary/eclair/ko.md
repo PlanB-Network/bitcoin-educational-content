@@ -1,5 +1,6 @@
 ---
 term: Eclair
+definition:
 ---
 
 스칼라 언어로 작성된 Lightning Network 프로토콜의 주요 구현입니다. Eclair는 프랑스 회사 Acinq에서 개발했습니다.

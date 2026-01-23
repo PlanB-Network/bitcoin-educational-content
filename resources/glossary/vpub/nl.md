@@ -1,5 +1,6 @@
 ---
 term: VPUB
+definition:
 ---
 
 Uitgebreide openbare sleutel prefix voor SegWit V0-accounts op Bitcoin Testnet.

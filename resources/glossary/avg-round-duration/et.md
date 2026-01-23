@@ -1,6 +1,7 @@
 ---
 term: Keskmine raundi kestus
 
+definition:
 ---
 Keskmine vooru kestus on näitaja, mida kasutatakse selleks, et hinnata aega, mis kulub kaevandamisbasseinil ploki leidmiseks, tuginedes võrgu raskusastmele ja basseini hashrate'ile. See arvutatakse, võttes ploki leidmiseks oodatavate aktsiate arvu ja jagades selle basseini hashrate'iga. Näiteks kui kaevandamisbasseinil on 200 kaevurit ja igaüks neist toodab keskmiselt 4 aktsiat sekundis, on basseini kogu arvutusvõimsus 800 aktsiat sekundis:
 

@@ -1,6 +1,7 @@
 ---
 term: Payjoin
 
+definition:
 ---
 Erityinen Bitcoin-tapahtumarakenne, joka parantaa käyttäjän yksityisyyttä rahankäytön aikana tekemällä yhteistyötä maksun vastaanottajan kanssa. Payjoinin ainutlaatuisuus piilee sen kyvyssä luoda transaktio, joka näyttää ensi silmäyksellä tavalliselta, mutta on itse asiassa kahden osapuolen välinen minikolikkoyhteys. Tätä varten transaktiorakenne ottaa maksun vastaanottajan mukaan syötteisiin varsinaisen lähettäjän rinnalle. Siten vastaanottaja sisällyttää maksutapahtuman keskelle itselleen maksun, jonka avulla hänelle voidaan maksaa. Jos esimerkiksi ostat patongin 6 000 satsilla käyttäen 10 000 satsin UTXO:ta ja valitset Payjoinin, leipurisi lisää panokseksi hänelle kuuluvan 15 000 satsin UTXO:n, jonka hän noutaa kokonaisuudessaan tuotoksena 6 000 satsin lisäksi.
 

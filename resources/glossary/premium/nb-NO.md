@@ -1,6 +1,7 @@
 ---
 term: Premium
 
+definition:
 ---
 Et tilleggsbeløp som betales over standard eller nominell pris på en eiendel. I forbindelse med Bitcoin kan en premie observeres ved kjøp, spesielt på utvekslingsplattformer, som noen ganger kan bruke denne teknikken for å gjøre sine marginer på meglertjenesten.
 

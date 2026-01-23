@@ -1,5 +1,6 @@
 ---
 term: CIOH
+definition:
 ---
 
 Ufupisho wa "*Ingizo la Kawaida Ownership Heuristic*". Ni heuristic inayotumika katika uga wa uchanganuzi wa msururu wa Bitcoin ambao unadhania kuwa ingizo zote za muamala ni za huluki au mtumiaji yule yule. Wakati wa kuangalia data ya umma ya shughuli ya Bitcoin, na pembejeo nyingi zinaonekana, basi, ikiwa hakuna ruwaza au maelezo mengine ya kukanusha hili, inaweza kukadiriwa kuwa ingizo zote za muamala huu zilikuwa za mtu mmoja (au huluki).

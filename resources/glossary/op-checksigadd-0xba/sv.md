@@ -1,5 +1,6 @@
 ---
 term: OP_CHECKSIGADD (0XBA)
+definition:
 ---
 
 Extraherar de tre översta värdena från stacken: en `public key`, ett `CScriptNum` `n` och en `signature`. Om signaturen inte är den tomma vektorn och inte är giltig, avslutas skriptet med ett fel. Om signaturen är giltig eller är den tomma vektorn (`OP_0`), presenteras två scenarier:

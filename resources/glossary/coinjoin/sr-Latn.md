@@ -1,5 +1,6 @@
 ---
 term: Coinjoin
+definition:
 ---
 
 CoinJoin je tehnika koja se koristi za prekidanje sledljivosti bitkoina. Oslanja se na kolaborativnu transakciju sa specifičnom strukturom istog imena: CoinJoin transakcija. CoinJoin transakcije pomažu u poboljšanju zaštite privatnosti korisnika Bitcoin tako što otežavaju eksternim posmatračima analizu transakcija. Ova struktura omogućava mešanje više novčića u jednoj transakciji, što otežava određivanje veza između ulaznih i izlaznih adresa.

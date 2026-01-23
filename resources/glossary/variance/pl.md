@@ -1,5 +1,6 @@
 ---
 term: Wariancja
+definition:
 ---
 
 W Mining odnosi się to do wahań dochodu Miner ze względu na probabilistyczny charakter znajdowania prawidłowych bloków. Nawet przy stałej mocy obliczeniowej czas potrzebny na znalezienie bloku może się znacznie różnić. W rezultacie górnicy mogą przez długi czas nie otrzymywać żadnych nagród, po czym następują okresy wysokich zarobków.

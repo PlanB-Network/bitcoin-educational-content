@@ -1,6 +1,7 @@
 ---
 term: Scriptsig
 
+definition:
 ---
 Et element i en Bitcoin-transaksjon som ligger i inndataene. `scriptSig` gir de nødvendige dataene for å oppfylle betingelsene som er satt av `scriptPubKey` i den forrige transaksjonen som pengene brukes fra. Den spiller dermed en komplementær rolle til `scriptPubKey`. Vanligvis inneholder `scriptSig` en digital signatur og en offentlig nøkkel. Signaturen genereres av eieren av bitcoinsene ved hjelp av deres private nøkkel og beviser at de har autorisasjon til å bruke UTXO. I dette tilfellet viser `scriptSig` at innehaveren av inndataene har den private nøkkelen som tilsvarer den offentlige nøkkelen som er knyttet til adressen som er angitt i `scriptPubKey` i den forrige utgående transaksjonen.
 

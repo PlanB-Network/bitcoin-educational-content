@@ -1,5 +1,6 @@
 ---
 term: Byzantine failure
+definition:
 ---
 
 Byzantine failure, or Byzantine behavior, refers to any behavior of a system that deviates from its own specifications, producing non-conforming results.

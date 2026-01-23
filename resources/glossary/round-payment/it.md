@@ -1,6 +1,7 @@
 ---
 term: Pagamento arrotondato
 
+definition:
 ---
 Un'euristica interna per l'analisi della catena su Bitcoin che consente di formulare un'ipotesi sulla natura delle uscite di una transazione in base agli importi tondi. In genere, di fronte a uno schema di pagamento semplice (1 ingresso e 2 uscite), se una delle uscite spende un importo rotondo, allora rappresenta il pagamento. Per eliminazione, se un'uscita rappresenta il pagamento, l'altra rappresenta la variazione. Si può quindi interpretare che è probabile che l'utente che inserisce la transazione possieda ancora l'uscita identificata come il resto.
 

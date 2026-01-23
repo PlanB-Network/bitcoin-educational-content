@@ -1,5 +1,6 @@
 ---
 term: 時間鎖
+definition:
 ---
 
 Smart contract 基元允許設定一個以時間為基礎的條件，該條件必須符合才能將交易加入區塊。Bitcoin 上有兩種時間鎖類型：

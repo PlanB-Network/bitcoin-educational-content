@@ -1,6 +1,7 @@
 ---
 term: BIP0001
 
+definition:
 ---
 Dokument, mis määratleb Bitcoini protokolli kavandatavate paranduste väljatöötamise ja rakendamise protsessi. Amir Taaki poolt 2011. aasta augustis koostatud dokumendis kehtestatakse standardne metoodika võimalike muudatuste kavandamiseks ja dokumenteerimiseks. BIP ettepanekud on seejärel liigitatud kolme kategooriasse:
 

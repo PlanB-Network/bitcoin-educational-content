@@ -1,5 +1,6 @@
 ---
 term: Kushindwa kwa Byzantine
+definition:
 ---
 
 Kushindwa kwa Byzantine, au tabia ya Byzantine, inarejelea tabia yoyote ya mfumo ambayo haizingatii vipimo vyake, na kutoa matokeo yasiyolingana.

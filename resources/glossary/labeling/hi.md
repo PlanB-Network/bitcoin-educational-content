@@ -1,5 +1,6 @@
 ---
 term: लेबलिंग
+definition:
 ---
 
 Bitcoin Wallet में किसी विशिष्ट UTXO को एनोटेशन या लेबल असाइन करने की प्रथा। उदाहरण के लिए, अगर मेरे पास Bisq with Charles पर P2P खरीद से UTXO है, तो मैं इसे "`गैर-KYC Bisq Charles`" के रूप में लेबल कर सकता हूँ।

@@ -1,6 +1,7 @@
 ---
 term: OSINT
 
+definition:
 ---
 Lühend "*Open Source Intelligence*". OSINT tähendab avalikult kättesaadava teabe kogumist ja analüüsimist kõigile kättesaadavatest allikatest. Need allikad võivad hõlmata veebisaite, foorumeid, sotsiaalvõrgustikke, avalikke andmebaase, akadeemilisi väljaandeid, valitsuse dokumente jne. OSINTi peamine eesmärk on muuta töötlemata andmed kasutatavaks teabeks, tuvastades suundumusi, seoseid ja uurimissuundi.
 

@@ -1,6 +1,7 @@
 ---
 term: OP_2ROT (0X71)
 
+definition:
 ---
 Liigutab kaks elementi, mis on kuuendal ja viiendal positsioonil, virna ülaosast ülespoole. Näiteks kui virnas on:
 

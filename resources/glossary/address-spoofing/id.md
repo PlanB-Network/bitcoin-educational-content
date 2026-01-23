@@ -1,6 +1,7 @@
 ---
 term: Address spoofing
 
+definition:
 ---
 
 Serangan di mana aktor jahat membuat alamat (atau aspek pembayaran lainnya) yang sangat mirip dengan milik korban. Tujuannya adalah untuk mengelabui pengguna agar menyalin alamat yang salah ini selama transaksi, yang mengakibatkan bitcoin terkirim ke pihak penjahat dan bukan ke tujuan yang sebenarnya.

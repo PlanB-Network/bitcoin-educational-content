@@ -1,5 +1,6 @@
 ---
 term: BIP0118
+definition:
 ---
 
 Proposal introducing two new SigHash Flag modifiers: `SIGHASH_ANYPREVOUT` and `SIGHASH_ANYPREVOUTANYSCRIPT`. 

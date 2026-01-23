@@ -1,6 +1,7 @@
 ---
 term: Přijímací adresa
 
+definition:
 ---
 Informace používané k přijímání bitcoinů. Adresa se obvykle vytváří hashováním veřejného klíče pomocí `SHA256` a `RIMPEMD160` a přidáním metadat k tomuto digestu. Veřejné klíče použité ke konstrukci přijímací adresy jsou součástí peněženky uživatele, a proto jsou odvozeny od jeho seedu. Například adresy SegWit se skládají z následujících informací:
 

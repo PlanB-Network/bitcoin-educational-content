@@ -1,6 +1,7 @@
 ---
 term: PPS (pagamento por cota)
 
+definition:
 ---
 Método de cálculo da remuneração dos mineiros no contexto de pools de mineração. O PPS é um sistema em que os mineiros são pagos por cada ação válida apresentada, independentemente do facto de a pool encontrar ou não um bloco. Por conseguinte, são compensados com base no valor esperado. Trata-se de um método de remuneração baseado em tarefas.
 

@@ -1,6 +1,7 @@
 ---
 term: Chaumian coinjoin
 
+definition:
 ---
 Protokol coinjoin, který využívá slepé podpisy Davida Chauma a Tor pro komunikaci mezi účastníky a serverem koordinátora. Cílem Chaumova coinjoinu je zajistit účastníkům, že koordinátor nemůže ukrást bitcoiny, ani propojit vstupy a výstupy.
 

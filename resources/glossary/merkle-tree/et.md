@@ -1,6 +1,7 @@
 ---
 term: Merkle puu
 
+definition:
 ---
 Merkle Tree on krüptograafiline akumulaator. See on meetod, mille abil saab tõestada antud teabe liikmelisust suuremas kogumis. See on andmestruktuur, mis hõlbustab teabe kontrollimist kompaktses formaadis. Bitcoini süsteemis kasutatakse Merkle Trees'i selleks, et rühmitada ja koondada ploki tehingud ühte hash'i, mida nimetatakse Merkle Root'iks (või "*Root Hash*"). Iga tehing hashitakse, seejärel hakitakse kõrvuti olevad hashid hierarhiliselt kokku, kuni saadakse Merkle Root.
 

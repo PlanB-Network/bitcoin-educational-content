@@ -1,5 +1,6 @@
 ---
 term: 橙色药丸
+definition:
 ---
 
 受电影《黑客帝国》（*Matrix*）启发，这种假想药丸能唤醒 Bitcoin 的意识。

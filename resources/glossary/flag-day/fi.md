@@ -1,6 +1,7 @@
 ---
 term: Flag day
 
+definition:
 ---
 Bitcoinin alkuvuosina käytetty menetelmä soft forkin aktivoimiseksi. Tässä prosessissa yksinkertaisesti asetetaan "Flag Day" -nimellä tunnettu määräaika, jota ennen koko verkon on hyväksyttävä protokollapäivitys. Lähestymistapa on suoraviivainen: tämän päivämäärän jälkeen solmujen ja louhijoiden on päivitettävä ohjelmistonsa uusien sääntöjen mukaisiksi, muuten ne ovat vaarassa joutua epäyhteensopivaan ketjuun.
 

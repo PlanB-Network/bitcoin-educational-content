@@ -1,5 +1,6 @@
 ---
 term: PPS (pay per share)
+definition:
 ---
 
 Metod för att beräkna ersättningen till miners inom ramen för Mining-pooler. PPS är ett system där miners får betalt för varje giltig andel som lämnas in, oavsett om poolen hittar ett block eller inte. De kompenseras därför baserat på det förväntade värdet. Det är en uppgiftsbaserad ersättningsmetod.

@@ -1,6 +1,7 @@
 ---
 term: Output script descriptors
 
+definition:
 ---
 Output script descriptors, eller bare descriptors, er strukturerte uttrykk som fullt ut beskriver et output script (`scriptPubKey`) og gir all nødvendig informasjon for å spore transaksjoner til eller fra et bestemt script. Disse deskriptorene gjør det enklere å administrere nøkler i HD-lommebøker ved hjelp av en standardbeskrivelse av strukturen og adressetypene som brukes.
 

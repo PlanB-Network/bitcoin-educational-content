@@ -1,5 +1,6 @@
 ---
 term: Libbitcoin
+definition:
 ---
 
 一套用 C++ 编写的库，旨在创建与 Bitcoin 相关的应用程序。Libbitcoin 为围绕 Bitcoin 开发移动应用程序、软件和其他系统提供了独立的基础。因此，Libbitcoin 采用模块化架构。该项目的所有库均以免费的 AGPL 许可证发布。

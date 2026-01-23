@@ -1,5 +1,6 @@
 ---
 term: Pseudorandom
+definition:
 ---
 
 Iryo jambo ry’ikigereranyo rikoreshwa mu kudondora urutonde rw’imibare, naho ari ingaruka y’urugendo rw’ugushinga intahe, rwerekana ibiranga hafi y’urutonde rw’imibare rwiza vy’ukuri. Iciyumviro c'ubudasa bwiza kivuga ko ata n'umwe yoshobora kumenya imbere y'igihe n'isano hagati ya Elements ikurikirana. Umubare w’ibinyoma uterwa n’ubuhinga bwo kumenya ibintu kandi rero, mu vyiyumviro, urashobora gutegekanirwa vyose iyo umuntu azi uko umubare w’intango uri.

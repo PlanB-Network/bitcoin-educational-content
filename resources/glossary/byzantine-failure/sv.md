@@ -1,5 +1,6 @@
 ---
 term: Byzantinskt fel
+definition:
 ---
 
 Byzantinska fel, eller byzantinskt beteende, avser alla beteenden hos ett system som inte överensstämmer med dess egna specifikationer och som ger avvikande resultat.

@@ -1,5 +1,6 @@
 ---
 term: BIP0094
+definition:
 ---
 
 Isobanura Testnet 4, urubuga rushasha rwa Testnet ruzosubirira Testnet 3 mu 2024. Testnet 3, yari imaze imyaka 13 ikora, yari yaracitse ikintu gishobora guterwa n’ibitero bitandukanye kandi yariko irakoreshwa nabi biciye mu gutera indege z’ubuhendanyi za Altcoin, bikaba vyahungabanya ugukwirakwiza TBTC ku buntu mu buryo busanzwe.

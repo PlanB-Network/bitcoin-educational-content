@@ -1,6 +1,7 @@
 ---
 term: BTC
 
+definition:
 ---
 Osake- tai valuuttasymboli (*ticker*), jota käytetään edustamaan bitcoin-yksikköä pörssialustoilla. Sitä käytetään bitcoinin nopeaan tunnistamiseen muiden omaisuuserien ja valuuttojen joukosta. Yksi bitcoin-yksikkö (1 BTC) vastaa 100 000 000 satoshia (tai "satsia").
 

@@ -1,6 +1,7 @@
 ---
 term: Shares
 
+definition:
 ---
 No contexto de pools de mineração, uma quota é um indicador usado para quantificar a contribuição de um mineiro individual dentro do pool. Esta medida serve de base para calcular a recompensa que o pool redistribui a cada mineiro. Cada quota corresponde a um hash que satisfaz um objetivo de dificuldade inferior ao da rede Bitcoin.
 

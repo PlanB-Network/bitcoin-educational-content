@@ -1,5 +1,6 @@
 ---
 term: BIP0085
+definition:
 ---
 
 BIP85 itanga umuti wo guhuza ivy'amasakoshi menshi ya Bitcoin hakoreshejwe seed imwe.

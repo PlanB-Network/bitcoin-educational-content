@@ -1,5 +1,6 @@
 ---
 term: OP_2ROT (0X71)
+definition:
 ---
 
 將位於堆疊頂部第六和第五位置的兩個 Elements 移到頂部。例如，如果堆疊為

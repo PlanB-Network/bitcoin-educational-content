@@ -1,5 +1,6 @@
 ---
 term: Bitcoin Knots
+definition:
 ---
 
 Minority implementation of the Bitcoin protocol. Bitcoin Knots is an alternative to the Bitcoin Core reference software, offering a few different rules and features, while remaining fully compatible with other nodes on the network. 

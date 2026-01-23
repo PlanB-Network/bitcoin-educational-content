@@ -1,5 +1,6 @@
 ---
 term: 快速試運行 (Speedy trial)
+definition:
 ---
 
 啟動 Soft Fork 的方法，最初由 David A. Harding 在 2021 年初根據 Russell O'Connor 的想法為 Taproot 構想。其原理是使用 BIP8 方法，並將 `LOT` 參數設為 `false`，同時將啟動週期縮短至僅 3 個月。這種縮短的投票期可以快速驗證 Miner 的核准。如果在其中一個期間達到所需的核准閾值，Soft Fork 就會被鎖定。它會在幾個月後啟動，從而讓礦工有必要的時間更新他們的軟體。

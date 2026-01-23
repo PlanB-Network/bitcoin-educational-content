@@ -1,6 +1,7 @@
 ---
 term: OP_CHECKLOCKTIMEVERIFY (0XB1)
 
+definition:
 ---
 
 Bituma ubucuruzi butagira akamaro kiretse ivyo vyose bishitse:

@@ -1,5 +1,6 @@
 ---
 term: Teekonna leidmine
+definition:
 ---
 
 Protsess, mida sõlme kasutab makse optimaalse marsruudi määramiseks läbi välgukanali võrgu. Teekonna leidmine toimub maksja sõlme poolt, mis peab valima kõige sobivamad vahesõlmed, et jõuda saajani. See valik põhineb mitmel kriteeriumil, näiteks tasudel, kanali läbilaskevõimel ja ajamääradel.

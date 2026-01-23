@@ -1,5 +1,6 @@
 ---
 term: Erlay
+definition:
 ---
 
 Navrhovaný síťový protokol pro zlepšení účinnosti předávání nepotvrzených transakcí mezi uzly Bitcoin.

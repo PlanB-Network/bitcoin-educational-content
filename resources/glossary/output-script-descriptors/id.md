@@ -1,6 +1,7 @@
 ---
 term: Output script descriptors
 
+definition:
 ---
 _Output script descriptor_, atau secara sederhana disebut deskriptor, merupakan ekspresi terstruktur yang menjelaskan secara lengkap sebuah skrip keluaran (`scriptPubKey`) yang memberikan semua informasi yang diperlukan untuk melacak transaksi ke atau dari sebuah skrip tertentu. Deskriptor ini memfasilitasi pengelolaan kunci dalam dompet HD melalui deskripsi standar struktur dan jenis alamat yang digunakan.
 

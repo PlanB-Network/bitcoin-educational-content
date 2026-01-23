@@ -1,6 +1,7 @@
 ---
 term: Anonsets (anonymity sets)
 
+definition:
 ---
 Anonsets berfungsi sebagai indikator untuk menilai tingkat privasi dari suatu UTXO tertentu. Secara lebih spesifik, anonsets mengukur jumlah UTXO yang tidak dapat dibedakan dalam himpunan yang mencakup koin yang sedang dikaji. Karena diperlukan sekumpulan UTXO yang identik, anonsets umumnya dihitung dalam satu siklus coinjoins. Hal ini memungkinkan, jika diperlukan, untuk menilai kualitas coinjoins. Anonset yang berukuran besar menunjukkan tingkat anonimitas yang lebih tinggi, karena menjadi sulit untuk membedakan satu UTXO tertentu di dalam himpunan tersebut.
 

@@ -1,5 +1,6 @@
 ---
 term: Erlay
+definition:
 ---
 
 Kavandatud võrguprotokoll, et parandada kinnitamata tehingute edastamise tõhusust Bitcoin sõlmede vahel.

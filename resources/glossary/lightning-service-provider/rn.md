@@ -1,6 +1,7 @@
 ---
 term: Lightning service provider
 
+definition:
 ---
 
 Sosiyete ikoresha Lightning ifise ubucuruzi bwo gutanga amafaranga ku bakoresha.

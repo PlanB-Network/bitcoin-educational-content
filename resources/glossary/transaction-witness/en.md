@@ -1,5 +1,6 @@
 ---
 term: Transaction witness
+definition:
 ---
 
 Refers to a component of Bitcoin transactions that was moved with the SegWit soft fork to address the issue of transaction malleability. The witness contains the signatures and public keys necessary to unlock the bitcoins spent in a transaction. In Legacy transactions, the witness represented the sum of `scriptSig` from all inputs. In SegWit transactions, the witness represents the sum of `scriptWitness` for each input, and this part of the transaction is now moved into a separate Merkle tree within the block.

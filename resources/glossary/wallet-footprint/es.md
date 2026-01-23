@@ -1,6 +1,7 @@
 ---
 term: Huella de billetera
 
+definition:
 ---
 Conjunto de características distintivas observables en transacciones realizadas por el mismo monedero Bitcoin. Estas características pueden incluir similitudes en el uso de tipos de escritura, reutilización de direcciones, el orden de UTXOs, la colocación de salidas de cambio, la señalización de RBF (*Replace-by-Fee*), el número de versión, el campo `nSequence` y el campo `nLockTime`.
 

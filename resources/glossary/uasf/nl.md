@@ -1,5 +1,6 @@
 ---
 term: UASF
+definition:
 ---
 
 Acroniem voor "*Gebruiker-geactiveerde Soft Fork*". Beschrijft een Soft Fork in Bitcoin, wanneer deze wordt geïnitieerd en afgedwongen door de gebruikers van het netwerk via hun knooppunten, zonder afhankelijk te zijn van Miner goedkeuring. De netwerkknooppunten updaten hun software om de nieuwe regels van de Soft Fork aan te nemen, en laten de spaanders vallen waar ze vallen!

@@ -1,6 +1,7 @@
 ---
 term: Header blok
 
+definition:
 ---
 _Header_ blok adalah sebuah struktur data yang berfungsi sebagai komponen utama dalam pembangunan blok Bitcoin. Setiap blok terdiri dari header dan daftar transaksi. Header blok berisi informasi penting yang memastikan integritas dan validitas sebuah blok di dalam _blockchain_. _Header_ blok berisi 80 byte metadata dan terdiri dari elemen-elemen berikut:
 

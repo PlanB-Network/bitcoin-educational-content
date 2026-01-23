@@ -1,5 +1,6 @@
 ---
 term: OP_CHECKLOCKTIMEVERIFY (0XB1)
+definition:
 ---
 
 Gör transaktionen ogiltig om inte alla dessa villkor är uppfyllda:

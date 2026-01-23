@@ -1,5 +1,6 @@
 ---
 term: Płatność zwykła
+definition:
 ---
 
 Wzorzec transakcji (lub model) wykorzystywany w analizie łańcucha charakteryzujący się konsumpcją jednego lub więcej UTXO na wejściu i produkcją 2 UTXO na wyjściu. Model ten będzie zatem wyglądał następująco:

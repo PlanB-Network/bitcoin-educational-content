@@ -1,6 +1,7 @@
 ---
 term: OP_2SWAP (0X72)
 
+definition:
 ---
 Vahetab virna ülaosas olevad kaks elementi nende all olevate kahe elemendiga. Näiteks kui virnas on:
 

@@ -1,6 +1,7 @@
 ---
 term: BTCPay Server
 
+definition:
 ---
 
 BTCPay Server ni ubuhinga bwo kwishura bufunguye bufasha abacuruzi n’abakoresha kwemera kwishura Bitcoin ata kwizigira uwundi muntu kugira ngo bakoreshe amafaranga.

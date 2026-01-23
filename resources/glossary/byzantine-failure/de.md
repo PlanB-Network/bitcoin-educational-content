@@ -1,6 +1,7 @@
 ---
 term: Byzantinischer Fehler
 
+definition:
 ---
 Byzantinisches Versagen oder byzantinisches Verhalten bezieht sich auf jedes Verhalten eines Systems, das nicht mit seinen eigenen Spezifikationen übereinstimmt und zu nicht konformen Ergebnissen führt.
 

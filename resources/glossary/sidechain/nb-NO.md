@@ -1,6 +1,7 @@
 ---
 term: Sidekjede
 
+definition:
 ---
 En blokkjede som er designet for å fungere parallelt med Bitcoins hovedblokkjede. De to kjedene er koblet sammen ved hjelp av en toveis peg som sikrer at aktiva som sirkulerer i sidekjeden, beholder samme verdi som bitcoin i hovedkjeden. Sidekjeden har sin egen konsensusmekanisme, som kan være uavhengig eller delvis avhengig av hovedkjedens mekanisme. Den gjør det generelt mulig å bruke funksjonalitet som ikke er direkte tilgjengelig i hovedkjeden, eller å forbedre funksjonaliteten, for eksempel: mer fleksibilitet i utviklingen, raskere og/eller mer private transaksjoner eller høyere transaksjonskapasitet. For å oppnå dette må sidekjeden inngå kompromisser i forhold til hovedkjeden.
 

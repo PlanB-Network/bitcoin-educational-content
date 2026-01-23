@@ -1,5 +1,6 @@
 ---
 term: bitcoind
+definition:
 ---
 
 Inyuguti y'inyongera y'ikigiriki "*Bitcoin daemon*".

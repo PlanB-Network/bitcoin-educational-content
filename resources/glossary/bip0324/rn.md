@@ -1,5 +1,6 @@
 ---
 term: BIP0324
+definition:
 ---
 
 Izana uburyo bushasha bw’umurongo w’ivy’ugutwara abantu n’ibintu Bitcoin P2P ushiramwo ubuhinga bwo gukingira amakuru kugira ngo haboneke ubuzima bwite n’umutekano w’ivy’itumanaho hagati y’ibice.

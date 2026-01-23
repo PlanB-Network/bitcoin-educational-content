@@ -1,5 +1,6 @@
 ---
 term: OP_2SWAP (0X72)
+definition:
 ---
 
 Hubadilisha Elements mbili juu ya rafu na Elements mbili chini yao. Kwa mfano, ikiwa safu ni:

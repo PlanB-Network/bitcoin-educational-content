@@ -1,5 +1,6 @@
 ---
 term: OP_3DUP (0X6F)
+definition:
 ---
 
 Duplicerar de tre översta Elements i stacken och placerar dem sedan ovanpå stacken. Till exempel, om stapeln är:

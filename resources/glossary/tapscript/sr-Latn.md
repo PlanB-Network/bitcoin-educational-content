@@ -1,5 +1,6 @@
 ---
 term: Tapscript
+definition:
 ---
 
 Ažuriranje usmereno na modifikaciju određenih opkoda klasičnog Bitcoin skriptnog jezika, kako bi se definisao novi skriptni jezik korišćen za P2TR trošenje. Tapscript je uveden BIP342, implementiran sa Taproot Soft Fork.

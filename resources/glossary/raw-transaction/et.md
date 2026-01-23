@@ -1,6 +1,7 @@
 ---
 term: Töötlemata tehing
 
+definition:
 ---
 Bitcoini tehing, mis on üles ehitatud ja allkirjastatud, mis eksisteerib binaarsel kujul. Toortehing (*raw TX*) on tehingu lõplik esitus, vahetult enne selle edastamist võrgus. See tehing sisaldab kogu vajalikku teavet, mis on vajalik selle lisamiseks plokki:
 

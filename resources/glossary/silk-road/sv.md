@@ -1,5 +1,6 @@
 ---
 term: Silk road
+definition:
 ---
 
 Silk Road var en dark web-plattform som grundades av Ross Ulbricht, även känd under pseudonymen Dread Pirate Roberts. Marknadsplatsen lanserades 2011 och gjorde det möjligt för användare att köpa och sälja produkter och tjänster, både lagliga och olagliga, samtidigt som de bevarade sin anonymitet genom att använda Tor och Bitcoin-betalningar. Silk Road erbjöd ett brett utbud av varor, främst droger och receptbelagda mediciner, men uteslöt aktiviteter som ansågs strida mot naturrättsliga principer, såsom försäljning av torpedtjänster eller barnpornografiskt innehåll.

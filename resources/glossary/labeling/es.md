@@ -1,6 +1,7 @@
 ---
 term: Etiquetado
 
+definition:
 ---
 La práctica de asignar una anotación o etiqueta a un UTXO específico en un monedero Bitcoin. Por ejemplo, si tengo un UTXO de una compra P2P en Bisq con Charles, podría etiquetarlo como "`Non-KYC Bisq Charles`".
 

@@ -1,5 +1,6 @@
 ---
 term: Itonda rya Bitcoin
+definition:
 ---
 
 Yerekeza kuri porogarama ishitsa kandi ikurikije amategeko asobanuwe n’umurongo wa Bitcoin. Iyo abantu bavuze ngo “Bitcoin”, akenshi bavuga uburyo bwo gukoresha amahera y’ubuhinga bwa none ubwabwo, ni ukuvuga amategeko asobanura amategeko y’uguhurizako.

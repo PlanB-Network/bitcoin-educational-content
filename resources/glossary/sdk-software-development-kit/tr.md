@@ -1,5 +1,6 @@
 ---
 term: SDK (yazılım geliştirme kiti)
+definition:
 ---
 
 Geliştiricilerin belirli bir platformda uygulama oluşturmaları için gerekli kaynakları sağlayan bir dizi yazılım aracı. Bir SDK kütüphaneler, geliştirme kılavuzları, kod örnekleri ve derleme süreçlerini içerir. SDK'lar yeniden kullanılabilir modüller sunarak geliştirmeyi kolaylaştırır ve hızlandırır. Bitcoin üzerinde BDK (*Bitcoin Dev Kit*) ve LDK (*Lightning Dev Kit*) bulunmaktadır.

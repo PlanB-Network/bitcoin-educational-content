@@ -1,6 +1,7 @@
 ---
 term: Labeling
 
+definition:
 ---
 Die Praxis, einem bestimmten UTXO in einer Bitcoin-Wallet einen Vermerk oder eine Bezeichnung zuzuweisen. Wenn ich zum Beispiel einen UTXO von einem P2P-Kauf auf Bisq mit Charles habe, könnte ich ihn als "Non-KYC Bisq Charles" bezeichnen.
 

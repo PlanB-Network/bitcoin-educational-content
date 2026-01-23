@@ -1,6 +1,7 @@
 ---
 term: Etikettering
 
+definition:
 ---
 Praksisen med å tilordne en annotasjon eller etikett til en spesifikk UTXO i en Bitcoin-lommebok. Hvis jeg for eksempel har en UTXO fra et P2P-kjøp på Bisq med Charles, kan jeg merke den som "`Non-KYC Bisq Charles`".
 

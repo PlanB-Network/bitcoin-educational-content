@@ -1,5 +1,6 @@
 ---
 term: BIP0113
+definition:
 ---
 
 Yashizeho ihinduka mu buryo ibikorwa vyose vyo gufunga igihe (`nIgihe co Gufunga`, `OP_GUSUZUMA IGIHE CO GUSUZUMA`, `nUrukurikirane`, na `OP_GUSUZUMA URUTONDE GUSUZUMA`) bisuzumwa.

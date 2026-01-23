@@ -1,5 +1,6 @@
 ---
 term: BIP0143
+definition:
 ---
 
 Predstavlja novi način heširanja transakcije za verifikaciju potpisa u post-SegWit skriptama. Cilj je minimizirati redundantne operacije tokom verifikacije i uključiti vrednost UTXO-a u ulazu u potpis. Ovo rešava dva glavna problema sa originalnim algoritmom heširanja transakcija:

@@ -1,5 +1,6 @@
 ---
 term: BIP0123
+definition:
 ---
 
 BIP123 establishes a standardized process for classifying Bitcoin Improvement Proposals (BIPs).BIPs must now be classified into 4 categories:

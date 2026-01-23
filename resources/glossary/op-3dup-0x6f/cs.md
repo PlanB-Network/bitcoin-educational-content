@@ -1,6 +1,7 @@
 ---
 term: OP_3DUP (0X6F)
 
+definition:
 ---
 Duplikuje tři horní prvky zásobníku a umístí je na jeho vrchol. Například pokud je zásobník:
 

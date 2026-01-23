@@ -1,5 +1,6 @@
 ---
 term: Icode ry'urunyenyeri
+definition:
 ---
 
 Mu bijanye n’ugukura kw’ibiharuro vy’ubukuru (HD) vy’ibipapuro vya Bitcoin, chain code ni agaciro k’umunyu k’ibanga k’ibice 256 gakoreshwa ku mfunguruzo z’abana za generate zivuye ku rufunguzo rw’umuvyeyi, hakurikijwe ingingo ngenderwako ya BIP32. chain code ikoreshwa hamwe n'urufunguzo rw'umuvyeyi n'urutonde rw'umwana kugira ngo generate urufunguzo rushasha (urufunguzo rw'ibanga n'urufunguzo rwa bose) ata guhishura urufunguzo rw'umuvyeyi canke izindi mfunguzo z'umwana zikomoka.

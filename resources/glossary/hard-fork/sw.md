@@ -1,5 +1,6 @@
 ---
 term: Hard fork
+definition:
 ---
 
 Mabadiliko ya sheria za itifaki kwa njia ambayo haiendani nyuma. Mabadiliko haya husababisha kutenganishwa kwa kudumu kwa mtandao wa Bitcoin wa nodi katika vikundi viwili tofauti: nodi zilizo na sasisho na nodi bila sasisho. Mgawanyiko huu unafanywa na mgawanyiko wa Blockchain ya awali katika blockchains mbili tofauti, ambayo, hata hivyo, inashiriki historia ya kawaida, kwa hiyo matumizi ya neno "Fork," ambalo linaweza kutafsiriwa kwa Kifaransa kama "embranchement, bifurcation."

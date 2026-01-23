@@ -1,5 +1,6 @@
 ---
 term: Atomic multi-path payments
+definition:
 ---
 
 각 결제 조각에 고유한 부분 비밀이 있어 거래가 원자 단위로, 즉 전액 또는 전혀 정산되지 않도록 하는 MPP(*다중 경로 결제*)의 개선된 버전입니다.

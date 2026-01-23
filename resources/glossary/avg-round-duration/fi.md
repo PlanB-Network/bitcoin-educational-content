@@ -1,6 +1,7 @@
 ---
 term: Kierroksen keskimääräinen kesto
 
+definition:
 ---
 Keskimääräinen kierroksen kesto on indikaattori, jota käytetään arvioimaan aikaa, joka louhintapoolilta kuluu lohkon löytämiseen verkon vaikeusasteen ja poolin hashraten perusteella. Se lasketaan ottamalla lohkon löytämiseen odotettavissa olevien osuuksien määrä ja jakamalla se poolin hashratella. Jos esimerkiksi louhintapooliin kuuluu 200 louhijaa, joista kukin tuottaa keskimäärin 4 osaketta sekunnissa, poolin laskentateho on 800 osaketta sekunnissa:
 

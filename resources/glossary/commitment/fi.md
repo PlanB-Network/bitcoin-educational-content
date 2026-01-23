@@ -1,5 +1,6 @@
 ---
 term: Commitment
+definition:
 ---
 
 Commitment (kryptografisessa merkityksessä) on matemaattinen objekti, jota merkitään $C$ ja joka saadaan deterministisesti strukturoituun dataan $m$ (viesti) kohdistuvasta operaatiosta ja satunnaisarvosta $r$. Kirjoitamme :

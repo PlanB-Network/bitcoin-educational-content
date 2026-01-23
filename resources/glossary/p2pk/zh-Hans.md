@@ -1,6 +1,7 @@
 ---
 term: P2PK
 
+definition:
 ---
 P2PK 是 *Pay to Public Key* 的缩写。它是比特币上使用的一种标准脚本模型，用于在 UTXO 上建立消费条件。它允许将比特币直接锁定在公钥上，而不是在地址上。
 

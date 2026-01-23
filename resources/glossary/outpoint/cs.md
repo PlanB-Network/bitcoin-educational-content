@@ -1,6 +1,7 @@
 ---
 term: Outpoint
 
+definition:
 ---
 Jedinečný odkaz na výstup nevyčerpané transakce (UTXO). Skládá se ze dvou prvků:
 

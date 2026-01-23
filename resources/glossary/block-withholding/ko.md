@@ -1,5 +1,6 @@
 ---
 term: 블록 보류
+definition:
 ---
 
 풀 Mining에서의 특정 공격. 풀의 참여자가 유효한 Proof of Work 블록을 찾았지만 풀과 공유하지 않는 악의적인 행위입니다.

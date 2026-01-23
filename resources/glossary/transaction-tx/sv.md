@@ -1,5 +1,6 @@
 ---
 term: Transaktion (tx)
+definition:
 ---
 
 I samband med Bitcoin är en transaktion (förkortad som "TX") en operation som registreras på Blockchain som överför Ownership av bitcoins från en eller flera ingångar till en eller flera utgångar. Varje transaktion förbrukar outnyttjade transaktionsutgångar (UTXO) som ingångar, vilka är utgångar från tidigare transaktioner, och skapar nya UTXO som utgångar, vilka kan användas som ingångar i framtida transaktioner.

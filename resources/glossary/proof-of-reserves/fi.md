@@ -1,5 +1,6 @@
 ---
 term: Reservitodiste
+definition:
 ---
 
 Mekanismi, jota Bitcoin Exchange-alustat käyttävät osoittaakseen, että ne todella pitävät hallussaan asiakkaidensa varoja. Tarkoituksena on todistaa yrityksen maksukyky varmistamalla, että sen bitcoinit vastaavat tai ovat suurempia kuin käyttäjien saldot, joita niiden oletetaan pitävän hallussaan.

@@ -1,6 +1,7 @@
 ---
 term: Merkleho strom
 
+definition:
 ---
 Merklův strom je kryptografický akumulátor. Je to metoda pro dokazování příslušnosti dané informace k větší množině. Je to datová struktura, která usnadňuje ověřování informací v kompaktním formátu. V systému Bitcoin se Merkleho stromy používají k seskupení a zhuštění transakcí bloku do jediného hashe, který se nazývá Merkleho kořen (nebo "*Kořenový hash*"). Každá transakce se hashuje, pak se sousední hashe hierarchicky hashují dohromady, dokud se nezíská Merkleho kořen.
 

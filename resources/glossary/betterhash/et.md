@@ -1,5 +1,6 @@
 ---
 term: Betterhash
+definition:
 ---
 
 Mining protokoll, mille töötas 2018. aastal välja Matt Corallo, et astuda vastu Mining kasvavale tsentraliseerimisele basseinides. See erineb Stratumist, mis oli tol ajal standard, pakkudes hasheritele suuremat kontrolli plokkide mallidesse lisatavate tehingute valiku üle. BetterHashi peamine idee on anda hasheritele tagasi võimalus ise hallata plokkide mallide ehitamist, säilitades samal ajal Mining poolide eelised, näiteks väiksema tulude varieeruvuse.

@@ -1,5 +1,6 @@
 ---
 term: P2MS
+definition:
 ---
 
 P2MS inasimamia *Lipa kwa Multisig*, ambayo hutafsiriwa kuwa "lipa kwa sahihi nyingi". Ni muundo wa hati wa kawaida unaotumiwa kuweka masharti ya matumizi kwenye UTXO. Inaruhusu kufungwa kwa bitcoins na funguo nyingi za umma. Ili kutumia bitcoins hizi, saini iliyo na nambari iliyobainishwa ya funguo za kibinafsi zinazohusika inahitajika. Kwa mfano, `P2MS 2/3` inajumuisha funguo `3` za umma zenye `3` funguo za siri za faragha zinazohusiana. Ili kutumia bitcoins zikiwa zimefungwa kwa hati hii ya P2MS, saini iliyo na angalau `2` kati ya vitufe vya faragha `3` inahitajika. Huu ni mfumo wa usalama wa kizingiti.

@@ -1,6 +1,7 @@
 ---
 term: P2SH-P2WSH
 
+definition:
 ---
 P2SH-P2WSH tähendab *Pay to Script Hash - Pay to Witness Script Hash*. See on standardne skripti mudel, mida kasutatakse UTXO kulutustingimuste loomiseks, mida tuntakse ka kui "Nested SegWit".
 

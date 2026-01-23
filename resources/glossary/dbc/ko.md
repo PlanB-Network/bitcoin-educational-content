@@ -1,5 +1,6 @@
 ---
 term: DBC
+definition:
 ---
 
 "Deterministic Bitcoin Commitment"의 줄임말입니다. Commitment을 증명 가능하고 고유한 방식으로 Bitcoin 트랜잭션에 입력할 수 있도록 하는 일련의 규칙입니다. RGB 프로토콜에는 두 가지 주요 형태의 CAD가 있습니다:

@@ -1,6 +1,7 @@
 ---
 term: Utreexo
 
+definition:
 ---
 
 Itegeko ryakozwe na Tadge Dryja ryo gukoranya ivyuma vya Bitcoin vy’ivyuma vya UTXO hakoreshejwe igikoresho co gukoranya ibintu gishingiye ku biti vya Merkle. Udakunze UTXO ya kera isaba umwanya munini wo kubika, Utreexo igabanya cane ubwonko bukenewe mu kubika gusa imizi y’igiti ca Merkle. Ivyo bituma node ishobora kugenzura ukubaho kw’ama UTXO akoreshwa mu kwinjira mu bikorwa, ataco akeneye kubika umugwi wose w’ama UTXO. Mu gukoresha Utreexo, buri node igumya gusa urutoke rw’ibanga rwitwa umuzi wa Merkle. Iyo hakozwe ugucuruza, uwukoresha atanga ibimenyamenya vy’uko ari we afise ama UTXO n’inzira za Merkle zihuye. Gutyo, iyo node irashobora kugenzura amafaranga ata kubika umugwi wose wa UTXO. Reka dufate akarorero n'ikigereranyo kugira ngo dutahure ubu buryo:

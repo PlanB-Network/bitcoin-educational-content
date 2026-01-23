@@ -1,5 +1,6 @@
 ---
 term: Hashfunktion
+definition:
 ---
 
 En matematisk funktion som tar en variabel storlek på indata (ett meddelande) och producerar en fast storlek på utdata (Hash, hashing, digest eller fingeravtryck). Hash-funktioner är allmänt använda primitiver inom kryptografi. De uppvisar specifika egenskaper som gör dem lämpliga att använda i säkra sammanhang:

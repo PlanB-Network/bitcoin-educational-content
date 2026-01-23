@@ -1,5 +1,6 @@
 ---
 term: Address spoofing
+definition:
 ---
 
 恶意行为者创建与受害者非常相似的 Address（或其他支付标识符）的攻击。其目的是诱骗用户在交易过程中复制这个错误的 Address，从而导致比特币被发送给攻击者，而不是预定的目的地。

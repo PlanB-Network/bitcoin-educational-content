@@ -1,6 +1,7 @@
 ---
 term: Hašovací funkce
 
+definition:
 ---
 Matematická funkce, která přijímá vstup o proměnné velikosti (tzv. zprávu) a vytváří výstup o pevné velikosti (tzv. hash, hashování, digest nebo otisk prstu). Hašovací funkce jsou široce používanými primitivy v kryptografii. Vykazují specifické vlastnosti, díky nimž jsou vhodné pro použití v bezpečných kontextech:
 

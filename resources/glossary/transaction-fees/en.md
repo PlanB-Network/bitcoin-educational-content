@@ -1,5 +1,6 @@
 ---
 term: Transaction fees
+definition:
 ---
 
 Transaction fees represent a sum that aims to compensate miners for their participation in the proof of work mechanism. These fees encourage miners to include transactions in the blocks they create. They result from the difference between the total amount of inputs and the total amount of outputs in a transaction:

@@ -1,5 +1,6 @@
 ---
 term: Outpoint
+definition:
 ---
 
 Een unieke verwijzing naar een niet-uitgevoerde transactie-uitgang (UTXO). Het bestaat uit twee Elements:

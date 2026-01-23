@@ -1,5 +1,6 @@
 ---
 term: Moc obliczeniowa (Hashrate)
+definition:
 ---
 
 Wskaźnik mocy obliczeniowej sieci, mierzony w hashach na sekundę (H/s). Wskazuje zdolność górników do wykonywania operacji hashowania w ramach Proof of Work. Wysoki Hashrate oznacza większe bezpieczeństwo dla historii gospodarczej Bitcoin i zwiększoną odporność na ataki, ponieważ do naruszenia sieci wymagana byłaby znaczna ilość mocy obliczeniowej.

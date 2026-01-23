@@ -1,6 +1,7 @@
 ---
 term: Tiivistetty julkinen avain
 
+definition:
 ---
 Julkista avainta käytetään skripteissä (joko suoraan julkisen avaimen tai osoitteen muodossa) bitcoinien vastaanottamiseen ja suojaamiseen. Raakaa julkista avainta edustaa elliptisen käyrän piste, joka koostuu kahdesta koordinaatista (`x, y`), joiden kummankin pituus on 256 bittiä. Raakamuodossa julkisen avaimen koko on siis 512 bittiä, kun ei oteta huomioon ylimääräistä tavua muodon tunnistamiseksi. Pakattu julkinen avain on puolestaan kompaktimpi julkisen avaimen esitysmuoto. Siinä käytetään vain `x`-koordinaattia ja etuliitettä (`02` tai `03`), joka ilmaisee `y`-koordinaatin pariteetin (parillinen tai pariton).
 

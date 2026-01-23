@@ -1,6 +1,7 @@
 ---
 term: Ketjukoodi
 
+definition:
 ---
 Bitcoin-lompakoiden hierarkkisen deterministisen (HD) derivaation yhteydessä ketjukoodi on 256-bittinen kryptografinen suola-arvo, jota käytetään BIP32-standardin mukaisesti lapsiavainten tuottamiseen vanhempien avaimista. Ketjukoodia käytetään yhdessä vanhemman avaimen ja lapsen indeksin kanssa uuden avainparin (yksityinen avain ja julkinen avain) deterministiseen tuottamiseen paljastamatta vanhemman avainta tai muita johdettuja lapsiavaimia.
 

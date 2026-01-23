@@ -1,6 +1,7 @@
 ---
 term: Penyesuaian kesulitan
 
+definition:
 ---
 Penyesuaian tingkat kesulitan adalah sebuah proses periodik yang menyesuaikan ulang target tingkat kesulitan untuk mekanisme _proof-of-work_ (penambangan) pada Bitcoin. Peristiwa ini terjadi setiap 2016 blok (kurang lebih setiap dua minggu). Hal ini berfungsi untuk menambah atau mengurangi faktor kesulitan (disebut juga target kesulitan), tergantung pada seberapa cepat blok 2016 terakhir ditambang. Penyesuaian ini bertujuan untuk mempertahankan tingkat produksi blok yang stabil dan dapat diprediksi, dengan frekuensi satu blok setiap 10 menit, meskipun ada variasi dalam daya komputasi yang digunakan oleh para penambang. Perubahan tingkat kesulitan selama penyesuaian dibatasi hingga faktor 4. Rumus yang dijalankan oleh node untuk menghitung target baru adalah sebagai berikut:
 

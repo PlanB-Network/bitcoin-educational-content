@@ -1,5 +1,6 @@
 ---
 term: Tor (the onion router)
+definition:
 ---
 
 Mreža relej servera (čvorova) koja anonimizuje poreklo TCP konekcija na internetu. Funkcioniše tako što enkapsulira podatke u više slojeva enkripcije. Svaki relej čvor uklanja Layer da bi otkrio Address sledećeg čvora, sve dok se ne dostigne konačno odredište. Tor mreža obezbeđuje anonimnost sprečavanjem međuprostornih čvorova da znaju i poreklo i odredište podataka, što posmatraču čini veoma teškim praćenje aktivnosti korisnika. TOR mreža se može koristiti u kontekstu Bitcoin da bi se izbeglo povezivanje nečije IP Address sa Bitcoin čvorom, čime se izbegava curenje određenih ličnih informacija.

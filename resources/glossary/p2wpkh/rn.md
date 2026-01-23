@@ -1,5 +1,6 @@
 ---
 term: P2WPKH
+definition:
 ---
 
 P2WPKH bisobanura *Ishura ku Cabona Urufunguzo rwa bose Hash*. Ni urugero rw'inyandiko rusanzwe rukoreshwa mu gushinga ivyangombwa vyo gukoresha amahera kuri UTXO. P2WPKH yashizweho n'ugushirwa mu ngiro kwa SegWit muri Myandagaro 2017.

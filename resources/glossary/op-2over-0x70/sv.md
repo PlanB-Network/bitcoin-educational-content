@@ -1,5 +1,6 @@
 ---
 term: OP_2OVER (0X70)
+definition:
 ---
 
 Kopierar de två Elements som står på fjärde och tredje plats från toppen av stacken och lägger dem sedan ovanpå stacken. Till exempel, om stacken är:

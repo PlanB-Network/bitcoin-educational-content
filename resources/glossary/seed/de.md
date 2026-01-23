@@ -1,5 +1,6 @@
 ---
 term: Seed
+definition:
 ---
 
 Im spezifischen Kontext eines hierarchischen, deterministischen Bitcoin-Portfolios ist ein seed eine 512-Bit-Information, die von einem Zufallsereignis abgeleitet ist. Es wird verwendet, um deterministisch und hierarchisch generate eine Reihe von privaten Schlüsseln und die entsprechenden öffentlichen Schlüssel für ein Bitcoin-Portfolio zu erstellen. Der seed wird oft mit der Recovery-Phrase selbst verwechselt. Aber es ist nicht dasselbe. Die seed wird durch Anwendung der Funktion "PBKDF2" auf die Mnemonic-Phrase und jede passphrase erhalten.

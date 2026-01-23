@@ -1,6 +1,7 @@
 ---
 term: Tapscript
 
+definition:
 ---
 Päivityksellä pyrittiin muuttamaan tiettyjä klassisen Bitcoin-skriptikielen opkoodeja, jotta voidaan määritellä uusi skriptikieli, jota käytetään P2TR-menoihin. Tapscript otettiin käyttöön BIP342:lla, joka toteutettiin Taproot-softahaarukalla.
 

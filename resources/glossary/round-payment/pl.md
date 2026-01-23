@@ -1,5 +1,6 @@
 ---
 term: Płatność zaokrąglona
+definition:
 ---
 
 Wewnętrzna heurystyka do analizy łańcucha w Bitcoin, która pozwala na postawienie hipotezy o naturze wyjść transakcji w oparciu o okrągłe kwoty. Ogólnie rzecz biorąc, w obliczu prostego wzorca płatności (1 wejście i 2 wyjścia), jeśli jedno z wyjść wydaje okrągłą kwotę, to reprezentuje płatność. W drodze eliminacji, jeśli jedno wyjście reprezentuje płatność, drugie reprezentuje zmianę. Można zatem zinterpretować, że jest prawdopodobne, że użytkownik wprowadzający transakcję nadal posiada wyjście zidentyfikowane jako zmiana.

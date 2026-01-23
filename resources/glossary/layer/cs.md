@@ -1,5 +1,6 @@
 ---
 term: Vrstva
+definition:
 ---
 
 Protokol nebo síť postavená nad hlavní sítí Bitcoin. Používá síť Bitcoin jako základ, a proto je na jejím protokolu závislá. Síť Bitcoin však není závislá na svých překryvných vrstvách. Příkladem takové překryvné sítě je Lightning Network.

@@ -1,5 +1,6 @@
 ---
 term: BIP0039
+definition:
 ---
 
 BIP39는 Wallet의 임의의 seed를 기억하기 쉽고 사람이 읽을 수 있는 일련의 단어로 변환하는 방법을 도입하여 Mnemonic 구문으로 알려져 있습니다.

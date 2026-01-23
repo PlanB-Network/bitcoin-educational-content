@@ -1,5 +1,6 @@
 ---
 term: Ufunguo wa umma ulioshinikizwa
+definition:
 ---
 
 Ufunguo wa umma hutumiwa katika hati (moja kwa moja kwa njia ya ufunguo wa umma au kama Address) kupokea na kulinda bitcoins. Ufunguo ghafi wa umma unawakilishwa na ncha kwenye mkunjo wa duaradufu, inayojumuisha viwianishi viwili (`x, y`) kila moja ya biti 256. Katika umbizo mbichi, ufunguo wa umma kwa hivyo hupima biti 512, bila kuhesabu baiti ya ziada ili kutambua umbizo. Ufunguo wa umma uliobanwa, kwa upande mwingine, ni uwakilishi wa ufunguo wa umma uliobana zaidi. Inatumia tu `x` kuratibu na kiambishi awali (`02` au `03`) ambacho kinaonyesha usawa wa kuratibu `y` (hata au isiyo ya kawaida).

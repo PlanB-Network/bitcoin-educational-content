@@ -1,5 +1,6 @@
 ---
 term: Icipimo c'ingorane
+definition:
 ---
 
 Ikibazo c'ingorane, kizwi kandi nk'intumbero y'ingorane, ni ikigereranyo gikoreshwa mu buryo bwo kwumvikana na Proof of Work (Proof of Work, PoW) kuri Bitcoin. Ico ciyumviro kigereranya agaciro k’imibare kagena ingorane abacukuzi bashobora gutorera umuti ingorane yihariye y’ubuhinga bwo gukingira amakuru, yitwa Proof of Work, igihe barema igice gishasha kuri Blockchain.

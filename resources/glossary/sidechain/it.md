@@ -1,6 +1,7 @@
 ---
 term: Sidechain
 
+definition:
 ---
 Una blockchain progettata per operare in parallelo alla blockchain principale di Bitcoin. Le due catene sono collegate tramite un peg bidirezionale che assicura che il bene che circola sulla sidechain mantenga lo stesso valore del bitcoin sulla catena principale. La sidechain ha un proprio meccanismo di consenso, che può essere indipendente o affidarsi parzialmente al meccanismo della catena principale. In genere consente l'utilizzo di funzionalità non direttamente disponibili sulla catena principale, o di funzionalità migliorate, come ad esempio: maggiore flessibilità nello sviluppo, transazioni più veloci e/o più private, o una maggiore capacità transazionale. Per ottenere questo risultato, la sidechain scende a compromessi rispetto alla catena principale.
 

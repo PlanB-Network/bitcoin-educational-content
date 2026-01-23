@@ -1,5 +1,6 @@
 ---
 term: Tìm đường
+definition:
 ---
 
 Quy trình được một nút sử dụng để xác định đường dẫn tối ưu để định tuyến thanh toán qua mạng lưới kênh Lightning. Pathfinding được thực hiện bởi nút thanh toán, nút này phải chọn các nút trung gian phù hợp nhất để tiếp cận người nhận. Lựa chọn này dựa trên một số tiêu chí, chẳng hạn như phí, dung lượng kênh và khóa thời gian.

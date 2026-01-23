@@ -1,5 +1,6 @@
 ---
 term: Outpoint
+definition:
 ---
 
 Igiharuro kidasanzwe c’umusaruro w’ibikorwa bitakoreshejwe (UTXO). Igizwe n’ibice bibiri Elements:

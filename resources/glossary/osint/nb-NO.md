@@ -1,6 +1,7 @@
 ---
 term: OSINT
 
+definition:
 ---
 Forkortelse for "*Open Source Intelligence*". OSINT refererer til innsamling og analyse av offentlig tilgjengelig informasjon fra kilder som er tilgjengelige for alle. Disse kildene kan omfatte nettsteder, fora, sosiale nettverk, offentlige databaser, akademiske publikasjoner, offentlige dokumenter osv. Hovedmålet med OSINT er å omdanne rådata til handlingsrettet informasjon ved å identifisere trender, sammenhenger og etterforskningsspor.
 

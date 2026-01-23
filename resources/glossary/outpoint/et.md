@@ -1,6 +1,7 @@
 ---
 term: Outpoint
 
+definition:
 ---
 Unikaalne viide kasutamata tehingu väljundile (UTXO). Koosneb kahest elemendist:
 

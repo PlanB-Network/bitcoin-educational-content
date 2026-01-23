@@ -1,5 +1,6 @@
 ---
 term: OP_SHA256 (0XA8)
 
+definition:
 ---
 Võtab virna ülemise elemendi ja asendab selle oma hashiga, kasutades funktsiooni `SHA256`.

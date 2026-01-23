@@ -1,5 +1,6 @@
 ---
 term: OP_2DUP (0X6E)
+definition:
 ---
 
 Duplicira dva vrha Elements steka, zatim ih postavlja na vrh steka. Na primer, ako je stek:

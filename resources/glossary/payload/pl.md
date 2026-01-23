@@ -1,5 +1,6 @@
 ---
 term: Ładunek (Payload)
+definition:
 ---
 
 W ogólnym kontekście obliczeń, ładunek to podstawowe dane przenoszone w większym pakiecie danych. Na przykład w SegWit V0 przez Bitcoin Address, ładunek odpowiada Hash klucza publicznego, bez różnych metadanych (HRP, separator, wersja SegWit i suma kontrolna). Na przykład, w Address `bc1qc2eukw7reasfcmrafevp5dhv8635yuqays50gj`, mamy :

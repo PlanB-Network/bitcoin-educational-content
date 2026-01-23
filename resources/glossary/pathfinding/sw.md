@@ -1,5 +1,6 @@
 ---
 term: Pathfinding
+definition:
 ---
 
 Mchakato unaotumiwa na nodi kubainisha njia mwafaka ya kuelekeza malipo kupitia mtandao wa kituo cha Umeme. Utaftaji wa njia unafanywa na nodi ya walipaji, ambayo lazima ichague nodi za kati zinazofaa zaidi ili kufikia mpokeaji. Chaguo hili linatokana na idadi ya vigezo, kama vile ada, uwezo wa kituo na kufunga saa.

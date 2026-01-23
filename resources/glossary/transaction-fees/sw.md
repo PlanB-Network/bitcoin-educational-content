@@ -1,5 +1,6 @@
 ---
 term: Ada za miamala
+definition:
 ---
 
 Ada za muamala zinawakilisha jumla ambayo inalenga kulipa fidia wachimbaji kwa ushiriki wao katika utaratibu wa Proof of Work. Ada hizi zinawahimiza wachimbaji kujumuisha miamala katika vitalu wanavyounda. Yanatokana na tofauti kati ya jumla ya kiasi cha pembejeo na jumla ya kiasi cha matokeo katika muamala:

@@ -1,5 +1,6 @@
 ---
 term: BIP0065
+definition:
 ---
 
 Introduced a new opcode named `OP_CHECKLOCKTIMEVERIFY` which allows a UTXO to be locked and remain unusable until a specified future time. 

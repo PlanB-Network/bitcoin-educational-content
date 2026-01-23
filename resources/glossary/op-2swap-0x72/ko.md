@@ -1,5 +1,6 @@
 ---
 term: OP_2SWAP (0X72)
+definition:
 ---
 
 스택 맨 위에 있는 Elements 두 개를 바로 아래에 있는 Elements 두 개로 바꿉니다. 예를 들어 스택이

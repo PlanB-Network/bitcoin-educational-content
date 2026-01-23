@@ -1,5 +1,6 @@
 ---
 term: CISA
+definition:
 ---
 
 Inyuguti y'inyongera y'"Ihuriro ry'Isinya ry'Inyinjizo". Ico ni iciyumviro c’ubuhinga gigenewe gutuma ubunini bw’amafaranga y’ubudandaji bwa Bitcoin bugenda neza mu kugabanya umubare w’imikono isabwa kugira ngo yemezwe.

@@ -1,5 +1,6 @@
 ---
 term: SPV-nod (lätt nod)
+definition:
 ---
 
 En SPV-nod (*Simple Payment Verification*), ibland kallad "light-nod", är en lättviktsklient till en Bitcoin-nod som gör det möjligt för användare att validera transaktioner utan att behöva lagra hela Blockchain. Istället lagrar en SPV-nod endast blockhuvudena och hämtar information om specifika transaktioner genom att vid behov fråga fullständiga noder. Denna verifieringsprincip möjliggörs av strukturen hos transaktioner i Bitcoin-block, som är organiserade i en kryptografisk ackumulator (Merkle Tree).

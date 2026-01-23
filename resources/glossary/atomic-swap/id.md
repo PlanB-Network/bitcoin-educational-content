@@ -1,6 +1,7 @@
 ---
 term: Atomic swap
 
+definition:
 ---
 Teknologi yang memungkinkan pertukaran mata uang kripto secara langsung antara dua pihak, tanpa memerlukan kepercayaan dan tanpa memerlukan perantara. Pertukaran ini disebut "atomik" karena hanya dapat terjadi dua kemungkinan:
 

@@ -1,5 +1,6 @@
 ---
 term: bitcoind
+definition:
 ---
 
 "*Bitcoin daemon*"의 약어입니다.

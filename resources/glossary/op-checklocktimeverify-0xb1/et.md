@@ -1,6 +1,7 @@
 ---
 term: OP_CHECKLOCKTIMEVERIFY (0XB1)
 
+definition:
 ---
 Muudab tehingu kehtetuks, kui kõik need tingimused ei ole täidetud:
 

@@ -1,5 +1,6 @@
 ---
 term: BIP0021
+definition:
 ---
 
 Iciyumviro canditswe na Nils Schneider na Matt Corallo, gishingiye kuri BIP20 yanditswe na Luke Dashjr, iyo ubwayo ikaba yava mu yindi nyandiko yanditswe na Nils Schneider.

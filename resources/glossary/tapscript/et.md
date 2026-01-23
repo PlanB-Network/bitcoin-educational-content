@@ -1,6 +1,7 @@
 ---
 term: Tapscript
 
+definition:
 ---
 Uuendus, mille eesmärk on muuta klassikalise Bitcoini skriptimiskeele teatud opkoode, et määratleda uus skriptimiskeel, mida kasutatakse P2TR kulutuste jaoks. Tapscript võeti kasutusele BIP342 poolt, mida rakendati Taproot soft forki abil.
 

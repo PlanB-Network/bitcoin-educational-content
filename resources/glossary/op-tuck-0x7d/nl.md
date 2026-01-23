@@ -1,5 +1,6 @@
 ---
 term: OP_TUCK (0X7D)
+definition:
 ---
 
 Kopieert het item bovenaan de stack en voegt het in tussen het tweede en derde item van de stack. Bijvoorbeeld, als de stapel is:

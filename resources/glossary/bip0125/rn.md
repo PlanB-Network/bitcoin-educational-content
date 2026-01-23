@@ -1,5 +1,6 @@
 ---
 term: BIP0125
+definition:
 ---
 
 Isobanura iciyumviro ca *Replace-by-fee* (RBF), iremesha uwurungitse gusubirira igikorwa kitaremejwe n’iyindi verisiyo irimwo amafaranga menshi y’ugucuruza.

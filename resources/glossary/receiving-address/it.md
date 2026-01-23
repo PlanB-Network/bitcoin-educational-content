@@ -1,6 +1,7 @@
 ---
 term: Indirizzo di ricezione
 
+definition:
 ---
 Informazioni utilizzate per ricevere bitcoin. Un indirizzo è solitamente costruito mediante l'hashing di una chiave pubblica, utilizzando `SHA256` e `RIMPEMD160`, e aggiungendo metadati a questo digest. Le chiavi pubbliche utilizzate per costruire un indirizzo di ricezione fanno parte del portafoglio dell'utente e sono quindi derivate dal suo seme. Ad esempio, gli indirizzi SegWit sono composti dalle seguenti informazioni:
 

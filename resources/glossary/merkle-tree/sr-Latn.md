@@ -1,5 +1,6 @@
 ---
 term: Merkle stablo
+definition:
 ---
 
 Merkle Tree je kriptografski akumulator. To je metoda za dokazivanje članstva određenog podatka unutar većeg skupa. To je struktura podataka koja omogućava verifikaciju informacija u kompaktnom formatu. U sistemu Bitcoin, Merkle stabla se koriste za grupisanje i kondenzovanje transakcija bloka u jedan Hash, nazvan Merkle Root (ili "*Root Hash*"). Svaka transakcija se hešira, zatim se susedni heševi hijerarhijski heširaju zajedno dok se ne dobije Merkle Root.

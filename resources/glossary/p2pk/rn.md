@@ -1,5 +1,6 @@
 ---
 term: P2PK
+definition:
 ---
 
 P2PK ni *Ishura ku rufunguzo rwa bose*. Ni urugero rw'inyandiko rusanzwe rukoreshwa kuri Bitcoin kugira ngo hashirweho ivyangombwa vyo gukoresha kuri UTXO. Ishobora gufunga bitcoins ku rufunguzo rwa bose, aho gufunga Address.

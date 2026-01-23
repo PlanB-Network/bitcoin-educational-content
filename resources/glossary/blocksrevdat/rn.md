@@ -1,5 +1,6 @@
 ---
 term: Blocks/rev*.dat
+definition:
 ---
 
 Izina ry'amadosiye ari muri Bitcoin core abika amakuru akenewe kugira ngo hasubirwemwo amahinduka yakozwe kuri UTXO yashizweho n'amabuye yongeweko mbere. Buri dosiye igaragazwa n'umubare wihariye uhuye na dosiye blk*.dat ihuye.

@@ -1,6 +1,7 @@
 ---
 term: Hloubka
 
+definition:
 ---
 V kontextu HD (Hierarchical Deterministic) peněženek se hloubka vztahuje na konkrétní úroveň klíče (veřejného nebo soukromého), řetězového kódu, rozšířeného klíče nebo adresy v rámci struktury peněženky odvozené od hlavního klíče. Každou úroveň této struktury si lze představit jako patro ve stromu klíčů, kde hlavní klíč je v kořeni (hloubka 0) a následující úrovně definují různé atributy, jako např:
 

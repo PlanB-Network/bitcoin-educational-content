@@ -1,5 +1,6 @@
 ---
 term: Bitcoin（大寫B）
+definition:
 ---
 
 Bitcoin 是 Satoshi Nakamoto 於 2009 年創建的點對點電子現金系統的名稱。使用大寫「B」的 Bitcoin 一詞可以指三種不同的東西：

@@ -1,6 +1,7 @@
 ---
 term: Outpoint
 
+definition:
 ---
 Yksilöllinen viittaus käyttämättömään tapahtumalähteeseen (UTXO). Se koostuu kahdesta elementistä:
 

@@ -1,5 +1,6 @@
 ---
 term: OP_MIN (0XA3)
+definition:
 ---
 
 Väljer den minsta av de två Elements högst upp i stacken och skjuter upp den på stacken. Denna operation behåller endast det minsta av de två värdena högst upp.

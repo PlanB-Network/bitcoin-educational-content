@@ -1,5 +1,6 @@
 ---
 term: BIP0326
+definition:
 ---
 
 Taproot 트랜잭션을 지원하는 Bitcoin Wallet 소프트웨어 개발자를 위한 개선 제안입니다.

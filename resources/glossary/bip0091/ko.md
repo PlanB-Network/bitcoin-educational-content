@@ -1,5 +1,6 @@
 ---
 term: BIP0091
+definition:
 ---
 
 비트 1을 통해 컴퓨팅 파워 신호 지원의 95%라는 필수 임계값에 직접 도달하지 않고도 MASF를 통해 BIP141, BIP143, BIP147에 정의된 SegWit Soft Fork의 활성화를 촉진하기 위한 제임스 힐리아드(Bitmain의 엔지니어)의 제안입니다.

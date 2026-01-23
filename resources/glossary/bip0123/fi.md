@@ -1,6 +1,7 @@
 ---
 term: BIP0123
 
+definition:
 ---
 Perustetaan uusi standardoitu prosessi Bitcoinin parannusehdotusten luokittelua varten. Bitcoin-ehdotukset on nyt luokiteltava neljään luokkaan:
 

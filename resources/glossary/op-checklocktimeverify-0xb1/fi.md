@@ -1,6 +1,7 @@
 ---
 term: OP_CHECKLOCKTIMEVERIFY (0XB1)
 
+definition:
 ---
 Tekee tapahtumasta pätemättömän, elleivät kaikki nämä ehdot täyty:
 

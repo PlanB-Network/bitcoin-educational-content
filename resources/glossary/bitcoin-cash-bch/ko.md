@@ -1,5 +1,6 @@
 ---
 term: 비트코인 캐시 (bch)
+definition:
 ---
 
 2017년 8월 1일 블록 478,558에서 발생한 Bitcoin(BTC)의 Hard Fork에서 발생한 암호화폐 시스템입니다.

@@ -1,5 +1,6 @@
 ---
 term: Outpoint
+definition:
 ---
 
 Unikalne odniesienie do niewydanego wyniku transakcji (UTXO). Składa się z dwóch Elements:

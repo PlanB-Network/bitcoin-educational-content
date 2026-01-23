@@ -1,5 +1,6 @@
 ---
 term: Scriptpubkey
+definition:
 ---
 
 Hati iliyo katika sehemu ya matokeo ya muamala wa Bitcoin ambayo inafafanua masharti ambayo UTXO husika inaweza kutumika. Hati hii kwa hivyo inalinda bitcoins. Katika hali yake ya kawaida, `scriptPubKey` ina hali inayohitaji muamala unaofuata ili kutoa uthibitisho wa kumiliki ufunguo wa faragha unaolingana na Bitcoin Address iliyobainishwa. Hii mara nyingi hupatikana kwa hati inayodai saini inayolingana na ufunguo wa umma unaohusishwa na Address inayotumiwa kupata pesa hizi. Muamala unapojaribu kutumia UTXO hii kama ingizo, lazima itoe `scriptSig` ambayo, ikiunganishwa na `scriptPubKey`, inakidhi masharti yaliyowekwa na kutoa hati halali.

@@ -1,5 +1,6 @@
 ---
 term: Policy (Miniscript)
+definition:
 ---
 
 Een gebruikersgeoriënteerde taal op hoog niveau waarmee eenvoudig de voorwaarden kunnen worden gespecificeerd waaronder een UTXO kan worden ontgrendeld binnen het kader van Miniscript. Het beleid is een abstracte beschrijving van de bestedingsregels. Het kan dan worden gecompileerd in miniscript, wat een één-op-één equivalent is met operaties uit Bitcoin's eigen scripttaal.

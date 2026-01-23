@@ -1,5 +1,6 @@
 ---
 term: OP_2DUP (0X6E)
+definition:
 ---
 
 Dupliceert de twee bovenste Elements van de stapel en plaatst ze bovenop de stapel. Bijvoorbeeld, als de stapel is:

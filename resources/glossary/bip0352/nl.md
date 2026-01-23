@@ -1,5 +1,6 @@
 ---
 term: BIP0352
+definition:
 ---
 
 Voorstel voor verbetering door Josibake en Ruben Somsen dat Silent Payments introduceert, een methode voor het gebruik van statische Bitcoin adressen om betalingen te ontvangen zonder Address hergebruik, interactie en zonder zichtbare On-Chain koppeling tussen verschillende betalingen. Deze techniek elimineert de noodzaak om generate nieuwe, ongebruikte ontvangstadressen te geven voor elke transactie, waardoor de gebruikelijke interacties in Bitcoin, waarbij de ontvanger een nieuwe Address moet geven aan de betaler, vermeden worden.

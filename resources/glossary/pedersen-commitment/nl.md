@@ -1,5 +1,6 @@
 ---
 term: Pedersen commitment
+definition:
 ---
 
 Een Pedersen commitment is een type cryptografische Commitment met de eigenschap homomorf te zijn voor de opteloperatie. Dit betekent dat het mogelijk is om de som van twee toezeggingen te valideren zonder de individuele waarden te onthullen.

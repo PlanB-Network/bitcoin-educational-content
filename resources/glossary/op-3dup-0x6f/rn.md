@@ -1,5 +1,6 @@
 ---
 term: OP_3DUP (0X6F)
+definition:
 ---
 
 Isubiramwo Elements zitatu zo hejuru z’ikirundo, hanyuma zikazishira hejuru y’ikirundo. Nk'akarorero, nimba ikirundo ari:

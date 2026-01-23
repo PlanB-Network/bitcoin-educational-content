@@ -1,6 +1,7 @@
 ---
 term: P2SH-P2WSH
 
+definition:
 ---
 P2SH-P2WSH расшифровывается как *Pay to Script Hash - Pay to Witness Script Hash*. Это стандартная модель скриптов, используемая для создания условий расходования средств на UTXO, также известная как "вложенный SegWit".
 

@@ -1,5 +1,6 @@
 ---
 term: Hashrate
+definition:
 ---
 
 Indicator of the computing power of the network, measured in hashes per second (H/s). It indicates the miners' capacity to perform hashing operations as part of the proof of work. A high hashrate means greater security for the economic history of Bitcoin and increased resistance to attacks, as a significant amount of computing power would be required to compromise the network.

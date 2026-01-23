@@ -1,6 +1,7 @@
 ---
 term: BIP0001
 
+definition:
 ---
 Asiakirja, jossa määritellään prosessi Bitcoin-protokollaan ehdotettujen parannusten kehittämiseksi ja toteuttamiseksi. Se on Amir Taakin elokuussa 2011 kirjoittama, ja siinä vahvistetaan standardimenetelmä mahdollisten muutosten ehdottamista ja dokumentointia varten. BIP-ehdotukset luokitellaan kolmeen luokkaan:
 

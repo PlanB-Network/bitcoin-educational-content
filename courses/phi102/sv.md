@@ -40,7 +40,6 @@ Denna kurs utforskar frihet som ett socialt projekt med utgångspunkt i den rika
 
 
 
-![video](https://www.youtube.com/watch?v=md-rDzJX0Ws)
 
 
 
@@ -96,7 +95,6 @@ Känslor är dessutom till sin natur individuella. Man kan inte uppleva hunger m
 
 
 
-![video](https://www.youtube.com/watch?v=w9DUtXbOYEg)
 
 
 
@@ -152,7 +150,6 @@ Den franska historien illustrerar konsekvenserna av avsaknaden av denna frihet. 
 
 
 
-![video](https://www.youtube.com/watch?v=Vjm91Lve_SA)
 
 
 
@@ -238,7 +235,6 @@ Sammantaget utgör dessa observationer inte en abstrakt teori, utan en rigorös 
 
 
 
-![video](https://www.youtube.com/watch?v=Wlc3WLYFjXo)
 
 
 
@@ -306,7 +302,6 @@ Den medborgerliga friheten är också grundad på grundläggande sanningar. Yttr
 
 
 
-![video](https://www.youtube.com/watch?v=8Ib5M-6Rr8M)
 
 
 
@@ -383,7 +378,6 @@ Slutligen är avskaffandet av räntan på pengar och regleringen av vinster angr
 
 
 
-![video](https://www.youtube.com/watch?v=eS_LZr9iKto)
 
 
 
@@ -452,7 +446,6 @@ Historisk analys visar att frihet inte är ett förlorat naturtillstånd som ska
 
 
 
-![video](https://www.youtube.com/watch?v=v7blehzJCr8)
 
 
 
@@ -511,7 +504,6 @@ En granskning av de historiska orsakerna till ofrihet avslöjar en grundläggand
 
 
 
-![video](https://www.youtube.com/watch?v=X4Htu6xM4Qk)
 
 
 
@@ -571,7 +563,6 @@ En granskning av de olika utvecklingsstadierna visar att det finns ett djupt sam
 
 
 
-![video](https://www.youtube.com/watch?v=Uzns3FT688k)
 
 
 
@@ -630,7 +621,6 @@ Revolutioner har betydande nackdelar: de generate mycket våld och tenderar att 
 
 
 
-![video](https://www.youtube.com/watch?v=0q_m3KIoq-U)
 
 
 
@@ -684,7 +674,6 @@ Denna reflektion leder till en väsentlig slutsats: dagens omständigheter är m
 
 
 
-![video](https://www.youtube.com/watch?v=aEoerhy6ERU)
 
 
 
@@ -745,7 +734,6 @@ Efter att ha fastställt dessa förutsättningar är det nu möjligt att unders�
 
 
 
-![video](https://www.youtube.com/watch?v=xcaV6Kb21O0)
 
 
 
@@ -801,7 +789,6 @@ Av denna analys följer en grundläggande slutsats: ökad handel mellan en natio
 
 
 
-![video](https://www.youtube.com/watch?v=qrE5GJWNwGE)
 
 
 
@@ -860,7 +847,6 @@ Den avgörande fördelen med ekonomisk frihet är att produktionen aldrig är f�
 
 
 
-![video](https://www.youtube.com/watch?v=tfH8FapqqsE)
 
 
 
@@ -920,7 +906,6 @@ I ett fritt samhälle leder egenintresset till innovation och framsteg. I ett sy
 
 
 
-![video](https://www.youtube.com/watch?v=hS1_Nkd_H9M)
 
 
 
@@ -976,7 +961,6 @@ Visserligen var effekterna av konflikter på icke-krigförande samhällen mycket
 
 
 
-![video](https://www.youtube.com/watch?v=DzE_iGRP5Z0)
 
 
 
@@ -1035,7 +1019,6 @@ System av ofrihet kännetecknas just av ojämlikhet: vissa individer njuter frit
 
 
 
-![video](https://www.youtube.com/watch?v=LDMCs9wCTQc)
 
 
 
@@ -1095,7 +1078,6 @@ Omvänt fungerar relationer som bygger på politisk makt på ett stympat sätt. 
 
 
 
-![video](https://www.youtube.com/watch?v=mfvPE1fO3-E)
 
 
 
@@ -1167,7 +1149,6 @@ Frihetsdoktrinen motsätter sig denna logik med principen om individuell och kol
 
 
 
-![video](https://www.youtube.com/watch?v=VT3w2BjiD8E)
 
 
 
@@ -1227,7 +1208,6 @@ Dessa författare identifierade arbetsprotektionism som den framtida dominerande
 
 
 
-![video](https://www.youtube.com/watch?v=MRcLZ1SpAo8)
 
 
 
@@ -1297,7 +1277,6 @@ Denna intellektuella och faktiska historia om ofrihetens misslyckande är en gru
 
 
 
-![video](https://www.youtube.com/watch?v=asOEZJRQuOw)
 
 
 
@@ -1341,7 +1320,6 @@ En viktig distinktion är den mellan negativ och positiv frihet. Negativ frihet 
 
 
 
-![video](https://www.youtube.com/watch?v=mkzE0SfSl1Q)
 
 
 
@@ -1396,7 +1374,6 @@ Mot bakgrund av dessa faror utvecklade det liberala tänkandet, i synnerhet Benj
 
 
 
-![video](https://www.youtube.com/watch?v=K1e39vtOoCc)
 
 
 
@@ -1456,7 +1433,6 @@ Ekonomiska villfarelser är dock bara en kategori bland många. Den intellektuel
 
 
 
-![video](https://www.youtube.com/watch?v=zJhhcxwXpRI)
 
 
 
@@ -1515,7 +1491,6 @@ Det socialistiska påståendet att de fattiga blir fattigare och fattigare i kap
 
 
 
-![video](https://www.youtube.com/watch?v=GtxJlUa_H08)
 
 
 
@@ -1582,7 +1557,6 @@ Denna analys gör det också möjligt för oss att förstå hur ofrihetssystem u
 
 
 
-![video](https://www.youtube.com/watch?v=ary4UJhwRl8)
 
 
 
@@ -1646,7 +1620,6 @@ Courcelle-Seneuil hävdade helt enkelt den franska revolutionens idéer om frihe
 
 
 
-![video](https://www.youtube.com/watch?v=c8Wi5jkSEu8)
 
 
 
@@ -1707,7 +1680,6 @@ Den nuvarande verkligheten avslöjar en paradoxal och sorglig situation. Utbildn
 
 
 
-![video](https://www.youtube.com/watch?v=cEzFGSnYfnk)
 
 
 
@@ -1771,7 +1743,6 @@ Molinari och de allra flesta franska liberaler på hans tid såg positivt på in
 
 
 
-![video](https://www.youtube.com/watch?v=b8PojgZ0TQo)
 
 
 
@@ -1831,7 +1802,6 @@ En sådan internationell rättsordning, som skulle erkänna handlingsfrihet och 
 
 
 
-![video](https://www.youtube.com/watch?v=OfqTuJvo3MQ)
 
 
 

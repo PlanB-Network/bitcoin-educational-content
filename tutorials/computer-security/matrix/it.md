@@ -30,10 +30,10 @@ La struttura di Matrix si basa sulla **federazione**, un modello in cui diversi 
 
 Ogni server (chiamato _homeserver_) può ospitare utenti, chat e sincronizzare i messaggi con gli altri server della rete. Così:
 - nessuna singola entità controlla l'intero sistema;
-- un server può scomparire senza influenzare il resto della rete;
+- un server può sparire senza influenzare il resto della rete;
 - ogni organizzazione o individuo può gestire il proprio spazio.
 
-Questo modello garantisce una **alta resilienza** e riflette i valori della sovranità tecnologica.
+Questo modello garantisce un'**alta resilienza** e riflette i valori della sovranità tecnologica.
 
 ![capture](assets/fr/04.webp)
 
@@ -65,20 +65,20 @@ In questo modo è possibile unificare le comunità sparse su diverse piattaforme
 
 ## Come funziona Matrix?
 
-Questa sezione presenta la struttura interna della rete Matrix per capire come utenti, server e applicazioni interagiscono all'interno di questo ecosistema decentralizzato. Matrix si basa su tre elementi essenziali: _homeserver_, identità e _clienti_ utilizzati per comunicare.
+Questa sezione presenta la struttura interna della rete Matrix per capire come utenti, server e applicazioni interagiscono all'interno di questo ecosistema decentralizzato. Matrix si basa su tre elementi essenziali: _homeserver_, identità e _client_ utilizzati per comunicare.
 
 ### Server: homeserver
 
 Matrix viene eseguito su server indipendenti chiamati _homeserver_.
 
 Ogni homeserver gestisce:
-- gli account utente che ospita,
-- conversazioni private e stanze a cui questi utenti partecipano,
+- gli account utente che ospita;
+- conversazioni private e stanze a cui questi utenti partecipano;
 - sincronizzazione con altri server di rete.
 
 Tutti gli homeserver collegati alla rete Matrix si scambiano automaticamente messaggi ed eventi dalle stanze condivisi. Ad esempio:
-- un utente registrato sul server A può chattare con un utente sul server B,
-- una stanza può essere distribuita su decine di server,
+- un utente registrato sul server A può chattare con un utente sul server B;
+- una stanza può essere distribuita su decine di server;
 - nessuno ha il controllo su una stanza o su una comunità nel suo complesso.
 
 Questo modello è altamente resiliente e consente a ogni organizzazione o individuo di gestire la propria infrastruttura.
@@ -106,15 +106,15 @@ Questo identificatore consente di comunicare con qualsiasi altro utente di Matri
 Per utilizzare Matrix, è necessario connettersi con un'applicazione chiamata **client Matrix**.
 
 I più noti sono:
-- Element (web, mobile, desktop)
-- FluffyChat (mobile)
-- Cinny (web/desktop minimalista)
-- Nheko (desktop)
+- Element (web, mobile, desktop);
+- FluffyChat (mobile);
+- Cinny (web/desktop minimalista);
+- Nheko (desktop).
 
 Queste applicazioni non sono altro che interfacce per:
-- per visualizzare i messaggi,
-- inviare testo, immagini o file,
-- partecipare o creare stanze,
+- per visualizzare i messaggi;
+- inviare testo, immagini o file;
+- partecipare o creare stanze;
 - effettuare chiamate audio/video.
 
 Tutte le applicazioni comunicano con i server attraverso lo stesso protocollo standardizzato.
@@ -122,10 +122,10 @@ Tutte le applicazioni comunicano con i server attraverso lo stesso protocollo st
 ### Stanze e messaggi privati (DM)
 
 In Matrix, gli scambi avvengono in **camere** (rooms):
-- una stanza può essere pubblica o privata,
-- può contenere due persone o migliaia,
-- può essere condiviso tra più server,
-- ha un identificatore univoco che inizia con **!**
+- una stanza può essere pubblica o privata;
+- può contenere due persone o migliaia;
+- può essere condiviso tra più server;
+- ha un identificatore univoco che inizia con **!**.
 
 I messaggi privati sono semplicemente delle chat con due partecipanti, spesso chiamate **DM (Direct Messages)**.
 
@@ -153,8 +153,8 @@ Matrix supporta la crittografia end-to-end per le conversazioni private e i grup
 Il protocollo utilizza l'algoritmo Megolm/Olm, progettato appositamente per garantire una forte sicurezza in ambienti distribuiti e multidispositivo.
 
 In questo modo è possibile:
-- proteggere le conversazioni sensibili,
-- impedire l'accesso non autorizzato (anche dal server host),
+- proteggere le conversazioni sensibili;
+- impedire l'accesso non autorizzato (anche dal server host);
 - mantenere la riservatezza a lungo termine.
 
 La crittografia non è un'opzione: è un componente fondamentale del protocollo.
@@ -164,8 +164,8 @@ La crittografia non è un'opzione: è un componente fondamentale del protocollo.
 Matrix non è un'applicazione, ma un protocollo.
 
 Questa diversità di client garantisce:
-- una scelta adeguata alle esigenze individuali,
-- la possibilità di utilizzare Matrix su qualsiasi tipo di dispositivo,
+- una scelta adeguata alle esigenze individuali;
+- la possibilità di utilizzare Matrix su qualsiasi tipo di dispositivo;
 - nessuna dipendenza da un singolo software.
 
 Se un client non si adatta o cessa di essere mantenuto, è sufficiente selezionarne un altro; l'account continua a funzionare normalmente.
@@ -173,8 +173,8 @@ Se un client non si adatta o cessa di essere mantenuto, è sufficiente seleziona
 ### Federare e interconnettere diverse comunità
 
 La federazione consente a diversi server di lavorare insieme pur essendo gestiti in modo indipendente. Così:
-- un'organizzazione può gestire il proprio homeserver,
-- i singoli individui possono unirsi ai server pubblici,
+- un'organizzazione può gestire il proprio homeserver;
+- i singoli individui possono unirsi ai server pubblici;
 - tutti possono comunicare tra loro come se fossero sulla stessa piattaforma.
 
 Questa flessibilità permette di creare spazi di comunicazione adatti a ogni esigenza: team, associazioni, comunità, istituzioni o progetti open source.
@@ -202,9 +202,9 @@ Questa interoperabilità riduce la frammentazione e semplifica la collaborazione
 Il protocollo Matrix è interamente open source e sviluppato in modo trasparente.
 
 Questo garantisce diversi vantaggi:
-- una continua evoluzione dello standard,
-- la possibilità per chiunque di controllare il codice,
-- indipendenza da cambiamenti commerciali o politici,
+- una continua evoluzione dello standard;
+- la possibilità per chiunque di controllare il codice;
+- indipendenza da cambiamenti commerciali o politici;
 - resilienza a lungo termine.
 
 A differenza dei sistemi di messaggistica proprietari, il futuro di Matrix non dipende da una singola azienda, ma da una comunità globale e da uno standard aperto.
@@ -225,19 +225,19 @@ Matrix è una rete federata: ci sono numerosi server (homeserver) gestiti da div
 Questa è la soluzione più semplice.
 
 Esempi di server popolari:
-- _matrix.org_ (il più noto)
-- _envs.net_
-- server comunitari tematici (tecnologia, privacy, open-source...)
+- _matrix.org_ (il più noto);
+- _envs.net_;
+- server comunitari tematici (tecnologia, privacy, open-source...).
 
 Questi server sono adatti agli utenti inesperti che vogliono registrarsi rapidamente.
 
 ### - Utilizzare un server privato
 
 Ideale per:
-- un'organizzazione,
-- una famiglia,
-- un progetto open source,
-- un gruppo di lavoro,
+- un'organizzazione;
+- una famiglia;
+- un progetto open source;
+- un gruppo di lavoro;
 - o per un uso sovrano e autonomo.
 
 In questo caso, qualcuno deve amministrare il server (Synapse, Dendrite, Conduit...). Indipendentemente dal server scelto, gli utenti possono parlare tra loro grazie alla federazione.
@@ -256,8 +256,8 @@ Come descritto in precedenza, offrono interfacce e funzionalità diverse a secon
 La scelta del client non ha alcun impatto sull'account: tutti funzionano con qualsiasi server Matrix.
 
 ### Passi classici:
-- Aprire l'applicazione scelta. Nel nostro caso, lo faremo con [Element](app.element.io).
-- Selezionare "Crea un account".
+- Apri l'applicazione scelta. Nel nostro caso, lo faremo con [Element](app.element.io).
+- Seleziona "Crea un account".
 
 ![cover-kali](assets/fr/10.webp)
 
@@ -305,9 +305,9 @@ La persona invitata può accettare o rifiutare l'invito. Se accetta, dovrebbe en
 Matrix si rivela davvero efficace quando viene utilizzato insieme a un server personale.
 
 La distribuzione del proprio homeserver consente di:
-- mantenere il controllo completo sui dati,
-- definire le proprie regole di utilizzo,
-- ospitare più account (amici, squadra, comunità),
+- mantenere il controllo completo sui dati;
+- definire le proprie regole di utilizzo;
+- ospitare più account (amici, squadra, comunità);
 - e garantire la massima resilienza in caso di restrizioni o censure.
 
 **Soluzioni disponibili**:
@@ -316,15 +316,15 @@ La distribuzione del proprio homeserver consente di:
 - **Conduit**: una variante minimalista facile da distribuire.
 
 **Prequisiti**:
-- un nome di dominio,
-- una macchina o un VPS,
+- un nome di dominio;
+- una macchina o un VPS;
 - competenze minime di amministrazione di sistema.
 
 Anche se richiede un po' di configurazione, la gestione del proprio server trasforma Matrix in uno strumento sovrano e duraturo.
 
 ### Partecipare alle prime stanze
 
-Matrix si basa molto sulle _camere_ (rooms).
+Matrix si basa molto sulle _stanze_ (rooms).
 
 Ci sono stanze pubbliche, private, comunitarie, tecniche, locali e internazionali.
 
@@ -344,33 +344,33 @@ Una volta entrato, la chatroom si comporta come un classico newsgroup, con crono
 
 ## Andare oltre
 
-Una volta acquisite le basi, Matrix offre una serie di possibilità avanzate. Se volete collegare altri sistemi di messaggistica, ospitare il vostro server o organizzare una comunità, l'ecosistema è molto ricco.
+Una volta acquisite le basi, Matrix offre una serie di possibilità avanzate. Se vuoi collegare altri sistemi di messaggistica, ospitare il tuo server o organizzare una comunità, l'ecosistema è molto ricco.
 
 ### Bridge (WhatsApp, Telegram, Signal, ecc.)
 
 Un bridge (ponte) collega Matrix ad altri sistemi di messaggistica.
 
 Con esso è possibile inviare e ricevere messaggi da:
-- **WhatsApp**,
-- **Telegram**,
-- **Signal**,
-- **Facebook Messenger**,
-- **Discord**,
-- **Slack**,
-- **IRC**,
+- **WhatsApp**;
+- **Telegram**;
+- **Signal**;
+- **Facebook Messenger**;
+- **Discord**;
+- **Slack**;
+- **IRC**;
 - e molti altri.
 
 ### Cosa possono fare i bridge
 
-- Centralizzare tutte le conversazioni in Matrix,
-- Fornire un'interfaccia aperta per l'interazione con i servizi proprietari,
+- Centralizzare tutte le conversazioni in Matrix;
+- Fornire un'interfaccia aperta per l'interazione con i servizi proprietari;
 - Gestire una comunità multipiattaforma da un'unica postazione.
 
 Alcuni ponti sono ufficiali, altri sono a livello di comunità.
 
 A seconda del servizio, possono richiedere:
-- un server personale,
-- una configurazione aggiuntiva,
+- un server personale;
+- una configurazione aggiuntiva;
 - o l'utilizzo di un bridge pubblico esistente.
 
 ### Utilizzo di Matrix per un'organizzazione, una comunità o un progetto Bitcoin
@@ -380,19 +380,19 @@ Matrix non è solo uno strumento personale.
 Può essere utilizzato per strutturare gruppi di lavoro, organizzare comunità locali o gestire la comunicazione di un progetto.
 
 **Esempi di utilizzo**:
-- Comunità open-source,
-- Progetti dell'ecosistema Bitcoin e Lightning,
-- Gruppi di studenti o sviluppatori,
-- Organizzazioni di cittadini,
-- Media indipendenti,
+- Comunità open-source;
+- Progetti dell'ecosistema Bitcoin e Lightning;
+- Gruppi di studenti o sviluppatori;
+- Organizzazioni di cittadini;
+- Media indipendenti;
 - Gruppi e associazioni locali.
 
 **Perché è interessante?**
 
-- Strumento **100% open-source**,
-- Comunicazione **sovrana e decentralizzata**,
-- Spazi organizzati in **stanze**, **sottogruppi**, **stanze private**, ecc.,
-- Integrati con Nextcloud, GitLab, Mattermost o con bot personalizzati,
+- Strumento **100% open-source**
+- Comunicazione **sovrana e decentralizzata**
+- Spazi organizzati in **stanze**, **sottogruppi**, **stanze private**, ecc.
+- Integrati con Nextcloud, GitLab, Mattermost o con bot personalizzati
 - Gestione accurata dei permessi e della moderazione.
 
 Matrix diventa quindi un pilastro della comunicazione per qualsiasi struttura che desideri rimanere indipendente dalle grandi piattaforme centralizzate.

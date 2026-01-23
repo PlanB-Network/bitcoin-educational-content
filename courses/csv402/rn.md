@@ -4914,36 +4914,36 @@ Ikindi kintu nyamukuru igikorwa c’umugwi wa Bitfinex ni ugutuma Lightning Netw
 - Gushoboza ugufunga kw’uruhande rumwe, aho umutungo ugarurwa mu UTXO yihariye, hakurikijwe amategeko ya Lightning Network (HTLC, igihe co gufunga, igihano, n’ibindi).
 
 
-Uwo muti, witwa "**RGB Lightning Node**", ukoresha LDK (*Lightning Dev Kit*) nk'ishimikiro, kandi wongerako uburyo bukenewe bwo gutera ibimenyetso vya RGB mu mihora. Ivyemezo vy’umuravyo bigumya imiterere ya kera (ibisohoka bishobora gutoborwa, igihe...), kandi n’ibindi Anchor na RGB State Transition (biciye muri `Opret` canke `Tapret`). Ku mukoresha, ivyo bifungura inzira y'imirongo y'umuravyo mu bice vy'amahera canke mu kindi kintu cose gisohoka biciye kuri RGB.
+Iyo nyishu, yitwa "**RGB Lightning Node**", ukoresha LDK (*Lightning Dev Kit*) nk'ishimikiro, kandi wongerako uburyo bukenewe bwo gutera ibimenyetso vya RGB mu mihora. Ivyemezo vy’Lightning bigumya biguma uko vyari bimeze kera (ibisohoka bishobora gutoborwa, igihe...), kandi n’ibindi Anchor na RGB uko vyaribimeze bihinduka (biciye muri `Opret` canke `Tapret`). Ku mukoresha, ivyo bifungura inzira y'umuhora wa Lightning  mu bice vy'amahera canke mu kindi kintu cose gisohoka biciye kuri RGB.
 
 
 ### DEX ubushobozi n'ingaruka kuri Bitcoin
 
 
-Igihe ibintu vyinshi bicungiwe biciye ku Muravyo, birashoboka kwiyumvira **atomic Exchange** ku nzira imwe y’inzira y’Umuravyo, hakoreshejwe ubuhinga bumwe bw’amabanga n’igihe. Nk’akarorero, umukoresha A afise Bitcoin ku murongo umwe w’umuravyo, uwukoresha B na we afise USDT RGB ku wundi murongo w’umuravyo. Bashobora kwubaka inzira ihuza imirongo yabo ibiri kandi icarimwe Exchange BTC ku USDT, ataco bakeneye kwizigira. Ivyo nta kindi ariko ni **uguhinduranya atome** kuba mu bice vyinshi, bituma abaje hanze hafi bakibagira ko bariko barakora ubudandaji, atari uguhindura inzira gusa. Ubu buryo buratanga:
+Igihe ibintu vyinshi bicungiwe biciye kuri Lightning, birashoboka kwiyumvira **Ihanahanawa** ku nzira imwe y’inzira ya Lighning, hakoreshejwe ubuhinga bumwe bw’amabanga n’igihe. Nk’akarorero, umukoresha A afise Bitcoin ku murongo umwe wa Lightning, uwukoresha B na we afise USDT RGB ku wundi murongo wa Lightning. Bashobora kwubaka inzira ihuza imirongo yabo ibiri kandi icarimwe Ihanahanwa ririhagati ya BTC na USDT, ataco bakeneye kwizigira. Ivyo nta kindi ariko ni **uguhinduranya uduce dutoduto** kuba mu bice vyinshi, bituma abaje hanze hafi bakibagira ko bariko barakora ubudandaji, atari uguhindura inzira gusa. Ubu buryo buratanga:
 
 
 
 
-- Igihe co guhagarara kiri hasi cane, kuko vyose biguma ari off-chain ku Muravyo.
-- A superior **privacy**: nta n’umwe azi ko ari ubudandaji, kandi si inzira isanzwe;
+- Igihe co guhagarara kiri hasi cane, kuko vyose biguma ari off-chain kuri Lightnig.
+-  **Ibanga** riteye imbere: nta n’umwe azi ko ari ubudandaji, kandi si inzira isanzwe;
 - Kwirinda gutera imbere, ingorane isubira inyuma kuri On-Chain DEX;
 - Ibiciro bigabanutse (ntiwishura blockspace, amafaranga y’urugendo rwa Lightning gusa).
 
 
-Turashobora rero kwiyumvira ibidukikije aho ama Lightning nodes atanga ibiciro vy’uguhindura (mu gutanga amafaranga). Buri node, iyo ishaka, irashobora gukora uruhara rwa _umuhinguzi w'isoko_, kugura no kugurisha ibintu bitandukanye kuri Lightning. Ivyo vyizigiro vy’i _layer-2_ DEX bikomeza iciyumviro c’uko bidakenewe Fork canke gukoresha blockchains z’abandi kugira ngo umuntu aronke ubuhinga bwo guhindura itunga ry’abantu bose.
+Turashobora rero kwiyumvira ibirimwo vyose aho ama nodes ya Lightning atanga ibiciro vy’uguhindura (mu gutanga amafaranga). Buri node, iyo ishaka, irashobora gukora uruhara rwa _umuhinguzi w'isoko_, kugura no kugurisha ibintu bitandukanye kuri Lightning. Ivyo vyizigiro vy’i _layer-2_ DEX bikomeza iciyumviro c’uko bidakenewe Fork canke gukoresha blockchains z’abandi kugira ngo umuntu aronke ubuhinga bwo guhindura itunga ry’abantu bose.
 
 
-Ingaruka kuri Bitcoin yoshobora kuba nziza: Ibikorwa remezo vya Lightning (ama node, imirongo n’ibikorwa) vyokoreshwa neza cane kubera ibiharuro biva kuri izo *stablecoins*, ibivako n’ibindi bimenyetso. Abacuruzi bashaka kwishura USDT kuri Lightning boshobora kumenya mu buryo bw’ubuhinga kwishura BTC kuri Lightning (bicungiwe n’ico kirundo nyene). Ugucungera no gutanga amafaranga y’ibikorwa remezo vya Lightning Network na vyo nyene vyoshobora kwungukira ku kugwiza izo nzira zitari za BTC, ivyo bikaba vyoshobora kugirira akamaro mu buryo butaziguye abakoresha Bitcoin.
+Ingaruka kuri Bitcoin yoshobora kuba nziza: Ibikorwa bikorwa na Lightning (ama node, imirongo n’ibikorwa) vyokoreshwa neza cane kubera ibiharuro biva kuri izo *stablecoins*, ibivako n’ibindi bimenyetso. Abacuruzi bashaka kwishura USDT kuri Lightning boshobora kumenya mu buryo bw’ubuhinga kwishura BTC kuri Lightning (bicungiwe n’ico kirundo nyene). Ugucungera no gutanga amafaranga y’ibikorwa remezo vya Lightning Network na vyo nyene vyoshobora kwungukira ku kugwiza izo nzira zitari za BTC, ivyo bikaba vyoshobora kugirira akamaro mu buryo butaziguye abakoresha Bitcoin.
 
 
-### Insozero n'ibikoresho
+### Ukurangiza n'ahava ibikoresho
 
 
-Ishirahamwe rya Bitfinex ryiyemeje RGB ryerekana, biciye mu gikorwa caryo, ubudasa bw’ibishobora gukorwa hejuru y’amasezerano. Ku ruhande rumwe, hariho RGBlib, ububiko bw’ibitabu bworohereza uguhingura ama wallet n’ibikoresho. Ku rundi ruhande, dufise Iris Wallet, iyerekanwa ry'ibikorwa kuri Android ry'umukoresha w'iherezo Interface. Ubwa nyuma, ugushiramwo RGB na Lightning vyerekana ko imihora ya stablecoin ishoboka, kandi yugurura inzira y’ubushobozi bwa DEX yegerejwe ku Lightning.
+Ishirahamwe rya Bitfinex ryiyemeje RGB ryerekana, biciye mu gikorwa caryo, ubudasa bw’ibishobora gukorwa hejuru y’amasezerano. Ku ruhande rumwe, hariho RGBlib, ububiko bw’ibitabu bworohereza uguhingura Ingodo n’ibikoresho. Ku rundi ruhande, dufise Ingodo ya Iris, iyerekanwa ry'ibikorwa kuri Android ry'umukoresha w'iherezo y'ahakorerwa ibintu. Ubwa nyuma, ugushiramwo RGB muri Lightning vyerekana ko imihora ya stablecoin ishoboka, kandi yugurura inzira y’ubushobozi bwa DEX yegerejwe ku Lightning.
 
 
-Ubu buryo buraguma ahanini ari ubw’igerageza kandi burabandanya gutera imbere: ububiko bw’ibitabu bwa RGBlib buriko buratunganirizwa uko tugenda, Iris Wallet iriko iraronka ivyiza bihoraho, kandi urudodo rwihariye rwa Lightning ntiruraba umukiriya wa Lightning.
+Ubu buryo buraguma ahanini ari ubw’igerageza kandi burabandanya gutera imbere: ububiko bw’ibitabu bwa RGBlib buriko buratunganirizwa uko tugenda, Ingodo yitwa Iris iriko iraronka ivyiza bihoraho, kandi urudodo rwihariye rwa Lightning ntiruraba umukiriya wa Lightning.
 
 
 Ku bipfuza kumenya vyinshi canke gutanga, hariho uburyo bwinshi bwo kubifasha, harimwo:
@@ -4952,47 +4952,47 @@ Ku bipfuza kumenya vyinshi canke gutanga, hariho uburyo bwinshi bwo kubifasha, h
 
 
 - [Ibikoresho vy'ububiko bwa GitHub RGB](Ibikoresho vya RGB);
-- [Urubuga rw’amakuru rwerekeye Iris Wallet](https://iriswallet.com/) kugira ngo ugerageze Wallet kuri Android.
+- [Urubuga rw’amakuru rwerekeye Iris Wallet](https://iriswallet.com/) kugira ngo ugerageze Ingodo kuri Android.
 
 
-Mu gice gikurikira, tuzokwihweza neza ingene twotanguza urudodo rwa RGB Lightning.
+Mu gice gikurikira, tuzokwihweza neza ingene twotanguza node ya Lightning ya RGB.
 
 
-## RLN - RGB Umuravyo
+## RLN - Node ya Lightning ya RGB
 
 
 <chapterId>ecaabe32-20ba-5f8c-8ca1-a3f095792958</chapterId>
 
 
-:::id y'amasanamu y'amasanamu y'amasanamu.
+:::id=d1e9753e-6093-4a47-bcdc-da1aebaefffc:::.
 
 
-Muri iki gice ca nyuma, Frederico Tenga aragutwara intambwe ku yindi mu gushinga urudodo rwa Lightning RGB ku bidukikije vya Regtest, kandi akakwereka ingene worema ibimenyetso vya RGB kuri rwo. Mu gutanguza amanode abiri atandukanye, uzobona kandi ingene wofungura umurongo w’umuco hagati yayo n’itunga rya Exchange RGB.
+Muri iki gice ca nyuma, Frederico Tenga aragutwara intambwe ku yindi mu gushinga node ya Lightning ya RGB ku bidukikije vya Regtest, kandi akakwereka ingene worema ibimenyetso vya RGB kuri rwo. Mu gutanguza ama node abiri atandukanye, uzobona kandi ingene wokwugurura umurongo w’umuco hagati yayo n’itunga ry'uguhanahana rya RGB.
 
 
-Iyi video ikora nk’inyigisho, isa n’ivyo twavuze mu kigabane c’imbere, ariko cane cane yibanze ku Muravyo kuri iyi ncuro!
+Iyi video ikora nk’inyigisho, isa n’ivyo twavuze mu kigabane c’imbere, ariko cane cane yihweze kuri Lightning kuri iyi ncuro!
 
 
-Igikoresho nyamukuru c’iyi videwo ni ububiko bwa Github [Igikoresho c’Umuravyo](Ibikoresho/Igikoresho/Igikoresho c’Umuravyo), ivyo bikaba bigufasha gutanguza iyo ntunganyo muri Regtest.
+Igikoresho nyamukuru c’iryo reresi ni ububiko bwa Github [Igikoresho c’Umuravyo](Ibikoresho/Igikoresho/Igikoresho c’Umuravyo), ivyo bikaba bigufasha gutanguza iyo ntunganyo muri Regtest.
 
 
-### Gukoresha urudodo rw'umuravyo ruhuye na RGB
+### Gukoresha node ya Lightning ihuye na RGB
 
 
-Ivyo bifata kandi bikashira mu ngiro ivyiyumviro vyose vyavuzwe mu bice vyabanje:
+Ivyo bifata kandi bikashira mu ngiro ivyiyumviro vyose vyavuzwe mu bice vyatanguye :
 
 
 
 
-- Iciyumviro c’uko **UTXO** ibujijwe kuri 2/2 Multisig y’umurongo w’umuravyo idashobora kwakira amafaranga y’ibice gusa, ariko kandi ishobora kuba Single-Use Seal y’itunga rya RGB (rishobora guhinduka canke ridashobora guhinduka);
-- Kwongerwako, muri buri bikorwa vy’ubugeni bw’Umuravyo, ivy’isohoka (`Tapret` canke `Opret`) vyerekeye gushingira intahe RGB State Transition;
-- Ivyubatswe bifitaniye isano (bitcoind/indexer/proxy) kugira ngo vyemeze amafaranga y’ibikorwa vya Bitcoin n’amakuru ya Exchange *yo ku ruhande rw’umukiriya*.
+- Iciyumviro c’uko **UTXO** ibujijwe kuri 2/2 Multisig y’umuhora wa Lightning idashobora kwakira amafaranga y’ibice gusa, ariko kandi ishobora kuba Serire ikooreshwa rimwe y’itunga rya RGB (rishobora guhinduka canke ridashobora guhinduka);
+- Kwongerwako, muri buri bikorwa binywanisha ama Lightning, ivy’isohoka (`Tapret` canke `Opret`) vyerekeye gushingira intahe Ukobihinduka ivya RGB;
+- Ivyubatswe bifitaniye isano (bitcoind/indexer/proxy) kugira ngo vyemeze amafaranga y’ibikorwa vya Bitcoin n’amakuru y'ihanahanwa *yo ku ruhande rw’umukiriya*.
 
 
-### Gutangaza RGB-umuravyo-urudodo
+### Kwerekana node ya Lightning ya RGB
 
 
-Umugambi **`RGB-umuravyo-node`** ni umugambi wa Rust daemon ushingiye ku `Rust-umuravyo` (LDK) Fork wahinduwe kugira ngo witwararike ukubaho kw’itunga rya RGB mu muhora. Iyo umurongo ufunguwe, ukubaho kw’itunga kurashobora gusobanurwa, kandi igihe cose igihugu c’umurongo gihinduwe, ihinduka rya RGB riraremwa, ryerekana ugusangira kw’itunga mu bisohoka vya Lightning. Ibi bishoboza:
+Umugambi **`Node ya Lightning ya RGB`** ni umugambi wa Rust daemon ushingiye ku `Rust-Lightning` (LDK) Fork yahinduwe kugira ngo witwararike ukubaho kw’itunga ry'Umuhora wa RGB. Iyo umurongo ufunguwe, ukubaho kw’itunga kurashobora gusobanurwa, kandi igihe cose igihugu c’umurongo gihinduwe, ihinduka rya RGB riraremwa, ryerekana ugusangira kw’itunga mu bisohoka vya Lightning. Ibi bishoboza:
 
 
 

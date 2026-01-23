@@ -11,7 +11,7 @@ Hướng dẫn này cung cấp các bước chi tiết để thiết lập Hệ 
 Nếu bạn không hiểu phần trên, đừng lo lắng - hướng dẫn này dành cho bạn!
 
 ---
-## **Cách chạy hệ thống quản lý khóa học Bitcoin trên máy tính cá nhân**
+## Cách chạy hệ thống quản lý khóa học Bitcoin trên máy tính cá nhân
 
 Hướng dẫn này cung cấp các bước chi tiết để thiết lập nền tảng, xử lý khóa ảo và tùy chỉnh repository. Hãy làm theo các bước bên dưới để tránh các sự cố thường gặp và cấu hình môi trường cục bộ của bạn một cách chính xác.
 

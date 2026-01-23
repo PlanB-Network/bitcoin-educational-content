@@ -80,18 +80,18 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 ## 4. Commit các thay đổi
 
 - Bạn có thể bắt đầu soát lỗi và sửa đổi nội dung nếu cần.
-- Khi muốn tạm dừng phiên làm việc, bạn có thể commit các thay đổi của mình ngay cả khi chưa hoàn thành toàn bộ. Việc này giống như lưu lại tiến trình (save) trên GitHub.
-- Nhấn vào nút "Commit Changes...".
+- Khi muốn tạm dừng phiên làm việc, bạn có thể commit các thay đổi của mình ngay cả khi chưa hoàn thành toàn bộ. Việc này giống như lưu lại tiến trình trên GitHub.
+- Nhấn vào nút `Commit Changes...`.
 
 ![REVIEW](assets/fr/07.webp)
 
 - Thêm mô tả cho những thay đổi của bạn (xem \**A\**).
 - Thêm ngữ cảnh chi tiết vào phần mô tả nếu cần thiết (xem \**B\**).
-- Nhấn nút "Propose changes" (xem \**C\**).
+- Nhấn nút `Propose changes` (xem \**C\**).
 
 ![REVIEW](assets/fr/08.webp)
 
-- Nếu đây không phải lần đầu bạn đóng góp, GitHub sẽ yêu cầu bạn tạo một nhánh (branch) mới. Bạn không bao giờ được commit trực tiếp vào nhánh chính `dev`. Nếu bạn đã có các commit trên một nhánh làm việc hiện có, hãy chọn nhánh đó. Nếu không, hãy chọn "Create a new branch" để tạo nhánh mới.
+- Nếu đây không phải lần đầu bạn đóng góp, GitHub sẽ yêu cầu bạn tạo một nhánh (branch) mới. Bạn không bao giờ được commit trực tiếp vào nhánh chính `dev`. Nếu bạn đã có các commit trên một nhánh làm việc hiện có, hãy chọn nhánh đó. Nếu không, hãy chọn `Create a new branch` để tạo nhánh mới.
 
 ![REVIEW](assets/fr/13.webp)
 
@@ -111,7 +111,7 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 ## 5. Tạo Pull Request (PR) với nhánh tương ứng
 
-- Nếu mọi thứ đã ổn và bạn đã hoàn tất các thay đổi, hãy nhấn vào nút "Create Pull Request" màu xanh lá cây.
+- Nếu mọi thứ đã ổn và bạn đã hoàn tất các thay đổi, hãy nhấn vào nút `Create Pull Request` màu xanh lá cây.
 
 ![REVIEW](assets/fr/10.webp)
 
@@ -123,16 +123,16 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 
 ## 6. Các quy tắc cần tuân thủ khi hiệu đính nội dung
 
-Để biết thêm về các hướng dẫn cần sử dụng khi hiệu đính trên Plan ₿ Academy về mặt ngôn ngữ hoặc quy tắc định dạng, vui lòng tham khảo bài hướng dẫn "contribution-proofreading-guidelines" trong cùng mục này!
+Để biết thêm về các hướng dẫn cần sử dụng khi hiệu đính trên Plan ₿ Academy về mặt ngôn ngữ hoặc quy tắc định dạng, vui lòng tham khảo bài hướng dẫn `contribution-proofreading-guidelines` trong cùng mục này!
 
 ## 7. Chờ kiểm duyệt
 
-- Xin chúc mừng, PR của bạn đã được gửi! Bạn có thể theo dõi tiến trình của nó trong tab "Pull requests" trên [repository GitHub của Plan ₿ Academy](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
+- Xin chúc mừng, PR của bạn đã được gửi! Bạn có thể theo dõi tiến trình của nó trong tab `Pull requests` trên [repository của Plan ₿ Academy trên GitHub](https://github.com/PlanB-Network/bitcoin-educational-content/pulls):
 
 ![REVIEW](assets/fr/12.webp)
 
 - Chân thành cảm ơn đóng góp của bạn! Sau khi được phê duyệt, một thành viên của đội ngũ Plan ₿ Academy sẽ liên hệ với bạn để gửi phần thưởng. ***Thanh toán chỉ được thực hiện thông qua Lightning Network***.
-- Nếu bạn muốn tiếp tục công việc hiệu đính, hãy quay lại bước 2 và gửi tin nhắn mới trong nhóm Telegram để tiếp tục đóng góp cho các nội dung khác. Hãy nhớ đồng bộ hóa bản fork của bạn (sync fork) trước khi tạo một nhánh làm việc mới. Để thực hiện việc này, hãy vào trang chủ của bản fork, chọn nhánh chính có tên `dev` (xem \**A\**), sau đó nhấp vào nút "Sync fork" (xem \**B\**). Nếu có bản cập nhật mới cho bản fork của bạn, nút "Update branch" sẽ xuất hiện. Chỉ cần nhấn vào đó để thực hiện cập nhật.
+- Nếu bạn muốn tiếp tục công việc hiệu đính, hãy quay lại bước 2 và gửi tin nhắn mới trong nhóm Telegram để tiếp tục đóng góp cho các nội dung khác. Hãy nhớ đồng bộ hóa bản fork của bạn (sync fork) trước khi tạo một nhánh làm việc mới. Để thực hiện việc này, hãy vào trang chủ của bản fork, chọn nhánh chính có tên `dev` (xem \**A\**), sau đó nhấp vào nút "Sync fork" (xem \**B\**). Nếu có bản cập nhật mới cho bản fork của bạn, nút `Update branch` sẽ xuất hiện. Chỉ cần nhấn vào đó để thực hiện cập nhật.
 
 ![REVIEW](assets/fr/16.webp)
 

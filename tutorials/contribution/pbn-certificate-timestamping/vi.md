@@ -14,7 +14,6 @@ Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách Plan ₿ Academy c�
 
 Tại Plan ₿ Academy, chúng tôi cấp các chứng chỉ và bằng cấp được ký bằng mật mã và được gắn nhãn thời gian (timestamp) trên Timechain (tức là blockchain Bitcoin). Để làm được điều này, chúng tôi đã thiết kế một cơ chế bằng chứng dựa trên hai thao tác mật mã:
 
-
 1. Một chữ ký GPG trên một file văn bản tổng hợp thành tựu của bạn
 2. Gán nhãn thời gian cho file đã ký thông qua [opentimestamps](https://opentimestamps.org/).
 
@@ -38,7 +37,7 @@ Nếu bạn tò mò và muốn tìm hiểu sâu hơn về phần mềm tuyệt v
 
 Bất kỳ ai cũng có thể sử dụng OpenTimestamps để gán nhãn thời gian cho một file và nhận được bằng chứng có thể xác minh về sự tồn tại của file đó. Nói cách khác, OpenTimestamps không cho bạn biết tệp được tạo ra khi nào, mà chỉ chứng minh rằng tệp đó đã tồn tại muộn nhất tại một thời điểm nhất định.
 
-OpenTimestamps có thể cung cấp dịch vụ này miễn phí là nhờ vào việc lưu trữ hiệu quả một bằng chứng như vậy trong Blockchain Bitcoin. Nó sử dụng mã hash sha256 của file như một định danh duy nhất của file của bạn và xây dựng một cây merkle với các hash khác của file được gửi từ người dùng khác và chỉ neo hash của cấu trúc cây Merkle trong một giao dịch OpReturn.
+OpenTimestamps có thể cung cấp dịch vụ này miễn phí là nhờ vào việc lưu trữ hiệu quả một bằng chứng như vậy trong Blockchain Bitcoin. Nó sử dụng mã hash sha256 của file như một định danh duy nhất của file của bạn và xây dựng một cấu trúc cây Merkle với các hash khác của file được gửi từ người dùng khác và chỉ neo hash của cấu trúc cây Merkle trong một giao dịch OpReturn.
 
 OpenTimestamps cung cấp dịch vụ này hoàn toàn miễn phí nhờ một phương pháp rất hiệu quả để lưu trữ bằng chứng trên blockchain Bitcoin. Hệ thống sử dụng mã băm SHA-256 của file làm mã định danh duy nhất và xây dựng một cây Merkle cùng với các mã băm của những file khác do người dùng gửi lên. Chỉ có hàm băm của cấu trúc cây Merkle được neo (anchored) trong giao dịch OpReturn.
 
@@ -48,7 +47,7 @@ Khi giao dịch này được đưa vào một khối, bất kỳ ai có tệp g
 
 ### Bước 1. Tải xuống chứng chỉ hoặc bằng cấp của bạn
 
-Đăng nhập vào bảng điều khiển cá nhân của bạn trên [Plan ₿ Acadmy](https://planb.academy/vi/certifications/certificates).
+Đăng nhập vào bảng điều khiển cá nhân của bạn trên [Plan ₿ Academy](https://planb.academy/vi/certifications/certificates).
 
 ![image](./assets/login.webp)
 

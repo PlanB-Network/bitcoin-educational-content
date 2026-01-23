@@ -83,7 +83,7 @@ Có rất nhiều phần mềm chuyên dụng để chỉnh sửa các tệp Mar
 Bản fork này tạo thành một kho lưu trữ riêng biệt so với kho lưu trữ gốc, mặc dù nó có cùng dữ liệu. Bạn sẽ làm việc trên kho lưu trữ mới này.
 
 Nói một cách dễ hiểu, chúng ta đã tạo ra một bản sao của kho lưu trữ gốc Plan ₿ Academy. Bản fork của bạn (bản sao) và kho lưu trữ gốc bây giờ sẽ phát triển độc lập với nhau. Trên kho lưu trữ gốc, các cộng tác viên khác có thể thêm dữ liệu mới, trong khi bạn, trên bản fork của mình, sẽ tiến hành các chỉnh sửa của riêng mình.
-Để duy trì tính nhất quán giữa hai kho lưu trữ này, việc đồng bộ hóa định kỳ là cần thiết để cả hai cùng nhận được những thông tin giống nhau. Để gửi các thay đổi của bạn đến kho lưu trữ gốc, bạn sẽ sử dụng cái được gọi là **Pull Request**. Và để tích hợp các thay đổi từ kho lưu trữ gốc vào bản fork của bạn, bạn sẽ sử dụng lệnh **Sync fork** có sẵn trên giao diện web của GitHub.
+Để duy trì tính nhất quán giữa hai kho lưu trữ này, việc đồng bộ hóa định kỳ là cần thiết để cả hai cùng nhận được những thông tin giống nhau. Để gửi các thay đổi của bạn đến kho lưu trữ gốc, bạn sẽ sử dụng cái được gọi là **`Pull Request`**. Và để tích hợp các thay đổi từ kho lưu trữ gốc vào bản fork của bạn, bạn sẽ sử dụng lệnh **`Sync fork`** có sẵn trên giao diện web của GitHub.
 
 ![github-desktop](assets/14.webp)
 
@@ -112,15 +112,15 @@ Nói một cách dễ hiểu, chúng ta đã tạo ra một bản sao của kho 
 
 ![github-desktop](assets/20.webp)
 
-Ở bước này, bạn đã tạo được một bản sao cục bộ (local copy) của kho lưu trữ trên GitHub. Nhắc lại một chút: kho lưu trữ này là một bản fork từ kho mã nguồn gốc của Plan ₿ Academy. Bạn có thể thực hiện các chỉnh sửa trực tiếp trên bản sao cục bộ này, chẳng hạn như thêm hướng dẫn, bản dịch hoặc các chỉnh sửa nội dung. Sau khi hoàn tất các thay đổi, bạn sẽ sử dụng lệnh **Push origin** để gửi các chỉnh sửa từ máy của mình lên bản fork được lưu trữ trên GitHub.
+Ở bước này, bạn đã tạo được một bản sao cục bộ (local copy) của kho lưu trữ trên GitHub. Nhắc lại một chút: kho lưu trữ này là một bản fork từ kho mã nguồn gốc của Plan ₿ Academy. Bạn có thể thực hiện các chỉnh sửa trực tiếp trên bản sao cục bộ này, chẳng hạn như thêm hướng dẫn, bản dịch hoặc các chỉnh sửa nội dung. Sau khi hoàn tất các thay đổi, bạn sẽ sử dụng lệnh **`Push origin`** để gửi các chỉnh sửa từ máy của mình lên bản fork được lưu trữ trên GitHub.
 
-Ngoài ra, bạn cũng có thể lấy về các thay đổi từ bản fork, ví dụ khi đồng bộ với kho lưu trữ của Plan ₿ Academy. Để làm điều này, bạn sẽ dùng lệnh **Fetch origin** để tải các thay đổi về bản sao cục bộ (bản clone), sau đó sử dụng lệnh **Pull origin** để hợp nhất chúng với phần công việc hiện tại của bạn. Cách làm này giúp bạn luôn cập nhật những thay đổi mới nhất của dự án trong khi vẫn đóng góp một cách hiệu quả.
+Ngoài ra, bạn cũng có thể lấy về các thay đổi từ bản fork, ví dụ khi đồng bộ với kho lưu trữ của Plan ₿ Academy. Để làm điều này, bạn sẽ dùng lệnh **`Fetch origin`** để tải các thay đổi về bản sao cục bộ (bản clone), sau đó sử dụng lệnh **`Pull origin`** để hợp nhất chúng với phần công việc hiện tại của bạn. Cách làm này giúp bạn luôn cập nhật những thay đổi mới nhất của dự án trong khi vẫn đóng góp một cách hiệu quả.
 
 ![github-desktop](assets/21.webp)
 
 ## Bước 5: Tạo một Obsidian vault mới
 
-- Mở phần mềm Obsidian và nhấp vào biểu tượng valut nhỏ ở góc dưới bên trái của cửa sổ:
+- Mở phần mềm Obsidian và nhấp vào biểu tượng vault (kho lưu trữ) nhỏ ở góc dưới bên trái của cửa sổ:
 
 ![github-desktop](assets/22.webp)
 

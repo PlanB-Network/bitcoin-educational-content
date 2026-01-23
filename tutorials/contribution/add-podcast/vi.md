@@ -7,13 +7,14 @@ description: Làm thế nào để thêm một podcast mới trên Plan ₿ Acad
 Sứ mệnh của PlanB là cung cấp nguồn học liệu hàng đầu về Bitcoin bằng nhiều ngôn ngữ nhất có thể. Toàn bộ nội dung được đăng tải trên trang web đều là mã nguồn mở và được lưu trữ trên GitHub, tạo điều kiện cho bất kỳ ai cũng có thể tham gia đóng góp và làm phong phú thêm kho kiến thức chung này.
 
 Bạn đang muốn thêm chương trình podcast về Bitcoin của mình lên trang web Plan ₿ Academy để tăng sức loan tỏa cho chương trình, nhưng không biết làm thế nào? Hướng dẫn này dành cho bạn!
+
 ![podcast](assets/01.webp)
+
 - Trước tiên, bạn cần có một tài khoản GitHub. Nếu bạn chưa biết cách tạo tài khoản, chúng tôi đã chuẩn bị một hướng dẫn chi tiết để giúp bạn.
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
 
-
-- Truy cập vào [kho lưu trữ (repository) GitHub của PlanB dành riêng cho dữ liệu](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/podcasts) trong phần `resources/podcasts/`:
+- Truy cập vào [repository của Plan ₿ Academy dành riêng cho dữ liệu trên GitHub](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/podcasts) trong phần `resources/podcasts/`:
 ![podcast](assets/02.webp)
 - Nhấn vào nút `Add file` ở góc trên bên phải, sau đó chọn `Create new file`:
 ![podcast](assets/03.webp)
@@ -23,11 +24,11 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 ![podcast](assets/05.webp)
 - Tạo một thư mục cho podcast của bạn. Tại ô `Name your file...`, bạn nhập tên của podcast bằng chữ thường và dùng dấu gạch ngang `-` thay cho khoảng trắng. Ví dụ, nếu chương trình của bạn có tên là "Super Podcast Bitcoin", bạn nên viết `super-podcast-bitcoin`:
 ![podcast](assets/06.webp)
-- Để đảm bảo rằng bạn đang tạo thư mục thay vì tạo tệp tin, chỉ cần thêm một dấu gạch chéo ngay sau tên vừa nhập, ví dụ: `super-podcast-bitcoin/`. Thao tác thêm dấu `/` này sẽ giúp GitHub tự động nhận diện đây là một thư mục:
+- Để đảm bảo rằng bạn đang tạo thư mục thay vì tạo file tin, chỉ cần thêm một dấu gạch chéo ngay sau tên vừa nhập, ví dụ: `super-podcast-bitcoin/`. Thao tác thêm dấu `/` này sẽ giúp GitHub tự động nhận diện đây là một thư mục:
 ![podcast](assets/07.webp)
-- Trong thư mục này, bạn sẽ tạo một tệp YAML đầu tiên có tên `podcast.yml`:
+- Trong thư mục này, bạn sẽ tạo một file YAML đầu tiên có tên `podcast.yml`:
 ![podcast](assets/08.webp)
-- Điền thông tin về podcast của bạn theo mẫu này:
+- Điền thông tin về podcast trong file `podcast.yml` theo mẫu này:
 
 ```yaml
 name: 
@@ -65,7 +66,7 @@ Dưới đây là thông tin chi tiết cho từng trường:
 
 - **`contributors`**: Thêm ID người đóng góp (contributor) của bạn nếu có.
 
-Ví dụ, tệp YAML của bạn có thể trông như thế này:
+Ví dụ, file YAML của bạn có thể trông như thế này:
 
 ```yaml
 name: Super Podcast Bitcoin
@@ -87,7 +88,7 @@ contributors:
 
 ![podcast](assets/09.webp)
 
-- Sau khi hoàn tất việc chỉnh sửa tệp này, hãy lưu lại bằng cách nhấn vào nút `Commit changes...`:
+- Sau khi hoàn tất việc chỉnh sửa file này, hãy lưu lại bằng cách nhấn vào nút `Commit changes...`:
 ![podcast](assets/10.webp)
 - Thêm tiêu đề cho các thay đổi của bạn, kèm theo một mô tả ngắn gọn:
 ![podcast](assets/11.webp)
@@ -109,7 +110,7 @@ contributors:
 ![podcast](assets/19.webp)
 - Đặt tên thư mục mới này là `assets` và đừng quên thêm một dấu gạch chéo `/` ở cuối:
 ![podcast](assets/20.webp)
-- Trong thư mục `assets` này, tạo một tệp tên là `.gitkeep`:
+- Trong thư mục `assets` này, tạo một file tên là `.gitkeep`:
 ![podcast](assets/21.webp)
 - Nhấn vào nút `Commit changes...`:
 ![podcast](assets/22.webp)
@@ -127,9 +128,9 @@ contributors:
 ![podcast](assets/28.webp)
 - Lưu ý, hình ảnh phải được đặt tên là `logo` và phải ở định dạng `.webp`. Tên file đầy đủ phải là: `logo.webp`:
 ![podcast](assets/29.webp)
-- Quay lại thư mục `assets` và nhấp vào tệp trung gian `.gitkeep`:
+- Quay lại thư mục `assets` và nhấp vào file trung gian `.gitkeep`:
 ![podcast](assets/30.webp)
-- Tại giao diện của tệp này, nhấn vào dấu ba chấm nhỏ ở góc trên bên phải rồi chọn `Delete file`:
+- Tại giao diện của file này, nhấn vào dấu ba chấm nhỏ ở góc trên bên phải rồi chọn `Delete file`:
 ![podcast](assets/31.webp)
 - Đảm bảo rằng bạn vẫn đang ở đúng nhánh làm việc hiện tại, sau đó nhấn vào nút `Commit changes`:
 ![podcast](assets/32.webp)
@@ -147,5 +148,7 @@ contributors:
 Chúc mừng! Pull Request của bạn đã được khởi tạo thành công. Đội ngũ quản trị viên sẽ tiến hành kiểm tra và nếu mọi thứ đều đạt yêu cầu, họ sẽ gộp (merge) nó vào repository chính của Plan ₿ Academy. Bạn sẽ thấy bộ công cụ giáo dục (BET) của mình xuất hiện trên website sau vài ngày.
 
 Đừng quên theo dõi tiến độ của bản PR nhé. Quản trị viên có thể để lại bình luận yêu cầu bổ sung thông tin hoặc điều chỉnh. Chừng nào PR của bạn chưa được phê duyệt, bạn vẫn có thể theo dõi PR này trong thẻ `Pull requests` trên repository của Plan ₿ Academy:
+
 ![podcast](assets/38.webp)
+
 Cảm ơn bạn rất nhiều vì đã đóng góp quý báu của mình! :)

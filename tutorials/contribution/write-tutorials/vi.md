@@ -62,7 +62,7 @@ Ví dụ, chúng tôi hiện có các bài hướng dẫn về Tails, Nostr và 
 
 Bạn có thể thiết kế một hướng dẫn từ đầu hoặc sử dụng một hướng dẫn đã được đăng trước đó trên trang web của bạn (với điều kiện bạn sở hữu bản quyền) và chia sẻ trên Plan ₿ Academy, thêm liên kết đến bài viết gốc.
 
-Bạn có thể soạn mới hoàn toàn hoặc chia sẻ bài viết từ trang web cá nhân của mình (nếu bạn sở hữu bản quyền). Tuy nhiên, hãy nhớ rằng tất cả nội dung trên Plan ₿ Academy đều sử dụng giấy phép tự do [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/), cho phép bất kỳ ai sao chép và chỉnh sửa với điều kiện phải ghi nguồn gốc rõ ràng.
+Bạn có thể soạn mới hoàn toàn hoặc chia sẻ bài viết từ trang web cá nhân của mình (nếu bạn sở hữu bản quyền). Tuy nhiên, hãy nhớ rằng tất cả nội dung trên Plan ₿ Academy tuân theo giấy phép [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/), cho phép bất kỳ ai sao chép và chỉnh sửa với điều kiện phải ghi nguồn gốc rõ ràng.
 
 ## 2 - Liên hệ với đội ngũ Plan ₿ Academy
 

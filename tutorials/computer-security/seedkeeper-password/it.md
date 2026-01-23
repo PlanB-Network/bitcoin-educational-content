@@ -10,10 +10,10 @@ Seedkeeper è una smartcard sviluppata da Satochip, un'azienda belga specializza
 In concreto, il Seedkeeper ha la forma di una smart card multifunzionale, certificata EAL6, dotata di un processore sicuro e di una memoria a prova di manomissione (un cosiddetto "Secure Element"). Come suggerisce il nome, il suo ruolo è quello di memorizzare le mnemoniche e le password del portafoglio Bitcoin in modo criptato e protetto. Con Seedkeeper, è possibile generare, importare, organizzare e salvare i propri segreti direttamente nel componente sicuro della carta.
 
 A mio parere, Seedkeeper ha due usi principali, che esploreremo in due esercitazioni separate:
-- **Memorizzazione di frasi mnemoniche Bitcoin**: invece di scrivere le vostre 12 o 24 parole su carta, potete importarle nella smartcard e proteggerle con un codice PIN.
-- **Gestione delle password**: è possibile generare password forti tramite l'applicazione Seedkeeper e memorizzarle direttamente nella smartcard, ottenendo così un gestore di password offline comodo e facile da usare.
+- **Memorizzazione di frasi mnemoniche Bitcoin**: invece di scrivere le vostre 12 o 24 parole su carta, puoi importarle nella smartcard e proteggerle con un codice PIN.
+- **Gestione delle password**: puoi generare password forti tramite l'applicazione Seedkeeper e memorizzale direttamente nella smartcard, ottenendo così un gestore di password offline comodo e facile da usare.
 
-Tecnicamente, Seedkeeper ha una capacità di 8192 byte, che gli consente di memorizzare un minimo di 50 segreti separati (il numero esatto dipenderà dalla loro dimensione e dai metadati associati a ciascuno di essi). Si può accedere a Seedkeeper sia [tramite un lettore di smart card collegato](https://satochip.io/accessories/) a un computer, sia tramite l'applicazione mobile con connessione NFC. L'intero sistema funziona in modalità offline, senza connessione a Internet, garantendo una superficie di attacco limitata.
+Tecnicamente, Seedkeeper ha una capacità di 8192 byte, che gli consente di memorizzare un minimo di 50 segreti separati (il numero esatto dipenderà dalla loro dimensione e dai metadati associati a ciascuno di essi). Puoi accedere a Seedkeeper sia [tramite un lettore di smart card collegato](https://satochip.io/accessories/) a un computer, sia tramite l'applicazione mobile con connessione NFC. L'intero sistema funziona in modalità offline, senza connessione a Internet, garantendo una superficie di attacco limitata.
 
 ![Image](assets/fr/001.webp)
 
@@ -26,7 +26,7 @@ https://planb.academy/tutorials/wallet/backup/seedkeeper-906dfff8-1826-4837-92d1
 
 ## 1. Come si ottiene un Seedkeeper?
 
-Esistono due modi principali per ottenere Seedkeeper. Puoi [acquistarlo direttamente dal negozio ufficiale di Satochip](https://satochip.io/product/seedkeeper/) o da un rivenditore autorizzato. Ma poiché [l'applet Seedkeeper è open-source](https://github.com/Toporin/Seedkeeper-Applet), è anche possibile installarla da soli su [una smart card vuota](https://satochip.io/product/blank-javacard-for-diy-project/).
+Esistono due modi principali per ottenere Seedkeeper. Puoi [acquistarlo direttamente dal negozio ufficiale di Satochip](https://satochip.io/product/seedkeeper/) o da un rivenditore autorizzato. Ma poiché [l'applet Seedkeeper è open-source](https://github.com/Toporin/Seedkeeper-Applet), puoi anche installarla da solo su [una smart card vuota](https://satochip.io/product/blank-javacard-for-diy-project/).
 
 Se desideri utilizzare la funzionalità di backup di Seedkeeper, è ovviamente necessario acquistare due smartcard.
 
@@ -44,11 +44,11 @@ Avvia l'applicazione e fai clic sul pulsante "_Click & Scan_".
 
 ![Image](assets/fr/003.webp)
 
-Ti verrà richiesto un codice PIN per la tua Seedkeeper card. Trattandosi di una nuova carta, non è ancora stato definito un PIN. Immettu un codice qualsiasi per saltare questo passaggio, quindi fai clic su "_Avanti_".
+Ti verrà richiesto un codice PIN per la tua Seedkeeper card. Trattandosi di una nuova carta, non è ancora stato definito un PIN. Immetti un codice qualsiasi per saltare questo passaggio, quindi fai clic su "_Avanti_".
 
 ![Image](assets/fr/004.webp)
 
-Posiziona quindi la scheda sul retro dello smartphone. L'applicazione rileverà che Seedkeeper non è ancora stato inizializzato e chiederà di impostare il codice PIN della smart card, di lunghezza compresa tra 4 e 16 caratteri. Per una sicurezza ottimale, scegliete un codice PIN robusto, il più lungo possibile, casuale e composto da un'ampia varietà di caratteri. Questo PIN è l'unica barriera contro l'accesso fisico alle tue password.
+Posiziona quindi la scheda sul retro dello smartphone. L'applicazione rileverà che Seedkeeper non è ancora stato inizializzato e chiederà di impostare il codice PIN della smart card, di lunghezza compresa tra 4 e 16 caratteri. Per una sicurezza ottimale, scegli un codice PIN robusto, il più lungo possibile, casuale e composto da un'ampia varietà di caratteri. Questo PIN è l'unica barriera contro l'accesso fisico alle tue password.
 
 **Ricordati di salvare il PIN**, ad esempio in un gestore di password o su un supporto fisico separato. In quest'ultimo caso, non conservare mai il supporto contenente il PIN nello stesso luogo in cui si trova il tuo Seedkeeper, altrimenti questa sicurezza diventerà inutile. È importante avere un backup affidabile: senza il PIN, non sarà possibile recuperare i segreti memorizzati sul Seedkeeper.
 
@@ -81,7 +81,7 @@ Nel nostro caso, vogliamo salvare una password. Fai clic su "_Password_".
 
 ![Image](assets/fr/011.webp)
 
-Assegna una "_Etichetta_" a questo segreto, in modo da poterlo identificare facilmente se si memorizzano diverse informazioni in Seedkeeper. È inoltre possibile aggiungere un identificatore associato alla password e all'URL del sito.
+Assegna una "_Etichetta_" a questo segreto, in modo da poterlo identificare facilmente se si memorizzano diverse informazioni in Seedkeeper. Puoi inoltre aggiungere un identificatore associato alla password e all'URL del sito.
 
 ![Image](assets/fr/012.webp)
 
@@ -133,7 +133,7 @@ La password salvata in precedenza appare ora sullo schermo. Puoi copiarla e util
 
 Ora faremo un backup del mio Seedkeeper su un secondo Seedkeeper, in modo da avere due copie. Questa ridondanza può far parte di una strategia per proteggere le password più importanti: ad esempio, conservando i Seedkeeper in due luoghi diversi per limitare i rischi fisici, oppure affidandone una copia a un parente fidato.
 
-Per farlo, portate con voi il secondo Seedkeeper (ricordate di identificare uno dei due con un marchio per evitare confusione). Iniziate ad inizializzarlo, come descritto nella fase 3 di questa guida. Ancora una volta, scegli un codice PIN forte. A seconda della tua strategia, puoi optare per un PIN diverso o mantieni lo stesso.
+Per farlo, porta con te il secondo Seedkeeper (ricorda di identificare uno dei due con un marchio per evitare confusione). Inizia ad inizializzarlo, come descritto nella fase 3 di questa guida. Ancora una volta, scegli un codice PIN forte. A seconda della tua strategia, puoi optare per un PIN diverso o mantenere lo stesso.
 
 ![Image](assets/fr/023.webp)
 

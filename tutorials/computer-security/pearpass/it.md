@@ -1,6 +1,6 @@
 ---
 name: PearPass
-description: Riprendete il controllo delle vostre password con un gestore di password locale, peer-to-peer e senza cloud
+description: Riprendi il controllo delle tue password con un gestore di password locale, peer-to-peer e senza cloud
 ---
 
 ![cover](assets/cover.webp)
@@ -41,7 +41,7 @@ PearPass è disponibile su tutte le piattaforme: Windows, Linux, macOS, Android,
 
 ### Installazione su Windows
 
-Su Windows, PearPass viene fornito come programma di installazione classico. Vai alla [pagina ufficiale di download](https://pass.pears.com/download), quindi fai clic sul pulsante "Scarica il programma di installazione di Windows".
+Su Windows, PearPass viene fornito come programma di installazione classico. Vai alla [pagina ufficiale di download](https://pass.pears.com/download), quindi fai clic sul pulsante `Scarica il programma di installazione di Windows`.
 
 Una volta scaricato il file, apri il programma di installazione e segui i passaggi indicati dalla procedura guidata. È quindi possibile accedere all'applicazione dal `Menu di avvio` o tramite un collegamento sul desktop.
 
@@ -49,13 +49,13 @@ Una volta scaricato il file, apri il programma di installazione e segui i passag
 
 ### Installazione su macOS
 
-Su macOS, PearPass è distribuito come immagine disco (`.dmg`). Vai su [la pagina ufficiale di download](https://pass.pears.com/download) e scegliete la versione corrispondente all'architettura del tuo Mac (Intel o Apple Silicon). Dopo il download, apri il file `.dmg` e lancia l'applicazione dalla cartella `Applications`.
+Su macOS, PearPass è distribuito come immagine disco (`.dmg`). Vai sulla [pagina ufficiale di download](https://pass.pears.com/download) e scegli la versione corrispondente all'architettura del tuo Mac (Intel o Apple Silicon). Dopo il download, apri il file `.dmg` e lancia l'applicazione dalla cartella `Applications`.
 
 Al primo avvio, macOS visualizzerà un messaggio di sicurezza che indica che l'applicazione proviene da Internet: è sufficiente confermare per continuare.
 
 ### Installazione su Linux
 
-Su Linux, PearPass è disponibile nel formato `.AppImage`, che garantisce un'ampia compatibilità con la maggior parte delle distribuzioni senza dipendenze specifiche. Scarica il file `.AppImage` da [la pagina ufficiale di download](https://pass.pears.com/download), quindi avvialo direttamente con un doppio clic.
+Su Linux, PearPass è disponibile nel formato `.AppImage`, che garantisce un'ampia compatibilità con la maggior parte delle distribuzioni senza dipendenze specifiche. Scarica il file `.AppImage` dalla [pagina ufficiale di download](https://pass.pears.com/download), quindi avvialo direttamente con un doppio clic.
 
 A seconda dell'ambiente, potrebbe essere necessario rendere il file eseguibile tramite le proprietà del file (clic destro) o con il comando `chmod +x`. Una volta autorizzato, PearPass si avvia come applicazione autonoma.
 
@@ -89,13 +89,13 @@ Quando si avvia PearPass sul computer, l'applicazione guida l'utente attraverso 
 
 ### Impostare la password principale
 
-Quando l'applicazione viene avviata per la prima volta sul desktop, fare clic sul pulsante `Skip` e poi `Continue` per passare attraverso la schermata di introduzione e raggiungere la fase di configurazione della master password.
+Quando l'applicazione viene avviata per la prima volta sul desktop, fai clic sul pulsante `Skip` e poi `Continue` per passare attraverso la schermata di introduzione e raggiungere la fase di configurazione della master password.
 
 ![Image](assets/fr/06.webp)
 
 Segue l'importante fase della scelta della password principale. Come abbiamo visto nell'introduzione, questa password è molto importante, poiché consente di accedere a tutte le altre password salvate nel manager. Tecnicamente, viene utilizzata per ricavare le chiavi crittografiche utilizzate per criptare i dati.
 
-La master password comporta due rischi principali: la perdita e la compromissione. Se si perde l’accesso a questa password, non sarà più possibile accedere alle proprie credenziali. Infatti, PearPass non conserva mai la password principale: **se viene persa, le credenziali sono perse definitivamente**. Non esiste alcun meccanismo di recupero. Al contrario, se questa password viene compromessa e un attaccante ottiene l’accesso a uno dei dispositivi, potrà accedere all’insieme dei conti.
+La master password comporta due rischi principali: la perdita e la compromissione. Se si perde l’accesso a questa password, non sarà più possibile accedere alle proprie credenziali. Infatti, PearPass non conserva mai la password principale: **se viene persa, le credenziali sono perse definitivamente**. Non esiste alcun meccanismo di recupero. Al contrario, se questa password viene compromessa e un attaccante ottiene l’accesso a uno dei dispositivi, potrà accedere a tutti i tuoi account.
 
 Per limitare il rischio di perdita, è possibile eseguire un backup fisico della password principale, ad esempio su carta, e conservarlo in un luogo sicuro. L'ideale sarebbe sigillare questa copia di sicurezza in una busta, in modo da poter verificare periodicamente che non vi si sia acceduto. D'altra parte, non è mai il caso di fare un backup digitale di questa password.
 
@@ -128,7 +128,7 @@ La tua cassaforte è subito pronta all'uso. Puoi iniziare subito ad aggiungere p
 
 ## Come faccio ad aggiungere un login a PearPass?
 
-Una volta creata la cassaforte, puoi iniziare a salvare i tuoi oggetti. PearPass supporta la registrazione di molti tipi di oggetti:
+Una volta creata la cassaforte, puoi iniziare a salvare i tuoi elementi. PearPass supporta la registrazione di molti tipi di oggetti:
 - login di un sito o di un servizio;
 - identità: le informazioni personali per compilare rapidamente i moduli, ma anche per memorizzare i documenti di identità direttamente in PearPass;
 - carta di credito: i numeri della tua carta di credito per velocizzare il pagamento quando fai acquisti online;
@@ -141,7 +141,7 @@ Inizia aprendo PearPass e accedendo con la tua password principale.
 
 ![Image](assets/fr/12.webp)
 
-Seleziona la cassaforte in cui si desidera salvare l'identificatore.
+Seleziona la cassaforte in cui desideri salvare l'identificatore.
 
 ![Image](assets/fr/13.webp)
 
@@ -230,7 +230,7 @@ Su mobile, è inoltre possibile attivare, se lo si desidera, il riempimento auto
 
 ## Come faccio a sincronizzare PearPass con l'estensione del browser?
 
-Avere un gestore di password sincronizzato tra il computer e lo smartphone è già molto pratico, ma integrarlo direttamente nel browser lo è ancora di più. Per farlo, inizia [aggiungendo l'estensione ufficiale di PearPass al vostro browser](https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
+Avere un gestore di password sincronizzato tra il computer e lo smartphone è già molto pratico, ma integrarlo direttamente nel browser lo è ancora di più. Per farlo, inizia [aggiungendo l'estensione ufficiale di PearPass al tuo browser](https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
 
 ![Image](assets/fr/31.webp)
 

@@ -1,6 +1,6 @@
 ---
 term: Raw transaction
-definition:
+definition: Transaction Bitcoin dans sa forme binaire complète, prête à être diffusée sur le réseau.
 ---
 
 Transaction Bitcoin construite et signée, qui se trouve dans sa forme binaire. Une transaction brute (*raw TX*) est la représentation finale d'une transaction, juste avant qu'elle ne soit diffusée sur le réseau. Cette transaction contient toutes les informations nécessaires à son inclusion dans un bloc :

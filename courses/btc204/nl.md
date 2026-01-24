@@ -5483,13 +5483,13 @@ https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95
 
 
 
-BIP47 is alom bekritiseerd vanwege de on-chain inefficiëntie. Zoals uitgelegd in het vorige hoofdstuk, moet er voor elke nieuwe ontvanger een kennisgevingstransactie worden uitgevoerd. Deze beperking wordt verwaarloosbaar als we van plan zijn om een duurzaam betalingskanaal met deze ontvanger op te zetten. Een enkele kennisgevingstransactie maakt de weg vrij voor een bijna oneindig aantal volgende BIP47 betalingen.
+BIP47 is alom bekritiseerd vanwege de on-chain inefficiëntie. Zoals uitgelegd in het vorige hoofdstuk, moet er voor elke nieuwe ontvanger een kennisgevingstransactie worden uitgevoerd. Deze beperking wordt verwaarloosbaar als we van plan zijn om een duurzaam betalingskanaal met deze ontvanger op te zetten. Een enkele kennisgevingstransactie maakt de weg vrij voor een bijna oneindig aantal volgende BIP47-betalingen.
 
 
-In bepaalde situaties kan de kennisgevingstransactie echter een obstakel vormen voor de gebruiker. Laten we het voorbeeld nemen van een eenmalige donatie aan een ontvanger: met een klassieke Bitcoin adres is een enkele transactie voldoende om de donatie te voltooien. Maar met BIP47 zijn er twee transacties nodig: één voor de melding en één voor de daadwerkelijke betaling. Wanneer de vraag naar blokruimte laag is en de transactiekosten laag, is deze extra stap meestal geen probleem. In tijden van congestie kunnen de transactiekosten echter exorbitant hoog worden voor een enkele betaling, waardoor de kosten voor de gebruiker mogelijk verdubbelen in vergelijking met een standaard Bitcoin-transactie, wat onaanvaardbaar kan blijken voor de gebruiker.
+In bepaalde situaties kan de kennisgevingstransactie echter een obstakel vormen voor de gebruiker. Laten we het voorbeeld nemen van een eenmalige donatie aan een ontvanger: met een klassiek Bitcoin-adres is een enkele transactie voldoende om de donatie te voltooien. Maar met BIP47 zijn er twee transacties nodig: één voor de melding en één voor de daadwerkelijke betaling. Wanneer de vraag naar blokruimte laag is en de transactiekosten laag, is deze extra stap meestal geen probleem. In tijden van congestie kunnen de transactiekosten echter exorbitant hoog worden voor een enkele betaling, waardoor de kosten voor de gebruiker mogelijk verdubbelen in vergelijking met een standaard Bitcoin-transactie, wat onaanvaardbaar kan blijken voor de gebruiker.
 
 
-Voor situaties waarin de gebruiker slechts enkele betalingen aan een statische identifier wil doen, zijn andere oplossingen ontwikkeld. Deze omvatten Stille Betalingen, beschreven in [BIP352](https://github.com/Bitcoin/bips/blob/master/bip-0352.mediawiki). Dit protocol maakt het mogelijk om een statische identifier te gebruiken om betalingen te ontvangen zonder adres hergebruik te produceren en zonder het gebruik van kennisgevingstransacties te vereisen. Laten we eens kijken hoe dit protocol werkt.
+Voor situaties waarin de gebruiker slechts enkele betalingen aan een statische identifier wil doen, zijn andere oplossingen ontwikkeld. Deze omvatten Silent Payments, beschreven in [BIP352](https://github.com/Bitcoin/bips/blob/master/bip-0352.mediawiki). Dit protocol maakt het mogelijk om een statische identifier te gebruiken om betalingen te ontvangen zonder adreshergebruik te produceren en zonder het gebruik van kennisgevingstransacties te vereisen. Laten we eens kijken hoe dit protocol werkt.
 
 
 ---
@@ -5497,7 +5497,7 @@ Voor situaties waarin de gebruiker slechts enkele betalingen aan een statische i
 
 
 ---
-### Waarom verplaatsen we de melding niet?
+### Waarom verplaatsen we de kennisgeving niet?
 
 
 Zoals besproken in het hoofdstuk BIP47, heeft de kennisgevingstransactie twee hoofdfuncties:
@@ -5514,17 +5514,17 @@ Men zou naïef kunnen denken dat dit kennisgevingsproces off-chain kan worden ui
 
 
 
-- Ten eerste zou het codeoverdrachtsproces naar een ander communicatieprotocol worden verplaatst. Problemen met betrekking tot de kosten en vertrouwelijkheid van de exchange zouden blijven bestaan, maar zouden simpelweg worden overgebracht naar dit nieuwe protocol. In termen van vertrouwelijkheid zou dit ook een link kunnen leggen tussen de identiteit van een gebruiker en activiteiten op de keten, wat we proberen te vermijden door de melding direct op de blockchain uit te voeren. Bovendien zou het maken van de melding buiten de blockchain risico's van censuur introduceren (zoals het blokkeren van fondsen) die niet bestaan op de Bitcoin;
+- Ten eerste zou het codeoverdrachtsproces naar een ander communicatieprotocol worden verplaatst. Problemen met betrekking tot de kosten en vertrouwelijkheid van de uitwisseling zouden blijven bestaan, maar zouden simpelweg worden overgebracht naar dit nieuwe protocol. In termen van vertrouwelijkheid zou dit ook een link kunnen leggen tussen de identiteit van een gebruiker en activiteiten op de blockchain, wat we proberen te vermijden door de melding direct op de blockchain uit te voeren. Bovendien zou het maken van de melding buiten de blockchain risico's van censuur introduceren (zoals het blokkeren van fondsen) die niet bestaan op de Bitcoin;
 - Ten tweede zou dit een terugvorderingsprobleem opleveren. Met BIP47 moet de ontvanger de betalingscodes van de verzenders kennen om toegang te krijgen tot de fondsen. Dit geldt bij ontvangst, maar ook in het geval dat fondsen worden teruggevorderd via de seed als de wallet verloren gaat. Met on-chain meldingen wordt dit risico vermeden, omdat de gebruiker de kennisgevingstransacties kan opvragen en ontsleutelen door simpelweg zijn seed te kennen. Als de melding echter buiten de blockchain wordt gedaan, zou de gebruiker een dynamische back-up van alle ontvangen betaalcodes moeten bijhouden, wat onpraktisch is voor de gemiddelde gebruiker.
 
 
-Al deze beperkingen maken het gebruik van on-chain notificatie essentieel voor BIP47. Silent Payments probeert deze on-chain notificatiestap echter te vermijden, juist vanwege de kosten. De gekozen oplossing is daarom niet om de kennisgeving te verplaatsen, maar om deze volledig te elimineren. Om dit te bereiken moet een compromis worden aanvaard: scannen. In tegenstelling tot BIP47, waar de gebruiker dankzij notificatietransacties precies weet waar hij zijn geld kan vinden, moet de gebruiker met Silent Payments alle bestaande Bitcoin-transacties onderzoeken om voor hem bestemde betalingen op te sporen. Om deze operationele last te verminderen, is de zoekopdracht voor Stille Betalingen beperkt tot transacties die waarschijnlijk dergelijke betalingen bevatten, d.w.z. transacties met ten minste één Taproot P2TR uitgang. De scan richt zich ook uitsluitend op transacties vanaf de aanmaakdatum van wallet (het is niet nodig om transacties uit 2009 te scannen als de wallet in 2024 werd aangemaakt).
+Al deze beperkingen maken het gebruik van on-chain kennisgeving essentieel voor BIP47. Silent Payments probeert deze on-chain kennisgevingsstap echter te vermijden, juist vanwege de kosten. De gekozen oplossing is daarom niet om de kennisgeving te verplaatsen, maar om deze volledig te elimineren. Om dit te bereiken moet een compromis worden aanvaard: scannen. In tegenstelling tot BIP47, waar de gebruiker dankzij notificatietransacties precies weet waar hij zijn geld kan vinden, moet de gebruiker met Silent Payments alle bestaande Bitcoin-transacties onderzoeken om voor hem bestemde betalingen op te sporen. Om deze operationele last te verminderen, is de zoekopdracht voor Silent Payments beperkt tot transacties die waarschijnlijk dergelijke betalingen bevatten, d.w.z. transacties met ten minste één Taproot P2TR output. De scan richt zich ook uitsluitend op transacties vanaf de aanmaakdatum van wallet (het is niet nodig om transacties uit 2009 te scannen als de wallet in 2024 werd aangemaakt).
 
 
-Je ziet dus waarom BIP47 en Stille Betalingen, hoewel ze een gelijkaardig doel nastreven, verschillende afwegingen met zich meebrengen en daarom **eigenlijk voldoen aan verschillende use cases**. Voor eenmalige betalingen, zoals eenmalige donaties, zijn Stille Betalingen geschikter vanwege hun lagere kosten. Voor regelmatige transacties aan dezelfde ontvanger, zoals in het geval van Exchange-platforms of Mining-pools, kan BIP47 daarentegen de voorkeur hebben.
+Je ziet dus waarom BIP47 en Silent Payments, hoewel ze een gelijkaardig doel nastreven, verschillende afwegingen met zich meebrengen en daarom **eigenlijk voldoen aan verschillende use cases**. Voor eenmalige betalingen, zoals eenmalige donaties, zijn Silent Payments geschikter vanwege hun lagere kosten. Voor regelmatige transacties aan dezelfde ontvanger, zoals in het geval van exchange-platforms of mining-pools, kan BIP47 daarentegen de voorkeur hebben.
 
 
-Laten we eens kijken naar de technische werking van Silent Payments om beter te begrijpen waar het om gaat. Om dit te doen, stel ik voor om dezelfde aanpak te volgen als in het toelichtend document van BIP352. We zullen de uit te voeren berekeningen geleidelijk opsplitsen, element per element, en elke nieuwe toevoeging rechtvaardigen.
+Laten we eens kijken naar de technische werking van Silent Payments om beter te begrijpen waar het om gaat. Om dit te doen, stel ik voor om dezelfde aanpak te volgen als in het toelichtend document van BIP352. We zullen de uit te voeren berekeningen geleidelijk opsplitsen, element per element, en elke nieuwe toevoeging verklaren.
 
 
 ### Een paar concepten om te begrijpen
@@ -5585,7 +5585,7 @@ $$ P = B + \text{Hash}(a \cdot B) \cdot G $$
 In deze vergelijking heeft Alice eenvoudigweg het scalair product berekend van haar privésleutel $a$ en de publieke sleutel $B$ van Bob. Ze heeft dit resultaat doorgegeven aan een hash functie die bij iedereen bekend is. De resulterende waarde wordt vervolgens scalair vermenigvuldigd met het genererende punt $G$ van de elliptische curve `secp256k1`. Tenslotte voegt Alice het resulterende punt toe aan de openbare sleutel $B$ van Bob. Zodra Alice dit adres $P$ heeft, gebruikt ze het als output in een transactie, d.w.z. ze stuurt er bitcoins naartoe.
 
 
-> *In de context van Stille Betalingen komt de "hash"-functie overeen met een SHA256 hash-functie die specifiek gelabeld is met `BIP0352/SharedSecret`, wat garandeert dat de gegenereerde hashes uniek zijn voor dit protocol en niet hergebruikt kunnen worden in andere contexten, terwijl het extra bescherming biedt tegen het hergebruik van nonces in handtekeningen. Deze standaard komt overeen met die [gespecificeerd in BIP340 voor Schnorr-handtekeningen](https://github.com/Bitcoin/bips/blob/master/bip-0340.mediawiki) op `secp256k1`.*
+> *In de context van Silent Payments komt de "hash"-functie overeen met een SHA256 hash-functie die specifiek gelabeld is met `BIP0352/SharedSecret`, wat garandeert dat de gegenereerde hashes uniek zijn voor dit protocol en niet hergebruikt kunnen worden in andere contexten, terwijl het extra bescherming biedt tegen het hergebruik van nonces in handtekeningen. Deze standaard komt overeen met die [gespecificeerd in BIP340 voor Schnorr-handtekeningen](https://github.com/Bitcoin/bips/blob/master/bip-0340.mediawiki) op `secp256k1`.*
 Dankzij de eigenschappen van de elliptische curve waarop ECDH is gebaseerd, weten we dat :
 
 
@@ -5610,7 +5610,7 @@ Van hieruit kan Bob de privésleutel $p$ berekenen waarmee het adres $P$ kan uit
 $$ p = (b + \text{Hash}(b \cdot A)) \bmod n $$
 
 
-Zoals je kunt zien, moet je om deze privésleutel $p$ te berekenen, de privésleutel $b$ hebben. Alleen Bob heeft deze privésleutel $b$. Hij zal daarom de enige zijn die de bitcoins kan uitgeven die naar zijn Stille Betalingen adres zijn gestuurd.
+Zoals je kunt zien, moet je om deze privésleutel $p$ te berekenen, de privésleutel $b$ hebben. Alleen Bob heeft deze privésleutel $b$. Hij zal daarom de enige zijn die de bitcoins kan uitgeven die naar zijn Silent Payments adres zijn gestuurd.
 
 
 ![BTC204](assets/nl/244.webp)
@@ -5658,7 +5658,7 @@ $$ P_0 = B + \text{Hash}(a \dot B ‖ } 0) \dot G $$
 $$ P_1 = B + \text{Hash}(a \dot B \text{ ‖ } 1) \dot G $$
 
 
-Wanneer Bob blockchain scant op Stille Betalingen die voor hem bedoeld zijn, begint hij met $i = 0$ voor adres $P_0$. Als hij geen betalingen vindt op $P_0$, concludeert hij dat deze transactie geen Stille Betalingen bevat die voor hem bedoeld zijn, en staakt hij de scan. Als $P_0$ echter geldig is en een betaling voor hem bevat, gaat hij verder met $P_1$ in dezelfde transactie om te controleren of Alice een tweede betaling heeft gedaan. Als $P_1$ ongeldig blijkt te zijn, stopt hij met zoeken naar deze transactie; anders gaat hij door met het testen van opeenvolgende $i$ waarden:
+Wanneer Bob blockchain scant op Silent Payments die voor hem bedoeld zijn, begint hij met $i = 0$ voor adres $P_0$. Als hij geen betalingen vindt op $P_0$, concludeert hij dat deze transactie geen Silent Payments bevat die voor hem bedoeld zijn, en staakt hij de scan. Als $P_0$ echter geldig is en een betaling voor hem bevat, gaat hij verder met $P_1$ in dezelfde transactie om te controleren of Alice een tweede betaling heeft gedaan. Als $P_1$ ongeldig blijkt te zijn, stopt hij met zoeken naar deze transactie; anders gaat hij door met het testen van opeenvolgende $i$ waarden:
 
 
 $$ P_0 = B + \text{Hash}(b \text{ ‖ } 0) \cdot G $$
@@ -5713,7 +5713,7 @@ Zoals we in de vorige secties zagen, gebruikt Alice het sleutelpaar dat haar UTX
 
 
 > *adres hergebruik is een zeer slechte praktijk als het gaat om de vertrouwelijkheid van gebruikers. Om erachter te komen waarom, raad ik je aan de eerste delen van deze training door te nemen.*
-Aangezien de unieke adres $P_0$ is afgeleid van $A$ en $B$, zal Alice, als ze een tweede adres afleidt voor een tweede betaling aan $B$, met dezelfde sleutel $A$, op precies hetzelfde adres $P_0$ uitkomen. Om dit risico te vermijden en hergebruik van adres binnen Stille Betalingen te voorkomen, moeten we onze berekeningen een beetje aanpassen.
+Aangezien de unieke adres $P_0$ is afgeleid van $A$ en $B$, zal Alice, als ze een tweede adres afleidt voor een tweede betaling aan $B$, met dezelfde sleutel $A$, op precies hetzelfde adres $P_0$ uitkomen. Om dit risico te vermijden en hergebruik van adres binnen Silent Payments te voorkomen, moeten we onze berekeningen een beetje aanpassen.
 
 
 Wat we willen is dat elke UTXO die Alice gebruikt als input voor een betaling, een unieke adres oplevert aan Bob's kant, zelfs als meerdere UTXO's beveiligd zijn door hetzelfde sleutelpaar. We hoeven dus alleen maar een verwijzing naar de UTXO toe te voegen bij het berekenen van de unieke adres $P_0$. Deze referentie zal simpelweg de hash zijn van de UTXO die als input wordt gebruikt:
@@ -5822,7 +5822,7 @@ De berekeningen blijven dan identiek aan die in de vorige sectie, behalve dat de
 Op dit moment noemen we de Silent Payment static adres $B$ een unieke publieke sleutel. Onthoud dat het deze publieke sleutel $B$ is die Alice gebruikt om het gedeelde geheim ECDH te maken, dat op zijn beurt de unieke betaling adres $P$ berekent. Bob gebruikt deze publieke sleutel $B$ en de bijbehorende privésleutel $b$ voor de scanfase. Maar hij zal ook de privésleutel $b$ gebruiken om de privésleutel $p$ te berekenen die het mogelijk maakt om uit te geven van het adres $P$.
 
 
-Het nadeel van deze methode is dat de $b$ privésleutel, die wordt gebruikt om alle privésleutels te berekenen van adressen die Stille Betalingen hebben ontvangen, ook door Bob wordt gebruikt om de transacties te scannen. Deze stap vereist dat de $b$ sleutel beschikbaar is op met internet verbonden wallet software, wat het meer blootstelt aan het risico van diefstal dan wanneer het op een Cold wordt bewaard. Idealiter zou het voordelig zijn om te kunnen profiteren van Stille Betalingen terwijl de $b$ privésleutel, die de toegang tot alle andere privésleutels controleert, veilig op een hardware wallet bewaard wordt. Gelukkig is het protocol aangepast om precies dat mogelijk te maken.
+Het nadeel van deze methode is dat de $b$ privésleutel, die wordt gebruikt om alle privésleutels te berekenen van adressen die Silent Payments hebben ontvangen, ook door Bob wordt gebruikt om de transacties te scannen. Deze stap vereist dat de $b$ sleutel beschikbaar is op met internet verbonden wallet software, wat het meer blootstelt aan het risico van diefstal dan wanneer het op een Cold wordt bewaard. Idealiter zou het voordelig zijn om te kunnen profiteren van Silent Payments terwijl de $b$ privésleutel, die de toegang tot alle andere privésleutels controleert, veilig op een hardware wallet bewaard wordt. Gelukkig is het protocol aangepast om precies dat mogelijk te maken.
 
 
 Om dit te doen, moet de ontvanger van de BIP352 2 verschillende sleutelparen gebruiken:
@@ -5834,7 +5834,7 @@ Om dit te doen, moet de ontvanger van de BIP352 2 verschillende sleutelparen geb
 - b_{{scan}}$: om unieke betalingsadressen te vinden.
 
 
-Op deze manier kan Bob de privésleutel $b_{\text{spend}}$ op een hardware wallet bewaren en de privésleutel $b_{\text{scan}}$ op online software gebruiken om zijn Stille Betalingen te vinden, zonder $b_{\text{spend}}$ te onthullen. Aan de andere kant zijn de publieke sleutels $B_{\text{scan}}$ en $B_{\text{spend}}$ beide publiekelijk onthuld, omdat ze zich in Bob's statische adres $B$ bevinden:
+Op deze manier kan Bob de privésleutel $b_{\text{spend}}$ op een hardware wallet bewaren en de privésleutel $b_{\text{scan}}$ op online software gebruiken om zijn Silent Payments te vinden, zonder $b_{\text{spend}}$ te onthullen. Aan de andere kant zijn de publieke sleutels $B_{\text{scan}}$ en $B_{\text{spend}}$ beide publiekelijk onthuld, omdat ze zich in Bob's statische adres $B$ bevinden:
 
 
 $$ B = B_{{scan}} \‖ } B_{{uitgaven}} $$
@@ -5882,7 +5882,7 @@ $$ p_0 = (b_{inputHash}} + \text{Hash}(\text{inputHash} \cdot b_{{text{scan}} \c
 ### SP-adressen met een label gebruiken
 
 
-Bob heeft daarom een statische adres $B$ voor Stille Betalingen zoals :
+Bob heeft daarom een statische adres $B$ voor Silent Payments zoals :
 
 
 $$ B = B_{{scan}} \‖ } B_{{uitgaven}} $$
@@ -5891,7 +5891,7 @@ $$ B = B_{{scan}} \‖ } B_{{uitgaven}} $$
 Het probleem met deze methode is dat je de verschillende betalingen die naar dit adres worden gestuurd, niet kunt scheiden. Als Bob bijvoorbeeld 2 verschillende klanten heeft voor zijn bedrijf, en hij wil de betalingen aan elk van hen onderscheiden, dan heeft hij 2 verschillende statische adressen nodig. Een naïeve oplossing, met de huidige aanpak, zou voor Bob zijn om twee aparte portemonnees aan te maken, elk met zijn eigen statische adres, of zelfs om twee verschillende statische adressen aan te maken binnen dezelfde wallet. Deze oplossing vereist echter dat de hele blockchain twee keer wordt gescand (één keer voor elke adres) om betalingen te detecteren die respectievelijk voor elke adres bestemd zijn. Dit dubbele scannen verhoogt de operationele belasting van Bob op onredelijke wijze.
 
 
-Om dit probleem op te lossen, gebruikt BIP352 een labelsysteem dat verschillende statische adressen toelaat, zonder de werklast voor het vinden van Stille Betalingen op de blockchain onredelijk te verhogen. Hiervoor voegen we een geheel getal $m$ toe aan de openbare bestedingssleutel $B_{{spend}}$. Dit gehele getal kan de waarde $1$ aannemen voor de eerste statische adres, dan $2$ voor de tweede, enzovoort. De uitgavensleutels $B_{text{spend}}$ worden nu $B_m$ genoemd en worden op deze manier opgebouwd:
+Om dit probleem op te lossen, gebruikt BIP352 een labelsysteem dat verschillende statische adressen toelaat, zonder de werklast voor het vinden van Silent Payments op de blockchain onredelijk te verhogen. Hiervoor voegen we een geheel getal $m$ toe aan de openbare bestedingssleutel $B_{{spend}}$. Dit gehele getal kan de waarde $1$ aannemen voor de eerste statische adres, dan $2$ voor de tweede, enzovoort. De uitgavensleutels $B_{text{spend}}$ worden nu $B_m$ genoemd en worden op deze manier opgebouwd:
 
 
 $$ B_m = B_{\text{spend}} + \text{Hash}(b_{scan}} \text{ ‖ } m) \cdot G $$
@@ -5970,7 +5970,7 @@ Houd er echter rekening mee dat deze scheiding van statische adressen alleen gel
 ### Hoe bouw ik een Silent Payments adres?
 
 
-Om een adres voor Stille Betalingen te bouwen, moet je eerst 2 sleutelparen van je Bitcoin HD wallet afleiden:
+Om een adres voor Silent Payments te bouwen, moet je eerst 2 sleutelparen van je Bitcoin HD wallet afleiden:
 
 
 
@@ -6023,7 +6023,7 @@ Een belangrijk punt met betrekking tot statische adressen, dat je misschien hebt
 Net als bij BIP47 is het onmogelijk om een verband te leggen tussen een statische adres $B$ en een betalings-adres $P$ afgeleid van $B$. Zelfs als Eve, een potentiële aanvaller, probeert de blockchain te scannen met de statische adres $B$ van Bob, zal ze niet in staat zijn de berekeningen uit te voeren die nodig zijn om $P$ te bepalen. Om dat te doen, zou ze ofwel de privésleutel $b_{scan}}$ van Bob nodig hebben, ofwel de privésleutels $a$ van de verzender, maar beide zijn natuurlijk privaat. Het is dus mogelijk om iemands statische adres expliciet te koppelen aan een vorm van persoonlijke identiteit.
 
 
-### Hoe gebruik ik Stille Betalingen?
+### Hoe gebruik ik Silent Payments?
 
 
 Het Silent Payments voorstel is relatief recent en wordt op dit moment slechts door een zeer beperkt aantal wallets geïmplementeerd. Bij mijn weten zijn er slechts 3 softwareproducten die ze ondersteunen:
@@ -6039,10 +6039,10 @@ Het Silent Payments voorstel is relatief recent en wordt op dit moment slechts d
 Binnenkort geven we je een gedetailleerde tutorial over het opzetten van je eigen Silent Payments statische adres.
 
 
-Omdat deze functie nieuw is, raden we je aan voorzichtig te zijn en het gebruik van Stille Betalingen voor grote bedragen op Mainnet te vermijden.
+Omdat deze functie nieuw is, raden we je aan voorzichtig te zijn en het gebruik van Silent Payments voor grote bedragen op Mainnet te vermijden.
 
 
-*Om dit hoofdstuk over Stille Betalingen te maken, heb ik gebruik gemaakt van [de site met uitleg over Stille Betalingen](https://silentpayments.xyz/) en [het document met uitleg over BIP352](https://github.com/Bitcoin/bips/blob/master/bip-0352.mediawiki).*
+*Om dit hoofdstuk over Silent Payments te maken, heb ik gebruik gemaakt van [de site met uitleg over Silent Payments](https://silentpayments.xyz/) en [het document met uitleg over BIP352](https://github.com/Bitcoin/bips/blob/master/bip-0352.mediawiki).*
 
 
 # Laatste Sectie

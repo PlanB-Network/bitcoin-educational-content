@@ -5621,7 +5621,7 @@ Zoals je kunt zien, moet je om deze privésleutel $p$ te berekenen, de privésle
 
 
 
-- $B$ : De openbare sleutel/static adres gepubliceerd door Bob
+- $B$ : De openbare sleutel/statische adres gepubliceerd door Bob
 - $b$ : Bob's privésleutel
 - $A$ : Alice's UTXO publieke sleutel gebruikt als transactie-input
 - $a$ : Alice's privésleutel
@@ -5637,10 +5637,10 @@ Hier is een nogal naïeve eerste benadering om Bob's statische adres, genoteerd 
 ### Hoe maak ik meerdere outputs?
 
 
-In het voorbeeld uit de vorige sectie, creëert Alice een enkele uitgang die naar Bob gaat op zijn unieke adres $P$. Met dezelfde geselecteerde input is het voor Alice onmogelijk om twee aparte lege adressen voor Bob te maken, omdat de gebruikte methode altijd tot hetzelfde resultaat voor $P$ zou leiden, namelijk hetzelfde adres. Er kunnen zich echter veel situaties voordoen waarin Alice haar betaling aan Bob in meerdere kleinere bedragen wil verdelen, waardoor er meerdere UTXO's ontstaan. Er moet dus een methode worden gevonden om dit te bereiken.
+In het voorbeeld uit de vorige sectie, creëert Alice een enkele output die naar Bob gaat op zijn unieke adres $P$. Met dezelfde geselecteerde input is het voor Alice onmogelijk om twee aparte lege adressen voor Bob te maken, omdat de gebruikte methode altijd tot hetzelfde resultaat voor $P$ zou leiden, namelijk hetzelfde adres. Er kunnen zich echter veel situaties voordoen waarin Alice haar betaling aan Bob in meerdere kleinere bedragen wil verdelen, waardoor er meerdere UTXO's ontstaan. Er moet dus een methode worden gevonden om dit te bereiken.
 
 
-Om dit te bereiken, gaan we de berekening die Alice uitvoert om $P$ af te leiden iets aanpassen, zodat ze generate twee verschillende adressen kan geven aan Bob, namelijk $P_0$ en $P_1$.
+Om dit te bereiken, gaan we de berekening die Alice uitvoert om $P$ af te leiden iets aanpassen, zodat ze twee verschillende adressen kan genereren voor Bob, namelijk $P_0$ en $P_1$.
 
 
 Om de berekening te wijzigen en 2 verschillende adressen te verkrijgen, voeg je gewoon een geheel getal toe dat het resultaat wijzigt. Zo zal Alice $0$ toevoegen aan haar berekening om het adres $P_0$ te verkrijgen en $1$ om het adres $P_1$ te verkrijgen. Laten we dit geheel getal $i$ noemen:
@@ -5649,7 +5649,7 @@ Om de berekening te wijzigen en 2 verschillende adressen te verkrijgen, voeg je 
 $$ P_i = B + \text{Hash}(a \cdot B ‖ } i) \cdot G $$
 
 
-Het berekeningsproces blijft ongewijzigd ten opzichte van de vorige methode, behalve dat Alice deze keer $a cdot B$ aaneenschakelt met $i$ voordat hash verder gaat. Je wijzigt dan eenvoudig $i$ om een nieuwe adres te verkrijgen die bij Bob hoort. Bijvoorbeeld:
+Het berekeningsproces blijft ongewijzigd ten opzichte van de vorige methode, behalve dat Alice deze keer $a cdot B$ aaneenschakelt met $i$ voordat ze gehasht wordt. Je wijzigt dan eenvoudig $i$ om een nieuw adres te verkrijgen dat bij Bob hoort. Bijvoorbeeld:
 
 
 $$ P_0 = B + \text{Hash}(a \dot B ‖ } 0) \dot G $$
@@ -5658,7 +5658,7 @@ $$ P_0 = B + \text{Hash}(a \dot B ‖ } 0) \dot G $$
 $$ P_1 = B + \text{Hash}(a \dot B \text{ ‖ } 1) \dot G $$
 
 
-Wanneer Bob blockchain scant op Silent Payments die voor hem bedoeld zijn, begint hij met $i = 0$ voor adres $P_0$. Als hij geen betalingen vindt op $P_0$, concludeert hij dat deze transactie geen Silent Payments bevat die voor hem bedoeld zijn, en staakt hij de scan. Als $P_0$ echter geldig is en een betaling voor hem bevat, gaat hij verder met $P_1$ in dezelfde transactie om te controleren of Alice een tweede betaling heeft gedaan. Als $P_1$ ongeldig blijkt te zijn, stopt hij met zoeken naar deze transactie; anders gaat hij door met het testen van opeenvolgende $i$ waarden:
+Wanneer Bob de blockchain scant op Silent Payments die voor hem bedoeld zijn, begint hij met $i = 0$ voor adres $P_0$. Als hij geen betalingen vindt op $P_0$, concludeert hij dat deze transactie geen Silent Payments bevat die voor hem bedoeld zijn, en staakt hij de scan. Als $P_0$ echter geldig is en een betaling voor hem bevat, gaat hij verder met $P_1$ in dezelfde transactie om te controleren of Alice een tweede betaling heeft gedaan. Als $P_1$ ongeldig blijkt te zijn, stopt hij met zoeken naar deze transactie; anders gaat hij door met het testen van opeenvolgende $i$ waarden:
 
 
 $$ P_0 = B + \text{Hash}(b \text{ ‖ } 0) \cdot G $$
@@ -5691,38 +5691,38 @@ $$
 
 
 
-- $B$ : De openbare sleutel/static adres gepubliceerd door Bob
-- $b$: Bob's privésleutel
-- $A$ : Alice's UTXO publieke sleutel gebruikt als transactie-invoer
-- $a$: Alice's privésleutel
-- $G$: het voortbrengend punt van de elliptische kromme `secp256k1`
+- $B$ : De openbare sleutel/het statische adres gepubliceerd door Bob
+- $b$ : Bob's privésleutel
+- $A$ : Alice's UTXO publieke sleutel gebruikt als transactie-input
+- $a$ : Alice's privésleutel
+- $G$ : het genererend punt van de elliptische kromme `secp256k1`
 - $\text{SHA256}$ : De SHA256 hash-functie getagd met `BIP0352/SharedSecret`
-- $s_0$: het eerste gemeenschappelijke geheim ECDH
-- $s_1$: het tweede gemeenschappelijke ECDH-geheim
-- $P_0$ : De eerste openbare sleutel / unieke adres voor betaling aan Bob
-- $P_1$ : De tweede openbare sleutel / unieke adres voor betaling aan Bob
+- $s_0$ : Het eerste gemeenschappelijke geheim ECDH
+- $s_1$ : Het tweede gemeenschappelijke ECDH-geheim
+- $P_0$ : De eerste openbare sleutel / het unieke adres voor betaling aan Bob
+- $P_1$ : De tweede openbare sleutel / het unieke adres voor betaling aan Bob
 
 
-Met deze methode beginnen we een aardig protocol te krijgen, maar er zijn nog een paar uitdagingen te overwinnen, niet in de laatste plaats het voorkomen van hergebruik van adres.
+Met deze methode beginnen we een aardig protocol te krijgen, maar er zijn nog een paar uitdagingen te overwinnen, niet in de laatste plaats het voorkomen van adreshergebruik.
 
 
-### Hoe voorkom je hergebruik van adres?
+### Hoe voorkom je adreshergebruik?
 
 
-Zoals we in de vorige secties zagen, gebruikt Alice het sleutelpaar dat haar UTXO beveiligt, dat ze zal gebruiken om het gedeelde ECDH-geheim met Bob te berekenen. Dit geheim stelt haar in staat om de unieke adres $P_0$ af te leiden. Het sleutelpaar ($a$, $A$) dat Alice gebruikt, kan echter meerdere UTXO's beveiligen als ze dit adres meerdere keren heeft hergebruikt. In het geval dat Alice twee betalingen doet aan Bob's statische adres $B$ met behulp van twee UTXO's beveiligd door dezelfde sleutel $A$, zou dit resulteren in hergebruik van adres voor Bob.
+Zoals we in de vorige secties zagen, gebruikt Alice het sleutelpaar dat haar UTXO beveiligt, dat ze zal gebruiken om het gedeelde ECDH-geheim met Bob te berekenen. Dit geheim stelt haar in staat om het unieke adres $P_0$ af te leiden. Het sleutelpaar ($a$, $A$) dat Alice gebruikt, kan echter meerdere UTXO's beveiligen als ze dit adres meerdere keren heeft hergebruikt. In het geval dat Alice twee betalingen doet aan Bob's statische adres $B$ met behulp van twee UTXO's beveiligd door dezelfde sleutel $A$, zou dit resulteren in adreshergebruik voor Bob.
 
 
-> *adres hergebruik is een zeer slechte praktijk als het gaat om de vertrouwelijkheid van gebruikers. Om erachter te komen waarom, raad ik je aan de eerste delen van deze training door te nemen.*
-Aangezien de unieke adres $P_0$ is afgeleid van $A$ en $B$, zal Alice, als ze een tweede adres afleidt voor een tweede betaling aan $B$, met dezelfde sleutel $A$, op precies hetzelfde adres $P_0$ uitkomen. Om dit risico te vermijden en hergebruik van adres binnen Silent Payments te voorkomen, moeten we onze berekeningen een beetje aanpassen.
+> *Adreshergebruik is een zeer slechte praktijk als het gaat om de vertrouwelijkheid van gebruikers. Om erachter te komen waarom, raad ik je aan de eerste delen van deze training door te nemen.*
+Aangezien de unieke adres $P_0$ is afgeleid van $A$ en $B$, zal Alice, als ze een tweede adres afleidt voor een tweede betaling aan $B$, met dezelfde sleutel $A$, op precies hetzelfde adres $P_0$ uitkomen. Om dit risico te vermijden en adreshergebruik binnen Silent Payments te voorkomen, moeten we onze berekeningen een beetje aanpassen.
 
 
-Wat we willen is dat elke UTXO die Alice gebruikt als input voor een betaling, een unieke adres oplevert aan Bob's kant, zelfs als meerdere UTXO's beveiligd zijn door hetzelfde sleutelpaar. We hoeven dus alleen maar een verwijzing naar de UTXO toe te voegen bij het berekenen van de unieke adres $P_0$. Deze referentie zal simpelweg de hash zijn van de UTXO die als input wordt gebruikt:
+Wat we willen is dat elke UTXO die Alice gebruikt als input voor een betaling, een uniek adres oplevert aan Bob's kant, zelfs als meerdere UTXO's beveiligd zijn door hetzelfde sleutelpaar. We hoeven dus alleen maar een verwijzing naar de UTXO toe te voegen bij het berekenen van het unieke adres $P_0$. Deze referentie zal simpelweg de hash zijn van de UTXO die als input wordt gebruikt:
 
 
 $$ \text{inputHash} = \text{Hash}(\text{outpoint} \text{ ‖ } A) $$
 
 
-En Alice voegt deze verwijzing toe aan de input voor haar berekening van de unieke adres $P_0$ :
+En Alice voegt deze verwijzing toe aan de input voor haar berekening van het unieke adres $P_0$ :
 
 
 $$ P_0 = B + \text{Hash}(\text{inputHash} \cdot a \cdot B \text{ ‖ } 0) \cdot G $$
@@ -5734,7 +5734,7 @@ Bij het scannen kan Bob ook ${inputHash}$ toevoegen, omdat hij alleen maar de tr
 $$ P_0 = B + \text{Hash}(\text{inputHash} \cdot b \cdot A \text{ ‖ } 0) \cdot G $$
 
 
-Als het een geldige $P_0$ vindt, kan het de bijbehorende privésleutel $p_0$ berekenen:
+Als hij een geldige $P_0$ vindt, kan hij de bijbehorende privésleutel $p_0$ berekenen:
 
 
 $$
@@ -5750,27 +5750,27 @@ $$
 
 
 
-- $B$ : De openbare sleutel/static adres gepubliceerd door Bob
-- $b$: Bob's privésleutel
-- $A$ : Alice's UTXO publieke sleutel gebruikt als transactie-invoer
-- $a$: Alice's privésleutel
-- $H$ : UTXO hash gebruikt als invoer
-- $G$: het voortbrengend punt van de elliptische kromme `secp256k1`
+- $B$ : De openbare sleutel/het statische adres gepubliceerd door Bob
+- $b$ : Bob's privésleutel
+- $A$ : Alice's UTXO publieke sleutel gebruikt als transactie-input
+- $a$ : Alice's privésleutel
+- $H$ : UTXO hash gebruikt als input
+- $G$ : het generend punt van de elliptische kromme `secp256k1`
 - $\text{SHA256}$ : De SHA256 hash-functie getagd met `BIP0352/SharedSecret`
-- $s_0$: het eerste gemeenschappelijke ECDH-geheim
-- $P_0$ : De eerste openbare sleutel / unieke adres voor betaling aan Bob
+- $s_0$ : Het eerste gemeenschappelijke ECDH-geheim
+- $P_0$ : De eerste openbare sleutel / het unieke adres voor betaling aan Bob
 
 
-Voorlopig gaan onze berekeningen ervan uit dat Alice één input gebruikt voor haar transactie. Ze zou echter meerdere ingangen moeten kunnen gebruiken. Bijgevolg zou Bob voor elke transactie met meerdere ingangen theoretisch de ECDH voor elke input moeten berekenen om te bepalen of een betaling voor hem bedoeld is. Deze methode is niet bevredigend, dus we moeten een oplossing vinden om de werklast te verminderen!
+Voorlopig gaan onze berekeningen ervan uit dat Alice één input gebruikt voor haar transactie. Ze zou echter meerdere inputs moeten kunnen gebruiken. Bijgevolg zou Bob voor elke transactie met meerdere inputs theoretisch de ECDH voor elke input moeten berekenen om te bepalen of een betaling voor hem bedoeld is. Deze methode is niet bevredigend, dus we moeten een oplossing vinden om de werklast te verminderen!
 
 
-### Openbare sleutels omzetten in invoer
+### Openbare sleutels omzetten in input
 
 
 Om dit probleem op te lossen, gebruiken we in plaats van het sleutelpaar dat een specifieke input aan Alice's kant beveiligt, de som van alle sleutelparen die in de input van de transactie zijn gebruikt. Deze som wordt dan beschouwd als een nieuw sleutelpaar. Deze techniek staat bekend als "tweaking".
 
 
-Stel bijvoorbeeld dat de transactie van Alice 3 ingangen heeft, elk beveiligd met een ander sleutelpaar:
+Stel bijvoorbeeld dat de transactie van Alice 3 inputs heeft, elk beveiligd met een ander sleutelpaar:
 
 
 
@@ -5783,7 +5783,7 @@ Stel bijvoorbeeld dat de transactie van Alice 3 ingangen heeft, elk beveiligd me
 ![BTC204](assets/nl/247.webp)
 
 
-Volgens de eerder beschreven methode zou Alice een enkel sleutelpaar moeten kiezen uit $a_0$, $a_1$ en $a_2$ om het ECDH-geheim te berekenen en generate de enkele betaling adres $P$ uit Bob's statische adres $B$. Deze aanpak vereist echter dat Bob elke mogelijkheid achtereenvolgens test, te beginnen met $a_0$, dan $a_1$, enzovoort, totdat hij een paar identificeert dat een geldige adres $P$ genereert. Dit proces vereist dat Bob de ECDH berekening uitvoert op alle ingangen van alle transacties, wat de operationele belasting van het scannen aanzienlijk verhoogt.
+Volgens de eerder beschreven methode zou Alice een enkel sleutelpaar moeten kiezen uit $a_0$, $a_1$ en $a_2$ om het ECDH-geheim te berekenen en het enkele betaaladres $P$ uit Bob's statische adres $B$ te genereren. Deze aanpak vereist echter dat Bob elke mogelijkheid achtereenvolgens test, te beginnen met $a_0$, dan $a_1$, enzovoort, totdat hij een paar identificeert dat een geldig adres $P$ genereert. Dit proces vereist dat Bob de ECDH berekening uitvoert op alle inputs van alle transacties, wat de operationele belasting van het scannen aanzienlijk verhoogt.
 
 
 Om dit te vermijden, vragen we Alice om $P$ te berekenen met de som van alle ingevoerde sleutels. In ons voorbeeld wordt de getweakte privésleutel $a$ als volgt berekend:
@@ -5801,28 +5801,28 @@ $$ A = A_0 + A_1 + A_2 $$
 Met deze methode hoeft Bob alleen de som van de openbare sleutels van de transactie te berekenen en vervolgens het ECDH-geheim van $A$ alleen, wat het aantal berekeningen dat nodig is voor de scanfase sterk vermindert.
 
 
-Denk echter aan de vorige paragraaf. We hadden de hash van ${inputHash}$ toegevoegd aan onze berekening, die wordt gebruikt als een Nonce om hergebruik van adres te voorkomen:
+Denk echter aan de vorige paragraaf. We hadden de hash van ${inputHash}$ toegevoegd aan onze berekening, die wordt gebruikt als een nonce om adreshergebruik te voorkomen:
 
 
 $$ \text{inputHash} = \text{Hash}(\text{outpoint} \text{ ‖ } A) $$
 
 
-Maar als je meerdere ingangen in een transactie hebt, moet je kunnen bepalen welke $tekst{uitgangspunt}$ wordt gekozen in deze berekening. Volgens BIP352 is het te gebruiken selectiecriterium voor $tekst{uitgangspunt}$ om de kleinste lexicografisch te kiezen, wat betekent dat je de UTXO kiest die als eerste in alfabetische volgorde verschijnt. Deze methode standaardiseert de UTXO die bij elke transactie wordt gekozen. Als bijvoorbeeld de lexicografisch kleinste ${uitgangspunt}$ ${uitgangspunt}_L$ is, wordt de berekening van ${inputHash}$ :
+Maar als je meerdere inputs in een transactie hebt, moet je kunnen bepalen welke $tekst{uitgangspunt}$ wordt gekozen in deze berekening. Volgens BIP352 is het te gebruiken selectiecriterium voor $tekst{uitgangspunt}$ om de kleinste lexicografisch te kiezen, wat betekent dat je de UTXO kiest die als eerste in alfabetische volgorde verschijnt. Deze methode standaardiseert de UTXO die bij elke transactie wordt gekozen. Als bijvoorbeeld de lexicografisch kleinste ${uitgangspunt}$ ${uitgangspunt}_L$ is, wordt de berekening van ${inputHash}$ :
 
 
 $$ \text{inputHash} = \text{Hash}(\text{outpoint}_L \text{ ‖ } A) $$
 
 
-De berekeningen blijven dan identiek aan die in de vorige sectie, behalve dat de privésleutel $a$ en de corresponderende openbare sleutel $A$ niet langer een paar zijn dat wordt gebruikt om een enkele input te beveiligen, maar nu de tweak vormen voor alle sleutelparen in de invoer.
+De berekeningen blijven dan identiek aan die in de vorige sectie, behalve dat de privésleutel $a$ en de corresponderende openbare sleutel $A$ niet langer een paar zijn dat wordt gebruikt om een enkele input te beveiligen, maar nu de tweak vormen voor alle sleutelparen in de input.
 
 
 ### Aparte uitgave- en scansleutels
 
 
-Op dit moment noemen we de Silent Payment static adres $B$ een unieke publieke sleutel. Onthoud dat het deze publieke sleutel $B$ is die Alice gebruikt om het gedeelde geheim ECDH te maken, dat op zijn beurt de unieke betaling adres $P$ berekent. Bob gebruikt deze publieke sleutel $B$ en de bijbehorende privésleutel $b$ voor de scanfase. Maar hij zal ook de privésleutel $b$ gebruiken om de privésleutel $p$ te berekenen die het mogelijk maakt om uit te geven van het adres $P$.
+Op dit moment noemen we het Silent Payment statische adres $B$ een unieke publieke sleutel. Onthoud dat het deze publieke sleutel $B$ is die Alice gebruikt om het gedeelde geheim ECDH te maken, dat op zijn beurt het unieke betaaladres $P$ berekent. Bob gebruikt deze publieke sleutel $B$ en de bijbehorende privésleutel $b$ voor de scanfase. Maar hij zal ook de privésleutel $b$ gebruiken om de privésleutel $p$ te berekenen die het mogelijk maakt om uit te geven van het adres $P$.
 
 
-Het nadeel van deze methode is dat de $b$ privésleutel, die wordt gebruikt om alle privésleutels te berekenen van adressen die Silent Payments hebben ontvangen, ook door Bob wordt gebruikt om de transacties te scannen. Deze stap vereist dat de $b$ sleutel beschikbaar is op met internet verbonden wallet software, wat het meer blootstelt aan het risico van diefstal dan wanneer het op een Cold wordt bewaard. Idealiter zou het voordelig zijn om te kunnen profiteren van Silent Payments terwijl de $b$ privésleutel, die de toegang tot alle andere privésleutels controleert, veilig op een hardware wallet bewaard wordt. Gelukkig is het protocol aangepast om precies dat mogelijk te maken.
+Het nadeel van deze methode is dat de $b$ privésleutel, die wordt gebruikt om alle privésleutels te berekenen van adressen die Silent Payments hebben ontvangen, ook door Bob wordt gebruikt om de transacties te scannen. Deze stap vereist dat de $b$ sleutel beschikbaar is op met internet verbonden wallet software, wat het meer blootstelt aan het risico van diefstal dan wanneer het op een cold wallet wordt bewaard. Idealiter zou het voordelig zijn om te kunnen profiteren van Silent Payments terwijl de $b$ privésleutel, die de toegang tot alle andere privésleutels controleert, veilig op een hardware wallet bewaard wordt. Gelukkig is het protocol aangepast om precies dat mogelijk te maken.
 
 
 Om dit te doen, moet de ontvanger van de BIP352 2 verschillende sleutelparen gebruiken:
@@ -5831,7 +5831,7 @@ Om dit te doen, moet de ontvanger van de BIP352 2 verschillende sleutelparen geb
 
 
 - b_{text{spend}}$: om de privésleutels van unieke betaaladressen te berekenen;
-- b_{{scan}}$: om unieke betalingsadressen te vinden.
+- b_{{scan}}$: om unieke betaaladressen te vinden.
 
 
 Op deze manier kan Bob de privésleutel $b_{\text{spend}}$ op een hardware wallet bewaren en de privésleutel $b_{\text{scan}}$ op online software gebruiken om zijn Silent Payments te vinden, zonder $b_{\text{spend}}$ te onthullen. Aan de andere kant zijn de publieke sleutels $B_{\text{scan}}$ en $B_{\text{spend}}$ beide publiekelijk onthuld, omdat ze zich in Bob's statische adres $B$ bevinden:
@@ -5840,7 +5840,7 @@ Op deze manier kan Bob de privésleutel $b_{\text{spend}}$ op een hardware walle
 $$ B = B_{{scan}} \‖ } B_{{uitgaven}} $$
 
 
-Om een unieke betaling adres $P_0$ te berekenen die bij Bob hoort, zal Alice nu de volgende berekening uitvoeren:
+Om een uniek betaaladres $P_0$ te berekenen dat bij Bob hoort, zal Alice nu de volgende berekening uitvoeren:
 
 
 $$ P_0 = B_{{spend}} + \text{Hash}(\text{inputHash} \cdot a \cdot B_{scan}} \text{ ‖ } 0) \cdot G $$
@@ -5852,7 +5852,7 @@ Om de betalingen te vinden die aan hem zijn gericht, voert Bob de volgende berek
 $$ P_0 = B_{{spend}} + \text{Hash}(\text{inputHash} \cdot b_{scan} \cdot A \text{ ‖ } 0) \cdot G $$
 
 
-Zoals je kunt zien, heeft Bob tot nu toe nog geen $b_{text{spend}}$ nodig gehad, die op zijn Hardware wallet staat. Wanneer hij $P_0$ wil uitgeven, kan hij de volgende berekening doen om de privésleutel $p_0$ te vinden:
+Zoals je kunt zien, heeft Bob tot nu toe nog geen $b_{text{spend}}$ nodig gehad, die op zijn hardware wallet staat. Wanneer hij $P_0$ wil uitgeven, kan hij de volgende berekening doen om de privésleutel $p_0$ te vinden:
 
 
 $$ p_0 = (b_{inputHash}} + \text{Hash}(\text{inputHash} \cdot b_{{text{scan}} \cdot A \text{ ‖ } 0)) \bmod n $$
@@ -5866,81 +5866,81 @@ $$ p_0 = (b_{inputHash}} + \text{Hash}(\text{inputHash} \cdot b_{{text{scan}} \c
 
 
 
-- $B_{{scan}}$: Bob's publieke scansleutel (statische adres)
+- $B_{{scan}}$ : Bob's publieke scansleutel (statisch adres)
 - $b_{{scan}}$ : Bob's private scansleutel
-- $B_{{spend}}$ : Bob's openbare bestedingssleutel (statisch adres)
-- $b_{{spend}}$ : Bob's privé bestedingssleutel
-- $A$ : Som van ingangen met openbare sleutel (tweak)
+- $B_{{spend}}$ : Bob's openbare uitgavesleutel (statisch adres)
+- $b_{{spend}}$ : Bob's privé uitgavesleutel
+- $A$ : Som van inputs met openbare sleutel (tweak)
 - $a$ : De privésleutel die overeenkomt met de aangepaste openbare sleutel
-- $H$: de hash van de kleinste UTXO (lexicografisch) gebruikt als invoer
-- $G$: het voortbrengend punt van de elliptische kromme `secp256k1`
+- $H$ : de hash van de kleinste UTXO (lexicografisch) gebruikt als input
+- $G$ : het genererend punt van de elliptische kromme `secp256k1`
 - $\text{SHA256}$ : De SHA256 hash-functie getagd met `BIP0352/SharedSecret`
-- $s_0$: het eerste gemeenschappelijke geheim ECDH
-- $P_0$ : De eerste openbare sleutel / unieke adres voor betaling aan Bob
+- $s_0$ : Het eerste gemeenschappelijke geheim ECDH
+- $P_0$ : De eerste openbare sleutel / het unieke adres voor betaling aan Bob
 
 
 ### SP-adressen met een label gebruiken
 
 
-Bob heeft daarom een statische adres $B$ voor Silent Payments zoals :
+Bob heeft daarom een statisch adres $B$ voor Silent Payments zoals :
 
 
 $$ B = B_{{scan}} \‖ } B_{{uitgaven}} $$
 
 
-Het probleem met deze methode is dat je de verschillende betalingen die naar dit adres worden gestuurd, niet kunt scheiden. Als Bob bijvoorbeeld 2 verschillende klanten heeft voor zijn bedrijf, en hij wil de betalingen aan elk van hen onderscheiden, dan heeft hij 2 verschillende statische adressen nodig. Een naïeve oplossing, met de huidige aanpak, zou voor Bob zijn om twee aparte portemonnees aan te maken, elk met zijn eigen statische adres, of zelfs om twee verschillende statische adressen aan te maken binnen dezelfde wallet. Deze oplossing vereist echter dat de hele blockchain twee keer wordt gescand (één keer voor elke adres) om betalingen te detecteren die respectievelijk voor elke adres bestemd zijn. Dit dubbele scannen verhoogt de operationele belasting van Bob op onredelijke wijze.
+Het probleem met deze methode is dat je de verschillende betalingen die naar dit adres worden gestuurd, niet kunt scheiden. Als Bob bijvoorbeeld 2 verschillende klanten heeft voor zijn bedrijf, en hij wil de betalingen aan elk van hen onderscheiden, dan heeft hij 2 verschillende statische adressen nodig. Een naïeve oplossing, met de huidige aanpak, zou voor Bob zijn om twee aparte wallets aan te maken, elk met zijn eigen statische adres, of zelfs om twee verschillende statische adressen aan te maken binnen dezelfde wallet. Deze oplossing vereist echter dat de hele blockchain twee keer wordt gescand (één keer voor elke adres) om betalingen te detecteren die respectievelijk voor elke adres bestemd zijn. Dit dubbele scannen verhoogt de operationele belasting van Bob op onredelijke wijze.
 
 
-Om dit probleem op te lossen, gebruikt BIP352 een labelsysteem dat verschillende statische adressen toelaat, zonder de werklast voor het vinden van Silent Payments op de blockchain onredelijk te verhogen. Hiervoor voegen we een geheel getal $m$ toe aan de openbare bestedingssleutel $B_{{spend}}$. Dit gehele getal kan de waarde $1$ aannemen voor de eerste statische adres, dan $2$ voor de tweede, enzovoort. De uitgavensleutels $B_{text{spend}}$ worden nu $B_m$ genoemd en worden op deze manier opgebouwd:
+Om dit probleem op te lossen, gebruikt BIP352 een labelsysteem dat verschillende statische adressen toelaat, zonder de werklast voor het vinden van Silent Payments op de blockchain onredelijk te verhogen. Hiervoor voegen we een geheel getal $m$ toe aan de openbare uitgavesleutel $B_{{spend}}$. Dit gehele getal kan de waarde $1$ aannemen voor de eerste statische adres, dan $2$ voor de tweede, enzovoort. De uitgavesleutels $B_{text{spend}}$ worden nu $B_m$ genoemd en worden op deze manier opgebouwd:
 
 
 $$ B_m = B_{\text{spend}} + \text{Hash}(b_{scan}} \text{ ‖ } m) \cdot G $$
 
 
-Bijvoorbeeld, voor de eerste onkostentoets met het label $1$ :
+Bijvoorbeeld, voor de eerste uitgavesleutel met het label $1$ :
 
 
 $$ B_1 = B_{\text{spend}}} + \text{Hash}(b_{scan}} \text{ ‖ } 1) \cdot G $$
 
 
-De statische adres gepubliceerd door Bob zal nu bestaan uit $B_{{scan}}$ en $B_m$. Bijvoorbeeld, de eerste statische adres met het label $1$ zal :
+Het statische adres gepubliceerd door Bob zal nu bestaan uit $B_{{scan}}$ en $B_m$. Bijvoorbeeld, het eerste statische adres met het label $1$ zal zijn:
 
 
 $$ B = B_{{scan}} \‖ } B_1 $$
 
 
-> *We beginnen pas bij label 1 omdat label 0 gereserveerd is voor de verandering.*
-Alice zal op haar beurt de bedrijfstoeslag adres $P$ op dezelfde manier als voorheen afleiden, maar met de nieuwe $B_1$ in plaats van $B_{text{spend}}$ :
+> *We beginnen pas bij label 1 omdat label 0 gereserveerd is voor het wisselgeld.*
+Alice zal op haar beurt het unieke betaaladres $P$ op dezelfde manier als voorheen afleiden, maar met de nieuwe $B_1$ in plaats van $B_{text{spend}}$ :
 
 
 $$ P_0 = B_1 + \text{Hash}(\text{inputHash} \cdot a \cdot B_{scan} \text{ ‖ } 0) \cdot G $$
 
 
-In werkelijkheid hoeft Alice niet eens te weten dat Bob een gelabelde adres heeft, want ze gebruikt gewoon het tweede deel van de statische adres die hij gaf, en in dit geval is dat de waarde $B_1$ in plaats van $B_{text{spend}}$.
+In werkelijkheid hoeft Alice niet eens te weten dat Bob een gelabeld adres heeft, want ze gebruikt gewoon het tweede deel van het statische adres dat hij gaf, en in dit geval is dat de waarde $B_1$ in plaats van $B_{text{spend}}$.
 
 
 Om betalingen te scannen zal Bob altijd de waarde van zijn initiële statische adres met $B_{text{spend}}$ op deze manier gebruiken:
 
 
-$$ P_0 = B_{{bestedingen}} + \text{Hash}(\text{inputHash} \cdot b_{scan} \cdot A \text{ ‖ } 0) \cdot G $$
+$$ P_0 = B_{{spend}} + \text{Hash}(\text{inputHash} \cdot b_{scan} \cdot A \text{ ‖ } 0) \cdot G $$
 
 
-Vervolgens trekt hij de waarde die hij vindt voor $P_0$ één voor één af van elke output. Vervolgens controleert hij of een van de resultaten van deze aftrekkingen overeenkomt met de waarde van een van de labels die hij gebruikt voor zijn portfolio. Als bijvoorbeeld output #4 overeenkomt met het label $1$, betekent dit dat deze output een Stille Betaling is die geassocieerd is met zijn statisch gelabelde adres $B_1$ :
+Vervolgens trekt hij de waarde die hij vindt voor $P_0$ één voor één af van elke output. Vervolgens controleert hij of een van de resultaten van deze aftrekkingen overeenkomt met de waarde van een van de labels die hij gebruikt voor zijn wallet. Als bijvoorbeeld output #4 overeenkomt met het label $1$, betekent dit dat deze output een Silent Payment is die geassocieerd is met zijn statisch gelabelde adres $B_1$:
 
 
 $$ Out_4 - P_0 = \text{Hash}(b_{scan}} \text{ ‖ } 1) \cdot G $$
 
 
-Het werkt omdat :
+Dit werkt omdat:
 
 
 $$ B_1 = B_{\text{spend}}} + \text{Hash}(b_{scan}} \text{ ‖ } 1) \cdot G $$
 
 
-Dankzij deze methode kan Bob een veelheid aan statische adressen gebruiken ($B_1$, $B_2$, $B_3$...), allemaal afgeleid van zijn statische basis-adres ($B = B_{{scan}} ‖ } B_{{scan}}}$), om het gebruik gescheiden te houden.
+Dankzij deze methode kan Bob een veelheid aan statische adressen gebruiken ($B_1$, $B_2$, $B_3$...), allemaal afgeleid van zijn statisch basis-adres ($B = B_{{scan}} ‖ } B_{{scan}}}$), om het gebruik gescheiden te houden.
 
 
-Houd er echter rekening mee dat deze scheiding van statische adressen alleen geldig is vanuit het oogpunt van persoonlijk portefeuillebeheer, maar geen scheiding van identiteiten inhoudt. Aangezien ze allemaal dezelfde $B_{{scan}}$ hebben, is het heel gemakkelijk om alle statische adressen samen te brengen en af te leiden dat ze tot één entiteit behoren.
+Houd er echter rekening mee dat deze scheiding van statische adressen alleen geldig is vanuit het oogpunt van persoonlijk walletbeheer, maar geen scheiding van identiteiten inhoudt. Aangezien ze allemaal dezelfde $B_{{scan}}$ hebben, is het heel gemakkelijk om alle statische adressen samen te brengen en af te leiden dat ze tot één entiteit behoren.
 
 
 ![BTC204](assets/nl/249.webp)
@@ -5951,20 +5951,20 @@ Houd er echter rekening mee dat deze scheiding van statische adressen alleen gel
 
 
 
-- $B_{{scan}}$: Bob's publieke scansleutel (statisch adres)
+- $B_{{scan}}$ : Bob's publieke scansleutel (statisch adres)
 - $b_{{scan}}$ : Bob's private scansleutel
-- $B_{{spend}}$ : Bob's openbare bestedingssleutel (initieel adres)
-- $B_m$ : Bob's publieke bestedingssleutel gelabeld (statisch adres)
-- $b_m$: Bob's private bestedingssleutel gelabeld
-- $A$ : Som van ingangen met openbare sleutel (tweak)
+- $B_{{spend}}$ : Bob's openbare uitgavesleutel (initieel adres)
+- $B_m$ : Bob's publieke uitgavesleutel gelabeld (statisch adres)
+- $b_m$ : Bob's private uitgavesleutel gelabeld
+- $A$ : Som van inputs met openbare sleutel (tweak)
 - $a$ : De privésleutel die overeenkomt met de aangepaste openbare sleutel
-- $H$: de hash van de kleinste UTXO (lexicografisch) gebruikt als invoer
-- $G$: het voortbrengend punt van de elliptische kromme `secp256k1`
+- $H$ : de hash van de kleinste UTXO (lexicografisch) gebruikt als input
+- $G$ : het genererend punt van de elliptische kromme `secp256k1`
 - $\text{SHA256}$ : De SHA256 hash functie getagd met `BIP0352/SharedSecret`
-- $s_0$: het eerste gemeenschappelijke ECDH-geheim
-- $P_0$ : De eerste publieke sleutel / uniek adres voor betaling aan Bob
-- $p_0$ : De privésleutel van de eerste unieke betaling adres aan Bob
-- $X$ : De hash van de particuliere sleutel van de scan met het label
+- $s_0$ : Het eerste gemeenschappelijke ECDH-geheim
+- $P_0$ : De eerste publieke sleutel / het unieke adres voor betaling aan Bob
+- $p_0$ : De privésleutel van het eerste unieke betaaladres aan Bob
+- $X$ : De hash van de privésleutel van de scan met het label
 
 
 ### Hoe bouw ik een Silent Payments adres?
@@ -5976,7 +5976,7 @@ Om een adres voor Silent Payments te bouwen, moet je eerst 2 sleutelparen van je
 
 
 - Het paar $b_{{scan}}$, $B_{{scan}}$ om te zoeken naar aan ons geadresseerde betalingen;
-- Het paar $b_{\text{spend}}$, $B_{\text{spend}}$ om te denken aan de bitcoins die we hebben ontvangen.
+- Het paar $b_{\text{spend}}$, $B_{\text{spend}}$ om de bitcoins uit te geven die we hebben ontvangen.
 
 
 Deze paren zijn afgeleid met behulp van de volgende paden (*Bitcoin Mainnet*):
@@ -5988,7 +5988,7 @@ spend : m / 352' / 0' / 0' / 0' / 0
 ```
 
 
-Zodra we deze 2 sleutelparen hebben, voegen we ze eenvoudigweg samen (end-to-end) om de statische adres payload te creëren:
+Zodra we deze 2 sleutelparen hebben, voegen we ze eenvoudigweg samen (end-to-end) om het statische payload adres te creëren:
 
 
 $$ B = B_{{scan}} \‖ } B_{{uitgaven}} $$
@@ -6009,7 +6009,7 @@ $$ B_m = B_{\text{spend}} + \text{Hash}(b_{scan}} \text{ ‖ } m) \cdot G $$
 Zodra we deze payload hebben, voegen we de HRP (*Human-Readable Part*) `sp` en de versie `q` (= versie 0) toe. We voegen ook een checksum toe en formatteren het adres als bech32m.
 
 
-Hier is bijvoorbeeld mijn Silent Payments static adres:
+Hier is bijvoorbeeld mijn statisch Silent Payments adres:
 
 
 ```text
@@ -6017,10 +6017,10 @@ sp1qqvhjvsq2vz8zwrw372vuzle7472zup2ql3pz64yn5cpkw5ngv2n6jq4nl8cgm6zmu48yk3eq33ry
 ```
 
 
-Een belangrijk punt met betrekking tot statische adressen, dat je misschien hebt begrepen in de vorige secties, is dat deze adressen niet zichtbaar zijn in Bitcoin-transacties. Alleen de $P$ betalingsadressen die in outputs worden gebruikt, verschijnen op de blockchain in het standaard Taproot formaat. Van buitenaf is het dus onmogelijk om een transactie met Stille Betaling te onderscheiden van een gewone transactie met P2TR outputs.
+Een belangrijk punt met betrekking tot statische adressen, dat je misschien hebt begrepen in de vorige secties, is dat deze adressen niet zichtbaar zijn in Bitcoin-transacties. Alleen de $P$ betaaladressen die in outputs worden gebruikt, verschijnen op de blockchain in het standaard Taproot formaat. Van buitenaf is het dus onmogelijk om een transactie met Silent Payments te onderscheiden van een gewone transactie met P2TR outputs.
 
 
-Net als bij BIP47 is het onmogelijk om een verband te leggen tussen een statische adres $B$ en een betalings-adres $P$ afgeleid van $B$. Zelfs als Eve, een potentiële aanvaller, probeert de blockchain te scannen met de statische adres $B$ van Bob, zal ze niet in staat zijn de berekeningen uit te voeren die nodig zijn om $P$ te bepalen. Om dat te doen, zou ze ofwel de privésleutel $b_{scan}}$ van Bob nodig hebben, ofwel de privésleutels $a$ van de verzender, maar beide zijn natuurlijk privaat. Het is dus mogelijk om iemands statische adres expliciet te koppelen aan een vorm van persoonlijke identiteit.
+Net als bij BIP47 is het onmogelijk om een verband te leggen tussen een statisch adres $B$ en een betaaladres $P$ afgeleid van $B$. Zelfs als Eve, een potentiële aanvaller, probeert de blockchain te scannen met het statisch adres $B$ van Bob, zal ze niet in staat zijn de berekeningen uit te voeren die nodig zijn om $P$ te bepalen. Om dat te doen, zou ze ofwel de privésleutel $b_{scan}}$ van Bob nodig hebben, ofwel de privésleutels $a$ van de verzender, maar beide zijn natuurlijk privaat. Het is dus mogelijk om iemands statische adres expliciet te koppelen aan een vorm van persoonlijke identiteit.
 
 
 ### Hoe gebruik ik Silent Payments?

@@ -39,7 +39,7 @@ Importante ❗️ Shelter dipende interamente dalla qualità dell'implementazion
 
 ## Come iniziare con Shelter
 
-### Installare la pensilina
+### Installare Shelter
 
 Visita il negozio di applicazioni e strumenti gratuiti e open source **F-droid**.
 
@@ -172,7 +172,7 @@ Bingo! La nostra applicazione è ora visibile nell'elenco delle applicazioni pro
 ![screen](assets/fr/33.webp)
 
 
-## Blocco dell'applicazione in Work Profil
+## Blocco dell'applicazione nel profilo di lavoro
 
 Per congelare un'applicazione, vai su Shelter. Vai alla scheda Applicazioni professionali. Da questa scheda, seleziona l'applicazione che desideri congelare.
 
@@ -189,7 +189,7 @@ Una volta congelata, l'applicazione che era visibile nella cartella **Android Wo
 
 ## Clonazione di un'applicazione
 
-In Shelter, potete clonare un'applicazione che state già utilizzando direttamente nel tuo spazio personale.
+In Shelter, puoi clonare un'applicazione che stai già utilizzando direttamente nel tuo spazio personale.
 
 Per farlo, vai alla scheda **Profilo principale**, quindi fai clic sull'applicazione che si desidera clonare per un momento, finché non appare il piccolo menu contestuale.
 
@@ -209,7 +209,7 @@ Accetta l'installazione facendo clic su **Install**.
 
 È possibile anche il processo inverso, cioè clonare un'applicazione disponibile nella scheda **professionale** nella scheda **principale (personale)**.
 
-A tal fine, dalla scheda Professionale, tocca l'applicazione da clonare per visualizzare il menu contestuale. Quindi fai clic su **Clonatore nel profilo principale**. Prova a clonare l'applicazione GPS Local.
+A tal fine, dalla scheda Professionale, tocca l'applicazione da clonare per visualizzare il menu contestuale. Quindi fai clic su **Clonare nel profilo principale**. Prova a clonare l'applicazione GPS Local.
 
 ![screen](assets/fr/40.webp)
 
@@ -226,12 +226,12 @@ L'applicazione è ora disponibile nel menu delle applicazioni personali.
 
 Ci sono molti motivi per cui potresti voler disinstallare Shelter. Sia perché il tuo nuovo lavoro non ti richiede più di usarlo, sia perché hai appena acquistato un nuovo telefono dedicato esclusivamente al tuo lavoro.
 
-In ogni caso, è necessario prima eliminare il **profilo professionale**. Nelle **Impostazioni** del telefono, vai su **Password e account*** ed elimina il profilo professionale.
+In ogni caso, è necessario prima eliminare il **profilo professionale**. Nelle **Impostazioni** del telefono, vai su **Password e account** ed elimina il profilo professionale.
 
 ![screen](assets/fr/43.webp)
 
-Tornare quindi al menu delle applicazioni e disinstalla l'applicazione **Shelter**.
+Torna quindi al menu delle applicazioni e disinstalla l'applicazione **Shelter**.
 
-Ora sai come utilizzare l'applicazione Shelter per creare un **profilo di lavoro** isolato e separato dalle tue applicazioni personali. Se questa esercitazione ti è stata utile, lasciatemi un pollice verde qui sotto. Sentiti libero di condividerlo.
+Ora sai come utilizzare l'applicazione Shelter per creare un **profilo di lavoro** isolato e separato dalle tue applicazioni personali. Se questa esercitazione ti è stata utile, lasciami un pollice verde qui sotto. Sentiti libero di condividerlo.
 
 Lunga vita ai progetti open source! Lunga vita a Bitcoin!

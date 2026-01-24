@@ -1431,9 +1431,9 @@ Sobald die Mnemonic-Phrase und die optionale Passphrase generiert sind, kann der
 
 ### Der Seed einer HD-Wallet
 
-Der BIP39-Standard definiert den Seed als eine 512-Bit-Sequenz, die als Ausgangspunkt für die Ableitung aller Schlüssel einer HD-Wallet dient. Der Seed wird aus der mnemonischen Phrase und der möglichen Passphrase unter Verwendung des **PBKDF2**-Algorithmus (*Password-Based Key Derivation Function 2*) abgeleitet, den wir bereits in Kapitel 3.3 besprochen haben. In dieser Ableitungsfunktion werden wir die folgenden Parameter verwenden:
+Der BIP39-Standard definiert den Seed als eine 512-Bit-Sequenz, die als Ausgangspunkt für die Ableitung aller Schlüssel einer HD-Wallet dient. Der Seed wird aus der Mnemonic-Phrase und der möglichen Passphrase unter Verwendung des **PBKDF2**-Algorithmus (*Password-Based Key Derivation Function 2*) abgeleitet, den wir bereits in Kapitel 3.3 besprochen haben. In dieser Ableitungsfunktion werden wir die folgenden Parameter verwenden:
 
-- $m$ : die mnemonische Phrase;
+- $m$ : die Mnemonic-Phrase;
 - $p$ : eine optionale Passphrase, die vom Benutzer gewählt wird, um die Sicherheit des Seeds zu erhöhen. Wenn keine Passphrase vorhanden ist, bleibt dieses Feld leer;
 - $\text{PBKDF2}$ : die Ableitungsfunktion mit $\text{HMAC-SHA512}$ und $2048$ Iterationen;
 - $s$: der 512-Bit-Wallet-Seed.
@@ -1442,7 +1442,7 @@ Unabhängig von der gewählten Länge der mnemonischen Phrase (132 Bits oder 264
 
 ### Seed-Ableitungsschema mit PBKDF2
 
-Die folgende Gleichung veranschaulicht die Ableitung des Seeds aus der mnemonischen Phrase und der Passphrase:
+Die folgende Gleichung veranschaulicht die Ableitung des Seeds aus der Mnemonic-Phrase und der Passphrase:
 
 
 $$
@@ -1453,19 +1453,19 @@ $$
 
 ![CYP201](assets/en/049.webp)
 
-Der Wert des Seeds wird also durch den Wert der mnemonischen Phrase und der Passphrase beeinflusst. Durch Ändern der Passphrase wird ein anderer Seed erhalten. Jedoch wird mit derselben mnemonischen Phrase und Passphrase immer derselbe Seed generiert, da PBKDF2 eine deterministische Funktion ist. Dies stellt sicher, dass dieselben Schlüsselpaare über unsere Sicherungen abgerufen werden können.
+Der Wert des Seeds wird also durch den Wert der Mnemonic-Phrase und der Passphrase beeinflusst. Durch Ändern der Passphrase wird ein anderer Seed erhalten. Jedoch wird mit derselben mnemonischen Phrase und Passphrase immer derselbe Seed generiert, da PBKDF2 eine deterministische Funktion ist. Dies stellt sicher, dass dieselben Schlüsselpaare über unsere Backups abgerufen werden können.
 
-**Hinweis:** Im allgemeinen Sprachgebrauch bezieht sich der Begriff "Seed" oft, durch Sprachmissbrauch, auf die mnemonische Phrase. Tatsächlich ist in Abwesenheit einer Passphrase das eine einfach die Kodierung des anderen. Wie wir jedoch gesehen haben, sind in der technischen Realität von Wallets der Seed und die mnemonische Phrase tatsächlich zwei unterschiedliche Elemente.
+**Hinweis:** Im allgemeinen Sprachgebrauch bezieht sich der Begriff "Seed" oft, durch Sprachmissbrauch, auf die Mnemonic-Phrase. Tatsächlich ist in Abwesenheit einer Passphrase das eine einfach die Kodierung des anderen. Wie wir jedoch gesehen haben, sind in der technischen Realität von Wallets der Seed und die Mnemonic-Phrase tatsächlich zwei unterschiedliche Elemente.
 
 Jetzt, da wir unseren Seed haben, können wir mit der Ableitung unserer Bitcoin-Wallet fortfahren.
-### Der Master-Schlüssel und der Master-Chain-Code
-Sobald der Seed erhalten wurde, besteht der nächste Schritt bei der Ableitung eines HD-Wallets darin, den Master-Privatschlüssel und den Master-Chain-Code zu berechnen, die die Tiefe 0 unseres Wallets darstellen werden.
 
-Um den Master-Privatschlüssel und den Master-Chain-Code zu erhalten, wird die HMAC-SHA512-Funktion auf den Seed angewendet, unter Verwendung eines festen Schlüssels "*Bitcoin Seed*", der für alle Bitcoin-Nutzer identisch ist. Diese Konstante wird gewählt, um sicherzustellen, dass die Schlüsselableitungen spezifisch für Bitcoin sind. Hier sind die Elemente:
+### Der Master-Schlüssel und der Master-Chain-Code
+Sobald der Seed erhalten wurde, besteht der nächste Schritt bei der Ableitung einer HD-Wallets darin, den privaten Master-Schlüssel und den Master-Chain-Code zu berechnen, welche die Tiefe 0 unseres Wallets darstellen werden.
+
+Um den privaten Master-Schlüssel und den Master-Chain-Code zu erhalten, wird die HMAC-SHA512-Funktion auf den Seed angewendet, unter Verwendung eines festen Schlüssels "*Bitcoin Seed*", der für alle Bitcoin-Nutzer identisch ist. Diese Konstante wird gewählt, um sicherzustellen, dass die Schlüsselableitungen spezifisch für Bitcoin sind. Hier sind die Elemente:
 - $\text{HMAC-SHA512}$: die Ableitungsfunktion;
 - $s$: der 512-Bit-Wallet-Seed;
 - $\text{"Bitcoin Seed"}$: die gemeinsame Ableitungskonstante für alle Bitcoin-Wallets.
-
 
 $$
 
@@ -1474,9 +1474,9 @@ $$
 $$
 
 Der Output dieser Funktion ist daher 512 Bit lang. Er wird dann in 2 Teile geteilt:
-- Die linken 256 Bit bilden den **Master-Privatschlüssel**;
+- Die linken 256 Bit bilden den **privaten Master-Schlüssel**;
 - Die rechten 256 Bit bilden den **Master-Chain-Code**.
-Mathematisch können diese beiden Werte wie folgt mit $k_M$ als dem Master-Privatschlüssel und $C_M$ als dem Master-Chain-Code notiert werden:
+Mathematisch können diese beiden Werte wie folgt mit $k_M$ als der private Master-Schlüssel und $C_M$ als dem Master-Chain-Code notiert werden:
 
 $$
 k_M = \text{HMAC-SHA512}(\text{"Bitcoin Seed"}, s)_{[:256]}
@@ -1491,30 +1491,31 @@ $$
 
 ### Rolle des Master-Schlüssels und des Chain-Codes
 
-Der Master-Privatschlüssel wird als Elternschlüssel betrachtet, von dem alle abgeleiteten Privatschlüssel — Kinder, Enkelkinder, Urenkel usw. — generiert werden. Er repräsentiert die Null-Ebene in der Hierarchie der Ableitung.
+Der private Master-Schlüssel wird als Elternschlüssel betrachtet, von dem alle abgeleiteten privaten Schlüssel — Kinder, Enkelkinder, Urenkel usw. — generiert werden. Er repräsentiert die Null-Ebene in der Hierarchie der Ableitung.
 
-Der Master-Chain-Code führt andererseits eine zusätzliche Quelle der Entropie in den Schlüsselableitungsprozess für Kind-Schlüssel ein, um bestimmten potenziellen Angriffen entgegenzuwirken. Darüber hinaus hat im HD-Wallet jedes Schlüsselpaar einen einzigartigen Chain-Code, der ebenfalls verwendet wird, um Kinderschlüssel aus diesem Paar abzuleiten, aber wir werden dies in den kommenden Kapiteln genauer besprechen.
+Der Master-Chain-Code führt andererseits eine zusätzliche Quelle der Entropie in den Schlüsselableitungsprozess für Kind-Schlüssel ein, um bestimmten potenziellen Angriffen entgegenzuwirken. Darüber hinaus hat in einer HD-Wallet jedes Schlüsselpaar einen einzigartigen Chain-Code, der ebenfalls verwendet wird, um Kinderschlüssel aus diesem Paar abzuleiten, aber wir werden dies in den kommenden Kapiteln genauer besprechen.
 
-Bevor wir mit der Ableitung des HD-Wallets mit den folgenden Elementen fortfahren, möchte ich im nächsten Kapitel erweiterte Schlüssel vorstellen, die oft mit dem Master-Schlüssel verwechselt werden. Wir werden sehen, wie sie konstruiert sind und welche Rolle sie im Bitcoin-Wallet spielen.
+Bevor wir mit der Ableitung der HD-Wallet mit den folgenden Elementen fortfahren, möchte ich im nächsten Kapitel erweiterte Schlüssel vorstellen, die oft mit dem Master-Schlüssel verwechselt werden. Wir werden sehen, wie sie konstruiert sind und welche Rolle sie in einer Bitcoin-Wallet spielen.
 
 ## Erweiterte Schlüssel
 <chapterId>8dcffce1-31bd-5e0b-965b-735f5f9e4602</chapterId>
 
 :::video id=bbca9cca-62a0-4b4e-93d5-3757dc100123:::
 
-Ein erweiterter Schlüssel ist einfach die Verkettung eines Schlüssels (egal ob privat oder öffentlich) und seines zugehörigen Chain-Codes. Dieser Chain-Code ist wesentlich für die Ableitung von Kinderschlüsseln, denn ohne ihn ist es unmöglich, Kinderschlüssel von einem Elternschlüssel abzuleiten, aber wir werden diesen Prozess im nächsten Kapitel genauer entdecken. Diese erweiterten Schlüssel ermöglichen es also, alle notwendigen Informationen zur Ableitung von Kinderschlüsseln zu aggregieren und dadurch die Kontenverwaltung innerhalb eines HD-Wallets zu vereinfachen.
+Ein erweiterter Schlüssel ist einfach die Verkettung eines Schlüssels (egal ob privat oder öffentlich) und seines zugehörigen Chain-Codes. Dieser Chain-Code ist wesentlich für die Ableitung von Kinderschlüsseln, denn ohne ihn ist es unmöglich, Kinderschlüssel von einem Elternschlüssel abzuleiten, aber wir werden diesen Prozess im nächsten Kapitel genauer betrachten. Diese erweiterten Schlüssel ermöglichen es also, alle notwendigen Informationen zur Ableitung von Kinderschlüsseln zu aggregieren und dadurch die Kontenverwaltung innerhalb einer HD-Wallet zu vereinfachen.
 
 ![CYP201](assets/en/051.webp)
 
 Der erweiterte Schlüssel besteht aus zwei Teilen:
-- Der Nutzlast, die den privaten oder öffentlichen Schlüssel sowie den zugehörigen Chain-Code enthält;
-- Den Metadaten, die verschiedene Informationen zur Erleichterung der Interoperabilität zwischen Software und zur Verbesserung des Verständnisses für den Benutzer enthalten.
+- Der Payload, der den privaten oder öffentlichen Schlüssel sowie den zugehörigen Chain-Code enthält;
+- Die Metadaten, die verschiedene Informationen zur Erleichterung der Interoperabilität zwischen Software und zur Verbesserung des Verständnisses für den Benutzer enthalten.
 
 ### Wie erweiterte Schlüssel funktionieren
 Wenn der erweiterte Schlüssel einen privaten Schlüssel enthält, wird er als erweiterter privater Schlüssel bezeichnet. Er ist an seinem Präfix erkennbar, das die Bezeichnung `prv` enthält. Zusätzlich zum privaten Schlüssel enthält der erweiterte private Schlüssel auch den zugehörigen Chain-Code. Mit dieser Art von erweitertem Schlüssel ist es möglich, alle Arten von abgeleiteten privaten Schlüsseln abzuleiten, und daher durch Addition und Verdopplung von Punkten auf elliptischen Kurven ermöglicht es auch die Ableitung der Gesamtheit von öffentlichen Kind-Schlüsseln.
-Wenn der erweiterte Schlüssel keinen privaten Schlüssel enthält, sondern stattdessen einen öffentlichen Schlüssel, wird er als erweiterter öffentlicher Schlüssel bezeichnet. Er ist an seinem Präfix erkennbar, das die Bezeichnung `pub` enthält. Offensichtlich enthält er zusätzlich zum Schlüssel auch den zugehörigen Chain-Code. Im Gegensatz zum erweiterten privaten Schlüssel ermöglicht der erweiterte öffentliche Schlüssel die Ableitung von nur "normalen" öffentlichen Kind-Schlüsseln (was bedeutet, dass er keine "gehärteten" Kind-Schlüssel ableiten kann). Wir werden im folgenden Kapitel sehen, was diese Bezeichnungen "normal" und "gehärtet" bedeuten.
 
-Aber in jedem Fall erlaubt der erweiterte öffentliche Schlüssel nicht die Ableitung von abgeleiteten privaten Schlüsseln. Daher kann selbst, wenn jemand Zugang zu einem `xpub` hat, nicht die zugehörigen Mittel ausgeben, da er keinen Zugang zu den entsprechenden privaten Schlüsseln hat. du können nur Kind-öffentliche Schlüssel ableiten, um die zugehörigen Transaktionen zu beobachten.
+Wenn der erweiterte Schlüssel keinen privaten Schlüssel enthält, sondern stattdessen einen öffentlichen Schlüssel, wird er als erweiterter öffentlicher Schlüssel bezeichnet. Er ist an seinem Präfix erkennbar, der die Bezeichnung `pub` enthält. Offensichtlich enthält er zusätzlich zum Schlüssel auch den zugehörigen Chain-Code. Im Gegensatz zum erweiterten privaten Schlüssel ermöglicht der erweiterte öffentliche Schlüssel die Ableitung von nur "normalen" öffentlichen Kind-Schlüsseln (was bedeutet, dass er keine "gehärteten" Kind-Schlüssel ableiten kann). Wir werden im folgenden Kapitel sehen, was diese Bezeichnungen "normal" und "gehärtet" bedeuten.
+
+Aber in jedem Fall erlaubt der erweiterte öffentliche Schlüssel nicht die Ableitung von abgeleiteten privaten Schlüsseln. Daher kann selbst, wenn jemand Zugang zu einem `xpub` hat, nicht die zugehörigen Mittel ausgeben, da er keinen Zugang zu den entsprechenden privaten Schlüsseln hat. Sie können nur öffentliche Kind-Schlüssel ableiten, um die zugehörigen Transaktionen zu beobachten.
 
 Für das Folgende werden wir die folgende Notation anwenden:
 - $K_{\text{PAR}}$: ein öffentlicher Eltern-Schlüssel;
@@ -1532,7 +1533,7 @@ Für das Folgende werden wir die folgende Notation anwenden:
 
 Ein erweiterter Schlüssel ist wie folgt strukturiert:
 - **Version**: Versionscode zur Identifizierung der Art des Schlüssels (`xprv`, `xpub`, `yprv`, `ypub`...). Am Ende dieses Kapitels werden wir sehen, was die Buchstaben `x`, `y` und `z` entsprechen.
-- **Tiefe**: Hierarchische Ebene im HD-Wallet relativ zum Master-Schlüssel (0 für den Master-Schlüssel).
+- **Tiefe**: Hierarchische Ebene in der HD-Wallet relativ zum Master-Schlüssel (0 für den Master-Schlüssel).
 - **Eltern-Fingerabdruck**: Die ersten 4 Bytes des HASH160-Hashs des öffentlichen Eltern-Schlüssels, der zur Ableitung des im Payload vorhandenen Schlüssels verwendet wurde.
 - **Indexnummer**: Kennzeichnung des Kindes unter Geschwisterschlüsseln, das heißt, unter allen Schlüsseln auf derselben Ableitungsebene, die dieselben Elternschlüssel haben.
 - **Chain-Code**: Ein einzigartiger 32-Byte-Code zur Ableitung von Kind-Schlüsseln.
@@ -1546,18 +1547,18 @@ Das vollständige Format eines erweiterten Schlüssels beträgt daher 78 Bytes o
 | Version           | Gibt an, ob der Schlüssel öffentlich (`xpub`, `ypub`) oder privat (`xprv`, `zprv`) ist, sowie die Version des erweiterten Schlüssels | 4 Bytes   |
 | Depth             | Ebene in der Hierarchie relativ zum Master-Schlüssel                                                               | 1 Byte    |
 | Parent Fingerprint| Die ersten 4 Bytes von HASH160 des öffentlichen Elternschlüssels                                                    | 4 Bytes   |
-| Index Number      | Position des Schlüssels in der Reihenfolge der Kinder                                                              | 4 Bytes   |
-| Chain Code        | Wird verwendet, um Kind-Schlüssel abzuleiten                                                                       | 32 Bytes  |
+| Index Nummber      | Position des Schlüssels in der Reihenfolge der Kinder                                                              | 4 Bytes   |
+| Chain-Code        | Wird verwendet, um Kind-Schlüssel abzuleiten                                                                       | 32 Bytes  |
 | Key               | Der private Schlüssel (mit einem 1-Byte-Präfix) oder der öffentliche Schlüssel                                     | 33 Bytes  |
 | Checksum          | Prüfsumme zur Überprüfung der Integrität                                                                           | 4 Bytes   |
 
-Wenn ein Byte nur zum privaten Schlüssel hinzugefügt wird, liegt das daran, dass der komprimierte öffentliche Schlüssel um ein Byte länger ist als der private Schlüssel. Dieses zusätzliche Byte, das am Anfang des privaten Schlüssels als `0x00` hinzugefügt wird, gleicht ihre Größe aus und stellt sicher, dass die Nutzlast des erweiterten Schlüssels dieselbe Länge hat, egal ob es sich um einen öffentlichen oder einen privaten Schlüssel handelt.
+Wenn ein Byte nur zum privaten Schlüssel hinzugefügt wird, liegt das daran, dass der komprimierte öffentliche Schlüssel um ein Byte länger ist als der private Schlüssel. Dieses zusätzliche Byte, das am Anfang des privaten Schlüssels als `0x00` hinzugefügt wird, gleicht seine Größe aus und stellt sicher, dass die Nutzlast des erweiterten Schlüssels dieselbe Länge hat, egal ob es sich um einen öffentlichen oder einen privaten Schlüssel handelt.
 
 ### Erweiterte Schlüsselpräfixe
-Wie wir gerade gesehen haben, enthalten erweiterte Schlüssel ein Präfix, das sowohl die Version des erweiterten Schlüssels als auch seine Natur angibt. Die Notation `pub` zeigt an, dass es sich um einen erweiterten öffentlichen Schlüssel handelt, und die Notation `prv` zeigt einen erweiterten privaten Schlüssel an. Der zusätzliche Buchstabe an der Basis des erweiterten Schlüssels hilft anzugeben, ob der Standard Legacy, SegWit v0, SegWit v1 usw. folgt.
+Wie wir gerade gesehen haben, enthalten erweiterte Schlüssel einen Präfix, der sowohl die Version des erweiterten Schlüssels als auch seine Natur angibt. Die Notation `pub` zeigt an, dass es sich um einen erweiterten öffentlichen Schlüssel handelt, und die Notation `prv` zeigt einen erweiterten privaten Schlüssel an. Der zusätzliche Buchstabe an der Basis des erweiterten Schlüssels hilft anzugeben, ob der Standard Legacy, SegWit v0, SegWit v1 usw. folgt.
 Hier ist eine Zusammenfassung der verwendeten Präfixe und ihrer Bedeutungen:
 
-| Base 58 Prefix  | Base 16 Prefix  | Network | Purpose             | Associated Scripts  | Derivation            | Key Type     |
+| Base 58 Prefix  | Base 16 Prefix  | Netzwerk | Zweck             | Assoziierte Skripte  | Ableitung            | Schlüsseltyp     |
 | --------------- | --------------- | ------- | ------------------- | ------------------- | --------------------- | ------------ |
 | `xpub`          | `0488b21e`      | Mainnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/0'`, `m/86'/0'` | public       |
 | `xprv`          | `0488ade4`      | Mainnet | Legacy and SegWit V1 | P2PK / P2PKH / P2TR | `m/44'/0'`, `m/86'/0'` | private      |
@@ -1600,7 +1601,9 @@ Die ersten 4 Bytes sind die Version. Hier entspricht sie einem erweiterten öffe
 Dieses Feld gibt die hierarchische Ebene des Schlüssels innerhalb der HD-Wallet an. In diesem Fall bedeutet eine Tiefe von `03`, dass dieser Schlüssel drei Ableitungsebenen unterhalb des Master-Schlüssels liegt.
 
 - **Eltern-Fingerabdruck**: `6D5601AD`
+
 Diese sind die ersten 4 Bytes des HASH160-Hashes des übergeordneten öffentlichen Schlüssels, der verwendet wurde, um diesen `xpub` abzuleiten.
+
 - **Indexnummer**: `80000000`
 
 Dieser Index gibt die Position des Schlüssels unter den Kindern seines Elternteils an. Das Präfix `0x80` zeigt an, dass der Schlüssel auf eine gehärtete Weise abgeleitet wurde, und da der Rest mit Nullen gefüllt ist, zeigt es an, dass dieser Schlüssel der erste unter seinen möglichen Geschwistern ist.
@@ -1609,9 +1612,9 @@ Dieser Index gibt die Position des Schlüssels unter den Kindern seines Elternte
 - **Öffentlicher Schlüssel**: `03772CCB99F4EF346078D167065404EED8A58787DED31BFA479244824DF5065805`
 - **Prüfsumme**: `1F067C3A`
 
-Die Prüfsumme entspricht den ersten 4 Bytes des Hashes (doppelter SHA256) von allem anderen.
+Die Prüfsumme entspricht den ersten 4 Bytes des Hashes (doppelter SHA256) aller übrigen Daten. 
 
-In diesem Kapitel haben wir entdeckt, dass es zwei verschiedene Arten von Kinderschlüsseln gibt. Wir haben auch gelernt, dass die Ableitung dieser Kinderschlüssel einen Schlüssel (entweder privat oder öffentlich) und seinen Chain-Code erfordert. Im nächsten Kapitel werden wir die Natur dieser verschiedenen Arten von Schlüsseln im Detail untersuchen und wie sie aus ihrem Elternschlüssel und Chain-Code abgeleitet werden können.
+In diesem Kapitel haben wir gesehen, dass es zwei verschiedene Arten von Kinderschlüsseln gibt. Wir haben auch gelernt, dass die Ableitung dieser Kinderschlüssel einen Schlüssel (entweder privat oder öffentlich) und seinen Chain-Code erfordert. Im nächsten Kapitel werden wir die Natur dieser verschiedenen Arten von Schlüsseln im Detail untersuchen und wie sie aus ihrem Elternschlüssel und Chain-Code abgeleitet werden können.
 
 ## Ableitung von Kinderschlüsselpaaren
 <chapterId>61c0807c-845b-5076-ad06-7f395b36adfd</chapterId>

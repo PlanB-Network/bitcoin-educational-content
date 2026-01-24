@@ -4997,18 +4997,18 @@ Umugambi **`Node ya Lightning ya RGB`** ni umugambi wa Rust daemon ushingiye ku 
 
 
 
-- Gufungura imirongo y’umuravyo mu USDT, nk’akarorero;
-- Ivyo bimenyetso bica mu nzira, igihe cose inzira zo kubijana zifise amahera ahagije;
-- Gukoresha igihano ca Lightning n'ubuhinga bwo gufunga igihe ataco uhinduye: gusa Anchor ihinduka rya RGB mu gisohoka c'inyongera ca Commitment Transaction.
+- kwugurura umuhora wa Lightning kuri USDT, nk'akarorero;
+- Gucira izira ibimenyetso kurubuga, itegeko nuko izonzira zifise amafaranga akwiye;
+- Gukoresha igihano ca Lightning n'ubuhinga bwo gufunga igihe ataco uhinduye: gusa gushinga imizi mwihinduka rya RGB mu gisohoka c'inyongera mwihanahanwa ry'ukwiyemeza.
 
 
-Kode iracari ku rwego rwa alpha: turahimiriza kuyikoresha muri **regtest** canke kuri **Testnet** gusa.
+Kode iracari ku rwego rw'itanguriro: turahimiriza kuyikoresha muri **regtest** canke kuri **Testnet** gusa.
 
 
-### Gushiramwo urudodo
+### Gushiramwo node
 
 
-Kugira ngo dukoreshe kandi dushiremwo `RGB-lightning-node`, dutangura dukoresheje ububiko n'ibice vyabwo, hanyuma tugakoresha:
+Kugira ngo dushirehamwe kandi dushiremwo `RGB-lightning-node`, dutangura dukoresheje ububiko n'ibice vyabwo, hanyuma tukarungika:
 
 
 ```bash
@@ -5021,11 +5021,11 @@ git clone https://github.com/RGB-Tools/rgb-lightning-node --recurse-submodules -
 
 
 
-- Ihitamwo rya `--recurse-submodules` na ryo nyene rikora ibikoresho bikenewe (harimwo n'ivyo `Rust-lightning` vyahinduwe);
+- Ihitamwo rya `--recurse-submodules` na ryo nyene rikora ibikoresho bikenewe (harimwo verisiyo ya `Rust-lightning` yahinduwe);
 - Ihitamwo rya `--shallow-submodules` rigabanya uburebure bw'iyi clone kugira ngo ryihute gukuraho, mu gihe riguma ritanga uburyo bwo gushika ku bikorwa vy'ingenzi.
 
 
-Kuva ku muzi w'umugambi, ukoreshe itegeko rikurikira kugira ngo ukoreshe kandi ushiremwo ibice bibiri:
+Kuva ku muzi w'umugambi, ukoreshe itegeko rikurikira kugira ngo ushirehamwe kandi ushiremwo ibice bibiri:
 
 
 ```bash
@@ -5038,26 +5038,26 @@ cargo install --locked --debug --path .
 
 
 
-- `--locked` ikora neza ko verisiyo y'ibishingiye ku bindi yubahirizwa cane;
-- `--debug` si ngombwa, ariko ishobora kugufasha kwibanda (ushobora gukoresha `--release` niba ushaka);
-- `--inzira .` ibwira `cargo install` gushiramwo kuva mu bubiko buriho.
+- `--locked` urabe neza yuko verisiyo ifise aho iyoboka yakwirikijwe neza;
+- `--debug` ntibitegerezwa, ariko bishobora kugufasha gushira inguvu ahantu hamwe (ushobora gukoresha `--release` niba ushaka);
+- `---path .` ibwira `cargo install` gushiramwo kuva mu bubiko buriho.
 
 
-Ku mpera y'iri tegeko, `RGB-umuravyo-urudodo` uzoboneka muri `$CARGO_HOME/bin/` yawe. Raba neza ko iyi nzira iri muri `$PATH` yawe kugira ngo ushobore guhamagara itegeko rivuye mu bubiko bwose.
+Ku mpera y'iri tegeko, `rgb-lightning-node` ishirwa mungiro izoja ahabina muri `$CARGO_HOME/bin/` yawe. Utegezwa kumenyako muri runoruhandeariho hari `$PATH` yawe kugira ngo ushobore guhamagara itegeko rivuye mu bubiko ubwaribwi bwose.
 
 
-### Ibisabwa kugira ngo umuntu akore
+### Iterambere risabwa
 
 
-Kugira ngo bikore, `RGB-umuravyo-node` daemon bisaba kubaho no gutunganya:
+Kugira ngo bije mungiro, `node ya Lightning ya RGB` daemon bisaba ukuhaba hamwe n'ugutunganywa:
 
 
 
 
-- Urudodo bitcoind
+- Node ya bitcoind
 
 
-Instance ya RLN yose izokenera kuvugana na `bitcoind` kugira ngo itangaze kandi ikurikirane ibikorwa vyayo vya On-Chain. Ivyemezo (kwinjira/ijambobanga) na URL (umushitsi/icuma) bizokenerwa gutangwa kuri daemon.
+Buri kwugurugwa kwa RLN kwose kuzokenerwa kuganira na `bitcoind` kugira ngo gutangaze kandi ikurikirane amahanahanwa yayo yokuri On-Chain. Ivyemezo (kwinjira/ikajambo banga) hama URL (umushitsi/icuma) izokenera gutangwa kuri daemon.
 
 
 
@@ -5065,7 +5065,7 @@ Instance ya RLN yose izokenera kuvugana na `bitcoind` kugira ngo itangaze kandi 
 - **Igiharuro** (Electrum canke Esplora)
 
 
-daemon itegerezwa kuba ishoboye gutanga urutonde no gutohoza ibikorwa vya On-Chain, cane cane kugira ngo ironke UTXO umutungo washizweko. Uzokenera gutanga URL ya server yawe ya Electrum canke Esplora.
+daemon itegerezwa kuba ishoboye gutanga urutonde no gutohoza amahanahanwa ya On-Chain, vy'umwihariko kugira ngo ironke UTXO umutungo washizweko. Uzokenera kwerekana neza URL y'ubushinguzi bwa Electrum canke Esplora.
 
 
 
@@ -5073,13 +5073,13 @@ daemon itegerezwa kuba ishoboye gutanga urutonde no gutohoza ibikorwa vya On-Cha
 - Uwuserukira **RGB**
 
 
-Nk'uko vyabonetse mu bice vyabanje, **proxy server** ni igice (kidasanzwe, ariko kiraremeshwa cane) co kworohereza Exchange y'ibirungikwa hagati y'abagenzi ba Lightning. Na none, URL itegerezwa gusobanurwa.
+Nk'uko vyabonetse mu bice vyatanguye, **ubushinguzi bwa proxy** ni igice (kitaringombwa, ariko kirahimirizwa gukoreshwa cane) kugirango hacagagurww ama hanahanwa y'ibirungikwa hagati y'abagenzi ba Lightning. Na none, URL itegerezwa gusobanurwa.
 
 
-IDs na URLs zishirwamwo iyo daemon _ifunguwe_ biciye kuri API. Ibindi kuri ivyo mu nyuma.
+IDs(Ibiranga umuntu) hamwe na URLs zishirwamwo iyo daemon _yuguruwew_ biciye kuri API. Ibindi kuri ivyo mu nyuma.
 
 
-### Gusubiramwo igerageza
+### Kurungika igerageza
 
 
 Kugira ngo ukoreshe neza, hariho inyandiko `regtest.sh` itangura ubwo nyene, biciye kuri Docker, urutonde rw'ibikorwa: `bitcoind`, `amashanyarazi` (indexer), `RGB-umukozi-w'ubutumwa`.
@@ -5088,7 +5088,7 @@ Kugira ngo ukoreshe neza, hariho inyandiko `regtest.sh` itangura ubwo nyene, bic
 ![RGB-Bitcoin](assets/en/100.webp)
 
 
-Ivyo bigufasha gutanguza ibidukikije vyo mu karere, biri ukwavyo, vyatunganijwe imbere y’igihe. Irema kandi igasenyura ibikoresho n’ububiko bw’amakuru ku gusubira gutangura kwose. Tuzotangura dutangura:
+Ivyo bigufasha kurungika uri indani, aho kubitunganiriza, vyatunganijwe imbere y’igihe. Irema kandi igasenyura ibikoresho n’ububiko bw’amakuru ku gusubira gutangura kwose. Tuzotangura n'ugutanguza:
 
 
 ```bash
@@ -5101,15 +5101,15 @@ Iyi nyandiko izo:
 
 
 
-- Rema `docker/` ububiko bwo kubika;
+- kora `docker/` ububiko bw'ugushingura;
 - Gukoresha `bitcoind` mu regtest, hamwe n'urutonde `amashanyarazi` na `RGB-umukozi-w'ubutumwa`;
-- Rindira gushika vyose biteguye gukoreshwa.
+- Rindira gushika vyose bitanguye gukoreshwa.
 
 
 ![RGB-Bitcoin](assets/en/101.webp)
 
 
-Igikurikira, tuzotanguza ama node menshi ya RLN. Mu bice bitandukanye, genda, nk'akarorero (kugira ngo utangure 3 RLN nodes):
+Igikwirikira, tuzotanguza ama node menshi ya RLN. Muduce dutandukanye, genda, nk'akarorero (kugira ngo utangure node zitatu za 3):
 
 
 ```bash
@@ -5144,7 +5144,7 @@ https://rgb-tools.github.io/rgb-lightning-node/
 ```
 
 
-Kugira ngo node ifungure umurongo, itegerezwa kubanza kugira bitcoins kuri Address yashizweho n’itegeko rikurikira (ku node n°1, nk’akarorero):
+Kugira ngo node yugurure umuhora, itegerezwa kubanza kugira ama bitcoin kuri Aderesi yakozwe hakwirikijwe amategeko akwirikira (ku node n°1, nk’akarorero):
 
 
 ```bash
@@ -5152,13 +5152,13 @@ curl -X POST http://localhost:3001/address
 ```
 
 
-Inyishu izoguha Address.
+Inyishu izoguha izoba ifise na Aderesi.
 
 
 ![RGB-Bitcoin](assets/en/103.webp)
 
 
-Ku kigeragezo ca `bitcoind`, tugiye gucukura amafaranga makeyi. Kwiruka:
+Ku kigeragezo ca `bitcoind`, tuzocukura ama bitcoin makeyi. Hakoreshwa:
 
 
 ```bash
@@ -5169,7 +5169,7 @@ Ku kigeragezo ca `bitcoind`, tugiye gucukura amafaranga makeyi. Kwiruka:
 ![RGB-Bitcoin](assets/en/104.webp)
 
 
-Wohereze amafaranga kuri node Address yavutse haruguru:
+Mukurungika amahera kuri aderesi ya node yakozwe aho hejuru:
 
 
 ```bash
@@ -5180,7 +5180,7 @@ Wohereze amafaranga kuri node Address yavutse haruguru:
 ![RGB-Bitcoin](assets/en/105.webp)
 
 
-Hanyuma ukore ububiko bwo kwemeza ugucuruza:
+Hanyuma ugucukura ibikuta mukwemeza amahanahanwa:
 
 
 ```bash
@@ -5191,10 +5191,10 @@ Hanyuma ukore ububiko bwo kwemeza ugucuruza:
 ![RGB-Bitcoin](assets/en/106.webp)
 
 
-### Testnet gutangura (ata Docker)
+### Testnet gutangura (Hadakoreshejwe Docker)
 
 
-Niba ushaka kugerageza ikintu gishoboka, ushobora gutanguza 3 RLN nodes kuri Testnet aho gutanguza muri Regtest, yerekana ibikorwa vya Leta:
+Niba ushaka kugerageza ikintu gishobora kuja mungiro, ushobora gutanguza node 3 za RLN kuri Testnet aho gutanguza muri Regtest, yerekana ibikorwa bikorerwa kukarubanda bimeze:
 
 
 ```bash
@@ -5207,7 +5207,7 @@ rgb-lightning-node dataldk2/ --daemon-listening-port 3003 \
 ```
 
 
-Ku mburabuzi, iyo ata ntunganyo ibonetse, daemon izogerageza gukoresha:
+Ataciriwe kirakorwa, iyo ata ntunganyo ibonetse, daemon izogerageza gukoresha:
 
 
 
@@ -5218,22 +5218,22 @@ Ku mburabuzi, iyo ata ntunganyo ibonetse, daemon izogerageza gukoresha:
 - `iherezo_ry'umuserukira`: `rpcs: umuserukira.
 
 
-N'ukwinjira:
+Hakoreshejwe ukwinjira:
 
 
 
 
 - `izina_ry'ukoresha_rpc`: 'ukoresha`
-- `izina_ry'ukoresha_rpc`: 'ijambobanga'
+- `izina_ry'ukoresha_rpc`: 'akajambo banga'
 
 
-Ushobora kandi guhindura ivyo Elements biciye ku `init`/`gufungura` API.
+Ushobora kandi guhindura uko ushaka binobinu uciye kurino API `init`/`gufungura`.
 
 
-### Gutanga urupapuro rwa RGB rwa token
+### Gutanga token ya RGB
 
 
-Kugira ngo dusohore token, tuzotangura dukoreshe "amabara" UTXOs:
+Kugira ngo dutange token, tuzotangura kurema ama UTXO "afise amabara":
 
 
 ```bash
@@ -5252,7 +5252,7 @@ http://localhost:3001/createutxos
 ![RGB-Bitcoin](assets/en/107.webp)
 
 
-Birumvikana ko ushobora guhindura urutonde rw’ibintu. Kugira twemeze ugucuruza, ducukura a:
+Birumvikana ko ushobora guhindura urutonde rw’ibintu. Kugira twemeze amaanahanwa, ducukura ama:
 
 
 ```bash
@@ -5260,7 +5260,7 @@ Birumvikana ko ushobora guhindura urutonde rw’ibintu. Kugira twemeze ugucuruza
 ```
 
 
-Ubu turashobora kurema umutungo wa RGB. Itegeko rizovana n'ubwoko bw'umutungo wipfuza kurema n'imirongo yawo. Aha ndiko ndakora NIA (*Itunga Ridashobora Gufutwa*) token ryitwa "Plan ₿ Academy" rifise Supply y'ibice 1000. `Ugushikama` bigufasha gusobanura ukuntu ibice bishobora kugabanywa.
+Ubu turashobora kurema umutungo wa RGB. Amategeko azotegerezwa kuvana n'ubwoko bw'umutung wipfuza kurema hamwe n'imirongo yayo. Aha ndiko ndakora NIA (*Non Inflatable Asset*) token yitwa "Plan ₿ Academy" rifise Supply y'ibice 1000. `Ugushikama` bigufasha gusobanura ukuntu ibice bishobora kugabanywa.
 
 
 ```bash

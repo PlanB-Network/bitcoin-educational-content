@@ -5530,7 +5530,7 @@ Laten we eens kijken naar de technische werking van Silent Payments om beter te 
 ### Een paar concepten om te begrijpen
 
 
-Voordat we beginnen, is het belangrijk om erop te wijzen dat Silent Payments uitsluitend vertrouwt op het gebruik van P2TR (*Betalen aan Taproot*) scripttypes. In tegenstelling tot BIP47, is het niet nodig om ontvangstadressen af te leiden van child public keys door middel van hashing. In de P2TR standaard wordt de getweakte publieke sleutel direct en ongecodeerd gebruikt in het adres. Dus een Taproot ontvangstadres is in wezen een openbare sleutel met wat metadata. Deze aangepaste openbare sleutel is de samenvoeging van twee andere openbare sleutels: de ene maakt directe, traditionele uitgaven mogelijk via een eenvoudige handtekening, en de andere vertegenwoordigt de Merkle Root van de MAST, die uitgaven toestaat op voorwaarde dat aan een van de voorwaarden wordt voldaan die mogelijk in de Merkle Tree zijn opgenomen.
+Voordat we beginnen, is het belangrijk om erop te wijzen dat Silent Payments uitsluitend vertrouwt op het gebruik van P2TR (*Betalen aan Taproot*) scripttypes. In tegenstelling tot BIP47, is het niet nodig om ontvangstadressen af te leiden van child public keys door middel van hashing. In de P2TR-standaard wordt de getweakte publieke sleutel direct en ongecodeerd gebruikt in het adres. Dus een Taproot ontvangstadres is in wezen een openbare sleutel met wat metadata. Deze aangepaste openbare sleutel is de samenvoeging van twee andere openbare sleutels: de ene maakt directe, traditionele uitgaven mogelijk via een eenvoudige handtekening, en de andere vertegenwoordigt de Merkle Root van de MAST, die uitgaven toestaat op voorwaarde dat aan een van de voorwaarden wordt voldaan die mogelijk in de Merkle Tree zijn opgenomen.
 
 
 ![BTC204](assets/nl/243.webp)
@@ -5541,20 +5541,20 @@ Er zijn twee belangrijke redenen voor de beslissing om Silent Payments uitsluite
 
 
 
-- Ten eerste vergemakkelijkt het de implementatie en toekomstige upgrades van portfoliosoftware aanzienlijk, omdat slechts één standaard hoeft te worden gerespecteerd;
-- Ten tweede helpt deze aanpak de anonimiteit van gebruikers te verbeteren door hen aan te moedigen zichzelf niet te verdelen in verschillende soorten scripts, die generate verschillende portfoliofingerprints in de ketenanalyse opleveren (voor meer informatie over dit concept, zie hoofdstuk 4 van deel 2).
+- Ten eerste vergemakkelijkt het de implementatie en toekomstige upgrades van walletsoftware aanzienlijk, omdat slechts één standaard hoeft te worden gerespecteerd;
+- Ten tweede helpt deze aanpak de anonimiteit van gebruikers te verbeteren door hen aan te moedigen zichzelf niet te verdelen in verschillende soorten scripts, die verschillende wallet-fingerprints in de ketenanalyse genereren (voor meer informatie over dit concept, zie hoofdstuk 4 van deel 2).
 
 
-### Naïeve afleiding van een openbare sleutel van Silent Payments
+### Naïeve afleiding van een openbare Silent Payments sleutel 
 
 
-Laten we beginnen met een eenvoudig voorbeeld om tot de kern te komen van hoe SP's (Silent Payments) werken. Laten we Alice en Bob nemen, twee Bitcoin-gebruikers. Alice wil bitcoin sturen naar Bob op een lege ontvangst-adres. Dit proces heeft drie doelen:
+Laten we beginnen met een eenvoudig voorbeeld om tot de kern te komen van hoe SP's (Silent Payments) werken. Laten we Alice en Bob nemen, twee Bitcoin-gebruikers. Alice wil bitcoin sturen naar Bob op een lege ontvangstadres. Dit proces heeft drie doelen:
 
 
 
 
-- Alice moet een ongebruikt adres kunnen generate;
-- Bob moet een betaling kunnen identificeren die naar deze specifieke adres is gestuurd;
+- Alice moet een ongebruikt adres kunnen genereren;
+- Bob moet een betaling kunnen identificeren die naar dit specifieke adres is gestuurd;
 - Bob moet de privésleutel die bij dit adres hoort kunnen bemachtigen om zijn geld te kunnen uitgeven.
 
 
@@ -5567,7 +5567,7 @@ Alice heeft een UTXO in haar beveiligde Bitcoin wallet met het volgende sleutelp
 - $A$: de openbare sleutel ($A = a cdot G$)
 
 
-Bob heeft een SP adres die hij op het internet heeft gepubliceerd met :
+Bob heeft een SP adres dat hij op het internet heeft gepubliceerd met:
 
 
 
@@ -5576,7 +5576,7 @@ Bob heeft een SP adres die hij op het internet heeft gepubliceerd met :
 - $B$: de openbare sleutel ($B = b ≤ G$)
 
 
-Door adres van Bob op te halen, kan Alice met behulp van ECDH een nieuw ongebruikt adres berekenen die bij Bob hoort. Laten we dit adres $P$ noemen:
+Door het adres van Bob op te halen, kan Alice met behulp van ECDH een nieuw ongebruikt adres berekenen dat bij Bob hoort. Laten we dit adres $P$ noemen:
 
 
 $$ P = B + \text{Hash}(a \cdot B) \cdot G $$
@@ -5586,13 +5586,13 @@ In deze vergelijking heeft Alice eenvoudigweg het scalair product berekend van h
 
 
 > *In de context van Silent Payments komt de "hash"-functie overeen met een SHA256 hash-functie die specifiek gelabeld is met `BIP0352/SharedSecret`, wat garandeert dat de gegenereerde hashes uniek zijn voor dit protocol en niet hergebruikt kunnen worden in andere contexten, terwijl het extra bescherming biedt tegen het hergebruik van nonces in handtekeningen. Deze standaard komt overeen met die [gespecificeerd in BIP340 voor Schnorr-handtekeningen](https://github.com/Bitcoin/bips/blob/master/bip-0340.mediawiki) op `secp256k1`.*
-Dankzij de eigenschappen van de elliptische curve waarop ECDH is gebaseerd, weten we dat :
+Dankzij de eigenschappen van de elliptische curve waarop ECDH is gebaseerd, weten we dat:
 
 
 $$ a \dot B = b \dot A $$
 
 
-Bob kan dus berekenen naar welk ontvangend adres Alice de bitcoins heeft gestuurd. Om dit te doen, controleert hij alle Bitcoin-transacties die voldoen aan de Silent Payments criteria en past de volgende berekening toe op elk van hen om te zien of de betaling aan hem is gericht (*scannen*):
+Bob kan dus berekenen naar welk ontvangstadres Alice de bitcoins heeft gestuurd. Om dit te doen, controleert hij alle Bitcoin-transacties die voldoen aan de Silent Payments criteria en past de volgende berekening toe op elk van hen om te zien of de betaling aan hem is gericht (*scannen*):
 
 
 $$ P' = B + \text{Hash}(b \cdot A) \cdot G $$
@@ -5622,16 +5622,16 @@ Zoals je kunt zien, moet je om deze privésleutel $p$ te berekenen, de privésle
 
 
 - $B$ : De openbare sleutel/static adres gepubliceerd door Bob
-- $b$: Bob's privésleutel
-- $A$ : Alice's UTXO publieke sleutel gebruikt als transactie-invoer
-- $a$: Alice's privésleutel
-- $G$: het voortbrengend punt van de elliptische kromme `secp256k1`
+- $b$ : Bob's privésleutel
+- $A$ : Alice's UTXO publieke sleutel gebruikt als transactie-input
+- $a$ : Alice's privésleutel
+- $G$ : het genererend punt van de elliptische kromme `secp256k1`
 - $\text{SHA256}$ : De SHA256 hash-functie getagd met `BIP0352/SharedSecret`
-- $s$: het gemeenschappelijke geheim van ECDH
-- $P$ : De openbare sleutel/unieke adres voor betaling aan Bob
+- $s$ : het gemeenschappelijke geheim van ECDH
+- $P$ : De openbare sleutel/het uniek adres voor betaling aan Bob
 
 
-Hier is een nogal naïeve eerste benadering om Bob's statische adres, genoteerd $B$, te gebruiken om een unieke adres $P$ af te leiden om bitcoins naartoe te sturen. Deze methode is echter te simplistisch en heeft verschillende fouten die gecorrigeerd moeten worden. Het eerste probleem is dat Alice in dit schema niet meerdere outputs naar Bob kan maken binnen dezelfde transactie.
+Hier is een nogal naïeve eerste benadering om Bob's statische adres, genoteerd $B$, te gebruiken om een uniek adres $P$ af te leiden om bitcoins naartoe te sturen. Deze methode is echter te simplistisch en heeft verschillende fouten die gecorrigeerd moeten worden. Het eerste probleem is dat Alice in dit schema geen meerdere outputs naar Bob kan maken binnen dezelfde transactie.
 
 
 ### Hoe maak ik meerdere outputs?

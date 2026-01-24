@@ -174,7 +174,7 @@ UTXO's zijn de ruilinstrumenten op Bitcoin. Elke transactie resulteert in het ve
 ![BTC204](assets/nl/007.webp)
 
 
-Alle UTXO's zijn beveiligd door scripts die de voorwaarden bepalen waaronder ze kunnen worden uitgegeven. Om een UTXO te consumeren, moet een gebruiker aan het netwerk aantonen dat hij of zij voldoet aan de voorwaarden van het script die die UTXO beveiligt. UTXO's worden doorgaans beschermd door een publieke sleutel (of een ontvangstadres dat deze publieke sleutel vertegenwoordigt). Om een UTXO geassocieerd met deze publieke sleutel uit te geven, moet de gebruiker bewijzen dat hij de corresponderende private sleutel bezit, door een digitale handtekening te leveren die met deze sleutel is gemaakt. Daarom zeggen we dat je Bitcoin-wallet eigenlijk geen bitcoins bevat, maar je private sleutels opslaat, die je op hun beurt toegang geven tot je UTXO's en, bij uitbreiding, tot de bitcoins die ze vertegenwoordigen.
+Alle UTXO's zijn beveiligd door scripts die de voorwaarden bepalen waaronder ze kunnen worden uitgegeven. Om een UTXO te consumeren, moet een gebruiker aan het netwerk aantonen dat hij of zij voldoet aan de voorwaarden van het script die die UTXO beveiligt. UTXO's worden doorgaans beschermd door een publieke sleutel (of een ontvangstadres dat deze publieke sleutel vertegenwoordigt). Om een UTXO geassocieerd met deze publieke sleutel uit te geven, moet de gebruiker bewijzen dat hij de corresponderende privésleutel bezit, door een digitale handtekening te leveren die met deze sleutel is gemaakt. Daarom zeggen we dat je Bitcoin-wallet eigenlijk geen bitcoins bevat, maar je privésleutels opslaat, die je op hun beurt toegang geven tot je UTXO's en, bij uitbreiding, tot de bitcoins die ze vertegenwoordigen.
 
 
 ![BTC204](assets/nl/008.webp)
@@ -218,7 +218,7 @@ Elke Bitcoin-transactie bestaat daarom uit een of meer invoertransacties (inputs
 
 **Wist je dat?** Theoretisch kan een Bitcoin-transactie een oneindig aantal inputs en outputs hebben. De enige limiet is de maximale blokgrootte.
 
-Elke invoer (input) in een Bitcoin-transactie verwijst naar een eerder niet-uitgegeven UTXO. Om een UTXO als invoer (input) te gebruiken, moet de houder ervan aantonen dat hij/zij de rechtmatige eigenaar is door het bijbehorende script te valideren, met andere woorden door te voldoen aan de opgelegde bestedingsvoorwaarde. In het algemeen betekent dit het leveren van een digitale handtekening, geproduceerd met de private sleutel die overeenkomt met de publieke sleutel waarmee deze UTXO initieel is beveiligd. Het script bestaat dus uit het verifiëren dat de handtekening overeenkomt met de openbare sleutel die werd gebruikt toen het geld werd ontvangen.
+Elke invoer (input) in een Bitcoin-transactie verwijst naar een eerder niet-uitgegeven UTXO. Om een UTXO als invoer (input) te gebruiken, moet de houder ervan aantonen dat hij/zij de rechtmatige eigenaar is door het bijbehorende script te valideren, met andere woorden door te voldoen aan de opgelegde bestedingsvoorwaarde. In het algemeen betekent dit het leveren van een digitale handtekening, geproduceerd met de privésleutel die overeenkomt met de publieke sleutel waarmee deze UTXO initieel is beveiligd. Het script bestaat dus uit het verifiëren dat de handtekening overeenkomt met de openbare sleutel die werd gebruikt toen het geld werd ontvangen.
 
 ![BTC204](assets/nl/012.webp)
 
@@ -743,7 +743,7 @@ De meest voor de hand liggende eigenschap is het hergebruik van een ontvangstadr
 ![BTC204](assets/nl/045.webp)
 
 
-Deze heuristiek laat weinig ruimte voor twijfel. Tenzij zijn private sleutel gehackt is, onthult hetzelfde ontvangstadres noodzakelijkerwijs de activiteit van een enkele gebruiker. De resulterende interpretatie is dat de exchange-transactie de output is met hetzelfde adres als de input. We kunnen het individu dan verder traceren vanaf deze exchange.
+Deze heuristiek laat weinig ruimte voor twijfel. Tenzij zijn privésleutel gehackt is, onthult hetzelfde ontvangstadres noodzakelijkerwijs de activiteit van een enkele gebruiker. De resulterende interpretatie is dat de exchange-transactie de output is met hetzelfde adres als de input. We kunnen het individu dan verder traceren vanaf deze exchange.
 
 
 Hier is bijvoorbeeld een transactie waarop deze heuristiek waarschijnlijk kan worden toegepast:
@@ -2552,7 +2552,7 @@ Het CoinJoin-transactieconstructieproces bestaat uit 3 hoofdfasen: input-registr
 
 
 
-- Alice kan haar adres ontmaskeren, nu ondertekend door de private sleutel van de coördinator. Ze maakt een nieuwe verbinding onder een andere Tor-identiteit. De coördinator kan niet zien dat het Alice is die verbinding maakt onder deze nieuwe identiteit:
+- Alice kan haar adres ontmaskeren, nu ondertekend door de privésleutel van de coördinator. Ze maakt een nieuwe verbinding onder een andere Tor-identiteit. De coördinator kan niet zien dat het Alice is die verbinding maakt onder deze nieuwe identiteit:
 
 
 ![BTC204](assets/nl/126.webp)
@@ -4011,13 +4011,13 @@ Coinwap is gebaseerd op een relatief eenvoudig concept: het gebruikt slimme cont
 ![BTC204](assets/nl/199.webp)
 
 
-Laten we een eenvoudug voorbeeld nemen met Alice en Bob. Alice bezit 1 BTC beveiligd met privé-sleutel $A$, en Bob bezit ook 1 BTC beveiligd met privé-sleutel $B$. Ze kunnen theoretisch hun private sleutels uitwisselen via een extern communicatiekanaal om een geheime overdracht uit te voeren.
+Laten we een eenvoudug voorbeeld nemen met Alice en Bob. Alice bezit 1 BTC beveiligd met privé-sleutel $A$, en Bob bezit ook 1 BTC beveiligd met privé-sleutel $B$. Ze kunnen theoretisch hun privésleutels uitwisselen via een extern communicatiekanaal om een geheime overdracht uit te voeren.
 
 
 ![BTC204](assets/nl/200.webp)
 
 
-Deze eenvoudige methode brengt echter een groot vertrouwensrisico met zich mee. Niets houdt Alice tegen om een kopie van de $A$ private sleutel te bewaren na uitwisseling en deze later te gebruiken om de bitcoins te stelen, zodra de sleutel in Bob's handen is.
+Deze eenvoudige methode brengt echter een groot vertrouwensrisico met zich mee. Niets houdt Alice tegen om een kopie van de $A$ privésleutel te bewaren na uitwisseling en deze later te gebruiken om de bitcoins te stelen, zodra de sleutel in Bob's handen is.
 
 
 ![BTC204](assets/nl/201.webp)
@@ -4053,7 +4053,7 @@ Bij een coinswap maakt het gebruik van adaptor-handtekeningen de gelijktijdige b
 
 
 
-- Alice initieert de exchange door een $m_A$-transactie aan te maken die 1 BTC naar Bob stuurt. Ze genereert een handtekening $s_A$, die deze transactie valideert, met haar private sleutel $p_A$ ($P_A = p_A \cdot G$), een nonce $n_A$ ($N_A = n_A \cdot G$) en een geheim $t$ ($T = t \cdot G$) :
+- Alice initieert de exchange door een $m_A$-transactie aan te maken die 1 BTC naar Bob stuurt. Ze genereert een handtekening $s_A$, die deze transactie valideert, met haar privésleutel $p_A$ ($P_A = p_A \cdot G$), een nonce $n_A$ ($N_A = n_A \cdot G$) en een geheim $t$ ($T = t \cdot G$) :
 
 
 $$s_A = n_A + t + H(N_A + T \parallel P_A \parallel m_A) \cdot p_A$
@@ -4470,7 +4470,7 @@ m/47'/0'/0'/
 ```
 
 
-Concreet, om de gecomprimeerde publieke sleutel en stringcode geassocieerd met de herbruikbare betalingscode te berekenen, beginnen we met het berekenen van de master private sleutel uit de wallet seed. Daarna leiden we een paar dochtersleutels af met de index `47 + 2^31` (hardened derivation). Dit wordt gevolgd door nog twee opeenvolgende afleidingen (derivations) van dochterparen, elk met de index `2^31` (versterkte afleiding).
+Concreet, om de gecomprimeerde publieke sleutel en stringcode geassocieerd met de herbruikbare betalingscode te berekenen, beginnen we met het berekenen van de master privésleutel uit de wallet seed. Daarna leiden we een paar dochtersleutels af met de index `47 + 2^31` (hardened derivation). Dit wordt gevolgd door nog twee opeenvolgende afleidingen (derivations) van dochterparen, elk met de index `2^31` (versterkte afleiding).
 
 
 ![BTC204](assets/nl/224.webp)
@@ -4651,7 +4651,7 @@ Hierin ligt het grootste nadeel van het Diffie-Hellman protocol. Om veilig te zi
 Het algemene principe van het algoritme blijft hetzelfde. Maar in plaats van een willekeurig getal $a$ en een getal $A$ berekend uit $a$ door modulaire exponentiatie, gebruiken we een sleutelpaar vastgesteld op een elliptische kromme. In plaats van te vertrouwen op de distributiviteit van de modulo operator, gebruiken we de groepswet op elliptische krommen, en meer precies de associativiteit van deze wet.
 
 
-Om het principe van cryptografie op elliptische krommen kort uit te leggen: een privésleutel wordt voorgesteld door een willekeurig getal tussen $1$ en $n-1$, waarbij $n$ de volgorde van de kromme voorstelt. De publieke sleutel daarentegen is een specifiek punt op deze kromme, verkregen uit de private sleutel door punten van het genererende punt op te tellen en te verdubbelen, volgens de vergelijking :
+Om het principe van cryptografie op elliptische krommen kort uit te leggen: een privésleutel wordt voorgesteld door een willekeurig getal tussen $1$ en $n-1$, waarbij $n$ de volgorde van de kromme voorstelt. De publieke sleutel daarentegen is een specifiek punt op deze kromme, verkregen uit de privésleutel door punten van het genererende punt op te tellen en te verdubbelen, volgens de vergelijking :
 
 
 $$
@@ -5193,7 +5193,7 @@ Alice en Bob moeten daarom dezelfde waarde voor $f$ verkrijgen, zonder deze dire
 - en de UTXO verbruikt bij de transactie-input.
 
 
-Bob heeft daarom deze beide stukjes informatie nodig om de payload van Alice's betalingscode te ontsleutelen. Voor de input-UTXO kan Bob deze eenvoudig achterhalen door de kennisgevingstransactie te observeren. Voor het geheime punt zal Bob ECDH moeten gebruiken. Zoals gezien in de vorige sectie over Diffie-Hellman, kunnen Alice en Bob door eenvoudigweg hun respectievelijke publieke sleutels uit te wisselen en in het geheim hun private sleutels toe te passen op elkaars publieke sleutel, een nauwkeurig geheim punt vinden op de elliptische curve. De kennisgevingstransactie is gebaseerd op dit mechanisme:
+Bob heeft daarom deze beide stukjes informatie nodig om de payload van Alice's betalingscode te ontsleutelen. Voor de input-UTXO kan Bob deze eenvoudig achterhalen door de kennisgevingstransactie te observeren. Voor het geheime punt zal Bob ECDH moeten gebruiken. Zoals gezien in de vorige sectie over Diffie-Hellman, kunnen Alice en Bob door eenvoudigweg hun respectievelijke publieke sleutels uit te wisselen en in het geheim hun privésleutels toe te passen op elkaars publieke sleutel, een nauwkeurig geheim punt vinden op de elliptische curve. De kennisgevingstransactie is gebaseerd op dit mechanisme:
 
 
 
@@ -5254,22 +5254,22 @@ Laten we eens kijken naar het betalingsproces met BIP47. Om je te herinneren aan
 - Alice doet haar eerste betaling aan Bob. Ze kan er op dezelfde manier nog veel meer doen.
 
 
-Voordat ik dit proces uitleg, denk ik dat het belangrijk is om te onthouden aan welke indexen we op dit moment werken. Het afleidingspad voor een betaalcode wordt als volgt beschreven: `m/47'/0'/0'`. De volgende diepte verdeelt de indexen als volgt:
+Voordat ik dit proces uitleg, denk ik dat het belangrijk is om te onthouden met welke indexen we op dit moment werken. Het afleidingspad (derivationpath) voor een betaalcode wordt als volgt beschreven: `m/47'/0'/0'`. De volgende diepte verdeelt de indexen als volgt:
 
 
 
 
-- Het eerste normale (niet-versterkte) dochterpaar is het paar dat gebruikt is voor generate de melding adres besproken in de vorige sectie: `m/47'/0'/0'/0` ;
-- Normale dochter sleutelparen worden gebruikt binnen ECDH om generate BIP47 betalingsontvangst adressen, zoals we zullen zien in deze sectie: van `m/47'/0'/0'/0` tot `m/47'/0'/0'/2,147,483,647` ;
+- Het eerste normale (niet-versterkte) dochterpaar is het paar dat gebruikt is voor het kennisgevingsadres te genereren zoals besproken in de vorige sectie: `m/47'/0'/0'/0` ;
+- Normale dochter sleutelparen worden gebruikt binnen ECDH om BIP47 betalings-ontvangstadressen te genereren, zoals we zullen zien in deze sectie: van `m/47'/0'/0'/0` tot `m/47'/0'/0'/2,147,483,647` ;
 - Versterkte dochtersleutelparen zijn kortstondige betalingscodes: van `m/47'/0'/0'/0'` tot `m/47'/0'/0'/2,147,483,647'`.
 
 
-Elke keer dat Alice een betaling naar Bob wil sturen, leidt ze een nieuwe, unieke, ongebruikt adres af, wederom met behulp van het ECDH-protocol:
+Elke keer dat Alice een betaling naar Bob wil sturen, leidt ze een nieuw, uniek, ongebruikt adres af, wederom met behulp van het ECDH-protocol:
 
 
 
 
-- Alice selecteert de eerste private sleutel die is afgeleid van haar persoonlijke herbruikbare betaalcode :
+- Alice selecteert de eerste privésleutel die is afgeleid van haar persoonlijke herbruikbare betaalcode:
 
 
 $$ a $$
@@ -5285,7 +5285,7 @@ $$ B = b \dot G $$
 
 
 
-- Alice berekent een geheim punt $S$ op de elliptische curve door punten op te tellen en te verdubbelen door haar privésleutel $a$ van de openbare sleutel $B$ van Bob toe te passen:
+- Alice berekent een geheim punt $S$ op de elliptische curve door punten op te tellen en te verdubbelen door haar privésleutel $a$ op de openbare sleutel $B$ van Bob toe te passen:
 
 
 $$ S = a \dot B $$
@@ -5293,7 +5293,7 @@ $$ S = a \dot B $$
 
 
 
-- Uit dit geheime punt berekent Alice het gedeelde geheim $s$ (kleine letters). Hiervoor selecteert ze de abscis van het geheime punt $S$ genaamd $Sx$, en geeft deze waarde door aan de SHA256 hash functie:
+- Uit dit geheime punt berekent Alice het gedeelde geheim $s$ (kleine letters). Hiervoor selecteert ze de abscis van het geheime punt $S$ genaamd $Sx$, en geeft deze waarde door aan de SHA256 hash-functie:
 
 
 $$ S = (Sx, Sy) $$
@@ -5304,8 +5304,8 @@ $$ s = \text{SHA256}(Sx) $$
 
 
 
-- Alice gebruikt dit gedeelde geheim $s$ om een ontvangstbetaling adres voor Bitcoin te berekenen. Eerst controleert ze of $s$ in de orde van de secp256k1-curve zit. Als dit niet het geval is, verhoogt ze de openbare sleutelindex van Bob om een ander gedeeld geheim af te leiden;
-- In een tweede stap berekent ze een openbare sleutel $K0$ door de punten $B$ en $s-G$ op de elliptische curve bij elkaar op te tellen. Met andere woorden, Alice voegt de openbare sleutel die is afgeleid van Bob's betalingscode $B$ toe aan een ander punt dat is berekend op de elliptische curve door punten toe te voegen en te verdubbelen met het gedeelde geheim $s$ van het secp256k1 curve generator punt $G$. Dit nieuwe punt vertegenwoordigt een openbare sleutel en we noemen het $K0$ :
+- Alice gebruikt dit gedeelde geheim $s$ om een Bitcoin betalings-ontvangstadres te berekenen. Eerst controleert ze of $s$ in de volgorde van de secp256k1-curve zit. Als dit niet het geval is, verhoogt ze de openbare sleutelindex van Bob om een ander gedeeld geheim af te leiden;
+- In een tweede stap berekent ze een openbare sleutel $K0$ door de punten $B$ en $s-G$ op de elliptische curve bij elkaar op te tellen. Met andere woorden, Alice voegt de openbare sleutel die is afgeleid van Bob's betalingscode $B$ toe aan een ander punt dat is berekend op de elliptische curve door punten toe te voegen en te verdubbelen met het gedeelde geheim $s$ van het secp256k1 curve generator punt $G$. Dit nieuwe punt vertegenwoordigt een openbare sleutel en we noemen het $K0$:
 
 
 $$ K0 = B + s ≤ G $$
@@ -5313,10 +5313,10 @@ $$ K0 = B + s ≤ G $$
 
 
 
-- Met deze openbare sleutel $K0$ kan Alice op de standaardmanier een lege ontvangst van adres afleiden (bijv. SegWit V0 in bech32).
+- Met deze openbare sleutel $K0$ kan Alice op de standaardmanier een leeg ontvangstaadres afleiden (bijv. SegWit V0 in bech32).
 
 
-Zodra Alice de $K0$ ontvangstadres van Bob heeft verkregen, kan ze op de standaardmanier een Bitcoin-transactie uitvoeren. Om dit te doen, kiest ze een UTXO die ze bezit, beveiligd door een sleutelpaar van een andere tak van haar HD wallet, en verbruikt het om een output naar Bob's $K0$ adres te voldoen. Het is belangrijk op te merken dat deze betaling, zodra het adres is afgeleid, een klassiek proces volgt en niet langer afhankelijk is van de sleutels die geassocieerd zijn met de BIP47.
+Zodra Alice het $K0$ ontvangstadres van Bob heeft verkregen, kan ze op de standaardmanier een Bitcoin-transactie uitvoeren. Om dit te doen, kiest ze een UTXO die ze bezit, beveiligd door een sleutelpaar van een andere tak van haar HD wallet, en verbruikt het om een output naar Bob's $K0$ adres te doen. Het is belangrijk op te merken dat deze betaling, zodra het adres is afgeleid, een klassiek proces volgt en niet langer afhankelijk is van de sleutels die geassocieerd zijn met de BIP47.
 
 
 Ik zal de stappen samenvatten die we net hebben gezien om een BIP47-betaling te verzenden:
@@ -5325,27 +5325,27 @@ Ik zal de stappen samenvatten die we net hebben gezien om een BIP47-betaling te 
 
 
 - Alice selecteert de eerste dochterprivésleutel die is afgeleid van haar persoonlijke betaalcode;
-- Het berekent een geheim punt op de elliptische curve met behulp van ECDH uit de eerste ongebruikte dochter openbare sleutel die is afgeleid van de betaalcode van Bob;
-- Het gebruikt dit geheime punt om een gedeeld geheim te berekenen met SHA256 ;
+- Ze berekent een geheim punt op de elliptische curve met behulp van ECDH uit de eerste ongebruikte dochter openbare sleutel die is afgeleid van de betaalcode van Bob;
+- Ze gebruikt dit geheime punt om een gedeeld geheim te berekenen met SHA256 ;
 - Ze gebruikt dit gedeelde geheim om een nieuw geheim punt op de elliptische curve te berekenen;
 - Ze voegt dit nieuwe geheime punt toe aan de publieke sleutel van Bob;
 - Ze verkrijgt een nieuwe efemere publieke sleutel waarvan alleen Bob de bijbehorende privésleutel heeft;
-- Alice kan een klassieke transactie maken naar Bob met de afgeleide efemere ontvangst adres.
+- Alice kan een klassieke transactie maken naar Bob met het afgeleide efemere ontvangstadres.
 
 
 ![BTC204](assets/nl/236.webp)
 
 
-Als Alice een tweede betaling wil doen, volgt ze dezelfde stappen als voorheen, behalve dat ze deze keer de tweede publieke sleutel selecteert die is afgeleid van de betalingscode van Bob. Om precies te zijn, gebruikt ze de eerstvolgende ongebruikte sleutel. Zo verkrijgt ze een nieuwe ontvangstadres van Bob, genaamd $K1$ :
+Als Alice een tweede betaling wil doen, volgt ze dezelfde stappen als voorheen, behalve dat ze deze keer de tweede publieke sleutel selecteert die is afgeleid van de betalingscode van Bob. Om precies te zijn, ze gebruikt  de eerstvolgende ongebruikte sleutel. Zo verkrijgt ze een nieuw ontvangstadres van Bob, genaamd $K1$ :
 
 
 ![BTC204](assets/nl/237.webp)
 
 
-Het kan op deze manier doorgaan en tot `2^32` lege adressen van Bob afleiden.
+Ze kan op deze manier doorgaan en tot `2^32` lege adressen van Bob afleiden.
 
 
-Van buitenaf gezien, kijkend naar de blockchain, is het theoretisch onmogelijk om een BIP47 betaling te onderscheiden van een conventionele betaling. Hier is een voorbeeld van een BIP47 betalingstransactie op de Testnet:
+Van buitenaf gezien, kijkend naar de blockchain, is het theoretisch onmogelijk om een BIP47-betaling te onderscheiden van een conventionele betaling. Hier is een voorbeeld van een BIP47-betalingstransactie op de Testnet:
 
 
 ```text
@@ -5353,7 +5353,7 @@ Van buitenaf gezien, kijkend naar de blockchain, is het theoretisch onmogelijk o
 ```
 
 
-Het ziet eruit als een klassieke transactie met een verbruikte invoer, een betalingsuitvoer en een Exchange-tarief:
+Het ziet eruit als een klassieke transactie met een verbruikte input, een betalingsoutput en een wisselgeld-output:
 
 
 ![BTC204](assets/nl/238.webp)
@@ -5362,10 +5362,10 @@ Het ziet eruit als een klassieke transactie met een verbruikte invoer, een betal
 ### Ontvangst van BIP47-betaling en afleiden van privésleutel
 
 
-Alice heeft zojuist haar eerste betaling gedaan aan een lege BIP47 adres van Bob. Laten we nu eens kijken hoe Bob deze betaling ontvangt. We zullen ook zien waarom Alice geen toegang heeft tot de private sleutel van het adres die ze zojuist zelf heeft gegenereerd, en hoe Bob deze sleutel vindt om de bitcoins uit te geven die hij zojuist heeft ontvangen.
+Alice heeft zojuist haar eerste betaling gedaan aan een leeg BIP47-adres van Bob. Laten we nu eens kijken hoe Bob deze betaling ontvangt. We zullen ook zien waarom Alice geen toegang heeft tot de privésleutel van het adres dat ze zojuist zelf heeft gegenereerd, en hoe Bob deze sleutel vindt om de bitcoins uit te geven die hij zojuist heeft ontvangen.
 
 
-Zodra Bob de kennisgevingstransactie van Alice ontvangt, leidt hij de openbare sleutel BIP47 $K0$ af, nog voordat zijn correspondent een betaling heeft verzonden. Hij neemt dus elke betaling aan het geassocieerde adres waar. In feite leidt hij onmiddellijk verschillende adressen af die hij observeert ($K0$, $K1$, $K2$, $K3$...). Dit is hoe hij deze publieke sleutel $K0$ afleidt:
+Zodra Bob de kennisgevingstransactie van Alice ontvangt, leidt hij de openbare sleutel BIP47 $K0$ af, nog voordat zijn correspondent een betaling heeft verzonden. Hij monitort dus elke betaling aan het geassocieerde adres. In feite leidt hij onmiddellijk verschillende adressen af die hij observeert ($K0$, $K1$, $K2$, $K3$...). Dit is hoe hij deze publieke sleutel $K0$ afleidt:
 
 
 
@@ -5386,7 +5386,7 @@ $$ A = a \dot G $$
 
 
 
-- Bob berekent het geheime punt $S$, door punten op de elliptische curve op te tellen en te verdubbelen, door zijn private sleutel $b$ toe te passen op Alice's publieke sleutel $A$. Ook hier wordt ECDH gebruikt om te garanderen dat dit punt $S$ hetzelfde zal zijn voor zowel Bob als Alice:
+- Bob berekent het geheime punt $S$, door punten op de elliptische curve op te tellen en te verdubbelen, door zijn privésleutel $b$ toe te passen op Alice's publieke sleutel $A$. Ook hier wordt ECDH gebruikt om te garanderen dat dit punt $S$ hetzelfde zal zijn voor zowel Bob als Alice:
 
 
 $$ S = b \dot A $$
@@ -5394,7 +5394,7 @@ $$ S = b \dot A $$
 
 
 
-- Op dezelfde manier als Alice isoleert Bob de abscis van dit punt $S$. We hebben deze waarde $Sx$ genoemd. Hij geeft deze waarde door aan de SHA256 functie om het gedeelde geheim $s$ (kleine letters) te vinden:
+- Op dezelfde manier als Alice isoleert Bob de abscis van dit punt $S$. We hebben deze waarde $Sx$ genoemd. Hij geeft deze waarde door aan de SHA256-functie om het gedeelde geheim $s$ (kleine letters) te vinden:
 
 
 $$ s = \text{SHA256}(Sx) $$
@@ -5408,31 +5408,31 @@ $$ s = \text{SHA256}(Sx) $$
 $$ K0 = B + s ≤ G $$
 
 
-Zodra Bob deze publieke sleutel $K0$ heeft, kan hij de bijbehorende privésleutel afleiden om zijn bitcoins uit te geven. Alleen hij kan deze privésleutel generate:
+Zodra Bob deze publieke sleutel $K0$ heeft, kan hij de bijbehorende privésleutel afleiden om zijn bitcoins uit te geven. Alleen hij kan deze privésleutel genereren:
 
 
 
 
-- Bob telt de privésleutel $b$ van zijn dochter op, afgeleid van zijn persoonlijke betaalcode. Alleen hij kan de waarde van $b$ krijgen. Vervolgens telt hij $b$ op bij het gedeelde geheim $s$ om $k0$, de privésleutel van $K0$, te verkrijgen:
+- Bob telt de dochterprivésleutel $b$ op, afgeleid van zijn persoonlijke betaalcode. Alleen hij kan de waarde van $b$ krijgen. Vervolgens telt hij $b$ op bij het gedeelde geheim $s$ om $k0$, de privésleutel van $K0$, te verkrijgen:
 
 
 $$ k0 = b + s $$
 
 
-Dankzij de groepswet van de elliptische curve verkrijgt Bob precies de private sleutel die overeenkomt met de publieke sleutel die Alice heeft gebruikt. We hebben dus :
+Dankzij de groepswet van de elliptische curve verkrijgt Bob precies de privésleutel die overeenkomt met de publieke sleutel die Alice heeft gebruikt. We hebben dus:
 
 
 $$ K0 = k0 \dot G $$
 
 
-Ik zal de stappen samenvatten die we zojuist hebben gezien om een BIP47 betaling te ontvangen en de bijbehorende privésleutel te berekenen:
+Ik zal de stappen samenvatten die we zojuist hebben gezien om een BIP47-betaling te ontvangen en de bijbehorende privésleutel te berekenen:
 
 
 
 
 - Bob selecteert de eerste dochterprivésleutel die is afgeleid van zijn persoonlijke betaalcode;
-- Het berekent een geheim punt op de elliptische curve met behulp van ECDH uit de eerste openbare dochtersleutel die is afgeleid van de stringcode van Alice;
-- Het gebruikt dit geheime punt om een gedeeld geheim te berekenen met SHA256 ;
+- Hij berekent een geheim punt op de elliptische curve met behulp van ECDH uit de eerste openbare dochtersleutel die is afgeleid van de stringcode van Alice;
+- Hij gebruikt dit geheime punt om een gedeeld geheim te berekenen met SHA256 ;
 - Hij gebruikt dit gedeelde geheim om een nieuw geheim punt op de elliptische curve te berekenen;
 - Hij voegt dit nieuwe geheime punt toe aan zijn persoonlijke openbare sleutel;
 - Hij verkrijgt een nieuwe efemere publieke sleutel, de sleutel waarnaar Alice haar eerste betaling zal sturen;
@@ -5442,7 +5442,7 @@ Ik zal de stappen samenvatten die we zojuist hebben gezien om een BIP47 betaling
 ![BTC204](assets/nl/239.webp)
 
 
-Aangezien Alice niet aan $b$ (de privésleutel van Bob) kan komen, is ze niet in staat om $k0$ (de privésleutel van Bob's BIP47-ontvangst adres) te bepalen. Schematisch kunnen we de berekening van het gedeelde geheim $S$ als volgt weergeven:
+Aangezien Alice niet aan $b$ (de privésleutel van Bob) kan komen, is ze niet in staat om $k0$ (de privésleutel van Bob's BIP47-ontvangstadres) te bepalen. Schematisch kunnen we de berekening van het gedeelde geheim $S$ als volgt weergeven:
 
 
 ![BTC204](assets/nl/240.webp)
@@ -5457,10 +5457,10 @@ Zodra het gedeelde geheim is gevonden met ECDH, berekenen Alice en Bob de openba
 ### Terugbetaling van BIP47-betaling
 
 
-Omdat Bob de herbruikbare betalingscode van Alice kent, heeft hij al alle informatie die hij nodig heeft om haar een restitutie te sturen. Hij hoeft niet opnieuw contact op te nemen met Alice om informatie te vragen. Hij hoeft haar alleen maar op de hoogte te stellen met een kennisgevingstransactie, zodat ze haar BIP47-adressen kan ophalen met haar seed, en dan kan hij haar ook tot `2^32` betalingen sturen.
+Omdat Bob de herbruikbare betalingscode van Alice kent, heeft hij al alle informatie die hij nodig heeft om haar een terugbetaling te sturen. Hij hoeft niet opnieuw contact op te nemen met Alice om informatie te vragen. Hij hoeft haar alleen maar op de hoogte te stellen met een kennisgevingstransactie, zodat ze haar BIP47-adressen kan ophalen met haar seed, en dan kan hij haar ook tot `2^32` betalingen sturen.
 
 
-De terugbetalingsfunctie is specifiek voor BIP47 en is een van de voordelen ten opzichte van andere methoden, zoals Stille Betalingen, die we in latere hoofdstukken zullen bekijken.
+De terugbetalingsfunctie is specifiek voor BIP47 en is een van de voordelen ten opzichte van andere methoden, zoals Silent Payments, die we in latere hoofdstukken zullen bekijken.
 
 
 Bob kan Alice dan terugbetalen op dezelfde manier waarop zij hem betalingen stuurde. De rollen zijn omgedraaid:
@@ -5474,7 +5474,7 @@ Bob kan Alice dan terugbetalen op dezelfde manier waarop zij hem betalingen stuu
 
 https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95-a766-bae2c5535093
 
-## Stille betalingen
+## Silent Payments
 
 
 <chapterId>2871d594-414e-4598-a830-91c9eb84dfb8</chapterId>
@@ -5555,7 +5555,7 @@ Laten we beginnen met een eenvoudig voorbeeld om tot de kern te komen van hoe SP
 
 - Alice moet een ongebruikt adres kunnen generate;
 - Bob moet een betaling kunnen identificeren die naar deze specifieke adres is gestuurd;
-- Bob moet de private sleutel die bij dit adres hoort kunnen bemachtigen om zijn geld te kunnen uitgeven.
+- Bob moet de privésleutel die bij dit adres hoort kunnen bemachtigen om zijn geld te kunnen uitgeven.
 
 
 Alice heeft een UTXO in haar beveiligde Bitcoin wallet met het volgende sleutelpaar:
@@ -5852,7 +5852,7 @@ Om de betalingen te vinden die aan hem zijn gericht, voert Bob de volgende berek
 $$ P_0 = B_{{spend}} + \text{Hash}(\text{inputHash} \cdot b_{scan} \cdot A \text{ ‖ } 0) \cdot G $$
 
 
-Zoals je kunt zien, heeft Bob tot nu toe nog geen $b_{text{spend}}$ nodig gehad, die op zijn Hardware wallet staat. Wanneer hij $P_0$ wil uitgeven, kan hij de volgende berekening doen om de private sleutel $p_0$ te vinden:
+Zoals je kunt zien, heeft Bob tot nu toe nog geen $b_{text{spend}}$ nodig gehad, die op zijn Hardware wallet staat. Wanneer hij $P_0$ wil uitgeven, kan hij de volgende berekening doen om de privésleutel $p_0$ te vinden:
 
 
 $$ p_0 = (b_{inputHash}} + \text{Hash}(\text{inputHash} \cdot b_{{text{scan}} \cdot A \text{ ‖ } 0)) \bmod n $$
@@ -5963,7 +5963,7 @@ Houd er echter rekening mee dat deze scheiding van statische adressen alleen gel
 - $\text{SHA256}$ : De SHA256 hash functie getagd met `BIP0352/SharedSecret`
 - $s_0$: het eerste gemeenschappelijke ECDH-geheim
 - $P_0$ : De eerste publieke sleutel / uniek adres voor betaling aan Bob
-- $p_0$ : De private sleutel van de eerste unieke betaling adres aan Bob
+- $p_0$ : De privésleutel van de eerste unieke betaling adres aan Bob
 - $X$ : De hash van de particuliere sleutel van de scan met het label
 
 
@@ -6020,7 +6020,7 @@ sp1qqvhjvsq2vz8zwrw372vuzle7472zup2ql3pz64yn5cpkw5ngv2n6jq4nl8cgm6zmu48yk3eq33ry
 Een belangrijk punt met betrekking tot statische adressen, dat je misschien hebt begrepen in de vorige secties, is dat deze adressen niet zichtbaar zijn in Bitcoin-transacties. Alleen de $P$ betalingsadressen die in outputs worden gebruikt, verschijnen op de blockchain in het standaard Taproot formaat. Van buitenaf is het dus onmogelijk om een transactie met Stille Betaling te onderscheiden van een gewone transactie met P2TR outputs.
 
 
-Net als bij BIP47 is het onmogelijk om een verband te leggen tussen een statische adres $B$ en een betalings-adres $P$ afgeleid van $B$. Zelfs als Eve, een potentiële aanvaller, probeert de blockchain te scannen met de statische adres $B$ van Bob, zal ze niet in staat zijn de berekeningen uit te voeren die nodig zijn om $P$ te bepalen. Om dat te doen, zou ze ofwel de private sleutel $b_{scan}}$ van Bob nodig hebben, ofwel de private sleutels $a$ van de verzender, maar beide zijn natuurlijk privaat. Het is dus mogelijk om iemands statische adres expliciet te koppelen aan een vorm van persoonlijke identiteit.
+Net als bij BIP47 is het onmogelijk om een verband te leggen tussen een statische adres $B$ en een betalings-adres $P$ afgeleid van $B$. Zelfs als Eve, een potentiële aanvaller, probeert de blockchain te scannen met de statische adres $B$ van Bob, zal ze niet in staat zijn de berekeningen uit te voeren die nodig zijn om $P$ te bepalen. Om dat te doen, zou ze ofwel de privésleutel $b_{scan}}$ van Bob nodig hebben, ofwel de privésleutels $a$ van de verzender, maar beide zijn natuurlijk privaat. Het is dus mogelijk om iemands statische adres expliciet te koppelen aan een vorm van persoonlijke identiteit.
 
 
 ### Hoe gebruik ik Stille Betalingen?

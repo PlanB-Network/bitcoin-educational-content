@@ -1,5 +1,5 @@
 ---
-name: History of coinage
+name: History of Coinage
 goal: Explore the historical evolution of money from the Neolithic to the present day
 objectives: 
 

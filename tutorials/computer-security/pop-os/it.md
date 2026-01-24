@@ -39,9 +39,9 @@ Offre un'interfaccia elegante, il desktop COSMIC, progettato per essere fluido, 
 ## La scelta ideale per sviluppatori, progettisti e utenti esigenti
 
 Pop!OS è particolarmente apprezzato da:
-- sviluppatori (strumenti preinstallati, gestione avanzata dei componenti),
-- utenti con schede grafiche Nvidia o AMD,
-- studenti e professionisti alla ricerca di un sistema affidabile,
+- sviluppatori (strumenti preinstallati, gestione avanzata dei componenti);
+- utenti con schede grafiche Nvidia o AMD;
+- studenti e professionisti alla ricerca di un sistema affidabile;
 - utenti di Windows che desiderano effettuare una semplice transizione.
 
 Include una gestione automatica delle finestre a mosaico, un centro software chiaro e strumenti di produttività integrati per facilitare l'uso quotidiano.
@@ -72,7 +72,7 @@ Prima di scaricare e installare POP!OS, sono necessarie alcune operazioni per pr
 ### Connessione a Internet
 
 Una connessione stabile è utile per:
-- scarica l'immagine ISO,
+- scarica l'immagine ISO;
 - installa gli aggiornamenti dopo l'installazione.
 
 Pop!OS può funzionare anche senza connessione, ma l'installazione è molto più fluida su Internet.
@@ -83,17 +83,17 @@ Se Pop!OS deve sostituire o coesistere con un altro sistema (Windows, Ubuntu, ec
 
 ### Verificare la presenza di una GPU Nvidia (se applicabile)
 
-Per i computer dotati di scheda grafica Nvidia, è necessario scaricare l'immagine ISO speciale che include i driver Nvidia.
+Per i computer dotati di scheda grafica Nvidia, è necessario scaricare l'immagine ISO specifica che include i driver Nvidia.
 
 Questo controllo è molto semplice:
-- consultando le specifiche del PC,
+- consultando le specifiche del PC;
 - o cercando il modello della scheda grafica nelle impostazioni del sistema.
 
 ### Scarica dal sito ufficiale
 
 L'immagine ISO di Pop!OS deve essere scaricata direttamente dalla pagina ufficiale di System76: [system76.com/pop](https://system76.com/pop/).
 
-Questa pagina offre sempre la versione più recente, adatta al vostro hardware.
+Questa pagina offre sempre la versione più recente, adatta al tuo hardware.
 
 ![capture](assets/fr/03.webp)
 
@@ -203,7 +203,7 @@ L'unità può essere crittografata utilizzando la password di accesso selezionan
 
 ![Capture](assets/fr/18.webp)
 
-Se si è scelto il pulsante `Imposta password`, verrà visualizzato un ulteriore prompt per impostare la password di crittografia.
+Se hai scelto il pulsante `Imposta password`, verrà visualizzato un ulteriore prompt per impostare la password di crittografia.
 
 Procedi al passo successivo del programma di installazione. Pop!OS inizierà l'installazione sul disco.
 
@@ -267,10 +267,10 @@ Pop!OS offre un'ampia gamma di software tramite il Pop!Shop, ma molti strumenti 
 Pop!OS dispone di un gestore di aggiornamenti grafico semplice e intuitivo.
 
 1. Fai clic sul **menu principale** (icona in basso a sinistra).
-2. Apri **"Pop!_Shop "**.
-3. Nel Pop!_Shop, fai clic sulla scheda **"Aggiornamenti "**.
+2. Apri **"Pop!_Shop"**.
+3. Nel Pop!_Shop, fai clic sulla scheda **"Aggiornamenti"**.
 4. Il sistema controllerà automaticamente gli aggiornamenti disponibili.
-5. Fai clic su **"Aggiorna tutto "** per avviare l'installazione degli aggiornamenti.
+5. Fai clic su **"Aggiorna tutto"** per avviare l'installazione degli aggiornamenti.
 6. Se richiesto, inserire la password.
 7. Lascia terminare il processo, quindi riavvia se necessario.
 
@@ -355,7 +355,7 @@ Quindi attivali nelle impostazioni.
 
 ### Ottimizzazione della gestione della memoria e dello swap
 
-Controlla lo stato di scambio:
+Controlla lo stato di swap:
 
 ```bash
 swapon --show

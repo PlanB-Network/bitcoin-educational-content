@@ -6020,7 +6020,7 @@ sp1qqvhjvsq2vz8zwrw372vuzle7472zup2ql3pz64yn5cpkw5ngv2n6jq4nl8cgm6zmu48yk3eq33ry
 Een belangrijk punt met betrekking tot statische adressen, dat je misschien hebt begrepen in de vorige secties, is dat deze adressen niet zichtbaar zijn in Bitcoin-transacties. Alleen de $P$ betaaladressen die in outputs worden gebruikt, verschijnen op de blockchain in het standaard Taproot formaat. Van buitenaf is het dus onmogelijk om een transactie met Silent Payments te onderscheiden van een gewone transactie met P2TR outputs.
 
 
-Net als bij BIP47 is het onmogelijk om een verband te leggen tussen een statisch adres $B$ en een betaaladres $P$ afgeleid van $B$. Zelfs als Eve, een potentiële aanvaller, probeert de blockchain te scannen met het statisch adres $B$ van Bob, zal ze niet in staat zijn de berekeningen uit te voeren die nodig zijn om $P$ te bepalen. Om dat te doen, zou ze ofwel de privésleutel $b_{scan}}$ van Bob nodig hebben, ofwel de privésleutels $a$ van de verzender, maar beide zijn natuurlijk privaat. Het is dus mogelijk om iemands statische adres expliciet te koppelen aan een vorm van persoonlijke identiteit.
+Net als bij BIP47 is het onmogelijk om een verband te leggen tussen een statisch adres $B$ en een betaaladres $P$ afgeleid van $B$. Zelfs als Eve, een potentiële aanvaller, probeert de blockchain te scannen met het statisch adres $B$ van Bob, zal ze niet in staat zijn de berekeningen uit te voeren die nodig zijn om $P$ te bepalen. Om dat te doen, zou ze ofwel de privésleutel $b_{scan}}$ van Bob nodig hebben, ofwel de privésleutels $a$ van de verzender, maar beide zijn natuurlijk privaat. Het is dus mogelijk om een statisch adres en een vorm van persoonlijke identiteit expliciet aan elkaar te koppelen, bijvoorbeeld door je statische adres te publiceren op een X (Twitter)-profiel.
 
 
 ### Hoe gebruik ik Silent Payments?
@@ -6036,7 +6036,7 @@ Het Silent Payments voorstel is relatief recent en wordt op dit moment slechts d
 - [DonatieWallet](https://github.com/Sosthene00/donationwallet)
 
 
-Binnenkort geven we je een gedetailleerde tutorial over het opzetten van je eigen Silent Payments statische adres.
+Binnenkort geven we je een gedetailleerde tutorial over het opzetten van je eigen statisch Silent Payments adres.
 
 
 Omdat deze functie nieuw is, raden we je aan voorzichtig te zijn en het gebruik van Silent Payments voor grote bedragen op Mainnet te vermijden.

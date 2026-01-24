@@ -14,11 +14,11 @@ Questo tutorial ti guida attraverso le tre funzioni di SMS4Sats: ricevere un SMS
 
 ## Che cos'è SMS4Sats?
 
-SMS4Sats è un servizio online accessibile all'indirizzo [sms4sats.com](https://sms4sats.com), che consente la gestione anonima degli SMS tramite pagamento in Bitcoin Lightning. Il servizio offre tre funzionalità distinte: ricezione di codici di verifica monouso, invio di SMS a qualsiasi numero e noleggio di numeri temporanei per diverse ore.
+SMS4Sats è un servizio online accessibile all'indirizzo [sms4sats.com](https://sms4sats.com), che consente la gestione anonima degli SMS tramite pagamento in bitcoin su Lightning. Il servizio offre tre funzionalità distinte: ricezione di codici di verifica monouso, invio di SMS a qualsiasi numero e noleggio di numeri temporanei per diverse ore.
 
 ### Filosofia e modello operativo
 
-Il progetto è stato concepito per garantire la massima riservatezza e sovranità finanziaria. Non richiedendo la creazione di un account e accettando solo pagamenti Bitcoin Lightning, SMS4Sats elimina completamente la necessità di fornire dati personali. Non è richiesto nessun indirizzo e-mail, nessuna carta di credito, nessuna informazione personale. Per accedere ai servizi è necessario solo il pagamento Lightning.
+Il progetto è stato concepito per garantire la massima riservatezza e sovranità finanziaria. Non richiedendo la creazione di un account e accettando solo pagamenti in bitcoin su Lightning, SMS4Sats elimina completamente la necessità di fornire dati personali. Non è richiesto nessun indirizzo e-mail, nessuna carta di credito, nessuna informazione personale. Per accedere ai servizi è necessario solo il pagamento Lightning.
 
 Il servizio supporta oltre 400 siti e applicazioni in circa 120 Paesi, coprendo la maggior parte delle esigenze di verifica più comuni. Questa ampia copertura geografica consente di convalidare le registrazioni su diverse piattaforme, dai social network ai servizi di messaggistica.
 
@@ -84,7 +84,7 @@ Il processo è identico a quello della registrazione tradizionale: si inserisce 
 
 ### Passo 5: Recuperare il codice di verifica
 
-Torna all'interfaccia di SMS4Sats. Non appena viene ricevuto l'SMS, viene visualizzato automaticamente il codice di attivazione. Cliccare su **COPIA DEL CODICE** per copiarlo facilmente.
+Torna all'interfaccia di SMS4Sats. Non appena viene ricevuto l'SMS, viene visualizzato automaticamente il codice di attivazione. Clicca su **COPIA DEL CODICE** per copiarlo facilmente.
 
 ![Code de vérification reçu sur SMS4Sats](assets/fr/05.webp)
 
@@ -135,34 +135,34 @@ Una volta cliccato su **NEXT** e pagata l'invoice Lightning, otterrai un numero 
 
 ### Punti salienti
 
-**Non sono richiesti dati personali**: il modello senza registrazione garantisce che non vengano raccolti dati personali.
+- **Non sono richiesti dati personali**: il modello senza registrazione garantisce che non vengano raccolti dati personali.
 
-**Tre funzioni aggiuntive**: ricezione, invio e noleggio coprono la maggior parte delle esigenze.
+- **Tre funzioni aggiuntive**: ricezione, invio e noleggio coprono la maggior parte delle esigenze.
 
-**Pagamento solo in Bitcoin**: Lightning Network consente transazioni istantanee e pseudonime.
+- **Pagamento solo in bitcoin**: Lightning Network consente transazioni istantanee e pseudonime.
 
-**Rimborso automatico**: quando si ricevono messaggi SMS, il sistema di invoice hodl garantisce il pagamento solo se l'SMS arriva.
+- **Rimborso automatico**: quando si ricevono messaggi SMS, il sistema di invoice hodl garantisce il pagamento solo se l'SMS arriva.
 
 ### Vincoli da considerare
 
-**Sicurezza del canale SMS**: i codici SMS non sono un metodo di autenticazione solido e non dovrebbero essere utilizzati per gli account sensibili.
+- **Sicurezza del canale SMS**: i codici SMS non sono un metodo di autenticazione solido e non dovrebbero essere utilizzati per gli account sensibili.
 
-**Compatibilità variabile**: molti siti rilevano e bloccano i numeri virtuali. Potrebbero essere necessari diversi tentativi.
+- **Compatibilità variabile**: molti siti rilevano e bloccano i numeri virtuali. Potrebbero essere necessari diversi tentativi.
 
-**Numeri non riutilizzabili**: dopo un singolo utilizzo, il numero viene riciclato e non può essere recuperato.
+- **Numeri non riutilizzabili**: dopo un singolo utilizzo, il numero viene riciclato e non può essere recuperato.
 
-**Noleggio non rimborsabile**: a differenza dei messaggi SMS una tantum, il noleggio non prevede una garanzia di rimborso.
+- **Noleggio non rimborsabile**: a differenza dei messaggi SMS una tantum, il noleggio non prevede una garanzia di rimborso.
 
 
 ## Le migliori pratiche
 
 ### Utilizzare Tor per una maggiore privacy
 
-SMS4Sats è accessibile tramite [Tor](sms4sat6y7lkq4vscloomatwyj33cfeddukkvujo2hkdqtmyi465spid.onion). Questa configurazione maschera il tuo indirizzo IP quando accedi al servizio.
+SMS4Sats è accessibile tramite [Tor](http://sms4sat6y7lkq4vscloomatwyj33cfeddukkvujo2hkdqtmyi465spid.onion). Questa configurazione maschera il tuo indirizzo IP quando accedi al servizio.
 
-### Evitare i conti critici
+### Evitare gli account critici
 
-Non utilizzate mai un numero usa e getta per i tuoi account importanti (banca, e-mail principale). Se queste piattaforme richiedono di riconfermare il numero in un secondo momento, perderai l'accesso all'account.
+Non utilizzare mai un numero usa e getta per i tuoi account importanti (banca, e-mail principale). Se queste piattaforme richiedono di riconfermare il numero in un secondo momento, perderai l'accesso all'account.
 
 ### Separa le tue identità digitali
 
@@ -175,7 +175,7 @@ Una volta creato l'account, attiva le soluzioni di autenticazione più forti: Ap
 
 ## Conclusione
 
-SMS4Sats è una soluzione completa per la gestione degli SMS riservati. Che si voglia ricevere un codice di verifica, inviare un messaggio anonimo o affittare un numero temporaneo, il servizio soddisfa un'ampia gamma di esigenze di riservatezza, grazie al pagamento in Bitcoin Lightning.
+SMS4Sats è una soluzione completa per la gestione degli SMS riservati. Che si voglia ricevere un codice di verifica, inviare un messaggio anonimo o affittare un numero temporaneo, il servizio soddisfa un'ampia gamma di esigenze di riservatezza, grazie al pagamento in bitcoin Lightning.
 
 Tieni però presente i suoi limiti: il servizio non garantisce l'anonimato assoluto e non è adatto a conti sensibili o a lungo termine. Utilizzato con saggezza e consapevolezza dei suoi limiti, SMS4Sats è uno strumento pratico per riprendere il controllo delle tue comunicazioni telefoniche.
 

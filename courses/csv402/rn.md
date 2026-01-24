@@ -5280,7 +5280,7 @@ http://localhost:3001/issueassetnia
 ![RGB-Bitcoin](assets/en/108.webp)
 
 
-Inyishu irimwo ID y’umutungo mushasha waremwe. Ibuka kwandika iki kimenyetso. Mu vyerekeye jewe, ni:
+Inyishu irimwo Inndangakintu y'umutungo y’umutungo mushasha waremwe. Ibuka kwandika iki kimenyetso. Kuvyombona, ni:
 
 
 ```txt
@@ -5291,13 +5291,13 @@ rgb:fc7fMj5S-8yz!vIl-260BEhU-Hj1skvM-ZHcjfyz-RTcWc10
 ![RGB-Bitcoin](assets/en/109.webp)
 
 
-Ushobora rero kuyirungika On-Chain, canke ukayitanga mu murongo w’umuravyo. Ivyo nyene ni vyo tuzokora mu gice gikurikira.
+Ushobora rero kuyirungika kuri On-Chain, canke ukayitanga kumuora wa Lightning. Ivyo nyene ni vyo tuzokora mu gice gikurikira.
 
 
-### Gufungura umurongo no gutanga umutungo wa RGB
+### Kwugurura umuhora wa Lightning hamwe nokurungika umutungo kuri RGB
 
 
-Utegerezwa kubanza gufatanya urudodo rwawe n'umugenzi kuri Lightning Network ukoresheje itegeko `/connectpeer`. Mu karorero kanje, ndagenzura izo node zompi. Rero nzogarura urufunguzo rwa bose rw'umurongo wanje wa kabiri w'umuravyo n'iri tegeko:
+Utegerezwa kubanza gufatanya node ryawe n'umugenzi kuri Lightning Network ukoresheje itegeko `/connectpeer`. Mu karorero kanje, ndasuzuma node zose. Rero nzogarura urufunguzo rwa bose rw'umuhora wanje wa kabiri w'umuravyo n'iri tegeko:
 
 
 ```bash
@@ -5345,17 +5345,17 @@ Ibindi ubimenye hano:
 
 
 - `peer_pubkey_and_opt_addr`: Ikimenyetso c'umugenzi twipfuza gufatanya (urufunguzo rwa bose twabonye mbere);
-- `ubushobozi_sat`: Ubushobozi bwose bw'umurongo mu satoshis;
-- `push_msat`: Amahera mu millisatoshis mu ntango yimuriwe ku mugenzi iyo umurongo ufunguwe (aha nca nshira 10.000 Sats kugira ngo ashobore gukora RGB yimurirwa mu nyuma);
-- `asset_amount`: Umubare w'itunga rya RGB rizoshikirizwa umurongo;
+- `ubushobozi_sat`: Imihoya yose hamwe yomuri satoshis;
+- `push_msat`: Amahera mu millisatoshis mu ntango yimuriwe ku mugenzi iyo umurongo ufunguwe (aha nca nshira ama Sats 10.000  kugira ngo ashobore gukora RGB yimurirwa mu nyuma);
+- `asset_amount`: Igitigiri c'itunga rya RGB rizoshikirizwa umurongo;
 - `asset_id`: Ikimenyetso kidasanzwe c'umutungo wa RGB ukora mu muhora;
-- `public`: Igaragaza nimba umurongo ukwiye gushikirizwa abantu bose kugira ngo ukoreshe umurongo ku rubuga.
+- `public`: Yerekana nimba umuhora ukwiye gushikirizwa abantu bose kugira ngo ukoreshe umurongo ku rubuga.
 
 
 ![RGB-Bitcoin](assets/en/111.webp)
 
 
-Kugira ngo bemeze ko ivyo bigurishwa, amabuye 6 aracukurwa:
+Kugira ngo bemeze ihanahanwa, amabuye 6 aracukurwa:
 
 
 ```bash
@@ -5366,7 +5366,7 @@ Kugira ngo bemeze ko ivyo bigurishwa, amabuye 6 aracukurwa:
 ![RGB-Bitcoin](assets/en/112.webp)
 
 
-Umurongo w'umuravyo ubu warafunguye kandi urimwo n'ibimenyetso 500 vya `Plan ₿ Academy` ku ruhande rwa node n°1. Niba urudodo n°2 rushaka kwakira ibimenyetso vya `Plan ₿ Academy`, rutegerezwa kuba generate na Invoice. Ehe ingene wobikora:
+Umuhora wa Lighning ubu waraguruwe kandi urimwo n'ibimenyetso 500 vya `Plan ₿ Academy` ku ruhande rwa node n°1. Nimba node n°2 rushaka kwakira ibimenyetso vya `Plan ₿ Academy`, rutegerezwa kuba rwakoze facitire. Ehe ingene wobikora:
 
 
 ```bash
@@ -5386,13 +5386,13 @@ Hamwe:
 
 
 
-- `amt_msat`: Amafaranga y’amafaranga 2422 mu bipimo vy’amamiliyoni (amafaranga 3000 y’amafaranga 2423);
-- `igihe co guhera_isegonda`: Invoice igihe co guhera mu masegonda;
-- `asset_id`: Ikimenyetso c'umutungo wa RGB ufitaniye isano n'umutungo wa Invoice;
-- `umutungo_umubare`: Umubare w'umutungo wa RGB uzokwimurirwa n'iyi Invoice.
+- `amt_msat`: Amafaranga y’ama Satoshi (amasatoshi 3000);
+- `expiry_sec`: Umwanya fagitire ihererako mumasegonda;
+- `asset_id`: Ikimenyetso c'umutungo wa RGB ufitaniye isano n'umutungo wa fagitire;
+- `asset_amount`: Igitigiri c'umutungo wa RGB uzorungikwa hakoreshejwe ino fagitire.
 
 
-Mu kwishura, uzoronka RGB Invoice (nk’uko vyavuzwe mu bice vyabanje):
+Nkinyishu, uzoronka fagitire ya RGB (nk’uko vyavuzwe mubigabane duherukirako):
 
 
 ```txt
@@ -5403,7 +5403,7 @@ lnbcrt30u1pncgd4rdqud3jxktt5w46x7unfv9kz6mn0v3jsnp4qv0grex9c6m22r9ltkzmzhddwg87e
 ![RGB-Bitcoin](assets/en/113.webp)
 
 
-Ubu tuzoriha iyi Invoice kuva ku nzira ya mbere, ifise amahera akenewe n'iyi `Plan ₿ Academy` token:
+Ubu tuzoriha iyi Fagitire kuva ku nzira ya mbere, ifise amahera akenewe n'iyi `Plan ₿ Academy` token:
 
 
 ```bash
@@ -5431,14 +5431,14 @@ curl -X 'GET' \
 ![RGB-Bitcoin](assets/en/115.webp)
 
 
-Ehe ingene wokoresha urudodo rwa Lightning rwahinduwe kugira ngo rutware itunga rya RGB. Iryo yerekanwa rishingiye kuri:
+Ehe ingene wokoresha node ya Lightning yahinduwe kugira ngoitware itunga rya RGB. Iryo yerekanwa rishingiye kuri:
 
 
 
 
-- Ibidukikije vy'igerageza (biciye muri `./igerageza.sh`) canke Testnet;
+- Ivyokugerageza (biciye muri `./igerageza.sh`) canke Testnet;
 - Igikoresho c'umuravyo (`RGB-igikoresho-c'umuravyo`) gishingiye kuri `bitcoind`, urutonde n'umurongo w'umuravyo`;
-- Urutonde rwa JSON REST APIs zo gufungura/gufunga imirongo, gutanga ibimenyetso, gutanga umutungo biciye ku muravyo, n'ibindi.
+- Urutonde rwa JSON REST APIs zo gufungura/gufunga imirongo, gutanga ibimenyetso, gutanga umutungo biciye kuri Lightning, n'ibindi.
 
 
 Urakoze kuri iyi nzira:
@@ -5447,23 +5447,23 @@ Urakoze kuri iyi nzira:
 
 
 - Ivy’ugukorana n’umuravyo birimwo igisohoka c’inyongera (OP_RETURN canke Taproot) n’ugushinga intahe kw’ihinduka rya RGB;
-- Ivyo kwimurira amahera bikorwa mu buryo bumwe nyene n’ubw’amahera ya kera y’umuravyo, ariko hakaba hakongerwako RGB token;
+- Ivyo kwimurira amahera bikorwa mu buryo bumwe nyene n’ubw’amahera ya kera ya Lightning, ariko hakaba hakongerwako RGB token;
 - Ivyiyumviro vyinshi vya RLN birashobora guhuzwa n’inzira no kugerageza kwishura mu vyiyumviro vyinshi, igihe cose hariho amahera ahagije mu bitcoins no mu mutungo RGB ku nzira.
 
 
 Umugambi uguma mu rwego rwa alpha. Ni vyiza rero cane ko wigarukira ku bidukikije vyo kugerageza (regtest, Testnet).
 
 
-Amahirwe yuguruwe n’iyi nzira y’uguhuza LN-RGB ni menshi cane: stablecoins kuri Lightning, DEX Layer-2, gutanga ibimenyetso bishobora guhinduka canke NFTs ku giciro gito cane... Ibice vyabanje vyarerekanye ubuhinga bwo kwubaka ivyiyumviro n’ubuhinga bwo kwemeza. Ubu ufise iciyumviro ngirakamaro c’ingene wotuma mwene iyo node ikora, ku bijanye n’iterambere canke ibigeragezo vyawe vyo muri kazoza.
+Amahirwe yuguruwe n’iyi nzira y’uguhuza LN-RGB ni menshi cane: stablecoins kuri Lightning, DEX Layer-2, gutanga ibimenyetso bishobora guhinduka canke NFTs ku giciro gito cane... Ibice vyatanguye birerekana ubuhinga bwo kwubaka ivyiyumviro n’ubuhinga bwo kwemeza. Ubu ufise iciyumviro ngirakamaro c’ingene wotuma mwene iyo node ikora, ku bijanye n’iterambere canke ibipimo vyawe vyo muri kazoza.
 
 
-# Igice ca nyuma
+# Agace kanyuma
 
 
 <partId>b0baebfc-d146-5938-849a-f835fafb386f</partId>
 
 
-## Amasuzuma n'Ibipimo
+## Gusubiramwo & n'ugusuzuma
 
 
 <chapterId>0217e8b0-942a-5fee-bd91-9a866551eff3</chapterId>
@@ -5471,7 +5471,7 @@ Amahirwe yuguruwe n’iyi nzira y’uguhuza LN-RGB ni menshi cane: stablecoins k
 
 <isCourseReview>true</isCourseReview>
 
-## Iciyumviro
+## Guheraheza
 
 
 <chapterId>0309536d-c336-56a0-869e-a8395ed8d9ae</chapterId>

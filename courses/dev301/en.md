@@ -56,11 +56,11 @@ Software engineers are often looking for _uniform interfaces_: ways to represent
 
 For example, when you navigate to a webpage as a user, you open it with your browser; but when you make your own website, you might want to edit your webpage with a text editor. So webpages are written as *html* documents, which your text editor can edit as regular text, but your browser can render as interactive web applications. This is an example of uniform interface that both the browser and the text editor can interact with.
 
-![](assets/en/1.png)
+![](assets/en/1.webp)
 
 At the lowest level, basically all modern software relies on a single universal interface: binary code.
 
-![](assets/en/2.png)
+![](assets/en/2.webp)
 
 The smallest unit of binary code is the binary digit, aka **bit**. 
 
@@ -112,7 +112,7 @@ You can use a byte for each apartment to record which of these conditions it sat
 
 Since you only have 6 requirements and a byte is 8 bits, the last two bits are left unused (we don't care whether they're 1 or 0). This structure as a whole is called a **bitfield** (which in this example was built with just one byte, but could include more bytes if needed). In this case we say the bitfield has 6 **bitflags**, one for each question.
 
-![](assets/en/3.png)
+![](assets/en/3.webp)
 
 That's a lot of information packed into a single byte!
 
@@ -624,7 +624,7 @@ Each one of them has an intensity, which can be stored in different ways based o
 
 Pixels are often referred to in hexadecimal form; for example, in CSS `#ffffff` represents the purest color white, having red, green and blue all set to maximum intensity `ff` (256 in hexadecimal form); and `000000` is the darkest black (having all the three colors at intensity 0).
 
-![](assets/en/4.png)
+![](assets/en/4.webp)
 
 Theoretically speaking, an image can be encoded as a simple sequence of pixels; and a video can be encoded as a simple sequence of images.
 
@@ -632,7 +632,7 @@ Most of the times though, we *compress* media to save space. A simple example of
 
 In RLE, you save space by representing repeating sequences of an element as (length + element). For example, if you have a sequence of 64 black pixels in an image, instead of using 192 bytes (3 bytes per pixel repeated 64 times) you can represent it with just 4 bytes as `40ffffff`, with `40` being 64 in hexadecimal form, and `ffffff` indicating the color black.
 
-The most used modern formats for images and videos (`.png`, `.jpeg`, `.mp4`, etc.) use much more advanced compression techniques.
+The most used modern formats for images and videos (`.webp`, `.webp`, `.mp4`, etc.) use much more advanced compression techniques.
 
 ### Computer instructions
 
@@ -714,7 +714,7 @@ In order for the machines to be able to work on binary, we need to implement the
 
 You can think of a modern computer as a system through which many minuscule currents of electricity travel and intersect.
 
-![](assets/en/5.png)
+![](assets/en/5.webp)
 
 If a current has low voltage, we consider it as carrying a `0` value; if it has higher voltage, `1`.
 
@@ -722,11 +722,11 @@ A transistor is a small physical component (made of silicon and other materials)
 
 There are two main types of transistors used for modern computers: *NMOS* transistors will let the value of current `A` be `1` if `B` is also `1`
 
-![](assets/en/6.png)
+![](assets/en/6.webp)
 
 while *PMOS* transistors will make the value of `A` be `1` if `B` is `0`.
 
-![](assets/en/7.png)
+![](assets/en/7.webp)
 
 By combining transistors, it's possible to build small circuits called *logic gates*, which operate as logical operators. For example, the `AND` logic gate will take two current flows as inputs and output a current flow with value `1` only if both of them have a value of `1`.
 
@@ -736,7 +736,7 @@ In order to store data, certain transistors are put into *memory cells*, which a
 
 SSDs use memory cells to store your data; but a lot of other hardware components have memory cells too, which are used to store *firmware*. Firmware is the most fundamental form of programming that a piece of hardware (for example, a GPU) can hold. It stands between hardware and regular software.
 
-![](assets/en/8.png)
+![](assets/en/8.webp)
 
 Firmware is the basic programming of a hardware component, and is usually distributed by the producer of the hardware. It allows it to be updated (to a degree), for example to fix security bugs by disallowing some functionalities that have been found out to be easily exploitable by attackers. Firmware makes modern hardware more flexible, because it decouples some of its functionality from its physical design: you can change some of the behavior of a piece of hardware without modifying the hardware itself, you just need to overwrite its firmware.
 
@@ -744,7 +744,7 @@ Most of the time firmware is written  in C or C++, and executed by a *microcontr
 
 All these hardware components are orchestrated by the CPU (Central Processing Unit), which we will look more deeply into in the next chapter. For now just imagine it as the heart of the computer, exchanging signals to the microcontrollers of the various other hardware components. There is a lot of little details and exceptions about this model, but it's ok as a general idea of the hardware system.
 
-![](assets/en/9.png)
+![](assets/en/9.webp)
 
 But how can all these components communicate with each other at a physical level? Well most of them are connected into a *motherboard*. A motherboard has slots to which you can plug in various pieces of hardware, and circuits to connect them all to the CPU (and in certain cases, to each other). This also allows you to substitute certain components of your PC (as long as they're compatible with your motherboard).
 
@@ -759,7 +759,7 @@ The CPU has various specialized units to operate on the binary data in various w
 
 So the data arrives through buses, gets stored into registers, gets operated on by the units, and then sent out via buses again. This is the so called *datapath* of the CPU.
 
-![](assets/en/10.png)
+![](assets/en/10.webp)
 
 The CPU also has a *control unit*, which directs the sequence of operations, following a cycle like this:
 - *fetch* phase: the control unit has a special register to store the *program counter* , aka the address in memory from which it's supposed to get the next instruction. During this phase it will go to that address and get the instruction (and also upload its counter to point to the next command in the program it's executing, for the next cycle)
@@ -767,15 +767,15 @@ The CPU also has a *control unit*, which directs the sequence of operations, fol
 - *execute* phase: the CPU executes the microcode, trying to optimize and parallelize the execution as much as possible
 - before starting a new cycle, the control unit checks on an *interrupt interface* if there's any *interrupts* coming from other hardware components. An interrupt is a signal that a piece of hardware can send to the CPU, to communicate that something happened or needs to happen. Without interrupts, the CPU would just execute a program top to bottom, without any possibility for external input. Interrupts allow us to have interactive programs, because the control unit will check for these signals at each cycle, check their priority level, and if necessary communicate to the OS that it needs to dispatch a certain function to handle the interrupt. For example, when you press a key `x` on your keyboard, the keyboard will send an interrupt to the CPU; the CPU will finish its current cycle, check the interrupts, and tell the operating system to launch the function that has been registered to handle that key (which in most cases will pass down the signal to the current program, for example a text editor, which will read the `x` and insert it into text).
 
-![](assets/en/11.png)
+![](assets/en/11.webp)
 
 All the different components of a CPU are kept synchronized by a *high frequency clock*. The clock is like a drummer that keeps the rhytm of the execution, with modern CPUs executing billions of cycle per seconds (1 hertz = 1 cycle per second, 1 gigahertz = 1 billion cycles per second). At each tick of the clock, the control unit executes a new cycle, processing data on the datapath.
 
-![](assets/en/12.png)
+![](assets/en/12.webp)
 
 What we have described so far is the model of a single CPU *core*. A modern CPU has multiple cores (usually 4 to 8), which allows them to execute multiple tasks at the same time. Usually there's one core that's designated to boot the computer, and then it can use certain instructions to start up the other ones.
 
-![](assets/en/13.png)
+![](assets/en/13.webp)
 
 This is a very generic idea of how a modern CPU works. Different CPUs will vary a lot in their details, having different *architectures*.
 
@@ -833,7 +833,7 @@ Modern computers have various types of memory they can store data in, the main o
     When you start a program, the OS loads pieces of it from storage into RAM, to make it faster for the CPU to read the instructions it's composed of.
     Solid State Drives (SSDs) are far quicker than Hard Disk Drives (HDDs), but both are orders of magnitude slower than RAM and caches.
 
-![](assets/en/14.png)
+![](assets/en/14.webp)
 
 These are listed in order from the fastest (and more expensive) one, aka CPU registers, to the slowest (and cheapest) one, aka HDDs (which are often absent from modern PCs, who tend to use SSDs for storage). This is called the *memory hierarchy*: ideally you want a program to work as much as possible on the fastest types of memory, and to use the SSD only for storing data long-term (reading and writing files from the SSD is often a cause of lag in unoptimized programs).
 
@@ -843,13 +843,13 @@ CPUs usually define privilege levels to protect the system. For example, in ARM 
 
 Having diferent privilege levels allows the CPU to give a certain program, called **kernel**, control over the others. This is the basis of how modern OSs work.
 
-![](assets/en/15.png)
+![](assets/en/15.webp)
 
 Modern kernels organize memory into fixed-size chunks called **pages** (commonly 4 KB, but other sizes exist), and provides a **page table** to each program.
 
 Programs don't usually operate on raw, physical RAM addresses. Instead, each process runs in its own **virtual address space**, and a hardware unit called the **MMU** (Memory Management Unit) translates **virtual addresses** to **physical addresses** using **page tables** set up by the kernel for that process. 
 
-![](assets/en/16.png)
+![](assets/en/16.webp)
 
 So when a program "accesses" address `00005555556aa3c4`, it’s really asking the MMU to translate that virtual address; the MMU consults the process’s page table and returns the corresponding RAM physical location. 
 
@@ -859,7 +859,7 @@ So, the CPU executes all instructions from all programs; but it executes the one
 
 We've seen how access to the RAM is managed using virtual memory: but how does it work for other pieces of hardware? Well...using virtual memory. Some of the virtual addresses are not mapped to the RAM, but to other components. For example, a certain range of addresses will correspond to the GPU internal memory, and when the kernel must allow a program to communicate with the GPU, it will give access to those addresses; the program will treat these addresses pretty much as regular RAM addresses, but when it writes to them it will instead send instructions to the GPU. This technique is called **memory mapped I/O** (MMIO), and it allows the kernel to manage pretty much all hardware access just by managing which addresses a program can access.
 
-![](assets/en/17.png)
+![](assets/en/17.webp)
 
 ### Swap memory
 
@@ -884,7 +884,7 @@ For example, in videogame graphics, *vertex shaders* are used to render the shap
 
 As you can imagine, in a modern game these shaders are supposed to operate on a lot of vertices and pixels to render scenes, and they need to compute them all at once; simple mathematical operations, but executed in parallel over a lot of data points...that's why the GPU, with his thousands of small cores, comes in handy. 
 
-![](assets/en/18.png)
+![](assets/en/18.webp)
 
 **Shader languages**, like *HLSL* or *GLSL* are special languages used primarily to write shaders. They're usually compiled and then fed to the *driver* of the graphics card. But what is a "driver"? We'll learn about that in the next section.
 
@@ -901,7 +901,7 @@ Most of the applications you use exist in user level, and can only access the ha
 
 Kernel-level software has direct control over the hardware, which makes it more powerful and performant, but also harder and riskier to write. 
 
-![](assets/en/19.png)
+![](assets/en/19.webp)
 
 In this section we're gonna explore how the kernel works and how it interacts with other components. 
 Booting a Linux system is a chain of small programs handing control to the next one, each preparing the machine a bit more until you end up in a full multi-user environment.
@@ -912,12 +912,12 @@ This first program performs a test (a quick hardware check often called *POST*),
 
 From the chosen boot device, the firmware loads a small piece of code into memory and jumps to it. This piece of code is the **bootloader**.
 
-![](assets/en/20.png)
+![](assets/en/20.webp)
 
 On Linux systems, common bootloaders are **GRUB** or **systemd-boot**. The bootloader’s role is to present possible kernels and boot options, load the chosen Linux kernel image into memory, and then transfer control to the kernel. 
 Once the bootloader jumps into it, the Linux kernel takes over. As mentioned before, the kernel is the privileged part of the operating system that talks directly to the hardware. 
 
-![](assets/en/21.png)
+![](assets/en/21.webp)
 
 Once loaded, the kernel:
 * Decompresses itself (most kernels are compressed on disk).
@@ -927,14 +927,14 @@ Once loaded, the kernel:
 At this point everything is still happening entirely in kernel space; there is no user-space process yet. 
 To move beyond this minimal environment, the kernel uses an initial RAM filesystem called **initramfs**.
 
-![](assets/en/22.png)
+![](assets/en/22.webp)
 
 An initramfs (initial RAM filesystem) is a small, compressed archive that the bootloader loaded into memory alongside the kernel. The kernel unpacks this archive into RAM and treats it as a tiny, temporary filesystem. 
 
 
 It usually contains a minimal user space: a few binaries, a basic shell, configuration files and sometimes extra kernel modules. Inside the `initramfs` there is also a small user-space program, usually located at `/init`, which orchestrates these early steps.
 
-![](assets/en/23.png)
+![](assets/en/23.webp)
 
 The job of this initramfs environment is to prepare the real root filesystem that the system will use for normal operation. That preparation can include loading additional drivers, scanning for disks, unlocking encrypted volumes etc.
 
@@ -942,14 +942,14 @@ In other words, the initramfs bridges the gap between the very generic kernel an
 
 The "real" root filesystem is the main on-disk filesystem that Linux will use long-term. It might be an **ext4**, **XFS**, **Btrfs** or another supported filesystem type, living on a physical disk, SSD or even over the network. 
 
-![](assets/en/24.png)
+![](assets/en/24.webp)
 
 
 This filesystem  contains the normal Linux directory hierarchy: binaries, libraries, configuration files, and so on. Crucially, it also contains the system’s main init program, such as `/sbin/init` or `systemd`. After switching the root, the initramfs environment executes this real init program from the new root, and then its work is done.
 
 From this point on, the boot process is handled by the init system. The init system is the first long-lived user-space process and is responsible for starting and supervising all other services. It mounts any remaining filesystems listed in configuration files, brings up networking, starts background services, and eventually spawns one or more login processes so that users can log in. 
 
-![](assets/en/25.png)
+![](assets/en/25.webp)
 
 Once you reach a login prompt or graphical desktop, the chain that started with the firmware has completed: firmware handed control to the bootloader, the bootloader to the kernel, the kernel to the initramfs, the initramfs to the real root filesystem and init, and init to all the user-space processes that make up a running Linux system. 
 
@@ -1014,7 +1014,7 @@ The driver translates generic kernel operations (such as "send this packet" or "
 
 Many drivers in Linux are built as *kernel modules*. A kernel module is a chunk of code that can be loaded into or removed from the running kernel at runtime. Unlike a user-space program, a module does not get its own process or memory space; once loaded it becomes part of the kernel and runs with full kernel privileges.  This modularity allows Linux to support a wide range of hardware without compiling everything directly into a single huge kernel image; it also allows administrators and developers to add, update or experiment with drivers without rebooting.
 
-![](assets/en/26.png)
+![](assets/en/26.webp)
 
 ## File system
 <chapterId>e8adf0e5-7b70-4e9b-8b85-4f01e705c2ca</chapterId>
@@ -1032,19 +1032,19 @@ At the lowest level there is a physical storage device. This can be a spinning h
 
 Internally, the hardware groups data into fixed-size units often called *sectors* (commonly 512 bytes or 4096 bytes), but user space applications normally do not work directly with those details. The device is driven by a microcontroller and a kernel driver that know how to send commands to it and how to handle errors.
 
-![](assets/en/27.png)
+![](assets/en/27.webp)
 
 ### Block devices
 
 The Linux kernel wraps physical storage in a more generic abstraction called a *block device*. A block device is something you can read and write in fixed-size chunks called blocks. The block size is usually equal to, or a multiple of, the sector size that the hardware uses. From the kernel’s point of view, "block device" is a generic interface: the same kernel code can work with many different kinds of disks and SSDs, as long as there is a driver that presents them as block devices. In user space, these devices appear as special entries under `/dev` (for example `/dev/sda` or `/dev/nvme0n1`).
 
-![](assets/en/28.png)
+![](assets/en/28.webp)
 
 ### Partitions
 
 A single block device is often divided into multiple regions called *partitions*. A partition is just a contiguous range of blocks on a block device that has been marked for separate use. Information about how the disk is divided is stored in a partition table near the beginning of the disk. The partition table is a small data structure that lists where each partition starts, how large it is, and what type it is meant to hold. Common partition table formats are used in practice, but the important idea here is that each partition is treated by the kernel as if it were its own block device. For example, `/dev/sda1` and `/dev/sda2` are separate partitions on the same underlying disk `/dev/sda`. This allows different operating systems (or different parts of the same system) to live on different regions of the same physical device.
 
-![](assets/en/29.png)
+![](assets/en/29.webp)
 
 ### Logical volumes
 
@@ -1052,7 +1052,7 @@ Plain partitions are fixed slices of a disk: once you choose their sizes and pos
 
 Above plain partitions you can add another layer: *logical volume management*. Instead of putting file systems directly on partitions, you can group one or more physical devices into a pool and carve out logical volumes from that pool. A logical volume is a virtual block device created by a volume manager. The kernel and user-space see it as just another block device, but internally the volume manager can map it to multiple disks, move it around, resize it or keep snapshots. 
 
-![](assets/en/30.png)
+![](assets/en/30.webp)
 
 With logical volumes, the file system sits on top of a virtual block device that can grow, shrink, be moved to different physical disks or even be spread across several disks, while the file system itself and the applications using it do not need to know how the underlying storage changed.
 
@@ -1066,7 +1066,7 @@ Each file system type (for example ext4, XFS or Btrfs) defines its own *on-disk 
 
 In this way, the lower layers (physical storage, block devices, partitions and logical volumes) are responsible for providing a reliable range of blocks, and the file system driver is responsible for deciding how those blocks are used. The rest of the kernel does not need to know how the blocks are arranged internally; it just calls into the file system driver, which hides the details of the on-disk format and presents a consistent view of stored data as directories and files.
 
-![](assets/en/31.png)
+![](assets/en/31.webp)
 
 ## System libraries
 <chapterId>eca6b939-e2fb-4202-9b5d-868bae4ab485</chapterId>
@@ -1077,7 +1077,7 @@ A library is just reusable code that many programs can use. Modern programming l
 
 With a static library, the code a program needs from that library is bundled into the final executable. The build toolchain takes your program’s compiled code and the compiled code from the libraries it uses, and produces a single self-contained executable. 
 
-![](assets/en/32.png)
+![](assets/en/32.webp)
 
 If everything needed by the program is statically linked, at run time the kernel only has to load that one file, because all the needed code is already inside the executable image.
 
@@ -1093,13 +1093,13 @@ On Linux, that standard format for programs and libraries is called *ELF*, which
 
 An ELF file contains headers that describe its type and contents. These headers say whether the file is an executable or a library. They describe which parts of the file should be loaded into memory when the program starts, and where the entry point is. For dynamically linked executables, the ELF metadata also records which shared libraries are required, so that the linker can fetch them.
 
-![](assets/en/33.png)
+![](assets/en/33.webp)
 
 ### glibc
 
 Almost all user-space programs on a Linux system depend on its standard C library, commonly referred to as *glibc* (GNU C library). Glibc provides basic building blocks such as input and output functions, memory allocation and string handling. It also provides the thin user-space wrappers around system calls (which are usually written in assembly), so that calling a kernel service from C code looks like a normal C function call.
 
-![](assets/en/34.png)
+![](assets/en/34.webp)
 
 Glibc itself is stored as an ELF shared library file. That means it is handled like any other shared library: the dynamic linker loads glibc into memory when the program starts. Because almost all programs rely on glibc, it is usually one of the first shared libraries that gets loaded.
 
@@ -1121,11 +1121,11 @@ The startup sequence of a program therefore involves several steps.
 
 A *process* is a running instance of a program. If you run the same program twice, you usually get two separate processes: they may start from the same executable file, but they don't share the same state. 
 
-![](assets/en/35.png)
+![](assets/en/35.webp)
 
 A process has an identity called a PID (process ID). A PID is just a number the kernel assigns so the process can be referred to precisely (by other programs and by the kernel itself).
 
-![](assets/en/36.png)
+![](assets/en/36.webp)
 
 ### Parents and children
 
@@ -1142,14 +1142,14 @@ At the top of the tree there is a special process: *PID 1*. PID 1 is the first l
 
 It is the root of the process tree, and it is always present as the "default parent" when needed.
 
-![](assets/en/37.png)
+![](assets/en/37.webp)
 
 
 If a parent process exits while some of its children are still running, those children do not automatically stop. They keep running, but they become orphans (they no longer have their original parent). 
 
 The kernel then "re-parents" them: it assigns them a new parent so the tree stays connected. The usual new parent is PID 1.
 
-![](assets/en/38.png)
+![](assets/en/38.webp)
 
 When a process exits, it produces an exit status (a small number that tells how it ended, for example success vs an error code). The kernel keeps that status so the parent can retrieve it.
 
@@ -1194,7 +1194,7 @@ The scheduler mainly chooses between runnable processes. Waiting processes are n
 
 A running program needs memory for different kinds of things: the instructions it will execute, the long-lived variables it keeps around, temporary values while it computes, and so on. Operating systems usually organize a process's memory into multiple regions, where each region has a different purpose and different access permissions (for example: readable, writable, executable). 
 
-![](assets/en/39.png)
+![](assets/en/39.webp)
 
 ### Text / code 
 
@@ -1318,7 +1318,7 @@ On early Unix machines, the operating system was designed for multiple people sh
 
 When you log in to a Unix system, the kernel creates a login **session** for you. A session is a group of processes that share some common context: a controlling terminal, a user identity and an environment. The program that handles the login verifies your password, then starts a shell or a desktop as your first process in that session. From there, every command you run becomes a child process of that shell. If you close the terminal or log out, the session ends; your terminal or graphical seat is freed for the next login.
 
-![](assets/en/40.png)
+![](assets/en/40.webp)
 
 The "who are you?" part is represented by **user** accounts. Each user has a username (such as "alice" or "root"), but internally the kernel uses a numeric user id, often abbreviated as *UID*. Every process has a UID attached to it, and the kernel uses that UID to decide what they can access. The *superuser* account, traditionally called `root`, has a special UID (usually 0) that bypasses most checks; this is why running programs as root is powerful but dangerous.
 
@@ -1379,13 +1379,13 @@ Descriptor 2 is *standard error*, used for error messages and diagnostics.
 
 When a process opens a file or a socket, the kernel picks the lowest unused descriptor number (3, 4, 5, 6 and so on) and associates it with that resource. From then on, the process does not have to repeat the path or the socket details; it just says "read from descriptor 3" or "write to descriptor 5", and the kernel looks up the real thing. The "file" in "file descriptor" matches the broad Unix sense: the underlying object can be a regular file, a terminal, a pipe, a socket or a device.
 
-![](assets/en/41.png)
+![](assets/en/41.webp)
 
 When you run a program from a shell, the shell passes its own descriptors into the child so that the program reads from your terminal and writes back to it. Shell redirection (`>`, `<`, `2>`, and so on) works by rearranging these numbers before the new program starts. 
 
 For example, if you redirect output to a file, the shell opens the file first, gets a descriptor for it and then asks the kernel to make that descriptor become the child’s descriptor 1. The child itself just writes to descriptor 1 as usual; it does not need to know whether that goes to a terminal, a file or something else.
 
-![](assets/en/42.png)
+![](assets/en/42.webp)
 
 ### Spawning new processes
 
@@ -1397,7 +1397,7 @@ Exec, short for "execute", replaces the current process image with a new program
 
 The usual pattern in shells and many other programs is "fork, adjust some details in the child, then use exec to swap the child with a new program".
 
-![](assets/en/43.png)
+![](assets/en/43.webp)
 
 Historically, this two-step model comes from early Unix systems running on limited hardware. The kernel designers wanted a small, uniform set of system calls, and the ability to build more complex behaviour by combining them. At that time, processes were small, and copying them at fork time was not as expensive as it would be now. Fork also gave a convenient way to start child processes that inherit most of the parent’s state, which was useful for shells and servers that wanted to adjust just a few details before running a different program. Over time, copy-on-write techniques reduced the cost of making the copy, but the basic fork/exec interface stayed, largely because a lot of existing code relied on it.
 
@@ -1407,7 +1407,7 @@ There are performance issues as well. Even with copy-on-write, creating a child 
 
 Because of these pitfalls, the POSIX standard later introduced `posix_spawn` as a higher-level way to start a new program. Instead of explicitly forking and then calling exec in the child, a program calls posix_spawn with a description of what it wants: which program to run, which arguments and environment to use, which file descriptors to pass through or close, and optionally which directory or credentials to adopt. The implementation can then create the child process in a more direct and controlled way, often without doing a full copy of the parent at all. This can be faster, avoids many of the accidental inheritance problems, and gives a clearer description of the new process’s initial state. From the outside, the result is the same as with fork and exec: a new child process appears, with its own process id, running the requested program.
 
-![](assets/en/44.png)
+![](assets/en/44.webp)
 
 ### Daemons and init systems
 
@@ -1466,7 +1466,7 @@ Most of what people think of as "using Unix" happens in user space: you log in, 
 
 You’ll often see the word `tty`. It comes from **teletypewriter**. Early terminals were literally typewriter-like machines that printed output on paper. Later they became video terminals, but Unix kept the name.
 
-![](assets/en/45.jpg)
+![](assets/en/45.webp)
 
 One of the big ideas in Unix userland is *composability*: instead of a few huge programs that do everything, you have many small tools that each do one job, and you connect them. This works because tools tend to follow a simple contract: read bytes from standard input, write bytes to standard output, and write errors to standard error. If programs behave like that, you can chain them together without the programs needing to know about each other. And since in Unix (almost) "everything is a file", almost all data can be treated as a stream of text, flowing from one program to another, and being modified in the process. Text is the *universal interface* that Unix programs can use to interoperate with each other.
 

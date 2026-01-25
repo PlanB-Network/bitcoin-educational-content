@@ -713,7 +713,7 @@ The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 
 最初のユーザーは翌月の初めに登録を始めます。12月9日、サトシ以外の誰かによって投稿された[最初のメッセージ](https://bitcointalk.org/index.php?topic=12.msg40#msg40)が現れ、これが実際に議論を開始します。例として、2010年5月29日のフォーラムの[スクリーンショット](https://web.archive.org/web/20100529193636/http://www.bitcoin.org/smf/)をこちらに示します：
 
-![2010年5月29日のBitcoinフォーラムのスクリーンショット](assets/ja/029.webp)
+![2010年5月29日のビットコイン・フォーラムのスクリーンショット](assets/ja/029.webp)
 
 新しいフォーラムのローンチは、ソフトウェアの[バージョン0.2](https://bitcointalk.org/index.php?topic=16.msg73#msg73)をリリースする機会でした。これはサトシ・ナカモトとマルティ・マルミが数ヶ月間取り組んでいたもので、12月16日に行われました。このバージョンには、タスクバーへの最小化、起動時の自動起動、マイニング生産のためのマルチスレッディングなどの改善が含まれています。ソフトウェアは、マルミの貢献と新たに到着したNewLibertyStandardによるテストのおかげでLinuxにも適応されました（そのケースは次の章で取り上げられます）。
 
@@ -772,9 +772,9 @@ The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 
 2009年9月の終わりに、NewLibertyStandard（以下、NLSと略します）という偽名を使用する個人がビットコインを発見しました。彼はソフトウェアを試し、マイニングを開始します。彼が生成した最初のブロックは[ブロック23,940](https://mempool.space/block/000000002f74e369b0cab9c836d7777aabb66ae11741910c61da819f17605a50)です。彼はLinuxユーザーであり、そのためにソフトウェアを実行するために「エミュレーター」Wineを使用します。彼は政治的自由と貴金属に興味を持っており、フォーラム上の彼の[アバター](https://bitcointalk.org/index.php?action=profile;u=26)が示すように、「liberty」と刻まれたアメリカンイーグルを描いています。したがって、彼はビットコインをデジタル世界の金と同等のものと見なしており、彼の[個人ページ](https://web.archive.org/web/20091229132559/http://newlibertystandard.wetpaint.com/)で、サトシ・ナカモトの創造を「経済革命」として、また「デジタル通貨のゴールドスタンダード」として紹介しています。
 
-![Bitcoinフォーラム上のNewLibertyStandardのアバターで、アメリカンイーグルが描かれている](assets/ja/030.webp)
+![ビットコイン・フォーラム上のNewLibertyStandardのアバターで、アメリカンイーグルが描かれている](assets/ja/030.webp)
 
-2009年10月、最初の通貨交換サービスが設立され、人々はドルをビットコインに、そしてビットコインをドルに交換することができるようになりました。その創設者はSourceForgeに特化したビットコインフォーラムに登録し、そこで彼のサービスの開始を発表しました。交換レートを見積もるために、彼は単位を得るために必要なエネルギーコストに基づいてそれを計算し、彼の場所での電気の価格と彼の個人的な生産の頻度を考慮しました。彼のページで、彼はこのように[書いています](https://web.archive.org/web/20091229132610/http://newlibertystandard.wetpaint.com/page/Exchange+Rate):
+2009年10月、最初の通貨交換サービスが設立され、人々はドルをビットコインに、そしてビットコインをドルに交換することができるようになりました。その創設者はSourceForgeに特化したビットコイン・フォーラムに登録し、そこで彼のサービスの開始を発表しました。交換レートを見積もるために、彼は単位を得るために必要なエネルギーコストに基づいてそれを計算し、彼の場所での電気の価格と彼の個人的な生産の頻度を考慮しました。彼のページで、彼はこのように[書いています](https://web.archive.org/web/20091229132610/http://newlibertystandard.wetpaint.com/page/Exchange+Rate):
 
 > 「私たちの交換レートは、1.00ドルを1年間に高CPU使用率でコンピュータを動かすのに必要な平均電力量、1331.5kWhで割り、それを前年のアメリカの平均住宅用電気のコスト、0.1136ドルで乗じ、全てを12ヶ月で割り、過去30日間に私のコンピュータが生成したビットコインの数で割ったものです。」
 
@@ -1155,19 +1155,19 @@ ArtForzの2010年8月から10月にかけてのマイニング生産量 (出典:
 
 マイニングの専門化によるハッシュレートの大幅な増加は、中央プロセッサを使ってビットコインを生成することを困難にし、ますます手が届かなくなった。実際、ビットコインを生成する可能性は変動性により依存するようになり、一部の個人はブロックを生成することができない状況が続いた。この問題の解決策は、協力的なマイニングである。
 
-10月1日、Momchilは、クライアントノードが `getwork` と呼ばれる新しい機能を介して候補ブロックを取得し、解決策が見つかった場合にプルーフ・オブ・ワークを返すことを可能にするAPIの変更を[公開しました](https://bitcointalk.org/index.php?topic=1333.msg14840#msg14840)。彼は、この修正が「外部のビットコインマイナーへの道を開く」とともに、「1つのクライアントに対して複数のマイナーの取り付けを可能にする」と書いています。
-
+10月1日、Momchilは、クライアントノードが `getwork` と呼ばれる新しい機能を介して候補ブロックを取得し、解決策が見つかった場合にプルーフ・オブ・ワーク（PoW）を返すことを可能にするAPIの変更を[公開しました](https://bitcointalk.org/index.php?topic=1333.msg14840#msg14840)。彼は、この修正が「外部のビットコインマイナーへの道を開く」とともに、「1つのクライアントに対して複数のマイナーの取り付けを可能にする」と書いています。
 
 同じ日に、「プールマイニング」というアイデアがフォーラムのメンバーによって初めて[言及](https://bitcointalk.org/index.php?topic=1332.msg14838#msg14838)されました。このアイデアは「GPUオリガークを打倒する方法」というスレッドで提案されました。10月13日には、puddinpopがこのタイプのモデルを[提案](https://bitcointalk.org/index.php?topic=1458.msg16906#msg16906)しました。マイナーの計算能力はメタハッシュを使用して測定され、これは各ブロックハッシュの最初のバイトを含むバッファの印影です。サーバーは定期的にクライアントが定義された計算を実行しているかを検証できます。このモデルは複雑で[エラーを許容しません](https://bitcointalk.org/index.php?topic=1458.msg17015#msg17015)。
 
-しかし、クライアントのハッシュレートを測定するはるかに簡単な方法があります：部分的な証明作業。この方法は、puddinpopの説明に続いて、ribuck、Nils Schneider、そしてGavin Andresenによって[提案](https://bitcointalk.org/index.php?topic=1458.msg16951#msg16951)されました。これは、同じ候補ブロックから生成されたネットワークの難易度よりも低い程度の部分的な証明作業を取得することを含みます。収集された部分的な証明は、消費されたパワーの確率的推定を可能にします。
+しかし、クライアントのハッシュレートを測定するはるかに簡単な方法があります：部分的なプルーフ・オブ・ワーク（PoW）。この方法は、puddinpopの説明に続いて、ribuck、Nils Schneider、そしてギャヴィン・アンドレセンによって[提案](https://bitcointalk.org/index.php?topic=1458.msg16951#msg16951)されました。これは、同じ候補ブロックから生成されたネットワークの難易度よりも低い程度の部分的なプルーフ・オブ・ワーク（PoW）を取得することを含みます。収集された部分的なプルーフは、消費されたパワーの確率的推定を可能にします。
 
 11月23日、`getwork`関数の変更版が[コード](https://bitcointalk.org/index.php?topic=1901.msg23876#msg23876)に追加され、25日にはメインソフトウェアの新バージョン([v0.3.17](https://bitcointalk.org/index.php?topic=1946.msg24460#msg24460))に含まれました。同じ日、Jeff Garzik（ソフトウェア内でのチェーン管理とマイニングの分離のアイデアを[提唱](https://bitcointalk.org/index.php?topic=1688.msg20532#msg20532)した人物）は、この機能を活用するCPUマイニングソフトウェアを[共有](https://bitcointalk.org/index.php?topic=1925.msg24217#msg24217)しました。
 
-11月27日、チェコの若い開発者であるMarek Palatinus（別名slush）は、`getwork`とJeff Garzikのロジックを利用する「協力マイニング」のモデルについての説明をフォーラムに[公開](https://web.archive.org/web/20101206144824/http://www.bitcoin.org/smf/index.php?topic=1976.0)しました。このモデルは、マイナーによって生成された部分的な証明作業（ペイ・パー・シェア）に基づいています。翌日、サトシ・ナカモトはこのコンセプトを[承認](https://bitcointalk.org/index.php?topic=1976.msg25119#msg25119)しました。
+11月27日、チェコの若い開発者であるMarek Palatinus（別名slush）は、`getwork`とJeff Garzikのロジックを利用する「協力マイニング」のモデルについての説明をフォーラムに[公開](https://web.archive.org/web/20101206144824/http://www.bitcoin.org/smf/index.php?topic=1976.0)しました。このモデルは、マイナーによって生成された部分的なプルーフ・オブ・ワーク（PoW）（ペイ・パー・シェア）に基づいています。翌日、サトシ・ナカモトはこのコンセプトを[承認](https://bitcointalk.org/index.php?topic=1976.msg25119#msg25119)しました。
 
 ![Marek Palatinus (slush) at the Z-DAY conference in Prague on May 11, 2013](assets/ja/050.webp)
 Marek Palatinus（slush）は、2013年5月11日にプラハで開催されたZ-DAYカンファレンスに参加しました。
+
 2つの推定モデルは12月に実装されました。まず、puddinpopの概念は、12月1日にユーザー doublec によって適用され、彼は人々に自分のグループ化されたマイニングサーバーに[接続するよう招待しました](https://bitcointalk.org/index.php?topic=2027.msg25859#msg25859)。こうして形成されたグループは、12月4日に最初のブロック（95,420）を[生成します](https://bitcointalk.org/index.php?topic=2027.msg26688#msg26688)。数日後に追加のブロックを生成した後、doublec のサーバーは15日に[停止されます](https://bluishcoder.co.nz/bitcoin-pool/)。このサービスは、はるかに効率的な協同組合である BitcoinCZ Mining の出現により、17日に永久に閉鎖されます。
 
 フォーラムを調査した後、Marek Palatinus は彼のマイニング協同組合モデルを実装することを決定し、特にテストネットワークでテストを実施します。彼はまた、サーバーが CPU マイナー（Jeff Garzikのソフトウェアを使用する）と GPU マイナー（Momchilと puddinpopのクライアントを使用する）の両方からアクセスできるようにします。
@@ -1180,6 +1180,7 @@ Marek Palatinus（slush）は、2013年5月11日にプラハで開催されたZ-
 Slushの協同組合のロゴ、2011年9月（ソース：[アーカイブ](https://web.archive.org/web/20110923151034/http://mining.bitcoin.cz:80/)）
 
 ### マイニングの大躍進
+
 したがって、2010年の後半はマイニングにとって顕著な成長期を表していました。GPU（Graphics Processing Unit）世代の採用により専門化しました。ArtForzと彼の「ArtFarm」のように、いくつかの個人は実際のマイニングファームを集中して構築しました。このブームは最終的に、小規模マイナーが報酬の変動を減らすために計算能力をプールできる協同組合の出現につながりました。
 
 しかし、秋はマイニングだけでなく、コミュニティや関連する経済エコシステムにとっても成功でした。これについては次の章で議論します。
@@ -1190,9 +1191,10 @@ Slushの協同組合のロゴ、2011年9月（ソース：[アーカイブ](http
 :::video id=2327cb5b-36a1-49f4-a9de-09b70d76b8c1:::
 
 前章では、2010年後半にマイニングがどのように発展したかを探求しました。秋になると、この進歩は確立されました。しかし、マイニングだけがビットコインの成功を見つけた側面ではありませんでした：そのエコシステムも成功を収めました。
+
 ここでは、まずビットコインの国際輸出の始まりと、ロシアとフランスのコミュニティの発展について取り上げます。次に、コミュニケーションの改善と経済成長について議論し、これがビットコインの単位価格の新たな上昇につながったことを特に指摘します。最後に、サトシの退場に先立つ2つの非常に象徴的な出来事、電子フロンティア財団によるビットコインの受け入れと、ハル・フィニーの復帰について言及します。
 
-### 他の言語でのビットコイン
+### 他言語でのビットコイン
 
 ビットコインは国際的なプロジェクトであり、そのため、英語圏外のできるだけ多くの人々にアクセス可能でなければなりません。これが、2010年5月からコミュニティがウェブサイトとソフトウェアのグラフィカルインターフェースをいくつかの言語に翻訳することを[調整](https://bitcointalk.org/index.php?topic=151.msg1259#msg1259)し始めた理由です。特にイタリア語、ドイツ語、オランダ語が含まれました。
 
@@ -1200,34 +1202,38 @@ Slushの協同組合のロゴ、2011年9月（ソース：[アーカイブ](http
 
 フランスのコミュニティとの関わりで事態は変わりました。特に、ある個人、ルシアン・グロンダン（別名grondilu）の行動を通じてです。彼は9月26日にビットコインを発見し、すぐにプロジェクトに熱狂しました。夜遅く、彼は[IRCで](https://web.archive.org/web/20131201235643/http://www.bitcoinstats.com/irc/bitcoin-dev/logs/2010/09/26#l1285544830)次のように書きました：
 
-> "\[G\]osh I can't sleep ! I keep thinking about this great stuff. To me bitcoin is the "cyperspace gold" \[sic\]. I'm just amazed."
+> 「[G]osh I can't sleep ! I keep thinking about this great stuff. To me bitcoin is the "cyperspace gold" [sic]. I'm just amazed.」
 
-数日後の30日に、彼はLinuxFr.org（DLFP）にフランス語で[ニュースリリース](https://linuxfr.org/news/connaissez-vous-les-bitcoins)を公開しました。このリリースは「ビットコインを知っていますか？」と題され、モリエールの言語で書かれたビットコインの最初の紹介と思われます。この記事は多くの人々に届き、約350件のコメントが生成されました。以下は、当時の様子を[示した](https://web.archive.org/web/20101003105210/http://linuxfr.org/2010/09/30/27430.html)最初の段落です：
+数日後の30日に、彼はLinuxFr.org（DLFP）にフランス語で[ニュースリリース](https://linuxfr.org/news/connaissez-vous-les-bitcoins)を公開しました。このリリースは「ビットコインを知っていますか？」と題され、モリエールの言語（フランス語）で書かれたビットコインの最初の紹介と思われます。この記事は多くの人々に届き、約350件のコメントが生成されました。以下は、当時の様子を[示した](https://web.archive.org/web/20101003105210/http://linuxfr.org/2010/09/30/27430.html)最初の段落です：
 
 ![ビットコインを知っていますか？](assets/ja/052.webp)
-> **記事: ビットコインをご存知ですか？** ビットコインは、2009年にサトシ・ナカモトという人物によって設計された電子通貨です。この通貨は、完全に分散型のピアツーピアの性質と、基本的な暗号技術の巧みな利用によって、他の電子通貨と区別されます。C++で書かれたソフトウェアに基づいており、MITの自由ライセンスの下で公開されています。
+> **記事: ビットコインをご存知ですか？** ビットコインは、2009年にサトシ・ナカモトという人物によって設計された電子通貨です。この通貨は、完全に分散型のピアツーピア（P2P）の性質と、基本的な暗号技術の巧みな利用によって、他の電子通貨と区別されます。C++で書かれたソフトウェアに基づいており、MITの自由ライセンスの下で公開されています。
 
 特に、この報告書は、あるPloum（本名：Lionel Dricot、29歳のベルギー人ブロガーであり、フリーソフトウェアの提唱者）の注目を引く効果があります。10月25日には、彼は自身のブログで「Geek Currency, Monkey Money?」と題した記事を[公開](https://ploum.net/monnaie-de-geek-monnaie-de-singe/)し、そこで分散化を支持し、ビットコインの原則を支持しています。多くのフランス語圏のインターネットユーザーがこの手段を通じてビットコインについて知りました。これには、2017年にビットコインキャッシュを作成することになる開発者[Amaury Séchet](https://www.reddit.com/r/Bitcoincash/comments/6y7ssg/ama_i_am_amaury_s%C3%A9chet_udeadalnix_bitcoin_abc/dml9h55/)も含まれます。
+
 ![Lionel Dricot (Ploum) 2012年、ベルギーの地方および州選挙で海賊党の候補者だった時の写真](assets/ja/053.webp)
 Lionel Dricot (Ploum) 2012年、ベルギーの地方および州選挙で海賊党の候補者だった時の写真（出典：[Framablog](https://framablog.org/2012/10/10/lionel-dricot-ploum-parti-pirate-belgique/)）
 
-同じ日に、Ploumはビットコインフォーラム上で「French」という[ディスカッションスレッド](https://bitcointalk.org/index.php?topic=1567.0)を開始しました。フランス語圏のフォーラムメンバーからのメッセージは、続く数ヶ月にわたって増加しました。特に、10月17日に登録したDavid François（[davout](https://bitcointalk.org/index.php?topic=1567.msg21218#msg21218)）、将来のBitcoin-Centralの創設者、および11月7日に登録したMark Karpelès（[MagicalTux](https://bitcointalk.org/index.php?topic=1567.msg29336#msg29336)）、将来のMt. Goxプラットフォームのオーナーが参加しました。また、12月23日にサイト[Bitcoin.fr](https://web.archive.org/web/20110107145746/http://www.bitcoin.fr:80/)を開設し、1月にそれを[宣伝](https://bitcointalk.org/index.php?topic=1567.msg37524#msg37524)し始めるJean-Lucという人物の関与も見られました。[フランス語サブフォーラム](https://web.archive.org/web/20110217005824/http://www.bitcoin.org/smf/index.php?board=13.0)は、最終的に2011年2月1日にMartti Malmiによって作成されました。
+同じ日に、Ploumはビットコイン・フォーラム上で「French」という[ディスカッションスレッド](https://bitcointalk.org/index.php?topic=1567.0)を開始しました。フランス語圏のフォーラムメンバーからのメッセージは、続く数ヶ月にわたって増加しました。特に、10月17日に登録したDavid François（[davout](https://bitcointalk.org/index.php?topic=1567.msg21218#msg21218)）、将来のBitcoin-Centralの創設者、および11月7日に登録したMark Karpelès（[MagicalTux](https://bitcointalk.org/index.php?topic=1567.msg29336#msg29336)）、将来のMt. Goxプラットフォームのオーナーが参加しました。また、12月23日にサイト[Bitcoin.fr](https://web.archive.org/web/20110107145746/http://www.bitcoin.fr:80/)を開設し、1月にそれを[宣伝](https://bitcointalk.org/index.php?topic=1567.msg37524#msg37524)し始めるJean-Lucという人物の関与も見られました。[フランス語サブフォーラム](https://web.archive.org/web/20110217005824/http://www.bitcoin.org/smf/index.php?board=13.0)は、最終的に2011年2月1日にマルティ・マルミによって作成されました。
 
 ### コミュニケーションの発展
-言語コミュニティの発展に加えて、Bitcoinに関するコミュニケーション方法においても、ある種の革新が見られます。10月4日、38歳のオーストラリア人がnoagendamarketという偽名を使用して、BitcoinMediaというイニシアチブを[開始](https://bitcointalk.org/index.php?topic=1355.msg15217#msg15217)しました。このアイデアは、様々なコンテンツを作成し、観客を引き付けそうな場所でそれらを宣伝することによってBitcoinを促進することです。このイニシアチブは期待された成功を収めませんでしたが、Bitcoinについて話す最初のビデオの制作につながるという功績があります。チャンネルの最初のビデオは、10月5日に[公開](https://bitcointalk.org/index.php?topic=1355.msg15461#msg15461)され、Youtubeツールを使用して作成されたGoogle Search Storyです（下のスクリーンショットを参照）。他のビデオは、事前に設計されたキャラクターと設定のセットからビデオシーケンスを作成するための簡単なツールであるXtranormalで生成されます。
+
+言語コミュニティの発展に加えて、ビットコインに関するコミュニケーション方法においても、ある種の革新が見られます。10月4日、38歳のオーストラリア人がnoagendamarketという偽名を使用して、BitcoinMediaというイニシアチブを[開始](https://bitcointalk.org/index.php?topic=1355.msg15217#msg15217)しました。このアイデアは、様々なコンテンツを作成し、観客を引き付けそうな場所でそれらを宣伝することによってビットコインを促進することです。このイニシアチブは期待されたほどの成功を収めませんでしたが、ビットコインについて話す最初のビデオの制作につながるという功績があります。チャンネルの最初のビデオは、10月5日に[公開](https://bitcointalk.org/index.php?topic=1355.msg15461#msg15461)され、Youtubeツールを使用して作成されたGoogle Search Storyです（下のスクリーンショットを参照）。他のビデオは、事前に設計されたキャラクターと設定のセットからビデオシーケンスを作成するための簡単なツールであるXtranormalで生成されます。
+
 ![Bitcoinについての最初のビデオ (Google Search Story)](assets/ja/054.webp)
 
-この期間中、Bitcoinについてのブログ投稿が増加しています。特に、Jon Matonisが運営するブログ*The Monetary Future*では、デジタル通貨、自由銀行業、暗号技術に関連するトピックについて議論しています。彼は3月にBitcoinを発見し、Satoshiと[交換](https://web.archive.org/web/20140511100607/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-satoshi/#entry514)した後、その主題について書き始めました。10月には、価格の上昇とエコシステムの新機能について話す[第三の記事](https://themonetaryfuture.blogspot.com/2010/10/rally-in-bitcoin.html)を公開しています。
+この期間中、ビットコインについてのブログ投稿が増加しています。特に、Jon Matonisが運営するブログ*The Monetary Future*では、デジタル通貨、自由銀行業、暗号技術に関連するトピックについて議論しています。彼は3月にビットコインを発見し、サトシと[交換](https://web.archive.org/web/20140511100607/https://bitcoinfoundation.org/forum/index.php?/topic/54-my-first-message-to-satoshi/#entry514)した後、その主題について書き始めました。10月には、価格の上昇とエコシステムの新機能について話す[第三の記事](https://themonetaryfuture.blogspot.com/2010/10/rally-in-bitcoin.html)を公開しています。
 
 ![2011年のJon Matonisのプロフィール写真](assets/ja/055.webp)
 2011年のJon Matonisのプロフィール写真 (出典: [Forbes](https://www.forbes.com/sites/jonmatonis/))
 
-また、この時期には新しいBitcoinロゴが提案されました。11月1日、bitboyという偽名を使用するフォーラムメンバーが、暗号資産を強調するグラフィック要素を[公開](https://bitcointalk.org/index.php?topic=1631.0)しました。これらの要素の一つは、Bが取り消し線で斜めになっているオレンジ色のロゴです：
+また、この時期には新しいビットコイン・ロゴが提案されました。11月1日、bitboyという偽名を使用するフォーラムメンバーが、暗号資産を強調するグラフィック要素を[公開](https://bitcointalk.org/index.php?topic=1631.0)しました。これらの要素の一つは、Bが取り消し線で斜めになっているオレンジ色のロゴです：
 
 ![bitboyによってデザインされたBitcoinロゴ、2010年11月](assets/ja/056.webp)
 
 ### 成長する経済
-この時期は、経済レベルでのエコシステムの顕著な成長が特徴です。2010年の秋には、Mt. Gox、Bitcoin Market、その他いくつかのプラットフォームが存在しますが、それだけでは不十分です。これが、店頭取引所が増え始める理由です。フォーラム上のプライベートメッセージを通じて行われる取引の他に、もう少し厳格なシステムが設置されます：#bitcoin-otc。これは、2010年10月18日にnanotubeという名前のユーザーによって開設されたFreenode上のIRCチャンネルです。注文簿は[関連ウェブサイト](https://web.archive.org/web/20101027090714/http://bitcoin-otc.com/vieworderbook.php)にホストされ、取引は当事者間で直接行われ、エスクロー預託なしで、様々な支払い方法（PayPal、Liberty Reserve）を通じて行われます。ビットコインを受け入れるサービスの数も増加しますが、公式サイトのリスティングページによって証明されるように、相対的に低いままです。これらの要素すべてが価格を劇的に上昇させます。8月以降は6セント前後で安定していましたが、10月の初めに上昇し始めます。10セントに達し、月末には20セントに達します。11月6日には、50セントを超えることさえあり、これはフォーラムのメンバーを[興奮させます](https://bitcointalk.org/index.php?topic=1681.0)。
+
+この時期は、経済レベルでのエコシステムの顕著な成長が特徴です。2010年の秋には、Mt. Gox、Bitcoin Market、その他いくつかのプラットフォームが存在しますが、それだけでは不十分です。これが、店頭取引所が増え始める理由です。フォーラム上のプライベートメッセージを通じて行われる取引の他に、もう少し厳格なシステムが設置されます：#bitcoin-otc。これは、2010年10月18日にnanotubeという名前のユーザーによって開設されたFreenode上のIRCチャンネルです。注文簿は[関連ウェブサイト](https://web.archive.org/web/20101027090714/http://bitcoin-otc.com/vieworderbook.php)にホストされ、取引は当事者間で直接行われ、エスクロー信託（Escrow）なしで、様々な支払い方法（PayPal、Liberty Reserve）を通じて行われます。ビットコインを受け入れるサービスの数も増加しますが、公式サイトのリスティングページによって証明されるように、相対的に低いままです。これらの要素すべてが価格を劇的に上昇させます。8月以降は6セント前後で安定していましたが、10月の初めに上昇し始めます。10セントに達し、月末には20セントに達します。11月6日には、50セントを超えることさえあり、これはフォーラムのメンバーを[興奮させます](https://bitcointalk.org/index.php?topic=1681.0)。
 
 ![Mt. Goxにおける2010年7月18日から10月18日までのBTC価格](assets/ja/057.webp)
 Mt. Goxにおける2010年7月18日から10月18日までのBTC価格（出典: [*The Monetary Future*](https://themonetaryfuture.blogspot.com/2010/10/rally-in-bitcoin.html)）
@@ -1240,41 +1246,46 @@ Mt. Goxにおける2010年7月18日から10月18日までのBTC価格（出典: 
 - Bitcoin Network Graphs ([bitcoin.sipa.be](https://web.archive.org/web/20110310155417/http://bitcoin.sipa.be/))、2011年1月28日にPieter Wuille (sipa)によって[立ち上げられた](https://bitcointalk.org/index.php?topic=3024.msg42173#msg42173)、Bitcoinのハッシュレートの進化を示すグラフを表示するサイト。
 - Bitcoin Monitor ([bitcoinmonitor.com](https://web.archive.org/web/20110605105433/http://www.bitcoinmonitor.com/))、トランザクション、ブロック、および交換操作のリアルタイム可視化ツールで、2011年2月6日にJan Vornberger (jav)によって[オンラインに公開された](https://bitcointalk.org/index.php?topic=3218.msg45150#msg45150)。
 
-Bitcoinの成功を示す最後の要素は、その限界を試すことを求めた人々がいたという事実です。11月15日から26日の間に、ある個人が毎日数千ものトランザクションの洪水を作り出して楽しんでいました。この例外的な活動は、19日にJeff Garzikによって[報告されました](https://bitcointalk.org/index.php?topic=1850.msg22870#msg22870)。これにより、Satoshiはトランザクション手数料インターフェースを[復活させ](https://bitcointalk.org/index.php?topic=1946.msg24460#msg24460)、無料トランザクションに制限を加える措置を講じることを余儀なくされました。
+ビットコインの成功を示す最後の要素は、その限界を試すことを求めた人々がいたという事実です。11月15日から26日の間に、ある個人が毎日数千ものトランザクションの洪水を作り出して楽しんでいました。この例外的な活動は、19日にJeff Garzikによって[報告されました](https://bitcointalk.org/index.php?topic=1850.msg22870#msg22870)。これにより、サトシはトランザクション手数料インターフェースを[復活させ](https://bitcointalk.org/index.php?topic=1946.msg24460#msg24460)、無料トランザクションに制限を加える措置を講じることを余儀なくされました。
 
 ### 電子フロンティア財団がビットコインを受け入れる
 
-2010年末の重要な出来事は、Mitch Kapor、John Gilmore、John Perry Barlowによって1990年に共同設立された、インターネット上の自由を保護するための国際組織である *Electronic Frontier Foundation* によるビットコインの受け入れです。この組織は、心からサイファーパンクである最初のビットコイン支持者たちにとって大切です。したがって、彼らはこの組織がビットコインを受け入れることを熱望しています。
+2010年末の重要な出来事は、Mitch Kapor、John Gilmore、John Perry Barlowによって1990年に共同設立された、インターネット上の自由を保護するための国際組織である *電子フロンティア財団 / Electronic Frontier Foundation* によるビットコインの受け入れです。この組織は、心からサイファーパンクである最初のビットコイン支持者たちにとって大切です。したがって、彼らはこの組織がビットコインを受け入れることを熱望しています。
 
 ![電子フロンティア財団のロゴ](assets/ja/058.webp)
 
-この取り組みを始めたのは、2010年8月13日にEFFに連絡を取り、寄付を受け入れることを提案する[提案をした](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021)フォーラムメンバーのKibaでした。この目的のために、彼はMyBitcoin上に[アカウント](https://mempool.space/address/1MCwBbhNGp5hRm5rC1Aims2YFRe2SXPYKt)を設定し、そこに資金を集め、EFFにアクセス権を譲渡したいと考えました。彼は8月の終わりに送信したメールをコミュニティによって修正された後、ドラフトしました。
+この取り組みを始めたのは、2010年8月13日にEFFに連絡を取り、寄付を受け入れることを[提案をした](https://bitcointalk.org/index.php?topic=804.msg9021#msg9021)フォーラムメンバーのKibaでした。この目的のために、彼はMyBitcoin上に[アカウント](https://mempool.space/address/1MCwBbhNGp5hRm5rC1Aims2YFRe2SXPYKt)を設定し、そこに資金を集め、EFFにアクセス権を譲渡したいと考えました。彼は8月の終わりに送信したメールをコミュニティによって修正された後、ドラフトしました。
 
 2週間後、返信がないため、別のフォーラムメンバーが彼の助けになりました。このメンバーは、BrightAnarchistという偽名を使用し、創設者の一人を知っていたため、9月13日に彼らにメールを送りました。彼は同じ日に返信を受け取り、フォーラムに「EFFは確かにビットコインを受け取ることに興味があります！」と[書きました](https://bitcointalk.org/index.php?topic=804.msg12631#msg12631)。その後、アカウントは組織に引き継がれました。
+
 EFFが公共の寄付を受け入れ始めるまでには、しばらく時間がかかりました。交渉の後、コミュニティは彼らを説得して、ウェブサイトに寄付アドレスを公開するようにしました。11月9日には、そのアドレスが[寄付ページ](https://web.archive.org/web/20101130105838/http://www.eff.org/helpout)に掲載されました。Bitcoinユーザーは資金の移動を[始めました](https://mempool.space/tx/8ca2d206bc41b9ffa36cf4ea9ce9d3b0751fd653b6ec8f2979bfdddc4a631731)。
 
-数日後、ブロガーのjimbobwayによってその主題に関する[投稿](https://web.archive.org/web/20101117060233/http://www.bitcoinblogger.com/2010/11/bitcoin-gains-legal-protection-through.html)が書かれ、Bitcoinに注目が集まりました。この記事はHackerNewsで[共有](https://news.ycombinator.com/item?id=1905522)されました。また、BitcoinMediaによってXtranormalを使用してビデオに転写されました：
+数日後、ブロガーのjimbobwayによってその主題に関する[投稿](https://web.archive.org/web/20101117060233/http://www.bitcoinblogger.com/2010/11/bitcoin-gains-legal-protection-through.html)が書かれ、ビットコインに注目が集まりました。この記事はHackerNewsで[共有](https://news.ycombinator.com/item?id=1905522)されました。また、BitcoinMediaによってXtranormalを使用してビデオに転写されました：
 
 :::video id=03dfd302-1e05-4cad-a91a-e5e65f1d0932:::
 
-これはBitcoinにとって非常に良いニュースです。なぜなら、両方のイニシアチブは共通の価値を共有しているからです。さらに、EFFはTorやBitTorrentのようなプライバシー保護とデータ共有プロジェクトに法的保護を提供することで有名です。サトシ・ナカモト自身もこれを認識しており、2011年1月6日にGavin Andresen宛ての彼のメールの一つで示された彼の[コメント](https://mmalmi.github.io/satoshi/#email-254)で、組織の行動を特に支持しています：
-> "EFFは本当に重要です。&nbsp;私たちは彼らと良好な関係を維持したいです。&nbsp;私たちは彼らが評価するタイプのプロジェクトです。彼らはTORプロジェクトを助け、P2Pファイル共有を保護するために多くのことを行ってきました。"
+これはビットコインにとって非常に良いニュースです。なぜなら、両方のイニシアチブは共通の価値を共有しているからです。さらに、EFFはTorやBitTorrentのようなプライバシー保護とデータ共有プロジェクトに法的保護を提供することで有名です。サトシ・ナカモト自身もこれを認識しており、2011年1月6日にギャヴィン・アンドレセン宛てのメールの一つで示された彼の[コメント](https://mmalmi.github.io/satoshi/#email-254)で、組織の行動を特に支持しています：
+
+> 「EFFは本当に重要です。私たちは彼らと良好な関係を維持したいです。私たちは彼らが評価するタイプのプロジェクトです。彼らはTORプロジェクトを助け、P2Pファイル共有を保護するために多くのことを行ってきました。」
 
 ### ハル・フィニーの復帰
 
-2009年4月にBitcoinから離れた後、ハル・フィニーはすぐにALSと診断されたことを知りました。その[診断](https://www.lesswrong.com/posts/bshZiaLefDejvPKuS/dying-outside)は2009年8月に行われました。彼はそれに応じて生活方式を適応させますが、彼の運動能力は徐々に低下します。
+2009年4月にビットコインから離れた後、ハル・フィニーはすぐにALSと診断されたことを知りました。その[診断](https://www.lesswrong.com/posts/bshZiaLefDejvPKuS/dying-outside)は2009年8月に行われました。彼はそれに応じて生活方式を適応させますが、彼の運動能力は徐々に低下します。
 
-11月30日には、Bitcoinフォーラムに登録し、特にBitDNSプロジェクトに関する議論に参加し始めます。彼は、生態系で繁栄しているさまざまなプロジェクトに小さな寄付をすることをためらいません。
+11月30日には、ビットコイン・フォーラムに登録し、特にBitDNSプロジェクトに関する議論に参加し始めます。彼は、生態系で繁栄しているさまざまなプロジェクトに小さな寄付をすることをためらいません。
 
 さらに、彼は起動以来見ていなかったコードを研究し、行われたすべての作業に気づきます。この実現は、12月11日にフォーラムで次のようなコメントを[書く](https://bitcointalk.org/index.php?topic=2188.msg29223#msg29223)ことを彼に促します：
-> "これは私には印象的な仕事のように思えますが、もっとコメントがあればいいのにと思います。私は主にinit、main、script、そして少しのnetモジュールを研究しました。これはかなり強力な機械です。"
+
+> 「これは私には印象的な仕事のように思えますが、もっとコメントがあればいいのにと思います。私は主にinit、main、script、そして少しのnetモジュールを研究しました。これはかなり強力な機械です。」
 
 2時間後、サトシは[返信](https://bitcointalk.org/index.php?topic=2188.msg29259#msg29259)します：
-> "あなたからそう言ってもらえるとは大変意味があります、ハル。&nbsp;ありがとう。"
 
-これはBitcoinの考案者からの最後から二番目の公開メッセージであり、数ヶ月後には姿を消します。
+> 「あなたからそう言ってもらえるとは大変意味があります、ハル。ありがとう。」
+
+これはビットコインの考案者からの最後から二番目の公開メッセージであり、数ヶ月後には姿を消します。
 
 ### 重要な瞬間
+
 2010年の秋、ビットコインを取り巻くエコシステムは大きく進化しました。コミュニケーションが向上し、経済が発展しました。その時点で、ビットコインは自力で飛躍する準備ができているように見えました。そして、まさにその時期にサトシは姿を消し、プロジェクトの手綱をコミュニティに渡すことを選びました。
 
 ## サトシの失踪
@@ -1288,111 +1299,130 @@ EFFが公共の寄付を受け入れ始めるまでには、しばらく時間�
 
 ### 創設者の地位への挑戦
 
-2010年の後半から、開発コミュニティは#bitcoin-devチャンネルに集まり、そのログはChristian Deckerのサイト、[Bitcoin Stats](https://web.archive.org/web/20131201235340/http://www.bitcoinstats.com/irc/bitcoin-dev/logs/2010/09)に公開されています。このチャンネルは、技術的な側面に最も精通している人々がビットコインについての詳細を交換し、より非公式な方法で議論するのに理想的な場所でした。それは、特化したマイナー（ArtForz、Diablo-D3、knightmb、Nils Schneiderなど）、プロトコルに興味を持つ開発者（Gavin Andresen、Jeff Garzik、Wladimir van der Laanなど）、またはビットコイン上のサービスを維持する人々（Jed McCaleb、Michael Marquardt、nanotubeなど）を集めました。
+2010年の後半から、開発コミュニティは#bitcoin-devチャンネルに集まり、そのログはChristian Deckerのサイト、[Bitcoin Stats](https://web.archive.org/web/20131201235340/http://www.bitcoinstats.com/irc/bitcoin-dev/logs/2010/09)に公開されています。このチャンネルは、技術的な側面に最も精通している人々がビットコインについての詳細を交換し、より非公式な方法で議論するのに理想的な場所でした。それは、特化したマイナー（ArtForz、Diablo-D3、knightmb、Nils Schneiderなど）、プロトコルに興味を持つ開発者（ギャヴィン・アンドレセン、Jeff Garzik、Wladimir van der Laanなど）、またはビットコイン上のサービスを維持する人々（Jed McCaleb、Michael Marquardt、nanotubeなど）を集めました。
 
 しかし、サトシ・ナカモトはそれに接続したことがなく、そのためフォーラム上よりもそこでの発言がより自由でした。サトシの開発決定が問題視されたり、彼のビットコインにおける地位が批判されたりすることがよくありました。
-サトシは確かにプロジェクトの指名されたリーダーであり、オープンソースソフトウェアの世界で「[終身慈悲深い独裁者](https://fr.wikipedia.org/wiki/Benevolent_Dictator_for_Life)」として知られています。彼の役割は、全員のために決定を下すことによってオープン開発の安定性を保証することであり、反乱や分裂のリスクを限定します。Gavin Andresenが[説明](https://buildingbitcoin.org/bitcoin-dev/log-2010-09-27.html#l-528)したように、彼は「ゲートキーパー」です："すべてのコードは彼を通じていきます。"
+
+サトシは確かにプロジェクトの指名されたリーダーであり、オープンソースソフトウェアの世界で「[終身慈悲深い独裁者](https://fr.wikipedia.org/wiki/Benevolent_Dictator_for_Life)」として知られています。彼の役割は、全員のために決定を下すことによってオープン開発の安定性を保証することであり、反乱や分裂のリスクを限定します。ギャヴィン・アンドレセンが[説明](https://buildingbitcoin.org/bitcoin-dev/log-2010-09-27.html#l-528)したように、彼は「ゲートキーパー」です：「すべてのコードは彼を通じていきます。」
 
 しかし、ビットコインのソースコードは自由なので、誰でもコピーして修正することができ、それによってプロトコルの進化が完全に恣意的になることを防ぎます。Jeff Garzikが11月19日に[表現](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-19.html#l-1538)したように：
 
-> "サトシは薄い空気から魔法の数字を思いつき、私たちはその方向を集団的に支持します。[...] サトシがコミュニティによって支持されていない何か狂ったことをする瞬間、プロトコル/コードベースは真にフォークされる瞬間です。"
+> 「サトシは薄い空気から魔法の数字を思いつき、私たちはその方向を集団的に支持します。[...] サトシがコミュニティによって支持されていない何か狂ったことをする瞬間、プロトコル/コードベースは真にフォークされる瞬間です。」
+
 このように、サトシの指導的役割は批判が起こるのを妨げませんでした。これが、7月以降コミュニティで徐々に緊張が高まる理由です。例えば、8月の警報システムの[展開](https://bitcointalk.org/index.php?topic=898.msg10745#msg10745)や、11月のMomchilの `getwork` 関数の[変更](https://bitcointalk.org/index.php?topic=1901.msg24050#msg24050)の際に異議申し立てが発生します。この独裁的な意思決定に対する不満は、IRCで時々[よりオープンに](https://buildingbitcoin.org/bitcoin-dev/log-2010-11-24.html#l-384)表明されます。
-サトシに近いが他の開発者とも議論するGavinは、この状況が引き起こす問題を明確に認識しています。2010年9月27日、IRC上でGavinは「サトシを説得して、より協力的な開発モデルに切り替えることができれば」と[宣言](https://buildingbitcoin.org/bitcoin-dev/log-2010-09-27.html#l-522)します。（原文："I just wish I could convince him to switch to a more collaborative development model."）10月には、GavinはSourceForge上のリポジトリへの書き込み権限を[取得](https://sourceforge.net/p/bitcoin/code/165/)し、状況は改善します。そして12月、WikiLeaks事件の爆発を受けてサトシが突然引退することで、問題は自然と解決します。
+
+サトシに近いが他の開発者とも議論するギャヴィンは、この状況が引き起こす問題を明確に認識しています。2010年9月27日、IRC上でGavinは「サトシを説得して、より協力的な開発モデルに切り替えることができれば」と[宣言](https://buildingbitcoin.org/bitcoin-dev/log-2010-09-27.html#l-522)します。（原文："I just wish I could convince him to switch to a more collaborative development model."）10月には、ギャヴィンはSourceForge上のリポジトリへの書き込み権限を[取得](https://sourceforge.net/p/bitcoin/code/165/)し、状況は改善します。そして12月、WikiLeaks事件の爆発を受けてサトシが突然引退することで、問題は自然と解決します。
+
 ### WikiLeaks事件
 
 サトシの去るきっかけとなったのはWikiLeaks事件です。WikiLeaksは、サイファーパンクのジュリアン・アサンジによって2006年に設立された非政府組織で、内部告発者や情報漏洩を声高にし、その情報源を保護することを目的としています。2010年には、NGOによって明らかにされた機密文書が主要メディアによって取り上げられ、世論に衝撃を与えました。これらは特に、アフガニスタン（アフガン戦争日記）とイラク（イラク戦争ログ）で行われた、民間人の犠牲や拷問行為など、アメリカ軍の過剰な行動に関するものです。
 
 ![2010年11月のWikiLeaksのロゴ](assets/ja/059.webp)
 
-WikiLeaks の資金調達は本質的に一般からの寄付に依存しているため、組織はオンラインでの支払いを受け取るために決済処理業者に依存しています。しかし、これらの暴露を受けて、規制当局の反応を恐れるこれらの第三者に圧力がかけられます。これが、オンライン決済会社 Moneybookers が 10月14日に NGO のアカウントを[凍結した](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked)理由です。
+WikiLeaksの資金調達は本質的に一般人からの寄付に依存しているため、組織はオンラインでの支払いを受け取るために決済処理業者に依存しています。しかし、これらの暴露を受けて、規制当局の反応を恐れるこれらの第三者に圧力がかけられます。これが、オンライン決済会社 Moneybookers が 10月14日に NGO のアカウントを[凍結した](https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked)理由です。
 
 この状況は、信頼された第三者に依存せず、金融検閲にはるかに耐性があるビットコインの使用にとって絶好の機会を提供します。この仮説は、イラン系イギリス人の22歳、genjixという偽名を使用するアミール・ターキによって11月にフォーラムで提起されました。
 
 ![2012年12月のブラチスラヴァでのアミール・ターキ](assets/ja/060.webp)
 2012年12月のブラチスラヴァでのアミール・ターキ（出典：[Mitch Altman](https://www.flickr.com/photos/maltman23/8272321106/)）
+
 ハッカー、アナーキスト、そして[ポーカープレイヤー](https://bitcointalk.org/index.php?topic=1487.0)として、彼は最近サトシ・ナカモトのモデルについて学びました。彼は、WikiLeaksの状況において、ビットコインの有用性を示す機会を見ています。11月10日、彼はフォーラムに次のメッセージを[書き込みました](https://bitcointalk.org/index.php?topic=1735.msg21271#msg21271)：
-> "残念ながら過去に何度か資金が押収された事件があったので、WikiLeaksにビットコインについての手紙を送りたいと思っていました。[...] 彼らにメッセージを送る方法を知っている人はいますか？"
+
+> 「残念ながら過去に何度か資金が押収された事件があったので、WikiLeaksにビットコインについての手紙を送りたいと思っていました。[...] 彼らにメッセージを送る方法を知っている人はいますか？」
 
 この提案に対する反応は賛否両論です。あるユーザー（ShadowOfHarbringer）は[述べています](https://bitcointalk.org/index.php?topic=1735.msg21283#msg21283)、「これはWikiLeaksにとって良いかもしれませんが、ビットコインにとって必ずしも良いわけではありません。」別のユーザー（creighto）は[書いています](https://bitcointalk.org/index.php?topic=1735.msg21415#msg21415)、「遅ければ遅いほど良い。政府が行動を起こすのを待つほど、ビットコインネットワークは強くなり、それを害することが難しくなります。」
 
 数週間後の12月3日、PayPalはWikiLeaksのアカウントを凍結し、一晩で[声明](https://web.archive.org/web/20101206112350/https://www.thepaypalblog.com/2010/12/paypal-statement-regarding-wikileaks/)を公表します。翌朝、開発者のWladimir van der Laanはこのニュースをフォーラムで[伝えました](https://bitcointalk.org/index.php?topic=1735.msg26737#msg26737)：
 
-> "Paypalが彼らをブロックしました。そして、他の米国の銀行にも同じことをさせようとしています。これはビットコインの寄付を開始する絶好の機会です。"
-この状況の進展は議論を激化させます。特に、WikiLeaksがビットコインを受け入れることを支持する人物がいます：ユタ州に住むコンピュータエンジニアであり、[ブロガー](https://www.blogger.com/profile/12496217305843430098)であり、Wikipediaの貢献者であるRobert S. Horningです。彼は7月のslashdottingをきっかけにビットコインを発見しました。その日、彼は長文を書き、WikiLeaksを支持することが道徳的に正しい行為であり、いずれにせよ国家はビットコインについて知ることになるだろうと説明しました。彼は次のように結論づけます：
-> "基本的に、挑戦を受け入れます。&nbsp;WikiLeaksにビットコインの使用を奨励し、その行為から生じるあらゆるリスクや影響に直面する用意があります。"
+> 「Paypalが彼らをブロックしました。そして、他の米国の銀行にも同じことをさせようとしています。これはビットコインの寄付を開始する絶好の機会です。」
 
-### サトシの突然の去り方
+この状況の進展は議論を激化させます。特に、WikiLeaksがビットコインを受け入れることを支持する人物がいます：ユタ州に住むコンピュータエンジニアであり、[ブロガー](https://www.blogger.com/profile/12496217305843430098)であり、Wikipediaの貢献者であるRobert S. Horningです。彼は7月のslashdotをきっかけにビットコインを発見しました。その日、彼は長文を書き、WikiLeaksを支持することが道徳的に正しい行為であり、いずれにせよ国家はビットコインについて知ることになるだろうと説明しました。彼は次のように結論づけます：
 
-サトシはRobert Horningの見解を共有せず、WikiLeaksへのビットコインの推進に反対します。彼の言葉と行動からは、国家権力に対して極度の慎重さを持っており、時には[偏執病](https://mmalmi.github.io/satoshi/#email-158)に近いほどです。その結果、12月5日には、この熱狂に対して[鋭く反応しました](https://bitcointalk.org/index.php?topic=1735.msg26999#msg26999)：
+> 「基本的に、挑戦を受け入れます。WikiLeaksにビットコインの使用を奨励し、その行為から生じるあらゆるリスクや影響に直面する用意があります。」
 
-> "いや、'挑戦を受け入れる'なんてしないでください。
+### サトシ、突然の旅立ち
+
+サトシはRobert Horningの見解に理解を示さず、WikiLeaksへのビットコインの推進に反対します。彼の言葉と行動からは、国家権力に対して極度の慎重さを持っており、時には[偏執病](https://mmalmi.github.io/satoshi/#email-158)に近いほどです。その結果、12月5日には、この熱狂に対して[鋭く反応しました](https://bitcointalk.org/index.php?topic=1735.msg26999#msg26999)：
+
+> 「いや、'挑戦を受け入れる'なんてしないでください。
 >
 > プロジェクトは徐々に成長する必要があり、その過程でソフトウェアを強化できるようにする必要があります。
 >
-> WikiLeaksにビットコインの使用を試みないようにお願いします。&nbsp;ビットコインはまだ小さなベータコミュニティで、幼年期にあります。&nbsp;あなたが得られるのは小銭に過ぎず、あなたがもたらすであろう注目は、この段階で私たちを破壊する可能性が高いです。"
+> WikiLeaksにビットコインの使用を試みないようにお願いします。ビットコインはまだ小さなベータコミュニティで、幼年期にあります。あなたが得られるのは小銭に過ぎず、あなたがもたらすであろう注目は、この段階で私たちを破壊する可能性が高いです。」
+
 その後の日々に、WikiLeaksに対して本格的な金融封鎖が組織され、MastercardやVisaだけでなく、Western Union、Bank of America、その他の関係者が関与し、NGOの財政的生存が[危険にさらされます](https://wikileaks.org/Banking-Blockade.html)。この攻勢はビットコインの受け入れをさらに関連性のあるものにし、そのアイデアは自然と広がります。
-12月11日には、WikiLeaksがビットコインを使用する可能性を強調した記事が、コンピューティングに特化したアメリカ最大のウェブサイトの一つであるPC Worldに[掲載されました](https://www.pcworld.com/article/499375/could_wikileaks_scandal_lead_to_new_virtual_currency.html)。このテキストはジャーナリストの[Keir Thomas](https://www.keirthomas.com/how-i-caused-the-bitcoin-guy-to-go-into-hiding/)によって書かれ、「Could the Wikileaks Scandal Lead to New Virtual Currency?」と題されています。パンドラの箱が開かれました：PC Worldの記事は多くの人々に読まれ、おそらくWikiLeaksの関係者も含まれ、NGOがこの支払い手段を検討するよう促します。この記事はすぐにフォーラムで言及され、ビットコインの考案者の反応は明確です。彼は[書きます](https://bitcointalk.org/index.php?topic=2216.msg29280#msg29280)：
 
-> 「他のどんな文脈でもこの注目を集められたら良かったのに。&nbsp;WikiLeaksが巣のハチを蹴った、そして群れが私たちに向かってきている。」
+12月11日には、WikiLeaksがビットコインを使用する可能性を強調した記事が、コンピューティングに特化したアメリカ最大のウェブサイトの一つであるPC Worldに[掲載されました](https://www.pcworld.com/article/499375/could_wikileaks_scandal_lead_to_new_virtual_currency.html)。このテキストはジャーナリストの[Keir Thomas](https://www.keirthomas.com/how-i-caused-the-bitcoin-guy-to-go-into-hiding/)によって書かれ、「Could the Wikileaks Scandal Lead to New Virtual Currency?」と題されています。パンドラの箱が開かれました：PC Worldの記事は多くの人々に読まれ、おそらくWikiLeaksの関係者も含まれ、NGOがこの支払い手段を検討するよう促します。この記事はすぐにフォーラムで言及され、ビットコインの考案者の反応は明確です。彼はこう[書きます](https://bitcointalk.org/index.php?topic=2216.msg29280#msg29280)：
 
-翌日、サトシはフォーラムでの最後の公開メッセージを[公開し](https://bitcointalk.org/index.php?topic=2228.msg29479#msg29479)、サービス拒否攻撃の管理を顕著に改善する新しいソフトウェアバージョン（v0.3.19）のリリースを発表します。その後、彼は表舞台から退き、最も親しい協力者とのみ私的にコミュニケーションを取ります。
+> 「他のどんな文脈でもこの注目を集められたら良かったのに。WikiLeaksが巣のハチを蹴った、そして群れが私たちに向かってきている。」
+
+翌日、サトシはフォーラムでの最後の公開メッセージを[公開し](https://bitcointalk.org/index.php?topic=2228.msg29479#msg29479)、サービス拒否攻撃の管理を顕著に改善する新しいソフトウェアバージョン（v0.3.19）のリリースを発表します。その後、彼は表舞台から退き、最も親しい協力者とのみと私的にコミュニケーションを取ります。
 
 その後の日々に、PC Worldで公開された記事が効果を発揮します。12月14日には、サトシの発明がElectronic Frontier FoundationによってWikiLeaksの検閲に関する[テキスト](https://www.eff.org/deeplinks/2010/12/constructive-direct-action-against-censorship)で言及されます（後に、この組織はビットコインを「検閲に抵抗するデジタル通貨」と[述べます](https://www.eff.org/deeplinks/2011/01/bitcoin-step-toward-censorship-resistant)）。23日には、ロシアのチャンネルRTでMax KeiserとStacy Herbertがホストする金融番組「Keiser Report」で暗号資産が[言及されます](https://web.archive.org/web/20180226161051/http://www.youtube.com/watch?v=VMngK0t5WkY)、再びWikiLeaksの文脈で。このメディアの報道はビットコインに対する注目を大幅に増加させ、サトシの恐れを確認します。
 
 ### アクセス権の引き継ぎと最後のメール
-12月の初めから、サトシは後継者の組織化を始めました。彼は去るか、少なくとも一歩後退するつもりだったので、信頼できる人々、特にMartti MalmiとGavin Andresenに様々な責任を移譲する必要がありました。しかし、彼は彼らにその意図を明確に述べたことはありません。
+
+12月の初めから、サトシは後継者の組織化を始めました。彼は去るか、少なくとも一歩後退するつもりだったので、信頼できる人々、特にマルティ・マルミとギャヴィン・アンドレセンに様々な責任を移譲する必要がありました。しかし、彼は彼らにその意図を明確に述べたことはありません。
+
 まず、彼は自分たちのメールアドレスをサイトの[連絡先ページ](https://web.archive.org/web/20101215111454/http://www.bitcoin.org/contact)に追加したいと考えました。12月7日には、マルティにメールを[送信](https://mmalmi.github.io/satoshi/#email-245)し、「連絡先ページのプロジェクト開発者リストに自分を追加してもらえるか」と尋ね、若いフィンランド人はこの要求を受け入れました。ビットコインの創設者はギャヴィンにも同じ要求をし、彼もこれを受け入れました。サトシは彼らのアドレスをページに追加し、自分のものを削除しました。ギャヴィンは数年後に[述べています](https://www.huffingtonpost.co.uk/entry/gavin-andresen-bitcoin_n_3093316)：
-> 「\[サトシ\]は私にビットコインのホームページに私のメールアドレスを載せてもいいかと尋ね、私はそれを承諾しましたが、彼が私のメールアドレスをそこに載せたとき、彼のアドレスを取り除くとは思いもよらなかった。」
+
+> 「[サトシ]は私にビットコインのホームページに私のメールアドレスを載せてもいいかと尋ね、私はそれを承諾しましたが、彼が私のメールアドレスをそこに載せたとき、彼のアドレスを取り除くとは思いもよらなかった。」
 
 しかし、それだけではありませんでした。サトシはまた、ソフトウェアの管理権をギャヴィン・アンドレセンに移譲したいと考えていました。ギャヴィンは既に[10月に](https://sourceforge.net/p/bitcoin/code/165/)SourceForgeのリポジトリへの書き込み権限を与えられており、リポジトリの主要なメンテナーとなりました。12月19日には、Gitをより快適に感じたことから、GitHub上にリポジトリを[作成](https://api.github.com/repos/bitcoin/bitcoin)しました。同じ日に、フォーラムに長文のメッセージを書き、開発により関わるようになると説明しました。彼は[発表しました](https://bitcointalk.org/index.php?topic=2367.msg31651#msg31651)：
 
 > 「サトシの祝福を受け、大変な気持ちで、私はビットコインのプロジェクト管理をより積極的に行うことになります。」
 
-サトシはウェブサイト、フォーラム、ウィキの管理権を既にこれらの要素を共同管理していたマルティに移譲しました。その後、彼は2011年の春に definitively 消えました。
+サトシはウェブサイト、フォーラム、ウィキの管理権を、既に共同でこれらの要素を管理していたマルティに譲渡しました。その後、2011年春に彼は完全に姿を消しました。
 サトシと最後にコミュニケーションを取った人物の中には、2年前に彼に接近したGoogleエンジニアのマイク・ハーンもいました。ハーンは2010年12月にビットコインの創設者に再び連絡を取り、より技術的な質問をしました。彼は「Android携帯電話で動作するクライアントを構築することを念頭に置いた、簡易支払い検証のJava実装に取り組んでいる」と[述べています](https://plan99.net/~mike/satoshi-emails/thread3.html)。2人は4月23日までメッセージを交換しました。サトシはマイク・ハーンへの[最後のメール](https://plan99.net/~mike/satoshi-emails/thread5.html)で、「他のことに移った。ビットコインはギャヴィンと他の人たちの手によって、良い状態にある」と宣言しました。
 
 2011年4月26日、サトシはギャヴィンに[最後のメッセージ](http://gavinandresen.ninja/eleven-years-ago-today)をメールで送り、次のように書きました：
 
 > 「私を神秘的で影のある人物として話し続けないでほしい、プレスはそれを海賊通貨の角度から取り上げるだけだ。代わりにオープンソースプロジェクトについて話し、開発者の貢献者にもっとクレジットを与えること；それが彼らを動機づけるのに役立つ。」
+
 ここで、サトシは数日前にフォーブスのウェブサイトでアンディ・グリーンバーグが公開した[記事](https://www.forbes.com/forbes/2011/0509/technology-psilocybin-bitcoins-gavin-andresen-crypto-currency.html)を参照しています。この記事では、彼が「神秘的でプライバシーを極度に重視する人物」(*原文: "a mysterious, privacy-obsessed figure"*)として紹介され、ビットコインが違法薬物の調達手段として強調されていました（実際、この時期はSilk Roadプラットフォームが成功を収め始めた時期でした）。サトシは、技術的な問題が発生した場合にネットワークに警告するために使用できるアラートキーも、ギャヴィンへのメールに添付しました。
+
 最後に、5月初旬には、マーティへの別れの言葉も述べました。彼の最初の右腕である人物への最後の言葉は以下の通りです：
 
-> 「私は他のことに移り、将来的には周りにいないかもしれません。」
-> Digital Gold p. 81
+> 「他のことに移ったので、今後あまり顔を出せなくなると思います。」Digital Gold p. 81
 
 ### CIA、ウィキリークス、およびEFF
+
 2011年4月26日、ギャヴィン・アンドレセンはサトシ・ナカモトに[最後のメール](http://gavinandresen.ninja/eleven-years-ago-today)を送りましたが、彼からの返信はありませんでした。このメールで、彼はCIAによって管理されるアメリカのベンチャーキャピタルファンドであるIn-Q-Telにビットコインを紹介するために招待されたことを[示唆](http://gavinandresen.ninja/eleven-years-ago-today)しました。彼はこの訪問がどのような反応を引き起こすかを十分に理解していましたが、それでも訪問を決断しました。彼はサトシに対して、その決断を以下のように正当化しました：
 
-> 「"彼ら"と直接話し、より重要なことには、彼らの質問や懸念を聞くことで、彼らが私がそうであるようにビットコインを考えるようになることを望んでいます。つまり、政治的な気まぐれにより少なく影響を受ける、単により良く、より効率的なお金としてです。システムを打倒するために無政府主義者が使用する全能のブラックマーケットツールとしてではありません。」
+> 「"彼ら"と直接話し、より重要なことには、彼らの質問や懸念を聞くことで、彼らが私がそうであるようにビットコインを考えるようになることを望んでいます。つまり、政治的な気まぐれによる影響を受けない、単により良く、より効率的なお金としてです。システムを打倒するために無政府主義者が使用する全能のブラックマーケットツールとしてではありません。」
 
 翌日、ギャヴィンはフォーラムでこのニュースを全面的に[公表](https://bitcointalk.org/index.php?topic=6652.msg97181#msg97181)しました。彼はこの旅行に$3,000支払われたことを明らかにしました。しかし、これは特にコミュニティを動かすものではなく、明らかに不信感は正当化されましたが、彼のアプローチを理解しました。ギャヴィンのCIA本部への訪問は[6月14日に行われました](https://twitter.com/gavinandresen/status/80785477342478336)。
 
 象徴的にも、6月14日はウィキリークスがビットコインでの寄付を[受け入れ始めた](https://twitter.com/wikileaks/status/80774521350668288)日でもあります。このニュースはフォーブスのウェブサイトで報じられました。
 
-逆説的に、このニュースはある組織の既存の採用を部分的に後退させました：電子フロンティア財団です。6月20日、EFFは法的な複雑さのため、ビットコイン寄付の受け入れを[実際に放棄すると発表](https://www.eff.org/deeplinks/2011/06/eff-and-bitcoin)しました。それは受け取ったビットコインをギャヴィン・アンドレセンのビットコインフォーセットに[返却しました](https://bitcointalk.org/index.php?topic=20185.msg456413#msg456413)。こうして、ビットコインは一つの組織を得る一方で、別の組織を失いました。
+逆説的に、このニュースはある組織の既存の採用を部分的に後退させました：電子フロンティア財団（EFF）です。6月20日、EFFは法的な複雑さのため、ビットコイン寄付の受け入れを[実際に放棄すると発表](https://www.eff.org/deeplinks/2011/06/eff-and-bitcoin)しました。それは受け取ったビットコインをギャヴィン・アンドレセンのビットコインフォーセットに[返却しました](https://bitcointalk.org/index.php?topic=20185.msg456413#msg456413)。こうして、ビットコインは一つの組織を得る一方で、別の組織を失いました。
 
 ### サトシの謎
-したがって、Satoshiの失踪は、slashdottingの後にコミュニティが成長したこと、そして最も重要なことに、WikiLeaks事件のために突然発生しました。Bitcoinの創設者は、開発とコミュニケーションの努力で彼を支えた2人の男性、Martti MalmiとGavin Andresenにプロジェクトの指揮権を渡しました。
+
+したがって、サトシの失踪は、slashdot後にコミュニティが成長したこと、そして最も重要なことに、WikiLeaks事件のために突然発生しました。ビットコインの創設者は、開発とコミュニケーションの努力で彼を支えた2人の男性、マルティ・マルミとギャヴィン・アンドレセンにプロジェクトの指揮権を渡しました。
+
 その後彼に何が起こったのかは未だに不明です。彼の様々なアカウント（[P2P Foundation](https://p2pfoundation.ning.com/forum/topics/bitcoin-open-source?commentId=2003008:Comment:52186)、[Vistomail](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2015-August/010238.html)）からいくつかのメッセージが出現しましたが、これらのアカウントがハッキングされた可能性が高いです。したがって、サトシ・ナカモトの正体は、Torやプライバシーを尊重するサービスの使用を通じて、彼の匿名性を維持することに成功し、未だに不明のままです。
 
-年月を経るごとに、彼についての手がかりが提供され、ニック・サボ、ハル・フィニー、Adam Back、Len Sassamanなどの有名な人物の名前が挙げられました。2014年には、ロサンゼルス郊外のTemple Cityで母親と一緒に住む、日本系アメリカ人の帰化市民である通信エンジニア、Dorian Prentice サトシ・ナカモトが彼であるとさえ信じられていました。しかし、Satoshiは今日に至るまで[mystery](https://www.youtube.com/watch?v=0ETcLj5jBy4)のままです。
+年月を経るごとに、彼についての手がかりが提供され、ニック・サボ、ハル・フィニー、アダム・バック、Len Sassamanなどの有名な人物の名前が挙げられました。2014年には、ロサンゼルス郊外のTemple Cityで母親と一緒に住む、日本系アメリカ人の帰化市民である通信エンジニア、Dorian Prentice Satoshi Nakamotoが彼であるとさえ信じられていました。しかし、サトシは今日に至るまで[mystery](https://www.youtube.com/watch?v=0ETcLj5jBy4)のままです。
 
-Bitcoinの創設者を取り巻くこの神秘的な側面は、2014年に亡くなる前のフォーラムでの[彼の最後のメッセージ](https://bitcointalk.org/index.php?topic=234330.msg2479328#msg2479328)の1つで、2013年6月にハル・フィニーによってよく要約されました。彼は新しくリリースされた*Man of Steel*映画からの引用を共有しました：
+ビットコインの創設者を取り巻くこの神秘的な側面は、2014年に亡くなる前のフォーラムでの[彼の最後のメッセージ](https://bitcointalk.org/index.php?topic=234330.msg2479328#msg2479328)の1つで、2013年6月にハル・フィニーによってよく要約されました。彼は新しくリリースされた*Man of Steel*映画からの引用を共有しました：
 
-> "一生をかけて自分の足跡を隠してきた人をどうやって見つけるのか？
+> 「一生をかけて自分の足跡を隠してきた人をどうやって見つけるのか？
 >
-> 彼は一部の人にとっては守護天使だった。他の人にとっては\[謎\]、常に少し離れた存在の幽霊だった。
+> 彼は一部の人にとっては守護天使だった。他の人にとっては[謎]、常に少し離れた存在の幽霊だった。
 >
-> Sは何を意味するのか？"
+> Sは何を意味するのか？」
 
-## コミュニティの引き継ぎ
+## コミュニティによる引き継ぎ
+
 <chapterId>16c5e6d6-2412-48c6-9687-6af92cf0d89a</chapterId>
 
 :::video id=b29c3ea3-c4ca-4feb-bb29-5dc064987406:::
 
-サトシ・ナカモトの去った後、彼なしで進む必要がありました。幸いなことに、Bitcoinは誰でも貢献できるオープンプロジェクトだったので、その創設者の消失はそれにとって致命的ではありませんでした。開発者Jeff Garzikは2010年7月に（創設者の不在の可能性について）次のように書いています：
+サトシ・ナカモトの去った後、彼なしで進む必要がありました。幸いなことに、ビットコインは誰でも貢献できるオープンプロジェクトだったので、その創設者の消失はそれにとって致命的ではありませんでした。開発者Jeff Garzikは2010年7月に（創設者の不在の可能性について）次のように書いています：
 
-> "人々は規則や規則作りについて非常に心配します。しかし、ここでの政府の連続性計画に対する駆動する必要はありません。ソースコードがオープンのままである限り、それで十分です。必要があり、十分な関心があれば、コミュニティが提供します。コミュニティを信頼してください。"
+> "人々は規則や規則作りについて非常に心配します。しかし、ここでの政府の連続性計画に対する駆動する必要はありません。ソースコードがオープンのままである限り、それで十分です。必要があり、十分な関心があれば、コミュニティが提供します。コミュニティを信頼してください。」
+
 しかし、この消失は挑戦なしではありませんでした。サトシの不在は、指示が発せられる権威がもはや存在しないことを意味していました。ソフトウェア開発と外部コミュニケーションの観点から、調整が必要でした。新生ビットコイン・コミュニティのメンバーは、これらの慣行を標準化するために多くの努力をしなければなりませんでした。
 
 ### コミュニティ開発
@@ -1436,7 +1466,7 @@ Bitcoinの創設者を取り巻くこの神秘的な側面は、2014年に亡く
 
 立ち上げから数日後、Bitcoin.orgのホームページにある「wiki」というリンクはBitcoin.itを[指し示す](https://bitcointalk.org/index.php?topic=2321.msg30872#msg30872)ようになります。コンテンツは徐々にDokuWikiバージョンから移行されます。1月31日には、Marttiがフォーラムでこれが新しいウィキであることを[示唆](https://bitcointalk.org/index.php?topic=293.msg42789#msg42789)します。
 
-第三の要素はBitcoinフォーラムです。これはMarttiによって管理されていますが、彼はすぐにモデレーターを募集します。その中の一人がTheymos（本名Michael Marquardt）で、フォーラムの共同管理を含む追加の責任を負うことになります。フォーラムはSimple Machines Forumエンジンで運営され、年を経ても外観は変わりません。しかし、そのURLは2回変更されます。最初に、5月17日にフォーラムはforum.bitcoin.orgに[移動](https://bitcointalk.org/index.php?topic=8696.msg125963#msg125963)されます。その後、8月1日に新しいトップレベルドメインであるbitcointalk.orgに[移動](https://bitcointalk.org/index.php?topic=33393.msg417531#msg417531)されます。年月を経て、これはBitcoinTalkと名付けられます。
+第三の要素はビットコイン・フォーラムです。これはMarttiによって管理されていますが、彼はすぐにモデレーターを募集します。その中の一人がTheymos（本名Michael Marquardt）で、フォーラムの共同管理を含む追加の責任を負うことになります。フォーラムはSimple Machines Forumエンジンで運営され、年を経ても外観は変わりません。しかし、そのURLは2回変更されます。最初に、5月17日にフォーラムはforum.bitcoin.orgに[移動](https://bitcointalk.org/index.php?topic=8696.msg125963#msg125963)されます。その後、8月1日に新しいトップレベルドメインであるbitcointalk.orgに[移動](https://bitcointalk.org/index.php?topic=33393.msg417531#msg417531)されます。年月を経て、これはBitcoinTalkと名付けられます。
 2011年夏の価値の上昇とともに、Martti Malmiはヘルシンキ近郊の快適なアパートを購入するために、多額のビットコインを[売却](https://twitter.com/marttimalmi/status/1339908793736556544)しました。その後、彼は数ヶ月間日本で過ごすために[仕事を辞め](https://x.com/marttimalmi/status/1339908797968637952)ました。彼はウェブサイトとフォーラムを放棄し、TheymosとあるCøbraに[任せました](https://bitcointalk.org/index.php?topic=5129680.msg50617107#msg50617107)。CøbraはMarttiによって「Satoshiに信頼されている人物」と[述べられています](https://forum.bitcoin.com/ama-ask-me-anything/i-m-martti-malmi-early-bitcoin-developer-and-the-original-founder-of-the-bitcointalk-org-forums-ama-t2770.html#p8222)。この二人はその後の年月にわたって両プラットフォームを共同で管理します。
 
 ### 会議とミーティング

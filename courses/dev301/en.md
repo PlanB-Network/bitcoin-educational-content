@@ -19,8 +19,10 @@ By the end of the course, you should have a solid mental model of binary represe
 +++
 
 # Introduction 
+<partId>6dbe60be-7ae9-4831-ad9a-f750d605cdf7</partId>
 
 ## Course overview 
+<chapterId>0a9dc35c-055e-4e6c-b3f5-14e3c1496180</chapterId>
 
 This course is about getting comfortable with the parts of a computer that most programmers courses treat as "someone else’s problem". When people say "system programming", they usually refer to layers of software that stays close to the operating system and the machine. It’s the area where details matter.
 

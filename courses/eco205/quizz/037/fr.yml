@@ -1,0 +1,8 @@
+question: Selon l'école autrichienne, pourquoi est-il impossible d'appliquer les méthodes des sciences naturelles à l'étude de l'économie ?
+answer: Parce que les individus agissent avec intention et peuvent modifier leur comportement en apprenant
+wrong_answers:
+  - Parce que les données économiques sont trop complexes pour être mesurées avec précision
+  - "Parce que les phénomènes économiques se déroulent à une échelle trop grande pour l'observation"
+  - Parce que les instruments de mesure ne sont pas assez développés en économie
+explanation: |
+  L'école autrichienne défend le dualisme méthodologique en soulignant une différence fondamentale entre les objets d'étude : contrairement aux atomes qui réagissent toujours de la même manière, les humains agissent avec intention, apprennent de leurs expériences et peuvent changer d'avis. Cette capacité d'apprentissage et de modification des préférences rend impossible la prédiction de comportements constants comme en sciences naturelles. Les autres réponses évoquent des problèmes techniques qui pourraient théoriquement être résolus, alors que la position autrichienne porte sur une impossibilité conceptuelle liée à la nature même de l'action humaine.

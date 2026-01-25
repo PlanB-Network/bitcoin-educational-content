@@ -1,0 +1,8 @@
+question: Selon la théorie autrichienne des cycles économiques, pourquoi une baisse des taux d'intérêt naturelle (due à l'épargne réelle) diffère-t-elle fondamentalement d'une baisse artificielle imposée par la banque centrale?
+answer: La baisse naturelle reflète une épargne réelle accrue et oriente correctement les investissements vers les étapes éloignées de la production, tandis que la baisse artificielle crée de faux signaux sans épargne correspondante
+wrong_answers:
+  - "La baisse naturelle stimule uniquement la consommation immédiate, alors que la baisse artificielle encourage l'épargne et retarde la consommation des agents économiques"
+  - "La baisse naturelle provoque systématiquement de l'inflation, tandis que la baisse artificielle maintient la stabilité des prix grâce au contrôle monétaire de la banque centrale"
+  - "La baisse naturelle décourage l'investissement productif en réduisant les profits attendus, contrairement à la baisse artificielle qui optimise l'allocation des ressources rares"
+explanation: |
+  La distinction est cruciale dans la théorie autrichienne. Une baisse naturelle des taux résulte d'une épargne réelle accrue, signalant légitimement aux entrepreneurs de réorienter les investissements vers des projets à plus long terme. Cette épargne fournit les ressources réelles nécessaires. À l'inverse, une baisse artificielle par la banque centrale crée un signal trompeur sans épargne correspondante, générant des malinvestissements car les ressources réelles manquent pour soutenir ces projets.

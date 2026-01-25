@@ -1,0 +1,18 @@
+id: 33ebf193-f874-473c-8b5c-16fd2480f31d
+start_date: 2026-01-24 21:00:00
+end_date: 2026-01-24 23:00:00
+timezone: America/El_Salvador
+address_city_country: El Zonte, El Salvador
+name: Sisters of Satoshi Meetup
+type: meetup
+description: |
+  Todas las mujeres son bienvenidas en aprender sobre Bitcoin, tendremos
+  actividades para ayudarlas a empezar en 2026.
+language:
+  - en
+  - es
+links:
+  website: https://x.com/SistersoSatoshi/status/2013294561087410363
+tags:
+  - education
+  - adoption

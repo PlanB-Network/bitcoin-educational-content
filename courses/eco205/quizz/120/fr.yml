@@ -1,0 +1,8 @@
+question: Selon Hayek, quelle est la principale caractéristique de l'information dans une économie qui justifie l'importance du système des prix ?
+answer: L'information est toujours dispersée, incomplète, imparfaite et en constante évolution entre tous les agents économiques
+wrong_answers:
+  - "L'information est uniformément distribuée mais difficile à interpréter sans l'aide des prix du marché"
+  - "L'information est centralisée dans les institutions financières qui la redistribuent via les mécanismes de prix"
+  - "L'information est parfaite mais accessible seulement aux agents économiques les plus expérimentés du marché"
+explanation: |
+  Pour Hayek, l'information n'est jamais disponible pour l'ensemble des individus mais reste dispersée, incomplète et imparfaite. Cette dispersion fondamentale justifie le rôle crucial du système des prix comme mécanisme de coordination spontanée. Contrairement aux autres propositions qui suggèrent une distribution uniforme, une centralisation ou une perfection de l'information, Hayek insiste sur sa nature fragmentée, ce qui rend impossible la planification centrale et nécessaire le signal prix pour coordonner les actions économiques.

@@ -1,0 +1,8 @@
+question: Quelle approche méthodologique caractérise l'école autrichienne d'économie selon Ludwig von Mises?
+answer: Une approche axiomatico-déductive basée sur l'axiome de l'action humaine
+wrong_answers:
+  - "Une approche empirique et inductive basée sur l'observation statistique"
+  - "Une approche expérimentale basée sur l'accumulation de données quantitatives"
+  - "Une approche historique basée sur l'étude des institutions économiques"
+explanation: |
+  L'école autrichienne sous l'impulsion de Mises développe une méthode axiomatico-déductive qui part d'un axiome irréfutable (l'homme agit) pour déduire logiquement des lois économiques. Cette approche s'oppose aux méthodes empiriques et inductives qui se basent sur l'observation de données particulières. Elle permet de construire une théorie économique universelle et intemporelle sans recourir à l'expérimentation ou aux statistiques, ce qui explique l'opposition des Autrichiens aux études économétriques.

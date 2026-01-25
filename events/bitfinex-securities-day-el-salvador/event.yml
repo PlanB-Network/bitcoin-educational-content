@@ -1,0 +1,17 @@
+id: 8bfb3537-a8d4-4367-a329-fe7443a71636
+start_date: 2026-01-29 20:00:00
+end_date: 2026-01-30 00:30:00
+timezone: America/El_Salvador
+address_city_country: San Salvador, El Salvador
+name: Bitfinex Securities Day El Salvador
+type: workshop
+description: |
+  Join an exclusive gathering of regulators, issuers, investors, and thought  leaders as we explore the transformative power of tokenisation and security  token offerings in modern capital markets. Through engaging panel discussions and invaluable networking opportunities, gain actionable insights into this innovative financial frontier.
+language:
+  - en
+links:
+  website: https://www.bitfinex.com/securities/events/
+tags:
+  - technical-analysis
+  - smart-contracts
+  - finance

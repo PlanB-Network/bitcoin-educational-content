@@ -1,0 +1,8 @@
+question: Dans quel intervalle se situe nécessairement le prix final d'un bien lors d'un échange volontaire selon l'école autrichienne?
+answer: Entre le minimum que le vendeur accepte et le maximum que l'acheteur est prêt à payer
+wrong_answers:
+  - "Entre le coût de production et l'utilité marginale objective du bien"
+  - "Entre la valeur subjective du vendeur et la valeur subjective de l'acheteur"
+  - Entre le prix de revient et le prix psychologique maximum du marché
+explanation: |
+  Selon l'école autrichienne, le prix se fixe toujours dans l'intervalle entre le minimum qu'un vendeur accepte de recevoir et le maximum qu'un acheteur est prêt à payer. Cet intervalle permet la négociation et l'émergence du prix final. Les autres réponses confondent prix et valeur (qui sont distincts), ou font référence à des concepts objectifs alors que l'approche autrichienne privilégie la subjectivité des valorisations individuelles.

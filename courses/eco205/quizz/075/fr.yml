@@ -1,0 +1,8 @@
+question: Comment les prix générés par la concurrence fonctionnent-ils dans le processus de marché selon Hayek?
+answer: Ils servent d'indicateurs socialement accessibles pour communiquer les connaissances tacites dispersées
+wrong_answers:
+  - "Ils établissent automatiquement un équilibre parfait entre l'offre et la demande sur tous les marchés"
+  - "Ils permettent aux autorités centrales de calculer l'allocation optimale des ressources rares"
+  - Ils reflètent directement les préférences rationnelles et complètement informées des consommateurs
+explanation: |
+  Selon Hayek, les prix jouent un rôle crucial de coordination en transmettant des informations sur les connaissances tacites que possèdent les acteurs économiques. Ces connaissances sont dispersées et non formalisées, et les prix permettent de les communiquer socialement sans qu'aucune autorité centrale n'ait besoin de les centraliser. Les autres réponses reflètent soit la vision néoclassique d'équilibre parfait, soit l'idée erronée qu'une planification centrale pourrait utiliser les prix, soit le postulat néoclassique d'acteurs parfaitement rationnels et informés.

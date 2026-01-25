@@ -1,0 +1,8 @@
+question: Selon la théorie autrichienne des cycles économiques, quel est l'effet principal des taux directeurs artificiellement bas sur la structure du capital?
+answer: Les entrepreneurs s'engagent dans des détours de production qui ne correspondent pas aux préférences temporelles réelles des consommateurs
+wrong_answers:
+  - "Les banques commerciales réduisent automatiquement leurs réserves fractionnaires pour maintenir l'équilibre épargne-consommation"
+  - "La structure du capital s'ajuste naturellement grâce aux mécanismes de marché qui compensent les distorsions monétaires"
+  - "Les consommateurs modifient spontanément leurs préférences temporelles pour s'adapter aux signaux de prix manipulés"
+explanation: |
+  La réponse correcte reflète le cœur de la théorie autrichienne : les taux bas envoient de faux signaux d'abondance de capital, poussant les entrepreneurs vers des projets non viables. Les autres options sont incorrectes car elles suggèrent des mécanismes d'auto-correction qui n'existent pas selon cette théorie. Les banques ne réduisent pas leurs réserves, le marché ne compense pas automatiquement les distorsions, et les consommateurs ne changent pas leurs préférences réelles.

@@ -1,5 +1,7 @@
 id: 92ce15a2-9325-4ec0-a7b7-4b97efd09fc9
 
+testnet_only: true
+
 topic: protocol
 subtopic: development
 type: theory

@@ -24,7 +24,11 @@ Ce cours vous invite à explorer ces fondements théoriques qui résonnent aujou
 
 ### Introduction à l'école autrichienne d'économie
 
-L'école autrichienne d'économie constitue l'un des courants de pensée les plus influents et les plus rigoureux de la science économique moderne. Née à Vienne en 1871 avec la publication des Principes d'économie politique de Carl Menger, cette tradition intellectuelle offre une vision unique et cohérente du processus économique. Depuis plus d'un siècle et demi, les économistes autrichiens ont affiné leur méthodologie et leurs concepts pour donner naissance à un corpus théorique remarquablement structuré. Aujourd'hui, cette école connaît un véritable regain d'intérêt grâce à Bitcoin, dont les principes fondamentaux résonnent profondément avec la défense autrichienne d'un étalon monétaire dur, la théorie de l'émergence spontanée de la monnaie et la critique de l'intervention gouvernementale.
+L'école autrichienne d'économie constitue l'un des courants de pensée les plus influents et les plus rigoureux de la science économique moderne. Née à Vienne en 1871 avec la publication des Principes d'économie politique de Carl Menger, cette tradition intellectuelle offre une vision unique et cohérente du processus économique.
+
+![image](assets/carl_menger_portrait.webp)
+
+Depuis plus d'un siècle et demi, les économistes autrichiens ont affiné leur méthodologie et leurs concepts pour donner naissance à un corpus théorique remarquablement structuré. Aujourd'hui, cette école connaît un véritable regain d'intérêt grâce à Bitcoin, dont les principes fondamentaux résonnent profondément avec la défense autrichienne d'un étalon monétaire dur, la théorie de l'émergence spontanée de la monnaie et la critique de l'intervention gouvernementale.
 
 ### Les quatre piliers méthodologiques
 
@@ -61,11 +65,15 @@ Adam Smith, David Ricardo et Karl Marx défendirent cette approche. David Ricard
 
 Dans les années 1870, trois économistes européens, travaillant indépendamment, développèrent simultanément une nouvelle théorie fondée sur le concept d'utilité marginale. William Stanley Jevons en Angleterre, Léon Walras en Suisse et Karl Menger en Autriche proposèrent une explication radicalement différente de la formation de la valeur. L'utilité marginale se définit comme la satisfaction qu'un individu obtient de la consommation d'une unité supplémentaire d'un bien.
 
+![image](assets/william_stanley_jevons_portrait.webp)
+
 Le propos fondamental est simple : une fois un besoin satisfait, une unité supplémentaire du même bien ne représente plus la même valeur pour le consommateur. Proposons un ordinateur à deux personnes différentes : même face aux mêmes besoins apparents, elles ne feront pas le même choix, car le travail nécessaire à fabriquer l'ordinateur importe peu pour le consommateur. Seule compte la capacité du bien à combler son besoin propre. De plus, celui qui possède déjà un ordinateur n'accordera pas la même valeur à un second appareil. À chaque consommation supplémentaire, l'utilité marginale décroît progressivement.
 
 ### Valeur cardinale contre valeur ordinale
 
 Malgré leur accord sur le concept d'utilité marginale, Walras, Jevons et Menger diffèrent profondément dans leur approche de la mesure. La conception cardinale, défendue par Walras et Jevons, suppose que l'utilité peut être mesurée en unités quantifiables : une première unité d'ordinateur représenterait dix points d'utilité, une deuxième cinq points. L'utilité serait ainsi mesurable et additionnable.
+
+![image](assets/leon_walras_portrait.webp)
 
 Karl Menger rejette cette tentative de mathématiser les préférences humaines. Il comprend que la complexité des comportements humains rend impossible toute analyse formalisée. Menger préfère la conception ordinale, basée sur les préférences subjectives. Selon lui, il est impossible de mesurer l'écart quantitatif entre les intensités de besoin. Nous pouvons ordonner nos préférences en affirmant que nous préférons A à B et B à C, mais nous ne pouvons pas mesurer de combien nous préférons A à B. Cette différence d'intensité reste une réalité psychologique interne, inaccessible à toute mesure objective.
 
@@ -89,6 +97,8 @@ Les courants économiques classiques et néoclassiques ont historiquement privil
 
 Pour Carl Menger, fondateur de l'école autrichienne, cette approche agrégée passe à côté de l'essentiel. Les choix individuels ne reposent pas sur des données objectives calculables et formalisables, mais sur des considérations dynamiques et profondément subjectives. Sa conception du marginalisme dépasse le simple subjectivisme des autres économistes marginalistes en intégrant des facteurs déterminants comme le temps et la notion naissante de coûts d'opportunité. Friedrich von Wieser développera plus tard ce concept de manière explicite, démontrant que la valeur d'un bien est étroitement liée à l'utilité de l'alternative sacrifiée lors d'un choix économique.
 
+![image](assets/friedrich_von_wieser_portrait.webp)
+
 ### Le subjectivisme dynamique de Menger
 
 Le subjectivisme dynamique de Menger remet en question une idée dominante dans la pensée économique de son époque, selon laquelle les choix de l'individu seraient statiques et déterminés par l'histoire, les institutions ou son groupe social. Menger affirme au contraire que les choix sont changeants et dynamiques, évoluant constamment sous l'effet de causes internes ou externes. Le passage d'un état de besoin à un état de satisfaction nécessite des forces en action, soit dans l'organisme lui-même, soit dans son environnement. L'individu n'est donc pas une donnée statistique passive, mais un agent actif qui évolue constamment dans sa relation avec le monde.
@@ -108,6 +118,8 @@ Cette approche s'oppose radicalement à l'holisme prôné par l'école historiqu
 ### L'axiome de l'action humaine comme fondement de la praxéologie
 
 L'axiome de l'action humaine constitue le cœur même de la méthodologie de l'école autrichienne d'économie. Cet axiome affirme une vérité fondamentale : l'individu agit. Cette action humaine est délibérée et orientée vers un but précis, celui d'atteindre des fins subjectives par des méthodes soigneusement sélectionnées. Cette présomption forme le fondement de la praxéologie, l'étude formelle de l'action humaine, sur laquelle repose toute l'analyse économique autrichienne.
+
+![image](assets/ludwig_von_mises_portrait.webp)
 
 Avant que Ludwig von Mises n'élabore formellement cet axiome, Carl Menger avait posé les bases de cette approche dans ses Principes d'économie politique. Menger définissait la science économique comme la théorie de la capacité de l'être humain à faire face à ses besoins. Au cœur de la révolution marginaliste des années 1870, il développa une approche qu'il qualifiait d'organique et d'atomistique, insistant sur l'individu comme unité fondamentale de l'analyse économique. Contrairement à l'école historique allemande, Menger ancrait son raisonnement dans les choix des individus concrets. Les prix, les échanges et les marchés émergent spontanément de ces interactions sans nécessiter l'intervention d'un pouvoir centralisateur.
 
@@ -141,7 +153,11 @@ Cette controverse touche à la nature même de l'être humain : l'homme est-il u
 
 ### La critique du scientisme et de l'approche positiviste
 
-Selon la praxéologie, il est impossible de trouver des règles constantes avec des sujets inconstants et variables. Toute tentative en ce sens s'apparente, pour reprendre les mots de Friedrich Hayek, à du scientisme, c'est-à-dire une pseudo-science qui imite les apparences de la rigueur scientifique sans en posséder la substance. Le scientisme consiste à appliquer mécaniquement les méthodes des sciences naturelles aux sciences humaines, sans tenir compte de la différence fondamentale entre les objets étudiés.
+Selon la praxéologie, il est impossible de trouver des règles constantes avec des sujets inconstants et variables. Toute tentative en ce sens s'apparente, pour reprendre les mots de Friedrich Hayek, à du scientisme, c'est-à-dire une pseudo-science qui imite les apparences de la rigueur scientifique sans en posséder la substance.
+
+![image](assets/friedrich_hayek_portrait.webp)
+
+Le scientisme consiste à appliquer mécaniquement les méthodes des sciences naturelles aux sciences humaines, sans tenir compte de la différence fondamentale entre les objets étudiés.
 
 Les économistes autrichiens sont particulièrement critiques envers cette approche. Selon eux, ce scientisme ouvre la voie à une déshumanisation progressive de l'homme. La grandeur humaine, la créativité et l'ingéniosité sont nécessairement niées pour satisfaire aux lois constantes des modèles économiques prétendument objectifs. Les observations empiriques, les modèles mathématiques et les agrégats statistiques ne sont au mieux qu'un complément informatif. Ils ne permettront jamais d'expliquer l'économie dans son ensemble car ils passent à côté de l'essentiel : l'action humaine intentionnelle et créatrice.
 
@@ -204,11 +220,15 @@ Avec Eugen von Böhm-Bawerk, les économistes autrichiens ont développé une th
 
 Un exemple simple illustre ce concept. Vous pouvez pêcher à mains nues dans une rivière, ce qui constitue la production directe. Alternativement, vous pouvez d'abord fabriquer un filet de pêche, ce qui représente un détour de production. Ce détour nécessite du temps et de l'effort sans consommation immédiate, mais une fois le filet terminé, votre productivité sera considérablement accrue. Comme l'a écrit Böhm-Bawerk, l'homme choisit des méthodes de production détournées qui nécessitent plus de temps mais compensent ce retard en générant des produits plus nombreux et de meilleure qualité.
 
+![image](assets/eugen_bohm_bawerk_portrait.webp)
+
 ### L'épargne comme moteur de la structure du capital
 
 L'épargne joue un rôle crucial car elle constitue le signal que la consommation actuelle est satisfaite. Elle indique aux entrepreneurs qu'ils peuvent investir dans d'autres étapes de production sans impacter négativement la consommation présente. L'épargne et son prix, le taux d'intérêt, sont donc essentiels pour orienter la production vers la bonne temporalité.
 
 L'économiste Mark Skousen estime que plus de soixante pour cent des ressources productives disponibles en dehors du secteur public sont consacrées à la production de biens de production. Ce chiffre remarquable signifie que deux tiers des facteurs rares de production ne sont pas consacrés directement à la consommation mais au perfectionnement de la structure du capital. Cette structure servira les intérêts des consommateurs en permettant la production de biens de meilleure qualité, en plus grande quantité et au meilleur prix.
+
+![image](assets/mark_skousen_portrait.webp)
 
 ### Les implications de l'hétérogénéité du capital
 
@@ -286,13 +306,19 @@ Pour démontrer l'impossibilité d'un équilibre parfait, Mises a développé le
 
 La figure de l'entrepreneur occupe une place centrale dans la théorie économique, mais sa définition varie selon les écoles de pensée. Pour les néoclassiques, l'entrepreneur se réduit à un simple allocateur rationnel de ressources. Joseph Schumpeter le présente comme un innovateur exogène qui bouleverse l'équilibre du marché : le nouveau ne sort pas de l'ancien mais apparaît à côté de lui, lui fait concurrence jusqu'à le ruiner. L'école autrichienne développe cependant une conception radicalement différente.
 
+![image](assets/joseph_schumpeter_portrait.webp)
+
 Pour les économistes autrichiens, la fonction entrepreneuriale coïncide avec l'action humaine elle-même. Jésus Huerta de Soto affirme que toute personne agissant en vue de modifier le présent et d'atteindre ses objectifs dans le futur exerce la fonction d'entrepreneur. L'entrepreneur autrichien est un agent économique endogène au marché, qui vient servir les autres agents mieux que ses prédécesseurs. Il dispose d'une meilleure connaissance de l'information, ce qui lui permet de saisir des opportunités et de répondre à des besoins par l'innovation. Loin de perturber un équilibre supposé qui n'existe pas, l'entrepreneur offre aux individus de nouvelles connaissances qui les aident à orienter leurs choix via le système des prix.
+
+![image](assets/jesus_huerta_de_soto_portrait.webp)
 
 ### L'entrepreneur comme force équilibrante selon Israel Kirzner
 
 Israel Kirzner, économiste de tradition misésienne, a conceptualisé l'entrepreneur comme celui qui contribue à réduire l'ignorance des autres acteurs économiques quant aux possibilités offertes par le marché. Dans *Concurrence et esprit d'entreprise* (1973), Kirzner établit une distinction fondamentale avec la vision schumpeterienne. Alors que l'entrepreneur schumpeterien perturbe une situation d'équilibre existante, l'approche kirznerienne insiste sur la contribution de l'entrepreneur à l'équilibre. Les changements qu'il provoque tendent vers l'équilibre plutôt que s'en éloignant.
 
 L'entrepreneur kirznerien constitue une force motrice équilibrante. Il est celui qui prévoit, agit et anticipe les changements grâce à une meilleure connaissance du marché. Cette vision explique la dynamique du processus concurrentiel comme un mécanisme de découverte permanente et de correction des erreurs d'allocation. Huerta de Soto illustre ce rôle crucial de la connaissance : si les réserves pétrolières semblent limitées, la découverte d'un carburateur doublant l'efficacité des moteurs aurait le même effet économique que la duplication du total des réserves physiques.
+
+![image](assets/israel_kirzner_portrait.webp)
 
 ### L'exemple de Robinson Crusoé et le processus entrepreneurial
 
@@ -316,6 +342,8 @@ L'entrepreneur autrichien n'est ni un simple allocateur de ressources ni un dest
 ### L'échangeabilité comme fondement de la monnaie
 
 Pour les économistes de l'école autrichienne, la monnaie se distingue fondamentalement de la conception mainstream qui la présente comme une création institutionnelle émise par les banques centrales et les États. Dans la perspective autrichienne, la monnaie est un bien rare qui émerge spontanément du marché, librement sélectionné par les acteurs économiques pour sa capacité à faciliter les échanges.
+
+![image](assets/murray_rothbard_portrait.webp)
 
 La caractéristique première de la monnaie réside dans son échangeabilité. Murray Rothbard souligne dans "État, qu'as-tu fait de notre monnaie ?" que les fonctions traditionnellement attribuées à la monnaie (moyen d'échange, unité de compte, réserve de valeur) ne sont que des conséquences de sa fonction principale d'intermédiaire dans les échanges. Un bien devient monnaie parce qu'il est perçu comme le plus liquide par les participants au marché. Cette liquidité permet de surmonter les limites du troc en éliminant la nécessité de la double coïncidence des besoins.
 
@@ -444,6 +472,8 @@ Le concept d'intérêt originel, développé par Ludwig von Mises, se définit c
 
 Hans-Hermann Hoppe explique que le taux d'intérêt du marché représente la somme agrégée de tous les niveaux de préférence temporelle individuelle, équilibrant l'épargne sociale avec l'investissement social. À l'échelle de la société, l'ensemble des préférences temporelles se reflète dans le taux d'intérêt naturel du marché, qui change continuellement en fonction des valorisations subjectives des acteurs économiques.
 
+![image](assets/hans_hermann_hoppe_portrait.webp)
+
 Le taux d'intérêt établit également le lien naturel entre débiteur et créancier. Le débiteur privilégie la consommation présente et accepte d'en payer le prix sous forme d'intérêts, car consommer maintenant implique de s'affranchir de l'étape d'accumulation de capital préalable. Le créancier est récompensé pour le report de l'utilisation de son capital au profit d'une amélioration future de sa condition de vie.
 
 Jésus Huerta de Soto souligne que le taux d'intérêt joue un rôle décisif pour coordonner le comportement des consommateurs, des épargnants et des producteurs. Une épargne importante signifie des taux d'intérêt bas et signale aux entrepreneurs de concentrer leurs efforts dans les étapes de production les plus éloignées de la consommation. À l'inverse, une épargne peu abondante fait monter les taux d'intérêt, indiquant que les profits sont à réaliser dans les étapes les plus proches de la consommation finale. L'épargne doit toujours être comprise comme une promesse de consommation future à laquelle les entrepreneurs tentent de répondre.
@@ -559,15 +589,21 @@ Diego de Covarrubias fut l'un des premiers penseurs à mettre en lumière la sub
 
 Plus de trois siècles avant Carl Menger, Covarrubias comprenait que la valeur n'est pas une propriété intrinsèque des objets, mais émerge de l'évaluation subjective des individus. Cette conception s'oppose radicalement à la théorie de la valeur travail qui culminera avec Karl Marx. Luis Saravia de la Calle approfondit cette analyse en démontrant que les coûts tendent à suivre les prix et non l'inverse. Il affirmait que ceux qui mesurent le juste prix d'après le travail se trompent, car le juste prix naît de l'abondance ou du manque de marchandises. Cette idée préfigure exactement ce que l'école autrichienne formalisera concernant la formation des prix.
 
+![image](assets/diego_de_covarrubias_portrait.webp)
+
 ### La conception dynamique du marché et de la concurrence
 
 Le jésuite Louis de Molina anticipa une autre grande notion autrichienne en développant le concept dynamique de la concurrence comme processus de rivalité entre acheteurs et vendeurs. Dans son traité de 1592, il créa une rupture avec les visions statiques de la valeur et s'opposa à la vision mercantiliste dominante. Molina préfigurait l'analyse des marchés comme des processus vivants, constitués par la somme des intérêts personnels et des actions individuelles.
 
 Cette conception dynamique anticipe directement celle que Ludwig von Mises et Friedrich Hayek développeront trois siècles plus tard. Le marché n'est pas un état d'équilibre statique, mais un processus constant d'ajustement et de coordination. Molina comprenait que la concurrence n'est pas une structure parfaite définie mathématiquement, mais un processus entrepreneurial par lequel les acteurs rivalisent pour servir les consommateurs.
 
+![image](assets/louis_de_molina_portrait.webp)
+
 ### La connaissance dispersée et l'impossibilité de la planification centrale
 
 Juan de Lugo et Juan de Salas peuvent être considérés comme des précurseurs de la théorie de la connaissance dispersée. En 1647, Lugo concluait que le prix d'équilibre dépend de circonstances spécifiques que Dieu seul peut connaître. Cette affirmation souligne l'impossibilité pour un être humain de saisir la multitude de circonstances qui déterminent les prix. Salas affirmait de même en 1617 que comprendre précisément l'information créée dans le processus de marché relève de Dieu et non des hommes.
+
+![image](assets/juan_de_mariana_portrait.webp)
 
 Le père Juan de Mariana approfondit cette analyse en démontrant l'impossibilité pour un gouvernement d'organiser la société civile au moyen d'ordres coercitifs, par manque d'information. Il critiquait fortement l'action gouvernementale en affirmant que c'est une grande bêtise que l'aveugle veuille guider celui qui voit. Cette critique anticipée de la planification centrale résonne directement avec l'argument de Ludwig von Mises sur l'impossibilité du calcul économique en régime socialiste. L'école autrichienne n'a donc pas inventé ces idées ex nihilo, mais s'inscrit dans une longue tradition intellectuelle traversant les siècles.
 
@@ -587,13 +623,23 @@ Témoin de la catastrophe du système de papier-monnaie de John Law, Cantillon d
 
 Jean-Baptiste Say a introduit des notions essentielles qui influenceront profondément la pensée autrichienne. Sa célèbre loi des débouchés affirme que toute offre crée sa propre demande. Pour Say, la monnaie n'est qu'un instrument de circulation, non une source de richesse. Cette conception résonne avec la vision autrichienne de la monnaie comme intermédiaire dans les échanges. Say mettait également en avant l'entrepreneur comme principal agent de la production et de l'innovation, abordant la notion d'incertitude et la capacité unique de l'entrepreneur à anticiper la demande future.
 
+![image](assets/jean_baptiste_say_portrait.webp)
+
 Frédéric Bastiat représente le plus célèbre des économistes libéraux français du XIXe siècle. Il a critiqué les conséquences imprévues des interventions étatiques, une critique qui résonne avec les travaux de Mises et Hayek sur les échecs de la planification centralisée. Bastiat comprenait l'impossibilité pour l'État de collecter l'information dispersée dans la société. Il croyait que l'harmonie sociale émerge naturellement d'une loi naturelle comprenant le droit à l'existence, l'échange volontaire et la propriété privée. Cette vision influencera profondément Murray Rothbard. Bastiat fut également l'un des premiers à formuler une critique économique de l'interventionnisme et du socialisme, préfigurant les arguments sur l'impossibilité du calcul économique en régime socialiste.
+
+![image](assets/frederic_bastiat_portrait.webp)
 
 ### L'apport des classiques écossais et la philosophie kantienne
 
 L'école autrichienne doit également beaucoup aux penseurs écossais comme David Hume et Adam Smith pour leur contribution aux libertés politiques et à la protection des droits naturels. Ces penseurs partageaient la conviction que les individus peuvent, grâce à des institutions appropriées, poursuivre leurs intérêts personnels de manière bénéfique pour tous. La célèbre métaphore de la main invisible exprime ce principe d'émergence spontanée d'un ordre social. Comme l'explique Stephen Horwitz, Menger et les économistes autrichiens ont fourni une explication plus solide aux intuitions de Smith en combinant l'ordre spontané avec le marginalisme et le subjectivisme.
 
+![image](assets/david_hume_portrait.webp)
+
+![image](assets/adam_smith_portrait.webp)
+
 La philosophie d'Emmanuel Kant a fourni un cadre conceptuel essentiel, notamment concernant la connaissance a priori qui sous-tend la praxéologie. Kant distingue la connaissance a priori, indépendante de l'expérience, de la connaissance a posteriori, tirée des observations empiriques. Il différencie également le phénomène, ce que l'individu perçoit, du noumène, la chose en elle-même inaccessible. Hans-Hermann Hoppe a souligné l'importance de cette philosophie : Kant a développé l'idée que nos propositions peuvent être classées selon deux critères (analytiques ou synthétiques, a priori ou a posteriori). La marque caractéristique de la philosophie kantienne est l'affirmation que des propositions synthétiques a priori vraies existent, et c'est précisément parce que Mises souscrit à cette thèse qu'on peut le qualifier de kantien. L'axiome de l'action humaine appartient à cette catégorie de propositions dont la valeur de vérité peut être établie sans recours à l'observation empirique.
+
+![image](assets/immanuel_kant_portrait.webp)
 
 ## Aux origines de la révolution marginaliste
 <chapterId>6a586bf5-7184-4903-9328-f0d64e337a1b</chapterId>
@@ -616,6 +662,8 @@ Le déterminisme historique constitue une autre faiblesse majeure. Cette vision 
 Le second courant dominant était l'école historique allemande, menée par Gustav von Schmoller. Cette école défendait la vision selon laquelle l'économie ne pouvait être comprise qu'à travers une analyse historique et une contextualisation des phénomènes propres à chaque société. Basée sur une méthode empirique où l'accumulation de données joue un rôle prépondérant, cette approche nie l'existence de toute théorie économique universelle.
 
 Cette querelle méthodologique s'inscrit dans un contexte politique particulier. L'empire allemand, né de la guerre franco-prussienne de 1870, se caractérise par son nationalisme et son étatisme. Le collectif prime sur l'individu et le corps administratif constitue la principale force organisatrice de la société germanique. L'approche historiciste vise ainsi à légitimer la supériorité organisationnelle de l'empire allemand face au supposé désordre du libéralisme britannique.
+
+![image](assets/gustav_von_schmoller_portrait.webp)
 
 ### La querelle des méthodes et la naissance de l'école autrichienne
 

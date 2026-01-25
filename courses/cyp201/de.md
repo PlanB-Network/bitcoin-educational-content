@@ -1621,23 +1621,24 @@ In diesem Kapitel haben wir gesehen, dass es zwei verschiedene Arten von Kinders
 
 :::video id=80387fa0-bee8-4aac-9eac-93e90e55a1cb:::
 
-Die Ableitung von Kinderschlüsselpaaren in Bitcoin HD-Wallets basiert auf einer hierarchischen Struktur, die es ermöglicht, eine große Anzahl von Schlüsseln zu generieren, während diese Paare durch Zweige in verschiedene Gruppen organisiert werden. Jedes von einem Elternpaar abgeleitete Kindpaar kann entweder direkt in einem *scriptPubKey* verwendet werden, um Bitcoins zu sperren, oder als Ausgangspunkt, um mehr Kinderschlüssel zu generieren, und so weiter, um einen Baum von Schlüsseln zu erstellen.
+Die Ableitung von Kinderschlüsselpaaren in Bitcoin HD-Wallets basiert auf einer hierarchischen Struktur, die es ermöglicht, eine große Anzahl von Schlüsseln zu generieren, während diese Paare durch Zweige in verschiedene Gruppen organisiert werden. Jedes von einem Elternpaar abgeleitete Kindpaar kann entweder direkt in einem *scriptPubKey* verwendet werden, um Bitcoin zu sperren, oder als Ausgangspunkt, um mehr Kinderschlüssel zu generieren, und so weiter, um einen Baum von Schlüsseln zu erstellen.
 
-Alle diese Ableitungen beginnen mit dem Master-Schlüssel und dem Master-Chain-Code, die die ersten Eltern auf der Tiefeebene 0 sind. du sind gewissermaßen der Adam und Eva der Schlüssel Ihrer Wallet, die gemeinsamen Vorfahren aller abgeleiteten Schlüssel.
+Alle diese Ableitungen beginnen mit dem Master-Schlüssel und dem Master-Chain-Code, die die ersten Eltern auf der Tiefenebene 0 sind. Sie sind gewissermaßen die Adam und Eva der Schlüssel deiner Wallet, die gemeinsamen Vorfahren aller abgeleiteten Schlüssel.
 
 ![CYP201](assets/en/053.webp)
 
-Lassen du uns erkunden, wie diese deterministische Ableitung funktioniert.
+Lass uns erkunden, wie diese deterministische Ableitung funktioniert.
 
 ### Die verschiedenen Arten von Kinderschlüsselableitungen
 
 Wie wir im vorherigen Kapitel kurz angesprochen haben: Kinderschlüssel sind in zwei Haupttypen unterteilt:
 - **Normale Kinderschlüssel** ($k_{\text{CHD}}^n, K_{\text{CHD}}^n$): Diese werden vom erweiterten öffentlichen Schlüssel ($K_{\text{PAR}}$) oder dem erweiterten privaten Schlüssel ($k_{\text{PAR}}$) abgeleitet, indem zuerst der öffentliche Schlüssel abgeleitet wird.
 - **Gehärtete Kinderschlüssel** ($k_{\text{CHD}}^h, K_{\text{CHD}}^h$): Diese können nur vom erweiterten privaten Schlüssel ($k_{\text{PAR}}$) abgeleitet werden und sind daher für Beobachter, die nur den erweiterten öffentlichen Schlüssel haben, unsichtbar.
-Jedes Kind-Schlüsselpaar wird durch einen 32-Bit **Index** (benannt $i$ in unseren Berechnungen) identifiziert. Die Indizes für normale Schlüssel reichen von $0$ bis $2^{31}-1$, während die für gehärtete Schlüssel von $2^{31}$ bis $2^{32}-1$ reichen. Diese Zahlen werden verwendet, um Geschwister-Schlüsselpaare während der Ableitung zu unterscheiden. Tatsächlich muss jedes Eltern-Schlüsselpaar in der Lage sein, mehrere Kind-Schlüsselpaare abzuleiten. Würden wir dieselbe Berechnung systematisch von den Elternschlüsseln aus anwenden, wären alle erhaltenen Geschwisterschlüssel identisch, was nicht wünschenswert ist. Der Index führt somit eine Variable ein, die die Ableitungsberechnung modifiziert und es ermöglicht, jedes Geschwisterpaar zu differenzieren. Außer für spezifische Verwendungen in bestimmten Protokollen und Ableitungsstandards beginnen wir in der Regel damit, das erste Kind-Schlüsselpaar mit dem Index `0`, das zweite mit dem Index `1` usw. abzuleiten.
+Jedes Kind-Schlüsselpaar wird durch einen 32-Bit **Index** (benannt $i$ in unseren Berechnungen) identifiziert. Die Indizes für normale Schlüssel reichen von $0$ bis $2^{31}-1$, während die für gehärtete Schlüssel von $2^{31}$ bis $2^{32}-1$ reichen. Diese Zahlen werden verwendet, um Geschwister-Schlüsselpaare während der Ableitung zu unterscheiden. Tatsächlich muss jedes Eltern-Schlüsselpaar in der Lage sein, mehrere Kinder-Schlüsselpaare abzuleiten. Würden wir dieselbe Berechnung systematisch von den Elternschlüsseln aus anwenden, wären alle erhaltenen Geschwisterschlüssel identisch, was nicht wünschenswert ist. Der Index führt somit eine Variable ein, die die Ableitungsberechnung modifiziert und es ermöglicht, jedes Geschwisterpaar zu differenzieren. Außer für spezifische Verwendungen in bestimmten Protokollen und Ableitungsstandards beginnen wir in der Regel damit, das erste Kind-Schlüsselpaar mit dem Index `0`, das zweite mit dem Index `1` usw. abzuleiten.
+
 ### Ableitungsprozess mit HMAC-SHA512
 
-Die Ableitung jedes Kind-Schlüssels basiert auf der HMAC-SHA512-Funktion, die wir in Abschnitt 2 über Hashfunktionen besprochen haben. du nimmt zwei Eingaben: den Master-Chain-Code $C_{\text{PAR}}$ und die Verkettung des Elternschlüssels (entweder des öffentlichen Schlüssels $K_{\text{PAR}}$ oder des privaten Schlüssels $k_{\text{PAR}}$, abhängig von der Art des gewünschten Kind-Schlüssels) und des Index. Die Ausgabe des HMAC-SHA512 ist eine 512-Bit-Sequenz, aufgeteilt in zwei Teile:
+Die Ableitung jedes Kind-Schlüssels basiert auf der HMAC-SHA512-Funktion, die wir in Abschnitt 2 über Hashfunktionen besprochen haben. Sie nimmt zwei Eingaben: den Master-Chain-Code $C_{\text{PAR}}$ und die Verkettung des Elternschlüssels (entweder des öffentlichen Schlüssels $K_{\text{PAR}}$ oder des privaten Schlüssels $k_{\text{PAR}}$, abhängig von der Art des gewünschten Kind-Schlüssels) und des Index. Die Ausgabe des HMAC-SHA512 ist eine 512-Bit-Sequenz, aufgeteilt in zwei Teile:
 - **Die ersten 32 Bytes** (oder $h_1$) werden verwendet, um das neue Kind-Paar zu berechnen.
 - **Die letzten 32 Bytes** (oder $h_2$) dienen als neuer Chain-Code $C_{\text{CHD}}$ für das Kind-Paar.
 
@@ -1645,9 +1646,9 @@ In all unseren Berechnungen werde ich $\text{hash}$ die Ausgabe der HMAC-SHA512-
 
 ![CYP201](assets/en/054.webp)
 
-#### Ableitung eines Kind-Privatschlüssels von einem Eltern-Privatschlüssel
+#### Ableitung eines privaten Kind-Schlüssels von einem privaten Eltern-Schlüssel
 
-Um einen Kind-Privatschlüssel $k_{\text{CHD}}$ von einem Eltern-Privatschlüssel $k_{\text{PAR}}$ abzuleiten, sind zwei Szenarien möglich, abhängig davon, ob ein gehärteter oder normaler Schlüssel gewünscht ist.
+Um einen privaten Kind-Schlüssel $k_{\text{CHD}}$ von einem privaten Eltern-Schlüssel $k_{\text{PAR}}$ abzuleiten, sind zwei Szenarien möglich, abhängig davon, ob ein gehärteter oder normaler Schlüssel gewünscht ist.
 
 Für einen **normalen Kind-Schlüssel** ($i < 2^{31}$) erfolgt die Berechnung von $\text{hash}$ wie folgt:
 
@@ -1655,9 +1656,8 @@ $$
 \text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, G \cdot k_{\text{PAR}} \Vert i)
 $$
 
-In dieser Berechnung beobachten wir, dass unsere HMAC-Funktion zwei Eingaben nimmt: zuerst den Master-Chain-Code und dann die Verkettung des Index mit dem öffentlichen Schlüssel, der mit dem Eltern-Privatschlüssel assoziiert ist. Der Eltern-Öffentliche-Schlüssel wird hier verwendet, weil wir einen normalen Kind-Schlüssel ableiten möchten, keinen gehärteten.
+In dieser Berechnung beobachten wir, dass unsere HMAC-Funktion zwei Eingaben nimmt: zuerst den Master-Chain-Code und dann die Verkettung des Index mit dem öffentlichen Schlüssel, der mit dem privaten Eltern-Schlüssel assoziiert ist. Der öffentliche Eltern-Schlüssel wird hier verwendet, weil wir einen normalen Kind-Schlüssel ableiten möchten, keinen gehärteten.
 Wir haben jetzt einen 64-Byte $\text{hash}$, den wir in 2 Teile zu je 32 Bytes aufteilen: $h_1$ und $h_2$:
-
 
 $$
 
@@ -1665,13 +1665,11 @@ $$
 
 $$
 
-
 $$
 h_1 = \text{hash}_{[:32]} \quad, \quad h_2 = \text{hash}_{[32:]}
 $$
 
-Der Kind-Privatschlüssel $k_{\text{CHD}}^n$ wird dann wie folgt berechnet:
-
+Der private Kind-Schlüssel $k_{\text{CHD}}^n$ wird dann wie folgt berechnet:
 
 $$
 
@@ -1679,11 +1677,10 @@ k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
 
 $$
 
-Bei dieser Berechnung besteht die Operation $\text{parse256}(h_1)$ darin, die ersten 32 Bytes des $\text{hash}$ als eine 256-Bit-Ganzzahl zu interpretieren. Diese Zahl wird dann zum übergeordneten privaten Schlüssel hinzugefügt, alles modulo $n$ genommen, um innerhalb der Ordnung der elliptischen Kurve zu bleiben, wie wir in Abschnitt 3 über digitale Signaturen gesehen haben. Um also einen normalen Kind-Privatschlüssel abzuleiten, obwohl der öffentliche Schlüssel des Elternteils als Basis für die Berechnung in den Eingaben der HMAC-SHA512-Funktion verwendet wird, ist es immer notwendig, den privaten Schlüssel des Elternteils zu haben, um die Berechnung abzuschließen.
-Von diesem Kind-Privatschlüssel aus ist es möglich, den entsprechenden öffentlichen Schlüssel abzuleiten, indem ECDSA oder Schnorr angewendet wird. Auf diese Weise erhalten wir ein vollständiges Schlüsselpaar.
+Bei dieser Berechnung besteht die Operation $\text{parse256}(h_1)$ darin, die ersten 32 Bytes des $\text{hash}$ als eine 256-Bit-Ganzzahl zu interpretieren. Diese Zahl wird dann zum übergeordneten privaten Schlüssel hinzugefügt, alles modulo $n$ genommen, um innerhalb der Ordnung der elliptischen Kurve zu bleiben, wie wir in Abschnitt 3 über digitale Signaturen gesehen haben. Um also einen normalen privaten Kind-Schlüssel abzuleiten, obwohl der öffentliche Schlüssel des Elternteils als Basis für die Berechnung in den Eingaben der HMAC-SHA512-Funktion verwendet wird, ist es immer notwendig, den privaten Schlüssel des Elternteils zu haben, um die Berechnung abzuschließen.
+Von diesem privaten Kind-Schlüssel aus ist es möglich, den entsprechenden öffentlichen Schlüssel abzuleiten, indem ECDSA oder Schnorr angewendet wird. Auf diese Weise erhalten wir ein vollständiges Schlüsselpaar.
 
-Dann wird der zweite Teil des $\text{hash}$ einfach als der Kettenkode für das Kind-Schlüsselpaar interpretiert, das wir gerade abgeleitet haben:
-
+Dann wird der zweite Teil des $\text{hash}$ einfach als der Chain-Code für das Kind-Schlüsselpaar interpretiert, das wir gerade abgeleitet haben:
 
 $$
 
@@ -1695,14 +1692,14 @@ Hier ist eine schematische Darstellung der gesamten Ableitung:
 
 ![CYP201](assets/en/055.webp)
 
-Für einen **verstärkten Kind-Schlüssel** ($i \geq 2^{31}$) erfolgt die Berechnung des $\text{hash}$ wie folgt:
+Für einen **gehärteten Kind-Schlüssel** ($i \geq 2^{31}$) erfolgt die Berechnung des $\text{hash}$ wie folgt:
 
 
 $$
 hash = \text{HMAC-SHA512}(C_{\text{PAR}}, 0x00 \Vert k_{\text{PAR}} \Vert i)
 $$
 
-In dieser Berechnung beobachten wir, dass unsere HMAC-Funktion zwei Eingaben nimmt: zuerst den Master-Chain-Code und dann die Verkettung des Index mit dem privaten Schlüssel des Elternteils. Der private Schlüssel des Elternteils wird hier verwendet, weil wir darauf abzielen, einen verstärkten Kind-Schlüssel abzuleiten. Außerdem wird am Anfang des Schlüssels ein Byte gleich `0x00` hinzugefügt. Diese Operation gleicht seine Länge an, um der eines komprimierten öffentlichen Schlüssels zu entsprechen.
+In dieser Berechnung beobachten wir, dass unsere HMAC-Funktion zwei Eingaben nimmt: zuerst den Master-Chain-Code und dann die Verkettung des Index mit dem privaten Eltern-Schlüssel. Der private Schlüssel des Elternteils wird hier verwendet, weil wir darauf abzielen, einen gehärteten Kind-Schlüssel abzuleiten. Außerdem wird am Anfang des Schlüssels ein Byte mit dem Wert `0x00` hinzugefügt. Diese Operation gleicht seine Länge an, um der eines komprimierten öffentlichen Schlüssels zu entsprechen.
 So haben wir jetzt einen 64-Byte $\text{hash}$, den wir in 2 Teile von je 32 Bytes aufteilen werden: $h_1$ und $h_2$:
 $$
 
@@ -1717,7 +1714,7 @@ h_1 = \text{hash}[:32] \quad, \quad h_2 = \text{hash}[32:]
 
 $$
 
-Der Kind-Privatschlüssel $k_{\text{CHD}}^h$ wird dann wie folgt berechnet:
+Der private Kind-Schlüssel $k_{\text{CHD}}^h$ wird dann wie folgt berechnet:
 
 
 $$
@@ -1726,7 +1723,7 @@ k_{\text{CHD}}^h = \text{parse256}(h_1) + k_{\text{PAR}} \mod n
 
 $$
 
-Als Nächstes interpretieren wir einfach den zweiten Teil des $\text{hash}$ als den Kettenkode für das Paar von Kind-Schlüsseln, das wir gerade abgeleitet haben:
+Als Nächstes interpretieren wir einfach den zweiten Teil des $\text{hash}$ als den Chain-Code für das Paar von Kind-Schlüsseln, das wir gerade abgeleitet haben:
 
 
 $$
@@ -1739,10 +1736,10 @@ Hier ist eine schematische Darstellung der gesamten Ableitung:
 
 ![CYP201](assets/en/056.webp)
 
-Wir können sehen, dass die normale Ableitung und die verstärkte Ableitung auf die gleiche Weise funktionieren, mit diesem Unterschied: Die normale Ableitung verwendet den öffentlichen Schlüssel des Elternteils als Eingabe für die HMAC-Funktion, während die verstärkte Ableitung den privaten Schlüssel des Elternteils verwendet.
+Wir können sehen, dass die normale Ableitung und die verstärkte Ableitung auf die gleiche Weise funktionieren, mit einem Unterschied: Die normale Ableitung verwendet den öffentlichen Schlüssel des Elternteils als Eingabe für die HMAC-Funktion, während die verstärkte Ableitung den privaten Schlüssel des Elternteils verwendet.
 
 #### Ableitung eines öffentlichen Kind-Schlüssels aus einem öffentlichen Eltern-Schlüssel
-Wenn wir nur den öffentlichen Schlüssel des Elternteils $K_{\text{PAR}}$ und den zugehörigen Ketten-Code $C_{\text{PAR}}$ kennen, also einen erweiterten öffentlichen Schlüssel, ist es möglich, Kind-öffentliche Schlüssel $K_{\text{CHD}}^n$ abzuleiten, aber nur für normale (nicht verstärkte) Kind-Schlüssel. Dieses Prinzip ermöglicht es insbesondere, die Bewegungen eines Kontos in einer Bitcoin-Wallet vom `xpub` (*nur-beobachten*) zu überwachen.
+Wenn wir nur den öffentlichen Schlüssel des Elternteils $K_{\text{PAR}}$ und den zugehörigen Chain-Code $C_{\text{PAR}}$ kennen, also einen erweiterten öffentlichen Schlüssel, ist es möglich, öffentliche Kind-Schlüssel $K_{\text{CHD}}^n$ abzuleiten, aber nur für normale (nicht verstärkte) Kind-Schlüssel. Dieses Prinzip ermöglicht es insbesondere, die Bewegungen eines Kontos in einer Bitcoin-Wallet vom `xpub` (*watch-only*) zu überwachen.
 
 Um diese Berechnung durchzuführen, werden wir den $\text{hash}$ mit einem Index $i < 2^{31}$ (normale Ableitung) berechnen:
 
@@ -1750,7 +1747,7 @@ $$
 \text{hash} = \text{HMAC-SHA512}(C_{\text{PAR}}, K_{\text{PAR}} \Vert i)
 $$
 
-In dieser Berechnung beobachten wir, dass unsere HMAC-Funktion zwei Eingaben nimmt: zuerst den Ketten-Code des Elternteils, dann die Verkettung des Indexes mit dem öffentlichen Schlüssel des Elternteils.
+In dieser Berechnung beobachten wir, dass unsere HMAC-Funktion zwei Eingaben nimmt: zuerst den Chain-Code des Elternteils, dann die Verkettung des Indexes mit dem öffentlichen Schlüssel des Elternteils.
 
 So haben wir jetzt einen $hash$ von 64 Bytes, den wir in 2 Teile von je 32 Bytes aufteilen werden: $h_1$ und $h_2$:
 
@@ -1775,9 +1772,9 @@ K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}
 $$
 
 Wenn $\text{parse256}(h_1) \geq n$ (Ordnung der elliptischen Kurve) ist oder wenn $K_{\text{CHD}}^n$ der Punkt im Unendlichen ist, ist die Ableitung ungültig, und ein anderer Index muss gewählt werden.
-In dieser Berechnung beinhaltet die Operation $\text{parse256}(h_1)$, die ersten 32 Bytes des $\text{hash}$ als eine 256-Bit-Ganzzahl zu interpretieren. Diese Zahl wird verwendet, um einen Punkt auf der elliptischen Kurve durch Addition und Verdopplung vom Generatorpunkt $G$ zu berechnen. Dieser Punkt wird dann zum öffentlichen Schlüssel des Elternteils addiert, um den normalen öffentlichen Kind-Schlüssel zu erhalten. Somit ist zur Ableitung eines normalen öffentlichen Kind-Schlüssels nur der öffentliche Schlüssel des Elternteils und der Ketten-Code des Elternteils notwendig; der private Schlüssel des Elternteils kommt in diesem Prozess im Gegensatz zur Berechnung des abgeleiteten privaten Schlüssels, die wir zuvor gesehen haben, nie ins Spiel.
+In dieser Berechnung beinhaltet die Operation $\text{parse256}(h_1)$, die ersten 32 Bytes des $\text{hash}$ als eine 256-Bit-Ganzzahl zu interpretieren. Diese Zahl wird verwendet, um einen Punkt auf der elliptischen Kurve durch Addition und Verdopplung vom Generatorpunkt $G$ zu berechnen. Dieser Punkt wird dann zum öffentlichen Eltern-Schlüssel addiert, um den normalen öffentlichen Kind-Schlüssel zu erhalten. Somit ist zur Ableitung eines normalen öffentlichen Kind-Schlüssels nur der öffentliche Schlüssel des Elternteils und der Chain-Code des Elternteils notwendig; der private Schlüssel des Elternteils kommt in diesem Prozess im Gegensatz zur Berechnung des abgeleiteten privaten Schlüssels, die wir zuvor gesehen haben, nie ins Spiel.
 
-Als Nächstes ist der Ketten-Code des Kindes einfach:
+Als Nächstes ist der Chain-Code des Kindes einfach:
 
 $$
 C_{\text{CHD}} = h_2
@@ -1787,13 +1784,14 @@ Hier ist eine schematische Darstellung der gesamten Ableitung:
 
 ![CYP201](assets/en/057.webp)
 
-### Entsprechung zwischen öffentlichen Kind-und privaten Schlüsseln
+### Entsprechung zwischen öffentlichen und privaten Kind-Schlüsseln
 
-Eine Frage, die aufkommen könnte, ist, wie ein normaler Kind-öffentlicher Schlüssel, der von einem Eltern-öffentlichen Schlüssel abgeleitet wurde, einem normalen abgeleiteten privaten Schlüssel entsprechen kann, der vom entsprechenden Eltern-privaten Schlüssel abgeleitet wurde. Diese Verbindung wird genau durch die Eigenschaften elliptischer Kurven sichergestellt. Tatsächlich wird zur Ableitung eines normalen öffentlichen Kind-Schlüssels HMAC-SHA512 auf die gleiche Weise angewendet, aber sein Ausgang wird anders verwendet:
-   - **Normaler Kind-privater Schlüssel**: $k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n$
-   - **Normaler Kind-öffentlicher Schlüssel**: $K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}$
+Eine Frage, die aufkommen könnte, ist, wie ein normaler öffentlicher Kind-Schlüssel, der von einem öffentlichen Eltern-Schlüssel abgeleitet wurde, einem normalen abgeleiteten privaten Schlüssel entsprechen kann, der vom entsprechenden privaten Eltern-Schlüssel abgeleitet wurde. Diese Verbindung wird genau durch die Eigenschaften elliptischer Kurven sichergestellt. Tatsächlich wird zur Ableitung eines normalen öffentlichen Kind-Schlüssels HMAC-SHA512 auf die gleiche Weise angewendet, aber ihr Ausgang wird anders verwendet:
+   - **Normaler privater Kind-Schlüssel**: $k_{\text{CHD}}^n = \text{parse256}(h_1) + k_{\text{PAR}} \mod n$
+   - **Normaler öffentlicher Kind-Schlüssel**: $K_{\text{CHD}}^n = G \cdot \text{parse256}(h_1) + K_{\text{PAR}}$
 
-Dank der Addition und Verdopplungsoperationen auf der elliptischen Kurve liefern beide Methoden konsistente Ergebnisse: Der vom Kind-Privatschlüssel abgeleitete öffentliche Schlüssel ist identisch mit dem öffentlichen Kind-Schlüssel, der direkt vom Eltern-Öffentlichen Schlüssel abgeleitet wurde.
+Dank der Addition und Verdopplungsoperationen auf der elliptischen Kurve liefern beide Methoden konsistente Ergebnisse: Der vom privaten Kind-Schlüssel abgeleitete öffentliche Schlüssel ist identisch mit dem öffentlichen Kind-Schlüssel, der direkt vom öffentlichen Eltern-Schlüssel abgeleitet wurde.
+
 ### Zusammenfassung der Ableitungstypen
 
 Zusammengefasst gibt es hier die verschiedenen möglichen Typen von Ableitungen:
@@ -1811,31 +1809,31 @@ K_{\text{PAR}} \rightarrow K_{\text{CHD}} & K_{\text{PAR}} & K_{\text{CHD}}^n & 
 \end{array}
 $$
 
-Zusammengefasst haben du bisher gelernt, die grundlegenden Elemente des HD-Wallets zu erstellen: die mnemonische Phrase, den Seed und dann den Master-Schlüssel und den Master-Chain-Code. du haben auch entdeckt, wie man in diesem Kapitel Kind-Schlüsselpaare ableitet. Im nächsten Kapitel werden wir erforschen, wie diese Ableitungen in Bitcoin-Wallets organisiert sind und welche Struktur zu befolgen ist, um konkret die Empfangsadressen sowie die Schlüsselpaare, die im *scriptPubKey* und *scriptSig* verwendet werden, zu erhalten.
+Zusammengefasst hast du bisher gelernt, die grundlegenden Elemente einer HD-Wallet zu erstellen: die Mnemonic-Phrase, den Seed und dann den Master-Schlüssel und den Master-Chain-Code. Du hast auch entdeckt, wie man in diesem Kapitel Kind-Schlüsselpaare ableitet. Im nächsten Kapitel werden wir erforschen, wie diese Ableitungen in Bitcoin-Wallets organisiert sind und welche Struktur zu befolgen ist, um konkret die Empfangsadressen sowie die Schlüsselpaare, die im *scriptPubKey* und *scriptSig* verwendet werden, zu erhalten.
 
 ## Wallet-Struktur und Ableitungspfade
 <chapterId>34e1bbda-67de-5493-b268-1fded8d67689</chapterId>
 
 :::video id=9fff62bf-9203-46f1-bb4d-4f5a9d5875f8:::
 
-Die hierarchische Struktur von HD-Wallets bei Bitcoin ermöglicht die Organisation von Schlüsselpaaren auf verschiedene Weisen. Die Idee besteht darin, von dem Master-Privatschlüssel und dem Master-Chain-Code aus mehrere Tiefenebenen abzuleiten. Jede hinzugefügte Ebene entspricht der Ableitung eines Kind-Schlüsselpaares von einem Eltern-Schlüsselpaar.
+Die hierarchische Struktur von HD-Wallets bei Bitcoin ermöglicht die Organisation von Schlüsselpaaren auf verschiedene Weisen. Die Idee besteht darin, von dem privaten Master-Schlüssel und dem Master-Chain-Code aus mehrere Tiefenebenen abzuleiten. Jede hinzugefügte Ebene entspricht der Ableitung eines Kind-Schlüsselpaares von einem Eltern-Schlüsselpaar.
 
 Im Laufe der Zeit haben verschiedene BIPs (*Bitcoin Improvement Proposals*) Standards für diese Ableitungspfade eingeführt, um deren Nutzung über verschiedene Software hinweg zu standardisieren. In diesem Kapitel werden wir also die Bedeutung jeder Ableitungsebene in HD-Wallets gemäß diesen Standards entdecken.
 
 ### Die Tiefen der Ableitung eines HD-Wallets
 
-Ableitungspfade sind in Tiefenebenen organisiert, die von Tiefe 0, die den Master-Schlüssel und den Master-Chain-Code repräsentiert, bis zu Unter-Ebenen für die Ableitung von Adressen reichen, die verwendet werden, um UTXOs zu sperren. Die BIPs definieren die Standards für jede Ebene, was hilft, Praktiken über verschiedene Wallet-Management-Software hinweg zu harmonisieren.
+Ableitungspfade sind in Tiefenebenen organisiert, die von Tiefe 0, die den Master-Schlüssel und den Master-Chain-Code repräsentiert, bis zu untergeordneten Ebenen für die Ableitung von Adressen reichen, die verwendet werden, um UTXOs zu sperren. Die BIPs definieren die Standards für jede Ebene, was hilft, Praktiken über verschiedene Wallet-Management-Software hinweg zu harmonisieren.
 
-Ein Ableitungspfad bezieht sich daher auf die Sequenz von Indizes, die verwendet werden, um Kind-Schlüssel von einem Master-Schlüssel abzuleiten.
+Ein Ableitungspfad bezieht sich daher auf die Sequenz von Indizes, die verwendet wird, um Kind-Schlüssel von einem Master-Schlüssel abzuleiten.
 
 **Tiefe 0: Master-Schlüssel (BIP32)**
 
-Diese Tiefe entspricht dem Master-Privatschlüssel und dem Master-Chain-Code des Wallets. du wird durch die Notation $m/$ dargestellt.
+Diese Tiefe entspricht dem privaten Master-Schlüssel und dem Master-Chain-Code der Wallet. Sie wird durch die Notation $m/$ dargestellt.
 
 **Tiefe 1: Zweck (BIP43)**
 
 Das Ziel bestimmt die logische Struktur der Ableitung. Zum Beispiel wird eine P2WPKH-Adresse auf der Tiefe 1 den Index $/84'/$ haben (gemäß BIP84), während eine P2TR-Adresse den Index $/86'/$ haben wird (gemäß BIP86). Diese Schicht erleichtert die Kompatibilität zwischen Wallets, indem sie Indexnummern angibt, die den BIP-Nummern entsprechen.
-Anders gesagt, sobald du den Master-Schlüssel und den Master-Chain-Code haben, dienen diese als Elternschlüsselpaar, um ein Kind-Schlüsselpaar abzuleiten. Der in dieser Ableitung verwendete Index kann zum Beispiel $/84'/$ sein, wenn das Wallet vorgesehen ist, SegWit v0 Typ-Skripte zu verwenden. Dieses Schlüsselpaar befindet sich dann auf Tiefe 1. Seine Rolle ist es nicht, Bitcoins zu sperren, sondern einfach als Wegpunkt in der Ableitungshierarchie zu dienen.
+Anders gesagt, sobald du den Master-Schlüssel und den Master-Chain-Code hast, dienen diese als Elternschlüsselpaar, um ein Kind-Schlüsselpaar abzuleiten. Der in dieser Ableitung verwendete Index kann zum Beispiel $/84'/$ sein, wenn die Wallet vorgesehen ist, SegWit v0 Typ-Skripte zu verwenden. Dieses Schlüsselpaar befindet sich dann auf Tiefe 1. Seine Rolle ist es nicht, Bitcoins zu sperren, sondern einfach als Wegpunkt in der Ableitungshierarchie zu dienen.
 
 **Tiefe 2: Währungstyp (BIP44)**
 
@@ -1850,19 +1848,19 @@ Um dir andere Beispiele zu geben, hier sind die Indizes einiger Währungen:
 
 **Tiefe 3: Konto (BIP32)**
 
-Jede Wallet kann in mehrere Konten unterteilt werden, nummeriert ab $2^{31}$, und auf Tiefe 3 durch $/0'/$ für das erste Konto, $/1'/$ für das zweite usw. dargestellt. Allgemein, wenn auf einen erweiterten Schlüssel `xpub` Bezug genommen wird, bezieht es sich auf Schlüssel auf dieser Ableitungstiefe.
+Jede Wallet kann in mehrere Konten unterteilt werden, nummeriert ab $2^{31}$, und auf Tiefe 3 durch $/0'/$ für das erste Konto, $/1'/$ für das zweite usw. dargestellt. Allgemein, wenn auf einen erweiterten Schlüssel `xpub` Bezug genommen wird, bezieht sich dies sich auf Schlüssel dieser Ableitungstiefe.
 
-Diese Unterteilung in verschiedene Konten ist optional. du zielt darauf ab, die Organisation der Wallet für Benutzer zu vereinfachen. In der Praxis wird oft nur ein Konto verwendet, üblicherweise das erste standardmäßig. Jedoch kann es in einigen Fällen, wenn man Schlüsselpaare für unterschiedliche Verwendungen klar unterscheiden möchte, nützlich sein. Zum Beispiel ist es möglich, aus demselben Seed ein persönliches und ein berufliches Konto zu erstellen, mit völlig unterschiedlichen Schlüsselgruppen ab dieser Ableitungstiefe.
+Diese Unterteilung in verschiedene Konten ist optional. Sie zielt darauf ab, die Organisation der Wallet für Benutzer zu vereinfachen. In der Praxis wird oft nur ein Konto verwendet, üblicherweise das erste standardmäßig. Jedoch kann es in einigen Fällen, wenn man Schlüsselpaare für unterschiedliche Verwendungen klar unterscheiden möchte, nützlich sein. Zum Beispiel ist es möglich, aus demselben Seed ein persönliches und ein berufliches Konto zu erstellen, mit völlig unterschiedlichen Schlüsselgruppen ab dieser Ableitungstiefe.
 
 **Tiefe 4: Kette (BIP32)**
 
 Jedes auf Tiefe 3 definierte Konto wird dann in zwei Ketten strukturiert:
-- **Die externe Kette**: In dieser Kette werden sogenannte "öffentliche" Adressen abgeleitet. Diese Empfangsadressen sind dazu bestimmt, UTXOs zu sperren, die von externen Transaktionen kommen (das heißt, von der Verwendung von UTXOs, die nicht dir gehören). Einfach ausgedrückt, wird diese externe Kette immer dann verwendet, wenn man Bitcoins erhalten möchte. Wenn du in Ihrer Wallet-Software auf "*empfangen*" klicken, wird dir immer eine Adresse aus der externen Kette angeboten. Diese Kette wird durch ein Paar von Schlüsseln dargestellt, die mit dem Index $/0/$ abgeleitet werden.
-- **Die interne Kette (Wechselgeld)**: Diese Kette ist für Empfangsadressen reserviert, die Bitcoins sperren, die von der Verwendung von UTXOs kommen, die dir gehören, mit anderen Worten, Wechselgeldadressen. du wird durch den Index $/1/$ identifiziert.
+- **Die externe Kette**: In dieser Kette werden sogenannte "öffentliche" Adressen abgeleitet. Diese Empfangsadressen sind dazu bestimmt, UTXOs zu sperren, die von externen Transaktionen kommen (das heißt, von der Verwendung von UTXOs, die nicht dir gehören). Einfach ausgedrückt, wird diese externe Kette immer dann verwendet, wenn man Bitcoins erhalten möchte. Wenn du in deiner Wallet-Software auf "*empfangen*" klickst, wird dir immer eine Adresse aus der externen Kette angeboten. Diese Kette wird durch ein Paar von Schlüsseln dargestellt, die mit dem Index $/0/$ abgeleitet werden.
+- **Die interne Kette (Wechselgeld)**: Diese Kette ist für Empfangsadressen reserviert, die Bitcoin sperren, die von der Verwendung von UTXOs kommen, die dir gehören, mit anderen Worten, Wechselgeldadressen. Sie wird durch den Index $/1/$ identifiziert.
 
 **Tiefe 5: Adressindex (BIP32)**
 
-Schließlich stellt Tiefe 5 den letzten Schritt der Ableitung im Wallet dar. Obwohl es technisch möglich ist, unendlich fortzufahren, stoppen die aktuellen Standards hier. Auf dieser letzten Tiefe werden die Paare von Schlüsseln abgeleitet, die tatsächlich verwendet werden, um die UTXOs zu sperren und zu entsperren. Jeder Index ermöglicht die Unterscheidung zwischen Geschwisterschlüsselpaaren: so wird die erste Empfangsadresse den Index $/0/$ verwenden, die zweite den Index $/1/$ und so weiter.
+Schließlich stellt Tiefe 5 den letzten Schritt der Ableitung in der Wallet dar. Obwohl es technisch möglich ist, unendlich fortzufahren, stoppen die aktuellen Standards hier. Auf dieser letzten Tiefe werden die Paare von Schlüsseln abgeleitet, die tatsächlich verwendet werden, um die UTXOs zu sperren und zu entsperren. Jeder Index ermöglicht die Unterscheidung zwischen Geschwisterschlüsselpaaren: so wird die erste Empfangsadresse den Index $/0/$ verwenden, die zweite den Index $/1/$ und so weiter.
 
 ![CYP201](assets/en/058.webp)
 
@@ -1890,7 +1888,7 @@ $$
 In diesem Beispiel:
 - $84'$ zeigt den P2WPKH (SegWit v0) Standard an;
 - $0'$ zeigt die Bitcoin-Währung im Hauptnetz an;
-- $1'$ entspricht dem zweiten Konto im Wallet;
+- $1'$ entspricht dem zweiten Konto in der Wallet;
 - $0$ zeigt an, dass die Adresse auf der externen Kette ist;
 - $7$ zeigt die 8. externe Adresse dieses Kontos an.
 
@@ -1904,7 +1902,8 @@ In diesem Beispiel:
 | 3     | Konto              | $/0'/$ (Erstes Konto)             |
 | 4     | Kette              | $/0/$ (extern) oder $/1/$ (Wechsel)|
 | 5     | Adressindex        | $/0/$ (erste Adresse)             |
-Im nächsten Kapitel werden wir entdecken, was "*Output Script Descriptors*" sind, eine kürzlich eingeführte Innovation in Bitcoin Core, die das Backup eines Bitcoin-Wallets vereinfacht.
+Im nächsten Kapitel werden wir entdecken, was "*Output Script Descriptors*" sind, eine kürzlich eingeführte Innovation in Bitcoin Core, die das Backup einer Bitcoin-Wallet vereinfacht.
+
 ## Output Script Descriptors
 <chapterId>e4f1c2d3-9b8a-4d3e-8f2a-7b6c5d4e3f2a</chapterId>
 

@@ -742,39 +742,35 @@ Vedi l'analogia di Greg Maxwell sull'edificio:
 
 Ma online le cose sono diverse:
 
-> Tuttavia, online non è così. Abbiamo comportamenti pseudonimi e anonimi, chiunque può collegarsi a tutti e danneggiare il sistema. Se è possibile danneggiare, lo faranno. Non possiamo dare per scontato che siano visibili e che vengano scoperti.
+> Tuttavia, online non è così. Abbiamo comportamenti pseudonimi e anonimi, chiunque può collegarsi a tutti e danneggiare il sistema. Se è possibile danneggiare il sistema in modo avversariale, qualcuno lo farà. Non possiamo dare per scontato che siano visibili e che vengano scoperti.
 
-La conseguenza è che tutti i punti deboli noti di Bitcoin devono essere in qualche modo curati, altrimenti verranno sfruttati. Dopo tutto, Bitcoin è il più grande honeypot del mondo.
+La conseguenza è che tutti i punti deboli noti di Bitcoin verranno sfruttati, quindi in qualche modo, bisogna prendersene cura. Dopo tutto, Bitcoin è il più grande honeypot del mondo.
 
-Poelstra continua dicendo che il Bitcoin è un nuovo tipo di sistema; è più nebuloso rispetto, ad esempio, a un protocollo di firma che ha presupposti di sicurezza molto chiari.
+Poelstra continua dicendo che Bitcoin è un nuovo tipo di sistema; è più nebuloso rispetto, ad esempio, a un protocollo di firma che ha presupposti di sicurezza molto chiari.
 
 Sul suo blog personale, l'ingegnere informatico Jameson Lopp [approfondisce l'argomento](https://blog.lopp.net/bitcoins-security-model-a-deep-dive/):
 
-> In realtà, il protocollo Bitcoin è stato e viene costruito senza una specifica o un modello di sicurezza formalmente definito. Il meglio che possiamo fare è studiare gli incentivi e il comportamento degli attori all'interno del sistema per comprenderlo meglio e tentare di descriverlo.
+> In realtà, il protocollo Bitcoin è stato e viene costruito senza una specifica, o un modello di sicurezza formalmente definito. Il meglio che possiamo fare è studiare gli incentivi e il comportamento degli attori all'interno del sistema, per comprenderlo meglio e tentare di descriverlo.
 
-Quindi, abbiamo un sistema che sembra funzionare in pratica, ma che non possiamo dimostrare formalmente che sia sicuro. Una prova non è probabilmente possibile a causa di
-
-la complessità del sistema stesso.
+Quindi, abbiamo un sistema che, nella pratica, sembra funzionare, ma di cui non possiamo dimostrare formalmente la sicurezza. Una prova non è possibile, probabilmente a causa della complessità del sistema stesso.
 
 ### Non solo per gli esperti di Bitcoin
 
 
-L'importanza del pensiero avversario si estende in qualche misura anche agli utenti quotidiani di Bitcoin, non solo agli sviluppatori e agli esperti hardcore di Bitcoin. Ragnar Lifthasir menziona in un [tweetstorm](https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking) come le narrazioni semplicistiche intorno a Bitcoin - per esempio, "solo HODL" - possono essere degradanti per Bitcoin stesso, e conclude dicendo
+L'importanza del pensiero avversariale si estende in qualche misura anche agli utenti quotidiani di Bitcoin, non solo agli sviluppatori e agli esperti hardcore di Bitcoin. Ragnar Lifthasir menziona in un [tweetstorm](https://bitcoinwords.github.io/tweetstorm-on-adversarial-thinking) come le narrazioni semplicistiche intorno a Bitcoin - per esempio, "solo HODL" - possono essere degradanti per Bitcoin stesso, e conclude dicendo:
 
-> Per rendere Bitcoin e noi stessi più forti dobbiamo pensare come gli ingegneri del software che contribuiscono a Bitcoin. Essi fanno peer review, cercando senza pietà i difetti. Ai loro eventi tecnologici parlano di tutti i modi in cui una proposta può fallire. Pensano in modo contraddittorio. Sono conservatori
+> Per rendere Bitcoin, e noi stessi, più forti dobbiamo pensare come gli ingegneri del software che contribuiscono a Bitcoin. Essi fanno peer review, cercando senza pietà i difetti. Ai loro eventi tecnologici parlano di tutti i motivi per cui una proposta può fallire. Pensano in modo contraddittorio. Sono conservatori.
 
-Si riferisce a queste narrazioni semplicistiche come monomania. Con questa definizione intende dire che concentrandosi su un singolo aspetto - ad esempio, "solo il HODL" - si rischia di trascurare cose probabilmente più importanti, come mantenere il Bitcoin sicuro o fare del proprio meglio per usare il Bitcoin in modo Trustless .
+Si riferisce a queste narrazioni semplicistiche come monomania. Con questa definizione intende dire che concentrandosi su un singolo aspetto - ad esempio, "solo l'HODL" - si rischia di trascurare cose probabilmente più importanti, come mantenere Bitcoin sicuro o fare del proprio meglio per usare Bitcoin in maniera trustless.
 
 ### Minacce
 
 
-Ci sono molte debolezze note in Bitcoin e molte di esse vengono attivamente sfruttate. Per averne un'idea, date un'occhiata alla pagina [Weaknesses page](https://en.Bitcoin.it/wiki/Weaknesses) sul wiki di Bitcoin. Vi è menzionata un'ampia varietà di problemi, come ad esempio
+Ci sono molte debolezze note in Bitcoin e molte di esse vengono attivamente sfruttate. Per averne un'idea, date un'occhiata alla pagina [Weaknesses page](https://en.Bitcoin.it/wiki/Weaknesses) sul wiki di Bitcoin. Vi è menzionata un'ampia varietà di problemi, come ad esempio il furto del wallet e gli attacchi denial-of-service:
 
-Wallet furto e attacchi denial-of-service:
+> Se un attaccante tenta di riempire la rete con i client che controlla, è molto probabile che ci si connetta solo ai nodi dell'attaccante. Sebbene Bitcoin non utilizzi mai un conteggio dei nodi, isolare completamente un nodo dalla rete onesta può essere utile per l'esecuzione di altri attacchi.
 
-> Se un attaccante tenta di riempire la rete con i client che controlla, è molto probabile che ci si connetta solo ai nodi dell'attaccante. Sebbene il Bitcoin non utilizzi mai un conteggio dei nodi, isolare completamente un nodo dalla rete onesta può essere utile per l'esecuzione di altri attacchi.
-
-Questo tipo di attacco è chiamato *attacco Sibilla* e si verifica quando una singola entità controlla più nodi in una rete e li usa per apparire come entità multiple.
+Questo tipo di attacco è chiamato *Sybil attack* e si verifica quando una singola entità controlla più nodi in una rete e li usa per apparire come entità multiple.
 
 Come si legge nella citazione, l'attacco Sybil non è efficace sulla rete Bitcoin perché non si vota attraverso nodi o altre entità numerabili, ma piuttosto attraverso la potenza di calcolo. Tuttavia, questa struttura piatta rende il sistema suscettibile ad altri attacchi. La pagina wiki di Bitcoin illustra anche altri possibili attacchi, come l'occultamento delle informazioni (spesso indicato come *attacco eclissi*), e il modo in cui Bitcoin Core implementa alcune contromisure euristiche contro tali attacchi.
 

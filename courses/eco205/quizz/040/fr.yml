@@ -1,0 +1,8 @@
+question: Selon le dualisme méthodologique de l'école autrichienne, combien de méthodologies différentes sont nécessaires pour étudier la réalité ?
+answer: Deux méthodologies distinctes : une pour les sciences naturelles et une pour les sciences humaines
+wrong_answers:
+  - Une seule méthodologie universelle applicable à tous les domaines scientifiques
+  - "Trois méthodologies : une pour les sciences naturelles, une pour l'économie, et une pour les autres sciences sociales"
+  - "Autant de méthodologies qu'il y a de disciplines scientifiques différentes"
+explanation: |
+  Le dualisme méthodologique défend précisément l'idée que deux objets d'études fondamentalement différents nécessitent deux méthodologies distinctes. Cette position s'oppose au positivisme qui prône une méthode scientifique unique. L'école autrichienne distingue rigoureusement l'approche empirique inductive pour les sciences naturelles de l'approche praxéologique axiomatico-déductive pour les sciences humaines, car l'homme agit avec intention contrairement aux objets inertes.

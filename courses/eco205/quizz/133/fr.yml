@@ -1,0 +1,8 @@
+question: Dans quelle situation critique la manipulation des taux d'intérêt par les banques centrales génère-t-elle les distorsions les plus profondes selon l'analyse autrichienne?
+answer: Lorsque les taux sont maintenus durablement en dessous du niveau naturel, créant une désynchronisation entre l'épargne réelle et les signaux d'investissement
+wrong_answers:
+  - "Lorsque les taux fluctuent rapidement selon les conditions de marché, empêchant les entrepreneurs d'anticiper correctement leurs investissements"
+  - Lorsque les taux sont fixés trop haut par rapport aux préférences temporelles, décourageant artificiellement la consommation présente
+  - "Lorsque les banques centrales ajustent les taux en fonction de l'inflation, perturbant la relation naturelle entre monnaie et capital"
+explanation: |
+  Selon la théorie autrichienne, les distorsions majeures surviennent quand les taux artificiellement bas envoient de faux signaux aux entrepreneurs, leur faisant croire qu'il y a plus d'épargne disponible qu'en réalité. Cette désynchronisation entre épargne réelle et signaux d'investissement conduit à une mauvaise allocation du capital dans la structure productive, générant les cycles économiques. Les autres options décrivent des situations moins critiques ou ne correspondent pas aux mécanismes décrits par l'école autrichienne.

@@ -1,0 +1,8 @@
+question: Selon Jésus Huerta de Soto, que signale une épargne importante dans une économie aux entrepreneurs?
+answer: Des taux d'intérêt bas qui indiquent de concentrer les efforts dans les étapes de production les plus éloignées de la consommation
+wrong_answers:
+  - "Des taux d'intérêt élevés qui indiquent de se concentrer sur la production de biens de consommation immédiate"
+  - "Une demande accrue de liquidités qui nécessite d'augmenter la production de monnaie pour satisfaire les besoins"
+  - "Un signal de réduire les investissements productifs au profit d'une accumulation de réserves monétaires"
+explanation: |
+  Une épargne abondante fait baisser les taux d'intérêt, ce qui constitue un signal pour les entrepreneurs d'investir dans les étapes de production les plus éloignées de la consommation finale. À l'inverse, une épargne faible fait monter les taux, indiquant que les profits sont à réaliser près de la consommation finale. Ce mécanisme coordonne l'allocation intertemporelle des ressources selon les préférences temporelles réelles.

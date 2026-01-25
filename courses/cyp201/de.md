@@ -1909,15 +1909,15 @@ Im nächsten Kapitel werden wir entdecken, was "*Output Script Descriptors*" sin
 
 :::video id=ce9d2c33-6a9d-451e-a2b4-41ef81cbfd71:::
 
-Oft wird gesagt, dass die mnemonische Phrase allein ausreicht, um den Zugang zu einem Wallet wiederherzustellen. In Wirklichkeit sind die Dinge ein wenig komplexer. Im vorherigen Kapitel haben wir uns die Ableitungsstruktur des HD-Wallets angesehen, und du haben vielleicht bemerkt, dass dieser Prozess ziemlich komplex ist. Ableitungspfade zeigen der Software, welche Richtung sie verfolgen soll, um die Schlüssel des Benutzers abzuleiten. Wenn man jedoch ein Bitcoin-Wallet wiederherstellen möchte und diese Pfade nicht kennt, reicht die mnemonische Phrase allein nicht aus. du ermöglicht es, den Master-Schlüssel und den Master-Chain-Code zu erhalten, aber es ist dann notwendig, die Indizes zu kennen, die verwendet wurden, um die Kind-Schlüssel zu erreichen.
+Oft wird gesagt, dass die Mnemonic-Phrase allein ausreicht, um den Zugang zu einer Wallet wiederherzustellen. In Wirklichkeit sind die Dinge ein wenig komplexer. Im vorherigen Kapitel haben wir uns die Ableitungsstruktur einer HD-Wallet angesehen, und du hasat vielleicht bemerkt, dass dieser Prozess ziemlich komplex ist. Ableitungspfade zeigen der Software, welche Richtung sie verfolgen soll, um die Schlüssel des Benutzers abzuleiten. Wenn man jedoch eine Bitcoin-Wallet wiederherstellen möchte und diese Pfade nicht kennt, reicht die Mnemonic-Phrase allein nicht aus. Sie ermöglicht es, den Master-Schlüssel und den Master-Chain-Code zu erhalten, aber es ist dann notwendig, die Indizes zu kennen, die verwendet wurden, um die Kind-Schlüssel zu erreichen.
 
-Theoretisch wäre es notwendig, nicht nur die mnemonische Phrase unseres Wallets zu speichern, sondern auch die Pfade zu den Konten, die wir verwenden. In der Praxis ist es oft möglich, ohne diese Informationen wieder Zugang zu den Kind-Schlüsseln zu erhalten, vorausgesetzt, die Standards wurden eingehalten. Indem man jeden Standard einzeln testet, ist es im Allgemeinen möglich, wieder Zugang zu den Bitcoins zu erhalten. Dies ist jedoch nicht garantiert und besonders kompliziert für Anfänger. Auch mit der Diversifizierung der Skripttypen und dem Aufkommen komplexerer Konfigurationen könnten diese Informationen schwer zu extrapolieren sein, wodurch diese Daten zu privaten Informationen werden und schwer durch Brute-Force zu erraten sind. Deshalb wurde kürzlich eine Innovation eingeführt und beginnt, in deine bevorzugte Wallet-Software integriert zu werden: die *Output Script Descriptors*.
+Theoretisch wäre es notwendig, nicht nur die Mnemonic-Phrase unserer Wallet zu speichern, sondern auch die Pfade zu den Konten, die wir verwenden. In der Praxis ist es oft möglich, ohne diese Informationen wieder Zugang zu den Kind-Schlüsseln zu erhalten, vorausgesetzt, die Standards wurden eingehalten. Indem man jeden Standard einzeln testet, ist es im Allgemeinen möglich, wieder Zugang zu den Bitcoin zu erhalten. Dies ist jedoch nicht garantiert und besonders kompliziert für Anfänger. Auch mit der Diversifizierung der Skripttypen und dem Aufkommen komplexerer Konfigurationen könnten diese Informationen schwer zu extrapolieren sein, wodurch diese Daten zu privaten Informationen werden und schwer durch Brute-Force zu erraten sind. Deshalb wurde kürzlich eine Innovation eingeführt und beginnt, in deine bevorzugte Wallet-Software integriert zu werden: die *Output Script Descriptors*.
 
 ### Was ist ein "Descriptor"?
 
-Die "*Output Script Descriptors*", oder einfach "*Descriptors*", sind strukturierte Ausdrücke, die ein Ausgabeskript (*scriptPubKey*) vollständig beschreiben und alle notwendigen Informationen liefern, um den Transaktionen zu folgen, die mit einem bestimmten Skript verbunden sind. du erleichtern die Verwaltung von Schlüsseln in HD-Wallets, indem sie eine standardisierte und vollständige Beschreibung der Wallet-Struktur und der verwendeten Adresstypen bieten.
+Die "*Output Script Descriptors*", oder einfach "*Descriptors*", sind strukturierte Ausdrücke, die ein Ausgabeskript (*scriptPubKey*) vollständig beschreiben und alle notwendigen Informationen liefern, um den Transaktionen zu folgen, die mit einem bestimmten Skript verbunden sind. Sie erleichtern die Verwaltung von Schlüsseln in HD-Wallets, indem sie eine standardisierte und vollständige Beschreibung der Wallet-Struktur und der verwendeten Adresstypen bieten.
 
-Der Hauptvorteil von Descriptors liegt in ihrer Fähigkeit, alle wesentlichen Informationen zur Wiederherstellung eines Wallets in einer einzigen Zeichenfolge (zusätzlich zur Wiederherstellungsphrase) zu kapseln. Indem man einen Descriptor mit den zugehörigen mnemonischen Phrasen speichert, wird es möglich, die privaten Schlüssel genau in ihrer Position in der Hierarchie wiederherzustellen. Für Multisig-Wallets, deren Backup ursprünglich komplexer war, beinhaltet der Descriptor die `xpub` jedes Faktors und gewährleistet so die Möglichkeit, die Adressen im Falle eines Problems neu zu generieren.
+Der Hauptvorteil von Descriptors liegt in ihrer Fähigkeit, alle wesentlichen Informationen zur Wiederherstellung einer Wallet in einer einzigen Zeichenfolge (zusätzlich zur Wiederherstellungsphrase) zu kapseln. Indem man einen Descriptor mit den zugehörigen Mnomonic-Phrases speichert, wird es möglich, die privaten Schlüssel genau in ihrer Position in der Hierarchie wiederherzustellen. Für Multisig-Wallets, deren Backup ursprünglich komplexer war, beinhaltet der Descriptor die `xpub` jedes Faktors und gewährleistet so die Möglichkeit, die Adressen im Falle eines Problems neu zu generieren.
 
 ### Aufbau eines Descriptors
 
@@ -1927,46 +1927,46 @@ Ein Descriptor besteht aus mehreren Elementen:
 - Schlüssel in verschiedenen Formaten wie hexadezimale öffentliche Schlüssel oder erweiterte öffentliche Schlüssel (`xpub`);
 - Eine Prüfsumme, vorangestellt von einem Hash-Zeichen, um die Integrität des Descriptors zu überprüfen.
 
-Zum Beispiel könnte ein Deskriptor für eine P2WPKH (SegWit v0) Wallet so aussehen:
+Zum Beispiel könnte ein Descriptor für eine P2WPKH (SegWit v0) Wallet so aussehen:
 
 ```text
 wpkh([cdeab12f/84h/0h/0h]xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U/<0;1>/*)#jy0l7nr4
 ```
 
-In diesem Deskriptor zeigt die Ableitungsfunktion `wpkh` auf einen Skripttyp *Pay-to-Witness-Public-Key-Hash*. Es folgt der Ableitungspfad, der enthält:
+In diesem Descriptor zeigt die Ableitungsfunktion `wpkh` auf einen Skripttyp *Pay-to-Witness-Public-Key-Hash*. Es folgt der Ableitungspfad, der enthält:
 
 - `cdeab12f`: der Fingerabdruck des Master-Schlüssels;
 - `84h`: was die Verwendung eines BIP84-Zwecks anzeigt, vorgesehen für SegWit v0 Adressen;
 - `0h`: was darauf hinweist, dass es sich um eine BTC-Währung im Hauptnetz handelt;
 - `0h`: was sich auf die spezifische Kontonummer bezieht, die im Wallet verwendet wird.
 
-Der Deskriptor beinhaltet auch den erweiterten öffentlichen Schlüssel, der in diesem Wallet verwendet wird:
+Der Deskriptor beinhaltet auch den erweiterten öffentlichen Schlüssel, der in dieser Wallet verwendet wird:
 
 ```text
 xpub6CUGRUonZSQ4TWtTMmzXdrXDtyPWKiKbERr4d5qkSmh5h17C1TjvMt7DJ9Qve4dRxm91CDv6cNfKsq2mK1rMsJKhtRUPZz7MQtp3y6atC1U
 ```
 
-Die Notation `/<0;1>/*` gibt an, dass der Deskriptor sowohl Adressen aus der externen Kette (`0`) als auch aus der internen Kette (`1`) erzeugen kann. Das Platzhalterzeichen (`*`) am Ende des Pfads bedeutet, dass von dieser Position aus alle nicht gehärteten („*unhardened*“) Kindschlüssel sequenziell abgeleitet werden können, egal ob es sich um externe oder interne Adressen handelt. Diese Syntax impliziert nicht direkt das Konzept des *Gap Limits*, das zu einem spezifischen Mechanismus von Wallets zur Adressenerkennung gehört, sondern dient hier lediglich dazu, anzugeben, dass alle möglichen Ableitungen an dieser Stelle berücksichtigt werden.
+Die Notation `/<0;1>/*` gibt an, dass der Descriptor sowohl Adressen aus der externen Kette (`0`) als auch aus der internen Kette (`1`) erzeugen kann. Das Platzhalterzeichen (`*`) am Ende des Pfads bedeutet, dass von dieser Position aus alle nicht gehärteten („*unhardened*“) Kind-Schlüssel sequenziell abgeleitet werden können, egal ob es sich um externe oder interne Adressen handelt. Diese Syntax impliziert nicht direkt das Konzept des *Gap Limits*, das zu einem spezifischen Mechanismus von Wallets zur Adressenerkennung gehört, sondern dient hier lediglich dazu, anzugeben, dass alle möglichen Ableitungen an dieser Stelle berücksichtigt werden.
 
-Schließlich repräsentiert `#jy0l7nr4` die Prüfsumme zur Verifizierung der Integrität des Deskriptors.
-Nun wissen du alles über die Funktionsweise des HD-Wallets bei Bitcoin und den Prozess der Ableitung von Schlüsselpaaren. Allerdings haben wir uns in den letzten Kapiteln auf die Generierung von privaten und öffentlichen Schlüsseln beschränkt, ohne die Konstruktion von Empfangsadressen anzusprechen. Dies wird genau das Thema des nächsten Kapitels sein!
+Schließlich repräsentiert `#jy0l7nr4` die Prüfsumme zur Verifizierung der Integrität des Descriptors.
+Nun weißt du alles über die Funktionsweise von HD-Wallets bei Bitcoin und den Prozess der Ableitung von Schlüsselpaaren. Allerdings haben wir uns in den letzten Kapiteln auf die Generierung von privaten und öffentlichen Schlüsseln beschränkt, ohne die Konstruktion von Empfangsadressen anzusprechen. Dies wird genau das Thema des nächsten Kapitels sein!
 
 ## Empfangsadressen
 <chapterId>ca80a89d-f8da-4e09-8c35-43179b65bced</chapterId>
 
 :::video id=4113aebf-c850-4ebc-90a8-a3b599de4453:::
 
-Empfangsadressen sind Informationen, die in *scriptPubKey* eingebettet sind, um neu erstellte UTXOs zu sperren. Einfach ausgedrückt, dient eine Adresse dazu, Bitcoins zu empfangen. Lassen du uns ihre Funktionsweise im Zusammenhang mit dem untersuchen, was wir in den vorherigen Kapiteln studiert haben.
+Empfangsadressen sind Informationen, die in *scriptPubKey* eingebettet sind, um neu erstellte UTXOs zu sperren. Einfach ausgedrückt, dient eine Adresse dazu, Bitcoin zu empfangen. Lass uns ihre Funktionsweise im Zusammenhang mit dem untersuchen, was wir in den vorherigen Kapiteln studiert haben.
 
 ### Die Rolle von Bitcoin-Adressen in Skripten
 
-Wie zuvor erklärt, besteht die Rolle einer Transaktion darin, das Eigentum an Bitcoins von Eingängen zu Ausgängen zu übertragen. Dieser Prozess beinhaltet das Verbrauchen von UTXOs als Eingänge, während neue UTXOs als Ausgänge erstellt werden. Diese UTXOs werden durch Skripte gesichert, die die notwendigen Bedingungen definieren, um die Mittel freizugeben.
+Wie zuvor erklärt, besteht die Rolle einer Transaktion darin, das Eigentum an Bitcoin von Eingängen zu Ausgängen zu übertragen. Dieser Prozess beinhaltet das Verbrauchen von UTXOs als Eingänge, während neue UTXOs als Ausgänge erstellt werden. Diese UTXOs werden durch Skripte gesichert, die die notwendigen Bedingungen definieren, um die Mittel freizugeben.
 
-Wenn ein Benutzer Bitcoins erhält, erstellt der Sender ein Ausgabe-UTXO und sperrt es mit einem *scriptPubKey*. Dieses Skript enthält die Regeln, die typischerweise die erforderlichen Signaturen und öffentlichen Schlüssel angeben, um dieses UTXO freizuschalten. Um dieses UTXO in einer neuen Transaktion auszugeben, muss der Benutzer die angeforderten Informationen über ein *scriptSig* bereitstellen. Die Ausführung von *scriptSig* in Kombination mit *scriptPubKey* muss "true" oder `1` zurückgeben. Wenn diese Bedingung erfüllt ist, kann das UTXO ausgegeben werden, um ein neues UTXO zu erstellen, das selbst durch ein neues *scriptPubKey* gesperrt ist, und so weiter.
+Wenn ein Benutzer Bitcoin erhält, erstellt der Sender ein Ausgabe-UTXO und sperrt es mit einem *scriptPubKey*. Dieses Skript enthält die Regeln, die typischerweise die erforderlichen Signaturen und öffentlichen Schlüssel angeben, um dieses UTXO freizuschalten. Um dieses UTXO in einer neuen Transaktion auszugeben, muss der Benutzer die angeforderten Informationen über ein *scriptSig* bereitstellen. Die Ausführung von *scriptSig* in Kombination mit *scriptPubKey* muss "true" oder `1` zurückgeben. Wenn diese Bedingung erfüllt ist, kann das UTXO ausgegeben werden, um ein neues UTXO zu erstellen, das selbst durch ein neues *scriptPubKey* gesperrt ist, und so weiter.
 
 ![CYP201](assets/en/059.webp)
 
-Genau im *scriptPubKey* befinden sich die Empfangsadressen. deine Verwendung variiert jedoch je nach dem angenommenen Skriptstandard. Hier ist eine Zusammenfassungstabelle der Informationen, die im *scriptPubKey* enthalten sind, entsprechend dem verwendeten Standard, sowie der Informationen, die im *scriptSig* erwartet werden, um das *scriptPubKey* freizuschalten.
+Genau im *scriptPubKey* befinden sich die Empfangsadressen. Ihre Verwendung variiert jedoch je nach dem angenommenen Skriptstandard. Hier ist eine zusammenfassende Tabelle der Informationen, die im *scriptPubKey* enthalten sind, entsprechend dem verwendeten Standard, sowie der Informationen, die im *scriptSig* erwartet werden, um das *scriptPubKey* freizuschalten.
 
 
 
@@ -1984,21 +1984,22 @@ Genau im *scriptPubKey* befinden sich die Empfangsadressen. deine Verwendung var
 
 _Quelle: Bitcoin Core PR Review Club vom 7. Juli 2021 – Gloria Zhao_
 
-Die in einem Skript verwendeten Opcodes sind dazu ausgelegt, Informationen zu manipulieren und, falls notwendig, diese zu vergleichen oder zu testen. Nehmen wir das Beispiel eines P2PKH-Skripts, das wie folgt lautet:
+Die in einem Skript verwendeten Opcodes sind dazu ausgelegt, Informationen zu verarbeiten und, falls notwendig, diese zu vergleichen oder zu testen. Nehmen wir das Beispiel eines P2PKH-Skripts, das wie folgt lautet:
 
 ```text
 OP_DUP OP_HASH160 OP_PUSHBYTES_20 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG
 ```
 
-Wie wir in diesem Kapitel sehen werden, stellt `<pubKeyHash>` tatsächlich die Nutzlast der Empfangsadresse dar, die verwendet wird, um das UTXO zu sperren. Um dieses *scriptPubKey* freizuschalten, ist es notwendig, ein *scriptSig* bereitzustellen, das enthält:
+Wie wir in diesem Kapitel sehen werden, stellt `<pubKeyHash>` tatsächlich den Payload der Empfangsadresse dar, die verwendet wird, um das UTXO zu sperren. Um dieses *scriptPubKey* freizuschalten, ist es notwendig, ein *scriptSig* bereitzustellen, das enthält:
 
 ```text
-<Signatur> <öffentlicher Schlüssel>
+<signature> <öffentlicher Schlüssel>
 ```
-Im Skriptsprachenkontext ist der "Stack" eine "*LIFO*" ("*Last In, First Out*") Datenstruktur, die dazu verwendet wird, Elemente während der Ausführung eines Skripts temporär zu speichern. Jede Skriptoperation manipuliert diesen Stack, wobei Elemente hinzugefügt (*push*) oder entfernt (*pop*) werden können. Skripte nutzen diese Stacks, um Ausdrücke zu evaluieren, temporäre Variablen zu speichern und Bedingungen zu verwalten.
+
+Im Skriptsprachenkontext ist der Stack eine "*LIFO*" ("*Last In, First Out*") Datenstruktur, die dazu verwendet wird, Elemente während der Ausführung eines Skripts temporär zu speichern. Jede Skriptoperation manipuliert diesen Stack, wobei Elemente hinzugefügt (*push*) oder entfernt (*pop*) werden können. Skripte nutzen diese Stacks, um Ausdrücke zu evaluieren, temporäre Variablen zu speichern und Bedingungen zu verwalten.
 Die Ausführung des Skripts, das ich gerade als Beispiel gegeben habe, folgt diesem Prozess:
 
-- Wir haben das *scriptSig*, das *ScriptPubKey* und den Stack:
+- Wir haben das *scriptSig*, das *scriptPubKey* und den Stack:
 
 ![CYP201](assets/en/060.webp)
 
@@ -2038,11 +2039,11 @@ Im Laufe der Entwicklung von Bitcoin wurden mehrere Standard-Skriptmodelle hinzu
 
 **P2PK (*Pay-to-PubKey*)**:
 
-Dieses Skriptmodell wurde in der ersten Version von Bitcoin von Satoshi Nakamoto eingeführt. Das P2PK-Skript sperrt Bitcoins direkt unter Verwendung eines rohen öffentlichen Schlüssels (somit wird bei diesem Modell keine Empfangsadresse verwendet). Seine Struktur ist einfach: es enthält einen öffentlichen Schlüssel und erfordert eine entsprechende digitale Signatur, um die Mittel freizugeben. Dieses Skript ist Teil des "*Legacy*" Standards.
+Dieses Skriptmodell wurde in der ersten Version von Bitcoin von Satoshi Nakamoto eingeführt. Das P2PK-Skript sperrt Bitcoin direkt unter Verwendung eines rohen öffentlichen Schlüssels (somit wird bei diesem Modell keine Empfangsadresse verwendet). Seine Struktur ist einfach: es enthält einen öffentlichen Schlüssel und erfordert eine entsprechende digitale Signatur, um die Mittel freizugeben. Dieses Skript ist Teil des "*Legacy*" Standards.
 
 **P2PKH (*Pay-to-PubKey-Hash*)**:
 
-Wie P2PK wurde das P2PKH-Skript beim Start von Bitcoin eingeführt. Im Gegensatz zu seinem Vorgänger sperrt es die Bitcoins unter Verwendung des Hashs des öffentlichen Schlüssels, anstatt direkt den rohen öffentlichen Schlüssel zu verwenden. Das *scriptSig* muss dann den öffentlichen Schlüssel, der mit der Empfangsadresse verbunden ist, sowie eine gültige Signatur bereitstellen. Die Adressen, die diesem Modell entsprechen, beginnen mit `1` und sind in *base58check* kodiert. Dieses Skript gehört ebenfalls zum "*Legacy*" Standard.
+Wie P2PK wurde das P2PKH-Skript beim Start von Bitcoin eingeführt. Im Gegensatz zu seinem Vorgänger sperrt es die Bitcoin unter Verwendung des Hashs des öffentlichen Schlüssels, anstatt direkt den rohen öffentlichen Schlüssel zu verwenden. Das *scriptSig* muss dann den öffentlichen Schlüssel, der mit der Empfangsadresse verbunden ist, sowie eine gültige Signatur bereitstellen. Die Adressen, die diesem Modell entsprechen, beginnen mit `1` und sind in *base58check* kodiert. Dieses Skript gehört ebenfalls zum "*Legacy*" Standard.
 
 **P2SH (*Pay-to-Script-Hash*)**:
 
@@ -2050,24 +2051,24 @@ Eingeführt im Jahr 2012 mit BIP16, ermöglicht das P2SH-Modell die Verwendung d
 
 **P2WPKH (*Pay-to-Witness-PubKey-Hash*)**:
 
-Dieses Skript ähnelt P2PKH, da es ebenfalls Bitcoins mittels des Hashs eines öffentlichen Schlüssels sperrt. Im Gegensatz zu P2PKH wird jedoch das *scriptSig* in einen separaten Abschnitt namens "*Witness*" verschoben. Dies wird manchmal als "*scriptWitness*" bezeichnet, um das Set, bestehend aus der Signatur und dem öffentlichen Schlüssel, zu benennen. Jeder SegWit-Eingang hat sein eigenes *scriptWitness*, und die Sammlung von *scriptWitnesses* bildet das *Witness*-Feld der Transaktion. Diese Verlagerung der Signaturdaten ist eine Innovation, die durch das SegWit-Update eingeführt wurde, insbesondere um die Veränderbarkeit von Transaktionen aufgrund von ECDSA-Signaturen zu verhindern.
-P2WPKH-Adressen verwenden *bech32*-Kodierung und beginnen immer mit `bc1q`. Dieser Typ von Skript entspricht den Version-0-SegWit-Ausgängen.
+Dieses Skript ähnelt P2PKH, da es ebenfalls Bitcoin mittels des Hashs eines öffentlichen Schlüssels sperrt. Im Gegensatz zu P2PKH wird jedoch das *scriptSig* in einen separaten Abschnitt namens "*Witness*" verschoben. Dies wird manchmal als "*scriptWitness*" bezeichnet, um das Set, bestehend aus der Signatur und dem öffentlichen Schlüssel, zu benennen. Jeder SegWit-Eingang hat sein eigenes *scriptWitness*, und die Sammlung von *scriptWitnesses* bildet das *Witness*-Feld der Transaktion. Diese Verlagerung der Signaturdaten ist eine Innovation, die durch das SegWit-Update eingeführt wurde, insbesondere um die Veränderbarkeit von Transaktionen aufgrund von ECDSA-Signaturen zu verhindern.
+P2WPKH-Adressen verwenden *bech32*-Kodierung und beginnen immer mit `bc1q`. Dieser Typ von Skript entspricht den SegWit-Outputs der Version 0.
 
 **P2WSH (*Pay-to-Witness-Script-Hash*)**:
 
-Das P2WSH-Modell wurde ebenfalls mit dem SegWit-Update im August 2017 eingeführt. Ähnlich wie das P2SH-Modell sperrt es Bitcoins mittels des Hashs eines Skripts. Der Hauptunterschied liegt darin, wie Signaturen und Skripte in die Transaktion eingebunden werden. Um Bitcoins, die mit diesem Typ von Skript gesperrt sind, auszugeben, muss der Empfänger das Originalskript, genannt *witnessScript* (entspricht dem *redeemScript* in P2SH), zusammen mit den notwendigen Daten zur Validierung dieses *witnessScript* bereitstellen. Dieser Mechanismus ermöglicht die Implementierung komplexerer Ausgabebedingungen, wie z.B. Multisigs.
+Das P2WSH-Modell wurde ebenfalls mit dem SegWit-Update im August 2017 eingeführt. Ähnlich wie das P2SH-Modell sperrt es Bitcoin mittels des Hashs eines Skripts. Der Hauptunterschied liegt darin, wie Signaturen und Skripte in die Transaktion eingebunden werden. Um Bitcoins, die mit diesem Typ von Skript gesperrt sind, auszugeben, muss der Empfänger das Originalskript, genannt *witnessScript* (entspricht dem *redeemScript* in P2SH), zusammen mit den notwendigen Daten zur Validierung dieses *witnessScript* bereitstellen. Dieser Mechanismus ermöglicht die Implementierung komplexerer Ausgabebedingungen, wie z.B. Multisigs.
 
-P2WSH-Adressen verwenden *bech32*-Kodierung und beginnen immer mit `bc1q`. Dieses Skript entspricht ebenfalls den Version-0-SegWit-Ausgängen.
+P2WSH-Adressen verwenden *bech32*-Kodierung und beginnen immer mit `bc1q`. Dieses Skript entspricht ebenfalls SegWit-Outputs der Version 0.
 
 **P2TR (*Pay-to-Taproot*)**:
 
 Das P2TR-Modell wurde mit der Implementierung von Taproot im November 2021 eingeführt. Es basiert auf dem Schnorr-Protokoll zur kryptografischen Schlüsselaggregation sowie auf einem Merkle-Baum für alternative Skripte, genannt MAST (*Merkelized Alternative Script Tree*). Im Gegensatz zu anderen Skripttypen, bei denen die Ausgabebedingungen öffentlich ausgestellt werden (entweder beim Empfang oder bei der Ausgabe), ermöglicht P2TR das Verbergen komplexer Skripte hinter einem einzigen, scheinbaren öffentlichen Schlüssel.
 
-Technisch gesehen sperrt ein P2TR-Skript Bitcoins auf einem einzigartigen Schnorr-öffentlichen Schlüssel, bezeichnet als $Q$. Dieser Schlüssel $Q$ ist tatsächlich eine Aggregation eines öffentlichen Schlüssels $P$ und eines öffentlichen Schlüssels $M$, wobei letzterer aus der Merkle-Wurzel einer Liste von *scriptPubKey* berechnet wird. Bitcoins, die mit diesem Typ von Skript gesperrt sind, können auf zwei Arten ausgegeben werden:
+Technisch gesehen sperrt ein P2TR-Skript Bitcoin auf einem einzigartigen Schnorr-öffentlichen Schlüssel, bezeichnet als $Q$. Dieser Schlüssel $Q$ ist tatsächlich eine Aggregation eines öffentlichen Schlüssels $P$ und eines öffentlichen Schlüssels $M$, wobei letzterer aus der Merkle-Wurzel einer Liste von *scriptPubKey* berechnet wird. Bitcoin, die mit diesem Typ von Skript gesperrt sind, können auf zwei Arten ausgegeben werden:
 - Durch Veröffentlichung einer Signatur für den öffentlichen Schlüssel $P$ (*key path*).
 - Durch Erfüllung eines der Skripte im Merkle-Baum (*script path*).
 
-P2TR bietet somit eine große Flexibilität, da es das Sperren von Bitcoins entweder mit einem einzigartigen öffentlichen Schlüssel, mit mehreren Skripten nach Wahl oder beidem gleichzeitig ermöglicht. Der Vorteil dieser Merkle-Baum-Struktur ist, dass nur das verwendete Ausgabeskript während der Transaktion offenbart wird, aber alle anderen alternativen Skripte geheim bleiben. 
+P2TR bietet somit eine große Flexibilität, da es das Sperren von Bitcoin entweder mit einem einzigartigen öffentlichen Schlüssel, mit mehreren Skripten nach Wahl oder beidem gleichzeitig ermöglicht. Der Vorteil dieser Merkle-Baum-Struktur ist, dass nur das verwendete Ausgabeskript während der Transaktion offenbart wird, aber alle anderen alternativen Skripte geheim bleiben. 
 
 ![CYP201](assets/en/068.webp)
 

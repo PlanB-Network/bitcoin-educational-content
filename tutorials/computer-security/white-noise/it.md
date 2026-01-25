@@ -8,7 +8,9 @@ description: Un'applicazione di messaggistica privata e decentralizzata basata s
 
 ## Introduzione
 
-"Nel mezzo delle difficoltà si nasconde un'opportunità". Questa citazione di Albert Einstein ci ricorda che i problemi non sono definitivi, ma contengono al loro interno i semi di nuove soluzioni innovative.
+>Nel mezzo delle difficoltà si nasconde un'opportunità.
+
+Questa citazione di Albert Einstein ci ricorda che i problemi non sono definitivi, ma contengono al loro interno i semi di nuove soluzioni innovative.
 
 Le motivazioni alla base del lancio della soluzione che presentiamo in questo tutorial lo illustrano perfettamente. Si tratta di **White Noise**, nato dalla necessità.
 
@@ -44,7 +46,7 @@ Ecco un rapido confronto tra White Noise e alcune delle più note applicazioni d
 
 ## Come iniziare con White Noise
 
-### Installazione White Noise
+### Installazione di White Noise
 
 Vai al [sito web White Noise](https://www.whitenoise.chat/), quindi fai clic su **Download**.
 
@@ -82,11 +84,11 @@ Una volta completato il download, installa e apri l'applicazione.
 
 ### Configurazione iniziale dell'account utente
 
-Per la prima connessione a White Noise, premi il pulsante **Registro**.
+Per la prima connessione a White Noise, premi il pulsante **Registra**.
 
 ![screen](assets/fr/09.webp)
 
-Quindi, configura il tuo profilo scegliendo una foto, un nome e aggiungendo una breve descrizione di te stessi. Non è necessario inserire la propria identità reale (nome e foto).
+Quindi, configura il tuo profilo scegliendo una foto, un nome e aggiungendo una breve descrizione di te stesso. Non è necessario inserire la tua identità reale (nome e foto).
 
 Nota che White Noise sceglie automaticamente un nome (pseudonimo) per l'utente, che può essere mantenuto o modificato. Infine, premi il pulsante **Fine**.
 
@@ -143,7 +145,7 @@ Qui è possibile accedere alle chiavi pubbliche e private (segrete). Come ricord
 
 - **Relay di rete**
 
-In questo sottomenu è possibile aggiungere o rimuovere i **relay generali** (relay definiti per l'uso in tutte le applicazioni Nostr), i **inbox relay** e i **key pack relay**.
+In questo sottomenu è possibile aggiungere o rimuovere i **relay generali** (relay definiti per l'uso in tutte le applicazioni Nostr), gli **inbox relay** e i **key pack relay**.
 
 Per farlo, tocca l'icona **cestino** davanti a un relay per eliminarlo o toccare l'icona **+** (più) per aggiungerne uno nuovo.
 
@@ -176,17 +178,17 @@ Infine, in fondo, ci sono le **impostazioni dello sviluppatore**.
 
 ## Iniziare una conversazione
 
-Vediamo ora come avviare una conversazione. Al momento in cui scriviamo, White Noise offre tre opzioni di comunicazione. Di seguito analizzeremo le **Conversazioni private** (**Chat 1:1**), cioè tra voi e un'altra persona, le **Conversazioni di gruppo** e l'**Invio di file multimediali**.
+Vediamo ora come avviare una conversazione. Al momento in cui scriviamo, White Noise offre tre opzioni di comunicazione. Di seguito analizzeremo le **Conversazioni private** (**Chat 1:1**), cioè tra te e un'altra persona, le **Conversazioni di gruppo** e l'**Invio di file multimediali**.
 
 ### Chat 1:1
 
-Dall'interfaccia principale, per aggiungere un nuovo corrispondente, clicca sull'icona per iniziare una nuova conversazione.
+Dall'interfaccia principale, per aggiungere un nuovo utente, clicca sull'icona per iniziare una nuova conversazione.
 
 Quindi scansiona il codice QR della chiave pubblica (1) o incolla la chiave pubblica (2) del nuovo utente nella barra di ricerca per trovarlo.
 
 ![screen](assets/fr/26.webp)
 
-Tocca quindi il pulsante **Avvia conversazione** per iniziare una conversazione con l'utente. È anche possibile **seguire** il corrispondente o invitarlo a una conversazione di gruppo premendo il pulsante **Aggiungi al gruppo**.
+Tocca quindi il pulsante **Avvia conversazione** per iniziare una conversazione con l'utente. È anche possibile **seguire** l'utente o invitarlo a una conversazione di gruppo premendo il pulsante **Aggiungi al gruppo**.
 
 ![screen](assets/fr/27.webp)
 
@@ -215,7 +217,7 @@ Inoltre, in una discussione sono disponibili ulteriori funzionalità.
 
 È possibile effettuare ricerche all'interno di una conversazione.
 
-Fai clic sull'avatar dell'utente nella parte superiore dello schermo per accedere alle "informazioni sulla conversazione" e toccare il pulsante **Cerca nella conversazione**.
+Fai clic sull'avatar dell'utente nella parte superiore dello schermo per accedere alle "informazioni sulla conversazione" e tocca il pulsante **Cerca nella conversazione**.
 
 ![screen](assets/fr/32.webp)
 
@@ -245,7 +247,7 @@ Nel menu a comparsa che appare, tocca **Nuova conversazione di gruppo**.
 
 ![screen](assets/fr/38.webp)
 
-Quindi premere **Continua** (non è necessario inserire nuovamente la chiave pubblica).
+Quindi premi **Continua** (non è necessario inserire nuovamente la chiave pubblica).
 
 ![screen](assets/fr/39.webp)
 

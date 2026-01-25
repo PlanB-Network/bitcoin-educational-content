@@ -577,57 +577,46 @@ Viceversa, la [retrocompatibilità](https://en.wikipedia.org/wiki/Backward_compa
 
 Una modifica alle regole di consenso di Bitcoin è detta *Soft Fork* se è pienamente compatibile. Questo è il modo più comune di aggiornare Bitcoin, per una serie di ragioni che verranno discusse più avanti in questo capitolo. Se una modifica alle regole di consenso di Bitcoin è compatibile con il passato ma non con il futuro, si parla di *Hard Fork*.
 
-Per una panoramica tecnica su Soft e Hard fork, leggere [il capitolo 11 di Grokking Bitcoin](https://rosenbaum.se/book/grokking-Bitcoin-11.html). Spiega questi termini e si addentra anche nei meccanismi di aggiornamento. Si consiglia, anche se non è strettamente necessario, di acquisire una buona conoscenza di questo argomento prima di continuare a leggere.
+Per una panoramica tecnica su soft e hard fork, leggi [il capitolo 11 di Grokking Bitcoin](https://rosenbaum.se/book/grokking-Bitcoin-11.html). Questo capitolo spiega termini specifici e si addentra nei meccanismi di aggiornamento. Si consiglia, anche se non è strettamente necessario, di acquisire una buona conoscenza di questo argomento prima di continuare a leggere.
 
 ### Aggiornamenti storici
 
 
-Il Bitcoin non è più lo stesso di quando è stato creato il blocco Genesis. Nel corso degli anni sono stati apportati diversi aggiornamenti. Nel 2018, Eric Lombrozo [ha parlato alla conferenza Breaking Bitcoin](https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) dei diversi meccanismi di aggiornamento di  Bitcoin, sottolineando quanto si siano evoluti nel tempo. Ha persino spiegato come Satoshi Nakamoto una volta abbia aggiornato Bitcoin attraverso un Hard Fork:
+Bitcoin non è più lo stesso di quando è stato creato il blocco genesis. Nel corso degli anni sono stati apportati diversi aggiornamenti. Nel 2018, Eric Lombrozo [ha parlato alla conferenza Breaking Bitcoin](https://btctranscripts.com/breaking-Bitcoin/2017/changing-consensus-rules-without-breaking-Bitcoin/) dei diversi meccanismi di aggiornamento di  Bitcoin, sottolineando quanto si siano evoluti nel tempo. Ha persino spiegato come Satoshi Nakamoto una volta abbia aggiornato Bitcoin attraverso un hard fork:
 
+>In realtà, in Bitcoin si è verificato un hard fork introdotto da Satoshi in un modo che oggi non useremmo mai: un approccio decisamente poco elegante. Se si guarda la descrizione del commit su Git [[757f076](https://github.com/bitcoin/bitcoin/commit/757f0769d8360ea043f469f3a35f6ec204740446)], si trova scritto semplicemente “reverted makefile.unix wx-config version 0.3.6”. Nient’altro. Non c’è alcun riferimento al fatto che si tratti di un cambiamento incompatibile (breaking change). Di fatto, la modifica era stata deliberatamente “nascosta” all’interno del commit.
+Inoltre Satoshi pubblicò anche un messaggio [su Bitcointalk](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451) invitando tutti ad aggiornare alla 0.3.6 il prima possibile. Spiegava che era stato risolto un bug di implementazione per cui transazioni non valide venissero visualizzate come accettate. Per questo motivo raccomandava di non accettare pagamenti in bitcoin finché non si fosse effettuato l'aggiornamento alla versione 0.3.6. Nel caso non fosse stato possibile aggiornare subito, sarebbe meglio chiudere il proprio nodo Bitcoin. Inoltre, per ragioni non del tutto chiare, ha deciso di aggiungere alcune ottimizzazioni nello stesso codice.
 
-> In realtà c'era un Hard-Fork in Bitcoin che Satoshi ha fatto in modo che non lo facessimo mai in questo modo: è un modo piuttosto brutto di farlo. Se si guarda alla descrizione del commit git qui [[757f076](https://github.com/Bitcoin/Bitcoin/commit/757f0769d8360ea043f469f3a35f6ec204740446)], si parla di reverted makefile.unix wx-config versione 0.3.6. Giusto. È tutto quello che dice. Non c'è alcuna indicazione che si tratti di una modifica di rottura. In pratica lo stava nascondendo lì dentro. Ha anche [postato su bitcointalk](https://bitcointalk.org/index.php?topic=626.msg6451#msg6451) e ha detto, per favore aggiornate alla 0.3.6 il prima possibile. Abbiamo risolto un bug di implementazione per cui è possibile che transazioni fasulle vengano visualizzate come accettate. Non accettare pagamenti Bitcoin finché non si aggiorna alla versione 0.3.6. Se non potete aggiornare subito, sarebbe meglio chiudere il vostro nodo Bitcoin finché non lo fate. E poi, non so perché abbia deciso di fare anche questo, ha deciso di aggiungere alcune ottimizzazioni nello stesso codice. Correggere un bug e aggiungere alcune ottimizzazioni.
-
-Egli sottolinea che, intenzionalmente o meno, questo Hard Fork ha creato opportunità per futuri fork di Soft, in particolare gli operatori Script (opcode) OP_NOP1-OP_NOP10. Approfondiremo questa modifica del codice in cve-2010-5141. Questi opcode sono stati utilizzati finora per due fork di Soft:
-
+Satoshi sottolinea che, intenzionalmente o meno, questo hard fork ha creato opportunità per futuri soft fork, in particolare gli operatori Script (opcode) OP_NOP1-OP_NOP10. Approfondiremo questa modifica del codice in cve-2010-5141. Questi opcode sono stati utilizzati finora per due fork di Soft:
 
 - [BIP65](https://github.com/Bitcoin/bips/blob/master/bip-0065.mediawiki) (OP_CHECKLOCKTIMEVERIFY)
 - [BIP113](https://github.com/Bitcoin/bips/blob/master/bip-0112.mediawiki) (OP_SEQUENCEVERIFY).
 
+Lombrozo fornisce anche una panoramica dell'evoluzione dei meccanismi di aggiornamento nel corso degli anni, fino al 2017. Da allora, solo un altro aggiornamento importante è stato implementato: Taproot. Il processo lungo e un po' caotico che ha portato alla sua attivazione ci ha aiutato ad acquisire ulteriori conoscenze sui meccanismi di aggiornamento di Bitcoin.
 
-Lombrozo fornisce anche una panoramica dell'evoluzione dei meccanismi di aggiornamento nel corso degli anni, fino al 2017. Da allora, solo un altro aggiornamento importante, il Taproot, è stato implementato. Il processo lungo e un po' caotico che ha portato alla sua attivazione ci ha aiutato ad acquisire ulteriori conoscenze sui meccanismi di aggiornamento di  Bitcoin.
-
-
-#### Aggiornamento SegWit
+#### Aggiornamento di SegWit
 
 
+Mentre tutti gli aggiornamenti precedenti a SegWit erano stati più o meno indolori, questo è stato diverso. Quando il codice di attivazione di SegWit fu rilasciato, nell'ottobre 2016, sembrava esserci un ampio sostegno tra gli utenti di Bitcoin, ma per qualche motivo i miner non hanno segnalato il supporto a questo aggiornamento, bloccandone l'attivazione senza che si intravedesse alcuna soluzione.
 
-Mentre tutti gli aggiornamenti precedenti al SegWit erano stati più o meno indolori, questo è stato diverso. Quando il codice di attivazione del SegWit è stato rilasciato, nell'ottobre 2016, sembrava che gli utenti di  Bitcoin avessero un sostegno schiacciante, ma per qualche motivo i miner non hanno segnalato il supporto per questo aggiornamento, bloccando l'attivazione senza alcuna risoluzione in vista.
+Aaron van Wirdum descrive questa strada tortuosa nell'articolo della rivista Bitcoin [The Long Road To SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality). Inizia spiegando cos'è SegWit e come si inserisce nel dibattito sulle dimensioni dei blocchi. Van Wirdum delinea poi la successione di eventi che ha portato alla sua attivazione finale. Al centro di questo processo c'era un meccanismo di aggiornamento chiamato *user activated Soft Fork*, o UASF in breve, proposto dall'utente Shaolinfry:
 
+> Shaolinfry propose un'alternativa: un soft fork attivato dall'utente (UASF). Anziché basarsi sulla potenza di calcolo dei miner, un UASF prevede un "flag day activation" (un'attivazione a data prestabilita) in cui i nodi iniziano a far rispettare le regole del soft fork in un momento predeterminato del futuro. Finché tale UASF viene applicato da una maggioranza economica, ciò dovrebbe costringere la maggioranza dei miner a seguire (o attivare) il soft fork.
 
-Aaron van Wirdum descrive questa strada tortuosa nell'articolo della rivista Bitcoin [The Long Road To SegWit](https://bitcoinmagazine.com/technical/the-long-road-to-SegWit-how-bitcoins-biggest-protocol-upgrade-became-reality). Inizia spiegando cos'è il SegWit e come si inserisce nel dibattito sulle dimensioni dei blocchi. Van Wirdum delinea poi la successione di eventi che ha portato alla sua attivazione finale. Al centro di questo processo c'era un meccanismo di aggiornamento chiamato *user activated Soft Fork*, o UASF in breve, proposto dall'utente Shaolinfry:
+Tra le altre cose, Aaron cita l'email di Shaolinfry alla mailing list Bitcoin-dev. In quell'occasione Shaolinfry [si è schierato contro i soft fork di miner dai attivati](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-February/013643.html), elencando una serie di problemi con essi:
 
-
-> Shaolinfry ha proposto un'alternativa: un Soft Fork attivato dall'utente (UASF). Invece dell'attivazione della potenza del Hash, un Soft Fork attivato dall'utente avrebbe una "attivazione del giorno della bandiera" in cui i nodi iniziano a far rispettare la legge in un momento predeterminato del futuro" Finché tale UASF viene applicata da una maggioranza economica, ciò dovrebbe costringere la maggioranza dei miner a seguire (o attivare) il Soft Fork.
-
-Tra le altre cose, cita l'email di Shaolinfry alla mailing list Bitcoin-dev. In quell'occasione Shaolinfry [si è schierato contro i fork di miner attivati per Soft](https://lists.linuxfoundation.org/pipermail/Bitcoin-dev/2017-February/013643.html), elencando una serie di problemi con essi:
-
-
-> In primo luogo, è necessario confidare che il potere del Hash venga convalidato dopo l'attivazione.  Il BIP66 Soft Fork è stato un caso in cui il 95% del Hashrate segnalava la disponibilità, ma in realtà circa la metà non stava convalidando le regole aggiornate e ha estratto per errore un blocco non valido.
+> In primo luogo, bisogna contare sul fatto che l'hash power fosse convalidato dopo l'attivazione. Il BIP66 è stato un caso in cui il 95% dell'hashrate segnalava la disponibilità, ma in realtà circa la metà non convalidava le regole aggiornate e per errore estraeva un blocco non valido.
 >
-
-> In secondo luogo, la segnalazione di miner ha un veto naturale che consente a una piccola percentuale di Hashrate di porre il veto all'attivazione del nodo di aggiornamento per tutti. Finora, i fork di Soft hanno sfruttato il panorama relativamente centralizzato di Mining, dove ci sono relativamente pochi pool di Mining che costruiscono blocchi validi; man mano che ci muoviamo verso una maggiore decentralizzazione di Hashrate, è probabile che soffriremo sempre più di "inerzia da aggiornamento", che metterà il veto alla maggior parte degli aggiornamenti.
+> In secondo luogo, la segnalazione di miner ha un veto naturale che consente a una piccola percentuale di hashrate di porre il veto all'attivazione del nodo di aggiornamento per tutti. Finora, i soft fork hanno sfruttato il panorama relativamente centralizzato di mining, dove ci sono relativamente poche mining pool che costruiscono blocchi validi; man mano che ci muoviamo verso una maggiore decentralizzazione dell'hashrate, è probabile che soffriremo sempre più di "inerzia da aggiornamento", che metterà il veto alla maggior parte degli aggiornamenti.
 
 Shaolinfry ha anche richiamato l'attenzione su un comune fraintendimento della segnalazione miner: in genere si pensava che fosse un mezzo con cui i miner potevano decidere gli aggiornamenti del protocollo, piuttosto che un'azione che aiutava a coordinare gli aggiornamenti. A causa di questo fraintendimento, i miner potrebbero anche essersi sentiti obbligati a proclamare pubblicamente le loro opinioni su un certo Soft Fork, come se questo desse peso alla proposta.
 
-
 La proposta dell'UASF consiste, in poche parole, in un "giorno di bandiera" in cui i nodi iniziano a far rispettare nuove regole specifiche. In questo modo, i miner non devono fare uno sforzo collettivo per coordinare l'aggiornamento, ma *possono* attivare l'attivazione prima del flag day se un numero sufficiente di blocchi segnala il supporto:
-
 
 > Il mio suggerimento è di avere il meglio di entrambi i mondi. Poiché un Soft Fork attivato dall'utente ha bisogno di un tempo di attesa relativamente lungo prima dell'attivazione, possiamo combinarlo con il BIP9 per offrire l'opzione di un'attivazione coordinata più rapida del Hash o di un'attivazione entro il giorno di bandiera, a seconda di quale sia la prima.
 > In entrambi i casi, possiamo sfruttare i sistemi di avviso di BIP9. La modifica è relativamente semplice e consiste nell'aggiunta di un parametro activation-time che farà passare lo stato BIP9 a LOCKED_IN prima della fine del timeout di distribuzione di BIP9.
 
 Quest'idea ha suscitato molto interesse, ma non sembra aver raggiunto un sostegno quasi unanime, il che ha causato la preoccupazione di una potenziale divisione della catena. L'articolo di Aaron van Wirdum spiega come questo problema sia stato risolto grazie a [BIP91](https://github.com/Bitcoin/bips/blob/master/bip-0091.mediawiki), scritto da James Hilliard:
-
 
 > Hilliard ha proposto una soluzione un po' complessa ma intelligente che renderebbe tutto compatibile: L'attivazione del testimone segregato, come proposto dal team di sviluppo di  Bitcoin Core, il BIP148 UASF e il meccanismo di attivazione dell'Accordo di New York. Il suo BIP91 potrebbe mantenere il Bitcoin integro - almeno per tutta l'attivazione del SegWit.
 

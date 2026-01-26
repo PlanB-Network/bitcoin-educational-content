@@ -6530,36 +6530,31 @@ console.error("Error reading file:", err)
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
 Ето какво се случва:
 
-
-1. `fs.createWriteStream()` създава поток, който може да се записва.
-
-2. Записваме някакъв текст в него с помощта на `.write()`.
-
-3. Когато приключим, извикваме `.end()`, за да затворим потока.
-
-4. Когато всички данни са записани, се излъчва събитието `finish`.
-
-5. Ако нещо се обърка, се задейства събитието `error`.
+1. `fs.createWriteStream()` създава поток за запис.
+2. Регистрираме манипулатори за събитията `error` и `finish`.
+3. Записваме текст в него чрез `.write()`.
+4. Когато приключим, извикваме `.end()`, за да затворим потока.
+5. След като всички буферирани данни бъдат изчистени и записани, се излъчва събитието `finish`. Ако нещо се обърка, се излъчва събитието `error`.
 
 
 Подобно на потоците с възможност за четене, потоците с възможност за запис са подходящи за големи обеми от данни, тъй като не е необходимо да съхраняват всичко в паметта наведнъж.

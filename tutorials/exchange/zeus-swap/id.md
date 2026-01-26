@@ -391,6 +391,13 @@ Pendekatan yang sangat sederhana ini sangat cocok untuk pemula, tetapi membatasi
 
 
 
+| Layanan | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Jumlah minimum |
+| ------------- | ----------------------- | --------------------- | --------------- |
+| **Zeus Swap** | ~0.1% + biaya penambangan | 0.5% + biaya penambangan | 25.000 sats |
+| **Boltz** | 0.2% + biaya penambangan | 0.5% + biaya penambangan | 50.000 sats |
+| **Phoenix** | Hanya biaya penambangan | 0.4% tetap | 10.000 sats |
+| **Breez** | 0.25% + biaya jaringan | 0.5% + biaya penambangan | 50.000 sats |
+
 Zeus Swap menawarkan keseimbangan antara kemudahan penggunaan dan kontrol teknis: lebih mudah diakses daripada Boltz, lebih fleksibel daripada Phoenix/Breez, dengan pendekatan non-kustodian yang ketat.
 
 

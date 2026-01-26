@@ -391,6 +391,13 @@ Ovaj ultra-pojednostavljeni pristup savršeno odgovara početnicima, ali ograni�
 
 
 
+| Usluga | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Minimalni iznos |
+| ------------- | ----------------------- | --------------------- | --------------- |
+| **Zeus Swap** | ~0.1% + rudarske naknade | 0.5% + rudarske naknade | 25.000 sats |
+| **Boltz** | 0.2% + rudarske naknade | 0.5% + rudarske naknade | 50.000 sats |
+| **Phoenix** | Samo rudarske naknade | 0.4% fiksno | 10.000 sats |
+| **Breez** | 0.25% + mrežne naknade | 0.5% + rudarske naknade | 50.000 sats |
+
 Zeus Swap nudi ravnotežu između jednostavnosti korišćenja i tehničke kontrole: pristupačniji je od Boltz-a, fleksibilniji od Phoenix/Breez-a, sa strogim nekustodijalnim pristupom.
 
 

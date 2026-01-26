@@ -391,6 +391,13 @@ Tämä erittäin yksinkertaistettu lähestymistapa sopii täydellisesti aloittel
 
 
 
+| Palvelu | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Minimimäärä |
+| ------------- | ----------------------- | --------------------- | --------------- |
+| **Zeus Swap** | ~0.1% + louhintamaksut | 0.5% + louhintamaksut | 25 000 sats |
+| **Boltz** | 0.2% + louhintamaksut | 0.5% + louhintamaksut | 50 000 sats |
+| **Phoenix** | Vain louhintamaksut | 0.4% kiinteä | 10 000 sats |
+| **Breez** | 0.25% + verkkomaksut | 0.5% + louhintamaksut | 50 000 sats |
+
 Zeus Swap tarjoaa tasapainon helppokäyttöisyyden ja teknisen hallinnan välillä: se on helpommin lähestyttävä kuin Boltz, joustavampi kuin Phoenix/Breez ja sen lähestymistapa on tiukka, mutta ei säilytysvelvollisuutta.
 
 

@@ -391,6 +391,13 @@ Cách tiếp cận siêu đơn giản này hoàn toàn phù hợp với người
 
 
 
+| Dịch vụ | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Số tiền tối thiểu |
+| ------------- | ----------------------- | --------------------- | --------------- |
+| **Zeus Swap** | ~0.1% + phí đào | 0.5% + phí đào | 25.000 sats |
+| **Boltz** | 0.2% + phí đào | 0.5% + phí đào | 50.000 sats |
+| **Phoenix** | Chỉ phí đào | 0.4% cố định | 10.000 sats |
+| **Breez** | 0.25% + phí mạng | 0.5% + phí đào | 50.000 sats |
+
 Zeus Swap mang lại sự cân bằng giữa tính dễ sử dụng và khả năng kiểm soát kỹ thuật: dễ tiếp cận hơn Boltz, linh hoạt hơn Phoenix/Breez, với phương pháp tiếp cận không giám sát chặt chẽ.
 
 

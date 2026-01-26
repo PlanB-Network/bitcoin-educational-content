@@ -391,6 +391,13 @@ Deze ultra-gesimplificeerde aanpak is perfect geschikt voor beginners, maar bepe
 
 
 
+| Service | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Minimumbedrag |
+| ------------- | ----------------------- | --------------------- | --------------- |
+| **Zeus Swap** | ~0.1% + miningkosten | 0.5% + miningkosten | 25.000 sats |
+| **Boltz** | 0.2% + miningkosten | 0.5% + miningkosten | 50.000 sats |
+| **Phoenix** | Alleen miningkosten | 0.4% vast | 10.000 sats |
+| **Breez** | 0.25% + netwerkkosten | 0.5% + miningkosten | 50.000 sats |
+
 Zeus Swap biedt een balans tussen gebruiksgemak en technische controle: toegankelijker dan Boltz, flexibeler dan Phoenix/Breez, met een strikte non-custodial aanpak.
 
 

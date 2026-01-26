@@ -391,6 +391,13 @@ Tento velmi zjednodušený přístup je dokonale vhodný pro začátečníky, al
 
 
 
+| Služba | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Minimální částka |
+| ------------- | ----------------------- | --------------------- | --------------- |
+| **Zeus Swap** | ~0.1% + poplatky za těžbu | 0.5% + poplatky za těžbu | 25 000 sats |
+| **Boltz** | 0.2% + poplatky za těžbu | 0.5% + poplatky za těžbu | 50 000 sats |
+| **Phoenix** | Pouze poplatky za těžbu | 0.4% fixní | 10 000 sats |
+| **Breez** | 0.25% + síťové poplatky | 0.5% + poplatky za těžbu | 50 000 sats |
+
 Zeus Swap nabízí rovnováhu mezi snadným používáním a technickou kontrolou: je přístupnější než Boltz, flexibilnější než Phoenix/Breez, s přísným neomezujícím přístupem.
 
 

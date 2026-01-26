@@ -391,6 +391,13 @@ Ubu buryo bworoshe cane burabereye cane abatangura, ariko buragabanya ugutahura 
 
 
 
+| Serivisi | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Amafaranga make | 
+| ------------- | ----------------------- | --------------------- | --------------- |
+| **Zeus Swap** | ~0.1% + amahera y'ugucukura | 0.5% + amahera y'ugucukura | 25 000 sats |
+| **Boltz** | 0.2% + amahera y'ugucukura | 0.5% + amahera y'ugucukura | 50 000 sats |
+| **Phoenix** | Amahera y'ugucukura gusa | 0.4% ntizihinduka | 10 000 sats |
+| **Breez** | 0.25% + amahera y'umuhora | 0.5% + amahera y'ugucukura | 50 000 sats |
+
 Zeus Swap itanga uburinganire hagati y’ukworohereza gukoresha n’ugucungera mu buryo bw’ubuhinga: irashikira kurusha Boltz, irahinduka kurusha Phoenix/Breez, n’uburyo bukomeye bwo kudacungera.
 
 

@@ -6,3 +6,4 @@ wrong_answers:
   - Proses tersebut harus mencakup kunci privat induk
 explanation: |
   Kunci publik anak hanya dapat diturunkan dari kunci publik induk jika itu normal, tidak diperkuat.
+reviewed: true

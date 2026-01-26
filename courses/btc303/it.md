@@ -594,7 +594,7 @@ Satoshi sottolinea che, intenzionalmente o meno, questo hard fork ha creato oppo
 
 Lombrozo fornisce anche una panoramica dell'evoluzione dei meccanismi di aggiornamento nel corso degli anni, fino al 2017. Da allora, solo un altro aggiornamento importante è stato implementato: Taproot. Il processo lungo e un po' caotico che ha portato alla sua attivazione ci ha aiutato ad acquisire ulteriori conoscenze sui meccanismi di aggiornamento di Bitcoin.
 
-#### Aggiornamento di SegWit
+#### Aggiornamento SegWit
 
 
 Mentre tutti gli aggiornamenti precedenti a SegWit erano stati più o meno indolori, questo è stato diverso. Quando il codice di attivazione di SegWit fu rilasciato, nell'ottobre 2016, sembrava esserci un ampio sostegno tra gli utenti di Bitcoin, ma per qualche motivo i miner non hanno segnalato il supporto a questo aggiornamento, bloccandone l'attivazione senza che si intravedesse alcuna soluzione.
@@ -783,9 +783,9 @@ Questi sono esempi di minacce reali di cui è necessario occuparsi.
 
 Per capire meglio la mente dell'avversario, può essere utile dare un'occhiata a come opera. Un ente governativo statunitense chiamato Office of Strategic Services, che operava durante la Seconda Guerra Mondiale e aveva tra i suoi scopi quello di condurre spionaggio, eseguire sabotaggi e diffondere propaganda, produsse un [manuale](https://www.gutenberg.org/ebooks/26184) per il proprio personale su come sabotare correttamente il nemico. Il titolo era "Simple Sabotage Field Manual" (Manuale di Sabotaggio Semplice) e conteneva consigli concreti su come infiltrarsi nel campo nemico per rendergli la vita difficile. I consigli spaziano dall'incendio di magazzini al danneggiamento di attrezzature per diminuire il livello di efficienza del nemico.
 
-Ad esempio, c'è una sezione su come un infiltrato può distruggere le organizzazioni. Non è difficile capire come tali tattiche possano essere usate per colpire il processo di sviluppo di Bitcoin, che è aperto a tutti. Un aggressore può continuare a ostacolare i progressi con infinite preoccupazioni su questioni irrilevanti, mercanteggiando su formulazioni precise e tentare di ripetere discussioni che sono già state affrontate in modo esaustivo. L'attaccante può anche assoldare un esercito di troll per moltiplicare la propria efficacia; possiamo chiamare questo attacco social Sybil. Utilizzando un attacco Sybil sociale, può far credere che ci sia più resistenza contro un cambiamento proposto di quanta ce ne sia in realtà.
+Ad esempio, c'è una sezione su come un infiltrato può distruggere le organizzazioni. Non è difficile capire come tali tattiche possano essere usate per colpire il processo di sviluppo di Bitcoin, che è aperto a tutti. Un aggressore può continuare a ostacolare i progressi con infinite preoccupazioni su questioni irrilevanti, mercanteggiando su formulazioni precise e tentare di ripetere discussioni che sono già state affrontate in modo esaustivo. L'attaccante può anche assoldare un esercito di troll per moltiplicare la propria efficacia; possiamo chiamare questo attacco *social Sybil*. Utilizzando un attacco Sybil sociale, può far credere che ci sia più resistenza contro un cambiamento proposto di quanta ce ne sia in realtà.
 
-Ciò evidenzia come uno Stato determinato possa e voglia fare tutto ciò che è in suo potere per distruggere il nemico, anche distruggerlo dall'interno. Poiché il Bitcoin è una forma di denaro che compete con le valute fiat consolidate, è probabile che gli Stati considerino il Bitcoin come un nemico.
+Ciò evidenzia come uno Stato determinato possa e voglia fare tutto ciò che è in suo potere per distruggere il nemico, anche distruggerlo dall'interno. Poiché Bitcoin è una forma di denaro che compete con le valute fiat consolidate, è probabile che gli Stati considerino Bitcoin come un nemico.
 
 ### Assioma della resistenza
 
@@ -793,32 +793,31 @@ Eric Voskuil [scrive sulla sua pagina wiki di Criptoeconomia](https://github.com
 
 > In altre parole, si presuppone che sia possibile per un sistema resistere al controllo dello Stato. Questo non è accettato come un dato di fatto, ma è considerato un presupposto ragionevole, dovuto allo studio empirico del comportamento di sistemi simili, su cui basare il sistema.
 >
-> Chi non accetta l'assioma della resistenza sta contemplando un sistema completamente diverso dal Bitcoin. Se si assume che non sia possibile per un sistema resistere ai controlli dello Stato, le conclusioni non hanno senso nel contesto di  Bitcoin - proprio come le conclusioni della geometria sferica contraddicono quella euclidea. Come può il Bitcoin essere senza permessi o resistente alla censura senza l'assioma? La contraddizione porta a commettere errori evidenti nel tentativo di razionalizzare il conflitto.
+> Chi non accetta l'assioma della resistenza sta contemplando un sistema completamente diverso da Bitcoin. Se si parte dal presupposto che nessun sistema possa sfuggire ai controlli dello Stato, qualsiasi analisi sul funzionamento di Bitcoin perde senso - proprio come le conclusioni della geometria sferica contraddicono quella euclidea. Senza l'assioma, come potrebbe Bitcoin esistere senza permessi o essere resistente alla censura? Questa contraddizione porta inevitabilmente a commettere errori evidenti nel tentativo di razionalizzare il conflitto.
 
 In sostanza, sta dicendo che solo quando si presume che sia possibile creare un sistema che gli Stati non possono controllare, ha senso provarci.
 
 Ciò significa che per lavorare su Bitcoin è necessario accettare l'assioma della resistenza, altrimenti è meglio dedicare il proprio tempo ad altri progetti. Riconoscere questo assioma aiuta a concentrare gli sforzi di sviluppo sui veri problemi da affrontare: la codifica di avversari di livello statale. In altre parole, pensare in modo avverso.
 
-### Conclusioni sul pensiero avverso
+### Conclusioni sulla mentalità avversariale
 
 
-Un sistema decentralizzato non può avere responsabilità al di fuori del sistema stesso, quindi il Bitcoin deve prevenire i comportamenti dannosi in modo più rigoroso rispetto ai sistemi tradizionali. Il pensiero avverso è imperativo in un sistema di questo tipo.
+Un sistema decentralizzato non può avere responsabilità esterna, quindi Bitcoin deve prevenire comportamenti dannosi con maggior rigore rispetto ai sistemi tradizionali. In questo contesto, è fondamentale adottare una mentalità avversariale.
 
-Per mantenere il Bitcoin al sicuro è necessario conoscere i suoi nemici e i loro incentivi. La maggior parte delle minacce sembra ridursi agli Stati nazionali, che hanno un enorme potere economico, attraverso la tassazione e la stampa di denaro. Probabilmente non rinunceranno facilmente ai loro privilegi di stampa di denaro.
+Per mantenere Bitcoin al sicuro è necessario conoscere i suoi nemici e i loro incentivi. La maggior parte delle minacce sembra ridursi agli Stati nazionali, che hanno un enorme potere economico, attraverso la tassazione e la stampa di denaro. Probabilmente gli Stati non rinunceranno facilmente ai loro privilegi di stampa.
 
 ## Open Source
-
 <chapterId>427a160c-f893-5b2c-afba-7b24e71ba899</chapterId>
 
 ![](assets/it/010.webp)
 
-Il Bitcoin è costruito utilizzando software open source. In questo capitolo analizziamo cosa significa, come funziona la manutenzione del software e come il software open source in Bitcoin consente uno sviluppo senza permessi. Ci immergiamo nella *crittografia di selezione*, che si occupa della selezione e dell'uso delle librerie nei sistemi crittografici. Il capitolo comprende una sezione sul processo di revisione di Bitcoin, seguita da un'altra sui modi in cui gli sviluppatori di Bitcoin vengono finanziati. L'ultima sezione parla di come la cultura open source di  Bitcoin possa sembrare molto strana dall'esterno, e del perché questa stranezza percepita sia in realtà un segno di buona salute.
+Bitcoin è costruito utilizzando software open source. In questo capitolo analizziamo cosa significa, come funziona la manutenzione del software e come il software open source in Bitcoin consente uno sviluppo senza permessi. Ci immergiamo nella *selection cryptography*, che si occupa della selezione e dell'uso delle librerie nei sistemi crittografici. Il capitolo comprende una sezione sul processo di revisione di Bitcoin, seguita da un'altra sui modi in cui gli sviluppatori di Bitcoin vengono finanziati. L'ultima sezione parla di come la cultura open source di Bitcoin possa sembrare molto strana dall'esterno, e del perché questa stranezza  sia in realtà un segno positivo.
 
-La maggior parte dei software Bitcoin, e in particolare Bitcoin Core, è open source. Ciò significa che il codice sorgente del software è reso disponibile al pubblico in generale per essere esaminato, modificato e ridistribuito. La definizione di "open source", disponibile all'indirizzo [](https://opensource.org/osd), comprende, tra l'altro, i seguenti punti importanti:
+La maggior parte dei software Bitcoin, e in particolare Bitcoin Core, è open source. Ciò significa che il codice sorgente del software è reso disponibile al pubblico per essere esaminato, modificato e ridistribuito. La definizione di "open source", disponibile all'indirizzo [](https://opensource.org/osd), comprende, tra l'altro, i seguenti punti:
 
 > Libera ridistribuzione: La licenza non limita la possibilità di vendere o regalare il software come componente di una distribuzione aggregata di software contenente programmi provenienti da diverse fonti. La licenza non richiederà royalty o altri compensi per tale vendita.
 >
-> Codice sorgente: Il programma deve includere il codice sorgente e deve consentire la distribuzione sia in codice sorgente che in forma compilata. Se una forma di prodotto non viene distribuita con il codice sorgente, deve esistere un mezzo ben pubblicizzato per ottenere il codice sorgente a un costo di riproduzione non superiore a quello ragionevole, preferibilmente scaricandolo gratuitamente da Internet. Il codice sorgente deve essere la forma preferita in cui un programmatore modificherebbe il programma. Il codice sorgente deliberatamente offuscato non è consentito. Non sono ammesse forme intermedie come l'output di un preprocessore o di un traduttore.
+> Codice sorgente: Il programma deve includere il codice sorgente e deve consentire la distribuzione sia in codice sorgente che in forma compilata. Se una forma di prodotto non viene distribuita insieme al codice sorgente, deve esistere un mezzo ben pubblicizzato per ottenere il codice sorgente a un costo di riproduzione non superiore a quello ragionevole, preferibilmente scaricandolo gratuitamente da Internet. Il codice sorgente deve essere la forma preferita in cui un programmatore modificherebbe il programma. Il codice sorgente deliberatamente offuscato non è consentito. Non sono ammesse forme intermedie come l'output di un preprocessore o di un traduttore.
 >
 > Opere derivate: La licenza deve consentire le modifiche e le opere derivate e deve permettere la loro distribuzione secondo gli stessi termini della licenza del software originale.
 
@@ -837,16 +836,16 @@ L'avviso di copyright sopra riportato e questo avviso di autorizzazione devono e
 
 Come indicato nel capitolo "Non fidarti, verifica", è importante che gli utenti siano in grado di verificare che il software Bitcoin che eseguono "funzioni come pubblicizzato". Per farlo, devono avere accesso illimitato al codice sorgente del software che desiderano verificare.
 
-Nelle prossime sezioni approfondiremo altri aspetti interessanti del software open source in Bitcoin.
+Nelle prossime sezioni approfondiremo altri aspetti interessanti dei software open source in Bitcoin.
 
 ### Manutenzione del software
 
 
-Il codice sorgente di Bitcoin Core è mantenuto in un repository Git ospitato su [GitHub](https://github.com/Bitcoin/Bitcoin). Chiunque può clonare questo stesso repository senza chiedere alcun permesso e quindi ispezionarlo, compilarlo o apportarvi modifiche a livello locale. Ciò significa che ci sono molte migliaia di copie del repository sparse in tutto il mondo. Sono tutte copie dello stesso repository, quindi cosa rende questo specifico repository GitHub Bitcoin Core così speciale? Tecnicamente non è affatto speciale, ma socialmente è diventato il punto focale dello sviluppo di Bitcoin.
+Il codice sorgente di Bitcoin Core è mantenuto in un repository Git ospitato su [GitHub](https://github.com/Bitcoin/Bitcoin). Chiunque può clonare questo stesso repository senza chiedere alcun permesso e quindi ispezionarlo, compilarlo o apportarvi modifiche a livello locale. Ciò significa che ci sono molte migliaia di copie del repository sparse in tutto il mondo. Sono tutte copie dello stesso repository, quindi cosa rende questo specifico repository GitHub Bitcoin Core così speciale? Tecnicamente non è affatto speciale, ma socialmente è diventato il punto centrale dello sviluppo di Bitcoin.
 
-L'esperto di Bitcoin e sicurezza Jameson Lopp lo spiega molto bene in un [post sul blog](https://blog.lopp.net/who-controls-Bitcoin-core-/) intitolato "Who Controls Bitcoin Core?":
+Jameson Lopp, esperto di Bitcoin e sicurezza, lo spiega molto bene in un [post sul blog](https://blog.lopp.net/who-controls-Bitcoin-core-/) intitolato "Who Controls Bitcoin Core?":
 
-> Bitcoin Core è un punto focale per lo sviluppo del protocollo Bitcoin piuttosto che un punto di comando e controllo. Se cessasse di esistere per qualsiasi motivo, emergerebbe un nuovo punto focale - la piattaforma di comunicazione tecnica su cui si basa (attualmente il repository GitHub) è una questione di convenienza piuttosto che di definizione / integrità del progetto. In effetti, abbiamo già visto il punto focale di Bitcoin per lo sviluppo cambiare piattaforma e persino nome!
+> Bitcoin Core è un punto cruciale per lo sviluppo del protocollo Bitcoin piuttosto che un centro di comando e controllo. Se per qualsiasi motivo cessasse di esistere, emergerebbe un nuovo punto di riferimento principale - la piattaforma di comunicazione tecnica su cui si basa (attualmente il repository GitHub) è una questione di convenienza piuttosto che definisce / o garantisce l'integrità del progetto. In effetti, abbiamo già visto il punto di riferimento dello sviluppo di Bitcoin cambiare piattaforme e persino nomi!
 
 Spiega poi come il software di Bitcoin Core viene mantenuto e protetto da modifiche al codice maligno. L'articolo completo è riassunto alla fine dell'articolo:
 
@@ -854,31 +853,32 @@ Spiega poi come il software di Bitcoin Core viene mantenuto e protetto da modifi
 >
 > Nessuno controlla il punto focale dello sviluppo di Bitcoin.
 
-Lo sviluppatore di Bitcoin Core Eric Lombrozo parla ulteriormente del processo di sviluppo nel suo [Medium post](https://medium.com/@elombrozo/the-Bitcoin-core-merge-process-74687a09d81d) intitolato "The Bitcoin Core Merge Process":
+Lo sviluppatore di Bitcoin Core, Eric Lombrozo, parla ulteriormente del processo di sviluppo nel suo [post su Medium](https://medium.com/@elombrozo/the-Bitcoin-core-merge-process-74687a09d81d) intitolato "The Bitcoin Core Merge Process":
 
-> Chiunque può fare Fork del repository di base del codice e apportare modifiche arbitrarie al proprio repository. Può creare un client dal proprio repository ed eseguirlo al suo posto, se lo desidera. Possono anche creare build binarie da far eseguire ad altre persone.
+> Chiunque può fare fork del repository di base del codice e apportare modifiche arbitrarie al proprio repository. Può creare un client dal proprio repository ed eseguirlo al suo posto, se lo desidera. Possono anche creare build binarie da far eseguire ad altre persone.
 >
-> Se qualcuno vuole unire una modifica apportata nel proprio repository a Bitcoin Core, può inviare una richiesta di pull. Una volta inviata, chiunque può esaminare le modifiche e commentarle, indipendentemente dal fatto che abbia o meno accesso al commit di Bitcoin Core.
+> Se qualcuno vuole unire una modifica apportata nel proprio repository a Bitcoin Core, può inviare una _pull request_ (richiesta di aggiornare il codice). Una volta inviata, chiunque può esaminare le modifiche e commentarle, indipendentemente dal fatto che abbia o meno accesso al commit di Bitcoin Core.
 
-Va notato che le richieste di pull possono richiedere molto tempo prima di essere unite al repository da parte dei manutentori, e questo di solito è dovuto a una mancanza di revisione, che spesso è dovuta a una mancanza di *revisori*.
+Va notato che le _pull request_ possono richiedere molto tempo prima di essere integrate al repository da parte dei manutentori, e questo di solito è dovuto a una mancanza di revisione, a sua volta dovuta alla carenza di *revisori*.
 
-Lombrozo parla anche del processo che circonda le modifiche del consenso, ma questo va un po' oltre lo scopo di questo capitolo. Per maggiori informazioni sulle modalità di aggiornamento del protocollo Bitcoin, si veda il capitolo precedente "Aggiornamento".
+Lombrozo parla anche del processo che circonda le modifiche del consenso, ma questo va un po' oltre lo scopo di questo capitolo. Per maggiori informazioni sulle modalità di aggiornamento del protocollo Bitcoin, rivedi il capitolo "Aggiornamento".
 
 ### Sviluppo senza permessi
 
 
-Abbiamo stabilito che chiunque può scrivere codice per Bitcoin Core senza chiedere alcun permesso, ma non è detto che venga unito al repository Git principale. Ciò riguarda qualsiasi modifica, dalla modifica degli schemi di colore dell'utente grafico Interface, al modo in cui sono formattati i messaggi peer-to-peer, e persino le regole di consenso, cioè l'insieme di regole che definiscono un Blockchain valido.
+Abbiamo stabilito che chiunque può scrivere codice per Bitcoin Core senza chiedere alcun permesso, ma non è detto che venga unito al repository Git principale. Ciò riguarda qualsiasi modifica, dalla modifica degli schemi di colore dell'interfaccia grafica, al modo in cui sono formattati i messaggi peer-to-peer, e persino le regole di consenso, cioè l'insieme di regole che definiscono una blockchain valida.
 
-Probabilmente altrettanto importante è che gli utenti sono liberi di sviluppare sistemi sulla base di Bitcoin, senza chiedere alcun permesso. Abbiamo visto innumerevoli progetti software di successo costruiti sulla base di Bitcoin, come ad esempio:
+Altrettanto importante è che gli utenti siano liberi di sviluppare sistemi sulla base di Bitcoin, senza chiedere alcun permesso. Abbiamo visto innumerevoli progetti software di successo costruiti sulla base di Bitcoin, come ad esempio:
 
 - Lightning Network: Rete di pagamento che consente di pagare velocemente importi molto piccoli. Richiede pochissime transazioni On-Chain Bitcoin. Esistono diverse implementazioni interoperabili, come [Core Lightning](https://github.com/ElementsProject/lightning), [LND](https://github.com/lightningnetwork/LND), [Eclair](https://github.com/ACINQ/eclair) e [Lightning Dev Kit](https://github.com/lightningdevkit).
 - CoinJoin: Più parti collaborano per combinare i loro pagamenti in un'unica transazione per rendere più difficile il clustering Address. Esistono diverse implementazioni.
-- Sidechains: Questo sistema può bloccare una moneta sul Bitcoin della blockchain per sbloccarla su qualche altro Blockchain. Ciò consente di spostare i bitcoin su un altro Blockchain, ossia un Sidechain, in modo da utilizzare le funzionalità disponibili su tale Sidechain. Alcuni esempi sono [Blockstream's Elements](https://github.com/ElementsProject/Elements).
-- OpenTimestamps: consente di [Timestamp un documento](https://opentimestamps.org/) sul Bitcoin della blockchain in modo privato. È quindi possibile utilizzare quel Timestamp per dimostrare che un documento deve essere esistito prima di un certo momento.
+- Sidechains: Questo sistema può bloccare una moneta sulla blockchain di Bitcoin per sbloccarla su un'altra blockchain. Il motivo per cui si può voler utilizzare una Sidechain, sono le funzionalità disponibili su tale Sidechain. Alcuni esempi sono [Blockstream's Elements](https://github.com/ElementsProject/Elements).
+- OpenTimestamps: consente di fare [Timestamp un documento](https://opentimestamps.org/) sulla blockchain di Bitcoin in modo privato. È quindi possibile utilizzare quel Timestamp per dimostrare che un documento deve essere esistito prima di un certo momento.
 
-Senza lo sviluppo senza permessi, molti di questi progetti non sarebbero stati possibili. Come si è detto nel capitolo sulla neutralità, se gli sviluppatori dovessero chiedere il permesso di costruire protocolli su Bitcoin, verrebbero sviluppati solo i protocolli consentiti dal comitato centrale di concessione degli sviluppatori.
+Se non esistesse lo sviluppo senza permessi, molti di questi progetti non sarebbero stati possibili. Come si è detto nel capitolo sulla neutralità, se gli sviluppatori dovessero chiedere il permesso di costruire protocolli su Bitcoin, verrebbero sviluppati solo i protocolli consentiti dal comitato centrale di concessione degli sviluppatori.
 
-È comune che sistemi come quelli elencati in precedenza abbiano una licenza di software open source, che a sua volta consente alle persone di contribuire, riutilizzare o rivedere il loro codice senza chiedere alcun permesso. L'open source è diventato il gold standard delle licenze software Bitcoin .
+È comune che sistemi come quelli elencati in precedenza adottino una licenza di software open source, che consente a chiunque di contribuire, riutilizzare o esaminare il codice senza chiedere alcun permesso. Anche lo standard delle licenze software di Bitcoin è open source. 
+
 
 ### Sviluppo pseudonimo
 

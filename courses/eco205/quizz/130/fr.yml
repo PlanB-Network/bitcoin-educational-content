@@ -1,0 +1,8 @@
+question: Selon Hans-Hermann Hoppe, que représente le taux d'intérêt de marché dans une économie?
+answer: La somme agrégée de tous les niveaux de préférence temporelle individuelle qui équilibre l'épargne sociale avec l'investissement social
+wrong_answers:
+  - "Le coût d'opportunité moyen de détenir de la monnaie plutôt que des actifs financiers dans la société"
+  - "Le prix fixé par les banques centrales pour coordonner l'offre et la demande de capital disponible"
+  - La moyenne pondérée des taux pratiqués par les institutions financières pour leurs opérations de crédit
+explanation: |
+  Hans-Hermann Hoppe explique que le taux d'intérêt de marché agrège toutes les préférences temporelles individuelles pour créer un équilibre social entre épargne et investissement. Cette vision autrichienne diffère des approches keynésiennes (coût d'opportunité de la monnaie) et rejette l'intervention des banques centrales dans la fixation des taux, privilégiant un mécanisme naturel de coordination des préférences temporelles subjectives.

@@ -1,0 +1,8 @@
+question: Selon Luis Saravia de la Calle et l'analyse des scolastiques espagnols, quelle est la relation correcte entre les coûts de production et les prix sur le marché?
+answer: Les coûts tendent à suivre les prix, car le juste prix naît de l'abondance ou du manque de marchandises
+wrong_answers:
+  - Les prix sont déterminés par les coûts de production, notamment le travail nécessaire à la fabrication
+  - "Les coûts et les prix s'établissent simultanément par un équilibre mathématique parfait"
+  - "Les prix suivent les coûts mais seulement dans les secteurs contrôlés par l'État espagnol"
+explanation: |
+  Saravia de la Calle révolutionne la compréhension économique en démontrant que les coûts s'ajustent aux prix déterminés par l'offre et la demande, et non l'inverse. Cette vision s'oppose à la théorie de la valeur travail qui postule que les prix dérivent des coûts de production. Les scolastiques espagnols anticipent ainsi la théorie autrichienne moderne selon laquelle les prix émergent des évaluations subjectives des consommateurs sur le marché.

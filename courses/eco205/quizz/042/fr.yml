@@ -1,0 +1,8 @@
+question: Selon l'école autrichienne, quelle est la principale limite de l'économétrie comme outil d'analyse économique ?
+answer: Les corrélations statistiques passées ne garantissent aucune régularité future car les individus apprennent et modifient leurs stratégies
+wrong_answers:
+  - Les données économétriques sont trop difficiles à collecter et manquent souvent de précision dans leurs mesures
+  - "L'économétrie utilise des mathématiques trop complexes qui ne sont pas accessibles aux économistes praticiens"
+  - Les modèles économétriques nécessitent des ordinateurs trop puissants pour être utilisés efficacement en recherche
+explanation: |
+  L'école autrichienne critique l'économétrie non pas pour des raisons techniques, mais parce qu'elle ne peut révéler les lois économiques fondamentales. Les individus étant capables d'apprentissage et de changement, leurs comportements évoluent constamment, rendant les prédictions basées sur les données historiques peu fiables. Cette critique découle directement du dualisme méthodologique qui reconnaît l'imprévisibilité fondamentale de l'action humaine.

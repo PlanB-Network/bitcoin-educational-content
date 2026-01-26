@@ -1,0 +1,8 @@
+question: Selon la théorie autrichienne, pourquoi le développement économique harmonieux nécessite-t-il impérativement que le taux d'intérêt reflète fidèlement les préférences temporelles réelles des individus?
+answer: Parce que seul un taux d'intérêt authentique permet d'adapter correctement la structure du capital aux besoins réels et d'éviter les cycles économiques destructeurs
+wrong_answers:
+  - Parce que cela garantit automatiquement une croissance économique constante et prévisible sans aucune fluctuation des prix
+  - "Parce que cela permet aux banques centrales de mieux contrôler l'inflation et de stabiliser les marchés financiers"
+  - Parce que cela assure une répartition égalitaire des richesses entre tous les acteurs économiques de la société
+explanation: |
+  La réponse correcte souligne le mécanisme fondamental de coordination intertemporelle. Quand le taux d'intérêt reflète les vraies préférences temporelles, la structure productive s'adapte naturellement aux besoins réels, évitant les distorsions qui créent les cycles économiques. Les autres réponses sont fausses car elles évoquent des garanties automatiques inexistantes, le rôle des banques centrales (contraire à la vision autrichienne), ou des objectifs redistributifs non pertinents dans ce contexte théorique.

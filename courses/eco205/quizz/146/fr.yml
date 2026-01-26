@@ -1,0 +1,8 @@
+question: Selon la théorie autrichienne des cycles économiques, quel est le mécanisme principal par lequel la manipulation des taux d'intérêt par les banques centrales génère des malinvestissements?
+answer: La baisse artificielle des taux fausse les signaux intertemporels, incitant les entrepreneurs à investir dans des projets éloignés de la production sans épargne réelle correspondante
+wrong_answers:
+  - "L'augmentation des taux d'intérêt crée une pénurie de liquidités qui pousse les entrepreneurs vers des investissements spéculatifs à court terme"
+  - "La stabilité des taux d'intérêt empêche l'ajustement naturel de l'offre et de la demande, créant des déséquilibres sectoriels durables"
+  - Les variations erratiques des taux perturbent la planification des entreprises, les obligeant à diversifier leurs investissements dans tous les secteurs
+explanation: |
+  La réponse correcte capture l'essence de la théorie autrichienne : les taux artificiellement bas envoient un faux signal d'abondance d'épargne, poussant les entrepreneurs vers des investissements à long terme non soutenus par une épargne réelle. Les autres options sont incorrectes car elles décrivent soit des hausses de taux (contraire au mécanisme décrit), soit une stabilité des taux (qui n'est pas le problème selon les Autrichiens), soit une diversification (alors que le problème est la concentration dans certains secteurs).

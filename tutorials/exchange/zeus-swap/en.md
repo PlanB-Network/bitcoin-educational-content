@@ -295,12 +295,6 @@ This ultra-simplified approach is perfectly suited to beginners, but limits unde
 ⚠️ **Warning**: Fees may vary over time depending on market conditions and service updates. Always check the fees displayed in the Interface before validating a swap.
 
 
-| Service | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Montant minimum |
-|---------|-------------------------|----------------------|-----------------|
-| **Zeus Swap** | ~0.1% + frais minage | 0.5% + frais minage | 25 000 sats |
-| **Boltz** | 0.2% + frais minage | 0.5% + frais minage | 50 000 sats |
-| **Phoenix** | Frais minage uniquement | 0.4% fixe | 10 000 sats |
-| **Breez** | 0.25% + frais réseau | 0.5% + frais minage | 50 000 sats |
 
 Zeus Swap offers a balance between ease of use and technical control: more accessible than Boltz, more flexible than Phoenix/Breez, with a strict non-custodial approach.
 

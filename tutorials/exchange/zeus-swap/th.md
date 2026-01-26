@@ -390,12 +390,6 @@ Phoenix และ Breez รวมฟังก์ชันการสลับ�
 
 
 
-| Service | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Montant minimum |
-|---------|-------------------------|----------------------|-----------------|
-| **Zeus Swap** | ~0.1% + frais minage | 0.5% + frais minage | 25 000 sats |
-| **Boltz** | 0.2% + frais minage | 0.5% + frais minage | 50 000 sats |
-| **Phoenix** | Frais minage uniquement | 0.4% fixe | 10 000 sats |
-| **Breez** | 0.25% + frais réseau | 0.5% + frais minage | 50 000 sats |
 
 Zeus Swap นำเสนอความสมดุลระหว่างความง่ายในการใช้งานและการควบคุมทางเทคนิค: เข้าถึงได้ง่ายกว่า Boltz ยืดหยุ่นกว่า Phoenix/Breez พร้อมด้วยแนวทางที่ไม่รับฝากอย่างเคร่งครัด
 

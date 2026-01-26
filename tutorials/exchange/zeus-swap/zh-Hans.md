@@ -390,12 +390,6 @@ Phoenix 和 Breez 集成了透明交换功能，向最终用户隐藏了技术�
 
 
 
-| Service | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Montant minimum |
-|---------|-------------------------|----------------------|-----------------|
-| **Zeus Swap** | ~0.1% + frais minage | 0.5% + frais minage | 25 000 sats |
-| **Boltz** | 0.2% + frais minage | 0.5% + frais minage | 50 000 sats |
-| **Phoenix** | Frais minage uniquement | 0.4% fixe | 10 000 sats |
-| **Breez** | 0.25% + frais réseau | 0.5% + frais minage | 50 000 sats |
 
 Zeus Swap 在易用性和技术控制之间取得了平衡：比 Boltz 更易用，比 Phoenix/Breez 更灵活，采用严格的非监管方式。
 

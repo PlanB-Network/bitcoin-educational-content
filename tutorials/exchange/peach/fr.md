@@ -135,6 +135,7 @@ Systèmes de paiement spécifiques par pays :
 ***Pour les paiements en face à face :***
 
 ![Configuration des paiements en personne](assets/fr/05.webp)
+
 - Sélectionnez "Meetup" (image 12)
 - Puis sélectionner votre meetup parmi la liste (image 13)
 
@@ -198,12 +199,14 @@ Mais **PAS** les choses suivantes:
 Le premier premier reflexe d'un acheteur doit être d'aller voir les offres de vente qui sont déjà financée avec du bitcoin.
 
 ![Vue des offres de vente et filtres](assets/fr/07.webp)
+
 - Sur l'écran d'accueil, cliquez sur le bouton "Acheter" (image 16)
 - Vous pouvez alors parcourir une liste des bitcoins qui sont placés dans le système d'entiercement ("escrow") et sont prêts pour la vente (image 17). Vous pourrez observer le montant, le prix (en % par rapport au marché KYC), les méthodes de payment et les devises acceptées.
 - Utilisez les filtres pour trier et ordonner les offres (image 18).
 - Notez: le bouton en bas de la page des filtres qui vous permet de recevoir une notification lorsqu'une offre correspondant à vos filtres a été publiée ; insi que le bouton "reset", qui permet simplement d'effacer tous les filtres (image 18).
 
 ![Sélection et confirmation d'achat](assets/fr/08.webp)
+
 - Visualisez l'offre qui vous convient et envoyer un demande d'échange (image 19)
 - Vous pouvez faire plusieurs demandes d'échange, et la première offre dont la réponse est positive annulera vos autres demandes.
 - Effectuez le paiement selon la méthode convenue.

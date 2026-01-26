@@ -1,0 +1,8 @@
+question: Selon Hayek, pourquoi est-il impossible pour une autorité centrale de diriger efficacement le processus de marché?
+answer: Parce que la connaissance nécessaire est dispersée entre tous les acteurs et n'existe jamais sous une forme concentrée
+wrong_answers:
+  - Parce que les autorités centrales manquent de formation économique théorique appropriée pour comprendre les mécanismes
+  - Parce que les consommateurs refusent systématiquement de révéler leurs préférences aux organismes planificateurs
+  - Parce que les entreprises cachent volontairement leurs informations pour maintenir leurs avantages concurrentiels
+explanation: |
+  Hayek explique dans "The Use of Knowledge in Society" que la connaissance nécessaire au fonctionnement économique n'existe jamais de manière concentrée, mais uniquement sous forme d'éléments dispersés que chaque individu possède partiellement. Cette dispersion fondamentale, combinée à la subjectivité des préférences et leur évolution temporelle, rend impossible la centralisation de l'information par un planificateur. Les autres réponses suggèrent des obstacles techniques ou comportementaux, alors que le problème identifié par Hayek est structurel et inhérent à la nature même de la connaissance économique.

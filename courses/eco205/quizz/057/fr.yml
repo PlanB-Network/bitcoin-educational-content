@@ -1,0 +1,8 @@
+question: Selon la théorie autrichienne du capital, quel rôle joue l'épargne dans l'économie?
+answer: Elle constitue le signal que la consommation actuelle est satisfaite et permet aux entrepreneurs d'investir dans d'autres étapes de production
+wrong_answers:
+  - Elle représente directement la quantité de biens de production disponibles pour la consommation immédiate
+  - "Elle détermine automatiquement la conversion des biens capitaux d'un secteur vers un autre secteur plus productif"
+  - "Elle mesure la capacité d'une économie à maintenir un stock de capital homogène et équilibré"
+explanation: |
+  Selon l'école autrichienne, l'épargne joue un rôle de signal économique crucial. Elle indique que les besoins de consommation présente sont satisfaits, ce qui permet aux entrepreneurs d'orienter les ressources vers des investissements dans des étapes de production plus éloignées de la consommation finale. L'épargne et son prix (le taux d'intérêt) guident ainsi la production vers la bonne temporalité, permettant le développement de la structure du capital.

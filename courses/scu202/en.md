@@ -1,5 +1,5 @@
 ---
-name: Improving your personal digital security
+name: Improve Your Personal Digital Security
 goal: Set up a secure, stable and efficient personal digital environment.
 objectives: 
 

@@ -1,0 +1,8 @@
+question: Selon Karl Menger, qu'est-ce qui détermine principalement la valeur économique d'un bien?
+answer: Le jugement subjectif de l'individu sur la capacité du bien à satisfaire son besoin personnel
+wrong_answers:
+  - La quantité de travail nécessaire pour produire le bien selon la théorie classique
+  - La rareté objective du bien sur le marché indépendamment des besoins individuels
+  - "Une mesure cardinale quantifiable en unités d'utilité comme le proposaient Walras et Jevons"
+explanation: |
+  Karl Menger développe le subjectivisme méthodologique selon lequel la valeur n'existe pas de manière intrinsèque dans les biens, mais émane entièrement du jugement subjectif de l'individu. Contrairement à la théorie de la valeur travail des classiques ou aux tentatives de quantification de Walras et Jevons, Menger affirme que seule compte la capacité perçue du bien à satisfaire un besoin personnel spécifique, dans un contexte donné.

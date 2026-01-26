@@ -40,7 +40,6 @@ Er du klar til å oppdage hvorfor frihet ikke bare er et moralsk ideal, men ogs�
 
 
 
-![video](https://www.youtube.com/watch?v=md-rDzJX0Ws)
 
 
 
@@ -96,7 +95,6 @@ Dessuten er sanseinntrykk i sin natur individuelle. Man kan ikke oppleve sult gj
 
 
 
-![video](https://www.youtube.com/watch?v=w9DUtXbOYEg)
 
 
 
@@ -152,7 +150,6 @@ Den franske historien illustrerer konsekvensene av fraværet av denne friheten. 
 
 
 
-![video](https://www.youtube.com/watch?v=Vjm91Lve_SA)
 
 
 
@@ -238,7 +235,6 @@ Til sammen utgjør ikke disse observasjonene en abstrakt teori, men en streng vu
 
 
 
-![video](https://www.youtube.com/watch?v=Wlc3WLYFjXo)
 
 
 
@@ -306,7 +302,6 @@ Ekteskapsspørsmålet illustrerer disse prinsippene: Valget av ektefelle må væ
 
 
 
-![video](https://www.youtube.com/watch?v=8Ib5M-6Rr8M)
 
 
 
@@ -383,7 +378,6 @@ Endelig er avskaffelsen av renter på penger og regulering av profitt et angrep 
 
 
 
-![video](https://www.youtube.com/watch?v=eS_LZr9iKto)
 
 
 
@@ -452,7 +446,6 @@ Historisk analyse viser at frihet ikke er en tapt naturtilstand som skal gjenvin
 
 
 
-![video](https://www.youtube.com/watch?v=v7blehzJCr8)
 
 
 
@@ -511,7 +504,6 @@ En undersøkelse av de historiske årsakene til ufrihet avslører en grunnleggen
 
 
 
-![video](https://www.youtube.com/watch?v=X4Htu6xM4Qk)
 
 
 
@@ -571,7 +563,6 @@ Når man ser på de ulike utviklingsstadiene, ser man at det er en dyp sammenhen
 
 
 
-![video](https://www.youtube.com/watch?v=Uzns3FT688k)
 
 
 
@@ -630,7 +621,6 @@ Revolusjoner har betydelige ulemper: De er preget av mye vold og har en tendens 
 
 
 
-![video](https://www.youtube.com/watch?v=0q_m3KIoq-U)
 
 
 
@@ -684,7 +674,6 @@ Denne refleksjonen fører til en viktig konklusjon: Dagens omstendigheter er mat
 
 
 
-![video](https://www.youtube.com/watch?v=aEoerhy6ERU)
 
 
 
@@ -745,7 +734,6 @@ Etter å ha etablert disse forutsetningene, er det nå mulig å undersøke de fa
 
 
 
-![video](https://www.youtube.com/watch?v=xcaV6Kb21O0)
 
 
 
@@ -801,7 +789,6 @@ Av denne analysen følger en grunnleggende konklusjon: Økt handel mellom unders
 
 
 
-![video](https://www.youtube.com/watch?v=qrE5GJWNwGE)
 
 
 
@@ -860,7 +847,6 @@ Den avgjørende fordelen med økonomisk frihet er at produksjonen aldri er for t
 
 
 
-![video](https://www.youtube.com/watch?v=tfH8FapqqsE)
 
 
 
@@ -920,7 +906,6 @@ I et fritt samfunn fører egeninteressen til innovasjon og fremskritt. I et ufri
 
 
 
-![video](https://www.youtube.com/watch?v=hS1_Nkd_H9M)
 
 
 
@@ -976,7 +961,6 @@ Overgangen til et fredelig samfunn er en lang læringsprosess. Menneskenes samfu
 
 
 
-![video](https://www.youtube.com/watch?v=DzE_iGRP5Z0)
 
 
 
@@ -1035,7 +1019,6 @@ Ufrihetssystemer kjennetegnes nettopp av ulikhet: Noen individer kan fritt nyte 
 
 
 
-![video](https://www.youtube.com/watch?v=LDMCs9wCTQc)
 
 
 
@@ -1095,7 +1078,6 @@ Motsatt fungerer relasjoner basert på politisk makt på en avkortet måte. Valg
 
 
 
-![video](https://www.youtube.com/watch?v=mfvPE1fO3-E)
 
 
 
@@ -1167,7 +1149,6 @@ Frihetslæren motsetter seg denne logikken med prinsippet om individuell og koll
 
 
 
-![video](https://www.youtube.com/watch?v=VT3w2BjiD8E)
 
 
 
@@ -1227,7 +1208,6 @@ Disse forfatterne identifiserte arbeidstakerproteksjonisme som den fremtidige do
 
 
 
-![video](https://www.youtube.com/watch?v=MRcLZ1SpAo8)
 
 
 
@@ -1297,7 +1277,6 @@ Denne intellektuelle og faktiske historien om ufrihetens fiasko er en grunnlegge
 
 
 
-![video](https://www.youtube.com/watch?v=asOEZJRQuOw)
 
 
 
@@ -1341,7 +1320,6 @@ Et avgjørende skille går mellom negativ og positiv frihet. Negativ frihet defi
 
 
 
-![video](https://www.youtube.com/watch?v=mkzE0SfSl1Q)
 
 
 
@@ -1396,7 +1374,6 @@ I møte med disse farene utviklet liberale tenkere, særlig Benjamin Constant, i
 
 
 
-![video](https://www.youtube.com/watch?v=K1e39vtOoCc)
 
 
 
@@ -1456,7 +1433,6 @@ Bastiat insisterte på dette poenget fordi England i hans samtid stadig ble frem
 
 
 
-![video](https://www.youtube.com/watch?v=zJhhcxwXpRI)
 
 
 
@@ -1515,7 +1491,6 @@ Likevel har de liberale forfatterne en sterk følsomhet for fattigdom og de svak
 
 
 
-![video](https://www.youtube.com/watch?v=GtxJlUa_H08)
 
 
 
@@ -1582,7 +1557,6 @@ Denne analysen gjør oss også i stand til å forstå hvordan ufrihetssystemer u
 
 
 
-![video](https://www.youtube.com/watch?v=ary4UJhwRl8)
 
 
 
@@ -1646,7 +1620,6 @@ Courcelle-Seneuil hevdet ganske enkelt den franske revolusjonens ideer om frihet
 
 
 
-![video](https://www.youtube.com/watch?v=c8Wi5jkSEu8)
 
 
 
@@ -1707,7 +1680,6 @@ Dagens virkelighet avdekker en paradoksal og trist situasjon. Utdannings- og hel
 
 
 
-![video](https://www.youtube.com/watch?v=cEzFGSnYfnk)
 
 
 
@@ -1771,7 +1743,6 @@ Molinari og det store flertallet av franske liberale på hans tid så positivt p
 
 
 
-![video](https://www.youtube.com/watch?v=b8PojgZ0TQo)
 
 
 
@@ -1831,7 +1802,6 @@ En slik internasjonal rettstilstand, som anerkjenner handlefrihet og samtidig st
 
 
 
-![video](https://www.youtube.com/watch?v=OfqTuJvo3MQ)
 
 
 

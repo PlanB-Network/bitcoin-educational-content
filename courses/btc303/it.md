@@ -887,32 +887,31 @@ Non dover chiedere l'autorizzazione per sviluppare il software Bitcoin offre un'
 
 Molti sviluppatori scelgono questa opzione operando con uno pseudonimo e cercando di tenerlo separato dalla loro vera identità. Le ragioni di questa scelta possono variare da sviluppatore a sviluppatore. Un utente pseudonimo è ZmnSCPxj. Tra gli altri progetti, contribuisce a Bitcoin Core e Core Lightning, una delle diverse implementazioni di Lightning Network. [Scrive](https://zmnscpxj.github.io/about.html) sulla sua pagina web:
 
-> Sono ZmnSCPxj, una persona di Internet generata a caso. I miei pronomi sono lui/lei/lui.
+> Sono ZmnSCPxj, una persona di Internet generata a caso. I miei pronomi sono maschili.
 >
 > Capisco che gli esseri umani desiderino istintivamente conoscere la mia identità. Tuttavia, ritengo che la mia identità sia in gran parte immateriale e preferisco essere giudicato in base al mio lavoro.
 >
-> Se vi state chiedendo se fare una donazione o meno, e vi chiedete quale sia il mio costo della vita o il mio reddito, sappiate che, in termini corretti, dovreste fare una donazione a me in base all'utilità che trovate nella mia
-articoli e il mio lavoro sul Bitcoin e sul Lightning Network.
+> Se vi state chiedendo se fare una donazione o meno, e vi chiedete quale sia il mio costo della vita o il mio reddito, sappiate che, in termini corretti, dovreste farmi una donazione in base all'utilità che trovate nei miei articoli e nel mio lavoro su Bitcoin e sul Lightning Network.
 
 Nel suo caso, il motivo dell'utilizzo di uno pseudonimo deve essere giudicato in base ai suoi meriti e non in base a chi sia o siano la persona o le persone dietro lo pseudonimo. È interessante notare che in un [articolo su CoinDesk](https://www.coindesk.com/markets/2020/06/29/many-Bitcoin-developers-are-choosing-to-use-pseudonyms-for-good-reason/) ha rivelato che lo pseudonimo è stato creato per un motivo diverso.
 
-> La mia ragione iniziale [per l'uso di uno pseudonimo] era semplicemente che ero preoccupato [di] commettere un errore madornale; quindi ZmnSCPxj era originariamente inteso come uno pseudonimo usa e getta che poteva essere abbandonato in un caso del genere. Tuttavia, sembra che abbia ottenuto una reputazione per lo più positiva, quindi l'ho mantenuto
+> La mia ragione iniziale [per l'uso di uno pseudonimo] era semplicemente che ero preoccupato di commettere un errore madornale; quindi ZmnSCPxj era originariamente inteso come uno pseudonimo usa e getta, che poteva essere abbandonato in un caso del genere. Tuttavia, sembra che abbia ottenuto una reputazione per lo più positiva, quindi l'ho mantenuto.
 
 L'uso di uno pseudonimo consente infatti di parlare più liberamente senza mettere a rischio la propria reputazione personale nel caso in cui si dica qualcosa di stupido o si commetta un grosso errore. Come si è scoperto, il suo pseudonimo ha ottenuto una grande reputazione e nel 2019 [ha persino ottenuto una ricompensa per lo sviluppo](https://twitter.com/spiralbtc/status/1204815615678177280), il che è di per sé una prova della natura senza permessi di  Bitcoin.
 
-Probabilmente, lo pseudonimo più noto di  Bitcoin è quello di Satoshi Nakamoto. Non è chiaro perché abbia scelto di essere pseudonimo, ma con il senno di poi è stata probabilmente una buona decisione per diversi motivi:
+Probabilmente, lo pseudonimo più noto di Bitcoin è quello di Satoshi Nakamoto. Non è chiaro perché abbia scelto di essere pseudonimo, ma con il senno di poi è stata probabilmente una buona decisione per diversi motivi:
 
 - Poiché molte persone ipotizzano che Nakamoto possieda molti Bitcoin, è imperativo per la sua sicurezza finanziaria e personale mantenere la sua identità sconosciuta.
-- Dal momento che la sua identità è sconosciuta, non c'è la possibilità di perseguire nessuno, il che dà alle varie autorità governative un tempo Hard.
-- Non c'è una persona autorevole a cui guardare, il che rende il Bitcoin più meritocratico e resistente ai ricatti.
+- Dal momento che la sua identità è sconosciuta, non c'è la possibilità di perseguire nessuno, il che crea un prolema alle varie autorità governative.
+- Non c'è una persona autorevole a cui guardare, il che rende Bitcoin più meritocratico e resistente ai ricatti.
 
 Si noti che questi punti non valgono solo per Satoshi Nakamoto, ma per chiunque lavori in Bitcoin o detenga quantità significative della valuta, a vari livelli.
 
 ### Crittografia di selezione
 
-Gli sviluppatori open source fanno spesso uso di librerie open source sviluppate da altre persone. Si tratta di una parte naturale e fantastica di qualsiasi ecosistema sano. Ma il software Bitcoin ha a che fare con denaro reale e, alla luce di ciò, gli sviluppatori devono fare molta attenzione quando scelgono le librerie di terze parti da cui dipendere.
+Gli sviluppatori open source fanno spesso uso di librerie open source sviluppate da altre persone. Si tratta di una parte naturale e fantastica di qualsiasi ecosistema sano. Ma il software di Bitcoin ha a che fare con denaro reale e, alla luce di ciò, gli sviluppatori devono fare molta attenzione quando scelgono le librerie di terze parti da cui dipendere.
 
-In un [discorso sulla crittografia] filosofico (https://btctranscripts.com/greg-maxwell/2015-04-29-gmaxwell-Bitcoin-selection-cryptography/), Gregory Maxwell vuole ridefinire il termine "crittografia", che ritiene troppo ristretto. Spiega che fondamentalmente *l'informazione vuole essere libera* e su questo si basa la sua definizione di crittografia:
+In un [discorso sulla crittografia filosofico](https://btctranscripts.com/greg-maxwell/2015-04-29-gmaxwell-Bitcoin-selection-cryptography/), Gregory Maxwell vuole ridefinire il termine "crittografia", che ritiene troppo ristretto. Spiega che fondamentalmente *l'informazione vuole essere libera* e su questo si basa la sua definizione di crittografia:
 
 > La crittografia è l'arte e la scienza che usiamo per combattere la natura fondamentale dell'informazione, per piegarla alla nostra volontà politica e morale e per indirizzarla verso fini umani contro ogni possibilità e sforzo di opporsi.
 

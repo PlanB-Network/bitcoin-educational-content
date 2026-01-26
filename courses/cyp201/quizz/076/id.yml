@@ -6,3 +6,4 @@ wrong_answers:
   - Untuk jalur derivasi yang diperkuat
 explanation: |
   Notasi /<0;1>/* menunjukkan bahwa deskriptor dapat menghasilkan alamat untuk rantai eksternal (0) dan internal (1), dengan derivasi sekuensial berkat wildcard (*).
+reviewed: true

@@ -1,0 +1,9 @@
+question: 為什麼備份 Lightning 節點比 Bitcoin onchain wallet 更複雜？
+answer: 通路狀態不斷演進
+wrong_answers:
+  - 通道流動性取決於 mempool
+  - 記錄 Lightning 網路八卦
+  - 撤銷金鑰會隨著時間過期
+explanation: |
+  Lightning 通道會隨著每次付款而改變狀態，因此簡單的固定或定期備份很危險。
+reviewed: false

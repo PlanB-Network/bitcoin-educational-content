@@ -30,138 +30,138 @@ proofreading:
     urgency: 1
     contributor_names:
       - ckriptoco
-    reward: 14.28
+    reward: 5.32
   - language: cs
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 38.06
+    reward: 15.92
   - language: de
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 28.57
+    reward: 10.64
   - language: es
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 28.57
+    reward: 10.64
   - language: et
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 38.06
+    reward: 15.92
   - language: fa
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 38.06
+    reward: 15.92
   - language: fi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 38.06
+    reward: 15.92
   - language: hi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 47.55
+    reward: 26.46
   - language: id
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 47.55
+    reward: 21.19
   - language: it
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 28.57
+    reward: 10.64
   - language: ja
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 47.55
+    reward: 26.46
   - language: ko
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 47.55
+    reward: 21.19
   - language: nb-NO
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 38.06
+    reward: 15.92
   - language: nl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 38.06
+    reward: 15.92
   - language: pl
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 38.06
+    reward: 15.92
   - language: pt
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 28.57
+    reward: 10.64
   - language: rn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 47.55
+    reward: 26.46
   - language: ru
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 38.06
+    reward: 15.92
   - language: sr-Latn
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 38.06
+    reward: 21.19
   - language: sv
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 28.57
+    reward: 10.64
   - language: sw
     last_contribution_date: 2025-12-04
     urgency: 1
     contributor_names:
       - Tinnah924
-    reward: 19.03
+    reward: 7.96
   - language: tr
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 47.55
+    reward: 21.19
   - language: vi
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 47.55
+    reward: 26.46
   - language: zh-Hans
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 47.55
+    reward: 21.19
   - language: zh-Hant
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 47.55
+    reward: 21.19
   - language: bg
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 38.06
+    reward: 15.92
   - language: th
     last_contribution_date:
     urgency: 1
     contributor_names:
-    reward: 47.55
+    reward: 21.19
 videos:
   - id: 1def60bc-1d39-4e49-9b08-fd05b7a0d49b
     youtube:

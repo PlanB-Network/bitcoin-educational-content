@@ -1,0 +1,9 @@
+question: Was ist der Hauptzweck eines Routers auf Lightning?
+answer: Geld verdienen mit Routing-Gebühren
+wrong_answers:
+  - Geld verdienen, indem Sie den Weg zeigen
+  - Geld verdienen durch den Verkauf eingehender Liquidität
+  - Geld verdienen durch die Veröffentlichung veralteter Kanalzustände
+explanation: |
+  Der Router versucht, Zahlungen von anderen weiterzuleiten, indem er Weiterleitungsgebühren erhebt.
+reviewed: false

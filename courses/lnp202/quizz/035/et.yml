@@ -1,0 +1,9 @@
+question: Mis on Lightningi ruuteri peamine eesmärk?
+answer: Teenida raha marsruutimistasudega
+wrong_answers:
+  - Tee raha, näidates teed
+  - Raha teenimine sissetuleva likviidsuse müügiga
+  - Tee raha, avaldades vananenud kanali olekud
+explanation: |
+  Marsruuderi eesmärk on suunata makseid teistelt, kogudes marsruutimistasusid.
+reviewed: false

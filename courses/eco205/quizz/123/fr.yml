@@ -1,0 +1,8 @@
+question: Comment Hayek explique-t-il que l'information se propage dans l'économie lors d'un changement de rareté d'un bien ?
+answer: L'information se transmet automatiquement par la chaîne des prix sans que les acteurs connaissent la cause initiale du changement
+wrong_answers:
+  - "Les autorités centrales collectent l'information et la redistribuent aux acteurs économiques concernés par des bulletins officiels"
+  - "Les entreprises organisent des réunions de coordination pour partager directement l'information sur les changements de rareté"
+  - "L'information circule uniquement entre les producteurs directs du bien qui informent ensuite leurs clients de la situation"
+explanation: |
+  Selon Hayek, l'information se propage spontanément dans l'économie par le mécanisme des prix, sans intervention centralisée. Quand un bien devient rare, son prix augmente, ce qui incite les utilisateurs à économiser, chercher des substituts ou innover, même sans connaître la cause de la rareté. Cette information se transmet ensuite aux substituts, aux substituts des substituts, créant une chaîne de transmission automatique. Les autres réponses décrivent des mécanismes centralisés ou directs qui contredisent la théorie hayékienne de l'ordre spontané.

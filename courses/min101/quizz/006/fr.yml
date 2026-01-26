@@ -1,0 +1,9 @@
+question: À quoi sert la racine de Merkle dans l'entête d'un bloc Bitcoin ?
+answer: Engager toutes les transactions du bloc
+wrong_answers:
+  - Calculer la preuve de travail du bloc
+  - Signaler la version du bloc
+  - Connaître la difficulté du bloc
+explanation: |
+  La racine de Merkle résume l’ensemble des transactions ; si l’une change, la racine change aussi.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Unter welchen Bedingungen ist eine Blitzstrafe wirksam?
+answer: Erkennung vor Ende der Zeitsperre
+wrong_answers:
+  - Erkennung vor Beginn der Zeitsperre
+  - Erkennung von Betrug im Vorfeld der Veröffentlichung TX
+  - Erkennung nach Ende der Zeitsperre
+explanation: |
+  Die Justiztransaktion muss vor Ablauf der Zeitsperre freigegeben werden, um den Betrug zu sanktionieren. Sie kann nicht freigegeben werden, bevor die Zeitsperre beginnt oder der TX veröffentlicht wird, da dies bedeuten würde, dass der Betrug einfach nicht stattgefunden hat.
+reviewed: false

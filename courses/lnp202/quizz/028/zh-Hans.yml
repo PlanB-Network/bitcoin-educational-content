@@ -1,0 +1,9 @@
+question: 监视塔在发现作弊企图时扮演什么角色？
+answer: 公布罚款交易
+wrong_answers:
+  - 合作关闭通道
+  - 冻结资金
+  - 向 Bitcoin 核心报告同行
+explanation: |
+  Watchtower 会自动代表用户广播处罚交易。
+reviewed: false

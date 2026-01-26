@@ -1,0 +1,9 @@
+question: Hvilken mekanisme forhindrer frigjøring av en gammel Lightning-kanaltilstand?
+answer: Tilbakekallingsnøkkelen
+wrong_answers:
+  - Transaksjonsgebyrer
+  - Absolutt tidslås
+  - Nettverkssladder
+explanation: |
+  Tilbakekallingsnøkler brukes til å straffe en node som prøver å publisere en gammel kanalstatus.
+reviewed: false

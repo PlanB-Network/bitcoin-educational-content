@@ -1,0 +1,9 @@
+question: Tại sao việc định tuyến trên Lightning lại khó kiếm lời?
+answer: Chi phí và cạnh tranh
+wrong_answers:
+  - Giới hạn kênh
+  - Không có yêu cầu
+  - Thiếu thanh khoản toàn cầu
+explanation: |
+  Chi phí trên chuỗi, cạnh tranh và các yêu cầu vận hành khiến lợi nhuận của hoạt động định tuyến trở nên không chắc chắn.
+reviewed: false

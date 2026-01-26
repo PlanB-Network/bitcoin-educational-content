@@ -22,7 +22,7 @@ En BTC304, veremos por qué es importante la construcción de comunidades, explo
 
 <chapterId>e8991b82-4966-5e04-8f05-7cae46eacbaa</chapterId>
 
-¡Bienvenido a BTC 304!
+¡Bienvenido al curso BTC 304!
 
 Desde 2009, Bitcoin ha crecido sin descanso. Este crecimiento ha tomado forma a través de nuevas propuestas de mejora de Bitcoin (BIP), la creación de capas adicionales para hacer escalable la red (Lightning Network entre otras) y el desarrollo de múltiples empresas y start-ups.
 

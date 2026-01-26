@@ -1,0 +1,8 @@
+question: Selon Diego de Covarrubias (1555), qu'est-ce qui détermine principalement la valeur d'un bien comme le blé qui vaut plus aux Indes qu'en Espagne?
+answer: L'appréciation subjective des individus, même si cette appréciation peut sembler déraisonnée
+wrong_answers:
+  - La quantité de travail nécessaire pour produire le bien dans chaque région géographique
+  - "Les coûts de transport et les difficultés d'approvisionnement entre l'Espagne et les Indes"
+  - "La nature objective du bien qui s'adapte automatiquement aux conditions climatiques locales"
+explanation: |
+  Covarrubias fut un précurseur de la théorie subjective de la valeur en affirmant que la valeur ne dépend pas de la nature objective des biens, mais de l'évaluation subjective des individus. Son exemple du blé illustre parfaitement cette théorie : le même bien a des valeurs différentes selon l'appréciation des gens, anticipant de trois siècles les développements de l'école autrichienne et s'opposant à la future théorie de la valeur travail.

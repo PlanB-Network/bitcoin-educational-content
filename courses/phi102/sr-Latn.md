@@ -40,7 +40,6 @@ Spremni da otkrijete zašto sloboda nije samo moralni ideal, već i najefikasnij
 
 
 
-![video](https://www.youtube.com/watch?v=md-rDzJX0Ws)
 
 
 
@@ -96,7 +95,6 @@ Konačna priroda resursa neizbežno dovodi do konkurencije. Jabuke, na primer, m
 
 
 
-![video](https://www.youtube.com/watch?v=w9DUtXbOYEg)
 
 
 
@@ -152,7 +150,6 @@ Francuska istorija ilustruje posledice odsustva ove slobode. Uprkos uticaju pros
 
 
 
-![video](https://www.youtube.com/watch?v=Vjm91Lve_SA)
 
 
 
@@ -238,7 +235,6 @@ Uzevši zajedno, ova zapažanja ne čine apstraktnu teoriju, već rigorozno uva�
 
 
 
-![video](https://www.youtube.com/watch?v=Wlc3WLYFjXo)
 
 
 
@@ -306,7 +302,6 @@ Pitanje braka ilustruje ove principe: izbor supružnika mora biti slobodan, jer 
 
 
 
-![video](https://www.youtube.com/watch?v=8Ib5M-6Rr8M)
 
 
 
@@ -383,7 +378,6 @@ Konačno, ukidanje kamate na novac i regulacija profita predstavljaju napade na 
 
 
 
-![video](https://www.youtube.com/watch?v=eS_LZr9iKto)
 
 
 
@@ -452,7 +446,6 @@ Istorijska analiza pokazuje da sloboda nije izgubljeno prirodno stanje koje treb
 
 
 
-![video](https://www.youtube.com/watch?v=v7blehzJCr8)
 
 
 
@@ -511,7 +504,6 @@ Ispitivanje istorijskih razloga za neslobodu otkriva fundamentalni trend: tehni�
 
 
 
-![video](https://www.youtube.com/watch?v=X4Htu6xM4Qk)
 
 
 
@@ -571,7 +563,6 @@ Ispitivanje različitih faza razvoja otkriva duboku povezanost između materijal
 
 
 
-![video](https://www.youtube.com/watch?v=Uzns3FT688k)
 
 
 
@@ -630,7 +621,6 @@ Revolucije imaju značajne nedostatke: one generate mnogo nasilja i teže da nam
 
 
 
-![video](https://www.youtube.com/watch?v=0q_m3KIoq-U)
 
 
 
@@ -684,7 +674,6 @@ Ovo razmišljanje vodi do suštinskog zaključka: današnje okolnosti su materij
 
 
 
-![video](https://www.youtube.com/watch?v=aEoerhy6ERU)
 
 
 
@@ -745,7 +734,6 @@ Nakon što su uspostavljeni ovi preduslovi, sada je moguće ispitati činjeničn
 
 
 
-![video](https://www.youtube.com/watch?v=xcaV6Kb21O0)
 
 
 
@@ -801,7 +789,6 @@ Iz ove analize proizlazi fundamentalni zaključak: povećanje trgovine između s
 
 
 
-![video](https://www.youtube.com/watch?v=qrE5GJWNwGE)
 
 
 
@@ -860,7 +847,6 @@ Odlučujuća prednost ekonomske slobode je da proizvodnja nikada nije prerana il
 
 
 
-![video](https://www.youtube.com/watch?v=tfH8FapqqsE)
 
 
 
@@ -920,7 +906,6 @@ U slobodnom društvu, lični interes vodi ka inovacijama i napretku. U sistemu n
 
 
 
-![video](https://www.youtube.com/watch?v=hS1_Nkd_H9M)
 
 
 
@@ -976,7 +961,6 @@ Tranzicija ka mirnom društvu je dug proces učenja. Ljudska društva su i dalje
 
 
 
-![video](https://www.youtube.com/watch?v=DzE_iGRP5Z0)
 
 
 
@@ -1035,7 +1019,6 @@ Sistemi neslobode su karakterisani upravo nejednakošću: neki pojedinci slobodn
 
 
 
-![video](https://www.youtube.com/watch?v=LDMCs9wCTQc)
 
 
 
@@ -1095,7 +1078,6 @@ Nasuprot tome, odnosi zasnovani na političkoj moći funkcionišu na skraćen na
 
 
 
-![video](https://www.youtube.com/watch?v=mfvPE1fO3-E)
 
 
 
@@ -1167,7 +1149,6 @@ Doktrina slobode suprotstavlja se ovoj logici principom individualne i kolektivn
 
 
 
-![video](https://www.youtube.com/watch?v=VT3w2BjiD8E)
 
 
 
@@ -1227,7 +1208,6 @@ Ovi autori su identifikovali zaštitu rada kao budući dominantni oblik protekci
 
 
 
-![video](https://www.youtube.com/watch?v=MRcLZ1SpAo8)
 
 
 
@@ -1297,7 +1277,6 @@ Ova intelektualna i činjenična istorija neuspeha neslobode je fundamentalna le
 
 
 
-![video](https://www.youtube.com/watch?v=asOEZJRQuOw)
 
 
 
@@ -1341,7 +1320,6 @@ Ključna razlika je između negativne i pozitivne slobode. Negativna sloboda se 
 
 
 
-![video](https://www.youtube.com/watch?v=mkzE0SfSl1Q)
 
 
 
@@ -1396,7 +1374,6 @@ Suočeni sa ovim opasnostima, liberalna misao, posebno ona Benžamina Konstanta,
 
 
 
-![video](https://www.youtube.com/watch?v=K1e39vtOoCc)
 
 
 
@@ -1456,7 +1433,6 @@ Ekonomske zablude, međutim, predstavljaju samo jednu kategoriju među mnogima. 
 
 
 
-![video](https://www.youtube.com/watch?v=zJhhcxwXpRI)
 
 
 
@@ -1515,7 +1491,6 @@ Ipak, liberalni pisci imaju snažnu osetljivost prema siromaštvu i slabima, nas
 
 
 
-![video](https://www.youtube.com/watch?v=GtxJlUa_H08)
 
 
 
@@ -1582,7 +1557,6 @@ Ova analiza nam takođe omogućava da razumemo kako sistemi neslobode podrivaju 
 
 
 
-![video](https://www.youtube.com/watch?v=ary4UJhwRl8)
 
 
 
@@ -1646,7 +1620,6 @@ Courcelle-Seneuil je jednostavno izneo ideje Francuske revolucije o slobodi rada
 
 
 
-![video](https://www.youtube.com/watch?v=c8Wi5jkSEu8)
 
 
 
@@ -1707,7 +1680,6 @@ Trenutna stvarnost otkriva paradoksalnu i tužnu situaciju. Profesionalci u obra
 
 
 
-![video](https://www.youtube.com/watch?v=cEzFGSnYfnk)
 
 
 
@@ -1771,7 +1743,6 @@ Molinari i velika većina francuskih liberala njegovog vremena gledali su poziti
 
 
 
-![video](https://www.youtube.com/watch?v=b8PojgZ0TQo)
 
 
 
@@ -1831,7 +1802,6 @@ Takvo stanje međunarodnog prava, koje bi priznavalo slobodu delovanja dok kažn
 
 
 
-![video](https://www.youtube.com/watch?v=OfqTuJvo3MQ)
 
 
 

@@ -1,9 +1,10 @@
-question: What nickname was Roger Ver given for his zealous promotion of Bitcoin?
+question: What nickname was given to Roger Ver for his zealous promotion of Bitcoin?
 answer: Bitcoin's Jesus
 wrong_answers:
   - Bitcoin's Prophet
   - Bitcoin Evangelist
   - Bitcoin Messiah
 explanation: |
- Roger Ver was dubbed "the Jesus of Bitcoin" (Bitcoin Jesus) in February 2012 by Canadian trader GoWest, due to his intense proselytizing to promote Bitcoin. The nickname stuck, although he never claimed it.
-reviewed: false
+ Roger Ver was dubbed "the Jesus of Bitcoin" (Bitcoin Jesus) in February 2012 by Canadian trader GoWest, due to his intense proselytizing to promote Bitcoin. 
+ The nickname stuck, although he never claimed it.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Por que razão é perigoso restaurar um channel.db antigo?
+answer: Risco de sanções
+wrong_answers:
+  - Perda do seed
+  - Fofocas sobre corrupção
+  - Bloqueio do encaminhamento
+explanation: |
+  Um estado desatualizado pode ser interpretado como uma tentativa de fraude e resultar na perda de fundos do canal.
+reviewed: false

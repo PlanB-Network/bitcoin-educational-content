@@ -1,12 +1,9 @@
 question: Jaki był główny powód utworzenia Banku Anglii?
-answer: Aby sfinansować wojnę pod koniec XVII wieku
+answer: Sfinansowanie wojny pod koniec XVII wieku
 wrong_answers:
-  - Emitować własną walutę
-  - Aby konkurować z Bank of Amsterdam
+  - Emitowaanie własnej waluty
+  - Konkurowanie z Bankiem Amsterdamu
   - Regulacja rynku akcji
 explanation: |
-  Bank Anglii został utworzony pod koniec XVII wieku wraz z
-  głównym celem
-  główną motywacją było finansowanie wojny. Dekretem narzucił depozyty i zdegradował prywatne banki do
-  prywatne banki do drugorzędnej pozycji w systemie monetarnym.
-reviewed: false
+  Bank Anglii został utworzony pod koniec XVII wieku. Główną motywacją do jego utworzenia było sfinansowanie wojny. Dekretem narzucił depozyty i zdegradował prywatne banki do drugorzędnej pozycji w systemie finansowym.
+reviewed: true

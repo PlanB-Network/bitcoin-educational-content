@@ -1,0 +1,9 @@
+question: Một nút Lightning cần kết nối với cái gì?
+answer: Một nút Bitcoin
+wrong_answers:
+  - Một người thợ mỏ
+  - Trình khám phá khối
+  - Máy chủ liên kết
+explanation: |
+  Nút Lightning phụ thuộc vào nút Bitcoin để truy cập thông tin từ chuỗi khối chính.
+reviewed: false

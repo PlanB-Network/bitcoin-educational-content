@@ -1,0 +1,9 @@
+question: Vilken är den största nackdelen med påtvingad stängning?
+answer: Fonder blockerade av tidslås
+wrong_answers:
+  - Delvis förlust av medel
+  - Föråldring av Lightning-noden
+  - Desynkronisering av blixtnod
+explanation: |
+  Fonderna blockeras av en tidsspärr och avgifterna är ofta höga.
+reviewed: false

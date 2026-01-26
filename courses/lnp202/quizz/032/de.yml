@@ -1,0 +1,9 @@
+question: Warum sollte man sehr große Knotenpunkte für einen ersten Kanal vermeiden?
+answer: Restriktive Politik
+wrong_answers:
+  - Geringe Konnektivität
+  - Zu niedrige Kosten
+  - Mangel an Liquidität
+explanation: |
+  Sehr große Knotenpunkte erzwingen oft hohe Mindestbeträge und schließen leicht kleine Kanäle.
+reviewed: false

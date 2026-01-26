@@ -1,0 +1,9 @@
+question: Jakie wspólne cechy mają Aqua i Bull Bitcoin Wallet?
+answer: Błyskawiczne zamiany atomów
+wrong_answers:
+  - Natywne kanały Lightning
+  - Przetrzymywanie scentralizowane
+  - Zintegrowany węzeł Lightning
+explanation: |
+  Te wallet używają atomowych swapów do płacenia faktur Lightning bez wykorzystywania węzła Lightning bezpośrednio w telefonie i pozostając pod własną opieką.
+reviewed: false

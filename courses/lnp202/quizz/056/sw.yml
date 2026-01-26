@@ -1,0 +1,9 @@
+question: Ni hatua gani inayofuata mara moja ombi la NWC na programu ya simu kwenye relay?
+answer: Nodi huondoa usimbaji fiche na kuthibitisha uidhinishaji
+wrong_answers:
+  - Relay inasaini ombi la nodi
+  - Relay hutekeleza malipo kwenye LND
+  - Nodi hufungua chaneli kiotomatiki
+explanation: |
+  Nodi husoma tukio, hulifuta, kisha huangalia kama mwandishi ameidhinishwa kabla ya kutekeleza kitendo hicho.
+reviewed: false

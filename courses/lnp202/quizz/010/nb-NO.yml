@@ -1,0 +1,9 @@
+question: Hvilke kriterier avgjør valget av Lightning-løsning?
+answer: Bruksfrekvens og vilje til å administrere
+wrong_answers:
+  - Utvekslede beløp og protokollhastighet
+  - Geolokalisering og utdanning
+  - Risikotoleranse og programvaredesign
+explanation: |
+  Valget avhenger hovedsakelig av hvor ofte Lightning brukes, og hvor mye du liker teknisk administrasjon.
+reviewed: false

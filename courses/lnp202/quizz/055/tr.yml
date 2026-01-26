@@ -1,0 +1,9 @@
+question: NWC akışında, şifreleme uygulama tarafında ne zaman gerçekleşir?
+answer: Röle üzerinde yayınlanmadan önce
+wrong_answers:
+  - Düğümü okuduktan sonra
+  - Röle üzerinde yayınlandıktan sonra
+  - Asla
+explanation: |
+  Uygulama talebi serileştirir, şifreler ve ardından Nostr aktarıcısında bir olay olarak yayınlar.
+reviewed: false

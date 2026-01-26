@@ -1,0 +1,9 @@
+question: ¿Qué información recibe watchtower para controlar las trampas?
+answer: TXID parcial de la transacción tramposa
+wrong_answers:
+  - Clave de canal privado
+  - Estado completo del canal
+  - TXID de la transacción tramposa
+explanation: |
+  La torre de vigilancia sólo recibe parte del TXID de la transacción tramposa para identificar una transacción sospechosa sin conocer el canal.
+reviewed: false

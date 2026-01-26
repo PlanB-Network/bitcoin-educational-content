@@ -1,0 +1,8 @@
+question: Quelle est la conséquence directe sur la structure productive lorsque le signal prix du taux d'intérêt est faussé par rapport aux préférences temporelles réelles des individus?
+answer: Des distorsions majeures apparaissent dans la structure productive, créant un décalage entre l'allocation des ressources et les véritables préférences temporelles
+wrong_answers:
+  - "L'épargne s'ajuste automatiquement pour compenser la manipulation, restaurant immédiatement l'équilibre naturel du marché des capitaux"
+  - Les entrepreneurs développent spontanément de meilleures connaissances techniques pour pallier le manque de coordination intertemporelle
+  - "La préférence temporelle collective se modifie progressivement pour s'adapter au nouveau niveau des taux d'intérêt imposés"
+explanation: |
+  Selon l'analyse autrichienne, le taux d'intérêt est un signal prix crucial pour la coordination intertemporelle. Quand il est manipulé, la structure productive ne reflète plus les vraies préférences temporelles, créant des distorsions qui mènent aux cycles économiques. L'épargne ne s'ajuste pas automatiquement, les connaissances techniques ne compensent pas ce problème de coordination, et les préférences temporelles individuelles restent subjectives et ne s'adaptent pas artificiellement aux taux imposés.

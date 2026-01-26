@@ -1,0 +1,9 @@
+question: Waarom is het herstellen van een oude channel.db gevaarlijk?
+answer: Strafrisico
+wrong_answers:
+  - Verlies van seed
+  - Corruptie door roddel
+  - Routing blokkeren
+explanation: |
+  Een verouderde staat kan worden geïnterpreteerd als een poging om vals te spelen en kan resulteren in het verlies van kanaalfondsen.
+reviewed: false

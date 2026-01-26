@@ -1,0 +1,9 @@
+question: Tailscale किस प्रोटोकॉल पर आधारित है?
+answer: जीडब्ल्यू-1
+wrong_answers:
+  - ओपनवीपीएन
+  - आईपीसेक आईकेईवी2
+  - पीपीटीपी
+explanation: |
+  Tailscale, WireGuard पर आधारित एक VPN समाधान है।
+reviewed: false

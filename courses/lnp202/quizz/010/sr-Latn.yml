@@ -1,0 +1,9 @@
+question: Koji kriterijumi određuju vaš izbor Lightning rešenja?
+answer: Učestalost korišćenja i spremnost za upravljanje
+wrong_answers:
+  - Iznosi razmenjeni i brzina protokola
+  - Geolokacija i obrazovanje
+  - Tolerancija rizika i dizajn softvera
+explanation: |
+  Izbor uglavnom zavisi od toga koliko često koristite Lightning i koliko volite tehničko upravljanje.
+reviewed: false

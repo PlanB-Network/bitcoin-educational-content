@@ -1,0 +1,8 @@
+question: Selon l'école autrichienne, quelle est la principale raison pour laquelle un système économique entièrement communiste à l'échelle mondiale serait impossible à maintenir?
+answer: L'absence totale de prix de marché rendrait impossible tout calcul économique rationnel
+wrong_answers:
+  - Le manque de motivation des travailleurs sans propriété privée compromettrait la production
+  - La concentration excessive du pouvoir créerait inévitablement de la corruption administrative
+  - "L'impossibilité technique de coordonner la production sans moyens de communication modernes"
+explanation: |
+  Selon Mises et l'école autrichienne, un monde entièrement communiste sans aucun prix de marché serait impossible car les prix constituent la base indispensable de tout calcul économique rationnel. Sans propriété privée et échange libre, il n'y a pas de prix véritables, et sans prix, aucune organisation productive rationnelle n'est possible. L'URSS ne pouvait fonctionner qu'en copiant les prix des marchés capitalistes occidentaux pour ses calculs internes, démontrant cette dépendance fondamentale.

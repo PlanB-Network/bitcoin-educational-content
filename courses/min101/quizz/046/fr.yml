@@ -1,0 +1,9 @@
+question: Quelle phrase résume le service rendu par une pool de minage ?
+answer: Elle vend de la prévisibilité
+wrong_answers:
+  - Elle vend de la difficulté de minage
+  - Elle vend des blocs plus grands
+  - Elle vend des machines de minage
+explanation: |
+  La mutualisation transforme un revenu très volatile en paiements plus réguliers, contre partage et frais.
+reviewed: false

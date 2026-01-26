@@ -64,10 +64,8 @@ def calculate_status(contributors):
     count = len(contributors)
     if count == 1:
         return 1
-    elif count == 2:
+    else:  # 2 or more
         return 2
-    else:  # 3 or more
-        return 3
 
 
 def extract_english_title(content_dir):
@@ -1066,9 +1064,8 @@ def generate_html(data):
             --color-primary: #ff6b00;
             --color-primary-dark: #cc5500;
             --color-status-0: #e74c3c;
-            --color-status-1: #e67e22;
-            --color-status-2: #f39c12;
-            --color-status-3: #27ae60;
+            --color-status-1: #f39c12;
+            --color-status-2: #27ae60;
             --color-hover: #ecf0f1;
             --color-purple: #ff8c42;
         }}
@@ -1339,12 +1336,12 @@ def generate_html(data):
         }}
 
         .matrix-complete {{
-            background: var(--color-status-3);
+            background: var(--color-status-2);
             color: white;
         }}
 
         .matrix-partial {{
-            background: var(--color-status-2);
+            background: var(--color-status-1);
             color: white;
         }}
 
@@ -1424,7 +1421,6 @@ def generate_html(data):
         .status-0 {{ background: var(--color-status-0); }}
         .status-1 {{ background: var(--color-status-1); }}
         .status-2 {{ background: var(--color-status-2); }}
-        .status-3 {{ background: var(--color-status-3); }}
 
         .level-badge {{
             background: var(--color-purple);
@@ -2404,7 +2400,7 @@ def generate_html(data):
 
             [...courses, ...tutorials].forEach(item => {{
                 item.proofreading.forEach(pr => {{
-                    if (pr.status === 3) completeCount++;
+                    if (pr.status === 2) completeCount++;
                     if (pr.status === 0) urgentCount++;
                 }});
             }});
@@ -2638,14 +2634,13 @@ def generate_html(data):
                     const pr = item.proofreading.find(p => p.language === lang.code);
 
                     if (pr) {{
-                        const status = pr.status; // 0, 1, 2, or 3
-                        const total = 3;
+                        const status = pr.status; // 0, 1, or 2
+                        const total = 2;
                         const contributorCount = status;
-                        const percentage = Math.round((status / 3) * 100);
+                        const percentage = Math.round((status / 2) * 100);
 
                         let className = 'matrix-empty';
-                        if (status === 3) className = 'matrix-complete';
-                        else if (status === 2) className = 'matrix-partial';
+                        if (status === 2) className = 'matrix-complete';
                         else if (status === 1) className = 'matrix-partial';
 
                         td.className = className;
@@ -2742,8 +2737,8 @@ def generate_html(data):
 
             allItems.forEach(item => {{
                 const pr = item.proofreading;
-                const statusText = ['Urgent - No Contributors', 'Needs Review - 1 Contributor', 'In Progress - 2 Contributors', 'Complete - 3+ Contributors'][pr.status];
-                const contributorsNeeded = Math.max(0, 3 - pr.contributors.length);
+                const statusText = ['Urgent - No Contributors', 'In Progress - 1 Contributor', 'Complete - 2+ Contributors'][pr.status];
+                const contributorsNeeded = Math.max(0, 2 - pr.contributors.length);
                 const lastUpdate = pr.last_date ? `Last updated: ${{pr.last_date}}` : 'Never updated';
 
                 const div = document.createElement('div');
@@ -2871,7 +2866,7 @@ def generate_html(data):
                 const languageName = lang ? lang.name : contribution.language.toUpperCase();
                 const date = new Date(contribution.date);
                 const formattedDate = date.toLocaleDateString('en-US', {{ year: 'numeric', month: 'short', day: 'numeric' }});
-                const statusText = ['Needs Proofreading', 'In Progress (1)', 'In Progress (2)', 'Complete (3+)'][contribution.status];
+                const statusText = ['Needs Proofreading', 'In Progress (1/2)', 'Complete (2/2)'][contribution.status];
 
                 const div = document.createElement('div');
                 div.className = 'contribution-item';

@@ -1,0 +1,9 @@
+question: Které bezplatné řešení pro příchozí likviditu je založeno na spolupráci?
+answer: LN+
+wrong_answers:
+  - Magma
+  - Boltz
+  - 1ML
+explanation: |
+  Lightning Network Plus zajišťuje vstupní likviditu prostřednictvím kruhových kanálových otvorů.
+reviewed: false

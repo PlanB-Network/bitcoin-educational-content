@@ -1,0 +1,8 @@
+question: Selon Carl Menger, quel mécanisme principal explique l'émergence spontanée de la monnaie sur le marché?
+answer: Un processus d'imitation et d'intérêt personnel créant un effet d'externalité de réseau
+wrong_answers:
+  - Une décision collective des commerçants pour standardiser les échanges commerciaux
+  - "L'intervention d'une autorité centrale qui impose un bien comme référence monétaire"
+  - "La rareté naturelle d'un bien qui force automatiquement son adoption comme monnaie"
+explanation: |
+  Menger explique que la monnaie émerge quand les agents économiques les plus perspicaces identifient le bien le plus échangeable, puis les autres imitent ce choix par intérêt personnel. Cela crée un effet d'externalité de réseau : plus un bien est adopté comme monnaie, plus il devient échangeable, renforçant son adoption dans un cercle vertueux. Ce processus est spontané et décentralisé, sans intervention d'autorité centrale ni décision collective formelle.

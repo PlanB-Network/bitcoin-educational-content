@@ -5,7 +5,6 @@ wrong_answers:
   - Stopa inflacji w wysokości 25% miesięcznie.
   - Stopa inflacji w wysokości 25% rocznie.
 explanation: |
-  Kryterium Cagana definiuje hiperinflację jako stopę inflacji na poziomie 50% miesięcznie
-  miesięcznie. Kryterium to może czasami prowadzić do niejednoznacznych interpretacji
+  Kryterium Cagana definiuje hiperinflację jako stopę inflacji na poziomie 50% miesięcznie. Kryterium to może czasami prowadzić do niejednoznacznych interpretacji
   lat o wysokich stopach inflacji, ale niespełniających ścisłej definicji hiperinflacji.
-reviewed: false
+reviewed: true

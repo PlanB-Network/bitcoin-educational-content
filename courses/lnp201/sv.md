@@ -1592,6 +1592,10 @@ Vi har sett att likviditetshantering är en utmaning på Lightning för att säk
 ![LNP201](assets/en/084.webp)
 
 
+Nu när du har förstått den teoretiska funktionen hos Lightning Network kan du gå vidare till praktiken och sätta upp din första Lightning-nod för att vinna större självständighet i din användning. För detta, följ kursen LNP 202:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
 # Sista avsnittet
 
 

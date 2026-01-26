@@ -1,0 +1,9 @@
+question: Jukumu la mnara wa watchtower ni lipi linapogundua jaribio la kudanganya?
+answer: Chapisha muamala wa adhabu
+wrong_answers:
+  - Funga chaneli kwa ushirikiano
+  - Funga fedha
+  - Ripoti rika kwa Bitcoin Core
+explanation: |
+  Mnara wa ulinzi hutangaza kiotomatiki muamala wa adhabu kwa niaba ya mtumiaji.
+reviewed: false

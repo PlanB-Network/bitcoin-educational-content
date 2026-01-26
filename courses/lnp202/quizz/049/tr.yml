@@ -1,0 +1,9 @@
+question: Bu platformlardan hangisi gelen likiditeyi satın almanıza izin veriyor?
+answer: Magma
+wrong_answers:
+  - Bitcoin Çekirdek
+  - 1ML
+  - Boltz
+explanation: |
+  Magma, otomatik bir pazar yeri aracılığıyla gelen likiditeyi satın almayı kolaylaştırır.
+reviewed: false

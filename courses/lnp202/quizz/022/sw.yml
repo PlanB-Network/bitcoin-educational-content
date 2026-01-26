@@ -1,0 +1,9 @@
+question: LND seed inaweza kurejesha nini yenyewe?
+answer: Mnyororo wa wallet
+wrong_answers:
+  - Fungua vituo
+  - Hali za kituo
+  - Hakuna
+explanation: |
+  seed hupata wallet kwenye mnyororo wa Bitcoin, lakini si chaneli za Umeme zinazofanya kazi.
+reviewed: false

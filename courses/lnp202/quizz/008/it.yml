@@ -1,0 +1,9 @@
+question: Con un wallet Lightning custodial, chi possiede i bitcoin?
+answer: L'azienda
+wrong_answers:
+  - L'utente
+  - La rete Lightning
+  - Nucleo Bitcoin
+explanation: |
+  In un modello custodial, la società detiene le chiavi e controlla i fondi, mentre l'utente ha solo un saldo contabile.
+reviewed: false

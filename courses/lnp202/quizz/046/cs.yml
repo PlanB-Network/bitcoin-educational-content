@@ -1,0 +1,9 @@
+question: Proč odchozí platba automaticky vytváří příchozí likviditu?
+answer: Změna likvidity
+wrong_answers:
+  - Vytváření nových kanálů
+  - Zvýšení kapacity
+  - Nižší náklady na směrování
+explanation: |
+  Odchozí platba přesune sats na paritu, čímž se na této straně kanálu vytvoří příchozí likvidita.
+reviewed: false

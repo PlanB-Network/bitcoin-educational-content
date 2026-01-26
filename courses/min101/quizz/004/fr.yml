@@ -1,0 +1,9 @@
+question: Selon l’idée résumée par Satoshi, quel est le seul moyen de s'assurer de l'absence de double dépense ?
+answer: De connaître toutes les transactions
+wrong_answers:
+  - De connaître tous les nœuds actifs
+  - De connaître tous les mineurs actifs
+  - De connaître toutes les clés privées
+explanation: |
+  La double dépense se détecte en comparant une transaction aux dépenses passées inscrites dans un registre partagé.
+reviewed: false

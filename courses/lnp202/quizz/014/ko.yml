@@ -1,0 +1,9 @@
+question: Aqua과 Bull Bitcoin Wallet의 공통 기능은 무엇인가요?
+answer: 라이트닝 원자 스왑
+wrong_answers:
+  - 네이티브 라이트닝 채널
+  - 중앙 집중식 관리
+  - 통합 라이트닝 노드
+explanation: |
+  이러한 wallet는 휴대폰에서 직접 라이트닝 노드를 이용하지 않고 자체 보관 상태를 유지하면서 라이트닝 인보이스를 결제하기 위해 아토믹 스왑을 사용합니다.
+reviewed: false

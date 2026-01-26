@@ -5,5 +5,7 @@ wrong_answers:
   - bitcoind
   - Bitcoin Core
 explanation: |
- Bitcoin-Qt was a complete overhaul of Bitcoin's graphical interface. It was developed from June 2011 and integrated into the main software in version 0.5, released on November 21. Based on the Qt graphics framework, it replaced the wxWindows library originally used by Satoshi. By metonymy, the software was called Bitcoin-Qt from then on.
-reviewed: false
+ Bitcoin-Qt was a complete overhaul of Bitcoin's graphical interface. It was developed from June 2011 and integrated into the main software in version 0.5, 
+ released on November 21. Based on the Qt graphics framework, it replaced the wxWindows library originally used by Satoshi. By metonymy, the software was called
+ Bitcoin-Qt from then on.
+reviewed: true

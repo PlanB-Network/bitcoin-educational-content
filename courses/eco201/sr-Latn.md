@@ -770,10 +770,9 @@ Posledice takve pogrešne alokacije uključuju finansijske i ekonomske krize, sm
 Danas se debata o ekonomskoj kalkulaciji ponovo pojavljuje prvenstveno u diskusijama o energiji, gde su pogrešne investicije vođene zelenom agendom sve očiglednije. Takođe se javlja u diskusijama o tržištima novca, gde austrijski ekonomisti ističu da je kriza iz 2008. godine, koju glavni ekonomisti nisu uspeli da predvide, bila klasičan ciklus buma i kraha karakterisan prekomernim ulaganjima u tržište nekretnina zbog dugih perioda niskih kamatnih stopa. Štaviše, neo-marksisti i druge socijalističke frakcije šire ideju da bi pojava veštačke inteligencije mogla rešiti problem ekonomske kalkulacije. Međutim, ova perspektiva proizlazi iz pogrešnog razumevanja problema; problem ekonomske kalkulacije nije pitanje računarske snage već pitanje generisanja i distribucije informacija vezanih za proizvodnju i alokaciju resursa. Ove informacije mogu biti generisane samo lokalno od strane agenata sa specijalizovanim znanjem i ličnim interesom u ishodu. Veštačka inteligencija ne može zameniti ovaj proces odozdo prema gore i stoga ne može pomoći centralnim planerima da reše problem alokacije resursa. Nažalost, zbog jednog veka nerazumevanja, očekujemo proliferaciju tvrdnji da će veštačka inteligencija doneti novu eru ekonomske prosperiteta vođenu prosvetljenim centralnim planerima koji, uz pomoć veštačke inteligencije, mogu ispraviti neuspehe slobodnih tržišta.
 
 
-Za konkretan primer primene problema ekonomskog obračuna na savremenu situaciju, možete se pozvati na ovaj članak koji se bavi problemom raspodele resursa u modernoj Kini.
+Za konkretnu primenu problema ekonomske kalkulacije na savremenu situaciju, možete se pozvati na ovaj članak koji se bavi alokacijom resursa u modernoj Kini: *[The Road to Financial Repression: China the Paper Tiger](https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web)*, autora Théa Mogeneta.
 
 
-> Put do finansijske represije: Kina papirni tigar, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 
 ### Zaključak

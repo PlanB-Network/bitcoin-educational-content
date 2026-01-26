@@ -1,0 +1,8 @@
+question: Selon Menger, quelle condition fondamentale du troc limite les échanges dans une économie et pousse vers l'émergence d'une monnaie?
+answer: La nécessité de trouver des partenaires ayant exactement les biens dont on a besoin (double coïncidence des besoins)
+wrong_answers:
+  - "L'absence d'autorités centrales pour réguler les échanges et garantir leur validité"
+  - Le manque de standardisation des poids et mesures pour évaluer la valeur des marchandises
+  - "L'insuffisance de moyens de transport pour acheminer les biens vers les marchés éloignés"
+explanation: |
+  La réponse correcte identifie le problème central du troc selon Menger : la double coïncidence des besoins. Cette condition exige que chaque échangiste trouve un partenaire possédant exactement ce qu'il désire et désirant exactement ce qu'il possède, ce qui devient impossible dans une économie dépassant un cercle restreint. Les autres réponses, bien que pouvant poser des défis économiques, ne constituent pas selon Menger la contrainte fondamentale qui mène naturellement à l'adoption d'intermédiaires d'échange.

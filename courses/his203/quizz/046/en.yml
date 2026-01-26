@@ -5,5 +5,6 @@ wrong_answers:
   - Lolcust
   - Colin Percival
 explanation: |
- Scrypt is a key derivation function originally designed in 2009 by Canadian computer scientist Colin Percival. It was picked up by miner ArtForz, who helped Lolcust develop the Tenebrix cryptocurrency, launched in September 2011. Charlie Lee took up the model for inclusion in Litecoin, which debuted in October.
-reviewed: false
+ Scrypt is a key derivation function originally designed in 2009 by Canadian computer scientist Colin Percival. It was picked up by miner ArtForz, who helped 
+ Lolcust develop the Tenebrix cryptocurrency, launched in September 2011. Charlie Lee took up the model for inclusion in Litecoin, which debuted in October.
+reviewed: true

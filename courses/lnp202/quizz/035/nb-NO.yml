@@ -1,0 +1,9 @@
+question: Hva er hovedformålet med en ruter på Lightning?
+answer: Tjen penger med rutinggebyrer
+wrong_answers:
+  - Tjen penger ved å vise vei
+  - Tjener penger ved å selge innkommende likviditet
+  - Tjen penger ved å publisere utdaterte kanaltilstander
+explanation: |
+  Ruteren forsøker å dirigere betalinger fra andre ved å kreve inn dirigeringsgebyrer.
+reviewed: false

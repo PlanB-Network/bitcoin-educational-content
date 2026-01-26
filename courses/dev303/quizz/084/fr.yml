@@ -1,8 +1,8 @@
 question: Quel est le principal avantage architectural de l'approche en couches d'UniFFI lors de l'intégration des bibliothèques Rust avec des langages cibles comme Swift ou Kotlin ?
-answer: La couche de liaison prend en charge la traduction des types et la gestion de la mémoire tout en présentant une interface entièrement native dans la langue cible
+answer: La couche de liaison prend en charge la traduction des types et la gestion de la mémoire tout en présentant une interface entièrement native dans la langue cible.
 wrong_answers:
-  - Le fichier UDL compile automatiquement le code Rust en bytecode qui peut être exécuté en mode natif sur les plates-formes mobiles sans traduction
-  - Le code de la bibliothèque Rust est automatiquement réécrit dans la syntaxe du langage cible afin d'éliminer tout appel à une interface de fonction étrangère
-  - Les applications du langage cible accèdent directement aux structures de mémoire Rust par l'intermédiaire de pointeurs partagés afin d'éviter la surcharge liée à la mise en forme des données
+  - Le fichier UDL compile automatiquement le code Rust en bytecode qui peut être exécuté en mode natif sur les plateformes mobiles sans traduction.
+  - Le code de la bibliothèque Rust est automatiquement réécrit dans la syntaxe du langage cible afin d'éliminer tout appel à une interface de fonction étrangère.
+  - Les applications du langage cible accèdent directement aux structures de mémoire Rust par l'intermédiaire de pointeurs partagés afin d'éviter la surcharge liée à la mise en forme des données.
 explanation: |
   L'architecture de l'interface utilisateur unique crée une séparation où le code de liaison généré agit comme une couche de traduction entre le langage cible et Rust. Cette couche prend en charge les opérations complexes de marshaling/dunmarshaling des types de données, gère la mémoire en toute sécurité à travers les frontières linguistiques et assure la gestion des erreurs conformément aux conventions du langage cible. Les autres options sont incorrectes car l'interface UniFFI ne compile pas en bytecode (elle génère des liaisons), ne réécrit pas le code Rust dans d'autres langages (elle conserve l'implémentation originale de Rust) et n'utilise pas l'accès à la mémoire partagée (elle gère les données en toute sécurité à travers les frontières).

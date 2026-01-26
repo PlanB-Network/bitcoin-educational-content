@@ -1,0 +1,9 @@
+question: Muri Umbrel, ni iyihe porogarama itegerezwa gushirwamwo kugira ngo haboneke uruja n’uruza rwa NWC?
+answer: Alby Hub
+wrong_answers:
+  - NWC ihuza
+  - ThunderHub
+  - Umukozi wa Zewu
+explanation: |
+  Kubera ko porogarama ya Umbrel yihariye cane cane kuri NWC itagihari, ubu urakeneye gukoresha Alby Hub kuri ubwo bwoko bw’ihuriro.
+reviewed: false

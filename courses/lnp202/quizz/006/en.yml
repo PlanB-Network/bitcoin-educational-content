@@ -1,4 +1,4 @@
-question: What's the financial risk with a custodial wallet Lightning?
+question: What's the financial risk with a custodial Lightning wallet?
 answer: Fractional reserve
 wrong_answers:
   - Arbitrary increase in mining fees

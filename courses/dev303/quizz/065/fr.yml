@@ -1,8 +1,8 @@
 question: Pourquoi la philosophie "aller vite et casser les choses" est-elle particulièrement inadaptée au développement Bitcoin par rapport au développement traditionnel de logiciels ?
-answer: Les transactions Bitcoin sont irréversibles et il n'y a pas d'autorité centrale pour récupérer les fonds en cas d'erreur
+answer: Les transactions Bitcoin sont irréversibles et il n'y a pas d'autorité centrale pour récupérer les fonds en cas d'erreur.
 wrong_answers:
-  - Le développement Bitcoin nécessite des cycles d'itération plus rapides que les applications web traditionnelles
-  - "Le compilateur de Rust empêche le prototypage rapide nécessaire à l'innovation blockchain"
-  - "La nature open source de Bitcoin rend plus difficile la correction des bogues après le déploiement"
+  - Le développement Bitcoin nécessite des cycles d'itération plus rapides que les applications web traditionnelles.
+  - "Le compilateur de Rust empêche le prototypage rapide nécessaire à l'innovation blockchain".
+  - "La nature open source de Bitcoin rend plus difficile la correction des bogues après le déploiement".
 explanation: |
-  La bonne réponse met en évidence la caractéristique fondamentale du Bitcoin : sa nature décentralisée signifie qu'il n'y a pas d'autorité à laquelle faire appel pour récupérer les fonds une fois que les transactions sont diffusées. Contrairement aux systèmes financiers traditionnels dotés de protections réglementaires et de mécanismes de rétrofacturation, les erreurs du Bitcoin sont permanentes et irréversibles. Les mauvaises réponses ne comprennent pas la question centrale - il ne s'agit pas de la vitesse de développement, des limitations des compilateurs ou des défis de l'open source, mais de la nature irréversible des opérations financières dans un système décentralisé où les fonds des utilisateurs sont en danger permanent.
+  La bonne réponse met en évidence la caractéristique fondamentale du Bitcoin : sa nature décentralisée signifie qu'il n'y a pas d'autorité à laquelle faire appel pour récupérer les fonds une fois que les transactions sont diffusées. Contrairement aux systèmes financiers traditionnels dotés de protections réglementaires et de mécanismes de rétrofacturation, les erreurs du Bitcoin sont permanentes et irréversibles. Les mauvaises réponses ne comprennent pas la question centrale : il ne s'agit pas de la vitesse de développement, des limitations des compilateurs ou des défis de l'open source, mais de la nature irréversible des opérations financières dans un système décentralisé où les fonds des utilisateurs sont en danger permanent.

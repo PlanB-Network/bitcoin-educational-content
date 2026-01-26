@@ -1,0 +1,9 @@
+question: ไฟล์ใดที่มีสถานะช่องสัญญาณโดยละเอียดของ LND?
+answer: channel.db
+wrong_answers:
+  - wallet.db
+  - lightning.db
+  - peers.db
+explanation: |
+  ไฟล์ channel.db เก็บสถานะช่อง, เพื่อนร่วมเครือข่าย และ commitment transactions.
+reviewed: false

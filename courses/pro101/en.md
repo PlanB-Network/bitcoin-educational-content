@@ -1,5 +1,5 @@
 ---
-name: Bitcoin Development Foundamentals
+name: Bitcoin Development Fundamentals
 goal: Acquire all the foundations to start developing on Bitcoin
 objectives:
 - Understand the core concepts and technology underpinning Bitcoin

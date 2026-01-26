@@ -1,0 +1,9 @@
+question: Lightning kullanıcıları için en fazla egemenliği hangi çözüm sunuyor?
+answer: Klasik Yıldırım düğümü
+wrong_answers:
+  - Atomik takas ile Wallet
+  - Yerleşik LN düğümü
+  - Gözetim Yıldırım wallet
+explanation: |
+  Klasik düğüm kanallar, likidite ve ücret politikaları üzerinde tam kontrol sağlar. Gerçekten bağımsız olmanızı sağlayan tek sistemdir.
+reviewed: false

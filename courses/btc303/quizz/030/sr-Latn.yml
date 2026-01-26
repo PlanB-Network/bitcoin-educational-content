@@ -1,9 +1,12 @@
 question: Prema perspektivi Satoshi Nakamota, izgubljeni bitkoini povećavaju vrednost preostalih kovanica u opticaju.
-answer: Oni čine da novčići svih ostalih vrede nešto više kao donacija svima
+answer: Na taj način tuđi novčići postaju vredniji, delujući kao donacija svima.
 wrong_answers:
-  - Oni smanjuju mrežnu sigurnost smanjenjem ukupne vrednosti dostupne za mining nagrade
+  - Oni smanjuju mrežnu sigurnost smanjenjem ukupne vrednosti dostupne za rudarske nagrade
   - Oni stvaraju deflatorni pritisak koji destabilizuje monetarni sistem tokom vremena
-  - Moraju biti zamenjeni dodatnim mining kako bi se održao planirani nivo snabdevanja.
+  - Moraju biti zamenjeni dodatnim rudarenjem kako bi se održao ciljani nivo emisije
 explanation: |
-  Satoshi Nakamoto je objasnio da izgubljeni novčići funkcionišu kao donacija svim ostalim vlasnicima bitcoina tako što čine njihove novčiće vrednijim zbog smanjenog efektivnog snabdevanja. Ovo je pozitivan deflatorni efekat, a ne destabilizirajuća sila. Izgubljeni novčići ne utiču na mining nagrade jer one dolaze iz novoizdatih novčića i naknada za transakcije, a ne iz postojećeg snabdevanja. Protokol Bitcoin ne zamenjuje izgubljene novčiće - oni ostaju trajno van opticaja, što zapravo koristi preostalim vlasnicima kroz povećanu oskudicu.
-reviewed: false
+  Satoshi Nakamoto je objasnio da izgubljeni novčići funkcionišu kao donacija svim ostalim vlasnicima bitcoina tako što čine njihove novčiće vrednijim zbog 
+  smanjenog efektivnog snabdevanja. Ovo je pozitivan deflatorni efekat, a ne destabilizirajuća sila. Izgubljeni novčići ne utiču na rudarske nagrade jer one 
+  dolaze iz novoizdatih novčića i naknada za transakcije, a ne iz postojećeg snabdevanja. Bitcoin protokol ne zamenjuje izgubljene novčiće - oni ostaju trajno 
+  van opticaja, što zapravo koristi preostalim vlasnicima kroz povećanu oskudicu.
+reviewed: true

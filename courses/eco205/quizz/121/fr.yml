@@ -1,0 +1,8 @@
+question: Selon la théorie de Hayek, pourquoi le système des prix est-il plus efficace qu'un planificateur central pour coordonner l'économie ?
+answer: Parce qu'il agrège spontanément l'information dispersée entre tous les agents sans qu'aucune autorité centrale ne puisse accéder à cette information
+wrong_answers:
+  - "Parce qu'il permet aux planificateurs centraux de calculer plus rapidement les prix optimaux grâce aux données de marché"
+  - "Parce qu'il élimine complètement l'incertitude en fournissant une information parfaite à tous les participants du marché"
+  - "Parce qu'il garantit automatiquement l'égalité des revenus entre tous les acteurs économiques participants"
+explanation: |
+  Hayek démontre que l'information économique est toujours dispersée, incomplète et en constante évolution. Le système des prix réussit à coordonner les actions de millions d'individus en agrégeant cette information dispersée de manière spontanée, ce qu'aucun planificateur central ne peut accomplir car il ne peut accéder à toute cette information. Les autres réponses sont incorrectes car Hayek rejette la planification centrale, reconnaît que l'information reste imparfaite, et ne s'intéresse pas à l'égalité des revenus mais à l'efficacité de la coordination.

@@ -3,6 +3,6 @@ answer: Los campos que se copian quedan inutilizables en la instancia original d
 wrong_answers:
   - La instancia original permanece completamente inalterada y totalmente accesible
   - Se clona toda la instancia original, dejando ambas instancias completamente funcionales
-  - Sólo los campos que cambie explícitamente se vuelven inaccesibles en el original
+  - Solo los campos que cambie explícitamente se vuelven inaccesibles en el original
 explanation: |
   Cuando se utiliza la sintaxis de actualización de estructura con tipos que no son Copiar, el sistema de propiedad de Rust mueve los campos copiados de la instancia original a la nueva. Esto significa que esos campos específicos se vuelven inutilizables en la instancia original, aunque los campos que no fueron copiados permanecen accesibles. El compilador realiza un seguimiento inteligente de estos movimientos parciales, impidiendo el acceso a los campos movidos y permitiendo el uso continuado de los campos no movidos. Este comportamiento garantiza la seguridad de la memoria al evitar que haya varios propietarios de los mismos datos.

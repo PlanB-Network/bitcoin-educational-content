@@ -1024,6 +1024,10 @@ LNURL是一个通信协议，指定了一组旨在简化闪电网络节点与客
 
 ![LNP201](assets/en/084.webp)
 
+既然您已经理解了 Lightning Network 的理论运作方式，便可以进入实践阶段，搭建您的第一个 Lightning 节点，以在使用中获得更大的自主性。为此，请学习 LNP 202 课程：
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
 # 总结
 
 <partId>b8715c1c-7ae2-49b7-94c7-35bf85346ad3</partId>

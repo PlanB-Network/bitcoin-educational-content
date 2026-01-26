@@ -1128,14 +1128,14 @@ Bitcoin कोर [MIT लाइसेंस](https://github.com/Bitcoin/Bitcoin
 
 
 ```
-The MIT License (MIT)
+MIT लाइसेंस (MIT)
 
-Copyright (c) 2009-2022 The Bitcoin Core developers
-Copyright (c) 2009-2022 Bitcoin Developers
+Copyright (c) 2009-2022 Bitcoin Core डेवलपर्स
+Copyright (c) 2009-2022 Bitcoin डेवलपर्स
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+इसके द्वारा, इस सॉफ्टवेयर और संबंधित दस्तावेज़ फाइलों ("सॉफ्टवेयर") की प्रति प्राप्त करने वाले किसी भी व्यक्ति को बिना किसी प्रतिबंध के सॉफ्टवेयर का उपयोग करने, कॉपी करने, संशोधित करने, मर्ज करने, प्रकाशित करने, वितरित करने, उप-लाइसेंस देने और/या सॉफ्टवेयर की प्रतियां बेचने के अधिकारों सहित, बिना किसी सीमा के, सॉफ्टवेयर के साथ व्यवहार करने की अनुमति निःशुल्क प्रदान की जाती है, और जिन व्यक्तियों को सॉफ्टवेयर प्रदान किया जाता है उन्हें निम्नलिखित शर्तों के अधीन ऐसा करने की अनुमति देने की अनुमति है:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+उपरोक्त कॉपीराइट नोटिस और यह अनुमति नोटिस सॉफ्टवेयर की सभी प्रतियों या पर्याप्त भागों में शामिल किया जाएगा।
 ```
 
 

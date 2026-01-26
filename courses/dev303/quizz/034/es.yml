@@ -1,5 +1,5 @@
 question: ¿Qué método le permite extraer un valor de un resultado mientras proporciona un mensaje de pánico personalizado si se produce un error?
-answer: espere
+answer: expect
 wrong_answers:
   - unwrap_or_else
   - unwrap_with_message

@@ -3,7 +3,10 @@ answer: Korisnici moraju imati neograničen pristup izvornom kodu softvera koji 
 wrong_answers:
   - Korisnici moraju dobiti dozvolu od Bitcoin Core održavatelja pre nego što pristupe alatima za verifikaciju.
   - Korisnici moraju platiti razumnu naknadu za pristup kompajliranim verifikacionim binarnim datotekama iz zvaničnih izvora.
-  - Korisnici moraju da se oslone na kriptografske potpise od pouzdanih programera kako bi verifikovali ponašanje softvera
+  - Korisnici moraju da se oslone na kriptografske potpise od pouzdanih programera kako bi verifikovali ponašanje softvera.
 explanation: |
-  Poglavlje eksplicitno navodi da korisnici, kako bi verifikovali da Bitcoin softver 'radi kako je reklamirano,' moraju imati neograničen pristup izvornom kodu. Ovo je direktno povezano sa principom 'Ne veruj, verifikuj' i zahtevom definicije otvorenog koda za dostupnost izvornog koda. Pogrešni odgovori protivreče osnovnim principima otvorenog koda: zahtev za dozvolom krši princip slobodnog pristupa, plaćanje naknada protivreči zahtevu za besplatnom distribucijom, a oslanjanje isključivo na potpise podriva sposobnost verifikacije putem inspekcije koju otvoreni kod omogućava.
-reviewed: false
+  Poglavlje eksplicitno navodi da korisnici, kako bi verifikovali da Bitcoin softver 'radi kako je reklamirano,' moraju imati neograničen pristup izvornom kodu. 
+  Ovo je direktno povezano sa principom 'Ne veruj, verifikuj' i zahtevom definicije otvorenog koda za dostupnost izvornog koda. Pogrešni odgovori protivreče 
+  osnovnim principima otvorenog koda: zahtev za dozvolom krši princip slobodnog pristupa, plaćanje naknada protivreči zahtevu za besplatnom distribucijom, a 
+  oslanjanje isključivo na potpise podriva sposobnost verifikacije putem inspekcije koju otvoreni kod omogućava.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Qual è la priorità assoluta di un commerciante Lightning?
+answer: Acquisizione di liquidità in entrata
+wrong_answers:
+  - Acquisizione di liquidità in uscita
+  - Risparmio sui costi di routing
+  - Acquisire buone recensioni di LN+
+explanation: |
+  Un commerciante deve essere in grado di incassare senza fallire, il che richiede una sufficiente liquidità in entrata.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Comment calcule-t-on les frais d’une transaction ?
+answer: Inputs moins outputs
+wrong_answers:
+  - Outputs moins inputs
+  - Inputs plus outputs
+  - Outputs divisé par inputs
+explanation: |
+  Les frais correspondent à la valeur consommée en inputs qui n’est pas recréée en outputs.
+reviewed: false

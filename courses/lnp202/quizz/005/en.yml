@@ -1,4 +1,4 @@
-question: What data can a wallet Lightning custodial operator observe about its users?
+question: What data can a custodial Lightning wallet operator observe about its users?
 answer: All their flows
 wrong_answers:
   - Their identities

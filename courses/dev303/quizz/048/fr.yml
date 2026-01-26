@@ -1,8 +1,8 @@
 question: Quel est l'objectif principal de la combinaison de RC et de RefCell dans la programmation Rust ?
-answer: Permettre à plusieurs propriétaires de partager et de modifier les mêmes données avec des contrôles d'emprunt en cours d'exécution
+answer: Permettre à plusieurs propriétaires de partager et de modifier les mêmes données avec des contrôles d'emprunt en cours d'exécution.
 wrong_answers:
-  - Déplacer l'application des règles d'emprunt de la phase d'exécution à la phase de compilation pour de meilleures performances
-  - Créer des données partagées immuables auxquelles plusieurs threads peuvent accéder en toute sécurité
-  - Pour éviter les cycles de référence et les fuites de mémoire lors du partage de données entre plusieurs propriétaires
+  - Déplacer l'application des règles d'emprunt de la phase d'exécution à la phase de compilation pour de meilleures performances.
+  - Créer des données partagées immuables auxquelles plusieurs threads peuvent accéder en toute sécurité.
+  - Pour éviter les cycles de référence et les fuites de mémoire lors du partage de données entre plusieurs propriétaires.
 explanation: |
-  RC<RefCell<T> combine le comptage de références pour la propriété partagée avec la mutabilité intérieure pour les mutations vérifiées à l'exécution. RC permet à plusieurs parties du code de posséder les mêmes données, tandis que RefCell permet la mutation par le biais de références immuables en vérifiant les règles d'emprunt au moment de l'exécution. Les autres options sont incorrectes : ce modèle déplace en fait les vérifications au moment de l'exécution (et non de la compilation), crée des données partagées mutables (et non immuables) et peut en fait provoquer des cycles de référence au lieu de les empêcher.
+  RC<RefCell<T>> combine le comptage de références pour la propriété partagée avec la mutabilité intérieure pour les mutations vérifiées à l'exécution. RC permet à plusieurs parties du code de posséder les mêmes données, tandis que RefCell permet la mutation par le biais de références immuables en vérifiant les règles d'emprunt au moment de l'exécution. Les autres options sont incorrectes : ce modèle déplace en fait les vérifications au moment de l'exécution (et non de la compilation), crée des données partagées mutables (et non immuables) et peut en fait provoquer des cycles de référence au lieu de les empêcher.

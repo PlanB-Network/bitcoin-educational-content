@@ -1,8 +1,8 @@
 question: Quelle est la différence fondamentale entre l'approche d'intégration de la blockchain de LDK et les nœuds Lightning traditionnels en ce qui concerne les environnements à ressources limitées ?
-answer: LDK fournit une abstraction basée sur le filtrage qui permet aux applications de mettre en œuvre la surveillance par le biais de sources de données légères telles que les serveurs Electrum
+answer: LDK fournit une abstraction basée sur le filtrage qui permet aux applications de mettre en œuvre la surveillance par le biais de sources de données légères telles que les serveurs Electrum.
 wrong_answers:
-  - LDK nécessite une synchronisation complète de la blockchain, mais optimise le stockage grâce à des en-têtes de blocs compressés et à des mécanismes d'élagage des transactions
-  - LDK met en œuvre un protocole de blockchain personnalisé qui réduit la bande passante en ne conservant en mémoire que les transactions pertinentes pour le canal
-  - LDK utilise un mécanisme de consensus hybride qui ne valide que les transactions liées à la foudre et ignore les opérations Bitcoin standard
+  - LDK nécessite une synchronisation complète de la blockchain, mais optimise le stockage grâce à des en-têtes de blocs compressés et à des mécanismes d'élagage des transactions.
+  - LDK met en œuvre un protocole de blockchain personnalisé qui réduit la bande passante en ne conservant en mémoire que les transactions pertinentes pour le canal.
+  - LDK utilise un mécanisme de consensus hybride qui ne valide que les transactions liées à la foudre et ignore les opérations Bitcoin standard.
 explanation: |
   L'intégration de la blockchain de LDK est conçue avec deux modes : le mode blockchain complet pour les environnements riches en ressources et le mode basé sur le filtrage pour les environnements contraints. L'approche par filtrage permet à LDK de communiquer ses besoins de surveillance par le biais d'interfaces abstraites, en demandant la surveillance de transactions spécifiques, d'UTXO ou de modèles de scripts. Les applications peuvent ensuite mettre en œuvre cette surveillance à l'aide de sources légères telles que les serveurs Electrum ou les explorateurs de blocs, ce qui réduit considérablement les besoins en bande passante et en stockage par rapport à la synchronisation complète de la chaîne de blocs. Cette abstraction permet aux portefeuilles mobiles et aux applications web de maintenir la fonctionnalité Lightning sans la surcharge de ressources que nécessitent les nœuds Lightning traditionnels.

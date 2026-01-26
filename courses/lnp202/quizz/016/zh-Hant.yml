@@ -1,0 +1,9 @@
+question: 哪些資訊顯示 Lightning 節點的接收能力？
+answer: 入境流動資金
+wrong_answers:
+  - 活躍連線
+  - 出境流動資金
+  - 區塊數
+explanation: |
+  入站流動性代表節點可透過 Lightning 接收的 sats。
+reviewed: false

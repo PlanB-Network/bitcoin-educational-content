@@ -1,0 +1,9 @@
+question: ¿Cuál es el riesgo financiero con una custodia Lightning wallet?
+answer: Reserva fraccionaria
+wrong_answers:
+  - Aumento arbitrario de las tasas mining
+  - 51% ataque
+  - Freno definitivo al mercado bajista
+explanation: |
+  El usuario no puede verificar que los saldos mostrados corresponden realmente a bitcoins poseídos. Existe, por tanto, un riesgo de reserva fraccionaria.
+reviewed: false

@@ -1,0 +1,9 @@
+question: 在 NWC 流程中，加密何时在应用程序端进行？
+answer: 在继电器上发布之前
+wrong_answers:
+  - 阅读节点后
+  - 接力发布后
+  - 从不
+explanation: |
+  应用程序将请求序列化、加密，然后在 Nostr 中继器上将其作为事件发布。
+reviewed: false

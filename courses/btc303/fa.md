@@ -51,7 +51,7 @@ objectives:
 <chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
 
 
-به دوره PHI 301 درباره فلسفه توسعه Bitcoin خوش آمدید.
+به دوره BTC 303 درباره فلسفه توسعه Bitcoin خوش آمدید.
 
 
 Bitcoin چیزی فراتر از یک ارز دیجیتال است، این یک دیدگاه فلسفی درباره تمرکززدایی، حریم خصوصی، عدم نیاز به اعتماد و مقاومت را تجسم می‌بخشد. این دوره به‌طور خاص برای توسعه‌دهندگانی طراحی شده است که با مبانی فنی Bitcoin آشنا هستند و اکنون به دنبال تعمیق درک خود از اصول زیربنایی طراحی و حاکمیت Bitcoin هستند.
@@ -1168,14 +1168,14 @@ Bitcoin Core با توزیع تحت [مجوز MIT](https://github.com/Bitcoin/Bi
 
 
 ```
-The MIT License (MIT)
+مجوز MIT (MIT)
 
-Copyright (c) 2009-2022 The Bitcoin Core developers
-Copyright (c) 2009-2022 Bitcoin Developers
+Copyright (c) 2009-2022 توسعه‌دهندگان Bitcoin Core
+Copyright (c) 2009-2022 توسعه‌دهندگان Bitcoin
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+بدین‌وسیله به هر شخصی که نسخه‌ای از این نرم‌افزار و فایل‌های مستندات مرتبط ("نرم‌افزار") را دریافت می‌کند، به صورت رایگان اجازه داده می‌شود که بدون محدودیت با نرم‌افزار سروکار داشته باشد، از جمله بدون محدودیت حقوق استفاده، کپی، تغییر، ادغام، انتشار، توزیع، صدور مجوز فرعی و/یا فروش نسخه‌های نرم‌افزار، و اجازه دهد افرادی که نرم‌افزار به آن‌ها ارائه می‌شود همین کار را انجام دهند، با رعایت شرایط زیر:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+اعلامیه حق نسخه‌برداری فوق و این اعلامیه مجوز باید در تمام نسخه‌ها یا بخش‌های قابل توجه نرم‌افزار گنجانده شود.
 ```
 
 

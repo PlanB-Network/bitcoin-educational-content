@@ -1,9 +1,13 @@
-question: Koji je primarni izazov koji čini objavljivanje zakrpa za ranjivosti za Bitcoin posebno složenim u poređenju sa tradicionalnim centralizovanim softverskim sistemima?
-answer: Sam kod zakrpe može otkriti ranjivost potencijalnim napadačima koji analiziraju promene.
+question: Koji je primarni izazov koji čini objavljivanje zakrpa za ranjivosti u Bitcoinu posebno složenim u poređenju sa tradicionalnim centralizovanim softverskim sistemima?
+answer: Sam kod zakrpe može otkriti ranjivost potencijalnim napadačima koji analiziraju promene
 wrong_answers:
   - Decentralizovana priroda znači da ne postoji centralni autoritet za koordinaciju vremena primene zakrpa
-  - "Bitcoin-ov mehanizam konsenzusa zahteva odobrenje većine pre nego što bilo koje sigurnosne zakrpe mogu biti implementirane"
-  - Otvorena priroda koda znači da sve ranjivosti moraju biti javno objavljene pre nego što se razviju zakrpe.
+  - Bitcoin-ov mehanizam konsenzusa zahteva odobrenje većine pre nego što bilo koje sigurnosne zakrpe mogu biti implementirane
+  - Otvorena priroda koda znači da sve ranjivosti moraju biti javno objavljene pre nego što se razviju zakrpe
 explanation: |
-  Tekst posebno naglašava da programeri moraju biti izuzetno pažljivi prilikom objavljivanja zakrpa jer 'sama zakrpa može otkriti ranjivost.' Ovo stvara jedinstven izazov gde rešenje može nenamerno otkriti problem. Četvrta tačka opisuje kako Bitcoin programeri testiraju da li je zakrpa 'dovoljno dobro prikrivena' tako što iskusni programeri pregledaju zakrpu bez poznavanja specifične ranjivosti. Ako ovi stručnjaci ne mogu identifikovati ranjivost iz zakrpe, smatra se da je bezbedna za primenu. Ostale opcije su netačne: postoji koordinacija kroz Bitcoin Core održavaoce, konsenzus nije potreban za zakrpe, a ranjivosti se drže privatnim tokom odgovornog otkrivanja.
-reviewed: false
+  Tekst posebno naglašava da programeri moraju biti izuzetno pažljivi prilikom objavljivanja zakrpa jer 'sama zakrpa može otkriti ranjivost.' Ovo stvara
+  jedinstven izazov gde rešenje može nenamerno otkriti problem. Četvrta tačka opisuje kako Bitcoin programeri testiraju da li je zakrpa 'dovoljno dobro prikrivena'
+  tako što iskusni programeri pregledaju zakrpu bez poznavanja specifične ranjivosti. Ako ovi stručnjaci ne mogu identifikovati ranjivost iz zakrpe, smatra se da 
+  je bezbedna za primenu. Ostale opcije su netačne: postoji koordinacija kroz Bitcoin Core održavaoce, konsenzus nije potreban za zakrpe, a ranjivosti se drže 
+  privatnim tokom odgovornog otkrivanja.
+reviewed: true

@@ -1,0 +1,9 @@
+question: Welche dieser Lightning-Operationen erfordert die Veröffentlichung einer Onchain-Transaktion?
+answer: Öffnung des Kanals
+wrong_answers:
+  - Blitzzahlung
+  - Multi-Hop-Routing
+  - Mobile Client-Verbindung
+explanation: |
+  Die Eröffnung eines Kanals entspricht einer Bitcoin-Transaktion, die auf der Blockchain veröffentlicht wird.
+reviewed: false

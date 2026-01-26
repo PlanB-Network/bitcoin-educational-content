@@ -1,0 +1,9 @@
+question: Ni maelewano gani kuu na nodi za LN ndani ya bodi?
+answer: Utegemezi wa opereta
+wrong_answers:
+  - Kupotea kwa funguo za kibinafsi
+  - Hakuna kujilinda
+  - Malipo ya Onchain ni ya lazima kwa miamala yote ya Lightning
+explanation: |
+  Mtumiaji hutegemea sana opereta mkuu kwa ajili ya muunganisho na usimamizi wa chaneli.
+reviewed: false

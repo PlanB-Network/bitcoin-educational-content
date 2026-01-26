@@ -770,10 +770,9 @@ Bu yanlış tahsisin sonuçları arasında finansal ve ekonomik krizler, ekonomi
 Günümüzde ekonomik hesaplama tartışması, öncelikle Green gündemi tarafından yönlendirilen yanlış yatırımların giderek daha belirgin hale geldiği enerji tartışmalarında yeniden ortaya çıkmaktadır. Avusturyalı iktisatçılar, ana akım iktisatçıların öngöremediği 2008 krizinin, uzun süreli düşük faiz oranları nedeniyle konut piyasasına aşırı yatırım yapılmasıyla karakterize edilen klasik bir patlama ve çöküş döngüsü olduğuna işaret ederek, para piyasalarıyla ilgili tartışmalarda da ortaya çıkmaktadır. Dahası, neo-Marksistler ve diğer sosyalist gruplar, yapay zekanın ortaya çıkışının ekonomik hesaplama sorununu çözebileceği fikrini yaymaktadır. Ancak bu bakış açısı, konunun hatalı bir şekilde anlaşılmasından kaynaklanmaktadır; ekonomik hesaplama sorunu bir hesaplama gücü meselesi değil, üretim ve kaynak tahsisi ile ilgili bilgi üretme ve dağıtma meselesidir. Bu bilgi yalnızca uzmanlaşmış bilgiye sahip ve sonuçtan çıkar sağlayan aracılar tarafından yerel olarak üretilebilir. Yapay zeka bu aşağıdan yukarıya sürecin yerini alamaz ve bu nedenle merkezi planlamacılara kaynak tahsisi sorununda yardımcı olamaz. Ne yazık ki, yüzyıllık bir yanlış anlama nedeniyle, YZ'nin serbest piyasaların başarısızlıklarını düzeltebilecek aydınlanmış merkezi planlamacılar tarafından yönetilen yeni bir ekonomik refah çağını başlatacağına dair iddiaların çoğalmasını bekliyoruz.
 
 
-Ekonomik hesaplama probleminin güncel bir duruma somut bir uygulaması için, modern Çin'de kaynak tahsisi sorununu ele alan bu makaleye başvurabilirsiniz.
+Ekonomik hesaplama sorununu çağdaş bir duruma somut biçimde uygulamak için, modern Çin’de kaynak tahsisini ele alan bu makaleye başvurabilirsiniz: *[The Road to Financial Repression: China the Paper Tiger](https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web)*, Théo Mogenet tarafından.
 
 
-> Finansal Baskıya Giden Yol: Kağıttan Kaplan Çin, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 
 ### Sonuç

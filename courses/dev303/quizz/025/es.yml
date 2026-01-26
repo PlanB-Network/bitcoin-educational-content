@@ -1,7 +1,7 @@
 question: ¿Qué palabra clave se utiliza para definir bloques de implementación que contienen métodos y funciones asociadas para estructuras en Rust?
 answer: impl
 wrong_answers:
-  - método
+  - method
   - struct
   - fn
 explanation: |

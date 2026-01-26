@@ -1,0 +1,9 @@
+question: Wat is het belangrijkste risico dat een wachttoren wil voorkomen?
+answer: Vreemdgaan met oude staat
+wrong_answers:
+  - 51% aanval
+  - Diefstal van zaden
+  - Bedriegen met nieuwe staat
+explanation: |
+  Een wachttoren beschermt tegen de publicatie van een oude kanaalstaat gericht op het verduisteren van fondsen.
+reviewed: false

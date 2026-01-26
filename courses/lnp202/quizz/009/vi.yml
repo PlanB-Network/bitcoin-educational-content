@@ -1,0 +1,9 @@
+question: Người điều hành dịch vụ lưu ký có quyền hạn gì đối với các khoản thanh toán của người dùng?
+answer: Quyền lực của kiểm duyệt
+wrong_answers:
+  - Công suất Mining
+  - Sức mạnh của sự đồng thuận
+  - Công suất Halving
+explanation: |
+  Người điều hành kiểm soát nguồn vốn và các kênh thanh toán có thể chặn, trì hoãn hoặc lọc các khoản thanh toán.
+reviewed: false

@@ -2081,7 +2081,7 @@ Nachdem wir die Theorie behandelt haben, gehen wir zur Praxis über! Im folgende
 
 :::video id=1517c0fd-d31b-426b-b99e-e4eb19635415:::
 
-Lassen du uns gemeinsam erkunden, wie man eine Empfangsadresse aus einem Schlüsselpaar generiert, das sich beispielsweise in der Tiefe 5 eines HD-Wallets befindet. Diese Adresse kann dann in einer Wallet-Software verwendet werden, um ein UTXO zu sperren.
+Lass uns gemeinsam erkunden, wie man eine Empfangsadresse aus einem Schlüsselpaar generiert, das sich beispielsweise in der Tiefe 5 einer HD-Wallet befindet. Diese Adresse kann dann in einer Wallet-Software verwendet werden, um ein UTXO zu sperren.
 
 Da der Prozess der Adressgenerierung vom angenommenen Skriptmodell abhängt, konzentrieren wir uns auf zwei spezifische Fälle: die Generierung einer SegWit v0-Adresse in P2WPKH und einer SegWit v1-Adresse in P2TR. Diese beiden Adresstypen decken heute die überwiegende Mehrheit der Anwendungen ab.
 
@@ -2094,6 +2094,7 @@ Ein öffentlicher Schlüssel bei Bitcoin ist ein Punkt $K$, der sich auf einer e
 Elliptische Kurven haben jedoch eine Symmetrieeigenschaft bezüglich der x-Achse: Für eine gegebene $x$-Koordinate gibt es nur zwei mögliche Werte für $y$: $y$ und $-y$. Diese beiden Punkte befinden sich auf beiden Seiten der x-Achse. Mit anderen Worten, wenn wir $x$ kennen, reicht es aus, anzugeben, ob $y$ gerade oder ungerade ist, um den genauen Punkt auf der Kurve zu identifizieren.
 
 ![CYP201](assets/en/069.webp)
+
 Um einen öffentlichen Schlüssel zu komprimieren, wird nur $x$ kodiert, was 256 Bits belegt, und ein Präfix wird hinzugefügt, um die Parität von $y$ anzugeben. Diese Methode reduziert die Größe des öffentlichen Schlüssels auf 264 Bits statt der ursprünglichen 520. Das Präfix `0x02` zeigt an, dass $y$ gerade ist, und das Präfix `0x03` zeigt an, dass $y$ ungerade ist.
 Nehmen wir ein Beispiel, um dies gut zu verstehen, mit einem rohen öffentlichen Schlüssel in unkomprimierter Darstellung:
 
@@ -2115,6 +2116,7 @@ K = 03678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb6
 ```
 
 Diese Operation gilt für alle Skriptmodelle, die auf ECDSA basieren, das heißt, alle außer P2TR, das Schnorr verwendet. Im Fall von Schnorr, wie in Teil 3 erklärt, behalten wir nur den Wert von $x$ bei, ohne ein Präfix hinzuzufügen, um die Parität von $y$ anzugeben, im Gegensatz zu ECDSA. Dies wird dadurch ermöglicht, dass eine einzigartige Parität willkürlich für alle Schlüssel gewählt wird. Dies ermöglicht eine leichte Reduzierung des für öffentliche Schlüssel benötigten Speicherplatzes.
+
 ### Ableitung einer SegWit v0 (bech32) Adresse
 
 Jetzt, da wir unseren komprimierten öffentlichen Schlüssel erhalten haben, können wir daraus eine SegWit v0 Empfangsadresse ableiten.
@@ -2144,7 +2146,7 @@ Um diesen Payload jedoch für Menschen leichter nutzbar zu machen, werden ihm Me
 $$
 \begin{array}{|c|c|}
 \hline
-\text{5 bits} & \text{Decimal} \\
+\text{5 Bits} & \text{Dezimal} \\
 \hline
 10011 & 19 \\
 11110 & 30 \\
@@ -2188,16 +2190,16 @@ Also haben wir:
 HASH = 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 09 10 04 07 17 08 17 01 25 07 21 09 09 21
 ```
 
-Sobald der Hash in Gruppen von 5 Bits kodiert ist, wird der Adresse eine Prüfsumme hinzugefügt. Diese Prüfsumme wird verwendet, um zu verifizieren, dass der Payload der Adresse während seiner Speicherung oder Übertragung nicht verändert wurde. Zum Beispiel ermöglicht es eine Wallet-Software sicherzustellen, dass du keinen Tippfehler gemacht haben, als du eine Empfangsadresse eingegeben haben. Ohne diese Überprüfung könnten du versehentlich Bitcoins an eine falsche Adresse senden, was zu einem dauerhaften Verlust von Geldern führen würde, da du den zugehörigen öffentlichen oder privaten Schlüssel nicht besitzen. Daher ist die Prüfsumme ein Schutz gegen menschliche Fehler.
+Sobald der Hash in Gruppen von 5 Bits kodiert ist, wird der Adresse eine Prüfsumme hinzugefügt. Diese Prüfsumme wird verwendet, um zu verifizieren, dass der Payload der Adresse während seiner Speicherung oder Übertragung nicht verändert wurde. Zum Beispiel ermöglicht es eine Wallet-Software sicherzustellen, dass du keinen Tippfehler gemacht haben, als du eine Empfangsadresse eingegeben hast. Ohne diese Überprüfung könntest du versehentlich Bitcoin an eine falsche Adresse senden, was zu einem dauerhaften Verlust von Geldern führen würde, da du den zugehörigen öffentlichen oder privaten Schlüssel nicht besitzt. Daher ist die Prüfsumme ein Schutz gegen menschliche Fehler.
 
-Für die alten Bitcoin *Legacy*-Adressen wurde die Prüfsumme einfach vom Anfang des Adresshashs mit der HASH256-Funktion berechnet. Mit der Einführung von SegWit und dem *bech32*-Format werden nun BCH-Codes (*Bose, Ray-Chaudhuri und Hocquenghem*) verwendet. Diese fehlerkorrigierenden Codes werden verwendet, um Fehler in Datenfolgen zu erkennen und zu korrigieren. du stellen sicher, dass die übermittelten Informationen intakt an ihrem Ziel ankommen, selbst im Falle von geringfügigen Änderungen. BCH-Codes werden in vielen Bereichen verwendet, wie z.B. SSDs, DVDs und QR-Codes. Zum Beispiel können dank dieser BCH-Codes teilweise verdeckte QR-Codes immer noch gelesen und dekodiert werden.
+Für die alten Bitcoin *Legacy*-Adressen wurde die Prüfsumme einfach vom Anfang des Adresshashs mit der HASH256-Funktion berechnet. Mit der Einführung von SegWit und dem *bech32*-Format werden nun BCH-Codes (*Bose, Ray-Chaudhuri und Hocquenghem*) verwendet. Diese fehlerkorrigierenden Codes werden verwendet, um Fehler in Datenfolgen zu erkennen und zu korrigieren. Sie stellen sicher, dass die übermittelten Informationen intakt an ihrem Ziel ankommen, selbst im Falle von geringfügigen Änderungen. BCH-Codes werden in vielen Bereichen verwendet, wie z.B. SSDs, DVDs und QR-Codes. Zum Beispiel können dank dieser BCH-Codes teilweise verdeckte QR-Codes immer noch gelesen und dekodiert werden.
 
 Im Kontext von Bitcoin bieten BCH-Codes einen besseren Kompromiss zwischen Größe und Fehlererkennungsfähigkeit im Vergleich zu den einfachen Hashfunktionen, die für *Legacy*-Adressen verwendet werden. Allerdings werden auf Bitcoin BCH-Codes nur zur Fehlererkennung, nicht zur Korrektur verwendet. Daher wird Wallet-Software eine inkorrekte Empfangsadresse signalisieren, aber nicht automatisch korrigieren. Diese Einschränkung ist absichtlich: Die Ermöglichung einer automatischen Korrektur würde die Fehlererkennungsfähigkeit verringern.
 
 Um die Prüfsumme mit BCH-Codes zu berechnen, müssen wir mehrere Elemente vorbereiten:
 - **Der HRP (*Human Readable Part*)**: Für das Bitcoin-Hauptnetz ist der HRP `bc`;
 Der HRP muss erweitert werden, indem jeder Buchstabe in zwei Teile getrennt wird:
-- Die Zeichen des HRP in ASCII nehmen:
+- Die Zeichen des HRP in ASCII umwandeln:
 	- `b`: `01100010`
 	- `c`: `01100011`
 - Die 3 signifikantesten Bits und die 5 am wenigsten signifikanten Bits extrahieren:
@@ -2214,7 +2216,7 @@ Mit dem Trennzeichen `0` zwischen den beiden Zeichen ist die HRP-Erweiterung dah
 
 - **Die Witness-Version**: Für SegWit Version 0 ist es `00`;
 
-- **Die Nutzlast**: Die Dezimalwerte des öffentlichen Schlüssel-Hashs;
+- **Der Payload**: Die Dezimalwerte des Hashs des öffentlichen Schlüssels;
 
 - **Die Reservierung für die Prüfsumme**: Wir fügen am Ende der Sequenz 6 Nullen `[0, 0, 0, 0, 0, 0]` hinzu.
 
@@ -2226,10 +2228,10 @@ SEGWIT v0 = 00
 HASH = 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 09 10 04 07 17 08 17 01 25 07 21 09 09 21
 PRÜFSUMME = 00 00 00 00 00 00
 
-EINGABE = 03 03 00 02 03 00 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 09 10 04 07 17 08 17 01 25 07 21 09 09 21 00 00 00 00 00 00
+INPUT = 03 03 00 02 03 00 19 30 00 19 04 11 06 08 16 24 17 12 20 19 06 11 05 09 09 10 04 07 17 08 17 01 25 07 21 09 09 21 00 00 00 00 00 00
 ```
 
-Die Berechnung der Prüfsumme ist ziemlich komplex. du beinhaltet polynomiale endliche Feldarithmetik. Wir werden diese Berechnung hier nicht im Detail erläutern und direkt zum Ergebnis übergehen. In unserem Beispiel ist die erhaltene Prüfsumme in Dezimal:
+Die Berechnung der Prüfsumme ist ziemlich komplex. Sie beinhaltet polynomiale endliche Feldarithmetik. Wir werden diese Berechnung hier nicht im Detail erläutern und direkt zum Ergebnis übergehen. In unserem Beispiel ist die erhaltene Prüfsumme in Dezimal:
 
 ```text
 10 16 11 04 13 18
@@ -2237,7 +2239,7 @@ Die Berechnung der Prüfsumme ist ziemlich komplex. du beinhaltet polynomiale en
 
 Wir können nun die Empfangsadresse konstruieren, indem wir der Reihe nach die folgenden Elemente zusammenfügen:
 - **Die SegWit-Version**: `00`
-- **Die Nutzlast**: Der öffentliche Schlüssel-Hash
+- **Den Payload**: Der öffentliche Schlüssel-Hash
 - **Die Prüfsumme**: Die im vorherigen Schritt erhaltenen Werte (`10 16 11 04 13 18`)
 
 Das ergibt in Dezimal:
@@ -2264,7 +2266,7 @@ $$
 \end{array}
 $$
 
-Um einen Wert in einen _bech32_-Zeichen mithilfe dieser Tabelle umzuwandeln, suchen du einfach die Werte in der ersten Spalte und der ersten Reihe, die zusammenaddiert das gewünschte Ergebnis ergeben. Dann holen du sich den entsprechenden Buchstaben. Zum Beispiel wird die Dezimalzahl `19` in den Buchstaben `n` umgewandelt, weil $19 = 16 + 3$.
+Um einen Wert in einen _bech32_-Zeichen mithilfe dieser Tabelle umzuwandeln, suche du einfach die Werte in der ersten Spalte und der ersten Reihe, die zusammenaddiert das gewünschte Ergebnis ergeben. Anschließend wird das entsprechende Zeichen ermittelt. Zum Beispiel wird die Dezimalzahl `19` in den Buchstaben `n` umgewandelt, weil $19 = 16 + 3$.
 
 Durch das Abbilden all unserer Werte erhalten wir die folgende Adresse:
 
@@ -2288,10 +2290,10 @@ So leitet man eine P2WPKH (SegWit v0) Empfangsadresse aus einem Schlüsselpaar a
 
 ### Ableitung einer SegWit v1 (bech32m) Adresse
 
-Für Taproot-Adressen unterscheidet sich der Generierungsprozess leicht. Lassen du uns dies gemeinsam betrachten!
+Für Taproot-Adressen unterscheidet sich der Generierungsprozess leicht. Lass uns dies gemeinsam betrachten!
 
-Vom Schritt der öffentlichen Schlüsselkompression erscheint eine erste Unterscheidung im Vergleich zu ECDSA: Die für Schnorr auf Bitcoin verwendeten öffentlichen Schlüssel werden nur durch ihre Abszisse ($x$) dargestellt. Daher gibt es kein Präfix, und der komprimierte Schlüssel misst genau 256 Bits.
-Wie wir im vorherigen Kapitel gesehen haben, sperrt ein P2TR-Skript Bitcoins auf einem einzigartigen Schnorr-öffentlichen Schlüssel, der durch $Q$ bezeichnet wird. Dieser Schlüssel $Q$ ist eine Aggregation von zwei öffentlichen Schlüsseln: $P$, einem Haupt-internen öffentlichen Schlüssel, und $M$, einem öffentlichen Schlüssel, der aus der Merkle-Wurzel einer Liste von _scriptPubKey_ abgeleitet wird. Die mit diesem Typ von Skript gesperrten Bitcoins können auf zwei Arten ausgegeben werden:
+Vom Schritt der öffentlichen Schlüsselkompression ergibt sich eine erste Unterscheidung im Vergleich zu ECDSA: Die für Schnorr auf Bitcoin verwendeten öffentlichen Schlüssel werden nur durch ihre Abszisse ($x$) dargestellt. Daher gibt es kein Präfix, und der komprimierte Schlüssel misst genau 256 Bits.
+Wie wir im vorherigen Kapitel gesehen haben, sperrt ein P2TR-Skript Bitcoin auf einem einzigartigen öffentlichen Schnorr-Schlüssel, der durch $Q$ bezeichnet wird. Dieser Schlüssel $Q$ ist eine Aggregation von zwei öffentlichen Schlüsseln: $P$, einem internen öffentlichen Haupt-Schlüssel, und $M$, einem öffentlichen Schlüssel, der aus der Merkle-Wurzel einer Liste von _scriptPubKey_ abgeleitet wird. Die mit diesem Typ von Skript gesperrten Bitcoin können auf zwei Arten ausgegeben werden:
 
 - Durch Veröffentlichung einer Signatur für den öffentlichen Schlüssel $P$ (_key path_);
 - Durch Erfüllung eines der Skripte im Merkle-Baum (_script path_).
@@ -2299,28 +2301,28 @@ Wie wir im vorherigen Kapitel gesehen haben, sperrt ein P2TR-Skript Bitcoins auf
 In Wirklichkeit sind diese beiden Schlüssel nicht wirklich "aggregiert". Der Schlüssel $P$ wird stattdessen durch den Schlüssel $M$ modifiziert. In der Kryptographie bedeutet das "Modifizieren" eines öffentlichen Schlüssels, diesen Schlüssel zu ändern, indem ein additiver Wert namens "Tweak" angewendet wird. Diese Operation ermöglicht es, dass der modifizierte Schlüssel mit dem ursprünglichen privaten Schlüssel und dem Tweak kompatibel bleibt. Technisch ist ein Tweak ein Skalarwert $t$, der zum ursprünglichen öffentlichen Schlüssel hinzugefügt wird. Wenn $P$ der ursprüngliche öffentliche Schlüssel ist, wird der modifizierte Schlüssel zu:
 
 $$
-P' = P + tG
+P' = P + t \cdot G
 $$
 
 Wobei $G$ der Generator der verwendeten elliptischen Kurve ist. Diese Operation erzeugt einen neuen öffentlichen Schlüssel, der vom ursprünglichen Schlüssel abgeleitet ist, während sie kryptografische Eigenschaften beibehält, die seine Verwendung ermöglichen.
-Wenn du keine alternativen Skripte hinzufügen müssen (ausschließlich über den _key path_ ausgeben), können du eine Taproot-Adresse generieren, die ausschließlich auf dem öffentlichen Schlüssel basiert, der in der Tiefe 5 Ihrer Wallet vorhanden ist. In diesem Fall ist es notwendig, ein nicht-ausgabefähiges Skript für den _script path_ zu erstellen, um die Anforderungen der Struktur zu erfüllen. Die Anpassung $t$ wird dann berechnet, indem eine getaggte Hashfunktion, **`TapTweak`**, auf den internen öffentlichen Schlüssel $P$ angewendet wird:
+Wenn du keine alternativen Skripte hinzufügen musst (also ausschließlich über den _key path_ ausgibst), kannst du eine Taproot-Adresse generieren, die ausschließlich auf dem öffentlichen Schlüssel basiert, der in der Tiefe 5 deiner Wallet vorhanden ist. In diesem Fall ist es notwendig, ein nicht-ausgabefähiges Skript für den _script path_ zu erstellen, um die Anforderungen der Struktur zu erfüllen. Die Anpassung $t$ wird dann berechnet, indem eine getaggte Hashfunktion, **`TapTweak`**, auf den internen öffentlichen Schlüssel $P$ angewendet wird:
 
 $$
 t = \text{H}_{\text{TapTweak}}(P)
 $$
 
-wo:
+wobei:
 
-- **$\text{H}_{\text{TapTweak}}$** ist eine SHA256-Hashfunktion, getaggt mit dem Tag `TapTweak`. Wenn du nicht vertraut sind, was eine getaggte Hashfunktion ist, lade ich du ein, Kapitel 3.3 zu konsultieren;
-- $P$ ist der interne öffentliche Schlüssel, dargestellt in seinem komprimierten 256-Bit-Format, unter Verwendung nur der $x$-Koordinate.
+- **$\text{H}_{\text{TapTweak}}$** eine SHA256-Hashfunktion ist, getaggt mit dem Tag `TapTweak`. Wenn du nicht damit vertraut bist, was eine getaggte Hashfunktion ist, lade ich du ein, Kapitel 3.3 zu konsultieren;
+- $P$ ist der interne öffentliche Schlüssel, dargestellt in seinem komprimierten 256-Bit-Format, unter Verwendung ausschließlich der $x$-Koordinate.
 
-Der öffentlicher Taproot-Schlüssel $Q$ wird dann berechnet, indem die Anpassung $t$, multipliziert mit dem Generator der elliptischen Kurve $G$, zum internen öffentlichen Schlüssel $P$ hinzugefügt wird:
+Der öffentliche Taproot-Schlüssel $Q$ wird dann berechnet, indem die Anpassung $t$, multipliziert mit dem Generator der elliptischen Kurve $G$, zum internen öffentlichen Schlüssel $P$ hinzugefügt wird:
 
 $$
 Q = P + t \cdot G
 $$
 
-Sobald deöffentlicher Taproot-he Schlüssel $Q$ erhalten ist, können wir die entsprechende Empfangsadresse generieren. Anders als bei anderen Formaten basieren Taproot-Adressen nicht auf einem Hash des öffentlichen Schlüssels. Daher wird der Schlüssel $Q$ direkt in die Adresse eingefügt, auf rohe Weise.
+Sobald der öffentliche Taproot-Schlüssel $Q$ erhalten ist, können wir die entsprechende Empfangsadresse generieren. Anders als bei anderen Formaten basieren Taproot-Adressen nicht auf einem Hash des öffentlichen Schlüssels. Daher wird der Schlüssel $Q$ direkt in die Adresse eingefügt, auf rohe Weise.
 
 Zunächst extrahieren wir die $x$-Koordinate des Punktes $Q$, um einen komprimierten öffentlichen Schlüssel zu erhalten. Auf diese Nutzlast wird eine Prüfsumme berechnet, die BCH-Codes verwendet, wie bei SegWit v0-Adressen. Das für Taproot-Adressen verwendete Programm unterscheidet sich jedoch leicht. Tatsächlich wurde nach der Einführung des _bech32_-Formats mit SegWit ein Fehler entdeckt: Wenn der letzte Buchstabe einer Adresse ein `p` ist, macht das Einfügen oder Entfernen von `q`s direkt vor diesem `p` die Prüfsumme nicht ungültig. Obwohl dieser Fehler bei SegWit v0 keine Konsequenzen hat (dank einer Größenbeschränkung), könnte er in Zukunft ein Problem darstellen. Dieser Fehler wurde daher für Taproot-Adressen korrigiert, und das neue korrigierte Format wird "_bech32m_" genannt.
 
@@ -2336,9 +2338,9 @@ Die endgültige Adresse wird daher das Format haben:
 bc1p[Qx][Prüfsumme]
 ```
 
-Andererseits, wenn du zusätzlich zum Ausgeben mit dem internen öffentlichen Schlüssel (_script path_) alternative Skripte hinzufügen möchten, wird die Berechnung der Empfangsadresse leicht unterschiedlich sein. du müssen den Hash der alternativen Skripte in die Berechnung der Anpassung einbeziehen. In Taproot wird jedes alternative Skript, das sich am Ende des Merkle-Baums befindet, als "Blatt" bezeichnet.
+Andererseits, wenn du zusätzlich zum Ausgeben mit dem internen öffentlichen Schlüssel (_script path_) alternative Skripte hinzufügen möchtest, wird die Berechnung der Empfangsadresse leicht unterschiedlich sein. Du musst den Hash der alternativen Skripte in die Berechnung der Anpassung einbeziehen. In Taproot wird jedes alternative Skript, das sich am Ende des Merkle-Baums befindet, als "Blatt" bezeichnet.
 
-Sobald die verschiedenen alternativen Skripte geschrieben sind, müssen du sie einzeln durch eine getaggte Hashfunktion `TapLeaf` führen, begleitet von einigen Metadaten:
+Sobald die verschiedenen alternativen Skripte geschrieben sind, musst du sie einzeln durch eine getaggte Hashfunktion `TapLeaf` führen, begleitet von einigen Metadaten:
 
 $$
 \text{h}_{\text{leaf}} = \text{H}_{\text{TapLeaf}} (v \Vert sz \Vert S)
@@ -2356,7 +2358,7 @@ $$
 \text{h}_{\text{branch}} = \text{H}_{\text{TapBranch}}(\text{h}_{\text{leaf1}} \Vert \text{h}_{\text{leaf2}})
 $$
 
-Wir fahren dann fort, indem wir die Ergebnisse zwei zu zwei zusammenfügen und sie in jedem Schritt durch die getaggte Hashfunktion `TapBranch` leiten, bis wir die Wurzel des Merkle-Baums erhalten:
+Wir fahren dann fort, indem wir die Ergebnisse paarweise zusammenfügen und sie in jedem Schritt durch die getaggte Hashfunktion `TapBranch` leiten, bis wir die Wurzel des Merkle-Baums erhalten:
 
 ![CYP201](assets/en/071.webp)
 
@@ -2366,15 +2368,15 @@ $$
 t = \text{H}_{\text{TapTweak}}(P \Vert h_{\text{root}})
 $$
 
-Schließlich wird, wie zuvor, öffentlicher Taproot-iche Schlüssel $Q$ durch Hinzufügen des internen öffentlichen Schlüssels $P$ zum Produkt des Tweaks $t$ und des Generatorpunkts $G$ erhalten:
+Schließlich wird, wie zuvor, der öffentliche Taproot-Schlüssel $Q$ durch Hinzufügen des internen öffentlichen Schlüssels $P$ zum Produkt des Tweaks $t$ und des Generatorpunkts $G$ erhalten:
 
 $$
 Q = P + t \cdot G
 $$
 
-Die Adressgenerierung folgt dann demselben Prozess, wobei der rohe öffentliche Schlüssel $Q$ als Nutzlast zusammen mit einigen zusätzlichen Metadaten verwendet wird.
+Die Adressgenerierung folgt dann demselben Prozess, wobei der rohe öffentliche Schlüssel $Q$ als Payload zusammen mit einigen zusätzlichen Metadaten verwendet wird.
 
-Und damit haben wir das Ende dieses CYP201-Kurses erreicht. Wenn du diesen Kurs hilfreich fanden, wäre ich dir sehr dankbar, wenn du sich ein paar Momente Zeit nehmen könnten, um ihm in dem folgenden Bewertungskapitel eine gute Bewertung zu geben. Fühlen du sich auch frei, ihn mit Ihren Liebsten oder in Ihren sozialen Netzwerken zu teilen. Schließlich, wenn du Ihr Diplom für diesen Kurs erhalten möchten, können du direkt nach dem Bewertungskapitel die Abschlussprüfung ablegen.
+Und damit haben wir das Ende dieses CYP201-Kurses erreicht. Wenn du diesen Kurs hilfreich fandest, wäre ich dir sehr dankbar, wenn du dir ein paar Momente Zeit nehmen könntest, um ihm in dem folgenden Bewertungskapitel eine gute Bewertung zu geben. Fühl dich auch frei, ihn mit deinen Liebsten oder in deinen sozialen Netzwerken zu teilen. Schließlich, wenn du dein Diplom für diesen Kurs erhalten möchtest, kannst du direkt nach dem Bewertungskapitel die Abschlussprüfung ablegen.
 
 # Abschluss
 

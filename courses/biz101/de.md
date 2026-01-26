@@ -216,7 +216,7 @@ Bitcoin ist bahnbrechend, weil er uns dazu anregt, Konzepte in den Bereichen Mat
 
 Bitcoin fordert uns heraus, die Natur des Geldes selbst zu überdenken. Könntest du erklären, was Geld wirklich ist? Ein Angestellter oder Unternehmer verbringt vielleicht 50.000 bis 100.000 Stunden seines Lebens damit, Geld zu verdienen, aber wie viele **wenden auch nur 100 Stunden auf, um es besser zu verstehen** und aufzubewahren? Bitcoin ermutigt uns, die grundlegenden Gründe für unser Bedürfnis nach Geld und unsere zeitliche Perspektive zu hinterfragen. Dient Geld dem sofortigen Luxus oder der langfristigen Beständigkeit? Wenn wir einen wertsteigernden Vermögenswert hätten, der uns erlaubt, Käufe aufzuschieben, welche Entscheidungen würden wir dann treffen? Welche Gespräche würden wir mit uns selbst in 20 oder 30 Jahren führen wollen?
 
-**BITCOIN-AUSWEIS (2024)**
+**BITCOIN-AUSWEIS (im Jahr 2024)**
 
 - **Alter:** 15 Jahre (3. Januar 2009)
 - **Tägliches Handelsvolumen:** $10 Milliarden (> CAC40)
@@ -296,7 +296,7 @@ Das Lightning Network ist aufgrund seiner Geschwindigkeit und der Endgültigkeit
 - **Endgültigkeit:** Sobald eine Zahlung über Lightning erfolgt ist, ist sie endgültig. Es gibt keine Möglichkeit von Rückbuchungen durch Dritte oder betrugsbedingte Streitigkeiten.
 - **Gebühren:** Die Transaktionsgebühren im Lightning Network sind minimal und werden vom Nutzer bezahlt, nicht vom Händler. Für Händler fallen nur dann Gebühren an, wenn sie ihre Bitcoin später auf ein anderes Netzwerk oder einen anderen Dienst übertragen müssen.
 
-**LIGHTNING-AUSWEIS (2024)**
+**LIGHTNING-AUSWEIS (im Jahr 2024)**
 
 - **Erfindung:** 2015
 - **Einführung:** 2016

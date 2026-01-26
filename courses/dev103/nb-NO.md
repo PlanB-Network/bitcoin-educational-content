@@ -6517,36 +6517,31 @@ Her er et eksempel på hvordan du skriver til en `target.txt`-fil ved hjelp av e
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
-Dette er hva som skjer:
-
+Her er det som skjer:
 
 1. `fs.createWriteStream()` oppretter en skrivbar strøm.
-
-2. Vi skriver litt tekst til den ved hjelp av `.write()`.
-
-3. Når vi er ferdige, kaller vi `.end()` for å lukke strømmen.
-
-4. Når alle dataene er skrevet, sendes hendelsen `finish` ut.
-
-5. Hvis noe går galt, utløses hendelsen `error`.
+2. Vi registrerer håndterere for hendelsene `error` og `finish`.
+3. Vi skriver litt tekst til den ved å bruke `.write()`.
+4. Når vi er ferdige, kaller vi `.end()` for å lukke strømmen.
+5. Når alle bufrede data er tømt og skrevet, sendes `finish`-hendelsen. Hvis noe går galt, sendes en `error`-hendelse.
 
 
 På samme måte som lesbare strømmer er skrivbare strømmer gode for store datamengder, fordi de ikke trenger å holde alt i minnet samtidig.

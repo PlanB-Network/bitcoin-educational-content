@@ -1402,9 +1402,9 @@ Tunnetuimpia ohjelmistoja ovat mm:
 
 
 
-- [Alby Hub] (https://albyhub.com/);
+- [Alby Hub](https://albyhub.com/);
 - [Ride The Lightning](https://www.ridethelightning.info/);
-- [ThunderHub] (https://thunderhub.io/).
+- [ThunderHub](https://thunderhub.io/).
 
 
 
@@ -1581,7 +1581,7 @@ Sisäänpäin suuntautuvan likviditeetin ostamiseen on monia tapoja. Itse käyt�
 
 
 
-Mene [Magman verkkosivuille] (https://magma.amboss.tech/buy), osioon "Osta kanavia".
+Mene [Magman verkkosivuille](https://magma.amboss.tech/buy), osioon "Osta kanavia".
 
 
 

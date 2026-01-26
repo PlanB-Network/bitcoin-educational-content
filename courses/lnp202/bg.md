@@ -1403,7 +1403,7 @@ https://planb.academy/tutorials/node/lightning-network/1ml-37ada2ab-7a24-4473-87
 
 
 - [Alby Hub](https://albyhub.com/);
-- [Ride The Lightning] (https://www.ridethelightning.info/);
+- [Ride The Lightning](https://www.ridethelightning.info/);
 - [ThunderHub](https://thunderhub.io/).
 
 
@@ -2141,7 +2141,7 @@ https://planb.academy/tutorials/node/lightning-network/alby-hub-62e6356c-6a6d-41
 
 
 
-- [Google Play Store] (https://play.google.com/store/apps/details?id=com.getalby.mobile);
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.getalby.mobile);
 - [Apple App Store](https://apps.apple.com/us/app/alby-go/id6471335774);
 - [Zapstore](https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq3jhml5fvklgnq9fxpete767txn9zfzqdkc0sxfptmnchfrexje7qqfxxmmd9enk2arpd338jtndda3xjmr9pzj5tk).
 

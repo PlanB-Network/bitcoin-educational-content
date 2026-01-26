@@ -415,7 +415,7 @@ Keuntungan utama dari pendekatan ini, dibandingkan dengan kustodian Lightning wa
 
 
 
-Sebagian besar portofolio yang menawarkan jenis fungsionalitas ini mengandalkan [Boltz] (https://boltz.exchange/) untuk bagian teknis swap.
+Sebagian besar portofolio yang menawarkan jenis fungsionalitas ini mengandalkan [Boltz](https://boltz.exchange/) untuk bagian teknis swap.
 
 
 
@@ -1157,7 +1157,7 @@ Idenya adalah untuk tidak membuka dan menutup saluran setiap hari (yang akan men
 
 
 
-Untuk menerapkan kriteria ini, Anda memerlukan alat yang menyediakan visibilitas jaringan Lightning. Ada beberapa penjelajah dan layanan yang tersedia untuk melakukan ini. Di antara penjelajah Lightning yang paling terkenal adalah [1ML] (https://1ml.com/) dan [Amboss] (https://amboss.space/).
+Untuk menerapkan kriteria ini, Anda memerlukan alat yang menyediakan visibilitas jaringan Lightning. Ada beberapa penjelajah dan layanan yang tersedia untuk melakukan ini. Di antara penjelajah Lightning yang paling terkenal adalah [1ML](https://1ml.com/) dan [Amboss](https://amboss.space/).
 
 
 
@@ -1402,9 +1402,9 @@ Di antara program perangkat lunak yang paling terkenal adalah:
 
 
 
-- [Alby Hub] (https://albyhub.com/);
+- [Alby Hub](https://albyhub.com/);
 - [Ride The Lightning](https://www.ridethelightning.info/);
-- [ThunderHub] (https://thunderhub.io/).
+- [ThunderHub](https://thunderhub.io/).
 
 
 
@@ -1669,7 +1669,7 @@ Jika Anda bukan seorang pedagang, tetapi masih membutuhkan likuiditas masuk (mis
 
 
 
-Tentu saja, Anda dapat mengaturnya secara langsung dengan sesama pengguna bitcoin. Namun, ada sebuah platform yang didedikasikan untuk jenis pembukaan melingkar seperti ini: [Lightning Network +] (https://lightningnetwork.plus/). Prinsipnya adalah tidak membuka dua saluran antara orang yang sama, tetapi mengatur pembukaan melingkar yang melibatkan minimal tiga peserta, atau bahkan lebih.
+Tentu saja, Anda dapat mengaturnya secara langsung dengan sesama pengguna bitcoin. Namun, ada sebuah platform yang didedikasikan untuk jenis pembukaan melingkar seperti ini: [Lightning Network +](https://lightningnetwork.plus/). Prinsipnya adalah tidak membuka dua saluran antara orang yang sama, tetapi mengatur pembukaan melingkar yang melibatkan minimal tiga peserta, atau bahkan lebih.
 
 
 
@@ -1703,7 +1703,7 @@ Untuk menggunakan Lightning Network+, Anda memiliki dua pilihan: menggunakan apl
 
 
 
-Buka situs web [Lightning Network +] (https://lightningnetwork.plus/) dan klik tombol `Login` di bagian kanan atas antarmuka.
+Buka situs web [Lightning Network +](https://lightningnetwork.plus/) dan klik tombol `Login` di bagian kanan atas antarmuka.
 
 
 
@@ -2050,7 +2050,7 @@ Jika Anda tidak yakin dengan koneksi Tailscale, atau jika mengelola VPN ganda ta
 
 
 
-Untuk contoh ini, kita akan menggunakan aplikasi seluler Alby Go, yang didesain dengan sangat baik dan sangat mudah dipelajari. Meskipun demikian, Anda juga dapat menggunakan Zeus atau aplikasi seluler lain yang kompatibel dengan NWC. Anda akan menemukan daftar aplikasi yang kompatibel di [repositori GitHub `awesome-nwc`] (https://github.com/getAlby/awesome-nwc).
+Untuk contoh ini, kita akan menggunakan aplikasi seluler Alby Go, yang didesain dengan sangat baik dan sangat mudah dipelajari. Meskipun demikian, Anda juga dapat menggunakan Zeus atau aplikasi seluler lain yang kompatibel dengan NWC. Anda akan menemukan daftar aplikasi yang kompatibel di [repositori GitHub `awesome-nwc`](https://github.com/getAlby/awesome-nwc).
 
 
 

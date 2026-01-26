@@ -14,7 +14,7 @@ Neste tutorial, descobrimos a Aurora Store, uma alternativa simples, de código 
 
 
 
-# Começar a utilizar o Aurora Store
+## Começar a utilizar o Aurora Store
 
 
 
@@ -88,7 +88,7 @@ A partir da Aurora Store, pode aceder ao catálogo de aplicações disponíveis 
 
 
 
-## Caraterísticas
+### Caraterísticas
 
 
 

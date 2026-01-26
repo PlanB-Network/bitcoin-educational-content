@@ -46,7 +46,7 @@ V tomto návodu budeme používat rozšíření Alby v prohlížeči Firefox pod
 
 
 
-Rozšíření Alby můžete do prohlížeče přidat v obchodě s rozšířeními [Firefox] (https://addons.mozilla.org/fr/firefox/addon/alby/) nebo v obchodě s rozšířeními [Chrome] (https://chromewebstore.google.com/detail/alby-bitcoin-wallet-for-l/iokeahhehimjnekafflcihljlcjccdbe).
+Rozšíření Alby můžete do prohlížeče přidat v obchodě s rozšířeními [Firefox](https://addons.mozilla.org/fr/firefox/addon/alby/) nebo v obchodě s rozšířeními [Chrome](https://chromewebstore.google.com/detail/alby-bitcoin-wallet-for-l/iokeahhehimjnekafflcihljlcjccdbe).
 
 
 

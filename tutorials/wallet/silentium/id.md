@@ -75,7 +75,7 @@ Silentium adalah Aplikasi Web Progresif (PWA) yang dapat diakses dari peramban m
 
 
 
-[Buka `https://app.silentium.dev/` dari browser Anda] (https://app.silentium.dev/). Aplikasi dimuat secara instan dan menampilkan layar beranda.
+[Buka `https://app.silentium.dev/` dari browser Anda](https://app.silentium.dev/). Aplikasi dimuat secara instan dan menampilkan layar beranda.
 
 
 

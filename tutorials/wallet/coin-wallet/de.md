@@ -6,7 +6,7 @@ description: Tutorial über Coin Wallet und Möglichkeiten zur Verbesserung von 
 ![cover](assets/cover.webp)
 
 
-Dieses Tutorial behandelt [Coin Wallet] (https://coin.space/) - ein selbstverwahrendes Krypto-wallet für mobile Geräte, und wie man die Sicherheit und den Datenschutz bei der Verwendung von mobilen wallet-Anwendungen erhöht.
+Dieses Tutorial behandelt [Coin Wallet](https://coin.space/) - ein selbstverwahrendes Krypto-wallet für mobile Geräte, und wie man die Sicherheit und den Datenschutz bei der Verwendung von mobilen wallet-Anwendungen erhöht.
 
 
 
@@ -20,7 +20,7 @@ Die wichtigsten Vorteile:
 
 
 - Architektur ohne Freiheitsentzug
-- Vollständig [Open-Source-Code] (https://github.com/CoinSpace/CoinSpace/blob/master/LICENSE)
+- Vollständig [Open-Source-Code](https://github.com/CoinSpace/CoinSpace/blob/master/LICENSE)
 - Einfaches und klares Design
 - Fokussiert auf den Hauptzweck - sichere Speicherung von Kryptowährungen, ohne unnötige Funktionen
 - Plattformübergreifende Unterstützung: Mobil (iOS & Android), Desktop, Web
@@ -72,7 +72,7 @@ Auch für den Desktop (Windows, Linux, macOS), als Web-App und über Tor verfüg
 ## 2️⃣ Erstellen eines Wallet und Festlegen der PIN
 
 
-Ein wallet wird mit Hilfe eines passphrase erstellt - einer zufälligen Folge von 12 durch Leerzeichen getrennten Wörtern, die aus einer [Liste von 2048 Wörtern] (https://github.com/paulmillr/scure-bip39/blob/main/src/wordlists/english.ts) generiert wird.
+Ein wallet wird mit Hilfe eines passphrase erstellt - einer zufälligen Folge von 12 durch Leerzeichen getrennten Wörtern, die aus einer [Liste von 2048 Wörtern](https://github.com/paulmillr/scure-bip39/blob/main/src/wordlists/english.ts) generiert wird.
 
 Coin Wallet unterstützt Passphrasen mit 12, 15, 18, 21 oder 24 Wörtern, die von anderen Geldbörsen importiert werden.
 

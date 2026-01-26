@@ -1,5 +1,5 @@
 ---
-name: Mnemonic 문구 저장
+name: 니모닉 문구 저장
 description: Bitcoin Wallet를 안전하게 보호하기 위한 모범 사례 알아보기
 ---
 ![cover](assets/cover.webp)

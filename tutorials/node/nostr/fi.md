@@ -4,7 +4,7 @@ description: Tutustu ja aloita Nostr:n käyttö
 ---
 
 
-![Uusi haastaja on saapunut](assets/1.webp)
+![Uusi haastaja on saapunut](assets/cover.webp)
 
 *Tämän oppaan lopussa ymmärrät, mitä Nostr on, olet luonut tilin ja pystyt käyttämään sitä.*
 

@@ -161,7 +161,7 @@ description: 透過 ESP32 以 Lightning 付款觸發煙霧機。
 
 - 韌體 BitcoinSwitch ： **[https://bitcoinswitch.lnbits.com/](https://bitcoinswitch.lnbits.com/)**
 - WebSerial 相容的網頁瀏覽器 (Chrome/Edge/Brave)
-- 已配置 BTCPay 伺服器。有關建立 BTCPay 伺服器實例的更多資訊，請瀏覽此教學：https://planb.academy/fr/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc。
+- 已配置 BTCPay 伺服器。有關建立 BTCPay 伺服器實例的更多資訊，請瀏覽此教學：https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
 
@@ -420,7 +420,7 @@ description: 透過 ESP32 以 Lightning 付款觸發煙霧機。
 
 
 
-[https://planb.academy/en/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd](https://planb.academy/en/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd)
+[https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd)
 
 
 

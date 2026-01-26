@@ -137,7 +137,7 @@ cargo run -p ledger_manager_gui
 Преди да започнете, ако вашият Ledger е нов, уверете се, че сте настроили ПИН кода и сте запазили фразата за възстановяване. За тези първоначални стъпки не е необходимо да използвате Ledger Live. Просто свържете вашия Ledger чрез USB кабела, за да го захраните. Ако не сте сигурни как да продължите с тези две стъпки, можете да се обърнете към началото на ръководството, специфично за вашия модел:
 
 
-https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
 
 https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 

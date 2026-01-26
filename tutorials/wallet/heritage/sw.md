@@ -1,5 +1,5 @@
 ---
-name: Urithi
+name: Heritage
 description: Kwingineko ya Bitcoin yenye utaratibu jumuishi wa urithi kupitia hati za Taproot
 ---
 

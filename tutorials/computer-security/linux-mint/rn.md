@@ -56,7 +56,6 @@ Kwirinda:
 - Chromebooks – kenshi ubushobozi bwo kubika burake cane
 - Mudasobwa iyo ari yo yose ifise umuduga wa eMMC; Niba ifise umuduga wa SSD, ivyo ni vyiza
 - Macs – zirazimvye, kandi ibikoresho ntibikorana neza n’ubuhinga bwa Linux mu bumenyi mfise
-- Ikintu cose cavuguruwe canke 2nd hand (si ikintu co gusenyura amasezerano naho)
 
 
 Ahubwo, rondera laptop ya Windows 11 (Ubu Windows 11 ni yo iherutse gusohoka. Tuzoba turiko turakuraho iyo software, ntuhagarike umutima.). Narondeye kuri amazon.com “Laptop ya Windows 11” nca mbona aka karorero keza:

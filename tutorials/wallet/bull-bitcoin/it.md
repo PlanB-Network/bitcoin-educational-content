@@ -82,7 +82,7 @@ Qui è possibile configurare le impostazioni avanzate prima di creare o ripristi
 
 2. Impostare un "Electrum Server personalizzato", oppure
 
-3. Regolare le impostazioni di `Recover Bull`. In seguito, si approfondirà l'argomento [Recover Bull] (https://recoverbull.com/).
+3. Regolare le impostazioni di `Recover Bull`. In seguito, si approfondirà l'argomento [Recover Bull](https://recoverbull.com/).
 
 
 Dopo aver effettuato tutte le regolazioni opzionali, toccare "Fatto". Se si desidera riutilizzare un Wallet esistente, fare clic su "Recupera Wallet" e inserire le 12 parole della frase di recupero.
@@ -164,7 +164,7 @@ Esiste anche l'opzione di un backup anonimo e crittografato nel cloud. Ma non ab
 Pensate a una cassetta di sicurezza. Il file di backup crittografato è la *scatola*, che potete archiviare ovunque (come Google Drive). Il PIN di recupero è la *chiave*, che viene memorizzata separatamente dal server delle chiavi di Recoverbull. Un ladro dovrebbe ottenere sia la vostra scatola specifica che la vostra chiave specifica per aprirla. Questo design assicura che anche se qualcuno ottiene il vostro file di backup, esso è inutile senza la chiave del server, e la chiave del server è inutile senza il vostro file di backup unico.
 
 
-Per saperne di più sul protocollo di backup wallet di `Recoverbull` [qui] (https://recoverbull.com/).
+Per saperne di più sul protocollo di backup wallet di `Recoverbull` [qui](https://recoverbull.com/).
 
 
 Toccare `Vault crittografato` e poi `Continua` per confermare l'utilizzo del server predefinito. La connessione sarà instradata attraverso la rete `Tor` per garantire la privacy e l'anonimato.

@@ -54,7 +54,7 @@ Bitchat ви позволява да изпращате съобщения на 
 Bitchat също така ви позволява да се присъединявате към чат стаи, базирани на местоположението, като използвате протокола Nostr и `#geohashes`. Geohash е кратък код, като например `#u33d`, който представлява определена географска област - от един квартал до цял град или регион. Можете да се `телепортирате` във всяка чат стая по света с геохаш, като просто въведете нейния етикет. Съобщенията ви се изпращат чрез децентрализирана мрежа от ретранслатори, която защитава точното ви местоположение. Освен това всеки път, когато се присъединявате към стая geohash, ви се дава нова, временна самоличност, което добавя допълнителен слой поверителност към вашите разговори, базирани на местоположението.
 
 
-За по-точни технически подробности, моля, вижте [официалния документ] (https://github.com/permissionlesstech/bitchat/blob/main/WHITEPAPER.md).
+За по-точни технически подробности, моля, вижте [официалния документ](https://github.com/permissionlesstech/bitchat/blob/main/WHITEPAPER.md).
 
 
 ## инсталиране и настройка на 2️⃣
@@ -75,7 +75,7 @@ Bitchat също така ви позволява да се присъединя
 
 
 
-- Изтеглете APK директно от [GitHub Releases] (https://github.com/permissionlesstech/bitchat-android/releases) страница или
+- Изтеглете APK директно от [GitHub Releases](https://github.com/permissionlesstech/bitchat-android/releases) страница или
 - Инсталиране чрез съвместимия с Nostr [Zapstore](https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq7xwd748yfjrsu5yuerm56fcn9tntmyv04w95etn0e23xrczvvraqqgkxmmd9e3xjarrdpshgtnywfhkjeqxtfkcr)
 
 

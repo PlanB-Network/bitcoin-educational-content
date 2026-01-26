@@ -51,7 +51,7 @@ O livro foi encomendado e financiado pela [Chaincode Labs](https://learning.chai
 <chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
 
 
-Bem-vindo a este curso PHI 301 sobre a filosofia de desenvolvimento do Bitcoin.
+Bem-vindo a este curso BTC 303 sobre a filosofia de desenvolvimento do Bitcoin.
 
 
 O Bitcoin é mais do que apenas uma criptomoeda, ele incorpora uma visão filosófica sobre descentralização, privacidade, falta de confiança e resiliência. Este curso é projetado especificamente para desenvolvedores já familiarizados com os fundamentos técnicos do Bitcoin que agora procuram aprofundar sua compreensão dos princípios que sustentam o design e a governança do Bitcoin.
@@ -1168,14 +1168,14 @@ O Bitcoin Core adere a esta definição ao ser distribuído sob a [MIT License](
 
 
 ```
-The MIT License (MIT)
+A Licença MIT (MIT)
 
-Copyright (c) 2009-2022 The Bitcoin Core developers
-Copyright (c) 2009-2022 Bitcoin Developers
+Copyright (c) 2009-2022 Os desenvolvedores do Bitcoin Core
+Copyright (c) 2009-2022 Desenvolvedores Bitcoin
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Por meio desta, é concedida permissão, gratuitamente, a qualquer pessoa que obtenha uma cópia deste software e dos arquivos de documentação associados (o "Software"), para lidar com o Software sem restrição, incluindo sem limitação os direitos de usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender cópias do Software, e permitir que as pessoas a quem o Software é fornecido o façam, sujeito às seguintes condições:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+O aviso de copyright acima e este aviso de permissão devem ser incluídos em todas as cópias ou partes substanciais do Software.
 ```
 
 

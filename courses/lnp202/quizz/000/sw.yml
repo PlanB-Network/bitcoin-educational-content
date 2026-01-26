@@ -1,0 +1,9 @@
+question: Uwezo wa chaneli ya umeme ni upi?
+answer: Jumla ya kiasi kilichofungwa
+wrong_answers:
+  - Jumla ya ukwasi unaopatikana katika mwelekeo mmoja
+  - Ada za juu zaidi
+  - Idadi ya juu zaidi ya malipo yanayowezekana
+explanation: |
+  Uwezo unalingana na jumla ya sats iliyozuiwa katika matokeo ya multisig ya chaneli.
+reviewed: false

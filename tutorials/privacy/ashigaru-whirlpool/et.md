@@ -234,7 +234,7 @@ Selle mehhanismi paremaks mõistmiseks ja selle kohta, mitu tsüklit tasub oodat
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 Et vaadata iga teie teose poolt tehtud remixide arvu, avage "Postmix"-konto menüü "UTXOs".
 
@@ -354,7 +354,7 @@ Mitme mündiühendustsükli jõudlust mõõdetakse nende koguste suuruse järgi,
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 ## Kuidas hallata postmixi?
 

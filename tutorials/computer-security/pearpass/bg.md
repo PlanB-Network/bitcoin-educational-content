@@ -134,7 +134,7 @@ PearPass предлага разширение за браузър за авто
 
 
 
-- [Google Play Store] (https://play.google.com/store/apps/details?id=com.pears.pass);
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.pears.pass);
 - [App Store](https://apps.apple.com/us/app/pearpass/id6752954830).
 
 

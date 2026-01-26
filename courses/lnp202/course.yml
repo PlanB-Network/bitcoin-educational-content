@@ -18,14 +18,12 @@ contributor_names:
 
 published_at: 2025-12-14
 
-test_only: true
-
 tags:
   - DIY
   - node
   - lightning
 
-licence: CC-BY-SA-V4
+license: CC-BY-SA-V4
 
 # Proofreading metadata
 
@@ -37,4 +35,9 @@ proofreading:
     urgency: 1
     contributor_names:
       - LoicPandul
-    reward: 15.38
+    reward: 8.52
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 17.05

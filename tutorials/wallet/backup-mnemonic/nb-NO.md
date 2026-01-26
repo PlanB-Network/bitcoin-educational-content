@@ -1,5 +1,5 @@
 ---
-name: Lagre minnefrasen din
+name: Lagre den mnemoniske frasen
 description: Oppdag beste praksis for å beskytte Bitcoin-lommeboken din
 ---
 ![cover](assets/cover.webp)

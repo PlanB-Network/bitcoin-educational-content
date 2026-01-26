@@ -14,7 +14,7 @@ In questo tutorial scopriamo Aurora Store, un'alternativa semplice, open-source 
 
 
 
-# Come iniziare con Aurora Store
+## Come iniziare con Aurora Store
 
 
 
@@ -88,7 +88,7 @@ Da Aurora Store è possibile accedere al catalogo delle applicazioni disponibili
 
 
 
-## Caratteristiche
+### Caratteristiche
 
 
 

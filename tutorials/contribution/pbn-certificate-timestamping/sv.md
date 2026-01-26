@@ -12,7 +12,7 @@ Om du läser detta är det stor sannolikhet att du har fått antingen ett ₿-CE
 I den här handledningen kommer vi att upptäcka hur Plan ₿ Academy utfärdar verifierbara bevis för ditt ₿-CERT-testcertifikat eller något diplom avseende kursavslutning. I en andra del kommer vi sedan att beskriva hur man verifierar äktheten hos dessa bevis.
 
 
-# Plan ₿ Academy bevismekanism
+## Plan ₿ Academy bevismekanism
 
 
 På Plan ₿ Academy signerar vi kryptografiskt certifikat och diplom och tidsstämplar dem med hjälp av Timechain (dvs. Bitcoin Blockchain), genom en bevismekanism som bygger på två kryptografiska operationer:
@@ -34,7 +34,7 @@ Vi anser att denna enkla bevismekanism ger oss möjlighet att utfärda certifika
 Tack vare denna bevismekanism kommer alla försök att ändra även den minsta detalj i ditt certifikat eller diplom att resultera i en helt annan SHA-256 Hash av den signerade filen, vilket omedelbart avslöjar all manipulering, eftersom både signaturen och Timestamp inte längre är giltiga. Om någon försöker att förfalska certifikat eller diplom på Plan ₿ Academy:s vägnar kommer dessutom en enkel verifiering av signaturen att avslöja bedrägeriet.
 
 
-## Hur fungerar GPG-signaturen?
+### Hur fungerar GPG-signaturen?
 
 
 GPG-signaturen genereras med hjälp av en programvara med öppen källkod som heter GNU Privacy Guard. Med den här programvaran kan användare enkelt skapa privata nycklar, signera och verifiera signaturer samt kryptera och dekryptera filer. I den här handledningen är det viktigt att notera att Plan ₿ Academy använder GPG för att skapa sina privata/offentliga nycklar och för att signera alla ₿-CERT-certifikat och kursbevis.
@@ -46,7 +46,7 @@ Om någon däremot vill verifiera äktheten hos en signerad fil kan de använda 
 För den som är nyfiken och vill lära sig mer om denna fantastiska programvara kan du läsa ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html)
 
 
-## Hur fungerar tidsstämpling?
+### Hur fungerar tidsstämpling?
 
 
 Vem som helst kan använda OpenTimestamps för att Timestamp en fil och få verifierbart bevis på dess existens. Med andra ord ger det inte bevis på när filen skapades, utan snarare bevis på att filen existerade senast vid en viss tidpunkt.
@@ -56,10 +56,10 @@ OpenTimestamps tillhandahåller denna tjänst kostnadsfritt genom att använda e
 När den här transaktionen kommer in i ett block kan alla med den ursprungliga filen och `.ots`-filen som är associerad med den verifiera tidsstämplingens autenticitet. I den andra delen av handledningen kommer vi att se hur du verifierar ditt Bitcoin-certifikat eller något diplom för kursavslutning genom en teminal och genom en grafisk Interface på webbplatsen för OpenTimestamps.
 
 
-# Hur man verifierar ett Plan ₿ Academy ₿-CERT-certifikat eller -diplom
+## Hur man verifierar ett Plan ₿ Academy ₿-CERT-certifikat eller -diplom
 
 
-## Steg 1. Ladda ner ditt certifikat eller examensbevis
+### Steg 1. Ladda ner ditt certifikat eller examensbevis
 
 
 Logga in på din personliga dashboard/student dashboard på planb.network.
@@ -89,7 +89,7 @@ Extrahera innehållet genom att högerklicka på filen `.zip` och välja "Extrac
 - Ett certifikat i PDF-format (t.ex. certificate.pdf)
 
 
-## Steg 2: Hur kan du verifiera signaturen för textfilen?
+### Steg 2: Hur kan du verifiera signaturen för textfilen?
 
 
 Gå först till den mapp där du extraherade filerna och öppna en terminal (högerklicka på mappfönstret och klicka på "Öppna i terminal"). Följ sedan instruktionerna nedan.
@@ -99,7 +99,7 @@ Gå först till den mapp där du extraherade filerna och öppna en terminal (hö
 
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
 ```
 
 
@@ -147,10 +147,10 @@ gpg: Good signature from "Plan ₿ Academy (used for Plan ₿ Academy platform) 
 Om du ser ett meddelande som "BAD signature" betyder det att filen har manipulerats.
 
 
-## Steg 3: Verifiera den öppna Timestamp
+### Steg 3: Verifiera den öppna Timestamp
 
 
-### Verifiering via en grafisk Interface
+#### Verifiering via en grafisk Interface
 
 
 1. Besök OpenTimestamps webbplats: https://opentimestamps.org/
@@ -170,7 +170,7 @@ Om du ser ett meddelande som det följande är Timestamp giltigt:
 ![cover](assets/opentimestamp_wegui_verified.webp)
 
 
-### CLI-metoden
+#### CLI-metoden
 
 
 OBS: denna procedur **kräver en igångvarande lokal Bitcoin-nod**
@@ -204,7 +204,7 @@ Detta kommando kommer:
 - Bekräfta Timestamp:s äkthet
 
 
-### Slutliga resultat
+#### Slutliga resultat
 
 
 Verifieringen är framgångsrik om **båda** följande meddelanden visas:

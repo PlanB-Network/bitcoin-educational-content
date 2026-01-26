@@ -296,7 +296,7 @@ KaleidoSwapin päälle rakentaville kehittäjille sovellus tarjoaa API:n, joka t
 - WebSocket**: Reaaliaikaisia markkinatietotilauksia varten.
 
 
-Katso [API Documentation] (https://docs.kaleidoswap.com/api/introduction) täydelliset päätepisteet ja tekniset tiedot.
+Katso [API Documentation](https://docs.kaleidoswap.com/api/introduction) täydelliset päätepisteet ja tekniset tiedot.
 
 
 ## Päätelmä

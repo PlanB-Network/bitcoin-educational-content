@@ -50,7 +50,7 @@ Abakoresha Android na bo nyene barafise ubundi buryo:
 
 
 - Gukuraho APK kuri [Ivyasohotse kuri GitHub]
-- Gushiramwo biciye ku Nostr-ihuye [Iduka rya Zap] (iduka rya Zap. 6fcn9tntmyv04w95etn0e23xrczvvraqqtxxmmd9e382mrvvf5hgcm0d9hzumt0vf5kcegnah0ap)
+- Gushiramwo biciye ku Nostr-ihuye [Iduka rya Zap](iduka rya Zap. 6fcn9tntmyv04w95etn0e23xrczvvraqqtxxmmd9e382mrvvf5hgcm0d9hzumt0vf5kcegnah0ap)
 
 
 Uhejeje gushiramwo iyo porogarama, kurikirana ku rubuga rw’akabazo kugira ngo utunganye konti yawe.
@@ -331,7 +331,7 @@ Ufise uburyo bubiri bw'ibanze bwo gutanga aderesi yo kwakira:
 **Uburyo mburabuzi (URI n'ibindi bipimo)
 
 
-Ku mburabuzi, wallet itanga [URI ya BIP21] (21/). Iyi ni uburyo busanzwe bushiramwo amakuru menshi kuruta aderesi yoroshe, harimwo umubare, inyandiko y’umuntu ku giti ciwe, n’imirongo ya PayJoin kugira ngo umuntu agire ubuzima bwite. Iyo URI yuzuye irashirwa muri kode ya QR maze igatuma umuntu ashobora kuyikopa. Uburyo busa n'ubu: `bitcoin:<aderesi>?<umurongo1>=<agaciro1>&<umurongo2>=<agaciro2>`.
+Ku mburabuzi, wallet itanga [URI ya BIP21](21/). Iyi ni uburyo busanzwe bushiramwo amakuru menshi kuruta aderesi yoroshe, harimwo umubare, inyandiko y’umuntu ku giti ciwe, n’imirongo ya PayJoin kugira ngo umuntu agire ubuzima bwite. Iyo URI yuzuye irashirwa muri kode ya QR maze igatuma umuntu ashobora kuyikopa. Uburyo busa n'ubu: `bitcoin:<aderesi>?<umurongo1>=<agaciro1>&<umurongo2>=<agaciro2>`.
 
 
 
@@ -637,4 +637,4 @@ Ubu wararangije urugendo rwawe rwo guca muri Bull Bitcoin Wallet. Iyo porogarama
 ## 📚 Ivy'Ishūri Wallet
 
 
-[Github] (imbuga ya Satoshi/Igihugu c'Igihugu) | [Urubuga ](https://www.ibice vy'inzoka/)| [Gusubirana] (https://gusubirana.com/)
+[Github](imbuga ya Satoshi/Igihugu c'Igihugu) | [Urubuga ](https://www.ibice vy'inzoka/)| [Gusubirana](https://gusubirana.com/)

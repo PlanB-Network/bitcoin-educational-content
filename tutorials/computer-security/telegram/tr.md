@@ -72,10 +72,10 @@ Bir sonraki ekranda, verdiğiniz numarayı iki kez kontrol edebilirsiniz. Eğer 
 Telegram artık mobil cihazlarda tamamen işlevsel, ilk temel ayarlara geçebiliriz.
 
 
-# Güvenlik ve gizlilik ayarları
+## Güvenlik ve gizlilik ayarları
 
 
-## Kullanıcı adı yapılandırması
+### Kullanıcı adı yapılandırması
 
 
 Telegram kullanıcı adı - bazen `handle` olarak da adlandırılır - sadece bir fanteziden çok daha fazlasıdır. Tanıtıcı gerçekten de **her kullanıcı için benzersizdir**.
@@ -129,7 +129,7 @@ Kullanıcı adının benzersizliği sayesinde yapamazlar.
 **Yapabilecekleri şey, sadece dikkatli bir gözün bunun bir dolandırıcı olduğunu açıkça görebilmesi için biraz değiştirerek (bir harf / sayı) "benzer" bir tanıtıcı görüntülemektir**. Her zaman kullanıcı adına çok dikkat edin ve sahtekarların kolay bir oyun oynamayacağını göreceksiniz.
 
 
-## Gizlilik
+### Gizlilik
 
 
 Alabileceğiniz bir diğer önemli önlem de yeni oluşturduğunuz hesabınızdan dışarıya verdiğiniz bilgileri sınırlandırmaktır.
@@ -165,7 +165,7 @@ Bunlar telefon numaranızın açığa çıkmasını önleyecek önlemlerdir, bö
 Artık Telegram hesabınız kurulduğuna ve biraz gizlilik kazandığınıza göre, onu kullanmaya başlayabilirsiniz.
 
 
-## Kişi ve sohbet ekleme
+### Kişi ve sohbet ekleme
 
 
 Hesabınız yeni oluşturulmuşsa, ana sayfanın tamamen boş görünmesi muhtemeldir.
@@ -229,7 +229,7 @@ Varsayılan olarak, bireysel kullanıcılardan tematik kanallara kadar herkes ta
 ⚠️Attention: **Gerçekliklerini doğrulamadan gruplara ve kanallara katılmaktan kaçının**. Takip etmek istediğiniz bir şirketin veya konunun resmi Telegram kanalını / grubunu bulmak için, resmi web sitelerinin _İletişim_ bölümünden veya son derece güvenilir kaynaklardan yardım isteyin.
 
 
-### Gelişmiş Mesajlaşma Özellikleri
+#### Gelişmiş Mesajlaşma Özellikleri
 
 
 Telegram, mesaj alışverişi söz konusu olduğunda benzersiz gelişmiş özellikleri kullanmanıza olanak tanır. Bir sohbete girin ve başka bir göndericiden gelen herhangi bir mesajın yanındaki arka plana tıklayın.
@@ -257,7 +257,7 @@ Ayrıca büyük dosyalar ekleyebilir, bu türdeki diğer tüm uygulamalardan ço
 ![image](assets/en/46.webp)
 
 
-### Kişisel Bulut
+#### Kişisel Bulut
 
 
 Telegram'ın birçok inanılmaz özelliği arasında, yazım sırasında **sınırsız** olan kişisel bir bulut da var.
@@ -285,7 +285,7 @@ Sohbet ön planda, kullanıma hazır olarak görünür.
 ***
 
 
-## Mesajları Zamanlama ve Sessiz Gönderme
+### Mesajları Zamanlama ve Sessiz Gönderme
 
 
 Diğer kullanışlı gelişmiş özellikler, alıcıların gizliliğine saygı göstererek mesaj göndermeye, sessiz gönderme arasında seçim yapmaya ve mesajı uygun zaman ve günlerde planlamaya olanak tanır.
@@ -301,7 +301,7 @@ Tek yapmanız gereken mesajı yazmak, ancak hemen göndermek yerine gönder simg
 ![image](assets/en/48.webp)
 
 
-### Telefonunuzun önbelleğini temizleme
+#### Telefonunuzun önbelleğini temizleme
 
 
 Telefonunuzun verimli çalışmasını sağlamak için bir başka yararlı uygulama da zaman zaman Telegram önbelleğini temizlemektir. Kaç grup ve kanal takip ettiğinize bağlı olarak, bu kaynaklardan gelen bilgi ve medya önbellekte birikerek telefonunuzu yavaşlatabilir.
@@ -350,7 +350,7 @@ Bu ayarı nerede bulacağınızı aşağıdaki fotoğrafta görebilirsiniz.
 ![image](assets/en/28.webp)
 
 
-## Telegram masaüstü
+### Telegram masaüstü
 
 
 Telegram bilgisayarınızdan kullanılabilir, böylece telefonunuzda görüntülenen hesapla senkronize edilir. Uygulamayı indirmemeyi ve sadece web üzerinden kullanmayı seçebilirsiniz. Ancak, bu sürümün bilgisayarda çalıştırılana kıyasla sınırlamaları vardır, bu nedenle bu güçlü araçtan en iyi şekilde yararlanmak için indirmenizi ve yüklemenizi öneririm.
@@ -421,7 +421,7 @@ Telefonunuzdaki bir bildirim yeni cihazın başarıyla eklendiğini onaylar.
 Özellikle, Telegram masaüstü bilgisayarınızda da aktif ve kullanılabilir.
 
 
-### Grup Çağrısı
+#### Grup Çağrısı
 
 
 Bir Telegram grubunun yöneticisi veya sahibiyseniz, grubun menüsünden bir arama başlatabilirsiniz. Bu şekilde, birden fazla katılımcıyla canlı akış yapabilir, bunları sesli ve görüntülü olarak kaydedebilir, paylaşabilir veya eğitim gibi amaçlarla kullanabilirsiniz.
@@ -433,7 +433,7 @@ Aşağıdaki resimde, Telegram masaüstünü kullanarak bir grup aramasının na
 ![image](assets/en/47.webp)
 
 
-### Son Değerlendirmeler
+#### Son Değerlendirmeler
 
 
 Artık bu öğreticiyi okuduğunuza göre, Telegram'ı nasıl kullanacağınızı, kullanıcılarının yutturmaca veya ana akım tarafından üretilen gürültüden etkilenmeden mükemmel bir şekilde seçebilirsiniz. Hafif bir yaklaşımla başlayabilir ve ardından kişisel ihtiyaçlarınız için bu mesajlaşma uygulamasından en iyi şekilde nasıl yararlanacağınızı keşfedebilirsiniz.

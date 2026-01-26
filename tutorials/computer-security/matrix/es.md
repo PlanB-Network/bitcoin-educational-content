@@ -1,5 +1,5 @@
 ---
-name: Matriz
+name: Matrix
 description: Una guía para entender, configurar y utilizar Matrix, la plataforma de comunicaciones segura, abierta y descentralizada.
 ---
 

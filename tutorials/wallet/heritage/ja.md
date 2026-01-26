@@ -1,5 +1,5 @@
 ---
-name: ヘリテージ
+name: Heritage
 description: Taprootスクリプトによる継承メカニズムを統合したBitcoinポートフォリオ
 ---
 

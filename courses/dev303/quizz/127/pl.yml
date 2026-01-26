@@ -1,8 +1,0 @@
-question: Jakie fundamentalne ograniczenie płatności Lightning Network stanowi wyjątkowe wyzwanie dla deweloperów wallet, które nie występuje w przypadku transakcji on-chain Bitcoin?
-answer: Płatności błyskawiczne istnieją tylko jako tymczasowe stany w kanałach płatności i nie są trwale rejestrowane w łańcuchu bloków, co wymaga niestandardowych systemów śledzenia historii płatności
-wrong_answers:
-  - Płatności Lightning wymagają znacznie więcej zasobów obliczeniowych do przetwarzania niż transakcje on-chain, co sprawia, że implementacja mobilna jest zasobochłonna
-  - Płatności Lightning nie mogą być weryfikowane kryptograficznie w taki sam sposób jak transakcje on-chain, tworząc luki w zabezpieczeniach dla implementacji wallet
-  - Płatności Lightning muszą być przetwarzane za pośrednictwem scentralizowanych węzłów routingu, co uniemożliwia utrzymanie prawdziwie niepowierniczej architektury wallet
-explanation: |
-  Prawidłowa odpowiedź identyfikuje podstawową różnicę architektoniczną między płatnościami Lightning i on-chain. Transakcje on-chain Bitcoin są trwale rejestrowane w łańcuchu bloków, dzięki czemu wyszukiwanie historii płatności jest proste dzięki zapytaniom w łańcuchu bloków. Płatności Lightning istnieją jednak tylko jako tymczasowe stany kanału i nie pozostawiają trwałego zapisu w łańcuchu bloków, zmuszając programistów do wdrażania niestandardowych systemów śledzenia i przechowywania. Błędne odpowiedzi są nieprawidłowe, ponieważ: Płatności Lightning są wydajne obliczeniowo (nie wymagają dużej ilości zasobów), zachowują takie samo bezpieczeństwo kryptograficzne jak Bitcoin, a routing jest zdecentralizowany (nie scentralizowany).

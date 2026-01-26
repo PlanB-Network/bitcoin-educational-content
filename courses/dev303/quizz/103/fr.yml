@@ -1,8 +1,8 @@
 question: Comment l'architecture modulaire des composants de LDK permet-elle l'intégration de modules de sécurité matériels (HSM) pour les transactions Lightning ?
-answer: En permettant l'extraction de composants de signature spécifiques qui peuvent analyser le contexte de la transaction Lightning et les implications en matière de sécurité
+answer: En permettant l'extraction de composants de signature spécifiques qui peuvent analyser le contexte de la transaction Lightning et ses implications en matière de sécurité.
 wrong_answers:
-  - En fournissant un HSM daemon complet qui fonctionne de manière indépendante et communique par des canaux cryptés
-  - En mettant en œuvre des pilotes spécifiques au matériel qui s'interfacent directement avec les puces HSM pour les opérations cryptographiques
-  - En créant des bacs à sable isolés qui exécutent la logique du protocole Lightning entièrement dans l'environnement HSM
+  - En fournissant un daemon HSM complet qui fonctionne de manière indépendante et communique par des canaux cryptés.
+  - En mettant en œuvre des pilotes spécifiques au matériel qui s'interfacent directement avec les puces HSM pour les opérations cryptographiques.
+  - En créant des bacs à sable isolés qui exécutent la logique du protocole Lightning entièrement dans l'environnement HSM.
 explanation: |
   La conception modulaire de LDK permet aux développeurs d'extraire uniquement les composants de signature et de vérification des transactions pour l'intégration HSM. Cela permet de créer des dispositifs de signature Lightning-aware qui comprennent le contexte de la transaction au-delà de la simple signature - ils peuvent évaluer si une transaction représente des paiements légitimes, des opérations de routage ou des menaces potentielles pour la sécurité. Les autres options décrivent des approches monolithiques ou spécifiques au matériel qui vont à l'encontre de la philosophie flexible et modulaire de LDK, qui consiste à fournir des composants composables plutôt que des solutions complètes.

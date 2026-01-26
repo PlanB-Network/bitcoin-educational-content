@@ -176,7 +176,7 @@ Now you can let your coins remix themselves automatically. The Whirlpool model m
 For a better understanding of this mechanism and how many cycles it is worth waiting for, I recommend reading this article:
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 To view the number of remixes performed by each of your pieces, open the `UTXOs` menu in the `Postmix` account.
 
@@ -264,7 +264,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 The performance of several coinjoin cycles is measured by the size of the sets in which a coin is hidden. These sets define what are known as *anonsets*. There are two types: the first measures confidentiality in the face of retrospective analysis (from the present to the past), and the second measures resistance to prospective analysis (from the past to the present). For a full explanation of these two indicators, please read the following tutorial (or, once again, the BTC 204 training course):
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 ## How to manage the postmix?
 

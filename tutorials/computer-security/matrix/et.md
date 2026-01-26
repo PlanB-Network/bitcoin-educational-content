@@ -1,5 +1,5 @@
 ---
-name: Maatriks
+name: Matrix
 description: Juhend Matrixi, turvalise, avatud ja detsentraliseeritud sideplatvormi mõistmiseks, konfigureerimiseks ja kasutamiseks.
 ---
 

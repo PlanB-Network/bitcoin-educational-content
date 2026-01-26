@@ -1,0 +1,9 @@
+question: Which step immediately follows the publication of a NWC request by the mobile application on a relay?
+answer: Node decrypts and verifies authorization
+wrong_answers:
+  - The relay signs the request for the node
+  - Relay executes payment on LND
+  - The node opens a channel automatically
+explanation: |
+  The node reads the event, decrypts it, then checks that the author is authorized before executing the action.
+reviewed: false

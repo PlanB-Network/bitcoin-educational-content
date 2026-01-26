@@ -5,5 +5,5 @@ wrong_answers:
   - 100,000
   - 10,000
 explanation: |
-  เขา [เขียน](https: //www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) ว่าความเป็นไปได้ในการสร้างหน่วยในวันนี้ด้วยเวลาในการคำนวณเพียงไม่กี่เซ็นต์อาจเป็นการเดิมพันที่ดีมาก
+  เขา [เขียน](https://www.metzdowd.com/pipermail/cryptography/2009-January/015004.html) ว่าความเป็นไปได้ในการสร้างหน่วยในวันนี้ด้วยเวลาในการคำนวณเพียงไม่กี่เซ็นต์อาจเป็นการเดิมพันที่ดีมาก
 reviewed: true

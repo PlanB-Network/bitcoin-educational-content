@@ -1,0 +1,10 @@
+question: What pseudonym did Ross Ulbricht use from February 2012 as administrator of Silk Road?
+answer: Dread Pirate Roberts
+wrong_answers:
+  - Altoid
+  - Shadow Of Harbringer
+  - Pirate At Forty
+explanation: |
+ Ross Ulbricht chose this pseudonym in reference to the 1987 film The Princess Bride. In this film, the name is a kind of title that can be passed from one pirate
+ to another, enabling the bearer's real identity to be concealed and "inspire the necessary fear" in his enemies.
+reviewed: true

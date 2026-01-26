@@ -1,0 +1,9 @@
+question: Wat is de uitgaande liquiditeit van een Lightning-knooppunt?
+answer: Vermogen om te betalen
+wrong_answers:
+  - Mogelijkheid om verbinding te maken
+  - Capaciteit om te ontvangen
+  - Mogelijkheid om kanalen te sluiten
+explanation: |
+  Uitgaande liquiditeit vertegenwoordigt de sats die aan de kant van de exploitant beschikbaar is om betalingen te doen.
+reviewed: false

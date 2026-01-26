@@ -46,7 +46,7 @@ Neste tutorial, usaremos a extensão Alby no navegador Firefox em um sistema ope
 
 
 
-Pode adicionar a extensão Alby ao seu browser visitando a loja de extensões [Firefox] (https://addons.mozilla.org/fr/firefox/addon/alby/) ou a loja de extensões [Chrome] (https://chromewebstore.google.com/detail/alby-bitcoin-wallet-for-l/iokeahhehimjnekafflcihljlcjccdbe).
+Pode adicionar a extensão Alby ao seu browser visitando a loja de extensões [Firefox](https://addons.mozilla.org/fr/firefox/addon/alby/) ou a loja de extensões [Chrome](https://chromewebstore.google.com/detail/alby-bitcoin-wallet-for-l/iokeahhehimjnekafflcihljlcjccdbe).
 
 
 

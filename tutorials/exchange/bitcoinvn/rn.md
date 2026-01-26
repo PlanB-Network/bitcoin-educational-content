@@ -56,7 +56,7 @@ Mu gice ca "Uraronka" - ikibanza kinini gifise ikimenyetso ca Bitcoin, hitamwo B
 ### Intambwe ya 3: Injira umubare wa VND no gusubiramwo ibisobanuro vy'amasezerano
 
 
-Injira n’amaboko amahera wipfuza guhindura maze ukoreshe [ihuriro ry’imipaka y’umusi](https://bitcoinvn.io/info) canke ubuto Min/Max kugira ngo umenye ubushobozi bwawe nimba udafise konti. Ubuhinga buca buharura ubwo nyene umubare wa nyuma wa BTC uzoronka umaze gufata mu muzirikanyi [amahera yo guhindura] (https://support.bitcoinvn.io/help/en-us/4-orders/12-fees) n’igiciro c’amahera yo guhindura muri ico gihe nyene. Suzuma umubare wa BTC wa nyuma kugira ngo urabe nimba unezerewe n’ivyo ukora.
+Injira n’amaboko amahera wipfuza guhindura maze ukoreshe [ihuriro ry’imipaka y’umusi](https://bitcoinvn.io/info) canke ubuto Min/Max kugira ngo umenye ubushobozi bwawe nimba udafise konti. Ubuhinga buca buharura ubwo nyene umubare wa nyuma wa BTC uzoronka umaze gufata mu muzirikanyi [amahera yo guhindura](https://support.bitcoinvn.io/help/en-us/4-orders/12-fees) n’igiciro c’amahera yo guhindura muri ico gihe nyene. Suzuma umubare wa BTC wa nyuma kugira ngo urabe nimba unezerewe n’ivyo ukora.
 
 
 #### Imfashanyo
@@ -142,7 +142,7 @@ Turaguhimiriza cane kwinjira mu muryango wacu no kuguma umenye amakuru mashasha:
 
 - [Ihuye](ihuriro/isosiyete/bitcoinvn)
 - [Igitabo ca Facebook](imbuga ngurukanabumenyi)
-- [X] (uw'imbere) (uwahoze ari Twitter)
+- [X](uw'imbere) (uwahoze ari Twitter)
 - [TikTok](imbuga ngurukanabumenyi)
 - [Nostr](iris.to/npub1j4lp9hmzd3rqlcw7mml09uwvwap0g5wx2qm2lzt9wcqt925jvqf4wzaa)
-- [Amakuru ya nyuma] (amakuru y'ivya bitcoinvn.io/)
+- [Amakuru ya nyuma](amakuru y'ivya bitcoinvn.io/)

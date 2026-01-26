@@ -67,7 +67,7 @@ Ushobora gushiramwo Bitchat biciye muri:
 
 
 
-- [Iduka ry'amaporogarama ya Apple] (ku bikoresho vya iOS)
+- [Iduka ry'amaporogarama ya Apple](ku bikoresho vya iOS)
 - [Iduka ry'imikino ya Google](iduka ry'imikino ya Google](ibikoresho vya Android)
 
 
@@ -76,7 +76,7 @@ Abakoresha Android na bo nyene barafise ubundi buryo:
 
 
 - Gukuraho APK kuri [Ivyasohotse kuri GitHub](https://github.com/ubuhinga butagira uruhusha/bitchat-android/ibisohoka) kuri paji canke
-- Gushiramwo biciye ku Nostr-ihuye [Iduka rya Zap] (Iduka ry'Ivyaduka.
+- Gushiramwo biciye ku Nostr-ihuye [Iduka rya Zap](Iduka ry'Ivyaduka.
 
 
 ![image](assets/en/01.webp)
@@ -331,7 +331,7 @@ Heatmaps ni uburyo bwiza bwo kumenya ibintu vya Bitchat n’imirongo kw’isi yo
 Bitchat ishoboza guhanahana amakuru mu buryo butekanye, bushizwe ahantu hamwe ku bihe aho ubutumwa bwa kera butashobora gukora. Ishobora gukora ata bikorwa remezo vya internet ikoresheje ubuhinga bwa BLE mesh networking, bikaba bituma ishobora gukoreshwa mu myiyerekano, mu bice vy’ivyago, no mu bibanza vya kure aho ubuhinga bwo gukorana n’ibindi bihugu bufise aho bugarukira canke bugacirwa buke. Iyi porogaramu itanga ubuzima bwite biciye mu gupfuka urufunguzo rw’igihe gito, imirongo y’ahantu ishingiye kuri geohash, n’ugukuraho amakuru mu buryo bw’ubwoba.
 
 
-Iyi app iracari mu ntango z’iterambere, ariko iramaze kwerekana umuhango. Abakoresha bakwiye kwitega rimwe na rimwe ibibazo no gutanga raporo y’ibibazo biciye kuri [GitHub] (https://github.com/ubuhinga butagira uruhusha/bitchat-android/ibibazo). Ivyiza birateguwe, harimwo n'ugushiramwo `ecash` ku bikorwa vy'ubudandaji vy'abantu ku giti cabo hakoreshejwe ubuhinga bwa Cashu.
+Iyi app iracari mu ntango z’iterambere, ariko iramaze kwerekana umuhango. Abakoresha bakwiye kwitega rimwe na rimwe ibibazo no gutanga raporo y’ibibazo biciye kuri [GitHub](https://github.com/ubuhinga butagira uruhusha/bitchat-android/ibibazo). Ivyiza birateguwe, harimwo n'ugushiramwo `ecash` ku bikorwa vy'ubudandaji vy'abantu ku giti cabo hakoreshejwe ubuhinga bwa Cashu.
 
 
 ![image](assets/en/14.webp)

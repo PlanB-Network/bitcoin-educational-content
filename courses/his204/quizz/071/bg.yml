@@ -1,8 +1,9 @@
 question: Кой философ пише в Ephémérides du Citoyen, списанието на физиократите?
 answer: Дидро
 wrong_answers:
-  - Voltaire
+  - Волтер
   - Кондорсе
-  - Rousseau
+  - Русо
 explanation: |
   Дидро сътрудничи на "Éphémérides du Citoyen", списанието на физиократите, като пише статии на икономически и социални теми.
+reviewed: true

@@ -1,0 +1,9 @@
+question: LND'i Umbrel üzerine kurmak için ön koşullar nelerdir?
+answer: Senkronize Bitcoin düğümü
+wrong_answers:
+  - Umbrel Premium hesap
+  - Mevcut Yıldırım kanalı
+  - Yıldırım adresi etkin
+explanation: |
+  LND, çalışması için bir ön koşul olan %100 senkronize bir Bitcoin düğümüne dayanır.
+reviewed: false

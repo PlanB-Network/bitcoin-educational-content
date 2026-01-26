@@ -1,5 +1,5 @@
 ---
-name: Matris
+name: Matrix
 description: Güvenli, açık ve merkezi olmayan iletişim platformu Matrix'i anlamak, yapılandırmak ve kullanmak için bir kılavuz.
 ---
 

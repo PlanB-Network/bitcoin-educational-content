@@ -1,9 +1,9 @@
-question: Mis on kaevurite roll Bitcoin'i võrgustikus?
-answer: Kaevurid on hädavajalikud uute bitcoinide loomiseks ja Bitcoin'i võrgustiku turvalisuse tagamiseks.
+question: Millal toimus ploki suuruse sõda?
+answer: Aastal 2017.
 wrong_answers:
-  - Kaevurid vastutavad Bitcoin'i hinna reguleerimise eest.
-  - Kaevurid vastutavad Bitcoin'i rahakottide loomise eest.
-  - Kaevurid vastutavad Bitcoin'i protokolli kontrollimise eest.
-explanation: >-
-  Kaevurid mängivad Bitcoin'i võrgustikus kriitilist rolli, kuna nad vastutavad uute bitcoinide loomise ja Bitcoin'i võrgustiku turvalisuse tagamise eest, tarbides elektrienergiat tehingute ploki hashimiseks.
+  - Aastal 2008.
+  - Aastal 2010.
+  - Aastal 2019.
+explanation: |
+  Ploki suuruse sõda toimus 2017. aastal. See konflikt vastandas osalejaid, kes soovisid Bitcoini muuta, suurendades ploki suurust tehingumahu suurendamiseks, neile, kes püüdsid säilitada kasutajate sõltumatust ja võimu, hoides suurust 1 MB juures.
 reviewed: true

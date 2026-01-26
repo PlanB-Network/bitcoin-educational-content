@@ -1,5 +1,5 @@
 ---
-name: 矩陣
+name: Matrix
 description: 了解、配置和使用 Matrix 的指南，Matrix 是安全、開放和分散式的通訊平台。
 ---
 

@@ -328,7 +328,7 @@ Miner inahitaji node ya Bitcoin ili kuingiliana na mtandao.
 
 
 
-Jukumu la Miner pia wakati mwingine hutofautishwa na lile la chopper. Mchimbaji ni mashine ambayo kazi yake ni kutengeneza violezo vya Hash vinavyotolewa na server ya bwawa, kutafuta heshi zinazokidhi ugumu wa lengo lililobainishwa la hisa, na si lile la Bitcoin. Wengine wa mchakato wa Mining, unaojumuisha ujenzi halisi wa blocks, uteuzi wa shughuli, au utafutaji wa Proof-of-Work kulingana na ugumu wa Bitcoin mwenyewe, pamoja na usambazaji, unafanywa moja kwa moja na mabwawa.
+Jukumu la Miner pia wakati mwingine hutofautishwa na lile la grind. Grind ni mashine ambayo kazi yake ni kutengeneza violezo vya Hash vinavyotolewa na server ya bwawa, kutafuta heshi zinazokidhi ugumu wa lengo lililobainishwa la hisa, na si lile la Bitcoin. Wengine wa mchakato wa Mining, unaojumuisha ujenzi halisi wa blocks, uteuzi wa shughuli, au utafutaji wa Proof-of-Work kulingana na ugumu wa Bitcoin mwenyewe, pamoja na usambazaji, unafanywa moja kwa moja na mabwawa.
 
 
 
@@ -2514,9 +2514,11 @@ Hatimaye, ninapendekeza programu ya *Lightning Network+*, inayokuruhusu kupata m
 
 
 
-Shukrani kwa Umbrel, kusimamia lightning node ya kibinafsi imerahisishwa sana, lakini bado ni ngumu. Kwa sababu hii, tutakuwa tukiangalia kwa karibu somo hili katika kozi ya baadaye inayohusu matumizi haya kikamilifu.
+Kupitia Umbrel, usimamizi wa nodi binafsi ya Lightning unarahisishwa, lakini bado unabaki kuwa changamano kwa kiasi fulani. Ndiyo sababu ninakupendekezea ufuate kozi ya LNP 202, ambayo ni mwendelezo wa kimantiki wa kozi ya BTC 202, na ambayo ninakuongoza hatua kwa hatua katika usanidi na usimamizi wa nodi yako ya Lightning kwenye Umbrel.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Mkia wa mkia
 
@@ -3894,11 +3896,13 @@ Sasa unaweza kuendelea hadi sehemu ya mwisho ya kozi, ambapo utaweza kutathmini 
 
 
 
-Sasa una chaguo kadhaa ambazo zimefunguliwa kwako. Hatua inayofuata ya kimantiki ni kusanidi Lightning node yako, kukuruhusu kujitegemea kikamilifu kwa shughuli zako za off-chain. Hili litakuwa somo la kozi ijayo, itakayochapishwa msimu huu wa vuli 2025 kwenye Plan ₿ Academy.
+Njia kadhaa sasa ziko wazi kwako. Hatua inayofuata ya kimantiki ni kuanzisha nodi yako binafsi ya Lightning, ili uwe huru kabisa katika miamala yako ya off-chain. Hili ndilo hasa somo la kozi nyingine kwenye Plan ₿ Academy:
 
 
 
-Wakati huo huo, ninakualika ugundue mafunzo ya BTC 204, ambayo yatakuwezesha kuelewa na kufahamu kanuni za ulinzi wa faragha katika matumizi yako ya Bitcoin:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Ninakualika pia kugundua mafunzo ya BTC 204, ambayo yatakuwezesha kuelewa na kumudu kanuni za kulinda faragha katika matumizi yako ya Bitcoin:
 
 
 

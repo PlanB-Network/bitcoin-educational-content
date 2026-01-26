@@ -1,0 +1,9 @@
+question: Miks on vana channel.db taastamine ohtlik?
+answer: Karistusrisk
+wrong_answers:
+  - seed kadumine
+  - Klatši korruptsioon
+  - Blokeeriv marsruutimine
+explanation: |
+  Aegunud olekut võib tõlgendada kui pettusekatset ja selle tulemuseks võib olla kanali rahaliste vahendite kaotamine.
+reviewed: false

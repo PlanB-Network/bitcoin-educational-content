@@ -1,5 +1,5 @@
 ---
-name: 유산
+name: Heritage
 description: Taproot 스크립트를 통한 통합 상속 메커니즘을 갖춘 Bitcoin 포트폴리오
 ---
 

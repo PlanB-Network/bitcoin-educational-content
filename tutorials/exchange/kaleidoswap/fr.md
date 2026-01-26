@@ -21,7 +21,7 @@ KaleidoSwap fournit des binaires préconstruits pour les principaux systèmes d'
 ### Télécharger les binaires
 
 
-Vous pouvez télécharger la dernière version pour votre système d'exploitation à partir du [site officiel] (https://kaleidoswap.com/) ou de la [page des versions de GitHub] (https://github.com/kaleidoswap/desktop-app/releases).
+Vous pouvez télécharger la dernière version pour votre système d'exploitation à partir du [site officiel](https://kaleidoswap.com/) ou de la [page des versions de GitHub](https://github.com/kaleidoswap/desktop-app/releases).
 
 
 ### Méthodes d'installation
@@ -296,7 +296,7 @@ Pour les développeurs qui utilisent KaleidoSwap, l'application expose un API qu
 - WebSocket** : Pour les abonnements aux données de marché en temps réel.
 
 
-Consulter la [documentation API] (https://docs.kaleidoswap.com/api/introduction) pour connaître l'ensemble des points finaux et des spécifications.
+Consulter la [documentation API](https://docs.kaleidoswap.com/api/introduction) pour connaître l'ensemble des points finaux et des spécifications.
 
 
 ## Conclusion

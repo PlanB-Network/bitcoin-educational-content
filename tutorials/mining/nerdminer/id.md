@@ -26,11 +26,11 @@ kamu juga dapat membeli kit NerdMiner yang sudah dirakit dari beberapa penjual s
 
 Pertama, kita akan melihat cara mem-flash perangkat lunak ke ESP-32 S3, dan kemudian kita akan melihat cara merestartnya untuk mengubah jaringan wifi. Langkah-langkah ini untuk pengguna Windows, jika kamu menggunakan sistem operasi Linux, silakan lakukan [langkah awal](#etapes-preliminaires-pour-utilisateurs-linux) untuk memungkinkan pengenalan ESP-32 S3 oleh sistem kamu.
 
-# Instalasi perangkat lunak NerdMiner_v2
+## Instalasi perangkat lunak NerdMiner_v2
 
 Instalasi perangkat lunak sangat disederhanakan berkat penggunaan webflasher.
 
-## Langkah 1: Persiapan webflasher
+### Langkah 1: Persiapan webflasher
 
 Pertama, kamu perlu mengunjungi [NM2 flasher online](https://bitmaker-hub.github.io/diyflasher/).
 
@@ -40,7 +40,7 @@ Kemudian pilih firmware yang sesuai dengan ESP-32 kamu. Kebanyakan waktu itu ada
 
 ![](assets/webflasher.webp)
 
-## Langkah 2: Menghubungkan ESP-32
+### Langkah 2: Menghubungkan ESP-32
 
 Setelah webflasher diluncurkan, sebuah jendela pop-up akan terbuka yang menampilkan berbagai port USB yang dikenali oleh browser.
 Kamu kemudian bisa menghubungkan ESP32 kamu, dan sebuah port baru akan muncul (dalam contoh ini, port tersebut adalah ttyACM0), lalu pilih port tersebut dan klik "connect".
@@ -50,7 +50,7 @@ Perangkat lunak kemudian akan diunduh ke ESP32 Anda dalam hitungan detik.
 
 ![](assets/NM2-sucessfully-installed.webp)
 
-## Langkah 3: Konfigurasi NerdMiner
+### Langkah 3: Konfigurasi NerdMiner
 
 Konfigurasi NerdMiner kamu dilakukan melalui smartphone atau komputer.
 Aktifkan WiFi lalu sambungkan ke jaringan lokal NerdMinerAP. Jika kamu menggunakan smartphone, portal konfigurasi akan terbuka secara otomatis. Jika tidak, ketik alamat 192.168.4.1 di browser.
@@ -77,7 +77,7 @@ Kamu sekarang dapat klik pada "save".
 
 Selamat, kamu sekarang menjadi bagian dari jaringan penambangan Bitcoin!
 
-## Operasi NerdMiner
+### Operasi NerdMiner
 
 Perangkat lunak NerdMinerv2 memiliki 3 layar berbeda, yang dapat kamu akses dengan mengklik tombol atas di sisi kanan layar kamu:
 
@@ -90,7 +90,7 @@ Jika kamu ingin me-reboot NerdMiner kamu, misalnya untuk mengubah jaringan WiFi,
 
 Menekan tombol bawah sekali akan mematikan NerdMiner kamu. Mengklik dua kali akan memutar orientasi layar.
 
-### Langkah awal untuk pengguna Linux
+#### Langkah awal untuk pengguna Linux
 
 Berikut adalah langkah-langkah agar Chrome dapat mendeteksi port serial kamu di Linux.
 
@@ -110,13 +110,13 @@ Berikut adalah langkah-langkah agar Chrome dapat mendeteksi port serial kamu di 
 
 Sekarang ESP-32 kamu dikenali oleh sistem, Anda bisa kembali ke [langkah pertama](#etape-1-preparation-du-webflasher) untuk instalasi perangkat lunak.
 
-## Kesimpulan
+### Kesimpulan
 
 Dan itulah! NerdMiner_v2 Anda sekarang dikonfigurasi dan siap digunakan.
 
 Selamat menambang dan semoga keberuntungan berpihak pada Anda!
 
-### Mengestimasi probabilitas memenangkan
+#### Mengestimasi probabilitas memenangkan
 
 Mari bersenang-senang mengestimasi probabilitas memenangkan hadiah blok. Estimasi ini bersifat kasar dan hanya bertujuan untuk mendapatkan orde besaran dari probabilitas tersebut.
 Kolam yang bisa dihubungkan oleh NerdMiner hanyalah "kolam penambangan solo", yang berarti kolam ini tidak memutualisasikan hashrate dari semua penambang yang terhubung, melainkan hanya bertindak sebagai koordinator.
@@ -124,7 +124,7 @@ Sekarang mari kita asumsikan bahwa NerdMiner kita memiliki hashrate sekitar 45 k
 
 Dengan mengetahui bahwa total hashrate jaringan sekitar 450 EH/s (atau 4.5 x 10^20 hash per detik), kita dapat memperkirakan bahwa probabilitas untuk menemukan blok berikutnya adalah 1 banding 100 juta miliar, sesuatu yang sangat, sangat, sangat tidak mungkin terjadi. Jadi, selain menjadi alat edukasi dan objek rasa ingin tahu, NerdMiner juga dapat berfungsi sebagai tiket lotere dalam penambangan Bitcoin dengan konsumsi listrik marginal sekitar 0.5 W, meskipun seperti yang baru saja kita lihat, probabilitas untuk menang sangatlah rendah. Namun, kenapa tidak mencoba peruntungan kamu?
 
-### Informasi Tambahan
+#### Informasi Tambahan
 
 Berikut adalah beberapa tautan jika kamu ingin membaca lebih lanjut tentang subjek ini:
 

@@ -1,5 +1,5 @@
 ---
-name: Zapisz swoją frazę Mnemonic
+name: Zapisz swoją frazę mnemoniczną
 description: Poznaj najlepsze praktyki w zakresie ochrony Bitcoin Wallet
 ---
 ![cover](assets/cover.webp)

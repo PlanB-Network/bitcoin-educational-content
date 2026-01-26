@@ -512,7 +512,7 @@ Blockchain analizine karşı koymanın, bu analizde kullanılan yöntemleri öğ
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.academy/tutorials/privacy/on-chain/[payjoin](https://planb.academy/resources/glossary/payjoin)-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 Bu konuda kriptografi ve kriptanaliz ile bir analoji kurabiliriz. İyi bir kriptograf her şeyden önce iyi bir kriptanalisttir. Yeni bir şifreleme algoritması tasarlamak için, hangi saldırılarla karşılaşacağını bilmeniz ve önceki algoritmaların neden kırıldığını incelemeniz gerekir. Aynı prensip Bitcoin gizliliği için de geçerlidir. Blockchain analiz yöntemlerini anlamak, bunlara karşı korunmanın anahtarıdır. Bu nedenle bu eğitime on chain analizi ile ilgili bir bölüm ekledim.
 

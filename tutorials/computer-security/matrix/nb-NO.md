@@ -1,5 +1,5 @@
 ---
-name: Matrise
+name: Matrix
 description: En veiledning i hvordan du forstår, konfigurerer og bruker Matrix, den sikre, åpne og desentraliserte kommunikasjonsplattformen.
 ---
 

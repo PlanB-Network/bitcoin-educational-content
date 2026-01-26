@@ -19,7 +19,7 @@ Osim što je skrbnički Lightning wallet koji vam omogućava slanje, primanje i 
 
 
 
-Idite na platformu [Voltz] (https://www.voltz.com/en) i kreirajte nalog klikom na dugme "Try now".
+Idite na platformu [Voltz](https://www.voltz.com/en) i kreirajte nalog klikom na dugme "Try now".
 
 
 

@@ -1,9 +1,9 @@
-question: Ni itegeko irihe ry’ugucungera amakuru yawe ry’agaciro kugira ngo amakuru yawe ashobore gukomera mu gihe habaye icago?
-answer: Ugire kopi 3, ku binyamakuru 2 bitandukanye, harimwo n'imwe iri hanze y'urubuga
+question: Ni itegeko irihe ryo gukora ubu biko bw’inyongera (backup) uhanuriwe kwisunga kugira ngo amakuru yawe ashobore kw’ihanganira ingorane zitewe n’ivyago canke isanganya?
+answer: Ugire kopi 3, ku bikoresho 2 bitandukanye, harimwo n’imwe iri hanze y’aho ukorera
 wrong_answers:
-  - 10, ku binyamakuru 5 bitandukanye, harimwo 3 bitari ku rubuga
-  - 2, ku binyamakuru 2 bitandukanye, 2 muri vyo bikaba bitari ku rubuga
-  - 4, ku binyamakuru 4 bitandukanye, harimwo 2 bitari ku rubuga
+  - kopi 10, ku bikoresho 5 bitandukanye, harimwo 3 ziri hanze y’aho ukorera
+  - kopi 2, ku bikoresho 2 bitandukanye, 2 muri zo ziri hanze y’aho ukorera
+  - kopi 4, ku binyamakuru 4 bitandukanye, harimwo 2 ziri hanze y’aho ukorera
 explanation: |
-  Itegeko rya 3-2-1 rivuga ko ubika kopi zitatu z’amakuru yawe, nibura ku bimenyeshamakuru bibiri bitandukanye, harimwo n’ikindi kiri hanze y’aho ukorera, kugira ngo wirinde gutakaza amakuru, ubusuma canke ibiturire.
-reviewed: false
+  Itegeko rya 3-2-1 rivuga ko ubika kopi zitatu z’amakuru yawe, nibura ku bikoresho bibiri bitandukanye, harimwo n’ikindi kiri hanze y’aho ukorera, kugira ngo wirinde gutakaza amakuru, ubusuma canke kwononekara.
+reviewed: true

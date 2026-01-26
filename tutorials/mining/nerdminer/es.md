@@ -26,11 +26,11 @@ También puedes comprar un kit NerdMiner ya ensamblado en varios distribuidores 
 
 En primer lugar, veremos cómo flashear el software en el ESP-32 S3, y luego veremos cómo reiniciarlo para cambiar la red wifi. Estos pasos están destinados a usuarios de Windows, si estás utilizando un sistema operativo Linux, realiza los [pasos preliminares](#pasos-preliminares-para-usuarios-de-linux) para permitir el reconocimiento del ESP-32 S3 por tu sistema.
 
-# Instalación del software NerdMiner_v2
+## Instalación del software NerdMiner_v2
 
 La instalación del software se simplifica en gran medida gracias al uso del webflasher.
 
-## Paso 1: Preparación del webflasher
+### Paso 1: Preparación del webflasher
 
 En primer lugar, debes ir al [flasher NM2 en línea](https://bitmaker-hub.github.io/diyflasher/).
 
@@ -40,7 +40,7 @@ Luego, selecciona el firmware correspondiente a tu ESP-32. La mayoría de las ve
 
 ![](assets/webflasher.webp)
 
-## Paso 2: Conexión del ESP-32
+### Paso 2: Conexión del ESP-32
 
 Una vez que se haya iniciado el webflasher, se abrirá una ventana emergente que muestra los diferentes puertos USB reconocidos por el navegador.
 En ese momento, puedes conectar tu ESP-32 y se mostrará un nuevo puerto (en este caso, es el puerto ttyACM0). Debes seleccionarlo y hacer clic en "connect".
@@ -51,7 +51,7 @@ El software se descargará en tu ESP32 en cuestión de segundos.
 
 ![](assets/NM2-sucessfully-installed.webp)
 
-## Paso 3: Configuración del NerdMiner
+### Paso 3: Configuración del NerdMiner
 
 La configuración de tu NerdMiner se realizará a través de un teléfono inteligente o una computadora.
 Activa el WiFi y conéctate a la red local NerdMinerAP. Si estás utilizando un teléfono inteligente, se abrirá automáticamente el portal de configuración; de lo contrario, ingresa la dirección 192.168.4.1 en un navegador.
@@ -77,7 +77,7 @@ También elige tu zona horaria para que el NerdMiner pueda mostrar correctamente
 
 ¡Felicitaciones, ahora eres parte de la red de minería de Bitcoin!
 
-## Manipulación del NerdMiner
+### Manipulación del NerdMiner
 
 El software NerdMinerv2 tiene 3 pantallas diferentes, a las que puedes acceder haciendo clic en el botón en la parte superior derecha de la pantalla:
 
@@ -90,7 +90,7 @@ Si deseas reiniciar tu NerdMiner, por ejemplo, para cambiar la red WiFi, deberá
 
 Si presionas una vez el botón inferior, apagarás tu NerdMiner. Hacer clic dos veces invertirá la orientación de la pantalla.
 
-### Pasos preliminares para usuarios de Linux
+#### Pasos preliminares para usuarios de Linux
 
 Aquí están los pasos para que Chrome pueda detectar tu puerto serie en Linux.
 
@@ -111,13 +111,13 @@ Aquí están los pasos para que Chrome pueda detectar tu puerto serie en Linux.
 
 Ahora que tu ESP-32 es reconocido por elu sistema, puedes volver al [primer paso](#etape-1-preparation-du-webflasher) para instalar el software.
 
-## Conclusión
+### Conclusión
 
 ¡Y eso es todo! Tu NerdMiner_v2 ahora está configurado y listo para usar.
 
 ¡Buena minería y que la suerte esté de tu lado!
 
-### Estimación de la probabilidad de ganar
+#### Estimación de la probabilidad de ganar
 
 Divirtámonos estimando la probabilidad de ganar una recompensa de bloque. Esta estimación será aproximada y solo busca obtener el orden de magnitud de la probabilidad.
 Los pools a los que un NerdMiner puede conectarse son solo "pools de minería en solitario", lo que significa que el pool no mutualiza la tasa de hash de todos los mineros conectados, sino que simplemente actúa como coordinador.
@@ -125,7 +125,7 @@ Ahora supongamos que nuestro NerdMiner tiene una tasa de hash de aproximadamente
 
 Sabiendo que la tasa de hash total es de aproximadamente 450 EH/s (o 4.5 x 10^20 hashes por segundo), podemos considerar que la probabilidad de encontrar el siguiente bloque es de 1 entre 100 billones de millones, lo cual es muy, muy, muy poco probable que ocurra. Entonces, además de ser una herramienta educativa y objeto de curiosidad, un NerdMiner puede servir como un boleto de lotería en la minería de Bitcoin a un costo eléctrico marginal de 0.5 W, aunque como acabamos de ver, la probabilidad de ganar es ridículamente baja. Sin embargo, ¿Por qué no desafiar tu suerte?
 
-### Información adicional
+#### Información adicional
 
 Aquí hay algunos enlaces si deseas leer más sobre el tema:
 

@@ -1,5 +1,5 @@
 ---
-name: Bases of Modern cryptography
+name: Modern Cryptography Fundamentals
 goal: A deep-dive introduction to the science and practice of cryptography.
 objectives:
 - Explore Beale ciphers and modern cryptographic methods to understand basic and historical concepts of cryptography.

@@ -1,0 +1,9 @@
+question: Milline on rahaline risk hoiulevõtja Lightning wallet puhul?
+answer: Fraktsiooniline reserv
+wrong_answers:
+  - mining lõivude omavoliline suurendamine
+  - 51% rünnak
+  - Karuturu lõplik peatamine
+explanation: |
+  Kasutaja ei saa kontrollida, kas kuvatavad saldod vastavad tegelikult hoitavatele bitcoinidele. Seetõttu on olemas murdvarude risk.
+reviewed: false

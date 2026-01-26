@@ -40,7 +40,6 @@ Ni mwiteguye kumenya igituma umwidegemvyo atari iciyumviro co mu vy’inyifato r
 
 
 
-![video](https://www.youtube.com/watch?v=md-rDzJX0Ws)
 
 
 
@@ -96,7 +95,6 @@ Vyongeye, inyiyumvo zirasanzwe ziri ku muntu ku giti ciwe. Umuntu ntashobora kwu
 
 
 
-![video](https://www.youtube.com/watch?v=w9DUtXbOYEg)
 
 
 
@@ -152,7 +150,6 @@ Amateka y’Ubufaransa yerekana ingaruka z’ukubura uwo mwidegemvyo. Naho ivy�
 
 
 
-![video](https://www.youtube.com/watch?v=Vjm91Lve_SA)
 
 
 
@@ -238,7 +235,6 @@ Ivyo vyose hamwe, ntibigira inyigisho idasanzwe, ahubwo ni ugukenguruka gukomeye
 
 
 
-![video](https://www.youtube.com/watch?v=Wlc3WLYFjXo)
 
 
 
@@ -306,7 +302,6 @@ Ikibazo c’ubugeni kirerekana izo ngingo ngenderwako: uguhitamwo uwo twubakanye
 
 
 
-![video](https://www.youtube.com/watch?v=8Ib5M-6Rr8M)
 
 
 
@@ -383,7 +378,6 @@ Ubwa nyuma, gukuraho inyungu ku mahera no gutegeka inyungu ni ibitero ku buryo b
 
 
 
-![video](https://www.youtube.com/watch?v=eS_LZr9iKto)
 
 
 
@@ -452,7 +446,6 @@ Isesengura ry’amateka ryerekana ko umwidegemvyo atari ikintu cazimiye co gusub
 
 
 
-![video](https://www.youtube.com/watch?v=v7blehzJCr8)
 
 
 
@@ -511,7 +504,6 @@ Gusuzuma imvo za kera zatumye umuntu atagira umwidegemvyo, turabona ikintu nyamu
 
 
 
-![video](https://www.youtube.com/watch?v=X4Htu6xM4Qk)
 
 
 
@@ -571,7 +563,6 @@ Gusuzuma intambwe zitandukanye z’iterambere birerekana ko hariho isano rikomey
 
 
 
-![video](https://www.youtube.com/watch?v=Uzns3FT688k)
 
 
 
@@ -630,7 +621,6 @@ Impinduka zifise ingorane zikomeye: zitera ubukazi bwinshi kandi zikunda gutegek
 
 
 
-![video](https://www.youtube.com/watch?v=0q_m3KIoq-U)
 
 
 
@@ -684,7 +674,6 @@ Ivyo vyiyumviro bituma umuntu ashika ku ciyumviro gihambaye: ivy’ubu ni vyo vy
 
 
 
-![video](https://www.youtube.com/watch?v=aEoerhy6ERU)
 
 
 
@@ -745,7 +734,6 @@ Amaze gushinga ivyo bibanza, ubu birashoboka ko dusuzuma ibintu vy’ukuri bijan
 
 
 
-![video](https://www.youtube.com/watch?v=xcaV6Kb21O0)
 
 
 
@@ -801,7 +789,6 @@ Muri iyo nseguro hava umwanzuro w’ishimikiro: kwongerekana kw’ubudandaji hag
 
 
 
-![video](https://www.youtube.com/watch?v=qrE5GJWNwGE)
 
 
 
@@ -860,7 +847,6 @@ Inyungu y’agaciro y’umwidegemvyo mu vy’ubutunzi ni uko uguhingura kutagira
 
 
 
-![video](https://www.youtube.com/watch?v=tfH8FapqqsE)
 
 
 
@@ -920,7 +906,6 @@ Mu kibano c’umwidegemvyo, ukwikunda bituma umuntu agira ubuhinga bushasha n’
 
 
 
-![video](https://www.youtube.com/watch?v=hS1_Nkd_H9M)
 
 
 
@@ -976,7 +961,6 @@ Guhindukira ukaja mu kibano c’amahoro ni inzira ndende yo kwiga. Imiryango y�
 
 
 
-![video](https://www.youtube.com/watch?v=DzE_iGRP5Z0)
 
 
 
@@ -1035,7 +1019,6 @@ Uburyo bwo kutagira umwidegemvyo burangwa neza na neza n’ubusumbasumbane: aban
 
 
 
-![video](https://www.youtube.com/watch?v=LDMCs9wCTQc)
 
 
 
@@ -1095,7 +1078,6 @@ Ku rundi ruhande, imigenderanire ishingiye ku bubasha bwa politike ikora mu bury
 
 
 
-![video](https://www.youtube.com/watch?v=mfvPE1fO3-E)
 
 
 
@@ -1167,7 +1149,6 @@ Inyigisho y’umwidegemvyo irwanya iyo nzira y’ubwenge n’ingingo ngenderwako
 
 
 
-![video](https://www.youtube.com/watch?v=VT3w2BjiD8E)
 
 
 
@@ -1227,7 +1208,6 @@ Abo banditsi bamenyesheje ko uburinzi bw’abakozi ari bwo buryo bwo gukingira a
 
 
 
-![video](https://www.youtube.com/watch?v=MRcLZ1SpAo8)
 
 
 
@@ -1297,7 +1277,6 @@ Iyo nkuru y’ubwenge n’ukuri y’ukunanirwa kw’ukutagira umwidegemvyo ni ic
 
 
 
-![video](https://www.youtube.com/watch?v=asOEZJRQuOw)
 
 
 
@@ -1341,7 +1320,6 @@ Itandukaniro rihambaye riri hagati y’umwidegemvyo mubi n’umwidegemvyo mwiza.
 
 
 
-![video](https://www.youtube.com/watch?v=mkzE0SfSl1Q)
 
 
 
@@ -1396,7 +1374,6 @@ Kubera ivyo bibazo, ivyiyumviro vy’ubwigenge, canecane ica Benjamin Constant, 
 
 
 
-![video](https://www.youtube.com/watch?v=K1e39vtOoCc)
 
 
 
@@ -1456,7 +1433,6 @@ Ariko rero, amakosa yo mu vy’ubutunzi ni urutonde rumwe gusa muri benshi. Ivyi
 
 
 
-![video](https://www.youtube.com/watch?v=zJhhcxwXpRI)
 
 
 
@@ -1515,7 +1491,6 @@ Naho biri ukwo, abanditsi b’abanyagihugu bafise ivyiyumviro bikomeye ku bijany
 
 
 
-![video](https://www.youtube.com/watch?v=GtxJlUa_H08)
 
 
 
@@ -1582,7 +1557,6 @@ Iryo sesangura rituma kandi dutahura ingene uburyo bwo kutagira umwidegemvyo buh
 
 
 
-![video](https://www.youtube.com/watch?v=ary4UJhwRl8)
 
 
 
@@ -1646,7 +1620,6 @@ Courcelle-Seneuil yaremeje gusa ivyiyumviro vy’Impinduka y’Abafaransa ku bij
 
 
 
-![video](https://www.youtube.com/watch?v=c8Wi5jkSEu8)
 
 
 
@@ -1707,7 +1680,6 @@ Ivyo biriko biraba muri iki gihe birerekana ibintu biteye ubwoba kandi bibabaje.
 
 
 
-![video](https://www.youtube.com/watch?v=cEzFGSnYfnk)
 
 
 
@@ -1771,7 +1743,6 @@ Molinari n’abantu benshi cane b’Abafaransa b’abanyagihugu bo mu gihe ciwe 
 
 
 
-![video](https://www.youtube.com/watch?v=b8PojgZ0TQo)
 
 
 
@@ -1831,7 +1802,6 @@ Mwene iyo nzira y’amategeko mpuzamakungu, yokwemera umwidegemvyo wo gukora mu 
 
 
 
-![video](https://www.youtube.com/watch?v=OfqTuJvo3MQ)
 
 
 

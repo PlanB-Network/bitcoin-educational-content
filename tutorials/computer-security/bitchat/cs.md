@@ -157,7 +157,7 @@ Pokud zvolíte režim `#geohashes`, Bitchat se integruje s protokolem Nostr a um
 
 ### Sledování vrstevníků
 
-licence: CC-BY-SA-V4
+license: CC-BY-SA-V4
 
 Počítadlo uživatelů zobrazuje uživatele:
 

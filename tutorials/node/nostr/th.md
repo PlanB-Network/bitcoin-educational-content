@@ -4,7 +4,7 @@ description: ค้นพบและเริ่มใช้งาน Nostr
 ---
 
 
-![A new challenger has arrived](assets/1.webp)
+![A new challenger has arrived](assets/cover.webp)
 
 
 

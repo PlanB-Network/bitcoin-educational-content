@@ -1,9 +1,9 @@
 ---
-name: Sklonište
+name: Shelter
 description: Koristite isti telefon za posao i privatni život uz Shelter
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

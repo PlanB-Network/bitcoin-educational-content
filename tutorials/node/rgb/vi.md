@@ -67,13 +67,13 @@ Kể từ khi Bitcoin ra đời, gần 13 năm trước đã có rất nhiều n
 
 RGB có hố thỏ riêng của mình trong hố thỏ Bitcoin, trong khi tôi đang rơi xuống qua chúng, tôi sẽ đăng những gì tôi đã học, trong bài viết tiếp theo chúng ta sẽ có một giới thiệu về các nút LNP và RGB và cách sử dụng chúng.
 
-# Hướng dẫn RGB-node
+## Hướng dẫn RGB-node
 
-## Giới thiệu
+### Giới thiệu
 
 Trong hướng dẫn này, chúng tôi giải thích cách sử dụng RGB-node để tạo một token có thể thay thế và cách chuyển giao nó, tài liệu này dựa trên demo RGB-node và khác biệt ở chỗ hướng dẫn này sử dụng dữ liệu thử nghiệm thực tế và vì thế, chúng ta phải xây dựng Partially Signed Bitcoin Transaction của riêng mình, psbt từ bây giờ.
 
-## Yêu cầu
+### Yêu cầu
 
 Khuyến nghị sử dụng một bản phân phối Linux, hướng dẫn này được viết sử dụng Pop!OS, dựa trên Ubuntu và bạn sẽ cần:
 
@@ -208,7 +208,7 @@ $ rgbd -vvvv -b ~/.cargo/bin -d ./data0 -n testnet
 $ rgbd -vvvv -b ~/.cargo/bin -d ./data1 -n testnet
 ```
 
-## Phát Hành
+### Phát Hành
 
 Để phát hành một tài sản, chúng ta chạy rgb0-cli với các subcommands fungible issue, sau đó là các đối số, mã ticker USDT, tên "USD Tether" và trong phần phân bổ, chúng ta sẽ sử dụng số lượng phát hành và issuance_utxo như chúng ta thấy dưới đây:
 

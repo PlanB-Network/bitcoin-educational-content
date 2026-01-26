@@ -7,7 +7,7 @@ description: Hvordan kjøpe og selge Bitcoin P2P med BitcoinVoucherBot
 
 
 
-Vi hører fortsatt om BitcoinVoucherBot, en Telegram-bot opprettet for å kjøpe Bitcoin uten [KYC] (https://planb.academy/resources/glossary/kyc-know-your-customer) via SEPA-bankoverføring. Dessverre er BitcoinVoucherBot i sin sentraliserte form fra og med november 2025 ikke lenger tilgjengelig som en tjeneste uten KYC.
+Vi hører fortsatt om BitcoinVoucherBot, en Telegram-bot opprettet for å kjøpe Bitcoin uten [KYC](https://planb.academy/resources/glossary/kyc-know-your-customer) via SEPA-bankoverføring. Dessverre er BitcoinVoucherBot i sin sentraliserte form fra og med november 2025 ikke lenger tilgjengelig som en tjeneste uten KYC.
 
 
 
@@ -31,7 +31,7 @@ Blant de støttede lommebøkene kan vi finne:
 
 
 
-Eller enhver wallet som har en "Lightning Address" og genererer en Bolt11-faktura. lommebøker som generate en Bolt12-faktura støttes ikke for øyeblikket. For mer informasjon, se definisjonen av [Bolt] (https://planb.academy/resources/glossary/bolt).
+Eller enhver wallet som har en "Lightning Address" og genererer en Bolt11-faktura. lommebøker som generate en Bolt12-faktura støttes ikke for øyeblikket. For mer informasjon, se definisjonen av [Bolt](https://planb.academy/resources/glossary/bolt).
 
 
 
@@ -57,7 +57,7 @@ Hvis du ikke allerede har det installert på smarttelefonen din, kan du først l
 
 
 
-- [Google Play] (https://play.google.com/store/apps/details?id=com.livingroomofsatoshi.wallet&pli=1)
+- [Google Play](https://play.google.com/store/apps/details?id=com.livingroomofsatoshi.wallet&pli=1)
 - [App Store](https://apps.apple.com/au/app/wallet-of-satoshi/id1438599608)
 
 
@@ -96,8 +96,8 @@ Nå velger du hvordan du vil nå plattformen.
 
 
 
-- [BitcoinVoucherBot] (https://t.me/BitcoinVoucherBot?start=55360009) (Telegram)
-- [Pc Desktop / Nettleser Smarttelefon] (https://p2p.bitcoinvoucher.bot/?ref=55360009)
+- [BitcoinVoucherBot](https://t.me/BitcoinVoucherBot?start=55360009) (Telegram)
+- [Pc Desktop / Nettleser Smarttelefon](https://p2p.bitcoinvoucher.bot/?ref=55360009)
 - [Tor .Onion](http://umembxtpokml6fkogemcfnpyt3qqvyw6u3hnvwinevo3gvoe6j7vfyad.onion/?ref=55360009)
 
 

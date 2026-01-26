@@ -19,7 +19,7 @@ Bitcoin 자산의 이전은 보유자들이 가장 과소평가하는 문제 중
 
 
 
-https://planb.academy/tutorials/wallet/mobile/bitcoin-keeper-22cbfb8d-790f-4a6f-a92f-93a117e1e65c
+https://planb.academy/tutorials/wallet/mobile/bitcoin-keeper-7f2a160b-10b6-4cc5-8820-514ee2eb1599
 
 ![video](https://youtu.be/tCld_-n2d30)
 
@@ -133,7 +133,7 @@ https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 
 https://planb.academy/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3
 
-https://planb.academy/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.academy/tutorials/wallet/hardware/coldcard-mk4-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
 
 모든 키를 가져온 후에는 키 탭에서 사용자 지정 이름과 함께 키를 찾을 수 있습니다.

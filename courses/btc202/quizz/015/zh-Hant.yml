@@ -1,7 +1,7 @@
 question: Bitcoin core 的主要替代實現方式是什麼？
 answer: Bitcoin Knots
 wrong_answers:
-  - Bitcoin 現金
+  - Bitcoin Cash
   - BTCD
   - Bcoin
 explanation: |

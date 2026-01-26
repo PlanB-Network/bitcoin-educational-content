@@ -1,9 +1,9 @@
 ---
-name: Приют
+name: Shelter
 description: Используйте один и тот же телефон для работы и личной жизни с Шелтером
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

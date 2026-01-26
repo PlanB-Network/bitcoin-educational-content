@@ -69,13 +69,13 @@ Sejak peluncuran Bitcoin hampir 13 tahun lalu, sudah banyak penelitian dan ekspe
 
 RGB punya lubang kelinci sendiri di dalam lubang kelinci Bitcoin. Sambil aku terus jatuh ke dalamnya, aku akan memposting apa yang sudah aku pelajari. Di artikel berikutnya kita akan memiliki pengenalan ke node LNP dan RGB serta cara menggunakannya.
 
-# Tutorial RGB-node
+## Tutorial RGB-node
 
-## Pengantar
+### Pengantar
 
 Dalam tutorial ini kita menjelaskan cara memakai RGB-node untuk membuat token fungible dan cara mentransfernya. Dokumen ini didasarkan pada demo RGB-node, tetapi berbeda karena tutorial ini memakai data testnet nyata dan untuk itu kita harus membangun Partially Signed Bitcoin Transaction atau psbt kita sendiri.
 
-## Persyaratan
+### Persyaratan
 
 Penggunaan distribusi Linux direkomendasikan, tutorial ini ditulis menggunakan Pop!OS, yang berbasis pada Ubuntu dan kamu akan memerlukan:
 
@@ -211,7 +211,7 @@ $ rgbd -vvvv -b ~/.cargo/bin -d ./data0 -n testnet
 $ rgbd -vvvv -b ~/.cargo/bin -d ./data1 -n testnet
 ```
 
-## Penerbitan
+### Penerbitan
 
 Untuk menerbitkan aset, kita menjalankan rgb0-cli dengan subperintah fungible issue, kemudian argumennya, ticker USDT, nama "USD Tether" dan dalam alokasi kita akan menggunakan jumlah penerbitan dan issuance_utxo seperti yang kita lihat di bawah ini:
 
@@ -308,14 +308,14 @@ $ bcli finalizepsbt "cHNidP8BAHECAAAAAe2pydT0BqfK5nBCdBSbm3W/vNKE/QxTr4eJcjwjDLD
   "complete": true
 }
 
-## Siarkan
+### Siarkan
 
 Siarkan menggunakan subperintah sendrawtransaction untuk mendapatkannya dikonfirmasi ke dalam blockchain.
 ```
 $ bcli sendrawtransaction "02000000000101eda9c9d4f406a7cae6704274149b9b75bfbcd284fd0c53af8789723c230cb0e30100000000ffffffff02259b0000000000001600143b5062e2fd951d424f9aae62c98843bf5b724c271027000000000000160014fc1f9b7b2475278c9ce7dc0ea0698158f0bb011202473044022019b9df9855fd45c99ab420343efe8004df84caca979dac9194718c74408a5aca02206493bbc6f37474e4176d74d1604d10c46216b1fa3ce438709ded3fc21a0ed3a90121028860511b60abd18f6e629da034fdcd0f308643fc11408056e3ac125ef1c67e7300000000" 8e3787fe40b5feb3044f892e739bdb4043e10de384255a915a37725811abc3fe
 ```
 
-## Terima
+### Terima
 
 Untuk menerima transfer masuk, rgb-node-1 seharusnya telah menerima file konsinyasi dari rgb-node-0, memiliki receive_utxo dan blinding_factor yang sesuai yang dihasilkan selama pembuatan UTXO yang diblind.
 

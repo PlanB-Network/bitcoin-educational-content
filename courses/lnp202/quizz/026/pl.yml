@@ -1,0 +1,9 @@
+question: Co wieża strażnicza podczas normalnej pracy może wywnioskować o kanale, który chroni?
+answer: Jak często jego status jest aktualizowany
+wrong_answers:
+  - Alokacja Liquidity
+  - Jego pojemność
+  - Polityka wydatków
+explanation: |
+  Odbiera zaszyfrowane pakiety dla każdego nowego stanu, ujawniając jedynie normalną aktywność.
+reviewed: false

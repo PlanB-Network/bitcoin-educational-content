@@ -137,7 +137,7 @@ Masz teraz dostęp do oprogramowania Interface.
 Przed rozpoczęciem, jeśli Ledger jest nowy, upewnij się, że skonfigurowałeś kod PIN i zapisałeś frazę odzyskiwania. Nie potrzebujesz Ledger Live do wykonania tych początkowych kroków. Wystarczy podłączyć Ledger za pomocą kabla USB, aby go zasilić. Jeśli nie masz pewności, jak wykonać te dwa kroki, możesz zapoznać się z początkiem samouczka dotyczącego Twojego modelu:
 
 
-https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
 
 https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 

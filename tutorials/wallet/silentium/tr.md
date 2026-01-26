@@ -75,7 +75,7 @@ Silentium, herhangi bir modern tarayıcıdan (mobil veya masaüstü) erişilebil
 
 
 
-[Tarayıcınızdan `https://app.silentium.dev/` adresine gidin] (https://app.silentium.dev/). Uygulama anında yüklenir ve ana ekranı görüntüler.
+[Tarayıcınızdan `https://app.silentium.dev/` adresine gidin](https://app.silentium.dev/). Uygulama anında yüklenir ve ana ekranı görüntüler.
 
 
 

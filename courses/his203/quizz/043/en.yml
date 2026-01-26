@@ -1,0 +1,11 @@
+question: What security problem discovered by Russell O'Connor in February 2012 led to the creation of BIP 30?
+answer: The presence of duplicate transactions on the blockchain
+wrong_answers:
+  - The problem of Byzantine generals nullifying consensus
+  - The existence of a recursion flaw in the OP_EVAL instruction
+  - Removal of an excess element by the OP_CHECKMULTISIG operator
+explanation: |
+ These were reward transactions with the same identifier included in different blocks. On February 4, 2012, Russell O'Connor discovered a vulnerability that 
+ allowed all transactions arising from one of these duplicate transactions to be deleted outright by means of chain reorganization. The patch, described in 
+ BIP 30 by Pieter Wuille, was applied to the network on March 15.
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: Matrica
+name: Matrix
 description: Vodič za razumevanje, konfigurisanje i korišćenje Matrix-a, sigurnog, otvorenog i decentralizovanog komunikacionog platforma.
 ---
 

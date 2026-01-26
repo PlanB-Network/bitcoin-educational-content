@@ -20,7 +20,7 @@ Principaux avantages :
 
 
 - Architecture non privative de liberté
-- Entièrement [code source ouvert] (https://github.com/CoinSpace/CoinSpace/blob/master/LICENSE)
+- Entièrement [code source ouvert](https://github.com/CoinSpace/CoinSpace/blob/master/LICENSE)
 - Un design simple et épuré
 - Concentré sur l'objectif principal - stocker les crypto-monnaies en toute sécurité, sans fonctionnalités superflues
 - Prise en charge multiplateforme : mobile (iOS et Android), bureau, web
@@ -36,19 +36,19 @@ Coin Wallet est disponible sur toutes les principales plateformes.
 
 
 
-- [iOS App Store] (https://apps.apple.com/app/coin-wallet-bitcoin-crypto/id980719434)
+- [iOS App Store](https://apps.apple.com/app/coin-wallet-bitcoin-crypto/id980719434)
 
 
 
-- [Android Google Play] (https://play.google.com/store/apps/details?id=com.coinspace.app)
+- [Android Google Play](https://play.google.com/store/apps/details?id=com.coinspace.app)
 
 
 
-- [Android (Galaxy Store)] (https://galaxystore.samsung.com/detail/com.coinspace.app)
+- [Android (Galaxy Store)](https://galaxystore.samsung.com/detail/com.coinspace.app)
 
 
 
-- [Android (Huawei AppGallery)] (https://appgallery.huawei.com/app/C112183767)
+- [Android (Huawei AppGallery)](https://appgallery.huawei.com/app/C112183767)
 
 
 
@@ -56,11 +56,11 @@ Coin Wallet est disponible sur toutes les principales plateformes.
 
 
 
-- [Android APK] (https://coin.space/api/v3/download/android-apk/any)
+- [Android APK](https://coin.space/api/v3/download/android-apk/any)
 
 
 
-- [Tous les liens de publication] (https://github.com/CoinSpace/CoinSpace/releases)
+- [Tous les liens de publication](https://github.com/CoinSpace/CoinSpace/releases)
 
 
 Également disponible pour le bureau (Windows, Linux, macOS), en tant qu'application web et via Tor.
@@ -72,7 +72,7 @@ Coin Wallet est disponible sur toutes les principales plateformes.
 ## 2️⃣ Création d'un Wallet et définition du code PIN
 
 
-Une wallet est créée à partir d'une passphrase - une séquence aléatoire de 12 mots séparés par des espaces, générée à partir d'une [liste de 2048 mots] (https://github.com/paulmillr/scure-bip39/blob/main/src/wordlists/english.ts).
+Une wallet est créée à partir d'une passphrase - une séquence aléatoire de 12 mots séparés par des espaces, générée à partir d'une [liste de 2048 mots](https://github.com/paulmillr/scure-bip39/blob/main/src/wordlists/english.ts).
 
 Coin Wallet prend en charge les phrases de passe de 12, 15, 18, 21 ou 24 mots importées d'autres portefeuilles.
 
@@ -287,7 +287,7 @@ Seules les adresses non vides apparaissent.
 Ne stockez jamais la clé privée sous forme numérique en texte clair. Après le balayage, elle peut être supprimée en toute sécurité.
 
 
-Pour un guide complet sur les clés privées et les chemins de dérivation : [How to Work with Private Keys : The Ultimate Guide] (https://coin.space/how-to-work-with-private-keys-the-ultimate-guide/)
+Pour un guide complet sur les clés privées et les chemins de dérivation : [How to Work with Private Keys : The Ultimate Guide](https://coin.space/how-to-work-with-private-keys-the-ultimate-guide/)
 
 
 
@@ -386,7 +386,7 @@ Profitez d'une gestion privée des crypto-monnaies !
 ## 📝 Conclusion
 
 
-[Coin Wallet] (https://coin.space/) - l'un des véritables pionniers Bitcoin wallet avec un historique de développement de 10 ans.
+[Coin Wallet](https://coin.space/) - l'un des véritables pionniers Bitcoin wallet avec un historique de développement de 10 ans.
 
 Il est délibérément simple et reste concentré sur sa mission principale : stocker vos crypto-monnaies en toute sécurité.
 

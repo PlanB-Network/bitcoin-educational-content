@@ -18,7 +18,7 @@ Este guia leva-o através da instalação, configuração e utilização do Bull
 ## Introdução
 
 
-Bull Bitcoin Wallet, desenvolvido por [Bull Bitcoin](https://www.bullbitcoin.com/), é um **self-custodial** Bitcoin wallet, o que significa que tem controlo total sobre as suas chaves privadas e, portanto, sobre os seus fundos, sem depender de terceiros. De código aberto e enraizado numa filosofia Cypherpunk, este Wallet combina simplicidade, confidencialidade e funcionalidades avançadas, como swaps entre redes e suporte PayJoin. Permite-lhe gerir os seus bitcoins em três redes: **Bitcoin onchain**, **Liquid** e **Lightning**, cada uma adaptada a utilizações específicas. No [BullBitcoin GitHub] (https://github.com/orgs/SatoshiPortal/projects/49), pode consultar os tópicos actuais e os próximos desenvolvimentos. Como o projeto é 100% open-source e "construído em público", pode também enviar as suas sugestões e quaisquer erros que encontre. Embora algumas carteiras suportem agora múltiplas redes, o Bull Bitcoin Wallet destaca-se por integrar profundamente as caraterísticas de privacidade em todas elas, tornando-o uma ferramenta poderosa para gerir o seu Bitcoin em todas as principais redes
+Bull Bitcoin Wallet, desenvolvido por [Bull Bitcoin](https://www.bullbitcoin.com/), é um **self-custodial** Bitcoin wallet, o que significa que tem controlo total sobre as suas chaves privadas e, portanto, sobre os seus fundos, sem depender de terceiros. De código aberto e enraizado numa filosofia Cypherpunk, este Wallet combina simplicidade, confidencialidade e funcionalidades avançadas, como swaps entre redes e suporte PayJoin. Permite-lhe gerir os seus bitcoins em três redes: **Bitcoin onchain**, **Liquid** e **Lightning**, cada uma adaptada a utilizações específicas. No [BullBitcoin GitHub](https://github.com/orgs/SatoshiPortal/projects/49), pode consultar os tópicos actuais e os próximos desenvolvimentos. Como o projeto é 100% open-source e "construído em público", pode também enviar as suas sugestões e quaisquer erros que encontre. Embora algumas carteiras suportem agora múltiplas redes, o Bull Bitcoin Wallet destaca-se por integrar profundamente as caraterísticas de privacidade em todas elas, tornando-o uma ferramenta poderosa para gerir o seu Bitcoin em todas as principais redes
 
 
 ## 1️⃣ Pré-requisitos
@@ -76,7 +76,7 @@ Aqui, podemos configurar as definições avançadas antes de criar ou recuperar 
 
 1. Habilite o `Tor proxy` para rotear o tráfego através da rede Tor.
 
-1. a [aplicação Orbot] (https://orbot.app/en/) tem de estar instalada e a funcionar antes de ser activada
+1. a [aplicação Orbot](https://orbot.app/en/) tem de estar instalada e a funcionar antes de ser activada
 
 2. O Tor Proxy só se aplica ao Bitcoin (não ao Liquid) e pode resultar numa ligação mais lenta.
 
@@ -164,7 +164,7 @@ o `Recoverbull` é um protocolo de backup que simplifica a segurança do seu Bit
 Pense nisto como um cofre de segurança. O ficheiro de cópia de segurança encriptado é a *caixa*, que pode armazenar em qualquer lugar (como o Google Drive). O seu PIN de recuperação é a *chave*, que é armazenada separadamente pelo servidor de chaves do Recoverbull. Um ladrão teria de obter tanto a sua caixa específica como a sua chave específica para a abrir. Este design garante que mesmo que alguém obtenha o seu ficheiro de backup, este é inútil sem a chave do servidor, e a chave do servidor é inútil sem o seu ficheiro de backup único.
 
 
-Saiba mais sobre o protocolo de backup `Recoverbull` wallet [aqui] (https://recoverbull.com/).
+Saiba mais sobre o protocolo de backup `Recoverbull` wallet [aqui](https://recoverbull.com/).
 
 
 Toque em `Cofre encriptado` e depois em `Continuar` para confirmar a utilização do servidor predefinido. A ligação será encaminhada através da rede `Tor` para garantir a privacidade e o anonimato.
@@ -276,13 +276,13 @@ Além disso, tem a opção de:
 ## 7️⃣ Bull Bitcoin Exchange
 
 
-Diretamente a partir do wallet, tem acesso à [bolsa Bull Bitcoin] (https://www.bullbitcoin.com/), permitindo-lhe comprar, vender e pagar Bitcoin sem sair da aplicação. Esta integração fornece uma solução conveniente para gerir as suas necessidades de Bitcoin. Esteja ciente de que o acesso à bolsa e aos seus serviços pode ser restrito com base na sua jurisdição, e a verificação do Know Your Customer (KYC) pode ser necessária para cumprir os padrões regulatórios e usar todos os recursos da plataforma.
+Diretamente a partir do wallet, tem acesso à [bolsa Bull Bitcoin](https://www.bullbitcoin.com/), permitindo-lhe comprar, vender e pagar Bitcoin sem sair da aplicação. Esta integração fornece uma solução conveniente para gerir as suas necessidades de Bitcoin. Esteja ciente de que o acesso à bolsa e aos seus serviços pode ser restrito com base na sua jurisdição, e a verificação do Know Your Customer (KYC) pode ser necessária para cumprir os padrões regulatórios e usar todos os recursos da plataforma.
 
 
 Para começar, toque em `Exchange` no canto inferior direito e, em seguida, em `Assinar` ou `Login` na sua conta.
 
 
-A bolsa oferece as seguintes [caraterísticas] (https://www.bullbitcoin.com/):
+A bolsa oferece as seguintes [caraterísticas](https://www.bullbitcoin.com/):
 
 
 
@@ -331,7 +331,7 @@ Existem dois modos principais para gerar um endereço de receção:
 **Modo predefinido (URI com parâmetros de entrada adicionais)
 
 
-Por defeito, o wallet gera um [BIP21 URI] (https://bips.dev/21/). Trata-se de um formato normalizado que inclui mais informações do que um simples endereço, incluindo um montante, uma nota pessoal e parâmetros PayJoin para aumentar a privacidade. Este URI abrangente é codificado num código QR e disponibilizado para cópia. O formato é o seguinte: `bitcoin:<address>?<parameter1>=<value1>&<parameter2>=<value2>`.
+Por defeito, o wallet gera um [BIP21 URI](https://bips.dev/21/). Trata-se de um formato normalizado que inclui mais informações do que um simples endereço, incluindo um montante, uma nota pessoal e parâmetros PayJoin para aumentar a privacidade. Este URI abrangente é codificado num código QR e disponibilizado para cópia. O formato é o seguinte: `bitcoin:<address>?<parameter1>=<value1>&<parameter2>=<value2>`.
 
 
 

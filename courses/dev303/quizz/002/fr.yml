@@ -4,5 +4,5 @@ wrong_answers:
   - La variable devient mutable et peut être modifiée à tout moment
   - La variable est automatiquement optimisée pour les versions de développement uniquement
   - La variable nécessite une annotation de type explicite pour être compilée avec succès
-explanation: |
+explanation: | 
   En Rust, les variables sont immuables par défaut lorsqu'elles sont déclarées avec "let". Cela signifie qu'une fois que vous avez assigné une valeur à une variable comme "let x = 5", vous ne pouvez pas changer cette valeur plus tard dans le programme. Si vous essayez de la modifier, le compilateur produira une erreur. Cette immutabilité par défaut est une caractéristique de sécurité essentielle qui permet d'éviter de nombreux bogues de programmation courants causés par des changements d'état inattendus. Pour rendre une variable mutable, vous devez utiliser explicitement le mot-clé "mut", comme "let mut x = 5".

@@ -11,6 +11,8 @@ description: Pagate in bitcoin ovunque siano accettate le carte bancarie Visa.
 
 ⚠️ *Aggiornamento dicembre 2025: Attenzione, **dall’inizio di dicembre 2025 una parte dei servizi di Moon non è più disponibile**, in particolare le carte bancarie Visa ricaricabili. Non sappiamo ancora se questa indisponibilità sia temporanea o definitiva. Questo tutorial sarà aggiornato non appena disporremo di maggiori informazioni.*
 
+*Se utilizzavi la carta Visa prepagata prima del suo blocco, ora puoi recuperare i tuoi fondi seguendo il processo di verifica dell’identità direttamente dalla tua dashboard Moon. In linea di principio, Moon dovrebbe averti inviato un’e-mail per informarti della procedura da seguire e delle fasi necessarie per effettuare questo recupero.*
+
 ---
 
 Moon consente di utilizzare criptovalute come il bitcoin per acquistare carte Visa virtuali e carte regalo esenti da KYC, che possono essere utilizzate presso milioni di commercianti online, proprio come una carta bancaria tradizionale. Offre quindi un modo semplice per spendere la propria sats ovunque sia accettata la Visa, senza passare attraverso una piattaforma di scambio.

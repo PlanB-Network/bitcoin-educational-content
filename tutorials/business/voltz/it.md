@@ -19,7 +19,7 @@ Oltre a essere un custode di Lightning wallet che consente di inviare, ricevere 
 
 
 
-Andate sulla piattaforma [Voltz] (https://www.voltz.com/en) e create un account facendo clic sul pulsante "Prova ora".
+Andate sulla piattaforma [Voltz](https://www.voltz.com/en) e create un account facendo clic sul pulsante "Prova ora".
 
 
 

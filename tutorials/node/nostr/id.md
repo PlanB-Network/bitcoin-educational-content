@@ -4,7 +4,7 @@ description: Temukan dan mulai menggunakan Nostr
 ---
 
 
-![Seorang penantang baru telah tiba](assets/1.webp)
+![Seorang penantang baru telah tiba](assets/cover.webp)
 
 *Di akhir panduan ini, kamu akan paham apa itu Nostr, kamu akan bikin akun, dan kamu bakal bisa langsung pakai Nostr.*
 

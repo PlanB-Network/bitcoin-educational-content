@@ -14,7 +14,7 @@ W tym samouczku odkryjemy Aurora Store, prostą, otwartą i bezpieczną alternat
 
 
 
-# Rozpoczęcie pracy z Aurora Store
+## Rozpoczęcie pracy z Aurora Store
 
 
 
@@ -88,7 +88,7 @@ Ze sklepu Aurora można uzyskać dostęp do katalogu aplikacji dostępnych w skl
 
 
 
-## Cechy
+### Cechy
 
 
 

@@ -1,0 +1,9 @@
+question: В каком файле содержится подробная информация о состоянии канала LND?
+answer: channel.db
+wrong_answers:
+  - wallet.db
+  - lightning.db
+  - peers.db
+explanation: |
+  В файле channel.db хранятся состояния каналов, пиры и commitment transaction.
+reviewed: false

@@ -46,7 +46,7 @@ Trong hướng dẫn này, chúng ta sẽ sử dụng tiện ích mở rộng Al
 
 
 
-Bạn có thể thêm tiện ích mở rộng Alby vào trình duyệt của mình bằng cách truy cập cửa hàng tiện ích mở rộng [Firefox] (https://addons.mozilla.org/fr/firefox/addon/alby/) hoặc cửa hàng tiện ích mở rộng [Chrome] (https://chromewebstore.google.com/detail/alby-bitcoin-wallet-for-l/iokeahhehimjnekafflcihljlcjccdbe).
+Bạn có thể thêm tiện ích mở rộng Alby vào trình duyệt của mình bằng cách truy cập cửa hàng tiện ích mở rộng [Firefox](https://addons.mozilla.org/fr/firefox/addon/alby/) hoặc cửa hàng tiện ích mở rộng [Chrome](https://chromewebstore.google.com/detail/alby-bitcoin-wallet-for-l/iokeahhehimjnekafflcihljlcjccdbe).
 
 
 

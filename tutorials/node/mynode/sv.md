@@ -3,7 +3,7 @@ name: My Node
 description: Ställ in din Bitcoin MyNode
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 
 [My Node](https://mynodebtc.com/) är det enklaste och mest kraftfulla sättet att driva en Bitcoin och Lightning-nod! Vi kombinerar den bästa programvaran med öppen källkod med vår Interface, hantering och support så att du enkelt, privat och säkert kan använda Bitcoin och Lightning.

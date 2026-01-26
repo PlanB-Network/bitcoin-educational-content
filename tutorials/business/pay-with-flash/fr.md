@@ -62,12 +62,12 @@ Lorsque vous aurez terminé ces configurations initiales, dans le coin supérieu
 
 Vous avez un magasin physique déjà implanté dans votre région et vous souhaitez accepter les paiements en bitcoin ? L'option **Point de vente** de Flash est la solution qui vous correspond le mieux.
 
-A la création de votre point de vente, vous obtenez un lien web qui constitue l'interface à utiliser pour effectuer des actions dans le point de vente.
+À la création de votre point de vente, vous obtenez un lien web qui constitue l'interface à utiliser pour effectuer des actions dans le point de vente.
 
 ![pos-link](assets/fr/08.webp)
 
 
-Sur la page de votre tableau de bord, cliquez sur **Commencez** dans le cadran **Point de Vente**. Vous serez redirigé sur l'interface de configuration de votre point de vente. Remplissez les informations correspondantes à votre point de vente et associez-y le portefeuille que vous avez précédemment connecté puis soumettez vos données.
+Sur la page de votre tableau de bord, cliquez sur **Commencez** dans le cadran **Point de Vente**. Vous serez redirigés sur l'interface de configuration de votre point de vente. Remplissez les informations correspondantes à votre point de vente et associez-y le portefeuille que vous avez précédemment connecté puis soumettez vos données.
 
 ![pdv](assets/fr/09.webp)
 
@@ -145,7 +145,7 @@ Configurez les détails de votre boutique en y renseignant un nom unique visible
 
 ![store](assets/fr/22.webp)
 
-Nous espérons que vous avez apprécié cette découverte et nous vous encourageons à approfondir vos connaissances sur l'impact et les bonnes pratiques de l'intégration du bitcoin dans votre commerce avec notre cursus : Bitcoin pour les entreprises.
+Nous espérons que vous avez appréciés cette découverte et nous vous encourageons à approfondir vos connaissances sur l'impact et les bonnes pratiques de l'intégration du bitcoin dans votre commerce avec notre cursus : Bitcoin pour les entreprises.
 
 https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 

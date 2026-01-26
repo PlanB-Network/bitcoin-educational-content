@@ -11,6 +11,8 @@ description: Plaćajte bitcoinima gde god se prihvataju Visa kartice.
 
 ⚠️ *Ažuriranje decembar 2025: Pažnja, **od početka decembra 2025 deo Moon usluga više nije dostupan**, naročito dopunjive Visa bankarske kartice. Još uvek ne znamo da li je ova nedostupnost privremena ili trajna. Ovaj tutorijal biće ažuriran čim budemo imali više informacija.*
 
+*Ako ste koristili prepaid Visa karticu pre njenog blokiranja, sada možete povratiti svoja sredstva prateći proces verifikacije identiteta direktno sa svoje Moon kontrolne table. U principu, Moon je trebalo da vam pošalje imejl kako bi vas obavestio o proceduri koju treba slediti i neophodnim koracima za sprovođenje ovog povraćaja.*
+
 ---
 
 Moon vam omogućava da koristite kriptovalute poput bitcoina za kupovinu virtuelnih Visa kartica i poklon kartica bez KYC-a, koje se mogu koristiti kod miliona online trgovaca, baš kao tradicionalna bankovna kartica. Tako nudi jednostavan način da potrošite svoj sats gde god je Visa prihvaćena, bez prolaska kroz platformu za razmenu.

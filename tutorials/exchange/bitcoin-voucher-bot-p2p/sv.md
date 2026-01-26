@@ -57,7 +57,7 @@ Om du inte redan har det installerat på din smartphone ska du först ladda ner 
 
 
 
-- [Google Play] (https://play.google.com/store/apps/details?id=com.livingroomofsatoshi.wallet&pli=1)
+- [Google Play](https://play.google.com/store/apps/details?id=com.livingroomofsatoshi.wallet&pli=1)
 - [App Store](https://apps.apple.com/au/app/wallet-of-satoshi/id1438599608)
 
 
@@ -96,8 +96,8 @@ Välj nu hur du vill nå plattformen.
 
 
 
-- [BitcoinVoucherBot] (https://t.me/BitcoinVoucherBot?start=55360009) (Telegram)
-- [Pc Desktop / Webbläsare Smartphone] (https://p2p.bitcoinvoucher.bot/?ref=55360009)
+- [BitcoinVoucherBot](https://t.me/BitcoinVoucherBot?start=55360009) (Telegram)
+- [Pc Desktop / Webbläsare Smartphone](https://p2p.bitcoinvoucher.bot/?ref=55360009)
 - [Tor .Onion](http://umembxtpokml6fkogemcfnpyt3qqvyw6u3hnvwinevo3gvoe6j7vfyad.onion/?ref=55360009)
 
 

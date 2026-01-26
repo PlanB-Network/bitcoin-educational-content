@@ -49,7 +49,7 @@ Android kullanıcılarının da alternatif seçenekleri var:
 
 
 
-- APK'yı doğrudan [GitHub Releases] (https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) sayfasından indirin veya
+- APK'yı doğrudan [GitHub Releases](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) sayfasından indirin veya
 - Nostr uyumlu [Zapstore](https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq7xwd748yfjrsu5yuerm56fcn9tntmyv04w95etn0e23xrczvvraqqtxxmmd9e382mrvvf5hgcm0d9hzumt0vf5kcegnah0ap) aracılığıyla yükleyin
 
 
@@ -82,7 +82,7 @@ Burada, bir wallet oluşturmadan veya kurtarmadan önce gelişmiş ayarları yap
 
 2. Bir `Özel Electrum Server` kurun veya
 
-3. Boğayı Kurtar` ayarlarını yapın. Daha sonra [Boğayı Kurtar] (https://recoverbull.com/) hakkında daha fazla bilgi edineceğiz.
+3. Boğayı Kurtar` ayarlarını yapın. Daha sonra [Boğayı Kurtar](https://recoverbull.com/) hakkında daha fazla bilgi edineceğiz.
 
 
 Tüm isteğe bağlı ayarlamaları yaptıktan sonra `Bitti` seçeneğine dokunun. Mevcut bir Wallet'i yeniden kullanmak isterseniz, `Wallet'i Kurtar` seçeneğine tıklayın ve kurtarma ifadenizin 12 kelimesini doldurun.
@@ -207,7 +207,7 @@ Ardından, bir kasa sağlayıcısı seçin:
 ### İthalat / İhracat Etiketleri
 
 
-Şimdi Yedeklememizi oluşturduğumuza göre `Etiketlere' bir göz atalım.  Bull Bitcoin wallet, kullanıcıların alıcı adresleri ve işlemleri için özel etiketler oluşturmalarına olanak tanıyarak gizliliği ve organizasyonu geliştirir. Bu etiketler, etiketli bir adrese gönderilen işlemler bu etiketi devralacağı için fonlarınızı kategorize etmenize yardımcı olur ve değişimlerini izlemek için giden işlemleri de etiketleyebilirsiniz. wallet [BIP-329] (https://bip329.org/) standardını tam olarak destekler, yani tüm etiketlerinizi bir dosyaya aktarabilir ve başka bir wallet'e aktarabilirsiniz. Bu özellik, kişiselleştirilmiş organizasyonunuzu kaybetmeden işlem geçmişinizi ve kategorizasyonlarınızı sorunsuz bir şekilde yedekleyebilmenizi veya bunları farklı wallet örnekleri arasında taşıyabilmenizi sağlar.
+Şimdi Yedeklememizi oluşturduğumuza göre `Etiketlere' bir göz atalım.  Bull Bitcoin wallet, kullanıcıların alıcı adresleri ve işlemleri için özel etiketler oluşturmalarına olanak tanıyarak gizliliği ve organizasyonu geliştirir. Bu etiketler, etiketli bir adrese gönderilen işlemler bu etiketi devralacağı için fonlarınızı kategorize etmenize yardımcı olur ve değişimlerini izlemek için giden işlemleri de etiketleyebilirsiniz. wallet [BIP-329](https://bip329.org/) standardını tam olarak destekler, yani tüm etiketlerinizi bir dosyaya aktarabilir ve başka bir wallet'e aktarabilirsiniz. Bu özellik, kişiselleştirilmiş organizasyonunuzu kaybetmeden işlem geçmişinizi ve kategorizasyonlarınızı sorunsuz bir şekilde yedekleyebilmenizi veya bunları farklı wallet örnekleri arasında taşıyabilmenizi sağlar.
 
 
 ![image](assets/en/05.webp)
@@ -276,7 +276,7 @@ Ayrıca, şu seçeneklere de sahipsiniz:
 ## 7️⃣ Bull Bitcoin Exchange
 
 
-Doğrudan wallet'den [Bull Bitcoin borsasına] (https://www.bullbitcoin.com/) erişerek uygulamadan çıkmadan Bitcoin satın alabilir, satabilir ve ödeme yapabilirsiniz. Bu entegrasyon, Bitcoin ihtiyaçlarınızı yönetmek için uygun bir çözüm sağlar. Lütfen borsaya ve hizmetlerine erişimin yetki alanınıza bağlı olarak kısıtlanabileceğini ve düzenleyici standartlara uymak ve platformun tüm özelliklerini kullanmak için Müşterinizi Tanıyın (KYC) doğrulamasının tamamlanması gerekebileceğini unutmayın.
+Doğrudan wallet'den [Bull Bitcoin borsasına](https://www.bullbitcoin.com/) erişerek uygulamadan çıkmadan Bitcoin satın alabilir, satabilir ve ödeme yapabilirsiniz. Bu entegrasyon, Bitcoin ihtiyaçlarınızı yönetmek için uygun bir çözüm sağlar. Lütfen borsaya ve hizmetlerine erişimin yetki alanınıza bağlı olarak kısıtlanabileceğini ve düzenleyici standartlara uymak ve platformun tüm özelliklerini kullanmak için Müşterinizi Tanıyın (KYC) doğrulamasının tamamlanması gerekebileceğini unutmayın.
 
 
 Başlamak için, sağ alt köşedeki `Exchange` üzerine dokunun, ardından `Kayıt ol` veya hesabınıza `Giriş yap`.
@@ -331,7 +331,7 @@ Bir alma adresi oluşturmak için iki temel modunuz vardır:
 **Varsayılan Mod (ek giriş parametreleri ile URI)
 
 
-Varsayılan olarak, wallet bir [BIP21 URI] (https://bips.dev/21/) oluşturur. Bu, gizliliği artırmak için bir miktar, kişisel bir not ve PayJoin parametreleri dahil olmak üzere basit bir adresten daha fazla bilgiyi paketleyen standartlaştırılmış bir formattır. Bu kapsamlı URI bir QR koduna kodlanır ve kopyalanabilir hale getirilir. Format şu şekildedir: `bitcoin:<adres>?<parametre1>=<değer1>&<parametre2>=<değer2>`.
+Varsayılan olarak, wallet bir [BIP21 URI](https://bips.dev/21/) oluşturur. Bu, gizliliği artırmak için bir miktar, kişisel bir not ve PayJoin parametreleri dahil olmak üzere basit bir adresten daha fazla bilgiyi paketleyen standartlaştırılmış bir formattır. Bu kapsamlı URI bir QR koduna kodlanır ve kopyalanabilir hale getirilir. Format şu şekildedir: `bitcoin:<adres>?<parametre1>=<değer1>&<parametre2>=<değer2>`.
 
 
 
@@ -560,7 +560,7 @@ Hoş Geldiniz ekranından `Wallet`u Kurtar`ı seçin. Bu kez, `Fiziksel yedeklem
 En üst düzeyde güvenlik için, birçok Bitcoin kullanıcısı fonlarını `soğuk depoda` saklamayı tercih etmektedir. Bu, Bitcoin'ünüzü kontrol eden `özel anahtarları` asla internete bağlı olmayan bir cihazda tutmak anlamına gelir. Donanımsal wallet (veya İmzalama cihazı) tam da bu amaç için tasarlanmış özel bir fiziksel cihazdır. Anahtarlarınız için dijital bir kasa görevi görür ve hiçbir zaman çevrimiçi bir bilgisayarın veya akıllı telefonun potansiyel tehditlerine maruz kalmamalarını sağlar.
 
 
-Bir donanım wallet'yı Bull Bitcoin uygulamasına bağlayarak, her iki dünyanın en iyisini elde edersiniz: özel anahtarlarınız için soğuk depolamanın ödün vermeyen güvenliği, bakiyeleri görüntülemek ve işlemleri yönetmek için Bull Bitcoin wallet'nın güçlü özellikleri ve kullanıcı dostu arayüzü ile birlikte. Bu son bölümde, [Coldcard Q] (https://coldcard.com/q) gibi bir donanım wallet'yı Bull Bitcoin wallet'nıza nasıl bağlayacağınızı göstereceğiz. Bu eğitimde Coldcard Q kurulumu derinlemesine ele alınmayacaktır; bu konuda buradan bilgi edinebilirsiniz:
+Bir donanım wallet'yı Bull Bitcoin uygulamasına bağlayarak, her iki dünyanın en iyisini elde edersiniz: özel anahtarlarınız için soğuk depolamanın ödün vermeyen güvenliği, bakiyeleri görüntülemek ve işlemleri yönetmek için Bull Bitcoin wallet'nın güçlü özellikleri ve kullanıcı dostu arayüzü ile birlikte. Bu son bölümde, [Coldcard Q](https://coldcard.com/q) gibi bir donanım wallet'yı Bull Bitcoin wallet'nıza nasıl bağlayacağınızı göstereceğiz. Bu eğitimde Coldcard Q kurulumu derinlemesine ele alınmayacaktır; bu konuda buradan bilgi edinebilirsiniz:
 
 
 https://planb.academy/en/tutorials/wallet/hardware/coldcard-q-73e86d1a-6fe6-4d8b-bb15-8690298020e3

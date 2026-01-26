@@ -11,6 +11,8 @@ description: Bezahlen Sie mit Bitcoins überall dort, wo Visa-Bankkarten akzepti
 
 ⚠️ *Update Dezember 2025: Achtung, **seit Anfang Dezember 2025 ist ein Teil der Moon-Dienste nicht mehr verfügbar**, insbesondere die wiederaufladbaren Visa-Karten. Derzeit wissen wir noch nicht, ob diese Nichtverfügbarkeit vorübergehend oder dauerhaft ist. Dieses Tutorial wird aktualisiert, sobald wir über weitere Informationen verfügen.*
 
+*Wenn Sie die vorausbezahlte Visa-Karte vor ihrer Sperrung genutzt haben, können Sie Ihre Guthaben nun wiedererlangen, indem Sie den Identitätsprüfungsprozess direkt über Ihr Moon-Dashboard durchlaufen. Grundsätzlich sollte Moon Ihnen eine E-Mail gesendet haben, um Sie über das weitere Vorgehen und die erforderlichen Schritte zur Durchführung dieser Rückerstattung zu informieren.*
+
 ---
 
 Mit Moon können Sie Kryptowährungen wie Bitcoin verwenden, um KYC-freie virtuelle Visa-Karten und Geschenkkarten zu erwerben, die bei Millionen von Online-Händlern wie eine herkömmliche Bankkarte verwendet werden können. Es bietet somit eine einfache Möglichkeit, Ihre sats überall dort auszugeben, wo Visa akzeptiert wird, ohne über eine Austauschplattform zu gehen.

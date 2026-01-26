@@ -4,5 +4,5 @@ wrong_answers:
   - Hachage de la signature, comparaison avec le hachage de la clé publique, puis vérification par rapport à la valeur engagée
   - Vérifie d'abord la signature, puis hache la clé publique et la compare au hachage engagé
   - Combinaison de la signature et de la clé publique, hachage du résultat, puis comparaison avec le hachage engagé
-explanation: |
+explanation: | 
   La clé ScriptPubKey de P2PKH suit une séquence spécifique : OP_DUP OP_HASH160 <pubkey_hash> OP_EQUALVERIFY OP_CHECKSIG. Cela permet de dupliquer la clé publique fournie, d'appliquer le hachage SHA256 puis RIPEMD160, de vérifier que le résultat correspond au hachage engagé, et enfin de vérifier la signature. Les autres options décrivent de manière incorrecte l'ordre des opérations ou suggèrent de hacher les signatures au lieu des clés publiques, ce qui briserait la logique de validation.

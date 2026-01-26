@@ -1,0 +1,9 @@
+question: Kuinka monta sanaa LND-memoniallinen lause sisältää?
+answer: 24 sanaa
+wrong_answers:
+  - 10 sanaa
+  - 18 sanaa
+  - 36 sanaa
+explanation: |
+  LND generates 24-sanainen muistisana solmujen varmuuskopiointia ja palautusta varten.
+reviewed: false

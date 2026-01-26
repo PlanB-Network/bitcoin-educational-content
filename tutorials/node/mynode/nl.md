@@ -3,7 +3,7 @@ name: My Node
 description: Uw Bitcoin MyNode instellen
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 
 [Mijn Knooppunt](https://mynodebtc.com/) is de eenvoudigste, krachtigste manier om een Bitcoin en Lightning knooppunt te beheren! Wij combineren de beste open source software met onze Interface, beheer en ondersteuning, zodat u Bitcoin en Lightning eenvoudig, privé en veilig kunt gebruiken.

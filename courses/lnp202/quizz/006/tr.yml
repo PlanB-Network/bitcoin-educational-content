@@ -1,0 +1,9 @@
+question: Gözetimli Yıldırım wallet'ın finansal riski nedir?
+answer: Kısmi rezerv
+wrong_answers:
+  - mining ücretlerinde keyfi artış
+  - 51 saldırı
+  - Ayı piyasası kesin olarak durdu
+explanation: |
+  Kullanıcı, görüntülenen bakiyelerin gerçekten sahip olunan bitcoinlere karşılık geldiğini doğrulayamaz. Bu nedenle kısmi rezerv riski vardır.
+reviewed: false

@@ -1,8 +1,8 @@
 question: Quel est le principal avantage de la fonction d'interopérabilité du SDK Breez qui permet à plusieurs applications de se connecter au même nœud Lightning en utilisant la même phrase seed ?
-answer: Les utilisateurs peuvent maintenir une balance Lightning unique pour différentes applications spécialisées tout en évitant la complexité de la gestion de plusieurs nœuds Lightning
+answer: Les utilisateurs peuvent maintenir une balance Lightning unique pour différentes applications spécialisées, tout en évitant la complexité de la gestion de plusieurs nœuds Lightning.
 wrong_answers:
-  - Les applications peuvent partager des clés privées directement entre elles, ce qui permet de signer des transactions entre applications sans intervention de l'utilisateur
-  - Plusieurs applications peuvent mettre en commun leurs liquidités pour créer des canaux Lightning plus importants avec une capacité d'acheminement accrue pour le réseau
-  - Les développeurs peuvent accéder à l'infrastructure Lightning partagée sans avoir à mettre en œuvre leur propre gestion des nœuds, ce qui réduit les coûts de développement et la complexité
+  - Les applications peuvent partager des clés privées directement entre elles, ce qui permet de signer des transactions entre applications sans intervention de l'utilisateur.
+  - Plusieurs applications peuvent mettre en commun leurs liquidités pour créer des canaux Lightning plus importants avec une capacité d'acheminement accrue pour le réseau.
+  - Les développeurs peuvent accéder à l'infrastructure Lightning partagée sans avoir à mettre en œuvre leur propre gestion des nœuds, ce qui réduit les coûts de développement et la complexité.
 explanation: |
   L'interopérabilité du SDK permet aux utilisateurs d'accéder au même nœud Lightning et aux mêmes fonds à partir de plusieurs applications spécialisées (comme une application générale wallet et une application de podcasting) sans avoir à gérer des soldes ou des nœuds distincts. Les mauvaises réponses déforment l'architecture : les clés privées ne quittent jamais l'appareil de l'utilisateur et ne sont pas partagées entre les applications, la mise en commun des liquidités n'est pas le mode de fonctionnement du système et, bien que les développeurs bénéficient d'une infrastructure simplifiée, le principal avantage décrit est l'expérience utilisateur unifiée entre les applications.

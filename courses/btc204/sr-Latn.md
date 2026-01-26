@@ -502,7 +502,7 @@ Koji je bolji način da se suprotstavite blokčejn analizi nego da naučite o me
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.academy/tutorials/privacy/on-chain/[payjoin](https://planb.academy/resources/glossary/payjoin)-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 U tome možemo povući analogiju sa kriptografijom i kriptoanalizom. Dobar kriptograf je pre svega dobar kriptoanalitičar. Da biste osmislili novi algoritam za šifrovanje, morate znati koje napade će pretrpeti, kao i proučiti zašto su prethodni algoritmi bili probijeni. Isti princip se primenjuje na Bitcoin privatnost. Razumevanje blokčejn metoda analize je ključ za zaštitu od njih. Zato sam uključio čitavu sekciju o blokčejn analizi u ovaj kurs obuke.
 

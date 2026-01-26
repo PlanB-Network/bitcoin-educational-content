@@ -73,7 +73,7 @@ PearPass è disponibile su tutte le piattaforme: Windows, Linux, macOS, Android,
 
 
 
-Su Windows, PearPass viene fornito come programma di installazione classico. Andare alla [pagina ufficiale di download] (https://pass.pears.com/download), quindi fare clic sul pulsante "Scarica il programma di installazione di Windows".
+Su Windows, PearPass viene fornito come programma di installazione classico. Andare alla [pagina ufficiale di download](https://pass.pears.com/download), quindi fare clic sul pulsante "Scarica il programma di installazione di Windows".
 
 
 
@@ -113,7 +113,7 @@ A seconda dell'ambiente, potrebbe essere necessario rendere il file eseguibile t
 
 
 
-PearPass offre un'estensione del browser per il login automatico e l'accesso rapido alla vostra cassaforte durante la navigazione sul web. L'estensione è attualmente disponibile per Google Chrome e i browser compatibili. Per installarla, visitate [la pagina ufficiale di download] (https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
+PearPass offre un'estensione del browser per il login automatico e l'accesso rapido alla vostra cassaforte durante la navigazione sul web. L'estensione è attualmente disponibile per Google Chrome e i browser compatibili. Per installarla, visitate [la pagina ufficiale di download](https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
 
 
 

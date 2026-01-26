@@ -1,0 +1,8 @@
+question: Selon l'école autrichienne, quel est le mécanisme fondamental qui permet de déterminer l'organisation optimale de la structure productive depuis les matières premières jusqu'au produit final?
+answer: Le prix final payé par le consommateur qui influence rétroactivement toute la chaîne de production
+wrong_answers:
+  - La planification centralisée qui calcule les coûts de production pour fixer ensuite les prix de vente
+  - "L'analyse technique des processus industriels qui détermine la séquence optimale de transformation"
+  - La coordination directe entre les différents secteurs productifs par des comités spécialisés
+explanation: |
+  Pour l'école autrichienne, c'est le prix final qui détermine les coûts et non l'inverse, contrairement à la pensée socialiste. Le prix payé par le consommateur influence l'organisation de toute la structure productive en remontant la chaîne. Cette logique inversée est cruciale : l'entrepreneur organise la production en fonction de ce que le consommateur est prêt à payer, et non en calculant d'abord les coûts pour fixer ensuite un prix. Les autres réponses reflètent une approche technocratique ou planifiée qui ignore le rôle central des signaux-prix.

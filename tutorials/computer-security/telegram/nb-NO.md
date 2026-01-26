@@ -72,10 +72,10 @@ På neste skjermbilde kan du dobbeltsjekke nummeret du har oppgitt. Hvis det er 
 Telegram er nå fullt funksjonelt på mobil, vi kan gå videre til de første grunnleggende innstillingene.
 
 
-# Sikkerhets- og personverninnstillinger
+## Sikkerhets- og personverninnstillinger
 
 
-## Konfigurasjon av brukernavn
+### Konfigurasjon av brukernavn
 
 
 Telegram-brukernavnet - noen ganger også kalt `handle` - er mye mer enn bare et fancy navn. Håndtaket er faktisk **unikt for hver bruker**.
@@ -129,7 +129,7 @@ Det kan de ikke, takket være det unike brukernavnet.
 **Det de kan gjøre er å vise et "lignende" brukernavn, men endre det litt (en bokstav/et tall), slik at bare et oppmerksomt øye tydelig kan se at det er en svindler**. Vær alltid nøye med brukernavnet, så vil du se at svindlere ikke har det lett.
 
 
-## Personvern
+### Personvern
 
 
 En annen viktig forholdsregel du kan ta, er å begrense informasjonen du gir ut fra den nyopprettede kontoen din.
@@ -165,7 +165,7 @@ Dette er tiltak som forhindrer at telefonnummeret ditt blir avslørt, slik at du
 Nå som Telegram-kontoen din er satt opp og du har fått litt privatliv, kan du begynne å bruke den.
 
 
-## Legge til kontakter og chatter
+### Legge til kontakter og chatter
 
 
 Hvis kontoen din nettopp er opprettet, er det sannsynlig at hovedsiden vil se helt tom ut.
@@ -229,7 +229,7 @@ Som standard identifiseres alle, fra individuelle brukere til temakanaler, ved h
 ⚠️Attention: **unngå å bli med i grupper og kanaler uten å verifisere deres autentisitet**. For å finne den offisielle Telegram-kanalen/gruppen til et selskap eller et emne du ønsker å følge, kan du søke hjelp i _Contacts_-delen på offisielle nettsteder eller fra svært pålitelige kilder.
 
 
-### Avanserte meldingsfunksjoner
+#### Avanserte meldingsfunksjoner
 
 
 Telegram lar deg bruke unike avanserte funksjoner når det gjelder utveksling av meldinger. Gå inn i en chat og klikk på bakgrunnen ved siden av en melding fra en annen avsender.
@@ -257,7 +257,7 @@ Du kan også legge ved store filer og utveksle "tunge" medier på en enklere må
 ![image](assets/en/46.webp)
 
 
-### Personlig sky
+#### Personlig sky
 
 
 Blant de mange utrolige funksjonene i Telegram er det også en personlig sky som - i skrivende stund - er **ubegrenset**.
@@ -285,7 +285,7 @@ Chatten vises i forgrunnen, klar til bruk.
 ***
 
 
-## Planlegging av meldinger og stille sending
+### Planlegging av meldinger og stille sending
 
 
 Andre nyttige avanserte funksjoner gjør det mulig å sende meldinger med respekt for mottakerens personvern, velge mellom lydløs sending og planlegge meldingen på passende tidspunkter og dager.
@@ -301,7 +301,7 @@ Alt du trenger å gjøre er å skrive meldingen, men i stedet for å sende den u
 ![image](assets/en/48.webp)
 
 
-### Tømme telefonens hurtigbuffer
+#### Tømme telefonens hurtigbuffer
 
 
 En annen nyttig praksis for å holde telefonen i gang effektivt er å tømme Telegram-cachen fra tid til annen. Avhengig av hvor mange grupper og kanaler du følger, kan informasjonen og media som kommer fra disse kildene faktisk samle seg i hurtigbufferen, noe som gjør telefonen treg.
@@ -350,7 +350,7 @@ Du kan se på bildet nedenfor hvor du finner denne innstillingen.
 ![image](assets/en/28.webp)
 
 
-## Telegram-skrivebordet
+### Telegram-skrivebordet
 
 
 Telegram kan brukes fra datamaskinen din, slik at den synkroniseres med kontoen som vises på telefonen din. Du kan velge å ikke laste ned applikasjonen og bare bruke den via nettet. Denne versjonen har imidlertid begrensninger sammenlignet med den som kjøres på datamaskinen, derfor anbefaler jeg at du laster ned og installerer den for å få mest mulig ut av dette kraftige verktøyet.
@@ -421,7 +421,7 @@ Et varsel på telefonen din bekrefter at den nye enheten er lagt til.
 Spesielt er Telegram aktivt og brukbart også på din stasjonære datamaskin.
 
 
-### Gruppesamtale
+#### Gruppesamtale
 
 
 Hvis du er administrator eller eier av en Telegram-gruppe, kan du starte en samtale fra selve gruppemenyen. På denne måten kan du strømme direkte med flere deltakere, ta dem opp i lyd og bilde, dele dem eller bruke dem til for eksempel utdanning.
@@ -433,7 +433,7 @@ I det følgende bildet kan du se hvordan du starter en gruppesamtale ved hjelp a
 ![image](assets/en/47.webp)
 
 
-### Avsluttende betraktninger
+#### Avsluttende betraktninger
 
 
 Nå som du har lest gjennom denne opplæringen, er du perfekt i stand til å velge hvordan du bruker Telegram, uten å bli påvirket av støyen som genereres av hypen fra brukerne, eller av mainstream. Du kan starte med en mild tilnærming og deretter oppdage hvordan du får mest mulig ut av det, for dine personlige behov, denne meldingsappen.

@@ -296,7 +296,7 @@ KaleidoSwapi peal ehitavate arendajate jaoks pakub rakendus API, mis toetab:
 - WebSocket**: Reaalajas turuandmete tellimiseks.
 
 
-Täielikud lõpp-punktid ja spetsifikatsioonid on esitatud [API dokumentatsioonis] (https://docs.kaleidoswap.com/api/introduction).
+Täielikud lõpp-punktid ja spetsifikatsioonid on esitatud [API dokumentatsioonis](https://docs.kaleidoswap.com/api/introduction).
 
 
 ## Kokkuvõte

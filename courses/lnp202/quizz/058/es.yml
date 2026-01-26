@@ -1,0 +1,9 @@
+question: En el protocolo NWC, ¿qué mecanismo se utiliza para transportar la solicitud entre la aplicación y el nodo?
+answer: Eventos en relés Nostr
+wrong_answers:
+  - Llamadas REST directas a LND
+  - Conexión VPN punto a punto
+  - Solicitudes DNS cifradas
+explanation: |
+  La solicitud se cifra y luego se publica como un evento en un relé Nostr, que el nodo lee para ejecutar la acción.
+reviewed: false

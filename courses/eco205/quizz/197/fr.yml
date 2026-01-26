@@ -1,0 +1,8 @@
+question: Selon l'école autrichienne, quelle est la conséquence directe de l'impossibilité pour les autorités centrales de manipuler l'offre de Bitcoin?
+answer: Les prix exprimés en Bitcoin reflètent véritablement les préférences temporelles individuelles et permettent une coordination économique authentique
+wrong_answers:
+  - "Les prix deviennent plus volatils car ils ne sont plus stabilisés par l'intervention des banques centrales"
+  - "L'économie devient plus difficile à réguler car les gouvernements perdent leur principal outil de politique monétaire"
+  - "Les cycles économiques s'amplifient car il n'y a plus de mécanisme pour injecter de la liquidité en cas de crise"
+explanation: |
+  L'école autrichienne enseigne que la manipulation monétaire par les banques centrales fausse le signal prix essentiel à la coordination économique. Avec Bitcoin, l'impossibilité de manipuler l'offre permet aux prix de refléter véritablement les préférences temporelles des individus et les coûts d'opportunité réels. Cela restaure le rôle authentique du taux d'intérêt comme signal de coordination entre épargne et investissement, contrairement aux autres options qui reflètent une vision keynésienne ou interventionniste critiquée par les autrichiens.

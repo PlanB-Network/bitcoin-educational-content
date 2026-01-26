@@ -1,9 +1,9 @@
 ---
-name: Tilfluktsrom
+name: Shelter
 description: Bruk samme telefon til jobb og privatliv med Shelter
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

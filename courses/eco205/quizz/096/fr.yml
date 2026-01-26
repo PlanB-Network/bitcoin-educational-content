@@ -1,0 +1,8 @@
+question: Selon Mises, comment la monnaie fonctionne-t-elle comme « transmetteur de valeurs dans l'espace et dans le temps » ?
+answer: Elle diffuse le pouvoir d'achat géographiquement pour maximiser les échanges et permet de stocker temporellement l'énergie et le temps humain
+wrong_answers:
+  - "Elle transmet automatiquement les fluctuations de prix entre différents marchés régionaux et ajuste les taux d'intérêt selon l'inflation"
+  - Elle convertit les valeurs subjectives en valeurs objectives universelles et synchronise les cycles économiques internationaux
+  - Elle equalise les coûts de production entre régions et redistribue équitablement la richesse à travers les générations
+explanation: |
+  Mises définit la monnaie comme transmetteur de valeurs car elle remplit deux fonctions essentielles : dans l'espace, elle permet de diffuser le pouvoir d'achat pour échanger avec un maximum de personnes ; dans le temps, elle permet de différer ce pouvoir d'achat en stockant le fruit du travail humain. Les autres options confondent cette fonction avec des mécanismes économiques différents comme l'arbitrage de prix, l'objectivation des valeurs ou la redistribution.

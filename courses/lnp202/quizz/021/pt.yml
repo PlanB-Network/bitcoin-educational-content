@@ -1,0 +1,9 @@
+question: Que ficheiro contém o estado detalhado do canal do LND?
+answer: canal.db
+wrong_answers:
+  - wallet.db
+  - relâmpago.db
+  - pares.db
+explanation: |
+  O ficheiro channel.db armazena os estados do canal, os pares e os commitment transactions.
+reviewed: false

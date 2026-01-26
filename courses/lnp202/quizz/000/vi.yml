@@ -1,0 +1,9 @@
+question: Dung lượng của kênh Lightning là bao nhiêu?
+answer: Tổng số tiền bị khóa
+wrong_answers:
+  - Tổng lượng thanh khoản khả dụng theo một hướng
+  - Mức phí tối đa
+  - Số lượng thanh toán tối đa có thể
+explanation: |
+  Dung lượng này tương ứng với tổng số sats bị chặn trong đầu ra đa tín hiệu của kênh.
+reviewed: false

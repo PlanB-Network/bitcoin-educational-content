@@ -20,12 +20,12 @@ Główne zalety:
 
 
 - Architektura bez nadzoru
-- W pełni [kod open-source] (https://github.com/CoinSpace/CoinSpace/blob/master/LICENSE)
+- W pełni [kod open-source](https://github.com/CoinSpace/CoinSpace/blob/master/LICENSE)
 - Prosta i przejrzysta konstrukcja
 - Skoncentrowany na głównym celu - bezpiecznym przechowywaniu kryptowalut, bez zbędnych funkcji
 - Obsługa wielu platform: mobilna (iOS i Android), stacjonarna, internetowa
 - Obsługa RBF (Replace-By-Fee) - przyspiesz zablokowane transakcje w dowolnym momencie
-- Sprzętowe 2FA z [YubiKey] (https://www.yubico.com/works-with-yubikey/catalog/coin-wallet/) / kluczem FIDO2
+- Sprzętowe 2FA z [YubiKey](https://www.yubico.com/works-with-yubikey/catalog/coin-wallet/) / kluczem FIDO2
 - Wbudowana obsługa sieci Tor - kierowanie całego ruchu przez sieć Tor w celu zapewnienia maksymalnej prywatności
 
 
@@ -72,7 +72,7 @@ Dostępna również na komputery stacjonarne (Windows, Linux, macOS), jako aplik
 ## 2️⃣ Tworzenie Wallet i ustawianie kodu PIN
 
 
-wallet jest tworzony przy użyciu passphrase - losowej sekwencji 12 słów oddzielonych spacjami, wygenerowanej z [listy 2048 słów] (https://github.com/paulmillr/scure-bip39/blob/main/src/wordlists/english.ts).
+wallet jest tworzony przy użyciu passphrase - losowej sekwencji 12 słów oddzielonych spacjami, wygenerowanej z [listy 2048 słów](https://github.com/paulmillr/scure-bip39/blob/main/src/wordlists/english.ts).
 
 Coin Wallet obsługuje 12-, 15-, 18-, 21- lub 24-wyrazowe hasła importowane z innych portfeli.
 

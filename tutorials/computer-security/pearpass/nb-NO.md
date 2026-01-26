@@ -73,7 +73,7 @@ PearPass er tilgjengelig på alle plattformer: Windows, Linux, macOS, Android, i
 
 
 
-På Windows leveres PearPass som et klassisk installasjonsprogram. Gå til [den offisielle nedlastingssiden] (https://pass.pears.com/download), og klikk deretter på knappen `Last ned Windows-installasjonsprogram`.
+På Windows leveres PearPass som et klassisk installasjonsprogram. Gå til [den offisielle nedlastingssiden](https://pass.pears.com/download), og klikk deretter på knappen `Last ned Windows-installasjonsprogram`.
 
 
 
@@ -89,7 +89,7 @@ Når filen er lastet ned, åpner du installasjonsprogrammet og følger trinnene 
 
 
 
-På macOS distribueres PearPass som et diskbilde (`.dmg`). Gå til [den offisielle nedlastingssiden] (https://pass.pears.com/download) og velg den versjonen som tilsvarer Mac-arkitekturen din (Intel eller Apple Silicon). Etter nedlastingen åpner du filen `.dmg` og starter programmet fra mappen `Applications`.
+På macOS distribueres PearPass som et diskbilde (`.dmg`). Gå til [den offisielle nedlastingssiden](https://pass.pears.com/download) og velg den versjonen som tilsvarer Mac-arkitekturen din (Intel eller Apple Silicon). Etter nedlastingen åpner du filen `.dmg` og starter programmet fra mappen `Applications`.
 
 
 
@@ -101,7 +101,7 @@ Ved første oppstart vil macOS vise en sikkerhetsmelding som indikerer at applik
 
 
 
-På Linux er PearPass tilgjengelig i `.AppImage`-format, noe som garanterer bred kompatibilitet med de fleste distribusjoner uten noen spesifikke avhengigheter. Last ned `.AppImage`-filen fra [den offisielle nedlastingssiden] (https://pass.pears.com/download), og start den deretter direkte ved å dobbeltklikke.
+På Linux er PearPass tilgjengelig i `.AppImage`-format, noe som garanterer bred kompatibilitet med de fleste distribusjoner uten noen spesifikke avhengigheter. Last ned `.AppImage`-filen fra [den offisielle nedlastingssiden](https://pass.pears.com/download), og start den deretter direkte ved å dobbeltklikke.
 
 
 
@@ -113,7 +113,7 @@ Avhengig av miljøet ditt kan det hende du må gjøre filen kjørbar via filegen
 
 
 
-PearPass tilbyr en nettleserutvidelse for automatisk pålogging og rask tilgang til safen din mens du surfer på nettet. Utvidelsen er for øyeblikket tilgjengelig for Google Chrome og kompatible nettlesere. For å installere den, gå til [den offisielle nedlastingssiden] (https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
+PearPass tilbyr en nettleserutvidelse for automatisk pålogging og rask tilgang til safen din mens du surfer på nettet. Utvidelsen er for øyeblikket tilgjengelig for Google Chrome og kompatible nettlesere. For å installere den, gå til [den offisielle nedlastingssiden](https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
 
 
 
@@ -134,8 +134,8 @@ På iPhone og Android laster du ganske enkelt ned applikasjonen fra appbutikken 
 
 
 
-- [Google Play Store] (https://play.google.com/store/apps/details?id=com.pears.pass);
-- [App Store] (https://apps.apple.com/us/app/pearpass/id6752954830).
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.pears.pass);
+- [App Store](https://apps.apple.com/us/app/pearpass/id6752954830).
 
 
 
@@ -148,9 +148,9 @@ I tillegg til disse klassiske installasjonsmetodene er det også mulig å laste 
 
 
 
-- [Desktop] (https://github.com/tetherto/pearpass-app-desktop);
-- [Mobil] (https://github.com/tetherto/pearpass-app-mobile);
-- [Nettleserutvidelse] (https://github.com/tetherto/pearpass-app-browser-extension).
+- [Desktop](https://github.com/tetherto/pearpass-app-desktop);
+- [Mobil](https://github.com/tetherto/pearpass-app-mobile);
+- [Nettleserutvidelse](https://github.com/tetherto/pearpass-app-browser-extension).
 
 
 
@@ -441,7 +441,7 @@ På mobil kan du også, om du ønsker, aktivere automatisk utfylling av felt. Fo
 
 
 
-Det er allerede veldig praktisk å ha en passordadministrator som er synkronisert mellom datamaskinen og smarttelefonen, men det er enda mer praktisk å integrere den direkte i nettleseren din. For å gjøre det, begynner du med å [legge til den offisielle PearPass-utvidelsen i nettleseren] (https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
+Det er allerede veldig praktisk å ha en passordadministrator som er synkronisert mellom datamaskinen og smarttelefonen, men det er enda mer praktisk å integrere den direkte i nettleseren din. For å gjøre det, begynner du med å [legge til den offisielle PearPass-utvidelsen i nettleseren](https://chromewebstore.google.com/detail/pearpass/pdeffakfmcdnjjafophphgmddmigpejh).
 
 
 

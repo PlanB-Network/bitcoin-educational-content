@@ -1,9 +1,9 @@
 ---
-name: Unterbringung
+name: Shelter
 description: Nutzung desselben Telefons für Arbeit und Privatleben mit Shelter
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

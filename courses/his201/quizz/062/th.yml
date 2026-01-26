@@ -5,5 +5,5 @@ wrong_answers:
   - ดึงบิลค่าไฟของผู้แฮชทุกเดือน
   - การดึงหลักฐานการทำงานที่ผลิตบนเครือข่ายที่มีความยากต่ำกว่า เช่น BitDNS
 explanation: |
-  วิธีการง่ายๆ นี้ถูกเสนอโดย Ribuck, Nils Schneider, และ Gavin Andresen [บนฟอรัม](https: //bitcointalk.org/index.php?topic=1458.msg16951#msg16951) เมื่อวันที่ 14 ตุลาคม 2010.
+  วิธีการง่ายๆ นี้ถูกเสนอโดย Ribuck, Nils Schneider, และ Gavin Andresen [บนฟอรัม](https://bitcointalk.org/index.php?topic=1458.msg16951#msg16951) เมื่อวันที่ 14 ตุลาคม 2010.
 reviewed: true

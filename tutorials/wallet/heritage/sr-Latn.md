@@ -1,5 +1,5 @@
 ---
-name: Nasleđe
+name: Heritage
 description: Bitcoin portfolio sa integrisanim mehanizmom nasleđivanja putem Taproot skripti
 ---
 

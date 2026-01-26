@@ -1,9 +1,12 @@
 question: Prema okviru za odgovorno otkrivanje, koji je primarni strateški razlog za pružanje zakrpa za ranjivosti altcoin programerima tek nakon što su ispravke široko primenjene u Bitcoin mreži?
-answer: Da se spreči napadače da iskoriste istu ranjivost na Bitcoin dok se altkoini zakrpljuju
+answer: Da bi se sprečili napadači da iskoriste istu ranjivost na Bitcoinu dok se na altkoinima primenjuju ispravke
 wrong_answers:
-  - "Da bi se održala konkurentska prednost Bitcoin nad alternativnim implementacijama kriptovaluta"
+  - Da bi se održala konkurentska prednost Bitcoina nad alternativnim implementacijama kriptovaluta
   - Da bi se obezbedilo da programeri altkoina imaju dovoljno vremena da razumeju i pravilno implementiraju ispravke
   - Da bi se izbegli pravni problemi odgovornosti koji bi mogli nastati usled preuranjenog otkrivanja trećim stranama
 explanation: |
-  Strategija tempiranja odražava pristup sigurnosti na prvom mestu gde mreža Bitcoin mora biti zaštićena pre nego što se pomogne drugima. Ako bi altcoini bili obavešteni istovremeno, napadači bi mogli proučiti implementacije altcoina ili ih iskoristiti da razumeju ranjivost, a zatim potencijalno napasti Bitcoin čvorove koji još nisu nadograđeni. Sekvencijalni pristup osigurava široku zaštitu Bitcoin pre nego što se proširi pomoć na druge mreže, minimizirajući prozor za eksploataciju ranjivosti širom ekosistema.
-reviewed: false
+  Strategija tempiranja odražava pristup sigurnosti na prvom mestu gde mreža Bitcoin mora biti zaštićena pre nego što se pomogne drugima. Ako bi altcoini bili
+  obavešteni istovremeno, napadači bi mogli proučiti implementacije altcoina ili ih iskoristiti da razumeju ranjivost, a zatim potencijalno napasti Bitcoin 
+  čvorove koji još nisu nadograđeni. Sekvencijalni pristup osigurava široku zaštitu Bitcoina pre nego što se proširi pomoć na druge mreže, minimizirajući prozor 
+  za eksploataciju ranjivosti širom ekosistema.
+reviewed: true

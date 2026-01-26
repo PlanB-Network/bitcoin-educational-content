@@ -1,5 +1,5 @@
 ---
-name: Trò chuyện bậy bạ
+name: Bitchat
 description: Nhắn tin phi tập trung, không cần Internet, cho giao tiếp tự do.
 ---
 

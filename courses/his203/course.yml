@@ -1,6 +1,5 @@
 id: 63f66c28-c9fa-11f0-a937-37b22ccf49e8
 
-test_only: true
 
 topic: social studies
 subtopic: history
@@ -18,7 +17,12 @@ proofreading:
     urgency: 1
     contributor_names:
       - lugaxker
-    reward: 50.6
+    reward: 25.32
+  - language: en
+    last_contribution_date:
+    urgency: 1
+    contributor_names:
+    reward: 50.64
 tags:
   - historical
   - protocols

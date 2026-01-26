@@ -178,6 +178,6 @@ Kwa hii, chaguzi kadhaa zinapatikana kwako. Ingawa notepad ya kawaida ya kompyut
 Hongera! Mazingira yako ya kazi sasa yamewekwa ili kuchangia Plan ₿ Academy. Sasa unaweza kuchunguza mafunzo yetu mengine mahususi kwa kila aina ya mchango (tafsiri, kusahihisha, kuandika.
 
 
-https://planb.academy/tutorials/others
+https://planb.academy/tutorials/contribution
 
 ..).

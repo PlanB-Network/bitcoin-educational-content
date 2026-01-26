@@ -1,0 +1,9 @@
+question: Hvilket av disse verktøyene identifiserer ikke relevante likemenn på Lightning?
+answer: Electrum
+wrong_answers:
+  - Terminal for lynnedslag
+  - Amboss
+  - 1ML
+explanation: |
+  Electrum er ikke en Lightning explorer for innhenting av informasjon om nettverksnoder. De tre andre verktøyene utfører derimot denne funksjonen på en god måte.
+reviewed: false

@@ -1,0 +1,9 @@
+question: Tüketici profilini yönetmek neden kolay?
+answer: Gelen likiditeye çok az ihtiyaç var
+wrong_answers:
+  - Kanal gerekmez
+  - Dışarı giden likiditeye çok az ihtiyaç var
+  - Yedeklemeye gerek yok
+explanation: |
+  Tüketicilerin çok fazla gelen likiditeye ihtiyacı yoktur ve giden ödemeler karmaşık bir strateji olmadan doğal olarak bir miktar gelen likidite yaratır.
+reviewed: false

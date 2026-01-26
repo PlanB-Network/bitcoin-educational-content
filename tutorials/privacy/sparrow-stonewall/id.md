@@ -67,7 +67,7 @@ Dari sudut pandang orang luar, transaksi tersebut akan tetap sama.
 Singkatnya, transaksi Stonewall dan Stonewall x2 memiliki struktur yang sama. Perbedaan di antara keduanya terletak pada sifat kolaboratif atau non-kolaboratifnya. Transaksi Stonewall dibuat secara individual tanpa memerlukan kolaborasi. Sebaliknya, transaksi Stonewall x2 bergantung pada kerja sama dua orang untuk menyusunnya.
 
 
-[**-> Pelajari lebih lanjut tentang transaksi Stonewall x2**](https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
+[**-> Pelajari lebih lanjut tentang transaksi Stonewall x2**](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
 
 
 

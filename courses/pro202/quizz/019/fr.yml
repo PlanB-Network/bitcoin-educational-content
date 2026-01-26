@@ -2,7 +2,7 @@ question: Dans le processus de vérification de la signature ECDSA, quelle relat
 answer: La coordonnée x de UG + VP doit être égale à R, où U = Z/S et V = R/S
 wrong_answers:
   - La coordonnée y de UG + VP doit être égale à S, où U = R/Z et V = S/Z
-  - La coordonnée x de KG + ZP doit être égale à S, où K est le nonce et Z le hachage
+  - La coordonnée x de KG + ZP doit être égale à S, où K est le nonce et Z le hachage 
   - La somme de R + S doit être égale à la coordonnée x du point de la clé publique P
 explanation: |
   La vérification ECDSA consiste à reconstruire le point original KG à l'aide de l'équation UG + VP, où U = Z/S (hachage divisé par S) et V = R/S. Si la coordonnée x de ce point reconstruit est égale à R de la signature, la vérification est réussie. Cette relation mathématique permet la vérification sans connaître la clé privée ou le nonce K, puisque l'algèbre reconstruit KG indirectement par le biais de la clé publique et des composants de la signature.

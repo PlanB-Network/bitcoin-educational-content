@@ -127,7 +127,7 @@ Abaixo encontra o nosso tutorial para este hardware wallet:
 
 
 
-https://planb.academy/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.academy/tutorials/wallet/hardware/coldcard-mk4-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
 Para um Coldcard, é necessário exportar as chaves públicas do hardware wallet através de uma ligação USB ou de um cartão microSD.
 

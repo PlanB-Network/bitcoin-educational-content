@@ -1,7 +1,7 @@
 question: Quel est l'élément d'identité du groupe de la courbe elliptique utilisé pour les opérations d'addition de points ?
 answer: Le point à l'infini
 wrong_answers:
-  - Le point d'origine (0,0)
+  - Le point d'origine (0,0) 
   - Le point générateur G
   - Le paramètre de courbe a
 explanation: |

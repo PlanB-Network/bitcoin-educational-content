@@ -32,7 +32,7 @@ description: Key Teleport คืออะไรและฉันจะใช้
 
 
 - gW-0 phrases** (ColdCard Q's seed master หรือความลับที่เก็บไว้ใน ColdCardQ's [seed Vault](https://coldcard.com/docs/temporary-seeds/#seed-vault).
-- บันทึกและรหัสผ่านที่เป็นความลับ**: อาจเป็นความลับใด ๆ หรือทั้งไดเรกทอรี [Secure Notes & Passwords] (https://coldcard.com/docs/secure_notes/) บน ColdCardQ ของคุณ
+- บันทึกและรหัสผ่านที่เป็นความลับ**: อาจเป็นความลับใด ๆ หรือทั้งไดเรกทอรี [Secure Notes & Passwords](https://coldcard.com/docs/secure_notes/) บน ColdCardQ ของคุณ
 - การสำรองข้อมูลของ **ColdCardQ** ทั้งหมดของคุณ: ColdCardQ ที่ได้รับการสำรองข้อมูลนี้ต้องไม่มี seed Master เพื่อให้ใช้งานได้
 - gW-3 (*ธุรกรรม Bitcoin ที่ลงนามบางส่วน*) เป็นส่วนหนึ่งของ **โครงร่างหลายลายเซ็น**
 

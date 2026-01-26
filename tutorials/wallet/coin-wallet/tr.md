@@ -6,7 +6,7 @@ description: Coin Wallet ve gizlilik ve güvenliği artırma yolları hakkında 
 ![cover](assets/cover.webp)
 
 
-Bu eğitimde, mobil cihazlar için kendi kendini denetleyen bir kripto wallet olan [Coin Wallet] (https://coin.space/) ve mobil wallet uygulamalarını kullanırken güvenlik ve gizliliğin nasıl artırılacağı anlatılmaktadır.
+Bu eğitimde, mobil cihazlar için kendi kendini denetleyen bir kripto wallet olan [Coin Wallet](https://coin.space/) ve mobil wallet uygulamalarını kullanırken güvenlik ve gizliliğin nasıl artırılacağı anlatılmaktadır.
 
 
 
@@ -72,7 +72,7 @@ Masaüstü (Windows, Linux, macOS), web uygulaması olarak ve Tor üzerinden de 
 ## 2️⃣ Bir Wallet Oluşturma ve PIN Ayarlama
 
 
-Bir wallet, [2048 kelimelik bir listeden] (https://github.com/paulmillr/scure-bip39/blob/main/src/wordlists/english.ts) oluşturulan, boşluklarla ayrılmış 12 kelimelik rastgele bir dizi olan bir passphrase kullanılarak oluşturulur.
+Bir wallet, [2048 kelimelik bir listeden](https://github.com/paulmillr/scure-bip39/blob/main/src/wordlists/english.ts) oluşturulan, boşluklarla ayrılmış 12 kelimelik rastgele bir dizi olan bir passphrase kullanılarak oluşturulur.
 
 Coin Wallet, diğer cüzdanlardan içe aktarılan 12, 15, 18, 21 veya 24 kelimelik parolaları destekler.
 

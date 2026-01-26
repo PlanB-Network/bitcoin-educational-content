@@ -11,7 +11,7 @@ Bitfeed er en plattform for visualisering av kjedelaget i Bitcoin-protokollen. D
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 I denne veiledningen tar vi en titt på dette verktøyet, som lar deg utforske alle transaksjoner og blokker i nettverket.
 
@@ -95,7 +95,7 @@ Den første transaksjonen i denne blokken representerer **coinbase**-transaksjon
 
 
 
-https://planb.academy/courses/obtenir-ses-premiers-bitcoins-f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 Som standard blir transaksjoner i en blokk representert i henhold til to kriterier:
 

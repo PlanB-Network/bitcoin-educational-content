@@ -424,7 +424,7 @@ https://planb.academy/tutorials/wallet/desktop/heritage-0549701f-2619-4037-ad05-
 
 
 
-- [Bitcoin 繼承計劃範本 (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Plan ₿ Network 文件範本
+- [Bitcoin 繼承計劃範本 (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Plan ₿ Academy 文件範本
 
 
 

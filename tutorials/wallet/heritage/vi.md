@@ -1,5 +1,5 @@
 ---
-name: Di sản
+name: Heritage
 description: Danh mục đầu tư Bitcoin với cơ chế kế thừa tích hợp thông qua các tập lệnh Taproot.
 ---
 

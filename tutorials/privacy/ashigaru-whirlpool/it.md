@@ -234,7 +234,7 @@ Per una migliore comprensione di questo meccanismo e di quanti cicli vale la pen
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 Per visualizzare il numero di remix eseguiti da ciascuno dei vostri brani, aprite il menu `UTXOs` nell'account `Postmix`.
 
@@ -354,7 +354,7 @@ Le prestazioni di diversi cicli coinjoin si misurano in base alla dimensione deg
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 ## Come gestire il postmix?
 

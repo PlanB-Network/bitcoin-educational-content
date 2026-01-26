@@ -424,7 +424,7 @@ Hãy bắt đầu bằng cách chọn một giải pháp kỹ thuật phù hợp
 
 
 
-- [Mẫu Kế hoạch Thừa kế Bitcoin (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Mẫu Tài liệu Plan ₿ Network
+- [Mẫu Kế hoạch Thừa kế Bitcoin (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Mẫu Tài liệu Plan ₿ Academy
 
 
 

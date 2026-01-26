@@ -1,0 +1,9 @@
+question: Na jakém protokolu je Tailscale založen?
+answer: WireGuard
+wrong_answers:
+  - OpenVPN
+  - IPsec IKEv2
+  - PPTP
+explanation: |
+  Tailscale je řešení VPN založené na WireGuard.
+reviewed: false

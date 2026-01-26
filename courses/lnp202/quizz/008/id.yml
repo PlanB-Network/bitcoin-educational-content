@@ -1,0 +1,9 @@
+question: Dengan kustodian Lightning wallet, siapa yang memiliki bitcoin?
+answer: Perusahaan
+wrong_answers:
+  - Pengguna
+  - Jaringan Lightning
+  - Inti Bitcoin
+explanation: |
+  Dalam model kustodian, perusahaan memegang kunci dan mengontrol dana, sementara pengguna hanya memiliki saldo akuntansi.
+reviewed: false

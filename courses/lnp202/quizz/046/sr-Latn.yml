@@ -1,0 +1,9 @@
+question: Zašto odlazno plaćanje automatski stvara dolaznu likvidnost?
+answer: Premeštanje likvidnosti
+wrong_answers:
+  - Kreiranje novih kanala
+  - Povećanje kapaciteta
+  - Niži troškovi usmeravanja
+explanation: |
+  Odlazna uplata pomera sats na paritet, stvarajući dolaznu likvidnost na ovoj strani kanala.
+reviewed: false

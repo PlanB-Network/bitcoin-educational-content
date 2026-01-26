@@ -1,0 +1,9 @@
+question: 哪些平台允许您购买流入的流动性？
+answer: 岩浆
+wrong_answers:
+  - Bitcoin 核心
+  - 1ML
+  - Boltz
+explanation: |
+  Magma 可通过自动市场轻松购买流入的流动性。
+reviewed: false

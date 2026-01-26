@@ -408,5 +408,5 @@ Iyi nyigisho ivuga ibiranga Bitcoin Keeper mu buryo bwayo bw’ubuntu. Iyi porog
 - Urubuga rwemewe: [umucungezi w'amafaranga.app](https://umucungezi w'amafaranga.app)
 - Ikigo c'imfashanyo: [imfashanyo.umucungezi.app](https://imfashanyo.umucungezi.app)
 - Kode y'inkomoko: [github.com/umucungezi-w'amahera](https:
-- Telegram : [t.me/Umucungezi w'amafaranga] (ubutumwa bw'amafaranga)
+- Telegram : [t.me/Umucungezi w'amafaranga](ubutumwa bw'amafaranga)
 - Twitter/X: [@umucungezi w'amafaranga_](https://x.com/umucungezi w'amafaranga_)

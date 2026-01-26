@@ -1,0 +1,9 @@
+question: Ni uwuhe muhora wo gufunga ari wo mwiza kuri Lightning?
+answer: Gufunga amakoperative
+wrong_answers:
+  - Gufunga ku nguvu
+  - Gufunga n'uguhenda
+  - Watchtower gufunga
+explanation: |
+  Gufunga amakoperative biranyaruka kandi bigufasha guhitamwo amafaranga y’uruhererekane.
+reviewed: false

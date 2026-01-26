@@ -65,7 +65,7 @@ Saisissez manuellement le montant que vous souhaitez échanger et utilisez le [l
 N'oubliez pas que **les taux de transaction fluctuent**, vérifiez donc toujours le prix final avant de confirmer.
 
 
-**Un compte n'est pas nécessaire avec** des transactions quotidiennes limitées à 250 000 VND (~ 8 USD). De plus amples informations sont disponibles dans nos [politiques de transfert bancaire] (https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer).
+**Un compte n'est pas nécessaire avec** des transactions quotidiennes limitées à 250 000 VND (~ 8 USD). De plus amples informations sont disponibles dans nos [politiques de transfert bancaire](https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer).
 
 
 **Attention** : les frais de réseau sont généralement moins élevés lorsque vous choisissez la méthode Lightning Network par rapport à la méthode de transaction onchain.
@@ -128,7 +128,7 @@ Prévoyez un délai de confirmation (secondes sur Lightning, minutes sur on-chai
 Vos questions, demandes et commentaires sur nos produits et services sont les bienvenus.
 
 
-Pour plus d'informations, vous pouvez consulter notre politique de récupération des actifs [ici] (https://support.bitcoinvn.io/help/en-us/3-general/1-asset-recovery-policy), ou nous contacter directement à l'adresse [Telegram] (https://t.me/bitcoinvn_community).
+Pour plus d'informations, vous pouvez consulter notre politique de récupération des actifs [ici](https://support.bitcoinvn.io/help/en-us/3-general/1-asset-recovery-policy), ou nous contacter directement à l'adresse [Telegram](https://t.me/bitcoinvn_community).
 
 
 Alors que l'adoption des actifs numériques s'intègre dans la finance mondiale, **BitcoinVN** est stratégiquement positionné pour mener le développement de la capacité financière internationale du Vietnam. Nous comblons le fossé entre l'économie physique et l'économie numérique, en associant la liquidité mondiale à la facilité locale. Notre mission est de démocratiser l'accès sécurisé et facile à une gamme complète de produits de qualité et de services professionnels ici même au Vietnam.
@@ -143,6 +143,6 @@ Nous vous encourageons vivement à rejoindre notre communauté et à rester info
 - [LinkedIn](https://vn.linkedin.com/company/bitcoinvn)
 - [Facebook](https://www.facebook.com/www.bitcoinvn.io)
 - [X](https://x.com/Bitcoin_Vietnam) (anciennement Twitter)
-- [TikTok] (https://www.tiktok.com/@bitcoinvn.io)
-- [Nostr] (https://iris.to/npub1j4lp9hmzd3rqlcw7mml09uwvwap0g5u5wx2qm2lzt9wcqt925jvqf4wzaa)
-- [Dernières nouvelles] (https://bitcoinvn.io/news/)
+- [TikTok](https://www.tiktok.com/@bitcoinvn.io)
+- [Nostr](https://iris.to/npub1j4lp9hmzd3rqlcw7mml09uwvwap0g5u5wx2qm2lzt9wcqt925jvqf4wzaa)
+- [Dernières nouvelles](https://bitcoinvn.io/news/)

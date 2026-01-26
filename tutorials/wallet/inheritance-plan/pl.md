@@ -424,7 +424,7 @@ Zacznij od wyboru rozwiązania technicznego dopasowanego do Twojego profilu, prz
 
 
 
-- [Szablon planu spadkowego Bitcoin (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Szablon dokumentacji Plan ₿ Network
+- [Szablon planu spadkowego Bitcoin (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Szablon dokumentacji Plan ₿ Academy
 
 
 

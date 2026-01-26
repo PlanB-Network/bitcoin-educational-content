@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: Juhend oma RaspiBlitzi seadistamiseks
 ---
 
-![pilt](assets/0.webp)
+![pilt](assets/cover.webp)
 
 RaspiBlitz on tee-ise Lightning Node (LND ja/või Core Lightning), mis töötab koos Bitcoin-Fullnode'iga RaspberryPi peal (1TB SSD) ja ilusa ekraaniga lihtsaks seadistamiseks & jälgimiseks.
 
@@ -12,7 +12,7 @@ RaspiBlitzi peamine sihtgrupp on õppida, kuidas oma sõlme kodus detsentralisee
 ![video](https://youtu.be/DTHlSPMz3ns)
 RASPIBLITZ - Kuidas käitada Lightning ja Bitcoin Full Node'i BTC sessiooni poolt
 
-# Parmani Raspiblitzi seadistamise juhend
+## Parmani Raspiblitzi seadistamise juhend
 
 Raspiblitz on suurepärane süsteem Bitcoini node’i ja seotud rakenduste käitamiseks. Soovitan seda ja MyNode node’i enamikule kasutajatele (ideaalis kaks node’i reduntsuse jaoks). Üks peamisi eeliseid on see, et Raspiblitz node on „Free Open Source Software“, erinevalt MyNode’ist või Umbrelist. [Miks see on oluline? Vlad Costa selgitab.](https://bitcoin-takeover.com/why-bitcoin-free-open-source-software-matters/amp/?__twitter_impression=true) Raspiblitzi saab ka käitada WiFi-ühenduse kaudu, mitte ainult ethernetiga – selleks on siin [täiendav juhend](https://armantheparman.com/headless-wifi/). (Ma ei ole leidnud viisi, kuidas seda MyNode’iga teha).
 
@@ -22,7 +22,7 @@ Võid osta valmis sõlme koos külge kinnitatud mini ekraaniga, või võid selle
 
 Sisuliselt on protsess väga sarnane [MyNode node'i](https://armantheparman.com/mynode-bitcoin-node-easy-setup-guide-raspberry-pi/) seadistamise protsessiga Raspberry Pi 4 abil. Raspiblitzi juhend soovitab osta monitori, kuid tegelikult ei ole seda vaja ja ma ei soovitaks seda. Sul pole vaja isegi lisaklaviatuuri ega hiirt. Lihtsalt pääse seadme terminalimenüüsse arvutist, mis on samas koduvõrgus, ja kasuta terminalis ssh käsku. See on võimalik Linuxi/Maci (lihtne) ja Windowsi (veidi raskem) puhul.
 
-## 1. samm: Osta varustus.
+### 1. samm: Osta varustus.
 
 Vajad täpselt sama varustust, mida vajad MyNode node'i käitamiseks. Võid proovida ühte või teist, ainus erinevus on mikro SD kaardil olevad andmed.
 
@@ -48,7 +48,7 @@ See on kiirem, kuid tarbetult kallis:
 
 ![pilt](assets/3.webp)
 
-## 2. samm: Laadi alla Raspiblitzi Image
+### 2. samm: Laadi alla Raspiblitzi Image
 Liigu [Raspiblitz GitHubi veebisaidile](https://github.com/rootzoll/raspiblitz) ja leia link „download image“:
 ![image](assets/4.webp)
 
@@ -56,7 +56,7 @@ Allalaaditud faili sha-256 räsi on veebisaidil esitatud. See muutub iga värske
 
 ![image](assets/5.webp)
 
-## 3. samm: Kontrollige pilti
+### 3. samm: Kontrollige pilti
 
 Enne jätkamist, kui te ei tunne end käsureal failisüsteemis liikudes kindlalt, on see lihtne õppida ja te peaksite seda tegema.
 
@@ -87,7 +87,7 @@ kus xxxxxxxxxxxxxx on just allalaaditud faili nimi. Kui te ei ole selles kataloo
 
 Arvuti mõtleb umbes 20 sekundit või nii. Kontrollige, et väljundräsi vastab veebilehelt eelmises etapis allalaaditud räsile. Kui see on identne, võite jätkata.
 
-## 4. samm: Kirjutage SD-kaart
+### 4. samm: Kirjutage SD-kaart
 
 Selle tegemiseks saate kasutada Balena Etcherit. [Laadige see siit alla](https://www.balena.io/etcher/).
 
@@ -103,7 +103,7 @@ Etcher on iseõpetav kasutamiseks. Sisestage oma mikro-SD kaart ja kirjutage Ras
 
 Kui see on tehtud, ei ole draiv enam loetav. Operatsioonisüsteem võib anda veateate ja draiv peaks töölaualt kaduma. Tõmmake kaart välja.
 
-## 5. samm: Seadistage Pi ja sisestage SD-kaart
+### 5. samm: Seadistage Pi ja sisestage SD-kaart
 
 Osad (korpust ei ole näidatud):
 
@@ -123,7 +123,7 @@ Lõpuks ühendage toide:
 
 ![image](assets/14.webp)
 
-## 6. samm: Leidke Pi IP-aadress
+### 6. samm: Leidke Pi IP-aadress
 
 Raspiblitziga ei ole kunagi vaja monitori. Teil on siiski vaja teist arvutit koduvõrgus. Kui teie Pi ei ole Etherneti kaudu ühendatud ja soovite WiFi-le toetuda, nõuab IP leidmine mõningaid arvutioskusi. Kahjuks ei saa aidata. Teil on vaja Etherneti ühendust. (Probleem tuleneb vajadusest pääseda ligi monitorile ja operatsioonisüsteemile, et ühendada WiFi ja sisestada parool.)
 
@@ -133,7 +133,7 @@ IP leidmine on hädavajalik.
 
 > UUENDUS: Maci või Linuxi masinas saad kasutada terminali, et leida kõikide Ethernetiga ühendatud seadmete IP-aadressid koduvõrgus, kasutades käsku „arp -a“. Väljund ei ole nii ilus kui ruuteri oma, kuid kogu vajalik info on olemas. Kui pole ilmne, milline on Pi, tee katse-eksituse meetodil.
 
-## 7. samm: SSH ühendus Pi'ga
+### 7. samm: SSH ühendus Pi'ga
 
 Enne Pi sisselülitamist pane sinna SD-kaart. Oota mõni minut ja seejärel ava teisel Linuxi/Maci masinal terminal.
 

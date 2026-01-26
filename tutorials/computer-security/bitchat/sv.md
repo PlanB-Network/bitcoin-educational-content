@@ -27,7 +27,7 @@ I den här handledningen visar vi hur Bitchat fungerar och hur du kan använda d
 ## 🚀 Viktiga funktioner
 
 
-Bitchat möjliggör offline-meddelanden genom dessa [funktioner] (https://github.com/permissionlesstech/bitchat-android?tab=readme-ov-file#features):
+Bitchat möjliggör offline-meddelanden genom dessa [funktioner](https://github.com/permissionlesstech/bitchat-android?tab=readme-ov-file#features):
 
 
 
@@ -54,7 +54,7 @@ Med Bitchat kan du skicka meddelanden till närliggande telefoner direkt via Blu
 Med Bitchat kan du också gå med i platsbaserade chattrum med hjälp av Nostr-protokollet och `#geohashes`. En geohash är en kort kod, som `#u33d`, som representerar ett specifikt geografiskt område, från ett enda grannskap, upp till en hel stad eller region. Du kan `teleportera` in i vilket geohash-chattrum som helst runt om i världen genom att helt enkelt ange dess tagg. Dina meddelanden skickas genom ett decentraliserat nätverk av reläer, vilket skyddar din exakta plats. Varje gång du går med i ett geohash-rum får du dessutom en ny, tillfällig identitet, vilket ger ett extra lager av integritet till dina platsbaserade konversationer.
 
 
-För mer exakta tekniska detaljer hänvisas till [officiell vitbok] (https://github.com/permissionlesstech/bitchat/blob/main/WHITEPAPER.md).
+För mer exakta tekniska detaljer hänvisas till [officiell vitbok](https://github.com/permissionlesstech/bitchat/blob/main/WHITEPAPER.md).
 
 
 ## 2️⃣ Installation och konfigurering
@@ -68,15 +68,15 @@ Du kan installera Bitchat genom:
 
 
 - [Apple App Store](https://apps.apple.com/us/app/bitchat-mesh/id6748219622) (för iOS-enheter)
-- [Google Play Store] (https://play.google.com/store/apps/details?id=com.bitchat.droid) (för Android-enheter)
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.bitchat.droid) (för Android-enheter)
 
 
 Android-användare har också alternativa möjligheter:
 
 
 
-- Ladda ner APK direkt från sidan [GitHub Releases] (https://github.com/permissionlesstech/bitchat-android/releases) eller
-- Installera via den Nostr-kompatibla [Zapstore] (https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq7xwd748yfjrsu5yuerm56fcn9tntmyv04w95etn0e23xrczvvraqqgkxmmd9e3xjarrdpshgtnywfhkjeqxtfkcr)
+- Ladda ner APK direkt från sidan [GitHub Releases](https://github.com/permissionlesstech/bitchat-android/releases) eller
+- Installera via den Nostr-kompatibla [Zapstore](https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq7xwd748yfjrsu5yuerm56fcn9tntmyv04w95etn0e23xrczvvraqqgkxmmd9e3xjarrdpshgtnywfhkjeqxtfkcr)
 
 
 ![image](assets/en/01.webp)
@@ -146,7 +146,7 @@ Använd menyn `#location channels` (till höger om användarnamnet) för att vä
 
 
 - BLE Mesh***: Standard Bluetooth-läge (inget internet, 10-50 meters räckvidd)
-- #geohashes**: Internetanslutna geografiska samhällen med hjälp av [Nostr-protokollet] (https://nostr.com/)
+- #geohashes**: Internetanslutna geografiska samhällen med hjälp av [Nostr-protokollet](https://nostr.com/)
 
 
 När du väljer `#geohashes`-läget integrerar Bitchat med Nostr-protokollet för att möjliggöra geografiska samhällen. Dina meddelanden publiceras till `decentraliserade Nostr-reläer` snarare än Bitchats peer-to-peer-nätverk, vilket möjliggör bredare men platsfiltrerade konversationer. Avgörande är att dina Bitchat-identitetsnycklar kryptografiskt signerar alla Nostr-händelser för att upprätthålla autentisering, medan geohash-taggar (som `#u4pruyd` för ett grannskap) filtrerar meddelanden till din valda precisionsnivå. Detta innebär att du kan delta i lokala diskussioner utan att avslöja exakta koordinater, men internetåtkomst krävs.
@@ -282,7 +282,7 @@ Geohash-kanaler möjliggör riktade konversationer baserade på "geografiska pla
 ### Hur fungerar `#geohashes`?
 
 
-Systemet delar in världen i rutnät med hjälp av [Geohash-systemet] (https://en.wikipedia.org/wiki/Geohash), där varje tecken i hashen representerar större precision:
+Systemet delar in världen i rutnät med hjälp av [Geohash-systemet](https://en.wikipedia.org/wiki/Geohash), där varje tecken i hashen representerar större precision:
 
 
 
@@ -331,7 +331,7 @@ Värmekartor är ett coolt sätt att upptäcka Bitchat-evenemang och -kanaler ru
 Bitchat möjliggör säker, decentraliserad kommunikation för scenarier där traditionella meddelanden inte fungerar. Den fungerar utan internetinfrastruktur med hjälp av BLE mesh-nätverk, vilket gör den lämplig för protester, katastrofzoner och avlägsna områden där anslutningsmöjligheterna är begränsade eller censurerade. Appen säkerställer integritet genom kryptering med efemära nycklar, geohash-baserade platskanaler och radering av data i panikläge.
 
 
-Appen befinner sig fortfarande i ett tidigt utvecklingsskede, men den är redan lovande. Användare bör förvänta sig enstaka buggar och rapportera problem via [GitHub] (https://github.com/permissionlesstech/bitchat-android/issues). Förbättringar är planerade, inklusive `ecash`-integration för privata transaktioner i appen med Cashu-protokollet.
+Appen befinner sig fortfarande i ett tidigt utvecklingsskede, men den är redan lovande. Användare bör förvänta sig enstaka buggar och rapportera problem via [GitHub](https://github.com/permissionlesstech/bitchat-android/issues). Förbättringar är planerade, inklusive `ecash`-integration för privata transaktioner i appen med Cashu-protokollet.
 
 
 ![image](assets/en/14.webp)

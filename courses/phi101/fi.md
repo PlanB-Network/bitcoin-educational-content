@@ -23,7 +23,7 @@ Antiikin ajoista valistuksen aikakauteen vapaus nousi, kun yhteiskunnat omaksuiv
 
 :::video id=be186f5a-9867-4132-bf3e-2212db365a4b:::
 
-Tervetuloa PHI201-kurssille!
+Tervetuloa PHI101-kurssille!
 
 Tämä kurssi kutsuu sinut tutkimaan vapauden kehitystä historian läpi analysoimalla suuria ajatussuuntauksia, jotka ovat muokanneet sitä. Tulet huomaamaan, kuinka vapauden käsite on rakentunut vuosisatojen aikana, joko vallan vastustuksena tai sen kanssa yhteistyössä, historiallisella matkalla antiikista nykypäivän keskusteluihin.
 

@@ -1,0 +1,9 @@
+question: Qual é a principal prioridade de um comerciante Lightning?
+answer: Aquisição de liquidez de entrada
+wrong_answers:
+  - Aquisição de liquidez de saída
+  - Poupança nos custos de encaminhamento
+  - Obter boas críticas sobre o LN+
+explanation: |
+  Um comerciante deve ser capaz de efetuar levantamentos sem falhar, o que exige uma liquidez de entrada suficiente.
+reviewed: false

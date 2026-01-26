@@ -1,0 +1,8 @@
+question: Selon l'analyse présentée, quelle est la différence fondamentale entre l'assouplissement quantitatif européen et américain en termes de mécanisme d'injection de liquidités?
+answer: En Europe, la banque centrale achète des obligations sur le marché secondaire auprès de banques et fonds, tandis qu'aux États-Unis, la Fed peut acheter directement sur le marché primaire
+wrong_answers:
+  - "En Europe, la banque centrale prête directement aux États via le discount window, tandis qu'aux États-Unis, elle passe par les banques commerciales exclusivement"
+  - "En Europe, l'assouplissement quantitatif se limite aux obligations privées, tandis qu'aux États-Unis, il concerne uniquement la dette publique fédérale"
+  - "En Europe, la création monétaire est plafonnée par les réserves fractionnaires, tandis qu'aux États-Unis, elle est illimitée par construction institutionnelle"
+explanation: |
+  Le texte établit clairement cette distinction : en Europe, les banques centrales achètent massivement des obligations sur le marché secondaire auprès des banques commerciales et fonds d'investissement, tandis qu'aux États-Unis, la Réserve fédérale peut acheter directement des titres de dette publique sur le marché primaire, finançant ainsi directement le déficit public avec de la monnaie nouvellement créée. Cette différence de mécanisme influence la vitesse et les canaux de transmission de la politique monétaire expansionniste.

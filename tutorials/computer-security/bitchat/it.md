@@ -27,7 +27,7 @@ In questo tutorial vi mostreremo come funziona Bitchat e come potete utilizzarlo
 ## 🚀 Caratteristiche principali
 
 
-Il Bitchat consente la messaggistica offline attraverso queste [funzioni] (https://github.com/permissionlesstech/bitchat-android?tab=readme-ov-file#features):
+Il Bitchat consente la messaggistica offline attraverso queste [funzioni](https://github.com/permissionlesstech/bitchat-android?tab=readme-ov-file#features):
 
 
 

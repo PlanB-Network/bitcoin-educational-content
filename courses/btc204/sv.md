@@ -502,7 +502,7 @@ Finns det något bättre sätt att motverka Blockchain-analys än att lära sig 
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-whirlpool-e566803d-ab3f-4d98-9136-5462009262ef
 
-https://planb.academy/tutorials/privacy/on-chain/[payjoin](https://planb.academy/resources/glossary/payjoin)-848b6a23-deb2-4c5f-a27e-93e2f842140f
+https://planb.academy/tutorials/privacy/on-chain/payjoin-848b6a23-deb2-4c5f-a27e-93e2f842140f
 
 I detta kan vi dra en analogi med kryptografi och kryptoanalys. En duktig kryptograf är först och främst en duktig kryptoanalytiker. För att ta fram en ny krypteringsalgoritm måste du veta vilka attacker den kommer att utsättas för och även studera varför tidigare algoritmer har brutits. Samma princip gäller för Bitcoin-sekretess. Att förstå Blockchain-analysmetoder är nyckeln till att skydda sig mot dem. Det är därför jag har inkluderat ett helt avsnitt on chain-analys i den här utbildningen.
 

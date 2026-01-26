@@ -328,7 +328,7 @@ Miner vajab võrguga suhtlemiseks Bitcoin sõlme.
 
 
 
-Mõnikord eristatakse ka Miner rolli kopterist. Hakkur on masin, mille ülesanne on Hash malliplokid, mis on tarnitud basseiniserveri poolt, otsides häkke, mis vastavad aktsiate jaoks määratletud raskusastme eesmärgile, mitte aga Bitcoin-le. Ülejäänud Mining protsessi, mis hõlmab tegelikku plokkide konstrueerimist, tehingu valimist või Bitcoin enda raskusastme järgi Bitcoin otsimist, samuti jaotamist, teostavad otse basseinid.
+Mõnikord eristatakse ka Miner rolli grind. Grind on masin, mille ülesanne on Hash malliplokid, mis on tarnitud basseiniserveri poolt, otsides häkke, mis vastavad aktsiate jaoks määratletud raskusastme eesmärgile, mitte aga Bitcoin-le. Ülejäänud Mining protsessi, mis hõlmab tegelikku plokkide konstrueerimist, tehingu valimist või Bitcoin enda raskusastme järgi Bitcoin otsimist, samuti jaotamist, teostavad otse basseinid.
 
 
 
@@ -2168,7 +2168,7 @@ Kui soovite lihtsalt ühendada Wallet, näiteks Sparrow, oma sõlme, et vaadata 
 
 
 
-Teisest küljest, et kasutada keerukamat tarkvara, näiteks käivitada Mempool.Locally, paigaldamine Address indekseri muutub hädavajalikuks ruumi Block explorer.
+Teisest küljest, et kasutada keerukamat tarkvara, näiteks käivitada mempool.space plokiuurija lokaalselt, muutub aadressi indekseerija paigaldamine hädavajalikuks.
 
 
 
@@ -2514,9 +2514,11 @@ Lõpuks soovitan *Lightning Network+* rakendust, mis võimaldab teil leida eakaa
 
 
 
-Tänu Umbrelile on isikliku Lightning-sõlme haldamine oluliselt lihtsustatud, kuid see on siiski suhteliselt keeruline. Seetõttu käsitleme seda teemat lähemalt tulevases kursuses, mis on täielikult sellele kasutusalale pühendatud.
+Tänu Umbrelile on isikliku Lightningi sõlme haldamine lihtsustatud, kuid jääb siiski suhteliselt keerukaks. Seetõttu soovitan teil läbida kursuse LNP 202, mis on kursuse BTC 202 loogiline jätk ning milles juhendan teid samm-sammult oma Lightningi sõlme seadistamisel ja haldamisel Umbrelis.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Tailscale
 
@@ -3894,11 +3896,13 @@ Nüüd saate liikuda edasi kursuse lõpuosasse, kus saate hinnata BTC 202, seej�
 
 
 
-Nüüd on teil mitu võimalust. Järgmine loogiline samm on luua oma Lightning-sõlm, mis võimaldab teil off-chain tehingute puhul olla täiesti sõltumatu. See on tulevase kursuse teema, mis avaldatakse 2025. aasta sügisel Plan ₿ Academy kohta.
+Nüüd on teie ees mitu võimalikku teed. Järgmine loogiline samm on luua oma Lightningi sõlm, et olla oma off-chain tehingutes täielikult sõltumatu. Just sellele teemale on pühendatud üks teine kursus Plan ₿ Academys:
 
 
 
-Vahepeal kutsun teid üles avastama BTC 204 koolitust, mis võimaldab teil mõista ja omandada privaatsuse kaitse põhimõtteid Bitcoin kasutamisel:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Kutsun teid samuti avastama koolitust BTC 204, mis võimaldab teil mõista ja omandada privaatsuse kaitse põhimõtteid Bitcoini kasutamisel:
 
 
 

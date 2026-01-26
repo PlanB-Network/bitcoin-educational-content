@@ -234,7 +234,7 @@ Aby lepiej zrozumieć ten mechanizm i ile cykli warto na niego czekać, polecam 
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 Aby wyświetlić liczbę remiksów wykonanych przez każdy z twoich utworów, otwórz menu `UTXOs` na koncie `Postmix`.
 
@@ -354,7 +354,7 @@ Wydajność kilku cykli coinjoin jest mierzona wielkością zbiorów, w których
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 ## Jak zarządzać postmixem?
 

@@ -1,0 +1,9 @@
+question: LND के लिए विशिष्ट seed प्रारूप का नाम क्या है?
+answer: ऐज़ीद
+wrong_answers:
+  - जीडब्ल्यू-239
+  - बीज
+  - जीडब्ल्यू-332
+explanation: |
+  LND एक विशिष्ट seed का उपयोग करता है जिसे एज़ीड कहा जाता है, जो क्लासिक BIP39 seed से अलग है।
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: विरासत
+name: Heritage
 description: Taproot स्क्रिप्ट के माध्यम से एकीकृत वंशानुक्रम तंत्र वाला Bitcoin पोर्टफोलियो
 ---
 

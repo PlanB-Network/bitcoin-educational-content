@@ -96,6 +96,6 @@ For eksempel, når du oppretter en ny veiledning, vil du trenge å opprette en Y
 For dette har du flere alternativer tilgjengelig. Selv om standard notisblokk på datamaskinen din kan brukes til disse endringene, er ikke denne løsningen ideell for pent arbeid. Jeg anbefaler å velge programvare som er spesifikt designet for dette formålet, slik som [VS Code](https://code.visualstudio.com/download) eller [Sublime Text](https://www.sublimetext.com/download). Sublime Text, som er spesielt lettvekt, vil være mer enn tilstrekkelig for våre behov. - Installer ett av disse programmene, og hold det til side for dine fremtidige modifikasjoner. ![github-desktop](assets/26.webp)
 Gratulerer! Ditt arbeidsmiljø er nå satt opp for å bidra til Plan ₿ Academy. Du kan nå utforske våre andre spesifikke veiledninger for hver type bidrag (oversettelse, korrekturlesing, skriving.
 
-https://planb.academy/tutorials/others
+https://planb.academy/tutorials/contribution
 
 ..).

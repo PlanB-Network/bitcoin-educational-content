@@ -9,7 +9,7 @@ Hvis du leser dette, er det stor sannsynlighet for at du har mottatt enten et Bi
 
 I denne veiledningen skal vi se hvordan Plan ₿ Academy utsteder verifiserbare bevis for ditt Bitcoin-sertifikat eller ethvert fullføringsdiplom for kurs. Deretter, i en andre del, vil vi se hvordan man kan verifisere ektheten av disse bevisene.
 
-# Plan ₿ Networks bevismekanisme
+## Plan ₿ Networks bevismekanisme
 
 Hos Plan ₿ Academy tilbyr vi deg et sertifikat og diplomer som er kryptografisk signert av oss, og tidsstemplet på Timechain (dvs. Bitcoin-blockchainen). For å oppnå dette måtte vi komme opp med en bevismekanisme som stoler på 2 kryptografiske operasjoner:
 
@@ -23,7 +23,7 @@ Vi tror at denne enkle bevismekanismen gjør det mulig for oss å utstede sertif
 
 Merk at takket være denne bevismekanismen vil ethvert forsøk på å endre selv den minste detalj av ditt sertifikat eller diplom skape en helt annen sha256-hash av den signerte filen, noe som umiddelbart ville avsløre manipulering fordi signaturen og tidsstemplingen ikke ville være gyldige lenger. Videre, hvis noen forsøker å forfalske noen sertifikater eller diplomer på vegne av Plan ₿ Academy, ville en enkel verifisering av signaturen avsløre svindelen.
 
-## Hvordan fungerer GPG-signaturen?
+### Hvordan fungerer GPG-signaturen?
 
 GPG-signaturen oppnås med bruk av en åpen kildekode-programvare kalt GNU Private Guard. Denne programvaren lar hvem som helst enkelt opprette private nøkler, signere og verifisere signaturer og også kryptere og dekryptere filer. For dette veiledningens omfang, vit at Plan ₿ Academy bruker GPG for å opprette sin private/offentlige nøkkel og for å signere ethvert Bitcoin-sertifikat eller fullføringsdiplom for kurs.
 
@@ -31,15 +31,15 @@ På den annen side, hvis noen ønsker å verifisere ektheten av en signert fil, 
 
 For de som er nysgjerrige og ønsker å lære mer om denne fantastiske programvaren, kan dere referere til ["The GNU Privacy Handbook"](https://www.gnupg.org/gph/en/manual/x135.html)
 
-## Hvordan fungerer tidsstempling?
+### Hvordan fungerer tidsstempling?
 
 Hvem som helst kan bruke OpenTimestamps for å tidsstemple en fil, og oppnå et verifiserbart bevis på filens eksistens. Med andre ord, det gir deg ikke et bevis på når filen ble opprettet, men et bevis på eksistens ikke senere enn et bestemt øyeblikk.
 OpenTimestamps er i stand til å tilby denne tjenesten gratis takket være en svært effektiv måte å lagre slikt bevis i Bitcoin Blockchain. Det bruker sha256-hashen av filen som en unik identifikator for filen din og bygger et merkeltre med andre hasher av innsendte filer fra andre brukere og forankrer kun hashen av Merkle-trestrukturen i en OpReturn-transaksjon.
 Når denne transaksjonen er i en blokk, kan hvem som helst med den opprinnelige filen og `.ots`-filen som er tilknyttet den, verifisere ektheten av tidsstemplingen. I den andre delen av opplæringen vil vi se hvordan du kan verifisere ditt Bitcoin-sertifikat eller ethvert diplom for kursgjennomføring med en terminal og med et grafisk grensesnitt via nettstedet til OpenTimestamps.
 
-# Hvordan verifisere et Plan ₿ Academy-sertifikat eller diplom
+## Hvordan verifisere et Plan ₿ Academy-sertifikat eller diplom
 
-## Steg 1. Last ned ditt sertifikat eller diplom
+### Steg 1. Last ned ditt sertifikat eller diplom
 
 Logg inn på ditt personlige Plan ₿ Academy-dashboard.
 
@@ -59,14 +59,14 @@ Pakk ut innholdet ved å høyreklikke på `.zip`-filen og velge "Pakk ut". Du vi
 - Åpen tidsstempelfil (OTS) (f.eks., certificate.txt.ots)
 - PDF-sertifikat (f.eks., certificate.pdf)
 
-## Steg 2: Verifisering av signaturen til tekstfilen
+### Steg 2: Verifisering av signaturen til tekstfilen
 
 Åpne først en terminal i mappen der filene er (høyreklikk på mappens vindu og klikk på "Åpne i terminal"). Følg deretter instruksjonene nedenfor
 
 1. Importer Plan ₿ Networks offentlige PGP-nøkkel med følgende kommando:
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
 ```
 
 Du bør se en melding som følgende hvis du har importert PGP-nøkkelen vellykket
@@ -102,9 +102,9 @@ gpg: God signatur fra "Plan ₿ Academy (brukt for Plan ₿ Academy-plattformen)
 
 Hvis du ser en melding som "DÅRLIG signatur", betyr det at filen har blitt manipulert.
 
-## Steg 3: Verifisering av den åpne tidsstempelet
+### Steg 3: Verifisering av den åpne tidsstempelet
 
-### Verifisering via et grafisk grensesnitt
+#### Verifisering via et grafisk grensesnitt
 
 1. Besøk OpenTimestamps-nettstedet: https://opentimestamps.org/
 2. Klikk på "Stamp & Verify"-fanen.
@@ -115,7 +115,7 @@ Hvis du ser en melding som "DÅRLIG signatur", betyr det at filen har blitt mani
 Hvis du ser en melding som følgende er tidsstempelet ditt gyldig:
 ![cover](assets/opentimestamp_wegui_verified.webp)
 
-### CLI Metode
+#### CLI Metode
 
 MERK: denne prosedyren **vil kreve at en lokal Bitcoin-node kjører**
 
@@ -139,7 +139,7 @@ Denne kommandoen vil:
 - Vise deg nøyaktig når filen ble tidsstemplet
 - Bekrefte tidsstempelets autentisitet
 
-### Endelige resultater
+#### Endelige resultater
 
 Merk at verifiseringen er vellykket hvis følgende **begge** meldinger vises:
 

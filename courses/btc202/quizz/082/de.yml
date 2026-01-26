@@ -1,4 +1,4 @@
-question: Was ist der Standardwert für minrelaytxfee in Bitcoin core?
+question: Was ist der Standardwert für minrelaytxfee in Bitcoin Core?
 answer: 0.00001 BTC/kvB (1 sat/vB)
 wrong_answers:
   - 0.0001 BTC/kvB (10 sat/vB)

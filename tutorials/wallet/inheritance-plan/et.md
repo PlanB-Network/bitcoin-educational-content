@@ -424,7 +424,7 @@ Alustage oma profiilile sobiva tehnilise lahenduse valimisest, testige seda väi
 
 
 
-- [Bitcoin pärimisplaani mall (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Plan ₿ Network dokumentatsiooni mall
+- [Bitcoin pärimisplaani mall (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Plan ₿ Academy dokumentatsiooni mall
 
 
 

@@ -1,5 +1,5 @@
 ---
-name: Dziedzictwo
+name: Heritage
 description: Portfel Bitcoin ze zintegrowanym mechanizmem dziedziczenia poprzez skrypty Taproot
 ---
 

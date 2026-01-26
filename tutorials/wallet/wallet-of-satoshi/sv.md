@@ -4,6 +4,12 @@ description: Den enklaste depån Wallet för att komma igång
 ---
 ![cover](assets/cover.webp)
 
+---
+
+*Observera: sedan början av 2026 är Wallet of Satoshi i custodial-läge (såsom presenterat i denna handledning) inte längre tillgänglig inom Europeiska unionen. Om du är bosatt i detta område och vill fortsätta använda detta verktyg måste du använda ett VPN som är placerat utanför EU. Ett annat alternativ är att använda Wallet of Satoshi i self-custodial-läge. En särskild handledning kommer snart att publiceras på Plan ₿ Academy.*
+
+---
+
 _Den här handledningen skrevs av_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 

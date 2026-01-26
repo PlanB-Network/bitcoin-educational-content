@@ -1,0 +1,9 @@
+question: Hva er den største ulempen med tvungen nedleggelse?
+answer: Midler blokkert av tidslås
+wrong_answers:
+  - Delvis tap av midler
+  - Foreldelse av Lightning-noden
+  - Desynkronisering av lynnode
+explanation: |
+  Midlene er blokkert av en tidslås, og gebyrene er ofte høye.
+reviewed: false

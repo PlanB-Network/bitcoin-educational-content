@@ -1,0 +1,9 @@
+question: Wat is de capaciteit van een Lightning-kanaal?
+answer: Totaal vergrendeld bedrag
+wrong_answers:
+  - Totale beschikbare liquiditeit in één richting
+  - Maximale vergoedingen
+  - Maximaal aantal mogelijke betalingen
+explanation: |
+  De capaciteit komt overeen met de totale som van sats geblokkeerd in de multisig uitgang van het kanaal.
+reviewed: false

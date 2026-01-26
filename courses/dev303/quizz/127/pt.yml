@@ -1,8 +1,0 @@
-question: Que limitação fundamental dos pagamentos Lightning Network cria um desafio único para os promotores wallet que não existe nas transacções on-chain Bitcoin?
-answer: Os pagamentos relâmpago existem apenas como estados temporários nos canais de pagamento e não são registados permanentemente na cadeia de blocos, exigindo sistemas personalizados de acompanhamento do histórico de pagamentos
-wrong_answers:
-  - Os pagamentos relâmpago requerem significativamente mais recursos computacionais para serem processados do que as transacções on-chain, tornando a implementação móvel intensiva em termos de recursos
-  - Os pagamentos Lightning não podem ser verificados criptograficamente da mesma forma que as transacções on-chain, criando vulnerabilidades de segurança para as implementações wallet
-  - Os pagamentos relâmpago têm de ser processados através de nós de encaminhamento centralizados, tornando impossível manter uma arquitetura wallet verdadeiramente não custodial
-explanation: |
-  A resposta correta identifica a principal diferença arquitetónica entre os pagamentos Lightning e on-chain. As transacções Bitcoin na cadeia são permanentemente registadas na cadeia de blocos, tornando a recuperação do histórico de pagamentos simples através de consultas na cadeia de blocos. Os pagamentos Lightning, no entanto, existem apenas como estados de canal temporários e não deixam qualquer registo permanente na blockchain, obrigando os programadores a implementar sistemas personalizados de rastreio e armazenamento. As respostas erradas são incorrectas porque: Os pagamentos relâmpago são computacionalmente eficientes (não consomem muitos recursos), mantêm a mesma segurança criptográfica que o Bitcoin e o roteamento é descentralizado (não centralizado).

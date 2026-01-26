@@ -1,9 +1,9 @@
-question: `wpkh` ใน descriptor หมายถึงอะไร?
-answer: จ่าย-เพื่อ-เป็นพยาน-กุญแจสาธารณะ-Hash
+question: "`wpkh` ใน descriptor หมายถึงอะไร?"
+answer: "จ่าย-เพื่อ-เป็นพยาน-กุญแจสาธารณะ-Hash"
 wrong_answers:
-  - จ่ายไปยังคีย์สาธารณะ
-  - Pay-to-Script-Hash
-  - สคริปต์พยาน Hash
+  - "จ่ายไปยังคีย์สาธารณะ"
+  - "Pay-to-Script-Hash"
+  - "สคริปต์พยาน Hash"
 explanation: |
   คำนำหน้า `wpkh` บ่งบอกถึงสคริปต์ SegWit v0 ที่ใช้ที่อยู่ Pay-to-Witness-Public-Key-Hash
 reviewed: false

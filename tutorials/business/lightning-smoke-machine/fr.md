@@ -203,14 +203,14 @@ Nous prendrons *Blink* comme exemple, mais *BTCPay Server* propose également *S
 - Rendez-vous sur https://www.blink.sv
 - Créez votre compte. Pour ça, vous pouvez vous référer au tutoriel : 
 
-[https://planb.academy/en/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd](https://planb.academy/en/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd)
+[https://planb.academy/tutorials/wallet/mobile/blink-7ea5f5a4-e728-4ff9-b3f9-cf20aa6fc2bd)
 
 **2 - Générer un clé API *Blink***
 - Accédez à l'interface API : **[https://www.blink.sv/en/api](https://www.blink.sv/en/api)** et connectez vous avec le même compte que lors de la création de votre wallet *Blink*
 
 ![blink-api](assets/fr/18.webp)
    
-   - Une fois connecter, aller dans l'onglet *API Keys* 
+   - Une fois connecté, aller dans l'onglet *API Keys* 
 
 ![blink-api](assets/fr/19.webp)
    
@@ -322,7 +322,7 @@ Config file does not exist.
 Entering config mode. until we receive /config-done.
 ```
 
-(C'est normal, ça signifie qu'il n'y a pas encore de config, mais que le firmware à bien été installé)
+(C'est normal, ça signifie qu'il n'y a pas encore de configuration, mais que le firmware à bien été installé)
 
 ![bitcoinswitch-lnbits](assets/fr/36.webp)
 

@@ -11,7 +11,7 @@ Bitfeed on platvorm Bitcoin protokolli onchain-kihi visualiseerimiseks. Selle al
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 Selles õpetuses vaatame seda tööriista, mis võimaldab teil uurida kõiki tehinguid ja plokke võrgus.
 
@@ -95,7 +95,7 @@ Selle ploki esimene tehing kujutab endast **coinbase** tehingut, mis võimaldab 
 
 
 
-https://planb.academy/courses/obtenir-ses-premiers-bitcoins-f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 Vaikimisi esitatakse tehingud plokis kahe kriteeriumi alusel:
 

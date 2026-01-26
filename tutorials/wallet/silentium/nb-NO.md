@@ -75,7 +75,7 @@ Silentium er en Progressive Web App (PWA) som er tilgjengelig fra alle moderne n
 
 
 
-[Gå til `https://app.silentium.dev/` fra nettleseren din] (https://app.silentium.dev/). Programmet lastes inn umiddelbart og viser startskjermen.
+[Gå til `https://app.silentium.dev/` fra nettleseren din](https://app.silentium.dev/). Programmet lastes inn umiddelbart og viser startskjermen.
 
 
 

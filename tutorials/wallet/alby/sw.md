@@ -46,7 +46,7 @@ Katika mafunzo haya, tutatumia kiendelezi cha Alby katika kivinjari cha Firefox 
 
 
 
-Unaweza kuongeza kiendelezi cha Alby kwenye kivinjari chako kwa kutembelea duka la viendelezi la [Firefox] (https://addons.mozilla.org/fr/firefox/addon/alby/) au duka la viendelezi la [Chrome] (https://chromewebstore.google.com/detail/alby-bitcoin-wallet-for-l/iokeahhehimjnekafflcihljlcjccdbe).
+Unaweza kuongeza kiendelezi cha Alby kwenye kivinjari chako kwa kutembelea duka la viendelezi la [Firefox](https://addons.mozilla.org/fr/firefox/addon/alby/) au duka la viendelezi la [Chrome](https://chromewebstore.google.com/detail/alby-bitcoin-wallet-for-l/iokeahhehimjnekafflcihljlcjccdbe).
 
 
 

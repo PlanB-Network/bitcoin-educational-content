@@ -46,7 +46,7 @@ In diesem Tutorial werden wir die Alby-Erweiterung im Firefox-Browser unter eine
 
 
 
-Sie können die Alby-Erweiterung zu Ihrem Browser hinzufügen, indem Sie den Erweiterungsspeicher [Firefox] (https://addons.mozilla.org/fr/firefox/addon/alby/) oder den Erweiterungsspeicher [Chrome] (https://chromewebstore.google.com/detail/alby-bitcoin-wallet-for-l/iokeahhehimjnekafflcihljlcjccdbe) besuchen.
+Sie können die Alby-Erweiterung zu Ihrem Browser hinzufügen, indem Sie den Erweiterungsspeicher [Firefox](https://addons.mozilla.org/fr/firefox/addon/alby/) oder den Erweiterungsspeicher [Chrome](https://chromewebstore.google.com/detail/alby-bitcoin-wallet-for-l/iokeahhehimjnekafflcihljlcjccdbe) besuchen.
 
 
 

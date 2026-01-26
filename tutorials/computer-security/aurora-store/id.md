@@ -14,7 +14,7 @@ Dalam tutorial ini, kita akan menemukan Aurora Store, sebuah alternatif yang sed
 
 
 
-# Memulai dengan Toko Aurora
+## Memulai dengan Toko Aurora
 
 
 
@@ -88,7 +88,7 @@ Dari Aurora Store, Anda dapat mengakses katalog aplikasi yang tersedia di Google
 
 
 
-## Fitur
+### Fitur
 
 
 

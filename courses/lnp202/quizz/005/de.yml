@@ -1,0 +1,9 @@
+question: Welche Daten kann ein Betreiber von Lightning wallet über seine Nutzer beobachten?
+answer: Alle ihre Ströme
+wrong_answers:
+  - Ihre Identitäten
+  - Die Metadaten ihrer Zahlungen, jedoch ohne die Beträge
+  - Die Kosten für ihre Zahlungen, jedoch ohne die Beträge
+explanation: |
+  Der Betreiber hat Zugang zu den Beträgen, der Häufigkeit, den Empfängern und den Zahlungsgewohnheiten des Nutzers - kurz gesagt, er kann alles beobachten, auch wenn diese Dienste oft KYC-frei sind.
+reviewed: false

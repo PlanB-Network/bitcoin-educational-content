@@ -1,0 +1,9 @@
+question: Mengapa menghindari node yang sangat besar untuk saluran pertama?
+answer: Kebijakan yang membatasi
+wrong_answers:
+  - Konektivitas rendah
+  - Biaya terlalu rendah
+  - Kurangnya likuiditas
+explanation: |
+  Node yang sangat besar sering kali memaksakan jumlah minimum yang tinggi dan dengan mudah menutup saluran kecil.
+reviewed: false

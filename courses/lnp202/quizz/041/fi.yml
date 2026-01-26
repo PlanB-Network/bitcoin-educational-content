@@ -1,0 +1,9 @@
+question: Mihin asennan ThunderHub:n Umbrel:een?
+answer: App Store
+wrong_answers:
+  - SSH-konsoli
+  - Järjestelmän asetukset
+  - Interface Bitcoin Ydin
+explanation: |
+  ThunderHub asennetaan sovelluksena Umbrel App Storen kautta.
+reviewed: false

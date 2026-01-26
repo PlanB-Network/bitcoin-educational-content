@@ -43,7 +43,7 @@ Karibu kwenye kozi hii ya programu rafiki kwa wanaoanza kwenye SDK. Katika mafun
 Video za mafunzo hayo zitapatikana kwa Kiingereza pekee kwa sasa na zilikuwa sehemu ya semina ya moja kwa moja iliyoandaliwa Oktoba iliyopita huko Tuscany na Fulgure Venture. Mafunzo haya yatalenga wiki ya kwanza pekee. Kipindi cha pili kililenga RGB na kinaweza kupatikana katika kozi ya RGB.
 
 
-https://planb.academy/en/courses/rgb-programming-3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 Mafunzo haya yanakupa fursa ya kukuza ujuzi wako wa programu kwenye Lightning Network kwa kutumia Rust na SDK mbalimbali. Yameundwa kwa ajili ya watengenezaji programu wenye ujuzi mzuri wa programu ambao wanataka kujifunza zaidi kuhusu uundaji mahususi wa Lightning Network. Utajifunza misingi ya Rust, kwa nini inafaa kwa uundaji wa Bitcoin, na kisha kuendelea na utekelezaji wa vitendo kwa kutumia SDK maalum.
 

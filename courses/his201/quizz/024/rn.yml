@@ -1,9 +1,9 @@
-question: Ni nde muntu yakiriye neza ico gitabu cera igihe casohoka mu kwezi kwa Munyonyo mu 2008?
-answer: Hal Finney
+question: "Ni nde muntu yakiriye neza ico gitabu cera igihe casohoka mu kwezi kwa Munyonyo mu 2008?"
+answer: "Hal Finney"
 wrong_answers:
-   - James A. Donald
-  - John R. Levine
-  - Ray Dillinger
+  - "James A. Donald"
+  - "John R. Levine"
+  - "Ray Dillinger"
 explanation: |
-  Ku wa 7 Munyonyo, yandikiye abo bari muri iyo list ko Bitcoin [isa n’uko] ari iciyumviro gitanga umuhango cane. Abandi na bo bari bafise amakenga kuruta. (Ubuhinga bwa none: 2008-Ugushyingo/014827.html)
+  Ku wa 7 Munyonyo, yandikiye abo bari muri iyo list ko Bitcoin [isa n'uko] ari iciyumviro gitanga umuhango cane. Abandi na bo bari bafise amakenga kuruta. (Ubuhinga bwa none: 2008-Ugushyingo/014827.html)
 reviewed: true

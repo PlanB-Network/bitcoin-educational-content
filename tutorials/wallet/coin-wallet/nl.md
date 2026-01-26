@@ -20,12 +20,12 @@ Belangrijkste voordelen:
 
 
 - Niet-vrijheidsberovende architectuur
-- Volledig [open-source code] (https://github.com/CoinSpace/CoinSpace/blob/master/LICENSE)
+- Volledig [open-source code](https://github.com/CoinSpace/CoinSpace/blob/master/LICENSE)
 - Eenvoudig en strak ontwerp
 - Gericht op het hoofddoel - cryptocurrency veilig opslaan, zonder onnodige functies
 - Ondersteuning voor meerdere platforms: mobiel (iOS & Android), desktop, web
 - RBF (Replace-By-Fee) ondersteuning - versnelt vastgelopen transacties op elk moment
-- Hardware 2FA met [YubiKey] (https://www.yubico.com/works-with-yubikey/catalog/coin-wallet/) / FIDO2 sleutel
+- Hardware 2FA met [YubiKey](https://www.yubico.com/works-with-yubikey/catalog/coin-wallet/) / FIDO2 sleutel
 - Ingebouwde Tor-ondersteuning - routeer al het verkeer via het Tor-netwerk voor maximale privacy
 
 
@@ -56,7 +56,7 @@ Coin Wallet is beschikbaar op alle belangrijke platforms.
 
 
 
-- [Android APK] (https://coin.space/api/v3/download/android-apk/any)
+- [Android APK](https://coin.space/api/v3/download/android-apk/any)
 
 
 
@@ -72,7 +72,7 @@ Ook beschikbaar voor desktop (Windows, Linux, macOS), als webapp en via Tor.
 ## 2️⃣ Een Wallet aanmaken en de PIN instellen
 
 
-Een wallet wordt gemaakt met behulp van een passphrase - een willekeurige reeks van 12 woorden gescheiden door spaties, gegenereerd uit een [lijst van 2048 woorden] (https://github.com/paulmillr/scure-bip39/blob/main/src/wordlists/english.ts).
+Een wallet wordt gemaakt met behulp van een passphrase - een willekeurige reeks van 12 woorden gescheiden door spaties, gegenereerd uit een [lijst van 2048 woorden](https://github.com/paulmillr/scure-bip39/blob/main/src/wordlists/english.ts).
 
 Coin Wallet ondersteunt 12, 15, 18, 21 of 24-woord wachtzinnen geïmporteerd van andere portemonnees.
 

@@ -1,8 +1,0 @@
-question: Welke fundamentele beperking van Lightning Network betalingen creëert een unieke uitdaging voor wallet ontwikkelaars die niet bestaat bij on-chain Bitcoin transacties?
-answer: Lightning-betalingen bestaan alleen als tijdelijke statussen binnen betalingskanalen en worden niet permanent vastgelegd op de blockchain, waardoor aangepaste volgsystemen voor de betalingsgeschiedenis nodig zijn
-wrong_answers:
-  - Lightning-betalingen vereisen aanzienlijk meer rekenkracht om te verwerken dan on-chain-transacties, waardoor mobiele implementatie veel rekenkracht kost
-  - Lightning-betalingen kunnen niet op dezelfde manier cryptografisch worden geverifieerd als on-chain-transacties, waardoor beveiligingsproblemen ontstaan voor wallet-implementaties
-  - Lightning-betalingen moeten worden verwerkt via gecentraliseerde routeringsknooppunten, waardoor het onmogelijk is om een echt niet-custodiale wallet architectuur te handhaven
-explanation: |
-  Het juiste antwoord identificeert het belangrijkste architecturale verschil tussen Lightning- en on-chain-betalingen. On-chain Bitcoin transacties worden permanent vastgelegd op de blockchain, waardoor de betalingsgeschiedenis eenvoudig kan worden opgevraagd via blockchain queries. Lightning-betalingen bestaan echter alleen als tijdelijke kanaaltoestanden en laten geen permanente blockchainrecord achter, waardoor ontwikkelaars gedwongen worden om aangepaste tracking- en opslagsystemen te implementeren. De verkeerde antwoorden zijn onjuist omdat: Lightning-betalingen zijn computationeel efficiënt (niet resource-intensief), ze behouden dezelfde cryptografische beveiliging als Bitcoin, en de routering is gedecentraliseerd (niet gecentraliseerd).

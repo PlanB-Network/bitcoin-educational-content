@@ -1,0 +1,9 @@
+question: 本章所述的 LND (REST) 連線必須在 Zeus 中設定哪個連接埠？
+answer: 8080
+wrong_answers:
+  - 8333
+  - 8332
+  - 50001
+explanation: |
+  若要從 Umbrel 上的 LND 節點存取 API，您需要在設定 Zeus 時使用 8080 連接埠。
+reviewed: false

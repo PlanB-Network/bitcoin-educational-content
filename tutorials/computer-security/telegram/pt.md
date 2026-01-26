@@ -72,10 +72,10 @@ No ecrã seguinte, pode verificar novamente o número que forneceu. Se estiver c
 O Telegram está agora totalmente funcional no telemóvel, podemos passar às primeiras definições básicas.
 
 
-# Definições de segurança e privacidade
+## Definições de segurança e privacidade
 
 
-## Configuração do nome de utilizador
+### Configuração do nome de utilizador
 
 
 O nome de utilizador do Telegram - por vezes também chamado `handle` - é muito mais do que uma mera fantasia. O identificador é de facto **único para cada utilizador**.
@@ -129,7 +129,7 @@ Não podem, graças à singularidade do nome de utilizador.
 **O que podem fazer é apresentar um nome de utilizador "semelhante", mudando ligeiramente (uma letra/número), de modo a que só um olhar atento possa ver claramente que se trata de um burlão**. Preste sempre muita atenção ao nome de utilizador e verá que os impostores não terão um jogo fácil.
 
 
-## Privacidade
+### Privacidade
 
 
 Outra precaução importante que pode tomar é limitar as informações que divulga da sua conta recentemente criada.
@@ -165,7 +165,7 @@ Estas são medidas que impedem a exposição do seu número de telefone, para qu
 Agora que a tua conta Telegram está configurada e ganhaste um pouco de privacidade, podes começar a utilizá-la.
 
 
-## Adicionar contactos e chats
+### Adicionar contactos e chats
 
 
 Se a sua conta acabou de ser criada, é provável que a página principal apareça completamente vazia.
@@ -229,7 +229,7 @@ Por defeito, todos, desde utilizadores individuais a canais temáticos, são ide
 ⚠️Attention: **evitar juntar-se a grupos e canais sem verificar a sua autenticidade**. Para encontrar o canal/grupo oficial do Telegram de uma empresa ou tópico que deseja seguir, procure ajuda na secção _Contactos_ dos sites oficiais ou em fontes altamente fiáveis.
 
 
-### Funcionalidades avançadas de mensagens
+#### Funcionalidades avançadas de mensagens
 
 
 O Telegram permite-lhe utilizar funcionalidades avançadas únicas no que diz respeito à troca de mensagens. Entra numa conversa e clica no fundo, ao lado de qualquer mensagem de outro remetente.
@@ -257,7 +257,7 @@ Também é possível anexar ficheiros de grandes dimensões, trocando facilmente
 ![image](assets/en/46.webp)
 
 
-### Nuvem pessoal
+#### Nuvem pessoal
 
 
 Entre as muitas funcionalidades incríveis do Telegram, existe também uma nuvem pessoal que - no momento em que escrevo - é **ilimitada**.
@@ -285,7 +285,7 @@ O chat aparece em primeiro plano, pronto a ser utilizado.
 ***
 
 
-## Agendamento de mensagens e envio silencioso
+### Agendamento de mensagens e envio silencioso
 
 
 Outras funcionalidades avançadas úteis permitem enviar mensagens respeitando a privacidade dos destinatários, escolher entre o envio silencioso e programar a mensagem para horas e dias apropriados.
@@ -301,7 +301,7 @@ Tudo o que precisa de fazer é escrever a mensagem mas, em vez de a enviar imedi
 ![image](assets/en/48.webp)
 
 
-### Limpar a cache do telemóvel
+#### Limpar a cache do telemóvel
 
 
 Outra prática útil para manter o telemóvel a funcionar de forma eficiente é limpar a cache do Telegram de vez em quando. Dependendo de quantos grupos e canais você segue, de fato, as informações e mídias vindas dessas fontes podem se acumular no cache, tornando seu telefone lento.
@@ -350,7 +350,7 @@ Na fotografia seguinte, pode ver onde se encontra esta definição.
 ![image](assets/en/28.webp)
 
 
-## Área de trabalho do telegrama
+### Área de trabalho do telegrama
 
 
 O Telegram pode ser utilizado a partir do seu computador, de modo a ser sincronizado com a conta apresentada no seu telemóvel. É possível optar por não descarregar a aplicação e utilizá-la apenas através da Web. No entanto, esta versão tem limitações em comparação com a que é executada no computador, pelo que recomendo que a descarregue e instale para tirar o máximo partido desta poderosa ferramenta.
@@ -421,7 +421,7 @@ Uma notificação no seu telemóvel confirma que o novo dispositivo foi adiciona
 Em especial, o Telegram está ativo e pode ser utilizado também no seu computador de secretária.
 
 
-### Chamada de grupo
+#### Chamada de grupo
 
 
 Se fores administrador ou proprietário de um grupo do Telegram, podes iniciar uma chamada a partir do próprio menu do grupo. Desta forma, pode fazer transmissões em direto com vários participantes, gravá-las em áudio e vídeo, partilhá-las ou utilizá-las para fins como a educação.
@@ -433,7 +433,7 @@ Na imagem seguinte, pode ver como iniciar uma chamada de grupo utilizando o ambi
 ![image](assets/en/47.webp)
 
 
-### Considerações finais
+#### Considerações finais
 
 
 Agora que leu este tutorial, é perfeitamente capaz de escolher como usar o Telegram, sem ser influenciado pelo ruído gerado pelo hype dos seus utilizadores, ou pelo mainstream. Você pode começar com uma abordagem leve e depois descobrir como tirar o máximo proveito dela, para suas necessidades pessoais, este aplicativo de mensagens.

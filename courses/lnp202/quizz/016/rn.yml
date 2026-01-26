@@ -1,0 +1,9 @@
+question: Ni amakuru ayahe yerekana ubushobozi bwo kwakira bw’umurongo w’umuravyo?
+answer: Amafaranga yinjira
+wrong_answers:
+  - Amahuza akora
+  - Amafaranga asohoka
+  - Umubare w'amabuye
+explanation: |
+  Ivyinjira mu gihugu bigereranya sats iyo node ishobora kwakira biciye ku Muravyo.
+reviewed: false

@@ -1,0 +1,11 @@
+question: What event on April 15, 2011 was dubbed "Black Friday" by poker players?
+answer: Shut down major US online poker platforms by the FBI for circumventing the UIGEA
+wrong_answers:
+  - Offer of some online poker sites offered major promotions on rake and buy-in fees
+  - Major flaw in online poker software allowed funds to be diverted to buy jewelry and golf balls
+  - Amateur player Chris Moneymaker has won the main tournament of the World Poker Championship after training online
+explanation: |
+ They were accused of posing as conventional merchants to get their banks to validate incoming transfers, which were prohibited by the Unlawful Internet Gambling 
+ Enforcement Act of 2006. This closure was disastrous for the online poker industry. It prompted the creation of several bitcoin poker platforms, as the 
+ cryptocurrency was not subject to the same restrictions.
+reviewed: true

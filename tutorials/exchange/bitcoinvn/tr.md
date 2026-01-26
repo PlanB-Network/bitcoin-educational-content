@@ -56,7 +56,7 @@ Bu kılavuz kesinlikle araçlarımız hakkında eğitim amaçlıdır ve **finans
 ### Adım 3: VND Tutarını Girin ve Anlaşma Ayrıntılarını İnceleyin
 
 
-Takas etmek istediğiniz miktarı manuel olarak girin ve bir hesabınız yoksa kapasitenizi kontrol etmek için [günlük limitler bağlantısını] (https://bitcoinvn.io/info) veya Min/Maks düğmelerini kullanın. Sistem, [takas ücretleri](https://support.bitcoinvn.io/help/en-us/4-orders/12-fees) ve o andaki döviz kurunu hesaba kattıktan sonra alacağınız nihai BTC miktarını anında hesaplar. Anlaşmadan memnun olup olmadığınızı görmek için nihai BTC miktarını gözden geçirin.
+Takas etmek istediğiniz miktarı manuel olarak girin ve bir hesabınız yoksa kapasitenizi kontrol etmek için [günlük limitler bağlantısını](https://bitcoinvn.io/info) veya Min/Maks düğmelerini kullanın. Sistem, [takas ücretleri](https://support.bitcoinvn.io/help/en-us/4-orders/12-fees) ve o andaki döviz kurunu hesaba kattıktan sonra alacağınız nihai BTC miktarını anında hesaplar. Anlaşmadan memnun olup olmadığınızı görmek için nihai BTC miktarını gözden geçirin.
 
 
 #### İpuçları
@@ -65,7 +65,7 @@ Takas etmek istediğiniz miktarı manuel olarak girin ve bir hesabınız yoksa k
 Unutmayın ki **işlem oranları dalgalanabilir**, bu nedenle onaylamadan önce her zaman nihai fiyatı kontrol edin.
 
 
-**Günlük 250.000 VND (~ 8 ABD Doları) ile sınırlı işlemler için bir hesap gerekli değildir. Daha fazla bilgi [banka transfer politikalarımızda] (https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer) mevcuttur.
+**Günlük 250.000 VND (~ 8 ABD Doları) ile sınırlı işlemler için bir hesap gerekli değildir. Daha fazla bilgi [banka transfer politikalarımızda](https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer) mevcuttur.
 
 
 **Dikkat**: Lightning Network'i seçtiğinizde ağ ücreti genellikle onchain işlem yöntemine kıyasla daha ucuzdur.
@@ -128,7 +128,7 @@ Onay için zaman tanıyın (Lightning'de saniyeler, on-chain'te dakikalar). VND,
 Ürünlerimiz ve hizmetlerimizle ilgili sorularınızı, taleplerinizi ve geri bildirimlerinizi içtenlikle bekliyoruz.
 
 
-Özel bilgi için, Varlık Geri Alım Politikamızı [buradan] (https://support.bitcoinvn.io/help/en-us/3-general/1-asset-recovery-policy) inceleyebilir veya doğrudan [Telegram] (https://t.me/bitcoinvn_community) adresinden bize ulaşabilirsiniz.
+Özel bilgi için, Varlık Geri Alım Politikamızı [buradan](https://support.bitcoinvn.io/help/en-us/3-general/1-asset-recovery-policy) inceleyebilir veya doğrudan [Telegram](https://t.me/bitcoinvn_community) adresinden bize ulaşabilirsiniz.
 
 
 Dijital varlıkların benimsenmesi ana akım küresel finansa entegre olurken, **BitcoinVN** stratejik olarak Vietnam'ın uluslararası finansal kapasitesinin gelişimine öncülük edecek şekilde konumlandırılmıştır. Küresel likiditeyi yerel kolaylıkla harmanlayarak fiziksel ve dijital ekonomiler arasındaki boşluğu dolduruyoruz. Misyonumuz, Vietnam'da kapsamlı bir kaliteli ürün ve profesyonel hizmet yelpazesine güvenli ve kolay erişimi demokratikleştirmektir.

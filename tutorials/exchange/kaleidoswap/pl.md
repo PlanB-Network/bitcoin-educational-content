@@ -296,7 +296,7 @@ Dla programistów budujących na KaleidoSwap, aplikacja udostępnia API, który 
 - WebSocket**: Dla subskrypcji danych rynkowych w czasie rzeczywistym.
 
 
-Pełna dokumentacja i specyfikacje znajdują się w [API Documentation] (https://docs.kaleidoswap.com/api/introduction).
+Pełna dokumentacja i specyfikacje znajdują się w [API Documentation](https://docs.kaleidoswap.com/api/introduction).
 
 
 ## Wnioski

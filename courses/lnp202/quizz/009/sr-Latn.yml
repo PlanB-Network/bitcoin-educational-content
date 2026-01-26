@@ -1,0 +1,9 @@
+question: Kakvu moć ima kustodijalni operater nad plaćanjima svojih korisnika?
+answer: Moć cenzure
+wrong_answers:
+  - Mining snaga
+  - Moć konsenzusa
+  - Halving snaga
+explanation: |
+  Operater koji kontroliše sredstva i kanale može blokirati, odložiti ili filtrirati uplate.
+reviewed: false

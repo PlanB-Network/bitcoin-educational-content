@@ -1,0 +1,8 @@
+question: Dans la théorie autrichienne des cycles économiques, pourquoi la phase de bust est-elle considérée comme nécessaire et inévitable après un boom artificiel?
+answer: Elle permet de liquider les malinvestissements et de restaurer un équilibre économique basé sur les préférences temporelles réelles
+wrong_answers:
+  - "Elle résulte d'une chute soudaine de la demande agrégée causée par la panique des consommateurs"
+  - "Elle est provoquée par l'incapacité des banques centrales à maintenir les taux d'intérêt suffisamment bas"
+  - "Elle découle d'un déséquilibre entre l'offre et la demande amplifié par la spéculation excessive"
+explanation: |
+  Selon la théorie autrichienne, la phase de bust n'est pas un accident mais une correction nécessaire. Le boom artificiel créé par la manipulation des taux génère des malinvestissements basés sur de faux signaux. Ces projets non viables monopolisent des ressources rares dans des activités peu productives. La récession permet de liquider ces erreurs d'allocation et de libérer les ressources pour des usages plus conformes aux préférences réelles des consommateurs, restaurant ainsi l'équilibre économique naturel.

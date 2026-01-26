@@ -1,0 +1,9 @@
+question: 라이트닝 노드의 노드 ID는 무엇을 의미하나요?
+answer: 노드 공개 키 및 주소
+wrong_answers:
+  - 노드 seed 및 주소
+  - 노드 별칭 및 공개 키
+  - Hash 노드 별칭 및 seed
+explanation: |
+  노드 ID는 노드의 공개 키와 네트워크 주소 및 포트를 결합한 것입니다.
+reviewed: false

@@ -40,39 +40,11 @@ Dalam kursus ini, kita akan membahas beberapa aspek moneter Bitcoin, termasuk ca
 
 Sangat penting untuk memahami bahwa Bitcoin adalah sistem moneter baru yang sepenuhnya mengubah hubungan kita dengan uang, jadi mempelajari cara menggunakannya adalah keterampilan yang diperlukan bagi siapa saja yang ingin mengendalikan dana mereka sendiri.
 
-**Bagian 1 - Pendahuluan**  
-- Bab 1 - Ikhtisar Kursus  
-- Bab 2 - Prasejarah Bitcoin  
 
-**Bagian 2 - Uang**  
-- Bab 3 - Uang Sepanjang Sejarah  
-- Bab 4 - Mata Uang Fiat  
-- Bab 5 - Hiperinflasi  
-- Bab 6 - 21 Juta Bitcoin  
 
-**Bagian 3 - Dompet Bitcoin**  
-- Bab 7 - Apa itu Dompet Bitcoin?  
-- Bab 8 - Dompet Bitcoin dan Keamanan  
-- Bab 9 - Menyiapkan Dompet  
-- Bab 10 - Melewati Ujian Waktu  
 
-**Bagian 4 - Aspek Teknis Bitcoin**  
-- Bab 11 - Peluncuran Bitcoin  
-- Bab 12 - Transaksi Bitcoin  
-- Bab 13 - Node Bitcoin  
-- Bab 14 - Penambang  
-- Bab 15 - Bitcoin dan Ekologi  
 
-**Bagian 5 - Bagaimana Mendapatkan Bitcoin?**  
-- Bab 16 - Bitcoin Tidak Pernah Tidur!  
-- Bab 17 - Mendapatkan Bitcoin dengan Bekerja  
-- Bab 18 - Menabung dengan Bitcoin  
-- Bab 19 - Hiperbitcoinisasi  
 
-**Bagian 6 - Masa Depan Bitcoin: Lightning Network**  
-- Bab 20 - Pengantar Singkat tentang Lightning Network  
-- Bab 21 - Kasus Penggunaan Lightning Network  
-- Bab 22 - Pil Merah atau Pil Biru?  
 
 Sebelum memperkenalkan definisi uang dan fungsinya dalam masyarakat (Bab 1), kita harus mulai dari asal mula Bitcoin. Diluncurkan pada tahun 2009, Bitcoin merupakan teknologi yang relatif baru dan berbeda dengan yang lainnya. Oleh karena itu, wajar jika kita tidak dapat memahami segala sesuatu tentang Bitcoin sekaligus. Faktanya, seperti halnya ketika mempelajari cara menggunakan Internet atau mengendarai mobil, Anda tidak perlu langsung mengetahui semua detail teknisnya: Anda bisa mulai dengan mempelajari cara menerima, membayar, dan mengamankan dana Anda, lalu mengambil langkah-langkah kecil untuk mempelajarinya lebih dalam.
 
@@ -719,7 +691,7 @@ Pada tahun 2010, ketika Bitcoin mulai menarik perhatian media, Satoshi memutuska
 
 Bagi sebagian orang, Bitcoin didefinisikan sebagai entitas jamur seperti [miselium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), sementara yang lain menggambarkannya sebagai [lubang hitam](https://dergigi.com/). Suka atau tidak suka, Bitcoin terus ada, dengan ritme konstan 10 menit per blok, seperti detak jantung sistem moneter baru.
 
-Untuk mempelajari lebih lanjut tentang tulisan-tulisan Satoshi Nakamoto, kami sarankan untuk membaca ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) oleh Phil Champagne atau film dokumenter ARTE "Le mystaire Satoshi".
+Untuk memperdalam pemahaman tentang tulisan-tulisan Satoshi Nakamoto, saya merekomendasikan membaca [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) karya Phil Champagne, yang menghimpun dan mengontekstualisasikan teks-teks utamanya, serta dokumenter ARTE [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), yang menawarkan penyelidikan yang mudah diakses dan terdokumentasi dengan baik mengenai identitas dan warisannya.
 
 ![image](assets/id/044.webp)
 

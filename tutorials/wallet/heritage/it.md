@@ -1,5 +1,5 @@
 ---
-name: Patrimonio
+name: Heritage
 description: Un portafoglio Bitcoin con meccanismo di ereditarietà integrato tramite script Taproot
 ---
 
@@ -102,7 +102,7 @@ Heritage Desktop è un'applicazione grafica con un'interfaccia intuitiva che gui
 
 
 
-Andate su [btc-heritage.com] (https://btc-heritage.com) e cliccate su "Download application".
+Andate su [btc-heritage.com](https://btc-heritage.com) e cliccate su "Download application".
 
 
 

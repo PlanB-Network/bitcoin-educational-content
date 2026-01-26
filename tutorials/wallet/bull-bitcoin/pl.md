@@ -164,7 +164,7 @@ Istnieje również opcja zaszyfrowanej, anonimowej kopii zapasowej w chmurze. Al
 Pomyśl o tym jak o skrytce depozytowej. Zaszyfrowany plik kopii zapasowej to *skrytka*, którą można przechowywać w dowolnym miejscu (np. na Dysku Google). Twój kod Recovery PIN to *klucz*, który jest przechowywany oddzielnie przez Recoverbull Key Server. Złodziej musiałby zdobyć zarówno konkretną skrzynkę, jak i konkretny klucz, aby ją otworzyć. Taka konstrukcja zapewnia, że nawet jeśli ktoś zdobędzie plik kopii zapasowej, będzie on bezużyteczny bez klucza z serwera, a klucz serwera będzie bezużyteczny bez unikalnego pliku kopii zapasowej.
 
 
-Dowiedz się więcej o protokole tworzenia kopii zapasowych wallet `Recoverbull` [tutaj] (https://recoverbull.com/).
+Dowiedz się więcej o protokole tworzenia kopii zapasowych wallet `Recoverbull` [tutaj](https://recoverbull.com/).
 
 
 Stuknij w `Encrypted vault`, a następnie `Continue`, aby potwierdzić użycie domyślnego serwera. Połączenie zostanie przekierowane przez sieć `Tor`, aby zapewnić prywatność i anonimowość.
@@ -276,13 +276,13 @@ Ponadto użytkownik ma możliwość
 ## 7️⃣ Bull Bitcoin Exchange
 
 
-Bezpośrednio z wallet masz dostęp do [giełdy Bull Bitcoin] (https://www.bullbitcoin.com/), umożliwiając kupno, sprzedaż i płatność Bitcoin bez opuszczania aplikacji. Ta integracja zapewnia wygodne rozwiązanie do zarządzania potrzebami Bitcoin. Należy pamiętać, że dostęp do giełdy i jej usług może być ograniczony w zależności od jurysdykcji, a ukończenie weryfikacji Know Your Customer (KYC) może być wymagane w celu zachowania zgodności ze standardami regulacyjnymi i korzystania z pełnych funkcji platformy.
+Bezpośrednio z wallet masz dostęp do [giełdy Bull Bitcoin](https://www.bullbitcoin.com/), umożliwiając kupno, sprzedaż i płatność Bitcoin bez opuszczania aplikacji. Ta integracja zapewnia wygodne rozwiązanie do zarządzania potrzebami Bitcoin. Należy pamiętać, że dostęp do giełdy i jej usług może być ograniczony w zależności od jurysdykcji, a ukończenie weryfikacji Know Your Customer (KYC) może być wymagane w celu zachowania zgodności ze standardami regulacyjnymi i korzystania z pełnych funkcji platformy.
 
 
 Aby rozpocząć, dotknij `Exchange` w prawym dolnym rogu, a następnie `Sign up` lub `Login` do swojego konta.
 
 
-Giełda oferuje następujące [funkcje] (https://www.bullbitcoin.com/):
+Giełda oferuje następujące [funkcje](https://www.bullbitcoin.com/):
 
 
 

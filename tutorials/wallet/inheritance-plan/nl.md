@@ -424,7 +424,7 @@ Begin met het kiezen van een technische oplossing die geschikt is voor uw profie
 
 
 
-- [Bitcoin Sjabloon voor nalatenschapsplan (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Plan ₿ Network Documentatiesjabloon
+- [Bitcoin Sjabloon voor nalatenschapsplan (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Plan ₿ Academy Documentatiesjabloon
 
 
 

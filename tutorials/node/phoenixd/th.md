@@ -1,5 +1,5 @@
 ---
-name: ฟีนิกซ์
+name: Phoenixd
 description: ปรับใช้โหนด Lightning แบบมินิมอลของคุณเองด้วย Phoenixd
 ---
 

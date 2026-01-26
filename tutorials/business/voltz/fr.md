@@ -63,7 +63,7 @@ Vous retrouverez dans la section **Configuration de portefeuille**, des paramèt
 
 ### Les extensions
 
-L'une des particularité de la plateforme Voltz est sa modularité qui vous permet d'activer les extensions dont vous avez besoin. La liste des extensions se retrouve dans le menu **Extensions**.
+L'une des particularités de la plateforme Voltz est sa modularité qui vous permet d'activer les extensions dont vous avez besoin. La liste des extensions se retrouve dans le menu **Extensions**.
 
 ![extensions](assets/fr/09.webp)
 
@@ -115,7 +115,7 @@ Vos clients peuvent ainsi consulter votre catalogue et faire leur paiement depui
 
 ![checkout](assets/fr/21.webp)
 
-Dans le groupe d'extensions disponible, vous retrouverez également des outils comme les extension de **Factures** et de **Lien de paiement** qui vous permettent de générer des factures avec des produits spécifiques pour encaisser des paiements isolés sans passer par le terminal de point de vente.
+Dans le groupe d'extensions disponible, vous retrouverez également des outils comme les extensions de **Factures** et de **Lien de paiement** qui vous permettent de générer des factures avec des produits spécifiques pour encaisser des paiements isolés sans passer par le terminal de point de vente.
  
 ## Suivre ses paiements
 
@@ -141,6 +141,6 @@ Vous pouvez ainsi créer des factures Lightning depuis vos applications en utili
 
 ![keys](assets/fr/24.webp)
 
-Vous avez désormais une bonne prise en main de Voltz. Si vous avez apprécié ce tutoriel, nous sommes convaincues que vous apprendrez plus sur les meilleures méthodes et les meilleurs outils pour intégrer bitcoin dans votre commerce avec notre parcours : Bitcoin pour les entreprises.
+Vous avez désormais une bonne prise en main de Voltz. Si vous avez apprécié ce tutoriel, nous sommes convaincus que vous apprendrez plus sur les meilleures méthodes et les meilleurs outils pour intégrer bitcoin dans votre commerce avec notre parcours : Bitcoin pour les entreprises.
 
 https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a

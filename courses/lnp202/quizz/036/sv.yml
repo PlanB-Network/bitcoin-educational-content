@@ -1,0 +1,9 @@
+question: Varför är det svårt att få lönsamhet i routing on Lightning?
+answer: Kostnader och konkurrens
+wrong_answers:
+  - Kanalgräns
+  - Ingen begäran
+  - Brist på global likviditet
+explanation: |
+  Onchain-kostnader, konkurrens och operativa krav gör lönsamheten för routingverksamheten osäker.
+reviewed: false

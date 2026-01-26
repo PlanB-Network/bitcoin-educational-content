@@ -1,5 +1,5 @@
 ---
-name: 傳統
+name: Heritage
 description: 透過 Taproot 腳本整合繼承機制的 Bitcoin 產品組合
 ---
 

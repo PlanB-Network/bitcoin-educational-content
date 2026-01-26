@@ -73,7 +73,7 @@ PearPass on saatavilla kaikilla alustoilla: Windows, Linux, macOS, Android, iOS 
 
 
 
-Windowsissa PearPass toimitetaan klassisena asennusohjelmana. Siirry [viralliselle lataussivulle] (https://pass.pears.com/download) ja napsauta sitten `Lataa Windows-asennusohjelma`-painiketta.
+Windowsissa PearPass toimitetaan klassisena asennusohjelmana. Siirry [viralliselle lataussivulle](https://pass.pears.com/download) ja napsauta sitten `Lataa Windows-asennusohjelma`-painiketta.
 
 
 

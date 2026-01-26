@@ -14,7 +14,7 @@ description: Безплатна алтернатива на Play Store за из
 
 
 
-# Започване на работа с Aurora Store
+## Започване на работа с Aurora Store
 
 
 
@@ -88,7 +88,7 @@ https://planb.academy/tutorials/computer-security/data/integrity-authenticity-21
 
 
 
-## Характеристики
+### Характеристики
 
 
 

@@ -19,7 +19,7 @@ Para além de ser um Lightning wallet de custódia que permite enviar, receber e
 
 
 
-Aceda à plataforma [Voltz] (https://www.voltz.com/en) e crie uma conta clicando no botão "Try now".
+Aceda à plataforma [Voltz](https://www.voltz.com/en) e crie uma conta clicando no botão "Try now".
 
 
 

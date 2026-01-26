@@ -3,7 +3,7 @@ name: RaspiBlitz
 description: Guía para configurar tu RaspiBlitz
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 El RaspiBlitz es un nodo Lightning de bricolaje (LND y/o Core Lightning) que se ejecuta junto con un nodo completo de Bitcoin en una RaspberryPi (SSD de 1TB) y una buena pantalla para una configuración y monitoreo sencillos.
 
@@ -13,7 +13,7 @@ El RaspiBlitz está dirigido principalmente a aprender cómo ejecutar tu propio 
 
 RASPIBLITZ - Cómo ejecutar un nodo Lightning y Bitcoin Full Node por BTC session
 
-# Guía de configuración de Raspiblitz de Parman
+## Guía de configuración de Raspiblitz de Parman
 
 El Raspiblitz es un excelente sistema para ejecutar un nodo de Bitcoin y aplicaciones asociadas. Recomendamos esto y el nodo My Node a la mayoría de los usuarios (idealmente, tener dos nodos para redundancia). Una ventaja importante es que el nodo Raspiblitz es "Software de código abierto gratuito", a diferencia de MyNode o Umbrel. ¿Por qué es importante eso? Vlad Costa lo explica. También puedes ejecutar el RaspbiBlitz con una conexión WiFi en lugar de Ethernet, aquí tienes una guía complementaria para eso (no he encontrado una forma de hacer esto con MyNode).
 
@@ -23,7 +23,7 @@ La guía en la página de GitHub es excelente, pero posiblemente demasiado detal
 
 Básicamente, el proceso es muy similar al proceso de configuración de un nodo MyNode con una Raspberry Pi 4. La guía de Raspiblitz sugiere que compres un monitor, pero realmente no lo necesitas y no lo recomendaríamos. Ni siquiera necesitas un teclado o un ratón adicional. Simplemente accede al menú de terminal del dispositivo a través de una computadora en la misma red doméstica y usa el comando SSH en la terminal. Esto es posible con Linux/Mac (fácil) y un poco más difícil con Windows.
 
-## Paso 1: Compra el equipo.
+### Paso 1: Compra el equipo.
 
 Necesitas exactamente el mismo equipo que necesitas para ejecutar un nodo MyNode. Puedes probar uno u otro, la única diferencia es los datos en la tarjeta micro SD.
 
@@ -48,7 +48,7 @@ Esto es más rápido, pero innecesariamente caro:
 
 ![image](assets/3.webp)
 
-## Paso 2: Descargar la imagen de Raspiblitz
+### Paso 2: Descargar la imagen de Raspiblitz
 
 Navega al sitio web de Raspiblitz en GitHub y encuentra el enlace "descargar imagen":
 
@@ -58,7 +58,7 @@ El hash sha-256 del archivo descargado se proporciona en el sitio web. Cambiará
 
 ![image](assets/5.webp)
 
-## Paso 3: Verificar la imagen
+### Paso 3: Verificar la imagen
 
 Antes de continuar, si no conoces el sistema de archivos en la línea de comandos, es fácil de aprender y deberías hacerlo.
 
@@ -90,7 +90,7 @@ donde xxxxxxxxxxxxxx es el nombre del archivo que acabas de descargar. Si no est
 
 La computadora piensa durante unos 20 segundos. Verifica que el hash del archivo de salida coincida con el descargado desde el sitio web en el paso anterior. Si es idéntico, puedes continuar.
 
-## Paso 4: Flashear la tarjeta SD
+### Paso 4: Flashear la tarjeta SD
 
 Puedes usar Balena Etcher para hacer esto. Descárgalo aquí.
 
@@ -106,7 +106,7 @@ Etcher es fácil de usar. Inserta tu tarjeta micro SD y flashea el software de R
 
 Una vez hecho, la unidad ya no es legible. Es posible que recibas un error del sistema operativo y la unidad desaparezca del escritorio. Retira la tarjeta.
 
-## Paso 5: Configura el Pi e inserta la tarjeta SD
+### Paso 5: Configura el Pi e inserta la tarjeta SD
 
 Las partes (la carcasa no se muestra):
 
@@ -126,7 +126,7 @@ Finalmente, conecta la corriente:
 
 ![image](assets/14.webp)
 
-## Paso 6: Encuentra la dirección IP del Pi
+### Paso 6: Encuentra la dirección IP del Pi
 
 Nunca necesitas un monitor con el Raspiblitz. Sin embargo, necesitas otra computadora en la red doméstica. Si tu Pi no está conectado por ethernet y quieres depender del WiFi, encontrar la IP requiere algunas habilidades informáticas. No podemos ayudarte, lo sientimos. Necesitas una conexión ethernet. (El problema surge de la necesidad de acceder a un monitor y al sistema operativo para conectar el WiFi e ingresar una contraseña).
 Verifica tu modem para obtener una lista de todas las IPs de todos los dispositivos conectados.
@@ -137,7 +137,7 @@ Encontrar la IP es crucial.
 
 > ACTUALIZACIÓN: puedes usar la terminal en una máquina Mac o Linux para encontrar la dirección IP de todos los dispositivos conectados por Ethernet en la red doméstica utilizando el comando "arp -a". La salida no es tan bonita como lo que mostrará el enrutador, pero toda la información que necesitas está allí. Si no es obvio cuál es el Pi, realiza pruebas y errores.
 
-## Paso 7: Accede al Pi a través de SSH
+### Paso 7: Accede al Pi a través de SSH
 
 Recuerda insertar la tarjeta SD en el Pi antes de encenderlo. Espera unos minutos y luego, en otra computadora con Linux/Mac, abre la terminal.
 

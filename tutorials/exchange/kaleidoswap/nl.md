@@ -296,7 +296,7 @@ Voor ontwikkelaars die bovenop KaleidoSwap bouwen, stelt de applicatie een API b
 - WebSocket**: Voor realtime marktgegevensabonnementen.
 
 
-Raadpleeg de [API Documentatie] (https://docs.kaleidoswap.com/api/introduction) voor volledige eindpunten en specificaties.
+Raadpleeg de [API Documentatie](https://docs.kaleidoswap.com/api/introduction) voor volledige eindpunten en specificaties.
 
 
 ## Conclusie

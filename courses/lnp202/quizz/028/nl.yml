@@ -1,0 +1,9 @@
+question: Wat is de rol van Watchtower wanneer het een poging tot valsspelen ontdekt?
+answer: De straftransactie publiceren
+wrong_answers:
+  - Samen het kanaal sluiten
+  - Bevries fondsen
+  - Rapporteren aan Bitcoin Kern
+explanation: |
+  De wachttoren zendt automatisch de straftransactie uit namens de gebruiker.
+reviewed: false

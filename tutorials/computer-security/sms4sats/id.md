@@ -23,7 +23,7 @@ Tutorial ini memandu Anda melalui tiga fitur SMS4Sats: menerima SMS verifikasi, 
 
 
 
-SMS4Sats adalah layanan online yang dapat diakses di [sms4sats.com] (https://sms4sats.com), memungkinkan manajemen SMS anonim melalui pembayaran di Bitcoin Lightning. Layanan ini menawarkan tiga fungsi yang berbeda: penerimaan kode verifikasi sekali pakai, pengiriman SMS ke nomor manapun, dan penyewaan nomor sementara selama beberapa jam.
+SMS4Sats adalah layanan online yang dapat diakses di [sms4sats.com](https://sms4sats.com), memungkinkan manajemen SMS anonim melalui pembayaran di Bitcoin Lightning. Layanan ini menawarkan tiga fungsi yang berbeda: penerimaan kode verifikasi sekali pakai, pengiriman SMS ke nomor manapun, dan penyewaan nomor sementara selama beberapa jam.
 
 
 

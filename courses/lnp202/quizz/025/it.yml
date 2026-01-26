@@ -1,0 +1,9 @@
+question: Quali sono le condizioni che rendono efficace una sanzione lightning?
+answer: Rilevamento prima della fine del timelock
+wrong_answers:
+  - Rilevamento prima dell'inizio del blocco temporale
+  - Rilevamento preliminare dell'imbroglio TX
+  - Rilevamento dopo la fine del timelock
+explanation: |
+  La transazione di giustizia deve essere rilasciata prima della scadenza del timelock per sanzionare l'imbroglio. Non può essere rilasciata prima dell'inizio del timelock o della pubblicazione del TX, perché ciò significherebbe che l'imbroglio non ha avuto luogo.
+reviewed: false

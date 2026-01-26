@@ -1,0 +1,9 @@
+question: Ni sifa gani ya msingi ya Bitcoin inayopotea wakati wa kuwekwa kizuizini?
+answer: Uhuru wa kifedha
+wrong_answers:
+  - Uwezo wa kuongeza ukubwa wa fedha
+  - Malipo ya haraka
+  - Ushirikiano wa kifedha
+explanation: |
+  Bila udhibiti muhimu, mtumiaji huacha uhuru wa kifedha, nguzo kuu ya Bitcoin.
+reviewed: false

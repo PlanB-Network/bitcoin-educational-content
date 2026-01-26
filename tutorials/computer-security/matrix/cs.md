@@ -1,5 +1,5 @@
 ---
-name: Matrice
+name: Matrix
 description: Průvodce porozuměním, konfigurací a používáním Matrixu, bezpečné, otevřené a decentralizované komunikační platformy.
 ---
 

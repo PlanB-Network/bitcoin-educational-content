@@ -296,7 +296,7 @@ Per gli sviluppatori che costruiscono sopra KaleidoSwap, l'applicazione espone u
 - WebSocket**: Per la sottoscrizione di dati di mercato in tempo reale.
 
 
-Consultare la [Documentazione API] (https://docs.kaleidoswap.com/api/introduction) per i punti finali e le specifiche complete.
+Consultare la [Documentazione API](https://docs.kaleidoswap.com/api/introduction) per i punti finali e le specifiche complete.
 
 
 ## Conclusione

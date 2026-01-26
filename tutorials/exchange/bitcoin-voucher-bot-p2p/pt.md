@@ -57,7 +57,7 @@ Em primeiro lugar, se ainda não o tiver instalado no seu smartphone, descarregu
 
 
 
-- [Google Play] (https://play.google.com/store/apps/details?id=com.livingroomofsatoshi.wallet&pli=1)
+- [Google Play](https://play.google.com/store/apps/details?id=com.livingroomofsatoshi.wallet&pli=1)
 - [App Store](https://apps.apple.com/au/app/wallet-of-satoshi/id1438599608)
 
 

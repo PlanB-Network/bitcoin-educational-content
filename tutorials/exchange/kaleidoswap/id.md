@@ -296,7 +296,7 @@ Untuk pengembang yang membangun di atas KaleidoSwap, aplikasi ini memperlihatkan
 - WebSocket**: Untuk langganan data pasar real-time.
 
 
-Lihat [Dokumentasi API] (https://docs.kaleidoswap.com/api/introduction) untuk titik akhir dan spesifikasi lengkap.
+Lihat [Dokumentasi API](https://docs.kaleidoswap.com/api/introduction) untuk titik akhir dan spesifikasi lengkap.
 
 
 ## Kesimpulan

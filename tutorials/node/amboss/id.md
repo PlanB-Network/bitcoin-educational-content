@@ -26,7 +26,7 @@ Seperti [Mempool Space](https://Mempool.space), yang menyediakan informasi bergu
 - Evolusi Lightning Network dari waktu ke waktu
 - Statistik tentang biaya ke node relai untuk pembayaran.
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 Dalam tutorial ini, aku akan mengajak kamu menjelajahi platform ini sebagai sumber daya penting bagi pengguna Lightning Network, termasuk buat kamu yang ingin menghubungkan node sendiri untuk memperluas jaringan dan seterusnya.
 
@@ -251,4 +251,4 @@ Sekarang kamu telah mengikuti tur lengkap fitur dan alat analisis platform. Sila
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f

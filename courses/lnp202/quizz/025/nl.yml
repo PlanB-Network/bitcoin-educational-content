@@ -1,0 +1,9 @@
+question: Welke voorwaarden maken een Lightning penalty effectief?
+answer: Detectie voor einde tijdslot
+wrong_answers:
+  - Detectie voordat tijdslot begint
+  - Pre-release detectie van valsspelen TX
+  - Detectie na einde tijdslot
+explanation: |
+  De justitietransactie moet worden vrijgegeven voordat het tijdslot afloopt om het valsspelen te bestraffen. Het kan niet worden vrijgegeven voordat de timelock begint of de TX is gepubliceerd, omdat dit zou betekenen dat het valsspelen gewoon niet heeft plaatsgevonden.
+reviewed: false

@@ -424,7 +424,7 @@ Iniziate scegliendo una soluzione tecnica adatta al vostro profilo, testatela co
 
 
 
-- [Modello di piano di eredità Bitcoin (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Modello di documentazione Plan ₿ Network
+- [Modello di piano di eredità Bitcoin (PDF)](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/resources/bet/seed-management-tools/assets/Bitcoin-Inheritance-Plan-Template.pdf) - Modello di documentazione Plan ₿ Academy
 
 
 

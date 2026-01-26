@@ -43,7 +43,7 @@ Chào mừng bạn đến với khóa học lập trình SDK dành cho người 
 Các video về khóa đào tạo hiện chỉ có sẵn bằng tiếng Anh và là một phần của hội thảo trực tuyến được tổ chức vào tháng 10 năm ngoái tại Tuscany bởi Fulgure Venture. Khóa đào tạo này sẽ chỉ tập trung vào tuần đầu tiên. Phần thứ hai dành cho RGB và có thể được tìm thấy trong khóa học RGB.
 
 
-https://planb.academy/en/courses/rgb-programming-3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 Khóa đào tạo này mang đến cho bạn cơ hội phát triển kỹ năng lập trình trên Lightning Network bằng cách sử dụng Rust và nhiều SDK khác nhau. Khóa học được thiết kế dành cho các nhà phát triển có nền tảng lập trình vững chắc muốn tìm hiểu sâu hơn về lập trình dành riêng cho Lightning Network. Bạn sẽ học những kiến thức cơ bản về Rust, lý do tại sao nó phù hợp cho việc phát triển Bitcoin, và sau đó chuyển sang thực hành trực tiếp bằng cách sử dụng các SDK chuyên dụng.
 

@@ -1,0 +1,30 @@
+id: 5d1d8150-5255-44cd-93a3-8a29449bfc19
+
+name: f2pool
+
+links:
+  website: https://www.f2pool.com/
+  twitter: https://x.com/f2pool
+  linkedin: https://www.linkedin.com/company/f2pool/
+
+category: mining
+
+contributor_names:
+  - LoicPandul
+
+tags:
+  - mining
+  - proof-of-work
+  - software
+
+license: CC-BY-SA-V4
+
+# Proofreading metadata
+original_language: fr
+proofreading:
+  - language: fr
+    last_contribution_date: 2026-01-15
+    urgency: 1
+    contributor_names:
+      - LoicPandul
+    reward: 0

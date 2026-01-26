@@ -46,7 +46,7 @@ W tym samouczku będziemy używać rozszerzenia Alby w przeglądarce Firefox w s
 
 
 
-Rozszerzenie Alby można dodać do przeglądarki, odwiedzając sklep z rozszerzeniami [Firefox] (https://addons.mozilla.org/fr/firefox/addon/alby/) lub sklep z rozszerzeniami [Chrome] (https://chromewebstore.google.com/detail/alby-bitcoin-wallet-for-l/iokeahhehimjnekafflcihljlcjccdbe).
+Rozszerzenie Alby można dodać do przeglądarki, odwiedzając sklep z rozszerzeniami [Firefox](https://addons.mozilla.org/fr/firefox/addon/alby/) lub sklep z rozszerzeniami [Chrome](https://chromewebstore.google.com/detail/alby-bitcoin-wallet-for-l/iokeahhehimjnekafflcihljlcjccdbe).
 
 
 

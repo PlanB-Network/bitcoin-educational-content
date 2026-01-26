@@ -1,0 +1,9 @@
+question: Jakou roli hraje uzel ThunderHub ve vztahu k uzlu LND?
+answer: Řízení Interface
+wrong_answers:
+  - Implementace blesku
+  - Údržbářské služby
+  - Směrovací uzel
+explanation: |
+  ThunderHub je rozhraní, které se připojuje ke LND pro správu uzlu.
+reviewed: false

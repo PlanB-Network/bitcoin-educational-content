@@ -1,0 +1,9 @@
+question: Zašto je profil potrošača lako upravljati?
+answer: Mala potreba za dolaznom likvidnošću
+wrong_answers:
+  - Nije potreban kanal
+  - Mala potreba za odlaznom likvidnošću
+  - Nema potrebe za rezervnom kopijom
+explanation: |
+  Potrošačima nije potrebna velika dolazna likvidnost, a odlazna plaćanja prirodno stvaraju određenu dolaznu likvidnost bez složene strategije.
+reviewed: false

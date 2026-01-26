@@ -65,7 +65,7 @@ Voer handmatig het bedrag in dat je wilt ruilen en gebruik de [dagelijkse limiet
 Vergeet niet dat **transactietarieven** fluctueren, dus controleer altijd de definitieve prijs voordat je bevestigt.
 
 
-**Een rekening is niet vereist met** dagelijkse transacties beperkt tot VND 250.000 (~ USD $8). Meer informatie is beschikbaar in ons [beleid voor bankoverschrijvingen] (https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer).
+**Een rekening is niet vereist met** dagelijkse transacties beperkt tot VND 250.000 (~ USD $8). Meer informatie is beschikbaar in ons [beleid voor bankoverschrijvingen](https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer).
 
 
 **Let op**: de netwerkkosten zijn over het algemeen goedkoper wanneer je Lightning Network kiest in vergelijking met de onchain transactiemethode.
@@ -128,7 +128,7 @@ Geef bevestiging enige tijd (seconden bij Lightning, minuten bij on-chain). De V
 Uw vragen, verzoeken en feedback over onze producten en diensten zijn van harte welkom.
 
 
-Voor specifieke informatie kunt u ons beleid voor het terugkrijgen van activa [hier] (https://support.bitcoinvn.io/help/en-us/3-general/1-asset-recovery-policy) bekijken, of rechtstreeks contact met ons opnemen op [Telegram] (https://t.me/bitcoinvn_community).
+Voor specifieke informatie kunt u ons beleid voor het terugkrijgen van activa [hier](https://support.bitcoinvn.io/help/en-us/3-general/1-asset-recovery-policy) bekijken, of rechtstreeks contact met ons opnemen op [Telegram](https://t.me/bitcoinvn_community).
 
 
 Nu het gebruik van digitale activa wordt geïntegreerd in de mainstream wereldwijde financiën, is **BitcoinVN** strategisch gepositioneerd om de ontwikkeling van de internationale financiële capaciteit van Vietnam te leiden. Wij overbruggen de kloof tussen de fysieke en digitale economieën en combineren wereldwijde liquiditeit met lokaal gemak. Onze missie is om veilige en gemakkelijke toegang tot een uitgebreide reeks kwaliteitsproducten en professionele diensten hier in Vietnam te democratiseren.

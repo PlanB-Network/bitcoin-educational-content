@@ -1,0 +1,9 @@
+question: Katika itifaki ya NWC, ni utaratibu gani unaotumika kusafirisha ombi kati ya programu na nodi?
+answer: Matukio kwenye reli za Nostr
+wrong_answers:
+  - Simu za moja kwa moja za REST kwa LND
+  - Muunganisho wa VPN wa moja kwa moja
+  - Maombi ya DNS yaliyosimbwa kwa njia fiche
+explanation: |
+  Ombi husimbwa kwa njia fiche na kisha kuchapishwa kama tukio kwenye relay ya Nostr, ambayo nodi husoma ili kutekeleza kitendo hicho.
+reviewed: false

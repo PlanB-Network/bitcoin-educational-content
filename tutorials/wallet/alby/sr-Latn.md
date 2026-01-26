@@ -46,7 +46,7 @@ U ovom vodiču, koristićemo ekstenziju Alby u pretraživaču Firefox pod operat
 
 
 
-Možete dodati ekstenziju Alby u vaš pretraživač tako što ćete posetiti prodavnicu ekstenzija [Firefox] (https://addons.mozilla.org/fr/firefox/addon/alby/) ili prodavnicu ekstenzija [Chrome] (https://chromewebstore.google.com/detail/alby-bitcoin-wallet-for-l/iokeahhehimjnekafflcihljlcjccdbe).
+Možete dodati ekstenziju Alby u vaš pretraživač tako što ćete posetiti prodavnicu ekstenzija [Firefox](https://addons.mozilla.org/fr/firefox/addon/alby/) ili prodavnicu ekstenzija [Chrome](https://chromewebstore.google.com/detail/alby-bitcoin-wallet-for-l/iokeahhehimjnekafflcihljlcjccdbe).
 
 
 

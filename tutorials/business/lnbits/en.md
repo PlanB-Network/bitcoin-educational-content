@@ -4,8 +4,8 @@ name: LNbits
 description: Merchant Accounting Platform
 ---
 
-![presentation](assets/lnbits-intro.webp)
-# Accounting system
+![presentation](assets/cover.webp)
+## Accounting system
 
 LNbits is packed with lots of tools to control and channel your incoming and outgoing funds, connect your webstore or even devices like a hardware wallet or an ATM that you have built yourself. User types include:
 - Wallet owners who want to use LNbits as an interface for their funds management as well as its extra-features.
@@ -14,7 +14,7 @@ LNbits is packed with lots of tools to control and channel your incoming and out
 - Node operators who want to integrate their node with the LNbits system for accounting purposes.
 - All of those have different needs. We build LNbits in a modular way so that every user can use our features in a way that suits you best.
 
-# Wallet manager
+## Wallet manager
 
 LNbits is a free and open-source accounting system - not a node manager. Channel management is the domain of the Lightning node that is connected to LNbits as a funding source like LND or c-lightning. The Superuser or Admin Users in the LNbits system are responsible for managing the overall accessability and configuration of the accounting features and internal extensions.
 
@@ -28,11 +28,11 @@ You will offer a simple way to them to open a “banking account” on your node
 
 NOTE: all funds that your “customers” deposit into their LNbits bank accounts on your node, will go straight into your node LN channels. That means YOU are actually the real owner of those funds. You will have a big responsibility for their funds. Don’t be evil and run away with the funds, don’t be evil and charge high fees. We want to fuck the fiat banksters, not to fuck each others (bitcoin users).
 
-# Demo platform
+## Demo platform
 
 The demo can be found at [https://legend.lnbits.com](https://legend.lnbits.com). Its fully functional and can be used to learn about the Lightning Network and features of LNbits and LNURL in general. Though we cannot prevent you from it we would like to ask you to not use it for your production setup. Not only are we working on the servers often to test new features but also we would like to encourage you to run your own node and LNbits in a sovereign way. If you think running a node is too much asked for the moment you can connect LNbits to a custodian funding sservice in the cloud like Opennode, Luna or Votage or to the Lightning Tipbot on Telegram just to name some.
 
-# LNbits flyer
+## LNbits flyer
 
 Want to hand over some basic info to a merchant or a building friend of yours ? We are very happy to announce our first flyer for everyone to use. The size is a globally typical flyerformat with 6 pages (2 folds) and a width of 3508 and a height of 2480px.
 
@@ -40,7 +40,7 @@ LNbits for merchants: [EN](/assets/lnbits-merchants-en.pdf) | [DE](/assets/lnbit
 
 LNbits for builders: [EN](/assets/lnbits-builders-en.pdf) | [DE](/assets/lnbits-builders-de.pdf) | [ES](/assets/lnbits-builders-es.pdf) | [IT](/assets/lnbits-builders-it.pdf) | [PL](/assets/lnbits-builders-pl.pdf)
 
-# Some Basics
+## Some Basics
 
 LNbits works based on the LNURL protocol which means that requests are valid in two forms: either as https://clearnet link (no self-signed certificates allowed) or as http://v2/v3 onion link. To offer LNbits services like LNURLp/w QR codes or NFC Cards, that can be used in the wild, you will need to open LNbits up to clearnet (https).
 
@@ -64,9 +64,9 @@ More detailed guides using LNbits in specific use case scenarios here:
 - [Using LNbits for schools projects or festival events](https://darthcoin.substack.com/p/lnbits-saas-a-solution-for-schools)  Substack guide
 
 
-# Install LNbits
+## Install LNbits
 
-## Basic installation guide
+### Basic installation guide
 
 LNbits can be installed on any Linux OS machine. It does not require a powerful machine or server, just enough RAM memory and some disk space for the database. It can be run separately from a BTC/LN node (local PC or remote VPS) or together on the same machine with the node or already installed in a bundle node software machine.
 
@@ -83,13 +83,13 @@ You can also find a video on the [dockerised Setup on a VPS with PostgreSQ, Ligh
 
 For bundle software nodes, please refer to their specific documentation about LNbits: [Citadel](https://runcitadel.space) | [Umbrel](https://umbrel.com) | [MyNode](https://mynodebtc.com) | [RaspiBlitz](https://raspiblitz.org/) | [RaspiBolt](https://raspibolt.org)
 
-## LNbits SaaS
+### LNbits SaaS
 
 When you´re not into the technical stuff and neither want to host your funding source nor your lnbits yourself there is a [LNbits SaaS version](https://saas.lnbits.com) (Software-as-a-service) you can use. It is basically like LNbits in a cloud but you can define the funding source (e.g. your Node, a LNbits wallet, the LNtipbot, fakewallet etc) and environmnent variables yourself - which mostly is not the case on other cloud-solutions.
 
 [Here is a detailed guide how to use LNbits SaaS for specific use cases](https://darthcoin.substack.com/p/lnbits-saas-a-solution-for-schools).
 
-## Funding sources
+### Funding sources
 
 LNbits is not a node management software but a LN focused accounting system on top of a LND or CLN funding source. After the first installation you can visit your LNbits at http://localhost:5000/. 
 
@@ -108,7 +108,7 @@ A backend wallet (funding source) can be configured using the following LNbits e
 If you would like to use the .env version you can find the parameters here:
 
 
-### CoreLightning
+#### CoreLightning
 - CLN
   - `LNBITS_BACKEND_WALLET_CLASS`: **CoreLightningWallet**
   - `CORELIGHTNING_RPC`: /file/path/lightning-rpc
@@ -116,7 +116,7 @@ If you would like to use the .env version you can find the parameters here:
   - `LNBITS_BACKEND_WALLET_CLASS`: **SparkWallet**
   - `SPARK_URL`: http://10.147.17.230:9737/rpc
    - `SPARK_TOKEN`: secret_access_key
-### Lightning Network Daemon
+#### Lightning Network Daemon
 - LND (REST)
   - `LNBITS_BACKEND_WALLET_CLASS`: **LndRestWallet**
   - `LND_REST_ENDPOINT`: http://10.147.17.230:8080/
@@ -133,7 +133,7 @@ You can also use an AES-encrypted macaroon (more info) instead by using
   - `LND_GRPC_MACAROON_ENCRYPTED`: eNcRyPtEdMaCaRoOn
 To encrypt your macaroon, run `./venv/bin/python lnbits/wallets/macaroon/macaroon.py`.
 
-### LNbits (another LNbits instance)
+#### LNbits (another LNbits instance)
 
 - LNbits instance hosted on a cloud server or your own home server
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNbitsWallet**
@@ -143,7 +143,7 @@ To encrypt your macaroon, run `./venv/bin/python lnbits/wallets/macaroon/macaroo
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNbitsWallet**
   - `LNBITS_ENDPOINT`: https://legend.lnbits.com
   - `LNBITS_KEY`: legend-lnbits-AdminKey
-### Lightning TipBot
+#### Lightning TipBot
 
 To connect your [Lightning Tipbot](https://t.me/LightningTipBot) from Telegram you will need to set the following parameter:
   - `LNBITS_BACKEND_WALLET_CLASS`: **LnTipsWallet**
@@ -152,25 +152,25 @@ To connect your [Lightning Tipbot](https://t.me/LightningTipBot) from Telegram y
 
 Also see this tutorial how to install [LNbits with LightningTipBot via vps](https://www.massmux.com/howto-complete-lightningtipbot-lnbits-setup-vps/)
 
-### IBEX HUB
+#### IBEX HUB
 
 Register [here](https://ibexpay.ibexmercado.com/onboard) then get your keys/tokens from there, endpoint is https://ibexpay-api.ibexmercado.com. 
 More info see [IBEX API-Documentation](https://ibexpay-api.readme.io/reference/getting-started-with-your-api).
 
-### LNPay
+#### LNPay
 For the invoice listener to work you have a publicly accessible URL in your LNbits and have to set up a [LNPay webhook](https://dashboard.lnpay.co/webhook/) pointing to `<your LNbits host>/wallet/webhook` with the "Wallet Receive" event and no secret given. The setting  `https://mylnbits/wallet/webhook` will be the endpoint url that gets notified about any payment.
   - `LNBITS_BACKEND_WALLET_CLASS`: **LNPayWallet**
   - `LNPAY_API_ENDPOINT`: https://api.lnpay.co/v1/
   - `LNPAY_API_KEY`: sak_apiKey
   - `LNPAY_WALLET_KEY`: waka_apiKey
 
-### OpenNode
+#### OpenNode
 For the invoice to work, you need to have a publicly accessible URL in your LNbits. The webhook setting is optional.
   - `LNBITS_BACKEND_WALLET_CLASS`: **OpenNodeWallet**
   - `OPENNODE_API_ENDPOINT`: https://api.opennode.com/
   - `OPENNODE_KEY`: opennodeAdminApiKey
 
-### Alby
+#### Alby
 
 Alby is a browser extension with LN wallet functionalities and LNDHUB account that can be used as funding source for LNbits. [More details here](https://getalby.com/).
 
@@ -180,11 +180,11 @@ For the invoice to work you must have a publicly accessible URL in your LNbits. 
 - `ALBY_API_ENDPOINT`: https://api.getalby.com/
 - `ALBY_ACCESS_TOKEN`: AlbyAccessToken
 
-## Additional / Troubleshooting Guides
+### Additional / Troubleshooting Guides
 
 Here are some additional instructions in case your would need them. Click on the arrow to expand the description.
 
-### The Killswitch 🚨
+#### The Killswitch 🚨
 
 There have been so many dangerous bugs lately not only in the whole space but also in LNbits that we decided to do something about it. You can now opt-in for warnings and/or to take direct action, when a vulnerability or a bug that could lead to the loss of funds occurs again.
 
@@ -195,11 +195,11 @@ If switched to void-wallet all usertypes on the instance will see a yellow banne
 How does it work ? When the killswitch is enabled, a secret github repository only available to the LNbits core team will be checked at an interval of X minutes (which can be specified). If a vulnerable bug is published in this repository, it serves as a signal that triggers the killswitch on all installations that subscribed and transitions your lnbits instance to use the void wallet. If the clouds have cleared and you have installed the security update you can set your funding source to your node, wallet or whatever you are using again also via the Manage Server section. This wiki has a section about switching funding sources if you do not know what to configure.
 
 
-### Difference between admin and superuser
+#### Difference between admin and superuser
 
 The LNbits Admin UI lets you change LNbits settings via the LNbits frontend. It is disabled by default and the first time you set the enviroment variable `LNBITS_ADMIN_UI=true` in the `.env` file, the settings are initialized and will be used. From there on the according settings from the database instead those of the .env file are used.
 
-### Super User
+#### Super User
 
 With the Admin UI we introduced the super user which has access to the server so can change settings that may crash the server or make it unresponsive via frontend and api, like e.g changing the funding source. The super user is only stored inside the settings table of the database. After the settings are "reset to defaults" and restarted a new super user is created. We also added a decorator for the API routes to check for the existance of a super user. Its ID is never sent over the api and the frontend and only receives a bool (yes/no) if you are super user or not.
 
@@ -209,17 +209,17 @@ You can as well post the super user via webhook to another service when it is cr
 
 In the frontend you will also find the possibility to change the shop-image that is shown on the "create wallet" page by opening the Manage Server section and choosing Theme -> Custom Logo.
 
-### Admin Users
+#### Admin Users
 
 Enviroment variable: `LNBITS_ADMIN_USERS`, comma-seperated list of user IDs. Admin Users can change settings in the admin ui - with the exception of funding source settings, because this would require a server restart and could potentially make the server inaccessable. Also they have access to all the extensions dedicaated to them in `LNBITS_ADMIN_EXTENSIONS`.
 
-### Allowed Users
+#### Allowed Users
 
 Enviroment variable: `LNBITS_ALLOWED_USERS`, comma-seperated list of user IDs. By defining these users LNbits will no longer be useable by the public. Only defined users and admins can then access the LNbits frontend.
 
 
 
-#### Update LNbits
+##### Update LNbits
 A normal updating of your LNbits local instance is simply by copy paste the following CLI commands:
 
 ```
@@ -248,7 +248,7 @@ git pull upstream main
 sudo ~/scripts/app start lnbits
 ```
 
-#### SQLite to PostgreSQL migration
+##### SQLite to PostgreSQL migration
 
 If you already have LNbits installed and running on an SQLite database we highly recommend to migrate to postgres if you are planning to run LNbits on scale.
 
@@ -271,12 +271,12 @@ make migration
 Hopefully now everything works and gets migrated... Launch LNbits again and check if everything is working properly.
 
 
-#### Backup and restore of the database
+##### Backup and restore of the database
 
 Please refer to [this very detailed guide about the backup & restore process](https://ereignishorizont.xyz/lnbits-server/en/#94_LNbits_-_Databases_Backup_Restore).
 
 
-#### Funding my LNbits wallet from my node doesn't work
+##### Funding my LNbits wallet from my node doesn't work
 
 If you want to send sats from the same node that is the funding source of your LNbits, you will need to edit the lnd.conf file. 
 
@@ -286,7 +286,7 @@ Please do so in the section Application options of your lnd.conf. On some bundle
 
 NOTE: It is recommended to instead use the new adminUI extension with the "TopUp" option to add funds to a LNbits account.
 
-#### Error 426
+##### Error 426
 I got the error: "lnurl needs to be delivered over publically accessible https domain or tor. 426 upgrade required"</summary>
   
 This error usually is because your LNbits behind a ngnix tunnel is not forwarding the LNURL address correct. Stop your LNbits and edit the .env file adding this line:
@@ -299,7 +299,7 @@ RequestHeader set "X-Forwarded-Proto" expr=%{REQUEST_SCHEME}
 RequestHeader set "X-Forwarded-SSL" expr=%{HTTPS}
 ```
 
-#### Network Error
+##### Network Error
 I got "https error", network error" or others when scanning a QR</summary>
   
 Bad news, this is a routing error that might have quite a lot of reasons. First check the QR´s LNURL with the [Lightning Decoder](https://lightningdecoder.com/) if you can find something weird in there. Let´s try a few of the most possible problems and their solutions.
@@ -310,7 +310,7 @@ LNbits is running via Tor only, you can't open it on a public domain like lnbits
 - Open your LN wallet app that you used to scan that QR and this time by using tor (see wallet app settings). If the app doesn't offer tor, you can use Orbot (Android) instead. See installation section for detailed instructions on how to open your LNbits for clearnet/https.
 
 
-#### Prevent others from generating wallets on my LNbits
+##### Prevent others from generating wallets on my LNbits
   
 When you run your LNbits in clearnet basically everyone can generate a wallet on it. Since the funds of your node are bound to these wallets you might want to prevent that. There are two ways to do so:
 
@@ -318,7 +318,7 @@ Configure allowed users and extensions in the `.env` file ([see the env example 
 
 
 
-#### Customize the invoice expiry timeframe
+##### Customize the invoice expiry timeframe
 
 Now you can generate invoices with a custom expiry. Compatible with backends: LndRestWallet, LndWallet, CoreLightningWallet, EclairWallet, LnbitsWallet, SparkWallet so far!
 
@@ -326,13 +326,13 @@ You can set `LIGHTNING_INVOICE_EXPIRY` in your .env file or use the AdminUI to c
 
 
 
-## Wallet-URL deleted
+### Wallet-URL deleted
 
-### Wallet on demo server legend.lnbits
+#### Wallet on demo server legend.lnbits
 
 Always save a copy of your wallet-URL, Export2phone-QR or LNDhub for your own wallets in a safe place. LNbits CANNOT help you to recover them when lost.
 
-### Wallet on your own funding source/node
+#### Wallet on your own funding source/node
 Always save a copy of your wallet-URL, Export2phone-QR or LNDhub for your own wallets in a safe place. You can find all LNbits users and wallet-IDs in your LNbits user manager extension or in your sqlite database. To edit or read the LNbits database, go to the LNbits /data folder and look for the file called sqlite.db. You can open and edit it with excel or with a dedicated SQL-Editor like [SQLite browser](https://sqlitebrowser.org/).
 
 Also you can dump the wallets via cli and view every wallet within your database.
@@ -359,26 +359,26 @@ Whereby you replace f8a43fc363ea428db5c53b3559935f1f with the value that comes b
 ```
 .quit
 ```
-#### LNURL for a lightning-address vice versa
+##### LNURL for a lightning-address vice versa
 
 Try this [encoder](https://lnurl-codec.netlify.app/) from fiatjaf or [this one](https://lightningdecoder.com/). For to pay or check an LNURLp you can as well use [LNurlpay](https://wwww.lnurlpay.com/). It should state HTTPS NOT HTTP.
 
 
-#### Configure a comment that people see when paying to my LNURLp QR
+##### Configure a comment that people see when paying to my LNURLp QR
 When you create a LNURL-p, by default the comment box is not filled. That means comments are not allowed to be attached to payments.
 
 In order to allow comments, add the characters lenght of the box, from 1 to 250. Once you put a number there, the comment box will be displayed in the payment process. You can also edit a LNURL-p already created and add that number.
 
 ![lnbits comments](assets/lnbits-comments.webp)
 
-#### Deposit onchain BTC to LNbits
+##### Deposit onchain BTC to LNbits
 There are two ways to exchange sats from onchain BTC to LN BTC (resp. to LNbits).
 
-##### Via an external swap service. 
+###### Via an external swap service. 
 
 Other users that dont have access to your LNb its can use a swap service like [Boltz](https://boltz.exchange/), [FixedFloat](https://fixedfloat.com/), [DiamondHands](https://swap.diamondhands.technology/) or [ZigZag](https://zigzag.io/). This is useful if you provide only LNURL/LN invoices from your LNbits instance, but a payer only has onchain sats so they will have to swap those sats first on their side. The procedure is simple: user sends onchain btc to the swap service and provides the LNURL / LN invoice from LNbits as destination of the swap.
 
-##### Using the Onchain and Boltz LNbits extension. 
+###### Using the Onchain and Boltz LNbits extension. 
 
 Keep in mind that this is a separate wallet, not the LN btc one that is represented by LNbits as "your wallet" upon your LN funding source. This onchain wallet can be used also to swap LN btc to (e.g. your hardwarewallet) by using the LNbits Boltz or Deezy extension. If you run a webshop that is linked to your LNbits for LN payments, it is very handy to regularily drain all the sats from LN into onchain. This leads to more space in your LN channels to be able to receive new fresh sats.
 
@@ -414,13 +414,13 @@ When doing this we recommend to as well set the LN network URI to the one of you
 If you have an Error "unsupported hash type" when using a ypub in On-chain extension, check if your LNbits instance is using python 3.10 it could be affected by [this issue](https://stackoverflow.com/questions/72409563/unsupported-hash-type-ripemd160-with-hashlib-in-python). Edit the openssl.cnf like described in the stackoverflow answer and restart your LNbits.
   
 
-## Tooling & Building with LNbits
+### Tooling & Building with LNbits
 
 LNbits has all sorts of [open APIs](https://legend.lnbits.com/docs) and tools to program and connect to a lot of different devices for a gazillion of use-cases.
 
 When you are new to building start with this [MakerBits presentations](https://www.youtube.com/channel/UCZhKfzK6_KWZ-CFC2wXQVBw/videos) from Ben Arc about building gadgets based on LNbits.
 
-### IMPORTANT:
+#### IMPORTANT:
 - LNbits works based on the LNURL protocol which requests are valid in two forms: either as https://clearnet link (no self-signed certificates allowed) or as http://v2/v3 onion link. To offer LNbits services like LNURLp/w QR codes or NFC Cards, that can be used in the wild, you will need to open LNbits to clearnet (https).
 - Only use DATA-Cables to power your esp32. Not all cables support data in addition to powering the esp. You wouldnt be the first if the cable that came with the esp is a power-only one
 - Make sure to not use a USB-Hub with other devices attached. This can lead to weird effects that are hard to debug (e.g. not starting or stopping).

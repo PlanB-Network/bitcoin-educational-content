@@ -1,0 +1,9 @@
+question: Miks tekitab väljaminev makse automaatselt sissetulevat likviidsust?
+answer: Muutuv likviidsus
+wrong_answers:
+  - Uute kanalite loomine
+  - Võimsuse suurendamine
+  - Madalamad marsruutimiskulud
+explanation: |
+  Väljaminev makse liigutab sats par'ile, tekitades kanali sellel poolel sissetulevat likviidsust.
+reviewed: false

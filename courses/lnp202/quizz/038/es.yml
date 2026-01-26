@@ -1,0 +1,9 @@
+question: ¿Por qué es fácil gestionar el perfil del consumidor?
+answer: Poca necesidad de liquidez entrante
+wrong_answers:
+  - No necesita canal
+  - Poca necesidad de liquidez de salida
+  - Sin necesidad de copias de seguridad
+explanation: |
+  Los consumidores no necesitan mucha liquidez entrante, y los pagos salientes crean naturalmente cierta liquidez entrante sin necesidad de una estrategia compleja.
+reviewed: false

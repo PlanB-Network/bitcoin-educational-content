@@ -1,0 +1,9 @@
+question: 哪种解决方案能为 "闪电 "用户提供最大的主权？
+answer: 经典闪电节点
+wrong_answers:
+  - 带有原子交换功能的 Wallet
+  - 机载 LN 节点
+  - 保管闪电 wallet
+explanation: |
+  经典节点提供对渠道、流动性和收费政策的全面控制。这是唯一一个可以让您真正独立的节点。
+reviewed: false

@@ -1,9 +1,9 @@
 ---
-name: Varjupaik
+name: Shelter
 description: Kasutage sama telefoni töö- ja eraelu jaoks koos Shelteriga
 ---
 
-![cover](cover.webp)
+![cover](assets/cover.webp)
 
 
 

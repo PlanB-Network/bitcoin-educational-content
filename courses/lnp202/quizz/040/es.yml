@@ -1,0 +1,9 @@
+question: ¿Por qué utilizar un gestor de nodos Lightning?
+answer: Fácil acceso a funciones avanzadas
+wrong_answers:
+  - Sustituir la implantación de LND
+  - Eliminar la dependencia de Umbrel
+  - Modificación del protocolo Lightning
+explanation: |
+  Los gestores avanzados ofrecen funcionalidades no disponibles en la interfaz básica, sin dejar de ser interfaces sencillas.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: 매트릭스
+name: Matrix
 description: 안전하고 개방적이며 분산된 커뮤니케이션 플랫폼인 Matrix의 이해, 구성 및 사용에 대한 안내서입니다.
 ---
 

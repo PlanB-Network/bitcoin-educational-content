@@ -23,7 +23,7 @@ Diese Anleitung führt Sie durch die drei SMS4Sats-Funktionen: Empfang einer Bes
 
 
 
-SMS4Sats ist ein Online-Dienst, der unter [sms4sats.com] (https://sms4sats.com) zugänglich ist und die anonyme Verwaltung von SMS gegen Bezahlung in Bitcoin Lightning ermöglicht. Der Dienst bietet drei verschiedene Funktionen: den Empfang von einmaligen Verifizierungscodes, den Versand von SMS an beliebige Nummern und die Anmietung von temporären Nummern für mehrere Stunden.
+SMS4Sats ist ein Online-Dienst, der unter [sms4sats.com](https://sms4sats.com) zugänglich ist und die anonyme Verwaltung von SMS gegen Bezahlung in Bitcoin Lightning ermöglicht. Der Dienst bietet drei verschiedene Funktionen: den Empfang von einmaligen Verifizierungscodes, den Versand von SMS an beliebige Nummern und die Anmietung von temporären Nummern für mehrere Stunden.
 
 
 

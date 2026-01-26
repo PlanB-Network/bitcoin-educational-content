@@ -46,7 +46,7 @@ https://planb.academy/tutorials/node/others/umbrel-nostr-7ae147e8-f5cd-46e1-861b
 
 
 
-Можете да добавите разширението Alby в браузъра си, като посетите магазина за разширения [Firefox] (https://addons.mozilla.org/fr/firefox/addon/alby/) или магазина за разширения [Chrome] (https://chromewebstore.google.com/detail/alby-bitcoin-wallet-for-l/iokeahhehimjnekafflcihljlcjccdbe).
+Можете да добавите разширението Alby в браузъра си, като посетите магазина за разширения [Firefox](https://addons.mozilla.org/fr/firefox/addon/alby/) или магазина за разширения [Chrome](https://chromewebstore.google.com/detail/alby-bitcoin-wallet-for-l/iokeahhehimjnekafflcihljlcjccdbe).
 
 
 

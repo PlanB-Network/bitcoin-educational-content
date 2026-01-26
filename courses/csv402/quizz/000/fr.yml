@@ -5,5 +5,5 @@ wrong_answers:
   - Répliquer les données des contrats intelligents
   - Garantir la disponibilité globale des données
 explanation: |
-  La blockchain Bitcoin est utilisée dans RGB pour horodater les engagements et empêcher la double dépense, sans stocker toutes les transitions d'état.
+  La blockchain Bitcoin est utilisée dans RGB pour horodater les engagements et empêcher la double dépense sans stocker toutes les transitions d'état.
 reviewed: false

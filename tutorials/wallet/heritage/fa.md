@@ -1,5 +1,5 @@
 ---
-name: میراث
+name: Heritage
 description: یک پورتفولیوی Bitcoin با مکانیزم ارث‌بری یکپارچه از طریق اسکریپت‌های Taproot
 ---
 

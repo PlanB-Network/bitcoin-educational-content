@@ -56,7 +56,7 @@ I avsnittet "Du får" - den stora fyrkanten med Bitcoin-logotypen, välj BTC (Bi
 ### Steg 3: Ange VND-belopp och granska detaljer om erbjudandet
 
 
-Ange manuellt det belopp du vill swappa och använd knapparna [länk till dagliga gränser] (https://bitcoinvn.io/info) eller Min/Max för att kontrollera din kapacitet om du inte har ett konto. Systemet beräknar omedelbart det slutliga beloppet av BTC som du kommer att få efter att ha tagit hänsyn till [swapavgifter] (https://support.bitcoinvn.io/help/en-us/4-orders/12-fees) och växelkursen vid den specifika tidpunkten. Granska det slutliga BTC-beloppet för att se om du är nöjd med affären.
+Ange manuellt det belopp du vill swappa och använd knapparna [länk till dagliga gränser](https://bitcoinvn.io/info) eller Min/Max för att kontrollera din kapacitet om du inte har ett konto. Systemet beräknar omedelbart det slutliga beloppet av BTC som du kommer att få efter att ha tagit hänsyn till [swapavgifter](https://support.bitcoinvn.io/help/en-us/4-orders/12-fees) och växelkursen vid den specifika tidpunkten. Granska det slutliga BTC-beloppet för att se om du är nöjd med affären.
 
 
 #### Tips
@@ -65,7 +65,7 @@ Ange manuellt det belopp du vill swappa och använd knapparna [länk till daglig
 Kom ihåg att **transaktionsräntorna varierar**, så kontrollera alltid det slutliga priset innan du bekräftar.
 
 
-**Ett konto krävs inte med** dagliga transaktioner begränsade till VND 250.000 (~ USD 8). Mer information finns i vår [banköverföringspolicy] (https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer).
+**Ett konto krävs inte med** dagliga transaktioner begränsade till VND 250.000 (~ USD 8). Mer information finns i vår [banköverföringspolicy](https://support.bitcoinvn.io/help/en-us/5-deposit-settle-methods/17-vnd-bank-transfer).
 
 
 **Varning**: nätverksavgiften är i allmänhet billigare när du väljer Lightning Network jämfört med transaktionsmetoden onchain.
@@ -140,9 +140,9 @@ Vi täcker dina behov oavsett om du är en privatperson eller ett företag. Dett
 Vi uppmuntrar dig starkt att gå med i vår community och hålla dig uppdaterad:
 
 
-- [LinkedIn] (https://vn.linkedin.com/company/bitcoinvn)
-- [Facebook] (https://www.facebook.com/www.bitcoinvn.io)
-- [X] (https://x.com/Bitcoin_Vietnam) (f.d. Twitter)
-- [TikTok] (https://www.tiktok.com/@bitcoinvn.io)
-- [Nostr] (https://iris.to/npub1j4lp9hmzd3rqlcw7mml09uwvwap0g5u5wx2qm2lzt9wcqt925jvqf4wzaa)
-- [Senaste nytt] (https://bitcoinvn.io/news/)
+- [LinkedIn](https://vn.linkedin.com/company/bitcoinvn)
+- [Facebook](https://www.facebook.com/www.bitcoinvn.io)
+- [X](https://x.com/Bitcoin_Vietnam) (f.d. Twitter)
+- [TikTok](https://www.tiktok.com/@bitcoinvn.io)
+- [Nostr](https://iris.to/npub1j4lp9hmzd3rqlcw7mml09uwvwap0g5u5wx2qm2lzt9wcqt925jvqf4wzaa)
+- [Senaste nytt](https://bitcoinvn.io/news/)

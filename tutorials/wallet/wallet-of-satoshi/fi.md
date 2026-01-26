@@ -4,6 +4,12 @@ description: Yksinkertaisin huoltajien Wallet, jolla pääsee alkuun
 ---
 ![cover](assets/cover.webp)
 
+---
+
+*Huomio: vuoden 2026 alusta lähtien Wallet of Satoshi custodial-tilassa (kuten tässä oppaassa esitetään) ei ole enää saatavilla Euroopan unionissa. Jos asut tällä alueella ja haluat jatkaa tämän työkalun käyttöä, sinun on käytettävä EU:n ulkopuolelle sijoitettua VPN-yhteyttä. Toinen vaihtoehto on käyttää Wallet of Satoshia self-custodial-tilassa. Erillinen opas julkaistaan pian Plan ₿ Academyssa.*
+
+---
+
 _Tämän ohjeen on kirjoittanut_ [Bitcoin Campus](https://linktr.ee/bitcoincampus_)
 
 

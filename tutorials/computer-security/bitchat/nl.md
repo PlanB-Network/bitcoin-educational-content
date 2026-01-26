@@ -27,7 +27,7 @@ In deze tutorial laten we zien hoe Bitchat werkt en hoe je het kunt gebruiken vo
 ## belangrijkste kenmerken
 
 
-Bitchat maakt offline messaging mogelijk via deze [functies] (https://github.com/permissionlesstech/bitchat-android?tab=readme-ov-file#features):
+Bitchat maakt offline messaging mogelijk via deze [functies](https://github.com/permissionlesstech/bitchat-android?tab=readme-ov-file#features):
 
 
 
@@ -54,7 +54,7 @@ Met Bitchat kun je direct berichten versturen naar telefoons in de buurt via Blu
 Met Bitchat kun je ook deelnemen aan locatiegebaseerde chatrooms met behulp van het Nostr protocol en `#geohashes`. Een geohash is een korte code, zoals `#u33d`, die een specifiek geografisch gebied vertegenwoordigt, van een enkele buurt tot een hele stad of regio. Je kunt `teleporteren` in elke geohash chatroom over de hele wereld door simpelweg de tag in te voeren. Je berichten worden verzonden via een gedecentraliseerd netwerk van relais, dat je exacte locatie beschermt. Bovendien krijg je elke keer dat je lid wordt van een geohashroom een nieuwe, tijdelijke identiteit, wat een extra laag privacy toevoegt aan je locatiegebaseerde gesprekken.
 
 
-Raadpleeg voor meer nauwkeurige technische details het [officiële Whitepaper] (https://github.com/permissionlesstech/bitchat/blob/main/WHITEPAPER.md).
+Raadpleeg voor meer nauwkeurige technische details het [officiële Whitepaper](https://github.com/permissionlesstech/bitchat/blob/main/WHITEPAPER.md).
 
 
 ## 2️⃣ Installatie en installatie
@@ -76,7 +76,7 @@ Android-gebruikers hebben ook alternatieve opties:
 
 
 - Download de APK rechtstreeks van de [GitHub Releases](https://github.com/permissionlesstech/bitchat-android/releases) pagina of
-- Installeren via de Nostr-compatibele [Zapstore] (https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq7xwd748yfjrsu5yuerm56fcn9tntmyv04w95etn0e23xrczvvraqqgkxmmd9e3xjarrdpshgtnywfhkjeqxtfkcr)
+- Installeren via de Nostr-compatibele [Zapstore](https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq7xwd748yfjrsu5yuerm56fcn9tntmyv04w95etn0e23xrczvvraqqgkxmmd9e3xjarrdpshgtnywfhkjeqxtfkcr)
 
 
 ![image](assets/en/01.webp)
@@ -146,7 +146,7 @@ Gebruik het menu `locatiekanalen` (rechts van de gebruikersnaam) om te schakelen
 
 
 - BLE Mesh***: Standaard Bluetooth-modus (geen internet, van 10 tot 50 meter bereik)
-- #geohashes**: Geografische gemeenschappen via internet met behulp van het [Nostr protocol] (https://nostr.com/)
+- #geohashes**: Geografische gemeenschappen via internet met behulp van het [Nostr protocol](https://nostr.com/)
 
 
 Wanneer u de `#geohashes` modus selecteert, integreert Bitchat met het Nostr protocol om geografische gemeenschappen mogelijk te maken. Uw berichten worden gepubliceerd naar `decentrale Nostr relais` in plaats van Bitchat's peer-to-peer netwerk, waardoor bredere maar locatie-gefilterde gesprekken mogelijk zijn. Cruciaal is dat je Bitchat identiteitssleutels alle Nostr gebeurtenissen cryptografisch ondertekenen om de authenticatie te behouden, terwijl geohash tags (zoals `#u4pruyd` voor een buurt) berichten filteren op het door jou gekozen precisieniveau. Dit betekent dat je kunt deelnemen aan lokale discussies zonder exacte coördinaten prijs te geven, maar internettoegang is vereist.
@@ -282,7 +282,7 @@ Geohash-kanalen maken gerichte conversaties mogelijk op basis van `geografische 
 ### Hoe `#geohashes` werken
 
 
-Het systeem verdeelt de wereld in rastervierkanten met behulp van het [Geohash-systeem] (https://en.wikipedia.org/wiki/Geohash), waarbij elk teken in de hash een grotere precisie vertegenwoordigt:
+Het systeem verdeelt de wereld in rastervierkanten met behulp van het [Geohash-systeem](https://en.wikipedia.org/wiki/Geohash), waarbij elk teken in de hash een grotere precisie vertegenwoordigt:
 
 
 

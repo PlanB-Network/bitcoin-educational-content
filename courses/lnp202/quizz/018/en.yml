@@ -1,0 +1,9 @@
+question: How many words does the LND mnemonic phrase contain?
+answer: 24 words
+wrong_answers:
+  - 10 words
+  - 18 words
+  - 36 words
+explanation: |
+  LND generates a 24-word mnemonic phrase for node backup and recovery.
+reviewed: false

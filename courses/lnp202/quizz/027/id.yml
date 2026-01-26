@@ -1,0 +1,9 @@
+question: Informasi apa yang diterima menara pengawas untuk memantau kecurangan?
+answer: TXID parsial dari transaksi kecurangan
+wrong_answers:
+  - Kunci saluran pribadi
+  - Status saluran lengkap
+  - TXID dari transaksi kecurangan
+explanation: |
+  Menara pengawas hanya menerima sebagian TXID dari transaksi kecurangan untuk mengidentifikasi transaksi yang mencurigakan tanpa mengetahui salurannya.
+reviewed: false

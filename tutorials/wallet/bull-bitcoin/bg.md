@@ -49,7 +49,7 @@ Bull Bitcoin Wallet, разработен от [Bull Bitcoin](https://www.bullbi
 
 
 
-- Изтеглете APK директно от [GitHub Releases] (https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) страница или
+- Изтеглете APK директно от [GitHub Releases](https://github.com/SatoshiPortal/bullbitcoin-mobile/releases) страница или
 - Инсталиране чрез съвместимия с Nostr [Zapstore](https://zapstore.dev/apps/naddr1qvzqqqr7pvpzq7xwd748yfjrsu5yuerm56fcn9tntmyv04w95etn0e23xrczvvraqqtxxmmd9e382mrvvf5hgcm0d9hzumt0vf5kcegnah0ap)
 
 

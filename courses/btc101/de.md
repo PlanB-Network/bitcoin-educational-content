@@ -39,39 +39,11 @@ In diesem Kurs werden wir einige monetäre Aspekte von Bitcoin besprechen, einsc
 
 Es ist wichtig zu verstehen, dass Bitcoin ein neues Geldsystem ist, das unsere Beziehung zum Geld völlig verändert. Daher ist das Erlernen des Umgangs mit Bitcoin eine notwendige Fähigkeit für jeden, der die Kontrolle über sein eigenes Geld haben möchte.
 
-**Abschnitt 1 - Einführung**  
-- Kapitel 1 - Kursüberblick  
-- Kapitel 2 - Die Vorgeschichte von Bitcoin  
 
-**Abschnitt 2 - Geld**  
-- Kapitel 3 - Geld im Laufe der Geschichte  
-- Kapitel 4 - Fiat-Währungen  
-- Kapitel 5 - Hyperinflation  
-- Kapitel 6 - 21 Millionen Bitcoins  
 
-**Abschnitt 3 - Bitcoin-Wallets**  
-- Kapitel 7 - Was ist eine Bitcoin-Wallet?  
-- Kapitel 8 - Bitcoin-Wallets und Sicherheit  
-- Kapitel 9 - Einrichtung einer Wallets
-- Kapitel 10 - Bitcoins sicher verwahren
 
-**Abschnitt 4 - Die technischen Aspekte von Bitcoin**  
-- Kapitel 11 - Der Start von Bitcoin  
-- Kapitel 12 - Bitcoin-Transaktionen  
-- Kapitel 13 - Bitcoin-Nodes  
-- Kapitel 14 - Miner  
-- Kapitel 15 - Bitcoin und Ökologie  
 
-**Abschnitt 5 - Wie erhält man Bitcoins?**  
-- Kapitel 16 - Bitcoin schläft nie!  
-- Kapitel 17 - Bitcoins durch Arbeit verdienen  
-- Kapitel 18 - Sparen mit Bitcoin  
-- Kapitel 19 - Hyperbitcoinisierung  
 
-**Abschnitt 6 - Die Zukunft von Bitcoin: das Lightning Network**  
-- Kapitel 20 - Eine kurze Einführung in das Lightning Network  
-- Kapitel 21 - Anwendungsfälle des Lightning Network  
-- Kapitel 22 - Rote Pille oder blaue Pille?  
 
 Bevor wir die Definition von Geld und seine Funktion in der Gesellschaft vorstellen (Kapitel 1), sollten wir mit der Entstehungsgeschichte von Bitcoin beginnen. Bitcoin wurde 2009 eingeführt und ist eine relativ neue Technologie, die sich von allen anderen unterscheidet. Es ist daher normal, dass man nicht alles auf einmal versteht. Genau wie beim Lernen der Internetnutzung oder des Autofahrens müssen Sie nicht sofort alle technischen Details kennen: Du kannst damit beginnen, zu lernen, wie man Geld empfängt, bezahlt und sichert, und sich dann in kleinen Schritten eingehender damit befassen.
 
@@ -716,7 +688,8 @@ Trotz Satoshis Abwesenheit wurde Bitcoin weiter entwickelt: Die Geschichte von B
 
 Für die einen ist Bitcoin ein pilzartiges Gebilde wie ein [Myzel](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), während andere es als [Schwarzes Loch](https://dergigi.com/) bezeichnen. Ob man es liebt oder hasst, Bitcoin existiert weiter, mit seinem konstanten Rhythmus von 10 Minuten pro Block, wie der Herzschlag eines neuen Geldsystems.
 
-Um mehr über Satoshi Nakamotos Schriften zu erfahren, empfehlen wir die Lektüre von ["The Book of Satoshi"](https://planb.academy/en/resources/books/98) von Phil Champagne oder die ARTE-Dokumentation "Le mystaire Satoshi".
+Um die Schriften von Satoshi Nakamoto zu vertiefen, empfehle ich die Lektüre von [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) von Phil Champagne, das seine wichtigsten Texte zusammenführt und einordnet, sowie die ARTE-Dokumentation [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), die eine zugängliche und gut dokumentierte Untersuchung seiner Identität und seines Vermächtnisses bietet.
+
 
 ![image](assets/de/044.webp)
 

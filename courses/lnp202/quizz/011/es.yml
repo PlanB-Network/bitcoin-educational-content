@@ -1,0 +1,9 @@
+question: ¿Qué solución ofrece más soberanía a los usuarios de Lightning?
+answer: Nodo relámpago clásico
+wrong_answers:
+  - Wallet con intercambio atómico
+  - Nodo LN a bordo
+  - Custodia Rayo wallet
+explanation: |
+  El nodo clásico proporciona un control total sobre los canales, la liquidez y las políticas de comisiones. Es el único que te permite ser verdaderamente independiente.
+reviewed: false

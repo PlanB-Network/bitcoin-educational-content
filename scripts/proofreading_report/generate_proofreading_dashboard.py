@@ -64,10 +64,8 @@ def calculate_status(contributors):
     count = len(contributors)
     if count == 1:
         return 1
-    elif count == 2:
+    else:  # 2 or more
         return 2
-    else:  # 3 or more
-        return 3
 
 
 def extract_english_title(content_dir):
@@ -1066,9 +1064,8 @@ def generate_html(data):
             --color-primary: #ff6b00;
             --color-primary-dark: #cc5500;
             --color-status-0: #e74c3c;
-            --color-status-1: #e67e22;
-            --color-status-2: #f39c12;
-            --color-status-3: #27ae60;
+            --color-status-1: #f39c12;
+            --color-status-2: #27ae60;
             --color-hover: #ecf0f1;
             --color-purple: #ff8c42;
         }}
@@ -1287,12 +1284,12 @@ def generate_html(data):
         }}
 
         .matrix-table th {{
-            background: var(--color-bg);
+            background: #dfe4ea;
             color: #000000;
             padding: 0.75rem;
             text-align: center;
             font-weight: 600;
-            border: 1px solid var(--color-border);
+            border: 2px solid #ffffff;
             position: sticky;
             top: 0;
             z-index: 10;
@@ -1339,12 +1336,12 @@ def generate_html(data):
         }}
 
         .matrix-complete {{
-            background: var(--color-status-3);
+            background: var(--color-status-2);
             color: white;
         }}
 
         .matrix-partial {{
-            background: var(--color-status-2);
+            background: var(--color-status-1);
             color: white;
         }}
 
@@ -1424,7 +1421,6 @@ def generate_html(data):
         .status-0 {{ background: var(--color-status-0); }}
         .status-1 {{ background: var(--color-status-1); }}
         .status-2 {{ background: var(--color-status-2); }}
-        .status-3 {{ background: var(--color-status-3); }}
 
         .level-badge {{
             background: var(--color-purple);
@@ -1442,12 +1438,12 @@ def generate_html(data):
         }}
 
         .lang-stats-table th {{
-            background: var(--color-bg);
+            background: #dfe4ea;
             color: #000000;
             padding: 0.75rem;
             text-align: left;
             font-weight: 600;
-            border-bottom: 2px solid var(--color-border);
+            border: 2px solid #ffffff;
         }}
 
         .lang-stats-table td {{
@@ -1868,12 +1864,12 @@ def generate_html(data):
         }}
 
         .monthly-lang-table th {{
-            background: var(--color-bg);
+            background: #dfe4ea;
             color: #000000;
             padding: 0.75rem;
             text-align: left;
             font-weight: 600;
-            border-bottom: 2px solid var(--color-border);
+            border: 2px solid #ffffff;
         }}
 
         .monthly-lang-table td {{
@@ -1954,6 +1950,169 @@ def generate_html(data):
                 font-size: 1.3rem;
             }}
         }}
+
+        /* Resources Section at Bottom */
+        .resources-section {{
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 3rem 2rem;
+            margin-top: 3rem;
+            border-top: 3px solid var(--color-primary);
+        }}
+
+        .resources-container {{
+            max-width: 1200px;
+            margin: 0 auto;
+        }}
+
+        .resources-section h2 {{
+            text-align: center;
+            color: var(--color-primary);
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }}
+
+        .resources-intro {{
+            text-align: center;
+            color: var(--color-text-light);
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }}
+
+        .resources-grid {{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }}
+
+        .resource-card {{
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-decoration: none;
+            color: var(--color-text);
+            transition: all 0.3s;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border: 2px solid transparent;
+            display: block;
+        }}
+
+        .resource-card:hover {{
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+            border-color: var(--color-primary);
+        }}
+
+        .resource-card-icon {{
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            display: block;
+        }}
+
+        .resource-card-title {{
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: var(--color-text);
+        }}
+
+        .resource-card-desc {{
+            font-size: 0.9rem;
+            color: var(--color-text-light);
+            line-height: 1.5;
+        }}
+
+        .resource-type-badge {{
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            background: var(--color-primary);
+            color: white;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            margin-top: 0.5rem;
+            font-weight: 600;
+        }}
+
+        /* Thank You Section */
+        .thank-you-section {{
+            background: var(--color-card);
+            color: var(--color-text);
+            padding: 3rem 2rem;
+            text-align: center;
+            border-top: 4px solid var(--color-primary);
+        }}
+
+        .thank-you-section h2 {{
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--color-text);
+        }}
+
+        .thank-you-section p {{
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+            color: var(--color-text);
+        }}
+
+        .community-links {{
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }}
+
+        .community-link {{
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }}
+
+        .community-link.telegram {{
+            background: #0088cc;
+            color: white;
+        }}
+
+        .community-link.telegram:hover {{
+            background: #006699;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,136,204,0.3);
+        }}
+
+        .community-link.discord {{
+            background: #5865F2;
+            color: white;
+        }}
+
+        .community-link.discord:hover {{
+            background: #4752C4;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(88,101,242,0.3);
+        }}
+
+        .community-icon {{
+            font-size: 1.5rem;
+        }}
+
+        @media (max-width: 768px) {{
+            .community-links {{
+                flex-direction: column;
+                align-items: stretch;
+            }}
+
+            .community-link {{
+                width: 100%;
+                justify-content: center;
+            }}
+        }}
     </style>
 </head>
 <body>
@@ -1977,6 +2136,7 @@ def generate_html(data):
                 <a href="#recent-contributions" class="toc-link">🕒 Last Proofreading Contributions</a>
                 <a href="#leaderboards" class="toc-link">🏆 Leaderboards</a>
                 <a href="#monthly-leaderboard" class="toc-link">📅 Monthly Language Team Leaderboard</a>
+                <a href="#resources" class="toc-link">📚 Proofreading Resources</a>
             </nav>
         </div>
 
@@ -2240,7 +2400,7 @@ def generate_html(data):
 
             [...courses, ...tutorials].forEach(item => {{
                 item.proofreading.forEach(pr => {{
-                    if (pr.status === 3) completeCount++;
+                    if (pr.status === 2) completeCount++;
                     if (pr.status === 0) urgentCount++;
                 }});
             }});
@@ -2474,14 +2634,13 @@ def generate_html(data):
                     const pr = item.proofreading.find(p => p.language === lang.code);
 
                     if (pr) {{
-                        const status = pr.status; // 0, 1, 2, or 3
-                        const total = 3;
+                        const status = pr.status; // 0, 1, or 2
+                        const total = 2;
                         const contributorCount = status;
-                        const percentage = Math.round((status / 3) * 100);
+                        const percentage = Math.round((status / 2) * 100);
 
                         let className = 'matrix-empty';
-                        if (status === 3) className = 'matrix-complete';
-                        else if (status === 2) className = 'matrix-partial';
+                        if (status === 2) className = 'matrix-complete';
                         else if (status === 1) className = 'matrix-partial';
 
                         td.className = className;
@@ -2578,8 +2737,8 @@ def generate_html(data):
 
             allItems.forEach(item => {{
                 const pr = item.proofreading;
-                const statusText = ['Urgent - No Contributors', 'Needs Review - 1 Contributor', 'In Progress - 2 Contributors', 'Complete - 3+ Contributors'][pr.status];
-                const contributorsNeeded = Math.max(0, 3 - pr.contributors.length);
+                const statusText = ['Urgent - No Contributors', 'In Progress - 1 Contributor', 'Complete - 2+ Contributors'][pr.status];
+                const contributorsNeeded = Math.max(0, 2 - pr.contributors.length);
                 const lastUpdate = pr.last_date ? `Last updated: ${{pr.last_date}}` : 'Never updated';
 
                 const div = document.createElement('div');
@@ -2707,7 +2866,7 @@ def generate_html(data):
                 const languageName = lang ? lang.name : contribution.language.toUpperCase();
                 const date = new Date(contribution.date);
                 const formattedDate = date.toLocaleDateString('en-US', {{ year: 'numeric', month: 'short', day: 'numeric' }});
-                const statusText = ['Needs Proofreading', 'In Progress (1)', 'In Progress (2)', 'Complete (3+)'][contribution.status];
+                const statusText = ['Needs Proofreading', 'In Progress (1/2)', 'Complete (2/2)'][contribution.status];
 
                 const div = document.createElement('div');
                 div.className = 'contribution-item';
@@ -2994,6 +3153,76 @@ def generate_html(data):
             }});
         }});
     </script>
+
+    <!-- Resources Section at Bottom -->
+    <section class="resources-section" id="resources">
+        <div class="resources-container">
+            <h2>📚 Proofreading Resources</h2>
+            <p class="resources-intro">
+                Learn how to proofread and review content effectively with our comprehensive guides and video tutorials
+            </p>
+
+            <div class="resources-grid">
+                <a href="https://planb.academy/en/tutorials/contribution/content/proofreading-guidelines-52348db0-8cd0-4658-9de4-0e8c25bea1a0"
+                   target="_blank" class="resource-card">
+                    <span class="resource-card-icon">📖</span>
+                    <div class="resource-card-title">Proofreading Guidelines</div>
+                    <div class="resource-card-desc">
+                        Complete guide on how to proofread educational content. Learn best practices, common mistakes, and quality standards.
+                    </div>
+                    <span class="resource-type-badge">GUIDE</span>
+                </a>
+
+                <a href="https://planb.academy/en/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017"
+                   target="_blank" class="resource-card">
+                    <span class="resource-card-icon">✅</span>
+                    <div class="resource-card-title">Review Tutorial</div>
+                    <div class="resource-card-desc">
+                        Step-by-step tutorial on reviewing and approving proofreading submissions in the platform.
+                    </div>
+                    <span class="resource-type-badge">TUTORIAL</span>
+                </a>
+
+                <a href="https://workspace.planb.network/s/7FK5scZRK5cxRmf"
+                   target="_blank" class="resource-card">
+                    <span class="resource-card-icon">🎥</span>
+                    <div class="resource-card-title">General Proofreading Process</div>
+                    <div class="resource-card-desc">
+                        Watch this video walkthrough of the complete proofreading workflow on GitHub, from start to finish.
+                    </div>
+                    <span class="resource-type-badge">VIDEO</span>
+                </a>
+
+                <a href="https://workspace.planb.network/s/RXq3ALHWZidASLD"
+                   target="_blank" class="resource-card">
+                    <span class="resource-card-icon">🎥</span>
+                    <div class="resource-card-title">Proofread Quizzes and Tutorial Sections</div>
+                    <div class="resource-card-desc">
+                        Learn how to proofread tutorial quizzes and course sections effectively using GitHub's review tools.
+                    </div>
+                    <span class="resource-type-badge">VIDEO</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Thank You Section -->
+    <section class="thank-you-section">
+        <h2>🙏 Thank You!</h2>
+        <p>Thank you to everyone who contributes to making Bitcoin education accessible worldwide.</p>
+        <p>Join the Plan ₿ Community and start proofreading now!</p>
+        <p style="font-size: 1rem; margin-top: 0.5rem; color: var(--color-text-light);">You only need to tag the admin to receive your first proofreading task!</p>
+        <div class="community-links">
+            <a href="https://t.me/PlanBNetwork_ContentBuilder" target="_blank" class="community-link telegram">
+                <span class="community-icon">💬</span>
+                <span>Join us on Telegram</span>
+            </a>
+            <a href="https://discord.com/invite/q9CFPmRNAD" target="_blank" class="community-link discord">
+                <span class="community-icon">💬</span>
+                <span>Join us on Discord</span>
+            </a>
+        </div>
+    </section>
 
     <!-- Back to Top Button -->
     <button class="back-to-top" aria-label="Back to top">↑</button>

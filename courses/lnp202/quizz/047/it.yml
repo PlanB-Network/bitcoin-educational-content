@@ -1,0 +1,9 @@
+question: Perché LN+ non è adatto ai commercianti?
+answer: Investimento di capitale sostanziale
+wrong_answers:
+  - Mancanza di affidabilità dei nodi coinvolti
+  - Nessun sistema di reputazione
+  - Canali troppo piccoli
+explanation: |
+  Ogni sat in entrata ottenuto richiede il blocco di un sat in uscita, il che limita la scalabilità di un'azienda.
+reviewed: false

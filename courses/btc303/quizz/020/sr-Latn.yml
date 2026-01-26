@@ -1,9 +1,12 @@
-question: Prema Gregory Maxwellu, finansijska privatnost je ključna za efikasno funkcionisanje slobodnog tržišta jer omogućava pojedincima i kompanijama da donose odluke bez straha od neovlašćenog nadzora ili eksploatacije. Ova privatnost štiti konkurentnost i inovacije, omogućavajući tržištu da funkcioniše na osnovu stvarne ponude i potražnje, a ne na osnovu manipulacija ili pritisaka spolja.
+question: Prema Gregory Maxwell-u, zašto je finansijska privatnost od suštinskog značaja za efikasno funkcionisanje slobodnog tržišta?
 answer: Zato što preduzeća ne mogu efikasno da postavljaju cene ili konkurišu ako dobavljači, kupci i konkurenti mogu da vide sve njihove transakcije
 wrong_answers:
   - Zato što sprečava regulaciju i oporezivanje poslovnih transakcija i komercijalnih aktivnosti od strane vlade
   - Zato što omogućava preduzećima da sakriju ilegalne aktivnosti i izbegnu usklađivanje sa zahtevima za finansijsko izveštavanje
   - Zato što omogućava kompanijama da manipulišu tržišnim cenama bez otkrivanja od strane regulatornih vlasti
 explanation: |
-  Gregory Maxwell tvrdi da je finansijska privatnost ključna za efikasnost slobodnog tržišta jer preduzeća trebaju privatnost transakcija da bi efikasno poslovala. Ako dobavljači i kupci mogu videti sve transakcije, preduzeća gube pregovaračku moć i ne mogu postaviti konkurentne cene. Slično, ako konkurenti mogu pratiti prodaju i poslovne transakcije, kompanije ne mogu ravnopravno konkurisati. Ostale opcije su netačne jer se Maxwellov argument fokusira na legitimne poslovne operacije i efikasnost tržišta, a ne na izbegavanje regulacije, skrivanje ilegalnih aktivnosti ili manipulaciju tržištem.
-reviewed: false
+  Gregory Maxwell tvrdi da je finansijska privatnost ključna za efikasnost slobodnog tržišta jer preduzeća trebaju privatnost transakcija da bi efikasno poslovala.
+  Ako dobavljači i kupci mogu videti sve transakcije, preduzeća gube pregovaračku moć i ne mogu postaviti konkurentne cene. Slično, ako konkurenti mogu pratiti 
+  prodaju i poslovne transakcije, kompanije ne mogu ravnopravno konkurisati. Ostale opcije su netačne jer se Maxwellov argument fokusira na legitimne poslovne 
+  operacije i efikasnost tržišta, a ne na izbegavanje regulacije, skrivanje ilegalnih aktivnosti ili manipulaciju tržištem.
+reviewed: true

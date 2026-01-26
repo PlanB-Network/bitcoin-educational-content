@@ -95,7 +95,7 @@ Vejamos em pormenor como utilizar o SMS4Sats para receber um código de verifica
 
 
 
-Aceder a [sms4sats.com] (https://sms4sats.com) e permanecer no separador **RECEIVE**. Selecione o país do número pretendido no menu pendente. Se o serviço alvo da sua assinatura estiver listado, selecione-o para otimizar as hipóteses de receção.
+Aceder a [sms4sats.com](https://sms4sats.com) e permanecer no separador **RECEIVE**. Selecione o país do número pretendido no menu pendente. Se o serviço alvo da sua assinatura estiver listado, selecione-o para otimizar as hipóteses de receção.
 
 
 
@@ -346,5 +346,5 @@ No entanto, é preciso ter em conta as suas limitações: o serviço não garant
 
 
 - [Sítio Web oficial do SMS4Sats](https://sms4sats.com)
-- [FAQ do serviço] (https://sms4sats.com/faq)
+- [FAQ do serviço](https://sms4sats.com/faq)
 - [Endereço do Tor](http://sms4sat6y7lkq4vscloomatwyj33cfeddukkvujo2hkdqtmyi465spid.onion)

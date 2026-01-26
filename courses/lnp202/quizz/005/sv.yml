@@ -1,0 +1,9 @@
+question: Vilka uppgifter kan en Lightning wallet-operatör observera om sina användare?
+answer: Alla deras flöden
+wrong_answers:
+  - Deras identiteter
+  - Metadata för deras betalningar, men utan beloppen
+  - Kostnaderna för deras betalningar, men utan beloppen
+explanation: |
+  Operatören har tillgång till användarens belopp, frekvenser, mottagare och betalningsvanor - kort sagt kan han observera allt, trots att dessa tjänster ofta är KYC-fria.
+reviewed: false

@@ -14,7 +14,7 @@ description: 下載 Android 應用程式的 Play Store 免費替代方案
 
 
 
-# 開始使用 Aurora 商店
+## 開始使用 Aurora 商店
 
 
 
@@ -88,7 +88,7 @@ APK (Android Package Kit) 檔案是 Android 作業系統用來散佈和安裝應
 
 
 
-## 特點
+### 特點
 
 
 

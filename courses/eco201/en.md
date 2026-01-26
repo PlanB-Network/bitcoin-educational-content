@@ -1,5 +1,5 @@
 ---
-name: Austrian school of economics foundamentals
+name: Austrian School of Economics Fundamentals
 goal: Discover Austrian economics as an alternative framework for analyzing markets and individual decision-making
 objectives:
 - Analyze the functions of money, credit, and central banking systems
@@ -526,9 +526,8 @@ The consequences of such misallocation include financial and economic crises, re
 
 Today, the economic calculation debate resurfaces primarily in discussions about energy, where malinvestments driven by a green agenda are becoming increasingly evident. It also arises in discussions about money markets, with Austrian economists pointing out that the 2008 crisis, which mainstream economists failed to predict, was a classic boom and bust cycle characterized by overinvestment in the housing market due to prolonged periods of low interest rates. Furthermore, neo-Marxists and other socialist factions propagate the notion that the emergence of AI could resolve the economic calculation problem. However, this perspective stems from a flawed understanding of the issue; the economic calculation problem is not a matter of computing power but rather a matter of generating and distributing information related to production and resource allocation. This information can only be generated locally by agents with specialized knowledge and a vested interest in the outcome. AI cannot replace this bottom-up process and, therefore, cannot help central planners address the resource allocation problem. Unfortunately, due to a century of misunderstanding, we anticipate a proliferation of claims that AI will usher in a new era of economic prosperity led by enlightened central planners who, with the aid of AI, can correct the failures of free markets.
 
-For a concrete application of the economic calculation problem to a contemporary situation, you can refer to this article tackling the problem of resource allocation in modern China.
+For a concrete application of the problem of economic calculation to a contemporary situation, you may refer to this article addressing the allocation of resources in modern China: *[The Road to Financial Repression: China the Paper Tiger](https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web)*, by Théo Mogenet.
 
-> The Road to Financial Repression: China the Paper Tiger, Theo Mogenet, https://open.substack.com/pub/theomogenet/p/the-road-to-financial-repression-181?r=ccpx8&utm_campaign=post&utm_medium=web
 
 
 ### Conclusion

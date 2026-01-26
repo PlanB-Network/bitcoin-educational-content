@@ -43,7 +43,7 @@ RustやBitcoinの開発経験は問いませんが、基本的なプログラミ
 昨年10月、フルグレ・ベンチャーがトスカーナで開催したライブ・セミナーの一部である。このトレーニングは最初の1週間のみに焦点を当てる。後半はRGBを対象としており、RGBコースでご覧いただけます。
 
 
-https://planb.academy/en/courses/rgb-programming-3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
+https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
 このトレーニングでは、Rustと様々なSDKを使用して、Lightning Networkでのプログラミングスキルを向上させる機会を提供します。Lightning Networkに特化した開発に飛び込みたい、しっかりとしたプログラミングのバックグラウンドを持つ開発者向けに設計されています。Rustの基礎、Bitcoin開発に適している理由、そして専門SDKを使用した実践的な実装へと進みます。
 

@@ -75,7 +75,7 @@ Silentium è una Progressive Web App (PWA) accessibile da qualsiasi browser mode
 
 
 
-[Andare a `https://app.silentium.dev/` dal browser] (https://app.silentium.dev/). L'applicazione si carica immediatamente e visualizza la schermata iniziale.
+[Andare a `https://app.silentium.dev/` dal browser](https://app.silentium.dev/). L'applicazione si carica immediatamente e visualizza la schermata iniziale.
 
 
 

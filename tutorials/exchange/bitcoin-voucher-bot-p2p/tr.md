@@ -7,7 +7,7 @@ description: BitcoinVoucherBot ile Bitcoin P2P Nasıl Alınır ve Satılır
 
 
 
-SEPA banka transferi yoluyla [KYC] (https://planb.academy/resources/glossary/kyc-know-your-customer) olmadan Telegram satın almak için oluşturulan bir Bitcoin botu olan BitcoinVoucherBot'u hala duyuyoruz. Ne yazık ki, Kasım 2025 itibariyle, BitcoinVoucherBot merkezi formunda artık KYC olmadan bir hizmet olarak mevcut değildir.
+SEPA banka transferi yoluyla [KYC](https://planb.academy/resources/glossary/kyc-know-your-customer) olmadan Telegram satın almak için oluşturulan bir Bitcoin botu olan BitcoinVoucherBot'u hala duyuyoruz. Ne yazık ki, Kasım 2025 itibariyle, BitcoinVoucherBot merkezi formunda artık KYC olmadan bir hizmet olarak mevcut değildir.
 
 
 
@@ -31,7 +31,7 @@ Desteklenen cüzdanlar arasında bulabiliriz:
 
 
 
-Veya "Lightning Address" olan ve Bolt11 faturası oluşturan herhangi bir wallet. Bolt12 faturası oluşturan generate cüzdanları şu anda desteklenmemektedir. Daha fazla bilgi için [Bolt] (https://planb.academy/resources/glossary/bolt) tanımına bakın.
+Veya "Lightning Address" olan ve Bolt11 faturası oluşturan herhangi bir wallet. Bolt12 faturası oluşturan generate cüzdanları şu anda desteklenmemektedir. Daha fazla bilgi için [Bolt](https://planb.academy/resources/glossary/bolt) tanımına bakın.
 
 
 

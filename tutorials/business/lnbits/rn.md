@@ -4,9 +4,9 @@ name: LNbits
 description: Urubuga rw'abacuruzi
 ---
 
-![presentation](assets/lnbits-intro.webp)
+![presentation](assets/cover.webp)
 
-# Uburyo bwo kubara amafaranga
+## Uburyo bwo kubara amafaranga
 
 
 LNbits yuzuye ibikoresho vyinshi vyo kugenzura no gukoresha amahera yawe yinjira n’asohoka, guhuza webstore yawe canke mbere n’ibikoresho nka Hardware Wallet canke ATM wiyubakiye. Ubwoko bw'abakoresha burimwo:
@@ -19,7 +19,7 @@ LNbits yuzuye ibikoresho vyinshi vyo kugenzura no gukoresha amahera yawe yinjira
 - Abo bose barafise ivyo bakeneye bitandukanye. Twubaka LNbits mu buryo bw’ibice kugira ngo umukoresha wese ashobore gukoresha ibintu vyacu mu buryo bubereye wewe.
 
 
-# Umuyobozi wa Wallet
+## Umuyobozi wa Wallet
 
 
 LNbits ni uburyo bwo guharura amafaranga ku buntu kandi bufunguye - si umuyobozi w'ibihimba. Uburongozi bw’imirongo ni igice c’umurongo w’umuravyo uhuye na LNbits nk’inkomoko y’amahera nka LND canke c-lightning. Abakoresha bakuru canke abakoresha b’ubuyobozi muri sisitemu ya LNbits ni bo bajejwe gucunga uburyo bwo kuronka no gutunganya ibintu vyose vy’ubuhinga bw’ibarabara n’ivy’imbere.
@@ -40,13 +40,13 @@ Uzobaha uburyo bworoshe bwo gufungura “konti ya banki” ku node yawe utagira 
 ICIBUKIRO: amahera yose “abakiriya” bawe bashira muri konti zabo za banki za LNbits ku node yawe, azoca aja mu mihora yawe ya node LN. Ivyo bisigura ko mu vy’ukuri ari wewe nyen’ayo mahera vy’ukuri. Muzogira inshingano nini ku mahera yabo. Ntube umubisha ngo uhunge n’amahera, ntube umubisha ngo usabe amafaranga menshi. Turashaka gusambana n’aba fiat banksters, ntidusambanye (abakoresha Bitcoin).
 
 
-# Urubuga rw'iyerekanwa
+## Urubuga rw'iyerekanwa
 
 
 Ivyo bimenyetso ushobora kubisanga kuri [https://inkuru.lnbits.com](inkuru.inkuru.com). Ikora neza kandi ishobora gukoreshwa mu kwiga ivyerekeye Lightning Network n’ibiranga LNbits na LNURL muri rusangi. Naho tutashobora kubibuza turashaka kubasaba ko mutabikoresha mu gutegura ibikorwa vyanyu. Si uko gusa turiko turakora ku ma server kenshi kugira ngo tugerageze ibintu bishasha ariko kandi turashaka kubaremesha gukoresha node yanyu bwite na LNbits mu buryo bw’ubusegaba. Niba wibaza ko gukoresha node ari vyinshi cane bisabwa muri iki gihe ushobora gufatanya LNbits n’umucungezi w’amahera sservice mu gicu nka Opennode, Luna canke Votage canke na Lightning Tipbot kuri Telegram kugira ngo tuvuge bimwe.
 
 
-# LNbits
+## LNbits
 
 
 Ushaka guha amakuru y'ishimikiro umucuruzi canke umugenzi wawe w'inyubako ? Turanezerewe cane no kubamenyesha urupapuro rwacu rwa mbere kugira ngo umuntu wese akoreshe. Ingano ni flyerformat isanzwe kw’isi yose ifise amapaji 6 (2 folds) n’ubwaguke bwa 3508 n’uburebure bwa 2480px.
@@ -58,7 +58,7 @@ LNbits ku bacuruzi: [RU](/itunga/lnbits-abacuruzi-ru.pdf) | [DE](/itunga/abacuru
 LNbits ku bubatsi: [RU](/itunga/lnbits-abubatsi-ru.pdf) | [DE](/itunga/ibice-vy'ubwubatsi-de.pdf) | [ES](/itunga/ibice-vy'ubwubatsi-es.pdf) | [IT](/itunga/lnbits-abubatsi-it.pdf) | [PL](/itunga/ibice-vy'ubwubatsi-pl.pdf)
 
 
-# Ivy'ishimikiro
+## Ivy'ishimikiro
 
 
 LNbits ikora ishingiye ku masezerano ya LNURL bisobanura ko ibisabwa bifise akamaro mu buryo bubiri: nk’ihuriro rya https://clearnet (nta vyemezo vy’ukwisinya vyemewe) canke nk’ihuriro ry’igitunguru http://v2/v3. Kugira ngo ushireho ibikorwa vya LNbits nk’amakode ya QR ya LNURLp/w canke amakarita ya NFC, ashobora gukoreshwa mu mashamba, uzokenera gufungura LNbits gushika kuri clearnet (https).
@@ -90,10 +90,10 @@ Ibindi vyiyumviro vy'ido n'ido bikoresha LNbits mu bihe vy'ikoreshwa vyihariye h
 
 
 
-# Gushiramwo ibice vya LN
+## Gushiramwo ibice vya LN
 
 
-## Inyobora y'ishimikiro yo gushiramwo
+### Inyobora y'ishimikiro yo gushiramwo
 
 
 LNbits zishobora gushirwa ku mashini yose ya Linux OS. Ntibisaba imashini canke server ikomeye, bisaba gusa RAM ihagije n’ahantu kanaka kuri disk kugira ngo umuntu akoreshe urutonde rw’amakuru. Ishobora gukoreshwa itandukanye n’uruzitiro rwa BTC/LN (PC yo mu karere canke VPS yo kure) canke hamwe ku mashini imwe n’uruzitiro canke ikaba isanzwe ishizwe mu mashini ya porogarama y’uruzitiro rw’umugwi.
@@ -119,7 +119,7 @@ Ushobora kandi kubona videwo ku [gutegura kuri VPS ikoresheje PostgreSQ, Lightni
 Ku bijanye n'ibice vy'amaporogarama, usabwe kuraba inyandiko zabo zidasanzwe ku bijanye na LNbits: [Citadel](https://runcitadel.space) | [Umutaka](https://umutaka.com) | [Igikoresho canje](https://igikoresho canje.com) | [Ikinyamakuru c'Igihugu](Igitabu c'Igihugu c'Igihugu/) | [Igikoresho c'Igikoresho]( https://Igikoresho c'Igikoresho.org)
 
 
-## LNibice SaaS
+### LNibice SaaS
 
 
 Iyo utari mu vy'ubuhinga kandi udashaka kwakira inkomoko yawe y'amahera canke ama lnbits yawe ubwawe hariho [verisiyo ya SaaS ya LNbits](https://saas.lnbits.com) (Porogaramu-nk'igikorwa) ushobora gukoresha. Ni nk'ama LNbits mu gicu ariko ushobora gusobanura inkomoko y'amahera (nk'akarorero Node yawe, LNbits Wallet, LNtipbot, fakewallet n'ibindi) n'ibihinduka vy'ibidukikije wewe nyene - ivyo ahanini bitameze ku bindi bisubizo vy'igicu.
@@ -128,7 +128,7 @@ Iyo utari mu vy'ubuhinga kandi udashaka kwakira inkomoko yawe y'amahera canke am
 [Aha niho hari ubuyobozi burambuye ingene wokoresha LNbits SaaS ku bibazo vy’ikoreshwa vyihariye](https://darthcoin.substack.com/p/lnbits-saas-umuti-w’amashure).
 
 
-## Inkomoko z'amahera
+### Inkomoko z'amahera
 
 
 LNbits si porogaramu yo gucunga amanode ariko ni uburyo bwo gucungera amafaranga bwibanda kuri LN hejuru y’inkomoko y’amahera ya LND canke CLN. Inyuma y’ugushiraho ubwa mbere ushobora gusura LNbits zawe kuri http://localhost:5000/.
@@ -157,7 +157,7 @@ Niba wifuza gukoresha verisiyo ya .env ushobora kubona amaparametere hano:
 
 
 
-### Umuravyo
+#### Umuravyo
 
 
 - CLN
@@ -168,7 +168,7 @@ Niba wifuza gukoresha verisiyo ya .env ushobora kubona amaparametere hano:
   - `URL_Y'IKIRINGO`: http://10.147.17.230:9737/RPC
    - `IKIMENYETSO_C'IKIRINGO`: urufunguzo_rw'ibanga
 
-### Lightning Network Daemon
+#### Lightning Network Daemon
 
 
 - LND (IRUHUKO)
@@ -192,7 +192,7 @@ Ushobora kandi gukoresha macaroon yashizwemwo AES (amakuru menshi) aho gukoresha
 Kugira ngo ushiremwo amakuru y'inyama zawe, koresha `./venv/bin/inyama z'ingurube/amasakoshi/inyama z'ingurube/inyama z'ingurube.py`.
 
 
-### LNbits (iyindi nkuru ya LNbits)
+#### LNbits (iyindi nkuru ya LNbits)
 
 
 
@@ -205,7 +205,7 @@ Kugira ngo ushiremwo amakuru y'inyama zawe, koresha `./venv/bin/inyama z'ingurub
   - `IMPERUKA_YA_LNBITS`: https://inkuru.nbits.com
   - `URUPFUZO_LNBITS`: inkuru-lnbits-Urufunguzo rw'Umuyobozi
 
-### Umuravyo TipBot
+#### Umuravyo TipBot
 
 
 Kugira ngo uhuze [Impanuro y'Umuravyo](https://t.me/Impanuro y'Umuravyo) yawe kuri Telegram uzokenera gushinga ibi bikurikira:
@@ -219,7 +219,7 @@ Kugira ngo uhuze [Impanuro y'Umuravyo](https://t.me/Impanuro y'Umuravyo) yawe ku
 Raba kandi iyi nyigisho ingene woshiramwo [LNbits na LightningTipBot biciye kuri vps](ingene woheza-gushinga-vps/)
 
 
-### IKIBANZA C'IBEX
+#### IKIBANZA C'IBEX
 
 
 Iyandikishe [hano](https://ibexpay.ibexmercado.com/onboard) hanyuma ubone imfunguruzo zawe/ibimenyetso vyawe uhereye ng’aho, iherezo ni https://ibexpay-api.
@@ -227,7 +227,7 @@ Iyandikishe [hano](https://ibexpay.ibexmercado.com/onboard) hanyuma ubone imfung
 Ibindi bisobanuro raba [IBEX API-Inyandiko](https://ibexpay-api.soma.io/ishingiro/gutangura-na-api-yawe).
 
 
-### LNPishura
+#### LNPishura
 
 Kugira ngo uwumviriza Invoice akore ufise URL ishobora gushikirwa na bose muri LNbits zawe kandi utegerezwa gushinga [urubuga rwa LNPay](https://dashboard.lnpay.co/webhook/) rwerekana `<umushitsi wawe wa LNbits>/Wallet/urubuga rwawe` n'ikibazo gitagira ibanga gifise. Ivyagezwe `https://mylnbits/Wallet/webhook` bizoba url y'iherezo imenyeshwa ivy'ukwishura kwose.
 
@@ -238,7 +238,7 @@ Kugira ngo uwumviriza Invoice akore ufise URL ishobora gushikirwa na bose muri L
   - `LNPAY_URUPFUZO_IKIKOKO`: waka_api_urufunguzo
 
 
-### Gufungura Urudodo
+#### Gufungura Urudodo
 
 Kugira ngo Invoice ikore, ukeneye kugira URL ishobora gushikirwa na bose muri LNbits zawe. Ivyagezwe vy'urubuga ni ubusabe.
 
@@ -248,7 +248,7 @@ Kugira ngo Invoice ikore, ukeneye kugira URL ishobora gushikirwa na bose muri LN
   - `URUPFUZO_RWUGURURA`: urufunguzo rw'UbuyoboziApi
 
 
-### Alby
+#### Alby
 
 
 Alby ni umurongo w’umucukumbuzi ufise ibikorwa vya LN Wallet na konti ya LNDHUB ishobora gukoreshwa nk’inkomoko y’amahera ya LNbits. [Ibindi bisobanuro hano]( https://getalby.com/).
@@ -263,13 +263,13 @@ Kugira ngo Invoice ikore utegerezwa kuba ufise URL ishobora gukoreshwa na bose m
 - `ALBY_UKUSHIKA_IKIMENYETSO`: AlbyUkwinjira Ikimenyetso
 
 
-## Inyigisho z'inyongera / gutorera umuti ingorane
+### Inyigisho z'inyongera / gutorera umuti ingorane
 
 
 Aha hariho amabwirizwa y’inyongera mu gihe woba uyakeneye. Fyonda ku mwampi kugira ngo wagure insobanuro.
 
 
-### Uwo kwica 🚨
+#### Uwo kwica 🚨
 
 
 Hariho ibikoko vyinshi biteye akaga muri iyi misi iheze atari mu kirere cose gusa ariko no muri LNbits ku buryo twahisemwo kugira ico tubikozeko. Ubu ushobora guhitamwo kwinjira mu ngabisho no/canke gufata ingingo itaziguye, igihe ubugoyagoye canke ikibazo coshobora gutuma amahera atakaza kigasubira kubaho.
@@ -285,13 +285,13 @@ Bigenda gute ? Igihe killswitch ikoreshejwe, ububiko bw’ibanga bwa github bubo
 
 
 
-### Itandukaniro hagati y'umuyobozi n'umukoresha
+#### Itandukaniro hagati y'umuyobozi n'umukoresha
 
 
 UI y'Umuyobozi wa LNbits ishobora kugufasha guhindura imiterere ya LNbits biciye ku nzira y'imbere ya LNbits. Izimye ku buryo busanzwe kandi igihe ca mbere ushizeho umuhinduzi w'ibidukikije `LNBITS_ADMIN_UI=ukuri` muri dosiye `.env`, amagenamiterere aratangura kandi azokoreshwa. Kuva ng'aho, amasetingi ashingiye ku rutonde rw'amakuru aho gukoresha ayo muri dosiye .env.
 
 
-### Ukoresha akomeye
+#### Ukoresha akomeye
 
 
 Na Admin UI twashizeho super user afise uburenganzira bwo gukoresha server kugira ngo ashobore guhindura ama settings ashobora gutuma server ihungabana canke akayigira idashobora kwishura biciye ku frontend na api, nk’uguhindura inkomoko y’amahera. Ukoresha super abikwa gusa imbere mu mbonerahamwe y'imiterere y'urutonde rw'amakuru. Inyuma y'aho ama settings "asubiwemwo" agasubira gutangura, haca haremwa umukoresha mushasha. Twongeyeko kandi umusharizi w’inzira za API kugira ngo tugenzure ko hariho umukoresha w’agaciro. ID yayo ntiyigera yoherezwa kuri api na frontend kandi ironka gusa bool (yes/oya) iyo uri super user canke atarivyo.
@@ -306,13 +306,13 @@ Ushobora kandi gushiramwo umukoresha mukuru biciye kuri webhook ku yindi serivis
 Mu frontend uzosanga kandi ubushobozi bwo guhindura ishusho y'iduka yerekanwa kuri paji ya "create Wallet" mu gufungura igice ca Manage Server ugahitamwo Insanganyamatsiko -> Ikimenyetso c'umuntu ku giti ciwe.
 
 
-### Abakoresha
+#### Abakoresha
 
 
 Impinduka y'ibidukikije: `LNBITS_ADMIN_USERS`, urutonde rw'ibimenyetso vy'abakoresha bitandukanijwe n'agacamuzingi. Abakoresha b'ubuyobozi barashobora guhindura amategeko muri admin ui - uretse amategeko y'inkomoko y'amahera, kuko ivyo vyosaba ko server isubira gutangura kandi bishobora gutuma server idashobora gukoreshwa. Kandi barafise uburenganzira bwo gukoresha ivyungura vyose vyabo muri `LNBITS_ADMIN_EXTENSIONS`.
 
 
-### Abakoresha bemerewe
+#### Abakoresha bemerewe
 
 
 Impinduka y'ibidukikije: `LNBITS_BEMEREWE_ABAKORESHA`, urutonde rw'indangamuntu z'abakoresha zitandukanijwe n'agacamuzingi. Mu gusobanura abo bakoresha LNbits ntizosubira gukoreshwa na bose. Abakoresha n'abarongozi bonyene ni bo bashobora gushika ku rubuga rwa LNbits.
@@ -320,7 +320,7 @@ Impinduka y'ibidukikije: `LNBITS_BEMEREWE_ABAKORESHA`, urutonde rw'indangamuntu 
 
 
 
-#### Kuvugurura ibice vya LN
+##### Kuvugurura ibice vya LN
 
 Ivugurura risanzwe ry'inkuru yawe ya LNbits ni gusa mu gukopa amabwirizwa ya CLI akurikira:
 
@@ -357,7 +357,7 @@ sudo ~/scripts/app start lnbits
 ```
 
 
-#### SQLite ku kwimuka kwa nyuma
+##### SQLite ku kwimuka kwa nyuma
 
 
 Niba usanzwe ufise LNbits zishizweho kandi zikora ku rutonde rw'amakuru rwa SQLite turagusavye cane kwimukira kuri postgres nimba uriko urategura gukoresha LNbits ku rugero.
@@ -385,14 +385,14 @@ Nizere ko ubu vyose bikora kandi bikaja kwimuka... Subira utangure LNbits maze u
 
 
 
-#### Gusubiza inyuma no kugarura urutonde rw'amakuru
+##### Gusubiza inyuma no kugarura urutonde rw'amakuru
 
 
 Urasabwa kuraba [iyi nkuru idondora cane ivyerekeye uburyo bwo gusubizaho no gusubizaho](https://ereignishorizont.xyz/lnbits-server/ru/#94_LNbits_-_Gusubizaho_ibiharuro).
 
 
 
-#### Gufasha LNbits Wallet yanje kuva ku nzira yanje ntibikora
+##### Gufasha LNbits Wallet yanje kuva ku nzira yanje ntibikora
 
 
 Niba ushaka kohereza Sats uvuye kuri iyo node nyene ariyo isoko y'amahera ya LNbits yawe, uzokenera guhindura dosiye LND.conf.
@@ -407,7 +407,7 @@ Turagusavye ubikore mu gice kivuga ngo Amahitamwo yo gukoresha muri LND.conf yaw
 ICIBUKIRO: Ni vyiza ko ahubwo ukoresha uburyo bushasha bwa adminUI bufise uburyo bwa "TopUp" kugira ngo wongere amahera kuri konti ya LNbits.
 
 
-#### Ikosa 426
+##### Ikosa 426
 
 Nabonye ikosa: "lnurl ikeneye gushikirizwa kuri https domain canke tor ishobora gushikirwa na bose. 426 gusubiramwo birakenewe"</summary>
 
@@ -426,7 +426,7 @@ RequestHeader set "X-Forwarded-SSL" expr=%{HTTPS}
 ```
 
 
-#### Ikosa ry'urubuga
+##### Ikosa ry'urubuga
 
 Naronse "ikosa rya https", ikosa ry'urubuga" canke ibindi igihe nariko ndapima QR</summary>
 
@@ -443,7 +443,7 @@ LNbits iriko irakora biciye kuri Tor gusa, ntushobora kuyifungura ku rubuga rwa 
 
 
 
-#### Kubuza abandi gukora ama wallet kuri LNbits zanje
+##### Kubuza abandi gukora ama wallet kuri LNbits zanje
 
 
 Iyo ukoresheje LNbits zawe muri clearnet mu bisanzwe umuntu wese arashobora generate a Wallet kuri yo. Kubera ko amafaranga y’urudodo rwawe aboshe kuri izo wallets woshobora gushaka kubibuza. Hari uburyo bubiri bwo kubigira:
@@ -454,7 +454,7 @@ Gutegura abakoresha bemerewe n'ivyagutse muri dosiye `.env` ([raba akarorero ka 
 
 
 
-#### Guhindura igihe ca Invoice
+##### Guhindura igihe ca Invoice
 
 
 Ubu urashobora gutanga amafagitire ya generate afise igihe co guhera. Ihuye n'inyuma: Igikapu ca LndRest, Igikapu ca Lnd, Igikapu ca CoreLightning, Igikapu ca Eclair, Igikapu ca Lnbits, Igikapu ca Spark gushika ubu!
@@ -465,16 +465,16 @@ Ushobora gushinga `IBIMENYETSO_BIHEZE` muri dosiye yawe .env canke ukoreshe Admi
 
 
 
-## Wallet-URL yasubiwemwo
+### Wallet-URL yasubiwemwo
 
 
-### Wallet ku nkuru y'iyerekanwa.lnbits
+#### Wallet ku nkuru y'iyerekanwa.lnbits
 
 
 Igihe cose ubike kopi ya Wallet-URL yawe, Export2phone-QR canke LNDhub kugira ngo ukoreshe amasakoshi yawe bwite ahantu hatagira inkomanzi. LNbits NTIZISHOBORA kugufasha kuzigarura iyo zitakaye.
 
 
-### Wallet ku nzira yawe y'amahera
+#### Wallet ku nzira yawe y'amahera
 
 Igihe cose ubike kopi ya Wallet-URL yawe, Export2phone-QR canke LNDhub kugira ngo ukoreshe amasakoshi yawe bwite ahantu hatagira inkomanzi. Ushobora kubona abakoresha bose ba LNbits na Wallet-IDs mu nzira yawe y'umuyobozi w'abakoresha ba LNbits canke mu rutonde rwawe rwa sqlite. Kugira ngo uhindure canke usome urutonde rw’amakuru rwa LNbits, genda muri dosiye ya LNbits /data maze urondere dosiye yitwa sqlite.db. Ushobora kuyifungura no kuyihindura ukoresheje excel canke ukoresheje SQL-Editor yihariye nka [umucukumbuzi wa SQLite](https://mucukumbuzi wa SQLite.org/).
 
@@ -511,14 +511,14 @@ Aho usubiriza f8a43fc363ea428db5c53b3559935f1f n'agaciro kaza imbere y'izina (mu
 .quit
 ```
 
-#### LNURL ku muravyo-Address ibihushanye n'ivyo
+##### LNURL ku muravyo-Address ibihushanye n'ivyo
 
 
 Gerageza iki [codecoder](https://lnurl-codec.netlify.app/) kivuye kuri fiatjaf canke [iki](https://icodecoder y'umuravyo.com/). Kugira ngo wishyure canke usuzume LNURLp ushobora gukoresha [LNurlpay](https://wwww.lnurlpay.com/). Ishobora kuvuga HTTPS ATARI HTTP.
 
 
 
-#### Gutegura igitekerezo abantu babona igihe bariha kuri LNURLp QR yanje
+##### Gutegura igitekerezo abantu babona igihe bariha kuri LNURLp QR yanje
 
 Iyo uremye LNURL-p, ku buryo busanzwe akazu k'ibitekerezo ntikazura. Ivyo bisigura ko ibivugwa bitemewe gushirwa ku vyo umuntu yishura.
 
@@ -529,18 +529,18 @@ Kugira ngo wemerere ibitekerezo, wongereko uburebure bw’inyuguti z’agasanduk
 ![lnbits comments](assets/lnbits-comments.webp)
 
 
-#### Gushiramwo uruzitiro BTC kuri LNbits
+##### Gushiramwo uruzitiro BTC kuri LNbits
 
 Hari uburyo bubiri bwo gushika ku Exchange Sats kuva kuri BTC y’uruzitiro gushika kuri LN BTC (bivanye n’ibice vya LNbits).
 
 
-##### Biciye ku nzira y’uguhindura hanze.
+###### Biciye ku nzira y’uguhindura hanze.
 
 
 Abandi bakoresha badashobora gukoresha LNb yawe bashobora gukoresha ubuhinga bwo guhindura nk'[Boltz](https://boltz.Exchange/), [FixedFloat](https://fixedfloat.com/), [Ivyuma vy'amadayimoni](zitps://swap.diamondhands.technology/) canke [Zhg). Ivyo ni ngirakamaro iyo utanga gusa amafagitire ya LNURL/LN avuye mu nkuru yawe ya LNbits, ariko uwuriha afise gusa onchain Sats rero bazobwirizwa guhindura izo Sats mbere ku ruhande rwabo. Uburyo bwo kubikora burasanzwe: umukoresha yohereza onchain btc ku nzira y’uguhinduranya maze agatanga LNURL / LN Invoice iva kuri LNbits nk’aho uguhinduranya kuja.
 
 
-##### Gukoresha umurongo wa Onchain na Boltz LNbits.
+###### Gukoresha umurongo wa Onchain na Boltz LNbits.
 
 
 Zirikana ko iyi ari Wallet itandukanye, atari LN btc iyo igereranywa na LNbits nk'"Wallet yawe" ku nzira yawe y'amahera ya LN. Iyi Wallet ishobora gukoreshwa no guhindura LN btc ku (nk'akarorero, igikapu cawe) ukoresheje LNbits Boltz canke Deezy. Iyo ufise webshop ihuye na LNbits zawe ku bijanye n’ugutanga LN, birafasha cane gukura Sats yose kuva kuri LN ikaja mu onchain. Ivyo bituma haba umwanya mwinshi mu mihora yawe ya LN kugira ngo ushobore kwakira Sats nshasha.
@@ -592,7 +592,7 @@ Niba ufise Ikosa "ubwoko bwa Hash butashigikiwe" igihe ukoresha ypub mu kwagura 
 
 
 
-## Ibikoresho n'inyubako na LNbits
+### Ibikoresho n'inyubako na LNbits
 
 
 LNbits ifise ubwoko bwose bw'ibikoresho vyo gukora porogarama no gufatanya n'ibikoresho vyinshi bitandukanye ku bikorwa vyinshi.
@@ -601,7 +601,7 @@ LNbits ifise ubwoko bwose bw'ibikoresho vyo gukora porogarama no gufatanya n'ibi
 Igihe uri mushasha mu kwubaka tangura n’ibi [ibiganiro vya MakerBits](amasanamu) bivuye kuri Ben Arc ku bijanye no kwubaka ibikoresho bishingiye kuri LNbits.
 
 
-### BIHAMBAYE:
+#### BIHAMBAYE:
 
 
 - LNbits ikora ishingiye ku nzira ya LNURL ibisabwa bifise akamaro mu buryo bubiri: nk'ihuriro rya https://clearnet (nta vyemezo vy'ukwisinya vyemewe) canke nk'ihuriro ry'igitunguru http://v2/v3. Kugira ngo ushireho ibikorwa vya LNbits nk’amakode ya QR ya LNURLp/w canke amakarita ya NFC, ashobora gukoreshwa mu mashamba, uzokenera gufungura LNbits kuri clearnet (https).

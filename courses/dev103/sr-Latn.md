@@ -6517,36 +6517,36 @@ Evo primer pisanja u datoteku `target.txt` koristeći tok:
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
 Evo šta se dešava:
 
 
-1. `fs.createWriteStream()` kreira tok za pisanje.
+1. `fs.createWriteStream()` kreira tok u koji se može pisati.
 
-2. Napišemo neki tekst u njega koristeći `.write()`.
+2. Registrujemo hendlere za događaje `error` i `finish`.
 
-3. Kada završimo, pozivamo `.end()` da zatvorimo tok.
+3. Pišemo tekst u njega koristeći `.write()`.
 
-4. Kada su svi podaci zapisani, emituje se događaj `finish`.
+4. Kada završimo, pozivamo `.end()` da bismo zatvorili tok.
 
-5. Ako nešto pođe po zlu, `error` događaj se pokreće.
+5. Kada se svi baferovani podaci isprazne i zapišu, emituje se događaj `finish`. Ako nešto pođe po zlu, emituje se događaj `error`.
 
 
 Baš kao i čitljivi tokovi, tokovi za pisanje su dobri za velike podatke jer ne moraju sve držati u memoriji odjednom.

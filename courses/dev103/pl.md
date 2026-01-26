@@ -6517,36 +6517,36 @@ Oto przykład zapisu do pliku `target.txt` przy użyciu strumienia:
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
 Oto, co się dzieje:
 
 
-1. `fs.createWriteStream()` tworzy zapisywalny strumień.
+1. `fs.createWriteStream()` tworzy strumień do zapisu.
 
-2. Zapisujemy do niego tekst używając `.write()`.
+2. Rejestrujemy procedury obsługi zdarzeń `error` i `finish`.
 
-3. Kiedy skończymy, wywołujemy `.end()`, aby zamknąć strumień.
+3. Zapisujemy w nim tekst za pomocą `.write()`.
 
-4. Gdy wszystkie dane zostaną zapisane, emitowane jest zdarzenie `finish`.
+4. Po zakończeniu wywołujemy `.end()`, aby zamknąć strumień.
 
-5. Jeśli coś pójdzie nie tak, wywoływane jest zdarzenie `error`.
+5. Po opróżnieniu i zapisaniu wszystkich zbuforowanych danych emitowane jest zdarzenie `finish`. Jeśli coś pójdzie nie tak, emitowane jest zdarzenie `error`.
 
 
 Podobnie jak strumienie do odczytu, strumienie zapisywalne są dobre dla dużych zbiorów danych, ponieważ nie muszą przechowywać wszystkiego w pamięci naraz.

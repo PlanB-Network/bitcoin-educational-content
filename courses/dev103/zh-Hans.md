@@ -6517,36 +6517,36 @@ console.error("Error reading file:", err)
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
 事情是这样的
 
 
-1.fs.createWriteStream()`创建一个可写流。
+1. `fs.createWriteStream()` 创建一个可写流。
 
-2.我们使用 `.write()`向其写入一些文本。
+2. 我们为 `error` 和 `finish` 事件注册处理程序。
 
-3.完成后，我们调用 `.end()` 关闭数据流。
+3. 我们使用 `.write()` 向其中写入一些文本。
 
-4.当写入所有数据后，就会发出 "完成 "事件。
+4. 完成后，我们调用 `.end()` 来关闭流。
 
-5.如果出错，就会触发 "error "事件。
+5. 一旦所有缓冲数据都被刷新并写入，就会触发 `finish` 事件。如果出现问题，则会触发 `error` 事件。
 
 
 与可读流一样，可写流也适用于大数据，因为它们不需要同时将所有内容保存在内存中。

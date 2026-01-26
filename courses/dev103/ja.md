@@ -6517,36 +6517,36 @@ console.error("Error reading file:", err)
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
 こうなる：
 
 
-1.fs.createWriteStream()` は書き込み可能なストリームを作成します。
+1. `fs.createWriteStream()` は書き込み可能なストリームを作成します。
 
-2..write()`を使ってテキストを書き込む。
+2. `error` イベントと `finish` イベントのハンドラを登録します。
 
-3.終わったら `.end()` を呼んでストリームを閉じる。
+3. `.write()` を使用してテキストを書き込みます。
 
-4.すべてのデータが書き込まれると、`finish`イベントが発生する。
+4. 完了したら、`.end()` を呼び出してストリームを閉じます。
 
-5.何か問題が発生すると `error` イベントが発生する。
+5. バッファリングされたすべてのデータがフラッシュおよび書き込まれると、`finish` イベントが発行されます。何か問題が発生した場合は、`error` イベントが発行されます。
 
 
 読み込み可能なストリームと同様、書き込み可能なストリームも、すべてを一度にメモリに保持する必要がないため、ビッグデータに適している。

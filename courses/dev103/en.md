@@ -5046,30 +5046,30 @@ A writable stream lets you send data somewhere, chunk by chunk.
 Here’s an example of writing to a `target.txt` file using a stream:
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-  console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-  console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 Here’s what happens:
 
 1. `fs.createWriteStream()` creates a writable stream.
-2. We write some text to it using `.write()`.
-3. When we’re done, we call `.end()` to close the stream.
-4. When all the data has been written, the `finish` event is emitted.
-5. If something goes wrong, the `error` event is triggered.
+2. We register handlers for the `error` and `finish` events.
+3. We write some text to it using `.write()`.
+4. When we’re done, we call `.end()` to close the stream.
+5. Once all buffered data has been flushed and written, the `finish` event is emitted. If something goes wrong, an `error` event is emitted.
 
 Just like readable streams, writable streams are good for big data because they don’t need to keep everything in memory at once.
 

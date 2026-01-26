@@ -6517,36 +6517,36 @@ Huu hapa ni mfano wa kuandikia faili `target.txt` kwa kutumia mtiririko:
 
 
 ```javascript
-const fs = require("fs")
+const fs = require("fs");
 
-const stream = fs.createWriteStream("target.txt")
+const stream = fs.createWriteStream("target.txt");
 
-stream.write("First line\n")
-stream.write("Second line\n")
-stream.end("Finished writing\n")
+stream.on("error", (err) => {
+  console.error("Error:", err);
+});
 
 stream.on("finish", () => {
-console.log("All data written.")
-})
+  console.log("All data written.");
+});
 
-stream.on("error", err => {
-console.error("Error:", err)
-})
+stream.write("First line\n");
+stream.write("Second line\n");
+stream.end("Finished writing\n");
 ```
 
 
 Hiki ndicho kinachotokea:
 
 
-1. `fs.createWriteStream()` huunda mtiririko unaoweza kuandikwa.
+1. `fs.createWriteStream()` huunda mfululizo unaoweza kuandikwa (writable stream).
 
-2. Tunaiandikia maandishi kwa kutumia `.write()`.
+2. Tunasajili vishughulikiaji (handlers) vya matukio ya `error` na `finish`.
 
-3. Tunapomaliza, tunaita `.end()` ili kufunga mtiririko.
+3. Tunaandika maandishi fulani kwayo kwa kutumia `.write()`.
 
-4. Wakati data yote imeandikwa, tukio la `kumaliza` hutolewa.
+4. Tunapomaliza, tunaita `.end()` ili kufunga mfululizo (stream).
 
-5. Ikiwa kitu kitaenda vibaya, tukio la `error` linaanzishwa.
+5. Mara tu data zote zilizowekwa kwenye bafa (buffered) zitakapofutwa na kuandikwa, tukio la `finish` hutolewa. Ikiwa kitu kitaenda vibaya, tukio la `error` hutolewa.
 
 
 Kama vile mitiririko inayoweza kusomeka, mitiririko inayoweza kuandikwa ni nzuri kwa data kubwa kwa sababu haihitaji kuweka kila kitu kwenye kumbukumbu mara moja.

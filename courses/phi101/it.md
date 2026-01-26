@@ -204,7 +204,8 @@ La sua tesi centrale è che "la libertà è stabilita dal conflitto dei poteri."
 
 > (Lord Acton)
 > In altre parole, la libertà è il diritto degli individui di seguire la propria coscienza, e non è compito dello Stato dettare la condotta di una persona in questioni filosofiche, morali e religiose.
-> Friedrich Hayek aveva inizialmente considerato di chiamare la Società Mont Pelerin la "Società Acton-Tocqueville", in tributo a due pensatori che ammirava profondamente: Lord Acton e Alexis de Tocqueville. Alla fine, fu scelto il nome del luogo in cui si tenne il primo incontro della Società, Mont Pelerin in Svizzera.
+
+Friedrich Hayek aveva inizialmente considerato di chiamare la Società Mont Pelerin la "Società Acton-Tocqueville", in tributo a due pensatori che ammirava profondamente: Lord Acton e Alexis de Tocqueville. Alla fine, fu scelto il nome del luogo in cui si tenne il primo incontro della Società, Mont Pelerin in Svizzera.
 
 ### Voltaire e Condorcet
 
@@ -257,7 +258,8 @@ Leggiamo un estratto da _Human Action_:
 Mises aggiunge che il miglioramento della condizione umana è stato reso possibile dall'accumulo di capitale:
 
 > Il radicale cambiamento di situazione che ha conferito alle masse occidentali l'attuale tenore di vita (un alto tenore di vita, in effetti, rispetto a quello che era nei tempi pre-capitalistici, e a quello che è nella Russia sovietica) è stato l'effetto dell'accumulazione di capitale attraverso il risparmio e l'investimento saggio da parte di imprenditori lungimiranti. Nessun miglioramento tecnologico sarebbe stato raggiungibile se i capitali materiali aggiuntivi richiesti per l'uso pratico delle nuove invenzioni non fossero stati resi fattibili dal risparmio preventivo.
-> Per quanto riguarda la storiografia marxista, possiamo anche fare riferimento a Friedrich Hayek in _Capitalism and the Historians_ (University of Chicago Press, 1954) e al suo capitolo intitolato "History and Politics". Secondo Hayek, non è stata l'industrializzazione a rendere miserabili i lavoratori, come l'oscura leggenda del capitalismo propagata dal marxismo sostiene. Egli nota:
+
+Per quanto riguarda la storiografia marxista, possiamo anche fare riferimento a Friedrich Hayek in _Capitalism and the Historians_ (University of Chicago Press, 1954) e al suo capitolo intitolato "History and Politics". Secondo Hayek, non è stata l'industrializzazione a rendere miserabili i lavoratori, come l'oscura leggenda del capitalismo propagata dal marxismo sostiene. Egli nota:
 > La vera storia della connessione tra capitalismo e l'ascesa del proletariato è quasi l'opposto di quello che queste teorie dell'espropriazione delle masse suggeriscono.
 
 Prima della Rivoluzione Industriale, la maggior parte delle persone viveva in società rurali e dipendeva dall'agricoltura per la propria sopravvivenza. Avevano poco da vendere sul mercato, il che limitava le loro opportunità e il loro tenore di vita. Tutti si aspettavano di vivere in assoluta povertà e immaginavano un destino simile per i loro discendenti. Nessuno si indignava per una situazione che sembrava inevitabile.
@@ -416,7 +418,8 @@ Si può dire che i Greci abbiano inventato il concetto di libertà politica, in 
 Erodoto, in _Storia_ e Eschilo nella sua tragedia _I Persiani_, illustrano brillantemente il contrasto tra la monarchia assoluta e tirannica di Serse e lo spirito di libertà dei Greci. Questo popolo, caratterizzato dall'assenza di padroni e dal rifiuto di sottomettersi alla schiavitù da parte dei barbari, per quanto numerosi, trova la sua forza nella legge, il "nomos", il suo vero padrone che garantisce la sua libertà. E questa legge emana dalla volontà di tutti.
 
 Secondo Jacqueline de Romilly:
-Gli stessi Greci sembrano essersi misurati con questa originalità e ne sono diventati consapevoli all'inizio del V secolo, nello shock che li oppose agli invasori persiani. E il primo fatto che li colpì fu che esisteva una differenza politica tra loro e i loro avversari, che comandava tutto il resto. I Persiani obbedivano a un sovrano assoluto, che era il loro padrone, che temevano e davanti al quale si prostravano: queste pratiche non erano comuni in Grecia. C'è un dialogo sorprendente in Erodoto, che contrappone Serse a un ex re di Sparta. Questo re annuncia a Serse che i Greci non cederanno perché la Grecia combatte sempre contro la schiavitù a un padrone. Combatterà, non importa il numero dei suoi avversari. Perché, se i Greci sono liberi, "non sono liberi in tutto: hanno un padrone, la legge, che temono ancora di più di quanto i tuoi sudditi temano te."
+
+> Gli stessi Greci sembrano essersi misurati con questa originalità e ne sono diventati consapevoli all'inizio del V secolo, nello shock che li oppose agli invasori persiani. E il primo fatto che li colpì fu che esisteva una differenza politica tra loro e i loro avversari, che comandava tutto il resto. I Persiani obbedivano a un sovrano assoluto, che era il loro padrone, che temevano e davanti al quale si prostravano: queste pratiche non erano comuni in Grecia. C'è un dialogo sorprendente in Erodoto, che contrappone Serse a un ex re di Sparta. Questo re annuncia a Serse che i Greci non cederanno perché la Grecia combatte sempre contro la schiavitù a un padrone. Combatterà, non importa il numero dei suoi avversari. Perché, se i Greci sono liberi, "non sono liberi in tutto: hanno un padrone, la legge, che temono ancora di più di quanto i tuoi sudditi temano te."
 
 (_Antica Grecia alla Scoperta della Libertà, Parigi, Edizioni de Fallois, 1989_)
 
@@ -433,7 +436,8 @@ Allontanandosi dal pensiero mitologico, Talete, Anassimandro, Anassimene e, più
 Il principio fondamentale posto da questi primi filosofi presocratici è che gli elementi del kosmos (l'universo) si mantengono in posizione perché sono tutti ugualmente soggetti alla stessa "legge della natura" (phusis) che può essere enunciata in modo universale e necessario. L'universo è razionale, costituisce un tutto strutturato, che l'uomo può scoprire con la sua ragione (il "logos" in opposizione al "mutos", il mito).
 
 Secondo Karl Popper, dobbiamo ai filosofi dell'antica Grecia, in particolare ai Presocratici, l'invenzione del razionalismo critico, ovvero la tradizione occidentale della discussione critica, fonte del pensiero scientifico e del pluralismo. Lo spiega in un capitolo di _Congetture e Confutazioni_ intitolato "Ritorno ai Presocratici":
-Per quanto riguarda i primi segni dell'esistenza di un atteggiamento critico, di una nuova libertà di pensiero, appaiono nella critica di Anassimandro a Talete. Questo è un fenomeno piuttosto singolare, il pensatore che Anassimandro critica è il suo maestro, il suo concittadino, uno dei Sette Saggi, colui che fondò la Scuola Ionica. Secondo la tradizione, Anassimandro era solo quattordici anni più giovane di Talete, e probabilmente formulò le sue critiche e presentò i suoi nuovi concetti durante la vita del suo maestro (morirono, sembra, a pochi anni di distanza). Tuttavia, nessuna prova di dissenso, lite o scisma si trova nelle fonti.
+
+> Per quanto riguarda i primi segni dell'esistenza di un atteggiamento critico, di una nuova libertà di pensiero, appaiono nella critica di Anassimandro a Talete. Questo è un fenomeno piuttosto singolare, il pensatore che Anassimandro critica è il suo maestro, il suo concittadino, uno dei Sette Saggi, colui che fondò la Scuola Ionica. Secondo la tradizione, Anassimandro era solo quattordici anni più giovane di Talete, e probabilmente formulò le sue critiche e presentò i suoi nuovi concetti durante la vita del suo maestro (morirono, sembra, a pochi anni di distanza). Tuttavia, nessuna prova di dissenso, lite o scisma si trova nelle fonti.
 
 ![image](assets/it/027.webp)
 

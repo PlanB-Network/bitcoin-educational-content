@@ -7,7 +7,7 @@ description: Mulai menambang bitcoin dengan peluang menang mendekati 0
 
 ## Konfigurasi NerdMiner v2 Anda
 
-Dalam tutorial ini, kami akan memandu Anda melalui langkah-langkah yang diperlukan untuk menyiapkan NerdMiner_v2, yang merupakan perangkat keras (ESP-32 S3) yang didedikasikan untuk penambangan bitcoin.
+Dalam tutorial ini, kami akan memandu kamu melalui langkah-langkah yang diperlukan untuk menyiapkan NerdMiner_v2, yang merupakan perangkat keras (ESP-32 S3) yang didedikasikan untuk penambangan bitcoin.
 Tentu saja, kekuatan komputasi dari perangkat seperti ini tidak dapat bersaing dengan ASIC dari penambang amatir atau profesional. Namun, NerdMiner adalah alat edukasi yang sempurna untuk membuat penambangan bitcoin menjadi nyata. Dan siapa tahu, dengan (banyak) keberuntungan, kamu mungkin menemukan blok dan hadiah yang bisa didapatkan. Bagi yang penasaran, kita akan melihat di bagian [Estimasi probabilitas menang](#estimation-de-la-probabilite-de-gain). Dalam hal konsumsi daya, NerdMiner mengonsumsi 0.5W; untuk perbandingan, lampu LED rata-rata mengonsumsi 20 kali lebih banyak.
 
 Sebelum melalui berbagai langkah, mari kita daftar peralatan yang diperlukan untuk membuatnya:

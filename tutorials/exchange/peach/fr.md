@@ -5,7 +5,7 @@ description: Guide complet pour utiliser Peach et échanger des bitcoins en P2P
 
 ![cover](assets/cover.webp)
 
-![peach](https://youtu.be/ziwhv9KqVkM)
+
 
 ## Introduction
 

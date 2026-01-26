@@ -6,17 +6,17 @@ description: Pengenalan Braiins Pool
 
 ![signup](assets/cover.webp)
 
-Braiins Pool, yang sebelumnya dikenal sebagai Slush Pool, merupakan kolam penambangan Bitcoin pertama. Kolam ini didirikan pada November 2010 dan berhasil menambang blok pertamanya pada 16 Desember 2010, yaitu blok 97834.
+Braiins Pool, yang sebelumnya dikenal sebagai Slush Pool, merupakan pool penambangan Bitcoin pertama. pool ini didirikan pada November 2010 dan berhasil menambang blok pertamanya pada 16 Desember 2010, yaitu blok 97834.
 
-Per Mei 2024, Braiins Pool memiliki kekuatan komputasi sebesar 13 EH/s, yang mewakili sekitar 1,8% dari total hashrate Bitcoin. Kolam ini telah menambang total 1.307.188 bitcoin, atau sekitar 6% dari batas maksimum 21 juta bitcoin yang akan pernah ada.
+Per Mei 2024, Braiins Pool memiliki kekuatan komputasi sebesar 13 EH/s, yang mewakili sekitar 1,8% dari total hashrate Bitcoin. Pool ini telah menambang total 1.307.188 bitcoin, atau sekitar 6% dari batas maksimum 21 juta bitcoin yang akan pernah ada.
 
 ### Sistem Kompensasi
 
-Sejak akhir 2023, Braiins Pool telah mengubah sistem kompensasinya dengan mengadopsi FPPS (Full Pay Per Share). Artinya, penambang menerima pembayaran harian untuk seluruh pekerjaan yang mereka lakukan pada hari sebelumnya, bahkan jika kolam tersebut tidak menemukan blok. Hal ini berbeda dari sistem sebelumnya, di mana penambang hanya menerima imbalan ketika kolam berhasil menemukan blok.
+Sejak akhir 2023, Braiins Pool telah mengubah sistem kompensasinya dengan mengadopsi FPPS (Full Pay Per Share). Artinya, penambang menerima pembayaran harian untuk seluruh pekerjaan yang mereka lakukan pada hari sebelumnya, bahkan jika pool tersebut tidak menemukan blok. Hal ini berbeda dari sistem sebelumnya, di mana penambang hanya menerima imbalan ketika pool berhasil menemukan blok.
 
-**Penting untuk dicatat, [menurut sebuah tweet oleh Mononaut](https://x.com/mononautical/status/1777686545715089605) yang menganalisis Bitcoin TimeChain, bahwa banyak kolam penambangan yang menggunakan sistem FPPS akan mengirimkan bitcoin yang ditambang ke alamat AntPool, yang berarti bahwa AntPool mengontrol hashrate dari semua kolam ini, sekitar 47% dari hashrate Bitcoin global. Ini adalah berita buruk bagi desentralisasi jaringan.**
+**Penting untuk dicatat, [menurut sebuah tweet oleh Mononaut](https://x.com/mononautical/status/1777686545715089605) yang menganalisis Bitcoin TimeChain, bahwa banyak pool penambangan yang menggunakan sistem FPPS akan mengirimkan bitcoin yang ditambang ke alamat AntPool, yang berarti bahwa AntPool mengontrol hashrate dari semua pool ini, sekitar 47% dari hashrate Bitcoin global. Ini adalah berita buruk bagi desentralisasi jaringan.**
 
-### Biaya Kolam
+### Biaya Pool
 
 Biaya untuk Braiins Pool adalah 2,5%, namun, jika kamu menggunakan BraiinsOS pada mesin kamu biayanya akan 0%
 

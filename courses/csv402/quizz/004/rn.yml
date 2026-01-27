@@ -1,9 +1,9 @@
-question: Ni gute RGB itera imbere mu gutera imbere ugereranije na Blockchain ya kera?
-answer: Mu kugabanya ububiko n'ukwemeza ku mpinduka za leta zijanye n'ivyo gusa
+question: Ni gute RGB yongerereza iterambere ugereranije na Blockchain ya kera ?
+answer: Mu kugabanya ububiko n'ukwemeza impinduka zikenewe cane gusa
 wrong_answers:
-  - Mu kwongera hafi ubunini bw’amabuye ya Bitcoin .
-  - Mu guhuza Contract yose ataco ihinduye n’ama UTXO yose
-  - Mu gushiramwo amakuru ya Contract ku maserukira makeyi yo hagati
+  - Biciye kurubuga ngurukana bumenyi ukwongerereza ubunini bw’amabuye ya Bitcoin .
+  - Mu guhuza Amasezerano n'ama UTXO yose
+  - Mu gushiramwo amakuru y'amasezerano kubushinguzi bukeyi bufise aho buyoboka
 explanation: |
-  RGB igabanya ibisabwa vyo kubika no kwemeza mu kugumya gusa amakuru yerekeye uwuriko aragira uruhara wese.
-reviewed: false
+  RGB igabanya ibisabwa kubushinguzi no kwemeza kubikenewe mukugumana gusa amakuru ngirakamaro kuri buriwuyikoresha.
+reviewed: true

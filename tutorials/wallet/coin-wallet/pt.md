@@ -252,12 +252,13 @@ Mais informações sobre o Replace-by-fee (RBF): https://bitcoinops.org/en/topic
 (99 % dos utilizadores nunca o fazem - as 12 palavras passphrase são suficientes)
 
 
-| Situation                                      | Why you need the private key                     |
+
+| Situação                                      | Por que você precisa da chave privada                     |
 |------------------------------------------------|--------------------------------------------------|
-| Sweeping an old paper wallet                   | To move funds to your current wallet             |
-| Importing into a hardware signer (e.g. Coldcard) | For offline signing                              |
-| Emergency recovery (lost seed but app still open) | To rescue coins before the app is gone           |
-| Using tools that don’t accept seed phrases     | Some watch-only or signing utilities             |
+| Limpeza de uma carteira de papel antiga                   | Para mover fundos para sua carteira atual             |
+| Importar para um assinante de hardware (por exemplo, Coldcard) | Para assinatura offline                              |
+| Recuperação de emergência (sementes perdidas, mas o aplicativo ainda está aberto) | Para salvar moedas antes do aplicativo desaparecer           |
+| Usando ferramentas que não aceitam frases de sementes     | Alguns utilitários apenas de monitoramento ou assinatura             |
 
 ### Como exportar chaves privadas no Coin Wallet
 
@@ -314,14 +315,14 @@ A Coin Wallet segue rigorosamente as normas oficiais da Bitcoin que são utiliza
 A partir de uma chave mestra, o wallet pode generate biliões de endereços numa ordem estritamente definida. É por isso que as mesmas 12 palavras introduzidas no Electrum, Sparrow, Trezor, Ledger, BlueWallet, etc. mostrarão exatamente os mesmos endereços e saldos.
 
 
-**Caminhos de derivação utilizados em Coin Wallet para Bitcoin
 
 
-| Address type              | Standard | Derivation path       | Starts with | Comment                              |
+
+| Tipo de endereço              | Padrão | Caminho de derivação       | Começa com | Comentário                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
-| Native SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Modern format, lowest fees           |
-| Nested SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Compatibility wrapper for old services |
-| Legacy (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Oldest format, highest fees          |
+| SegWit Nativo (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Formato moderno, taxas mais baixas           |
+| SegWit Aninhado (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Wrapper de compatibilidade para serviços antigos |
+| Herdado (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Formato mais antigo, taxas mais altas          |
 
 Dentro de cada caminho:
 

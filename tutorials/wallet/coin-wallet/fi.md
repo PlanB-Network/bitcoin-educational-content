@@ -252,12 +252,13 @@ Lisätietoja Replace-by-fee:stä (RBF): https://bitcoinops.org/en/topics/replace
 (99 % käyttäjistä ei koskaan tee niin - 12-sanainen passphrase riittää)
 
 
-| Situation                                      | Why you need the private key                     |
+
+| Tilanne                                      | Miksi tarvitset yksityisen avaimen                     |
 |------------------------------------------------|--------------------------------------------------|
-| Sweeping an old paper wallet                   | To move funds to your current wallet             |
-| Importing into a hardware signer (e.g. Coldcard) | For offline signing                              |
-| Emergency recovery (lost seed but app still open) | To rescue coins before the app is gone           |
-| Using tools that don’t accept seed phrases     | Some watch-only or signing utilities             |
+| Vanhan paperilompakkoon pyyhkiminen                   | Varojen siirtäminen nykyiseen lompakkoosi             |
+| Tuonti laitteiston allekirjoittajaan (esim. Coldcard) | Offline-allekirjoitusta varten                              |
+| Hätäpalautus (kadonnut siemen, mutta sovellus on vielä auki) | Kolikkotunteita ennen kuin sovellus katoaa           |
+| Työkalujen käyttäminen, jotka eivät hyväksy siemenlausekkeita     | Joitakin vain valvonta- tai allekirjoitusapuohjelmat             |
 
 ### Yksityisten avainten vienti Coin:ssä Wallet:ssa
 
@@ -314,14 +315,14 @@ Coin Wallet noudattaa tiukasti virallisia Bitcoin-standardeja, joita lähes kaik
 Yhdestä pääavaimesta wallet voi generate generate miljardeja osoitteita tarkasti määritellyssä järjestyksessä. Tämän vuoksi Electrum:een, Sparrow:een, Trezoriin, Ledger:ään, BlueWalletiin jne. syötetyt samat 12 sanaa näyttävät täsmälleen samat osoitteet ja saldot.
 
 
-**Coin:ssa käytetyt derivaatiopolut Wallet Bitcoin:n osalta**
 
 
-| Address type              | Standard | Derivation path       | Starts with | Comment                              |
+
+| Osoitteen tyyppi              | Standardi | Johtamisen polku       | Alkaa | Kommentti                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
-| Native SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Modern format, lowest fees           |
-| Nested SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Compatibility wrapper for old services |
-| Legacy (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Oldest format, highest fees          |
+| Natiivi SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Moderni muoto, alhaisimmat maksut           |
+| Sisäkkäinen SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Yhteensopivuusväli vanhoille palveluille |
+| Perintö (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Vanhin muoto, korkeimmat maksut          |
 
 Jokaisen polun sisällä:
 

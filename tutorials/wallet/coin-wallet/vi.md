@@ -252,12 +252,13 @@ Thông tin chi tiết hơn về Replace-by-fee (RBF): https://bitcoinops.org/en/
 (99% người dùng không bao giờ làm vậy — chỉ cần mã passphrase gồm 12 từ là đủ)
 
 
-| Situation                                      | Why you need the private key                     |
+
+| Tình huống                                      | Tại sao bạn cần khóa riêng tư                     |
 |------------------------------------------------|--------------------------------------------------|
-| Sweeping an old paper wallet                   | To move funds to your current wallet             |
-| Importing into a hardware signer (e.g. Coldcard) | For offline signing                              |
-| Emergency recovery (lost seed but app still open) | To rescue coins before the app is gone           |
-| Using tools that don’t accept seed phrases     | Some watch-only or signing utilities             |
+| Quét ví giấy cũ                   | Để chuyển tiền đến ví hiện tại của bạn             |
+| Nhập vào người ký phần cứng (ví dụ: Coldcard) | Để ký ngoại tuyến                              |
+| Phục hồi khẩn cấp (mất hạt giống nhưng ứng dụng vẫn mở) | Để cứu các đồng tiền trước khi ứng dụng biến mất           |
+| Sử dụng các công cụ không chấp nhận cụm từ giống     | Một số tiện ích chỉ giám sát hoặc ký             |
 
 ### Cách xuất khóa riêng tư trên Coin Wallet
 
@@ -314,14 +315,14 @@ Coin và Wallet tuân thủ nghiêm ngặt các tiêu chuẩn Bitcoin chính th�
 Từ một khóa chính duy nhất, wallet có thể truy cập hàng tỷ địa chỉ generate theo một thứ tự được xác định nghiêm ngặt. Đó là lý do tại sao cùng một 12 từ được nhập vào Electrum, Sparrow, Trezor, Ledger, BlueWallet, v.v. sẽ hiển thị chính xác cùng một địa chỉ và số dư.
 
 
-**Các đường dẫn dẫn xuất được sử dụng trong Coin, Wallet cho Bitcoin**
 
 
-| Address type              | Standard | Derivation path       | Starts with | Comment                              |
+
+| Loại địa chỉ              | Tiêu chuẩn | Đường dẫn dẫn xuất       | Bắt đầu bằng | Nhận xét                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
-| Native SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Modern format, lowest fees           |
-| Nested SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Compatibility wrapper for old services |
-| Legacy (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Oldest format, highest fees          |
+| SegWit Gốc (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Định dạng hiện đại, phí thấp nhất           |
+| SegWit Lồng (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Bộ bao lấp tương thích cho dịch vụ cũ |
+| Di sản (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Định dạng cổ nhất, phí cao nhất          |
 
 Bên trong mỗi con đường:
 

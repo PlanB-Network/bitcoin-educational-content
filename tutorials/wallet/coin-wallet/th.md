@@ -252,12 +252,13 @@ Bitcoin • Avalanche • Binance Smart Chain • Ethereum • Ethereum Classic 
 (99 % ของผู้ใช้ไม่เคยทำ — passphrase 12 คำก็เพียงพอแล้ว)
 
 
-| Situation                                      | Why you need the private key                     |
+
+| สถานการณ์                                      | เหตุใดคุณจึงต้องการคีย์ส่วนตัว                     |
 |------------------------------------------------|--------------------------------------------------|
-| Sweeping an old paper wallet                   | To move funds to your current wallet             |
-| Importing into a hardware signer (e.g. Coldcard) | For offline signing                              |
-| Emergency recovery (lost seed but app still open) | To rescue coins before the app is gone           |
-| Using tools that don’t accept seed phrases     | Some watch-only or signing utilities             |
+| การกวาดสวนกระดาษเก่า                   | เพื่อย้ายเงินไปยังกระเป๋าของคุณในปัจจุบัน             |
+| การนำเข้าไปยังผู้ลงนามอุปกรณ์ (เช่น Coldcard) | สำหรับการลงนามแบบออฟไลน์                              |
+| การกู้คืนฉุกเฉิน (สูญเสียเมล็ดแต่แอพยังคงเปิด) | เพื่อช่วยเหลือเหรียญก่อนที่แอพจะหายไป           |
+| การใช้เครื่องมือที่ไม่ยอมรับวลีเมล็ด     | เครื่องมือบางอย่างสำหรับการตรวจสอบหรือลงนามเท่านั้น             |
 
 ### วิธีการส่งออกคีย์ส่วนตัวใน Coin Wallet
 
@@ -314,14 +315,14 @@ Coin Wallet ปฏิบัติตามมาตรฐาน Bitcoin อย�
 จากกุญแจหลักหนึ่งดอก wallet สามารถ generate พันล้านที่อยู่ในลำดับที่กำหนดไว้อย่างเคร่งครัด นี่คือเหตุผลที่คำ 12 คำเดียวกันที่ป้อนเข้าไปใน Electrum, Sparrow, Trezor, Ledger, BlueWallet, ฯลฯ จะแสดงที่อยู่และยอดคงเหลือเหมือนกันทุกประการ
 
 
-**เส้นทางการอนุพันธ์ที่ใช้ใน Coin Wallet สำหรับ Bitcoin**
 
 
-| Address type              | Standard | Derivation path       | Starts with | Comment                              |
+
+| ประเภทที่อยู่              | มาตรฐาน | เส้นทางอนุพันธ์       | เริ่มต้นด้วย | ความเห็น                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
-| Native SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Modern format, lowest fees           |
-| Nested SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Compatibility wrapper for old services |
-| Legacy (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Oldest format, highest fees          |
+| SegWit ดั้งเดิม (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | รูปแบบสมัยใหม่ ค่าธรรมเนียมต่ำที่สุด           |
+| SegWit ที่ซ้อนกัน (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | ตัวห่อมความเข้ากันได้สำหรับบริการเก่า |
+| มรดก (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | รูปแบบที่เก่าที่สุด ค่าธรรมเนียมสูงสุด          |
 
 ภายในแต่ละเส้นทาง:
 

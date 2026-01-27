@@ -252,12 +252,13 @@ Bitcoin - Avalanche - Binance Smart Chain - Ethereum - Ethereum Classic - Polygo
 (99 % от потребителите никога не го правят - 12-те думи на passphrase са достатъчни)
 
 
-| Situation                                      | Why you need the private key                     |
+
+| Ситуация                                      | Защо имате нужда от частния ключ                     |
 |------------------------------------------------|--------------------------------------------------|
-| Sweeping an old paper wallet                   | To move funds to your current wallet             |
-| Importing into a hardware signer (e.g. Coldcard) | For offline signing                              |
-| Emergency recovery (lost seed but app still open) | To rescue coins before the app is gone           |
-| Using tools that don’t accept seed phrases     | Some watch-only or signing utilities             |
+| Метене на стара хартиена портфейл                   | За преместване на средства в текущия си портфейл             |
+| Импортиране в подписаща устройство (напр. Coldcard) | За офлайн подписване                              |
+| Спешно възстановяване (загубена семе, но приложението е още отворено) | За спасяване на монети преди приложението да е изчезнало           |
+| Използване на инструменти, които не приемат фразите на семето     | Някои инструменти само за наблюдение или подписване             |
 
 ### Как да експортирате частни ключове в Coin Wallet
 
@@ -314,14 +315,14 @@ Coin Wallet стриктно следва официалните стандар�
 От един главен ключ wallet може да generate милиарди адреси в строго определен ред. Ето защо едни и същи 12 думи, въведени в Electrum, Sparrow, Trezor, Ledger, BlueWallet и т.н., ще покажат абсолютно същите адреси и салда.
 
 
-**Пътища за деривация, използвани в Coin Wallet за Bitcoin**
 
 
-| Address type              | Standard | Derivation path       | Starts with | Comment                              |
+
+| Тип адрес              | Стандарт | Път на деривация       | Започва с | Коментар                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
-| Native SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Modern format, lowest fees           |
-| Nested SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Compatibility wrapper for old services |
-| Legacy (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Oldest format, highest fees          |
+| Собствен SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Модерен формат, най-ниски такси           |
+| Вложен SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Обвивка за съвместимост за стари услуги |
+| Наследство (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Най-стар формат, най-високи такси          |
 
 Вътре във всяка пътека:
 

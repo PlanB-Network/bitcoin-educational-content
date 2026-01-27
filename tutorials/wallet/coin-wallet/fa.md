@@ -252,12 +252,13 @@ Bitcoin • Avalanche • بایننس اسمارت چین • اتریوم • 
 (99٪ از کاربران هرگز این کار را نمی‌کنند — passphrase دوازده‌کلمه‌ای کافی است)
 
 
-| Situation                                      | Why you need the private key                     |
+
+| وضعیت                                      | چرا به کلید خصوصی نیاز دارید                     |
 |------------------------------------------------|--------------------------------------------------|
-| Sweeping an old paper wallet                   | To move funds to your current wallet             |
-| Importing into a hardware signer (e.g. Coldcard) | For offline signing                              |
-| Emergency recovery (lost seed but app still open) | To rescue coins before the app is gone           |
-| Using tools that don’t accept seed phrases     | Some watch-only or signing utilities             |
+| جاروی کردن کیف پول کاغذی قدیمی                   | برای انتقال وجوه به کیف پول فعلی شما             |
+| وارد کردن به امضا کننده سخت افزاری (مثلاً Coldcard) | برای امضای آفلاین                              |
+| بازیابی اضطراری (بذر گم شده اما برنامه هنوز باز است) | برای نجات سکه‌ها قبل از حذف برنامه           |
+| استفاده از ابزارهایی که عبارات بذر را نمی‌پذیرند     | برخی از ابزارهای رصد یا امضای تنها             |
 
 ### نحوه صادرات کلیدهای خصوصی در Coin Wallet
 
@@ -314,14 +315,14 @@ Coin Wallet به‌طور دقیق از استانداردهای رسمی Bitcoi
 از یک کلید اصلی، wallet می‌تواند generate میلیاردها آدرس را به ترتیب دقیق تعریف‌شده تولید کند. به همین دلیل است که همان ۱۲ کلمه وارد شده در Electrum، Sparrow، Trezor، Ledger، BlueWallet و غیره دقیقاً همان آدرس‌ها و موجودی‌ها را نشان خواهند داد.
 
 
-**مسیرهای مشتق‌گیری استفاده‌شده در Coin Wallet برای Bitcoin**
 
 
-| Address type              | Standard | Derivation path       | Starts with | Comment                              |
+
+| نوع آدرس              | استاندارد | مسیر مشتق       | شروع می شود با | توضیح                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
-| Native SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Modern format, lowest fees           |
-| Nested SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Compatibility wrapper for old services |
-| Legacy (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Oldest format, highest fees          |
+| SegWit بومی (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | قالب مدرن، کمترین هزینه           |
+| SegWit تو در تو (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | پوسته سازگاری برای سرویس‌های قدیمی |
+| میراث (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | قدیمی‌ترین قالب، بالاترین هزینه          |
 
 درون هر مسیر:
 

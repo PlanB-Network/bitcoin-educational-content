@@ -252,12 +252,13 @@ Meer over Replace-by-fee (RBF): https://bitcoinops.org/en/topics/replace-by-fee/
 (99% van de gebruikers doet dit nooit - het 12-woord passphrase is genoeg)
 
 
-| Situation                                      | Why you need the private key                     |
+
+| Situatie                                      | Waarom u de privé-sleutel nodig hebt                     |
 |------------------------------------------------|--------------------------------------------------|
-| Sweeping an old paper wallet                   | To move funds to your current wallet             |
-| Importing into a hardware signer (e.g. Coldcard) | For offline signing                              |
-| Emergency recovery (lost seed but app still open) | To rescue coins before the app is gone           |
-| Using tools that don’t accept seed phrases     | Some watch-only or signing utilities             |
+| Het legen van een oud papieren portemonnee                   | Fondsen naar uw huidige portemonnee verplaatsen             |
+| Importeren naar een hardware-ondertekenaar (bijv. Coldcard) | Voor offline-ondertekening                              |
+| Noodherstel (verloren zaadje maar app nog open) | Om munten te redden voordat de app weg is           |
+| Hulpmiddelen gebruiken die zaadzinnen niet accepteren     | Sommige hulpprogramma's voor alleen-bewaking of ondertekening             |
 
 ### Hoe privésleutels exporteren in Coin Wallet
 
@@ -314,14 +315,14 @@ Coin Wallet volgt strikt de officiële Bitcoin standaarden die door bijna alle s
 Vanaf één hoofdsleutel kan de wallet generate miljarden adressen in een strikt gedefinieerde volgorde. Daarom zullen dezelfde 12 woorden die worden ingevoerd in Electrum, Sparrow, Trezor, Ledger, BlueWallet, enz. precies dezelfde adressen en saldi laten zien.
 
 
-**Derivatiepaden gebruikt in Coin Wallet voor Bitcoin**
 
 
-| Address type              | Standard | Derivation path       | Starts with | Comment                              |
+
+| Adrestype              | Standaard | Afleidingspad       | Begint met | Opmerking                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
-| Native SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Modern format, lowest fees           |
-| Nested SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Compatibility wrapper for old services |
-| Legacy (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Oldest format, highest fees          |
+| Inheems SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Modern formaat, laagste kosten           |
+| Genest SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Compatibiliteitsomslag voor oude services |
+| Erfenis (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Oudste formaat, hoogste kosten          |
 
 Binnen elk pad:
 

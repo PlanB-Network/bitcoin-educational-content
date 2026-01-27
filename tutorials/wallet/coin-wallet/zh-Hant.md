@@ -252,12 +252,13 @@ Bitcoin - Avalanche - Binance Smart Chain - Ethereum - Ethereum Classic - Polygo
 (99 % 的使用者從來不會這樣做 - 12 個字的 passphrase 就夠了）
 
 
-| Situation                                      | Why you need the private key                     |
+
+| 情況                                      | 為什麼您需要私鑰                     |
 |------------------------------------------------|--------------------------------------------------|
-| Sweeping an old paper wallet                   | To move funds to your current wallet             |
-| Importing into a hardware signer (e.g. Coldcard) | For offline signing                              |
-| Emergency recovery (lost seed but app still open) | To rescue coins before the app is gone           |
-| Using tools that don’t accept seed phrases     | Some watch-only or signing utilities             |
+| 掃除舊的紙錢包                   | 將資金轉移到您當前的錢包             |
+| 導入到硬件簽名者（例如 Coldcard） | 用於離線簽名                              |
+| 緊急恢復（丟失種子但應用仍然打開） | 在應用消失之前拯救硬幣           |
+| 使用不接受種子短語的工具     | 一些僅監視或簽名實用程序             |
 
 ### 如何在 Coin Wallet 匯出私密金鑰
 
@@ -314,14 +315,14 @@ Coin Wallet 嚴格遵循官方的 Bitcoin 標準，幾乎所有嚴謹的錢包�
 從一把主鑰匙，wallet 可以按照嚴格規定的順序 generate 數十億個地址。這就是為什麼在 Electrum、Sparrow、Trezor、Ledger、BlueWallet 等輸入相同的 12 個字，會顯示完全相同的地址和餘額。
 
 
-**Derivation paths used in Coin Wallet for Bitcoin**
 
 
-| Address type              | Standard | Derivation path       | Starts with | Comment                              |
+
+| 地址類型              | 標準 | 派生路徑       | 開頭為 | 備註                              |
 |---------------------------|----------|-----------------------|-------------|--------------------------------------|
-| Native SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | Modern format, lowest fees           |
-| Nested SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | Compatibility wrapper for old services |
-| Legacy (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | Oldest format, highest fees          |
+| 本機 SegWit (Bech32)    | BIP84    | `m/84'/0'/0'`         | bc1q…       | 現代格式，最低費用           |
+| 嵌套 SegWit (P2SH)      | BIP49    | `m/49'/0'/0'`         | 3…          | 舊服務的相容性包裝器 |
+| 傳統 (P2PKH)            | BIP44    | `m/44'/0'/0'`         | 1…          | 最古老的格式，最高費用          |
 
 每條路徑的內部：
 

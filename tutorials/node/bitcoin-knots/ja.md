@@ -212,13 +212,14 @@ Bitcoin-QTのInterfaceグラフィックから、"*設定*">"*オプション...
 
 その後、ポートフォリオ管理ソフト（Sparrow WalletやLianaなど）にアクセスし、Cookieファイルのパスを入力します。OSにもよりますが、通常は`Bitcoin.conf`と同じフォルダにあります：
 
-|**macOS**|~/Library/Application Support/Bitcoin|をご覧ください。
 
-|---|---|
 
-|**Windows**|%APPDATA%\Bitcoin|
 
-|**Linux**|〜/.Bitcoin|｜｜｜Bitcoin
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 

@@ -317,10 +317,11 @@ Vergeet niet om de software opnieuw op te starten nadat je deze wijzigingen hebt
 Ga dan naar je Wallet beheersoftware (bijv. Sparrow wallet of Liana) en voer het pad naar je cookie-bestand in, meestal in dezelfde map als de `Bitcoin.conf`, afhankelijk van je besturingssysteem:
 
 
-|**macOS**|~/Library/Application Support/Bitcoin|
-|---|---|
-|**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 

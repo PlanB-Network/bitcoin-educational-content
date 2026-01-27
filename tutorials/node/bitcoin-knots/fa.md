@@ -317,10 +317,11 @@ server=1
 سپس به نرم‌افزار مدیریت Wallet خود (مثلاً Sparrow wallet یا Liana) بروید و مسیر فایل کوکی خود را وارد کنید، که معمولاً در همان پوشه‌ای که `Bitcoin.conf` قرار دارد، بسته به سیستم‌عامل شما، واقع شده است:
 
 
-|**macOS**|~/Library/Application Support/Bitcoin|
-|---|---|
-|**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 

@@ -314,10 +314,11 @@ Ne zaboravite da restartujete softver nakon što napravite ove promene.
 Zatim otvorite svoj softver za upravljanje novčanikom (npr. Sparrow Wallet ili Liana) i unesite putanju do cookie fajla, koji se obično nalazi u istom folderu kao i `Bitcoin.conf`, u zavisnosti od operativnog sistema:
 
 
-|**macOS**|~/Library/Application Support/Bitcoin|
-|---|---|
-|**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 

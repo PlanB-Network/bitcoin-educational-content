@@ -212,13 +212,14 @@ server=1
 
 然后进入组合管理软件（如 Sparrow Wallet 或 Liana），输入 cookie 文件的路径，根据操作系统的不同，cookie 文件通常与 "Bitcoin.conf "位于同一文件夹中：
 
-|**macOS**|~/Library/Application Support/Bitcoin||
 
-|---|---|
 
-|**Windows**|%APPDATA%\Bitcoin|
 
-|**Linux**||~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 

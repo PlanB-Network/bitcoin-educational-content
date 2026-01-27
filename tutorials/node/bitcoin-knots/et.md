@@ -212,13 +212,14 @@ Seda saate teha ka Bitcoin-QT Interface graafiku kaudu, kui navigeerite "*Settin
 
 Seejärel minge oma portfellihaldusprogrammi (nt Sparrow Wallet või Liana) ja sisestage tee oma küpsiste faili, mis tavaliselt asub samas kaustas nagu `Bitcoin.conf`, sõltuvalt teie operatsioonisüsteemist:
 
-|**macOS**|~/Library/Application Support/Bitcoin|
 
-|---|---|
 
-|**Windows**|%APPDATA%\Bitcoin|
 
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 

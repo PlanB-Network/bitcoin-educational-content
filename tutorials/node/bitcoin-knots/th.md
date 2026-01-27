@@ -317,10 +317,11 @@ server=1
 จากนั้นไปที่ซอฟต์แวร์การจัดการ wallet ของคุณ (เช่น Sparrow Wallet หรือ Liana) และป้อนเส้นทางไปยังไฟล์คุกกี้ของคุณ ซึ่งมักจะอยู่ในโฟลเดอร์เดียวกับ `Bitcoin.conf` ขึ้นอยู่กับระบบปฏิบัติการของคุณ:
 
 
-|**macOS**|~/Library/Application Support/Bitcoin|
-|---|---|
-|**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 

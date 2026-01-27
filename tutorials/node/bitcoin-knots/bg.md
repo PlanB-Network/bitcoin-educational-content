@@ -317,10 +317,11 @@ server=1
 След това отидете в софтуера за управление на wallet (напр. Sparrow Wallet или Liana) и въведете пътя до файла с бисквитките, който обикновено се намира в същата папка като `Bitcoin.conf`, в зависимост от операционната система:
 
 
-|**macOS**|~/Library/Application Support/Bitcoin|
-|---|---|
-|**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 

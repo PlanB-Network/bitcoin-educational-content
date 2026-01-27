@@ -314,10 +314,11 @@ server=1
 फिर अपने Wallet प्रबंधन सॉफ्टवेयर (जैसे स्पैरो Wallet या Liana) पर जाएं और अपनी कुकी फ़ाइल का पथ दर्ज करें, जो आमतौर पर आपके ऑपरेटिंग सिस्टम के आधार पर `Bitcoin.conf` के समान फ़ोल्डर में स्थित होता है:
 
 
-|**macOS**|~/Library/Application Support/Bitcoin|
-|---|---|
-|**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 

@@ -314,10 +314,11 @@ Nie zapomnij ponownie uruchomić oprogramowania po wprowadzeniu tych zmian.
 Następnie przejdź do oprogramowania zarządzającego Wallet (np. Sparrow Wallet lub Liana) i wprowadź ścieżkę do pliku cookie, zwykle znajdującego się w tym samym folderze co `Bitcoin.conf`, w zależności od systemu operacyjnego:
 
 
-|**macOS**|~/Library/Application Support/Bitcoin|
-|---|---|
-|**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 

@@ -317,10 +317,11 @@ Ntukibagire gusubira gufungura porogarama umaze guhindura ivyo.
 Hanyuma uje kuri porogaramu yawe yo gucunga Wallet (nk'akarorero Sparrow wallet canke Liana) maze winjize inzira ija muri dosiye yawe y'amakuru, akenshi iri muri dosiye imwe na `Bitcoin.conf`, bivanye n'uko ukoresha:
 
 
-|**macOS**|~/Library/Application Support/Bitcoin|
-|---|---|
-|**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 

@@ -317,10 +317,11 @@ Bitcoin-QT의 Interface 그래픽을 통해서도 "*설정*" > "*옵션*"으로 
 그런 다음 Wallet 관리 소프트웨어(예: Sparrow wallet 또는 Liana)로 이동하여 쿠키 파일 경로를 입력합니다(운영 체제에 따라 일반적으로 `Bitcoin.conf`와 같은 폴더에 위치):
 
 
-|**macOS**|~/Library/Application Support/Bitcoin|
-|---|---|
-|**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 

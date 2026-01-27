@@ -212,13 +212,14 @@ Muista käynnistää ohjelmisto uudelleen näiden muutosten tekemisen jälkeen.
 
 Siirry sitten portfolionhallintaohjelmistoon (esim. Sparrow Wallet tai Liana) ja syötä polku evästetiedostoon, joka sijaitsee yleensä samassa kansiossa kuin `Bitcoin.conf`, käyttöjärjestelmästäsi riippuen:
 
-|**macOS**|~/Library/Application Support/Bitcoin|
 
-|---|---|
 
-|**Windows**|%APPDATA%\Bitcoin|
 
-|**Linux**|~/.Bitcoin|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 

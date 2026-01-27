@@ -212,13 +212,14 @@ Jangan lupa untuk memulai ulang perangkat lunak setelah melakukan perubahan ini.
 
 Lalu buka perangkat lunak manajemen wallet kamu (misalnya Sparrow Wallet atau Liana) dan masukkan path menuju file cookie kamu, yang biasanya ada di folder yang sama dengan `bitcoin.conf`, tergantung sistem operasi kamu:
 
-|**macOS**|~/Perpustakaan/Dukungan Aplikasi/Bitcoin
 
-|---|---|
 
-|**Windows**|%APPDATA%\Bitcoin|
 
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 

@@ -212,13 +212,14 @@ Vergessen Sie nicht, die Software neu zu starten, nachdem Sie diese Änderungen 
 
 Gehen Sie dann zu Ihrer Portfolioverwaltungssoftware (z. B. Sparrow Wallet oder Liana) und geben Sie den Pfad zu Ihrer Cookie-Datei ein, die sich je nach Betriebssystem normalerweise im selben Ordner wie die `Bitcoin.conf` befindet:
 
-|**macOS**|~/Library/Application Support/Bitcoin|
 
-|---|---|
 
-|**Windows**|%APPDATA%\Bitcoin|
 
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 

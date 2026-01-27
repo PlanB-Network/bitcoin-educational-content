@@ -314,10 +314,11 @@ Usisahau kuanzisha upya programu baada ya kufanya mabadiliko haya.
 Kisha nenda kwenye programu yako ya usimamizi wa Wallet (k.m. Sparrow Wallet au Liana) na uweke njia ya faili yako ya kidakuzi, ambayo kwa kawaida iko katika folda sawa na `Bitcoin.conf`, kulingana na mfumo wako wa uendeshaji:
 
 
-|**macOS**|~/Library/Application Support/Bitcoin|
-|---|---|
-|**Windows**|%APPDATA%\Bitcoin|
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 

@@ -212,13 +212,14 @@ Po provedení těchto změn nezapomeňte restartovat software.
 
 Poté přejděte do softwaru pro správu portfolia (např. Sparrow Wallet nebo Liana) a zadejte cestu k souboru cookie, který se obvykle nachází ve stejné složce jako soubor `Bitcoin.conf`, v závislosti na operačním systému:
 
-|**macOS**|~/Library/Application Support/Bitcoin|
 
-|---|---|
 
-|**Windows**|%APPDATA%\Bitcoin|
 
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 

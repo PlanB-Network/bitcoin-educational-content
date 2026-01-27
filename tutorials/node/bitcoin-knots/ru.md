@@ -212,13 +212,14 @@ server=1
 
 Затем зайдите в программное обеспечение для управления портфелем (например, Sparrow Wallet или Liana) и введите путь к файлу cookie, который обычно находится в той же папке, что и `Bitcoin.conf`, в зависимости от операционной системы:
 
-|**macOS**|~/Library/Application Support/Bitcoin|
 
-|---|---|
 
-|**Windows**|%APPDATA%\Bitcoin|
 
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 

@@ -212,13 +212,14 @@ Ikke glem å starte programvaren på nytt etter at du har gjort disse endringene
 
 Gå deretter til programvaren for porteføljeadministrasjon (f.eks. Sparrow Wallet eller Liana) og skriv inn banen til cookie-filen, som vanligvis ligger i samme mappe som `Bitcoin.conf`, avhengig av operativsystemet ditt:
 
-|**macOS**|~/Bibliotek/Applikasjonsstøtte/Bitcoin|
 
-|---|---|
 
-|**Windows**|%APPDATA%\Bitcoin|
 
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 

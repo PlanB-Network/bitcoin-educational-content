@@ -212,13 +212,14 @@ Bạn cũng có thể thực hiện việc này thông qua đồ họa Interface
 
 Sau đó, hãy vào phần mềm quản lý danh mục đầu tư của bạn (ví dụ: Sparrow Wallet hoặc Liana) và nhập đường dẫn đến tệp cookie, thường nằm trong cùng thư mục với `Bitcoin.conf`, tùy thuộc vào hệ điều hành của bạn:
 
-|**macOS**|~/Thư viện/Hỗ trợ ứng dụng/Bitcoin|
 
-|---|---|
 
-|**Windows**|%APPDATA%\Bitcoin|
 
-|**Linux**|~/.Bitcoin|
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
+| ----------- | ------------------------------------- |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/35.webp)
 

@@ -451,24 +451,25 @@ Pop!OS inatoa aina mbalimbali za programu kupitia Pop!Shop yake, lakini zana nyi
 
 
 
-| Outil                        | Description                                | Commande d’installation                         |
+
+| Zana | Maelezo | Amri ya Kusakinisha |
 | ---------------------------- | ------------------------------------------ | ----------------------------------------------- |
-| Firefox                      | Navigateur web libre et populaire          | `sudo apt install firefox`                      |
-| Brave                        | Navigateur web axé sur la confidentialité  | Installation via Pop!_Shop ou site officiel     |
-| Visual Studio Code (VS Code) | Éditeur de code puissant pour développeurs | `flatpak install flathub com.visualstudio.code` |
-| Git                          | Gestionnaire de versions                   | `sudo apt install git`                          |
-| Flatpak                      | Gestionnaire de paquets alternatif         | `sudo apt install flatpak`                      |
-| VLC                          | Lecteur multimédia polyvalent              | `sudo apt install vlc`                          |
-| GNOME Terminal               | Terminal par défaut                        | Préinstallé sur Pop!OS                          |
-| Curl                         | Outil de transfert de données en ligne     | `sudo apt install curl`                         |
-| Wget                         | Téléchargement de fichiers via HTTP/FTP    | `sudo apt install wget`                         |
-| Docker                       | Conteneurisation d’applications            | Installation via script officiel ou `apt`       |
-| Node.js                      | Environnement JavaScript côté serveur      | Installation via `apt` ou NodeSource            |
-| Python3                      | Langage de programmation                   | `sudo apt install python3 python3-pip`          |
-| GIMP                         | Éditeur d’image avancé                     | `sudo apt install gimp`                         |
-| Thunderbird                  | Client mail                                | `sudo apt install thunderbird`                  |
-| Transmission                 | Client BitTorrent léger                    | `sudo apt install transmission-gtk`             |
-| Htop                         | Moniteur de système interactif             | `sudo apt install htop`                         |
+| Firefox | Kivinjari huru na maarufu | `sudo apt install firefox` |
+| Brave | Kivinjari kinachozingatia faragha | Kusakinisha kupitia Pop!_Shop au tovuti rasmi |
+| Visual Studio Code (VS Code) | Kihariri msimbo chenye nguvu kwa watengenezaji | `flatpak install flathub com.visualstudio.code` |
+| Git | Kidhibiti matoleo | `sudo apt install git` |
+| Flatpak | Kidhibiti mbadala cha vifurushi | `sudo apt install flatpak` |
+| VLC | Kicheza media cha madhumuni mengi | `sudo apt install vlc` |
+| GNOME Terminal | Terminali chaguo-msingi | Imesakinishwa awali kwenye Pop!OS |
+| Curl | Zana ya kuhamisha data mtandaoni | `sudo apt install curl` |
+| Wget | Kupakua faili kupitia HTTP/FTP | `sudo apt install wget` |
+| Docker | Uwekaji wa programu kwenye kontena | Kusakinisha kupitia hati rasmi au `apt` |
+| Node.js | Mazingira ya JavaScript upande wa seva | Kusakinisha kupitia `apt` au NodeSource |
+| Python3 | Lugha ya programu | `sudo apt install python3 python3-pip` |
+| GIMP | Kihariri picha cha hali ya juu | `sudo apt install gimp` |
+| Thunderbird | Kiteja cha barua pepe | `sudo apt install thunderbird` |
+| Transmission | Kiteja chepesi cha BitTorrent | `sudo apt install transmission-gtk` |
+| Htop | Kifuatilia mfumo shirikishi | `sudo apt install htop` |
 
 ### Usakinishaji kupitia Pop! Shop (kiolesura cha picha)
 

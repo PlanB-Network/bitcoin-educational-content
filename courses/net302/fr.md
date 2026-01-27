@@ -1184,15 +1184,15 @@ Ce découpage conceptuel se matérialise souvent par une structure binaire où l
 
 L’architecture IPv6 reprend le modèle hiérarchique du routage global de l’Internet actuel : le découpage des préfixes permet aux registres régionaux et aux opérateurs de gérer la distribution d’adresses de façon décentralisée, tout en assurant l’unicité globale. C’est dans ce cadre qu’un même hôte peut posséder simultanément une adresse unicast globale, pour communiquer sur Internet, et une adresse link-local pour interagir localement, par exemple pour le voisinage immédiat ou les messages de découverte de routeur.
 
-| Field     | Prefix | Zero | Interface ID |
-|-----------|--------|------|--------------|
-| Bits      | 10     | 54   | 64           |
+| Champ | Préfixe | Zéro | ID d'interface |
+| ----- | ------- | ---- | -------------- |
+| Bits  | 10      | 54   | 64             |
 
 Les **adresses anycast** représentent une notion intermédiaire qui tire parti du modèle unicast tout en offrant un comportement proche du multicast dans certains cas. Une adresse anycast est, en réalité, une adresse unicast affectée à plusieurs interfaces réparties sur différents nœuds du réseau. Lorsqu’un paquet est émis vers une adresse anycast, le protocole IPv6 s’efforce de le livrer à l’un des hôtes partageant cette adresse, en privilégiant généralement celui qui est le plus proche selon la topologie du routage. Ce principe optimise la rapidité de traitement des requêtes et améliore la résilience des services distribués : l’exemple typique est celui des serveurs DNS racine, pour lesquels l’adressage anycast permet de diriger automatiquement les requêtes vers le point de présence le plus proche.
 
-| Field     | Prefix | Subnet | Interface ID |
-|-----------|--------|--------|--------------|
-| Bits      | 48     | 16     | 64           |
+| Champ | Préfixe | Sous-réseau | ID d'interface |
+| ----- | ------- | ----------- | -------------- |
+| Bits  | 48      | 16          | 64             |
 
 Enfin, les **adresses multicast** remplacent dans IPv6 le mécanisme de broadcast, jugé trop coûteux et inadapté à l’échelle d’un réseau mondial. Une adresse multicast identifie un groupe d’interfaces, généralement dispersées sur plusieurs hôtes, qui souhaitent recevoir simultanément les mêmes paquets. Pour chaque adresse multicast, la portée est spécifiée par un champ particulier : les 4 bits de _scope_ inclus dans la structure de l’adresse. Ces bits définissent la limite géographique ou logique de diffusion :
 
@@ -1204,9 +1204,9 @@ Enfin, les **adresses multicast** remplacent dans IPv6 le mécanisme de broadcas
 
 Chaque adresse multicast IPv6 est structurée en plusieurs champs : un champ _Flag_ (4 bits) précise notamment si le groupe est permanent ou transitoire, un champ _Scope_ (4 bits) définit la portée, et un champ d’identification (112 bits) indique le numéro du groupe multicast.
 
-| Field      | Prefix | Flags | Scope | Group ID |
-|------------|--------|--------|--------|----------|
-| Bits       | 8      | 4      | 4      | 112      |
+| Champ | Préfixe | Drapeaux | Portée | ID de groupe |
+| ----- | ------- | -------- | ------ | ------------ |
+| Bits  | 8       | 4        | 4      | 112          |
 
 Un exemple emblématique de multicast IPv6 est l’utilisation par le protocole _Neighbor Discovery Protocol_ (NDP). Plutôt que de recourir à ARP comme en IPv4, NDP s’appuie sur des adresses multicast comme `ff02::1:ff00:0/104` pour diffuser ses requêtes de découverte de voisinage, en sollicitant uniquement les hôtes concernés sur le même lien.
 

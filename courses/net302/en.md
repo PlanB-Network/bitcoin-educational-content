@@ -1352,9 +1352,9 @@ The structure of an IPv6 multicast address includes:
 - a _Scope_ field (4 bits) defines the scope, 
 - an identification field (112 bits) identifying the multicast group number.
 
-| Field      | Prefix | Flags | Scope | Group ID |
-|------------|--------|--------|--------|----------|
-| Bits       | 8      | 4      | 4      | 112      |
+| Field | Prefix | Flags | Scope | Group ID |
+| ----- | ------ | ----- | ----- | -------- |
+| Bits  | 8      | 4     | 4     | 112      |
 
 A well-known example of IPv6 multicast in action is the _Neighbor Discovery Protocol_ (NDP). Rather than using ARP as in IPv4, NDP relies on multicast addresses such as `ff02::1:ff00:0/104` to broadcast neighbor discovery requests, targeting only the relevant hosts on the same link.
 

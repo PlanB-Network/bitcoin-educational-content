@@ -827,12 +827,13 @@ The line appears to have an unbalanced ** marker. Here's the corrected version:
 Tabel di bawah ini meringkas istilah-istilah untuk konteks TCP dan UDP:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| Lapisan TCP/IP       | Nama Unit (TCP) | Nama Unit (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Lapisan Aplikasi     | Aliran           | Pesan            |
+| Lapisan Transport    | Segmen           | Paket            |
+| Lapisan Internet     | Datagram         | Datagram         |
+| Lapisan Akses Jaringan | Frame          | Frame            |
 
 ### Primitif layanan dan unit data
 

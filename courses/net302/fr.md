@@ -488,12 +488,13 @@ L’architecture en couches repose sur le principe que chaque niveau ne traite q
 
 **Rappel** : pour nommer les unités de données qui transitent entre les couches, une terminologie spécifique a été définie : **message** pour la couche Application, **segment** pour la couche Transport (TCP), **datagramme** pour la couche Internet (IP) et **trame** pour la couche Accès Réseau. Cette distinction s’accompagne de structures adaptées à chaque contexte, comme le montre le schéma suivant :
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| Couche TCP/IP        | Nom de l’unité (TCP) | Nom de l’unité (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Couche application   | Flux             | Message          |
+| Couche transport     | Segment          | Paquet           |
+| Couche Internet      | Datagramme       | Datagramme       |
+| Couche d’accès réseau | Trame           | Trame            |
 
 ### Primitives de service et unités de données
 

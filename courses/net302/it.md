@@ -823,12 +823,13 @@ L'architettura a strati segue il principio secondo cui ogni Layer elabora solo l
 La tabella seguente riassume i termini dei contesti TCP e UDP:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| Livello TCP/IP       | Nome unità (TCP) | Nome unità (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Livello applicazione | Flusso           | Messaggio        |
+| Livello di trasporto | Segmento         | Pacchetto        |
+| Livello Internet     | Datagramma       | Datagramma       |
+| Livello di accesso alla rete | Frame    | Frame            |
 
 ### Primitive di servizio e unità di dati
 

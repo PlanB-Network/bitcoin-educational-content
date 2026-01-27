@@ -823,12 +823,13 @@ Kihiline arhitektuur järgib põhimõtet, et iga Layer töötleb ainult oma regu
 Alljärgnevas tabelis on kokkuvõte TCP- ja UDP-kontekstide terminitest:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| TCP/IP kiht          | Üksuse nimi (TCP) | Üksuse nimi (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Rakenduskiht         | Voog             | Sõnum            |
+| Transpordikiht       | Segment          | Pakett           |
+| Internetikiht        | Datagramm        | Datagramm        |
+| Võrgule juurdepääsu kiht | Kaader       | Kaader           |
 
 ### Teenuse primitiivid ja andmeühikud
 

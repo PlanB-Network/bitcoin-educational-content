@@ -823,12 +823,13 @@ Die Schichtenarchitektur folgt dem Prinzip, dass jeder Layer nur die Information
 In der folgenden Tabelle sind die Begriffe für TCP- und UDP-Kontexte zusammengefasst:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| TCP/IP-Schicht       | Einheitenname (TCP) | Einheitenname (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Anwendungsschicht    | Strom            | Nachricht        |
+| Transportschicht     | Segment          | Paket            |
+| Internetschicht      | Datagramm        | Datagramm        |
+| Netzzugriffsschicht  | Frame            | Frame            |
 
 ### Dienstprimitive und Dateneinheiten
 

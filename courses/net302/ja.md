@@ -823,12 +823,13 @@ UDPはTCPとは根本的に異なる原理で動作する。つまり、**コネ
 以下の表は、TCPおよびUDPコンテキストの用語をまとめたものである：
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| TCP/IP レイヤー      | ユニット名 (TCP) | ユニット名 (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| アプリケーション層   | ストリーム       | メッセージ       |
+| トランスポート層     | セグメント       | パケット         |
+| インターネット層     | データグラム     | データグラム     |
+| ネットワークアクセス層 | フレーム       | フレーム         |
 
 ### サービス・プリミティブとデータ・ユニット
 

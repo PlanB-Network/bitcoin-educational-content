@@ -823,12 +823,13 @@ Ubwubatsi bw’ibice bukurikira ingingo ngenderwako y’uko Layer yose ikora ama
 Imbonerahamwe iri musi ivuga mu ncamake amajambo y'imirongo ya TCP na UDP:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| Urwego TCP/IP        | Izina ry’igice (TCP) | Izina ry’igice (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Urwego rwa porogaramu | Umugezi          | Ubutumwa         |
+| Urwego rwo gutwara   | Segimenti        | Paketi           |
+| Urwego rwa internet  | Datagram         | Datagram         |
+| Urwego rwo kwinjira mu muyoboro | Frame | Frame            |
 
 ### Ibikorwa vya kera n'ibice vy'amakuru
 

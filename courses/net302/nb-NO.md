@@ -823,12 +823,13 @@ Den lagdelte arkitekturen følger prinsippet om at hver Layer kun behandler den 
 Tabellen nedenfor oppsummerer begrepene for TCP- og UDP-kontekster:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| TCP/IP-lag           | Enhetsnavn (TCP) | Enhetsnavn (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Applikasjonslag      | Strøm            | Melding          |
+| Transportlag         | Segment          | Pakke            |
+| Internettlag         | Datagram         | Datagram         |
+| Nettverkstilgangslag | Ramme            | Ramme            |
 
 ### Tjenesteprimitiver og dataenheter
 

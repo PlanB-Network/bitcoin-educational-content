@@ -823,12 +823,13 @@ TCP와 UDP의 이러한 상호 보완성 덕분에 최신 네트워크는 애플
 아래 표에는 TCP 및 UDP 컨텍스트에 대한 용어가 요약되어 있습니다:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| TCP/IP 계층          | 단위 이름 (TCP) | 단위 이름 (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| 애플리케이션 계층    | 스트림           | 메시지           |
+| 전송 계층            | 세그먼트         | 패킷             |
+| 인터넷 계층          | 데이터그램       | 데이터그램       |
+| 네트워크 액세스 계층 | 프레임           | 프레임           |
 
 ### 서비스 기본 요소 및 데이터 단위
 

@@ -823,12 +823,13 @@ Vrstevnatá architektura se řídí zásadou, že každý systém Layer zpracov�
 Níže uvedená tabulka shrnuje pojmy pro kontexty TCP a UDP:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| Vrstva TCP/IP        | Název jednotky (TCP) | Název jednotky (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Aplikační vrstva     | Proud            | Zpráva           |
+| Transportní vrstva   | Segment          | Paket            |
+| Internetová vrstva   | Datagram         | Datagram         |
+| Vrstva přístupu k síti | Rámec          | Rámec            |
 
 ### Primitiva služeb a datové jednotky
 

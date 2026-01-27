@@ -824,12 +824,13 @@ Usanifu wa tabaka hufuata kanuni kwamba kila Layer inashughulikia habari tu ndan
 Jedwali hapa chini linatoa muhtasari wa masharti ya muktadha wa TCP na UDP:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| Safu ya TCP/IP       | Jina la kitengo (TCP) | Jina la kitengo (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Safu ya programu     | Mtiririko        | Ujumbe           |
+| Safu ya usafirishaji | Sehemu           | Pakiti           |
+| Safu ya intaneti     | Datagram         | Datagram         |
+| Safu ya ufikiaji wa mtandao | Fremu    | Fremu            |
 
 ### Vitengo vya awali vya huduma na data
 

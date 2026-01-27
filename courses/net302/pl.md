@@ -827,12 +827,13 @@ The line appears to have an unbalanced ** marker. Here's the corrected version:
 Poniższa tabela podsumowuje terminy dla kontekstów TCP i UDP:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| Warstwa TCP/IP       | Nazwa jednostki (TCP) | Nazwa jednostki (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Warstwa aplikacji    | Strumień         | Wiadomość        |
+| Warstwa transportowa | Segment          | Pakiet           |
+| Warstwa internetowa  | Datagram         | Datagram         |
+| Warstwa dostępu do sieci | Ramka       | Ramka            |
 
 ### Prymitywy usług i jednostki danych
 

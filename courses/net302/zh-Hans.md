@@ -823,12 +823,13 @@ TCP 和 UDP 之间的这种互补性使现代网络能够适应各种需求，�
 下表总结了 TCP 和 UDP 上下文的术语：
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| TCP/IP 层             | 单元名称 (TCP)  | 单元名称 (UDP)  |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| 应用层               | 流               | 消息             |
+| 传输层               | 段               | 数据包           |
+| 互联网层             | 数据报           | 数据报           |
+| 网络接入层           | 帧               | 帧               |
 
 ### 服务基元和数据单元
 

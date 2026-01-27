@@ -827,12 +827,13 @@ The line appears to have an unbalanced ** marker. Here's the corrected version:
 A tabela abaixo resume os termos dos contextos TCP e UDP:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| Camada TCP/IP        | Nome da unidade (TCP) | Nome da unidade (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Camada de aplicação  | Fluxo            | Mensagem         |
+| Camada de transporte | Segmento         | Pacote           |
+| Camada de Internet   | Datagrama        | Datagrama        |
+| Camada de acesso à rede | Quadro        | Quadro           |
 
 ### Primitivas de serviço e unidades de dados
 

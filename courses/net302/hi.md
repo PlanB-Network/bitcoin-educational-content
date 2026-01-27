@@ -823,12 +823,13 @@ https://planb.academy/tutorials/computer-security/communication/angry-ip-scanner
 नीचे दी गई तालिका TCP और UDP संदर्भों के लिए शब्दों का सारांश प्रस्तुत करती है:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| TCP/IP स्तर          | इकाई का नाम (TCP) | इकाई का नाम (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| अनुप्रयोग स्तर       | स्ट्रीम          | संदेश            |
+| परिवहन स्तर          | सेगमेंट          | पैकेट            |
+| इंटरनेट स्तर         | डेटाग्राम        | डेटाग्राम        |
+| नेटवर्क एक्सेस स्तर  | फ्रेम            | फ्रेम            |
 
 ### सेवा आदिम और डेटा इकाइयाँ
 

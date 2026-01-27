@@ -823,12 +823,13 @@ Den skiktade arkitekturen följer principen att varje Layer endast bearbetar den
 I tabellen nedan sammanfattas termerna för TCP- och UDP-kontexter:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| TCP/IP-lager         | Enhetsnamn (TCP) | Enhetsnamn (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Applikationslager    | Ström            | Meddelande       |
+| Transportlager       | Segment          | Paket            |
+| Internetlager        | Datagram         | Datagram         |
+| Nätverksåtkomstlager | Ram              | Ram              |
 
 ### Tjänsteprimitiver och dataenheter
 

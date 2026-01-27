@@ -823,12 +823,13 @@ Kerrosarkkitehtuurissa noudatetaan periaatetta, jonka mukaan kukin Layer käsitt
 Alla olevassa taulukossa on yhteenveto TCP- ja UDP-yhteyksien termeistä:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| TCP/IP-kerros        | Yksikön nimi (TCP) | Yksikön nimi (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Sovelluskerros       | Virta            | Viesti           |
+| Kuljetuskerros       | Segmentti        | Paketti          |
+| Internet-kerros      | Datagrammi       | Datagrammi       |
+| Verkkoyhteyskerros   | Kehys            | Kehys            |
 
 ### Palvelun alkuosat ja datayksiköt
 

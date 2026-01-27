@@ -823,12 +823,13 @@ De gelaagde architectuur volgt het principe dat elke Layer alleen de informatie 
 De onderstaande tabel vat de termen voor TCP- en UDP-contexten samen:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| TCP/IP-laag          | Eenheidsnaam (TCP) | Eenheidsnaam (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Applicatielaag       | Stroom           | Bericht          |
+| Transportlaag        | Segment          | Pakket           |
+| Internetlaag         | Datagram         | Datagram         |
+| Netwerktoegangslaag  | Frame            | Frame            |
 
 ### Serviceprimitieven en data-eenheden
 

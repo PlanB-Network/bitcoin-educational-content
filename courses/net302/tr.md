@@ -823,12 +823,13 @@ Katmanlı mimari, her Layer'nın yalnızca kendi kapsamındaki bilgileri işleme
 Aşağıdaki tablo TCP ve UDP bağlamları için terimleri özetlemektedir:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| TCP/IP Katmanı       | Birim Adı (TCP) | Birim Adı (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Uygulama Katmanı     | Akış             | Mesaj            |
+| Taşıma Katmanı       | Segment          | Paket            |
+| İnternet Katmanı     | Datagram         | Datagram         |
+| Ağ Erişim Katmanı    | Çerçeve          | Çerçeve          |
 
 ### Hizmet ilkelleri ve veri birimleri
 

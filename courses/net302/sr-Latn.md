@@ -821,12 +821,13 @@ Slojevita arhitektura prati princip da svaki sloj obrađuje samo informacije unu
 Tabela ispod rezimira termine za TCP i UDP kontekste:
 
 
+
 | TCP/IP sloj          | Naziv jedinice (TCP) | Naziv jedinice (UDP) |
 |----------------------|------------------|------------------|
-| Aplikativni sloj     | Stream           | Message          |
-| Transportni sloj     | Segment          | Packet           |
-| Mrežni sloj          | Datagram         | Datagram         |
-| Sloj pristupa mreži  | Frame            | Frame            |
+| Aplikacioni sloj     | Tok              | Poruka           |
+| Transportni sloj     | Segment          | Paket            |
+| Internet sloj        | Datagram         | Datagram         |
+| Sloj mrežnog pristupa | Okvir           | Okvir            |
 
 ### Servisni primitivi i jedinice podataka
 

@@ -657,12 +657,13 @@ La arquitectura por capas sigue el principio de que cada capa procesa solo la in
 
 La siguiente tabla resume los términos para los contextos TCP y UDP:
 
-| Capa TCP/IP         | Nombre unitario (TCP) | Nombre unitario (UDP) |
+
+| Capa TCP/IP          | Nombre de unidad (TCP) | Nombre de unidad (UDP) |
 |----------------------|------------------|------------------|
-| Capa de aplicación    | Transmisión          | Mensaje         |
-| Capa de transporte     | Segmento          | Paquete           |
-| Capa de internet       | Datagrama         | Datagrama         |
-| Capa de acceso a la red | Fotograma            | Fotograma            |
+| Capa de aplicación   | Flujo            | Mensaje          |
+| Capa de transporte   | Segmento         | Paquete          |
+| Capa de Internet     | Datagrama        | Datagrama        |
+| Capa de acceso a la red | Trama         | Trama            |
 
 ### Primitivas de servicio y unidades de datos
 

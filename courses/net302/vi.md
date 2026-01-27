@@ -823,12 +823,13 @@ Kiến trúc phân lớp tuân theo nguyên tắc rằng mỗi Layer chỉ xử 
 Bảng dưới đây tóm tắt các thuật ngữ cho bối cảnh TCP và UDP:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| Tầng TCP/IP          | Tên đơn vị (TCP) | Tên đơn vị (UDP) |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| Tầng ứng dụng        | Luồng            | Thông điệp       |
+| Tầng vận chuyển      | Phân đoạn        | Gói              |
+| Tầng Internet        | Datagram         | Datagram         |
+| Tầng truy cập mạng   | Khung            | Khung            |
 
 ### Các nguyên mẫu dịch vụ và đơn vị dữ liệu
 

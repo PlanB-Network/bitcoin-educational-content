@@ -823,12 +823,13 @@ UDP بر اساس اصلی کاملاً متفاوت از TCP عمل می‌کن
 جدول زیر شرایط مربوط به زمینه‌های TCP و UDP را خلاصه می‌کند:
 
 
-| TCP/IP Layer         | Unit Name (TCP) | Unit Name (UDP) |
+
+| لایه TCP/IP          | نام واحد (TCP)   | نام واحد (UDP)   |
 |----------------------|------------------|------------------|
-| Application Layer    | Stream           | Message          |
-| Transport Layer      | Segment          | Packet           |
-| Internet Layer       | Datagram         | Datagram         |
-| Network Access Layer | Frame            | Frame            |
+| لایه کاربرد          | جریان            | پیام             |
+| لایه انتقال          | بخش              | بسته             |
+| لایه اینترنت         | دیتاگرام         | دیتاگرام         |
+| لایه دسترسی به شبکه  | فریم             | فریم             |
 
 ### ابتدایی‌های خدمات و واحدهای داده
 

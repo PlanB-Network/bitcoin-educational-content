@@ -575,13 +575,14 @@ We willen 4 subnetten van elk maximaal 60 hosts.
 
 
 
-| Subnet ID (bits) | Subnet Address   | Subnet Mask     | Address Range                 | Broadcast Address |
+
+
+| Subnet-ID (bits) | Subnetadres | Subnetmasker | Adresbereik               | Broadcastadres |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
 | 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
-
 
 **stap 5**: Dit creëert vier subnetwerken, die elk tot 62 machines ondersteunen, terwijl het algehele adresseringsschema efficiënt blijft. Het _hostid_ gedeelte wordt gesplitst in een _subnetid_ gedeelte en een host gedeelte.
 

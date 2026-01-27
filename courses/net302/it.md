@@ -575,13 +575,14 @@ Vogliamo 4 sottoreti con un massimo di 60 host ciascuna.
 
 
 
-| Subnet ID (bits) | Subnet Address   | Subnet Mask     | Address Range                 | Broadcast Address |
+
+
+| ID subnet (bit) | Indirizzo subnet | Maschera subnet | Intervallo di indirizzi    | Indirizzo broadcast |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
 | 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
-
 
 **Fase 5**: In questo modo si creano quattro sottoreti, ognuna delle quali supporta fino a 62 macchine, mantenendo efficiente lo schema di indirizzamento complessivo. La parte _hostid_ è divisa in una parte _subnetid_ e una parte host.
 

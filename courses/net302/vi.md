@@ -575,13 +575,14 @@ Chúng tôi muốn có 4 mạng con, mỗi mạng có tối đa 60 máy chủ.
 
 
 
-| Subnet ID (bits) | Subnet Address   | Subnet Mask     | Address Range                 | Broadcast Address |
+
+
+| ID mạng con (bit) | Địa chỉ mạng con | Mặt nạ mạng con | Phạm vi địa chỉ          | Địa chỉ broadcast |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
 | 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
-
 
 **Bước 5**: Thao tác này tạo ra bốn mạng con, mỗi mạng hỗ trợ tối đa 62 máy, đồng thời vẫn đảm bảo tính hiệu quả của sơ đồ địa chỉ tổng thể. Phần _hostid_ được chia thành phần _subnetid_ và phần host.
 

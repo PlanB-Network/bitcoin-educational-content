@@ -575,13 +575,14 @@ Pretendemos 4 sub-redes com um máximo de 60 anfitriões cada.
 
 
 
-| Subnet ID (bits) | Subnet Address   | Subnet Mask     | Address Range                 | Broadcast Address |
+
+
+| ID da sub-rede (bits) | Endereço da sub-rede | Máscara da sub-rede | Intervalo de endereços   | Endereço de broadcast |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
 | 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
-
 
 **Passo 5**: Isto cria quatro sub-redes, cada uma suportando até 62 máquinas, enquanto mantém o esquema de endereçamento geral eficiente. A parte _hostid_ é dividida em uma parte _subnetid_ e uma parte host.
 

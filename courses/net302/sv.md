@@ -575,13 +575,14 @@ Vi vill ha 4 subnät med upp till 60 värdar vardera.
 
 
 
-| Subnet ID (bits) | Subnet Address   | Subnet Mask     | Address Range                 | Broadcast Address |
+
+
+| Subnät-ID (bitar) | Subnätsadress | Subnätsmask | Adressintervall          | Broadcast-adress |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
 | 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
-
 
 **Steg 5**: Detta skapar fyra undernätverk, vart och ett med stöd för upp till 62 maskiner, samtidigt som det övergripande adresseringsschemat förblir effektivt. Delen _hostid_ delas upp i en del med _subnetid_ och en del med värd.
 

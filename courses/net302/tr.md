@@ -575,13 +575,14 @@ Her biri 60 ana bilgisayara kadar 4 alt ağ istiyoruz.
 
 
 
-| Subnet ID (bits) | Subnet Address   | Subnet Mask     | Address Range                 | Broadcast Address |
+
+
+| Alt ağ kimliği (bitler) | Alt ağ adresi | Alt ağ maskesi | Adres aralığı            | Broadcast adresi |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
 | 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
-
 
 **Adım 5**: Bu, genel adresleme şemasını verimli tutarken, her biri 62 makineye kadar destekleyen dört alt ağ oluşturur. Hostid_ kısmı bir _subnetid_ kısmına ve bir host kısmına bölünür.
 

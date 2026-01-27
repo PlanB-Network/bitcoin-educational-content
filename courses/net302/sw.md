@@ -575,13 +575,14 @@ Tunataka subnet 4 za hadi wapangishi 60 kila moja.
 
 
 
-| Subnet ID (bits) | Subnet Address   | Subnet Mask     | Address Range                 | Broadcast Address |
+
+
+| Kitambulisho cha subnet (biti) | Anwani ya subnet | Maski ya subnet | Masafa ya anwani         | Anwani ya broadcast |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
 | 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
-
 
 **Hatua ya 5**: Hii inaunda mitandao midogo minne, kila moja ikisaidia hadi mashine 62, huku ikidumisha mpango wa jumla wa kushughulikia. Sehemu _hostid_ imegawanywa katika sehemu _subnetid_ na sehemu ya mwenyeji.
 

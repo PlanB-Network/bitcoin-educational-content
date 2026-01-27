@@ -575,13 +575,14 @@ Wir wollen 4 Subnetze mit jeweils bis zu 60 Hosts.
 
 
 
-| Subnet ID (bits) | Subnet Address   | Subnet Mask     | Address Range                 | Broadcast Address |
+
+
+| Subnetz-ID (Bits) | Subnetzadresse | Subnetzmaske | Adressbereich               | Broadcast-Adresse |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
 | 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
-
 
 **Schritt 5**: Dadurch werden vier Teilnetze geschaffen, die jeweils bis zu 62 Rechner unterstützen, wobei das Adressierungsschema insgesamt effizient bleibt. Der Teil _hostid_ wird in einen Teil _subnetid_ und einen Teil host aufgeteilt.
 

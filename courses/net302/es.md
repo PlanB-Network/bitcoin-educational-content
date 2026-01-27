@@ -489,7 +489,8 @@ Queremos 4 subredes de hasta 60 hosts cada una.
 ```
 **Paso 4**: Calcular los rangos de direcciones para cada subred, variando los bits reservados para el host.
 
-| Subred ID (bits) | Dirección de subred  | Máscara de subred    | Rango de direcciones                 | Dirección de broadcast |
+
+| ID de subred (bits) | Dirección de subred | Máscara de subred | Rango de direcciones          | Dirección de broadcast |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |

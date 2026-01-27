@@ -575,13 +575,14 @@ Kami menginginkan 4 subnet yang masing-masing terdiri dari 60 host.
 
 
 
-| Subnet ID (bits) | Subnet Address   | Subnet Mask     | Address Range                 | Broadcast Address |
+
+
+| ID Subnet (bit) | Alamat Subnet | Mask Subnet | Rentang Alamat             | Alamat Broadcast |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
 | 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
-
 
 **Langkah 5**: Ini menciptakan empat subjaringan, masing-masing mendukung hingga 62 mesin, sambil menjaga skema pengalamatan keseluruhan tetap efisien. Bagian _hostid_ dibagi menjadi bagian _subnetid_ dan bagian host.
 

@@ -575,13 +575,14 @@ Soovime 4 alamvõrku, millest igaühes on kuni 60 hosti.
 
 
 
-| Subnet ID (bits) | Subnet Address   | Subnet Mask     | Address Range                 | Broadcast Address |
+
+
+| Alamvõrgu ID (bitid) | Alamvõrgu aadress | Alamvõrgu mask | Aadressivahemik             | Broadcast-aadress |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
 | 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
-
 
 **Samm 5**: See loob neli alamvõrku, millest igaüks toetab kuni 62 masinat, säilitades samal ajal üldise adresseerimisskeemi tõhususe. _hostid_ osa jagatakse _subnetid_ osaks ja hostide osaks.
 

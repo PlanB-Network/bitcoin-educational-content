@@ -575,13 +575,14 @@ Chceme 4 podsítě po 60 hostitelích.
 
 
 
-| Subnet ID (bits) | Subnet Address   | Subnet Mask     | Address Range                 | Broadcast Address |
+
+
+| ID podsítě (bity) | Adresa podsítě | Maska podsítě | Rozsah adres                 | Broadcast adresa |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
 | 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
-
 
 **Krok 5**: Tím se vytvoří čtyři podsítě, z nichž každá podporuje až 62 strojů, přičemž celkové adresovací schéma zůstane efektivní. Část _hostid_ je rozdělena na část _subnetid_ a část hostitele.
 

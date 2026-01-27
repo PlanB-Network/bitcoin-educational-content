@@ -575,13 +575,14 @@ Potrzebujemy 4 podsieci z maksymalnie 60 hostami każda.
 
 
 
-| Subnet ID (bits) | Subnet Address   | Subnet Mask     | Address Range                 | Broadcast Address |
+
+
+| ID podsieci (bity) | Adres podsieci | Maska podsieci | Zakres adresów            | Adres rozgłoszeniowy |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
 | 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
-
 
 **Krok 5**: Tworzy to cztery podsieci, z których każda obsługuje do 62 maszyn, przy jednoczesnym zachowaniu ogólnego schematu adresowania. Część _hostid_ jest podzielona na część _subnetid_ i część hosta.
 

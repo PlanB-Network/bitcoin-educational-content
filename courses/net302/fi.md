@@ -575,13 +575,14 @@ Haluamme 4 aliverkkoa, joissa kussakin voi olla enintään 60 isäntää.
 
 
 
-| Subnet ID (bits) | Subnet Address   | Subnet Mask     | Address Range                 | Broadcast Address |
+
+
+| Aliverkon tunnus (bitit) | Aliverkon osoite | Aliverkon peite | Osoitealue                | Broadcast-osoite |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
 | 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
-
 
 **Vaihe 5**: Tämä luo neljä aliverkkoa, joista kukin tukee enintään 62 konetta, mutta pitää samalla yleisen osoitusjärjestelmän tehokkaana. _hostid_-osio jaetaan _subnetid_-osioon ja host-osioon.
 

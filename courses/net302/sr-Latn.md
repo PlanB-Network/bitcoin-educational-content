@@ -573,13 +573,14 @@ Mreža **klase C**: 192.168.1.0/24 sa podrazumevanom maskom 255.255.255.0.
 
 
 
-| Subnet ID (bits) | Subnet adresa    | Subnet maska    | Opseg adresa                  | Broadcast adresa  |
+
+
+| ID podmreže (bitovi) | Adresa podmreže | Maska podmreže | Opseg adresa              | Broadcast adresa |
 | ---------------- | ---------------- | --------------- | ----------------------------- | ----------------- |
 | 00               | 192.168.1.0/26   | 255.255.255.192 | 192.168.1.1 – 192.168.1.62    | 192.168.1.63      |
 | 01               | 192.168.1.64/26  | 255.255.255.192 | 192.168.1.65 – 192.168.1.126  | 192.168.1.127     |
 | 10               | 192.168.1.128/26 | 255.255.255.192 | 192.168.1.129 – 192.168.1.190 | 192.168.1.191     |
 | 11               | 192.168.1.192/26 | 255.255.255.192 | 192.168.1.193 – 192.168.1.254 | 192.168.1.255     |
-
 
 **Korak 5**: Ovo kreira četiri podmreže, od kojih svaka podržava do 62 mašine, dok se celokupna šema adresiranja održava efikasnom. Deo _hostid_ je podeljen na deo _subnetid_ i deo za host.
 

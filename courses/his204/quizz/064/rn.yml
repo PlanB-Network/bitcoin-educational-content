@@ -1,8 +1,9 @@
-question: Mu gihe c’Impinduka, ni nde muri abo banditsi aticara mu Nteko?
-answer: Umukuru w'igisagara ca Mirabeau
+question: Mu gihe c’Impinduka, ni nde muri abo banditsi atigeze yicara mw'ikoraniro?
+answer: The Marquis de Mirabeau
 wrong_answers:
   - Dupont de Nemours
-  - Ludoviko-Pawulo Abeyi
-  - Faransuwa Keseni
+  - Louis-Paul Abeille
+  - François Quesnay
 explanation: |
-  Marquis de Mirabeau, naho yari umuhinga mu vy’umubiri afise ububasha, ntiyicara mu Nteko mu gihe c’Impinduka. François Quesnay yari amaze gupfa.
+  Marquis de Mirabeau, naho yari umuhinga w'umu Physiocrats afise ububasha, ntiyicara mw'ikoraniro mu gihe c’Impinduka. François Quesnay yari amaze gupfa.
+reviewed: true

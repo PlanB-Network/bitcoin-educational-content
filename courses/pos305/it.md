@@ -1257,20 +1257,21 @@ Ogni tipo viene fornito con i suoi parametri da compilare. Il proprietario del n
 
 BTCPay Server consente anche di costruire moduli in codice, in paricolare in fomrato JSON. Invece di guardare l'editor, i proprietari di negozi possono cliccare sul pulsante CODICE accanto all'editor, accedendo al codice. In una definizione di campo, possono essere impostati solo i seguenti campi; i valori dei campi sono memorizzati nei metadati dell'invoice:
 
-| Campo                 | Descrizione                                                                                                                                                                                 |
-| --------------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------   |
-| .fields.constant      | Se vero, il _.value_ deve essere impostato nella definizione del modulo, e l'utente non sarà in grado di cambiare il valore del campo. (esempio: la versione della definizione del modulo)  |
-| .fields.type          | Il tipo di input HTML testo, radio, checkbox, password, nascosto, pulsante, colore, data, datetime-local, mese, settimana, tempo, email, numero, intervallo, ricerca, url, selezione, tel   |
-| .fields.options       | Se _.fields.type_ è selezionato, l'elenco dei valori sarà selezionabile                                                                                                                     |
-| .fields.options.text  | Il testo visualizzato per questa opzione                                                                                                                                                    |
-| .fields.options.value | Il valore del campo se questa opzione è selezionata                                                                                                                                         |
-| .fields.type=fieldset | Crea un fieldset HTML intorno ai _.fields.fields_ figli (vedi sotto)                                                                                                                        |
-| .fields.name          | Il nome della proprietà JSON del campo come apparirà nei metadati dell'invoice                                                                                                              |
-| .fields.value         | Il valore predefinito del campo                                                                                                                                                             |
-| .fields.required      | se vero, il campo sarà obbligatorio                                                                                                                                                         |
-| .fields.label         | L'etichetta del campo                                                                                                                                                                       |
-| .fields.helpText      | Testo aggiuntivo per fornire una spiegazione per il campo                                                                                                                                   |
-| .fields.fields        | È possibile organizzare i propri campi gerarchicamente, consentendo ai campi figli di essere annidati all'interno dei metadati dell'invoice. Questa struttura può aiutarti a organizzare e gestire meglio le informazioni raccolte, rendendone più facile l'accesso e la consultazione. Ad esempio, se hai un modulo che raccoglie informazioni sui clienti, puoi raggruppare i campi sotto un campo padre chiamato cliente. All'interno di questo campo padre, potresti avere campi figli come nome, Email e indirizzo. |
+
+| Campo | Descrizione |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| .fields.constant | Se true, il .value deve essere impostato nella definizione del modulo e l'utente non potrà modificare il valore del campo. (esempio: la versione della definizione del modulo) |
+| .fields.type | Il tipo di input HTML: text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | Se .fields.type è select, l'elenco dei valori selezionabili |
+| .fields.options.text | Il testo visualizzato per questa opzione |
+| .fields.options.value | Il valore del campo se questa opzione è selezionata |
+| .fields.type=fieldset | Crea un fieldset HTML attorno ai figli .fields.fields (vedi sotto) |
+| .fields.name | Il nome della proprietà JSON del campo come apparirà nei metadati della fattura |
+| .fields.value | Il valore predefinito del campo |
+| .fields.required | se true, il campo sarà obbligatorio |
+| .fields.label | L'etichetta del campo |
+| .fields.helpText | Testo aggiuntivo per fornire una spiegazione per il campo. |
+| .fields.fields | Puoi organizzare i tuoi campi in una gerarchia, consentendo ai campi figli di essere annidati all'interno dei metadati della fattura. Questa struttura può aiutarti a organizzare e gestire meglio le informazioni raccolte, rendendole più facili da consultare e interpretare. Ad esempio, se hai un modulo che raccoglie informazioni sui clienti, puoi raggruppare i campi sotto un campo genitore chiamato customer. All'interno di questo campo genitore, potresti avere campi figli come name, Email e address. |
 
 Il nome del campo rappresenta il nome della proprietà JSON che memorizza il valore fornito dall'utente nei metadati dell'invoice. Alcuni nomi ben noti possono essere interpretati e modificare le impostazioni dell'invoice.
 

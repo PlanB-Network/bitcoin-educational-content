@@ -1297,35 +1297,36 @@ BTCPay伺服器使用 「快速填寫 」選項讓您更容易填寫這些資訊
 
 BTCPay Server 也允許您在程式碼中建立表單。尤其是 JSON。店主可以點擊編輯器旁邊的 CODE 按鈕，進入表單的代碼，而不是看編輯器。在欄位定義中，只能設定下列欄位；欄位的值儲存在 Invoice 的 metadata 中：
 
-| 欄位 | 描述
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+| 欄位 | 描述 |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-
-| .fields.constant | 如果為 True，.value 必須在表單定義中設定，使用者將無法改變欄位的值。(例如：表單定義的版本) | .fields.constant
-
-
-
-| .fields.options | 如果 .fields.type 為 select，則會顯示可選值清單。
-
-| .fields.options.text | 此選項的顯示文字 | .fields.options.text | 此選項的顯示文字 | .fields.options.text | 此選項的顯示文字
-
-| .fields.options.value | 如果選取此選項，欄位的值 | .fields.options.value | 欄位的值
-
-| .fields.type=fieldset | 圍繞子代 .fields.fields 建立 HTML fieldset (請參閱下文) | .fields.type=fieldset | 圍繞子代 .fields.fields 建立 HTML fieldset (請參閱下文)
-
-| .fields.name | 欄位的 JSON 屬性名稱，會顯示在 Invoice 的 metadata 裡。
-
-| .fields.value | 欄位的預設值 | .fields.value | 欄位的預設值
-
-| .fields.required | 如果為 true，欄位將為必填欄位。
-
-| .fields.label | 欄位的標籤 | .fields.label | 欄位的標籤
-
-| .fields.helpText | 提供欄位說明的附加文字。                                                                                                                                                                                                                                                                                                                                                                                                           |
-
-| .fields.fields | 您可以以層級結構組織欄位，允許子欄位嵌套在 Invoice 的元資料中。這種結構可以幫助您更好地組織和管理收集到的資訊，使其更容易存取和詮釋。例如，如果您有一個收集客戶資訊的表單，您可以在稱為 customer 的父欄位下將欄位群組。在這個父欄位中，您可能會有名稱、電子郵件和 Address 等子欄位。|
-
-欄位名稱代表在 Invoice 元資料中儲存使用者提供值的 JSON 屬性名稱。某些眾所周知的名稱可以詮釋並修改 Invoice 的設定。
+| .fields.constant | 如果為 true，則必須在表單定義中設置 .value，且使用者將無法更改該欄位的值。（例如：表單定義的版本） |
+| .fields.type | HTML 輸入類型：text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | 如果 .fields.type 為 select，則為可選值列表 |
+| .fields.options.text | 此選項顯示的文字 |
+| .fields.options.value | 選中此選項時欄位的值 |
+| .fields.type=fieldset | 在子欄位 .fields.fields 周圍建立一個 HTML fieldset（見下文） |
+| .fields.name | 該欄位在發票元數據中顯示的 JSON 屬性名稱 |
+| .fields.value | 欄位的預設值 |
+| .fields.required | 如果為 true，則該欄位為必填項 |
+| .fields.label | 欄位的標籤 |
+| .fields.helpText | 提供欄位說明的附加文字。 |
+| .fields.fields | 您可以按層次結構組織欄位，允許將子欄位嵌套在發票的元數據中。這種結構可以幫助您更好地組織和管理收集的資訊，使其更易於存取和解釋。例如，如果您有一個收集客戶資訊的表單，您可以將欄位分組在名為 customer 的父欄位下。在此父欄位中，您可以擁有 name、Email 和 address 等子欄位。 |
 
 | 欄位名稱 | 描述
 

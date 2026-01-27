@@ -372,14 +372,15 @@ Per capire meglio il posizionamento di Arkade, confrontiamolo con le altre due p
 
 
 
-| Critère | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
+
+| Criterio | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
 | :--- | :--- | :--- | :--- |
-| **Modèle** | UTXO partagé coordonné par serveur (ASP) | Réseau P2P de canaux de paiement | Jetons aveugles émis par une banque (Mint) |
-| **Custodie** | **Non-custodial** (vous avez les clés) | **Non-custodial** (vous avez les clés) | **Custodial** (le Mint a les fonds) |
-| **Confidentialité** | **Élevée** (CoinJoin natif, aveugle pour le public) | **Moyenne** (Routage en oignon, mais canaux visibles) | **Très Élevée** (Aveugle même pour le Mint) |
-| **Scalabilité** | Excellente (Batching massif on-chain) | Excellente (Transactions infinies off-chain) | Excellente (Simples signatures serveur) |
-| **Expérience** | Simple (proche d'un wallet on-chain) | Complexe (gestion de canaux, liquidité) | Très simple (comme du cash numérique) |
-| **Risque principal** | Disponibilité de l'ASP & Expiration | Gestion des canaux & Backups | Confiance dans le Mint (risque de vol) |
+| **Modello** | UTXO condiviso coordinato da server (ASP) | Rete P2P di canali di pagamento | Token ciechi emessi da una banca (Mint) |
+| **Custodia** | **Non-custodial** (hai le chiavi) | **Non-custodial** (hai le chiavi) | **Custodial** (il Mint ha i fondi) |
+| **Privacy** | **Elevata** (CoinJoin nativo, cieco per il pubblico) | **Media** (Onion routing, ma canali visibili) | **Molto Elevata** (Cieco anche per il Mint) |
+| **Scalabilità** | Eccellente (Batching massivo on-chain) | Eccellente (Transazioni infinite off-chain) | Eccellente (Semplici firme del server) |
+| **Esperienza** | Semplice (simile a un wallet on-chain) | Complessa (gestione canali, liquidità) | Molto semplice (come contante digitale) |
+| **Rischio principale** | Disponibilità dell'ASP ed espirazione | Gestione dei canali e backup | Fiducia nel Mint (rischio di furto) |
 
 **Arkade** è il compromesso ideale: la semplicità e la riservatezza di Cashu, ma con la sovranità (non detentiva) di Lightning.
 

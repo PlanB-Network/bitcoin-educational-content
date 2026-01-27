@@ -372,14 +372,15 @@ Arkade'nin konumunu daha iyi anlamak için onu diğer iki büyük ölçeklenebil
 
 
 
-| Critère | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
+
+| Kriter | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
 | :--- | :--- | :--- | :--- |
-| **Modèle** | UTXO partagé coordonné par serveur (ASP) | Réseau P2P de canaux de paiement | Jetons aveugles émis par une banque (Mint) |
-| **Custodie** | **Non-custodial** (vous avez les clés) | **Non-custodial** (vous avez les clés) | **Custodial** (le Mint a les fonds) |
-| **Confidentialité** | **Élevée** (CoinJoin natif, aveugle pour le public) | **Moyenne** (Routage en oignon, mais canaux visibles) | **Très Élevée** (Aveugle même pour le Mint) |
-| **Scalabilité** | Excellente (Batching massif on-chain) | Excellente (Transactions infinies off-chain) | Excellente (Simples signatures serveur) |
-| **Expérience** | Simple (proche d'un wallet on-chain) | Complexe (gestion de canaux, liquidité) | Très simple (comme du cash numérique) |
-| **Risque principal** | Disponibilité de l'ASP & Expiration | Gestion des canaux & Backups | Confiance dans le Mint (risque de vol) |
+| **Model** | Sunucu (ASP) tarafından koordine edilen paylaşımlı UTXO | Ödeme kanallarından oluşan P2P ağı | Bir banka (Mint) tarafından basılan kör tokenler |
+| **Velayet** | **Velayetsiz** (anahtarlar sizde) | **Velayetsiz** (anahtarlar sizde) | **Velayet dahil** (fonlar Mint'te) |
+| **Gizlilik** | **Yüksek** (Yerel CoinJoin, kamuya kör) | **Orta** (Onion routing, ancak kanallar görünür) | **Çok Yüksek** (Mint için bile kör) |
+| **Ölçeklenebilirlik** | Mükemmel (Zincir üzerinde devasa toplu işlem) | Mükemmel (Zincir dışı sonsuz işlem) | Mükemmel (Basit sunucu imzaları) |
+| **Deneyim** | Basit (zincir üstü cüzdana yakın) | Karmaşık (kanal yönetimi, likidite) | Çok basit (dijital nakit gibi) |
+| **Ana risk** | ASP kullanılabilirliği ve Süre sonu | Kanal yönetimi ve Yedekler | Mint'e güven (hırsızlık riski) |
 
 **Arkade** ideal bir uzlaşmadır: Cashu'nun basitliği ve gizliliği, ancak Lightning'in egemenliği (gözetim dışı).
 

@@ -372,14 +372,15 @@ Untuk lebih memahami posisi Arkade, mari kita bandingkan dengan dua solusi skala
 
 
 
-| Critère | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
+
+| Kriteria | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
 | :--- | :--- | :--- | :--- |
-| **Modèle** | UTXO partagé coordonné par serveur (ASP) | Réseau P2P de canaux de paiement | Jetons aveugles émis par une banque (Mint) |
-| **Custodie** | **Non-custodial** (vous avez les clés) | **Non-custodial** (vous avez les clés) | **Custodial** (le Mint a les fonds) |
-| **Confidentialité** | **Élevée** (CoinJoin natif, aveugle pour le public) | **Moyenne** (Routage en oignon, mais canaux visibles) | **Très Élevée** (Aveugle même pour le Mint) |
-| **Scalabilité** | Excellente (Batching massif on-chain) | Excellente (Transactions infinies off-chain) | Excellente (Simples signatures serveur) |
-| **Expérience** | Simple (proche d'un wallet on-chain) | Complexe (gestion de canaux, liquidité) | Très simple (comme du cash numérique) |
-| **Risque principal** | Disponibilité de l'ASP & Expiration | Gestion des canaux & Backups | Confiance dans le Mint (risque de vol) |
+| **Model** | UTXO bersama dikoordinasikan oleh server (ASP) | Jaringan P2P saluran pembayaran | Token buta yang diterbitkan oleh bank (Mint) |
+| **Kustodi** | **Non-custodial** (Anda memegang kunci) | **Non-custodial** (Anda memegang kunci) | **Custodial** (Mint memegang dana) |
+| **Privasi** | **Tinggi** (CoinJoin asli, buta bagi publik) | **Sedang** (Onion routing, tapi saluran terlihat) | **Sangat Tinggi** (Buta bahkan bagi Mint) |
+| **Skalabilitas** | Luar Biasa (Batching masif on-chain) | Luar Biasa (Transaksi tanpa batas off-chain) | Luar Biasa (Tanda tangan server sederhana) |
+| **Pengalaman** | Sederhana (mirip wallet on-chain) | Kompleks (manajemen saluran, likuiditas) | Sangat sederhana (seperti uang tunai digital) |
+| **Risiko utama** | Ketersediaan ASP & Kedaluwarsa | Manajemen saluran & Backup | Kepercayaan pada Mint (risiko pencurian) |
 
 **Arkade** adalah kompromi yang ideal: kesederhanaan dan kerahasiaan Cashu, tetapi dengan kedaulatan (non-kustodian) Lightning.
 

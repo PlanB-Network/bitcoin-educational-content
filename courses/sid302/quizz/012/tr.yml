@@ -1,0 +1,8 @@
+question: Eski SegWit v0 HTLC'lere kıyasla çapraz katman değişimleri için MuSig2 ile Taproot kullanmanın birincil avantajı nedir?
+answer: Kooperatif takasları standart tek imzalı işlemler olarak görünür, tam gizlilik ve minimum blok alanı kullanımı sağlar
+wrong_answers:
+  - Taproot zaman kilidi ihtiyacını ortadan kaldırarak takasları eski HTLC'lerden daha hızlı ve verimli hale getirir
+  - MuSig2 birden fazla hash kilidinin aynı anda kullanılmasına izin vererek daha karmaşık çok taraflı takas düzenlemelerine olanak tanır
+  - Taproot takasları, her zaman ön görüntüleri açığa çıkaran eski HTLC'lerin aksine, herhangi bir kriptografik sır açığa çıkarılmadan tamamlanabilir
+explanation: |
+  MuSig2 ile Taproot, anahtar birleştirme yoluyla HTLC gizliliğinde devrim yaratmaktadır. İşbirliğine dayalı 'mutlu yol'da her iki taraf da anahtarlarını tek bir birleştirilmiş açık anahtarda birleştirir ve işlemi birlikte imzalar. Bu, takası normal bir ödemeden ayırt edilemez hale getirir, minimum blok alanı tüketir ve hiçbir takas koşulunu açığa çıkarmaz. Eski SegWit v0 HTLC'ler tüm senaryo mantığı on-chain'ün yayınlanmasını gerektiriyordu, bu da onları kolayca tanımlanabilir ve daha pahalı hale getiriyordu. Diğer seçenekler yanlıştır: zaman kilitleri güvenlik için gerekli olmaya devam eder, çoklu hash kilitleri kilit yenilik değildir ve fon talep ederken ön görüntüler hala ortaya çıkar.

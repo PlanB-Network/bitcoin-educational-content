@@ -1,0 +1,8 @@
+question: Mis on elliptilise kõvera grupi identne element, mida kasutatakse punktide liitmisoperatsioonideks?
+answer: Punkt lõpmatuses
+wrong_answers:
+  - Alguspunkt (0,0)
+  - Generaatori punkt G
+  - Kõvera parameeter a
+explanation: |
+  Punkt lõpmatuses on elliptiliste kõverate rühmade identne element, mis tähendab, et mis tahes punkti P lisamine punktile lõpmatuses annab P muutumatuna tagasi. See on analoogne sellega, kuidas nulli lisamine toimib tavalises aritmeetikas. Algpunkt (0,0) ei ole tingimata kõveral, generaatorpunkti G kasutatakse avalike võtmete loomiseks ja kõvera parameeter a on lihtsalt koefitsient kõvera võrrandis, mitte identne element.

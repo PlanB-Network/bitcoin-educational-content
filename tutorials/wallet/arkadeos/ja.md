@@ -1,5 +1,5 @@
 ---
-name: アルカディオス
+name: ArkadeOS
 description: ArkadeポートフォリオとArk Protocolの完全ガイド
 ---
 
@@ -372,14 +372,15 @@ Arkadeのポジショニングをより理解するために、他の2つの主�
 
 
 
-| Critère | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
+
+| 基準 | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
 | :--- | :--- | :--- | :--- |
-| **Modèle** | UTXO partagé coordonné par serveur (ASP) | Réseau P2P de canaux de paiement | Jetons aveugles émis par une banque (Mint) |
-| **Custodie** | **Non-custodial** (vous avez les clés) | **Non-custodial** (vous avez les clés) | **Custodial** (le Mint a les fonds) |
-| **Confidentialité** | **Élevée** (CoinJoin natif, aveugle pour le public) | **Moyenne** (Routage en oignon, mais canaux visibles) | **Très Élevée** (Aveugle même pour le Mint) |
-| **Scalabilité** | Excellente (Batching massif on-chain) | Excellente (Transactions infinies off-chain) | Excellente (Simples signatures serveur) |
-| **Expérience** | Simple (proche d'un wallet on-chain) | Complexe (gestion de canaux, liquidité) | Très simple (comme du cash numérique) |
-| **Risque principal** | Disponibilité de l'ASP & Expiration | Gestion des canaux & Backups | Confiance dans le Mint (risque de vol) |
+| **モデル** | サーバー(ASP)が調整する共有UTXO | 支払いチャネルのP2Pネットワーク | 銀行(Mint)が発行するブラインドトークン |
+| **カストディ** | **ノンカストディアル** (鍵を保持) | **ノンカストディアル** (鍵を保持) | **カストディアル** (Mintが資金を保持) |
+| **プライバシー** | **高い** (ネイティブCoinJoin、外部に非公開) | **普通** (オニオンルーティング、ただしチャネルは可視) | **非常に高い** (Mintに対してさえ秘匿) |
+| **拡張性** | 優れている (オンチェーンでの大規模バッチ処理) | 優れている (オフチェーンでの無限の取引) | 優れている (単純なサーバー署名) |
+| **ユーザー体験** | シンプル (オンチェーンウォレットに近い) | 複雑 (チャネル管理、流動性) | 非常にシンプル (デジタルキャッシュのよう) |
+| **主なリスク** | ASPの可用性と有効期限 | チャネル管理とバックアップ | Mintへの信頼 (盗難のリスク) |
 
 **Arkade**は理想的な妥協の産物です。Cashuのシンプルさと機密性、そしてLightningの主権（非拘束性）。
 

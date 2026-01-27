@@ -1,0 +1,8 @@
+question: Welches mathematische Problem bildet die Sicherheitsgrundlage für ECDSA-Signaturen in Bitcoin?
+answer: Das Problem des diskreten Logarithmus elliptischer Kurven
+wrong_answers:
+  - Das Problem der ganzzahligen Faktorisierung
+  - Das quadratische Restwertproblem
+  - Das Hash-Kollisionsproblem
+explanation: |
+  Die Sicherheit von ECDSA beruht auf dem Problem des diskreten Logarithmus der elliptischen Kurve: Bei P = eG ist die Berechnung von P aus e und G einfach, aber die Ableitung des privaten Schlüssels e aus dem öffentlichen Schlüssel P ist rechnerisch nicht machbar. Diese einseitige mathematische Beziehung ermöglicht eine sichere Kryptographie mit öffentlichen Schlüsseln mit kleineren Schlüsselgrößen als RSA, das auf der ganzzahligen Faktorisierung beruht.

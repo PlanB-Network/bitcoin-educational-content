@@ -1,0 +1,8 @@
+question: Jaka jest główna przewaga statycznego typowania Rust nad dynamicznym typowaniem podczas tworzenia aplikacji Bitcoin?
+answer: Błędy typu są wychwytywane w czasie kompilacji przed wdrożeniem, co zapobiega awariom w czasie wykonywania podczas obsługi środków użytkownika
+wrong_answers:
+  - Statyczne typowanie pozwala na szybsze wykonywanie podczas przetwarzania transakcji Bitcoin na blockchainie
+  - "Dynamiczne wpisywanie wymaga większej alokacji pamięci, co jest sprzeczne z wymaganiami lekkiego węzła Bitcoin"
+  - Statyczne typowanie umożliwia automatyczne generowanie kodu dla implementacji protokołów Bitcoin i inteligentnych kontraktów
+explanation: |
+  Statyczne typowanie Rust wyłapuje niezgodności typów podczas kompilacji, zapewniając, że błędy zostaną rozwiązane przed zbudowaniem lub wdrożeniem oprogramowania. Ma to kluczowe znaczenie dla rozwoju Bitcoin, ponieważ gdy oprogramowanie będzie obsługiwać rzeczywiste fundusze użytkowników, błędy typu w czasie wykonywania mogą spowodować nieodwracalne straty finansowe. Dynamiczne typowanie ujawnia błędy tylko podczas wykonywania, potencjalnie po wdrożeniu, gdy pieniądze użytkowników są zagrożone. Pozostałe opcje są niepoprawne, ponieważ główną zaletą statycznego typowania nie jest szybkość wykonywania, wykorzystanie pamięci czy generowanie kodu, ale raczej zapobieganie błędom w czasie kompilacji.

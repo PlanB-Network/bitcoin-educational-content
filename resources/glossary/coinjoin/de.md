@@ -16,7 +16,7 @@ Dieser Mechanismus erhöht die Vertraulichkeit von Transaktionen, ohne dass Änd
 323df21f0b0756f98336437aa3d2fb87e02b59f1946b714a7b09df04d429dec2
 ```
 
-Es ist schwierig, mit Sicherheit zu bestimmen, wer zuerst die Idee des Coinjoin auf Bitcoin eingeführt hat und wer die Idee hatte, David Chaums blinde Signaturen in diesem Zusammenhang zu verwenden. Es wird oft angenommen, dass Gregory Maxwell der erste war, der dies in [einer Nachricht auf BitcoinTalk im Jahr 2013] (https://bitcointalk.org/index.php?topic=279249.0) diskutierte:
+Es ist schwierig, mit Sicherheit zu bestimmen, wer zuerst die Idee des Coinjoin auf Bitcoin eingeführt hat und wer die Idee hatte, David Chaums blinde Signaturen in diesem Zusammenhang zu verwenden. Es wird oft angenommen, dass Gregory Maxwell der erste war, der dies in [einer Nachricht auf BitcoinTalk im Jahr 2013](https://bitcointalk.org/index.php?topic=279249.0) diskutierte:
 
 Verwendung von Chaum-Blindsignaturen: Die Nutzer stellen eine Verbindung her und geben Eingaben ein (und ändern Adressen) sowie eine kryptografisch verblendete Version der Adresse, an die sie ihre privaten Münzen senden möchten; der Server signiert die Token und sendet sie zurück. Der Server signiert die Token und sendet sie zurück. Die Benutzer stellen die Verbindung anonym wieder her, demaskieren ihre Ausgabeadressen und senden sie zurück an den Server. Der Server kann sehen, dass alle Ausgaben von ihm signiert wurden und dass folglich alle Ausgaben von gültigen Teilnehmern stammen. Später melden sich die Teilnehmer erneut an und signieren.
 

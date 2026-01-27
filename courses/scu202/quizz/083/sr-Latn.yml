@@ -5,5 +5,5 @@ wrong_answers:
   - Telegram
   - WhatsApp
 explanation: |
-  SimpleX Chat odbacuje pojam jedinstvenog identifikatora: kontakti se dodaju putem efemernih linkova ili QR kodova, i nisu potrebni lični podaci.
-reviewed: false
+  SimpleX Chat odbacuje pojam jedinstvenog identifikatora: kontakti se dodaju putem efemernih (privremenih) linkova ili QR kodova, i nisu potrebni lični podaci.
+reviewed: true

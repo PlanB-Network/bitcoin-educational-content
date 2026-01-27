@@ -1,0 +1,8 @@
+question: Quelle est la formule mathématique utilisée pour calculer la subvention du bloc à une hauteur de bloc donnée h dans le protocole Bitcoin ?
+answer: subvention = 5_000_000_000 >> (h // 210_000)
+wrong_answers:
+  - subvention = 50_000_000_000 / (2^(h / 210_000))
+  - subvention = 5_000_000_000 * (0.5^(h % 210_000))
+  - subvention = 50_000_000_000 >> (h % 210_000)
+explanation: |
+  La formule correcte utilise des opérations de décalage de bits où 5_000_000_000 représente 50 BTC en satoshis, et l'opérateur de décalage vers la droite >> divise effectivement par des puissances de 2. La division par le plancher h // 210_000 détermine combien de périodes de division par deux se sont produites. La première mauvaise réponse utilise une division normale au lieu d'un décalage de bits et commence par une valeur de base incorrecte. La deuxième utilise le modulo au lieu de la division par le plancher, ce qui créerait un modèle cyclique plutôt qu'une division progressive par deux. La troisième utilise une opération modulo qui réinitialiserait le compteur de demi-tours tous les 210 000 blocs au lieu d'accumuler des demi-tours au fil du temps.

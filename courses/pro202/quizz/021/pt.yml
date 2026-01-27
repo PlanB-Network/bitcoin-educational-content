@@ -1,0 +1,8 @@
+question: Qual é a principal consequência de se esquecer de incluir uma saída de modificação ao gastar um UTXO que contém mais Bitcoin do que o necessário?
+answer: O montante em excesso torna-se automaticamente uma taxa de mineiro
+wrong_answers:
+  - A transação será rejeitada pela rede por ser inválida
+  - "O montante em excesso é devolvido ao endereço do remetente original"
+  - O montante em excesso permanece bloqueado no UTXO original
+explanation: |
+  No modelo UTXO do Bitcoin, as taxas de transação são calculadas implicitamente como a diferença entre o total das entradas e o total das saídas (taxa = soma (entradas) - soma (saídas)). Quando se gasta um UTXO, é necessário gastá-lo na totalidade - o gasto parcial é impossível. Se precisar de gastar apenas parte do valor de um UTXO, tem de criar uma saída de modificação para receber o restante. Se se esquecer de incluir esta saída de alteração, a diferença não contabilizada entre as entradas e as saídas torna-se automaticamente a taxa do mineiro. É por isso que a construção correta da saída de troca é essencial - sem ela, pode acidentalmente pagar enormes taxas aos mineiros.

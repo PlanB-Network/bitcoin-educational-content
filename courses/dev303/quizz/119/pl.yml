@@ -1,0 +1,8 @@
+question: Jakie podstawowe ograniczenie architektoniczne zestawu Lightning Development Kit (LDK) stwarza najpoważniejsze ryzyko operacyjne dla użytkowników mobilnych wallet podczas skoków opłat sieciowych?
+answer: Brak wyjść kotwicy zapobiegających wymuszonemu zamknięciu kanału, gdy wstępnie ustawione opłaty stają się niewystarczające do potwierdzenia transakcji
+wrong_answers:
+  - Brak obsługi LNURL wymaga ręcznego generowania faktur i przetwarzania płatności dla wszystkich transakcji Lightning
+  - Brak synchronizacji wykresu sieciowego powodujący błędy routingu płatności, gdy aplikacje mobilne uruchamiają się ponownie po dłuższym czasie
+  - Niewystarczające zarządzanie rezerwą kanału prowadzące do blokad funduszy, gdy użytkownicy próbują wydać całe wyświetlone saldo
+explanation: |
+  Brak wyjść kotwicy w LDK tworzy krytyczną lukę, w której kanały nie mogą zostać zamknięte siłą podczas skoków opłat, ponieważ wstępnie ustawione opłaty stają się niewystarczające do potwierdzenia blockchain. Jest to szczególnie niebezpieczne w przypadku portfeli mobilnych, w których użytkownicy mogą porzucić aplikację bez wspólnego zamknięcia, potencjalnie pozostawiając środki na czas nieokreślony. Podczas gdy brak LNURL wpływa na wrażenia użytkownika, a problemy z routingiem wpływają na niezawodność, żaden z nich nie stwarza egzystencjalnego ryzyka dla odzyskania środków, które ograniczenia wyjściowe kotwicy występują w środowiskach o wysokich opłatach.

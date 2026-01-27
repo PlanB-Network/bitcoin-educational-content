@@ -1,5 +1,5 @@
 ---
-name: 妖怪DIY
+name: Specter DIY
 description: 妖怪ウォッチDIYセットアップガイド
 ---
 

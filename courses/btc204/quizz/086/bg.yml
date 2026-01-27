@@ -1,5 +1,5 @@
 question: Кой от тези 3 протокола не е реализация на coinjoin?
-answer: Верижен анализ.
+answer: Chainalysis.
 wrong_answers:
   - JoinMarket.
   - Уабисаби.

@@ -104,7 +104,7 @@ Ili kupakua, nenda kwa [tovuti rasmi ya Manjaro](https://manjaro.org/) na uchagu
 
 
 
-Kisha nenda kwenye tovuti ya programu ya [Rufus] (https://rufus.ie/fr/) na uipakue. Endesha programu, chomeka ufunguo wako wa USB, chagua picha ya Manjaro ISO na uanze kuangaza. Subiri mchakato ukamilike kabla ya kuondoa ufunguo. Kisha unaweza kuanzisha upya kompyuta yako.
+Kisha nenda kwenye tovuti ya programu ya [Rufus](https://rufus.ie/fr/) na uipakue. Endesha programu, chomeka ufunguo wako wa USB, chagua picha ya Manjaro ISO na uanze kuangaza. Subiri mchakato ukamilike kabla ya kuondoa ufunguo. Kisha unaweza kuanzisha upya kompyuta yako.
 
 
 

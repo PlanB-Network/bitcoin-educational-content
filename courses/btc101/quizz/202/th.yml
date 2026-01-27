@@ -1,0 +1,8 @@
+question: เส้นโค้งการยอมรับของ Bitcoin คล้ายกับอะไร?
+answer: เส้นโค้งรูปตัว S
+wrong_answers:
+  - เส้นโค้งรูปตัวยู
+  - V-curve
+  - เส้นโค้งรูปตัว W
+explanation: >-
+reviewed: true

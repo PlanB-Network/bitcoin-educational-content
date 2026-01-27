@@ -1,0 +1,8 @@
+question: Mối quan hệ giữa Elements và Liquid Network là gì?
+answer: Liquid là một trường hợp cụ thể của sidechain Elements được cấu hình để sử dụng trong môi trường sản xuất.
+wrong_answers:
+  - Elements là một phiên bản cụ thể của Liquid Network được cấu hình cho mục đích thử nghiệm.
+  - Liquid và Elements là hai nền tảng blockchain cạnh tranh nhau với mã nguồn khác nhau.
+  - "Elements là cơ chế đồng thuận hỗ trợ quá trình xác thực khối của Liquid Network."
+explanation: |
+  Elements là phần mềm nền tảng blockchain mã nguồn mở, trong khi Liquid là một triển khai cụ thể hoặc 'phiên bản' của sidechain Elements đã được cấu hình để sử dụng trong môi trường sản xuất với mô hình đồng thuận liên kết. Có thể coi Elements như khung công nghệ nền tảng, còn Liquid là một mạng lưới cụ thể được xây dựng dựa trên khung công nghệ đó. Điều này tương tự như cách Bitcoin Core là phần mềm cung cấp năng lượng cho mạng Bitcoin - Elements là công cụ phần mềm cung cấp năng lượng cho Liquid và các sidechain tùy chỉnh khác.

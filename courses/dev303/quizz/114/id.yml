@@ -1,0 +1,8 @@
+question: Apa mekanisme keamanan utama yang memastikan infrastruktur Greenlight tidak dapat mengakses dana pengguna meskipun menghosting node Lightning di awan?
+answer: Kunci pribadi tidak pernah meninggalkan perangkat pengguna dan semua operasi memerlukan penandatanganan aplikasi aktif
+wrong_answers:
+  - Dompet multi-tanda tangan dengan pecahan kunci yang didistribusikan di beberapa penyedia cloud
+  - Modul keamanan perangkat keras yang mengenkripsi semua transaksi sebelum pemrosesan cloud
+  - Kontrak pintar terkunci waktu yang secara otomatis mengembalikan dana jika terjadi akses yang tidak sah
+explanation: |
+  Breez SDK menjaga keamanan melalui arsitektur tanpa kepercayaan di mana kunci privat tetap berada secara eksklusif di perangkat pengguna. Meskipun Greenlight menjadi tuan rumah infrastruktur node Lightning, ia tidak dapat melakukan operasi apa pun tanpa aplikasi yang terhubung secara aktif yang dapat menandatangani transaksi dan pesan. Desain ini memastikan bahwa meskipun node berjalan di cloud, Greenlight tidak pernah memiliki akses ke kunci pengguna dan tidak dapat memindahkan dana tanpa otorisasi pengguna secara eksplisit melalui aplikasi lokal mereka. Opsi lainnya menjelaskan mekanisme keamanan yang berbeda yang tidak digunakan dalam arsitektur ini.

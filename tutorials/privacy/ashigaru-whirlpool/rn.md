@@ -234,7 +234,7 @@ Kugira ngo utahure neza ubu buryo n’ingene bibereye kurindira inzinguzingu zin
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 Kugira ngo ubone umubare w'ama remix yakozwe na buri kimwe mu bice vyawe, fungura `UTXOs` muri konti ya `Postmix`.
 
@@ -354,7 +354,7 @@ Ivyo inzinguzingu nyinshi z’amahera zikora bipimwa n’ubunini bw’ibice vy�
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 ## Ni gute wocungera postmix?
 

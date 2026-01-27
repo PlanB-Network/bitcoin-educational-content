@@ -122,7 +122,7 @@ Voor gebruikers buiten Umbrel (bijvoorbeeld op een persoonlijke server, een Rasp
 
 
 
-**vereisten:** Zorg ervoor dat uw systeem voldoet aan de minimale vereisten volgens [documentatie setup] (https://docs.thunderhub.io/setup):
+**vereisten:** Zorg ervoor dat uw systeem voldoet aan de minimale vereisten volgens [documentatie setup](https://docs.thunderhub.io/setup):
 
 
 

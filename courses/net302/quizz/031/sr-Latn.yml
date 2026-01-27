@@ -1,4 +1,4 @@
-question: Koji je IPv4 Address opseg rezervisan za lokalno testiranje povratne sprege?
+question: Koji je IPv4 opseg adresa rezervisan za lokalno testiranje povratne sprege (eng. loopback)?
 answer: 127.0.0.0/8
 wrong_answers:
   - 10.0.0.0/8
@@ -6,4 +6,4 @@ wrong_answers:
   - 192.168.0.0/16
 explanation: |
   Opseg 127.0.0.0/8 se koristi za lokalni loopback. Svaki zahtev ka ovom opsegu ostaje unutar mašine iz koje potiče.
-reviewed: false
+reviewed: true

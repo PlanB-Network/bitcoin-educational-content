@@ -76,13 +76,13 @@ RGB tiene su propio agujero de conejo dentro del agujero de conejo de Bitcoin, m
 - 4 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0020.md
 - 5 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0021.md
 
-# Tutorial de RGB-node
+## Tutorial de RGB-node
 
-## Introducción
+### Introducción
 
 En este tutorial explicamos cómo usar RGB-node para crear un token fungible y cómo transferirlo, este documento se basa en la demostración de RGB-node y difiere en que este tutorial utiliza datos reales de la testnet y para eso, debemos construir nuestra propia Transacción Parcialmente Firmada de Bitcoin, psbt a partir de ahora.
 
-## Requisitos
+### Requisitos
 
 Se recomienda el uso de una distribución de Linux, este tutorial fue escrito usando Pop!/\_OS, que está basado en Ubuntu y necesitarás:
 
@@ -219,7 +219,7 @@ $ rgbd -vvvv -b ~/.cargo/bin -d ./data0 -n testnet
 $ rgbd -vvvv -b ~/.cargo/bin -d ./data1 -n testnet
 ```
 
-## Emisión
+### Emisión
 
 Para emitir un activo, ejecutamos rgb0-cli con los subcomandos de emisión fungible, luego los argumentos, el ticker USDT, el nombre "USD Tether" y en la asignación usaremos la cantidad de emisión y el issuance_utxo como se muestra a continuación:
 
@@ -265,7 +265,7 @@ $ rgb0-cli fungible list
   ticker: USDT
 ```
 
-## Generar UTXO cegado
+### Generar UTXO cegado
 
 Para recibir el nuevo USDT, rgb-node-1 necesita generar un UTXO cegado correspondiente a receive_utxo para mantener el activo.
 
@@ -278,7 +278,7 @@ Outpoint blinding secret: 1679197189805229975
 
 Para poder aceptar transferencias relacionadas con este UTXO, necesitaremos el receive_utxo original y el blinding_factor.
 
-## Transferencia
+### Transferencia
 
 Para transferir una cierta cantidad del activo a rgb-node-1, necesitamos enviarlo al UTXO cegado, rgb-node-0 necesita crear un consignment y una disclosure, y comprometerlo en una transacción de bitcoin. Luego necesitaremos un psbt que modificaremos para incluir el compromiso. Además, las opciones -i y -a nos permiten proporcionar un outpoint de entrada que sería el origen del activo y una asignación donde recibiremos el cambio, debemos indicarlo de la siguiente manera @<change_utxo>.
 
@@ -290,7 +290,7 @@ Datos de consignación para compartir: consignment1qxz4g7ec6da33llaxe97u9hx8p9wc
 
 Esto escribirá tres archivos nuevos, consignment, disclosure y el psbt que incluye el ajuste, este psbt se llama transacción de testigo, el consignment se envía a rgb-node-1.
 
-## Testigo
+### Testigo
 
 La transacción de testigo debe ser firmada y transmitida, para esto necesitamos codificarla nuevamente en base64.
 
@@ -321,11 +321,11 @@ Ahora finalízalo y obtén el hexadecimal.
 }
 ```
 
-## Transmitir
+### Transmitir
 
 Transmítelo usando el subcomando sendrawtransaction para que se confirme en la cadena de bloques.
 
-## Aceptar
+### Aceptar
 
 Para aceptar una transferencia entrante, rgb-node-1 debe haber recibido el archivo de consignación de rgb-node-0, tener el receive_utxo y el blinding_factor correspondiente generado durante la generación de UTXO con cegamiento.
 
@@ -404,7 +404,7 @@ $ rgb0-cli fungible list -l
         blinding: ddba9e0efdd614614420fa0b68ecd2d3376a05dd3d809b2ad1f5fe0f6ed75ea2
 ````
 
-## Conclusiones
+### Conclusiones
 
 Hemos podido crear un activo fungible y moverlo de una transacción a otra de manera privada, si verificamos la transacción confirmada en un explorador de bloques no encontraríamos nada diferente de una transacción regular, esto se debe a que RGB utiliza sellos de un solo uso para ajustar las transacciones. En esta publicación, hago una introducción a cómo funciona RGB.
 

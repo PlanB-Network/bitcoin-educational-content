@@ -1,0 +1,8 @@
+question: Quelle est la principale critique de Carl Menger concernant l'approche des économistes classiques et néoclassiques?
+answer: Ils privilégient une approche par les agrégats qui néglige la diversité des comportements individuels
+wrong_answers:
+  - "Ils accordent trop d'importance aux facteurs psychologiques dans leurs analyses économiques"
+  - "Ils surestiment le rôle du temps et des coûts d'opportunité dans les décisions économiques"
+  - Ils considèrent que les choix individuels sont trop dynamiques et changeants pour être analysés
+explanation: |
+  Menger critique l'approche agrégée des économistes classiques et néoclassiques qui divisent la société en grands ensembles homogènes (producteurs, travailleurs, capitalistes) et supposent des comportements standardisés. Cette méthode ignore la diversité réelle des comportements individuels et réduit la complexité humaine à des modèles mathématiques. Pour Menger, cette approche passe à côté de l'essentiel car les choix individuels reposent sur des considérations subjectives et dynamiques qui ne peuvent être comprises qu'au niveau de chaque individu.

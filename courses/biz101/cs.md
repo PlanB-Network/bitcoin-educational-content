@@ -199,7 +199,7 @@ Společně tvoří z bitcoinu **nosičové aktivum** a digitální měnu **bez e
 
 ![BIZ101](assets/cs/003.webp)
 
-Bitcoin má pevně stanovenou měnovou politiku s **kapacitou 21 milionů bitcoinů**, z nichž již bylo distribuováno ~19,8 milionu. Díky tomu je **deflační** a jeho hodnota v průběhu času roste, protože uživatelé do něj ukládají úspory a přírůstky produktivity.
+Bitcoin má pevnou měnovou politiku s **maximem 21 milionů bitcoinů**, z nichž ~19,8 (2024) milionu již bylo vytěženo. Díky temu je **deflační**, přičemž jeho hodnota v průběhu času roste, jak do něj uživatelé ukládají úspory a zisky z produktivity.
 
 Svými technickými vlastnostmi překonává zlato a dolar dohromady, což z něj činí nejtvrdší finanční aktivum, jaké kdy bylo vytvořeno. Bitcoin je uchovatelem hodnoty i prostředkem směny, měnou ve stádiu vzniku. Představte si, že převádíte hodnotu z pokladny jedné společnosti do pokladny druhé rychle, bez prostředníků, s minimálními náklady, bez podvodů, 24 hodin denně, 7 dní v týdnu a bez účasti třetí strany.
 
@@ -211,7 +211,7 @@ Bitcoin je převratný, protože nás vybízí k tomu, abychom se učili pojmy z
 
 Bitcoin nás vyzývá, abychom přehodnotili povahu samotných peněz. Mohl byste vysvětlit, co peníze skutečně jsou? Zaměstnanec nebo podnikatel může strávit 50 000 až 100 000 hodin svého života vyděláváním peněz, ale kolik z nich **věnuje třeba jen 100 hodin jejich lepšímu pochopení** a uchování? Bitcoin nás vybízí k tomu, abychom se ptali na základní důvody naší potřeby peněz a na naši časovou perspektivu. Slouží peníze k okamžitému luxusu, nebo k dlouhodobé odolnosti? Kdybychom měli zhodnocující se aktivum, které by nám umožnilo odložit nákupy, jaká rozhodnutí bychom učinili? Jaké rozhovory bychom si přáli vést sami se sebou za 20 nebo 30 let?
 
-**BITCOINOVÝ PRŮKAZ TOTOŽNOSTI**
+**IDENTIFIKAČNÍ KARTA BITCOINU (v roce 2024)**
 
 
 - **Věk:** 15 let (3. ledna 2009)
@@ -296,7 +296,7 @@ Síť Lightning Network je díky své rychlosti a konečnosti plateb ideální p
 - **Konečnost:** Jakmile je platba provedena v systému Lightning, je konečná. Neexistuje žádná možnost zpětné platby od třetích stran nebo sporů souvisejících s podvodem.
 - **Poplatky:** Transakční poplatky v síti Lightning Network jsou minimální a platí je uživatel, nikoli obchodník. Obchodníkům vznikají poplatky pouze v případě, že později potřebují převést své bitcoiny do jiné sítě nebo služby.
 
-** BLESKOVÝ PRŮKAZ TOTOŽNOSTI**
+**IDENTIFIKAČNÍ KARTA LIGHTNING (v roce 2024)**
 
 
 - **Vynález:** 2015

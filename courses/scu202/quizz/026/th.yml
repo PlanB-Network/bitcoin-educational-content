@@ -1,0 +1,9 @@
+question: คำสั่งใดที่แสดงเนื้อหาโดยละเอียดของโฟลเดอร์ รวมถึงไฟล์ที่ซ่อนอยู่?
+answer: ls -lah
+wrong_answers:
+  - แสดงโฟลเดอร์
+  - list-files -detailed
+  - viewdir -a
+explanation: |
+  "ls -lah" แสดงไฟล์และโฟลเดอร์อย่างละเอียด รวมถึงไฟล์ที่ซ่อนอยู่ (เริ่มต้นด้วยจุด)
+reviewed: false

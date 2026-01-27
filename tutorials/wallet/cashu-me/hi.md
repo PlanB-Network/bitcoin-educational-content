@@ -1,5 +1,5 @@
 ---
-name: कैशू.मी
+name: Cashu.me
 description: ईकैश का उपयोग करने के लिए Cashu.me गाइड
 ---
 

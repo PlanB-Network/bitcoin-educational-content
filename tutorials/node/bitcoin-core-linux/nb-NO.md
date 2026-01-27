@@ -48,7 +48,7 @@ Resten av denne artikkelen er derfor en veiledning i hvordan du installerer Bitc
 
 
 
-- [Last ned] (https://bitcoincore.org/en/download/) `Bitcoin-24.1-x86_64-linux-gnu.tar.gz`, samt filene `SHA256SUMS` og `SHA256SUMS.asc` (du må selvsagt laste ned den nyeste versjonen av programvaren).
+- [Last ned](https://bitcoincore.org/en/download/) `Bitcoin-24.1-x86_64-linux-gnu.tar.gz`, samt filene `SHA256SUMS` og `SHA256SUMS.asc` (du må selvsagt laste ned den nyeste versjonen av programvaren).
 
 
 
@@ -216,9 +216,9 @@ Hvis du vil se loggene til Bitcoin-noden din spesifikt relatert til samspillet m
 **Tips: Her er noen interessante lenker:
 
 
-- [Wiki-side som forklarer Tor og forholdet til Bitcoin] (https://en.Bitcoin.it/wiki/Tor)
+- [Wiki-side som forklarer Tor og forholdet til Bitcoin](https://en.Bitcoin.it/wiki/Tor)
 - [Bitcoin core konfigurasjonsfilgenerator av Jameson Lopp](https://jlopp.github.io/Bitcoin-core-config-generator/)
-- [Tor-konfigurasjonsveiledning av Jon Atack] (https://github.com/Bitcoin/Bitcoin/blob/master/doc/tor.md)
+- [Tor-konfigurasjonsveiledning av Jon Atack](https://github.com/Bitcoin/Bitcoin/blob/master/doc/tor.md)
 
 
 Hvis du har spørsmål, er du som alltid velkommen til å dele dem med Agora256-fellesskapet. Vi lærer sammen for å bli bedre i morgen enn vi er i dag!

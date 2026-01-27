@@ -1,0 +1,8 @@
+question: Com que frequência é que o Rust lança uma nova versão estável de acordo com o seu calendário de lançamentos?
+answer: Aproximadamente de seis em seis semanas
+wrong_answers:
+  - Aproximadamente de três em três meses
+  - Aproximadamente de duas em duas semanas
+  - Aproximadamente de quatro em quatro meses
+explanation: |
+  O Rust segue um calendário de lançamentos previsível, com novas versões estáveis a serem lançadas aproximadamente de seis em seis semanas. Este ciclo de lançamento frequente assegura que as novas funcionalidades e melhorias chegam aos utilizadores regularmente, mantendo a estabilidade. Os outros prazos estão incorrectos - três meses e quatro meses seriam muito mais lentos do que o ritmo atual do Rust, enquanto duas semanas seriam irrealisticamente rápidas para lançamentos estáveis que requerem testes minuciosos.

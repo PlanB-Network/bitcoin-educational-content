@@ -85,8 +85,8 @@ https://planb.academy/tutorials/wallet/hardware/passport-74e53858-3fa2-43f9-b866
 
 
 
-- В [Google Play Store] (https://play.google.com/store/apps/details?id=com.foundationdevices.envoy);
-- В [App Store] (https://apps.apple.com/us/app/envoy-by-foundation/id1584811818);
+- В [Google Play Store](https://play.google.com/store/apps/details?id=com.foundationdevices.envoy);
+- В [App Store](https://apps.apple.com/us/app/envoy-by-foundation/id1584811818);
 - На [F-Cold](https://foundation.xyz/fdroid/).
 
 

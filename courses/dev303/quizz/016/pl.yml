@@ -1,0 +1,8 @@
+question: Jaki typ operacji Rust wykonuje domyślnie podczas przypisywania jednej zmiennej String do drugiej?
+answer: Operacja przeniesienia, która przenosi własność i unieważnia zmienną źródłową
+wrong_answers:
+  - Głęboka kopia, która duplikuje wszystkie dane sterty, tworząc niezależne ciągi znaków
+  - Płytka kopia, która tworzy dwa wskaźniki do tej samej pamięci sterty
+  - Utworzenie odniesienia, które umożliwia obu zmiennym współdzielenie dostępu tylko do odczytu
+explanation: |
+  Rust domyślnie wykonuje operację przeniesienia podczas przypisywania złożonych typów, takich jak String. Przenosi to własność ze źródła do zmiennej docelowej, jednocześnie unieważniając źródło, zapobiegając niebezpiecznym scenariuszom, w których wiele zmiennych mogłoby modyfikować tę samą pamięć sterty. Głęboka kopia byłaby nieefektywna dla dużych łańcuchów, płytka kopia stworzyłaby problemy z bezpieczeństwem pamięci z wieloma wskaźnikami do tych samych danych, a tworzenie referencji wymaga jawnej składni z operatorem ampersand.

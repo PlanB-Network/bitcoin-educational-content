@@ -1,0 +1,8 @@
+question: 在 ECDSA 簽署驗證過程中，什麼數學關係必須成立，簽章才會被視為有效？
+answer: UG + VP 的 x 座標必須等於 R，其中 U = Z/S，V = R/S
+wrong_answers:
+  - UG + VP 的 y 座標必須等於 S，其中 U = R/Z，V = S/Z
+  - KG + ZP 的 x 坐標必須等於 S，其中 K 為非密碼，Z 為切細值。
+  - R + S 的總和必須等於公開密碼點 P 的 x 坐標。
+explanation: |
+  ECDSA 的驗證方式是透過公式 UG + VP 來重建原始點 KG，其中 U = Z/S（哈希除以 S），V = R/S。如果此重建點的 x 坐標等於簽章中的 R，驗證就成功。這個數學關係允許在不知道私密金鑰或 nonce K 的情況下進行驗證，因為代數是透過公開金鑰和簽章元件間接重建 KG 的。

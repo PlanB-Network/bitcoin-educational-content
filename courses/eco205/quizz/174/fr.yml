@@ -1,0 +1,8 @@
+question: Selon Frédéric Bastiat, quelle est la raison fondamentale de l'impossibilité pour l'État de réussir ses interventions économiques?
+answer: L'État ne peut pas collecter l'information dispersée dans la société nécessaire à une planification efficace
+wrong_answers:
+  - "L'État manque de ressources financières suffisantes pour mener à bien ses interventions économiques"
+  - "Les fonctionnaires d'État sont corrompus et poursuivent leurs intérêts personnels plutôt que l'intérêt général"
+  - "L'État est limité par les contraintes constitutionnelles qui empêchent une action économique cohérente"
+explanation: |
+  Bastiat avait identifié le problème central de l'intervention étatique : l'impossibilité pour l'État de rassembler l'information dispersée dans la société. Cette intuition préfigure les travaux de Mises et Hayek sur l'impossibilité du calcul économique en régime socialiste. Bastiat comprenait que seul le marché libre, par le système des prix, peut coordonner efficacement cette information dispersée entre millions d'individus.

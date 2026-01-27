@@ -1,0 +1,8 @@
+question: Selon la théorie de la valeur travail défendue par Adam Smith, David Ricardo et Karl Marx, qu'est-ce qui détermine la valeur d'échange d'un bien?
+answer: La quantité de travail incorporée dans sa production
+wrong_answers:
+  - "L'utilité marginale que le consommateur en retire"
+  - La rareté absolue du bien sur le marché
+  - "Le jugement subjectif de l'individu sur le bien"
+explanation: |
+  La théorie de la valeur travail, développée par les économistes classiques comme Adam Smith, David Ricardo et Karl Marx, postule que la valeur d'échange d'un bien est proportionnelle au travail incorporé dans sa production. L'exemple de Ricardo illustre parfaitement cette théorie : si chasser un castor nécessite deux heures de travail et capturer une dinde une seule heure, alors le castor vaut le double de la dinde. Les autres réponses correspondent aux théories postérieures : l'utilité marginale et le jugement subjectif relèvent de la révolution marginaliste des années 1870, tandis que la rareté seule ne constitue pas le fondement de la théorie classique de la valeur travail.

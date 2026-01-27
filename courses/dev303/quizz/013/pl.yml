@@ -1,0 +1,8 @@
+question: Co się dzieje, gdy zmienna wychodzi poza zakres w systemie własności Rust?
+answer: Wartość jest automatycznie usuwana, a jej pamięć zwalniana
+wrong_answers:
+  - Wartość jest przenoszona do zakresu globalnego w celu ponownego użycia
+  - Wartość staje się niezmienna i pozostaje w pamięci
+  - Wartość jest kopiowana do lokalizacji zapasowej w celu zapewnienia bezpieczeństwa
+explanation: |
+  W systemie własności Rust, gdy zmienna wychodzi poza zakres (zazwyczaj gdy wykonanie opuszcza blok zdefiniowany przez nawiasy klamrowe), wartość jest automatycznie usuwana, a jej pamięć zwalniana. To automatyczne czyszczenie jest zaimplementowane poprzez mechanizm upuszczania Rust, w którym język niejawnie wywołuje funkcję upuszczania zmiennych wychodzących poza zakres. Zapewnia to właściwe zarządzanie zasobami bez konieczności wykonywania przez programistę jawnego kodu czyszczącego, zgodnie z wzorcem RAII zapożyczonym z języka C++.

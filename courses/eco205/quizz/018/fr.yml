@@ -1,0 +1,8 @@
+question: Dans l'exemple de David Ricardo, si chasser un castor nécessite deux heures de travail et capturer une dinde une seule heure, quelle est la valeur relative du castor selon la théorie de la valeur travail?
+answer: Le castor vaut le double de la dinde
+wrong_answers:
+  - Le castor vaut la moitié de la dinde
+  - Le castor et la dinde ont la même valeur
+  - Le castor vaut quatre fois la dinde
+explanation: |
+  Selon la théorie de la valeur travail défendue par Ricardo, la valeur d'échange d'un bien est proportionnelle au travail incorporé dans sa production. Si le castor nécessite deux heures de travail et la dinde une heure, le castor vaut exactement le double de la dinde. Cet exemple illustre parfaitement le principe fondamental de cette théorie classique, même si elle sera plus tard remise en question par le paradoxe du diamant et de l'eau.

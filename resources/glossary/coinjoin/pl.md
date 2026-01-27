@@ -22,7 +22,7 @@ Mechanizm ten zwiększa poufność transakcji bez konieczności modyfikacji prot
 ```
 
 
-Trudno jest ustalić z całą pewnością, kto pierwszy wprowadził ideę CoinJoin na Bitcoin i kto wpadł na pomysł wykorzystania ślepych podpisów Davida Chauma w tym kontekście. Często uważa się, że Gregory Maxwell jako pierwszy omówił tę kwestię w [wiadomości na BitcoinTalk w 2013 r.] (https://bitcointalk.org/index.php?topic=279249.0):
+Trudno jest ustalić z całą pewnością, kto pierwszy wprowadził ideę CoinJoin na Bitcoin i kto wpadł na pomysł wykorzystania ślepych podpisów Davida Chauma w tym kontekście. Często uważa się, że Gregory Maxwell jako pierwszy omówił tę kwestię w [wiadomości na BitcoinTalk w 2013 r.](https://bitcointalk.org/index.php?topic=279249.0):
 
 Korzystanie ze ślepych podpisów Chauma: Użytkownicy łączą się i dostarczają dane wejściowe (i zmieniają adresy), a także kryptograficznie blinded wersję Address, do której chcą wysłać swoje prywatne monety; serwer podpisuje tokeny i zwraca je. Użytkownicy ponownie łączą się anonimowo, demaskują swoje adresy wyjściowe i wysyłają je z powrotem do serwera. Serwer widzi, że wszystkie dane wyjściowe zostały przez niego podpisane, a zatem wszystkie dane wyjściowe pochodzą od prawidłowych uczestników. Później ludzie łączą się ponownie i podpisują.
 

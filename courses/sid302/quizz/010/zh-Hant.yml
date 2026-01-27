@@ -1,0 +1,8 @@
+question: 是什麼阻止使用者在 Elements' Confidential Transactions 系統中憑空創造金錢？
+answer: 範圍證明 用數學方法證明隱藏值是有效範圍內的正整數
+wrong_answers:
+  - Pedersen 承諾以加密方式將交易金額與公開金鑰綁定在一起
+  - 資產註冊驗證，可根據註冊資產限額檢查所有交易金額
+  - 聯邦共識節點可解密並驗證所有機密交易金額
+explanation: |
+  範圍證明 (Range Proofs) 是一種特定的加密機制，可防止使用者利用負數或無效金額來無中生有，從而利用保密交易系統。Pedersen Commitments 隱藏了實際金額，而 Range Proofs 則透過證明隱藏值在合法範圍內，確保數學完整性。Asset Registry 只會將資產 ID 對應至人類可讀的名稱，而不會驗證金錢的金額，聯盟節點也不會解密機密交易 - 他們會在看不到實際金額的情況下驗證交易。

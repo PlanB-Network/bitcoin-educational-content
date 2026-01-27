@@ -20,7 +20,7 @@ Veri toplamanın dijital çağında, çevrimiçi gizlilik biz İnternet kullanı
 
 https://planb.academy/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
-Bu ilkeye dayanan [Mozilla VPN] (https://www.mozilla.org/fr/products/vpn/download/), 2020 yılında Mozilla Vakfı tarafından geliştirilen açık kaynaklı bir VPN hizmetidir. Üzerinde mevcuttur:
+Bu ilkeye dayanan [Mozilla VPN](https://www.mozilla.org/fr/products/vpn/download/), 2020 yılında Mozilla Vakfı tarafından geliştirilen açık kaynaklı bir VPN hizmetidir. Üzerinde mevcuttur:
 
 
 

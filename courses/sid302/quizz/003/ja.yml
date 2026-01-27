@@ -1,0 +1,8 @@
+question: Liquid Networkで使われている主なコンセンサス・メカニズムは何ですか？
+answer: 連合コンセンサス
+wrong_answers:
+  - Proof-of-Work
+  - プルーフ・オブ・ステーク
+  - 委任されたプルーフ・オブ・ステーク
+explanation: |
+  Liquid Networkは、BitcoinのProof-of-Workシステムとは根本的に異なるFederated Consensusモデルで運用される。このモデルでは、選ばれた15人のファンクショナリー・グループがブロック・サイナーとして機能し、決定論的なラウンドロビン方式でブロックを生成する。Proof-of-Workはminingを含むBitcoinのコンセンサス・メカニズムであり、Proof-of-StakeとDelegated Proof-of-Stakeは他のブロックチェーン・ネットワークで使用されているが、Liquidでは使用されていないコンセンサス・メカニズムである。

@@ -1,0 +1,13 @@
+title: "A Digital Signature Based on a Conventional Encryption Function"
+original_language: en
+authors:
+  - Ralph C. Merkle
+abstract: |
+  A new digital signature based only on a conventional encryption function (such as DES) is described which is as secure as the underlying encryption function -- the security does not depend on the difficulty of factoring and the high computational costs of modular arithmetic are avoided. The signature system can sign an unlimited number of messages, and the signature size increases logarithmically as a function of the number of messages signed. Signature size in a ‘typical’ system might range from a few hundred bytes to a few kilobytes, and generation of a signature might require a few hundred to a few thousand computations of the underlying conventional encryption function.
+paper_type: conference
+source: Springer
+topics:
+  - Digital Signature Schemes
+  - Cryptographic Commitment Schemes
+pdf_url: https://link.springer.com/content/pdf/10.1007/3-540-48184-2_32.pdf
+id: 30311055-eaf4-4f2b-af20-73717bd105d2

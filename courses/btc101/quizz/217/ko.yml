@@ -1,8 +1,9 @@
-question: Lightning Network은 무엇을 허용하나요?
-answer: 즉시, 저렴한 비용의 Bitcoin 거래.
+question: Lightning Network의 주요 목적은 무엇입니까?
+answer: 빠르고 저렴한 오프체인 결제를 가능하게 하는 것
 wrong_answers:
-  - 고비용의 즉각적인 Bitcoin 거래.
-  - 지연된 저비용 Bitcoin 거래.
-  - 지연되고 비용이 많이 드는 Bitcoin 거래.
-explanation: >-
-reviewed: true
+  - 비트코인 블록체인의 블록 크기를 늘리는 것
+  - 비트코인 블록체인을 더 효율적인 시스템으로 점진적으로 대체하는 것
+  - 채굴 농장을 매우 부유하게 만드는 것
+explanation: |
+  Lightning Network는 메인 블록체인에 부담을 주지 않으면서, 낮은 수수료로 거의 즉각적인 비트코인 결제를 가능하게 하는 것을 목표로 합니다.
+reviewed: false

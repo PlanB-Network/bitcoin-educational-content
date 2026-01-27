@@ -1,0 +1,8 @@
+question: Ứng dụng Breez ban đầu đã bộc lộ hạn chế quan trọng nào của hệ sinh thái ứng dụng di động, từ đó ảnh hưởng đến quá trình phát triển kiến trúc SDK?
+answer: Các ứng dụng di động không thể dễ dàng giao tiếp với nhau, buộc các nhà phát triển phải tích hợp tất cả các tính năng Lightning vào các ứng dụng riêng lẻ thay vì chia sẻ cơ sở hạ tầng Lightning.
+wrong_answers:
+  - Các thiết bị di động thiếu sức mạnh tính toán cần thiết để vận hành các nút Lightning một cách đáng tin cậy, đòi hỏi cơ sở hạ tầng dựa trên đám mây để xử lý các phép tính định tuyến phức tạp.
+  - Hệ điều hành di động hạn chế quá nghiêm ngặt các tiến trình nền, ngăn cản các nút Lightning duy trì kết nối liên tục với mạng.
+  - Các cửa hàng ứng dụng di động cấm các ứng dụng tài chính không lưu giữ tài sản, buộc các nhà phát triển phải triển khai các giải pháp lưu giữ tài sản để được chấp thuận trên cửa hàng ứng dụng.
+explanation: |
+  Ứng dụng Breez ban đầu đã chứng minh rằng hệ sinh thái di động không tạo điều kiện thuận lợi cho việc giao tiếp giữa các ứng dụng, ngăn cản các ứng dụng chuyên biệt tận dụng cơ sở hạ tầng Lightning dùng chung. Hạn chế về kiến trúc này đã buộc tất cả chức năng Lightning phải được tích hợp vào các ứng dụng nguyên khối. Các lựa chọn khác đều không chính xác: thiết bị di động có thể chạy các node Lightning (như Breez đã chứng minh), các hạn chế chạy ngầm có thể được quản lý bằng kiến trúc phù hợp, và các cửa hàng ứng dụng nói chung cho phép các ứng dụng tài chính không lưu ký.

@@ -1,0 +1,8 @@
+question: Rust'ın sahiplik sisteminde bir değişken kapsam dışına çıktığında ne olur?
+answer: Değer otomatik olarak düşürülür ve belleği serbest bırakılır
+wrong_answers:
+  - Değer yeniden kullanım için global kapsama taşınır
+  - Değer değişmez hale gelir ve bellekte kalır
+  - Değer, güvenlik için yedek bir konuma kopyalanır
+explanation: |
+  Rust'in sahiplik sisteminde, bir değişken kapsam dışına çıktığında (tipik olarak yürütme küme parantezleriyle tanımlanan bir bloktan ayrıldığında), değer otomatik olarak düşürülür ve belleği serbest bırakılır. Bu otomatik temizleme, Rust'in drop mekanizması aracılığıyla gerçekleştirilir; dil, kapsam dışına çıkan değişkenler için örtük olarak bir drop işlevi çağırır. Bu, C++'dan ödünç alınan RAII modelini izleyerek programcının açık temizleme koduna ihtiyaç duymadan uygun kaynak yönetimini sağlar.

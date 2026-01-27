@@ -1,0 +1,8 @@
+question: Chức năng chính của Clippy trong hệ sinh thái phát triển Rust là gì?
+answer: Một công cụ kiểm tra cú pháp nâng cao phân tích mã và đề xuất các cải tiến để sử dụng các quy tắc Rust tốt hơn.
+wrong_answers:
+  - Một trình quản lý gói xử lý việc giải quyết các phụ thuộc và xây dựng dự án.
+  - Một công cụ biên dịch chuyển đổi mã nguồn Rust thành các tệp nhị phân có thể thực thi.
+  - Một công cụ tạo tài liệu tự động, tự động tạo ra các tài liệu tham khảo API.
+explanation: |
+  Clippy là một công cụ kiểm tra cú pháp nâng cao, vượt xa việc kiểm tra cú pháp cơ bản để phân tích mã Rust của bạn và đưa ra các đề xuất cải tiến. Không giống như các công cụ kiểm tra cú pháp đơn giản, Clippy hiểu được các quy tắc lập trình Rust và có thể đề xuất các cách hiệu quả hơn hoặc phù hợp hơn để thực hiện các tác vụ cụ thể. Các tùy chọn khác mô tả các công cụ khác nhau: Cargo là trình quản lý gói xử lý các phụ thuộc và quá trình xây dựng, rustc là trình biên dịch chuyển đổi mã nguồn thành mã thực thi, và rustdoc là trình tạo tài liệu. Clippy tập trung đặc biệt vào phân tích chất lượng mã và giúp các nhà phát triển viết mã Rust tốt hơn, dễ bảo trì hơn bằng cách đề xuất các phương pháp hay nhất.

@@ -47,7 +47,7 @@ Målet med den här utbildningen är att ge dig nycklarna till att bemästra de 
 
 Innan vi dyker in i detaljerna kring konstruktion och drift av Bitcoin-plånböcker börjar vi med några kapitel om de kryptografiska primitiver som är viktiga att känna till för det som följer.
 
-Vi börjar med kryptografiska Hash-funktioner, som är grundläggande för både plånböcker och själva Bitcoin-protokollet. Du kommer att upptäcka deras huvudsakliga egenskaper, de specifika funktionerna som används i Bitcoin, och i ett mer tekniskt kapitel kommer du att lära dig i detalj om hur drottningen av Hash-funktioner fungerar: SHA256.
+Vi börjar med kryptografiska Hash-funktioner, som är grundläggande för både plånböcker och själva Bitcoin-protokollet. Du kommer att upptäcka deras huvudsakliga egenskaper, de specifika funktionerna som används i Bitcoin, och i ett mer tekniskt kapitel kommer du att lära dig i detalj om hur drottningen av Hash-funktioner fungerar: [SHA256](https://planb.academy/resources/glossary/sha256).
 
 
 ![CYP201](assets/en/001.webp)
@@ -65,7 +65,7 @@ När vi väl har en god förståelse för dessa Elements av kryptografi, kommer 
 ![CYP201](assets/en/003.webp)
 
 
-Utbildningen kommer att fortsätta med studier av BIP39 passphrase, seed (inte att förväxla med Mnemonic frasen), master chain code och huvudnyckeln. Vi kommer att se i detalj vad dessa Elements är, deras respektive roller och hur de beräknas.
+Utbildningen kommer att fortsätta med studier av [BIP39](https://planb.academy/resources/glossary/bip0039) passphrase, seed (inte att förväxla med Mnemonic frasen), master chain code och huvudnyckeln. Vi kommer att se i detalj vad dessa Elements är, deras respektive roller och hur de beräknas.
 
 
 ![CYP201](assets/en/004.webp)
@@ -949,7 +949,7 @@ En användare som vill göra en Bitcoin-transaktion måste därför skapa en dig
 Som ett resultat måste en användare som äger bitcoins låsta med en offentlig nyckel hitta ett sätt att säkert lagra det som gör det möjligt att låsa upp sina medel: den privata nyckeln. En Bitcoin Wallet är just en enhet som gör att du enkelt kan förvara alla dina nycklar utan att andra människor har tillgång till dem. Den är därför mer lik en nyckelring än en Wallet.
 
 
-Den matematiska kopplingen mellan en publik nyckel och en privat nyckel, samt möjligheten att utföra en signatur för att bevisa innehav av en privat nyckel utan att avslöja den, möjliggörs av en digital signaturalgoritm. I Bitcoin-protokollet används två signaturalgoritmer: **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) och **Schnorr-signaturschemat**. ECDSA är det digitala signaturprotokoll som använts i Bitcoin från början. Schnorr är nyare i Bitcoin, eftersom det introducerades i november 2021 med Taproot-uppdateringen.
+Den matematiska kopplingen mellan en publik nyckel och en privat nyckel, samt möjligheten att utföra en signatur för att bevisa innehav av en privat nyckel utan att avslöja den, möjliggörs av en digital signaturalgoritm. I Bitcoin-protokollet används två signaturalgoritmer: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm_) och **Schnorr-signaturschemat**. ECDSA är det digitala signaturprotokoll som använts i Bitcoin från början. Schnorr är nyare i Bitcoin, eftersom det introducerades i november 2021 med Taproot-uppdateringen.
 
 Dessa två algoritmer är ganska lika i sina mekanismer. De bygger båda på kryptografi med elliptisk kurva. Den stora skillnaden mellan dessa två protokoll ligger i signaturens struktur och vissa specifika matematiska egenskaper. Vi kommer därför att studera hur dessa algoritmer fungerar och börjar med den äldsta: ECDSA.
 
@@ -1855,7 +1855,7 @@ Till exempel, för en 256-bitars entropi är resultatet $\text{ENT} \Vert \text{
 ### Omvandling av den binära sekvensen till en Mnemonic-fras
 
 
-Bitsekvensen $\text{ENT} \Vert \text{CS}$ är sedan uppdelad i segment om 11 bitar. Varje 11-bitarssegment motsvarar, efter omvandling till decimal, ett tal mellan 0 och 2047, vilket anger positionen för ett ord [i en lista med 2048 ord som standardiserats av BIP39] (https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
+Bitsekvensen $\text{ENT} \Vert \text{CS}$ är sedan uppdelad i segment om 11 bitar. Varje 11-bitarssegment motsvarar, efter omvandling till decimal, ett tal mellan 0 och 2047, vilket anger positionen för ett ord [i en lista med 2048 ord som standardiserats av BIP39](https://github.com/PlanB-Network/Bitcoin-educational-content/blob/dev/resources/bet/bip39-wordlist/assets/BIP39-WORDLIST.pdf).
 
 
 ![CYP201](assets/en/042.webp)

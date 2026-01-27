@@ -1,0 +1,8 @@
+question: AMP'nin düzenlenmiş varlık transferleri için ortak imzalama yetkilendirme modelinden kaynaklanan kritik operasyonel güvenlik açığı nedir?
+answer: Her transfer sunucu ortak imzası gerektirdiğinden AMP sunucusu kullanılamaz hale gelirse varlık likiditesi tamamen durur
+wrong_answers:
+  - Birden fazla ortak imza sahibi aynı anda transferleri yetkilendirmeye çalıştığında işlem ücretleri katlanarak artar
+  - Gizli İşlem gizliliği bozulur çünkü ortak imzalama, ağ gözlemcilerine kör edici faktörleri açığa çıkarır
+  - Ortak imza mekanizması özel anahtarları AMP sunucusuna aktardığı için varlık sahipleri gözetim kontrolünü kaybeder
+explanation: |
+  AMP'nin yetkilendirme modeli, AMP sunucusunun her varlık transferini birlikte imzalamasını gerektirerek tek bir arıza noktası yaratır. Sunucu çevrimdışı olursa, hiçbir işlem tamamlanamaz ve tüm varlık likiditesi etkin bir şekilde dondurulur. Diğer seçenekler yanlıştır: ücretler ortak imzalama ile katlanarak artmaz, Gizli İşlem gizliliği bozulmadan kalır (yalnızca ihraççı görünürlük kazanır) ve sunucu yalnızca yetkilendirme imzaları sağlarken kullanıcılar özel anahtarlarını korur.

@@ -1,0 +1,8 @@
+question: Jaký zásadní problém při vývoji napříč platformami řeší UniFFI při práci s knihovnami Rust?
+answer: Nutnost ručně vytvářet vlastní vazební kód pro každý cílový jazyk při vystavení nízkoúrovňové FFI Rust
+wrong_answers:
+  - Neschopnost Rust zkompilovat do nativních binárních souborů, které lze spustit ve více operačních systémech
+  - Nedostatek záruk paměťové bezpečnosti při interakci kódu Rust s jazyky s hromaděním odpadků
+  - "Výkonnostní režie při překladu modelu vlastnictví Rust do jazyků s referenčním počítáním"
+explanation: |
+  UniFFI konkrétně řeší problém ručního psaní vazebního kódu pro každý cílový jazyk. Při kompilaci Rust do binárního výstupu vytváří cizí funkci Interface (FFI), která je nízkoúrovňová a náročná na přímé použití z jazyků vyšší úrovně. Tradičně museli vývojáři psát vlastní vazební kód pro každý cílový jazyk (Python, Swift, Kotlin atd.), což vytvářelo značné překážky pro přijetí. UniFFI tuto nadbytečnost odstraňuje automatickým generováním těchto vazeb prostřednictvím svého systému specifikace UDL.

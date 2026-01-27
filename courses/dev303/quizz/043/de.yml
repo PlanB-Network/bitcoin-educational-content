@@ -1,0 +1,8 @@
+question: Welches Schlüsselwort wird verwendet, um eine Schließung zu zwingen, das Eigentum an erfassten Variablen zu übernehmen, anstatt sie zu leihen?
+answer: umziehen
+wrong_answers:
+  - eigene
+  - erfassen
+  - nehmen Sie
+explanation: |
+  Das Schlüsselwort `move` wird vor den Closure-Parametern verwendet, um die Closure zu zwingen, alle erfassten Variablen aus ihrer Umgebung zu übernehmen. Dies ist wichtig, wenn die Closure den Bereich, in dem die Variablen ursprünglich definiert wurden, überdauern könnte, wie z.B. beim Erzeugen von Threads. Ohne `move` erfassen Closures typischerweise mit der am wenigsten restriktiven Methode (unveränderliche Referenz, dann veränderbare Referenz, dann Besitz), aber `move` hebt dieses automatische Verhalten auf, um die Übertragung des Besitzes sicherzustellen. Die anderen Optionen (`own`, `capture`, `take`) sind keine gültigen Rust Schlüsselwörter für diesen Zweck.

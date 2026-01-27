@@ -35,7 +35,7 @@ In deze cursus presenteer ik met veel plezier de filosofie van Baruch de Spinoza
 
 
 
-![image](./assets/fr/1.1.1.webp)
+![image](assets/nl/001.webp)
 
 
 Portret van Spinoza
@@ -70,7 +70,7 @@ Eerst laat ik je kennismaken met Spinoza, zijn karakter, zijn sociale, religieuz
 
 
 
-![image](./assets/fr/1.1.2.webp)
+![image](assets/nl/002.webp)
 
 
 Portret van Spinoza
@@ -93,7 +93,7 @@ We zullen ook kijken naar de twee belangrijkste werken van Spinoza, te beginnen 
 
 
 
-![image](./assets/fr/1.1.3.webp)
+![image](assets/nl/003.webp)
 
 
 
@@ -101,7 +101,7 @@ Daarna kijken we naar de Traité théologico-Politique, gepubliceerd tijdens zij
 
 
 
-![image](./assets/fr/1.1.4.webp)
+![image](assets/nl/004.webp)
 
 
 
@@ -113,7 +113,7 @@ Dankzij de theorie van affecten, ontwikkeld op de manier van de geometers, "more
 
 
 
-![image](./assets/fr/1.1.5.webp)
+![image](assets/nl/005.webp)
 
 
 
@@ -149,7 +149,7 @@ Als lid van de Portugese Sefardische gemeenschap die afstamt van de Maranen die 
 
 
 
-![image](./assets/fr/1.2.1.webp)
+![image](assets/nl/006.webp)
 
 
 
@@ -157,7 +157,6 @@ In feite toonde hij al op jonge leeftijd een sterk kritische geest ten opzichte 
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -169,7 +168,7 @@ Als erfgenaam, net als zijn tijdgenoten Descartes (1596-1650), Pascal (1632-1662
 
 
 
-![image](./assets/fr/1.2.3.webp)
+![image](assets/nl/007.webp)
 
 
 
@@ -189,10 +188,10 @@ En het is deze benadering die Spinoza verbindt met de filosofie van de Verlichti
 
 
 
-![image](./assets/fr/1.2.4.webp)
+![image](assets/nl/008.webp)
 
 
-![image](./assets/fr/1.2.5.webp)
+![image](assets/nl/009.webp)
 
 
 
@@ -208,7 +207,7 @@ Rijkdom is echter niet verbonden aan natuurlijke hulpbronnen, de uitbuiting en v
 
 
 
-![image](./assets/fr/1.2.6.webp)
+![image](assets/nl/010.webp)
 
 
 
@@ -255,7 +254,6 @@ In dit hoofdstuk stel ik voor dat we ons nu richten op Spinoza's belangrijkste w
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -267,7 +265,7 @@ De Ethica is een werk geschreven in het Latijn op de manier van meetkundigen, wa
 
 
 
-![image](./assets/fr/2.1.2.webp)
+![image](assets/nl/011.webp)
 
 
 
@@ -279,7 +277,7 @@ Ik wil erop wijzen dat het aan te raden is om bij het openen van de Ethics te be
 
 
 
-![image](./assets/fr/2.1.3.webp)
+![image](assets/nl/012.webp)
 
 
 
@@ -311,7 +309,7 @@ Ten eerste, als toeval niet bestaat voor Spinoza, dan is dat omdat het een gebeu
 
 
 
-![image](./assets/fr/2.1.4.webp)
+![image](assets/nl/013.webp)
 
 
 
@@ -331,7 +329,7 @@ Volgens Gilles Deleuze (1925-1995), de beroemde professor in de filosofie en Spi
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/nl/014.webp)
 
 
 
@@ -367,7 +365,7 @@ Dit is de Traité théologico-politique, of TTP, anoniem gepubliceerd in 1670.
 
 
 
-![image](./assets/fr/2.2.1.webp)
+![image](assets/nl/015.webp)
 
 
 
@@ -378,7 +376,7 @@ Zoals we hebben gezien is Spinoza's concept van God het onderwerp van het hele e
 
 
 
-![image](./assets/fr/2.2.2.webp)
+![image](assets/nl/016.webp)
 
 
 
@@ -390,7 +388,7 @@ Zo laat Spinoza ons zien dat God volgens hem geen antropomorf wezen is met bedoe
 
 
 
-![image](./assets/fr/2.2.3.webp)
+![image](assets/nl/017.webp)
 
 
 
@@ -427,7 +425,7 @@ De beruchte aardbeving in Lissabon op 1 november 1755 liet een grote verschuivin
 
 
 
-![image](./assets/fr/2.2.4.webp)
+![image](assets/nl/018.webp)
 
 
 
@@ -439,7 +437,7 @@ Een drama dat de vraag van de Duitse filosoof en wiskundige Leibniz (1646-1716) 
 
 
 
-![image](./assets/fr/2.2.5.webp)
+![image](assets/nl/019.webp)
 
 
 
@@ -447,7 +445,7 @@ Jean-Jacques Rousseau (1712-1778) verdoemde niet alleen de hand van God, maar sc
 
 
 
-![image](./assets/fr/2.2.6.webp)
+![image](assets/nl/020.webp)
 
 
 
@@ -492,10 +490,9 @@ Net zoals Nicolaas Copernicus (1473-1543) vaststelde dat de aarde niet het midde
 
 
 
-![image](./assets/fr/3.1.1.webp)
+![image](assets/nl/021.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -507,7 +504,7 @@ Vóór hem stelde de klassieke Griekse filosofie een geordende, hiërarchische v
 
 
 
-![image](./assets/fr/3.1.3.webp)
+![image](assets/nl/022.webp)
 
 
 
@@ -519,10 +516,9 @@ Maar met de nieuwe natuurkunde van Copernicus (1473-1543) in de 15e eeuw ondergi
 
 
 
-![image](./assets/fr/3.1.4.webp)
+![image](assets/nl/023.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -530,7 +526,7 @@ Maar om het Spinozisme volledig te begrijpen, moeten we ook kijken naar de conte
 
 
 
-![image](./assets/fr/3.1.6.webp)
+![image](assets/nl/024.webp)
 
 
 
@@ -538,7 +534,7 @@ Ondanks de risico's en de veroordelingen van Giordano Bruno (1548-1600) en Galil
 
 
 
-![image](./assets/fr/3.1.7.webp)
+![image](assets/nl/025.webp)
 
 
 
@@ -582,7 +578,7 @@ Zoals we al gezien hebben, staat Spinoza (1632-1677) erom bekend dat hij de vrij
 
 
 
-![image](./assets/fr/3.2.1.webp)
+![image](assets/nl/026.webp)
 
 
 
@@ -606,7 +602,7 @@ Omdat hij in zijn leven aan geen andere wet onderworpen zou zijn dan die van zij
 
 
 
-![image](./assets/fr/3.2.2.webp)
+![image](assets/nl/027.webp)
 
 
 
@@ -622,7 +618,7 @@ Dit is het idee van absoluut determinisme, waaruit hij in zijn Ethica afleidt da
 
 
 
-![image](./assets/fr/3.2.3.webp)
+![image](assets/nl/028.webp)
 
 
 
@@ -650,7 +646,7 @@ Deze benadering van vrijheid als handelingsbekwaamheid is het verband dat we kun
 
 
 
-![image](./assets/fr/3.2.4.webp)
+![image](assets/nl/029.webp)
 
 
 
@@ -675,10 +671,9 @@ Tot slot is het de moeite waard om erop te wijzen dat, hoewel de libertarische b
 
 
 
-![image](./assets/fr/3.2.5.webp)
+![image](assets/nl/030.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -709,7 +704,7 @@ Maar voor Spinoza (1632-1677) is de mens niet "een rijk binnen een rijk", d.w.z.
 
 
 
-![image](./assets/fr/3.3.1.webp)
+![image](assets/nl/031.webp)
 
 
 
@@ -733,7 +728,7 @@ En daarom zijn nieuwe ziekten zoals AIDS in de jaren 90 of covid in 2020 door so
 
 
 
-![image](./assets/fr/3.3.2.webp)
+![image](assets/nl/032.webp)
 
 
 
@@ -749,7 +744,7 @@ En dit is precies wat de Franse natuuronderzoeker Jean-Baptiste de Lamarck (1744
 
 
 
-![image](./assets/fr/3.3.3.webp)
+![image](assets/nl/033.webp)
 
 
 
@@ -757,7 +752,7 @@ Maar zoals Spinoza zegt, "de waan van de mens houdt daar niet op", en onder alle
 
 
 
-![image](./assets/fr/3.3.4.webp)
+![image](assets/nl/034.webp)
 
 
 
@@ -773,7 +768,7 @@ Deze bevooroordeelde interpretatie van inflatie doet ons echter vergeten dat inf
 
 
 
-![image](./assets/fr/3.3.5.webp)
+![image](assets/nl/035.webp)
 
 
 
@@ -809,7 +804,7 @@ In dit laatste hoofdstuk over de nieuwe copernicaanse visie op ideeën die het S
 
 
 
-![image](./assets/fr/3.4.1.webp)
+![image](assets/nl/036.webp)
 
 
 
@@ -833,7 +828,7 @@ Met andere woorden, een oude man met een witte baard, verborgen achter een wolk,
 
 
 
-![image](./assets/fr/3.4.2.webp)
+![image](assets/nl/037.webp)
 
 
 
@@ -845,7 +840,7 @@ Maar ondanks onze trots dat we geloven dat we boven de natuur staan en ons inbee
 
 
 
-![image](./assets/fr/3.4.3.webp)
+![image](assets/nl/038.webp)
 
 
 
@@ -865,7 +860,7 @@ Met andere woorden, "de beruchte" volgens Voltaire (1694-1778), voor wie bijgelo
 
 
 
-![image](./assets/fr/3.4.4.webp)
+![image](assets/nl/039.webp)
 
 
 
@@ -877,7 +872,7 @@ Dit is wat de Duitse, Engelse en Franse Verlichting verdedigde vanaf de 18e eeuw
 
 
 
-![image](./assets/fr/3.4.5.webp)
+![image](assets/nl/040.webp)
 
 
 
@@ -885,7 +880,7 @@ En dit is wat Spinoza opnieuw aantoont in zijn Theologico Political Treatise, da
 
 
 
-![image](./assets/fr/3.4.6.webp)
+![image](assets/nl/041.webp)
 
 
 
@@ -945,7 +940,7 @@ Oude filosofen geloofden dat het kwaad niet in de natuur bestond en Socrates (47
 
 
 
-![image](./assets/fr/4.1.1.webp)
+![image](assets/nl/042.webp)
 
 
 
@@ -953,7 +948,7 @@ Maar de scholastieke traditie, met name die van de heilige Augustinus (354-430),
 
 
 
-![image](./assets/fr/4.1.2.webp)
+![image](assets/nl/043.webp)
 
 
 
@@ -970,7 +965,7 @@ Natuurlijk wordt dit idee, zoals je je kunt voorstellen, aan flarden gescheurd d
 
 
 
-![image](./assets/fr/4.1.3.webp)
+![image](assets/nl/044.webp)
 
 
 
@@ -993,7 +988,7 @@ Daarom legt de Spinozist Gilles Deleuze (1925-1995) uit dat ethiek een soort eth
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/nl/045.webp)
 
 
 
@@ -1033,7 +1028,7 @@ Hij ontwikkelt zijn systeem in het derde deel van de Ethica. Het is de beroemde 
 
 
 
-![image](./assets/fr/4.2.1.webp)
+![image](assets/nl/046.webp)
 
 
 
@@ -1057,7 +1052,7 @@ Dit zegt Spinoza in zijn Ethica, wanneer hij zich erover verbaast dat "mensen va
 
 
 
-![image](./assets/fr/4.2.2.webp)
+![image](assets/nl/047.webp)
 
 
 
@@ -1073,7 +1068,7 @@ Dit geldt trouwens vooral op het gebied van cryptocurrencies.
 
 
 
-![image](./assets/fr/4.2.3.webp)
+![image](assets/nl/048.webp)
 
 
 
@@ -1093,7 +1088,7 @@ Dit is het voorbeeld van de bliksem. Want als de bliksem inslaat en onschuldige 
 
 
 
-![image](./assets/fr/4.2.4.webp)
+![image](assets/nl/049.webp)
 
 
 
@@ -1113,7 +1108,7 @@ Dit is het geniale van de Ethica. Spinoza laat ons zien dat het mogelijk is om o
 
 
 
-![image](./assets/fr/4.2.5.webp)
+![image](assets/nl/050.webp)
 
 
 
@@ -1151,14 +1146,13 @@ Uiteindelijk betekent deze luciditeit dat men niet langer leeft in het nihilisme
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 
 Dit is precies waar de rationele filosofie van de Verlichting over ging, met name dankzij Immanuel Kant (1724-1804), voor wie alleen een opgeleid individu, onder leiding van de rede, voor zichzelf kan denken en ethisch kan bepalen wat "waar" of "goed" is en wat giftig is.
 
 
-![image](./assets/fr/4.3.2.webp)
+![image](assets/nl/051.webp)
 
 
 
@@ -1169,7 +1163,7 @@ Het is een redenering die de link legt met de Oostenrijkse school van liberale e
 
 
 
-![image](./assets/fr/4.3.3.webp)
+![image](assets/nl/052.webp)
 
 
 
@@ -1177,7 +1171,7 @@ Menger en Mises stelden bijvoorbeeld vast dat alle kennis moet worden opgebouwd 
 
 
 
-![image](./assets/fr/4.3.4.webp)
+![image](assets/nl/053.webp)
 
 
 
@@ -1198,7 +1192,7 @@ Als Spinozist legt Hayek in een video uit dat "aangezien deze macht niet zonder 
 
 
 
-![image](./assets/fr/4.3.5.webp)
+![image](assets/nl/054.webp)
 
 
 
@@ -1206,7 +1200,7 @@ Dit zijn de politieke en economische argumenten die naar voren werden gebracht d
 
 
 
-![image](./assets/fr/4.3.6.webp)
+![image](assets/nl/055.webp)
 
 
 
@@ -1214,7 +1208,7 @@ Vooral toen hij de kop van de Times van 3 januari 2009 in de coinbase van het Ge
 
 
 
-![image](./assets/fr/4.3.7.webp)
+![image](assets/nl/056.webp)
 
 
 

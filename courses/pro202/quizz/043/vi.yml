@@ -1,0 +1,8 @@
+question: Khi các mã băm khối Bitcoin được hiểu là số nguyên little-endian để so sánh với mục tiêu, tại sao các khối hợp lệ thường hiển thị nhiều số 0 ở cuối trong biểu diễn thập lục phân của chúng?
+answer: Vì cách diễn giải little-endian có nghĩa là các byte bên phải nhất trong hệ thập lục phân tương ứng với các bit quan trọng nhất của giá trị số nguyên.
+wrong_answers:
+  - Bởi vì thuật toán SHA-256 tự nhiên tạo ra các số 0 ở cuối khi dữ liệu đầu vào chứa dữ liệu giao dịch có các mẫu lặp lại.
+  - Vì các thợ đào cố tình thêm các byte 0 vào phần đầu khối để làm cho quá trình tính toán hàm băm hiệu quả hơn đối với phần cứng ASIC.
+  - Vì trường nonce được tăng dần từ 0 trở lên, khiến hàm băm tạo ra các mẫu generate có các số 0 ở cuối.
+explanation: |
+  Trong cách diễn giải little-endian, các byte được đọc theo thứ tự ngược lại, do đó các byte bên phải nhất trong hệ thập lục phân trở thành phần quan trọng nhất của số nguyên. Để giá trị băm nhỏ hơn mục tiêu (một số nhỏ), các bit quan trọng nhất của nó phải bằng 0, xuất hiện dưới dạng các số 0 ở cuối trong hiển thị thập lục phân. Đây hoàn toàn là một hiện tượng phát sinh do chuyển đổi thứ tự byte, chứ không phải là đặc tính của phần cứng SHA-256 hoặc mining.

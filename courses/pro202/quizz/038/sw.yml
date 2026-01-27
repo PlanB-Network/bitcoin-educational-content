@@ -1,0 +1,8 @@
+question: Ni nini huamua kiasi cha ada ya muamala katika muamala wa Bitcoin wakati wa mchakato wa ujenzi?
+answer: Tofauti kati ya thamani ya jumla ya pembejeo zote na thamani ya jumla ya matokeo yote
+wrong_answers:
+  - Asilimia isiyobadilika ya jumla ya thamani ya muamala iliyohesabiwa na itifaki ya mtandao
+  - Ukubwa wa muamala katika baiti ukizidishwa na kiwango cha kawaida kilichowekwa na wachimbaji
+  - Idadi ya sahihi zinazohitajika katika ingizo zote pamoja na ada ya mtandao msingi
+explanation: |
+  Ada za miamala ya Bitcoin huamuliwa na tofauti kati ya jumla ya pembejeo na jumla ya matokeo. Unapotengeneza muamala, unachagua UTXO kama pembejeo na kuunda matokeo kwa wapokeaji na mabadiliko. Kiasi chochote kilichobaki huwa ada inayowahamasisha wachimbaji kujumuisha muamala wako. Ada hiyo haihesabiwi kwa asilimia, viwango vilivyowekwa, au hesabu za saini - ni kile tu ambacho hakijatengwa katika usawa wa thamani ya muamala.

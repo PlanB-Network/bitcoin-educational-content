@@ -1,0 +1,8 @@
+question: Ni igiki gituma habaho ikibazo co guhagarika-ku-kimwe muri OP_CHECKMULTISIG gisaba OP_0 y'inyongera mu ScriptSigs z'ibimenyetso vyinshi?
+answer: OP_CHECKMULTISIG ikoresha ikindi kintu c'ikirundo kirenze imikono n'imfunguruzo za bose vyitezwe
+wrong_answers:
+  - Uburyo bwo kugenzura umukono busaba byte y'inyongera kugira ngo ECDSA yemezwe neza kugira ngo ikore neza
+  - "Ishirwa mu ngiro ry'ikirundo ca Bitcoin rifise igenzura ry'urubibi rikeneye ikintu co gushiramwo kugira ngo ubwenge bube"
+  - Ibara ry'uruzitiro rwa multisig ritangura kuri zero aho kuba kuri imwe, bisaba agaciro k'aho hantu
+explanation: |
+  OP_CHECKMULTISIG opcode ifise ikibazo co gushirwa mu ngiro aho itera ikintu kimwe mu rutonde kuruta uko bikwiye mu gihe co gushirwa mu ngiro. Ivyo bisigura ko uretse imikono m isabwa n'imfunguruzo za bose n, ifata ikindi kintu c'ikirundo. Kugira ngo igikorwa ntikibe kinanirwa, bare multisig ScriptSigs zitegerezwa kubamwo OP_0 y'intango (isunika urutonde rw'ibice vy'ubusa) kugira ngo zihaze iyo nzira y'ugukoresha ibirundo bitari bitezwe. Ibindi bihitamwo bidondora ibibazo vy’ubuhinga bishobora kwemerwa ariko si vyo vy’ukuri vyatumye haba iyo nzira izwi cane ya Bitcoin.

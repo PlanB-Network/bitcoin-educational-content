@@ -1,0 +1,8 @@
+question: Mis on UniFFI kihilise lähenemise peamine arhitektuuriline eelis Rust raamatukogude integreerimisel sihtkeeltega nagu Swift või Kotlin?
+answer: Sidumiskihi abil saab tegeleda tüüptõlkimise ja mäluhaldusega, pakkudes samal ajal sihtkeelele täiesti emakeelset kasutajaliidest
+wrong_answers:
+  - UDL-fail kompileerib Rust koodi automaatselt baatkoodiks, mida saab mobiiliplatvormidel ilma tõlkimiseta käivitada
+  - Rust raamatukogu kood kirjutatakse automaatselt ümber sihtkeele süntaksis, et kõrvaldada kõik võõraste funktsioonide liidesekutsed
+  - Sihtkeele rakendused pääsevad Rust mälustruktuuridele otse ligi jagatud näitajate kaudu, et vältida andmete marshaling-ülesandeid
+explanation: |
+  UniFFI arhitektuur loob eraldatuse, kus genereeritud sidumiskood toimib tõlkekihina sihtkeele ja Rust vahel. See kiht tegeleb andmetüüpide keerulise marshalinguga/unmarshalinguga, haldab mälu turvaliselt üle keelepiiride ja tagab veakäitluse vastavalt sihtkeele konventsioonidele. Teised võimalused on valed, sest UniFFI ei kompileeri baatkoodi (ta genereerib sidumisi), ei kirjuta Rust koodi ümber teistesse keeltesse (ta säilitab Rust algse implementatsiooni) ja ei kasuta jagatud mälu (ta manööverdab andmeid turvaliselt üle keelepiiride).

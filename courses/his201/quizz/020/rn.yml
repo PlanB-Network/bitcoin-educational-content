@@ -1,9 +1,9 @@
 question: Ni igiki catumye Satoshi Nakamoto akora cane mu gihe yariko arahingura Bitcoin?
-answer: Amafranga (Dawidi Chaum)
+answer: eCash (David Chaum)
 wrong_answers:
-  - b-amahera (Wei Dai)
-  - inzahabu (Nick Szabo)
+  - b-money (Wei Dai)
+  - Bit gold (Nick Szabo)
   - RPOW (Hali Fini)
 explanation: |
-  Naho basa cane, ikintu nyamukuru ca Satoshi nticari ivyitegererezo vya b-money, bit gold, na RPOW kuko ntiyari abizi imbere y'ukwezi kwa munani 2008.
+  Naho basa cane, ikintu nyamukuru ca Satoshi nticari ivyitegererezo vya b-money, bit gold, na RPOW kuko yari abifise muri make.
 reviewed: true

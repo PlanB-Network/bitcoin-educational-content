@@ -35,7 +35,7 @@ Willkommen zum CYP201-Kurs, in dem wir die Funktionsweise von HD Bitcoin-Wallets
 Das Ziel dieses Trainings ist es, Ihnen die Schlüssel zu geben, um die Werkzeuge, die Sie täglich verwenden, zu beherrschen. HD Bitcoin-Wallets, die im Mittelpunkt Ihrer Benutzererfahrung stehen, basieren auf manchmal komplexen Konzepten, die wir zugänglich machen werden. Gemeinsam werden wir sie entmystifizieren!
 
 Bevor wir in die Details des Aufbaus und der Funktionsweise von Bitcoin-Wallets eintauchen, beginnen wir mit einigen Kapiteln über die kryptografischen Grundlagen, die für das Folgende zu wissen sind.
-Wir beginnen mit kryptografischen Hash-Funktionen, die sowohl für Wallets als auch für das Bitcoin-Protokoll selbst grundlegend sind. Sie werden ihre Hauptmerkmale entdecken, die spezifischen Funktionen, die in Bitcoin verwendet werden, und in einem technischeren Kapitel werden Sie im Detail über die Funktionsweise der Königin der Hash-Funktionen lernen: SHA256.
+Wir beginnen mit kryptografischen Hash-Funktionen, die sowohl für Wallets als auch für das Bitcoin-Protokoll selbst grundlegend sind. Sie werden ihre Hauptmerkmale entdecken, die spezifischen Funktionen, die in Bitcoin verwendet werden, und in einem technischeren Kapitel werden Sie im Detail über die Funktionsweise der Königin der Hash-Funktionen lernen: [SHA256](https://planb.academy/resources/glossary/sha256).
 ![CYP201](assets/en/001.webp)
 
 Als Nächstes werden wir die Funktionsweise von digitalen Signaturalgorithmen besprechen, die Sie jeden Tag verwenden, um Ihre UTXOs zu sichern. Bitcoin verwendet zwei: ECDSA und das Schnorr-Protokoll. Sie werden erfahren, welche mathematischen Grundlagen diesen Algorithmen zugrunde liegen und wie sie die Sicherheit von Transaktionen gewährleisten.
@@ -46,7 +46,7 @@ Sobald wir ein gutes Verständnis dieser Elemente der Kryptografie haben, werden
 
 ![CYP201](assets/en/003.webp)
 
-Das Training wird mit dem Studium des BIP39-Passphrases, des Seeds (nicht zu verwechseln mit der mnemonischen Phrase), des Master Chain Codes und des Master-Schlüssels fortgesetzt. Wir werden im Detail sehen, was diese Elemente sind, ihre jeweiligen Rollen und wie sie berechnet werden.
+Das Training wird mit dem Studium des [BIP39](https://planb.academy/resources/glossary/bip0039)-Passphrases, des Seeds (nicht zu verwechseln mit der mnemonischen Phrase), des Master Chain Codes und des Master-Schlüssels fortgesetzt. Wir werden im Detail sehen, was diese Elemente sind, ihre jeweiligen Rollen und wie sie berechnet werden.
 
 ![CYP201](assets/en/004.webp)
 
@@ -710,7 +710,7 @@ Ein Nutzer, der eine Bitcoin-Transaktion durchführen möchte, muss daher eine d
 
 Folglich muss ein Nutzer, der Bitcoins besitzt, die mit einem öffentlichen Schlüssel gesperrt sind, einen Weg finden, um das, was das Entsperren seiner Mittel ermöglicht, nämlich den privaten Schlüssel, sicher aufzubewahren. Ein Bitcoin-Wallet ist also ein Werkzeug, das es Ihnen ermöglicht, alle Ihre Schlüssel einfach zu behalten, ohne dass andere Personen Zugang dazu haben. Es ist daher eher wie ein Schlüsselbund als wie eine Brieftasche.
 
-Die mathematische Verbindung zwischen einem öffentlichen Schlüssel und einem privaten Schlüssel sowie die Fähigkeit, eine Signatur zu leisten, um den Besitz eines privaten Schlüssels zu beweisen, ohne ihn zu offenbaren, werden durch einen digitalen Signaturalgorithmus ermöglicht. Im Bitcoin-Protokoll werden 2 Signaturalgorithmen verwendet: **ECDSA** (*Elliptic Curve Digital Signature Algorithm*) und das **Schnorr-Signaturschema**. ECDSA ist das digitale Signaturprotokoll, das seit den Anfängen von Bitcoin verwendet wird. Schnorr ist in Bitcoin neuer, da es im November 2021 mit dem Taproot-Update eingeführt wurde.
+Die mathematische Verbindung zwischen einem öffentlichen Schlüssel und einem privaten Schlüssel sowie die Fähigkeit, eine Signatur zu leisten, um den Besitz eines privaten Schlüssels zu beweisen, ohne ihn zu offenbaren, werden durch einen digitalen Signaturalgorithmus ermöglicht. Im Bitcoin-Protokoll werden 2 Signaturalgorithmen verwendet: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (*[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm*) und das **Schnorr-Signaturschema**. ECDSA ist das digitale Signaturprotokoll, das seit den Anfängen von Bitcoin verwendet wird. Schnorr ist in Bitcoin neuer, da es im November 2021 mit dem Taproot-Update eingeführt wurde.
 
 Diese beiden Algorithmen sind in ihren Mechanismen recht ähnlich. Sie basieren beide auf elliptischer Kurvenkryptografie. Der Hauptunterschied zwischen diesen beiden Protokollen liegt in der Struktur der Signatur und einigen spezifischen mathematischen Eigenschaften. Wir werden daher die Funktionsweise dieser Algorithmen untersuchen, beginnend mit dem ältesten: ECDSA.
 ### Elliptische Kurvenkryptografie

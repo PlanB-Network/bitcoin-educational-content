@@ -1,0 +1,8 @@
+question: Welche spezifische Abfolge von Vorgängen führt der ScriptPubKey bei der Validierung von P2PKH-Transaktionen durch, um die Ausgabenbedingungen zu überprüfen?
+answer: Dupliziert den öffentlichen Schlüssel, hasht ihn, vergleicht ihn mit dem festgesetzten Hash und prüft dann die Signatur
+wrong_answers:
+  - Verschlüsselt die Signatur, vergleicht sie mit dem Hash des öffentlichen Schlüssels und vergleicht sie dann mit dem festgelegten Wert
+  - Überprüft zuerst die Signatur, hasst dann den öffentlichen Schlüssel und vergleicht ihn mit dem festgelegten Hashwert
+  - Kombiniert die Signatur und den öffentlichen Schlüssel, hasst das Ergebnis und vergleicht es dann mit dem festgelegten Hashwert
+explanation: |
+  Der ScriptPubKey von P2PKH folgt einer bestimmten Reihenfolge: OP_DUP OP_HASH160 <pubkey_hash> OP_EQUALVERIFY OP_CHECKSIG. Dies dupliziert den angegebenen öffentlichen Schlüssel, wendet SHA256 und dann RIPEMD160-Hashing an, überprüft das Ergebnis auf Übereinstimmung mit dem festgelegten Hash und prüft schließlich die Signatur. Die anderen Optionen beschreiben die Reihenfolge der Operationen falsch oder schlagen vor, Signaturen anstelle von öffentlichen Schlüsseln zu hashen, was die Validierungslogik durchbrechen würde.

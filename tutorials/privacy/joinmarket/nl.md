@@ -167,7 +167,7 @@ saved to wallet.jmdat
 ```
 
 
-als er een foutmelding verschijnt, is het waarschijnlijk dat we de 4 RPC velden die hierboven zijn gespecificeerd, onjuist hebben ingesteld. In dat geval kan het helpen om [deze gids] (https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/USAGE.md#configure) te volgen die je kunt vinden in de originele JoinMarket documentatie.
+als er een foutmelding verschijnt, is het waarschijnlijk dat we de 4 RPC velden die hierboven zijn gespecificeerd, onjuist hebben ingesteld. In dat geval kan het helpen om [deze gids](https://github.com/JoinMarket-Org/joinmarket-clientserver/blob/master/docs/USAGE.md#configure) te volgen die je kunt vinden in de originele JoinMarket documentatie.
 
 
 

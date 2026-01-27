@@ -1,0 +1,8 @@
+question: Mikä makromallin syntaksi vastaa oikein nollaa tai useampaa pilkulla erotettua lauseketta mukautetussa funktion kaltaisessa makrossa?
+answer: $($x:expr),*
+wrong_answers:
+  - $($x:expr)*,
+  - $[x:expr],*
+  - ${$x:expr},*
+explanation: |
+  Oikea syntaksi $($x:expr),* käyttää Rust:n toistomallia, jossa dollarimerkki johtaa toistoryhmän, $x:expr vastaa jokaista lauseketta, jossa on expr-fragmentin määrittely, pilkku toimii lausekkeiden välisenä erottimena ja tähti (*) tarkoittaa nollaa tai useampaa toistoa. Väärät vastaukset sisältävät syntaksivirheitä: $($x:expr)*, sijoittaa pilkun toistoryhmän ulkopuolelle, $[x:expr],* käyttää hakasulkeita sulkujen sijasta ja jättää dollarimerkin pois ennen x:ää, ja ${$x:expr},* käyttää sulkeiden sijasta sulkeita toistoryhmässä.

@@ -5,5 +5,5 @@ wrong_answers:
   - Transaction fees are burned during processing, gradually decreasing the available bitcoin supply
   - "The Bitcoin protocol automatically locks coins that haven't moved for extended periods to prevent inflation"
 explanation: |
-  The chapter explains that while the theoretical maximum is about 20,999,817 BTC, the actual usable supply is much lower due to human error and loss. Lost private keys make bitcoins permanently inaccessible, wallets get stolen or forgotten, and coins are sometimes sent to invalid addresses. These factors create permanent supply reduction that benefits remaining holders, as Satoshi noted that lost coins make everyone else's coins worth more.
+  While the theoretical maximum is 20,999,999.9769 BTC, the real usable supply is much lower due to human errors and losses. Lost private keys render bitcoins permanently inaccessible, wallets are stolen or forgotten, and coins are sometimes sent to invalid addresses. These factors lead to a permanent reduction in supply that benefits the remaining holders, as Satoshi noted: lost coins increase the value of other coins.
 reviewed: false

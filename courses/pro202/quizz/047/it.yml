@@ -1,0 +1,8 @@
+question: Qual è la formula matematica utilizzata per calcolare il sussidio del blocco ad ogni data altezza del blocco h nel protocollo di Bitcoin?
+answer: sovvenzione = 5_000_000_000 >> (h // 210_000)
+wrong_answers:
+  - sovvenzione = 50_000_000_000 / (2^(h / 210_000))
+  - sovvenzione = 5_000_000_000 * (0,5^(h % 210_000))
+  - sovvenzione = 50_000_000_000 >> (h % 210_000)
+explanation: |
+  La formula corretta utilizza operazioni di bit-shifting, dove 5_000_000_000 rappresenta 50 BTC in satoshi, e l'operatore right-shift >> divide effettivamente per potenze di 2. La divisione per piani h // 210_000 determina quanti periodi di dimezzamento si sono verificati. La prima risposta sbagliata utilizza la divisione regolare invece del bit-shifting e parte da un valore base errato. La seconda utilizza il modulo invece della divisione per piani, che creerebbe un modello ciclico anziché un dimezzamento progressivo. La terza utilizza l'operazione modulo, che azzera il contatore di dimezzamento ogni 210.000 blocchi invece di accumulare dimezzamenti nel tempo.

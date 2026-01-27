@@ -1,0 +1,8 @@
+question: Mikä on se matemaattinen perusta, joka tekee diskreetin logaritmin ongelmasta laskennallisesti toteuttamiskelvottoman elliptisten käyrien salauksessa?
+answer: Pisteiden arvaamaton jakautuminen, kun syklinen ryhmä muodostetaan toistuvalla pisteiden yhteenlaskulla
+wrong_answers:
+  - Elliptisten käyrien symmetriaominaisuus, joka heijastaa pisteitä x-akselin poikki
+  - Modulaariset aritmeettiset operaatiot, jotka suoritetaan äärellisillä kentillä reaalukujen sijasta
+  - Suuri alkuluku, jota käytetään kentän ominaislukuna käyräyhtälössä
+explanation: |
+  Diskreetin logaritmin ongelman vaikeus johtuu pisteiden arvaamattomasta, epälineaarisesta jakaumasta syklisen ryhmän (G, 2G, 3G, ..., nG) muodostamisessa. Vaikka pisteet generoidaan peräkkäin, ne näyttävät hajanaisilta ja satunnaisilta, joten skalaarin s määrittäminen pisteestä P = sG on laskennallisesti mahdotonta. Vaikka symmetria, modulaarinen aritmetiikka ja suuret alkuluvut ovat elliptisten käyrien tärkeitä ominaisuuksia, ne eivät suoraan luo yksisuuntaista funktiota, joka mahdollistaa turvallisen julkisen avaimen salauksen.

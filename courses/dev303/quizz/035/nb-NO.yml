@@ -1,0 +1,8 @@
+question: Hva gjør unwrap-metoden når den kalles på en Result-type i Rust?
+answer: Henter ut suksessverdien, men får panikk hvis det oppstår en feil
+wrong_answers:
+  - Returnerer None hvis det oppstår en feil, og Some hvis den lykkes
+  - Konverterer feilen til en advarsel og fortsetter kjøringen
+  - Overfører automatisk feilen til den kalende funksjonen
+explanation: |
+  Unwrap-metoden trekker ut suksessverdien fra et resultat, men får programmet til å få panikk hvis det oppstår en feil. Dette gjør den nyttig for rask prototyping eller situasjoner der du er sikker på at en operasjon vil lykkes. De andre alternativene beskriver forskjellige atferder: retur av None/Some beskriver Option-typer, konvertering av feil til advarsler er ikke et standard Rust-mønster, og automatisk feilforplantning er det spørsmålstegnoperatoren (?) gjør, ikke unwrap.

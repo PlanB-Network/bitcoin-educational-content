@@ -1,0 +1,8 @@
+question: Ni igiki kiba ku bibanza vya ScriptSig vy’ibintu vyose vyinjijwe mu gihe c’ubwubatsi bwa sighash kugira ngo hasuzumwe umukono wa ECDSA?
+answer: Ivyatsi vyose vya ScriptSig biraba ubusa, hanyuma ScriptSig y'inyungu y'ubu irasubirizwa na ScriptPubKey ihuye
+wrong_answers:
+  - Ivyatsi vyose vya ScriptSig ntibihindutse kandi bishirwa mu buryo bwavyo bw'intango mu kubara kwa sighash .
+  - "ScriptSig y'injiza y'ubu gusa ni yo ibikwa mu gihe ibindi vyose vyinjiza ScriptSig bikurwa mu gucuruza"
+  - Ivyatsi vyose vya ScriptSig birasubirizwa n'agaciro kavyo ka ScriptPubKey kuva ku bisohoka vyerekanwa
+explanation: |
+  Mu gihe c'ubwubatsi bwa sighash ku bikorwa vy'iragi, iyo nzira ibanza gukuraho ubusa ivyatsi vyose vya ScriptSig, hanyuma igasubirira gusa ivyinjijwe muri iki gihe biriko biraremezwa n'urufunguzo rwayo rwa ScriptPubKey bihuye n'ivyo ikoresha. Ivyo bituma umukono wiyemeza gukurikiza ivyangombwa vyo gukoresha amahera ataco ukora kugira ngo umukono ushire umukono aho umukono wokenera kwisinya. Ayandi mahitamwo ntabwo ari meza kuko asiga imikono mu kibanza (akarema ibidashoboka) canke agahindura ivyinjijwe vyose mu buryo bumwe (ivyo ntivyoshobora gutandukanya neza ivyinjijwe ubu).

@@ -1,0 +1,8 @@
+question: Prema Bastiatovoj analizi, logički problem sa Proudhonovom izjavom 'svojina je krađa' leži u kontradikciji samog izraza. Ako je svojina krađa, onda bi krađa bila nemoguća bez postojanja svojine. Dakle, pojam krađe podrazumeva postojanje legitimne svojine koju je moguće ukrasti, što čini izjavu kontradiktornom.
+answer: Ako je vlasništvo krađa, onda krađa postaje vlasništvo, stvarajući logičku kontradikciju.
+wrong_answers:
+  - Svojina ne može postojati bez državne regulative i pravnih okvira
+  - Krađa je moralno pogrešna dok je vlasništvo moralno ispravno u svim okolnostima
+  - Svojina zahteva fizičko posedovanje dok krađa podrazumeva privremeno prisvajanje
+explanation: |
+  Bastiat je pokazao unutrašnju logičku kontradikciju u Proudhonovoj poznatoj frazi pokazujući da, ako prihvatimo da je vlasništvo jednako krađi, onda po logičkom proširenju krađa mora biti jednaka vlasništvu. Ovo stvara nemoguće kružno rasuđivanje gde je nešto legitimno istovremeno nelegitimno. Bastiat je umesto toga tvrdio da vlasništvo prirodno proizlazi iz rada, samovlasništva i ljudskih sposobnosti, čineći ga fundamentalnim i logičkim konceptom, a ne oblikom krađe.

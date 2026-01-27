@@ -681,18 +681,18 @@ Reka tubanze tubisigure. Twibaze ko inkoranyamagambo *D* ingana inyuguti zose z�
 Igikoresho ca modulo mu gipfukisho c'ihinduka kiratuma amajambo azunguruka, kugira ngo amajambo yose y'igipfukisho asobanurwe. Kugira ngo tubone akarorero, rimbura ukuntu ijambo “IMBWA” rikoreshwa.
 
 
-Twibaze ko wahisemwo urufunguzo mu buryo bumwe kugira ngo rugire agaciro ka 17. Urudome “O” rungana na 15. Hatariho igikorwa ca modulo, kwongerako uwo mubare w’inyandiko rusangi n’urufunguzo vyoba ari umubare w’inyandiko y’ibanga 32. Ariko rero, uwo mubare w’inyandiko y’ibanga ntushobora guhindurwa urudome rw’ibanga nk’uko albet2 gusa. Igikorwa kijanye n’igikorwa ca modulo kigaragaza ko umubare w’inyandiko y’ibanga ari 6 mu vy’ukuri (igisubizo ca $32 \mod 26$), kingana n’urudome rw’inyandiko y’ibanga “G”.
+Dufate ko wahisemo igufunguzo rifise agaciro ka $17$. Inyuguti “O” ingana na $14$. Ni hatabayeho igikorwa ca modulo, guteranya ino n’umubare w’inyandiko isanzwe n’igufunguzo vyotanga umubare w’inyandiko ibishe $31$. Ariko uwo mubare ntiwoshobora guhinduka inyuguti ibishe, kuko inyuguti z’icongereza ari $26$ gusa. Igikorwa ca modulo kiratanga ko umubare w’inyandiko ibishe ari $5$ (ingaruka za $31 \mod 26$), bingana n’inyuguti ibishe “F”.
 
 
 Ijambo “IMBWA” ryose rifise agaciro k’urufunguzo rwa 17 ni iri:
 
 
 
-- Ubutumwa = IMBWA = D,O,G = 3,15,6.
+**Ubutumwa = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \uburyo 26] = [(20) \uburyo 26] = 20 = U$
-- $c_1 = [(15 + 17) \uburyo 26] = [(32) \uburyo 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \uburyo 26] = [(23) \uburyo 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 
 Umuntu wese arashobora gutahura neza ingene shift cipher ikora kandi kumbure akayikoresha we nyene. Ariko rero, kugira ngo utere imbere mu bumenyi bwawe mu vy’ubuhinga bwo gukingira amakuru, birahambaye ko utangura kumenya neza ivy’ugushiramwo amakuru mu buryo butegekanijwe, kuko imigambi izorushiriza kugorana. Ni co gituma intambwe z’uguhindura cipher zari zategekanijwe.
@@ -1329,7 +1329,7 @@ Kugira ngo uronke ibindi biganiro ku vyerekeye inyigisho y’imibare yo muri iki
 **Ivyiyumviro:**
 
 
-[3] Raba [Ividewo yo kuri YouTube] (v=NOMUnMuxDZY&feature=youtu.be)
+[3] Raba [Ividewo yo kuri YouTube](v=NOMUnMuxDZY&feature=youtu.be)
 
 
 [4] Socratique, [Igitabu c'Aligebra](https://www.socratique.com/ikiganiro/igitabu-c'Aligebra)

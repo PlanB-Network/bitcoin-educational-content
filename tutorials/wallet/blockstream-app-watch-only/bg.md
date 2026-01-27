@@ -170,7 +170,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - За **Андроид**:
-    - Изтеглете [Blockstream App] (https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) от Google Play Store.
+    - Изтеглете [Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) от Google Play Store.
     - Алтернатива: Инсталирайте чрез APK файла, наличен в [официалния GitHub на Blockstream](https://github.com/Blockstream/green_android).
 - За **iOS**:
     - Изтеглете [Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) от App Store.

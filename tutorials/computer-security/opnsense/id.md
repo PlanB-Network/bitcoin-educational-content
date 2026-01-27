@@ -57,11 +57,12 @@ Anda perlu mempertimbangkan sumber daya perangkat keras yang dibutuhkan untuk me
 
 **Sumber daya minimum dan yang direkomendasikan untuk produksi:**
 
-| Karakteristik  | Minimum | Rekomendasi  |
+
+| Fitur | Minimum | Rekomendasi |
 | --- | --- | --- |
-| Prosesor | 1 GHz - 2 core | 1.5 GHz - Multi-core |
-| Memori (RAM) | 2 GB | 8 GB |
-| Ruang penyimpanan untuk sistem | HDD, SSD, atau SD Card (4 GB) | 120 GB SSD |
+| Prosesor | 1 GHz - 2 inti | 1.5 GHz - Multi-inti |
+| RAM | 2 GB | 8 GB |
+| Ruang penyimpanan untuk sistem | Hard drive, SSD atau kartu SD (4 GB) | 120 GB di SSD |
 
 Terakhir, **kebutuhan sumber daya Anda bergantung di atas segalanya pada jumlah koneksi yang akan dikelola**, dan karenanya pada **kebutuhan bandwidth Anda**. Selain itu, **ingatlah layanan yang akan diaktifkan dan digunakan** (proxy, deteksi intrusi, dll.) karena dapat menguras CPU dan/atau RAM.
 

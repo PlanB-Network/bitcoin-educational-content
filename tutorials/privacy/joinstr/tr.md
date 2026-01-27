@@ -534,7 +534,7 @@ Joinstr şu anda ortalama **2 ila 5 katılımcıdan** oluşan havuzlar oluşturm
 
 
 
-💡 **Anonimlik kümelerini ve bunların hesaplanmasını ayrıntılı olarak anlamak için** tam kursumuza bakın: [Anonimlik kümeleri] (https://planb.academy/fr/courses/65c138b0-4161-4958-bbe3-c12916bc959c/les-ensembles-danonymat-be1093dc-1a74-40e5-9545-2b97a7d7d431).
+💡 **Anonimlik kümelerini ve bunların hesaplanmasını ayrıntılı olarak anlamak için** tam kursumuza bakın: [Anonimlik kümeleri](https://planb.academy/fr/courses/65c138b0-4161-4958-bbe3-c12916bc959c/les-ensembles-danonymat-be1093dc-1a74-40e5-9545-2b97a7d7d431).
 
 
 
@@ -542,13 +542,14 @@ Joinstr şu anda ortalama **2 ila 5 katılımcıdan** oluşan havuzlar oluşturm
 
 
 
-| Aspect | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
+
+| Yönü | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
 |--------|--------|--------------------|------------|-------------|
-| **Participants par pool** | 50-100 | 5-10 | Variable (P2P) | **2-5** |
-| **Coordinateur** | Centralisé (fermé 2024) | Centralisé (actif) | P2P maker/taker | **Aucun (Nostr)** |
-| **Résistance à la censure** | Faible | Moyenne | Très élevée | **Très élevée** |
-| **Frais de coordination** | Pourcentage | Frais d'entrée | Payés aux makers | **Aucun** |
-| **Discrimination UTXO** | Oui (blacklists) | Non | Non | **Non** |
+| **Havuz başına Katılımcılar** | 50-100 | 5-10 | Değişken (P2P) | **2-5** |
+| **Koordinatör** | Merkezi (2024 kapalı) | Merkezi (aktif) | P2P maker/taker | **Yok (Nostr)** |
+| **Sansüre Karşı Direnç** | Zayıf | Orta | Çok yüksek | **Çok yüksek** |
+| **Koordinasyon Ücretleri** | Yüzde | Giriş ücreti | Yapıcılara ödenen | **Yok** |
+| **UTXO Ayrımcılığı** | Evet (kara listeler) | Hayır | Hayır | **Hayır** |
 
 💡 **Diğer aktif CoinJoin çözümleri** :
 

@@ -234,7 +234,7 @@ https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c618
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 Чтобы посмотреть количество ремиксов на каждую из ваших работ, откройте меню `UTXOs` в аккаунте `Postmix`.
 
@@ -324,7 +324,7 @@ https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4
 
 
 
-- Покупайте предоплаченные подарочные карты или карты Visa:** Такие платформы, как [Bitrefill] (https://www.bitrefill.com/), позволяют обменивать биткоины на подарочные карты или перезаряжаемые карты Visa, которые можно использовать в магазинах. Это может быть простым и незаметным способом потратить ваши токсичные UTXO.
+- Покупайте предоплаченные подарочные карты или карты Visa:** Такие платформы, как [Bitrefill](https://www.bitrefill.com/), позволяют обменивать биткоины на подарочные карты или перезаряжаемые карты Visa, которые можно использовать в магазинах. Это может быть простым и незаметным способом потратить ваши токсичные UTXO.
 
 
 
@@ -354,7 +354,7 @@ https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
 
 
-https://planb.academy/tutorials/privacy/analysis/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
+https://planb.academy/tutorials/privacy/on-chain/remix-whirlpool-2b887bd9-8a6a-4dca-8aa9-a1c33682b0aa
 
 ## Как управлять постмиксом?
 

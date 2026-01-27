@@ -1,0 +1,8 @@
+question: Zgodnie z przedstawioną liberalną analizą, dlaczego wolność prasy miałaby być niemożliwa do utrzymania w kolektywistycznym systemie gospodarczym?
+answer: Państwo kontroluje wszystkie środki produkcji, w tym prasy drukarskie i decyduje o tym, co zostanie opublikowane
+wrong_answers:
+  - Indywidualnym dziennikarzom brakowałoby bodźców ekonomicznych do tworzenia wysokiej jakości treści
+  - Prywatne gazety byłyby zbyt drogie, by obywatele mogli je kupować w ramach cen kontrolowanych przez państwo
+  - Partie polityczne zbyt intensywnie konkurowałyby o kontrolę nad mediami, co prowadziłoby do cenzury
+explanation: |
+  Analiza liberalna identyfikuje strukturalną niemożliwość: ponieważ państwo jest właścicielem wszystkich środków produkcji w systemie kolektywistycznym, z konieczności kontroluje prasy drukarskie i infrastrukturę wydawniczą. Daje to państwu absolutną władzę decydowania o tym, co jest drukowane i dystrybuowane, uniemożliwiając niezależną wolność prasy niezależnie od intencji politycznych. Inne opcje pomijają ten fundamentalny punkt dotyczący kontroli ekonomicznej determinującej możliwości polityczne.

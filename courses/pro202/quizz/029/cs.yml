@@ -1,0 +1,8 @@
+question: Co musí uzel během ověřování transakcí Bitcoin ověřit, aby se ujistil, že každý vstup je správně autorizován k vydání odkazovaného výstupu?
+answer: ScriptSig musí při společném provedení úspěšně odemknout odpovídající ScriptPubKey
+wrong_answers:
+  - "Digitální podpis vstupu se musí přesně shodovat s vloženým veřejným klíčem výstupu."
+  - Hash transakce se musí rovnat kořenu merkle uloženému v záhlaví odkazovaného bloku
+  - Vstupní částka musí být vyšší nebo rovna výstupní částce, která se vynakládá
+explanation: |
+  Systém skriptů Bitcoin vyžaduje, aby se každý vstupní skript ScriptSig (odemykací skript) úspěšně provedl s odkazovaným výstupním skriptem ScriptPubKey (zamykací skript), aby byl na zásobníku pravdivý výsledek. Tento model spouštění skriptů umožňuje flexibilní podmínky výdajů nad rámec prosté shody signatur. Ostatní možnosti popisují nesprávné požadavky na ověřování - podpisy nemusí přesně odpovídat vloženým klíčům, hashe transakcí se při ověřování vstupů neporovnávají s kořeny merkle a jednotlivé vstupy nemusí přesahovat své výstupy (pouze celkové vstupy musí přesahovat celkové výstupy).

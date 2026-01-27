@@ -1,0 +1,8 @@
+question: Co způsobuje chybu off-by-one v OP_CHECKMULTISIG, která vyžaduje další OP_0 v holých multisig ScriptSigs?
+answer: OP_CHECKMULTISIG spotřebovává další prvek zásobníku nad rámec očekávaných podpisů a veřejných klíčů
+wrong_answers:
+  - Proces ověření podpisu vyžaduje pro správnou funkci ověření ECDSA další bajt
+  - "Implementace zásobníku Bitcoin má kontrolu hranic, která potřebuje pro zarovnání paměti výplňový prvek."
+  - Počítání prahových hodnot multisig začíná od nuly místo od jedničky, což vyžaduje hodnotu zástupného znaku offset
+explanation: |
+  Opkód OP_CHECKMULTISIG má implementační chybu, kdy během provádění vyskočí ze zásobníku o jednu položku více, než by měl. To znamená, že kromě požadovaných m podpisů a n veřejných klíčů spotřebuje další prvek zásobníku. Aby se zabránilo selhání operace, musí holé vícesignály ScriptSigs obsahovat počáteční OP_0 (který vytlačí prázdné pole bajtů), aby byla tato neočekávaná spotřeba zásobníku uspokojena. Ostatní možnosti popisují věrohodně znějící technické problémy, ale nejsou skutečnou příčinou této dobře známé zvláštnosti Bitcoin.

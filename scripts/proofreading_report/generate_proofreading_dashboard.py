@@ -10,9 +10,36 @@ import yaml
 import json
 import glob
 import os
-from datetime import datetime, timezone
+import re
+import urllib.request
+import urllib.error
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from collections import defaultdict
+
+# Load environment variables from .env file
+def load_dotenv():
+    """Load environment variables from .env file if it exists."""
+    env_path = Path(__file__).parent / '.env'
+    if env_path.exists():
+        with open(env_path, 'r') as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith('#') and '=' in line:
+                    key, value = line.split('=', 1)
+                    key = key.strip()
+                    value = value.strip().strip('"').strip("'")
+                    os.environ.setdefault(key, value)
+
+load_dotenv()
+
+# GitHub API configuration
+GITHUB_REPO = "PlanB-Network/bitcoin-educational-content"
+GITHUB_API_BASE = "https://api.github.com"
+GITHUB_CACHE_FILE = "github_pr_cache.json"
+
+# Excluded contributors from monthly leaderboard (repo managers)
+MONTHLY_EXCLUDED_CONTRIBUTORS = ['MariJJhodl']
 
 # Language names mapping
 LANGUAGE_NAMES = {
@@ -23,7 +50,7 @@ LANGUAGE_NAMES = {
     'zh-Hans': 'Chinese (Simplified)', 'zh-Hant': 'Chinese (Traditional)',
     'ko': 'Korean', 'vi': 'Vietnamese', 'hi': 'Hindi', 'id': 'Indonesian',
     'fa': 'Persian', 'tr': 'Turkish', 'sw': 'Swahili', 'rn': 'Kirundi',
-    'bg': 'Bulgarian'
+    'bg': 'Bulgarian', 'th': 'Thai'
 }
 
 # Excluded contributors from leaderboards
@@ -37,10 +64,28 @@ def calculate_status(contributors):
     count = len(contributors)
     if count == 1:
         return 1
-    elif count == 2:
+    else:  # 2 or more
         return 2
-    else:  # 3 or more
-        return 3
+
+
+def extract_english_title(content_dir):
+    """Extract the English title from en.md file."""
+    en_file = Path(content_dir) / 'en.md'
+    try:
+        if en_file.exists():
+            with open(en_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+                # Extract YAML front matter
+                if content.startswith('---'):
+                    parts = content.split('---', 2)
+                    if len(parts) >= 3:
+                        yaml_content = parts[1]
+                        yaml_data = yaml.safe_load(yaml_content)
+                        return yaml_data.get('name', '')
+        return ''
+    except Exception as e:
+        print(f"Error extracting title from {en_file}: {e}")
+        return ''
 
 
 def parse_course_file(filepath, base_dir):
@@ -52,9 +97,14 @@ def parse_course_file(filepath, base_dir):
         # Extract course ID from path
         course_id = Path(filepath).parent.name
 
+        # Extract English title from en.md file
+        course_dir = Path(filepath).parent
+        english_title = extract_english_title(course_dir)
+
         course_data = {
             'id': course_id,
             'name': data.get('name', course_id.upper()),
+            'english_title': english_title,
             'type': 'course',
             'topic': data.get('topic', 'unknown'),
             'subtopic': data.get('subtopic', ''),
@@ -101,9 +151,14 @@ def parse_tutorial_file(filepath, base_dir):
         category = parts[-3]  # tutorials/category/name/tutorial.yml
         tutorial_name = parts[-2]
 
+        # Extract English title from en.md file
+        tutorial_dir = Path(filepath).parent
+        english_title = extract_english_title(tutorial_dir)
+
         tutorial_data = {
             'id': f"{category}/{tutorial_name}",
             'name': data.get('name', tutorial_name.replace('-', ' ').title()),
+            'english_title': english_title,
             'type': 'tutorial',
             'category': category,
             'level': data.get('level', 'unknown'),
@@ -231,6 +286,635 @@ def calculate_language_stats(courses, tutorials):
     return result
 
 
+def load_github_cache():
+    """Load cached GitHub PR data if available and fresh (less than 1 hour old)."""
+    cache_path = Path(__file__).parent / GITHUB_CACHE_FILE
+    if cache_path.exists():
+        try:
+            with open(cache_path, 'r', encoding='utf-8') as f:
+                cache = json.load(f)
+            # Check if cache is fresh (less than 1 hour old)
+            cached_at = datetime.fromisoformat(cache.get('cached_at', '2000-01-01T00:00:00'))
+            if datetime.now(timezone.utc) - cached_at.replace(tzinfo=timezone.utc) < timedelta(hours=1):
+                print(f"Using cached GitHub data (cached at {cache['cached_at']})")
+                return cache.get('data')
+            else:
+                print("Cache expired, fetching fresh data...")
+        except (json.JSONDecodeError, KeyError, ValueError) as e:
+            print(f"Cache invalid: {e}")
+    return None
+
+
+def save_github_cache(data):
+    """Save GitHub PR data to cache."""
+    cache_path = Path(__file__).parent / GITHUB_CACHE_FILE
+    cache = {
+        'cached_at': datetime.now(timezone.utc).isoformat(),
+        'data': data
+    }
+    try:
+        with open(cache_path, 'w', encoding='utf-8') as f:
+            json.dump(cache, f, indent=2, default=str)
+        print(f"Cached GitHub data to {cache_path}")
+    except IOError as e:
+        print(f"Failed to save cache: {e}")
+
+
+def check_github_api_status():
+    """Check if GitHub API is accessible and show rate limit status."""
+    print("\n🔍 Checking GitHub API connection...")
+
+    headers = {
+        'User-Agent': 'Bitcoin-Educational-Content-Dashboard',
+        'Accept': 'application/vnd.github.v3+json'
+    }
+
+    github_token = os.environ.get('GITHUB_TOKEN')
+    if github_token:
+        headers['Authorization'] = f'token {github_token}'
+        print("   ✓ GITHUB_TOKEN found in environment")
+    else:
+        print("   ⚠ No GITHUB_TOKEN found - using unauthenticated access (60 req/hour)")
+
+    try:
+        req = urllib.request.Request(f"{GITHUB_API_BASE}/rate_limit", headers=headers)
+        with urllib.request.urlopen(req, timeout=10) as response:
+            data = json.loads(response.read().decode('utf-8'))
+
+            core = data['resources']['core']
+            search = data['resources']['search']
+
+            core_remaining = core['remaining']
+            core_limit = core['limit']
+            search_remaining = search['remaining']
+            search_limit = search['limit']
+
+            reset_time = datetime.fromtimestamp(core['reset'])
+
+            print(f"   ✓ GitHub API is accessible")
+            print(f"   📊 Core API: {core_remaining}/{core_limit} requests remaining")
+            print(f"   📊 Search API: {search_remaining}/{search_limit} requests remaining")
+            print(f"   ⏰ Rate limit resets at: {reset_time.strftime('%H:%M:%S')}")
+
+            if core_remaining < 50:
+                print(f"   ⚠ Warning: Low API quota remaining!")
+
+            return True, core_remaining, search_remaining
+
+    except urllib.error.HTTPError as e:
+        if e.code == 401:
+            print(f"   ✗ Invalid GITHUB_TOKEN - authentication failed")
+        else:
+            print(f"   ✗ GitHub API error: {e.code} - {e.reason}")
+        return False, 0, 0
+    except urllib.error.URLError as e:
+        print(f"   ✗ Network error: {e.reason}")
+        return False, 0, 0
+    except Exception as e:
+        print(f"   ✗ Unexpected error: {e}")
+        return False, 0, 0
+
+
+def github_api_request(url, headers=None, retry_count=3, silent=False):
+    """Make a request to the GitHub API with rate limit handling."""
+    import time
+
+    if headers is None:
+        headers = {}
+    headers['User-Agent'] = 'Bitcoin-Educational-Content-Dashboard'
+    headers['Accept'] = 'application/vnd.github.v3+json'
+
+    # Check for GitHub token in environment
+    github_token = os.environ.get('GITHUB_TOKEN')
+    if github_token:
+        headers['Authorization'] = f'token {github_token}'
+
+    for attempt in range(retry_count):
+        req = urllib.request.Request(url, headers=headers)
+        try:
+            with urllib.request.urlopen(req, timeout=30) as response:
+                return json.loads(response.read().decode('utf-8'))
+        except urllib.error.HTTPError as e:
+            if e.code == 403 or e.code == 429:
+                # Rate limited - check for retry-after header
+                retry_after = e.headers.get('Retry-After', '60')
+                try:
+                    wait_time = int(retry_after)
+                except ValueError:
+                    wait_time = 60
+
+                if attempt < retry_count - 1:
+                    # Use shorter wait for retries, max 5 seconds between retries
+                    actual_wait = min(wait_time, 2 * (attempt + 1))
+                    if not silent:
+                        print(f"      ⏳ Rate limited, waiting {actual_wait}s before retry {attempt + 2}/{retry_count}...")
+                    time.sleep(actual_wait)
+                    continue
+                else:
+                    if not silent:
+                        print(f"      ✗ Rate limit exceeded after {retry_count} attempts")
+                        if not github_token:
+                            print("      TIP: Add GITHUB_TOKEN to .env file for higher rate limits")
+                    return None
+            else:
+                if not silent:
+                    print(f"      ✗ GitHub API error: {e.code} - {e.reason}")
+                return None
+        except urllib.error.URLError as e:
+            if not silent:
+                print(f"      ✗ Network error: {e.reason}")
+            if attempt < retry_count - 1:
+                time.sleep(2)
+                continue
+            return None
+
+    return None
+
+
+def extract_language_from_path(file_path):
+    """Extract language code from a file path.
+
+    Patterns:
+    - courses/course-name/fr.md -> fr
+    - tutorials/category/tutorial-name/fr.md -> fr
+    - courses/course-name/assets/fr/... -> fr
+    """
+    # Match language code in path (2-letter or with region like zh-Hans)
+    # Common patterns: /fr.md, /fr/, /de.md, /zh-Hans.md, etc.
+
+    # Pattern for direct language file (e.g., fr.md, de.md, zh-Hans.md)
+    lang_file_match = re.search(r'/([a-z]{2}(?:-[A-Za-z]+)?)\.md$', file_path)
+    if lang_file_match:
+        return lang_file_match.group(1).lower()
+
+    # Pattern for language folder (e.g., /fr/, /de/, /zh-Hans/)
+    lang_folder_match = re.search(r'/([a-z]{2}(?:-[A-Za-z]+)?)/[^/]+$', file_path)
+    if lang_folder_match:
+        return lang_folder_match.group(1).lower()
+
+    # Pattern for assets with language subfolder
+    assets_match = re.search(r'/assets/([a-z]{2}(?:-[A-Za-z]+)?)/', file_path)
+    if assets_match:
+        return assets_match.group(1).lower()
+
+    return None
+
+
+def detect_content_type_from_path(file_path):
+    """Detect if the file is from a course or tutorial."""
+    if file_path.startswith('courses/'):
+        return 'COURSE'
+    elif file_path.startswith('tutorials/'):
+        return 'TUTORIAL'
+    return 'OTHER'
+
+
+# Mapping of language names to language codes for title/label extraction
+LANGUAGE_NAME_TO_CODE = {
+    # English variations
+    'english': 'en', 'en': 'en', 'eng': 'en',
+    # French variations
+    'french': 'fr', 'fr': 'fr', 'français': 'fr', 'francais': 'fr', 'fre': 'fr',
+    # German variations
+    'german': 'de', 'de': 'de', 'deutsch': 'de', 'ger': 'de',
+    # Spanish variations
+    'spanish': 'es', 'es': 'es', 'español': 'es', 'espanol': 'es', 'spa': 'es',
+    # Italian variations
+    'italian': 'it', 'it': 'it', 'italiano': 'it', 'ita': 'it',
+    # Portuguese variations
+    'portuguese': 'pt', 'pt': 'pt', 'português': 'pt', 'portugues': 'pt', 'por': 'pt',
+    # Dutch variations
+    'dutch': 'nl', 'nl': 'nl', 'nederlands': 'nl',
+    # Swedish variations
+    'swedish': 'sv', 'sv': 'sv', 'svenska': 'sv',
+    # Norwegian variations
+    'norwegian': 'nb-NO', 'nb-no': 'nb-NO', 'norsk': 'nb-NO',
+    # Czech variations
+    'czech': 'cs', 'cs': 'cs', 'čeština': 'cs', 'cestina': 'cs', 'cz': 'cs',
+    # Polish variations
+    'polish': 'pl', 'pl': 'pl', 'polski': 'pl', 'pol': 'pl',
+    # Russian variations
+    'russian': 'ru', 'ru': 'ru', 'русский': 'ru',
+    # Serbian variations
+    'serbian': 'sr-Latn', 'sr-latn': 'sr-Latn', 'sr latin': 'sr-Latn', 'srpski': 'sr-Latn',
+    # Estonian variations
+    'estonian': 'et', 'et': 'et', 'eesti': 'et',
+    # Japanese variations
+    'japanese': 'ja', 'ja': 'ja', '日本語': 'ja', 'jpn': 'ja',
+    # Chinese variations - Simplified
+    'chinese': 'zh-Hans', 'zh-hans': 'zh-Hans', 'simplified chinese': 'zh-Hans',
+    'simplified': 'zh-Hans', 'zh hans': 'zh-Hans',
+    # Chinese variations - Traditional
+    'traditional chinese': 'zh-Hant', 'zh-hant': 'zh-Hant', 'traditional': 'zh-Hant',
+    'zh hant': 'zh-Hant',
+    # Korean variations
+    'korean': 'ko', 'ko': 'ko', '한국어': 'ko', 'kor': 'ko',
+    # Vietnamese variations
+    'vietnamese': 'vi', 'vi': 'vi', 'tiếng việt': 'vi', 'viet': 'vi', 'vietnam': 'vi',
+    # Hindi variations
+    'hindi': 'hi', 'hi': 'hi', 'हिन्दी': 'hi',
+    # Indonesian variations
+    'indonesian': 'id', 'id': 'id', 'bahasa indonesia': 'id', 'indo': 'id',
+    # Persian variations
+    'persian': 'fa', 'fa': 'fa', 'farsi': 'fa', 'فارسی': 'fa',
+    # Turkish variations
+    'turkish': 'tr', 'tr': 'tr', 'türkçe': 'tr', 'turkce': 'tr', 'tur': 'tr',
+    # Swahili variations
+    'swahili': 'sw', 'sw': 'sw', 'kiswahili': 'sw',
+    # Kirundi variations
+    'kirundi': 'rn', 'rn': 'rn', 'rundi': 'rn',
+    # Bulgarian variations
+    'bulgarian': 'bg', 'bg': 'bg', 'български': 'bg', 'bul': 'bg',
+}
+
+
+def extract_language_from_title(title):
+    """Extract language from PR title.
+
+    Looks for language names at the end of title, typically after a dash.
+    Examples:
+    - [PROOFREADING] BTC101 - French -> fr
+    - [PROOFREADING] SCU101 + quiz - Bulgarian -> bg
+    - [PROOFREADING] BTC102 - Rundi -> rn
+    - [PROOFREADING] BTC101 only quizzes - Vietnamese -> vi
+    - [PROOFREADING] BTC202 + Quiz - Simplified Chinese -> zh-Hans
+    """
+    if not title:
+        return None
+
+    title_lower = title.lower()
+
+    # Try to find language after last dash or hyphen
+    parts = re.split(r'\s*[-–—]\s*', title_lower)
+    if len(parts) >= 2:
+        last_part = parts[-1].strip()
+        # Remove common suffixes/extras like #1234, (123), .md, quizzes, only, &, +, section, numbers
+        last_part_cleaned = re.sub(r'\s*(#\d+|\(\d+\)|\.md|quizz?e?s?|only|&|\+|section|\d+).*$', '', last_part).strip()
+
+        if last_part_cleaned in LANGUAGE_NAME_TO_CODE:
+            return LANGUAGE_NAME_TO_CODE[last_part_cleaned]
+
+        # Also check the uncleaned last part for multi-word languages like "Simplified Chinese"
+        if last_part in LANGUAGE_NAME_TO_CODE:
+            return LANGUAGE_NAME_TO_CODE[last_part]
+
+        # Check if it starts with a known language (e.g., "simplified chi..." truncated)
+        for lang_name in sorted(LANGUAGE_NAME_TO_CODE.keys(), key=len, reverse=True):
+            if last_part_cleaned.startswith(lang_name) or last_part.startswith(lang_name):
+                return LANGUAGE_NAME_TO_CODE[lang_name]
+
+    # Check full title for language names (longer names first to match "simplified chinese" before "chinese")
+    for lang_name in sorted(LANGUAGE_NAME_TO_CODE.keys(), key=len, reverse=True):
+        # Look for language name as a whole word (not part of another word)
+        if re.search(rf'\b{re.escape(lang_name)}\b', title_lower):
+            return LANGUAGE_NAME_TO_CODE[lang_name]
+
+    return None
+
+
+def extract_language_from_labels(labels):
+    """Extract language from PR labels.
+
+    Labels are typically like: 'lang:fr', 'language:french', 'French', etc.
+    """
+    if not labels:
+        return None
+
+    for label in labels:
+        label_name = label.get('name', '').lower() if isinstance(label, dict) else str(label).lower()
+
+        # Check for lang: prefix
+        lang_prefix_match = re.match(r'^lang(?:uage)?[:\-]?\s*(.+)$', label_name)
+        if lang_prefix_match:
+            lang_value = lang_prefix_match.group(1).strip()
+            if lang_value in LANGUAGE_NAME_TO_CODE:
+                return LANGUAGE_NAME_TO_CODE[lang_value]
+
+        # Check if label itself is a language name
+        if label_name in LANGUAGE_NAME_TO_CODE:
+            return LANGUAGE_NAME_TO_CODE[label_name]
+
+    return None
+
+
+def fetch_proofreading_prs_from_github(num_months=3):
+    """Fetch merged PRs with [PROOFREADING] in title from GitHub API.
+
+    Uses the Pulls API directly which includes merged_at date, avoiding
+    the need for individual PR detail fetches.
+    """
+    print("\n🔄 Fetching proofreading PRs from GitHub API...")
+
+    # Calculate date range
+    now = datetime.now(timezone.utc)
+
+    # Get first day of the month num_months ago
+    target_month = now.month - num_months + 1
+    target_year = now.year
+    while target_month <= 0:
+        target_month += 12
+        target_year -= 1
+
+    since_date = datetime(target_year, target_month, 1, tzinfo=timezone.utc)
+    since_date_str = since_date.strftime('%Y-%m-%d')
+    print(f"   📆 Searching for PRs since {since_date.strftime('%B %Y')}")
+
+    all_prs = []
+    page = 1
+    per_page = 100
+
+    # Use Pulls API endpoint which returns merged_at directly
+    # Filter by state=closed and we'll check merged_at ourselves
+    while True:
+        print(f"   🔍 Fetching page {page}...", end='', flush=True)
+
+        # List closed PRs sorted by update time (most recent first)
+        pulls_url = (
+            f"{GITHUB_API_BASE}/repos/{GITHUB_REPO}/pulls?"
+            f"state=closed&sort=updated&direction=desc&per_page={per_page}&page={page}"
+        )
+
+        result = github_api_request(pulls_url, silent=True)
+        if not result:
+            print(" ✗ (API error)")
+            break
+
+        if not result:
+            print(" (no more results)")
+            break
+
+        print(f" found {len(result)} closed PRs", end='', flush=True)
+
+        prs_added = 0
+        oldest_pr_date = None
+
+        for pr in result:
+            # Check if PR was merged (not just closed)
+            merged_at_str = pr.get('merged_at')
+            if not merged_at_str:
+                continue
+
+            merged_at = datetime.fromisoformat(merged_at_str.replace('Z', '+00:00'))
+            oldest_pr_date = merged_at
+
+            # Skip if before our date range
+            if merged_at < since_date:
+                continue
+
+            # Check if title contains [PROOFREADING]
+            title = pr.get('title', '')
+            if '[PROOFREADING]' not in title.upper():
+                continue
+
+            all_prs.append({
+                'number': pr['number'],
+                'title': title,
+                'merged_at': merged_at,
+                'user': pr['user']['login'],
+                'html_url': pr['html_url'],
+                'labels': pr.get('labels', [])  # Include labels for language detection
+            })
+            prs_added += 1
+
+        print(f" ✓ +{prs_added} proofreading PRs")
+
+        # Stop if we've gone past our date range
+        if oldest_pr_date and oldest_pr_date < since_date:
+            print(f"   📆 Reached PRs from before {since_date.strftime('%B %Y')}, stopping")
+            break
+
+        # Stop if we got fewer results than requested (last page)
+        if len(result) < per_page:
+            break
+
+        page += 1
+
+        # Safety limit
+        if page > 20:
+            print("   ⚠️  Reached page limit, stopping pagination")
+            break
+
+    print(f"\n   ✅ Found {len(all_prs)} proofreading PRs in the last {num_months} months")
+    return all_prs
+
+
+def fetch_pr_files_and_contributors(pr_number):
+    """Fetch the files changed and contributors for a specific PR."""
+    # Get files changed
+    files_url = f"{GITHUB_API_BASE}/repos/{GITHUB_REPO}/pulls/{pr_number}/files"
+    files_data = github_api_request(files_url)
+
+    files = []
+    if files_data:
+        files = [f['filename'] for f in files_data]
+
+    # Get PR details for author
+    pr_url = f"{GITHUB_API_BASE}/repos/{GITHUB_REPO}/pulls/{pr_number}"
+    pr_data = github_api_request(pr_url)
+
+    contributors = set()
+    if pr_data:
+        # Add PR author
+        author = pr_data.get('user', {}).get('login')
+        if author and author not in MONTHLY_EXCLUDED_CONTRIBUTORS:
+            contributors.add(author)
+
+    return files, list(contributors)
+
+
+def calculate_monthly_language_stats(courses=None, tutorials=None, num_months=3, skip_api=False):
+    """Calculate monthly language team statistics from GitHub PRs.
+
+    Args:
+        courses: Not used (kept for backwards compatibility)
+        tutorials: Not used (kept for backwards compatibility)
+        num_months: Number of months to fetch
+        skip_api: If True, only use cached data, don't make API calls
+    """
+
+    # Try to load from cache first
+    cached_data = load_github_cache()
+    if cached_data:
+        return cached_data
+
+    if skip_api:
+        print("⏭️  Skipping GitHub API calls (--skip-github-api flag)")
+        print("   To fetch fresh data, remove the flag or wait for rate limit reset")
+        return []
+
+    # Check API status first
+    api_ok, core_remaining, search_remaining = check_github_api_status()
+    if not api_ok:
+        print("\n❌ Cannot access GitHub API. Monthly leaderboard will be empty.")
+        return []
+
+    if core_remaining < 10 or search_remaining < 5:
+        print("\n⚠️  Insufficient API quota remaining. Skipping GitHub fetch.")
+        return []
+
+    # Fetch PRs from GitHub
+    prs = fetch_proofreading_prs_from_github(num_months)
+
+    if not prs:
+        print("❌ No PRs found or API error, returning empty stats")
+        return []
+
+    # Organize by month
+    now = datetime.now(timezone.utc)
+    monthly_data = {}
+
+    for month_offset in range(num_months):
+        # Calculate target month
+        total_months = now.year * 12 + now.month - month_offset
+        year = total_months // 12
+        month = total_months % 12
+        if month == 0:
+            month = 12
+            year -= 1
+
+        month_key = f"{year}-{month:02d}"
+        month_name = datetime(year, month, 1).strftime('%B %Y')
+
+        monthly_data[month_key] = {
+            'month_name': month_name,
+            'year': year,
+            'month': month,
+            'lang_counts': defaultdict(lambda: {
+                'count': 0,
+                'contributors': set(),
+                'content_types': defaultdict(int),
+                'pr_numbers': []
+            })
+        }
+
+    # Group PRs by month for better logging
+    prs_by_month = defaultdict(list)
+    for pr in prs:
+        month_key = f"{pr['merged_at'].year}-{pr['merged_at'].month:02d}"
+        if month_key in monthly_data:
+            prs_by_month[month_key].append(pr)
+
+    # Process PRs month by month
+    total_processed = 0
+    for month_key in sorted(prs_by_month.keys(), reverse=True):
+        month_prs = prs_by_month[month_key]
+        month_name = monthly_data[month_key]['month_name']
+
+        print(f"\n📅 Processing {month_name} ({len(month_prs)} PRs)...")
+
+        for i, pr in enumerate(month_prs):
+            total_processed += 1
+            # Show progress inline
+            print(f"   [{i+1}/{len(month_prs)}] PR #{pr['number']}: {pr['title'][:45]}...", end='', flush=True)
+
+            # Fetch files and contributors
+            files, contributors = fetch_pr_files_and_contributors(pr['number'])
+
+            # Detect languages from files
+            languages_in_pr = set()
+            content_types_in_pr = defaultdict(set)
+
+            for file_path in files:
+                lang = extract_language_from_path(file_path)
+                if lang:
+                    # Normalize language code
+                    lang = lang.lower()
+                    # Map common variations
+                    if lang == 'zh-hans':
+                        lang = 'zh-Hans'
+                    elif lang == 'zh-hant':
+                        lang = 'zh-Hant'
+                    elif lang == 'nb-no':
+                        lang = 'nb-NO'
+                    elif lang == 'sr-latn':
+                        lang = 'sr-Latn'
+
+                    languages_in_pr.add(lang)
+                    content_type = detect_content_type_from_path(file_path)
+                    content_types_in_pr[lang].add(content_type)
+
+            # If no language detected from files, try title and labels
+            lang_source = "files"
+            if not languages_in_pr:
+                # Try title first
+                title_lang = extract_language_from_title(pr['title'])
+                if title_lang:
+                    languages_in_pr.add(title_lang)
+                    lang_source = "title"
+                else:
+                    # Try labels
+                    label_lang = extract_language_from_labels(pr.get('labels', []))
+                    if label_lang:
+                        languages_in_pr.add(label_lang)
+                        lang_source = "label"
+
+            # Update monthly counts
+            lang_counts = monthly_data[month_key]['lang_counts']
+            for lang in languages_in_pr:
+                lang_counts[lang]['count'] += 1
+                lang_counts[lang]['pr_numbers'].append(pr['number'])
+
+                for contributor in contributors:
+                    lang_counts[lang]['contributors'].add(contributor)
+
+                for content_type in content_types_in_pr[lang]:
+                    if content_type in ('COURSE', 'TUTORIAL'):
+                        lang_counts[lang]['content_types'][content_type] += 1
+
+            # Show detected languages
+            if languages_in_pr:
+                source_indicator = f" ({lang_source})" if lang_source != "files" else ""
+                print(f" ✓ [{', '.join(sorted(languages_in_pr))}]{source_indicator}")
+            else:
+                print(f" (no language detected)")
+
+        # Summary for this month
+        month_langs = monthly_data[month_key]['lang_counts']
+        if month_langs:
+            top_langs = sorted(month_langs.items(), key=lambda x: x[1]['count'], reverse=True)[:3]
+            top_str = ', '.join([f"{l[0].upper()}:{l[1]['count']}" for l in top_langs])
+            print(f"   ✅ {month_name} complete - Top languages: {top_str}")
+
+    # Convert to final format
+    monthly_stats = []
+    for month_key in sorted(monthly_data.keys(), reverse=True):
+        data = monthly_data[month_key]
+        lang_counts = data['lang_counts']
+
+        languages = []
+        for lang_code, counts in sorted(lang_counts.items(), key=lambda x: x[1]['count'], reverse=True):
+            languages.append({
+                'language': lang_code,
+                'total_prs': counts['count'],
+                'contributors': sorted(list(counts['contributors'])),
+                'contributor_count': len(counts['contributors']),
+                'courses': counts['content_types'].get('COURSE', 0),
+                'tutorials': counts['content_types'].get('TUTORIAL', 0),
+                'pr_numbers': counts['pr_numbers']
+            })
+
+        monthly_stats.append({
+            'month_name': data['month_name'],
+            'year': data['year'],
+            'month': data['month'],
+            'languages': languages
+        })
+
+    # Final summary
+    print(f"\n📊 Monthly Leaderboard Summary:")
+    for month in monthly_stats:
+        if month['languages']:
+            top = month['languages'][0]
+            print(f"   {month['month_name']}: {top['language'].upper()} leads with {top['total_prs']} PRs ({len(month['languages'])} languages active)")
+        else:
+            print(f"   {month['month_name']}: No activity")
+
+    # Save to cache for future runs
+    save_github_cache(monthly_stats)
+
+    return monthly_stats
+
+
 def get_recent_contributions(courses, tutorials, limit=10):
     """Get the most recent contributions with dates across all content."""
     recent_contributions = []
@@ -272,8 +956,12 @@ def get_recent_contributions(courses, tutorials, limit=10):
     return recent_contributions[:limit]
 
 
-def extract_all_data():
-    """Extract all proofreading data from courses and tutorials."""
+def extract_all_data(skip_github_api=False):
+    """Extract all proofreading data from courses and tutorials.
+
+    Args:
+        skip_github_api: If True, skip GitHub API calls for monthly leaderboard
+    """
     print("Extracting proofreading data...")
 
     # Get base directory
@@ -314,6 +1002,11 @@ def extract_all_data():
     # Get recent contributions
     recent_contributions = get_recent_contributions(courses, tutorials, limit=10)
 
+    # Calculate monthly language team statistics for the last 3 months (from GitHub API)
+    monthly_language_stats = calculate_monthly_language_stats(
+        courses, tutorials, num_months=3, skip_api=skip_github_api
+    )
+
     # Prepare languages list
     languages = [{'code': code, 'name': name} for code, name in sorted(LANGUAGE_NAMES.items())]
 
@@ -338,7 +1031,8 @@ def extract_all_data():
         'course_contributor_stats': course_contributor_stats,
         'tutorial_contributor_stats': tutorial_contributor_stats,
         'language_stats': language_stats,
-        'recent_contributions': recent_contributions
+        'recent_contributions': recent_contributions,
+        'monthly_language_stats': monthly_language_stats
     }
 
     print(f"Extracted {len(courses)} courses and {len(tutorials)} tutorials")
@@ -367,14 +1061,13 @@ def generate_html(data):
             --color-text: #2c3e50;
             --color-text-light: #7f8c8d;
             --color-border: #e1e8ed;
-            --color-primary: #3498db;
-            --color-primary-dark: #2980b9;
+            --color-primary: #ff6b00;
+            --color-primary-dark: #cc5500;
             --color-status-0: #e74c3c;
-            --color-status-1: #e67e22;
-            --color-status-2: #f39c12;
-            --color-status-3: #27ae60;
+            --color-status-1: #f39c12;
+            --color-status-2: #27ae60;
             --color-hover: #ecf0f1;
-            --color-purple: #9b59b6;
+            --color-purple: #ff8c42;
         }}
 
         * {{
@@ -424,7 +1117,7 @@ def generate_html(data):
         .section h2 {{
             font-size: 1.5rem;
             margin-bottom: 1.5rem;
-            color: var(--color-primary);
+            color: #000000;
             border-bottom: 2px solid var(--color-border);
             padding-bottom: 0.5rem;
         }}
@@ -591,12 +1284,12 @@ def generate_html(data):
         }}
 
         .matrix-table th {{
-            background: var(--color-purple);
-            color: white;
+            background: #dfe4ea;
+            color: #000000;
             padding: 0.75rem;
             text-align: center;
             font-weight: 600;
-            border: 1px solid var(--color-border);
+            border: 2px solid #ffffff;
             position: sticky;
             top: 0;
             z-index: 10;
@@ -643,12 +1336,12 @@ def generate_html(data):
         }}
 
         .matrix-complete {{
-            background: var(--color-status-3);
+            background: var(--color-status-2);
             color: white;
         }}
 
         .matrix-partial {{
-            background: var(--color-status-2);
+            background: var(--color-status-1);
             color: white;
         }}
 
@@ -728,7 +1421,6 @@ def generate_html(data):
         .status-0 {{ background: var(--color-status-0); }}
         .status-1 {{ background: var(--color-status-1); }}
         .status-2 {{ background: var(--color-status-2); }}
-        .status-3 {{ background: var(--color-status-3); }}
 
         .level-badge {{
             background: var(--color-purple);
@@ -746,11 +1438,12 @@ def generate_html(data):
         }}
 
         .lang-stats-table th {{
-            background: var(--color-bg);
+            background: #dfe4ea;
+            color: #000000;
             padding: 0.75rem;
             text-align: left;
             font-weight: 600;
-            border-bottom: 2px solid var(--color-border);
+            border: 2px solid #ffffff;
         }}
 
         .lang-stats-table td {{
@@ -953,7 +1646,7 @@ def generate_html(data):
         .toc-section h2 {{
             font-size: 1.3rem;
             margin-bottom: 1rem;
-            color: var(--color-primary);
+            color: #000000;
         }}
 
         .toc-nav {{
@@ -1018,6 +1711,226 @@ def generate_html(data):
             scroll-behavior: smooth;
         }}
 
+        /* Monthly Language Team Leaderboard */
+        .monthly-leaderboard-section {{
+            margin-top: 2rem;
+        }}
+
+        .monthly-leaderboard-tabs {{
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }}
+
+        .monthly-tab {{
+            padding: 0.75rem 1.5rem;
+            cursor: pointer;
+            border: 2px solid var(--color-border);
+            background: white;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            color: var(--color-text);
+            transition: all 0.2s;
+        }}
+
+        .monthly-tab:hover {{
+            border-color: var(--color-primary);
+            background: var(--color-bg);
+        }}
+
+        .monthly-tab.active {{
+            background: var(--color-primary);
+            color: white;
+            border-color: var(--color-primary);
+            font-weight: 600;
+        }}
+
+        .monthly-tab-content {{
+            display: none;
+        }}
+
+        .monthly-tab-content.active {{
+            display: block;
+        }}
+
+        .monthly-intro {{
+            background: linear-gradient(135deg, #ff6b00 0%, #cc5500 100%);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+        }}
+
+        .monthly-intro h3 {{
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }}
+
+        .monthly-intro p {{
+            margin: 0.5rem 0;
+            opacity: 0.95;
+            line-height: 1.5;
+        }}
+
+        .podium-container {{
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            padding: 1rem;
+        }}
+
+        .podium-place {{
+            text-align: center;
+            padding: 1rem;
+            border-radius: 8px;
+            min-width: 150px;
+            transition: transform 0.3s;
+        }}
+
+        .podium-place:hover {{
+            transform: translateY(-5px);
+        }}
+
+        .podium-first {{
+            background: linear-gradient(180deg, #FFD700 0%, #FFA500 100%);
+            order: 2;
+            padding-bottom: 3rem;
+        }}
+
+        .podium-second {{
+            background: linear-gradient(180deg, #C0C0C0 0%, #A8A8A8 100%);
+            order: 1;
+            padding-bottom: 2rem;
+        }}
+
+        .podium-third {{
+            background: linear-gradient(180deg, #CD7F32 0%, #B8860B 100%);
+            order: 3;
+            padding-bottom: 1.5rem;
+        }}
+
+        .podium-medal {{
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }}
+
+        .podium-lang {{
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #333;
+            text-transform: uppercase;
+            margin-bottom: 0.25rem;
+        }}
+
+        .podium-lang-name {{
+            font-size: 0.85rem;
+            color: #555;
+            margin-bottom: 0.5rem;
+        }}
+
+        .podium-count {{
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: #333;
+        }}
+
+        .podium-label {{
+            font-size: 0.75rem;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }}
+
+        .monthly-full-list {{
+            margin-top: 1.5rem;
+        }}
+
+        .monthly-full-list h4 {{
+            margin-bottom: 1rem;
+            color: var(--color-text);
+            font-size: 1.1rem;
+        }}
+
+        .monthly-lang-table {{
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }}
+
+        .monthly-lang-table th {{
+            background: #dfe4ea;
+            color: #000000;
+            padding: 0.75rem;
+            text-align: left;
+            font-weight: 600;
+            border: 2px solid #ffffff;
+        }}
+
+        .monthly-lang-table td {{
+            padding: 0.75rem;
+            border-bottom: 1px solid var(--color-border);
+        }}
+
+        .monthly-lang-table tr:hover {{
+            background: var(--color-hover);
+        }}
+
+        .monthly-rank {{
+            font-weight: 700;
+            color: var(--color-primary);
+            width: 50px;
+        }}
+
+        .monthly-empty {{
+            text-align: center;
+            padding: 2rem;
+            color: var(--color-text-light);
+            font-style: italic;
+        }}
+
+        .contributor-avatars {{
+            display: flex;
+            gap: -8px;
+        }}
+
+        .contributor-avatars img {{
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            border: 2px solid white;
+            margin-left: -8px;
+        }}
+
+        .contributor-avatars img:first-child {{
+            margin-left: 0;
+        }}
+
+        /* Responsive Monthly Leaderboard */
+        @media (max-width: 768px) {{
+            .podium-container {{
+                flex-direction: column;
+                align-items: stretch;
+            }}
+
+            .podium-place {{
+                order: unset !important;
+                padding-bottom: 1rem !important;
+            }}
+
+            .monthly-tab {{
+                flex: 1;
+                text-align: center;
+                padding: 0.5rem 1rem;
+                font-size: 0.85rem;
+            }}
+        }}
+
         /* Responsive TOC */
         @media (max-width: 768px) {{
             .toc-nav {{
@@ -1035,6 +1948,169 @@ def generate_html(data):
                 width: 45px;
                 height: 45px;
                 font-size: 1.3rem;
+            }}
+        }}
+
+        /* Resources Section at Bottom */
+        .resources-section {{
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 3rem 2rem;
+            margin-top: 3rem;
+            border-top: 3px solid var(--color-primary);
+        }}
+
+        .resources-container {{
+            max-width: 1200px;
+            margin: 0 auto;
+        }}
+
+        .resources-section h2 {{
+            text-align: center;
+            color: var(--color-primary);
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }}
+
+        .resources-intro {{
+            text-align: center;
+            color: var(--color-text-light);
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }}
+
+        .resources-grid {{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }}
+
+        .resource-card {{
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-decoration: none;
+            color: var(--color-text);
+            transition: all 0.3s;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border: 2px solid transparent;
+            display: block;
+        }}
+
+        .resource-card:hover {{
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+            border-color: var(--color-primary);
+        }}
+
+        .resource-card-icon {{
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            display: block;
+        }}
+
+        .resource-card-title {{
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: var(--color-text);
+        }}
+
+        .resource-card-desc {{
+            font-size: 0.9rem;
+            color: var(--color-text-light);
+            line-height: 1.5;
+        }}
+
+        .resource-type-badge {{
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            background: var(--color-primary);
+            color: white;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            margin-top: 0.5rem;
+            font-weight: 600;
+        }}
+
+        /* Thank You Section */
+        .thank-you-section {{
+            background: var(--color-card);
+            color: var(--color-text);
+            padding: 3rem 2rem;
+            text-align: center;
+            border-top: 4px solid var(--color-primary);
+        }}
+
+        .thank-you-section h2 {{
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--color-text);
+        }}
+
+        .thank-you-section p {{
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+            color: var(--color-text);
+        }}
+
+        .community-links {{
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }}
+
+        .community-link {{
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }}
+
+        .community-link.telegram {{
+            background: #0088cc;
+            color: white;
+        }}
+
+        .community-link.telegram:hover {{
+            background: #006699;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,136,204,0.3);
+        }}
+
+        .community-link.discord {{
+            background: #5865F2;
+            color: white;
+        }}
+
+        .community-link.discord:hover {{
+            background: #4752C4;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(88,101,242,0.3);
+        }}
+
+        .community-icon {{
+            font-size: 1.5rem;
+        }}
+
+        @media (max-width: 768px) {{
+            .community-links {{
+                flex-direction: column;
+                align-items: stretch;
+            }}
+
+            .community-link {{
+                width: 100%;
+                justify-content: center;
             }}
         }}
     </style>
@@ -1059,6 +2135,8 @@ def generate_html(data):
                 <a href="#contribution-finder" class="toc-link">🎯 Contribution Finder</a>
                 <a href="#recent-contributions" class="toc-link">🕒 Last Proofreading Contributions</a>
                 <a href="#leaderboards" class="toc-link">🏆 Leaderboards</a>
+                <a href="#monthly-leaderboard" class="toc-link">📅 Monthly Language Team Leaderboard</a>
+                <a href="#resources" class="toc-link">📚 Proofreading Resources</a>
             </nav>
         </div>
 
@@ -1247,6 +2325,21 @@ def generate_html(data):
                 </div>
             </div>
         </div>
+
+        <!-- Section 5: Monthly Language Team Leaderboard -->
+        <div class="section">
+            <h2 id="monthly-leaderboard">📅 Monthly Language Team Leaderboard</h2>
+
+            <div class="monthly-leaderboard-section">
+                <div class="monthly-leaderboard-tabs" id="monthly-tabs">
+                    <!-- Tabs will be populated by JavaScript -->
+                </div>
+
+                <div id="monthly-content">
+                    <!-- Content will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
     </div>
 
     <script>
@@ -1290,6 +2383,9 @@ def generate_html(data):
             renderCourseContributors();
             renderTutorialContributors();
 
+            // Render monthly language team leaderboard
+            renderMonthlyLeaderboard();
+
             console.log('Dashboard initialized successfully');
         }}
 
@@ -1304,7 +2400,7 @@ def generate_html(data):
 
             [...courses, ...tutorials].forEach(item => {{
                 item.proofreading.forEach(pr => {{
-                    if (pr.status === 3) completeCount++;
+                    if (pr.status === 2) completeCount++;
                     if (pr.status === 0) urgentCount++;
                 }});
             }});
@@ -1491,7 +2587,7 @@ def generate_html(data):
 
             // Render header
             const header = document.getElementById('matrix-header');
-            header.innerHTML = '<th>Content</th>';
+            header.innerHTML = '<th>English Title</th><th>Code</th>';
             filteredLanguages.forEach(lang => {{
                 const th = document.createElement('th');
                 th.textContent = lang.code.toUpperCase();
@@ -1505,14 +2601,14 @@ def generate_html(data):
 
             if (data.length === 0) {{
                 const tr = document.createElement('tr');
-                tr.innerHTML = `<td colspan="${{filteredLanguages.length + 1}}" class="empty-state">No content found</td>`;
+                tr.innerHTML = `<td colspan="${{filteredLanguages.length + 2}}" class="empty-state">No content found</td>`;
                 tbody.appendChild(tr);
                 return;
             }}
 
             if (filteredLanguages.length === 0) {{
                 const tr = document.createElement('tr');
-                tr.innerHTML = `<td colspan="1" class="empty-state">Please select at least one language</td>`;
+                tr.innerHTML = `<td colspan="2" class="empty-state">Please select at least one language</td>`;
                 tbody.appendChild(tr);
                 return;
             }}
@@ -1520,11 +2616,17 @@ def generate_html(data):
             data.forEach(item => {{
                 const tr = document.createElement('tr');
 
-                // Content name cell
-                const nameTd = document.createElement('td');
-                nameTd.textContent = item.id;
-                nameTd.title = item.name;
-                tr.appendChild(nameTd);
+                // English title cell
+                const titleTd = document.createElement('td');
+                titleTd.textContent = item.english_title || '';
+                titleTd.title = item.english_title || '';
+                tr.appendChild(titleTd);
+
+                // Content code cell
+                const codeTd = document.createElement('td');
+                codeTd.textContent = item.id;
+                codeTd.title = item.name;
+                tr.appendChild(codeTd);
 
                 // Language cells (only for selected languages)
                 filteredLanguages.forEach(lang => {{
@@ -1532,14 +2634,13 @@ def generate_html(data):
                     const pr = item.proofreading.find(p => p.language === lang.code);
 
                     if (pr) {{
-                        const status = pr.status; // 0, 1, 2, or 3
-                        const total = 3;
+                        const status = pr.status; // 0, 1, or 2
+                        const total = 2;
                         const contributorCount = status;
-                        const percentage = Math.round((status / 3) * 100);
+                        const percentage = Math.round((status / 2) * 100);
 
                         let className = 'matrix-empty';
-                        if (status === 3) className = 'matrix-complete';
-                        else if (status === 2) className = 'matrix-partial';
+                        if (status === 2) className = 'matrix-complete';
                         else if (status === 1) className = 'matrix-partial';
 
                         td.className = className;
@@ -1636,8 +2737,8 @@ def generate_html(data):
 
             allItems.forEach(item => {{
                 const pr = item.proofreading;
-                const statusText = ['Urgent - No Contributors', 'Needs Review - 1 Contributor', 'In Progress - 2 Contributors', 'Complete - 3+ Contributors'][pr.status];
-                const contributorsNeeded = Math.max(0, 3 - pr.contributors.length);
+                const statusText = ['Urgent - No Contributors', 'In Progress - 1 Contributor', 'Complete - 2+ Contributors'][pr.status];
+                const contributorsNeeded = Math.max(0, 2 - pr.contributors.length);
                 const lastUpdate = pr.last_date ? `Last updated: ${{pr.last_date}}` : 'Never updated';
 
                 const div = document.createElement('div');
@@ -1765,7 +2866,7 @@ def generate_html(data):
                 const languageName = lang ? lang.name : contribution.language.toUpperCase();
                 const date = new Date(contribution.date);
                 const formattedDate = date.toLocaleDateString('en-US', {{ year: 'numeric', month: 'short', day: 'numeric' }});
-                const statusText = ['Needs Proofreading', 'In Progress (1)', 'In Progress (2)', 'Complete (3+)'][contribution.status];
+                const statusText = ['Needs Proofreading', 'In Progress (1/2)', 'Complete (2/2)'][contribution.status];
 
                 const div = document.createElement('div');
                 div.className = 'contribution-item';
@@ -1790,6 +2891,174 @@ def generate_html(data):
 
                 contentDiv.appendChild(div);
             }});
+        }}
+
+        function renderMonthlyLeaderboard() {{
+            const {{ monthly_language_stats, languages }} = PROOFREADING_DATA;
+            const tabsDiv = document.getElementById('monthly-tabs');
+            const contentDiv = document.getElementById('monthly-content');
+
+            if (!monthly_language_stats || monthly_language_stats.length === 0) {{
+                contentDiv.innerHTML = '<div class="monthly-empty">No monthly data available</div>';
+                return;
+            }}
+
+            // Create tabs
+            tabsDiv.innerHTML = '';
+            monthly_language_stats.forEach((monthData, index) => {{
+                const tab = document.createElement('button');
+                tab.className = `monthly-tab ${{index === 0 ? 'active' : ''}}`;
+                tab.dataset.monthIndex = index;
+                tab.textContent = monthData.month_name;
+                tab.addEventListener('click', () => switchMonthlyTab(index));
+                tabsDiv.appendChild(tab);
+            }});
+
+            // Render first month by default
+            renderMonthlyContent(0);
+        }}
+
+        function switchMonthlyTab(index) {{
+            // Update tab active states
+            document.querySelectorAll('.monthly-tab').forEach((tab, i) => {{
+                tab.classList.toggle('active', i === index);
+            }});
+
+            renderMonthlyContent(index);
+        }}
+
+        function renderMonthlyContent(monthIndex) {{
+            const {{ monthly_language_stats, languages }} = PROOFREADING_DATA;
+            const monthData = monthly_language_stats[monthIndex];
+            const contentDiv = document.getElementById('monthly-content');
+
+            if (!monthData || monthData.languages.length === 0) {{
+                contentDiv.innerHTML = `
+                    <div class="monthly-intro">
+                        <h3>⚡️ ${{monthData?.month_name || 'Unknown Month'}} Proofreading Leaderboard</h3>
+                        <p>No proofreading activity recorded for this month yet.</p>
+                    </div>
+                `;
+                return;
+            }}
+
+            const top3 = monthData.languages.slice(0, 3);
+            const allLangs = monthData.languages;
+
+            // Generate intro message based on position
+            const firstLang = top3[0];
+            const firstLangName = languages.find(l => l.code === firstLang.language)?.name || firstLang.language.toUpperCase();
+            const secondLangName = top3[1] ? (languages.find(l => l.code === top3[1].language)?.name || top3[1].language.toUpperCase()) : null;
+            const thirdLangName = top3[2] ? (languages.find(l => l.code === top3[2].language)?.name || top3[2].language.toUpperCase()) : null;
+
+            let introMessage = `⚡️ Here we go with the leaderboard of ${{monthData.month_name}} proofreading!`;
+            let detailMessage = '';
+
+            if (firstLang) {{
+                detailMessage = `❕ The ${{firstLangName}} team leads the way with a total of ${{firstLang.total_prs}} proofreading PR${{firstLang.total_prs > 1 ? 's' : ''}}`;
+                if (secondLangName && thirdLangName) {{
+                    detailMessage += `, while ${{secondLangName}} and ${{thirdLangName}} are coming close in second and third place.`;
+                }} else if (secondLangName) {{
+                    detailMessage += `, with ${{secondLangName}} in second place.`;
+                }} else {{
+                    detailMessage += '.';
+                }}
+            }}
+
+            // Determine the next month name for the teaser
+            const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+            const nextMonthIndex = (monthData.month % 12);
+            const nextMonthName = months[nextMonthIndex];
+
+            let html = `
+                <div class="monthly-intro">
+                    <h3>⚡️ ${{monthData.month_name}} Proofreading Leaderboard</h3>
+                    <p>${{introMessage}}</p>
+                    <p>${{detailMessage}}</p>
+                    <p>😎 Let's see if another team can overcome them in ${{nextMonthName}}. Lots of news coming up, and maybe a new proofreading challenge too 😉</p>
+                    <p>Keep up the good work guys 🚀</p>
+                </div>
+            `;
+
+            // Podium for top 3
+            if (top3.length > 0) {{
+                html += '<div class="podium-container">';
+
+                top3.forEach((lang, index) => {{
+                    const langInfo = languages.find(l => l.code === lang.language);
+                    const langName = langInfo?.name || lang.language.toUpperCase();
+                    const medals = ['🥇', '🥈', '🥉'];
+                    const placeClasses = ['podium-first', 'podium-second', 'podium-third'];
+
+                    html += `
+                        <div class="podium-place ${{placeClasses[index]}}">
+                            <div class="podium-medal">${{medals[index]}}</div>
+                            <div class="podium-lang">${{lang.language.toUpperCase()}}</div>
+                            <div class="podium-lang-name">${{langName}}</div>
+                            <div class="podium-count">${{lang.total_prs}}</div>
+                            <div class="podium-label">PR${{lang.total_prs > 1 ? 's' : ''}}</div>
+                        </div>
+                    `;
+                }});
+
+                html += '</div>';
+            }}
+
+            // Full list table
+            html += `
+                <div class="monthly-full-list">
+                    <h4>📊 Full Rankings for ${{monthData.month_name}}</h4>
+                    <table class="monthly-lang-table">
+                        <thead>
+                            <tr>
+                                <th>Rank</th>
+                                <th>Language</th>
+                                <th>Total PRs</th>
+                                <th>Courses</th>
+                                <th>Tutorials</th>
+                                <th>Contributors</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+            `;
+
+            allLangs.forEach((lang, index) => {{
+                const langInfo = languages.find(l => l.code === lang.language);
+                const langName = langInfo?.name || lang.language.toUpperCase();
+                const rank = index < 3 ? ['🥇', '🥈', '🥉'][index] : `#${{index + 1}}`;
+
+                // Generate contributor avatars
+                let avatarsHtml = '<div class="contributor-avatars">';
+                lang.contributors.slice(0, 5).forEach(contributor => {{
+                    avatarsHtml += `<img src="https://github.com/${{contributor}}.png" alt="${{contributor}}" title="${{contributor}}" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Crect fill=%22%23ddd%22 width=%22100%22 height=%22100%22/%3E%3Ctext x=%2250%22 y=%2250%22 fill=%22%23999%22 text-anchor=%22middle%22 dy=%22.3em%22 font-family=%22sans-serif%22 font-size=%2240%22%3E?%3C/text%3E%3C/svg%3E'">`;
+                }});
+                if (lang.contributors.length > 5) {{
+                    avatarsHtml += `<span style="margin-left: 4px; color: #666;">+${{lang.contributors.length - 5}}</span>`;
+                }}
+                avatarsHtml += '</div>';
+
+                html += `
+                    <tr>
+                        <td class="monthly-rank">${{rank}}</td>
+                        <td>
+                            <strong>${{lang.language.toUpperCase()}}</strong>
+                            <span style="color: #666; font-size: 0.85rem;"> - ${{langName}}</span>
+                        </td>
+                        <td><strong>${{lang.total_prs}}</strong></td>
+                        <td>${{lang.courses}}</td>
+                        <td>${{lang.tutorials}}</td>
+                        <td>${{avatarsHtml}}</td>
+                    </tr>
+                `;
+            }});
+
+            html += `
+                        </tbody>
+                    </table>
+                </div>
+            `;
+
+            contentDiv.innerHTML = html;
         }}
 
         function setupEventListeners() {{
@@ -1885,6 +3154,76 @@ def generate_html(data):
         }});
     </script>
 
+    <!-- Resources Section at Bottom -->
+    <section class="resources-section" id="resources">
+        <div class="resources-container">
+            <h2>📚 Proofreading Resources</h2>
+            <p class="resources-intro">
+                Learn how to proofread and review content effectively with our comprehensive guides and video tutorials
+            </p>
+
+            <div class="resources-grid">
+                <a href="https://planb.academy/en/tutorials/contribution/content/proofreading-guidelines-52348db0-8cd0-4658-9de4-0e8c25bea1a0"
+                   target="_blank" class="resource-card">
+                    <span class="resource-card-icon">📖</span>
+                    <div class="resource-card-title">Proofreading Guidelines</div>
+                    <div class="resource-card-desc">
+                        Complete guide on how to proofread educational content. Learn best practices, common mistakes, and quality standards.
+                    </div>
+                    <span class="resource-type-badge">GUIDE</span>
+                </a>
+
+                <a href="https://planb.academy/en/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017"
+                   target="_blank" class="resource-card">
+                    <span class="resource-card-icon">✅</span>
+                    <div class="resource-card-title">Review Tutorial</div>
+                    <div class="resource-card-desc">
+                        Step-by-step tutorial on reviewing and approving proofreading submissions in the platform.
+                    </div>
+                    <span class="resource-type-badge">TUTORIAL</span>
+                </a>
+
+                <a href="https://workspace.planb.network/s/7FK5scZRK5cxRmf"
+                   target="_blank" class="resource-card">
+                    <span class="resource-card-icon">🎥</span>
+                    <div class="resource-card-title">General Proofreading Process</div>
+                    <div class="resource-card-desc">
+                        Watch this video walkthrough of the complete proofreading workflow on GitHub, from start to finish.
+                    </div>
+                    <span class="resource-type-badge">VIDEO</span>
+                </a>
+
+                <a href="https://workspace.planb.network/s/RXq3ALHWZidASLD"
+                   target="_blank" class="resource-card">
+                    <span class="resource-card-icon">🎥</span>
+                    <div class="resource-card-title">Proofread Quizzes and Tutorial Sections</div>
+                    <div class="resource-card-desc">
+                        Learn how to proofread tutorial quizzes and course sections effectively using GitHub's review tools.
+                    </div>
+                    <span class="resource-type-badge">VIDEO</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Thank You Section -->
+    <section class="thank-you-section">
+        <h2>🙏 Thank You!</h2>
+        <p>Thank you to everyone who contributes to making Bitcoin education accessible worldwide.</p>
+        <p>Join the Plan ₿ Community and start proofreading now!</p>
+        <p style="font-size: 1rem; margin-top: 0.5rem; color: var(--color-text-light);">You only need to tag the admin to receive your first proofreading task!</p>
+        <div class="community-links">
+            <a href="https://t.me/PlanBNetwork_ContentBuilder" target="_blank" class="community-link telegram">
+                <span class="community-icon">💬</span>
+                <span>Join us on Telegram</span>
+            </a>
+            <a href="https://discord.com/invite/q9CFPmRNAD" target="_blank" class="community-link discord">
+                <span class="community-icon">💬</span>
+                <span>Join us on Discord</span>
+            </a>
+        </div>
+    </section>
+
     <!-- Back to Top Button -->
     <button class="back-to-top" aria-label="Back to top">↑</button>
 </body>
@@ -1895,12 +3234,36 @@ def generate_html(data):
 
 def main():
     """Main function to generate the dashboard."""
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description='Generate Bitcoin Educational Content Proofreading Dashboard'
+    )
+    parser.add_argument(
+        '--skip-github-api',
+        action='store_true',
+        help='Skip GitHub API calls (use cached data only for monthly leaderboard)'
+    )
+    parser.add_argument(
+        '--clear-cache',
+        action='store_true',
+        help='Clear the GitHub PR cache before fetching'
+    )
+    args = parser.parse_args()
+
     print("=" * 60)
     print("Bitcoin Educational Content - Proofreading Dashboard Generator")
     print("=" * 60)
 
+    # Clear cache if requested
+    if args.clear_cache:
+        cache_path = Path(__file__).parent / GITHUB_CACHE_FILE
+        if cache_path.exists():
+            cache_path.unlink()
+            print("Cleared GitHub PR cache")
+
     # Extract data
-    data = extract_all_data()
+    data = extract_all_data(skip_github_api=args.skip_github_api)
 
     # Generate HTML
     print("\nGenerating HTML dashboard...")

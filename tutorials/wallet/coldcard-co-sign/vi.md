@@ -1,5 +1,5 @@
 ---
-name: COLDCARD - Đồng ký
+name: COLDCARD - Co-Sign
 description: Khám phá tính năng Đồng ký và sử dụng trên COLDCARD của bạn
 ---
 

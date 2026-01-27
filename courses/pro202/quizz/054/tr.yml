@@ -1,0 +1,8 @@
+question: Bitcoin'ın P2P ağ el sıkışma sürecinde, iki düğümün envanterleri ve işlem verilerini aktif olarak aktarmaya başlayabilmesi için hangi özel koşulun karşılanması gerekir?
+answer: Her iki düğüm de birbirleriyle sürüm ve verack mesajları alışverişinde bulunmalıdır
+wrong_answers:
+  - Bağlantı düğümü çekirdek geliştiricilerden DNS seed onayı almalıdır
+  - "Her iki düğüm de birbirlerinin blok yüksekliğini ve zincir ucu özetini doğrulamalıdır"
+  - "Alıcı düğüm, bağlanan düğümün eş sertifikasını doğrulamalıdır"
+explanation: |
+  Bitcoin P2P el sıkışması, bağlanan düğümün bir sürüm mesajı gönderdiği, alıcının verack ve kendi sürüm mesajı ile yanıt verdiği ve orijinal göndericinin verack ile yanıt verdiği çift yönlü bir değişim gerektirir. Düğümler ancak bu dört mesajlık alışverişten sonra (version→verack+version→verack) aktif iletişime başlayabilir. DNS tohumları yalnızca ilk eş keşfi için kullanılır, el sıkışma için kullanılmaz. Bitcoin sertifika kullanmaz ve zincir doğrulaması bağlantı kurulduktan sonra gerçekleşir.

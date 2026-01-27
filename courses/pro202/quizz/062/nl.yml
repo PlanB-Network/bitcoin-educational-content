@@ -1,0 +1,8 @@
+question: Waarom moet er in de getuigenstapel van een P2WSH-transactie voor een 2-of-3 multisig een leeg element onderaan de getuigenstapel staan?
+answer: Om te compenseren voor CHECKMULTISIG's off-by-one bug die een extra stackelement verbruikt tijdens uitvoering
+wrong_answers:
+  - "Om een plaatshouder te bieden voor de derde handtekening die niet werd gebruikt in de 2-of-3 multisig validatie"
+  - Om de handtekeninggegevens te scheiden van het getuige-script voor juiste SegWit validatie parsing
+  - Om ervoor te zorgen dat de getuigestapel een even aantal elementen heeft voor een efficiënte merkleboomconstructie
+explanation: |
+  De CHECKMULTISIG opcode heeft een historische bug waarbij het een extra element uit de stack oproept boven wat het nodig zou moeten hebben. Dit heeft invloed op alle multisig transacties, inclusief P2WSH. Het lege element compenseert deze bug en zorgt ervoor dat de overgebleven stackelementen (handtekeningen en getuige-script) juist geplaatst worden voor validatie. De andere opties zijn onjuist: ongebruikte handtekeningen worden niet gerepresenteerd door lege elementen, het parsen van getuigen heeft geen scheidingselementen nodig en stapels getuigen hebben geen even element nodig voor merkle operaties.

@@ -12,7 +12,7 @@ Bull Bitcoin er forpliktet til å tilby en transparent tjeneste uten skjulte geb
 
 ## Registrer deg på Bull Bitcoin
 
-Gå til Bull Bitcoins [registreringsside] (https://accounts.bullbitcoin.com/en/registration) for å opprette en ny konto. Skriv inn e-postadressen din og velg et sterkt passord. Trykk deretter på "*Sign up*".
+Gå til Bull Bitcoins [registreringsside](https://accounts.bullbitcoin.com/en/registration) for å opprette en ny konto. Skriv inn e-postadressen din og velg et sterkt passord. Trykk deretter på "*Sign up*".
 
 ![BULL](assets/fr/01.webp)
 
@@ -127,7 +127,7 @@ Hvis du ikke er kjent med å bruke Bitcoin, Lightning eller Liquid lommebøker, 
 
 https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
-Du kan også utforske [våre detaljerte veiledninger om de beste Bitcoin-lommebøkene] (https://planb.academy/tutorials/wallet).
+Du kan også utforske [våre detaljerte veiledninger om de beste Bitcoin-lommebøkene](https://planb.academy/tutorials/wallet).
 
 Bekreft deretter kjøpet ved å klikke på "*Bekreft kjøp*".
 

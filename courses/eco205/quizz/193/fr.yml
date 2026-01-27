@@ -1,0 +1,8 @@
+question: Selon Friedrich Hayek, comment Bitcoin pourrait-il améliorer le mécanisme de coordination économique par rapport aux monnaies fiduciaires?
+answer: En permettant l'émergence de prix qui reflètent véritablement l'offre et la demande sans manipulation centrale
+wrong_answers:
+  - En centralisant les informations économiques dans un système unique accessible à tous les planificateurs
+  - En stabilisant automatiquement les prix grâce à son algorithme de consensus et sa volatilité contrôlée
+  - En remplaçant le système des prix par un mécanisme de vote décentralisé entre tous les détenteurs
+explanation: |
+  Hayek a démontré que le système des prix constitue un réseau de communication qui condense les informations dispersées dans l'économie. Bitcoin, en tant que monnaie neutre et non manipulable, permet l'émergence de prix authentiques qui reflètent les vraies préférences temporelles et coûts d'opportunité. Les autres réponses sont incorrectes car Hayek prônait la décentralisation des informations (pas leur centralisation), Bitcoin ne stabilise pas automatiquement les prix, et le système des prix reste supérieur à tout mécanisme de vote selon la théorie autrichienne.

@@ -363,7 +363,7 @@ Sonraki sayfada, alıcının Address numarasını girin. Manuel olarak girebilir
 ![GREEN 2FA MULTISIG](assets/fr/44.webp)
 
 
-Ekranın alt kısmında, bu işlem için ücret oranını seçebilirsiniz. Uygulamanın önerilerini takip etme veya ücretlerinizi özelleştirme seçeneğiniz vardır. Bekleyen diğer işlemlere göre ücret ne kadar yüksekse, işleminiz o kadar hızlı işlenecektir. Ücret piyasası bilgileri için lütfen [Mempool.space] (https://Mempool.space/) adresindeki "*İşlem Ücretleri*" bölümünü ziyaret edin.
+Ekranın alt kısmında, bu işlem için ücret oranını seçebilirsiniz. Uygulamanın önerilerini takip etme veya ücretlerinizi özelleştirme seçeneğiniz vardır. Bekleyen diğer işlemlere göre ücret ne kadar yüksekse, işleminiz o kadar hızlı işlenecektir. Ücret piyasası bilgileri için lütfen [Mempool.space](https://Mempool.space/) adresindeki "*İşlem Ücretleri*" bölümünü ziyaret edin.
 
 
 ![GREEN 2FA MULTISIG](assets/fr/45.webp)

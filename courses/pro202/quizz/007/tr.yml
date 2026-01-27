@@ -1,0 +1,8 @@
+question: Hangi matematiksel özellik eliptik bir eğri üzerinde k-P işlemini tersine çevirmeyi hesaplama açısından olanaksız kılar?
+answer: Ayrık logaritma problemi
+wrong_answers:
+  - Sonlu alan modüler aritmetiği
+  - Sonsuzluktaki nokta özelliği
+  - Eğri denklemi y² = x³ + 7
+explanation: |
+  Ayrık logaritma problemi eliptik eğri kriptografisini güvenli kılan matematiksel temeldir. K-P'yi (skaler çarpma) hesaplamak hesaplama açısından kolay olsa da, P ve k-P verildiğinde k'yı bulmak son derece zordur - bu eliptik eğri ayrık logaritma problemi olarak bilinir. Diğer seçenekler önemli matematiksel bileşenlerdir ancak güvenlik bariyerini sağlamazlar: sonlu alan aritmetiği işlemleri mümkün kılar, sonsuzdaki nokta kimlik elemanı olarak hizmet eder ve eğri denklemi yapıyı tanımlar, ancak bunların hiçbiri Bitcoin'ın kriptografik güvenliğini koruyan hesaplama yetersizliğini yaratmaz.

@@ -34,7 +34,7 @@ Benvenuto al corso CYP201, dove esploreremo a fondo il funzionamento dei wallet 
 
 L'obiettivo di questa formazione è fornirti le chiavi per padroneggiare gli strumenti che utilizzi quotidianamente. I wallet HD, che sono al centro della tua esperienza utente, si basano su concetti a volte complessi, che cercheremo di rendere accessibili. Insieme semplificheremo questa difficoltà!
 
-Prima di immergerci nei dettagli della costruzione e del funzionamento dei wallet Bitcoin, inizieremo con alcuni capitoli sulle primitive crittografiche da conoscere, necessarie per proseguire. Inizieremo con le funzioni hash crittografiche, fondamentali sia per i wallet sia per il protocollo Bitcoin stesso. Scoprirai le loro principali caratteristiche, le funzioni specifiche utilizzate in Bitcoin e, in un capitolo più tecnico, imparerai in dettaglio il funzionamento della regina delle funzioni hash: SHA256.
+Prima di immergerci nei dettagli della costruzione e del funzionamento dei wallet Bitcoin, inizieremo con alcuni capitoli sulle primitive crittografiche da conoscere, necessarie per proseguire. Inizieremo con le funzioni hash crittografiche, fondamentali sia per i wallet sia per il protocollo Bitcoin stesso. Scoprirai le loro principali caratteristiche, le funzioni specifiche utilizzate in Bitcoin e, in un capitolo più tecnico, imparerai in dettaglio il funzionamento della regina delle funzioni hash: [SHA256](https://planb.academy/resources/glossary/sha256).
 
 ![CYP201](assets/en/001.webp)
 
@@ -46,7 +46,7 @@ Una volta acquisita una buona comprensione di questi elementi di crittografia, p
 
 ![CYP201](assets/en/003.webp)
 
-La formazione continuerà con lo studio della passphrase BIP39, il seed (da non confondere con la frase mnemonica), la master chain code e la master key. Vedremo in dettaglio cosa sono questi elementi, i loro rispettivi ruoli e come vengono calcolati.
+La formazione continuerà con lo studio della passphrase [BIP39](https://planb.academy/resources/glossary/bip0039), il seed (da non confondere con la frase mnemonica), la master chain code e la master key. Vedremo in dettaglio cosa sono questi elementi, i loro rispettivi ruoli e come vengono calcolati.
 
 ![CYP201](assets/en/004.webp)
 
@@ -705,7 +705,7 @@ Un utente che desidera effettuare una transazione Bitcoin deve quindi creare una
 
 Ne consegue che un utente che possiede bitcoin, protetti con una chiave pubblica, deve trovare un modo per conservare in modo sicuro ciò che consente di sbloccare i propri fondi: la chiave privata. Un wallet Bitcoin è precisamente un dispositivo che ti permetterà di conservare facilmente tutte le tue chiavi senza che altre persone abbiano accesso ad esse. È quindi più simile a un portachiavi che a un wallet.
 
-Il legame matematico tra una chiave pubblica e una chiave privata, così come la capacità di effettuare una firma per provare il possesso di una chiave privata senza rivelarla, sono resi possibili da un algoritmo di firma digitale. Nel protocollo Bitcoin vengono utilizzati 2 algoritmi di firma: **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) e lo **schema di firma Schnorr**. ECDSA è il protocollo di firma digitale utilizzato in Bitcoin fin dai suoi inizi. Schnorr è più recente, poiché è stato introdotto nel novembre 2021 con l'aggiornamento Taproot.
+Il legame matematico tra una chiave pubblica e una chiave privata, così come la capacità di effettuare una firma per provare il possesso di una chiave privata senza rivelarla, sono resi possibili da un algoritmo di firma digitale. Nel protocollo Bitcoin vengono utilizzati 2 algoritmi di firma: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm_) e lo **schema di firma Schnorr**. ECDSA è il protocollo di firma digitale utilizzato in Bitcoin fin dai suoi inizi. Schnorr è più recente, poiché è stato introdotto nel novembre 2021 con l'aggiornamento Taproot.
 Questi due algoritmi sono abbastanza simili nei loro meccanismi. Entrambi si basano sulla crittografia a curva ellittica. La principale differenza tra questi due protocolli risiede nella struttura della firma e in alcune proprietà matematiche specifiche. Studieremo ora il funzionamento di questi algoritmi, partendo dal più vecchio: ECDSA.
 
 ### Crittografia a Curva Ellittica
@@ -1836,7 +1836,7 @@ Nel tempo, diversi BIP hanno introdotto standard per questi percorsi di derivazi
 
 ### profondità (depth) di Derivazione in un wallet HD
 
-I derivation path sono organizzati in livelli di profondità (depth), che vanno dalla 0, che rappresenta la chiave master e la chain code master, a strati di sottolivelli per derivare gli indirizzi utilizzati per bloccare gli UTXO. I BIP (_Bitcoin Improvement Proposals_) definiscono gli standard per ogni livello, il che aiuta ad armonizzare le pratiche attraverso diversi software di gestione dei wallet.
+I [derivation path](https://planb.academy/resources/glossary/derivation-path) sono organizzati in livelli di profondità (depth), che vanno dalla 0, che rappresenta la chiave master e la chain code master, a strati di sottolivelli per derivare gli indirizzi utilizzati per bloccare gli UTXO. I BIP (_Bitcoin Improvement Proposals_) definiscono gli standard per ogni livello, il che aiuta ad armonizzare le pratiche attraverso diversi software di gestione dei wallet.
 
 Un derivation path, quindi, si riferisce alla sequenza di indici utilizzati per derivare le chiavi figlie da una chiave master.
 

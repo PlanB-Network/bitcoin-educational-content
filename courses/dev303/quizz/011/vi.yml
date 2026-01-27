@@ -1,0 +1,8 @@
+question: Ưu điểm chính của phương pháp đảm bảo an toàn bộ nhớ trong quá trình biên dịch của Rust so với cơ chế thu gom rác tự động là gì?
+answer: Nó loại bỏ chi phí phát sinh trong quá trình vận hành và các sự gián đoạn hiệu năng không thể dự đoán trước.
+wrong_answers:
+  - Nó sử dụng nhiều bộ nhớ hơn nhưng cung cấp các đảm bảo an ninh tốt hơn.
+  - Phương pháp này yêu cầu viết ít mã hơn nhưng chạy chậm hơn so với cơ chế thu gom rác tự động.
+  - Nó ngăn ngừa tất cả các lỗi trong quá trình chạy nhưng lại tiêu tốn nhiều CPU hơn trong quá trình thực thi.
+explanation: |
+  Phương pháp đảm bảo an toàn bộ nhớ trong quá trình biên dịch của Rust phân tích mã trong quá trình biên dịch để đảm bảo an toàn bộ nhớ mà không tốn bất kỳ chi phí nào khi chạy. Không giống như cơ chế thu gom rác được sử dụng trong các ngôn ngữ như Java và Go, vốn gây ra gánh nặng hiệu năng và có thể gây ra những gián đoạn không thể đoán trước trong quá trình thực thi chương trình, hệ thống của Rust không có tác động nào đến thời gian chạy. Các lựa chọn khác đều không chính xác vì Rust thực sự sử dụng bộ nhớ hiệu quả hơn (chứ không phải nhiều hơn), không chạy chậm hơn (nó chạy nhanh hơn mà không cần kiểm tra thời gian chạy), và không sử dụng nhiều CPU hơn trong quá trình thực thi (công việc được thực hiện tại thời điểm biên dịch).

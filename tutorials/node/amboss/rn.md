@@ -1,5 +1,5 @@
 ---
-name: Ambosi
+name: Amboss
 description: Gutohoza no gusuzuma Lightning Network.
 ---
 

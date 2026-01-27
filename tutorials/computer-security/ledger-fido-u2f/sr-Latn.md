@@ -46,7 +46,7 @@ Povežite svoj Ledger sa računarom i otključajte ga.
 
 
 
-Da biste instalirali aplikaciju, otvorite softver [Ledger Live] (https://www.Ledger.com/Ledger-live), zatim idite na karticu "*My Ledger*". Pronađite aplikaciju "*Security Key*" i instalirajte je na svoj uređaj.
+Da biste instalirali aplikaciju, otvorite softver [Ledger Live](https://www.Ledger.com/Ledger-live), zatim idite na karticu "*My Ledger*". Pronađite aplikaciju "*Security Key*" i instalirajte je na svoj uređaj.
 
 
 

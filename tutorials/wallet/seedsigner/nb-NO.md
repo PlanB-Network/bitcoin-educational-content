@@ -49,7 +49,7 @@ For å bygge din SeedSigner trenger du følgende komponenter:
 
 - Raspberry Pi Zero
     - Versjon 1.3 anbefales, da den verken har Wi-Fi eller Bluetooth, noe som sikrer fullstendig isolasjon.
- - W- og v2-versjonene er også kompatible, men de inneholder en Wi-Fi/Bluetooth-brikke. Det anbefales derfor å deaktivere den fysisk ved å fjerne radiomodulen fra kortet. Operasjonen er relativt enkel, men krever presisjon (en fin tang er tilstrekkelig for Zero W, mens en varm penn er nødvendig for v2 for å fjerne metallplaten som skjuler modulen). Jeg vil ikke gå inn på detaljene i denne veiledningen, men du finner alle instruksjonene i dette dokumentet: *[Deaktivering av WiFi/Bluetooth via maskinvare] (https://github.com/DesobedienteTecnologico/rpi_disable_wifi_and_bt_by_hardware)*.
+ - W- og v2-versjonene er også kompatible, men de inneholder en Wi-Fi/Bluetooth-brikke. Det anbefales derfor å deaktivere den fysisk ved å fjerne radiomodulen fra kortet. Operasjonen er relativt enkel, men krever presisjon (en fin tang er tilstrekkelig for Zero W, mens en varm penn er nødvendig for v2 for å fjerne metallplaten som skjuler modulen). Jeg vil ikke gå inn på detaljene i denne veiledningen, men du finner alle instruksjonene i dette dokumentet: *[Deaktivering av WiFi/Bluetooth via maskinvare](https://github.com/DesobedienteTecnologico/rpi_disable_wifi_and_bt_by_hardware)*.
  - Merk: Noen Raspberry Pi Zero-modeller selges uten forhåndsloddede GPIO-pinner. Du kan enten kjøpe en versjon med integrerte pinner direkte (enkleste løsning), eller kjøpe pinnene separat og lodde dem selv (mer komplisert løsning).
  - Ikke glem å ta med en mikro-USB-strømforsyning.
 
@@ -94,8 +94,8 @@ For å bygge din SeedSigner trenger du følgende komponenter:
 
 - Bolig (valgfritt, men anbefalt)** (valgfritt, men anbefalt)** (valgfritt, men anbefalt)** (valgfritt, men anbefalt)**)
     - Beskytter enheten og gjør den enkel å bruke.
-    - Den mest populære modellen er "*Orange Pill Case*", som [STL-filer med åpen kildekode er tilgjengelige for 3D-utskrift] (https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
-    - Bokser er også tilgjengelige fra [uavhengige forhandlere knyttet til prosjektet] (https://seedsigner.com/hardware/).
+    - Den mest populære modellen er "*Orange Pill Case*", som [STL-filer med åpen kildekode er tilgjengelige for 3D-utskrift](https://github.com/SeedSigner/seedsigner/tree/dev/enclosureshttps://github.com/SeedSigner/seedsigner/tree/dev/enclosures).
+    - Bokser er også tilgjengelige fra [uavhengige forhandlere knyttet til prosjektet](https://seedsigner.com/hardware/).
 
 
 
@@ -119,7 +119,7 @@ Når du har samlet maskinvaren din, må du forberede microSD-kortet ved å insta
 
 
 
-Gå til [prosjektets offisielle GitHub-repository] (https://github.com/SeedSigner/seedsigner/releases). Last ned den nyeste versjonen av programvaren :
+Gå til [prosjektets offisielle GitHub-repository](https://github.com/SeedSigner/seedsigner/releases). Last ned den nyeste versjonen av programvaren :
 
 
 
@@ -174,7 +174,7 @@ Hvis alt er i orden, skal utdataene vise `God signatur`. Dette betyr at filen `.
 
 
 
-Dette gjør du ved å sammenligne de siste 16 tegnene i fingeravtrykket som vises med de som er tilgjengelige på [Keybase.io/SeedSigner] (https://keybase.io/seedsigner), på deres [offisielle Twitter] (https://twitter.com/SeedSigner/status/1530555252373704707), eller i filen som er publisert på [SeedSigner.com] (https://seedsigner.com/keybase.txt). Hvis disse identifikatorene stemmer nøyaktig overens, kan du være sikker på at nøkkelen faktisk tilhører prosjektet. Hvis du er i tvil, stopp umiddelbart og spør SeedSigner-fellesskapet (Telegram, X, GitHub...) om hjelp.
+Dette gjør du ved å sammenligne de siste 16 tegnene i fingeravtrykket som vises med de som er tilgjengelige på [Keybase.io/SeedSigner](https://keybase.io/seedsigner), på deres [offisielle Twitter](https://twitter.com/SeedSigner/status/1530555252373704707), eller i filen som er publisert på [SeedSigner.com](https://seedsigner.com/keybase.txt). Hvis disse identifikatorene stemmer nøyaktig overens, kan du være sikker på at nøkkelen faktisk tilhører prosjektet. Hvis du er i tvil, stopp umiddelbart og spør SeedSigner-fellesskapet (Telegram, X, GitHub...) om hjelp.
 
 
 
@@ -207,7 +207,7 @@ Det forventede resultatet er en `OK` ved siden av filen `.img`. Dette bekrefter 
 
 
 
-På Windows er fremgangsmåten lik, men kommandoene er forskjellige. Start med å installere [Gpg4win] (https://www.gpg4win.org/) og åpne programmet *Kleopatra*. Importer den offentlige nøkkelen til SeedSigner-prosjektet fra URL-adressen Keybase :
+På Windows er fremgangsmåten lik, men kommandoene er forskjellige. Start med å installere [Gpg4win](https://www.gpg4win.org/) og åpne programmet *Kleopatra*. Importer den offentlige nøkkelen til SeedSigner-prosjektet fra URL-adressen Keybase :
 
 
 
@@ -239,7 +239,7 @@ Hvis alt er i orden, skal utdataene vise `God signatur`. Dette betyr at filen `.
 
 
 
-Dette gjør du ved å sammenligne de siste 16 tegnene i fingeravtrykket som vises med de som er tilgjengelige på [Keybase.io/SeedSigner] (https://keybase.io/seedsigner), på deres [offisielle Twitter] (https://twitter.com/SeedSigner/status/1530555252373704707), eller i filen som er publisert på [SeedSigner.com] (https://seedsigner.com/keybase.txt). Hvis disse identifikatorene stemmer nøyaktig overens, kan du være sikker på at nøkkelen faktisk tilhører prosjektet. Hvis du er i tvil, stopp umiddelbart og spør SeedSigner-fellesskapet (Telegram, X, GitHub...) om hjelp.
+Dette gjør du ved å sammenligne de siste 16 tegnene i fingeravtrykket som vises med de som er tilgjengelige på [Keybase.io/SeedSigner](https://keybase.io/seedsigner), på deres [offisielle Twitter](https://twitter.com/SeedSigner/status/1530555252373704707), eller i filen som er publisert på [SeedSigner.com](https://seedsigner.com/keybase.txt). Hvis disse identifikatorene stemmer nøyaktig overens, kan du være sikker på at nøkkelen faktisk tilhører prosjektet. Hvis du er i tvil, stopp umiddelbart og spør SeedSigner-fellesskapet (Telegram, X, GitHub...) om hjelp.
 
 
 
@@ -289,7 +289,7 @@ Vellykket verifisering garanterer at `.img`-filen din er både autentisk (signer
 
 
 
-Hvis du ikke allerede har det, kan du laste ned programvaren [Balena Etcher] (https://etcher.balena.io/), og deretter :
+Hvis du ikke allerede har det, kan du laste ned programvaren [Balena Etcher](https://etcher.balena.io/), og deretter :
 
 
 
@@ -1114,7 +1114,7 @@ Fyll deretter ut transaksjonsfeltene:
 - I `Betal til` limer du inn mottakerens adresse eller klikker på kameraikonet for å skanne QR-koden;
 - I `Label` legger du til en etikett for å spore denne utgiften;
 - I `Beløp` angir du beløpet som skal sendes;
-- Til slutt velger du gebyrsats basert på gjeldende markedsforhold (estimater er tilgjengelige på [mempool.space] (https://mempool.space/)).
+- Til slutt velger du gebyrsats basert på gjeldende markedsforhold (estimater er tilgjengelige på [mempool.space](https://mempool.space/)).
 
 
 
@@ -1235,8 +1235,8 @@ Du har nå lært det grunnleggende om hvordan du bruker SeedSigner. Hvis du øns
 
 https://planb.academy/tutorials/wallet/hardware/seedkeeper-seedsigner-45cca4c4-1f22-46bb-87ae-9cddb68aa579
 
-**[Du kan også støtte utviklingen av SeedSigner-prosjektet med åpen kildekode ved å gi en donasjon i bitcoins!] (https://seedsigner.com/donate/)**
+**[Du kan også støtte utviklingen av SeedSigner-prosjektet med åpen kildekode ved å gi en donasjon i bitcoins!](https://seedsigner.com/donate/)**
 
 
 
-*Kreditt: Noen av bildene i denne veiledningen kommer fra [det offisielle nettstedet for SeedSigner-prosjektet] (https://seedsigner.com/) og [GitHub repository] (https://github.com/SeedSigner/seedsigner).*
+*Kreditt: Noen av bildene i denne veiledningen kommer fra [det offisielle nettstedet for SeedSigner-prosjektet](https://seedsigner.com/) og [GitHub repository](https://github.com/SeedSigner/seedsigner).*

@@ -1,9 +1,9 @@
-question: Ni iyihe porotokole ikoreshwa canecane kugira ngo umuntu amenye igikoresho cose kiri kuri Internet?
+question: Ni irihe tegeko rikoreshwa canecane kugira ngo umuntu amenye igikoresho cose kiri kuri Interineti?
 answer: IP
 wrong_answers:
   - DNS
   - HTTP
   - SMTP
 explanation: |
-  Iryo tegeko ry’Internet (IP) riha igikoresho cose Address yihariye kandi rituma amapakete y’amakuru ashobora guca mu nzira.
-reviewed: false
+  Iryo Tegeko rya Interineti (IP) canke Internet Protocol mu congereza riha igikoresho cose aderese yihariye kandi rituma packets z’amakuru zishobora gushika ahozija.
+reviewed: true

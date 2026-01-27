@@ -36,7 +36,7 @@ Oleh karena itu, warga Kenya dapat membeli satoshi dalam tiga langkah sederhana,
 
 
 
-Untuk menggunakan solusi ini, kunjungi platform [Bitika] (https://bitika.xyz/). Baik di komputer atau ponsel cerdas Anda, antarmukanya tetap sama.
+Untuk menggunakan solusi ini, kunjungi platform [Bitika](https://bitika.xyz/). Baik di komputer atau ponsel cerdas Anda, antarmukanya tetap sama.
 
 
 

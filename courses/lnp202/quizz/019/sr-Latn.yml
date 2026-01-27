@@ -1,0 +1,9 @@
+question: Koji su preduslovi za instalaciju LND na Umbrel?
+answer: Sinhronizovani Bitcoin čvor
+wrong_answers:
+  - Umbrel Premium nalog
+  - Postojeći Lightning kanal
+  - Aktivna lightning adresa
+explanation: |
+  LND se oslanja na 100% sinhronizovan Bitcoin čvor, što je preduslov za njegovo funkcionisanje.
+reviewed: false

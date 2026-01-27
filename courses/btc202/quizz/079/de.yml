@@ -5,5 +5,5 @@ wrong_answers:
   - 256 GiB
   - 128 GiB
 explanation: |
-  Die Dateien blkNNNNN.dat speichern die Blöcke sequentiell und erreichen eine Größe von etwa 128 MiB, bevor Bitcoin core den nächsten öffnet.
+  Die Dateien blkNNNNN.dat speichern die Blöcke sequentiell und erreichen eine Größe von etwa 128 MiB, bevor Bitcoin Core die nächste öffnet.
 reviewed: true

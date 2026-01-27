@@ -1,0 +1,8 @@
+question: What makes the timing and nature of feedback fundamentally different between market decisions and political decisions in democratic systems?
+answer: Market decisions provide immediate, direct feedback that allows individuals to adjust behavior based on personal experience, while political decisions produce delayed, collective consequences that are difficult for individuals to trace back to their specific choices
+wrong_answers:
+  - Market decisions involve complex long-term planning while political decisions are based on immediate emotional responses that can be quickly evaluated
+  - Market decisions require collective consensus building while political decisions allow for individual autonomy and direct personal control over outcomes
+  - Market decisions are made infrequently with permanent consequences while political decisions are made daily with easily reversible effects
+explanation: |
+  The chapter emphasizes that market choices offer immediate, traceable results where individuals can directly compare satisfactions and adjust behavior based on experience. In contrast, political decisions are 'spaced out in time' with collective consequences that make it impossible for citizens to understand the complete impact of their votes. Political measures may harm people the voter never sees directly, and elections involve complex programs rather than simple, direct choices. This temporal and feedback difference is crucial to understanding why the democratic tutelage paradox exists - citizens are expected to make more complex decisions (political) with less reliable feedback mechanisms than simpler decisions (economic) with immediate, clear results.

@@ -1,0 +1,8 @@
+question: Was ist der Hauptvorteil von Iteratoren, die in Rust träge sind?
+answer: Sie führen keine Arbeit aus, bis sie verbraucht sind, was eine effiziente Verkettung ohne die Erstellung von Zwischensammlungen ermöglicht
+wrong_answers:
+  - Sie parallelisieren Vorgänge automatisch auf mehrere CPU-Kerne, um die Leistung zu verbessern
+  - Sie zwischenspeichern frühere Ergebnisse im Speicher, um zu vermeiden, dass dieselben Werte mehrmals berechnet werden müssen
+  - Sie verbrauchen weniger Speicherplatz, da nur Verweise gespeichert werden, anstatt die tatsächlichen Datenwerte zu kopieren
+explanation: |
+  Lazy Evaluation in Rust-Iteratoren bedeutet, dass sie keine Verarbeitung durchführen, bis eine konsumierende Methode aufgerufen wird. Dadurch können Sie mehrere Operationen wie Map, Filter und andere Adaptoren miteinander verketten, ohne zwischen den einzelnen Schritten Zwischensammlungen zu erstellen. Der Compiler kann die gesamte Kette zu einem effizienten Code optimieren, der die Elemente nacheinander durch alle Transformationen verarbeitet, anstatt in jeder Phase temporäre Vektoren oder andere Sammlungen zu erstellen.

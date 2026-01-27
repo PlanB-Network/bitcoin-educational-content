@@ -1,0 +1,8 @@
+question: Quais são os três componentes que formam a estrutura de uma String no layout de memória do Rust?
+answer: Um ponteiro para os dados da pilha, o comprimento atual e a capacidade total
+wrong_answers:
+  - Um ponteiro para os dados da pilha, o tamanho atual e o comprimento máximo
+  - Um endereço de memória, a contagem de caracteres e o tipo de atribuição
+  - Uma referência de dados, o tamanho do byte e o estado de propriedade
+explanation: |
+  Uma String no Rust consiste exatamente em três componentes armazenados na pilha: um ponteiro para os dados de caracteres alocados na heap, o comprimento atual do conteúdo da string e a capacidade total do buffer alocado. Esta estrutura permite que as cadeias de caracteres cresçam e diminuam de forma eficiente, mantendo o conhecimento dos seus limites. As outras opções estão incorrectas porque fazem referência a localizações erradas (pilha em vez de heap), utilizam terminologia imprecisa (tamanho vs comprimento, contagem de caracteres vs comprimento de bytes) ou incluem componentes inexistentes, como o tipo de atribuição ou o estado de propriedade.

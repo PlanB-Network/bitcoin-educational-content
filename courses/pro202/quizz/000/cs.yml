@@ -1,0 +1,8 @@
+question: Jakou rovnici eliptické křivky používá secp256k1 Bitcoin?
+answer: y² = x³ + 7
+wrong_answers:
+  - y² = x³ + ax + b
+  - y² = x³ + 5
+  - y² = x³ + x + 7
+explanation: |
+  Bitcoin konkrétně používá eliptickou křivku secp256k1, která má zjednodušenou rovnici y² = x³ + 7. To je speciální případ obecného tvaru eliptické křivky y² = x³ + ax + b, kde a = 0 a b = 7. Ostatní možnosti jsou nesprávné: y² = x³ + ax + b je obecný tvar, ale ne konkrétní křivka Bitcoin, y² = x³ + 5 používá nesprávnou konstantu a y² = x³ + x + 7 nesprávně zahrnuje lineární člen x, který v křivce secp256k1 neexistuje.

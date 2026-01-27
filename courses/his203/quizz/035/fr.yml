@@ -1,0 +1,9 @@
+question: En quoi consiste la méthode Pay Per Last N Shares (PPLNS) utilisée au sein de certaines coopératives ?
+answer: Payer les mineurs à chaque bloc miné, au prorata de leurs parts parmi les N dernières parts fournies à la coopérative
+wrong_answers:
+  - Rémunérer les mineurs de façon immédiate à chaque part fournie, selon son degré de difficulté
+  - Récompenser les mineurs à chaque bloc miné, au prorata des parts qu'ils ont trouvées depuis le dernier bloc
+  - Rétribuer les mineurs de façon immédiate à chaque part fournie, mais jamais plus que la coopérative ne possède
+explanation: |
+ C'est une variante du modèle proportionnel, dans laquelle la période d'évaluation n'est pas le cycle de production des blocs, mais une fenêtre de N parts indépendante du cycle. La méthode PPLNS a notamment été utilisée par P2Pool.
+reviewed: false

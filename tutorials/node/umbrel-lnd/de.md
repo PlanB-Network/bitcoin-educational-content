@@ -221,7 +221,7 @@ Sobald LND betriebsbereit ist, können Sie Ihren ersten Lightning-Kanal eröffne
 
 
 
-Der [ACINQ-Knoten] (https://amboss.space/node/03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f) ist beispielsweise ein anerkannter Knotenpunkt mit hervorragenden Verfügbarkeits- und Liquiditätsstatistiken.
+Der [ACINQ-Knoten](https://amboss.space/node/03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f) ist beispielsweise ein anerkannter Knotenpunkt mit hervorragenden Verfügbarkeits- und Liquiditätsstatistiken.
 
 
 

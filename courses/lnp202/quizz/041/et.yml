@@ -1,0 +1,9 @@
+question: Kuhu paigaldada ThunderHub Umbrel-le?
+answer: App Store
+wrong_answers:
+  - SSH-konsool
+  - Süsteemi seaded
+  - Interface Bitcoin Tuum
+explanation: |
+  ThunderHub paigaldatakse rakendusena Umbrel App Store'i kaudu.
+reviewed: false

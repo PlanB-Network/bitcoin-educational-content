@@ -1,0 +1,8 @@
+question: Koja je primarna svrha Rustup-a u Rust razvojnom ekosistemu?
+answer: Sveobuhvatan sistem za upravljanje alatnim lancem za instalaciju i upravljanje Rust
+wrong_answers:
+  - Upravljač paketima za rukovanje zavisnostima u Rust projektima
+  - Napredni linter koji analizira kod i pruža predloge za poboljšanje
+  - Sistem za izgradnju koji kompajlira Rust programe i upravlja strukturom projekta
+explanation: |
+  Rustup je specifično dizajniran kao sistem za upravljanje alatnim lancem koji rukuje instalacijom, ažuriranjem i upravljanjem samim Rust kroz različite projekte i platforme. Dok Cargo služi kao menadžer paketa i sistem za izgradnju za Rust projekte, a Clippy funkcioniše kao linter za analizu koda, Rustup operiše na višem nivou upravljajući celokupnim Rust razvojnim okruženjem. Omogućava programerima da instaliraju različite verzije Rust, upravljaju ciljevima kompajliranja za različite platforme i lako ažuriraju na nova Rust izdanja jednostavnim komandama kao što je 'rustup update'.

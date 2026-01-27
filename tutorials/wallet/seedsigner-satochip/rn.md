@@ -1,5 +1,5 @@
 ---
-name: Satochip x Umusinyi w'Imbuto
+name: Satochip x SeedSigner
 description: Ni gute wokoresha Satochip n’Imbuto yawe?
 ---
 
@@ -96,7 +96,7 @@ Kugira ngo ukoreshe SeedSigner yawe ukoresheje Satochip, ukeneye gushiramwo ubun
 
 
 
-Niba utayifise, fungura porogarama ya [Balena Etcher] (https://etcher.balena.io/), hanyuma ugende gutya:
+Niba utayifise, fungura porogarama ya [Balena Etcher](https://etcher.balena.io/), hanyuma ugende gutya:
 
 
 

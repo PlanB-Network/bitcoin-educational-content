@@ -1,0 +1,8 @@
+question: Breez Liquid SDK 的交易功能與完整的 Lightning Network 節點不同的根本限制是什麼？
+answer: 它無法執行 Lightning 對 Lightning 或 Bitcoin 對 Bitcoin 的直接交易，因為它只能以 Liquid 作為主基地進行運作
+wrong_answers:
+  - 由於缺乏跨鏈智慧契約支援，它無法處理不同區塊鏈網路之間的原子交換。
+  - 「由於 Liquid Network 內建的交易大小限制，它無法處理大於 0.1 BTC 的交易」
+  - 它無法在沒有網際網路連線的情況下運作，因為它需要與中央 Breez 伺服器持續同步。
+explanation: |
+  SDK 被明確描述為「嚴格以 Liquid 為中心的工具」，以 Liquid 作為其「大本營」。它僅支援三種特定作業：Liquid 到 Liquid、Liquid 到 Lightning 以及 Liquid 到 Bitcoin。與可以在 Lightning 通道之間路由支付的完整 Lightning 節點不同，Breez SDK 無法執行直接的 Lightning-to-Lightning 交易，因此與傳統的 Lightning 基礎架構有根本性的差異。

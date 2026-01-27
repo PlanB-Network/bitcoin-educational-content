@@ -1,0 +1,8 @@
+question: Wat zou er gebeuren met het totale aanbod van Bitcoin als mijnwerkers consequent slechts 90% van de toegestane bloksubsidie over alle blokken zouden claimen?
+answer: Het totale aanbod zou permanent worden teruggebracht tot minder dan 21 miljoen BTC, omdat niet-opgeëiste subsidies voor altijd verloren gaan
+wrong_answers:
+  - De resterende 10% komt in een reservepot waar toekomstige mijnwerkers aanspraak op kunnen maken tijdens perioden met lage vergoedingen
+  - Het moeilijkheidsaanpassingsmechanisme compenseert dit door toekomstige blokbeloningen te verhogen om het plafond van 21 miljoen te handhaven
+  - De niet-opgeëiste subsidies zouden evenredig worden herverdeeld onder ontvangers van transactievergoedingen in volgende blokken
+explanation: |
+  Het protocol van Bitcoin staat mijnwerkers toe om minder dan de maximaal toegestane subsidie op te eisen, maar elk niet-opgeëist bedrag gaat permanent verloren - er is geen mechanisme om het later te herverdelen of terug te krijgen. De subsidieformule en het halveringsschema bepalen het theoretische maximum van ~21 miljoen BTC, maar het werkelijke aanbod hangt af van mijnwerkers die hun volledige recht op subsidie claimen. In tegenstelling tot de moeilijkheidsaanpassing die reageert op mining condities, is er geen compensatiemechanisme voor niet opgeëiste beloningen, waardoor het totale aanbod mogelijk deflatoir wordt als mijnwerkers consequent te weinig opeisen.

@@ -1,0 +1,8 @@
+question: Rust'da bir muteks üzerinde lock() işlevini çağırdığınızda ne olur ve neden birçok geliştirici bu işlemi açmanın kabul edilebilir olduğunu düşünür?
+answer: Muteksi tutarken başka bir iş parçacığı paniğe kapılırsa başarısız olabilecek bir Sonuç döndürür ve diğer iş parçacıklarının paniklerinden kaynaklanan hataları makul bir şekilde ele alamayacağınız için unwrapping kabul edilebilir
+wrong_answers:
+  - Muteks meşgulse None olabilen bir Seçenek döndürür ve meşgul muteksler programın hemen sonlandırılmasına neden olması gerektiğinden çözme kabul edilebilir
+  - Kilitlenme algılaması nedeniyle başarısız olabilecek bir Sonuç döndürür ve kilitlenmeler panik yaratması gereken temel tasarım kusurlarına işaret ettiği için çözme kabul edilebilir
+  - Rust'de muteks işlemlerinin iş parçacığı güvenli olduğu garanti edildiğinden, her zaman başarılı olur ve kilit korumasını doğrudan döndürür, bu da unwrapping işlemini gereksiz kılar
+explanation: |
+  Bir muteks üzerinde lock() çağrısı yapıldığında, Rust bir Sonuç döndürür çünkü muteksi tutarken başka bir iş parçacığı paniğe kapılıp onu zehirli bir durumda bırakırsa işlem başarısız olabilir. Bu, yerel kodunuzun tamamen farklı bir iş parçacığı bağlamında gerçekleşen bir şey için hata aldığı benzersiz bir durum yaratır. Başka bir iş parçacığının paniğinden kaynaklanan bir hatayı makul bir şekilde ele alamayacağınız veya kurtaramayacağınız için, birçok geliştirici, özellikle panik içermeyen kod tabanlarında muteks kilitlerini açmanın kabul edilebilir olduğunu düşünür. Diğer seçenekler yanlıştır çünkü muteksler meşgul durumlar için Seçenekler döndürmez, Sonuç hatalarına neden olan yerleşik kilitlenme algılamasına sahip değildir ve zehir mekanizması nedeniyle işlem her zaman başarılı olmaz.

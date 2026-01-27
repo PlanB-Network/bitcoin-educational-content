@@ -122,16 +122,17 @@ https://planb.academy/tutorials/mining/hardware/canaan-avalon-nano-3f6ac96e-ea8a
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| Характеристика                                      | Значение                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
-| Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| Хешрейт                                             | 37.5 Th/s +- 5%                                           |
+| Потребление электроэнергии                              | 800 W                                                     |
+| Шум                                                | 35-55 dB                                                  |
+| Температура выходящего воздуха                       | 60-70°C (при температуре окружающей среды 25°C)                  |
+| Требования к температуре окружающей среды для использования | -5° C - 40°C                                              |
+| Диапазон входного напряжения устройства                         | 110V-240V AC 50/60Hz                                      |
+| Размер машины                                 | Длина: 760 мм / Глубина: 104 мм / Высота: 214.5 мм |
+| Вес машины                                  |  8.35 kg                                                  |
 
 ## Подключение к Mining pool
 

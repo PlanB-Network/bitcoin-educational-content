@@ -1,0 +1,8 @@
+question: Mis on peamine eelis käsu `cargo check` kasutamisel arenduse ajal?
+answer: See teostab kompilatsioonikontrolli kiiremini kui täielik koostamine ilma käivitatavate failide genereerimiseta
+wrong_answers:
+  - See parandab automaatselt kompileerimisvead ja koodistiiliga seotud probleemid teie projektis
+  - See laeb alla ja uuendab kõik projekti sõltuvused nende uusimate versioonidega
+  - See käivitab teie programmi koos silumisandmete ja üksikasjaliku veateatega
+explanation: |
+  Käsk `cargo check` on mõeldud kiireks arendusetapiks, teostades kõik samad kompileerimiskontrollid kui `cargo build`, kuid jättes vahele lõpliku käivitatava faili loomise etapi. See teeb selle oluliselt kiiremaks kui täieliku buildi, kui teil on vaja ainult kontrollida, et teie kood kompileerub õigesti. Valed vastused kirjeldavad teiste tööriistade funktsionaalsust: Clippy ja teised linterid võivad soovitada parandusi, kuid ei rakenda neid automaatselt, `cargo update` tegeleb sõltuvusuuendustega ja `cargo run` täidab programme, millel on silumisvõimalused.

@@ -5,5 +5,5 @@ wrong_answers:
   - Las tasas de transacción se queman durante el procesamiento, disminuyendo gradualmente el suministro de bitcoin disponible
   - "El protocolo Bitcoin bloquea automáticamente las monedas que no se han movido durante largos periodos para evitar la inflación"
 explanation: |
-  El capítulo explica que, aunque el máximo teórico es de unos 20.999.817 BTC, la oferta real utilizable es mucho menor debido a errores humanos y pérdidas. La pérdida de claves privadas hace que los bitcoins sean permanentemente inaccesibles, los monederos son robados u olvidados y a veces las monedas se envían a direcciones no válidas. Estos factores crean una reducción permanente de la oferta que beneficia a los tenedores restantes, ya que Satoshi señaló que las monedas perdidas hacen que las monedas de los demás valgan más.
+  Si bien el máximo teórico es de 20 999 999.9769 BTC, la oferta utilizable real es mucho menor debido a errores humanos y pérdidas. Las claves privadas perdidas hacen que los bitcoins sean definitivamente inaccesibles, las carteras se roban u olvidan, y las monedas a veces se envían a direcciones no válidas. Estos factores provocan una reducción permanente de la oferta que beneficia a los tenedores restantes, como señaló Satoshi: las monedas perdidas aumentan el valor de las monedas de los demás.
 reviewed: false

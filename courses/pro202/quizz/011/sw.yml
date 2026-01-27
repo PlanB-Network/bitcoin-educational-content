@@ -1,0 +1,8 @@
+question: Je, ni faida gani kuu ya kutumia umbizo la SEC lililobanwa kuliko umbizo la SEC lisilobanwa kwa funguo za umma za Bitcoin?
+answer: Hupunguza ukubwa wa hifadhi kutoka baiti 65 hadi baiti 33 huku ikidumisha usalama sawa wa kriptografia
+wrong_answers:
+  - Inatoa usalama wa kina wa kriptografia kwa kutumia tabaka za ziada za usimbaji fiche
+  - Inawezesha shughuli za kuzidisha nukta haraka wakati wa michakato ya uthibitishaji wa sahihi
+  - Inaruhusu funguo nyingi za umma kutolewa kutoka kwa umbizo moja lililobanwa
+explanation: |
+  Umbizo la SEC lililobanwa hupunguza ukubwa wa ufunguo wa umma kutoka baiti 65 (bila kubanwa) hadi baiti 33 kwa kuhifadhi kiwianishi cha x na biti ya usawa (kiambishi awali cha 0x02 au 0x03) pekee badala ya viwianishi vyote viwili kamili. Kiwianishi cha y kinaweza kujengwa upya kihisabati kutoka kwa taarifa ya kiwianishi cha x na usawa kwa kuwa mikondo ya duaradufu ina thamani mbili zaidi za y kwa x yoyote iliyotolewa. Mgandamizo huu hutoa akiba kubwa ya hifadhi bila kupoteza usalama wowote, ndiyo maana Bitcoin sasa inapendelea funguo zilizobanwa kwa ufanisi.

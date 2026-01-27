@@ -105,7 +105,7 @@ Lommebøker med maskinvare introduserer imidlertid sine egne trusler. Du må sto
 
 
 
-- Entropi og seed-fraser:** Din wallet er ikke tryggere enn den tilfeldigheten den er født med. Vi blander enhetens tilfeldige tallgenerator med menneskevennlige triks som terningkast, konverterer entropien til en 12- eller 24-ords [BIP39-frase] (https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki), og forlater rommet med en skriftlig eller metallisk backup du stoler på.
+- Entropi og seed-fraser:** Din wallet er ikke tryggere enn den tilfeldigheten den er født med. Vi blander enhetens tilfeldige tallgenerator med menneskevennlige triks som terningkast, konverterer entropien til en 12- eller 24-ords [BIP39-frase](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki), og forlater rommet med en skriftlig eller metallisk backup du stoler på.
 - Hygiene for frøfraser:** Behandle seed som hovednøkler til sparepengene dine. Skriv aldri inn ordene på en telefon eller datamaskin - keyloggere, skjermbilder og sikkerhetskopier i skyen kan lekke dem for alltid. Oppbevar frasen offline, lagre den et sted bare du har tilgang til, og øv deg på å lese den høyt før du drar.
 - Sikkert element + mikrokontroller:** Tenk på secure element som hvelvet og mikrokontrolleren som hjernen. secure element beskytter private nøkler med sabotasjemotstand, mens mikrokontrolleren håndterer skjermen, knappene og fastvarelogikken. Merk at maskinvarelommebøkene vi bygger i dag, ikke har en secure element. Det betyr ikke at den er usikker, bare at den har ett beskyttelsesnivå mindre.
 - Stole på fastvare:** Fastvare er det usynlige operativsystemet til wallet. Last alltid ned fra merkede utgivelser, sjekk den publiserte hashen, og forstå at reproduserbare builds lar flere personer kompilere den samme koden og komme frem til nøyaktig samme binærfil. Hvis sjekksummen ikke stemmer overens, signerer du ikke.
@@ -132,7 +132,7 @@ I dag skal vi i stedet flashe fastvaren deres på en maskinvare til 15 dollar.
 
 
 
-- LilyGO T-Display (16 MB med skall, modell K164)** - [Bestill direkte fra LilyGO] (https://lilygo.cc/products/t-display?srsltid=AfmBOornob5U3FzZifuSwBBOdeXKcdPDqkYEnAVYKBLdzl0BPyNglGBR) for ca. $15. Dette ESP32-kortet har skjerm, knapper og USB-grensesnitt som speiler Blockstreams Jade Plus. ESP32-kortet inneholder også Wi-Fi- og Bluetooth-radioer; vi leverer fastvare som holder dem deaktivert, men de former trusselmodellen din fordi ondsinnet kode kan slå dem på igjen.
+- LilyGO T-Display (16 MB med skall, modell K164)** - [Bestill direkte fra LilyGO](https://lilygo.cc/products/t-display?srsltid=AfmBOornob5U3FzZifuSwBBOdeXKcdPDqkYEnAVYKBLdzl0BPyNglGBR) for ca. $15. Dette ESP32-kortet har skjerm, knapper og USB-grensesnitt som speiler Blockstreams Jade Plus. ESP32-kortet inneholder også Wi-Fi- og Bluetooth-radioer; vi leverer fastvare som holder dem deaktivert, men de former trusselmodellen din fordi ondsinnet kode kan slå dem på igjen.
 - USB-C-kabel** - Ta med en datakapabel slik at du kan flashe fastvare og drive kortet direkte fra den bærbare datamaskinen (helt greit for klassebruk).
 
 
@@ -153,7 +153,7 @@ I dag skal vi i stedet flashe fastvaren deres på en maskinvare til 15 dollar.
 ### Forbered saken din
 
 
-Du har to alternativer for å huse LilyGO T-Display-kortet ditt: et 3D-printet etui eller det offisielle LilyGO-kabinettet. Det trykte kabinettet kan du finne og skrive ut fra [denne modellen] (https://www.printables.com/model/119144-lilygo-ttgo-t-display-enclosure). Det gir et lett og tilpassbart skall til enheten din.
+Du har to alternativer for å huse LilyGO T-Display-kortet ditt: et 3D-printet etui eller det offisielle LilyGO-kabinettet. Det trykte kabinettet kan du finne og skrive ut fra [denne modellen](https://www.printables.com/model/119144-lilygo-ttgo-t-display-enclosure). Det gir et lett og tilpassbart skall til enheten din.
 
 
 ![image](assets/fr/04.webp)
@@ -365,7 +365,7 @@ Sparrow Wallet er et kraftig skrivebordsprogram som gir deg detaljert kontroll o
 
 
 
-- Last ned Sparrow Wallet fra den offisielle nettsiden: [sparrowwallet.com] (https://sparrowwallet.com)
+- Last ned Sparrow Wallet fra den offisielle nettsiden: [sparrowwallet.com](https://sparrowwallet.com)
 - Verifiser nedlastingssignaturen (se Sparrow-dokumentasjonen for mer informasjon)
 - Installer og start applikasjonen
 
@@ -423,7 +423,7 @@ Blockstream Green er programvaren for å fullføre oppsettet av JadeDIY, og den 
 
 
 
-- Last ned den offisielle Blockstream-applikasjonen - dette er lenken til den fra nettstedet deres. Når du er der, klikker du på [Last ned nå] (https://blockstream.com/app/).
+- Last ned den offisielle Blockstream-applikasjonen - dette er lenken til den fra nettstedet deres. Når du er der, klikker du på [Last ned nå](https://blockstream.com/app/).
 
 
 ![image](assets/fr/12.webp)

@@ -1,0 +1,9 @@
+question: Ni ipi kati ya mbinu za muunganisho zilizotajwa kati ya nodi ya Mwangaza na mteja wa simu ambayo haipendekezwi waziwazi kwa matumizi haya?
+answer: Tor
+wrong_answers:
+  - Tailscale
+  - Unganisha Nostr Wallet
+  - Hakuna
+explanation: |
+  Tor hufanya kazi vibaya sana kwa madhumuni haya, huku hitilafu na ucheleweshaji vikifanya matumizi kuwa mabaya.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: Sparrow Wallet - Стоунволл
+name: Sparrow Wallet - Stonewall
 description: Понимание и использование транзакций Stonewall на Sparrow
 ---
 
@@ -76,7 +76,7 @@ Stonewall - это особая форма транзакции Bitcoin, при�
 
 
 
-[**-> Узнайте больше о Стоунволлских сделках x2**](https://planb.academy/tutorials/privacy/on-chain/stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
+[**-> Узнайте больше о Стоунволлских сделках x2**](https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b)
 
 
 

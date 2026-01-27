@@ -20,7 +20,7 @@ Blitz Wallet adalah Bitcoin self-custody Wallet yang kode sumbernya tersedia (Op
 
 
 
-[Blitz Wallet] (https://blitz-Wallet.com/) adalah Wallet seluler yang tersedia di Android (Play Store) dan iOS (App Store).
+[Blitz Wallet](https://blitz-Wallet.com/) adalah Wallet seluler yang tersedia di Android (Play Store) dan iOS (App Store).
 
 
 

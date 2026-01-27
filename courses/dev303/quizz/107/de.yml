@@ -1,0 +1,8 @@
+question: Welche entscheidende Fähigkeit ermöglicht es LDK, die Lightning-Funktionalität über mobile Geldbörsen mit unterbrochener Verbindung aufrechtzuerhalten, verglichen mit traditionellen daemon-basierten Lightning-Knoten?
+answer: LDK ist in der Lage, sich mit Lightning Service Providern (LSPs) zu synchronisieren, wenn sie online gehen, und dabei die Kontrolle über die privaten Schlüssel zu behalten, die nicht in Verwahrung sind
+wrong_answers:
+  - "LDKs eingebautes Offline-Zahlungsverarbeitungssystem, das Transaktionen in eine Warteschlange stellt, bis die Netzwerkverbindung wiederhergestellt ist"
+  - "LDKs verteiltes Channel-State-Backup-System, das Daten automatisch über mehrere Cloud-Anbieter hinweg repliziert"
+  - "LDKs Peer-to-Peer-Mesh-Netzwerkprotokoll, das direkte Blitzzahlungen von Gerät zu Gerät ohne Internet ermöglicht"
+explanation: |
+  Die modulare Architektur von LDK ermöglicht es mobilen Anwendungen, intermittierende Konnektivitätsmuster zu implementieren, indem sie sich mit LSPs synchronisieren, sobald sie online sind, sodass Benutzer Zahlungen empfangen und Kanäle verwalten können, selbst wenn das mobile Gerät offline war. Dies unterscheidet sich grundlegend von herkömmlichen Lightning-Daemons, die einen kontinuierlichen Betrieb erfordern. Die falschen Antworten beschreiben nicht vorhandene Funktionen - LDK verfügt nicht über integrierte Offline-Zahlungsverarbeitung, verteilte Backups oder Mesh-Networking-Funktionen.

@@ -1,0 +1,8 @@
+question: Koja je kritična operativna ranjivost koja proizlazi iz AMP-ovog modela ovlašćenja za su-potpisivanje za prenos regulisanih sredstava?
+answer: Likvidnost imovine potpuno se zaustavlja ako AMP server postane nedostupan, jer svaki transfer zahteva kosignaturu servera.
+wrong_answers:
+  - Naknade za transakcije eksponencijalno rastu kada više potpisnika istovremeno pokušava da odobri transfere.
+  - Poverljivost transakcija se narušava jer su-potpisivanje izlaže faktore zaslepljivanja posmatračima mreže
+  - Vlasnici sredstava gube kontrolu nad skrbništvom jer mehanizam za supotpisivanje prenosi privatne ključeve na AMP server.
+explanation: |
+  AMP-ov model autorizacije zahteva da AMP server ko-potpiše svaki prenos imovine, stvarajući jednu tačku kvara. Ako server postane nedostupan, nijedna transakcija ne može biti završena, što efektivno zamrzava svu likvidnost imovine. Ostale opcije su netačne: naknade se ne povećavaju eksponencijalno sa ko-potpisivanjem, privatnost Pov. Transakcija ostaje netaknuta (samo izdavač dobija vidljivost), a korisnici zadržavaju svoje privatne ključeve dok server samo pruža autorizacione potpise.

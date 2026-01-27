@@ -149,7 +149,7 @@ Liquid yizigiye **ishirahamwe** ry’abaje mu nama bizigira (amashirahamwe, amas
 
 
 - Ku **Androyidi**:
-    - Gukuraho [Iporogarama yo guhagarika] (https://ugukina.google.com/iduka/porogaramu/ibisobanuro?id=com.aderesi y'icatsi kibisi.
+    - Gukuraho [Iporogarama yo guhagarika](https://ugukina.google.com/iduka/porogaramu/ibisobanuro?id=com.aderesi y'icatsi kibisi.
     - Iyindi nzira: Shiraho biciye ku dosiye ya APK iri kuri [GitHub yemewe ya Blockstream]
 - Ku **iOS**:
     - Gukuraho [Iporogarama y’Ikigo c’Igihugu](Iporogarama y’Igihugu y’Igihugu) mu Bubiko bw’Iporogarama.

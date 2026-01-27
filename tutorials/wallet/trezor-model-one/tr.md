@@ -77,7 +77,7 @@ Cihazda gezinmek çok basittir:
 
 
 
-Bu eğitimde, Trezor Model One'ı [Sparrow wallet Wallet yönetim yazılımı] (https://sparrowwallet.com/download/) ile nasıl kullanacağınızı göstereceğim. Bu yazılımı henüz yüklemediyseniz, lütfen şimdi yükleyin. Yardıma ihtiyacınız olursa, Sparrow wallet'ün yapılandırılması hakkında ayrıntılı bir eğitimimiz de var:
+Bu eğitimde, Trezor Model One'ı [Sparrow wallet Wallet yönetim yazılımı](https://sparrowwallet.com/download/) ile nasıl kullanacağınızı göstereceğim. Bu yazılımı henüz yüklemediyseniz, lütfen şimdi yükleyin. Yardıma ihtiyacınız olursa, Sparrow wallet'ün yapılandırılması hakkında ayrıntılı bir eğitimimiz de var:
 
 
 
@@ -307,7 +307,7 @@ Hardware Wallet'unuzda düzenli ürün yazılımı güncellemeleri yapmak veya b
 
 
 
-Henüz yapmadıysanız, Sparrow wallet'i [resmi web sitesinden] (https://sparrowwallet.com/) bilgisayarınıza indirip yükleyerek başlayın.
+Henüz yapmadıysanız, Sparrow wallet'i [resmi web sitesinden](https://sparrowwallet.com/) bilgisayarınıza indirip yükleyerek başlayın.
 
 
 

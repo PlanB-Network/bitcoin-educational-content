@@ -28,9 +28,9 @@ Il ne s'agit pas de la "copie habituelle" de Debian pour les petites cartes de t
 
 
 
-- Optimisé pour la vitesse et la légèreté** : une [comparaison avec d'autres distributions Debian pour SBC] (https://dietpi.com/blog/?p=888), DietPi est plus léger en tout. L'image ISO de DietPi pèse moins de 1 Go, de loin la plus petite parmi celles dédiées aux anciens modèles de Raspberry ou Orange PI (par exemple). La demande en ressources RAM et CPU est très faible, de sorte qu'il tire toujours le meilleur parti des cartes, même les plus anciennes.
+- Optimisé pour la vitesse et la légèreté** : une [comparaison avec d'autres distributions Debian pour SBC](https://dietpi.com/blog/?p=888), DietPi est plus léger en tout. L'image ISO de DietPi pèse moins de 1 Go, de loin la plus petite parmi celles dédiées aux anciens modèles de Raspberry ou Orange PI (par exemple). La demande en ressources RAM et CPU est très faible, de sorte qu'il tire toujours le meilleur parti des cartes, même les plus anciennes.
 - Automatismes et installateurs intégrés** : Une suite de commandes dédiées aide les utilisateurs à surveiller les ressources du système et à automatiser les tâches d'installation et de lancement des programmes, de mise à jour des versions, de sauvegarde et de vérification de tous les journaux.
-- Une communauté forte, orientée vers l'expérimentation** : les [tutoriels] (https://dietpi.com/forum/c/community-tutorials/8) et les projets de la communauté DietPi sont idéaux pour s'inspirer des logiciels que vous pouvez installer en un clic grâce à DietPi.
+- Une communauté forte, orientée vers l'expérimentation** : les [tutoriels](https://dietpi.com/forum/c/community-tutorials/8) et les projets de la communauté DietPi sont idéaux pour s'inspirer des logiciels que vous pouvez installer en un clic grâce à DietPi.
 
 
 
@@ -181,7 +181,7 @@ C'est certainement le terminal qui est le premier outil utile pour commencer à 
 
 
 
-Sur l'écran du terminal, vous trouverez une série de commandes précédées de `dietpi-` représentant les [outils] (https://dietpi.com/docs/dietpi_tools/) de ce système d'exploitation :
+Sur l'écran du terminal, vous trouverez une série de commandes précédées de `dietpi-` représentant les [outils](https://dietpi.com/docs/dietpi_tools/) de ce système d'exploitation :
 
 
 

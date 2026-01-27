@@ -75,17 +75,18 @@ Di bawah ini adalah tabel yang merangkum spesifikasi teknis umum Nano 3S :
 
 
 
-| Caractéristique                                      | Valeur                                                  |
+
+| Fitur                                      | Nilai                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
+| Tingkat Hash                                      | 6 Th/s +- 5%                                            |
+| Konsumsi Daya                               | 140 W                                                   |
+| Kebisingan                                                | 30 - 40 dB                                              |
+| Rentang Suhu Udara Keluaran                 | 60-70°C (pada suhu lingkungan 25°C)                |
+| Persyaratan Suhu Ambien untuk Penggunaan | -5 hingga 30°C                                            |
+| Rentang Tegangan Input Perangkat                         | 28V 5A berkelanjutan                                          |
+| Rentang Tegangan Input Adapter                       | 110-240V AC 50/60Hz                                     |
+| Ukuran Perangkat                                 | Panjang: 205 mm / Lebar: 115 mm / Tinggi: 58.5 mm |
+| Berat Perangkat                                  | 0.86 kg                                                 |
 
 ## Menyalakan dan menyambungkan ke jaringan lokal
 

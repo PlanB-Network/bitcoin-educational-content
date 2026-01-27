@@ -1,0 +1,8 @@
+question: Was ist der Hauptgrund dafür, dass der Mechanismus zur Anpassung des Schwierigkeitsgrades von Bitcoin Änderungen innerhalb eines Faktors von vier während jedes Anpassungszeitraums des 2016-Blocks begrenzt?
+answer: Um extreme Schwankungen zu vermeiden, die das Netzwerk destabilisieren könnten, wenn sich die Hash-Rate drastisch ändert
+wrong_answers:
+  - Um sicherzustellen, dass die Miner genügend Zeit haben, ihre Hardware aufzurüsten, bevor der Schwierigkeitsgrad signifikant steigt
+  - Zur Aufrechterhaltung der Kompatibilität mit dem 32-Bit-Zeitstempelfeld, das bei größeren Anpassungen unzuverlässig wird
+  - Um zu verhindern, dass der Zeitplan für die Halbierung des Blockzuschusses durch rasche Änderungen des Schwierigkeitsgrades gestört wird
+explanation: |
+  Die vierfache Grenze verhindert gefährliche Rückkopplungsschleifen, bei denen extreme Schwierigkeitsänderungen zu wilden Schwankungen der Blockzeiten führen könnten. Ohne diese Einschränkung könnte ein plötzlicher Abfall der Hash-Rate zu einer massiven Verringerung des Schwierigkeitsgrads führen, wodurch Blöcke zu einfach würden und der Konsens möglicherweise destabilisiert würde. Umgekehrt könnten massive Erhöhungen dazu führen, dass Blöcke nahezu unmöglich zu schürfen sind. Die Begrenzung sorgt für allmähliche, überschaubare Anpassungen, die die Stabilität des Netzwerks auch bei größeren Störungen wie mining-Verboten aufrechterhalten, so dass sich das System über mehrere Anpassungszeiträume hinweg vorhersehbar selbst korrigieren kann, anstatt chaotische Schwingungen zu erzeugen.

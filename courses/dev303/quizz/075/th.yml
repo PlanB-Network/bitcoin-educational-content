@@ -1,0 +1,8 @@
+question: ข้อได้เปรียบหลักของการใช้เมธอด map() และ map_err() บนประเภท Result เมื่อเทียบกับรูปแบบการจัดการข้อผิดพลาดแบบ try-catch แบบดั้งเดิมคืออะไร?
+answer: พวกเขาอนุญาตให้มีการเชื่อมโยงการดำเนินการแบบฟังก์ชันสไตล์ ในขณะที่ยังคงการจัดการข้อผิดพลาดใกล้กับการดำเนินการที่อาจล้มเหลว
+wrong_answers:
+  - พวกเขาจะแปลงข้อผิดพลาดทุกประเภทเป็นข้อความสตริงโดยอัตโนมัติเพื่อให้ง่ายต่อการดีบักและแสดงผลแก่ผู้ใช้
+  - พวกเขากำจัดความจำเป็นในการใช้เครื่องหมายคำถามโดยการให้กลไกการแพร่กระจายข้อผิดพลาดในตัว
+  - พวกเขาป้องกันสภาวะตื่นตระหนกโดยการห่อหุ้มการดำเนินการที่อาจล้มเหลวทั้งหมดในคอนเทนเนอร์ Result ที่ปลอดภัย
+explanation: |
+  The map() and map_err() methods enable functional-style error handling where you can chain operations and transform values or errors right at the point where they occur. This keeps error handling logic close to the operations that can fail, unlike try-catch blocks where error handling is separated from the actual operations. The other options are incorrect: map methods don't convert errors to strings (that's anyhow's role), they work alongside the question mark operator rather than replacing it, and they don't prevent panics but rather provide structured error handling for Results.

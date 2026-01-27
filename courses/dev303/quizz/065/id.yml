@@ -1,0 +1,8 @@
+question: Mengapa filosofi 'bergerak cepat dan hancurkan sesuatu' sangat tidak cocok untuk pengembangan Bitcoin dibandingkan dengan pengembangan perangkat lunak tradisional?
+answer: Transaksi Bitcoin tidak dapat dibatalkan tanpa otoritas pusat untuk memulihkan dana dari kesalahan
+wrong_answers:
+  - Pengembangan Bitcoin membutuhkan siklus iterasi yang lebih cepat daripada aplikasi web tradisional
+  - "Kompiler Rust mencegah pembuatan prototipe cepat yang dibutuhkan untuk inovasi blockchain"
+  - "Sifat open source Bitcoin membuatnya lebih sulit untuk memperbaiki bug setelah penerapan"
+explanation: |
+  Jawaban yang benar menyoroti karakteristik fundamental Bitcoin: sifatnya yang terdesentralisasi berarti tidak ada otoritas yang dapat dimintakan pemulihan dana setelah transaksi disiarkan. Tidak seperti sistem keuangan tradisional yang memiliki perlindungan regulasi dan mekanisme tolak bayar, kesalahan Bitcoin bersifat permanen dan tidak dapat dipulihkan. Jawaban yang salah salah memahami masalah inti - ini bukan tentang kecepatan pengembangan, keterbatasan kompiler, atau tantangan open source, tetapi tentang sifat operasi keuangan yang tidak dapat dipulihkan dalam sistem terdesentralisasi di mana dana pengguna berada dalam risiko permanen.

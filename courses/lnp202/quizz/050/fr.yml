@@ -1,0 +1,9 @@
+question: Quel est l’objectif principal de la configuration LND + Tailscale + Zeus ?
+answer: Utiliser un wallet mobile adossé à notre nœud Lightning
+wrong_answers:
+  - Utiliser un wallet custodial sans nœud Lightning
+  - Multiplexer plusieurs nœuds LND
+  - Miner des sats depuis Umbrel
+explanation: |
+  Le but est d’utiliser une application mobile de wallet Lightning qui s’appuie en arrière-plan sur votre propre nœud.
+reviewed: false

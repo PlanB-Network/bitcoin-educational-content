@@ -1,0 +1,8 @@
+question: Was ist der Hauptunterschied zwischen Methoden und zugehörigen Funktionen in Rust-Strukturen?
+answer: Methoden nehmen self als ersten Parameter, während zugehörige Funktionen dies nicht tun
+wrong_answers:
+  - Methoden sind standardmäßig öffentlich, während zugehörige Funktionen standardmäßig privat sind
+  - Methoden können nur Daten lesen, während zugehörige Funktionen Strukturfelder verändern können
+  - Für den Aufruf von Methoden wird die Punktschreibweise verwendet, während die zugehörigen Funktionen die Pfeilschreibweise verwenden
+explanation: |
+  Methoden in Rust sind Funktionen, die in einem Impl-Block definiert sind und eine Form von self als ersten Parameter annehmen (self, &self oder &mut self), so dass sie auf Instanzen der Struktur wirken können. Assoziierte Funktionen werden ebenfalls in Impl-Blöcken definiert, nehmen aber nicht self als Parameter an und ähneln damit statischen Methoden in anderen Sprachen. Assoziierte Funktionen werden mit Doppelpunkt-Syntax (Typ::Funktionsname()) aufgerufen und werden üblicherweise als Konstruktoren verwendet, während Methoden auf Instanzen mit Punktnotation aufgerufen werden. Die anderen Optionen sind falsch, da sowohl Methoden als auch assoziierte Funktionen denselben Sichtbarkeitsregeln folgen, beide je nach ihrer Implementierung Daten verändern oder lesen können und assoziierte Funktionen die Doppelpunktsyntax und nicht die Pfeilschreibweise verwenden.

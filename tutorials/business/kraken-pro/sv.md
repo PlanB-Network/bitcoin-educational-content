@@ -22,7 +22,7 @@ https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 Det första steget i att använda Kraken för att hantera ditt företags ekonomi är naturligtvis att skapa ett konto. Här ska vi inte skapa ett konto för privatpersoner utan ett företagskonto, som inte bara säkerställer regelefterlevnad utan också erbjuder specialanpassade funktioner som redovisningsexport.
 
 
-Gå till den officiella webbplatsen [kraken.com] (https://www.kraken.com/) och klicka på knappen "*Sign Up*".
+Gå till den officiella webbplatsen [kraken.com](https://www.kraken.com/) och klicka på knappen "*Sign Up*".
 
 
 ![KRAKEN](assets/fr/01.webp)

@@ -1,0 +1,8 @@
+question: Bitcoin'ın kriptografik sisteminde F(p) sonlu alanı nedir?
+answer: Bir p asal sayısı ile tanımlanan ve 0 ile p-1 arasındaki elemanları içeren bir aritmetik sistem
+wrong_answers:
+  - Bitcoin adreslerini ve anahtarlarını üretmek için kullanılan sonsuz sayı kümesi
+  - 0 ile p-1 arasındaki tüm gerçek sayıları içeren matematiksel bir alan
+  - Tam olarak p bit uzunluğunda çıktılar üreten kriptografik bir hash fonksiyonu
+explanation: |
+  Sonlu bir F(p) alanı, özellikle tam olarak p elemanı içeren bir p asal sayısı etrafında oluşturulmuş bir aritmetik sistemdir: 0'dan p-1'e kadar olan tam sayılar. 'Sonlu' yönü çok önemlidir - sonsuz değildir ve gerçek sayılar veya hash fonksiyonları ile ilgili değildir. Asal alanlar, sıfır olmayan her elemanın çarpımsal bir tersinin olmasını sağlar ve tüm aritmetik işlemler (toplama, çıkarma, çarpma) modulo p kullanılarak sarılır ve sonuçları alan içinde tutar. Bu sınırlı, öngörülebilir yapı Bitcoin'nin kriptografik güvenliği için gereklidir.

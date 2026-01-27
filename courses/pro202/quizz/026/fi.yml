@@ -1,0 +1,8 @@
+question: Miksi perinteisen Bitcoin-tapahtuman validoinnin aikamäärän monimutkaisuus on kvadraattinen suhteessa syötteiden määrään?
+answer: Jokainen tulo vaatii oman sighash-laskentansa rakenteessa, joka sisältää kaikki tapahtuman tulot
+wrong_answers:
+  - Jokaisen syötteen on tarkistettava allekirjoitukset kaikkien muiden syötteiden osalta, jotta estetään double-spending tapahtuman sisällä
+  - Pinoihin perustuva suoritusmalli edellyttää sisäkkäisiä silmukoita, joissa käsitellään opcodeja kunkin syötteen yhdistelmää varten
+  - "Jokaisen syötteen ScriptSig on validoitava jokaisen tulosteen ScriptPubKey:tä vastaan oikean vastaavuuden löytämiseksi"
+explanation: |
+  Legacy Bitcoin -validointi aiheuttaa nelinkertaista monimutkaisuutta, koska jokainen syöttö tarvitsee oman sighash-laskennan, mutta jokainen laskenta käsittelee transaktiorakennetta, joka sisältää kaikki syötteet. Kun syötteitä on n, tämä aiheuttaa n×n operaatiota. SegWit ratkaisi ongelman välimuistiin tallentamalla sighash-laskennan jaetut osat, mikä vähentää monimutkaisuutta lineaariseen aikaan ja estää suurten, usean syötteen sisältävien transaktioiden aiheuttamat mahdolliset palvelunestohyökkäykset.

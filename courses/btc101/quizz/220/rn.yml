@@ -1,11 +1,9 @@
-question: Ni igiki coba ku bikorwa vya kera vyo kohereza amahera nka Western Union, amabanki akomeye, Visa, na Mastercard iyo batafata Lightning Network?
-answer: Vyoshobora kuzimangana.
+question: Ni ubuhe buryo buhuza sidechain na Bitcoin?
+answer: Gufatanya mu mpande zombi
 wrong_answers:
-  - Bashobora kurushiriza kumenyekana.
-  - Bashobora kurushiriza kugira umutekano.
-  - Bashobora kurushiriza kwegereza abantu.
+  - Umuyoboro wo kwishyura
+  - Proof of Stake
+  - Sharding
 explanation: |
-  Ibikorwa vya kera vyo kohereza amafaranga nka Western Union,
-  amabanki akomeye, Visa, na Mastercard vyoshobora kuzimangana iyo .
-  ntimukoreshe ubuhinga bwa Lightning Network.
-reviewed: true
+  Uburyo bwa two-way peg butuma BTC zifungwa kuri Bitcoin maze zigaserukira kuri sidechain.
+reviewed: false

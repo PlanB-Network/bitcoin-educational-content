@@ -1,5 +1,5 @@
 ---
-name: BTCPay Sunucusu
+name: BTCPay Server
 description: BTC ödemelerini aracılar olmadan kabul etme
 ---
 

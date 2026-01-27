@@ -28,7 +28,7 @@ No BTC304, veremos por que a construção de comunidades é importante, explorar
 
 
 
-Bem-vindo ao BTC302!
+Bem-vindo ao BTC 304!
 
 
 
@@ -48,7 +48,7 @@ Este crescimento significativo está, evidentemente, intimamente ligado a:
 
 
 
-- o [interesse crescente das populações de todo o mundo em utilizar o Bitcoin] (https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), para se libertarem do sistema bancário e/ou utilizarem uma moeda menos volátil ou menos desvalorizada, como é o caso das populações do Líbano, Síria, Egito, Argentina, entre outros;
+- o [interesse crescente das populações de todo o mundo em utilizar o Bitcoin](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin), para se libertarem do sistema bancário e/ou utilizarem uma moeda menos volátil ou menos desvalorizada, como é o caso das populações do Líbano, Síria, Egito, Argentina, entre outros;
 - a valorização do seu preço ao longo do tempo, estabelecendo-o como uma reserva de valor e um investimento a longo prazo, impulsionado pela sua política monetária fixa;
 - o crescimento sucessivo do mercado especulativo das criptomoedas, nomeadamente durante 2017-2018 e 2020-2021;
 - A presença crescente da Bitcoin nos principais meios de comunicação social.
@@ -241,11 +241,11 @@ Os encontros Bitcoin podem servir para muitos objectivos:
 
 
 
-Abordaremos muitas destas possibilidades em pormenor na parte 6/8 deste curso, intitulada "[Exemplos de projectos e iniciativas] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
+Abordaremos muitas destas possibilidades em pormenor na parte 6/8 deste curso, intitulada "[Exemplos de projectos e iniciativas](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279).
 
 
 
-Embora cada comunidade seja livre de formar as suas próprias opiniões, lançar projectos e experimentar à sua maneira, os encontros estão a revelar-se cada vez mais **essenciais para o desenvolvimento do Bitcoin e para o crescimento dos bitcoiners**. **A sua organização requer tempo e esforço**, e é por isso que este curso partilha a experiência combinada de [cerca de sessenta comunidades Bitcoin em França e na Bélgica] (https://btcmap.org/communities/map#2/5.24949/0.20000) **para o ajudar a construir e a fazer crescer a sua própria comunidade e encontros da forma mais simples possível**.
+Embora cada comunidade seja livre de formar as suas próprias opiniões, lançar projectos e experimentar à sua maneira, os encontros estão a revelar-se cada vez mais **essenciais para o desenvolvimento do Bitcoin e para o crescimento dos bitcoiners**. **A sua organização requer tempo e esforço**, e é por isso que este curso partilha a experiência combinada de [cerca de sessenta comunidades Bitcoin em França e na Bélgica](https://btcmap.org/communities/map#2/5.24949/0.20000) **para o ajudar a construir e a fazer crescer a sua própria comunidade e encontros da forma mais simples possível**.
 
 
 
@@ -283,7 +283,7 @@ Algumas dicas para orientar a sua decisão:
 
 3/ **Verificar se já existe um encontro perto de si**.
 
-Pode consultar [btcmap.org] (https://btcmap.org/communities/map#0/0/0/), que lista a maioria das comunidades e encontros Bitcoin em todo o mundo.
+Pode consultar [btcmap.org](https://btcmap.org/communities/map#0/0/0/), que lista a maioria das comunidades e encontros Bitcoin em todo o mundo.
 
 
 
@@ -353,7 +353,7 @@ O seu primeiro evento será provavelmente um encontro. O seu principal objetivo:
 
 
 
-No entanto, como veremos mais adiante em [Exemplos de projectos e iniciativas] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **um encontro pode ser construído de muitas formas, com muitos objectivos:**
+No entanto, como veremos mais adiante em [Exemplos de projectos e iniciativas](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), **um encontro pode ser construído de muitas formas, com muitos objectivos:**
 
 
 
@@ -616,7 +616,7 @@ Eis alguns modelos prontos do Canva que pode duplicar e adaptar à sua comunidad
 
 
 
-- **diretrizes da marca** da nossa biblioteca, apresentadas em A4 nos encontros: [link] (https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- **diretrizes da marca** da nossa biblioteca, apresentadas em A4 nos encontros: [link](https://www.canva.com/design/DAGBvPqL7N4/LmUItfsysypRLSOFOzBXcQ/edit?utm_content=DAGBvPqL7N4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
@@ -782,7 +782,7 @@ Por exemplo, **em França, na Alemanha e em Itália, o Telegram e o Twitter são
 Em contrapartida, na República Checa, muitas comunidades utilizam o **Matrix**, um protocolo seguro de mensagens instantâneas, em vez do Telegram.
 
 
-Dica: Antes de escolher os seus canais, **veja o que as comunidades vizinhas estão a fazer**. Utilize o mapa [btcmap.org] (https://btcmap.org/communities/map#0/0/0/) para ver quais as plataformas mais populares na sua região.
+Dica: Antes de escolher os seus canais, **veja o que as comunidades vizinhas estão a fazer**. Utilize o mapa [btcmap.org](https://btcmap.org/communities/map#0/0/0/) para ver quais as plataformas mais populares na sua região.
 
 
 Por exemplo, as comunidades suíças utilizam principalmente o Telegram, o Twitter e o seu próprio sítio Web:
@@ -866,7 +866,7 @@ Para os tutoriais abaixo, usamos originalmente o APK "Telegram+", que permite co
 Se quiser criar um local onde os seus membros possam falar diretamente uns com os outros, responder uns aos outros, etc., então talvez seja melhor criar um grupo do Telegram, e não um canal do Telegram!
 
 
-Vá diretamente para a secção seguinte, intitulada [Criar um grupo Telegram] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
+Vá diretamente para a secção seguinte, intitulada [Criar um grupo Telegram](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/d13714ce-8f08-53e9-bedd-b6a3aaac5dad).
 
 
 
@@ -1123,7 +1123,7 @@ Porquê considerar o Discord?
 
 
 
-Para te facilitar as coisas, **estamos a partilhar um [servidor Discord que podes duplicar e personalizar] (https://discord.com/template/bDY4eXXJk2C8)**:
+Para te facilitar as coisas, **estamos a partilhar um [servidor Discord que podes duplicar e personalizar](https://discord.com/template/bDY4eXXJk2C8)**:
 
 
 
@@ -1232,7 +1232,7 @@ O Twitter é muito fácil de utilizar e, para melhorar a sua privacidade, terá 
 1/ **o @ Twitter**, que define a sua identidade e torna-o fácil de encontrar. Se o nome da sua comunidade for "Bitcoin [CIDADE]", é adequado escolher "@Bitcoin[CIDADE]";
 
 
-2/ **o logótipo e a faixa** que criou para a sua comunidade ou reunião (ver secção [Criar um logótipo, cartaz e faixa] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
+2/ **o logótipo e a faixa** que criou para a sua comunidade ou reunião (ver secção [Criar um logótipo, cartaz e faixa](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef));
 
 
 3/ **a descrição**, que lhe permite partilhar informações essenciais sobre a sua comunidade em poucas centenas de caracteres. Por exemplo:
@@ -1260,7 +1260,7 @@ Além disso, vale a pena ajustar **algumas definições de privacidade**:
 Para cada evento, é provável que utilize o Twitter para partilhar informações úteis. Mas, como na maioria das redes sociais, **visibilidade é tudo**.
 
 
-Para lhe poupar tempo considerável, dedicámos algum tempo a estudar [o algoritmo de classificação de código aberto do Twitter] (https://github.com/twitter).
+Para lhe poupar tempo considerável, dedicámos algum tempo a estudar [o algoritmo de classificação de código aberto do Twitter](https://github.com/twitter).
 
 
 Aqui estão os **principais aspectos em que se deve concentrar para aumentar a sua visibilidade**:
@@ -1392,7 +1392,7 @@ Estes incluem:
 
 
 - [Btcmap.org](https://btcmap.org/), um sítio Web com dois mapas actualizados diariamente: **[o mapa mundial das empresas que aceitam Bitcoin](https://btcmap.org/map)** e **[o mapa mundial das comunidades](https://btcmap.org/communities/map)**. Muitos bitcoiners consultam estes mapas regularmente, quer estejam a viajar ou a fazer a sua vida quotidiana, para conhecer novas pessoas ou encontrar locais onde gastar os seus Sats. O Btcmap é a referência global, e listar a sua comunidade lá é essencial para a visibilidade
-- [BitcoinerEvents] (https://www.bitcoinerevents.com/), um sítio Web criado por bitcoiners, para bitcoiners. **Permite-lhe publicar os próximos eventos da sua comunidade**. Em França, no entanto, ainda não é muito utilizado.
+- [BitcoinerEvents](https://www.bitcoinerevents.com/), um sítio Web criado por bitcoiners, para bitcoiners. **Permite-lhe publicar os próximos eventos da sua comunidade**. Em França, no entanto, ainda não é muito utilizado.
 - dependendo do seu país, pode haver outras iniciativas locais. Em França, por exemplo, existe o [Bitcoin.fr](https://Bitcoin.fr/events/categories/evenements/), que **lista dezenas de eventos Bitcoin todos os meses**. Por isso, se ainda não os seguiu no Twitter ou não os contactou para partilhar informações sobre a sua comunidade e eventos, chegou a altura! **Para ajudar a manter o calendário de eventos francês atualizado, seria ótimo se todas as comunidades francesas do Bitcoin tivessem o hábito de**
     - mencionar @bitcoinpointfr no Twitter para cada novo evento da comunidade
     - fixar anúncios de novos eventos no seu grupo do Telegram.
@@ -1547,7 +1547,7 @@ No segundo caso, um segundo evento mensal poderia ser dedicado a um tema especí
 
 
 
-Tenha em conta que **isto requer mais organização e mais do seu tempo**. Felizmente, na [parte 6/8 deste curso] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), encontrará uma série de recursos reutilizáveis de código aberto para o ajudar.
+Tenha em conta que **isto requer mais organização e mais do seu tempo**. Felizmente, na [parte 6/8 deste curso](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279), encontrará uma série de recursos reutilizáveis de código aberto para o ajudar.
 
 
 Em todo o caso, tudo depende do plano de ação a curto, médio e longo prazo que você, ou a sua comunidade, estabelecerem para si próprios.
@@ -1721,7 +1721,7 @@ Roma não foi construída num dia, e a sua comunidade também não o será. O im
 Para que isso aconteça, uma coisa é essencial: **manter os participantes envolvidos**.
 
 
-Pode começar com um pequeno grupo de bitcoiners apaixonados, cujo objetivo é reunir-se regularmente e falar sobre o Bitcoin. Ao longo do tempo, dependendo da disponibilidade e dos interesses de cada pessoa, pode **partilhar certas tarefas organizacionais com o grupo**, ou convidar **membros nucleares para assumirem projectos específicos**. Estes podem ser exclusivos da sua comunidade, dos seus encontros ou da sua cidade, ou mesmo inspirados nas muitas iniciativas propostas na [parte 6/8 deste curso] (https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Isto não só promove o Commitment dos seus membros principais, como também ajuda a sua comunidade a crescer e a prosperar.**
+Pode começar com um pequeno grupo de bitcoiners apaixonados, cujo objetivo é reunir-se regularmente e falar sobre o Bitcoin. Ao longo do tempo, dependendo da disponibilidade e dos interesses de cada pessoa, pode **partilhar certas tarefas organizacionais com o grupo**, ou convidar **membros nucleares para assumirem projectos específicos**. Estes podem ser exclusivos da sua comunidade, dos seus encontros ou da sua cidade, ou mesmo inspirados nas muitas iniciativas propostas na [parte 6/8 deste curso](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3213d87a-1998-5972-ab93-97a5769ba279). **Isto não só promove o Commitment dos seus membros principais, como também ajuda a sua comunidade a crescer e a prosperar.**
 
 
 À medida que os encontros progridem, vão aparecendo caras novas: pessoas que compraram BTC e/ou altcoins em ciclos anteriores, entusiastas da tecnologia que querem aprofundar os seus conhecimentos, ou principiantes completos curiosos sobre este sistema de pagamento não censurável, descentralizado, transparente e justo que funciona sem condições e sem terceiros de confiança.
@@ -1775,7 +1775,7 @@ Em última análise, cabe-lhe a si decidir até onde deve ir o "aberto e inclusi
 À medida que os blocos avançam, a vossa comunidade irá evoluir. Novas caras juntar-se-ão, outras afastar-se-ão, mas o princípio orientador deve permanecer o mesmo: desenvolver o ecossistema Bitcoin e reforçar os laços entre os membros.
 
 
-Há muitos projectos e iniciativas que podem ser implementados. Este capítulo oferece uma lista não exaustiva de ideias que podem ser levadas a cabo numa comunidade ou durante um encontro. Sinta-se à vontade para escolher as que o inspiram e até contribuir com as suas próprias ideias para este curso [fazendo um "Pull Request" no GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content).
+Há muitos projectos e iniciativas que podem ser implementados. Este capítulo oferece uma lista não exaustiva de ideias que podem ser levadas a cabo numa comunidade ou durante um encontro. Sinta-se à vontade para escolher as que o inspiram e até contribuir com as suas próprias ideias para este curso [fazendo um "Pull Request" no GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
 Antes de nos debruçarmos sobre o assunto, voltemos a um ponto mencionado anteriormente.
@@ -1820,7 +1820,7 @@ Para além do seu forte valor pedagógico, esta abordagem permite partilhar docu
 Abaixo está a progressão dos encontros franceses de 2023-2024. Para cada tema, estão disponíveis uma apresentação de código aberto e um vídeo, que podem dar ideias de tópicos que podem ser abordados nos seus próprios eventos.
 
 
-Também é possível encontrar materiais editáveis adicionais na [Caixa de ferramentas de ensino Bitcoin] (https://planb.academy/fr/resources/bet)!
+Também é possível encontrar materiais editáveis adicionais na [Caixa de ferramentas de ensino Bitcoin](https://planb.academy/fr/resources/bet)!
 
 
 
@@ -1949,10 +1949,10 @@ Se dirige uma associação e pretende investir parte dos seus fundos em recursos
 ![image](assets/pt/039.webp)
 
 
-Para apoiar o ecossistema, a **[editora Konsensus Network] (https://konsensus.network/) tem vindo a oferecer aos encontros e comunidades internacionais do Bitcoin um desconto de 15% a 35% em todos os seus livros desde finais de 2023, para encomendas de três livros ou mais**.
+Para apoiar o ecossistema, a **[editora Konsensus Network](https://konsensus.network/) tem vindo a oferecer aos encontros e comunidades internacionais do Bitcoin um desconto de 15% a 35% em todos os seus livros desde finais de 2023, para encomendas de três livros ou mais**.
 
 
-Para beneficiar deste desconto, basta **contactar a [editora Konsensus] (https://twitter.com/KonsensusFR) no Twitter**.
+Para beneficiar deste desconto, basta **contactar a [editora Konsensus](https://twitter.com/KonsensusFR) no Twitter**.
 
 
 Se não tiver dinheiro, pode ainda assim passar o desconto aos membros da sua comunidade.
@@ -1966,7 +1966,7 @@ Pode também apresentar uma carta de empréstimo de livros nos seus encontros pa
 
 Aqui está um exemplo de código aberto que pode utilizar e adaptar:
 
-[Carta de empréstimo de livros] (https://www.canva.com/design/DAF7u1b5kRM/r2gEAlibe_jTIXIX-O9PMA/edit)
+[Carta de empréstimo de livros](https://www.canva.com/design/DAF7u1b5kRM/r2gEAlibe_jTIXIX-O9PMA/edit)
 
 
 
@@ -1978,7 +1978,7 @@ Finalmente, para incentivar a leitura relacionada com o Bitcoin, pode visitar as
 
 Se o fizerem, pergunte aos bibliotecários se há alguma **mesa redonda planeada** sobre o tema e ofereça-lhes os contactos do seu encontro.
 
-Se não, sugira-lhes que adquiram alguns livros de uma lista pré-selecionada. A [rede de editores Konsensus] (https://konsensus.network/) pode ser uma fonte de inspiração.
+Se não, sugira-lhes que adquiram alguns livros de uma lista pré-selecionada. A [rede de editores Konsensus](https://konsensus.network/) pode ser uma fonte de inspiração.
 
 
 
@@ -2003,10 +2003,10 @@ Estes folhetos podem ser direcionados para:
 Também pode conceber um folheto específico para a sua comunidade ou reunião, apresentando as suas actividades, objectivos, ligações às redes sociais, canais de comunicação e eventos futuros.
 
 
-Vários folhetos já estão **disponíveis como código aberto na [Bitcoin Teaching Toolbox] (https://planb.academy/fr/resources/bet)** em planB.network e outros serão adicionados ao longo do tempo.
+Vários folhetos já estão **disponíveis como código aberto na [Bitcoin Teaching Toolbox](https://planb.academy/fr/resources/bet)** em planB.network e outros serão adicionados ao longo do tempo.
 
 
-Um exemplo é um [folheto de fonte completa] (https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) com 21 razões para utilizar o Bitcoin. O seu design também está [disponível em código aberto] (https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) para ser modificado, adaptado e partilhado. Lembre-se apenas de dar crédito às suas fontes.
+Um exemplo é um [folheto de fonte completa](https://profedustream.substack.com/p/21-raisons-dutiliser-Bitcoin) com 21 razões para utilizar o Bitcoin. O seu design também está [disponível em código aberto](https://www.canva.com/design/DAFtAR1NauQ/ZDwl2CchIJ9Gpb36N6-7iw/edit?utm_content=DAFtAR1NauQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) para ser modificado, adaptado e partilhado. Lembre-se apenas de dar crédito às suas fontes.
 
 
 
@@ -2050,7 +2050,7 @@ Embora deixar o livro branco Bitcoin seja simbólico, é muitas vezes demasiado 
 - o Livro Branco Bitcoin, traduzido para francês.
 
 
-Eis [o folheto partilhado pelos bitcoiners franceses] (https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) que foi colocado em dezenas de caixas de livros em todo o país. O seu design está também [disponível em código aberto] (https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Eis [o folheto partilhado pelos bitcoiners franceses](https://profedustream.substack.com/p/Bitcoin-la-naissance-dune-nouvelle) que foi colocado em dezenas de caixas de livros em todo o país. O seu design está também [disponível em código aberto](https://www.canva.com/design/DAFs18FSoVM/Sy0QsfUkycTgXveeGgutBg/edit?utm_content=DAFs18FSoVM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 
@@ -2071,7 +2071,7 @@ Eis [o folheto partilhado pelos bitcoiners franceses] (https://profedustream.sub
 Quase todos os bitcoiners já devem ter visto a fascinante série média de [Rémi Forte](https://twitter.com/forteremi) "Le mystère Satoshi, aux origines du Bitcoin" (O mistério do Satoshi: as origens do Bitcoin).
 
 
-Lançado em 2021, foi visto [vários milhões de vezes no YouTube] (https://www.youtube.com/watch?v=0ETcLj5jBy4).
+Lançado em 2021, foi visto [vários milhões de vezes no YouTube](https://www.youtube.com/watch?v=0ETcLj5jBy4).
 
 
 Uma ideia poderia ser organizar uma projeção do filme The Satoshi Mystery para a sua comunidade, talvez como um evento mensal extra.
@@ -2086,7 +2086,7 @@ Para a maioria das comunidades, este preço é proibitivo, especialmente porque 
 É claro que são possíveis outras projecções.
 
 
-Por exemplo, em França, **a realizadora [Alana Mediavilla] (https://twitter.com/AlanaMediavilla) concedeu aos encontros locais o direito de pré-visualizar o seu documentário "Stranded "**, que inclui imagens do próximo filme de 2024 [filme "Dirty Coin"] (https://www.dirtycointhemovie.com/).
+Por exemplo, em França, **a realizadora [Alana Mediavilla](https://twitter.com/AlanaMediavilla) concedeu aos encontros locais o direito de pré-visualizar o seu documentário "Stranded "**, que inclui imagens do próximo filme de 2024 [filme "Dirty Coin"](https://www.dirtycointhemovie.com/).
 
 
 Alguns bitcoiners tomaram mesmo a iniciativa de traduzir integralmente "Stranded" para francês, adicionar legendas e partilhá-lo com encontros em todo o país. Durante a semana de 4 de março de 2024, o filme foi exibido simultaneamente em cerca de uma dúzia de encontros em todo o país.
@@ -2113,7 +2113,7 @@ Em vários países europeus (incluindo Alemanha, Espanha e França), os utilizad
 Alguns desenhos reelaboram a arte de Banksy para incluir o logótipo Bitcoin.
 
 
-Um exemplo é [StreetCyberArt] (https://twitter.com/streetcyber_art), um bitcoiner alemão que cria colagens e arte de rua há vários anos.
+Um exemplo é [StreetCyberArt](https://twitter.com/streetcyber_art), um bitcoiner alemão que cria colagens e arte de rua há vários anos.
 
 
 
@@ -2137,7 +2137,7 @@ Tenha também em atenção que a impressão destes cartazes numa impressora pess
 Esta iniciativa pode ter um custo superior a 0,40 euros por cartaz (cerca de 40 euros por cem cartazes) e os preços em linha podem variar entre o dobro e o quíntuplo desse montante. Os bons contactos são essenciais.
 
 
-Como já foi referido, o bitcoiner francês [@Mill3sim3] (https://twitter.com/Mill3sim3) dispõe do equipamento profissional adequado e pode ser contactado para mais informações.
+Como já foi referido, o bitcoiner francês [@Mill3sim3](https://twitter.com/Mill3sim3) dispõe do equipamento profissional adequado e pode ser contactado para mais informações.
 
 
 Em alternativa, uma opção mais DIY é fazer um stencil a partir de um grande pedaço de cartão e usar tinta em spray para marcar o seu desenho em pontos selecionados da sua cidade.
@@ -2154,7 +2154,7 @@ Em alternativa, uma opção mais DIY é fazer um stencil a partir de um grande p
 Outra ideia original do projeto é a criação de cartões NFC personalizados para pagamentos Lightning (compatíveis com a norma BoltCard). Para isso, o Swiss Bitcoin Pay é um ótimo parceiro.
 
 
-[O seu sítio Web] (https://swiss-Bitcoin-pay.ch/cards) oferece atualmente quatro modelos padrão.
+[O seu sítio Web](https://swiss-Bitcoin-pay.ch/cards) oferece atualmente quatro modelos padrão.
 
 
 Se pretender encomendar mais de 50 cartões NFC, pode contactar a empresa através do seu sítio Web oficial ou do [Twitter](https://twitter.com/SwissBitcoinPay) para propor um desenho personalizado para a frente do cartão. O verso permanecerá normalizado.
@@ -2165,7 +2165,7 @@ Se pretender encomendar mais de 50 cartões NFC, pode contactar a empresa atrav�
 
 
 
-Por exemplo, em 2023, a associação francesa [Bitcoin Lille] (https://twitter.com/BitcoinLille) encomendou um lote de cartões NFC com um desenho personalizado. Cada novo membro recebeu um no seu pacote de boas-vindas durante o ano. Esta ideia pode ser facilmente adaptada e personalizada para a sua própria comunidade.
+Por exemplo, em 2023, a associação francesa [Bitcoin Lille](https://twitter.com/BitcoinLille) encomendou um lote de cartões NFC com um desenho personalizado. Cada novo membro recebeu um no seu pacote de boas-vindas durante o ano. Esta ideia pode ser facilmente adaptada e personalizada para a sua própria comunidade.
 
 
 O preço unitário destes cartões varia normalmente entre 2,50 e 5 euros, consoante a dimensão da encomenda e as condições de mercado, com preços mais baixos para quantidades maiores.
@@ -2217,9 +2217,9 @@ Pode também fazer apresentações em encontros ou mesmo em universidades.
 As plataformas mais populares incluem:
 
 
-- [**YouTube**] (https://www.youtube.com/), amplamente utilizado mas não resistente à censura.
+- [**YouTube**](https://www.youtube.com/), amplamente utilizado mas não resistente à censura.
 - [**Odyssee**](https://odysee.com/), menos popular mas descentralizado através da tecnologia peer-to-peer.
-- [**peertube**] (https://joinpeertube.org/fr_FR), permite-lhe alojar a sua própria plataforma de vídeo, embora a sua configuração seja mais complexa.
+- [**peertube**](https://joinpeertube.org/fr_FR), permite-lhe alojar a sua própria plataforma de vídeo, embora a sua configuração seja mais complexa.
 
 
 Seja qual for a sua escolha, crie visuais específicos para a plataforma para tornar o seu canal apelativo. O Canva, mencionado em [parte 2/8](https://planb.academy/courses/1c643dc9-a15f-4f9e-93b6-cb3c58b4ee35/3470a31f-0190-5e87-8af0-6a00e79267ef) oferece uma categoria "YouTube Thumbnail" (Miniatura do YouTube) com designs pré-fabricados e personalizáveis.
@@ -2255,19 +2255,19 @@ Um podcast áudio é outra excelente forma de partilhar ideias. Tal como os cana
 As plataformas de podcast mais populares incluem:
 
 
-- [**Fountain**] (https://www.fountain.fm/), apoia as doações relâmpago.
+- [**Fountain**](https://www.fountain.fm/), apoia as doações relâmpago.
 - [**Soundcloud**](https://soundcloud.com/);
 - [**Deezer**](https://www.deezer.com/fr/);
 - [**Spotify**](https://open.spotify.com/);
 - [**Google podcast**](https://podcasts.google.com/).
 
 
-Cada plataforma tem o seu próprio público, por isso, estar presente em várias alargará o seu alcance. **[Spotify para podcasters] (https://podcasters.spotify.com/) facilita este processo, permitindo-lhe carregar o seu podcast uma vez e generate um feed RSS para outras plataformas**.
+Cada plataforma tem o seu próprio público, por isso, estar presente em várias alargará o seu alcance. **[Spotify para podcasters](https://podcasters.spotify.com/) facilita este processo, permitindo-lhe carregar o seu podcast uma vez e generate um feed RSS para outras plataformas**.
 
 Assim, uma vez terminado o trabalho no "Spotify for Podcasters", tudo o que resta é formatar o seu conteúdo para as outras plataformas, um processo que é relativamente rápido.
 
 
-Para gravar, o [Audacity] (https://www.audacityteam.org/) é gratuito e permite-lhe ajustar os níveis de áudio, adicionar efeitos como fades e melhorar a clareza durante a edição. É simples gravar a sua voz e criar um podcast de qualidade profissional.
+Para gravar, o [Audacity](https://www.audacityteam.org/) é gratuito e permite-lhe ajustar os níveis de áudio, adicionar efeitos como fades e melhorar a clareza durante a edição. É simples gravar a sua voz e criar um podcast de qualidade profissional.
 
 
 Aqui está um pequeno tutorial de 10 minutos que cobre os elementos essenciais para a criação de podcasts com o Audacity:
@@ -2300,7 +2300,7 @@ Noutra abordagem, mais tradicional, pode simplesmente pedir aos participantes em
 Embora seja um pouco formal, isto pode ajudar os membros a encontrar interesses comuns e tópicos de conversa mais facilmente, e também torna mais fácil para os recém-chegados identificarem os organizadores (ou membros oficiais da comunidade/associação).
 
 
-Vários modelos de crachás utilizados pela associação Bitcoin de Lille estão [disponíveis em código aberto no Canva] (https://www.canva.com/design/DAGHAsT15MU/AIA7-L_xBjNdsuxdD4-h-Q/edit?utm_content=DAGHAsT15MU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+Vários modelos de crachás utilizados pela associação Bitcoin de Lille estão [disponíveis em código aberto no Canva](https://www.canva.com/design/DAGHAsT15MU/AIA7-L_xBjNdsuxdD4-h-Q/edit?utm_content=DAGHAsT15MU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 
 
 
@@ -2487,7 +2487,7 @@ Assim que tiver algumas empresas amigas do Bitcoin, sugira a criação de um gru
 - Reforçar a rede local Bitcoin.
 
 
-A prospeção é uma atividade a longo prazo. Requer paciência, persistência e estratégia. Mas se a sua comunidade estiver preparada, pode começar a lançar as bases para uma verdadeira economia circular Bitcoin, tal como acontece em [Arnhem, nos Países Baixos] (https://www.arnhembitcoinstad.nl/), nos Países Baixos.
+A prospeção é uma atividade a longo prazo. Requer paciência, persistência e estratégia. Mas se a sua comunidade estiver preparada, pode começar a lançar as bases para uma verdadeira economia circular Bitcoin, tal como acontece em [Arnhem, nos Países Baixos](https://www.arnhembitcoinstad.nl/), nos Países Baixos.
 
 
 
@@ -2657,7 +2657,7 @@ A solução: descentralizar as tarefas, as funções e o acesso para que o grupo
 
 **Como promover a descentralização?**
 
-Adotar **software livre e de código aberto** como [a suite framasoft] (https://framasoft.org/fr/) para reduzir a dependência de plataformas centralizadas e aumentar a resistência contra a potencial censura estatal ou proibições Bitcoin.
+Adotar **software livre e de código aberto** como [a suite framasoft](https://framasoft.org/fr/) para reduzir a dependência de plataformas centralizadas e aumentar a resistência contra a potencial censura estatal ou proibições Bitcoin.
 
 Utilize **ferramentas de comunicação encriptadas ou anónimas** para proteger a privacidade dos seus membros e as actividades da sua comunidade.
 
@@ -2831,14 +2831,14 @@ Sozinho, pode explorar rapidamente um dos muitos túneis da toca do coelho da Bi
 
 
 
-## BTC302, O que se segue
+## BTC 304, O que se segue
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-Neste curso BTC302, explicamos em pormenor como criar uma comunidade ou um encontro, bem como lançar uma variedade de projectos.
+Neste curso BTC 304, explicamos em pormenor como criar uma comunidade ou um encontro, bem como lançar uma variedade de projectos.
 
 
 Quando o seu bairro estiver pronto para dar o próximo passo, **pode criar uma associação formal**.

@@ -33,7 +33,7 @@ Ici on s'intéressera au transfert de seed phrases, de notes, de mots de passe, 
 #### Préparer l'appareil qui recevra les secrets
 
 Dans le menu **"Advanced / Tools**" de votre ColdCardQ, sélectionnez **"Key Teleport (start)"**.
-Sur l'écran suivant, un mot de passe composé de 8 chiffres vous est proposé ici "20420219". il vous faudra communiquer ce mot de passe à l'émetteur. Utilisez par exemple un sms pour transmettre ce mot de passe, ou votre messagerie sécurisée favorite, ou encore un appel vocal.
+Sur l'écran suivant, un mot de passe composé de 8 chiffres vous est proposé ici "20420219", il vous faudra communiquer ce mot de passe à l'émetteur. Utilisez par exemple un sms pour transmettre ce mot de passe, ou votre messagerie sécurisée favorite, ou encore un appel vocal.
 
 Ensuite cliquez sur le bouton **"Enter**" de votre ColdCardQ pour passer à l'étape suivante.
 
@@ -112,7 +112,7 @@ Les données sont ensuite déchiffrées et intelligibles pour l'appareil receveu
 
 ### 2- Pour transférer des PSBT pour Multisig (avancé)
 
-Cela présuppose que votre wallet multisig a déjà été créé au préalable et que votre appareil ColdCardQ a déjà été pré-réglé pour être en mesure  de réaliser des transactions multi signatures. Si ce n'est pas le cas des explications sont disponibles [ici](https://coldcard.com/docs/multisig/) sur le site de Coinkite (en anglais).
+Cela présuppose que votre wallet multisig a déjà été créé au préalable et que votre appareil ColdCardQ a déjà été pré-réglé pour être en mesure de réaliser des transactions multi signatures. Si ce n'est pas le cas des explications sont disponibles [ici](https://coldcard.com/docs/multisig/) sur le site de Coinkite (en anglais).
 
 Petit rappel sur ce qu'est un wallet multi signatures (multisig).
 
@@ -145,7 +145,7 @@ On voit bien que 2 signatures ont déjà été appliquées. Il ne manque plus qu
 
 ![CCQ-key-teleport](assets/fr/11.webp)
 
-Et un nouveau "TELEPORT PASSWORD" est créé, suivi là encore d'un QR code encodant la PSBT signée par 1 et 2  puis chiffrée par ce nouveau "TELEPORT PASSWORD" (GW YQ K3 LL).
+Et un nouveau "TELEPORT PASSWORD" est créé, suivi là encore d'un QR code encodant la PSBT signée par 1 et 2 puis chiffrée par ce nouveau "TELEPORT PASSWORD" (GW YQ K3 LL).
 
 ![CCQ-key-teleport](assets/fr/12.webp)
 
@@ -154,7 +154,7 @@ Et un nouveau "TELEPORT PASSWORD" est créé, suivi là encore d'un QR code enco
 On répète la même étape que précédemment.
 Le signataire 3 scanne le QR code présenté par le signataire 2 en visio. Puis entre le "TELEPORT PASSWORD" transmis par le canal de communication secondaire.
 
-Le signataire 3 signe la transaction et cette fois puisque 3 signatures sur 4 ont été appliquées , la transaction nous est indiquée comme finalisée, et est prête à être diffusée par différents médiums (SD Card, NFC, QR etc...).
+Le signataire 3 signe la transaction et cette fois puisque 3 signatures sur 4 ont été appliquées, la transaction nous est indiquée comme finalisée, et est prête à être diffusée par différents médiums (SD Card, NFC, QR etc...).
 
 ![CCQ-key-teleport](assets/fr/13.webp)
 

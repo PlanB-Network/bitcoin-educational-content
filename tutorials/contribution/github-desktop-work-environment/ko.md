@@ -178,6 +178,6 @@ https://planb.academy/tutorials/contribution/others/create-github-account-a75fc3
 축하합니다! 이제 플랜비 네트워크에 기여할 수 있는 작업 환경이 준비되었습니다. 이제 각 기여 유형(번역, 교정, 글쓰기)에 대한 다른 구체적인 튜토리얼을 살펴볼 수 있습니다.
 
 
-https://planb.academy/tutorials/others
+https://planb.academy/tutorials/contribution
 
 ..).

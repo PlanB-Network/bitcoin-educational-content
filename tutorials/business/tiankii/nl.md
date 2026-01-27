@@ -127,7 +127,7 @@ Het gebruik van Tiankii vereist geen complexe technische vereisten. De applicati
 
 
 
-**Voor privégebruikers (IBI App)**: Er is geen voorafgaande wallet Lightning nodig. Wanneer je een account aanmaakt, configureert Tiankii automatisch een werkende Address Lightning via de [Breez SDK Liquid] (https://sdk-doc-liquid.breez.technology/guide/about_breez_sdk_liquid.html), een nodeloze implementatie die op de achtergrond gebruikmaakt van het Liquid netwerk. Je kunt onmiddellijk betalingen ontvangen en verzenden zonder enige technische configuratie. Deze oplossing vereenvoudigt de toegang voor beginners drastisch, terwijl het zelfbeveiligend blijft.
+**Voor privégebruikers (IBI App)**: Er is geen voorafgaande wallet Lightning nodig. Wanneer je een account aanmaakt, configureert Tiankii automatisch een werkende Address Lightning via de [Breez SDK Liquid](https://sdk-doc-liquid.breez.technology/guide/about_breez_sdk_liquid.html), een nodeloze implementatie die op de achtergrond gebruikmaakt van het Liquid netwerk. Je kunt onmiddellijk betalingen ontvangen en verzenden zonder enige technische configuratie. Deze oplossing vereenvoudigt de toegang voor beginners drastisch, terwijl het zelfbeveiligend blijft.
 
 
 
@@ -429,10 +429,10 @@ Hoewel een wijdverspreide toepassing van Bitcoin een uitdaging blijft die opleid
 
 
 
-- [Officiële website van Tiankii] (https://tiankii.com)
-- [Tiankii Helpcentrum] (https://help.tiankii.com)
-- [IBI-toepassing] (https://go.ibi.me)
-- [Merchant Dashboard] (https://pay.tiankii.com)
+- [Officiële website van Tiankii](https://tiankii.com)
+- [Tiankii Helpcentrum](https://help.tiankii.com)
+- [IBI-toepassing](https://go.ibi.me)
+- [Merchant Dashboard](https://pay.tiankii.com)
 - [Commando Centrum](https://cc.ibi.me)
 
 
@@ -444,7 +444,7 @@ Hoewel een wijdverspreide toepassing van Bitcoin een uitdaging blijft die opleid
 
 - [Verbind LNbits](https://help.tiankii.com/portal/en/kb/articles/connect-your-lnbits-wallet)
 - [BlueWallet aansluiten (LNDHub)](https://help.tiankii.com/portal/en/kb/articles/connect-your-lndhub-bluewallet)
-- [Sluit Alby Wallet aan] (https://help.tiankii.com/portal/en/kb/articles/connect-your-alby-wallet)
+- [Sluit Alby Wallet aan](https://help.tiankii.com/portal/en/kb/articles/connect-your-alby-wallet)
 - [Verbind Strike Wallet](https://help.tiankii.com/portal/es/kb/articles/como-vincular-strike-wallet)
 
 
@@ -466,4 +466,4 @@ Hoewel een wijdverspreide toepassing van Bitcoin een uitdaging blijft die opleid
 
 - [Blink Wallet](https://blink.sv) - Wallet Lightning-compatibel aanbevolen
 - [LNbits](https://lnbits.com) - Zelf gehoste wallet oplossing
-- [Standaard Bolt-kaart] (https://github.com/boltcard) - Technische specificaties voor NFC-kaarten
+- [Standaard Bolt-kaart](https://github.com/boltcard) - Technische specificaties voor NFC-kaarten

@@ -639,9 +639,9 @@ Selvhosting innebærer ansvar: sikkerhetskopier frø, beskytt tilgangen, start m
 
 
 - [LNbits-dokumentasjon](https://docs.lnbits.org)
-- [LNbits GitHub] (https://github.com/lnbits/lnbits)
+- [LNbits GitHub](https://github.com/lnbits/lnbits)
 - [Phoenixd GitHub](https://github.com/ACINQ/phoenixd)
-- [Offisiell installasjonsveiledning] (https://github.com/lnbits/lnbits/blob/main/docs/guide/installation.md)
+- [Offisiell installasjonsveiledning](https://github.com/lnbits/lnbits/blob/main/docs/guide/installation.md)
 
 
 
@@ -650,7 +650,7 @@ Selvhosting innebærer ansvar: sikkerhetskopier frø, beskytt tilgangen, start m
 
 
 
-- [Innledende Ubuntu-serverkonfigurasjon] (https://danielpcostas.dev/ubuntu-server-initial-configuration-a-step-by-step-guide/) av Daniel P. Costas (trinnvis VPS-sikkerhet)
-- [LNbits + Phoenixd-installasjon på Ubuntu VPS] (https://danielpcostas.dev/install-lnbits-phoenixd-vps-ubuntu/) av Daniel P. Costas (komplett guide)
-- [LNbits Server på Clearnet] (https://ereignishorizont.xyz/lnbits-server/en/) av Axel
+- [Innledende Ubuntu-serverkonfigurasjon](https://danielpcostas.dev/ubuntu-server-initial-configuration-a-step-by-step-guide/) av Daniel P. Costas (trinnvis VPS-sikkerhet)
+- [LNbits + Phoenixd-installasjon på Ubuntu VPS](https://danielpcostas.dev/install-lnbits-phoenixd-vps-ubuntu/) av Daniel P. Costas (komplett guide)
+- [LNbits Server på Clearnet](https://ereignishorizont.xyz/lnbits-server/en/) av Axel
 - [LNbits på VPS](https://github.com/TrezorHannes/vps-lnbits) av Hannes

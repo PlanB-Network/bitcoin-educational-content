@@ -1,0 +1,8 @@
+question: Ni mu gihe ikihe RefCell yokoreshwa neza cane mu gutorera umuti ikibazo co kugurana igihe co gukoranya?
+answer: Igihe ushize mu ngiro ikintu c'ikinyoma gikeneye gukurikirana amahinduka y'imbere mu gihugu biciye ku nzira idahinduka
+wrong_answers:
+  - Igihe ukeneye gusangira amakuru hagati y'indodo nyinshi kandi usaba guharura atome
+  - Iyo ushaka kwirinda igihe co gukora mu kwimurira igihe cose co gusuzuma kugira ngo ukoreshe igihe
+  - Igihe urema ibisobanuro vy'uruziga hagati y'imiterere y'amakuru ikeneye gusukura ubwonko bwite
+explanation: |
+  RefCell yagenewe ibikorwa vy'uguhinduka kw'imbere aho ukeneye guhindura amakuru biciye ku nsiguro idahinduka, cane cane iyo isesengura ry'umukozi w'ivy'ubuhinga ry'ubuhinga ry'ubuhinga ry'ubuhinga ry'ubuhinga ry'ubuhinga ry'ubuhinga. Ibintu vy’ugutwenga bishira mu ngiro ibiranga n’uburyo butahinduka ariko bikeneye gukurikirana ivy’imbere bigereranya ikibazo c’ikoreshwa kitunganye. Ayandi mahitamwo ntabwo ari meza: RefCell ntabwo ari thread-safe, yimurira gusuzuma ku gihe co gukora (si igihe co gukora), kandi ntitorera umuti ingorane z'ibimenyetso vy'uruziga - ishobora mu vy'ukuri gutanga umusanzu kuri zo iyo ifatanijwe na RC.

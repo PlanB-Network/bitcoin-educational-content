@@ -1,0 +1,8 @@
+question: Batasan mendasar apa dari model UTXO yang memerlukan penanganan khusus ketika menggunakan Bitcoin?
+answer: UTXO harus dihabiskan seluruhnya dan tidak dapat dikonsumsi sebagian
+wrong_answers:
+  - UTXO hanya dapat dibelanjakan satu kali per blok untuk mencegah pembelanjaan ganda
+  - UTXO harus dihabiskan dalam urutan kronologis berdasarkan waktu pembuatan
+  - UTXO membutuhkan beberapa tanda tangan dari kunci yang berbeda agar valid
+explanation: |
+  Model UTXO memiliki batasan mendasar bahwa output transaksi yang tidak terpakai harus dikonsumsi seluruhnya - tidak ada mekanisme untuk pengeluaran sebagian. Ketika Anda perlu membelanjakan kurang dari jumlah UTXO penuh, Anda harus membuat transaksi yang menghabiskan seluruh UTXO dan menyertakan output kembalian untuk Anda sendiri untuk sisanya. Opsi lainnya menjelaskan batasan yang tidak ada: UTXO dapat dibelanjakan beberapa kali per blok (UTXO yang berbeda), tidak memerlukan urutan kronologis, dan biasanya hanya membutuhkan satu tanda tangan yang valid kecuali jika dirancang khusus sebagai multisig.

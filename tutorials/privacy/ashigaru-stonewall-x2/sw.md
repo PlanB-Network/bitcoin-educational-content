@@ -12,28 +12,28 @@ description: Kuelewa na kutumia miamala ya Stonewall x2 kwenye Ashigaru
 
 
 
-Stonewall x2 ni aina mahususi ya muamala wa Bitcoin iliyoundwa ili kuongeza usiri wa mtumiaji wakati wa kutumia, kwa kushirikiana na mtu mwingine asiyehusika katika matumizi. Njia hii inaiga muunganisho mdogo wa sarafu kati ya washiriki wawili, huku ukifanya malipo kwa wahusika wengine. Shughuli za Stonewall x2 zinapatikana kwenye programu ya Ashigaru, fork kutoka Samourai Wallet (timu iliyoanzisha aina hii ya shughuli).
+Stonewall x2 ni aina mahususi ya muamala wa Bitcoin iliyoundwa ili kuongeza usiri wa mtumiaji wakati wa kutumia, kwa kushirikiana na mtu mwingine asiyehusika katika matumizi. Njia hii inaiga muunganisho mdogo wa sarafu kati ya washiriki wawili, huku ukifanya malipo kwa wahusika wengine. miamala ya Stonewall x2 inapatikana kwenye programu ya Ashigaru, fork kutoka Samourai Wallet (timu iliyoanzisha aina hii ya muamala).
 
 
 
 https://planb.academy/tutorials/wallet/mobile/ashigaru-9f903b55-2e55-4b06-9627-80f8e178158f
 
-Jinsi inavyofanya kazi ni rahisi kiasi: unatumia UTXO uliyo nayo kufanya malipo, na kuomba usaidizi wa wahusika wengine ambao pia huchangia kwa UTXO yao wenyewe. Muamala unaishia na matokeo manne: mawili kati ya hayo kwa kiasi sawa, moja kwa ajili ya anwani ya anayelipwa, nyingine kwa anwani ya mshirika. UTXO ya tatu inarejeshwa kwa anwani nyingine ya mshirika, na kumwezesha kurejesha kiasi cha awali (hatua ya upande wowote kwake, modulo ya gharama za mining), na UTXO ya mwisho inarudi kwa anwani yetu, ambayo inajumuisha ubadilishaji wa malipo.
+Jinsi inavyofanya kazi ni rahisi kiasi: unatumia UTXO uliyo nayo kufanya malipo, na kuomba usaidizi wa wahusika wengine ambao pia huchangia kwa UTXO yao wenyewe. Muamala unaishia na matokeo manne: mawili kati ya hayo kwa kiasi sawa, moja kwa ajili ya address ya anayelipwa, nyingine kwa address ya mshirika. UTXO ya tatu inarejeshwa kwa address nyingine ya mshirika, na kumwezesha kurejesha kiasi cha awali (hatua ya upande wowote kwake, modulo ya gharama za mining), na UTXO ya mwisho inarudi kwa address yetu, ambayo inajumuisha ubadilishaji wa malipo.
 
 
 
-Kwa hivyo majukumu matatu tofauti yanafafanuliwa katika shughuli za Stonewall x2:
+Kwa hivyo majukumu matatu tofauti yanafafanuliwa katika miamala ya Stonewall x2:
 
 
 
 
 - Mtoaji, ambaye hufanya malipo halisi;
-- Mshiriki, ambaye hufanya bitcoins kupatikana ili kuboresha kutokujulikana kwa shughuli hiyo, wakati wa kurejesha fedha zake kwa ukamilifu mwishoni (hatua ya neutral kwa ajili yake, modulo ya gharama za mining);
+- Mshiriki, ambaye hufanya bitcoin kupatikana ili kuboresha kutokujulikana kwa miamala hiyo, wakati wa kurejesha fedha zake kwa ukamilifu mwishoni (hatua ya neutral kwa ajili yake, modulo ya gharama za mining);
 - Mpokeaji, ambaye huenda hajui aina mahususi ya muamala na anatarajia tu malipo kutoka kwa mtumaji.
 
 
 
-Hebu tuchukue mfano. Alice iko kwa mwokaji ili kununua baguette yake, ambayo inagharimu `4,000 sats`. Anataka kulipa kwa bitcoins, huku akihifadhi usiri fulani kuhusu malipo yake. Kwa hiyo anampigia simu rafiki yake Bob, ambaye atamsaidia kwa hili.
+Hebu tuchukue mfano. Alice ako kwa mwokaji ili kununua baguette yake, ambayo inagharimu `4,000 sats`. Anataka kulipa kwa bitcoin, huku akihifadhi usiri fulani kuhusu malipo yake. Kwa hiyo anampigia simu rafiki yake Bob, ambaye atamsaidia kwa hili.
 
 
 
@@ -53,11 +53,11 @@ Katika mfano huu, nimepuuza kwa makusudi ada za mining ili kurahisisha kueleweka
 
 
 
-Muamala wa StonewallX2 hufanya kazi kwa njia sawa kabisa na muamala wa Stonewall, isipokuwa kwamba ule wa kwanza unashirikiana, ilhali ule wa mwisho haufanyi kazi. Kama tulivyoona, muamala wa Stonewall x2 unahusisha ushiriki wa mtu wa tatu, ambaye yuko nje ya malipo, na ambaye atafanya bitcoins zake zipatikane ili kuimarisha usiri wa muamala. Katika shughuli ya kawaida ya Stonewall, jukumu la mshirika linachukuliwa na mtumaji.
+Muamala wa StonewallX2 hufanya kazi kwa njia sawa kabisa na muamala wa Stonewall, isipokuwa kwamba ule wa kwanza unashirikiana, ilhali ule wa mwisho haufanyi kazi. Kama tulivyoona, muamala wa Stonewall x2 unahusisha ushiriki wa mtu wa tatu, ambaye yuko nje ya malipo, na ambaye atafanya bitcoin zake zipatikane ili kuimarisha usiri wa muamala. Katika miamala ya kawaida ya Stonewall, jukumu la mshirika linachukuliwa na mtumaji.
 
 
 
-Wacha turudi kwenye mfano wetu wa Alice kwenye duka la mkate. Ikiwa hangeweza kupata mtu kama Bob wa kuandamana naye kwenye matumizi yake ya pesa, angeweza kufanya Ukuta wa Stonewall peke yake. Kwa njia hiyo, UTXO mbili zilizokuwa njiani zingekuwa zake, na angechukua 3 wakati wa kutoka.
+Wacha turudi kwenye mfano wetu wa Alice kwenye duka la mkate. Ikiwa hangeweza kupata mtu kama Bob wa kuandamana naye kwenye matumizi yake ya pesa, angeweza kufanya  Stonewall peke yake. Kwa njia hiyo, UTXO mbili zilizokuwa njiani zingekuwa zake, na angechukua 3 wakati wa kutoka.
 
 
 
@@ -66,7 +66,7 @@ Wacha turudi kwenye mfano wetu wa Alice kwenye duka la mkate. Ikiwa hangeweza ku
 
 
 
-Kwa mtazamo wa mtu wa nje, shughuli hiyo ingebaki vile vile.
+Kwa mtazamo wa mtu wa nje, muamala hiyo ingebaki vile vile.
 
 
 
@@ -79,7 +79,7 @@ Kwa hivyo mantiki inapaswa kuwa kama ifuatavyo unapotaka kutumia zana ya matumiz
 
 
 
-- Ikiwa mfanyabiashara hatumii Payjoin Stowaway, unaweza kufanya muamala shirikishi na mtu mwingine nje ya malipo ya shukrani kwa Stonewall x2 ;
+- Ikiwa mfanyabiashara hatumii Payjoin Stowaway, unaweza kufanya muamala shirikishi (Collaborative transaction) na mtu mwingine nje ya malipo ya shukrani kwa Stonewall x2 ;
 - Ikiwa huwezi kupata mtu yeyote wa kufanya muamala wa Stonewall x2, unaweza kufanya muamala wa Stonewall pekee, ambao utaiga tabia ya muamala wa Stonewall x2.
 
 
@@ -90,11 +90,11 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42
 
 
 
-Muundo wa Stonewall x2 huongeza kiasi kikubwa cha entropy kwenye shughuli, na kutatanisha uchanganuzi wa mnyororo. Ikionekana kutoka nje, shughuli kama hiyo inaweza kufasiriwa kama Coinjoin ndogo kati ya watu wawili. Lakini kwa kweli, ni malipo. Kwa hiyo njia hii inajenga kutokuwa na uhakika katika uchanganuzi wa minyororo, au hata kusababisha miongozo ya uwongo.
+Muundo wa Stonewall x2 huongeza kiasi kikubwa cha entropy kwenye muamala, na kutatanisha chain analysis. Ikionekana kutoka nje, shughuli kama hiyo inaweza kufasiriwa kama Coinjoin ndogo kati ya watu wawili. Lakini kwa kweli, ni malipo. Kwa hiyo njia hii inajenga kutokuwa na uhakika katika chain analysis, au hata kusababisha miongozo ya uwongo.
 
 
 
-Hebu tuchukue mfano wa Alice, Bob na Boulanger. Shughuli kwenye blockchain ingeonekana kama hii:
+Hebu tuchukue mfano wa Alice, Bob na Boulanger. Muamala kwenye blockchain ingeonekana kama hii:
 
 
 
@@ -102,7 +102,7 @@ Hebu tuchukue mfano wa Alice, Bob na Boulanger. Shughuli kwenye blockchain ingeo
 
 
 
-Mtazamaji wa nje anayetegemea heuristics ya uchanganuzi wa mnyororo wa kawaida anaweza kuhitimisha kimakosa kwamba "*Alice na Bob zimeungana kidogo, zikiwa na UTXO moja ndani na UTXO mbili kila moja nje*".
+Mtazamaji wa nje anayetegemea heuristics ya chain analysis ya kawaida anaweza kuhitimisha kimakosa kwamba "*Alice na Bob zimeungana kidogo, zikiwa na UTXO moja ndani na UTXO mbili kila moja nje*".
 
 
 
@@ -110,7 +110,7 @@ Mtazamaji wa nje anayetegemea heuristics ya uchanganuzi wa mnyororo wa kawaida a
 
 
 
-Ufafanuzi huu sio sahihi kwa sababu, kama unavyojua, UTXO ilitumwa kwa Boulanger, Alice ina pato moja tu la kubadilishana, na Bob ina mbili.
+Ufafanuzi huu sio sahihi kwa sababu, kama unavyojua, UTXO ilitumwa kwa Boulanger, Alice ina pato moja tu la exchange, na Bob ina mbili.
 
 
 
@@ -118,7 +118,7 @@ Ufafanuzi huu sio sahihi kwa sababu, kama unavyojua, UTXO ilitumwa kwa Boulanger
 
 
 
-Hata kama mwangalizi wa nje ataweza kutambua paterne wa shughuli ya Stonewall x2, hatakuwa na taarifa zote. Hataweza kubainisha ni UTXO gani kati ya hizo mbili za kiasi sawa kinacholingana na malipo. Wala hataweza kubaini ikiwa Alice au Bob ilifanya malipo. Hatimaye, hataweza kubainisha ikiwa UTXO mbili zilizoingizwa zimetoka kwa watu wawili tofauti, au kama ni za mtu mmoja ambaye ameziunganisha. Hoja hii ya mwisho ni kwa sababu ya ukweli kwamba shughuli za kawaida za Stonewall, zilizojadiliwa hapo juu, zinafuata sawa sawa na shughuli za Stonewall x2. Ikionekana kutoka nje na bila maelezo ya ziada ya muktadha, haiwezekani kutofautisha muamala wa Stonewall na muamala wa Stonewall x2. Ya awali si shughuli shirikishi, ambapo ya mwisho ni. Hii inaongeza shaka zaidi kwa gharama.
+Hata kama mwangalizi wa nje ataweza kutambua pattern ya muamala wa Stonewall x2, hatakuwa na taarifa zote. Hataweza kubainisha ni UTXO gani kati ya hizo mbili za kiasi sawa kinacholingana na malipo. Wala hataweza kubaini ikiwa Alice au Bob alifanya malipo. Hatimaye, hataweza kubainisha ikiwa UTXO mbili zilizoingizwa zimetoka kwa watu wawili tofauti, au kama ni za mtu mmoja ambaye ameziunganisha. Hoja hii ya mwisho ni kwa sababu ya ukweli kwamba shughuli za kawaida za Stonewall, zilizojadiliwa hapo juu, zinafuata sawa sawa na miamala ya Stonewall x2. Ikionekana kutoka nje na bila maelezo ya ziada ya muktadha, haiwezekani kutofautisha muamala wa Stonewall na muamala wa Stonewall x2. Ya awali si Collaborative transaction, ambapo ya mwisho ni. Hii inaongeza shaka zaidi kwa gharama.
 
 
 
@@ -131,7 +131,7 @@ Hata kama mwangalizi wa nje ataweza kutambua paterne wa shughuli ya Stonewall x2
 
 
 
-Kama ilivyo kwa miamala mingine shirikishi kwenye Ashigaru (*Cahoots*), Stonewall x2 inahusisha ubadilishanaji wa miamala ambayo haijatiwa saini kati ya mtumaji na mshirika. Ubadilishanaji huu unaweza kufanywa wewe mwenyewe, ikiwa uko pamoja na mshirika wako, au ukitumia kiotomatiki itifaki ya mawasiliano ya Soroban.
+Kama ilivyo kwa Collaborative transaction nyingine kwenye Ashigaru (*Cahoots*), Stonewall x2 inahusisha exchange ya miamala ambayo haijatiwa saini kati ya mtumaji na mshirika. Ubadilishanaji huu unaweza kufanywa wewe mwenyewe, ikiwa uko pamoja na mshirika wako, au ukitumia kiotomatiki itifaki ya mawasiliano ya Soroban.
 
 
 
@@ -145,7 +145,7 @@ https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95
 
 
 
-Ili kutekeleza muamala wa Stonewall x2, bofya kwenye picha ya Paynym yako katika kona ya juu kushoto ya skrini, kisha ufungue menyu ya `Shirikiana`. Mtu anayeshiriki katika shughuli na wewe lazima afanye vivyo hivyo, isipokuwa kama unabadilishana misimbo ya QR ana kwa ana.
+Ili kutekeleza muamala wa Stonewall x2, bofya kwenye picha ya Paynym yako katika kona ya juu kushoto ya skrini, kisha ufungue menyu ya `Collaborate `. Mtu anayeshiriki katika muamala na wewe lazima afanye vivyo hivyo, isipokuwa kama unabadilishana misimbo ya QR ana kwa ana.
 
 
 
@@ -169,7 +169,7 @@ Ikiwa una jukumu la mshiriki, utaratibu ni rahisi sana. Kwa ushirikiano wa mbali
 
 
 
-Kwa upande mwingine, kwa ushirikiano wa ana kwa ana kupitia kuchanganua msimbo wa QR, nenda kwenye ukurasa wa nyumbani wa wallet yako, bonyeza aikoni ya msimbo wa QR juu ya skrini, kisha uchanganue msimbo wa QR uliotolewa na mlipaji anayeanzisha muamala.
+Kwa upande mwingine, kwa ushirikiano wa ana kwa ana kupitia kuchanganua msimbo wa QR, nenda kwenye ukurasa wa nyumbani wa Wallet yako, bonyeza aikoni ya msimbo wa QR juu ya skrini, kisha changanua msimbo wa QR uliotolewa na mlipaji anayeanzisha muamala.
 
 
 
@@ -205,7 +205,7 @@ Kisha unaweza kuchagua kati ya ushirikiano wa mtandaoni (*Cahoots* kupitia *Soro
 
 
 
-Ikiwa umechagua chaguo la `Mkondoni`, basi chagua mshirika wako kutoka kwa Paynyms unazofuata.
+Ikiwa umechagua chaguo la `Online`, basi chagua mshirika wako kutoka kwa Paynyms unazofuata.
 
 
 
@@ -221,7 +221,7 @@ Bofya kwenye `Sanidi muamala`, kisha uchague akaunti ambayo ungependa kufanya ma
 
 
 
-Kwenye ukurasa unaofuata, ingiza maelezo ya shughuli: anwani ya mpokeaji halisi wa malipo, kiasi cha kutumwa na kiwango cha malipo. Kisha bofya kwenye `Kagua usanidi wa muamala`.
+Kwenye ukurasa unaofuata, ingiza maelezo ya muamala: address ya mpokeaji halisi wa malipo, kiasi cha kutumwa na kiwango cha malipo. Kisha bofya kwenye `Kagua usanidi wa muamala`.
 
 
 
@@ -237,7 +237,7 @@ Angalia maelezo kwa makini, hakikisha kuwa mshirika wako anasikiliza maombi ya *
 
 
 
-Subiri hadi washiriki wote wawili wawe wametia saini muamala, kisha uyatangaze kwenye mtandao wa Bitcoin.
+Subiri hadi washiriki wote wawili wawe wametia saini muamala, kisha uyatangaze kwenye Bitcoin network.
 
 
 
@@ -249,7 +249,7 @@ Subiri hadi washiriki wote wawili wawe wametia saini muamala, kisha uyatangaze k
 
 
 
-Iwapo ungependa kufanya ubadilishanaji ana kwa ana, chagua aina ya muamala ya `STONEWALL X2`, kisha uchague chaguo la `Katika Mtu / Mwongozo`.
+Iwapo ungependa kufanya exchange ana kwa ana, chagua aina ya muamala ya `STONEWALL X2`, kisha uchague chaguo la `Katika Mtu / Mwongozo`.
 
 
 
@@ -265,7 +265,7 @@ Bofya kwenye `Sanidi muamala`, kisha uchague akaunti ambayo ungependa kufanya ma
 
 
 
-Kwenye ukurasa unaofuata, ingiza maelezo ya shughuli: anwani ya mpokeaji halisi wa malipo, kiasi cha kutumwa na kiwango cha malipo. Kisha bofya kwenye `Kagua usanidi wa muamala`.
+Kwenye ukurasa unaofuata, ingiza maelezo ya muamala: address ya mpokeaji halisi wa malipo, kiasi cha kutumwa na kiwango cha malipo. Kisha bofya kwenye `Kagua usanidi wa muamala`.
 
 
 
@@ -281,7 +281,7 @@ Angalia maelezo, kisha ubonyeze kitufe cha kijani `BEGIN BEGIN TRANSACTION` ili 
 
 
 
-Ubadilishanaji unafanywa kwa kubadilisha uchanganuzi na mshirika: bofya kwenye `ONYESHA Msimbo wa QR` ili kuonyesha msimbo wako wa QR kwa mshirika wako, ambaye ataichanganua. Kisha atabofya `SHOW QR CODE` ili kuonyesha yake, na utaichanganua kwa `LAUNCH QR Scanner`. Rudia utaratibu huu hadi hatua zote tano za kubadilishana zimekamilika.
+Exchange inafanywa kwa kubadilisha uchanganuzi na mshirika: bofya kwenye `ONYESHA Msimbo wa QR` ili kuonyesha msimbo wako wa QR kwa mshirika wako, ambaye ataichanganua. Kisha atabofya `SHOW QR CODE` ili kuonyesha yake, na utaichanganua kwa `LAUNCH QR Scanner`. Rudia utaratibu huu hadi hatua zote tano za kubadilishana zimekamilika.
 
 
 
@@ -313,11 +313,11 @@ Tunaweza kuchunguza michango miwili kutoka kwa jalada langu, mtawalia `91,869 sa
 
 
 
-Ni wazi, naweza kuelezea muundo huu kwa sababu nilijenga shughuli mwenyewe. Lakini kwa mtazamaji wa nje, kwa ujumla haiwezekani kuamua ni UTXO zipi ni za mshiriki yupi, ama katika pembejeo au matokeo.
+Ni wazi, naweza kuelezea muundo huu kwa sababu nilijenga muamala mwenyewe. Lakini kwa mtazamaji wa nje, kwa ujumla haiwezekani kuamua ni UTXO zipi ni za mshiriki yupi, ama katika pembejeo au matokeo.
 
 
 
-Ili kuongeza ujuzi wako wa usimamizi wa faragha wa onchain kwenye Bitcoin, ninapendekeza uchukue mafunzo yangu ya BTC 204 kuhusu Mpango ₿ Academy :
+Ili kuongeza ujuzi wako wa usimamizi wa faragha wa onchain kwenye Bitcoin, ninapendekeza uchukue mafunzo yangu ya BTC 204 kuhusu Plan ₿ Academy :
 
 
 

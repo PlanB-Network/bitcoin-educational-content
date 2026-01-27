@@ -1,0 +1,8 @@
+question: Ni akamaro akahe k’intango ko gukoresha uburyo bwa map() na map_err() ku bwoko bw’Ibisubizo ugereranyije n’uburyo bwa kera bwo gufata amakosa?
+answer: Bituma habaho uruhererekane rw'ibikorwa mu gihe bigumya gufata amakosa hafi y'ibikorwa bishobora kunanirwa
+wrong_answers:
+  - Bihindura ubwavyo ubwoko bwose bw'amakosa mu butumwa bw'urudodo kugira ngo bishobore gukosorwa vyoroshe no kugaragaza abakoresha
+  - Bikuraho ivy’uko hakenewe umukoresha w’ikimenyetso c’ikibazo mu gutanga uburyo bwo gukwiragiza amakosa bushizwemwo .
+  - Bakingira ibintu vy'ubwoba mu kuzingira ibikorwa vyose bishobora kunanirwa mu bikoresho vy'Ibisubizo bitekanye
+explanation: |
+  Uburyo bwa map() na map_err() burashoboza gukoresha amakosa aho ushobora gukora ibikorwa no guhindura agaciro canke amakosa aho aba. Ivyo bituma ubuhinga bwo gufata amakosa buguma hafi y'ibikorwa bishobora kunanirwa, bitandukanye n'ibice vy'ukugerageza gufata aho gufata amakosa bitandukanijwe n'ibikorwa vy'ukuri. Ayandi mahitamwo ntabwo ari meza: uburyo bw'ikarata ntibuhindura amakosa mu mirongo (ubwo ni uruhara rw'uko biri kwose), bukora iruhande y'umukoresha w'ikimenyetso c'ikibazo aho kugisubirira, kandi ntibubuza ubwoba ahubwo buratanga uburyo bwo gufata amakosa butunganijwe ku Bisubizo.

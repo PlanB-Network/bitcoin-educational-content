@@ -1,5 +1,5 @@
 ---
-name: 아시가루 터미널
+name: Ashigaru Terminal
 description: 데스크톱에서 아시가루를 사용하여 코인조인 만들기
 ---
 

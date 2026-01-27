@@ -1,0 +1,8 @@
+question: Zašto BIP34 zahteva ugrađivanje visine bloka u scriptSig polje Coinbase transakcije?
+answer: Da bi se osiguralo da je svaki Coinbase transaction ID jedinstven u svim blokovima
+wrong_answers:
+  - Da bi se obezbedila dodatna entropija za rudare kada je prostor za nonce iscrpljen
+  - Da omogući lakim klijentima da verifikuju redosled blokova bez preuzimanja punih blokova
+  - Da bi se sprečilo da rudari zahtevaju subvencije za blokove veće od dozvoljenog iznosa
+explanation: |
+  BIP34 nalaže uključivanje visine bloka u Coinbase scriptSig posebno kako bi se garantovala jedinstvenost svake Coinbase transaction ID. Bez ovog zahteva, dva bloka na različitim visinama teoretski bi mogla imati identične Coinbase transakcije, stvarajući duplikate txid-ova koji bi narušili Bitcoin pretpostavke o jedinstvenosti transakcija i potencijalno izazvali konflikte u bazi podataka u implementacijama koje indeksiraju po txid.

@@ -14,7 +14,7 @@ Att göra Bitcoin användbart för alla innebär också att visa dess användbar
 
 
 
-IbexPay är en plattform som utvecklats av IBEX, en pionjär inom infrastrukturtjänster för blixtar. För att få ett konto, gå till IbexPay [officiell plattform] (https://www.ibexpay.io/) och klicka på knappen "**Start**".
+IbexPay är en plattform som utvecklats av IBEX, en pionjär inom infrastrukturtjänster för blixtar. För att få ett konto, gå till IbexPay [officiell plattform](https://www.ibexpay.io/) och klicka på knappen "**Start**".
 
 
 

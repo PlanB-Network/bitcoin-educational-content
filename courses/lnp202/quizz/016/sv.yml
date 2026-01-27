@@ -1,0 +1,9 @@
+question: Vilken information anger Lightning-nodens mottagningskapacitet?
+answer: Inkommande likviditet
+wrong_answers:
+  - Aktiva anslutningar
+  - Utgående likviditet
+  - Antal block
+explanation: |
+  Inkommande likviditet representerar den sats som noden kan ta emot via Lightning.
+reviewed: false

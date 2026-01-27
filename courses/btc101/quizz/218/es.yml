@@ -1,9 +1,9 @@
-question: ¿Cuándo fue validada e implementada por primera vez la Lightning Network?
-answer: 2017
+question: ¿Por qué un canal Lightning puede ser inutilizable en una dirección?
+answer: Falta de liquidez
 wrong_answers:
-  - 2015
-  - 2016
-  - 2018
+  - Bloque demasiado reciente
+  - HTLC expirado
+  - Nodo no sincronizado
 explanation: |
-  La Lightning Network fue validada e implementada por primera vez en 2017.
-reviewed: true
+  Incluso con una gran capacidad, un canal solo permite un pago si hay suficiente liquidez del lado correcto.
+reviewed: false

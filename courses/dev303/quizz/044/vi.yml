@@ -1,0 +1,8 @@
+question: Đặc điểm cơ bản nhất mà tất cả các closure đều thực hiện trong hệ thống phân cấp đặc điểm closure của Rust là gì?
+answer: FnOnce
+wrong_answers:
+  - FnMut
+  - Fn
+  - Trình lặp
+explanation: |
+  FnOnce là đặc tính cơ bản nhất mà tất cả các closure đều triển khai trong Rust. Nó đại diện cho các closure có thể được gọi ít nhất một lần, tạo nên nền tảng của hệ thống phân cấp đặc tính closure. FnMut và Fn là các đặc tính hạn chế hơn được xây dựng dựa trên FnOnce - FnMut cho phép gọi nhiều lần với sự thay đổi dữ liệu, trong khi Fn cho phép gọi nhiều lần mà không có sự thay đổi dữ liệu. Iterator không liên quan đến các đặc tính closure và được sử dụng để xử lý các chuỗi dữ liệu.

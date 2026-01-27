@@ -7,7 +7,7 @@ description: Hur använder man en Satochip med sin SeedSigner?
 
 
 
-*Tack till [Crypto Guide] (https://www.youtube.com/@CryptoGuide/) för dess fork av SeedSigner-firmware för smartkortstöd, som vi kommer att använda i den här handledningen
+*Tack till [Crypto Guide](https://www.youtube.com/@CryptoGuide/) för dess fork av SeedSigner-firmware för smartkortstöd, som vi kommer att använda i den här handledningen
 
 
 
@@ -96,7 +96,7 @@ För att använda din SeedSigner med en Satochip måste du installera en alterna
 
 
 
-Om du inte redan har det, ladda ner programvaran [Balena Etcher] (https://etcher.balena.io/) och gör sedan på följande sätt:
+Om du inte redan har det, ladda ner programvaran [Balena Etcher](https://etcher.balena.io/) och gör sedan på följande sätt:
 
 
 
@@ -264,7 +264,7 @@ https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92
 
 
 
-När seed har genererats är detta den enda gången den finns i SeedSigners RAM-minne. I mitt fall vill jag spara den på en [Seedkeeper] (https://satochip.io/product/seedkeeper/), en annan Satochip-produkt som är utformad för att lagra hemligheter. Jag kommer att använda den här enheten som en sista utväg, om jag förlorar min Satochip.
+När seed har genererats är detta den enda gången den finns i SeedSigners RAM-minne. I mitt fall vill jag spara den på en [Seedkeeper](https://satochip.io/product/seedkeeper/), en annan Satochip-produkt som är utformad för att lagra hemligheter. Jag kommer att använda den här enheten som en sista utväg, om jag förlorar min Satochip.
 
 
 
@@ -933,6 +933,6 @@ Om du har blivit övertygad av det här upplägget, tveka inte att stödja de pr
 
 
 
-- Genom att köpa din utrustning direkt [på Satochips webbplats] (https://satochip.io/shop/);
-- Genom att göra [en donation till SeedSigner-projektet] (https://seedsigner.com/donate/);
-- Genom att prenumerera på [Crypto Guides YouTube-kanal] (https://www.youtube.com/@CryptoGuide/), som drivs av den person som underhåller GitHub-förvaret som är värd för den modifierade firmware som vi använde i den här handledningen.
+- Genom att köpa din utrustning direkt [på Satochips webbplats](https://satochip.io/shop/);
+- Genom att göra [en donation till SeedSigner-projektet](https://seedsigner.com/donate/);
+- Genom att prenumerera på [Crypto Guides YouTube-kanal](https://www.youtube.com/@CryptoGuide/), som drivs av den person som underhåller GitHub-förvaret som är värd för den modifierade firmware som vi använde i den här handledningen.

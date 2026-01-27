@@ -1,4 +1,4 @@
-question: Koji open source alat može potpuno šifrovati disk pod Linuxom?
+question: Koji open source alat može potpuno enkriptovati disk na Linux-u?
 answer: LUKS
 wrong_answers:
   - BitLocker
@@ -6,4 +6,4 @@ wrong_answers:
   - SuperCrypt
 explanation: |
   LUKS (Linux Unified Key Setup) je standardno rešenje na Linuxu za potpunu enkripciju diska tokom instalacije.
-reviewed: false
+reviewed: true

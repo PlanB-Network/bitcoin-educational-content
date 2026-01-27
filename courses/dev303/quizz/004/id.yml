@@ -1,0 +1,8 @@
+question: Kata kunci apa yang diperlukan untuk membuat variabel dapat dimodifikasi setelah deklarasi awal di Rust?
+answer: mut
+wrong_answers:
+  - var
+  - berubah-ubah
+  - perubahan
+explanation: |
+  Dalam Rust, kata kunci 'mut' diperlukan untuk mendeklarasikan sebuah variabel sebagai variabel yang dapat diubah, sehingga nilainya dapat diubah setelah penugasan awal. Secara default, semua variabel dalam Rust tidak dapat diubah untuk alasan keamanan. Sintaksnya adalah 'let mut x = 5' untuk variabel yang dapat diubah versus 'let x = 5' untuk variabel yang tidak dapat diubah. Pilihan lain seperti 'var', 'mutable', dan 'change' bukanlah kata kunci Rust yang valid untuk tujuan ini.

@@ -1,0 +1,8 @@
+question: Mitä tapahtuu alkuperäiselle rakenneinstanssille, kun käytät struct update -syntaksia muiden kuin kopiointityyppien kanssa?
+answer: Kopioiduista kentistä tulee käyttökelvottomia alkuperäisessä instanssissa siirron semantiikan vuoksi
+wrong_answers:
+  - Alkuperäinen instanssi säilyy täysin muuttumattomana ja on täysin käytettävissä
+  - Koko alkuperäinen instanssi kloonataan, jolloin molemmat instanssit jäävät täysin toimiviksi
+  - Ainoastaan nimenomaisesti muuttamasi kentät muuttuvat saavuttamattomiksi alkuperäisessä
+explanation: |
+  Kun käytetään struct-päivityssyntaksia muiden kuin kopiointityyppien kanssa, Rust:n omistusjärjestelmä siirtää kopioidut kentät alkuperäisestä instanssista uuteen instanssiin. Tämä tarkoittaa sitä, että nämä tietyt kentät muuttuvat käyttökelvottomiksi alkuperäisessä instanssissa, vaikka kentät, joita ei kopioitu, ovat edelleen käytettävissä. Kääntäjä seuraa näitä osittaisia siirtoja älykkäästi ja estää siirtyneiden kenttien käytön, mutta sallii siirtymättömien kenttien käytön jatkumisen. Tämä käyttäytyminen varmistaa muistin turvallisuuden estämällä saman datan useat omistajat.

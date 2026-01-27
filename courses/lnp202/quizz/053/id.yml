@@ -1,0 +1,9 @@
+question: Protokol apa yang menjadi dasar dari Tailscale?
+answer: WireGuard
+wrong_answers:
+  - OpenVPN
+  - IPsec IKEv2
+  - PPTP
+explanation: |
+  Tailscale adalah solusi VPN yang didasarkan pada WireGuard.
+reviewed: false

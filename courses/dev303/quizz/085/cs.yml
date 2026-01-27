@@ -1,0 +1,8 @@
+question: Jaká další omezení rysu Rust jsou obvykle vyžadována při definování rozhraní zpětného volání v rozhraní UniFFI, aby bylo zajištěno bezpečné volání napříč jazyky?
+answer: Odesílání a synchronizace jsou nutné, protože zpětná volání mohou překračovat hranice vláken mezi jazykem Rust a cílovým jazykem
+wrong_answers:
+  - Hranice Clone a Copy jsou vyžadovány, aby bylo možné duplikovat data zpětného volání napříč hranicemi jazyků
+  - Omezení pro ladění a zobrazení jsou vyžadována, aby bylo možné správně hlásit chyby, když zpětná volání během provádění selžou
+  - K marshalování parametrů zpětných volání mezi různými jazykovými runtimy jsou vyžadovány hranice Serialize a Deserialize
+explanation: |
+  Rozhraní zpětných volání v UniFFI vyžadují hranice Send a Sync, protože umožňují obousměrnou komunikaci, kdy kód Rust volá zpět do kódu aplikace napsané v cílových jazycích. Protože tato zpětná volání mohou během provádění překračovat hranice vláken, vyžaduje typový systém Rust pro zajištění paměťové bezpečnosti ohraničení Send (bezpečné pro přenos mezi vlákny) a Sync (bezpečné pro sdílení referencí mezi vlákny). Ostatní možnosti jsou nesprávné: Clone/Copy nejsou pro mezijazyková volání potřeba, Debug/Display slouží k formátování, nikoliv k zajištění bezpečnosti, a Serialize/Deserialize jsou automaticky zpracovávány marshalovacím systémem UniFFI.

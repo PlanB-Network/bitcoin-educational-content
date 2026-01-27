@@ -1,5 +1,5 @@
 ---
-name: Сатодиме
+name: Satodime
 description: Узнайте, как использовать Satodime с помощью мобильного приложения
 ---
 ![cover](assets/cover.webp)
@@ -301,7 +301,7 @@ Satodime поддерживает до 3 сейфов. Создайте один
 
 
 - [Satodime product](https://satochip.io/fr/product/satodime/)
-- [Мобильный гид] (https://satochip.io/wp-content/uploads/2024/11/Satodime-FR-Short-tuto-app-mobile.pdf)
+- [Мобильный гид](https://satochip.io/wp-content/uploads/2024/11/Satodime-FR-Short-tuto-app-mobile.pdf)
 
 
 

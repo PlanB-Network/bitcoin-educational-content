@@ -1,0 +1,8 @@
+question: Selon l'école autrichienne, quel est le mécanisme par lequel l'assouplissement quantitatif crée une expansion monétaire en cascade difficile à contrôler?
+answer: Les vendeurs d'obligations utilisent leur trésorerie accrue pour acheter d'autres titres financiers, créant de nouveaux cycles d'expansion monétaire
+wrong_answers:
+  - "La banque centrale imprime directement des billets qu'elle distribue aux citoyens, multipliant mécaniquement la masse monétaire"
+  - "Les taux d'intérêt baissent automatiquement, forçant les banques commerciales à prêter davantage aux entrepreneurs"
+  - "L'État utilise l'argent reçu pour augmenter les salaires publics, stimulant immédiatement la consommation et l'investissement"
+explanation: |
+  L'assouplissement quantitatif crée un effet en cascade car les vendeurs d'obligations (banques, fonds d'investissement) se retrouvent avec une trésorerie accrue qu'ils réinvestissent dans d'autres actifs financiers. Ces achats supplémentaires augmentent à nouveau la masse monétaire, créant une expansion difficile à contrôler. Les autres réponses décrivent des mécanismes qui ne correspondent pas au processus décrit dans l'analyse autrichienne de l'assouplissement quantitatif.

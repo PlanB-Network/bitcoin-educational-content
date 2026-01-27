@@ -1,0 +1,8 @@
+question: Apa karakteristik mendasar dari filosofi desain komponen LDK yang membedakannya dari implementasi simpul Lightning monolitik seperti CLightning atau LND?
+answer: Setiap komponen menyediakan implementasi default yang dapat diganti secara individual dengan solusi khusus sambil mempertahankan kepatuhan protokol
+wrong_answers:
+  - Semua komponen harus diimplementasikan dari awal oleh pengembang tanpa implementasi default yang disediakan oleh library
+  - Komponen-komponen terkunci secara permanen dan tidak dapat dimodifikasi setelah diintegrasikan ke dalam arsitektur aplikasi
+  - Perpustakaan mengharuskan semua komponen menggunakan bahasa pemrograman yang sama dan tidak dapat mendukung binding bahasa lintas platform
+explanation: |
+  Filosofi inti LDK berpusat pada penyediaan komponen modular dengan implementasi default yang berfungsi yang dapat diganti oleh pengembang secara selektif saat dibutuhkan. Hal ini memungkinkan penyesuaian fungsionalitas tertentu (seperti pemantauan blockchain atau penandatanganan transaksi) sambil menjaga komponen lain tidak berubah. Jawaban yang salah menggambarkan pendekatan LDK secara keliru: LDK menyediakan standar daripada mengharuskan semuanya dari awal, memungkinkan penggantian komponen daripada menguncinya, dan mendukung berbagai bahasa pemrograman melalui sistem pengikatannya.

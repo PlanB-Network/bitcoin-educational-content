@@ -28,7 +28,7 @@ V BTC304 se podíváme na to, proč je budování komunity důležité, prozkoum
 
 
 
-Vítejte v BTC302!
+Vítejte v BTC 304!
 
 
 
@@ -2831,14 +2831,14 @@ Sami můžete rychle prozkoumat jeden z mnoha tunelů v králičí noře Bitcoin
 
 
 
-## BTC302, Co bude dál
+## BTC 304, Co bude dál
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-V tomto kurzu BTC302 jsme se podrobně věnovali tomu, jak založit komunitu nebo meet-up a jak spustit různé projekty.
+V tomto kurzu BTC 304 jsme se podrobně věnovali tomu, jak založit komunitu nebo meet-up a jak spustit různé projekty.
 
 
 Až bude vaše komunita připravena učinit další krok, můžete **založit formální sdružení**.

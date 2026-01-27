@@ -1,0 +1,8 @@
+question: Cosa succede durante il processo di srotolamento quando si verifica un panico nel Rust?
+answer: Rust ripercorre lo stack delle chiamate per fornire una traccia dettagliata dello stack
+wrong_answers:
+  - Rust termina immediatamente il programma senza alcuna pulizia o informazione
+  - Rust converte automaticamente il panico in un tipo di risultato recuperabile
+  - Rust riavvia l'operazione fallita dall'inizio della funzione
+explanation: |
+  Quando si verifica un panico in Rust, il processo di sbobinamento ripercorre lo stack delle chiamate per fornire una traccia dettagliata dello stack che mostra esattamente dove si è verificato il panico. Questo aiuta gli sviluppatori a identificare l'origine dei problemi durante il debug. Le altre opzioni non sono corrette: Rust non termina immediatamente senza pulizia (ciò accade solo quando lo sbobinamento è disabilitato), i panic non possono essere convertiti automaticamente in tipi di risultato e Rust non riavvia le operazioni fallite.

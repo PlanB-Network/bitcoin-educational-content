@@ -140,7 +140,7 @@ Lataa jo toimivalta tietokoneelta (tavalliselta koneeltasi) Ubuntu LTS ISO-kuva 
 
 
 
-Aseta vähintään 8 Gt:n USB-levy tähän tietokoneeseen ja luo käynnistyskelpoinen levy esimerkiksi [Balena Etcher] (https://etcher.balena.io/) -ohjelmalla. Valitse juuri lataamasi Ubuntu-ISO-kuva, valitse USB-tikku kohdelaitteeksi ja käynnistä sitten luomisprosessi (ole kärsivällinen, se voi kestää useita minuutteja).
+Aseta vähintään 8 Gt:n USB-levy tähän tietokoneeseen ja luo käynnistyskelpoinen levy esimerkiksi [Balena Etcher](https://etcher.balena.io/) -ohjelmalla. Valitse juuri lataamasi Ubuntu-ISO-kuva, valitse USB-tikku kohdelaitteeksi ja käynnistä sitten luomisprosessi (ole kärsivällinen, se voi kestää useita minuutteja).
 
 
 

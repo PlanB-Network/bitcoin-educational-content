@@ -1,5 +1,5 @@
 ---
-name: ジェイドDIY
+name: Jade DIY
 description: 15ドルの開発ボードをフル機能のBitcoinハードウェアwalletに変える
 ---
 

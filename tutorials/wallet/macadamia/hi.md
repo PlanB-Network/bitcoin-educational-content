@@ -1,5 +1,5 @@
 ---
-name: मैकाडामिया Wallet
+name: Macadamia Wallet
 description: गुमनाम और तत्काल BTC भुगतान के लिए कैशू मोबाइल wallet
 ---
 

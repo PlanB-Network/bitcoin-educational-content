@@ -1,0 +1,8 @@
+question: Millist kriitilist turvanõuet tuleb täita ECDSA allkirja loomisel nonce K genereerimisel?
+answer: K peab olema iga allkirja puhul unikaalne ja ettearvamatu, et vältida isikliku võtme kompromiteerimist
+wrong_answers:
+  - K peab olema tuletatud avalikust võtmest, et allkirja kontrollimine toimiks õigesti
+  - K peab olema sama mitme allkirja puhul, et säilitada allkirjastamisprotsessi järjepidevus
+  - K peab matemaatilise korrektsuse huvides olema võrdne isikliku võtmega, mis on korrutatud sõnumi hashiga
+explanation: |
+  Nonce K peab olema iga allkirja puhul unikaalne ja ettearvamatu, sest K korduvkasutamine või selle prognoositavus võimaldab ründajatel eravõti taastada. Kui sama K kasutatakse kaks korda erinevate sõnumitega, võib lihtne algebra avaldada salajase võtme. Kaasaegsed rakendused kasutavad deterministlikku K genereerimist (RFC 6979), et vältida juhusliku numbrigeneraatori tõrkeid, tagades samas unikaalsuse. Teised valikud on valed: K ei tohiks kunagi tuletada avalikust võtmest, seda ei tohiks kunagi uuesti kasutada ja see ei tohiks kunagi võrduda isikliku võtme ja sõnumi hashiga.

@@ -1,0 +1,8 @@
+question: O que acontece aos campos ScriptSig de todas as entradas durante o processo de construção do sighash para a verificação da assinatura ECDSA herdada?
+answer: Todos os campos ScriptSig são esvaziados e, em seguida, o ScriptSig da entrada atual é substituído pela ScriptPubKey correspondente
+wrong_answers:
+  - Todos os campos ScriptSig permanecem inalterados e são incluídos na sua forma original no cálculo do sighash
+  - "Apenas o ScriptSig da entrada atual é mantido, enquanto os campos ScriptSig de todas as outras entradas são removidos da transação"
+  - Todos os campos ScriptSig são substituídos pelos valores ScriptPubKey correspondentes das saídas referenciadas
+explanation: |
+  Durante a construção do sighash para transacções antigas, o processo esvazia especificamente todos os campos ScriptSig em primeiro lugar e, em seguida, substitui apenas a entrada atual que está a ser validada pela ScriptPubKey correspondente da saída que está a gastar. Isso garante que a assinatura se comprometa com as condições de gasto sem criar dependências circulares em que as assinaturas precisariam assinar a si mesmas. As outras opções estão incorretas porque deixam as assinaturas no lugar (criando impossibilidades lógicas) ou modificam todos os inputs uniformemente (o que não isolaria corretamente o contexto de validação do input atual).

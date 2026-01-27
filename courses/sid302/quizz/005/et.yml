@@ -1,0 +1,8 @@
+question: Kuidas nimetatakse Bitcoin kujutist, mida kasutatakse Liquid Network raames?
+answer: Liquid Bitcoin (LBTC)
+wrong_answers:
+  - Pakitud Bitcoin (WBTC)
+  - Sidechain Bitcoin (SBTC)
+  - Föderaalne Bitcoin (FBTC)
+explanation: |
+  Liquid Bitcoin (LBTC) on õige nimi Bitcoin jaoks, kui see on olemas Liquid külgahelas. Kui kasutajad ühendavad oma Bitcoin Liquid-ga, saavad nad samaväärse koguse LBTC-d, mida saab kasutada tehinguteks Liquid Network-s. WBTC on Ethereumil põhinev Bitcoin token, samas kui SBTC ja FBTC ei ole üheski suuremas võrgus kasutatavad tõelised Bitcoin esindused.

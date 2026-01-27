@@ -1,0 +1,8 @@
+question: Koja je primarna svrha perioda čekanja od 102 potvrde tokom peg-in procesa sa Bitcoin na Liquid?
+answer: Da bi se zaštitili od reorganizacija Bitcoin blokčejna pre mintovanja L-BTC
+wrong_answers:
+  - Da se omogući dovoljno vremena federaciji da verifikuje identitet korisnika i usklađenost
+  - Da bi se osiguralo da Liquid mreža ima adekvatan kapacitet za obradu dolaznih transakcija
+  - Da se obezbedi vreme za 11-od-15 višestruki potpis odobrenje od članova federacije
+explanation: |
+  Period čekanja od 102 potvrde (otprilike 17 sati) je posebno dizajniran da zaštiti od reorganizacija Bitcoin blockchaina. Pošto Bitcoin funkcioniše na principu probabilističke finalnosti, uvek postoji mala šansa da blokovi mogu biti reorganizovani, što potencijalno može poništiti transakcije. Čekanjem na 102 potvrde, sistem osigurava da je Bitcoin transakcija koja šalje sredstva na adresu federacije duboko ukopana i izuzetno malo verovatna za poništavanje. Ovo sprečava scenario u kojem se L-BTC kreira na Liquid, ali osnovna Bitcoin transakcija biva poništena zbog reorganizacije. Ostale opcije su netačne jer: verifikacija identiteta nije deo automatizovanog procesa peg-in, kapacitet mreže nije ograničavajući faktor koji zahteva takva kašnjenja, i 11-od-15 multisig autorizacija se koristi za peg-out, a ne za peg-in.

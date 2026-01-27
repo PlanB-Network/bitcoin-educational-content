@@ -1,0 +1,8 @@
+question: Wie verhält sich Rust während des Abwicklungsprozesses, wenn eine Panik auftritt?
+answer: Geht durch den Aufrufstapel zurück, um eine detaillierte Stapelverfolgung zu erstellen
+wrong_answers:
+  - Beendet das Programm sofort und ohne jegliche Bereinigung oder Information
+  - Konvertiert die Panik in einen wiederherstellbaren Ergebnistyp für die Fehlerbehandlung
+  - Startet die Ausführung der aktuellen Funktion von Anfang an
+explanation: |
+  Wenn in Rust eine Panik auftritt, geht der Abwicklungsprozess durch den Aufrufstapel zurück, um eine detaillierte Stapelverfolgung zu erstellen, die genau zeigt, wo die Panik aufgetreten ist. Dies hilft den Entwicklern bei der Fehlersuche, die Quelle des Problems zu identifizieren. Die anderen Optionen sind nicht korrekt: Rust beendet sich nicht sofort ohne Aufräumarbeiten (dies geschieht nur, wenn das Abwickeln deaktiviert ist), Panics können nicht in Ergebnistypen konvertiert werden, da sie nicht behebbare Fehler darstellen, und Rust startet die Funktionsausführung nicht neu, wenn Panics auftreten.

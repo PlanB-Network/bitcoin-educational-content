@@ -66,7 +66,7 @@ Nella terza sezione del nostro corso di formazione, entriamo nel vivo: la pratic
 
 ![BTC204](assets/it/003.webp)
 
-**Sezione 4: Comprendere le transazioni coinjoin**
+**Sezione 4: Comprendere le transazioni [coinjoin](https://planb.academy/resources/glossary/coinjoin)**
 
 Come possiamo parlare di privacy su Bitcoin senza menzionare le coinjoin? Nella sezione 4 scoprirete tutto quello che c'è da sapere su questo metodo di miscelazione. Scoprirete cosa sono le coinjoin, la loro storia e i loro obiettivi, nonché i diversi tipi di coinjoin esistenti. Infine, per gli utenti più esperti, vedremo cosa sono gli anonset e l'entropia e come calcolarli.
 
@@ -74,7 +74,7 @@ Come possiamo parlare di privacy su Bitcoin senza menzionare le coinjoin? Nella 
 
 **Sezione 5: Comprendere le sfide di altre tecniche di riservatezza avanzate**
 
-Nella quinta sezione, daremo un'occhiata a tutte le altre tecniche disponibili per proteggere la privacy su Bitcoin, oltre a coinjoin. Nel corso degli anni, gli sviluppatori hanno dimostrato una notevole creatività nel progettare strumenti dedicati alla privacy. Esamineremo tutti questi metodi, come payjoin, transazioni collaborative, Coin Swap e Atomic Swap, illustrandone il funzionamento, gli obiettivi e gli eventuali punti deboli.
+Nella quinta sezione, daremo un'occhiata a tutte le altre tecniche disponibili per proteggere la privacy su Bitcoin, oltre a coinjoin. Nel corso degli anni, gli sviluppatori hanno dimostrato una notevole creatività nel progettare strumenti dedicati alla privacy. Esamineremo tutti questi metodi, come [payjoin](https://planb.academy/resources/glossary/payjoin), transazioni collaborative, Coin Swap e Atomic Swap, illustrandone il funzionamento, gli obiettivi e gli eventuali punti deboli.
 
 Analizzeremo anche la privacy a livello di rete di nodi e di diffusione delle transazioni. Discuteremo anche i vari protocolli che sono stati proposti nel corso degli anni per migliorare la privacy degli utenti su Bitcoin, compresi i protocolli di indirizzo statico.
 
@@ -85,7 +85,7 @@ Pronto a esplorare i meandri della privacy su Bitcoin? Andiamo!
 
 <partId>b9bbbde3-34c0-4851-83e8-e2ffb029cf31</partId>
 
-## Il modello UTXO di Bitcoin
+## Il modello [UTXO](https://planb.academy/resources/glossary/utxo) di Bitcoin
 
 <chapterId>8d6b50c5-bf74-44f4-922b-25204991cb75</chapterId>
 
@@ -569,7 +569,7 @@ Source : [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec
 
 In quest'ultimo caso, possiamo notare che l'ingresso n. 0 e l'uscita n. 1 utilizzano script P2WPKH (SegWit V0), mentre l'uscita n. 0 utilizza uno script P2PKH diverso (Legacy).
 
-Nei primi anni 2010, questa euristica basata sulla versione degli script era relativamente poco utile a causa dei limitati tipi di script disponibili. Tuttavia, nel corso del tempo e con i successivi aggiornamenti di Bitcoin, è stata introdotta una crescente varietà di tipi di script. Questa euristica sta quindi diventando sempre più rilevante, poiché con una gamma più ampia di tipi di script, gli utenti si dividono in gruppi più piccoli, aumentando così le possibilità di applicare questa euristica di riutilizzo della versione interna. Per questo motivo, solo dal punto di vista della riservatezza, è consigliabile optare per il tipo di script più comune. Ad esempio, nel momento in cui scrivo queste righe, gli script Taproot (`bc1p`) sono meno utilizzati degli script SegWit V0 (`bc1q`). Sebbene i primi offrano vantaggi economici e di riservatezza in alcuni contesti specifici, per gli usi più tradizionali a firma singola può essere sensato attenersi a uno standard più vecchio per motivi di riservatezza, fino a quando il nuovo standard non sarà più ampiamente adottato.
+Nei primi anni 2010, questa euristica basata sulla versione degli script era relativamente poco utile a causa dei limitati tipi di script disponibili. Tuttavia, nel corso del tempo e con i successivi aggiornamenti di Bitcoin, è stata introdotta una crescente varietà di tipi di script. Questa euristica sta quindi diventando sempre più rilevante, poiché con una gamma più ampia di tipi di script, gli utenti si dividono in gruppi più piccoli, aumentando così le possibilità di applicare questa euristica di riutilizzo della versione interna. Per questo motivo, solo dal punto di vista della riservatezza, è consigliabile optare per il tipo di script più comune. Ad esempio, nel momento in cui scrivo queste righe, gli script [Taproot](https://planb.academy/resources/glossary/taproot) (`bc1p`) sono meno utilizzati degli script SegWit V0 (`bc1q`). Sebbene i primi offrano vantaggi economici e di riservatezza in alcuni contesti specifici, per gli usi più tradizionali a firma singola può essere sensato attenersi a uno standard più vecchio per motivi di riservatezza, fino a quando il nuovo standard non sarà più ampiamente adottato.
 
 ### Pagamenti con numeri tondi
 
@@ -3483,7 +3483,7 @@ Riassumerò insieme i passaggi appena visti per effettuare una transazione di no
 
 ### Notifica di transazione: uno studio pratico
 
-Per capire meglio come funziona, e in particolare l'uso di `OP_RETURN`, diamo un'occhiata a una vera transazione di notifica. Ho eseguito una transazione di questo tipo sulla testnet, che potete trovare [cliccando qui] (https://mempool.space/fr/testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e).
+Per capire meglio come funziona, e in particolare l'uso di `OP_RETURN`, diamo un'occhiata a una vera transazione di notifica. Ho eseguito una transazione di questo tipo sulla testnet, che potete trovare [cliccando qui](https://mempool.space/fr/testnet/tx/0e2e4695a3c49272ef631426a9fd2dae6ec3a469e3a39a3db51aa476cd09de2e).
 
 ![BTC204](assets/it/233.webp)
 

@@ -74,7 +74,7 @@ På mjukvarusidan är COLDCARD Q lika välutrustad som Coinkites andra enheter, 
 Kort sagt, COLDCARD Q erbjuder en förbättrad användarupplevelse jämfört med MK4 och kan vara idealisk för mellanliggande till avancerade användare som vill ha större användarvänlighet.
 
 
-COLDCARD Q finns till försäljning [på Coinkites officiella webbplats] (https://store.coinkite.com/store/coldcard). Det kan också köpas från en återförsäljare.
+COLDCARD Q finns till försäljning [på Coinkites officiella webbplats](https://store.coinkite.com/store/coldcard). Det kan också köpas från en återförsäljare.
 
 
 ## Förbereda handledningen
@@ -220,7 +220,7 @@ Du kan kontrollera den aktuella firmware-versionen på ditt COLDCARD. I mitt fal
 ![CCQ](assets/fr/019.webp)
 
 
-Kontrollera [på COLDCARD:s officiella webbplats] (https://coldcard.com/downloads) om det finns en nyare version tillgänglig. Klicka på "*Download*" för att ladda ner den nya firmware.
+Kontrollera [på COLDCARD:s officiella webbplats](https://coldcard.com/downloads) om det finns en nyare version tillgänglig. Klicka på "*Download*" för att ladda ner den nya firmware.
 
 
 ![CCQ](assets/fr/020.webp)

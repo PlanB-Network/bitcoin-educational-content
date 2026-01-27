@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste technische gevolg van de eigenzinnige ontwerpfilosofie van Breez SDK in vergelijking met de generieke toolkit-aanpak van LDK voor de ontwikkeling van Lightning wallet?
+answer: Het maakt directe integratie mogelijk van essentiële services zoals LSP-functionaliteit in de SDK zelf, waardoor onmiddellijke ontvangst van betalingen mogelijk is zonder handmatige kanaalinstelling
+wrong_answers:
+  - Het vereist dat ontwikkelaars meer low-level netwerkprotocollen en betalingsrouteringsalgoritmen implementeren in vergelijking met het gebruik van generieke Lightning-bibliotheken
+  - Het dwingt wallet toepassingen om netwerkgrafieksynchronisatie en ankeruitvoerbeheer onafhankelijk van de onderliggende Lightning implementatie af te handelen
+  - Het vereist een aangepaste implementatie van LNURL-ondersteuning en wisselkoersdiensten, omdat de SDK's met meningen geen integraties met derden kunnen bevatten
+explanation: |
+  Het eigenzinnige ontwerp van Breez SDK richt zich specifiek op wallet toepassingen, waardoor het mogelijk is om essentiële diensten zoals LSP functionaliteit direct in de SDK te integreren. Dit staat in schril contrast met de generieke aanpak van LDK, die vereist dat ontwikkelaars deze diensten afzonderlijk implementeren. De integratie maakt naadloze gebruikerservaringen mogelijk, zoals de onmiddellijke ontvangst van betalingen voor nieuwe portemonnees, terwijl het brede toepassingsgebied van LDK betekent dat ontwikkelaars deze wallet-specifieke functies helemaal opnieuw moeten bouwen, waardoor de complexiteit van de ontwikkeling en de time-to-market aanzienlijk toenemen.

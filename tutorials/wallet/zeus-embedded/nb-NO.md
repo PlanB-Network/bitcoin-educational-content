@@ -38,7 +38,7 @@ På den annen side tror jeg ikke det for øyeblikket er egnet for nybegynnere so
 
 
 
-Gå til [prosjektets nettsted] (https://zeusln.com/) for å laste ned applikasjonen for smarttelefonens operativsystem:
+Gå til [prosjektets nettsted](https://zeusln.com/) for å laste ned applikasjonen for smarttelefonens operativsystem:
 
 
 

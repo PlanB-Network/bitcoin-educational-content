@@ -1,5 +1,4 @@
 description: |
   スピードBitcoin ライトニングWalletは、Bitcoin Walletとステーブルコインを安全に送受信できるBitcoin Walletです。
-  
-  ユーザーは、Bitcoin決済をサポートするあらゆるウェブサイトでBitcoinを送受信し、LNurl、LN Invoice、またはLN Addressを使用して支払いを行い、二要素認証でアカウントを保護することができます。
-  USDT安定コインとビットリフィルを統合。
+
+  ユーザーは、Bitcoin決済をサポートするあらゆるウェブサイトでBitcoinを送受信し、LNurl、LN Invoice、またはLN Addressを使用して支払いを行い、二要素認証でアカウントを保護することができます。 USDT安定コインとビットリフィルを統合。

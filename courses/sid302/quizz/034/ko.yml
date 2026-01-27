@@ -1,0 +1,8 @@
+question: federated peg-아웃이나 중앙 집중식 교환에 의존하지 않고 Liquid-Bitcoin 간 전송을 수행할 수 있는 Breez SDK의 아키텍처 메커니즘은 무엇인가요?
+answer: 발신자는 Bitcoin 자금을 청구하고 수신자는 Liquid 자금을 청구하는 두 체인에서 동시에 락업 거래를 하는 듀얼 스왑 메커니즘입니다
+wrong_answers:
+  - Bitcoin 자금을 먼저 잠근 다음 Liquid 거래에서 라이트닝 결제 프리이미지를 사용하여 청구하는 단일 잠수함 스왑입니다
+  - Liquid Network이 중개 다리 역할을 하여 Bitcoin mainchain 거래를 검증하는 리버스 서브마린 스왑 아키텍처
+  - Boltz이 관리하는 연합 다중 서명 에스크로 시스템으로, 시간 제한 계약을 사용하여 Liquid와 Bitcoin 간의 아토믹 스왑을 조정합니다
+explanation: |
+  듀얼 스왑 메커니즘은 Liquid과 Bitcoin 네트워크에서 동시에 락업 거래를 포함하는 크로스 체인 Bitcoin 전송을 위해 특별히 설계되었습니다. 이 신뢰가 필요 없는 접근 방식은 federated peg 아웃 없이 직접 브리징을 가능하게 합니다. 다른 옵션은 단방향 서브마린 스왑을 잘못 설명하거나, Liquid Network의 역할을 잘못 표현하거나, SDK가 명시적으로 피하는 연합 시스템에 대한 의존을 잘못 제안합니다.

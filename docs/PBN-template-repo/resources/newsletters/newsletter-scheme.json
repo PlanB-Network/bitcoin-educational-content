@@ -1,0 +1,94 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "newsletter-characteristics",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the newsletter in UUID v4 format.",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+    },
+    "title": {
+      "type": "string",
+      "description": "Complete title of the newsletter."
+    },
+    "author": {
+      "type": "string",
+      "description": "Full name of the author(s) of the newsletter."
+    },
+    "level": {
+      "type": "string",
+      "description": "Difficulty level of the newsletter content from user's perspective.",
+      "enum": ["beginner", "intermediate", "advanced", "expert"]
+    },
+    "publication_date": {
+      "type": "string",
+      "description": "Date when the newsletter started, format: YYYY-MM-DD.",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "link": {
+      "type": "array",
+      "description": "List of links associated with the newsletter.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "website": {
+            "type": "string",
+            "description": "URL of the newsletter's website."
+          }
+        },
+        "required": ["website"],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "language": {
+      "type": "string",
+      "description": "Language of the newsletter using ISO 639-1 language codes (e.g., en, es, zh-Hans)."
+    },
+    "description": {
+      "type": "string",
+      "description": "Multiline description of the newsletter content."
+    },
+    "contributor_names": {
+      "type": "array",
+      "description": "List of contributors identified by their GitHub usernames.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "tags": {
+      "type": "array",
+      "description": "List of tags associated with the newsletter from the PlanB tags list.",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "license": {
+      "type": "string",
+      "description": "License for the newsletter content.",
+      "enum": ["CC-BY-SA-V4", "MIT"]
+    }
+  },
+  "assets_rules": {
+    "description": "Required image assets for newsletters.",
+    "files": [
+      {
+        "path": "assets/thumbnail.webp",
+        "required": true,
+        "format": "WebP",
+        "dimensions": {
+          "width": 1280,
+          "height": 720,
+          "aspect_ratio": "16:9"
+        },
+        "orientation": "horizontal",
+        "description": "Newsletter thumbnail image."
+      }
+    ]
+  },
+  "required": ["id", "title", "author", "level", "publication_date", "link", "language", "description", "contributor_names", "tags", "license"],
+  "additionalProperties": false
+}

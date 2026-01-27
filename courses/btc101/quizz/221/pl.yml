@@ -1,8 +1,9 @@
-question: Opłaty za transakcje w sieci Lightning są niezwykle niskie, często niższe niż...?
-answer: 0.5%
+question: Jaką przewagę oferuje Ark nad Lightning w zakresie odbioru płatności?
+answer: Brak potrzeby płynności przychodzącej
 wrong_answers:
-  - 1%
-  - 2%
-  - 3%
-explanation: >-
-reviewed: true
+  - Natychmiastowa finalność płatności
+  - Brak opłat transakcyjnych
+  - Brak konieczności posiadania portfela
+explanation: |
+  Ark umożliwia odbieranie płatności bez wcześniejszego posiadania płynności przychodzącej.
+reviewed: false

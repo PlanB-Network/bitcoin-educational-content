@@ -1,0 +1,8 @@
+question: Dalam Platform Manajemen Aset (AMP) Liquid, apa mekanisme teknis utama yang mencegah tindakan kepatuhan satu titik kegagalan sambil mempertahankan kontrol regulasi atas aset yang ditokenisasi?
+answer: Otorisasi multisignature yang membutuhkan banyak pihak untuk menyetujui tindakan kepatuhan seperti membekukan dana atau menerbitkan kembali token
+wrong_answers:
+  - Token tata kelola Smart contract yang memungkinkan pemungutan suara komunitas pada semua keputusan kepatuhan dan penegakan peraturan
+  - Rekening escrow yang terkunci waktu yang secara otomatis menjalankan tindakan kepatuhan setelah masa tunggu yang telah ditentukan berakhir
+  - Konsensus bukti kepemilikan kriptografi di mana validator harus mencapai kesepakatan mayoritas sebelum melakukan tindakan kepatuhan apa pun
+explanation: |
+  AMP menggunakan kontrol multi tanda tangan untuk memastikan bahwa tindakan kepatuhan memerlukan otorisasi dari berbagai pihak, sehingga mencegah satu karyawan bertindak secara sepihak. Hal ini menciptakan sistem pemeriksaan dan keseimbangan untuk operasi yang sensitif sambil mempertahankan pengawasan peraturan yang diperlukan untuk aset institusi. Jawaban yang salah menggambarkan mekanisme yang tidak ada di AMP atau tidak sesuai untuk kepatuhan keuangan yang diatur.

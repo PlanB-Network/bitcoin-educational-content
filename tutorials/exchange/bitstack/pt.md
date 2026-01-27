@@ -28,8 +28,8 @@ Todas as outras operações na plataforma são gratuitas, incluindo levantamento
 Para descarregar a aplicação Bitstack, vá à sua loja de aplicações:
 
 
-- [Descarregar da Google Play Store] (https://play.google.com/store/apps/details?id=com.bitstack.app&hl=fr)
-- [Descarregar na App Store] (https://apps.apple.com/fr/app/bitstack-%C3%A9pargner-en-bitcoin/id1608783388)
+- [Descarregar da Google Play Store](https://play.google.com/store/apps/details?id=com.bitstack.app&hl=fr)
+- [Descarregar na App Store](https://apps.apple.com/fr/app/bitstack-%C3%A9pargner-en-bitcoin/id1608783388)
 
 ![Image](assets/fr/02.webp)
 
@@ -184,7 +184,7 @@ Determinar a prioridade da transação. Para uma retirada sem taxas, selecione a
 
 ![Image](assets/fr/32.webp)
 
-Se não estiver familiarizado com o funcionamento de uma carteira de autocustódia, oferecemos tutoriais sobre a maioria das soluções disponíveis [no Plano ₿ Rede na secção "*Carteira*"] (https://planb.academy/tutorials/wallet).
+Se não estiver familiarizado com o funcionamento de uma carteira de autocustódia, oferecemos tutoriais sobre a maioria das soluções disponíveis [no Plano ₿ Rede na secção "*Carteira*"](https://planb.academy/tutorials/wallet).
 
 ## Vender bitcoin
 

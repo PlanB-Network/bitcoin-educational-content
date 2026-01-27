@@ -1,0 +1,8 @@
+question: Madenciler tüm bloklarda sürekli olarak izin verilen blok sübvansiyonunun yalnızca %90'ını talep etseydi Bitcoin'ın toplam arzına ne olurdu?
+answer: Talep edilmeyen sübvansiyonlar sonsuza dek kaybedileceğinden, toplam arz kalıcı olarak 21 milyon BTC'nin altına düşecektir
+wrong_answers:
+  - Kalan %10'luk kısım, gelecekteki madencilerin düşük ücret dönemlerinde talep edebilmeleri için bir rezerv havuzunda birikecektir
+  - Zorluk ayarlama mekanizması, 21 milyon sınırını korumak için gelecekteki blok ödüllerini artırarak telafi edecektir
+  - Talep edilmeyen sübvansiyonlar, sonraki bloklarda işlem ücreti alıcıları arasında orantılı olarak yeniden dağıtılacaktır
+explanation: |
+  Bitcoin'in protokolü madencilerin izin verilen maksimum sübvansiyondan daha azını talep etmelerine izin verir, ancak talep edilmeyen herhangi bir miktar kalıcı olarak kaybolur - daha sonra yeniden dağıtmak veya geri almak için bir mekanizma yoktur. Sübvansiyon formülü ve yarılanma programı teorik maksimum ~21 milyon BTC'yi belirler, ancak gerçek arz madencilerin haklarının tamamını talep etmelerine bağlıdır. mining koşullarına yanıt veren zorluk ayarlamasının aksine, talep edilmeyen ödüller için telafi edici bir mekanizma yoktur, bu da madencilerin sürekli olarak eksik talepte bulunması durumunda toplam arzı potansiyel olarak deflasyonist hale getirir.

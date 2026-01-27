@@ -99,7 +99,7 @@ Phoenixd изисква среда на Linux (препоръчително Ubun
 
 
 
-Отидете на страницата [GitHub releases] (https://github.com/ACINQ/phoenixd/releases) и изтеглете най-новата версия за вашата архитектура:
+Отидете на страницата [GitHub releases](https://github.com/ACINQ/phoenixd/releases) и изтеглете най-новата версия за вашата архитектура:
 
 
 

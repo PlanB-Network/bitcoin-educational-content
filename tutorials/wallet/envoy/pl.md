@@ -85,7 +85,7 @@ Przejdź do sklepu z aplikacjami, aby pobrać Envoy :
 
 
 
-- W sklepie [Google Play Store] (https://play.google.com/store/apps/details?id=com.foundationdevices.envoy);
+- W sklepie [Google Play Store](https://play.google.com/store/apps/details?id=com.foundationdevices.envoy);
 - W [App Store](https://apps.apple.com/us/app/envoy-by-foundation/id1584811818);
 - Na [F-Cold](https://foundation.xyz/fdroid/).
 
@@ -93,7 +93,7 @@ Przejdź do sklepu z aplikacjami, aby pobrać Envoy :
 ![Image](assets/fr/50.webp)
 
 
-Plik APK można również pobrać bezpośrednio [z repozytorium GitHub Fundacji] (https://github.com/Foundation-Devices/envoy/releases).
+Plik APK można również pobrać bezpośrednio [z repozytorium GitHub Fundacji](https://github.com/Foundation-Devices/envoy/releases).
 
 
 ![Image](assets/fr/51.webp)

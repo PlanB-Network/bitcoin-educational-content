@@ -1,12 +1,12 @@
 ---
-name: Bolo Wallet
+name: Cake Wallet
 description: Tutorial sobre Cake Wallet e pagamentos silenciosos
 ---
 
 ![cover](assets/cover.webp)
 
 
-Este guia explora o [**Cake Wallet**] (https://cakewallet.com/): um wallet de código aberto, sem custódia, focado na privacidade e com várias moedas, disponível para Android, iOS, macOS, Linux e Windows. Iremos analisar as funcionalidades de privacidade específicas do Bitcoin, enviar/receber Bitcoin através de **Silent Payments** (um protocolo de privacidade on-chain melhorado) e analisaremos a implementação do PayJoin v2 para transacções assíncronas.
+Este guia explora o [**Cake Wallet**](https://cakewallet.com/): um wallet de código aberto, sem custódia, focado na privacidade e com várias moedas, disponível para Android, iOS, macOS, Linux e Windows. Iremos analisar as funcionalidades de privacidade específicas do Bitcoin, enviar/receber Bitcoin através de **Silent Payments** (um protocolo de privacidade on-chain melhorado) e analisaremos a implementação do PayJoin v2 para transacções assíncronas.
 
 
 ## 🎉 Caraterísticas principais
@@ -148,7 +148,7 @@ Para proteger o nosso wallet, podemos criar uma cópia de segurança, seguindo a
 ![image](assets/en/08.webp)
 
 
-**Nota**: A partir de setembro de 2025, a autenticação biométrica de impressões digitais em dispositivos Android tem de funcionar com, pelo menos, uma implementação biométrica de Classe 2. Para mais informações, consulte [aqui] (https://source.android.com/docs/security/features/biometric/measure#biometric-classes). No entanto, este requisito pode ser alterado no futuro.
+**Nota**: A partir de setembro de 2025, a autenticação biométrica de impressões digitais em dispositivos Android tem de funcionar com, pelo menos, uma implementação biométrica de Classe 2. Para mais informações, consulte [aqui](https://source.android.com/docs/security/features/biometric/measure#biometric-classes). No entanto, este requisito pode ser alterado no futuro.
 
 
 ### D - Definições de privacidade 🔒
@@ -290,7 +290,7 @@ https://github.com/cake-tech/cake_wallet
 https://blog.cakewallet.com/
 
 
-[https://silentpayments.xyz/] (https://silentpayments.xyz/)
+[https://silentpayments.xyz/](https://silentpayments.xyz/)
 
 
 [ttps://bips.dev/352/](https://bips.dev/352/)

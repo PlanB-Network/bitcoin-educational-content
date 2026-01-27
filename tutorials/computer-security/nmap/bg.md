@@ -165,7 +165,7 @@ Nmap се използва като конвенционален двоичен 
 
 
 
-Nmap може да се използва за мрежова диагностика и, в по-широк смисъл, за мониторинг. По същия начин, по който ping може да се използва за определяне на това дали два хоста комуникират, Nmap може да се използва за бързо определяне на това дали даден хост е активен или дали дадена услуга работи. Благодарение на [Nmap] (https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap") можем да получим точни данни за времето за отговор на хоста, маршрута, по който се движат пакетите, отговора на определена услуга и т.н.
+Nmap може да се използва за мрежова диагностика и, в по-широк смисъл, за мониторинг. По същия начин, по който ping може да се използва за определяне на това дали два хоста комуникират, Nmap може да се използва за бързо определяне на това дали даден хост е активен или дали дадена услуга работи. Благодарение на [Nmap](https://www.it-connect.fr/cours/nmap-cartographie-reseau-scan-de-vulnerabilites/ "Nmap") можем да получим точни данни за времето за отговор на хоста, маршрута, по който се движат пакетите, отговора на определена услуга и т.н.
 
 
 
@@ -312,7 +312,7 @@ nmap --script ftp-anon -p 21 192.168.1.18
 
 
 
-Първоначално Nmap беше проектиран да работи с операционни системи GNU/Linux. В резултат на това и благодарение на нейната дълготрайност и популярност ще я намерите във всички официални хранилища на основните дистрибуции на Unix. В този урок ще използвам операционна система, базирана на Debian [Kali Linux] (https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux"). Но вие можете да я използвате по абсолютно същия начин от класическа Debian, CentOS, Red Hat или каквато и да е друга!
+Първоначално Nmap беше проектиран да работи с операционни системи GNU/Linux. В резултат на това и благодарение на нейната дълготрайност и популярност ще я намерите във всички официални хранилища на основните дистрибуции на Unix. В този урок ще използвам операционна система, базирана на Debian [Kali Linux](https://www.it-connect.fr/cours/debuter-avec-kali-linux/ "Kali Linux"). Но вие можете да я използвате по абсолютно същия начин от класическа Debian, CentOS, Red Hat или каквато и да е друга!
 
 
 
@@ -384,7 +384,7 @@ nmap --version
 
 
 
-- Страница за изтегляне на Nmap на официалния уебсайт: [https://nmap.org/download.html#windows] (https://nmap.org/download.html#windows)
+- Страница за изтегляне на Nmap на официалния уебсайт: [https://nmap.org/download.html#windows](https://nmap.org/download.html#windows)
 
 
 
@@ -433,7 +433,7 @@ nmap --version
 
 
 
-Както и при Linux, можете да потвърдите, че Nmap е инсталиран, като отворите команден прозорец или терминал [Powershell] (https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") и въведете следната команда:
+Както и при Linux, можете да потвърдите, че Nmap е инсталиран, като отворите команден прозорец или терминал [Powershell](https://www.it-connect.fr/cours-tutoriels/administration-systemes/scripting/powershell/ "Powershell") и въведете следната команда:
 
 
 
@@ -562,7 +562,7 @@ Nmap вече е инсталиран в Windows. Можете да го изп�
 
 
 
-- [Hack The Box] (https://app.hackthebox.com/ "Hack The Box"): "Hack The Box" е платформа за обучение по хакерство, която постоянно предоставя уязвими системи, които можете да атакувате, както намерите за добре. Налични са няколкостотин системи, но целогодишно се предлага безплатен подновен пул от 20 машини, като достъпът до тях се осъществява чрез OpenVPN VPN.
+- [Hack The Box](https://app.hackthebox.com/ "Hack The Box"): "Hack The Box" е платформа за обучение по хакерство, която постоянно предоставя уязвими системи, които можете да атакувате, както намерите за добре. Налични са няколкостотин системи, но целогодишно се предлага безплатен подновен пул от 20 машини, като достъпът до тях се осъществява чрез OpenVPN VPN.
 
 
 
@@ -901,7 +901,7 @@ UDP сканирането може да отнеме много дълго вр
 
 
 
-На горната снимка на екрана виждаме, че Nmap ще изпрати голям брой UDP пакети и ще получи в отговор ICMP пакет "Destination unreachable (Port unreachable)". Това е нормално, тъй като това е подходящият отговор, определен от [RFC 1122] (https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122"), когато UDP портът е недостъпен:
+На горната снимка на екрана виждаме, че Nmap ще изпрати голям брой UDP пакети и ще получи в отговор ICMP пакет "Destination unreachable (Port unreachable)". Това е нормално, тъй като това е подходящият отговор, определен от [RFC 1122](https://www.freesoft.org/CIE/RFC/1122/41.htm "RFC 1122"), когато UDP портът е недостъпен:
 
 
 
@@ -2198,7 +2198,7 @@ nmap -sV -sC -p- 192.168.0.0/24 192.168.1.13 192.168.2.10-20 --exclude 192.168.0
 
 
 
-Независимо дали сте администратор на мрежова система, инженер по сигурността или дори CISO, използването на Nmap ви дава възможност да прегледате състоянието на сигурността на информационната система. Това е важна първа стъпка в осигуряването на сигурността на дадена система, която може да се извършва редовно от ИТ екипа. Тя обаче не трябва да замества намесата и съветите на експертите по [киберсигурност] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), които ще могат да разкрият слабите места много по-обстойно от Nmap.
+Независимо дали сте администратор на мрежова система, инженер по сигурността или дори CISO, използването на Nmap ви дава възможност да прегледате състоянието на сигурността на информационната система. Това е важна първа стъпка в осигуряването на сигурността на дадена система, която може да се извършва редовно от ИТ екипа. Тя обаче не трябва да замества намесата и съветите на експертите по [киберсигурност](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), които ще могат да разкрият слабите места много по-обстойно от Nmap.
 
 
 
@@ -2238,23 +2238,24 @@ nmap -sV -sC -p- 192.168.0.0/24 192.168.1.13 192.168.2.10-20 --exclude 192.168.0
 
 
 
-| Catégorie       | Description |
-|----------------|-------------|
-| **auth**       | Contient les scripts relatifs à l’authentification sur des services, dont l’accès anonyme ou l’énumération des utilisateurs. Exemples: `oracle-enum-users`, `ftp-anon`. |
-| **broadcast**  | Contient les scripts relatifs aux opérations de broadcast sur le réseau, notamment en vue d’exploiter et de découvrir certains services, hôtes ou protocoles reposant sur le broadcast (IPv6, wake on lan, IGMP, etc.). Exemples: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
-| **brute**      | Contient les scripts relatifs aux opérations de brute force de l’authentification sur les services (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL, etc.). Exemples: `ssh-brute`, `vnc-brute`. |
-| **default**    | Contient les scripts utilisés dans le cas par défaut (utilisation de `-sC`). Plusieurs critères sont utilisés afin de valider l’entrée d’un script dans cette catégorie dont la vitesse d’exécution, la structure de la sortie, la fiabilité du test, le caractère “intrusif” ou “risqué”, etc. |
-| **discovery**  | Contient les scripts relatifs à la découverte avancée du réseau et des services. On y retrouve par exemple l’énumération du contenu d’un partage SMB, d’une version d’un service VNC, des requêtes SNMP, etc. Exemples: `mysql-info`, `http-security-headers`. |
-| **dos**        | Contient les scripts pouvant causer un déni de service. Il peut s’agir de scripts créés pour exploiter une vulnérabilité de type déni de service ou alors de scripts ayant pour effet de bord un déni de service. Prudence donc (ils sont exclus de la catégorie `default`). Exemples: `http-slowloris`, `ipv6-ra-flood`. |
-| **exploit**    | Contient les scripts créés pour exploiter de manière directe une vulnérabilité. Exemples: `http-shellsock`, `smb-vuln-ms08-067`. |
-| **external**   | Contient les scripts qui nécessitent l’utilisation d’une ressource tierce, comme une base d’information en ligne. Cela indique notamment une tentative de connexion vers l’extérieur (attention à la confidentialité). Exemples: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
-| **fuzzer**     | Contient les scripts conçus pour envoyer des trames, paquets ou paramètres inattendus par un service. Cela permet notamment de causer des erreurs ou dysfonctionnements afin d’obtenir des pistes de vulnérabilité ou des informations techniques. Exemples: `dns-fuzz`, `http-form-fuzzer`. |
-| **intrusive**  | Contient les scripts qui sont catégorisés comme “risqués” d’un point de vue disponibilité, ou détection. Ils peuvent provoquer un crash du système ou être détectés comme malveillant par une solution de sécurité. Il s’agit de la catégorie inverse de `safe`. Exemples: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
-| **malware**    | Contient les scripts conçus pour détecter la présence d’élément caractéristique d’un malware, tel qu’un port en écoute communément utilisé par une backdoor connue. Exemples: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
-| **safe**       | Contient les scripts qui sont considérés comme sûrs d’un point de vue détection ou stabilité. Il s’agit de la catégorie inverse de `intrusive` et elle contient en grande majorité des scripts avancés d’identification de version ou de relevé d’élément de configuration. Exemples: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
-| **version**    | Contient les scripts qui permettent une détection avancée de version. Ils peuvent être utilisés en complément des Probes et Matchs étudiés précédemment quand la détection d’une version nécessite des opérations un peu plus complexes. Exemples: `http-php-version`, `vmware-version`. |
-| **vuln**       | Contient les scripts conçus pour détecter la présence de vulnérabilité connue (CVE) sans pour autant les exploiter (à l’inverse de la catégorie `exploit`). Ils se contentent en général de rapporter le statut “vulnérable” ou non d’un service. Exemples: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
+
+| Категория | Описание |
+|----------------|-------------|
+| **auth** | Съдържа скриптове, свързани с автентикацията в услуги, включително анонимен достъп или изброяване на потребители. Примери: `oracle-enum-users`, `ftp-anon`. |
+| **broadcast** | Съдържа скриптове, свързани с операции за разпръскване (broadcast) в мрежата, по-специално с цел експлоатиране и откриване на определени услуги, хостове или протоколи, базирани на broadcast (IPv6, wake on lan, IGMP и др.). Примери: `broadcast-dhcp6-discover`, `broadcast-ospf2-discover`. |
+| **brute** | Съдържа скриптове, свързани с операции за груба сила (brute force) на автентикацията в услуги (brute force [SSH](https://www.it-connect.fr/cours/comprendre-et-maitriser-ssh/), MSSQL и др.). Примери: `ssh-brute`, `vnc-brute`. |
+| **default** | Съдържа скриптове, използвани по подразбиране (използване на `-sC`). Използват се няколко критерия за валидиране на влизането на скрипт в тази категория, включително скорост на изпълнение, структура на изхода, надеждност на теста, „натрапчив“ или „рисков“ характер и др. |
+| **discovery** | Съдържа скриптове, свързани с разширено откриване на мрежата и услугите. Тук се срещат например изброяване на съдържанието на SMB споделяне, версия на VNC услуга, SNMP заявки и др. Примери: `mysql-info`, `http-security-headers`. |
+| **dos** | Съдържа скриптове, които могат да причинят отказ от услуга (denial of service). Може да става дума за скриптове, създадени за експлоатиране на уязвимост от тип отказ от услуга, или скриптове със страничен ефект отказ от услуга. Бъдете внимателни (те са изключени от категорията `default`). Примери: `http-slowloris`, `ipv6-ra-flood`. |
+| **exploit** | Съдържа скриптове, създадени за директна експлоатация на уязвимост. Примери: `http-shellsock`, `smb-vuln-ms08-067`. |
+| **external** | Съдържа скриптове, които изискват използването на външен ресурс, като онлайн информационна база. Това по-специално показва опит за връзка навън (внимавайте с поверителността). Примери: `whois-ip`, `dns-blacklist`, `ip-geolocation-geoplugin`. |
+| **fuzzer** | Съдържа скриптове, предназначени за изпращане на неочаквани рамки, пакети или параметри към услуга. Това по-специално позволява причиняване на грешки или неизправности с цел получаване на следи за уязвимост или техническа информация. Примери: `dns-fuzz`, `http-form-fuzzer`. |
+| **intrusive** | Съдържа скриптове, които са категоризирани като „рискови“ от гледна точка на наличност или откриване. Те могат да причинят срив на системата или да бъдат открити като зловредни от решение за сигурност. Това е противоположната категория на `safe`. Примери: `smtp-brute`, `smb-vuln-ms08-067`, `smb-psexec`. |
+| **malware** | Съдържа скриптове, предназначени за откриване на присъствието на елементи, характерни за зловреден софтуер, като слушащ порт, обикновено използван от известен бекдор (backdoor). Примери: `ftp-proftpd-backdoor`, `smtp-strangeport`. |
+| **safe** | Съдържа скриптове, които се считат за безопасни от гледна точка на откриване или стабилност. Това е противоположната категория на `intrusive` и съдържа в голямата си част разширени скриптове за идентифициране на версия или извличане на конфигурационни елементи. Примери: `html-title`, `smb2-security-mode`, `ms-sql-info`. |
+| **version** | Съдържа скриптове, които позволяват разширено откриване на версия. Те могат да се използват като допълнение към изучаваните по-рано Probes и Matchs, когато откриването на версия изисква малко по-сложни операции. Примери: `http-php-version`, `vmware-version`. |
+| **vuln** | Съдържа скриптове, предназначени за откриване на присъствието на известна уязвимост (CVE), без непременно да я експлоатират (за разлика от категорията `exploit`). Обикновено те се ограничават до докладване на статуса „уязвим“ или не на дадена услуга. Примери: `smb-vuln-ms17-010` (eternal blue), `http-phpmyadmin-dir-traversal`. |
 
 Технически категориите, към които принадлежи даден скрипт, се посочват директно в неговия код.
 
@@ -2973,7 +2974,7 @@ XML форматът ще бъде особено полезен в следва
 
 
 
-Ще спомена няколко инструмента за нападение, без да описвам подробно как се използват и как работят. Ще приема, че читателят е запознат с основната им употреба и че те вече са оперативни. Този раздел ще представлява особен интерес за специалистите по [киберсигурност] (https://www.it-connect.fr/cours-tutoriels/securite-informatique/), хората в процес на обучение или тези, които са решили да се задълбочат в темата.
+Ще спомена няколко инструмента за нападение, без да описвам подробно как се използват и как работят. Ще приема, че читателят е запознат с основната им употреба и че те вече са оперативни. Този раздел ще представлява особен интерес за специалистите по [киберсигурност](https://www.it-connect.fr/cours-tutoriels/securite-informatique/), хората в процес на обучение или тези, които са решили да се задълбочат в темата.
 
 
 

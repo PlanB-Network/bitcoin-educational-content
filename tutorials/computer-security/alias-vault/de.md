@@ -287,7 +287,7 @@ Die Gelegenheit ist einzigartig: **Beenden Sie die Abhängigkeit von externen Di
 
 
 
-Es ist an der Zeit, sich an [Dokumentation] (https://docs.aliasvault.net/installation/) zu wenden, um herauszufinden, wie man Alias Vault selbst hosten kann.
+Es ist an der Zeit, sich an [Dokumentation](https://docs.aliasvault.net/installation/) zu wenden, um herauszufinden, wie man Alias Vault selbst hosten kann.
 
 
 
@@ -433,7 +433,7 @@ Da sich Alias Vault in der _Beta-Phase_ befindet, kann es zu Schwierigkeiten bei
 
 
 
-Für ein vollständiges Verständnis der Architektur und der Sicherheit von Alias Vault empfehle ich Ihnen dringend, [diese Seite] (https://docs.aliasvault.net/architecture/) zu konsultieren, die Details zur Kryptographie enthält, die dem Betrieb zugrunde liegt.
+Für ein vollständiges Verständnis der Architektur und der Sicherheit von Alias Vault empfehle ich Ihnen dringend, [diese Seite](https://docs.aliasvault.net/architecture/) zu konsultieren, die Details zur Kryptographie enthält, die dem Betrieb zugrunde liegt.
 
 
 

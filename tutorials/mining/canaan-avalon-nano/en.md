@@ -58,17 +58,18 @@ Once everything's out of the box, here's what's on hand: the machine itself of c
 Below is a table summarizing the general technical specifications of the Nano 3S :
 
 
-| Caractéristique                                      | Valeur                                                  |
+
+| Feature                                      | Value                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------- |
-| Taux de hachage                                      | 6 Th/s +- 5%                                            |
-| Consommation d'énergie                               | 140 W                                                   |
-| Bruit                                                | 30 - 40 dB                                              |
-| Plage de température de sortie d'air                 | 60-70°C (sous température ambiante 25°C)                |
-| Exigences de température ambiante pour l'utilisation | de -5 à 30°C                                            |
-| Plage d'entrée de l'appareil                         | 28V 5A continu                                          |
-| Plage d'entrée de l'adaptateur                       | 110-240V AC 50/60Hz                                     |
-| Taille de la machine                                 | Longueur: 205 mm /  Largeur: 115 mm / Hauteur:  58.5 mm |
-| Poids de la machine                                  | 0.86 kg                                                 |
+| Hash Rate                                      | 6 Th/s +- 5%                                            |
+| Power Consumption                               | 140 W                                                   |
+| Noise                                                | 30 - 40 dB                                              |
+| Output Air Temperature Range                 | 60-70°C (at ambient temperature 25°C)                |
+| Ambient Temperature Requirements for Use | -5 to 30°C                                            |
+| Device Input Voltage Range                         | 28V 5A continuous                                          |
+| Adapter Input Voltage Range                       | 110-240V AC 50/60Hz                                     |
+| Device Size                                 | Length: 205 mm / Width: 115 mm / Height: 58.5 mm |
+| Device Weight                                  | 0.86 kg                                                 |
 
 ## Powering up and connecting to the local network
 

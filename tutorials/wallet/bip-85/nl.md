@@ -419,9 +419,9 @@ Meer bronnen in de bijlagen.
 - [BIP-32](https://planb.academy/resources/glossary/bip0032)
 - [BIP-39](https://planb.academy/resources/glossary/bip0039)
 - [BIP-85](https://planb.academy/resources/glossary/bip0085)
-- [seed zin] (https://planb.academy/resources/glossary/recovery-phrase)
-- [passphrase] (https://planb.academy/resources/glossary/passphrase-bip39)
-- [Multisig] (https://planb.academy/resources/glossary/multisig)
+- [seed zin](https://planb.academy/resources/glossary/recovery-phrase)
+- [passphrase](https://planb.academy/resources/glossary/passphrase-bip39)
+- [Multisig](https://planb.academy/resources/glossary/multisig)
 
 
 

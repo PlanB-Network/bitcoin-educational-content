@@ -1,0 +1,8 @@
+question: Que sintaxe é utilizada para definir parâmetros em fechos Rust?
+answer: Caracteres de pipe (|) para incluir parâmetros
+wrong_answers:
+  - Parênteses () para incluir parâmetros
+  - Parênteses rectos [] para incluir parâmetros
+  - Chaves {} para incluir parâmetros
+explanation: |
+  As closures do Rust usam caracteres pipe (|) para definir parâmetros, o que as distingue das funções regulares que usam parênteses. Por exemplo, uma closure sem parâmetros é escrita como ||, enquanto uma closure com parâmetros se parece com |x, y|. Esta sintaxe única torna os fechos facilmente reconhecíveis e distingue-os das definições de funções. Os parênteses são utilizados para funções regulares, enquanto os parênteses rectos e as chavetas servem outros propósitos na sintaxe Rust.

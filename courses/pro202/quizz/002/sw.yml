@@ -1,0 +1,8 @@
+question: Kulingana na Nadharia Ndogo ya Fermat, ni nini kigeu cha kuzidisha cha kipengele n katika sehemu kuu F(p)?
+answer: n^(p-2) mod p
+wrong_answers:
+  - n^(p-1) mod p
+  - n^(p+1) mod p
+  - n^(p+2) mod p
+explanation: |
+  Nadharia Ndogo ya Fermat inasema kwamba n^(p-1) ≡ 1 (mod p) kwa kipengele chochote kisicho na sifuri n katika sehemu kuu. Ili kupata kinyume cha kuzidisha, tunahitaji thamani ambayo ikizidishwa na n inatoa 1. Kwa kuwa n^(p-1) ≡ 1, tunaweza kuandika upya hii kama n · n^(p-2) ≡ 1, ikithibitisha kwamba n^(p-2) ni kinyume cha kuzidisha cha n. Chaguzi zingine si sahihi: n^(p-1) ni sawa na 1 kwa nadharia ya Fermat, huku n^(p+1) na n^(p+2) zingetoa thamani sawa na n^2 na n^3 mtawalia wakati modulo iliyopunguzwa p.

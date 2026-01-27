@@ -42,7 +42,7 @@ No necesitas ningún conocimiento técnico o en profundidad antes de tomar **Coi
 
 
 
-Vaya a la página web de [Coinos] (https://coinos.io/) en su navegador y haga clic en **Iniciar en segundos**.
+Vaya a la página web de [Coinos](https://coinos.io/) en su navegador y haga clic en **Iniciar en segundos**.
 
 
 

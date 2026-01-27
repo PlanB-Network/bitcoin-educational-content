@@ -60,7 +60,7 @@ De kritieke afweging is `trust`: terwijl je de controle hebt over de tokens zelf
 
 > ...de Munt beheert de Lightning-infrastructuur en bewaart de satoshi's voor de gebruikers van de Munt ecash. Gebruikers moeten de munt vertrouwen om hun ecash te Redeem zodra ze willen overstappen op Lightning.
 
-- Cashu Documentatie, [Algemene veiligheids- en privacyvragen] (https://docs.cashu.space/faq#general-safety-and-privacy-questions)
+- Cashu Documentatie, [Algemene veiligheids- en privacyvragen](https://docs.cashu.space/faq#general-safety-and-privacy-questions)
 
 
 Dit maakt ecash een bewaaroplossing voor de Bitcoin zelf, hoewel u de volledige controle over de tokens behoudt.

@@ -1,10 +1,9 @@
-question: ¿Cómo se aseguran las transacciones en la Lightning Network?
-answer: A través de la criptografía y, de manera indirecta, mediante la energía consumida por los mineros en Bitcoin.
+question: ¿Cuál es el principio central de RGB?
+answer: La validación del lado del cliente
 wrong_answers:
-  - Solo mediante el uso de claves privadas.
-  - Solo mediante el uso de claves públicas.
-  - Solo mediante el uso de ambas, claves privadas y públicas.
-explanation: >-
-  Las transacciones en la Lightning Network se aseguran mediante criptografía
-  y, de manera indirecta, a través de la energía consumida por los mineros en Bitcoin.
-reviewed: true
+  - La ejecución global en la blockchain
+  - El consenso federado
+  - Proof-of-Work
+explanation: |
+  RGB se basa en una validación local de los estados, utilizando la blockchain únicamente como anclaje criptográfico y protección contra el doble gasto.
+reviewed: false

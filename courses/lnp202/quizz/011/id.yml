@@ -1,0 +1,9 @@
+question: Solusi mana yang menawarkan kedaulatan paling besar bagi pengguna Lightning?
+answer: Simpul petir klasik
+wrong_answers:
+  - Wallet dengan pertukaran atom
+  - Node LN on-board
+  - Petir Kustodian wallet
+explanation: |
+  Node klasik memberikan kontrol penuh atas saluran, likuiditas, dan kebijakan biaya. Ini adalah satu-satunya yang memungkinkan Anda untuk benar-benar mandiri.
+reviewed: false

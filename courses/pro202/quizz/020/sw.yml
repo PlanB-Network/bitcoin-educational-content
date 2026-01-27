@@ -1,0 +1,8 @@
+question: Ni tatizo gani la hisabati linalotoa msingi wa usalama wa sahihi za ECDSA katika Bitcoin?
+answer: Tatizo la logarithm ya mviringo yenye mkunjo tofauti
+wrong_answers:
+  - Tatizo la uainishaji wa nambari kamili
+  - Tatizo la mabaki ya quadratic
+  - Tatizo la mgongano wa hash
+explanation: |
+  Usalama wa ECDSA hutegemea tatizo la logarithm ya mviringo yenye mkunjo wa mviringo: ikizingatiwa P = eG, kuhesabu P kutoka e na G ni rahisi, lakini kupata ufunguo wa faragha e kutoka kwa ufunguo wa umma P haiwezekani kimahesabu. Uhusiano huu wa hisabati wa njia moja huwezesha usimbaji fiche wa ufunguo wa umma wenye ukubwa mdogo wa ufunguo kuliko RSA, ambao unategemea uainishaji wa nambari kamili.

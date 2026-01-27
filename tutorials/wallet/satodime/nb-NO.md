@@ -38,7 +38,7 @@ Satodime, et **carte au porteur, tilhører den som fysisk besitter det**, uten b
 
 
 
-Programmet utvikles regelmessig. Sjekk Satochips nettsted eller butikker for oppdateringer. For eksempel kan nye blokkjeder eller kjøpsfunksjoner bli lagt til. Sjekk [Satochip GitHub] (https://github.com/Toporin/Satodime-Applet) for løpende utvikling.
+Programmet utvikles regelmessig. Sjekk Satochips nettsted eller butikker for oppdateringer. For eksempel kan nye blokkjeder eller kjøpsfunksjoner bli lagt til. Sjekk [Satochip GitHub](https://github.com/Toporin/Satodime-Applet) for løpende utvikling.
 
 
 
@@ -67,10 +67,10 @@ Før du begynner å bruke **Satodime**, må du sørge for at du har følgende ut
 
 
 - Last ned søknaden** :
- - [App Store] (https://apps.apple.com/be/app/satodime/id1672273462)** (iOS)
- - [Google Play Store] (https://play.google.com/store/apps/details?id=org.satochip.satodimeapp)** (Android)
+ - [App Store](https://apps.apple.com/be/app/satodime/id1672273462)** (iOS)
+ - [Google Play Store](https://play.google.com/store/apps/details?id=org.satochip.satodimeapp)** (Android)
  - Sjekk utvikleren (Satochip) for å unngå svindel.
- - Satodime er **åpen kildekode**. Kildekode : [Satochips GitHub] (https://github.com/Toporin/Satodime-Applet).
+ - Satodime er **åpen kildekode**. Kildekode : [Satochips GitHub](https://github.com/Toporin/Satodime-Applet).
 
 
 
@@ -124,7 +124,7 @@ Ved første gangs bruk må du bli eier av kortet for å sikre det:
 - Klikk på "*Take Ownership*" i appen.
 - Bekreft operasjonen: Dette genererer en unik eiernøkkel.
 - Skann kartet på nytt for å bruke endringene.
-- Advarsel**: Dette trinnet er irreversibelt. Vennligst se [artikkelen om *eierskap*] (https://satochip.io/satodime-ownership-explained/).
+- Advarsel**: Dette trinnet er irreversibelt. Vennligst se [artikkelen om *eierskap*](https://satochip.io/satodime-ownership-explained/).
 
 
 
@@ -301,11 +301,11 @@ Spesifikt for Satodime :
 
 
 - [Satodime-produkt](https://satochip.io/fr/product/satodime/)
-- [Mobilguide] (https://satochip.io/wp-content/uploads/2024/11/Satodime-FR-Short-tuto-app-mobile.pdf)
+- [Mobilguide](https://satochip.io/wp-content/uploads/2024/11/Satodime-FR-Short-tuto-app-mobile.pdf)
 
 
 
-[Plan ₿ Academy] (https://planb.academy/) for opplæring i selvoppbevaring, private nøkler osv.
+[Plan ₿ Academy](https://planb.academy/) for opplæring i selvoppbevaring, private nøkler osv.
 
 
 
@@ -341,7 +341,7 @@ https://planb.academy/tutorials/computer-security/authentication/seedkeeper-pass
 
 
 - [Site Satochip](https://satochip.io/fr/)
-- [GitHub] (https://github.com/Toporin/Satodime-Applet)
+- [GitHub](https://github.com/Toporin/Satodime-Applet)
 - Støtte: info@satochip.io
 
 

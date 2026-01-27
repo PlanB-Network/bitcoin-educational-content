@@ -1,0 +1,8 @@
+question: Quali sono i due controlli critici di verifica che un nodo Bitcoin deve eseguire quando riceve un nuovo blocco prima di accettarlo nella blockchain?
+answer: L'hash del blocco deve essere inferiore alla difficoltà target e la radice Merkle calcolata deve corrispondere alla radice Merkle dell'intestazione
+wrong_answers:
+  - Il timestamp del blocco deve essere valido e tutte le firme delle transazioni devono essere verificate crittograficamente
+  - La dimensione del blocco deve essere inferiore a 1 MB e l'hash del blocco precedente deve fare riferimento a un blocco noto e valido
+  - La versione del blocco deve corrispondere al consenso di rete e le commissioni totali della transazione devono superare la ricompensa mining
+explanation: |
+  Il principio "non fidarti, verifica" di Bitcoin richiede esattamente due controlli fondamentali per l'accettazione dei blocchi: La convalida proof-of-work (hash del blocco inferiore all'obiettivo di difficoltà) e la verifica dell'integrità della transazione (corrispondenza della radice Merkle). Sebbene altri controlli come la convalida del timestamp, la verifica della firma e i limiti di dimensione siano importanti, questi due controlli specifici garantiscono che il blocco soddisfi i requisiti di difficoltà e contenga le transazioni dichiarate senza manomissioni.

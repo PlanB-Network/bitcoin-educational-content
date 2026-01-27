@@ -1,0 +1,8 @@
+question: Šta se dešava sa promenljivom kada se vlasništvo prenese na drugu promenljivu u Rust?
+answer: Originalna varijabla postaje nevažeća i ne može se više koristiti
+wrong_answers:
+  - Originalna promenljiva postaje referenca samo za čitanje na podatke
+  - Obe promenljive dele vlasništvo i mogu nezavisno menjati podatke.
+  - Originalna promenljiva se automatski konvertuje u promenljivu referencu
+explanation: |
+  Kada se vlasništvo premesti u Rust, originalna promenljiva postaje potpuno nevažeća i više joj se ne može pristupiti. Ovo je osnovna bezbednosna funkcija koja sprečava da više promenljivih upravlja istom memorijom na gomili, što bi moglo dovesti do grešaka kao što su korišćenje nakon oslobađanja ili dvostruko oslobađanje. Operacija premještanja prenosi potpunu kontrolu na novu promenljivu, a kompajler će proizvesti grešku ako pokušate da koristite originalnu promenljivu nakon premještanja. Ovo se razlikuje od kopiranja (gde obe promenljive ostaju važeće) i pozajmljivanja (gde originalni vlasnik zadržava vlasništvo).

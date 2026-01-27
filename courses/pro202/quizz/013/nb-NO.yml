@@ -1,0 +1,8 @@
+question: Hvilken type matematisk struktur danner elliptiske kurvepunkter under addisjonsoperasjonen?
+answer: En matematisk gruppe med lukning, assosiativitet, identitet og invers
+wrong_answers:
+  - Et endelig felt med definerte multiplikasjons- og divisjonsoperasjoner
+  - Et vektorrom med skalarmultiplikasjon og lineære kombinasjoner
+  - En ringstruktur med både addisjons- og multiplikasjonsoperasjoner
+explanation: |
+  Punktene på elliptiske kurver danner en matematisk gruppe under addisjon, noe som betyr at de tilfredsstiller fire essensielle egenskaper: lukking (addisjon av to punkter gir et nytt punkt på kurven), assosiativitet (rekkefølgen på operasjonene spiller ingen rolle), identitet (punktet i uendeligheten fungerer som null) og invers (hvert punkt har en refleksjon på tvers av x-aksen som opphever det). Denne gruppestrukturen er grunnleggende for elliptisk kurvekryptografi fordi den sikrer at operasjoner som skalarmultiplikasjon (å legge et punkt til seg selv gjentatte ganger) er veldefinerte og forutsigbare, noe som muliggjør sikre kryptografiske protokoller som de som brukes i Bitcoin.

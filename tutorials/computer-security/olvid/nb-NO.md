@@ -57,12 +57,12 @@ Olvid er tilgjengelig på alle plattformer. Du kan laste ned applikasjonen direk
 
 
 
-- [Google Play] (https://play.google.com/store/apps/details?id=io.olvid.messenger);
-- [App Store] (https://apps.apple.com/app/olvid/id1414865219);
+- [Google Play](https://play.google.com/store/apps/details?id=io.olvid.messenger);
+- [App Store](https://apps.apple.com/app/olvid/id1414865219);
 
 
 
-På Android er det også mulig å [installere via APK] (https://www.olvid.io/download/).
+På Android er det også mulig å [installere via APK](https://www.olvid.io/download/).
 
 
 

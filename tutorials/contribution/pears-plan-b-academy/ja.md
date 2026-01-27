@@ -1,5 +1,5 @@
 ---
-name: プラン ₿ アカデミー - 梨アプリ
+name: Plan ₿ Academy - Pears App
 description: Plan₿Academyアプリケーションをペアーズにインストールして使用するには？
 ---
 

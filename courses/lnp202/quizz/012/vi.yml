@@ -1,0 +1,9 @@
+question: Điểm hạn chế chính của các node trên tàu LN là gì?
+answer: sự phụ thuộc của toán tử
+wrong_answers:
+  - Mất khóa riêng tư
+  - Không tự quản lý
+  - Thanh toán trên chuỗi là bắt buộc đối với tất cả các giao dịch Lightning
+explanation: |
+  Người dùng phụ thuộc rất nhiều vào nhà mạng chính về kết nối và quản lý kênh.
+reviewed: false

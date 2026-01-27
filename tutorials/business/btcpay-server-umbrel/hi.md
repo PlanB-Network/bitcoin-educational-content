@@ -1,5 +1,5 @@
 ---
-name: BTCPay सर्वर - अम्ब्रेल
+name: BTCPay Server - Umbrel
 description: Bitcoin और लाइटनिंग को स्वीकार करने के लिए Umbrel पर BTCPay सर्वर स्थापित करना और उसका उपयोग करना
 ---
 

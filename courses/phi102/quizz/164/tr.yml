@@ -1,0 +1,8 @@
+question: Liberal ekonomi teorisinde önleyici sistemi baskıcı sistemden ayıran temel fark nedir?
+answer: Önleyici sistem potansiyel zararı önlemek için önceden düzenleme yaparken, baskıcı sistem ancak gerçek zarar meydana geldikten sonra harekete geçer
+wrong_answers:
+  - Önleyici sistem ceza hukukunun uygulanmasına odaklanırken, baskıcı sistem medeni anlaşmazlıklar ve sözleşmelerle ilgilenir
+  - Önleyici sistem serbest piyasa rekabetine izin verirken, baskıcı sistem devlet müdahalesi yoluyla ticareti kısıtlar
+  - Önleyici sistem bireysel mülkiyet haklarını korurken, baskıcı sistem serveti vergilendirme yoluyla yeniden dağıtır
+explanation: |
+  Önleyici sistem, potansiyel hak ihlallerini sözde önlemek için önceden düzenlemeler yaratır, ancak aslında özgürlüğün zararsız kullanımlarını kısıtlayarak hakları kendisi ihlal etmeye başlar. Liberaller tarafından tercih edilen baskıcı sistem ise bireysel sorumluluğa dayanır ve insanlar ancak başkalarının haklarına gerçekten zarar verdikten sonra sorumlu tutulurlar. Bu ayrım çok önemlidir çünkü önleyici yaklaşım özgürlüğü önceden kısıtlarken, baskıcı yaklaşım fiili zarar meydana gelene kadar maksimum özgürlüğü korur.

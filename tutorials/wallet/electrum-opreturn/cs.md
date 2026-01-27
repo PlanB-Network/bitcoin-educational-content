@@ -218,7 +218,7 @@ který se skládá z :
 
 
 
-Tip: Pomocí nástroje [OP_RETURN Generator] (https://resources.davidcoen.it/opreturnelectrum/) můžete skript generate vytvořit automaticky. I když tento nástroj navrhuje zadat částku v BTC, ponechte jednotku nakonfigurovanou v Electrum.
+Tip: Pomocí nástroje [OP_RETURN Generator](https://resources.davidcoen.it/opreturnelectrum/) můžete skript generate vytvořit automaticky. I když tento nástroj navrhuje zadat částku v BTC, ponechte jednotku nakonfigurovanou v Electrum.
 
 
 

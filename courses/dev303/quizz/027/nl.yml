@@ -1,0 +1,8 @@
+question: Wat kun je doen met de struct update syntaxis bij het maken van nieuwe structuurinstanties in Rust?
+answer: Creëer een nieuwe instantie door alleen gewijzigde velden te specificeren en de resterende velden van een bestaande instantie te kopiëren
+wrong_answers:
+  - Bestaande structuurvelden wijzigen zonder een nieuwe instantie aan te maken
+  - Automatisch generate standaardwaarden voor niet-gespecificeerde velden met de eigenschap Standaard
+  - Meerdere structuurinstanties samenvoegen tot één gecombineerde instantie
+explanation: |
+  Met de struct update syntaxis in Rust kun je een nieuwe structuurinstantie maken door alleen de velden te specificeren die je wilt veranderen, terwijl alle andere velden automatisch worden gekopieerd van een bestaande instantie. Dit wordt gedaan met de `..existing_instance` syntaxis. De andere opties zijn onjuist: struct update syntax creëert altijd een nieuwe instantie in plaats van bestaande instanties te wijzigen, het gebruikt geen generate standaardwaarden maar kopieert van bestaande instanties, en het werkt met één broninstantie in plaats van meerdere instanties samen te voegen.

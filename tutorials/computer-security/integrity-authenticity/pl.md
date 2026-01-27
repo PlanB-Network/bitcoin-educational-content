@@ -70,7 +70,7 @@ Aby rozpocząć, będziemy potrzebować różnych dokumentów. Odwiedź oficjaln
 ![GnuPG](assets/notext/02.webp)
 
 
-Możesz również przejść [do repozytorium GitHub projektu] (https://github.com/sparrowwallet/sparrow/releases).
+Możesz również przejść [do repozytorium GitHub projektu](https://github.com/sparrowwallet/sparrow/releases).
 
 
 ![GnuPG](assets/notext/03.webp)

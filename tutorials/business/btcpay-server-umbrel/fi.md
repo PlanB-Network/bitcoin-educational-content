@@ -1,5 +1,5 @@
 ---
-name: BTCPay-palvelin - Umbrel
+name: BTCPay Server - Umbrel
 description: BTCPay-palvelimen asentaminen ja käyttäminen Umbrelissa Bitcoin:n ja Lightningin hyväksymiseksi
 ---
 

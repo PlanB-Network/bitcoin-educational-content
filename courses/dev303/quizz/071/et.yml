@@ -1,0 +1,8 @@
+question: Milline on kõige sobivam vastus, kui Bitcoin rakendus tuvastab vigase sisestusviga, näiteks negatiivse väärtuse saamine väljale, mis nõuab ainult positiivseid täisarvusid?
+answer: Lükkab sisendi tagasi ja tagastab kutsujale veateate
+wrong_answers:
+  - Muuta negatiivne väärtus absoluutväärtuseks ja jätka töötlemist
+  - Logige viga, kuid jätkake operatsiooni vaikeväärtuse abil
+  - Lõpetage kogu rakendus kohe, et vältida andmete kahjustamist
+explanation: |
+  Vale sisendviga kujutab endast kutsuja ja funktsiooni vahelise lepingu rikkumist, kui esitatud parameetrid ei vasta funktsiooni nõuetele. Õige lähenemine on lükata sisend tagasi ja tagastada veateade, mis võimaldab kutsujal olukorda asjakohaselt käsitleda. Negatiivsete väärtuste teisendamine positiivseteks varjab vea vaikselt ja võib viia soovimatu käitumiseni. Vaikeväärtuste kasutamine ignoreerib kutsuja kavatsust ja võib töödelda ebaõigeid andmeid. Kogu rakenduse lõpetamine on sisendi valideerimisvigade puhul liigne ja tekitaks Bitcoin rakendustes, kus oluline on vigade sujuv käsitlemine, halva kasutajakogemuse.

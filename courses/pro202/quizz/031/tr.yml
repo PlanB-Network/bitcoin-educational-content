@@ -1,0 +1,8 @@
+question: Eski ECDSA imza doğrulaması için sighash oluşturma işlemi sırasında tüm girdilerin ScriptSig alanlarına ne olur?
+answer: Tüm ScriptSig alanları boşaltılır, ardından geçerli girdinin ScriptSig'i karşılık gelen ScriptPubKey ile değiştirilir
+wrong_answers:
+  - Tüm ScriptSig alanları değişmeden kalır ve sighash hesaplamasına orijinal halleriyle dahil edilir
+  - "Yalnızca geçerli girdinin ScriptSig'i tutulurken diğer tüm girdilerin ScriptSig alanları işlemden kaldırılır"
+  - Tüm ScriptSig alanları, başvurulan çıktılardan karşılık gelen ScriptPubKey değerleriyle değiştirilir
+explanation: |
+  Eski işlemler için sighash oluşturma sırasında, işlem özellikle önce tüm ScriptSig alanlarını boşaltır, ardından yalnızca doğrulanan mevcut girdiyi harcadığı çıktıdan karşılık gelen ScriptPubKey ile değiştirir. Bu, imzaların kendilerini imzalamaları gereken döngüsel bağımlılıklar yaratmadan imzanın harcama koşullarını taahhüt etmesini sağlar. Diğer seçenekler yanlıştır çünkü ya imzaları yerinde bırakırlar (mantıksal imkansızlıklar yaratırlar) ya da tüm girdileri aynı şekilde değiştirirler (bu da mevcut girdinin doğrulama bağlamını düzgün bir şekilde izole etmez).

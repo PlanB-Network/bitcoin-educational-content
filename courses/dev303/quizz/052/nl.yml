@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste verschil tussen hoe leenovertredingen worden afgehandeld met gewone Rust referenties versus RefCell?
+answer: Regular references veroorzaken compileerfouten terwijl RefCell runtime paniek veroorzaakt
+wrong_answers:
+  - Regular references veroorzaken runtime paniek terwijl RefCell compileerfouten veroorzaakt
+  - Reguliere referenties staan meerdere mutable borrows toe, terwijl RefCell enkele mutable toegang afdwingt
+  - Voor reguliere verwijzingen zijn expliciete levenslange annotaties nodig, terwijl RefCell automatische opschoning gebruikt
+explanation: |
+  RefCell verplaatst de handhaving van Rust's leenregels van compilatietijd naar runtime. Terwijl de compiler statisch reguliere referenties analyseert en leenschendingen voorkomt voordat het programma wordt uitgevoerd, voert RefCell dezelfde veiligheidscontroles uit tijdens de uitvoering van het programma. Hierdoor kan RefCell de conservatieve beperkingen van de compiler omzeilen in gevallen waarin de programmeur weet dat de code veilig is, maar schendingen resulteren in runtime paniek in plaats van compilatiefouten.

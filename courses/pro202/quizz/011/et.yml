@@ -1,0 +1,8 @@
+question: Milline on peamine eelis, mis on pakitud SEC-vormingu kasutamisel Bitcoin avalike võtmete puhul võrreldes pakkimata SEC-vorminguga?
+answer: See vähendab salvestusruumi suurust 65 baidilt 33 baidile, säilitades samas krüptograafilise turvalisuse
+wrong_answers:
+  - See pakub tugevamat krüptograafilist turvalisust, kasutades täiendavaid krüpteerimiskihti
+  - See võimaldab allkirjade kontrollimise protsesside ajal kiiremaid punktkordistamisoperatsioone
+  - See võimaldab mitut avalikku võtit tuletada ühest kokkusurutud formaadist
+explanation: |
+  Kokkupakitud SEC-vorming vähendab avaliku võtme suurust 65 baidilt (pakkimata) 33 baidile, salvestades mõlema täieliku koordinaadi asemel ainult x-koordinaadi ja pariteedibiti (0x02 või 0x03 prefix). Y-koordinaadi saab matemaatiliselt rekonstrueerida x-koordinaadi ja pariteedi teabe põhjal, kuna elliptilistel kõveratel on iga x-i puhul maksimaalselt kaks y-väärtust. Selline pakkimine võimaldab märkimisväärset salvestusruumi kokkuhoidu ilma turvalisuse kaotamiseta, mistõttu Bitcoin eelistab nüüd tõhususe huvides pakendatud võtmeid.

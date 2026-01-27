@@ -11,7 +11,7 @@ objectives:
 
 Vad krävs för att bygga på Bitcoin? Denna 20-timmars kurs tar dig under ytan av Bitcoin och Lightning Network och utforskar de protokoll som driver världens mest motståndskraftiga finansiella infrastruktur. Oavsett om du vill bidra till open source-projekt eller bygga nästa generation av Bitcoin-applikationer, kommer du att få det tekniska djup som behövs för att börja arbeta med självförtroende i detta ekosystem.
 
-Inspelad under CUBO+ 2023 bootcamp i El Salvador samlar denna kurs perspektiv från ledande Bitcoin-utvecklare och utbildare som har format teknologin. Det bästa? Den är helt gratis, möjliggjord av Fulgure Venture, Bitcoin Office och DecouvreBitcoin. Om du har varit nyfiken på hur Bitcoin verkligen fungerar på protokollnivå är detta din chans att ta reda på det.
+Inspelad under CUBO+ 2023 bootcamp i El Salvador samlar denna kurs perspektiv från ledande Bitcoin-utvecklare och utbildare som har format teknologin. Det bästa? Den är helt gratis, möjliggjord av Fulgure Ventures, Bitcoin Office och DecouvreBitcoin. Om du har varit nyfiken på hur Bitcoin verkligen fungerar på protokollnivå är detta din chans att ta reda på det.
 +++
 # Introduktion och förberedande kurser
 
@@ -59,7 +59,7 @@ Under hela kursen kommer deltagarna att använda viktiga verktyg som hjälper de
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-Välkommen till den första föreläsningen i utbildningsprogrammet **Cubo Plus**. Idag dyker vi in i Bitcoin:s värld, under ledning av Ricky, grundaren av **Bitcoin Italia Podcast**. Ricky är en passionerad människorättsaktivist som använder Bitcoin som ett verktyg för att skydda och främja mänskliga rättigheter. Med över sex års erfarenhet har Ricky rest mycket och dokumenterat antagandet av Bitcoin på tillväxtmarknader som El Salvador och Guatemala. Hans arbete går utöver podcasting; han är också aktiv på YouTube (**Bitcoin Explorers**) och Twitter (**BTC Explorer**, **Ricky6**). Rickys Commitment till Bitcoin härrör från hans övertygelse om att det erbjuder ekonomisk frihet och integritet, vilket utmanar traditionella, centraliserade banksystem.
+Välkommen till den första föreläsningen i utbildningsprogrammet **Cubo Plus**. Idag dyker vi in i Bitcoin:s värld, under ledning av Rikki, grundaren av **Bitcoin Italia Podcast**. Rikki är en passionerad människorättsaktivist som använder Bitcoin som ett verktyg för att skydda och främja mänskliga rättigheter. Med över sex års erfarenhet har Rikki rest mycket och dokumenterat antagandet av Bitcoin på tillväxtmarknader som El Salvador och Guatemala. Hans arbete går utöver podcasting; han är också aktiv på YouTube (**Bitcoin Explorers**) och Twitter (**BTC Explorer**, **Rikki6**). Rikkis Commitment till Bitcoin härrör från hans övertygelse om att det erbjuder ekonomisk frihet och integritet, vilket utmanar traditionella, centraliserade banksystem.
 
 
 ![Unbanked Population](assets/en/001.webp)
@@ -81,10 +81,10 @@ Denna föreläsning, **"Why El Salvador Needs Bitcoin", ** ger en översikt öve
 - _Finansiell inkludering:_ Att ge tillgång till finansiella tjänster för människor som har uteslutits från traditionella banksystem, ofta kallade "obankade"
 - _Ocensurerade pengar:_ Pengar som inte kan kontrolleras eller begränsas av regeringar eller finansiella institutioner.
 
-#### Rickys bakgrund och Bitcoin-engagemang
+#### Rikkis bakgrund och Bitcoin-engagemang
 
 
-Rickys resa in i Bitcoin är rotad i hans arbete som förespråkare för mänskliga rättigheter. Han tror att Bitcoin kan ge individer kontroll över sin ekonomi, så att de kan skydda sin integritet och undvika begränsningarna hos centraliserade banker. Hans utforskning av Bitcoin:s införande på platser som El Salvador visar hur denna teknik kan ge människor på tillväxtmarknader möjlighet att bli ekonomiskt oberoende.
+Rikkis resa in i Bitcoin är rotad i hans arbete som förespråkare för mänskliga rättigheter. Han tror att Bitcoin kan ge individer kontroll över sin ekonomi, så att de kan skydda sin integritet och undvika begränsningarna hos centraliserade banker. Hans utforskning av Bitcoin:s införande på platser som El Salvador visar hur denna teknik kan ge människor på tillväxtmarknader möjlighet att bli ekonomiskt oberoende.
 
 
 ### Den globala betydelsen av och utmaningarna med Bitcoin
@@ -1470,7 +1470,7 @@ Mining komplexitet i samband med Bitcoin omfattar främst de tekniska och strate
 
 5. **Nätverkssvårighet**: Nätverkssvårigheten representerar den mängd Hashrate som i genomsnitt behövs för att bryta ett block på 10 minuter.
 
-6. **Strategiska verktyg**: Verktyg som [braiins.com] (https://insights.braiins.com) är ovärderliga för att beräkna lönsamhet och hjälpa gruvarbetare att fatta datadrivna beslut.
+6. **Strategiska verktyg**: Verktyg som [braiins.com](https://insights.braiins.com) är ovärderliga för att beräkna lönsamhet och hjälpa gruvarbetare att fatta datadrivna beslut.
 
 
 #### Praktisk tillämpning
@@ -2084,7 +2084,7 @@ Användningen av kompakta block används för närvarande för att effektivisera
 #### Användning av befintliga bibliotek
 
 
-För konsensuskritiska applikationer rekommenderas att man använder befintliga bibliotek för att undvika buggar och garantera säkerheten, t.ex. [Rust-Bitcoin] (https://docs.rs/Bitcoin/latest/Bitcoin/) eller [Bitcoin-dev-kit] (https://docs.rs/BDK/latest/BDK/). Att implementera sin egen parser kan vara lärorikt men också riskabelt i produktionsmiljöer.
+För konsensuskritiska applikationer rekommenderas att man använder befintliga bibliotek för att undvika buggar och garantera säkerheten, t.ex. [Rust-Bitcoin](https://docs.rs/Bitcoin/latest/Bitcoin/) eller [Bitcoin-dev-kit](https://docs.rs/BDK/latest/BDK/). Att implementera sin egen parser kan vara lärorikt men också riskabelt i produktionsmiljöer.
 
 
 ![libraries](assets/en/035.webp)
@@ -2211,7 +2211,7 @@ make install # optional
 
 
 
-- Kör tester för att säkerställa att allt fungerar korrekt. Instruktioner finns [här] (https://github.com/Bitcoin/Bitcoin/blob/master/test/README.md)
+- Kör tester för att säkerställa att allt fungerar korrekt. Instruktioner finns [här](https://github.com/Bitcoin/Bitcoin/blob/master/test/README.md)
 
 
 ```Bash

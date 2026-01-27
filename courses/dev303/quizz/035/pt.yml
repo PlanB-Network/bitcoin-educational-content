@@ -1,0 +1,8 @@
+question: O que é que o método unwrap faz quando é chamado num tipo Result no Rust?
+answer: Extrai o valor de sucesso, mas entra em pânico se ocorrer um erro
+wrong_answers:
+  - Devolve None se ocorrer um erro e Some se for bem sucedido
+  - Converte o erro numa mensagem de aviso e continua a execução
+  - Propaga automaticamente o erro para a função de chamada
+explanation: |
+  O método unwrap extrai o valor de sucesso de um Result, mas faz com que o programa entre em pânico se ocorrer um erro. Isso o torna útil para prototipagem rápida ou situações em que se tem certeza de que uma operação será bem sucedida. As outras opções descrevem comportamentos diferentes: retornar None/Some descreve tipos de Option, converter erros em warnings não é um padrão do Rust, e propagação automática de erros é o que o operador de ponto de interrogação (?) faz, não o unwrap.

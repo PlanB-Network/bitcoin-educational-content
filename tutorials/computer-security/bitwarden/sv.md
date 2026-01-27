@@ -55,7 +55,7 @@ En annan funktion i Bitwarden är möjligheten att själv vara värd för din l�
 ## Hur skapar jag ett Bitwarden-konto?
 
 
-Gå till [Bitwardens webbplats] (https://bitwarden.com/) och klicka på "*Get Started*".
+Gå till [Bitwardens webbplats](https://bitwarden.com/) och klicka på "*Get Started*".
 
 ![BITWARDEN](assets/notext/03.webp)
 
@@ -256,7 +256,7 @@ Först kan du ställa in webbläsartillägget om du vill. Det här tillägget fu
 Den dagliga användningen av detta tillägg är extremt bekvämt, men det kan också öppna nya attackvektorer. Vissa cybersäkerhetsexperter avråder därför från att använda webbläsartillägg för lösenordshanterare. Men om du väljer att använda Bitwarden-tillägget, här är hur du ska gå vidare:
 
 
-Börja med att gå till [den officiella nedladdningssidan för Bitwarden] (https://bitwarden.com/download/#downloads-web-browser).
+Börja med att gå till [den officiella nedladdningssidan för Bitwarden](https://bitwarden.com/download/#downloads-web-browser).
 
 
 ![BITWARDEN](assets/notext/44.webp)
@@ -332,7 +332,7 @@ Sedan fyller tillägget automatiskt i våra inloggningsuppgifter i lämpliga fä
 ## Hur använder man Bitwardens programvara?
 
 
-För att installera skrivbordsprogrammet Bitwarden börjar du med att gå till [nedladdningssidan] (https://bitwarden.com/download/#downloads-desktop). Välj och ladda ner den version som motsvarar ditt operativsystem.
+För att installera skrivbordsprogrammet Bitwarden börjar du med att gå till [nedladdningssidan](https://bitwarden.com/download/#downloads-desktop). Välj och ladda ner den version som motsvarar ditt operativsystem.
 
 ![BITWARDEN](assets/notext/58.webp)
 
@@ -347,7 +347,7 @@ Därefter kommer du till din chefs hemsida. Interface är nästan densamma som i
 ## Hur använder man Bitwarden-applikationen?
 
 
-För att komma åt dina lösenord från din telefon kan du installera mobilapplikationen Bitwarden. Börja med att gå till [nedladdningssidan] (https://bitwarden.com/download/#downloads-mobile) och använd din smartphone för att skanna QR-koden som motsvarar ditt operativsystem.
+För att komma åt dina lösenord från din telefon kan du installera mobilapplikationen Bitwarden. Börja med att gå till [nedladdningssidan](https://bitwarden.com/download/#downloads-mobile) och använd din smartphone för att skanna QR-koden som motsvarar ditt operativsystem.
 
 ![BITWARDEN](assets/notext/61.webp)
 

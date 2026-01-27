@@ -11,7 +11,7 @@ Já o fez:
 
 
 - Escolha o tema do seu tutorial;
-- Contactou a equipa do Plano ₿ Network através do [grupo Telegram] (https://t.me/PlanBNetwork_ContentBuilder) ou paolo@planb.network;
+- Contactou a equipa do Plano ₿ Network através do [grupo Telegram](https://t.me/PlanBNetwork_ContentBuilder) ou paolo@planb.network;
 - Escolha as suas ferramentas de contribuição.
 
 Neste tutorial, veremos como adicionar seu tutorial no Plan ₿ Academy configurando seu ambiente local com GitHub Desktop. Se você já domina o Git, este tutorial muito detalhado pode não ser necessário para você. Prefiro recomendar a consulta deste outro tutorial onde apenas apresento as principais diretrizes, sem orientações detalhadas passo a passo:
@@ -41,7 +41,7 @@ Pré-requisitos antes de iniciar o tutorial:
 
 
 - Ter uma [conta GitHub](https://github.com/signup);
-- Ter uma bifurcação do repositório de fontes do [Plano ₿ Rede] (https://github.com/PlanB-Network/bitcoin-educational-content);
+- Ter uma bifurcação do repositório de fontes do [Plano ₿ Rede](https://github.com/PlanB-Network/bitcoin-educational-content);
 - Ter [um perfil de professor no Plano ₿ Rede](https://planb.academy/professors) (apenas se estiver a propor um tutorial completo).
 
 Se precisar de ajuda para obter estes pré-requisitos, os meus outros tutoriais ajudá-lo-ão:
@@ -161,13 +161,13 @@ Escolha um nome para o diretório criado especificamente para o seu tutorial. O 
 
 ![DATA-CREATOR-PY](assets/fr/45.webp)
 
-O `project_id` é o UUID da empresa ou organização por detrás da ferramenta abordada no tutorial, disponível [na lista de projectos] (https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Por exemplo, para um tutorial sobre a Sparrow Wallet, pode encontrar o seu `project_id` no ficheiro: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Esta informação é adicionada ao arquivo YAML do seu tutorial porque o Plan ₿ Academy mantém um banco de dados de empresas e organizações ativas em Bitcoin ou projetos relacionados. Ao adicionar o `project_id` associado, você vincula seu conteúdo à entidade relevante.
+O `project_id` é o UUID da empresa ou organização por detrás da ferramenta abordada no tutorial, disponível [na lista de projectos](https://github.com/PlanB-Network/bitcoin-educational-content/tree/dev/resources/projects). Por exemplo, para um tutorial sobre a Sparrow Wallet, pode encontrar o seu `project_id` no ficheiro: `bitcoin-educational-content/resources/projects/sparrow/project.yml`. Esta informação é adicionada ao arquivo YAML do seu tutorial porque o Plan ₿ Academy mantém um banco de dados de empresas e organizações ativas em Bitcoin ou projetos relacionados. Ao adicionar o `project_id` associado, você vincula seu conteúdo à entidade relevante.
 
 ***Atualização:*** Na nova versão do script, já não é necessário introduzir manualmente o `project_id`. Foi adicionada uma função de pesquisa para encontrar o projeto pelo nome e obter automaticamente o `project_id` correspondente. Escreva o início do nome do projeto no campo "Nome do projeto" para o procurar e, em seguida, selecione a empresa pretendida no menu pendente. O `project_id` será automaticamente preenchido no campo abaixo. Também pode introduzi-lo manualmente, se necessário.
 
 ![DATA-CREATOR-PY](assets/fr/46.webp)
 
-Para as etiquetas, selecione 2 ou 3 palavras-chave relevantes relacionadas com o conteúdo do seu tutorial, escolhendo exclusivamente da [lista de etiquetas Plano ₿ Rede] (https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). O software também fornece uma função de pesquisa de palavras-chave com uma lista pendente.
+Para as etiquetas, selecione 2 ou 3 palavras-chave relevantes relacionadas com o conteúdo do seu tutorial, escolhendo exclusivamente da [lista de etiquetas Plano ₿ Rede](https://github.com/PlanB-Network/bitcoin-educational-content/blob/dev/docs/50-planb-tags.md). O software também fornece uma função de pesquisa de palavras-chave com uma lista pendente.
 
 ![DATA-CREATOR-PY](assets/fr/47.webp)
 
@@ -366,7 +366,7 @@ A subpasta de idiomas na pasta `assets` é utilizada para armazenar diagramas e 
 
 Para nomear suas imagens, basta usar números correspondentes à ordem de aparecimento no tutorial, formatados com dois dígitos (ou três dígitos se o tutorial contiver mais de 99 imagens). Por exemplo, nomeie a primeira imagem como `01.webp`, a segunda como `02.webp`, e assim por diante.
 
-As suas imagens devem estar exclusivamente no formato `.webp`. Se necessário, pode utilizar o [meu software de conversão de imagens] (https://github.com/LoicPandul/ImagesConverter).
+As suas imagens devem estar exclusivamente no formato `.webp`. Se necessário, pode utilizar o [meu software de conversão de imagens](https://github.com/LoicPandul/ImagesConverter).
 
 ![TUTO](assets/fr/26.webp)
 
@@ -389,7 +389,7 @@ Se pretender criar os seus próprios diagramas, certifique-se de que segue a car
 
 **É imperativo que todos os elementos visuais integrados nos seus tutoriais estejam isentos de direitos ou respeitem a licença do ficheiro de origem**. Além disso, todos os diagramas publicados na Plan ₿ Academy são disponibilizados ao abrigo da licença CC-BY-SA, da mesma forma que o texto.
 
-**-> Dica:** Ao partilhar ficheiros publicamente, como imagens, é importante remover quaisquer metadados desnecessários. Estes podem conter informações sensíveis, como dados de localização, datas de criação ou detalhes sobre o autor. Para proteger a sua privacidade, é aconselhável eliminar estes metadados. Para simplificar este processo, pode utilizar ferramentas especializadas como o [Exif Cleaner] (https://exifcleaner.com/), que permite a limpeza dos metadados de um documento através de um simples arrastar e largar.
+**-> Dica:** Ao partilhar ficheiros publicamente, como imagens, é importante remover quaisquer metadados desnecessários. Estes podem conter informações sensíveis, como dados de localização, datas de criação ou detalhes sobre o autor. Para proteger a sua privacidade, é aconselhável eliminar estes metadados. Para simplificar este processo, pode utilizar ferramentas especializadas como o [Exif Cleaner](https://exifcleaner.com/), que permite a limpeza dos metadados de um documento através de um simples arrastar e largar.
 
 ## 7 - Guardar e enviar o tutorial
 
@@ -445,5 +445,5 @@ Se pretender alterar a sua contribuição depois de já ter apresentado o seu RP
 - Se o seu PR ainda estiver aberto e ainda não tiver sido mesclado, faça as alterações localmente enquanto permanece no mesmo ramo. Quando as modificações estiverem finalizadas, use o botão `Push origin` para adicionar um novo commit ao seu PR ainda aberto;
 - Se o seu PR já tiver sido mesclado com o ramo principal, será necessário iniciar o processo novamente criando um novo ramo e, em seguida, enviando um novo PR. Certifique-se de que o seu repositório local está sincronizado com o repositório de origem Plan ₿ Academy antes de continuar.
 
-Se tiveres dificuldades técnicas para enviar o teu tutorial, não hesites em pedir ajuda no [nosso grupo de Telegrama dedicado às contribuições] (https://t.me/PlanBNetwork_ContentBuilder). Obrigado!
+Se tiveres dificuldades técnicas para enviar o teu tutorial, não hesites em pedir ajuda no [nosso grupo de Telegrama dedicado às contribuições](https://t.me/PlanBNetwork_ContentBuilder). Obrigado!
 

@@ -360,7 +360,7 @@ Volgens Jameson Lopp:
 
 
 
-- Vergelijkingstabel [volledig] (https://jlopp.github.io/metal-Bitcoin-storage-reviews/?ref=blog.lopp.net)
+- Vergelijkingstabel [volledig](https://jlopp.github.io/metal-Bitcoin-storage-reviews/?ref=blog.lopp.net)
 
 
 
@@ -391,7 +391,7 @@ Volgens Jameson Lopp:
 - **Tapapparaat** (geleider)
  - [TerraSteel](https://pleb.style/fr-fr/products/zubehor-einschlag-vorrichtung?_pos=1&_sid=2767fd66f&_ss=r)
 - Afdichtapparaat
- - [Verzegeld zakje] (https://pleb.style/fr/products/zubehor-5x-sicherheitstasche-tamper-evident)
+ - [Verzegeld zakje](https://pleb.style/fr/products/zubehor-5x-sicherheitstasche-tamper-evident)
  - [Afdichtstrips](https://pleb.style/fr/products/zubehor-5x-siegel-streifen-fur-dein-seed-backup)
 - **Complete** kit
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-diy-kit-premium-seed-backup-steelwallet-plebstyle?pr_prod_strat=e5_desc&pr_rec_id=aa9f36359&pr_rec_pid=8728733155664&pr_ref_pid=8730877788496&pr_seq=uniform)

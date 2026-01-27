@@ -1,0 +1,8 @@
+question: Jak se nazývá reprezentace Bitcoin používaná v rámci Liquid Network?
+answer: Liquid Bitcoin (LBTC)
+wrong_answers:
+  - Wrapped Bitcoin (WBTC)
+  - Sidechain Bitcoin (SBTC)
+  - Federativní Bitcoin (FBTC)
+explanation: |
+  Liquid Bitcoin (LBTC) je správný název pro Bitcoin, pokud se vyskytuje v postranním řetězci Liquid. Když uživatelé přičlení svůj Bitcoin ke Liquid, obdrží ekvivalentní množství LBTC, které lze použít pro transakce v rámci Liquid Network. WBTC je Bitcoin založený na Ethereu token, zatímco SBTC a FBTC nejsou skutečnými reprezentacemi Bitcoin používanými v žádné významné síti.

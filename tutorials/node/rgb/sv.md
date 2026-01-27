@@ -111,16 +111,16 @@ RGB har sitt eget kaninhål inom Bitcoin-kaninhålet, medan jag faller ner genom
 - 5 https://github.com/LNP-BP/LNPBPs/blob/master/lnpbp-0021.md
 
 
-# RGB-nod handledning
+## RGB-nod handledning
 
 
-## Inledning
+### Inledning
 
 
 I denna handledning förklarar vi hur man använder RGB-nod för att skapa en fungibel token och hur man överför den, detta dokument är baserat på RGB-node demo och skiljer sig åt genom att denna handledning använder riktiga Testnet-data och för det måste vi bygga våra egna Partially Signed Bitcoin Transaction, PSBT från och med nu.
 
 
-## Krav och önskemål
+### Krav och önskemål
 
 
 Användningen av en Linux-distribution rekommenderas, denna handledning skrevs med Pop!OS, som är baserat på Ubuntu och du behöver:
@@ -298,7 +298,7 @@ $ rgbd -vvvv -b ~/.cargo/bin -d ./data1 -n testnet
 ```
 
 
-## Utfärdande
+### Utfärdande
 
 
 För att emittera en tillgång kör vi rgb0-CLI med underkommandona för fungibel emission, sedan argumenten, tickern USDT, namnet "USD Tether" och i tilldelningen kommer vi att använda det emitterande beloppet och issuance_utxo som vi ser nedan:
@@ -356,7 +356,7 @@ ticker: USDT
 ```
 
 
-## generate blinded UTXO
+### generate blinded UTXO
 
 
 För att ta emot den nya USDT behöver RGB-nod-1 generate en blinded UTXO som motsvarar receive_utxo för att hålla tillgången.
@@ -373,7 +373,7 @@ Outpoint blinding secret: 1679197189805229975
 För att kunna acceptera överföringar relaterade till denna UTXO behöver vi den ursprungliga receive_utxo och blinding_factor.
 
 
-## Överföring
+### Överföring
 
 
 För att överföra en del av tillgången till RGB-nod-1 måste vi skicka den till blinded UTXO, RGB-nod-0 måste skapa en Consignment och ett offentliggörande, och överföra det till en Bitcoin-transaktion. Sedan behöver vi en PSBT som vi modifierar för att inkludera commiten. Dessutom tillåter alternativen -i och -a oss att tillhandahålla en input outpoint som skulle vara tillgångens ursprung och en allokering där vi kommer att ta emot förändringen, vi måste ange det på följande sätt @<change_utxo>.
@@ -390,7 +390,7 @@ Consignment data to share:consignment1qxz4g7ec6da33llaxe97u9hx8p9wcgp2yv46ycudwy
 Detta kommer att skriva tre nya filer, Consignment, avslöjande och PSBT inklusive tweak, denna PSBT kallas Witness Transaction, Consignment skickas till RGB-nod-1.
 
 
-## Vittne
+### Vittne
 
 
 Witness Transaction ska signeras och sändas ut, för detta behöver vi base64-koda den tillbaka.
@@ -427,7 +427,7 @@ $ bcli finalizepsbt "cHNidP8BAHECAAAAAe2pydT0BqfK5nBCdBSbm3W/vNKE/QxTr4eJcjwjDLD
 ```
 
 
-## Sändning
+### Sändning
 
 
 Sänd den med hjälp av underkommandot sendrawtransaction för att få den bekräftad i Blockchain.
@@ -439,7 +439,7 @@ $ bcli sendrawtransaction "02000000000101eda9c9d4f406a7cae6704274149b9b75bfbcd28
 ```
 
 
-## Acceptera
+### Acceptera
 
 
 För att acceptera en inkommande överföring ska RGB-nod-1 ha tagit emot Consignment-filen från RGB-nod-0, ha receive_utxo och motsvarande blinding_factor genererad under blinding UTXO-generering.
@@ -570,7 +570,7 @@ blinding: ddba9e0efdd614614420fa0b68ecd2d3376a05dd3d809b2ad1f5fe0f6ed75ea2
 ```
 
 
-## Slutsatser
+### Slutsatser
 
 
 Vi har kunnat skapa en fungibel tillgång och flytta den från en transaktion till en annan på ett privat sätt, om vi kontrollerar den bekräftade transaktionen i en Block explorer skulle vi inte hitta något som skiljer sig från vanlig transaktion, detta är tack vare det faktum att RGB använder engångsförseglingar för att justera transaktionerna, I det här inlägget gör jag en introduktion till hur RGB fungerar.

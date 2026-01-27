@@ -1,0 +1,8 @@
+question: Minkä matemaattisen ongelman avulla ECDSA-allekirjoitukset voidaan turvata Bitcoin:ssa?
+answer: Elliptisen käyrän diskreetin logaritmin ongelma
+wrong_answers:
+  - Kokonaislukujen kertolaskuongelma
+  - Kvadraattinen jäännösongelma
+  - Hash-törmäysongelma
+explanation: |
+  ECDSA:n turvallisuus perustuu elliptisen käyrän diskreetin logaritmin ongelmaan: kun P = eG, P:n laskeminen e:stä ja G:stä on helppoa, mutta yksityisen avaimen e johtaminen julkisesta avaimesta P on laskennallisesti mahdotonta. Tämä yksisuuntainen matemaattinen suhde mahdollistaa turvallisen julkisen avaimen salauksen pienemmillä avainkokoluokilla kuin RSA, joka perustuu kokonaislukujen kertolaskuun.

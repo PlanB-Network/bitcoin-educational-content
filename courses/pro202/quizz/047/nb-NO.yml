@@ -1,0 +1,8 @@
+question: Hva er den matematiske formelen som brukes til å beregne blokktilskuddet ved en gitt blokkhøyde h i Bitcoins protokoll?
+answer: subsidy = 5_000_000_000 >> (h // 210_000)
+wrong_answers:
+  - tilskudd = 50_000_000_000 / (2^(h / 210_000))
+  - tilskudd = 5_000_000_000 * (0,5^(h % 210_000))
+  - tilskudd = 50_000_000_000 >> (h % 210_000)
+explanation: |
+  Den riktige formelen bruker bit-shifting-operasjoner der 5_000_000_000 representerer 50 BTC i satoshier, og høyre-shift-operatoren >> dividerer effektivt med potenser av 2. Gulvdivisjonen h // 210_000 bestemmer hvor mange halveringsperioder som har funnet sted. Det første feilsvaret bruker vanlig divisjon i stedet for bit-shifting og starter med feil basisverdi. Det andre bruker modulo i stedet for gulvdivisjon, noe som vil skape et syklisk mønster i stedet for progressiv halvering. Det tredje bruker modulooperasjon, noe som vil nullstille halveringstelleren hver 210 000. blokk i stedet for å akkumulere halveringer over tid.

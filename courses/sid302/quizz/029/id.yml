@@ -1,0 +1,8 @@
+question: Apa pertukaran mendasar yang harus diterima investor saat berpartisipasi dalam ekosistem aset AMP Blockstream dibandingkan dengan transaksi Liquid Network standar?
+answer: Visibilitas lengkap atas kepemilikan dan riwayat transaksi mereka kepada penerbit aset dengan tetap menjaga privasi dari pengguna lain
+wrong_answers:
+  - Biaya transaksi yang lebih tinggi karena overhead komputasi tambahan yang diperlukan untuk mekanisme otorisasi penandatanganan bersama
+  - Mengurangi kecepatan transaksi karena semua transfer harus divalidasi melalui server kepatuhan terpusat sebelum konfirmasi
+  - Kemampuan transfer aset yang terbatas karena token AMP hanya dapat dikirim ke dompet yang telah disetujui sebelumnya dalam yurisdiksi peraturan yang sama
+explanation: |
+  Jawaban yang benar mengidentifikasi pertukaran privasi inti AMP: meskipun Confidential Transactions menjaga privasi pengguna-ke-pengguna, aset AMP memungkinkan penerbit memiliki visibilitas unblinded yang lengkap untuk kepatuhan terhadap peraturan. Jawaban yang salah menjelaskan kendala operasional (biaya, kecepatan, kemampuan transfer) daripada kompromi transparansi mendasar yang membedakan AMP dari model Liquid yang sepenuhnya rahasia.

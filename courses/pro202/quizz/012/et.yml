@@ -1,0 +1,8 @@
+question: Milline matemaatiline omadus tagab, et elliptilise kõvera punkte saab krüptograafilistes operatsioonides järjepidevalt ja etteaimatavalt kokku liita?
+answer: Punktid moodustavad matemaatilise grupi, millel on sulgemine, assotsiatiivsus, identsus ja inversioonid
+wrong_answers:
+  - Punktid säilitavad pidevaid siledaid kõveraid, mis säilitavad geomeetrilised seosed
+  - Punktid järgivad lineaarseid progresseeruvaid mustreid, mis loovad prognoositavad järjestused
+  - Punktid kasutavad modulaararvutust, mis automaatselt väldib arvutusvigu
+explanation: |
+  Elliptilise kõvera punktid moodustavad matemaatilise grupi liitmisel, mis tähendab, et nad vastavad neljale olulisele omadusele: sulgemine (kahe punkti liitmine annab teise punkti kõveral), assotsiatiivsus (operatsioonide järjekord ei ole oluline), identsus (punkt lõpmatuses on null) ja inversioonid (igal punktil on peegeldus, mis tühistab selle). Need grupiomadused muudavad elliptiliste kõverate krüptograafia usaldusväärseks ja võimaldavad sellistel operatsioonidel nagu skalaarkordistamine käituda järjepidevalt, olenemata sellest, kas me töötame siledate reaalsete kõverate või diskreetsete lõpliku välja punktidega.

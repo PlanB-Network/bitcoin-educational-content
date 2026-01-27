@@ -1,0 +1,8 @@
+question: Quando un Bitcoin wallet scansiona i blocchi per i pagamenti in entrata, perché il download di interi blocchi è preferito alla richiesta di singole transazioni ai peer della rete?
+answer: Il download di interi blocchi offre una migliore protezione della privacy, non rivelando quali transazioni o indirizzi specifici il wallet è interessato a monitorare
+wrong_answers:
+  - Il download di interi blocchi è più efficiente dal punto di vista computazionale perché richiede un minor numero di operazioni di hash crittografico per verificare l'autenticità della transazione
+  - Il download di interi blocchi garantisce una sincronizzazione più rapida, poiché i peer possono inviare dati compressi dei blocchi anziché risposte a singole transazioni
+  - Il download di interi blocchi offre una maggiore sicurezza perché consente al wallet di verificare l'intero proof-of-work per ogni transazione
+explanation: |
+  La privacy è il vantaggio principale del recupero basato sui blocchi. Quando un wallet richiede transazioni specifiche, fa trapelare forti segnali sull'attività dell'utente e rivela quali indirizzi appartengono a quel wallet. Il download di interi blocchi maschera gli interessi reali tra tutte le transazioni in blocco. Il download di interi blocchi maschera i reali interessi del wallet tra tutte le transazioni dei blocchi. Le risposte sbagliate si concentrano sull'efficienza, la velocità o i vantaggi per la sicurezza che non sono la motivazione principale: le richieste di transazioni individuali potrebbero teoricamente essere altrettanto sicure o efficienti, ma compromettono fondamentalmente la privacy rivelando i modelli di monitoraggio del wallet ai peer della rete.

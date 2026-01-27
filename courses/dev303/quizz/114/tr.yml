@@ -1,0 +1,8 @@
+question: Lightning düğümlerini bulutta barındırmasına rağmen Greenlight altyapısının kullanıcı fonlarına erişememesini sağlayan birincil güvenlik mekanizması nedir?
+answer: Özel anahtarlar asla kullanıcı cihazlarından çıkmaz ve tüm işlemler aktif uygulama imzalama gerektirir
+wrong_answers:
+  - Birden fazla bulut sağlayıcısı arasında dağıtılmış anahtar parçalarına sahip çoklu imza cüzdanları
+  - Bulut işlemeden önce tüm işlemleri şifreleyen donanım güvenlik modülleri
+  - Yetkisiz erişim durumunda fonları otomatik olarak iade eden zaman kilitli akıllı sözleşmeler
+explanation: |
+  Breez SDK, özel anahtarların yalnızca kullanıcı cihazlarında kaldığı güvensiz bir mimari aracılığıyla güvenliği korur. Greenlight, Lightning node altyapısını barındırırken, işlemleri ve mesajları imzalayabilen aktif olarak bağlı bir uygulama olmadan herhangi bir işlem gerçekleştiremez. Bu tasarım, düğüm bulutta çalışsa bile Greenlight'ın hiçbir zaman kullanıcı anahtarlarına erişememesini ve yerel uygulamaları aracılığıyla açık kullanıcı yetkilendirmesi olmadan fonları taşıyamamasını sağlar. Diğer seçenekler bu mimaride kullanılmayan farklı güvenlik mekanizmalarını tanımlamaktadır.

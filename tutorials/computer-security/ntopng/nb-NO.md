@@ -98,7 +98,7 @@ Det er fullt mulig å montere en ruter under Linux og installere ntopng på den.
 
 
 
-Merk: for lesere av artikkelen [Lag en Wifi-ruter med Raspberry Pi og RaspAP] (https://www.it-connect.fr/creer-un-routeur-wifi-avec-un-raspberry-pi-et-raspap/) er det fullt mulig å installere ntopng på din Rpi for å få nøyaktig statistikk!
+Merk: for lesere av artikkelen [Lag en Wifi-ruter med Raspberry Pi og RaspAP](https://www.it-connect.fr/creer-un-routeur-wifi-avec-un-raspberry-pi-et-raspap/) er det fullt mulig å installere ntopng på din Rpi for å få nøyaktig statistikk!
 
 
 

@@ -1,0 +1,8 @@
+question: ¿Cuál es la principal propiedad criptográfica que permite a los filtros de bloque compactos (BIP158) proporcionar privacidad a los clientes ligeros manteniendo una precisión perfecta?
+answer: Pueden producir falsos positivos pero nunca falsos negativos al cotejar transacciones
+wrong_answers:
+  - Utilizan pruebas de conocimiento cero para ocultar qué direcciones se consultan desde los nodos
+  - "Cifran todos los datos de filtrado utilizando la clave pública del cliente para evitar escuchas"
+  - Aleatorizan el orden de los hash de las transacciones para ocultar los patrones de gasto a los observadores
+explanation: |
+  Los filtros de bloques compactos utilizan estructuras de datos probabilísticas que pueden indicar incorrectamente una coincidencia (falso positivo), pero nunca omitirán una coincidencia real (falso negativo). Esta propiedad asimétrica es crucial: los falsos positivos sólo provocan descargas de bloques innecesarias, mientras que los falsos negativos harían que los monederos perdieran pagos por completo. El beneficio para la privacidad procede de esta incertidumbre: los observadores no pueden distinguir entre coincidencias auténticas y falsos positivos, lo que impide saber qué transacciones pertenecen realmente al wallet consultado.

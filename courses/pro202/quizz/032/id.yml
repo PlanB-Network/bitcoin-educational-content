@@ -1,0 +1,8 @@
+question: Apa alasan utama mengapa transaksi multisig kosong sebagian besar digantikan oleh P2SH untuk kondisi pembelanjaan yang kompleks?
+answer: Bare multisig mengekspos semua kunci publik on-chain, membuat transaksi menjadi besar, mahal, dan sulit untuk dikodekan sebagai alamat
+wrong_answers:
+  - Bare multisig membutuhkan lebih banyak tanda tangan daripada P2SH untuk mencapai tingkat keamanan yang sama untuk transaksi multi-pihak
+  - Multisig telanjang tidak dapat menangani transaksi yang terkunci waktu atau persyaratan pengeluaran bersyarat seperti yang dapat dilakukan oleh P2SH
+  - Tanda tangan multisig telanjang tidak kompatibel dengan perangkat lunak wallet modern dan tidak dapat disiarkan ke node saat ini
+explanation: |
+  P2SH diperkenalkan secara khusus untuk mengatasi ketidakefisienan bare multisig. Bare multisig mengharuskan semua public key untuk terlihat dalam scriptPubKey, menciptakan ukuran transaksi yang besar yang membutuhkan biaya yang lebih besar dan sulit untuk direpresentasikan sebagai alamat yang mudah digunakan. P2SH memecahkan masalah ini dengan menyembunyikan skrip yang kompleks di balik hash 20-byte, hanya mengungkapkan kondisi pengeluaran yang sebenarnya ketika output dibelanjakan. Hal ini mengurangi jejak on-chain, meningkatkan privasi, dan memungkinkan format alamat standar dengan tetap mempertahankan jaminan keamanan yang sama.

@@ -25,4 +25,4 @@ In diesem Video-Tutorial lernen Sie:
 Am Ende dieses Videos sind Sie bestens gerüstet, um Krux als sichere, selbstgebaute Alternative für die Selbstverwahrung zu nutzen.
 
 
-**Hinweis:** Dieses Tutorial ist nur ein Entwurf auf Englisch, wir brauchen noch jemanden, der eine ausführliche Anleitung zu diesem Thema schreibt. Wenn Sie derjenige sind, kontaktieren Sie uns bitte auf [Telegram] (https://t.me/PlanBNetwork_ContentBuilder/325) oder auf [GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content)
+**Hinweis:** Dieses Tutorial ist nur ein Entwurf auf Englisch, wir brauchen noch jemanden, der eine ausführliche Anleitung zu diesem Thema schreibt. Wenn Sie derjenige sind, kontaktieren Sie uns bitte auf [Telegram](https://t.me/PlanBNetwork_ContentBuilder/325) oder auf [GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content)

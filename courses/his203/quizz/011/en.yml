@@ -1,0 +1,10 @@
+question: What caused Mt. Gox to be hacked on June 19?
+answer: Access to the password database, which was hashed with MD5, but not salted
+wrong_answers:
+  - Jed McCaleb leaked the password to access his personal account on the platform
+  - A lightning crash, which allowed the pirate to withdraw more bitcoins than he had
+  - XML injection in withdrawal requests to siphon off accounts
+explanation: |
+ This leak enabled the hacker to access accounts with weak passwords (short or easy to guess). In particular, he accessed Jed McCaleb's account in this way. He 
+ sold bitcoins to drive the price down, so as to withdraw a maxium of bitcoins (the daily withdrawal limit was $1,000).
+reviewed: true

@@ -1,0 +1,8 @@
+question: Liquid'ın yerel varlık sisteminde düzenlenmiş varlıkları düzenlenmemiş varlıklardan ayıran nedir?
+answer: Düzenlemeye tabi varlıklar taşınmadan önce bir yetkilendirme sunucusundan ikinci bir imza gerektirir ve KYC/AML uyumluluğunu sağlar
+wrong_answers:
+  - Düzenlenmiş varlıklar akıllı sözleşmeler kullanırken, düzenlenmemiş varlıklar ihraç için basit RPC çağrıları kullanır
+  - Düzenlenmiş varlıklar Bitcoin rezervleri tarafından desteklenirken, düzenlenmemiş varlıklar yalnızca yan zincirde bulunur
+  - Düzenlenmiş varlıkların oluşturulması için görevli onayı gerekirken, düzenlenmemiş varlıklar izinsiz olarak çıkarılabilir
+explanation: |
+  Liquid'ün mimarisinde, hem düzenlenmiş hem de düzenlenmemiş varlıklar, akıllı sözleşmeler olmadan basit RPC çağrıları kullanılarak izinsiz olarak çıkarılabilir. Temel fark hareketlerindedir: düzenlenmiş varlıklar, transferlerden önce ek bir yetkilendirme imzası gerektirerek uyumluluğu sağlamak için Blockstream'in Varlık Yönetim Platformunu (AMP) kullanırken, düzenlenmemiş varlıklar bu tür kısıtlamalar olmaksızın serbestçe hareket edebilir.

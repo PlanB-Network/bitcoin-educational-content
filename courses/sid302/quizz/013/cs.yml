@@ -1,0 +1,8 @@
+question: Co se stane, když se obě strany dohodnou na dokončení výměny mezi vrstvami?
+answer: Podepíší se společně pomocí svého agregovaného veřejného klíče prostřednictvím MuSig2, čímž vytvoří transakci nerozeznatelnou od standardní platby s jedním podpisem
+wrong_answers:
+  - Musí odhalit kompletní skript obsahující hash a časové zámky on-chain pro ověření sítě
+  - Zveřejňují pouze konkrétní potřebnou větev Merkleova stromu, přičemž agregovaný klíč zůstává pozorovatelům skrytý
+  - Vysílají samostatné transakce na každé vrstvě současně, aby zajistily atomické vypořádání bez agregace klíčů
+explanation: |
+  Kooperativní "cesta klíče" v Taproot umožňuje stranám spojit své klíče do jednoho agregovaného veřejného klíče pomocí MuSig2. Když se obě strany dohodnou, jednoduše společně podepíší transakci, která se v blockchainu jeví stejně jako jakákoli standardní platba. To zajišťuje maximální soukromí a efektivitu, protože není odhalena žádná logika skriptu, což spotřebovává minimální blokový prostor. Ostatní možnosti nesprávně popisují buď starší chování HTLC, nebo scénář cesty protivného skriptu.

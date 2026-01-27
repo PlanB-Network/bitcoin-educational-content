@@ -5,5 +5,5 @@ wrong_answers:
   - Adam Back
   - Pieter Wuille
 explanation: |
-  Die SPV wird in Teil 8 von Satoshi Nakamotos Weißbuch vorgestellt.
+  Die SPV (Simplified Paypment Verification) wird in Teil 8 von Satoshi Nakamotos Whitepaper vorgestellt.
 reviewed: true

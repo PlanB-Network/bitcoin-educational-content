@@ -1,5 +1,5 @@
 ---
-name: Umucungezi w'imbuto x Umusinyi w'imbuto
+name: Seedkeeper x SeedSigner
 description: Nokoresha gute Umucungezi w'Imbuto n'Umucungezi wanje w'Imbuto?
 ---
 
@@ -64,7 +64,7 @@ Kugira ngo ukoreshe SeedSigner yawe n’Umucungezi w’Imbuto, ukeneye gushiramw
 
 
 
-Niba utayifise, fungura porogarama ya [Balena Etcher] (https://etcher.balena.io/), hanyuma ugende gutya:
+Niba utayifise, fungura porogarama ya [Balena Etcher](https://etcher.balena.io/), hanyuma ugende gutya:
 
 
 

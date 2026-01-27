@@ -1,5 +1,5 @@
 ---
-name: LNbits-Server
+name: LNbits Server
 description: Installation und Konfiguration eines selbst gehosteten LNbits-Servers auf Ubuntu VPS mit Phoenixd oder auf Umbrel
 ---
 
@@ -652,5 +652,5 @@ Selbst-Hosting bedeutet Verantwortung: Seeds sichern, Zugang schützen, mit besc
 
 - [Erstkonfiguration eines Ubuntu-Servers](https://danielpcostas.dev/ubuntu-server-initial-configuration-a-step-by-step-guide/) von Daniel P. Costas (Schritt-für-Schritt-Anleitung zur VPS-Sicherheit)
 - [LNbits + Phoenixd-Installation auf Ubuntu VPS](https://danielpcostas.dev/install-lnbits-phoenixd-vps-ubuntu/) von Daniel P. Costas (vollständige Anleitung)
-- [LNbits Server auf Clearnet] (https://ereignishorizont.xyz/lnbits-server/en/) von Axel
+- [LNbits Server auf Clearnet](https://ereignishorizont.xyz/lnbits-server/en/) von Axel
 - [LNbits auf VPS](https://github.com/TrezorHannes/vps-lnbits) von Hannes

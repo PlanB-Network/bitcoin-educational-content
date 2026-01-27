@@ -1,0 +1,8 @@
+question: Millise stsenaariumi puhul oleks RefCell kõige sobivam kasutada kompileerimisajal laenamise piirangu lahendamiseks?
+answer: Kui rakendatakse mock-objekti, mis peab jälgima sisemise oleku muutumatute omaduste liidese kaudu muutumatu oleku muutusi
+wrong_answers:
+  - Kui teil on vaja jagada andmeid mitme niidi vahel ja vajate aatomset viitelugemist
+  - Kui soovite vältida tööaja koormust, viies kogu laenude kontrollimise kompileerimisele
+  - Andmestruktuuride vaheliste ringviidete loomisel, mis vajavad automaatset mälupuhastust
+explanation: |
+  RefCell on mõeldud sisemise muutuvuse stsenaariumide jaoks, kus andmeid on vaja muuta muutumatu viite kaudu, eriti kui kompilaatori staatiline analüüs on liiga konservatiivne. Mock-objektid, mis rakendavad muutumatute meetoditega omadusi, kuid peavad jälgima sisemist olekut, kujutavad endast täiuslikku kasutusjuhtumit. Teised võimalused on valed: RefCell ei ole niidikindel, see paigutab kontrollimise tööajale (mitte kompileerimisajale) ja see ei lahenda ringviidete probleeme - see võib neid hoopis suurendada, kui seda kombineerida RC-ga.

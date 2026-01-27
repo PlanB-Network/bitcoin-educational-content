@@ -1,0 +1,8 @@
+question: Vad är det primära syftet med att använda hash160 (SHA-256 och sedan RIPEMD-160) när man skapar Bitcoin-adresser från publika nycklar?
+answer: För att dölja den offentliga nyckeln tills den används och skapa kortare, mer lätthanterliga adresser
+wrong_answers:
+  - För att kryptera den privata nyckeln och förhindra obehörig åtkomst till wallet-fonder
+  - Till generate den digitala signatur som krävs för transaktionsvalidering på blockkedjan
+  - Så här konverterar du punkterna för den elliptiska kurvan till rätt format för secp256k1-operationer
+explanation: |
+  Hash160 har flera viktiga funktioner i skapandet av Bitcoin-adresser. Genom att hasha den offentliga nyckeln håller den den faktiska offentliga nyckeln dold tills mynten har använts, vilket ger ett extra lager av säkerhet. Hashningen minskar också storleken avsevärt från 33/65 byte till bara 20 byte, vilket gör adresserna mer hanterbara. De felaktiga svaren blandar ihop detta med kryptering av privata nycklar (vilket inte görs), digitala signaturer (som använder olika kryptografiska operationer) eller kurvformatering (som sker under SEC-serialisering, inte adressskapande).

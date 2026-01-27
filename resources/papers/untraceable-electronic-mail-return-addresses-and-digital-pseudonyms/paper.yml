@@ -1,0 +1,16 @@
+title: "Untraceable electronic mail, return addresses, and digital pseudonyms"
+original_language: en
+authors:
+  - David Chaum
+abstract: |
+  A technique based on public key cryptography is presented that allows an electronic mail system to hide who a participant communicates with as well as the content of the communication--in spite of an unsecured underlying telecommunication system. The technique does not require a universally trusted authority. One correspondent can remain anonymous to a second, while allowing the second to respond via an untraceble return address. The technique can also be used to form rosters of untraceable digital pseudonyms from selected applications. Applicants retain the exclusive ability to form digital signatures corresponding to their pseudonyms. Elections in which any interested party can verify that the ballots have been properly counted are possible if anonymously mailed ballots are signed with pseudonyms from a roster of registered voters. Another use allows an individual to correspond with a record-keeping organization under a unique pseudonym which appears in a roster of acceptable clients.
+publication_date: 1981-02-01
+paper_type: academic
+source: ACM
+type: SCIE
+category: COMPUTER SCIENCE, THEORY & METHODS
+topics:
+  - Privacy-Preserving Protocols
+  - Digital Signature Schemes
+pdf_url: https://dl.acm.org/doi/pdf/10.1145/358549.358563
+id: 164eae25-6b62-44f9-b049-23f273e472ed

@@ -154,7 +154,7 @@ Kundene kjøper et produkt fra butikken med Bitcoin.
 
 
 - Gjør deg klar:
-  - Se diagrammer/forklaringer i vedlagte Figjam - [Aktivitetsskjema] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Se diagrammer/forklaringer i vedlagte Figjam - [Aktivitetsskjema](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
   - Få tre frivillige elever til å spille rollene som kunde (Alice), kjøpmann (Bob) og bank.
 - Spill ut hendelsesforløpet:
   - Kunde - surfer i butikken på nettet og finner en vare til $25, som de vil ha, og informerer kjøpmannen om at de ønsker å kjøpe den
@@ -176,7 +176,7 @@ Kundene kjøper et produkt fra butikken med Bitcoin.
 
 
 - Gjør deg klar:
-  - Se diagrammer/forklaringer i vedlagte Figjam - [Aktivitetsskjema] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Se diagrammer/forklaringer i vedlagte Figjam - [Aktivitetsskjema](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
   - Erstatt banken med ni studenter som skal spille rollen som en datamaskin (Bitcoin Nodes/Miners) i et nettverk som skal erstatte banken.
 - Hver av de ni datamaskinene har en komplett historisk oversikt over alle tidligere transaksjoner som noensinne er foretatt (og dermed nøyaktige saldoer uten forfalskninger), samt et sett med regler:
   - Kontroller at transaksjonen er riktig signert (thekeyfitsthelock)
@@ -436,9 +436,9 @@ Basert på mobiltelefonens operativsystem (Android eller iOS) kan brukerne velge
 1. Last ned en tofaktorautentisering.
 
 
-   - Authy for [Android] (https://play.google.com/store/apps/details?id=com.authy.authy) eller [iOS] (https://apps.apple.com/us/app/authy/id494168017)
-   - Microsoft Authenticator for [Android] (https://play.google.com/store/apps/details?id=com.azure.authenticator) eller [iOS] (https://apps.apple.com/us/app/microsoft-authenticator/id983156458)
-   - Google Authenticator for [Android] (https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=e%C2%80) eller [iOS] (https://apps.apple.com/us/app/google-authenticator/id388497605)
+   - Authy for [Android](https://play.google.com/store/apps/details?id=com.authy.authy) eller [iOS](https://apps.apple.com/us/app/authy/id494168017)
+   - Microsoft Authenticator for [Android](https://play.google.com/store/apps/details?id=com.azure.authenticator) eller [iOS](https://apps.apple.com/us/app/microsoft-authenticator/id983156458)
+   - Google Authenticator for [Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=e%C2%80) eller [iOS](https://apps.apple.com/us/app/google-authenticator/id388497605)
 
 2. Etter at du har lastet ned og installert Authenticator-appen.
 
@@ -727,14 +727,15 @@ BTCPay Server består av følgende standard Wallet-funksjoner:
 Administratorer kan se innkommende og utgående transaksjoner for On-Chain Wallet som er koblet til denne spesifikke butikken i transaksjonsvisningen. Hver transaksjon har et skille mellom mottatte og sendte beløp. Mottatte vil være Green, og utgående transaksjoner vil være røde. I BTCPay Server-transaksjonsvisningen vil administratorer også se et sett med standardetiketter.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| Transaksjonstype | Beskrivelse                                      |
+| ----------------- | ------------------------------------------------ |
+| App               | Betaling ble mottatt via en app-opprettet faktura |
+| Faktura           | Betaling ble mottatt via en faktura               |
+| Payjoin           | Ikke betalt, fakturatimeren har ennå ikke utløpt  |
+| Payjoin-eksponert | UTXO ble eksponert via et payjoin-forslag i en faktura |
+| Betalingsforespørsel | Betaling ble mottatt via en betalingsforespørsel |
+| Utbetaling        | Betaling ble sendt via en utbetaling eller refusjon |
 
 ### Hvordan sende
 
@@ -838,7 +839,7 @@ Rescan-funksjonen er avhengig av Bitcoin core 0.17.0s "Scantxoutset" for å skan
 
 1. Gap-grenseproblem - De fleste tredjeparts lommebøker er lette lommebøker som deler en node mellom mange brukere. Lette og Full node-avhengige lommebøker begrenser antallet (vanligvis 20) adresser uten saldo de sporer på Blockchain for å forhindre ytelsesproblemer. BTCPay Server genererer en ny Address for hver Invoice. Med det ovennevnte i bakhodet, etter at BTCPay Server har generert 20 ubetalte fakturaer på rad, slutter den eksterne Wallet å hente transaksjonene, forutsatt at ingen nye transaksjoner har skjedd. Din eksterne Wallet vil ikke vise dem når fakturaene er betalt den 21., 22. osv. På den annen side sporer BTCPay Server Wallet internt alle Address den genererer, sammen med en betydelig høyere gap-grense. Den er ikke avhengig av en tredjepart og kan alltid vise en korrekt saldo.
 
-2. Gap-limit-løsningen - Hvis din [eksterne/eksisterende Wallet] (https://docs.btcpayserver.org/WalletSetup/#use-an-existing-Wallet) tillater konfigurasjon av gap-limit, er den enkle løsningen å øke den. De fleste lommebøker tillater imidlertid ikke dette. De eneste lommebøkene som for øyeblikket støtter gap-limit-konfigurasjon som vi kjenner til, er Electrum, Wasabi og Sparrow wallet. Dessverre vil du sannsynligvis støte på problemer med mange andre lommebøker. For best mulig brukeropplevelse og personvern bør du vurdere å bruke BTCPay-serverens interne Wallet i stedet for eksterne lommebøker.
+2. Gap-limit-løsningen - Hvis din [eksterne/eksisterende Wallet](https://docs.btcpayserver.org/WalletSetup/#use-an-existing-Wallet) tillater konfigurasjon av gap-limit, er den enkle løsningen å øke den. De fleste lommebøker tillater imidlertid ikke dette. De eneste lommebøkene som for øyeblikket støtter gap-limit-konfigurasjon som vi kjenner til, er Electrum, Wasabi og Sparrow wallet. Dessverre vil du sannsynligvis støte på problemer med mange andre lommebøker. For best mulig brukeropplevelse og personvern bør du vurdere å bruke BTCPay-serverens interne Wallet i stedet for eksterne lommebøker.
 
 
 #### BTCPay Server bruker "mempoolfullrbf=1"
@@ -1805,28 +1806,30 @@ Hver type har sine egne parametere som skal fylles ut. Butikkeieren kan stille d
 BTCPay Server lar deg også bygge skjemaer i kode. JSON, spesielt. I stedet for å se på redigeringsverktøyet kan butikkeiere klikke på CODE-knappen rett ved siden av redigeringsverktøyet og gå inn i koden til skjemaene sine. I en feltdefinisjon kan bare følgende felt angis; verdiene til feltene lagres i metadataene til Invoice:
 
 
-| Field                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+| Felt | Beskrivelse |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| .fields.constant      | If true, the .value must be set in the form definition, and the user will not be able to change the field's value. ( example: the form definition's version)                                                                                                                                                                                                                                                                                                       |
-| .fields.type          | The HTML input type text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel                                                                                                                                                                                                                                                                                                |
-| .fields.options       | If .fields.type is select, the list of selectable values                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.options.text  | The text displayed for this option                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| .fields.options.value | The value of the field if this option is selected                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| .fields.type=fieldset | Create a HTML fieldset around the children .fields.fields (see below)                                                                                                                                                                                                                                                                                                                                                                                              |
-| .fields.name          | The JSON property name of the field as it will appear in the invoice's metadata                                                                                                                                                                                                                                                                                                                                                                                    |
-| .fields.value         | The default value of the field                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| .fields.required      | if true, the field will be required                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| .fields.label         | The label of the field                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| .fields.helpText      | Additional text to provide an explanation for the field.                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.fields        | You can organize your fields in a hierarchy, allowing child fields to be nested within the invoice’s metadata. This structure can help you better organize and manage the collected information, making it easier to access and interpret. For example, if you have a form that collects customer information, you can group the fields under a parent field called customer. Within this parent field, you might have child fields like name, Email, and address. |
+| .fields.constant | Hvis true, må .value settes i skjema-definisjonen, og brukeren vil ikke kunne endre feltets verdi. (eksempel: skjema-definisjonens versjon) |
+| .fields.type | HTML-inputtypen text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | Hvis .fields.type er select, listen over valgbare verdier |
+| .fields.options.text | Teksten som vises for dette alternativet |
+| .fields.options.value | Verdien av feltet hvis dette alternativet er valgt |
+| .fields.type=fieldset | Opprett et HTML-fieldset rundt barna .fields.fields (se nedenfor) |
+| .fields.name | JSON-egenskapsnavnet til feltet slik det vil vises i fakturaens metadata |
+| .fields.value | Standardverdien for feltet |
+| .fields.required | hvis true, vil feltet være obligatorisk |
+| .fields.label | Ledeteksten (label) til feltet |
+| .fields.helpText | Tilleggstekst for å gi en forklaring av feltet. |
+| .fields.fields | Du kan organisere feltene dine i et hierarki, slik at underfelt kan nøstes inn i fakturaens metadata. Denne strukturen kan hjelpe deg med å organisere og administrere den innsamlede informasjonen bedre, noe som gjør den enklere å få tilgang til og tolke. For eksempel, hvis du har et skjema som samler inn kundeinformasjon, kan du gruppere feltene under et foreldrefelt kalt customer. Innenfor dette foreldrefeltet kan du ha underfelt som name, Email og address. |
 
 Feltnavnet representerer JSON-egenskapsnavnet som lagrer den brukerdefinerte verdien i Invoices metadata. Noen velkjente navn kan tolkes og endres for å justere Invoices innstillinger.
 
 
-| Field name       | Description            |
+
+| Feltnavn         | Beskrivelse           |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Fakturabeløp          |
+| invoice_currency | Fakturavaluta         |
 
 Du kan forhåndsutfylle feltene i et Invoice-skjema automatisk ved å legge til spørringsstrenger i skjemaets URL-adresse, for eksempel "?your_field=value".
 
@@ -2222,7 +2225,7 @@ Først og fremst må du prøve å finne ut når problemet oppstår. Prøv å gje
 ##### Oppdatering av serveren
 
 
-Sjekk din versjon av BTCPay Server hvis den er mye eldre enn [nyeste versjon] (https://github.com/btcpayserver/btcpayserver/releases) av BTCPay Server. Oppdatering av serveren din kan løse problemet.
+Sjekk din versjon av BTCPay Server hvis den er mye eldre enn [nyeste versjon](https://github.com/btcpayserver/btcpayserver/releases) av BTCPay Server. Oppdatering av serveren din kan løse problemet.
 
 
 ##### Starter serveren på nytt
@@ -2276,7 +2279,8 @@ docker logs --tail 100 generated_btcpayserver_1
 ```
 
 
-| Logs for     | Container Name                    |
+
+| Logg for      | Beholdernavn                       |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |
@@ -2467,21 +2471,22 @@ Med mindre du bruker en innebygd [Wallet](https://docs.btcpayserver.org/Wallet/)
 Tabellen nedenfor viser og beskriver standard Invoice-statusene i BTCPay, sammen med forslag til vanlige tiltak. Handlingene er bare anbefalinger. Det er opp til brukerne å definere hva som er best for deres brukstilfelle og virksomhet.
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| Fakturastatus | Beskrivelse | Handling |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | Ikke betalt, fakturatimeren har ennå ikke utløpt | Ingen |
+| New (paidPartial) | Betalt, ikke fullt beløp, fakturatimeren har ennå ikke utløpt | Ingen |
+| Expired | Ikke betalt, fakturatimeren er utløpt | Ingen |
+| Expired (paidPartial) ** | Betalt, ikke fullt beløp, og utløpt | Kontakt kjøper for å avtale refusjon eller be dem betale restbeløpet. Marker eventuelt fakturaen som settled eller invalid |
+| Expired (paidLate) | Betalt, fullt beløp, etter at fakturatimeren er utløpt | Kontakt kjøper for å avtale refusjon eller behandle ordren dersom sene bekreftelser aksepteres. |
+| Settled (paidOver) | Betalt mer enn fakturabeløpet, oppgjort, mottatt tilstrekkelig antall bekreftelser | Kontakt kjøper for å avtale refusjon av det overskytende beløpet, eller vent på at kjøper kontakter deg |
+| Processing | Betalt fullt ut, men har ikke mottatt tilstrekkelig antall bekreftelser spesifisert i butikkinnstillingene | Kontakt kjøper for å avtale refusjon av det overskytende beløpet, eller vent på at kjøper kontakter deg |
+| Processing (paidOver) | Betalt mer enn fakturabeløpet, ikke mottatt tilstrekkelig antall bekreftelser | Vent til status blir settled, kontakt deretter kjøper for refusjon av overskytende beløp, eller vent på kontakt |
+| Settled | Betalt, fullt ut, mottatt tilstrekkelig antall bekreftelser i butikken | Fullfør ordren |
+| Settled (marked) | Status ble manuelt endret til settled fra en processing- eller invalid-status | Butikkadministrator har markert betalingen som settled |
+| Invalid* | Betalt, men mottok ikke tilstrekkelig antall bekreftelser innen tiden spesifisert i butikkinnstillingene | Sjekk transaksjonen på en blockchain-utforsker; hvis den har fått nok bekreftelser, marker som settled |
+| Invalid (marked) | Status ble manuelt endret til invalid fra en settled- eller expired-status | Butikkadministrator har markert betalingen som invalid |
+| Invalid (paidOver) | Betalt mer enn fakturabeløpet, men mottok ikke nok bekreftelser innen fristen i butikkinnstillingene | Sjekk transaksjonen på en blockchain-utforsker; hvis den har fått nok bekreftelser, marker som settled |
 
 #### Detaljer om Invoice
 
@@ -2621,7 +2626,7 @@ Betalingsmottaker og rekvirent kan se status for betalingsanmodningen etter at b
 Beskrivelsesinnholdet kan redigeres ved hjelp av tekstredigeringsprogrammet for betalingsforespørselen. Begge alternativene er tilgjengelige hvis du vil bruke flere fargetemaer eller tilpasset CSS-styling.
 
 
-Ikke-tekniske brukere kan bruke et [bootstrap-tema] (https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes). Ytterligere tilpasning kan gjøres ved å tilføre ytterligere CSS-kode, som vist nedenfor.
+Ikke-tekniske brukere kan bruke et [bootstrap-tema](https://docs.btcpayserver.org/Development/Theme/#2-bootstrap-themes). Ytterligere tilpasning kan gjøres ved å tilføre ytterligere CSS-kode, som vist nedenfor.
 
 
 ```css
@@ -2670,13 +2675,13 @@ Hva om avsenderen i stedet for å pushe betalingen, lar mottakeren trekke betali
 ### Utbetalinger
 
 
-Utbetalingsfunksjonaliteten er knyttet til funksjonen [Pull Payments] (https://docs.btcpayserver.org/PullPayments/). Denne funksjonen lar deg opprette utbetalinger i BTCPay. Med denne funksjonen kan du behandle pull-betalinger (refusjoner, lønnsutbetalinger eller uttak).
+Utbetalingsfunksjonaliteten er knyttet til funksjonen [Pull Payments](https://docs.btcpayserver.org/PullPayments/). Denne funksjonen lar deg opprette utbetalinger i BTCPay. Med denne funksjonen kan du behandle pull-betalinger (refusjoner, lønnsutbetalinger eller uttak).
 
 
 #### Eksempel 1: Refusjon
 
 
-La oss begynne med eksemplet med refusjon. Kunden har kjøpt en vare i butikken din, men dessverre må de returnere den. De ønsker en refusjon. I BTCPay kan du opprette en [Refusjon] (https://docs.btcpayserver.org/Refund/) og gi kunden en lenke til å kreve pengene sine. Når kunden har oppgitt Address og gjort krav på pengene, vil det vises i utbetalingsdelen.
+La oss begynne med eksemplet med refusjon. Kunden har kjøpt en vare i butikken din, men dessverre må de returnere den. De ønsker en refusjon. I BTCPay kan du opprette en [Refusjon](https://docs.btcpayserver.org/Refund/) og gi kunden en lenke til å kreve pengene sine. Når kunden har oppgitt Address og gjort krav på pengene, vil det vises i utbetalingsdelen.
 
 
 Den første statusen den har, er Venter på godkjenning. Butikkmedarbeiderne kan sjekke om det er flere som venter, og når du har gjort valget, bruker du knappen Handlinger.
@@ -2700,7 +2705,7 @@ Kunden blir nå oppdatert på Claiming-siden. Han kan følge transaksjonen ved a
 #### Eksempel 2: Lønn
 
 
-La oss nå se nærmere på lønnsutbetaling, siden dette styres fra butikken og ikke i henhold til kundens forespørsel. Det underliggende konseptet er det samme; det bruker pull-betalinger. Men i stedet for å opprette en refusjon, lager vi en [Pull Payment] (https://docs.btcpayserver.org/PullPayments/).
+La oss nå se nærmere på lønnsutbetaling, siden dette styres fra butikken og ikke i henhold til kundens forespørsel. Det underliggende konseptet er det samme; det bruker pull-betalinger. Men i stedet for å opprette en refusjon, lager vi en [Pull Payment](https://docs.btcpayserver.org/PullPayments/).
 
 
 Gå til Pull Payments-fanen på BTCPay-serveren din. Klikk på knappen Opprett pull-betaling øverst til høyre.
@@ -2744,7 +2749,7 @@ Deretter kan avsenderen dele pull-betalingen med mottakeren ved hjelp av en lenk
 Når en utbetaling er opprettet, vil den telle med i pull-betalingsgrensen for den aktuelle perioden. Avsenderen godkjenner deretter utbetalingen ved å angi hvilken sats utbetalingen skal sendes til, og fortsetter med betalingen.
 
 
-For avsenderen tilbyr vi en brukervennlig metode for å samle flere utbetalinger fra [BTCPay Internal Wallet] (https://docs.btcpayserver.org/Wallet/).
+For avsenderen tilbyr vi en brukervennlig metode for å samle flere utbetalinger fra [BTCPay Internal Wallet](https://docs.btcpayserver.org/Wallet/).
 
 
 #### Greenfield API

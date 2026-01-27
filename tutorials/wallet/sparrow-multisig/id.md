@@ -54,7 +54,7 @@ https://planb.academy/tutorials/wallet/desktop/liana-306ef457-700c-4fdd-b07a-8fb
 
 
 
-Untuk tutorial ini, saya akan menunjukkan kepada Anda cara membuat Multisig dengan [perangkat lunak manajemen portofolio Sparrow Wallet] (https://sparrowwallet.com/download/). Jika Anda belum menginstal perangkat lunak ini, silakan lakukan sekarang. Jika Anda memerlukan bantuan, kami juga memiliki tutorial terperinci tentang cara mengonfigurasi Sparrow Wallet:
+Untuk tutorial ini, saya akan menunjukkan kepada Anda cara membuat Multisig dengan [perangkat lunak manajemen portofolio Sparrow Wallet](https://sparrowwallet.com/download/). Jika Anda belum menginstal perangkat lunak ini, silakan lakukan sekarang. Jika Anda memerlukan bantuan, kami juga memiliki tutorial terperinci tentang cara mengonfigurasi Sparrow Wallet:
 
 
 
@@ -491,7 +491,7 @@ Masukkan jumlah yang akan dikirim ke Address yang dipilih.
 
 
 
-Sesuaikan tingkat pengisian daya sesuai dengan kondisi jaringan saat ini. Sebagai contoh, lihat [Mempool.space] (https://Mempool.space/) untuk memilih tingkat pengisian daya yang sesuai.
+Sesuaikan tingkat pengisian daya sesuai dengan kondisi jaringan saat ini. Sebagai contoh, lihat [Mempool.space](https://Mempool.space/) untuk memilih tingkat pengisian daya yang sesuai.
 
 
 

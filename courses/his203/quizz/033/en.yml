@@ -1,0 +1,10 @@
+question: Besides his mining pool’s identifier, what did the majority of inscriptions made by Luke-Jr through Eligius contain in August 2011?
+answer: Prayers
+wrong_answers:
+  - Child pornography
+  - Memes
+  - Political messages
+explanation: |
+ In keeping with his Catholic (sedevacantist) faith, Luke-Jr included prayers and sacred texts in the reward transaction for blocks mined by his mining pool, 
+ Eligius, without consulting the miners concerned, which provoked a lively debate.
+reviewed: true

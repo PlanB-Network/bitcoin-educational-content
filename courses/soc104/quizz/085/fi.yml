@@ -1,0 +1,9 @@
+question: Hayekin hajautetun tiedon teorian mukaan miksi keskitetysti suunnitelluissa talouksissa on vaikeuksia hinnoittelussa verrattuna vapaisiin markkinoihin?
+answer: Keskussuunnittelijat eivät voi saada käyttöönsä subjektiivista, paikallista tietoa yksilöllisistä kustannuksista, hyödyistä ja mieltymyksistä, jota vain markkinatoimijoilla on
+wrong_answers:
+  - Keskussuunnittelijoilla ei ole riittävästi laskentatehoa ja kehittyneitä algoritmeja kaiken niiden käytettävissä olevan taloudellisen tiedon käsittelyyn
+  - Keskussuunnittelijat ovat luonnostaan korruptoituneita ja asettavat hinnat hyödyttääkseen itseään eikä yhteiskuntaa, toisin kuin markkinatoimijat, jotka ovat epäitsekkäitä
+  - Keskussuunnittelijat keskittyvät liikaa talouden pitkän aikavälin vakauteen sen sijaan, että he reagoivat välittömiin kysynnän ja tarjonnan vaihteluihin
+explanation: |
+  Hayekin keskeinen oivallus on, että tieto on olemassa vain "hajallaan olevina epätäydellisen ja usein ristiriitaisen tiedon sirpaleina, jotka ovat kaikkien erillisten yksilöiden hallussa" Tämä tieto on subjektiivista ja paikallista - vain yksilöt tuntevat omat kustannuksensa, hyötynsä ja mieltymyksensä. Vapaat markkinat mahdollistavat vapaaehtoisen vaihdon ja hintaneuvottelujen kautta tämän hajanaisen tiedon syntymisen ja taloudellisen toiminnan koordinoinnin.
+  Keskussuunnittelijat eivät aikeistaan tai kyvyistään riippumatta pääse käsiksi tähän miljoonien yksilöiden mielissä olevaan subjektiiviseen, hajallaan olevaan tietoon, mikä tekee tehokkaan hinnoittelun mahdottomaksi.

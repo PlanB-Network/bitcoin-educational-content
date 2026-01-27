@@ -1,0 +1,9 @@
+question: Mikä on ThunderHub:n rooli suhteessa LND-solmuun?
+answer: Interface hallinta
+wrong_answers:
+  - Lightning-toteutus
+  - Huoltopalvelu
+  - Reitityssolmu
+explanation: |
+  ThunderHub on käyttöliittymä, joka muodostaa yhteyden LND:ään solmun hallintaa varten.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Mikä on pääasiallinen etu, kun käytetään komentoa `cargo expand` kehitettäessä monimutkaisia makroja Rust:ssa?
+answer: Se näyttää makrokutsujen tuottaman täysin laajennetun koodin, jonka avulla kehittäjät voivat tarkistaa tuotetun tulosteen ja debugata ongelmia
+wrong_answers:
+  - Se optimoi automaattisesti makrojen suorituskyvyn lyhentämällä kääntämiseen kuluvaa aikaa ja poistamalla tarpeettomat kuvion täsmäytyshaarat
+  - Se validoi makron syntaksin suoritusaikana ja tarjoaa reaaliaikaisen virhetarkistuksen dynaamista makroargumenttien validointia varten
+  - Se muuntaa funktioiden kaltaiset makrot automaattisesti johdannaismakroiksi, mikä parantaa koodin uudelleenkäytettävyyttä ja ominaisuuksien toteutuksen tehokkuutta
+explanation: |
+  Komento `cargo expand` on korvaamaton apu makrojen kehittämisessä, koska se paljastaa todellisen koodin, jota makrot generate kääntävät kääntämisen aikana. Koska makrot toimivat kääntämisaikana ja muuttavat syötemallit generoiduksi koodiksi, kehittäjien on nähtävä tämä laajennettu tuloste tarkistaakseen, että heidän makronsa toimivat oikein. Tämä on erityisen tärkeää silloin, kun makron tuottama koodi sisältää virheitä, sillä laajennettu tuloste auttaa määrittämään, johtuvatko ongelmat itse makromäärittelystä vai tuotetun koodin rakenteesta. Muut vaihtoehdot ovat virheellisiä, koska `cargo expand` on puhtaasti virheenkorjaus- ja tarkastustyökalu - se ei optimoi suorituskykyä, validoi ajonaikaista käyttäytymistä tai muunna automaattisesti makrotyyppien välillä.

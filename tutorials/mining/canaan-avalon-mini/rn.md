@@ -122,16 +122,17 @@ Aha hepfo hariho incamake y'ibisobanuro rusangi vy'ubuhinga bwa Mini 3:
 
 
 
-| Caractéristique                                      | Valeur                                                    |
+
+| Ikintu                                      | Agaciro                                                    |
 | ---------------------------------------------------- | --------------------------------------------------------- |
 | Hashrate                                             | 37.5 Th/s +- 5%                                           |
-| Consommation électrique                              | 800 W                                                     |
-| Bruit                                                | 35-55 dB                                                  |
-| Température de l'air en sortie                       | 60-70°C (sous température ambiante 25°C)                  |
-| Exigences de température ambiante pour l'utilisation | -5° C - 40°C                                              |
-| Plage d'entrée de l'appareil                         | 110V-240V AC 50/60Hz                                      |
-| Taille de la machine                                 | Longueur: 760 mm / Profondeur: 104 mm / Hauteur: 214.5 mm |
-| Poids de la machine                                  |  8.35 kg                                                  |
+| Gukoresha amashanyalaze                              | 800 W                                                     |
+| Inzira                                                | 35-55 dB                                                  |
+| Ubushyuhe bw'umuyaga mu gihe c'ivuza                       | 60-70°C (mugihe ubushyuhe bw'amasiga 25°C)                  |
+| Ishingiro ry'ubushyuhe bw'amasiga ku bijyane | -5° C - 40°C                                              |
+| Intera y'intambiko z'amafaranga y'igikoresho                         | 110V-240V AC 50/60Hz                                      |
+| Ubunini bwa masini                                 | Uburebure: 760 mm / Ubugari: 104 mm / Ubuhagarike: 214.5 mm |
+| Ibiro ryamasini                                  |  8.35 kg                                                  |
 
 ## Guhuza na Mining pool
 

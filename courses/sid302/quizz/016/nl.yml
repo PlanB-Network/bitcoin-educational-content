@@ -1,0 +1,8 @@
+question: Wat is het primaire doel van de 102 bevestigingswachtperiode tijdens het peg-in proces van Bitcoin naar Liquid?
+answer: Ter bescherming tegen Bitcoin blockchain reorganisaties voor het slaan van L-BTC
+wrong_answers:
+  - Om de federatie voldoende tijd te geven om de identiteit en compliance van gebruikers te verifiëren
+  - Om ervoor te zorgen dat het Liquid netwerk voldoende capaciteit heeft om de inkomende transactie te verwerken
+  - Om tijd vrij te maken voor de 11 of 15 handtekeningen van de federatieleden
+explanation: |
+  De wachttijd van 102 bevestigingen (ongeveer 17 uur) is speciaal ontworpen om te beschermen tegen Bitcoin blockchain reorganisaties. Omdat Bitcoin werkt op basis van probabilistische finaliteit, is er altijd een kleine kans dat blokken worden gereorganiseerd, waardoor transacties ongeldig kunnen worden. Door te wachten op 102 bevestigingen, zorgt het systeem ervoor dat de Bitcoin transactie die geld naar het federatieadres stuurt, diep begraven is en zeer onwaarschijnlijk teruggedraaid kan worden. Dit voorkomt het scenario waarbij L-BTC wordt geslagen op Liquid, maar de onderliggende Bitcoin transactie wordt teruggedraaid door een reorganisatie. De andere opties zijn onjuist omdat: identiteitsverificatie geen onderdeel is van het geautomatiseerde peg-in proces, netwerkcapaciteit geen beperkende factor is die zulke vertragingen vereist, en de 11-of-15 multisig autorisatie wordt gebruikt voor peg-outs, niet peg-ins.

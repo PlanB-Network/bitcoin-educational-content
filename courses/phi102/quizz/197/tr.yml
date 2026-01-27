@@ -1,0 +1,8 @@
+question: Demokratik sistemlerde piyasa kararları ile siyasi kararlar arasında geri bildirimin zamanlamasını ve doğasını temelde farklı kılan nedir?
+answer: Piyasa kararları, bireylerin kişisel deneyimlerine dayanarak davranışlarını ayarlamalarına olanak tanıyan anlık, doğrudan geri bildirim sağlarken, siyasi kararlar, bireylerin kendi özel seçimlerinin izini sürmelerinin zor olduğu gecikmeli, kolektif sonuçlar üretir
+wrong_answers:
+  - Piyasa kararları karmaşık uzun vadeli planlamaları içerirken, siyasi kararlar hızlı bir şekilde değerlendirilebilen anlık duygusal tepkilere dayanır
+  - Siyasi kararlar bireysel özerkliğe ve sonuçlar üzerinde doğrudan kişisel kontrole izin verirken, piyasa kararları kolektif uzlaşma gerektirir
+  - Piyasa kararları nadiren alınır ve kalıcı sonuçlar doğurur; siyasi kararlar ise günlük olarak alınır ve kolaylıkla tersine çevrilebilir etkileri olur
+explanation: |
+  Bu bölümde, piyasa tercihlerinin bireylerin tatminlerini doğrudan karşılaştırabilecekleri ve deneyime dayalı olarak davranışlarını ayarlayabilecekleri anlık, izlenebilir sonuçlar sunduğu vurgulanmaktadır. Buna karşılık, siyasi kararlar, vatandaşların oylarının etkisini tam olarak anlamalarını imkansız kılan kolektif sonuçlarla 'zaman içinde aralıklıdır'. Siyasi önlemler, seçmenin asla doğrudan görmediği kişilere zarar verebilir ve seçimler basit, doğrudan seçimlerden ziyade karmaşık programları içerir. Bu zamansal ve geribildirimsel fark, demokratik vesayet paradoksunun neden var olduğunu anlamak için çok önemlidir - vatandaşların, daha az güvenilir geribildirim mekanizmalarına sahip daha karmaşık kararlar (siyasi), anlık ve net sonuçlara sahip daha basit kararlardan (ekonomik) daha fazla vermesi beklenir.

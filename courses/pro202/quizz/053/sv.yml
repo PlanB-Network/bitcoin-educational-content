@@ -1,0 +1,8 @@
+question: Vilken specifik utmaning för konvertering av endianness måste Bitcoin-noderna hantera när de konstruerar och verifierar Merkle-träd från transaktionsdata?
+answer: Transaktionshashar måste vändas från serialiserat little-endian-format till big-endian för intern trädberäkning, och sedan vändas tillbaka för lagring
+wrong_answers:
+  - Blockheaders måste konverteras från big-endian till little-endian innan Merkle-roten beräknas för att matcha överföringsformatet i nätverket
+  - Den slutliga Merkle-roten måste konverteras från big-endian till little-endian endast när den sänds till andra noder via P2P-meddelanden
+  - Transaktions-ID:n lagras i big-endian-format men måste konverteras till little-endian innan paren hashas i Merkle-trädet
+explanation: |
+  Bitcoin:s Merkle-trädkonstruktion innefattar ett kritiskt steg för konvertering av endianness. Medan serialiserade blockdata använder little-endian-format kräver den interna Merkle-trädberäkningen big-endian-hashar. Noder måste vända transaktionshashar från sitt serialiserade little-endian-format till big-endian före trädkonstruktionen, och sedan vända den slutliga roten tillbaka till little-endian för lagring i blockhuvudet. Denna konvertering är nödvändig för korrekt verifiering.

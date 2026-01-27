@@ -1,0 +1,8 @@
+question: Millist matemaatilist operatsiooni kasutatakse punkti P + Q leidmiseks elliptilisel kõveral?
+answer: Joonistage joon läbi punktide P ja Q, leidke kolmas lõikepunkt R, seejärel peegeldage R üle x-telje
+wrong_answers:
+  - P ja Q x-koordinaatide ja y-koordinaatide otsene liitmine, kasutades modulaararvutust
+  - Korrutage P ja Q koordinaadid omavahel ja rakendage tulemuse leidmiseks kõvera võrrandit
+  - Arvutage P ja Q vaheline keskpunkt ja seejärel rakendage summa saamiseks puutujajoone meetodit
+explanation: |
+  Elliptilise kõvera punktide liitmine järgib konkreetset geomeetrilist reeglit: tõmmake joon läbi kahe punkti P ja Q, mis lõikab kõverat kolmandas punktis R, seejärel peegeldage R üle x-telje, et saada P + Q. See geomeetriline operatsioon muutub algebraliseks, kui töötatakse piiratud väljadega, kuid säilitab sama aluspõhimõtte. Teised valikud kirjeldavad ebaõigeid meetodeid, mis ei järgi elliptiliste kõverate jaoks kehtestatud grupiseadust.

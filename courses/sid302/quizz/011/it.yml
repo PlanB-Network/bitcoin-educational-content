@@ -1,0 +1,8 @@
+question: Cosa succede quando un fornitore di servizi paga una fattura Lightning per completare uno scambio da Liquid a Lightning utilizzando le HTLC?
+answer: Il fornitore riceve la preimmagine dal pagamento Lightning, che può poi utilizzare per sbloccare e richiedere il L-BTC dal HTLC
+wrong_answers:
+  - Il fornitore deve attendere la scadenza del blocco temporale prima di poter accedere all'L-BTC bloccato nel contratto HTLC
+  - "Il cliente riceve automaticamente la preimmagine e la utilizza per rilasciare il L-BTC direttamente al Liquid wallet del fornitore"
+  - Il contratto HTLC viene eseguito automaticamente e trasferisce il L-BTC al fornitore senza richiedere alcuna prova crittografica aggiuntiva
+explanation: |
+  Gli HTLC creano scambi atomici attraverso il binding crittografico utilizzando lo stesso blocco hash su entrambe le reti. Quando il fornitore paga con successo la fattura Lightning, ottiene la preimmagine (segreto) che corrisponde al blocco hash. Questa preimmagine è la chiave crittografica che permette di sbloccare il L-BTC che era precedentemente bloccato nel HTLC. Le altre opzioni non sono corrette perché non riflettono la natura atomica degli HTLC: il blocco temporale è solo un meccanismo di ripiego, i clienti non gestiscono la distribuzione della preimmagine e gli HTLC richiedono una prova crittografica attiva piuttosto che un'esecuzione automatica.

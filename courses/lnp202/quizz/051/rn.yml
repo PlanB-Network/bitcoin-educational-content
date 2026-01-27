@@ -1,0 +1,9 @@
+question: Ni ikihe kivuko gitegerezwa gushirwa muri Zewu ku bijanye n’ihuriro rya LND (REST) ​​rivugwa muri iki kigabane?
+answer: 8080
+wrong_answers:
+  - 8333
+  - 8332
+  - 50001
+explanation: |
+  Kugira ngo ushikire API ukoresheje node yawe ya LND kuri Umbrel, ukeneye gukoresha port 8080 igihe utunganya Zeus.
+reviewed: false

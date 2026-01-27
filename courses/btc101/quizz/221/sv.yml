@@ -1,8 +1,9 @@
-question: Avgifterna för transaktioner på Lightning Network är extremt låga, ofta mindre än...?
-answer: 0.5%.
+question: Vilken fördel erbjuder Ark jämfört med Lightning för mottagning av betalningar?
+answer: Ingen behov av inkommande likviditet
 wrong_answers:
-  - 1%.
-  - 2%.
-  - 3%.
-explanation: >-
-reviewed: true
+  - Omedelbar betalningsfinalitet
+  - Inga transaktionsavgifter
+  - Inget behov av en plånbok
+explanation: |
+  Ark gör det möjligt att ta emot betalningar utan att i förväg ha inkommande likviditet.
+reviewed: false

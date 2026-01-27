@@ -35,7 +35,7 @@ Velkommen til CYP201-kurset, hvor vi vil utforske HD Bitcoin-lommebøker i dybde
 Målet med denne opplæringen er å gi deg nøklene til å mestre verktøyene du bruker daglig. HD Bitcoin-lommebøker, som er i hjertet av brukeropplevelsen din, er basert på noen ganger komplekse konsepter, som vi vil forsøke å gjøre tilgjengelige. Sammen vil vi avmystifisere dem!
 
 Før vi dykker ned i detaljene om konstruksjonen og driften av Bitcoin-lommebøker, vil vi starte med noen kapitler om de kryptografiske primitivene å vite for det som følger.
-Vi starter med kryptografiske hash-funksjoner, grunnleggende for både lommebøker og Bitcoin-protokollen selv. Du vil oppdage deres viktigste egenskaper, de spesifikke funksjonene brukt i Bitcoin, og i et mer teknisk kapittel, vil du lære i detalj om arbeidet til dronningen av hash-funksjoner: SHA256.
+Vi starter med kryptografiske hash-funksjoner, grunnleggende for både lommebøker og Bitcoin-protokollen selv. Du vil oppdage deres viktigste egenskaper, de spesifikke funksjonene brukt i Bitcoin, og i et mer teknisk kapittel, vil du lære i detalj om arbeidet til dronningen av hash-funksjoner: [SHA256](https://planb.academy/resources/glossary/sha256).
 ![CYP201](assets/en/001.webp)
 
 Deretter vil vi diskutere driften av digitale signaturalgoritmer som du bruker hver dag for å sikre dine UTXOer. Bitcoin bruker to: ECDSA og Schnorr-protokollen. Du vil lære hvilke matematiske primitiver som ligger til grunn for disse algoritmene og hvordan de sikrer transaksjonenes sikkerhet.
@@ -45,7 +45,7 @@ Deretter vil vi diskutere driften av digitale signaturalgoritmer som du bruker h
 Når vi har en god forståelse av disse elementene av kryptografi, vil vi endelig gå videre til hjertet av opplæringen: deterministiske og hierarkiske lommebøker! Først er det en seksjon dedikert til mnemoniske fraser, disse sekvensene av 12 eller 24 ord som lar deg opprette og gjenopprette lommebøkene dine. Du vil oppdage hvordan disse ordene genereres fra en kilde til entropi og hvordan de letter bruken av Bitcoin.
 
 ![CYP201](assets/en/003.webp)
-Opplæringen vil fortsette med studiet av BIP39-passfrasen, seeden (ikke å forveksle med den mnemoniske frasen), hovedkjedekoden og hovednøkkelen. Vi vil se i detalj hva disse elementene er, deres respektive roller, og hvordan de beregnes.
+Opplæringen vil fortsette med studiet av [BIP39](https://planb.academy/resources/glossary/bip0039)-passfrasen, seeden (ikke å forveksle med den mnemoniske frasen), hovedkjedekoden og hovednøkkelen. Vi vil se i detalj hva disse elementene er, deres respektive roller, og hvordan de beregnes.
 ![CYP201](assets/en/004.webp)
 
 Til slutt, fra hovednøkkelen, vil vi oppdage hvordan kryptografiske nøkkelpar er avledet på en deterministisk og hierarkisk måte opp til mottaksadressene.
@@ -657,7 +657,7 @@ Dette er den grunnleggende operasjonen av Bitcoin, men over tid har denne operas
 En bruker som ønsker å utføre en Bitcoin-transaksjon må derfor opprette en digital signatur ved hjelp av sin private nøkkel på den aktuelle transaksjonen. Signaturen kan verifiseres av andre nettverksdeltakere. Hvis den er gyldig, betyr dette at brukeren som initierer transaksjonen faktisk er eieren av den private nøkkelen, og derfor eieren av bitcoinene de ønsker å bruke. Andre brukere kan deretter akseptere og formidle transaksjonen.
 Som et resultat må en bruker som eier bitcoins låst med en offentlig nøkkel finne en måte å sikkert lagre det som tillater opplåsing av deres midler: den private nøkkelen. En Bitcoin-lommebok er nettopp en enhet som vil tillate deg å enkelt holde alle nøklene dine uten at andre mennesker har tilgang til dem. Det er derfor mer som en nøkkelring enn en lommebok.
 
-Den matematiske koblingen mellom en offentlig nøkkel og en privat nøkkel, samt evnen til å utføre en signatur for å bevise besittelsen av en privat nøkkel uten å avsløre den, er muliggjort av en digital signaturalgoritme. I Bitcoin-protokollen brukes 2 signaturalgoritmer: **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) og **Schnorr-signaturordningen**. ECDSA er den digitale signaturprotokollen som brukes i Bitcoin fra begynnelsen. Schnorr er mer nylig i Bitcoin, da den ble introdusert i november 2021 med Taproot-oppdateringen.
+Den matematiske koblingen mellom en offentlig nøkkel og en privat nøkkel, samt evnen til å utføre en signatur for å bevise besittelsen av en privat nøkkel uten å avsløre den, er muliggjort av en digital signaturalgoritme. I Bitcoin-protokollen brukes 2 signaturalgoritmer: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm_) og **Schnorr-signaturordningen**. ECDSA er den digitale signaturprotokollen som brukes i Bitcoin fra begynnelsen. Schnorr er mer nylig i Bitcoin, da den ble introdusert i november 2021 med Taproot-oppdateringen.
 Disse to algoritmene er ganske like i sine mekanismer. De er begge basert på elliptisk kurvekryptografi. Den største forskjellen mellom disse to protokollene ligger i strukturen av signaturen og noen spesifikke matematiske egenskaper. Vi vil derfor studere funksjonen til disse algoritmene, og starter med den eldste: ECDSA.
 
 ### Elliptisk Kurvekryptografi

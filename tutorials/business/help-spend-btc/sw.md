@@ -1,7 +1,7 @@
 ---
-name: Himiza Wateja Kulipa kwa Bitcoin
+name: Help-spend-btc
 
-description: Mwongozo mfupi wa kuhamasisha wateja kutumia bitcoins zao kwenye duka lako badala ya kutumia sarafu zisizo na thamani
+description: Mwongozo mfupi wa help-spend-btc kwenye duka lako badala ya kutumia sarafu zisizo na thamani
 ---
 
 ![cover](assets/cover.webp)
@@ -10,7 +10,7 @@ description: Mwongozo mfupi wa kuhamasisha wateja kutumia bitcoins zao kwenye du
 ## Utangulizi
 
 
-Hatimaye umeamua kukubali Bitcoin katika biashara yako, na kila kitu kiko tayari: Lightning Network Wallet imewekwa kwa ajili ya kupokea malipo, wafanyakazi wako wanajua jinsi ya kutumia toleo la kusoma tu la Wallet kupokea malipo kwa niaba yako, Point of Sale (PoS) imesanidiwa pamoja na bidhaa za dukani na kusasishwa kila mwezi, na tayari unajua jinsi ya kusimamia akaunti ya Bitcoin. Ikiwa hujui jinsi ya kuifanya, angalia mafunzo haya:
+Hatimaye umeamua kukubali Bitcoin katika biashara yako, na kila kitu kiko tayari: Lightning Network Wallet imewekwa kwa ajili ya kupokea malipo, wafanyakazi wako wanajua jinsi ya kutumia read-only version ya Wallet kupokea malipo kwa niaba yako, Point of Sale (PoS) imesanidiwa pamoja na bidhaa za dukani na kusasishwa kila mwezi, na tayari unajua jinsi ya kusimamia Bitcoin account yako. Ikiwa hujui jinsi ya kuifanya, angalia tutorial hii:
 
 
 https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-8857-4301-bd8b-e776e6fde136
@@ -18,7 +18,7 @@ https://planb.academy/tutorials/business/others/accounting-payments-cb4da704-885
 ## Nini Tatizo
 
 
-Ikiwa kila kitu kimekuwa sawa hadi sasa, basi shida ni nini? Hii hapa: unaweza kugundua kuwa wateja hawanunui bitcoins kwenye duka lako! Uwezekano mkubwa zaidi, watu wengi hata hawajui Bitcoin ni nini, wengine wanaweza kuifahamu lakini hawajawahi kuitumia kwa ununuzi wa kila siku, na ni sehemu ndogo tu ya watu wanaojua kuihusu vizuri, bado hawaitumii kwa gharama zao.
+Ikiwa kila kitu kimekuwa sawa hadi sasa, basi tatizo ni nini? Hapa ndipo panapoonekana: unaweza kugundua kuwa wateja hawanunui bitcoins kwenye duka lako! Sababu kubwa ni kwamba watu wengi hata hawajui Bitcoin ni nini; wengine wanaweza kuifahamu, lakini hawajawahi kuitumia kwa ununuzi wa kila siku. Ni sehemu ndogo tu ya watu wanaojua kuhusu Bitcoin vizuri, lakini bado hawaitumii kwa ajili ya gharama zao za kila siku.
 
 
 Kwa nini? Rahisi: watu huwa wanatumia sarafu wanayoona kuwa dhaifu! Sababu hiyo hiyo inayokufanya utake zaidi Bitcoin ili kujilinda dhidi ya kushuka kwa thamani kuepukika kwa sarafu nyingine zote, inawahimiza wengine kutumia sarafu nyingine yoyote kabla ya kuuza bitcoins zao.
@@ -48,7 +48,7 @@ Hili ni punguzo lililowekwa kiholela kwa thamani ya kawaida ya bidhaa, ambayo nd
 #### Kupunguza Kiasi Kinachokamilika
 
 
-Katika hali hii, wazo ni kutenganisha na bei kodi au gharama ya nje ambayo kwa kawaida hujumuishwa katika bei ya mwisho lakini haitumiki au haipaswi kutumika kwa malipo ya Bitcoin. Kwa kawaida mteja anafahamu athari kwenye bei ya kodi au ada hii na ataelewa sera ya punguzo.
+Katika hali hii, lengo ni kutenganisha kodi au gharama ya nje kutoka kwenye bei, ambazo kwa kawaida hujumuishwa katika bei ya mwisho lakini hazitumiki au hazipaswi kutumika kwa malipo ya Bitcoin. Mteja kwa kawaida anafahamu athari za kodi au ada hii kwenye bei, na ataelewa sera ya punguzo.
 
 
 Aina hii ya punguzo ni nzuri zaidi kwa maduka ya kimwili, hasa kwa bidhaa zinazotozwa ushuru mkubwa; kwa `kodi kubwa` tunamaanisha aliquot juu ya 10% iliyoongezwa kwa gharama ya kawaida ya bidhaa. Katika hali ambapo bei ni ya chini na bidhaa ni rahisi na ya bei nafuu, kuna uwezekano kwamba wateja wataona tofauti, hivyo basi uwezekano wao wa kuchagua Bitcoin ni mdogo.
@@ -63,13 +63,13 @@ Nchi zote za Ulaya ziko chini ya ushuru wa matumizi, unaoitwa kwa Kiingereza "Va
 Kwa mfano huu, tuchukulie kuwa tuko Ulaya, ndani ya nchi ambayo kiwango cha VAT ni 20% kwa aina yoyote ya bidhaa. Tuko kwenye duka la viatu, na tuseme jozi ya viatu vya ngozi hugharimu $120 ikiwa italipwa kwa kadi ya benki.
 
 
-Mfanyabiashara anaweza kuomba punguzo sawa na kiwango cha VAT kwa malipo ya Bitcoin, kwa hivyo jozi ya viatu ingegharimu ```120 / 1,20``` ambayo ni sawa na USD 100. Mfano huu unaonyesha moja ya kodi rahisi na ya haraka zaidi; hata hivyo, unaweza kutumia ushuru au ada nyingine yoyote ambayo inajulikana katika eneo lako la mamlaka ili kufanya motisha kuwa na ufanisi zaidi.
+Mfanyabiashara anaweza kuomba punguzo sawa na kiwango cha VAT kwa malipo ya Bitcoin. Hivyo, jozi ya viatu ingegharimu 120 / 1,20 ambayo ni sawa na USD 100. Mfano huu unaonyesha ushuru ulio rahisi na wa haraka zaidi; hata hivyo, unaweza kutumia ushuru au ada nyingine yoyote inayojulikana katika eneo lako la mamlaka ili kufanya motisha iwe na ufanisi zaidi.
 
 
 ### Sera ya Bei ya Juu ya Muda Wote
 
 
-Katika sera hii, mfanyabiashara anakubali malipo ya Bitcoin na kumpa mteja kiwango cha juu zaidi cha Exchange kati ya Bitcoin na sarafu fulani, kwa kawaida USD au EUR. Ni muhimu kutambua kwamba hakuna sababu ya kutotumia kiwango cha Exchange cha sarafu ya nchi yako, hata kama kinatofautiana na hizo mbili zilizotajwa.
+Katika sera hii, mfanyabiashara anakubali malipo kwa Bitcoin na kumpa mteja kiwango cha juu zaidi cha kubadilishana (exchange rate) kati ya Bitcoin na sarafu fulani, kwa kawaida USD au EUR. Ni muhimu kutambua kwamba hakuna sababu ya kutotumia kiwango cha kubadilishana cha sarafu ya nchi yako, hata kama kinatofautiana na zile mbili zilizotajwa.
 
 
 Sera hii kwa ujumla hutumiwa kwa rejareja mtandaoni. Kikwazo ni kwamba wafanyabiashara wengi hawana tovuti zao za kuuza bidhaa mtandaoni; utahitaji kutegemea mfumo wa biashara ya mtandaoni unaotumia sera hii.

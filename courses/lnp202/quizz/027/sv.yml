@@ -1,0 +1,9 @@
+question: Vilken information får Watchtower för att övervaka fusk?
+answer: Delvis TXID för den fuskande transaktionen
+wrong_answers:
+  - Privat kanalnyckel
+  - Fullständig kanalstatus
+  - TXID för den fuskande transaktionen
+explanation: |
+  Vakttornet tar bara emot en del av TXID för den fuskande transaktionen för att identifiera en misstänkt transaktion utan att känna till kanalen.
+reviewed: false

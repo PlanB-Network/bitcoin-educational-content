@@ -7,11 +7,11 @@ description: Cashu mobile wallet kwa malipo ya BTC bila majina na ya papo hapo
 
 
 
-Macadamia Wallet ni wallet ya simu ya iOS inayotumia itifaki ya Cashu, mfumo wa ecash wa Chaumian unaowezesha malipo ya Bitcoin ambayo hayakujulikana kabisa. Shukrani kwa sahihi sahihi, hakuna mwangalizi anayeweza kuunganisha amana zako na matumizi yako, akitoa usiri sawa na pesa taslimu.
+Macadamia Wallet ni wallet ya simu ya iOS inayotumia itifaki ya Cashu, mfumo wa Chaumian ecash unaowezesha malipo ya Bitcoin yasiyoweza kufuatiliwa kabisa. Shukrani kwa blind signatures, hakuna mwangalizi anayeweza kuunganisha amana zako na matumizi yako, na hivyo kutoa kiwango cha faragha kinachofanana na pesa taslimu.
 
 
 
-Katika somo hili, tutaangalia jinsi ya kusakinisha na kusanidi Macadamia, kufanya miamala yako ya kwanza ya Cashu (Mint, Tuma, Pokea, Melt), na kudhibiti minti nyingi ili kupata pesa zako.
+Katika somo hili, tutaangalia jinsi ya kusakinisha na kusanidi Macadamia, kufanya miamala yako ya kwanza ya Cashu (Mint, Send, Receive, Melt), na kudhibiti mint nyingi ili kupata pesa zako.
 
 
 
@@ -19,15 +19,15 @@ Katika somo hili, tutaangalia jinsi ya kusakinisha na kusanidi Macadamia, kufany
 
 
 
-### Itifaki ya Cashu
+### Cashu Protocol
 
 
 
-Cashu hutumia saini za upofu zilizovumbuliwa na David Chaum: unaweka bitcoins na seva ya "mint", ambayo hutoa tokeni sawa katika satoshis. Mint husaini ishara hizi bila kuona maudhui yao, na hivyo kufanya kuwa vigumu kuunganisha token kwa mtumiaji. Mabadilishano ni off-chain, peer-to-peer, na hayaeleweki kabisa - hata mint haiwezi kufuatilia ni nani anamlipa nani.
+Cashu hutumia saini za upofu zilizovumbuliwa na David Chaum: unaweka bitcoin na server ya "mint", ambayo hutoa tokeni sawa katika satoshis. Mint husaini ishara hizi bila kuona maudhui yao, na hivyo kufanya kuwa vigumu kuunganisha token kwa mtumiaji. Mabadilishano ni off-chain, peer-to-peer, na hayaeleweki kabisa - hata mint haiwezi kufuatilia ni nani anamlipa nani.
 
 
 
-Macadamia ni chanzo huria cha wallet iOS kilichotengenezwa katika Swift/SwiftUI. Inafanya kazi bila akaunti au KYC, tokeni zako huhifadhiwa ndani na zinalindwa na maneno ya seed. Msimbo unaweza kukaguliwa kwenye GitHub na tokeni zinaweza kushirikiana na pochi zingine za Cashu (Minibits, Cashu.me).
+Macadamia ni chanzo huria cha wallet iOS kilichotengenezwa katika Swift/SwiftUI. Inafanya kazi bila akaunti au KYC, tokeni zako huhifadhiwa ndani na zinalindwa na maneno ya seed. Msimbo unaweza kukaguliwa kwenye GitHub na tokeni zinaweza kushirikiana na wallets zingine za Cashu (Minibits, Cashu.me).
 
 
 
@@ -39,7 +39,7 @@ Macadamia ni chanzo huria cha wallet iOS kilichotengenezwa katika Swift/SwiftUI.
 
 
 
-Tumia Macadamia kama wallet halisi: kiasi kidogo pekee. Sambaza pesa zako juu ya minti kadhaa ili kupunguza hatari.
+Tumia Macadamia kama wallet halisi: kiasi kidogo pekee. Sambaza pesa zako juu ya mint kadhaa ili kupunguza hatari.
 
 
 
@@ -47,11 +47,11 @@ Tumia Macadamia kama wallet halisi: kiasi kidogo pekee. Sambaza pesa zako juu ya
 
 
 
-Macadamia inatekeleza shughuli nne za kimsingi za itifaki ya Cashu. **Mint** hubadilisha satoshi zako kuwa tokeni kupitia ankara ya Umeme. **Tuma** hukuwezesha kutuma tokeni bila malipo kupitia msimbo wa QR au kiungo, off-chain kabisa. **Pokea** hukuwezesha kupokea tokeni au ankara ya generate ya Umeme. **Melt** hulipa ankara ya umeme kwa kuharibu tokeni zako.
+Macadamia inatekeleza shughuli nne za kimsingi za protocol ya Cashu. **Mint** hubadilisha satoshi zako kuwa tokeni kupitia ankara ya Umeme. **Tuma** hukuwezesha kutuma tokeni bila malipo kupitia msimbo wa QR au kiungo, off-chain kabisa. **Pokea** hukuwezesha kupokea tokeni au ankara ya generate ya Umeme. **Melt** hulipa ankara ya umeme kwa kuharibu tokeni zako.
 
 
 
-wallet inasaidia usimamizi wa minara nyingi kwa wakati mmoja. Unaweza kubadilisha ishara kati ya minti tofauti kupitia Umeme.
+wallet inasaidia usimamizi wa minara nyingi kwa wakati mmoja. Unaweza kubadilisha ishara kati ya mint tofauti kupitia Lightning.
 
 
 
@@ -63,7 +63,7 @@ Macadamia inapatikana tu kwenye iOS 17 au matoleo mapya zaidi kwa iPhone na iPad
 
 
 
-Itifaki ya Cashu inahakikisha ushirikiano kati ya pochi. Unaweza kurejesha maneno yako ya seed katika programu zingine kama vile Minibits kwenye Android au Nutstash kwenye eneo-kazi.
+Cashu protocol inahakikisha ushirikiano kati ya wallet. Unaweza kurejesha maneno yako ya seed katika programu zingine kama vile Minibits kwenye Android au Nutstash kwenye eneo-kazi.
 
 
 
@@ -159,7 +159,7 @@ Sasa unahitaji kusanidi mint, yaani, seva ya Cashu ambayo itatoa ishara zako. Ne
 
 
 
-Ili kulisha Macadamia yako ya wallet na ecash, unahitaji kufanya operesheni ya "Mint" (kuunda ishara). Gusa "Pokea", kisha uchague chaguo la "Umeme". Weka kiasi unachotaka (k.m. 1000 sats), chagua mnanaa utakaotumika, kisha generate ankara ya Umeme.
+Ili kulisha Macadamia yako ya wallet na ecash, unahitaji kufanya operesheni ya "Mint" (kuunda ishara). Gusa "Pokea", kisha uchague chaguo la "Lightning". Weka kiasi unachotaka (k.m. 1000 sats), chagua mnanaa utakaotumika, kisha generate Lightning Invoice.
 
 
 
@@ -167,7 +167,7 @@ Ili kulisha Macadamia yako ya wallet na ecash, unahitaji kufanya operesheni ya "
 
 
 
-Lipa ankara ya Umeme inayozalishwa na wallet yako ya kawaida (Phoenix, Zeus, BlueWallet).
+Lipa Lightning Invoice inayozalishwa na wallet yako ya kawaida (Phoenix, Zeus, BlueWallet).
 
 
 
@@ -191,7 +191,7 @@ Ili kutuma tokeni za Cashu kwa mtumiaji mwingine, gusa kitufe cha "Tuma" kwenye 
 
 
 
-Shiriki msimbo wa QR au maandishi yaliyotolewa kupitia iMessage, Mawimbi au Telegramu. Mpokeaji anadai pesa hizo papo hapo na bila malipo.
+Shiriki msimbo wa QR au maandishi yaliyotolewa kupitia iMessage, signal au Telegram. Mpokeaji anadai pesa hizo papo hapo na bila malipo.
 
 
 
@@ -211,11 +211,11 @@ Gusa "Redeem" ili kudai token.
 
 
 
-### Malipo ya umeme (Melt).
+### Malipo ya Lightning (Melt).
 
 
 
-Ili kulipa ankara ya Umeme kwa tokeni zako za Cashu, gusa "Tuma" kisha uchague "Umeme". Bandika ankara ya BOLT11 unayotaka kulipa.
+Ili kulipa Lightning Invoice kwa tokeni zako za Cashu, gusa "Tuma" kisha uchague "Umeme". Bandika ankara ya BOLT11 unayotaka kulipa.
 
 
 
@@ -223,7 +223,7 @@ Ili kulipa ankara ya Umeme kwa tokeni zako za Cashu, gusa "Tuma" kisha uchague "
 
 
 
-Minti huharibu tokeni zako na kutekeleza malipo ya Umeme. Kwa hivyo unaweza kulipia huduma yoyote ya Umeme huku ukihifadhi jina lako la kutokujulikana.
+Minti huharibu tokeni zako na kutekeleza malipo ya Lightning. Kwa hivyo unaweza kulipia huduma yoyote ya Lightning huku ukihifadhi jina lako la kutokujulikana.
 
 
 
@@ -239,7 +239,7 @@ Unapopokea ishara kutoka kwa mint ambayo haujasanidi, Macadamia inakupa chaguzi 
 
 
 
-Ongeza mnanaa mpya au ubadilishe tokeni kwa mnanaa uliopo. Kubadilishana hutumia Umeme kama daraja ili kuhamisha pesa zako bila kujulikana.
+Ongeza mnanaa mpya au ubadilishe tokeni kwa mnanaa uliopo. Kubadilishana hutumia Lightning kama daraja ili kuhamisha pesa zako bila kujulikana.
 
 
 
@@ -255,7 +255,7 @@ Macadamia inatoa zana za kisasa za kudhibiti minti nyingi kwa wakati mmoja na ku
 
 
 
-"Sambaza Pesa" husambaza salio lako kiotomatiki kulingana na asilimia (k.m. 50/50). "Uhamisho" huruhusu uhamishaji wa mikono kati ya minti ili kubadilisha hatari zako.
+"Sambaza Pesa" husambaza salio lako kiotomatiki kulingana na asilimia (k.m. 50/50). "Uhamisho" huruhusu uhamishaji wa mikono kati ya mint ili kubadilisha hatari zako.
 
 
 
@@ -269,10 +269,10 @@ Macadamia inatoa zana za kisasa za kudhibiti minti nyingi kwa wakati mmoja na ku
 
 
 
-- Usiri wa juu zaidi**: Shughuli zisizoweza kufuatiliwa, hata kwa mint. Hakuna metadata ya blockchain, ubadilishanaji wa rika-kwa-rika bila kufuatilia.
-- Haraka na bila malipo**: Uhamisho wa papo hapo bila malipo ndani ya mint, bora kwa malipo madogo.
-- Mwingiliano**: tokeni sanifu za Cashu kwa matumizi na pochi zingine zinazooana (Minibits, Nutstash).
-- Urahisi**: Asili ya Interface iOS inapatikana kwa wanaoanza huku ikisalia kukaguliwa (chanzo huria).
+- **Usiri wa juu zaidi**: Shughuli zisizoweza kufuatiliwa, hata kwa mint. Hakuna metadata ya blockchain, ubadilishanaji wa peer-to-peer  bila kufuatilia.
+- **Haraka na bila malipo**: Uhamisho wa papo hapo bila malipo ndani ya mint, bora kwa malipo madogo.
+- **Mwingiliano**: tokeni sanifu za Cashu kwa matumizi na pochi zingine zinazooana (Minibits, Nutstash).
+- **Urahisi**: Asili ya Interface iOS inapatikana kwa wanaoanza huku ikisalia kukaguliwa (chanzo huria).
 
 
 
@@ -282,10 +282,10 @@ Macadamia inatoa zana za kisasa za kudhibiti minti nyingi kwa wakati mmoja na ku
 
 
 
-- Muundo wa uhifadhi**: uaminifu wa mint unahitajika. Ikiwa mint itatoweka, ishara zako zinapoteza thamani yao.
-- iOS pekee**: Hakuna toleo la Android/desktop. Ushirikiano wa Cashu huruhusu ufikiaji kupitia pochi zingine, lakini matumizi bora zaidi yanasalia kuwa iOS.
-- Utegemezi wa mint**: Mint nje ya mtandao = haiwezi kufanya miamala inayohitaji uingiliaji kati wake (Mint, Melt).
-- Teknolojia inayoibuka** : Ukuzaji unaoendelea, hitilafu zinazowezekana, viwango vinavyobadilika.
+- **Muundo wa uhifadhi**: uaminifu wa mint unahitajika. Ikiwa mint itatoweka, ishara zako zinapoteza thamani yao.
+- **iOS pekee**: Hakuna toleo la Android/desktop. Ushirikiano wa Cashu huruhusu ufikiaji kupitia wallet zingine, lakini matumizi bora zaidi yanasalia kuwa iOS.
+- **Utegemezi wa mint**: Mint nje ya mtandao = haiwezi kufanya miamala inayohitaji uingiliaji kati wake (Mint, Melt).
+- **Teknolojia inayoibuka** : Ukuzaji unaoendelea, hitilafu zinazowezekana, viwango vinavyobadilika.
 
 
 
@@ -295,12 +295,12 @@ Macadamia inatoa zana za kisasa za kudhibiti minti nyingi kwa wakati mmoja na ku
 
 
 
-- Tengeneza minti yako**: Sambaza chipsi zako kwenye minti kadhaa maarufu ili kupunguza hatari.
-- Kiasi kikomo**: Tumia Macadamia kama wallet halisi kwa malipo ya kila siku, si kama salama.
-- Linda seed** yako: Weka kifungu chako cha maneno 12 kwenye karatasi mahali salama. Jaribio la kurejesha mara kwa mara.
-- Angalia minti**: Pata ushauri wa cashu.space na vikao vya jumuiya kabla ya kuongeza mnanaa. Chagua zile zilizo na wakati mzuri na sifa dhabiti.
-- VPN au Tor**: Ficha IP yako na VPN/Tor ili kuongeza faragha ya mtandao.
-- Jiunge na jumuiya**: Vikundi vya Telegram/Discord Cashu kwa masasisho, mapendekezo madogo na mbinu bora zaidi.
+- **Tengeneza minti yako**: Sambaza chipsi zako kwenye minti kadhaa maarufu ili kupunguza hatari.
+- **Kiasi kikomo**: Tumia Macadamia kama wallet halisi kwa malipo ya kila siku, si kama salama.
+- **Linda seed** yako: Weka kifungu chako cha maneno 12 kwenye karatasi mahali salama. Jaribio la kurejesha mara kwa mara.
+- **Angalia minti**: Pata ushauri wa cashu.space na vikao vya jumuiya kabla ya kuongeza mnanaa. Chagua zile zilizo na wakati mzuri na sifa dhabiti.
+- **VPN au Tor**: Ficha IP yako na VPN/Tor ili kuongeza faragha ya mtandao.
+- **Jiunge na jumuiya**: Vikundi vya Telegram/Discord Cashu kwa masasisho, mapendekezo madogo na mbinu bora zaidi.
 
 
 
@@ -312,7 +312,7 @@ Macadamia Wallet huleta sifa za pesa halisi kwa Bitcoin ya dijiti. Kwa kuchangan
 
 
 
-Mtindo wa ulezi unadai umakini na mazoea mazuri ya usalama. Ikitumiwa kwa njia ipasavyo, Macadamia inakuwa zana muhimu sana ya malipo ya kila siku inayohitaji kutokujulikana, inayosaidia pochi zisizo na dhamana kwa akiba.
+Mtindo wa ulezi unadai umakini na mazoea mazuri ya usalama. Ikitumiwa kwa njia ipasavyo, Macadamia inakuwa zana muhimu sana ya malipo ya kila siku inayohitaji kutokujulikana, inayosaidia wallets zisizo na dhamana kwa akiba.
 
 
 

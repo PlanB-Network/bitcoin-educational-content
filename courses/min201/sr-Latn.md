@@ -107,7 +107,7 @@ Trenutna nagrada rudarima je dvostruka. S jedne strane, uključuje kreiranje nov
 Proces rudarenja uključuje pronalaženje validne heš vrednosti koja je prihvatljiva za Bitcoin mrežu. Kada se izračuna i pronađe, ova heš vrednost je nepovratna, slično kao kada se krompir pretvori u pire krompir. On verifikuje određenu funkciju bez mogućnosti vraćanja unazad. Rudari, u konkurenciji, koriste mašine za izračunavanje ovih heševa. Iako je teoretski moguće pronaći ovu heš vrednost ručno, složenost operacije čini ovu opciju neizvodljivom. Računari, sposobni da brzo izvrše ove proračune, se stoga koriste, trošeći značajnu količinu električne energije.
 
 
-Na početku je dominirala era CPU-a, gde su rudari koristili svoje lične računare za Bitcoin rudarenje. Otkriće prednosti GPU-ova (grafičkih kartica) za ovaj zadatak označilo je prekretnicu, značajno povećavajući [Hashrate] (https://planb.academy/resources/glossary/hashrate) i smanjujući potrošnju energije. Napredak se tu nije zaustavio, sa kasnijim uvođenjem FPGA-ova (polje-programabilnih gejt nizova). FPGA-ovi su služili kao platforma za razvoj ASIC-ova (integrisanih kola specifičnih za aplikaciju).
+Na početku je dominirala era CPU-a, gde su rudari koristili svoje lične računare za Bitcoin rudarenje. Otkriće prednosti GPU-ova (grafičkih kartica) za ovaj zadatak označilo je prekretnicu, značajno povećavajući [Hashrate](https://planb.academy/resources/glossary/hashrate) i smanjujući potrošnju energije. Napredak se tu nije zaustavio, sa kasnijim uvođenjem FPGA-ova (polje-programabilnih gejt nizova). FPGA-ovi su služili kao platforma za razvoj ASIC-ova (integrisanih kola specifičnih za aplikaciju).
 
 
 ![image](assets/en/002.webp)
@@ -175,9 +175,9 @@ Na primer, ako bazen pronađe blok i osvoji 6.25 bitkoina, rudar koji doprinosi 
 ### Softver koji koristi industrija
 
 
-U kontekstu Bitcoin rudarenja, uloga softvera je jednako ključna kao i hardvera. Primer za to ilustruje uloga Bitmain-a, plodnog proizvođača koji je razvio Antminer S9. Pored hardvera za rudarenje, industrija se u velikoj meri oslanja na kolaborativne rudarske bazene, kao što je Brainspool, koji kontroliše približno 5% globalnog Hashrate-a Bitcoin mreže.
+U kontekstu Bitcoin rudarenja, uloga softvera je jednako ključna kao i hardvera. Primer za to ilustruje uloga Bitmain-a, plodnog proizvođača koji je razvio Antminer S9. Pored hardvera za rudarenje, industrija se u velikoj meri oslanja na kolaborativne rudarske bazene, kao što je Braiinspool, koji kontroliše približno 5% globalnog Hashrate-a Bitcoin mreže.
 
-Glumci u ovoj industriji stalno traže načine da povećaju efikasnost putem hardvera i softvera. Na primer, popularan softver koji se koristi u ovom kontekstu je BrainsOS Plus. Ovaj softver zamenjuje originalni operativni sistem mašine za rudarenje, omogućavajući da se iste operacije obavljaju efikasnije. Sa ovakvim softverom, rudar može povećati efikasnost svoje mašine za 25%. To znači da za ekvivalentnu količinu električne energije, mašina može proizvesti dodatnih 25% Hashrate-a, čime se povećavaju nagrade koje dobija rudar. Ova optimizacija softvera je suštinski element konkurentnosti u Bitcoin rudarenju, pokazujući važnost integrisanog pristupa koji kombinuje poboljšanja hardvera i softvera kako bi se maksimizirala efikasnost i povrat.
+Glumci u ovoj industriji stalno traže načine da povećaju efikasnost putem hardvera i softvera. Na primer, popularan softver koji se koristi u ovom kontekstu je BraiinsOS Plus. Ovaj softver zamenjuje originalni operativni sistem mašine za rudarenje, omogućavajući da se iste operacije obavljaju efikasnije. Sa ovakvim softverom, rudar može povećati efikasnost svoje mašine za 25%. To znači da za ekvivalentnu količinu električne energije, mašina može proizvesti dodatnih 25% Hashrate-a, čime se povećavaju nagrade koje dobija rudar. Ova optimizacija softvera je suštinski element konkurentnosti u Bitcoin rudarenju, pokazujući važnost integrisanog pristupa koji kombinuje poboljšanja hardvera i softvera kako bi se maksimizirala efikasnost i povrat.
 
 
 ### Regulacija i tarife za električnu energiju

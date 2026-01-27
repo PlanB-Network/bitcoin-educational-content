@@ -1,0 +1,8 @@
+question: Selon les physiocrates français du XVIIIe siècle, quelle était la source principale de la valeur économique?
+answer: La terre
+wrong_answers:
+  - Le travail humain
+  - La rareté des biens
+  - "L'utilité marginale"
+explanation: |
+  Les physiocrates français du XVIIIe siècle considéraient que la valeur émanait de la terre. Cette conception précédait la théorie de la valeur travail développée plus tard par les économistes classiques comme Adam Smith et David Ricardo. L'utilité marginale et la rareté des biens sont des concepts qui ont émergé bien plus tard avec la révolution marginaliste des années 1870.

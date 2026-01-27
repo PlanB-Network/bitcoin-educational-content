@@ -1,0 +1,8 @@
+question: Ni inyungu iyihe nyamukuru y’ibiranga porogarama zikora vya Rust bigumya ibintu bitagira agaciro?
+answer: Bakora kode y’imashini ikora neza igereranywa n’uburyo bwa kera bushingiye ku nzira y’uruzitiro ataco ihinduye ku bushobozi .
+wrong_answers:
+  - Bikora ubwavyo ugutanga ububiko n'ugukuraho ububiko kugira ngo ntibikoreshe igihe co gukora
+  - Bikuraho ivy’ugusuzuma ubwoko mu gihe co gukoranya mu gihe bigumya ivyemezo vy’umutekano .
+  - Bitanga ubuhinga bwo gukusanya imyanda bukora ataco buhinduye ku muvuduko wo gushirwa mu ngiro kwa porogarama
+explanation: |
+  Ivyiyumviro bitagira igiciro mu biranga porogarama zikora vya Rust bisigura ko gukoresha ibifunga n'ibisubiramwo bitatanga ibikorwa kugira ngo umuntu ashobore kuvuga. Igikoresho co gukoranya amakuru citwa Rust kiratuma ivyo bikoresho vy’urugero rwo hejuru bikora neza kugira ngo bishobore gukora kode y’imashini ikora neza nk’uko bimeze mu bikoresho vya kera vyanditswe n’ukuboko. Ivyo bituma abahinguzi bashobora kwandika kode igaragara cane kandi isomwa ata gihano c’ibikorwa vy’igihe co gukora, ari ryo hame ry’ishimikiro ry’ubuhinga bwo guhingura bwa Rust.

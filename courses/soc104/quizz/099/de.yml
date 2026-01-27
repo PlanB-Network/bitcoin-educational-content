@@ -1,0 +1,9 @@
+question: Welcher grundlegende Ansatz unterscheidet laut Eric Hughes' Cypherpunk Manifesto die Cypherpunks von denen, die lediglich auf den Schutz der Privatsphäre hoffen?
+answer: Sie schreiben aktiv Code, um kryptografische Systeme zu entwickeln, anstatt darauf zu warten, dass Institutionen den Datenschutz gewährleisten
+wrong_answers:
+  - Sie konzentrieren sich auf politische Lobbyarbeit und Gesetzesreformen, um verfassungsmäßige Datenschutzrechte zu etablieren
+  - Sie legen Wert darauf, die Öffentlichkeit durch akademische Forschung und Veröffentlichungen über Überwachungsrisiken aufzuklären
+  - Sie arbeiten innerhalb bestehender Finanzinstitute, um schrittweise Technologien zur Wahrung der Privatsphäre einzuführen
+explanation: |
+  Eric Hughes erklärte ausdrücklich "Cypherpunks schreiben Code" als ihre definierende Methodik. Im Manifest wird betont, dass Cypherpunks nicht darauf warten, dass Regierungen, Unternehmen oder andere Organisationen den Schutz der Privatsphäre gewährleisten.
+  Stattdessen werden sie direkt aktiv, indem sie kryptografische Werkzeuge und dezentrale Systeme entwickeln. Dieser Ansatz des aktiven Aufbaus anstelle passiver Hoffnung oder institutioneller Reformen wurde zur Grundlage für Innovationen wie Bitcoin, das ihre Philosophie des Aufbaus alternativer Systeme außerhalb traditioneller Machtstrukturen verkörperte.

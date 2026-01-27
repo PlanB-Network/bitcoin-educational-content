@@ -1,0 +1,8 @@
+question: Mục đích chính của quy trình xây dựng sighash trong quá trình xác thực giao dịch Bitcoin là gì?
+answer: Để tạo ra thông điệp chính xác như thông điệp ban đầu được ký bằng khóa riêng để xác minh chữ ký.
+wrong_answers:
+  - Đối với generate, một mã định danh duy nhất cho giao dịch nhằm ngăn chặn các cuộc tấn công double-spending.
+  - Nén dữ liệu giao dịch thành định dạng nhỏ hơn để truyền tải qua mạng hiệu quả.
+  - Mã hóa nội dung giao dịch để chỉ người nhận mới có thể giải mã và sử dụng tiền điện tử.
+explanation: |
+  Quá trình tạo sighash tạo ra thông điệp chính xác đã được ký bằng khóa riêng, cho phép OP_CHECKSIG xác minh tính xác thực của chữ ký. Quá trình này bao gồm việc xóa ScriptSigs, thay thế ScriptSig của đầu vào hiện tại bằng ScriptPubKey tương ứng và thêm loại băm trước khi băm kép. Các tùy chọn khác không chính xác: ID giao dịch đóng vai trò là mã định danh, việc nén được xử lý riêng biệt và các giao dịch Bitcoin không được mã hóa nhưng hiển thị công khai trên blockchain.

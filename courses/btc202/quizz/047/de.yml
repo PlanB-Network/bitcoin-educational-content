@@ -5,5 +5,5 @@ wrong_answers:
   - Verwendung eines PIN-Codes
   - Alle Verbindungen deaktivieren
 explanation: |
-  Die 2FA bietet zusätzlichen Schutz und wird dringend empfohlen, insbesondere bei der Verwendung eines Lightning-Knotens oder bei sensiblem Self-Hosting.
+  Die 2FA bietet zusätzlichen Schutz und wird dringend empfohlen, insbesondere bei der Verwendung einer Lightning Node oder bei sensiblem Self-Hosting.
 reviewed: true

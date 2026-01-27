@@ -1,0 +1,9 @@
+question: Koji je glavni kompromis sa LN čvorovima na brodu?
+answer: Zavisnost od operatera
+wrong_answers:
+  - Gubitak privatnih ključeva
+  - Bez samostalnog čuvanja
+  - Onchain plaćanja obavezna za sve Lightning transakcije
+explanation: |
+  Korisnik je u velikoj meri zavistan od glavnog operatera za povezivanje i upravljanje kanalima.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Bitcoin'ın zorluk ayarlama mekanizmasının her 2016-blok ayarlama döneminde değişiklikleri dört faktörle sınırlamasının temel nedeni nedir?
+answer: Hash oranı önemli ölçüde değiştiğinde ağın dengesini bozabilecek aşırı salınımları önlemek için
+wrong_answers:
+  - Madencilerin zorluk derecesi önemli ölçüde artmadan önce donanımlarını yükseltmek için yeterli zamana sahip olmalarını sağlamak
+  - Daha büyük ayarlamalarla güvenilmez hale gelen 32 bit zaman damgası alanıyla uyumluluğu korumak için
+  - Blok sübvansiyon yarılanma takviminin hızlı zorluk değişimleri nedeniyle kesintiye uğramasını önlemek için
+explanation: |
+  Dört kat sınırı, aşırı zorluk değişikliklerinin blok sürelerinde vahşi dalgalanmalara neden olabileceği tehlikeli geri bildirim döngülerini önler. Bu kısıtlama olmadan, ani bir hash oranı düşüşü büyük zorluk düşüşlerini tetikleyebilir, blokları çok kolay hale getirebilir ve potansiyel olarak konsensüsü istikrarsızlaştırabilir. Tersine, büyük artışlar blokların madenciliğini neredeyse imkansız hale getirebilir. Limit, mining yasakları gibi büyük kesintiler sırasında bile ağ istikrarını koruyan kademeli, yönetilebilir ayarlamalar sağlar ve sistemin kaotik salınımlar yaratmak yerine birden fazla ayarlama dönemi boyunca tahmin edilebilir şekilde kendi kendini düzeltmesine olanak tanır.

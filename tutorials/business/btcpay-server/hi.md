@@ -1,5 +1,5 @@
 ---
-name: BTCPay सर्वर
+name: BTCPay Server
 description: बिचौलियों के बिना BTC भुगतान स्वीकार करना
 ---
 

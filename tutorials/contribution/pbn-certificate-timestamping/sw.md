@@ -12,7 +12,7 @@ Ikiwa unasoma haya, kuna uwezekano mkubwa kwamba ulipokea cheti cha mtihani wa �
 Katika somo hili, tutagundua jinsi Plan ₿ Academy hutoa uthibitisho unaoweza kuthibitishwa kwa cheti chako cha mtihani wa ₿-CERT au Diploma yoyote kuhusu Kukamilisha Kozi. Kisha, katika sehemu ya pili tutaeleza jinsi ya kuthibitisha ukweli wa thibitisho hizi.
 
 
-# Utaratibu wa uthibitisho wa Plan ₿ Academy
+## Utaratibu wa uthibitisho wa Plan ₿ Academy
 
 
 Katika Plan ₿ Academy, tunatia sahihi vyeti na diploma kwa njia fiche, na kuziweka muhuri kwa wakati kwa kutumia Timechain (yaani Bitcoin Blockchain), kupitia mbinu ya uthibitisho ambao unategemea utendakazi wa siri mbili:
@@ -34,7 +34,7 @@ Tunaamini kuwa utaratibu huu rahisi wa uthibitisho unatupa uwezo wa kutoa vyeti 
 Shukrani kwa utaratibu huu wa uthibitisho, jaribio lolote la kubadilisha hata maelezo madogo kabisa ya cheti au diploma yako litasababisha SHA-256 Hash tofauti kabisa ya faili iliyotiwa sahihi, na kufichua papo hapo udukuzi wowote, kwani sahihi na Timestamp hazitakuwa halali tena. Zaidi ya hayo, mtu yeyote akijaribu kughushi vyeti au diploma kwa niaba ya Plan ₿ Academy, uthibitishaji rahisi wa sahihi utafichua ulaghai huo.
 
 
-## Je, sahihi ya GPG inafanyaje kazi?
+### Je, sahihi ya GPG inafanyaje kazi?
 
 
 Sahihi ya GPG inatolewa kwa kutumia programu huria iitwayo GNU Privacy Guard. Programu hii huruhusu watumiaji kuunda funguo za faragha kwa urahisi, kutia sahihi na kuthibitisha sahihi, na kusimba kwa njia fiche na kusimbua faili. Kwa madhumuni ya mafunzo haya, ni muhimu kutambua kwamba Plan ₿ Academy hutumia GPG kuunda funguo zake za faragha/umma na kutia sahihi Vyeti vyote vya ₿-CERT na Diploma za Kumaliza Kozi.
@@ -46,7 +46,7 @@ Kwa upande mwingine, ikiwa mtu anataka kuthibitisha uhalisi wa faili iliyotiwa s
 Kwa wale ambao wana hamu ya kujua na wanataka kujifunza zaidi kuhusu programu hii nzuri, unaweza kurejelea ["Mwongozo wa Faragha wa GNU"](https://www.gnupg.org/gph/en/manual/x135.html)
 
 
-## Je, kuweka muhuri kwa wakati hufanyaje kazi?
+### Je, kuweka muhuri kwa wakati hufanyaje kazi?
 
 
 Mtu yeyote anaweza kutumia OpenTimestamps ili Timestamp faili na kupata uthibitisho unaoweza kuthibitishwa wa kuwepo kwake. Kwa maneno mengine, haitoi uthibitisho wa wakati faili iliundwa, lakini badala ya uthibitisho kwamba faili haikuwepo baadaye kuliko wakati maalum kwa wakati.
@@ -56,10 +56,10 @@ OpenTimestamps hutoa huduma hii bila malipo kwa kutumia njia bora sana ya kuhifa
 Mara tu muamala huu unapoingia kwenye kizuizi, mtu yeyote aliye na faili ya awali na faili ya `.ots` inayohusishwa nayo anaweza kuthibitisha uhalisi wa muhuri wa nyakati. Katika sehemu ya pili ya mafunzo, tutaona jinsi ya kuthibitisha Cheti chako cha Bitcoin au Stashahada yoyote ya Kumaliza Kozi kupitia teminali na kupitia mchoro wa Interface kwenye tovuti ya OpenTimestamps.
 
 
-# Jinsi ya kuthibitisha cheti cha Plan ₿ Academy ₿-CERT au Diploma
+## Jinsi ya kuthibitisha cheti cha Plan ₿ Academy ₿-CERT au Diploma
 
 
-## Hatua ya 1. Pakua Cheti au Diploma yako
+### Hatua ya 1. Pakua Cheti au Diploma yako
 
 
 Ingia kwenye dashibodi yako ya kibinafsi/ya mwanafunzi kwenye planb.network.
@@ -89,7 +89,7 @@ Toa yaliyomo kwa kubofya kulia kwenye faili ya `.zip` na kuchagua "Dondoo". Utap
 - Cheti cha PDF (k.m. cheti.pdf)
 
 
-## Hatua ya 2: Unawezaje kuthibitisha Sahihi ya Faili ya Maandishi?
+### Hatua ya 2: Unawezaje kuthibitisha Sahihi ya Faili ya Maandishi?
 
 
 Kwanza, nenda kwenye folda ambapo ulitoa faili na ufungue terminal (bonyeza-kulia kwenye dirisha la folda na ubofye "Fungua kwenye Teminal"). Kisha, fuata maagizo hapa chini.
@@ -99,7 +99,7 @@ Kwanza, nenda kwenye folda ambapo ulitoa faili na ufungue terminal (bonyeza-kuli
 
 
 ```bash
-curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/Plan ₿ Academy-pk.asc | gpg --import
+curl -s https://raw.githubusercontent.com/Asi0Flammeus/pgp-public-keys/master/planb-network-pk.asc | gpg --import
 ```
 
 
@@ -147,10 +147,10 @@ gpg: Good signature from "Plan ₿ Academy (used for Plan ₿ Academy platform) 
 Ukiona ujumbe kama "saini MBAYA", hiyo inamaanisha kuwa faili imechezewa.
 
 
-## Hatua ya 3: Kuthibitisha Open Timestamp
+### Hatua ya 3: Kuthibitisha Open Timestamp
 
 
-### Inathibitisha kupitia Graphical Interface
+#### Inathibitisha kupitia Graphical Interface
 
 
 1. Tembelea tovuti ya OpenTimestamps: https://opentimestamps.org/
@@ -170,7 +170,7 @@ Ukiona ujumbe kama ufuatao, Timestamp ni halali:
 ![cover](assets/opentimestamp_wegui_verified.webp)
 
 
-### Njia ya CLI
+#### Njia ya CLI
 
 
 KUMBUKA: utaratibu huu **utahitaji nodi ya ndani ya Bitcoin **
@@ -204,7 +204,7 @@ Amri hii itakuwa:
 - Thibitisha uhalisi wa Timestamp
 
 
-### Matokeo ya mwisho
+#### Matokeo ya mwisho
 
 
 Uthibitishaji umefaulu ikiwa **jumbe zote mbili** zitaonyeshwa:

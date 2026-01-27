@@ -96,6 +96,6 @@ Näiteks uue õpetuse loomisel peate looma YAML (`.yml`) faili, et sisestada oma
 Selleks on teil mitmeid võimalusi. Kuigi arvuti tavalist märkmikku saab nende muudatuste tegemiseks kasutada, ei ole see lahendus korraliku töö jaoks ideaalne. Soovitan valida spetsiaalselt selleks otstarbeks loodud tarkvara, nagu [VS Code](https://code.visualstudio.com/download) või [Sublime Text](https://www.sublimetext.com/download). Sublime Text, olles eriti kergekaaluline, on meie vajadusteks enam kui piisav. - Installige üks neist tarkvaradest ja hoidke see oma tulevaste muudatuste jaoks kõrvale. ![github-desktop](assets/26.webp)
 Palju õnne! Teie töökeskkond on nüüd seadistatud, et panustada PlanB Networki. Nüüd saate uurida meie teisi spetsiifilisi õpetusi iga panuse tüübi kohta (tõlkimine, toimetamine, kirjutamine.
 
-https://planb.academy/tutorials/others
+https://planb.academy/tutorials/contribution
 
 ..).

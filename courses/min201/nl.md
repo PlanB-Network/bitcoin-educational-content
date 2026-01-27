@@ -175,9 +175,9 @@ Als een pool bijvoorbeeld een blok vindt en 6,25 bitcoins wint, ontvangt een Min
 ### Software gebruikt door de industrie
 
 
-In de context van Bitcoin Mining is de rol van software net zo cruciaal als die van hardware. Een voorbeeld hiervan is de rol van Bitmain, een productieve fabrikant die de Antminer S9 ontwikkelde. Naast Mining hardware vertrouwt de industrie sterk op samenwerkende Mining pools, zoals Brainspool, dat ongeveer 5% van de wereldwijde Hashrate van het Bitcoin netwerk controleert.
+In de context van Bitcoin Mining is de rol van software net zo cruciaal als die van hardware. Een voorbeeld hiervan is de rol van Bitmain, een productieve fabrikant die de Antminer S9 ontwikkelde. Naast Mining hardware vertrouwt de industrie sterk op samenwerkende Mining pools, zoals Braiinspool, dat ongeveer 5% van de wereldwijde Hashrate van het Bitcoin netwerk controleert.
 
-De spelers in deze sector zijn voortdurend op zoek naar meer efficiëntie door middel van hardware en software. Een populaire software die in deze context wordt gebruikt is bijvoorbeeld BrainsOS Plus. Deze software vervangt het oorspronkelijke besturingssysteem van de Mining machine, waardoor dezelfde handelingen efficiënter uitgevoerd kunnen worden. Met dergelijke software kan een Miner de efficiëntie van zijn machine met 25% verhogen. Dit betekent dat de machine voor een gelijkwaardige hoeveelheid elektriciteit 25% meer Hashrate kan produceren, waardoor de Miner meer beloningen ontvangt. Deze softwareoptimalisatie is een essentieel element van het concurrentievermogen in Bitcoin Mining, wat het belang aantoont van een geïntegreerde aanpak die zowel hardware- als softwareverbeteringen combineert om de efficiëntie en het rendement te maximaliseren.
+De spelers in deze sector zijn voortdurend op zoek naar meer efficiëntie door middel van hardware en software. Een populaire software die in deze context wordt gebruikt is bijvoorbeeld BraiinsOS Plus. Deze software vervangt het oorspronkelijke besturingssysteem van de Mining machine, waardoor dezelfde handelingen efficiënter uitgevoerd kunnen worden. Met dergelijke software kan een Miner de efficiëntie van zijn machine met 25% verhogen. Dit betekent dat de machine voor een gelijkwaardige hoeveelheid elektriciteit 25% meer Hashrate kan produceren, waardoor de Miner meer beloningen ontvangt. Deze softwareoptimalisatie is een essentieel element van het concurrentievermogen in Bitcoin Mining, wat het belang aantoont van een geïntegreerde aanpak die zowel hardware- als softwareverbeteringen combineert om de efficiëntie en het rendement te maximaliseren.
 
 
 ### Regelgeving en elektriciteitstarieven
@@ -681,18 +681,18 @@ Lijst met apparatuur en links
 
 
 
-- [2X NF-A14 iPPC-2000 PWM] (https://www.amazon.fr/Noctua-nf-polarized-A14-industrialppc-PWM-2000/dp/B00KESSUDW)
+- [2X NF-A14 iPPC-2000 PWM](https://www.amazon.fr/Noctua-nf-polarized-A14-industrialppc-PWM-2000/dp/B00KESSUDW)
 
 
 
-- [2X 140 mm ventilatorroosters] (https://www.amazon.fr/dp/B06XD4FTSQ)
-- [Noctua NF-A6x25 PWM] (https://www.amazon.fr/Noctua-nf-a6-25-PWM-Ventilateur-Marron/dp/B00VXTANZ4)
+- [2X 140 mm ventilatorroosters](https://www.amazon.fr/dp/B06XD4FTSQ)
+- [Noctua NF-A6x25 PWM](https://www.amazon.fr/Noctua-nf-a6-25-PWM-Ventilateur-Marron/dp/B00VXTANZ4)
 
 
 
-- [Elektriciteitssuiker 2,5 mm²] (https://www.amazon.fr/Legrand-LEG98433-Borne-raccordement-Nylbloc/dp/B00BBHXLYS)
-- [Vonets vap11g-300] (https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W)
-- [Optionele ANTELA smart plug] (https://www.amazon.fr/dp/B09YYMVXJZ)
+- [Elektriciteitssuiker 2,5 mm²](https://www.amazon.fr/Legrand-LEG98433-Borne-raccordement-Nylbloc/dp/B00BBHXLYS)
+- [Vonets vap11g-300](https://www.amazon.fr/Vonets-VAP11G-300-Bridge-convertit-Ethernet/dp/B014SK2H6W)
+- [Optionele ANTELA smart plug](https://www.amazon.fr/dp/B09YYMVXJZ)
 
 
 # Attakai - De software van een Antminer S9 aanpassen
@@ -783,7 +783,7 @@ Deze methode kan worden toegepast tussen 2 minuten en 10 minuten na het starten 
 De originele software die Antminer installeerde op hun Mining machines is beperkt in functionaliteit. Daarom installeren we in deze gids een andere software, genaamd BraiinsOS+. Het is software van derden, ontwikkeld door de allereerste Bitcoin Mining pool, die meer mogelijkheden heeft en bijvoorbeeld het vermogen van de machine kan aanpassen.
 
 
-Er zijn verschillende manieren om Braiins OS+ op een ASIC te installeren. Je kunt zowel deze gids als de [officiële Braiins documentatie] (https://academy.braiins.com/en/braiins-os/about/) raadplegen.
+Er zijn verschillende manieren om Braiins OS+ op een ASIC te installeren. Je kunt zowel deze gids als de [officiële Braiins documentatie](https://academy.braiins.com/en/braiins-os/about/) raadplegen.
 
 
 Hier zullen we zien hoe je eenvoudig Braiins OS+ direct op het geheugen van je Antminer kunt installeren met behulp van de BOS toolbox software, ter vervanging van het originele besturingssysteem, door middel van de gedetailleerde stappen hieronder.

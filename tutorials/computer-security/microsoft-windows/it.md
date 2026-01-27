@@ -14,7 +14,7 @@ In questa esercitazione scopriremo come installare automaticamente Windows 11 ut
 La prima cosa di cui avrete bisogno è un file di installazione. Il luogo più sicuro e affidabile per scaricarlo è direttamente il sito ufficiale di Microsoft.
 
 
-È sufficiente visitare il link fornito di seguito e seguire le istruzioni per scaricare il [file ISO di Windows 11] (https://www.microsoft.com/en-us/software-download/windows11)
+È sufficiente visitare il link fornito di seguito e seguire le istruzioni per scaricare il [file ISO di Windows 11](https://www.microsoft.com/en-us/software-download/windows11)
 
 
 ![Image](assets/en/02.webp)
@@ -237,7 +237,7 @@ Infine, dopo aver applicato le impostazioni desiderate, è possibile scaricare i
 Facendo clic su Download XML File, viene scaricato il file autounattend.xml. Per utilizzare questo file, è sufficiente montare la ISO scaricata su un'unità USB, collocare il file autounattend.xml nella directory principale e procedere con l'installazione di Windows.
 
 
-Uno degli strumenti disponibili per creare un'unità USB avviabile è Rufus. Rufus può creare una chiavetta di installazione di Windows avviabile, con un determinato file ISO di installazione di Windows. È semplice e veloce; potete scaricarlo [qui] (https://rufus.ie/en/#download)
+Uno degli strumenti disponibili per creare un'unità USB avviabile è Rufus. Rufus può creare una chiavetta di installazione di Windows avviabile, con un determinato file ISO di installazione di Windows. È semplice e veloce; potete scaricarlo [qui](https://rufus.ie/en/#download)
 
 
 ![Image](assets/en/21.webp)

@@ -63,7 +63,7 @@ Speed Wallet tersedia sebagai aplikasi seluler di platform Android (Google Play 
 
 
 
-Anda dapat menemukan tautan untuk mengunduh platform di situs web resmi [Speed Wallet] (https://speed.app).
+Anda dapat menemukan tautan untuk mengunduh platform di situs web resmi [Speed Wallet](https://speed.app).
 
 
 
@@ -333,7 +333,7 @@ https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90
 
 
 
-Selain aplikasi seluler, Speed Wallet juga menawarkan [ekstensi Web Chrome] (https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk) yang dapat Anda tambahkan ke browser Google Chrome komputer Anda untuk transaksi yang aman.
+Selain aplikasi seluler, Speed Wallet juga menawarkan [ekstensi Web Chrome](https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk) yang dapat Anda tambahkan ke browser Google Chrome komputer Anda untuk transaksi yang aman.
 
 
 
@@ -365,7 +365,7 @@ Speed Wallet memberikan penekanan khusus pada integrasi dan penggunaan Bitcoin d
 
 
 
-Dari [Speed Business] (https://www.tryspeed.com/), Anda memiliki agregator pembayaran terpadu untuk menerima Bitcoin, yang didukung oleh Lightning Network yang dapat Anda gunakan di toko Anda, baik secara online maupun fisik.
+Dari [Speed Business](https://www.tryspeed.com/), Anda memiliki agregator pembayaran terpadu untuk menerima Bitcoin, yang didukung oleh Lightning Network yang dapat Anda gunakan di toko Anda, baik secara online maupun fisik.
 
 
 

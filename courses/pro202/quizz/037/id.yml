@@ -1,0 +1,8 @@
+question: Apa yang menyebabkan bug off-by-one di OP_CHECKMULTISIG yang membutuhkan OP_0 tambahan dalam ScriptSigs multisig kosong?
+answer: OP_CHECKMULTISIG menggunakan elemen tumpukan tambahan di luar tanda tangan dan kunci publik yang diharapkan
+wrong_answers:
+  - Proses verifikasi tanda tangan membutuhkan byte tambahan agar validasi ECDSA dapat berfungsi dengan benar
+  - "Implementasi stack Bitcoin memiliki pemeriksaan batas yang membutuhkan elemen padding untuk penyelarasan memori"
+  - Penghitungan ambang batas multisig dimulai dari nol, bukan satu, sehingga membutuhkan nilai penampung offset
+explanation: |
+  Opcode OP_CHECKMULTISIG memiliki bug implementasi di mana ia memunculkan satu item lebih banyak dari stack daripada yang seharusnya selama eksekusi. Ini berarti bahwa selain m tanda tangan yang diperlukan dan n kunci publik, ia mengkonsumsi elemen tumpukan tambahan. Untuk mencegah operasi gagal, ScriptSig multisig telanjang harus menyertakan OP_0 awal (yang mendorong larik byte kosong) untuk memenuhi konsumsi stack yang tidak terduga ini. Opsi-opsi lain menjelaskan masalah teknis yang terdengar masuk akal tetapi bukan penyebab sebenarnya dari keanehan Bitcoin yang terkenal ini.

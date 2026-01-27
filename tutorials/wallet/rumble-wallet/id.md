@@ -1,12 +1,12 @@
 ---
-name: Gemuruh Wallet
+name: Rumble Wallet
 description: Bergabunglah dengan para kreator yang membela kebebasan berpendapat melalui kebebasan finansial.
 ---
 
 ![cover](assets/cover.webp)
 
 
-Anda mungkin sudah tidak asing lagi dengan [Rumble] (https://rumble.com/), platform video online yang didirikan pada tahun 2013, yang secara bertahap memantapkan dirinya sebagai alternatif independen untuk Big Tech. Dikenal karena komitmennya terhadap kebebasan berbicara dan tujuannya untuk menawarkan kreator ruang yang bebas dari sensor dan ketergantungan pada infrastruktur besar yang tersentralisasi, Rumble telah membangun ekosistem yang lengkap. Hari ini, Rumble mengambil langkah baru ke ranah finansial dengan meluncurkan [**Rumble Wallet**] (https://wallet.rumble.com/), aplikasi wallet yang dikembangkan dalam kemitraan dengan Tether.
+Anda mungkin sudah tidak asing lagi dengan [Rumble](https://rumble.com/), platform video online yang didirikan pada tahun 2013, yang secara bertahap memantapkan dirinya sebagai alternatif independen untuk Big Tech. Dikenal karena komitmennya terhadap kebebasan berbicara dan tujuannya untuk menawarkan kreator ruang yang bebas dari sensor dan ketergantungan pada infrastruktur besar yang tersentralisasi, Rumble telah membangun ekosistem yang lengkap. Hari ini, Rumble mengambil langkah baru ke ranah finansial dengan meluncurkan [**Rumble Wallet**](https://wallet.rumble.com/), aplikasi wallet yang dikembangkan dalam kemitraan dengan Tether.
 
 
 Ambisinya jelas: untuk menggabungkan kebebasan berpendapat dengan kebebasan finansial. Sementara Rumble mempromosikan distribusi konten tanpa sensor secara online, Rumble Wallet bertujuan untuk menyediakan sistem pembayaran yang cepat, berdaulat, dan tanpa penahanan bagi para kreator dan pengguna. Dalam praktiknya, ini berarti Anda memiliki kontrol penuh atas kunci pribadi Anda - dan karenanya dana Anda - tanpa bergantung pada bank, pemroses pembayaran, atau platform pihak ketiga: lebih sedikit risiko, biaya lebih rendah, dan tidak ada penundaan penarikan.
@@ -285,7 +285,7 @@ Dengan cara yang sama, Anda bisa menjual bitcoin Anda dengan euro, dolar, atau m
 ## 7. Memberi Tip kepada Kreator di Rumble
 
 
-Seperti yang telah disebutkan dalam pendahuluan, Rumble Wallet terintegrasi secara sempurna dengan [platform video Rumble] (https://rumble.com/). Hal ini memungkinkan Anda untuk dengan mudah mengirim tip dalam Bitcoin atau USDT ke kreator favorit Anda tanpa melalui perantara apa pun.
+Seperti yang telah disebutkan dalam pendahuluan, Rumble Wallet terintegrasi secara sempurna dengan [platform video Rumble](https://rumble.com/). Hal ini memungkinkan Anda untuk dengan mudah mengirim tip dalam Bitcoin atau USDT ke kreator favorit Anda tanpa melalui perantara apa pun.
 
 
 Untuk melakukan ini, Anda harus mengaktifkan fitur ***Tip Jars***. Dari halaman beranda Rumble Wallet, klik tombol "*Activate Tip Jars*".

@@ -1,0 +1,8 @@
+question: Qual é a principal vantagem de as funcionalidades de programação funcional do Rust manterem as abstracções de custo zero?
+answer: Produzem código de máquina eficiente, comparável às abordagens tradicionais baseadas em ciclos, sem sacrificar o desempenho
+wrong_answers:
+  - Tratam automaticamente da alocação e desalocação de memória para evitar completamente a sobrecarga de tempo de execução
+  - Eliminam a necessidade de verificação de tipos em tempo de compilação, mantendo as garantias de segurança
+  - Fornecem a funcionalidade de recolha de lixo que é executada sem afetar a velocidade de execução do programa
+explanation: |
+  As abstrações de custo zero nos recursos de programação funcional do Rust significam que o uso de closures e iteradores não sacrifica o desempenho pela expressividade. O compilador do Rust optimiza estas construções de alto nível para produzir código de máquina que funciona tão bem como os loops tradicionais escritos à mão. Isso permite que os desenvolvedores escrevam códigos mais expressivos e legíveis sem pagar uma penalidade de desempenho em tempo de execução, que é um princípio fundamental da filosofia de design do Rust.

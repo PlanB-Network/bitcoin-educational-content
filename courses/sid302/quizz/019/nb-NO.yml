@@ -1,0 +1,8 @@
+question: Hva skiller regulerte aktiva fra uregulerte aktiva i Liquids opprinnelige aktivasystem?
+answer: Regulerte eiendeler krever en ny signatur fra en autorisasjonsserver før de kan flyttes, noe som muliggjør etterlevelse av KYC/AML
+wrong_answers:
+  - Regulerte eiendeler bruker smartkontrakter, mens uregulerte eiendeler bruker enkle RPC-anrop for utstedelse
+  - Regulerte eiendeler støttes av Bitcoin-reserver, mens uregulerte eiendeler kun eksisterer på sidekjeden
+  - Regulerte eiendeler krever godkjenning fra myndighetene for å opprettes, mens uregulerte eiendeler kan utstedes uten tillatelse
+explanation: |
+  I Liquids arkitektur kan både regulerte og uregulerte aktiva utstedes uten tillatelse ved hjelp av enkle RPC-anrop uten smartkontrakter. Hovedforskjellen ligger i deres bevegelse: Regulerte aktiva bruker Blockstreams Asset Management Platform (AMP) for å håndheve samsvar ved å kreve en ekstra autorisasjonssignatur før overføringer, mens uregulerte aktiva kan bevege seg fritt uten slike begrensninger.

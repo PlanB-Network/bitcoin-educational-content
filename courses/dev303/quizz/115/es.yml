@@ -1,0 +1,8 @@
+question: ¿Qué problema crítico resuelve el mecanismo de canal justo a tiempo del SDK de Breez con el que luchan las implementaciones tradicionales de Lightning?
+answer: Crea automáticamente nuevos canales con suficiente liquidez entrante cuando llegan los pagos, eliminando la necesidad de que los usuarios gestionen manualmente la capacidad de los canales
+wrong_answers:
+  - Evita el cierre forzoso de canales reequilibrando automáticamente los fondos entre varios canales cuando uno deja de responder o se desconecta
+  - Reduce las comisiones de transacción al agrupar varios pagos pequeños en operaciones de mayor envergadura que se procesan durante las horas de menor actividad de la red
+  - Elimina la necesidad de servicios de torre de vigilancia mediante la creación de canales temporales que caducan automáticamente después de completar el pago con éxito
+explanation: |
+  El mecanismo de canal justo a tiempo aborda específicamente el reto de gestión de liquidez de Lightning, donde los fondos sólo pueden fluir en direcciones donde existe capacidad. Cuando un usuario necesita recibir un pago pero carece de suficiente liquidez entrante, el PSL abre automáticamente un nuevo canal en el momento en que llega el pago, lo que sucede sin problemas y sin intervención del usuario. Las respuestas erróneas describen otros retos del Rayo, pero no el problema específico de liquidez que resuelven los canales just-in-time.

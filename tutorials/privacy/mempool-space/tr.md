@@ -52,7 +52,7 @@ https://planb.academy/tutorials/node/bitcoin/umbrel-8b0e3b5b-d3cf-4a1e-8bb8-1ad2
 
 
 
-Yukarıda belirtildiği gibi, [Mempool.space] (https://Mempool.space), işlemlerinizi ve bunların seçilen Bitcoin ağındaki yayılımını grafiksel bir Interface'den gerçek zamanlı olarak izlemenizi sağlayan bir Bitcoin protokol gezginidir.
+Yukarıda belirtildiği gibi, [Mempool.space](https://Mempool.space), işlemlerinizi ve bunların seçilen Bitcoin ağındaki yayılımını grafiksel bir Interface'den gerçek zamanlı olarak izlemenizi sağlayan bir Bitcoin protokol gezginidir.
 
 
 
@@ -212,7 +212,7 @@ https://planb.academy/tutorials/wallet/mobile/blue-wallet-2f4093da-6d03-4f26-837
 
 
 
-Tüm bu terimler biraz fazla teknik görünüyorsa, Bitcoin ve ekosistemiyle ilgili tüm teknik terimlerin tanımlarını içeren [sözlüğümüze] (https://planb.academy/resources/glossary) başvurmanızı tavsiye ederim.
+Tüm bu terimler biraz fazla teknik görünüyorsa, Bitcoin ve ekosistemiyle ilgili tüm teknik terimlerin tanımlarını içeren [sözlüğümüze](https://planb.academy/resources/glossary) başvurmanızı tavsiye ederim.
 
 
 

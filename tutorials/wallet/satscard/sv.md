@@ -42,7 +42,7 @@ Du behöver också en telefon som är kompatibel med NFC-kommunikation eller en 
 När du har fått ditt Satscard är det första steget att kontrollera förpackningen för att säkerställa att den inte har öppnats. Om paketet är skadat kan det tyda på att kortet har äventyrats och kanske inte är äkta.
 
 
-För att hantera Satscard kommer vi att använda mobilapplikationen **Nunchuk Wallet**. Se till att din smartphone är NFC-kompatibel och ladda sedan ner Nunchuk från [Google Play Store] (https://play.google.com/store/apps/details?id=io.nunchuk.android), [App Store] (https://apps.apple.com/us/app/nunchuk-Bitcoin-Wallet/id1563190073) eller direkt via dess [`.apk`-fil] (https://github.com/nunchuk-io/nunchuk-android/releases).
+För att hantera Satscard kommer vi att använda mobilapplikationen **Nunchuk Wallet**. Se till att din smartphone är NFC-kompatibel och ladda sedan ner Nunchuk från [Google Play Store](https://play.google.com/store/apps/details?id=io.nunchuk.android), [App Store](https://apps.apple.com/us/app/nunchuk-Bitcoin-Wallet/id1563190073) eller direkt via dess [`.apk`-fil](https://github.com/nunchuk-io/nunchuk-android/releases).
 
 
 ![SATSCARD](assets/notext/02.webp)

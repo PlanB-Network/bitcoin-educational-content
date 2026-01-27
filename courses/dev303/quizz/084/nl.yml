@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste architecturale voordeel van UniFFI's gelaagde aanpak bij het integreren van Rust bibliotheken met doeltalen zoals Swift of Kotlin?
+answer: De bindingslaag handelt typevertalingen en geheugenbeheer af, terwijl een volledig eigen interface naar de doeltaal wordt gepresenteerd
+wrong_answers:
+  - Het UDL-bestand compileert Rust code automatisch in bytecode die zonder vertaling direct op mobiele platforms kan draaien
+  - De Rust bibliotheekcode wordt automatisch herschreven in de syntaxis van de doeltaal om aanroepen van vreemde functie-interfaces te elimineren
+  - De doeltaalapplicaties hebben direct toegang tot Rust geheugenstructuren via gedeelde pointers om data marshaling overhead te vermijden
+explanation: |
+  De architectuur van UniFFI creëert een scheiding waarbij gegenereerde bindingscode fungeert als een vertaallaag tussen de doeltaal en Rust. Deze laag handelt complexe marshaling/unmarshaling van datatypes af, beheert het geheugen veilig over taalgrenzen heen en biedt foutafhandeling volgens conventies van de doeltaal. De andere opties zijn onjuist, omdat UniFFI niet compileert naar bytecode (het genereert bindingen), Rust code niet herschrijft in andere talen (het behoudt de originele Rust implementatie) en geen gedeelde geheugentoegang gebruikt (het marshalt gegevens veilig over grenzen heen).

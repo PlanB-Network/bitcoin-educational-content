@@ -1,5 +1,5 @@
 ---
-name: सीडकीपर x सीडसाइनर
+name: Seedkeeper x SeedSigner
 description: मैं अपने सीडसाइनर के साथ सीडकीपर का उपयोग कैसे करूं?
 ---
 

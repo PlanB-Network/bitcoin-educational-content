@@ -1,0 +1,8 @@
+question: Apa perbedaan arsitektur blockchain yang mendasar yang membuat Liquid lebih cocok untuk operasi keuangan yang sangat penting dibandingkan dengan platform tokenisasi berbasis Ethereum?
+answer: Liquid menggunakan model UTXO dari Bitcoin yang memberikan hasil transaksi yang deterministik, sementara model akun Ethereum dapat menghasilkan transaksi yang gagal yang masih mengkonsumsi biaya gas
+wrong_answers:
+  - Liquid beroperasi dengan mekanisme konsensus proof-of-stake sementara Ethereum bergantung pada proof-of-work mining yang intensif energi untuk validasi transaksi
+  - "Struktur sidechain federasi Liquid memungkinkan throughput transaksi yang tidak terbatas sementara Ethereum dibatasi oleh batasan ukuran blok rantai tunggal"
+  - Liquid mengimplementasikan fungsionalitas kontrak pintar asli melalui skrip Elements sementara Ethereum membutuhkan lingkungan eksekusi mesin virtual eksternal
+explanation: |
+  Sifat deterministik model UTXO sangat penting bagi lembaga keuangan karena transaksi dapat berhasil sepenuhnya atau gagal tanpa biaya apa pun, memberikan hasil yang dapat diprediksi. Model akun Ethereum dapat mengakibatkan transaksi yang gagal yang masih mengkonsumsi biaya gas, menciptakan ketidakpastian operasional dan biaya tambahan yang tidak dapat diterima untuk operasi keuangan yang sangat penting di mana keandalan dan prediktabilitas biaya adalah yang terpenting.

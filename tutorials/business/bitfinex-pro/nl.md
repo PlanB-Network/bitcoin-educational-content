@@ -22,7 +22,7 @@ https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 ## 1 - Een Bitfinex account aanmaken
 
 
-Ga naar [de officiële website van Bitfinex] (https://www.bitfinex.com/). Zoek en klik op de startpagina op de optie "*Sign Up*" om te beginnen met het aanmaken van uw account. In eerste instantie maakt u een standaardaccount zoals voor particulieren, de optie "*Corporate*" selecteert u later tijdens het verificatieproces.
+Ga naar [de officiële website van Bitfinex](https://www.bitfinex.com/). Zoek en klik op de startpagina op de optie "*Sign Up*" om te beginnen met het aanmaken van uw account. In eerste instantie maakt u een standaardaccount zoals voor particulieren, de optie "*Corporate*" selecteert u later tijdens het verificatieproces.
 
 
 ![BITFINEX](assets/fr/01.webp)

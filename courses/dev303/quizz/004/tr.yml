@@ -1,0 +1,8 @@
+question: Rust'da bir değişkeni ilk bildiriminden sonra değiştirilebilir yapmak için hangi anahtar sözcük gereklidir?
+answer: mut
+wrong_answers:
+  - var
+  - değiştirilebilir
+  - değişim
+explanation: |
+  Rust'de, bir değişkeni mutable olarak bildirmek için 'mut' anahtar sözcüğü gereklidir, bu da ilk atamadan sonra değerinin değiştirilmesine izin verir. Varsayılan olarak, Rust'deki tüm değişkenler güvenlik nedenleriyle değişmezdir. Sözdizimi, değişebilir bir değişken için 'let mut x = 5' ve değişmez bir değişken için 'let x = 5' şeklindedir. 'var', 'mutable' ve 'change' gibi diğer seçenekler bu amaç için geçerli Rust anahtar sözcükleri değildir.

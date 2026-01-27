@@ -1,0 +1,8 @@
+question: Mikä matemaattinen ominaisuus takaa sen, että elliptisen käyrän pisteitä voidaan lisätä yhteen johdonmukaisesti ja ennustettavasti kryptografisissa operaatioissa?
+answer: Pisteet muodostavat matemaattisen ryhmän, jolla on sulkeutuvuus, assosiatiivisuus, identiteetti ja käänteisluvut
+wrong_answers:
+  - Pisteet säilyttävät jatkuvat sileät käyrät, jotka säilyttävät geometriset suhteet
+  - Pisteet noudattavat lineaarisia etenemismalleja, jotka luovat ennustettavia sekvenssejä
+  - Pisteissä käytetään modulaarista aritmetiikkaa, joka automaattisesti estää laskuvirheet
+explanation: |
+  Elliptisen käyrän pisteet muodostavat matemaattisen ryhmän yhteenlaskussa, mikä tarkoittaa, että ne täyttävät neljä olennaista ominaisuutta: sulkeutuneisuus (kahden pisteen lisääminen antaa toisen pisteen käyrälle), assosiatiivisuus (operaatioiden järjestyksellä ei ole väliä), identtisyys (äärettömyyspiste toimii nollana) ja käänteisyys (jokaisella pisteellä on heijastus, joka kumoaa sen). Näiden ryhmäominaisuuksien ansiosta elliptisten käyrien kryptografia toimii luotettavasti ja skalaarikertomuksen kaltaiset operaatiot käyttäytyvät johdonmukaisesti riippumatta siitä, työskentelemmekö sileiden reaalikäyrien vai diskreettien äärellisten kenttien pisteiden kanssa.

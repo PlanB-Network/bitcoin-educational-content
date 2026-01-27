@@ -16,7 +16,7 @@ https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
 Der erste Schritt bei der Nutzung von Kraken zur Verwaltung der Finanzen Ihres Unternehmens ist natürlich die Erstellung eines Kontos. In diesem Fall werden wir kein Konto für Einzelpersonen erstellen, sondern ein Unternehmenskonto, das nicht nur die Einhaltung gesetzlicher Vorschriften gewährleistet, sondern auch speziell zugeschnittene Funktionen wie Buchhaltungsexporte bietet.
 
-Gehen Sie auf die offizielle Website [kraken.com] (https://www.kraken.com/) und klicken Sie auf die Schaltfläche "*Sign Up*".
+Gehen Sie auf die offizielle Website [kraken.com](https://www.kraken.com/) und klicken Sie auf die Schaltfläche "*Sign Up*".
 
 ![KRAKEN](assets/fr/01.webp)
 

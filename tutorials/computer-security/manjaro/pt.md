@@ -100,11 +100,11 @@ Para que o Manjaro funcione da melhor forma, o seu computador deve cumprir algun
 
 
 
-Para descarregar, vá ao [sítio Web oficial do Manjaro] (https://manjaro.org/) e escolha a edição que melhor se adapta às suas necessidades. Depois de ter descarregado o ficheiro, terá de criar uma chave USB de arranque com a imagem ISO do Manjaro.
+Para descarregar, vá ao [sítio Web oficial do Manjaro](https://manjaro.org/) e escolha a edição que melhor se adapta às suas necessidades. Depois de ter descarregado o ficheiro, terá de criar uma chave USB de arranque com a imagem ISO do Manjaro.
 
 
 
-Depois, vá ao sítio Web do software [Rufus] (https://rufus.ie/fr/) e descarregue-o. Execute o programa, ligue a sua chave USB, selecione a imagem ISO do Manjaro e comece a flashear. Aguarde que o processo termine antes de remover a chave. Pode então reiniciar o seu computador.
+Depois, vá ao sítio Web do software [Rufus](https://rufus.ie/fr/) e descarregue-o. Execute o programa, ligue a sua chave USB, selecione a imagem ISO do Manjaro e comece a flashear. Aguarde que o processo termine antes de remover a chave. Pode então reiniciar o seu computador.
 
 
 

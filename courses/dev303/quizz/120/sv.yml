@@ -1,0 +1,8 @@
+question: Vilken är den viktigaste integritetsavvägningen som införs när man migrerar från en självhanterad LDK-implementering till Breez SDK:s molnbaserade arkitektur?
+answer: Greenlight får potentiell insyn i betalningsdestinationer och fakturagenereringsaktiviteter genom molnbaserad routing
+wrong_answers:
+  - "Privata nycklar lagras på Blockstreams servrar i stället för lokalt på användarens enhet"
+  - Information om kanalstatus blir offentligt synlig i Lightning Network-grafen genom Greenlight-noder
+  - LSP-tjänster kan nu övervaka alla on-chain-transaktioner och koppla dem till Lightning-betalningsmönster
+explanation: |
+  Det rätta svaret identifierar den viktigaste integritetsförsämringen: molnbaserad routing gör det möjligt för Greenlight att potentiellt observera betalningsdestinationer, medan molnfakturagenerering utökar informationsexponeringen utöver vad traditionella arkitekturer med endast LSP avslöjade. De felaktiga svaren är felaktiga eftersom: privata nycklar förblir under användarkontroll trots molnarkitektur; kanaltillstånd görs inte offentligt synliga genom routing; och LSP:er får inte ytterligare on-chain-transaktionsövervakningsfunktioner genom denna arkitekturförändring.

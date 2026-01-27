@@ -1,0 +1,8 @@
+question: Mikä on sopivin vastaus, kun Bitcoin-sovellus kohtaa virheellisen syöttövirheen, kuten negatiivisen arvon vastaanottamisen kenttään, joka vaatii vain positiivisia kokonaislukuja?
+answer: Hylkää syötteen ja palauttaa virheilmoituksen soittajalle
+wrong_answers:
+  - Muunna negatiivinen arvo absoluuttiseksi arvoksi ja jatka käsittelyä
+  - Kirjaa virhe, mutta jatka operaatiota käyttämällä oletusarvoa
+  - Lopeta koko sovellus välittömästi tietojen korruptoitumisen estämiseksi
+explanation: |
+  Virheelliset syöttövirheet edustavat kutsujan ja funktion välistä sopimusrikkomusta, jossa annetut parametrit eivät täytä funktion vaatimuksia. Oikea lähestymistapa on hylätä syöttö ja palauttaa virheilmoitus, jolloin kutsuja voi käsitellä tilannetta asianmukaisesti. Negatiivisten arvojen muuntaminen positiivisiksi peittää virheen ja voi johtaa tahattomaan käyttäytymiseen. Oletusarvojen käyttäminen ei ota huomioon kutsujan aikomusta ja saattaa käsitellä virheellisiä tietoja. Koko sovelluksen lopettaminen on liiallista syötteen validointivirheiden tapauksessa ja aiheuttaisi huonon käyttökokemuksen Bitcoin-sovelluksissa, joissa virheiden joustava käsittely on ratkaisevan tärkeää.

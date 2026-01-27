@@ -11,7 +11,7 @@ Bitfeed 是一個可視化 Bitcoin 協定上鏈層的平台。它是由 Mempool.
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 在本教程中，我們將介紹此工具，它可讓您探索網絡上的所有交易和區塊。
 
@@ -95,7 +95,7 @@ Bitfeed 是一個專注於三個重點的平台：
 
 
 
-https://planb.academy/courses/obtenir-ses-premiers-bitcoins-f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 預設情況下，區塊中的交易會根據兩個標準來表示：
 

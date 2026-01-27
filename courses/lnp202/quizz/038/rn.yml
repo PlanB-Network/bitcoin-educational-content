@@ -1,0 +1,9 @@
+question: Ni kuki urutonde rw’abaguzi rworoshe gucungera?
+answer: Ntaco bikenewe ku mafaranga yinjira
+wrong_answers:
+  - Nta murongo usabwa
+  - Ntaco bikenewe ku mafaranga asohoka
+  - Nta nkenerwa yo gusubiza inyuma
+explanation: |
+  Abaguzi ntibakeneye amahera menshi yinjira, kandi amahera asohoka mu bisanzwe aratuma habaho amahera yinjira ata nzira igoye.
+reviewed: false

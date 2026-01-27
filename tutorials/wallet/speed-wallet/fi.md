@@ -333,7 +333,7 @@ https://planb.academy/tutorials/exchange/centralized/flash-fd4308b0-7afd-450f-90
 
 
 
-Mobiilisovelluksen lisäksi Speed Wallet tarjoaa myös [Chrome Web -laajennuksen] (https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk), jonka voit lisätä tietokoneen Google Chrome -selaimeen turvallisia maksutapahtumia varten.
+Mobiilisovelluksen lisäksi Speed Wallet tarjoaa myös [Chrome Web -laajennuksen](https://chromewebstore.google.com/detail/speed-Bitcoin-lightning-w/miccfnlbijkmbckaagllchcfknjhgfnk), jonka voit lisätä tietokoneen Google Chrome -selaimeen turvallisia maksutapahtumia varten.
 
 
 
@@ -365,7 +365,7 @@ Speed Wallet painottaa erityisesti Bitcoin:n ja stabiilien kolikoiden integroint
 
 
 
-[Speed Business] (https://www.tryspeed.com/) tarjoaa sinulle Bitcoin:n hyväksymistä varten Lightning Network:n käyttämän yhtenäisen maksuaggregaattorin, jota voit käyttää verkkokaupassasi tai fyysisessä myymälässäsi.
+[Speed Business](https://www.tryspeed.com/) tarjoaa sinulle Bitcoin:n hyväksymistä varten Lightning Network:n käyttämän yhtenäisen maksuaggregaattorin, jota voit käyttää verkkokaupassasi tai fyysisessä myymälässäsi.
 
 
 

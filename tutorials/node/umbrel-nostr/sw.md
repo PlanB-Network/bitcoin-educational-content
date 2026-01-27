@@ -137,7 +137,7 @@ Kwenye ukurasa huu, bandika URL ya relay yako ya Umbrel ambayo ulinakili hapo aw
 
 
 
-**Muunganisho:** noStrudel hukupa chaguzi kadhaa za unganisho. Kwa upande wetu, tutachagua "Ufunguo wa Kibinafsi" na ubandike katika ufunguo wako wa faragha wa Nostr uliotengenezwa hapo awali. Ikiwa bado huna ufunguo, unaweza kusakinisha kiendelezi cha [Nostr Connect] (https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) ili kuunda na/au kuhifadhi vitufe vyako vya Nostr na hivyo kuwasiliana kwa usalama zaidi na programu mbalimbali za Nostr.
+**Muunganisho:** noStrudel hukupa chaguzi kadhaa za unganisho. Kwa upande wetu, tutachagua "Ufunguo wa Kibinafsi" na ubandike katika ufunguo wako wa faragha wa Nostr uliotengenezwa hapo awali. Ikiwa bado huna ufunguo, unaweza kusakinisha kiendelezi cha [Nostr Connect](https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) ili kuunda na/au kuhifadhi vitufe vyako vya Nostr na hivyo kuwasiliana kwa usalama zaidi na programu mbalimbali za Nostr.
 
 
 

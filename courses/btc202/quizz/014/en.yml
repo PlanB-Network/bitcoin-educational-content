@@ -1,5 +1,5 @@
 question: What did the original Bitcoin software combine in 2009?
-answer: Wallet, bow, and minor
+answer: Wallet, node, and miner
 wrong_answers:
   - Node, miner, and block explorer
   - Wallet, chopper, and miner

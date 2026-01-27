@@ -263,7 +263,7 @@ Bij het valideren van je transactie heb je een tweede handtekening nodig om het 
 
 
 
-De tweede Wallet ondertekenaar, als hij of zij ook een gebruiker is, kan de transactie ondertekenen, zelfs als hij of zij geen internet heeft (geen Wi-Fi, geen mobiele data) door de QR-code te scannen van de [gedeeltelijk ondertekende transactie] (https://planb.academy/resources/glossary/psbt) die je zojuist hebt aangemaakt.
+De tweede Wallet ondertekenaar, als hij of zij ook een gebruiker is, kan de transactie ondertekenen, zelfs als hij of zij geen internet heeft (geen Wi-Fi, geen mobiele data) door de QR-code te scannen van de [gedeeltelijk ondertekende transactie](https://planb.academy/resources/glossary/psbt) die je zojuist hebt aangemaakt.
 
 
 

@@ -1,5 +1,5 @@
 ---
-name: जेड - Electrum
+name: Jade - Electrum
 description: अपने जेड या जेड प्लस को Electrum (डेस्कटॉप) के साथ कैसे उपयोग करें
 ---
 

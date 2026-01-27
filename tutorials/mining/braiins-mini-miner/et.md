@@ -168,7 +168,7 @@ ja me peame klõpsama lillat värvi nupule paremal, millel on kirjas "Connect wo
 
 
 
-Siin tuleb aken, kus on teave, mida me vajame meie mini Miner ühendamiseks basseiniga. Ainus muudatus, mida me saame teha, on valida Stratum V2. Selle kohta, mis on Stratum v2, leiate selle kirje [glossary] (https://planb.academy/en/resources/glossary/stratum-v2).
+Siin tuleb aken, kus on teave, mida me vajame meie mini Miner ühendamiseks basseiniga. Ainus muudatus, mida me saame teha, on valida Stratum V2. Selle kohta, mis on Stratum v2, leiate selle kirje [glossary](https://planb.academy/en/resources/glossary/stratum-v2).
 
 
 

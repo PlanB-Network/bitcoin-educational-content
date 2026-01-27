@@ -114,7 +114,7 @@ A continuación, puedes ajustar una opción en la configuración de experto.
 
 
 
-A continuación, deberá definir **una contraseña correspondiente a la clave de cifrado**. Esta contraseña le permitirá **desbloquear su caja fuerte Cryptomator** y acceder a sus datos. **Si la pierde, perderá el acceso a sus datos**. Por último, aún tiene la opción de **crear una clave de seguridad** marcando la opción "**Sí, más vale prevenir que curar**", muy similar a la clave de recuperación [BitLocker] (https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). Esto es recomendable, ¡pero no guardes esta clave de seguridad en la raíz de tu OneDrive!
+A continuación, deberá definir **una contraseña correspondiente a la clave de cifrado**. Esta contraseña le permitirá **desbloquear su caja fuerte Cryptomator** y acceder a sus datos. **Si la pierde, perderá el acceso a sus datos**. Por último, aún tiene la opción de **crear una clave de seguridad** marcando la opción "**Sí, más vale prevenir que curar**", muy similar a la clave de recuperación [BitLocker](https://www.it-connect.fr/comment-activer-bitlocker-sur-windows-11-pour-chiffrer-son-disque/). Esto es recomendable, ¡pero no guardes esta clave de seguridad en la raíz de tu OneDrive!
 
 
 

@@ -1,0 +1,8 @@
+question: Qual è il meccanismo fondamentale che consente a SegWit di aumentare la capacità dei blocchi mantenendo la retrocompatibilità con i nodi precedenti a SegWit?
+answer: Sistema di peso dei blocchi in cui i dati dei testimoni vengono scontati del 75% nel calcolo della capacità, consentendo fino a 4MB di dati totali mentre i nodi tradizionali vedono ≤1MB
+wrong_answers:
+  - Algoritmi di compressione che riducono la dimensione dei dati del testimone del 75% prima della trasmissione, mantenendo i blocchi sotto 1MB per tutti i nodi
+  - Regolazione dinamica della dimensione del blocco che aumenta i limiti in base alla percentuale di transazioni SegWit in ogni blocco
+  - Blocchi di testimoni separati trasmessi solo ai nodi aggiornati, mentre i nodi legacy ricevono i tradizionali blocchi da 1MB
+explanation: |
+  SegWit utilizza unità di peso a blocchi in cui i dati della transazione di base contano come 4 unità di peso per byte, mentre i dati dei testimoni contano come 1 unità di peso per byte. Questo sconto del 75% consente di avere blocchi fino a 4 milioni di unità di peso (potenzialmente 4MB con tutti i dati dei testimoni), garantendo al contempo che i nodi legacy non vedano mai più di 1MB di dati di transazione di base. Le altre opzioni descrivono meccanismi inesistenti: non c'è compressione, né dimensionamento dinamico, né trasmissione separata dei blocchi.

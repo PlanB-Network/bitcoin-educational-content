@@ -1,0 +1,8 @@
+question: Ni iyihe ntumbero nyamukuru y'itangazo ry'umwanya w'amazina muri dosiye ya UniFFI UDL?
+answer: Gutanga igikoresho c'ibikorwa bishobora guhamagarwa ataco bisaba gushinga ikintu
+wrong_answers:
+  - Gusobanura imiterere y'amapaki no kwinjiza ibiva ku rurimi rwavutse
+  - Kugira ngo ugaragaze indimi zizokoresha ububiko bwa Rust biciye kuri UniFFI
+  - Gushinga ingamba zo gucunga ubwenge ku bikorwa vyo gukoranya amakuru mu ndimi zitandukanye
+explanation: |
+  Ikibanza c'amazina kiri muri UDL ya UniFFI gikora nk'igikoresho c'ibikorwa vyihariye bishobora guhamagarwa ataco bimaze ataco bimaze. Iyi mikorere y'umwanya w'amazina ikora ibikorwa vyoroshe bifata agaciro nk'ibipimo kandi bikagarura ibisubizo. Ayandi mahitamwo ntabwo ari meza kuko: imiterere y'amapaki n'ivyo biva hanze bifatwa n'uburyo bwo guhingura ubufatanye ubwavyo, indimi zigenewe zimenyeshwa mu gihe c'uburyo bwo kwubaka aho gukoreshwa muri dosiye ya UDL, kandi uburongozi bw'ubwenge bufatwa mu buryo buboneka n'umurongo w'igihe co gukora wa UniFFI aho kumenyeshwa mu buryo butomoye mu kibanza c'amazina.

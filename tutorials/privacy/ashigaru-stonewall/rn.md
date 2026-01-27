@@ -1,5 +1,5 @@
 ---
-name: Ashigaru - Uruhome rw'amabuye
+name: Ashigaru - Stonewall
 description: Gutahura no gukoresha amafaranga y'amabuye kuri Ashigaru
 ---
 ![cover stonewall](assets/cover.webp)

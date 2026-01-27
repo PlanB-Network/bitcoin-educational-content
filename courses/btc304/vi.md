@@ -28,7 +28,7 @@ Trong BTC304, chúng ta sẽ xem xét tại sao việc xây dựng cộng đồn
 
 
 
-Chào mừng đến với BTC302!
+Chào mừng đến với BTC 304!
 
 
 
@@ -1775,7 +1775,7 @@ Cuối cùng, chính bạn là người quyết định mức độ "mở và ba
 Khi các khối tiếp tục lăn, cộng đồng của bạn sẽ phát triển. Những gương mặt mới sẽ gia nhập, những người khác sẽ rời đi, nhưng nguyên tắc chỉ đạo vẫn phải giữ nguyên: phát triển hệ sinh thái Bitcoin và củng cố mối liên kết giữa các thành viên.
 
 
-Có rất nhiều dự án và sáng kiến có thể được triển khai. Chương này cung cấp một danh sách chưa đầy đủ các ý tưởng có thể được thực hiện trong cộng đồng hoặc trong các buổi gặp mặt. Bạn có thể thoải mái lựa chọn những ý tưởng truyền cảm hứng cho mình và thậm chí đóng góp ý tưởng của riêng bạn cho khóa học này [bằng cách tạo "Yêu cầu kéo" trên GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content).
+Có rất nhiều dự án và sáng kiến có thể được triển khai. Chương này cung cấp một danh sách chưa đầy đủ các ý tưởng có thể được thực hiện trong cộng đồng hoặc trong các buổi gặp mặt. Bạn có thể thoải mái lựa chọn những ý tưởng truyền cảm hứng cho mình và thậm chí đóng góp ý tưởng của riêng bạn cho khóa học này [bằng cách tạo "Yêu cầu kéo" trên GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 
 Trước khi đi sâu hơn, chúng ta hãy xem lại một điểm đã đề cập trước đó.
@@ -2831,14 +2831,14 @@ Một mình, bạn có thể nhanh chóng khám phá một trong nhiều đườ
 
 
 
-## BTC302, Tiếp theo là gì
+## BTC 304, Tiếp theo là gì
 
 
 <chapterId>8bf10b77-80ee-5d50-87bc-0ef32574a675</chapterId>
 
 
 
-Trong khóa học BTC302 này, chúng tôi đã đi sâu vào chi tiết về cách thiết lập cộng đồng hoặc buổi gặp mặt, cũng như cách khởi chạy nhiều dự án khác nhau.
+Trong khóa học BTC 304 này, chúng tôi đã đi sâu vào chi tiết về cách thiết lập cộng đồng hoặc buổi gặp mặt, cũng như cách khởi chạy nhiều dự án khác nhau.
 
 
 Khi cộng đồng của bạn sẵn sàng thực hiện bước tiếp theo, **bạn có thể tạo một hiệp hội chính thức**.

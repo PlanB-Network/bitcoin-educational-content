@@ -72,7 +72,7 @@ GrapheneOS şu anda yalnızca [Google Pixel](https://grapheneos.org/faq#supporte
 ### Bir cihaz seçme
 
 
-GrapheneOS'u yüklemek istediğiniz Pixel'i seçerken, cihazın varsayılan [güvenlik güncellemelerini] (https://support.google.com/pixelphone/answer/4457705?hl=en#zippy=%2Cpixel-xl-a-a-g-a-g) ne kadar süreyle almaya devam edeceğini kontrol ettiğinizden emin olun.
+GrapheneOS'u yüklemek istediğiniz Pixel'i seçerken, cihazın varsayılan [güvenlik güncellemelerini](https://support.google.com/pixelphone/answer/4457705?hl=en#zippy=%2Cpixel-xl-a-a-g-a-g) ne kadar süreyle almaya devam edeceğini kontrol ettiğinizden emin olun.
 
 
 Bu yazının yazıldığı sırada Pixel 6a, Temmuz 2027'ye kadar garantili, iyi bir uzun vadeli desteğe sahip en ucuz modeldir. Bu modeli seçerseniz, OEM kilit açma işlemi fabrikadan çıkan stok işletim sistemi sürümüyle çalışmayacaktır. Havadan güncelleme yoluyla Haziran 2022 veya daha sonraki bir sürüme güncellemeniz gerekir. Güncellemeyi yaptıktan sonra OEM kilidi açmayı düzeltmek için cihazı fabrika ayarlarına sıfırlamanız da gerekecektir. Operatör kilidi açık olan diğer tüm modeller kutudan çıkar çıkmaz GrapheneOS için hazır olacaktır.
@@ -84,7 +84,7 @@ Bir cihaz seçerken kilitsiz bir versiyon satın aldığınızdan da emin olmak 
 ### GrapheneOS'u Yükleme
 
 
-GrapheneOS [web yükleyici] (https://grapheneos.org/install/web) tüm süreci çocuk oyuncağı haline getirir ve herkes tarafından 10 dakikadan kısa bir sürede tamamlanabilir.
+GrapheneOS [web yükleyici](https://grapheneos.org/install/web) tüm süreci çocuk oyuncağı haline getirir ve herkes tarafından 10 dakikadan kısa bir sürede tamamlanabilir.
 
 Aşağıdaki talimatlar, yukarıdaki bağlantıdan alınan kısaltılmış bir versiyondur.
 
@@ -131,7 +131,7 @@ GrapheneOS başlangıç ekranı
 i̇lk önyükleme ve kurulumdan sonra, Ayarlar > Sistem > Geliştirici Seçenekleri'nden OEM kilidini devre dışı bırakmak iyi bir uygulamadır._
 
 
-_Ayrıca Auditor uygulaması aracılığıyla yüklemeyi doğrulamak için ekstra, isteğe bağlı ancak önerilen adımı atmak isteyebilirsiniz. Bu adımı tamamlamak için uygulamanın yüklü olduğu ayrı bir Android telefona ihtiyacınız olacaktır. Bununla ilgili talimatları [burada] (https://attestation.app/tutorial) bulabilirsiniz._
+_Ayrıca Auditor uygulaması aracılığıyla yüklemeyi doğrulamak için ekstra, isteğe bağlı ancak önerilen adımı atmak isteyebilirsiniz. Bu adımı tamamlamak için uygulamanın yüklü olduğu ayrı bir Android telefona ihtiyacınız olacaktır. Bununla ilgili talimatları [burada](https://attestation.app/tutorial) bulabilirsiniz._
 
 
 
@@ -209,7 +209,7 @@ Kişiselleştirilmiş ana ekran
 ## Alternatif Uygulamalar
 
 
-Telefonunuzu kullanışlı hale getirmek için bazı uygulamalar yüklemek isteyeceksiniz! Aşağıdaki seçenekler, hepsini kişisel olarak kullandığım veya daha geniş gizlilik topluluğundan güçlü öneriler aldıkları için dahil edilmiştir. Bahsetmediğim daha birçok harika alternatif mevcut ve [Awesome Privacy] (https://awesome-privacy.xyz) her tür cihaz için gizliliği koruyan uygulamaların inanılmaz kapsamlı bir listesini sunuyor.
+Telefonunuzu kullanışlı hale getirmek için bazı uygulamalar yüklemek isteyeceksiniz! Aşağıdaki seçenekler, hepsini kişisel olarak kullandığım veya daha geniş gizlilik topluluğundan güçlü öneriler aldıkları için dahil edilmiştir. Bahsetmediğim daha birçok harika alternatif mevcut ve [Awesome Privacy](https://awesome-privacy.xyz) her tür cihaz için gizliliği koruyan uygulamaların inanılmaz kapsamlı bir listesini sunuyor.
 
 
 Bir uygulamanın Özgür ve Açık Kaynak Kodlu Yazılım (FOSS) olması, potansiyel gizlilik sızıntılarından muaf olduğu anlamına gelmez. Tercih ettiğiniz uygulamaların gizlilik denetimlerine karşı nasıl performans gösterdiğini görmek için [Exodus](https://reports.exodus-privacy.eu.org/en/) adresini kullanın.
@@ -271,7 +271,7 @@ https://planb.academy/tutorials/computer-security/data/aurora-store-b3345da7-1ed
 Android'deki uygulamalar bir `.apk' dosyası aracılığıyla da indirilebilir ve yüklenebilir. Bu, sıfır üçüncü taraf uygulama mağazası gerektiren harika bir alternatiftir, dosyayı doğrudan projenin veya hizmetlerin web sitesinden veya GitHub deposundan indirmeniz yeterlidir.
 
 
-Bu yaklaşımın dezavantajı, otomatik güncelleme alamamanızdır, bu nedenle yeni sürümleri öğrenmek için bu hizmetin iletişim kanallarını izlemeniz gerekir. Ancak bunu düzeltmeyi amaçlayan Obtanium adında harika bir proje var. [Obtainium] (https://github.com/ImranR98/Obtainium), Açık Kaynak uygulamalarını doğrudan sürüm sayfalarından yüklemenize ve güncellemenize ve yeni sürümler kullanıma sunulduğunda bildirim almanıza olanak tanır.
+Bu yaklaşımın dezavantajı, otomatik güncelleme alamamanızdır, bu nedenle yeni sürümleri öğrenmek için bu hizmetin iletişim kanallarını izlemeniz gerekir. Ancak bunu düzeltmeyi amaçlayan Obtanium adında harika bir proje var. [Obtainium](https://github.com/ImranR98/Obtainium), Açık Kaynak uygulamalarını doğrudan sürüm sayfalarından yüklemenize ve güncellemenize ve yeni sürümler kullanıma sunulduğunda bildirim almanıza olanak tanır.
 
 
 ![image](assets/fr/7.webp)
@@ -304,7 +304,7 @@ Twitter PWA
 Önceden paketlenmiş seçenek olan Vanadium ile gerçekten yanlış gidemezsiniz. Uygulama, denediğim diğer tüm mobil tarayıcılarla aynı şekilde davranıyor ve bir kez bile uyumluluk sorunu yaşamadım.
 
 
-Tor yerel `.onion` sitelerine erişmeniz gereken zamanlar için Tor Browser APK'sını doğrudan [web sitesinden] (https://www.torproject.org/download/#android) veya F-Droid üzerinden indirebilirsiniz.
+Tor yerel `.onion` sitelerine erişmeniz gereken zamanlar için Tor Browser APK'sını doğrudan [web sitesinden](https://www.torproject.org/download/#android) veya F-Droid üzerinden indirebilirsiniz.
 
 
 ### VPN'ler
@@ -377,7 +377,7 @@ GrapheneOS'ta sürüş sırasında ve bir harita uygulaması kullanırken sesli 
 
 
 - [Magic Earth](https://www.magicearth.com/), adım adım navigasyon, 3D ve çevrimdışı haritaları destekleyen bir harita alternatifidir. Magic Earth Aurora Store'dan indirilebilir.
-- [Organic Maps] (https://f-droid.org/en/packages/app.organicmaps/) gezginler, turistler, yürüyüşçüler ve bisikletçiler için kitle kaynaklı OpenStreetMap verilerine dayalı bir harita alternatifidir. Maps.me uygulamasının (daha önce MapsWithMe olarak biliniyordu) gizlilik odaklı, açık kaynaklı bir Fork'idir. Aktif bir İnternet bağlantısı olmadan özelliklerin %100'ünü destekler ve F-Droid'den indirilebilir.
+- [Organic Maps](https://f-droid.org/en/packages/app.organicmaps/) gezginler, turistler, yürüyüşçüler ve bisikletçiler için kitle kaynaklı OpenStreetMap verilerine dayalı bir harita alternatifidir. Maps.me uygulamasının (daha önce MapsWithMe olarak biliniyordu) gizlilik odaklı, açık kaynaklı bir Fork'idir. Aktif bir İnternet bağlantısı olmadan özelliklerin %100'ünü destekler ve F-Droid'den indirilebilir.
 - [OsmAnd](https://f-droid.org/en/packages/net.osmand.plus/) yukarıda belirtilen tüm özellikleri destekleyen bir başka harika harita alternatifidir.
 
 
@@ -407,7 +407,7 @@ Sol: Proton Mail, Sağ: Tutanota
 - [Syncthing](https://f-droid.org/packages/com.nutomic.syncthingandroid/) bir dosya senkronizasyon programıdır. Dosyaları iki veya daha fazla cihaz arasında gerçek zamanlı olarak senkronize eder ve meraklı gözlerden güvenli bir şekilde korunur. Verileriniz yalnızca size aittir ve nerede saklanacağını, üçüncü bir tarafla paylaşılıp paylaşılmayacağını ve internet üzerinden nasıl iletileceğini seçme hakkına sahipsiniz. Syncthing F-Droid üzerinden kullanılabilir.
 - [KDE Connect](https://f-droid.org/packages/org.kde.kdeconnect_tp/) ev ağınıza bağlıyken tüm cihazlarınızın birbiriyle kolayca konuşmasını sağlar. Tüm cihazlarınız arasında (iOS'ta bile!) Dosyaları, fotoğrafları, pano verilerini kolayca gönderin. KDE connect F-Droid'den indirilebilir.
 - [Notesnook](https://f-droid.org/en/packages/com.streetwriters.notesnook/), düşüncelerinizi ve yapılacaklar listelerinizi tüm cihazlarınız arasında senkronize etmek için bir E2EE not uygulamasıdır. Ücretsiz planları çoğu kişisel kullanım durumunu kapsamalıdır. Notesnook F-Droid'de mevcuttur.
-- [Standart Notlar] (https://f-droid.org/en/packages/com.standardnotes/) Notesnook'a çok benzer, ancak özellik setine uyması için ücretli bir plan gerektirir. Standart Notlar F-Droid aracılığıyla kullanılabilir.
+- [Standart Notlar](https://f-droid.org/en/packages/com.standardnotes/) Notesnook'a çok benzer, ancak özellik setine uyması için ücretli bir plan gerektirir. Standart Notlar F-Droid aracılığıyla kullanılabilir.
 - [Anysoft Keyboard](https://f-droid.org/packages/com.menny.android.anysoftkeyboard/), telefon yazma deneyiminiz söz konusu olduğunda aklınıza gelebilecek hemen hemen her şeyi özelleştirmenize olanak tanıyan bir klavye uygulamasıdır. F-Droid üzerinden indirilebilir.
 - [GBoard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en&gl=US) varsayılan Google klavye uygulamasıdır. Benim deneyimlerime göre açık ara en iyi yazma ve kaydırma deneyimini sunuyor. Bu uygulamayı indirirseniz, ağ ile ilgili tüm izinleri tamamen devre dışı bıraktığınızdan emin olun. Aurora üzerinden indirilebilir.
 
@@ -421,7 +421,7 @@ Sol: Notesnook, Sağ: KDE Connect
 
 
 
-- [Geometric Weather] (https://f-droid.org/en/packages/wangdaye.com.geometricweather/), F-Droid aracılığıyla kullanılabilen güzel tasarlanmış bir Açık Kaynak hava durumu uygulamasıdır. Ayrıca farklı boyutlarda widget'ları da destekler, böylece seçtiğiniz konumdaki hava durumunu doğrudan ana ekranınızdan görebilirsiniz.
+- [Geometric Weather](https://f-droid.org/en/packages/wangdaye.com.geometricweather/), F-Droid aracılığıyla kullanılabilen güzel tasarlanmış bir Açık Kaynak hava durumu uygulamasıdır. Ayrıca farklı boyutlarda widget'ları da destekler, böylece seçtiğiniz konumdaki hava durumunu doğrudan ana ekranınızdan görebilirsiniz.
 - [Translate You](https://f-droid.org/packages/com.bnyro.translate/) 200'den fazla dili destekleyen bir Açık Kaynak ve gizliliği koruyan çeviri uygulamasıdır. Translate You, F-Droid üzerinden kullanılabilir.
 - [Proton Calendar](https://proton.me/calendar/download), Proton e-posta hesaplarınızla sorunsuz bir şekilde etkileşime giren, kullanımı kolay bir E2EE'dir. Proton Calendar bir APK olarak veya Aurora mağazası aracılığıyla indirilebilir.
 - [PassAndroid](https://f-droid.org/en/packages/org.ligi.passandroid/) biniş kartlarını, kuponları, sinema biletlerini ve üyelik kartlarını vb. görüntülemek ve saklamak için bir uygulamadır. Sadece ilgili `pkpass` veya `espass` dosyasını indirin ve uygulama ile açın. PassAndroid F-Droid üzerinden kullanılabilir.
@@ -463,7 +463,7 @@ https://planb.academy/tutorials/computer-security/data/cryptomator-84e52c76-2253
 
 - [Proton Drive](https://proton.me/drive/download) tüm dosyalarınızı yedeklemek ve saklamak için ücretli bir E2EE bulut çözümüdür. Yazım sırasında, bir Windows masaüstü istemcisi duyurdular, ancak Mac ve Linux kullanıcıları bilgisayarlarından senkronize etmek için web sürümünü kullanmaya devam etmelidir (şimdilik). Android istemcisi APK olarak ya da Aurora üzerinden kullanılabilir.
 - [Skiff](https://skiff.com/download) ayrıca ücretli E2EE bulut depolama ve dosya işbirliği araçları da sunmaktadır. Bir Mac ve Windows masaüstü istemcisi (bir web uygulamasının yanı sıra) sunarlar ve Android istemcileri Aurora'dan indirilmelidir.
-- [Nextcloud] (https://f-droid.org/en/packages/com.nextcloud.client/) işbirliği, cihazlar arası senkronizasyon ve dosya depolama için tam özellikli bulut tabanlı bir çözüm sunuyor. Daha ileri düzey kullanıcılar, Özgür ve Açık Kaynak yazılımlarını istedikleri donanım üzerinde kendi kendilerine barındırmayı seçebilirler. Android istemcileri F-Droid üzerinden indirilebilir.
+- [Nextcloud](https://f-droid.org/en/packages/com.nextcloud.client/) işbirliği, cihazlar arası senkronizasyon ve dosya depolama için tam özellikli bulut tabanlı bir çözüm sunuyor. Daha ileri düzey kullanıcılar, Özgür ve Açık Kaynak yazılımlarını istedikleri donanım üzerinde kendi kendilerine barındırmayı seçebilirler. Android istemcileri F-Droid üzerinden indirilebilir.
 - [Cryptpad](https://cryptpad.fr/) Google Docs'a ücretsiz, web tabanlı, E2EE bir alternatif sunuyor.
 
 
@@ -486,7 +486,7 @@ Ancak GrapheneOS'a geçerken, alternatif olmadığı için vazgeçmeniz gereken 
 
 - **Apple CarPlay/Android Auto** - Eski moda Bluetooth, USB veya Aux'a bağlı kalmanız gerekecek.
 - **Apple/Google Pay** - Hemen hemen herkes Wallet'sını yanında taşıyor zaten!
-- **Bankacılık uygulamaları** - Bunlar hiç çalışmıyor değil. Aslında bazıları mükemmel çalışıyor. Diğerleri yalnızca Google Play Hizmetleri etkinleştirildiğinde çalışıyor (aşağıda daha fazlasını okuyun) ve diğerleri hiç çalışmıyor. Mevcut durumu görmek için bankanızla ilgili raporu [burada] (https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/) okuyun. Sizinki çalışmayanlar listesindeyse korkmayın, URL'yi ana ekranınıza bir web uygulaması olarak kaydedebileceğinizi unutmayın.
+- **Bankacılık uygulamaları** - Bunlar hiç çalışmıyor değil. Aslında bazıları mükemmel çalışıyor. Diğerleri yalnızca Google Play Hizmetleri etkinleştirildiğinde çalışıyor (aşağıda daha fazlasını okuyun) ve diğerleri hiç çalışmıyor. Mevcut durumu görmek için bankanızla ilgili raporu [burada](https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/) okuyun. Sizinki çalışmayanlar listesindeyse korkmayın, URL'yi ana ekranınıza bir web uygulaması olarak kaydedebileceğinizi unutmayın.
 - **Anında Bildirimler** - Belirli bir uygulamayı kullanmadığınızda size güncellemeler gönderen çoğu uygulama bunu Google Play Hizmetleri aracılığıyla yapacaktır. Bunlar GrapheneOS ile varsayılan olarak yüklenmez, bu nedenle arkadaşınız size bir e-posta gönderdiğinde hemen bildirim almadığınızı fark ederseniz, muhtemelen nedeni budur. İyi haber şu ki, yukarıda bahsedilen bazı uygulamalar, güncellemeleri periyodik olarak kontrol etmek ve gerektiğinde size bir bildirim vermek için kendi arka plan bağlantılarını uyguladılar
 
 
@@ -496,7 +496,7 @@ Ancak GrapheneOS'a geçerken, alternatif olmadığı için vazgeçmeniz gereken 
 **Lütfen unutmayın:** GrapheneOS, Google Play'in resmi sürümlerini standart uygulama sanal alanına yükleme ve kullanma seçeneği sunan bir Layer uyumluluğuna sahiptir. Google Play, uygulama sanal alanını atlamak ve büyük miktarda yüksek ayrıcalıklı erişim almak yerine GrapheneOS üzerinde kesinlikle hiçbir özel erişim veya ayrıcalık almaz.
 
 
-En sevdiğiniz uygulama için anlık bildirimler olmadan yaşayamayacağınızı veya belirli bir 'olmazsa olmaz' uygulamanın Play Hizmetleri olmadan işe yaramayacağını düşünüyorsanız, GrapheneOS bu hizmetleri tamamen korumalı bir ortamda [yüklemenize] (https://grapheneos.org/usage#sandboxed-google-play-installation) olanak tanır. Yüklendikten sonra, bu hizmetlerin çalışması için Google hesabı gerekmez ve her birinin izinleri sıkı bir şekilde kontrol edilebilir.
+En sevdiğiniz uygulama için anlık bildirimler olmadan yaşayamayacağınızı veya belirli bir 'olmazsa olmaz' uygulamanın Play Hizmetleri olmadan işe yaramayacağını düşünüyorsanız, GrapheneOS bu hizmetleri tamamen korumalı bir ortamda [yüklemenize](https://grapheneos.org/usage#sandboxed-google-play-installation) olanak tanır. Yüklendikten sonra, bu hizmetlerin çalışması için Google hesabı gerekmez ve her birinin izinleri sıkı bir şekilde kontrol edilebilir.
 
 
 Bunları ilk günden yüklemek için acele etmeden önce, onlar olmadan ne kadar ilerleyebileceğinizi görmenizi tavsiye ederim. Bunlar olmadan ne kadar çok uygulamanın gayet normal çalıştığını görünce muhtemelen şaşıracaksınız.
@@ -535,7 +535,7 @@ Kullanıcı profili yönetim ekranı
 Telefon gizliliğinizi bir üst seviyeye taşımak ve gerçek dünya kimliğinizden ayrı bir cep telefonu hizmetine sahip olmak istiyorsanız, bir eSIM sizin için uygun olabilir. Bir eSIM, çevrimiçi olarak satın alabileceğiniz ve bir QR kodu aracılığıyla telefonunuza ekleyebileceğiniz sanal bir SIM'dir. Bitcoin ile anonim olarak ödenebilen bu tür hizmetler sunan şirketler arasında [Silent.Link](https://silent.link/) ve [Bitrefill](https://www.bitrefill.com/gb/en/esims/) bulunmaktadır.
 
 
-eSIM'lere telefon gizliliği için her derde deva bir çözüm olarak bakılmamalıdır. Doğru ellerde olduklarında faydalı bir araç olabilirler, ancak niyetiniz tamamen 'şebekeden uzaklaşmak' ise lütfen her türlü hücre hizmetini kullanmanın [ödünleri] (https://grapheneos.org/faq#cellular-tracking) hakkında araştırma yapın.
+eSIM'lere telefon gizliliği için her derde deva bir çözüm olarak bakılmamalıdır. Doğru ellerde olduklarında faydalı bir araç olabilirler, ancak niyetiniz tamamen 'şebekeden uzaklaşmak' ise lütfen her türlü hücre hizmetini kullanmanın [ödünleri](https://grapheneos.org/faq#cellular-tracking) hakkında araştırma yapın.
 
 
 GrapheneOS'ta eSIM provizyonu için Sandboxed Play Services kurulmalıdır.
@@ -589,7 +589,7 @@ Veri ihlalleri ve izlemeler günümüz dünyasında o kadar yaygın ki artık ma
 Umarım bu rehber yolculuğunuz boyunca size yardımcı olur. Bu rehberi faydalı bulduysanız ve çalışmalarımı desteklemek istiyorsanız, lütfen bir [bağış](/ipuçları) göndermeyi düşünün.
 
 
-Mevcut bir GrapheneOS kullanıcısıysanız veya bu kılavuzun bir sonucu olarak bir GrapheneOS kullanıcısı olduysanız, önemli çalışmalarını desteklemek için [bağış yapmayı] (https://grapheneos.org/donate) düşünün.
+Mevcut bir GrapheneOS kullanıcısıysanız veya bu kılavuzun bir sonucu olarak bir GrapheneOS kullanıcısı olduysanız, önemli çalışmalarını desteklemek için [bağış yapmayı](https://grapheneos.org/donate) düşünün.
 
 
 ### Daha fazla bilgi edinin

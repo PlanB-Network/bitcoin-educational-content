@@ -392,7 +392,7 @@ Jameson Lopp'a göre:
  - [TerraSteel](https://pleb.style/fr-fr/products/zubehor-einschlag-vorrichtung?_pos=1&_sid=2767fd66f&_ss=r)
 - Sızdırmazlık cihazı
  - [Mühürlü poşet](https://pleb.style/fr/products/zubehor-5x-sicherheitstasche-tamper-evident)
- - [Sızdırmazlık şeritleri] (https://pleb.style/fr/products/zubehor-5x-siegel-streifen-fur-dein-seed-backup)
+ - [Sızdırmazlık şeritleri](https://pleb.style/fr/products/zubehor-5x-siegel-streifen-fur-dein-seed-backup)
 - **Komple** kit
  - [Titan](https://pleb.style/fr-fr/products/titan-Wallet-diy-kit-premium-seed-backup-steelwallet-plebstyle?pr_prod_strat=e5_desc&pr_rec_id=aa9f36359&pr_rec_pid=8728733155664&pr_ref_pid=8730877788496&pr_seq=uniform)
  - [TerraSteel](https://pleb.style/fr-fr/products/kopie-von-terrasteel-Wallet-starter-kit)

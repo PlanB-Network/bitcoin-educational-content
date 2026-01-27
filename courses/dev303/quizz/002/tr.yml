@@ -1,0 +1,8 @@
+question: Rust'da herhangi bir ek anahtar kelime olmadan 'let x = 5' kullanarak bir değişken bildirdiğinizde ne olur?
+answer: Değişken değişmez hale gelir ve atamadan sonra değiştirilemez
+wrong_answers:
+  - Değişken değiştirilebilir hale gelir ve herhangi bir zamanda değiştirilebilir
+  - Değişken otomatik olarak yalnızca sürüm yapıları için optimize edilir
+  - Değişkenin başarılı bir şekilde derlenmesi için açık tür ek açıklaması gerekir
+explanation: |
+  Rust'de, değişkenler 'let' ile bildirildiklerinde varsayılan olarak değişmezdir. Bu, bir değişkene 'let x = 5' gibi bir değer atadığınızda, programın ilerleyen bölümlerinde bu değeri değiştiremeyeceğiniz anlamına gelir. Eğer değiştirmeye çalışırsanız, derleyici bir hata üretecektir. Bu varsayılan değişmezlik, beklenmedik durum değişikliklerinin neden olduğu birçok yaygın programlama hatasını önleyen önemli bir güvenlik özelliğidir. Bir değişkeni değiştirilebilir yapmak için, 'let mut x = 5' gibi 'mut' anahtar sözcüğünü açıkça kullanmanız gerekir.

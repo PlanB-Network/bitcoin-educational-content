@@ -1,8 +1,9 @@
 question: За коя книга Мирабо е хвърлен в затвора?
-answer: Теория на данъчното облагане
+answer: La Théorie de l’Impôt
 wrong_answers:
   - L'Ami des Hommes
-  - Есе за същността на търговията като цяло
-  - Социалният Contract
+  - L’Essai sur la nature du commerce en général
+  - Le Contrat Social
 explanation: |
-  Мирабо е вкаран в затвора заради "Теория на данъка" - труд, в който критикува френската данъчна система.
+  Мирабо е вкаран в затвора заради "La Théorie de l’Impôt" - труд, в който критикува френската данъчна система.
+reviewed: true

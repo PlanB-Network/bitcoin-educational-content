@@ -20,7 +20,7 @@ Arch Linux är en distribution som är känd för sin robusthet, prestanda och a
 - **Fri och öppen källkod**: Som de flesta Linux-distributioner är Arch Linux helt gratis. Det finns inga licensavgifter, vilket gör det till ett utmärkt val för studenter, frilansare eller entusiaster.
 - **KISS** filosofi: Arch är utformat för att vara enkelt, lätt och effektivt. Den innehåller bara det viktigaste, så att du kan bygga din miljö à la carte.
 - **Pacman** är en pakethanterare: Pacman är en snabb, pålitlig och väldesignad pakethanterare. Den möjliggör effektiv installation och uppdatering av programvara och hanterar beroenden med precision.
-- **Omfattande dokumentation och en aktiv gemenskap**: [Arch Wiki] (https://wiki.archlinux.org) är förmodligen en av de bästa tekniska dokumentationerna i Linux-världen. Det är en guldgruva för att förstå vad du gör. Communityt, som mestadels består av erfarna profiler, är mycket aktivt och kan hjälpa dig om du kör fast, förutsatt att du har gjort lite efterforskningar i förväg.
+- **Omfattande dokumentation och en aktiv gemenskap**: [Arch Wiki](https://wiki.archlinux.org) är förmodligen en av de bästa tekniska dokumentationerna i Linux-världen. Det är en guldgruva för att förstå vad du gör. Communityt, som mestadels består av erfarna profiler, är mycket aktivt och kan hjälpa dig om du kör fast, förutsatt att du har gjort lite efterforskningar i förväg.
 
 
 
@@ -58,7 +58,7 @@ Sedan 2017 har Arch Linux inte längre stöd för 32-bitarsarkitekturer. Endast 
 
 
 
-- Besök [den officiella webbplatsen] (https://mir.archlinux.fr/iso/latest/) för att ladda ner den senaste officiella versionen av ISO-bilden.
+- Besök [den officiella webbplatsen](https://mir.archlinux.fr/iso/latest/) för att ladda ner den senaste officiella versionen av ISO-bilden.
 
 
 
@@ -265,20 +265,22 @@ Välj **GPT** om du använder UEFI och **DOS** om du använder BIOS.
 
 
 
-| Point de montage sur le système installé | Partition                 | Type de partition       | Taille suggérée |
+
+| Monteringspunkt på det installerade systemet | Partition                 | Partitionstyp       | Föreslagen storlek |
 | ---------------------------------------- | ------------------------- | ----------------------- | --------------- |
-| /boot1                                   | /dev/efi_system_partition | Partition système EFI   | 1 Go            |
-| [SWAP]                                   | /dev/swap_partition       | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition       | Racine Linux x86-64 (/) | Reste du disque |
+| /boot1                                   | /dev/efi_system_partition | EFI-systempartition   | 1 GB            |
+| [SWAP]                                   | /dev/swap_partition       | Swaputrymme (swap) | Minst 4 GB   |
+| /                                        | /dev/root_partition       | Linux x86-64 rot (/) | Resten av disken |
 
 - I BIOS
 
 
 
-| Point de montage sur le système installé | Partition           | Type de partition       | Taille suggérée |
+
+| Monteringspunkt på det installerade systemet | Partition           | Partitionstyp       | Föreslagen storlek |
 | ---------------------------------------- | ------------------- | ----------------------- | --------------- |
-| [SWAP]                                   | /dev/swap_partition | Espace d’échange (swap) | Au moins 4 Go   |
-| /                                        | /dev/root_partition | Linux                   | Reste du disque |
+| [SWAP]                                   | /dev/swap_partition | Swaputrymme (swap) | Minst 4 GB   |
+| /                                        | /dev/root_partition | Linux                   | Resten av disken |
 
 ![0_10](assets/fr/10.webp)
 

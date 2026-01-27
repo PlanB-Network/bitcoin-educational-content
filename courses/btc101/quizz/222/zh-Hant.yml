@@ -1,8 +1,9 @@
-question: 如何確保 Lightning Network 上交易的安全性？
-answer: 透過加密技術，並間接透過 Bitcoin 上的礦工所消耗的能量。
+question: RGB 的核心原則是什麼？
+answer: 客戶端驗證
 wrong_answers:
-  - 僅透過使用私人金鑰。
-  - 僅透過使用公開金鑰。
-  - 僅透過使用私密金鑰和公開金鑰。
-explanation: >-
-reviewed: true
+  - 在區塊鏈上的全域執行
+  - 聯邦共識
+  - Proof-of-Work
+explanation: |
+  RGB 基於狀態的本地驗證，區塊鏈僅作為加密錨定與防止雙重支付的保護機制。
+reviewed: false

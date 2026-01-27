@@ -1,0 +1,9 @@
+question: Kitambulisho cha Nodi cha nodi ya Umeme kinawakilisha nini?
+answer: Ufunguo wa umma na anwani ya nodi
+wrong_answers:
+  - Nodi seed na anwani
+  - Jina bandia la nodi na ufunguo wa umma
+  - Jina bandia la nodi ya Hash na seed
+explanation: |
+  Kitambulisho cha Node huchanganya ufunguo wa umma wa node na anwani yake ya mtandao na lango.
+reviewed: false

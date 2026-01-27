@@ -1,0 +1,8 @@
+question: Rust bir String değişkenini diğerine atarken varsayılan olarak ne tür bir işlem gerçekleştirir?
+answer: Sahipliği aktaran ve kaynak değişkeni geçersiz kılan bir taşıma işlemi
+wrong_answers:
+  - Bağımsız dizeler oluşturmak için tüm yığın verilerini çoğaltan derin bir kopya
+  - Aynı heap belleğine iki işaretçi oluşturan sığ bir kopya
+  - Her iki değişkenin de salt okunur erişimi paylaşmasına olanak tanıyan bir referans oluşturma
+explanation: |
+  Rust, String gibi karmaşık türleri atarken varsayılan olarak bir taşıma işlemi gerçekleştirir. Bu, kaynağı geçersiz kılarken sahipliği kaynaktan hedef değişkene aktarır ve birden fazla değişkenin aynı heap belleğini değiştirebileceği tehlikeli senaryoları önler. Derin bir kopyalama büyük dizeler için verimsiz olacaktır, sığ bir kopyalama aynı veriye birden fazla işaretçi ile bellek güvenliği sorunları yaratacaktır ve referans oluşturma ampersand operatörü ile açık sözdizimi gerektirir.

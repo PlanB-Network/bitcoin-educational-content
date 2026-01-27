@@ -6,7 +6,7 @@ description: Bagaimana cara menambah atau mengubah profil guru saya di Plan ₿ 
 
 Jika Anda berencana untuk berkontribusi pada Plan ₿ Academy dengan menulis tutorial atau kursus baru, Anda memerlukan profil pengajar. Profil ini akan memungkinkan Anda menerima kredit yang sesuai untuk konten yang Anda kontribusikan ke platform.
 
-Bagi Anda yang telah terlibat dalam pembuatan konten pendidikan di Plan ₿ Academy, Anda mungkin telah memiliki profil pengajar. Anda dapat menemukannya di folder `/professors` [di repositori GitHub kami] (https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Jika profil Anda sudah ada, cari login Anda di file `professor.yml`.
+Bagi Anda yang telah terlibat dalam pembuatan konten pendidikan di Plan ₿ Academy, Anda mungkin telah memiliki profil pengajar. Anda dapat menemukannya di folder `/professors` [di repositori GitHub kami](https://github.com/PlanB-Network/Bitcoin-educational-content/tree/dev/professors). Jika profil Anda sudah ada, cari login Anda di file `professor.yml`.
 
 Untuk membuat perubahan pada profil Anda, buka bagian "Edit profil guru Anda" di akhir tutorial ini.
 
@@ -16,7 +16,7 @@ Cara termudah untuk membuat profil guru Anda di Plan ₿ Academy adalah dengan m
 
 ### 1 - Konfigurasikan lingkungan lokal Anda
 
-Anda harus memiliki Fork Anda sendiri dari [repositori Plan ₿ Academy di GitHub] (https://github.com/PlanB-Network/Bitcoin-educational-content).
+Anda harus memiliki Fork Anda sendiri dari [repositori Plan ₿ Academy di GitHub](https://github.com/PlanB-Network/Bitcoin-educational-content).
 
 Sinkronisasi cabang utama (`dev`) Fork Anda dengan repositori sumber.
 
@@ -119,7 +119,7 @@ Jika Anda telah menguasai penggunaan Git, ubah profil guru Anda dengan membuat c
 Untuk pemula, saya sarankan untuk melakukan modifikasi secara langsung melalui web Interface milik GitHub. Pastikan Anda memiliki akun GitHub. Jika Anda tidak tahu cara membuatnya, ikuti tutorial ini:
 
 https://planb.academy/tutorials/contribution/others/create-github-account-a75fc39d-f0d0-44dc-9cd5-cd94aee0c07c
-Buka [repositori GitHub Plan ₿ Academy yang didedikasikan untuk data] (https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
+Buka [repositori GitHub Plan ₿ Academy yang didedikasikan untuk data](https://github.com/PlanB-Network/Bitcoin-educational-content/graphs/contributors).
 
 ![Image](assets/fr/03.webp)
 

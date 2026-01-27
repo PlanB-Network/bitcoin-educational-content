@@ -5,5 +5,5 @@ wrong_answers:
   - Adam Back
   - Pieter Wuille
 explanation: |
-  L'SPV è presentato nella parte 8 del Libro Bianco di Satoshi Nakamoto.
+  L'SPV(Simplified Payment Verification) è presentato nella parte 8 del White Paper di Satoshi Nakamoto.
 reviewed: true

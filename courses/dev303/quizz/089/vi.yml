@@ -1,0 +1,8 @@
+question: Lý do chính khiến UniFFI yêu cầu các nhà phát triển tạo một tệp UDL riêng biệt thay vì tự động tạo các liên kết trực tiếp từ mã Rust là gì?
+answer: UDL đóng vai trò như một hợp đồng giao diện rõ ràng, quy định những phần nào của thư viện Rust cần được cung cấp cho các ngôn ngữ khác.
+wrong_answers:
+  - "UDL là bắt buộc vì hệ thống kiểu dữ liệu của Rust không tương thích với các ngôn ngữ lập trình khác nếu không được chuyển đổi."
+  - Các tệp UDL là cần thiết để tối ưu hóa hiệu suất của các lệnh gọi hàm đa ngôn ngữ trong quá trình thực thi thời gian chạy.
+  - "UDL cung cấp một phương pháp để tự động chuyển đổi mô hình sở hữu của Rust sang cơ chế thu gom rác cho các ngôn ngữ đích."
+explanation: |
+  UniFFI sử dụng UDL như một lựa chọn thiết kế có chủ đích để duy trì sự tách biệt giữa phần triển khai và giao diện. Tệp UDL hoạt động như một hợp đồng rõ ràng cho phép các nhà phát triển lựa chọn hiển thị các phần của thư viện Rust của họ trong khi vẫn giữ bí mật các chi tiết triển khai nội bộ. Cách tiếp cận này ngăn chặn việc tự động hiển thị tất cả các mục Rust công khai, giúp các nhà phát triển kiểm soát chi tiết hơn đối với giao diện API của họ. Các tùy chọn khác không chính xác vì các kiểu Rust có thể được ánh xạ mà không cần UDL (mặc dù kém thanh lịch hơn), tối ưu hóa hiệu suất không phải là mục đích chính của UDL và UDL không chuyển đổi mô hình sở hữu.

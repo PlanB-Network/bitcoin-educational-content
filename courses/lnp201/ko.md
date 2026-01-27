@@ -221,7 +221,7 @@ Bitcoin에서 거래는 한 Address에서 다른 Address으로 자금을 송금�
 ### UTXO: 미사용 거래 출력
 
 
-Bitcoin에서 실제로 Exchange에 해당하는 것은 직접 비트코인이 아니라 '미사용 거래 산출물'을 의미하는 **UTXO**(_미사용 거래 산출물_)입니다.
+Bitcoin에서 실제로 Exchange에 해당하는 것은 직접 비트코인이 아니라 '미사용 거래 산출물'을 의미하는 **[UTXO](https://planb.academy/resources/glossary/utxo)**(_미사용 거래 산출물_)입니다.
 
 
 UTXO는 **2,000비트코인**, **8비트코인**, **8,000Sats** 등 어떤 가치가든 될 수 있는 Bitcoin의 조각입니다. 각 UTXO는 스크립트에 의해 잠겨 있으며, 이를 사용하려면 스크립트의 조건을 충족해야 합니다. 주어진 수신 Address에 해당하는 개인 키로 서명을 해야 하는 경우가 많습니다.
@@ -916,7 +916,7 @@ $$ f_{\text{Suzie-Carol}} = 0 + \frac{200 \times 40001.04}{10^6} = 0 + 8.0002 \a
 :::video id=6f204b92-55a5-4939-9440-7c5b96a297bf:::
 
 
-이 장에서는 **HTLC**(_해시된 시간 고정 계약_)을 통해 라이트닝이 어떻게 신뢰 없이도 중개 노드를 통해 결제를 전송할 수 있는지 살펴보겠습니다. 이러한 스마트 컨트랙트는 각 중개 노드가 최종 수신자에게 결제를 전달할 때만 해당 채널에서 자금을 수령하고, 그렇지 않을 경우 결제가 검증되지 않도록 합니다.
+이 장에서는 **[HTLC](https://planb.academy/resources/glossary/htlc)**(_해시된 시간 고정 계약_)을 통해 라이트닝이 어떻게 신뢰 없이도 중개 노드를 통해 결제를 전송할 수 있는지 살펴보겠습니다. 이러한 스마트 컨트랙트는 각 중개 노드가 최종 수신자에게 결제를 전달할 때만 해당 채널에서 자금을 수령하고, 그렇지 않을 경우 결제가 검증되지 않도록 합니다.
 
 
 따라서 결제 라우팅에서 발생하는 문제는 중개 노드에 대한 신뢰와 이러한 중개 노드 간의 신뢰입니다. 이를 설명하기 위해 노드 3개와 채널 2개로 단순화한 Lightning Network 예시를 다시 살펴보겠습니다:
@@ -1524,7 +1524,7 @@ LNP201 교육의 마지막을 장식하는 이 마지막 장에서는 지금까�
 - **채널 개설**: 채널 생성은 2/2 다중서명 Address에 자금을 잠그는 Bitcoin 트랜잭션을 통해 이루어집니다. 이 예치금은 Blockchain의 라이트닝 채널을 나타냅니다.
 
 
-![LNP201](assets/en/076.webp) 2. **Transactions in the Channel**: In this channel, it is possible to carry out numerous transactions without publishing them on the blockchain. Each Lightning transaction creates a new state of the channel reflected in a commitment transaction.
+![LNP201](assets/en/076.webp) 2. **Transactions in the Channel**: In this channel, it is possible to carry out numerous transactions without publishing them on the blockchain. Each Lightning transaction creates a new state of the channel reflected in a [commitment transaction](https://planb.academy/resources/glossary/commitment-transaction).
 
 ![LNP201](assets/en/077.webp)
 
@@ -1591,6 +1591,10 @@ LNP201 교육의 마지막을 장식하는 이 마지막 장에서는 지금까�
 
 ![LNP201](assets/en/084.webp)
 
+
+이제 Lightning Network의 이론적 작동 방식을 이해했으므로, 실제로 첫 번째 Lightning 노드를 구축하여 사용에 있어 더 큰 자율성을 확보할 수 있습니다. 이를 위해 LNP 202 과정을 따라가세요:
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 # 최종 섹션
 

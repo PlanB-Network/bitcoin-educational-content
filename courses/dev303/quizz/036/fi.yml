@@ -1,0 +1,8 @@
+question: Mitä Rust tekee purkautumisprosessin aikana, kun tapahtuu paniikki?
+answer: Kävelee kutsupinon läpi yksityiskohtaisen pinojäljen tuottamiseksi
+wrong_answers:
+  - Lopettaa ohjelman välittömästi ilman mitään siivouksia tai tietoja
+  - Muuntaa paniikin palautettavaksi Result-tyypiksi virheenkäsittelyä varten
+  - Käynnistää nykyisen toiminnon suorituksen alusta
+explanation: |
+  Kun Rust:ssä tapahtuu paniikki, purkuprosessi kävelee takaisin kutsupinon läpi ja antaa yksityiskohtaisen pinojäljen, josta näkyy tarkalleen, missä vaiheessa paniikki tapahtui. Tämä auttaa kehittäjiä tunnistamaan ongelman lähteen virheenkorjauksen aikana. Muut vaihtoehdot ovat virheellisiä: Rust ei lopeta välittömästi ilman siivousta (tämä tapahtuu vain, kun purkaminen on poistettu käytöstä), paniikkitilanteita ei voida muuntaa Result-tyypeiksi, koska ne ovat korjaamattomia virheitä, eikä Rust käynnistä funktioiden suoritusta uudelleen paniikkitilanteissa.

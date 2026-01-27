@@ -45,7 +45,7 @@ Jos kielesi ei ole siellä, lisää se alla olevan ohjeen avulla.
 ![language](assets/04.webp)
 
 
-- Avaa avattava luettelo ja valitse kieli, jonka haluat lisätä. Jos haluamaasi kieltä ei ole saatavilla pudotusvalikossa, voit ottaa yhteyttä [Telegram-ryhmään] (https://t.me/PlanBNetwork_ContentBuilder), jotta tiimimme voi luoda sen manuaalisesti:
+- Avaa avattava luettelo ja valitse kieli, jonka haluat lisätä. Jos haluamaasi kieltä ei ole saatavilla pudotusvalikossa, voit ottaa yhteyttä [Telegram-ryhmään](https://t.me/PlanBNetwork_ContentBuilder), jotta tiimimme voi luoda sen manuaalisesti:
 
 ![language](assets/05.webp)
 

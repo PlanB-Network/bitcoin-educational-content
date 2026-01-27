@@ -1,0 +1,8 @@
+question: Qual è lo scopo principale del processo in tre fasi Connect, Prepare e Execute nell'interfaccia per sviluppatori dell'SDK Breez?
+answer: Per standardizzare flussi finanziari complessi sincronizzando i portafogli, calcolando tutte le commissioni in anticipo e costruendo poi le transazioni
+wrong_answers:
+  - Per stabilire connessioni di backup ridondanti tra più provider di swap prima di avviare qualsiasi operazione atomica
+  - Creare firme crittografiche separate per ogni rete coinvolta nelle transazioni di swap sottomarino a catena incrociata
+  - Per convalidare le preimpostazioni di pagamento rispetto ai contratti a tempo prima di rilasciare i fondi dai meccanismi di deposito a garanzia
+explanation: |
+  Lo schema Connect, Prepare, Execute semplifica lo sviluppo suddividendo operazioni complesse in fasi gestibili: Connect inizializza i portafogli e stabilisce le connessioni di monitoraggio, Prepare calcola e visualizza tutti i costi in modo trasparente per gli utenti ed Execute gestisce la costruzione e la trasmissione delle transazioni. Questa standardizzazione astrae la complessità di fondo degli swap sottomarini e delle operazioni cross-chain, rendendo più facile per gli sviluppatori integrare le funzionalità di Bitcoin senza gestire i dettagli di basso livello.

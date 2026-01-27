@@ -1,0 +1,8 @@
+question: Igihe ukoresha RefCell mu bidukikije bifise intsinga nyinshi, ni igiki nyamukuru gitera ubwoba?
+answer: RefCell ntabwo ari thread-safe kandi izotuma haba inyifato idasobanuwe iyo igezweho ivuye ku ndodo nyinshi
+wrong_answers:
+  - RefCell izohita ihuza uburyo bwo kuronka hagati y'indodo ariko n'ibikorwa vyinshi
+  - RefCell izogira ubwoba mu gihe co gukora igihe indodo nyinshi zigerageza kuyironka icarimwe
+  - RefCell izohagarara iyo indodo nyinshi zigerageje kugurana amakuru amwe icarimwe
+explanation: |
+  RefCell yakozwe gusa ku bikorwa vy’urudodo rumwe kandi nta buryo bwo guhuza urudodo igira. Udakunze ubundi buryo bwo gukoresha indodo nka Mutex, RefCell nta bikorwa vy'atome ikora canke gufunga, bituma gushika ku ndodo nyinshi biva ku nyifato idasobanuwe n'amarushanwa y'amakuru ashobora kubaho. Ivyiyumviro vy’inguzanyo vy’igihe c’urugendo RefCell ikora ntibishobora gukingira urudodo kandi birashobora kwononekara biciye ku gushika ku gihe kimwe, bikaba bituma habaho ukurenga ku mutekano w’ukwibuka Rust mu bisanzwe ibuza.

@@ -1,0 +1,9 @@
+question: Neden bir Lightning düğüm yöneticisi kullanmalı?
+answer: Gelişmiş fonksiyonlara kolay erişim
+wrong_answers:
+  - LND uygulamasını değiştirin
+  - Umbrel'e olan bağımlılığı ortadan kaldırın
+  - Lightning protokolünün değiştirilmesi
+explanation: |
+  Gelişmiş yöneticiler, basit arayüzler olarak kalırken temel arayüzde bulunmayan işlevler sunar.
+reviewed: false

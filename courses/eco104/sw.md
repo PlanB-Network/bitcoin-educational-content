@@ -1187,7 +1187,7 @@ Hebu tuangalie jinsi matoleo ya Tether stablecoin yanavyotoa utulivu kwa wale wa
 
 #### Utulivu
 
-Kama hadithi ya Adanna ilivyoonyesha, mfumuko wa bei ni ukweli mchungu kwa watu wengi duniani kote, hasa wale wanaoishi katika mataifa yenye uchumi usio imara. Hata hivyo, ingawa mfumuko wa bei ulikuwa tatizo tu katika mataifa yanayoendelea, katika kipindi cha miaka miwili iliyopita, viwango vya mfumuko wa bei vimeongezeka maradufu katika [37 kati ya 44] (https://www.weforum.org/agenda/2022/06/inflation-stats-usa-and-world/) uchumi wa hali ya juu. Hiyo inamaanisha, kufikia Oktoba 2022, [81](https://www.visualcapitalist.com/mapped-which-countries-have-the-highest-inflation/) nchi sasa zinaripoti mfumuko wa bei wa tarakimu mbili. Hiyo ni karibu nusu ya nchi zote zinazoripoti mfumuko wa bei!
+Kama hadithi ya Adanna ilivyoonyesha, mfumuko wa bei ni ukweli mchungu kwa watu wengi duniani kote, hasa wale wanaoishi katika mataifa yenye uchumi usio imara. Hata hivyo, ingawa mfumuko wa bei ulikuwa tatizo tu katika mataifa yanayoendelea, katika kipindi cha miaka miwili iliyopita, viwango vya mfumuko wa bei vimeongezeka maradufu katika [37 kati ya 44](https://www.weforum.org/agenda/2022/06/inflation-stats-usa-and-world/) uchumi wa hali ya juu. Hiyo inamaanisha, kufikia Oktoba 2022, [81](https://www.visualcapitalist.com/mapped-which-countries-have-the-highest-inflation/) nchi sasa zinaripoti mfumuko wa bei wa tarakimu mbili. Hiyo ni karibu nusu ya nchi zote zinazoripoti mfumuko wa bei!
 
 Ili kuonyesha athari za mfumuko wa bei wa tarakimu mbili, kiwango cha mfumuko wa bei cha 10%, kama kilivyoshuhudiwa na Ulaya mnamo Oktoba 2022, kinaweza kumaanisha hasara ya 61.5% ya uwezo wa kununua katika kipindi cha miaka kumi.
 

@@ -1,0 +1,8 @@
+question: En la estructura de mensajes de red P2P de Bitcoin, ¿qué datos específicos constituyen el campo de suma de comprobación de 4 bytes en cada sobre de mensaje?
+answer: Los 4 primeros bytes del hash256 de la carga útil del mensaje
+wrong_answers:
+  - Los 4 primeros bytes del hash SHA256 de todo el sobre del mensaje
+  - Los 4 primeros bytes del hash256 del campo de comando concatenados con la carga útil
+  - Los 4 primeros bytes del hash RIPEMD160 de la carga útil del mensaje
+explanation: |
+  La envoltura del mensaje P2P de Bitcoin utiliza un mecanismo de suma de comprobación específico en el que el campo de suma de comprobación de 4 bytes contiene los 4 primeros bytes del hash256 aplicado sólo a la carga útil del mensaje. De este modo se verifica la integridad de los datos de la carga útil durante la transmisión por la red. Las demás opciones son incorrectas porque hacen referencia a funciones hash diferentes (SHA256 simple, RIPEMD160) o a datos de entrada diferentes (sobre completo, comando+carga útil) de lo que Bitcoin implementa realmente en su protocolo de red.

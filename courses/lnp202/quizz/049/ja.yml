@@ -1,0 +1,9 @@
+question: 流動性を購入できるプラットフォームは？
+answer: マグマ
+wrong_answers:
+  - Bitcoin コア
+  - 1ML
+  - Boltz
+explanation: |
+  Magmaは自動化されたマーケットプレイスを通じて、流入する流動性を簡単に購入することができます。
+reviewed: false

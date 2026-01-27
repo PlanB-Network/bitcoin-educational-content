@@ -6,4 +6,4 @@ wrong_answers:
   - Nema dostupnog klijenta otvorenog koda
 explanation: |
   Podrazumevano, Telegram poruke se čuvaju na serversima kompanije, dok samo tajni četovi imaju koristi od end-to-end enkripcije.
-reviewed: false
+reviewed: true

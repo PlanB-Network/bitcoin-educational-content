@@ -6,4 +6,4 @@ wrong_answers:
   - La obligación de cambiar las claves con cada comunicación
 explanation: |
   El problema de distribución de claves se refiere al desafío de transmitir claves de una manera segura, una necesidad que se ha vuelto crucial en las comunicaciones digitales donde un intercambio físico es impracticable.
-reviewed: false
+reviewed: true

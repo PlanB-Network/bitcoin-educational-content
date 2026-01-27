@@ -1,0 +1,8 @@
+question: Sự khác biệt cơ bản giữa cách xử lý macro và hàm trong Rust là gì?
+answer: Các macro được trình biên dịch mở rộng tại thời điểm biên dịch trước khi quá trình biên dịch bắt đầu, trong khi các hàm được gọi tại thời điểm chạy.
+wrong_answers:
+  - Macro sử dụng khớp mẫu để kiểm tra kiểu dữ liệu, trong khi hàm sử dụng phân tích tĩnh để xác thực tại thời điểm chạy.
+  - generate tối ưu hóa mã hợp ngữ trực tiếp các macro, trong khi các hàm được máy ảo Rust diễn giải.
+  - Macro được lưu trữ trong bộ nhớ trong quá trình thực thi, trong khi các hàm được tải từ đĩa khi được gọi.
+explanation: |
+  Câu trả lời đúng chỉ ra sự khác biệt quan trọng về mặt thời gian: macro hoạt động trong quá trình biên dịch thông qua việc mở rộng mã, trong khi hàm được thực thi trong thời gian chạy chương trình. Các câu trả lời sai nhầm lẫn nhiều khái niệm lập trình khác nhau - Rust không sử dụng máy ảo, cả macro và hàm đều trải qua quá trình kiểm tra kiểu (nhưng ở các giai đoạn khác nhau), và cả hàm lẫn macro đều không được tải từ đĩa trong quá trình thực thi theo cách đã mô tả.

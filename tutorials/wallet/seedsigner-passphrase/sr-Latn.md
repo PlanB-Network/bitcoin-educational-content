@@ -1,5 +1,5 @@
 ---
-name: BIP-39 Lozinka SeedSigner
+name: BIP-39 Passphrase SeedSigner
 description: Kako da dodam passphrase u svoj SeedSigner portfolio?
 ---
 

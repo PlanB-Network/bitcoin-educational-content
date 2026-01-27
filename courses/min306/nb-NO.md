@@ -614,7 +614,7 @@ En vellykket etablering av en mining-pool i hjemmet representerer et viktig skri
 Når det gjelder lodding av overflatemonterte komponenter (SMD), og særlig når du arbeider med Bitaxe-prosjekter, er det de riktige verktøyene som utgjør forskjellen mellom frustrasjon og suksess. Denne omfattende veiledningen tar for seg det essensielle utstyret du trenger for å løse SMD-loddeprosjekter på en effektiv måte, fra grunnleggende håndverktøy til spesialutstyr som vil forbedre dine loddeegenskaper.
 
 
-Hvis du vil se noe dokumentasjon om skjemaene, kan du sjekke denne [GitHub repo] (https://github.com/skot/bitaxe-doc/tree/main).
+Hvis du vil se noe dokumentasjon om skjemaene, kan du sjekke denne [GitHub repo](https://github.com/skot/bitaxe-doc/tree/main).
 
 
 ### Grunnleggende håndverktøy og presisjonsinstrumenter
@@ -1090,7 +1090,7 @@ Forholdet mellom disse parameterne er komplekst og gjensidig avhengig av hverand
 ### Bitaxe Hashrate Benchmark-verktøyets arkitektur
 
 
-Verktøyet [Bitaxe Hashrate Benchmark] (https://github.com/mrv777/Bitaxe-Hashrate-Benchmark/) er en sofistikert Python-basert løsning som opprinnelig ble utviklet av WhiteCookie og senere forbedret av mrv777. Dette open source-verktøyet, som distribueres under GPLv3-lisensen, automatiserer den komplekse prosessen med å teste flere konfigurasjonskombinasjoner for å identifisere optimale innstillinger for din spesifikke maskinvare. Verktøyets primære styrke ligger i den systematiske tilnærmingen til parametertesting, med trinnvis justering av frekvens- og spenningsinnstillinger samtidig som ytelsesmålinger og termiske forhold overvåkes kontinuerlig.
+Verktøyet [Bitaxe Hashrate Benchmark](https://github.com/mrv777/Bitaxe-Hashrate-Benchmark/) er en sofistikert Python-basert løsning som opprinnelig ble utviklet av WhiteCookie og senere forbedret av mrv777. Dette open source-verktøyet, som distribueres under GPLv3-lisensen, automatiserer den komplekse prosessen med å teste flere konfigurasjonskombinasjoner for å identifisere optimale innstillinger for din spesifikke maskinvare. Verktøyets primære styrke ligger i den systematiske tilnærmingen til parametertesting, med trinnvis justering av frekvens- og spenningsinnstillinger samtidig som ytelsesmålinger og termiske forhold overvåkes kontinuerlig.
 
 
 Benchmarking-prosessen tar vanligvis 30 til 40 minutter å fullføre, der verktøyet metodisk tester ulike kombinasjoner av ASIC-frekvens- og spenningsinnstillinger. Verktøyet begynner med konservative grunninnstillinger, som vanligvis starter på 1,15 volt og 500 megahertz, og øker deretter disse parameterne trinnvis mens hashrate, temperatur og stabilitet overvåkes. Verktøyet prioriterer sikker drift fremfor maksimal ytelse, og reduserer automatisk innstillinger som fører til for høy varmeutvikling eller ustabilitet. Denne konservative tilnærmingen sikrer at optimaliseringsprosessen ikke går på bekostning av maskinvarens levetid eller pålitelighet.

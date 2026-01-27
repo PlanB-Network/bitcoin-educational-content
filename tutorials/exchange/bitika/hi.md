@@ -1,5 +1,5 @@
 ---
-name: बिटिका
+name: Bitika
 description: तीन आसान चरणों में एम-पेसा के माध्यम से बिटकॉइन खरीदें
 ---
 ![cover](assets/cover.webp)

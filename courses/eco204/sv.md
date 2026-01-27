@@ -423,7 +423,7 @@ Ett illustrativt exempel på MMT är det amerikanska militärindustriella komple
 Japan nämns ofta av MMT-förespråkare som ett annat exempel på att det inte förekommer någon inflation trots betydande penningmängd. Men situationen i Japan visar också på begränsningarna med traditionella inflationsmått, som konsumentprisindex (KPI). I Japan sparas en betydande del av de tryckta pengarna eller investeras i fastigheter eller på aktiemarknaden, snarare än att användas för löpande konsumtion. Eftersom KPI inte fullt ut fångar upp denna dynamik kan det leda till att den faktiska inflationen underskattas.
 
 
-Analysen av Japan (https://ideas.repec.org/p/ces/ceswps/_9821.html) visar också att de ekonomiska aktörernas beteende, t.ex. att spara eller investera i tillgångar som inte ingår i KPI, kan dölja inflationseffekten av penningmängden. Dessutom spelar olika sektorers förmåga att absorbera tillförd likviditet en avgörande roll för om inflation uppstår.
+[Analysen av Japan](https://ideas.repec.org/p/ces/ceswps/_9821.html) belyser också att ekonomiska aktörers beteende, såsom sparande eller investeringar i tillgångar som inte ingår i KPI, kan dölja den inflatoriska effekten av penningtryckning. Dessutom spelar de olika sektorernas förmåga att absorbera den injicerade likviditeten en avgörande roll för om inflation uppstår eller inte.
 
 
 #### Bank- och centralbanksbalansräkningar
@@ -1119,7 +1119,7 @@ Av Weimarrepublikens historia framgår att tillgångar och kapital som innehades
 
 > Weimar: "Allt tyskt kapital som fanns i utlandet hade konfiskerats."
 
-> [20minutes.fr] (https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Cirka 300 miljarder dollar i ryska reserver utomlands har frysts som en del av västvärldens sanktioner, av de 640 miljarder dollar i reserver som innehas av den ryska centralbanken."
+> [20minutes.fr](https://www.20minutes.fr/monde/3286947-20220513-guerre-ukraine-geler-avoirs-russes-vol-non-redistribuer-kiev-poserait-lourdes-questions): "Cirka 300 miljarder dollar i ryska reserver utomlands har frysts som en del av västvärldens sanktioner, av de 640 miljarder dollar i reserver som innehas av den ryska centralbanken."
 
 #### 3. Begreppet marknadspris
 

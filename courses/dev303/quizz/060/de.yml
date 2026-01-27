@@ -1,0 +1,8 @@
+question: Was ist der Hauptzweck bei der Entwicklung eines benutzerdefinierten funktionsähnlichen Makros in Rust, wenn Fragmentspezifizierer wie `expr`, `ty` und `ident` beim Mustervergleich verwendet werden?
+answer: Festlegung, welche Arten von Code-Elementen abgeglichen werden können, und Gewährleistung einer syntaktisch gültigen Eingabe
+wrong_answers:
+  - So legen Sie den Rückgabetyp des generierten Codes fest und optimieren die Kompilierungsleistung
+  - Bestimmung der Ausführungsreihenfolge von Makroverzweigungen und Durchführung von Typprüfungen zur Laufzeit
+  - Kontrolle von Speicherzuweisungsmustern und Festlegung von Regeln für das Scoping von Variablen im erweiterten Code
+explanation: |
+  Fragmentspezifizierer in Makromustern dienen als Typbeschränkungen, die die Syntax von Eingabe-Token während der Makroexpansion überprüfen. Sie stellen sicher, dass das Makro die richtige Art von Codeelement (Ausdruck, Typ, Bezeichner usw.) erhält, und geben eindeutige Fehlermeldungen aus, wenn eine ungültige Syntax angetroffen wird. Dies geschieht zur Kompilierzeit während des Musterabgleichs, nicht während der Laufzeitausführung, und sie steuern nicht direkt die Speicherzuweisung, die Ausführungsreihenfolge oder die Rückgabetypen des generierten Codes.

@@ -11,7 +11,7 @@ objectives:
 
 Cần gì để xây dựng trên Bitcoin? Khóa học 20 giờ này đưa bạn đi sâu vào bề mặt của Bitcoin và Mạng Lightning, khám phá các giao thức cung cấp sức mạnh cho cơ sở hạ tầng tài chính kiên cường nhất thế giới. Cho dù bạn đang tìm cách đóng góp cho các dự án mã nguồn mở hay xây dựng thế hệ ứng dụng Bitcoin tiếp theo, bạn sẽ có được chiều sâu kỹ thuật cần thiết để bắt đầu làm việc một cách tự tin trong hệ sinh thái này.
 
-Được ghi hình trong bootcamp CUBO+ 2023 tại El Salvador, khóa học này tập hợp các quan điểm từ các nhà phát triển và giáo viên Bitcoin hàng đầu đã định hình nên công nghệ. Phần tuyệt vời nhất? Nó hoàn toàn miễn phí, được thực hiện nhờ Fulgure Venture, Bitcoin Office và DecouvreBitcoin. Nếu bạn tò mò về cách Bitcoin thực sự hoạt động ở cấp độ giao thức, đây là cơ hội để bạn tìm hiểu.
+Được ghi hình trong bootcamp CUBO+ 2023 tại El Salvador, khóa học này tập hợp các quan điểm từ các nhà phát triển và giáo viên Bitcoin hàng đầu đã định hình nên công nghệ. Phần tuyệt vời nhất? Nó hoàn toàn miễn phí, được thực hiện nhờ Fulgure Ventures, Bitcoin Office và DecouvreBitcoin. Nếu bạn tò mò về cách Bitcoin thực sự hoạt động ở cấp độ giao thức, đây là cơ hội để bạn tìm hiểu.
 +++
 # Khóa học giới thiệu và dự bị
 
@@ -59,7 +59,7 @@ Trong suốt khóa học, học viên sẽ được tận dụng các công cụ
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-Chào mừng bạn đến với bài giảng đầu tiên của chương trình giáo dục **Cubo Plus**. Hôm nay, chúng ta sẽ khám phá thế giới của Bitcoin, do Ricky, người sáng lập **Bitcoin Italia Podcast** dẫn dắt. Ricky là một nhà hoạt động nhân quyền nhiệt thành, người sử dụng Bitcoin như một công cụ để bảo vệ và thúc đẩy nhân quyền. Với hơn sáu năm kinh nghiệm, Ricky đã đi khắp nơi, ghi lại quá trình áp dụng Bitcoin tại các thị trường mới nổi như El Salvador và Guatemala. Công việc của anh không chỉ dừng lại ở podcasting; anh còn hoạt động trên YouTube (**Bitcoin Explorers**) và Twitter (**BTC Explorer**, **Ricky6**). Từ Commitment đến Bitcoin của Ricky bắt nguồn từ niềm tin của anh rằng nó mang lại sự tự do tài chính và quyền riêng tư, thách thức các hệ thống ngân hàng tập trung truyền thống.
+Chào mừng bạn đến với bài giảng đầu tiên của chương trình giáo dục **Cubo Plus**. Hôm nay, chúng ta sẽ khám phá thế giới của Bitcoin, do Rikki, người sáng lập **Bitcoin Italia Podcast** dẫn dắt. Rikki là một nhà hoạt động nhân quyền nhiệt thành, người sử dụng Bitcoin như một công cụ để bảo vệ và thúc đẩy nhân quyền. Với hơn sáu năm kinh nghiệm, Rikki đã đi khắp nơi, ghi lại quá trình áp dụng Bitcoin tại các thị trường mới nổi như El Salvador và Guatemala. Công việc của anh không chỉ dừng lại ở podcasting; anh còn hoạt động trên YouTube (**Bitcoin Explorers**) và Twitter (**BTC Explorer**, **Rikki6**). Từ Commitment đến Bitcoin của Rikki bắt nguồn từ niềm tin của anh rằng nó mang lại sự tự do tài chính và quyền riêng tư, thách thức các hệ thống ngân hàng tập trung truyền thống.
 
 
 ![Unbanked Population](assets/en/001.webp)
@@ -81,10 +81,10 @@ Bài giảng này, **"Tại sao El Salvador cần Bitcoin,"** cung cấp tổng 
 - _Tăng cường tài chính:_ Cung cấp khả năng tiếp cận các dịch vụ tài chính cho những người bị loại khỏi hệ thống ngân hàng truyền thống, thường được gọi là "những người không có tài khoản ngân hàng".
 - _Tiền không kiểm duyệt:_ Tiền không thể bị chính phủ hoặc các tổ chức tài chính kiểm soát hoặc hạn chế.
 
-#### Bối cảnh của Ricky và hoạt động ủng hộ Bitcoin
+#### Bối cảnh của Rikki và hoạt động ủng hộ Bitcoin
 
 
-Hành trình của Ricky đến với Bitcoin bắt nguồn từ công việc của anh với tư cách là một nhà hoạt động nhân quyền. Anh tin rằng Bitcoin có thể cung cấp cho cá nhân quyền kiểm soát tài chính, cho phép họ bảo vệ quyền riêng tư và tránh những hạn chế của các ngân hàng tập trung. Việc anh tìm hiểu về việc áp dụng Bitcoin ở những nơi như El Salvador làm nổi bật cách công nghệ này có thể trao quyền cho người dân ở các thị trường mới nổi đạt được sự độc lập về tài chính.
+Hành trình của Rikki đến với Bitcoin bắt nguồn từ công việc của anh với tư cách là một nhà hoạt động nhân quyền. Anh tin rằng Bitcoin có thể cung cấp cho cá nhân quyền kiểm soát tài chính, cho phép họ bảo vệ quyền riêng tư và tránh những hạn chế của các ngân hàng tập trung. Việc anh tìm hiểu về việc áp dụng Bitcoin ở những nơi như El Salvador làm nổi bật cách công nghệ này có thể trao quyền cho người dân ở các thị trường mới nổi đạt được sự độc lập về tài chính.
 
 
 ### Ý nghĩa và thách thức toàn cầu của Bitcoin

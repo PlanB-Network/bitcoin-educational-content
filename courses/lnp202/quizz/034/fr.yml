@@ -1,0 +1,9 @@
+question: Lequel de ces critères est le plus important pour la connectivité d’un pair ?
+answer: Position centrale dans le graphe
+wrong_answers:
+  - Nom du nœud dans le graphe
+  - Couleur du nœud dans le graphe
+  - Nombre de messages dans le graphe
+explanation: |
+  Un nœud bien positionné dans le graphe Lightning facilite le routage vers de nombreuses destinations.
+reviewed: false

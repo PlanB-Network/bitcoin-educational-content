@@ -264,7 +264,7 @@ https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92
 
 
 
-seed oluşturulduktan sonra, SeedSigner'ın RAM'inde bulunduğu tek zaman budur. Benim durumumda, sırları saklamak için tasarlanmış bir başka Satochip ürünü olan [Seedkeeper] (https://satochip.io/product/seedkeeper/) üzerine kaydetmek istiyorum. Bu cihazı, Satochip'imin kaybolması durumunda son çare olarak kullanacağım.
+seed oluşturulduktan sonra, SeedSigner'ın RAM'inde bulunduğu tek zaman budur. Benim durumumda, sırları saklamak için tasarlanmış bir başka Satochip ürünü olan [Seedkeeper](https://satochip.io/product/seedkeeper/) üzerine kaydetmek istiyorum. Bu cihazı, Satochip'imin kaybolması durumunda son çare olarak kullanacağım.
 
 
 

@@ -1,0 +1,8 @@
+question: Jaký typ chyby by měl v programech Rust vyvolat paniku?
+answer: Neodstranitelné chyby, které indikují chyby programové logiky nebo nebezpečné stavy
+wrong_answers:
+  - Selhání síťového připojení nebo chyby časového limitu externích služeb
+  - Neplatný uživatelský vstup nebo chybějící konfigurační soubory
+  - Chyby nenalezení souboru nebo výjimky odepření oprávnění
+explanation: |
+  Panika by měla být vyhrazena pro neopravitelné chyby, které představují programátorské chyby nebo situace, kdy se program dostal do nebezpečného stavu, například porušení hranic pole nebo problémy s bezpečností paměti. Všechny špatné odpovědi popisují obnovitelné chyby - selhání sítě, problémy s uživatelským vstupem a problémy se souborovým systémem jsou očekávané stavy, které by programy měly řešit elegantně pomocí typů Result, nikoli pádem. Tyto obnovitelné chyby umožňují programům pokračovat v běhu implementací vhodných strategií pro ošetření chyb.

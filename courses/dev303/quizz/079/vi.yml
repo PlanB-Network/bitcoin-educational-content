@@ -1,0 +1,8 @@
+question: Điểm khác biệt chính giữa cách xử lý lỗi của panic và Result trong các ứng dụng Rust là gì?
+answer: Panic dừng thực thi ngay lập tức và không thể khôi phục lại, trong khi Result cho phép người gọi xử lý lỗi một cách khéo léo.
+wrong_answers:
+  - Panic cung cấp thông tin lỗi chi tiết trong khi Result chỉ cho biết thành công hay thất bại mà không có ngữ cảnh.
+  - Lỗi Panic là an toàn cho đa luồng và có thể được xử lý trên nhiều luồng, trong khi lỗi Result chỉ giới hạn trong một luồng duy nhất.
+  - Chế độ Panic tự động ghi lỗi vào hệ thống, trong khi chế độ Result yêu cầu ghi nhật ký và báo cáo lỗi thủ công.
+explanation: |
+  Panic biểu thị các lỗi không thể khắc phục được, ngay lập tức chấm dứt quá trình thực thi thông qua việc hủy bỏ hoặc dừng lại, khiến mã gọi không thể xử lý lỗi và tiếp tục. Result, dưới dạng một kiểu liệt kê chứa Ok(value) hoặc Err(error), buộc người gọi phải thừa nhận các lỗi tiềm ẩn và chọn cách phản hồi - bằng cách xử lý lỗi, cung cấp giá trị mặc định hoặc truyền lỗi lên ngăn xếp cuộc gọi. Sự khác biệt cơ bản này khiến Result trở thành lựa chọn ưu tiên cho các lỗi có thể khắc phục được trong mã sản phẩm, trong khi panic chỉ nên được dành cho các tình huống thực sự không thể khắc phục được hoặc các kịch bản phát triển.

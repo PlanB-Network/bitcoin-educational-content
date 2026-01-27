@@ -350,7 +350,7 @@ Ente Auth biedt verschillende praktische functies:
 
 
 
-**Automatische pictogrammen**: Elk item kan worden geïllustreerd met het logo van de service, dankzij de integratie van het pictogrammenpakket [Simple Icons] (https://simpleicons.org/).
+**Automatische pictogrammen**: Elk item kan worden geïllustreerd met het logo van de service, dankzij de integratie van het pictogrammenpakket [Simple Icons](https://simpleicons.org/).
 
 
 
@@ -530,7 +530,7 @@ Deze onafhankelijke audits, uitgevoerd door erkende bedrijven, garanderen dat de
 
 
 
-Ente Auth hanteert een [voorbeeldig privacybeleid] (https://ente.io/privacy/) dat is gebaseerd op minimale gegevensverzameling. Alleen informatie die strikt noodzakelijk is voor de werking van de service wordt bewaard: uw e-mail Address voor verificatie en accountherstel.
+Ente Auth hanteert een [voorbeeldig privacybeleid](https://ente.io/privacy/) dat is gebaseerd op minimale gegevensverzameling. Alleen informatie die strikt noodzakelijk is voor de werking van de service wordt bewaard: uw e-mail Address voor verificatie en accountherstel.
 
 
 
@@ -554,13 +554,14 @@ Het bedrijfsmodel van Ente is gebaseerd op de betaalde service Ente Photos, waar
 
 
 
-| Application              | Open Source | Sauvegarde Cloud | E2EE | Sync multi-devices | Plateformes                                        |
+
+| Toepassing              | Open Source | Cloud-back-up | E2EE | Synchronisatie tussen apparaten | Platforms                                        |
 | ------------------------ | ----------- | ---------------- | ---- | ------------------ | -------------------------------------------------- |
 | **Ente Auth**            | ✅           | ✅                | ✅    | ✅                  | Android, iOS, Linux, macOS, Windows                |
-| **Google Authenticator** | ❌           | ✅ (sans E2EE)    | ❌    | ✅                  | Android, iOS                                       |
+| **Google Authenticator** | ❌           | ✅ (zonder E2EE)    | ❌    | ✅                  | Android, iOS                                       |
 | **Aegis**                | ✅           | ❌                | ✅    | ❌                  | Android                                            |
-| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(apps desktop supprimées août 2024)* |
-| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(récent, moins établi)*              |
+| **Authy**                | ❌           | ✅                | ❌    | ✅                  | Android, iOS *(desktop-apps verwijderd augustus 2024)* |
+| **Proton Auth**          | ✅           | ✅                | ✅    | ✅                  | Android, iOS *(recent, minder gevestigd)*              |
 
 Ente Auth onderscheidt zich als een van de weinige oplossingen die alle voordelen combineert: transparantie van de broncode, versleutelde cloudback-up en platformoverkoepelende synchronisatie.
 

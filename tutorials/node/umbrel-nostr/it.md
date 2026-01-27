@@ -137,7 +137,7 @@ In questa pagina, incollare l'URL del relè Umbrel copiato in precedenza. È pos
 
 
 
-**Connessione:** noStrudel offre diverse opzioni di connessione. Nel nostro caso, sceglieremo "Chiave privata" e incolleremo la chiave privata Nostr precedentemente generata. Se non avete ancora una chiave, potete installare l'estensione [Nostr Connect] (https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) per creare e/o salvare le vostre chiavi Nostr e comunicare così in modo più sicuro con le varie applicazioni Nostr.
+**Connessione:** noStrudel offre diverse opzioni di connessione. Nel nostro caso, sceglieremo "Chiave privata" e incolleremo la chiave privata Nostr precedentemente generata. Se non avete ancora una chiave, potete installare l'estensione [Nostr Connect](https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj) per creare e/o salvare le vostre chiavi Nostr e comunicare così in modo più sicuro con le varie applicazioni Nostr.
 
 
 

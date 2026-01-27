@@ -1,0 +1,8 @@
+question: Herhangi bir seviyedeki hash sayısı tek ise işlemlerden bir Merkle ağacı oluştururken ne olur?
+answer: Son karma, bir sonraki seviye için çift sayıda çift oluşturmak üzere çoğaltılır
+wrong_answers:
+  - Son hash, eşleştirme yapılmadan bir sonraki seviyeye değiştirilmeden taşınır
+  - Son hash, eşleştirmeyi tamamlamak için o seviyenin ilk hash'i ile XORlanır
+  - Son hash, son çifti oluşturmak için bir null hash (tümü sıfır) ile birleştirilir
+explanation: |
+  Bitcoin'ın Merkle ağacı yapısı her seviyede hashlerin eşleştirilmesini gerektirir. Tek bir sayı olduğunda, protokol uygun eşleştirmeyi sağlamak için özellikle son hash'i çoğaltır. Bu, ağacın ikili yapısını korur ve deterministik kök hesaplamasını sağlar. Diğer seçenekler Bitcoin'ın mutabakat kuralları ile uyumluluğu bozar ve aynı işlem kümeleri için farklı Merkle kökleri oluşturur.

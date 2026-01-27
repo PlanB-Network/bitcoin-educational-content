@@ -12,7 +12,7 @@ Se desejar recuperar fundos de uma carteira Liana existente, leia a apresentaç�
 
 ## Apresentação do software Liana
 
-O Liana é um pacote de software de código aberto concebido para a criação e gestão de carteiras avançadas, nomeadamente como parte de um sistema de herança automatizado ou de um mecanismo robusto de cópia de segurança. O projeto tem sido desenvolvido desde 2022 pela Wizardsardine, uma empresa co-fundada por Kévin Loaec e Antoine Poinsot. No sítio Web oficial, o Liana é apresentado como "um portefólio simples para curadoria pessoal, com funcionalidades de recuperação e herança". O software funciona em computadores - Linux, MacOS, Windows - e o seu código-fonte (aberto) está disponível [no GitHub] (https://github.com/wizardsardine/liana).
+O Liana é um pacote de software de código aberto concebido para a criação e gestão de carteiras avançadas, nomeadamente como parte de um sistema de herança automatizado ou de um mecanismo robusto de cópia de segurança. O projeto tem sido desenvolvido desde 2022 pela Wizardsardine, uma empresa co-fundada por Kévin Loaec e Antoine Poinsot. No sítio Web oficial, o Liana é apresentado como "um portefólio simples para curadoria pessoal, com funcionalidades de recuperação e herança". O software funciona em computadores - Linux, MacOS, Windows - e o seu código-fonte (aberto) está disponível [no GitHub](https://github.com/wizardsardine/liana).
 
 Liana baseia-se na capacidade de programação do Bitcoin para criar uma carteira avançada. Em particular, tira partido dos bloqueios de tempo (*timelocks*), que permitem que os fundos sejam gastos apenas depois de decorrido um determinado período de tempo e que estão envolvidos na recuperação de Bitcoins. Uma carteira Liana é, portanto, composta de vários caminhos de gastos:
 
@@ -307,7 +307,7 @@ A transação deve aparecer no ecrã principal. Uma vez confirmada, a recuperaç
 
 ## Bónus: análise de descritores
 
-O descritor é uma cadeia de caracteres legível por humanos que descreve exaustivamente um conjunto de endereços. Combina uma série de informações essenciais para recuperar as partes (UTXO) de uma carteira avançada. A forma como o descritor é escrito baseia-se na [Miniscript syntax] (https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/), a linguagem de scripting desenvolvida por Andrew Poelstra, Pieter Wuille e Sanket Kanjalkar em 2019.
+O descritor é uma cadeia de caracteres legível por humanos que descreve exaustivamente um conjunto de endereços. Combina uma série de informações essenciais para recuperar as partes (UTXO) de uma carteira avançada. A forma como o descritor é escrito baseia-se na [Miniscript syntax](https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/), a linguagem de scripting desenvolvida por Andrew Poelstra, Pieter Wuille e Sanket Kanjalkar em 2019.
 
 Para compreender melhor porque é que esta cadeia de caracteres é importante, vamos analisar o descritor no nosso exemplo, que é :
 

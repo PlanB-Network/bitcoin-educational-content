@@ -1,0 +1,8 @@
+question: Hvilke grunnleggende avveininger må investorer akseptere når de deltar i Blockstream AMP-økosystemer sammenlignet med standard Liquid Network-transaksjoner?
+answer: Fullstendig innsyn i beholdningen og transaksjonshistorikken til utstederen av aktivaene, selv om andre brukere ikke får innsyn
+wrong_answers:
+  - Høyere transaksjonsgebyrer på grunn av de ekstra beregningsomkostningene som kreves for medsignering av autorisasjonsmekanismer
+  - Redusert transaksjonshastighet fordi alle overføringer må valideres gjennom sentraliserte compliance-servere før bekreftelse
+  - Begrenset overførbarhet siden AMP-tokens bare kan sendes til forhåndsgodkjente lommebøker innenfor samme jurisdiksjon
+explanation: |
+  Det riktige svaret identifiserer AMP's kjernekompromiss for personvern: Mens Confidential Transactions opprettholder bruker-til-bruker-personvern, gir AMP utstedere full unblinded-synlighet for å overholde regelverket. De gale svarene beskriver operasjonelle begrensninger (gebyrer, hastighet, overførbarhet) i stedet for det grunnleggende kompromisset om åpenhet som skiller AMP fra standard Liquids fullstendig konfidensielle modell.

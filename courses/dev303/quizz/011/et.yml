@@ -1,0 +1,8 @@
+question: Milline on Rust kompileerimisajal põhineva mäluohutuse lähenemisviisi peamine eelis võrreldes prügikogumisega?
+answer: See välistab tööaja ülekoormuse ja ettearvamatud jõudluspausid
+wrong_answers:
+  - See kasutab rohkem mälu, kuid pakub paremaid turvatagatisi
+  - See nõuab vähem koodi kirjutamist, kuid töötab aeglasemalt kui prügikoristus
+  - See hoiab ära kõik tööaja vead, kuid kasutab täitmise ajal rohkem protsessorit
+explanation: |
+  Rust kompileerimisajal põhinev mäluohutuse lähenemisviis analüüsib koodi kompileerimise ajal, et tagada mälu turvalisus ilma jooksuaegsete kuludeta. Erinevalt prügikoristusest, mida kasutatakse sellistes keeltes nagu Java ja Go, mis toob kaasa jõudluse ülekoormuse ja võib põhjustada programmi täitmise ajal ettearvamatuid pausid, on Rust süsteemil null mõju tööajale. Teised variandid on valed, sest Rust kasutab mälu tegelikult tõhusamalt (mitte rohkem), ei tööta aeglasemalt (see töötab kiiremini ilma tööaja kontrollideta) ja ei kasuta täitmise ajal rohkem protsessorit (töö tehakse kompileerimise ajal).

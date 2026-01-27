@@ -11,7 +11,7 @@ Bitfeed on alusta Bitcoin-protokollan onchain-kerroksen visualisointiin. Sen alo
 
 
 
-https://planb.academy/tutorials/privacy/analysis/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
+https://planb.academy/tutorials/privacy/explorer/mempool-space-f3e468a1-92f1-43ce-b2e4-c3298fa0e02f
 
 Tässä oppaassa tutustumme tähän työkaluun, jonka avulla voit tutkia kaikkia verkon transaktioita ja lohkoja.
 
@@ -95,7 +95,7 @@ Tämän lohkon ensimmäinen transaktio edustaa **coinbase**-transaktiota, jonka 
 
 
 
-https://planb.academy/courses/obtenir-ses-premiers-bitcoins-f3e3843d-1a1d-450c-96d6-d7232158b81f
+https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 
 Oletusarvoisesti lohkon tapahtumat esitetään kahden kriteerin mukaan:
 

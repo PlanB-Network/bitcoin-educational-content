@@ -147,11 +147,12 @@ Debe tener en cuenta los recursos de hardware necesarios para ejecutar OPNsense.
 
 
 
-| Caractéristiques | Minimum | Recommandation |
+
+| Características | Mínimo | Recomendación |
 | --- | --- | --- |
-| Processeur | 1 GHz - 2 cœurs | 1.5 GHz - Multi-coeurs |
-| Mémoire vive (RAM) | 2 Go | 8 Go |
-| Espace de stockage pour le système | Disque dur, disque SSD ou carte SD (4 Go) | 120 Go en SSD |
+| Procesador | 1 GHz - 2 núcleos | 1.5 GHz - Multi-núcleo |
+| Memoria RAM | 2 GB | 8 GB |
+| Espacio de almacenamiento para el sistema | Disco duro, SSD o tarjeta SD (4 GB) | 120 GB en SSD |
 
 Por último, **sus necesidades de recursos dependen sobre todo del número de conexiones a gestionar**, y por tanto de **sus necesidades de ancho de banda**. Además, hay que **tener en cuenta los servicios que se van a activar y utilizar** (proxy, detección de intrusos, etc.), ya que pueden consumir mucha CPU y/o RAM.
 

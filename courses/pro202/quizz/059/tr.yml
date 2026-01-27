@@ -1,0 +1,8 @@
+question: Gizliliği koruyan ışık istemcileri için kompakt blok filtreler (BIP158) bağlamında, bunları wallet gizliliği için etkili kılan kritik ödünleşme nedir?
+answer: Yanlış pozitifler üretebilirler ancak asla yanlış negatifler üretmezler, bu da istemcilerin belirli adresleri ifşa etmeden potansiyel olarak alakasız blokları indirmelerine izin verir
+wrong_answers:
+  - Yanlış negatifler üretebilirler ancak asla yanlış pozitifler üretmezler, müşterilerin yalnızca kendi işlemlerini içeren blokları indirmelerini sağlarlar
+  - wallet adreslerine dayalı deterministik filtreleme kullanarak hem yanlış pozitifleri hem de yanlış negatifleri ortadan kaldırırlar
+  - "Müşterinin gerçek işlem kalıplarını gizlemek için eşit oranlarda hem yanlış pozitifler hem de yanlış negatifler üretirler"
+explanation: |
+  Kompakt blok filtreleri asimetrik bir hata modeli ile tasarlanmıştır: bir bloğun ilgili işlemleri içermediği halde içerdiğini gösterebilirler (yanlış pozitif), ancak gerçekten ilgili işlemleri içeren bir bloğu asla kaçırmazlar (yanlış negatif yoktur). Bu tasarım çok önemlidir çünkü yanlış negatifler gerçek ödemeleri kaçırmak anlamına gelirken, yanlış pozitifler yalnızca gereksiz blokların indirilmesine neden olur. Yanlış pozitif oranı, müşterileri bazı alakasız blokları indirmeye zorlayarak gizlilik sağlar ve gözlemcilerin hangi blokların gerçekten müşterinin işlemlerini içerdiğini belirlemesini imkansız hale getirir.

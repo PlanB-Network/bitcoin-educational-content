@@ -1,0 +1,8 @@
+question: Điều gì đảm bảo rằng cả hai bên trong một giao dịch hoán đổi đa tầng đều hoàn tất giao dịch thành công hoặc cả hai đều thất bại mà không bị mất tiền?
+answer: Cả hai mạng đều sử dụng cùng một khóa băm, tạo ra liên kết mật mã giữa các nhánh hoán đổi.
+wrong_answers:
+  - Cơ chế khóa thời gian ngăn cản bất kỳ bên nào rút tiền cho đến khi cả hai mạng lưới xác nhận giao dịch.
+  - Việc tổng hợp khóa MuSig2 yêu cầu cả hai bên cùng ký tên trước khi bất kỳ khoản tiền nào được chuyển đi.
+  - "Đường dẫn kịch bản của Taproot tự động đảo ngược các giao dịch nếu một mạng không hoàn tất."
+explanation: |
+  Tính chất nguyên tử của các giao dịch hoán đổi giữa các lớp dựa trên việc sử dụng các khóa băm giống hệt nhau trên cả hai mạng. Khi người nhận tiết lộ ảnh gốc bí mật để nhận tiền trên một lớp, bí mật đó sẽ hiển thị và có thể được người gửi sử dụng để nhận tiền tương ứng trên lớp kia. Liên kết mật mã này đảm bảo tính nguyên tử - hoặc cả hai bên đều nhận được tiền hoặc không bên nào nhận được, loại bỏ rủi ro đối tác trong các giao dịch hoán đổi không cần tin tưởng.

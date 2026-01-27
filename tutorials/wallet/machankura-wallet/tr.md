@@ -80,18 +80,19 @@ Machankura, kullanıcıların internet olmadan bitcoin almalarını ve gönderme
 
 
 
-| PAYS           | CODE USSD              |
+
+| ÜLKE           | USSD KODU              |
 | -------------- | ---------------------- |
-| Ghana          | `*920*8333#`           |
+| Gana          | `*920*8333#`           |
 | Kenya          | `*483*8333#`           |
 | Malawi         | `*384*8333#`           |
-| Namibie        | `*142*8333#`           |
-| Nigeria        | `*347*8333#`           |
-| Afrique du Sud | `54052.co.za`          |
-| Tanzanie       | `SMS +255 679 066 977` |
-| Ouganda        | `SMS +256 744 830 624` |
-| Zambie         | `*384*8333#`           |
-| Côte d’Ivoire  | `*9141#`               |
+| Namibya        | `*142*8333#`           |
+| Nijerya        | `*347*8333#`           |
+| Güney Afrika | `54052.co.za`          |
+| Tanzanya       | `SMS +255 679 066 977` |
+| Uganda        | `SMS +256 744 830 624` |
+| Zambiya         | `*384*8333#`           |
+| Fildişi Sahili  | `*9141#`               |
 
 Bu tabloya dayanarak, Tanzanya, Uganda ve Güney Afrika gibi ülkelerin hizmet için belirli bir USSD koduna sahip olmadığını görebiliriz.
 
@@ -101,7 +102,7 @@ Ancak Machankura, web sitesi, SMS mesajlaşma ve WhatsApp aracılığıyla işle
 
 
 
-Hizmetin sunulacağı yeni ülkelerden haberdar olmak için lütfen [web sitesine] (https://8333.mobi) düzenli olarak bakın.
+Hizmetin sunulacağı yeni ülkelerden haberdar olmak için lütfen [web sitesine](https://8333.mobi) düzenli olarak bakın.
 
 
 
@@ -301,7 +302,7 @@ Alıcının numarası henüz bir kullanıcı olarak kaydedilmemişse, Machankura
 
 
 
-PIO TARAS (Lead Machankura Afrique Francophone) tarafından Machankura aracılığıyla bitcoinlerin [video gönderme demosunu] (https://www.linkedin.com/posts/activity-7351143606121820162-Ua3T?utm_source=share&utm_medium=member_android&rcm=ACoAAAeTubUB8GuaMia5yNBlBg4WhZpGOeVLY0w) basit bir telefonda izleyebilirsiniz.
+PIO TARAS (Lead Machankura Afrique Francophone) tarafından Machankura aracılığıyla bitcoinlerin [video gönderme demosunu](https://www.linkedin.com/posts/activity-7351143606121820162-Ua3T?utm_source=share&utm_medium=member_android&rcm=ACoAAAeTubUB8GuaMia5yNBlBg4WhZpGOeVLY0w) basit bir telefonda izleyebilirsiniz.
 
 
 

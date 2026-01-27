@@ -1,0 +1,8 @@
+question: Qual è la differenza fondamentale tra il design del livello di persistenza di LDK e la gestione tradizionale dei dati del nodo Lightning, che consente una flessibilità di distribuzione multipiattaforma?
+answer: LDK fornisce blob astratti di dati binari per la memorizzazione, mentre le applicazioni implementano i propri meccanismi di memorizzazione
+wrong_answers:
+  - LDK utilizza database SQL standardizzati, mentre i nodi tradizionali richiedono implementazioni personalizzate del file system
+  - LDK sincronizza automaticamente i dati su più piattaforme, mentre i nodi tradizionali memorizzano i dati solo a livello locale
+  - LDK cripta tutti i dati di persistenza per impostazione predefinita, mentre i nodi tradizionali si affidano alla crittografia a livello di applicazione
+explanation: |
+  Il livello di persistenza di LDK astrae dall'archiviazione fornendo alle applicazioni blob di dati binari serializzati che devono essere archiviati e recuperati in modo affidabile, gestendo al contempo tutta la complessità della serializzazione degli stati del canale Lightning e dei dati di rete internamente. Ciò consente alle applicazioni di scegliere qualsiasi soluzione di archiviazione (file system, cloud storage, database) che soddisfi i requisiti della piattaforma. I nodi Lightning tradizionali implementano in genere sistemi di gestione dei dati specifici legati a particolari meccanismi di archiviazione, rendendoli meno flessibili in diversi ambienti di distribuzione.

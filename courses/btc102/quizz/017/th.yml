@@ -1,0 +1,9 @@
+question: คำว่าอะไรที่หมายถึงการแบ่งเงินอุดหนุน mining ที่ตั้งโปรแกรมไว้?
+answer: Halving
+wrong_answers:
+  - Fork
+  - แบ่งครึ่ง
+  - Coinbase
+explanation: |
+  Halving หมายถึงการลดลงครึ่งหนึ่งของเงินอุดหนุน mining ทุกๆ 210,000 บล็อก
+reviewed: false

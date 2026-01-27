@@ -1,5 +1,5 @@
 ---
-name: ساتودایم
+name: Satodime
 description: دریابید که چگونه از Satodime با برنامه موبایل استفاده کنید
 ---
 ![cover](assets/cover.webp)

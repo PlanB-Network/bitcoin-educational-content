@@ -1,5 +1,5 @@
 ---
-name: BIP-39 Frase de contraseña SeedSigner
+name: BIP-39 Passphrase SeedSigner
 description: ¿Cómo añado una passphrase a mi cartera SeedSigner?
 ---
 

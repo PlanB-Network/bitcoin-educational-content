@@ -474,16 +474,16 @@ Trước tiên, hãy định nghĩa nó. Giả sử một từ điển *D* coi t
 
 Toán tử modulo trong mã hóa dịch chuyển đảm bảo rằng các chữ cái bao quanh, do đó tất cả các chữ cái trong văn bản mã hóa đều được xác định. Để minh họa, hãy xem xét ứng dụng của mã hóa dịch chuyển trên từ “DOG”.
 
-Giả sử bạn chọn một khóa có giá trị là 17. Chữ cái “O” tương đương với 15. Nếu không có phép toán modulo, việc cộng số văn bản thuần túy này với khóa sẽ tạo ra số văn bản mã hóa là 32. Tuy nhiên, số văn bản mã hóa đó không thể chuyển thành một chữ cái văn bản mã hóa, vì bảng chữ cái tiếng Anh chỉ có 26 chữ cái. Phép toán modulo đảm bảo rằng số văn bản mã hóa thực sự là 6 (kết quả của $32 \mod 26$), tương đương với chữ cái văn bản mã hóa “G”.
+Giả sử bạn chọn ngẫu nhiên một khóa có giá trị $17$. Chữ “O” tương ứng với $14$. Nếu không có phép toán modulo, việc cộng số của bản rõ với khóa sẽ tạo ra số bản mã bằng $31$. Tuy nhiên, số bản mã này không thể chuyển thành một chữ cái mã hóa, vì bảng chữ cái tiếng Anh chỉ có $26$ chữ cái. Phép modulo đảm bảo rằng số bản mã thực tế là $5$ (kết quả của $31 \mod 26$), tương ứng với chữ cái mã hóa “F”.
 
 Toàn bộ mã hóa của từ “DOG” với giá trị khóa là 17 như sau:
 
 
-- Tin nhắn = DOG = D,O,G = 3,15,6
+**Thông điệp = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 Mọi người đều có thể hiểu trực quan cách thức hoạt động của mã hóa dịch chuyển và có thể tự sử dụng. Tuy nhiên, để nâng cao kiến thức về mật mã, điều quan trọng là phải bắt đầu trở nên thoải mái hơn với việc chính thức hóa, vì các lược đồ sẽ trở nên khó khăn hơn nhiều. Do đó, tại sao các bước cho mã hóa dịch chuyển được chính thức hóa.
 

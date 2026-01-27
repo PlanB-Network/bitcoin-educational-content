@@ -6,4 +6,4 @@ wrong_answers:
   - Node tersebut akan diberi reward oleh jaringan Bitcoin
 explanation: >-
   Jika seorang pengguna memutuskan untuk mengikuti aturan lain yang membuat aturan konsensus saat ini tidak valid, maka node tersebut tidak akan lagi menjadi bagian dari jaringan Bitcoin.
-reviewed: false
+reviewed: true

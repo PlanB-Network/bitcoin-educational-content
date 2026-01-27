@@ -1,0 +1,8 @@
+question: Was ist der Hauptvorteil der Verwendung von map()- und map_err()-Methoden für Ergebnistypen im Vergleich zu traditionellen try-catch-Fehlerbehandlungsmustern?
+answer: Sie ermöglichen eine funktionale Verkettung von Operationen und halten die Fehlerbehandlung nahe an den Operationen, die fehlschlagen können
+wrong_answers:
+  - Sie konvertieren automatisch alle Fehlertypen in String-Meldungen, um die Fehlersuche und die Anzeige für den Benutzer zu erleichtern
+  - Sie machen den Fragezeichenoperator überflüssig, da sie eingebaute Mechanismen zur Fehlerfortpflanzung bieten
+  - Sie verhindern Panikzustände, indem sie alle potenziell scheiternden Operationen in sichere Ergebnis-Container verpacken
+explanation: |
+  Die Methoden map() und map_err() ermöglichen eine funktionale Fehlerbehandlung, bei der Sie Operationen verketten und Werte oder Fehler direkt an der Stelle umwandeln können, an der sie auftreten. Dadurch bleibt die Fehlerbehandlungslogik nahe an den Operationen, die fehlschlagen können, im Gegensatz zu try-catch-Blöcken, bei denen die Fehlerbehandlung von den eigentlichen Operationen getrennt ist. Die anderen Optionen sind falsch: Map-Methoden konvertieren Fehler nicht in Zeichenketten (das ist die Aufgabe von anyhow), sie arbeiten neben dem Fragezeichenoperator, anstatt ihn zu ersetzen, und sie verhindern keine Panik, sondern bieten eine strukturierte Fehlerbehandlung für Ergebnisse.

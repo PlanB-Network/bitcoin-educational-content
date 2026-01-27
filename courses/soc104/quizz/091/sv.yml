@@ -1,0 +1,9 @@
+question: Enligt Satoshi Nakamotos grundläggande kritik, vad är kärnproblemet med konventionella fiatvalutor som Bitcoin var utformad för att lösa?
+answer: Det överdrivna förtroende som krävs för centraliserade institutioner som historiskt sett upprepade gånger har brutit mot detta förtroende genom att förringa valutor
+wrong_answers:
+  - Bristen på digital infrastruktur och långsamma transaktionstider jämfört med moderna betalningssystem
+  - Oförmåga att genomföra internationella transaktioner utan dyra mellanhänder och valutaväxlingsavgifter
+  - Sårbarheten för förfalskning och fysisk stöld på grund av beroendet av papperspengar och fysisk förvaring
+explanation: |
+  Satoshi Nakamoto sade uttryckligen att "grundproblemet med konventionell valuta är allt förtroende som krävs för att få den att fungera" och att "fiatvalutornas historia är full av brott mot detta förtroende"
+  Denna filosofiska grund drev Bitcoin:s design som ett förtroendefritt system som inte kräver tillit till centralbanker eller regeringar för att upprätthålla monetär stabilitet, vilket direkt adresserar det historiska mönstret med valutaförsvagning genom överdriven penningtryckning.

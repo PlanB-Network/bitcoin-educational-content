@@ -94,7 +94,7 @@ SENDGRID_KEY=dummySendgridKey
 
 
 
-För att installera nodejs, hitta instruktioner [här] (https://nodejs.org/en/download/package-manager); till exempel kan du välja att använda `nvm` installationsmetod.
+För att installera nodejs, hitta instruktioner [här](https://nodejs.org/en/download/package-manager); till exempel kan du välja att använda `nvm` installationsmetod.
 
 
 ---

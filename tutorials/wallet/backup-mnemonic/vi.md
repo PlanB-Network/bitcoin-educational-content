@@ -1,5 +1,5 @@
 ---
-name: Save your mnemonic phrase
+name: Sao lưu cụm từ ghi nhớ của bạn
 description: Discover best practices for safeguarding your Bitcoin wallet
 ---
 ![cover](assets/cover.webp)

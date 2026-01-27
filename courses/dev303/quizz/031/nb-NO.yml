@@ -1,0 +1,8 @@
+question: Hvilken type feil bør utløse panikk i Rust-programmer?
+answer: Uopprettelige feil som indikerer feil i programmeringslogikken eller usikre tilstander
+wrong_answers:
+  - Feil i nettverkstilkoblingen eller tidsavbrudd fra eksterne tjenester
+  - Ugyldig brukerinndata eller manglende konfigurasjonsfiler
+  - Feil i filen ble ikke funnet eller unntak for nektet tillatelse
+explanation: |
+  Panikk bør reserveres for uopprettelige feil som representerer programmeringsfeil eller situasjoner der programmet har gått inn i en usikker tilstand, for eksempel brudd på array-grenser eller problemer med minnesikkerhet. De gale svarene beskriver alle gjenopprettelige feil - nettverksfeil, problemer med brukerinndata og filsystemfeil er forventede tilstander som programmer bør håndtere på en elegant måte ved hjelp av Result-typer i stedet for å krasje. Disse gjenopprettelige feilene gjør det mulig for programmer å fortsette å kjøre ved å implementere passende feilhåndteringsstrategier.

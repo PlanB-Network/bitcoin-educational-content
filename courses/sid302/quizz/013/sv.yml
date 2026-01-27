@@ -1,0 +1,8 @@
+question: Vad händer i en Taproot-aktiverad HTLC när båda parter samarbetar och kommer överens om att slutföra bytet mellan lagren?
+answer: De signerar tillsammans med sin aggregerade publika nyckel via MuSig2, vilket skapar en transaktion som inte går att skilja från en vanlig betalning med en enda signatur
+wrong_answers:
+  - De måste avslöja det fullständiga skriptet som innehåller hash- och tidslås on-chain för nätverksverifiering
+  - De publicerar bara den specifika Merkle-trädgren som behövs medan den aggregerade nyckeln hålls dold för observatörer
+  - De sänder separata transaktioner på varje lager samtidigt för att säkerställa atomär avveckling utan nyckelaggregering
+explanation: |
+  Den kooperativa "nyckelvägen" i Taproot gör det möjligt för parterna att kombinera sina nycklar till en enda aggregerad publik nyckel med hjälp av MuSig2. När båda är överens signerar de helt enkelt transaktionen, som ser ut som vilken standardbetalning som helst på blockkedjan. Detta ger maximal integritet och effektivitet eftersom ingen skriptlogik avslöjas, vilket förbrukar minimalt blockutrymme. De andra alternativen beskriver felaktigt antingen det gamla HTLC-beteendet eller scenariot med en kontroversiell skriptväg.

@@ -1,0 +1,8 @@
+question: Jaký je v platformě pro správu aktiv (AMP) společnosti Liquid hlavní technický mechanismus, který zabraňuje opatřením pro zajištění souladu s předpisy v jednom bodě selhání a zároveň zachovává regulační kontrolu nad tokenizovanými aktivy?
+answer: Autorizace více podpisů vyžadující schválení akcí pro zajištění souladu s předpisy, jako je zmrazení prostředků nebo opětovné vydání tokenů, více stranami
+wrong_answers:
+  - Žetony správy Smart contract, které umožňují komunitní hlasování o všech rozhodnutích o dodržování předpisů a jejich prosazování
+  - Časově omezené účty úschov, které automaticky provádějí opatření k zajištění souladu s předpisy po uplynutí předem stanovených čekacích lhůt
+  - Kryptografický konsenzus proof-of-stake, kde ověřovatelé musí dosáhnout většinové shody před provedením jakékoli akce shody
+explanation: |
+  AMP používá kontrolu více podpisů, aby zajistila, že akce v souladu s předpisy vyžadují autorizaci od více stran, což zabraňuje jednostrannému jednání jednotlivého zaměstnance. To vytváří systém kontrol a rovnováh pro citlivé operace při zachování regulačního dohledu požadovaného pro institucionální aktiva. Špatné odpovědi popisují mechanismy, které v AMP buď neexistují, nebo by byly pro dodržování regulovaných finančních předpisů nevhodné.

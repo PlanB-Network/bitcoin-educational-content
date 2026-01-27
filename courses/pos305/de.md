@@ -154,7 +154,7 @@ Kunden kaufen ein Produkt im Laden mit Bitcoin.
 
 
 - Einrichten:
-  - Siehe Diagramme/Erläuterungen im beigefügten Figjam - [Aktivitätsschema] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Siehe Diagramme/Erläuterungen im beigefügten Figjam - [Aktivitätsschema](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
   - Bitten Sie drei freiwillige Schüler, die Rollen des Kunden (Alice), des Händlers (Bob) und der Bank zu übernehmen.
 - Spielen Sie die Abfolge der Ereignisse nach:
   - Ein Kunde, der online im Laden stöbert und einen Artikel für 25 $ findet, den er haben möchte, informiert den Händler, dass er ihn kaufen möchte
@@ -176,7 +176,7 @@ Kunden kaufen ein Produkt im Laden mit Bitcoin.
 
 
 - Einrichten:
-  - Siehe Diagramme/Erläuterungen im beigefügten Figjam - [Aktivitätsschema] (https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
+  - Siehe Diagramme/Erläuterungen im beigefügten Figjam - [Aktivitätsschema](https://www.figma.com/file/ckmvMq02Jm2MegSsVCDFhc/Day-1-Classroom-Activity?type=whiteboard&node-id=0-1&t=KR31ofMaJX6S95UL-0).
   - Ersetzen Sie die Bank durch neun Schüler, die die Rolle eines Computers (Bitcoin-Knoten/Miners) in einem Netzwerk spielen, das die Bank ersetzen soll.
 - Jeder der 9 Computer verfügt über eine vollständige historische Aufzeichnung aller jemals getätigten Transaktionen (daher genaue Bilanzen ohne Fälschungen) sowie über ein Regelwerk:
   - Überprüfen Sie, ob die Transaktion ordnungsgemäß signiert ist (thekeyfitsthelock)
@@ -727,14 +727,15 @@ BTCPay Server besteht aus den folgenden Standard-Wallet-Funktionen:
 Administratoren können in der Transaktionsansicht die eingehenden und ausgehenden Transaktionen für die On-Chain Wallet sehen, die mit diesem spezifischen Speicher verbunden sind. Bei jeder Transaktion wird zwischen den empfangenen und gesendeten Beträgen unterschieden. Empfangene Transaktionen sind Green, und ausgehende Transaktionen sind rot. In der Transaktionsansicht des BTCPay-Servers sehen Administratoren auch eine Reihe von Standardetiketten.
 
 
-| Transaction Type | Description                                          |
-| ---------------- | ---------------------------------------------------- |
-| App              | Payment was received through an app-created invoice  |
-| invoice          | Payment was received through an invoice              |
-| payjoin          | Not paid, invoice timer still has not expired        |
-| payjoin-exposed  | UTXO was exposed through an invoice payjoin proposal |
-| payment-request  | Payment was received through a payment request       |
-| payout           | Payment was sent through a payout or refund          |
+
+| Transaktionstyp | Beschreibung                                        |
+| --------------- | ---------------------------------------------------- |
+| App             | Zahlung wurde über eine von einer App erstellte Rechnung empfangen |
+| Rechnung        | Zahlung wurde über eine Rechnung empfangen           |
+| Payjoin         | Nicht bezahlt, der Rechnungs-Timer ist noch nicht abgelaufen |
+| Payjoin-offengelegt | UTXO wurde über einen Payjoin-Vorschlag in einer Rechnung offengelegt |
+| Zahlungsanforderung | Zahlung wurde über eine Zahlungsanforderung empfangen |
+| Auszahlung      | Zahlung wurde über eine Auszahlung oder Rückerstattung gesendet |
 
 ### Wie man sendet
 
@@ -838,7 +839,7 @@ Die Rescan-Funktion stützt sich auf Bitcoin core 0.17.0's "Scantxoutset", um de
 
 1. Problem der Lückenbegrenzung - Die meisten Geldbörsen von Drittanbietern sind leichte Geldbörsen, die sich einen Knoten mit vielen Benutzern teilen. Leichte und Full node-abhängige Wallets begrenzen die Anzahl (normalerweise 20) der Adressen ohne Guthaben, die sie auf dem Blockchain verfolgen, um Leistungsprobleme zu vermeiden. BTCPay Server generiert einen neuen Address für jeden Invoice. Nachdem BTCPay Server 20 aufeinanderfolgende unbezahlte Rechnungen generiert hat, hört der externe Wallet auf, die Transaktionen abzurufen, vorausgesetzt, es sind keine neuen Transaktionen aufgetreten. Ihr externer Wallet wird sie nicht mehr anzeigen, wenn die Rechnungen am 21., 22. usw. bezahlt werden. Der interne Wallet des BTCPay-Servers hingegen verfolgt jeden Address, den er generiert, zusammen mit einem deutlich höheren Gap-Limit. Er ist nicht von einer dritten Partei abhängig und kann immer einen korrekten Saldo ausweisen.
 
-2. Die Gap-Limit-Lösung - Wenn Ihr [externer/existierender Wallet] (https://docs.btcpayserver.org/WalletSetup/#use-an-existing-Wallet) die Konfiguration des Gap-Limits zulässt, ist die einfache Lösung, es zu erhöhen. Die Mehrheit der Geldbörsen erlaubt dies jedoch nicht. Die einzigen uns bekannten Geldbörsen, die derzeit eine Gap-Limit-Konfiguration unterstützen, sind Electrum, Wasabi und Sparrow wallet. Leider werden Sie bei vielen anderen Geldbörsen wahrscheinlich auf ein Problem stoßen. Für die beste Benutzererfahrung und den besten Datenschutz sollten Sie den internen Wallet des BTCPay-Servers anstelle von externen Wallets verwenden.
+2. Die Gap-Limit-Lösung - Wenn Ihr [externer/existierender Wallet](https://docs.btcpayserver.org/WalletSetup/#use-an-existing-Wallet) die Konfiguration des Gap-Limits zulässt, ist die einfache Lösung, es zu erhöhen. Die Mehrheit der Geldbörsen erlaubt dies jedoch nicht. Die einzigen uns bekannten Geldbörsen, die derzeit eine Gap-Limit-Konfiguration unterstützen, sind Electrum, Wasabi und Sparrow wallet. Leider werden Sie bei vielen anderen Geldbörsen wahrscheinlich auf ein Problem stoßen. Für die beste Benutzererfahrung und den besten Datenschutz sollten Sie den internen Wallet des BTCPay-Servers anstelle von externen Wallets verwenden.
 
 
 #### BTCPay Server verwendet "mempoolfullrbf=1"
@@ -1805,28 +1806,30 @@ Jeder Typ hat seine eigenen Parameter, die es auszufüllen gilt. Der Ladenbesitz
 Mit BTCPay Server können Sie auch Formulare im Code erstellen. JSON, insbesondere. Statt auf den Editor zu schauen, können Shop-Betreiber auf die CODE-Schaltfläche direkt neben dem Editor klicken und in den Code ihrer Formulare einsteigen. In einer Felddefinition können nur die folgenden Felder festgelegt werden; die Werte der Felder werden in den Metadaten des Invoice gespeichert:
 
 
-| Field                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+| Feld | Beschreibung |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| .fields.constant      | If true, the .value must be set in the form definition, and the user will not be able to change the field's value. ( example: the form definition's version)                                                                                                                                                                                                                                                                                                       |
-| .fields.type          | The HTML input type text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel                                                                                                                                                                                                                                                                                                |
-| .fields.options       | If .fields.type is select, the list of selectable values                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.options.text  | The text displayed for this option                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| .fields.options.value | The value of the field if this option is selected                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| .fields.type=fieldset | Create a HTML fieldset around the children .fields.fields (see below)                                                                                                                                                                                                                                                                                                                                                                                              |
-| .fields.name          | The JSON property name of the field as it will appear in the invoice's metadata                                                                                                                                                                                                                                                                                                                                                                                    |
-| .fields.value         | The default value of the field                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| .fields.required      | if true, the field will be required                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| .fields.label         | The label of the field                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| .fields.helpText      | Additional text to provide an explanation for the field.                                                                                                                                                                                                                                                                                                                                                                                                           |
-| .fields.fields        | You can organize your fields in a hierarchy, allowing child fields to be nested within the invoice’s metadata. This structure can help you better organize and manage the collected information, making it easier to access and interpret. For example, if you have a form that collects customer information, you can group the fields under a parent field called customer. Within this parent field, you might have child fields like name, Email, and address. |
+| .fields.constant | Wenn true, muss .value in der Formulardefinition festgelegt werden und der Benutzer kann den Wert des Feldes nicht ändern. (Beispiel: die Version der Formulardefinition) |
+| .fields.type | Der HTML-Input-Typ: text, radio, checkbox, password, hidden, button, color, date, datetime-local, month, week, time, email, number, range, search, url, select, tel |
+| .fields.options | Wenn .fields.type gleich select ist, die Liste der auswählbaren Werte |
+| .fields.options.text | Der für diese Option angezeigte Text |
+| .fields.options.value | Der Wert des Feldes, wenn diese Option ausgewählt ist |
+| .fields.type=fieldset | Erstellt ein HTML-fieldset um die untergeordneten .fields.fields (siehe unten) |
+| .fields.name | Der JSON-Eigenschaftsname des Feldes, wie er in den Metadaten der Rechnung erscheint |
+| .fields.value | Der Standardwert des Feldes |
+| .fields.required | Wenn true, ist das Feld ein Pflichtfeld |
+| .fields.label | Die Beschriftung des Feldes |
+| .fields.helpText | Zusätzlicher Text zur Erläuterung des Feldes. |
+| .fields.fields | Sie können Ihre Felder in einer Hierarchie organisieren, sodass untergeordnete Felder in den Metadaten der Rechnung verschachtelt werden können. Diese Struktur hilft Ihnen, die gesammelten Informationen besser zu organisieren und zu verwalten, was den Zugriff und die Interpretation erleichtert. Wenn Sie beispielsweise ein Formular haben, das Kundeninformationen sammelt, können Sie die Felder unter einem übergeordneten Feld namens customer gruppieren. Innerhalb dieses übergeordneten Feldes können Sie untergeordnete Felder wie name, Email und address haben. |
 
 Der Feldname stellt den JSON-Eigenschaftsnamen dar, der den vom Benutzer bereitgestellten Wert in den Metadaten des Invoice speichert. Einige bekannte Namen können interpretiert und geändert werden, um die Einstellungen des Invoice anzupassen.
 
 
-| Field name       | Description            |
+
+| Feldname         | Beschreibung          |
 | ---------------- | ---------------------- |
-| invoice_amount   | The invoice's amount   |
-| invoice_currency | The invoice's currency |
+| invoice_amount   | Betrag der Rechnung   |
+| invoice_currency | Währung der Rechnung  |
 
 Sie können die Felder eines Invoice automatisch ausfüllen, indem Sie Abfragezeichenfolgen zur URL des Formulars hinzufügen, z. B. "?your_field=value".
 
@@ -2222,7 +2225,7 @@ Versuchen Sie zuallererst herauszufinden, wann das Problem auftritt. Versuchen S
 ##### Aktualisierung des Servers
 
 
-Überprüfen Sie Ihre Version von BTCPay Server, wenn sie viel älter ist als die [neueste Version] (https://github.com/btcpayserver/btcpayserver/releases) von BTCPay Server. Eine Aktualisierung Ihres Servers kann das Problem beheben.
+Überprüfen Sie Ihre Version von BTCPay Server, wenn sie viel älter ist als die [neueste Version](https://github.com/btcpayserver/btcpayserver/releases) von BTCPay Server. Eine Aktualisierung Ihres Servers kann das Problem beheben.
 
 
 ##### Neustart des Servers
@@ -2276,7 +2279,8 @@ docker logs --tail 100 generated_btcpayserver_1
 ```
 
 
-| Logs for     | Container Name                    |
+
+| Protokolle für | Containername                      |
 | ------------ | --------------------------------- |
 | BTCPayServer | generated_btcpayserver_1          |
 | NBXplorer    | generated_nbxplorer_1             |
@@ -2452,7 +2456,7 @@ In BTCPay Server stellt ein Invoice ein Dokument dar, das innerhalb eines bestim
 Das Herzstück von BTCPay Server ist die Fähigkeit, als Bitcoin Invoice-Verwaltungssystem zu fungieren. Ein Invoice ist ein unverzichtbares Werkzeug für die Verfolgung und Verwaltung eingegangener Zahlungen.
 
 
-Sofern Sie nicht ein integriertes [Wallet] (https://docs.btcpayserver.org/Wallet/) verwenden, um Zahlungen manuell zu empfangen, werden alle Zahlungen innerhalb eines Geschäfts auf der Seite Rechnungen angezeigt. Diese Seite sortiert die Zahlungen kumulativ nach Datum und dient als zentrale Ressource für die Invoice-Verwaltung und die Fehlerbehebung bei Zahlungen.
+Sofern Sie nicht ein integriertes [Wallet](https://docs.btcpayserver.org/Wallet/) verwenden, um Zahlungen manuell zu empfangen, werden alle Zahlungen innerhalb eines Geschäfts auf der Seite Rechnungen angezeigt. Diese Seite sortiert die Zahlungen kumulativ nach Datum und dient als zentrale Ressource für die Invoice-Verwaltung und die Fehlerbehebung bei Zahlungen.
 
 
 ![image](assets/en/093.webp)
@@ -2467,21 +2471,22 @@ Sofern Sie nicht ein integriertes [Wallet] (https://docs.btcpayserver.org/Wallet
 In der folgenden Tabelle werden die Standard-Invoice-Status in BTCPay aufgelistet und beschrieben, zusammen mit Vorschlägen für allgemeine Maßnahmen. Die Maßnahmen sind lediglich Empfehlungen. Es liegt an den Benutzern, die beste Vorgehensweise für ihren Anwendungsfall und ihr Unternehmen zu definieren.
 
 
-| Invoice Status             | Description                                                                                                                             | Action                                                                                                                      |
+
+| Rechnungsstatus | Beschreibung | Aktion |
 | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| New                        | Not paid, invoice timer still has not expired                                                                                           | None                                                                                                                        |
-| New (paidPartial)          | Paid, not in full, invoice timer still has not expired                                                                                  | None                                                                                                                        |
-| Expired                    | Not paid, invoice timer expired                                                                                                         | None                                                                                                                        |
-| Expired (paidPartial) \*\* | Paid, not in full amount, and expired                                                                                                   | Contact buyer to arrange a refund or ask for them to pay their due. Optionally mark the invoice as settled or invalid           |
-| Expired (paidLate)         | Paid, in full amount, after the invoice timer has expired                                                                               | Contact buyer to arrange a refund or process order if late confirmations are acceptable.                                    |
-| Settled (paidOver)         | Paid more than the invoice amount, settled, received sufficient amount of confirmations                                                 | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing                 | Paid in full, but has not received sufficient amount of confirmations specified in the store settings                                   | Contact buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you                         |
-| Processing (paidOver)      | Paid more than the invoice amount, not received sufficient amount of confirmations                                                      | Wait to be settled, then contact the  buyer to arrange a refund for the extra amount, or optionally wait for buyer to contact you |
-| Settled                    | Paid, in full, received sufficient amount of confirmations in store                                                                     | Fulfil the order                                                                                                            |
-| Settled (marked)           | Status was manually changed to settled from a processing or invalid status                                                             | Store admin has marked the payment as settled                                                                               |
-| Invalid\*                  | Paid, but failed to receive sufficient amount of confirmations within the time specified in store settings                              | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
-| Invalid (marked)           | Status was manually changed to invalid from a settled or expired status                                                                 | Store admin has marked the payment as invalid                                                                               |
-| Invalid (paidOver)         | Paid more than the invoice amount, but failed to receive sufficient amount of confirmations within the time specified in store settings | Check the transaction on a blockchain explorer, if it received sufficient confirmations, mark as settled                    |
+| New | Nicht bezahlt, Rechnungstimer ist noch nicht abgelaufen | Keine |
+| New (paidPartial) | Teilweise bezahlt, Rechnungstimer ist noch nicht abgelaufen | Keine |
+| Expired | Nicht bezahlt, Rechnungstimer abgelaufen | Keine |
+| Expired (paidPartial) ** | Teilweise bezahlt und abgelaufen | Käufer kontaktieren, um Rückerstattung zu vereinbaren oder Restzahlung anfordern. Optional Rechnung als settled oder invalid markieren |
+| Expired (paidLate) | Vollständig bezahlt, nachdem der Rechnungstimer abgelaufen war | Käufer kontaktieren, um Rückerstattung zu vereinbaren oder Bestellung bearbeiten, falls späte Bestätigungen akzeptabel sind. |
+| Settled (paidOver) | Mehr als den Rechnungsbetrag bezahlt, abgerechnet, ausreichend Bestätigungen erhalten | Käufer kontaktieren, um Rückerstattung des Mehrbetrags zu vereinbaren, oder optional warten, bis der Käufer Sie kontaktiert |
+| Processing | Vollständig bezahlt, aber noch nicht ausreichend Bestätigungen gemäß Shopeinstellungen erhalten | Käufer kontaktieren, um Rückerstattung des Mehrbetrags zu vereinbaren, oder optional warten, bis der Käufer Sie kontaktiert |
+| Processing (paidOver) | Mehr als den Rechnungsbetrag bezahlt, noch nicht ausreichend Bestätigungen erhalten | Warten, bis der Status auf settled wechselt, dann Käufer für Rückerstattung kontaktieren oder auf Kontaktaufnahme warten |
+| Settled | Vollständig bezahlt, ausreichend Bestätigungen im Shop erhalten | Bestellung ausführen |
+| Settled (marked) | Status wurde manuell von processing oder invalid auf settled geändert | Shop-Admin hat die Zahlung als settled markiert |
+| Invalid* | Bezahlt, aber innerhalb der Shopeinstellungen nicht ausreichend Bestätigungen erhalten | Transaktion im Blockchain-Explorer prüfen; falls ausreichend Bestätigungen vorliegen, als settled markieren |
+| Invalid (marked) | Status wurde manuell von settled oder expired auf invalid geändert | Shop-Admin hat die Zahlung als invalid markiert |
+| Invalid (paidOver) | Mehr als Rechnungsbetrag bezahlt, aber nicht ausreichend Bestätigungen innerhalb der Zeitvorgabe erhalten | Transaktion im Blockchain-Explorer prüfen; falls ausreichend Bestätigungen vorliegen, als settled markieren |
 
 #### Invoice Einzelheiten
 
@@ -2670,13 +2675,13 @@ Wie wäre es, wenn der Sender die Zahlung nicht schiebt, sondern dem Empfänger 
 ### Auszahlungen
 
 
-Die Auszahlungsfunktion ist an die Funktion [Pull Payments] (https://docs.btcpayserver.org/PullPayments/) gebunden. Diese Funktion ermöglicht es Ihnen, Auszahlungen innerhalb Ihres BTCPay zu erstellen. Mit dieser Funktion können Sie Pull-Zahlungen (Erstattungen, Gehaltsauszahlungen oder Abhebungen) verarbeiten.
+Die Auszahlungsfunktion ist an die Funktion [Pull Payments](https://docs.btcpayserver.org/PullPayments/) gebunden. Diese Funktion ermöglicht es Ihnen, Auszahlungen innerhalb Ihres BTCPay zu erstellen. Mit dieser Funktion können Sie Pull-Zahlungen (Erstattungen, Gehaltsauszahlungen oder Abhebungen) verarbeiten.
 
 
 #### Beispiel 1: Erstattung
 
 
-Beginnen wir mit dem Beispiel der Rückerstattung. Der Kunde hat einen Artikel in Ihrem Geschäft gekauft, muss ihn aber leider zurückgeben. Er möchte eine Rückerstattung. Innerhalb von BTCPay können Sie eine [Rückerstattung] (https://docs.btcpayserver.org/Refund/) erstellen und dem Kunden den Link zur Verfügung stellen, über den er sein Geld anfordern kann. Sobald der Kunde seine Address angegeben und das Geld eingefordert hat, wird es im Abschnitt Auszahlungen angezeigt.
+Beginnen wir mit dem Beispiel der Rückerstattung. Der Kunde hat einen Artikel in Ihrem Geschäft gekauft, muss ihn aber leider zurückgeben. Er möchte eine Rückerstattung. Innerhalb von BTCPay können Sie eine [Rückerstattung](https://docs.btcpayserver.org/Refund/) erstellen und dem Kunden den Link zur Verfügung stellen, über den er sein Geld anfordern kann. Sobald der Kunde seine Address angegeben und das Geld eingefordert hat, wird es im Abschnitt Auszahlungen angezeigt.
 
 
 Der erste Status, den es hat, ist Warten auf Genehmigung. Die Mitarbeiter in der Filiale können prüfen, ob mehrere Anträge vorliegen, und nachdem sie eine Auswahl getroffen haben, verwenden sie die Schaltfläche "Aktionen".
@@ -2700,7 +2705,7 @@ Der Kunde wird nun auf der Claiming-Seite aktualisiert. Er kann die Transaktion 
 #### Beispiel 2: Gehalt
 
 
-Kommen wir nun zur Auszahlung von Gehältern, da diese von der Filiale aus gesteuert wird und nicht auf Anfrage des Kunden erfolgt. Das zugrundeliegende Konzept ist dasselbe; es verwendet Pull-Zahlungen. Aber anstatt eine Rückzahlung zu erstellen, werden wir eine [Pull-Zahlung] (https://docs.btcpayserver.org/PullPayments/) vornehmen.
+Kommen wir nun zur Auszahlung von Gehältern, da diese von der Filiale aus gesteuert wird und nicht auf Anfrage des Kunden erfolgt. Das zugrundeliegende Konzept ist dasselbe; es verwendet Pull-Zahlungen. Aber anstatt eine Rückzahlung zu erstellen, werden wir eine [Pull-Zahlung](https://docs.btcpayserver.org/PullPayments/) vornehmen.
 
 
 Gehen Sie auf die Registerkarte Pull-Zahlungen auf Ihrem BTCPay-Server. Klicken Sie oben rechts auf die Schaltfläche Pull-Zahlung erstellen.
@@ -2744,7 +2749,7 @@ Danach kann der Sender die Pull-Zahlung über einen Link mit dem Empfänger teil
 Sobald eine Auszahlung erstellt ist, wird sie auf das Limit der Abrufzahlung für den aktuellen Zeitraum angerechnet. Der Absender genehmigt dann die Auszahlung, indem er den Satz festlegt, zu dem die Auszahlung gesendet werden soll, und führt die Zahlung durch.
 
 
-Für den Absender bieten wir eine einfach zu bedienende Methode für das Stapeln von mehreren Auszahlungen aus dem [BTCPay Internal Wallet] (https://docs.btcpayserver.org/Wallet/).
+Für den Absender bieten wir eine einfach zu bedienende Methode für das Stapeln von mehreren Auszahlungen aus dem [BTCPay Internal Wallet](https://docs.btcpayserver.org/Wallet/).
 
 
 #### Greenfield API

@@ -7,7 +7,7 @@ description: Mwongozo wa vitendo wa kuchuma mapato kwa biashara yako na be-BOP
 
 
 
-**be-BOP** ni jukwaa la biashara ya mtandaoni lililoundwa kwa ajili ya wajasiriamali wanaotaka kuuza mtandaoni na nje ya mtandao, kwa uhuru kamili, huku wakikubali malipo katika Bitcoin, kupitia akaunti ya benki na kwa Pesa. Suluhisho hilo pia ni muhimu kwa aina yoyote ya shirika linalotaka kukusanya michango au kuchuma mapato kwa shughuli zake mbalimbali.
+**be-BOP** Hili ni jukwaa la biashara ya mtandaoni lililobuniwa kwa ajili ya wajasiriamali wanaotaka kuuza bidhaa au huduma zao kwa njia ya mtandao na kando ya mtandao. Linawapa uhuru kamili wa kukubali malipo, iwe ni kwa kutumia Bitcoin, kupitia akaunti za benki, au kwa Pesa (simu ya mkononi). Zaidi ya hayo, suluhisho hili ni la manufaa kwa shirika lolote linalohitaji kukusanya michango au kupata mapato kutokana na shughuli zake mbalimbali.
 
 
 
@@ -62,7 +62,7 @@ Utahitaji kusanidi ndoo na kutoa habari ifuatayo:
 
 
 
-- **S3_BUCKET**: jina la ndoo
+- **S3_BUCKET**: jina la bucket
 - **S3_ENDPOINT_URL**: kiungo cha kufikia huduma yako ya S3
 - **S3_KEY_ID** na **S3_KEY_SECRET**: misimbo yako ya ufikiaji
 - **S3_REGION**: eneo la huduma yako ya S3
@@ -134,7 +134,7 @@ Mara ya kwanza be-BOP inazinduliwa, akaunti ya **Msimamizi Mkuu** inaundwa. Akau
 
 
 
-Akaunti hii itakupa ufikiaji wa utendakazi wote wa nyuma wa ofisi. Mara baada ya kuundwa, unaweza kuingia kwa kuingiza jina lako la mtumiaji na nenosiri.
+Akaunti hii itakupa ufikiaji wa utendakazi wote wa back office. Baada ya kuundwa, unaweza kuingia kwa kuingiza jina la mtumiaji na nenosiri lako.
 
 
 
@@ -146,7 +146,7 @@ Akaunti hii itakupa ufikiaji wa utendakazi wote wa nyuma wa ofisi. Mara baada ya
 
 
 
-Kabla ya kusanidi muunganisho wako wa Interface wa ofisi ya nyuma, unahitaji kuunda Hash ya kipekee. Hii hutoa ulinzi dhidi ya watendaji hasidi wanaojaribu kuiba kiungo cha muunganisho kwa msimamizi wako wa Interface.
+Kabla ya kusanidi muunganisho wako wa Interface wa back office, unahitaji kuunda Hash ya kipekee. Hii hutoa ulinzi dhidi ya watendaji hasidi wanaoweza kujaribu kuiba kiungo cha muunganisho cha msimamizi wako wa Interface.
 
 
 
@@ -182,7 +182,7 @@ Ikihitajika, unaweza kubainisha orodha ya anwani za IPv4 zilizoidhinishwa (zinaz
 
 
 
-Ili kuwezesha be-BOP kutuma arifa (k.m. kwa maagizo, usajili au ujumbe wa mfumo), unahitaji kusanidi angalau njia moja ya mawasiliano. Chaguzi mbili zinapatikana: barua pepe (SMTP) au Nostr.
+Ili kuwezesha be-BOP kutuma arifa (k.m. za maagizo, usajili au ujumbe wa mfumo), unahitaji kusanidi angalau njia moja ya mawasiliano. Kuna chaguzi mbili zinazopatikana: barua pepe (SMTP) au Nostr.
 
 
 
@@ -202,7 +202,7 @@ SMTP_HOST: Seva ya SMTP Address (k.m. smtp.mailgun.org)
 
 
 
-SMTP_PORT: bandari ya kutumia (mara nyingi 587 au 465)
+SMTP_PORT: port ya kutumia (mara nyingi 587 au 465)
 
 
 
@@ -223,7 +223,7 @@ SMTP_FROM: barua pepe ya Address ambayo itaonekana kama mtumaji
 
 
 
-be-BOP hukuwezesha kutuma arifa kupitia itifaki ya Nostr, miundombinu ya utumaji ujumbe iliyogatuliwa. Ili kufanya hivyo, unahitaji generate au Supply ufunguo wa kibinafsi wa Nostr (NSEC). Unaweza generate ufunguo huu moja kwa moja kupitia be-BOP's Interface, katika sehemu iliyowekwa kwa Nostr. Wakati Elements hizi zimesanidiwa ipasavyo, be-BOP itaweza kutuma ujumbe na arifa kiotomatiki kwa watumiaji wako.
+be-BOP hukuwezesha kutuma arifa kupitia itifaki ya Nostr, miundombinu ya utumaji ujumbe iliyogatuliwa. Ili kufanya hivyo, unahitaji kugenerate au Supply ufunguo wa kibinafsi wa Nostr (NSEC). Unaweza kugenerate ufunguo huu moja kwa moja kupitia be-BOP's Interface, katika sehemu iliyowekwa kwa Nostr. Wakati Elements hizi zimesanidiwa ipasavyo, be-BOP itaweza kutuma ujumbe na arifa kiotomatiki kwa watumiaji wako.
 
 
 
@@ -255,12 +255,13 @@ be-BOP inakuwezesha kukubali malipo ya Bitcoin moja kwa moja kwenye Blockchain (
 
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Sehemu                  | Maelezo                                               | Mfano wa Kutumia                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **BIP Standard**       | Aina ya anwani inayotumiwa                               | BIP84 (kwa anwani katika muundo wa bech32 zinazoanza na `bc1`) |
+| **Ufunguo wa Umma Ulioongezwa** | Zpub yako (au Xpub kulingana na pochi iliyotumiwa)        | `zpub...` (iliyochorwa kutoka kwa pochi yako ya Bitcoin) |
+| **Derivation Index**   | Faharasa ya kuanzia kwa ajili ya kuzalisha anwani         | `1`                                              |
+| **URL ya Mempool**        | URL ya huduma ya mempool inayotumiwa kusambaza miamala | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 
@@ -290,7 +291,7 @@ Nenda kwenye menyu ya `Mipangilio ya Malipo`, bofya `Phoenixd`
 
 
 
-Kisha utahitaji kuingiza **nenosiri au uthibitishaji wa token** unaokuunganisha kwenye mfano wako wa Phoenixd, mandharinyuma iliyotengenezwa na Acinq ambayo inakuruhusu kudhibiti malipo ya Lightning ukitumia nodi yako mwenyewe, lakini bila ugumu wa kudhibiti njia za malipo.
+Kisha utahitaji kuingiza **nenosiri au uthibitishaji** wa token unaokuunganisha na mfano wako wa Phoenixd—mandharinyuma iliyotengenezwa na Acinq ambayo inakuwezesha kudhibiti malipo ya Lightning kwa kutumia node yako mwenyewe, bila changamoto za kusimamia njia za malipo.
 
 
 
@@ -298,7 +299,7 @@ Kisha utahitaji kuingiza **nenosiri au uthibitishaji wa token** unaokuunganisha 
 
 
 
-Iwapo hutaki kudhibiti eneo la Umeme mwenyewe, **Swiss Bitcoin Pay** ni suluhisho lililo tayari kutumia, na rahisi kusanidi ambalo linafaa kwa kuanza kukubali malipo ya Radi bila miundombinu changamano.
+Iwapo hutaki kudhibiti eneo la Lightning yenyewe, **Swiss Bitcoin Pay** ni suluhisho lililo tayari kutumia, na rahisi kusanidi ambalo linafaa kwa kuanza kukubali malipo ya Lightning  bila miundombinu changamano.
 
 
 
@@ -309,12 +310,12 @@ Hatua za usanidi:
 
 
 - Katika menyu ya "Mipangilio ya Malipo", bofya `Swiss Bitcoin Pay`
-- Ingia katika akaunti yako ya Uswizi ya Bitcoin Pay (au uunde ikiwa bado huna).
+- Ingia katika akaunti yako ya Swiss Bitcoin Pay (au uunde ikiwa bado huna).
 - Weka Ufunguo wa API unaotolewa na Swiss Bitcoin Pay, kisha ubofye "Hifadhi"
 
 
 
-Baada ya kusanidiwa, be-BOP itaweka ankara za generate kiotomatiki kwa wateja wako, na utapokea malipo moja kwa moja kwenye akaunti yako ya Uswizi ya Bitcoin Pay. Suluhisho hili ni bora kwa watumiaji ambao wanataka kuepuka utata wa kiufundi wa nodi ya kibinafsi wakati wa kukubali malipo ya haraka, ya gharama nafuu.
+Baada ya kusanidiwa, be-BOP itaweka ankara za generate kiotomatiki kwa wateja wako, na utapokea malipo moja kwa moja kwenye akaunti yako ya Swiss Bitcoin Pay. Suluhisho hili ni bora kwa watumiaji ambao wanataka kuepuka utata wa kiufundi wa node ya kibinafsi wakati wa kukubali malipo ya haraka, ya gharama nafuu.
 
 
 
@@ -337,10 +338,10 @@ Hatua za usanidi:
 
 
 - Nenda kwenye menyu ya `Mipangilio ya Malipo`
-- Bonyeza kwa `PayPal
+- Bonyeza kwa `PayPal`
 - Katika akaunti yako ya Paypal (sehemu ya msanidi programu), weka `Kitambulisho cha Mteja` na `Siri`
 - Chagua sarafu unayochagua (k.m. **USD**, **EUR**, **XOF**, n.k.)
-- Bonyeza kwa `save
+- Bonyeza kwa `save`
 
 
 
@@ -348,7 +349,7 @@ Hatua za usanidi:
 
 
 
-**Kumbuka:** Lazima uwe na akaunti ya biashara ya PayPal kwa generate vitambulishi hivi. Unaweza kuzipata kupitia tovuti ya [msanidi programu] (https://developer.paypal.com)
+**Kumbuka:** Lazima uwe na akaunti ya biashara ya PayPal kwa generate vitambulishi hivi. Unaweza kuzipata kupitia tovuti ya [msanidi programu](https://developer.paypal.com)
 
 
 
@@ -419,7 +420,7 @@ be-BOP pia inatoa ushirikiano kamili na **Stripe**, mojawapo ya mifumo maarufu y
 
 
 
-Baada ya sarafu zote kusanidiwa kwa usahihi, programu huhakikisha ubadilishaji wa moja kwa moja na sahihi wa shughuli za sarafu nyingi, huku ikidumisha uthabiti wa uhasibu.
+Baada ya sarafu zote kusanidiwa kwa usahihi, programu huhakikisha ubadilishaji wa moja kwa moja na sahihi wa miamala za sarafu nyingi, huku ikidumisha uthabiti wa uhasibu.
 
 
 
@@ -849,12 +850,13 @@ Sehemu hii huamua **wapi** na **jinsi** bidhaa inaweza kutazamwa na kununuliwa:
 
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Jukwaa        | Bidhaa Inayoonekana | Inaweza Kuongezwa kwenye Sebule |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (tovuti ya umma)        | ✔️              | ✔️                  |
+| Retail POS (mahali pa mauzo)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (mauzo kupitia bot)  | ✔️              | ✔️                  |
 
 Angalia tu vituo unavyotaka kutumia.
 
@@ -1024,14 +1026,15 @@ Tumia **njia fupi** katika maudhui ya kurasa zako za CMS:
 
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Lengo                 | Tagi ya Kuingiza                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Kuonyesha bidhaa      | `[Product=slug?display=img-1]`        |
+| Kuonyesha picha       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Kuunganisha kilinganisha       | `[Slider=slug?autoplay=3000]`         |
+| Kuongeza changamoto     | `[Challenge=slug]`                    |
+| Kuongeza hesabu ya chini | `[Countdown=slug]`                 |
+| Kuunganisha fomu   | `[Form=slug]`                         |
 
 **Vigezo vya sasa**:
 
@@ -1557,7 +1560,7 @@ Jukwaa linatoa muunganisho wa hali ya juu na itifaki ya **Nostr**, kupitia robot
 
 
 
-Nenda kwa: Usimamizi wa nodi> Nostr
+Nenda kwa: Usimamizi wa node> Nostr
 
 
 
@@ -1813,14 +1816,15 @@ Bango:
 
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Kazi                         | Maelezo                                             |
+|----------------------------------|---------------------------------------------------------|
+| Jukumu la POS                         | Kutengana kupitia ARM                                         |
+| Kiolesura cha Mkuu             | `/pos` au `/pos/touch`                                 |
+| Onyesho la Mteja (Skrini 2)       | `/pos/session`                                         |
+| Malipo                         | Pesa, kadi, Lightning n.k.                         |
+| Kuongeza Bidhaa                    | Jina la jia au kusafishi barcode                              |
+| Punguzo / VAT                    | Wenye uthibitisho wa usimamizi unaohitajika              |
 
 Asante kwa kufuatilia mafunzo haya kwa makini.

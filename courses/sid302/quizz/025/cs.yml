@@ -1,0 +1,8 @@
+question: Jaký zásadní rozdíl v architektuře blockchainu činí Liquid vhodnějším pro kritické finanční operace v porovnání s tokenizačními platformami založenými na Ethereu?
+answer: Liquid používá model Bitcoin UTXO, který poskytuje deterministické výsledky transakcí, zatímco model účtu Etherea může vést k neúspěšným transakcím, které přesto spotřebovávají poplatky za plyn
+wrong_answers:
+  - Liquid funguje na konsensuálním mechanismu proof-of-stake, zatímco Ethereum se při ověřování transakcí spoléhá na energeticky náročný proof-of-work mining
+  - "Federativní struktura postranních řetězců Liquid umožňuje neomezenou propustnost transakcí, zatímco Ethereum je omezeno velikostí bloku jednoho řetězce."
+  - Liquid implementuje nativní funkce chytrých smluv prostřednictvím skriptování Elements, zatímco Ethereum vyžaduje externí prostředí pro spouštění virtuálních strojů
+explanation: |
+  Deterministická povaha modelu UTXO je pro finanční instituce klíčová, protože transakce buď zcela uspějí, nebo selžou bez jakýchkoli nákladů, a poskytují tak předvídatelné výsledky. Model účtu Ethereum může vést k neúspěšným transakcím, které přesto spotřebovávají poplatky za plyn, což vytváří provozní nejistotu a dodatečné náklady, které jsou nepřijatelné pro kritické finanční operace, kde jsou spolehlivost a předvídatelnost nákladů nejdůležitější.

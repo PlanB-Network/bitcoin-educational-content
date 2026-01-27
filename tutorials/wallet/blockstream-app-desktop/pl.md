@@ -76,7 +76,7 @@ description: Jak używać Hardware Wallet z aplikacją Blockstream na komputerze
 
 
 
-- Przejdź do [oficjalnej strony internetowej] (https://blockstream.com/app/) i kliknij "_Download Now_". Pobierz wersję odpowiadającą Twojemu systemowi operacyjnemu (Windows, macOS, Linux).
+- Przejdź do [oficjalnej strony internetowej](https://blockstream.com/app/) i kliknij "_Download Now_". Pobierz wersję odpowiadającą Twojemu systemowi operacyjnemu (Windows, macOS, Linux).
 - **Uwaga**: Upewnij się, że pobierasz z oficjalnego źródła, aby uniknąć nieuczciwego oprogramowania.
 
 
@@ -534,7 +534,7 @@ https://planb.academy/tutorials/wallet/mobile/blockstream-app-onchain-e84edaa9-f
 - **Limity**:
     - RBF nie jest dostępny dla transakcji Liquid lub Lightning.
     - Początkowa transakcja musi być oznaczona jako zgodna z RBF, co Blockstream App robi automatycznie.
-- Więcej informacji można znaleźć w [naszym słowniku] (https://planb.academy/resources/glossary/rbf-replacebyfee).
+- Więcej informacji można znaleźć w [naszym słowniku](https://planb.academy/resources/glossary/rbf-replacebyfee).
 
 
 

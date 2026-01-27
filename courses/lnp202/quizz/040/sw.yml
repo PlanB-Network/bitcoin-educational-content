@@ -1,0 +1,9 @@
+question: Kwa nini utumie meneja wa nodi ya umeme?
+answer: Ufikiaji rahisi wa vipengele vya hali ya juu
+wrong_answers:
+  - Badilisha utekelezaji wa LND
+  - Ondoa utegemezi kwenye Umbrel
+  - Kurekebisha itifaki ya Umeme
+explanation: |
+  Wasimamizi wa hali ya juu hutoa utendaji usiopatikana katika kiolesura cha msingi, huku wakibaki kuwa violesura rahisi.
+reviewed: false

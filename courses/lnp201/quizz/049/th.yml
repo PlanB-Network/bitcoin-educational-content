@@ -1,0 +1,9 @@
+question: ฟังก์ชันหลักของใบแจ้งหนี้ Lightning คืออะไร?
+answer: ขอการชำระเงินจากโหนดที่ส่ง
+wrong_answers:
+  - ส่งเงินโดยไม่ต้องทำธุรกรรม on-chain
+  - เปิดใช้งาน HTLCs บนช่องทาง
+  - เปิดช่องทาง Lightning ใหม่
+explanation: |
+  ใบแจ้งหนี้ Lightning เป็นคำขอการชำระเงินที่ส่งโดยโหนดที่รับไปยังโหนดที่ส่งเพื่อเริ่มการชำระเงินบน Lightning Network
+reviewed: true

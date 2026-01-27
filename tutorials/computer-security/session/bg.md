@@ -26,25 +26,26 @@ Session е предназначен преди всичко за потреби�
 
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
+
+| Приложение | E2EE 1:1 | E2EE групи | Анонимна регистрация | Отворен код на клиента | Отворен код на сървъра | Децентрализиран сървър | Година на създаване |
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| Jami                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox                  | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| WhatsApp | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2009 |
+| WeChat | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Facebook Messenger | ✅ | 🟡 (по избор) | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Telegram | 🟡 (по избор) | ❌ | 🟡 | ✅ | ❌ | ❌ | 2013 |
+| LINE | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Signal | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | 2014 |
+| Threema | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | 2012 |
+| Element (Matrix) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (федериран) | 2016 |
+| Delta Chat | ✅ | ✅ | ✅ | ✅ | N/A | 🟡 (чрез имейл) | 2017 |
+| Conversations (XMPP) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (федериран) | 2014 |
+| Session | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2020 |
+| SimpleX | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2021 |
+| Olvid | ✅ | ✅ | ✅ | ✅ | ❌ | 🟡 (без указател) | 2019 |
+| Keet | ✅ | ✅ | ✅ | ❌ | N/A | ✅ | 2022 |
+| Jami | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2005 |
+| Briar | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2018 |
+| Tox | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2013 |
 
 *E2EE = криптиране от край до край*
 
@@ -59,7 +60,7 @@ Session е наличен за всички платформи. Можете д�
 
 
 
-- [Google Play] (https://play.google.com/store/apps/details?id=network.loki.messenger);
+- [Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger);
 - [App Store](https://apps.apple.com/us/app/session-private-messenger/id1470168868);
 - [F-Droid](https://fdroid.getsession.org/).
 

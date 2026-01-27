@@ -1,0 +1,8 @@
+question: Ni iyihe mpamvu nyamukuru y’ubuhinga ituma amasakoshi akoreshwa na Greenlight ashika ku kwizigirwa kw’inzira y’ukwishura ugereranije n’ugushirwa mu ngiro kwa Lightning kwa kera?
+answer: Ivyuma vy'umuco w'icatsi kibisi bikora ubudasiba mu gicu, bikabungabunga igihe nyaco c'uruja n'uruza rw'ibishushanyo n'ugushika ku makuru y'ibishushanyo
+wrong_answers:
+  - Greenlight ikoresha ubuhinga buteye imbere bwo kwiga imashini kugira ngo imenye inzira nziza zo kwishura zishingiye ku mateka y'ubucuruzi
+  - Greenlight ishira mu ngiro uburyo bwo kwishura mu nzira nyinshi bugabanura amafaranga mu mihora myinshi icarimwe kugira ngo haboneke ugusubira inyuma
+  - Greenlight ibungabunga amahuzu y’uburebure bwinshi n’ibibanza bikuru vy’umuravyo, igatuma inzira y’imbere igenda biciye mu mihora myinshi y’amazi
+explanation: |
+  Inyishu ibereye yerekana akamaro k’ishimikiro k’ubwubatsi k’uburyo bwa Greenlight bushingiye ku bicu. Ivyuma vya kera vy’amasakoshi vy’umuyagankuba bitegerezwa guhuza amakuru y’uruja n’uruza igihe bitangura, bikazana ugucererwa kandi bikaba bishobora gukorana n’amakuru y’inzira ya kera. Greenlight itorera umuti ivyo mu gukoresha Lightning nodes zidasiba mu gicu, zigatuma zama zifise ubumenyi bw’urubuga kandi zishobora gutanga amakuru yuzuye y’igishushanyo iyo abakoresha bahuye. Inyishu zitari zo zidondora ibintu vyumvikana ariko bitabaho - Greenlight ntikoresha ubuhinga bwo gucapura ML, gucapura amahera y’umunyabubasha birenze amategeko asanzwe ya Lightning, canke amahuzu yihariye y’inzira y’imbere.

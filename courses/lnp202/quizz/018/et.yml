@@ -1,0 +1,9 @@
+question: Mitu sõna sisaldab LND mnemofraas?
+answer: 24 sõna
+wrong_answers:
+  - 10 sõna
+  - 18 sõna
+  - 36 sõna
+explanation: |
+  LND generates 24-sõnaline mnemooniline lause sõlme varundamiseks ja taastamiseks.
+reviewed: false

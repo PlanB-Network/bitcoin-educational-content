@@ -1,0 +1,8 @@
+question: Wat is het belangrijkste verschil tussen methoden en bijbehorende functies in Rust structuren?
+answer: Methoden nemen self als hun eerste parameter, terwijl geassocieerde functies dat niet doen
+wrong_answers:
+  - Methoden zijn standaard openbaar, terwijl bijbehorende functies standaard privé zijn
+  - Methoden kunnen alleen gegevens lezen, terwijl geassocieerde functies structuurvelden kunnen wijzigen
+  - Methoden gebruiken puntnotatie om aan te roepen, terwijl geassocieerde functies pijlnotatie gebruiken
+explanation: |
+  Methoden in Rust zijn functies gedefinieerd in een impl blok die een vorm van self als eerste parameter nemen (self, &self, of &mut self), waardoor ze kunnen werken op instanties van de structuur. Geassocieerde functies worden ook gedefinieerd in impl blokken, maar nemen self niet als parameter, waardoor ze vergelijkbaar zijn met statische methodes in andere talen. Geassocieerde functies worden aangeroepen met behulp van dubbele dubbele punt syntaxis (Type::function_name()) en worden vaak gebruikt als constructeurs, terwijl methoden worden aangeroepen op instanties met behulp van puntnotatie. De andere opties zijn onjuist omdat zowel methoden als geassocieerde functies dezelfde zichtbaarheidsregels volgen, beide kunnen worden ontworpen om gegevens te wijzigen of te lezen, afhankelijk van hun implementatie, en geassocieerde functies gebruiken dubbele dubbele punt syntaxis, geen pijlnotatie.

@@ -1,0 +1,9 @@
+question: ตามที่ Eric Voskuil กล่าวไว้ในหนังสือ Cryptoeconomics ความปลอดภัยของ Bitcoin ขึ้นอยู่กับอะไร?
+answer: เกี่ยวกับบุคคล
+wrong_answers:
+  - บน Blockchain
+  - เกี่ยวกับพลังแฮช
+  - เกี่ยวกับการเข้ารหัสลับ
+explanation: |
+  Eric Voskuil อธิบายว่าความปลอดภัยของ Bitcoin ขึ้นอยู่กับผู้คนที่เสี่ยงเพื่อรักษาระบบเป็นหลัก
+reviewed: true

@@ -76,7 +76,7 @@ Pierwszym krokiem jest oczywiście pobranie aplikacji Green. Przejdź do sklepu 
 ![GREEN 2FA MULTISIG](assets/fr/03.webp)
 
 
-Użytkownicy Androida mogą również zainstalować aplikację za pomocą pliku `.apk` [dostępnego na GitHubie Blockstream] (https://github.com/Blockstream/green_android/releases).
+Użytkownicy Androida mogą również zainstalować aplikację za pomocą pliku `.apk` [dostępnego na GitHubie Blockstream](https://github.com/Blockstream/green_android/releases).
 
 
 ![GREEN 2FA MULTISIG](assets/fr/04.webp)

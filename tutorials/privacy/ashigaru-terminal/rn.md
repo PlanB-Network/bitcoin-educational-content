@@ -1,5 +1,5 @@
 ---
-name: Ikibuga c'indege ca Ashigaru
+name: Ashigaru Terminal
 description: Koresha Ashigaru ku biro kugira ngo ukore amafaranga
 ---
 
@@ -41,7 +41,7 @@ Kugira ngo ushiremwo Ashigaru Terminal, uzokenera Tor Browser, kuko ama binaire 
 
 
 
-Kuva ku Mucukumbuzi wa Tor, genda kuri [paji y’ibisohoka vy’ububiko bwabo bwa Git] (http://ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.
+Kuva ku Mucukumbuzi wa Tor, genda kuri [paji y’ibisohoka vy’ububiko bwabo bwa Git](http://ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.
 
 
 

@@ -1,0 +1,9 @@
+question: Warum kann sich ein Betreiber eines Lightning-Knotens nicht auf seine eigenen Zahlungen verlassen, um eingehende generate-Liquidität zu erhalten?
+answer: Hauptsächlich eingehende Ströme
+wrong_answers:
+  - Hauptsächlich ausgehende Ströme
+  - Zu kleine Kanäle
+  - Hohe On-Chain-Gebühren
+explanation: |
+  Indem der Händler einlöst, ohne etwas auszugeben, bewegt er natürlich keine Liquidität aus seinen Kanälen.
+reviewed: false

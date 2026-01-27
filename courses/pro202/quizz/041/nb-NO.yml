@@ -1,0 +1,8 @@
+question: Hva ville skjedd med Bitcoins totale tilbud hvis gruvearbeiderne konsekvent bare gjorde krav på 90 % av den tillatte blokksubsidien på tvers av alle blokker?
+answer: Det totale tilbudet vil bli permanent redusert til under 21 millioner BTC, ettersom uoppfordrede subsidier går tapt for alltid
+wrong_answers:
+  - De resterende 10 % skal akkumuleres i en reservepott som fremtidige gruvearbeidere kan gjøre krav på i perioder med lave avgifter
+  - Mekanismen for justering av vanskelighetsgraden vil kompensere ved å øke fremtidige blokkbelønninger for å opprettholde taket på 21 millioner
+  - De uoppfordrede subsidiene vil bli omfordelt proporsjonalt blant mottakerne av transaksjonsavgifter i påfølgende blokker
+explanation: |
+  Bitcoins protokoll tillater utvinnere å kreve mindre enn det maksimalt tillatte tilskuddet, men ethvert uavhentet beløp er permanent tapt - det finnes ingen mekanisme for å omfordele eller gjenopprette det senere. Subsidieformelen og halveringsplanen bestemmer det teoretiske maksimumet på ~21 millioner BTC, men det faktiske tilbudet avhenger av at gruvearbeiderne gjør krav på hele beløpet de har rett til. I motsetning til vanskelighetsjusteringen, som reagerer på mining-forhold, finnes det ingen kompensasjonsmekanisme for belønninger som ikke blir gjort krav på, noe som gjør det totale tilbudet potensielt deflatorisk hvis gruvearbeiderne konsekvent gjør for lite krav.

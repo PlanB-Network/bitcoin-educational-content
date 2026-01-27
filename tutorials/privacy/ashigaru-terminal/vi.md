@@ -1,5 +1,5 @@
 ---
-name: Nhà ga Ashigaru
+name: Ashigaru Terminal
 description: Sử dụng Ashigaru trên máy tính để bàn để tạo coinjoin
 ---
 

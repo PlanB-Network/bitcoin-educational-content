@@ -1,0 +1,8 @@
+question: Qual è la ragione principale per cui il meccanismo di aggiustamento della difficoltà di Bitcoin limita i cambiamenti a un fattore di quattro durante ogni periodo di aggiustamento del 2016 blocchi?
+answer: Per evitare oscillazioni estreme che potrebbero destabilizzare la rete quando il tasso di hash cambia drasticamente
+wrong_answers:
+  - Per garantire che i minatori abbiano tempo sufficiente per aggiornare il proprio hardware prima che la difficoltà aumenti in modo significativo
+  - Per mantenere la compatibilità con il campo timestamp a 32 bit che diventa inaffidabile con regolazioni più grandi
+  - Per evitare che il programma di dimezzamento delle sovvenzioni in blocco sia interrotto da rapidi cambiamenti di difficoltà
+explanation: |
+  Il limite di quattro volte impedisce pericolosi cicli di feedback in cui variazioni estreme della difficoltà potrebbero causare oscillazioni selvagge nei tempi dei blocchi. Senza questo limite, un improvviso calo del tasso di hash potrebbe innescare massicce riduzioni della difficoltà, rendendo i blocchi troppo facili e potenzialmente destabilizzando il consenso. Al contrario, enormi aumenti potrebbero rendere i blocchi quasi impossibili da estrarre. Il limite garantisce aggiustamenti graduali e gestibili che mantengono la stabilità della rete anche in caso di gravi interruzioni come i divieti del mining, consentendo al sistema di autocorreggersi in modo prevedibile su più periodi di aggiustamento anziché creare oscillazioni caotiche.

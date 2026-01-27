@@ -1,0 +1,8 @@
+question: Co się stanie, gdy sklonujesz instancję RC<T> zawierającą dużą strukturę danych?
+answer: Kopiowane jest tylko odniesienie, a licznik odniesienia jest zwiększany, pozostawiając oryginalne dane bez zmian
+wrong_answers:
+  - Cała struktura danych jest duplikowana w pamięci, a obie kopie utrzymują oddzielne liczniki referencyjne
+  - Tworzona jest płytka kopia, w której kopiowane są pola prymitywne, ale pola złożone pozostają współdzielonymi referencjami
+  - Dane są przenoszone do nowej lokalizacji pamięci, a oryginalny RC staje się nieważny do czasu ponownej inicjalizacji
+explanation: |
+  Podczas klonowania RC, Rust kopiuje tylko wskaźnik referencyjny i zwiększa wewnętrzny licznik referencyjny, dzięki czemu operacja jest niezwykle wydajna niezależnie od rozmiaru danych. Dane bazowe pozostają w tej samej lokalizacji pamięci i są współdzielone między wszystkimi instancjami RC. Różni się to zasadniczo od klonowania rzeczywistych danych, co zniweczyłoby cel współdzielonej własności i marnowało pamięć.

@@ -1,0 +1,8 @@
+question: Wat is in Liquid's federatieve consensusmodel het minimale aantal functionele handtekeningen dat nodig is om een blok te valideren en wat is het maximale aantal knooppuntstoringen dat het netwerk kan verdragen?
+answer: 11 handtekeningen vereist, kan tot 4 knooppuntstoringen verdragen
+wrong_answers:
+  - 8 handtekeningen vereist, kan tot 7 knooppuntstoringen verdragen
+  - 15 handtekeningen vereist, kan tot 2 knooppuntstoringen verdragen
+  - 9 handtekeningen vereist, kan tot 6 knooppuntstoringen verdragen
+explanation: |
+  Liquid gebruikt een 11-van-15 drempelsysteem waarbij minstens 11 van de 15 functionarissen elk blok moeten ondertekenen om het geldig te laten zijn. Dit ontwerp maakt het mogelijk dat het netwerk blijft werken, zelfs als maximaal 4 knooppunten falen (15 - 11 = 4). De andere opties geven onjuiste handtekeningdrempels of berekenen de fouttolerantie verkeerd, die altijd het totaal aantal knooppunten min de vereiste handtekeningen is.

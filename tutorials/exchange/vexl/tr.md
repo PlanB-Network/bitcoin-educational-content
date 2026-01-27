@@ -19,7 +19,7 @@ Vexl, tüm dünyadaki Bitcoin alıcılarını ve satıcılarını birbirine bağ
 
 
 
-Vexl'i kullanmaya başlamak oldukça basittir: [resmi web sitesini] (https://vexl.it) ziyaret edin, ardından mobil uygulamayı iOS veya Android telefonunuza indirin.
+Vexl'i kullanmaya başlamak oldukça basittir: [resmi web sitesini](https://vexl.it) ziyaret edin, ardından mobil uygulamayı iOS veya Android telefonunuza indirin.
 
 
 

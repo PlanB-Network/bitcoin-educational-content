@@ -14,7 +14,7 @@ Dans ce tutoriel, nous allons apprendre à installer Windows 11 automatiquement 
 La première chose dont vous aurez besoin est un fichier d'installation. L'endroit le plus sûr et le plus fiable pour le télécharger est le site officiel de Microsoft.
 
 
-Il suffit de visiter le lien fourni ci-dessous et de suivre les instructions pour télécharger le [fichier ISO Windows 11] (https://www.microsoft.com/en-us/software-download/windows11)
+Il suffit de visiter le lien fourni ci-dessous et de suivre les instructions pour télécharger le [fichier ISO Windows 11](https://www.microsoft.com/en-us/software-download/windows11)
 
 
 ![Image](assets/en/02.webp)
@@ -59,10 +59,10 @@ La taille du fichier est d'environ 5,5 Go, et le lien généré sera valide pend
 ## Automatisation !
 
 
-À ce stade, nous devons apporter des modifications à l'installation standard de Windows. À ce stade, en utilisant l'installation sans surveillance, nous déterminons quels éléments vont être installés, sans que l'utilisateur ait à intervenir par la suite. En fait, dans cette méthode, un fichier XML est utilisé pour configurer les étapes de l'installation et les services installés dans Windows. En d'autres termes, l'utilisation du fichier Unattended.xml crée un processus d'automatisation pendant l'installation, évitant ainsi la nécessité de sélectionner plusieurs options et les étapes fastidieuses habituellement requises pendant l'installation. Cette méthode est une méthode inhabituelle mais standard qui a été introduite par Microsoft. De plus amples informations sont disponibles sur le [site officiel de Microsoft] (https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs?view=windows-11).
+À ce stade, nous devons apporter des modifications à l'installation standard de Windows. À ce stade, en utilisant l'installation sans surveillance, nous déterminons quels éléments vont être installés, sans que l'utilisateur ait à intervenir par la suite. En fait, dans cette méthode, un fichier XML est utilisé pour configurer les étapes de l'installation et les services installés dans Windows. En d'autres termes, l'utilisation du fichier Unattended.xml crée un processus d'automatisation pendant l'installation, évitant ainsi la nécessité de sélectionner plusieurs options et les étapes fastidieuses habituellement requises pendant l'installation. Cette méthode est une méthode inhabituelle mais standard qui a été introduite par Microsoft. De plus amples informations sont disponibles sur le [site officiel de Microsoft](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs?view=windows-11).
 
 
-Il existe plusieurs outils disponibles sur l'internet pour générer des fichiers Unattended. Certains sont en ligne, d'autres hors ligne. L'un des outils en ligne permettant de créer ce fichier est [ce site web] (https://schneegans.de/windows/unattend-generator). Après l'avoir ouvert, la page suivante s'affiche :
+Il existe plusieurs outils disponibles sur l'internet pour générer des fichiers Unattended. Certains sont en ligne, d'autres hors ligne. L'un des outils en ligne permettant de créer ce fichier est [ce site web](https://schneegans.de/windows/unattend-generator). Après l'avoir ouvert, la page suivante s'affiche :
 
 
 ![Image](assets/en/06.webp)

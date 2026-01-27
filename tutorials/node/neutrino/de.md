@@ -11,7 +11,7 @@ description: LND Neutrino Installationsanleitung
 ### 1. Raspberry Pi OS Lite herunterladen
 
 
-Die Anweisungen zum Herunterladen und Installieren des Images auf einer Micro-SD-Karte unter Windows, Mac und Linux finden Sie auf [dieser Seite] (https://www.raspberrypi.org/software/operating-systems/).
+Die Anweisungen zum Herunterladen und Installieren des Images auf einer Micro-SD-Karte unter Windows, Mac und Linux finden Sie auf [dieser Seite](https://www.raspberrypi.org/software/operating-systems/).
 
 
 ### 2. Formatieren der SD-Karte

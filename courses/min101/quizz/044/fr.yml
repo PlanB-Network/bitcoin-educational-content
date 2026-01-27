@@ -1,0 +1,9 @@
+question: Avec quel type de matériel le minage s’effectuait-il surtout au tout début de Bitcoin ?
+answer: CPU
+wrong_answers:
+  - GPU
+  - ASIC
+  - FPGA
+explanation: |
+  Au lancement, le logiciel tournait sur un ordinateur personnel et utilisait principalement le processeur.
+reviewed: false

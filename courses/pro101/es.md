@@ -11,7 +11,7 @@ objectives:
 
 ¿Qué se necesita para construir sobre Bitcoin? Este curso de 20 horas te lleva bajo la superficie de Bitcoin y la Lightning Network, explorando los protocolos que impulsan la infraestructura financiera más resiliente del mundo. Ya sea que busques contribuir a proyectos de código abierto o construir la próxima generación de aplicaciones de Bitcoin, obtendrás la profundidad técnica necesaria para comenzar a trabajar con confianza en este ecosistema.
 
-Grabado durante el bootcamp CUBO+ 2023 en El Salvador, este curso reúne perspectivas de destacados desarrolladores y educadores de Bitcoin que han dado forma a la tecnología. ¿La mejor parte? Es completamente gratuito, hecho posible por Fulgure Venture, la Oficina de Bitcoin y DecouvreBitcoin. Si has tenido curiosidad sobre cómo funciona realmente Bitcoin a nivel de protocolo, esta es tu oportunidad para descubrirlo.
+Grabado durante el bootcamp CUBO+ 2023 en El Salvador, este curso reúne perspectivas de destacados desarrolladores y educadores de Bitcoin que han dado forma a la tecnología. ¿La mejor parte? Es completamente gratuito, hecho posible por Fulgure Ventures, la Oficina de Bitcoin y DecouvreBitcoin. Si has tenido curiosidad sobre cómo funciona realmente Bitcoin a nivel de protocolo, esta es tu oportunidad para descubrirlo.
 +++
 # Introducción y cursos preparatorios
 
@@ -59,7 +59,7 @@ A lo largo del curso, los participantes utilizarán herramientas clave que les a
 
 :::video id=ff820fb2-83d4-450f-bda0-17cc5044a902:::
 
-Bienvenidos a la primera conferencia del programa educativo **Cubo Plus**. Hoy nos sumergimos en el mundo del Bitcoin de la mano de Ricky, fundador del **Bitcoin Italia Podcast**. Ricky es un apasionado activista de los derechos humanos que utiliza Bitcoin como una herramienta para proteger y promover los derechos humanos. Con más de seis años de experiencia, Ricky ha viajado mucho, documentando la adopción de Bitcoin en mercados emergentes como El Salvador y Guatemala. Su trabajo va más allá del podcast; también es activo en YouTube (**Bitcoin Explorers**) y Twitter (**BTC Explorer**, **Ricky6**). La Commitment de Ricky hacia la Bitcoin surge de su creencia de que ofrece libertad financiera y privacidad, desafiando a los sistemas bancarios centralizados tradicionales.
+Bienvenidos a la primera conferencia del programa educativo **Cubo Plus**. Hoy nos sumergimos en el mundo del Bitcoin de la mano de Rikki, fundador del **Bitcoin Italia Podcast**. Rikki es un apasionado activista de los derechos humanos que utiliza Bitcoin como una herramienta para proteger y promover los derechos humanos. Con más de seis años de experiencia, Rikki ha viajado mucho, documentando la adopción de Bitcoin en mercados emergentes como El Salvador y Guatemala. Su trabajo va más allá del podcast; también es activo en YouTube (**Bitcoin Explorers**) y Twitter (**BTC Explorer**, **Rikki6**). La Commitment de Rikki hacia la Bitcoin surge de su creencia de que ofrece libertad financiera y privacidad, desafiando a los sistemas bancarios centralizados tradicionales.
 
 
 ![Unbanked Population](assets/en/001.webp)
@@ -81,10 +81,10 @@ Esta conferencia, **"Por qué El Salvador necesita Bitcoin"**, ofrece una visió
 - _Inclusión financiera:_ Proporcionar acceso a los servicios financieros a las personas excluidas de los sistemas bancarios tradicionales, a menudo denominadas "no bancarizadas"
 - dinero sin censura:_ Dinero que no puede ser controlado ni restringido por gobiernos o instituciones financieras.
 
-#### Antecedentes de Ricky y defensa de la Bitcoin
+#### Antecedentes de Rikki y defensa de la Bitcoin
 
 
-El viaje de Ricky hacia la Bitcoin tiene sus raíces en su trabajo como defensor de los derechos humanos. Cree que la Bitcoin puede proporcionar a las personas el control sobre sus finanzas, permitiéndoles proteger su privacidad y evitar las limitaciones de los bancos centralizados. Su exploración de la adopción de la Bitcoin en lugares como El Salvador pone de relieve cómo esta tecnología puede capacitar a las personas de los mercados emergentes para conseguir la independencia financiera.
+El viaje de Rikki hacia la Bitcoin tiene sus raíces en su trabajo como defensor de los derechos humanos. Cree que la Bitcoin puede proporcionar a las personas el control sobre sus finanzas, permitiéndoles proteger su privacidad y evitar las limitaciones de los bancos centralizados. Su exploración de la adopción de la Bitcoin en lugares como El Salvador pone de relieve cómo esta tecnología puede capacitar a las personas de los mercados emergentes para conseguir la independencia financiera.
 
 
 ### Importancia mundial y retos del Bitcoin

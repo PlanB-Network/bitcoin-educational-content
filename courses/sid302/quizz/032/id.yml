@@ -1,0 +1,8 @@
+question: Apa yang terjadi jika reverse submarine swap gagal atau kehabisan daya pada arsitektur Breez SDK?
+answer: SDK secara otomatis membuat dan menyiarkan transaksi pengembalian dana untuk mengembalikan dana ke wallet pengguna
+wrong_answers:
+  - Penyedia swap secara manual memulai proses pemulihan yang membutuhkan campur tangan pengguna dalam waktu 24 jam
+  - Dana tetap terkunci secara permanen hingga koneksi Lightning Network dipulihkan
+  - Pengguna harus menghubungi dukungan Boltz untuk memicu transaksi federated peg-out secara manual
+explanation: |
+  Breez SDK mengimplementasikan Manajemen Pengembalian Dana Otomatis sebagai mekanisme keamanan yang penting. Ketika swap gagal atau waktu habis, SDK memonitor semua status swap dan secara otomatis menangani proses pemulihan tanpa campur tangan pengguna. Hal ini menghilangkan kerumitan dari kontrak yang terkunci waktu dan memastikan dana tidak pernah hilang secara permanen. Opsi lainnya tidak tepat karena memerlukan intervensi manual, mengasumsikan kehilangan dana secara permanen, atau melibatkan proses yang tidak ada dalam sistem otomatis.

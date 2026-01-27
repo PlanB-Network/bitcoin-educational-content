@@ -124,7 +124,7 @@ Liquid bergantung pada **federasi** peserta tepercaya (bursa, perusahaan Bitcoin
 
 
 
-- **Blockstream App** adalah aplikasi seluler (iOS, Android) dan desktop untuk mengelola dompet dan aset Bitcoin di Liquid Network. Diakuisisi oleh [Blockstream] (https://blockstream.com/) pada tahun 2016, sebelumnya bernama *Green Address* dan kemudian *Blockstream Green*.
+- **Blockstream App** adalah aplikasi seluler (iOS, Android) dan desktop untuk mengelola dompet dan aset Bitcoin di Liquid Network. Diakuisisi oleh [Blockstream](https://blockstream.com/) pada tahun 2016, sebelumnya bernama *Green Address* dan kemudian *Blockstream Green*.
 - **Fitur-fitur utama**:
 - **Transaksi Onchain** pada Blockchain Bitcoin.
     - Transaksi di jaringan **Liquid** (Sidechain untuk pertukaran yang cepat dan rahasia).
@@ -408,7 +408,7 @@ Untuk menerima Liquid-Bitcoin (L-BTC), ada beberapa opsi yang tersedia. Anda bis
 
 
 
-Atau, Exchange bitcoin Anda di blockchain atau melalui Lightning Network untuk L-BTC menggunakan [jembatan seperti Boltz] (https://boltz.Exchange/): masukkan Liquid Anda yang menerima Address, lakukan pembayaran sesuai keinginan, dan terima L-BTC Anda.
+Atau, Exchange bitcoin Anda di blockchain atau melalui Lightning Network untuk L-BTC menggunakan [jembatan seperti Boltz](https://boltz.Exchange/): masukkan Liquid Anda yang menerima Address, lakukan pembayaran sesuai keinginan, dan terima L-BTC Anda.
 
 
 

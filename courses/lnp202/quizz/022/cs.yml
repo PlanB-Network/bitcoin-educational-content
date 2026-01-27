@@ -1,0 +1,9 @@
+question: Co dokáže zařízení LND seed samo obnovit?
+answer: Řetězec onchain wallet
+wrong_answers:
+  - Otevřené kanály
+  - Stavy kanálů
+  - Nic
+explanation: |
+  seed načte řetězec Bitcoin onchain wallet, ale ne aktivní kanály Lightning.
+reviewed: false

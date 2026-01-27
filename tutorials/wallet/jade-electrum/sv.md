@@ -7,7 +7,7 @@ description: Så här använder du din Jade eller Jade Plus med Electrum (skrivb
 
 
 
-_Den här guiden är hämtad från en [Bitcoin Workshops-lektion] (https://officinebitcoin.it/lezioni/jadeele/index.html)_
+_Den här guiden är hämtad från en [Bitcoin Workshops-lektion](https://officinebitcoin.it/lezioni/jadeele/index.html)_
 
 
 

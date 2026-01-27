@@ -3,7 +3,7 @@ name: My Node
 description: Konfiguracja węzła Bitcoin MyNode
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 
 [My Node](https://mynodebtc.com/) to najłatwiejszy i najpotężniejszy sposób na uruchomienie węzła Bitcoin i Lightning! Łączymy najlepsze oprogramowanie open source z naszym Interface, zarządzaniem i wsparciem, dzięki czemu możesz łatwo, prywatnie i bezpiecznie korzystać z Bitcoin i Lightning.

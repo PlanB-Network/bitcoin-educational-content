@@ -1,0 +1,8 @@
+question: Milline on LDK plokiahela integreerimise lähenemisviisi ja traditsiooniliste Lightning-sõlmede põhimõtteline erinevus seoses piiratud ressurssidega keskkondadega?
+answer: LDK pakub filtreerimisel põhinevat abstraktsiooni, mis võimaldab rakendustel teostada järelevalvet kergete andmeallikate, näiteks Electrum serverite kaudu
+wrong_answers:
+  - LDK nõuab täielikku plokiahela sünkroniseerimist, kuid optimeerib salvestamist tihendatud plokkide päiste ja tehingu kärpimise mehhanismide abil
+  - LDK rakendab kohandatud plokiahela protokolli, mis vähendab ribalaiust, säilitades mälus ainult kanaliga seotud tehinguid
+  - LDK kasutab hübriidset konsensusmehhanismi, mis valideerib ainult välkudega seotud tehinguid, jättes samal ajal tähelepanuta standardsed Bitcoin operatsioonid
+explanation: |
+  LDK plokiahela integratsioon on kavandatud kahe režiimiga: täisplokkide režiim ressursirikaste keskkondade jaoks ja filtripõhine režiim piiratud keskkondade jaoks. Filtreeriv lähenemisviis võimaldab LDK-l edastada oma seirevajadusi abstraktsete liideste kaudu, taotledes konkreetsete tehingute, UTXOde või skriptimustrite jälgimist. Rakendused saavad seejärel rakendada seda jälgimist, kasutades kergekaalulisi allikaid, nagu Electrum serverid või plokkide uurijad, vähendades oluliselt ribalaiuse ja salvestusruumi nõudeid võrreldes täieliku plokkide sünkroniseerimisega. Selline abstraktsioon võimaldab mobiilsetel rahakottidel ja veebirakendustel säilitada Lightningi funktsionaalsust ilma ressursside koormuseta, mida traditsioonilised Lightningi sõlmed nõuavad.

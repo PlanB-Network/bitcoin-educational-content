@@ -1,0 +1,8 @@
+question: In Bitcoin's P2P netwerk handshake proces, aan welke specifieke voorwaarde moet worden voldaan voordat twee knooppunten kunnen beginnen met het actief doorgeven van voorraden en transactiegegevens?
+answer: Beide knooppunten moeten versie- en verack-berichten met elkaar uitwisselen
+wrong_answers:
+  - Het verbindende knooppunt moet DNS seed bevestiging ontvangen van core-ontwikkelaars
+  - "Beide knooppunten moeten elkaars blokhoogte en chain tip hash verifiëren"
+  - "Het ontvangende knooppunt moet het peer-certificaat van het verbindende knooppunt valideren"
+explanation: |
+  De Bitcoin P2P handdruk vereist een bidirectionele uitwisseling waarbij het verbindende knooppunt een versiebericht stuurt, de ontvanger antwoordt met verack en zijn eigen versiebericht, en de oorspronkelijke verzender antwoordt met zijn verack. Pas na deze volledige uitwisseling van vier berichten (versie→verack+versie→verack) kunnen knooppunten beginnen met actieve communicatie. DNS seeds worden alleen gebruikt voor initiële peer discovery, niet voor handshaking. Bitcoin gebruikt geen certificaten en ketenvalidatie vindt plaats nadat de verbinding tot stand is gebracht.

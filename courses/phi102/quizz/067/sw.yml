@@ -1,0 +1,8 @@
+question: Kulingana na maandishi, ni kitendawili gani kilichopo kati ya usalama na maendeleo ya kiuchumi?
+answer: Usalama ni sharti la maendeleo na matokeo yake
+wrong_answers:
+  - Usalama huja kila mara baada ya maendeleo ya kiuchumi kupatikana
+  - Maendeleo ya kiuchumi kwa kawaida huondoa hitaji la hatua za usalama
+  - Usalama na maendeleo ya kiuchumi hayana uhusiano wowote na kila mmoja
+explanation: |
+  Sura hiyo inaelezea kwamba usalama na maendeleo ya kiuchumi huunda uhusiano wa kinzani: usalama unahitajika kabla ya maendeleo kutokea (huwezi kuvumbua au kuwekeza kwa muda mrefu bila hayo), lakini pia unahitaji ziada ya kiuchumi kutoka kwa uzalishaji ili kufadhili taasisi zinazotoa usalama. Hii huunda mzunguko mgumu kuanza, lakini mara tu unapoanza, unakuwa wa kujiimarisha. Majibu mengine si sahihi kwa sababu yanapendekeza uhusiano rahisi wa upande mmoja au uhuru, badala ya utegemezi huu tata.

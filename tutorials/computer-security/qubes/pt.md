@@ -122,7 +122,7 @@ Antes de instalar o Qubes OS, é essencial garantir que o seu hardware cumpre os
 
 
 
-Para instalar o Qubes OS, descarregue a imagem ISO oficial a partir do Qubes OS [sítio oficial] (https://www.qubes-os.org/downloads/). É essencial verificar a integridade da ISO utilizando as assinaturas GPG fornecidas, para garantir que o ficheiro não foi adulterado e que a transferência é segura.
+Para instalar o Qubes OS, descarregue a imagem ISO oficial a partir do Qubes OS [sítio oficial](https://www.qubes-os.org/downloads/). É essencial verificar a integridade da ISO utilizando as assinaturas GPG fornecidas, para garantir que o ficheiro não foi adulterado e que a transferência é segura.
 
 
 

@@ -21,7 +21,7 @@ Plan ₿ Networkin tavoitteena on tulla Bitcoin-verkkoavaruuden julkiseksi aukio
 
 Plan ₿ Academy on pohjimmiltaan monikielinen, sillä tavoitteenamme on tuoda Bitcoin-resurssit kaikkien ulottuville maailmanlaajuisesti. Uskomme, että kieli ei saisi olla esteenä suvereenille rahalle.
 
-Tämän saavuttamiseksi käytämme Human x AI -lähestymistapaa. [Ohjelmamme] (https://github.com/Asi0Flammeus/LLM-Translator) avulla voimme kääntää sisällön automaattisesti monille kielille. Tarvitsemme kuitenkin sujuvan puhujan tarkistamaan sen, jotta voimme varmistaa, että sisältö on ymmärrettävää ja ettei siinä ole sopimattomia termejä.
+Tämän saavuttamiseksi käytämme Human x AI -lähestymistapaa. [Ohjelmamme](https://github.com/Asi0Flammeus/LLM-Translator) avulla voimme kääntää sisällön automaattisesti monille kielille. Tarvitsemme kuitenkin sujuvan puhujan tarkistamaan sen, jotta voimme varmistaa, että sisältö on ymmärrettävää ja ettei siinä ole sopimattomia termejä.
 
 Jos haluat auttaa rakentamaan tätä koulutushanketta Bitcoin-koulutuksen edistämiseksi yhteisössänne, voit aloittaa tarkistamalla kurssin tai opetusohjelman.
 

@@ -1,0 +1,8 @@
+question: Nel modello di consenso federato di Liquid, qual è il numero minimo di firme funzionali necessarie per convalidare un blocco e qual è il numero massimo di guasti ai nodi che la rete può tollerare?
+answer: 11 firme necessarie, in grado di tollerare fino a 4 guasti del nodo
+wrong_answers:
+  - sono necessarie 8 firme, in grado di tollerare fino a 7 guasti dei nodi
+  - 15 firme necessarie, in grado di tollerare fino a 2 guasti del nodo
+  - 9 firme necessarie, in grado di tollerare fino a 6 guasti ai nodi
+explanation: |
+  Il Liquid utilizza un sistema di soglia 11-15, in cui almeno 11 funzionari su 15 devono firmare ogni blocco perché sia valido. Questo sistema consente alla rete di continuare a funzionare anche se fino a 4 nodi si guastano (15 - 11 = 4). Le altre opzioni forniscono soglie di firma errate o calcolano male la tolleranza ai guasti, che è sempre il totale dei nodi meno le firme richieste.

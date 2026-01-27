@@ -1,0 +1,8 @@
+question: Que tipo de operação o Rust executa por padrão ao atribuir uma variável String a outra?
+answer: Uma operação de deslocação que transfere a propriedade e invalida a variável de origem
+wrong_answers:
+  - Uma cópia profunda que duplica todos os dados da pilha para criar cadeias de caracteres independentes
+  - Uma cópia superficial que cria dois ponteiros para a mesma memória heap
+  - Uma criação de referência que permite que ambas as variáveis partilhem o acesso só de leitura
+explanation: |
+  O Rust executa uma operação de movimentação por padrão quando atribui tipos complexos como String. Isso transfere a propriedade da variável de origem para a variável de destino enquanto invalida a origem, prevenindo cenários perigosos onde múltiplas variáveis poderiam modificar a mesma memória heap. Uma cópia profunda seria ineficiente para strings grandes, uma cópia superficial criaria problemas de segurança de memória com vários ponteiros para os mesmos dados, e a criação de referência requer sintaxe explícita com o operador "e comercial".

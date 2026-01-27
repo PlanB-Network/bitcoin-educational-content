@@ -178,6 +178,6 @@ W tym celu dostępnych jest kilka opcji. Chociaż do tych modyfikacji można uż
 Gratulacje! Twoje środowisko pracy jest teraz skonfigurowane do współtworzenia Plan ₿ Academy. Możesz teraz zapoznać się z naszymi innymi samouczkami dla każdego rodzaju wkładu (tłumaczenie, korekta, pisanie).
 
 
-https://planb.academy/tutorials/others
+https://planb.academy/tutorials/contribution
 
 ..).

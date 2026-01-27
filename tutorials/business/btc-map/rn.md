@@ -27,10 +27,10 @@ Biboneka kuri:
 
 
 
-- iOS biciye kuri [Iduka ry'Iporogaramu] (iporogaramu.
+- iOS biciye kuri [Iduka ry'Iporogaramu](iporogaramu.
 - Android biciye kuri [Iduka ry'Ibikino](ububiko bw'ibikino/ibisobanuro?id=org.btcmap.ibikorwa)
 - [F-Droid](https://f-droid.org/ru/amapaki/org.btcmap/) urutonde rwa porogaramu y'inkomoko yuguruye ya android
-- mu gukuraho [apk android] (https://github.com/teambtcmap/btcmap-android/ibisohotse/vya nyuma) ataco bimaze kuri github y'umugambi
+- mu gukuraho [apk android](https://github.com/teambtcmap/btcmap-android/ibisohotse/vya nyuma) ataco bimaze kuri github y'umugambi
 - biciye ku rubuga rwa porogaramu kuva ku mucukumbuzi wawe (ivyo tubona uno musi)
 
 

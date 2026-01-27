@@ -1,0 +1,8 @@
+question: Mitä tapahtuu käännöksen aikana, kun Rust-kääntäjä kohtaa makron kutsun?
+answer: Kääntäjä vertaa syötettä määriteltyihin kuvioihin ja korvaa makrokutsun generoidulla koodilla ennen kuin tyyppitarkistus suoritetaan
+wrong_answers:
+  - Kääntäjä lykkää makrojen laajentamista tyyppitarkistuksen ja optimoinnin jälkeen varmistaakseen koodin oikeellisuuden
+  - Kääntäjä tallentaa makrokutsun tavukoodina ja laajentaa sen dynaamisesti ajonaikaisen suorituksen aikana
+  - Kääntäjä tarkistaa makron syntaksin, mutta jättää varsinaisen laajentamisen linkittäjän tehtäväksi
+explanation: |
+  Makrot laajennetaan kääntämisen aikana ennen tyypintarkistusta ja optimointia. Kun kääntäjä kohtaa makrokutsun, se vertaa syötettä välittömästi makron määriteltyihin kuvioihin ja korvaa koko makrokutsun luodulla koodilla. Tämä laajennettu koodi käy sitten läpi normaalit kääntämisprosessit, mukaan lukien tyypintarkistus. Muut vaihtoehdot ovat virheellisiä, koska makrot toimivat kääntämisaikana, eivät suoritusaikana, ja laajennuksen on tapahduttava ennen tyypintarkistusta, koska luodun koodin oikeellisuus on tarkistettava.

@@ -4,13 +4,13 @@ description: Come verificare l'integrità e l'autenticità del software?
 ---
 ![cover](assets/cover.webp)
 
-Quando si scarica un software, è molto importante assicurarsi che non sia stato alterato e che provenga effettivamente dalla fonte ufficiale. Questo è particolarmente vero per il software relativo a Bitcoin, come i software dei wallet, che ti permettono di proteggere le chiavi che danno accesso ai tuoi fondi. In questo tutorial, vedremo come verificare l'integrità e l'autenticità di un software prima di installarlo. Useremo come esempio Sparrow Wallet, un software di portafoglio molto apprezzato tra gli utenti Bitcoin, ma la procedura sarà la stessa per qualsiasi altro software.
+Quando si scarica un software, è molto importante assicurarsi che non sia stato alterato e che provenga effettivamente dalla fonte ufficiale. Questo è particolarmente vero per il software riguardante Bitcoin, come i software dei wallet, che ti permettono di proteggere le chiavi che danno accesso ai tuoi fondi. In questo tutorial, vedremo come verificare l'integrità e l'autenticità di un software prima di installarlo. Useremo come esempio Sparrow Wallet, un software di un wallet molto apprezzato tra gli utenti Bitcoin, ma la procedura sarà la stessa per qualsiasi altro software.
 
 Verificare l'integrità comporta di assicurarsi che il file scaricato non sia stato modificato confrontando la sua impronta digitale (ovvero il suo hash) con quella fornita dallo sviluppatore ufficiale. Se corrispondono, significa che il file è identico all'originale e non è stato corrotto o modificato da un attaccante.
 
 Verificare l'autenticità, invece, assicura che il file provenga effettivamente dallo sviluppatore ufficiale e non da un impostore. Questo si fa verificando una firma digitale. Questa firma prova che il software è stato firmato con la chiave privata legittima dello sviluppatore.
 
-Se questi controlli non vengono eseguiti, c'è il rischio di installare malware che potrebbe contenere codice modificato. Questo codice potrebbe rubare informazioni come le tue chiavi private o bloccare l'accesso ai tuoi file. Questo tipo di attacco è piuttosto comune, specialmente nel contesto del software open-source dove possono essere distribuite versioni contraffatte.
+Se questi controlli non vengono eseguiti, c'è il rischio di installare malware che potrebbe contenere codice modificato. Questo codice potrebbe rubare informazioni come le tue chiavi private o bloccare l'accesso ai tuoi file. Questo tipo di attacco è piuttosto comune, specialmente nel contesto del software open-source dove potrebbero essere distribuite versioni contraffatte.
 
 Per eseguire questa verifica, useremo due strumenti: le funzioni di hashing per verificare l'integrità, e GnuPG, uno strumento open-source che implementa il protocollo PGP, per verificare l'autenticità.
 
@@ -42,6 +42,7 @@ Poi installa GPG con questo comando:
 brew install gnupg
 ```
 Per **Windows**, se non hai GPG, puoi installare il software [Gpg4win](https://www.gpg4win.org/).
+
 ![GnuPG](assets/notext/01.webp)
 
 ## Scaricamento dei Documenti
@@ -65,6 +66,7 @@ Avrai bisogno anche dell'hash del file, spesso chiamato "*SHA256SUMS*" o "*MANIF
 Scarica anche la firma PGP del file. Questo è il documento in formato `.asc`.
 
 ![GnuPG](assets/notext/06.webp)
+
 Assicurati di posizionare tutti questi file nella stessa cartella per i passaggi successivi.
 Infine, avrai bisogno della chiave pubblica dello sviluppatore, che useremo per verificare la firma PGP. Questa chiave è spesso disponibile sul sito web del software, sul repository GitHub del progetto, talvolta sui social media dello sviluppatore, o su siti specializzati come Keybase. Nel caso di Sparrow Wallet, puoi trovare la chiave pubblica dello sviluppatore Craig Raw [su Keybase](https://keybase.io/craigraw). Per scaricarla direttamente dal terminale, esegui il comando:
 
@@ -101,6 +103,7 @@ Se la firma è valida, GPG te lo indicherà. Puoi quindi passare al passaggio su
 ![GnuPG](assets/notext/10.webp)
 
 ## Verifica dell'Hash
+
 Ora che l'autenticità del software è stata confermata, è necessario anche verificare la sua integrità. Confronteremo l'hash del software con l'hash fornito dallo sviluppatore. Se i due corrispondono, ciò garantisce che il codice del software non sia stato alterato.
 
 Su **Windows**, apri un terminale ed esegui il seguente comando:

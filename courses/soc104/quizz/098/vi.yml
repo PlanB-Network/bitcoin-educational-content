@@ -1,0 +1,9 @@
+question: Theo Tuyên ngôn Cypherpunk của Eric Hughes, nguyên tắc cơ bản nào phân biệt những người theo chủ nghĩa cypherpunk với những người chỉ đơn thuần mong muốn được bảo vệ quyền riêng tư?
+answer: Những người theo chủ nghĩa cypherpunk chủ động viết mã để xây dựng các hệ thống ẩn danh thay vì chờ đợi các tổ chức cung cấp quyền riêng tư.
+wrong_answers:
+  - Những người theo chủ nghĩa Cypherpunk tập trung vào vận động hành lang chính trị và cải cách pháp luật để thiết lập quyền riêng tư thông qua các quy trình dân chủ.
+  - Những người theo chủ nghĩa Cypherpunk tin rằng nên làm việc trong khuôn khổ các tổ chức tài chính hiện có để từng bước cải thiện khả năng bảo vệ quyền riêng tư của họ.
+  - Những người theo chủ nghĩa Cypherpunk ưu tiên việc giáo dục công chúng về các rủi ro liên quan đến quyền riêng tư hơn là phát triển các giải pháp kỹ thuật.
+explanation: |
+  Bản tuyên ngôn nêu rõ "Những người theo chủ nghĩa Cypherpunk viết mã" và nhấn mạnh rằng họ không tìm thấy sự an ủi trong hy vọng và ước muốn mà chủ động can thiệp vào các sự kiện.
+  Hughes lập luận rằng mọi người không thể trông chờ vào chính phủ, các tập đoàn hoặc các tổ chức lớn khác đảm bảo quyền riêng tư, vì vậy những người theo chủ nghĩa Cypherpunk phải tự xây dựng các hệ thống mật mã. Cách tiếp cận chủ động, mang tính kỹ thuật thông qua việc phát triển mã này phân biệt họ với các cách tiếp cận thụ động như vận động hành lang, làm việc trong các hệ thống hiện có hoặc chỉ đơn thuần giáo dục người khác mà không tạo ra các giải pháp công nghệ cụ thể.

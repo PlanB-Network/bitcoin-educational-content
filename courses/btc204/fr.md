@@ -47,7 +47,7 @@ L'objectif de cette formation n'est pas de vous rendre totalement anonyme dans v
 
 **Section 1 : Définitions et concepts clés**
 
-Pour commencer, nous allons réviser ensemble les principes fondamentaux qui régissent le fonctionnement de Bitcoin, afin de pouvoir ensuite aborder sereinement les notions relatives à la confidentialité. Il est essentiel de maîtriser quelques concepts de base, tels que les UTXOs, les adresses de réception ou les scripts, avant de pouvoir pleinement comprendre les concepts que nous aborderons dans les sections suivantes. Nous introduirons également le modèle général de confidentialité de Bitcoin, tel qu'imaginé par Satoshi Nakamoto, ce qui nous permettra de saisir les enjeux et les risques associés.
+Pour commencer, nous allons réviser ensemble les principes fondamentaux qui régissent le fonctionnement de Bitcoin, afin de pouvoir ensuite aborder sereinement les notions relatives à la confidentialité. Il est essentiel de maîtriser quelques concepts de base, tels que les [UTXO](https://planb.academy/resources/glossary/utxo)s, les adresses de réception ou les scripts, avant de pouvoir pleinement comprendre les concepts que nous aborderons dans les sections suivantes. Nous introduirons également le modèle général de confidentialité de Bitcoin, tel qu'imaginé par Satoshi Nakamoto, ce qui nous permettra de saisir les enjeux et les risques associés.
 
 ![BTC204](assets/fr/001.webp)
 
@@ -63,7 +63,7 @@ Dans la troisième section de notre formation, nous entrons dans le vif du sujet
 
 ![BTC204](assets/fr/003.webp)
 
-**Section 4 : Comprendre les transactions coinjoin**
+**Section 4 : Comprendre les transactions [coinjoin](https://planb.academy/resources/glossary/coinjoin)**
 
 Comment parler de confidentialité sur Bitcoin sans aborder les coinjoins ? Dans la section 4, vous allez découvrir tout ce qu'il faut savoir sur cette méthode de mixage. Vous apprendrez ce qu'est le coinjoin, son histoire et ses objectifs, ainsi que les différents types de coinjoins existants. Enfin, pour les utilisateurs les plus aguerris, nous découvrirons ce que sont les anonsets et l'entropie, et comment calculer ces indicateurs.
 
@@ -71,7 +71,7 @@ Comment parler de confidentialité sur Bitcoin sans aborder les coinjoins ? Dans
 
 **Section 5 : Connaître les enjeux d'autres techniques de confidentialité avancées**
 
-Dans la cinquième section, nous ferons un tour d'horizon de toutes les autres techniques existantes pour protéger votre vie privée sur Bitcoin, en dehors du coinjoin. Au fil des années, les développeurs ont fait preuve d'une créativité remarquable pour concevoir des outils dédiés à la confidentialité. Nous examinerons toutes ces méthodes, telles que le payjoin, les transactions collaboratives, le Coin Swap et l'Atomic Swap, en détaillant leur fonctionnement, leurs objectifs et leurs éventuelles faiblesses.
+Dans la cinquième section, nous ferons un tour d'horizon de toutes les autres techniques existantes pour protéger votre vie privée sur Bitcoin, en dehors du coinjoin. Au fil des années, les développeurs ont fait preuve d'une créativité remarquable pour concevoir des outils dédiés à la confidentialité. Nous examinerons toutes ces méthodes, telles que le [payjoin](https://planb.academy/resources/glossary/payjoin), les transactions collaboratives, le Coin Swap et l'Atomic Swap, en détaillant leur fonctionnement, leurs objectifs et leurs éventuelles faiblesses.
 
 Nous aborderons également la confidentialité au niveau du réseau de nœuds et de la diffusion des transactions. Nous discuterons aussi des différents protocoles qui ont été proposés au fil des années pour renforcer la confidentialité des utilisateurs sur Bitcoin, notamment les protocoles d'adresses statiques.
 
@@ -548,7 +548,7 @@ Source : [Mempool.space](https://mempool.space/tx/db07516288771ce5d0a06b275962ec
 
 Sur cette dernière, on peut voir que l’input n° 0 et l’output n° 1 utilisent des scripts P2WPKH (SegWit V0), alors que l’output n° 0 utilise un script différent de type P2PKH (Legacy).
 
-Au début des années 2010, cette heuristique basée sur le versionnage des scripts était relativement peu utile du fait de la limitation des types de scripts disponibles. Cependant, avec le temps et les mises à jour successives de Bitcoin, une diversité croissante de types de scripts a été introduite. Cette heuristique devient donc de plus en plus pertinente, car avec un éventail plus large de types de scripts, les utilisateurs se divisent en groupes plus restreints, augmentant ainsi les chances d'appliquer cette heuristique de réutilisation interne du versionnage. Pour cette raison, dans une perspective de confidentialité uniquement, il est conseillé d'opter pour le type de script le plus courant. Par exemple, lorsque je rédige ces lignes, les scripts Taproot (`bc1p`) sont moins fréquemment utilisés que les scripts SegWit V0 (`bc1q`). Bien que les premiers offrent des bénéfices économiques et de confidentialité dans certains contextes spécifiques, pour des utilisations de signature unique plus traditionnelles, il peut être judicieux de s'en tenir à un standard plus ancien pour des raisons de confidentialité, jusqu'à ce que le nouveau standard soit plus largement adopté.
+Au début des années 2010, cette heuristique basée sur le versionnage des scripts était relativement peu utile du fait de la limitation des types de scripts disponibles. Cependant, avec le temps et les mises à jour successives de Bitcoin, une diversité croissante de types de scripts a été introduite. Cette heuristique devient donc de plus en plus pertinente, car avec un éventail plus large de types de scripts, les utilisateurs se divisent en groupes plus restreints, augmentant ainsi les chances d'appliquer cette heuristique de réutilisation interne du versionnage. Pour cette raison, dans une perspective de confidentialité uniquement, il est conseillé d'opter pour le type de script le plus courant. Par exemple, lorsque je rédige ces lignes, les scripts [Taproot](https://planb.academy/resources/glossary/taproot) (`bc1p`) sont moins fréquemment utilisés que les scripts SegWit V0 (`bc1q`). Bien que les premiers offrent des bénéfices économiques et de confidentialité dans certains contextes spécifiques, pour des utilisations de signature unique plus traditionnelles, il peut être judicieux de s'en tenir à un standard plus ancien pour des raisons de confidentialité, jusqu'à ce que le nouveau standard soit plus largement adopté.
 
 ### Les paiements par nombres ronds
 
@@ -1401,7 +1401,7 @@ https://planb.academy/tutorials/exchange/peer-to-peer/robosats-b60e4f7c-533a-429
 
 -> Découvrir notre tutoriel sur LNP2PBot.
 
-https://planb.network/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
+https://planb.academy/tutorials/exchange/peer-to-peer/lnp2pbot-v2-e6bcb210-610b-487d-970c-7cce85273e3c
 
 ![BTC204](assets/fr/096.webp)
 

@@ -1,0 +1,8 @@
+question: Koje osnovno ograničenje modela UTXO zahteva specifično rukovanje prilikom trošenja Bitcoin?
+answer: UTXO-i moraju biti potpuno potrošeni i ne mogu biti delimično iskorišćeni
+wrong_answers:
+  - UTXO-i mogu biti potrošeni samo jednom po bloku kako bi se sprečilo dvostruko trošenje
+  - UTXO-i moraju biti potrošeni hronološkim redosledom na osnovu vremena kreiranja
+  - UTXO-i zahtevaju više potpisa sa različitih ključeva da bi bili validni
+explanation: |
+  Model UTXO ima osnovno ograničenje da neiskorišćeni izlazi transakcija moraju biti u potpunosti potrošeni - ne postoji mehanizam za delimično trošenje. Kada treba da potrošite manje od celokupnog iznosa UTXO, morate kreirati transakciju koja troši ceo UTXO i uključuje izlaz za kusur nazad vama za ostatak. Druge opcije opisuju nepostojeća ograničenja: UTXO-i mogu biti potrošeni više puta po bloku (različiti UTXO-i), ne zahtevaju hronološko redosledno slaganje, i obično je potrebna samo jedan validan potpis osim ako nije specifično dizajnirano kao multisig.

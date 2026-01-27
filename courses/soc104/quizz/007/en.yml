@@ -1,0 +1,10 @@
+question: According to the Nolan Chart, what are the two axes used to represent political ideologies?
+answer: Economic freedom and personal freedom
+wrong_answers:
+  - Left-wing politics and right-wing politics
+  - Socialism and capitalism
+  - Democracy and authoritarianism
+explanation: |
+  The Nolan Chart uses two dimensions: economic freedom and personal freedom, creating a more nuanced political spectrum than the traditional left-right axis.
+  This two-dimensional approach allows for better positioning of different ideologies like libertarianism (high economic and personal freedom), socialism 
+  (low economic, high personal freedom), and conservatism (high economic, low personal freedom). The traditional left-right axis is considered insufficient by Nolan because it fails to capture the complexity of political positions, particularly where classical liberalism fits in the political landscape.

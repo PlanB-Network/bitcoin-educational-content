@@ -5,5 +5,5 @@ wrong_answers:
   - Опростена проверка на плащанията
   - Блокчейнът
 explanation: |
-  Първоначалната парична политика съответстваше на постоянна емисия (X BTC/блок), както е посочено в първата версия на бялата книга и [обмена] на Satoshi (https: //www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) с Рей Дилинджър.
+  Първоначалната парична политика съответстваше на постоянна емисия (X BTC/блок), както е посочено в първата версия на бялата книга и [обмена] на Satoshi (https://www.metzdowd.com/pipermail/cryptography/2008-November/014831.html) с Рей Дилинджър.
 reviewed: true

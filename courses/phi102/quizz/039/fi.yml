@@ -1,0 +1,8 @@
+question: Mitkä ovat tekstin mukaan ne kaksi muotoa, joita kilpailu voi talousjärjestelmissä esiintyä?
+answer: Väkivaltainen kilpailu ja rauhanomainen kilpailu vaihdon kautta
+wrong_answers:
+  - Yksityinen kilpailu ja julkinen kilpailu sääntelyn avulla
+  - Yksilöllinen kilpailu ja kollektiivinen kilpailu yhteistyön avulla
+  - Markkinakilpailu ja valtion kilpailu suunnittelun avulla
+explanation: |
+  Tekstissä selitetään, että kilpailu on perustavanlaatuinen tosiasia, jonka resurssien niukkuus tekee välttämättömäksi, eikä sitä voida poistaa, ainoastaan muuttaa. Sitä on kahta muotoa: väkivaltaista kilpailua (jossa resurssit hankitaan voimakeinoin tai laillisella pakkokeinolla, kuten poliittisessa kilpailussa) ja rauhanomaista kilpailua, joka perustuu vapaaehtoiseen vaihtoon. Vapaudenvastaisissa järjestelmissä yritetään virheellisesti tukahduttaa kilpailu kokonaan, mutta päädytään siihen, että rauhanomainen markkinakilpailu korvataan väkivaltaisella poliittisella kilpailulla, mikä luo epäoikeudenmukaisia suhteita. Muissa vaihtoehdoissa ehdotetaan virheellisesti, että kilpailu voidaan luokitella omistusrakenteen, yhteistyötasojen tai taloussuunnittelumenetelmien mukaan, mikä jättää huomiotta keskeisen eron vapaaehtoisten ja pakkokeinojen välillä resurssien hankkimisessa.

@@ -1,5 +1,5 @@
 ---
-name: BIP47 - ペイニム
+name: BIP47 - PayNym
 description: 足軽で再利用可能な支払いコードを使う
 ---
 ![cover](assets/cover.webp)

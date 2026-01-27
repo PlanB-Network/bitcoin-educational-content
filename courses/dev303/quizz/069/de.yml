@@ -1,0 +1,8 @@
+question: Welche Hauptrolle spielen Assertions in der Bitcoin-Anwendungsentwicklung gemäß den Rust-Best Practices?
+answer: Um Fehler während des Testens zu erkennen, um bei Problemen frühzeitig Programmfehler zu verursachen und um als ausführbare Dokumentation der Annahmen des Programmierers zu dienen
+wrong_answers:
+  - Behandlung von Laufzeit-Ressourcenfehlern wie Dateizugriffsfehlern und Netzwerkverbindungsproblemen auf elegante Weise
+  - Übersetzung von Low-Level-Bibliotheksfehlern in High-Level-Anwendungsfehler, die die Benutzer verstehen und entsprechend handeln können
+  - Vermeidung ungültiger Eingabefehler durch Einschränkung der Funktionsparameter auf Werte innerhalb gültiger Bereiche
+explanation: |
+  Assertions erfüllen drei entscheidende Funktionen in der robusten Bitcoin-Softwareentwicklung: Sie fangen Fehler während der Testphase ab, stellen sicher, dass Programme frühzeitig fehlschlagen, wenn grundlegende Annahmen verletzt werden (was die Fehlersuche erleichtert), und fungieren als ausführbare Dokumentation, die die Erwartungen des Programmierers an den Programmzustand beschreibt. Die anderen Optionen beschreiben verschiedene Fehlerbehandlungsstrategien - elegante Behandlung von Ausfällen externer Ressourcen, Fehlerübersetzung zwischen Abstraktionsschichten und Eingabevalidierung -, die zwar wichtig sind, sich aber von der spezifischen Rolle der Assertions bei der Überprüfung interner Programmannahmen unterscheiden.

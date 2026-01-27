@@ -1,5 +1,5 @@
 ---
-name: マカダミアWallet
+name: Macadamia Wallet
 description: Cashuモバイルwallet、匿名かつ即時にBTC決済が可能
 ---
 

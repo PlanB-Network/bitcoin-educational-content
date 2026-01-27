@@ -1,0 +1,11 @@
+question: Mitkä ovat Nolanin kaavion poliittisessa kaaviossa määritellyt viisi osa-aluetta?
+answer: Statismi (alhaalla), sosialismi (vasemmalla), konservatismi (oikealla), libertarismi (ylhäällä) ja sentralismi (keskellä)
+wrong_answers:
+  - Autoritarismi (alhaalla), liberalismi (vasemmalla), nationalismi (oikealla), anarkismi (ylhäällä) ja populismi (keskellä)
+  - Totalitarismi (alhaalla), progressiivisuus (vasemmalla), traditionalismi (oikealla), kapitalismi (ylhäällä) ja maltillisuus (keskellä)
+  - Fasismi (alhaalla), kommunismi (vasemmalla), republikaanisuus (oikealla), demokratia (ylhäällä) ja pragmatismi (keskellä)
+explanation: |
+  Nolan Chart jakaa poliittisen kirjon viiteen eri osaan, jotka perustuvat taloudelliseen ja henkilökohtaiseen vapauteen. Statismi edustaa
+  alareunassa valtiovallan maksimaalista valvontaa, kun taas yläreunassa oleva libertarismi edustaa maksimaalista vapautta molemmilla ulottuvuuksilla. Sosialismi (vasemmalla) tukee henkilökohtaista
+  vapautta mutta vastustaa taloudellista vapautta, kun taas konservatismi (oikealla) tukee taloudellista vapautta mutta rajoittaa henkilökohtaista vapautta. Keskusliike on keskellä,
+  sekoittaa molempien vapauksien elementtejä ja jonkin verran sääntelyä.

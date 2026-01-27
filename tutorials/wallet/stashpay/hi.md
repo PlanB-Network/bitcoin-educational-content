@@ -1,5 +1,5 @@
 ---
-name: स्टैशपे
+name: StashPay
 description: सभी के लिए न्यूनतम Bitcoin Wallet
 ---
 

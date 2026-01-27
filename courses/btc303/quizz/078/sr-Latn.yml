@@ -1,9 +1,12 @@
-question: Prema okviru za odgovorno otkrivanje koji je diskutovan, primarni razlog zbog kojeg programeri izbegavaju trenutno zakrpljivanje nekritičnih ranjivosti u Bitcoin Core je da bi izbegli potencijalne prekide u radu sistema i omogućili temeljno testiranje zakrpa pre implementacije.
+question: Prema razmatranom okviru odgovornog otkrivanja, koji je osnovni razlog zbog kog programeri izbegavaju trenutno zakrpljivanje nekritičnih ranjivosti u Bitcoin Core-u?
 answer: Da zakrpa sama po sebi ne otkrije prirodu ranjivosti pre nego što se široko primeni
 wrong_answers:
   - Da se omogući dovoljno vremena da programeri altcoina prvo implementiraju svoje nezavisne ispravke
-  - Da bi se omogućilo sveobuhvatno testiranje u različitim mining bazenima pre puštanja bilo kakvih bezbednosnih ažuriranja
+  - Da bi se omogućilo sveobuhvatno testiranje u različitim rudarskim bazenima pre puštanja bilo kakvih bezbednosnih ažuriranja
   - Da bi se održala kompatibilnost unazad sa starijim verzijama čvora koje ne mogu da podnesu hitne zakrpe
 explanation: |
-  Tačan odgovor ističe ključni paradoks u bezbednosnom zakrpljivanju: sama ispravka može otkriti ranjivost. Poglavlje naglašava da programeri moraju pažljivo prikriti zakrpe jer njihovo trenutno objavljivanje može otkriti ranjivost napadačima pre nego što većina čvorova bude zaštićena. Pogrešni odgovori, iako verovatni, pogrešno predstavljaju prioritete: obaveštenje o altcoinu se dešava nakon implementacije Bitcoin mreže, testiranje mining bazena nije primarna briga za nekritične probleme, a kompatibilnost unazad ne određuje vreme objavljivanja bezbednosnih zakrpa.
-reviewed: false
+  Tačan odgovor ističe ključni paradoks u bezbednosnom zakrpljivanju: sama ispravka može otkriti ranjivost. Poglavlje naglašava da programeri moraju pažljivo 
+  prikriti zakrpe jer njihovo trenutno objavljivanje može otkriti ranjivost napadačima pre nego što većina čvorova bude zaštićena. Pogrešni odgovori, iako 
+  verovatni, pogrešno predstavljaju prioritete: obaveštenje o altcoinu se dešava nakon implementacije Bitcoin mreže, testiranje rudarskih bazena nije primarna 
+  briga za nekritične probleme, a kompatibilnost unazad ne određuje vreme objavljivanja bezbednosnih zakrpa.
+reviewed: true

@@ -6,4 +6,4 @@ wrong_answers:
   - /etc/resolve
 explanation: |
   Antes de que el DNS se generalizara, la resolución de nombres se basaba en el archivo estático /etc/hosts de los sistemas Unix/Linux.
-reviewed: false
+reviewed: true

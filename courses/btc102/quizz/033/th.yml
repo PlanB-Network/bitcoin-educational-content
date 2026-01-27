@@ -1,0 +1,9 @@
+question: ใครคือผู้ประดิษฐ์ Lightning Network?
+answer: แธดเดียส ไดรจา และ โจเซฟ พูน
+wrong_answers:
+  - Andreas Antonopoulos และ Adam Back
+  - ปีเตอร์ วีลเลอ และ เกรกอรี่ แมกซ์เวลล์
+  - Satoshi Nakamoto และ Hal Finney
+explanation: |
+  Thaddeus Dryja และ Joseph Poon ประดิษฐ์ Lightning Network ในปี 2016 เพื่อปรับปรุงความสามารถในการขยายตัวของ Bitcoin
+reviewed: false

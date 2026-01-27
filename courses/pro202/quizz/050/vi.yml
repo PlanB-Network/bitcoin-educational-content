@@ -1,0 +1,8 @@
+question: Khi một nút Bitcoin khởi tạo và tham gia mạng lần đầu tiên, cơ chế chính mà nó sử dụng để phát hiện các nút ngang hàng đang hoạt động là gì?
+answer: Thông tin liên hệ được mã hóa cứng thành các hạt giống DNS do các nhà phát triển cốt lõi duy trì để nhận địa chỉ IP của các máy ngang hàng đang hoạt động.
+wrong_answers:
+  - Phát đi thông báo tìm kiếm đến tất cả các địa chỉ IP trong các phạm vi mạng con được xác định trước.
+  - Kết nối với máy chủ đăng ký trung tâm duy trì danh sách tất cả các nút đang hoạt động.
+  - Sử dụng giao thức DHT (Distributed Hash Table) để tìm các thiết bị ngang hàng thông qua định tuyến dựa trên hàm băm.
+explanation: |
+  Bitcoin sử dụng các hạt giống DNS được mã hóa cứng làm cơ chế khởi động vì nó cung cấp một cách thức phi tập trung cho các nút mới tham gia mạng mà không cần dựa vào một cơ quan trung ương. Các hạt giống DNS được duy trì bởi các nhà phát triển cốt lõi và trả về địa chỉ IP của các nút đang hoạt động. Sau khi kết nối, các nút có thể sử dụng lệnh getaddr để khám phá thêm các nút khác. Các câu trả lời sai mô tả các phương pháp tập trung hoặc các giao thức không được Bitcoin sử dụng - không có cơ chế đăng ký tập trung, không có phát sóng mạng con và không có cơ chế khám phá nút dựa trên DHT trong thiết kế của Bitcoin.

@@ -1,0 +1,9 @@
+question: การกระจายตัวใดที่เหมาะสมที่สุดสำหรับ Raspberry Pi เนื่องจากมีน้ำหนักเบาเป็นพิเศษ?
+answer: RaspiBlitz
+wrong_answers:
+  - Umbrel
+  - MyNode
+  - Start9
+explanation: |
+  RaspiBlitz ได้รับการปรับแต่งให้เหมาะสมกับ Raspberry Pi และยังคงมีน้ำหนักเบา ซึ่งแตกต่างจาก Umbrel ที่มีน้ำหนักมากเกินไปสำหรับเครื่องเหล่านี้
+reviewed: true

@@ -1,0 +1,8 @@
+question: Persyaratan keamanan penting apa yang harus dipenuhi ketika membuat nonce K dalam pembuatan tanda tangan ECDSA?
+answer: K harus unik dan tidak dapat diprediksi untuk setiap tanda tangan untuk mencegah kompromi kunci pribadi
+wrong_answers:
+  - K harus diturunkan dari kunci publik untuk memastikan verifikasi tanda tangan bekerja dengan benar
+  - K harus sama di beberapa tanda tangan untuk menjaga konsistensi dalam proses penandatanganan
+  - K harus sama dengan kunci privat dikalikan dengan hash pesan untuk kebenaran matematis
+explanation: |
+  Nonce K harus unik dan tidak dapat diprediksi untuk setiap tanda tangan karena penggunaan ulang K atau membuatnya dapat diprediksi memungkinkan penyerang untuk mendapatkan kembali kunci privat. Jika K yang sama digunakan dua kali dengan pesan yang berbeda, aljabar sederhana dapat mengungkap kunci privat. Implementasi modern menggunakan pembangkitan K secara deterministik (RFC 6979) untuk menghindari kegagalan pembangkit bilangan acak dan memastikan keunikan. Pilihan lainnya tidak benar: K tidak boleh diturunkan dari kunci publik, tidak boleh digunakan kembali, dan tidak boleh sama dengan hash pesan dikali kunci privat.

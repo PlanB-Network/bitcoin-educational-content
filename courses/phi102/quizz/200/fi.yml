@@ -1,0 +1,8 @@
+question: Minkä Bastiat'n taloudellisten sofismien kritiikissä esitetyn loogisen perustavanlaatuisen virheen taustalla on protektionistinen väite, jonka mukaan Ranskan olisi vältettävä rikastuttamasta Englantia kaupan kautta?
+answer: Väärä oletus siitä, että vapaaehtoisessa vaihdannassa taloudelliset edut ovat pikemminkin vastakkaisia kuin sopusoinnussa keskenään
+wrong_answers:
+  - Virheellinen käsitys siitä, että Ranskalla ei ole riittävästi luonnonvaroja kilpailla Englannin kanssa
+  - "Virheellinen ajatus, että Englannin teollinen kapasiteetti antaa sille epäreilun teknologisen edun"
+  - Virheellinen oletus siitä, että kauppavaje johtaa automaattisesti kansantalouden taantumaan
+explanation: |
+  Bastiat totesi, että protektionistit tarkastelevat taloudellisia suhteita virheellisesti arkaaisen, eturistiriitoja sisältävän linssin läpi, kuten muinaiset metsästysalueista taistelevat heimot. Todellisuudessa vapaaehtoinen vaihto hyödyttää molempia osapuolia - kun asiakkaat ja toimittajat käyvät vapaata kauppaa, molemmat saavat lisäarvoa. Protektionistien pelko "vihollisten rikastumisesta" kaupan avulla heijastaa perustavaa laatua olevaa väärinkäsitystä siitä, miten markkinasuhteet toimivat, kun nollasummakilpailun sijasta molemminpuolinen hyöty leimaa aitoa taloudellista vuorovaikutusta.

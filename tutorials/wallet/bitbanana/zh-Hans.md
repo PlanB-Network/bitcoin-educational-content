@@ -1,5 +1,5 @@
 ---
-name: 比特香蕉
+name: BitBanana
 description: Lightning 节点的移动管理器
 ---
 

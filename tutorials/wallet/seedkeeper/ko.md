@@ -1,5 +1,5 @@
 ---
-name: 시드 키퍼
+name: Seedkeeper
 description: 시드키퍼 스마트 카드로 wallet Bitcoin을 백업하려면 어떻게 하나요?
 ---
 

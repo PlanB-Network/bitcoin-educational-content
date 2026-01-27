@@ -1,5 +1,5 @@
 ---
-name: 交换市场
+name: SwapMarket
 description: Bitcoin 和 Lightning 交换服务聚合器
 ---
 

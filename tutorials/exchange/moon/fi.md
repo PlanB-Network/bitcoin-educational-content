@@ -1,11 +1,19 @@
 ---
-name: Kuu
+name: Moon
 description: Maksa bitcoineilla kaikkialla, missä Visa-pankkikortit hyväksytään.
 ---
 
 ![cover](assets/cover.webp)
 
 
+
+---
+
+⚠️ *Päivitys joulukuu 2025: Huomio, **joulukuun 2025 alusta lähtien osa Moonin palveluista ei ole enää saatavilla**, erityisesti ladattavat Visa-pankkikortit. Emme vielä tiedä, onko tämä käyttökatko väliaikainen vai pysyvä. Tämä opas päivitetään heti, kun saamme lisätietoja.*
+
+*Jos käytit prepaid Visa -korttia ennen sen estämistä, voit nyt palauttaa varasi seuraamalla henkilöllisyyden varmennusprosessia suoraan Moon-hallintapaneelissasi. Periaatteessa Moonin olisi pitänyt lähettää sinulle sähköposti, jossa kerrotaan noudatettavasta menettelystä ja tarvittavista vaiheista tämän palautuksen suorittamiseksi.*
+
+---
 
 Moonin avulla voit käyttää kryptovaluuttoja, kuten bitcoinia, ostaaksesi KYC-vapaita virtuaalisia Visa-kortteja ja lahjakortteja, joita voi käyttää miljoonissa verkkokauppiaissa perinteisen pankkikortin tavoin. Se tarjoaa siis yksinkertaisen tavan käyttää sats kaikkialla, missä Visa hyväksytään, ilman vaihtofoorumin kautta kulkemista.
 
@@ -42,7 +50,7 @@ Moonin avulla sinulla on todellinen silta bitcoinien ja Visa-korttimaksujärjest
 
 
 
-Siirry Moonin [viralliselle alustalle] (https://paywithmoon.com), napsauta sitten **"Rekisteröidy "**-painiketta, läpäise inhimillinen todentaminen (CAPTCHA) ja rekisteröidy syöttämällä sähköpostiosoitteesi ja salasanasi.
+Siirry Moonin [viralliselle alustalle](https://paywithmoon.com), napsauta sitten **"Rekisteröidy "**-painiketta, läpäise inhimillinen todentaminen (CAPTCHA) ja rekisteröidy syöttämällä sähköpostiosoitteesi ja salasanasi.
 
 
 

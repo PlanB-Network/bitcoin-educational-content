@@ -1,0 +1,9 @@
+question: Enligt Hayeks teori om spridd kunskap, varför har centralplanerade ekonomier svårare att sätta priser jämfört med fria marknader?
+answer: Centralplanerare kan inte få tillgång till den subjektiva, lokala kunskap om individuella kostnader, fördelar och preferenser som endast marknadsaktörer besitter
+wrong_answers:
+  - Centralplanerare saknar tillräcklig datorkraft och avancerade algoritmer för att bearbeta all den ekonomiska data som de har tillgång till
+  - Centralplanerare är i sig korrupta och sätter priser för att gynna sig själva snarare än samhället, till skillnad från marknadsaktörer som är altruistiska
+  - Centralplanerare fokuserar för mycket på långsiktig ekonomisk stabilitet snarare än att reagera på omedelbara fluktuationer i utbud och efterfrågan
+explanation: |
+  Hayeks viktigaste insikt är att kunskap endast existerar som "spridda fragment av ofullständig och ofta motsägelsefull kunskap som innehas av alla olika individer" Denna kunskap är subjektiv och lokaliserad - endast individer känner till sina egna kostnader, fördelar och preferenser. Fria marknader med frivilligt utbyte och prisförhandlingar gör det möjligt för denna spridda kunskap att växa fram och samordna den ekonomiska aktiviteten.
+  Centralplanerare, oavsett deras avsikter eller förmåga, kan inte komma åt denna subjektiva, spridda information som finns i miljontals individers huvuden, vilket omöjliggör en effektiv prissättning.

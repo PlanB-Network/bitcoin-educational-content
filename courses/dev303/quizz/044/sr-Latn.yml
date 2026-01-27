@@ -1,0 +1,8 @@
+question: Koja je najosnovnija osobina koju sve zatvaranja implementiraju u Rust hijerarhiji osobina zatvaranja?
+answer: FnOnce
+wrong_answers:
+  - FnMut
+  - Fn
+  - Iterator
+explanation: |
+  FnOnce je najosnovniji trait koji sve closure implementiraju u Rust. Predstavlja closure koje se mogu pozvati barem jednom, čineći ga osnovom hijerarhije closure trait-ova. FnMut i Fn su restriktivniji trait-ovi koji se nadovezuju na FnOnce - FnMut omogućava višestruke pozive sa mutacijom, dok Fn omogućava višestruke pozive bez mutacije. Iterator nije povezan sa closure trait-ovima i koristi se za obradu sekvenci podataka.

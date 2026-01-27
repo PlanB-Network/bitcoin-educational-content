@@ -5,4 +5,6 @@ wrong_answers:
   - Mereka meningkatkan kecepatan transaksi
   - Mereka meningkatkan keamanan jaringan
 explanation: >-
-  Mesin SHA256 khusus, atau ASICS, meningkatkan laju hash per joule dalam penambangan Bitcoin. Ini berarti jumlah percobaan per detik dan per energi yang dikonsumsi.
+  Mesin SHA256 khusus, atau ASICS, meningkatkan laju hash per joule dalam penambangan Bitcoin. 
+  Ini berarti jumlah percobaan per detik dan per energi yang dikonsumsi.
+reviewed: true

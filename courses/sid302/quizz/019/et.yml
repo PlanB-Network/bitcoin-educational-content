@@ -1,0 +1,8 @@
+question: Mis eristab reguleeritud varasid reguleerimata varadest Liquid omamaiste varade süsteemis?
+answer: Reguleeritud varad vajavad enne nende teisaldamist teist allkirja autoriseerimisserverilt, mis võimaldab KYC/AML-i nõuetele vastavust
+wrong_answers:
+  - Reguleeritud varad kasutavad arukaid lepinguid, samas kui reguleerimata varad kasutavad lihtsaid RPC-kõnesid emiteerimiseks
+  - Reguleeritud varad on tagatud Bitcoin reservidega, samas kui reguleerimata varad on olemas ainult kõrvalahelas
+  - Reguleeritud varade loomiseks on vaja ametkondlikku heakskiitu, samas kui reguleerimata varasid võib väljastada ilma loata
+explanation: |
+  Liquid arhitektuuris saab nii reguleeritud kui ka reguleerimata varasid väljastada loata, kasutades lihtsaid RPC kõnesid ilma nutikate lepinguteta. Peamine erinevus seisneb nende liikumises: reguleeritud varad kasutavad Blockstream'i varahaldusplatvormi (AMP), et tagada vastavus, nõudes enne ülekandeid täiendavat autoriseerimisallkirja, samas kui reguleerimata varad võivad vabalt liikuda ilma selliste piiranguteta.

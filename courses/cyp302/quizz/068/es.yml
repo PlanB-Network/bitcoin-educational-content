@@ -6,4 +6,4 @@ wrong_answers:
   - Se comparte públicamente para generar otras claves
 explanation: |
   En los esquemas de cifrado simétrico, la misma clave privada se utiliza tanto para cifrar el mensaje al enviarlo como para descifrarlo al recibirlo.
-reviewed: false
+reviewed: true

@@ -1,5 +1,5 @@
 ---
-name: Servidor LNbits
+name: LNbits Server
 description: Instalação e configuração de um servidor LNbits auto-hospedado no Ubuntu VPS com Phoenixd ou no Umbrel
 ---
 
@@ -641,7 +641,7 @@ A auto-hospedagem implica responsabilidade: fazer backup das sementes, proteger 
 - [Documentação LNbits](https://docs.lnbits.org)
 - [LNbits GitHub](https://github.com/lnbits/lnbits)
 - [Phoenixd GitHub](https://github.com/ACINQ/phoenixd)
-- [Guia de instalação oficial] (https://github.com/lnbits/lnbits/blob/main/docs/guide/installation.md)
+- [Guia de instalação oficial](https://github.com/lnbits/lnbits/blob/main/docs/guide/installation.md)
 
 
 

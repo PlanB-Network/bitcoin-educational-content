@@ -1,0 +1,8 @@
+question: Mitä tapahtuu kaikkien syötteiden ScriptSig-kentille, kun ECDSA-allekirjoitusten varmentamista varten muodostetaan sighash-luonnos?
+answer: Kaikki ScriptSig-kentät tyhjennetään, sitten nykyisen syötteen ScriptSig korvataan vastaavalla ScriptPubKey-kentällä
+wrong_answers:
+  - Kaikki ScriptSig-kentät säilyvät muuttumattomina ja sisältyvät alkuperäisessä muodossaan sighash-laskentaan
+  - "Vain nykyisen syötteen ScriptSig-kenttä säilytetään, kun taas kaikkien muiden syötteiden ScriptSig-kentät poistetaan tapahtumasta"
+  - Kaikki ScriptSig-kentät korvataan niiden vastaavilla ScriptPubKey-arvoilla viitatuista tuotoksista
+explanation: |
+  Vanhojen tapahtumien sighash-rakentamisen aikana prosessi tyhjentää ensin kaikki ScriptSig-kentät ja korvaa sitten vain nykyisen validoitavan syötteen vastaavalla ScriptPubKey-avaimella kuluttamastaan tulosteesta. Näin varmistetaan, että allekirjoitus sitoutuu menoehtoihin ilman, että syntyy ympyrämäisiä riippuvuuksia, joissa allekirjoitusten pitäisi allekirjoittaa itse itsensä. Muut vaihtoehdot ovat virheellisiä, koska ne joko jättävät allekirjoitukset paikalleen (mikä aiheuttaa loogisia mahdottomuuksia) tai muuttavat kaikkia syötteitä yhdenmukaisesti (mikä ei eristäisi asianmukaisesti nykyisen syötteen validointikontekstia).

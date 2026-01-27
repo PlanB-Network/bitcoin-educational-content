@@ -1,0 +1,9 @@
+question: Theo triết lý của Satoshi Nakamoto, Bitcoin cố gắng giải quyết vấn đề cơ bản nào của các loại tiền tệ truyền thống?
+answer: Sự tin tưởng thái quá đặt vào các thể chế tập trung, những thể chế vốn đã vi phạm lòng tin đó trong quá khứ thông qua việc phá giá tiền tệ.
+wrong_answers:
+  - Sự thiếu hiệu quả về mặt kỹ thuật của các hệ thống xử lý thanh toán truyền thống gây ra sự chậm trễ trong các giao dịch quốc tế.
+  - Tác động môi trường của việc sản xuất tiền mặt và lượng khí thải carbon của cơ sở hạ tầng ngân hàng truyền thống.
+  - Sự phức tạp về mặt toán học của chính sách tiền tệ hiện hành khiến người dân khó hiểu được các quyết định kinh tế.
+explanation: |
+  Satoshi Nakamoto đã tuyên bố rõ ràng rằng "vấn đề cốt lõi của tiền tệ truyền thống là tất cả niềm tin cần thiết để nó hoạt động" và rằng "lịch sử của tiền tệ pháp định đầy rẫy những vi phạm niềm tin đó".
+  Câu nói này cho thấy mục đích cốt lõi của Bitcoin: loại bỏ sự cần thiết phải tin tưởng các ngân hàng trung ương không phá giá tiền tệ. Việc Genesis Block đề cập đến việc cứu trợ ngân hàng củng cố thêm lời chỉ trích này về những thất bại của các thể chế. Các câu trả lời sai tập trung vào các vấn đề kỹ thuật, môi trường hoặc độ phức tạp mà, mặc dù có thể là những mối quan ngại chính đáng, nhưng không phải là động lực triết học cơ bản đằng sau sự ra đời của Bitcoin như được người tạo ra nó trình bày.

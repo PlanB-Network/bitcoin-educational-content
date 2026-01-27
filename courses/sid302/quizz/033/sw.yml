@@ -1,0 +1,8 @@
+question: Ni kikwazo gani cha msingi cha uwezo wa muamala wa Breez Liquid SDK kinachoitofautisha na nodi kamili ya Lightning Network?
+answer: Haiwezi kufanya miamala ya moja kwa moja ya Lightning-to-Lightning au Bitcoin-to-Bitcoin kwani inafanya kazi pekee na Liquid kama msingi wake wa nyumbani.
+wrong_answers:
+  - Haiwezi kushughulikia ubadilishaji wa atomiki kati ya mitandao tofauti ya blockchain kutokana na ukosefu wa usaidizi wa mikataba mahiri ya mnyororo mtambuka.
+  - "Haiwezi kusindika miamala mikubwa kuliko 0.1 BTC kutokana na mapungufu ya ukubwa wa miamala iliyojengewa ndani ya Liquid Network"
+  - Haiwezi kufanya kazi bila muunganisho wa intaneti kwa sababu inahitaji usawazishaji wa mara kwa mara na seva za Breez zilizo katikati
+explanation: |
+  SDK inaelezewa waziwazi kama 'kifaa kinachozingatia Liquid' kinachofanya kazi na Liquid kama 'kituo chake cha msingi.' Inasaidia shughuli tatu maalum pekee: Liquid-hadi-Liquid, Liquid-hadi-Lightning, na Liquid-hadi-Bitcoin. Tofauti na nodi kamili ya Umeme ambayo inaweza kuhamisha malipo kati ya njia za Umeme, SDK ya Breez haiwezi kufanya miamala ya moja kwa moja ya Umeme hadi Umeme, na kuifanya iwe tofauti kimsingi na miundombinu ya jadi ya Umeme.

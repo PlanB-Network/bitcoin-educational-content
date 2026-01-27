@@ -64,11 +64,11 @@ A instalação e configuração do PureOS no seu computador exigirá as seguinte
 
 
 
-Aceda ao [sítio Web oficial do PureOS] (https://pureos.net/) e transfira a imagem ISO do sistema operativo de acordo com a arquitetura da sua máquina.
+Aceda ao [sítio Web oficial do PureOS](https://pureos.net/) e transfira a imagem ISO do sistema operativo de acordo com a arquitetura da sua máquina.
 
 
 
-Para iniciar a instalação do PureOS, é necessário criar uma chave USB de arranque utilizando um software flash como o [Balena Etcher] (https://www.balena.io/etcher).
+Para iniciar a instalação do PureOS, é necessário criar uma chave USB de arranque utilizando um software flash como o [Balena Etcher](https://www.balena.io/etcher).
 
 
 

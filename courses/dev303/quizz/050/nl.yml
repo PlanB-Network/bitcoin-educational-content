@@ -1,0 +1,8 @@
+question: Wat is het grootste risico bij het gebruik van RC<RefCell<T>> voor gedeelde muteerbare toestand en welk mechanisme helpt dit te voorkomen?
+answer: Referentiecycli die geheugenlekken veroorzaken, voorkomen door zwakke referenties te gebruiken
+wrong_answers:
+  - Gegevensraces tussen threads, voorkomen door Mutex te gebruiken in plaats van RefCell
+  - Runtime raakt in paniek door leenschendingen, voorkomen door compileertijdcontrole
+  - Stack overflow door diepe recursie, voorkomen door referentiediepte te beperken
+explanation: |
+  Bij het gebruik van RC<RefCell<T>> is het grootste gevaar het creëren van referentiecycli waarbij gegevensstructuren direct of via ketens naar zichzelf verwijzen. Deze cycli voorkomen dat referentietellingen nul bereiken, wat geheugenlekken veroorzaakt omdat de gegevens altijd actieve referenties lijken te hebben. Zwakke verwijzingen lossen dit op door niet bij te dragen aan de referentietelling die wordt gebruikt voor geheugenbeheer, waardoor cycli worden verbroken terwijl verbindingen behouden blijven. De andere opties zijn onjuist: RC<RefCell<T>> is niet thread-safe dus dataraces zijn niet het grootste probleem, RefCell verplaatst controles specifiek naar runtime in plaats van ze te voorkomen tijdens het compileren, en stack overflow is niet gerelateerd aan het referentietellingsmechanisme.

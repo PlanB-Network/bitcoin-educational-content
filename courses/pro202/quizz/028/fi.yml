@@ -1,0 +1,8 @@
+question: Mikä on P2PK:n ja P2PKH:n välinen perustavanlaatuinen ero sen suhteen, mitä tietoja paljastetaan ennen kolikoiden käyttämistä?
+answer: P2PK paljastaa koko julkisen avaimen ScriptPubKey:ssä ennen kuin se käytetään, kun taas P2PKH paljastaa vain julkisen avaimen hassin ennen kuin se käytetään
+wrong_answers:
+  - P2PK vaatii useita allekirjoituksia validointia varten, kun taas P2PKH tarvitsee vain yhden allekirjoituksen kolikoiden avaamiseen
+  - P2PK käyttää eri hashing-algoritmia kuin P2PKH, mikä tekee siitä turvallisemman kvanttilaskennan hyökkäyksiä vastaan
+  - P2PK tallentaa yksityisen avaimen ScriptPubKey:hen, kun taas P2PKH tallentaa vain allekirjoituksen tarkistustuloksen
+explanation: |
+  P2PK lukitsee kolikot suoraan täydelliseen julkiseen avaimeen, joka on näkyvissä ScriptPubKey-avaimessa ennen kuin mitään käytetään. P2PKH parantaa yksityisyyttä näyttämällä ScriptPubKey:ssä vain 20 tavun suuruisen julkisen avaimen hash-koodin ja piilottamalla varsinaisen julkisen avaimen siihen asti, kunnes omistaja antaa sen ScriptSigissä rahankäytön aikana. Tämä yksityisyyden suojan parantaminen on yksi P2PKH:n tärkeimmistä eduista aiempaan P2PK-malliin verrattuna.

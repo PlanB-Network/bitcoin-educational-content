@@ -1,0 +1,8 @@
+question: Jaki jest główny cel pola numeru sekwencji w danych wejściowych transakcji Bitcoin?
+answer: Aby włączyć blokady czasowe i funkcję wymiany przez opłatę (RBF)
+wrong_answers:
+  - Aby określić kolejność, w jakiej dane wejściowe muszą być przetwarzane przez górników
+  - Aby zapobiec double-spending poprzez utworzenie unikalnego identyfikatora dla każdego wejścia
+  - Wskazanie poziomu priorytetu transakcji na potrzeby obliczania opłaty
+explanation: |
+  Pole numeru sekwencji w danych wejściowych transakcji Bitcoin służy dwóm głównym celom: implementacji blokad czasowych (które opóźniają moment, w którym transakcja może zostać potwierdzona) i włączeniu funkcji Replace-by-Fee (RBF) (która pozwala użytkownikom na zwiększenie opłat za niepotwierdzone transakcje). Pozostałe opcje są nieprawidłowe, ponieważ: dane wejściowe nie muszą być przetwarzane w żadnej określonej kolejności przez górników, zapobieganie double-spending jest obsługiwane przez model UTXO i konsensus blockchain, a nie numery sekwencji, a priorytet transakcji jest określany przez stawki opłat, a nie numery sekwencji.

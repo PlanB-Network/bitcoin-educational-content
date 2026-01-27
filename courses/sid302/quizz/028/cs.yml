@@ -1,0 +1,8 @@
+question: Jaká je kritická provozní zranitelnost, která vyplývá ze spolupodepisujícího autorizačního modelu AMP pro regulované převody aktiv?
+answer: Likvidita aktiv se zcela zastaví, pokud se server AMP stane nedostupným, protože každý převod vyžaduje spolupodpis serveru
+wrong_answers:
+  - Poplatky za transakce se exponenciálně zvyšují, když se více spoludlužníků pokouší autorizovat převody současně
+  - Soukromí důvěrných transakcí je narušeno, protože spolupodpisování odhaluje zaslepující faktory pozorovatelům sítě
+  - Držitelé aktiv ztrácejí kontrolu nad úschovou, protože mechanismus spolupodepisování přenáší soukromé klíče na server AMP
+explanation: |
+  Autorizační model AMP vyžaduje, aby server AMP spolupodepsal každý převod aktiv, což vytváří jediný bod selhání. Pokud server vypadne z provozu, nelze dokončit žádnou transakci, čímž se fakticky zmrazí veškerá likvidita aktiv. Ostatní možnosti jsou nesprávné: poplatky se spolupodepisováním exponenciálně nezvyšují, soukromí důvěrných transakcí zůstává nedotčeno (viditelnost získává pouze emitent) a uživatelé si ponechávají své soukromé klíče, zatímco server poskytuje pouze autorizační podpisy.

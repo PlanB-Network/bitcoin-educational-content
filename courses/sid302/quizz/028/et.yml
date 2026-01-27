@@ -1,0 +1,8 @@
+question: Milline on kriitiline operatiivne haavatavus, mis tuleneb AMP kaasallkirjastamise volituste mudelist reguleeritud varade ülekannete puhul?
+answer: Varade likviidsus peatub täielikult, kui AMP server muutub kättesaamatuks, kuna iga ülekanne nõuab serveri kaasallkirja
+wrong_answers:
+  - Tehingutasud suurenevad hüppeliselt, kui mitu kaasallkirjastajat üritavad samaaegselt ülekandeid autoriseerida
+  - Konfidentsiaalsete tehingute privaatsus laguneb, sest kaasallkirjastamine paljastab võrgu vaatlejatele pimestavad tegurid
+  - Varade omanikud kaotavad kontrolli, kuna kaasallkirjastamise mehhanism edastab isiklikud võtmed AMP-serverile
+explanation: |
+  AMP autoriseerimismudel nõuab, et AMP-server allkirjastaks iga varaülekande, mis loob ühe tõrkepunkti. Kui server lülitub välja, ei saa ühtegi tehingut lõpule viia, mis tähendab, et kogu varade likviidsus külmutatakse. Teised võimalused on valed: tasud ei suurene kaasallkirjastamise korral eksponentsiaalselt, konfidentsiaalsete tehingute privaatsus jääb puutumatuks (ainult emitent saab nähtavaks) ja kasutajad säilitavad oma isiklikud võtmed, samal ajal kui server annab ainult autoriseerimisallkirju.

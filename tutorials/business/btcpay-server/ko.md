@@ -1,5 +1,5 @@
 ---
-name: BTCPay 서버
+name: BTCPay Server
 description: 중개자 없이 BTC 결제 수락
 ---
 

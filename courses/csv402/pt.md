@@ -66,7 +66,7 @@ A versão escrita deste curso de formação foi elaborada com base em dois recur
 
 
 - Vídeos do seminário de Maxim Orlovsky, Hunter Trujilo e Frederico Tenga no Lightning Bootcamp ;
-- A documentação RGB, cuja produção foi patrocinada pela [Bitfinex] (https://www.bitfinex.com/).
+- A documentação RGB, cuja produção foi patrocinada pela [Bitfinex](https://www.bitfinex.com/).
 
 Pronto para mergulhar no universo complexo e fascinante do RGB? Vamos lá!
 
@@ -622,7 +622,7 @@ OP_RETURN   OP_PUSHBYTE_32   <mpc::Commitment>
 
 ### Tapret
 
-A última opção é a utilização do **Taproot** (introduzido com o BIP341) com o esquema *Tapret*. *Tapret* é uma forma mais complexa de compromisso determinístico, que traz melhorias em termos de footprint na blockchain e confidencialidade para operações de contrato. A ideia principal é esconder o compromisso na parte `Script Path Spend` de uma [transação taproot] (https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki).
+A última opção é a utilização do **Taproot** (introduzido com o BIP341) com o esquema *Tapret*. *Tapret* é uma forma mais complexa de compromisso determinístico, que traz melhorias em termos de footprint na blockchain e confidencialidade para operações de contrato. A ideia principal é esconder o compromisso na parte `Script Path Spend` de uma [transação taproot](https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki).
 
 ![RGB-Bitcoin](assets/en/036.webp)
 
@@ -818,7 +818,7 @@ mpc::Commitment = SHA-256(SHA-256(mpc_tag) || SHA-256(mpc_tag) || depth || cofac
 em que :
 
 
-- `mpc_tag` é uma etiqueta: `urn:ubideco:mpc:commitment#2024-01-31`, escolhida de acordo com as [convenções de etiquetagem RGB] (https://github.com/RGB-WG/rgb-core/blob/master/doc/Commitments.md);
+- `mpc_tag` é uma etiqueta: `urn:ubideco:mpc:commitment#2024-01-31`, escolhida de acordo com as [convenções de etiquetagem RGB](https://github.com/RGB-WG/rgb-core/blob/master/doc/Commitments.md);
 - `depth` (1 byte) indica a profundidade da *árvore MPC* ;
 - cofator` (16 bits, em Little Endian) é um parâmetro utilizado para promover a unicidade das posições atribuídas a cada contrato na árvore;
 - `mpc::Root` é a raiz da *Árvore MPC*, calculada de acordo com o processo descrito na secção seguinte.
@@ -846,7 +846,7 @@ em que o `cofator` é um número inteiro que aumenta a probabilidade de obter po
 - Experimentamos diferentes `cofactores` (até `w/2`, ou um máximo de 500 por razões de desempenho);
 - Se não conseguirmos posicionar todos os contratos sem colisão, incrementamos `d` e começamos de novo.
 
-O objetivo é evitar as árvores demasiado altas, reduzindo ao mínimo o risco de colisão. Note-se que o fenómeno da colisão segue uma lógica de distribuição aleatória, ligada ao [Paradoxo do Aniversário] (https://en.wikipedia.org/wiki/Birthday_problem).
+O objetivo é evitar as árvores demasiado altas, reduzindo ao mínimo o risco de colisão. Note-se que o fenómeno da colisão segue uma lógica de distribuição aleatória, ligada ao [Paradoxo do Aniversário](https://en.wikipedia.org/wiki/Birthday_problem).
 
 #### Folhas habitadas
 
@@ -1785,7 +1785,7 @@ Estes mecanismos definem com precisão a forma como o _compromisso_ é codificad
 
 Um DAG (ou *Acyclic Guided Graph*) é um gráfico sem ciclos, que permite o escalonamento topológico. As cadeias de blocos, como os _shards_ dos contratos RGB, podem ser representadas por DAGs.
 
-Para mais informações: [Direted Acyclic Graph] (https://en.wikipedia.org/wiki/Directed_acyclic_graph)
+Para mais informações: [Direted Acyclic Graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph)
 
 #### Gravação
 
@@ -1839,7 +1839,7 @@ A propriedade refere-se à capacidade de controlar e gastar um UTXO referenciado
 
 Uma PSBT (_Partially Signed Bitcoin Transaction_) é uma transação Bitcoin que ainda não está totalmente assinada. Pode ser partilhada entre várias entidades, cada uma das quais pode adicionar ou verificar certos elementos (assinaturas, scripts...), até que a transação seja considerada pronta para distribuição na cadeia.
 
-Para mais informações: [BIP-0174] (https://github.com/bitcoin/bips/blob/master/bip-0174.mediawiki)
+Para mais informações: [BIP-0174](https://github.com/bitcoin/bips/blob/master/bip-0174.mediawiki)
 
 #### Compromisso Pedersen
 
@@ -3169,7 +3169,7 @@ Pode ser transmitida ao Bob através de qualquer canal (texto, código QR, etc.)
 Para transferir a partir desta fatura :
 
 
-- Bob (que tem os tokens no seu stash) tem uma carteira Bitcoin. Ele precisa de preparar uma transação Bitcoin (sob a forma de um PSBT, por exemplo, `tx.psbt`) que gasta os UTXOs onde se encontram os tokens RGB necessários, mais um UTXO para a moeda (câmbio) ;
+- Bob (que detém os tokens no seu stash) possui uma wallet Bitcoin. Ele deve preparar uma transação Bitcoin (na forma de PSBT, por ex. `tx.psbt`) que gaste os UTXOs onde se encontram os tokens RGB necessários, além de um UTXO para o troco (change);
 - O Bob executa o seguinte comando:
 
 ```bash
@@ -3438,7 +3438,7 @@ Desde cerca de 2022, a equipa Bitfinex RGB tem vindo a concentrar-se no desenvol
 
 - Participação nas especificações do código-fonte e do protocolo, incluindo a redação de propostas de melhoria, a correção de erros, etc;
 - Ferramentas para os programadores simplificarem a integração do RGB nas suas aplicações;
-- Conceção de uma carteira móvel denominada [Iris] (https://iriswallet.com/) para experimentar e ilustrar as melhores práticas de utilização do RGB ;
+- Conceção de uma carteira móvel denominada [Iris](https://iriswallet.com/) para experimentar e ilustrar as melhores práticas de utilização do RGB ;
 - Criação de um nó Lightning personalizado, capaz de gerir canais com activos RGB;
 - Apoiar outras equipas que desenvolvem soluções em RGB, para incentivar a diversidade e um ecossistema forte.
 
@@ -3533,7 +3533,7 @@ Para aqueles que desejam saber mais ou contribuir, estão disponíveis vários r
 
 
 - [Repositórios de ferramentas RGB do GitHub](https://github.com/RGB-Tools);
-- [Um sítio de informações dedicado à Iris Wallet] (https://iriswallet.com/) para testar a carteira no Android.
+- [Um sítio de informações dedicado à Iris Wallet](https://iriswallet.com/) para testar a carteira no Android.
 
 No próximo capítulo, veremos mais detalhadamente como lançar um nó de iluminação RGB.
 
@@ -3547,7 +3547,7 @@ Neste capítulo final, Frederico Tenga leva-o passo a passo através da configur
 
 Este vídeo serve como um tutorial, semelhante ao que abordámos num capítulo anterior, mas desta vez centrado especificamente no Lightning!
 
-O principal recurso para este vídeo é o repositório do Github [RGB Lightning Node] (https://github.com/RGB-Tools/rgb-lightning-node), que facilita o lançamento dessa configuração no Regtest.
+O principal recurso para este vídeo é o repositório do Github [RGB Lightning Node](https://github.com/RGB-Tools/rgb-lightning-node), que facilita o lançamento dessa configuração no Regtest.
 
 ### Implantação de um nó do Lightning compatível com RGB
 

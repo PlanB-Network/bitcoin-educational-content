@@ -1,0 +1,8 @@
+question: Ni igiki c’intango c’ubwubatsi Breez SDK ikora kugira ngo ishike ku gushiramwo Lightning mu buryo bworoshe mu gihe igumya ingingo ngenderwako zitari izo kubungabunga?
+answer: Abakoresha baraheba ubuzima bwite nk'uko Greenlight ishobora kwihweza ingene imihora imeze n'amakuru y'inzira, ariko igakomeza kugenzura imfunguruzo z'ubuzima bwite n'uburyo bwo kuronka amahera
+wrong_answers:
+  - Abakoresha bategerezwa kwizigira Greenlight n'ububiko bw'amahera igice mu guhindura uburongozi bw'imirongo y'ubuhinga n'ugugabanya ingorane z'ibikorwa
+  - Abahinguzi baratakaza uburenganzira bwo gukoresha ibintu vy'umuravyo biteye imbere nk'inzira n'amategeko y'imirongo mu guhindura ubufatanye bworoshe bwa API n'ugufasha ku mbuga zitandukanye
+  - Ibikoresho bitanga ubushobozi bwo kwishura mu gihe nyaco mu guhindura umutekano mwiza biciye mu kwemeza bishingiye ku gicu kw'ibikorwa vyose vya Lightning
+explanation: |
+  Ubwubatsi bwa Breez SDK bugereranya ubucuruzi bw’ubuzima bwite n’ubushobozi bwo gukoresha. Naho Greenlight ishobora kwihweza ivy’imirongo n’amakuru y’inzira (kugabanya ubuzima bwite), abakoresha baguma bagenzura neza imfunguruzo zabo z’ibanga, zitazokwigera ziva ku bikoresho vyabo. Ivyo bituma amafaranga adashobora gushikwako ata ruhusha rw’uwukoresha, bikaba bizigama ingingo ngenderwako nyamukuru y’ukudashobora kuzigama. Inyishu zitari zo zivuga nabi ko amafaranga ashobora kubikwa, ko hariho imipaka y'ibiranga, canke ko hariho ugucererwa kw'ibikorwa - nta na kimwe muri vyo ari uguhinduranya nyavyo mu guhingura SDK.

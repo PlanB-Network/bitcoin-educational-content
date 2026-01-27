@@ -1,0 +1,9 @@
+question: Hvilken grunnleggende egenskap ved Bitcoin går tapt ved varetektsfengsling?
+answer: Monetær suverenitet
+wrong_answers:
+  - Monetær skalerbarhet
+  - Rask betaling
+  - Monetær interoperabilitet
+explanation: |
+  Uten nøkkelkontroll gir brukeren fra seg den monetære suvereniteten, den sentrale pilaren i Bitcoin.
+reviewed: false

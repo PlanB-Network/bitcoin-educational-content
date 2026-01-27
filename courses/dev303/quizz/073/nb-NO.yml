@@ -1,0 +1,8 @@
+question: Når bør spørsmålstegnoperatoren (?) foretrekkes fremfor unwrap()- eller expect()-metodene i Rust-feilhåndtering?
+answer: Når du trenger å sende feil oppover i anropsstakken slik at den kalende funksjonen kan håndtere dem
+wrong_answers:
+  - Når du ønsker å gi egendefinerte feilmeldinger for feilsøking av mislykkede operasjoner
+  - Når du er sikker på at operasjonen vil lykkes og ønsker å unngå feilhåndtering
+  - Når du trenger å konvertere feil til en standardverdi og fortsette programkjøringen
+explanation: |
+  Spørsmålstegnoperatoren (?) er utformet for feilforplantning - den trekker ut suksessverdier, men returnerer umiddelbart feil fra den aktuelle funksjonen, slik at den som kaller opp, kan håndtere dem. I motsetning til unwrap()/expect(), som får panikk ved feil, eller unwrap_or(), som gir standardverdier, opprettholder ? operatoren feilkonteksten og overfører ansvaret til kode på høyere nivå, som kan ta passende beslutninger om håndtering.

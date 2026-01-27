@@ -99,7 +99,7 @@ Phoenixd zahteva Linux okruženje (preporučuje se Ubuntu/Debian), sa osnovnim v
 
 
 
-Idite na stranicu [GitHub releases] (https://github.com/ACINQ/phoenixd/releases) i preuzmite najnoviju verziju za vašu arhitekturu:
+Idite na stranicu [GitHub releases](https://github.com/ACINQ/phoenixd/releases) i preuzmite najnoviju verziju za vašu arhitekturu:
 
 
 

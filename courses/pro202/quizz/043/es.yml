@@ -1,0 +1,8 @@
+question: Cuando los hash de bloque de Bitcoin se interpretan como enteros little-endian para la comparación de objetivos, ¿por qué los bloques válidos suelen mostrar muchos ceros al final en su representación hexadecimal?
+answer: Dado que la interpretación little-endian significa que los bytes situados más a la derecha en hexadecimal corresponden a los bits más significativos del valor entero
+wrong_answers:
+  - Dado que el algoritmo SHA-256 produce naturalmente ceros finales cuando la entrada contiene datos de transacciones con patrones repetidos
+  - Como los mineros rellenan deliberadamente la cabecera del bloque con cero bytes para que el cálculo hash sea más eficiente para el hardware ASIC
+  - Debido a que el campo nonce se incrementa de cero hacia arriba, haciendo que la función hash generate patrones con ceros finales
+explanation: |
+  En la interpretación little-endian, los bytes se leen en orden inverso, por lo que los bytes situados más a la derecha en hexadecimal se convierten en la parte más significativa del entero. Para que un hash esté por debajo del objetivo (un número pequeño), sus bits más significativos deben ser cero, que aparecen como ceros finales en la representación hexadecimal. Esto es puramente un artefacto de representación de la conversión endianness, no una propiedad del hardware SHA-256 o mining.

@@ -1,0 +1,8 @@
+question: Kui suur on ECDSA allkirjade DER-kodeerimise vormingus tüüpiline suurus, mis suureneb töötlemata allkirjaandmetest lõpliku kodeeritud allkirjani?
+answer: 64 baidilt ligikaudu 71-72 baidini DERi vormindamise tõttu
+wrong_answers:
+  - 32 baidist ligikaudu 64 baidini R- ja S-komponentide kodeerimise tõttu
+  - 64 baidist täpselt 128 baidini allkirja komponentide kahekordse kodeerimise tõttu
+  - 71 baidilt ligikaudu 64 baidini järjestusmärgiste tihendamise tõttu
+explanation: |
+  DER-kodeerimine lisab ECDSA-allkirjadele struktuurilisi lisakulusid järjestusmarkerite (0x30), pikkusebaitide ja komponentide prefikside (0x02) kaudu. Toores ECDSA allkiri koosneb kahest 32 baidi suurusest väärtusest (R ja S), mis kokku moodustavad 64 baiti, kuid DER-vorminguga laiendatakse seda ligikaudu 71-72 baidini. See ebatõhusus oli üks põhjus, miks Bitcoin võttis hiljem Taproot-s kasutusele Schnorr-allkirjad, mis kasutavad fikseeritud 64baidiseid allkirju ilma kodeerimise üldkuludeta.

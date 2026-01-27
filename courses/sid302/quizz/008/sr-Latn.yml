@@ -1,0 +1,8 @@
+question: Razvijač želi testirati izdavanje sredstava na Elements bez spoljašnjih zavisnosti ili čekanja na potvrde blokova - koju konfiguraciju treba da koriste?
+answer: Postavite chain=elementsregtest da biste kreirali lokalno testno okruženje sa trenutnom generacijom blokova
+wrong_answers:
+  - Postavite chain=liquidv1 da se povežete na glavnu Liquid mrežu za trenutno testiranje
+  - Koristite komandu issueasset RPC sa zastavicom --testmode za izolovani razvoj
+  - "Konfigurišite chain=bitcoin-regtest za pristup Elements funkcijama u testnom okruženju Bitcoin"
+explanation: |
+  Konfiguracija elementsregtest kreira lokalno okruženje za regresiono testiranje gde programeri mogu trenutno generisati generate blokove koristeći komande kao što je generateblock, omogućavajući im da testiraju izdavanje sredstava i druge funkcije bez čekanja na potvrde mreže ili zavisnosti od eksternih čvorova. Postavljanje chain=liquidv1 povezuje se na produkcijsku Liquid mrežu koja ima vremenske intervale blokova od 1 minuta i spoljne zavisnosti. Komanda issueasset nema --testmode zastavicu, a bitcoin-regtest je za Bitcoin Core, ne za Elements funkcionalnost.

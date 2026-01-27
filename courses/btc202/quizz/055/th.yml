@@ -1,0 +1,9 @@
+question: ตัวเลือกเซิร์ฟเวอร์สามตัวที่มีอยู่ใน Sparrow คืออะไร?
+answer: Public Server, Bitcoin Core, Private Electrum
+wrong_answers:
+  - RPC Direct, VPN, Tor
+  - Full node, Light Node, Mobile Node
+  - Core RPC, Lightning, ElectrumX
+explanation: |
+  Sparrow มีตัวเลือกเซิร์ฟเวอร์สามแบบ: เซิร์ฟเวอร์สาธารณะ, Bitcoin Core (RPC), และ Private Electrum.
+reviewed: true

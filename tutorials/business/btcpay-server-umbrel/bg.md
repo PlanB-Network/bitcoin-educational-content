@@ -359,7 +359,7 @@ BTCPay Server на Umbrel съчетава мощта на възела Bitcoin 
 
 
 
-- [Официален уебсайт на сървъра на BTCPay] (https://btcpayserver.org)
+- [Официален уебсайт на сървъра на BTCPay](https://btcpayserver.org)
 - [Пълна документация за сървъра на BTCPay](https://docs.btcpayserver.org)
 - [GitHub BTCPay Server](https://github.com/btcpayserver/btcpayserver)
 - [Документация за Tailscale](https://tailscale.com/kb)

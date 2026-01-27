@@ -1,0 +1,8 @@
+question: Selon l'école autrichienne d'économie, comment doit-on concevoir le marché?
+answer: Comme un processus dynamique de découverte et de coordination permanente
+wrong_answers:
+  - "Comme un état d'équilibre statique et parfaitement prévisible"
+  - "Comme un mécanisme automatique régulé par l'État"
+  - Comme une institution fixe contrôlée par les banques centrales
+explanation: |
+  L'école autrichienne conçoit le marché non pas comme un état d'équilibre statique, mais comme un processus dynamique de découverte et de coordination permanente. Dans cette perspective, l'entrepreneur occupe une place centrale comme découvreur d'opportunités et coordinateur d'informations dispersées dans l'ensemble de l'économie. Cette vision s'oppose aux conceptions statiques ou dirigistes du marché.

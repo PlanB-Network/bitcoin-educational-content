@@ -1,5 +1,5 @@
 ---
-term: URUGOME RW'AMABUYE X2.
+term: URUGOME RW'AMABUYE X2
 ---
 
 Uburyo bwihariye bw’ugucuruza Bitcoin bugamije kwongerera ubuzima bwite bw’abakoresha mu gihe c’ugukoresha amahera, mu gukorana n’uwundi muntu atagira uruhara mu gukoresha amahera. Ubwo buryo bwigana mini-CoinJoin hagati y’abantu babiri bari muri iyo nama, mu gihe bariko bariha uwundi muntu. Ivy’ugucuruza vya Stonewall x2 biraboneka kuri porogarama ya Samourai Wallet no kuri porogarama ya Sparrow wallet (vyompi birakorana).

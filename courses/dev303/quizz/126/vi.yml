@@ -1,0 +1,8 @@
+question: Hậu quả kỹ thuật chính của triết lý thiết kế mang tính định hướng của Breez SDK so với cách tiếp cận bộ công cụ chung của LDK đối với việc phát triển Lightning wallet là gì?
+answer: Điều này cho phép tích hợp trực tiếp các dịch vụ thiết yếu như chức năng LSP vào chính SDK, cho phép nhận thanh toán ngay lập tức mà không cần thiết lập kênh thủ công.
+wrong_answers:
+  - Nó yêu cầu các nhà phát triển phải triển khai nhiều giao thức mạng cấp thấp hơn và các thuật toán định tuyến thanh toán so với việc sử dụng các thư viện Lightning thông thường.
+  - Điều này buộc các ứng dụng wallet phải xử lý việc đồng bộ hóa đồ thị mạng và quản lý đầu ra neo một cách độc lập với triển khai Lightning cơ bản.
+  - Điều này đòi hỏi phải triển khai tùy chỉnh hỗ trợ LNURL và các dịch vụ tỷ giá hối đoái vì các SDK có cấu hình sẵn không thể tích hợp với bên thứ ba.
+explanation: |
+  Thiết kế có định hướng rõ ràng của Breez SDK nhắm mục tiêu cụ thể vào các ứng dụng wallet, cho phép nó tích hợp các dịch vụ thiết yếu như chức năng LSP trực tiếp vào SDK. Điều này trái ngược hoàn toàn với cách tiếp cận chung chung của LDK, vốn yêu cầu các nhà phát triển phải triển khai các dịch vụ này một cách riêng biệt. Việc tích hợp cho phép trải nghiệm người dùng liền mạch như nhận thanh toán ngay lập tức cho các ví mới, trong khi phạm vi rộng của LDK có nghĩa là các nhà phát triển phải xây dựng các tính năng dành riêng cho wallet này từ đầu, làm tăng đáng kể độ phức tạp của quá trình phát triển và thời gian đưa sản phẩm ra thị trường.

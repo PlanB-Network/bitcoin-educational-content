@@ -1,0 +1,8 @@
+question: Ni igiki kiba iyo umuhinduzi asohotse mu rwego rw’ubutunzi bwa Rust?
+answer: Agaciro karakurwako ubwo nyene kandi ubwonko bwayo burabohorwa
+wrong_answers:
+  - Agaciro karimuriwe ku rwego rwo gusubira gukoreshwa kw'isi yose
+  - Agaciro gahinduka kadahinduka kandi kaguma mu ciyumviro
+  - Agaciro kakopiwe mu kibanza c'ububiko kugira ngo habeho umutekano
+explanation: |
+  Mu nzira y'ubutunzi ya Rust, iyo umuhinduzi asohotse mu rwego (mu bisanzwe iyo ugushirwa mu ngiro gusiga igice gisobanuwe n'ibimenyetso bigoramye), agaciro karagabanuka ubwo nyene maze ubwonko bwayo burabohorwa. Ivyo gusukura vyikora bishirwa mu ngiro biciye ku buryo bwo gutera bwa Rust, aho ururimi ruhamagara mu buryo butagaragara igikorwa co gutera ku bihinduka biva hanze y'urugero. Ivyo bituma habaho uburongozi bwiza bw’ibikoresho ataco bisaba kode y’isuku igaragara ku muhinga mu bijanye n’iporogarama, hakurikijwe uburyo bwa RAII bwaguzwe muri C++.

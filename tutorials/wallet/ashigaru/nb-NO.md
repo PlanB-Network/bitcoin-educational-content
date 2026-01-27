@@ -60,7 +60,7 @@ Applikasjonen krever noen forutsetninger for å fungere skikkelig. Først og fre
 
 
 
-For å laste ned `.apk`-filen via Tor, trenger du en nettleser som kan få tilgang til `.onion`-nettsteder. Den enkleste måten er å installere Tor Browser-applikasjonen på telefonen din, tilgjengelig fra [Google Play Store] (https://play.google.com/store/apps/details?id=org.torproject.torbrowser) eller direkte [via `.apk`] (https://www.torproject.org/download/#android).
+For å laste ned `.apk`-filen via Tor, trenger du en nettleser som kan få tilgang til `.onion`-nettsteder. Den enkleste måten er å installere Tor Browser-applikasjonen på telefonen din, tilgjengelig fra [Google Play Store](https://play.google.com/store/apps/details?id=org.torproject.torbrowser) eller direkte [via `.apk`](https://www.torproject.org/download/#android).
 
 
 
@@ -86,7 +86,7 @@ Hvis du vil vite mer om Dojo og lære hvordan du installerer det, kan du følge 
 
 https://planb.academy/tutorials/node/bitcoin/dojo-aa818a21-e701-48a2-8421-63c6186ed23f
 
-Hvis du virkelig ikke har råd til å drive din egen Dojo, kan du finne folk som er villige til å dele instansen sin gratis på [dojobay.pw] (https://www.dojobay.pw/mainnet/). Dette kan være en midlertidig løsning, men på lang sikt anbefaler jeg at du bruker din egen Dojo for å garantere din suverenitet og konfidensialitet.
+Hvis du virkelig ikke har råd til å drive din egen Dojo, kan du finne folk som er villige til å dele instansen sin gratis på [dojobay.pw](https://www.dojobay.pw/mainnet/). Dette kan være en midlertidig løsning, men på lang sikt anbefaler jeg at du bruker din egen Dojo for å garantere din suverenitet og konfidensialitet.
 
 
 
@@ -98,7 +98,7 @@ Hvis du virkelig ikke har råd til å drive din egen Dojo, kan du finne folk som
 
 
 
-Åpne Tor Browser på telefonen din og gå til [det offisielle Ashigaru-nettstedet] (https://ashigaru.rs/download/), i `Last ned`-delen. Klikk deretter på knappen `Download for Android` for å laste ned installasjonsfilen.
+Åpne Tor Browser på telefonen din og gå til [det offisielle Ashigaru-nettstedet](https://ashigaru.rs/download/), i `Last ned`-delen. Klikk deretter på knappen `Download for Android` for å laste ned installasjonsfilen.
 
 
 
@@ -114,7 +114,7 @@ Før du installerer applikasjonen på enheten din, kontrollerer vi dens autentis
 
 
 
-Gå tilbake til [det offisielle Ashigaru-nettstedet] (https://ashigaru.rs/download/) i `Download`-delen, og kopier deretter meldingen som vises under tittelen `SHA-256 Hash av APK-filen`. Kopier hele blokken, fra `BEGIN PGP SIGNED MESSAGE` til `END PGP SIGNATURE`.
+Gå tilbake til [det offisielle Ashigaru-nettstedet](https://ashigaru.rs/download/) i `Download`-delen, og kopier deretter meldingen som vises under tittelen `SHA-256 Hash av APK-filen`. Kopier hele blokken, fra `BEGIN PGP SIGNED MESSAGE` til `END PGP SIGNATURE`.
 
 
 
@@ -122,7 +122,7 @@ Gå tilbake til [det offisielle Ashigaru-nettstedet] (https://ashigaru.rs/downlo
 
 
 
-Åpne en ny fane i Tor Browser mens du fortsatt er på telefonen, og gå til [Keybase-verifiseringsverktøyet] (https://keybase.io/verify). Lim inn meldingen du nettopp har kopiert inn i det angitte feltet, og klikk deretter på `Verify`-knappen.
+Åpne en ny fane i Tor Browser mens du fortsatt er på telefonen, og gå til [Keybase-verifiseringsverktøyet](https://keybase.io/verify). Lim inn meldingen du nettopp har kopiert inn i det angitte feltet, og klikk deretter på `Verify`-knappen.
 
 
 
@@ -142,7 +142,7 @@ Hvis det imidlertid vises en feil på dette stadiet, betyr det at signaturen er 
 
 
 
-Keybase har gitt deg hashen til applikasjonen. Vi skal nå sjekke at hashen til `.apk`-filen du har lastet ned stemmer overens med den som er verifisert på Keybase. For å gjøre dette, gå til [HASH FILE ONLINE] (https://hash-file.online/).
+Keybase har gitt deg hashen til applikasjonen. Vi skal nå sjekke at hashen til `.apk`-filen du har lastet ned stemmer overens med den som er verifisert på Keybase. For å gjøre dette, gå til [HASH FILE ONLINE](https://hash-file.online/).
 
 
 
@@ -355,7 +355,7 @@ Hver falske applikasjon som tilbys har en spesifikk metode for å låse opp det 
 
 
 
-Den andre viktige parameteren som må aktiveres, er [**RBF** (*Replace-by-Fee*)] (https://planb.academy/resources/glossary/rbf-replacebyfee). Med dette alternativet kan du øke kostnaden for en transaksjon hvis den blir sittende fast i mempools fordi kostnaden er for lav. Du kan aktivere det via menyen `Transaksjoner > Bruk RBF`.
+Den andre viktige parameteren som må aktiveres, er [**RBF** (*Replace-by-Fee*)](https://planb.academy/resources/glossary/rbf-replacebyfee). Med dette alternativet kan du øke kostnaden for en transaksjon hvis den blir sittende fast i mempools fordi kostnaden er for lav. Du kan aktivere det via menyen `Transaksjoner > Bruk RBF`.
 
 
 

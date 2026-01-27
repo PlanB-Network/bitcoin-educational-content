@@ -328,7 +328,7 @@ Miner membutuhkan node Bitcoin untuk berinteraksi dengan jaringan.
 
 
 
-Peran Miner juga terkadang dibedakan dengan peran pencacah. Pencacah adalah sebuah mesin yang bertugas untuk membuat template blok yang disediakan oleh server pool, mencari hash yang memenuhi target tingkat kesulitan yang ditentukan untuk saham, dan bukan untuk Bitcoin. Sisa dari proses Mining, yang meliputi konstruksi blok aktual, pemilihan transaksi, atau pencarian Proof-of-Work sesuai dengan tingkat kesulitan Bitcoin, serta distribusi, dilakukan secara langsung oleh pool.
+Peran Miner juga terkadang dibedakan dengan peran grind. Grind adalah sebuah mesin yang bertugas untuk membuat template blok yang disediakan oleh server pool, mencari hash yang memenuhi target tingkat kesulitan yang ditentukan untuk saham, dan bukan untuk Bitcoin. Sisa dari proses Mining, yang meliputi konstruksi blok aktual, pemilihan transaksi, atau pencarian Proof-of-Work sesuai dengan tingkat kesulitan Bitcoin, serta distribusi, dilakukan secara langsung oleh pool.
 
 
 
@@ -383,7 +383,7 @@ Secara teori, Bitcoin core tidak mewakili protokol Bitcoin; melainkan hanya satu
 
 
 
-Menurut [data yang dikumpulkan pada Agustus 2025 oleh Luke Dashjr] (https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (pengembang terkenal di ekosistem), distribusi implementasi di antara node publik jaringan adalah sebagai berikut:
+Menurut [data yang dikumpulkan pada Agustus 2025 oleh Luke Dashjr](https://luke.dashjr.org/programs/Bitcoin/files/charts/software.html) (pengembang terkenal di ekosistem), distribusi implementasi di antara node publik jaringan adalah sebagai berikut:
 
 
 
@@ -853,7 +853,7 @@ Ini adalah pendekatan yang paling berdaulat dan fleksibel: Anda tahu persis apa 
 
 
 
-[Bitcoin core adalah klien ultra-mayoritas jaringan] (https://bitcoincore.org/). Ini mengunduh, memvalidasi, dan memelihara Blockchain, menyediakan RPC/REST API, dan dapat mengintegrasikan Wallet. Jika Anda lebih suka alat standar dan merasa nyaman untuk menambahkan layanan sendiri (seperti server Electrum, penjelajah, dan LND), Anda lebih baik menggunakan Core apa adanya.
+[Bitcoin core adalah klien ultra-mayoritas jaringan](https://bitcoincore.org/). Ini mengunduh, memvalidasi, dan memelihara Blockchain, menyediakan RPC/REST API, dan dapat mengintegrasikan Wallet. Jika Anda lebih suka alat standar dan merasa nyaman untuk menambahkan layanan sendiri (seperti server Electrum, penjelajah, dan LND), Anda lebih baik menggunakan Core apa adanya.
 
 
 
@@ -873,7 +873,7 @@ https://planb.academy/tutorials/node/bitcoin/bitcoin-core-mac-windows-9684ab02-e
 
 
 
-[Bitcoin Knots adalah Fork dari Bitcoin core] (https://bitcoinknots.org/), dikelola oleh Luke Dashjr. Ini adalah klien alternatif utama untuk Core untuk mengimplementasikan protokol Bitcoin. Sepenuhnya kompatibel dengan jaringan lainnya (sama sekali bukan Hard Fork seperti Bitcoin Cash), namun menawarkan fitur tambahan, termasuk opsi kebijakan relai yang tidak ada pada Core, atau diterapkan secara lebih ketat secara default untuk membatasi apa yang dianggap sebagai spam.
+[Bitcoin Knots adalah Fork dari Bitcoin core](https://bitcoinknots.org/), dikelola oleh Luke Dashjr. Ini adalah klien alternatif utama untuk Core untuk mengimplementasikan protokol Bitcoin. Sepenuhnya kompatibel dengan jaringan lainnya (sama sekali bukan Hard Fork seperti Bitcoin Cash), namun menawarkan fitur tambahan, termasuk opsi kebijakan relai yang tidak ada pada Core, atau diterapkan secara lebih ketat secara default untuk membatasi apa yang dianggap sebagai spam.
 
 
 
@@ -992,7 +992,7 @@ https://planb.academy/tutorials/node/bitcoin/mynode-a481fef3-2fd3-4df3-91c0-112c
 
 
 
-[RaspiBlitz adalah proyek sumber terbuka 100%] (https://docs.raspiblitz.org/) (lisensi MIT) untuk memasang node Bitcoin dan node Lightning pada Raspberry Pi. Cukup unduh gambar, boot, lalu ikuti wizard untuk mendapatkan node-in-a-box yang berfungsi pada Raspberry Pi Anda. Kit yang sudah dirakit sebelumnya juga tersedia dari pihak ketiga, biasanya antara $300 dan $400, tergantung pada perangkat kerasnya. RaspiBlitz juga menawarkan berbagai aplikasi tambahan yang mudah dipasang.
+[RaspiBlitz adalah proyek sumber terbuka 100%](https://docs.raspiblitz.org/) (lisensi MIT) untuk memasang node Bitcoin dan node Lightning pada Raspberry Pi. Cukup unduh gambar, boot, lalu ikuti wizard untuk mendapatkan node-in-a-box yang berfungsi pada Raspberry Pi Anda. Kit yang sudah dirakit sebelumnya juga tersedia dari pihak ketiga, biasanya antara $300 dan $400, tergantung pada perangkat kerasnya. RaspiBlitz juga menawarkan berbagai aplikasi tambahan yang mudah dipasang.
 
 
 
@@ -1010,7 +1010,7 @@ https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-
 
 
 
-[RoninDojo adalah node-in-a-box yang berfokus pada privasi] (https://wiki.ronindojo.io/en/home) yang mengotomatiskan penyebaran Samurai Dojo dan Whirlpool, dengan Interface khusus dan plugin yang dirancang khusus untuk ekosistem Samurai.
+[RoninDojo adalah node-in-a-box yang berfokus pada privasi](https://wiki.ronindojo.io/en/home) yang mengotomatiskan penyebaran Samurai Dojo dan Whirlpool, dengan Interface khusus dan plugin yang dirancang khusus untuk ekosistem Samurai.
 
 
 
@@ -1437,7 +1437,7 @@ Umbrel menawarkan dua pendekatan yang berbeda:
 
 
 
-- [**Umbrel Home**] (https://umbrel.com/umbrel-home): ini adalah server mini yang siap pakai, yang dirancang dan dioptimalkan secara khusus untuk umbrelOS. Ringkas, senyap, terhubung dengan Ethernet, dilengkapi dengan SSD NVMe (opsional hingga 4TB), RAM 16GB, dan CPU quad-core. Anda memesannya, mencolokkannya, dan membuka `umbrel.local`. Anda bisa memiliki Umbrel yang operasional dan berjalan dalam hitungan menit. Itu adalah opsi plug-and-play.
+- [**Umbrel Home**](https://umbrel.com/umbrel-home): ini adalah server mini yang siap pakai, yang dirancang dan dioptimalkan secara khusus untuk umbrelOS. Ringkas, senyap, terhubung dengan Ethernet, dilengkapi dengan SSD NVMe (opsional hingga 4TB), RAM 16GB, dan CPU quad-core. Anda memesannya, mencolokkannya, dan membuka `umbrel.local`. Anda bisa memiliki Umbrel yang operasional dan berjalan dalam hitungan menit. Itu adalah opsi plug-and-play.
 
 
 
@@ -1521,7 +1521,7 @@ Salah satu keunggulan utama Umbrel dibandingkan para pesaingnya adalah komunitas
 
 
 
-Kode Umbrel tersedia untuk umum (Anda dapat melihat, Fork, dan memodifikasinya), tetapi tidak berada di bawah lisensi sumber terbuka yang sebenarnya. Faktanya, umbrelOS didistribusikan di bawah lisensi [*PolyForm Noncommercial 1.0*] (https://polyformproject.org/licenses/noncommercial/1.0.0/), meskipun beberapa alat pengembangan terkait tersedia di bawah lisensi MIT.
+Kode Umbrel tersedia untuk umum (Anda dapat melihat, Fork, dan memodifikasinya), tetapi tidak berada di bawah lisensi sumber terbuka yang sebenarnya. Faktanya, umbrelOS didistribusikan di bawah lisensi [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0/), meskipun beberapa alat pengembangan terkait tersedia di bawah lisensi MIT.
 
 
 
@@ -1619,7 +1619,7 @@ Sebelum menginstal UmbrelOS pada mesin Anda, Anda perlu membuat kunci USB yang d
 
 
 
-Kunjungi [situs web resmi Umbrel untuk mengunduh citra ISO] (https://download.umbrel.com/release/latest/umbrelos-amd64-usb-installer.iso) untuk instalasi melalui kunci USB. Pastikan Anda memilih versi yang kompatibel dengan arsitektur x86_64 (file bernama `umbrelos-amd64-usb-installer.iso`). Pengunduhan mungkin memerlukan waktu, karena gambarnya cukup besar.
+Kunjungi [situs web resmi Umbrel untuk mengunduh citra ISO](https://download.umbrel.com/release/latest/umbrelos-amd64-usb-installer.iso) untuk instalasi melalui kunci USB. Pastikan Anda memilih versi yang kompatibel dengan arsitektur x86_64 (file bernama `umbrelos-amd64-usb-installer.iso`). Pengunduhan mungkin memerlukan waktu, karena gambarnya cukup besar.
 
 
 
@@ -2042,7 +2042,7 @@ Berhati-hatilah untuk tidak mengalokasikan nilai yang terlalu besar untuk mesin 
 
 
 
-Untuk mengetahui lebih lanjut tentang dampak parameter `dbcache` pada sinkronisasi awal, saya merekomendasikan analisis ini oleh Jameson Lopp: [*Pengaruh Ukuran DBcache pada Kecepatan Sinkronisasi Node Bitcoin*] (https://blog.lopp.net/effects-dbcache-size-Bitcoin-node-sync-speed/)
+Untuk mengetahui lebih lanjut tentang dampak parameter `dbcache` pada sinkronisasi awal, saya merekomendasikan analisis ini oleh Jameson Lopp: [*Pengaruh Ukuran DBcache pada Kecepatan Sinkronisasi Node Bitcoin*](https://blog.lopp.net/effects-dbcache-size-Bitcoin-node-sync-speed/)
 
 
 
@@ -2514,9 +2514,11 @@ Terakhir, saya merekomendasikan aplikasi *Lightning Network+*, yang memungkinkan
 
 
 
-Berkat Umbrel, mengelola Lightning node pribadi sudah sangat disederhanakan, tetapi masih relatif rumit. Untuk alasan ini, kita akan melihat lebih dekat pada subjek ini dalam kursus mendatang yang dikhususkan sepenuhnya untuk penggunaan ini.
+Berkat Umbrel, pengelolaan node Lightning pribadi menjadi lebih sederhana, namun tetap relatif kompleks. Oleh karena itu, saya merekomendasikan Anda untuk mengikuti kursus LNP 202, yang merupakan kelanjutan logis dari kursus BTC 202, dan di mana saya mendampingi Anda langkah demi langkah dalam menyiapkan dan mengelola node Lightning Anda di Umbrel.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Skala ekor
 
@@ -2891,7 +2893,7 @@ Ketika node dinyalakan kembali setelah digunakan, Core pertama-tama mencoba meny
 
 
 
-Dalam kasus ini, perangkat lunak menanyakan _**DNS seeds**_. Ini adalah [server yang dikelola oleh pengembang ekosistem yang diakui] (https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), yang mengembalikan daftar alamat IP dari node yang diduga aktif. Alamat-alamat ini memungkinkan node baru untuk memulai koneksi pertamanya dan meminta data yang diperlukan dari IBD. Berikut ini adalah daftar *benih DNS* yang aktif hingga saat ini (Agustus 2025):
+Dalam kasus ini, perangkat lunak menanyakan _**DNS seeds**_. Ini adalah [server yang dikelola oleh pengembang ekosistem yang diakui](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), yang mengembalikan daftar alamat IP dari node yang diduga aktif. Alamat-alamat ini memungkinkan node baru untuk memulai koneksi pertamanya dan meminta data yang diperlukan dari IBD. Berikut ini adalah daftar *benih DNS* yang aktif hingga saat ini (Agustus 2025):
 
 
 
@@ -2908,7 +2910,7 @@ Dalam kasus ini, perangkat lunak menanyakan _**DNS seeds**_. Ini adalah [server 
 
 
 
-Pada sebagian besar kasus, langkah *DNS seeds* sudah cukup untuk membuat koneksi pertama dengan node lain. Jika, secara luar biasa, server ini gagal merespons dalam waktu 60 detik, node akan beralih ke metode lain: [daftar statis lebih dari 1.000 alamat] (https://github.com/Bitcoin/Bitcoin/blob/master/src/chainparamsseeds.h) dari _seed node_ dibangun ke dalam kode Bitcoin core dan diperbarui secara teratur. Jika dua metode pertama untuk mendapatkan alamat IP gagal, solusi terakhir ini akan membuat koneksi awal, yang kemudian node dapat meminta alamat IP baru.
+Pada sebagian besar kasus, langkah *DNS seeds* sudah cukup untuk membuat koneksi pertama dengan node lain. Jika, secara luar biasa, server ini gagal merespons dalam waktu 60 detik, node akan beralih ke metode lain: [daftar statis lebih dari 1.000 alamat](https://github.com/Bitcoin/Bitcoin/blob/master/src/chainparamsseeds.h) dari _seed node_ dibangun ke dalam kode Bitcoin core dan diperbarui secara teratur. Jika dua metode pertama untuk mendapatkan alamat IP gagal, solusi terakhir ini akan membuat koneksi awal, yang kemudian node dapat meminta alamat IP baru.
 
 
 
@@ -3079,7 +3081,7 @@ Pertumbuhan set UTXO juga berasal dari struktur transaksi pembayaran sederhana p
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c
 
-Karena sebagian harus disimpan dalam RAM untuk memverifikasi transaksi dalam waktu yang wajar, set UTXO secara bertahap dapat membuat pengoperasian Full node menjadi terlalu mahal. Untuk mengatasi masalah ini, beberapa proposal sudah ada, terutama [Utreexo] (https://planb.academy/resources/glossary/utreexo).
+Karena sebagian harus disimpan dalam RAM untuk memverifikasi transaksi dalam waktu yang wajar, set UTXO secara bertahap dapat membuat pengoperasian Full node menjadi terlalu mahal. Untuk mengatasi masalah ini, beberapa proposal sudah ada, terutama [Utreexo](https://planb.academy/resources/glossary/utreexo).
 
 
 
@@ -3894,11 +3896,13 @@ Sekarang Anda dapat melanjutkan ke bagian akhir kursus, di mana Anda akan dapat 
 
 
 
-Anda sekarang memiliki beberapa opsi yang terbuka untuk Anda. Langkah logis berikutnya adalah menyiapkan node Lightning Anda sendiri, yang memungkinkan Anda untuk sepenuhnya mandiri untuk transaksi off-chain Anda. Ini akan menjadi subjek dari kursus yang akan datang, yang akan diterbitkan pada musim gugur 2025 di Plan ₿ Academy.
+Kini tersedia beberapa jalur bagi Anda. Langkah logis berikutnya adalah menyiapkan node Lightning Anda sendiri, agar sepenuhnya mandiri dalam transaksi off-chain Anda. Inilah tepatnya topik dari kursus lain di Plan ₿ Academy:
 
 
 
-Sementara itu, saya mengundang Anda untuk mengikuti pelatihan BTC 204, yang akan memungkinkan Anda untuk memahami dan menguasai prinsip-prinsip perlindungan privasi dalam penggunaan Bitcoin:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Saya juga mengundang Anda untuk mengenal pelatihan BTC 204, yang akan memungkinkan Anda memahami dan menguasai prinsip-prinsip perlindungan privasi dalam penggunaan Bitcoin:
 
 
 

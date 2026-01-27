@@ -8,13 +8,13 @@ description: Hur lägger man till nytt utbildningsmaterial på Plan ₿ Academy?
 PlanB:s uppdrag är att tillhandahålla ledande utbildningsresurser om Bitcoin på så många språk som möjligt. Allt innehåll som publiceras på webbplatsen är öppen källkod och finns på GitHub, vilket gör att vem som helst kan delta i att berika plattformen.
 
 
-Utöver handledning och utbildning erbjuder Plan ₿ Academy också ett stort bibliotek med varierat utbildningsinnehåll på Bitcoin, tillgängligt för alla, [i avsnittet "BET" (_Bitcoin Educational Toolkit_)] (https://planb.academy/resources/bet). Denna databas innehåller pedagogiska affischer, memes, humoristiska propagandaaffischer, tekniska diagram, logotyper och andra verktyg för användare. Målet med detta initiativ är att stödja individer och samhällen som undervisar Bitcoin runt om i världen genom att förse dem med nödvändiga visuella resurser.
+Utöver handledning och utbildning erbjuder Plan ₿ Academy också ett stort bibliotek med varierat utbildningsinnehåll på Bitcoin, tillgängligt för alla, [i avsnittet "BET" (_Bitcoin Educational Toolkit_)](https://planb.academy/resources/bet). Denna databas innehåller pedagogiska affischer, memes, humoristiska propagandaaffischer, tekniska diagram, logotyper och andra verktyg för användare. Målet med detta initiativ är att stödja individer och samhällen som undervisar Bitcoin runt om i världen genom att förse dem med nödvändiga visuella resurser.
 
 
 Vill du vara med och berika den här databasen, men vet inte hur? Den här handledningen är för dig!
 
 
-*Det är absolut nödvändigt att allt innehåll som integreras på webbplatsen är fritt från rättigheter eller respekterar källfilens licens. Dessutom görs alla bilder som publiceras på Plan ₿ Academy tillgängliga under licensen [CC-BY-SA] (https://creativecommons.org/licenses/by-sa/4.0/).*
+*Det är absolut nödvändigt att allt innehåll som integreras på webbplatsen är fritt från rättigheter eller respekterar källfilens licens. Dessutom görs alla bilder som publiceras på Plan ₿ Academy tillgängliga under licensen [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).*
 
 ![event](assets/01.webp)
 

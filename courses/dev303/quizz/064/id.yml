@@ -1,0 +1,8 @@
+question: Apa yang membuat sistem tipe Rust sangat efektif untuk mencegah kerentanan terkait memori pada aplikasi Bitcoin?
+answer: Sistem tipe menangani pemodelan logika bisnis dan kontrol kepemilikan memori melalui mekanisme yang sama
+wrong_answers:
+  - Kompiler secara otomatis menghasilkan rutinitas alokasi memori yang mencegah serangan buffer overflow
+  - Pengetikan statis membutuhkan semua alamat memori untuk dideklarasikan pada saat kompilasi, bukan pada saat runtime
+  - Pengetikan kuat mengubah semua operasi penunjuk menjadi pemeriksaan batas larik yang aman selama eksekusi
+explanation: |
+  Sistem tipe Rust unik karena memiliki tujuan ganda - sistem ini memodelkan logika bisnis yang kompleks sekaligus mengelola keamanan memori melalui kepemilikan, peminjaman, dan penghitungan referensi. Integrasi ini berarti bahwa pemeriksaan tipe yang sama yang memastikan logika program yang benar juga menghilangkan kebocoran memori, kesalahan bebas ganda, dan kondisi balapan pada waktu kompilasi. Jawaban yang salah menggambarkan mekanisme yang tidak ada pada Rust: kompiler tidak melakukan rutinitas alokasi generate secara otomatis, alamat memori tidak perlu menjadi konstanta pada saat kompilasi, dan keamanan penunjuk berasal dari aturan kepemilikan daripada pengecekan batas waktu.

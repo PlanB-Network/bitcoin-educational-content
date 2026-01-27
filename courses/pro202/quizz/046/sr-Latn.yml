@@ -1,0 +1,8 @@
+question: Kakva je matematička veza između vrednosti težine Bitcoin i trenutne mete korišćene za validaciju bloka?
+answer: Težina je jednaka najnižoj mogućoj meti podeljenoj sa trenutnom metom
+wrong_answers:
+  - Težina je jednaka trenutnoj meti podeljenoj sa najnižom mogućom metom
+  - Težina je jednaka trenutnom cilju pomnoženom sa najnižim mogućim ciljem
+  - Težina je jednaka koeficijentu pomnoženom sa 256 na eksponent minus 3
+explanation: |
+  Težina Bitcoin je specifično definisana kao lowest_target / current_target, što izražava koliko je puta teže mining u poređenju sa najlakšom mogućom težinom. Ovaj inverzni odnos znači da kako cilj postaje manji (što otežava pronalaženje važećih heševa), težina proporcionalno raste. Formula osigurava da težina od 1 predstavlja najlakše mining uslove, dok veće vrednosti ukazuju na proporcionalno više računarskog rada potrebnog za pronalaženje važećih blokova.

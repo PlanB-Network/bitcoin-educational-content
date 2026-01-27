@@ -372,14 +372,15 @@ Para entender melhor o posicionamento da Arkade, vamos compará-la com as outras
 
 
 
-| Critère | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
+
+| Critério | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
 | :--- | :--- | :--- | :--- |
-| **Modèle** | UTXO partagé coordonné par serveur (ASP) | Réseau P2P de canaux de paiement | Jetons aveugles émis par une banque (Mint) |
-| **Custodie** | **Non-custodial** (vous avez les clés) | **Non-custodial** (vous avez les clés) | **Custodial** (le Mint a les fonds) |
-| **Confidentialité** | **Élevée** (CoinJoin natif, aveugle pour le public) | **Moyenne** (Routage en oignon, mais canaux visibles) | **Très Élevée** (Aveugle même pour le Mint) |
-| **Scalabilité** | Excellente (Batching massif on-chain) | Excellente (Transactions infinies off-chain) | Excellente (Simples signatures serveur) |
-| **Expérience** | Simple (proche d'un wallet on-chain) | Complexe (gestion de canaux, liquidité) | Très simple (comme du cash numérique) |
-| **Risque principal** | Disponibilité de l'ASP & Expiration | Gestion des canaux & Backups | Confiance dans le Mint (risque de vol) |
+| **Modelo** | UTXO compartilhado coordenado por servidor (ASP) | Rede P2P de canais de pagamento | Tokens cegos emitidos por um banco (Mint) |
+| **Custódia** | **Não-custodial** (você tem as chaves) | **Não-custodial** (você tem as chaves) | **Custodial** (o Mint tem os fundos) |
+| **Privacidade** | **Elevada** (CoinJoin nativo, cego para o público) | **Média** (Roteamento cebola, mas canais visíveis) | **Muito Elevada** (Cego até para o Mint) |
+| **Escalabilidade** | Excelente (Batching massivo on-chain) | Excelente (Transações infinitas off-chain) | Excelente (Assinaturas de servidor simples) |
+| **Experiência** | Simples (próximo de uma wallet on-chain) | Complexa (gestão de canais, liquidez) | Muito simples (como dinheiro digital) |
+| **Risco principal** | Disponibilidade do ASP e Expiração | Gestão de canais e Backups | Confiança no Mint (risco de roubo) |
 
 *o *Arkade** é o compromisso ideal: a simplicidade e a confidencialidade do Cashu, mas com a soberania (sem custódia) do Lightning.
 

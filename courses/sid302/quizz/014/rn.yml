@@ -1,0 +1,8 @@
+question: Ni igiki gituma abo bompi bari mu nzira y’uguhinduranya ibintu bashobora kurangiza neza iyo nzira canke bompi bagananirwa ata mahera batakaje?
+answer: Uwo murongo nyene ukoreshwa ku nzira zompi, ugatuma habaho ubufatanye bw’ibanga hagati y’amaguru y’uguhindura
+wrong_answers:
+  - Igihe co gufunga kibuza umwe wese mu bagize uruhande gusaba amahera gushika iyo nzira yompi yemeje ko amafaranga yakozwe .
+  - MuSig2 key aggregation isaba ko abo bompi bashirako umukono imbere y'uko amafaranga yose ashobora kwimurirwa
+  - "Inzira y'inyandiko ya Taproot ihita ihindura ibikorwa iyo urubuga rumwe runaniwe kurangiza"
+explanation: |
+  Kamere y’atome y’uguhinduranya ibice vy’umusaraba ishingiye ku gukoresha amafunguro asa n’ayo ku nzira zompi. Iyo uwuronka ahishura ishusho y’ibanga kugira ngo asabe amahera ku rugero rumwe, iryo banga nyene riraboneka kandi rikakoreshwa n’uwurungitse kugira ngo asabe amahera y’ugusubizanya ku rundi ruhande. Ukwo gufatanya kw’ibanga gutuma habaho atomicity - bompi abona amahera yabo canke nta n’umwe abona, bikuraho ingorane z’abagenzi mu guhinduranya ata cizigiro.

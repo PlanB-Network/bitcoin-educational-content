@@ -1,0 +1,9 @@
+question: ThunderHub چه نقشی در ارتباط با گره LND شما ایفا می‌کند؟
+answer: مدیریت Interface
+wrong_answers:
+  - پیاده‌سازی لایتنینگ
+  - خدمات نگهداری و نظافت
+  - گره مسیریابی
+explanation: |
+  ThunderHub یک رابط است که به LND متصل می‌شود تا گره را مدیریت کند.
+reviewed: false

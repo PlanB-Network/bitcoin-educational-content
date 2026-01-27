@@ -1,0 +1,8 @@
+question: Apa yang terjadi pada selisih antara jumlah input dan jumlah output dalam transaksi Bitcoin?
+answer: Selisihnya secara otomatis menjadi biaya transaksi yang dibayarkan kepada penambang
+wrong_answers:
+  - "Selisihnya dikembalikan ke alamat asli pengirim sebagai kembalian"
+  - Perbedaannya dibakar dan secara permanen dihapus dari peredaran
+  - Selisihnya disimpan dalam escrow sampai transaksi dikonfirmasi
+explanation: |
+  Dalam sistem biaya Bitcoin, biaya dihitung secara implisit sebagai selisih antara jumlah total input dan jumlah total output (biaya = jumlah (input) - jumlah (output)). Nilai apa pun yang tidak secara eksplisit ditetapkan ke output secara otomatis menjadi biaya penambang. Inilah sebabnya mengapa membuat output kembalian yang tepat sangatlah penting - jika Anda lupa memasukkan output kembalian ketika mengeluarkan UTXO yang besar, maka sisanya akan menjadi biaya yang mahal bagi penambang. Opsi lainnya tidak benar karena Bitcoin tidak secara otomatis membuat output perubahan, tidak membakar nilai yang tidak ditetapkan, dan tidak menggunakan mekanisme escrow untuk perbedaan transaksi.

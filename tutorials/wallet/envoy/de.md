@@ -62,9 +62,9 @@ Auf dem Gerät finden Sie :
 Laden Sie Envoy in Ihrem App Store herunter:
 
 
-- Im [Google Play Store] (https://play.google.com/store/apps/details?id=com.foundationdevices.envoy);
-- Im [App Store] (https://apps.apple.com/us/app/envoy-by-foundation/id1584811818);
-- Auf [F-Cold] (https://foundation.xyz/fdroid/).
+- Im [Google Play Store](https://play.google.com/store/apps/details?id=com.foundationdevices.envoy);
+- Im [App Store](https://apps.apple.com/us/app/envoy-by-foundation/id1584811818);
+- Auf [F-Cold](https://foundation.xyz/fdroid/).
 
 ![Image](assets/fr/50.webp)
 
@@ -164,7 +164,7 @@ Ihr Passport ist nun bereit, die neue Firmware über eine MicroSD-Karte zu empfa
 
 ### Ohne Envoy-Anwendung
 
-Verwenden Sie dazu die MicroSD-Karte, die in Ihrer Passport-Box enthalten ist (oder eine andere), und legen Sie sie in Ihren Computer ein. Laden Sie die neueste Firmware-Version von [der Dokumentations-Website der Foundation] (https://docs.foundation.xyz/firmware-updates/passport/) oder [ihrem GitHub-Repository] (https://github.com/Foundation-Devices/passport2/releases) herunter.
+Verwenden Sie dazu die MicroSD-Karte, die in Ihrer Passport-Box enthalten ist (oder eine andere), und legen Sie sie in Ihren Computer ein. Laden Sie die neueste Firmware-Version von [der Dokumentations-Website der Foundation](https://docs.foundation.xyz/firmware-updates/passport/) oder [ihrem GitHub-Repository](https://github.com/Foundation-Devices/passport2/releases) herunter.
 
 ![Image](assets/fr/21.webp)
 

@@ -1,0 +1,8 @@
+question: Bitcoin แก้ปัญหา Byzantine Generals' Problem อย่างไร?
+answer: ผ่านการใช้บล็อกเชนที่ใช้ Proof of Work พร้อมความยากลำบากที่ลอยตัว
+wrong_answers:
+  - ผ่านการใช้ลายเซ็นดิจิทัล
+  - ผ่านการใช้บัญชีแยกประเภทสาธารณะ
+  - ผ่านการใช้ Proof of Stake algorithm.
+explanation: >-
+reviewed: true

@@ -1,0 +1,8 @@
+question: Que sintaxe de padrão de macro corresponderia corretamente a zero ou mais expressões separadas por vírgulas numa macro personalizada do tipo função?
+answer: $($x:expr),*
+wrong_answers:
+  - $($x:expr)*,
+  - $[x:expr],*
+  - ${$x:expr},*
+explanation: |
+  A sintaxe correta $($x:expr),* utiliza o padrão de repetição do Rust onde o sinal de dólar introduz um grupo de repetição, $x:expr corresponde a cada expressão com o especificador de fragmento expr, a vírgula actua como separador entre expressões e o asterisco (*) indica zero ou mais repetições. As respostas erradas contêm erros de sintaxe: $($x:expr)*, coloca a vírgula fora do grupo de repetição, $[x:expr],* utiliza parênteses rectos em vez de parênteses e omite o sinal de dólar antes de x, e ${$x:expr},* utiliza chavetas em vez de parênteses para o grupo de repetição.

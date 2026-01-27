@@ -5,5 +5,5 @@ wrong_answers:
   - TCP/IP
   - Ethernet
 explanation: |
-  ARPANET je bila prva međusobno povezana mreža, dizajnirana da poveže nekoliko istraživačkih centara, i direktni je prethodnik Interneta.
-reviewed: false
+  ARPANET je bila prva međusobno povezana mreža, dizajnirana da poveže nekoliko istraživačkih centara, i direktni je prethodnik interneta.
+reviewed: true

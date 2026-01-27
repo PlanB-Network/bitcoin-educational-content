@@ -52,7 +52,7 @@ Ayrıca anahtarı bilgisayarınızda veya akıllı telefonunuzda bulunan bağlan
 Cihazları ayrıca suya ve Dust'ye dayanıklılık gibi ek özelliklerinin yanı sıra tuşun şekli ve boyutuna göre de karşılaştırabilirsiniz.
 
 
-Güvenlik anahtarı markalarına gelince, Yubico, kişisel olarak kullandığım ve tavsiye ettiğim [YubiKey cihazları] (https://www.yubico.com/) ile en tanınmış olanıdır. Google da [Titan Security Key](https://store.google.com/fr/product/titan_security_key) ile bir cihaz sunuyor. Açık kaynaklı alternatifler için [SoloKeys](https://solokeys.com/) (OTP olmayan) ve [NitroKey](https://www.nitrokey.com/products/nitrokeys) ilginç seçenekler, ancak bunları test etme şansım hiç olmadı.
+Güvenlik anahtarı markalarına gelince, Yubico, kişisel olarak kullandığım ve tavsiye ettiğim [YubiKey cihazları](https://www.yubico.com/) ile en tanınmış olanıdır. Google da [Titan Security Key](https://store.google.com/fr/product/titan_security_key) ile bir cihaz sunuyor. Açık kaynaklı alternatifler için [SoloKeys](https://solokeys.com/) (OTP olmayan) ve [NitroKey](https://www.nitrokey.com/products/nitrokeys) ilginç seçenekler, ancak bunları test etme şansım hiç olmadı.
 
 
 ## Fiziksel güvenlik anahtarı nasıl kullanılır?

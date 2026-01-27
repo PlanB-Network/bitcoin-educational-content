@@ -26,12 +26,12 @@ Na minha opinião, o Phoenix representa uma excelente solução intermédia entr
 Aceda à sua loja de aplicações e instale o Phoenix :
 
 
-- Na [Google Play Store] (https://play.google.com/store/apps/details?id=fr.acinq.phoenix.mainnet);
-- Na [App Store] (https://apps.apple.com/fr/app/phoenix-wallet/id1544097028?l=en-GB).
+- Na [Google Play Store](https://play.google.com/store/apps/details?id=fr.acinq.phoenix.mainnet);
+- Na [App Store](https://apps.apple.com/fr/app/phoenix-wallet/id1544097028?l=en-GB).
 
 ![Image](assets/fr/02.webp)
 
-Também pode instalar a aplicação [com o ficheiro apk no seu repositório GitHub] (https://github.com/ACINQ/phoenix/releases).
+Também pode instalar a aplicação [com o ficheiro apk no seu repositório GitHub](https://github.com/ACINQ/phoenix/releases).
 
 ![Image](assets/fr/03.webp)
 

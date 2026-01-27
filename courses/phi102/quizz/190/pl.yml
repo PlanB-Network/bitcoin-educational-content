@@ -1,0 +1,8 @@
+question: Zgodnie z paradoksem demokratycznej kurateli, jaka fundamentalna sprzeczność istnieje we współczesnych systemach politycznych w odniesieniu do indywidualnych możliwości?
+answer: Obywatele są uważani za niezdolnych do podejmowania osobistych decyzji, ale zdolnych do podejmowania zbiorowych decyzji politycznych dla wszystkich
+wrong_answers:
+  - Obywatele są uważani za zdolnych do dokonywania wyborów ekonomicznych, ale niezdolnych do zrozumienia zasad konstytucyjnych
+  - Jednostki mogą skutecznie podejmować natychmiastowe decyzje, ale mają trudności z długoterminowym planowaniem politycznym i przewidywaniem
+  - Ludzie wykazują się kompetencjami w zarządzaniu lokalnym, ale brakuje im wiedzy specjalistycznej do demokratycznego uczestnictwa na szczeblu krajowym
+explanation: |
+  Podstawowy paradoks zidentyfikowany w tekście ujawnia, że systemy demokratyczne jednocześnie utrzymują dwa sprzeczne przekonania na temat możliwości obywateli. Z jednej strony, szeroko zakrojone regulacje i nadzór publiczny zakładają, że jednostki nie są w stanie rządzić się samodzielnie i potrzebują stałego ukierunkowania, aby zapobiegać złym wyborom. Z drugiej strony, mechanizmy demokratyczne zakładają, że te same jednostki są doskonale zdolne do podejmowania złożonych zbiorowych decyzji dotyczących zarządzania, porównywania programów i oceny konsekwencji politycznych. Ta sprzeczność jest szczególnie uderzająca, ponieważ indywidualne wybory ekonomiczne są prostsze i bardziej bezpośrednie niż złożone decyzje polityczne wpływające na całe społeczeństwa.

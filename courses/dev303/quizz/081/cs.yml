@@ -1,0 +1,8 @@
+question: Jaký je hlavní účel použití funkce map_err() při řetězení operací s typy Result v Rust?
+answer: Transformace typů chyb při zachování nezměněných hodnot úspěšnosti během šíření chyb
+wrong_answers:
+  - Transformace hodnot úspěšnosti při automatickém šíření chyb bez úprav
+  - Převod typů Result na typy Option, pokud je třeba ignorovat chyby
+  - Zabránění šíření chyb převedením všech chyb na výchozí hodnoty úspěchu
+explanation: |
+  Metoda map_err() je speciálně navržena tak, aby transformovala typy chyb při zachování hodnot úspěchu beze změny. To má zásadní význam při vytváření vrstvených aplikací, kde různé komponenty potřebují různé reprezentace chyb. Můžete například převést chyby nízké úrovně parsování na chyby specifické pro danou doménu, které poskytují lepší kontext. Ostatní možnosti jsou nesprávné: map() transformuje hodnoty úspěchu (nikoli map_err()), map_err() nepřevádí na typy Option a nezabraňuje propagaci ani nevytváří výchozí hodnoty úspěchu.

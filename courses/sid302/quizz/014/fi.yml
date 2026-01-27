@@ -1,0 +1,8 @@
+question: Miten varmistetaan, että ristikkäisen swapin molemmat osapuolet joko saattavat transaktion onnistuneesti päätökseen tai molemmat epäonnistuvat menettämättä varoja?
+answer: Samaa hash-lukkoa käytetään molemmissa verkoissa, mikä luo kryptografisen sidoksen vaihto-osuuksien välille
+wrong_answers:
+  - Aikalukot estävät kumpaakaan osapuolta vaatimasta varoja ennen kuin molemmat verkot vahvistavat tapahtumat
+  - MuSig2-avainten yhdistäminen edellyttää, että molemmat osapuolet allekirjoittavat ennen kuin varoja voidaan siirtää
+  - "Taproot:n skriptipolku kääntää tapahtumat automaattisesti päinvastaisiksi, jos yksi verkko ei onnistu"
+explanation: |
+  Kerrosten välisten vaihtojen atomisuus perustuu siihen, että molemmissa verkoissa käytetään samanlaisia hash-lukituksia. Kun vastaanottaja paljastaa salaisen esikuvan lunastaakseen varoja yhdessä kerroksessa, lähettäjä näkee saman salaisuuden ja voi käyttää sitä lunastaakseen vastavuoroisesti varoja toisessa kerroksessa. Tämä kryptografinen sitoumus varmistaa atomisuuden - joko molemmat osapuolet saavat varansa tai kumpikaan ei saa, mikä eliminoi vastapuoliriskin luottamuksettomissa swapeissa.

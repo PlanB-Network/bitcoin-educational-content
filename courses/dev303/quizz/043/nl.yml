@@ -1,0 +1,8 @@
+question: Welk sleutelwoord wordt gebruikt om een afsluiting te dwingen eigenaar te worden van vastgelegde variabelen in plaats van ze te lenen?
+answer: verplaatsen
+wrong_answers:
+  - eigen
+  - vang
+  - neem
+explanation: |
+  Het `move` sleutelwoord wordt gebruikt voor closure parameters om de closure te dwingen eigenaar te worden van alle vastgelegde variabelen uit zijn omgeving. Dit is essentieel als de closure het bereik waar de variabelen oorspronkelijk gedefinieerd waren zou kunnen overschrijden, zoals bij het spawnen van threads. Zonder `move`, vangen closures meestal via de minst beperkende methode (onveranderlijke referentie, dan muteerbare referentie, dan eigendom), maar `move` heft dit automatische gedrag op om eigendomsoverdracht te garanderen. De andere opties (`own`, `capture`, `take`) zijn geen geldige Rust sleutelwoorden voor dit doel.

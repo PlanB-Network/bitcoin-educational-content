@@ -1,0 +1,8 @@
+question: Jaký architektonický mechanismus umožňuje sady Breez SDK provádět přenosy z Liquid do Bitcoin, aniž by se spoléhal na výstupy federated peg nebo centralizované výměny?
+answer: Mechanismus dvojí výměny se současným uzamčením transakcí v obou řetězcích, kdy odesílatel požaduje prostředky Bitcoin a příjemce požaduje prostředky Liquid
+wrong_answers:
+  - Jediný podmořský swap, při kterém jsou nejprve zablokovány prostředky Bitcoin a poté jsou vyžádány pomocí předobrazu bleskové platby z transakce Liquid
+  - Architektura reverzní podmořské výměny, kde Liquid Network funguje jako zprostředkující most pro ověřování transakcí Bitcoin mainchain
+  - Federativní systém úschovy více podpisů spravovaný Boltz, který koordinuje atomické výměny mezi Liquid a Bitcoin pomocí časově omezených smluv
+explanation: |
+  Mechanismus dual-swap je speciálně navržen pro převody mezi řetězci Bitcoin, které zahrnují současné transakce uzamčení v sítích Liquid i Bitcoin. Tento bezdůvěryhodný přístup umožňuje přímé přemostění bez výpadků federated peg. Ostatní možnosti nesprávně popisují jednosměrné podmořské swapy, zkreslují úlohu Liquid Network nebo nesprávně naznačují závislost na federativních systémech, kterým se SDK výslovně vyhýbá.

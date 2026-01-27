@@ -5,7 +5,5 @@ wrong_answers:
   - 66
   - 76
 explanation: |
-  La tabla Hanke-Krus documenta 56 episodios de hiperinflación. Sin embargo,
-  no cubre todos los episodios, como el de Venezuela en 2016, lo que eleva el
-  total a 57.
-reviewed: false
+  La tabla Hanke-Krus documenta 56 episodios de hiperinflación. Sin embargo, no cubre todos los episodios, como el de Venezuela en 2016, lo que eleva el total a 57.
+reviewed: true

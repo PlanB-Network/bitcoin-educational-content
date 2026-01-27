@@ -1,0 +1,8 @@
+question: Điều gì xảy ra trong quá trình biên dịch khi trình biên dịch Rust gặp phải lệnh gọi macro?
+answer: Trình biên dịch so khớp dữ liệu đầu vào với các mẫu đã định nghĩa và thay thế lệnh gọi macro bằng mã được tạo ra trước khi quá trình kiểm tra kiểu dữ liệu diễn ra.
+wrong_answers:
+  - Trình biên dịch trì hoãn việc mở rộng macro cho đến sau khi kiểm tra kiểu và tối ưu hóa để đảm bảo tính hợp lệ của mã.
+  - Trình biên dịch lưu trữ lệnh gọi macro dưới dạng mã byte và mở rộng nó một cách động trong quá trình thực thi.
+  - Trình biên dịch kiểm tra cú pháp macro nhưng để lại phần mở rộng thực tế cho trình liên kết xử lý.
+explanation: |
+  Các macro được mở rộng trong quá trình biên dịch trước khi kiểm tra kiểu và tối ưu hóa diễn ra. Khi trình biên dịch gặp một lời gọi macro, nó ngay lập tức so khớp đầu vào với các mẫu được định nghĩa của macro và thay thế toàn bộ lời gọi macro bằng mã được tạo ra. Mã được mở rộng này sau đó trải qua các quy trình biên dịch thông thường bao gồm kiểm tra kiểu. Các tùy chọn khác không chính xác vì macro hoạt động ở thời điểm biên dịch, không phải thời điểm chạy, và việc mở rộng phải xảy ra trước khi kiểm tra kiểu vì mã được tạo ra cần được xác thực về tính đúng đắn.

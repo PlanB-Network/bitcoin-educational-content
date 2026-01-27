@@ -1,0 +1,8 @@
+question: Mikä on tärkein ero Rust-rakenteiden metodien ja niihin liittyvien funktioiden välillä?
+answer: Metodit ottavat ensimmäisenä parametrinaan self:n, kun taas niihin liittyvät funktiot eivät ota itseään
+wrong_answers:
+  - Metodit ovat oletusarvoisesti julkisia, kun taas niihin liittyvät funktiot ovat oletusarvoisesti yksityisiä
+  - Menetelmät voivat vain lukea tietoja, kun taas niihin liittyvät funktiot voivat muokata rakenteen kenttiä
+  - Metodeissa käytetään pisteen merkintätapaa, kun taas niihin liittyvissä funktioissa käytetään nuolen merkintätapaa
+explanation: |
+  Rust:n metodit ovat impl-lohkossa määriteltyjä funktioita, jotka ottavat ensimmäisenä parametrinaan jonkinlaisen self-muodon (self, &self tai &mut self), jolloin ne voivat toimia rakenteen instansseihin. Liitännäisfunktiot määritellään myös impl-lohkoissa, mutta ne eivät ota selfiä parametriksi, joten ne muistuttavat muiden kielten staattisia metodeja. Liitännäisfunktioita kutsutaan kaksoispisteen syntaksilla (Type::function_name()), ja niitä käytetään yleisesti konstruktoreina, kun taas metodeja kutsutaan instansseille pisteen merkintätapaa käyttäen. Muut vaihtoehdot ovat virheellisiä, koska sekä metodit että liitännäisfunktiot noudattavat samoja näkyvyyssääntöjä, molemmat voidaan suunnitella muuttamaan tai lukemaan dataa toteutuksesta riippuen ja liitännäisfunktiot käyttävät kaksoispisteen syntaksia, eivät nuolimerkintää.

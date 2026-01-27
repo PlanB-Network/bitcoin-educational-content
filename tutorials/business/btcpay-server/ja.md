@@ -1,5 +1,5 @@
 ---
-name: BTCPayサーバー
+name: BTCPay Server
 description: 仲介業者を介さないBTC決済の受け入れ
 ---
 

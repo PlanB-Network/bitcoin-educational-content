@@ -4,6 +4,12 @@ description: Başlamak için en basit velayet Wallet
 ---
 ![cover](assets/cover.webp)
 
+---
+
+*Dikkat: 2026 yılının başından itibaren, bu eğitimde sunulduğu üzere custodial moddaki Wallet of Satoshi artık Avrupa Birliği içinde erişilebilir değildir. Bu bölgede ikamet ediyorsanız ve bu aracı kullanmaya devam etmek istiyorsanız, AB dışında bulunan bir VPN kullanmanız gerekecektir. Diğer bir seçenek ise Wallet of Satoshi’yi self-custodial modda kullanmaktır. Özel bir eğitim yakında Plan ₿ Academy’de yayımlanacaktır.*
+
+---
+
 _Bu eğitim_ [Bitcoin Kampüs](https://linktr.ee/bitcoincampus_) tarafından yazılmıştır
 
 

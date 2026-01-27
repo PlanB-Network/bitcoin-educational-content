@@ -1,0 +1,8 @@
+question: Mikä salausmekanismi mahdollistaa Blockstream AMP:n sokeutusarkkitehtuurissa omaisuuserien määrän salauksen säilyttäen samalla transaktion voimassaolon todentamisen?
+answer: Elliptic Curve Diffie-Hellman -avaintenvaihto, jossa on todisteet, joilla voidaan todentaa tapahtuman pätevyys paljastamatta salattuja arvoja
+wrong_answers:
+  - Nollatieto-SNARKit ja sitoutumisjärjestelmät, jotka piilottavat transaktiomäärät ja todistavat samalla laskennallisen eheyden
+  - Rengasallekirjoitukset, joissa on salaiset osoitteet, jotka häivyttävät lähettäjän henkilöllisyyden säilyttäen samalla kryptografisen tarkastettavuuden
+  - Homomorfinen salaus merkle tree -sitoumuksilla, jotka mahdollistavat matemaattiset operaatiot salatuille transaktiotiedoille
+explanation: |
+  AMP käyttää ECDH-avaintenvaihtoa, jossa lähettäjät salaavat omaisuuserien summat vastaanottajien sokaisevilla julkisilla avaimilla ja tuottavat todisteet, jotka todentavat matemaattisesti tapahtuman oikeellisuuden paljastamatta arvoja. Tämä eroaa SNARKista (laskennalliset todisteet), rengasallekirjoituksista (anonymiteettipainotteisuus) tai homomorfisesta salauksesta (laskenta salatulla datalla) - AMP tarvitsee nimenomaan luottamuksellisia, mutta todennettavissa olevia transaktioita.

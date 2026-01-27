@@ -1,5 +1,5 @@
 ---
-name: Server BTCPay - Umbrel
+name: BTCPay Server - Umbrel
 description: Instalace a používání serveru BTCPay v systému Umbrel pro přijímání plateb Bitcoin a Lightning
 ---
 

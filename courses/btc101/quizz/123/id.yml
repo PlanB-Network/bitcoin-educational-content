@@ -8,4 +8,4 @@ explanation: >-
   Jumlah konfirmasi dalam sebuah transaksi Bitcoin menunjukkan berapa banyak
   blok yang telah ditambang di atas blok yang mengandung transaksi tersebut. Semakin
   banyak konfirmasi yang dimiliki sebuah transaksi, semakin tidak dapat diubah transaksi tersebut.
-reviewed: false
+reviewed: true

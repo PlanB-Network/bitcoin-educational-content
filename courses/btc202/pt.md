@@ -328,7 +328,7 @@ Um Miner precisa de um nó Bitcoin para interagir com a rede.
 
 
 
-O papel do Miner também é por vezes diferenciado do papel do picador. Um picador é uma máquina cuja tarefa consiste em Hash blocos de modelos fornecidos pelo servidor de um pool, procurando hashes que satisfaçam o objetivo de dificuldade definido para as acções, e não o do Bitcoin. O resto do processo Mining, que inclui a construção de blocos propriamente dita, a seleção de transacções ou a pesquisa Proof-of-Work de acordo com a dificuldade própria do Bitcoin, bem como a distribuição, é realizado diretamente pelos pools.
+O papel do Miner também é por vezes diferenciado do papel do grind. Um grind é uma máquina cuja tarefa consiste em Hash blocos de modelos fornecidos pelo servidor de um pool, procurando hashes que satisfaçam o objetivo de dificuldade definido para as acções, e não o do Bitcoin. O resto do processo Mining, que inclui a construção de blocos propriamente dita, a seleção de transacções ou a pesquisa Proof-of-Work de acordo com a dificuldade própria do Bitcoin, bem como a distribuição, é realizado diretamente pelos pools.
 
 
 
@@ -1010,7 +1010,7 @@ https://planb.academy/tutorials/node/bitcoin/raspiblitz-d8cdba2e-a682-46cf-9fdc-
 
 
 
-[RoninDojo é um node-in-a-box focado na privacidade] (https://wiki.ronindojo.io/en/home) que automatiza a implementação do Samurai Dojo e do Whirlpool, com um Interface dedicado e plugins especificamente concebidos para o ecossistema Samurai.
+[RoninDojo é um node-in-a-box focado na privacidade](https://wiki.ronindojo.io/en/home) que automatiza a implementação do Samurai Dojo e do Whirlpool, com um Interface dedicado e plugins especificamente concebidos para o ecossistema Samurai.
 
 
 
@@ -1509,7 +1509,7 @@ Ao implementar aplicações em contentores, pode moldar a Umbrel como desejar: c
 
 
 
-Uma das principais vantagens da Umbrel em relação aos seus concorrentes é a sua vasta e muito ativa comunidade de utilizadores. Pode contactá-los principalmente através do [Discord] (https://discord.gg/efNtFzqtdx) e do [fórum online] (https://community.umbrel.com/). Aqui, encontrará não só conselhos práticos mas, acima de tudo, soluções para resolver problemas ou corrigir bugs. É um excelente local para começar, progredir e, eventualmente, ajudar outros utilizadores, para que não fique sozinho com o seu Coin.
+Uma das principais vantagens da Umbrel em relação aos seus concorrentes é a sua vasta e muito ativa comunidade de utilizadores. Pode contactá-los principalmente através do [Discord](https://discord.gg/efNtFzqtdx) e do [fórum online](https://community.umbrel.com/). Aqui, encontrará não só conselhos práticos mas, acima de tudo, soluções para resolver problemas ou corrigir bugs. É um excelente local para começar, progredir e, eventualmente, ajudar outros utilizadores, para que não fique sozinho com o seu Coin.
 
 
 
@@ -1521,7 +1521,7 @@ Uma das principais vantagens da Umbrel em relação aos seus concorrentes é a s
 
 
 
-O código do Umbrel está disponível publicamente (pode ver, Fork, e modificá-lo), mas não está sob uma verdadeira licença de código aberto. De facto, o umbrelOS é distribuído sob a licença [*PolyForm Noncommercial 1.0*] (https://polyformproject.org/licenses/noncommercial/1.0.0/), embora algumas ferramentas de desenvolvimento associadas estejam disponíveis sob a licença MIT.
+O código do Umbrel está disponível publicamente (pode ver, Fork, e modificá-lo), mas não está sob uma verdadeira licença de código aberto. De facto, o umbrelOS é distribuído sob a licença [*PolyForm Noncommercial 1.0*](https://polyformproject.org/licenses/noncommercial/1.0.0/), embora algumas ferramentas de desenvolvimento associadas estejam disponíveis sob a licença MIT.
 
 
 
@@ -1619,7 +1619,7 @@ Antes de instalar o UmbrelOS na sua máquina, terá de criar uma chave USB de ar
 
 
 
-Ir para [o sítio Web oficial da Umbrel para transferir a imagem ISO] (https://download.umbrel.com/release/latest/umbrelos-amd64-usb-installer.iso) para instalação através de uma chave USB. Certifique-se de selecionar a versão compatível com a arquitetura x86_64 (arquivo chamado `umbrelos-amd64-usb-installer.iso`). O download pode demorar algum tempo, pois a imagem é bastante grande.
+Ir para [o sítio Web oficial da Umbrel para transferir a imagem ISO](https://download.umbrel.com/release/latest/umbrelos-amd64-usb-installer.iso) para instalação através de uma chave USB. Certifique-se de selecionar a versão compatível com a arquitetura x86_64 (arquivo chamado `umbrelos-amd64-usb-installer.iso`). O download pode demorar algum tempo, pois a imagem é bastante grande.
 
 
 
@@ -1633,7 +1633,7 @@ Ir para [o sítio Web oficial da Umbrel para transferir a imagem ISO] (https://d
 
 
 
-Para criar a pen USB de arranque, irá utilizar uma ferramenta simples e multiplataforma chamada [Balena Etcher] (https://www.balena.io/etcher/). Descarregue-a e instale-a no seu computador.
+Para criar a pen USB de arranque, irá utilizar uma ferramenta simples e multiplataforma chamada [Balena Etcher](https://www.balena.io/etcher/). Descarregue-a e instale-a no seu computador.
 
 
 
@@ -2514,9 +2514,11 @@ Por último, recomendo a aplicação *Lightning Network+*, que permite encontrar
 
 
 
-Graças à Umbrel, o gerenciamento de um nó Lightning pessoal foi bastante simplificado, mas ainda é relativamente complexo. Por esse motivo, analisaremos mais de perto esse assunto em um curso futuro dedicado inteiramente a esse uso.
+Graças ao Umbrel, a gestão de um nó Lightning pessoal é simplificada, mas continua a ser relativamente complexa. Por esse motivo, recomendo que siga o curso LNP 202, que constitui a continuação lógica do curso BTC 202, e no qual o acompanho passo a passo na implementação e gestão do seu nó Lightning no Umbrel.
 
 
+
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 ### Escala de cauda
 
@@ -2761,7 +2763,7 @@ No caso de um bug no seu Umbrel, primeiro generate um pacote de diagnóstico atr
 
 
 
-Se o problema persistir, recomendo-te que [te juntes à comunidade de utilizadores da Umbrel no Discord] (https://discord.gg/efNtFzqtdx). Começa por fazer uma pesquisa para determinar se alguém já se deparou com a mesma dificuldade e encontrou uma solução. Se não, podes enviar uma mensagem no canal `general-support`. Também podes usar [o fórum da Umbrel](https://community.umbrel.com/).
+Se o problema persistir, recomendo-te que [te juntes à comunidade de utilizadores da Umbrel no Discord](https://discord.gg/efNtFzqtdx). Começa por fazer uma pesquisa para determinar se alguém já se deparou com a mesma dificuldade e encontrou uma solução. Se não, podes enviar uma mensagem no canal `general-support`. Também podes usar [o fórum da Umbrel](https://community.umbrel.com/).
 
 
 
@@ -2891,7 +2893,7 @@ Quando o nó reinicia depois de já ter sido utilizado, o Core tenta primeiro re
 
 
 
-Neste caso, o software consulta _**DNS seeds**_. Trata-se de [servidores mantidos por programadores reconhecidos do ecossistema] (https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), que devolvem uma lista de endereços IP de presumíveis nós activos. Estes endereços permitem que o novo nó inicie as suas primeiras ligações e solicite os dados necessários ao IBD. Aqui está a lista de *DNS seeds* activos até à data (agosto de 2025):
+Neste caso, o software consulta _**DNS seeds**_. Trata-se de [servidores mantidos por programadores reconhecidos do ecossistema](https://github.com/Bitcoin/Bitcoin/blob/master/src/kernel/chainparams.cpp), que devolvem uma lista de endereços IP de presumíveis nós activos. Estes endereços permitem que o novo nó inicie as suas primeiras ligações e solicite os dados necessários ao IBD. Aqui está a lista de *DNS seeds* activos até à data (agosto de 2025):
 
 
 
@@ -3894,11 +3896,13 @@ Pode agora passar à parte final do curso, onde poderá avaliar o BTC 202 e obte
 
 
 
-Agora tem várias opções à sua disposição. O próximo passo lógico é criar o seu próprio nó Lightning, permitindo-lhe ser totalmente independente para as suas transacções off-chain. Este será o tema de um próximo curso, a ser publicado neste outono de 2025 sobre o Plan ₿ Academy.
+Vários caminhos se apresentam agora a si. O próximo passo lógico consiste em configurar o seu próprio nó Lightning, de modo a ser totalmente independente nas suas transações off-chain. É precisamente este o tema de outro curso na Plan ₿ Academy:
 
 
 
-Entretanto, convido-o a descobrir a formação BTC 204, que lhe permitirá compreender e dominar os princípios da proteção da vida privada na sua utilização do Bitcoin:
+https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
+
+Convido-o igualmente a descobrir a formação BTC 204, que lhe permitirá compreender e dominar os princípios de proteção da privacidade na sua utilização do Bitcoin:
 
 
 

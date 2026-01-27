@@ -1,9 +1,9 @@
-question: Mida võiksid traditsioonilised rahaülekandeteenused nagu Western Union, keskpangad, Visa ja Mastercard teha, kui nad ei võta kasutusele Lightning Network tehnoloogiat?
-answer: Nad võivad kaduda.
+question: Milline mehhanism ühendab sidechain’i Bitcoiniga?
+answer: Kahepoolne ankurdamine
 wrong_answers:
-  - Nad võivad muutuda populaarsemaks.
-  - Nad võivad muutuda turvalisemaks.
-  - Nad võivad muutuda detsentraliseeritumaks.
-explanation: >-
-  Traditsioonilised rahaülekandeteenused nagu Western Union, keskpangad, Visa ja Mastercard võivad kaduda, kui nad ei võta kasutusele Lightning Network tehnoloogiat.
+  - Maksekanal
+  - Proof of Stake
+  - Sharding
+explanation: |
+  Two-way peg mehhanism võimaldab BTC-d Bitcoinis lukustada ja neid sidechain’is esitada.
 reviewed: false

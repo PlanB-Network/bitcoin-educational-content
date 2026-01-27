@@ -1,0 +1,8 @@
+question: ¿Cuál es la vulnerabilidad operativa crítica que se deriva del modelo de autorización de cofirmación de AMP para las transferencias de activos reguladas?
+answer: La liquidez de los activos se detiene por completo si el servidor AMP deja de estar disponible, ya que toda transferencia requiere la firma conjunta del servidor
+wrong_answers:
+  - Las comisiones por transacción aumentan exponencialmente cuando varios cosignatarios intentan autorizar transferencias simultáneamente
+  - Confidencial La privacidad de las transacciones se rompe porque la firma conjunta expone los factores ciegos a los observadores de la red
+  - Los titulares de los activos pierden el control de la custodia, ya que el mecanismo de cofirmación transfiere las claves privadas al servidor AMP
+explanation: |
+  El modelo de autorización de AMP requiere que el servidor de AMP cofirme cada transferencia de activos, lo que crea un único punto de fallo. Si el servidor se desconecta, no puede completarse ninguna transacción, con lo que se congela toda la liquidez de los activos. Las otras opciones son incorrectas: las comisiones no aumentan exponencialmente con la firma conjunta, la privacidad de las transacciones confidenciales permanece intacta (sólo el emisor obtiene visibilidad), y los usuarios conservan sus claves privadas mientras que el servidor sólo proporciona firmas de autorización.

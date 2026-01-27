@@ -1,0 +1,8 @@
+question: Mikä tekee Rust:n tyyppijärjestelmästä erityisen tehokkaan estämään muistiin liittyviä haavoittuvuuksia Bitcoin-sovelluksissa?
+answer: Tyyppijärjestelmä käsittelee sekä liiketoimintalogiikan mallintamisen että muistin omistajuuden hallinnan saman mekanismin avulla
+wrong_answers:
+  - Kääntäjä luo automaattisesti muistinjakorutiinit, jotka estävät puskurin ylivuotohyökkäykset
+  - Staattinen tyypitys edellyttää, että kaikki muistiosoitteet ilmoitetaan kääntäessä eikä suoritusaikana
+  - Vahva tyypitys muuntaa kaikki osoitinoperaatiot turvalliseksi array-rajojen tarkistamiseksi suorituksen aikana
+explanation: |
+  Rust:n tyyppijärjestelmä on ainutlaatuinen, koska sillä on kaksi tarkoitusta - se mallintaa monimutkaista liiketoimintalogiikkaa ja samalla se hallitsee muistin turvallisuutta omistajuuden, lainaamisen ja viitteiden laskennan avulla. Tämä integraatio tarkoittaa, että sama tyyppitarkastus, jolla varmistetaan oikea ohjelmalogiikka, eliminoi myös muistivuodot, kaksoisvapaat virheet ja kilpailutilanteet kääntämisaikana. Väärät vastaukset kuvaavat mekanismeja, joita ei ole Rust:ssa: kääntäjä ei käytä generate:n automaattisia allokaatiorutiineja, muistiosoitteiden ei tarvitse olla käännöksen aikaisia vakioita, ja osoittimien turvallisuus perustuu omistussääntöihin eikä suoritusaikaiseen rajojen tarkistukseen.

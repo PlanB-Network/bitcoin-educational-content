@@ -1,0 +1,9 @@
+question: Quantas palavras contém a frase mnemónica LND?
+answer: 24 palavras
+wrong_answers:
+  - 10 palavras
+  - 18 palavras
+  - 36 palavras
+explanation: |
+  LND generate é uma frase mnemónica de 24 palavras para backup e recuperação de nós.
+reviewed: false

@@ -1,5 +1,5 @@
 ---
-name: Ašigaru
+name: Ashigaru
 description: fork iz Samourai Wallet za osiguranje, upravljanje i mešanje vaših bitkoina
 ---
 

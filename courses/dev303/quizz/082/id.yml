@@ -1,0 +1,8 @@
+question: Peran apa yang diberikan oleh file Unified Definition Language (UDL) dalam alur kerja UniFFI?
+answer: Ini bertindak sebagai spesifikasi antarmuka yang menjelaskan bagian mana dari pustaka Rust yang harus diekspos ke bahasa lain
+wrong_answers:
+  - Ini berisi kode implementasi Rust yang sebenarnya yang dikompilasi ke dalam binding bahasa target
+  - Ini berfungsi sebagai file konfigurasi runtime yang mengelola alokasi memori antara lingkungan bahasa yang berbeda
+  - Ini menyediakan kerangka kerja pengujian untuk memvalidasi kebenaran binding yang dihasilkan di berbagai platform
+explanation: |
+  File UDL berfungsi sebagai kontrak atau spesifikasi antara implementasi Rust dan binding bahasa yang dihasilkan. File ini tidak berisi kode Rust itu sendiri, dan juga tidak menangani operasi atau pengujian runtime. Sebaliknya, file ini secara deklaratif mendefinisikan fungsi, tipe, dan antarmuka mana dari pustaka Rust yang harus disediakan untuk bahasa lain, menentukan bagaimana fungsi, tipe, dan antarmuka tersebut harus dipetakan dan disajikan dalam antarmuka asli bahasa target.

@@ -5,7 +5,7 @@ description: 發現並開始使用 NOSTR
 
 
 
-![A new challenger has arrived](assets/1.webp)
+![A new challenger has arrived](assets/cover.webp)
 
 
 *在本指南的最後，您將了解什麼是 Nostr，您將建立一個帳戶，並且能夠使用它。*

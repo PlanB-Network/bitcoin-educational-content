@@ -1,0 +1,9 @@
+question: A cosa deve collegarsi un nodo Lightning?
+answer: Un nodo Bitcoin
+wrong_answers:
+  - Un miner
+  - Un block explorer
+  - Un server federato
+explanation: |
+  Il nodo Lightning dipende da un nodo Bitcoin per accedere alle informazioni della blockchain principale.
+reviewed: false

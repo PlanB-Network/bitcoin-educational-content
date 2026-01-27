@@ -1,0 +1,8 @@
+question: Según la tradición liberal francesa, ¿cuál es el principal problema de la oposición artificial entre teóricos y prácticos en el debate público?
+answer: Tanto los teóricos como los profesionales se basan en marcos teóricos, por lo que la verdadera cuestión es distinguir las buenas teorías de las malas
+wrong_answers:
+  - Los teóricos están desconectados de la realidad, mientras que los profesionales tienen un conocimiento concreto superior
+  - La oposición es válida porque los profesionales nunca utilizan marcos teóricos en su trabajo
+  - Los teóricos deben centrarse sólo en conceptos abstractos, mientras que los profesionales deben evitar todo pensamiento teórico
+explanation: |
+  El capítulo explica que la oposición entre teoría y práctica es artificial porque todas las acciones humanas, incluso las más sencillas como subir escaleras, se basan en teorías implícitas como la de la gravedad. Los profesionales aplican constantemente marcos teóricos, a menudo de forma inconsciente. El verdadero reto no es elegir entre teoría y práctica, sino distinguir las buenas teorías basadas en hechos observables de las malas teorías construidas sobre falacias. Esto demuestra que la dicotomía es falsa, ya que ambos grupos utilizan inevitablemente fundamentos teóricos.

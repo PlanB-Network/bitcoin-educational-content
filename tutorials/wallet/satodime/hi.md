@@ -1,5 +1,5 @@
 ---
-name: सातोडाइम
+name: Satodime
 description: मोबाइल एप्लिकेशन के साथ सैटोडिम का उपयोग कैसे करें, जानें
 ---
 ![cover](assets/cover.webp)

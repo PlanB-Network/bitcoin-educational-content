@@ -5,6 +5,14 @@ description: Payez en bitcoins partout où les cartes bancaires Visa sont accept
 
 ![cover](assets/cover.webp)
 
+---
+
+⚠️ *Mise à jour décembre 2025 : Attention, **depuis début décembre 2025, une partie des services de Moon n’est plus disponible**, notamment les cartes bancaires Visa rechargeables. Nous ne savons pas encore si cette indisponibilité est temporaire ou définitive. Ce tutoriel sera mis à jour dès que nous disposerons de plus d’informations.*
+
+*Si vous utilisiez la carte Visa prépayée avant son blocage, vous pouvez désormais récupérer vos fonds en suivant le processus de vérification d’identité directement sur votre tableau de bord Moon. En principe, Moon a dû vous envoyer un e-mail afin de vous informer de la procédure à suivre et des étapes nécessaires pour effectuer cette récupération.*
+
+---
+
 Moon permet d’utiliser des cryptomonnaies comme le bitcoin pour acheter des cartes Visa virtuelles et des cartes-cadeaux sans KYC, utilisables chez des millions de commerçants en ligne, comme une carte bancaire classique. Elle offre ainsi un moyen simple de dépenser ses sats partout où Visa est acceptée, sans passer par une plateforme d'échange.
 
 Cette approche illustre l’ambition première de Moon : rendre l’usage du bitcoin accessible au grand public en facilitant les paiements du quotidien partout dans le monde, en attendant que plus de commerçants acceptent ce moyen de paiement nativement. C'est une sorte de passerelle entre Bitcoin et le monde bancaire traditionnel. Dans ce tutoriel, nous vous invitons à découvrir ce service innovant, son concept et les principales fonctionnalités qu’il propose.

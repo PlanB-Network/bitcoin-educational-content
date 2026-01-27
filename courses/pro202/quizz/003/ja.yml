@@ -1,0 +1,8 @@
+question: Pythonのどの関数が、暗号操作において効率的なモジュラー指数化を実行するために特に言及されているか？
+answer: pow(base, exp, mod)
+wrong_answers:
+  - mod(base, exp, prime)
+  - exp(base, mod, field)
+  - mult(base, exp, modulo)
+explanation: |
+  Python 組み込みの pow(base, exp, mod) 関数は効率的なモジュラー指数計算のために特別に設計されています。この関数は、(base^exp) mod mod を計算するために最適化されたアルゴリズムを使用します。他のオプションは有効なPython関数ではありません - これらのパラメータパターンを持つmod(), exp(), mult()は暗号モジュラー演算のためのPython標準ライブラリには存在しません。

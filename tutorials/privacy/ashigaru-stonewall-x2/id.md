@@ -12,13 +12,11 @@ description: Memahami dan menggunakan transaksi Stonewall x2 di Ashigaru
 
 
 
-Stonewall x2 adalah bentuk khusus dari transaksi Bitcoin yang dirancang untuk meningkatkan kerahasiaan pengguna ketika melakukan pembelanjaan, dengan berkolaborasi dengan pihak ketiga yang tidak terlibat dalam pembelanjaan. Metode ini mensimulasikan sebuah mini-coinjoin antara dua partisipan, ketika melakukan pembayaran kepada pihak ketiga. Transaksi Stonewall x2 tersedia di aplikasi Ashigaru, sebuah fork dari Samourai Wallet (tim di balik pembuatan jenis transaksi ini).
-
-
+Stonewall x2 adalah bentuk khusus dari transaksi Bitcoin yang dirancang untuk meningkatkan kerahasiaan pengguna saat melakukan pembelanjaan, dengan cara berkolaborasi dengan pihak ketiga yang tidak terlibat langsung dalam pembelanjaan. Metode ini mensimulasikan mini-coinjoin antara dua partisipan ketika melakukan pembayaran ke pihak ketiga. Transaksi Stonewall x2 tersedia di aplikasi Ashigaru, sebuah fork dari Samourai Wallet, tim di balik pembuatan jenis transaksi ini.
 
 https://planb.academy/tutorials/wallet/mobile/ashigaru-9f903b55-2e55-4b06-9627-80f8e178158f
 
-Cara kerjanya relatif sederhana: Anda menggunakan UTXO yang Anda miliki untuk melakukan pembayaran, dan meminta bantuan pihak ketiga yang juga berkontribusi dengan UTXO mereka sendiri. Transaksi berakhir dengan empat keluaran: dua di antaranya dalam jumlah yang sama, satu ditujukan ke alamat penerima pembayaran, yang lainnya ke alamat milik kolaborator. UTXO ketiga dikembalikan ke alamat lain milik kolaborator, memungkinkannya untuk mendapatkan kembali jumlah awal (tindakan netral baginya, modulo biaya mining), dan UTXO terakhir dikembalikan ke alamat milik kami, yang merupakan pertukaran pembayaran.
+Cara kerjanya relatif sederhana: kamu menggunakan UTXO yang kamu miliki untuk melakukan pembayaran, lalu meminta bantuan pihak ketiga yang juga berkontribusi dengan UTXO mereka sendiri. Transaksi ini berakhir dengan empat keluaran: dua di antaranya memiliki jumlah yang sama, satu ditujukan ke alamat penerima pembayaran, dan satunya lagi ke alamat milik kolaborator. UTXO ketiga dikembalikan ke alamat lain milik kolaborator, sehingga ia bisa mendapatkan kembali jumlah awalnya, yang secara bersih bersifat netral baginya, modulo biaya mining, dan UTXO terakhir dikembalikan ke alamat milik aku, yang merupakan kembalian dari pembayaran.
 
 
 
@@ -45,7 +43,7 @@ Dengan menganalisis transaksi ini, kita dapat melihat bahwa pembuat roti sebenar
 
 
 
-Dalam contoh ini, saya sengaja mengabaikan biaya mining agar lebih mudah dipahami. Pada kenyataannya, biaya transaksi dibagi rata antara penerbit pembayaran dan kolaborator.
+Dalam contoh ini, aku sengaja mengabaikan biaya mining agar lebih mudah dipahami. Pada kenyataannya, biaya transaksi dibagi rata antara penerbit pembayaran dan kolaborator.
 
 
 
@@ -53,11 +51,9 @@ Dalam contoh ini, saya sengaja mengabaikan biaya mining agar lebih mudah dipaham
 
 
 
-Transaksi StonewallX2 bekerja dengan cara yang sama persis dengan transaksi Stonewall, kecuali yang pertama bersifat kolaboratif, sedangkan yang kedua tidak. Seperti yang telah kita lihat, transaksi StonewallX2 melibatkan partisipasi pihak ketiga, yang berada di luar pembayaran, dan yang akan menyediakan bitcoin-nya untuk meningkatkan kerahasiaan transaksi. Dalam transaksi Stonewall klasik, peran kolaborator diambil oleh pengirim.
+Transaksi Stonewall x2 bekerja dengan cara yang sama persis dengan transaksi Stonewall, dengan satu perbedaan utama: yang pertama bersifat kolaboratif, sedangkan yang kedua tidak. Seperti yang sudah kita bahas, transaksi Stonewall x2 melibatkan partisipasi pihak ketiga yang berada di luar pembayaran, dan yang menyediakan bitcoin miliknya untuk meningkatkan kerahasiaan transaksi. Dalam transaksi Stonewall klasik, peran kolaborator ini diambil langsung oleh pengirim.
 
-
-
-Mari kita kembali ke contoh Alice di toko roti. Jika dia tidak dapat menemukan seseorang seperti Bob untuk menemaninya berbelanja, dia bisa saja melakukan Stonewall sendirian. Dengan begitu, dua UTXO dalam perjalanan masuk akan menjadi miliknya, dan dia akan mendapatkan 3 UTXO dalam perjalanan keluar.
+Mari kita kembali ke contoh Alice di toko roti. Jika dia tidak bisa menemukan seseorang seperti Bob untuk menemaninya berbelanja, dia tetap bisa melakukan Stonewall sendirian. Dalam skenario ini, dua UTXO pada sisi input sepenuhnya miliknya, dan dia akan menerima 3 UTXO pada sisi output.
 
 
 
@@ -74,13 +70,13 @@ Dari sudut pandang orang luar, transaksi akan tetap sama.
 
 
 
-Oleh karena itu, logikanya adalah sebagai berikut ketika Anda ingin menggunakan alat belanja Ashigaru:
+Oleh karena itu, logikanya adalah sebagai berikut ketika kamu ingin menggunakan alat belanja Ashigaru:
 
 
 
 
-- Jika pedagang tidak mendukung Payjoin Stowaway, Anda dapat melakukan transaksi kolaboratif dengan orang lain di luar pembayaran berkat Stonewall x2 ;
-- Jika Anda tidak dapat menemukan siapa pun untuk melakukan transaksi Stonewall x2, Anda dapat melakukan transaksi Stonewall saja, yang akan meniru perilaku transaksi Stonewall x2.
+- Jika pedagang tidak mendukung Payjoin Stowaway, kamu dapat melakukan transaksi kolaboratif dengan orang lain di luar pembayaran berkat Stonewall x2 ;
+- Jika kamu tidak dapat menemukan siapa pun untuk melakukan transaksi Stonewall x2, kamu dapat melakukan transaksi Stonewall saja, yang akan meniru perilaku transaksi Stonewall x2.
 
 
 
@@ -90,11 +86,9 @@ https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-033daa45-d42
 
 
 
-Struktur Stonewall x2 menambahkan sejumlah besar entropi ke dalam transaksi, mengacaukan analisis rantai. Dilihat dari luar, transaksi seperti itu dapat ditafsirkan sebagai Coinjoin kecil antara dua orang. Namun pada kenyataannya, ini adalah sebuah pembayaran. Oleh karena itu, metode ini menciptakan ketidakpastian dalam analisis rantai, atau bahkan menyebabkan petunjuk yang salah.
+Struktur Stonewall x2 menambahkan tingkat entropi yang signifikan ke dalam transaksi, sehingga mengacaukan analisis rantai. Dilihat dari luar, transaksi semacam ini bisa ditafsirkan sebagai CoinJoin kecil antara dua orang, padahal pada kenyataannya ini adalah sebuah pembayaran. Karena itu, metode ini menciptakan ketidakpastian dalam analisis rantai, atau bahkan bisa mengarahkan pada kesimpulan yang keliru.
 
-
-
-Mari kita ambil contoh Alice, Bob, dan Boulanger. Transaksi pada blockchain akan terlihat seperti ini:
+Mari kita ambil contoh Alice, Bob, dan Boulanger. Transaksi di blockchain akan terlihat seperti ini:
 
 
 
@@ -110,7 +104,7 @@ Seorang pengamat luar yang mengandalkan heuristik analisis rantai umum mungkin a
 
 
 
-Interpretasi ini salah karena, seperti yang Anda ketahui, UTXO dikirim ke Boulanger, Alice hanya memiliki satu output pertukaran, dan Bob memiliki dua.
+Interpretasi ini salah karena, seperti yang kamu ketahui, UTXO dikirim ke Boulanger, Alice hanya memiliki satu output pertukaran, dan Bob memiliki dua.
 
 
 
@@ -118,9 +112,7 @@ Interpretasi ini salah karena, seperti yang Anda ketahui, UTXO dikirim ke Boulan
 
 
 
-Bahkan jika pengamat luar berhasil mengidentifikasi patern dari transaksi Stonewall x2, dia tidak akan memiliki semua informasi. Dia tidak akan dapat menentukan mana dari dua UTXO dengan jumlah yang sama yang sesuai dengan pembayaran. Ia juga tidak akan dapat menentukan apakah Alice atau Bob yang melakukan pembayaran. Terakhir, dia tidak akan dapat menentukan apakah dua UTXO yang dimasukkan berasal dari dua orang yang berbeda, atau apakah mereka milik satu orang yang telah menggabungkannya. Poin terakhir ini disebabkan oleh fakta bahwa transaksi Stonewall klasik, yang dibahas di atas, mengikuti pola yang sama persis dengan transaksi Stonewall x2. Dilihat dari luar dan tanpa informasi kontekstual tambahan, tidak mungkin untuk membedakan transaksi Stonewall dengan transaksi Stonewall x2. Yang pertama bukanlah transaksi kolaboratif, sedangkan yang kedua adalah transaksi kolaboratif. Hal ini menambah keraguan terhadap biaya.
-
-
+Bahkan jika pengamat luar berhasil mengidentifikasi pola dari transaksi Stonewall x2, dia tetap tidak akan memiliki semua informasi yang dibutuhkan. Dia tidak bisa menentukan mana dari dua UTXO dengan jumlah yang sama yang merupakan pembayaran. Dia juga tidak bisa memastikan apakah Alice atau Bob yang sebenarnya melakukan pembayaran. Terakhir, dia tidak dapat mengetahui apakah dua UTXO input berasal dari dua orang yang berbeda, atau justru milik satu orang yang sama yang digabungkan. Poin terakhir ini muncul karena transaksi Stonewall klasik, yang sudah dibahas sebelumnya, mengikuti pola yang persis sama dengan transaksi Stonewall x2. Dilihat dari luar dan tanpa informasi kontekstual tambahan, tidak mungkin membedakan transaksi Stonewall dengan transaksi Stonewall x2. Yang pertama bukan transaksi kolaboratif, sedangkan yang kedua adalah transaksi kolaboratif. Kondisi ini semakin menambah tingkat ketidakpastian dalam analisis biaya.
 
 ![image](assets/fr/05.webp)
 
@@ -131,11 +123,9 @@ Bahkan jika pengamat luar berhasil mengidentifikasi patern dari transaksi Stonew
 
 
 
-Seperti halnya transaksi kolaboratif lainnya di Ashigaru (*Cahoots*), Stonewall x2 melibatkan pertukaran transaksi yang ditandatangani sebagian antara pengirim dan kolaborator. Pertukaran ini dapat dilakukan secara manual, jika Anda hadir secara fisik dengan kolaborator Anda, atau secara otomatis menggunakan protokol komunikasi Soroban.
+Seperti halnya transaksi kolaboratif lainnya di Ashigaru (Cahoots), Stonewall x2 melibatkan pertukaran transaksi yang ditandatangani sebagian antara pengirim dan kolaborator. Pertukaran ini bisa dilakukan secara manual jika kamu hadir secara fisik bersama kolaboratormu, atau secara otomatis menggunakan protokol komunikasi Soroban.
 
-
-
-Jika Anda memilih opsi kedua, Anda harus membuat koneksi antara Paynym sebelum Anda dapat melakukan Stonewall x2. Untuk melakukan ini, Paynym Anda harus "*mengikuti*" Paynym kolaborator Anda, dan sebaliknya. Untuk mengetahui cara melakukannya, Anda dapat mengikuti bagian awal dari tutorial ini:
+Jika kamu memilih opsi kedua, kamu perlu membuat koneksi antar PayNym sebelum bisa melakukan Stonewall x2. Untuk melakukannya, PayNym kamu harus "mengikuti" PayNym milik kolaboratormu, dan sebaliknya. Untuk mengetahui caranya, kamu bisa mengikuti bagian awal dari tutorial ini:
 
 
 
@@ -145,7 +135,7 @@ https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95
 
 
 
-Untuk melakukan transaksi Stonewall x2, klik gambar Paynym Anda di sudut kiri atas layar, lalu buka menu `Bekerja Sama`. Orang yang ikut serta dalam transaksi dengan Anda juga harus melakukan hal yang sama, kecuali jika Anda menukarkan kode QR secara langsung.
+Untuk melakukan transaksi Stonewall x2, klik gambar Paynym kamu di sudut kiri atas layar, lalu buka menu `Collaborate`. Orang yang ikut serta dalam transaksi dengan kamu juga harus melakukan hal yang sama, kecuali jika kamu menukarkan kode QR secara langsung.
 
 
 
@@ -153,7 +143,7 @@ Untuk melakukan transaksi Stonewall x2, klik gambar Paynym Anda di sudut kiri at
 
 
 
-Anda memiliki dua pilihan: pilih `Memulai` jika Anda adalah pengirim pembayaran, atau `Berpartisipasi` jika Anda adalah orang yang berkolaborasi dalam transaksi tetapi bukan pembayar maupun penerima sebenarnya.
+Kamu memiliki dua pilihan: pilih `Memulai` jika kamu adalah pengirim pembayaran, atau `Berpartisipasi` jika kamu adalah orang yang berkolaborasi dalam transaksi tetapi bukan pembayar maupun penerima sebenarnya.
 
 
 
@@ -161,7 +151,7 @@ Anda memiliki dua pilihan: pilih `Memulai` jika Anda adalah pengirim pembayaran,
 
 
 
-Jika Anda berperan sebagai kolaborator, prosedurnya sangat sederhana. Untuk kolaborasi jarak jauh melalui jaringan Soroban, klik `Berpartisipasi`, pilih akun yang ingin Anda gunakan, lalu tekan `DENGARKAN PERMINTAAN KOLABORASI` untuk menunggu permintaan yang dikirim oleh pembayar.
+Jika kamu berperan sebagai kolaborator, prosedurnya sangat sederhana. Untuk kolaborasi jarak jauh melalui jaringan Soroban, klik `Berpartisipasi`, pilih akun yang ingin kamu gunakan, lalu tekan `DENGARKAN PERMINTAAN KOLABORASI` untuk menunggu permintaan yang dikirim oleh pembayar.
 
 
 
@@ -169,7 +159,7 @@ Jika Anda berperan sebagai kolaborator, prosedurnya sangat sederhana. Untuk kola
 
 
 
-Di sisi lain, untuk kolaborasi langsung melalui pemindaian kode QR, buka halaman beranda wallet Anda, tekan ikon kode QR di bagian atas layar, lalu pindai kode QR yang disediakan oleh pembayar yang memulai transaksi.
+Di sisi lain, untuk kolaborasi langsung melalui pemindaian kode QR, buka halaman beranda wallet kamu, tekan ikon kode QR di bagian atas layar, lalu pindai kode QR yang disediakan oleh pembayar yang memulai transaksi.
 
 
 
@@ -177,7 +167,7 @@ Di sisi lain, untuk kolaborasi langsung melalui pemindaian kode QR, buka halaman
 
 
 
-Jika Anda berperan sebagai pembayar, yaitu pihak yang memulai transaksi, buka menu `Bekerja Sama`, lalu pilih `Memulai`.
+Jika kamu berperan sebagai pembayar, yaitu pihak yang memulai transaksi, buka menu `Collaborate`, lalu pilih `Memulai`.
 
 
 
@@ -193,7 +183,7 @@ Untuk jenis transaksi, karena kita ingin melakukan Stonewall x2, pilih opsi ini.
 
 
 
-Anda kemudian dapat memilih antara kolaborasi online (*Cahoots* melalui *Soroban*) atau kolaborasi tatap muka, dengan pertukaran kode QR.
+Kemudian kamu dapat memilih antara kolaborasi online (*Cahoots* melalui *Soroban*) atau kolaborasi tatap muka, dengan pertukaran kode QR.
 
 
 
@@ -205,7 +195,7 @@ Anda kemudian dapat memilih antara kolaborasi online (*Cahoots* melalui *Soroban
 
 
 
-Jika Anda telah memilih opsi `Online`, pilih kolaborator Anda dari Paynyms yang Anda ikuti.
+Jika kamu telah memilih opsi `Online`, pilih kolaborator Anda dari Paynyms yang kamu ikuti.
 
 
 
@@ -213,7 +203,7 @@ Jika Anda telah memilih opsi `Online`, pilih kolaborator Anda dari Paynyms yang 
 
 
 
-Klik `Siapkan transaksi`, lalu pilih akun yang ingin Anda gunakan untuk melakukan pengeluaran.
+Klik `Siapkan transaksi`, lalu pilih akun yang ingin kamu gunakan untuk melakukan pengeluaran.
 
 
 
@@ -229,7 +219,7 @@ Pada halaman berikutnya, masukkan detail transaksi: alamat penerima pembayaran, 
 
 
 
-Periksa informasi dengan seksama, pastikan kolaborator Anda mendengarkan permintaan *Cahoots*, lalu klik tombol hijau `MULAI TRANSAKSI` untuk memulai pertukaran PSBT melalui Soroban.
+Periksa informasi dengan seksama, pastikan kolaborator kamu mendengarkan permintaan *Cahoots*, lalu klik tombol hijau `MULAI TRANSAKSI` untuk memulai pertukaran PSBT melalui Soroban.
 
 
 
@@ -249,7 +239,7 @@ Tunggu hingga kedua peserta menandatangani transaksi, lalu siarkan di jaringan B
 
 
 
-Jika Anda ingin melakukan penukaran secara langsung, pilih jenis transaksi `STONEWALL X2`, lalu pilih opsi `Di Tempat / Manual`.
+Jika kamu ingin melakukan penukaran secara langsung, pilih jenis transaksi `STONEWALL X2`, lalu pilih opsi `Di Tempat / Manual`.
 
 
 
@@ -257,7 +247,7 @@ Jika Anda ingin melakukan penukaran secara langsung, pilih jenis transaksi `STON
 
 
 
-Klik `Siapkan transaksi`, lalu pilih akun yang ingin Anda gunakan untuk melakukan pengeluaran.
+Klik `Siapkan transaksi`, lalu pilih akun yang ingin kamu gunakan untuk melakukan pengeluaran.
 
 
 
@@ -281,7 +271,7 @@ Periksa detailnya, lalu tekan tombol hijau `MULAI TRANSAKSI` untuk mulai menukar
 
 
 
-Pertukaran dilakukan dengan cara bergantian memindai dengan kolaborator: klik `TAMPILKAN KODE QR` untuk menampilkan kode QR Anda kepada kolaborator Anda, yang akan memindainya. Dia kemudian akan mengklik `TAMPILKAN KODE QR` untuk menampilkan kode QR miliknya, dan Anda akan memindainya dengan `LAKUKAN PEMINDAH QR`. Ulangi proses ini sampai kelima langkah pertukaran selesai.
+Pertukaran dilakukan dengan cara bergantian memindai dengan kolaborator: klik `TAMPILKAN KODE QR` untuk menampilkan kode QR kamu kepada kolaborator kamu, yang akan memindainya. Dia kemudian akan mengklik `TAMPILKAN KODE QR` untuk menampilkan kode QR miliknya, dan kamu akan memindainya dengan `LAKUKAN PEMINDAH QR`. Ulangi proses ini sampai kelima langkah pertukaran selesai.
 
 
 
@@ -309,16 +299,11 @@ Setelah semua pertukaran selesai, periksa detail transaksi, lalu lepaskan dengan
 
 
 
-Kita dapat mengamati dua input dari portofolio saya, masing-masing `91.869 sats` dan `64.823 sats`, sedangkan dua input lainnya berasal dari wallet kolaborator saya. Di sisi output, satu UTXO sebesar `100.000 sats` dikirim ke penerima pembayaran yang sebenarnya, dan dua UTXO sebesar `100.000 sats` dan `159.578 sats` kembali ke portofolio kolaborator saya. Baginya, operasi ini netral, karena dia mendapatkan kembali seluruh dana yang telah diinvestasikannya sebagai input (tidak termasuk biaya mining yang dikontribusikannya). Akhirnya, saya menerima pertukaran UTXO sebesar `56.270 sats`, sesuai dengan selisih antara total input saya dan pembayaran `100.000 sats` yang dikirim ke penerima.
+Kita bisa mengamati dua input dari portofolio aku, masing-masing `91.869 sats` dan `64.823 sats`, sementara dua input lainnya berasal dari wallet kolaborator aku. Di sisi output, satu UTXO sebesar `100.000 sats` dikirim ke penerima pembayaran yang sebenarnya, dan dua UTXO sebesar `100.000 sats` serta `159.578 sats` kembali ke portofolio kolaborator aku. Bagi dia, operasi ini bersifat netral, karena dia mendapatkan kembali seluruh dana yang dia masukkan sebagai input, tidak termasuk biaya mining yang dia kontribusikan. Terakhir, aku menerima kembalian UTXO sebesar `56.270 sats`, yang sesuai dengan selisih antara total input aku dan pembayaran `100.000 sats` yang dikirim ke penerima.
 
+Tentu saja, aku bisa menjelaskan struktur ini karena aku sendiri yang membuat transaksinya. Namun bagi pengamat luar, umumnya tidak mungkin untuk menentukan UTXO mana yang dimiliki oleh masing-masing partisipan, baik di sisi input maupun output.
 
-
-Tentunya, saya dapat menggambarkan struktur ini karena saya sendiri yang membuat transaksinya. Tetapi bagi pengamat luar, umumnya tidak mungkin untuk menentukan UTXO mana yang menjadi milik peserta mana, baik dalam hal input maupun output.
-
-
-
-Untuk memperdalam pengetahuan Anda tentang manajemen privasi onchain di Bitcoin, saya sarankan Anda mengikuti pelatihan BTC 204 saya di Plan ₿ Academy:
-
+Untuk memperdalam pemahaman kamu tentang manajemen privasi onchain di Bitcoin, aku menyarankan kamu untuk mengikuti pelatihan BTC 204 aku di Plan ₿ Academy:
 
 
 https://planb.academy/courses/65c138b0-4161-4958-bbe3-c12916bc959c

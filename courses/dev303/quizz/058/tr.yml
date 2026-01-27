@@ -1,0 +1,8 @@
+question: Farklı sayıda girdi argümanını işlemesi gereken özel bir fonksiyon benzeri makro oluştururken, hangi parça belirteci ve tekrarlama kalıbı kombinasyonu en uygun olur?
+answer: Virgülle ayrılmış sıfır veya daha fazla ifadeyi eşleştirmek için $($x:expr),* kullanın
+wrong_answers:
+  - Ayırıcı olmadan bir veya daha fazla tanımlayıcıyı eşleştirmek için $($x:ident)+ kullanın
+  - Noktalı virgüllerle ayrılmış sıfır veya daha fazla türle eşleştirmek için $($x:ty);* kullanın
+  - Tekrarı olmayan isteğe bağlı tek bir ifadeyle eşleşmek için $($x:expr)?
+explanation: |
+  $($x:expr),* kalıbı özellikle değişken bağımsız değişken makroları için tasarlanmıştır; burada expr herhangi bir ifadeyle eşleşir ve ,* sözdizimi virgülle ayrılmış sıfır veya daha fazla tekrarı işler. Bu, vec! gibi değişken sayıda bağımsız değişken kabul edebilen makrolar için tam olarak gerekli olan şeydir. Diğer seçenekler yanlıştır çünkü: ident yalnızca tanımlayıcıları eşleştirir (tam ifadeleri değil), ty türleri eşleştirir (değerleri değil) ve ? değişken tekrarları yerine isteğe bağlı tek öğeleri eşleştirir.

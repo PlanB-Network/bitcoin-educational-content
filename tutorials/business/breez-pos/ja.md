@@ -1,5 +1,5 @@
 ---
-name: ブリーズ - POS
+name: Breez - POS
 description: Breezを使えば、ビットコイン決済を簡単に行うことができます。
 ---
 

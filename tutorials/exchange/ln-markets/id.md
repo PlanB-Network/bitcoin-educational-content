@@ -299,7 +299,7 @@ Saldo Bitcoin dan Sintetis USD dengan riwayat setoran, penarikan, transfer silan
 
 
 
-LN Markets menawarkan API REST (V2 dan V3) yang lengkap untuk mengotomatiskan trading Anda sepenuhnya melalui skrip atau bot. Anda dapat membuat kunci API dengan izin yang dapat disesuaikan (hanya-baca, perdagangan, penarikan) langsung dari antarmuka. TypeScript dan Python SDK resmi tersedia untuk integrasi yang mudah. Dokumentasi lengkap API V3 tersedia di [api.lnmarkets.com/v3] (https://api.lnmarkets.com/v3).
+LN Markets menawarkan API REST (V2 dan V3) yang lengkap untuk mengotomatiskan trading Anda sepenuhnya melalui skrip atau bot. Anda dapat membuat kunci API dengan izin yang dapat disesuaikan (hanya-baca, perdagangan, penarikan) langsung dari antarmuka. TypeScript dan Python SDK resmi tersedia untuk integrasi yang mudah. Dokumentasi lengkap API V3 tersedia di [api.lnmarkets.com/v3](https://api.lnmarkets.com/v3).
 
 
 

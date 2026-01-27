@@ -1,0 +1,8 @@
+question: Koje su dve varijante Rust-ovog Result enum-a korišćene za rukovanje povratljivim greškama?
+answer: Ok(T) za uspešne operacije i Err(E) za neuspehe
+wrong_answers:
+  - Uspeh(T) za uspešne operacije i Neuspeh(E) za neuspehe
+  - Neki(T) za uspešne operacije i Ništa za neuspehe
+  - Pass(T) za uspešne operacije i Panic(E) za neuspehe
+explanation: |
+  Enum Result u Rust ima tačno dve varijante: Ok(T) koja sadrži uspešnu vrednost tipa T, i Err(E) koja sadrži grešku tipa E. Ovaj dizajn primorava programere da eksplicitno obrade i uspešne i neuspešne slučajeve. Ostale opcije su netačne - Success/Failure nisu varijante Result-a, Some/None pripadaju Option enumeraciji za obradu null vrednosti, a Pass/Panic nisu standardne varijante Rust enumeracije za obradu grešaka.

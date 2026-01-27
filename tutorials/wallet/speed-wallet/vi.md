@@ -63,7 +63,7 @@ Speed Wallet có sẵn dưới dạng ứng dụng di động trên nền tảng
 
 
 
-Bạn có thể tìm thấy liên kết để tải xuống nền tảng trên trang web chính thức [Speed Wallet] (https://speed.app).
+Bạn có thể tìm thấy liên kết để tải xuống nền tảng trên trang web chính thức [Speed Wallet](https://speed.app).
 
 
 

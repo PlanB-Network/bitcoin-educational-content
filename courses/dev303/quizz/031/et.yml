@@ -1,0 +1,8 @@
+question: Millist tüüpi viga peaks Rust programmides paanikat esile kutsuma?
+answer: Parandamatud vead, mis viitavad programmeerimisloogika vigadele või ebaturvalistele seisunditele
+wrong_answers:
+  - Võrguühenduse tõrked või väliste teenuste aeglustumisvead
+  - Vale kasutaja sisestus või puuduvad konfiguratsioonifailid
+  - Faili ei leitud vigu või keelatakse loa andmine
+explanation: |
+  Paanika peaks olema reserveeritud parandamatute vigade jaoks, mis kujutavad endast programmeerimisvigu või olukordi, kus programm on sattunud ebaturvalisse olekusse, nagu näiteks massiivi piiride rikkumine või mälu turvalisuse probleemid. Kõik valed vastused kirjeldavad taastatavaid vigu - võrguhäired, kasutaja sisendprobleemid ja failisüsteemi probleemid on eeldatavad tingimused, mida programmid peaksid väärikalt käsitlema, kasutades tulemitüüpe, mitte aga krahhi. Need taastatavad vead võimaldavad programmidel jätkata tööd, rakendades sobivaid veakäitlusstrateegiaid.

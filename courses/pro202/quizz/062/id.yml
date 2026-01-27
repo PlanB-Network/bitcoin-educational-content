@@ -1,0 +1,8 @@
+question: Dalam tumpukan saksi transaksi P2WSH untuk multisig 2 dari 3, mengapa elemen kosong harus disertakan di bagian bawah tumpukan saksi?
+answer: Untuk mengkompensasi bug off-by-one dari CHECKMULTISIG yang menghabiskan elemen stack ekstra selama eksekusi
+wrong_answers:
+  - "Untuk menyediakan penampung untuk tanda tangan ketiga yang tidak digunakan dalam validasi multisig 2-dari-3"
+  - Untuk memisahkan data tanda tangan dari skrip saksi untuk penguraian validasi SegWit yang tepat
+  - Untuk memastikan tumpukan saksi memiliki jumlah elemen yang genap untuk konstruksi pohon merkle yang efisien
+explanation: |
+  Opcode CHECKMULTISIG memiliki bug historis di mana ia mengeluarkan satu elemen tambahan dari tumpukan di luar yang seharusnya. Hal ini mempengaruhi semua transaksi multisig, termasuk P2WSH. Elemen kosong mengkompensasi bug ini, memastikan elemen tumpukan yang tersisa (tanda tangan dan skrip saksi) diposisikan dengan benar untuk validasi. Opsi lainnya tidak benar: tanda tangan yang tidak terpakai tidak diwakili oleh elemen kosong, penguraian saksi tidak membutuhkan elemen pemisah, dan tumpukan saksi tidak membutuhkan jumlah elemen yang sama untuk operasi merkle.

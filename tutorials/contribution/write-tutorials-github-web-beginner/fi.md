@@ -12,7 +12,7 @@ Sinulla on jo:
 
 
 - Valitse opetusohjelmasi teema;
-- Ota yhteyttä Plan ₿ Academy -tiimiin [Telegram-ryhmässä] (https://t.me/PlanBNetwork_ContentBuilder) tai paolo@planb.network ;
+- Ota yhteyttä Plan ₿ Academy -tiimiin [Telegram-ryhmässä](https://t.me/PlanBNetwork_ContentBuilder) tai paolo@planb.network ;
 - Valitse osallistumisvälineesi.
 
 Tässä oppaassa tarkastelemme, miten voit lisätä oppaasi Plan ₿ -verkkoon GitHubin verkkoversion avulla. Jos hallitset jo Gitin, tämä hyvin yksityiskohtainen opetusohjelma ei ehkä ole sinulle tarpeen. Sen sijaan suosittelen, että tutustut johonkin näistä kahdesta muusta opetusohjelmasta, joissa kerron yksityiskohtaisesti noudatettavista ohjeista ja muutosten tekemisen vaiheista paikallisesta:

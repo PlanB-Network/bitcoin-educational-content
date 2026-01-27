@@ -64,7 +64,7 @@ Chcete-li používat SeedSigner s nástrojem Seedkeeper, musíte nainstalovat al
 
 
 
-Pokud jej ještě nemáte, stáhněte si software [Balena Etcher] (https://etcher.balena.io/) a postupujte následovně:
+Pokud jej ještě nemáte, stáhněte si software [Balena Etcher](https://etcher.balena.io/) a postupujte následovně:
 
 
 

@@ -1,0 +1,8 @@
+question: Katika muktadha wa vichujio vya vizuizi vidogo (BIP158) kwa wateja wa mwanga wanaohifadhi faragha, ni mabadiliko gani muhimu yanayowafanya wawe na ufanisi kwa faragha ya wallet?
+answer: Zinaweza kutoa matokeo chanya ya uongo lakini si matokeo hasi ya uongo, hivyo kuruhusu wateja kupakua vizuizi ambavyo havihusiani na mahitaji bila kufichua anwani maalum.
+wrong_answers:
+  - Wanaweza kutoa matokeo hasi ya uongo lakini si matokeo chanya ya uongo, wakihakikisha wateja wanapakua vizuizi vyenye miamala yao pekee.
+  - Huondoa chanya za uongo na hasi za uongo kwa kutumia uchujaji wa uhakika kulingana na anwani za wallet.
+  - "Huzalisha chanya na hasi za uongo kwa uwiano sawa ili kuficha mifumo halisi ya miamala ya mteja"
+explanation: |
+  Vichujio vya vitalu vidogo vimeundwa kwa mfumo wa hitilafu usio na ulinganifu: vinaweza kuonyesha kuwa vitalu vina miamala husika wakati havina (chanya ya uwongo), lakini havitawahi kukosa vitalu ambavyo kwa kweli vina miamala husika (hakuna hasi ya uwongo). Muundo huu ni muhimu kwa sababu hasi ya uwongo itamaanisha kukosa malipo halisi, huku chanya ya uwongo ikisababisha tu kupakua vitalu visivyo vya lazima. Kiwango cha chanya ya uwongo hutoa faragha kwa kuwalazimisha wateja kupakua vitalu visivyo vya maana, na kufanya iwe vigumu kwa waangalizi kubaini ni vitalu vipi vyenye miamala ya mteja.

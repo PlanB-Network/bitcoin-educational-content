@@ -1,5 +1,5 @@
 ---
-name: Máy tính để bàn Spectre
+name: Specter Desktop
 description: Quản lý danh mục đầu tư Bitcoin đa chữ ký của bạn trong quyền tự chủ hoàn toàn với nút riêng của bạn
 ---
 
@@ -127,7 +127,7 @@ Dưới đây bạn sẽ tìm thấy hướng dẫn của chúng tôi về phầ
 
 
 
-https://planb.academy/tutorials/wallet/hardware/coldcard-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
+https://planb.academy/tutorials/wallet/hardware/coldcard-mk4-5d44dd94-423d-4e37-9a8c-3fc38b45ce59
 
 Đối với Coldcard, bạn cần xuất khóa công khai từ phần cứng wallet thông qua kết nối USB hoặc thẻ nhớ microSD.
 

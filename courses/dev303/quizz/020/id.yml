@@ -1,0 +1,8 @@
+question: Apa perbedaan utama antara metode dan fungsi terkait dalam struktur Rust?
+answer: Metode mengambil diri sebagai parameter pertama, sementara fungsi yang terkait tidak
+wrong_answers:
+  - Metode bersifat publik secara default, sedangkan fungsi terkait bersifat privat secara default
+  - Metode hanya dapat membaca data, sementara fungsi terkait dapat memodifikasi bidang struktur
+  - Metode menggunakan notasi titik untuk memanggil, sementara fungsi terkait menggunakan notasi panah
+explanation: |
+  Metode dalam Rust adalah fungsi-fungsi yang didefinisikan dalam blok impl yang mengambil beberapa bentuk self sebagai parameter pertamanya (self, &self, atau &mut self), yang memungkinkan mereka untuk beroperasi pada instance dari struktur. Fungsi-fungsi terkait juga didefinisikan dalam blok impl tetapi tidak menggunakan self sebagai parameter, membuatnya mirip dengan metode statis dalam bahasa lain. Fungsi-fungsi terkait dipanggil menggunakan sintaksis titik dua ganda (Type::nama_fungsi()) dan biasanya digunakan sebagai konstruktor, sementara metode dipanggil pada instance menggunakan notasi titik. Pilihan lain tidak benar karena metode dan fungsi terkait mengikuti aturan visibilitas yang sama, keduanya dapat dirancang untuk memodifikasi atau membaca data tergantung pada implementasinya, dan fungsi terkait menggunakan sintaks titik dua ganda, bukan notasi panah.

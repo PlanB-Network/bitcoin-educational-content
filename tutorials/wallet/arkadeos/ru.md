@@ -372,14 +372,15 @@ ArkadeOS - это конкретное приложение, которое де
 
 
 
-| Critère | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
+
+| Критерий | Arkade (Ark) | Lightning Network | Cashu (E-cash) |
 | :--- | :--- | :--- | :--- |
-| **Modèle** | UTXO partagé coordonné par serveur (ASP) | Réseau P2P de canaux de paiement | Jetons aveugles émis par une banque (Mint) |
-| **Custodie** | **Non-custodial** (vous avez les clés) | **Non-custodial** (vous avez les clés) | **Custodial** (le Mint a les fonds) |
-| **Confidentialité** | **Élevée** (CoinJoin natif, aveugle pour le public) | **Moyenne** (Routage en oignon, mais canaux visibles) | **Très Élevée** (Aveugle même pour le Mint) |
-| **Scalabilité** | Excellente (Batching massif on-chain) | Excellente (Transactions infinies off-chain) | Excellente (Simples signatures serveur) |
-| **Expérience** | Simple (proche d'un wallet on-chain) | Complexe (gestion de canaux, liquidité) | Très simple (comme du cash numérique) |
-| **Risque principal** | Disponibilité de l'ASP & Expiration | Gestion des canaux & Backups | Confiance dans le Mint (risque de vol) |
+| **Модель** | Общий UTXO, координируемый сервером (ASP) | P2P-сеть платежных каналов | Слепые токены, выпущенные банком (Mint) |
+| **Хранение** | **Некастодиальное** (ключи у вас) | **Некастодиальное** (ключи у вас) | **Кастодиальное** (фонды у Mint) |
+| **Конфиденциальность** | **Высокая** (нативный CoinJoin, скрыто от публики) | **Средняя** (луковая маршрутизация, но каналы видны) | **Очень высокая** (скрыто даже от Mint) |
+| **Масштабируемость** | Отличная (массивный батчинг on-chain) | Отличная (бесконечные транзакции off-chain) | Отличная (простые серверные подписи) |
+| **Опыт** | Простой (близко к on-chain кошельку) | Сложный (управление каналами, ликвидность) | Очень простой (как цифровые наличные) |
+| **Основной риск** | Доступность ASP и истечение срока | Управление каналами и бэкапы | Доверие к Mint (риск кражи) |
 
 **Arkade** - это идеальный компромисс: простота и конфиденциальность Cashu, но суверенитет (не связанный с лишением свободы) Lightning.
 

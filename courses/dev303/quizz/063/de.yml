@@ -1,0 +1,8 @@
+question: Wenn ein Makro das Muster `$($x:expr),*` in seiner Definition verwendet, was bewirkt dieses Muster?
+answer: Er passt auf null oder mehrere Ausdrücke, die durch Kommas getrennt sind, und ermöglicht Argumentlisten mit variabler Länge
+wrong_answers:
+  - Er entspricht genau einem Ausdruck und wiederholt die Makroexpansion mehrfach
+  - Es passt zu einer beliebigen Anzahl von Typdefinitionen, die für die Codegenerierung durch Semikolon getrennt sind
+  - Er erstellt eine Schleife, die das Makro zur Laufzeit mit verschiedenen Ausdruckswerten ausführt
+explanation: |
+  Das Muster `$($x:expr),*` verwendet die Makro-Wiederholungssyntax von Rust, wobei der Quantifizierer `*` 'null oder mehr' bedeutet, `$x:expr` jeden Ausdruck erfasst und das Komma das Trennzeichen zwischen den Ausdrücken angibt. Dadurch können Makros wie `vec!` eine beliebige Anzahl von Argumenten akzeptieren: `vec![1, 2, 3]` oder `vec![]`. Die anderen Optionen sind falsch, weil: das Muster mehrere Ausdrücke und nicht nur einen behandelt, es speziell auf Ausdrücke und nicht auf Typdefinitionen abgestimmt ist und Kommas und nicht Semikolons verwendet, und Makros zur Kompilierzeit während der Codegenerierung und nicht zur Laufzeit ausgeführt werden.

@@ -1,0 +1,8 @@
+question: Jaký je základní mechanismus, který umožňuje SegWit zvýšit kapacitu bloků při zachování zpětné kompatibility s uzly před SegWit?
+answer: Systém váhy bloku, kdy jsou data svědků při výpočtu kapacity snížena o 75 %, což umožňuje zobrazit až 4 MB celkových dat, zatímco starší uzly vidí ≤ 1 MB
+wrong_answers:
+  - Kompresní algoritmy, které před přenosem zmenšují velikost svědeckých dat o 75 % a udržují bloky pod 1 MB pro všechny uzly
+  - Dynamická úprava velikosti bloku, která zvyšuje limity na základě procenta transakcí SegWit v každém bloku
+  - Oddělené bloky svědků přenášené pouze do modernizovaných uzlů, zatímco starší uzly dostávají tradiční 1MB bloky
+explanation: |
+  SegWit používá blokové váhové jednotky, kde se základní transakční data počítají jako 4 váhové jednotky na bajt, zatímco svědecká data se počítají jako 1 váhová jednotka na bajt. Tato 75% sleva umožňuje vytvářet bloky až do 4 milionů váhových jednotek (potenciálně 4 MB se všemi svědeckými daty) a zároveň zajišťuje, že starší uzly nikdy neuvidí více než 1 MB základních transakčních dat. Ostatní možnosti popisují neexistující mechanismy - není zde žádná komprese, žádné dynamické dimenzování a žádný samostatný přenos bloků.

@@ -1,0 +1,8 @@
+question: Koja je glavna prednost lenjosti iteratora u Rust?
+answer: Ne obavljaju nikakav rad dok se ne konzumiraju, omogućavajući efikasno ulančavanje bez kreiranja međukolekcija.
+wrong_answers:
+  - Oni automatski paralelizuju operacije preko više CPU jezgara za bolje performanse
+  - Oni keširaju prethodne rezultate u memoriji kako bi izbegli ponovno računanje istih vrednosti više puta.
+  - Oni koriste manje memorije tako što skladište samo reference umesto kopiranja stvarnih vrednosti podataka.
+explanation: |
+  Lijena evaluacija u Rust iteratorima znači da se obrada ne izvršava sve dok se ne pozove metoda koja troši podatke. Ovo vam omogućava da povežete više operacija kao što su map, filter i drugi adapteri zajedno, bez kreiranja međukolekcija između svakog koraka. Kompajler može optimizovati čitav lanac u efikasan kod koji obrađuje elemente jedan po jedan kroz sve transformacije, umesto da kreira privremene vektore ili druge kolekcije u svakoj fazi.

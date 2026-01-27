@@ -1,0 +1,9 @@
+question: เครื่องมือที่ใช้ในความปลอดภัยทางไซเบอร์มีอะไรบ้าง?
+answer: Wireshark, Metasploit, Nmap
+wrong_answers:
+  - Photoshop, Illustrator, InDesign
+  - Excel, PowerPoint, Word
+  - AutoCAD, SolidWorks, Revit
+explanation: |
+  บทนี้ระบุ Wireshark, Metasploit, และ Nmap เป็นเครื่องมือบางส่วนที่ใช้ในความปลอดภัยทางไซเบอร์
+reviewed: true

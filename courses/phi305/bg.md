@@ -1,12 +1,11 @@
 ---
 name: Спиноза и Bitcoin
 goal: Открийте философските връзки между мисълта на Спиноза и Bitcoin като инструмент за свобода през вековете.
-objectives: 
-
-- Разбиране на практическата философия на Спиноза и стремежа му към свобода.
-- Изследване на спинозистките концепции за детерминизма и човешките илюзии.
-- Анализиране на паралелите между революцията на идеите на Спиноза и технологичната революция на Bitcoin.
-- Прилагане на теорията за афектите за разпознаване и противопоставяне на манипулацията в политическите системи
+objectives:
+  - Разбиране на практическата философия на Спиноза и стремежа му към свобода.
+  - Изследване на спинозистките концепции за детерминизма и човешките илюзии.
+  - Анализиране на паралелите между революцията на идеите на Спиноза и технологичната революция на Bitcoin.
+  - Прилагане на теорията за афектите за разпознаване и противопоставяне на манипулацията в политическите системи
 
 ---
 # Когато Спиноза срещна Satoshi
@@ -39,7 +38,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.1.webp)
+![image](assets/bg/001.webp)
 
 
 Портрет на Спиноза
@@ -74,7 +73,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.2.webp)
+![image](assets/bg/002.webp)
 
 
 Портрет на Спиноза
@@ -97,7 +96,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.3.webp)
+![image](assets/bg/003.webp)
 
 
 
@@ -105,7 +104,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.4.webp)
+![image](assets/bg/004.webp)
 
 
 
@@ -117,7 +116,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.5.webp)
+![image](assets/bg/005.webp)
 
 
 
@@ -152,7 +151,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.1.webp)
+![image](assets/bg/006.webp)
 
 
 
@@ -160,7 +159,6 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -172,7 +170,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.3.webp)
+![image](assets/bg/007.webp)
 
 
 
@@ -192,10 +190,10 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.4.webp)
+![image](assets/bg/008.webp)
 
 
-![image](./assets/fr/1.2.5.webp)
+![image](assets/bg/009.webp)
 
 
 
@@ -211,7 +209,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.6.webp)
+![image](assets/bg/010.webp)
 
 
 
@@ -257,7 +255,6 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -269,7 +266,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.2.webp)
+![image](assets/bg/011.webp)
 
 
 
@@ -281,7 +278,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.3.webp)
+![image](assets/bg/012.webp)
 
 
 
@@ -313,7 +310,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.4.webp)
+![image](assets/bg/013.webp)
 
 
 
@@ -333,7 +330,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/bg/014.webp)
 
 
 
@@ -368,7 +365,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.1.webp)
+![image](assets/bg/015.webp)
 
 
 
@@ -379,7 +376,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.2.webp)
+![image](assets/bg/016.webp)
 
 
 
@@ -391,7 +388,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.3.webp)
+![image](assets/bg/017.webp)
 
 
 
@@ -428,7 +425,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.4.webp)
+![image](assets/bg/018.webp)
 
 
 
@@ -440,7 +437,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.5.webp)
+![image](assets/bg/019.webp)
 
 
 
@@ -448,7 +445,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.6.webp)
+![image](assets/bg/020.webp)
 
 
 
@@ -492,10 +489,9 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.1.webp)
+![image](assets/bg/021.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -507,7 +503,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.3.webp)
+![image](assets/bg/022.webp)
 
 
 
@@ -519,10 +515,9 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.4.webp)
+![image](assets/bg/023.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -530,7 +525,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.6.webp)
+![image](assets/bg/024.webp)
 
 
 
@@ -538,7 +533,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.7.webp)
+![image](assets/bg/025.webp)
 
 
 
@@ -581,7 +576,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.1.webp)
+![image](assets/bg/026.webp)
 
 
 
@@ -605,7 +600,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.2.webp)
+![image](assets/bg/027.webp)
 
 
 
@@ -621,7 +616,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.3.webp)
+![image](assets/bg/028.webp)
 
 
 
@@ -649,7 +644,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.4.webp)
+![image](assets/bg/029.webp)
 
 
 
@@ -674,10 +669,9 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.5.webp)
+![image](assets/bg/030.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -707,7 +701,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.1.webp)
+![image](assets/bg/031.webp)
 
 
 
@@ -731,7 +725,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.2.webp)
+![image](assets/bg/032.webp)
 
 
 
@@ -747,7 +741,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.3.webp)
+![image](assets/bg/033.webp)
 
 
 
@@ -755,7 +749,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.4.webp)
+![image](assets/bg/034.webp)
 
 
 
@@ -771,7 +765,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.5.webp)
+![image](assets/bg/035.webp)
 
 
 
@@ -806,7 +800,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.1.webp)
+![image](assets/bg/036.webp)
 
 
 
@@ -830,7 +824,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.2.webp)
+![image](assets/bg/037.webp)
 
 
 
@@ -842,7 +836,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.3.webp)
+![image](assets/bg/038.webp)
 
 
 
@@ -862,7 +856,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.4.webp)
+![image](assets/bg/039.webp)
 
 
 
@@ -874,7 +868,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.5.webp)
+![image](assets/bg/040.webp)
 
 
 
@@ -882,7 +876,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.6.webp)
+![image](assets/bg/041.webp)
 
 
 
@@ -941,7 +935,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.1.1.webp)
+![image](assets/bg/042.webp)
 
 
 
@@ -949,7 +943,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.1.2.webp)
+![image](assets/bg/043.webp)
 
 
 
@@ -966,7 +960,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.1.3.webp)
+![image](assets/bg/044.webp)
 
 
 
@@ -989,7 +983,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/bg/045.webp)
 
 
 
@@ -1028,7 +1022,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.1.webp)
+![image](assets/bg/046.webp)
 
 
 
@@ -1052,7 +1046,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.2.webp)
+![image](assets/bg/047.webp)
 
 
 
@@ -1068,7 +1062,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.3.webp)
+![image](assets/bg/048.webp)
 
 
 
@@ -1088,7 +1082,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.4.webp)
+![image](assets/bg/049.webp)
 
 
 
@@ -1108,7 +1102,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.5.webp)
+![image](assets/bg/050.webp)
 
 
 
@@ -1145,14 +1139,13 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 
 Точно това е целта на рационалната философия на Просвещението, благодарение най-вече на Имануел Кант (1724-1804), за когото само образованият човек под ръководството на разума може да мисли самостоятелно и да определи от етична гледна точка кое е "истинно" или "добро" и кое е токсично.
 
 
-![image](./assets/fr/4.3.2.webp)
+![image](assets/bg/051.webp)
 
 
 
@@ -1163,7 +1156,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.3.webp)
+![image](assets/bg/052.webp)
 
 
 
@@ -1171,7 +1164,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.4.webp)
+![image](assets/bg/053.webp)
 
 
 
@@ -1192,7 +1185,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.5.webp)
+![image](assets/bg/054.webp)
 
 
 
@@ -1200,7 +1193,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.6.webp)
+![image](assets/bg/055.webp)
 
 
 
@@ -1208,7 +1201,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.7.webp)
+![image](assets/bg/056.webp)
 
 
 

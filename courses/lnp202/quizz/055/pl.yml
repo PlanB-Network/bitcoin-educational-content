@@ -1,0 +1,9 @@
+question: Kiedy w przepływie NWC odbywa się szyfrowanie po stronie aplikacji?
+answer: Przed publikacją na przekaźniku
+wrong_answers:
+  - Po odczytaniu węzła
+  - Po publikacji na przekaźniku
+  - Nigdy
+explanation: |
+  Aplikacja serializuje żądanie, szyfruje je, a następnie publikuje jako zdarzenie w przekaźniku Nostr.
+reviewed: false

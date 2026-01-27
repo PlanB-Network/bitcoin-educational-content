@@ -1,0 +1,8 @@
+question: Mikä on Rustupin ensisijainen tarkoitus Rust-kehitysekosysteemissä?
+answer: Kattava työkaluketjun hallintajärjestelmä Rust:n asentamista ja hallintaa varten
+wrong_answers:
+  - Pakettienhallinta Rust-projektien riippuvuuksien käsittelyä varten
+  - Kehittynyt linteri, joka analysoi koodia ja antaa parannusehdotuksia
+  - Build-järjestelmä, joka kääntää Rust-ohjelmia ja hallitsee projektin rakennetta
+explanation: |
+  Rustup on suunniteltu erityisesti työkaluketjun hallintajärjestelmäksi, joka huolehtii itse Rust:n asennuksesta, päivityksestä ja hallinnasta eri projekteissa ja alustoilla. Cargo toimii Rust-projektien paketinhallinta- ja rakennusjärjestelmänä ja Clippy koodianalyysin linterinä, mutta Rustup toimii korkeammalla tasolla hallinnoimalla koko Rust-kehitysympäristöä. Sen avulla kehittäjät voivat asentaa eri Rust-versioita, hallita eri alustojen käännöskohteita ja päivittää helposti uusiin Rust-versioihin yksinkertaisilla komennoilla, kuten "rustup update".

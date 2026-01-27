@@ -6,4 +6,4 @@ wrong_answers:
   - Diffie-Hellman
 explanation: |
   El Cifrado Rijndael fue adoptado como el estándar de cifrado simétrico (AES) por NIST, debido a su alto rendimiento y seguridad.
-reviewed: false
+reviewed: true

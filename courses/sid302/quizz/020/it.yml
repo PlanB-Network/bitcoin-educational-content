@@ -1,0 +1,8 @@
+question: Cosa succede alla configurazione della rete durante il processo di transizione della Federazione Dinamica (Dynafed) di Liquid quando un funzionario deve essere sostituito?
+answer: La rete trasmette una transazione di transizione seguita da un periodo di sovrapposizione di due settimane prima che la nuova configurazione prenda il sopravvento
+wrong_answers:
+  - La rete passa immediatamente alla nuova configurazione funzionale dopo aver trasmesso la transazione di transizione
+  - Tutti i funzionari devono votare simultaneamente per approvare la sostituzione prima che si verifichino modifiche alla configurazione
+  - La rete richiede un fork rigido e un arresto temporaneo per aggiornare l'elenco dei funzionari e riavviare le operazioni
+explanation: |
+  La Federazione dinamica consente a Liquid di evolversi senza hard fork attraverso un processo di transizione attentamente orchestrato. Quando è necessario sostituire un funzionario, la rete trasmette una transazione di transizione che segnala l'imminente cambiamento. Segue un periodo di sovrapposizione obbligatorio di due settimane in cui coesistono le vecchie e le nuove configurazioni, garantendo una continuità senza soluzione di continuità. Le altre opzioni non sono corrette perché il passaggio immediato rischierebbe l'instabilità della rete, la votazione simultanea non è il meccanismo utilizzato e gli hard fork sono proprio ciò che Dynafed è stato progettato per evitare.

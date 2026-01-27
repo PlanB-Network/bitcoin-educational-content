@@ -64,7 +64,7 @@ Aby używać SeedSigner z Seedkeeper, musisz zainstalować alternatywne oprogram
 
 
 
-Jeśli jeszcze go nie masz, pobierz oprogramowanie [Balena Etcher] (https://etcher.balena.io/), a następnie wykonaj następujące czynności:
+Jeśli jeszcze go nie masz, pobierz oprogramowanie [Balena Etcher](https://etcher.balena.io/), a następnie wykonaj następujące czynności:
 
 
 
@@ -505,6 +505,6 @@ Jeśli ta konfiguracja cię przekonała, nie wahaj się wspierać projektów, kt
 
 
 
-- Kupując sprzęt bezpośrednio [na stronie internetowej Satochip] (https://satochip.io/shop/);
+- Kupując sprzęt bezpośrednio [na stronie internetowej Satochip](https://satochip.io/shop/);
 - Przekazując [darowiznę na rzecz projektu SeedSigner](https://seedsigner.com/donate/);
-- Subskrybując kanał YouTube [Crypto Guide] (https://www.youtube.com/@CryptoGuide/), prowadzony przez osobę, która utrzymuje repozytorium GitHub zawierające zmodyfikowane oprogramowanie układowe.
+- Subskrybując kanał YouTube [Crypto Guide](https://www.youtube.com/@CryptoGuide/), prowadzony przez osobę, która utrzymuje repozytorium GitHub zawierające zmodyfikowane oprogramowanie układowe.

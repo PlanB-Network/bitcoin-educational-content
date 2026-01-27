@@ -1,0 +1,8 @@
+question: Co se stane, když v Rust deklarujete proměnnou pomocí 'let x = 5' bez dalších klíčových slov?
+answer: Proměnná se stává nezměnitelnou a po přiřazení ji nelze měnit
+wrong_answers:
+  - Proměnná se stává proměnnou a lze ji kdykoli změnit
+  - Proměnná je automaticky optimalizována pouze pro sestavení verze
+  - Proměnná vyžaduje pro úspěšnou kompilaci explicitní typovou anotaci
+explanation: |
+  V Rust jsou proměnné při deklaraci pomocí 'let' ve výchozím nastavení neměnné. To znamená, že jakmile přiřadíte proměnné hodnotu, například 'let x = 5', nemůžete ji později v programu změnit. Pokud se ji pokusíte změnit, kompilátor vyhodí chybu. Tato výchozí neměnnost je klíčovým bezpečnostním prvkem, který zabraňuje mnoha běžným programátorským chybám způsobeným neočekávanými změnami stavu. Chcete-li proměnnou učinit proměnnou proměnnou, musíte explicitně použít klíčové slovo 'mut', například 'let mut x = 5'.

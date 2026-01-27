@@ -46,7 +46,7 @@ Conecta tu Ledger al ordenador y desbloquéalo.
 
 
 
-Para instalar la aplicación, abre el software [Ledger Live] (https://www.Ledger.com/Ledger-live) y, a continuación, ve a la pestaña "*Mi Ledger*". Busca la aplicación "*Llave de seguridad*" e instálala en tu dispositivo.
+Para instalar la aplicación, abre el software [Ledger Live](https://www.Ledger.com/Ledger-live) y, a continuación, ve a la pestaña "*Mi Ledger*". Busca la aplicación "*Llave de seguridad*" e instálala en tu dispositivo.
 
 
 

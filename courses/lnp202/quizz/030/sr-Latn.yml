@@ -1,0 +1,9 @@
+question: Sa stanovišta vašeg čvora, kakva je početna distribucija likvidnosti nakon što otvori kanal?
+answer: 100% odlazno
+wrong_answers:
+  - 50% inbound 50% outbound
+  - 100% dolazno
+  - 90% odlazno 10% dolazno
+explanation: |
+  Kada se kanal otvori, sva likvidnost je u početku na strani inicijatora.
+reviewed: false

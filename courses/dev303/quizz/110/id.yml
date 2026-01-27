@@ -1,0 +1,8 @@
+question: Bagaimana integrasi Lightning Service Provider (LSP) dari Breez SDK memecahkan masalah manajemen likuiditas untuk menerima pembayaran?
+answer: LSP secara otomatis membuka saluran Lightning baru dengan likuiditas masuk pada saat pembayaran tiba, menggunakan pembuatan saluran just-in-time
+wrong_answers:
+  - LSP mendanai semua saluran pengguna dengan kapasitas likuiditas maksimum dan secara berkala menyeimbangkan kembali dana di seluruh topologi jaringan
+  - LSP mengelola kumpulan likuiditas bersama yang meminjamkan dana sementara kepada pengguna selama penerimaan pembayaran sebelum penyelesaian terjadi
+  - LSP merutekan pembayaran melalui beberapa saluran perantara untuk menemukan jalur likuiditas yang ada tanpa membuat hubungan saluran baru
+explanation: |
+  Breez SDK mengimplementasikan saluran 'just-in-time' di mana LSP secara otomatis membuka saluran Lightning baru tepat ketika pengguna perlu menerima pembayaran tetapi tidak memiliki likuiditas masuk yang cukup. Hal ini terjadi secara mulus tanpa campur tangan pengguna, memecahkan kendala likuiditas fundamental Lightning di mana dana hanya dapat mengalir ke arah yang memiliki kapasitas saluran. Opsi lain menggambarkan pendekatan berbeda yang tidak sesuai dengan implementasi aktual SDK untuk pembuatan saluran dinamis.

@@ -20,7 +20,7 @@ Ancak, Bitcoin protokol katmanları arasında büyük bir sorun devam ediyordu: 
 
 
 
-[Boltz] (https://boltz.Exchange), Bitcoin protokolünün farklı katmanları arasında işlem yapmak isteyen herkes için ideal, gözetim dışı bir platformdur:
+[Boltz](https://boltz.Exchange), Bitcoin protokolünün farklı katmanları arasında işlem yapmak isteyen herkes için ideal, gözetim dışı bir platformdur:
 
 
 

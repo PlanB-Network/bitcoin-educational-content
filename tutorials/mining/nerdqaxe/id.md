@@ -12,7 +12,7 @@ description: Bagaimana cara menambang dengan NerdQaxe?
 
 
 
-Video dari [saluran YouTube *BTC Sessions*] (https://www.youtube.com/@BTCSessions).
+Video dari [saluran YouTube *BTC Sessions*](https://www.youtube.com/@BTCSessions).
 
 
 
@@ -24,7 +24,7 @@ Video dari [saluran YouTube *BTC Sessions*] (https://www.youtube.com/@BTCSession
 
 
 
-Video dari [saluran YouTube *Vortex Bitcoin*] (https://www.youtube.com/@VortexBitcoin).
+Video dari [saluran YouTube *Vortex Bitcoin*](https://www.youtube.com/@VortexBitcoin).
 
 
 
@@ -36,7 +36,7 @@ Video dari [saluran YouTube *Vortex Bitcoin*] (https://www.youtube.com/@VortexBi
 
 
 
-Video dari [saluran YouTube *Vortex Bitcoin*] (https://www.youtube.com/@VortexBitcoin).
+Video dari [saluran YouTube *Vortex Bitcoin*](https://www.youtube.com/@VortexBitcoin).
 
 
 

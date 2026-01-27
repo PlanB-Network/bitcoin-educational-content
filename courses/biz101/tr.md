@@ -290,7 +290,7 @@ Bunlar birlikte Bitcoin'u bir **taşıyıcı varlık** ve **ihraççısı olmaya
 ![BIZ101](assets/tr/003.webp)
 
 
-Bitcoin'nin sabit bir para politikası vardır ve 21 milyon bitcoin'lik bir **kapağı** vardır ve bunun ~19,8 milyonu halihazırda dağıtılmıştır. Bu da onu **deflasyonist** hale getirmekte, kullanıcılar tasarruflarını ve üretkenlik kazançlarını içinde sakladıkça değeri zamanla artmaktadır.
+Bitcoin, halihazırda ~19,8 (2024) milyonu çıkarılmış olan, **maksimum 21 milyon bitcoin** ile sabit bir para politikasına sahiptir. Bu durum onu **deflasyonist** kılar ve kullanıcılar tasarruflarını ve verimlilik artışlarını onda sakladıkça değeri zamanla artar.
 
 
 Teknik özellikleri altın ve doların toplamını aşarak onu şimdiye kadar yaratılmış en zor finansal varlık haline getirmektedir. Bitcoin hem bir değer saklama aracı hem de Exchange'in bir aracıdır, yapım aşamasında bir para birimidir. Bir şirketin hazinesinden diğerine hızlı bir şekilde, aracılar olmadan, minimum maliyetle, sahtekarlık olmadan, 7/24 ve herhangi bir üçüncü taraf dahil olmadan değer aktardığınızı hayal edin.
@@ -308,7 +308,7 @@ Bitcoin yıkıcıdır çünkü bizi matematik, kriptografi, ekonomi ve tarih ala
 Bitcoin bizi paranın doğasını yeniden gözden geçirmeye davet ediyor. Paranın gerçekte ne olduğunu açıklayabilir misiniz? Maaşlı bir işçi veya girişimci hayatının 50.000 ila 100.000 saatini para kazanmak için harcayabilir, ancak kaç kişi **100 saatini bile parayı daha iyi anlamak** ve korumak için ayırır? Bitcoin bizi para ihtiyacımızın ardındaki temel nedenleri ve zamansal bakış açımızı sorgulamaya teşvik ediyor. Para anlık lüks için mi yoksa uzun vadeli dayanıklılık için mi? Satın alımları ertelememize olanak tanıyan değer kazanan bir varlığımız olsaydı, hangi seçimleri yapardık? Bundan 20 ya da 30 yıl sonra kendimizle ne tür konuşmalar yapmak isterdik?
 
 
-**Bitcoin KİMLİK KARTI**
+**BITCOIN KİMLİK KARTI (2024 yılında)**
 
 
 - **Yaş:** 15 yıl (3 Ocak 2009)
@@ -414,7 +414,7 @@ Lightning Network, hızı ve ödeme kesinliği nedeniyle fiziksel veya çevrimi�
 - **Ücretler:** Lightning Network üzerindeki işlem ücretleri minimum düzeydedir ve satıcı tarafından değil kullanıcı tarafından ödenir. Satıcılar yalnızca Bitcoin'lerini daha sonra başka bir ağa veya hizmete aktarmaları gerektiğinde ücrete tabi olurlar.
 
 
-**YILDIRIM KIMLIK KARTI**
+**LIGHTNING KİMLİK KARTI (2024 yılında)**
 
 
 
@@ -840,7 +840,7 @@ Bitcoin, Exchange'ün bir aracı olarak işlev gördüğünden, döngüsel bir e
 Bu, Mining makinelerinin çalıştırılmasından ödül kazanmayı içerir. Uzmanlaşmamış işletmeler için bu nispeten marjinal kalmaktadır. Size bilgisayar, ağ ve bakım satacak ya da kiralayacak aracılar vasıtasıyla katılabilirsiniz. Makinelere sahipseniz, bunları amortismana tabi varlıklar olarak muhasebeleştirebilirsiniz. Büyük ölçekte, yatırım getirisini dikkatli bir şekilde hesaplamanız gerekecektir çünkü pazar oldukça rekabetçidir ve başta elektrik olmak üzere maliyetlerin iyi tahmin edilmesini gerektirir.
 
 
-Mining yöntemleri hakkında daha fazla bilgi edinmek için [eğitimlerimizdeki "Mining" bölümüne bakabilirsiniz] (https://planb.academy/tutorials/mining).
+Mining yöntemleri hakkında daha fazla bilgi edinmek için [eğitimlerimizdeki "Mining" bölümüne bakabilirsiniz](https://planb.academy/tutorials/mining).
 
 
 
@@ -856,7 +856,7 @@ https://planb.academy/tutorials/business/others/bitfinex-pro-c8ef7476-5f60-4205-
 
 https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a78-b42dc0f21785
 
-Exchange veya eşler arası bitcoin edinme yöntemleri hakkında daha fazla bilgi edinmek için [eğitimlerimizdeki "Exchange" bölümüne bakabilirsiniz] (https://planb.academy/tutorials/exchange).
+Exchange veya eşler arası bitcoin edinme yöntemleri hakkında daha fazla bilgi edinmek için [eğitimlerimizdeki "Exchange" bölümüne bakabilirsiniz](https://planb.academy/tutorials/exchange).
 
 
 ![BIZ101](assets/tr/012.webp)
@@ -1263,7 +1263,7 @@ Ellerinizi kirletmeye hazırsanız ve süreç üzerinde tam kontrol istiyorsanı
 https://planb.academy/tutorials/business/point-of-sale/btcpay-server-928eb01e-824b-4b57-a3e8-8727633beddc
 
 
-Son olarak, fiziksel satış noktaları için bir tamamlayıcı olarak, [Bitcoinize PoS] (https://bitcoinize.com/) kurmayı düşünebilirsiniz.
+Son olarak, fiziksel satış noktaları için bir tamamlayıcı olarak, [Bitcoinize PoS](https://bitcoinize.com/) kurmayı düşünebilirsiniz.
 
 
 

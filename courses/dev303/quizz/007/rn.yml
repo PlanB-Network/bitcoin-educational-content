@@ -1,0 +1,8 @@
+question: Ni akamaro akahe nyamukuru ko gukoresha itegeko rya `cargo check` mu gihe c’iterambere?
+answer: Ikora igenzura ry'ugukoranya vyihuta kurusha inyubako yuzuye ataco ikora
+wrong_answers:
+  - Bihita bikosora amakosa yo gukoranya n'ibibazo vy'uburyo bwa kode mu mugambi wawe
+  - Ikuraho kandi igahindura ibintu vyose bishingiye ku mugambi ku verisiyo zavyo za nyuma
+  - Ikoresha porogaramu yawe n'amakuru yo gukosora n'ugutanga raporo y'amakosa
+explanation: |
+  Itegeko rya `cargo check` ryagenewe gusubiramwo iterambere ryihuse mu gukora igenzura ryose ry'ugukoranya nk'iryo `cargo build` ariko rikarenga intambwe ya nyuma y'uruvyaro rushobora gukorwa. Ivyo bituma vyihuta cane kuruta inyubako yuzuye igihe ukeneye gusa kugenzura ko kode yawe ikora neza. Inyishu zitari zo zidondora imikorere y'ibindi bikoresho: Clippy n'ibindi bikoresho bishobora gutanga ivyiyumviro vy'ivyo gukosora ariko ntibivyishireho ubwavyo, `cargo update` ifata ivy'uguhindura ivy'uburenganzira, na `cargo run` ikora porogarama zifise ubushobozi bwo gukosora.

@@ -1,8 +1,8 @@
-question: What is the primary security concern when installing Rust using Rustup?
-answer: The installation script is downloaded and executed directly from the internet without cryptographic verification
+question: What security consideration should you be aware of when installing Rust using Rustup?
+answer: The installation involves downloading and executing a script, though it uses HTTPS and comes from official trusted sources
 wrong_answers:
   - The installation requires administrator privileges which creates potential system vulnerabilities
   - The stable toolchain contains experimental features that may have undiscovered security flaws
   - The installation process automatically enables all compilation targets including potentially unsafe architectures
 explanation: |
-  The chapter specifically highlights that Rustup's installation process involves downloading and executing a script directly from the internet without cryptographic signatures or integrity checks, which presents security risks. This is why the chapter recommends using distribution package managers for security-critical environments, as they include proper signature verification. The other options are incorrect: Rustup installs in the user's home directory without requiring admin privileges, the stable toolchain specifically excludes experimental features, and compilation targets are added separately and don't pose inherent security risks.
+  When installing Rustup, you download and execute a script from the official Rust website. This uses HTTPS for transport-layer security, and packages come from trusted sources like crates.io. While this is secure for most use cases, some organizations with strict security policies may prefer their distribution's package manager, which adds the distribution's own signing infrastructure. The other options are incorrect: Rustup installs in the user's home directory without requiring admin privileges, the stable toolchain specifically excludes experimental features, and compilation targets are added separately and don't pose inherent security risks.

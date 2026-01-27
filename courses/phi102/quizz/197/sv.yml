@@ -1,0 +1,8 @@
+question: Vad är det som gör att tidpunkten för och karaktären på återkopplingen skiljer sig fundamentalt mellan marknadsbeslut och politiska beslut i demokratiska system?
+answer: Marknadsbeslut ger omedelbar, direkt återkoppling som gör det möjligt för individer att anpassa sitt beteende baserat på personliga erfarenheter, medan politiska beslut ger fördröjda, kollektiva konsekvenser som är svåra för individer att spåra tillbaka till sina specifika val
+wrong_answers:
+  - Marknadsbeslut innebär komplex långsiktig planering medan politiska beslut baseras på omedelbara känslomässiga reaktioner som snabbt kan utvärderas
+  - Marknadsbeslut kräver kollektivt samförstånd medan politiska beslut ger utrymme för individuell autonomi och direkt personlig kontroll över utfallet
+  - Marknadsbeslut fattas sällan och får permanenta konsekvenser, medan politiska beslut fattas dagligen och får lätt reversibla effekter
+explanation: |
+  I kapitlet betonas att marknadsval ger omedelbara, spårbara resultat där individer direkt kan jämföra tillfredsställelse och justera beteendet baserat på erfarenhet. Politiska beslut är däremot "utspridda i tiden" med kollektiva konsekvenser som gör det omöjligt för medborgarna att förstå den fullständiga effekten av sina röster. Politiska åtgärder kan skada människor som väljaren aldrig ser direkt, och val handlar om komplexa program snarare än enkla, direkta val. Denna skillnad i tid och återkoppling är avgörande för att förstå varför den demokratiska förmyndarparadoxen existerar - medborgarna förväntas fatta mer komplexa beslut (politiska) med mindre tillförlitliga återkopplingsmekanismer än enklare beslut (ekonomiska) med omedelbara och tydliga resultat.

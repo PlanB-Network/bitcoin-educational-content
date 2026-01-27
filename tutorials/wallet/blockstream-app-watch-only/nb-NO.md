@@ -145,7 +145,7 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-- **Blockstream App** er en mobilapplikasjon (iOS, Android) og skrivebordsapplikasjon for å administrere Bitcoin-porteføljer og eiendeler på Liquid Network. Den ble kjøpt opp av [Blockstream] (https://blockstream.com/) i 2016, og het tidligere *Green Address* og deretter *Blockstream Green*.
+- **Blockstream App** er en mobilapplikasjon (iOS, Android) og skrivebordsapplikasjon for å administrere Bitcoin-porteføljer og eiendeler på Liquid Network. Den ble kjøpt opp av [Blockstream](https://blockstream.com/) i 2016, og het tidligere *Green Address* og deretter *Blockstream Green*.
 - **Viktige funksjoner**:
 - Onchain-transaksjoner på **Blockchain Bitcoin**.
     - Transaksjoner på **Liquid**-nettverket (Sidechain for raske, konfidensielle utvekslinger).
@@ -170,10 +170,10 @@ https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 - For **Android**:
-    - Last ned [Blockstream App] (https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) fra Google Play Store.
-    - Alternativ: Installer via APK-filen som er tilgjengelig på [Blockstreams offisielle GitHub] (https://github.com/Blockstream/green_android).
+    - Last ned [Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) fra Google Play Store.
+    - Alternativ: Installer via APK-filen som er tilgjengelig på [Blockstreams offisielle GitHub](https://github.com/Blockstream/green_android).
 - For **iOS**:
-    - Last ned [Blockstream App] (https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) fra App Store.
+    - Last ned [Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) fra App Store.
 - **Merk**: Sørg for å laste ned fra offisielle kilder for å unngå falske applikasjoner.
 
 
@@ -430,7 +430,7 @@ https://planb.academy/tutorials/wallet/desktop/blockstream-app-desktop-c1503adf-
 
 
 - Ordliste :
- - [Utvidede offentlige nøkler] (https://planb.academy/fr/resources/glossary/extended-key)
+ - [Utvidede offentlige nøkler](https://planb.academy/fr/resources/glossary/extended-key)
  - [xpub](https://planb.academy/fr/resources/glossary/xpub)
  - [ypub](https://planb.academy/fr/resources/glossary/ypub)
  - [zpub](https://planb.academy/fr/resources/glossary/zpub)

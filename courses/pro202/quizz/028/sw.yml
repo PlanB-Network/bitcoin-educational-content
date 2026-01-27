@@ -1,0 +1,8 @@
+question: Kuna tofauti gani ya msingi kati ya P2PK na P2PKH katika suala la taarifa gani hufunuliwa kabla ya sarafu kutumika?
+answer: P2PK hufichua ufunguo kamili wa umma katika ScriptPubKey kabla ya kutumia, huku P2PKH ikifichua tu hash ya ufunguo wa umma hadi utakapotumia.
+wrong_answers:
+  - P2PK inahitaji sahihi nyingi kwa ajili ya uthibitishaji, huku P2PKH ikihitaji sahihi moja tu ili kufungua sarafu
+  - P2PK hutumia algoriti tofauti ya hashing kuliko P2PKH, na kuifanya iwe salama zaidi dhidi ya mashambulizi ya kompyuta ya quantum
+  - P2PK huhifadhi ufunguo wa faragha katika ScriptPubKey, huku P2PKH ikihifadhi matokeo ya uthibitisho wa sahihi pekee.
+explanation: |
+  P2PK hufunga sarafu moja kwa moja kwenye ufunguo kamili wa umma unaoonekana kwenye ScriptPubKey kabla ya matumizi yoyote kutokea. P2PKH huboresha faragha kwa kuonyesha tu hash ya baiti 20 ya ufunguo wa umma kwenye ScriptPubKey, ikificha ufunguo halisi wa umma hadi mmiliki atakapoutoa kwenye ScriptSig wakati wa matumizi. Uboreshaji huu wa faragha ni mojawapo ya faida kuu za P2PKH ikilinganishwa na muundo wa awali wa P2PK.

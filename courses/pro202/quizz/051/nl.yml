@@ -1,0 +1,8 @@
+question: In Bitcoin's P2P netwerk berichtstructuur, welke specifieke gegevens vormen het 4-byte checksum veld in elke bericht envelop?
+answer: De eerste 4 bytes van de hash256 van de payload van het bericht
+wrong_answers:
+  - De eerste 4 bytes van de SHA256 hash van de volledige berichtenenveloppe
+  - De eerste 4 bytes van de hash256 van het commandoveld samengevoegd met de payload
+  - De eerste 4 bytes van de RIPEMD160 hash van de payload van het bericht
+explanation: |
+  Bitcoin's P2P berichtenvelop maakt gebruik van een specifiek controlesom mechanisme waarbij het 4-byte controlesom veld de eerste 4 bytes van de hash256 bevat die alleen op de payload van het bericht is toegepast. Dit biedt integriteitscontrole voor de payloadgegevens tijdens de netwerktransmissie. De andere opties zijn onjuist omdat ze verwijzen naar andere hashfuncties (enkelvoudige SHA256, RIPEMD160) of andere invoergegevens (gehele enveloppe, commando+payload) dan wat Bitcoin daadwerkelijk implementeert in zijn netwerkprotocol.

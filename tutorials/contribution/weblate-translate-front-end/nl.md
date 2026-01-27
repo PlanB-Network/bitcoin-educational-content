@@ -15,7 +15,7 @@ In deze tutorial laten we je zien hoe je eenvoudig kunt bijdragen aan de vertali
 - de educatieve inhoud (tutorials, cursussen, bronnen...).
 
 
-Om de educatieve inhoud te vertalen, gebruiken we [kunstmatige intelligentie] (https://github.com/Asi0Flammeus/LLM-Translator). Om eventuele fouten in deze bestanden te corrigeren, nodigen we proeflezers uit om bij te dragen. Als je inhoud wilt proeflezen, raadpleeg dan de volgende handleiding:
+Om de educatieve inhoud te vertalen, gebruiken we [kunstmatige intelligentie](https://github.com/Asi0Flammeus/LLM-Translator). Om eventuele fouten in deze bestanden te corrigeren, nodigen we proeflezers uit om bij te dragen. Als je inhoud wilt proeflezen, raadpleeg dan de volgende handleiding:
 
 
 https://planb.academy/tutorials/contribution/content/proofreading-review-tutorial-28236c98-23b2-4efd-9563-953f08707017
@@ -23,7 +23,7 @@ https://planb.academy/tutorials/contribution/content/proofreading-review-tutoria
 Aan de andere kant, als je geïnteresseerd bent in het vertalen van de statische elementen van de website (met uitzondering van educatieve inhoud), ben je op de juiste plaats! Om de frontend effectief te vertalen, gebruiken we de tool Weblate, die heel eenvoudig te gebruiken is en de aanpak van de vertaling vergemakkelijkt.
 
 
-Als je een compleet nieuwe taal aan Plan ₿ Academy wilt toevoegen, neem dan contact op met het Plan ₿ Academy team via onze [Telegram groep] (https://t.me/PlanBNetwork_ContentBuilder). Als je geen telegram hebt, kun je een e-mail sturen naar mari@planb.network. Zorg ervoor dat je een kleine presentatie schrijft over wie je bent en welke talen je spreekt.
+Als je een compleet nieuwe taal aan Plan ₿ Academy wilt toevoegen, neem dan contact op met het Plan ₿ Academy team via onze [Telegram groep](https://t.me/PlanBNetwork_ContentBuilder). Als je geen telegram hebt, kun je een e-mail sturen naar mari@planb.network. Zorg ervoor dat je een kleine presentatie schrijft over wie je bent en welke talen je spreekt.
 
 Onze teamleden zullen je specifieke instructies geven en de gerelateerde "issues" openen op Github om je werk te coördineren.
 

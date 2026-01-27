@@ -1,0 +1,9 @@
+question: なぜLightningノードマネージャーを使うのか？
+answer: 高度な機能への容易なアクセス
+wrong_answers:
+  - LNDの実装を置き換える
+  - Umbrelへの依存を排除
+  - Lightningプロトコルの変更
+explanation: |
+  アドバンスト・マネージャーは、シンプルなインターフェースのまま、ベーシック・インターフェースでは利用できない機能を提供する。
+reviewed: false

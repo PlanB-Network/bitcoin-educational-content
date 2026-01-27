@@ -1,0 +1,8 @@
+question: Bitcoin blok karmaları hedef karşılaştırması için little-endian tamsayılar olarak yorumlandığında, geçerli bloklar onaltılık gösterimlerinde neden tipik olarak çok sayıda sonda sıfır gösterir?
+answer: Çünkü little-endian yorumlama, hex cinsinden en sağdaki baytların tamsayı değerinin en anlamlı bitlerine karşılık geldiği anlamına gelir
+wrong_answers:
+  - SHA-256 algoritması, girdi tekrarlanan desenlere sahip işlem verileri içerdiğinde doğal olarak sondaki sıfırları ürettiğinden
+  - Çünkü madenciler, ASIC donanımında hash hesaplamasını daha verimli hale getirmek için blok başlığını kasıtlı olarak sıfır baytla doldururlar
+  - Nonce alanı sıfırdan yukarı doğru artırıldığından, hash fonksiyonunun generate desenlerini sondaki sıfırlarla oluşturmasına neden olur
+explanation: |
+  Little-endian yorumlamada, baytlar ters sırada okunur, bu nedenle onaltılık sayıdaki en sağdaki baytlar tamsayının en anlamlı kısmı olur. Bir hash'in hedefin altında olması için (küçük bir sayı), en anlamlı bitlerinin sıfır olması gerekir, bu da hex gösteriminde sondaki sıfırlar olarak görünür. Bu, SHA-256 veya mining donanımının bir özelliği değil, tamamen endianness dönüşümünün bir temsil eseridir.

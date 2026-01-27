@@ -1,0 +1,8 @@
+question: Wat is het identiteitselement in de elliptische kromme die gebruikt wordt voor puntentellingsoperaties?
+answer: Het punt op oneindig
+wrong_answers:
+  - Het oorsprongspunt (0,0)
+  - Het generatorpunt G
+  - De curveparameter a
+explanation: |
+  Het punt oneindig dient als identiteitselement in elliptische kromme groepen, wat betekent dat het toevoegen van een punt P aan het punt oneindig P onveranderd teruggeeft. Dit is analoog aan hoe het optellen van nul werkt in gewone rekenkunde. De oorsprong (0,0) ligt niet noodzakelijk op de kromme, het generatorpunt G wordt gebruikt om publieke sleutels te maken en de krommingparameter a is slechts een coëfficiënt in de krommevergelijking, geen identiteitselement.

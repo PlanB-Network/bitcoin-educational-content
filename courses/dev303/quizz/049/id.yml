@@ -1,0 +1,8 @@
+question: Masalah mendasar apa yang dipecahkan oleh RC yang tidak dapat ditangani oleh Box dalam sistem kepemilikan Rust?
+answer: RC memungkinkan kepemilikan ganda atas data yang sama melalui penghitungan referensi
+wrong_answers:
+  - RC menyediakan alokasi dan deallokasi memori yang lebih cepat daripada Box
+  - RC memungkinkan manajemen memori otomatis tanpa overhead runtime
+  - RC memungkinkan pemeriksaan peminjaman waktu kompilasi yang tidak dapat dilakukan oleh Box
+explanation: |
+  RC (Reference Counter) secara khusus mengatasi keterbatasan model kepemilikan tunggal Box dengan mengizinkan beberapa bagian kode untuk berbagi kepemilikan data yang sama secara bersamaan. Box mengikuti aturan kepemilikan tradisional di mana hanya satu entitas yang dapat memiliki data pada satu waktu, sehingga tidak memungkinkan untuk membuat skenario seperti struktur data bersama di mana beberapa daftar mereferensikan bagian ekor yang sama. RC mempertahankan penghitung internal yang melacak referensi, bertambah ketika dikloning dan berkurang ketika dijatuhkan, hanya membebaskan memori ketika hitungan mencapai nol. Hal ini memungkinkan pola berbagi data yang fleksibel sambil mempertahankan keamanan memori, yang pada dasarnya berbeda dari pendekatan kepemilikan eksklusif Box.

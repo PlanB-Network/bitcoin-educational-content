@@ -615,7 +615,7 @@ https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 
-- [Tõhustatud jälgimiskaitse] (https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Ametlik juhend tõhustatud jälgimiskaitse kohta
+- [Tõhustatud jälgimiskaitse](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Ametlik juhend tõhustatud jälgimiskaitse kohta
 - [Riigi jaotamine](https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning): Tehniline dokumentatsioon riigi partitsioneerimise kohta
 - [MDN Web Security](https://developer.mozilla.org/docs/Web/Security): Täielik viide veebiturvalisuse kohta
 

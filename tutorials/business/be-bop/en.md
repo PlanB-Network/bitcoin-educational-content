@@ -192,12 +192,13 @@ be-BOP lets you accept Bitcoin payments directly on the Blockchain (On-Chain), s
 - Complete the following fields:
 
 
-| Champ                  | Description                                               | Exemple à utiliser                              |
+
+| Field                  | Description                                               | Example to Use                              |
 |------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **BIP Standard**       | Le type d’adressage utilisé                               | BIP84 (pour les adresses au format bech32 commençant par `bc1`) |
-| **Clé publique étendue** | Votre Zpub (ou Xpub selon le portefeuille utilisé)        | `zpub...` (extrait de votre portefeuille Bitcoin) |
-| **Derivation Index**   | L’index de départ pour la génération des adresses         | `1`                                              |
-| **Mempool URL**        | L’URL du service mempool utilisé pour suivre les transactions | `https://mempool.space`                         |
+| **BIP Standard**       | The type of addressing used                               | BIP84 (for addresses in bech32 format starting with `bc1`) |
+| **Extended Public Key** | Your Zpub (or Xpub depending on the wallet used)        | `zpub...` (extracted from your Bitcoin wallet) |
+| **Derivation Index**   | The starting index for address generation         | `1`                                              |
+| **Mempool URL**        | The URL of the mempool service used to track transactions | `https://mempool.space`                         |
 
 ![payment-nodeless](assets/fr/005.webp)
 
@@ -643,12 +644,13 @@ Check `The product has a physical component that will be shipped to the customer
 This section determines **where** and **how** the product can be viewed and purchased:
 
 
-| Plateforme        | Produit visible | Ajoutable au panier |
+
+| Platform        | Product Visible | Addable to Cart |
 |-------------------|------------------|----------------------|
-| Eshop (site public)        | ✔️              | ✔️                  |
-| Retail POS (point de vente)| ✔️              | ✔️                  |
+| Eshop (public site)        | ✔️              | ✔️                  |
+| Retail POS (point of sale)| ✔️              | ✔️                  |
 | Google Shopping            | ✔️              | ✔️                  |
-| Nostr-bot (vente via bot)  | ✔️              | ✔️                  |
+| Nostr-bot (bot sales)  | ✔️              | ✔️                  |
 
 Check only the channels you wish to use.
 
@@ -777,14 +779,15 @@ Examples of available widgets:
 Use **shortcodes** in the content of your CMS pages:
 
 
-| Objectif                 | Balise à insérer                      |
+
+| Objective                 | Tag to Insert                      |
 |--------------------------|---------------------------------------|
-| Afficher un produit      | `[Product=slug?display=img-1]`        |
-| Afficher une image       | `[Picture=slug width=100 height=100 fit=contain]` |
-| Intégrer un slider       | `[Slider=slug?autoplay=3000]`         |
-| Ajouter un challenge     | `[Challenge=slug]`                    |
-| Ajouter un compte à rebours | `[Countdown=slug]`                 |
-| Intégrer un formulaire   | `[Form=slug]`                         |
+| Display a product      | `[Product=slug?display=img-1]`        |
+| Display an image       | `[Picture=slug width=100 height=100 fit=contain]` |
+| Integrate a slider       | `[Slider=slug?autoplay=3000]`         |
+| Add a challenge     | `[Challenge=slug]`                    |
+| Add a countdown | `[Countdown=slug]`                 |
+| Integrate a form   | `[Form=slug]`                         |
 
 **Current parameters**:
 
@@ -1370,14 +1373,15 @@ Poster:
 ### POS summary
 
 
-| Fonction                         | Description                                             |
-|----------------------------------|---------------------------------------------------------|
-| Rôle POS                         | Assigné via ARM                                         |
-| Interface principale             | `/pos` ou `/pos/touch`                                 |
-| Affichage client (écran 2)       | `/pos/session`                                         |
-| Paiement                         | Espèces, carte, Lightning, etc.                         |
-| Ajout produit                    | Alias ou scan code-barres                              |
-| Remises / TVA                    | Sur justification managériale obligatoire              |
 
+
+| Function                         | Description                                             |
+|----------------------------------|---------------------------------------------------------|
+| POS Role                         | Assigned via ARM                                         |
+| Main Interface             | `/pos` or `/pos/touch`                                 |
+| Customer Display (Screen 2)       | `/pos/session`                                         |
+| Payment                         | Cash, card, Lightning, etc.                         |
+| Product Addition                    | Alias or barcode scanning                              |
+| Discounts / VAT                    | With mandatory managerial justification              |
 
 Thank you for following this tutorial carefully.

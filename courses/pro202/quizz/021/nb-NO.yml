@@ -1,0 +1,8 @@
+question: Hva er den primære konsekvensen av å glemme å inkludere en endringsutgang når man bruker en UTXO som inneholder mer Bitcoin enn nødvendig?
+answer: Det overskytende beløpet blir automatisk en gruvearbeideravgift
+wrong_answers:
+  - Transaksjonen vil bli avvist av nettverket som ugyldig
+  - "Det overskytende beløpet returneres til den opprinnelige avsenderadressen"
+  - Det overskytende beløpet forblir låst i den opprinnelige UTXO
+explanation: |
+  I Bitcoins UTXO-modell beregnes transaksjonsgebyrer implisitt som differansen mellom totale innganger og totale utganger (gebyr = sum(innganger) - sum(utganger)). Når du bruker en UTXO, må du bruke den i sin helhet - delvis bruk er umulig. Hvis du bare trenger å bruke en del av verdien til en UTXO, må du opprette en endringsutgang for å motta resten. Hvis du glemmer å inkludere denne endringsoutputen, blir den uberegnede differansen mellom input og output automatisk gruvearbeideravgiften. Det er derfor det er så viktig å konstruere en korrekt endringsutgang - ellers kan du ved et uhell komme til å betale enorme avgifter til gruvearbeiderne.

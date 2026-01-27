@@ -63,7 +63,7 @@ Omdat Aegis Authenticator open source is, geven de ontwikkelaars de voorkeur aan
 
 
 
-De veiligste en gemakkelijkste manier is via F-Droid, de gratis alternatieve winkel. Als F-Droid nog niet op je telefoon is geïnstalleerd, download het dan eerst van de officiële website [F-Droid.org] (https://f-droid.org). Vervolgens :
+De veiligste en gemakkelijkste manier is via F-Droid, de gratis alternatieve winkel. Als F-Droid nog niet op je telefoon is geïnstalleerd, download het dan eerst van de officiële website [F-Droid.org](https://f-droid.org). Vervolgens :
 
 
 

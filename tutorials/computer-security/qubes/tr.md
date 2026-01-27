@@ -122,7 +122,7 @@ Qubes OS'yi kurmadan önce, sistem qubes'i izole etmek için sanallaştırmaya d
 
 
 
-Qubes OS'yi kurmak için, Qubes OS [resmi sitesi] (https://www.qubes-os.org/downloads/) adresinden resmi ISO görüntüsünü indirin. Dosyanın tahrif edilmediğinden ve indirme işleminin güvenli olduğundan emin olmak için sağlanan GPG imzalarını kullanarak ISO'nun bütünlüğünü kontrol etmek önemlidir.
+Qubes OS'yi kurmak için, Qubes OS [resmi sitesi](https://www.qubes-os.org/downloads/) adresinden resmi ISO görüntüsünü indirin. Dosyanın tahrif edilmediğinden ve indirme işleminin güvenli olduğundan emin olmak için sağlanan GPG imzalarını kullanarak ISO'nun bütünlüğünü kontrol etmek önemlidir.
 
 
 

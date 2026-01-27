@@ -1,0 +1,8 @@
+question: Vilken är den främsta fördelen med Rust:s compile-time memory safety-strategi jämfört med garbage collection?
+answer: Det eliminerar överbelastning under körning och oförutsägbara prestandapauser
+wrong_answers:
+  - Den använder mer minne men ger bättre säkerhetsgarantier
+  - Det kräver mindre kod att skriva men går långsammare än garbage collection
+  - Det förhindrar alla körtidsfel men använder mer CPU under körningen
+explanation: |
+  Rust:s metod för minnessäkerhet under kompilering analyserar koden under kompilering för att säkerställa minnessäkerhet utan några kostnader under körning. Till skillnad från garbage collection som används i språk som Java och Go, som introducerar prestandakostnader och kan orsaka oförutsägbara pauser under programkörningen, har Rust:s system ingen påverkan på körtiden. De andra alternativen är felaktiga eftersom Rust faktiskt använder minnet mer effektivt (inte mer), inte körs långsammare (det körs snabbare utan körtidskontroller) och inte använder mer CPU under exekvering (arbetet görs vid kompileringstiden).

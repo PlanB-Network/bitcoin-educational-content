@@ -1,5 +1,5 @@
 ---
-name: Kruške
+name: Pears
 description: Kako da instaliram i koristim aplikacije na Pears?
 ---
 

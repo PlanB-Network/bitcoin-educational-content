@@ -1,5 +1,5 @@
 ---
-name: LNbits-palvelin
+name: LNbits Server
 description: LNbits-palvelimen asennus ja konfigurointi Ubuntu VPS:lle Phoenixd:llä tai Umbrelilla
 ---
 

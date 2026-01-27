@@ -175,7 +175,7 @@ Amahuza yemewe yo gushiramwo :
 
 
 
-- [Gushiramwo kuri Raspberry Pi 5] (gushiramwo-umutaka-OS-ku-Raspberry-Pi-5)
+- [Gushiramwo kuri Raspberry Pi 5](gushiramwo-umutaka-OS-ku-Raspberry-Pi-5)
 - [Gushiramwo kuri sisitemu za x86 (https://github.com/umutaka/umutaka/wiki/Gushiramwo-umutaka-OS-ku-sisitemu za x86)
 - [Gushiramwo imashini y'ivy'impwemu](https://github.com/umutaka/umutaka/wiki/Gushiramwo-umutaka-OS-ku-Linux-VM)
 

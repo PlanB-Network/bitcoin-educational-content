@@ -1,0 +1,8 @@
+question: Jukumu kuu la madai katika ukuzaji wa programu ya Bitcoin kulingana na mbinu bora za Rust ni lipi?
+answer: Ili kukamata hitilafu wakati wa majaribio, kusababisha kushindwa mapema kwa programu wakati matatizo yanapotokea, na kutumika kama nyaraka zinazoweza kutekelezwa za mawazo ya programu
+wrong_answers:
+  - Kushughulikia hitilafu za rasilimali za wakati wa utekelezaji kama vile hitilafu za ufikiaji wa faili na matatizo ya muunganisho wa mtandao kwa njia nzuri
+  - Kutafsiri makosa ya maktaba ya kiwango cha chini kuwa makosa ya programu ya kiwango cha juu ambayo watumiaji wanaweza kuelewa na kuyafanyia kazi
+  - Ili kuzuia makosa batili ya kuingiza data kwa kuzuia vigezo vya utendaji kazi ili kukubali thamani zilizo ndani ya masafa halali pekee
+explanation: |
+  Madai hutimiza majukumu matatu muhimu katika uundaji thabiti wa programu ya Bitcoin: hugundua hitilafu wakati wa awamu ya majaribio, huhakikisha programu zinashindwa mapema wakati dhana za msingi zinakiukwa (kufanya utatuzi wa matatizo kuwa rahisi), na hufanya kazi kama nyaraka zinazoweza kutekelezwa zinazoelezea matarajio ya msanidi programu kuhusu hali ya programu. Chaguo zingine zinaelezea mikakati tofauti ya kushughulikia hitilafu - utunzaji mzuri wa kushindwa kwa rasilimali za nje, tafsiri ya hitilafu kati ya tabaka za uchukuaji, na uthibitisho wa ingizo - ambazo ni muhimu lakini ni tofauti na jukumu maalum la madai katika kuthibitisha dhana za ndani za programu.

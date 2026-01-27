@@ -1,0 +1,8 @@
+question: Welche Umgebungsvariable kann gesetzt werden, um eine vollständige Aufrufstapelverfolgung anzuzeigen, wenn eine Panik in Rust auftritt?
+answer: RUST_BACKTRACE
+wrong_answers:
+  - RUST_STACKTRACE
+  - RUST_DEBUG_TRACE
+  - RUST_PANIC_TRACE
+explanation: |
+  RUST_BACKTRACE ist die richtige Umgebungsvariable, die zusätzliche Debugging-Informationen liefert, indem sie den vollständigen Aufrufstapel anzeigt, der zu einer Panik geführt hat. Dies hilft den Entwicklern, genau nachzuvollziehen, welche Folge von Funktionsaufrufen zu dem Fehler geführt hat. Die anderen Optionen (RUST_STACKTRACE, RUST_DEBUG_TRACE und RUST_PANIC_TRACE) sind keine gültigen Rust-Umgebungsvariablen und erzeugen keine Debugging-Ausgaben, wenn eine Panik auftritt.

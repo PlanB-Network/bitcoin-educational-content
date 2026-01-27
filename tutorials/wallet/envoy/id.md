@@ -64,11 +64,11 @@ Buka toko aplikasi Anda untuk mengunduh Envoy :
 
 - Di [Google Play Store](https://play.google.com/store/apps/details?id=com.foundationdevices.envoy);
 - Di [App Store](https://apps.apple.com/us/app/envoy-by-foundation/id1584811818);
-- Pada [F-Cold] (https://foundation.xyz/fdroid/).
+- Pada [F-Cold](https://foundation.xyz/fdroid/).
 
 ![Image](assets/fr/50.webp)
 
-Anda juga dapat mengunduh file APK secara langsung [dari repositori GitHub Foundation] (https://github.com/Foundation-Devices/envoy/releases).
+Anda juga dapat mengunduh file APK secara langsung [dari repositori GitHub Foundation](https://github.com/Foundation-Devices/envoy/releases).
 
 ![Image](assets/fr/51.webp)
 

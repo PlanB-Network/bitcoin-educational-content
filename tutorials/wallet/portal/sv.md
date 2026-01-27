@@ -14,7 +14,7 @@ Det som skiljer Portal från andra hårdvaruplånböcker på marknaden är dess 
 ![Image](assets/fr/01.webp)
 
 
-Portalen, som är helt öppen källkod, är baserad på firmware skriven i Rust och använder BDK (Bitcoin Dev Kit) för nyckel- och transaktionshantering. Den säljs för €89 [på den officiella webbplatsen] (https://store.twenty-two.xyz/products/portal-hardware-Wallet).
+Portalen, som är helt öppen källkod, är baserad på firmware skriven i Rust och använder BDK (Bitcoin Dev Kit) för nyckel- och transaktionshantering. Den säljs för €89 [på den officiella webbplatsen](https://store.twenty-two.xyz/products/portal-hardware-Wallet).
 
 
 I skrivande stund är portalen kompatibel med applikationerna Nunchuk och Bitcoin Keeper. I denna handledning kommer vi att konfigurera den med Nunchuk.
@@ -35,7 +35,7 @@ Se till att Seal är intakt för att bekräfta att påsen inte har öppnats. Det
 ## Installation av Nunchuk
 
 
-För att hantera Wallet på portalen kommer vi att använda Nunchuk-applikationen. Ladda ner applikationen från [Google Play Store] (https://play.google.com/store/apps/details?id=io.nunchuk.android), [App Store] (https://apps.apple.com/us/app/nunchuk-Bitcoin-Wallet/id1563190073) eller direkt via dess [fil `.apk`] (https://github.com/nunchuk-io/nunchuk-android/releases).
+För att hantera Wallet på portalen kommer vi att använda Nunchuk-applikationen. Ladda ner applikationen från [Google Play Store](https://play.google.com/store/apps/details?id=io.nunchuk.android), [App Store](https://apps.apple.com/us/app/nunchuk-Bitcoin-Wallet/id1563190073) eller direkt via dess [fil `.apk`](https://github.com/nunchuk-io/nunchuk-android/releases).
 
 
 ![Image](assets/fr/03.webp)

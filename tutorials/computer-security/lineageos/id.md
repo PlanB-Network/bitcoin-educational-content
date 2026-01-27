@@ -176,7 +176,7 @@ Menurut statistik resmi, model yang paling banyak digunakan mencakup berbagai pe
 
 
 
-**Alat ADB dan Fastboot:** Ikuti [panduan resmi LineageOS] (https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot) untuk menginstal Android SDK Platform Tools. Verifikasi instalasi dengan `adb version` dan `fastboot --version`.
+**Alat ADB dan Fastboot:** Ikuti [panduan resmi LineageOS](https://wiki.lineageos.org/adb_fastboot_guide#installing-adb-and-fastboot) untuk menginstal Android SDK Platform Tools. Verifikasi instalasi dengan `adb version` dan `fastboot --version`.
 
 
 
@@ -685,13 +685,14 @@ Pembaruan rutin ini merupakan aset utama, terutama untuk perangkat yang telah di
 
 
 
-| **Aspect** | **GrapheneOS** | **LineageOS** |
+
+| **Aspek** | **GrapheneOS** | **LineageOS** |
 |------------|----------------|---------------|
-| **Compatibilité** | Pixels uniquement | Centaines d'appareils |
-| **Sécurité** | Mitigations avancées | Sécurité AOSP standard |
-| **Google Play** | Sandboxé optionnel | Installation classique possible |
-| **Installation** | Interface web + USB | Procédure manuelle technique |
-| **Philosophie** | Sécurité avant tout | Équilibre et liberté de choix |
+| **Kompatibilitas** | Hanya Pixels | Ratusan perangkat |
+| **Keamanan** | Mitigasi canggih | Keamanan AOSP standar |
+| **Google Play** | Sandboxing opsional | Instalasi klasik memungkinkan |
+| **Instalasi** | Antarmuka web + USB | Prosedur manual teknis |
+| **Filosofi** | Keamanan di atas segalanya | Keseimbangan dan kebebasan memilih |
 
 ### Rekomendasi untuk digunakan
 

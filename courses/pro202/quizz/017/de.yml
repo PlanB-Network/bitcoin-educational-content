@@ -1,0 +1,8 @@
+question: Welche kritische Sicherheitsanforderung muss bei der Generierung der Nonce K bei der ECDSA-Signaturerstellung erfüllt werden?
+answer: K muss für jede Signatur eindeutig und unvorhersehbar sein, um eine Kompromittierung des privaten Schlüssels zu verhindern
+wrong_answers:
+  - K muss aus dem öffentlichen Schlüssel abgeleitet werden, damit die Signaturprüfung korrekt funktioniert
+  - K muss bei mehreren Signaturen gleich sein, um die Konsistenz des Signiervorgangs zu gewährleisten
+  - K muss aus Gründen der mathematischen Korrektheit gleich dem privaten Schlüssel multipliziert mit dem Hashwert der Nachricht sein
+explanation: |
+  Die Nonce K muss für jede Signatur einzigartig und unvorhersehbar sein, da die Wiederverwendung von K oder seine Vorhersagbarkeit es Angreifern ermöglicht, den privaten Schlüssel wiederherzustellen. Wenn dasselbe K zweimal für verschiedene Nachrichten verwendet wird, kann der private Schlüssel durch einfache Algebra aufgedeckt werden. Moderne Implementierungen verwenden eine deterministische K-Generierung (RFC 6979), um Ausfälle des Zufallszahlengenerators zu vermeiden und gleichzeitig Einzigartigkeit zu gewährleisten. Die anderen Optionen sind falsch: K sollte niemals vom öffentlichen Schlüssel abgeleitet werden, niemals wiederverwendet werden und niemals dem privaten Schlüssel mal Nachrichtenhash entsprechen.

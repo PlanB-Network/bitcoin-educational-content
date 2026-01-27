@@ -1,0 +1,8 @@
+question: OP_CHECKMULTISIG'da çıplak multisig ScriptSig'lerde fazladan bir OP_0 gerektiren off-by-one hatasının nedeni nedir?
+answer: OP_CHECKMULTISIG, beklenen imzalar ve açık anahtarların ötesinde ek bir yığın öğesi tüketir
+wrong_answers:
+  - İmza doğrulama işlemi, ECDSA doğrulamasının düzgün çalışması için fazladan bir bayt gerektirir
+  - "Bitcoin'nin yığın uygulaması, bellek hizalaması için bir dolgu elemanına ihtiyaç duyan bir sınır kontrolüne sahiptir"
+  - Multisig eşik sayımı bir yerine sıfırdan başlar ve bir ofset yer tutucu değeri gerektirir
+explanation: |
+  OP_CHECKMULTISIG işlem kodu, yürütme sırasında yığından olması gerekenden bir öğe daha çıkaran bir uygulama hatasına sahiptir. Bu, gerekli m imzaya ve n açık anahtara ek olarak fazladan bir yığın öğesi tükettiği anlamına gelir. İşlemin başarısız olmasını önlemek için, çıplak multisig ScriptSigs, bu beklenmedik yığın tüketimini karşılamak için bir başlangıç OP_0 (boş bir bayt dizisini iten) içermelidir. Diğer seçenekler kulağa mantıklı gelen teknik sorunları açıklar ancak bu iyi bilinen Bitcoin tuhaflığının gerçek nedeni değildir.

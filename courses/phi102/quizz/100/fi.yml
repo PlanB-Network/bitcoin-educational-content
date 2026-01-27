@@ -1,0 +1,8 @@
+question: Minkä talousteorian mukaan vapaaehtoisen vaihdon perustavanlaatuinen ominaisuus tekee siitä yhteiskunnalle hyödyllistä?
+answer: Exchange on positiivisen summan peli, jossa molemmat osapuolet hyötyvät molemminpuolisesti
+wrong_answers:
+  - Exchange luo aineellista vaurautta muuttamalla raaka-aineita valmiiksi tuotteiksi
+  - Exchange jakaa resursseja varakkailta osallistujilta köyhille tasapuolisesti
+  - Exchange poistaa niukkuuden maksimoimalla käytettävissä olevien tavaroiden kokonaismäärän
+explanation: |
+  Vapaaehtoinen vaihto on pohjimmiltaan positiivisen summan peli, koska molemmat osapuolet osallistuvat kauppaan odottaen hyötyvänsä, sillä muutoin he yksinkertaisesti päättäisivät olla osallistumatta. Kuten Abbé de Saint-Pierren analyysi osoittaa, kun kauppiaiden välinen kauppa tapahtuu, sekä myyjä että ostaja hyötyvät - myyjä ei myisi kyseiseen hintaan ja ostaja ei ostaisi, elleivät molemmat pitäisi sitä edullisena. Tämä molemminpuolisen hyödyn periaate selittää, miksi kaupankäynnin lisääntyminen rikastuttaa yhteiskuntaa, kun taas kaupankäynnin väheneminen vähentää hyvinvointia. Muut vaihtoehdot ovat virheellisiä, koska vaihto ei luo aineellista vaurautta (se luo hyötyjä), se ei jaa vaurautta tasapuolisesti uudelleen eikä poista niukkuutta vaan optimoi resurssien jakamista vapaaehtoisen yhteistyön avulla.

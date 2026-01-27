@@ -6,4 +6,4 @@ wrong_answers:
   - Permitir que Alice cifre el mensaje para verificar su integridad
 explanation: |
   En la criptografía asimétrica, la clave pública de Alice permite a Bob enviar un mensaje cifrado que solo ella puede descifrar, asegurando así la confidencialidad del mensaje.
-reviewed: false
+reviewed: true

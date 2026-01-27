@@ -1,0 +1,9 @@
+question: Mikä näistä kriteereistä on tärkein vertaisverkkoyhteyden kannalta?
+answer: Keskeinen asema kuvaajassa
+wrong_answers:
+  - Solmun nimi graafissa
+  - Solmun väri kuvaajassa
+  - Viestien määrä kuvaajassa
+explanation: |
+  Hyvin sijoitettu solmu Lightning-graafissa helpottaa reititystä moniin kohteisiin.
+reviewed: false

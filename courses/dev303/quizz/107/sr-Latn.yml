@@ -1,0 +1,8 @@
+question: Koja kritična sposobnost omogućava LDK-u da održava Lightning funkcionalnost na mobilnim novčanicima sa povremenom povezanošću u poređenju sa tradicionalnim daemon-baziranim Lightning čvorovima?
+answer: Sposobnost LDK-a da se sinhronizuje sa pružaocima usluga munjevitog plaćanja (LSP-ovima) prilikom povezivanja na mrežu, uz zadržavanje nekustodijalne kontrole privatnog ključa
+wrong_answers:
+  - "Sistem za obradu offline plaćanja ugrađen u LDK koji redom obrađuje transakcije dok se mrežna povezanost ne uspostavi"
+  - "sistem za distribuiranu rezervnu kopiju stanja kanala LDK-a koji automatski replicira podatke preko više provajdera oblaka"
+  - "LDK-ov peer-to-peer mesh networking protokol koji omogućava direktna plaćanja putem Lightning mreže između uređaja bez interneta"
+explanation: |
+  Modularna arhitektura LDK omogućava mobilnim aplikacijama da implementiraju obrasce povremene povezanosti sinhronizacijom sa LSP-ovima kada se povežu na mrežu, omogućavajući korisnicima da primaju uplate i upravljaju kanalima čak i kada je mobilni uređaj bio van mreže. Ovo se suštinski razlikuje od tradicionalnih Lightning demona koji zahtevaju kontinuirani rad. Pogrešni odgovori opisuju nepostojeće funkcije - LDK nema ugrađenu obradu uplata van mreže, distribuirane rezervne kopije ili mogućnosti mesh umrežavanja.

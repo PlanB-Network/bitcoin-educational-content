@@ -1,5 +1,5 @@
 ---
-name: Plan ₿ Akademie - Birnen App
+name: Plan ₿ Academy - Pears App
 description: Wie installiert und verwendet man die Anwendung Plan ₿ Academy auf Pears?
 ---
 

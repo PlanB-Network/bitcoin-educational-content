@@ -143,10 +143,11 @@ Usisahau kuanzisha upya programu baada ya kufanya mabadiliko haya.
 Kisha rudi kwa Sparrow Wallet na uweke njia ya faili yako ya kidakuzi, ambayo kwa kawaida iko katika folda sawa na `Bitcoin.conf`, kulingana na mfumo wako wa uendeshaji:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 ![Image](assets/fr/09.webp)
 
@@ -177,10 +178,11 @@ server=1
 Baada ya kuhariri faili, hakikisha umeihifadhi kwenye folda inayofaa kwa mfumo wako wa kufanya kazi:
 
 
-| **macOS** | ~/Library/Application Support/Bitcoin |
+
+| **macOS**   | ~/Library/Application Support/Bitcoin |
 | ----------- | ------------------------------------- |
-| **Windows** | %APPDATA%\Bitcoin |
-| **Linux** | ~/.Bitcoin |
+| **Windows** | %APPDATA%\Bitcoin                     |
+| **Linux**   | ~/.bitcoin                            |
 
 Operesheni hii pia inaweza kufanywa kupitia Bitcoin-QT interface ya picha. Nenda kwenye menyu ya "Mipangilio", kisha "Chaguzi...", na uamilishe chaguo la "Wezesha seva ya RPC" kwa kuangalia kisanduku sambamba. Ikiwa faili ya `Bitcoin.conf` haipo, unaweza kuiunda moja kwa moja kutoka kwa Interface hii kwa kubofya "*Fungua Faili ya Usanidi*".
 

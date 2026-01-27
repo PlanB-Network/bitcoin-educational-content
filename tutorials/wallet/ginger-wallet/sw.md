@@ -1,5 +1,5 @@
 ---
-name: Tangawizi Wallet
+name: Ginger Wallet
 description: Chanzo huria, programu ya kujilinda ya Bitcoin wallet, fork kutoka Wasabi Wallet, ikiunganisha Coinjoins
 ---
 ![cover](assets/cover.webp)

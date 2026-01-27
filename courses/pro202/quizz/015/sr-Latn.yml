@@ -1,0 +1,8 @@
+question: Šta se dešava sa aritmetičkim operacijama kada su eliptičke krive definisane nad konačnim poljima umesto nad realnim brojevima?
+answer: Sve operacije koriste modularnu aritmetiku uz održavanje istih algebarskih pravila
+wrong_answers:
+  - Formule za sabiranje tačaka moraju biti potpuno prepisane za diskretnu matematiku.
+  - Proračuni nagiba postaju nedefinisani zbog diskretne prirode tačaka
+  - Sva algebarska pravila se suštinski menjaju kako bi se prilagodila strukturi konačnog polja
+explanation: |
+  Kada se eliptičke krive premeste sa realnih brojeva na konačna polja, osnovna algebarska struktura i pravila ostaju identični - samo se aritmetika menja u modularnu aritmetiku. Sve formule za sabiranje tačaka, izračunavanje nagiba i geometrijski odnosi funkcionišu na potpuno isti način, ali se svaka kalkulacija izvodi modulo p. Ovo očuvanje algebarskih pravila uz promenu samo aritmetičke osnove čini eliptičke krive nad konačnim poljima tako moćnim za kriptografiju, održavajući sva potrebna matematička svojstva dok stvaraju diskretno, nepredvidivo ponašanje neophodno za sigurnost.

@@ -96,7 +96,7 @@ https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92
 
 
 
-Если у вас его еще нет, загрузите программу [Balena Etcher] (https://etcher.balena.io/), а затем выполните следующие действия:
+Если у вас его еще нет, загрузите программу [Balena Etcher](https://etcher.balena.io/), а затем выполните следующие действия:
 
 
 
@@ -933,6 +933,6 @@ https://planb.academy/tutorials/wallet/hardware/seedsigner-2b274bff-6fc8-407a-92
 
 
 
-- Приобретая оборудование напрямую [на сайте Satochip] (https://satochip.io/shop/);
-- Сделав [пожертвование на проект SeedSigner] (https://seedsigner.com/donate/);
-- Подписавшись на [YouTube-канал Crypto Guide] (https://www.youtube.com/@CryptoGuide/), который ведет человек, поддерживающий репозиторий GitHub, где хранится модифицированная прошивка, которую мы использовали в этом руководстве.
+- Приобретая оборудование напрямую [на сайте Satochip](https://satochip.io/shop/);
+- Сделав [пожертвование на проект SeedSigner](https://seedsigner.com/donate/);
+- Подписавшись на [YouTube-канал Crypto Guide](https://www.youtube.com/@CryptoGuide/), который ведет человек, поддерживающий репозиторий GitHub, где хранится модифицированная прошивка, которую мы использовали в этом руководстве.

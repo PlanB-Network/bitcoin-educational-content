@@ -1,0 +1,8 @@
+question: Apa tujuan utama dari tipe enum Option<T> Rust?
+answer: Untuk merepresentasikan nilai yang mungkin ada atau tidak ada dengan aman, mencegah kesalahan penunjuk nol
+wrong_answers:
+  - Untuk menyimpan beberapa tipe data yang berbeda dalam satu variabel tanpa pemeriksaan tipe
+  - Untuk membuat parameter opsional dalam definisi fungsi yang dapat dilewati selama panggilan
+  - Untuk menyediakan cara mengembalikan beberapa jenis kesalahan yang mungkin terjadi dari satu fungsi
+explanation: |
+  Enum Option<T> berfungsi sebagai solusi Rust untuk masalah penunjuk nol dengan memaksa penanganan eksplisit terhadap nilai yang hilang. Enum ini memiliki dua varian: Some(T) untuk nilai sekarang dan None untuk nilai yang tidak ada. Kompiler mengharuskan Anda untuk memeriksa varian mana yang Anda miliki sebelum menggunakan nilai tersebut, untuk mencegah kesalahan saat proses. Jawaban yang salah akan membingungkan Option dengan konsep lain: union/variant (pertama), parameter default (kedua), dan tipe Hasil untuk penanganan kesalahan (ketiga).

@@ -1,0 +1,9 @@
+question: Vad är huvudsyftet med konfigurationen LND + Tailscale + Zeus?
+answer: Använda en mobil wallet på din Lightning-nod
+wrong_answers:
+  - Använda en depå wallet utan Lightning-nod
+  - Multiplexering av flera LND-noder
+  - Mining sats med användning av Umbrel
+explanation: |
+  Målet är att använda en mobil Lightning wallet-applikation som körs i bakgrunden på din egen nod.
+reviewed: false

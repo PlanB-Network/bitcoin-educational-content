@@ -1,0 +1,8 @@
+question: Khi định nghĩa giao diện hàm gọi lại trong UniFFI, những ràng buộc đặc tính Rust bổ sung nào thường được yêu cầu trên đặc tính hàm gọi lại để đảm bảo việc gọi hàm an toàn giữa các ngôn ngữ?
+answer: Cần có các giới hạn Gửi và Đồng bộ vì các hàm gọi lại có thể vượt qua ranh giới luồng giữa Rust và các ngôn ngữ đích.
+wrong_answers:
+  - Các ràng buộc Clone và Copy là cần thiết để cho phép dữ liệu gọi lại được sao chép giữa các ngôn ngữ khác nhau.
+  - Cần có các giới hạn gỡ lỗi và hiển thị để cho phép báo cáo lỗi chính xác khi các hàm gọi lại thất bại trong quá trình thực thi.
+  - Các ràng buộc Serialize và Deserialize là cần thiết để chuyển đổi các tham số hàm gọi lại giữa các môi trường thực thi ngôn ngữ khác nhau.
+explanation: |
+  Giao diện gọi lại trong UniFFI yêu cầu các ràng buộc Send và Sync vì chúng cho phép giao tiếp hai chiều, trong đó mã Rust gọi lại mã ứng dụng được viết bằng ngôn ngữ đích. Vì các lệnh gọi lại này có thể vượt qua ranh giới luồng trong quá trình thực thi, hệ thống kiểu của Rust yêu cầu các ràng buộc Send (an toàn để truyền giữa các luồng) và Sync (an toàn để chia sẻ tham chiếu giữa các luồng) để đảm bảo an toàn bộ nhớ. Các tùy chọn khác không chính xác: Clone/Copy không cần thiết cho các cuộc gọi đa ngôn ngữ, Debug/Display dùng để định dạng chứ không phải để đảm bảo an toàn, và Serialize/Deserialize được xử lý tự động bởi hệ thống marshalling của UniFFI.

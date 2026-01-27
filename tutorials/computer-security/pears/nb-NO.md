@@ -1,5 +1,5 @@
 ---
-name: Pærer
+name: Pears
 description: Hvordan installerer og bruker jeg applikasjoner på Pears?
 ---
 

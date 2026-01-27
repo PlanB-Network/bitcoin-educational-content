@@ -1,0 +1,8 @@
+question: Was passiert, wenn Sie eine Variable in Rust mit 'let x = 5' ohne zusätzliche Schlüsselwörter deklarieren?
+answer: Die Variable wird unveränderlich und kann nach der Zuweisung nicht mehr geändert werden
+wrong_answers:
+  - Die Variable wird veränderbar und kann jederzeit geändert werden
+  - Die Variable wird automatisch nur für Release-Builds optimiert
+  - Die Variable erfordert eine explizite Typ-Annotation, um erfolgreich zu kompilieren
+explanation: |
+  In Rust sind Variablen standardmäßig unveränderlich, wenn sie mit 'let' deklariert werden. Das heißt, wenn Sie einer Variablen einen Wert wie "let x = 5" zuweisen, können Sie diesen Wert später im Programm nicht mehr ändern. Wenn Sie versuchen, ihn zu ändern, wird der Compiler einen Fehler ausgeben. Diese standardmäßige Unveränderlichkeit ist ein wichtiges Sicherheitsmerkmal, das viele häufige Programmierfehler verhindert, die durch unerwartete Zustandsänderungen verursacht werden. Um eine Variable veränderbar zu machen, müssen Sie explizit das Schlüsselwort 'mut' verwenden, z. B. 'let mut x = 5'.

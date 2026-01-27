@@ -1,9 +1,9 @@
-question: Ni mu mwaka uwuhe ubuhinga bwa cryptography asymétrique bwavumbuwe ku mugaragaro?
+question: Ni mu mwaka uwuhe ubuhinga bwa asymmetric cryptography bwashizwe ku mugaragaro?
 answer: 1976
 wrong_answers:
   - 1676
   - 1776
   - 1876
 explanation: |
-  Whitfield Diffie na Martin Hellman, abahinga babiri bo muri kaminuza ya Stanford, barayishizeho mu kinyamakuru casohowe mu kwezi kwa cumi na kumwe 1976.
+  Whitfield Diffie na Martin Hellman, abahinga babiri bo muri kaminuza ya Stanford, barayishizeho mu kinyamakuru casohowe mu kwezi kwa Munyonyo 1976.
 reviewed: true

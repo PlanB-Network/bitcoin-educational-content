@@ -1,5 +1,5 @@
 ---
-name: Terminál Ashigaru
+name: Ashigaru Terminal
 description: Použijte Ashigaru na ploše k vytváření coinjoins
 ---
 

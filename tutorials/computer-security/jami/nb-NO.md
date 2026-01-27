@@ -19,25 +19,26 @@ I dag er Jami tilgjengelig på mange systemer. Den er kjent for sin ytelse, smid
 
 
 
-| Application          | E2EE 1:1       | E2EE groupes   | Inscription anonyme | Licence client open-source | Licence serveur open-source | Serveur décentralisé | Année de création |
+
+| Applikasjon | E2EE 1:1 | E2EE-grupper | Anonym registrering | Klientlisens (åpen kildekode) | Serverlisens (åpen kildekode) | Desentralisert server | Opprettelsesår |
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ----------------- |
-| WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
-| WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
-| LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
-| Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (fédéré)          | 2014              |
-| Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
-| SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
-| Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(pas d'annuaire)   | 2019              |
-| Keet                 | ✅              | ✅              | ✅                   | ❌                          | N/A                         | ✅                    | 2022              |
-| **Jami**                 | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2005              |
-| Briar                | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2018              |
-| Tox              | ✅              | ✅              | ✅                   | ✅                          | N/A                         | ✅                    | 2013              |
+| WhatsApp | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2009 |
+| WeChat | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Facebook Messenger | ✅ | 🟡 (valgfritt) | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Telegram | 🟡 (valgfritt) | ❌ | 🟡 | ✅ | ❌ | ❌ | 2013 |
+| LINE | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | 2011 |
+| Signal | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ | 2014 |
+| Threema | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | 2012 |
+| Element (Matrix) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (federert) | 2016 |
+| Delta Chat | ✅ | ✅ | ✅ | ✅ | N/A | 🟡 (via e-post) | 2017 |
+| Conversations (XMPP) | ✅ | ✅ | ✅ | ✅ | ✅ | 🟡 (federert) | 2014 |
+| Session | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2020 |
+| SimpleX | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | 2021 |
+| Olvid | ✅ | ✅ | ✅ | ✅ | ❌ | 🟡 (ingen katalog) | 2019 |
+| Keet | ✅ | ✅ | ✅ | ❌ | N/A | ✅ | 2022 |
+| **Jami** | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2005 |
+| Briar | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2018 |
+| Tox | ✅ | ✅ | ✅ | ✅ | N/A | ✅ | 2013 |
 
 *E2EE = ende-til-ende-kryptering*
 
@@ -82,7 +83,7 @@ Programmet er tilgjengelig direkte fra App Store eller Play Store. Bare søk ett
 
 
 
-For å installere Jami på enheten din, må du først besøke det offisielle Jami-nettstedet. Som standard viser nettstedet programvaren som tilsvarer enhetens operativsystem, og du kan klikke direkte på nedlastingsknappen for å starte den. Du kan imidlertid også laste ned den kjørbare filen for Windows direkte fra [nedlastingsside] (https://jami.net/download-jami-windows/).
+For å installere Jami på enheten din, må du først besøke det offisielle Jami-nettstedet. Som standard viser nettstedet programvaren som tilsvarer enhetens operativsystem, og du kan klikke direkte på nedlastingsknappen for å starte den. Du kan imidlertid også laste ned den kjørbare filen for Windows direkte fra [nedlastingsside](https://jami.net/download-jami-windows/).
 
 
 
@@ -90,7 +91,7 @@ For å installere Jami på enheten din, må du først besøke det offisielle Jam
 
 
 
-For macOS-brukere er filen også tilgjengelig fra [macOS download page] (https://jami.net/download-jami-macos/).
+For macOS-brukere er filen også tilgjengelig fra [macOS download page](https://jami.net/download-jami-macos/).
 
 
 
@@ -118,7 +119,7 @@ For å installere Jami på Linux, er det best å bruke kommandolinjen. Det er vi
 
 
 
-Når du har valgt distribusjon, kan du installere systemet. Du må installere de avhengighetene som kreves for å kjøre Jami på ditt Linux-operativsystem. Kommandoene er direkte tilgjengelige på [denne siden] (https://jami.net/download-jami-linux/).
+Når du har valgt distribusjon, kan du installere systemet. Du må installere de avhengighetene som kreves for å kjøre Jami på ditt Linux-operativsystem. Kommandoene er direkte tilgjengelige på [denne siden](https://jami.net/download-jami-linux/).
 
 
 
@@ -312,7 +313,7 @@ Når passordet er skrevet inn, kobles enheten automatisk til kontoen og synkroni
 
 
 
-En av Jamis interessante funksjoner er muligheten til å integrere nye alternativer via utvidelser (plugins). Plugins er innfødte moduler (C/C++); SDK-en inneholder verktøy og skript (særlig i Python) for å lage dem. Noen plugins er tilgjengelige direkte [her] (https://jami.net/extensions/).
+En av Jamis interessante funksjoner er muligheten til å integrere nye alternativer via utvidelser (plugins). Plugins er innfødte moduler (C/C++); SDK-en inneholder verktøy og skript (særlig i Python) for å lage dem. Noen plugins er tilgjengelige direkte [her](https://jami.net/extensions/).
 
 
 
@@ -324,7 +325,7 @@ For å installere en utvidelse åpner du den integrerte utvidelsesbutikken på s
 
 
 
-Hvis du vil utvikle dine egne plugins, kan du lese blogginnlegget **[Discover the Jami Plugin SDK and create your own plugins] (https://jami.net/plugins-sdk/)**.
+Hvis du vil utvikle dine egne plugins, kan du lese blogginnlegget **[Discover the Jami Plugin SDK and create your own plugins](https://jami.net/plugins-sdk/)**.
 
 
 

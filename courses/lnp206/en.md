@@ -1,5 +1,5 @@
 ---
-name: Breez Nodeless SDK Hands-on
+name: Hands-on with Breez Nodeless SDK 
 goal: Master the Breez Nodeless SDK to build Lightning Network applications without running a node
 objectives:
   - Learn practical implementation of the Nodeless SDK methods and APIs

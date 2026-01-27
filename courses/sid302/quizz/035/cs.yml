@@ -1,0 +1,8 @@
+question: Jaký je hlavní účel tříkrokového procesu Připojit, Připravit a Spustit ve vývojářském rozhraní sady Breez SDK?
+answer: Standardizace složitých finančních toků synchronizací peněženek, výpočet všech poplatků předem a následná konstrukce transakcí
+wrong_answers:
+  - Vytvoření redundantních záložních připojení u více poskytovatelů swapu před zahájením jakýchkoli atomických operací
+  - Vytvoření samostatných kryptografických podpisů pro každou síť zapojenou do podmořských swapových transakcí napříč řetězci
+  - Ověřování předběžných plateb na základě časově omezených smluv před uvolněním prostředků z mechanismů úschovy
+explanation: |
+  Vzor Connect, Prepare, Execute zjednodušuje vývoj rozdělením složitých operací do zvládnutelných kroků: Připojení inicializuje peněženky a navazuje monitorovací spojení, Příprava vypočítá a transparentně zobrazí všechny náklady uživatelům a Provedení se postará o vlastní konstrukci a vysílání transakcí. Tato standardizace abstrahuje od základní složitosti podmořských výměn a operací napříč řetězci, což vývojářům usnadňuje integraci funkcí Bitcoin bez nutnosti spravovat detaily na nízké úrovni.

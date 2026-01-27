@@ -10,9 +10,9 @@ I denne trinnvise opplæringen lærer du hvordan du setter opp en Lightning RGB-
 
 Bitfinex' RGB-team har jobbet siden 2022 for å berike RGB-økosystemet ved å utvikle en komplett teknologistack. I stedet for å sikte mot et enkelt kommersielt produkt, er innsatsen fokusert på å gjøre programvarebrikker med åpen kildekode tilgjengelig, bidra til RGB-protokollspesifikasjoner og lage implementeringsreferanser.
 
-Blant Bitfinex' bemerkelsesverdige bidrag til RGB-økosystemet er [the *RGBlib* library] (https://github.com/RGB-Tools/rgb-lib), skrevet i Rust og tilgjengelig via bindinger i Kotlin og Python, som i stor grad forenkler utviklingen av RGB-applikasjoner ved å innkapsle komplekse validerings- og engasjementsmekanismer.
+Blant Bitfinex' bemerkelsesverdige bidrag til RGB-økosystemet er [the *RGBlib* library](https://github.com/RGB-Tools/rgb-lib), skrevet i Rust og tilgjengelig via bindinger i Kotlin og Python, som i stor grad forenkler utviklingen av RGB-applikasjoner ved å innkapsle komplekse validerings- og engasjementsmekanismer.
 
-Bitfinex-teamet har også designet en RGB-mobil lommebok, kalt "[*Iris Wallet*] (https://iriswallet.com/)", tilgjengelig på Android. Denne lommeboken integrerer bruken av en RGB-proxyserver for å enkelt administrere datautveksling utenfor kjeden (*sendinger*) for *Validering på klientsiden* på RGB.
+Bitfinex-teamet har også designet en RGB-mobil lommebok, kalt "[*Iris Wallet*](https://iriswallet.com/)", tilgjengelig på Android. Denne lommeboken integrerer bruken av en RGB-proxyserver for å enkelt administrere datautveksling utenfor kjeden (*sendinger*) for *Validering på klientsiden* på RGB.
 
 Bitfinex har også utviklet `rgb-lightning-node` (RLN) -prosjektet. Dette er en Rust-daemon basert på en gaffel av `rust-lightning` (LDK), modifisert for å ta hensyn til eksistensen av RGB-aktiva i en kanal. Når en kanal åpnes, kan tilstedeværelsen av RGB-tokens spesifiseres, og hver gang kanaltilstanden oppdateres, opprettes en tilstandsovergang som gjenspeiler fordelingen av tokens i Lightning-utgangene. Dette muliggjør :
 

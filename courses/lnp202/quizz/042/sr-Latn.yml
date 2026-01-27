@@ -1,0 +1,9 @@
+question: Koja je glavna mana prinudnog zatvaranja?
+answer: Sredstva blokirana vremenskom bravom
+wrong_answers:
+  - Delimični gubitak sredstava
+  - Zastarjelost Lightning čvora
+  - Desinhronizacija čvora munje
+explanation: |
+  Sredstva su blokirana vremenskom bravom i naknade su često visoke.
+reviewed: false

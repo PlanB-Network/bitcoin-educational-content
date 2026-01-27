@@ -1,0 +1,8 @@
+question: 是什么主要技术机制使 Breez SDK 能够在保持 Lightning 和 on-chain Bitcoin 功能的同时，为用户提供统一的平衡？
+answer: 根据需要在 "闪电 "和 on-chain Bitcoin 之间进行幕后转换的自动交换服务
+wrong_answers:
+  - 实时余额汇总，显示 "闪电 "资金和 on-chain 资金的总和，而不进行实际转换
+  - 渠道储备金池，允许资金在同一 UTXO 内的闪电州和 on-chain 州之间自由流动
+  - 双层地址生成，可创建混合地址，同时接收 Lightning 和 on-chain 付款
+explanation: |
+  正确答案是自动交换服务，因为 Breez SDK 专门实现了 on-chain 交换功能，当用户需要进行不同类型的支付时，可在 Lightning 和 on-chain Bitcoin 之间进行无缝转换。这样，用户就能看到单一余额，而系统则能处理在不同层之间移动资金的复杂技术问题。错误答案描述了不存在或技术上不可能实现的机制--余额聚合只会显示合并金额，而不会启用跨层功能，通道储备无法将资金转移到 on-chain 状态，混合地址在 Bitcoin 协议中也不存在。

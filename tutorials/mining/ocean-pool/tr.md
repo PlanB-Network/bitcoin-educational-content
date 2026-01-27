@@ -71,7 +71,7 @@ Sats'nızı BOLT12 kullanarak Lightning üzerinden çekmeniz de mümkündür. Bu
 Tüm kullanıcı verileri de dahil olmak üzere havuzla ilgili tüm bilgiler şeffaftır. Bu noktayı anlamak için bir örnek verelim:
 
 
-[Ocean kontrol panelinde] (https://ocean.xyz/dashboard), son altı aydaki Hashrate, havuzdaki katılımcı sayısı, çıkarılan toplam bitcoin sayısı vb. gibi çok sayıda bilgiye sahipsiniz.
+[Ocean kontrol panelinde](https://ocean.xyz/dashboard), son altı aydaki Hashrate, havuzdaki katılımcı sayısı, çıkarılan toplam bitcoin sayısı vb. gibi çok sayıda bilgiye sahipsiniz.
 
 
 Biz "Katkıda Bulunanlar" bölümüne odaklanacağız. Son üç saatteki ortalama Hashrate'leriyle birlikte tüm katkıda bulunanların listesini ve havuzun geri kalanına göre **"paylaşım "** ve **"Hash"** yüzdesini görebilirsiniz.
@@ -89,7 +89,7 @@ Biz "Katkıda Bulunanlar" bölümüne odaklanacağız. Son üç saatteki ortalam
 "Katkıda Bulunanların" Bitcoin Address ile tanımlandığını fark edeceksiniz. Daha fazla ayrıntı için bu adreslerden herhangi birine tıklayabilirsiniz.
 
 
-İlkini, en yüksek Hashrate'e sahip olanı [1GRfspGGx4Ne66YotWuosUc4WeJLfGE3dZ] (https://ocean.xyz/stats/1GRfspGGx4Ne66YotWuosUc4WeJLfGE3dZ) alırsak, bu kullanıcıyla ilgili tüm ayrıntıları görebilirsiniz: Hashrate, kazılan bitcoin sayısı, hangi blokla kazıldığı ve hatta makinelerinin (ASIC'ler) her birinin ayrıntıları. Ancak, Bitcoin'te olduğu gibi anonim kalırlar.
+İlkini, en yüksek Hashrate'e sahip olanı [1GRfspGGx4Ne66YotWuosUc4WeJLfGE3dZ](https://ocean.xyz/stats/1GRfspGGx4Ne66YotWuosUc4WeJLfGE3dZ) alırsak, bu kullanıcıyla ilgili tüm ayrıntıları görebilirsiniz: Hashrate, kazılan bitcoin sayısı, hangi blokla kazıldığı ve hatta makinelerinin (ASIC'ler) her birinin ayrıntıları. Ancak, Bitcoin'te olduğu gibi anonim kalırlar.
 
 
 ### Blok Şablonu

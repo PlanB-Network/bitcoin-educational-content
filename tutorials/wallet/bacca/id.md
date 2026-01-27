@@ -98,7 +98,7 @@ Anda sekarang memiliki akses ke antarmuka perangkat lunak.
 
 Sebelum memulai, jika Ledger Anda masih baru, pastikan Anda telah mengatur kode PIN dan menyimpan frasa pemulihan. Anda tidak memerlukan Ledger Live untuk langkah awal ini. Cukup sambungkan Ledger Anda melalui kabel USB untuk menyalakannya. Jika Anda tidak yakin bagaimana cara melanjutkan kedua langkah ini, Anda dapat merujuk ke awal tutorial khusus untuk model Anda:
 
-https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
 
 https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 

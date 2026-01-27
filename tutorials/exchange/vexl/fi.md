@@ -19,7 +19,7 @@ Vexl on vertaisverkosto, joka yhdistää Bitcoin:n ostajat ja myyjät ympäri ma
 
 
 
-Vexlin käytön aloittaminen on melko yksinkertaista: käy [virallisilla verkkosivuilla] (https://vexl.it) ja lataa mobiilisovellus iOS- tai Android-puhelimeesi.
+Vexlin käytön aloittaminen on melko yksinkertaista: käy [virallisilla verkkosivuilla](https://vexl.it) ja lataa mobiilisovellus iOS- tai Android-puhelimeesi.
 
 
 

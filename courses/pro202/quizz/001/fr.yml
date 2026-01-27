@@ -1,0 +1,8 @@
+question: Qu'est-ce qu'un corps fini F(p) dans le système cryptographique de Bitcoin ?
+answer: Système arithmétique défini par un nombre premier p, contenant les éléments 0 à p-1
+wrong_answers:
+  - Un ensemble infini de nombres utilisés pour générer des adresses et des clés Bitcoin
+  - Champ mathématique contenant tous les nombres réels compris entre 0 et p-1 inclus
+  - Une fonction de hachage cryptographique qui produit des sorties d'une longueur exacte de p bits
+explanation: |
+  Un corps fini F(p) est spécifiquement un système arithmétique construit autour d'un nombre premier p qui contient exactement p éléments : les entiers de 0 à p-1. L'aspect "fini" est crucial : il ne s'agit pas d'un champ infini, ni de nombres réels ou de fonctions de hachage. Les champs premiers garantissent que chaque élément non nul a un inverse multiplicatif et que toutes les opérations arithmétiques (addition, soustraction, multiplication) s'effectuent en utilisant modulo p, en conservant les résultats à l'intérieur du champ. Cette structure limitée et prévisible est essentielle pour la sécurité cryptographique du Bitcoin.

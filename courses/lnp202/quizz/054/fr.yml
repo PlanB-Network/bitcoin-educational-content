@@ -1,0 +1,9 @@
+question: Parmi les modes de connexion cités entre un nœud Lightning et un client mobile, lequel est déconseillé explicitement pour cet usage ?
+answer: Tor
+wrong_answers:
+  - Tailscale
+  - Nostr Wallet Connect
+  - Aucun
+explanation: |
+  Tor fonctionne très mal en pratique pour cet usage à cause des échecs et de la latence qui rendent l’expérience utilisateur mauvaise.
+reviewed: false

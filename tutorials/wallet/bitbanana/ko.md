@@ -1,5 +1,5 @@
 ---
-name: 비트바나나
+name: BitBanana
 description: 라이트닝 노드용 모바일 관리자
 ---
 

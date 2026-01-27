@@ -62,7 +62,7 @@ Dopo aver completato l'impostazione iniziale, si accede alla schermata iniziale,
 Per impostazione predefinita, all'avvio dell'applicazione è abilitata la zecca Minibits. Tuttavia, uno dei punti di forza di ecash è la possibilità di utilizzare più zecche per aumentare la decentralizzazione e la sicurezza. Per aggiungere un'altra zecca, andare su `Impostazioni`, quindi selezionare `Gestione zecche` e infine toccare `Aggiungi zecca`.
 
 
-[Bitcoinmints.com] (Bitcoinmints.com) fornisce un elenco completo delle zecche disponibili con le valutazioni degli utenti per aiutarvi a scegliere opzioni affidabili. L'utilizzo di più zecche riduce il rischio. Se una zecca ha problemi, i vostri fondi sulle altre zecche rimangono accessibili.
+[Bitcoinmints.com](Bitcoinmints.com) fornisce un elenco completo delle zecche disponibili con le valutazioni degli utenti per aiutarvi a scegliere opzioni affidabili. L'utilizzo di più zecche riduce il rischio. Se una zecca ha problemi, i vostri fondi sulle altre zecche rimangono accessibili.
 
 
 ![image](assets/en/04.webp)

@@ -1,8 +1,9 @@
-question: Vad är skalbarhetsproblemet med Bitcoin?
-answer: Utmaningen att införa ett monetärt system som kan tillhandahålla ett ständigt ökande antal transaktioner per sekund i takt med att det införs.
+question: Vilken mekanism gör Lightning-betalningar atomiska?
+answer: HTLC
 wrong_answers:
-  - Svårigheten att Mining nya Bitcoins med ett ökande värde över tid.
-  - Volatiliteten i Bitcoin:s pris som kommer att öka efter varje Halving.
-  - Avsaknaden av reglering för Bitcoin som kommer att göra transaktioner olagliga.
-explanation: >-
-reviewed: true
+  - Multisignatur
+  - Proof of Work
+  - SegWit
+explanation: |
+  HTLC villkorar betalningen med avslöjandet av en hemlighet och garanterar fullständig framgång eller misslyckande utan förlust.
+reviewed: false

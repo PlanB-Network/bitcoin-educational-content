@@ -1,0 +1,9 @@
+question: Porque é que um operador comercial do nó Lightning não pode confiar nos seus próprios pagamentos para obter liquidez de entrada generate?
+answer: Principalmente fluxos de entrada
+wrong_answers:
+  - Principalmente fluxos de saída
+  - Canais demasiado pequenos
+  - Taxas onchain elevadas
+explanation: |
+  Ao descontar sem gastar, o comerciante não transfere naturalmente a liquidez para fora dos seus canais.
+reviewed: false

@@ -39,7 +39,7 @@ Saate selle episoodiga tutvuda nende otselinkide kaudu:
 - [Google podcast](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9iZDVkNWIyMC9wb2RjYXN0L3Jzcw/episode/N2Y1NmRlZDAtZTc4Mi00MDJmLTk3ODktODIyYzgwODBjODYx?sa=X&ved=0CAUQkfYCahcKEwjohMaiv6n8AhUAAAAAHQAAAAAQEw)
 - [Amazon music](https://music.amazon.it/podcasts/b1b27a88-c1c9-48de-a301-20f31d29c676/episodes/54dec992-5b03-463a-bb98-f653b72ccb63/il-priorato-del-Bitcoin-joinmarket-dalla-teoria-alla-pratica---turtlecute)
 - [Anchor](https://Anchor.fm/turtle-cute5/episodes/Joinmarket-dalla-Teoria-alla-Pratica---Turtlecute-e1t0bep) (siin saate seda otse brauserist kuulata).
-- [Antenna pod] (https://antennapod.org/) on tasuta ja avatud lähtekoodiga podcastide haldur, mis ei nõua registreerimist. Episoodi leidmiseks laadige rakendus alla, lisage käsitsi minu podcast, sisestades [see link](https://Anchor.fm/s/bd5d5b20/podcast/rss) _feed rss_ sektsiooni, seejärel otsige JoinMarketile pühendatud episoodi.
+- [Antenna pod](https://antennapod.org/) on tasuta ja avatud lähtekoodiga podcastide haldur, mis ei nõua registreerimist. Episoodi leidmiseks laadige rakendus alla, lisage käsitsi minu podcast, sisestades [see link](https://Anchor.fm/s/bd5d5b20/podcast/rss) _feed rss_ sektsiooni, seejärel otsige JoinMarketile pühendatud episoodi.
 
 
 

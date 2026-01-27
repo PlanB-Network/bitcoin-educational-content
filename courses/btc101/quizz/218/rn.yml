@@ -1,10 +1,9 @@
-question: Ni ryari Lightning Network yemejwe ubwa mbere kandi igashirwa mu ngiro?
-answer: 2017
+question: Kubera iki umuyoboro wa Lightning ushobora kudakoreshwa mu cyerekezo kimwe?
+answer: Amafaranga adahagije
 wrong_answers:
-  - 2015
-  - 2016
-  - 2018
+  - Bloke nshasha cane
+  - HTLC yarangiye igihe
+  - Umuyoboro utajyanye n’igihe
 explanation: |
-  Lightning Network ni yo yabanje kwemezwa kandi irashirwa mu ngiro .
-  muri 2017.
-reviewed: true
+  N’iyo woba ufise ubushobozi bunini, umuyoboro wemerera ukwishyura gusa iyo amafaranga ahagije ari ku ruhande rukwiye.
+reviewed: false

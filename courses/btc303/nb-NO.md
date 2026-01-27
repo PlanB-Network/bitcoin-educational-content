@@ -51,7 +51,7 @@ Boken ble bestilt og finansiert av [Chaincode Labs](https://learning.chaincode.c
 <chapterId>28b7256b-9cb0-463e-a82d-d732be86c98c</chapterId>
 
 
-Velkommen til dette kurset PHI 301 om Bitcoin utviklingsfilosofi.
+Velkommen til dette kurset BTC 303 om Bitcoin utviklingsfilosofi.
 
 
 Bitcoin er mer enn bare en kryptovaluta, den representerer en filosofisk visjon om desentralisering, personvern, tillitsløshet og robusthet. Dette kurset er utviklet spesielt for utviklere som allerede er kjent med Bitcoins tekniske grunnlag, og som nå ønsker å utdype sin forståelse av prinsippene som ligger til grunn for Bitcoins design og styring.
@@ -1168,14 +1168,14 @@ Bitcoin Core overholder denne definisjonen ved å bli distribuert under [MIT Lic
 
 
 ```
-The MIT License (MIT)
+MIT-lisensen (MIT)
 
-Copyright (c) 2009-2022 The Bitcoin Core developers
-Copyright (c) 2009-2022 Bitcoin Developers
+Copyright (c) 2009-2022 Bitcoin Core-utviklerne
+Copyright (c) 2009-2022 Bitcoin-utviklere
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Herved gis tillatelse, uten kostnad, til enhver person som får en kopi av denne programvaren og tilhørende dokumentasjonsfiler ("Programvaren"), til å håndtere Programvaren uten begrensning, inkludert uten begrensning rettighetene til å bruke, kopiere, modifisere, slå sammen, publisere, distribuere, underlisensiere og/eller selge kopier av Programvaren, og å tillate personer som Programvaren leveres til å gjøre det samme, under følgende betingelser:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+Ovennevnte opphavsrettsvarsel og dette tillatelsesvarsel skal inkluderes i alle kopier eller vesentlige deler av Programvaren.
 ```
 
 

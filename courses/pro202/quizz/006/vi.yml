@@ -1,0 +1,8 @@
+question: Phần tử đơn vị trong nhóm đường cong elip được sử dụng cho các phép cộng điểm là gì?
+answer: Điểm vô cực
+wrong_answers:
+  - Điểm gốc (0,0)
+  - Điểm máy phát G
+  - Tham số đường cong a
+explanation: |
+  Điểm vô cực đóng vai trò là phần tử đơn vị trong các nhóm đường cong elip, có nghĩa là khi cộng bất kỳ điểm P nào với điểm vô cực thì P vẫn không thay đổi. Điều này tương tự như cách cộng số 0 trong phép toán số học thông thường. Gốc tọa độ (0,0) không nhất thiết phải nằm trên đường cong, điểm sinh G được sử dụng để tạo khóa công khai, và tham số đường cong a chỉ là một hệ số trong phương trình đường cong, chứ không phải là phần tử đơn vị.

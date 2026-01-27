@@ -1,0 +1,8 @@
+question: Miksi nykyaikaiset ASIC-louhijat muokkaavat tietoja Coinbase-tapahtuman sisällä sen sijaan, että luottaisivat pelkästään lohko-otsikon nonce-kenttään?
+answer: 4 tavun nonce-kenttä ei tarjoa riittävästi hakutilaa nykyaikaisille ASIC-piireille, joten louhijat muokkaavat Coinbasen tietoja muuttaakseen Merkle-juurta ja luodakseen lisää hakutilaa
+wrong_answers:
+  - Coinbase-tapahtuman muuttaminen antaa louhijoille mahdollisuuden vaatia suurempia lohkopalkkioita kuin tavallinen tukisumma sallii
+  - "Coinbase-tapahtuma on muutettava siten, että se sisältää louhijan digitaalisen allekirjoituksen lohkon validointia varten"
+  - Coinbase-tietojen muuttaminen vähentää laskennallista vaikeutta antamalla louhijoiden ohittaa tavalliset proof-of-work-vaatimukset
+explanation: |
+  Nykyaikaiset ASIC:t voivat käyttää 4 tavun nonce-avaruuden (2^32 mahdollisuutta) erittäin nopeasti loppuun, jolloin tarvitaan lisää hakutilaa. Muokkaamalla Coinbase-transaktion tietoja louhijat muuttavat transaktion hash-arvoa, mikä muuttaa lohkon otsikon Merkle-juurta, mikä luo käytännössä miljardeja uusia nonce-arvoja kokeiltavaksi. Tämä tekniikka, jota kutsutaan "extra-nonce" -tekniikaksi, on välttämätön nykyaikaisissa mining-toiminnoissa, joissa laitteisto ylittää huomattavasti alkuperäisen nonce-kentän kapasiteetin.

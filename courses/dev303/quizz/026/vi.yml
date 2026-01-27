@@ -1,0 +1,8 @@
+question: Ưu điểm chính của kiểu liệt kê Rust là khả năng chứa dữ liệu trong từng biến thể?
+answer: Nó ngăn ngừa sự không khớp giữa các chỉ báo loại và dữ liệu liên quan bằng cách nhóm chúng lại với nhau.
+wrong_answers:
+  - Nó cho phép kiểu liệt kê tự động triển khai tất cả các đặc tính chuẩn mà không cần khai báo rõ ràng.
+  - Nó cho phép sử dụng kiểu liệt kê (enum) như các tham số chung trong bất kỳ hàm hoặc phương thức nào.
+  - Điều này giúp cho kiểu liệt kê (enum) tiêu tốn ít bộ nhớ hơn so với các cấu trúc truyền thống có dữ liệu tương tự.
+explanation: |
+  Kiểu liệt kê (enum) trong Rust cho phép gán dữ liệu trực tiếp cho từng biến thể, loại bỏ lỗi lập trình thường gặp là phải duy trì các biến riêng biệt cho chỉ báo kiểu và dữ liệu liên quan. Thiết kế này đảm bảo dữ liệu luôn khớp với biến thể, ngăn ngừa sự không nhất quán có thể dẫn đến lỗi thời gian chạy. Không giống như các ngôn ngữ khác, nơi bạn có thể có một kiểu liệt kê riêng cho kiểu và các biến riêng cho dữ liệu, Rust gộp tất cả mọi thứ lại với nhau, khiến cho việc kiểu và dữ liệu không khớp nhau là điều không thể xảy ra.

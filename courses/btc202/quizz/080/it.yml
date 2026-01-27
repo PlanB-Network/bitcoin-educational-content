@@ -1,4 +1,4 @@
-question: Qual è il valore predefinito del parametro maxconnections in Bitcoin core?
+question: Qual è il valore predefinito del parametro maxconnections in Bitcoin Core?
 answer: 125
 wrong_answers:
   - 10

@@ -1,8 +1,0 @@
-question: Lightning Network malların kiralanması için potansiyel olarak nasıl kullanılabilir?
-answer: Kullanıcılar, ürünleri kullandıkları süre için dakika başına, hatta saniye başına ücretlendirilebilir.
-wrong_answers:
-  - Kullanıcılardan malları kiralamak için yüksek bir ücret talep edilebilir.
-  - Kullanıcılardan malların değerine göre ücret alınabilir.
-  - Kullanıcılar malların durumuna göre ücretlendirilebilir.
-explanation: >-
-reviewed: true

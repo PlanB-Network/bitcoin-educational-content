@@ -338,7 +338,7 @@ Völlig souverän, BitBanana sammelt keine Daten und kompromittiert weder die Ve
 
 
 - [BitBanana-Website](https://bitbanana.app)
-- [Vollständige Dokumentation] (https://docs.bitbanana.app)
+- [Vollständige Dokumentation](https://docs.bitbanana.app)
 - [GitHub-Quellcode](https://github.com/michaelWuensch/BitBanana)
 
 

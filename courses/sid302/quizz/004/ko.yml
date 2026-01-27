@@ -1,0 +1,8 @@
+question: Liquid이 거래 금액과 자산 유형을 공개되지 않도록 숨길 수 있는 암호화 기능은 무엇인가요?
+answer: Confidential Transactions(CT)
+wrong_answers:
+  - 하드웨어 보안 모듈(HSM)
+  - 동적 페더레이션(Dynafed) 프로토콜
+  - 페그아웃 인증 키(PAK)
+explanation: |
+  Confidential Transactions(CT)는 Liquid가 공개 원장에서 자산 유형과 거래 금액을 숨기면서도 네트워크가 거래 유효성을 확인할 수 있도록 하는 암호화 기능입니다. 이는 기관에 필수적인 상업적 개인정보 보호 기능을 제공합니다. 하드웨어 보안 모듈은 개인 키를 보호하는 물리적 장치이고, 다이나페드 프로토콜은 페더레이션 변경을 관리하며, PAK는 페그아웃 프로세스를 제어하지만, 이 중 어느 것도 거래 세부 정보를 공개되지 않게 숨깁니다.

@@ -101,7 +101,7 @@ Limit: 50 jednoczesnych pozycji. Idealny dla początkujących inwestorów korzys
 
 
 
-Wejdź na stronę [lnmarkets.com] (https://lnmarkets.com) i kliknij "Otwórz aplikację".
+Wejdź na stronę [lnmarkets.com](https://lnmarkets.com) i kliknij "Otwórz aplikację".
 
 
 

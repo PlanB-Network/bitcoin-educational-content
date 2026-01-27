@@ -1,0 +1,9 @@
+question: DNS servers are usually configured in the `/etc/resolv.conf` file on a Linux system.
+answer: /etc/resolv.conf
+wrong_answers:
+  - /etc/hostname
+  - /etc/network/interfaces
+  - /etc/hosts.allow
+explanation: |
+  ไฟล์ /etc/resolv.conf ระบุเซิร์ฟเวอร์ DNS และโดเมนการค้นหาสำหรับการแก้ไขชื่อ
+reviewed: false

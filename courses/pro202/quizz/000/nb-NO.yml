@@ -1,0 +1,8 @@
+question: Hvilken elliptisk kurvelikning bruker Bitcoins secp256k1?
+answer: y² = x³ + 7
+wrong_answers:
+  - y² = x³ + ax + b
+  - y² = x³ + 5
+  - y² = x³ + x + 7
+explanation: |
+  Bitcoin bruker spesifikt den elliptiske kurven secp256k1, som har den forenklede ligningen y² = x³ + 7. Dette er et spesialtilfelle av den generelle elliptiske kurveformen y² = x³ + ax + b, der a = 0 og b = 7. De andre alternativene er feil: y² = x³ + ax + b er den generelle formen, men ikke Bitcoins spesifikke kurve, y² = x³ + 5 bruker feil konstant, og y² = x³ + x + 7 inkluderer feilaktig et lineært x-ledd som ikke finnes i secp256k1.

@@ -1,0 +1,9 @@
+question: 다음 중 NWC 연결과 호환되는 모바일 애플리케이션은 무엇인가요?
+answer: Alby Go
+wrong_answers:
+  - Phoenix
+  - Wallet of Satoshi
+  - Muun
+explanation: |
+  제안 중 Alby Go만 NWC와 호환되지만, Zeus와 같은 다른 애플리케이션도 호환됩니다.
+reviewed: false

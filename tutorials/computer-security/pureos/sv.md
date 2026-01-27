@@ -64,11 +64,11 @@ För att installera och konfigurera PureOS på din dator krävs följande minima
 
 
 
-Gå till [PureOS officiella webbplats] (https://pureos.net/) och ladda sedan ner ISO-bilden av operativsystemet enligt din maskins arkitektur.
+Gå till [PureOS officiella webbplats](https://pureos.net/) och ladda sedan ner ISO-bilden av operativsystemet enligt din maskins arkitektur.
 
 
 
-För att starta PureOS-installationen måste du skapa en startbar USB-nyckel med hjälp av flash-programvara som [Balena Etcher] (https://www.balena.io/etcher).
+För att starta PureOS-installationen måste du skapa en startbar USB-nyckel med hjälp av flash-programvara som [Balena Etcher](https://www.balena.io/etcher).
 
 
 

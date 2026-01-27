@@ -1,0 +1,9 @@
+question: Sur quelle bourse en ligne Erik Voorhees a-t-il réalisé une IPO informelle en août 2012 afin de faire croitre le casino en ligne SatoshiDICE ?
+answer: MPEx
+wrong_answers:
+  - GLBSE
+  - Bitcoinica
+  - Bitoption.org
+explanation: |
+ Il s'agissait de la plateforme gérée par Mircea Popescu et lancée quelques mois plus tôt. Erik Voorhees a émis 100 millions de parts (ayant le sigle boursier S.DICE) et en a vendu 10 pour recueillir 34 500 bitcoins, soit environ 372 000 $.
+reviewed: false

@@ -1,0 +1,8 @@
+question: Vad händer när en variabel går utanför räckvidden i Rust:s ägarsystem?
+answer: Värdet tas automatiskt bort och dess minne frigörs
+wrong_answers:
+  - Värdet flyttas till det globala omfånget för återanvändning
+  - Värdet blir oföränderligt och ligger kvar i minnet
+  - Värdet kopieras till en säkerhetskopia för säkerhets skull
+explanation: |
+  I Rust:s ägandesystem, när en variabel går utanför räckvidden (vanligtvis när exekveringen lämnar ett block som definieras av hakparenteser), släpps värdet automatiskt och dess minne frigörs. Denna automatiska rensning implementeras genom Rust:s drop-mekanism, där språket implicit anropar en drop-funktion på variabler som går utanför scope. Detta säkerställer korrekt resurshantering utan att kräva explicit uppstädningskod från programmeraren, enligt RAII-mönstret som lånats från C++.

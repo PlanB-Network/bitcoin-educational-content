@@ -63,7 +63,7 @@ Men å velge Firefox er bare det første steget. Som standard krever selv Firefo
 
 
 
-**Offisiell nedlasting:** Gå til [firefox.com/browsers/desktop] (https://www.firefox.com/en-US/browsers/desktop/). På denne siden velger du operativsystem (Windows, macOS, Linux) for å få tilgang til den aktuelle nedlastingssiden med spesifikke installasjonsinstruksjoner.
+**Offisiell nedlasting:** Gå til [firefox.com/browsers/desktop](https://www.firefox.com/en-US/browsers/desktop/). På denne siden velger du operativsystem (Windows, macOS, Linux) for å få tilgang til den aktuelle nedlastingssiden med spesifikke installasjonsinstruksjoner.
 
 
 
@@ -615,9 +615,9 @@ https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 
-- [Forbedret sporingsbeskyttelse] (https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Offisiell guide til forbedret sporingsbeskyttelse
-- [State Partitioning] (https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning): Teknisk dokumentasjon om tilstandspartisjonering
-- [MDN Web Security] (https://developer.mozilla.org/docs/Web/Security): Komplett referanse om websikkerhet
+- [Forbedret sporingsbeskyttelse](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop): Offisiell guide til forbedret sporingsbeskyttelse
+- [State Partitioning](https://developer.mozilla.org/docs/Mozilla/Firefox/Privacy/State_Partitioning): Teknisk dokumentasjon om tilstandspartisjonering
+- [MDN Web Security](https://developer.mozilla.org/docs/Web/Security): Komplett referanse om websikkerhet
 
 
 
@@ -626,8 +626,8 @@ https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 
-- [Wiki- og installasjonsveiledning] (https://github.com/arkenfox/user.js/wiki): Komplett dokumentasjon av Arkenfox-prosjektet
-- [Innskudd og utgivelser] (https://github.com/arkenfox/user.js): Last ned filen user.js og følg med på oppdateringer
+- [Wiki- og installasjonsveiledning](https://github.com/arkenfox/user.js/wiki): Komplett dokumentasjon av Arkenfox-prosjektet
+- [Innskudd og utgivelser](https://github.com/arkenfox/user.js): Last ned filen user.js og følg med på oppdateringer
 
 
 
@@ -647,9 +647,9 @@ https://planb.academy/courses/4ba0e3de-e67f-4ea1-a514-f111206810d1
 
 
 
-- [Cover Your Tracks (EFF)] (https://coveryourtracks.eff.org/): Digitale fingeravtrykk og effektivitet mot sporing
-- [DNS-lekkasjetest] (https://www.dnsleaktest.com/): DNS-lekkasjetest og DoH-effektivitet
-- [BrowserLeaks] (https://browserleaks.com/): Komplett testpakke (WebRTC, Canvas, fonter osv.)
-- [BadSSL] (https://badssl.com/): SSL/TLS-sertifikatvalideringstester
-- [CreepJS] (https://abrahamjuliot.github.io/creepjs/): Avansert analyse av mer enn 50 fingeravtrykksvektorer
+- [Cover Your Tracks (EFF)](https://coveryourtracks.eff.org/): Digitale fingeravtrykk og effektivitet mot sporing
+- [DNS-lekkasjetest](https://www.dnsleaktest.com/): DNS-lekkasjetest og DoH-effektivitet
+- [BrowserLeaks](https://browserleaks.com/): Komplett testpakke (WebRTC, Canvas, fonter osv.)
+- [BadSSL](https://badssl.com/): SSL/TLS-sertifikatvalideringstester
+- [CreepJS](https://abrahamjuliot.github.io/creepjs/): Avansert analyse av mer enn 50 fingeravtrykksvektorer
 - [Cloudflare DNS Test](https://1.1.1.1/help): Kontrollerer at Cloudflare DoH fungerer som den skal

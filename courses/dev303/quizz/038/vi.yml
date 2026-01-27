@@ -1,0 +1,8 @@
+question: Cú pháp nào được sử dụng để định nghĩa các tham số trong các hàm đóng Rust?
+answer: Ký tự gạch dọc (|) dùng để bao quanh tham số
+wrong_answers:
+  - Dấu ngoặc đơn () dùng để bao quanh các tham số.
+  - Dấu ngoặc vuông [] dùng để bao quanh các tham số
+  - Dấu ngoặc nhọn {} dùng để bao quanh tham số
+explanation: |
+  Các closure trong Rust sử dụng ký tự dấu gạch dọc (|) để định nghĩa tham số, điều này phân biệt chúng với các hàm thông thường sử dụng dấu ngoặc đơn. Ví dụ, một closure không có tham số được viết là ||, trong khi một closure có tham số trông giống như |x, y|. Cú pháp độc đáo này giúp dễ dàng nhận biết các closure và phân biệt chúng với các định nghĩa hàm. Dấu ngoặc đơn được sử dụng cho các hàm thông thường, trong khi dấu ngoặc vuông và dấu ngoặc nhọn phục vụ các mục đích khác trong cú pháp Rust.

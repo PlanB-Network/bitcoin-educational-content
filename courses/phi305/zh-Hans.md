@@ -35,7 +35,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.1.webp)
+![image](assets/zh-Hans/001.webp)
 
 
 斯宾诺莎肖像
@@ -70,7 +70,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.2.webp)
+![image](assets/zh-Hans/002.webp)
 
 
 斯宾诺莎肖像
@@ -93,7 +93,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.3.webp)
+![image](assets/zh-Hans/003.webp)
 
 
 
@@ -101,7 +101,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.4.webp)
+![image](assets/zh-Hans/004.webp)
 
 
 
@@ -113,7 +113,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.1.5.webp)
+![image](assets/zh-Hans/005.webp)
 
 
 
@@ -149,7 +149,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.1.webp)
+![image](assets/zh-Hans/006.webp)
 
 
 
@@ -157,7 +157,6 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.2.webp)
 
 
 
@@ -169,7 +168,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.3.webp)
+![image](assets/zh-Hans/007.webp)
 
 
 
@@ -189,10 +188,10 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.4.webp)
+![image](assets/zh-Hans/008.webp)
 
 
-![image](./assets/fr/1.2.5.webp)
+![image](assets/zh-Hans/009.webp)
 
 
 
@@ -208,7 +207,7 @@ objectives:
 
 
 
-![image](./assets/fr/1.2.6.webp)
+![image](assets/zh-Hans/010.webp)
 
 
 
@@ -255,7 +254,6 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.1.webp)
 
 
 
@@ -267,7 +265,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.2.webp)
+![image](assets/zh-Hans/011.webp)
 
 
 
@@ -279,7 +277,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.3.webp)
+![image](assets/zh-Hans/012.webp)
 
 
 
@@ -311,7 +309,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.4.webp)
+![image](assets/zh-Hans/013.webp)
 
 
 
@@ -331,7 +329,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/zh-Hans/014.webp)
 
 
 
@@ -367,7 +365,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.1.webp)
+![image](assets/zh-Hans/015.webp)
 
 
 
@@ -378,7 +376,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.2.webp)
+![image](assets/zh-Hans/016.webp)
 
 
 
@@ -390,7 +388,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.3.webp)
+![image](assets/zh-Hans/017.webp)
 
 
 
@@ -427,7 +425,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.4.webp)
+![image](assets/zh-Hans/018.webp)
 
 
 
@@ -439,7 +437,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.5.webp)
+![image](assets/zh-Hans/019.webp)
 
 
 
@@ -447,7 +445,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.2.6.webp)
+![image](assets/zh-Hans/020.webp)
 
 
 
@@ -492,10 +490,9 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.1.webp)
+![image](assets/zh-Hans/021.webp)
 
 
-![image](./assets/fr/3.1.2.webp)
 
 
 
@@ -507,7 +504,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.3.webp)
+![image](assets/zh-Hans/022.webp)
 
 
 
@@ -519,10 +516,9 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.4.webp)
+![image](assets/zh-Hans/023.webp)
 
 
-![image](./assets/fr/3.1.5.webp)
 
 
 
@@ -530,7 +526,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.6.webp)
+![image](assets/zh-Hans/024.webp)
 
 
 
@@ -538,7 +534,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.1.7.webp)
+![image](assets/zh-Hans/025.webp)
 
 
 
@@ -582,7 +578,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.1.webp)
+![image](assets/zh-Hans/026.webp)
 
 
 
@@ -606,7 +602,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.2.webp)
+![image](assets/zh-Hans/027.webp)
 
 
 
@@ -622,7 +618,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.3.webp)
+![image](assets/zh-Hans/028.webp)
 
 
 
@@ -650,7 +646,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.4.webp)
+![image](assets/zh-Hans/029.webp)
 
 
 
@@ -675,10 +671,9 @@ objectives:
 
 
 
-![image](./assets/fr/3.2.5.webp)
+![image](assets/zh-Hans/030.webp)
 
 
-![image](./assets/fr/3.2.6.webp)
 
 
 
@@ -709,7 +704,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.1.webp)
+![image](assets/zh-Hans/031.webp)
 
 
 
@@ -733,7 +728,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.2.webp)
+![image](assets/zh-Hans/032.webp)
 
 
 
@@ -749,7 +744,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.3.webp)
+![image](assets/zh-Hans/033.webp)
 
 
 
@@ -757,7 +752,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.4.webp)
+![image](assets/zh-Hans/034.webp)
 
 
 
@@ -773,7 +768,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.3.5.webp)
+![image](assets/zh-Hans/035.webp)
 
 
 
@@ -809,7 +804,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.1.webp)
+![image](assets/zh-Hans/036.webp)
 
 
 
@@ -833,7 +828,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.2.webp)
+![image](assets/zh-Hans/037.webp)
 
 
 
@@ -845,7 +840,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.3.webp)
+![image](assets/zh-Hans/038.webp)
 
 
 
@@ -865,7 +860,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.4.webp)
+![image](assets/zh-Hans/039.webp)
 
 
 
@@ -877,7 +872,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.5.webp)
+![image](assets/zh-Hans/040.webp)
 
 
 
@@ -885,7 +880,7 @@ objectives:
 
 
 
-![image](./assets/fr/3.4.6.webp)
+![image](assets/zh-Hans/041.webp)
 
 
 
@@ -945,7 +940,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.1.1.webp)
+![image](assets/zh-Hans/042.webp)
 
 
 
@@ -953,7 +948,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.1.2.webp)
+![image](assets/zh-Hans/043.webp)
 
 
 
@@ -970,7 +965,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.1.3.webp)
+![image](assets/zh-Hans/044.webp)
 
 
 
@@ -993,7 +988,7 @@ objectives:
 
 
 
-![image](./assets/fr/2.1.5.webp)
+![image](assets/zh-Hans/045.webp)
 
 
 
@@ -1033,7 +1028,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.1.webp)
+![image](assets/zh-Hans/046.webp)
 
 
 
@@ -1057,7 +1052,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.2.webp)
+![image](assets/zh-Hans/047.webp)
 
 
 
@@ -1073,7 +1068,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.3.webp)
+![image](assets/zh-Hans/048.webp)
 
 
 
@@ -1093,7 +1088,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.4.webp)
+![image](assets/zh-Hans/049.webp)
 
 
 
@@ -1113,7 +1108,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.2.5.webp)
+![image](assets/zh-Hans/050.webp)
 
 
 
@@ -1151,14 +1146,13 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.1.webp)
 
 
 
 这正是启蒙运动理性哲学的宗旨，尤其要感谢伊曼纽尔-康德（Immanuel Kant，1724-1804 年），在他看来，只有受过教育的人才能在理性的指导下独立思考，并在伦理上确定什么是 "真 "或 "善"，什么是有毒的。
 
 
-![image](./assets/fr/4.3.2.webp)
+![image](assets/zh-Hans/051.webp)
 
 
 
@@ -1169,7 +1163,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.3.webp)
+![image](assets/zh-Hans/052.webp)
 
 
 
@@ -1177,7 +1171,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.4.webp)
+![image](assets/zh-Hans/053.webp)
 
 
 
@@ -1198,7 +1192,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.5.webp)
+![image](assets/zh-Hans/054.webp)
 
 
 
@@ -1206,7 +1200,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.6.webp)
+![image](assets/zh-Hans/055.webp)
 
 
 
@@ -1214,7 +1208,7 @@ objectives:
 
 
 
-![image](./assets/fr/4.3.7.webp)
+![image](assets/zh-Hans/056.webp)
 
 
 

@@ -1,0 +1,9 @@
+question: Waarmee moet een Lightning-knooppunt verbinding maken?
+answer: Een Bitcoin knooppunt
+wrong_answers:
+  - Een mijnwerker
+  - Een blokverkenner
+  - Een federatieve server
+explanation: |
+  Het Lightning knooppunt is afhankelijk van een Bitcoin knooppunt om toegang te krijgen tot informatie van de hoofdblokchain.
+reviewed: false

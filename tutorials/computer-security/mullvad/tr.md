@@ -30,7 +30,7 @@ Mullvad VPN, kullanıcı gizliliğine verdiği önemle öne çıkan bir İsveç 
 Ödeme için, Mullvad Bitcoin ödemelerini kabul ettiğinden (yalnızca resmi sitelerinde zincir üzerinde, ancak Lightning aracılığıyla ödeme yapmak için resmi olmayan bir yöntem vardır) kredi kartı bilgilerinizi vermeniz gerekmez. Ayrıca posta yoluyla nakit ödemeleri de kabul etmektedirler.
 
 
-Mullvad VPN ayrıca şeffaflığı ve güvenliği ile de öne çıkmaktadır. Yazılımları açık kaynaklıdır ve uygulamalarını ve altyapılarını değerlendirmek için düzenli olarak bağımsız güvenlik denetimlerinden geçerler ve bunların sonuçları [web sitelerinde yayınlanır] (https://mullvad.net/fr/blog/tag/audits). Mullvad'ın arkasındaki şirket, sıkı gizlilik yasalarıyla bilinen bir ülke olan İsveç'te yerleşiktir. Yalnızca kendi bünyelerinde barındırdıkları sunucuları kullanarak AWS, Google Cloud veya Microsoft Azure gibi üçüncü taraf bulut hizmetlerinin kullanımıyla ilişkili riskleri ortadan kaldırmaktadırlar.
+Mullvad VPN ayrıca şeffaflığı ve güvenliği ile de öne çıkmaktadır. Yazılımları açık kaynaklıdır ve uygulamalarını ve altyapılarını değerlendirmek için düzenli olarak bağımsız güvenlik denetimlerinden geçerler ve bunların sonuçları [web sitelerinde yayınlanır](https://mullvad.net/fr/blog/tag/audits). Mullvad'ın arkasındaki şirket, sıkı gizlilik yasalarıyla bilinen bir ülke olan İsveç'te yerleşiktir. Yalnızca kendi bünyelerinde barındırdıkları sunucuları kullanarak AWS, Google Cloud veya Microsoft Azure gibi üçüncü taraf bulut hizmetlerinin kullanımıyla ilişkili riskleri ortadan kaldırmaktadırlar.
 
 
 Özellikler açısından Mullvad, VPN bağlantısı kesilirse trafiğinizi koruyan bir kill switch, belirli uygulamalar için VPN'i devre dışı bırakma seçeneği ve trafiğinizi birden fazla VPN sunucusu üzerinden yönlendirme yeteneği dahil olmak üzere iyi bir VPN istemcisinden beklenen her şeyi sunar.
@@ -68,7 +68,7 @@ Kurulum tamamlandığında, hesap kimliğinizi girmeniz gerekecektir. Bunu nası
 ## Mullvad VPN bir akıllı telefona nasıl kurulur?
 
 
-Mullvad VPN'i, iOS kullanıcıları için [AppStore](https://apps.apple.com/us/app/mullvad-vpn/id1488466513), Android için [Google Play Store](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) veya [F-Droid](https://f-droid.org/packages/net.mullvad.mullvadvpn/) olsun, uygulama mağazanızdan indirin. Android kullanıyorsanız, `.apk` dosyasını doğrudan [Mullvad sitesinden] (https://mullvad.net/en/download/vpn/android) indirme seçeneğiniz de vardır.
+Mullvad VPN'i, iOS kullanıcıları için [AppStore](https://apps.apple.com/us/app/mullvad-vpn/id1488466513), Android için [Google Play Store](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) veya [F-Droid](https://f-droid.org/packages/net.mullvad.mullvadvpn/) olsun, uygulama mağazanızdan indirin. Android kullanıyorsanız, `.apk` dosyasını doğrudan [Mullvad sitesinden](https://mullvad.net/en/download/vpn/android) indirme seçeneğiniz de vardır.
 
 ![MULLVAD VPN](assets/notext/07.webp)
 

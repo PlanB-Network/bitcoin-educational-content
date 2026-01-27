@@ -47,7 +47,7 @@ Cilj ove obuke je da vam pruži ključeve za savladavanje alata koje svakodnevno
 
 Pre nego što se upustimo u detalje strukture i funkcionisana Bitkojn novčanika, počećemo sa nekoliko poglavlja o kriptografskim primitivama koje treba poznavati za ono što sledi.
 
-Počećemo sa kriptografskim heš funkcijama, koje su fundamentalne kako za novčanike, tako i za sam Bitkojn protokol. Otkrićete njihove glavne karakteristike, specifične funkcije korišćene u Bitkojnu, a u tehnički detaljnijem poglavlju, naučićete detalje o funkcionisanju kraljice heš funkcija: SHA256.
+Počećemo sa kriptografskim heš funkcijama, koje su fundamentalne kako za novčanike, tako i za sam Bitkojn protokol. Otkrićete njihove glavne karakteristike, specifične funkcije korišćene u Bitkojnu, a u tehnički detaljnijem poglavlju, naučićete detalje o funkcionisanju kraljice heš funkcija: [SHA256](https://planb.academy/resources/glossary/sha256).
 
 
 ![CYP201](assets/en/001.webp)
@@ -65,7 +65,7 @@ Kada dobro razumemo ove kriptografske elemente, konačno ćemo preći na srž ob
 ![CYP201](assets/en/003.webp)
 
 
-Obuka će se nastaviti proučavanjem BIP39 passphrase (sigurnosna fraza, fraza za pristup), seed (ne treba ga mešati sa bezbednosnom frazom), master lanca koda i master ključa. Detaljno ćemo videti šta su ovi elementi, njihove odgovarajuće uloge i kako se izračunavaju.
+Obuka će se nastaviti proučavanjem [BIP39](https://planb.academy/resources/glossary/bip0039) passphrase (sigurnosna fraza, fraza za pristup), seed (ne treba ga mešati sa bezbednosnom frazom), master lanca koda i master ključa. Detaljno ćemo videti šta su ovi elementi, njihove odgovarajuće uloge i kako se izračunavaju.
 
 
 ![CYP201](assets/en/004.webp)
@@ -949,7 +949,7 @@ Korisnik koji želi da izvrši Bitcoin transakciju mora stoga kreirati digitalni
 Kao rezultat toga, korisnik koji poseduje bitkoine zaključane javnim ključem mora pronaći način da bezbedno čuva ono što omogućava otključavanje njihovih sredstava: privatni ključ. Bitcoin novčanik je upravo uređaj koji će vam omogućiti da lako čuvate sve svoje ključeve bez da im drugi ljudi imaju pristup. Stoga je više nalik na privezak za ključeve nego na novčanik.
 
 
-Matematička veza između javnog ključa i privatnog ključa, kao i mogućnost izvršavanja potpisa kako bi se dokazalo posedovanje privatnog ključa bez njegovog otkrivanja, omogućeni su algoritmom digitalnog potpisa. U Bitcoin protokolu koriste se dva algoritma digitalnog potpisa: **ECDSA** (_Elliptic Curve Digital Signature Algorithm_) i **Schnorr signature scheme**. ECDSA je protokol digitalnog potpisa korišćen u Bitcoin-u od samog početka. Schnorr je noviji u Bitcoin-u, jer je uveden u novembru 2021. sa ažuriranjem Taproot-a.
+Matematička veza između javnog ključa i privatnog ključa, kao i mogućnost izvršavanja potpisa kako bi se dokazalo posedovanje privatnog ključa bez njegovog otkrivanja, omogućeni su algoritmom digitalnog potpisa. U Bitcoin protokolu koriste se dva algoritma digitalnog potpisa: **[ECDSA](https://planb.academy/resources/glossary/ecdsa)** (_[Elliptic Curve](https://planb.academy/resources/glossary/elliptic-curve) Digital Signature Algorithm_) i **Schnorr signature scheme**. ECDSA je protokol digitalnog potpisa korišćen u Bitcoin-u od samog početka. Schnorr je noviji u Bitcoin-u, jer je uveden u novembru 2021. sa ažuriranjem Taproot-a.
 
 Ova dva algoritma su prilično slična u svojim mehanizmima. Obe su zasnovane na kriptografiji eliptičkih krivih. Glavna razlika između ovih protokola leži u strukturi potpisa i nekim specifičnim matematičkim svojstvima. Stoga ćemo proučiti funkcionisanje ovih algoritama, počevši od najstarijeg: ECDSA.
 

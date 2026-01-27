@@ -26,11 +26,11 @@ Stowaway inategemea aina ya miamala ambayo Samurai aliiita "Cahoots". Cahoot ni 
 
 https://planb.academy/tutorials/privacy/on-chain/ashigaru-stonewall-x2-05120280-f6f9-4e14-9fb8-c9e603f73e5b
 
-Shughuli za Cahoots zinahitaji ubadilishanaji wa miamala iliyotiwa saini sehemu kati ya watumiaji. Utaratibu huu unaweza kuwa mrefu na wa kuchosha, haswa unapofanywa kwa mbali. Hata hivyo, bado inawezekana kufanya hivi kwa mikono, ikiwa washiriki wako katika eneo moja. Kwa maneno madhubuti, hii inahusisha kuchanganua misimbo mitano ya QR mfululizo, inayobadilishwa kati ya washiriki wawili.
+Miamala ya Cahoots inahitaji ubadilishanaji wa miamala iliyotiwa saini sehemu kati ya watumiaji. Utaratibu huu unaweza kuwa mrefu na wa kuchosha, haswa unapofanywa kwa mbali. Hata hivyo, bado inawezekana kufanya hivi kwa mikono, ikiwa washiriki wako katika eneo moja. Kwa maneno madhubuti, hii inahusisha kuchanganua misimbo mitano ya QR mfululizo, inayobadilishwa kati ya washiriki wawili.
 
 
 
-Kwa mbali, njia hii inakuwa ngumu sana. Ili kurekebisha hili, Samourai imeunda itifaki ya mawasiliano iliyosimbwa kwa msingi wa Tor inayoitwa "*Soroban*". Shukrani kwa Soroban, ubadilishanaji unaohitajika kwa Payjoin hujiendesha kiotomatiki na hufanyika chinichini.
+Kwa mbali, njia hii inakuwa ngumu sana. Ili kurekebisha hili, Samourai imeunda itifaki ya mawasiliano iliyosimbwa kwa msingi wa Tor inayoitwa "*Soroban*". Shukrani kwa Soroban, exchange inayohitajika kwa Payjoin hujiendesha kiotomatiki na hufanyika chinichini.
 
 
 
@@ -54,7 +54,7 @@ Kwa ufupi, Paynym ni kitambulishi cha kipekee kinachohusishwa na wallet yako, ki
 
 
 
-- payjoin" = Muundo maalum wa shughuli shirikishi;
+- payjoin" = Muundo maalum wa collaborative transaction;
 
 
 
@@ -66,13 +66,13 @@ Kwa ufupi, Paynym ni kitambulishi cha kipekee kinachohusishwa na wallet yako, ki
 
 
 
-- `Cahoots` = Jina lililotolewa na Samourai kwa aina zao zote za miamala shirikishi, hasa Payjoin `Stowaway`, iliyochukuliwa leo kwenye Ashigaru ;
+- `Cahoots` = Jina lililotolewa na Samourai kwa aina zao zote za collaborative transaction, hasa Payjoin `Stowaway`, iliyochukuliwa leo kwenye Ashigaru ;
 
 
 
 
 
-- soroban = Itifaki ya mawasiliano iliyosimbwa kwa njia fiche iliyoanzishwa kwenye Tor ambayo inaruhusu kushirikiana na watumiaji wengine katika shughuli ya `Cahoots`;
+- soroban = protocol ya mawasiliano iliyosimbwa kwa njia fiche iliyoanzishwa kwenye Tor ambayo inaruhusu kushirikiana na watumiaji wengine katika miamala ya `Cahoots`;
 
 
 
@@ -98,7 +98,7 @@ Ili kuanza, bila shaka utahitaji kusakinisha Ashigaru na kuunda :
 
 https://planb.academy/tutorials/wallet/mobile/ashigaru-9f903b55-2e55-4b06-9627-80f8e178158f
 
-Ili kutekeleza muamala wa mbali wa Cahoots, ikijumuisha PayJoin (*Stowaway*) kupitia Ashigaru, lazima kwanza "umfuate" mtumiaji ambaye ungependa kushirikiana naye, kwa kutumia Paynym yake. Kwa upande wa Stowaway, hii inamaanisha kumfuata mtu ambaye ungependa kumtumia bitcoins. Ikiwa bado hujui jinsi ya kufuata Paynym nyingine, utapata utaratibu wa kina katika mafunzo haya:
+Ili kutekeleza muamala wa mbali wa Cahoots, ikijumuisha PayJoin (*Stowaway*) kupitia Ashigaru, lazima kwanza "umfuate" mtumiaji ambaye ungependa kushirikiana naye, kwa kutumia Paynym yake. Kwa upande wa Stowaway, hii inamaanisha kumfuata mtu ambaye ungependa kumtumia bitcoin. Ikiwa bado hujui jinsi ya kufuata Paynym nyingine, utapata utaratibu wa kina katika mafunzo haya:
 
 
 
@@ -108,7 +108,7 @@ https://planb.academy/tutorials/privacy/on-chain/paynym-bip47-a492a70b-50eb-4f95
 
 
 
-Ili kutekeleza muamala wa Stowaway, bofya kwenye picha ya Paynym yako katika kona ya juu kushoto ya skrini, kisha ufungue menyu ya `Shirikiana`. Mtu anayeshiriki katika shughuli na wewe lazima afanye vivyo hivyo, isipokuwa kama unabadilishana misimbo ya QR ana kwa ana.
+Ili kutekeleza muamala wa Stowaway, bofya kwenye picha ya Paynym yako katika kona ya juu kushoto ya skrini, kisha ufungue menyu ya `Collaborate`. Mtu anayeshiriki katika muamala na wewe lazima afanye vivyo hivyo, isipokuwa kama unabadilishana misimbo ya QR ana kwa ana.
 
 
 
@@ -132,7 +132,7 @@ Ikiwa wewe ni mpokeaji, utaratibu ni rahisi sana. Kwa ushirikiano wa mbali kupit
 
 
 
-Kwa upande mwingine, kwa ushirikiano wa ana kwa ana kupitia kuchanganua msimbo wa QR, nenda kwenye ukurasa wa nyumbani wa wallet yako, bonyeza aikoni ya msimbo wa QR juu ya skrini, kisha uchanganue msimbo wa QR uliotolewa na mlipaji anayeanzisha muamala.
+Kwa upande mwingine, kwa ushirikiano wa ana kwa ana kupitia kuchanganua msimbo wa QR, nenda kwenye ukurasa wa nyumbani wa wallet yako, bonyeza aikoni ya msimbo wa QR iliyo juu ya skrini, kisha uchanganue msimbo wa QR uliotolewa na mlipaji anayehakikisha muamala unaanzishwa.
 
 
 
@@ -184,7 +184,7 @@ Bofya kwenye `Sanidi muamala`, kisha uchague akaunti ambayo ungependa kufanya ma
 
 
 
-Kwenye ukurasa unaofuata, weka maelezo ya muamala: kiasi kitakachotumwa kwa mpokeaji na kiwango cha malipo. Hakuna haja ya kuingiza anwani ya kupokea, kwani mpokeaji ataisambaza mwenyewe wakati wa kubadilishana kwa PSBT.
+Kwenye ukurasa unaofuata, weka maelezo ya muamala: kiasi kitakachotumwa kwa mpokeaji na kiwango cha malipo. Hakuna haja ya kuingiza anwani ya kupokea, kwani mpokeaji ataitoa mwenyewe wakati wa kubadilishana kwa PSBT.
 
 
 
@@ -196,7 +196,7 @@ Kisha bofya kwenye `Kagua usanidi wa muamala`.
 
 
 
-Angalia maelezo kwa makini, hakikisha kuwa mshirika wako anasikiliza maombi ya *Cahoots*, kisha ubofye kitufe cha kijani `BEGIN BEGIN TRANSACTION` ili kuanzisha ubadilishanaji wa PSBTs kupitia Soroban.
+Angalia maelezo kwa makini, hakikisha kuwa mshirika wako anasikiliza maombi ya *Cahoots*, kisha ubofye kitufe cha kijani `BEGIN BEGIN TRANSACTION` ili kuanzisha exchange ta PSBTs kupitia Soroban.
 
 
 
@@ -216,7 +216,7 @@ Subiri hadi washiriki wote wawili wawe wametia saini muamala, kisha uyatangaze k
 
 
 
-Iwapo ungependa kufanya ubadilishanaji ana kwa ana, chagua aina ya muamala ya `STONEWALL X2`, kisha uchague chaguo la `Katika Mtu / Mwongozo`.
+Iwapo ungependa kufanya exchange ana kwa ana, chagua aina ya muamala ya `STONEWALL X2`, kisha uchague chaguo la `Katika Mtu / Mwongozo`.
 
 
 
@@ -232,7 +232,7 @@ Bofya kwenye `Sanidi muamala`, kisha uchague akaunti ambayo ungependa kufanya ma
 
 
 
-Kwenye ukurasa unaofuata, weka maelezo ya muamala: kiasi kitakachotumwa kwa mpokeaji na kiwango cha malipo. Hakuna haja ya kuingiza anwani ya kupokea, kwani mpokeaji ataisambaza mwenyewe wakati wa kubadilishana kwa PSBT.
+Kwenye ukurasa unaofuata, weka maelezo ya muamala: kiasi kitakachotumwa kwa mpokeaji na kiwango cha malipo. Hakuna haja ya kuingiza address ya kupokea, kwani mpokeaji ataisambaza mwenyewe wakati wa kubadilishana kwa PSBT.
 
 
 
@@ -252,7 +252,7 @@ Angalia maelezo, kisha ubonyeze kitufe cha kijani `BEGIN BEGIN TRANSACTION` ili 
 
 
 
-Ubadilishanaji unafanywa kwa kubadilisha uchanganuzi na mshirika: bofya kwenye `ONYESHA Msimbo wa QR` ili kuonyesha msimbo wako wa QR kwa mshirika wako, ambaye ataichanganua. Kisha atabofya `SHOW QR CODE` ili kuonyesha yake, na utaichanganua kwa `LAUNCH QR Scanner`. Rudia utaratibu huu hadi hatua zote tano za kubadilishana zimekamilika.
+Exchange unafanywa kwa kubadilisha uchanganuzi na mshirika: bofya kwenye `ONYESHA Msimbo wa QR` ili kuonyesha msimbo wako wa QR kwa mshirika wako, ambaye ataichanganua. Kisha atabofya `SHOW QR CODE` ili kuonyesha yake, na utaichanganua kwa `LAUNCH QR Scanner`. Rudia utaratibu huu hadi hatua zote tano za kubadilishana zimekamilika.
 
 
 
@@ -260,7 +260,7 @@ Ubadilishanaji unafanywa kwa kubadilisha uchanganuzi na mshirika: bofya kwenye `
 
 
 
-Baada ya ubadilishanaji wote kukamilika, angalia maelezo ya muamala, kisha uachilie kwa kuburuta kishale cha kijani kibichi chini ya skrini.
+Baada ya exchange yote kukamilika, angalia maelezo ya muamala, kisha uachilie kwa kuburuta kishale cha kijani kibichi chini ya skrini.
 
 
 
@@ -284,11 +284,11 @@ Tukichanganua muamala huu, tutaona UTXO yangu ya `164,211 sats` kwenye upande wa
 
 
 
-Ni wazi, naweza kuelezea muundo huu kwa sababu nilijenga shughuli mwenyewe. Lakini kwa mtazamaji wa nje, kwa ujumla haiwezekani kuamua ni UTXO zipi ni za mshiriki yupi, ama katika pembejeo au matokeo.
+Ni wazi, naweza kuelezea muundo huu kwa sababu nilijenga miamala mwenyewe. Lakini kwa mtazamaji wa nje, kwa ujumla haiwezekani kuamua ni UTXO zipi ni za mshiriki yupi, ama katika pembejeo au matokeo.
 
 
 
-Ili kuongeza ujuzi wako wa usimamizi wa faragha wa onchain kwenye Bitcoin, ninapendekeza uchukue mafunzo yangu ya BTC 204 kuhusu Mpango ₿ Academy :
+Ili kuongeza ujuzi wako wa usimamizi wa faragha wa onchain kwenye Bitcoin, ninapendekeza uchukue mafunzo yangu ya BTC 204 kuhusu Plan ₿ Academy :
 
 
 

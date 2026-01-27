@@ -1,0 +1,8 @@
+question: Rust áp dụng quy ước đặt tên nào cho tên cấu trúc và tên trường?
+answer: Sử dụng kiểu CamelCase cho tên cấu trúc và kiểu Snake_case cho tên trường.
+wrong_answers:
+  - Tên cấu trúc được viết theo kiểu snake_case, còn tên trường được viết theo kiểu CamelCase.
+  - Tên cấu trúc được viết theo kiểu kebab-case và tên trường được viết theo kiểu camelCase.
+  - Viết hoa tên cấu trúc và viết thường tên trường.
+explanation: |
+  Rust tuân theo các quy ước đặt tên cụ thể mà trình biên dịch thực thi thông qua các cảnh báo. Tên cấu trúc nên sử dụng kiểu CamelCase (còn được gọi là PascalCase), trong đó mỗi từ bắt đầu bằng một chữ cái viết hoa, ví dụ như 'MyStruct'. Tên trường bên trong cấu trúc nên sử dụng kiểu snake_case với dấu gạch dưới phân tách các từ, ví dụ như 'my_field'. Quy ước này duy trì tính nhất quán trong toàn bộ mã nguồn Rust và cải thiện khả năng đọc hiểu cho các nhà phát triển.

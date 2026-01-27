@@ -3,7 +3,7 @@ name: My Node
 description: راه‌اندازی Bitcoin MyNode خود را انجام دهید
 ---
 
-![image](assets/0.webp)
+![image](assets/cover.webp)
 
 
 [My Node](https://mynodebtc.com/) ساده‌ترین و قدرتمندترین راه برای اجرای یک نود Bitcoin و Lightning است! ما بهترین نرم‌افزارهای متن‌باز را با Interface، مدیریت و پشتیبانی خود ترکیب می‌کنیم تا بتوانید به‌راحتی، به‌صورت خصوصی و امن از Bitcoin و Lightning استفاده کنید.

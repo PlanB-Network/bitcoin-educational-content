@@ -1,0 +1,8 @@
+question: Jaki jest główny powód, dla którego mechanizm korekty trudności Bitcoin ogranicza zmiany do czterokrotności w każdym okresie korekty bloku 2016?
+answer: Aby zapobiec ekstremalnym oscylacjom, które mogłyby zdestabilizować sieć, gdy szybkość mieszania zmienia się dramatycznie
+wrong_answers:
+  - Aby zapewnić górnikom wystarczająco dużo czasu na modernizację sprzętu, zanim poziom trudności znacznie wzrośnie
+  - Aby zachować kompatybilność z 32-bitowym polem znacznika czasu, które staje się niewiarygodne przy większych dostosowaniach
+  - Aby zapobiec zakłóceniu harmonogramu zmniejszania dotacji blokowej o połowę przez gwałtowne zmiany trudności
+explanation: |
+  Czterokrotny limit zapobiega niebezpiecznym pętlom sprzężenia zwrotnego, w których ekstremalne zmiany trudności mogą powodować dzikie wahania czasów bloków. Bez tego ograniczenia nagły spadek wskaźnika hashowania mógłby wywołać masowe redukcje trudności, czyniąc bloki zbyt łatwymi i potencjalnie destabilizując konsensus. I odwrotnie, ogromne wzrosty mogłyby sprawić, że wydobycie bloków stałoby się niemal niemożliwe. Limit zapewnia stopniowe, łatwe w zarządzaniu korekty, które utrzymują stabilność sieci nawet podczas poważnych zakłóceń, takich jak zakazy mining, umożliwiając systemowi przewidywalną autokorektę w wielu okresach dostosowawczych, zamiast tworzenia chaotycznych oscylacji.

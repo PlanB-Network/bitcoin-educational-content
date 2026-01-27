@@ -1,0 +1,8 @@
+question: Was ist der entscheidende Vorteil der Verwendung von Derive-Makros wie #[derive(Debug)] im Vergleich zur manuellen Implementierung von Traits für benutzerdefinierte Typen?
+answer: Sie implementieren automatisch generate vollständige Eigenschaften zur Kompilierzeit und reduzieren so den "Boilerplate"-Code
+wrong_answers:
+  - Sie bieten eine bessere Laufzeitleistung durch Optimierung der Trait-Methodenaufrufe während der Ausführung
+  - Sie ermöglichen die mehrfache Implementierung von Merkmalen für denselben Typ mit unterschiedlichen Verhaltensweisen
+  - Sie ermöglichen eine dynamische Trait-Implementierung, die zur Laufzeit auf der Grundlage des Programmzustands geändert werden kann
+explanation: |
+  Ableitungsmakros erzeugen automatisch generate Trait-Implementierungen während der Kompilierung, wodurch die Notwendigkeit entfällt, sich wiederholenden Boilerplate-Code manuell zu schreiben. Wenn Sie #[derive(Debug)] verwenden, generiert der Compiler die gesamte notwendige Formatierungslogik für diesen Trait. Die falschen Antworten sind falsch, weil: derive-Makros die Laufzeitleistung nicht verbessern (sie generate den gleichen Code, den Sie manuell schreiben würden), Traits nur einmal pro Typ implementiert werden können, unabhängig davon, wie sie implementiert werden, und derive-Makros generate statischen Code zur Kompilierungszeit anstatt Änderungen zur Laufzeit ermöglichen.

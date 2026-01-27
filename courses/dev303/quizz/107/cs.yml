@@ -1,0 +1,8 @@
+question: Jaká kritická schopnost umožňuje LDK zachovat funkčnost Lightningu v mobilních peněženkách s přerušovaným připojením ve srovnání s tradičními uzly Lightning založenými na daemon?
+answer: Schopnost LDK synchronizovat se s poskytovateli služeb Lightning (LSP) při uvedení do provozu a zároveň zachovat kontrolu nad soukromými klíči, které nejsou předmětem úschovy
+wrong_answers:
+  - "Integrovaný systém zpracování plateb v režimu offline společnosti LDK, který řadí transakce do fronty, dokud není obnoveno připojení k síti."
+  - "Systém distribuovaného zálohování stavu kanálu společnosti LDK, který automaticky replikuje data mezi více poskytovateli cloudových služeb"
+  - "síťový protokol LDK peer-to-peer mesh, který umožňuje přímé bleskové platby mezi zařízeními bez internetu"
+explanation: |
+  Modulární architektura LDK umožňuje mobilním aplikacím implementovat přerušované modely připojení tím, že se synchronizují s LSP po příchodu do režimu online, což uživatelům umožňuje přijímat platby a spravovat kanály, i když bylo mobilní zařízení offline. Tím se zásadně liší od tradičních démonů Lightning, kteří vyžadují nepřetržitý provoz. Špatné odpovědi popisují neexistující funkce - LDK nemá vestavěné zpracování offline plateb, distribuované zálohování ani funkce mesh networking.

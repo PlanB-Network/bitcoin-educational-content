@@ -1,0 +1,8 @@
+question: Apa yang dimaksud dengan bidang terbatas F(p) dalam sistem kriptografi Bitcoin?
+answer: Sistem aritmatika yang didefinisikan oleh bilangan prima p, yang berisi elemen 0 hingga p-1
+wrong_answers:
+  - Kumpulan angka tak terbatas yang digunakan untuk menghasilkan alamat dan kunci Bitcoin
+  - Bidang matematika yang berisi semua bilangan real antara 0 dan p-1 inklusif
+  - Fungsi hash kriptografi yang menghasilkan output dengan panjang tepat p bit
+explanation: |
+  Sebuah lapangan berhingga F(p) secara khusus adalah sebuah sistem aritmatika yang dibangun di sekitar sebuah bilangan prima p yang berisi tepat p elemen: bilangan-bilangan bulat dari 0 sampai p-1. Aspek 'terbatas' sangat penting - ini bukan tidak terbatas, dan ini bukan tentang bilangan real atau fungsi hash. Field prima memastikan setiap elemen bukan nol memiliki kebalikan perkalian, dan semua operasi aritmatika (penjumlahan, pengurangan, perkalian) dibungkus menggunakan modulo p, menjaga hasil dalam field tersebut. Struktur yang terbatas dan dapat diprediksi ini sangat penting untuk keamanan kriptografi Bitcoin.

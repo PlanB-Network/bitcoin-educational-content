@@ -38,7 +38,7 @@ O Satodime, um **carte au porteur, pertence a quem o possuir fisicamente**, sem 
 
 
 
-A aplicação evolui regularmente. Consulte o sítio Web da Satochip ou as lojas para obter actualizações. Por exemplo, novas blockchains ou funcionalidades de compra podem ser adicionadas. Verifique o [Satochip GitHub] (https://github.com/Toporin/Satodime-Applet) para desenvolvimentos em curso.
+A aplicação evolui regularmente. Consulte o sítio Web da Satochip ou as lojas para obter actualizações. Por exemplo, novas blockchains ou funcionalidades de compra podem ser adicionadas. Verifique o [Satochip GitHub](https://github.com/Toporin/Satodime-Applet) para desenvolvimentos em curso.
 
 
 
@@ -124,7 +124,7 @@ Para a primeira utilização, tornar-se o proprietário do cartão para o proteg
 - Clique em "*Take Ownership*" na aplicação.
 - Confirmar a operação: este procedimento gera uma chave de proprietário única.
 - Digitalize o mapa novamente para aplicar as alterações.
-- Aviso**: Este passo é irreversível. Consulte [o artigo sobre *propriedade*] (https://satochip.io/satodime-ownership-explained/).
+- Aviso**: Este passo é irreversível. Consulte [o artigo sobre *propriedade*](https://satochip.io/satodime-ownership-explained/).
 
 
 
@@ -301,11 +301,11 @@ Específico para Satodime :
 
 
 - [Produto Satodime](https://satochip.io/fr/product/satodime/)
-- [Guia móvel] (https://satochip.io/wp-content/uploads/2024/11/Satodime-FR-Short-tuto-app-mobile.pdf)
+- [Guia móvel](https://satochip.io/wp-content/uploads/2024/11/Satodime-FR-Short-tuto-app-mobile.pdf)
 
 
 
-[Plan ₿ Academy] (https://planb.academy/) para tutoriais sobre auto-custódia, chaves privadas, etc.
+[Plan ₿ Academy](https://planb.academy/) para tutoriais sobre auto-custódia, chaves privadas, etc.
 
 
 

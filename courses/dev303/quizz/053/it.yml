@@ -1,0 +1,8 @@
+question: Qual è il meccanismo fondamentale che consente a RC di consentire la proprietà multipla mantenendo la sicurezza della memoria?
+answer: Un contatore interno che tiene traccia dei riferimenti e libera la memoria solo quando il contatore raggiunge lo zero
+wrong_answers:
+  - Un'analisi in tempo di compilazione che verifica tutti i modelli di riferimento prima dell'esecuzione del programma
+  - Un garbage collector che analizza e pulisce periodicamente le allocazioni di memoria non raggiungibili
+  - Un sistema basato su lock che sincronizza l'accesso tra più proprietari degli stessi dati
+explanation: |
+  RC mantiene un contatore di riferimenti interno che si incrementa quando viene clonato e si decrementa quando viene abbandonato, assicurando che la memoria venga liberata solo quando non rimangono riferimenti. Questo differisce dall'analisi a tempo di compilazione (che Box utilizza), dalla garbage collection (che Rust non impiega) o dai meccanismi di blocco (che sono utilizzati per la sincronizzazione dei thread, non per il tracciamento della proprietà). L'approccio basato sui contatori consente una proprietà condivisa sicura senza l'overhead di runtime della garbage collection o le restrizioni della proprietà singola.

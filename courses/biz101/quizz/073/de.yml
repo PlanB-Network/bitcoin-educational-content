@@ -6,4 +6,4 @@ wrong_answers:
   - E-Mail-Berichte
 explanation: |
   APIs ermöglichen eine kontinuierliche Integration in Echtzeit.
-reviewed: false
+reviewed: true

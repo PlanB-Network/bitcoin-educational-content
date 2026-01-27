@@ -1,0 +1,8 @@
+question: ¿Cuál es el principal mecanismo de seguridad que garantiza que la infraestructura de Greenlight no pueda acceder a los fondos de los usuarios a pesar de alojar nodos Lightning en la nube?
+answer: Las claves privadas nunca salen de los dispositivos de los usuarios y todas las operaciones requieren la firma activa de la aplicación
+wrong_answers:
+  - Monederos multifirma con claves distribuidas entre varios proveedores en la nube
+  - Módulos de seguridad de hardware que cifran todas las transacciones antes del procesamiento en la nube
+  - Contratos inteligentes con bloqueo temporal que devuelven automáticamente los fondos si se produce un acceso no autorizado
+explanation: |
+  El SDK de Breez mantiene la seguridad mediante una arquitectura sin confianza en la que las claves privadas permanecen exclusivamente en los dispositivos de los usuarios. Aunque Greenlight aloja la infraestructura del nodo Lightning, no puede realizar ninguna operación sin una aplicación conectada activamente que pueda firmar transacciones y mensajes. Este diseño garantiza que, aunque el nodo se ejecute en la nube, Greenlight nunca tenga acceso a las claves de los usuarios y no pueda mover fondos sin la autorización explícita del usuario a través de su aplicación local. Las otras opciones describen distintos mecanismos de seguridad que no se utilizan en esta arquitectura.

@@ -13,7 +13,7 @@ Dans ce tutoriel, nous verrons comment installer et configurer Macadamia, effect
 
 ### Le protocole Cashu
 
-Cashu utilise des signatures aveugles inventées par David Chaum : vous déposez des bitcoins chez un serveur "mint" qui émet des jetons équivalents en satoshis. Le mint signe ces jetons sans voir leur contenu, rendant impossible de relier un jeton à un utilisateur. Les échanges sont hors-chaîne, de pair à pair, et totalement opaques – même le mint ne peut pas suivre qui paie qui.
+Cashu utilise des signatures aveugles inventées par David Chaum : vous déposez des bitcoins chez un serveur "mint" qui émet des jetons équivalents en satoshis. Le mint signe ces jetons sans voir leur contenu, rendant impossible de relier un jeton à un utilisateur. Les échanges sont hors-chaîne, de pair à pair, et totalement opaques, même le mint ne peut pas suivre qui paie qui.
 
 Macadamia est un wallet iOS open source développé en Swift/SwiftUI. Il fonctionne sans compte ni KYC, vos jetons sont stockés localement et protégés par une seed phrase. Le code est auditable sur GitHub et les jetons sont interopérables avec d'autres wallets Cashu (Minibits, Cashu.me).
 
@@ -63,7 +63,7 @@ Macadamia ne collecte aucune donnée utilisateur selon la politique de confident
 
 ## Configuration initiale
 
-Au premier lancement, Macadamia génère une phrase BIP-39 de 12 mots. Notez-les sur papier dans un endroit sûr – jamais en capture d'écran. Ces mots permettent de recréer votre wallet et dépenser vos jetons.
+Au premier lancement, Macadamia génère une phrase BIP-39 de 12 mots. Notez-les sur papier dans un endroit sûr, jamais en capture d'écran. Ces mots permettent de recréer votre wallet et dépenser vos jetons.
 
 ![Configuration initiale](assets/fr/02.webp)
 

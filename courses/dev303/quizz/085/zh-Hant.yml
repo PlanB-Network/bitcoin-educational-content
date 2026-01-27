@@ -1,0 +1,8 @@
+question: 在 UniFFI 中定義回呼介面時，為了確保安全的跨語言調用，通常需要在回呼特徵上附加哪些 Rust 特徵界線？
+answer: 由於回呼可能會跨越 Rust 與目標語言之間的線程界線，因此需要傳送與同步界線。
+wrong_answers:
+  - 需要克隆和複製邊界，以允許跨語言邊界複製回呼資料
+  - 當回呼在執行過程中失敗時，需要調試和顯示邊界以啟用適當的錯誤報告。
+  - Serialize 和 Deserialize 邊界是在不同語言執行時間之間進行回傳參數 marshal 所必需的。
+explanation: |
+  UniFFI 中的回呼介面需要 Send 和 Sync 界線，因為它們可以實現雙向通訊，在此通訊中，Rust 程式碼會回呼目標語言所寫的應用程式碼。由於這些回呼在執行過程中可能會跨越線程邊界，因此 Rust 的類型系統需要 Send (在線程間安全傳輸) 和 Sync (在線程間安全共用引用) 邊界，以確保記憶體安全。其他選項是不正確的：跨語言呼叫不需要 Clone/Copy，Debug/Display 是為了格式化而非安全，Serialize/Deserialize 由 UniFFI 的 marshaling 系統自動處理。

@@ -1,0 +1,9 @@
+question: ¿Qué mecanismo impide la liberación de un estado antiguo del canal del rayo?
+answer: La clave de revocación
+wrong_answers:
+  - Comisiones de transacción
+  - Relojes absolutos
+  - Cotilleos en la red
+explanation: |
+  Las claves de revocación se utilizan para penalizar a un nodo que intenta publicar un estado de canal antiguo.
+reviewed: false

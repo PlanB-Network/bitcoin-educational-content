@@ -1,0 +1,8 @@
+question: Zgodnie z Małym Twierdzeniem Fermata, jaka jest multiplikatywna odwrotność pierwiastka n w polu liczb pierwszych F(p)?
+answer: n^(p-2) mod p
+wrong_answers:
+  - n^(p-1) mod p
+  - n^(p+1) mod p
+  - n^(p+2) mod p
+explanation: |
+  Małe Twierdzenie Fermata mówi, że n^(p-1) ≡ 1 (mod p) dla dowolnego niezerowego pierwiastka n w dziedzinie liczb pierwszych. Aby znaleźć multiplikatywną odwrotność, potrzebujemy wartości, która po pomnożeniu przez n daje 1. Ponieważ n^(p-1) ≡ 1, możemy przepisać to jako n - n^(p-2) ≡ 1, dowodząc, że n^(p-2) jest mnożącą odwrotnością n. Pozostałe opcje są niepoprawne: n^(p-1) równa się 1 z twierdzenia Fermata, podczas gdy n^(p+1) i n^(p+2) dałyby wartości równoważne odpowiednio n^2 i n^3 przy redukcji modulo p.

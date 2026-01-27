@@ -1,11 +1,9 @@
-question: Wat is het Blockchain trilemma?
-answer: Een protocol gebaseerd op een Blockchain kan slechts aan twee van de criteria decentralisatie, veiligheid en schaalbaarheid voldoen.
+question: Welk risico loopt een Lightning-node die een oude kanaaltoestand publiceert?
+answer: Een straf
 wrong_answers:
-  - Een protocol gebaseerd op een Blockchain kan slechts aan één van de criteria decentralisatie, veiligheid en schaalbaarheid voldoen.
-  - Een protocol gebaseerd op Blockchain kan voldoen aan alle criteria van decentralisatie, veiligheid en schaalbaarheid.
-  - Een protocol dat gebaseerd is op een Blockchain kan aan geen van de criteria van decentralisatie, veiligheid en schaalbaarheid voldoen.
+  - Een waarschuwing
+  - Extra miningkosten
+  - Een tijdelijke bevriezing
 explanation: |
-  Het Blockchain trilemma verwijst naar de uitdaging dat een
-  protocol gebaseerd op Blockchain slechts aan twee criteria kan voldoen van
-  decentralisatie, veiligheid en schaalbaarheid.
-reviewed: true
+  Het protocol voorziet in een afschrikkende straf waarmee de andere partij alle middelen kan terugvorderen.
+reviewed: false

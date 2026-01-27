@@ -392,7 +392,7 @@ Saint-Pierre Başrahibi, lüks sarayı ve askeri fetih takıntısıyla Louis XIV
 Ekonomik düşünce açısından, daha sonra Jeremy Bentham'ın yapacağı gibi, fayda ilkesini tutarlı bir şekilde uyguladı ve genellikle sağlam içgörüler sundu. Adil olmak gerekirse, hala o dönemde kimsenin tam olarak kurtulamadığı merkantilist fikirlerin etkisindeydi.
 
 
-Yine de Saint-Pierre Başrahibi ekonomi hakkında bazı doğru gözlemlerde bulunmuştur. Bu fikrin sahibi olarak gösterilen *Condillac'tan* önce bile, herhangi bir Exchange'te her iki tarafın da kazançlı çıkacağını açıkça belirtmiştir. Bunu 1733 tarihli ["Fransa'nın Ticaretini Geliştirme Projesi"] (https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/) başlıklı yazısında görebilirsiniz:
+Yine de Saint-Pierre Başrahibi ekonomi hakkında bazı doğru gözlemlerde bulunmuştur. Bu fikrin sahibi olarak gösterilen *Condillac'tan* önce bile, herhangi bir Exchange'te her iki tarafın da kazançlı çıkacağını açıkça belirtmiştir. Bunu 1733 tarihli ["Fransa'nın Ticaretini Geliştirme Projesi"](https://www.institutcoppet.org/projet-pour-perfectionner-le-commerce-de-france/) başlıklı yazısında görebilirsiniz:
 
 
 > "Tüccarlar arasında bir satış yapıldığında, satıcı da kazanır, alıcı da; çünkü her iki tarafın da gerçek ya da algılanan bir çıkarı olmasaydı, ne satıcı böyle bir fiyata satardı, ne de alıcı kendi adına böyle bir fiyata satın alırdı".
@@ -497,7 +497,7 @@ Döneminin önde gelen iktisatçıları arasında iyi bir yere sahip olmasına r
 Elimizdekiler şunları içeriyor:
 
 
-1. [İngiliz iktisatçı Josiah Child'ın bir kitabının çevirisi üzerine] (https://archive.org/details/traitessurlecomm0000chil);
+1. [İngiliz iktisatçı Josiah Child'ın bir kitabının çevirisi üzerine](https://archive.org/details/traitessurlecomm0000chil);
 
 
 ![image](assets/tr/029.webp)
@@ -573,27 +573,27 @@ Gournay'ın çevresindeki birçok üyenin işbirliği sayesinde, birçok yazar k
 
 
 
-- Herbert's Essay on the [General Police of Grain] (https://archive.org/details/essaisurlapolice00herb/page/n7/mode/2up) (4 yılda 6 baskı)
+- Herbert's Essay on the [General Police of Grain](https://archive.org/details/essaisurlapolice00herb/page/n7/mode/2up) (4 yılda 6 baskı)
 
 
 ![image](assets/tr/033.webp)
 
 
 
-- Coyer's [Noblesse commerçante] (https://archive.org/details/lanoblessecommer00coye/page/n3/mode/2up) (2 yılda 5 baskı)
+- Coyer's [Noblesse commerçante](https://archive.org/details/lanoblessecommer00coye/page/n3/mode/2up) (2 yılda 5 baskı)
 
 
 
 
 
 
-- Plumard de Dangeul's [Fransa ve Büyük Britanya'nın Avantaj ve Dezavantajları Üzerine Açıklamalar] (https://archive.org/details/bim_eighteenth-century_remarks-on-the-advantage_plumard-de-dangeul-loui_1754) (ilk yılında 3 baskı)
-- Cliquot-Blervache ve Gournay's [Memoir on the Trades] (https://www.amazon.com/Memoire-sur-corps-metiers-French/dp/1978196903) (1758'de 2 baskı)
+- Plumard de Dangeul's [Fransa ve Büyük Britanya'nın Avantaj ve Dezavantajları Üzerine Açıklamalar](https://archive.org/details/bim_eighteenth-century_remarks-on-the-advantage_plumard-de-dangeul-loui_1754) (ilk yılında 3 baskı)
+- Cliquot-Blervache ve Gournay's [Memoir on the Trades](https://www.amazon.com/Memoire-sur-corps-metiers-French/dp/1978196903) (1758'de 2 baskı)
 
 Grup ayrıca şu kitabın yayınlanmasında da önemli bir rol oynamıştır
 
 
-- richard Cantillon [Genel Olarak Ticaretin Doğası Üzerine Deneme] (https://archive.org/details/essayonnatureofc0000cant).
+- richard Cantillon [Genel Olarak Ticaretin Doğası Üzerine Deneme](https://archive.org/details/essayonnatureofc0000cant).
 
 
 ![image](assets/tr/034.webp)
@@ -608,7 +608,7 @@ Gournay çevresinin entelektüel üretiminin fikirler tarihi üzerinde büyük b
 ![image](assets/tr/035.webp)
 
 
-Gournay ve arkadaşları, Fransız halkı arasında ekonomik tartışmaları sevdirmek için bunları romanlar aracılığıyla erişilebilir kılmaya çalıştılar. Loncaları eleştiren *Ticaret Üzerine Anı* kitabından sonra Gournay ve Cliquot-Blervache, Gabriel-François Coyer'in Chinki: [Diğer Milletlere Uygulanabilir Bir Çinçin Masalı] (https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf) adlı kısa bir hiciv romanı yazmasına yardımcı oldular.
+Gournay ve arkadaşları, Fransız halkı arasında ekonomik tartışmaları sevdirmek için bunları romanlar aracılığıyla erişilebilir kılmaya çalıştılar. Loncaları eleştiren *Ticaret Üzerine Anı* kitabından sonra Gournay ve Cliquot-Blervache, Gabriel-François Coyer'in Chinki: [Diğer Milletlere Uygulanabilir Bir Çinçin Masalı](https://www.institutcoppet.org/wp-content/uploads/2013/06/Coyer-Chinki-Histoire-cochinchinoise.pdf) adlı kısa bir hiciv romanı yazmasına yardımcı oldular.
 
 
 ![image](assets/tr/036.webp)
@@ -641,7 +641,7 @@ Yeteneği ve Fransız tarihindeki yeri sayesinde, 1758'de François Quesnay okul
 ![image](assets/tr/038.webp)
 
 
-Aslında Marquis de Mirabeau, Fizyokrasiyi benimsemesinden önce bile "İnsanlığın Dostu" adlı kitabı sayesinde büyük bir üne kavuşmuştu. Nüfus Üzerine İnceleme [FR: L'ami des hommes, ou, Traité de la population] (https://archive.org/details/lamideshommesou00unkngoog). İlk baskısı 1756'da yapılmış olsa da, Quesnay ile tanışmasından bir yıl önce, 1757 civarında meşhur olmuştur.
+Aslında Marquis de Mirabeau, Fizyokrasiyi benimsemesinden önce bile "İnsanlığın Dostu" adlı kitabı sayesinde büyük bir üne kavuşmuştu. Nüfus Üzerine İnceleme [FR: L'ami des hommes, ou, Traité de la population](https://archive.org/details/lamideshommesou00unkngoog). İlk baskısı 1756'da yapılmış olsa da, Quesnay ile tanışmasından bir yıl önce, 1757 civarında meşhur olmuştur.
 
 
 
@@ -694,7 +694,7 @@ En büyük başarısını geride bırakan Mirabeau'ya kur yapılmaya başlandı.
 Hararetli bir şekilde tartıştılar ve sonunda, normalde tartışmalarda asla gerçekleşmeyen bir şey oldu: Mirabeau hatalı olduğunu açıkça kabul etti. Quesnay'in fikirlerine katıldı ve bunları yaymaya hazır olduğunu söyledi.
 
 
-Birlikte Fizyokrat okulun çekirdeğini oluşturdular ve getirdikleri düzenli elemanlarla güçlendiler. Mirabeau'nun din değiştirmesinden kısa bir süre sonra Quesnay, vergilendirme konusundaki fikirlerini savunması için onu görevlendirdi. Bu, Mirabeau'nun birkaç günlüğüne Vincennes hapishanesine gönderildiği ve ardından Bignon'a sürgün edildiği ["Vergilendirme Teorisi"] (https://archive.org/details/thoriedelimpot00mira) ile sonuçlandı.
+Birlikte Fizyokrat okulun çekirdeğini oluşturdular ve getirdikleri düzenli elemanlarla güçlendiler. Mirabeau'nun din değiştirmesinden kısa bir süre sonra Quesnay, vergilendirme konusundaki fikirlerini savunması için onu görevlendirdi. Bu, Mirabeau'nun birkaç günlüğüne Vincennes hapishanesine gönderildiği ve ardından Bignon'a sürgün edildiği ["Vergilendirme Teorisi"](https://archive.org/details/thoriedelimpot00mira) ile sonuçlandı.
 
 
 ![image](assets/tr/042.webp)
@@ -809,7 +809,7 @@ Bu kitap Quesnay'in ana katkılarını bir araya getirmiştir. Fizyokratların l
 Fizyokrasi Fransa'da ve hatta tüm Avrupa'da ancak on yıl boyunca moda oldu. Uzun bir gelişme döneminden sonra, 1760'ların ortalarında önem kazandı. Turgot 1776'da iktidara geldiğinde, hareket popülaritesini çoktan kaybetmişti ve bakan Quesnay'in okuluna verdiği desteği çoğunlukla gizli tuttu.
 
 
-Kökenleri 1750'lerde ekonomik fikirlerin evrimine dayanmaktadır. Birkaç yazar Boisguilbert ile daha sonra Fizyokrasi olarak bilinecek olan düşünce arasında köprü kurulmasına yardımcı olmuştur. Daha önce de belirtildiği gibi, Vincent de Gournay ve çevresindeki iktisatçılar, Fransız okuyucuları yabancı iktisadi düşüncelerle tanıştıran ve onların iktisat tutkusunu ateşlemeye yardımcı olan pek çok yayının arkasındaydı. Fizyokrasinin temelleri Boisguilbert'in "Détail de la France" ve Cantillon'un ["Essay on the Nature of Trade in General"] (https://archive.org/details/essaisurlanature0000cant) gibi kitaplarında zaten mevcuttu.
+Kökenleri 1750'lerde ekonomik fikirlerin evrimine dayanmaktadır. Birkaç yazar Boisguilbert ile daha sonra Fizyokrasi olarak bilinecek olan düşünce arasında köprü kurulmasına yardımcı olmuştur. Daha önce de belirtildiği gibi, Vincent de Gournay ve çevresindeki iktisatçılar, Fransız okuyucuları yabancı iktisadi düşüncelerle tanıştıran ve onların iktisat tutkusunu ateşlemeye yardımcı olan pek çok yayının arkasındaydı. Fizyokrasinin temelleri Boisguilbert'in "Détail de la France" ve Cantillon'un ["Essay on the Nature of Trade in General"](https://archive.org/details/essaisurlanature0000cant) gibi kitaplarında zaten mevcuttu.
 
 
 ![image](assets/tr/047.webp)
@@ -1002,7 +1002,7 @@ Rusya'da Catherine II bir yasama reformu hazırlıyordu ve Diderot'dan kendisine
 ![image](assets/tr/059.webp)
 
 
-1767'de yayınlanan [*Siyasi Toplumların Doğal ve Temel Düzeni*] (https://archive.org/details/lordrenaturelete00mercuoft) adlı kitabı okuyunca etkilenen yazar, kitabın yazarı fizyokrat Mercier de la Rivière'i ona gönderdi.
+1767'de yayınlanan [*Siyasi Toplumların Doğal ve Temel Düzeni*](https://archive.org/details/lordrenaturelete00mercuoft) adlı kitabı okuyunca etkilenen yazar, kitabın yazarı fizyokrat Mercier de la Rivière'i ona gönderdi.
 
 
 
@@ -1498,7 +1498,7 @@ O andan itibaren Condorcet'nin kariyeri, yeni bakanın liberal reformlarını yo
 1774 ve 1776 yılları arasında, Turgot'nun bakanlığı sırasında Condorcet, hepsi de laissez-faire'e Commitment ile damgasını vuran çok sayıda müdahalede bulundu. Eserleri arasında serbest ticareti savunan *Picardy'li Bir Çiftçiden Bay Necker'e Mektuplar*; serbest rekabeti savunan *Tekeller ve Tekelciler*; bunların kaldırılması çağrısında bulunan *Korvetler Üzerine Düşünceler* ve yine serbest ticareti öven ve Necker'in aynı konudaki kitabını eleştiren *Tahıl Ticareti Üzerine Düşünceler* bulunmaktadır.
 
 
-Condorcet, [*Tahıl Ticareti Üzerine Mektuplar*] (https://archive.org/details/bub_gb_hg8jFw-y6bwC) adlı eserinde birkaç önemli noktaya değinmektedir.
+Condorcet, [*Tahıl Ticareti Üzerine Mektuplar*](https://archive.org/details/bub_gb_hg8jFw-y6bwC) adlı eserinde birkaç önemli noktaya değinmektedir.
 
 
 ![image](assets/tr/089.webp)
@@ -1565,7 +1565,7 @@ Bu teklif reddedilmiştir.
 
 Aynı yıl, 1790'da, hükümet harcamalarını karşılamak için yeni kağıt para çıkarılması tartışmaları başladı.
 
-Dupont de Nemours buna şiddetle karşı çıktı ve [*Ekmek Fiyatlarına Tahsisatların Etkileri*] (https://archive.org/details/effetdesassignat00dupo) başlıklı bir broşür yayınladı. Başlık doğruydu, zira Dupont de Nemours assignat çıkarmanın kaçınılmaz olarak enflasyona, yani ekmek de dahil olmak üzere emtia fiyatlarında artışa yol açacağını açıklıyordu.
+Dupont de Nemours buna şiddetle karşı çıktı ve [*Ekmek Fiyatlarına Tahsisatların Etkileri*](https://archive.org/details/effetdesassignat00dupo) başlıklı bir broşür yayınladı. Başlık doğruydu, zira Dupont de Nemours assignat çıkarmanın kaçınılmaz olarak enflasyona, yani ekmek de dahil olmak üzere emtia fiyatlarında artışa yol açacağını açıklıyordu.
 
 
 

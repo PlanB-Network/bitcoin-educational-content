@@ -1,0 +1,8 @@
+question: Hvilket paradoks eksisterer mellom sikkerhet og økonomisk fremgang, ifølge teksten?
+answer: Sikkerhet er både en forutsetning for utvikling og en konsekvens av den
+wrong_answers:
+  - Sikkerhet kommer alltid etter at økonomisk utvikling er oppnådd
+  - Økonomisk fremgang eliminerer naturligvis behovet for sikkerhetstiltak
+  - Sikkerhet og økonomisk fremgang er helt uavhengige av hverandre
+explanation: |
+  Kapitlet forklarer at sikkerhet og økonomisk fremgang skaper et paradoksalt forhold: Sikkerhet er en forutsetning for utvikling (uten sikkerhet kan man ikke innovere eller investere langsiktig), men man trenger også økonomisk overskudd fra produksjonen for å finansiere institusjonene som sørger for sikkerhet. Dette skaper en vanskelig syklus å starte, men når den først er i gang, blir den selvforsterkende. De andre svarene er feil fordi de antyder et enkelt enveisforhold eller uavhengighet, snarere enn denne komplekse gjensidige avhengigheten.

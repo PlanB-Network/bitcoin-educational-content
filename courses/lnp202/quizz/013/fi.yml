@@ -1,0 +1,9 @@
+question: Minkä ratkaisun avulla tet käyttää todellista Lightning-solmua matkapuhelimissa?
+answer: Sulautettu LN-solmu
+wrong_answers:
+  - Huoltovalaisin wallet
+  - Salaman atomivaihto
+  - Yhdistetyt kanavat
+explanation: |
+  Phoenix:n tai Zeus Embedded:n kaltaiset ratkaisut upottavat aidon Lightning-solmun suoraan sovellukseen.
+reviewed: false

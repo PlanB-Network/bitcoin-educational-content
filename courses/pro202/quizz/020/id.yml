@@ -1,0 +1,8 @@
+question: Masalah matematika apa yang memberikan fondasi keamanan untuk tanda tangan ECDSA di Bitcoin?
+answer: Masalah logaritma diskrit kurva elips
+wrong_answers:
+  - Masalah faktorisasi bilangan bulat
+  - Masalah residu kuadratik
+  - Masalah tabrakan hash
+explanation: |
+  Keamanan ECDSA bergantung pada masalah logaritma diskrit kurva eliptik: diberikan P = eG, menghitung P dari e dan G adalah mudah, tetapi mendapatkan kunci privat e dari kunci publik P tidak mungkin dilakukan secara komputasi. Hubungan matematis satu arah ini memungkinkan kriptografi kunci publik yang aman dengan ukuran kunci yang lebih kecil daripada RSA, yang bergantung pada faktorisasi bilangan bulat.

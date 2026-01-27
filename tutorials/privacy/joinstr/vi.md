@@ -542,13 +542,14 @@ Joinstr hiện tạo ra các nhóm trung bình từ **2 đến 5 người tham g
 
 
 
-| Aspect | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
+
+| Khía cạnh | Wasabi | Whirlpool/Ashigaru | JoinMarket | **Joinstr** |
 |--------|--------|--------------------|------------|-------------|
-| **Participants par pool** | 50-100 | 5-10 | Variable (P2P) | **2-5** |
-| **Coordinateur** | Centralisé (fermé 2024) | Centralisé (actif) | P2P maker/taker | **Aucun (Nostr)** |
-| **Résistance à la censure** | Faible | Moyenne | Très élevée | **Très élevée** |
-| **Frais de coordination** | Pourcentage | Frais d'entrée | Payés aux makers | **Aucun** |
-| **Discrimination UTXO** | Oui (blacklists) | Non | Non | **Non** |
+| **Người tham gia trên mỗi hồ** | 50-100 | 5-10 | Biến đổi (P2P) | **2-5** |
+| **Người phối hợp** | Tập trung (đóng 2024) | Tập trung (hoạt động) | P2P maker/taker | **Không (Nostr)** |
+| **Khả năng chống lại kiểm duyệt** | Yếu | Trung bình | Rất cao | **Rất cao** |
+| **Phí phối hợp** | Phần trăm | Phí vào cửa | Trả cho các nhà sáng tạo | **Không** |
+| **Phân biệt UTXO** | Có (danh sách đen) | Không | Không | **Không** |
 
 💡 **Các giải pháp CoinJoin đang hoạt động khác**:
 

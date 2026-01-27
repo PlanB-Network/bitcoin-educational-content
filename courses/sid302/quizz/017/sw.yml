@@ -1,0 +1,8 @@
+question: Katika mfumo wa makubaliano ya muungano wa Liquid, ni idadi gani ya chini kabisa ya sahihi za utendaji zinazohitajika ili kuthibitisha kizuizi, na ni idadi gani ya juu zaidi ya hitilafu za nodi ambazo mtandao unaweza kuvumilia?
+answer: Saini 11 zinahitajika, zinaweza kuvumilia hadi hitilafu 4 za nodi
+wrong_answers:
+  - Saini 8 zinahitajika, zinaweza kuvumilia hadi hitilafu 7 za nodi
+  - Saini 15 zinahitajika, zinaweza kuvumilia hadi hitilafu mbili za nodi
+  - Saini 9 zinahitajika, zinaweza kuvumilia hadi hitilafu 6 za nodi
+explanation: |
+  Liquid hutumia mfumo wa kizingiti cha 11 kati ya 15 ambapo angalau vitendaji 11 kati ya 15 lazima visaini kila kizuizi ili kiwe halali. Muundo huu unaruhusu mtandao kuendelea kufanya kazi hata kama hadi nodi 4 zitashindwa (15 - 11 = 4). Chaguo zingine hutoa vizingiti visivyo sahihi vya sahihi au kukokotoa vibaya uvumilivu wa hitilafu, ambayo huwa ni jumla ya nodi ukiondoa sahihi zinazohitajika.

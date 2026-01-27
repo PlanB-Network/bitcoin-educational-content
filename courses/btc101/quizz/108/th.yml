@@ -1,0 +1,11 @@
+question: ใครคือบุคคลแรกที่เข้าร่วมเครือข่าย Bitcoin หลังจาก Satoshi Nakamoto?
+answer: Hal Finney.
+wrong_answers:
+  - ลาสโล ฮานเยซ
+  - ฟิล แชมเปญ
+  - Rogzy.
+explanation: |
+  Hal Finney เป็นบุคคลแรกที่เข้าร่วมเครือข่าย Bitcoin
+  หลังจาก Satoshi Nakamoto เอง เขายังได้ทวีต Running
+  Bitcoin เพื่อเป็นการเฉลิมฉลองโอกาสนี้
+reviewed: true

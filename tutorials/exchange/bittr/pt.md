@@ -21,7 +21,7 @@ Vamos ver como é fácil começar a empilhar Sats com o Bittr.
 ## Começar a utilizar o Bittr
 
 
-- Na Web ou no telemóvel, vá a [getbittr.com] (https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) e clique em "Buy Bitcoin" (Comprar Bitcoin)
+- Na Web ou no telemóvel, vá a [getbittr.com](https://getbittr.com/buy-Bitcoin?utm_source=planb&utm_medium=tutorial&utm_campaign=step1) e clique em "Buy Bitcoin" (Comprar Bitcoin)
 
 
 
@@ -61,7 +61,7 @@ Recomendamos que faça a configuração num local calmo e privado. Não deve dem
 - Selecionar "bluewallet" no sítio Web
 
 
-- Descarregar a aplicação BlueWallet aqui: [App Store] (https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play] (https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
+- Descarregar a aplicação BlueWallet aqui: [App Store](https://itunes.apple.com/app/bluewallet-Bitcoin-Wallet/id1376878040), [Google Play](https://play.google.com/store/apps/details?id=io.bluewallet.bluewallet).
 
 
 ![image3](assets/en/03.webp)

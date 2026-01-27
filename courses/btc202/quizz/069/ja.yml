@@ -1,7 +1,7 @@
-question: あなたのミニPCにDustが蓄積されることによってもたらされる主なリスクは何ですか？
+question: あなたのミニPCにDust（ダスト）が蓄積されることによってもたらされる主なリスクは何ですか？
 answer: プロセッサー・スロットリング
 wrong_answers:
-  - Blockchainブロック削除
+  - ブロックチェーン・ブロックの削除
   - ディスクの破損
   - RAM容量の減少
 explanation: |

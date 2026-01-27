@@ -1,0 +1,8 @@
+question: Liquid Network 使用的主要共識機制是什麼？
+answer: 聯盟共識
+wrong_answers:
+  - Proof-of-Work
+  - 認股證明
+  - 委託認證
+explanation: |
+  Liquid Network 以聯邦共識 (Federated Consensus) 模式運作，與 Bitcoin 的 Proof-of-Work 系統根本不同。在此模式中，由十五位功能人員所組成的精選小組擔任區塊簽署者，他們以確定的輪循方式產生區塊。Proof-of-Work 是 Bitcoin 涉及 mining 的共識機制，而 Proof-of-Stake 和 Delegated Proof-of-Stake 是其他區塊鏈網路使用的共識機制，但 Liquid 沒有使用。

@@ -1,0 +1,8 @@
+question: Apa yang memungkinkan LDK mendukung beragam mekanisme transportasi seperti soket TCP, WebSockets, dan koneksi serial USB untuk komunikasi Lightning Network?
+answer: Sistem manajemen peer beroperasi secara independen dari mekanisme transportasi yang mendasarinya sambil menangani enkripsi protokol kebisingan
+wrong_answers:
+  - Manajer saluran berkoordinasi dengan beberapa adaptor jaringan melalui lapisan abstraksi soket terpadu
+  - LDK mengimplementasikan driver khusus protokol untuk setiap jenis transportasi dalam modul jaringan intinya
+  - Sistem peristiwa secara otomatis mendeteksi metode transportasi yang tersedia dan mengonfigurasi penangan koneksi yang sesuai
+explanation: |
+  Sistem manajemen peer LDK dirancang khusus untuk menangani komunikasi protokol Lightning (termasuk enkripsi noise dan struktur pesan) secara independen dari lapisan transport yang sebenarnya. Pemisahan arsitektur ini memungkinkan pengembang untuk mengimplementasikan saluran komunikasi dua arah apa pun sementara peer manager hanya berfokus pada kepatuhan protokol Lightning. Pilihan lain secara tidak benar menyarankan bahwa LDK menyediakan implementasi transport bawaan atau deteksi otomatis, padahal pada kenyataannya kekuatan LDK terletak pada abstraksi dari mekanisme transport tertentu sepenuhnya.

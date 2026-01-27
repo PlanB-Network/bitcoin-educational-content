@@ -70,7 +70,7 @@ Başlamak için çeşitli belgelere ihtiyacımız olacak. "*Download*" bölümü
 ![GnuPG](assets/notext/02.webp)
 
 
-Ayrıca [projenin GitHub deposuna] (https://github.com/sparrowwallet/Sparrow/releases) da gidebilirsiniz.
+Ayrıca [projenin GitHub deposuna](https://github.com/sparrowwallet/Sparrow/releases) da gidebilirsiniz.
 
 
 ![GnuPG](assets/notext/03.webp)

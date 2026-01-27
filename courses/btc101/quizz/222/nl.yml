@@ -1,8 +1,9 @@
-question: Hoe zijn transacties op de Lightning Network beveiligd?
-answer: Via cryptografie en indirect via de energie die miners verbruiken op Bitcoin.
+question: Wat is het centrale principe van RGB?
+answer: Client-side validatie
 wrong_answers:
-  - Alleen door het gebruik van privésleutels.
-  - Alleen door het gebruik van openbare sleutels.
-  - Alleen door het gebruik van zowel private als publieke sleutels.
-explanation: >-
-reviewed: true
+  - Globale uitvoering op de blockchain
+  - Gefedereerde consensus
+  - Proof-of-Work
+explanation: |
+  RGB is gebaseerd op lokale validatie van toestanden, waarbij de blockchain uitsluitend dient als cryptografisch anker en bescherming tegen dubbel uitgeven.
+reviewed: false

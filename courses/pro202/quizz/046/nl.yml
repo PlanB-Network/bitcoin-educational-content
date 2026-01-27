@@ -1,0 +1,8 @@
+question: Wat is de wiskundige relatie tussen Bitcoin's moeilijkheidswaarde en het huidige doel dat gebruikt wordt voor blokvalidatie?
+answer: Moeilijkheid is gelijk aan het laagst mogelijke doel gedeeld door het huidige doel
+wrong_answers:
+  - Moeilijkheid is gelijk aan het huidige doel gedeeld door het laagst mogelijke doel
+  - Moeilijkheid is gelijk aan het huidige doel vermenigvuldigd met het laagst mogelijke doel
+  - Moeilijkheid is gelijk aan de coëfficiënt maal 256 verhoogd tot de exponent min 3
+explanation: |
+  De moeilijkheidsgraad van Bitcoin is specifiek gedefinieerd als laagste_doel / huidig_doel, wat uitdrukt hoeveel keer moeilijker mining is vergeleken met de makkelijkst mogelijke moeilijkheidsgraad. Deze omgekeerde relatie betekent dat als het doel kleiner wordt (waardoor geldige hashes moeilijker te vinden zijn), de moeilijkheid proportioneel toeneemt. De formule zorgt ervoor dat een moeilijkheidsgraad van 1 staat voor de makkelijkste mining condities, terwijl hogere waarden aangeven dat er proportioneel meer rekenwerk nodig is om geldige blokken te vinden.

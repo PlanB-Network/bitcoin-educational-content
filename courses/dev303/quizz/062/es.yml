@@ -1,0 +1,8 @@
+question: ¿Cuál es la principal ventaja de utilizar el comando `cargo expand` al desarrollar macros complejas en Rust?
+answer: Muestra el código completamente expandido generado por las invocaciones de macros, lo que permite a los desarrolladores verificar la salida generada y depurar problemas
+wrong_answers:
+  - Optimiza automáticamente el rendimiento de las macros reduciendo el tiempo de compilación y eliminando las ramas redundantes de concordancia de patrones
+  - Valida la sintaxis de las macros en tiempo de ejecución y ofrece comprobación de errores en tiempo real para la validación dinámica de argumentos de macros
+  - Convierte automáticamente las macros de tipo función en macros derivadas, lo que mejora la reutilización del código y la eficacia de la implementación de rasgos
+explanation: |
+  El comando `cargo expand` es inestimable para el desarrollo de macros porque revela el código real que las macros generate durante la compilación. Dado que las macros operan en tiempo de compilación y transforman los patrones de entrada en código generado, los desarrolladores necesitan ver esta salida expandida para verificar que sus macros funcionan correctamente. Esto es especialmente crucial cuando el código generado por las macros contiene errores, ya que la salida expandida ayuda a determinar si los problemas provienen de la propia definición de la macro o de la estructura del código generado. Las otras opciones son incorrectas porque `cargo expand` es puramente una herramienta de depuración e inspección - no optimiza el rendimiento, valida el comportamiento en tiempo de ejecución, o convierte automáticamente entre tipos de macros.

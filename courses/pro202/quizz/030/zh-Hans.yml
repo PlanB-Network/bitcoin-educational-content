@@ -1,0 +1,8 @@
+question: 在 Bitcoin 交易验证中，叹息构建过程的主要目的是什么？
+answer: 创建最初由私人密钥签名的准确信息，以进行签名验证
+wrong_answers:
+  - 向 generate 提供交易的唯一标识符，防止 double-spending 攻击
+  - 将交易数据压缩成更小的格式，以提高网络传输效率
+  - 对交易内容进行加密，只有收款人才能解密和使用钱币
+explanation: |
+  叹息结构创建了由私钥签名的精确信息，使 OP_CHECKSIG 能够验证签名的真实性。这一过程包括清空 ScriptSigs，用相应的 ScriptPubKey 替换当前输入的 ScriptSig，并在双重哈希之前添加哈希类型。其他选项都不正确：交易 ID 用作标识符，压缩是单独处理的，Bitcoin 交易没有加密，但在区块链上公开可见。

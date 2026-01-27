@@ -1,0 +1,9 @@
+question: Warum ist LN+ für Kaufleute ungeeignet?
+answer: Erhebliche Kapitalinvestitionen
+wrong_answers:
+  - Mangelnde Zuverlässigkeit der beteiligten Knotenpunkte
+  - Kein Reputationssystem
+  - Zu kleine Kanäle
+explanation: |
+  Für jeden eingehenden Satelliten muss ein ausgehender Satellit blockiert werden, was die Skalierbarkeit für ein Unternehmen einschränkt.
+reviewed: false

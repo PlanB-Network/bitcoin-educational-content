@@ -585,7 +585,7 @@ Efter konfigurationen ska du testa din installation:
 
 
 
-- [Have I Been Pwned] (https://haveibeenpwned.com/) - Kontrollera om dina konton har blivit utsatta för intrång
+- [Have I Been Pwned](https://haveibeenpwned.com/) - Kontrollera om dina konton har blivit utsatta för intrång
 - [2FA Directory](https://2fa.directory/) - Lista över tjänster som stöder 2FA
 
 
@@ -606,5 +606,5 @@ Efter konfigurationen ska du testa din installation:
 
 
 
-- [Have I Been Pwned] (https://haveibeenpwned.com/) - Kontrollera om dina konton har blivit utsatta för intrång
+- [Have I Been Pwned](https://haveibeenpwned.com/) - Kontrollera om dina konton har blivit utsatta för intrång
 - [2FA Directory](https://2fa.directory/) - Lista över tjänster som stöder 2FA

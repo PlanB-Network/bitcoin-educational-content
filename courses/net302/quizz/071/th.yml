@@ -1,0 +1,9 @@
+question: มีการใช้สัญกรณ์ใดเพื่อระบุขนาดของคำนำหน้าในที่อยู่ IPv6?
+answer: CIDR
+wrong_answers:
+  - หน้ากากสุทธิทศนิยมจุด
+  - เลขฐานสิบหกคั่นด้วยเครื่องหมายโคลอน
+  - ICANN
+explanation: |
+  CIDR notation specifies the number of fixed prefix bits after a slash, just like in IPv4.
+reviewed: false

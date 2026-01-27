@@ -1,0 +1,8 @@
+question: Kolik vlastníků může mít hodnota v daném okamžiku podle systému vlastnictví Rust?
+answer: Přesně jeden majitel
+wrong_answers:
+  - Povoleno je více vlastníků
+  - Maximálně dva majitelé
+  - Žádní majitelé, dokud se k nim nepřistoupí
+explanation: |
+  Systém vlastnictví Rust funguje na základě tří základních pravidel, z nichž první je, že každá hodnota má v daném okamžiku přesně jednoho vlastníka. Tento princip jediného vlastníka je klíčový pro bezpečnost paměti, protože zabraňuje tomu, aby se více částí programu pokoušelo uvolnit stejnou paměť nebo modifikovat data současně. Mít více vlastníků by vedlo k chybám typu use-after-free a k závodům o data, zatímco nemít žádného vlastníka by znamenalo, že paměť by nikdy nemohla být řádně vyčištěna.

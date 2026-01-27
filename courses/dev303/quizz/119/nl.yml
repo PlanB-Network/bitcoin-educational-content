@@ -1,0 +1,8 @@
+question: Welke fundamentele architecturale beperking van de Lightning Development Kit (LDK) creëert het grootste operationele risico voor mobiele wallet-gebruikers tijdens pieken in de netwerkkosten?
+answer: Afwezigheid van ankeruitgangen die geforceerde kanaalsluitingen voorkomen wanneer vooraf ingestelde vergoedingen onvoldoende worden voor transactiebevestiging
+wrong_answers:
+  - Gebrek aan LNURL-ondersteuning waardoor handmatig facturen moeten worden gegenereerd en betalingen moeten worden verwerkt voor alle Lightning-transacties
+  - Ontbrekende synchronisatie van netwerkgrafieken veroorzaakt mislukte betalingsroutering wanneer mobiele applicaties na langere tijd opnieuw opstarten
+  - Onvoldoende kanaalreservebeheer leidt tot vastlopen van fondsen wanneer gebruikers hun volledige weergegeven saldo proberen uit te geven
+explanation: |
+  De afwezigheid van ankeruitgangen in LDK creëert een kritieke kwetsbaarheid waarbij kanalen niet geforceerd gesloten kunnen worden tijdens kostenpieken omdat de vooraf ingestelde vergoedingen onvoldoende worden voor blockchainbevestiging. Dit is met name gevaarlijk voor mobiele portemonnees waar gebruikers de applicatie kunnen verlaten zonder coöperatieve sluiting, waardoor fondsen voor onbepaalde tijd kunnen stranden. Hoewel het ontbreken van een LNURL de gebruikerservaring beïnvloedt en routeringsproblemen de betrouwbaarheid beïnvloeden, creëert geen van beide het existentiële risico voor fondsherstel dat ankeruitvoerbeperkingen vormen tijdens omgevingen met hoge vergoedingen.

@@ -1,5 +1,5 @@
 ---
-name: Pirnid
+name: Pears
 description: Kuidas paigaldada ja kasutada rakendusi Pearsis?
 ---
 

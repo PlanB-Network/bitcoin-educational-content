@@ -1,0 +1,8 @@
+question: Welke syntaxis wordt gebruikt om toegang te krijgen tot het eerste veld van een tuple structuur in Rust?
+answer: Puntnotatie met index 0 (bijvoorbeeld instance.0)
+wrong_answers:
+  - Vierkante haakjes met index 0 (bijv. instantie[0])
+  - Pijlnotatie met index 0 (bijv. instantie->0)
+  - Dubbele dubbele punt met index 0 (bijvoorbeeld instance::0)
+explanation: |
+  Tuple-structuren in Rust gebruiken puntnotatie gevolgd door de veldindex om hun naamloze velden te benaderen. Het eerste veld wordt benaderd met .0, het tweede met .1, enzovoort. Dit verschilt van arrays of vectoren die vierkante haakjes gebruiken, en in tegenstelling tot C++ dat pijlnotatie gebruikt voor pointers. De dubbele dubbele punt syntaxis is gereserveerd voor geassocieerde functies en namespacing, niet voor veldtoegang.

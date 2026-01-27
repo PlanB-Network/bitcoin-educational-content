@@ -1,0 +1,9 @@
+question: Welke oplossing biedt de meeste soevereiniteit voor Lightning-gebruikers?
+answer: Klassiek bliksemknooppunt
+wrong_answers:
+  - Wallet met atomaire swap
+  - Ingebouwd LN knooppunt
+  - Huishoudelijke Bliksem wallet
+explanation: |
+  Het klassieke knooppunt biedt totale controle over kanalen, liquiditeit en vergoedingsbeleid. Het is de enige waarmee je echt onafhankelijk kunt zijn.
+reviewed: false

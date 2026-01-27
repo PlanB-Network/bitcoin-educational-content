@@ -14,7 +14,7 @@ Mini Miner Braiins BMM 100 är en produkt skapad av Mining pool Braiins. Denna e
 
 
 
-Du kan också hitta mycket mer viktig information genom att läsa den fullständiga handboken direkt på [tillverkarens webbplats] (https://braiins.com/hardware/mini-Miner-bmm-100).
+Du kan också hitta mycket mer viktig information genom att läsa den fullständiga handboken direkt på [tillverkarens webbplats](https://braiins.com/hardware/mini-Miner-bmm-100).
 
 
 
@@ -168,7 +168,7 @@ och vi måste klicka på den lila knappen till höger som säger "Connect worker
 
 
 
-Här kommer fönstret med den information vi behöver för att ansluta vår mini Miner till poolen. Här är den enda ändringen vi kan göra att välja Stratum V2. För att ta reda på vad Stratum v2 är, se denna post i [ordlistan] (https://planb.academy/en/resources/glossary/stratum-v2).
+Här kommer fönstret med den information vi behöver för att ansluta vår mini Miner till poolen. Här är den enda ändringen vi kan göra att välja Stratum V2. För att ta reda på vad Stratum v2 är, se denna post i [ordlistan](https://planb.academy/en/resources/glossary/stratum-v2).
 
 
 
@@ -240,7 +240,7 @@ om du går tillbaka till instrumentpanelen bör du börja se rörelse i diagramm
 
 
 
-Genom denna pool kan man pröva lyckan och bryta ensam, lutad mot en pool. I detta fall kommer vi inte att få någon belöning, men vi kommer att få full belöning om vi någonsin lyckas bryta ett block. Vi kommer sedan att länka till public pool, en Mining-pool som är helt öppen källkod. Vi öppnar ett nytt fönster i webbläsaren och går till [web.public-pool.io] (https://web.public-pool.io/#/).
+Genom denna pool kan man pröva lyckan och bryta ensam, lutad mot en pool. I detta fall kommer vi inte att få någon belöning, men vi kommer att få full belöning om vi någonsin lyckas bryta ett block. Vi kommer sedan att länka till public pool, en Mining-pool som är helt öppen källkod. Vi öppnar ett nytt fönster i webbläsaren och går till [web.public-pool.io](https://web.public-pool.io/#/).
 
 
 

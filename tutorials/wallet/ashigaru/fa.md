@@ -1,5 +1,5 @@
 ---
-name: آشیگارو
+name: Ashigaru
 description: fork از Samourai Wallet برای ایمن‌سازی، مدیریت و مخلوط کردن بیت‌کوین‌های شما
 ---
 

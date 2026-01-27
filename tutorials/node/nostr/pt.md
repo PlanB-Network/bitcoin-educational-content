@@ -4,7 +4,7 @@ description: Descubra e comece a usar o NOSTR
 ---
 
 
-![Um novo desafiante chegou](assets/1.webp)
+![Um novo desafiante chegou](assets/cover.webp)
 
 *No final deste guia, você entenderá o que é o Nostr, terá criado uma conta e poderá usá-lo.*
 

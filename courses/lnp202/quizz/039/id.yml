@@ -1,0 +1,9 @@
+question: Apa yang dimaksud dengan likuiditas keluar dari simpul Lightning?
+answer: Kemampuan membayar
+wrong_answers:
+  - Kemampuan untuk terhubung
+  - Kapasitas untuk menerima
+  - Kemampuan untuk menutup saluran
+explanation: |
+  Likuiditas keluar mewakili sats yang tersedia di sisi operator untuk melakukan pembayaran.
+reviewed: false

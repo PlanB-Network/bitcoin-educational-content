@@ -1,0 +1,8 @@
+question: Wat is de kritieke operationele kwetsbaarheid die voortkomt uit het autorisatiemodel van AMP voor medeondertekening van gereglementeerde vermogensoverdrachten?
+answer: De liquiditeit van activa wordt volledig onderbroken als de AMP-server niet beschikbaar is, omdat voor elke overdracht een medeondertekening van de server nodig is
+wrong_answers:
+  - Transactiekosten stijgen exponentieel wanneer meerdere medeondertekenaars tegelijkertijd overschrijvingen proberen te autoriseren
+  - Vertrouwelijke transactieprivacy valt weg omdat medeondertekening verblindende factoren blootstelt aan netwerkwaarnemers
+  - Vermogensbezitters verliezen controle over het beheer omdat het medeondertekeningsmechanisme privésleutels overdraagt aan de AMP-server
+explanation: |
+  Het autorisatiemodel van AMP vereist dat de AMP-server elke vermogensoverdracht mede ondertekent, waardoor er één enkel foutpunt ontstaat. Als de server offline gaat, kunnen er geen transacties worden voltooid, waardoor alle liquiditeit van activa wordt bevroren. De andere opties zijn onjuist: de kosten stijgen niet exponentieel met medeondertekening, de privacy van vertrouwelijke transacties blijft intact (alleen de emittent krijgt zichtbaarheid) en gebruikers behouden hun privésleutels terwijl de server alleen autorisatiehandtekeningen levert.

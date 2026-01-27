@@ -1,0 +1,8 @@
+question: Cosa succede ai campi ScriptSig di tutti gli input durante il processo di costruzione di sighash per la verifica della firma ECDSA legacy?
+answer: Tutti i campi ScriptSig vengono svuotati, quindi lo ScriptSig dell'input corrente viene sostituito con la corrispondente ScriptPubKey
+wrong_answers:
+  - Tutti i campi ScriptSig rimangono invariati e sono inclusi nella loro forma originale nel calcolo del sighash
+  - "Solo lo ScriptSig dell'input corrente viene mantenuto, mentre tutti i campi ScriptSig degli altri ingressi vengono rimossi dalla transazione"
+  - Tutti i campi ScriptSig vengono sostituiti con i corrispondenti valori ScriptPubKey delle uscite di riferimento
+explanation: |
+  Durante la costruzione di sighash per le transazioni legacy, il processo svuota specificamente tutti i campi ScriptSig, quindi sostituisce solo l'input in corso di convalida con la corrispondente ScriptPubKey dell'output che sta spendendo. Questo assicura che la firma si impegni nelle condizioni di spesa senza creare dipendenze circolari in cui le firme dovrebbero firmare se stesse. Le altre opzioni non sono corrette, perché lasciano le firme al loro posto (creando impossibilità logiche) o modificano tutti gli input in modo uniforme (il che non isolerebbe correttamente il contesto di validazione dell'input corrente).

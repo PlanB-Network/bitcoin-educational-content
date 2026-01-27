@@ -1,0 +1,8 @@
+question: Quando si crea una macro simile a una funzione personalizzata che deve gestire un numero diverso di argomenti in ingresso, quale combinazione di specificatore di frammento e modello di ripetizione sarebbe più appropriata?
+answer: Usare $($x:expr),* per abbinare zero o più espressioni separate da virgola
+wrong_answers:
+  - Usare $($x:ident)+ per abbinare uno o più identificatori senza separatori
+  - Usare $($x:ty);* per corrispondere a zero o più tipi separati da punto e virgola
+  - Usare $($x:expr)? per corrispondere a un'espressione singola opzionale senza ripetizioni
+explanation: |
+  Lo schema $($x:expr),* è pensato specificamente per le macro ad argomento variabile, dove expr corrisponde a qualsiasi espressione e la sintassi ,* gestisce zero o più ripetizioni separate da virgole. Questo è esattamente ciò che serve per macro come vec! che possono accettare un numero variabile di argomenti. Le altre opzioni non sono corrette perché: ident corrisponde solo a identificatori (non a espressioni complete), ty corrisponde a tipi (non a valori) e ? corrisponde a singoli elementi opzionali piuttosto che a ripetizioni di variabili.

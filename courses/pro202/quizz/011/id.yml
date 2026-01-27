@@ -1,0 +1,8 @@
+question: Apa keuntungan utama menggunakan format SEC terkompresi dibandingkan format SEC yang tidak terkompresi untuk kunci publik Bitcoin?
+answer: Ini mengurangi ukuran penyimpanan dari 65 byte menjadi 33 byte dengan tetap mempertahankan keamanan kriptografi yang sama
+wrong_answers:
+  - Ini memberikan keamanan kriptografi yang lebih kuat dengan menggunakan lapisan enkripsi tambahan
+  - Ini memungkinkan operasi penggandaan poin yang lebih cepat selama proses verifikasi tanda tangan
+  - Hal ini memungkinkan beberapa kunci publik untuk diturunkan dari satu format terkompresi
+explanation: |
+  Format SEC terkompresi mengurangi ukuran kunci publik dari 65 byte (tidak terkompresi) menjadi 33 byte dengan hanya menyimpan koordinat x dan bit paritas (awalan 0x02 atau 0x03), bukan kedua koordinat penuh. Koordinat y dapat direkonstruksi secara matematis dari koordinat x dan informasi paritas karena kurva elips memiliki paling banyak dua nilai y untuk setiap x. Kompresi ini memberikan penghematan penyimpanan yang signifikan tanpa kehilangan keamanan, itulah sebabnya mengapa Bitcoin sekarang lebih memilih kunci yang dikompresi untuk efisiensi.

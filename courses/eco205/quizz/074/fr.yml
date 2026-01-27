@@ -1,0 +1,8 @@
+question: Selon Mises et Hayek, quelle est la caractéristique fondamentale qui distingue leur vision du marché de l'approche néoclassique?
+answer: Le marché est un processus dynamique en constante évolution plutôt qu'un état d'équilibre statique
+wrong_answers:
+  - "Le marché atteint plus rapidement l'équilibre grâce à une meilleure information des acteurs"
+  - Le marché nécessite une régulation centrale pour coordonner efficacement les échanges individuels
+  - Le marché fonctionne selon des arbitrages parfaitement rationnels basés sur une information complète
+explanation: |
+  La vision autrichienne de Mises et Hayek conçoit le marché comme un processus dynamique, incertain et subjectif, contrairement à l'approche néoclassique qui le modélise comme tendant vers un équilibre statique. Pour les autrichiens, le marché ne cherche pas à atteindre un point d'équilibre parfait, mais constitue un mécanisme de coordination continue des actions individuelles basées sur des connaissances dispersées et imparfaites. Cette conception processuelle explique pourquoi aucune autorité centrale ne peut diriger efficacement ce système complexe.

@@ -1,0 +1,8 @@
+question: Ni itandukaniro irihe ry’ishimikiro hagati y’uburyo bwo gukorana n’ibindi bikoresho vya LDK n’ibihimba vya kera vy’umuravyo ku bijanye n’ibidukikije bifise ubutunzi buke?
+answer: LDK itanga ubuhinga bushingiye ku kuyungurura bushobora gutuma ibikorwa bishirwa mu ngiro ugukurikirana biciye ku makuru yoroshe nk'abakozi ba Electrum
+wrong_answers:
+  - LDK isaba guhuza neza blockchain ariko igatuma ububiko bugenda neza biciye ku mitwe y'amabuye n'uburyo bwo gukata ibikorwa
+  - LDK ishira mu ngiro umurongo w'ubuhinga busanzwe ugabanya uburebure bw'umurongo mu kubungabunga gusa amafaranga ajanye n'umurongo mu bwibuke
+  - LDK ikoresha uburyo bwo kwumvikana buvanze bwemeza gusa ibikorwa bijanye n'umuravyo mu gihe yirengagiza ibikorwa bisanzwe vya Bitcoin
+explanation: |
+  LDK's blockchain integration yakozwe n'uburyo bubiri: uburyo bw'ububiko bushitse ku bidukikije bifise ubutunzi bwinshi n'uburyo bushingiye ku kuyungurura ku bidukikije bifise uburenganzira. Uburyo bwo kuyungurura butuma LDK imenyesha ivyo ikeneye mu kugenzura biciye ku nzira zitaboneka, isaba gukurikirana ibikorwa vyihariye, UTXOs, canke uburyo bwo kwandika. Ivyo bikoresho bishobora rero gushitsa iyo nzira y’ukugenzura hakoreshejwe ibikoresho vy’uburemere buke nk’ibikoresho vya Electrum canke abashakashatsi b’amabarabara, bikagabanya cane uburebure bw’uruzitiro n’ibisabwa vyo kubika ugereranyije n’uguhuza amabarabara yuzuye. Ivyo bituma ama wallets y’amatelefone ngendanwa n’ibikoresho vyo ku rubuga biguma bikora neza ata n’amahera akoreshwa nk’uko Lightning nodes za kera zisaba.

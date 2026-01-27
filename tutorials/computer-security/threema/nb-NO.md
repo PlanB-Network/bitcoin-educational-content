@@ -63,18 +63,18 @@ Threema er tilgjengelig på alle plattformer. Du kan laste ned applikasjonen dir
 
 
 
-- [Google Play] (https://play.google.com/store/apps/details?id=ch.threema.app);
-- [F-Cold] (https://f-droid.org/en/packages/ch.threema.app.libre/);
-- [Huawei AppGallery] (https://appgallery.huawei.com/#/app/C103713829);
-- [App Store] (https://apps.apple.com/us/app/threema-the-secure-messenger/id578665578).
+- [Google Play](https://play.google.com/store/apps/details?id=ch.threema.app);
+- [F-Cold](https://f-droid.org/en/packages/ch.threema.app.libre/);
+- [Huawei AppGallery](https://appgallery.huawei.com/#/app/C103713829);
+- [App Store](https://apps.apple.com/us/app/threema-the-secure-messenger/id578665578).
 
 
 
-På Android er det også mulig å [installere via APK] (https://shop.threema.ch/en/download).
+På Android er det også mulig å [installere via APK](https://shop.threema.ch/en/download).
 
 
 
-Det finnes også [datamaskinversjoner] (https://threema.ch/download) (MacOS, Linux og Windows). Denne veiledningen viser deg hvordan du synkroniserer dem.
+Det finnes også [datamaskinversjoner](https://threema.ch/download) (MacOS, Linux og Windows). Denne veiledningen viser deg hvordan du synkroniserer dem.
 
 
 
@@ -332,7 +332,7 @@ Her kan du tilpasse profilen din: legge til et bilde, velge hvem som kan se den,
 
 
 
-Hvis du vil ha tilgang til samtalene dine på PC-en din, kan du synkronisere Threema-kontoen din med den dedikerte programvaren. Last ned programvaren for operativsystemet ditt [fra det offisielle nettstedet] (https://threema.ch/en/download).
+Hvis du vil ha tilgang til samtalene dine på PC-en din, kan du synkronisere Threema-kontoen din med den dedikerte programvaren. Last ned programvaren for operativsystemet ditt [fra det offisielle nettstedet](https://threema.ch/en/download).
 
 
 

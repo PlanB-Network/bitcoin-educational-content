@@ -1,0 +1,8 @@
+question: Mitä avainsanaa tarvitaan, jotta muuttujaa voidaan muuttaa sen alkuperäisen ilmoittamisen jälkeen Rust:ssa?
+answer: mut
+wrong_answers:
+  - var
+  - mutable
+  - muutos
+explanation: |
+  Rust:ssä mut-avainsanaa tarvitaan, jotta muuttuja voidaan julistaa muuttuvaksi, jolloin sen arvoa voidaan muuttaa alkuperäisen määrityksen jälkeen. Oletusarvoisesti kaikki Rust:n muuttujat ovat muuttumattomia turvallisuussyistä. Syntaksi on 'let mut x = 5' muuttuvalle muuttujalle ja 'let x = 5' muuttumattomalle muuttujalle. Muut vaihtoehdot kuten 'var', 'mutable' ja 'change' eivät ole kelvollisia Rust:n avainsanoja tähän tarkoitukseen.

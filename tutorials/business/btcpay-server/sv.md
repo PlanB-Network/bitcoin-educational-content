@@ -1,5 +1,5 @@
 ---
-name: BTCPay-server
+name: BTCPay Server
 description: Acceptera BTC-betalningar utan mellanhänder
 ---
 
@@ -113,7 +113,7 @@ BTCPay Server kan distribueras snabbt från ett antal värdleverantörer. Bland 
 
 
 
-Besök [den officiella Voltage-webbplatsen] (https://voltage.cloud).
+Besök [den officiella Voltage-webbplatsen](https://voltage.cloud).
 
 
 

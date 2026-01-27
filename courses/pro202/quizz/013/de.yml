@@ -1,0 +1,8 @@
+question: Welche Art von mathematischer Struktur bilden die Punkte einer elliptischen Kurve unter der Additionsoperation?
+answer: Eine mathematische Gruppe mit Abschluss, Assoziativität, Identität und Inversen
+wrong_answers:
+  - Ein endliches Feld mit definierten Multiplikations- und Divisionsoperationen
+  - Ein Vektorraum mit skalarer Multiplikation und Linearkombinationen
+  - Eine Ringstruktur mit sowohl Additions- als auch Multiplikationsoperationen
+explanation: |
+  Punkte auf elliptischen Kurven bilden eine mathematische Gruppe unter Addition, was bedeutet, dass sie vier wesentliche Eigenschaften erfüllen: Schließung (die Addition von zwei Punkten ergibt einen weiteren Punkt auf der Kurve), Assoziativität (die Reihenfolge der Operationen spielt keine Rolle), Identität (der Punkt im Unendlichen fungiert als Null) und Inversen (jeder Punkt hat eine Spiegelung an der x-Achse, die ihn aufhebt). Diese Gruppenstruktur ist für die Kryptographie mit elliptischen Kurven von grundlegender Bedeutung, da sie gewährleistet, dass Operationen wie die Skalarmultiplikation (das wiederholte Addieren eines Punktes zu sich selbst) wohldefiniert und vorhersehbar sind, was sichere kryptographische Protokolle wie die in Bitcoin verwendeten ermöglicht.

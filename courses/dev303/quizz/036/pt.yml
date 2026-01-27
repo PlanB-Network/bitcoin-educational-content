@@ -1,0 +1,8 @@
+question: O que é que o Rust faz durante o processo de desenrolamento quando ocorre um pânico?
+answer: Percorre a pilha de chamadas para fornecer um rastreamento detalhado da pilha
+wrong_answers:
+  - Termina imediatamente o programa sem qualquer limpeza ou informação
+  - Converte o pânico num tipo de resultado recuperável para tratamento de erros
+  - Reinicia a execução da função atual desde o início
+explanation: |
+  Quando ocorre um pânico no Rust, o processo de desenrolamento percorre a pilha de chamadas para fornecer um rastreamento detalhado da pilha mostrando exatamente onde ocorreu o pânico. Isso ajuda os desenvolvedores a identificar a origem do problema durante a depuração. As outras opções estão incorretas: o Rust não termina imediatamente sem limpeza (isso só acontece quando o desenrolamento está desativado), os panics não podem ser convertidos em tipos de Resultado, pois representam erros irrecuperáveis, e o Rust não reinicia a execução da função quando ocorrem panics.

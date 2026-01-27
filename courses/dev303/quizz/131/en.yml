@@ -1,8 +1,0 @@
-question: What specific advantage did Rust's ecosystem provide to the Lipa team when choosing LDK for their Lightning wallet implementation?
-answer: Access to an extensive collection of existing Bitcoin-related libraries and tools that accelerated development while improving reliability
-wrong_answers:
-  - Built-in mobile optimization features that automatically reduced memory usage and battery consumption on Android and iOS devices
-  - Native integration with existing Lightning node implementations like LND that simplified channel management and payment routing
-  - Automatic handling of blockchain synchronization and transaction monitoring without requiring custom implementation work
-explanation: |
-  The Rust ecosystem's extensive collection of Bitcoin-related libraries allowed the Lipa team to leverage existing, well-tested solutions for common Bitcoin operations rather than implementing everything from scratch. This ecosystem effect significantly accelerated development while improving reliability through shared components. The wrong answers describe features that don't exist - Rust doesn't automatically provide mobile optimizations, native LND integration, or automatic blockchain synchronization handling, all of which required custom implementation work by the team.

@@ -28,7 +28,7 @@ https://planb.academy/tutorials/business/others/kraken-pro-07b1c16c-d517-4bf7-9a
 
 
 
-Aceda ao [sítio Web oficial da Kraken] (https://www.kraken.com/). Na página inicial, localize e clique na opção "Sign Up" (Registar) no canto superior direito para começar a criar a sua conta.
+Aceda ao [sítio Web oficial da Kraken](https://www.kraken.com/). Na página inicial, localize e clique na opção "Sign Up" (Registar) no canto superior direito para começar a criar a sua conta.
 
 
 

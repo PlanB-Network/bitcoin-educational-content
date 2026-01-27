@@ -1,0 +1,8 @@
+question: LDK'nın blok zinciri entegrasyon yaklaşımı ile geleneksel Lightning düğümleri arasında kaynak kısıtlı ortamlar açısından temel fark nedir?
+answer: LDK, uygulamaların Electrum sunucuları gibi hafif veri kaynakları aracılığıyla izleme yapmasına olanak tanıyan filtreleme tabanlı bir soyutlama sağlar
+wrong_answers:
+  - LDK tam blok zinciri senkronizasyonu gerektirir ancak sıkıştırılmış blok başlıkları ve işlem budama mekanizmaları aracılığıyla depolamayı optimize eder
+  - LDK, yalnızca kanalla ilgili işlemleri bellekte tutarak bant genişliğini azaltan özel bir blok zinciri protokolü uygular
+  - LDK, standart Bitcoin işlemlerini göz ardı ederken yalnızca Lightning ile ilgili işlemleri doğrulayan hibrit bir mutabakat mekanizması kullanır
+explanation: |
+  LDK'nın blok zinciri entegrasyonu iki mod ile tasarlanmıştır: kaynak açısından zengin ortamlar için tam blok modu ve kısıtlı ortamlar için filtreleme tabanlı mod. Filtreleme yaklaşımı, LDK'nın izleme ihtiyaçlarını soyut arayüzler aracılığıyla iletmesine ve belirli işlemlerin, UTXO'ların veya komut dosyası modellerinin gözetimini talep etmesine olanak tanır. Uygulamalar daha sonra bu izlemeyi Electrum sunucuları veya blok kaşifleri gibi hafif kaynaklar kullanarak gerçekleştirebilir ve tam blok zinciri senkronizasyonuna kıyasla bant genişliği ve depolama gereksinimlerini önemli ölçüde azaltabilir. Bu soyutlama, mobil cüzdanların ve web uygulamalarının geleneksel Lightning düğümlerinin gerektirdiği kaynak ek yükü olmadan Lightning işlevselliğini sürdürmesini sağlar.

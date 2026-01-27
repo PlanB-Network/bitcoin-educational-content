@@ -381,7 +381,7 @@ print("Hello, Bitcoin!")
     - Koresha gusa amashusho wiremye canke ataco utanga.
     - Raba neza ko zifise akamaro kandi zifise akamaro kanini.
 - Igitabo c'Igishushanyo**:
-    - Imyandikire: [IBM Plex Sans] (IBM+Plex+Sans).
+    - Imyandikire: [IBM Plex Sans](IBM+Plex+Sans).
     - Amabara Plan ₿ Academy:
         - Umutuku: `#FF5C00`
         - Ikirabura: `#000000`

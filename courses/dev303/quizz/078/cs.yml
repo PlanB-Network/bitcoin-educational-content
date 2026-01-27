@@ -1,0 +1,8 @@
+question: Jaký je hlavní rozdíl mezi metodami unwrap_or() a unwrap_or_default() při práci s typy Result a Option?
+answer: unwrap_or() vyžaduje zadání záložní hodnoty, zatímco unwrap_or_default() používá výchozí implementaci typu
+wrong_answers:
+  - unwrap_or() při chybách zpanikaří, zatímco unwrap_or_default() vrací None, což zajišťuje bezpečnější zpracování chyb ve výrobě
+  - funkce unwrap_or() pracuje pouze s typy Result, zatímco funkce unwrap_or_default() pracuje výhradně s typy Option pro extrakci hodnot
+  - unwrap_or() šíří chyby nahoru po zásobníku volání, zatímco unwrap_or_default() převádí všechny chyby na výchozí řetězcové zprávy
+explanation: |
+  Metoda unwrap_or() umožňuje zadat specifickou záložní hodnotu v případě, že výsledek obsahuje chybu nebo volba obsahuje hodnotu None, čímž vám dává kontrolu nad tím, jaká hodnota se použije v případě selhání. Naproti tomu metoda unwrap_or_default() automaticky používá implementaci rysu Default daného typu, což je výhodné, pokud je pro váš případ použití vhodná výchozí hodnota. Obě metody pracují s typy Result i Option a žádná z nich nepanikaří ani nešíří chyby - obě zajišťují elegantní degradaci tím, že místo selhání vracejí použitelné hodnoty.

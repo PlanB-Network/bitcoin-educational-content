@@ -1,0 +1,8 @@
+question: Welk fundamenteel ontwerpprincipe stelt LDK in staat om Lightning-bewuste HSM's te maken die op intelligente wijze kunnen evalueren of een transactie een legitieme betalingsrouting is versus mogelijk kwaadwillige pogingen?
+answer: De modulaire architectuur van LDK maakt extractie van specifieke componenten voor het ondertekenen en verifiëren van transacties mogelijk, terwijl de Lightning-protocolcontext bekend blijft
+wrong_answers:
+  - "Het gebeurtenisgestuurde systeem van LDK markeert automatisch verdachte transacties door middel van algoritmen voor machinaal leren die zijn geïntegreerd in het centrale ondertekeningsproces"
+  - "De blockchain-abstractielaag van LDK biedt realtime fraudedetectie door alle transacties te vergelijken met netwerkroddels."
+  - "Het peer managementsysteem van LDK implementeert geavanceerde cryptografische handtekeningen die inherent onderscheid maken tussen legitieme en kwaadaardige transactiepatronen."
+explanation: |
+  Dankzij het modulaire ontwerp van LDK kunnen ontwikkelaars alleen de ondertekenings- en verificatiecomponenten verwijderen, terwijl de Lightning-protocolintelligentie behouden blijft die nodig is om de transactiecontext te begrijpen. Hierdoor kunnen HSM's weloverwogen beslissingen nemen over het doorsturen van betalingen, kanaalbewerkingen en beveiligingsrisico's in plaats van blindelings transacties te ondertekenen. De verkeerde antwoorden schrijven deze mogelijkheid ten onrechte toe aan geautomatiseerde fraudedetectie, blockchainbewaking of cryptografische handtekeningen, terwijl het eigenlijk het vermogen van de modulaire architectuur is om protocolkennis te behouden in geïsoleerde componenten die intelligente transactie-evaluatie mogelijk maakt.

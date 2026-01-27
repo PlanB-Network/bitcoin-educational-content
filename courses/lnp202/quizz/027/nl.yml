@@ -1,0 +1,9 @@
+question: Welke informatie ontvangt Watchtower om valsspelen te controleren?
+answer: Gedeeltelijke TXID van de frauderende transactie
+wrong_answers:
+  - Privé kanaalsleutel
+  - Volledige kanaalstatus
+  - TXID van de frauderende transactie
+explanation: |
+  De wachttoren ontvangt slechts een deel van de TXID van de frauduleuze transactie om een verdachte transactie te identificeren zonder het kanaal te kennen.
+reviewed: false

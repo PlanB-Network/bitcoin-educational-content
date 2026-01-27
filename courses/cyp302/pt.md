@@ -468,15 +468,15 @@ Comecemos por defini-lo. Suponhamos um dicionário *D* que equaciona todas as le
 
 O operador de módulo na cifra de deslocamento assegura que as letras se envolvem, de modo a que todas as letras do texto cifrado sejam definidas. Para ilustrar, considere a aplicação da cifra de deslocamento na palavra "DOG".
 
-Suponha que selecionou uniformemente uma chave para ter o valor de 17. A letra "O" equivale a 15. Sem a operação de módulo, a adição deste número de texto simples com a chave resultaria num número de texto cifrado de 32. No entanto, esse número de texto cifrado não pode ser transformado numa letra de texto cifrado, uma vez que o alfabeto inglês só tem 26 letras. A operação de módulo garante que o número do texto cifrado é efetivamente 6 (o resultado de $32 \mod 26$), o que equivale à letra de texto cifrado "G".
+Suponha que selecionou uniformemente uma chave cujo valor é $17$. A letra “O” equivale a $14$. Sem a operação de módulo, a soma desse número do texto simples com a chave resultaria em um número de texto cifrado igual a $31$. Contudo, esse número não pode ser convertido em uma letra cifrada, pois o alfabeto inglês possui apenas $26$ letras. A operação de módulo garante que o número cifrado seja, na verdade, $5$ (o resultado de $31 \mod 26$), o que corresponde à letra cifrada “F”.
 
 A encriptação completa da palavra "DOG" com um valor de chave de 17 é a seguinte:
 
-- Mensagem = DOG = D,O,G = 3,15,6
+**Mensagem = DOG = D,O,G = 3,14,6**
 - $c_0 = [(3 + 17) \mod 26] = [(20) \mod 26] = 20 = U$
-- $c_1 = [(15 + 17) \mod 26] = [(32) \mod 26] = 6 = G$
+$c_1 = [(14 + 17) \mod 26] = [(31) \mod 26] = 5 = F$
 - $c_2 = [(6 + 17) \mod 26] = [(23) \mod 26] = 23 = X$
-- $c = UGX$
+*c = UFX*
 
 Toda a gente consegue compreender intuitivamente como funciona a cifra de deslocamento e, provavelmente, utilizá-la. No entanto, para avançar os seus conhecimentos de criptografia, é importante começar a sentir-se mais confortável com a formalização, pois os esquemas tornar-se-ão muito mais difíceis. Por isso, os passos da cifra de deslocamento foram formalizados.
 

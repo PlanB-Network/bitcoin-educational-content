@@ -1,5 +1,5 @@
 ---
-name: Amahera.jewe
+name: Cashu.me
 description: Cashu.me ubuyobozi bwo gukoresha ecash
 ---
 
@@ -81,7 +81,7 @@ Umutekano ni ikintu gihambaye cane. Bika neza amajambo yawe ya seed mu gikoresho
 ![image](assets/en/01.webp)
 
 
-Uhejeje gutegura, uzokenera kwifatanya na `Mint`. Kanda kuri `ADD MINT` ukurikiwe na `DISCOVER MINTS` kugira ngo ubone ama mints yashikirijwe n'umuryango wa Nostr. Kugira ngo ubone ibindi, urashobora gusubiramwo ibiharuro vy’amahera kuri [bitcoinmints.com] (bitcoinmints.com).
+Uhejeje gutegura, uzokenera kwifatanya na `Mint`. Kanda kuri `ADD MINT` ukurikiwe na `DISCOVER MINTS` kugira ngo ubone ama mints yashikirijwe n'umuryango wa Nostr. Kugira ngo ubone ibindi, urashobora gusubiramwo ibiharuro vy’amahera kuri [bitcoinmints.com](bitcoinmints.com).
 
 
 Inyuma y'aho, ushireko `Fyonda kugira ngo ubone ama mints` kugira ngo ubone urutonde rwose. Hitamwo mint mu gukopa URL yayo, ukayishira mu kibanza ca URL, hanyuma ukayiha izina rimenyekana. Kuri aka karorero, tuzokoresha:
@@ -239,7 +239,7 @@ Kubera ibintu nka NWC na npub.cash aderesi, Cashu.me ni uburyo bukwegera Wallet 
 [github.com/amahera/amahera.me](ubutumwa bw'amahera)
 
 
-[Ubutumwa: Github.com/amahera] (ubutumwa bw'amahera)
+[Ubutumwa: Github.com/amahera](ubutumwa bw'amahera)
 
 
 [github.com/amahera-ateye ubwoba](ubutumwa bwiza cane)

@@ -1,0 +1,8 @@
+question: Ni akaranga akahe k’ishimikiro cane amafunga yose ashira mu ngiro mu rwego rw’akaranga k’ugufunga rwa Rust?
+answer: FnImwe
+wrong_answers:
+  - FnMut
+  - Fn
+  - Iterateri
+explanation: |
+  FnOnce ni akaranga k'ishimikiro cane ko ugufunga kwose gushirwa mu ngiro muri Rust. Igereranya ugufunga bishobora kwitwa n’imiburiburi rimwe, bikaba biyigira umushinge w’uburongozi bw’imico y’ugufunga. FnMut na Fn ni ibiranga bibuza cane vyubatswe kuri FnOnce - FnMut yemera guhamagara kenshi n'ihinduka, mu gihe Fn yemera guhamagara kenshi ata mpinduka. Iterator nta sano ifitaniye n'ibiranga gufunga kandi ikoreshwa mu gutunganya urutonde rw'amakuru.

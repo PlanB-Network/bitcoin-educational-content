@@ -1,0 +1,8 @@
+question: Hva er den grunnleggende forskjellen mellom P2PK og P2PKH når det gjelder hvilken informasjon som avsløres før myntene brukes?
+answer: P2PK avslører hele den offentlige nøkkelen i ScriptPubKey før den brukes, mens P2PKH bare avslører en hash av den offentlige nøkkelen til den er brukt
+wrong_answers:
+  - P2PK krever flere signaturer for validering, mens P2PKH bare trenger én signatur for å låse opp myntene
+  - P2PK bruker en annen hashingalgoritme enn P2PKH, noe som gjør den sikrere mot kvanteberegningsangrep
+  - P2PK lagrer den private nøkkelen i ScriptPubKey, mens P2PKH kun lagrer resultatet av signaturbekreftelsen
+explanation: |
+  P2PK låser mynter direkte til en fullstendig offentlig nøkkel som er synlig i ScriptPubKey før utbetaling finner sted. P2PKH forbedrer personvernet ved kun å vise en 20-byte hash av den offentlige nøkkelen i ScriptPubKey, og skjuler den faktiske offentlige nøkkelen til eieren oppgir den i ScriptSig under bruk. Denne forbedringen av personvernet er en av P2PKHs viktigste fordeler i forhold til det tidligere P2PK-mønsteret.

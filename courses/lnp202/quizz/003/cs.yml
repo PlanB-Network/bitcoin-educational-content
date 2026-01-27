@@ -1,0 +1,9 @@
+question: Která z těchto operací Lightning vyžaduje zveřejnění transakce v řetězci?
+answer: Otevření kanálu
+wrong_answers:
+  - Blesková platba
+  - Směrování přes více míst
+  - Připojení mobilního klienta
+explanation: |
+  Otevření kanálu odpovídá transakci Bitcoin zveřejněné v blockchainu.
+reviewed: false

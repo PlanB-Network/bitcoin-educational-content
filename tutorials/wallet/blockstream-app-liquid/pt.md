@@ -149,10 +149,10 @@ O Liquid assenta numa **federação** de participantes de confiança (bolsas, em
 
 
 - Para **Android**:
-    - Descarregue [Blockstream App] (https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) a partir da Google Play Store.
+    - Descarregue [Blockstream App](https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet) a partir da Google Play Store.
     - Alternativa: Instalar através do ficheiro APK disponível no [GitHub oficial da Blockstream](https://github.com/Blockstream/green_android).
 - Para **iOS**:
-    - Descarregar [Blockstream App] (https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) da App Store.
+    - Descarregar [Blockstream App](https://apps.apple.com/us/app/Green-Bitcoin-Wallet/id1402243590) da App Store.
 - **Nota**: Certifique-se de que descarrega a partir de fontes oficiais para evitar aplicações fraudulentas.
 
 

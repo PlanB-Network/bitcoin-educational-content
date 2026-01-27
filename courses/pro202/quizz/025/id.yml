@@ -1,0 +1,8 @@
+question: Dalam validasi transaksi P2PKH, urutan operasi spesifik apa yang dilakukan oleh ScriptPubKey untuk memverifikasi kondisi pembelanjaan?
+answer: Menduplikasi kunci publik, melakukan hash, membandingkannya dengan hash yang telah dikomitmenkan, kemudian memverifikasi tanda tangan
+wrong_answers:
+  - Meng-hash tanda tangan, membandingkannya dengan hash kunci publik, kemudian memverifikasi terhadap nilai yang telah disepakati
+  - Memverifikasi tanda tangan terlebih dahulu, kemudian melakukan hash pada kunci publik dan membandingkannya dengan hash yang telah dikonfirmasi
+  - Menggabungkan tanda tangan dan kunci publik, meng-hash hasilnya, lalu membandingkannya dengan hash yang telah dikonfirmasi
+explanation: |
+  ScriptPubKey P2PKH mengikuti urutan tertentu: OP_DUP OP_HASH160 <pubkey_hash> OP_EQUALVERIFY OP_CHECKSIG. Ini menduplikasi kunci publik yang disediakan, menerapkan SHA256 kemudian melakukan hashing RIPEMD160, memverifikasi hasilnya sesuai dengan hash yang dilakukan, dan akhirnya memeriksa tanda tangan. Opsi lainnya salah menggambarkan urutan operasi atau menyarankan tanda tangan hashing dan bukannya kunci publik, yang akan merusak logika validasi.

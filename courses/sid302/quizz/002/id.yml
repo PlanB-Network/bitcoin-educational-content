@@ -1,0 +1,8 @@
+question: Seberapa sering blok baru dibuat dalam Liquid Network?
+answer: Setiap menit
+wrong_answers:
+  - Setiap 10 menit
+  - Setiap 30 detik
+  - Setiap 5 menit
+explanation: |
+  Liquid Network menghasilkan blok setiap menit dengan cara round-robin deterministik, yang jauh lebih cepat dan lebih dapat diprediksi daripada interval 10 menit probabilistik Bitcoin. Ketepatan waktu satu menit ini sangat penting untuk kasus penggunaan jaringan seperti arbitrase dan penyelesaian antar bursa yang cepat, memberikan kecepatan yang dibutuhkan untuk operasi perdagangan institusional.

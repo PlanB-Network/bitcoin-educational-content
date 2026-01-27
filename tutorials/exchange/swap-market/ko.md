@@ -1,5 +1,5 @@
 ---
-name: 스왑마켓
+name: SwapMarket
 description: Bitcoin 및 라이트닝 스왑 서비스 애그리게이터
 ---
 

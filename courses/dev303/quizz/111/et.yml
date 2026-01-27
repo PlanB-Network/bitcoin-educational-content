@@ -1,0 +1,8 @@
+question: Milline on peamine arhitektuuriline kompromiss, mida Breez SDK teeb lihtsustatud Lightningi integreerimise saavutamiseks, säilitades samal ajal mittekaitstavuse põhimõtted?
+answer: Kasutajad kaotavad osa privaatsusest, kuna Greenlight saab jälgida kanali olekut ja marsruutimisinfot, kuid säilitavad täieliku kontrolli privaatvõtmete ja fondile juurdepääsu üle
+wrong_answers:
+  - Kasutajad peavad usaldama Greenlight'ile rahaliste vahendite osalise hoidmise vastutasuks automatiseeritud kanalihalduse ja väiksema operatiivse keerukuse eest
+  - Arendajad kaotavad juurdepääsu Lightningi täiustatud funktsioonidele, nagu kohandatud marsruutimine ja kanalipoliitika, vastutasuks lihtsustatud API integratsiooni ja platvormideülese toetuse eest
+  - Rakendused ohverdavad reaalajas maksetöötlusvõimalusi, et saada vastutasuks parem turvalisus tänu kõigi Lightning-tehingute pilvepõhisele valideerimisele
+explanation: |
+  Breez SDK ülesehitus kujutab endast hoolikalt kaalutud kompromissi eraelu puutumatuse ja kasutatavuse vahel. Kuigi Greenlight saab jälgida kanali olekut ja marsruutimisandmeid (mis vähendab privaatsust), säilitavad kasutajad täieliku kontrolli oma isiklike võtmete üle, mis ei lahku kunagi nende seadmetest. See tagab, et rahalistele vahenditele ei ole võimalik ligi pääseda ilma kasutaja loata, säilitades põhilise mittekaitstavuse põhimõtte. Valed vastused viitavad ebaõigesti fondide hoidmisele, funktsioonide piirangutele või töötlemisviivitustele - ükski neist ei ole SDK disainis tegelik kompromiss.

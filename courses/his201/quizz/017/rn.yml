@@ -1,9 +1,9 @@
-question: Ni hehe Nick Szabo yatanguriye gushikiriza iciyumviro ciwe c’inzahabu y’ibice mu 1998?
-answer: Urutonde rw'ubutumwa rwa libtech-l
+question: Ni hehe Nick Szabo yatanguriye gushikiriza iciyumviro ciwe c’inzahabu y’ibice(bit gold) mu 1998?
+answer: Urutonde rw'ubutumwa rwa libtech-l(The libtech-l mailing list)
 wrong_answers:
-  - Urutonde rw'abarungika ubutumwa
-  - Urutonde rw'ubutumwa rw'ibanga
-  - Urutonde rw'abanyagihugu bo hanze
+  - Urutonde rw'abarungika ubutumwa rw'aba cypherpunks(The cypherpunks mailing list)
+  - Urutonde rw'ubutumwa rw'ukunyegeza ubutumwa(The Cryptography mailing list)
+  - Urutonde rw'abanyagihugu bo hanze(The extropians mailing list)
 explanation: |
   Iryo ryari urutonde rwiwe rw’ibanga, rwarimwo abahinga mu vy’ubuhinga bwa none nka Wei Dai na Hal Finney be n’abahinga mu vy’ubutunzi nka Larry White na George Selgin.
 reviewed: true

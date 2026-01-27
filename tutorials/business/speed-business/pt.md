@@ -18,7 +18,7 @@ A adoção mundial do Bitcoin baseia-se em casos de utilização tangíveis na v
 
 
 
-a [Speed Business] (https://www.tryspeed.com/) é uma plataforma desenvolvida pela [Speed Wallet] (https://www.speed.app/) que permite a qualquer comerciante integrar pagamentos instantâneos e de baixo custo em Bitcoin e stablecoin.
+a [Speed Business](https://www.tryspeed.com/) é uma plataforma desenvolvida pela [Speed Wallet](https://www.speed.app/) que permite a qualquer comerciante integrar pagamentos instantâneos e de baixo custo em Bitcoin e stablecoin.
 
 
 
@@ -94,7 +94,7 @@ Quando se desactiva o modo de teste, é necessário configurar a carteira de lev
 
 
 
-Se ainda não possui uma Bitcoin e/ou Lightning Wallet, recomendamos que consulte os nossos tutoriais sobre [carteiras móveis] (https://planb.academy/tutorials/wallet).
+Se ainda não possui uma Bitcoin e/ou Lightning Wallet, recomendamos que consulte os nossos tutoriais sobre [carteiras móveis](https://planb.academy/tutorials/wallet).
 
 
 

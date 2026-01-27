@@ -1,0 +1,8 @@
+question: Mikä kriittinen turvallisuusvaatimus on täytettävä, kun ECDSA-allekirjoitusta luotaessa generoidaan nonce K?
+answer: K:n on oltava yksilöllinen ja arvaamaton jokaisessa allekirjoituksessa yksityisen avaimen vaarantumisen estämiseksi
+wrong_answers:
+  - K on johdettava julkisesta avaimesta, jotta allekirjoituksen todentaminen toimisi oikein
+  - K:n on oltava sama useissa allekirjoituksissa, jotta allekirjoitusprosessi pysyy johdonmukaisena
+  - K:n on oltava yhtä suuri kuin yksityinen avain kerrottuna viestin hashilla matemaattisen oikeellisuuden vuoksi
+explanation: |
+  Nonce K:n on oltava ainutlaatuinen ja arvaamaton jokaisessa allekirjoituksessa, koska K:n uudelleenkäyttö tai sen ennustettavuus antaa hyökkääjille mahdollisuuden palauttaa yksityinen avain. Jos samaa K:ta käytetään kahdesti eri viesteissä, yksityinen avain voidaan paljastaa yksinkertaisella algebralla. Nykyaikaisissa toteutuksissa käytetään determinististä K:n generointia (RFC 6979) satunnaislukugeneraattorin vikojen välttämiseksi ja samalla ainutkertaisuuden varmistamiseksi. Muut vaihtoehdot ovat virheellisiä: K:ta ei pitäisi koskaan johtaa julkisesta avaimesta, sitä ei saisi koskaan käyttää uudelleen eikä se saisi koskaan olla yhtä suuri kuin yksityisen avaimen ja viestin hash.

@@ -1,5 +1,5 @@
 ---
-name: ماکادمیا Wallet
+name: Macadamia Wallet
 description: کشو موبایل wallet برای پرداخت‌های ناشناس و فوری BTC
 ---
 

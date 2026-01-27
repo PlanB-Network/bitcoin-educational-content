@@ -1,5 +1,5 @@
 ---
-name: زئوس سواپ
+name: Zeus Swap
 description: خدمات Exchange غیر حضانتی بین بیت‌کوین‌های On-Chain و Lightning Network
 ---
 
@@ -390,12 +390,13 @@ Phoenix و Breez قابلیت‌های مبادله شفاف را ادغام م�
 
 
 
-| Service | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | Montant minimum |
-|---------|-------------------------|----------------------|-----------------|
-| **Zeus Swap** | ~0.1% + frais minage | 0.5% + frais minage | 25 000 sats |
-| **Boltz** | 0.2% + frais minage | 0.5% + frais minage | 50 000 sats |
-| **Phoenix** | Frais minage uniquement | 0.4% fixe | 10 000 sats |
-| **Breez** | 0.25% + frais réseau | 0.5% + frais minage | 50 000 sats |
+
+| سرویس | Submarine Swap (BTC→LN) | Reverse Swap (LN→BTC) | حداقل مبلغ |
+| ------------- | ----------------------- | --------------------- | --------------- |
+| **Zeus Swap** | ~0.1% + هزینه استخراج | 0.5% + هزینه استخراج | ۲۵,۰۰۰ ساتوشی |
+| **Boltz** | 0.2% + هزینه استخراج | 0.5% + هزینه استخراج | ۵۰,۰۰۰ ساتوشی |
+| **Phoenix** | فقط هزینه استخراج | 0.4% ثابت | ۱۰,۰۰۰ ساتوشی |
+| **Breez** | 0.25% + هزینه شبکه | 0.5% + هزینه استخراج | ۵۰,۰۰۰ ساتوشی |
 
 Zeus Swap تعادلی بین سهولت استفاده و کنترل فنی ارائه می‌دهد: دسترسی‌پذیرتر از Boltz، انعطاف‌پذیرتر از Phoenix/Breez، با رویکردی کاملاً غیرامانی.
 

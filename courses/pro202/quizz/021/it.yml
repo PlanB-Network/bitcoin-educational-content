@@ -1,0 +1,8 @@
+question: Qual è la principale conseguenza di dimenticare di includere un output di modifica quando si spende un UTXO che contiene più Bitcoin del necessario?
+answer: L'importo in eccesso diventa automaticamente una commissione per il minatore
+wrong_answers:
+  - La transazione sarà rifiutata dalla rete in quanto non valida
+  - "L'importo in eccesso viene restituito all'indirizzo del mittente originale"
+  - L'importo in eccesso rimane bloccato nel UTXO originale
+explanation: |
+  Nel modello Bitcoin del UTXO, le commissioni di transazione sono calcolate implicitamente come la differenza tra gli input totali e gli output totali (commissione = somma(input) - somma(output)). Quando si spende un UTXO, è necessario spenderlo interamente: una spesa parziale è impossibile. Se si deve spendere solo una parte del valore di un UTXO, si deve creare un'output di modifica per ricevere il resto. Se si dimentica di includere questa output di modifica, la differenza non contabilizzata tra entrate e uscite diventa automaticamente la tassa del minatore. Per questo motivo, la corretta costruzione di un'output di cambio è essenziale: senza di essa, si potrebbero accidentalmente pagare tasse enormi ai minatori.

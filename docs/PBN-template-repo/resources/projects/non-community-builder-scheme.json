@@ -46,7 +46,21 @@
       "minItems": 1
     }
   },
+  "assets_rules": {
+    "description": "Required image assets for non-community builder content.",
+    "files": [
+      {
+        "path": "assets/logo.webp",
+        "required": true,
+        "format": "WebP",
+        "dimensions": {
+          "aspect_ratio": "1:1",
+          "recommended": "800x800 pixels"
+        },
+        "description": "Project logo"
+      }
+    ]
+  },
   "required": ["name", "category", "links", "tags"],
   "additionalProperties": false
 }
-

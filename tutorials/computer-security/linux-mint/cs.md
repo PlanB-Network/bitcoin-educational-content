@@ -39,7 +39,6 @@ Vyhněte se:
 - Chromebookům – často mají příliš nízkou kapacitu úložiště
 - Jakémukoli počítači s eMMC diskem; pokud má SSD disk, to je perfektní
 - Macům – jsou drahé a hardware se v mém zkušenosti dobře neslučuje s Linuxovými operačními systémy
-- Čemukoli repasovanému nebo použitému (i když to není absolutní překážka)
 
 Místo toho hledejte notebook s Windows 11 (v současné době je Windows 11 nejnovější verze. Nebojte se, tohoto softwaru se zbavíme.). Hledal jsem na amazon.com "Windows 11 Laptop" a našel jsem tento dobrý příklad:
 ![obrázek](assets/1.webp)

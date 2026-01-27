@@ -1,5 +1,5 @@
 ---
-name: Save your mnemonic phrase
+name: Back up your mnemonic phrase
 description: Discover best practices for safeguarding your Bitcoin wallet
 ---
 ![cover](assets/cover.webp)

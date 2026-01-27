@@ -137,7 +137,7 @@ Sasa unaweza kufikia programu ya Interface.
 Kabla ya kuanza, ikiwa Ledger yako ni mpya, hakikisha kuwa umeweka msimbo wa PIN na kuhifadhi maneno ya kurejesha akaunti. Huhitaji Ledger Live kwa hatua hizi za mwanzo. Unganisha tu Ledger yako kupitia kebo ya USB ili kuiwasha. Ikiwa huna uhakika jinsi ya kuendelea na hatua hizi mbili, unaweza kurejelea mwanzo wa mafunzo maalum kwa mfano wako:
 
 
-https://planb.academy/tutorials/wallet/hardware/ledger-c6fc7d82-91e7-4c74-bad7-cbff7fea7a88
+
 
 https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
 

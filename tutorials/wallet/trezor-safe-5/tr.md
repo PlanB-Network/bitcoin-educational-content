@@ -102,7 +102,7 @@ Cihaz üzerinde gezinme oldukça sezgiseldir:
 
 
 
-Bu eğitimde, Trezor Safe 5'i [Sparrow wallet Wallet yönetim yazılımı] (https://sparrowwallet.com/download/) ile nasıl kullanacağınızı göstereceğim. Bu yazılımı henüz yüklemediyseniz, lütfen şimdi yükleyin. Yardıma ihtiyacınız olursa, Sparrow wallet'nin yapılandırılması hakkında ayrıntılı bir eğitimimiz de var:
+Bu eğitimde, Trezor Safe 5'i [Sparrow wallet Wallet yönetim yazılımı](https://sparrowwallet.com/download/) ile nasıl kullanacağınızı göstereceğim. Bu yazılımı henüz yüklemediyseniz, lütfen şimdi yükleyin. Yardıma ihtiyacınız olursa, Sparrow wallet'nin yapılandırılması hakkında ayrıntılı bir eğitimimiz de var:
 
 
 
@@ -395,7 +395,7 @@ Hardware Wallet'nizde düzenli ürün yazılımı güncellemeleri yapmak ya da b
 
 
 
-Henüz yapmadıysanız, Sparrow wallet'ü [resmi web sitesinden] (https://sparrowwallet.com/) bilgisayarınıza indirip yükleyerek başlayın.
+Henüz yapmadıysanız, Sparrow wallet'ü [resmi web sitesinden](https://sparrowwallet.com/) bilgisayarınıza indirip yükleyerek başlayın.
 
 
 

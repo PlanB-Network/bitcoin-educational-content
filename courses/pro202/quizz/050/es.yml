@@ -1,0 +1,8 @@
+question: Cuando un nodo Bitcoin arranca y se une a la red por primera vez, ¿cuál es el mecanismo principal que utiliza para descubrir pares activos?
+answer: Contactos con semillas DNS codificadas mantenidas por los desarrolladores del núcleo para recibir las IP de los pares activos
+wrong_answers:
+  - Emite un mensaje de detección a todas las direcciones IP en rangos de subred predefinidos
+  - Se conecta a un servidor de registro central que mantiene una lista de todos los nodos activos
+  - Utiliza el protocolo DHT (tabla Hash distribuida) para encontrar pares mediante enrutamiento basado en hash
+explanation: |
+  Bitcoin utiliza semillas DNS codificadas como mecanismo de arranque porque proporciona una forma descentralizada de que los nuevos nodos entren en la red sin depender de una autoridad central. Las semillas DNS son mantenidas por los desarrolladores del núcleo y devuelven las direcciones IP de los pares activos en ese momento. Una vez conectados, los nodos pueden utilizar el comando getaddr para descubrir otros pares. Las respuestas incorrectas describen enfoques centralizados o protocolos que Bitcoin no utiliza: en el diseño de Bitcoin no hay registro central, ni difusión de subredes, ni descubrimiento de pares basado en DHT.

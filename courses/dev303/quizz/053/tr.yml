@@ -1,0 +1,8 @@
+question: RC'nin bellek güvenliğini korurken çoklu sahipliğe izin vermesini sağlayan temel mekanizma nedir?
+answer: Referansları izleyen ve yalnızca sayaç sıfıra ulaştığında belleği serbest bırakan dahili bir sayaç
+wrong_answers:
+  - Program yürütülmeden önce tüm referans modellerini doğrulayan bir derleme zamanı analizi
+  - Erişilemeyen bellek tahsislerini periyodik olarak tarayan ve temizleyen bir çöp toplayıcı
+  - Aynı verinin birden fazla sahibi arasındaki erişimi senkronize eden kilit tabanlı bir sistem
+explanation: |
+  RC, klonlandığında artan ve bırakıldığında azalan dahili bir referans sayacı tutar ve belleğin yalnızca referans kalmadığında serbest bırakılmasını sağlar. Bu, derleme zamanı analizi (Box'ın kullandığı), çöp toplama (Rust'ın kullanmadığı) veya kilitleme mekanizmalarından (sahiplik takibi için değil, iş parçacığı senkronizasyonu için kullanılır) farklıdır. Sayaç tabanlı yaklaşım, çöp toplamanın çalışma zamanı ek yükü veya tek sahipliğin kısıtlamaları olmadan güvenli paylaşımlı sahipliğe izin verir.

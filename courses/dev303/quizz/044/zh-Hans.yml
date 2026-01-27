@@ -1,0 +1,8 @@
+question: 在 Rust 的闭包特性层次结构中，所有闭包实现的最基本特性是什么？
+answer: FnOnce
+wrong_answers:
+  - FnMut
+  - Fn
+  - 迭代器
+explanation: |
+  FnOnce 是 Rust 中所有闭包实现的最基本特性。它代表至少能被调用一次的闭包，是闭包特质层次结构的基础。FnMut 和 Fn 是建立在 FnOnce 基础上的限制性更强的特质--FnMut 允许多次调用并带有突变，而 Fn 则允许多次调用而不带突变。迭代器与闭包特质无关，用于处理数据序列。

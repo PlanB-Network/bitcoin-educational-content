@@ -1,5 +1,5 @@
 ---
-name: Panga ₿ Chuo - Programu ya Pears
+name: Plan ₿ Academy - Pears App
 description: Jinsi ya kusakinisha na kutumia programu ya Plan ₿ Academy kwenye Pears?
 ---
 

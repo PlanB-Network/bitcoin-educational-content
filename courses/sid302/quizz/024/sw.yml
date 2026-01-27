@@ -1,0 +1,8 @@
+question: Katika Jukwaa la Usimamizi wa Mali la Liquid (AMP), ni utaratibu gani mkuu wa kiufundi unaozuia vitendo vya kufuata sheria kwa hatua moja tu ya kushindwa huku ukidumisha udhibiti wa udhibiti juu ya mali zilizo na tokeni?
+answer: Idhini ya sahihi nyingi inayohitaji pande nyingi kuidhinisha vitendo vya kufuata sheria kama vile kusimamisha fedha au kutoa tena tokeni
+wrong_answers:
+  - Tokeni za utawala za Smart contract zinazoruhusu jamii kupiga kura kuhusu maamuzi yote ya kufuata sheria na utekelezaji wa sheria
+  - Akaunti za escrow zilizofungwa kwa muda ambazo hutekeleza kiotomatiki vitendo vya kufuata sheria baada ya muda uliopangwa kuisha
+  - Makubaliano ya uthibitisho wa hisa kwa njia ya kidijitali ambapo wathibitishaji lazima wafikie makubaliano ya wengi kabla ya kutekeleza hatua yoyote ya kufuata sheria
+explanation: |
+  AMP hutumia udhibiti wa sahihi nyingi ili kuhakikisha kwamba vitendo vya utiifu vinahitaji idhini kutoka kwa wahusika wengi, na hivyo kuzuia mfanyakazi yeyote mmoja kutenda kwa upande mmoja. Hii huunda mfumo wa ukaguzi na mizani kwa shughuli nyeti huku ikidumisha usimamizi wa udhibiti unaohitajika kwa mali za taasisi. Majibu yasiyo sahihi yanaelezea mifumo ambayo haipo katika AMP au isingefaa kwa utiifu wa kifedha unaodhibitiwa.
